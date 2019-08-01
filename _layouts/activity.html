@@ -72,6 +72,8 @@ layout: default
             <strong>Udstyr</strong>: {{ page.equipment | join: ", " }}<br />
           {% endif %}
         </div>
+
+        <div><a href="/assets/pdf/exercises/{{ page.path | replace: "_exercises/", "" | replace: ".md", "" }}.pdf" class="btn btn--primary">{{ site.data.ui-text[site.locale].pdf_label | default: "Download PDF" }}</a></div>
         
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>

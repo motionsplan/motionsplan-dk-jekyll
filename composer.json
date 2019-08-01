@@ -1,0 +1,11 @@
+{
+  "name": "motionsplan/live",
+  "repositories": [
+    { "type": "vcs", "url": "https://github.com/motionsplan/motionsplan-pdf-library/" }
+  ],
+  "require": {
+    "motionsplan/motionsplan-pdf-library": "*",
+    "mnapoli/front-yaml": "dev-master"
+  },
+  "minimum-stability": "dev"
+}

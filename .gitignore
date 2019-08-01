@@ -7,3 +7,6 @@ bower_components
 .jekyll-metadata
 .DS_Store
 Gemfile.lock
+vendor/
+composer.phar
+composer.lock
