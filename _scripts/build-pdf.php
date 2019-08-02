@@ -1,5 +1,6 @@
 <?php
 date_default_timezone_set("Europe/Copenhagen");
+ini_set('memory_limit', '-1');
 
 require __DIR__ . '/../vendor/autoload.php';
 
@@ -95,7 +96,8 @@ foreach ($fileList as $filename){
     unset($parser);
     
     $filename =  __DIR__ . '/../assets/pdf/exercises/' . $name['filename'] . '.pdf';
-    $pdf = new Portrait();
+    $disccache = true;
+    $pdf = new Portrait($disccache);
     $pdf->setTemporaryDirectory(__DIR__);
     $pdf->setLogo(new ExerciseImage(__DIR__ . '/../assets/images/mp-logo.png'), 'http://www.motionsplan.dk');
     $pdf->setContribLogo(new ExerciseImage(__DIR__ . '/../assets/images/vih_logo.jpg'), 'http://www.vih.dk');
