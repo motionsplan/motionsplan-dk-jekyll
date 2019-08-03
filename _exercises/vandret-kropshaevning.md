@@ -1,11 +1,14 @@
 ---
 title: "Roning, proneret bodyrow"
 excerpt: "Vandret kropshævning med benene på en bænk."
+instructions: "Vandret kropshævning med benene på en bænk."
 permalink: /oevelse/vandret-kropshaevning
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/vandret-kropshaevning-0.jpg
-  teaser: /assets/images/exercises/vandret-kropshaevning-0.jpg
+  teaser: /assets/images/exercises/vandret-kropshaevning-0-320.jpg
 tags:
 categories:
 training_type: 
@@ -20,11 +23,11 @@ alternative_titles:
   - vandret kropshævning
 gallery:
   - url: /assets/images/exercises/vandret-kropshaevning-0.jpg
-    image_path: /assets/images/exercises/vandret-kropshaevning-0.jpg
+    image_path: /assets/images/exercises/vandret-kropshaevning-0-320.jpg
     alt: "Roning, proneret bodyrow"
     title: "Roning, proneret bodyrow"
   - url: /assets/images/exercises/vandret-kropshaevning-1.jpg
-    image_path: /assets/images/exercises/vandret-kropshaevning-1.jpg
+    image_path: /assets/images/exercises/vandret-kropshaevning-1-320.jpg
     alt: "Roning, proneret bodyrow"
     title: "Roning, proneret bodyrow"
 video:

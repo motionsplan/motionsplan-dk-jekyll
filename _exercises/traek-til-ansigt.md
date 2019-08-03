@@ -1,11 +1,14 @@
 ---
 title: "Træk til ansigt"
 excerpt: "Hold i rebhåndtaget med underhåndsgreb. I god balance trækker du rebet hen mod dit ansigt, mens du holder hovedet og skuldrene i samme position som ved starten."
+instructions: "Hold i rebhåndtaget med underhåndsgreb. I god balance trækker du rebet hen mod dit ansigt, mens du holder hovedet og skuldrene i samme position som ved starten."
 permalink: /oevelse/traek-til-ansigt
+redirect_from: /node/
+id: 
 language: da
 header:
-  overlay_image: /assets/images/exercises/traek-til-ansigt-0.JPG
-  teaser: /assets/images/exercises/traek-til-ansigt-0.JPG
+  overlay_image: /assets/images/exercises/traek-til-ansigt-0.jpg
+  teaser: /assets/images/exercises/traek-til-ansigt-0-320.jpg
 tags:
   - Træk
   - Balance
@@ -32,12 +35,12 @@ alternative_titles:
   - face pull
   - facepull
 gallery:
-  - url: /assets/images/exercises/traek-til-ansigt-0.JPG
-    image_path: /assets/images/exercises/traek-til-ansigt-0.JPG
+  - url: /assets/images/exercises/traek-til-ansigt-0.jpg
+    image_path: /assets/images/exercises/traek-til-ansigt-0-320.jpg
     alt: "Træk til ansigt"
     title: "Træk til ansigt"
-  - url: /assets/images/exercises/traek-til-ansigt-1.JPG
-    image_path: /assets/images/exercises/traek-til-ansigt-1.JPG
+  - url: /assets/images/exercises/traek-til-ansigt-1.jpg
+    image_path: /assets/images/exercises/traek-til-ansigt-1-320.jpg
     alt: "Træk til ansigt"
     title: "Træk til ansigt"
 video:

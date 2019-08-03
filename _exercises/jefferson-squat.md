@@ -1,11 +1,14 @@
 ---
 title: "Jefferson squat"
 excerpt: "Hold en vægt mellem benene. Ret ryggen ved at skyde brystet frem og skuldrene tilbage. Gå ned i knæ mens du holder spændet i kropsstammen. Rejs dig. Og gentag."
+instructions: "Hold en vægt mellem benene. Ret ryggen ved at skyde brystet frem og skuldrene tilbage. Gå ned i knæ mens du holder spændet i kropsstammen. Rejs dig. Og gentag."
 permalink: /oevelse/jefferson-squat
+redirect_from: /node/
+id: 
 language: da
 header:
-  overlay_image: /assets/images/exercises/jefferson-squat-0.JPG
-  teaser: /assets/images/exercises/jefferson-squat-0.JPG
+  overlay_image: /assets/images/exercises/jefferson-squat-0.jpg
+  teaser: /assets/images/exercises/jefferson-squat-0-320.jpg
 tags:
   - Ben
   - Styrketræning
@@ -25,20 +28,20 @@ muscle_group:
   - Baller
   - Forlår
 gallery:
-  - url: /assets/images/exercises/jefferson-squat-0.JPG
-    image_path: /assets/images/exercises/jefferson-squat-0.JPG
+  - url: /assets/images/exercises/jefferson-squat-0.jpg
+    image_path: /assets/images/exercises/jefferson-squat-0-320.jpg
     alt: "Jefferson squat"
     title: "Jefferson squat"
-  - url: /assets/images/exercises/jefferson-squat-1.JPG
-    image_path: /assets/images/exercises/jefferson-squat-1.JPG
+  - url: /assets/images/exercises/jefferson-squat-1.jpg
+    image_path: /assets/images/exercises/jefferson-squat-1-320.jpg
     alt: "Jefferson squat"
     title: "Jefferson squat"
-  - url: /assets/images/exercises/jefferson-squat-2.JPG
-    image_path: /assets/images/exercises/jefferson-squat-2.JPG
+  - url: /assets/images/exercises/jefferson-squat-2.jpg
+    image_path: /assets/images/exercises/jefferson-squat-2-320.jpg
     alt: "Jefferson squat"
     title: "Jefferson squat"
-  - url: /assets/images/exercises/jefferson-squat-3.JPG
-    image_path: /assets/images/exercises/jefferson-squat-3.JPG
+  - url: /assets/images/exercises/jefferson-squat-3.jpg
+    image_path: /assets/images/exercises/jefferson-squat-3-320.jpg
     alt: "Jefferson squat"
     title: "Jefferson squat"
 last_modified_at: 2014-10-12T19:29:26Z

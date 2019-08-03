@@ -1,11 +1,14 @@
 ---
 title: "Bear squat"
 excerpt: ""
+instructions: ""
 permalink: /oevelse/bear-squat
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/bear-squat-0.jpg
-  teaser: /assets/images/exercises/bear-squat-0.jpg
+  teaser: /assets/images/exercises/bear-squat-0-320.jpg
 tags:
   - Helkropsøvelse
   - Balance
@@ -33,15 +36,15 @@ muscle_group:
 alternative_titles:
 gallery:
   - url: /assets/images/exercises/bear-squat-0.jpg
-    image_path: /assets/images/exercises/bear-squat-0.jpg
+    image_path: /assets/images/exercises/bear-squat-0-320.jpg
     alt: "Bear squat"
     title: "Bear squat"
   - url: /assets/images/exercises/bear-squat-1.jpg
-    image_path: /assets/images/exercises/bear-squat-1.jpg
+    image_path: /assets/images/exercises/bear-squat-1-320.jpg
     alt: "Bear squat"
     title: "Bear squat"
   - url: /assets/images/exercises/bear-squat-2.jpg
-    image_path: /assets/images/exercises/bear-squat-2.jpg
+    image_path: /assets/images/exercises/bear-squat-2-320.jpg
     alt: "Bear squat"
     title: "Bear squat"
 last_modified_at: 2016-10-18T07:28:10Z

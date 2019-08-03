@@ -1,11 +1,14 @@
 ---
-title: "Spring, 180  jump "
+title: "Spring, 180  jump"
 excerpt: "Maksimalt hop samtidig med en 180 graders  rotation af hele kroppen. Ved landing foretages endnu et maksimalt hop samtidigt med en 180 graders rotation den anden vej og tilbage til udgangsposition"
+instructions: "Maksimalt hop samtidig med en 180 graders  rotation af hele kroppen. Ved landing foretages endnu et maksimalt hop samtidigt med en 180 graders rotation den anden vej og tilbage til udgangsposition"
 permalink: /oevelse/180-jump
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/180-jump-0.jpg
-  teaser: /assets/images/exercises/180-jump-0.jpg
+  teaser: /assets/images/exercises/180-jump-0-320.jpg
 tags:
   - kropsvægt
 categories:
@@ -16,27 +19,27 @@ equipment:
 muscle_group:
 gallery:
   - url: /assets/images/exercises/180-jump-0.jpg
-    image_path: /assets/images/exercises/180-jump-0.jpg
+    image_path: /assets/images/exercises/180-jump-0-320.jpg
     alt: "Spring, 180  jump "
     title: "Spring, 180  jump "
   - url: /assets/images/exercises/180-jump-1.jpg
-    image_path: /assets/images/exercises/180-jump-1.jpg
+    image_path: /assets/images/exercises/180-jump-1-320.jpg
     alt: "Spring, 180  jump "
     title: "Spring, 180  jump "
   - url: /assets/images/exercises/180-jump-2.jpg
-    image_path: /assets/images/exercises/180-jump-2.jpg
+    image_path: /assets/images/exercises/180-jump-2-320.jpg
     alt: "Spring, 180  jump "
     title: "Spring, 180  jump "
   - url: /assets/images/exercises/180-jump-3.jpg
-    image_path: /assets/images/exercises/180-jump-3.jpg
+    image_path: /assets/images/exercises/180-jump-3-320.jpg
     alt: "Spring, 180  jump "
     title: "Spring, 180  jump "
   - url: /assets/images/exercises/180-jump-4.jpg
-    image_path: /assets/images/exercises/180-jump-4.jpg
+    image_path: /assets/images/exercises/180-jump-4-320.jpg
     alt: "Spring, 180  jump "
     title: "Spring, 180  jump "
   - url: /assets/images/exercises/180-jump-5.jpg
-    image_path: /assets/images/exercises/180-jump-5.jpg
+    image_path: /assets/images/exercises/180-jump-5-320.jpg
     alt: "Spring, 180  jump "
     title: "Spring, 180  jump "
 last_modified_at: 2010-11-02T13:43:26Z

@@ -1,11 +1,14 @@
 ---
 title: "Planken"
 excerpt: "Lig hvilende på underarmene og håndfladerne på gulvet. Skub dig op, så du kun rører gulvet med underarmene og tæerne. Hold kroppen ret. Hold så vidt muligt kroppen helt lige. Hold stillingen i maksimalt 20 sekunder - og gentag, hvor du strammer baller, baglår og mave intenst. Alternativ: I stedet for at ligge hvilende på underarmene, kan du sætte håndfladerne i gulvet og stå med armene strakt. (som personen i sort tøj på billedet) "
+instructions: "Lig hvilende på underarmene og håndfladerne på gulvet. Skub dig op, så du kun rører gulvet med underarmene og tæerne. Hold kroppen ret. Hold så vidt muligt kroppen helt lige. Hold stillingen i maksimalt 20 sekunder - og gentag, hvor du strammer baller, baglår og mave intenst. Alternativ: I stedet for at ligge hvilende på underarmene, kan du sætte håndfladerne i gulvet og stå med armene strakt. (som personen i sort tøj på billedet) "
 permalink: /oevelse/planken
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/planken-0.jpg
-  teaser: /assets/images/exercises/planken-0.jpg
+  teaser: /assets/images/exercises/planken-0-320.jpg
 tags:
   - Kropsstamme
   - Styrketræning
@@ -28,7 +31,7 @@ muscle_group:
   - Mave
 gallery:
   - url: /assets/images/exercises/planken-0.jpg
-    image_path: /assets/images/exercises/planken-0.jpg
+    image_path: /assets/images/exercises/planken-0-320.jpg
     alt: "Planken"
     title: "Planken"
 video:

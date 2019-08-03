@@ -1,11 +1,14 @@
 ---
 title: "Træk, enarms"
 excerpt: "Tag fat i vægten på gulvet. Bøj i knæ- og hofteled og hold ryggen ret. Herfra skal du accellere håndvægten, så du kan gribe den i strakt arm over hovedet."
+instructions: "Tag fat i vægten på gulvet. Bøj i knæ- og hofteled og hold ryggen ret. Herfra skal du accellere håndvægten, så du kan gribe den i strakt arm over hovedet."
 permalink: /oevelse/traek-enarms
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/traek-enarms-0.jpg
-  teaser: /assets/images/exercises/traek-enarms-0.jpg
+  teaser: /assets/images/exercises/traek-enarms-0-320.jpg
 tags:
   - Helkropsøvelse
   - håndvægte
@@ -18,15 +21,15 @@ equipment:
 muscle_group:
 gallery:
   - url: /assets/images/exercises/traek-enarms-0.jpg
-    image_path: /assets/images/exercises/traek-enarms-0.jpg
+    image_path: /assets/images/exercises/traek-enarms-0-320.jpg
     alt: "Træk, enarms"
     title: "Træk, enarms"
   - url: /assets/images/exercises/traek-enarms-1.jpg
-    image_path: /assets/images/exercises/traek-enarms-1.jpg
+    image_path: /assets/images/exercises/traek-enarms-1-320.jpg
     alt: "Træk, enarms"
     title: "Træk, enarms"
   - url: /assets/images/exercises/traek-enarms-2.jpg
-    image_path: /assets/images/exercises/traek-enarms-2.jpg
+    image_path: /assets/images/exercises/traek-enarms-2-320.jpg
     alt: "Træk, enarms"
     title: "Træk, enarms"
 video:

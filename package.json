@@ -1,0 +1,33 @@
+{
+  "name": "motionsplan",
+  "version": "1.0.0",
+  "description": "Build motionsplan",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/motionsplan/motionsplan-dk-jekyll.git"
+  },
+  "keywords": [
+    "jekyll",
+    "gulp",
+    "netlify"
+  ],
+  "author": "Lars Olesen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/motionsplan/motionsplan-dk-jekyll/issues"
+  },
+  "dependencies": {
+    "glob": "^7.0.6",
+    "gulp": "^4.0.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-empty": "^0.1.1",
+    "gulp-filter": "^5.1.0",
+    "gulp-if": "^2.0.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-newer": "^1.4.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-responsive": "2.12.0",
+    "gulp-size": "^3.0.0",
+    "gulp-util": "^3.0.7"
+  }
+}

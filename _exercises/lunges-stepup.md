@@ -1,11 +1,14 @@
 ---
 title: "Stepup, lunge"
 excerpt: "Stå foran bænken med skulderbreddes afstand mellem fødderne. Træd op på bænken uden at sætte af på det bagerste ben. Træd langsomt ned igen og gentag med det andet ben."
+instructions: "Stå foran bænken med skulderbreddes afstand mellem fødderne. Træd op på bænken uden at sætte af på det bagerste ben. Træd langsomt ned igen og gentag med det andet ben."
 permalink: /oevelse/lunges-stepup
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/lunges-stepup-0.jpg
-  teaser: /assets/images/exercises/lunges-stepup-0.jpg
+  teaser: /assets/images/exercises/lunges-stepup-0-320.jpg
 tags:
   - Ben
   - Styrketræning
@@ -32,19 +35,19 @@ muscle_group:
   - Forlår
 gallery:
   - url: /assets/images/exercises/lunges-stepup-0.jpg
-    image_path: /assets/images/exercises/lunges-stepup-0.jpg
+    image_path: /assets/images/exercises/lunges-stepup-0-320.jpg
     alt: "Stepup, lunge"
     title: "Stepup, lunge"
   - url: /assets/images/exercises/lunges-stepup-1.jpg
-    image_path: /assets/images/exercises/lunges-stepup-1.jpg
+    image_path: /assets/images/exercises/lunges-stepup-1-320.jpg
     alt: "Stepup, lunge"
     title: "Stepup, lunge"
   - url: /assets/images/exercises/lunges-stepup-2.jpg
-    image_path: /assets/images/exercises/lunges-stepup-2.jpg
+    image_path: /assets/images/exercises/lunges-stepup-2-320.jpg
     alt: "Stepup, lunge"
     title: "Stepup, lunge"
   - url: /assets/images/exercises/lunges-stepup-3.jpg
-    image_path: /assets/images/exercises/lunges-stepup-3.jpg
+    image_path: /assets/images/exercises/lunges-stepup-3-320.jpg
     alt: "Stepup, lunge"
     title: "Stepup, lunge"
 last_modified_at: 2014-10-12T19:07:34Z

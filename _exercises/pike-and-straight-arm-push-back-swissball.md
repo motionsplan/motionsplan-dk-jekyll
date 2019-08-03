@@ -1,7 +1,10 @@
 ---
 title: "Pike and straight arm push back on swissball"
 excerpt: ""
+instructions: ""
 permalink: /oevelse/pike-and-straight-arm-push-back-swissball
+redirect_from: /node/
+id: 
 language: da
 tags:
   - Kropsstamme

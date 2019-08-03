@@ -1,11 +1,14 @@
 ---
 title: "Bænkpres"
 excerpt: "Liggende på en bænk og skub vandret."
+instructions: "Liggende på en bænk og skub vandret."
 permalink: /oevelse/baenkpres
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/baenkpres-0.jpg
-  teaser: /assets/images/exercises/baenkpres-0.jpg
+  teaser: /assets/images/exercises/baenkpres-0-320.jpg
 tags:
   - Pres
   - Styrketræning
@@ -28,19 +31,19 @@ muscle_group:
   - Bryst
 gallery:
   - url: /assets/images/exercises/baenkpres-0.jpg
-    image_path: /assets/images/exercises/baenkpres-0.jpg
+    image_path: /assets/images/exercises/baenkpres-0-320.jpg
     alt: "Bænkpres"
     title: "Bænkpres"
   - url: /assets/images/exercises/baenkpres-1.jpg
-    image_path: /assets/images/exercises/baenkpres-1.jpg
+    image_path: /assets/images/exercises/baenkpres-1-320.jpg
     alt: "Bænkpres"
     title: "Bænkpres"
   - url: /assets/images/exercises/baenkpres-2.jpg
-    image_path: /assets/images/exercises/baenkpres-2.jpg
+    image_path: /assets/images/exercises/baenkpres-2-320.jpg
     alt: "Bænkpres"
     title: "Bænkpres"
   - url: /assets/images/exercises/baenkpres-3.jpg
-    image_path: /assets/images/exercises/baenkpres-3.jpg
+    image_path: /assets/images/exercises/baenkpres-3-320.jpg
     alt: "Bænkpres"
     title: "Bænkpres"
 video:

@@ -1,11 +1,14 @@
 ---
 title: "Waiter walk"
 excerpt: ""
+instructions: ""
 permalink: /oevelse/waiter-walk
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/waiter-walk-0.jpg
-  teaser: /assets/images/exercises/waiter-walk-0.jpg
+  teaser: /assets/images/exercises/waiter-walk-0-320.jpg
 tags:
   - Koordination og balance
   - Balance
@@ -25,7 +28,7 @@ muscle_group:
 alternative_titles:
 gallery:
   - url: /assets/images/exercises/waiter-walk-0.jpg
-    image_path: /assets/images/exercises/waiter-walk-0.jpg
+    image_path: /assets/images/exercises/waiter-walk-0-320.jpg
     alt: "Waiter walk"
     title: "Waiter walk"
 last_modified_at: 2016-10-18T07:30:05Z

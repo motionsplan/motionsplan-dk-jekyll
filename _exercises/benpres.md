@@ -1,11 +1,14 @@
 ---
 title: "Benpres"
 excerpt: "Juster maskinen så den passer til dig. Du skal kunne holde hele foden i under hele bevægelsen. Stræk benene uden at overstrække. Bøj langsomt benene igen."
+instructions: "Juster maskinen så den passer til dig. Du skal kunne holde hele foden i under hele bevægelsen. Stræk benene uden at overstrække. Bøj langsomt benene igen."
 permalink: /oevelse/benpres
+redirect_from: /node/
+id: 
 language: da
 header:
-  overlay_image: /assets/images/exercises/benpres-0.JPG
-  teaser: /assets/images/exercises/benpres-0.JPG
+  overlay_image: /assets/images/exercises/benpres-0.jpg
+  teaser: /assets/images/exercises/benpres-0-320.jpg
 tags:
   - Ben
   - Styrketræning
@@ -23,16 +26,16 @@ equipment:
 muscle_group:
   - Forlår
 gallery:
-  - url: /assets/images/exercises/benpres-0.JPG
-    image_path: /assets/images/exercises/benpres-0.JPG
+  - url: /assets/images/exercises/benpres-0.jpg
+    image_path: /assets/images/exercises/benpres-0-320.jpg
     alt: "Benpres"
     title: "Benpres"
-  - url: /assets/images/exercises/benpres-1.JPG
-    image_path: /assets/images/exercises/benpres-1.JPG
+  - url: /assets/images/exercises/benpres-1.jpg
+    image_path: /assets/images/exercises/benpres-1-320.jpg
     alt: "Benpres"
     title: "Benpres"
-  - url: /assets/images/exercises/benpres-2.JPG
-    image_path: /assets/images/exercises/benpres-2.JPG
+  - url: /assets/images/exercises/benpres-2.jpg
+    image_path: /assets/images/exercises/benpres-2-320.jpg
     alt: "Benpres"
     title: "Benpres"
 last_modified_at: 2014-10-12T19:12:37Z

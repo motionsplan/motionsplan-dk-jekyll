@@ -1,11 +1,14 @@
 ---
 title: "Military press, stang"
 excerpt: "Start med vægten på brystet. Herfra stemmes vægtstangen op til strakte arme."
+instructions: "Start med vægten på brystet. Herfra stemmes vægtstangen op til strakte arme."
 permalink: /oevelse/military-press
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/military-press-0.jpg
-  teaser: /assets/images/exercises/military-press-0.jpg
+  teaser: /assets/images/exercises/military-press-0-320.jpg
 tags:
   - Hård styrkeøvelse
   - Styrketræning
@@ -28,11 +31,11 @@ alternative_titles:
   - skulderpres
 gallery:
   - url: /assets/images/exercises/military-press-0.jpg
-    image_path: /assets/images/exercises/military-press-0.jpg
+    image_path: /assets/images/exercises/military-press-0-320.jpg
     alt: "Military press, stang"
     title: "Military press, stang"
   - url: /assets/images/exercises/military-press-1.jpg
-    image_path: /assets/images/exercises/military-press-1.jpg
+    image_path: /assets/images/exercises/military-press-1-320.jpg
     alt: "Military press, stang"
     title: "Military press, stang"
 video:

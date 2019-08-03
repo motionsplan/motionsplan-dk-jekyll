@@ -1,11 +1,14 @@
 ---
 title: "Box jump"
 excerpt: "Spring fra jorden op på en kasse. Land med det meste af foden på kassen. Inden du springer ned, skal du udvise kontrol. "
+instructions: "Spring fra jorden op på en kasse. Land med det meste af foden på kassen. Inden du springer ned, skal du udvise kontrol. "
 permalink: /oevelse/box-jump
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/box-jump-0.jpg
-  teaser: /assets/images/exercises/box-jump-0.jpg
+  teaser: /assets/images/exercises/box-jump-0-320.jpg
 tags:
   - Hård styrkeøvelse
   - kasse
@@ -18,7 +21,7 @@ equipment:
 muscle_group:
 gallery:
   - url: /assets/images/exercises/box-jump-0.jpg
-    image_path: /assets/images/exercises/box-jump-0.jpg
+    image_path: /assets/images/exercises/box-jump-0-320.jpg
     alt: "Box jump"
     title: "Box jump"
 last_modified_at: 2013-11-19T13:18:21Z

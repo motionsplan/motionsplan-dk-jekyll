@@ -1,7 +1,10 @@
 ---
 title: "Hop med armtræk"
 excerpt: ""
+instructions: ""
 permalink: /oevelse/hop-med-armtraek
+redirect_from: /node/
+id: 
 language: da
 tags:
 categories:

@@ -1,11 +1,14 @@
 ---
 title: "Brettzel 3.0"
 excerpt: ""
+instructions: ""
 permalink: /oevelse/brettzel-30
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/brettzel-30-0.jpg
-  teaser: /assets/images/exercises/brettzel-30-0.jpg
+  teaser: /assets/images/exercises/brettzel-30-0-320.jpg
 tags:
   - Strækøvelser
 categories:
@@ -17,7 +20,7 @@ muscle_group:
 alternative_titles:
 gallery:
   - url: /assets/images/exercises/brettzel-30-0.jpg
-    image_path: /assets/images/exercises/brettzel-30-0.jpg
+    image_path: /assets/images/exercises/brettzel-30-0-320.jpg
     alt: "Brettzel 3.0"
     title: "Brettzel 3.0"
 video:

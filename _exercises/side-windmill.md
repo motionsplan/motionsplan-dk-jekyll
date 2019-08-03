@@ -1,7 +1,10 @@
 ---
 title: "Side windmill"
 excerpt: ""
+instructions: ""
 permalink: /oevelse/side-windmill
+redirect_from: /node/
+id: 
 language: da
 tags:
   - Kropsstamme

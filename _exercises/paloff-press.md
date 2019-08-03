@@ -1,11 +1,14 @@
 ---
 title: "Paloff Press"
 excerpt: ""
+instructions: ""
 permalink: /oevelse/paloff-press
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/paloff-press-0.jpg
-  teaser: /assets/images/exercises/paloff-press-0.jpg
+  teaser: /assets/images/exercises/paloff-press-0-320.jpg
 tags:
   - Kropsstamme
   - Balance
@@ -28,15 +31,15 @@ muscle_group:
   - Mave
 gallery:
   - url: /assets/images/exercises/paloff-press-0.jpg
-    image_path: /assets/images/exercises/paloff-press-0.jpg
+    image_path: /assets/images/exercises/paloff-press-0-320.jpg
     alt: "Paloff Press"
     title: "Paloff Press"
   - url: /assets/images/exercises/paloff-press-1.jpg
-    image_path: /assets/images/exercises/paloff-press-1.jpg
+    image_path: /assets/images/exercises/paloff-press-1-320.jpg
     alt: "Paloff Press"
     title: "Paloff Press"
   - url: /assets/images/exercises/paloff-press-2.jpg
-    image_path: /assets/images/exercises/paloff-press-2.jpg
+    image_path: /assets/images/exercises/paloff-press-2-320.jpg
     alt: "Paloff Press"
     title: "Paloff Press"
 video:

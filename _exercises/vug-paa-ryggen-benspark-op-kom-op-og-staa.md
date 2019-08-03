@@ -1,7 +1,10 @@
 ---
 title: "Vug på ryggen, benspark op, kom op og stå"
 excerpt: "Læg dig på ryggen, og løft ben og overkrop fri af gulvet. Vug frem og tilbage. Først et vug med bøjede ben, derefter et vug, hvor du sparker benene op over hovedet hvorefter du umiddelbart rejser dig op uden brug af hænder."
+instructions: "Læg dig på ryggen, og løft ben og overkrop fri af gulvet. Vug frem og tilbage. Først et vug med bøjede ben, derefter et vug, hvor du sparker benene op over hovedet hvorefter du umiddelbart rejser dig op uden brug af hænder."
 permalink: /oevelse/vug-paa-ryggen-benspark-op-kom-op-og-staa
+redirect_from: /node/
+id: 
 language: da
 tags:
   - kropsstamme

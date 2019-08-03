@@ -1,11 +1,14 @@
 ---
 title: "Dips med bænk"
 excerpt: "En tricepsøvelse, hvor kropsvægten bruges som belastning."
+instructions: "En tricepsøvelse, hvor kropsvægten bruges som belastning."
 permalink: /oevelse/dip-paa-stepbaenk
+redirect_from: /node/
+id: 
 language: da
 header:
-  overlay_image: /assets/images/exercises/dip-paa-stepbaenk-0.JPG
-  teaser: /assets/images/exercises/dip-paa-stepbaenk-0.JPG
+  overlay_image: /assets/images/exercises/dip-paa-stepbaenk-0.jpg
+  teaser: /assets/images/exercises/dip-paa-stepbaenk-0-320.jpg
 tags:
   - bænk
   - kropsvægt
@@ -23,16 +26,16 @@ muscle_group:
   - 
   - 
 gallery:
-  - url: /assets/images/exercises/dip-paa-stepbaenk-0.JPG
-    image_path: /assets/images/exercises/dip-paa-stepbaenk-0.JPG
+  - url: /assets/images/exercises/dip-paa-stepbaenk-0.jpg
+    image_path: /assets/images/exercises/dip-paa-stepbaenk-0-320.jpg
     alt: "Dips med bænk"
     title: "Dips med bænk"
-  - url: /assets/images/exercises/dip-paa-stepbaenk-1.JPG
-    image_path: /assets/images/exercises/dip-paa-stepbaenk-1.JPG
+  - url: /assets/images/exercises/dip-paa-stepbaenk-1.jpg
+    image_path: /assets/images/exercises/dip-paa-stepbaenk-1-320.jpg
     alt: "Dips med bænk"
     title: "Dips med bænk"
-  - url: /assets/images/exercises/dip-paa-stepbaenk-2.JPG
-    image_path: /assets/images/exercises/dip-paa-stepbaenk-2.JPG
+  - url: /assets/images/exercises/dip-paa-stepbaenk-2.jpg
+    image_path: /assets/images/exercises/dip-paa-stepbaenk-2-320.jpg
     alt: "Dips med bænk"
     title: "Dips med bænk"
 last_modified_at: 2011-05-02T16:08:43Z

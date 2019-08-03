@@ -1,7 +1,10 @@
 ---
 title: "Dødløft, sumo med makker"
 excerpt: "Parvis. Den arbejdende står op. Den anden står i armstrækningsstand. Den anden holder vedkommendes ben i sine hænder mellem sine egne ben og laver sumo dødløft."
+instructions: "Parvis. Den arbejdende står op. Den anden står i armstrækningsstand. Den anden holder vedkommendes ben i sine hænder mellem sine egne ben og laver sumo dødløft."
 permalink: /oevelse/doedloeft-sumo-med-makker
+redirect_from: /node/
+id: 
 language: da
 tags:
 categories:

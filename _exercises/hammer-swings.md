@@ -1,11 +1,14 @@
 ---
 title: "Hammer swings"
 excerpt: "Løft hammeren op over hovedet og brug hele kroppen til at banke hammeren hårdt ned i dækket. Skift håndstilling."
+instructions: "Løft hammeren op over hovedet og brug hele kroppen til at banke hammeren hårdt ned i dækket. Skift håndstilling."
 permalink: /oevelse/hammer-swings
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/hammer-swings-0.jpg
-  teaser: /assets/images/exercises/hammer-swings-0.jpg
+  teaser: /assets/images/exercises/hammer-swings-0-320.jpg
 tags:
   - helkropsøvelse
   - hammer
@@ -20,11 +23,11 @@ equipment:
 muscle_group:
 gallery:
   - url: /assets/images/exercises/hammer-swings-0.jpg
-    image_path: /assets/images/exercises/hammer-swings-0.jpg
+    image_path: /assets/images/exercises/hammer-swings-0-320.jpg
     alt: "Hammer swings"
     title: "Hammer swings"
   - url: /assets/images/exercises/hammer-swings-1.jpg
-    image_path: /assets/images/exercises/hammer-swings-1.jpg
+    image_path: /assets/images/exercises/hammer-swings-1-320.jpg
     alt: "Hammer swings"
     title: "Hammer swings"
 last_modified_at: 2014-10-10T21:22:17Z

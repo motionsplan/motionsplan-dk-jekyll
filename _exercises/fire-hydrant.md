@@ -1,11 +1,14 @@
 ---
 title: "Fire hydrant"
 excerpt: "Støt på hænder og knæ og tæer. Løft langsomt det ene knæ ud til siden, indtil underbenet er parallelt med jorden. Sænk det langsomt igen."
+instructions: "Støt på hænder og knæ og tæer. Løft langsomt det ene knæ ud til siden, indtil underbenet er parallelt med jorden. Sænk det langsomt igen."
 permalink: /oevelse/fire-hydrant
+redirect_from: /node/
+id: 
 language: da
 header:
-  overlay_image: /assets/images/exercises/fire-hydrant-0.JPG
-  teaser: /assets/images/exercises/fire-hydrant-0.JPG
+  overlay_image: /assets/images/exercises/fire-hydrant-0.jpg
+  teaser: /assets/images/exercises/fire-hydrant-0-320.jpg
 tags:
   - kropsstamme
   - kropsvægt
@@ -17,20 +20,20 @@ equipment:
   - kropsvægt
 muscle_group:
 gallery:
-  - url: /assets/images/exercises/fire-hydrant-0.JPG
-    image_path: /assets/images/exercises/fire-hydrant-0.JPG
+  - url: /assets/images/exercises/fire-hydrant-0.jpg
+    image_path: /assets/images/exercises/fire-hydrant-0-320.jpg
     alt: "Fire hydrant"
     title: "Fire hydrant"
-  - url: /assets/images/exercises/fire-hydrant-1.JPG
-    image_path: /assets/images/exercises/fire-hydrant-1.JPG
+  - url: /assets/images/exercises/fire-hydrant-1.jpg
+    image_path: /assets/images/exercises/fire-hydrant-1-320.jpg
     alt: "Fire hydrant"
     title: "Fire hydrant"
-  - url: /assets/images/exercises/fire-hydrant-2.JPG
-    image_path: /assets/images/exercises/fire-hydrant-2.JPG
+  - url: /assets/images/exercises/fire-hydrant-2.jpg
+    image_path: /assets/images/exercises/fire-hydrant-2-320.jpg
     alt: "Fire hydrant"
     title: "Fire hydrant"
-  - url: /assets/images/exercises/fire-hydrant-3.JPG
-    image_path: /assets/images/exercises/fire-hydrant-3.JPG
+  - url: /assets/images/exercises/fire-hydrant-3.jpg
+    image_path: /assets/images/exercises/fire-hydrant-3-320.jpg
     alt: "Fire hydrant"
     title: "Fire hydrant"
 last_modified_at: 2013-10-02T10:10:22Z

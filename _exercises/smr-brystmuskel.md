@@ -1,7 +1,10 @@
 ---
 title: "SMR brystmuskel"
 excerpt: ""
+instructions: ""
 permalink: /oevelse/smr-brystmuskel
+redirect_from: /node/
+id: 
 language: da
 tags:
   - Self Myofascial Release (SMR)

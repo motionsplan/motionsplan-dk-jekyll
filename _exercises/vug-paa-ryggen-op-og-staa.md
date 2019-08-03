@@ -1,7 +1,10 @@
 ---
 title: "Vug på ryggen, op og stå"
 excerpt: "Sæt dig ned, vug tilbage, frem igen og stil dig op. Der må ikke bruges hænder på gulvet til at komme op og stå igen."
+instructions: "Sæt dig ned, vug tilbage, frem igen og stil dig op. Der må ikke bruges hænder på gulvet til at komme op og stå igen."
 permalink: /oevelse/vug-paa-ryggen-op-og-staa
+redirect_from: /node/
+id: 
 language: da
 tags:
   - kropsstamme

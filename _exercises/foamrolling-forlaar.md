@@ -1,7 +1,10 @@
 ---
 title: "Foamrolling forlår"
 excerpt: ""
+instructions: ""
 permalink: /oevelse/foamrolling-forlaar
+redirect_from: /node/
+id: 
 language: da
 tags:
   - Self Myofascial Release (SMR)

@@ -1,11 +1,14 @@
 ---
 title: "Cykel, spinning"
 excerpt: "Cykel, spinning"
+instructions: "Cykel, spinning"
 permalink: /oevelse/cykel-spinning
+redirect_from: /node/
+id: 
 language: da
 header:
-  overlay_image: /assets/images/exercises/cykel-spinning-0.JPG
-  teaser: /assets/images/exercises/cykel-spinning-0.JPG
+  overlay_image: /assets/images/exercises/cykel-spinning-0.jpg
+  teaser: /assets/images/exercises/cykel-spinning-0-320.jpg
 tags:
   - Kondition
 categories:
@@ -15,8 +18,8 @@ training_focus:
 equipment:
 muscle_group:
 gallery:
-  - url: /assets/images/exercises/cykel-spinning-0.JPG
-    image_path: /assets/images/exercises/cykel-spinning-0.JPG
+  - url: /assets/images/exercises/cykel-spinning-0.jpg
+    image_path: /assets/images/exercises/cykel-spinning-0-320.jpg
     alt: "Cykel, spinning"
     title: "Cykel, spinning"
 last_modified_at: 2014-10-10T21:03:47Z

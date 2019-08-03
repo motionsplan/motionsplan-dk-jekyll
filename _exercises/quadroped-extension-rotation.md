@@ -1,7 +1,10 @@
 ---
 title: "Quadroped extension rotation"
 excerpt: ""
+instructions: ""
 permalink: /oevelse/quadroped-extension-rotation
+redirect_from: /node/
+id: 
 language: da
 tags:
   - Kropsstamme

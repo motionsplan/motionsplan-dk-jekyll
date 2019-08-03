@@ -1,7 +1,10 @@
 ---
 title: "Tall kneeling one arm press with kettlebell"
 excerpt: ""
+instructions: ""
 permalink: /oevelse/tall-kneeling-one-arm-press-kettlebell
+redirect_from: /node/
+id: 
 language: da
 tags:
   - Pres

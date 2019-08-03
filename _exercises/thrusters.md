@@ -1,11 +1,14 @@
 ---
 title: "Thrusters"
 excerpt: "Hold vægtene i hænderne og lad dem hvile i brysthøjde. Lav en dyb benbøjning. Rejs dig igen. Stræk armene op over hovedet."
+instructions: "Hold vægtene i hænderne og lad dem hvile i brysthøjde. Lav en dyb benbøjning. Rejs dig igen. Stræk armene op over hovedet."
 permalink: /oevelse/thrusters
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/thrusters-0.jpg
-  teaser: /assets/images/exercises/thrusters-0.jpg
+  teaser: /assets/images/exercises/thrusters-0-320.jpg
 tags:
   - Helkropsøvelse
   - Styrketræning
@@ -28,7 +31,7 @@ muscle_group:
   - Skuldre
 gallery:
   - url: /assets/images/exercises/thrusters-0.jpg
-    image_path: /assets/images/exercises/thrusters-0.jpg
+    image_path: /assets/images/exercises/thrusters-0-320.jpg
     alt: "Thrusters"
     title: "Thrusters"
 last_modified_at: 2014-10-12T19:28:48Z

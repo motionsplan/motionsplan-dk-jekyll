@@ -1,11 +1,14 @@
 ---
 title: "Pistol"
 excerpt: "Stå på et ben. Løft det andet ben frem foran dig så det ikke rører jorden. Herfra laver du en dyb knæbøjning uden at røre med benet i luften. Rejs dig igen."
+instructions: "Stå på et ben. Løft det andet ben frem foran dig så det ikke rører jorden. Herfra laver du en dyb knæbøjning uden at røre med benet i luften. Rejs dig igen."
 permalink: /oevelse/pistol
+redirect_from: /node/
+id: 
 language: da
 header:
-  overlay_image: /assets/images/exercises/pistol-0.JPG
-  teaser: /assets/images/exercises/pistol-0.JPG
+  overlay_image: /assets/images/exercises/pistol-0.jpg
+  teaser: /assets/images/exercises/pistol-0-320.jpg
 tags:
   - Hård styrkeøvelse
   - Styrketræning
@@ -29,12 +32,12 @@ muscle_group:
 alternative_titles:
   - Pistols
 gallery:
-  - url: /assets/images/exercises/pistol-0.JPG
-    image_path: /assets/images/exercises/pistol-0.JPG
+  - url: /assets/images/exercises/pistol-0.jpg
+    image_path: /assets/images/exercises/pistol-0-320.jpg
     alt: "Pistol"
     title: "Pistol"
-  - url: /assets/images/exercises/pistol-1.JPG
-    image_path: /assets/images/exercises/pistol-1.JPG
+  - url: /assets/images/exercises/pistol-1.jpg
+    image_path: /assets/images/exercises/pistol-1-320.jpg
     alt: "Pistol"
     title: "Pistol"
 video:

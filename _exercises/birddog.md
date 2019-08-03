@@ -1,11 +1,14 @@
 ---
 title: "Bird dog"
 excerpt: "Start med at hvile på knæ og arme. Løft den ene arm og modsatte fod indtil begge er parallelle med gulvet. Lav bevægelsen uden at vride i hoften. Sænk igen. Gentag med modsatte arm og ben."
+instructions: "Start med at hvile på knæ og arme. Løft den ene arm og modsatte fod indtil begge er parallelle med gulvet. Lav bevægelsen uden at vride i hoften. Sænk igen. Gentag med modsatte arm og ben."
 permalink: /oevelse/birddog
+redirect_from: /node/
+id: 
 language: da
 header:
-  overlay_image: /assets/images/exercises/birddog-0.JPG
-  teaser: /assets/images/exercises/birddog-0.JPG
+  overlay_image: /assets/images/exercises/birddog-0.jpg
+  teaser: /assets/images/exercises/birddog-0-320.jpg
 tags:
   - Koordination og balance
   - kropsstamme
@@ -21,16 +24,16 @@ muscle_group:
 alternative_titles:
   - birddog
 gallery:
-  - url: /assets/images/exercises/birddog-0.JPG
-    image_path: /assets/images/exercises/birddog-0.JPG
+  - url: /assets/images/exercises/birddog-0.jpg
+    image_path: /assets/images/exercises/birddog-0-320.jpg
     alt: "Bird dog"
     title: "Bird dog"
-  - url: /assets/images/exercises/birddog-1.JPG
-    image_path: /assets/images/exercises/birddog-1.JPG
+  - url: /assets/images/exercises/birddog-1.jpg
+    image_path: /assets/images/exercises/birddog-1-320.jpg
     alt: "Bird dog"
     title: "Bird dog"
-  - url: /assets/images/exercises/birddog-2.JPG
-    image_path: /assets/images/exercises/birddog-2.JPG
+  - url: /assets/images/exercises/birddog-2.jpg
+    image_path: /assets/images/exercises/birddog-2-320.jpg
     alt: "Bird dog"
     title: "Bird dog"
 last_modified_at: 2013-10-03T10:07:22Z

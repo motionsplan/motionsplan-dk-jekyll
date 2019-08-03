@@ -1,11 +1,14 @@
 ---
 title: "Foamrolling baglår"
 excerpt: ""
+instructions: ""
 permalink: /oevelse/foamrolling-baglaar
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/foamrolling-baglaar-0.jpg
-  teaser: /assets/images/exercises/foamrolling-baglaar-0.jpg
+  teaser: /assets/images/exercises/foamrolling-baglaar-0-320.jpg
 tags:
   - Self Myofascial Release (SMR)
   - foamroller
@@ -19,11 +22,11 @@ muscle_group:
 alternative_titles:
 gallery:
   - url: /assets/images/exercises/foamrolling-baglaar-0.jpg
-    image_path: /assets/images/exercises/foamrolling-baglaar-0.jpg
+    image_path: /assets/images/exercises/foamrolling-baglaar-0-320.jpg
     alt: "Foamrolling baglår"
     title: "Foamrolling baglår"
   - url: /assets/images/exercises/foamrolling-baglaar-1.jpg
-    image_path: /assets/images/exercises/foamrolling-baglaar-1.jpg
+    image_path: /assets/images/exercises/foamrolling-baglaar-1-320.jpg
     alt: "Foamrolling baglår"
     title: "Foamrolling baglår"
 last_modified_at: 2015-04-10T13:41:22Z

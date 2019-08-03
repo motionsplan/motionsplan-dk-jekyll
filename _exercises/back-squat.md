@@ -1,11 +1,14 @@
 ---
 title: "Squat, vægtstangen på nakken"
 excerpt: "Fødderne placeres nogenlunde i skulderbredde med tæerne pegende let udad og knæene skal pege ud over tæerne. Herfra går du så langt ned i knæ, som du kan. Rejs dig igen."
+instructions: "Fødderne placeres nogenlunde i skulderbredde med tæerne pegende let udad og knæene skal pege ud over tæerne. Herfra går du så langt ned i knæ, som du kan. Rejs dig igen."
 permalink: /oevelse/back-squat
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/back-squat-0.jpg
-  teaser: /assets/images/exercises/back-squat-0.jpg
+  teaser: /assets/images/exercises/back-squat-0-320.jpg
 tags:
   - Ben
   - Styrketræning
@@ -29,15 +32,15 @@ alternative_titles:
   - backsquat
 gallery:
   - url: /assets/images/exercises/back-squat-0.jpg
-    image_path: /assets/images/exercises/back-squat-0.jpg
+    image_path: /assets/images/exercises/back-squat-0-320.jpg
     alt: "Squat, vægtstangen på nakken"
     title: "Squat, vægtstangen på nakken"
   - url: /assets/images/exercises/back-squat-1.jpg
-    image_path: /assets/images/exercises/back-squat-1.jpg
+    image_path: /assets/images/exercises/back-squat-1-320.jpg
     alt: "Squat, vægtstangen på nakken"
     title: "Squat, vægtstangen på nakken"
   - url: /assets/images/exercises/back-squat-2.jpg
-    image_path: /assets/images/exercises/back-squat-2.jpg
+    image_path: /assets/images/exercises/back-squat-2-320.jpg
     alt: "Squat, vægtstangen på nakken"
     title: "Squat, vægtstangen på nakken"
 video:

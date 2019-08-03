@@ -1,11 +1,14 @@
 ---
 title: "Farmer walk"
 excerpt: "Gå omkring 20-50 meter med en tung vægt i hver hånd."
+instructions: "Gå omkring 20-50 meter med en tung vægt i hver hånd."
 permalink: /oevelse/farmerwalk
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/farmerwalk-0.jpg
-  teaser: /assets/images/exercises/farmerwalk-0.jpg
+  teaser: /assets/images/exercises/farmerwalk-0-320.jpg
 tags:
 categories:
 training_type: 
@@ -17,7 +20,7 @@ alternative_titles:
   - Farmerwalk
 gallery:
   - url: /assets/images/exercises/farmerwalk-0.jpg
-    image_path: /assets/images/exercises/farmerwalk-0.jpg
+    image_path: /assets/images/exercises/farmerwalk-0-320.jpg
     alt: "Farmer walk"
     title: "Farmer walk"
 video:

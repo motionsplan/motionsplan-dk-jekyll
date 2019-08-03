@@ -1,11 +1,14 @@
 ---
 title: "One arm overhead dumbell lockout"
 excerpt: ""
+instructions: ""
 permalink: /oevelse/one-arm-overhead-dumbell-lockout
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/one-arm-overhead-dumbell-lockout-0.jpg
-  teaser: /assets/images/exercises/one-arm-overhead-dumbell-lockout-0.jpg
+  teaser: /assets/images/exercises/one-arm-overhead-dumbell-lockout-0-320.jpg
 tags:
   - Kropsstamme
   - Balance
@@ -29,7 +32,7 @@ muscle_group:
 alternative_titles:
 gallery:
   - url: /assets/images/exercises/one-arm-overhead-dumbell-lockout-0.jpg
-    image_path: /assets/images/exercises/one-arm-overhead-dumbell-lockout-0.jpg
+    image_path: /assets/images/exercises/one-arm-overhead-dumbell-lockout-0-320.jpg
     alt: "One arm overhead dumbell lockout"
     title: "One arm overhead dumbell lockout"
 last_modified_at: 2015-03-27T13:55:52Z

@@ -1,11 +1,14 @@
 ---
 title: "Spiderman lunges"
 excerpt: "Hvil på fødderne og på håndfladerne som til en armstrækning. Før skiftevis fødderne op til den hånden i samme side."
+instructions: "Hvil på fødderne og på håndfladerne som til en armstrækning. Før skiftevis fødderne op til den hånden i samme side."
 permalink: /oevelse/spiderman-lunges
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/spiderman-lunges-0.jpg
-  teaser: /assets/images/exercises/spiderman-lunges-0.jpg
+  teaser: /assets/images/exercises/spiderman-lunges-0-320.jpg
 tags:
   - Koordination og balance
   - Kondition
@@ -24,11 +27,11 @@ muscle_group:
   - Core
 gallery:
   - url: /assets/images/exercises/spiderman-lunges-0.jpg
-    image_path: /assets/images/exercises/spiderman-lunges-0.jpg
+    image_path: /assets/images/exercises/spiderman-lunges-0-320.jpg
     alt: "Spiderman lunges"
     title: "Spiderman lunges"
   - url: /assets/images/exercises/spiderman-lunges-1.jpg
-    image_path: /assets/images/exercises/spiderman-lunges-1.jpg
+    image_path: /assets/images/exercises/spiderman-lunges-1-320.jpg
     alt: "Spiderman lunges"
     title: "Spiderman lunges"
 video:

@@ -1,7 +1,10 @@
 ---
 title: "Foamrolling inderlår"
 excerpt: ""
+instructions: ""
 permalink: /oevelse/foamrolling-inderlaar
+redirect_from: /node/
+id: 
 language: da
 tags:
   - Self Myofascial Release (SMR)

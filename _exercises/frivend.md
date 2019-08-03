@@ -1,11 +1,14 @@
 ---
 title: "Frivend, olympisk"
 excerpt: "Vægten skal fra jorden med en eksplosiv bevægelse løftes op, så den kommer til at hvile på brystkassen."
+instructions: "Vægten skal fra jorden med en eksplosiv bevægelse løftes op, så den kommer til at hvile på brystkassen."
 permalink: /oevelse/frivend
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/frivend-0.jpg
-  teaser: /assets/images/exercises/frivend-0.jpg
+  teaser: /assets/images/exercises/frivend-0-320.jpg
 tags:
   - knædomineret
   - hoftedomineret
@@ -32,23 +35,23 @@ alternative_titles:
   - Clean
 gallery:
   - url: /assets/images/exercises/frivend-0.jpg
-    image_path: /assets/images/exercises/frivend-0.jpg
+    image_path: /assets/images/exercises/frivend-0-320.jpg
     alt: "Frivend, olympisk"
     title: "Frivend, olympisk"
   - url: /assets/images/exercises/frivend-1.jpg
-    image_path: /assets/images/exercises/frivend-1.jpg
+    image_path: /assets/images/exercises/frivend-1-320.jpg
     alt: "Frivend, olympisk"
     title: "Frivend, olympisk"
   - url: /assets/images/exercises/frivend-2.jpg
-    image_path: /assets/images/exercises/frivend-2.jpg
+    image_path: /assets/images/exercises/frivend-2-320.jpg
     alt: "Frivend, olympisk"
     title: "Frivend, olympisk"
   - url: /assets/images/exercises/frivend-3.jpg
-    image_path: /assets/images/exercises/frivend-3.jpg
+    image_path: /assets/images/exercises/frivend-3-320.jpg
     alt: "Frivend, olympisk"
     title: "Frivend, olympisk"
   - url: /assets/images/exercises/frivend-4.jpg
-    image_path: /assets/images/exercises/frivend-4.jpg
+    image_path: /assets/images/exercises/frivend-4-320.jpg
     alt: "Frivend, olympisk"
     title: "Frivend, olympisk"
 video:

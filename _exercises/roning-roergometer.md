@@ -1,11 +1,14 @@
 ---
 title: "Roning, roergometer"
 excerpt: "Ro på et roergometer."
+instructions: "Ro på et roergometer."
 permalink: /oevelse/roning-roergometer
+redirect_from: /node/
+id: 
 language: da
 header:
-  overlay_image: /assets/images/exercises/roning-roergometer-0.JPG
-  teaser: /assets/images/exercises/roning-roergometer-0.JPG
+  overlay_image: /assets/images/exercises/roning-roergometer-0.jpg
+  teaser: /assets/images/exercises/roning-roergometer-0-320.jpg
 tags:
   - Kondition
   - roergometer
@@ -17,16 +20,16 @@ equipment:
   - roergometer
 muscle_group:
 gallery:
-  - url: /assets/images/exercises/roning-roergometer-0.JPG
-    image_path: /assets/images/exercises/roning-roergometer-0.JPG
+  - url: /assets/images/exercises/roning-roergometer-0.jpg
+    image_path: /assets/images/exercises/roning-roergometer-0-320.jpg
     alt: "Roning, roergometer"
     title: "Roning, roergometer"
-  - url: /assets/images/exercises/roning-roergometer-1.JPG
-    image_path: /assets/images/exercises/roning-roergometer-1.JPG
+  - url: /assets/images/exercises/roning-roergometer-1.jpg
+    image_path: /assets/images/exercises/roning-roergometer-1-320.jpg
     alt: "Roning, roergometer"
     title: "Roning, roergometer"
-  - url: /assets/images/exercises/roning-roergometer-2.JPG
-    image_path: /assets/images/exercises/roning-roergometer-2.JPG
+  - url: /assets/images/exercises/roning-roergometer-2.jpg
+    image_path: /assets/images/exercises/roning-roergometer-2-320.jpg
     alt: "Roning, roergometer"
     title: "Roning, roergometer"
 last_modified_at: 2014-10-10T21:04:21Z

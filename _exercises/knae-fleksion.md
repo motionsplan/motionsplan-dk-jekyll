@@ -1,11 +1,14 @@
 ---
 title: "Knæbøj"
 excerpt: "Indstil maskinen. Start med strakte ben (den at overstrække) og bøj benene så langt du kan. Hold igen, når du går tilbage til udgangspunktet."
+instructions: "Indstil maskinen. Start med strakte ben (den at overstrække) og bøj benene så langt du kan. Hold igen, når du går tilbage til udgangspunktet."
 permalink: /oevelse/knae-fleksion
+redirect_from: /node/
+id: 
 language: da
 header:
-  overlay_image: /assets/images/exercises/knae-fleksion-0.JPG
-  teaser: /assets/images/exercises/knae-fleksion-0.JPG
+  overlay_image: /assets/images/exercises/knae-fleksion-0.jpg
+  teaser: /assets/images/exercises/knae-fleksion-0-320.jpg
 tags:
   - Ben
   - Styrketræning
@@ -25,12 +28,12 @@ muscle_group:
 alternative_titles:
   - Leg curl
 gallery:
-  - url: /assets/images/exercises/knae-fleksion-0.JPG
-    image_path: /assets/images/exercises/knae-fleksion-0.JPG
+  - url: /assets/images/exercises/knae-fleksion-0.jpg
+    image_path: /assets/images/exercises/knae-fleksion-0-320.jpg
     alt: "Knæbøj"
     title: "Knæbøj"
-  - url: /assets/images/exercises/knae-fleksion-1.JPG
-    image_path: /assets/images/exercises/knae-fleksion-1.JPG
+  - url: /assets/images/exercises/knae-fleksion-1.jpg
+    image_path: /assets/images/exercises/knae-fleksion-1-320.jpg
     alt: "Knæbøj"
     title: "Knæbøj"
 last_modified_at: 2014-10-12T19:18:01Z

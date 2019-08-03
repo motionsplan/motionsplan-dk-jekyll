@@ -1,11 +1,14 @@
 ---
 title: "Mave, maskine"
 excerpt: "Hold i håndtagene og bøj forover ved at stramme mavemusklerne. Kontrolleret tilbage til udgangspunktet."
+instructions: "Hold i håndtagene og bøj forover ved at stramme mavemusklerne. Kontrolleret tilbage til udgangspunktet."
 permalink: /oevelse/mave-maskine
+redirect_from: /node/
+id: 
 language: da
 header:
-  overlay_image: /assets/images/exercises/mave-maskine-0.JPG
-  teaser: /assets/images/exercises/mave-maskine-0.JPG
+  overlay_image: /assets/images/exercises/mave-maskine-0.jpg
+  teaser: /assets/images/exercises/mave-maskine-0-320.jpg
 tags:
   - kropsstamme
   - maskine
@@ -21,16 +24,16 @@ muscle_group:
 alternative_titles:
   - mavemaskine
 gallery:
-  - url: /assets/images/exercises/mave-maskine-0.JPG
-    image_path: /assets/images/exercises/mave-maskine-0.JPG
+  - url: /assets/images/exercises/mave-maskine-0.jpg
+    image_path: /assets/images/exercises/mave-maskine-0-320.jpg
     alt: "Mave, maskine"
     title: "Mave, maskine"
-  - url: /assets/images/exercises/mave-maskine-1.JPG
-    image_path: /assets/images/exercises/mave-maskine-1.JPG
+  - url: /assets/images/exercises/mave-maskine-1.jpg
+    image_path: /assets/images/exercises/mave-maskine-1-320.jpg
     alt: "Mave, maskine"
     title: "Mave, maskine"
-  - url: /assets/images/exercises/mave-maskine-2.JPG
-    image_path: /assets/images/exercises/mave-maskine-2.JPG
+  - url: /assets/images/exercises/mave-maskine-2.jpg
+    image_path: /assets/images/exercises/mave-maskine-2-320.jpg
     alt: "Mave, maskine"
     title: "Mave, maskine"
 last_modified_at: 2011-04-16T07:09:00Z

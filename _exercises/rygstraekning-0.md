@@ -1,11 +1,14 @@
 ---
 title: "Rygstrækning"
 excerpt: "Læg ned på maven. Placér hænderne under hagen. Løft overkroppen fri af underlaget uden at løfte fødderne."
+instructions: "Læg ned på maven. Placér hænderne under hagen. Løft overkroppen fri af underlaget uden at løfte fødderne."
 permalink: /oevelse/rygstraekning-0
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/rygstraekning-0-0.jpg
-  teaser: /assets/images/exercises/rygstraekning-0-0.jpg
+  teaser: /assets/images/exercises/rygstraekning-0-0-320.jpg
 tags:
 categories:
 training_type: 
@@ -16,11 +19,11 @@ alternative_titles:
   - Rygbøjning
 gallery:
   - url: /assets/images/exercises/rygstraekning-0-0.jpg
-    image_path: /assets/images/exercises/rygstraekning-0-0.jpg
+    image_path: /assets/images/exercises/rygstraekning-0-0-320.jpg
     alt: "Rygstrækning"
     title: "Rygstrækning"
   - url: /assets/images/exercises/rygstraekning-0-1.jpg
-    image_path: /assets/images/exercises/rygstraekning-0-1.jpg
+    image_path: /assets/images/exercises/rygstraekning-0-1-320.jpg
     alt: "Rygstrækning"
     title: "Rygstrækning"
 last_modified_at: 2013-04-26T19:59:08Z

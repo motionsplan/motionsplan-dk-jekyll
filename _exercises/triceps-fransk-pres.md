@@ -1,11 +1,14 @@
 ---
 title: "Fransk Pres"
 excerpt: "Vandret på en bænk - starter med stangen som vist på billedet. Dernæst kører du den ned imod hovedet, og slutter et stykke ud over panden. Tilbage igen."
+instructions: "Vandret på en bænk - starter med stangen som vist på billedet. Dernæst kører du den ned imod hovedet, og slutter et stykke ud over panden. Tilbage igen."
 permalink: /oevelse/triceps-fransk-pres
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/triceps-fransk-pres-0.jpg
-  teaser: /assets/images/exercises/triceps-fransk-pres-0.jpg
+  teaser: /assets/images/exercises/triceps-fransk-pres-0-320.jpg
 tags:
   - vægtstang
   - 
@@ -20,15 +23,15 @@ alternative_titles:
   - Albuestræk stang
 gallery:
   - url: /assets/images/exercises/triceps-fransk-pres-0.jpg
-    image_path: /assets/images/exercises/triceps-fransk-pres-0.jpg
+    image_path: /assets/images/exercises/triceps-fransk-pres-0-320.jpg
     alt: "Fransk Pres"
     title: "Fransk Pres"
   - url: /assets/images/exercises/triceps-fransk-pres-1.jpg
-    image_path: /assets/images/exercises/triceps-fransk-pres-1.jpg
+    image_path: /assets/images/exercises/triceps-fransk-pres-1-320.jpg
     alt: "Fransk Pres"
     title: "Fransk Pres"
   - url: /assets/images/exercises/triceps-fransk-pres-2.jpg
-    image_path: /assets/images/exercises/triceps-fransk-pres-2.jpg
+    image_path: /assets/images/exercises/triceps-fransk-pres-2-320.jpg
     alt: "Fransk Pres"
     title: "Fransk Pres"
 last_modified_at: 2013-10-02T20:36:59Z

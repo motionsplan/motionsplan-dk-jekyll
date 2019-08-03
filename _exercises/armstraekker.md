@@ -1,11 +1,14 @@
 ---
 title: "Armstrækning, på tæerne"
 excerpt: "Start med strakt krop og strakte arme. Sænk dig derefter ned mod gulvet og stræk armene igen. Hold kroppen ret gennem hele øvelsen."
+instructions: "Start med strakt krop og strakte arme. Sænk dig derefter ned mod gulvet og stræk armene igen. Hold kroppen ret gennem hele øvelsen."
 permalink: /oevelse/armstraekker
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/armstraekker-0.jpg
-  teaser: /assets/images/exercises/armstraekker-0.jpg
+  teaser: /assets/images/exercises/armstraekker-0-320.jpg
 tags:
   - kropsvægt
   - 
@@ -20,15 +23,15 @@ muscle_group:
   - 
 gallery:
   - url: /assets/images/exercises/armstraekker-0.jpg
-    image_path: /assets/images/exercises/armstraekker-0.jpg
+    image_path: /assets/images/exercises/armstraekker-0-320.jpg
     alt: "Armstrækning, på tæerne"
     title: "Armstrækning, på tæerne"
   - url: /assets/images/exercises/armstraekker-1.jpg
-    image_path: /assets/images/exercises/armstraekker-1.jpg
+    image_path: /assets/images/exercises/armstraekker-1-320.jpg
     alt: "Armstrækning, på tæerne"
     title: "Armstrækning, på tæerne"
   - url: /assets/images/exercises/armstraekker-2.jpg
-    image_path: /assets/images/exercises/armstraekker-2.jpg
+    image_path: /assets/images/exercises/armstraekker-2-320.jpg
     alt: "Armstrækning, på tæerne"
     title: "Armstrækning, på tæerne"
 last_modified_at: 2012-03-08T08:05:34Z

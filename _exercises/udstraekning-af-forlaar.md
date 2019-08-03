@@ -1,11 +1,14 @@
 ---
 title: "Udstrækning af forlår"
 excerpt: "Original udstrækning"
+instructions: "Original udstrækning"
 permalink: /oevelse/udstraekning-af-forlaar
+redirect_from: /node/
+id: 
 language: da
 header:
-  overlay_image: /assets/images/exercises/udstraekning-af-forlaar-0.JPG
-  teaser: /assets/images/exercises/udstraekning-af-forlaar-0.JPG
+  overlay_image: /assets/images/exercises/udstraekning-af-forlaar-0.jpg
+  teaser: /assets/images/exercises/udstraekning-af-forlaar-0-320.jpg
 tags:
   - Strækøvelser
 categories:
@@ -15,8 +18,8 @@ training_focus:
 equipment:
 muscle_group:
 gallery:
-  - url: /assets/images/exercises/udstraekning-af-forlaar-0.JPG
-    image_path: /assets/images/exercises/udstraekning-af-forlaar-0.JPG
+  - url: /assets/images/exercises/udstraekning-af-forlaar-0.jpg
+    image_path: /assets/images/exercises/udstraekning-af-forlaar-0-320.jpg
     alt: "Udstrækning af forlår"
     title: "Udstrækning af forlår"
 last_modified_at: 2014-10-12T14:37:50Z

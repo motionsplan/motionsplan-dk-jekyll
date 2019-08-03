@@ -1,11 +1,14 @@
 ---
 title: "Egypteren"
 excerpt: ""
+instructions: ""
 permalink: /oevelse/egypteren
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/egypteren-0.jpg
-  teaser: /assets/images/exercises/egypteren-0.jpg
+  teaser: /assets/images/exercises/egypteren-0-320.jpg
 tags:
   - Koordination og balance
   - Mobilisering
@@ -23,11 +26,11 @@ muscle_group:
 alternative_titles:
 gallery:
   - url: /assets/images/exercises/egypteren-0.jpg
-    image_path: /assets/images/exercises/egypteren-0.jpg
+    image_path: /assets/images/exercises/egypteren-0-320.jpg
     alt: "Egypteren"
     title: "Egypteren"
   - url: /assets/images/exercises/egypteren-1.jpg
-    image_path: /assets/images/exercises/egypteren-1.jpg
+    image_path: /assets/images/exercises/egypteren-1-320.jpg
     alt: "Egypteren"
     title: "Egypteren"
 last_modified_at: 2014-10-12T22:06:25Z

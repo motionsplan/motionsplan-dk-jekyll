@@ -1,7 +1,10 @@
 ---
 title: "Plate loaded lateral lunge"
 excerpt: ""
+instructions: ""
 permalink: /oevelse/plate-loaded-lateral-lunge
+redirect_from: /node/
+id: 
 language: da
 tags:
 categories:

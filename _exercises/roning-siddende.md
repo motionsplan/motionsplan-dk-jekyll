@@ -1,11 +1,14 @@
 ---
 title: "Roning, siddende"
 excerpt: "Placér begge fødder på fodpladen. Hold ryggen ret og hoften statisk. Håndgrebet trækkes ind til kroppen. Tilbageførelsen sker bremsende og kontrolleret. "
+instructions: "Placér begge fødder på fodpladen. Hold ryggen ret og hoften statisk. Håndgrebet trækkes ind til kroppen. Tilbageførelsen sker bremsende og kontrolleret. "
 permalink: /oevelse/roning-siddende
+redirect_from: /node/
+id: 
 language: da
 header:
-  overlay_image: /assets/images/exercises/roning-siddende-0.JPG
-  teaser: /assets/images/exercises/roning-siddende-0.JPG
+  overlay_image: /assets/images/exercises/roning-siddende-0.jpg
+  teaser: /assets/images/exercises/roning-siddende-0-320.jpg
 tags:
   - Træk
   - Styrketræning
@@ -33,12 +36,12 @@ alternative_titles:
   - low row maskine
   - seated row
 gallery:
-  - url: /assets/images/exercises/roning-siddende-0.JPG
-    image_path: /assets/images/exercises/roning-siddende-0.JPG
+  - url: /assets/images/exercises/roning-siddende-0.jpg
+    image_path: /assets/images/exercises/roning-siddende-0-320.jpg
     alt: "Roning, siddende"
     title: "Roning, siddende"
-  - url: /assets/images/exercises/roning-siddende-1.JPG
-    image_path: /assets/images/exercises/roning-siddende-1.JPG
+  - url: /assets/images/exercises/roning-siddende-1.jpg
+    image_path: /assets/images/exercises/roning-siddende-1-320.jpg
     alt: "Roning, siddende"
     title: "Roning, siddende"
 last_modified_at: 2014-10-12T19:14:30Z

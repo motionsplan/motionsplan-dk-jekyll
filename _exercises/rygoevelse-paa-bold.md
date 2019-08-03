@@ -1,11 +1,14 @@
 ---
 title: "Rygøvelse på bold"
 excerpt: "Læg dig på bolden, så benene rører jorden og overkroppen hænger frit. Lad overkroppen falde ned mod gulvet og ret dig derefter op igen, indtil kroppen er lige."
+instructions: "Læg dig på bolden, så benene rører jorden og overkroppen hænger frit. Lad overkroppen falde ned mod gulvet og ret dig derefter op igen, indtil kroppen er lige."
 permalink: /oevelse/rygoevelse-paa-bold
+redirect_from: /node/
+id: 
 language: da
 header:
-  overlay_image: /assets/images/exercises/rygoevelse-paa-bold-0.JPG
-  teaser: /assets/images/exercises/rygoevelse-paa-bold-0.JPG
+  overlay_image: /assets/images/exercises/rygoevelse-paa-bold-0.jpg
+  teaser: /assets/images/exercises/rygoevelse-paa-bold-0-320.jpg
 tags:
   - Styrketræning
   - kropsstamme
@@ -24,12 +27,12 @@ alternative_titles:
   - Rygstræk på bold
   - lænd på bold
 gallery:
-  - url: /assets/images/exercises/rygoevelse-paa-bold-0.JPG
-    image_path: /assets/images/exercises/rygoevelse-paa-bold-0.JPG
+  - url: /assets/images/exercises/rygoevelse-paa-bold-0.jpg
+    image_path: /assets/images/exercises/rygoevelse-paa-bold-0-320.jpg
     alt: "Rygøvelse på bold"
     title: "Rygøvelse på bold"
-  - url: /assets/images/exercises/rygoevelse-paa-bold-1.JPG
-    image_path: /assets/images/exercises/rygoevelse-paa-bold-1.JPG
+  - url: /assets/images/exercises/rygoevelse-paa-bold-1.jpg
+    image_path: /assets/images/exercises/rygoevelse-paa-bold-1-320.jpg
     alt: "Rygøvelse på bold"
     title: "Rygøvelse på bold"
 video:

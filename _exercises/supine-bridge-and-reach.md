@@ -1,7 +1,10 @@
 ---
 title: "Supine bridge and reach"
 excerpt: ""
+instructions: ""
 permalink: /oevelse/supine-bridge-and-reach
+redirect_from: /node/
+id: 
 language: da
 tags:
   - Kropsstamme

@@ -1,7 +1,10 @@
 ---
 title: "Floor press"
 excerpt: ""
+instructions: ""
 permalink: /oevelse/floor-press
+redirect_from: /node/
+id: 
 language: da
 tags:
   - Styrketræning

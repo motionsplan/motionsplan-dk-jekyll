@@ -1,11 +1,14 @@
 ---
 title: "Armstrækning, benene hævet"
 excerpt: "Placer fødderne på en bænk i en højde så din krop er vandret når du har strakte arme med hænderne i gulvet. Sænk dig derefter ned til gulvet og op igen. Hold kroppen helt strakt gennem hele øvelsen."
+instructions: "Placer fødderne på en bænk i en højde så din krop er vandret når du har strakte arme med hænderne i gulvet. Sænk dig derefter ned til gulvet og op igen. Hold kroppen helt strakt gennem hele øvelsen."
 permalink: /oevelse/armstraekning-med-benene-haevet
+redirect_from: /node/
+id: 
 language: da
 header:
-  overlay_image: /assets/images/exercises/armstraekning-med-benene-haevet-0.JPG
-  teaser: /assets/images/exercises/armstraekning-med-benene-haevet-0.JPG
+  overlay_image: /assets/images/exercises/armstraekning-med-benene-haevet-0.jpg
+  teaser: /assets/images/exercises/armstraekning-med-benene-haevet-0-320.jpg
 tags:
   - kropsvægt
   - 
@@ -19,12 +22,12 @@ muscle_group:
   - 
   - 
 gallery:
-  - url: /assets/images/exercises/armstraekning-med-benene-haevet-0.JPG
-    image_path: /assets/images/exercises/armstraekning-med-benene-haevet-0.JPG
+  - url: /assets/images/exercises/armstraekning-med-benene-haevet-0.jpg
+    image_path: /assets/images/exercises/armstraekning-med-benene-haevet-0-320.jpg
     alt: "Armstrækning, benene hævet"
     title: "Armstrækning, benene hævet"
-  - url: /assets/images/exercises/armstraekning-med-benene-haevet-1.JPG
-    image_path: /assets/images/exercises/armstraekning-med-benene-haevet-1.JPG
+  - url: /assets/images/exercises/armstraekning-med-benene-haevet-1.jpg
+    image_path: /assets/images/exercises/armstraekning-med-benene-haevet-1-320.jpg
     alt: "Armstrækning, benene hævet"
     title: "Armstrækning, benene hævet"
 video:

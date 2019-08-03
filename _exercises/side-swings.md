@@ -1,11 +1,14 @@
 ---
 title: "Side swings"
 excerpt: "Hold en vægt i begge hænder ude til siden. Sving den op over hovedet og sænk den til den anden side. Gentag øvelsen."
+instructions: "Hold en vægt i begge hænder ude til siden. Sving den op over hovedet og sænk den til den anden side. Gentag øvelsen."
 permalink: /oevelse/side-swings
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/side-swings-0.jpg
-  teaser: /assets/images/exercises/side-swings-0.jpg
+  teaser: /assets/images/exercises/side-swings-0-320.jpg
 tags:
   - kropsstamme
   - træstub
@@ -22,19 +25,19 @@ equipment:
 muscle_group:
 gallery:
   - url: /assets/images/exercises/side-swings-0.jpg
-    image_path: /assets/images/exercises/side-swings-0.jpg
+    image_path: /assets/images/exercises/side-swings-0-320.jpg
     alt: "Side swings"
     title: "Side swings"
   - url: /assets/images/exercises/side-swings-1.jpg
-    image_path: /assets/images/exercises/side-swings-1.jpg
+    image_path: /assets/images/exercises/side-swings-1-320.jpg
     alt: "Side swings"
     title: "Side swings"
   - url: /assets/images/exercises/side-swings-2.jpg
-    image_path: /assets/images/exercises/side-swings-2.jpg
+    image_path: /assets/images/exercises/side-swings-2-320.jpg
     alt: "Side swings"
     title: "Side swings"
   - url: /assets/images/exercises/side-swings-3.jpg
-    image_path: /assets/images/exercises/side-swings-3.jpg
+    image_path: /assets/images/exercises/side-swings-3-320.jpg
     alt: "Side swings"
     title: "Side swings"
 last_modified_at: 2011-04-19T11:53:11Z

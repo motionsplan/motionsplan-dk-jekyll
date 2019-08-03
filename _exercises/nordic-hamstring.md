@@ -1,11 +1,14 @@
 ---
 title: "Baglår, Nordic hamstring"
 excerpt: "Sid på knæene. Fiksér underbenene. Læn dig langsomt fremover med strakt hofte. Tag fra med armene og skub dig tilbage igen, så du kan bruge haserne til at trække dig selv op igen."
+instructions: "Sid på knæene. Fiksér underbenene. Læn dig langsomt fremover med strakt hofte. Tag fra med armene og skub dig tilbage igen, så du kan bruge haserne til at trække dig selv op igen."
 permalink: /oevelse/nordic-hamstring
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/nordic-hamstring-0.jpg
-  teaser: /assets/images/exercises/nordic-hamstring-0.jpg
+  teaser: /assets/images/exercises/nordic-hamstring-0-320.jpg
 tags:
   - Ben
   - Styrketræning
@@ -28,15 +31,15 @@ alternative_titles:
   - Natural glute ham
 gallery:
   - url: /assets/images/exercises/nordic-hamstring-0.jpg
-    image_path: /assets/images/exercises/nordic-hamstring-0.jpg
+    image_path: /assets/images/exercises/nordic-hamstring-0-320.jpg
     alt: "Baglår, Nordic hamstring"
     title: "Baglår, Nordic hamstring"
   - url: /assets/images/exercises/nordic-hamstring-1.jpg
-    image_path: /assets/images/exercises/nordic-hamstring-1.jpg
+    image_path: /assets/images/exercises/nordic-hamstring-1-320.jpg
     alt: "Baglår, Nordic hamstring"
     title: "Baglår, Nordic hamstring"
   - url: /assets/images/exercises/nordic-hamstring-2.jpg
-    image_path: /assets/images/exercises/nordic-hamstring-2.jpg
+    image_path: /assets/images/exercises/nordic-hamstring-2-320.jpg
     alt: "Baglår, Nordic hamstring"
     title: "Baglår, Nordic hamstring"
 last_modified_at: 2016-12-07T18:08:39Z

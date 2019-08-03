@@ -1,11 +1,14 @@
 ---
 title: "Wall slides"
 excerpt: "Stå med ryggen op ad væggen. Pres underarmene og hænderne hårdt ind mod væggen. Lad armene glide op og ned ad væggen."
+instructions: "Stå med ryggen op ad væggen. Pres underarmene og hænderne hårdt ind mod væggen. Lad armene glide op og ned ad væggen."
 permalink: /oevelse/wall-slides
+redirect_from: /node/
+id: 
 language: da
 header:
-  overlay_image: /assets/images/exercises/wall-slides-0.JPG
-  teaser: /assets/images/exercises/wall-slides-0.JPG
+  overlay_image: /assets/images/exercises/wall-slides-0.jpg
+  teaser: /assets/images/exercises/wall-slides-0-320.jpg
 tags:
   - kropsvægt
   - mur
@@ -17,12 +20,12 @@ equipment:
   - mur
 muscle_group:
 gallery:
-  - url: /assets/images/exercises/wall-slides-0.JPG
-    image_path: /assets/images/exercises/wall-slides-0.JPG
+  - url: /assets/images/exercises/wall-slides-0.jpg
+    image_path: /assets/images/exercises/wall-slides-0-320.jpg
     alt: "Wall slides"
     title: "Wall slides"
-  - url: /assets/images/exercises/wall-slides-1.JPG
-    image_path: /assets/images/exercises/wall-slides-1.JPG
+  - url: /assets/images/exercises/wall-slides-1.jpg
+    image_path: /assets/images/exercises/wall-slides-1-320.jpg
     alt: "Wall slides"
     title: "Wall slides"
 video:

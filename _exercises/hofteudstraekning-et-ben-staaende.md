@@ -1,11 +1,14 @@
 ---
 title: "Hofteudstrækning, et ben stående"
 excerpt: "Stå med front mod kabeltrækket og hold fast med begge hænder om stativet. Vægten er spændt om anklen. Med god balance strækker du et strakt ben kontrolleret bagud. Kontrolleret tilbage til udgangspunktet."
+instructions: "Stå med front mod kabeltrækket og hold fast med begge hænder om stativet. Vægten er spændt om anklen. Med god balance strækker du et strakt ben kontrolleret bagud. Kontrolleret tilbage til udgangspunktet."
 permalink: /oevelse/hofteudstraekning-et-ben-staaende
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/hofteudstraekning-et-ben-staaende-0.jpg
-  teaser: /assets/images/exercises/hofteudstraekning-et-ben-staaende-0.jpg
+  teaser: /assets/images/exercises/hofteudstraekning-et-ben-staaende-0-320.jpg
 tags:
   - hoftedomineret
   - kabeltræk
@@ -21,7 +24,7 @@ alternative_titles:
   - Standing hip extension
 gallery:
   - url: /assets/images/exercises/hofteudstraekning-et-ben-staaende-0.jpg
-    image_path: /assets/images/exercises/hofteudstraekning-et-ben-staaende-0.jpg
+    image_path: /assets/images/exercises/hofteudstraekning-et-ben-staaende-0-320.jpg
     alt: "Hofteudstrækning, et ben stående"
     title: "Hofteudstrækning, et ben stående"
 last_modified_at: 2013-10-02T20:35:03Z

@@ -1,7 +1,10 @@
 ---
 title: "Band Upright Row to Rotation"
 excerpt: ""
+instructions: ""
 permalink: /oevelse/band-upright-row-rotation
+redirect_from: /node/
+id: 
 language: da
 tags:
 categories:

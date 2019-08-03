@@ -1,7 +1,10 @@
 ---
 title: "Pike press"
 excerpt: "Med fødderne hævet, armene på jorden og en bøjning i hoften bøjer og strækker du armene. Presset er over hovedet."
+instructions: "Med fødderne hævet, armene på jorden og en bøjning i hoften bøjer og strækker du armene. Presset er over hovedet."
 permalink: /oevelse/pike-press
+redirect_from: /node/
+id: 
 language: da
 tags:
   - kropsvægt

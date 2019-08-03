@@ -1,7 +1,10 @@
 ---
 title: "SMR biceps"
 excerpt: ""
+instructions: ""
 permalink: /oevelse/smr-biceps
+redirect_from: /node/
+id: 
 language: da
 tags:
   - Self Myofascial Release (SMR)

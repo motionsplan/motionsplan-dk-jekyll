@@ -1,7 +1,10 @@
 ---
 title: "One legged RDL with kettlebells"
 excerpt: ""
+instructions: ""
 permalink: /oevelse/one-legged-rdl-kettlebells
+redirect_from: /node/
+id: 
 language: da
 tags:
 categories:

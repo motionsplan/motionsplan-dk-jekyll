@@ -1,11 +1,14 @@
 ---
 title: "Bjørnekravl"
 excerpt: "Hold kroppen så tæt på jorden som muligt, mens du på alle fire kravler fremad ved at føre knæene ud til siden og op mod armene."
+instructions: "Hold kroppen så tæt på jorden som muligt, mens du på alle fire kravler fremad ved at føre knæene ud til siden og op mod armene."
 permalink: /oevelse/bjoernekravl
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/bjoernekravl-0.jpg
-  teaser: /assets/images/exercises/bjoernekravl-0.jpg
+  teaser: /assets/images/exercises/bjoernekravl-0-320.jpg
 tags:
   - kropsvægt
 categories:
@@ -19,19 +22,19 @@ alternative_titles:
   - Kravl som en bjørn
 gallery:
   - url: /assets/images/exercises/bjoernekravl-0.jpg
-    image_path: /assets/images/exercises/bjoernekravl-0.jpg
+    image_path: /assets/images/exercises/bjoernekravl-0-320.jpg
     alt: "Bjørnekravl"
     title: "Bjørnekravl"
   - url: /assets/images/exercises/bjoernekravl-1.jpg
-    image_path: /assets/images/exercises/bjoernekravl-1.jpg
+    image_path: /assets/images/exercises/bjoernekravl-1-320.jpg
     alt: "Bjørnekravl"
     title: "Bjørnekravl"
   - url: /assets/images/exercises/bjoernekravl-2.jpg
-    image_path: /assets/images/exercises/bjoernekravl-2.jpg
+    image_path: /assets/images/exercises/bjoernekravl-2-320.jpg
     alt: "Bjørnekravl"
     title: "Bjørnekravl"
   - url: /assets/images/exercises/bjoernekravl-3.jpg
-    image_path: /assets/images/exercises/bjoernekravl-3.jpg
+    image_path: /assets/images/exercises/bjoernekravl-3-320.jpg
     alt: "Bjørnekravl"
     title: "Bjørnekravl"
 last_modified_at: 2013-10-02T10:17:35Z

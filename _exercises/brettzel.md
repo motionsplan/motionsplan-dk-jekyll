@@ -1,11 +1,14 @@
 ---
 title: "Brettzel"
 excerpt: ""
+instructions: ""
 permalink: /oevelse/brettzel
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/brettzel-0.jpg
-  teaser: /assets/images/exercises/brettzel-0.jpg
+  teaser: /assets/images/exercises/brettzel-0-320.jpg
 tags:
   - Strækøvelser
   - Baller
@@ -22,11 +25,11 @@ muscle_group:
   - Øvre ryg
 gallery:
   - url: /assets/images/exercises/brettzel-0.jpg
-    image_path: /assets/images/exercises/brettzel-0.jpg
+    image_path: /assets/images/exercises/brettzel-0-320.jpg
     alt: "Brettzel"
     title: "Brettzel"
   - url: /assets/images/exercises/brettzel-1.jpg
-    image_path: /assets/images/exercises/brettzel-1.jpg
+    image_path: /assets/images/exercises/brettzel-1-320.jpg
     alt: "Brettzel"
     title: "Brettzel"
 video:

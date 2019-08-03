@@ -1,11 +1,14 @@
 ---
 title: "Træk til bryst"
 excerpt: "Sæt dig i maskinen med et naturligt lændesvaj. Træk stangen ned til brystet. Kontrolleret tilbage til udgangspositionen."
+instructions: "Sæt dig i maskinen med et naturligt lændesvaj. Træk stangen ned til brystet. Kontrolleret tilbage til udgangspositionen."
 permalink: /oevelse/traek-til-bryst
+redirect_from: /node/
+id: 
 language: da
 header:
-  overlay_image: /assets/images/exercises/traek-til-bryst-0.JPG
-  teaser: /assets/images/exercises/traek-til-bryst-0.JPG
+  overlay_image: /assets/images/exercises/traek-til-bryst-0.jpg
+  teaser: /assets/images/exercises/traek-til-bryst-0-320.jpg
 tags:
   - Styrketræning
   - træk lodret
@@ -27,12 +30,12 @@ muscle_group:
 alternative_titles:
   - Pull down
 gallery:
-  - url: /assets/images/exercises/traek-til-bryst-0.JPG
-    image_path: /assets/images/exercises/traek-til-bryst-0.JPG
+  - url: /assets/images/exercises/traek-til-bryst-0.jpg
+    image_path: /assets/images/exercises/traek-til-bryst-0-320.jpg
     alt: "Træk til bryst"
     title: "Træk til bryst"
-  - url: /assets/images/exercises/traek-til-bryst-1.JPG
-    image_path: /assets/images/exercises/traek-til-bryst-1.JPG
+  - url: /assets/images/exercises/traek-til-bryst-1.jpg
+    image_path: /assets/images/exercises/traek-til-bryst-1-320.jpg
     alt: "Træk til bryst"
     title: "Træk til bryst"
 video:

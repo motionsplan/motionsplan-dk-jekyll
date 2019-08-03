@@ -1,11 +1,14 @@
 ---
 title: "Dødløft, et ben"
 excerpt: "Stå med en hændvægt i hver hånd. Mens du balancerer på et ben, læner du dig forover samtidig med at det andet ben føres bagud, indtil du står i et T. Rejs dig igen."
+instructions: "Stå med en hændvægt i hver hånd. Mens du balancerer på et ben, læner du dig forover samtidig med at det andet ben føres bagud, indtil du står i et T. Rejs dig igen."
 permalink: /oevelse/deadlift-one-leg
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/deadlift-one-leg-0.jpg
-  teaser: /assets/images/exercises/deadlift-one-leg-0.jpg
+  teaser: /assets/images/exercises/deadlift-one-leg-0-320.jpg
 tags:
   - Koordination og balance
   - hoftedomineret
@@ -22,19 +25,19 @@ alternative_titles:
   - deadlift
 gallery:
   - url: /assets/images/exercises/deadlift-one-leg-0.jpg
-    image_path: /assets/images/exercises/deadlift-one-leg-0.jpg
+    image_path: /assets/images/exercises/deadlift-one-leg-0-320.jpg
     alt: "Dødløft, et ben"
     title: "Dødløft, et ben"
   - url: /assets/images/exercises/deadlift-one-leg-1.jpg
-    image_path: /assets/images/exercises/deadlift-one-leg-1.jpg
+    image_path: /assets/images/exercises/deadlift-one-leg-1-320.jpg
     alt: "Dødløft, et ben"
     title: "Dødløft, et ben"
   - url: /assets/images/exercises/deadlift-one-leg-2.jpg
-    image_path: /assets/images/exercises/deadlift-one-leg-2.jpg
+    image_path: /assets/images/exercises/deadlift-one-leg-2-320.jpg
     alt: "Dødløft, et ben"
     title: "Dødløft, et ben"
   - url: /assets/images/exercises/deadlift-one-leg-3.jpg
-    image_path: /assets/images/exercises/deadlift-one-leg-3.jpg
+    image_path: /assets/images/exercises/deadlift-one-leg-3-320.jpg
     alt: "Dødløft, et ben"
     title: "Dødløft, et ben"
 video:

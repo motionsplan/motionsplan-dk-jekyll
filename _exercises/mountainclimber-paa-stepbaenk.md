@@ -1,11 +1,14 @@
 ---
 title: "Mountainclimber på stepbænk"
 excerpt: ""
+instructions: ""
 permalink: /oevelse/mountainclimber-paa-stepbaenk
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/mountainclimber-paa-stepbaenk-0.jpg
-  teaser: /assets/images/exercises/mountainclimber-paa-stepbaenk-0.jpg
+  teaser: /assets/images/exercises/mountainclimber-paa-stepbaenk-0-320.jpg
 tags:
   - Kondition og puls
   - Kondition
@@ -31,11 +34,11 @@ muscle_group:
 alternative_titles:
 gallery:
   - url: /assets/images/exercises/mountainclimber-paa-stepbaenk-0.jpg
-    image_path: /assets/images/exercises/mountainclimber-paa-stepbaenk-0.jpg
+    image_path: /assets/images/exercises/mountainclimber-paa-stepbaenk-0-320.jpg
     alt: "Mountainclimber på stepbænk"
     title: "Mountainclimber på stepbænk"
   - url: /assets/images/exercises/mountainclimber-paa-stepbaenk-1.jpg
-    image_path: /assets/images/exercises/mountainclimber-paa-stepbaenk-1.jpg
+    image_path: /assets/images/exercises/mountainclimber-paa-stepbaenk-1-320.jpg
     alt: "Mountainclimber på stepbænk"
     title: "Mountainclimber på stepbænk"
 last_modified_at: 2015-04-07T11:51:30Z

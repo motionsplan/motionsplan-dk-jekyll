@@ -1,7 +1,10 @@
 ---
 title: "Løb, løbebånd"
 excerpt: "Løb, løbebånd"
+instructions: "Løb, løbebånd"
 permalink: /oevelse/loeb-loebebaand
+redirect_from: /node/
+id: 
 language: da
 tags:
   - Kondition

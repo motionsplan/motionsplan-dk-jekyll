@@ -1,7 +1,10 @@
 ---
 title: "SMR skulder"
 excerpt: ""
+instructions: ""
 permalink: /oevelse/smr-skulder
+redirect_from: /node/
+id: 
 language: da
 tags:
   - Self Myofascial Release (SMR)

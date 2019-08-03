@@ -1,11 +1,14 @@
 ---
 title: "Træk, råtræk"
 excerpt: "Vægten skal fra jorden løftes eksplosivt op, så man med en let knæbøjning kan gribe den over hovedet."
+instructions: "Vægten skal fra jorden løftes eksplosivt op, så man med en let knæbøjning kan gribe den over hovedet."
 permalink: /oevelse/raatraek
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/raatraek-0.jpg
-  teaser: /assets/images/exercises/raatraek-0.jpg
+  teaser: /assets/images/exercises/raatraek-0-320.jpg
 tags:
 categories:
 training_type: 
@@ -14,23 +17,23 @@ equipment:
 muscle_group:
 gallery:
   - url: /assets/images/exercises/raatraek-0.jpg
-    image_path: /assets/images/exercises/raatraek-0.jpg
+    image_path: /assets/images/exercises/raatraek-0-320.jpg
     alt: "Træk, råtræk"
     title: "Træk, råtræk"
   - url: /assets/images/exercises/raatraek-1.jpg
-    image_path: /assets/images/exercises/raatraek-1.jpg
+    image_path: /assets/images/exercises/raatraek-1-320.jpg
     alt: "Træk, råtræk"
     title: "Træk, råtræk"
   - url: /assets/images/exercises/raatraek-2.jpg
-    image_path: /assets/images/exercises/raatraek-2.jpg
+    image_path: /assets/images/exercises/raatraek-2-320.jpg
     alt: "Træk, råtræk"
     title: "Træk, råtræk"
   - url: /assets/images/exercises/raatraek-3.jpg
-    image_path: /assets/images/exercises/raatraek-3.jpg
+    image_path: /assets/images/exercises/raatraek-3-320.jpg
     alt: "Træk, råtræk"
     title: "Træk, råtræk"
   - url: /assets/images/exercises/raatraek-4.jpg
-    image_path: /assets/images/exercises/raatraek-4.jpg
+    image_path: /assets/images/exercises/raatraek-4-320.jpg
     alt: "Træk, råtræk"
     title: "Træk, råtræk"
 video:

@@ -1,11 +1,14 @@
 ---
 title: "Traktordæk, vend et dæk"
 excerpt: "Et stort traktordæk skal vendes. Sørg for bred fatning, ret ryg, spænd op i mave og ryg. Start lidt fra dækket med fødderne, så du er oppe på tæerne, langt nede i knæene og laver løftet ved at læne dig ind mod dækket i en vinkel opad."
+instructions: "Et stort traktordæk skal vendes. Sørg for bred fatning, ret ryg, spænd op i mave og ryg. Start lidt fra dækket med fødderne, så du er oppe på tæerne, langt nede i knæene og laver løftet ved at læne dig ind mod dækket i en vinkel opad."
 permalink: /oevelse/vend-et-daek
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/vend-et-daek-0.jpg
-  teaser: /assets/images/exercises/vend-et-daek-0.jpg
+  teaser: /assets/images/exercises/vend-et-daek-0-320.jpg
 tags:
   - helkropsøvelse
   - traktordæk
@@ -20,15 +23,15 @@ alternative_titles:
   - Flip tire
 gallery:
   - url: /assets/images/exercises/vend-et-daek-0.jpg
-    image_path: /assets/images/exercises/vend-et-daek-0.jpg
+    image_path: /assets/images/exercises/vend-et-daek-0-320.jpg
     alt: "Traktordæk, vend et dæk"
     title: "Traktordæk, vend et dæk"
   - url: /assets/images/exercises/vend-et-daek-1.jpg
-    image_path: /assets/images/exercises/vend-et-daek-1.jpg
+    image_path: /assets/images/exercises/vend-et-daek-1-320.jpg
     alt: "Traktordæk, vend et dæk"
     title: "Traktordæk, vend et dæk"
   - url: /assets/images/exercises/vend-et-daek-2.jpg
-    image_path: /assets/images/exercises/vend-et-daek-2.jpg
+    image_path: /assets/images/exercises/vend-et-daek-2-320.jpg
     alt: "Traktordæk, vend et dæk"
     title: "Traktordæk, vend et dæk"
 last_modified_at: 2011-05-02T15:43:58Z

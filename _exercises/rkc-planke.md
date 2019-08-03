@@ -1,7 +1,10 @@
 ---
 title: "RKC Planke"
 excerpt: ""
+instructions: ""
 permalink: /oevelse/rkc-planke
+redirect_from: /node/
+id: 
 language: da
 tags:
   - Kropsstamme

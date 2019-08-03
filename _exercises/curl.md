@@ -1,11 +1,14 @@
 ---
 title: "Curl up"
 excerpt: "Start rygliggende med hænderne på maven og bøjede knæ. Lad hænderne følge lårene over knæene og ned ad skinnebenene indtil du sidder op."
+instructions: "Start rygliggende med hænderne på maven og bøjede knæ. Lad hænderne følge lårene over knæene og ned ad skinnebenene indtil du sidder op."
 permalink: /oevelse/curl
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/curl-.jpg
-  teaser: /assets/images/exercises/curl-.jpg
+  teaser: /assets/images/exercises/curl--320.jpg
 tags:
   - Kropsstamme
   - Styrketræning
@@ -24,15 +27,15 @@ muscle_group:
   - Mave
 gallery:
   - url: /assets/images/exercises/curl-.jpg
-    image_path: /assets/images/exercises/curl-.jpg
+    image_path: /assets/images/exercises/curl--320.jpg
     alt: "Curl up"
     title: "Curl up"
   - url: /assets/images/exercises/curl-1.jpg
-    image_path: /assets/images/exercises/curl-1.jpg
+    image_path: /assets/images/exercises/curl-1-320.jpg
     alt: "Curl up"
     title: "Curl up"
   - url: /assets/images/exercises/curl-2.jpg
-    image_path: /assets/images/exercises/curl-2.jpg
+    image_path: /assets/images/exercises/curl-2-320.jpg
     alt: "Curl up"
     title: "Curl up"
 last_modified_at: 2014-10-13T22:06:59Z

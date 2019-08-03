@@ -1,11 +1,14 @@
 ---
 title: "Squat med hop"
 excerpt: "Gå kontrolleret ned i knæ. Med så kort pause i benbøjningen laver du et eksplosivt spring."
+instructions: "Gå kontrolleret ned i knæ. Med så kort pause i benbøjningen laver du et eksplosivt spring."
 permalink: /oevelse/squat-med-hop
+redirect_from: /node/
+id: 
 language: da
 header:
-  overlay_image: /assets/images/exercises/squat-med-hop-0.JPG
-  teaser: /assets/images/exercises/squat-med-hop-0.JPG
+  overlay_image: /assets/images/exercises/squat-med-hop-0.jpg
+  teaser: /assets/images/exercises/squat-med-hop-0-320.jpg
 tags:
   - Ben
   - knædomineret
@@ -19,20 +22,20 @@ equipment:
   - vægtstang
 muscle_group:
 gallery:
-  - url: /assets/images/exercises/squat-med-hop-0.JPG
-    image_path: /assets/images/exercises/squat-med-hop-0.JPG
+  - url: /assets/images/exercises/squat-med-hop-0.jpg
+    image_path: /assets/images/exercises/squat-med-hop-0-320.jpg
     alt: "Squat med hop"
     title: "Squat med hop"
-  - url: /assets/images/exercises/squat-med-hop-1.JPG
-    image_path: /assets/images/exercises/squat-med-hop-1.JPG
+  - url: /assets/images/exercises/squat-med-hop-1.jpg
+    image_path: /assets/images/exercises/squat-med-hop-1-320.jpg
     alt: "Squat med hop"
     title: "Squat med hop"
-  - url: /assets/images/exercises/squat-med-hop-2.JPG
-    image_path: /assets/images/exercises/squat-med-hop-2.JPG
+  - url: /assets/images/exercises/squat-med-hop-2.jpg
+    image_path: /assets/images/exercises/squat-med-hop-2-320.jpg
     alt: "Squat med hop"
     title: "Squat med hop"
-  - url: /assets/images/exercises/squat-med-hop-3.JPG
-    image_path: /assets/images/exercises/squat-med-hop-3.JPG
+  - url: /assets/images/exercises/squat-med-hop-3.jpg
+    image_path: /assets/images/exercises/squat-med-hop-3-320.jpg
     alt: "Squat med hop"
     title: "Squat med hop"
 video:

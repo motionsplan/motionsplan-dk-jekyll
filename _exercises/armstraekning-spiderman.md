@@ -1,11 +1,14 @@
 ---
 title: "Armstrækning, Spiderman"
 excerpt: "Armstrækning hvor knæet føres på siden af kroppen og op mod albuen, mens du sænker dig ned mod gulvet, og hvor benet strækkes mens du går op. Skift."
+instructions: "Armstrækning hvor knæet føres på siden af kroppen og op mod albuen, mens du sænker dig ned mod gulvet, og hvor benet strækkes mens du går op. Skift."
 permalink: /oevelse/armstraekning-spiderman
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/armstraekning-spiderman-0.jpg
-  teaser: /assets/images/exercises/armstraekning-spiderman-0.jpg
+  teaser: /assets/images/exercises/armstraekning-spiderman-0-320.jpg
 tags:
   - kropsstamme
   - kropsvægt
@@ -18,15 +21,15 @@ equipment:
 muscle_group:
 gallery:
   - url: /assets/images/exercises/armstraekning-spiderman-0.jpg
-    image_path: /assets/images/exercises/armstraekning-spiderman-0.jpg
+    image_path: /assets/images/exercises/armstraekning-spiderman-0-320.jpg
     alt: "Armstrækning, Spiderman"
     title: "Armstrækning, Spiderman"
   - url: /assets/images/exercises/armstraekning-spiderman-1.jpg
-    image_path: /assets/images/exercises/armstraekning-spiderman-1.jpg
+    image_path: /assets/images/exercises/armstraekning-spiderman-1-320.jpg
     alt: "Armstrækning, Spiderman"
     title: "Armstrækning, Spiderman"
   - url: /assets/images/exercises/armstraekning-spiderman-2.jpg
-    image_path: /assets/images/exercises/armstraekning-spiderman-2.jpg
+    image_path: /assets/images/exercises/armstraekning-spiderman-2-320.jpg
     alt: "Armstrækning, Spiderman"
     title: "Armstrækning, Spiderman"
 video:

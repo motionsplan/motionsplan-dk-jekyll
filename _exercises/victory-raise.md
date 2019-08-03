@@ -1,7 +1,10 @@
 ---
 title: "Victory raise"
 excerpt: ""
+instructions: ""
 permalink: /oevelse/victory-raise
+redirect_from: /node/
+id: 
 language: da
 tags:
   - Pres

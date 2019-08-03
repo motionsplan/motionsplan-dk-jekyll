@@ -1,11 +1,14 @@
 ---
 title: "Fire hydrant - straight legged"
 excerpt: ""
+instructions: ""
 permalink: /oevelse/fire-hydrant-straight-legged
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/fire-hydrant-straight-legged-0.jpg
-  teaser: /assets/images/exercises/fire-hydrant-straight-legged-0.jpg
+  teaser: /assets/images/exercises/fire-hydrant-straight-legged-0-320.jpg
 tags:
   - Kropsstamme
   - Styrketræning
@@ -24,11 +27,11 @@ muscle_group:
   - Baller
 gallery:
   - url: /assets/images/exercises/fire-hydrant-straight-legged-0.jpg
-    image_path: /assets/images/exercises/fire-hydrant-straight-legged-0.jpg
+    image_path: /assets/images/exercises/fire-hydrant-straight-legged-0-320.jpg
     alt: "Fire hydrant - straight legged"
     title: "Fire hydrant - straight legged"
   - url: /assets/images/exercises/fire-hydrant-straight-legged-1.jpg
-    image_path: /assets/images/exercises/fire-hydrant-straight-legged-1.jpg
+    image_path: /assets/images/exercises/fire-hydrant-straight-legged-1-320.jpg
     alt: "Fire hydrant - straight legged"
     title: "Fire hydrant - straight legged"
 last_modified_at: 2015-03-21T16:20:14Z

@@ -1,11 +1,14 @@
 ---
 title: "Stepup with dumbbells"
 excerpt: ""
+instructions: ""
 permalink: /oevelse/stepup-dumbbells
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/stepup-dumbbells-0.jpg
-  teaser: /assets/images/exercises/stepup-dumbbells-0.jpg
+  teaser: /assets/images/exercises/stepup-dumbbells-0-320.jpg
 tags:
   - Ben
   - Styrketræning
@@ -26,19 +29,19 @@ muscle_group:
   - Forlår
 gallery:
   - url: /assets/images/exercises/stepup-dumbbells-0.jpg
-    image_path: /assets/images/exercises/stepup-dumbbells-0.jpg
+    image_path: /assets/images/exercises/stepup-dumbbells-0-320.jpg
     alt: "Stepup with dumbbells"
     title: "Stepup with dumbbells"
   - url: /assets/images/exercises/stepup-dumbbells-1.jpg
-    image_path: /assets/images/exercises/stepup-dumbbells-1.jpg
+    image_path: /assets/images/exercises/stepup-dumbbells-1-320.jpg
     alt: "Stepup with dumbbells"
     title: "Stepup with dumbbells"
   - url: /assets/images/exercises/stepup-dumbbells-2.jpg
-    image_path: /assets/images/exercises/stepup-dumbbells-2.jpg
+    image_path: /assets/images/exercises/stepup-dumbbells-2-320.jpg
     alt: "Stepup with dumbbells"
     title: "Stepup with dumbbells"
   - url: /assets/images/exercises/stepup-dumbbells-3.jpg
-    image_path: /assets/images/exercises/stepup-dumbbells-3.jpg
+    image_path: /assets/images/exercises/stepup-dumbbells-3-320.jpg
     alt: "Stepup with dumbbells"
     title: "Stepup with dumbbells"
 video:

@@ -1,11 +1,14 @@
 ---
 title: "Løb"
 excerpt: "Løb"
+instructions: "Løb"
 permalink: /oevelse/loeb
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/loeb-0.jpg
-  teaser: /assets/images/exercises/loeb-0.jpg
+  teaser: /assets/images/exercises/loeb-0-320.jpg
 tags:
   - Kondition
 categories:
@@ -16,7 +19,7 @@ equipment:
 muscle_group:
 gallery:
   - url: /assets/images/exercises/loeb-0.jpg
-    image_path: /assets/images/exercises/loeb-0.jpg
+    image_path: /assets/images/exercises/loeb-0-320.jpg
     alt: "Løb"
     title: "Løb"
 last_modified_at: 2014-10-12T14:38:54Z

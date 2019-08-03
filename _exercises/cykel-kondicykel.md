@@ -1,7 +1,10 @@
 ---
 title: "Cykel, kondicykel"
 excerpt: "Cykel, kondicykel"
+instructions: "Cykel, kondicykel"
 permalink: /oevelse/cykel-kondicykel
+redirect_from: /node/
+id: 
 language: da
 tags:
   - Kondition

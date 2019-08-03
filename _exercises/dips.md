@@ -1,11 +1,14 @@
 ---
 title: "Dips"
 excerpt: "Spring op i stativet. Sænk dig til overarmen cirka er vandret og pres dig op igen."
+instructions: "Spring op i stativet. Sænk dig til overarmen cirka er vandret og pres dig op igen."
 permalink: /oevelse/dips
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/dips-0.jpg
-  teaser: /assets/images/exercises/dips-0.jpg
+  teaser: /assets/images/exercises/dips-0-320.jpg
 tags:
   - Pres
   - Styrketræning
@@ -26,11 +29,11 @@ muscle_group:
   - Bryst
 gallery:
   - url: /assets/images/exercises/dips-0.jpg
-    image_path: /assets/images/exercises/dips-0.jpg
+    image_path: /assets/images/exercises/dips-0-320.jpg
     alt: "Dips"
     title: "Dips"
   - url: /assets/images/exercises/dips-1.jpg
-    image_path: /assets/images/exercises/dips-1.jpg
+    image_path: /assets/images/exercises/dips-1-320.jpg
     alt: "Dips"
     title: "Dips"
 video:

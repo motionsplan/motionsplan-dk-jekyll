@@ -1,11 +1,14 @@
 ---
 title: "X-band walks"
 excerpt: "Stil dig på elastikken så der er cirka 20 cm mellem fødderne. Hold elastikken i hænderne, sådan at det former et X foran dine ben. Stå rank med skulderne nede. Gå sidelæns."
+instructions: "Stil dig på elastikken så der er cirka 20 cm mellem fødderne. Hold elastikken i hænderne, sådan at det former et X foran dine ben. Stå rank med skulderne nede. Gå sidelæns."
 permalink: /oevelse/x-band-walks
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/x-band-walks-0.jpg
-  teaser: /assets/images/exercises/x-band-walks-0.jpg
+  teaser: /assets/images/exercises/x-band-walks-0-320.jpg
 tags:
   - kropsstamme
   - elastik
@@ -18,7 +21,7 @@ equipment:
 muscle_group:
 gallery:
   - url: /assets/images/exercises/x-band-walks-0.jpg
-    image_path: /assets/images/exercises/x-band-walks-0.jpg
+    image_path: /assets/images/exercises/x-band-walks-0-320.jpg
     alt: "X-band walks"
     title: "X-band walks"
 last_modified_at: 2011-04-12T09:58:49Z

@@ -1,11 +1,14 @@
 ---
 title: "Træk til nakke"
 excerpt: "Vi anbefaler træk til bryst i stedet. Hvis du insisterer på denne, så sæt dig i maskinen og juster puderne til benene. Træk stangen ned bag nakken og langsomt til udgangspunktet igen."
+instructions: "Vi anbefaler træk til bryst i stedet. Hvis du insisterer på denne, så sæt dig i maskinen og juster puderne til benene. Træk stangen ned bag nakken og langsomt til udgangspunktet igen."
 permalink: /oevelse/traek-til-nakke
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/traek-til-nakke-0.jpg
-  teaser: /assets/images/exercises/traek-til-nakke-0.jpg
+  teaser: /assets/images/exercises/traek-til-nakke-0-320.jpg
 tags:
   - Træk
   - Styrketræning
@@ -28,15 +31,15 @@ muscle_group:
   - Øvre ryg
 gallery:
   - url: /assets/images/exercises/traek-til-nakke-0.jpg
-    image_path: /assets/images/exercises/traek-til-nakke-0.jpg
+    image_path: /assets/images/exercises/traek-til-nakke-0-320.jpg
     alt: "Træk til nakke"
     title: "Træk til nakke"
   - url: /assets/images/exercises/traek-til-nakke-1.jpg
-    image_path: /assets/images/exercises/traek-til-nakke-1.jpg
+    image_path: /assets/images/exercises/traek-til-nakke-1-320.jpg
     alt: "Træk til nakke"
     title: "Træk til nakke"
   - url: /assets/images/exercises/traek-til-nakke-2.jpg
-    image_path: /assets/images/exercises/traek-til-nakke-2.jpg
+    image_path: /assets/images/exercises/traek-til-nakke-2-320.jpg
     alt: "Træk til nakke"
     title: "Træk til nakke"
 video:

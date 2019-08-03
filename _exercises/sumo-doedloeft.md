@@ -1,11 +1,14 @@
 ---
 title: "Dødløft, sumo"
 excerpt: "Stå med bredstående og tæerne pegende lidt udad. Tag fat i stangen mellem dine ben. Rejs dig op ved at rette knæene og hoften ud og sænk stangen igen."
+instructions: "Stå med bredstående og tæerne pegende lidt udad. Tag fat i stangen mellem dine ben. Rejs dig op ved at rette knæene og hoften ud og sænk stangen igen."
 permalink: /oevelse/sumo-doedloeft
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/sumo-doedloeft-0.jpg
-  teaser: /assets/images/exercises/sumo-doedloeft-0.jpg
+  teaser: /assets/images/exercises/sumo-doedloeft-0-320.jpg
 tags:
   - Ben
 categories:
@@ -16,15 +19,15 @@ equipment:
 muscle_group:
 gallery:
   - url: /assets/images/exercises/sumo-doedloeft-0.jpg
-    image_path: /assets/images/exercises/sumo-doedloeft-0.jpg
+    image_path: /assets/images/exercises/sumo-doedloeft-0-320.jpg
     alt: "Dødløft, sumo"
     title: "Dødløft, sumo"
   - url: /assets/images/exercises/sumo-doedloeft-1.jpg
-    image_path: /assets/images/exercises/sumo-doedloeft-1.jpg
+    image_path: /assets/images/exercises/sumo-doedloeft-1-320.jpg
     alt: "Dødløft, sumo"
     title: "Dødløft, sumo"
   - url: /assets/images/exercises/sumo-doedloeft-2.jpg
-    image_path: /assets/images/exercises/sumo-doedloeft-2.jpg
+    image_path: /assets/images/exercises/sumo-doedloeft-2-320.jpg
     alt: "Dødløft, sumo"
     title: "Dødløft, sumo"
 video:

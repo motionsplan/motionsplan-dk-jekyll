@@ -1,11 +1,14 @@
 ---
 title: "Albuestræk"
 excerpt: "Tag en håndvægt i strakt arm over hovedet. Før håndvægten mod skulderen. Stræk armen igen."
+instructions: "Tag en håndvægt i strakt arm over hovedet. Før håndvægten mod skulderen. Stræk armen igen."
 permalink: /oevelse/albuestraek
+redirect_from: /node/
+id: 
 language: da
 header:
-  overlay_image: /assets/images/exercises/albuestraek-0.JPG
-  teaser: /assets/images/exercises/albuestraek-0.JPG
+  overlay_image: /assets/images/exercises/albuestraek-0.jpg
+  teaser: /assets/images/exercises/albuestraek-0-320.jpg
 tags:
   - Pres
   - Styrketræning
@@ -23,12 +26,12 @@ equipment:
 muscle_group:
   - Arme
 gallery:
-  - url: /assets/images/exercises/albuestraek-0.JPG
-    image_path: /assets/images/exercises/albuestraek-0.JPG
+  - url: /assets/images/exercises/albuestraek-0.jpg
+    image_path: /assets/images/exercises/albuestraek-0-320.jpg
     alt: "Albuestræk"
     title: "Albuestræk"
-  - url: /assets/images/exercises/albuestraek-1.JPG
-    image_path: /assets/images/exercises/albuestraek-1.JPG
+  - url: /assets/images/exercises/albuestraek-1.jpg
+    image_path: /assets/images/exercises/albuestraek-1-320.jpg
     alt: "Albuestræk"
     title: "Albuestræk"
 last_modified_at: 2014-10-12T19:30:19Z

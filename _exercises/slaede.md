@@ -1,11 +1,14 @@
 ---
 title: "Slædetræk"
 excerpt: "Først sprinter du fremad med en slæde spændt om livet. Derefter trækker du den baglæns tilbage til udgangspunktet."
+instructions: "Først sprinter du fremad med en slæde spændt om livet. Derefter trækker du den baglæns tilbage til udgangspunktet."
 permalink: /oevelse/slaede
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/slaede-0.jpg
-  teaser: /assets/images/exercises/slaede-0.jpg
+  teaser: /assets/images/exercises/slaede-0-320.jpg
 tags:
   - slæde
 categories:
@@ -18,11 +21,11 @@ alternative_titles:
   - sleigh drag
 gallery:
   - url: /assets/images/exercises/slaede-0.jpg
-    image_path: /assets/images/exercises/slaede-0.jpg
+    image_path: /assets/images/exercises/slaede-0-320.jpg
     alt: "Slædetræk"
     title: "Slædetræk"
   - url: /assets/images/exercises/slaede-1.jpg
-    image_path: /assets/images/exercises/slaede-1.jpg
+    image_path: /assets/images/exercises/slaede-1-320.jpg
     alt: "Slædetræk"
     title: "Slædetræk"
 last_modified_at: 2013-04-23T18:43:14Z

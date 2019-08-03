@@ -1,7 +1,10 @@
 ---
 title: "Foamrolling skinneben"
 excerpt: ""
+instructions: ""
 permalink: /oevelse/foamrolling-skinneben
+redirect_from: /node/
+id: 
 language: da
 tags:
   - Self Myofascial Release (SMR)

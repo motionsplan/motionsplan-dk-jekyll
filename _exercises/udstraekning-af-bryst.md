@@ -1,11 +1,14 @@
 ---
 title: "Udstrækning af bryst"
 excerpt: "Udstrækning af brystmusklen. En parøvelse."
+instructions: "Udstrækning af brystmusklen. En parøvelse."
 permalink: /oevelse/udstraekning-af-bryst
+redirect_from: /node/
+id: 
 language: da
 header:
-  overlay_image: /assets/images/exercises/udstraekning-af-bryst-0.JPG
-  teaser: /assets/images/exercises/udstraekning-af-bryst-0.JPG
+  overlay_image: /assets/images/exercises/udstraekning-af-bryst-0.jpg
+  teaser: /assets/images/exercises/udstraekning-af-bryst-0-320.jpg
 tags:
   - Parøvelser
   - Strækøvelser
@@ -17,8 +20,8 @@ training_focus:
 equipment:
 muscle_group:
 gallery:
-  - url: /assets/images/exercises/udstraekning-af-bryst-0.JPG
-    image_path: /assets/images/exercises/udstraekning-af-bryst-0.JPG
+  - url: /assets/images/exercises/udstraekning-af-bryst-0.jpg
+    image_path: /assets/images/exercises/udstraekning-af-bryst-0-320.jpg
     alt: "Udstrækning af bryst"
     title: "Udstrækning af bryst"
 last_modified_at: 2014-10-12T14:35:40Z

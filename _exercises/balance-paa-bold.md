@@ -1,11 +1,14 @@
 ---
 title: "Balance på bold"
 excerpt: "Prøv at holde balancen siddende på knæene på en stor træningsbold."
+instructions: "Prøv at holde balancen siddende på knæene på en stor træningsbold."
 permalink: /oevelse/balance-paa-bold
+redirect_from: /node/
+id: 
 language: da
 header:
-  overlay_image: /assets/images/exercises/balance-paa-bold-0.JPG
-  teaser: /assets/images/exercises/balance-paa-bold-0.JPG
+  overlay_image: /assets/images/exercises/balance-paa-bold-0.jpg
+  teaser: /assets/images/exercises/balance-paa-bold-0-320.jpg
 tags:
   - kropsstamme
   - swissball
@@ -17,8 +20,8 @@ equipment:
   - swissball
 muscle_group:
 gallery:
-  - url: /assets/images/exercises/balance-paa-bold-0.JPG
-    image_path: /assets/images/exercises/balance-paa-bold-0.JPG
+  - url: /assets/images/exercises/balance-paa-bold-0.jpg
+    image_path: /assets/images/exercises/balance-paa-bold-0-320.jpg
     alt: "Balance på bold"
     title: "Balance på bold"
 last_modified_at: 2011-04-18T17:55:55Z

@@ -1,7 +1,10 @@
 ---
 title: "Crosstrainer"
 excerpt: "Crosstrainer"
+instructions: "Crosstrainer"
 permalink: /oevelse/crosstrainer
+redirect_from: /node/
+id: 
 language: da
 tags:
   - Kondition

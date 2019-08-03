@@ -1,11 +1,14 @@
 ---
-title: "Roning, foroverbøjet "
+title: "Roning, foroverbøjet"
 excerpt: "Hold vægten i strakte arme. Træk du den op mod maven. Sørg for at skulderbladene bevæger sig sammen."
+instructions: "Hold vægten i strakte arme. Træk du den op mod maven. Sørg for at skulderbladene bevæger sig sammen."
 permalink: /oevelse/roning-foroverboejet
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/roning-foroverboejet-0.jpg
-  teaser: /assets/images/exercises/roning-foroverboejet-0.jpg
+  teaser: /assets/images/exercises/roning-foroverboejet-0-320.jpg
 tags:
   - Træk
   - Styrketræning
@@ -34,11 +37,11 @@ alternative_titles:
   - bent over rows
 gallery:
   - url: /assets/images/exercises/roning-foroverboejet-0.jpg
-    image_path: /assets/images/exercises/roning-foroverboejet-0.jpg
+    image_path: /assets/images/exercises/roning-foroverboejet-0-320.jpg
     alt: "Roning, foroverbøjet "
     title: "Roning, foroverbøjet "
   - url: /assets/images/exercises/roning-foroverboejet-1.jpg
-    image_path: /assets/images/exercises/roning-foroverboejet-1.jpg
+    image_path: /assets/images/exercises/roning-foroverboejet-1-320.jpg
     alt: "Roning, foroverbøjet "
     title: "Roning, foroverbøjet "
 video:

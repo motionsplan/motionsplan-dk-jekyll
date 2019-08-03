@@ -1,7 +1,10 @@
 ---
 title: "Slideboard bodysaw pushup"
 excerpt: ""
+instructions: ""
 permalink: /oevelse/slideboard-bodysaw-pushup
+redirect_from: /node/
+id: 
 language: da
 tags:
   - Kropsstamme

@@ -1,11 +1,14 @@
 ---
 title: "Dødløft"
 excerpt: "Stangen er placeret på gulvet. Tag fat i stangen med hænderne i skulderbredde. Rejs dig ved at skyde hoften frem, mens stangen bare hænger i armene."
+instructions: "Stangen er placeret på gulvet. Tag fat i stangen med hænderne i skulderbredde. Rejs dig ved at skyde hoften frem, mens stangen bare hænger i armene."
 permalink: /oevelse/doedloeft
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/doedloeft-0.jpg
-  teaser: /assets/images/exercises/doedloeft-0.jpg
+  teaser: /assets/images/exercises/doedloeft-0-320.jpg
 tags:
   - Ben
   - Styrketræning
@@ -26,11 +29,11 @@ muscle_group:
   - Baller
 gallery:
   - url: /assets/images/exercises/doedloeft-0.jpg
-    image_path: /assets/images/exercises/doedloeft-0.jpg
+    image_path: /assets/images/exercises/doedloeft-0-320.jpg
     alt: "Dødløft"
     title: "Dødløft"
   - url: /assets/images/exercises/doedloeft-1.jpg
-    image_path: /assets/images/exercises/doedloeft-1.jpg
+    image_path: /assets/images/exercises/doedloeft-1-320.jpg
     alt: "Dødløft"
     title: "Dødløft"
 video:

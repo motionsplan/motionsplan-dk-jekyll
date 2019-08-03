@@ -1,11 +1,14 @@
 ---
 title: "Roning, enarms"
 excerpt: "Støt på en bænk med det ene knæ og den ene arm. Hold en håndvægt i den ene hånd. Træk vægten op, mens du holder kroppen i ro."
+instructions: "Støt på en bænk med det ene knæ og den ene arm. Hold en håndvægt i den ene hånd. Træk vægten op, mens du holder kroppen i ro."
 permalink: /oevelse/roning-enarms
+redirect_from: /node/
+id: 
 language: da
 header:
   overlay_image: /assets/images/exercises/roning-enarms-0.jpg
-  teaser: /assets/images/exercises/roning-enarms-0.jpg
+  teaser: /assets/images/exercises/roning-enarms-0-320.jpg
 tags:
   - Træk
   - Styrketræning
@@ -32,15 +35,15 @@ alternative_titles:
   - one arm row
 gallery:
   - url: /assets/images/exercises/roning-enarms-0.jpg
-    image_path: /assets/images/exercises/roning-enarms-0.jpg
+    image_path: /assets/images/exercises/roning-enarms-0-320.jpg
     alt: "Roning, enarms"
     title: "Roning, enarms"
   - url: /assets/images/exercises/roning-enarms-1.jpg
-    image_path: /assets/images/exercises/roning-enarms-1.jpg
+    image_path: /assets/images/exercises/roning-enarms-1-320.jpg
     alt: "Roning, enarms"
     title: "Roning, enarms"
   - url: /assets/images/exercises/roning-enarms-2.jpg
-    image_path: /assets/images/exercises/roning-enarms-2.jpg
+    image_path: /assets/images/exercises/roning-enarms-2-320.jpg
     alt: "Roning, enarms"
     title: "Roning, enarms"
 video:

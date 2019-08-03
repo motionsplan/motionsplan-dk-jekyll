@@ -1,7 +1,10 @@
 ---
 title: "Peterson stepup"
 excerpt: ""
+instructions: ""
 permalink: /oevelse/peterson-stepup
+redirect_from: /node/
+id: 
 language: da
 tags:
 categories:

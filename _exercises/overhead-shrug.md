@@ -1,11 +1,14 @@
 ---
 title: "Shrug, overhead"
 excerpt: "Hold vægtstangen i strakte arme, mens du holder skuldrene nede. Før vægtstangen højere op ved at køre skuldrene helt op til ørerne."
+instructions: "Hold vægtstangen i strakte arme, mens du holder skuldrene nede. Før vægtstangen højere op ved at køre skuldrene helt op til ørerne."
 permalink: /oevelse/overhead-shrug
+redirect_from: /node/
+id: 
 language: da
 header:
-  overlay_image: /assets/images/exercises/overhead-shrug-0.JPG
-  teaser: /assets/images/exercises/overhead-shrug-0.JPG
+  overlay_image: /assets/images/exercises/overhead-shrug-0.jpg
+  teaser: /assets/images/exercises/overhead-shrug-0-320.jpg
 tags:
   - vægtstang
 categories:
@@ -15,12 +18,12 @@ equipment:
   - vægtstang
 muscle_group:
 gallery:
-  - url: /assets/images/exercises/overhead-shrug-0.JPG
-    image_path: /assets/images/exercises/overhead-shrug-0.JPG
+  - url: /assets/images/exercises/overhead-shrug-0.jpg
+    image_path: /assets/images/exercises/overhead-shrug-0-320.jpg
     alt: "Shrug, overhead"
     title: "Shrug, overhead"
-  - url: /assets/images/exercises/overhead-shrug-1.JPG
-    image_path: /assets/images/exercises/overhead-shrug-1.JPG
+  - url: /assets/images/exercises/overhead-shrug-1.jpg
+    image_path: /assets/images/exercises/overhead-shrug-1-320.jpg
     alt: "Shrug, overhead"
     title: "Shrug, overhead"
 video:

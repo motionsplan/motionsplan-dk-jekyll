@@ -1,11 +1,14 @@
 ---
 title: "Swing, enhånds"
 excerpt: "Hold en håndvægt med begge hænder mellem benene. Bøj i benene, så numsen kommer godt tilbage. Spænd og i mave, ryg og musklerne omkring hoften. Sving vægten fremefter og opad."
+instructions: "Hold en håndvægt med begge hænder mellem benene. Bøj i benene, så numsen kommer godt tilbage. Spænd og i mave, ryg og musklerne omkring hoften. Sving vægten fremefter og opad."
 permalink: /oevelse/sving
+redirect_from: /node/
+id: 
 language: da
 header:
-  overlay_image: /assets/images/exercises/sving-0.JPG
-  teaser: /assets/images/exercises/sving-0.JPG
+  overlay_image: /assets/images/exercises/sving-0.jpg
+  teaser: /assets/images/exercises/sving-0-320.jpg
 tags:
   - Kondition og puls
   - Styrketræning
@@ -29,20 +32,20 @@ muscle_group:
   - Baller
   - Core
 gallery:
-  - url: /assets/images/exercises/sving-0.JPG
-    image_path: /assets/images/exercises/sving-0.JPG
+  - url: /assets/images/exercises/sving-0.jpg
+    image_path: /assets/images/exercises/sving-0-320.jpg
     alt: "Swing, enhånds"
     title: "Swing, enhånds"
-  - url: /assets/images/exercises/sving-1.JPG
-    image_path: /assets/images/exercises/sving-1.JPG
+  - url: /assets/images/exercises/sving-1.jpg
+    image_path: /assets/images/exercises/sving-1-320.jpg
     alt: "Swing, enhånds"
     title: "Swing, enhånds"
-  - url: /assets/images/exercises/sving-2.JPG
-    image_path: /assets/images/exercises/sving-2.JPG
+  - url: /assets/images/exercises/sving-2.jpg
+    image_path: /assets/images/exercises/sving-2-320.jpg
     alt: "Swing, enhånds"
     title: "Swing, enhånds"
-  - url: /assets/images/exercises/sving-3.JPG
-    image_path: /assets/images/exercises/sving-3.JPG
+  - url: /assets/images/exercises/sving-3.jpg
+    image_path: /assets/images/exercises/sving-3-320.jpg
     alt: "Swing, enhånds"
     title: "Swing, enhånds"
 video:

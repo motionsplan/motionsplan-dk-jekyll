@@ -1,7 +1,10 @@
 ---
 title: "Længdespring"
 excerpt: "Spring så langt du kan. Start med armene bag kroppen og før hoften fremad. Sørg for en god landing. "
+instructions: "Spring så langt du kan. Start med armene bag kroppen og før hoften fremad. Sørg for en god landing. "
 permalink: /oevelse/laengdespring
+redirect_from: /node/
+id: 
 language: da
 tags:
   - Hård styrkeøvelse

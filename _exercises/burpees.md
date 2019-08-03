@@ -1,11 +1,14 @@
 ---
 title: "Burpees"
 excerpt: "Sæt hænderne ned til fødderne. Spring tilbage med fødderne. Lig dig fladt ned på gulvet. Spring igen frem med fødderne, så du står på hele fodsålen. Herfra springer du op i luften og klapper over hovedet og bag ved ørelinjen. Start forfra."
+instructions: "Sæt hænderne ned til fødderne. Spring tilbage med fødderne. Lig dig fladt ned på gulvet. Spring igen frem med fødderne, så du står på hele fodsålen. Herfra springer du op i luften og klapper over hovedet og bag ved ørelinjen. Start forfra."
 permalink: /oevelse/burpees
+redirect_from: /node/
+id: 
 language: da
 header:
-  overlay_image: /assets/images/exercises/burpees-0.JPG
-  teaser: /assets/images/exercises/burpees-0.JPG
+  overlay_image: /assets/images/exercises/burpees-0.jpg
+  teaser: /assets/images/exercises/burpees-0-320.jpg
 tags:
   - Kondition og puls
   - Kondition
@@ -23,24 +26,24 @@ muscle_group:
 alternative_titles:
   - burpee
 gallery:
-  - url: /assets/images/exercises/burpees-0.JPG
-    image_path: /assets/images/exercises/burpees-0.JPG
+  - url: /assets/images/exercises/burpees-0.jpg
+    image_path: /assets/images/exercises/burpees-0-320.jpg
     alt: "Burpees"
     title: "Burpees"
-  - url: /assets/images/exercises/burpees-1.JPG
-    image_path: /assets/images/exercises/burpees-1.JPG
+  - url: /assets/images/exercises/burpees-1.jpg
+    image_path: /assets/images/exercises/burpees-1-320.jpg
     alt: "Burpees"
     title: "Burpees"
-  - url: /assets/images/exercises/burpees-2.JPG
-    image_path: /assets/images/exercises/burpees-2.JPG
+  - url: /assets/images/exercises/burpees-2.jpg
+    image_path: /assets/images/exercises/burpees-2-320.jpg
     alt: "Burpees"
     title: "Burpees"
-  - url: /assets/images/exercises/burpees-3.JPG
-    image_path: /assets/images/exercises/burpees-3.JPG
+  - url: /assets/images/exercises/burpees-3.jpg
+    image_path: /assets/images/exercises/burpees-3-320.jpg
     alt: "Burpees"
     title: "Burpees"
-  - url: /assets/images/exercises/burpees-4.JPG
-    image_path: /assets/images/exercises/burpees-4.JPG
+  - url: /assets/images/exercises/burpees-4.jpg
+    image_path: /assets/images/exercises/burpees-4-320.jpg
     alt: "Burpees"
     title: "Burpees"
 last_modified_at: 2014-10-10T21:05:16Z

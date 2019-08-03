@@ -1,7 +1,10 @@
 ---
 title: "Suitcase carry"
 excerpt: ""
+instructions: ""
 permalink: /oevelse/suitcase-carry
+redirect_from: /node/
+id: 
 language: da
 tags:
 categories:

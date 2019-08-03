@@ -1,7 +1,10 @@
 ---
 title: "TRX Y"
 excerpt: ""
+instructions: ""
 permalink: /oevelse/trx-y
+redirect_from: /node/
+id: 
 language: da
 tags:
   - Balance

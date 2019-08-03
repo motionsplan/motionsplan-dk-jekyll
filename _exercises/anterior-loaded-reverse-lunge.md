@@ -1,7 +1,10 @@
 ---
 title: "Anterior loaded reverse lunge"
 excerpt: ""
+instructions: ""
 permalink: /oevelse/anterior-loaded-reverse-lunge
+redirect_from: /node/
+id: 
 language: da
 tags:
   - Ben

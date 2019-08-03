@@ -1,11 +1,14 @@
 ---
 title: "Sideløft, foroverbøjet"
 excerpt: "Let foroverbøjet og med let bøjede arme føres vægtene ud i til siden og opad. Bevægelsen stoppes, når albuer er på højde med skulderne. Vægtene sænkes kontrolleret tilbage til udgangspositionen."
+instructions: "Let foroverbøjet og med let bøjede arme føres vægtene ud i til siden og opad. Bevægelsen stoppes, når albuer er på højde med skulderne. Vægtene sænkes kontrolleret tilbage til udgangspositionen."
 permalink: /oevelse/sideloeft-foroverboejet
+redirect_from: /node/
+id: 
 language: da
 header:
-  overlay_image: /assets/images/exercises/sideloeft-foroverboejet-0.JPG
-  teaser: /assets/images/exercises/sideloeft-foroverboejet-0.JPG
+  overlay_image: /assets/images/exercises/sideloeft-foroverboejet-0.jpg
+  teaser: /assets/images/exercises/sideloeft-foroverboejet-0-320.jpg
 tags:
   - håndvægte
   - 
@@ -24,16 +27,16 @@ alternative_titles:
   - Bent over flys
   - Bent over flies
 gallery:
-  - url: /assets/images/exercises/sideloeft-foroverboejet-0.JPG
-    image_path: /assets/images/exercises/sideloeft-foroverboejet-0.JPG
+  - url: /assets/images/exercises/sideloeft-foroverboejet-0.jpg
+    image_path: /assets/images/exercises/sideloeft-foroverboejet-0-320.jpg
     alt: "Sideløft, foroverbøjet"
     title: "Sideløft, foroverbøjet"
-  - url: /assets/images/exercises/sideloeft-foroverboejet-1.JPG
-    image_path: /assets/images/exercises/sideloeft-foroverboejet-1.JPG
+  - url: /assets/images/exercises/sideloeft-foroverboejet-1.jpg
+    image_path: /assets/images/exercises/sideloeft-foroverboejet-1-320.jpg
     alt: "Sideløft, foroverbøjet"
     title: "Sideløft, foroverbøjet"
-  - url: /assets/images/exercises/sideloeft-foroverboejet-2.JPG
-    image_path: /assets/images/exercises/sideloeft-foroverboejet-2.JPG
+  - url: /assets/images/exercises/sideloeft-foroverboejet-2.jpg
+    image_path: /assets/images/exercises/sideloeft-foroverboejet-2-320.jpg
     alt: "Sideløft, foroverbøjet"
     title: "Sideløft, foroverbøjet"
 last_modified_at: 2013-04-21T18:14:07Z
