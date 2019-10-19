@@ -12,7 +12,64 @@ motionsplan.CooperClinicMortalityRiskIndex = function(age, hr, bloodpressure, di
   bmi = bmi;
   fitness = fitness;
   
-  function getRisk()
+  function getAgePoint()
+  {
+      var point;
+      if (age < 44) {
+          point = 0
+      }
+      else if (age < 49) {
+          point = 3;
+      }
+      else if (age < 54) {
+          point = 6;
+      }
+      else if (age < 59) {
+          point = 8;
+      }
+      else if (age < 64) {
+          point = 9;
+      }
+      else if (age < 69) {
+          point = 10;
+      }
+      
+      return point;
+  }
+  
+  function getHrPoint()
+  {
+      if (hr >= 80) {
+          return 2;
+      }
+      return 0;
+  }
+
+  function getBMIPoint()
+  {
+      if (bmi > 35) {
+          return 3;
+      }
+      
+      return 0;
+  }
+  
+  function getFitnessPoint()
+  {
+      if (fitness < 35) {
+          return 2;
+      }
+      
+      return 0;
+  }
+  
+  function getRiskPoint()
+  {
+     var point = getAgePoint() + getHrPoint() + bloodpressure + diabetes + smoker + getBMIPoint() + getFitnessPoint();
+     return point;
+  }
+
+  function getAbsoluteRisk()
   {
      var risk;
      var point = getRiskPoint();
@@ -73,40 +130,27 @@ motionsplan.CooperClinicMortalityRiskIndex = function(age, hr, bloodpressure, di
 
     return risk;
   }
-  
-  function getRiskPoint()
-  {
-     var point, alderpoint;
-     if (age == -1) {
-         alderpoint = 0;
-     }
-     else {
-         alderpoint = age;
-     }
-     point = alderpoint + hr + bloodpressure + diabetes + smoker + bmi + fitness;
-     return point;
-  }
-  
-  function getRisk3()
+
+  function getRelativeRisk()
   {
      var risk2, risk3;
-     var risk = getRisk();
-     if (age == -1) {
+     var risk = getAbsoluteRisk();
+     if (age < 34) {
          risk2 = risk / 2.4;
      }
-     else if (age == 0) {
+     else if (age < 44) {
          risk2 = risk / 2.6;
      }
-     else if (age == 3) {
+     else if (age < 49) {
          risk2 = risk / 4.6;
      }
-     else if (age == 6) {
+     else if (age < 54) {
          risk2 = risk / 8.2;
      }
-     else if (age == 8) {
+     else if (age < 59) {
          risk2 = risk / 12.6;
      }
-     else if (age == 9) {
+     else if (age < 64) {
          risk2 = risk / 16.1;
      }
      else {
@@ -118,12 +162,11 @@ motionsplan.CooperClinicMortalityRiskIndex = function(age, hr, bloodpressure, di
 
   var publicAPI = {
     getRiskPoint : getRiskPoint,
-    getRisk : getRisk,
-    getRisk3 : getRisk3
+    getAbsoluteRisk : getAbsoluteRisk,
+    getRelativeRisk : getRelativeRisk
     
   };  
-  
-  // To be returned upon creation of a new instance.  
+
   return publicAPI; 
 }
 
