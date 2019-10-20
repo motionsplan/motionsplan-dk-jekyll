@@ -9,13 +9,14 @@ describe('Estimate1RM', function() {
       assert.equal(rm.getBrzycki(), 113);
       assert.equal(rm.getLander(), 114);
       assert.equal(rm.getLombardi(), 117);
-      assert.equal(rm.getMayhewetal(), 119);
-      assert.equal(rm.getOconneretal(), 113);
+      assert.equal(rm.getMayhew(), 119);
+      assert.equal(rm.getOconnor(), 113);
       assert.equal(rm.getWathan(), 117);
       assert.equal(rm.getMOL(1, 1), 108.68442932523273);
       assert.equal(rm.getMOL(1, 0), 109.94750006871719);
       assert.equal(rm.getMOL(0, 1), 111.90564116337104);
       assert.equal(rm.getMOL(0, 0), 112.76118309033298);
+      assert.equal(rm.getMOLBryzki(), 112.51125112511251)
     });
   });
 });
