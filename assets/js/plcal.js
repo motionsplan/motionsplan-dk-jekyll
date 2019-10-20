@@ -8,10 +8,8 @@ $(document).ready(function() {
 
         var konditalM = mxpul / hvpul * 15.3;
 
-
         var maxiltop = Math.round(konditalM * wgt / 1000 * Math.pow(10, 2)) / Math.pow(10, 2);
         var kondi = Math.round((konditalM) * Math.pow(10, 1)) / Math.pow(10, 1);
-
 
         $("#plIltop").text(maxiltop);
         $("#plKond").text(kondi);
