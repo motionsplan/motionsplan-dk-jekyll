@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
     $("#plCalBtn").click(function() {
 
         var hvpul = Number($("#plHvil").val());

@@ -36,6 +36,7 @@ Sundhed fylder megt i samfundet. Men hvad er sundhed egentlig? Morten Zacho har 
 Sundhedsprofilen viser et øjebliksbillede af din nuværende sundhed og livsstil.
 
 > Motion-online’s Sundhedsprofil er tænkt som et værktøj der kan bruges af alle – både private og professionelle. Vi har derfor lagt vægt på en let tilgængelig og pædagogisk brugerflade samt et evidensbaseret fundament for test og resultatberegning. I denne artikel gives de bagvedliggende principper og referencer.Sundhed kan beskrives på mange forskellige måder. I Motion-online’s sundhedsprofil tages der udgangspunkt i variable, der er relateret til fysisk sundhed, set som muligheden for at leve et langt liv uden sygdomme og med en høj grad af fysisk funktion gennem hele livet.
+>
 > [Motion-online.dk - Sundhedsprofil – Teoretisk Baggrund](https://www.motion-online.dk/sundhedsprofil-teoretisk-baggrund/)
 
 Oprindeligt var sundhedsprofilen udviklet på dansk, men nu findes den kun på engelsk. Så det kan være, at du skal have ordbogen frem.
@@ -50,6 +51,20 @@ Avanceret sundhedsprofil
 : I den avancerede sundhedsprofil laver du nogle målinger på dig selv. Alle målingerne er ret enkle at lave, og der er gode forklaringer på siden.
 
 [Tag din egen sundhedstest](http://www.health-calc.com/component/sundhedsprofiler/default){: .btn .btn--large .btn--info }
+
+## Hvordan tester jeg fitness?
+
+### Anslå den ud fra hvile- og maxpuls
+
+I sundhedstesten foreslås forskellige måder at teste kredsløbsfitness på. Hvis ikke du har tid til at lave en længerevarende fitnesstest, så kan du _estimere_ din test ud fra din hvile- og max-puls.
+
+[Anslå kondital fra puls](/kondital-fra-puls/){: .btn .btn--larg .btn--success }
+
+### Anslå VO<sub>2</sub>-max ud fra løbedistance og -tid
+
+Hvis du for nylig har løbet en distance så hurtigt, du kunne, så kan du også anslå din kredsløbsfitness ud fra Jack Daniels formel.
+
+[Anslå kondital fra løb](https://www.omnicalculator.com/sports/vo2-max-runners){: .btn .btn--large .btn--info }
 
 ## Teoretisk baggrund for sundhedsprofilen
 

@@ -71,47 +71,34 @@
     }
     //--><!]]>
 </script>
-<form action="#" onsubmit="Calculate(this); return false">
-
-    <table bgcolor="#c0c0c0" border="0" cellpadding="4" cellspacing="0" width="100%">
-        <tbody>
-            <tr>
-                <th align="right">Køn:</th>
-                <td nowrap="nowrap"><input checked="checked" name="sex" onclick="man = true" type="radio" value="man" /> Mand <input name="sex" onclick="man = false" type="radio" value="woman" /> Kvinde</td>
-            </tr>
-            <tr>
-                <th align="right">Alder:</th>
-                <td><input maxlength="3" name="age" size="3" type="text" value="" /> år</td>
-            </tr>
-            <tr>
-                <th align="right">Højde:</th>
-                <td><input maxlength="3" name="height" size="3" type="text" value="" /> cm</td>
-            </tr>
-            <tr>
-                <th align="right">Vægt:</th>
-                <td><input maxlength="3" name="weight" size="3" type="text" value="" /> kg</td>
-            </tr>
-            <tr>
-                <th align="right">Body mass index (BMI):</th>
-                <td><input disabled="disabled" name="BMI" size="6" type="text" value="" /><small>(udregnes)</small></td>
-            </tr>
-            <tr>
-                <th align="right">Fedtmasse:</th>
-                <td><input disabled="disabled" name="fedtmasse" size="6" type="text" value="" /> kg <small>(udregnes)</small></td>
-            </tr>
-            <tr>
-                <th align="right">Fedtprocent:</th>
-                <td><input disabled="disabled" name="fedtprocent" size="6" type="text" value="" /> <small>(udregnes)</small></td>
-            </tr>
-            <tr>
-                <td align="center" colspan="2">
-                    <hr size="2" width="95%" /><br /><input class="submit" name="SUBMIT2" type="submit" onclick="Calculate(this); return false" value="Udregn" /> <input class="submit" name="RESET2" onclick="Reset(this.form); return true" type="reset" value="Nulstil" />
-                    <hr />
-                    <center>
-                        <font size="-2"><a href="http://web.archive.org/web/20030210183727/http://www.image.dk/%7Epetermad/">Peter H. S. Madsen</a> skrev javascript til udregningen.</font>
-                    </center>
-                </td>
-            </tr>
-        </tbody>
-    </table>
+<form action="#" onsubmit="Calculate(this); return false" class="form">
+    <fieldset class="radio">
+        <legend>Køn</legend>
+        <input name="sex" onclick="man = true" type="radio" value="man" id="checkbox-man" /> <label for="checkbox-man">Mand</label>
+        <input name="sex" onclick="man = false" type="radio" value="woman" id="checkbox-woman" /> <label for="checkbox-woman">Kvinde</label>
+    </fieldset>
+    <fieldset>
+        <div class="form-inline">
+            <label>Alder</label>
+            <input class="input-mini" maxlength="3" name="age" size="3" type="text" value="" /> <span class="help-inline">år</span>
+        </div>
+        <label class="form-inline">Højde
+            <input class="input-mini" maxlength="3" name="height" size="3" type="text" value="" /> <span class="help-inline">cm</span>
+        </label>
+        <label class="form-inline">Vægt 
+            <input class="input-mini" maxlength="3" name="weight" size="3" type="text" value="" /> <span class="help-inline">kg</span>
+        </label>
+        <input class="btn btn--large btn--success" name="SUBMIT2" type="submit" onclick="Calculate(this); return false" value="Udregn" /> <input class="submit" name="RESET2" onclick="Reset(this.form); return true" type="reset" value="Nulstil" />
+    </fieldset>
+    <fieldset>
+        <label class="form-inline">Body mass index (BMI)
+            <input class="input-mini" disabled="disabled" name="BMI" size="6" type="text" value="" /><span class="help-inline">(udregnes)</span>
+        </label>
+        <label class="form-inline">Fedtmasse
+            <input class="input-mini" disabled="disabled" name="fedtmasse" size="6" type="text" value="" /> <span class="help-inline">kg (udregnes)</span>
+        </label>
+        <label class="form-inline">Fedtprocent
+            <input class="input-mini" disabled="disabled" name="fedtprocent" size="6" type="text" value="" /> <span class="help-inline">% (udregnes)</span>
+        </label>
+    </fieldset>
 </form>
