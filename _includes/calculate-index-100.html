@@ -2,9 +2,9 @@
 function Calculate(thisform)
   {
     Loeft = thisform.Loeft.value;
-	Vaegt = thisform.Vaegt.value;
-  	resultat = Math.round(Loeft*986.63/(1270.4-172970*((Math.pow(Vaegt,-1.3925))))* Math.pow(10,0))/Math.pow(10,0) 
-    thisform.Krop100.value=resultat
+    Vaegt = thisform.Vaegt.value;
+    resultat = Math.round(Loeft * 986.63 / (1270.4 - 172970 * ((Math.pow(Vaegt, -1.3925)))) * Math.pow(10, 0)) / Math.pow(10, 0)
+    thisform.Krop100.value = resultat
     return false;
   }
 </script>
@@ -23,9 +23,9 @@ function Calculate(thisform)
       <td width="246">Din kropsvægt:</td>
       <td width="186"><input type="text" name="Vaegt" size="7" value="80" class="flat_field">kg</td>
     </tr>
-    <tr bgcolor="#F3F3EB"> 
+    <tr bgcolor="#F3F3EB">
       <td width="246">&nbsp; </td>
-      <td width="186"> 
+      <td width="186">
         <input type="submit" value="Beregn" name="submit">
       </td>
     </tr>
