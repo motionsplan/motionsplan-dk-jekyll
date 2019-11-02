@@ -59,12 +59,6 @@ Hvis man er styrkeløfter kan der være mere information i at beregne sin Wilks 
 
 ***
 
-En del af motivationen ved træning kan være at sammenligne sig med andre. Ved styrketræning er der den uretfærdighed at store personer har en fordel, men ved at brugeMotion-online's Index100 beregner kan man sammenligne på tværs af kropsvægt!
-
-Princippet i Index100 er, at alle løft bliver regnet om til hvad de teoretisk ville være såfremt man vejede 100 kg. Index100-beregningen kan bruges på alle løft, både for mænd og kvinder (dog ikke til fair sammenligning mellem mænd og kvinder).
-
-Indtast dit løft og din kropsvægt i nedenstående felter og tryk på beregn.
-
 ### Beregning af Index100
 
 {% include calculate-index-100.html %}
@@ -79,7 +73,11 @@ Index100 = (kg * 986,63) / (1270 - 172970 * (kropsvægt^-1,3925))
 
 Når man skal sammenligne løftepræstationer mellem forskellige personer, kan man ikke bare dividere løftene med kropsvægten, da sammenhængen mellem løft og kropsvægt ikke er lineær (se graf).
 
+## Teoretisk baggrund for Index100 beregningen
 
+Når man skal sammenligne løftepræstationer mellem forskellige personer, kan man ikke bare dividere løftene med kropsvægten, da sammenhængen mellem løft og kropsvægt ikke er lineær (se graf).
+
+{% include figure image_path="https://web.archive.org/web/20070610031909im_/http://www.motion-online.dk/images/siff_loeft1.gif" %}
 
 Beregningen bag Index100 er baseret på sammenhængen mellem præstation og kropsvægt hos verdens bedste styrkeløftere. Dr. Mel C. Siff fra Sydafrika har ud fra en statistisk behandling af de bedste løft i alle vægtklasser gennem en årrække fundet frem til en formel som giver en Siff-score, der kan bruges til fair sammenligning. Det er med udgangspunkt i denne Siff-score at vi har beregnet en Index100-formel. Fordelen ved Index100 tallet er, at det er lettere at forholde sig til, specielt når man ønsker at bruge det på andre løft end blot summen af de 3 styrkeløft.
 
@@ -99,3 +97,4 @@ Det vil være for meget at kalde Index100 for videnskabelig baseret, men det er 
 - [Evolution of Bodymass Adjustments](http://web.archive.org/web/20050304042306/http://www.sportsci.com/SPORTSCI/JANUARY/evolution_of_bodymass_adjustment.htm)
 - [About relative strength](http://tsampa.org/training/scripts/relative_strength/#about)
 - [Who is the most impressive powerlifter](https://www.strongerbyscience.com/whos-the-most-impressive-powerlifter/)
+=======
