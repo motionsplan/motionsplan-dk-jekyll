@@ -1,0 +1,92 @@
+<script language="JavaScript">
+    function Calculate(thisform) {
+        arb1 = thisform.arb1.value;
+        puls1 = thisform.puls1.value;
+        arb2 = thisform.arb2.value;
+        puls2 = thisform.puls2.value;
+        alder = thisform.alder.value;
+        vaegt = thisform.vaegt.value;
+        maxpuls = 208 - 0.7 * alder;
+        delres = ((maxpuls - puls2) * (arb2 - arb1)) / (puls2 - puls1) + arb2 * 1;
+        resultat = Math.round((delres / 0.23 * 60 / 21100 + 0.25) * Math.pow(10, 2)) / Math.pow(10, 2)
+        resultat2 = Math.round((resultat / vaegt * 1000) * Math.pow(10, 1)) / Math.pow(10, 1)
+        thisform.Iltoptag.value = resultat
+        thisform.Kondital.value = resultat2
+        return false;
+    }
+</script>
+</font>
+<form name="test" onsubmit="return Calculate(this);">
+    <table cellspacing="1" cellpadding="4" width="451" align="center" bgcolor="#003366" border="0">
+        <tbody>
+            <tr>
+                <td bgcolor="#ffffff" colspan="2">
+                    <p>Indtast de målte værdier.</p>
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="#d3e1f8">
+                    <div align="right">1. arbejdsbelastning:</div>
+                </td>
+
+                <td bgcolor="#d3e1f8"><input maxlength="3" size="7" value="100" name="arb1"> Watt </td>
+            </tr>
+            <tr>
+                <td bgcolor="#d3e1f8">
+                    <div align="right">Puls ved 1. arbejdsbelastning:</div>
+                </td>
+                <td bgcolor="#d3e1f8"><input maxlength="3" size="7" value="120" name="puls1"> Slag/min </td>
+            </tr>
+            <tr>
+                <td bgcolor="#cef4ea">
+                    <div align="right">2. arbejdsbelastning: </div>
+                </td>
+                <td bgcolor="#cef4ea"><input maxlength="3" size="7" value="180" name="arb2"> Watt </td>
+            </tr>
+
+            <tr>
+                <td bgcolor="#cef4ea">
+                    <div align="right">Puls ved 2. arbejdsbelastning:</div>
+                </td>
+                <td bgcolor="#cef4ea"><input maxlength="3" size="7" value="150" name="puls2"> Slag/min</td>
+            </tr>
+            <tr>
+                <td bgcolor="#d8e4f8">
+                    <div align="right">Alder: </div>
+                </td>
+                <td bgcolor="#d8e4f8"><input maxlength="3" size="7" value="40" name="alder">År</td>
+            </tr>
+            <tr>
+                <td bgcolor="#d8e4f8">
+                    <div align="right">Vægt</div>
+                </td>
+
+                <td bgcolor="#d8e4f8"><input maxlength="5" size="7" value="70" name="vaegt"> Kg</td>
+            </tr>
+            <tr>
+                <td bgcolor="#34557a">
+                    <div align="right">
+                        <font color="#ffffff"><b>Maximal iltoptagelse</b></font>
+                    </div>
+                </td>
+                <td bgcolor="#34557a"><input maxlength="5" size="7" name="Iltoptag">
+                    <font color="#ffffff"><b>l/min </b></font>
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="#34557a">
+                    <div align="right">
+                        <font color="#ffffff"><b>Kondital</b></font>
+                    </div>
+                </td>
+                <td bgcolor="#34557a"><input maxlength="5" size="7" name="Kondital"> <b><font color="#ffffff">ml/kg/min</font></b></td>
+            </tr>
+
+            <tr bgcolor="#ffffff">
+                <td colspan="2">
+                    <input type="submit" value="Beregn" name="submit">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</form>

@@ -1,0 +1,116 @@
+<script language="JavaScript">
+    function Calculate(thisform) {
+        Meter = thisform.Meter.value;
+        Koen = thisform.Koen.value;
+        Alder = thisform.Alder.value;
+        Hoejde = thisform.Hoejde.value;
+        Vaegt = thisform.Vaegt.value;
+        Mand = (7.57 * Hoejde) - (5.02 * Alder) - (1.76 * Vaegt) - 309
+        Kvinde = (2.11 * Hoejde) - (5.78 * Alder) - (2.29 * Vaegt) + 667
+        resultat = Math.round((Mand * Koen + Kvinde * (1 - Koen)) * Math.pow(10, 1)) / Math.pow(10, 1)
+        resultat2 = Math.round((Meter / resultat * 100) * Math.pow(10, 1)) / Math.pow(10, 1)
+        thisform.Refmeter.value = resultat
+        thisform.Procent.value = resultat2
+        return false;
+    }
+</script>
+</font>
+</p>
+<form name="test" onsubmit="return Calculate(this);">
+    <table cellspacing="1" cellpadding="4" width="451" align="center" bgcolor="#990000" border="0">
+        <tbody>
+            <tr bgcolor="#ccffcc">
+                <td bgcolor="#ffffff" colspan="2" height="22">
+                    <p>
+                        <font size="2">Indtast distance og persondata</font>
+                    </p>
+                </td>
+            </tr>
+            <tr bgcolor="#f3f3eb">
+                <td width="179">
+
+                    <div align="right">
+                        <font size="2">Distance tilbagelagt :</font>
+                    </div>
+                </td>
+                <td width="253">
+                    <font size="2"><input size="7" value="400" name="Meter"> meter</font>
+                </td>
+            </tr>
+            <tr bgcolor="#f3f3eb">
+                <td width="179">
+                    <div align="right">
+                        <font size="2">Køn:</font>
+                    </div>
+                </td>
+                <td width="253">
+                    <font size="2"><select size="1" name="Koen"> <option value="1" selected>Mand</option> <option value="0">Kvinde</option></select> </font>
+                </td>
+            </tr>
+            <tr bgcolor="#f3f3eb">
+                <td width="179">
+
+                    <div align="right">
+                        <font size="2">Alder:</font>
+                    </div>
+                </td>
+                <td width="253">
+                    <font size="2"><input size="7" value="60" name="Alder"> år</font>
+                </td>
+            </tr>
+            <tr bgcolor="#f3f3eb">
+                <td>
+                    <div align="right">
+                        <font size="2">Højde: </font>
+                    </div>
+                </td>
+                <td>
+                    <font size="2"><input size="7" value="170" name="Hoejde"> cm</font>
+                </td>
+            </tr>
+            <tr bgcolor="#f3f3eb">
+                <td width="179">
+                    <div align="right">
+                        <font size="2">Vægt</font>
+                    </div>
+                </td>
+                <td width="253">
+                    <font size="2"><input size="7" value="70" name="Vaegt"> kg</font>
+                </td>
+            </tr>
+
+            <tr bgcolor="#f3f3eb">
+                <td width="179">
+                    <div align="right">
+                        <font size="2"></font>
+                    </div>
+                </td>
+                <td width="253">
+                    <font size="2"><input type="submit" value="Beregn" name="submit"> </font>
+                </td>
+            </tr>
+            <tr bgcolor="#990000">
+                <td width="179" bgcolor="#648cb4">
+                    <div align="right">
+                        <font color="#ffffff" size="2"><b>Referenceværdi:</b></font>
+                    </div>
+                </td>
+                <td width="253" bgcolor="#648cb4">
+                    <font size="2"><input maxlength="5" size="7" name="Refmeter">
+                        <font color="#ffffff"><b>meter</b></font>
+                    </font>
+                </td>
+            </tr>
+            <tr bgcolor="#990000">
+                <td width="179" bgcolor="#648cb4">
+                    <div align="right">
+                        <font color="#ffffff" size="2"><b>Procent af normal:</b></font>
+                    </div>
+                </td>
+                <td width="253" bgcolor="#648cb4">
+                    <font size="2"><input maxlength="5" size="7" name="Procent"> <b><font color="#ffffff">%</font></b></font>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</form>

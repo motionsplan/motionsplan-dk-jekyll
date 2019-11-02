@@ -1,0 +1,38 @@
+<script language="JavaScript">
+function Calculate(thisform)
+  {
+    Loeft = thisform.Loeft.value;
+	Vaegt = thisform.Vaegt.value;
+  	resultat = Math.round(Loeft*986.63/(1270.4-172970*((Math.pow(Vaegt,-1.3925))))* Math.pow(10,0))/Math.pow(10,0) 
+    thisform.Krop100.value=resultat
+    return false;
+  }
+</script>
+
+<form name="wmax" onsubmit="return Calculate(this);">
+  <table width="451" border="0" cellspacing="1" cellpadding="4" align="center" bgcolor="#990000">
+    <tr bgcolor="#CCFFCC"> 
+      <td colspan="2" bgcolor="#FFFFFF" height="22">Beregning af Index100.</td>
+    </tr>
+    <tr bgcolor="#F3F3EB"> 
+      <td width="246">Dit l&oslash;ft:</td>
+      <td width="186"> 
+        <input type="text" name="Loeft" size="7" value="80" class="flat_field">kg</td>
+    </tr>
+    <tr bgcolor="#F3F3EB"> 
+      <td width="246">Din kropsv&aelig;gt:</td>
+      <td width="186"><input type="text" name="Vaegt" size="7" value="80" class="flat_field">kg</td>
+    </tr>
+    <tr bgcolor="#F3F3EB"> 
+      <td width="246">&nbsp; </td>
+      <td width="186"> 
+        <input type="submit" value="Beregn" name="submit">
+      </td>
+    </tr>
+    <tr bgcolor="#BBDDFF"> 
+      <td width="246">Dit l&oslash;ft hvis du vejede 100 kg:</td>
+      <td width="186"> 
+        <input type="text" name="Krop100" size="7" maxlength="5" class="flat_field"> kg</td>
+    </tr>
+  </table>
+</form>
