@@ -58,6 +58,8 @@ Ratioen mellem taljemålet og hoftemålet er en indikator på sundhed. Rationen 
 - Mål omkredsen af taljen ved midtpunktet på siden mellem nederste punkt at nederste ribben og øverste punkt af hoftekammen.
 - Hoften måles ved det den største omkreds ved hoften.
 
+{% include video provider="youtube" id="gUJXbTl4qzg" %}
+
 ### Normalværdier for talje-hofte-målet
 
 Normalværdierne for WHR er følgende. Hvis du har højere værdier, så kan du være i en forhøjet risikogruppe for livsstilssygdomme.

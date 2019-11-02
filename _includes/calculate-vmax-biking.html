@@ -1,4 +1,4 @@
-<script language="JavaScript">
+<script>
     function Calculate(thisform) {
         Maxvo2 = thisform.Maxvo2.value;
         resultat = Math.round((Maxvo2 * 21 / 60 * 0.23 / 5) * Math.pow(10, 0)) / Math.pow(10, 0) * 5
@@ -10,53 +10,36 @@
     <table width="451" border="0" cellspacing="1" cellpadding="4" align="center" bgcolor="#990000">
         <tr bgcolor="#CCFFCC">
             <td colspan="2" bgcolor="#FFFFFF" height="22">
-                <p>
-                    <font size="2">Beregning af Vmax.</font>
-                </p>
+                Beregning af Vmax.
             </td>
         </tr>
         <tr bgcolor="#F3F3EB">
             <td width="179">
-                <div align="right">
-                    <font size="2">Maksimal iltoptagelse: </font>
-                </div>
+                Maksimal iltoptagelse:
             </td>
             <td width="253">
-                <font size="2">
-                    <input type="text" name="Maxvo2" size="7" value="4000" class="flat_field"> ml/min
-                </font>
+                <input type="text" name="Maxvo2" size="7" value="4000" class="flat_field"> ml/min
             </td>
         </tr>
         <tr bgcolor="#F3F3EB">
             <td width="179">
-                <div align="right">
-                    <font size="2"></font>
-                </div>
             </td>
             <td width="253">
-                <font size="2">
-                    <input type="submit" value="Beregn" name="submit">
-                </font>
+                <input type="submit" value="Beregn" name="submit">
             </td>
         </tr>
         <tr bgcolor="#CC6600">
             <td width="179">
-                <div align="right">
-                    <font size="2" color="#FFFFFF"><b>Vmax: 
-                      </b></font>
-                </div>
+                Vmax:
             </td>
             <td width="253">
-                <font size="2">
-                    <input type="text" name="Vmax" size="7" maxlength="5" class="flat_field">
-                    <font color="#FFFFFF"><b> watt</b></font>
-                </font>
+                <input type="text" name="Vmax" size="7" maxlength="5" class="flat_field"> watt
             </td>
         </tr>
     </table>
 </form>
 
-<script language="JavaScript">
+<script>
     function Calculate2(thisform) {
         Vmax2 = thisform.Vmax2.value;
         Min = thisform.Min.value;
@@ -76,144 +59,86 @@
 <form name="intervaller" onsubmit="return Calculate2(this);">
     <table width="451" border="0" cellspacing="1" cellpadding="4" align="center" bgcolor="#990000">
         <tr bgcolor="#CCFFCC">
-            <td colspan="2" bgcolor="#FFFFFF" height="22">
-                <p>
-                    <font size="2">Beregning af intervaller - indtast Vmax og Tmax</font>
-                </p>
+            <td colspan="2" bgcolor="#FFFFFF" height="22">Beregning af intervaller - indtast Vmax og Tmax</td>
+        </tr>
+        <tr bgcolor="#F3F3EB">
+            <td width="179">Vmax:</td>
+            <td width="253">
+                <input type="text" name="Vmax2" size="7" value="320" class="flat_field"> watt (fra ovenst&aring;ende skema)
             </td>
         </tr>
         <tr bgcolor="#F3F3EB">
             <td width="179">
-                <div align="right">
-                    <font size="2">Vmax: </font>
-                </div>
+               Tmax:
             </td>
             <td width="253">
-                <font size="2">
-                    <input type="text" name="Vmax2" size="7" value="320" class="flat_field"> watt
-                    <font size="1">(fra ovenst&aring;ende skema)</font>
-                </font>
+                <input type="text" name="Min" size="5" value="4" class="flat_field"> minutter
+                <input type="text" name="Sek" size="5" value="20" class="flat_field"> sek.
             </td>
         </tr>
         <tr bgcolor="#F3F3EB">
             <td width="179">
-                <div align="right">
-                    <font size="2">Tmax:</font>
-                </div>
             </td>
             <td width="253">
-                <font size="2">
-                    <input type="text" name="Min" size="5" value="4" class="flat_field"> minutter
-                    <input type="text" name="Sek" size="5" value="20" class="flat_field"> sek.
-                </font>
-            </td>
-        </tr>
-        <tr bgcolor="#F3F3EB">
-            <td width="179">
-                <div align="right">
-                    <font size="2"></font>
-                </div>
-            </td>
-            <td width="253">
-                <font size="2">
-                    <input type="submit" value="Beregn" name="submit2">
-                </font>
+                <input type="submit" value="Beregn" name="submit2">
             </td>
         </tr>
         <tr bgcolor="#CC6600">
             <td colspan="2">
-                <div align="center"><b><font size="2"><i><font color="#FFFF00">Anbefalet 
-                      opvarmning</font></i></font></b></div>
+                Anbefalet opvarmning
             </td>
         </tr>
         <tr bgcolor="#CC6600">
             <td>
-                <div align="right">
-                    <font size="2"><b><font color="#FFFFFF">8 
-                      minutter p&aring; </font></b></font>
-                </div>
+                8 minutter p&aring;
             </td>
             <td>
-                <font size="2">
-                    <input type="text" name="Opvarm1" size="7" maxlength="5" class="flat_field">
-                    <font color="#FFFFFF"><b> til </b></font>
-                    <font size="2">
-                        <input type="text" name="Opvarm2" size="7" maxlength="5" class="flat_field">
-                    </font>
-                    <font color="#FFFFFF"><b>watt</b></font>
-                </font>
+                <input type="text" name="Opvarm1" size="7" maxlength="5" class="flat_field"> til
+                <input type="text" name="Opvarm2" size="7" maxlength="5" class="flat_field"> watt
             </td>
         </tr>
         <tr bgcolor="#CC6600">
             <td colspan="2">
-                <div align="center"><b><font size="2"><i><font color="#FFFF00">Intervaller</font></i></font></b></div>
+                Intervaller
             </td>
         </tr>
         <tr bgcolor="#CC6600">
             <td width="179">
-                <div align="right">
-                    <font size="2" color="#FFFFFF"><b>Interval-belastning</b></font>
-                </div>
+                Interval-belastning
             </td>
             <td width="253">
-                <font size="2">
-                    <input type="text" name="Vmax3" size="7" maxlength="5" class="flat_field">
-                    <font color="#FFFFFF"><b> watt</b></font>
-                </font>
+                <input type="text" name="Vmax3" size="7" maxlength="5" class="flat_field"> watt
             </td>
         </tr>
         <tr bgcolor="#CC6600">
             <td width="179">
-                <div align="right">
-                    <font size="2" color="#FFFFFF"><b>Interval-tid</b></font>
-                </div>
+                Interval-tid
             </td>
             <td width="253">
-                <font size="2">
-                    <input type="text" name="Vmaxtid_m" size="5" maxlength="5" class="flat_field">
-                    <font color="#FFFFFF"><b> min</b></font>
-                    <font size="2">
-                        <input type="text" name="Vmaxtid_s" size="5" maxlength="5" class="flat_field">
-                        <b><font color="#FFFFFF">sek.</font></b></font>
-                </font>
+                <input type="text" name="Vmaxtid_m" size="5" maxlength="5" class="flat_field"> min
+                <input type="text" name="Vmaxtid_s" size="5" maxlength="5" class="flat_field"> sek.
             </td>
         </tr>
         <tr bgcolor="#CC6600">
             <td width="179">
-                <div align="right">
-                    <font size="2" color="#FFFFFF"><b>Pause-belastning</b></font>
-                </div>
+                Pause-belastning
             </td>
             <td width="253">
-                <font size="2">
-                    <input type="text" name="Vpause" size="7" maxlength="5" class="flat_field">
-                    <font color="#FFFFFF"><b> watt</b></font>
-                </font>
+                <input type="text" name="Vpause" size="7" maxlength="5" class="flat_field"> watt
             </td>
         </tr>
         <tr bgcolor="#CC6600">
             <td width="179">
-                <div align="right">
-                    <font size="2" color="#FFFFFF"><b>Pause-tid</b></font>
-                </div>
+                Pause-tid
             </td>
             <td width="253">
-                <font size="2">
-                    <input type="text" name="Pausetid_m" maxlength="5" size="5" class="flat_field">
-                    <b><font color="#FFFFFF">min </font><font size="2"> 
-                    <input type="text" name="Pausetid_s" maxlength="5" size="5" class="flat_field">
-                    <font size="2"><b><font color="#FFFFFF">sek.</font></b></font>
-                </font>
-                </b>
-                </font>
+                <input type="text" name="Pausetid_m" maxlength="5" size="5" class="flat_field"> min 
+                <input type="text" name="Pausetid_s" maxlength="5" size="5" class="flat_field"> sek.
             </td>
         </tr>
         <tr bgcolor="#CC6600">
             <td colspan="2">
-                <div align="center">
-                    <font color="#FFFF00"><i><b><font size="3">x 
-                      4-6</font></b></i></font>
-                </div>
+                x 4-6
             </td>
         </tr>
     </table>
