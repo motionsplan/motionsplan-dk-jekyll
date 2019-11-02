@@ -34,8 +34,7 @@ BMI er let at udregne, når du kender din højde og din vægt:
 
 I tabel 1 kan du se normalværdierne for BMI:
 
-Tabel 1: Body Mass Index
-
+| Tabel 1: Body Mass Index                     |||
 | Klassifikation | Kvinde (kg/m2) | Mand (kg/m2) |
 |----------------|----------------|--------------|
 | Undervægtig    | Under 20       | Under 20     |
@@ -43,13 +42,13 @@ Tabel 1: Body Mass Index
 | Overvægtig     | 25-30          | 25-30        |
 | Fed            | 30 og højere   | 30 og højere |
 
+
 Fedtprocent
 -----------
 
 Fedtprocenten er den relative del af kropsvægten, som udgøres af fedt. Du har behov for fedt for overhovedet at kunne holde varmen. I formularen oven for er fedtprocenten udregnet ud fra køn, BMI og alder.
 
-Tabel 2: Fedtprocent normer
-
+| Tabel 2: Fedtprocent normer                            |||
 | Klassifikation         | Kvinde (% fedt) | Mand (% fedt) |
 |------------------------|-----------------|---------------|
 | Essentiel fedt         | 10-12%          | 2-4%          |

@@ -101,7 +101,7 @@ I _repeats_ har vi måske planlagt, at vi vil lave en x3 @ RPE 8 og opnå en _fa
 
 Det interessante er jo så, hvor meget træthed man kan akkummulere pr. uge og stadig restituere fra det. Det er helt sikkert individuelt og svinger fra uge til uge, så det er en god ide at have en træningslog, der holder øje med det.
 
-| Total weekly fatigue                                                                                        |
+| Total weekly fatigue                                                                                      |||
 | Fatigue percent | Stress level | My notes                                                                   |
 |-----------------|--------------|----------------------------------------------------------------------------|
 | 54-72%          | Very high    | Extremely high volume.                                                     |
@@ -110,11 +110,12 @@ Det interessante er jo så, hvor meget træthed man kan akkummulere pr. uge og s
 | 12-18%          | Low          | This is perfect for recovery week without a full deload                    |
 | 0%              | Deload       | This is a straight up deload week                                          |
 
+
 ## Træthed i de enkelte øvelserne
 
 Mike Tuschscher laver træning til _powerlifting_, så derfor går han ud fra i sine betragtning, at man har tre hovedøvelser i hver træning. Man kan sagtens arbejde med forskellig træthedsgrad i de enkelte øvelser, men nedenstående tabel kan give en ide om, hvor lang tid det tager at restituere fra en give træthedsprocent.
 
-| Individual exercise fatigue   |
+| Individual exercise fatigue  ||
 | Fatigue percent | Time limit  |
 |-----------------|-------------|
 | 9-12%           | 96 hours+   |
@@ -127,7 +128,7 @@ Mike Tuschscher laver træning til _powerlifting_, så derfor går han ud fra i 
 
 Hvis man arbejder med træthedsprocenter, så betyder det naturligvis en del, hvor lange pauser man har mellem sættene. I _powerlifting_-træning opererer man ofte med relativt lange pauser, men for at det skal give mening at bruge træthedsprocenterne så skal den enkelte øvelse inklusive alle opvarmningssæt altså ikke tage længere en følgende tommelfingerregler.
 
-| Time limits guidelines           |
+| Time limits guidelines          ||
 | Fatigue percent | Time limit     |
 |-----------------|----------------|
 | 9-12%           | 30-35 minutter |
@@ -163,6 +164,7 @@ Hvis du allerede er vant til at træne fire gange om ugen, så kan du godt lægg
 
 I forhold til ugentlig træthed, så er stress niveauet altså som følger:
 
+| Ugentligt stressload                |||
 | Week | Fatigue Percent | Stress level |
 |------|-----------------|--------------|
 | 1    | 0%              | Deload       |

@@ -1,239 +1,144 @@
 <table border="0" width="100%" cellspacing="1" cellpadding="4" align="center">
     <tbody>
         <tr valign="center">
-            <td bgcolor="#daecef">
-                <p align="center"><strong><a href="#mu26">Mænd 18-26 år</a></strong></p>
-            </td>
-            <td bgcolor="#daecef">
-                <p align="center"><strong><a href="#mo26">Mænd 27-50år</a></strong></p>
-            </td>
-            <td bgcolor="#f0dbf0">
-                <p align="center"><strong><a href="#wu26">Kvinder 18-26 år</a></strong></p>
-            </td>
-            <td bgcolor="#f0dbf0">
-                <p align="center"><strong><a href="#wo26">Kvinder 27-50år</a></strong></p>
-            </td>
+            <td bgcolor="#daecef"><a href="#mu26">Mænd 18-26 år</a></td>
+            <td bgcolor="#daecef"><a href="#mo26">Mænd 27-50år</a></td>
+            <td bgcolor="#f0dbf0"><a href="#wu26">Kvinder 18-26 år</a></td>
+            <td bgcolor="#f0dbf0"><a href="#wo26">Kvinder 27-50år</a></td>
         </tr>
     </tbody>
 </table>
 
 <hr />
 
-<script>
-    function Calculate1(thisform) {
-        Overarm_mu26 = thisform.Overarm_mu26.value;
-        Mave_mu26 = thisform.Mave_mu26.value;
-        Underarm_mu26 = thisform.Underarm_mu26.value;
-        resultat1 = Math.round(((Overarm_mu26 * 1.457 + Mave_mu26 * 0.5166 - Underarm_mu26 * 2.1376) / 10 - 10.2) * Math.pow(10, 1)) / Math.pow(10, 1)
-        thisform.Fedt_mu26.value = resultat1
-        return false;
-    }
-</script>
-<h3>Mænd 18-26 år</h3>
-<form name="mu26" onsubmit="return Calculate1(this);">
+<h3 id="mu26">Mænd 18-26 år</h3>
+<form name="mu26">
     <table border="0" cellspacing="1" cellpadding="4" align="right" bgcolor="#990000">
         <tbody>
             <tr valign="middle" bgcolor="#CCFFCC">
                 <td colspan="2" bgcolor="#FFFFFF">Brug et målebånd til at måle omkredsen i millimeter på de angivne steder</td>
             </tr>
             <tr valign="middle" bgcolor="#F3F3EB">
-                <td>
-                    <div align="right">
-                        <p><b>Overarm:</b><br /> (Strakt arm, mål midt mellem skulder og albue)</p>
-                    </div>
-                </td>
+                <td>Overarm: (Strakt arm, mål midt mellem skulder og albue)</td>
                 <td><input name="Overarm_mu26" size="7" type="text" value="280" /> mm</td>
             </tr>
             <tr valign="middle" bgcolor="#F3F3EB">
-                <td>
-                    <div align="right">
-                        <p><b>Talje:</b><br /> (2 cm over navlen)</p>
-                    </div>
-                </td>
+                <td>Talje: (2 cm over navlen)</td>
                 <td><input name="Mave_mu26" size="7" type="text" value="850" /> mm</td>
             </tr>
             <tr valign="middle" bgcolor="#F3F3EB">
-                <td>
-                    <div align="right">
-                        <p><b>Underarm:</b><br /> (Strakt arm, største omkreds)</p>
-                    </div>
-                </td>
+                <td>Underarm: (Strakt arm, største omkreds)</td>
                 <td><input name="Underarm_mu26" size="7" type="text" value="270" /> mm</td>
             </tr>
             <tr valign="middle" bgcolor="#F3F3EB">
                 <td></td>
-                <td><input name="submit1" type="submit" value="Beregn" /></td>
+                <td><input name="submit1" type="button" value="Beregn" id="calc_mu26" /></td>
             </tr>
             <tr valign="middle" bgcolor="#990000">
+                <td bgcolor="#648CB4">Fedtprocent</td>
                 <td bgcolor="#648CB4">
-                    <div align="right" style="color: #ffffff; font-size: small;"><b>Fedtprocent</b></div>
+                    <input maxlength="5" name="Fedt_mu26" size="7" type="text" id="fat_mu26" /> %
                 </td>
-                <td bgcolor="#648CB4"><input maxlength="5" name="Fedt_mu26" size="7" type="text" /><span style="color: #ffffff; font-size: small;"><b> %</b></span></td>
             </tr>
         </tbody>
     </table>
 </form>
 
-<script>
-    function Calculate2(thisform) {
-        Hofter_mo26 = thisform.Hofter_mo26.value;
-        Mave_mo26 = thisform.Mave_mo26.value;
-        Underarm_mo26 = thisform.Underarm_mo26.value;
-        resultat2 = Math.round(((Hofter_mo26 * 0.4126 + Mave_mo26 * 0.3525 - Underarm_mo26 * 1.182) / 10 - 15.0) * Math.pow(10, 1)) / Math.pow(10, 1)
-        thisform.Fedt_mo26.value = resultat2
-        return false;
-    }
-</script>
-<h3>Mænd 27-50 år</h3>
-<form name="mu26" onsubmit="return Calculate2(this);">
+<h3 id="mo26">Mænd 27-50 år</h3>
+<form name="mo26">
     <table border="0" cellspacing="1" cellpadding="4" align="right" bgcolor="#990000">
         <tbody>
             <tr valign="middle" bgcolor="#CCFFCC">
                 <td colspan="2" bgcolor="#FFFFFF">Brug et målebånd til at måle omkredsen i millimeter<br /> på de angivne steder</td>
             </tr>
             <tr valign="middle" bgcolor="#F3F3EB">
-                <td>
-                    <div align="right">
-                        <p><b>Hofter:</b><br /> (Største omkreds ved ballerne)</p>
-                    </div>
-                </td>
+                <td>Hofter: (Største omkreds ved ballerne)</td>
                 <td><input name="Hofter_mo26" size="7" type="text" value="900" /> mm</td>
             </tr>
             <tr valign="middle" bgcolor="#F3F3EB">
-                <td>
-                    <div align="right">
-                        <p><b>Talje:</b><br /> (2 cm over navlen)</p>
-                    </div>
-                </td>
+                <td>Talje: (2 cm over navlen)</td>
                 <td><input name="Mave_mo26" size="7" type="text" value="850" /> mm</td>
             </tr>
             <tr valign="middle" bgcolor="#F3F3EB">
-                <td>
-                    <div align="right">
-                        <p><b>Underarm:</b><br /> (Strakt arm, største omkreds)</p>
-                        <div id="cncpt-outstream"></div>
-                    </div>
-                </td>
+                <td>Underarm: (Strakt arm, største omkreds)</td>
                 <td><input name="Underarm_mo26" size="7" type="text" value="270" /> mm</td>
             </tr>
             <tr valign="middle" bgcolor="#F3F3EB">
                 <td></td>
-                <td><input name="submit2" type="submit" value="Beregn" /></td>
+                <td><input name="submit2" type="button" value="Beregn" id="calc_mo26" /></td>
             </tr>
             <tr valign="middle" bgcolor="#990000">
+                <td bgcolor="#648CB4">Fedtprocent</td>
                 <td bgcolor="#648CB4">
-                    <div align="right"><span style="color: #ffffff; font-size: small;"><b>Fedtprocent</b></span></div>
+                    <input maxlength="5" name="Fedt_mo26" size="7" type="text" id="fat_mo26" /> %
                 </td>
-                <td bgcolor="#648CB4"><input maxlength="5" name="Fedt_mo26" size="7" type="text" /><span style="color: #ffffff; font-size: small;"><b> %</b></span></td>
             </tr>
         </tbody>
     </table>
 </form>
 
-<script>
-    function Calculate3(thisform) {
-        Laar_wu26 = thisform.Laar_wu26.value;
-        Mave_wu26 = thisform.Mave_wu26.value;
-        Underarm_wu26 = thisform.Underarm_wu26.value;
-        resultat3 = Math.round(((Mave_wu26 * 0.5262 + Laar_wu26 * 0.8191 - Underarm_wu26 * 1.6972) / 10 - 19.6) * Math.pow(10, 1)) / Math.pow(10, 1)
-        thisform.Fedt_wu26.value = resultat3
-        return false;
-    }
-</script>
-<h3>Kvinder 18-26 år</h3>
-<form name="mu26" onsubmit="return Calculate3(this);">
+<h3 id="wu26">Kvinder 18-26 år</h3>
+<form name="wu26">
     <table border="0" cellspacing="1" cellpadding="4" align="right" bgcolor="#990000">
         <tbody>
             <tr valign="middle" bgcolor="#CCFFCC">
                 <td colspan="2" bgcolor="#FFFFFF">Brug et målebånd til at måle omkredsen i millimeter<br /> på de angivne steder</td>
             </tr>
             <tr valign="middle" bgcolor="#F3F3EB">
-                <td>
-                    <div align="right">
-                        <p><b>Talje:</b><br /> (2 cm over navlen)</p>
-                    </div>
-                </td>
+                <td>Talje: (2 cm over navlen)</td>
                 <td><input name="Mave_wu26" size="7" type="text" value="700" /> mm</td>
             </tr>
             <tr valign="middle" bgcolor="#F3F3EB">
-                <td>
-                    <div align="right">
-                        <p><b>Lår:</b><br /> (Lige under ballen)</p>
-                    </div>
-                </td>
+                <td>Lår: (Lige under ballen)</td>
                 <td><input name="Laar_wu26" size="7" type="text" value="500" /> mm</td>
             </tr>
             <tr valign="middle" bgcolor="#F3F3EB">
-                <td>
-                    <div align="right">
-                        <p><b>Underarm:</b><br /> (Strakt arm, største omkreds)</p>
-                    </div>
-                </td>
+                <td>Underarm: (Strakt arm, største omkreds)</td>
                 <td><input name="Underarm_wu26" size="7" type="text" value="200" /> mm</td>
             </tr>
             <tr valign="middle" bgcolor="#F3F3EB">
                 <td></td>
-                <td><input name="submit3" type="submit" value="Beregn" /></td>
+                <td><input name="submit3" type="button" value="Beregn" id="calc_wu26" /></td>
             </tr>
             <tr valign="middle" bgcolor="#990000">
+                <td bgcolor="#648CB4">Fedtprocent</td>
                 <td bgcolor="#648CB4">
-                    <div align="right"><span style="color: #ffffff; font-size: small;"><b>Fedtprocent</b></span></div>
+                    <input maxlength="5" name="Fedt_wu26" size="7" type="text" id="fat_wu26" /> %
                 </td>
-                <td bgcolor="#648CB4"><input maxlength="5" name="Fedt_wu26" size="7" type="text" /><span style="color: #ffffff; font-size: small;"><b> %</b></span></td>
             </tr>
         </tbody>
     </table>
 </form>
 
-<script>
-    function Calculate4(thisform) {
-        Laar_wo26 = thisform.Laar_wo26.value;
-        Mave_wo26 = thisform.Mave_wo26.value;
-        Laeg_wo26 = thisform.Laeg_wo26.value;
-        resultat4 = Math.round(((Mave_wo26 * 0.4675 + Laar_wo26 * 0.4868 - Laeg_wo26 * 0.5693) / 10 - 18.4) * Math.pow(10, 1)) / Math.pow(10, 1)
-        thisform.Fedt_wo26.value = resultat4
-        return false;
-    }
-</script>
-<h3>Kvinder 27-50 år</h3>
-<form name="mu26" onsubmit="return Calculate4(this);">
+<h3 id="wo26">Kvinder 27-50 år</h3>
+<form name="wo26">
     <table border="0" cellspacing="1" cellpadding="4" align="right" bgcolor="#990000">
         <tbody>
             <tr valign="middle" bgcolor="#CCFFCC">
                 <td colspan="2" bgcolor="#FFFFFF">Brug et målebånd til at måle omkredsen i millimeter<br /> på de angivne steder</td>
             </tr>
             <tr valign="middle" bgcolor="#F3F3EB">
-                <td>
-                    <div align="right">
-                        <p><b>Talje:</b><br /> (2 cm over navlen)</p>
-                    </div>
-                </td>
+                <td>Talje: (2 cm over navlen)</td>
                 <td><input name="Mave_wo26" size="7" type="text" value="700" /> mm</td>
             </tr>
             <tr valign="middle" bgcolor="#F3F3EB">
-                <td>
-                    <div align="right">
-                        <p><b>Lår:</b><br /> (Lige under ballen)</p>
-                    </div>
-                </td>
+                <td>Lår: (Lige under ballen)</td>
                 <td><input name="Laar_wo26" size="7" type="text" value="500" /> mm</td>
             </tr>
             <tr valign="middle" bgcolor="#F3F3EB">
-                <td>
-                    <div align="right">
-                        <p><b>Læg:</b><br /> (Strakt ben, største omkreds)</p>
-                    </div>
-                </td>
+                <td>Læg: (Strakt ben, største omkreds)</td>
                 <td><input name="Laeg_wo26" size="7" type="text" value="300" /> mm</td>
             </tr>
             <tr valign="middle" bgcolor="#F3F3EB">
                 <td></td>
-                <td><input name="submit4" type="submit" value="Beregn" /></td>            </tr>
+                <td><input name="submit4" type="button" value="Beregn" id="calc_wo26" /></td>
+            </tr>
             <tr valign="middle" bgcolor="#990000">
-                <td bgcolor="#648CB4">
-                    <div align="right"><span style="color: #ffffff; font-size: small;"><b>Fedtprocent</b></span></div>
+                <td bgcolor="#648CB4">Fedtprocent
                 </td>
-                <td bgcolor="#648CB4"><input maxlength="5" name="Fedt_wo26" size="7" type="text" /><span style="color: #ffffff; font-size: small;"><b> %</b></span></td>
+                <td bgcolor="#648CB4">
+                    <input maxlength="5" name="Fedt_wo26" size="7" type="text" id="fat_wo26" /> %
+                </td>
             </tr>
         </tbody>
     </table>

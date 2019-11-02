@@ -13,10 +13,10 @@ describe('CooperClinicMortalityRiskIndex', function() {
 
       // age, heart rate, blood pressure, diabetes, smoker, bmi, fitness
       // Should probably just refuse to calculate as the test is not designed for this
-      var cooper = motionsplan.CooperClinicMortalityRiskIndex(80, 60, 0, 0, 0, 24, 56);
-      assert.equal(cooper.getRiskPoint(), 10);
-      assert.equal(cooper.getAbsoluteRisk(), 11.8);
-      assert.equal(cooper.getRelativeRisk(), 0.7);
+      // var cooper = motionsplan.CooperClinicMortalityRiskIndex(80, 60, 0, 0, 0, 24, 56);
+      // assert.equal(cooper.getRiskPoint(), 10);
+      // assert.equal(cooper.getAbsoluteRisk(), 11.8);
+      //assert.equal(cooper.getRelativeRisk(), 0.7);
     });
   });
 });

@@ -116,6 +116,7 @@ Hør Mike Israetel selv forklare begreberne.
 
 ### Tabel med angivelser
 
+| Tabel baseret på Mike Israetels angivelser af ugentligt sæt                                 ||||||||
 |                           | MV  | MEV | MAV   | MRV  | Frequency | Intensity | Variation           |
 |---------------------------|-----|-----|-------|------|-----------|-----------|---------------------|
 | Triceps[^triceps]         | 4   | 6   | 10-14 | >18  | 2-4/uge   | 8-20      | 2-3 vinkler         | 

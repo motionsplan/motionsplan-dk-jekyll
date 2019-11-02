@@ -42,7 +42,7 @@ Der er også en lidt længere video her:
 
 Hvis du erfaringer med de fem tibetanere eller andere styrke- og smidighedsgørende øvelser, så skriv det i kommentarerne.
 
-### Udskriv de fem tibetanere
+## Udskriv de fem tibetanere
 
 Du kan [udskrive øvelserne med forklaring herfra](http://www.balancen.net/tibetanere.pdf).
 

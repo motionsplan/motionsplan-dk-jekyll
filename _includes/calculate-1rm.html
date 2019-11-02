@@ -1,56 +1,4 @@
-<script language="JavaScript">
-    function Calculate1(thisform) {
-        reps = thisform.reps.value;
-        weight = thisform.weight.value;
-        trained = thisform.trained.value * 1;
-        koen = thisform.koen.value * 1;
-        bformel = 0
-        bformel = thisform.bformel.value * 1;
-        if (koen == 1 && trained == 1 && bformel == 0) {
-            a = -2.1021, b = 102.52;
-        }
-        if (koen == 1 && trained == 0 && bformel == 0) {
-            a = -2.6578, b = 102.65;
-        }
-        if (koen == 0 && trained == 1 && bformel == 0) {
-            a = -2.1275, b = 101.59;
-        }
-        if (koen == 0 && trained == 0 && bformel == 0) {
-            a = -2.6914, b = 102.14;
-        }
-        if (bformel == 1) {
-            a = -2.78, b = 102.78;
-        }
-        if (reps == 1) {
-            repmax = weight;
-        }
-        else {
-            repmax = weight / (a * reps + b) * 100;
-        }
-        thisform.rm1.value = Math.round((repmax) * Math.pow(10, 1)) / Math.pow(10, 1)
-        thisform.rm2.value = Math.round(((a * 2 + b) * repmax / 100) * Math.pow(10, 1)) / Math.pow(10, 1)
-        thisform.rm3.value = Math.round(((a * 3 + b) * repmax / 100) * Math.pow(10, 1)) / Math.pow(10, 1)
-        thisform.rm4.value = Math.round(((a * 4 + b) * repmax / 100) * Math.pow(10, 1)) / Math.pow(10, 1)
-        thisform.rm5.value = Math.round(((a * 5 + b) * repmax / 100) * Math.pow(10, 1)) / Math.pow(10, 1)
-        thisform.rm6.value = Math.round(((a * 6 + b) * repmax / 100) * Math.pow(10, 1)) / Math.pow(10, 1)
-        thisform.rm8.value = Math.round(((a * 8 + b) * repmax / 100) * Math.pow(10, 1)) / Math.pow(10, 1)
-        thisform.rm10.value = Math.round(((a * 10 + b) * repmax / 100) * Math.pow(10, 1)) / Math.pow(10, 1)
-        thisform.rm12.value = Math.round(((a * 12 + b) * repmax / 100) * Math.pow(10, 1)) / Math.pow(10, 1)
-        thisform.rm15.value = Math.round(((a * 15 + b) * repmax / 100) * Math.pow(10, 1)) / Math.pow(10, 1)
-        thisform.p100.value = Math.round((repmax) * Math.pow(10, 1)) / Math.pow(10, 1)
-        thisform.p95.value = Math.round((repmax * 0.95) * Math.pow(10, 1)) / Math.pow(10, 1)
-        thisform.p90.value = Math.round((repmax * 0.90) * Math.pow(10, 1)) / Math.pow(10, 1)
-        thisform.p85.value = Math.round((repmax * 0.85) * Math.pow(10, 1)) / Math.pow(10, 1)
-        thisform.p80.value = Math.round((repmax * 0.80) * Math.pow(10, 1)) / Math.pow(10, 1)
-        thisform.p75.value = Math.round((repmax * 0.75) * Math.pow(10, 1)) / Math.pow(10, 1)
-        thisform.p70.value = Math.round((repmax * 0.70) * Math.pow(10, 1)) / Math.pow(10, 1)
-        thisform.p60.value = Math.round((repmax * 0.60) * Math.pow(10, 1)) / Math.pow(10, 1)
-        thisform.p50.value = Math.round((repmax * 0.50) * Math.pow(10, 1)) / Math.pow(10, 1)
-        thisform.p40.value = Math.round((repmax * 0.40) * Math.pow(10, 1)) / Math.pow(10, 1)
-        return false;
-    }
-</script>
-<form name="rm" onsubmit="return Calculate1(this);">
+<form name="rm">
     <table>
         <tbody>
             <tr bgColor="#d5e1e3">
@@ -109,14 +57,14 @@
             </tr>
             <tr>
                 <td colspan="2">
-                    <input type="submit" class="btn btn--info btn--large" value="Beregn" name="submit">
+                    <input type="button" class="btn btn--info btn--large" value="Beregn" id="calculate_rm" name="submit">
                 </td>
             </tr>
         </tbody>
     </table>
 
-    <h4>Beregnede RM-værdier:</h4>
     <table width="100%">
+        <caption>Beregnede RM-værdier:</caption>
         <tbody>
             <tr>
                 <th width="10%">1 RM</th>
@@ -132,40 +80,40 @@
             </tr>
             <tr>
                 <td width="10%">
-                    <input maxLength="3" disabled="disabled" size="2" name="rm1">
+                    <input maxLength="3" disabled="disabled" size="2" name="rm1" id="rm1">
                 </td>
                 <td width="10%">
-                    <input maxLength="3" disabled="disabled" size="2" name="rm2">
+                    <input maxLength="3" disabled="disabled" size="2" name="rm2" id="rm2">
                 </td>
                 <td width="10%">
-                    <input maxLength="3" disabled="disabled" size="2" name="rm3">
+                    <input maxLength="3" disabled="disabled" size="2" name="rm3" id="rm3">
                 </td>
                 <td width="10%">
-                    <input maxLength="3" disabled="disabled" size="2" name="rm4">
+                    <input maxLength="3" disabled="disabled" size="2" name="rm4" id="rm4">
                 </td>
                 <td width="10%">
-                    <input maxLength="3" disabled="disabled" size="2" name="rm5">
+                    <input maxLength="3" disabled="disabled" size="2" name="rm5" id="rm5">
                 </td>
                 <td width="10%">
-                    <input maxLength="3" disabled="disabled" size="2" name="rm6">
+                    <input maxLength="3" disabled="disabled" size="2" name="rm6" id="rm6">
                 </td>
                 <td width="10%">
-                    <input maxLength="3" disabled="disabled" size="2" name="rm8">
+                    <input maxLength="3" disabled="disabled" size="2" name="rm8" id="rm8">
                 </td>
                 <td width="10%">
-                    <input maxLength="3" disabled="disabled" size="2" name="rm10">
+                    <input maxLength="3" disabled="disabled" size="2" name="rm10" id="rm10">
                 </td>
                 <td width="10%">
-                    <input maxLength="3" disabled="disabled" size="2" name="rm12">
+                    <input maxLength="3" disabled="disabled" size="2" name="rm12" id="rm12">
                 </td>
                 <td width="10%">
-                    <input maxLength="3" disabled="disabled" size="2" name="rm15">
+                    <input maxLength="3" disabled="disabled" size="2" name="rm15" id="rm15">
                 </td>
             </tr>
         </tbody>
     </table>
-    <h4>Vægt beregnet som procent af 1 RM:</h4>
     <table width="100%">
+        <caption>Vægt beregnet som procent af 1 RM:</caption>
         <tbody>
             <tr>
                 <th width="10%">100%</th>
@@ -181,34 +129,34 @@
             </tr>
             <tr>
                 <td width="10%">
-                    <input maxLength="3" disabled="disabled" size="2" name="p100">
+                    <input maxLength="3" disabled="disabled" size="2" name="p100" id="p100">
                 </td>
                 <td width="10%">
-                    <input maxLength="3" disabled="disabled" size="2" name="p95">
+                    <input maxLength="3" disabled="disabled" size="2" name="p95" id="p95">
                 </td>
                 <td width="10%">
-                    <input maxLength="3" disabled="disabled" size="2" name="p90">
+                    <input maxLength="3" disabled="disabled" size="2" name="p90" id="p90">
                 </td>
                 <td width="10%">
-                    <input maxLength="3" disabled="disabled" size="2" name="p85">
+                    <input maxLength="3" disabled="disabled" size="2" name="p85" id="p85">
                 </td>
                 <td width="10%">
-                    <input maxLength="3" disabled="disabled" size="2" name="p80">
+                    <input maxLength="3" disabled="disabled" size="2" name="p80" id="p80">
                 </td>
                 <td width="10%">
-                    <input maxLength="3" disabled="disabled" size="2" name="p75">
+                    <input maxLength="3" disabled="disabled" size="2" name="p75" id="p75">
                 </td>
                 <td width="10%">
-                    <input maxLength="3" disabled="disabled" size="2" name="p70">
+                    <input maxLength="3" disabled="disabled" size="2" name="p70" id="p70">
                 </td>
                 <td width="10%">
-                    <input maxLength="3" disabled="disabled" size="2" name="p60">
+                    <input maxLength="3" disabled="disabled" size="2" name="p60" id="p60">
                 </td>
                 <td width="10%">
-                    <input maxLength="3" disabled="disabled" size="2" name="p50">
+                    <input maxLength="3" disabled="disabled" size="2" name="p50" id="p50">
                 </td>
                 <td width="10%">
-                    <input maxLength="3" disabled="disabled" size="2" name="p40">
+                    <input maxLength="3" disabled="disabled" size="2" name="p40" id="p40">
                 </td>
             </tr>
         </tbody>

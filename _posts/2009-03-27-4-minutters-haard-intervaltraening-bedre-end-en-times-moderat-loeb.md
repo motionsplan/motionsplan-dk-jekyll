@@ -22,11 +22,11 @@ last_modified_at: 2013-04-17T22:42:12Z
 - **Gruppe 1** udførte længerevarende, kontinuerligt arbejde (1 time) med moderat intensitet (70% af VO2max)
 - **Gruppe 2** udførte kortvarigt arbejde (20 sekunder) med korte pauser (10 sekunder) med meget høj intensitet (170% af VO2max). Dette blev gentaget 7-8 gange. En samlet arbejdstid på 4 minutter. Den ene gang om ugen bestod træningen af kontinuerlig træning.
 
-### Resultater
+## Resultater
 
 Gruppe 1 forbedrede deres maksimale iltoptagelse fra 53 ml/kg/min til 58 ml/kg/min, mens der ikke var nogen forbedring af deres anaerobe kapacitet. Gruppe 2 forbedrede deres maksimale iltoptagelse med 7 ml/kg/min, mens den anaerobe kapacitet blev forbedret med 28%.
 
-### Diskussion
+## Diskussion
 
 Disse resultater viser, at man med meget intensiv intervaltræning kan forbedre både den aerobe og den anaerobe kapacitet. Hvis man varmer op i fem minutter og nedvarmer i fem minutter, kan man altså med 14 minutters træning træning opnå bedre resultater end med længerevarende træning med moderat intensitet. Den positive effekt på både det aerobe og det anaerobe system skal formentlig findes i den meget korte pause.
 
@@ -38,13 +38,13 @@ Desuden kunne det være interessant at sammenligne protokollerne hos Helgerud (2
 
 Man skal være opmærksom på at de største forbedringer skete inden for de første tre uger og derefter aftog forbedringerne. Dette kunne tyde på, at en af forklaringerne på de store forbedringer kan være chokeffekten af træningen.
 
-### Konklusion
+## Konklusion
 
 Det er tilsyneladende mere effektivt at arbejde med høj intensitet gennem hele træningen. Med Tabatas intervaller kan du nøjes med 14 minutters træning inklusiv opvarmning og nedvarmning og få en bedre effekt en en times træning med moderat intensitet.
 
 Det er gode nyheder for dem der har travlt, og her kan du læse [flere gode råd til, hvordan du kommer i gang med tabata-intervaller](/artikel/4-minutter-i-helvede).
 
-### Referencer
+## Referencer
 
 - [Tabata I, Nishimura K, Kouzaki M, Hirai Y, Ogita F, Miyachi M, Yamamoto K.: Effects of moderate-intensity endurance and high-intensity intermittent training on anaerobic capacity and VO2max, i: Med Sci Sports Exerc. 1996 Oct;28(10):1327-30](http://www.ncbi.nlm.nih.gov/pubmed/8897392?dopt=Abstract) via [rosstraining.com](http://www.rosstraining.com/articles/tabataintervals.html)
 - [Helgerud J et al.. Aerobic High-Intensity Intervals Improve VO2max More Than Moderate Training. Med. Sci. Sports Exerc., Vol. 39, No. 4, pp. 665–671, 2007](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=17414804&query_hl=2&itool=pubmed_docsum) via [motion-online.dk](http://www.motion-online.dk/konditionstraening/kondition_-_artikler/intensitetens_betydning_for_forbedring_af_vo2max/)

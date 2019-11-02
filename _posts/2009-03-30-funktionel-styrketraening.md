@@ -16,17 +16,17 @@ author: linda.kruse
 
 Funktionel styrketræning er træning, som forbereder kroppen til en given funktion i hverdagen eller en idræt. Kroppen er en funktionel helhed designet til at arbejde som et sammenhængende system, og derfor bør kroppen også trænes sammenhængende i din styrketræning.
 
-### Definition af funktionel træning
+## Definition af funktionel træning
 
 Betegnelsen ”funktionel træning” henviser til sammensatte, komplekse bevægelser med store og naturlige bevægeudslag, hvor koordination, styrke og balance trænes i de samme øvelser. De bedste muskelopbyggende funktionelle øvelser er dem, som bruger dine muskler på den måde, som musklerne er designet til, nemlig at trække, skubbe, rotere etc.
 
 Isolationsøvelser, hvor du træner en muskelgruppe af gangen, kan udmærket indgå i træningen, forudsat at der er en mening dermed og forudsat, at de indlærte, styrkede færdigheder efterfølgende integreres i sammensatte bevægelser, ellers bruges isolationsøvelser primært til genoptræning og bodybuilding.
 
-### Fordele ved funktionel træning
+## Fordele ved funktionel træning
 
 Funktionel styrketræning forbedrer både helbred, præstationsevne og nedsætter skadesrisikoen, da øvelserne indbefatter træning og forbedring af kropsholdning, koordination, balance, bevægelighed, styrke og udholdenhed. Af samme årsag er funktionel træning lige vigtig, uanset om du er mand eller kvinde, barn, ung, voksen eller gammel. De funktionelle basisøvelser er de samme uanset alder og køn. Den eneste forskel ligger i træningsmængden, der er baseret på frekvens, intensitet og varighed, samt træningsniveauet, som hænger sammen med øvelsernes sværhedsgrad, belastning og hastighed.
 
-### Indholdet i funktionel træning
+## Indholdet i funktionel træning
 
 Idrætsspecifik funktionel træning tager udgangspunkt i disciplinens bevægelser. For at sikre den bedste overførselsværdi fra træningsøvelser til idrætsaktivitet analyseres de specielle krav, din idræt stiller til dig i forhold til bevægelsesmønstrene, deres sammensætning, bevægeudslag og hastighed. Alle de informationer danner så grundlag for planlægningen. Alle kast ser fundamentalt ens ud, alle hop ser ens ud, og acceleration er uanset idrætsgren ens. Det, der adskiller idrætsgrene, er udstyret, underlaget og beklædningen. Langt de fleste idrætsgrene indeholder et element af løb, hop, kast, skub, træk, løft, bøj, stræk, start og stop.
 
@@ -40,6 +40,6 @@ Funktionel træning omfatter de seks primære bevægelsesmønstre, som forekomme
 - Træk og pres med overkroppen
 - Rotation af krop og lemmer
 
-### Dansk OL-bryder træner funktionelt
+## Dansk OL-bryder træner funktionelt
 
 På [DIFs hjemmeside om OL 2008](http://www.dif.dk/OL2008/) kan man følger med i OL-deltagernes forberedelser, og der vises et [filmklip af bryderen, Mark O. Madsen, mens han laver funktionel styrketræning](http://www.dif.dk/OL2008/Forside/OL%20Update/Indslag/St%C3%A6rk%20mand.aspx).

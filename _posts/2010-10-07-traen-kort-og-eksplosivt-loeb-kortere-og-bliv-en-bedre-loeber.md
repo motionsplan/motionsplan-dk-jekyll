@@ -13,7 +13,7 @@ last_modified_at: 2011-04-14T11:04:07Z
 author: mads.davidsen
 ---
 
-Jeg vil i denne artikel advokere for, hvorfor man bør træne kort og eksplosivt. For der er evidens i videnskaben for, at det i langt højere grad forbedrer din fysiske formåen, hvis du træner kortvarigt og effektivt.
+Jeg vil i det følgende advokere for, at man bør træne kort og eksplosivt. For der er evidens i videnskaben for, at det i langt højere grad forbedrer din fysiske formåen, hvis du træner kortvarigt og effektivt.
 
 Jeg løb i maj Copenhagen Marathon på 2:59. Det er en personlig rekord, og tiden kom i hus efter en træningsform, hvor jeg aldrig løb længere end 10km.
 
@@ -29,33 +29,30 @@ I de intense træningsperioder skal du sørge for udelukkende at træne interval
 
 Samtidig skal du inkludere tung styrketræning. Øget muskelkraft, muskelpower og muskelmasse vil forbedre din præstationsevne på løbebanen. Det er imidlertid essentielt, at styrketræningen er tung og eksplosiv. Kun på den måde får man øget muskelstyrken uden vægtøgning. Styrketræningsintensiteten skal være høj, og der skal kun være 3-5 gentagelser i en øvelse, hvor belastningen er op til 95 % af den maksimale ydeevne.
 
-**En træningsuge for mig ser ud som følger:**
+## En træningsuge
 
-Mandag - 8x2min/1min pause
+En træningsuge for mig ser ud som følger
 
-Tirsdag morgen – plytræning (trappe- og hækketræning), 12x30sekunders sprint/3min pause  
-Tirsdag aften – tung styrketræning, squath og baglår
+| Ugedag  | Træning                                                                              |
+|---------|--------------------------------------------------------------------------------------|
+| Mandag  | 8x2min/1min pause                                                                    |
+| Tirsdag | **Morgen**: Plyotræning (trappe- og hækketræning), 12x30sekunders sprint/3min pause  | 
+|         | **Aften**: Tung styrketræning, squath og baglår                                      |
+| Onsdag  | Fri                                                                                  |
+| Torsdag | 4x4min/2min pause                                                                    |
+| Fredag  | **Morgen**: Plyotræning (trappe- og hækketræning), 12x30 sekunders sprint/3min pause |  
+|         | **Aften**: Tung styrketræning, squath og baglår                                      |
+| Lørdag  | Restitutionstur 10km i moderat tempo                                                 |
+| Søndag  | 5km tempoløb                                                                         |
 
-Onsdag Fri
+Min træning er altså meget intens. Jeg skal ud og yde en 100% indsats hver gang, hvilket også stiller krav til ens mentale tilstand. Men træningen er omvendt hurtigt overstået og giver mig optimale restitutionsmuligheder i forhold til at løbe 25km i moderat tempo, hvilket dræner kroppen for energi og ødelægger de næste træningspas grundet slidtage.
 
-Torsdag 4x4min/2min pause
+## Resultater
 
-Fredag morgen – plytræning (trappe- og hækketræning), 12x30 sekunders sprint/3min pause  
-Fredag aften – tung styrketræning, squath og baglår
+Og mine resultater efter den nye træningsform taler for sig selv:
 
-Lørdag – restitutionstur 10km i moderat tempo
-
-Søndag – 5km tempoløb
-
-Min træning er altså meget intens. Jeg skal ud og yde en 100 % indsats hver gang, hvilket også stiller krav til ens mentale tilstand. Men træningen er omvendt hurtigt overstået og giver mig optimale restitutionsmuligheder i forhold til at løbe 25km i moderat tempo, hvilket dræner kroppen for energi og ødelægger de næste træningspas grundet slidtage.
-
-**Og mine resultater efter den nye træningsform taler for sig selv:**
-
-Maraton før: 3:05  
-Maraton efter: 2:59
-
-10km før: 37:10  
-10km efter: 33:50
-
-5km før: 17:58  
-5km efter: 15:55
+| Distance | Før   | Efter |
+|----------|-------|-------|
+| Maraton  | 3:05  | 2:59  |
+| 10km     | 37:10 | 33:50 |
+| 5km      | 17:58 | 15:55 |

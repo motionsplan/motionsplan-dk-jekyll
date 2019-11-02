@@ -1,37 +1,43 @@
 let motionsplan = {};
 
 motionsplan.Estimate1RM = function(weight, repetitions) {
-  var weight, repetitions;
-
   weight = weight;
   repetitions = repetitions;
 
-  function getBrzycki() {
-    return Math.round(weight * (36 / (37 - repetitions)));
+  function getBrzycki(rm = 1) {
+    var repmax = weight * (36 / (37 - repetitions))
+    if (rm == 1) {
+      return repmax;
+    }
+    return repmax / (36 / (37 - rm));
   }
 
-  function getEpley() {
-    return Math.round((1 + (0.0333 * repetitions)) * weight);
+  function getEpley(rm = 1) {
+    var repmax = (1 + (0.0333 * repetitions)) * weight;
+    if (rm == 1) {
+      return repmax;
+    }
+    return repmax / (1 + (0.0333 * rm));
   }
 
   function getLander() {
-    return Math.round((100 * weight) / (101.3 - 2.67123 * repetitions));
+    return (100 * weight) / (101.3 - 2.67123 * repetitions);
   }
 
   function getLombardi() {
-    return Math.round(weight * (Math.pow(repetitions, 0.1)));
+    return weight * (Math.pow(repetitions, 0.1));
   }
 
   function getMayhew() {
-    return Math.round((100 * weight) / (52.2 + (41.9 * Math.exp(-0.055 * repetitions))));
+    return (100 * weight) / (52.2 + (41.9 * Math.exp(-0.055 * repetitions)));
   }
 
   function getOconnor() {
-    return Math.round(weight * (1 + 0.025 * repetitions));
+    return weight * (1 + 0.025 * repetitions);
   }
 
   function getWathan() {
-    return Math.round((100 * weight) / (48.8 + (53.8 * Math.exp(-0.075 * repetitions))));
+    return (100 * weight) / (48.8 + (53.8 * Math.exp(-0.075 * repetitions)));
   }
 
   /**
@@ -39,63 +45,64 @@ motionsplan.Estimate1RM = function(weight, repetitions) {
    * https://www.motion-online.dk/rm-beregner/
    * https://www.motion-online.dk/rm-beregner-teoretisk-baggrund/
    */
-  function getMOL(trained, sex) {
+  function getMOL(trained, sex, rm = 1) {
     var trained, koen;
+    var a, b, repmax;
+    
     trained = trained;
     koen = sex;
 
     if (koen == 1 && trained == 1) {
-      var a = -2.1021,
-        b = 102.52;
+      a = -2.1021;
+      b = 102.52;
     }
     else if (koen == 1 && trained == 0) {
-      var a = -2.6578,
-        b = 102.65;
+      a = -2.6578;
+      b = 102.65;
     }
     else if (koen == 0 && trained == 1) {
-      var a = -2.1275,
-        b = 101.59;
+      a = -2.1275;
+      b = 101.59;
     }
     else if (koen == 0 && trained == 0) {
-      var a = -2.6914,
-        b = 102.14;
+      a = -2.6914;
+      b = 102.14;
     }
     if (repetitions == 1) {
-      var repmax = weight;
+      repmax = weight;
     }
     else {
-      var repmax = weight / (a * repetitions + b) * 100;
+      repmax = weight / (a * repetitions + b) * 100;
     }
 
-    return repmax;
+    if (rm == 1) {
+      return repmax;
+    }
+    return (a*rm+b)*repmax/100;
   }
 
   /**
    * From motion-online RM calculator
    */
-  function getMOLBrzycki()
+  function getMOLBrzycki(rm = 1)
   {
     var a = -2.78, b = 102.78;
+    var repmax;
     if (repetitions == 1) {
-      var repmax = weight;
+      repmax = weight;
     }
     else {
-      var repmax = weight / (a * repetitions + b) * 100;
+      repmax = weight / (a * repetitions + b) * 100;
     }
-
-    return repmax;
+    if (rm == 1) {
+      return repmax;
+    }
+    return (a*rm+b)*repmax/100;
   }
 
-  /*
-  $scope.percentOfRm = function(rm, percent) {
+  function getPercentOfRm(rm, percent) {
     return rm * percent / 100;
-  };
-
-  $scope.calcRM = function(rm, number) {
-    var a = -2.78;
-    var b = 102.78;
-    return Math.round(((a*number+b)*rm/100) * Math.pow(10,1))/Math.pow(10,1);
-  };*/
+  }
 
   var publicAPI = {
     getBrzycki: getBrzycki,
@@ -106,8 +113,8 @@ motionsplan.Estimate1RM = function(weight, repetitions) {
     getOconnor: getOconnor,
     getWathan: getWathan,
     getMOL: getMOL,
-    getMOLBrzycki : getMOLBrzycki
-
+    getMOLBrzycki : getMOLBrzycki,
+    getPercentOfRm : getPercentOfRm
   };
 
   return publicAPI;
@@ -144,6 +151,7 @@ if (reps == 1) {
 repmax = weight; }
 else {
 repmax=weight/(a*reps+b)*100; }
+
 thisform.rm1.value=Math.round((repmax) * Math.pow(10,1))/Math.pow(10,1)
 thisform.rm2.value=Math.round(((a*2+b)*repmax/100) * Math.pow(10,1))/Math.pow(10,1)
 thisform.rm3.value=Math.round(((a*3+b)*repmax/100) * Math.pow(10,1))/Math.pow(10,1)

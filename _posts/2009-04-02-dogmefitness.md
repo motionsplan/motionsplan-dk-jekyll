@@ -19,7 +19,7 @@ last_modified_at: 2013-02-13T22:23:21Z
 
 Danmark er dejligst udenfor. Så smid håndvægtene, træd ned af spinningscyklen, se om du kan vikle dig ud af styrkemaskinen, og gør dig klar til en dejlig træningsoplevelse i naturen. Ud over træningen kan du nyde duftene, farverne, den friske luft og de varierende årstider.
 
-### Hvad er dogmefitness?
+## Hvad er dogmefitness?
 
 I dogmefitness krydrer vi styrketræning, udholdenhed, behændighed, eksplosivitet og balancetræning i en fysisk udfordrende cocktail, men det er ikke det særlige ved dogmefitness.
 
@@ -30,7 +30,7 @@ Det særlige er, at vi laver øvelserne udendørs i omgivelser, der inspirerer t
 
 Træstubbe, grene, traktordæk, forhøjninger, reb og fliser er alle glimrende træningsredskaber - og kan let bruges til at lave et træningsprogram, der kommer hele kroppen igennem. Vi vælger helst øvelser, der er funktionelle og øvelser, der kræver bevægelse af flere led.
 
-### Hvordan kan man organisere dogmefitness?
+## Hvordan kan man organisere dogmefitness?
 
 Man kan organisere det på et utal af måder.
 

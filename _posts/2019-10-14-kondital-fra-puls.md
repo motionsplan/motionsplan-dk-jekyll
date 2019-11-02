@@ -38,11 +38,15 @@ Du kan også estimere din hvilepuls ud fra følgende skema:
 
 ## Måling af maxpulsen
 
-Du kan måle din maksimale puls ved efter grundig opvarmning at lave en række bakkesprints af op til 45 sekunder. Du kan også estimere den ud fra alder, da den maksimale puls typisk falder med alderen. I denne beregner har vi brugt følgende formel:
+Du kan måle din maksimale puls ved efter grundig opvarmning at lave en række bakkesprints af op til 45 sekunder. 
+
+Du kan også estimere den ud fra alder, da den maksimale puls typisk falder med alderen. I denne beregner har vi brugt følgende formel:
 
 HR<sub>max</sub> = 208 – 0,7 x alder
 
-Denne formel har vist sig at være mere præcis[^note].
+{% include calculate-max-hr.html %}
+
+Denne formel har vist sig at være mere præcis end den tidligere tommelfingerregel for estimering af maxpuls[^note].
 
 [^note]: [Ny formel til beregning af aldersbestemt maximalpuls](https://www.motion-online.dk/ny-formel-beregning-aldersbestemt-maximalpuls/)
 

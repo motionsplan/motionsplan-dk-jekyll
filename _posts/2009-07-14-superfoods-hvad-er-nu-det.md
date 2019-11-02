@@ -25,7 +25,7 @@ Det er derfor stadig sikrest at huske på at følge Sundhedsstyrelsens anbefalin
 
 Har du nogle gode bud på superfoods, som du synes vi alle skal præsenteres for?
 
-**Referencer**
+## Referencer
 
 - [Blåbær er en superfødevare](http://politiken.dk/tjek/dagligliv/forbrugguider/guidersundhed/article402396.ece)
 - [Er blåbær et vidundermiddel?](http://www.dr.dk/Sundhed/dinsundhed/Myter_om_kost_og_motion/2009/0205114414_2.htm)

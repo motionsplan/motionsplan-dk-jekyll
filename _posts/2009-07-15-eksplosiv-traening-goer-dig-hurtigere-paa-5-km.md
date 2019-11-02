@@ -31,13 +31,13 @@ Den eksplosive træning varede i 15 minutter til 90 minutter og bestod af følge
 
 Alle øvelserne blev udført eksplosivt.
 
-### Kommentar
+## Kommentar
 
 Disse resultater er interessante og viser, at hvis du gerne vil løbe noget hurtigere, så kan det være en god ide at lave noget eksplosiv styrketræning. Efter vores mening kan træningen dog ikke helt karakteriseres som ekslosiv styrketræning, men snarere eksplosiv træning. Det vil være interessant at se, hvordan resultaterne ville være, hvis sprint- og springøvelserne var blevet suppleret med tung styrketræning for benenes muskler, fx squat og dødløft.
 
 Kender du nogle studier, der kan sige noget om det?
 
-### Referencer
+## Referencer
 
 - [Explosive-strength training improves 5-km running time by improving running economy and muscle power](http://jap.physiology.org/cgi/content/full/86/5/1527)
 - Se også [Spændstighedstræning øger 5 km løbehastigheden](http://www.motion-online.dk/konditionstraening/kondition_-_artikler/spaendstighedstraening_oeger_5_km_loebehastigheden/)
