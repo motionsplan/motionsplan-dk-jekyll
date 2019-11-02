@@ -27,6 +27,7 @@ motionsplan.CalculateFatPercent = function(h, w, a, sex) {
   }
 
   var publicAPI = {
+    getBMI : getBMI,
     getFatMass: getFatMass,
     getFatPercent: getFatPercent
 

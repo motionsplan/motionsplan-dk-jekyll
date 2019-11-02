@@ -1,6 +1,8 @@
+---
+---
 {
-    "name": "",
-    "short_name": "",
+    "name": "Motionsplan.dk",
+    "short_name": "motionsplan",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",

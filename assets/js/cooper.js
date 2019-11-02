@@ -31,6 +31,8 @@ motionsplan.CooperClinicMortalityRiskIndex = function(age, hr, bloodpressure, di
     else if (age < 69) {
       point = 10;
     }
+    // TODO: How to handle that.
+    // test is not originally designed for people older than 70
 
     return point;
   }

@@ -1,7 +1,7 @@
 ---
-title: "Texas Method - program til letøvede"
-permalink: /texas-method/
-excerpt: "Texas Method er et styrketræningsprogram, som er gjort populært af Glenn Pendlay og Mark Rippetoe. Programmet er målrettet folk, der har løftet før."
+title: "Opvarmning til styrketræning"
+permalink: /opvarmning/
+excerpt: "Opvarmning til styrketræning kan kan struktureres gennem en række faser, fx generel, dynamisk, specifik og en forberedelse af nervesystemet."
 language: da
 header:
   overlay_image: https://www.rdellatraining.com/wp-content/uploads/2017/02/Warm-up-1.jpg

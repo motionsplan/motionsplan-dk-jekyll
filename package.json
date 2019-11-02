@@ -1,5 +1,5 @@
 {
-  "name": "motionsplan",
+  "name": "motionsplan.dk",
   "version": "1.0.0",
   "description": "Official site for motionpslan.dk.",
   "repository": {
@@ -31,9 +31,16 @@
     "gulp-util": "^3.0.7"
   },
   "devDependencies": {
-    "mocha": "^6.2.1"
+    "browserify": "^16.5.0",
+    "mocha": "^6.2.1",
+    "tinify": "^1.6.0-beta.2",
+    "uglifyify": "^5.0.2",
+    "watchify": "^3.11.1"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "jekyll server --port 8080 --incremental",
+    "watch": "watchify assets/js/app.bundle.js -o assets/js/bundle.js",
+    "build": "browserify assets/js/app.bundle.js -g uglifyify -o assets/js/bundle.js"
   }
 }

@@ -41,3 +41,5 @@ Formlen tager hensyn til alderen, da der typisk med alderen vil komme mere fedt 
 Durnin JVGA, Womersley J. Body fat assessed from total body density and its estimation from skinfold thickness: measurements on 481 men and women aged from 16 to 72 years. Br J Nutrition. 1974; 32: 77-97.
 
 Siri WE. The gross composition of the body. pages 239-280. IN: Lawrence JH, Tobias CA (editors). Advances in Biological and Medical Physics. Academic Press, Inc. Advances in Biological and Medical Physics. 1956; 4: 239-280.
+
+[Mål din fedtprocent - valg af formel](https://www.motion-online.dk/maal-din-fedtprocent-fedttang-valg-formel/)

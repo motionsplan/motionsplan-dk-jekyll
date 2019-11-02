@@ -1,23 +1,3 @@
- ! function r(e, n, t) {
-     function o(i, f) {
-         if (!n[i]) {
-             if (!e[i]) { var c = "function" == typeof require && require; if (!f && c) return c(i, !0); if (u) return u(i, !0); var a = new Error("Cannot find module '" + i + "'"); throw a.code = "MODULE_NOT_FOUND", a }
-             var p = n[i] = { exports: {} };
-             e[i][0].call(p.exports, function(r) { var n = e[i][1][r]; return o(n ? n : r) }, p, p.exports, r, e, n, t)
-         }
-         return n[i].exports
-     }
-     for (var u = "function" == typeof require && require, i = 0; i < t.length; i++) o(t[i]);
-     return o
- }({
-     1: [function(r, e, n) {
-         ! function() {
-             "use strict";
-             jQuery(document).ready(function(r) {})
-         }()
-     }, {}]
- }, {}, [1]);
-
  function CalculateS(thisform) {
      Min = thisform.Min.value;
      Sek = thisform.Sek.value;
@@ -33,6 +13,7 @@
      return false;
  }
 
+// Ligner Wattmax test, men ikke samme resultater
  function CalculateBTW(thisform) {
      Wmax = thisform.Wmax.value;
      Sek = thisform.Sek.value;
@@ -47,6 +28,7 @@
 /**
  * Calculate Cooper Clinic Mortality Risk Index for Men
  */
+/*
  function CalculateBDD(thisform) {
      Alder = thisform.Alder.value * 1;
      Hvilepuls = thisform.Hvilepuls.value * 1;
@@ -143,3 +125,4 @@
      thisform.Risiko2.value = risk3
      return false;
  }
+*/

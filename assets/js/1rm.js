@@ -73,7 +73,7 @@ motionsplan.Estimate1RM = function(weight, repetitions) {
   /**
    * From motion-online RM calculator
    */
-  function getMOLBryzki()
+  function getMOLBrzycki()
   {
     var a = -2.78, b = 102.78;
     if (repetitions == 1) {
@@ -106,7 +106,7 @@ motionsplan.Estimate1RM = function(weight, repetitions) {
     getOconnor: getOconnor,
     getWathan: getWathan,
     getMOL: getMOL,
-    getMOLBryzki : getMOLBryzki
+    getMOLBrzycki : getMOLBrzycki
 
   };
 

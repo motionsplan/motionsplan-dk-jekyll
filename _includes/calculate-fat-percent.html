@@ -1,104 +1,31 @@
-<script type="text/javascript">
-    // Scripts Copyright © 1999 Peter H. S. Madsen, http://www.image.dk/~petermad/
-    function checkNumber(value, field, text) {
-        var OK = true;
-
-        if (field.value == "") {
-            alert("\nFeltet '" + text + "' skal være udfyldt.");
-            OK = false;
-        }
-        else if (value + "" != field.value) {
-            if (parseFloat(field.value) + "" == field.value)
-                alert("\nKun hele tal - ikke decimaler.");
-            else
-                alert("\nSkriv kun tal - ikke bogstaver, mellemrum eller andre karakterer.");
-            OK = false;
-        }
-        else if (value < 1) //>
-        {
-            alert("\nTallene skal være større end nul.")
-            OK = false;
-        }
-
-        if (!OK) {
-            field.focus();
-            field.select();
-        }
-        else
-            field.value = value;
-
-        return OK;
-    }
-
-    man = true; // Nødvendig for NN 2.x, og Opera 3.2x sammen med onClick i radio-buttons
-
-    function Calculate(form) {
-        OK = true;
-
-        a = parseInt(form.age.value);
-        h = parseInt(form.height.value);
-        w = parseInt(form.weight.value);
-
-        OK = checkNumber(a, form.age, "Alder");
-        if (OK) OK = checkNumber(h, form.height, "Højde");
-        if (OK) OK = checkNumber(w, form.weight, "Vægt");
-
-        if (OK) {
-            h = h / 100;
-            BMI = w / (h * h);
-
-            if (man)
-                fm = 0.988 * BMI + 0.242 * w + 0.094 * a - 30.18;
-            else
-                fm = 0.988 * BMI + 0.344 * w + 0.094 * a - 30.18;
-
-            fp = fm / w * 100;
-
-            if (BMI < 10) window.alert("Jeg er ret sikker på, at du har tastet de forkerte værdier ind. BMI er sandsynligvis mere end mindst 15, og dit BMI er under 10. Det betyder, at resten af udregningerne også er forkerte!")
-
-            form.BMI.value = Math.round(BMI * 100) / 100;
-            form.fedtmasse.value = Math.round(fm * 100) / 100;
-            form.fedtprocent.value = Math.round(fp * 100) / 100;
-        }
-    }
-
-    function Reset(form) // Nødvendig for NN 2.x og IE 3.x
-    {
-        man = true;
-        form.age.value = "";
-        form.height.value = "";
-        form.weight.value = "";
-    }
-    //--><!]]>
-</script>
-<form action="#" onsubmit="Calculate(this); return false" class="form">
+<form action="#">
     <fieldset class="radio">
         <legend>Køn</legend>
-        <input name="sex" onclick="man = true" type="radio" value="man" id="checkbox-man" /> <label for="checkbox-man">Mand</label>
-        <input name="sex" onclick="man = false" type="radio" value="woman" id="checkbox-woman" /> <label for="checkbox-woman">Kvinde</label>
+        <input name="sex" type="radio" value="man" id="checkbox-man" /> <label for="checkbox-man">Mand</label>
+        <input name="sex" type="radio" value="woman" id="checkbox-woman" /> <label for="checkbox-woman">Kvinde</label>
     </fieldset>
     <fieldset>
         <div class="form-inline">
             <label>Alder</label>
-            <input class="input-mini" maxlength="3" name="age" size="3" type="text" value="" /> <span class="help-inline">år</span>
+            <input class="input-mini" maxlength="3" name="age" id="age" size="3" type="text" value="" /> <span class="help-inline">år</span>
         </div>
         <label class="form-inline">Højde
-            <input class="input-mini" maxlength="3" name="height" size="3" type="text" value="" /> <span class="help-inline">cm</span>
+            <input class="input-mini" maxlength="3" name="height" id="height" size="3" type="text" value="" /> <span class="help-inline">cm</span>
         </label>
         <label class="form-inline">Vægt 
-            <input class="input-mini" maxlength="3" name="weight" size="3" type="text" value="" /> <span class="help-inline">kg</span>
+            <input class="input-mini" maxlength="3" name="weight" id="weight" size="3" type="text" value="" /> <span class="help-inline">kg</span>
         </label>
-        <input class="btn btn--large btn--success" name="SUBMIT2" type="submit" onclick="Calculate(this); return false" value="Udregn" /> <input class="submit" name="RESET2" onclick="Reset(this.form); return true" type="reset" value="Nulstil" />
+        <input class="btn btn--large btn--success" name="submit" id="calculate_fat_percent" type="button" value="Udregn" />
     </fieldset>
     <fieldset>
         <label class="form-inline">Body mass index (BMI)
-            <input class="input-mini" disabled="disabled" name="BMI" size="6" type="text" value="" /><span class="help-inline">(udregnes)</span>
+            <input class="input-mini" disabled="disabled" name="BMI" id="BMI" size="6" type="text" value="" /><span class="help-inline">(udregnes)</span>
         </label>
         <label class="form-inline">Fedtmasse
-            <input class="input-mini" disabled="disabled" name="fedtmasse" size="6" type="text" value="" /> <span class="help-inline">kg (udregnes)</span>
+            <input class="input-mini" disabled="disabled" name="fedtmasse" id="fat_mass" size="6" type="text" value="" /> <span class="help-inline">kg (udregnes)</span>
         </label>
         <label class="form-inline">Fedtprocent
-            <input class="input-mini" disabled="disabled" name="fedtprocent" size="6" type="text" value="" /> <span class="help-inline">% (udregnes)</span>
+            <input class="input-mini" disabled="disabled" name="fedtprocent" id="fat_percent" size="6" type="text" value="" /> <span class="help-inline">% (udregnes)</span>
         </label>
     </fieldset>
 </form>

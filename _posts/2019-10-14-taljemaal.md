@@ -7,7 +7,6 @@ header:
   overlay_image: https://www.berkeleywellness.com/sites/default/files/field/image/waist-measurement-MF_998_380.webp
   teaser: https://www.berkeleywellness.com/sites/default/files/field/image/waist-measurement-MF_998_380.webp
 category:
-  - Beregnere
   - Test
 tags:
   - fedtprocent
