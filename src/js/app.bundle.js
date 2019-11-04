@@ -6,6 +6,8 @@ const cooper = require('./cooper');
 const fat = require('./fat-pct');
 const fatm = require('./fat-pct-measurements');
 const rm = require('./1rm');
+const etpunkt = require('./etpunkttest');
+const topunkt = require('./topunkttest');
 
 $(document).ready(function() {
 
@@ -80,6 +82,39 @@ $(document).ready(function() {
         $("#Risikopoint").val(c.getRiskPoint());
         $("#Risiko1").val(c.getAbsoluteRisk());
         $("#Risiko2").val(c.getRelativeRisk());
+    });
+
+    // Udregn 1punkttest
+    $("#calculate_etpunkttest").click(function() {
+        console.log("Etpunkt test");
+
+        var arb = Number($("[name='arb']").val());
+        var koen = Number($("[name='koen']").val());
+        var puls = Number($("[name='puls']").val());
+        var alder = Number($("[name='alder']").val());
+        var vaegt = Number($("[name='vaegt']").val());
+
+        var et = etpunkt.EtPunktTest(koen, alder, vaegt, arb, puls);
+
+        $("[name='Iltoptag']").val(et.getMaximalOxygenUptake());
+        $("[name='Kondital']").val(et.getFitnessLevel());
+    });
+    
+    // Udregn 1punkttest
+    $("#calculate_topunkttest").click(function() {
+        console.log("Etpunkt test");
+
+        var arb1 = Number($("[name='arb1']").val());
+        var arb2 = Number($("[name='arb2']").val());
+        var puls1 = Number($("[name='puls1']").val());
+        var puls2 = Number($("[name='puls2']").val());
+        var alder = Number($("[name='alder']").val());
+        var vaegt = Number($("[name='vaegt']").val());
+
+        var et = topunkt.ToPunktTest(alder, vaegt, arb1, puls1, arb2, puls2);
+
+        $("[name='Iltoptag']").val(et.getMaximalOxygenUptake());
+        $("[name='Kondital']").val(et.getFitnessLevel());
     });
 
     // Calculate Max Heart Rate
@@ -180,13 +215,60 @@ $(document).ready(function() {
     // Calculate Wattmax
     $("#calc_wattmax").click(function() {
         console.log("Calculate Wattmax");
-        var Vmax = Number($("[name='Wmax']").val());
+        var Wmax = Number($("[name='Wmax']").val());
         var Sek = Number($("[name='Sek']").val());
         var Vaegt = Number($("[name='Vaegt']").val());
         var resultat = Math.round((0.0117 * (Wmax - 35 + (35 * Sek / 120)) + 0.16) / Vaegt * 1000 * Math.pow(10, 1)) / Math.pow(10, 1)
         var resultat2 = Math.round((0.0117 * (Wmax - 35 + (35 * Sek / 120)) + 0.16) * Math.pow(10, 2)) / Math.pow(10, 2)
         $("[name='Kondital']").val(resultat);
-        $("[name='Iltoptag']").val(resultat2);        
-        $("#rpKond").text(kondi);
+        $("[name='Iltoptag']").val(resultat2);
     });
+    // Calculate Walktest 6 min
+    $("#calculate_6min").click(function() {
+        console.log("Calculate Walktest 6 min");
+
+        var Meter = Number($("[name='Meter']").val());
+        var Koen = Number($("[name='Koen']").val());
+        var Alder = Number($("[name='Alder']").val());
+        var Hoejde = Number($("[name='Hoejde']").val());
+        var Vaegt = Number($("[name='Vaegt']").val());
+
+        var Mand = (7.57 * Hoejde) - (5.02 * Alder) - (1.76 * Vaegt) - 309
+        var Kvinde = (2.11 * Hoejde) - (5.78 * Alder) - (2.29 * Vaegt) + 667
+
+        var resultat = Math.round((Mand * Koen + Kvinde * (1 - Koen)) * Math.pow(10, 1)) / Math.pow(10, 1)
+        var resultat2 = Math.round((Meter / resultat * 100) * Math.pow(10, 1)) / Math.pow(10, 1)
+
+        $("[name='Refmeter']").val(resultat);
+        $("[name='Procent']").val(resultat2);
+    });
+    // Calculate Walktest 1.6 km
+    $("#calculate_16km").click(function() {
+        console.log("Calculate Walktest 1,6 km");
+
+        var Min = Number($("[name='Min']").val());
+        var Sek = Number($("[name='Sek']").val());
+        var Pul = Number($("[name='Pul']").val());
+        var Koen = Number($("[name='Koen']").val());
+        var Alder = Number($("[name='Alder']").val());
+        var Vaegt = Number($("[name='Vaegt']").val());
+
+        var Tid = Min * 60 + Sek * 1
+        var resultat = Math.round((6.9652 + (0.020062 * Vaegt) - (0.0257 * Alder) + (0.5955 * Koen) - (0.003754 * Tid) - (0.0115 * Pul)) * Math.pow(10, 1)) / Math.pow(10, 1)
+        var resultat2 = Math.round((resultat / Vaegt * 1000) * Math.pow(10, 2)) / Math.pow(10, 2)
+
+        $("[name='Iltoptag']").val(resultat);
+        $("[name='Konditalk']").val(resultat2);
+    });
+    // Calculate Walktest 1.6 km
+    $("#calculate_index100").click(function() {
+        console.log("Calculate Walktest 1,6 km");
+
+        var Loeft = Number($("[name='Loeft']").val());
+        var Vaegt = Number($("[name='Vaegt']").val());
+
+        var resultat = Math.round(Loeft * 986.63 / (1270.4 - 172970 * ((Math.pow(Vaegt, -1.3925)))) * Math.pow(10, 0)) / Math.pow(10, 0)
+
+        $("[name='Krop100']").val(resultat);
+    });    
 });

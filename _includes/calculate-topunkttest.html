@@ -1,22 +1,4 @@
-<script language="JavaScript">
-    function Calculate(thisform) {
-        arb1 = thisform.arb1.value;
-        puls1 = thisform.puls1.value;
-        arb2 = thisform.arb2.value;
-        puls2 = thisform.puls2.value;
-        alder = thisform.alder.value;
-        vaegt = thisform.vaegt.value;
-        maxpuls = 208 - 0.7 * alder;
-        delres = ((maxpuls - puls2) * (arb2 - arb1)) / (puls2 - puls1) + arb2 * 1;
-        resultat = Math.round((delres / 0.23 * 60 / 21100 + 0.25) * Math.pow(10, 2)) / Math.pow(10, 2)
-        resultat2 = Math.round((resultat / vaegt * 1000) * Math.pow(10, 1)) / Math.pow(10, 1)
-        thisform.Iltoptag.value = resultat
-        thisform.Kondital.value = resultat2
-        return false;
-    }
-</script>
-
-<form onsubmit="return Calculate(this);">
+<form>
     <table bgcolor="#003366">
         <caption>Indtast de målte værdier.</caption>
         <tbody>
@@ -59,19 +41,19 @@
             <tr>
                 <td bgcolor="#34557a">Maximal iltoptagelse</td>
                 <td bgcolor="#34557a">
-                    <input maxlength="5" size="7" name="Iltoptag"> l/min
+                    <input maxlength="5" size="7" name="Iltoptag" disabled="disabled"> l/min
                 </td>
             </tr>
             <tr>
                 <td bgcolor="#34557a">Kondital</td>
                 <td bgcolor="#34557a">
-                    <input maxlength="5" size="7" name="Kondital"> ml/kg/min
+                    <input maxlength="5" size="7" name="Kondital" disabled="disabled"> ml/kg/min
                 </td>
             </tr>
 
             <tr bgcolor="#ffffff">
                 <td colspan="2">
-                    <input type="submit" value="Beregn" name="submit">
+                    <input type="button" value="Beregn" name="submit" id="calculate_topunkttest">
                 </td>
             </tr>
         </tbody>

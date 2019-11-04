@@ -24,7 +24,7 @@ Testen er baseret på en test af veltrænede mænd i alderen 20-50 år. Det bety
 
 ## Måling af hvilepulsen
 
-Det bedste tidspunkt at måle hvilepulsen lige efter, at du står op om morgenen. Hvis ikke du har mulighed for det, så kan du lægge dig ned og hvile i fem minutter og derefter tage hvilepulsen. Hold et ubesværet åndedræt.
+Det bedste tidspunkt at måle hvilepulsen lige før, at du står op om morgenen. Hvis ikke du har mulighed for det, så kan du lægge dig ned og hvile i fem minutter og derefter tage hvilepulsen. Hold et ubesværet åndedræt.
 
 Du kan også estimere din hvilepuls ud fra følgende skema:
 
@@ -38,7 +38,10 @@ Du kan også estimere din hvilepuls ud fra følgende skema:
 
 ## Måling af maxpulsen
 
-Du kan måle din maksimale puls ved efter grundig opvarmning at lave en række bakkesprints af op til 45 sekunder. 
+Du kan måle din maksimale puls ved efter grundig opvarmning at lave en række bakkesprints af op til 45 sekunder.
+
+Vil du teste din maxpuls, gøres det bedst ved at løbe i et jævnt og forholdsvis højt tempo i 2 min, efterfulgt af 20 sek. sprint. Herefter lunter du lige så stille i 30-45 sek, hvorefter du gentager hele proceduren to gange mere. Med et pulsur med bryststrop vil du efter sidste hårde sprint kunne aflæse din maxpuls. 
+{: .notice .notice--success }
 
 Du kan også estimere den ud fra alder, da den maksimale puls typisk falder med alderen. I denne beregner har vi brugt følgende formel:
 
@@ -50,9 +53,15 @@ Denne formel har vist sig at være mere præcis end den tidligere tommelfingerre
 
 [^note]: [Ny formel til beregning af aldersbestemt maximalpuls](https://www.motion-online.dk/ny-formel-beregning-aldersbestemt-maximalpuls/)
 
-## Lav testen
+## Udregn dit kondital
 
 {% include calculate-vo2-max-hr.html %}
+
+## Det tekniske
+
+Formlen ser sådan her ud.
+
+{% include math formula="Kondital = \frac{maxpuls}{hvilepuls}*15.3" %}
 
 ## Referencer
 

@@ -1,18 +1,7 @@
-<script>
-function Calculate(thisform)
-  {
-    Loeft = thisform.Loeft.value;
-    Vaegt = thisform.Vaegt.value;
-    resultat = Math.round(Loeft * 986.63 / (1270.4 - 172970 * ((Math.pow(Vaegt, -1.3925)))) * Math.pow(10, 0)) / Math.pow(10, 0)
-    thisform.Krop100.value = resultat
-    return false;
-  }
-</script>
-
-<form name="wmax" onsubmit="return Calculate(this);">
-  <table>
-    <tr bgcolor="#CCFFCC"> 
-      <td colspan="2" bgcolor="#FFFFFF" height="22">Beregning af Index100</td>
+<form>
+  <table bgcolor="#990000">
+    <tr bgcolor="#CCFFCC">
+      <td colspan="2" bgcolor="#FFFFFF">Beregning af Index100.</td>
     </tr>
     <tr bgcolor="#F3F3EB"> 
       <td width="246">Dit løft:</td>
@@ -26,13 +15,13 @@ function Calculate(thisform)
     <tr bgcolor="#F3F3EB">
       <td width="246"></td>
       <td width="186">
-        <input type="submit" value="Beregn" name="submit">
+        <input type="button" value="Beregn" id="calculate_index100">
       </td>
     </tr>
     <tr bgcolor="#BBDDFF"> 
       <td width="246">Dit løft hvis du vejede 100 kg:</td>
-      <td width="186"> 
-        <input type="text" name="Krop100" size="7" maxlength="5" class="flat_field"> kg</td>
+      <td width="186">
+        <input type="text" name="Krop100" size="7" maxlength="5" disabled="disabled"> kg</td>
     </tr>
   </table>
 </form>

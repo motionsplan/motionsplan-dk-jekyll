@@ -1,20 +1,4 @@
-<script language="JavaScript">
-    function Calculate(thisform) {
-        Min = thisform.Min.value;
-        Sek = thisform.Sek.value;
-        Pul = thisform.Pul.value;
-        Koen = thisform.Koen.value;
-        Alder = thisform.Alder.value;
-        Vaegt = thisform.Vaegt.value;
-        Tid = Min * 60 + Sek * 1
-        resultat = Math.round((6.9652 + (0.020062 * Vaegt) - (0.0257 * Alder) + (0.5955 * Koen) - (0.003754 * Tid) - (0.0115 * Pul)) * Math.pow(10, 1)) / Math.pow(10, 1)
-        resultat2 = Math.round((resultat / Vaegt * 1000) * Math.pow(10, 2)) / Math.pow(10, 2)
-        thisform.Iltoptag.value = resultat
-        thisform.Konditalk.value = resultat2
-        return false;
-    }
-</script>
-<form onsubmit="return Calculate(this);">
+<form>
     <table bgcolor="#990000">
         <tbody>
             <tr bgcolor="#ccffcc">
@@ -36,7 +20,12 @@
                 <td width="179">
                     Køn:
                 </td>
-                <td width="253"><select name="Koen" size="1"><option selected="selected" value="1">Mand</option><option value="0">Kvinde</option></select></td>
+                <td width="253">
+                    <select name="Koen" size="1">
+                        <option value="1">Mand</option>
+                        <option value="0">Kvinde</option>
+                    </select>
+                </td>
             </tr>
             <tr bgcolor="#f3f3eb">
                 <td width="179">
@@ -52,14 +41,16 @@
             </tr>
             <tr bgcolor="#f3f3eb">
                 <td width="179"></td>
-                <td width="253"><input name="submit" type="submit" value="Beregn" /></td>
+                <td width="253">
+                    <input type="button" value="Beregn" id="calculate_16km" />
+                </td>
             </tr>
             <tr bgcolor="#990000">
                 <td bgcolor="#648cb4" width="179">
                     Iltoptagelse
                 </td>
                 <td bgcolor="#648cb4" width="253">
-                    <input maxlength="5" name="Iltoptag" size="7" type="text" /> l/min 
+                    <input maxlength="5" name="Iltoptag" size="7" type="text" disabled="disabled" /> l/min 
                 </td>
             </tr>
             <tr bgcolor="#990000">
@@ -67,7 +58,7 @@
                     Kondital
                 </td>
                 <td bgcolor="#648cb4" width="253">
-                    <input maxlength="5" name="Konditalk" size="7" type="text" /> ml/kg/min
+                    <input maxlength="5" name="Konditalk" size="7" type="text" disabled="disabled" /> ml/kg/min
                 </td>
             </tr>
         </tbody>

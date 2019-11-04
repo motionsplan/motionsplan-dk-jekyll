@@ -132,6 +132,8 @@ const cooper = require('./cooper');
 const fat = require('./fat-pct');
 const fatm = require('./fat-pct-measurements');
 const rm = require('./1rm');
+const etpunkt = require('./etpunkttest');
+const topunkt = require('./topunkttest');
 
 $(document).ready(function() {
 
@@ -206,6 +208,39 @@ $(document).ready(function() {
         $("#Risikopoint").val(c.getRiskPoint());
         $("#Risiko1").val(c.getAbsoluteRisk());
         $("#Risiko2").val(c.getRelativeRisk());
+    });
+
+    // Udregn 1punkttest
+    $("#calculate_etpunkttest").click(function() {
+        console.log("Etpunkt test");
+
+        var arb = Number($("[name='arb']").val());
+        var koen = Number($("[name='koen']").val());
+        var puls = Number($("[name='puls']").val());
+        var alder = Number($("[name='alder']").val());
+        var vaegt = Number($("[name='vaegt']").val());
+
+        var et = etpunkt.EtPunktTest(koen, alder, vaegt, arb, puls);
+
+        $("[name='Iltoptag']").val(et.getMaximalOxygenUptake());
+        $("[name='Kondital']").val(et.getFitnessLevel());
+    });
+    
+    // Udregn 1punkttest
+    $("#calculate_topunkttest").click(function() {
+        console.log("Etpunkt test");
+
+        var arb1 = Number($("[name='arb1']").val());
+        var arb2 = Number($("[name='arb2']").val());
+        var puls1 = Number($("[name='puls1']").val());
+        var puls2 = Number($("[name='puls2']").val());
+        var alder = Number($("[name='alder']").val());
+        var vaegt = Number($("[name='vaegt']").val());
+
+        var et = topunkt.ToPunktTest(alder, vaegt, arb1, puls1, arb2, puls2);
+
+        $("[name='Iltoptag']").val(et.getMaximalOxygenUptake());
+        $("[name='Kondital']").val(et.getFitnessLevel());
     });
 
     // Calculate Max Heart Rate
@@ -306,18 +341,65 @@ $(document).ready(function() {
     // Calculate Wattmax
     $("#calc_wattmax").click(function() {
         console.log("Calculate Wattmax");
-        var Vmax = Number($("[name='Wmax']").val());
+        var Wmax = Number($("[name='Wmax']").val());
         var Sek = Number($("[name='Sek']").val());
         var Vaegt = Number($("[name='Vaegt']").val());
         var resultat = Math.round((0.0117 * (Wmax - 35 + (35 * Sek / 120)) + 0.16) / Vaegt * 1000 * Math.pow(10, 1)) / Math.pow(10, 1)
         var resultat2 = Math.round((0.0117 * (Wmax - 35 + (35 * Sek / 120)) + 0.16) * Math.pow(10, 2)) / Math.pow(10, 2)
         $("[name='Kondital']").val(resultat);
-        $("[name='Iltoptag']").val(resultat2);        
-        $("#rpKond").text(kondi);
+        $("[name='Iltoptag']").val(resultat2);
     });
+    // Calculate Walktest 6 min
+    $("#calculate_6min").click(function() {
+        console.log("Calculate Walktest 6 min");
+
+        var Meter = Number($("[name='Meter']").val());
+        var Koen = Number($("[name='Koen']").val());
+        var Alder = Number($("[name='Alder']").val());
+        var Hoejde = Number($("[name='Hoejde']").val());
+        var Vaegt = Number($("[name='Vaegt']").val());
+
+        var Mand = (7.57 * Hoejde) - (5.02 * Alder) - (1.76 * Vaegt) - 309
+        var Kvinde = (2.11 * Hoejde) - (5.78 * Alder) - (2.29 * Vaegt) + 667
+
+        var resultat = Math.round((Mand * Koen + Kvinde * (1 - Koen)) * Math.pow(10, 1)) / Math.pow(10, 1)
+        var resultat2 = Math.round((Meter / resultat * 100) * Math.pow(10, 1)) / Math.pow(10, 1)
+
+        $("[name='Refmeter']").val(resultat);
+        $("[name='Procent']").val(resultat2);
+    });
+    // Calculate Walktest 1.6 km
+    $("#calculate_16km").click(function() {
+        console.log("Calculate Walktest 1,6 km");
+
+        var Min = Number($("[name='Min']").val());
+        var Sek = Number($("[name='Sek']").val());
+        var Pul = Number($("[name='Pul']").val());
+        var Koen = Number($("[name='Koen']").val());
+        var Alder = Number($("[name='Alder']").val());
+        var Vaegt = Number($("[name='Vaegt']").val());
+
+        var Tid = Min * 60 + Sek * 1
+        var resultat = Math.round((6.9652 + (0.020062 * Vaegt) - (0.0257 * Alder) + (0.5955 * Koen) - (0.003754 * Tid) - (0.0115 * Pul)) * Math.pow(10, 1)) / Math.pow(10, 1)
+        var resultat2 = Math.round((resultat / Vaegt * 1000) * Math.pow(10, 2)) / Math.pow(10, 2)
+
+        $("[name='Iltoptag']").val(resultat);
+        $("[name='Konditalk']").val(resultat2);
+    });
+    // Calculate Walktest 1.6 km
+    $("#calculate_index100").click(function() {
+        console.log("Calculate Walktest 1,6 km");
+
+        var Loeft = Number($("[name='Loeft']").val());
+        var Vaegt = Number($("[name='Vaegt']").val());
+
+        var resultat = Math.round(Loeft * 986.63 / (1270.4 - 172970 * ((Math.pow(Vaegt, -1.3925)))) * Math.pow(10, 0)) / Math.pow(10, 0)
+
+        $("[name='Krop100']").val(resultat);
+    });    
 });
 
-},{"./1rm":1,"./cooper":3,"./fat-pct":5,"./fat-pct-measurements":4,"./fitness-hr":6,"./max-hr":7}],3:[function(require,module,exports){
+},{"./1rm":1,"./cooper":3,"./etpunkttest":4,"./fat-pct":6,"./fat-pct-measurements":5,"./fitness-hr":7,"./max-hr":8,"./topunkttest":9}],3:[function(require,module,exports){
 let motionsplan = {};
 
 motionsplan.CooperClinicMortalityRiskIndex = function(age, hr, bloodpressure, diabetes, smoker, bmi, fitness) {
@@ -489,6 +571,85 @@ module.exports = motionsplan;
 },{}],4:[function(require,module,exports){
 let motionsplan = {}
 
+motionsplan.EtPunktTest = function(gender, age, weight, work, hr) {
+  var ax3, bx2, cx, d, korrektion;
+  var arb = work;
+  var koen = gender;
+  var vaegt = weight;
+  var puls = hr;
+  var alder = age;
+
+  function getMaximalOxygenUptake() {
+    if ((koen == "1") && (arb == "50")) {
+      ax3 = -0.0000141887098363194;
+      bx2 = 0.00564913345624763;
+      cx = -0.780818885937746;
+      d = 39.1006320316801;
+    }
+    else if ((koen == "1") && (arb == "75")) {
+      ax3 = -0.00000543674435627603;
+      bx2 = 0.0026568064501183;
+      cx = -0.452158557600623;
+      d = 28.2705225878313;
+    }
+    else if ((koen == "1") && (arb == "100")) {
+      ax3 = -0.00000781456387209244;
+      bx2 = 0.0037691350493366;
+      cx = -0.628684090959725;
+      d = 38.1781325862974;
+    }
+    else if ((koen == "1") && (arb == "150")) {
+      ax3 = -0.00000480199704005531;
+      bx2 = 0.00263336860763636;
+      cx = -0.502384480151535;
+      d = 35.4646039706529;
+    }
+    else if ((koen == "0") && (arb == "50")) {
+      ax3 = -0.00000908367168416049;
+      bx2 = 0.00414579767940695;
+      cx = -0.655844035762893;
+      d = 37.2727235943794;
+    }
+    else if ((koen == "0") && (arb == "75")) {
+      ax3 = -0.00000933665751673296;
+      bx2 = 0.0044902366150176;
+      cx = -0.742969310750658;
+      d = 43.9747812265557;
+    }
+    else if ((koen == "0") && (arb == "100")) {
+      ax3 = -0.00000915073336660991;
+      bx2 = 0.00455540562587432;
+      cx = -0.780173372160715;
+      d = 47.9223030409269;
+    }
+    else if ((koen == "0") && (arb == "150")) {
+      ax3 = -0.00000541183365569748;
+      bx2 = 0.00301601587808795;
+      cx = -0.586119541549347;
+      d = 41.7833862710695;
+    }
+    korrektion = 0.0000772460416296068 * alder * alder - 0.0153110952973968 * alder + 1.31886556366008;
+    return ((ax3 * puls * puls * puls + bx2 * puls * puls + cx * puls + d) * korrektion);
+  }
+  
+  function getFitnessLevel() {
+    return (getMaximalOxygenUptake() / vaegt * 1000) * Math.pow(10, 1) / Math.pow(10, 1);
+  }
+
+  var publicAPI = {
+    getMaximalOxygenUptake: getMaximalOxygenUptake,
+    getFitnessLevel : getFitnessLevel
+
+  };
+
+  return publicAPI;
+}
+
+module.exports = motionsplan;
+
+},{}],5:[function(require,module,exports){
+let motionsplan = {}
+
 motionsplan.CalculateFatPercentMeasurements = function() {
 
   function getFatPercentMenUnder26(upperarm, abdomen, underarm) {
@@ -519,7 +680,7 @@ motionsplan.CalculateFatPercentMeasurements = function() {
 
 module.exports = motionsplan;
 
-},{}],5:[function(require,module,exports){
+},{}],6:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.CalculateFatPercent = function(h, w, a, sex) {
@@ -560,7 +721,7 @@ motionsplan.CalculateFatPercent = function(h, w, a, sex) {
 
 module.exports = motionsplan;
 
-},{}],6:[function(require,module,exports){
+},{}],7:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.CalculateFitnessFromHr = function(mxpul, hvpul, wgt) {
@@ -593,7 +754,7 @@ motionsplan.CalculateFitnessFromHr = function(mxpul, hvpul, wgt) {
 
 module.exports = motionsplan;
 
-},{}],7:[function(require,module,exports){
+},{}],8:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.EstimateMaxHr = function(ald) {
@@ -607,6 +768,44 @@ motionsplan.EstimateMaxHr = function(ald) {
 
   var publicAPI = {
     getMaxHr: getMaxHr
+  };
+
+  return publicAPI;
+}
+
+module.exports = motionsplan;
+
+},{}],9:[function(require,module,exports){
+let motionsplan = {}
+
+motionsplan.ToPunktTest = function(age, weight, work1, hr1, work2, hr2) {
+  var arb1 = work1;
+  var puls1 = hr1;
+  var arb2 = work2;
+  var puls2 = hr2;
+  var alder = age;
+  var vaegt = weight;
+
+  // TODO: How can we let the user choose this for them selves
+  // Dependency injection of max-hr calculator
+  function getMaximalHeartRate() {
+    return 208 - 0.7 * alder;
+  }
+
+  function getMaximalOxygenUptake() {
+    var delres;
+    delres = ((getMaximalHeartRate() - puls2) * (arb2 - arb1)) / (puls2 - puls1) + arb2 * 1;
+    return Math.round((delres / 0.23 * 60 / 21100 + 0.25) * Math.pow(10, 2)) / Math.pow(10, 2)
+  }
+  
+  function getFitnessLevel() {
+    return Math.round((getMaximalOxygenUptake() / vaegt * 1000) * Math.pow(10, 1)) / Math.pow(10, 1);
+  }
+
+  var publicAPI = {
+    getMaximalOxygenUptake: getMaximalOxygenUptake,
+    getFitnessLevel : getFitnessLevel
+
   };
 
   return publicAPI;

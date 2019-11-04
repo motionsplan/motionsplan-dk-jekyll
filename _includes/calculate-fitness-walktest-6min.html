@@ -1,20 +1,4 @@
-<script>
-    function Calculate(thisform) {
-        Meter = thisform.Meter.value;
-        Koen = thisform.Koen.value;
-        Alder = thisform.Alder.value;
-        Hoejde = thisform.Hoejde.value;
-        Vaegt = thisform.Vaegt.value;
-        Mand = (7.57 * Hoejde) - (5.02 * Alder) - (1.76 * Vaegt) - 309
-        Kvinde = (2.11 * Hoejde) - (5.78 * Alder) - (2.29 * Vaegt) + 667
-        resultat = Math.round((Mand * Koen + Kvinde * (1 - Koen)) * Math.pow(10, 1)) / Math.pow(10, 1)
-        resultat2 = Math.round((Meter / resultat * 100) * Math.pow(10, 1)) / Math.pow(10, 1)
-        thisform.Refmeter.value = resultat
-        thisform.Procent.value = resultat2
-        return false;
-    }
-</script>
-<form onsubmit="return Calculate(this);">
+<form>
     <table bgcolor="#990000">
         <tbody>
             <tr bgcolor="#ccffcc">
@@ -54,7 +38,7 @@
             <tr bgcolor="#f3f3eb">
                 <td width="179"></td>
                 <td width="253">
-                    <input type="submit" value="Beregn" name="submit">
+                    <input type="button" value="Beregn" id="calculate_6min">
                 </td>
             </tr>
             <tr bgcolor="#990000">
@@ -62,13 +46,13 @@
                     Referenceværdi:
                 </td>
                 <td width="253" bgcolor="#648cb4">
-                    <input maxlength="5" size="7" name="Refmeter"> meter
+                    <input maxlength="5" size="7" name="Refmeter" disabled="disabled"> meter
                 </td>
             </tr>
             <tr bgcolor="#990000">
                 <td width="179" bgcolor="#648cb4">Procent af normal:</td>
                 <td width="253" bgcolor="#648cb4">
-                    <input maxlength="5" size="7" name="Procent"> %
+                    <input maxlength="5" size="7" name="Procent" disabled="disabled"> %
                 </td>
             </tr>
         </tbody>

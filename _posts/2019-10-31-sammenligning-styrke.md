@@ -115,7 +115,7 @@ Med dette tal i hånden kan du nu sammenligne dig med andre personer i samme lø
 
 Index100 = (kg * 986,63) / (1270 - 172970 * (kropsvægt^-1,3925))
 
-{% include math formula="\frac{(kg * 986,63)}{(1270 - 172970 * (kropsvægt^-1,3925))}" %}
+{% include math formula="Index100 = \frac{(kg * 986,63)}{(1270 - 172970 * (body weight^(-1,3925)))}" %}
 
 ### Teoretisk baggrund for Index100 beregningen
 
