@@ -1,4 +1,4 @@
-const motionsplan = require('../assets/js/fat-pct-measurements.js');
+const motionsplan = require('../js/fat-pct-measurements.js');
 var assert = require('assert');
 
 describe('CalculateFatPercentMeasurements', function() {

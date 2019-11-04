@@ -1,17 +1,5 @@
-<script>
-    function Calculate(thisform) {
-        Wmax = thisform.Wmax.value;
-        Sek = thisform.Sek.value;
-        Vaegt = thisform.Vaegt.value;
-        resultat = Math.round((0.0117 * (Wmax - 35 + (35 * Sek / 120)) + 0.16) / Vaegt * 1000 * Math.pow(10, 1)) / Math.pow(10, 1)
-        resultat2 = Math.round((0.0117 * (Wmax - 35 + (35 * Sek / 120)) + 0.16) * Math.pow(10, 2)) / Math.pow(10, 2)
-        thisform.Kondital.value = resultat
-        thisform.Iltoptag.value = resultat2
-        return false;
-    }
-</script>
-<form name="test" onsubmit="return Calculate(this);">
-    <table border="0" width="451" cellspacing="1" cellpadding="4" align="center" bgcolor="#990000">
+<form>
+    <table bgcolor="#990000">
         <tbody>
             <tr bgcolor="#ccffcc">
                 <td colspan="2" bgcolor="#ffffff">Indtast den højeste belastning, der blev nået, samt<br /> hvor mange sekunder der blev kørt på denne belastning.</td>
@@ -30,7 +18,7 @@
             </tr>
             <tr bgcolor="#f3f3eb">
                 <td></td>
-                <td><input name="submit" type="submit" value="Beregn" /></td>
+                <td><input type="button" value="Beregn" id="calc_wattmax" /></td>
             </tr>
             <tr bgcolor="#990000">
                 <td bgcolor="#648cb4">Iltoptagelse</td>

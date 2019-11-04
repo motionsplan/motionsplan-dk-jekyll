@@ -1,4 +1,4 @@
-const motionsplan = require('../assets/js/1rm.js');
+const motionsplan = require('../js/1rm.js');
 var assert = require('assert');
 
 describe('Estimate1RM', function() {

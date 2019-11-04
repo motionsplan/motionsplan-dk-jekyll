@@ -1,4 +1,4 @@
-const motionsplan = require('../assets/js/max-hr.js');
+const motionsplan = require('../js/max-hr.js');
 var assert = require('assert');
 
 describe('EstimateMaxHr', function() {
@@ -6,8 +6,8 @@ describe('EstimateMaxHr', function() {
     it('should return the correct number', function() {
 
       // age, heart rate, blood pressure, diabetes, smoker, bmi, fitness
-      var cooper = motionsplan.EstimateMaxHr(40);
-      assert.equal(cooper.getMaxHr(), 180);
+      var hr = motionsplan.EstimateMaxHr(40);
+      assert.equal(hr.getMaxHr(), 180);
     });
   });
 });

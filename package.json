@@ -38,9 +38,9 @@
     "watchify": "^3.11.1"
   },
   "scripts": {
-    "test": "mocha",
+    "test": "mocha src/test/*.*",
     "start": "jekyll server --port 8080 --incremental",
-    "watch": "watchify assets/js/app.bundle.js -o assets/js/bundle.js",
-    "build": "browserify assets/js/app.bundle.js -g uglifyify -o assets/js/bundle.js"
+    "watch": "watchify src/js/app.bundle.js -o assets/js/bundle.js",
+    "build": "browserify src/js/app.bundle.js -g uglifyify -o assets/js/bundle.js"
   }
 }

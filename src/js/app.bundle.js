@@ -160,7 +160,7 @@ $(document).ready(function() {
         $("#plIltop").text(maxiltop);
         $("#plKond").text(kondi);
     });
-
+    // Calculate Borg 15 fitness
     $("#rpCalBtn").click(function() {
         console.log("Calculate Borg 15 fitness");
 
@@ -176,5 +176,17 @@ $(document).ready(function() {
         $("#rpIltop").text(maxiltop);
         $("#rpKond").text(kondi);
 
+    });
+    // Calculate Wattmax
+    $("#calc_wattmax").click(function() {
+        console.log("Calculate Wattmax");
+        var Vmax = Number($("[name='Wmax']").val());
+        var Sek = Number($("[name='Sek']").val());
+        var Vaegt = Number($("[name='Vaegt']").val());
+        var resultat = Math.round((0.0117 * (Wmax - 35 + (35 * Sek / 120)) + 0.16) / Vaegt * 1000 * Math.pow(10, 1)) / Math.pow(10, 1)
+        var resultat2 = Math.round((0.0117 * (Wmax - 35 + (35 * Sek / 120)) + 0.16) * Math.pow(10, 2)) / Math.pow(10, 2)
+        $("[name='Kondital']").val(resultat);
+        $("[name='Iltoptag']").val(resultat2);        
+        $("#rpKond").text(kondi);
     });
 });

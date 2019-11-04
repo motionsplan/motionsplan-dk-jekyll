@@ -14,8 +14,8 @@ last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 ---
 
-Et-punkts test på cykel	Udskriv	E-mail
 Den klassiske Åstrand-test, der kun kræver at man arbejder på en enkelt submaximal belastning. Et-punkts testen er meget populær og vi tilbyder derfor nu, at man gratis kan downloade testen herfra.
+
 Denne submaximale test har den fordel, at personen der skal testes ikke behøver at anstrenge sig meget. Dertil er testen nem og hurtig at gennemføre. Testens bestemmelse af den maximale iltoptagelse er behæftet med nogen usikkerhed (som ved alle andre submaximale tests), men som et instrument til at måle ændringer i konditionen over tid er den fremragende.
 
 Du skal bruge en kondicykel der kan vise belastningen i watt. Dertil skal du kunne måle din puls mens du cykler - helst med et pulsur.
@@ -40,7 +40,9 @@ Forsøgene har vist at testen er ret påvirkelig af tilvænning. Det bedste lade
 
 Vi har valgt at angive referenceværdier der ikke er baseret på tilvænning, da vi antager at man som regel ikke har tid til at lade allersoner gennemføre testen 3 gange. Desuden er der andre studier der tyder på at denne tilvænnings effekt er yderst begrænset hos visse patientgrupper, f.eks. hjerte- og lungepatienter hvor der sædvanligvis opnås et pålideligt resultat efter første eller andet forsøg.
 
-Referencer
+## Referencer
+
+[Et punkt test fra Motion-online.dk](https://web.archive.org/web/20150316134300/http://www.motion-online.dk/konditionstraening/testning/et-punkts_test_paa_cykel/)
 
 Enright PL, Sherrill DL.
 Reference equations for the six-minute walk in healthy adults.

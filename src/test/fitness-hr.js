@@ -1,4 +1,4 @@
-const motionsplan = require('../assets/js/fitness-hr.js');
+const motionsplan = require('../js/fitness-hr.js');
 var assert = require('assert');
 
 describe('CalculateFitnessFromHr', function() {

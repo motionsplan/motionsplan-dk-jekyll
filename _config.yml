@@ -37,7 +37,6 @@ atom_feed:
 
 
 after_footer_scripts:
-  - /assets/js/app.js
   - /assets/js/bundle.js
 
 # reCaptcha
@@ -159,6 +158,7 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
+  - /src
 keep_files:
   - .git
   - .svn

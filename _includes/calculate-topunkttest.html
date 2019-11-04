@@ -15,71 +15,58 @@
         return false;
     }
 </script>
-</font>
-<form name="test" onsubmit="return Calculate(this);">
-    <table cellspacing="1" cellpadding="4" width="451" align="center" bgcolor="#003366" border="0">
+
+<form onsubmit="return Calculate(this);">
+    <table bgcolor="#003366">
+        <caption>Indtast de målte værdier.</caption>
         <tbody>
             <tr>
-                <td bgcolor="#ffffff" colspan="2">
-                    <p>Indtast de målte værdier.</p>
-                </td>
-            </tr>
-            <tr>
+                <td bgcolor="#d3e1f8">1. arbejdsbelastning:</td>
                 <td bgcolor="#d3e1f8">
-                    <div align="right">1. arbejdsbelastning:</div>
+                    <input maxlength="3" size="7" value="100" name="arb1"> Watt
                 </td>
-
-                <td bgcolor="#d3e1f8"><input maxlength="3" size="7" value="100" name="arb1"> Watt </td>
             </tr>
             <tr>
+                <td bgcolor="#d3e1f8">Puls ved 1. arbejdsbelastning:</td>
                 <td bgcolor="#d3e1f8">
-                    <div align="right">Puls ved 1. arbejdsbelastning:</div>
+                    <input maxlength="3" size="7" value="120" name="puls1"> Slag/min
                 </td>
-                <td bgcolor="#d3e1f8"><input maxlength="3" size="7" value="120" name="puls1"> Slag/min </td>
             </tr>
             <tr>
+                <td bgcolor="#cef4ea">2. arbejdsbelastning:</td>
                 <td bgcolor="#cef4ea">
-                    <div align="right">2. arbejdsbelastning: </div>
+                    <input maxlength="3" size="7" value="180" name="arb2"> Watt
                 </td>
-                <td bgcolor="#cef4ea"><input maxlength="3" size="7" value="180" name="arb2"> Watt </td>
             </tr>
-
             <tr>
+                <td bgcolor="#cef4ea">Puls ved 2. arbejdsbelastning:</td>
                 <td bgcolor="#cef4ea">
-                    <div align="right">Puls ved 2. arbejdsbelastning:</div>
+                    <input maxlength="3" size="7" value="150" name="puls2"> Slag/min
                 </td>
-                <td bgcolor="#cef4ea"><input maxlength="3" size="7" value="150" name="puls2"> Slag/min</td>
             </tr>
             <tr>
+                <td bgcolor="#d8e4f8">Alder:</td>
                 <td bgcolor="#d8e4f8">
-                    <div align="right">Alder: </div>
+                    <input maxlength="3" size="7" value="40" name="alder">År
                 </td>
-                <td bgcolor="#d8e4f8"><input maxlength="3" size="7" value="40" name="alder">År</td>
             </tr>
             <tr>
+                <td bgcolor="#d8e4f8">Vægt</td>
                 <td bgcolor="#d8e4f8">
-                    <div align="right">Vægt</div>
-                </td>
-
-                <td bgcolor="#d8e4f8"><input maxlength="5" size="7" value="70" name="vaegt"> Kg</td>
-            </tr>
-            <tr>
-                <td bgcolor="#34557a">
-                    <div align="right">
-                        <font color="#ffffff"><b>Maximal iltoptagelse</b></font>
-                    </div>
-                </td>
-                <td bgcolor="#34557a"><input maxlength="5" size="7" name="Iltoptag">
-                    <font color="#ffffff"><b>l/min </b></font>
+                    <input maxlength="5" size="7" value="70" name="vaegt"> Kg
                 </td>
             </tr>
             <tr>
+                <td bgcolor="#34557a">Maximal iltoptagelse</td>
                 <td bgcolor="#34557a">
-                    <div align="right">
-                        <font color="#ffffff"><b>Kondital</b></font>
-                    </div>
+                    <input maxlength="5" size="7" name="Iltoptag"> l/min
                 </td>
-                <td bgcolor="#34557a"><input maxlength="5" size="7" name="Kondital"> <b><font color="#ffffff">ml/kg/min</font></b></td>
+            </tr>
+            <tr>
+                <td bgcolor="#34557a">Kondital</td>
+                <td bgcolor="#34557a">
+                    <input maxlength="5" size="7" name="Kondital"> ml/kg/min
+                </td>
             </tr>
 
             <tr bgcolor="#ffffff">

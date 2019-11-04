@@ -6,15 +6,15 @@
         return false;
     }
 </script>
-<form name="wmax" onsubmit="return Calculate(this);">
-    <table width="451" border="0" cellspacing="1" cellpadding="4" align="center" bgcolor="#990000">
+<form onsubmit="return Calculate(this);">
+    <table bgcolor="#990000">
         <tr bgcolor="#CCFFCC">
             <td colspan="2" bgcolor="#FFFFFF" height="22">Beregning af Vmax.</td>
         </tr>
         <tr bgcolor="#F3F3EB">
             <td width="179">Maksimal iltoptagelse:</td>
             <td width="253">
-                <input type="text" name="Maxvo2" size="7" value="4000" class="flat_field"> ml/min
+                <input type="text" name="Maxvo2" size="7" value="4000"> ml/min
             </td>
         </tr>
         <tr bgcolor="#F3F3EB">
@@ -27,7 +27,7 @@
         <tr bgcolor="#CC6600">
             <td width="179">Vmax:</td>
             <td width="253">
-                <input type="text" name="Vmax" size="7" maxlength="5" class="flat_field"> watt
+                <input type="text" name="Vmax" size="7" maxlength="5"> watt
             </td>
         </tr>
     </table>
@@ -50,15 +50,15 @@
         return false;
     }
 </script>
-<form name="intervaller" onsubmit="return Calculate2(this);">
-    <table width="451" border="0" cellspacing="1" cellpadding="4" align="center" bgcolor="#990000">
+<form onsubmit="return Calculate2(this);">
+    <table bgcolor="#990000">
         <tr bgcolor="#CCFFCC">
-            <td colspan="2" bgcolor="#FFFFFF" height="22">Beregning af intervaller - indtast Vmax og Tmax</td>
+            <td colspan="2" bgcolor="#FFFFFF">Beregning af intervaller - indtast Vmax og Tmax</td>
         </tr>
         <tr bgcolor="#F3F3EB">
             <td width="179">Vmax:</td>
             <td width="253">
-                <input type="text" name="Vmax2" size="7" value="320" class="flat_field"> watt (fra ovenst&aring;ende skema)
+                <input type="text" name="Vmax2" size="7" value="320"> watt (fra ovenst&aring;ende skema)
             </td>
         </tr>
         <tr bgcolor="#F3F3EB">
@@ -66,8 +66,8 @@
                Tmax:
             </td>
             <td width="253">
-                <input type="text" name="Min" size="5" value="4" class="flat_field"> minutter
-                <input type="text" name="Sek" size="5" value="20" class="flat_field"> sek.
+                <input type="text" name="Min" size="5" value="4"> minutter
+                <input type="text" name="Sek" size="5" value="20"> sek.
             </td>
         </tr>
         <tr bgcolor="#F3F3EB">
@@ -87,8 +87,8 @@
                 8 minutter på
             </td>
             <td>
-                <input type="text" name="Opvarm1" size="7" maxlength="5" class="flat_field"> til
-                <input type="text" name="Opvarm2" size="7" maxlength="5" class="flat_field"> watt
+                <input type="text" name="Opvarm1" size="7" maxlength="5"> til
+                <input type="text" name="Opvarm2" size="7" maxlength="5"> watt
             </td>
         </tr>
         <tr bgcolor="#CC6600">
@@ -101,7 +101,7 @@
                 Interval-belastning
             </td>
             <td width="253">
-                <input type="text" name="Vmax3" size="7" maxlength="5" class="flat_field"> watt
+                <input type="text" name="Vmax3" size="7" maxlength="5"> watt
             </td>
         </tr>
         <tr bgcolor="#CC6600">
@@ -109,8 +109,8 @@
                 Interval-tid
             </td>
             <td width="253">
-                <input type="text" name="Vmaxtid_m" size="5" maxlength="5" class="flat_field"> min
-                <input type="text" name="Vmaxtid_s" size="5" maxlength="5" class="flat_field"> sek.
+                <input type="text" name="Vmaxtid_m" size="5" maxlength="5"> min
+                <input type="text" name="Vmaxtid_s" size="5" maxlength="5"> sek.
             </td>
         </tr>
         <tr bgcolor="#CC6600">
@@ -118,7 +118,7 @@
                 Pause-belastning
             </td>
             <td width="253">
-                <input type="text" name="Vpause" size="7" maxlength="5" class="flat_field"> watt
+                <input type="text" name="Vpause" size="7" maxlength="5"> watt
             </td>
         </tr>
         <tr bgcolor="#CC6600">
@@ -126,8 +126,8 @@
                 Pause-tid
             </td>
             <td width="253">
-                <input type="text" name="Pausetid_m" maxlength="5" size="5" class="flat_field"> min 
-                <input type="text" name="Pausetid_s" maxlength="5" size="5" class="flat_field"> sek.
+                <input type="text" name="Pausetid_m" maxlength="5" size="5"> min 
+                <input type="text" name="Pausetid_s" maxlength="5" size="5"> sek.
             </td>
         </tr>
         <tr bgcolor="#CC6600">

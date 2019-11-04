@@ -36,7 +36,7 @@ Hvis du har målt din maxpuls, kan du evt. regne baglæns og indtaste den (forke
 
 Som på alle andre indirekte submaksimale tests er der en vis usikkerhed på resultatet. Usikkerheden skyldes først og fremmest den usikkerhed der på bestemmelse af maxpuls ud fra alderen.
 
-NB Testen er september 2005 blevet justeret for en afrundingsusikkerhed i beregningerne, der gav lidt for lave værdier, specielt ved lave kondital.
+NB. Testen er september 2005 blevet justeret for en afrundingsusikkerhed i beregningerne, der gav lidt for lave værdier, specielt ved lave kondital.
 {: .notice .notice--info }
 
 ## Beregningerne bag To-punkts testen
@@ -54,3 +54,7 @@ Denne max-arbejdsbelastning omregnes så til en iltoptagelse via antagelser om n
 {% include figure image_path="https://web.archive.org/web/20070322002756im_/http://www.motion-online.dk/images/vo2/to_punktstest_formel2.gif" %}
 
 Hvis man ønsker at beregne konditallet skal VO2max omregnes til ml ilt pr. minut (dvs. ganges med 1000) og divideres med kropsvægten i kg.
+
+## Reference
+
+Åstrand & Rodahl: Textbook of Work Physiology, 3rd ed. p. 373. 1986

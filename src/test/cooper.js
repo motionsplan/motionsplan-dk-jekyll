@@ -1,4 +1,4 @@
-const motionsplan = require('../assets/js/cooper.js');
+const motionsplan = require('../js/cooper.js');
 var assert = require('assert');
 
 describe('CooperClinicMortalityRiskIndex', function() {

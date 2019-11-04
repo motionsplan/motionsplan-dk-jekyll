@@ -44,7 +44,7 @@ Hvor T er er tiden i minutter, man har løbet.
 
 ## Noter
 
-Bemærk at løbebåndets hældning er angivet i %. En hældning på 100% svar til en vinkel på 45 grader.
+Bemærk at løbebåndets hældning er angivet i procent. En hældning på 100% svar til en vinkel på 45 grader.
 
 Du bør inden testen sikre dig at løbebåndet kan indstilles til de hastigheder og hældninger der kræves. Ikke alle løbebånd kan det.
 

@@ -1,5 +1,4 @@
 <script>
-    // JavaScript Document
     function Calculate(thisform) {
         arb = thisform.arb.value * 1;
         koen = thisform.koen.value * 1;
@@ -62,39 +61,29 @@
     }
 </script>
 
-<form name="test" onsubmit="return Calculate(this);">
-    <table cellspacing="1" cellpadding="4" width="451" align="center" bgcolor="#003366" border="0">
+<form onsubmit="return Calculate(this);">
+    <table bgcolor="#003366">
+        <caption>Indtast de målte værdier.</caption>
         <tbody>
             <tr>
-                <td bgcolor="#ffffff" colspan="2">
-                    Indtast de målte værdier.
-                </td>
-            </tr>
-            <tr>
-                <td bgcolor="#d3e1f8" height="36">
-                    Arbejdsbelastning:
-                </td>
-
-                <td bgcolor="#d3e1f8" height="36">
+                <td bgcolor="#d3e1f8">Arbejdsbelastning:</td>
+                <td bgcolor="#d3e1f8">
                     <select name="arb">
                         <option value="50">50 watt</option>
                         <option value="75">75 watt</option>
-                        <option value="100" selected>100 watt</option>
+                        <option value="100" selected="selected">100 watt</option>
                         <option value="150">150 watt</option>
                     </select>
                 </td>
             </tr>
             <tr>
+                <td bgcolor="#d3e1f8">Puls ved denne belastning:</td>
                 <td bgcolor="#d3e1f8">
-                    Puls ved denne belastning:
+                    <input maxlength="3" size="7" value="120" name="puls"> Slag/min
                 </td>
-                <td bgcolor="#d3e1f8"><input maxlength="3" size="7" value="120" name="puls"> Slag/min </td>
             </tr>
-
             <tr>
-                <td bgcolor="#d8e4f8" height="2">
-                    Køn
-                </td>
+                <td bgcolor="#d8e4f8" height="2">Køn</td>
                 <td bgcolor="#d8e4f8" height="2">
                     <select name="koen">
                         <option value="1" selected>Mand</option>
@@ -103,38 +92,32 @@
                 </td>
             </tr>
             <tr>
+                <td bgcolor="#d8e4f8">Alder:</td>
                 <td bgcolor="#d8e4f8">
-                    Alder:
+                    <input maxlength="3" size="7" value="40" name="alder">År
                 </td>
-                <td bgcolor="#d8e4f8"><input maxlength="3" size="7" value="40" name="alder">År</td>
             </tr>
             <tr>
-
+                <td bgcolor="#d8e4f8">Vægt</td>
                 <td bgcolor="#d8e4f8">
-                    Vægt
+                    <input maxlength="5" size="7" value="70" name="vaegt"> Kg
                 </td>
-                <td bgcolor="#d8e4f8"><input maxlength="5" size="7" value="70" name="vaegt"> Kg</td>
             </tr>
             <tr>
-                <td bgcolor="#34557a">
-                    Maximal iltoptagelse
-                </td>
+                <td bgcolor="#34557a">Maximal iltoptagelse</td>
                 <td bgcolor="#34557a">
                     <input maxlength="5" size="7" name="Iltoptag"> l/min
                 </td>
             </tr>
             <tr>
-                <td bgcolor="#34557a">
-                    Kondital
-                </td>
-
+                <td bgcolor="#34557a">Kondital</td>
                 <td bgcolor="#34557a">
                     <input maxlength="5" size="7" name="Kondital"> ml/kg/min
                 </td>
             </tr>
             <tr bgcolor="#ffffff">
                 <td colspan="2">
-                    <input type="submit" value="Beregn" name="submit">
+                    <input type="submit" value="Beregn">
                 </td>
             </tr>
         </tbody>

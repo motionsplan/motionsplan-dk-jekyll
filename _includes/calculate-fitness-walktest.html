@@ -14,59 +14,60 @@
         return false;
     }
 </script>
-<form name="test" onsubmit="return Calculate(this);">
-    <table border="0" width="451" cellspacing="1" cellpadding="4" align="center" bgcolor="#990000">
+<form onsubmit="return Calculate(this);">
+    <table bgcolor="#990000">
         <tbody>
             <tr bgcolor="#ccffcc">
-                <td colspan="2" bgcolor="#ffffff" height="22"><span style="font-size: small;">Indtast tid og pulssamt personlige data.</span></td>
+                <td colspan="2" bgcolor="#ffffff">Indtast tid og pulssamt personlige data.</td>
             </tr>
             <tr bgcolor="#f3f3eb">
                 <td width="179">
-                    <div align="right"><span style="font-size: small;">Tiden for at gå 1,6 km :</span></div>
+                    Tiden for at gå 1,6 km :
                 </td>
-                <td width="253"><span style="font-size: small;"><input name="Min" size="7" type="text" value="17" /> minutter <input name="Sek" size="7" type="text" value="20" /> sek.</span></td>
+                <td width="253"><input name="Min" size="7" type="text" value="17" /> minutter <input name="Sek" size="7" type="text" value="20" /> sek.</td>
             </tr>
             <tr bgcolor="#f3f3eb">
                 <td width="179">
-                    <div align="right"><span style="font-size: small;">Pulsefter 1,6 km: </span></div>
+                    Pulsefter 1,6 km: 
                 </td>
-                <td width="253"><span style="font-size: small;"><input name="Pul" size="7" type="text" value="110" /> slag/min</span></td>
+                <td width="253"><input name="Pul" size="7" type="text" value="110" /> slag/min</td>
             </tr>
             <tr bgcolor="#f3f3eb">
                 <td width="179">
-                    <div align="right"><span style="font-size: small;">Køn:</span></div>
+                    Køn:
                 </td>
-                <td width="253"><span style="font-size: small;"><select name="Koen" size="1"><option selected="selected" value="1">Mand</option><option value="0">Kvinde</option></select></span></td>
+                <td width="253"><select name="Koen" size="1"><option selected="selected" value="1">Mand</option><option value="0">Kvinde</option></select></td>
             </tr>
             <tr bgcolor="#f3f3eb">
                 <td width="179">
-                    <div align="right"><span style="font-size: small;">Alder:</span></div>
+                    Alder:
                 </td>
-                <td width="253"><span style="font-size: small;"><input name="Alder" size="7" type="text" value="40" /> år</span></td>
+                <td width="253"><input name="Alder" size="7" type="text" value="40" /> år</td>
             </tr>
             <tr bgcolor="#f3f3eb">
                 <td width="179">
-                    <div align="right"><span style="font-size: small;">Vægt</span></div>
+                    Vægt
                 </td>
-                <td width="253"><span style="font-size: small;"><input name="Vaegt" size="7" type="text" value="70" /> kg</span></td>
+                <td width="253"><input name="Vaegt" size="7" type="text" value="70" /> kg</td>
             </tr>
             <tr bgcolor="#f3f3eb">
                 <td width="179"></td>
-                <td width="253"><span style="font-size: small;"><input name="submit" type="submit" value="Beregn" /></span></td>
+                <td width="253"><input name="submit" type="submit" value="Beregn" /></td>
             </tr>
             <tr bgcolor="#990000">
                 <td bgcolor="#648cb4" width="179">
-                    <div align="right"><span style="color: #ffffff; font-size: small;"><b>Iltoptagelse</b></span></div>
+                    Iltoptagelse
                 </td>
-                <td bgcolor="#648cb4" width="253"><span style="font-size: small;"><input maxlength="5" name="Iltoptag" size="7" type="text" /><span style="color: #ffffff;"><b>l/min </b></span></span>
+                <td bgcolor="#648cb4" width="253">
+                    <input maxlength="5" name="Iltoptag" size="7" type="text" /> l/min 
                 </td>
             </tr>
             <tr bgcolor="#990000">
                 <td bgcolor="#648cb4" width="179">
-                    <div align="right"><span style="color: #ffffff; font-size: small;"><b>Kondital</b></span></div>
+                    Kondital
                 </td>
-                <td bgcolor="#648cb4" width="253"><span style="font-size: small;"><input maxlength="5" name="Konditalk" size="7" type="text" /><b><span style="color: #ffffff;">ml/kg/min</span></b>
-                    </span>
+                <td bgcolor="#648cb4" width="253">
+                    <input maxlength="5" name="Konditalk" size="7" type="text" /> ml/kg/min
                 </td>
             </tr>
         </tbody>
