@@ -1,262 +1,128 @@
-<script>
-    function Calculate1(thisform) {
-        bryst_m = thisform.bryst_m.value;
-        mave_m = thisform.mave_m.value;
-        laar_m = thisform.laar_m.value;
-        alder_m = thisform.alder_m.value;
-        vaegt_m = thisform.vaegt_m.value;
-        fedtsum_m = bryst_m * 1 + mave_m * 1 + laar_m * 1;
-        density_m = 1.10938 - 0.0008267 * fedtsum_m + 0.0000016 * Math.pow(fedtsum_m, 2) - 0.0002574 * alder_m;
-        resultat1_m = Math.round((495 / density_m - 450) * Math.pow(10, 1)) / Math.pow(10, 1)
-        resultat2_m = Math.round((vaegt_m - vaegt_m * resultat1_m / 100) * Math.pow(10, 1)) / Math.pow(10, 1)
-        thisform.fedtprocent_m.value = resultat1_m
-        thisform.fedtfri_m.value = resultat2_m
-        return false;
-    }
-</script>
-
-<script>
-    function Calculate2(thisform) {
-        triceps_k = thisform.triceps_k.value;
-        hoftekam_k = thisform.hoftekam_k.value;
-        laar_k = thisform.laar_k.value;
-        alder_k = thisform.alder_k.value;
-        vaegt_k = thisform.vaegt_k.value;
-        fedtsum_k = triceps_k * 1 + hoftekam_k * 1 + laar_k * 1;
-        density_k = 1.0994921 - 0.0009929 * fedtsum_k + 0.0000023 * Math.pow(fedtsum_k, 2) - 0.0001392 * alder_k;
-        resultat1_k = Math.round((495 / density_k - 450) * Math.pow(10, 1)) / Math.pow(10, 1)
-        resultat2_k = Math.round((vaegt_k - vaegt_k * resultat1_k / 100) * Math.pow(10, 1)) / Math.pow(10, 1)
-        thisform.fedtprocent_k.value = resultat1_k
-        thisform.fedtfri_k.value = resultat2_k
-        return false;
-    }
-</script>
 <table>
     <tr>
         <td>
-            <form name="fedt_m" onsubmit="return Calculate1(this);">
-                <table width="400" border="0" cellspacing="1" cellpadding="4" align="right" bgcolor="#003366">
+            <form>
+                <table>
                     <tr>
                         <td colspan="2" bgcolor="#FFFFFF">
-                            <p>
-                                <font size="2">Indtast de målte værdier.</font>
-                            </p>
+                            Indtast de målte værdier.
                         </td>
                     </tr>
                     <tr bgcolor="#FBECD7">
+                        <td>Bryst:</td>
                         <td>
-                            <div align="right">
-                                <font face="Verdana, Arial, Helvetica, sans-serif" size="2">Bryst:</font>
-                            </div>
-                        </td>
-                        <td>
-                            <font size="2">
-                                <input type="text" name="bryst_m" size="7" maxlength="4" value="12"> mm
-                            </font>
+                            <input type="text" name="bryst_m" size="7" maxlength="4" value="12"> mm
                         </td>
                     </tr>
                     <tr bgcolor="#FBECD7">
+                        <td>Mave:</td>
                         <td>
-                            <div align="right">
-                                <font face="Verdana, Arial, Helvetica, sans-serif" size="2">Mave:
-                                </font>
-                            </div>
-                        </td>
-                        <td>
-                            <font size="2">
-                                <input type="text" name="mave_m" size="7" maxlength="4" value="12"> mm
-                            </font>
+                            <input type="text" name="mave_m" size="7" maxlength="4" value="12"> mm
                         </td>
                     </tr>
                     <tr bgcolor="#FBECD7">
+                        <td>Lår:</td>
                         <td>
-                            <div align="right">
-                                <font face="Verdana, Arial, Helvetica, sans-serif" size="2">Lår:</font>
-                            </div>
-                        </td>
-                        <td>
-                            <font size="2">
-                                <input type="text" name="laar_m" size="7" value="12" maxlength="4"> mm
-                            </font>
+                            <input type="text" name="laar_m" size="7" value="12" maxlength="4"> mm
                         </td>
                     </tr>
                     <tr>
+                        <td bgcolor="#D8E4F8">Alder:</td>
                         <td bgcolor="#D8E4F8">
-                            <div align="right">
-                                <font face="Verdana, Arial, Helvetica, sans-serif" size="2">Alder:
-                                </font>
-                            </div>
-                        </td>
-                        <td bgcolor="#D8E4F8">
-                            <font size="2">
-                                <input type="text" name="alder_m" size="7" value="30" maxlength="3"> år
-                            </font>
+                            <input type="text" name="alder_m" size="7" value="30" maxlength="3"> år
                         </td>
                     </tr>
                     <tr>
+                        <td bgcolor="#D8E4F8">Vægt</td>
                         <td bgcolor="#D8E4F8">
-                            <div align="right">
-                                <font size="2">Vægt</font>
-                            </div>
-                        </td>
-                        <td bgcolor="#D8E4F8">
-                            <font size="2">
-                                <input type="text" name="vaegt_m" size="7" value="75" maxlength="5"> Kg
-                            </font>
+                            <input type="text" name="vaegt_m" size="7" value="75" maxlength="5"> Kg
                         </td>
                     </tr>
                     <tr bgcolor="#993300">
+                        <td>Fedtprocent:</td>
                         <td>
-                            <div align="right">
-                                <font size="2" color="#FFFFFF"><b>Fedtprocent:</b></font>
-                            </div>
-                        </td>
-                        <td>
-                            <input type="text" name="fedtprocent_m" size="7" maxlength="5">
-                            <font color="#FFFFFF" size="2"><b> %</b></font>
+                            <input type="text" name="fedtprocent_m" size="7" maxlength="5"> %
                         </td>
                     </tr>
                     <tr>
+                        <td bgcolor="#34557A">Fedtfri kropsvægt:</td>
                         <td bgcolor="#34557A">
-                            <div align="right">
-                                <font size="2" color="#FFFFFF"><b>Fedtfri 
-                      kropsvægt: </b></font>
-                            </div>
-                        </td>
-                        <td bgcolor="#34557A">
-                            <font size="2">
-                                <input type="text" name="fedtfri_m" maxlength="5" size="7">
-                                <b><font color="#FFFFFF">kg</font></b></font>
+                            <input type="text" name="fedtfri_m" maxlength="5" size="7"> kg
                         </td>
                     </tr>
                     <tr bgcolor="#FFFFFF">
                         <td colspan="2">
-                            <div align="right">
-                                <font size="2">
-                                    <input type="submit" value="Beregn" name="submit">
-                                </font>
-                            </div>
+                            <input type="button" value="Beregn" id="calculate_skinfold_pollock_men">
                         </td>
                     </tr>
                 </table>
             </form>
-            <p><b><font size="2">Mænd</font></b><br/>
-                <br/>
-                <img src="https://web.archive.org/web/20110704004552im_/http://www.motion-online.dk/images/fedt/man_jackson1.jpg" width="71" height="227"></p>
+            Mænd
+            <img src="https://web.archive.org/web/20110704004552im_/http://www.motion-online.dk/images/fedt/man_jackson1.jpg" width="71" height="227">
         </td>
     </tr>
     <tr>
-        <td height="327">
-            <font size="2">&nbsp; </font>
-            <form name="fedt_k" onsubmit="return Calculate2(this);">
-                <table width="400" border="0" cellspacing="1" cellpadding="4" align="right" bgcolor="#003366">
+        <td>
+            <form>
+                <table>
                     <tr>
                         <td colspan="2" bgcolor="#FFFFFF">
-                            <p>
-                                <font size="2">Indtast de målte værdier.</font>
-                            </p>
+                            Indtast de målte værdier.
+                        </td>
+                    </tr>
+                    <tr bgcolor="#FBECD7">
+                        <td>Triceps:</td>
+                        <td>
+                            <input type="text" name="triceps_k" size="7" maxlength="4" value="12"> mm
                         </td>
                     </tr>
                     <tr bgcolor="#FBECD7">
                         <td>
-                            <div align="right">
-                                <font face="Verdana, Arial, Helvetica, sans-serif" size="2">Triceps:</font>
-                            </div>
+                            Hoftekam:
                         </td>
                         <td>
-                            <font size="2">
-                                <input type="text" name="triceps_k" size="7" maxlength="4" value="12"> mm
-                            </font>
+                            <input type="text" name="hoftekam_k" size="7" maxlength="4" value="12"> mm
                         </td>
                     </tr>
                     <tr bgcolor="#FBECD7">
+                        <td>Lår:</td>
                         <td>
-                            <div align="right">
-                                <font face="Verdana, Arial, Helvetica, sans-serif" size="2">Hoftekam:
-                                </font>
-                            </div>
-                        </td>
-                        <td>
-                            <font size="2">
-                                <input type="text" name="hoftekam_k" size="7" maxlength="4" value="12"> mm
-                            </font>
-                        </td>
-                    </tr>
-                    <tr bgcolor="#FBECD7">
-                        <td>
-                            <div align="right">
-                                <font face="Verdana, Arial, Helvetica, sans-serif" size="2">Lår:</font>
-                            </div>
-                        </td>
-                        <td>
-                            <font size="2">
-                                <input type="text" name="laar_k" size="7" value="12" maxlength="4"> mm
-                            </font>
+                            <input type="text" name="laar_k" size="7" value="12" maxlength="4"> mm
                         </td>
                     </tr>
                     <tr bgcolor="#FAECFB">
+                        <td>Alder:</td>
                         <td>
-                            <div align="right">
-                                <font face="Verdana, Arial, Helvetica, sans-serif" size="2">Alder:
-                                </font>
-                            </div>
-                        </td>
-                        <td>
-                            <font size="2">
-                                <input type="text" name="alder_k" size="7" value="30" maxlength="3"> år
-                            </font>
+                            <input type="text" name="alder_k" size="7" value="30" maxlength="3"> år
                         </td>
                     </tr>
                     <tr bgcolor="#FAECFB">
+                        <td>Vægt</td>
                         <td>
-                            <div align="right">
-                                <font size="2">Vægt</font>
-                            </div>
-                        </td>
-                        <td>
-                            <font size="2">
-                                <input type="text" name="vaegt_k" size="7" value="65" maxlength="5"> Kg
-                            </font>
+                            <input type="text" name="vaegt_k" size="7" value="65" maxlength="5"> Kg
                         </td>
                     </tr>
                     <tr bgcolor="#993300">
+                        <td>Fedtprocent:</td>
                         <td>
-                            <div align="right">
-                                <font size="2" color="#FFFFFF"><b>Fedtprocent:</b></font>
-                            </div>
-                        </td>
-                        <td>
-                            <input type="text" name="fedtprocent_k" size="7" maxlength="5">
-                            <font color="#FFFFFF" size="2"><b> %</b></font>
+                            <input type="text" name="fedtprocent_k" size="7" maxlength="5"> %
                         </td>
                     </tr>
                     <tr>
+                        <td bgcolor="#34557A">Fedtfri kropsvægt:</td>
                         <td bgcolor="#34557A">
-                            <div align="right">
-                                <font size="2" color="#FFFFFF"><b>Fedtfri 
-                      kropsvægt: </b></font>
-                            </div>
-                        </td>
-                        <td bgcolor="#34557A">
-                            <font size="2">
-                                <input type="text" name="fedtfri_k" maxlength="5" size="7">
-                                <b><font color="#FFFFFF">kg</font></b></font>
+                            <input type="text" name="fedtfri_k" maxlength="5" size="7"> kg
                         </td>
                     </tr>
                     <tr bgcolor="#FFFFFF">
                         <td colspan="2">
-                            <div align="right">
-                                <font size="2">
-                                    <input type="submit" value="Beregn" name="submit2">
-                                </font>
-                            </div>
+                            <input type="button" value="Beregn" id="calculate_skinfold_pollock_women">
                         </td>
                     </tr>
                 </table>
             </form>
-            <p><b><font size="2">Kvinder</font></b> </p>
-            <p><img src="https://web.archive.org/web/20110704004552im_/http://www.motion-online.dk/images/fedt/woman_jackson1.jpg" width="57" height="209"></p>
-            <p> </p>
+            Kvinder
+            <img src="https://web.archive.org/web/20110704004552im_/http://www.motion-online.dk/images/fedt/woman_jackson1.jpg" width="57" height="209">
         </td>
     </tr>
 </table>

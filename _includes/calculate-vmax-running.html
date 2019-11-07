@@ -1,45 +1,29 @@
-<script>
-    function Calculate2(thisform) {
-        Vmax2 = thisform.Vmax2.value;
-        Min = thisform.Min.value;
-        Sek = thisform.Sek.value;
-        Tid = Min * 60 + Sek * 1
-
-        thisform.Opvarm1.value = Math.round((Vmax2 * 0.6 / 5) * Math.pow(10, 1)) / Math.pow(10, 1) * 5
-        thisform.Opvarm2.value = Math.round((Vmax2 * 0.75 / 5) * Math.pow(10, 1)) / Math.pow(10, 1) * 5
-        thisform.Vmax3.value = Math.round((Vmax2 * 1) * Math.pow(10, 1)) / Math.pow(10, 1)
-        thisform.Vmaxtid_m.value = Math.floor((Tid * 0.6) / 60)
-        thisform.Vmaxtid_s.value = Math.round(((Tid * 0.6) - (Math.floor((Tid * 0.6) / 60) * 60)) / 5 * Math.pow(10, 0)) / Math.pow(10, 0) * 5
-        thisform.Vpause.value = Math.round((Vmax2 * 0.5) * Math.pow(10, 1)) / Math.pow(10, 1)
-        thisform.Pausetid_m.value = Math.floor((Tid * 0.3 / 60))
-        thisform.Pausetid_s.value = Math.round(((Tid * 0.3) - (Math.floor((Tid * 0.3) / 60) * 60)) / 5 * Math.pow(10, 0)) / Math.pow(10, 0) * 5
-        return false;
-    }
-</script>
-<form onsubmit="return Calculate2(this);">
+<form>
     <table bgcolor="#990000">
         <tbody>
             <tr bgcolor="#CCFFCC">
                 <td colspan="2" bgcolor="#FFFFFF">Beregning af intervaller &#8211; indtast Vmax og Tmax</td>
             </tr>
             <tr bgcolor="#F3F3EB">
-                <td width="179"><sub>Vmax</sub>:</td>
-                <td width="253"><input name="Vmax2" size="7" type="text" value="19.0" /> km/t (fra ovenstående test)</td>
+                <td>V<sub>max</sub>:</td>
+                <td><input name="Vmax2" size="7" type="text" value="19.0" /> km/t (fra ovenstående test)</td>
             </tr>
             <tr bgcolor="#F3F3EB">
-                <td width="179">T<sub>max</sub>:</td>
-                <td width="253">
+                <td>T<sub>max</sub>:</td>
+                <td>
                     <input name="Min" size="5" type="text" value="4" /> minutter
                     <input name="Sek" size="5" type="text" value="20" /> sek.
                 </td>
             </tr>
             <tr bgcolor="#F3F3EB">
-                <td width="179"><input type="submit" value="Beregn" name="submit2"></td>
-                <td width="253"></td>
+                <td>
+                    <input type="button" value="Beregn" id="calculate_vmax_running_intervals">
+                </td>
+                <td></td>
             </tr>
         </tbody>
     </table>
-    <table border="0" width="451" cellspacing="1" cellpadding="4" align="center" bgcolor="#990000">
+    <table>
         <tbody>
             <tr bgcolor="#CC6600">
                 <td colspan="2">Anbefalet opvarmning</td>
@@ -47,33 +31,33 @@
             <tr bgcolor="#CC6600">
                 <td>8 minutter på</td>
                 <td>
-                    <input maxlength="5" name="Opvarm1" size="7" type="text" /> til
-                    <input maxlength="5" name="Opvarm2" size="7" type="text" /> km/t
+                    <input maxlength="5" name="Opvarm1" size="7" type="text" disabled="disabled" /> til
+                    <input maxlength="5" name="Opvarm2" size="7" type="text" disabled="disabled" /> km/t
                 </td>
             </tr>
             <tr bgcolor="#CC6600">
                 <td colspan="2">Intervaller</td>
             </tr>
             <tr bgcolor="#CC6600">
-                <td width="179">Interval-hastighed</td>
-                <td width="253"><input maxlength="5" name="Vmax3" size="7" type="text" /> km/t</td>
+                <td>Interval-hastighed</td>
+                <td><input maxlength="5" name="Vmax3" size="7" type="text" disabled="disabled" /> km/t</td>
             </tr>
             <tr bgcolor="#CC6600">
-                <td width="179">Interval-tid</td>
-                <td width="253">
-                    <input maxlength="5" name="Vmaxtid_m" size="5" type="text" /> min
-                    <input maxlength="5" name="Vmaxtid_s" size="5" type="text" /> sek.
+                <td>Interval-tid</td>
+                <td>
+                    <input maxlength="5" name="Vmaxtid_m" size="5" type="text" disabled="disabled" /> min
+                    <input maxlength="5" name="Vmaxtid_s" size="5" type="text" disabled="disabled" /> sek.
                 </td>
             </tr>
             <tr bgcolor="#CC6600">
-                <td width="179">Pause-hastighed</td>
-                <td width="253"><input maxlength="5" name="Vpause" size="7" type="text" /> km/t</td>
+                <td>Pause-hastighed</td>
+                <td><input maxlength="5" name="Vpause" size="7" type="text" disabled="disabled" /> km/t</td>
             </tr>
             <tr bgcolor="#CC6600">
-                <td width="179">Pause-tid</td>
-                <td width="253">
-                    <input maxlength="5" name="Pausetid_m" size="5" type="text" /> min
-                    <input maxlength="5" name="Pausetid_s" size="5" type="text" /> sek.
+                <td>Pause-tid</td>
+                <td>
+                    <input maxlength="5" name="Pausetid_m" size="5" type="text" disabled="disabled" /> min
+                    <input maxlength="5" name="Pausetid_s" size="5" type="text" disabled="disabled" /> sek.
                 </td>
             </tr>
             <tr bgcolor="#CC6600">

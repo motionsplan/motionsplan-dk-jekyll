@@ -8,6 +8,7 @@ const fatm = require('./fat-pct-measurements');
 const rm = require('./1rm');
 const etpunkt = require('./etpunkttest');
 const topunkt = require('./topunkttest');
+const bmr = require('./bmr');
 
 $(document).ready(function() {
 
@@ -133,7 +134,7 @@ $(document).ready(function() {
         var a = Number($("#age").val());
         var h = Number($("#height").val());
         var w = Number($("#weight").val());
-        var g = $("#gender").val();
+        var g = $("#gender:checked").val();
 
         var f = fat.CalculateFatPercent(h, w, a, g);
 
@@ -141,7 +142,68 @@ $(document).ready(function() {
         $("#fat_mass").val(f.getFatMass());
         $("#fat_percent").val(f.getFatPercent());
     });
+    // Calculate Durning
+    $("#calculate_skinfold_durnin").click(function() {
+        console.log("Calculate Skinfold Durnin");
 
+        var density;
+
+        var biceps = Number($("[name='biceps']").val());
+        var triceps = Number($("[name='triceps']").val());
+        var hoftekam = Number($("[name='hoftekam']").val());
+        var skulder = Number($("[name='skulder']").val());
+        var vaegt = Number($("[name='vaegt']").val());
+        var koen = Number($("[name='koen']:checked").val());
+        var fedtsum = biceps * 1 + triceps * 1 + hoftekam * 1 + skulder * 1;
+        if (koen == 1) {
+            density = -0.0274 * Math.log(fedtsum) + 1.1631;
+        }
+        else {
+            density = -0.0311 * Math.log(fedtsum) + 1.1599;
+        }
+        var resultat1 = Math.round((495 / density - 450) * Math.pow(10, 1)) / Math.pow(10, 1)
+        var resultat2 = Math.round((vaegt - vaegt * resultat1 / 100) * Math.pow(10, 1)) / Math.pow(10, 1)
+
+        $("[name='fedtprocentDurnin']").val(resultat1);
+        $("[name='fedtfriDurnin']").val(resultat2);
+    });
+    // Calculate Durning
+    $("#calculate_skinfold_pollock_men").click(function() {
+        console.log("Calculate Skinfold Pollock Men");
+
+        var bryst_m = Number($("[name='bryst_m']").val());
+        var mave_m = Number($("[name='mave_m']").val());
+        var laar_m = Number($("[name='laar_m']").val());
+        var alder_m = Number($("[name='alder_m']").val());
+        var vaegt_m = Number($("[name='vaegt_m']").val());
+
+        var fedtsum_m = bryst_m * 1 + mave_m * 1 + laar_m * 1;
+        var density_m = 1.10938 - 0.0008267 * fedtsum_m + 0.0000016 * Math.pow(fedtsum_m, 2) - 0.0002574 * alder_m;
+        
+        var resultat1_m = Math.round((495 / density_m - 450) * Math.pow(10, 1)) / Math.pow(10, 1)
+        var resultat2_m = Math.round((vaegt_m - vaegt_m * resultat1_m / 100) * Math.pow(10, 1)) / Math.pow(10, 1)
+
+        $("[name='fedtprocent_m']").val(resultat1_m);
+        $("[name='fedtfri_m']").val(resultat2_m);
+    });
+    // Calculate Durning
+    $("#calculate_skinfold_pollock_women").click(function() {
+        console.log("Calculate Skinfold Pollock Women");
+
+        var triceps_k = Number($("[name='triceps_k']").val());
+        var hoftekam_k = Number($("[name='hoftekam_k']").val());
+        var laar_k = Number($("[name='laar_k']").val());
+        var alder_k = Number($("[name='alder_k']").val());
+        var vaegt_k = Number($("[name='vaegt_k']").val());
+
+        var fedtsum_k = triceps_k * 1 + hoftekam_k * 1 + laar_k * 1;
+        var density_k = 1.0994921 - 0.0009929 * fedtsum_k + 0.0000023 * Math.pow(fedtsum_k, 2) - 0.0001392 * alder_k;
+        var resultat1_k = Math.round((495 / density_k - 450) * Math.pow(10, 1)) / Math.pow(10, 1)
+        var resultat2_k = Math.round((vaegt_k - vaegt_k * resultat1_k / 100) * Math.pow(10, 1)) / Math.pow(10, 1)
+
+        $("[name='fedtprocent_k']").val(resultat1_k);
+        $("[name='fedtfri_k']").val(resultat2_k);
+    });
     // Calculate Fat Percent Measurements
     $("#calc_mu26").click(function() {
         console.log("Calculate Fat Percent on Measurements");
@@ -274,7 +336,7 @@ $(document).ready(function() {
         $("[name='Iltoptag']").val(resultat);
         $("[name='Konditalk']").val(resultat2);
     });
-    // Calculate Walktest 1.6 km
+    // Calculate Index 100
     $("#calculate_index100").click(function() {
         console.log("Calculate Walktest 1,6 km");
 
@@ -284,5 +346,68 @@ $(document).ready(function() {
         var resultat = Math.round(Loeft * 986.63 / (1270.4 - 172970 * ((Math.pow(Vaegt, -1.3925)))) * Math.pow(10, 0)) / Math.pow(10, 0)
 
         $("[name='Krop100']").val(resultat);
+    });
+    // Calculate Walktest 1.6 km
+    $("#calculate_bmr").click(function() {
+        console.log("Calculate BMR");
+
+        var koen = Number($("[name='koen']").val());
+        var alder = Number($("[name='alder']").val());
+        var vaegt = Number($("[name='vaegt']").val());
+        var sport = Number($("[name='sport']").val());
+        var pal = Number($("[name='pal']:checked").val());
+
+        var b = bmr.EnergyExpenditure(koen, alder, vaegt, pal, sport);
+
+        $("[name='BMR2']").val(b.getBasicMetabolicRate());
+        $("[name='TEE2']").val(b.getTotalEnergyExpenditure());
+    });
+    // Calculate VMax
+    $("#calculate_vmax_bike_vmax").click(function() {
+        console.log("Calculate Vmax from VO2");
+
+        var Maxvo2 = Number($("[name='Maxvo2']").val());
+
+        var resultat = Math.round((Maxvo2 * 21 / 60 * 0.23 / 5) * Math.pow(10, 0)) / Math.pow(10, 0) * 5
+
+        $("[name='Vmax']").val(resultat);
+    });
+     // Calculate VMax intervals biking
+    $("#calculate_vmax_bike_intervals").click(function() {
+        console.log("Calculate Vmax for Biking");
+
+        var Vmax2 = Number($("[name='Vmax2']").val());
+        var Min = Number($("[name='Min']").val());
+        var Sek = Number($("[name='Sek']").val());
+        
+        var Tid = Min * 60 + Sek * 1
+
+        $("[name='Opvarm1']").val(Math.round((Vmax2 * 0.6 / 5) * Math.pow(10, 0)) / Math.pow(10, 0) * 5);
+        $("[name='Opvarm2']").val(Math.round((Vmax2 * 0.75 / 5) * Math.pow(10, 0)) / Math.pow(10, 0) * 5);
+        $("[name='Vmax3']").val(Math.round((Vmax2 * 1 / 5) * Math.pow(10, 0)) / Math.pow(10, 0) * 5);
+        $("[name='Vmaxtid_m']").val(Math.floor((Tid * 0.6) / 60));
+        $("[name='Vmaxtid_s']").val(Math.round(((Tid * 0.6) - (Math.floor((Tid * 0.6) / 60) * 60)) / 5 * Math.pow(10, 0)) / Math.pow(10, 0) * 5);
+        $("[name='Vpause']").val(Math.round((Vmax2 * 0.5 / 5) * Math.pow(10, 0)) / Math.pow(10, 0) * 5);
+        $("[name='Pausetid_m']").val(Math.floor((Tid * 0.3 / 60)));
+        $("[name='Pausetid_s']").val(Math.round(((Tid * 0.3) - (Math.floor((Tid * 0.3) / 60) * 60)) / 5 * Math.pow(10, 0)) / Math.pow(10, 0) * 5);
+    });
+     // Calculate VMax intervals biking
+    $("#calculate_vmax_running_intervals").click(function() {
+        console.log("Calculate Vmax for Running");
+
+        var Vmax2 = Number($("[name='Vmax2']").val());
+        var Min = Number($("[name='Min']").val());
+        var Sek = Number($("[name='Sek']").val());
+        
+        var Tid = Min * 60 + Sek * 1
+
+        $("[name='Opvarm1']").val(Math.round((Vmax2 * 0.6 / 5) * Math.pow(10, 1)) / Math.pow(10, 1) * 5);
+        $("[name='Opvarm2']").val(Math.round((Vmax2 * 0.75 / 5) * Math.pow(10, 1)) / Math.pow(10, 1) * 5);
+        $("[name='Vmax3']").val(Math.round((Vmax2 * 1) * Math.pow(10, 1)) / Math.pow(10, 1));
+        $("[name='Vmaxtid_m']").val(Math.floor((Tid * 0.6) / 60));
+        $("[name='Vmaxtid_s']").val(Math.round(((Tid * 0.6) - (Math.floor((Tid * 0.6) / 60) * 60)) / 5 * Math.pow(10, 0)) / Math.pow(10, 0) * 5);
+        $("[name='Vpause']").val(Math.round((Vmax2 * 0.5) * Math.pow(10, 1)) / Math.pow(10, 1));
+        $("[name='Pausetid_m']").val(Math.floor((Tid * 0.3 / 60)));
+        $("[name='Pausetid_s']").val(Math.round(((Tid * 0.3) - (Math.floor((Tid * 0.3) / 60) * 60)) / 5 * Math.pow(10, 0)) / Math.pow(10, 0) * 5);
     });
 });

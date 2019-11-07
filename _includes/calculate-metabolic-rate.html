@@ -1,59 +1,4 @@
-<script>
-    // JavaScript Document
-    function Calculate(thisform) {
-        koen = thisform.koen.value * 1;
-        alder = thisform.alder.value;
-        vaegt = thisform.vaegt.value;
-        sport = thisform.sport.value;
-        if ((koen == "1") && (alder > 10) && (alder < 19)) {
-            bmr = 74 * vaegt + 2750;
-        }
-        if ((koen == "1") && (alder > 18) && (alder < 31)) {
-            bmr = 64 * vaegt + 2840;
-        }
-        if ((koen == "1") && (alder > 30) && (alder < 61)) {
-            bmr = 48.5 * vaegt + 3670;
-        }
-        if ((koen == "1") && (alder > 60) && (alder < 76)) {
-            bmr = 49.9 * vaegt + 2930;
-        }
-        if ((koen == "1") && (alder > 75)) {
-            bmr = 35 * vaegt + 3430;
-        }
-        if ((koen == "0") && (alder > 10) && (alder < 19)) {
-            bmr = 56 * vaegt + 2900;
-        }
-        if ((koen == "0") && (alder > 18) && (alder < 31)) {
-            bmr = 61.5 * vaegt + 2080;
-        }
-        if ((koen == "0") && (alder > 30) && (alder < 61)) {
-            bmr = 36.4 * vaegt + 3470;
-        }
-        if ((koen == "0") && (alder > 60) && (alder < 76)) {
-            bmr = 38.6 * vaegt + 2880;
-        }
-        if ((koen == "0") && (alder > 75)) {
-            bmr = 41 * vaegt + 2610;
-        }
-        for (var i = 0; i < document.test.pal.length; i++) {
-            if (document.test.pal[i].checked) {
-                var pal_val = document.test.pal[i].value;
-            }
-        }
-        pal2 = pal_val * 1
-        if (thisform.sport.checked) {
-            pal2 = pal2 + 0.3;
-        }
-        tee = pal2 * bmr
-        thisform.BMR2.value = Math.round(bmr * Math.pow(10, 0)) / Math.pow(10, 0)
-        thisform.TEE2.value = Math.round(tee * Math.pow(10, 0)) / Math.pow(10, 0)
-        thisform.BMR3.value = Math.round(bmr / 4.18 * Math.pow(10, 0)) / Math.pow(10, 0)
-        thisform.TEE3.value = Math.round(tee / 4.18 * Math.pow(10, 0)) / Math.pow(10, 0)
-        return false;
-    }
-</script>
-
-<form onsubmit="return Calculate(this);">
+<form>
     <table bgcolor="#003366">
         <tbody>
             <tr>
@@ -63,7 +8,7 @@
                 <td bgcolor="#d8e4f8" colspan="2">Køn</td>
                 <td width="20%" bgcolor="#d8e4f8">
                     <select name="koen">
-                        <option value="1" selected>Mand</option>
+                        <option value="1">Mand</option>
                         <option value="0">Kvinde</option>
                     </select>
                 </td>
@@ -85,9 +30,7 @@
                 <td width="20%"></td>
             </tr>
             <tr>
-                <td bgcolor="#d3e1f8" colspan="2">
-                    Rullestolsbunden eller sengeliggende.
-                </td>
+                <td bgcolor="#d3e1f8" colspan="2">Rullestolsbunden eller sengeliggende.</td>
                 <td width="20%" bgcolor="#d3e1f8">
                     <input type="radio" value="1.2" name="pal">
                 </td>
@@ -123,28 +66,22 @@
                 </td>
             </tr>
             <tr>
-                <td bgcolor="#34557a">
-                    Basalstofskifte (BMR)
-                </td>
+                <td bgcolor="#34557a">Basalstofskifte (BMR)</td>
+                <td width="20%" bgcolor="#34557a"></td>
                 <td width="20%" bgcolor="#34557a">
                     <input maxlength="5" size="7" name="BMR2"> Kj
-                </td>
-                <td width="20%" bgcolor="#34557a">
-                    <input maxlength="5" size="7" name="BMR3"> Kcal
                 </td>
             </tr>
             <tr>
                 <td bgcolor="#34557a">Total energiomsætning</td>
+                <td width="20%" bgcolor="#34557a"></td>
                 <td width="20%" bgcolor="#34557a">
                     <input maxlength="5" size="7" name="TEE2"> Kj
-                </td>
-                <td width="20%" bgcolor="#34557a">
-                    <input maxlength="5" size="7" name="TEE3"> Kcal
                 </td>
             </tr>
             <tr bgcolor="#ffffff">
                 <td colspan="3">
-                    <input type="submit" value="Beregn" name="submit">
+                    <input type="button" value="Beregn" id="calculate_bmr">
                 </td>
             </tr>
         </tbody>
