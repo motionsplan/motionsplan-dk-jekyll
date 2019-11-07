@@ -134,7 +134,7 @@ $(document).ready(function() {
         var a = Number($("#age").val());
         var h = Number($("#height").val());
         var w = Number($("#weight").val());
-        var g = $("#gender:checked").val();
+        var g = $("#sex:checked").val();
 
         var f = fat.CalculateFatPercent(h, w, a, g);
 
@@ -153,7 +153,8 @@ $(document).ready(function() {
         var hoftekam = Number($("[name='hoftekam']").val());
         var skulder = Number($("[name='skulder']").val());
         var vaegt = Number($("[name='vaegt']").val());
-        var koen = Number($("[name='koen']:checked").val());
+        var koen = Number($("[name='koen']").val());
+
         var fedtsum = biceps * 1 + triceps * 1 + hoftekam * 1 + skulder * 1;
         if (koen == 1) {
             density = -0.0274 * Math.log(fedtsum) + 1.1631;
