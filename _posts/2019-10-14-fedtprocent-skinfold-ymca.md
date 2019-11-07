@@ -1,7 +1,7 @@
 ---
 title: "Mål fedtprocent med fedttang - YMCA metoden"
 permalink: /skinfold-ymca/
-excerpt: "Du kan måle din fedtprocent og kropskomposition med bioimpedans - og de nyere maskiner er relativt reliabile og valide"
+excerpt: "YMCA-metoden er baseret på Jackson & Pollock formlerne, men specielt tilpasset YMCA’s behov, således at mænd og kvinder måles på de samme punkter og lår-målingen nemt kan udelades, hvis den volder problemer. Vi anbefaler denne beregner til de fleste fitness- og sundhedsformål."
 language: da
 header:
   overlay_image: https://www.ubershape.com.au/wp-content/uploads/2017/05/35A2528-1024x683.jpg
@@ -31,11 +31,10 @@ YMCA hudfoldstesten er en af de mest anvendte metoder til måling af fedtprocent
 ## Instruktion
 
 Mål hudfoldstykkelsen med en fedttang 4 steder: på maven ved navlen, midt på triceps, lige over hoftebenskammen og foran på låret. Angiv værdierne i beregneren ved at dreje på knapperne.
+
 Hvis lår-målingen giver problemer - enten pga. af problemer med at få en defineret hudfold eller pga. af tøj - så kan man vælge at udelade denne måling.
 
-Skindfold measurement sites
-
-{% include figure image_path="https://web.archive.org/web/20150403143250im_/http://www.motion-online.dk/images/2012/ymca_skinfold_250.jpg" %}
+{% include figure image_path="https://web.archive.org/web/20150403143250im_/http://www.motion-online.dk/images/2012/ymca_skinfold_250.jpg" caption="Skinfold measurement sites" %}
 
 {% include calculate-fatpercent-skinfold-ymca.html %}
 

@@ -26,8 +26,6 @@ feature_row:
     btn_class: "btn--success"
 ---
 
-Mål din fedtprocent med en fedttang - Jackson & Pollocks 3-punkts måling
-
 Her finder instruktion og beregner til at måle din fedtprocent med Jackson og Pollacks formel, hvor der skal måles 3 steder på kroppen.
 
 Denne metode anbefales som standard af ACSM (American College of Sports Medicine). Denne formel er bedst egnet til folk med en relativt lav fedtprocent. I nogle tilfælde vil denne formel have en tendens til at undervurdere fedtprocenten.

@@ -26,8 +26,6 @@ feature_row:
     btn_class: "btn--success"
 ---
 
-## Durnin og Womersley 4-punkts måling
-
 Durnin & Womersley har lavet en formel, som anses for relativt præcis for mennesker mellem 17 og 68 år gammel. Der der en tendens til, at formlen giver for høje fedtprocenter hos meget magre personer (2-3 %).
 
 Durnin og Womersley er en 4-punksmåling og den er ens for kvinder og mænd. Der måles på biceps, triceps, skulderbladets spids og hoftekammen. Du kan se nærmere instruktioner i videoen nedenunder.
