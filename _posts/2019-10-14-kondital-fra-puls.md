@@ -7,11 +7,11 @@ header:
   overlay_image: https://cdn1.considerable.com/wp-content/uploads/2019/04/24170055/heart-beat-line-end-of-life-picture.jpg
   teaser: https://cdn1.considerable.com/wp-content/uploads/2019/04/24170055/heart-beat-line-end-of-life-picture.jpg
 category:
+  - Kondition
   - Beregnere
   - Test
 tags:
-  - kondition
-  - beregnere
+  - konditionstest
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 ---

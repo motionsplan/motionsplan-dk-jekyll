@@ -349,6 +349,20 @@ $(document).ready(function() {
         $("[name='Kondital']").val(resultat);
         $("[name='Iltoptag']").val(resultat2);
     });
+    // Calculate Walktest 1.6 km
+    $("#calc_wattmax_children").click(function() {
+        console.log("Calculate Wattmax Children");
+
+        var Wmax = Number($("[name='WMax']").val());
+        var Sek = Number($("[name='Sek']").val());
+        var Vaegt = Number($("[name='Vaegt']").val());
+
+        var resultat = Math.round((13.16 * (Wmax - 25 + (25 * Sek / 180)) + 5 * Vaegt) / Vaegt * Math.pow(10, 1)) / Math.pow(10, 1)
+        var resultat2 = Math.round((13.16 * (Wmax - 25 + (25 * Sek / 180)) + 5 * Vaegt) / 1000 * Math.pow(10, 2)) / Math.pow(10, 2)
+
+        $("[name='Kondital']").val(resultat);
+        $("[name='Iltoptag']").val(resultat2);
+    });
     // Calculate Walktest 6 min
     $("#calculate_6min").click(function() {
         console.log("Calculate Walktest 6 min");
@@ -396,7 +410,7 @@ $(document).ready(function() {
         var resultat = Math.round(Loeft * 986.63 / (1270.4 - 172970 * ((Math.pow(Vaegt, -1.3925)))) * Math.pow(10, 0)) / Math.pow(10, 0)
 
         $("[name='Krop100']").val(resultat);
-    });    
+    });
 });
 
 },{"./1rm":1,"./cooper":3,"./etpunkttest":4,"./fat-pct":6,"./fat-pct-measurements":5,"./fitness-hr":7,"./max-hr":8,"./topunkttest":9}],3:[function(require,module,exports){

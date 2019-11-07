@@ -7,9 +7,9 @@ header:
   overlay_image: https://i.ytimg.com/vi/zUyuUoU7lAQ/maxresdefault.jpg
   teaser: https://i.ytimg.com/vi/zUyuUoU7lAQ/maxresdefault.jpg
 category:
-  - Beregnere
+  - Kondition
 tags:
-  - stofskifte
+  - konditionstest
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 ---
