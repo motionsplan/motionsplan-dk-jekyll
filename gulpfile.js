@@ -24,7 +24,7 @@ paths.imagePattern =
 paths.imageFilesGlob = paths.imageFiles + paths.imagePattern;
   
 // Edit these paths
-paths.imageFilesActivitiesOriginals = paths.imageFiles + "/exercises/originals";
+paths.imageFilesActivitiesOriginals = paths.sourceDir + "/src/images/exercises/originals";
 paths.imageFilesActivitiesDestination = paths.imageFiles + "/exercises/";
 
 // 'gulp images:optimize' -- optimize images

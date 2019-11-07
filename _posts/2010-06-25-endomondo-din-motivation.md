@@ -22,4 +22,4 @@ Jeg bruger sitet på to forskellige måder:
 - Når jeg løber med min Garmin Forerunner 305 optager den, hvor i landet jeg har været og hvor hurtigt jeg har flyttet mig hen til et andet sted. Disse data kan jeg let uploade til endomondo.com ved at putte et stik i computeren og lave lidt computer voodoo.
 - Hvis jeg cykler, bruger jeg ofte min HTC Desire telefon, hvor man kan få en endomondo.com-program til. Der er indbygget GPS i telefonen, så det er bare at klikke, når jeg starter med at cykle og når jeg er blevet træt af at træde igen. Derefter klikker jeg på upload, og min træning er på endomondo.com.
 
-Nu skal jeg så i gang med at udfordre alle mine venner. [Motionsplan.dk udfordrer dig til først at bevæge dig 534 kilometer](http://www.endomondo.com/challenge/vrUCXtNNo6k). Har du andre gode udfordringer?
+Nu skal jeg så i gang med at udfordre alle mine venner.

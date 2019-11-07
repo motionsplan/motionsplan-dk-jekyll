@@ -13,9 +13,9 @@ category:
 last_modified_at: 2019-03-03T20:38:52Z
 ---
 
-Hvis man gerne vil træne meget, er det meget betydningsfuldt hvor hurtigt man kan blive klar til næste træningspas. I Form beskriver, hvor længe man bruger på at blive klar i [Friske muskler i en fart](http://iform.dk/traening/friske-muskler-i-en-fart). Intensiteten af ens træning har rigtig stor betydning for, hvornår kroppen kan være klar igen, som man kan se i nedenstående skema fra I Form (som også savner videnskabeligt belæg).
+Hvis man gerne vil træne meget, er det meget betydningsfuldt hvor hurtigt man kan blive klar til næste træningspas. I Form beskriver, hvor længe man bruger på at blive klar i [Friske muskler i en fart](http://iform.dk/traening/friske-muskler-i-en-fart). Intensiteten af ens træning har rigtig stor betydning for, hvornår kroppen kan være klar igen, som man kan se i nedenstående skema fra IForm (som også savner videnskabeligt belæg).
 
-![](http://iform.dk/system/files/imagecache/original/tekst-boksnydansknyyyyyyyy.jpg)
+![Skema fra IForm](/assets/images/restitution.png)
 
 Men det er ikke kun intensiteten, der har betydning for restitutionen. Du kan selv gøre meget for at gøre restitutionen mere effektiv. I Form beskriver [10 veje til aktiv restitution](http://iform.dk/traening/10-veje-til-aktiv-restitution), og de har fat i nogle væsentlige pointer, men vi har brug for hjælp til at finde flere studier.
 

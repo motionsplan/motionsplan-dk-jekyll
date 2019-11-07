@@ -45,7 +45,7 @@ Du kan [sammensætte et træningsprogram til styrketræning](/artikel/opbygning-
 Mere inspiration om kettlebells
 -------------------------------
 
-Denne side viser en [masse forskellige kettlebell-øvelser](http://www.theothersideofstrength.com/db_KBells.aspx).
+Denne side viser en [masse forskellige kettlebell-øvelser](https://kettlebellsworkouts.com/kettlebell-exercises/).
 
 Hvis du vil læse mere om kettlebells, så har [Liam O'Brien skrevet Kettlebell Training. The basics v2 og udgivet den som gratis e-bog](http://www.sendspace.com/file/gwz682).
 

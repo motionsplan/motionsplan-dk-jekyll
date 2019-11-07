@@ -26,8 +26,8 @@ Ideen er at musklens ekslosive kapacitet er øget efter, at den har udøvet maks
 Det er nogle farligt fine ord. Sagt enklere, så fjerner nervesystemet bremserne og smider flere tilgængelige motor units ind i opgaven, end den ellers ville have gjort.
 
 > Forestil dig, hvad der ville ske, hvis du skal løfte en halvfuld vandkande, som du troede var fuld.
-> 
-> \- Yuri Verkhoshansky, russisk videnskabsmand
+ 
+--- <cite>Yuri Verkhoshansky, russisk videnskabsmand</cite>
 
 Ideen er, at du med kontrasttræning lærer kroppen at rekruttere flere muskelfibre, når du laver dine eksplosive bevægelser.
 
@@ -50,5 +50,7 @@ Har du erfaring med kontrasttræning, forslag til øvelser eller andre input, s�
 ### Referencer
 
 - [Contrast training for strength, size and power](http://www.tmuscle.com/free_online_article/sports_body_training_performance/contrast_training_for_strength_size_and_power); se flere referencer i artiklen
-- [The Powerful effects of CONTRAST TRAINING](https://www.defrancostraining.com/ask-joe-test/41-strength-training/274-the-powerful-effects-of-contrast-training.html)
+- [The Powerful effects of CONTRAST TRAINING](https://www.defrancostraining.com/the-powerful-effects-of-contrast-training/)
 - [Post-Activation Potentation: Theory and application](https://bretcontreras.wordpress.com/2010/04/05/post-activation-potentiation-theory-and-application/)
+- [Get Stronger and Faster with the French Contrast Method](https://www.jtsstrength.com/get-stronger-faster-french-contrast-method/)
+- 

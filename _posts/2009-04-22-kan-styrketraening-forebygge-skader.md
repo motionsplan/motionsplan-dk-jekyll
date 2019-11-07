@@ -21,18 +21,15 @@ Træningsmængden er i mange sportsgrene steget markant i de sidste årtier. Det
 
 Vi vil i det følgende kigge på hvilke former for træning, der har en skadesforebyggende effekt.
 
-Balancetræning
---------------
+## Balancetræning
 
 Balance er et sammenspil mellem forskellige receptorer (mekano- og proprioceptorer), som eksempelvis sidder uden på og inden i led. Disse receptorer sender via nervebaner signaler til hjernen om, hvilken stilling og position eksempelvis et knæled er i. Den såkaldte motoriske kontrol vil reagere på disse signaler og via andre nervebaner aktiverer muskler, som kan lave en eventuel modbevægelse, hvis leddet er på vej ud i uhensigtsmæssig position. Balancetræning i forskellige former har vist at nedsætte risikoen for ankel og knæskader (eksempelvis korsbånd) skader hos især kvindelige fodbold- og håndboldspillere (Bryan & Scott 2002)
 
-Spring- /hoppetræning (plyometri)
----------------------------------
+## Spring- /hoppetræning (plyometri)
 
 Plyometri har i flere studier vist at skabe større stabilitet omkring knæleddet. Mekanismen bag den plyometriske træning er ikke helt klarlagt, men der sker en forbedring af balancen og stabiliteten, og den øgede stivhed betyder sandsynligvis, at muskler og muskelsener tager imod stød ved landinger og elementer i knæleddet derved skånes (Chimera et al 2004). Plyometrisk træning har også vist at forbedre styrkebalancen mellem forlår (quadriceps) og baglår (hasemuskulaturen). Dette menes at være beskyttende mod korsbåndsskader ved høje vinkelhastigheder, som opstår ved eksempelvis hop og sprint. Dette betyder, at sportsudøvere bør ligge vægt på at få trænet både quadriceps og hasemuskulaturen (Myklebust 2004, Soderman 2000).
 
-Styrketræning
--------------
+## Styrketræning
 
 Generelt er styrketræning skadesforebyggende, da en større muskelmasse og styrke omkring led vil virke hhv. beskyttende og give større stabilitet. Styrketræningen vil også forbedre evnen til at komme sig efter en skade. Dette skyldes formentligt, at restitutionen i forbindelse med styrketræning og restitutionen efter en skade minder om hinanden. En træningseffekt ved styrketræning er således reparationer af små fiberskader (mikrooverrivninger) i musklen (Fleck & Kreamer 2004).
 
@@ -44,13 +41,11 @@ Styrketræning kan ligesom balance- og plyometrisk træning give større stabili
 
 Bevægelserne omkring skulderen er styret af et komplekst biomekanisk system bestående af knogle, ledbånd og muskelkraft. En eller flere dysfunktioner på disse elementer vil betyde en skadet og ufunktionsdygtig skulder (Kelly & Chopp 2000). Forebyggelse af disse skader kan ske ved styrkelse af muskulaturen omkring skulderen og især af muskulaturen, som styrer rotationen af skulderbladet (rotator cuff). Dette bør trænes, så muskulaturen kan klare koncentriske og excentriske belastninger. Samtidigt vil en styrkelse af kropstammen også være med til at nedsætte skadesrisikoen i forbindelse med kastebevægelser (Kelly & Terry 2001). Den forebyggende træning kan således bestå af styrketræning, som fokuser på excentrisk styrke, styrkelse af rotator cuff’en samt en øget stabilitet af kropsstammen (Powers 1998, Johnson 1994, Sirota et al 1997). Flere træningsøvelser med elastik har også vist at have en forebyggende effekt på skulderskader i sportsgrene, hvor der kastes meget.
 
-Afsluttende
------------
+## Afsluttende
 
 De ovenstående resultater tyder altså på, at supplerende træning som styrke-, balance- og plyometrisk træning kan have en skadesforebyggende effekt. Især de alvorlige skader som overrevet korsbånd synes at kunne undgås i højere grad. Dette er gode nyheder for trænere og sportsudøvere.
 
-Litteratur
-----------
+## Litteratur
 
 - Fleck S.J., Kreamer W. J.(2004); Designing resistance training programs; 3 ed; Human kinetics; 2004; pp 27-28, 41-43, 157, 159-165, 167-170, 189, 213-214, 264-270, 277, 285
 - Wilkerson G B, M A Colston, N I Short, K L Neal, P E Hoewischer, Jennifer J. Pixley (2004); A 10-week randomized trial comparing eccentric vs. concentrichamstring strength training in well-trained soccer players, Journal of Athletic Training 2004;39(1):17–23
@@ -67,4 +62,3 @@ Litteratur
 - Hirokawa S., Solomonow M., Ly Y., Lou Z., D’Ambrosia R. (1992); Anterior-posterior and rotational displacemet of the tibia elicited by quadriceps contaction; Am. J. Sports Med. 20; 299-306; 1992
 - More R.C., Karras B.T., Neiman R., Fritschy D., Woo S.L., Daniel D.M. (1993); Hamstrings – an anterior crusiate ligament protagonist. Am. J. Sports Med. 21; 231-237; 1993
 - Malina RM, Bouchard C, Bar-Or O (2004). Growth, maturation, and physical activity. Second edition. Human Kinetics 2004: pp. 126, 128-129, 218-223, (228-230), 308, 310-313, 323-325, 401-402, 404-407, 412-416
-- <http://www.hukhaandbold.dk/arkiv/2002/022202/020227-3.htm>

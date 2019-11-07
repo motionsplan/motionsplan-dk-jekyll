@@ -21,8 +21,7 @@ Der er nogle ting, man skal tænke på, inden man går i gang med træning. Det 
 
 Her har du nogle gode referencer at starte med:
 
-- [Løbesiden.dk](http://loebesiden.dk) har en side om [**løbetræningsteori**](http://loebesiden.dk/loebetraening.php) som er et godt sted at starte. De gør også meget ud af, at man skal starte op stille og roligt. Også selvom du løb rigtig godt for nogle år siden.
-- [Løbesiden.dk](http://loebesiden.dk) har også en [**løbetidsberegner**](http://loebesiden.dk/beregn_tid.php), som fortæller dig hvilke hastigheder du skal løbe med - og hvor ofte man kan holde til det. Beregneren er bygget på Jack Daniels Running Formular. Jack Daniels er en af de mest respekterede løbetrænere i verden.
+- [Løbesiden.dk](http://loebesiden.dk) har også en [**løbetidsberegner**](https://loebesiden.dk/beregninger/), som fortæller dig hvilke hastigheder du skal løbe med - og hvor ofte man kan holde til det. Beregneren er bygget på Jack Daniels Running Formular. Jack Daniels er en af de mest respekterede løbetrænere i verden.
 - [Løbesiden.dk](http://loebesiden.dk) har også et rigtig godt [**forum**](http://loebesiden.dk/forum/), hvor du kan få svar på dine spørgsmål.
 
 Hvis du har andre gode referencer, er du meget velkommen til at dele dem i kommentarerne!

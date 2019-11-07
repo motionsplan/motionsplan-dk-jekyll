@@ -39,7 +39,3 @@ Funktionel træning omfatter de seks primære bevægelsesmønstre, som forekomme
 - Bøjning og strækning af kroppen
 - Træk og pres med overkroppen
 - Rotation af krop og lemmer
-
-## Dansk OL-bryder træner funktionelt
-
-På [DIFs hjemmeside om OL 2008](http://www.dif.dk/OL2008/) kan man følger med i OL-deltagernes forberedelser, og der vises et [filmklip af bryderen, Mark O. Madsen, mens han laver funktionel styrketræning](http://www.dif.dk/OL2008/Forside/OL%20Update/Indslag/St%C3%A6rk%20mand.aspx).
