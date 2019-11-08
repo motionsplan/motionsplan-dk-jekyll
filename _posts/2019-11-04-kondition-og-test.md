@@ -1,12 +1,11 @@
 ---
-title: "Kommer jeg i bedre form?"
+title: "Kondition og test - Kommer jeg i bedre form?"
 permalink: /kondition-og-test/
 excerpt: "Kommer jeg i bedre form? Beregn dit kondital og se dine resultater"
 language: da
 header:
-  overlay_image: https://www.ubershape.com.au/wp-content/uploads/2017/05/35A2528-1024x683.jpg
-  teaser: https://www.ubershape.com.au/wp-content/uploads/2017/05/35A2528-1024x683.jpg
-  caption: "[Image credit: Ubershape](https://www.uberhape.com.au/why-i-use-metabolic-analytics-with-my-clients/)"
+  overlay_image: https://cnet1.cbsistatic.com/img/Y3vodO8bMPi6qlFLRF3xFcQpLHo=/1092x0/2019/07/26/114f1721-1a71-42bc-b1a4-cb35299bedbc/gettyimages-640493589.jpg
+  teaser: https://cnet1.cbsistatic.com/img/Y3vodO8bMPi6qlFLRF3xFcQpLHo=/1092x0/2019/07/26/114f1721-1a71-42bc-b1a4-cb35299bedbc/gettyimages-640493589.jpg
 category:
   - Kondition
 tags:
@@ -15,30 +14,42 @@ last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 ---
 
-Hvis du dyrker styrketræning, er det forholdsvis let at følge med i dine fremskridt. De vægte du kan håndtere bliver måske tungere, eller du kan løfte vægtene flere gange, end du plejer. Ergo er der fremskridt, og du får sat nogle tal på dine præstationer. 10 gentagelser med 35 kg. Yes!
+Hvis du gerne vil _tracke_ om du kommer i bedre form med konditionstræning, så er der lidt forskellige muligheder. Men først lad os lige definere nogle begreber:
 
-Hvis du dyrker konditionstræning er det lidt mere tricky. Du kan selvfølgelig godt mærke, om du kommer i bedre form, og dine løbetider, cykel eller ro-tider bliver måske forbedrede, men du kan også vælge at teste dit kondital løbende for at få sat et tal på din fremgang.
+Maksimale iltoptagelse (VO<sub>2</sub>max)
+: Den maksimale iltoptagelse er et udtryk for hvor meget ilt, du kan optage under maksimalt arbejde. Den maksimale iltoptagelse er hvor meget ilt (ml) kroppen optager pr. minut.
 
-## Hvad er den maksimale iltoptagelse (VO<sub>2</sub>max)
+Kondital
+: Konditallet er et udtryk for, hvor effektiv kroppen i forhold til kropsvægten er til at optage ilt, når den arbejder ved maksimal intensitet. Konditallet viser hvor meget ilt (ml) kroppen er i stand til at optage pr. min i forhold til ens kropsvægt (kg).
 
+## Hvordan ved jeg om jeg er kommet i bedre form?
 
+En ting er naturligvis om din kredsløbsmotor er blevet bedre eller det er din bevægelsesøkonomi, der er blevet forbedret. I praksis er begge ting jo bare godt. Med mindre du måler iltoptagelsen ved en _direkte_ laboratorietest, så finder du aldrig ud af, hvilket af de to parametre du har forbedret dig på.
 
-## Hvad er kondital?
+Her vil vi først og fremmest beskrive nogle _indirekte_ muligheder for at bestemme om du er kommet i bedre kondition.
 
-Konditallet er et udtryk for, hvor effektiv kroppen er til at optage ilt, når den arbejder ved maksimal intensitet. Konditallet viser hvor meget ilt (ml) kroppen er i stand til at optage pr. min i forhold til ens kropsvægt (kg).
+- **Hold styr på tiderne**. Hvis du over tid bruger de samme distancer og ruter, så kan du se om tiderne bliver bedre hen ad vejen.
+- **Lav maksimal test**. Hvis du laver en maksimal test på fx en kondicykel, så kan du estimere dit kondital.
+- **Lav en submaximal test**. En submaximal kan være ret god til at bestemme om det går fremad med formen. Hvis du fx kører med en bestemt belastning i et bestemt tidrum, så kan du følge din puls. Hvis du arbejder med lavere puls i forhold til den samme belastning, er du kommet i bedre form.
+- **Mål din hvilepuls**. Teoretisk set falder din hvilepuls, hvis du kommer i bedre kondition, fordi hjertet kan pumpe mere blod ud pr. sammentrækning og derfor i hvile ikke behøver at slå så mange gange.
 
+## Hvad er et godt kondital?
 
-Der findes flere forskellige tabeller ala de her, og fælles for dem er, at tallene i tabellerne er gennemsnit, som er blevet til på baggrund af mange forskellige undersøgelser. Det gennemsnit der præsenteres i sådanne tabeller vil derfor afhænge af hvilke befolkningsgrupper, man har testet i de bagvedliggende undersøgelser, og der kan derfor være lidt forskel på tabellerne. Nogle er måske lavet ud fra polske eliteroere, ældre på plejehjem og inaktive familiefædre, mens andre kan være lavet ud fra data fra midaldrende amerikanske kvinder, elitegymnaster osv. De tal jeg har plottet ind ovenfor burde være repræsentative for almindelige danskere, men bør blot ses som tal, der kan give en idé om, om ens eget kondital ligger i den høje eller lave ende.
+Tabeller er altid lavet på baggrund af gennemsnitsværdier, og de de kan være baseret på mange forskellige datamaterialer og ser derfor aldrig ens ud.
 
-Hvilken betydning har konditallet for sundhed og aktivitetsniveau?
+Disse tal bør være repræsentative for almindelige danskere, men bør bare ses som en rettesnor.
 
-## Kondital
+## Hvilken betydning har konditallet for sundhed og aktivitetsniveau?
 
-Man har i flere store studier set en øget risiko for tidlig død, ved kondital på under 35 mL/kg/min for mænd og 28 mL/kg/min for kvinder. Der ses en nedre grænse, hvor man får problemer med at klare sig selv og komme rundt. Denne grænse ligger omkring 11 mL/kg/min. Ældre inaktive mennesker som f.eks. bliver ramt af en lungebetændelse eller brækker lårbenet, kan let komme helt derned. Er man først kommet så langt ned, er det rigtigt svært at komme op igen. Der er altså alt mulig grund til at holde sig aktiv livet igennem, så man har nogle reserver man kan trække på efterhånden, som man bliver ældre.
+Man har i flere store studier set en øget risiko for tidlig død, hvis man har et kondital på under 35 ml/kg/min for mænd og 28 mL/kg/min for kvinder. 
 
-Hos mennesker der ikke holder sin kondi/træning ved lige, har man set, at den maksimale iltoptagelse falder med 5-10% for hver 10. år, der går. Dette naturlige fald sætter ind allerede fra 20-års alderen. Sørger man for at holde sig aktiv, kan man imidlertid i meget høj grad forhindre dette fald. Man har set helt almindelige personer på +70 år, som har været i stand til at holde deres kondital oppe på mellem 40-55 mL/kg/min ved at dyrke konditionstræning. Hos elitesportsudøvere ser man et endnu større fald på 5-20% pr. 10 år, sandsynligvis fordi disse atleter i deres aktive karriere har trænet så ekstremt, at de har ligget meget højt. Dermed kommer der et tilsvarende stort fald, når de neddrosler træningen.
+Den nedre grænse for hvor man får problemer med at klare sig selv og komme rundt er på omkring 11 ml/kg/min. Det kan sagtens ske for ældre inaktive mennesker, der bliver syge, og hvis man først kommer derned kan det være vanskeligt at genvinde konditionen igen.
 
-Er du meget inaktiv, kan du næsten være 100% sikker på at dit kondital falder støt, som tiden går. I studier, hvor man har sat forsøgspersoner til at ligge stille i en seng, har man set, at konditallet er faldet med 10 mL/kg/min i løbet af bare 3 uger. F.eks. fra 43 mL/kg/min til 33 mL/kg/min.
+Hvis ikke du holder konditionstræningen ved lige, så kan den maksimale iltoptagelse falde med 5-10% for hver 10. år. Hvis du samtidig tager lidt på i vægt bliver din kondition altså mærkbart ringere. 
+
+Hvis du gør noget aktivt, så kan du dog sagtens holde konditionen ved lige. Almindelige personer på +70 år har været i stand til at holde deres kondital oppe på mellem 40-55 mL/kg/min ved at dyrke konditionstræning. 
+
+Man har lavet studier, hvor forsøgspersonerne har ligget stille i en seng i længere tid. Her så man at konditallet er faldet med 10 ml/kg/min i løbet af bare 3 uger.
 
 ***
 
@@ -56,17 +67,28 @@ Der er mange måder at test sin kondition på.
 
 ***
 
-## Validitet af testning
+## Validitet af testning af kondital
 
-Kan du så være sikker på, at det tal du kommer frem til, nu også passer? Ikke helt faktisk. Den mest præcise test er en test, som er utilgængelig for de fleste, da det er en større laboratorieopsætning, hvor man måler iltforbruget direkte. I alle de tests, der er linet op her over, testes konditallet indirekte, og det vil altid give nogle unøjagtigheder.
+Husk at alle _indirekte_ tests er forbundet med unøjagtigheder. Samtidig kan de ikke tage højde for om forbedringen kommer fra en øget iltoptagelse eller fra forbedret bevægelsesøkonomi.
 
-Det kondital du får ud, afhænger for det første af, hvilken test du har lavet. Undersøgelser har vist, at især cykeltests undervurderer konditallet en smule. Der kan også være unøjagtigheder med din opmålte distance på Coopertesten, eller der kan være problemer med kalibreringen af testcyklen, så de 125 W cyklen f.eks. viser, reelt set er 100 W eller 150 W. Watt max testen afhænger også meget af hvilken type cykel, du kører på. Nogle testcykler er i stand til at holde en stabil watt, som er uafhængig af kadencen, mens mange almindelige kondicykler i fitnesscentrene, stiger i watt, jo hurtigere man drejer rundt på pedalerne. Disse forskelle og unøjagtigheder vil selvfølgelig også give et kondital, der ikke er helt præcist. Det er derfor en god idé at lave flere forskellige tests, og måske endda lave samme test på flere forskellige cykler. F.eks. som det fremgår, er konditallet også vægtafhængigt, hvorfor tungere individer vil bonne ud med et lavere kondital. Er du meget muskuløs eller meget overvægtig, vil du derfor sandsynligvis være i noget bedre kondition, end dit målte kondital umiddelbart viser.
+Du skal være opmærksom på følgende ift. nøjagtigheden af testen:
 
-De indirekte tests, som er beskrevet herover kan dog sagtens bruges som rettesnor for, hvordan din kondition ser ud. Den bedste måde at bruge de forskellige tests på er nok ved at sammenligne dine resultater med dine egne resultater – forstået på den måde, at du ved at lave den samme test, med samme udstyr, med f.eks. 3 måneders mellemrum kan følge med i, om din kondition er opadgående eller nedadgående. Dermed holder du mindre øje med selve tallet, men mere om det går op eller ned.
+- **Løb i det fri**. Den opmålte distance er præcis, flad og gode forhold.
+- **Cykeltest med watt**. Kalibreringen af cyklen er korrekt, så den viser det korrekte antal watt.
+
+Disse unøjagtigheder betyder naturligvis ikke så meget, hvis du bruger samme rute og udstyr til at teste dig selv næste gang. Så kan du sagtens sammenligne dine egne målinger.
 
 ## Hvordan forbedrer jeg så konditionen?
 
-Konditionen forbedres bedst ved at lave træning, der udfordrer kredsløbet. Det kan f.eks. være holdtræning som spinning eller andre hold, der får din puls op. Det kan også være HIIT, altså intervaltræning på f.eks. løbebånd, kondicykel, crosstrainer osv., hvor du giver den max gas i 20-30 sek, efterfulgt af 40-60 sek med mere rolig aktivitet. Dette gentages nogle gange. Crossfit indeholder også mange konditionsforbedrende elementer. Konditallet kan naturligvis også forbedres gennem helt almindelig konditionstræning med moderat intensitet med eksempelvis 30 min. løb 2-3 gange om ugen, hvor du er oppe at blive forpustet.
+Konditionen forbedres ved at udfordre kredsløbet, og det kan man gøre på mange forskellige måder. Det er altid bedre at lave noget, end ikke at lave noget, men hvis du gerne vil tage din kredsløbstræning alvorligt, så er det godt at vide, at kredsløbet består af mange forskellige dele, der arbejder sammen.
+
+Derfor kan jeg godt lidt at opdele kredsløbstræningen i forskellige metoder, så man husker at få det hele med i sin træing.
+
+## Konklusion
+
+Du skal vedligeholde din kredsløbsfunktion og derved din kondition hele livet. Kredsløbet består både af anaerobe og aerobe komponenter, og den anaerobe del kan være både lactacid og alactacid. Det handler om at gøre hjertet større, så det kan pumpe mere ilt ud pr. slag, men også at musklerne bliver gode til at optage og bruge ilten ved forskellige intensiteter.
+
+[Hvad er et godt kondital?](/kondital/){: .btn .btn--large .btn--info }
 
 <details>
   <summary>Referencer</summary>
