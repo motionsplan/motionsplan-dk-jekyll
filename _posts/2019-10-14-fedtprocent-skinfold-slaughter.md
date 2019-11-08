@@ -1,7 +1,7 @@
 ---
 title: "Fedtprocent hos børn - Slaugther formlen"
 permalink: /skinfold-slaughter/
-excerpt: "En måling på triceps og en på skulderbladsspidsen. Denne metode er anvendt i bl.a. studier på danske skolebørn."
+excerpt: "Denne metode er bl.a. anvendt i studier af danske skolebørn og kræver en måling ved triceps og på skulderbladsspidsen."
 language: da
 header:
   overlay_image: https://www.ubershape.com.au/wp-content/uploads/2017/05/35A2528-1024x683.jpg
@@ -27,11 +27,11 @@ feature_row:
     btn_class: "btn--success"
 ---
 
-Med denne metode kan man ret enkelt og pålideligt måle fedtprocenten hos børn ved at måle hudfoldstykkelse to forskellige steder. Denne metode er bedre end f.eks. anvendelse af BMI til overvægtsbestemmelse.
+Slaughter har udviklet en relativt enkel og pålidelig måde at estimere fedtprocenten på hos børn ved at måle hudfoldstykkelsen to forskellige steder, nemlig ved triceps og på skulderbladsspidsen.
 
 ## Instruktion
 
-Mål hudfoldstykkelsen med en fedttang. Mål midt på triceps og lige under skulderbladsspidesen (se tegning).
+Mål hudfoldstykkelsen med en fedttang. Mål midt på triceps og lige under skulderbladsspidesen.
 
 {% include calculate-fatpercent-skinfold-children-slaughter.html %}
 

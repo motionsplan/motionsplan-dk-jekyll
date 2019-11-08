@@ -1,7 +1,7 @@
 ---
 title: "Durnin & Womersley 4-punkts måling af fedtprocent"
 permalink: /skinfold-durnin-womersley/
-excerpt: "Durnin & Womersley 4-punkts måling er anvendelig for de fleste mennesker. Dette er desuden også den formel, der anvendes på Team Danmarks testcentre - hvor de dog beregner alle personer som mellem 20 og 29 år, uanset atletens alder. Formlen har en tendens til at overestimere fedtprocenten med 2-3 % hos meget magre personer."
+excerpt: "Durnin & Womersley 4-punktsmåling er meget anerkendt og anvendelig for de fleste mennesker. Team Danmarks testcentre bruger denne formel. Formlen overestimerer fedtprocenten med 2-3% for meget tynde personer."
 language: da
 header:
   overlay_image: https://www.ubershape.com.au/wp-content/uploads/2017/05/35A2528-1024x683.jpg
@@ -26,17 +26,26 @@ feature_row:
     btn_class: "btn--success"
 ---
 
-Durnin & Womersley har lavet en formel, som anses for relativt præcis for mennesker mellem 17 og 68 år gammel. Der der en tendens til, at formlen giver for høje fedtprocenter hos meget magre personer (2-3 %).
+Durnin & Womersley er en 4-punksmåling, som anses for relativt præcis for mennesker mellem 17 og 68 år gammel. Formlen har en tendens til at estimere for høje fedtprocenter hos meget tynde personer (2-3 %).
 
-Durnin og Womersley er en 4-punksmåling og den er ens for kvinder og mænd. Der måles på biceps, triceps, skulderbladets spids og hoftekammen. Du kan se nærmere instruktioner i videoen nedenunder.
+Den samme formel bruges for både mænd og kvinder. Den oprindelige formel tager højde for alderen, men her har vi valgt at bruge formlen med aldersgruppen mellem 20-29 år, som Team Danmark også bruger på sine testcentre.
 
-Formlen tager hensyn til alderen, da der typisk med alderen vil komme mere fedt omkring de indre organer.
+## Beskrivelse af procedure
+
+Der måles på biceps, triceps, skulderbladets spids og hoftekammen. Du kan se nærmere instruktioner i videoen nedenunder.
 
 {% include video id="VBJuVfiKrbY" provider="youtube" %}
+
+## Udregn din fedtprocent
 
 {% include calculate-fatpercent-skinfold-durnin-womersley.html %}
 
 [Fedtmåling med Durnin og Womersley](http://www.health-calc.com/body-composition/skinfold-d-and-w){: .btn .btn--info }
+
+## Usikkerheder i Durnin & Womersley
+
+- Den oprindelige formel tager også højde for alderen, da der typisk vil komme mere fedt omkring de indre organer.
+- Formlen overestimerer fedtprocenten med 2-3% for meget magre personer.
 
 ## Referencer
 

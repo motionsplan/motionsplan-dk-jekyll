@@ -13,6 +13,7 @@ tags:
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 ---
+
 6 minutters gå-testen er som navnet siger en test, hvor det gælder om at gå så langt som muligt på 6 minutter. Testen er specielt egnet til svage personer f.eks. patienter eller gamle.
 
 ## Testens udførelse

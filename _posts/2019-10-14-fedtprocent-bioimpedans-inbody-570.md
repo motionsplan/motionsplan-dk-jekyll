@@ -13,6 +13,29 @@ tags:
   - bioimpedans
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
+feature_row:
+  - image_path: https://shop.getbig.dk/images/medium/personvaegt-med-fedtprocentmaaler_MED.jpg
+    alt: "Badevægt med fedtprocent måler"
+    title: "Badevægt med fedtprocent måler"
+    excerpt: "Denne badevægt kan give dig en komplet oversigt over både vægt, fedtprocent, BMI, væskeandel og knoglemasse. Man kan oprette analyser for 8 personer, og dermed kan hele familien nøjes med denne ene vægt. Denne vægt er formentlig ikke valideret og er langt fra så præcis, som de andre præsenteret i denne artikel."
+    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=21411&htmlurl=https://shop.getbig.dk/badevaegt-i-luksuskvalitet"
+    btn_label: "Læs mere"
+    btn_class: "btn--success"
+  - image_path: https://www.fotoagent.dk/single_picture/11803/138/custom1/tanita_dc_360_p_avec_colonne_analyseur_de_masse_co.jpg
+    alt: "Tanita DC 360P Kropsanalysevægt"
+    title: "Tanita DC 360P Kropsanalysevægt"
+    excerpt: "Med en Tanita DC 360P kropsanalysevægt er du garanteret præcise og nøjagtige resultater. På blot 15 sekunder er det muligt at få en fuld kropsanalyse. Resultaterne vil øjeblikkeligt blive vist på LCD-skærmen, som er nem at læse."
+    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/tanita-dc-360p-kropsanalysevaegt/"
+    btn_label: "Læs mere"
+    btn_class: "btn--success"
+  - image_path: https://www.fotoagent.dk/single_picture/11803/138/mega/Tanita_MC780_full(1).jpg
+    alt: "Tanita MC 780 P MA"
+    title: "Tanita MC 780 P MA"
+    excerpt: "Tanita MC 780 P MA, er en interaktiv maskine, hvilket gør at vægten er nemt at benytte. Med det todelte display, kan du nemt overskue den målte og beregnede data."
+    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/tanita-mc-780-p-ma/"
+    btn_label: "Læs mere"
+    btn_class: "btn--success"
+---
 ---
 
 *[PBF]: Percent Body Fat
@@ -40,8 +63,8 @@ På [Vejle Idrætshøjskole](http://www.vih.dk/) har vi adgang til en [InBody 57
 > Body fat percentage determined by DXA shares 88% of the variance with MfBIA, leaving 12% variance unexplained. (...)
 >
 > The results of the current study reveal if strict guidelines are adhered to MfBIA is a comparable method for determining body fat percentage when compared to DXA. 
->
-> [Validating InBody® 570 Multi-frequency Bioelectrical Impedance Analyzer versus DXA for Body Fat Percentage Analysis](https://www.researchgate.net/profile/Ryan_Miller37/publication/318348260_Validating_InBody_R_570_Multi-frequency_Bioelectrical_Impedance_Analyzer_versus_DXA_for_Body_Fat_Percentage_Analysis/links/5964e3da458515183cfaaced/Validating-InBody-R-570-Multi-frequency-Bioelectrical-Impedance-Analyzer-versus-DXA-for-Body-Fat-Percentage-Analysis.pdf?origin=publication_detail)
+
+---<cite>[Validating InBody® 570 Multi-frequency Bioelectrical Impedance Analyzer versus DXA for Body Fat Percentage Analysis](https://www.researchgate.net/profile/Ryan_Miller37/publication/318348260_Validating_InBody_R_570_Multi-frequency_Bioelectrical_Impedance_Analyzer_versus_DXA_for_Body_Fat_Percentage_Analysis/links/5964e3da458515183cfaaced/Validating-InBody-R-570-Multi-frequency-Bioelectrical-Impedance-Analyzer-versus-DXA-for-Body-Fat-Percentage-Analysis.pdf?origin=publication_detail)</cite>
 
 Dog skal du være opmærksom på, at fedtprocenten målt med DEXA-scanneren var omkring 5%-point højere både for mænd og kvinder. De bruger ikke meget tid i studiet til at diskutere det.
 
@@ -75,3 +98,5 @@ Når du har lavet testen, så får du et resultatark udprintet, som ser sådan h
 På [InBody USA](https://inbodyusa.com/general/result-sheet-interpretation/) har de en god gennemgang af resultatarket, og du kan også se mere i nedenstående video.
 
 {% include video id="-zwAYct6COs" provider="youtube"  %}
+
+{% include feature_row type="left" %}

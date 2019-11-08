@@ -13,6 +13,7 @@ category:
   - Beregnere
   - Test
 last_modified_at: 2019-03-06T23:14:14Z
+toc: true
 ---
 
 *[BMI]: Body Mass Index
@@ -23,8 +24,7 @@ Der er mange metoder til at måle kropskomposition. De vigtigste parametre for m
 
 {% include calculate-fat-percent.html %}
 
-Body Mass Index (BMI)
----------------------
+## Body Mass Index (BMI)
 
 BMI er nogenlunde korreleret med fedtprocenten og kan derfor bruges til at estimere fedme i en større population. BMI tager ikke højde for, om din vægt skyldes muskler eller fedt. BMI er ikke præcis, hvis du er høj eller eller ikke så høj. BMI fungerer bedst til voksne mennesker, som har en højde indenfor normalområdet.
 
@@ -42,9 +42,7 @@ I tabel 1 kan du se normalværdierne for BMI:
 | Overvægtig     | 25-30          | 25-30        |
 | Fed            | 30 og højere   | 30 og højere |
 
-
-Fedtprocent
------------
+## Fedtprocent ud fra udregning
 
 Fedtprocenten er den relative del af kropsvægten, som udgøres af fedt. Du har behov for fedt for overhovedet at kunne holde varmen. I formularen oven for er fedtprocenten udregnet ud fra køn, BMI og alder.
 
@@ -62,6 +60,12 @@ _Data fra Howley and Franks: Health/Fitness Instructor's Handbook, Human Kinetic
 
 Udregningen af fedtprocent i formularen har en standardfejl på på 3,9%. Det betyder, at den værdi du har udregnet i formularen kan svinge med 3,9% ift. den virkelige værdi. Fedtprocenten er udregnet på baggrund af BMI og er således behæftet med de samme usikkerheder som BMI er.
 
-### Måling af fedtprocent med bioimpedans
+## Andre typer målinger af kropskomposition
 
-Man kan også måle ens fedtprocent med bioimpedans. Tanita har [forskellige](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=9750&htmlurl=https://www.abilicaonline.dk/salg/fitnessvaegte/tanita-sr-901/) [modeller](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=9750&htmlurl=https://www.abilicaonline.dk/salg/fitnessvaegte/tanita-rd-545/), som er rettet mod private brugere. Vær blot opmærksom på, at der ved Bioimpedans er lige så mange fejlkilder som med udregning af fedtprocenten ud fra BMI.
+{% assign site_posts = site.posts | where: "tags", "kropskomposition" | sort: "date" %}
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single-simple.html %}
+  {% endfor %}
+{% endif %}

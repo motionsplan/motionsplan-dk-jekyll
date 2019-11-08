@@ -26,13 +26,20 @@ feature_row:
     btn_class: "btn--success"
 ---
 
-YMCA hudfoldstesten er en af de mest anvendte metoder til måling af fedtprocent. Den har den fordel, at man frit kan vælge om lår-målingen skal indgå eller ej, da netop denne måling ofte giver problemer. Vi anbefaler denne protokol til de fleste fitness- og sundhedsformål.
+*[YMCA]: Young Men's Christian Association
+
+YMCA hudfoldstesten er en af de mest anvendte metoder til måling af fedtprocent. Den har den fordel, at man frit kan vælge om lår-målingen skal indgå. Det kan nemlig godt være besværligt at lave lårmålingen - og det kan være forbundet blufærdighed også.
 
 ## Instruktion
 
-Mål hudfoldstykkelsen med en fedttang 4 steder: på maven ved navlen, midt på triceps, lige over hoftebenskammen og foran på låret. Angiv værdierne i beregneren ved at dreje på knapperne.
+Mål hudfoldstykkelsen med en fedttang 4 steder: 
 
-Hvis lår-målingen giver problemer - enten pga. af problemer med at få en defineret hudfold eller pga. af tøj - så kan man vælge at udelade denne måling.
+- på maven ved navlen
+- midt på triceps
+- lige over hoftebenskammen
+- foran på låret _(Hvis lår-målingen giver problemer - enten pga. af problemer med at få en defineret hudfold eller pga. af tøj - så kan man vælge at udelade denne måling.)_
+
+Angiv værdierne i beregneren nedenunder.
 
 {% include figure image_path="https://web.archive.org/web/20150403143250im_/http://www.motion-online.dk/images/2012/ymca_skinfold_250.jpg" caption="Skinfold measurement sites" %}
 
@@ -40,7 +47,7 @@ Hvis lår-målingen giver problemer - enten pga. af problemer med at få en defi
 
 ## Baggrund
 
-YMCA hudfoldstesten er baseret på Jackson & Pollock formlerne. Formlerne er dog specielt tilpasset til YMCA, således at mænd og kvinder vurderes ud fra de samme målepunkter og låmålingen nemt kan ekskluderes, da erfaringen har vist at lårmålingen ofte giver problemer. Reelt påvirkes validiteten i testen kun ganske lidt ved at udelade låret.
+YMCA hudfoldstesten er baseret på Jackson & Pollocks formler. Formlerne er dog specielt tilpasset til YMCA og gjort enklere, så både mænd og kvinder vurderes ud fra de samme målepunkter. Samtidig kan lårmålingen let ekskluderes. Validiteten i testen påvirkes kun ganske lidt af at udelade låret. 
 
 ## Referencer
 

@@ -15,7 +15,6 @@ last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 ---
 
-Cooper 1.5 mile / 2.4 km Run Test
 The Cooper 2.4 km (1.5 mile) run test is a simple running test of aerobic fitness, requiring only a stopwatch and running track. This is an alternative to the Cooper 12 min run test. There is another 1.5 mile run test which forms part of the Navy Physical Readiness Test (PRT).
 
 purpose: This test measures aerobic fitness.
@@ -31,6 +30,7 @@ scoring: The total time to complete the course is recorded.
 norms: here are some classifications of cardiovascular fitness for the cooper 1.5 mile run test for males and females aged 20-29 years. original source unknown.
 
 | Rating    | Males       | Females     |
+|-----------|-------------|-------------|
 | Very poor	| > 16:01	    | > 19:01     |
 | Poor	    | 16:00-14:01	| 19:00-18:31 |
 | Fair	    | 14:00-12:01	| 18:30-15:55 |

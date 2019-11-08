@@ -15,7 +15,7 @@ last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 ---
 
-Ruteopmåleren har fået en ny smart funktion indbygget. Du kan nu få beregnet dit kondital ud fra lige præcis den tur du har løbet. Du tegner blot din rute op, klikker på "Beregn kondital" og indtaster din tid.
+Du kan beregne dit kondital ud fra en tur, du har løbet. Du indtaster bare, hvor mange kiloemter du har løbet, og hvor lang tid det tog.
 
 Tre ting skal dog være opfyldt:
 
@@ -29,6 +29,5 @@ Herefter kan du evt. slå op i tabellen for kondital og se hvordan du ligger i f
 
 ## Reference
 
-New approaches to predict VO2max and endurance from running performance.
-Tokmakidis SP, Léger L, Mercier D, Péronnet F, Thibault G.
-Journal of Sports Medicine, 27:402, 1987.
+- [New approaches to predict VO2max and endurance from running performance. Tokmakidis SP, Léger L, Mercier D, Péronnet F, Thibault G. Journal of Sports Medicine, 27:402, 198](https://www.researchgate.net/profile/Luc_Leger/publication/19712663_New_approaches_to_predict_VO2max_and_endurance_from_running_performances_The_Journal_of_sports_medicine_and_physical_fitness_27_4_401-409_1988/links/54f5fa880cf27d8ed71d235f/New-approaches-to-predict-VO2max-and-endurance-from-running-performances-The-Journal-of-sports-medicine-and-physical-fitness-27-4-401-409-1988.pdf)
+

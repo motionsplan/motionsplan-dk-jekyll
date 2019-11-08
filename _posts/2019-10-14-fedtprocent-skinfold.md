@@ -30,9 +30,9 @@ feature_row:
     btn_class: "btn--success"
 ---
 
-I forbindelse med træning og vægttab kan det være motiverende at følge ændringer i fedtprocenten, da ændringer i kropsvægt både kan skyldes ændringer i muskel- og fedtmasse.
+I forbindelse med træning og vægttab kan det være motiverende at følge ændringer i kropskompositionen og fedtprocenten, da ændringer i kropsvægt både kan skyldes ændringer i muskel- og fedtmasse.
 
-Man kan måle sin fedtprocent ved hjælp af en fedttang.
+En måde at estimere sin fedtprocent på er ved hjælp af en fedttang, som man kan bruge til at lave en hudfoldsmåling med..
 
 ## Om fedttangen
 
@@ -42,9 +42,11 @@ Målingerne med fedttangen skal naturligvis være til at stole på, så derfor s
 
 ## Generelt om om måling af hudfoldstykkelse
 
-Måling med fedttang er relativt udbredt, og alle kan lære at bruge en fedttang. Du måler det eksterne fedt ved med to fingre at samle hud og måle, hvor tyk hudfolden er. Målingerne bliver taget ind i matematiske formler, som så bestemmer fedtmassen i hele kroppen.
+Måling med fedttang er relativt udbredt, og alle kan lære at bruge en fedttang. Du måler det eksterne fedt ved med to fingre at samle en hudfold og måle, hvor tyk hudfolden er. Målingerne bliver lagt ind i matematiske formler, som så estimerer fedtprocenten i hele kroppen.
 
-Man skal få en hjælper til at lave målingerne og det skal være den samme person der laver målingerne hver gang. Brug tommel- og pegefinger til at trække en hudfold ud. Klem ikke hårdere end nødvendigt. Lav målingen 1 cm ved siden af fingrene. Lav aflæsningen af tangen indenfor 3 sekunder.
+Man skal få en hjælper til at lave målingerne, og det skal (helst) være den samme person, der laver målingerne hver gang, hvis man skal kunne følge en udvikling i sin kropskomposition. 
+
+Brug tommel- og pegefinger til at trække en hudfold ud. Klem ikke hårdere end nødvendigt. Lav målingen en cm ved siden af fingrene, der har fat i hudfolden. Lav aflæsningen af tangen indenfor 3 sekunder, så tangen ikke når at komprimere huden for meget.
 
 ***
 
@@ -61,3 +63,7 @@ Der er mange forskellige formler, som kan bruges til _skinfold_-målinger. Vi ha
 {% endif %}
 
 ***
+
+## Hvad er normale fedtprocenter?
+
+

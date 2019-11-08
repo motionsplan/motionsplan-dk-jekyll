@@ -19,11 +19,14 @@ Hvis du dyrker styrketræning, er det forholdsvis let at følge med i dine frems
 
 Hvis du dyrker konditionstræning er det lidt mere tricky. Du kan selvfølgelig godt mærke, om du kommer i bedre form, og dine løbetider, cykel eller ro-tider bliver måske forbedrede, men du kan også vælge at teste dit kondital løbende for at få sat et tal på din fremgang.
 
+## Hvad er den maksimale iltoptagelse (VO<sub>2</sub>max)
+
+
+
 ## Hvad er kondital?
 
-Konditallet er et udtryk for, hvor effektiv kroppen er til at optage ilt, når den arbejder ved max intensitet. Nærmere bestemt viser konditallet, hvor mange milliliter ilt kroppen er i stand til at optage pr. min, pr. kg kropsvægt. Et kondital på 65 betyder f.eks. at kroppen maksimalt er i stand til at optage 65 mL ilt/kg kropsvægt/min. Det lyder måske lidt abstrakt, men i løbet af denne artikel skal vi nok få gjort konditallet lidt mere jordnært.
+Konditallet er et udtryk for, hvor effektiv kroppen er til at optage ilt, når den arbejder ved maksimal intensitet. Konditallet viser hvor meget ilt (ml) kroppen er i stand til at optage pr. min i forhold til ens kropsvægt (kg).
 
-Ser vi f.eks. på en fyr som Lance Armstrong, så havde han et kondital på omkring 85 mL/kg/min i de år han vandt Tour de France, mens han i 1997, da han kæmpede med sin kræftsygdom, havde et kondital på 66 mL/kg/min. Nu var Lance Armstrong for det første et konditionsmæssigt vidunder, med et kondital der aldrig faldt under 60, selv når han ikke trænede, og for det andet var han i stand til at hæve sit kondital kunstigt gennem indtag af doping (måske i omegnen af 12-15%). For det gennemsnitlige menneske, er det ikke nemt at holde konditallet ligeså højt.
 
 Der findes flere forskellige tabeller ala de her, og fælles for dem er, at tallene i tabellerne er gennemsnit, som er blevet til på baggrund af mange forskellige undersøgelser. Det gennemsnit der præsenteres i sådanne tabeller vil derfor afhænge af hvilke befolkningsgrupper, man har testet i de bagvedliggende undersøgelser, og der kan derfor være lidt forskel på tabellerne. Nogle er måske lavet ud fra polske eliteroere, ældre på plejehjem og inaktive familiefædre, mens andre kan være lavet ud fra data fra midaldrende amerikanske kvinder, elitegymnaster osv. De tal jeg har plottet ind ovenfor burde være repræsentative for almindelige danskere, men bør blot ses som tal, der kan give en idé om, om ens eget kondital ligger i den høje eller lave ende.
 

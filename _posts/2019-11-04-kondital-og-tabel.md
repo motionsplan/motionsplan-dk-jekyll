@@ -20,7 +20,8 @@ Svaret afhænger af hvad man sammenligner sig med. Nedenstående 2 tabeller gæl
 
 Normalbefolkning - Mænd:
 
-| Alder	| Meget Lavt | Lavt  | Middel | Højt  | Meget Højt |
+| Alder	| Meget Lavt | Lavt  | Middel | Højt  | Meget højt |
+|-------|------------|-------|--------|-------|------------|
 | 5-14  | < 38       | 39-43 | 44-51  | 52-56 | > 57       |
 | 15-19	| < 43       | 44-48 | 49-56  | 57-61 | > 62       |
 | 20-29 |	< 38       | 39-43 | 44-51  | 52-56 | > 57       |
@@ -33,6 +34,7 @@ Normalbefolkning - Mænd:
 Normalbefolkning - Kvinder:
 
 | Alder	| Meget Lavt | Lavt  | Middel | Højt  | Meget Højt |
+|-------|------------|-------|--------|-------|------------|
 | 5-14	| < 34       | 35-39 | 40-47  | 48-51 | > 52       |
 | 15-29	| < 28       | 29-34 | 35-43  | 44-48 | > 49       |
 | 30-39	| < 27       | 28-33 | 34-41  | 42-47 | > 48       | 
@@ -45,6 +47,7 @@ Topidrætsfolk i konditionskrævende idrætsgrene har som regel over 70. De alle
 Verdensklasseatleter (løb, cykling, roning, langrend etc.):
 
 |         | Meget Lavt | Lavt  | Middel | Højt  | Meget Højt |
+|---------|------------|-------|--------|-------|------------|
 | Mænd    | < 60       | 60-70 | 70-80  | 80-90 | > 90       |
 | Kvinder | < 50       | 50-58 | 58-64  | 64-72 | > 72       |
 

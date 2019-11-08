@@ -1,7 +1,7 @@
 ---
 title: "Jackson & Pollock 3-punktsmåling af fedtprocent"
 permalink: /skinfold-jackson-pollock/
-excerpt: "Jackson & Pollock 3-punktsmåling er bedst egnet til folk med en relativt lav fedtprocent. Vores erfaringer siger, at disse formler har en tendens til at give for lave fedtprocenter, men dette er individuelt og afhængigt af hvorledes ens fedtfordeling er. Der findes også en udgave, hvor man måler 7 punkter og umiddelbart skulle man tro, at 7-punktsmålingen er bedre end 3-punkts målingen, men faktisk giver de næsten altid samme resultat, hvorfor vi kun anvender 3-punktsmålingen her."
+excerpt: "Jackson & Pollock 3-punktsmåling er bedst egnet til folk med en relativt lav fedtprocent. Formlen har en tendens til at estimere for lave fedtprocenter, men dette er individuelt og afhængigt af hvorledes ens fedtfordeling er."
 language: da
 header:
   overlay_image: https://www.ubershape.com.au/wp-content/uploads/2017/05/35A2528-1024x683.jpg
@@ -26,13 +26,36 @@ feature_row:
     btn_class: "btn--success"
 ---
 
-Her finder instruktion og beregner til at måle din fedtprocent med Jackson og Pollacks formel, hvor der skal måles 3 steder på kroppen.
+*[ACSM]: American College of Sports Medicine
 
-Denne metode anbefales som standard af ACSM (American College of Sports Medicine). Denne formel er bedst egnet til folk med en relativt lav fedtprocent. I nogle tilfælde vil denne formel have en tendens til at undervurdere fedtprocenten.
+Jackson & Pollocks 3-punktsmåling er en hudfoldsmåling. 
 
-Mænd skal måle ved bryst, mave og lår. Kvinder skal måle ved triceps, hoftekam og lår.
+Metoden anbefales som standard af ACSM (American College of Sports Medicine).
+
+Der er en formel for hhv. mænd og kvinder.
+
+- **Mænd** skal måle ved bryst, mave og lår.
+- **Kvinder** skal måle ved triceps, hoftekam og lår.
 
 {% include calculate-fatpercent-skinfold-jackson-pollock.html %}
+
+## Videoer
+
+### Mænd
+
+{% include video provider="youtube" id="6KLdyRJIAqk" %}
+
+### Kvinder
+
+{% include video provider="youtube" id="hvC2TDs95xY" %}
+
+## Usikkerheder
+
+- Denne formel er bedst egnet til folk med en relativ lav fedtprocent. I nogle tilfælde vil denne formel have en tendens til at undervurdere den reelle fedtprocenten.
+
+## Noter
+
+- Der findes også en udgave, hvor man måler 7 punkter. Men ofte vil 3-punkts- og 7-punktsmålingen give nogenlunde samme resultat, så derfor har vi kun lavet en beregner for 3-punktsmålingen.
 
 ## Referencer
 

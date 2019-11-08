@@ -1,7 +1,7 @@
 ---
 title: "Fedtprocent hos børn - Lohman formlen"
 permalink: /skinfold-lohman/
-excerpt: "En måling på triceps og en på indersiden af læggen."
+excerpt: "Lohman-formlen kan bruges til at teste børn fra 8-18 år og der måles ved triceps og på læggen."
 language: da
 header:
   overlay_image: https://www.ubershape.com.au/wp-content/uploads/2017/05/35A2528-1024x683.jpg
@@ -27,18 +27,28 @@ feature_row:
     btn_class: "btn--success"
 ---
 
-Enkel måling af fedtprocent hos børn ved måling af hudfoldstykkelse ved triceps og ved læggen. Denne metode bruges som reference i mange større undersøgelser.
+Lohman-formlen er en enkel måling af fedtprocent hos børn mellem 8-18 år. Den kræver bare to målinger af hudfoldstykkelsen ved triceps og ved læggen. Denne metode bruges som reference i mange større undersøgelser.
 
 ## Instruktion
 
-Mål hudfoldstykkelsen med en fedttang. Mål midt på triceps og på indersiden af læggen på det tykkeste sted (se tegning).
+Mål hudfoldstykkelsen med en fedttang.
 
-Mål tre gange hvert sted og brug gennemsnittet af de tre målinger.
+- **Triceps**. Mål midt på triceps fra toppen af skulderen (acromium) og albuen (olecranon). 
+- **Læggen**. Mål på indersiden af læggen på det tykkeste sted af læggen af højre ben.
+
+Mål tre gange hvert sted og brug gennemsnittet af de tre målinger for at få en mere præcis måling.
 
 {% include calculate-fatpercent-skinfold-children-lohman.html %}
+
+## Formlen
+
+| Drenge | % Body Fat = 0.735 (Triceps + Calf) + 1.0 |
+| Girls  | % Body Fat = 0.610 (Triceps + Calf) + 5.1 |
 
 ## Reference
 
 Lohman, T.G.: The use of skinfolds to estimate body fatness on children and youth. Journal of physical education, recreation and dance, 58(9):67, 69, 1987.
+
+Slaughter MH, Lohman TG, Boileau RA, Horswill CA, Stillman RJ, Van Loan MD, Bemben DA.Skinfold equations for estimation of body fatness in children and youth. Human Biology 1988;60:709–23.
 
 {% include feature_row type="left" %}
