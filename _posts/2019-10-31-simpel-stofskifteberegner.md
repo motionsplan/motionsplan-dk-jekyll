@@ -4,8 +4,8 @@ permalink: /simpel-stofskifte/
 excerpt: ""
 language: da
 header:
-  overlay_image: https://i.ytimg.com/vi/zUyuUoU7lAQ/maxresdefault.jpg
-  teaser: https://i.ytimg.com/vi/zUyuUoU7lAQ/maxresdefault.jpg
+  overlay_image: https://i1.wp.com/www.healthfitnessrevolution.com/wp-content/uploads/2016/10/iStock_69627681_MEDIUM.jpg?fit=1696%2C1131&ssl=1
+  teaser: https://i1.wp.com/www.healthfitnessrevolution.com/wp-content/uploads/2016/10/iStock_69627681_MEDIUM.jpg?fit=1696%2C1131&ssl=1
 category:
   - Beregnere
 tags:

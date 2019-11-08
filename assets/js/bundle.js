@@ -481,7 +481,7 @@ $(document).ready(function() {
         var koen = Number($("[name='koen']").val());
         var alder = Number($("[name='alder']").val());
         var vaegt = Number($("[name='vaegt']").val());
-        var sport = Number($("[name='sport']").val());
+        var sport = $("[name='sport']").val();
         var pal = Number($("[name='pal']:checked").val());
 
         var b = bmr.EnergyExpenditure(koen, alder, vaegt, pal, sport);

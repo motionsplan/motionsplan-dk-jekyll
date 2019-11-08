@@ -12,6 +12,14 @@ tags:
 category:
   - Styrketræning
 last_modified_at: 2013-02-13T22:09:52Z
+feature_row:
+  - image_path: https://cdn.shopify.com/s/files/1/0247/5674/8373/products/Vaegtvest_KINETIK_VX1_Spaende_540x.jpg?v=1571814228
+    alt: "KINETIK Vægtvest VX1"
+    title: "KINETIK Vægtvest VX1"
+    excerpt: "KINETIK VX1 er det ultimative træningsudstyr, og er enestående når det kommer til design og kvalitet. Vores vægtvest er specialdesignet til at aktivere din styrke, og effektivisere din træning."
+    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67046&htmlurl=https://kinetikshop.dk/products/kinetik-vx1-vaegtvest"
+    btn_label: "Læs mere"
+    btn_class: "btn--success"
 ---
 
 Træning med kropsvægt har mange fordele, og træningen kan være rigtig effektiv. Man behøver altså ikke vægte eller maskiner for at udfordre kroppens fysik.
@@ -35,6 +43,8 @@ Det er befriende at kunne træne uden at have br. Hvis du har brug for et bevis 
 ## Kan jeg nøjes med kropsvægtøvelser
 
 Man skal altid planlægge sin træning ud fra ens mål. Du kan sagtens få masser af udfordring ved kropsvægtøvelser, så længe du varierer dem. Men det kan også være, at du skal supplere din træning med fx maskiner eller frie vægte. Fx kan maskiner være en fordel, hvis man ikke er stærk nok til at udføre øvelserne med kropsvægt, og frie vægte er også fremragende i mange sammenhænge.
+
+{% include feature_row type="left" %}
 
 ## Yderligere inspiration
 

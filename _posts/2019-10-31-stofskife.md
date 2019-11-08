@@ -4,8 +4,8 @@ permalink: /udregn-stofskifte/
 excerpt: "Her er en beregner, hvor du let kan estimere dit eget stofskifte"
 language: da
 header:
-  overlay_image: https://i.ytimg.com/vi/zUyuUoU7lAQ/maxresdefault.jpg
-  teaser: https://i.ytimg.com/vi/zUyuUoU7lAQ/maxresdefault.jpg
+  overlay_image: https://post.healthline.com/wp-content/uploads/2018/11/10457-What_is_Basal_Metabolic_Rate_1200x628-facebook.jpg
+  teaser: https://post.healthline.com/wp-content/uploads/2018/11/10457-What_is_Basal_Metabolic_Rate_1200x628-facebook.jpg
 category:
   - Beregnere
 tags:

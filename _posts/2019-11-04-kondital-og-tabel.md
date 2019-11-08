@@ -75,7 +75,7 @@ I forhold til vejledning har vi brug for målinger, der objektivt vurderer kondi
 
 Der er forskellige teoretiske muligheder for at løse dette[^note], men den metode der er lettest at forstå er princippet om _Kondital ved index 23_.
 
-[^note]: Morten Zacho beskriver en række forskellige muligheder i [Retfærdig vurddring af overvægtiges kondition](https://www.motion-online.dk/retfaerdig-vurdering-overvaegtiges-kondition/). Fx kan man opløfte vægten i en potens lavere end 1, for at den får mindre betydning, eller man normalisere i forhold til fedtfri masse i stedet. Man kan også bruge princeppet om skalering og dividere iltoptagelsen med højden i anden potens.
+[^note]: Morten Zacho beskriver en række forskellige muligheder i [Retfærdig vurdering af overvægtiges kondition](https://www.motion-online.dk/retfaerdig-vurdering-overvaegtiges-kondition/). Fx kan man opløfte vægten i en potens lavere end 1, for at den får mindre betydning, eller man normalisere i forhold til fedtfri masse i stedet. Man kan også bruge princeppet om skalering og dividere iltoptagelsen med højden i anden potens.
 
 Princippet i _Kondital ved index 23_ for denne beregner er, at den maksimale iltoptagelse (målt med en test) divideres med den vægt man ville have, hvis man havde et BMI på 23. Dette vægtuafhængige kondital kan man slå op i de tabeller, der bruges for det almindelige kondital, og dermed få en vægtuafhængig vurdering af konditionen i forhold til alder og køn.
 
@@ -88,4 +88,6 @@ Kondital<sub>Index 23</sub> er altså en beskrivelse af en persons relative kred
 ## Referencer
 
 - Tabellerne er lavet af Per-Olof Åstrand og suppleret med data fra danske børn og unge --- [Hvad er konditallet?](https://www.motion-online.dk/hvad-er-konditallet/)
-- [Retfærdig vurddring af overvægtiges kondition](https://www.motion-online.dk/retfaerdig-vurdering-overvaegtiges-kondition/)
+- [Retfærdig vurdering af overvægtiges kondition](https://www.motion-online.dk/retfaerdig-vurdering-overvaegtiges-kondition/)
+
+## Noter

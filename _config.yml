@@ -286,7 +286,8 @@ defaults:
       comments: true
       share: true
       related: true
-      toc: false
+      toc: true
+      toc_sticky: true
       author: lsolesen      
 # _exercises
   - scope:
