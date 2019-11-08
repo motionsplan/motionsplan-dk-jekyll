@@ -45,4 +45,3 @@ Here is an equation to predict VO2max from the 1.5 mile run time, where the VO2m
 VO<sub>2</sub>max = (483 / time) + 3.5
 
 {% include calculate-fitness-2400-meter.html %}
-

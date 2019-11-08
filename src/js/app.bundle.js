@@ -411,4 +411,39 @@ $(document).ready(function() {
         $("[name='Pausetid_m']").val(Math.floor((Tid * 0.3 / 60)));
         $("[name='Pausetid_s']").val(Math.round(((Tid * 0.3) - (Math.floor((Tid * 0.3) / 60) * 60)) / 5 * Math.pow(10, 0)) / Math.pow(10, 0) * 5);
     });
+     // Calculate Intensity
+    $("#calculate_hr_intensity_hrr").click(function() {
+        console.log("Calculate HR intensity HRR");
+
+        var Hpuls = Number($("[name='Hpuls']").val());
+        var Mpuls = Number($("[name='Mpuls']").val());
+        var Apuls = Number($("[name='Apuls']").val());
+
+        var resultat = (Apuls - Hpuls) / (Mpuls - Hpuls) * 100;
+
+        $("[name='Ialt']").val(resultat);
+    });
+     // Calculate Intensity
+    $("#calculate_hr_intensity_work").click(function() {
+        console.log("Calculate HR work intensity HRR");
+
+        var Hpuls2 = Number($("[name='Hpuls2']").val());
+        var Mpuls2 = Number($("[name='Mpuls2']").val());
+        var Intens2 = Number($("[name='Intens2']").val());
+
+        var resultat2 = Hpuls2 * 1 + Intens2 / 100 * (Mpuls2 - Hpuls2);
+
+        $("[name='Ialt2']").val(resultat2);
+    });
+     // Calculate Intensity
+    $("#calculate_hr_intensity_from_max").click(function() {
+        console.log("Calculate HR work intensity from HRmax");
+
+        var Apuls3 = Number($("[name='Apuls3']").val());
+        var Mpuls3 = Number($("[name='Mpuls3']").val());
+
+        var resultat3 = Apuls3 / Mpuls3 * 100;
+
+        $("[name='Ialt3']").val(resultat3);
+    });
 });
