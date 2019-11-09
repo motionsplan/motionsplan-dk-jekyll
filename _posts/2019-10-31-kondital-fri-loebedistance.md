@@ -29,5 +29,4 @@ Herefter kan du evt. slå op i tabellen for kondital og se hvordan du ligger i f
 
 ## Reference
 
-- [New approaches to predict VO2max and endurance from running performance. Tokmakidis SP, Léger L, Mercier D, Péronnet F, Thibault G. Journal of Sports Medicine, 27:402, 198](https://www.researchgate.net/profile/Luc_Leger/publication/19712663_New_approaches_to_predict_VO2max_and_endurance_from_running_performances_The_Journal_of_sports_medicine_and_physical_fitness_27_4_401-409_1988/links/54f5fa880cf27d8ed71d235f/New-approaches-to-predict-VO2max-and-endurance-from-running-performances-The-Journal-of-sports-medicine-and-physical-fitness-27-4-401-409-1988.pdf)
-
+Tokmakidis, S. P., L. Léger, D. Mercier, F. Péronnet, og G. Thibault. 1987. “New Approaches to Predict VO2max and Endurance from Running Performances”. The Journal of Sports Medicine and Physical Fitness 27 (4): 401–9.

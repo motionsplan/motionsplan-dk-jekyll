@@ -43,13 +43,11 @@ Vi har fundet at validiteten af testen stiger markant, når man kobler en system
 
 ## Noter
 
-- Testen kan kun anvendes op til belastninger på ca. 250 watt. Dvs. den bagved liggende formel duer IKKE til veltrænede atleter
+- Testen kan kun anvendes op til belastninger på ca. 250 watt. Dvs. den bagvedliggende formel duer IKKE til veltrænede atleter
 - Borg-karakteren skal afgives i forhold til hvor anstrengende arbejdet opleves for benene.
 - Testen er valideret på 154 mænd i alderen 20-64 år. Den er desværre ikke valideret ift. kvinder.
 - RPE står for Rate of Perceived Exertion, som betyder “graden af oplevet anstrengelse”.
 
 ## Reference
 
-Okura T, Tanaka K.
-A unique method for predicting cardiorespiratory fitness using rating of perceived exertion.
-J Physiol Anthropol Appl Human Sci. 2001 Sep;20(5):255-61.
+Okura, T., og K. Tanaka. 2001. “A Unique Method for Predicting Cardiorespiratory Fitness Using Rating of Perceived Exertion”. Journal of Physiological Anthropology and Applied Human Science 20 (5): 255–61. https://doi.org/10.2114/jpa.20.255.
