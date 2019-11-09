@@ -27,7 +27,7 @@ En træningsinduceret forøgelse af VO2max antages generelt at afhænge af arbej
 
 Det er også blevet foreslået, at længerevarende moderat træning kan være med til at forbedre VO<sub>2</sub>max, hvilket antyder at den øgede træningstid kan kompensere for den lavere træningsintensitet.
 
-Dette blev undersøgt af Helgerud et al (?) med 40 moderat-trænede mandlig universitetsstuderende. Deltagerne blev inddelt i fire træningsgrupper med en træningsfrekvens på 3 gange pr. uge i 8 uger. De 4 træningsgrupper arbejdede med forskellig intensitet, og varigheden blev justeret således, at det totale arbejde blev det samme (samlet iltforbrug ~130 L O<sub>2</sub>).
+Dette blev undersøgt af Helgerud et al (2007) med 40 moderat-trænede mandlige universitetsstuderende. Deltagerne blev inddelt i fire træningsgrupper med en træningsfrekvens på 3 gange pr. uge i 8 uger. De 4 træningsgrupper arbejdede med forskellig intensitet, og varigheden blev justeret således, at det totale arbejde blev det samme (samlet iltforbrug ~130 L O<sub>2</sub>).
 
 I det følgende skal alle intensiteter forstås som løb svarende til en procent af maksimalpulsen (HR<sub>max</sub>).
 
@@ -44,48 +44,30 @@ Resultatet viste, at VO<sub>2</sub>max blev signifikant forbedret i 15/15 og 4x4
 
 {% include figure image_path="https://www.motion-online.dk/images/2007/vo2_300.jpg" %}
 
-Dette studie tyder det på, at kortvarig intens intervaltræning er mere effektiv til at forøge VO<sub>2</sub>max hos moderat-trænede mandlige løbere i forhold til længerevarende lav til moderat træning. Derudover viser studiet, at en reducering af arbejdsintensiteten ikke kan kompenseres af en tilsvarende forøgelse i arbejdstiden således, at det totale arbejde opretholdes. Intensiteten synes derfor at være afgørende for forbedringer i VO<sub>2</sub>max.
+Dette studie tyder det på, at intens intervaltræning er mere effektiv til at forøge VO<sub>2</sub>max hos moderat-trænede mandlige løbere i forhold til længerevarende lav til moderat træning. Derudover viser studiet, at en reducering af arbejdsintensiteten ikke kan kompenseres af en tilsvarende forøgelse i arbejdstiden således, at det totale arbejde opretholdes. Intensiteten synes derfor at være afgørende for forbedringer i VO<sub>2</sub>max.
+
+## Usikkerheder i studiet
+
+15x15 intervallerne er i udgangspunkt samme intensitet målt med pulsen som 4x4 intervallerne, men reelt er intensiteten betydeligt højere. I 15x15 intervallerne er der et betydeligt andel af CrP/ATP forbrug i starten af hvert interval, og pulsen falder reelt aldrig ned på et lavt niveau mellem intervallerne, fordi intervallerne i høj grad også har en anaerobt komponent. I 4x4 intervallerne falder pulsen betydeligt i pauserne. Reelt bliver den høje belastning i 15x15 altså 24 minutter (selvom arbejdstiden kun er 12 minutter) mod 16 minutter i 4x4 intervallerne.
+
+Måske er samlet totalt arbejde ikke den rette måde at normalisere træningsgrupperne, da intervaltræningen vil stille betydeligt højere krav til restitition undervejs. 
+
+Ydermere når Scribbans et al (2016) i en metaanalyse af en række studier en lidt anden konklusion, som vi lige skal have kigget lidt mere på for at kunne give et godt bud på dette emne.
+
+> These data suggest that exercise training intensity has no effect on the magnitude of training-induced increases in maximal oxygen uptake in young healthy human participants, but similar adaptations can be achieved in low training doses at higher exercise intensities than higher training doses of lower intensity (endurance training).
+
+---<cite>Scribbans (2016)</cite>
+
+Det er også lidt overraskende, at slagvolumen (SV) ikke blev forbedret i grupperne der trænede med lavere intensitet i Helgeruds (2007) studie. Det vil vi naturligvis også kigge lidt nærmere på i dn nærmeste fremtid.
 
 ## Konklusion
 
-Det er lidt overraskende, at slagvolumen ikke blev forbedret i grupperne der trænede med lavere intensitet. 
+Det bedste råd i øjeblikket er formentligt, at man skal huske at ramme sit energisystem bredt i sin træning. Hvis du vil flytte VO<sub>2</sub>max, skal du formentlig også lave intervaller med høj intensitet.
 
 ## Reference
 
-Helgerud J et al.. Aerobic High-Intensity Intervals Improve VO2max More Than Moderate Training. Med. Sci. Sports Exerc., Vol. 39, No. 4, pp. 665–671,
+Helgerud, Jan, Kjetill Høydal, Eivind Wang, Trine Karlsen, Pålr Berg, Marius Bjerkaas, Thomas Simonsen, m.fl. 2007. “Aerobic High-Intensity Intervals Improve VO2max More than Moderate Training”. Medicine and Science in Sports and Exercise 39 (4): 665–71. https://doi.org/10.1249/mss.0b013e3180304570.
 
-[Effect of Training Intensity on VO2max in Young Health Adults: A Meta-regression and Meta-Analysis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4836566/)
+Scribbans, Trisha D., Stephan Vecsey, Paul B. Hankinson, William S. Foster, og Brendon J. Gurd. 2016. “The Effect of Training Intensity on VO2max in Young Healthy Adults: A Meta-Regression and Meta-Analysis”. International Journal of Exercise Science 9 (2): 230–47.
 
-[Intensitetens betydning for VO2max](https://www.motion-online.dk/intensitetens-betydning-forbedring-vo2max/)
-
-***
-
-
-I den slags sammenligninger er det jo helt afgørende om mængden*intensi teten er er realistisk afbalanceret. Ved højere intensitet må forudsættes et længere træningspas og omvendt.
-
-90-95 pct. i 15 sek.’s intervaller er jo som udgangspunkt samme intensitet som ved 4 min.-intervalle rne, men reelt en betydelig højere intensitet, da den er målt som som pulsniveau. Her skal tillægges CP/ATP-energiforbruget i startfasen af intervallerne.
-
-Ved de korte intervaller viser pulseksemplet ikke et pulsfald, der kan releteres til de 70 pct. i aktiv rwestitution (men det kan jo være en tilfældighed i eksempelvalg). Da disse intervaller reelt er anaerobt baserede i meget høj grad er det formentlig årsagen til at pulsbelastninge n er mere kontinuerlig, hvor imod 4 min.-intervalle rne har et mere klassisk pulsdyk. Ved 15/15 fås dermed en samlet belastning svarende til knap 24 min. med pulsintensitet omkring de 90-95 pct., mens det høje pulsniveau i 4x4min. bliver en del kortere.
-
-Der arbejdes ganske givet kun knap 12 min. med højintensitet ved 15/15 og 16 min ved 4×4 min, men ovenstående kunne måske indikere at 15/15-intervall erne med 47 gentagelser bør takseres som en samlet set mere hårdt interval end 4×4.
-
-En generel indvending mod undersøgelsen bør derfor være at et ens samlet totalt arbejde ikke er et godt udtryk for sammenligninger mellem træningsformer. Undersøgelsens resultater viser derfor større afvigelser end hvad der vil være reaslistisk ved normale træningsformer. Her koncentrerer jeg mig primært om en sammenligning mellem de 2 intervalgrupper , men det er heller ikke realistisk at erstatte 45 min. LSD med 4 x 4min. intervaltræning (25 min. løb), da restitutionskravene vil være betydelig større ved intervaltræningen.
-
-Tilbage til intervallerne. Jeg ved godt at artiklens generelle budskab er at højintensiv træning i det hele taget er klart mere forbedrende på iltoptagelsen end LSD og AT-træning, men det er da interessant at effekten på iltoptagelsen i sammenligningen mellem 15/15 og 4×4 falder ud til fordel for 4×4 min. især da 15/15 pulsmæssigt giver et højere niveau samlet set og reelt indeholder en mere intensiv træning end 4×4.
-
-Nu er der sikkert andre undersøgelser som måske viser det modsatte. Omvendt giver det trods alt ikke nogen sikker indikation i den evige diskussion af hvilken intervalform, der medfører den bedste forbedring af vo2-max.
-
-Man kunne derfor fristes til at moderere hovedkonklusion en en smule, da mere intensiv træning ved intensiv træning over et vist pulsniveau (her 90-95 pct.) ikke nødvendigvis giver større forbedringer af vo2-max, men også afhænger af andre faktorer i intervalopstill ingen mv.
-
-***
-
-Dog maa der alligevel drages til formanning om ikke udelukkende at traene denne form. Dette er der flere grunde til, baade teoretiske og praktiske:
-
--i Modsaetning til hvad M. Bellaci sagde, vil jeg mene at led bliver klart mere paavirket af en stoerre intensitet (studier har vist at restitutionstid en for muskler rent faktisk er lavere ved kortere, intensivt arbejde end LSD arbejde). Der er altsaa en langt stoerre skadesrisiko ved intervalloeb. Dette gaelder specielt nybegyndere der ofte ikke varmer ordentlig nok op, samt rent teknisk ikke er klar til at loebe i hurtigt tempo.
-
--At loebe intervalloeb alene er ofte haardt og meget opslidende rent mentalt. Derfor kan intensiteten falde, og traeningsudbytt et blive mindre. Det er altsaa nemmere at loebe LSD alene end at loebe interval. Soerg for at loebe med nogle.
-Derudover, vil mange have en tendens til ikke at kunne overskue at skulle loebe 15sek max/15sek rolig * 47. At tilrettelaegge sin traening efter et saadan forloeb hver gang, vil maaske vaere nemt de foerste par gange men vil meget hurtigt blive en stor opgave at skulle gennemfoere naar
-“start-optimise n” er forsvundet.
-
-– Rent praktisk kan det vaere meget irriterende at skulle loebe meget haardt og intensivt (specielt i byen). Vaelg dine omgivelser/trae ningsform med omhu, og tro ikke du kan loebe 4*4min max uden forstyrrelser ved soerne kl. 18.00
-
+Dalbøge, Annnett. 2007. “[Intensitetens betydning for forbedring af VO2max](https://www.motion-online.dk/intensitetens-betydning-forbedring-vo2max/)”. Motion Online (blog). 21. maj 2007. https://www.motion-online.dk/intensitetens-betydning-forbedring-vo2max/.

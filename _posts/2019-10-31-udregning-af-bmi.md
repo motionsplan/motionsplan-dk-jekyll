@@ -102,33 +102,30 @@ Til forskel fra BMI er højden (m) altså løftet i tredje potens i stedet for a
 
 #### Generelle referencer
 
-US weight guidelines: is it also important to consider cardiorespiratory fitness?
-Lee CD, Jackson AS, Blair SN
-Int J Obes Relat Metab Disord 1998 Aug;22 Suppl 2:S2-7
+Lee, C. D., A. S. Jackson, og S. N. Blair. 1998. “US Weight Guidelines: Is It Also Important to Consider Cardiorespiratory Fitness?” International Journal of Obesity and Related Metabolic Disorders: Journal of the International Association for the Study of Obesity 22 Suppl 2 (august): S2-7.
 
-Preventing and Managing the Global Epidemic of Obesity. Report of the World Health Organization Consultation of Obesity. WHO, Geneva, June 1997.
+WHO Consultation on Obesity (1997: Geneva, Switzerland), World Health Organization Division of Noncommunicable Diseases, og Family and Reproductive Health World Health Organization. Programme of Nutrition. 1998. “Obesity: Preventing and Managing the Global Epidemic: Report of a WHO Consultation on Obesity, Geneva, 3-5 June 1997”. https://apps.who.int/iris/handle/10665/63854.
 
-Quetelet LAJ. Sur I'homme et le developpement de ses facultes, ou essai de physique sociale. Paris: Bachelier, 1835. (Den originale BMI-reference)
+Quetelet, Adolphe. 1835. Sur l’homme et le développement de ses facultés: ou, Essai de physique sociale. Paris: Bachelier, imprimeur-libraire, quai des Augustins, no 55. http://archive.org/details/surlhommeetled00quet.
 
 #### BMI og børn
 
-Body mass index cut offs to define thinness in children and adolescents: international survey. Cole TJ, Flegal KM, Nicholls D, Jackson AA. BMJ. 2007 Jul 28;335(7612):194. Epub 2007 Jun 25.
+Cole, Tim J., Katherine M. Flegal, Dasha Nicholls, og Alan A. Jackson. 2007. “Body Mass Index Cut Offs to Define Thinness in Children and Adolescents: International Survey”. BMJ (Clinical Research Ed.) 335 (7612): 194. https://doi.org/10.1136/bmj.39238.399444.55.
+
 
 Due P, Heitmann BL & Sørensen TIA. Adipositasepidemien i Danmark. Ugeskr Læger 2006;168(2):129
 
 Cole TJ, Bellizi MC, Flegal KM et al. Establishing a standard definition for child overweight and obesity worldwide: international survey. BMJ 2000; 320:240-3.
 
-Hammer LD, Kraemer HC, Wilson DM, Ritter PL, Dornbusch SM. Standardized percentile curves of body-mass index for children and adolescents. American Journal of Disease of Child. 1991; 145:259–263.
+Hammer, L. D., H. C. Kraemer, D. M. Wilson, P. L. Ritter, og S. M. Dornbusch. 1991. “Standardized Percentile Curves of Body-Mass Index for Children and Adolescents”. American Journal of Diseases of Children (1960) 145 (3): 259–63. https://doi.org/10.1001/archpedi.1991.02160030027015.
 
-Pietrobelli A, Faith MS, Allison DB, Gallagher D, Chiumello G, Heymsfield, SB. Body mass index as a measure of adiposity among children and adolescents: A validation study. Journal of Pediatrics. 1998; 132:204–210.
+Pietrobelli, A., M. S. Faith, D. B. Allison, D. Gallagher, G. Chiumello, og S. B. Heymsfield. 1998. “Body Mass Index as a Measure of Adiposity among Children and Adolescents: A Validation Study”. The Journal of Pediatrics 132 (2): 204–10. https://doi.org/10.1016/s0022-3476(98)70433-0.
 
 The Centers for Disease Control and Prevention (CDC). BMI - Body Mass Index: BMI for Children and Teens.
 
 ### Ponderal Index
 
-Dimensional analysis and theory of biological similarity.
-Günther B.
-Physiol Rev. 1975 Oct;55(4):659-99.
+Günther, B. 1975. “Dimensional Analysis and Theory of Biological Similarity”. Physiological Reviews 55 (4): 659–99. https://doi.org/10.1152/physrev.1975.55.4.659.
 
 Der Index der Körperfülle als Maß des Ernährungszustandes
 F. Rohrer
