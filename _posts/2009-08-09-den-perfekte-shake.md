@@ -49,6 +49,6 @@ Kan du se flere grupper? Kan du se flere ting, den enkelte gruppe skal være opm
 
 Når vi har samlet alle forslag og kommentarer, laver vi et skema med næringsindhold og cirkapris. Det bliver stort!
 
-{% include feature_row_vitamix type="left" %}
+{% include feature_row id="feature_row_vitamix" type="left" %}
 
 {% include feature_row type="left" %}

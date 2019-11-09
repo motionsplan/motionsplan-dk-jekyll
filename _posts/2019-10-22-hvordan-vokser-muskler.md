@@ -160,14 +160,15 @@ Formentlig skal rep-range ligge mellem 8-20 og RPE skal ligge omkring 8.5 - 9 i 
 ## Referencer
 
 - [Physiology of muscle hypertrophy](https://renaissanceperiodization.com/expert-advice/physiology-of-muscle-hypertrophy)
-- [Training Volume Landmarks for Muscle Growth](https://renaissanceperiodization.com/training-volume-landmarks-muscle-growth/)
 
-Damas, F., Libardi, C. A., & Ugrinowitsch, C. (2017). The development of skeletal muscle hypertrophy through resistance training: the role of muscle damage and muscle protein synthesis. European Journal of Applied Physiology, 118(3), 485-500. doi:10.1007/s00421-017-3792-9
+Israetel, Mike. 2017. “Renaissance Periodization | Training Volume Landmarks for Muscle Growth”. 4. januar 2017. https://renaissanceperiodization.com/training-volume-landmarks-muscle-growth/.
 
-Schoenfeld, B. J. (2010). The Mechanisms of Muscle Hypertrophy and Their Application to Resistance Training. Journal of Strength and Conditioning Research, 24(10), 2857-2872. doi:10.1519/jsc.0b013e3181e840f3
+Damas, Felipe, Cleiton A. Libardi, og Carlos Ugrinowitsch. 2018. “The Development of Skeletal Muscle Hypertrophy through Resistance Training: The Role of Muscle Damage and Muscle Protein Synthesis”. European Journal of Applied Physiology 118 (3): 485–500. https://doi.org/10.1007/s00421-017-3792-9.
 
-Kwon, Y. S. (n.d.). How Do Muscles Grow? Retrieved from https://www.unm.edu/~lkravitz/Article%20folder/musclesgrowLK.html
+Schoenfeld, Brad J. 2010. “The Mechanisms of Muscle Hypertrophy and Their Application to Resistance Training”. Journal of Strength and Conditioning Research 24 (10): 2857–72. https://doi.org/10.1519/JSC.0b013e3181e840f3.
 
-Hernandez, R. J. (n.d.). Skeletal muscle hypertrophy. Retrieved from https://www.unm.edu/~lkravitz/Article%20folder/hypertrophy.html
+Kwon, Young sub, og Len Kravitz. u.å. “How Do Muscles Grow?” How do muscles grow? Set 8. november 2019. https://www.unm.edu/~lkravitz/Article%20folder/musclesgrowLK.html.
+
+Hernandez, Richard Jushua, og Len Kravitz. u.å. “Skeletal muscle hypertrophy”. Set 8. november 2019. https://www.unm.edu/~lkravitz/Article%20folder/hypertrophy.html.
 
 ## Noter

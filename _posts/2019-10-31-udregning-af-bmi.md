@@ -1,5 +1,5 @@
 ---
-title: "Udregning af BMI"
+title: "Udregning af BMI og Ponderal Index"
 permalink: /bmi/
 excerpt: ""
 language: da
@@ -18,72 +18,99 @@ last_modified_at: 2019-03-06T23:14:14Z
 *[BMI]: Body Mass Index
 *[IOTF]: The International Obesity Task Force
 
-
-
-Nedenunder kan du udregne BMI og fedtprocent og sammenligne dig med _det normale_. Målingen er indirekte og tager ikke højde for, om din vægt skyldes muskler eller fedt.
-
-Der er mange metoder til at måle kropskomposition. De vigtigste parametre for mig er styrke, hurtighed, udholdenhed, springhøjde. Det er de parametre, du har brug for i livet, mens kropssammensætningen jo ikke tilføjer noget til dit liv.
+BMI er det mest udbredte mål til at vurdere overvægt i større befolkningsgrupper. Her kan du få beregnet dit BMI og få en vurdering med det samme. Nedenunder kan du udregne BMI og sammenligne dig med _det normale_. At bruge BMI som enkeltperson er dog forbundet med en række forbehold, så husk at læse lidt videre.
 
 {% include calculate-fat-percent.html %}
 
-Body Mass Index (BMI)
----------------------
+## Om Body Mass Index (BMI)
 
-BMI er nogenlunde korreleret med fedtprocenten og kan derfor bruges til at estimere fedme i en større population. BMI tager ikke højde for, om din vægt skyldes muskler eller fedt. BMI er ikke præcis, hvis du er høj eller eller ikke så høj. BMI fungerer bedst til voksne mennesker, som har en højde indenfor normalområdet.
+BMI er nogenlunde korreleret med fedtprocenten og kan derfor bruges til at estimere undervægt, overvægt og fedme i en større population. BMI fungerer bedst som indikator for voksne mennesker, som har en højde indenfor normalområdet. Nedenfor er der også tabeller, som børn kan vurderes efter. BMI tager ikke højde for, om din vægt skyldes muskler eller fedt eller din kropsbygning i det hele taget. Fx vil meget muskuløse mennesker vurderes som overvægtige, selvom de har en lav fedtprocent.
 
-BMI er let at udregne, når du kender din højde og din vægt:
+Du kan sagtens have en fuldt tilfredsstillende sundhedsprofil som overvægtig, hvis bare du motionerer. Sundhedsmæssigt er det farligere at have et BMI på 23 og være i dårlig form end at have et BMI på 28 og være i god form. 
+
+Du kan læse lidt mere om [retfærdig vurdering af overvægtiges kondition](/kondital/), hvor det foreslås at kondition altid skal vurderes ud fra BMI 23.
+{: .notice .notice--warning }
+
+BMI er et godt værktøj til at beskrive udviklingen i større befolkningsgrupper. Når man kigger på tilstrækkeligt mange personer på en gang, så forsvinder "afvigerne" og gennemsnitsværdierne vil være et reelt udtryk for forekomst af overvægt og fedme i større populationer.
+
+### Udregning af BMI
+
+BMI er let at udregne, når du kender din højde (meter) og din vægt (kg):
 
 {% include math formula="BMI = \frac{weight (kg)}{height (m)^2}" %}
 
-I tabel 1 kan du se normalværdierne for BMI:
+### Klassificering af undervægt, overvægt og fedme i forhold til BMI
 
-| Tabel 1: Body Mass Index                     |||
-| Klassifikation | Kvinde (kg/m2) | Mand (kg/m2) |
-|----------------|----------------|--------------|
-| Undervægtig    | Under 20       | Under 20     |
-| Normal         | 20-25          | 20-25        |
-| Overvægtig     | 25-30          | 25-30        |
-| Fed            | 30 og højere   | 30 og højere |
+BMI skal altid tolkes med et vist forbehold.
 
-https://cure4you.dk/wp-content/uploads/2019/08/BMI-body-mass-index-forskellige-typer.jpg
+På et tidspunkt så standarderne for BMI ud som i tabel 1 nedenunder.
 
-https://bgh.dk/wp-content/uploads/2018/11/det-betyder-bmi-tallene-847x1024.jpg
+| Tabel 1: Body Mass Index                                           |||
+| Klassifikation | Kvinde (kg/m<sup>2</sup>) | Mand (kg/m<sup>2</sup>) |
+|----------------|---------------------------|-------------------------|
+| Undervægtig    | Under 20                  | Under 20                |
+| Normal         | 20-25                     | 20-25                   |
+| Overvægtig     | 25-30                     | 25-30                   |
+| Fed            | 30 og højere              | 30 og højere            |
 
+Senere er normalområdet blevet udvidet, så dette er en mere rimelig tabel. Jeg undersøger i øjeblikket, hvad kilderne til de to tabeller er - og hvad der er den mest anerkendte i øjeblikket.
 
-BMI er det mest udbredte mål til at vurdere overvægt. Her kan du få beregnet dit BMI og få en vurdering med det samme. Husk dog at læse videre i teksten, da tolkning af BMI altid skal tages med en del forbehold.
+| Tabel 2: Body Mass Index[^note]                             ||| 	
+|               | Fedme klassificering | BMI (kg/m<sup>2</sup>) | 
+|---------------|----------------------|------------------------|
+| Undervægtig	  |                      | < 18.5                 |
+| Normal	 	    |                      | 18,5 - 24,9            |
+| Overvægtig	  |                      | 25,0 - 29,9            |
+| Fedme         | I                    | 30,0 - 34,9            |
+|               | II                   | 35,0 - 39,9            |
+| Ekstrem fedme	| III                  | 40                     |
 
+[^note]: Morten Zacho har lavet denne tabel på www.motion-online.dk.
 
-NB - hvis du er under 18 år skal du i stedet bruge denne beregner:
+NB. Hvis du er under 18 år, så kig længere nede på siden for en retfærdig vurdering af dit BMI.
+{: .notice .notice--warning }
 
-***
+{% include figure image_path="https://bgh.dk/wp-content/uploads/2018/11/det-betyder-bmi-tallene-847x1024.jpg" %}
 
-## Fedmegrænser for børn
+### Fedmegrænser ved BMI for børn
 
-Opdateret BMI-beregner for børn og unge. Nu også med grænseværdier for undervægt. Der er meget fokus på overvægt hos børn, men faktisk er undervægt også et problem - specielt hos piger der overtager idealer fra modeverdenen. BMI-grænseværdierne for børn og unge under 18 år varierer med alderen og derfor skal man bruge denne specielle beregner.
+Som barn er det nogle andre standardværdier, du skal måle dig efter. 
 
-Bemærk! BMI-værdier er kun vejledende. Selv om beregneren siger "undervægtig" eller "overvægtig", så kan man sagtens have en kropsbygning der gør, at man alligevel er sund og normal. En BMI-vurdering af børn altid ses sammen med en individuel vurdering af kropsbygning og relativt udviklingsniveau.
+Selvom BMI ofte har været brugt til at angive grænseværdier for fedme, så skal man også være opmærksom på undervægt (Cole 2007), hvor både drenge og piger kan have overtaget idealer fra modeverden. Betegnelserne kan være _under normal_ (thinness grade 1), _undervægtig_ (thinness grade 2) og _meget undervægtig_ (thinness grade 3), og det kan ses i graferne nedenunder.
 
-## Instruktion
+Nedenfor er de grænseværdier for børn, der anbefales af IOTF og som generelt også anbefales af autoriteter i Danmark. BMI-grænseværdier for børn og unge under 18 varierer med alderen, og derfor er nedenstående grafer lavet. Grænseværdierne er lavet således, at de flugter med de anvendte værdier for voksne ved alderen 18 år.
 
-Vælg køn og drej på knapperne til du har de rigtige værdier.
+Husk at BMI ikke tager højde for kropsbygning og muskelmasse. En vurdering af børn skal altid ses sammen med en individuel vurdering af det relative udviklingsniveau og kropsbygningen.
 
-## Baggrund
+{% include figure image_path="https://nielstraining.dk/wp-content/uploads/2017/08/BMI-formel-drenge-sundhed-b%C3%B8rn-WHO-sundhed-e1502349412962.png" caption="BMI værdier for drenge under 18 år" alt="BMI værdier for drenge under 18 år" %}
 
-https://nielstraining.dk/wp-content/uploads/2017/08/BMI-formel-piger-sundhed-b%C3%B8rn-WHO-sundhed-e1502348640326.png
+{% include figure image_path="https://nielstraining.dk/wp-content/uploads/2017/08/BMI-formel-piger-sundhed-b%C3%B8rn-WHO-sundhed-e1502348640326.png" caption="BMI værdier for piger under 18 år" alt="BMI værdier for piger under 18 år" %}
 
-https://nielstraining.dk/wp-content/uploads/2017/08/BMI-formel-drenge-sundhed-b%C3%B8rn-WHO-sundhed-e1502349412962.png
+## Ponderal Index
 
-I beregneren anvendes de grænseværider der anbefales af IOTF og som generelt også anbefales af autoriteter i Danmark. Man har lavet grænseværdierne således at de flugter med de anvendte værdier for voksne ved alderen 18 år (se figur til højre).
+En af ulemperne ved BMI er, at det kan give en unfair sammenligning mellem folk af forskellig statur. Der findes et andet og meget mindre brugt index, der hedder Ponderal Index, som skulle give en mere fair sammenligning.
 
-Som noget nyt er der nu også angivet grænseværdier for undervægt (Cole 2007). I denne beregner anvendes betegnelserne "Under normal", "undervægtig" og "meget undervægtig". I den originale publikation er de tilsvarende betegnelser: "Thinness grade 1, 2 and 3". Disse grænser ses som de grønne, brune og gule streger på figuren til højre.
+### Udregning af Ponderal Index
 
+Til forskel fra BMI er højden (m) altså løftet i tredje potens i stedet for anden potens.
+
+{% include math formula="BMI = \frac{weight (kg)}{height (m)^3}" %}
  
-{% include figure image_path="https://web.archive.org/web/20110811062547im_/http://www.motion-online.dk/images/2011/bmicurves_300.jpg" %}
- 
+## Referencer
 
- 
+### BMI
 
-## Referencer:
+#### Generelle referencer
+
+US weight guidelines: is it also important to consider cardiorespiratory fitness?
+Lee CD, Jackson AS, Blair SN
+Int J Obes Relat Metab Disord 1998 Aug;22 Suppl 2:S2-7
+
+Preventing and Managing the Global Epidemic of Obesity. Report of the World Health Organization Consultation of Obesity. WHO, Geneva, June 1997.
+
+Quetelet LAJ. Sur I'homme et le developpement de ses facultes, ou essai de physique sociale. Paris: Bachelier, 1835. (Den originale BMI-reference)
+
+#### BMI og børn
 
 Body mass index cut offs to define thinness in children and adolescents: international survey. Cole TJ, Flegal KM, Nicholls D, Jackson AA. BMJ. 2007 Jul 28;335(7612):194. Epub 2007 Jun 25.
 
@@ -97,71 +124,7 @@ Pietrobelli A, Faith MS, Allison DB, Gallagher D, Chiumello G, Heymsfield, SB. B
 
 The Centers for Disease Control and Prevention (CDC). BMI - Body Mass Index: BMI for Children and Teens.
 
-***
-
-
-
-
-
-
-## Klassificering af overvægt og fedme i forhold til BMI
-
- 	
-|               | Fedme klassificering | BMI (kg/m<sup>2</sup>) | 
-|---------------|----------------------|------------------------|
-| Undervægtig	  |                      | < 18.5                 |
-| Normal	 	    |                      | 18,5 - 24,9            |
-| Overvægtig	  |                      | 25,0 - 29,9            |
-| Fedme         | I                    | 30,0 - 34,9            |
-|               | II                   | 35,0 - 39,9            |
-| Ekstrem fedme	| III                  | 40                     |
-
-BMI-tallet fortæller dig normalt ikke noget du ikke ved i forvejen og skal altid tolkes med et vist forbehold.
-
-Hvis du er meget muskuløs, eller fra naturens side er bygget ligesom et egetræ, så kan det godt lade sig gøre at have et BMI på 30 uden reelt at være overvægtig.
-
-Selv hvis du ikke er specielt muskuløs og ligger i kategorien "overvægtig", så kan du sagtens have en fuldt tifredsstillende sundhedsprofil, hvis blot du motionerer meget. Faktisk er det farligere at have et BMI på 23 og være i dårlig form, end det er at have et BMI på 28 og være i god form. Ofte er det desværre sådan, at dem der har høje BMI også er dem der motionerer mindst - og det er naturligvis en dårlig kombination.
-
-Der hvor BMI er et nyttigt værktøj, er når udviklingen i større befolkningsgrupper skal beskrives. Når man kigger på tilstrækkeligt mange personer på en gang, så vil "afvigerne" forsvinde i tallene og gennemsnitsværdierne vil være et reelt udtryk for forekomst af overvægt og fedme.
-
-Formlen for BMI er:
-
-BMI = vægt / h<sup>2</sup>
-
-Vægt måles i kg og højde i meter
-
-## Referencer
-
-US weight guidelines: is it also important to consider cardiorespiratory fitness?
-Lee CD, Jackson AS, Blair SN
-Int J Obes Relat Metab Disord 1998 Aug;22 Suppl 2:S2-7
-
-Preventing and Managing the Global Epidemic of Obesity. Report of the World Health Organization Consultation of Obesity. WHO, Geneva, June 1997.
-
-Quetelet LAJ. Sur I'homme et le developpement de ses facultes, ou essai de physique sociale. Paris: Bachelier, 1835. (Den originale BMI-reference)
-
-
-
-***
-
-## Ponderal index
-
-The ponderal index is somewhat comparable to Body mass index, but gives a more fair comparison between individuals of different stature.
- 
-
-Instructions:
-1. Measure weight and height and enter values.
-
-
-## Background
-
-Ponderal index is calculated as weight divided by height raised to the power of 3.
-
-Ponderal index = kg / (m x m x m)
-
- 
-
-## References
+### Ponderal Index
 
 Dimensional analysis and theory of biological similarity.
 Günther B.
