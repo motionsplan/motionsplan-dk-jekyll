@@ -13,7 +13,7 @@ tags:
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 feature_row:
-  - image_path: https://images.wupti.com/retrievefile.axd?file=314482&mh=350&mw=350&ps=FullSize&q=95&hash=3FB1F6DD3BC7ACAB778E58B7B1E70758D2173E4E
+  - image_path: https://books.google.dk/books/content?id=BC9SiAsUPqsC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70NFS4lEU6whWCqlyrgOGErL5OJe7YUn-qJQJ5_NuL_euKqiLC3Uf1qDPx-lSIhDDhVIpgexBiz5cdAiKXbtccrKfOlel8OTdj9EgWhSXwkff-qWaHaQt5WU1MvzRP65Jcjll3V
     alt: "Textbook of Work Physiology"
     title: "Textbook of Work Physiology"
     excerpt: "This updated and revised fourth edition of the respected Textbook of Work Physiology combines classical issues in exercise and work physiology with the latest scientific findings. The result is an outstanding professional reference that will be indispensable to advanced students, physiologists, clinicians, physical educators--any professional pursuing study of the body as a working machine."
