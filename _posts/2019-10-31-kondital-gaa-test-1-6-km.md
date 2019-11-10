@@ -1,11 +1,11 @@
 ---
-title: "1,6 km gå test"
+title: "Kondital fra 1,6 km gå test"
 permalink: /gaatest/
-excerpt: "Estimer din kondition ud fra en 1,6 km gåtest"
+excerpt: "1,6 km gåtesten er særligt velegnet for utrænede, folk i dårlig form, ældre og overvægtige."
 language: da
 header:
-  overlay_image: https://i.ytimg.com/vi/zUyuUoU7lAQ/maxresdefault.jpg
-  teaser: https://i.ytimg.com/vi/zUyuUoU7lAQ/maxresdefault.jpg
+  overlay_image: https://static.lakana.com/npg-global-us-east-1/photo/2017/04/05/people%20walking%20generic%20sidewalk_6381382_ver1.0_1280_720.jpg
+  teaser: https://static.lakana.com/npg-global-us-east-1/photo/2017/04/05/people%20walking%20generic%20sidewalk_6381382_ver1.0_1280_720.jpg
 category:
   - Kondition
 tags:
@@ -15,16 +15,14 @@ last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 ---
 
-Testen for de utrænede – kræver blot at man kan gå 1600 meter.
-
-Denne test er specielt beregnet til folk i dårlig form, ældre eller overvægtige. Testen er ikke voldsomt anstrengende og baserer sig på noget de fleste kan klare, nemlig at gå 1,6 km. Testen er ikke velegnet til yngre veltrænede mennesker.
+1,6 km gåtest er særligt egnede til utrænede, folk i dårlig form, ældre eller overvægtige. Testen er ikke voldsomt anstrengende, og den kræver blot, at man kan gå 1,6 km. Testen er ikke velegnet til yngre veltrænede mennesker.
 
 ## Testens gennemførelse
 
-1. Opmål en distance på 1,6 km.
+1. Mål en distance på 1,6 km.
 2. Gå distancen så hurtigt du kan (dog uden at overanstrenge dig).
-3. Notér tiden det tog at gå distancen, samt den puls du havde ved afslutningen af de 1,6 km.
-4. Indtast værdierne i nedenstående skema og tryk på “Beregn” for kondital.
+3. Notér tiden og den puls du havde ved afslutningen af de 1,6 km.
+4. Indtast værdierne i nedenstående beregner.
 
 Testen kan enten udføres på et løbebånd eller en opmålt rute, evt. på en 400 meter bane.
 

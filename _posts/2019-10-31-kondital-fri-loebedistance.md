@@ -19,13 +19,12 @@ Du kan beregne dit kondital ud fra en tur, du har løbet. Du indtaster bare, hvo
 
 Tre ting skal dog være opfyldt:
 
-- Du skal have løbet turen så hurtigt du kan og være varmet op i forvejen
+- Du skal være varmet op på forhånd.
+- Du skal have løbet turen så hurtigt som muligt.
 - Ruten skal være næsten flad.
 - Distancen skal være mellem 1500 meter og 42 km.
 
 {% include calculate-fitness-runningdistance.html %}
-
-Herefter kan du evt. slå op i tabellen for kondital og se hvordan du ligger i forhold til din aldersklasse.
 
 ## Reference
 

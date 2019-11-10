@@ -19,11 +19,11 @@ toc: true
 *[TEE]: Total energiomsætning
 *[kJ]: KiloJoule
 
-Med denne beregner kan du anslå dit hvilestofskifte samt dit samlede daglige energibehov. Dette er den klassiske beregner, hvor man kun angiver sit aktivitetsniveau udfra nogle overordnede mål.
+Med denne beregner kan du anslå dit hvilestofskifte og dit samlede daglige energibehov. Beregneren er ret simpel og angiver kun dit aktivitetsniveau udfra nogle overordnede mål.
 
 {% include calculate-metabolic-rate.html %}
 
-Det skal understreges at beregningen er behæftet med stor usikkerhed. Værdierne er rettet mod "almindelige" mennesker og ikke f.eks. cykelryttere og triatleter.
+Beregningen er behæftet med stor usikkerhed. Værdierne er rettet mod "almindelige" mennesker og ikke meget aktive kredsløbsatleter, fx cykelryttere og triatleter.
 
 ## Mere avanceret udregning af energiforbrug
 

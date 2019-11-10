@@ -15,54 +15,7 @@ toc: true
 ---
 
 Hvis man gerne vil sammenligne styrken af forskellige løftere, så kan man i stedet operere med relativ styrke. Det er imidlertid for enkelt bare at bruge relativ styrke, da sammenhængen mellem løft og kropsvægt ikke er lineær.
-<<<<<<< HEAD
-=======
 
-{% include figure image_path="https://web.archive.org/web/20070610031909im_/http://www.motion-online.dk/images/siff_loeft1.gif" %}
-
-Derfor findes der en række forskellige beregningsmodeller. Den mest kendte er formentlig _Wilks score_, som også er den anerkendte metode i styrkeløft i øjeblikket. 
-
-
-
-## Dr. Mel Siff
-
-Mel Siff har i _Supertraining_ beskrevet følgende formular. 
-
-T = a - b * bw^(-c)
-
-hvor T er forventet for en topklasseløfter og where bw = bodymass and a, b and c are numerical constants.
-
-For powerlifting data up to 1987, the values of the constants are:
-Powerlifting Total:         a = 1270.4, b = 172970, c = 1.3925
-Powerlifting Squat:         a = 638.01, b = 9517.7, c = 0.7911
-Powerlifting Bench Press:   a = 408.15, b = 11047, c = 0.9371
-Powerlifting Deadlift:      a = 433.14, b = 493825, c = 1.9712
-
-For weightlifting data up to 1988, the values of the constants for adult
-lifters are:
-
-  a  =  512.245, b =  146230  and c =  1.605
-
-## Wilks score
-
-## Nuckols 
-
-## Index100
-
-Index100 er udviklet af Morten Zacho.
-
-For noget tid siden udviklede jeg Index100-beregneren på baggrund af nu afdøde Mel Siffs formler. Index100 har vist aldrig opnået den popularitet jeg havde tiltænkt den, hvilket kan hænge sammen med at folk ikke er overbevist om at den er retfærdig. Desuden har man jo Wilks score der bliver anvendt i styrkeløft.
-
-Index100 omregner dit løft til hvad det teoretisk ville være hvis du havde en kropsvægt på 100 kg. Index100 giver derfor intuitiv mening også ved andre styrkeøvelser end de tre store. Index100 kan umiddelbart forstås - også af folk der ikke er inde i styrkeløft og kender Wilks score. Desuden påstod Mel Siff at det teoretiske fundament for hans formler var mere solidt end for Wilks score.
-
-For at sammenligne de to beregningsmetoder anvendte jeg de to formler på de opnåede totaler fra MOL-træf II. Resultatet ses i nedenstående skema. Som det ses ændres der ikke meget på rækkefølgen om man anvender den ene eller den anden.
-
-Hvis man er styrkeløfter kan der være mere information i at beregne sin Wilks score, da man herved hurtigt kan sammenligne sig med andre Wilks scoringer, men til alle andre uoficielle dyster går min anbefaling til Index100.
-
-***
-
-En del af motivationen ved træning kan være at sammenligne sig med andre. Ved styrketræning er der den uretfærdighed at store personer har en fordel, men ved at brugeMotion-online's Index100 beregner kan man sammenligne på tværs af kropsvægt!
->>>>>>> Fixes
 
 {% include figure image_path="https://web.archive.org/web/20070610031909im_/http://www.motion-online.dk/images/siff_loeft1.gif" %}
 

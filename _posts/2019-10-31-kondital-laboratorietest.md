@@ -4,8 +4,8 @@ permalink: /kondital-laboratorietest/
 excerpt: ""
 language: da
 header:
-  overlay_image: https://i.ytimg.com/vi/zUyuUoU7lAQ/maxresdefault.jpg
-  teaser: https://i.ytimg.com/vi/zUyuUoU7lAQ/maxresdefault.jpg
+  overlay_image: https://www.vih.dk/sites/vih/files/2K2A1286%20-%20Kopi.jpg
+  teaser: https://www.vih.dk/sites/vih/files/2K2A1286%20-%20Kopi.jpg
 category:
   - Kondition
 tags:
