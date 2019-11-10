@@ -1,34 +1,17 @@
 <form>
-    <div id="mxWrapper">
-        <div id="mxForm">
-            <div id="mxInput">
-                <div class="mxRow">
-                    <div class="mxrowLft">
-                        <label class="mxLabel">Alder:</label>
-                    </div>
-                    <div class="mxrowRgt">
-                        <input type="text" class="mxInpTxt" id="mxAld" value="30" /><span class="mxpostFx">år</span>
-                    </div>
-                </div>
-                <div class="mxRow">
-                    <div class="mxrowLft">
-                    </div>
-                    <div class="mxrowRgt">
-                        <input type="button" class="mxBtns" id="mxCalBtn" value="Beregn" />
-                    </div>
-                </div>
-            </div>
+    <fieldset>
+        <div class="form-group">
+            <label class="mxLabel">Alder (år)</label>
+            <input type="text" maxlength="3" id="mxAld" placeholder="Alder i år" />
         </div>
-        <div id="mxResults">
-            <div id="mxresTab"></div>
-            <div class="mxresRow">
-                <div class="mxresrowLft">
-                    <span class="mxresLabel">Maxpuls:</span>
-                </div>
-                <div class="mxresrowRgt">
-                    <span class="mxresTxt" id="mxMaxpul">0</span><span class="mxrespostFx"></span>
-                </div>
-            </div>
+        <div class="mxrowRgt">
+            <input type="button" class="mxBtns" id="mxCalBtn" value="Beregn" />
+        </div>
+    </fieldset>
+    <div class="mxresRow">
+        <div class="mxresrowLft">
+            <span class="mxresLabel">Maxpuls:</span>
+            <span class="mxresTxt" id="mxMaxpul">0</span><span class="mxrespostFx"></span>
         </div>
     </div>
 </form>

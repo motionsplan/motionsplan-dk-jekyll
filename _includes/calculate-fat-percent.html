@@ -1,4 +1,4 @@
-<form class="form-inline">
+<form>
     <fieldset>
         <legend>Køn</legend>
         <label for="checkbox-man" class="radio">
@@ -12,34 +12,28 @@
     </fieldset>
     <fieldset>
         <div class="form-group">
-            <label for="age">Alder</label>
-            <input class="input-mini" maxlength="3" name="age" id="age" size="3" type="text" value="" />
-            <span class="help-inline">år</span>
+            <label for="age">Alder (år)</label>
+            <input maxlength="3" name="age" id="age" type="text" placeholder="Alder i år" />
         </div>
         <div class="form-group">
-            <label for="height">Højde</label>
-            <input class="input-mini" maxlength="3" name="height" id="height" size="3" type="text" value="" />
-            <span class="help-inline">cm</span>
+            <label for="height">Højde (cm)</label>
+            <input maxlength="3" name="height" id="height" type="text" placeholder="Højde i cm" />
         </div>
         <div class="form-group">
-            <label for="weight">Vægt</label> 
-            <input class="input-mini" maxlength="3" name="weight" id="weight" size="3" type="text" value="" />
-            <span class="help-inline">kg</span>
+            <label for="weight">Vægt (kg)</label> 
+            <input maxlength="3" name="weight" id="weight" type="text" placeholder="Vægt i kg" />
         </div>
         <input class="btn btn--large btn--success" id="calculate_fat_percent" type="button" value="Udregn" />
     </fieldset>
-    <fieldset>
+    <fieldset disabled="disabled">
         <label>Body mass index (BMI)
-            <input class="input-mini" disabled="disabled" name="BMI" id="BMI" size="6" type="text" value="" />
-            <span class="help-inline">(udregnes)</span>
+            <input disabled="disabled" name="BMI" id="BMI" size="6" type="text" placeholder="Venter på udregning" />
         </label>
         <label>Fedtmasse
-            <input class="input-mini" disabled="disabled" name="fedtmasse" id="fat_mass" size="6" type="text" value="" />
-            <span class="help-inline">kg (udregnes)</span>
+            <input disabled="disabled" name="fedtmasse" id="fat_mass" size="6" type="text" placeholder="Venter på udregning" />
         </label>
         <label>Fedtprocent
-            <input class="input-mini" disabled="disabled" name="fedtprocent" id="fat_percent" size="6" type="text" value="" />
-            <span class="help-inline">% (udregnes)</span>
+            <input disabled="disabled" name="fedtprocent" id="fat_percent" size="6" type="text" placeholder="Venter på udregning" />
         </label>
     </fieldset>
 </form>
