@@ -16,7 +16,6 @@ toc: true
 
 Hvis man gerne vil sammenligne styrken af forskellige løftere, så kan man i stedet operere med relativ styrke. Det er imidlertid for enkelt bare at bruge relativ styrke, da sammenhængen mellem løft og kropsvægt ikke er lineær.
 
-
 {% include figure image_path="https://web.archive.org/web/20070610031909im_/http://www.motion-online.dk/images/siff_loeft1.gif" %}
 
 Derfor findes der en række forskellige beregningsmodeller. Den mest kendte er formentlig _Wilks score_, som også er den anerkendte metode i styrkeløft i øjeblikket. 

@@ -1,7 +1,7 @@
 ---
-title: "Et-punkts test på cykel"
+title: "Åstrands et-punktstest på cykel"
 permalink: /etpunktstest/
-excerpt: ""
+excerpt: "Åstrands et-punktstest er en submaksimal test på ergometercykel, hvor du måler belastning og puls. Fortrinlig til at måle ændringer i kondition over tid."
 language: da
 header:
   overlay_image: https://www.ridehighmagazine.com/wp-content/uploads/2019/04/Fitness-World-%E2%80%93-indoor-cycling-version-2.0_BANNER.jpg
@@ -25,7 +25,7 @@ feature_row:
 
 Åstrands et-punkt-test er en enkel, submaksimal test, hvor man ikke behøver anstrenge sig særlig meget. Testen er let at gennemføre, fordi den også kun kræver, at man kører på en enkelt submaximal belastning.
 
-Testens bestemmelse af den maksimale iltoptagelse er behæftet med nogen usikkerhed (som ved alle andre submaksimale tests), men testen er fremragende til at måle ændringer i konditionen over tid.
+Testens bestemmelse af den maksimale iltoptagelse er behæftet med nogen usikkerhed (som ved alle andre submaksimale tests), men testen er fremragende til at måle ændringer i konditionen over tid. Usikkerheden hører bl.a. sammen med de store individuelle forskelle, der er i folks maksimale puls, selvom de har samme alder.
 
 Du skal bruge en kondicykel, der kan vise belastningen i watt. Desuden skal du måle din puls, mens du cykler.
 
@@ -37,11 +37,19 @@ Du skal køre på en af fire nedenstående belastninger: 50, 75, 100 eller 150 w
 
 Oprindeligt skulle konditallet findes ved at bruge det [nomogram, Åstrand har udviklet](https://www.sst.dk/-/media/Udgivelser/2006/Publ2006/CFF/Fysisk_aktivitet_psyk/Testmanual_psyk,-d-,pdf.ashx).
 
+De anvendte sammenhænge mellem submaksimal puls, arbejdsbelastning, alder, køn og iltoptagelse er fundet gennem regressionsanalyse på et stort antal forsøgspersoner.
+
 {% include figure image_path="/assets/images/aastrand-nomogram.png" caption="Åstrands nomogram til bestemmelse af maksimal iltoptagelse for etpunktstesten" alt="Åstrands nomogram til bestemmelse af maksimal iltoptagelse for etpunktstesten" %}
 
 Morten Zacho har imidlertid estimeret en formel, som bruges i beregneren ovenfor - og han har også delt et regneark med formlen.
 
 [Download estimeret Excel-ark lavet af Morten Zacho](https://web.archive.org/web/20040405164705/http://motion-online.dk/vo2/etpunktstest.xls){: .btn .btn--large .btn--info }
+
+## Usikkerheder
+
+> Den teoretiske usikkerhed kan eksemplificeres ved at to tredjedele vil får vurderet konditallet korrekt indenfor en 15 % afvigelse. Ca. hver 20. person vil få sit kondital vurderet 30 % forkert.
+
+--- <cite>[Morten Zacho](https://www.motion-online.dk/6-maaling-fysisk-kapacitet-monitorering-traening/)</cite>
 
 ## Referencer
 

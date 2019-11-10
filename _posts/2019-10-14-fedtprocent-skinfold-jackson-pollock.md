@@ -24,6 +24,14 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=20604&htmlurl=https://www.bodyman.dk/shop/accu-measure-fitness-54935p.html"
     btn_label: "Læs mere"
     btn_class: "btn--success"
+feature_row_references:
+  - image_path: https://imgcdn.saxo.com/_9781469825885/0x500
+    alt: "ACSM's Guidelines for Exercise Testing and Prescription"
+    title: "ACSM's Guidelines for Exercise Testing and Prescription"
+    excerpt: "The flagship title of the certification suite from the American College of Sports Medicine, ACSM's Guidelines for Exercise Testing and Prescription is a handbook that delivers scientifically based standards on exercise testing and prescription to the certification candidate, the professional, and the student. The 9th edition focuses on evidence-based recommendations that reflect the latest research and clinical information."
+    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/acsms-guidelines-for-exercise-testing-and-prescription_american-college-of-sports-medicine_epub_9781469825885?gclid=CjwKCAiA5JnuBRA-EiwA-0ggPdXHFExjFsqJLnGbAfydZFfXbHNc8LCSWFplRzuKmJ9vjX1Z3A8TfRoCzqgQAvD_BwE"
+    btn_label: "Læs mere"
+    btn_class: "btn--success"
 ---
 
 *[ACSM]: American College of Sports Medicine
@@ -59,8 +67,10 @@ Der er en formel for hhv. mænd og kvinder.
 
 ## Referencer
 
-Jackson AS, Pollock ML. Generalized equations for predicting body density of men. Br J Nutr. 1978; 40: 497-504.
+{% include feature_row id="feature_row_references" %}
 
-Siri WE. The gross composition of the body. pages 239-280. IN: Lawrence JH, Tobias CA (editors). Advances in Biological and Medical Physics. Academic Press, Inc. Advances in Biological and Medical Physics. 1956; 4: 239-280.
+Jackson, A. S., og M. L. Pollock. 2004. “Generalized Equations for Predicting Body Density of Men. 1978”. The British Journal of Nutrition 91 (1): 161–68.
+
+Siri, W. E. 1956. “The Gross Composition of the Body”. Advances in Biological and Medical Physics 4: 239–80. https://doi.org/10.1016/b978-1-4832-3110-5.50011-x.
 
 {% include feature_row type="left" %}

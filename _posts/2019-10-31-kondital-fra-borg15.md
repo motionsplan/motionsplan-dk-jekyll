@@ -1,7 +1,7 @@
 ---
 title: "Borg 15 konditest på cykel (RPE-test)"
 permalink: /kondital-borg15/
-excerpt: "Borg 15 testen er en submaksimal test til at estimere forsøgspersonens kondital."
+excerpt: "Borg 15 testen er en submaksimal test til at estimere forsøgspersonens kondital på en ergometercykel."
 language: da
 header:
   overlay_image: http://cdn.shopify.com/s/files/1/0942/6160/files/what-is-a-wattbike-indoor-bike-trainer.jpg?v=1522914210

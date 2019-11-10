@@ -1,7 +1,7 @@
 ---
 title: "Find din kondition fra Bruce test på løbebånd"
 permalink: /bruce-test/
-excerpt: ""
+excerpt: "Bruce-test på løbebånd er en submaksimal test, der kræver et løbebånd med mulighed for at indstille hastighed og hældning."
 language: da
 header:
   overlay_image: https://i.ytimg.com/vi/zUyuUoU7lAQ/maxresdefault.jpg

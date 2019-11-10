@@ -1,7 +1,7 @@
 ---
 title: "Find konditallet ud fra Watt-max testen på cykel"
 permalink: /kondital-wattmax/
-excerpt: ""
+excerpt: "Watt-max testen er en trinvist stigende maksimaltest på ergometercykel. Testens resultat kan være et præstationsmål i sig selv, men den giver også et validt estimat af den maksimale iltoptagelse."
 language: da
 header:
   overlay_image: https://prod-wattbike-images.s3.amazonaws.com/images/Wattbike4059_edit-(2)-ecffa30a11c87543.jpg
@@ -74,6 +74,4 @@ Du kan køre testen på en Wattbike ved at bruge tabellerne, der omsætter modst
 
 [Wattmax test](https://systime.dk/fileadmin/indhold/SupplerendeMaterialer/Idraet_-_teori_og_traening/4_Traeningslaere/watt-max.htm)
 
-A maximal cycle exercise protocol to predict maximal oxygen uptake.
-Andersen LB.
-Scand J Med Sci Sports 1995 Jun;5(3):143-6
+Andersen, L. B. 1995. “A Maximal Cycle Exercise Protocol to Predict Maximal Oxygen Uptake”. Scandinavian Journal of Medicine & Science in Sports 5 (3): 143–46. https://doi.org/10.1111/j.1600-0838.1995.tb00027.x.

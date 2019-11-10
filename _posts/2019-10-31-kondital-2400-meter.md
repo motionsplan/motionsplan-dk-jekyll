@@ -1,7 +1,7 @@
 ---
 title: "Find dit kondital 2400 meter"
 permalink: /kondital-2400-meter/
-excerpt: ""
+excerpt: "2400 meter testen er en afart af Coppertesten, hvor det gælder om at løbe 2400 meter så hurtigt som muligt."
 language: da
 header:
   overlay_image: https://i.ytimg.com/vi/zUyuUoU7lAQ/maxresdefault.jpg

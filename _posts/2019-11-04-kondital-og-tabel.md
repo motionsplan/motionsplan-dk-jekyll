@@ -13,6 +13,14 @@ tags:
   - tabel
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
+feature_row:
+  - image_path: https://books.google.dk/books/content?id=BC9SiAsUPqsC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70NFS4lEU6whWCqlyrgOGErL5OJe7YUn-qJQJ5_NuL_euKqiLC3Uf1qDPx-lSIhDDhVIpgexBiz5cdAiKXbtccrKfOlel8OTdj9EgWhSXwkff-qWaHaQt5WU1MvzRP65Jcjll3V
+    alt: "Textbook of Work Physiology"
+    title: "Textbook of Work Physiology"
+    excerpt: "This updated and revised fourth edition of the respected Textbook of Work Physiology combines classical issues in exercise and work physiology with the latest scientific findings. The result is an outstanding professional reference that will be indispensable to advanced students, physiologists, clinicians, physical educators--any professional pursuing study of the body as a working machine."
+    url: "https://books.google.dk/books/about/Textbook_of_Work_Physiology.html?id=BC9SiAsUPqsC&redir_esc=y"
+    btn_label: "Læs mere"
+    btn_class: "btn--success"
 ---
 
 *[BMI]: Body Mass Index
@@ -64,10 +72,7 @@ Konditallet indgår ofte, når man vil vurdere den enkeltes sundhedstilstand. Pr
 
 En mulighed for bedre at kunne vurdere den overvægtiges kondital i forhold til sundhed er at udregne konditallet ud fra et index. Fx foreslår Morten Zacho at man beregner konditallet som om vedkommende var normalvægtig ift. BMI 23. Dette kondital kaldes _Kondital ved index 23_. Hvis man beskæftiger sig med sundhed og kondition, så bør man nok inddrage denne værdi i tilbagemeldingen til den testede.
 
-BEREGNER ...
-
-
-## Uddybende forklaring
+{% include calculate-fitness-index-23.html %}
 
 Det almindelige kondital udregnes ved at dividere VO<sub>2</sub>max med kropsvægten. Konditallet siger altså noget om hvor stærk kredsløbsmotoren er i forhold til den krop, der skal flyttes. Det giver rigtig fin mening i forhold til at vurdere præstationsevnen, men det er ikke helt så let i forhold til sundhedstilstanden.
 
@@ -85,9 +90,15 @@ På formel ser det således ud:
 
 Kondital<sub>Index 23</sub> er altså en beskrivelse af en persons relative kredsløbskapacitet i forhold til det potentiale som den medfødte kropsstørrelse giver. Samtidigt er det en værdi der er nem at forklare for almindelige mennesker: "Dette er det kondital du ville have, såfremt du var normalvægtig"
 
+Det har også været foreslået at opløfte kropsvægten med 0,73, når man sammenligner kondital for bedre at tage højde for løbeøkonomi og give en mere retfærdig sammenligning mellem lette og tunge atleter. Læs fx mere i denne artikel [Effekt af Kropsvægt på den maksimale iltoptagelse](http://www.motion-online.dk/effekt-kropsvaegt-paa-maksimale-iltoptagelse/).
+{: .notice .notice--warning }
+
 ## Referencer
 
 - Tabellerne er lavet af Per-Olof Åstrand og suppleret med data fra danske børn og unge --- [Hvad er konditallet?](https://www.motion-online.dk/hvad-er-konditallet/)
+
+{% include feature_row type="left" %}
+
 - [Retfærdig vurdering af overvægtiges kondition](https://www.motion-online.dk/retfaerdig-vurdering-overvaegtiges-kondition/)
 
 ## Noter

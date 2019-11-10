@@ -49,9 +49,9 @@ Der måles på biceps, triceps, skulderbladets spids og hoftekammen. Du kan se n
 
 ## Referencer
 
-Durnin JVGA, Womersley J. Body fat assessed from total body density and its estimation from skinfold thickness: measurements on 481 men and women aged from 16 to 72 years. Br J Nutrition. 1974; 32: 77-97.
+Durnin, J. V. G. A., og J. Womersley. 1974. “Body Fat Assessed from Total Body Density and Its Estimation from Skinfold Thickness: Measurements on 481 Men and Women Aged from 16 to 72 Years”. British Journal of Nutrition 32 (1): 77–97. https://doi.org/10.1079/BJN19740060.
 
-Siri WE. The gross composition of the body. pages 239-280. IN: Lawrence JH, Tobias CA (editors). Advances in Biological and Medical Physics. Academic Press, Inc. Advances in Biological and Medical Physics. 1956; 4: 239-280.
+Siri, W. E. 1956. “The Gross Composition of the Body”. Advances in Biological and Medical Physics 4: 239–80. https://doi.org/10.1016/b978-1-4832-3110-5.50011-x.
 
 [Mål din fedtprocent - valg af formel](https://www.motion-online.dk/maal-din-fedtprocent-fedttang-valg-formel/)
 

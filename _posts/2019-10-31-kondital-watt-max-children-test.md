@@ -1,7 +1,7 @@
 ---
 title: "Find konditallet for børn ud fra Watt-max testen på cykel"
 permalink: /kondital-wattmax-boern/
-excerpt: ""
+excerpt: "Watt-max testen for børn er en trinvist stigende maksimaltest på ergometercykel."
 language: da
 header:
   overlay_image: https://i.ytimg.com/vi/jQ_Qtu9qSLU/maxresdefault.jpg
@@ -39,8 +39,6 @@ Testen bør køres med en kadence på 60-80 RPM.
 
 ## Reference
 
-Abstract Secular trends in physical fitness and obesity in Danish 9-year-old girls and boys: Odense School Child Study and Danish substudy of the European Youth Heart Study.
-Wedderkopp N, Froberg K, Hansen HS, Andersen LB.
-Scand J Med Sci Sports. 2004 Jun;14(3):150-5.
+Wedderkopp, N., K. Froberg, H. S. Hansen, og L. B. Andersen. 2004. “Secular Trends in Physical Fitness and Obesity in Danish 9-Year-Old Girls and Boys: Odense School Child Study and Danish Substudy of the European Youth Heart Study”. Scandinavian Journal of Medicine & Science in Sports 14 (3): 150–55. https://doi.org/10.1111/j.1600-0838.2004.00365.x.
 
 [Børne-test-watt-max](http://www.motion-online.dk/boern-test-watt-max/)

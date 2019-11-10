@@ -1,7 +1,7 @@
 ---
 title: "Find dit kondital Cooper test"
 permalink: /kondital-cooper/
-excerpt: ""
+excerpt: "12 minutters Cooper test er en maksimal test, der estimerer konditallet ud fra den tilbagelagte distance."
 language: da
 header:
   overlay_image: https://i.ytimg.com/vi/zUyuUoU7lAQ/maxresdefault.jpg

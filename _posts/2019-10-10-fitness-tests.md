@@ -33,16 +33,16 @@ Der er virkelig mange forskellige onlineværktøjer, hvor du kan teste forskelli
 ## Health-calc
 
 > On this site you will find calculators and utilities related to health, exercise and diet. All utilities on this site are well-proven and scientifically based tools and scientific references are provided where relevant. Health-calc.com is owned and developed by exercise physiologist Morten Zacho (M.Sc.).
->
-> [About Health-calc.com](http://www.health-calc.com/miscellaneous/about-health-calc)
+
+---<cite>[About Health-calc.com](http://www.health-calc.com/miscellaneous/about-health-calc)</cite>
 
 ## Omnicalculator
 
 På Omnicalculator finder du en række [sundhedsværtøjer](https://www.omnicalculator.com/health), hvor du kan udregne kropsform, fedtprocent, BMI og meget andet.
 
 > Omni Calculator is here to change all that - we are working on a technology that will turn every* calculation-based problem trivial to solve for anyone.
->
-> [About](https://www.omnicalculator.com/)
+
+---<cite>[About](https://www.omnicalculator.com/)</cite>
 
 ## Læs mere
 

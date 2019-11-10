@@ -51,12 +51,8 @@ YMCA hudfoldstesten er baseret på Jackson & Pollocks formler. Formlerne er dog 
 
 ## Referencer
 
-YMCA Fitness Testing and Assessment Manual
-Lawrence A. Golding (Editor)
-Human Kinetics Publishers; 4 edition
+Golding, Lawrence A. 2000. Ymca Fitness Testing and Assessment Manual. 4. udg. Human Kinetics Publishers. Set 10. november 2019. https://www.amazon.com/Ymca-Fitness-Testing-Assessment-Manual/dp/0736033165.
 
-Generalized equations for predicting body density of men. 1978.
-Jackson AS, Pollock ML.
-Br J Nutr. 2004 Jan;91(1):161-8.
+Jackson, A. S., og M. L. Pollock. 2004. “Generalized Equations for Predicting Body Density of Men. 1978”. The British Journal of Nutrition 91 (1): 161–68.
 
 {% include feature_row type="left" %}

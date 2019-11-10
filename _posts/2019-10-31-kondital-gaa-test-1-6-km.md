@@ -1,7 +1,7 @@
 ---
 title: "Kondital fra 1,6 km gå test"
 permalink: /gaatest/
-excerpt: "1,6 km gåtesten er særligt velegnet for utrænede, folk i dårlig form, ældre og overvægtige."
+excerpt: "1,6 km gåtesten er en submaksimal test til at estimere konditallet. Testen er særligt velegnet for utrænede, folk i dårlig form, ældre og overvægtige."
 language: da
 header:
   overlay_image: https://static.lakana.com/npg-global-us-east-1/photo/2017/04/05/people%20walking%20generic%20sidewalk_6381382_ver1.0_1280_720.jpg

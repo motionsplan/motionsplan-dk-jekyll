@@ -1,7 +1,7 @@
 ---
 title: "To-punkts test på cykel"
 permalink: /topunktstest/
-excerpt: ""
+excerpt: "Åstrands to-punktstest er en submaksimal test af konditionen på en ergometercykel, hvor du måler belastning og puls."
 language: da
 header:
   overlay_image: https://i.ytimg.com/vi/zUyuUoU7lAQ/maxresdefault.jpg
@@ -22,7 +22,7 @@ feature_row:
     btn_class: "btn--success"
 ---
 
-Til Åstrands topunktstest skal du bruge en kondicykel, der kan vise belastningen i watt. Desuden skal du kunne måle din puls - gerne med et pulsur.
+Til Åstrands to-punktstest skal du bruge en kondicykel, der kan vise belastningen i watt. Desuden skal du kunne måle din puls - gerne med et pulsur.
 
 {% include video provider="youtube" id="Ej5UH8KrE5Q" %}
 

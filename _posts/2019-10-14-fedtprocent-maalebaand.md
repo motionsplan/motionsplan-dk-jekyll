@@ -14,6 +14,14 @@ category:
   - Test
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
+feature_row:
+  - image_path: https://cdn6.bogreolen.dk/00039/91685/cover.1571714918.jpg
+    alt: "Exercise Physiology - Nutrition, Energy, and Human Performance"
+    title: "Exercise Physiology - Nutrition, Energy, and Human Performance"
+    excerpt: "Skrevet af BS, William D., PhD McArdle, M.Ed, Frank I. Katch, Victor L. Katch."
+    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://bogreolen.dk/exercise-physiology_bs_9781451193831"
+    btn_label: "Læs mere"
+    btn_class: "btn--success"
 ---
 
 *[BMI]: Body Mass Index
@@ -36,16 +44,12 @@ Algoritmen bag testen er afhængig af køn og alder, så derfor skel du bruge de
 
 ## Referencer
 
+{% include feature_row type="left" %}
+
 McArdle; Katch & Katch. Exercise Physiology, 4th ed.
 
-Prediction of body density from simple anthropometric measurements in college-age men and women.
-Katch FI, McArdle WD.
-Hum Biol. 1973 Sep;45(3):445-55.
+Katch, F. I., og W. D. McArdle. 1973. “Prediction of Body Density from Simple Anthropometric Measurements in College-Age Men and Women”. Human Biology 45 (3): 445–55.
 
-Generalized equation for predicting body density of women from girth measurements.
-Tran ZV, Weltman A.
-Med Sci Sports Exerc. 1989 Feb;21(1):101-4.
+Tran, Z. V., og A. Weltman. 1989. “Generalized Equation for Predicting Body Density of Women from Girth Measurements”. Medicine and Science in Sports and Exercise 21 (1): 101–4. https://doi.org/10.1249/00005768-198902000-00018.
 
-Predicting body composition of men from girth measurements.
-Tran ZV, Weltman A.
-Hum Biol. 1988 Feb;60(1):167-75.
+Tran, Z. V., og A. Weltman. 1988. “Predicting Body Composition of Men from Girth Measurements”. Human Biology 60 (1): 167–75.

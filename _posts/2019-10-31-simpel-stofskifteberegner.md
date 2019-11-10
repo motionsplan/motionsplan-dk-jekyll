@@ -12,6 +12,14 @@ tags:
   - stofskifte
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
+feature_row:
+  - image_path: https://cdn6.bogreolen.dk/00039/91685/cover.1571714918.jpg
+    alt: "Exercise Physiology - Nutrition, Energy, and Human Performance"
+    title: "Exercise Physiology - Nutrition, Energy, and Human Performance"
+    excerpt: "Skrevet af BS, William D., PhD McArdle, M.Ed, Frank I. Katch, Victor L. Katch."
+    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://bogreolen.dk/exercise-physiology_bs_9781451193831"
+    btn_label: "Læs mere"
+    btn_class: "btn--success"
 ---
 
 *[BMR]: Kroppens hvilestofskifte (basic metabolic rate)
@@ -54,6 +62,8 @@ Svært overvægtige får justeret deres energiomsætning ved aktivitet på en m�
 Vurderingen af fysisk aktivitetsniveau er givet ud fra en vurdering af PAL (Physical Activity Level). Der er anvendt WHO’s guidelines for forebyggelse af fedme (5) 
 
 ### Referencer
+
+{% include feature_row type="left" %}
 
 1. Nordiska næringsrekommendationer 1996. Nordiska ministerrådet. København, 1996.
 2. Energy and Protein Requirements, Proceedings of an IDECG workshop, Edited by Nevin S. Scrimshaw, John C. Waterlow and Beat Schürch. 1994.

@@ -1,20 +1,20 @@
 ---
-title: "Kompressionsstrømper - virker det?"
+title: "Kompressionsstrømper - virker det på præsation og restitution?"
 permalink: /artikel/kompressionsstroemper-en-god-ide
-excerpt: "Kompressionsstrømper foretrækkes af flere og flere løbere, men virker kompressionsstrømper?"
+excerpt: "Kompressionsstrømper foretrækkes af flere og flere løbere, men virker kompressionsstrømper på præstationsevnen og restitutionen?"
 language: da
 header:
   overlay_image: /assets/images/blog/kompressionsstroemper-en-god-ide.jpg
   teaser: /assets/images/blog/kompressionsstroemper-en-god-ide.jpg
+category:
+  - Konditionstræning
+  - Løb
+  - Webclips
 tags:
   - løb
   - restitution
   - tøj
   - kompressionstøj
-category:
-  - Konditionstræning
-  - Løb
-  - Webclips
 last_modified_at: 2019-03-03T20:27:57Z
 toc: true
 feature_row:
@@ -62,7 +62,7 @@ Ali et al (2007) demonstrerede at efter 10 km løb hos let trænede (recreationa
 
 Kemmler et al (2009) undersøgte 21 moderat trænede mænd, som løb på et løbebånd til der selvvalgte maksimale ydeevne. De lavede en test med kompressionsstrømper og en uden kompressionsstrømper. Løbepræstationen på anaerobe grænse blev forbedret med 1,5% og på deres aerobe grænse på 2,1%.
 
-## Opsamling
+## Opsamling på virkningen af kompressionsstrømper
 
 Det er tydeligt, at der stadig mangler mere forskning for at kunne give et helt præcist svar. Der mangler studier der kan belyse det venøse returløb, træningspræstationerne, muskeltræthed og DOMS, før vi kan sige noget endeligt. Det skal også understreges, at resultaterne for folk med problemer ikke direkte kan overføres til raske mennesker.
 

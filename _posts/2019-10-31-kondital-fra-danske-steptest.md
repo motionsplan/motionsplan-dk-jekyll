@@ -41,4 +41,4 @@ Metabolic Equivalent (MET) viser den energi, du forbrænder ved forskellige fysi
 
 ## Referencer
 
-- [Comparison of the Danish step test and the watt-max test for estimation of maximal oxygen uptake: The Health2008 study](https://www.researchgate.net/publication/231612412_Comparison_of_the_Danish_step_test_and_the_watt-max_test_for_estimation_of_maximal_oxygen_uptake_The_Health2008_study)
+Aadahl, Mette, Morten Zacho, Allan Linneberg, Betina Thuesen, og Torben Jørgensen. 2012. “Comparison of the Danish step test and the watt-max test for estimation of maximal oxygen uptake: The Health2008 study”. European journal of preventive cardiology 20 (september). https://doi.org/10.1177/2047487312462825.

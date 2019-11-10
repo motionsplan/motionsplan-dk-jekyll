@@ -1,7 +1,7 @@
 ---
-title: "6 min gå-test"
+title: "6 minutters gå-test"
 permalink: /gaatest-6min/
-excerpt: "Estimer din kondition ud fra en 6 min gåtest"
+excerpt: "6 minutters gå-test er en submaksimal test til at estimere konditallet for relativt fysisk svage personer."
 language: da
 header:
   overlay_image: https://www.straitstimes.com/sites/default/files/articles/2017/09/04/20170904_1504497527583_2073451859691958_16_amyama4_zuann.jpg
@@ -46,26 +46,14 @@ Vi har valgt at angive referenceværdier der ikke er baseret på tilvænning, da
 
 ## Referencer
 
-Enright PL, Sherrill DL.
-Reference equations for the six-minute walk in healthy adults.
-Am J Respir Crit Care Med. 1998 Nov;158(5 Pt 1):1384-7.
+Enright, P. L., og D. L. Sherrill. 1998. “Reference Equations for the Six-Minute Walk in Healthy Adults”. American Journal of Respiratory and Critical Care Medicine 158 (5 Pt 1): 1384–87. https://doi.org/10.1164/ajrccm.158.5.9710086.
 
-Enright PL.
-The six-minute walk test. Review.
-Respir Care. 2003 Aug;48(8):783-5.
+Enright, Paul L. 2003. “The Six-Minute Walk Test”. Respiratory Care 48 (8): 783–85.
 
-Enright PL, McBurnie MA, Bittner V, Tracy RP, McNamara R, Arnold A, Newman AB
-The 6-min walk test: a quick measure of functional status in elderly adults.
-Chest. 2003 Feb;123(2):387-98.
+Enright, Paul L., Mary Ann McBurnie, Vera Bittner, Russell P. Tracy, Robert McNamara, Alice Arnold, Anne B. Newman, og Cardiovascular Health Study. 2003. “The 6-Min Walk Test: A Quick Measure of Functional Status in Elderly Adults”. Chest 123 (2): 387–98. https://doi.org/10.1378/chest.123.2.387.
 
-Carter R, Holiday DB, Nwasuruba C, Stocks J, Grothues C, Tiep B.
-Chest. 2003 May;123(5):1408-15.
-6-minute walk work for assessment of functional capacity in patients with COPD.
+Carter, Rick, David B. Holiday, Chiagozie Nwasuruba, James Stocks, Carol Grothues, og Brian Tiep. 2003. “6-Minute Walk Work for Assessment of Functional Capacity in Patients with COPD”. Chest 123 (5): 1408–15. https://doi.org/10.1378/chest.123.5.1408.
 
-Rostagno C, Olivo G, Comeglio M, Boddi V, Banchelli M, Galanti G, Gensini GF.
-Prognostic value of 6-minute walk corridor test in patients with mild to moderate heart failure: comparison with other methods of functional evaluation.
-Eur J Heart Fail. 2003 Jun;5(3):247-52.
+Rostagno, Carlo, Giuseppe Olivo, Marco Comeglio, Vieri Boddi, Michela Banchelli, Giorgio Galanti, og Gian Franco Gensini. 2003. “Prognostic Value of 6-Minute Walk Corridor Test in Patients with Mild to Moderate Heart Failure: Comparison with Other Methods of Functional Evaluation”. European Journal of Heart Failure 5 (3): 247–52. https://doi.org/10.1016/s1388-9842(02)00244-1.
 
-Gibbons WJ, Fruchter N, Sloan S, Levy RD
-Reference values for a multiple repetition 6-minute walk test in healthy adults older than 20 years.
-J Cardiopulm Rehabil. 2001 Mar-Apr;21(2):87-93.
+Gibbons, W. J., N. Fruchter, S. Sloan, og R. D. Levy. 2001. “Reference Values for a Multiple Repetition 6-Minute Walk Test in Healthy Adults Older than 20 Years”. Journal of Cardiopulmonary Rehabilitation 21 (2): 87–93. https://doi.org/10.1097/00008483-200103000-00005.

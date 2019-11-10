@@ -22,9 +22,21 @@ Maksimale iltoptagelse (VO<sub>2</sub>max)
 Kondital
 : Konditallet er et udtryk for, hvor effektiv kroppen i forhold til kropsvægten er til at optage ilt, når den arbejder ved maksimal intensitet. Konditallet viser hvor meget ilt (ml) kroppen er i stand til at optage pr. min i forhold til ens kropsvægt (kg).
 
+## Måling af kondition og iltoptagelse
+
+Helt grundlæggende er der to måder at måle konditionen på:
+
+- **Direkte**. Målingen foregår i et laboratorium med maske, hvor man måler indåndings- og udåndingsluften.
+- **Indirekte**. Man estimerer konditionen ud fra fx hjertefrekvens eller evnen til at arbejde med en bestemt belastning.
+
+Testene kan have følgende intensitet i forhold til forsøgspersonen:
+
+- **Maksimal**. Testpersonerne skal køre sig selv helt ud i testen og finde de maksimale færdier, fx for hvilken belastning man kan køre med.
+- **Submaksimal**. Testpersonen kører på forudbestemte belastningsgrader og ud fra præstationen på disse belastningsgrader estimeres, hvad de maksimalt ville kunne klare.
+
 ## Hvordan ved jeg om jeg er kommet i bedre form?
 
-En ting er naturligvis om din kredsløbsmotor er blevet bedre eller det er din bevægelsesøkonomi, der er blevet forbedret. I praksis er begge ting jo bare godt. Med mindre du måler iltoptagelsen ved en _direkte_ laboratorietest, så finder du aldrig ud af, hvilket af de to parametre du har forbedret dig på.
+En ting er naturligvis om din kredsløbsmotor er blevet bedre eller det er din bevægelsesøkonomi, der er blevet forbedret. I praksis er begge ting jo godt. Med mindre du måler iltoptagelsen ved en _direkte_ laboratorietest, så finder du aldrig ud af, hvilket af de to parametre du har forbedret dig på.
 
 Her vil vi først og fremmest beskrive nogle _indirekte_ muligheder for at bestemme om du er kommet i bedre kondition.
 
@@ -38,6 +50,8 @@ Her vil vi først og fremmest beskrive nogle _indirekte_ muligheder for at beste
 Tabeller er altid lavet på baggrund af gennemsnitsværdier, og de de kan være baseret på mange forskellige datamaterialer og ser derfor aldrig ens ud.
 
 Disse tal bør være repræsentative for almindelige danskere, men bør bare ses som en rettesnor.
+
+[Se tabel med kondital](/kondital/){: .btn .btn--large .btn--info }
 
 ## Hvilken betydning har konditallet for sundhed og aktivitetsniveau?
 
@@ -90,14 +104,17 @@ Du skal vedligeholde din kredsløbsfunktion og derved din kondition hele livet. 
 
 [Hvad er et godt kondital?](/kondital/){: .btn .btn--large .btn--info }
 
-<details>
-  <summary>Referencer</summary>
+## Referencer
 
-  - Sabino Padilla, Iñigo Mujika, Francisco Angulo, Juan Jose Goiriena. Scientific approach to the 1-h cycling world record: a case study. Journal of Applied Physiology Published 1 October 2000 Vol. 89 no. 4, 1522-1527
-  - Mujika I. The cycling physiology of Miguel Indurain 14 years after retirement. Int J Sports Physiol Perform. 2012 Dec;7(4):397-400.
-  - Edward F. Coyle. Improved muscular efficiency displayed as Tour de France champion matures. Journal of Applied Physiology Published 1 June 2005 Vol. 98 no. 6, 2191-2196
-  - Faulkner JA, Davis CS, Mendias CL, Brooks SV. The aging of elite male athletes: age-related changes in performance and skeletal muscle structure and function. Clin J Sport Med. 2008 Nov;18(6):501-7
-  - http://www.nytimes.com/2005/07/24/weekinreview/super-sure-but-not-more-than-human.html?_r=0
-  - http://www.nytimes.com/2008/09/11/sports/othersports/11cycling.html?pagewanted=1&_r=1
-  - Thomsen JJ1, Rentsch RL, Robach P, Calbet JA, Boushel R, Rasmussen P, Juel C, Lundby C. Prolonged administration of recombinant human erythropoietin increases submaximal performance more than maximal aerobic capacity. Eur J Appl Physiol. 2007 Nov;101(4):481-6. Epub 2007 Aug 1.
-</details>
+Padilla, Sabino, Iñigo Mujika, Francisco Angulo, og Juan Jose Goiriena. 2000. “Scientific approach to the 1-h cycling world record: a case study”. Journal of Applied Physiology 89 (4): 1522–27. https://doi.org/10.1152/jappl.2000.89.4.1522.
+
+Mujika, Iñigo. 2012. “The Cycling Physiology of Miguel Indurain 14 Years after Retirement”. International Journal of Sports Physiology and Performance 7 (4): 397–400.
+
+Coyle, Edward F. 2005. “Improved Muscular Efficiency Displayed as Tour de France Champion Matures”. Journal of Applied Physiology (Bethesda, Md.: 1985) 98 (6): 2191–96. https://doi.org/10.1152/japplphysiol.00216.2005.
+
+Faulkner, John A., Carol S. Davis, Christopher L. Mendias, og Susan V. Brooks. 2008. “The Aging of Elite Male Athletes: Age-Related Changes in Performance and Skeletal Muscle Structure and Function”. Clinical Journal of Sport Medicine: Official Journal of the Canadian Academy of Sport Medicine 18 (6): 501–7. https://doi.org/10.1097/JSM.0b013e3181845f1c.
+
+Kolata, Gina. 2005. “Super, Sure, but Not More Than Human”. The New York Times, 24. juli 2005, par. Week in Review. https://www.nytimes.com/2005/07/24/weekinreview/super-sure-but-not-more-than-human.html.
+
+Thomsen, J. J., R. L. Rentsch, P. Robach, J. a. L. Calbet, R. Boushel, P. Rasmussen, C. Juel, og C. Lundby. 2007. “Prolonged Administration of Recombinant Human Erythropoietin Increases Submaximal Performance More than Maximal Aerobic Capacity”. European Journal of Applied Physiology 101 (4): 481–86. https://doi.org/10.1007/s00421-007-0522-8.
+
