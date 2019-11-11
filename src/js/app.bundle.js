@@ -124,7 +124,9 @@ $(document).ready(function() {
         console.log("Calculate Maximal Heart Rate");
         
         var ald = Number($("#mxAld").val());
+        
         var hr = maxhr.EstimateMaxHr(ald);
+
         $("#mxMaxpul").text(hr.getMaxHr());
     });
     // Calculate Fat Percent
@@ -370,6 +372,8 @@ $(document).ready(function() {
         var vaegt = Number($("[name='vaegt']").val());
         var sport = $("[name='sport']").val();
         var pal = Number($("[name='pal']:checked").val());
+
+        console.log(sport);
 
         var b = bmr.EnergyExpenditure(koen, alder, vaegt, pal, sport);
 

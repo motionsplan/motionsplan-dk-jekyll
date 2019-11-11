@@ -67,7 +67,7 @@ Der er en formel for hhv. mænd og kvinder.
 
 ## Referencer
 
-{% include feature_row id="feature_row_references" %}
+{% include feature_row id="feature_row_references" type="left" %}
 
 Jackson, A. S., og M. L. Pollock. 2004. “Generalized Equations for Predicting Body Density of Men. 1978”. The British Journal of Nutrition 91 (1): 161–68.
 

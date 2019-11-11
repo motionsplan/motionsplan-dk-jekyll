@@ -22,9 +22,11 @@ _The Cooper Clinic Mortality Risk Index for Men_ har udarbejdet en beregner **fo
 
 Risikoen for at dø er stigende med alderne, så beregneren giver også en relativ risiko for at dø sammenlignet med en jævnaldrende, gennemsnitlig person.
 
+**N.B.** Beregneren virker kun op til 69 år og er kun for mænd.
+
 {% include calculate-mortality.html %}
 
-[Udfør testen på engelsk](http://www.health-calc.com/health/9-mortality-risk){: .btn .btn--success }
+[Udfør testen på engelsk](http://www.health-calc.com/health/9-mortality-risk){: .btn .btn--success .btn--large }
 
 ## Referencer
 

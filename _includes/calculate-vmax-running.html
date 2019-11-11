@@ -1,45 +1,49 @@
+{% assign unit = include.unit | default: "km/t" %}
+{% assign module = include.module | default: "running" %}
 <form class="calculator">
     <fieldset>
-        <caption>Beregning af intervaller - indtast V<sub>max</sub> og T<sub>max</sub></caption>
+        <legend>Beregning af intervaller - indtast V<sub>max</sub> og T<sub>max</sub></legend>
         <div class="form-group">
-            <label>V<sub>max</sub> (watt)</label>
-            <input type="text" name="Vmax2" value="320"> watt (fra ovenstående skema)
+            <label>V<sub>max</sub> ({{ unit }})</label>
+            <input type="text" name="Vmax2" value="320">
         </div>
         <div class="form-group">
-            <label>T<sub>max</sub></label>
-            <input type="text" name="Min" value="4"> minutter
-            <input type="text" name="Sek" value="20"> sek.
+            <label>T<sub>max</sub> (min:sek)</label>
+            <input type="text" name="Min" value="4" class="input-mini"> <span class="help-inline">min</span>
+            <input type="text" name="Sek" value="20" class="input-mini"> <span class="help-inline">sek</span>
         </div>
-        <input type="button" value="Beregn" id="calculate_vmax_bike_intervals">
+        <input type="button" value="Beregn" id="calculate_vmax_{{ module }}_intervals">
     </fieldset>
-    <fieldset>
+    <fieldset class="result">
         <legend>Anbefalet opvarmning</legend>
         <div class="form-group">
-            <label>8 minutter på</label>
-            <input type="text" name="Opvarm1" disabled="disabled"> til
-            <input type="text" name="Opvarm2" disabled="disabled"> watt
+            <label>8 minutter på ({{ unit }})</label>
+            <input type="text" name="Opvarm1" disabled="disabled" class="input-mini"> <span class="help-inline">til</span>
+            <input type="text" name="Opvarm2" disabled="disabled" class="input-mini"> <span class="help-inline">{{ unit }}</span>
         </div>
     </fieldset>
-    <fieldset>
-        <legend>Intervaller</legend>
+    <fieldset class="result">
+        <legend>Intervaller x 4-6</legend>
         <div class="form-group">
-            <label>Interval-belastning</label>
-            <input type="text" name="Vmax3" disabled="disabled"> watt
+            <label>Interval-belastning ({{ unit }})</label>
+            <input type="text" name="Vmax3" disabled="disabled">
         </div>
         <div class="form-group">
-            <label>Interval-tid</label>
-            <input type="text" name="Vmaxtid_m" disabled="disabled"> min
-            <input type="text" name="Vmaxtid_s" disabled="disabled"> sek.
+            <label>Interval-tid (min:sek)</label>
+            <input type="text" name="Vmaxtid_m" disabled="disabled" class="input-mini"> <span class="help-inline">min</span>
+            <input type="text" name="Vmaxtid_s" disabled="disabled" class="input-mini"> <span class="help-inline">sek</span>
         </div>
+    </fieldset>
+    <fieldset class="result">
+        <legend>Pauser</legend>
         <div class="form-group">
-            <label>Pause-belastning</label>
-            <input type="text" name="Vpause" disabled="disabled"> watt
+            <label>Pause-belastning ({{ unit }})</label>
+            <input type="text" name="Vpause" disabled="disabled">
         </div>
         <div class="form-group">
             <label>Pause-tid</label>
-            <input type="text" name="Pausetid_m" disabled="disabled"> min 
-            <input type="text" name="Pausetid_s" disabled="disabled"> sek.
+            <input type="text" name="Pausetid_m" disabled="disabled" class="input-mini"> <span class="help-inline">min</span> 
+            <input type="text" name="Pausetid_s" disabled="disabled" class="input-mini"> <span class="help-inline">sek</span>
         </div>
-        x 4-6
     </fieldset>
 </form>
