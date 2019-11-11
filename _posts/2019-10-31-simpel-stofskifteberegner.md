@@ -33,33 +33,56 @@ Med denne beregner kan du anslå dit hvilestofskifte og dit samlede daglige ener
 
 Beregningen er behæftet med stor usikkerhed. Værdierne er rettet mod "almindelige" mennesker og ikke meget aktive kredsløbsatleter, fx cykelryttere og triatleter.
 
+### Baggrund for beregneren
+
+**Tabel: 1. Formel for at beregne BMR. (Nordiska næringsrekommendationer 1996)**
+
+**Mænd**
+
+| Alder   | BMR (Kj/dag)  |
+|---------|---------------|
+|	11-18	  | 74 V + 2750   |
+| 19-30	  | 64 V + 2840   |
+| 31-60	  | 48,5 V + 3670 |
+| 61-75	  | 49,9 V + 2930 |
+| over 75	| 35 V + 3430   |
+
+**Kvinder**
+
+| Alder   | BMR (kJ/dag)  |
+|---------|---------------|
+| 11-18	  | 56 V + 2900   |
+| 19-30	  | 61,5 V + 2080 |
+| 31-60	  | 36,4 V + 3470 |
+| 61-75	  | 38,6 V + 2880 |
+| over 75	| 41 V + 2610   |
+
+V er vægt i kg. 
+
+Eksempel: en kvinde på 23 år som vejer 62 kg. har derfor et BMR på: 61,5*62 + 2080 = 5893 Kj dagligt.
+{: .notice .notice--info }
+
+**Tabel: 2. Fysisk aktivitetsniveau i forhold til BMR (PAL) (Nordiska næringsrekommendationer 1996)**
+
+| Aktivitetsniveau	                                                                                                  | PAL     |
+|---------------------------------------------------------------------------------------------------------------------|---------|
+| Rullestolsbunden eller sengeliggende.	                                                                              | 1,2     |
+| Stillesiddende arbejde med kun lidt fysisk aktivitet og ingen eller begrænset fysisk aktivitet i fritiden.	        | 1,4-1,5 |
+| Stillesiddende arbejde med et vist behov for fysisk aktivitet og ingen eller begrænset fysisk aktivitet i fritiden.	| 1,6-1,7 |
+| Hovedsageligt stående arbejde.	                                                                                    | 1,8-1,9 |
+| Sport eller anden hård fysisk aktivitet i fritiden. (30-60 min. 4-5 gange/uge)	                                    | + 0,3   |
+| Hårdt kropsarbejde eller meget høj fritidsaktivitet.	                                                              | 2,0-2,4 |
+
+PAL skal ganges med BMR for at estimere ens daglige stofskifte. 
+
+Eksempel: kvinden fra eks. 1. arbejder på et kontor hvor de ikke bevæger sig meget (PAL = 1,4-1,5). Hun er dog rimeligt aktiv i fritiden (PAL + 0,3). BMR (5893 Kj) gange med PAL (1,7) = 10018 Kj. Kvindens daglige stofskifte (ligevægtsindtag) vil være ca. 10.000 Kj.
+{: .notice .notice--info }
+
 ## Mere avanceret udregning af energiforbrug
 
-Se mere på [Motion-online.dk](https://web.archive.org/web/20160604213227/http://www.motion-online.dk/sundhed_og_vaegt/sundhed_generelt/beregn_dit_energiforbrug/)
+Hvis du gerne vil have en lidt mere avanceret beregner, så kan du finde den på  [Motion-online.dk](https://web.archive.org/web/20160604213227/http://www.motion-online.dk/sundhed_og_vaegt/sundhed_generelt/beregn_dit_energiforbrug/)
 
-### Teoretisk baggrund
-
-Grundprincippet i beregneren er at basalstofskiftet beregnes (ref. 1 og 6) og der dertil lægges den aktivitetsbaserede energiomsætning. Værdierne for energiomsætning ved forskellige aktiviteter er primært taget fra ref. 4, men da disse værdier er bruttoværdier, der inkluderer basalstofskiftet, er de korrigeret ved at fratrække 0,07 kJ/kg/min svarende til 3,5 ml O<sub>2</sub>/kg/min.
-
-### Korrektion af børns energiforbrug
-
-Referenceværdierne for energiomsætning ved forskellige aktiviteter findes i ref. 4 for forskellige kropsvægte, men reelt er disse tabelopslag blot konstrueret ved linær ekstrapolation ud fra de reelt kendte værdier. Dette giver den fejlkilde at små / unge personer får undervurderet deres energiomsætning pr. kg kropsvægt ved en given aktivitet.
-
-For alle personer over 50 kg beregnes Totalomsætning sådan:
-
-Totalomsætning = Basalstofskifte + Aktivitetsomsætning
-
-For alle personer under 50 kg korrigeres formlen som følger:
-
-Totalomsætning = Basalstofskifte + Aktivitetsomsætning * (1 + 0,5 * (50 - Vægt) / 50)
-
-Korrektionen har den effekt, at jo tættere på nul kg man er, desto større er korrektionen. I princippet vil en kropsvægt på 0 kg medføre at den aktivitetsbaserede energiomsætning øges med en faktor 1,5 pr. kg kropsvægt. I praksis er beregneren kun valid for kropsvægte over 15 kg.
-
-### Korrektion for svær overvægt
-
-Svært overvægtige får justeret deres energiomsætning ved aktivitet på en måde, så der ikke kan omsættes mere energi end hvad der ligger inden for en rimelig iltoptagelse. Som udgangspunkt stiger energiforbruget ved aktivitet prportionalt med vægten, men dertil laves en ekstra korrektion for personer med BMI over 30. For de to højeste aktivitetsniveauer er denne korrektionsfaktor = 30/BMI. For det trediehøjeste aktivitetsniveau er korrektionen √30/√BMI.
-
-Vurderingen af fysisk aktivitetsniveau er givet ud fra en vurdering af PAL (Physical Activity Level). Der er anvendt WHO’s guidelines for forebyggelse af fedme (5) 
+[Avanceret BMR beregner](https://www.health-calc.com/diet/energy-expenditure-advanced){: .btn .btn--large .btn--success }
 
 ### Referencer
 
