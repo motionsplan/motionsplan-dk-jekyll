@@ -1,98 +1,70 @@
-<form>
-  <table>
-    <caption>Beregning af intensitet ud fra Procent af pulsreserven</caption>
-    <tr bgcolor="#CCFFCC">
-      <td>Hvilepuls</td>
-      <td>
-        <input type="text" name="Hpuls" size="7">
-      </td>
-    </tr>
-    <tr bgcolor="#CCFFCC">
-      <td>Maxpuls</td>
-      <td>
-        <input type="text" name="Mpuls" size="7">
-      </td>
-    </tr>
-    <tr bgcolor="#CCFFCC">
-      <td>Arbejdspuls</td>
-      <td>
-        <input type="text" name="Apuls" size="7">
-      </td>
-    </tr>
-    <tr bgcolor="#CCFFCC">
-      <td></td>
-      <td>
-        <input type="button" value="Beregn" id="calculate_hr_intensity_hrr">
-      </td>
-    </tr>
-    <tr bgcolor="#FFCC99">
-      <td>Intensitet</td>
-      <td>
-        <input type="text" name="Ialt" maxlength="5" size="7" disabled="disabled"> (%)
-      </td>
-    </tr>
-  </table>
+<form class="calculator">
+  <fieldset>
+    <legend>Beregning af intensitet ud fra Procent af pulsreserven</legend>
+    <div class="form-group">
+      <label>Hvilepuls</label>
+      <input type="text" name="Hpuls">
+    </div>
+    <div class="form-group">
+      <label>Maxpuls</label>
+      <input type="text" name="Mpuls">
+    </div>
+    <div class="form-group">
+      <label>Arbejdspuls</label>
+      <input type="text" name="Apuls">
+    </div>
+    <input type="button" value="Beregn" id="calculate_hr_intensity_hrr">
+  </fieldset>
+  <fieldset class="results">
+    <div class="form-group">
+      <label>Intensitet (%)</label>
+      <input type="text" name="Ialt" disabled="disabled">
+    </div>
+  </fieldset>
 </form>
 
-<form>
+<form class="calculator">
   <table>
     <caption>Beregning af arbejdspuls ud fra Procent af pulsreserven - anvendes hvis man &oslash;nsker at beregne hvilken arbejdspuls man skal ligge p&aring;, for at holde en bestemt intensitet.</caption>
-    <tr bgcolor="#CCFFFF">
-      <td>Hvilepuls</td>
-      <td> <input type="text" name="Hpuls2" size="7">
-      </td>
-    </tr>
-    <tr bgcolor="#CCFFFF">
-      <td>Maxpuls</td>
-      <td> <input type="text" name="Mpuls2" size="7">
-      </td>
-    </tr>
-    <tr bgcolor="#CCFFFF">
-      <td>Intensitet</td>
-      <td>
-        <input type="text" name="Intens2" size="7"> (%)
-      </td>
-    </tr>
-    <tr bgcolor="#CCFFFF">
-      <td></td>
-      <td>
-        <input type="button" value="Beregn" id="calculate_hr_intensity_work">
-      </td>
-    </tr>
-    <tr bgcolor="#FFCC99">
-      <td>Arbejdspuls</td>
-      <td>
-        <input type="text" name="Ialt2" maxlength="5" size="7" disabled="disabled">
-      </td>
-    </tr>
-  </table>
+    <div class="form-group">
+      <label>Hvilepuls</label>
+      <input type="text" name="Hpuls2">
+    </div>
+    <div class="form-group">
+      <label>Maxpuls</label>
+      <input type="text" name="Mpuls2">
+    </div>
+    <div class="form-group">
+      <label>Intensitet (%)</label>
+      <input type="text" name="Intens2">
+    </div>
+    <input type="button" value="Beregn" id="calculate_hr_intensity_work">
+  </fieldset>
+  <fieldset class="results">
+    <div class="form-group">
+      <label>Arbejdspuls</label>
+      <input type="text" name="Ialt2" disabled="disabled">
+    </div>
+  </fieldset>
 </form>
 
-<form>
-  <table>
-    <caption>Beregning af intensitet ud fra Procent af maksimalpulsen.</caption>
-    <tr bgcolor="#FFFFCC">
-      <td>Maxpuls</td>
-      <td>
-        <input type="text" name="Mpuls3" size="7">
-      </td>
-    </tr>
-    <tr bgcolor="#FFFFCC">
-      <td>Arbejdspuls</td>
-      <td> <input type="text" name="Apuls3" size="7">
-      </td>
-    </tr>
-    <tr bgcolor="#FFFFCC">
-      <td></td>
-      <td>
-        <input type="button" value="Beregn" id="calculate_hr_intensity_from_max">
-      </td>
-    </tr>
-    <tr bgcolor="#FFCC99">
-      <td>Intensitet</td>
-      <td>
-        <input type="text" name="Ialt3" maxlength="5" size="7" disabled="disabled"> (% af maxpuls)
-      </td>
-    </tr>
-  </table>
+<form class="calculator">
+  <fieldset>
+    <legend>Beregning af intensitet ud fra Procent af maksimalpulsen.</legend>
+    <div class="form-group">
+      <label>Maxpuls</label>
+      <input type="text" name="Mpuls3">
+    </div>
+    <div class="form-group">
+      <label>Arbejdspuls</label>
+      <input type="text" name="Apuls3">
+    </div>
+    <input type="button" value="Beregn" id="calculate_hr_intensity_from_max">
+  </fieldset>
+  <fieldset class="results">
+    <div class="form-group">
+      <label>Intensitet (% af maxpuls)</label>
+      <input type="text" name="Ialt3" disabled="disabled">
+    </div>
+  </fieldset>
 </form>

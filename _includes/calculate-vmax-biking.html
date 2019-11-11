@@ -1,91 +1,18 @@
-<form>
-    <table bgcolor="#990000">
-        <caption>Beregning af V<sub>max</sub></caption>
-        <tr bgcolor="#F3F3EB">
-            <td>Maksimal iltoptagelse:</td>
-            <td>
-                <input type="text" name="Maxvo2" value="4000"> ml/min
-            </td>
-        </tr>
-        <tr bgcolor="#F3F3EB">
-            <td>
-            </td>
-            <td>
-                <input type="button" value="Beregn" id="calculate_vmax_bike_vmax">
-            </td>
-        </tr>
-        <tr bgcolor="#CC6600">
-            <td>V<sub>max</sub>:</td>
-            <td>
-                <input type="text" name="Vmax" maxlength="5" disabled="disabled"> watt
-            </td>
-        </tr>
-    </table>
+<form class="calculator">
+    <fieldset>
+        <legend>Beregning af V<sub>max</sub></legend>
+        <div class="form-group">
+            <label>Maksimal iltoptagelse (ml/min)</label>
+            <input type="text" name="Maxvo2" value="4000">
+        </div>
+        <input type="button" value="Beregn" id="calculate_vmax_bike_vmax">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>V<sub>max</sub> (watt)</label>
+            <input type="text" name="Vmax" disabled="disabled">
+        </div>
+    </fieldset>
 </form>
 
-<form>
-    <table bgcolor="#990000">
-        <caption>Beregning af intervaller - indtast V<sub>max</sub> og T<sub>max</sub></caption>
-        <tr bgcolor="#F3F3EB">
-            <td>V<sub>max</sub>:</td>
-            <td>
-                <input type="text" name="Vmax2" value="320"> watt (fra ovenstående skema)
-            </td>
-        </tr>
-        <tr bgcolor="#F3F3EB">
-            <td>T<sub>max</sub>:</td>
-            <td>
-                <input type="text" name="Min" value="4"> minutter
-                <input type="text" name="Sek" value="20"> sek.
-            </td>
-        </tr>
-        <tr bgcolor="#F3F3EB">
-            <td></td>
-            <td>
-                <input type="button" value="Beregn" id="calculate_vmax_bike_intervals">
-            </td>
-        </tr>
-        <tr bgcolor="#CC6600">
-            <td colspan="2">Anbefalet opvarmning</td>
-        </tr>
-        <tr bgcolor="#CC6600">
-            <td>8 minutter på</td>
-            <td>
-                <input type="text" name="Opvarm1" disabled="disabled"> til
-                <input type="text" name="Opvarm2" disabled="disabled"> watt
-            </td>
-        </tr>
-        <tr bgcolor="#CC6600">
-            <td colspan="2">Intervaller</td>
-        </tr>
-        <tr bgcolor="#CC6600">
-            <td>Interval-belastning</td>
-            <td>
-                <input type="text" name="Vmax3" disabled="disabled"> watt
-            </td>
-        </tr>
-        <tr bgcolor="#CC6600">
-            <td>Interval-tid</td>
-            <td>
-                <input type="text" name="Vmaxtid_m" disabled="disabled"> min
-                <input type="text" name="Vmaxtid_s" disabled="disabled"> sek.
-            </td>
-        </tr>
-        <tr bgcolor="#CC6600">
-            <td>Pause-belastning</td>
-            <td>
-                <input type="text" name="Vpause" disabled="disabled"> watt
-            </td>
-        </tr>
-        <tr bgcolor="#CC6600">
-            <td>Pause-tid</td>
-            <td>
-                <input type="text" name="Pausetid_m" disabled="disabled"> min 
-                <input type="text" name="Pausetid_s" disabled="disabled"> sek.
-            </td>
-        </tr>
-        <tr bgcolor="#CC6600">
-            <td colspan="2">x 4-6</td>
-        </tr>
-    </table>
-</form>
+{% include calculate-vmax-running.html %}

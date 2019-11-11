@@ -1,70 +1,56 @@
-<form>
-    <table>
-        <tbody>
-            <tr bgcolor="#d5e1e3">
-                <td width="50%">
-                    <label for="form-reps">Antal reps</label>
-                    <select name="reps" id="form-reps">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                        <option value="8">8</option>
-                        <option value="9">9</option>
-                        <option value="10">10</option>
-                        <option value="11">11</option>
-                        <option value="12">12</option>
-                        <option value="13">13</option>
-                        <option value="14">14</option>
-                        <option value="15">15</option>
-                    </select>
-                </td>
-                <td width="50%">
-                    <label for="form-weight">Vægt (kg)</label>
-                    <input maxlength="5" size="5" value="50" name="weight" id="form-weight">
-                </td>
-            </tr>
-            <tr>
-                <td width="50%">
-                    <label for="form-sex">Køn</label>
-                    <select name="koen" id="form-sex">
-                        <option value="1">Mand</option>
-                        <option value="0">Kvinde</option>
-                    </select>
-                </td>
-                <td width="50%">
-                    <label for="form-trained">Træningstilstand</label>
-                    <select name="trained" id="form-trained">
-                        <option value="1">Trænet</option>
-                        <option value="0">Utrænet</option>
-                    </select>
-                </td>
-            </tr>
-            <tr>
-                <td width="50%">
-                    <label for="form-brzycki">Anvend Brzycki's formel</label>
-                    <select name="bformel" id="form-brzycki">
-                        <option value="0">Nej</option>
-                        <option value="1">Ja</option>
-                    </select>
-                </td>
-                <td width="50%">
-                    (Tager ikke hensyn til køn og træningstilstand, men er den mest udbredte formel)
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2">
-                    <input type="button" class="btn btn--info btn--large" value="Beregn" id="calculate_rm" name="submit">
-                </td>
-            </tr>
-        </tbody>
-    </table>
+<form class="calculator">
+    <fieldset>
+        <div class="form-group">
+            <label for="form-reps">Antal reps</label>
+            <select name="reps" id="form-reps">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="form-weight">Vægt (kg)</label>
+            <input maxlength="5" size="5" value="50" name="weight" id="form-weight">
+        </div>
+        <div class="form-group">
+            <label for="form-sex">Køn</label>
+            <select name="koen" id="form-sex">
+                <option value="1">Mand</option>
+                <option value="0">Kvinde</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="form-trained">Træningstilstand</label>
+            <select name="trained" id="form-trained">
+                <option value="1">Trænet</option>
+                <option value="0">Utrænet</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="form-brzycki">Anvend Brzycki's formel</label>
+            <select name="bformel" id="form-brzycki">
+                <option value="0">Nej</option>
+                <option value="1">Ja</option>
+            </select>
+            <span class="help-block">(Tager ikke hensyn til køn og træningstilstand, men er den mest udbredte formel)</span>
+        </div>
+        <input type="button" value="Beregn" id="calculate_rm">
+    </fieldset>
 
     <table width="100%">
-        <caption>Beregnede RM-værdier:</caption>
+        <caption>Beregnede RM-værdier</caption>
         <tbody>
             <tr>
                 <th width="10%">1 RM</th>
@@ -113,7 +99,7 @@
         </tbody>
     </table>
     <table width="100%">
-        <caption>Vægt beregnet som procent af 1 RM:</caption>
+        <caption>Vægt beregnet som procent af 1 RM</caption>
         <tbody>
             <tr>
                 <th width="10%">100%</th>

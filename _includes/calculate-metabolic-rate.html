@@ -1,87 +1,59 @@
-<form>
-    <table bgcolor="#003366">
-        <caption>Basale oplysninger</caption>
-        <tbody>
-            <tr>
-                <td bgcolor="#d8e4f8" colspan="2"><label for="koen">Køn</label></td>
-                <td width="20%" bgcolor="#d8e4f8">
-                    <select name="koen" id="koen">
-                        <option value="1">Mand</option>
-                        <option value="0">Kvinde</option>
-                    </select>
-                </td>
-            </tr>
-            <tr>
-                <td bgcolor="#d8e4f8" colspan="2"><label for="alder">Alder (år)</label></td>
-                <td width="20%" bgcolor="#d8e4f8">
-                    <input maxlength="3" value="40" name="alder" id="alder">
-                </td>
-            </tr>
-            <tr>
-                <td bgcolor="#d8e4f8" colspan="2"><label for="vaegt">Vægt (kg)</label></td>
-                <td width="20%" bgcolor="#d8e4f8">
-                    <input maxlength="5" value="70" name="vaegt" id="vaegt">
-                </td>
-            </tr>
-            <tr bgcolor="#ffffff">
-                <td colspan="2">Fysisk aktivitetsniveau (PAL)</td>
-                <td width="20%"></td>
-            </tr>
-            <tr>
-                <td bgcolor="#d3e1f8" colspan="2"><label for="pal12">Rullestolsbunden eller sengeliggende.</label></td>
-                <td width="20%" bgcolor="#d3e1f8">
-                    <input type="radio" value="1.2" name="pal" id="pal12">
-                </td>
-            </tr>
-            <tr>
-                <td bgcolor="#d3e1f8" colspan="2"><label for="pal145">Stillesiddende arbejde med kun lidt fysisk aktivitet og ingen eller begrænset fysisk aktivitet i fritiden.</label></td>
-                <td width="20%" bgcolor="#d3e1f8">
-                    <input type="radio" checked="checked" value="1.45" name="pal" id="pal145">
-                </td>
-            </tr>
-            <tr>
-                <td bgcolor="#d3e1f8" colspan="2"><label for="pal165">Stillesiddende arbejde med et vist behov for fysisk aktivitet og ingen eller begrænset fysisk aktivitet i fritiden.</label></td>
-                <td width="20%" bgcolor="#d3e1f8">
-                    <input type="radio" value="1.65" name="pal" id="pal165">
-                </td>
-            </tr>
-            <tr>
-                <td bgcolor="#d3e1f8" colspan="2"><label for="pal185">Hovedsageligt stående arbejde.</label></td>
-                <td width="20%" bgcolor="#d3e1f8">
-                    <input type="radio" value="1.85" name="pal" id="pal185">
-                </td>
-            </tr>
-            <tr>
-                <td bgcolor="#d3e1f8" colspan="2"><label for="pal22">Hårdt kropsarbejde eller meget høj fritidsaktivitet.</label></td>
-                <td width="20%" bgcolor="#d3e1f8">
-                    <input type="radio" value="2.2" name="pal" id="pal22">
-                </td>
-            </tr>
-            <tr>
-                <td bgcolor="#d3e1f8" colspan="2"><label for="sport">Sport eller anden hård fysisk aktivitet i fritiden. (30-60 min. 4-5 gange/uge)</label></td>
-                <td width="20%" bgcolor="#d3e1f8">
-                    <input type="checkbox" value="true" name="sport" id="sport">
-                </td>
-            </tr>
-            <tr>
-                <td bgcolor="#34557a"><label for="BMR2">Basalstofskifte (BMR) (kJ)</label></td>
-                <td width="20%" bgcolor="#34557a"></td>
-                <td width="20%" bgcolor="#34557a">
-                    <input name="BMR2" id="BMR2" disabled="disabled">
-                </td>
-            </tr>
-            <tr>
-                <td bgcolor="#34557a"><label for="TEE2">Total energiomsætning (kJ)</label></td>
-                <td width="20%" bgcolor="#34557a"></td>
-                <td width="20%" bgcolor="#34557a">
-                    <input name="TEE2" id="TEE2" disabled="disabled">
-                </td>
-            </tr>
-            <tr bgcolor="#ffffff">
-                <td colspan="3">
-                    <input type="button" value="Beregn" id="calculate_bmr">
-                </td>
-            </tr>
-        </tbody>
-    </table>
+<form class="calculator">
+    <fieldset>
+        <legend>Basale oplysninger</legend>
+        <div class="form-group">
+            <label for="koen">Køn</label></td>
+            <select name="koen" id="koen">
+                <option value="1">Mand</option>
+                <option value="0">Kvinde</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="alder">Alder (år)</label>
+            <input maxlength="3" value="40" name="alder" id="alder">
+        </div>
+        <div class="form-group">
+            <label for="vaegt">Vægt (kg)</label>
+            <input maxlength="5" value="70" name="vaegt" id="vaegt">
+        </div>
+        
+        <fieldset>
+            <legend>Fysisk aktivitetsniveau (PAL)</legend>
+            <label for="pal12" class="radio">
+                <input type="radio" value="1.2" name="pal" id="pal12">
+                Rullestolsbunden eller sengeliggende.
+            </label>
+            <label for="pal145" class="radio">
+                <input type="radio" checked="checked" value="1.45" name="pal" id="pal145">
+                Stillesiddende arbejde med kun lidt fysisk aktivitet og ingen eller begrænset fysisk aktivitet i fritiden.
+            </label>
+            <label for="pal165" class="radio">
+                <input type="radio" value="1.65" name="pal" id="pal165">
+                Stillesiddende arbejde med et vist behov for fysisk aktivitet og ingen eller begrænset fysisk aktivitet i fritiden.
+            </label>
+            <label for="pal185" class="radio">
+                <input type="radio" value="1.85" name="pal" id="pal185">
+                Hovedsageligt stående arbejde.
+            </label>
+            <label for="pal22" class="radio">
+                <input type="radio" value="2.2" name="pal" id="pal22">
+                Hårdt kropsarbejde eller meget høj fritidsaktivitet.
+            </label>
+            <label for="sport" class="checkbox">
+                <input type="checkbox" value="true" name="sport" id="sport">
+                Sport eller anden hård fysisk aktivitet i fritiden. (30-60 min. 4-5 gange/uge)
+            </label>
+        </fieldset>
+        <input type="button" value="Beregn" id="calculate_bmr">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label for="BMR2">Basalstofskifte (BMR) (kJ)</label>
+            <input name="BMR2" id="BMR2" disabled="disabled">
+        </div>
+        <div class="form-group">
+            <label for="TEE2">Total energiomsætning (kJ)</label>
+            <input name="TEE2" id="TEE2" disabled="disabled">
+        </div>
+    </fieldset>
 </form>

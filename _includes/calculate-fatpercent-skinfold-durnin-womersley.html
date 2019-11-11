@@ -1,8 +1,8 @@
 <table>
     <tbody>
         <tr>
-            <td><img width="146" height="195" border="0" src="https://web.archive.org/web/20110704004541im_/http://www.motion-online.dk/images/fedt/woman_durnin1.jpg" /></td>
-            <td><img width="147" height="195" border="0" src="https://web.archive.org/web/20110704004541im_/http://www.motion-online.dk/images/fedt/woman_durnin2.jpg" /></td>
+            <td><img width="146" height="195" src="https://web.archive.org/web/20110704004541im_/http://www.motion-online.dk/images/fedt/woman_durnin1.jpg" /></td>
+            <td><img width="147" height="195" src="https://web.archive.org/web/20110704004541im_/http://www.motion-online.dk/images/fedt/woman_durnin2.jpg" /></td>
         </tr>
     </tbody>
 </table>
@@ -10,59 +10,47 @@
 <p>Denne metode er den samme, som den der bruges på Team Danmarks testcentre. Formlen er rimelig for de fleste mennesker. Dog er der en tendens til at den giver for høje fedtprocenter hos meget magre personer (2-3 %). </p>
 <p>Der skal måles 4 forskellige steder både for mænd og kvinder: biceps, triceps, skulderblads-spids og hoftekam.</p>
 
-<form>
-    <table>
-        <caption>Indtast de målte værdier.</caption>
-        <tr bgcolor="#CEF4EA">
-            <td bgcolor="#FBECD7" width="215">
-                <label for="biceps">Biceps (mm)</label>
-                <input type="text" name="biceps" id="biceps" maxlength="4" value="12">
-            </td>
-            <td bgcolor="#FBECD7" width="217">
-                <label for="hoftekam">Hoftekam (mm)</label>
-                <input type="text" name="hoftekam" id="hoftekam" maxlength="4" value="12">
-            </td>
-        </tr>
-        <tr>
-            <td bgcolor="#FBECD7" width="215">
-                <label for="triceps">Triceps (mm)</label>
-                <input type="text" name="triceps" id="triceps" maxlength="4" value="12">
-            </td
-            <td bgcolor="#FBECD7" width="217">
-                <label for="skulder">Skulderblad (mm)</label>
-                <input type="text" name="skulder" id="skulder" value="12" maxlength="4">
-            </td>
-        </tr>
-        <tr>
-            <td bgcolor="#D8E4F8" width="215">
-                <label for="gender">Køn</label>
-                <select name="koen" id="gender">
-                    <option value="1">Mand</option>
-                    <option value="0">Kvinde</option>
-                </select>
-            </td>
-            <td bgcolor="#D8E4F8" width="217">
-                <label for="vaegt">Vægt (kg)</label>
-                <input type="text" name="vaegt" id="vaegt" value="75" maxlength="5">
-            </td>
-        </tr>
-        <tr>
-            <td width="215"><label for="fedtprocentDurnin">Fedtprocent (%)</label></td>
-            <td width="217">
-                <input type="text" name="fedtprocentDurnin" id="fedtprocentDurnin" disabled="disabled">
-            </td>
-        </tr>
-        <tr>
-            <td width="215"><label for="fedtfriDurnin">Fedtfri kropsvægt (kg)</label></td>
-            <td width="217">
-                <input type="text" name="fedtfriDurnin" id="fedtfriDurnin" disabled="disabled">
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2">
-                <input type="name" value="Beregn" id="calculate_skinfold_durnin">
-            </td>
-        </tr>
-    </table>
+<form class="calculator">
+    <fieldset>
+        <legend>Indtast de målte værdier.</legend>
+        <div class="form-group">
+            <label for="biceps">Biceps (mm)</label>
+            <input type="text" name="biceps" id="biceps" maxlength="4" value="12">
+        </div>
+        <div class="form-group">
+            <label for="hoftekam">Hoftekam (mm)</label>
+            <input type="text" name="hoftekam" id="hoftekam" maxlength="4" value="12">
+        </div>
+        <div class="form-group">
+            <label for="triceps">Triceps (mm)</label>
+            <input type="text" name="triceps" id="triceps" maxlength="4" value="12">
+        </div>
+        <div class="form-group">
+            <label for="skulder">Skulderblad (mm)</label>
+            <input type="text" name="skulder" id="skulder" value="12" maxlength="4">
+        </div>
+        <div class="form-group">
+            <label for="gender">Køn</label>
+            <select name="koen" id="gender">
+                <option value="1">Mand</option>
+                <option value="0">Kvinde</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="vaegt">Vægt (kg)</label>
+            <input type="text" name="vaegt" id="vaegt" value="75" maxlength="5">
+        </div>
+        <input type="name" value="Beregn" id="calculate_skinfold_durnin">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label for="fedtprocentDurnin">Fedtprocent (%)</label>
+            <input type="text" name="fedtprocentDurnin" id="fedtprocentDurnin" disabled="disabled">
+        </div>
+        <div class="form-group">
+            <label for="fedtfriDurnin">Fedtfri kropsvægt (kg)</label>
+            <input type="text" name="fedtfriDurnin" id="fedtfriDurnin" disabled="disabled">
+        </div>
+    </fieldset>
 </form>
 <p class="notice notice--info">I de oprindelige formler er der taget højde for alder, da der med alderen sætter sig relativt mere fedt på de indre organer i forhold til under huden. Vi har valgt her kun at bruge den formel der gælder for 20-29 årige (hvilket man også gør hos Team Danmark). Hvis man er over 30 og utrænet, er der altså en risiko for, at man får undervurderet sin fedtprocent.</p>

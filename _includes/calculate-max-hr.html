@@ -4,14 +4,12 @@
             <label class="mxLabel">Alder (år)</label>
             <input type="text" maxlength="3" id="mxAld" placeholder="Alder i år" />
         </div>
-        <div class="mxrowRgt">
-            <input type="button" class="mxBtns" id="mxCalBtn" value="Beregn" />
-        </div>
+        <input type="button" id="mxCalBtn" value="Beregn" />
     </fieldset>
     <fieldset class="results">
-        <div class="mxresrowLft">
-            <span class="mxresLabel">Maxpuls (slag/min)</span>
-            <span class="mxresTxt" id="mxMaxpul">0</span><span class="mxrespostFx"></span>
+        <div class="form-group">
+            <label for="mxMaxpul">Maxpuls (slag/min)</label>
+            <input id="mxMaxpul" disabled="disabled">
         </div>
     </fieldset>
 </form>

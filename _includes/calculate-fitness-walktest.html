@@ -1,54 +1,40 @@
-<form>
-    <table bgcolor="#990000">
-        <caption>Indtast tid og pulssamt personlige data.</caption>
-        <tbody>
-
-            <tr bgcolor="#f3f3eb">
-                <td>Tiden for at gå 1,6 km:</td>
-                <td>
-                    <input name="Min" type="text" value="17" /> minutter 
-                    <input name="Sek" type="text" value="20" /> sek.
-                </td>
-            </tr>
-            <tr bgcolor="#f3f3eb">
-                <td>Pulsefter 1,6 km:</td>
-                <td><input name="Pul" type="text" value="110" /> slag/min</td>
-            </tr>
-            <tr bgcolor="#f3f3eb">
-                <td>Køn:</td>
-                <td>
-                    <select name="Koen" size="1">
-                        <option value="1">Mand</option>
-                        <option value="0">Kvinde</option>
-                    </select>
-                </td>
-            </tr>
-            <tr bgcolor="#f3f3eb">
-                <td>Alder:</td>
-                <td><input name="Alder" type="text" value="40" /> år</td>
-            </tr>
-            <tr bgcolor="#f3f3eb">
-                <td>Vægt</td>
-                <td><input name="Vaegt" type="text" value="70" /> kg</td>
-            </tr>
-            <tr bgcolor="#f3f3eb">
-                <td></td>
-                <td>
-                    <input type="button" value="Beregn" id="calculate_16km" />
-                </td>
-            </tr>
-            <tr bgcolor="#990000">
-                <td bgcolor="#648cb4">Iltoptagelse</td>
-                <td bgcolor="#648cb4">
-                    <input maxlength="5" name="Iltoptag" type="text" disabled="disabled" /> l/min 
-                </td>
-            </tr>
-            <tr bgcolor="#990000">
-                <td bgcolor="#648cb4">Kondital</td>
-                <td bgcolor="#648cb4">
-                    <input maxlength="5" name="Konditalk" type="text" disabled="disabled" /> ml/kg/min
-                </td>
-            </tr>
-        </tbody>
-    </table>
+<form class="calculator">
+    <fieldset>
+        <legend>Indtast tid og pulssamt personlige data.</legend>
+        <div class="form-group">
+            <label for="">Tiden for at gå 1,6 km</label>
+            <input name="Min" type="text" value="17" /> minutter 
+            <input name="Sek" type="text" value="20" /> sek.
+        </div>
+        <div class="form-group">
+            <label>Pulsefter 1,6 km (slag/min)</label>
+            <input name="Pul" type="text" value="110" />
+        </div>
+        <div class="form-group">
+            <label>Køn</label>
+            <select name="Koen" size="1">
+                <option value="1">Mand</option>
+                <option value="0">Kvinde</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label>Alder (år)</label>
+            <input name="Alder" type="text" value="40" />
+        </div>
+        <div class="form-group">
+            <label>Vægt (kg)</label>
+            <input name="Vaegt" type="text" value="70" />
+        </div>
+        <input type="button" value="Beregn" id="calculate_16km" />
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-row">
+            <label>Iltoptagelse (l/min)</label>
+            <input name="Iltoptag" type="text" disabled="disabled" />
+        </div>
+        <div class="form-group">
+            <label>Kondital (ml/kg/min)</label>
+            <input name="Konditalk" type="text" disabled="disabled" /> ml/kg/min
+        </div>
+    </fieldset>
 </form>

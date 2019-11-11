@@ -1,58 +1,41 @@
 <table>
     <tr>
         <td>
-            <form>
-                <table>
-                    <caption>Indtast de målte værdier.</caption>
-                    </tr>
-                    <tr bgcolor="#FBECD7">
-                        <td><label for="bryst_m">Bryst (mm)</label></td>
-                        <td>
-                            <input type="text" name="bryst_m" id="bryst_m" maxlength="4" value="12">
-                        </td>
-                    </tr>
-                    <tr bgcolor="#FBECD7">
-                        <td><label for="mave_m">Mave (mm)</label></td>
-                        <td>
-                            <input type="text" name="mave_m" id="mave_m" maxlength="4" value="12">
-                        </td>
-                    </tr>
-                    <tr bgcolor="#FBECD7">
-                        <td><label for="laar_m">Lår (mm)</label></td>
-                        <td>
-                            <input type="text" name="laar_m" id="laar_m" value="12" maxlength="4">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td bgcolor="#D8E4F8"><label for="alder_m">Alder (år)</label></td>
-                        <td bgcolor="#D8E4F8">
-                            <input type="text" name="alder_m" id="alder_m" value="30" maxlength="3">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td bgcolor="#D8E4F8"><label for="vaegt_m">Vægt (kg)</label></td>
-                        <td bgcolor="#D8E4F8">
-                            <input type="text" name="vaegt_m" id="vaegt_m" value="75" maxlength="5">
-                        </td>
-                    </tr>
-                    <tr bgcolor="#993300">
-                        <td><label for="fedtprocent_m">Fedtprocent (%)</label></td>
-                        <td>
-                            <input type="text" name="fedtprocent_m" id="fedtprocent_m" disabled="disabled">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td bgcolor="#34557A"><label for="fedtfri_m">Fedtfri kropsvægt (kg)</label></td>
-                        <td bgcolor="#34557A">
-                            <input type="text" name="fedtfri_m" id="fedtfri_m" disabled="disabled">
-                        </td>
-                    </tr>
-                    <tr bgcolor="#FFFFFF">
-                        <td colspan="2">
-                            <input type="button" value="Beregn" id="calculate_skinfold_pollock_men">
-                        </td>
-                    </tr>
-                </table>
+            <form class="calculator">
+                <fieldset>
+                    <legend>Indtast de målte værdier.</legend>
+                    <div class="form-group">
+                        <label for="bryst_m">Bryst (mm)</label>
+                        <input type="text" name="bryst_m" id="bryst_m" maxlength="4" value="12">
+                    </div>
+                    <div class="form-group">
+                        <label for="mave_m">Mave (mm)</label>
+                        <input type="text" name="mave_m" id="mave_m" maxlength="4" value="12">
+                    </div>
+                    <div class="form-group">
+                        <label for="laar_m">Lår (mm)</label>
+                        <input type="text" name="laar_m" id="laar_m" value="12" maxlength="4">
+                    </div>
+                    <div class="form-group">
+                        <label for="alder_m">Alder (år)</label>
+                        <input type="text" name="alder_m" id="alder_m" value="30" maxlength="3">
+                    </div>
+                    <div class="form-group">
+                        <label for="vaegt_m">Vægt (kg)</label>
+                        <input type="text" name="vaegt_m" id="vaegt_m" value="75" maxlength="5">
+                    </div>
+                    <input type="button" value="Beregn" id="calculate_skinfold_pollock_men">
+                </fieldset>
+                <fieldset class="results">
+                    <div class="form-group">
+                        <label for="fedtprocent_m">Fedtprocent (%)</label>
+                        <input type="text" name="fedtprocent_m" id="fedtprocent_m" disabled="disabled">
+                    </div>
+                    <div class="form-group">
+                        <label for="fedtfri_m">Fedtfri kropsvægt (kg)</label>
+                        <input type="text" name="fedtfri_m" id="fedtfri_m" disabled="disabled">
+                    </div>
+                </fieldset>
             </form>
             Mænd
             <img src="https://web.archive.org/web/20110704004552im_/http://www.motion-online.dk/images/fedt/man_jackson1.jpg" width="71" height="227">
@@ -60,57 +43,41 @@
     </tr>
     <tr>
         <td>
-            <form>
-                <table>
-                    <caption>Indtast de målte værdier.</caption>
-                    <tr bgcolor="#FBECD7">
-                        <td><label for="triceps_k">Triceps (mm)</label></td>
-                        <td>
-                            <input type="text" name="triceps_k" id="triceps_k" maxlength="4" value="12">
-                        </td>
-                    </tr>
-                    <tr bgcolor="#FBECD7">
-                        <td><label for="hoftekam_k">Hoftekam (mm)</label></td>
-                        <td>
-                            <input type="text" name="hoftekam_k" id="hoftekam_k" maxlength="4" value="12">
-                        </td>
-                    </tr>
-                    <tr bgcolor="#FBECD7">
-                        <td><label for="laar_k">Lår (mm)</label></td>
-                        <td>
-                            <input type="text" name="laar_k" id="laar_k" value="12" maxlength="4">
-                        </td>
-                    </tr>
-                    <tr bgcolor="#FAECFB">
-                        <td><label for="alder_k">Alder (år)</label></td>
-                        <td>
-                            <input type="text" name="alder_k" id="alder_k" value="30" maxlength="3">
-                        </td>
-                    </tr>
-                    <tr bgcolor="#FAECFB">
-                        <td><label for="vaegt_k">Vægt (kg)</label></td>
-                        <td>
-                            <input type="text" name="vaegt_k" id="vaegt_k" value="65" maxlength="5">
-                        </td>
-                    </tr>
-                    <tr bgcolor="#993300">
-                        <td><label for="fedtprocent_k">Fedtprocent (%)</label></td>
-                        <td>
-                            <input type="text" name="fedtprocent_k" id="fedtprocent_k" disabled="disabled">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td bgcolor="#34557A"><label for="fedtfri_k">Fedtfri kropsvægt (kg)</label></td>
-                        <td bgcolor="#34557A">
-                            <input type="text" name="fedtfri_k" id="fedtfri_k" disabled="disabled">
-                        </td>
-                    </tr>
-                    <tr bgcolor="#FFFFFF">
-                        <td colspan="2">
-                            <input type="button" value="Beregn" id="calculate_skinfold_pollock_women">
-                        </td>
-                    </tr>
-                </table>
+            <form class="calculator">
+                <fieldset>
+                    <legend>Indtast de målte værdier.</legend>
+                    <div class="form-group">
+                        <label for="triceps_k">Triceps (mm)</label>
+                        <input type="text" name="triceps_k" id="triceps_k" maxlength="4" value="12">
+                    </div>
+                    <div class="form-group">
+                        <label for="hoftekam_k">Hoftekam (mm)</label>
+                        <input type="text" name="hoftekam_k" id="hoftekam_k" maxlength="4" value="12">
+                    </div>
+                    <div class="form-group">
+                        <label for="laar_k">Lår (mm)</label>
+                        <input type="text" name="laar_k" id="laar_k" value="12" maxlength="4">
+                    </div>
+                    <div class="form-group">
+                        <label for="alder_k">Alder (år)</label>
+                        <input type="text" name="alder_k" id="alder_k" value="30" maxlength="3">
+                    </div>
+                    <div class="form-group">
+                        <label for="vaegt_k">Vægt (kg)</label>
+                        <input type="text" name="vaegt_k" id="vaegt_k" value="65" maxlength="5">
+                    </div>
+                    <input type="button" value="Beregn" id="calculate_skinfold_pollock_women">
+                </fieldset>
+                <fieldset class="results">
+                    <div class="form-group">
+                        <label for="fedtprocent_k">Fedtprocent (%)</label></td>
+                        <input type="text" name="fedtprocent_k" id="fedtprocent_k" disabled="disabled">
+                    </div>
+                    <div class="form-group">
+                        <label for="fedtfri_k">Fedtfri kropsvægt (kg)</label>
+                        <input type="text" name="fedtfri_k" id="fedtfri_k" disabled="disabled">
+                    </div>
+                </fieldset>
             </form>
             Kvinder
             <img src="https://web.archive.org/web/20110704004552im_/http://www.motion-online.dk/images/fedt/woman_jackson1.jpg" width="57" height="209">

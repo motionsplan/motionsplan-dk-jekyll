@@ -1,72 +1,45 @@
-<form>
-    <table bgcolor="#990000">
-        <caption>Beregning af intervaller &#8211; indtast V<sub>max</sub> og T<sub>max</sub></caption>
-        <tbody>
-            <tr bgcolor="#F3F3EB">
-                <td>V<sub>max</sub>:</td>
-                <td>
-                    <input name="Vmax2" type="text" value="19.0" /> km/t (fra ovenstående test)
-                </td>
-            </tr>
-            <tr bgcolor="#F3F3EB">
-                <td>T<sub>max</sub>:</td>
-                <td>
-                    <input name="Min" type="text" value="4" /> minutter
-                    <input name="Sek" type="text" value="20" /> sek.
-                </td>
-            </tr>
-            <tr bgcolor="#F3F3EB">
-                <td>
-                    <input type="button" value="Beregn" id="calculate_vmax_running_intervals">
-                </td>
-                <td></td>
-            </tr>
-        </tbody>
-    </table>
-    <table>
-        <tbody>
-            <tr bgcolor="#CC6600">
-                <td colspan="2">Anbefalet opvarmning</td>
-            </tr>
-            <tr bgcolor="#CC6600">
-                <td>8 minutter på</td>
-                <td>
-                    <input name="Opvarm1" type="text" disabled="disabled" /> til
-                    <input name="Opvarm2" type="text" disabled="disabled" /> km/t
-                </td>
-            </tr>
-            <tr bgcolor="#CC6600">
-                <td colspan="2">Intervaller</td>
-            </tr>
-            <tr bgcolor="#CC6600">
-                <td>Interval-hastighed</td>
-                <td>
-                    <input name="Vmax3" type="text" disabled="disabled" /> km/t
-                </td>
-            </tr>
-            <tr bgcolor="#CC6600">
-                <td>Interval-tid</td>
-                <td>
-                    <input name="Vmaxtid_m" type="text" disabled="disabled" /> min
-                    <input name="Vmaxtid_s" type="text" disabled="disabled" /> sek.
-                </td>
-            </tr>
-            <tr bgcolor="#CC6600">
-                <td>Pause-hastighed</td>
-                <td>
-                    <input name="Vpause" type="text" disabled="disabled" /> km/t
-                </td>
-            </tr>
-            <tr bgcolor="#CC6600">
-                <td>Pause-tid</td>
-                <td>
-                    <input name="Pausetid_m" type="text" disabled="disabled" /> min
-                    <input name="Pausetid_s" type="text" disabled="disabled" /> sek.
-                </td>
-            </tr>
-            <tr bgcolor="#CC6600">
-                <td colspan="2">x 4-6</td>
-            </tr>
-        </tbody>
-    </table>
+<form class="calculator">
+    <fieldset>
+        <caption>Beregning af intervaller - indtast V<sub>max</sub> og T<sub>max</sub></caption>
+        <div class="form-group">
+            <label>V<sub>max</sub> (watt)</label>
+            <input type="text" name="Vmax2" value="320"> watt (fra ovenstående skema)
+        </div>
+        <div class="form-group">
+            <label>T<sub>max</sub></label>
+            <input type="text" name="Min" value="4"> minutter
+            <input type="text" name="Sek" value="20"> sek.
+        </div>
+        <input type="button" value="Beregn" id="calculate_vmax_bike_intervals">
+    </fieldset>
+    <fieldset>
+        <legend>Anbefalet opvarmning</legend>
+        <div class="form-group">
+            <label>8 minutter på</label>
+            <input type="text" name="Opvarm1" disabled="disabled"> til
+            <input type="text" name="Opvarm2" disabled="disabled"> watt
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Intervaller</legend>
+        <div class="form-group">
+            <label>Interval-belastning</label>
+            <input type="text" name="Vmax3" disabled="disabled"> watt
+        </div>
+        <div class="form-group">
+            <label>Interval-tid</label>
+            <input type="text" name="Vmaxtid_m" disabled="disabled"> min
+            <input type="text" name="Vmaxtid_s" disabled="disabled"> sek.
+        </div>
+        <div class="form-group">
+            <label>Pause-belastning</label>
+            <input type="text" name="Vpause" disabled="disabled"> watt
+        </div>
+        <div class="form-group">
+            <label>Pause-tid</label>
+            <input type="text" name="Pausetid_m" disabled="disabled"> min 
+            <input type="text" name="Pausetid_s" disabled="disabled"> sek.
+        </div>
+        x 4-6
+    </fieldset>
 </form>

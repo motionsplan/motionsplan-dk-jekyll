@@ -1,43 +1,28 @@
-<form>
-    <table bgcolor="#990000">
-        <caption>Indtast den højeste belastning, der blev nået, samt hvor mange sekunder der blev kørt på denne belastning.</caption>
-        <tbody>
-            <tr bgcolor="#f3f3eb">
-                <td>Højeste belastning der blev nået:</td>
-                <td>
-                    <input size="7" value="150" name="Wmax"> W
-                </td>
-            </tr>
-            <tr bgcolor="#f3f3eb">
-                <td>Antal sekunder på højeste belastning:</td>
-                <td>
-                    <input size="7" value="90" name="Sek"> sek.
-                </td>
-            </tr>
-            <tr bgcolor="#f3f3eb">
-                <td>Vægt</td>
-                <td>
-                    <input size="7" value="40" name="Vaegt"> kg
-                </td>
-            </tr>
-            <tr bgcolor="#f3f3eb">
-                <td></td>
-                <td>
-                    <input type="button" value="Beregn" id="calc_wattmax_children">
-                </td>
-            </tr>
-            <tr bgcolor="#990000">
-                <td bgcolor="#648cb4">Iltoptagelse</td>
-                <td bgcolor="#648cb4">
-                    <input maxlength="5" size="7" name="Iltoptag" disabled="disabled"> l/min
-                </td>
-            </tr>
-            <tr bgcolor="#990000">
-                <td bgcolor="#648cb4">Kondital</td>
-                <td bgcolor="#648cb4">
-                    <input maxlength="5" size="7" name="Kondital" disabled="disabled"> ml/kg/min
-                </td>
-            </tr>
-        </tbody>
-    </table>
+<form class="calculator">
+    <fieldset>
+        <legend>Indtast den højeste belastning, der blev nået, samt hvor mange sekunder der blev kørt på denne belastning.</legend>
+        <div class="form-group">
+            <label ="">Højeste belastning der blev nået (watt)</label>
+            <input name="Wmax" type="text" value="240" />
+        </div>
+        <div class="form-group">
+            <label ="">Antal sekunder på højeste belastning (sek)</label>
+            <input name="Sek" type="text" value="60" />
+        </div>
+        <div class="form-group">
+            <label ="">Vægt (kg)</label>
+            <input name="Vaegt" type="text" value="70" />
+        </div>
+        <input type="button" value="Beregn" id="calc_wattmax_children" />
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label ="">Iltoptagelse (l/min)</label>
+            <input maxlength="5" name="Iltoptag" type="text" disabled="disabled" />
+        </div>
+        <div class="form-group">
+            <label ="">Kondital (ml/kg/min)</label>
+            <input maxlength="5" name="Kondital" type="text" disabled="disabled" />
+        </div>
+    </fieldset>
 </form>

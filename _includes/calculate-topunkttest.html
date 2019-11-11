@@ -1,61 +1,42 @@
-<form>
-    <table bgcolor="#003366">
-        <caption>Indtast de målte værdier.</caption>
-        <tbody>
-            <tr>
-                <td bgcolor="#d3e1f8"><label for="arb1">1. arbejdsbelastning (watt)</label></td>
-                <td bgcolor="#d3e1f8">
-                    <input maxlength="3" value="100" name="arb1" id="arb1">
-                </td>
-            </tr>
-            <tr>
-                <td bgcolor="#d3e1f8"><label for="puls1">Puls ved 1. arbejdsbelastning (slag / min)</label></td>
-                <td bgcolor="#d3e1f8">
-                    <input maxlength="3" value="120" name="puls1" id="puls1">
-                </td>
-            </tr>
-            <tr>
-                <td bgcolor="#cef4ea"><label for="arb2">2. arbejdsbelastning (watt)</label></td>
-                <td bgcolor="#cef4ea">
-                    <input maxlength="3" value="180" name="arb2" id="arb2">
-                </td>
-            </tr>
-            <tr>
-                <td bgcolor="#cef4ea"><label for="puls2">Puls ved 2. arbejdsbelastning (slag / min)</label></td>
-                <td bgcolor="#cef4ea">
-                    <input maxlength="3" value="150" name="puls2" id="puls2">
-                </td>
-            </tr>
-            <tr>
-                <td bgcolor="#d8e4f8"><label for="alder">Alder (år)</label></td>
-                <td bgcolor="#d8e4f8">
-                    <input maxlength="3" value="40" name="alder" id="alder">
-                </td>
-            </tr>
-            <tr>
-                <td bgcolor="#d8e4f8"><label for="vaegt">Vægt (kg)</label></td>
-                <td bgcolor="#d8e4f8">
-                    <input maxlength="5" value="70" name="vaegt" id="vaegt">
-                </td>
-            </tr>
-            <tr>
-                <td bgcolor="#34557a"><label for="Iltoptag">Maximal iltoptagelse (l/min)</label></td>
-                <td bgcolor="#34557a">
-                    <input maxlength="5" name="Iltoptag" id="Iltoptag" disabled="disabled">
-                </td>
-            </tr>
-            <tr>
-                <td bgcolor="#34557a"><label for="Kondital">Kondital (ml/kg/min)</label></td>
-                <td bgcolor="#34557a">
-                    <input maxlength="5" name="Kondital" id="Kondital" disabled="disabled">
-                </td>
-            </tr>
-
-            <tr bgcolor="#ffffff">
-                <td colspan="2">
-                    <input type="button" value="Beregn" name="submit" id="calculate_topunkttest">
-                </td>
-            </tr>
-        </tbody>
-    </table>
+<form class="calculator">
+    <fieldset>
+        <legend>Indtast de målte værdier.</legend>
+        <div class="form-group">
+            <label for="arb1">1. arbejdsbelastning (watt)</label>
+            <input maxlength="3" value="100" name="arb1" id="arb1">
+        </div>
+        <div class="form-group">
+        </div>
+        <div class="form-group">
+            <label for="puls1">Puls ved 1. arbejdsbelastning (slag / min)</label>
+            <input maxlength="3" value="120" name="puls1" id="puls1">
+        </div>
+        <div class="form-group">
+            <label for="arb2">2. arbejdsbelastning (watt)</label>
+            <input maxlength="3" value="180" name="arb2" id="arb2">
+        </div>
+        <div class="form-group">
+            <label for="puls2">Puls ved 2. arbejdsbelastning (slag / min)</label></td>
+            <input maxlength="3" value="150" name="puls2" id="puls2">
+        </div>
+        <div class="form-group">
+            <label for="alder">Alder (år)</label>
+            <input maxlength="3" value="40" name="alder" id="alder">
+        </div>
+        <div class="form-group">
+            <label for="vaegt">Vægt (kg)</label>
+            <input maxlength="5" value="70" name="vaegt" id="vaegt">
+        </div>
+        <input type="button" value="Beregn" name="submit" id="calculate_topunkttest">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label for="Iltoptag">Maximal iltoptagelse (l/min)</label>
+            <input maxlength="5" name="Iltoptag" id="Iltoptag" disabled="disabled">
+        </div>
+        <div class="form-group">
+            <label for="Kondital">Kondital (ml/kg/min)</label>
+            <input maxlength="5" name="Kondital" id="Kondital" disabled="disabled">
+        </div>
+    </fieldset>
 </form>

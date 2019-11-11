@@ -1,58 +1,39 @@
-<form>
-    <table bgcolor="#990000">
-        <tbody>
-            <caption>Indtast distance og persondata</caption>
-            <tr bgcolor="#f3f3eb">
-                <td width="179"><label for="Meter">Distance tilbagelagt (meter)</label></td>
-                <td width="253"><input value="400" name="Meter" id="Meter"></td>
-            </tr>
-            <tr bgcolor="#f3f3eb">
-                <td width="179"><label for="Koen">Køn</label></td>
-                <td width="253">
-                    <select name="Koen" id="Koen">
-                        <option value="1">Mand</option>
-                        <option value="0">Kvinde</option>
-                    </select>
-                </td>
-            </tr>
-            <tr bgcolor="#f3f3eb">
-                <td width="179"><label for="Alder">Alder (år)</label></td>
-                <td width="253">
-                    <input value="60" name="Alder" id="Alder">
-                </td>
-            </tr>
-            <tr bgcolor="#f3f3eb">
-                <td><label for="Hoejde">Højde (cm)</label></td>
-                <td>
-                    <input value="170" name="Hoejde" id="Hoejde">
-                </td>
-            </tr>
-            <tr bgcolor="#f3f3eb">
-                <td width="179"><label for="Vaegt">Vægt (kg)</label></td>
-                <td width="253">
-                    <input value="70" name="Vaegt" id="Vaegt">
-                </td>
-            </tr>
-            <tr bgcolor="#f3f3eb">
-                <td width="179"></td>
-                <td width="253">
-                    <input type="button" value="Beregn" id="calculate_6min">
-                </td>
-            </tr>
-            <tr bgcolor="#990000">
-                <td width="179" bgcolor="#648cb4">
-                    <label for="Refmeter">Referenceværdi (meter)</label>
-                </td>
-                <td width="253" bgcolor="#648cb4">
-                    <input name="Refmeter" id="Refmeter" disabled="disabled"> meter
-                </td>
-            </tr>
-            <tr bgcolor="#990000">
-                <td width="179" bgcolor="#648cb4"><label for="Procent">Procent af normal (%)</label></td>
-                <td width="253" bgcolor="#648cb4">
-                    <input name="Procent" id="Procent" disabled="disabled"> %
-                </td>
-            </tr>
-        </tbody>
-    </table>
+<form class="calculator">
+    <fieldset>
+        <legend>Indtast distance og persondata</legend>
+        <div class="form-group">
+            <label for="Meter">Distance tilbagelagt (meter)</label>
+            <input value="400" name="Meter" id="Meter">
+        </div>
+        <div class="form-group">
+            <label for="Koen">Køn</label></td>
+            <select name="Koen" id="Koen">
+                <option value="1">Mand</option>
+                <option value="0">Kvinde</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="Alder">Alder (år)</label>
+            <input value="60" name="Alder" id="Alder">
+        </div>
+        <div class="form-group">
+            <label for="Hoejde">Højde (cm)</label>
+            <input value="170" name="Hoejde" id="Hoejde">
+        </div>
+        <div class="form-group">
+            <label for="Vaegt">Vægt (kg)</label>
+            <input value="70" name="Vaegt" id="Vaegt">
+        </div>
+        <input type="button" value="Beregn" id="calculate_6min">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label for="Refmeter">Referenceværdi (meter)</label>
+            <input name="Refmeter" id="Refmeter" disabled="disabled">
+        </div>
+        <div class="form-group">
+            <label for="Procent">Procent af normal (%)</label>
+            <input name="Procent" id="Procent" disabled="disabled">
+        </div>
+    </fieldset>
 </form>

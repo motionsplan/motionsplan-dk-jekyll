@@ -158,10 +158,16 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
+  - composer.phar
+  - composer.json
+  - composer.lock
+  - /vendor
   - /src
-keep_files:
   - .git
   - .svn
+keep_files:
+  - /assets/images
+  - /assets/pdf
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 

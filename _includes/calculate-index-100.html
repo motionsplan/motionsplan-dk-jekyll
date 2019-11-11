@@ -1,25 +1,20 @@
-<form>
-  <table bgcolor="#990000">
-    <caption>Beregning af Index100.</caption>
-    <tr bgcolor="#F3F3EB"> 
-      <td width="246">Dit løft:</td>
-      <td width="186"> 
-        <input type="text" name="Loeft" size="7" value="80" class="flat_field">kg</td>
-    </tr>
-    <tr bgcolor="#F3F3EB"> 
-      <td width="246">Din kropsvægt:</td>
-      <td width="186"><input type="text" name="Vaegt" size="7" value="80" class="flat_field">kg</td>
-    </tr>
-    <tr bgcolor="#F3F3EB">
-      <td width="246"></td>
-      <td width="186">
-        <input type="button" value="Beregn" id="calculate_index100">
-      </td>
-    </tr>
-    <tr bgcolor="#BBDDFF"> 
-      <td width="246">Dit løft hvis du vejede 100 kg:</td>
-      <td width="186">
-        <input type="text" name="Krop100" size="7" maxlength="5" disabled="disabled"> kg</td>
-    </tr>
-  </table>
+<form class="calculator">
+  <fieldset>
+    <legend>Beregning af Index100.</legend>
+    <div class="form-group">
+      <label>Dit løft (kg)</label>
+      <input type="text" name="Loeft" value="80">
+    </div>
+    <div class="form-group">
+      <label>Din kropsvægt (kg)</label>
+      <input type="text" name="Vaegt" value="80">
+    </div>
+    <input type="button" value="Beregn" id="calculate_index100">
+  </fieldset>
+  <fieldset class="results">
+    <div class="form-group">
+      <label>Dit løft hvis du vejede 100 kg (kg)</label>
+      <input type="text" name="Krop100" maxlength="5" disabled="disabled">
+    </div>
+  </fieldset>
 </form>

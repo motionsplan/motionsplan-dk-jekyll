@@ -3,37 +3,27 @@
         <legend>Indtast de målte værdier</legend>
         <div class="form-group">
             <label for="rpBorg">Belastning ved Borg 15 (watt)</label>
-            <input type="text" class="rpInpTxt" id="rpBorg" value="120" />
+            <input type="text" id="rpBorg" value="120" />
         </div>
         <div class="form-group">
             <label for="rpAlder">Alder (år)</span>
-            <input type="text" class="rpInpTxt" id="rpAlder" value="40" />
+            <input type="text" id="rpAlder" value="40" />
         </div>
         <div class="form-group">
             <label for="rpVgt">Vægt (kg)</span>
-            <input type="text" class="rpInpTxt" id="rpVgt" value="70" />
+            <input type="text" id="rpVgt" value="70" />
         </div>
-        <div>
-            <input type="button" class="rpBtns" id="rpCalBtn" value="Beregn" />
-        </div>
+        <input type="button" id="rpCalBtn" value="Beregn" />
     </fieldset>
     <fieldset class="results">
         <legend>Resultater</legend>
-        <div class="rpresRow">
-            <div class="rpresrowLft">
-                <span class="rpresLabel">Maximal iltoptagelse:</span>
-            </div>
-            <div class="rpresrowRgt">
-                <span class="rpresTxt" id="rpIltop">0</span><span class="rprespostFx">l/min</span>
-            </div>
+        <div class="form-group">
+            <label for="rpIltop">Maximal iltoptagelse (l/min)</span>
+            <input id="rpIltop" disabled="disabled">
         </div>
-        <div class="rpresRow">
-            <div class="rpresrowLft">
-                <span class="rpresLabel">Kondital:</span>
+            <div class="form-group">
+                <label for="rpKond">Kondital (ml/kg/min)</label>
+                <input id="rpKond" disabled="disabled">
             </div>
-            <div class="rpresrowRgt">
-                <span class="rpresTxt" id="rpKond">0</span><span class="rprespostFx">ml/kg/min</span>
-            </div>
-        </div>
     </fieldset>
 </form>

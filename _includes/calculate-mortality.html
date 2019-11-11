@@ -1,83 +1,59 @@
-<form>
-    <table bgcolor="#990000">
-        <caption>Vælg de værdier der passer på dig og tryk på Beregn.</caption>
-        <tbody>
-            <tr bgcolor="#f3f3eb">
-                <td><label for="age">Alder (år)</label></td>
-                <td>
-                    <input type="text" name="Alder" id="age" />
-                </td>
-            </tr>
-            <tr bgcolor="#f3f3eb">
-                <td><label for="hrrest">Hvilepuls (slag/min)</label></td>
-                <td>
-                    <input type="text" name="Hvilepuls" id="hrrest" />
-                </td>
-            </tr>
-            <tr bgcolor="#f3f3eb">
-                <td><label for="bloodpressure">Blodtryk</label></td>
-                <td>
-                    <select name="Blodtryk" id="bloodpressure">
-                        <option value="0">Under 140/90</option>
-                        <option value="2">Over 140/90</option>
-                    </select>
-                </td>
-            </tr>
-            <tr bgcolor="#f3f3eb">
-                <td><label for="diabetes">Sukkersyge</label></td>
-                <td>
-                    <select name="Sukkersyge" id="diabetes">
-                        <option value="0">Nej</option>
-                        <option value="4">Ja</option>
-                    </select>
-                </td>
-            </tr>
-            <tr bgcolor="#f3f3eb">
-                <td><label for="smoker">Ryger</label></td>
-                <td>
-                    <select name="Ryger" id="smoker">
-                        <option value="0">Aldrig</option>
-                        <option value="1">Tidligere</option>
-                        <option value="4">Nuværende</option>
-                    </select>
-                </td>
-            </tr>
-            <tr bgcolor="#f3f3eb">
-                <td><label for="bmi">BMI</label></td>
-                <td>
-                    <input type="text" name="Bmi" id="bmi" />
-                </td>
-            </tr>
-            <tr bgcolor="#f3f3eb">
-                <td><label for="kondital">Kondital (ml/kg/min)</label></td>
-                <td>
-                    <input type="text" name="Kondital" id="kondital" />
-                </td>
-            </tr>
-            <tr bgcolor="#f3f3eb">
-                <td></td>
-                <td>
-                    <input type="button" value="Beregn" id="calculate_cooper" />
-                </td>
-            </tr>
-            <tr>
-                <td bgcolor="#648cb4"><label for="Risikopoint">Risiko-score (point)</label></td>
-                <td bgcolor="#648cb4">
-                    <input id="Risikopoint" name="Risikopoint" type="text" disabled="disabled" />
-                </td>
-            </tr>
-            <tr bgcolor="#990000">
-                <td bgcolor="#648cb4"><label for="Risiko1">Absolut risiko (%)</label></td>
-                <td bgcolor="#648cb4">
-                    <input id="Risiko1" name="Risiko1" type="text" disabled="disabled" />
-                </td>
-            </tr>
-            <tr bgcolor="#990000">
-                <td bgcolor="#648cb4"<label for="Risiko2">Relativ risiko</label></td>
-                <td bgcolor="#648cb4">
-                    <input id="Risiko2" name="Risiko2" type="text" disabled="disabled" /> gange så stor risiko som gennemsnitlig jævnaldrende
-                </td>
-            </tr>
-        </tbody>
-    </table>
+<form class="calculator">
+    <fieldset>
+        <legend>Vælg de værdier der passer på dig og tryk på Beregn.</legend>
+        <div class="form-group">
+            <label for="age">Alder (år)</label>
+            <input type="text" name="Alder" id="age" />
+        </div>
+        <div class="form-group">
+            <label for="hrrest">Hvilepuls (slag/min)</label>
+            <input type="text" name="Hvilepuls" id="hrrest" />
+        </div>
+        <div class="form-group">
+            <label for="bloodpressure">Blodtryk</label>
+            <select name="Blodtryk" id="bloodpressure">
+                <option value="0">Under 140/90</option>
+                <option value="2">Over 140/90</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="diabetes">Sukkersyge</label>
+            <select name="Sukkersyge" id="diabetes">
+                <option value="0">Nej</option>
+                <option value="4">Ja</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="smoker">Ryger</label>
+            <select name="Ryger" id="smoker">
+                <option value="0">Aldrig</option>
+                <option value="1">Tidligere</option>
+                <option value="4">Nuværende</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="bmi">BMI</label>
+            <input type="text" name="Bmi" id="bmi" />
+        </div>
+        <div class="form-group">
+            <label for="kondital">Kondital (ml/kg/min)</label>
+            <input type="text" name="Kondital" id="kondital" />
+        </div>
+        <input type="button" value="Beregn" id="calculate_cooper" />
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label for="Risikopoint">Risiko-score (point)</label>
+            <input id="Risikopoint" name="Risikopoint" type="text" disabled="disabled" />
+        </div>
+        <div class="form-group">
+            <label for="Risiko1">Absolut risiko (%)</label>
+            <input id="Risiko1" name="Risiko1" type="text" disabled="disabled" />
+        </div>
+        <div class="form-group">
+            <label for="Risiko2">Relativ risiko</label>
+            <input id="Risiko2" name="Risiko2" type="text" disabled="disabled" /> 
+            <span class="help-block">gange så stor risiko som gennemsnitlig jævnaldrende</span>
+        </div>
+    </fieldset>
 </form>
