@@ -253,7 +253,7 @@ $(document).ready(function() {
         
         var hr = maxhr.EstimateMaxHr(ald);
 
-        $("#mxMaxpul").text(hr.getMaxHr());
+        $("#mxMaxpul").val(hr.getMaxHr());
     });
     // Calculate Fat Percent
     $("#calculate_bmi").click(function() {
@@ -396,8 +396,8 @@ $(document).ready(function() {
         var maxiltop = fitnesshr.getMaximalOxygen();
         var kondi = fitnesshr.getFitnessLevel();
 
-        $("#plIltop").text(maxiltop);
-        $("#plKond").text(kondi);
+        $("#plIltop").val(maxiltop);
+        $("#plKond").val(kondi);
     });
     // Calculate Borg 15 fitness
     $("#rpCalBtn").click(function() {
@@ -412,8 +412,8 @@ $(document).ready(function() {
         var maxiltop = Math.round((iltoptag / 1000) * Math.pow(10, 2)) / Math.pow(10, 2)
         var kondi = Math.round((iltoptag / wgt) * Math.pow(10, 1)) / Math.pow(10, 1)
 
-        $("#rpIltop").text(maxiltop);
-        $("#rpKond").text(kondi);
+        $("#rpIltop").val(maxiltop);
+        $("#rpKond").val(kondi);
 
     });
     // Calculate Wattmax
