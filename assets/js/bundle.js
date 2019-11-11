@@ -135,6 +135,7 @@ const rm = require('./1rm');
 const etpunkt = require('./etpunkttest');
 const topunkt = require('./topunkttest');
 const bmr = require('./bmr');
+const bmi = require('./bmi');
 
 $(document).ready(function() {
 
@@ -251,6 +252,18 @@ $(document).ready(function() {
         var ald = Number($("#mxAld").val());
         var hr = maxhr.EstimateMaxHr(ald);
         $("#mxMaxpul").text(hr.getMaxHr());
+    });
+    // Calculate Fat Percent
+    $("#calculate_bmi").click(function() {
+        console.log("Calculate BMI");
+
+        var h = Number($("#height").val());
+        var w = Number($("#weight").val());
+
+        var b = bmi.BMI(h, w);
+
+        $("#BMI").val(b.getBMI());
+        $("#PMI").val(b.getPonderalIndex());
     });
     
     // Calculate Fat Percent
@@ -574,7 +587,35 @@ $(document).ready(function() {
     });
 });
 
-},{"./1rm":1,"./bmr":3,"./cooper":4,"./etpunkttest":5,"./fat-pct":7,"./fat-pct-measurements":6,"./fitness-hr":8,"./max-hr":9,"./topunkttest":10}],3:[function(require,module,exports){
+},{"./1rm":1,"./bmi":3,"./bmr":4,"./cooper":5,"./etpunkttest":6,"./fat-pct":8,"./fat-pct-measurements":7,"./fitness-hr":9,"./max-hr":10,"./topunkttest":11}],3:[function(require,module,exports){
+let motionsplan = {}
+
+motionsplan.BMI = function(h, w) {
+  var h, w;
+
+  h = h = h / 100;
+  w = w;
+
+  function getBMI() {
+    return w / (h * h);
+  }
+
+  function getPonderalIndex() {
+    return w / (h * h * h);
+  }
+
+  var publicAPI = {
+    getBMI : getBMI,
+    getPonderalIndex : getPonderalIndex
+
+  };
+
+  return publicAPI;
+}
+
+module.exports = motionsplan;
+
+},{}],4:[function(require,module,exports){
 let motionsplan = {};
 
 
@@ -660,7 +701,7 @@ motionsplan.EnergyExpenditure = function(sex, age, weight, pal, sport) {
 
 module.exports = motionsplan;
 
-},{}],4:[function(require,module,exports){
+},{}],5:[function(require,module,exports){
 let motionsplan = {};
 
 motionsplan.CooperClinicMortalityRiskIndex = function(age, hr, bloodpressure, diabetes, smoker, bmi, fitness) {
@@ -829,7 +870,7 @@ motionsplan.CooperClinicMortalityRiskIndex = function(age, hr, bloodpressure, di
 
 module.exports = motionsplan;
 
-},{}],5:[function(require,module,exports){
+},{}],6:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.EtPunktTest = function(gender, age, weight, work, hr) {
@@ -908,7 +949,7 @@ motionsplan.EtPunktTest = function(gender, age, weight, work, hr) {
 
 module.exports = motionsplan;
 
-},{}],6:[function(require,module,exports){
+},{}],7:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.CalculateFatPercentMeasurements = function() {
@@ -941,7 +982,7 @@ motionsplan.CalculateFatPercentMeasurements = function() {
 
 module.exports = motionsplan;
 
-},{}],7:[function(require,module,exports){
+},{}],8:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.CalculateFatPercent = function(h, w, a, sex) {
@@ -982,7 +1023,7 @@ motionsplan.CalculateFatPercent = function(h, w, a, sex) {
 
 module.exports = motionsplan;
 
-},{}],8:[function(require,module,exports){
+},{}],9:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.CalculateFitnessFromHr = function(mxpul, hvpul, wgt) {
@@ -1015,7 +1056,7 @@ motionsplan.CalculateFitnessFromHr = function(mxpul, hvpul, wgt) {
 
 module.exports = motionsplan;
 
-},{}],9:[function(require,module,exports){
+},{}],10:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.EstimateMaxHr = function(ald) {
@@ -1036,7 +1077,7 @@ motionsplan.EstimateMaxHr = function(ald) {
 
 module.exports = motionsplan;
 
-},{}],10:[function(require,module,exports){
+},{}],11:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.ToPunktTest = function(age, weight, work1, hr1, work2, hr2) {

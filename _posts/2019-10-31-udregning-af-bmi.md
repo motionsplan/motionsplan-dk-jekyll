@@ -20,7 +20,7 @@ last_modified_at: 2019-03-06T23:14:14Z
 
 BMI er det mest udbredte mål til at vurdere overvægt i større befolkningsgrupper. Her kan du få beregnet dit BMI og få en vurdering med det samme. Nedenunder kan du udregne BMI og sammenligne dig med _det normale_. At bruge BMI som enkeltperson er dog forbundet med en række forbehold, så husk at læse lidt videre.
 
-{% include calculate-fat-percent.html %}
+{% include calculate-bmi.html %}
 
 ## Om Body Mass Index (BMI)
 
@@ -94,7 +94,7 @@ En af ulemperne ved BMI er, at det kan give en unfair sammenligning mellem folk 
 
 Til forskel fra BMI er højden (m) altså løftet i tredje potens i stedet for anden potens.
 
-{% include math formula="BMI = \frac{weight (kg)}{height (m)^3}" %}
+{% include math formula="Ponderal Index = \frac{weight (kg)}{height (m)^3}" %}
  
 ## Referencer
 

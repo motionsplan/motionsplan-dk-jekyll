@@ -9,6 +9,7 @@ const rm = require('./1rm');
 const etpunkt = require('./etpunkttest');
 const topunkt = require('./topunkttest');
 const bmr = require('./bmr');
+const bmi = require('./bmi');
 
 $(document).ready(function() {
 
@@ -125,6 +126,18 @@ $(document).ready(function() {
         var ald = Number($("#mxAld").val());
         var hr = maxhr.EstimateMaxHr(ald);
         $("#mxMaxpul").text(hr.getMaxHr());
+    });
+    // Calculate Fat Percent
+    $("#calculate_bmi").click(function() {
+        console.log("Calculate BMI");
+
+        var h = Number($("#height").val());
+        var w = Number($("#weight").val());
+
+        var b = bmi.BMI(h, w);
+
+        $("#BMI").val(b.getBMI());
+        $("#PMI").val(b.getPonderalIndex());
     });
     
     // Calculate Fat Percent
