@@ -1,38 +1,36 @@
 <form>
     <table bgcolor="#990000">
         <tbody>
-            <tr bgcolor="#ccffcc">
-                <td bgcolor="#ffffff" colspan="2">Indtast distance og persondata</td>
+            <caption>Indtast distance og persondata</caption>
+            <tr bgcolor="#f3f3eb">
+                <td width="179"><label for="Meter">Distance tilbagelagt (meter)</label></td>
+                <td width="253"><input value="400" name="Meter" id="Meter"></td>
             </tr>
             <tr bgcolor="#f3f3eb">
-                <td width="179">Distance tilbagelagt:</td>
-                <td width="253"><input size="7" value="400" name="Meter"> meter</td>
-            </tr>
-            <tr bgcolor="#f3f3eb">
-                <td width="179">Køn:</td>
+                <td width="179"><label for="Koen">Køn</label></td>
                 <td width="253">
-                    <select size="1" name="Koen">
-                        <option value="1" selected>Mand</option>
+                    <select name="Koen" id="Koen">
+                        <option value="1">Mand</option>
                         <option value="0">Kvinde</option>
                     </select>
                 </td>
             </tr>
             <tr bgcolor="#f3f3eb">
-                <td width="179">Alder:</td>
+                <td width="179"><label for="Alder">Alder (år)</label></td>
                 <td width="253">
-                    <input size="7" value="60" name="Alder"> år
+                    <input value="60" name="Alder" id="Alder">
                 </td>
             </tr>
             <tr bgcolor="#f3f3eb">
-                <td>Højde:</td>
+                <td><label for="Hoejde">Højde (cm)</label></td>
                 <td>
-                    <input size="7" value="170" name="Hoejde"> cm
+                    <input value="170" name="Hoejde" id="Hoejde">
                 </td>
             </tr>
             <tr bgcolor="#f3f3eb">
-                <td width="179">Vægt</td>
+                <td width="179"><label for="Vaegt">Vægt (kg)</label></td>
                 <td width="253">
-                    <input size="7" value="70" name="Vaegt"> kg
+                    <input value="70" name="Vaegt" id="Vaegt">
                 </td>
             </tr>
             <tr bgcolor="#f3f3eb">
@@ -43,16 +41,16 @@
             </tr>
             <tr bgcolor="#990000">
                 <td width="179" bgcolor="#648cb4">
-                    Referenceværdi:
+                    <label for="Refmeter">Referenceværdi (meter)</label>
                 </td>
                 <td width="253" bgcolor="#648cb4">
-                    <input maxlength="5" size="7" name="Refmeter" disabled="disabled"> meter
+                    <input name="Refmeter" id="Refmeter" disabled="disabled"> meter
                 </td>
             </tr>
             <tr bgcolor="#990000">
-                <td width="179" bgcolor="#648cb4">Procent af normal:</td>
+                <td width="179" bgcolor="#648cb4"><label for="Procent">Procent af normal (%)</label></td>
                 <td width="253" bgcolor="#648cb4">
-                    <input maxlength="5" size="7" name="Procent" disabled="disabled"> %
+                    <input name="Procent" id="Procent" disabled="disabled"> %
                 </td>
             </tr>
         </tbody>

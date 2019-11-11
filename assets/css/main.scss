@@ -7,14 +7,42 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-fieldset {
-    padding: 1em;
-    background-color: #D8E4F8;
-    
-    [disabled="disabled"] {
-        label {
-            color: white;
-        }
-        background-color: #34557A;
+form.calculator {
+    fieldset, legend {
+        margin: 0;
+        padding: 0;
     }
+    fieldset {
+        padding: 1em !important;
+        background-color: #D8E4F8;
+    
+        fieldset {
+            clear: both !important;
+            padding: 0 !important;
+            legend {
+                font-weight: normal;
+            }
+        }
+    
+        &.results {
+            color: white !important;
+            background-color: #34557A !important;
+            
+            legend, label {
+                color: white !important;
+            }
+        }
+        
+        legend {
+	        font-weight: bold;
+            float: left;
+            margin-bottom: .5em;
+            width: 100%;
+        }
+    }
+    input[type="button"] {
+        @extend .btn;
+        @extend .btn--large;
+        @extend .btn--success;
+    }    
 }

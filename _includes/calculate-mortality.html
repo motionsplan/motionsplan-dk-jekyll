@@ -1,23 +1,21 @@
 <form>
     <table bgcolor="#990000">
+        <caption>Vælg de værdier der passer på dig og tryk på Beregn.</caption>
         <tbody>
-            <tr bgcolor="#ccffcc">
-                <td colspan="2" bgcolor="#ffffff">Vælg de værdier der passer på dig og tryk på Beregn.</td>
-            </tr>
             <tr bgcolor="#f3f3eb">
-                <td>Alder</td>
+                <td><label for="age">Alder (år)</label></td>
                 <td>
                     <input type="text" name="Alder" id="age" />
                 </td>
             </tr>
             <tr bgcolor="#f3f3eb">
-                <td>Hvilepuls:</td>
+                <td><label for="hrrest">Hvilepuls (slag/min)</label></td>
                 <td>
                     <input type="text" name="Hvilepuls" id="hrrest" />
                 </td>
             </tr>
             <tr bgcolor="#f3f3eb">
-                <td>Blodtryk:</td>
+                <td><label for="bloodpressure">Blodtryk</label></td>
                 <td>
                     <select name="Blodtryk" id="bloodpressure">
                         <option value="0">Under 140/90</option>
@@ -26,7 +24,7 @@
                 </td>
             </tr>
             <tr bgcolor="#f3f3eb">
-                <td>Sukkersyge:</td>
+                <td><label for="diabetes">Sukkersyge</label></td>
                 <td>
                     <select name="Sukkersyge" id="diabetes">
                         <option value="0">Nej</option>
@@ -35,7 +33,7 @@
                 </td>
             </tr>
             <tr bgcolor="#f3f3eb">
-                <td>Ryger:</td>
+                <td><label for="smoker">Ryger</label></td>
                 <td>
                     <select name="Ryger" id="smoker">
                         <option value="0">Aldrig</option>
@@ -45,13 +43,13 @@
                 </td>
             </tr>
             <tr bgcolor="#f3f3eb">
-                <td>BMI:</td>
+                <td><label for="bmi">BMI</label></td>
                 <td>
                     <input type="text" name="Bmi" id="bmi" />
                 </td>
             </tr>
             <tr bgcolor="#f3f3eb">
-                <td>Kondital:</td>
+                <td><label for="kondital">Kondital (ml/kg/min)</label></td>
                 <td>
                     <input type="text" name="Kondital" id="kondital" />
                 </td>
@@ -63,21 +61,21 @@
                 </td>
             </tr>
             <tr>
-                <td bgcolor="#648cb4">Risiko-score</td>
+                <td bgcolor="#648cb4"><label for="Risikopoint">Risiko-score (point)</label></td>
                 <td bgcolor="#648cb4">
-                    <input id="Risikopoint" maxlength="5" name="Risikopoint" size="7" type="text" disabled="disabled" /> point
+                    <input id="Risikopoint" name="Risikopoint" type="text" disabled="disabled" />
                 </td>
             </tr>
             <tr bgcolor="#990000">
-                <td bgcolor="#648cb4">Absolut risiko</td>
+                <td bgcolor="#648cb4"><label for="Risiko1">Absolut risiko (%)</label></td>
                 <td bgcolor="#648cb4">
-                    <input id="Risiko1" maxlength="5" name="Risiko1" size="7" type="text" disabled="disabled" /> %
+                    <input id="Risiko1" name="Risiko1" type="text" disabled="disabled" />
                 </td>
             </tr>
             <tr bgcolor="#990000">
-                <td bgcolor="#648cb4">Relativ risiko</td>
+                <td bgcolor="#648cb4"<label for="Risiko2">Relativ risiko</label></td>
                 <td bgcolor="#648cb4">
-                    <input id="Risiko2" maxlength="5" name="Risiko2" size="7" type="text" disabled="disabled" /> gange så stor risiko som gennemsnitlig jævnaldrende
+                    <input id="Risiko2" name="Risiko2" type="text" disabled="disabled" /> gange så stor risiko som gennemsnitlig jævnaldrende
                 </td>
             </tr>
         </tbody>

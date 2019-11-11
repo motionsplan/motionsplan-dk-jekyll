@@ -12,52 +12,50 @@
 
 <form>
     <table>
-        <tr>
-            <td bgcolor="#FFFFFF" colspan="2">Indtast de målte værdier.</td>
-        </tr>
+        <caption>Indtast de målte værdier.</caption>
         <tr bgcolor="#CEF4EA">
             <td bgcolor="#FBECD7" width="215">
-                Biceps:
-                <input type="text" name="biceps" size="7" maxlength="4" value="12"> mm
+                <label for="biceps">Biceps (mm)</label>
+                <input type="text" name="biceps" id="biceps" maxlength="4" value="12">
             </td>
             <td bgcolor="#FBECD7" width="217">
-                Hoftekam:
-                <input type="text" name="hoftekam" size="7" maxlength="4" value="12"> mm
+                <label for="hoftekam">Hoftekam (mm)</label>
+                <input type="text" name="hoftekam" id="hoftekam" maxlength="4" value="12">
             </td>
         </tr>
         <tr>
             <td bgcolor="#FBECD7" width="215">
-                Triceps:
-                <input type="text" name="triceps" size="7" maxlength="4" value="12"> mm
-            </td>
+                <label for="triceps">Triceps (mm)</label>
+                <input type="text" name="triceps" id="triceps" maxlength="4" value="12">
+            </td
             <td bgcolor="#FBECD7" width="217">
-                Skulderblad:
-                <input type="text" name="skulder" size="7" value="12" maxlength="4"> mm
+                <label for="skulder">Skulderblad (mm)</label>
+                <input type="text" name="skulder" id="skulder" value="12" maxlength="4">
             </td>
         </tr>
         <tr>
             <td bgcolor="#D8E4F8" width="215">
-                Køn:
-                <select name="koen">
+                <label for="gender">Køn</label>
+                <select name="koen" id="gender">
                     <option value="1">Mand</option>
                     <option value="0">Kvinde</option>
                 </select>
             </td>
             <td bgcolor="#D8E4F8" width="217">
-                Vægt:
-                <input type="text" name="vaegt" size="7" value="75" maxlength="5"> Kg
+                <label for="vaegt">Vægt (kg)</label>
+                <input type="text" name="vaegt" id="vaegt" value="75" maxlength="5">
             </td>
         </tr>
         <tr>
-            <td width="215">Fedtprocent:</td>
+            <td width="215"><label for="fedtprocentDurnin">Fedtprocent (%)</label></td>
             <td width="217">
-                <input type="text" name="fedtprocentDurnin" size="7" maxlength="5" disabled="disabled"> %
+                <input type="text" name="fedtprocentDurnin" id="fedtprocentDurnin" disabled="disabled">
             </td>
         </tr>
         <tr>
-            <td width="215">Fedtfri kropsvægt:</td>
+            <td width="215"><label for="fedtfriDurnin">Fedtfri kropsvægt (kg)</label></td>
             <td width="217">
-                <input type="text" name="fedtfriDurnin" maxlength="5" size="7" disabled="disabled"> kg
+                <input type="text" name="fedtfriDurnin" id="fedtfriDurnin" disabled="disabled">
             </td>
         </tr>
         <tr>

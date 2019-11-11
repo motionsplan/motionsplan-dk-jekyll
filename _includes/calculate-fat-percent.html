@@ -1,16 +1,15 @@
-<form>
+<form class="calculator">
     <fieldset>
-        <legend>Køn</legend>
-        <label for="checkbox-man" class="radio">
-            <input name="sex" type="radio" value="man" id="checkbox-man" />
-            Mand
-        </label>
-        <label for="checkbox-woman" class="radio">
-            <input name="sex" type="radio" value="woman" id="checkbox-woman" />
-            Kvinde
-        </label>
-    </fieldset>
-    <fieldset>
+        <legend>Udregning af fedtprocent. Indtast værdier</legend>
+        <fieldset>
+            <legend>Køn</legend>
+            <label for="checkbox-man">
+                <input name="sex" class="radio" type="radio" value="man" id="checkbox-man" /> Mand
+            </label>
+            <label for="checkbox-woman">
+                <input name="sex" class="radio" type="radio" value="woman" id="checkbox-woman" /> Kvinde
+            </label>
+        </fieldset>
         <div class="form-group">
             <label for="age">Alder (år)</label>
             <input maxlength="3" name="age" id="age" type="text" placeholder="Alder i år" />
@@ -20,20 +19,21 @@
             <input maxlength="3" name="height" id="height" type="text" placeholder="Højde i cm" />
         </div>
         <div class="form-group">
-            <label for="weight">Vægt (kg)</label> 
+            <label for="weight">Vægt (kg)</label>
             <input maxlength="3" name="weight" id="weight" type="text" placeholder="Vægt i kg" />
         </div>
-        <input class="btn btn--large btn--success" id="calculate_fat_percent" type="button" value="Udregn" />
+        <input id="calculate_fat_percent" type="button" value="Udregn" />
     </fieldset>
-    <fieldset disabled="disabled">
+    <fieldset class="results" disabled="disabled">
+        <legend>Resultater</legend>
         <label>Body mass index (BMI)
-            <input disabled="disabled" name="BMI" id="BMI" size="6" type="text" placeholder="Venter på udregning" />
+            <input disabled="disabled" name="BMI" id="BMI" type="text" placeholder="Venter på udregning" />
         </label>
         <label>Fedtmasse
-            <input disabled="disabled" name="fedtmasse" id="fat_mass" size="6" type="text" placeholder="Venter på udregning" />
+            <input disabled="disabled" name="fedtmasse" id="fat_mass" type="text" placeholder="Venter på udregning" />
         </label>
         <label>Fedtprocent
-            <input disabled="disabled" name="fedtprocent" id="fat_percent" size="6" type="text" placeholder="Venter på udregning" />
+            <input disabled="disabled" name="fedtprocent" id="fat_percent" type="text" placeholder="Venter på udregning" />
         </label>
     </fieldset>
 </form>

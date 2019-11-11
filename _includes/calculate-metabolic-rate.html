@@ -1,28 +1,26 @@
 <form>
     <table bgcolor="#003366">
+        <caption>Basale oplysninger</caption>
         <tbody>
             <tr>
-                <td bgcolor="#ffffff" colspan="3">Basale oplysninger</td>
-            </tr>
-            <tr>
-                <td bgcolor="#d8e4f8" colspan="2">Køn</td>
+                <td bgcolor="#d8e4f8" colspan="2"><label for="koen">Køn</label></td>
                 <td width="20%" bgcolor="#d8e4f8">
-                    <select name="koen">
+                    <select name="koen" id="koen">
                         <option value="1">Mand</option>
                         <option value="0">Kvinde</option>
                     </select>
                 </td>
             </tr>
             <tr>
-                <td bgcolor="#d8e4f8" colspan="2">Alder:</td>
+                <td bgcolor="#d8e4f8" colspan="2"><label for="alder">Alder (år)</label></td>
                 <td width="20%" bgcolor="#d8e4f8">
-                    <input maxlength="3" size="7" value="40" name="alder">
+                    <input maxlength="3" value="40" name="alder" id="alder">
                 </td>
             </tr>
             <tr>
-                <td bgcolor="#d8e4f8" colspan="2">Vægt</td>
+                <td bgcolor="#d8e4f8" colspan="2"><label for="vaegt">Vægt (kg)</label></td>
                 <td width="20%" bgcolor="#d8e4f8">
-                    <input maxlength="5" size="7" value="70" name="vaegt">
+                    <input maxlength="5" value="70" name="vaegt" id="vaegt">
                 </td>
             </tr>
             <tr bgcolor="#ffffff">
@@ -30,53 +28,53 @@
                 <td width="20%"></td>
             </tr>
             <tr>
-                <td bgcolor="#d3e1f8" colspan="2">Rullestolsbunden eller sengeliggende.</td>
+                <td bgcolor="#d3e1f8" colspan="2"><label for="pal12">Rullestolsbunden eller sengeliggende.</label></td>
                 <td width="20%" bgcolor="#d3e1f8">
-                    <input type="radio" value="1.2" name="pal">
+                    <input type="radio" value="1.2" name="pal" id="pal12">
                 </td>
             </tr>
             <tr>
-                <td bgcolor="#d3e1f8" colspan="2">Stillesiddende arbejde med kun lidt fysisk aktivitet og ingen eller begrænset fysisk aktivitet i fritiden. </td>
+                <td bgcolor="#d3e1f8" colspan="2"><label for="pal145">Stillesiddende arbejde med kun lidt fysisk aktivitet og ingen eller begrænset fysisk aktivitet i fritiden.</label></td>
                 <td width="20%" bgcolor="#d3e1f8">
-                    <input type="radio" checked value="1.45" name="pal">
+                    <input type="radio" checked="checked" value="1.45" name="pal" id="pal145">
                 </td>
             </tr>
             <tr>
-                <td bgcolor="#d3e1f8" colspan="2">Stillesiddende arbejde med et vist behov for fysisk aktivitet og ingen eller begrænset fysisk aktivitet i fritiden.</td>
+                <td bgcolor="#d3e1f8" colspan="2"><label for="pal165">Stillesiddende arbejde med et vist behov for fysisk aktivitet og ingen eller begrænset fysisk aktivitet i fritiden.</label></td>
                 <td width="20%" bgcolor="#d3e1f8">
-                    <input type="radio" value="1.65" name="pal">
+                    <input type="radio" value="1.65" name="pal" id="pal165">
                 </td>
             </tr>
             <tr>
-                <td bgcolor="#d3e1f8" colspan="2">Hovedsageligt stående arbejde. </td>
+                <td bgcolor="#d3e1f8" colspan="2"><label for="pal185">Hovedsageligt stående arbejde.</label></td>
                 <td width="20%" bgcolor="#d3e1f8">
-                    <input type="radio" value="1.85" name="pal">
+                    <input type="radio" value="1.85" name="pal" id="pal185">
                 </td>
             </tr>
             <tr>
-                <td bgcolor="#d3e1f8" colspan="2">Hårdt kropsarbejde eller meget høj fritidsaktivitet.</td>
+                <td bgcolor="#d3e1f8" colspan="2"><label for="pal22">Hårdt kropsarbejde eller meget høj fritidsaktivitet.</label></td>
                 <td width="20%" bgcolor="#d3e1f8">
-                    <input type="radio" value="2.2" name="pal">
+                    <input type="radio" value="2.2" name="pal" id="pal22">
                 </td>
             </tr>
             <tr>
-                <td bgcolor="#d3e1f8" colspan="2">Sport eller anden hård fysisk aktivitet i fritiden. (30-60 min. 4-5 gange/uge)</td>
+                <td bgcolor="#d3e1f8" colspan="2"><label for="sport">Sport eller anden hård fysisk aktivitet i fritiden. (30-60 min. 4-5 gange/uge)</label></td>
                 <td width="20%" bgcolor="#d3e1f8">
-                    <input type="checkbox" value="true" name="sport">
+                    <input type="checkbox" value="true" name="sport" id="sport">
                 </td>
             </tr>
             <tr>
-                <td bgcolor="#34557a">Basalstofskifte (BMR)</td>
+                <td bgcolor="#34557a"><label for="BMR2">Basalstofskifte (BMR) (kJ)</label></td>
                 <td width="20%" bgcolor="#34557a"></td>
                 <td width="20%" bgcolor="#34557a">
-                    <input maxlength="5" size="7" name="BMR2"> Kj
+                    <input name="BMR2" id="BMR2" disabled="disabled">
                 </td>
             </tr>
             <tr>
-                <td bgcolor="#34557a">Total energiomsætning</td>
+                <td bgcolor="#34557a"><label for="TEE2">Total energiomsætning (kJ)</label></td>
                 <td width="20%" bgcolor="#34557a"></td>
                 <td width="20%" bgcolor="#34557a">
-                    <input maxlength="5" size="7" name="TEE2"> Kj
+                    <input name="TEE2" id="TEE2" disabled="disabled">
                 </td>
             </tr>
             <tr bgcolor="#ffffff">

@@ -3,9 +3,11 @@
         <caption>Indtast de målte værdier.</caption>
         <tbody>
             <tr>
-                <td bgcolor="#d3e1f8">Arbejdsbelastning:</td>
                 <td bgcolor="#d3e1f8">
-                    <select name="arb">
+                    <label for="work">Arbejdsbelastning</label>
+                </td>
+                <td bgcolor="#d3e1f8">
+                    <select name="arb" id="work">
                         <option value="50">50 watt</option>
                         <option value="75">75 watt</option>
                         <option value="100" selected="selected">100 watt</option>
@@ -14,47 +16,59 @@
                 </td>
             </tr>
             <tr>
-                <td bgcolor="#d3e1f8">Puls ved denne belastning:</td>
                 <td bgcolor="#d3e1f8">
-                    <input maxlength="3" size="7" value="120" name="puls"> Slag/min
+                    <label for="hr">Puls ved denne belastning (slag / min)</label>
+                </td>
+                <td bgcolor="#d3e1f8">
+                    <input maxlength="3" name="puls" id="hr" placeholder="Puls (slag / min)">
                 </td>
             </tr>
             <tr>
-                <td bgcolor="#d8e4f8" height="2">Køn</td>
-                <td bgcolor="#d8e4f8" height="2">
-                    <select name="koen">
-                        <option value="1" selected>Mand</option>
+                <td bgcolor="#d8e4f8">
+                    <label for="gender">Køn</label>
+                </td>
+                <td bgcolor="#d8e4f8">
+                    <select name="koen" id="gender">
+                        <option value="1">Mand</option>
                         <option value="0">Kvinde</option>
                     </select>
                 </td>
             </tr>
             <tr>
-                <td bgcolor="#d8e4f8">Alder:</td>
                 <td bgcolor="#d8e4f8">
-                    <input maxlength="3" size="7" value="40" name="alder">År
+                    <label for="age">Alder (år)</label>
                 </td>
-            </tr>
-            <tr>
-                <td bgcolor="#d8e4f8">Vægt</td>
                 <td bgcolor="#d8e4f8">
-                    <input maxlength="5" size="7" value="70" name="vaegt"> Kg
+                    <input maxlength="3" placeholder="Alder i år" name="alder">
                 </td>
             </tr>
             <tr>
-                <td bgcolor="#34557a">Maximal iltoptagelse</td>
-                <td bgcolor="#34557a">
-                    <input maxlength="5" size="7" name="Iltoptag" disabled="disabled"> l/min
+                <td bgcolor="#d8e4f8"><label for="weight">
+                    Vægt</label>
                 </td>
-            </tr>
-            <tr>
-                <td bgcolor="#34557a">Kondital</td>
-                <td bgcolor="#34557a">
-                    <input maxlength="5" size="7" name="Kondital" disabled="disabled"> ml/kg/min
+                <td bgcolor="#d8e4f8">
+                    <input maxlength="5" name="vaegt" id="weight" placeholder="Vægt i kg">
                 </td>
             </tr>
             <tr bgcolor="#ffffff">
                 <td colspan="2">
                     <input type="button" value="Beregn" id="calculate_etpunkttest">
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="#34557a">
+                    <label for="vo2max">Maximal iltoptagelse (l/min)</label>
+                </td>
+                <td bgcolor="#34557a">
+                    <input name="Iltoptag" id="vo2max" disabled="disabled">
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="#34557a">
+                    <label for="kondital">Kondital (ml/kg/min)</label>
+                </td>
+                <td bgcolor="#34557a">
+                    <input name="Kondital" id="kondital" disabled="disabled">
                 </td>
             </tr>
         </tbody>

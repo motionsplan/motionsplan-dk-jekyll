@@ -1,55 +1,39 @@
-<div id="rpForm">
-    <div id="rpHeader">Indtast de målte værdier</div>
-    <div id="rpInput">
-        <div class="rpRow">
-            <div class="rprowLft">
-                <span class="rpLabel">Belastning ved Borg 15:</span>
-            </div>
-            <div class="rprowRgt">
-                <input type="text" class="rpInpTxt" id="rpBorg" value="120" /><span class="rppostFx">watt</span>
-            </div>
+<form class="calculator">
+    <fieldset>
+        <legend>Indtast de målte værdier</legend>
+        <div class="form-group">
+            <label for="rpBorg">Belastning ved Borg 15 (watt)</label>
+            <input type="text" class="rpInpTxt" id="rpBorg" value="120" />
         </div>
-        <div class="rpRow">
-            <div class="rprowLft">
-                <span class="rpLabel">Alder:</span>
-            </div>
-            <div class="rprowRgt">
-                <input type="text" class="rpInpTxt" id="rpAlder" value="40" /><span class="rppostFx">&Aring;r</span>
-            </div>
+        <div class="form-group">
+            <label for="rpAlder">Alder (år)</span>
+            <input type="text" class="rpInpTxt" id="rpAlder" value="40" />
         </div>
-        <div class="rpRow">
-            <div class="rprowLft">
-                <span class="rpLabel">Vægt</span>
-            </div>
-            <div class="rprowRgt">
-                <input type="text" class="rpInpTxt" id="rpVgt" value="70" /><span class="rppostFx">Kg</span>
-            </div>
+        <div class="form-group">
+            <label for="rpVgt">Vægt (kg)</span>
+            <input type="text" class="rpInpTxt" id="rpVgt" value="70" />
         </div>
-        <div class="rpRow">
-            <div class="rprowLft">
+        <div>
+            <input type="button" class="rpBtns" id="rpCalBtn" value="Beregn" />
+        </div>
+    </fieldset>
+    <fieldset class="results">
+        <legend>Resultater</legend>
+        <div class="rpresRow">
+            <div class="rpresrowLft">
+                <span class="rpresLabel">Maximal iltoptagelse:</span>
             </div>
-            <div class="rprowRgt">
-                <input type="button" class="rpBtns" id="rpCalBtn" value="Beregn" />
+            <div class="rpresrowRgt">
+                <span class="rpresTxt" id="rpIltop">0</span><span class="rprespostFx">l/min</span>
             </div>
         </div>
-    </div>
-</div>
-<div id="rpResults">
-    <div id="rpresTab"></div>
-    <div class="rpresRow">
-        <div class="rpresrowLft">
-            <span class="rpresLabel">Maximal iltoptagelse:</span>
+        <div class="rpresRow">
+            <div class="rpresrowLft">
+                <span class="rpresLabel">Kondital:</span>
+            </div>
+            <div class="rpresrowRgt">
+                <span class="rpresTxt" id="rpKond">0</span><span class="rprespostFx">ml/kg/min</span>
+            </div>
         </div>
-        <div class="rpresrowRgt">
-            <span class="rpresTxt" id="rpIltop">0</span><span class="rprespostFx">l/min</span>
-        </div>
-    </div>
-    <div class="rpresRow">
-        <div class="rpresrowLft">
-            <span class="rpresLabel">Kondital:</span>
-        </div>
-        <div class="rpresrowRgt">
-            <span class="rpresTxt" id="rpKond">0</span><span class="rprespostFx">ml/kg/min</span>
-        </div>
-    </div>
-</div>
+    </fieldset>
+</form>
