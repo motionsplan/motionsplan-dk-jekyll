@@ -311,6 +311,7 @@ module.exports = motionsplan;
 const fitness = require('./fitness-hr');
 const maxhr = require('./max-hr');
 const cooper = require('./cooper');
+const cooper_test = require('./cooper-running');
 const fat = require('./fat-pct');
 const fatm = require('./fat-pct-measurements');
 const rm = require('./1rm');
@@ -805,9 +806,19 @@ $(document).ready(function() {
         $("#karvonen_zone5_a").val(k.getTargetHR(90));
         $("#karvonen_zone5_b").val(maxHr);
     });
+     // Calculate Intensity
+    $("#calculate_cooper_test").click(function() {
+        console.log("Calculate CooperTest");
+
+        var distance = Number($("#distance").val());
+
+        var c = cooper_test.CooperRunning();
+
+        $("#kondital").val(c.getVO212MinTest(distance));
+    });
 });
 
-},{"./1rm":2,"./bmi":4,"./bmr":5,"./cooper":6,"./etpunkttest":7,"./fat-pct":9,"./fat-pct-measurements":8,"./fitness-hr":10,"./karvonen":11,"./max-hr":12,"./topunkttest":13,"wilks-calculator":1}],4:[function(require,module,exports){
+},{"./1rm":2,"./bmi":4,"./bmr":5,"./cooper":7,"./cooper-running":6,"./etpunkttest":8,"./fat-pct":10,"./fat-pct-measurements":9,"./fitness-hr":11,"./karvonen":12,"./max-hr":13,"./topunkttest":14,"wilks-calculator":1}],4:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.BMI = function(h, w) {
@@ -922,6 +933,32 @@ motionsplan.EnergyExpenditure = function(sex, age, weight, pal, sport) {
 module.exports = motionsplan;
 
 },{}],6:[function(require,module,exports){
+let motionsplan = {}
+
+motionsplan.CooperRunning = function() {
+
+  // time in minutes
+  function getVO22400Meter(time) {
+    return (483 / time) + 3.5;
+  }
+
+  // distance in meters
+  function getVO212MinTest(distance) {
+    return (distance - 504.9) / 44.73;
+  }
+
+  var publicAPI = {
+    getVO22400Meter: getVO22400Meter,
+    getVO212MinTest: getVO212MinTest
+
+  };
+
+  return publicAPI;
+}
+
+module.exports = motionsplan;
+
+},{}],7:[function(require,module,exports){
 let motionsplan = {};
 
 motionsplan.CooperClinicMortalityRiskIndex = function(age, hr, bloodpressure, diabetes, smoker, bmi, fitness) {
@@ -1090,7 +1127,7 @@ motionsplan.CooperClinicMortalityRiskIndex = function(age, hr, bloodpressure, di
 
 module.exports = motionsplan;
 
-},{}],7:[function(require,module,exports){
+},{}],8:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.EtPunktTest = function(gender, age, weight, work, hr) {
@@ -1169,7 +1206,7 @@ motionsplan.EtPunktTest = function(gender, age, weight, work, hr) {
 
 module.exports = motionsplan;
 
-},{}],8:[function(require,module,exports){
+},{}],9:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.CalculateFatPercentMeasurements = function() {
@@ -1202,7 +1239,7 @@ motionsplan.CalculateFatPercentMeasurements = function() {
 
 module.exports = motionsplan;
 
-},{}],9:[function(require,module,exports){
+},{}],10:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.CalculateFatPercent = function(h, w, a, sex) {
@@ -1243,7 +1280,7 @@ motionsplan.CalculateFatPercent = function(h, w, a, sex) {
 
 module.exports = motionsplan;
 
-},{}],10:[function(require,module,exports){
+},{}],11:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.CalculateFitnessFromHr = function(mxpul, hvpul, wgt) {
@@ -1276,7 +1313,7 @@ motionsplan.CalculateFitnessFromHr = function(mxpul, hvpul, wgt) {
 
 module.exports = motionsplan;
 
-},{}],11:[function(require,module,exports){
+},{}],12:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.Karvonen = function(minHr, maxHr) {
@@ -1300,7 +1337,7 @@ motionsplan.Karvonen = function(minHr, maxHr) {
 
 module.exports = motionsplan;
 
-},{}],12:[function(require,module,exports){
+},{}],13:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.EstimateMaxHr = function(ald) {
@@ -1321,7 +1358,7 @@ motionsplan.EstimateMaxHr = function(ald) {
 
 module.exports = motionsplan;
 
-},{}],13:[function(require,module,exports){
+},{}],14:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.ToPunktTest = function(age, weight, work1, hr1, work2, hr2) {

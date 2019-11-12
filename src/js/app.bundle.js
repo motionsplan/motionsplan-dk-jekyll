@@ -3,6 +3,7 @@
 const fitness = require('./fitness-hr');
 const maxhr = require('./max-hr');
 const cooper = require('./cooper');
+const cooper_test = require('./cooper-running');
 const fat = require('./fat-pct');
 const fatm = require('./fat-pct-measurements');
 const rm = require('./1rm');
@@ -496,5 +497,15 @@ $(document).ready(function() {
         $("#karvonen_zone4_b").val(k.getTargetHR(90));
         $("#karvonen_zone5_a").val(k.getTargetHR(90));
         $("#karvonen_zone5_b").val(maxHr);
+    });
+     // Calculate Intensity
+    $("#calculate_cooper_test").click(function() {
+        console.log("Calculate CooperTest");
+
+        var distance = Number($("#distance").val());
+
+        var c = cooper_test.CooperRunning();
+
+        $("#kondital").val(c.getVO212MinTest(distance));
     });
 });

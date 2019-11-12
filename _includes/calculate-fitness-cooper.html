@@ -1,3 +1,16 @@
-<div class="notice notice--danger">
-    Beregneren er ikke færdig
-</div>
+<form class="calculator">
+    <fieldset>
+        <legend>Cooper 12 minutter. Indtast de målte værdier</legend>
+        <div class="form-group">
+            <label for="distance">Distance (m)</label>
+            <input type="number" min="500" max="6000" id="distance" placeholder="Distance i m" />
+        </div>
+        <input type="button" id="calculate_cooper_test" value="Beregn" />
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label for="kondital">Kondital (ml/kg/min)</label>
+            <input type="text" id="kondital" placeholder="Beregnes" disabled="disabled" />
+        </div>
+    </fieldset>
+</form>
