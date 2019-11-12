@@ -5,12 +5,12 @@
         <legend>Beregning af intervaller - indtast V<sub>max</sub> og T<sub>max</sub></legend>
         <div class="form-group">
             <label>V<sub>max</sub> ({{ unit }})</label>
-            <input type="text" name="Vmax2" value="320">
+            <input type="number" name="Vmax2">
         </div>
         <div class="form-group">
             <label>T<sub>max</sub> (min:sek)</label>
-            <input type="text" name="Min" value="4" class="input-mini"> <span class="help-inline">min</span>
-            <input type="text" name="Sek" value="20" class="input-mini"> <span class="help-inline">sek</span>
+            <input type="number" name="Min" min="0" max="10" class="input-mini"> <span class="help-inline">min</span>
+            <input type="number" name="Sek" min="0" max="60" class="input-mini"> <span class="help-inline">sek</span>
         </div>
         <input type="button" value="Beregn" id="calculate_vmax_{{ module }}_intervals">
     </fieldset>
