@@ -9,7 +9,7 @@
             <label>Maxpuls (HR<sub>max</sub>)</label>
             <input id="karvonen_max_hr" max="250" min="100" type="number" />
         </div>
-        <input id="calculate_karvonen_intensity" type="button" value="Calculate" />
+        <input id="calculate_karvonen_intensity" type="button" value="Beregn" />
     </fieldset>
 
     <fieldset class="results">
@@ -17,36 +17,42 @@
         <table>
             <tbody>
                 <tr>
-                    <th>Heart Rate Intensity Zones</th>
+                    <th>Intensity Zones</th>
+                    <th>Heart Rate Intensity</th>
                     <th>Low HR</th>
                     <td>&nbsp;</td>
                     <th>High HR</th>
                 </tr>
                 <tr>
+                    <td>Warm Up Zone</td>
                     <td>50% to 60%</td>
                     <td><input type="text" disabled="disabled" id="karvonen_zone1_a"></td>
                     <td>-</td>
                     <td><input type="text" disabled="disabled" id="karvonen_zone1_b"></td>
                 </tr>
                 <tr>
+                    <td>Fat Burn Zone</td>
                     <td>60% to 70%</td>
                     <td><input type="text" disabled="disabled" id="karvonen_zone2_a"></td>
                     <td>-</td>
                     <td><input type="text" disabled="disabled" id="karvonen_zone2_b"></td>
                 </tr>
                 <tr>
+                    <td>Aerobic Zone</td>
                     <td>70% to 80%</td>
                     <td><input type="text" disabled="disabled" id="karvonen_zone3_a"></td>
                     <td>-</td>
                     <td><input type="text" disabled="disabled" id="karvonen_zone3_b"></td>
                 </tr>
                 <tr>
+                    <td>Anaerobic Threshold Zone</td>
                     <td>80% to 90%</td>
                     <td><input type="text" disabled="disabled" id="karvonen_zone4_a"></td>
                     <td>-</td>
                     <td><input type="text" disabled="disabled" id="karvonen_zone4_b"></td>
                 </tr>
                 <tr>
+                    <td>VO<sub>2</sub> Max Zone</td>
                     <td>90% to 100%</td>
                     <td><input type="text" disabled="disabled" id="karvonen_zone5_a"></td>
                     <td>-</td>

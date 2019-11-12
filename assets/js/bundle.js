@@ -787,23 +787,23 @@ $(document).ready(function() {
     });
      // Calculate Intensity
     $("#calculate_karvonen_intensity").click(function() {
+        console.log("Calculate Karvonen Intensity Zones");
 
         var minHr = Number($("#karvonen_min_hr").val());
         var maxHr = Number($("#karvonen_max_hr").val());
         
         var k = karvonen.Karvonen(minHr, maxHr);
 
-        $("karvonen_zone1_a").val(k.getTargetHR(50));
-        $("karvonen_zone1_b").val(k.getTargetHR(60));
-        $("karvonen_zone2_a").val(k.getTargetHR(60));
-        $("karvonen_zone2_b").val(k.getTargetHR(70));
-        $("karvonen_zone3_a").val(k.getTargetHR(70));
-        $("karvonen_zone3_b").val(k.getTargetHR(80));
-        $("karvonen_zone4_a").val(k.getTargetHR(80));
-        $("karvonen_zone4_b").val(k.getTargetHR(90));
-        $("karvonen_zone5_a").val(k.getTargetHR(90));
-        $("karvonen_zone5_b").val(maxHr);
-
+        $("#karvonen_zone1_a").val(k.getTargetHR(50));
+        $("#karvonen_zone1_b").val(k.getTargetHR(60));
+        $("#karvonen_zone2_a").val(k.getTargetHR(60));
+        $("#karvonen_zone2_b").val(k.getTargetHR(70));
+        $("#karvonen_zone3_a").val(k.getTargetHR(70));
+        $("#karvonen_zone3_b").val(k.getTargetHR(80));
+        $("#karvonen_zone4_a").val(k.getTargetHR(80));
+        $("#karvonen_zone4_b").val(k.getTargetHR(90));
+        $("#karvonen_zone5_a").val(k.getTargetHR(90));
+        $("#karvonen_zone5_b").val(maxHr);
     });
 });
 
