@@ -1,6 +1,6 @@
-<form class="calculator">
+<form class="calculator" id="calculate_fitness_level_hr">
     <fieldset>
-        <legend>Indtast de målte værdier</legend>
+        <legend>Udregn kondital med pulsen. Indtast de målte værdier</legend>
         <div class="form-group">
             <label for="plHvil">Hvilepuls (slag/min)</label>
             <input type="number" min="30" max="100" id="plHvil" placeholder="Hvilepuls" />
@@ -13,7 +13,7 @@
             <label for="plVgt">Vægt (kg)</label>
             <input type="number" min="20" max="200" id="plVgt" placeholder="Vægt i kg" />
         </div>
-        <input type="button" id="plCalBtn" value="Beregn" />
+        <input type="submit" value="Beregn" />
     </fieldset>
     <fieldset class="results">
         <div class="form-group">

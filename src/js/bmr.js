@@ -65,7 +65,8 @@ motionsplan.EnergyExpenditure = function(sex, age, weight, pal, sport) {
         var pal2;
         var pal_val = pal;
         pal2 = pal_val * 1;
-        if (sport == true) {
+        console.log(sport);
+        if (String(sport) == "true") {
             pal2 = pal2 + 0.3;
         }
         return pal2;

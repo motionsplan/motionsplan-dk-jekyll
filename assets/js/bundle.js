@@ -460,13 +460,15 @@ $(document).ready(function() {
         var a = Number($("#age").val());
         var h = Number($("#height").val());
         var w = Number($("#weight").val());
-        var g = $("#sex:checked").val();
+        var g = $("[name='sex']:checked").val();
 
         var f = fat.CalculateFatPercent(h, w, a, g);
 
         $("#BMI").val(f.getBMI());
         $("#fat_mass").val(f.getFatMass());
         $("#fat_percent").val(f.getFatPercent());
+        $("meter#fat_meter").val(f.getFatPercent());
+        return false;
     });
     // Calculate Durning
     $("#calculate_skinfold_durnin").click(function() {
@@ -569,7 +571,7 @@ $(document).ready(function() {
             ));
     });
     // Calculate VO2 from HR
-    $("#plCalBtn").click(function() {
+    $("#calculate_fitness_level_hr").submit(function() {
         console.log("Calculate VO2 from HR");
         
         var hvpul = Number($("#plHvil").val());
@@ -583,6 +585,8 @@ $(document).ready(function() {
 
         $("#plIltop").val(maxiltop);
         $("#plKond").val(kondi);
+        
+        return false;
     });
     // Calculate Borg 15 fitness
     $("#rpCalBtn").click(function() {
@@ -681,10 +685,8 @@ $(document).ready(function() {
         var koen = Number($("[name='koen']").val());
         var alder = Number($("[name='alder']").val());
         var vaegt = Number($("[name='vaegt']").val());
-        var sport = $("[name='sport']").val();
+        var sport = $("[name='sport']:checked").val();
         var pal = Number($("[name='pal']:checked").val());
-
-        console.log(sport);
 
         var b = bmr.EnergyExpenditure(koen, alder, vaegt, pal, sport);
 
@@ -816,6 +818,11 @@ $(document).ready(function() {
 
         $("#kondital").val(c.getVO212MinTest(distance));
     });
+
+    $("[input='number']").on('input keyup change paste', function() {
+        if (this.min) this.value = Math.max(parseInt(this.min), parseInt(this.value));
+        if (this.max) this.value = Math.min(parseInt(this.max), parseInt(this.value));
+    });
 });
 
 },{"./1rm":2,"./bmi":4,"./bmr":5,"./cooper":7,"./cooper-running":6,"./etpunkttest":8,"./fat-pct":10,"./fat-pct-measurements":9,"./fitness-hr":11,"./karvonen":12,"./max-hr":13,"./topunkttest":14,"wilks-calculator":1}],4:[function(require,module,exports){
@@ -914,7 +921,8 @@ motionsplan.EnergyExpenditure = function(sex, age, weight, pal, sport) {
         var pal2;
         var pal_val = pal;
         pal2 = pal_val * 1;
-        if (sport == true) {
+        console.log(sport);
+        if (String(sport) == "true") {
             pal2 = pal2 + 0.3;
         }
         return pal2;

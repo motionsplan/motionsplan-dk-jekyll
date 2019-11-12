@@ -1,6 +1,6 @@
 <form class="calculator">
     <fieldset>
-        <legend>Indtast de målte værdier.</legend>
+        <legend>Åstrands et-punkttest. Indtast de målte værdier.</legend>
         <div class="form-group">
             <label for="work">Arbejdsbelastning</label>
             <select name="arb" id="work">
@@ -12,7 +12,7 @@
         </div>
         <div class="form-group">
             <label for="hr">Puls ved denne belastning (slag / min)</label>
-            <input type="number" maxlength="3" name="puls" id="hr" placeholder="Puls (slag / min)">
+            <input type="number" min="60" max="250" name="puls" id="hr" placeholder="Puls (slag / min)">
         </div>
         <div class="form-group">
             <label for="gender">Køn</label>
@@ -23,11 +23,11 @@
         </div>
         <div class="form-group">
             <label for="age">Alder (år)</label>
-            <input type="number" maxlength="3" placeholder="Alder i år" name="alder">
+            <input type="number" min="5" max="120" placeholder="Alder i år" name="alder">
         </div>
         <div class="form-group">
             <label for="weight">Vægt</label>
-            <input type="number" maxlength="5" name="vaegt" id="weight" placeholder="Vægt i kg">
+            <input type="number" min="20" max="200" name="vaegt" id="weight" placeholder="Vægt i kg">
         </div>
         <input type="button" value="Beregn" id="calculate_etpunkttest">
     </fieldset>

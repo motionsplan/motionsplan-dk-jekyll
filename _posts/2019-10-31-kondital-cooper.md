@@ -4,8 +4,8 @@ permalink: /kondital-cooper/
 excerpt: "12 minutters Cooper test er en maksimal test, der estimerer konditallet ud fra den tilbagelagte distance."
 language: da
 header:
-  overlay_image: https://i.ytimg.com/vi/zUyuUoU7lAQ/maxresdefault.jpg
-  teaser: https://i.ytimg.com/vi/zUyuUoU7lAQ/maxresdefault.jpg
+  overlay_image: https://coopertest-online.de/wp-content/uploads/2019/02/Coopertest_Collage_368385_R_K_B_by_Kurt-Michel_pixelio.de_1100px-1.jpg
+  teaser: https://coopertest-online.de/wp-content/uploads/2019/02/Coopertest_Collage_368385_R_K_B_by_Kurt-Michel_pixelio.de_1100px-1.jpg
 category:
   - Kondition
 tags:
@@ -33,7 +33,7 @@ Konditallet i Coopertesten afhænger ikke af vægten. Konditallet er VO<sub>2</s
 
 Formlen til at udregne konditallet fra Coopers 12 minutters test er:
 
-VO<sub>2</sub>-max = (Afstanden i meter - 504.9) / 44.73
+{% include math formula="VO_2max = \frac{d_{12} - 504,9}{44,73}" %}
 
 ## Usikkerheder
 
