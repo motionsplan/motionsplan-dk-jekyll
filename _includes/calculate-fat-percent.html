@@ -12,15 +12,15 @@
         </fieldset>
         <div class="form-group">
             <label for="age">Alder (år)</label>
-            <input maxlength="3" name="age" id="age" type="text" placeholder="Alder i år" />
+            <input maxlength="3" name="age" id="age" type="number" min="10" max="100" placeholder="Alder i år" />
         </div>
         <div class="form-group">
             <label for="height">Højde (cm)</label>
-            <input maxlength="3" name="height" id="height" type="text" placeholder="Højde i cm" />
+            <input maxlength="3" name="height" id="height" type="number" min="100" max="272" placeholder="Højde i cm" />
         </div>
         <div class="form-group">
             <label for="weight">Vægt (kg)</label>
-            <input maxlength="3" name="weight" id="weight" type="text" placeholder="Vægt i kg" />
+            <input maxlength="3" name="weight" id="weight" type="number" min="30" max="200" placeholder="Vægt i kg" />
         </div>
         <input id="calculate_fat_percent" type="button" value="Udregn" />
     </fieldset>

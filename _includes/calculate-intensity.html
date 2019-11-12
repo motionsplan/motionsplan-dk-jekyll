@@ -1,6 +1,6 @@
 <form class="calculator">
   <fieldset>
-    <legend>Beregning af intensitet ud fra Procent af pulsreserven</legend>
+    <legend>Beregning af arbejdspulsens intensitet i procent af <strong>pulsreserven</strong></legend>
     <div class="form-group">
       <label>Hvilepuls</label>
       <input type="text" name="Hpuls">
@@ -25,46 +25,46 @@
 
 <form class="calculator">
   <fieldset>
-    <legend>Beregning af arbejdspuls ud fra Procent af pulsreserven - anvendes hvis man ønsker at beregne hvilken arbejdspuls man skal ligge på, for at holde en bestemt intensitet.</legend>
+    <legend>Beregning af arbejdspuls baseret på <strong>intensitet i procent af pulsreserven</strong></legend>
     <div class="form-group">
       <label>Hvilepuls</label>
-      <input type="text" name="Hpuls2">
+      <input type="number" min="30" max="100" name="Hpuls2">
     </div>
     <div class="form-group">
       <label>Maxpuls</label>
-      <input type="text" name="Mpuls2">
+      <input type="number" min="140" max="250" name="Mpuls2">
     </div>
     <div class="form-group">
       <label>Intensitet (%)</label>
-      <input type="text" name="Intens2">
+      <input type="number" min="0" max="100" name="Intens2">
     </div>
     <input type="button" value="Beregn" id="calculate_hr_intensity_work">
   </fieldset>
   <fieldset class="results">
     <div class="form-group">
       <label>Arbejdspuls</label>
-      <input type="text" name="Ialt2" disabled="disabled">
+      <input type="number" name="Ialt2" disabled="disabled">
     </div>
   </fieldset>
 </form>
 
 <form class="calculator">
   <fieldset>
-    <legend>Beregning af intensitet ud fra Procent af maksimalpulsen.</legend>
+    <legend>Beregning af procentvise intensitet arbejdspulsen er ift. maksimalpulsen.</legend>
     <div class="form-group">
-      <label>Maxpuls</label>
-      <input type="text" name="Mpuls3">
+      <label>Maxpuls (slag/min)</label>
+      <input type="number" min="140" max="250" name="Mpuls3">
     </div>
     <div class="form-group">
-      <label>Arbejdspuls</label>
-      <input type="text" name="Apuls3">
+      <label>Arbejdspuls (slag/min)</label>
+      <input type="number" min="60" max="250" name="Apuls3">
     </div>
     <input type="button" value="Beregn" id="calculate_hr_intensity_from_max">
   </fieldset>
   <fieldset class="results">
     <div class="form-group">
       <label>Intensitet (% af maxpuls)</label>
-      <input type="text" name="Ialt3" disabled="disabled">
+      <input type="number" name="Ialt3" disabled="disabled">
     </div>
   </fieldset>
 </form>

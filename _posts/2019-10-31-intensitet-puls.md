@@ -41,3 +41,9 @@ Når intensiteten beregnes på denne måde, svarer procenttallet til den relativ
 Ofte tager man bare intensiteten som arbejdspulsen i forhold til max-pulsen, fordi det er lettere at regne ud i hovedet. Denne metode giver naturligvis den udfordring, at intensiteten i hvile bliver beregnet til ca. 30%.
 
 {% include calculate-intensity.html %}
+
+## Karvonens intensitetsberegninger
+
+Karvonen benytter pulsreserven til at beregne sine klassiske pulszoner.
+
+{% include calculate-karvonen-intensity.html %}

@@ -10,6 +10,8 @@ const etpunkt = require('./etpunkttest');
 const topunkt = require('./topunkttest');
 const bmr = require('./bmr');
 const bmi = require('./bmi');
+const wilks = require('wilks-calculator');
+const karvonen = require('./karvonen');
 
 $(document).ready(function() {
 
@@ -354,7 +356,7 @@ $(document).ready(function() {
     });
     // Calculate Index 100
     $("#calculate_index100").click(function() {
-        console.log("Calculate Walktest 1,6 km");
+        console.log("Calculate Index100");
 
         var Loeft = Number($("[name='Loeft']").val());
         var Vaegt = Number($("[name='Vaegt']").val());
@@ -462,5 +464,37 @@ $(document).ready(function() {
         var resultat3 = Apuls3 / Mpuls3 * 100;
 
         $("[name='Ialt3']").val(resultat3);
+    });
+     // Calculate Intensity
+    $("#calculate_wilksscore").click(function() {
+        console.log("Calculate Wilks Score");
+
+        var gender = $("[name='gender']:checked").val();
+        var bodyweight = Number($("[name='bodyweight']").val());
+        var lifted = Number($("[name='lifted']").val());
+
+        var wilksScore = wilks.calculateWilksScore(gender, bodyweight, lifted);
+
+        $("[name='wilksscore']").val(wilksScore);
+    });
+     // Calculate Intensity
+    $("#calculate_karvonen_intensity").click(function() {
+
+        var minHr = Number($("#karvonen_min_hr").val());
+        var maxHr = Number($("#karvonen_max_hr").val());
+        
+        var k = karvonen.Karvonen(minHr, maxHr);
+
+        $("karvonen_zone1_a").val(k.getTargetHR(50));
+        $("karvonen_zone1_b").val(k.getTargetHR(60));
+        $("karvonen_zone2_a").val(k.getTargetHR(60));
+        $("karvonen_zone2_b").val(k.getTargetHR(70));
+        $("karvonen_zone3_a").val(k.getTargetHR(70));
+        $("karvonen_zone3_b").val(k.getTargetHR(80));
+        $("karvonen_zone4_a").val(k.getTargetHR(80));
+        $("karvonen_zone4_b").val(k.getTargetHR(90));
+        $("karvonen_zone5_a").val(k.getTargetHR(90));
+        $("karvonen_zone5_b").val(maxHr);
+
     });
 });

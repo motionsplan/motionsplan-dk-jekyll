@@ -1,4 +1,186 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
+'use strict';
+
+const maleValues = [
+	-216.0475144,
+	16.2606339,
+	-0.002388645,
+	-0.00113732,
+	7.01863E-06,
+	-1.291E-08
+];
+
+const femaleValues = [
+	594.31747775582,
+	-27.23842536447,
+	0.82112226871,
+	-0.00930733913,
+	4.731582E-05,
+	-9.054E-08
+];
+
+const imperial = 2.20462262185;
+
+/**
+ * Returns a Wilks score based on the body weight of the lifter and the weight they have lifted.
+ *
+ * @param gender {string} The gender of the lifter the wilks score is calculated for ('m' for male, 'f' for female).
+ * @param bodyWeight {number} The body weight of the lifter the wilks score is calculated for.
+ * @param liftedWeight {number} The weight the lifter has lifted.
+ * @param unitType {string} Optional parameter for lifters using the imperial unit system ('kg' is default, 'imperial' for the imperial system).
+ *
+ * @returns {number} The Wilks score.
+ */
+function calculateWilksScore (gender, bodyWeight, liftedWeight, unitType = 'metric') {
+    if (!gender || !bodyWeight || !liftedWeight) {
+    	throw new Error('Missing parameters, please fill in gender, body weight and weight.');
+	}
+
+	if (unitType === 'imperial') {
+		liftedWeight /= imperial;
+		bodyWeight /= imperial;
+	}
+
+	validateInput({gender: gender, bodyWeight: bodyWeight, liftedWeight: liftedWeight, unitType: unitType});
+
+	let coeff = 500 / calculateCoefficient(gender, bodyWeight);
+
+    return liftedWeight * coeff;
+}
+
+/**
+ * Returns a total amount of weight to lift based on the body weight of the lifter and the preferred Wilks score.
+ *
+ * @param gender {string} The gender of the lifter the wilks score is calculated for ('m' for male, 'f' for female).
+ * @param bodyWeight {number} The body weight of the lifter the wilks score is calculated for.
+ * @param wilksScore {number} The preferred Wilks score.
+ * @param unitType {string} Optional parameter for lifters using the imperial unit system ('kg' is default, 'imperial' for the imperial system).
+ *
+ * @returns {number} The total amount of weight to lift.
+ */
+function calculateWeightToLift (gender, bodyWeight, wilksScore, unitType = 'metric') {
+	if (!gender || !bodyWeight || !wilksScore) {
+		throw new Error('Missing parameters, please fill in gender, body weight and Wilks score.');
+	}
+
+	validateInput({gender: gender, bodyWeight: bodyWeight, wilksScore: wilksScore, unitType: unitType});
+
+	if (unitType === 'imperial') {
+		bodyWeight /= imperial;
+	}
+
+	let coeff = 500 / calculateCoefficient(gender, bodyWeight);
+
+	return unitType === 'imperial' ? imperial * (wilksScore / coeff) : wilksScore / coeff;
+}
+
+/**
+ * Returns the needed body weight based on the total amount of weight to lift and the preferred Wilks score.
+ *
+ * @param gender {string} The gender of the lifter the wilks score is calculated for ('m' for male, 'f' for female).
+ * @param liftedWeight {number} liftedWeight {number} The weight the lifter has lifted.
+ * @param wilksScore {number} The preferred Wilks score.
+ * @param unitType {string} Optional parameter for lifters using the imperial unit system ('kg' is default, 'imperial' for the imperial system).
+ *
+ * @returns {number} The total amount of weight to lift.
+ */
+function calculateNeededBodyWeight (gender, liftedWeight, wilksScore, unitType = 'metric') {
+	if (!gender || !liftedWeight || !wilksScore) {
+		throw new Error('Missing parameters, please fill in gender, lifted weight and Wilks score.');
+	}
+
+	validateInput({gender: gender, liftedWeight: liftedWeight, wilksScore: wilksScore, unitType: unitType});
+
+	if (unitType === 'imperial') {
+		liftedWeight /= imperial;
+	}
+
+	let coeff = 500 / (wilksScore / liftedWeight);
+	let bodyWeight = 0.0;
+	let result = 0.0;
+
+	do {
+		bodyWeight += 0.1;
+		result = calculateCoefficient(gender, bodyWeight);
+	} while (calculateDifference(coeff, result) > 0.5);
+
+	return unitType === 'imperial' ? imperial * bodyWeight : bodyWeight;
+}
+
+/**
+ * A helper function to determine the difference between the calculated coefficient and the input.
+ *
+ * @param a {number}
+ * @param b {number}
+ *
+ * @returns {number} The absolute difference between a and b.
+ *
+ * @private
+ */
+function calculateDifference(a, b) {
+	return Math.abs(a - b);
+}
+
+/**
+ * Calculates the coefficient based on the body weight and the gender.
+ *
+ * @param gender {string}
+ * @param bodyWeight {number}
+ *
+ * @returns {number} The coefficient.
+ *
+ * @private
+ */
+function calculateCoefficient(gender, bodyWeight) {
+	let coeff = 0;
+	let values = gender === 'm' ? maleValues : femaleValues;
+
+	for (let i = 0; i <= 5; i++) {
+		coeff += i === 0 ? values[i] : (values[i]  * (bodyWeight ** i));
+	}
+
+	return coeff;
+}
+
+/**
+ * A helper function to validate the input.
+ *
+ * @param gender {string}
+ * @param bodyWeight {number}
+ * @param liftedWeight {number}
+ * @param wilksScore {number}
+ * @param unitType {string}
+ *
+ * @private
+ */
+function validateInput ({gender, bodyWeight = 0, liftedWeight = 0, wilksScore = 0, unitType}) {
+	if (typeof gender !== 'string' || (gender !== 'm' && gender !== 'f')) {
+		throw new Error('Gender is not valid. Please select m for Male or f for Female.')
+	}
+
+	if (typeof bodyWeight !== 'number' || bodyWeight < 0) {
+		throw new Error('Body weight is not valid.');
+	}
+
+	if (typeof liftedWeight !== 'number' || liftedWeight < 0) {
+		throw new Error('Weight is not valid.');
+	}
+
+	if (typeof wilksScore !== 'number' || wilksScore < 0) {
+		throw new Error('Wilks score is not valid.');
+	}
+
+	if (typeof unitType !== 'string' || (unitType !== 'metric' && unitType !== 'imperial')) {
+		throw new Error('Unit type is not valid. Please select metric or imperial.');
+	}
+}
+
+module.exports = {
+	calculateWilksScore: calculateWilksScore,
+	calculateWeightToLift: calculateWeightToLift,
+	calculateNeededBodyWeight: calculateNeededBodyWeight
+};
+},{}],2:[function(require,module,exports){
 let motionsplan = {};
 
 motionsplan.Estimate1RM = function(weight, repetitions) {
@@ -123,7 +305,7 @@ motionsplan.Estimate1RM = function(weight, repetitions) {
 
 module.exports = motionsplan;
 
-},{}],2:[function(require,module,exports){
+},{}],3:[function(require,module,exports){
 'use strict'
 
 const fitness = require('./fitness-hr');
@@ -136,6 +318,8 @@ const etpunkt = require('./etpunkttest');
 const topunkt = require('./topunkttest');
 const bmr = require('./bmr');
 const bmi = require('./bmi');
+const wilks = require('wilks-calculator');
+const karvonen = require('./karvonen');
 
 $(document).ready(function() {
 
@@ -480,7 +664,7 @@ $(document).ready(function() {
     });
     // Calculate Index 100
     $("#calculate_index100").click(function() {
-        console.log("Calculate Walktest 1,6 km");
+        console.log("Calculate Index100");
 
         var Loeft = Number($("[name='Loeft']").val());
         var Vaegt = Number($("[name='Vaegt']").val());
@@ -589,9 +773,41 @@ $(document).ready(function() {
 
         $("[name='Ialt3']").val(resultat3);
     });
+     // Calculate Intensity
+    $("#calculate_wilksscore").click(function() {
+        console.log("Calculate Wilks Score");
+
+        var gender = $("[name='gender']:checked").val();
+        var bodyweight = Number($("[name='bodyweight']").val());
+        var lifted = Number($("[name='lifted']").val());
+
+        var wilksScore = wilks.calculateWilksScore(gender, bodyweight, lifted);
+
+        $("[name='wilksscore']").val(wilksScore);
+    });
+     // Calculate Intensity
+    $("#calculate_karvonen_intensity").click(function() {
+
+        var minHr = Number($("#karvonen_min_hr").val());
+        var maxHr = Number($("#karvonen_max_hr").val());
+        
+        var k = karvonen.Karvonen(minHr, maxHr);
+
+        $("karvonen_zone1_a").val(k.getTargetHR(50));
+        $("karvonen_zone1_b").val(k.getTargetHR(60));
+        $("karvonen_zone2_a").val(k.getTargetHR(60));
+        $("karvonen_zone2_b").val(k.getTargetHR(70));
+        $("karvonen_zone3_a").val(k.getTargetHR(70));
+        $("karvonen_zone3_b").val(k.getTargetHR(80));
+        $("karvonen_zone4_a").val(k.getTargetHR(80));
+        $("karvonen_zone4_b").val(k.getTargetHR(90));
+        $("karvonen_zone5_a").val(k.getTargetHR(90));
+        $("karvonen_zone5_b").val(maxHr);
+
+    });
 });
 
-},{"./1rm":1,"./bmi":3,"./bmr":4,"./cooper":5,"./etpunkttest":6,"./fat-pct":8,"./fat-pct-measurements":7,"./fitness-hr":9,"./max-hr":10,"./topunkttest":11}],3:[function(require,module,exports){
+},{"./1rm":2,"./bmi":4,"./bmr":5,"./cooper":6,"./etpunkttest":7,"./fat-pct":9,"./fat-pct-measurements":8,"./fitness-hr":10,"./karvonen":11,"./max-hr":12,"./topunkttest":13,"wilks-calculator":1}],4:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.BMI = function(h, w) {
@@ -619,7 +835,7 @@ motionsplan.BMI = function(h, w) {
 
 module.exports = motionsplan;
 
-},{}],4:[function(require,module,exports){
+},{}],5:[function(require,module,exports){
 let motionsplan = {};
 
 
@@ -705,7 +921,7 @@ motionsplan.EnergyExpenditure = function(sex, age, weight, pal, sport) {
 
 module.exports = motionsplan;
 
-},{}],5:[function(require,module,exports){
+},{}],6:[function(require,module,exports){
 let motionsplan = {};
 
 motionsplan.CooperClinicMortalityRiskIndex = function(age, hr, bloodpressure, diabetes, smoker, bmi, fitness) {
@@ -874,7 +1090,7 @@ motionsplan.CooperClinicMortalityRiskIndex = function(age, hr, bloodpressure, di
 
 module.exports = motionsplan;
 
-},{}],6:[function(require,module,exports){
+},{}],7:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.EtPunktTest = function(gender, age, weight, work, hr) {
@@ -953,7 +1169,7 @@ motionsplan.EtPunktTest = function(gender, age, weight, work, hr) {
 
 module.exports = motionsplan;
 
-},{}],7:[function(require,module,exports){
+},{}],8:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.CalculateFatPercentMeasurements = function() {
@@ -986,7 +1202,7 @@ motionsplan.CalculateFatPercentMeasurements = function() {
 
 module.exports = motionsplan;
 
-},{}],8:[function(require,module,exports){
+},{}],9:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.CalculateFatPercent = function(h, w, a, sex) {
@@ -1027,7 +1243,7 @@ motionsplan.CalculateFatPercent = function(h, w, a, sex) {
 
 module.exports = motionsplan;
 
-},{}],9:[function(require,module,exports){
+},{}],10:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.CalculateFitnessFromHr = function(mxpul, hvpul, wgt) {
@@ -1060,7 +1276,31 @@ motionsplan.CalculateFitnessFromHr = function(mxpul, hvpul, wgt) {
 
 module.exports = motionsplan;
 
-},{}],10:[function(require,module,exports){
+},{}],11:[function(require,module,exports){
+let motionsplan = {}
+
+motionsplan.Karvonen = function(minHr, maxHr) {
+  maxHr = maxHr;
+  minHr = minHr;
+
+  function getHeartRateReserve() {
+    return maxHr - minHr;
+  }
+
+  function getTargetHR(intensity) {
+    return Math.round(getHeartRateReserve() * intensity / 100 + minHr);
+  }
+
+  var publicAPI = {
+    getTargetHR: getTargetHR
+  };
+
+  return publicAPI;
+}
+
+module.exports = motionsplan;
+
+},{}],12:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.EstimateMaxHr = function(ald) {
@@ -1081,7 +1321,7 @@ motionsplan.EstimateMaxHr = function(ald) {
 
 module.exports = motionsplan;
 
-},{}],11:[function(require,module,exports){
+},{}],13:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.ToPunktTest = function(age, weight, work1, hr1, work2, hr2) {
@@ -1119,4 +1359,4 @@ motionsplan.ToPunktTest = function(age, weight, work1, hr1, work2, hr2) {
 
 module.exports = motionsplan;
 
-},{}]},{},[2]);
+},{}]},{},[3]);
