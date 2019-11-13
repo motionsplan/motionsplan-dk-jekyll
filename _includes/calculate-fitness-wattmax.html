@@ -3,15 +3,15 @@
         <legend>Watt-max-test voksne. Indtast den højeste belastning, der blev nået, samt hvor mange sekunder der blev kørt på denne belastning.</legend>
         <div class="form-group">
             <label for="">Højeste belastning der blev nået (watt)</label>
-            <input name="Wmax" type="number" placeholder="fx 240" />
+            <input name="Wmax" min="50" max="1500" type="number" placeholder="fx 240" />
         </div>
         <div class="form-group">
             <label for="">Antal sekunder på højeste belastning (sek)</label>
-            <input name="Sek" type="number" placeholder="fx 60" />
+            <input name="Sek" min="1" max="600" type="number" placeholder="fx 60" />
         </div>
         <div class="form-group">
             <label for="">Vægt (kg)</label>
-            <input name="Vaegt" type="number" placeholder="fx 70" />
+            <input name="Vaegt" min="10" max="200" type="number" placeholder="fx 70" />
         </div>
         <input type="submit" value="Beregn" />
     </fieldset>
