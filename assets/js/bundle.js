@@ -471,7 +471,7 @@ $(document).ready(function() {
         $("#fat_percent").val(f.getFatPercent());
         return false;
     });
-    // Calculate Durning
+    // Calculate Durnin
     $("#calculator_skinfold_durnin").submit(function() {
         console.log("Calculate Skinfold Durnin");
 
@@ -535,6 +535,46 @@ $(document).ready(function() {
 
         $("[name='fedtprocent_k']").val(resultat1_k);
         $("[name='fedtfri_k']").val(resultat2_k);
+        return false;
+    });
+    // Calculate Lohman
+    $("#calculator_skinfold_lohman").submit(function() {
+        console.log("Calculate Skinfold Lohman");
+
+        var bf;
+
+        var triceps = Number($("[name='triceps']").val());
+        var calf = Number($("[name='calf']").val());
+        var koen = Number($("[name='koen']").val());
+
+        if (koen == 1) {
+            bf = 0.735 (triceps + calf) + 1.0;
+        }
+        else {
+            bf = 0.610 (triceps + calf) + 5.1;
+        }
+
+        $("[name='fatpercent']").val(bf);
+        return false;
+    });
+    // Calculate Durning
+    $("#calculator_skinfold_slaughter").submit(function() {
+        console.log("Calculate Skinfold Slaughter");
+
+        var bf;
+
+        var triceps = Number($("[name='triceps']").val());
+        var subscapular = Number($("[name='subscapular']").val());
+        var koen = Number($("[name='koen']").val());
+
+        if (koen == 1) {
+            bf = 1.21 * (triceps + subscapular) - 0.008 * Math.pow(triceps + subscapular, 2) - 1.7;
+        }
+        else {
+            bf = 1.33 (triceps + subscapular) - 0.013 * Math.pow(triceps + subscapular, 2) - 2.5;
+        }
+
+        $("[name='fatpercent']").val(bf);
         return false;
     });
     // Calculate Fat Percent Measurements
