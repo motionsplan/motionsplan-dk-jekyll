@@ -1,19 +1,19 @@
-<form class="calculator">
+<form class="calculator" id="calculator_hr_intensity_hrr">
   <fieldset>
     <legend>Beregning af arbejdspulsens intensitet i procent af <strong>pulsreserven</strong></legend>
     <div class="form-group">
       <label>Hvilepuls</label>
-      <input type="text" name="Hpuls">
+      <input type="number" name="Hpuls">
     </div>
     <div class="form-group">
       <label>Maxpuls</label>
-      <input type="text" name="Mpuls">
+      <input type="number" name="Mpuls">
     </div>
     <div class="form-group">
       <label>Arbejdspuls</label>
-      <input type="text" name="Apuls">
+      <input type="number" name="Apuls">
     </div>
-    <input type="button" value="Beregn" id="calculate_hr_intensity_hrr">
+    <input type="submit" value="Beregn">
   </fieldset>
   <fieldset class="results">
     <div class="form-group">
@@ -23,7 +23,7 @@
   </fieldset>
 </form>
 
-<form class="calculator">
+<form class="calculator" id="calculator_hr_intensity_work">
   <fieldset>
     <legend>Beregning af arbejdspuls baseret på <strong>intensitet i procent af pulsreserven</strong></legend>
     <div class="form-group">
@@ -38,7 +38,7 @@
       <label>Intensitet (%)</label>
       <input type="number" min="0" max="100" name="Intens2">
     </div>
-    <input type="button" value="Beregn" id="calculate_hr_intensity_work">
+    <input type="submit" value="Beregn">
   </fieldset>
   <fieldset class="results">
     <div class="form-group">
@@ -48,7 +48,7 @@
   </fieldset>
 </form>
 
-<form class="calculator">
+<form class="calculator" id="calculator_hr_intensity_from_max">
   <fieldset>
     <legend>Beregning af procentvise intensitet arbejdspulsen er ift. maksimalpulsen.</legend>
     <div class="form-group">
@@ -59,7 +59,7 @@
       <label>Arbejdspuls (slag/min)</label>
       <input type="number" min="60" max="250" name="Apuls3">
     </div>
-    <input type="button" value="Beregn" id="calculate_hr_intensity_from_max">
+    <input type="submit" value="Beregn">
   </fieldset>
   <fieldset class="results">
     <div class="form-group">
