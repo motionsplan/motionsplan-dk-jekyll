@@ -1,3 +1,27 @@
-<div class="notice notice--danger">
-    Beregneren er ikke færdig
-</div>
+<form class="calculator" id="calculator_skinfold_slaughter">
+    <fieldset>
+        <legend>Slaughter 2-site skinfold for børn. Indtast de målte værdier.</legend>
+        <div class="form-group">
+            <label for="triceps">Triceps (mm)</label>
+            <input type="number" name="triceps" id="triceps" min="1" max="100">
+        </div>
+        <div class="form-group">
+            <label for="subscapular">Under skulderbladsspidsen - subscapular (mm)</label>
+            <input type="number" name="subscapular" id="subscapular" min="1" max="100">
+        </div>
+        <div class="form-group">
+            <label for="gender">Køn</label>
+            <select name="koen" id="gender" size="2">
+                <option value="1">Mand</option>
+                <option value="0">Kvinde</option>
+            </select>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label for="fatpercent">Fedtprocent (%)</label>
+            <input type="text" name="fatpercent" id="fatpercent" disabled="disabled">
+        </div>
+    </fieldset>
+</form>

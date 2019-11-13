@@ -7,12 +7,9 @@
     </tbody>
 </table>
 
-<p>Denne metode er den samme, som den der bruges på Team Danmarks testcentre. Formlen er rimelig for de fleste mennesker. Dog er der en tendens til at den giver for høje fedtprocenter hos meget magre personer (2-3 %). </p>
-<p>Der skal måles 4 forskellige steder både for mænd og kvinder: biceps, triceps, skulderblads-spids og hoftekam.</p>
-
 <form class="calculator" id="calculator_skinfold_durnin">
     <fieldset>
-        <legend>Indtast de målte værdier.</legend>
+        <legend>Durnin & Womersley 4-site skinfold. Indtast de målte værdier.</legend>
         <div class="form-group">
             <label for="biceps">Biceps (mm)</label>
             <input type="number" name="biceps" id="biceps" min="1" max="100">
@@ -38,7 +35,7 @@
         </div>
         <div class="form-group">
             <label for="vaegt">Vægt (kg)</label>
-            <input type="number" name="vaegt" id="vaegt" value="75">
+            <input type="number" name="vaegt" id="vaegt" min="10" max="200">
         </div>
         <input type="submit" value="Beregn">
     </fieldset>
