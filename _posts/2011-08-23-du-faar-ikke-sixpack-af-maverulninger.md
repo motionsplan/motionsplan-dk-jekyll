@@ -16,7 +16,7 @@ category:
 last_modified_at: 2013-02-13T21:39:32Z
 ---
 
-[Jacob Søndergaard](http://www.jacobsondergaard.dk/sixpack-pa-6-uger/) har i Godmorgen Danmark trænet to unge fyre i forbindelse med det ret ambitiøse projekt ["Sixpack på seks uger"](https://nauchidatski.files.wordpress.com/2014/02/jacob-sc3b8ndergaard-sixpack-pc3a5-6-uger-manual-til-at-blive-skarp-og-veltrc3a6net-c3a5ret-rundt-2012.pdf) - og resultatet var rigtig godt. Her gennemgår vi kort, hvilke ting han fokuseret på i løbet af de seks uger.
+[Jacob Søndergaard](https://web.archive.org/web/20150311232535/http://www.jacobsondergaard.dk/sixpack-pa-6-uger/) har i Godmorgen Danmark trænet to unge fyre i forbindelse med det ret ambitiøse projekt ["Sixpack på seks uger"](https://nauchidatski.files.wordpress.com/2014/02/jacob-sc3b8ndergaard-sixpack-pc3a5-6-uger-manual-til-at-blive-skarp-og-veltrc3a6net-c3a5ret-rundt-2012.pdf) - og resultatet var rigtig godt. Her gennemgår vi kort, hvilke ting han fokuseret på i løbet af de seks uger.
 
 Formålet med de seks uger har været at finde ind til det vaskebræt, som alle gemmer nede under polstringen. Programmet har således i prioriteret rækkefølge haft til formål at tabe fedt på maven og opbygge en lidt større muskelmasse.
 
@@ -25,7 +25,7 @@ Væsentlige elementer for fremskridt
 
 Hvis man vil have en sixpack, skal man have styr på søvnrytmen, sin kost og endelig sin træning. Det overrasker nok de fleste, at det er i den rækkefølge.
 
-**Søvnrytmen**. Sollys er det vigtigste til at regulere vores døgnrytme. Soveværelset skal være helt sort, fordi der er et område i ansigtet, som når det bliver ramt af lys, gør en klar til at vågne. Forklaringen på at søvnrytmen er vigtig ift. at forbrænde fedt, skal bl.a. findes i døgnrytmen for hormonet [cortisol](https://web.archive.org/web/20150311232535/http://www.jacobsondergaard.dk/2011/07/11/sixpack-pa-6-uger-dag-1-kom-sovende-til-en-sixpack/) og dets samspil med [DHEA](http://www.jacobsondergaard.dk/2011/07/14/kom-sovende-til-en-sixpack-del-2/), som Jacob Søndergaard glimrende forklarer i [to](https://web.archive.org/web/20150311232535/http://www.jacobsondergaard.dk/2011/07/11/sixpack-pa-6-uger-dag-1-kom-sovende-til-en-sixpack/) [videoer](http://www.jacobsondergaard.dk/2011/07/14/kom-sovende-til-en-sixpack-del-2/), du kan finde på Youtube. Hvis søvnmønsteret ikke er i orden, kommer kroppen under belastning, og når kroppen er belastet, kan man ikke tabe fedt.
+**Søvnrytmen**. Sollys er det vigtigste til at regulere vores døgnrytme. Soveværelset skal være helt sort, fordi der er et område i ansigtet, som når det bliver ramt af lys, gør en klar til at vågne. Forklaringen på at søvnrytmen er vigtig ift. at forbrænde fedt, skal bl.a. findes i døgnrytmen for hormonet [cortisol](https://web.archive.org/web/20150311232535/http://www.jacobsondergaard.dk/2011/07/11/sixpack-pa-6-uger-dag-1-kom-sovende-til-en-sixpack/) og dets samspil med [DHEA](https://web.archive.org/web/20150311232535/http://www.jacobsondergaard.dk/2011/07/14/kom-sovende-til-en-sixpack-del-2/), som Jacob Søndergaard glimrende forklarer i [to](https://web.archive.org/web/20150311232535/http://www.jacobsondergaard.dk/2011/07/11/sixpack-pa-6-uger-dag-1-kom-sovende-til-en-sixpack/) [videoer](http://www.jacobsondergaard.dk/2011/07/14/kom-sovende-til-en-sixpack-del-2/), du kan finde på Youtube. Hvis søvnmønsteret ikke er i orden, kommer kroppen under belastning, og når kroppen er belastet, kan man ikke tabe fedt.
 
 {% include video provider="youtube" id="L6-V0lgsJqY" %}
 

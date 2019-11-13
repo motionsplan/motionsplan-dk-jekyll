@@ -2,6 +2,8 @@
 title: "Kompakt helkropsprogram"
 excerpt: "Hensigten med dette program er at træne hele kroppen med så få øvelser som muligt. Meningen er at du kører 4 sæt á 8 gentagelser med så høj vægt som du kan."
 permalink: /program/kompakt-helkropsprogram-normal
+redirect_from:
+  - /node/435/
 language: da
 categories:
   - Helkropsprogram

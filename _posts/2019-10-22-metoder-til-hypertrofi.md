@@ -17,7 +17,7 @@ toc: true
 
 *[RPE]: Rate of Percieved Exertion
 
-Hvis muskler skal vokse, så skal du først og fremmest være i overskud af energi, og så skal du træne. I træningen skal du flytte en stor volumen, så musklerne og -fibrene udsættes for mekanisk belastning, bliver udtrættet så flere muskelfibre rekrutteres og måske vil muskelskader også skabe vækst. Du kan læse mere i vores artikel om [hvorfor muskler vokser?](/hvorfor-vokser-muskler/) - sørg for at læse artiklen grundigt igennem, så du ved, hvordan du kan bygge volumen op.
+Hvis muskler skal vokse, så skal du først og fremmest være i overskud af energi, og så skal du træne. I træningen skal du flytte en stor volumen, så musklerne og -fibrene udsættes for mekanisk belastning, bliver udtrættet så flere muskelfibre rekrutteres og måske vil muskelskader også skabe vækst. Du kan læse mere i vores artikel om [hvorfor muskler vokser?](/hvordan-vokser-muskler/) - sørg for at læse artiklen grundigt igennem, så du ved, hvordan du kan bygge volumen op.
 
 Du kan sagtens lave træning, hvor du køre sæt og gentagelser ligeud, fx x12 @ RPE 9.5 med en given vægt i øvelserne. Nedenstående metoder og teknikker kan du overveje at bruge, hvis synes de fungerer godt for dig, så du øger volumen i din træning.
 
