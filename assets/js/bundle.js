@@ -469,7 +469,6 @@ $(document).ready(function() {
         $("#BMI").val(f.getBMI());
         $("#fat_mass").val(f.getFatMass());
         $("#fat_percent").val(f.getFatPercent());
-        $("meter#fat_meter").val(f.getFatPercent());
         return false;
     });
     // Calculate Durning
