@@ -21,7 +21,7 @@ require('image-map-resizer');
 $(document).ready(function() {
     $('map').imageMapResize();
 
-    $("#calculator_rm").ready(function() {
+    $("#form-formula").load(function() {
         $(".motiononline").hide();
     });
     // 1RM calculate
@@ -41,7 +41,7 @@ $(document).ready(function() {
         var weight = Number($("#form-weight").val());
         var trained = Number($("#form-trained").val());
         var koen = Number($("#form-sex").val());
-        var formula = $("#form-formula").val();
+        var formula = Number($("#form-formula").val());
 
         var r = rm.Estimate1RM(weight, reps);
 
