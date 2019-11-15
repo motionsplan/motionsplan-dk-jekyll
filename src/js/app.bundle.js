@@ -18,7 +18,17 @@ const running = require('./running');
 
 $(document).ready(function() {
 
+    $("#form-formula").load(function() {
+        $(".motiononline").hide();
+    });
     // 1RM calculate
+    $("#form-formula").change(function() {
+        if ($("#form-formula").val() == 'motiononline') {
+            $(".motiononline").show();
+        } else {
+            $(".motiononline").hide();
+        }
+    });
     $("#calculator_rm").submit(function() {
         console.log("Calculate 1RM");
         
@@ -28,11 +38,11 @@ $(document).ready(function() {
         var weight = Number($("#form-weight").val());
         var trained = Number($("#form-trained").val());
         var koen = Number($("#form-sex").val());
-        var bformel = Number($("#form-brzycki").val());
+        var formula = Number($("#form-formula").val());
 
         var r = rm.Estimate1RM(weight, reps);
 
-        if (bformel == 1) {
+        if (formula == "brzycki") {
             repmax = r.getMOLBrzycki();
             $("#rm1").val(r.getMOLBrzycki());
             $("#rm2").val(r.getMOLBrzycki(2));

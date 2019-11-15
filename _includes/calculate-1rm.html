@@ -1,6 +1,13 @@
 <form class="calculator" id="calculator_rm">
     <fieldset>
-        <legend>1-RM beregner</legend>
+        <legend>1-RM beregner</legend>        
+        <div class="form-group">
+            <label for="form-formula">Anvend følgende formel</label>
+            <select name="formula" id="form-formula">
+                <option value="brzycki">Brzycki (mest udbredte)</option>
+                <option value="motiononline">Morten Zacho Motion-online.dk</option>
+            </select>
+        </div>
         <div class="form-group">
             <label for="form-reps">Antal reps</label>
             <input type="number" min="1" max="15" id="form-reps" name="reps" placeholder="fx 5">
@@ -9,27 +16,19 @@
             <label for="form-weight">Vægt (kg)</label>
             <input type="number" min="10" max="600" name="weight" id="form-weight" placeholder="fx 50" >
         </div>
-        <div class="form-group">
+        <div class="form-group motiononline">
             <label for="form-sex">Køn</label>
             <select name="koen" id="form-sex">
                 <option value="1">Mand</option>
                 <option value="0">Kvinde</option>
             </select>
         </div>
-        <div class="form-group">
+        <div class="form-group motiononline">
             <label for="form-trained">Træningstilstand</label>
             <select name="trained" id="form-trained">
                 <option value="1">Trænet</option>
                 <option value="0">Utrænet</option>
             </select>
-        </div>
-        <div class="form-group">
-            <label for="form-brzycki">Anvend Brzycki's formel</label>
-            <select name="bformel" id="form-brzycki">
-                <option value="0">Nej</option>
-                <option value="1">Ja</option>
-            </select>
-            <span class="help-block">(Tager ikke hensyn til køn og træningstilstand, men er den mest udbredte formel)</span>
         </div>
         <input type="submit" value="Beregn">
     </fieldset>
