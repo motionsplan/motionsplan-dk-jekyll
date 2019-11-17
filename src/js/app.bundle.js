@@ -41,7 +41,7 @@ $(document).ready(function() {
         var weight = Number($("#form-weight").val());
         var trained = Number($("#form-trained").val());
         var koen = Number($("#form-sex").val());
-        var formula = Number($("#form-formula").val());
+        var formula = $("#form-formula").val();
 
         var r = rm.Estimate1RM(weight, reps);
 
