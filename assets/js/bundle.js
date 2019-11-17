@@ -326,7 +326,7 @@ const running = require('./running');
 
 $(document).ready(function() {
 
-    $("#form-formula").load(function() {
+    $("#form-formula").ready(function() {
         $(".motiononline").hide();
     });
     // 1RM calculate
