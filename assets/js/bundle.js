@@ -338,7 +338,7 @@ require('image-map-resizer');
 $(document).ready(function() {
     $('map').imageMapResize();
 
-    $("#form-formula").load(function() {
+    $("#form-formula").ready(function() {
         $(".motiononline").hide();
     });
     // 1RM calculate
