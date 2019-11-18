@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
 /*! Image Map Resizer (imageMapResizer.min.js ) - v1.0.10 - 2019-04-10
  *  Desc: Resize HTML imageMap to scaled image.
@@ -12,6 +13,9 @@
 =======
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
 >>>>>>> Update bundle.js
+=======
+(function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
+>>>>>>> Fixes
 'use strict';
 
 const maleValues = [
@@ -192,7 +196,6 @@ module.exports = {
 	calculateWilksScore: calculateWilksScore,
 	calculateWeightToLift: calculateWeightToLift,
 	calculateNeededBodyWeight: calculateNeededBodyWeight
-<<<<<<< HEAD
 };
 },{}],3:[function(require,module,exports){
 let motionsplan = {};
@@ -363,7 +366,7 @@ $(document).ready(function() {
         var weight = Number($("#form-weight").val());
         var trained = Number($("#form-trained").val());
         var koen = Number($("#form-sex").val());
-        var formula = Number($("#form-formula").val());
+        var formula = $("#form-formula").val();
 
         var r = rm.Estimate1RM(weight, reps);
 
@@ -1896,6 +1899,7 @@ motionsplan.ToPunktTest = function(age, weight, work1, hr1, work2, hr2) {
 
 module.exports = motionsplan;
 
+<<<<<<< HEAD
 },{}]},{},[4]);
 =======
 };
@@ -3334,3 +3338,6 @@ module.exports = motionsplan;
 
 },{}]},{},[3]);
 >>>>>>> Update bundle.js
+=======
+},{}]},{},[3]);
+>>>>>>> Fixes
