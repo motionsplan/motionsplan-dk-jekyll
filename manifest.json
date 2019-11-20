@@ -2,10 +2,10 @@
 layout: none
 ---
 {
-    "name" : "{{ site.title }}",
-    "short_name" : "{{ site.title }}",
-    "description" : "{{ site.description }}",
-    "start_url" : "{{ site.url }}",
+    "name": "{{ site.title }}",
+    "short_name": "{{ site.title }}",
+    "description": "{{ site.description }}",
+    "start_url": "{{ site.url }}",
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
     "display": "standalone",
@@ -21,5 +21,5 @@ layout: none
             "sizes": "512x512",
             "type": "image/png"
         }
-    ], 
+    ]
 }
