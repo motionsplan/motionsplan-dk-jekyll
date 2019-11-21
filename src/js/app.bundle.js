@@ -199,6 +199,7 @@ $(document).ready(function() {
         let r = rm.Estimate1RM(weight, reps);
 
         if (formula == "brzycki") {
+<<<<<<< HEAD
             repmax = r.getBrzycki();
             $("#rm1").val(repmax.toFixed(decimals));
             $("#rm2").val(r.getBrzycki(2).toFixed(decimals));
@@ -318,6 +319,45 @@ $(document).ready(function() {
         $("#p60").val(r.getPercentOfRm(repmax, 60).toFixed(decimals));
         $("#p50").val(r.getPercentOfRm(repmax, 50).toFixed(decimals));
         $("#p40").val(r.getPercentOfRm(repmax, 40).toFixed(decimals));
+=======
+            repmax = r.getMOLBrzycki().toFixed(1);
+            $("#rm1").val(r.getMOLBrzycki().toFixed(1));
+            $("#rm2").val(r.getMOLBrzycki(2).toFixed(1));
+            $("#rm3").val(r.getMOLBrzycki(3).toFixed(1));
+            $("#rm4").val(r.getMOLBrzycki(4).toFixed(1));
+            $("#rm5").val(r.getMOLBrzycki(5).toFixed(1));
+            $("#rm6").val(r.getMOLBrzycki(6).toFixed(1));
+            $("#rm8").val(r.getMOLBrzycki(8).toFixed(1));
+            $("#rm10").val(r.getMOLBrzycki(10).toFixed(1));
+            $("#rm12").val(r.getMOLBrzycki(12).toFixed(1));
+            $("#rm15").val(r.getMOLBrzycki(15).toFixed(1));
+        }
+        else {
+            repmax = r.getMOL(trained, koen).toFixed(1);
+            $("#rm1").val(repmax);
+            $("#rm2").val(r.getMOL(trained, koen, 2).toFixed(1));
+            $("#rm3").val(r.getMOL(trained, koen, 3).toFixed(1));
+            $("#rm4").val(r.getMOL(trained, koen, 4).toFixed(1));
+            $("#rm5").val(r.getMOL(trained, koen, 5).toFixed(1));
+            $("#rm6").val(r.getMOL(trained, koen, 6).toFixed(1));
+            $("#rm8").val(r.getMOL(trained, koen, 8).toFixed(1));
+            $("#rm10").val(r.getMOL(trained, koen, 10).toFixed(1));
+            $("#rm12").val(r.getMOL(trained, koen, 12).toFixed(1));
+            $("#rm15").val(r.getMOL(trained, koen, 15).toFixed(1));
+        }
+
+        $("#p100").val(r.getPercentOfRm(repmax, 100).toFixed(1));
+        $("#p95").val(r.getPercentOfRm(repmax, 95).toFixed(1));
+        $("#p90").val(r.getPercentOfRm(repmax, 90).toFixed(1));
+        $("#p85").val(r.getPercentOfRm(repmax, 85).toFixed(1));
+        $("#p80").val(r.getPercentOfRm(repmax, 80).toFixed(1));
+        $("#p75").val(r.getPercentOfRm(repmax, 75).toFixed(1));
+        $("#p70").val(r.getPercentOfRm(repmax, 70).toFixed(1));
+        $("#p60").val(r.getPercentOfRm(repmax, 60).toFixed(1));
+        $("#p50").val(r.getPercentOfRm(repmax, 50).toFixed(1));
+        $("#p40").val(r.getPercentOfRm(repmax, 40).toFixed(1));
+        return false;
+>>>>>>> Fixes 1RM calculator
     });
     // Mortality calculation
     $("#calculator_cooper_mortality").submit(function(e) {
