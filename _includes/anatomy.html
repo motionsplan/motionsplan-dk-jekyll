@@ -1,8 +1,8 @@
 <script>
 if (document.images) {
-	mouseout  = new Image(); mouseout.src = 'http://www.shapesense.com/images/blank-muscle-anatomy.jpg';
-	deltoidmouseover = new Image(); deltoidmouseover.src = 'http://www.shapesense.com/images/focus-deltoid.jpg';
-	bicepsbrachiimouseover = new Image(); bicepsbrachiimouseover.src = 'http://www.shapesense.com/images/focus-biceps-brachii.jpg';
+	mouseout  = new Image(); mouseout.src = '/assets/images/anatomy/blank-muscle-anatomy.jpg';
+	deltoidmouseover = new Image(); deltoidmouseover.src = '/assets/images/anatomy/focus-deltoid.jpg';
+	bicepsbrachiimouseover = new Image(); bicepsbrachiimouseover.src = '/assets/images/anatomy/focus-biceps-brachii.jpg';
 	pectoralismajormouseover = new Image(); pectoralismajormouseover.src = 'http://www.shapesense.com/images/focus-pectoralis-major.jpg';
 	latissimusdorsimouseover = new Image(); latissimusdorsimouseover.src = 'http://www.shapesense.com/images/focus-latissimus-dorsi.jpg';
 	trapeziusmouseover = new Image(); trapeziusmouseover.src = 'http://www.shapesense.com/images/focus-trapezius.jpg';
@@ -40,7 +40,7 @@ if (document.images) {
 }
 </script>
 
-<img src="http://www.shapesense.com/images/blank-muscle-anatomy.jpg" name="muscles" width="600" height="510" style="margin-left:auto;margin-right:auto;text-align:center;" alt="a diagram of the human muscular system anatomy" usemap="#muscleanatomymap">
+<img src="/assets/images/anatomy/blank-muscle-anatomy.jpg" name="muscles" width="600" height="510" style="margin-left:auto;margin-right:auto;text-align:center;" alt="a diagram of the human muscular system anatomy" usemap="#muscleanatomymap">
 
 <map name="muscleanatomymap">
     <area shape="poly" coords="199,119,220,133,217,117,208,97,188,88,172,95,190,103" onMouseOver="document.muscles.src=deltoidmouseover.src" onMouseOut="document.muscles.src=mouseout.src" href="http://www.shapesense.com/fitness-exercise/muscle-anatomy/deltoid.aspx" alt="deltoid"/>
@@ -153,7 +153,9 @@ if (document.images) {
     
     <area shape="poly" coords="423,361,432,373,432,388,435,408,432,424,434,425,425,420,423,413,415,417,406,420,403,406,403,389,408,366,414,357,417,366" onMouseOver="document.muscles.src=gastrocnemiusmouseover.src" onMouseOut="document.muscles.src=mouseout.src" href="http://www.shapesense.com/fitness-exercise/muscle-anatomy/gastrocnemius.aspx" alt="gastrocnemius"/>
     <area shape="poly" coords="489,359,493,367,500,358,508,365,509,376,512,393,510,410,507,421,499,417,491,410,488,419,483,425,479,416,481,394,483,380,483,370" onMouseOver="document.muscles.src=gastrocnemiusmouseover.src" onMouseOut="document.muscles.src=mouseout.src" href="http://www.shapesense.com/fitness-exercise/muscle-anatomy/gastrocnemius.aspx" alt="gastrocnemius"/>
-    <area shape="poly" coords="117,382,122,399,122,410,121,424,113,418,111,409,111,393" onMouseOver="document.muscles.src=gastrocnemiusmouseover.src" onMouseOut="document.muscles.src=mouseout.src" href="http://www.shapesense.com/fitness-exercise/muscle-anatomy/gastrocnemius.aspx" alt="gastrocnemius"/>
+    <area shape="poly" coords="117,382,122,399,122,410,121,424,113,418,111,409,111,393"
+        onMouseOver="document.muscles.src=gastrocnemiusmouseover.src" onMouseOut="document.muscles.src=mouseout.src"
+        href="/muskel/laeg/" alt="gastrocnemius"/>
     <area shape="poly" coords="170,382,177,397,175,415,167,424,166,411,167,398" onMouseOver="document.muscles.src=gastrocnemiusmouseover.src" onMouseOut="document.muscles.src=mouseout.src" href="http://www.shapesense.com/fitness-exercise/muscle-anatomy/gastrocnemius.aspx" alt="gastrocnemius"/>
     
     <area shape="poly" coords="453,276,448,282,439,286,443,298,442,323,451,296" onMouseOver="document.muscles.src=adductormagnusmouseover.src" onMouseOut="document.muscles.src=mouseout.src" href="http://www.shapesense.com/fitness-exercise/muscle-anatomy/adductor-magnus.aspx" alt="adductor magnus"/>
