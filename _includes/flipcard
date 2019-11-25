@@ -16,12 +16,10 @@
     <div class="flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
-          <h3>{{ f.front.title }}</h3>
-          {{ f.front.excerpt | markdownify }}
+          {{ f.front | markdownify }}
         </div>
         <div class="flip-card-back">
-          <h3>{{ f.back.title }}</h3>
-          {{ f.back.excerpt | markdownify }}
+          {{ f.back | markdownify }}
         </div>
       </div>
     </div>

@@ -13,19 +13,11 @@ tags:
   - anaerob
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
-flipcard:
-  - front: 
-      title: "Hvor lang tid tager Wingate-testen?"
-      excerpt: "En tekst"
-    back:
-      title: "30 sekunder"
-      excerpt: "Uddybet svar"
-  - front: 
-      title: "Hvad tester Wingate-testen?"
-      excerpt: "En tekst"
-    back:
-      title: "Anaerobe kapacitet"
-      excerpt: "Uddybet svar"
+quiz:
+  - front: "Hvor lang tid tager Wingate-testen?" 
+    back: "30 sekunder"
+  - front: "Hvad tester Wingate-testen?"
+    back: "Anaerobe kapacitet og power"
 ---
 
 *[PPO]: Peak Power Output (watt)
@@ -56,7 +48,9 @@ Her kan du umiddelbart aflæse alle værdierne undtagen "Anaerobic Capacity". De
 
 [Wattbike 30 Second Test](https://support.wattbike.com/hc/da/articles/115002920669-The-30-Second-Test){: .btn .btn--large .btn--info }
 
-{% include flipcard %}
+## Quiz
+
+{% include flipcard id="quiz" %}
 
 ## Referencer
 
