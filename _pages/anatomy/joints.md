@@ -35,3 +35,5 @@ feature_row:
 {% include feature_row %}
 
 {% include gallery id="feature_row" %}
+
+{% include figure image_path="https://s3-us-west-2.amazonaws.com/courses-images/wp-content/uploads/sites/1223/2017/02/08001845/Figure_38_03_04-883x1024.jpg" alt="Skelettet, led og ledtyper" caption="Ledtyper" %}
