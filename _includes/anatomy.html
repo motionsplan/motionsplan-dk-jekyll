@@ -38,17 +38,29 @@ if (document.images) {
 	adductormagnusmouseover = new Image(); adductormagnusmouseover.src = '/assets/images/anatomy/focus-adductor-magnus.jpg';
 	tibialisanteriormouseover = new Image(); tibialisanteriormouseover.src = '/assets/images/anatomy/focus-tibialis-anterior.jpg';
 }
+
+$(document).ready(function() {
+    $(".gastrocnemius").hover(function() {
+		console.log("Ready for magic");
+    });
+});
 </script>
 
-<img src="/assets/images/anatomy/blank-muscle-anatomy.jpg" name="muscles" width="600" height="510" alt="A diagram of the human muscular system anatomy" usemap="#muscle-anatomy-map">
+<img src="/assets/images/anatomy/blank-muscle-anatomy.jpg" id="muscles" name="muscles" width="600" height="510" alt="A diagram of the human muscular system anatomy" usemap="#muscle-anatomy-map">
 
 <map name="muscle-anatomy-map">
     {% for m in site.anatomy %}
         {% for c in m.coords  %}
-        <area shape="poly" coords="{{ c }}" 
+        <area shape="poly" coords="{{ c }}"
+            class="gastrocnemius"
             onmouseover="document.muscles.src='{{ m.image_focus }}'" 
             onmouseout="document.muscles.src='/assets/images/anatomy/blank-muscle-anatomy.jpg'" 
             href="{{ m.url }}" alt="{{ m.title }}"/>
         {% endfor %}
     {% endfor %}
 </map>
+
+
+<ul>
+	<li><a href="#" class="gastrocnemius">Gastrocnemius</a></li>
+</ul>

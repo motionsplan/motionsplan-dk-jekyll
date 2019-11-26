@@ -6,14 +6,17 @@ origin:
 insertion: 
   da: i akillessenen og fæster på hælbenet.
 function: 
-  - short: "Plantarfleksion i ankelleddet"
-secondary_function: 
-  - short: "Bøjer i knæleddet"
+  - short: Flexes the leg at the knee.
+    extended: This means that the semimembranosus muscle bends the leg at the knee joint such that there is a decrease in the angle between the lower leg and the upper leg.
+  - short: Extends the leg at the hip.
+    extended: This means that the semimembranosus muscle straightens the hip joint such that there is an increase in the angle between the upper leg and the torso.
 exercises:
   - Stående calf-raise
-image: http://static1.squarespace.com/static/5913d61e03596e07853f40e5/5aa95e174192022eff2168e3/5b15d9551ae6cfbba8c3c3af/1534184611973/Gastroc-Soleus.jpg?format=1500w
+image: http://www.shapesense.com/images/semimembranosus.jpg
 image_focus: /assets/images/anatomy/focus-semimembranosus.jpg
 coords:
   - "472,312,475,319,479,338,481,356,479,365,477,351,473,328,471,319"
   - "441,311,438,321,436,333,433,346,434,364,437,353,440,337"
 ---
+
+"hamstrings" - the semimembranosus muscle forms part of the hamstrings muscle group, along with biceps femoris and semitendinosus.

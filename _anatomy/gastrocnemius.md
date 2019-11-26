@@ -7,11 +7,15 @@ insertion:
   da: i akillessenen og fæster på hælbenet.
 function: 
   - short: "Plantarfleksion i ankelleddet"
+  - short: Flexes the leg at the knee.
+    extended: This means that the gastrocnemius muscle bends the leg at the knee joint such that there is a decrease in the angle between the lower leg and the upper leg.
+  - short: Plantar flexes the foot.
+    extended: This means that the gastrocnemius muscle extends the ankle such that the angle between the top of the foot and the shin increases.
 secondary_function: 
   - short: "Bøjer i knæleddet"
 exercises:
   - Stående calf-raise
-image: http://static1.squarespace.com/static/5913d61e03596e07853f40e5/5aa95e174192022eff2168e3/5b15d9551ae6cfbba8c3c3af/1534184611973/Gastroc-Soleus.jpg?format=1500w
+image: http://www.shapesense.com/images/gastrocnemius.jpg
 image_focus: /assets/images/anatomy/focus-gastrocnemius.jpg
 coords:
   - "423,361,432,373,432,388,435,408,432,424,434,425,425,420,423,413,415,417,406,420,403,406,403,389,408,366,414,357,417,366"

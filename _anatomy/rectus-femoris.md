@@ -6,14 +6,17 @@ origin:
 insertion: 
   da: i akillessenen og fæster på hælbenet.
 function: 
-  - short: "Plantarfleksion i ankelleddet"
-secondary_function: 
-  - short: "Bøjer i knæleddet"
+  - short: Extends the leg at the knee.
+    extended: This means that the rectus femoris muscle straightens the leg at the knee joint such that there is an increase in the angle between the lower leg and the upper leg.
+  - short: Performs some minor extension of the leg at the hip.
+    extended: This means that the rectus femoris muscle straightens the hip joint such that there is an increase in the angle between the upper leg and the torso.
 exercises:
   - Stående calf-raise
-image: http://static1.squarespace.com/static/5913d61e03596e07853f40e5/5aa95e174192022eff2168e3/5b15d9551ae6cfbba8c3c3af/1534184611973/Gastroc-Soleus.jpg?format=1500w
+image: http://www.shapesense.com/images/rectus-femoris.jpg
 image_focus: /assets/images/anatomy/focus-rectus-femoris.jpg
 coords:
   - "182,243,177,267,170,289,176,315,178,327,185,327,189,304,192,274"
   - "105,242,108,259,115,287,116,303,110,321,110,329,103,328,101,318,97,306,95,274"
 ---
+
+"quadriceps," "quads" - the rectus femoris muscle forms part of the quadriceps femoris muscle group, along with vastus lateralis, vastus medialis, and vastus intermedius (vastus intermedius is not shown in the muscle anatomy section since it is located below rectus femoris).

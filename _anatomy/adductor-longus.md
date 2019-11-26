@@ -6,12 +6,15 @@ origin:
 insertion: 
   da: i akillessenen og fæster på hælbenet.
 function: 
-  - short: "Plantarfleksion i ankelleddet"
-secondary_function: 
-  - short: "Bøjer i knæleddet"
+  - short: Flexes the leg at the hip.
+    extended: This means that the adductor longus muscle bends the hip joint such that there is a decrease in the angle between the upper leg and the torso.
+  - short: Adducts the leg at the hip.
+    extended: This means that the adductor longus muscle moves the upper leg toward the vertical midline of the body (i.e. the action of closing your legs together from a spread out position).
+  - short: Provides some lateral rotation of the upper leg.
+    extended: This means that the adductor longus muscle rotates the upper leg outward around the axis of the bone (i.e. it rotates the upper leg away from the vertical midline of the body).
 exercises:
   - Stående calf-raise
-image: http://static1.squarespace.com/static/5913d61e03596e07853f40e5/5aa95e174192022eff2168e3/5b15d9551ae6cfbba8c3c3af/1534184611973/Gastroc-Soleus.jpg?format=1500w
+image: http://www.shapesense.com/images/adductor-longus.jpg
 image_focus: /assets/images/anatomy/focus-adductor-longus.jpg
 coords:
   - "126,253,120,261,125,272,129,288,130,304,132,297,132,285,131,268"

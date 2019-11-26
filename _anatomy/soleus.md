@@ -6,12 +6,11 @@ origin:
 insertion: 
   da: i akillessenen og fæster på hælbenet.
 function: 
-  - short: "Plantarfleksion i ankelleddet"
-secondary_function: 
-  - short: "Bøjer i knæleddet"
+  - short: Plantar flexes the foot.
+    extended: This means that the soleus muscle extends the ankle such that the angle between the top of the foot and the lower leg increases (i.e. the action of rising up on your toes or the balls of your feet).
 exercises:
   - Stående calf-raise
-image: http://static1.squarespace.com/static/5913d61e03596e07853f40e5/5aa95e174192022eff2168e3/5b15d9551ae6cfbba8c3c3af/1534184611973/Gastroc-Soleus.jpg?format=1500w
+image: http://www.shapesense.com/images/soleus.jpg
 image_focus: /assets/images/anatomy/focus-soleus.jpg
 coords:
   - "406,419,419,451,420,460,410,439,407,429"

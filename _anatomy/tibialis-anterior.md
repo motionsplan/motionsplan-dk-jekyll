@@ -6,12 +6,13 @@ origin:
 insertion: 
   da: i akillessenen og fæster på hælbenet.
 function: 
-  - short: "Plantarfleksion i ankelleddet"
-secondary_function: 
-  - short: "Bøjer i knæleddet"
+  - short: Dorsiflexes the foot.
+    extended: This means that the tibialis anterior muscle bends the ankle such that the angle between the top of the foot and the lower leg decreases (i.e. bringing your toes toward your knees).
+  - short: Supinates, or inverts, the foot.
+    extended: This means that the tibialis anterior muscle bends the ankle inward to the side such that the sole of the foot faces inward.
 exercises:
   - Stående calf-raise
-image: http://static1.squarespace.com/static/5913d61e03596e07853f40e5/5aa95e174192022eff2168e3/5b15d9551ae6cfbba8c3c3af/1534184611973/Gastroc-Soleus.jpg?format=1500w
+image: http://www.shapesense.com/images/tibialis-anterior.jpg
 image_focus: /assets/images/anatomy/focus-tibialis-anterior.jpg
 coords:
   - "96,372,100,384,101,402,104,435,100,435,94,406,94,390"
