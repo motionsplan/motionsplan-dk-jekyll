@@ -11,4 +11,7 @@ names:
   - pecs
 image: http://www.shapesense.com/images/pectoralis-major.jpg
 image_focus: /assets/images/anatomy/focus-pectoralis-major.jpg
+coords:
+  - "133,96,118,97,103,102,101,114,104,126,108,138,117,143,139,141,141,121"
+  - "155,97,146,120,149,142,167,143,181,136,186,117,183,106,171,98"
 ---
