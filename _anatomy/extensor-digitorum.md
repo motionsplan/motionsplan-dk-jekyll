@@ -6,12 +6,13 @@ origin:
 insertion: 
   da: i akillessenen og fæster på hælbenet.
 function: 
-  - short: "Plantarfleksion i ankelleddet"
-secondary_function: 
-  - short: "Bøjer i knæleddet"
+  - short: Extends the wrist.
+    extended: This means that the extensor digitorum muscle straightens the wrist joint such that the angle between the back of the hand and the back of the forearm decreases (i.e. it moves the back of the hand toward the back of the forearm).
+  - short: Extends the fingers.
+    extended: This means that the extensor digitorum muscle straightens the fingers.
 exercises:
   - Stående calf-raise
-image: http://static1.squarespace.com/static/5913d61e03596e07853f40e5/5aa95e174192022eff2168e3/5b15d9551ae6cfbba8c3c3af/1534184611973/Gastroc-Soleus.jpg?format=1500w
+image: http://www.shapesense.com/images/extensor-digitorum.jpg
 image_focus: /assets/images/anatomy/focus-extensor-digitorum.jpg
 coords:
   - "341,218,344,218,354,193"

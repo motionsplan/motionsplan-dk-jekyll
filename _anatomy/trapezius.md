@@ -6,12 +6,13 @@ origin:
 insertion: 
   da: i akillessenen og fæster på hælbenet.
 function: 
-  - short: "Plantarfleksion i ankelleddet"
-secondary_function: 
-  - short: "Bøjer i knæleddet"
+  - short: Elevates the scapula.
+    extended: This means that the trapezius muscle lifts the shoulder girdle up (i.e. shrugging your shoulders).
+  - short: Retracts the scapula.
+    extended: This means that the trapezius muscle pulls the scapula, or shoulder blade, rearward such that it approaches the spine.
 exercises:
   - Stående calf-raise
-image: http://static1.squarespace.com/static/5913d61e03596e07853f40e5/5aa95e174192022eff2168e3/5b15d9551ae6cfbba8c3c3af/1534184611973/Gastroc-Soleus.jpg?format=1500w
+image: http://www.shapesense.com/images/trapezius.jpg
 image_focus: /assets/images/anatomy/focus-trapezius.jpg
 coords:
   - "464,55,449,56,448,66,439,76,416,94,429,97,437,105,440,129,457,158,475,124,481,95,497,90,475,77,465,67"

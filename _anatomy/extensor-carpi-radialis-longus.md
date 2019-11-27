@@ -6,12 +6,13 @@ origin:
 insertion: 
   da: i akillessenen og fæster på hælbenet.
 function: 
-  - short: "Plantarfleksion i ankelleddet"
-secondary_function: 
-  - short: "Bøjer i knæleddet"
+  - short: Extends the wrist.
+    extended: This means that the extensor carpi radialis longus muscle straightens the wrist joint such that the angle between the back of the hand and the back of the forearm decreases (i.e. it moves the back of the hand toward the back of the forearm).
+  - short: Abducts the hand.
+    extended: This means that the extensor carpi radialis longus muscle bends the wrist sideways such that the thumb side of the hand moves toward the forearm.
 exercises:
   - Stående calf-raise
-image: http://static1.squarespace.com/static/5913d61e03596e07853f40e5/5aa95e174192022eff2168e3/5b15d9551ae6cfbba8c3c3af/1534184611973/Gastroc-Soleus.jpg?format=1500w
+image: http://www.shapesense.com/images/extensor-carpi-radialis-longus.jpg
 image_focus: /assets/images/anatomy/focus-extensor-carpi-radialis-longus.jpg
 coords:
   - "548,176,556,181,559,198"

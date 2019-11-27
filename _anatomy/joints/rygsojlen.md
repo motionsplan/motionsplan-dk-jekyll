@@ -1,10 +1,8 @@
 ---
-title: "Adductor Longus"
+title: "Ryggen"
+tags:
+  - led
 latin: Adductor Longus
-origin: 
-  da: Et hoved fra hver side af nederste bageste del af lårbenet.
-insertion: 
-  da: i akillessenen og fæster på hælbenet.
 function: 
   - short: Flexes the leg at the hip.
     extended: This means that the adductor longus muscle bends the hip joint such that there is a decrease in the angle between the upper leg and the torso.
@@ -20,3 +18,14 @@ coords:
   - "126,253,120,261,125,272,129,288,130,304,132,297,132,285,131,268"
   - "159,255,165,263,162,272,159,286,157,305,155,295,154,284,154,270"
 ---
+
+Albueleddet fungerer som et hængselled mellem overarmsknoglen og underarmsknoglerne (albuebenet og spolebenet). I forbindelse med albueleddet findes drejeled mellem albueben og spoleben, således at underarmen kan rotere om sin længdeakse.
+Bevægelser:
+
+Bøjning: Den tohovede armbøjer, Den dybe armbøjer, Armspole-bensmusklen
+
+Strækning: Den trehovede armstrækker
+
+Rotation: Den tohovede armbøjer drejer underarmen, så håndfladen peger opad. Dette hedder supination (huskeregel: servere suppe). Rotation den anden vej (pronation) udføres af musklerne i underarmen.
+
+Tegningen viser venstre arm set forfra.

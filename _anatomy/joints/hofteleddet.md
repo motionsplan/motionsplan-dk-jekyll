@@ -1,10 +1,6 @@
 ---
-title: "Adductor Longus"
+title: "Hofteleddet"
 latin: Adductor Longus
-origin: 
-  da: Et hoved fra hver side af nederste bageste del af lårbenet.
-insertion: 
-  da: i akillessenen og fæster på hælbenet.
 function: 
   - short: Flexes the leg at the hip.
     extended: This means that the adductor longus muscle bends the hip joint such that there is a decrease in the angle between the upper leg and the torso.
@@ -20,3 +16,18 @@ coords:
   - "126,253,120,261,125,272,129,288,130,304,132,297,132,285,131,268"
   - "159,255,165,263,162,272,159,286,157,305,155,295,154,284,154,270"
 ---
+
+Hofteleddet er et kugleled, der er dannet af en ledskål på hoftebenet og et ledhoved på lårbensknoglen. Leddet er forstærket af kraftige ledbånd, der begrænser Stræknings- og Udadføringsbevægelser. Bøjning med bøjet knæ er normalt begrænset af lårets møde med maven. Med strakt knæ er det smidigheden af hasemusklerne der er begrænsende.
+Bevægelser:
+
+Bøjning: Lænde-hoftebensmusklen, det lige hoved af Den firehovede knæstrækker.
+
+Strækning: Den store sædemuskel, Hasemusklerne (Den halvhindede, Den halvsenede og Den tohovede).
+
+Udadføring: Den mellemste sædemuskel, Den lille sædemuskel og Lårfasciens spænder.
+
+Indadføring: Indadførerne (Lange, Korte og Store).
+
+Udadrotation: Den store sædemuskel og en del mindre muskler, der sidder mellem den indre del af bækkenet og lårbenets yderside (bl.a piriformis).
+
+Indadrotation: Den lille sædemuskel og indadførerne.

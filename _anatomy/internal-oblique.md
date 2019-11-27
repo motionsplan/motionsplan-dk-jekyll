@@ -6,12 +6,15 @@ origin:
 insertion: 
   da: i akillessenen og fæster på hælbenet.
 function: 
-  - short: "Plantarfleksion i ankelleddet"
-secondary_function: 
-  - short: "Bøjer i knæleddet"
+  - short: Laterally flexes the spine.
+    extended: This means that the internal oblique muscle bends the spine to the side (i.e. it moves the ribcage downward to the side towards the pelvis).
+  - short: Rotates the spine.
+    extended: This means that the internal oblique muscle turns the spine to the side (i.e. it twists the torso).
+  - short: Compresses the abdominal cavity.
+    extended: This means that the internal oblique muscle constricts the organs of the abdominal cavity and can increase intra-abdominal pressure (i.e. such as during a valsalva maneuver).
 exercises:
   - Stående calf-raise
-image: http://static1.squarespace.com/static/5913d61e03596e07853f40e5/5aa95e174192022eff2168e3/5b15d9551ae6cfbba8c3c3af/1534184611973/Gastroc-Soleus.jpg?format=1500w
+image: http://www.shapesense.com/images/internal-oblique.jpg
 image_focus: /assets/images/anatomy/focus-internal-oblique.jpg
 coords:
   - "426,200,431,209,418,210"

@@ -6,14 +6,17 @@ origin:
 insertion: 
   da: i akillessenen og fæster på hælbenet.
 function: 
-  - short: "Plantarfleksion i ankelleddet"
-secondary_function: 
-  - short: "Bøjer i knæleddet"
+  - short: Protracts the scapula.
+    extended: This means that the serratus anterior muscle pulls the scapula, or shoulder blade, forward and around the ribcage.
+  - short: Rotates the scapula upward.
+    extended: This means that the serratus anterior muscle turns the scapula, or shoulder blade, such that the bottom of the scapula moves upward and laterally (i.e. outward).
 exercises:
   - Stående calf-raise
-image: http://static1.squarespace.com/static/5913d61e03596e07853f40e5/5aa95e174192022eff2168e3/5b15d9551ae6cfbba8c3c3af/1534184611973/Gastroc-Soleus.jpg?format=1500w
+image: http://www.shapesense.com/images/serratus-anterior.jpg
 image_focus: /assets/images/anatomy/focus-serratus-anterior.jpg
 coords:
   - "103,145,111,149,108,156,110,158,104,163,101,152"
   - "173,150,181,154,180,160,184,163,183,145"
 ---
+
+The serratus anterior is often called the "boxer's muscle" because it is highly developed in professional boxers due to the scapular protraction that occurs during a punching motion.

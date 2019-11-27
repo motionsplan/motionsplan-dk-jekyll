@@ -39,28 +39,39 @@ if (document.images) {
 	tibialisanteriormouseover = new Image(); tibialisanteriormouseover.src = '/assets/images/anatomy/focus-tibialis-anterior.jpg';
 }
 
+/* The generated code here is moved to bundle.app.js
 $(document).ready(function() {
-    $(".gastrocnemius").hover(function() {
-		console.log("Ready for magic");
-    });
+    {% for m in site.anatomy %}
+	$(".{{ m.slug }}").hover(function () {
+    	$(".{{ m.slug }}").toggleClass("anatomy-popup-on");
+	});
+	{% endfor %}
 });
+*/
 </script>
 
-<img src="/assets/images/anatomy/blank-muscle-anatomy.jpg" id="muscles" name="muscles" width="600" height="510" alt="A diagram of the human muscular system anatomy" usemap="#muscle-anatomy-map">
+<div id="anatomy_muscle">
+	<img src="/assets/images/anatomy/blank-muscle-anatomy.jpg" id="muscles" name="muscles" width="600" height="510" alt="A diagram of the human muscular system anatomy" usemap="#muscle-anatomy-map">
 
-<map name="muscle-anatomy-map">
-    {% for m in site.anatomy %}
-        {% for c in m.coords  %}
+	<map name="muscle-anatomy-map">
+{% for m in site.anatomy %}
+    {% for c in m.coords  %}
         <area shape="poly" coords="{{ c }}"
-            class="gastrocnemius"
+            title="{{ m.title }}"
+            class="{{ m.slug }}"
             onmouseover="document.muscles.src='{{ m.image_focus }}'" 
             onmouseout="document.muscles.src='/assets/images/anatomy/blank-muscle-anatomy.jpg'" 
-            href="{{ m.url }}" alt="{{ m.title }}"/>
-        {% endfor %}
+            href="#" alt="{{ m.title }}"/>
     {% endfor %}
-</map>
+{% endfor %}
+	</map>
 
-
-<ul>
-	<li><a href="#" class="gastrocnemius">Gastrocnemius</a></li>
-</ul>
+{% for m in site.anatomy %}
+  <div class="{{ m.slug }} anatomy-popup">
+  	<h3>{{ m.title }}</h3>
+  	<p>
+  		Latin: {{ m.latin }}
+  	</p>
+  </div>
+{% endfor %}
+</div>

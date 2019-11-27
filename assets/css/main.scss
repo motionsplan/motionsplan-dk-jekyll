@@ -47,3 +47,30 @@ form.calculator {
         @extend .btn--success;
     }    
 }
+
+#anatomy_muscle {
+    position: relative;
+    width: 100%;
+
+    .anatomy-popup {
+        display: none;
+    }
+
+    .anatomy-popup-on {
+	    display: block !important;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+        background: #333;
+        opacity: .7;
+        padding: 0.5em 1em;
+        color: #fff;
+    
+        h3, p {
+            font-size: 0.7em;
+            margin: 0;
+            text-align: center;
+        }
+    }
+}

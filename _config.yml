@@ -326,19 +326,19 @@ defaults:
       author: lsolesen
       tag_archive_path: /category/tags/
       category_archive_path: /oevelseskategorier/
-  # _posts
+  # _anatomy
   - scope:
       path: ""
       type: anatomy
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: true
       share: true
       related: true
-      toc: false
-      toc_sticky: false
+      toc: true
+      toc_sticky: true
       author: lsolesen
 # _redirects
   - scope:

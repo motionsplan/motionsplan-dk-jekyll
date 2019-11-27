@@ -6,12 +6,21 @@ origin:
 insertion: 
   da: i akillessenen og fæster på hælbenet.
 function: 
-  - short: "Plantarfleksion i ankelleddet"
-secondary_function: 
-  - short: "Bøjer i knæleddet"
+  - short: Abducts the leg at the hip.
+    extended: This means that the gluteus medius muscle moves the upper leg outward to the side away from the vertical midline of the body (i.e. the action of spreading your legs to the side).
+  - short: The anterior (or front) fibers of the gluteus medius muscle medially rotate the upper leg.
+    extended: This means that the anterior fibers of the gluteus medius muscle rotate the upper leg inward around the axis of the bone (i.e. rotate the upper leg toward the vertical midline of the body).
+  - short: The anterior (or front) fibers of the gluteus medius muscle flex the leg at the hip.
+    extended: This means that the anterior fibers of the gluteus medius muscle bend the hip joint such that there is a decrease in the angle between the upper leg and the torso.
+  - short: The posterior (or rear) fibers of the gluteus medius muscle laterally rotate the upper leg.
+    extended: This means that the posterior fibers of the gluteus medius muscle rotate the upper leg outward around the axis of the bone (i.e. rotate the upper leg away from the vertical midline of the body).
+  - short: The posterior (or rear) fibers of the gluteus medius muscle extend the leg at the hip.
+    extended: This means that the posterior fibers of the gluteus medius muscle straighten the hip joint such that there is an increase in the angle between the upper leg and the torso.
+  - short: Stabilizes the hip joint during walking.
+    extended: This means that the gluteus medius muscle keeps the pelvis level when the leg on the opposite side of the body lifts off the ground during walking.
 exercises:
   - Stående calf-raise
-image: http://static1.squarespace.com/static/5913d61e03596e07853f40e5/5aa95e174192022eff2168e3/5b15d9551ae6cfbba8c3c3af/1534184611973/Gastroc-Soleus.jpg?format=1500w
+image: http://www.shapesense.com/images/gluteus-medius.jpg
 image_focus: /assets/images/anatomy/focus-gluteus-medius.jpg
 coords:
   - "422,216,435,216,443,219,428,224,417,234"
