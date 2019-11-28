@@ -1,49 +1,58 @@
 ---
 layout: single
-title: "Knogler"
+title: "Kroppens knogler og knogletyper"
 excerpt: "Skelettet består af knogler. Knoglerne afstiver kroppen og agerer vægtstænger for musklerne, så kroppen kan bevæge sig."
 permalink: /knogler/
 tags:
   - anatomi
 header:
   teaser: https://samvirke.dk/sites/default/files/styles/image_component_large/public/migrated/kn/knoglerlis_0.jpg.jpeg?itok=3xXtRBZo
+toc: true
+toc_sticky: true
+author_profile: true
 ---
-
-## Knogler
 
 Skelettet består af knogler. Knoglerne afstiver kroppen og agerer vægtstænger for musklerne. Desuden beskytter knoglerne de vigtige organer.
 
 {% include figure image_path="/assets/images/anatomy/skeleton.png" %}
 
+## Knogler i kroppen
 
-***
+- Rygsøjle (Columna vertebralis)
+- Kranie (Cranium)
+- Kraveben (Clavicula)
+- Skulderblad (Scapula)
+- Brystben (Sternum)
+- Overarmsben (Humerus)
+- Ribben (Costa)
+- Hvirvel (vertebra)
+- Albueben (Ulna)
+- Spoleben (Radius)
+- Bækken (Pelvis)
+- Lårben (Femur)
+- Knæskal (Patella)
+- Skinneben (Tibia)
+- Lægben (Fibula)
 
-Kroppens knogler og knogletyper
-Opbygning
-Knoglerne består af såvel organisk materiale – bl.a. de levende benceller – som uorganiske salte. Det organiske materiale medfører, at knoglen til en hvis grad kan være blød og bøjelig og let kan genopbygges. Børn har relativt meget af dette materiale i knoglerne, hvorfor skader let heles, men til gengæld er faren for deformering af knoglerne ved overbelastning også tilstede.De uorganiske salte medfører, at knoglen i sig har evnen til at bevare sin form og derved give støtte. Til gengæld medfører det også, at knoglen er sprød og skør. Alderen medfører en overvægt af disse kalksalte, hvorfor ældre mennesker dels har lettere ved at få knoglebrud og dels har vanskeligere ved at få disse helet.
-Knoglen er beklædt med en tynd hinde af organisk materiale, benhinden, som har evnen til at danne nye benceller indvendigt. På den måde bliver knoglerne tykkere eller et evt. brud kan heles.
+## Opbygning af knoglerne
 
-Knoglerne er formede på en sådan måde, at det gør dem velegnede som tilhæftningssteder for musklerne. Trods den tilsyneladende faste og stive struktur, er knoglerne levende væv, der er påvirkelige for såvel aktivitet som inaktivitet. Ved træning styrkes knoglerne, mens de svækkes ved inaktivitet.
+Knogler består af organisk materiale og uorganiske salte. Det organiske materiale gør kroppen blod og bøjelig og gør at knoglerne let kan genopbygges. De uorganiske salte giver knoglen evnen til at bevare formen og giver støtte. Med alderen bliver andelen af de kalksaltene højere, hvilket typisk gør knoglerne lidt mere skøre og det bliver sværere at hele.
 
-Knoglens længdevækst foregår i epifyserne, som findes i hver ende af knoglen. Epifysen afsætter benceller til hver side. Hastigheden af væksten styres hormonalt. Efter puberteten ophører hormonpåvirkningen normalt, hvorfor højdetilvæksten ligeledes aftager.
-Knogletyper
-Knogler kan opdeles i 4 grupper: Rørknogler, flade knogler, korte knogler og uregelmæssige knogler.
+{% include figure image_path="https://vignette.wikia.nocookie.net/humanbiologi/images/7/79/0619.jpg/revision/latest?cb=20110618180044&path-prefix=da" caption="Rørknogle med forskellen mellem børn og voksne" alt="Rørknogle med forskellen mellem børn og voksne" %}
 
-Rørknogler:
-Overarmsben (humerus), albueben (ulna), spoleben (radius), mellemhåndsknogler, fingre, lårben (femur), skinneben (tibia), lægben (fibula), mellemfodsknogler, tæer.
-Knoglernes form gør dem egnede til at danne lemmerne, og røropbygningen forener stor brudstyrke med relativ begrænset vægt.
+Knoglerne er beklædt med en tynd hinde, som kan danne nye knogleceller indvendigt. På den måde kan knoglerne blive tykkere og skader kan heles.
 
-Flade knogler:
-Flade knogler danner vægge i skelettets hulrum.
-Kraniet (cranium), kravebenet (clavicula), brystbenet (sternum), ribben (costa), skulderblade (scapula), bækkenets (pelvis) knogler.
+Knoglernes primære funktion er at være tilhæftningsste for musklerne, og aktivitet påvirker knoglernes udformning. Knoglerne vokser i længden i epifyserne, som findes i hver ende af knoglen. Efter puberteten stopper væksten.
 
-Korte knogler:
-Håndrodens og fodrodens knogler.
+## Knogletyper
 
-Uregelmæssige knogler:
-Knoglerne i rygsøjlen (columna vertebralis)
+Skelettet består af omkring 200 knogler, hvilket udgør ca. 18% af kropsvægten. Den længste og tungeste knogle er lårknoglen, der hos en mand på 70 kg. vejer ca. 1 kg.
 
-Skelettet består af ca. 200 knogler og udgør ca. 18% af legemsvægten. Den længste og tungeste knogle er lårknoglen, der hos en mand på 70 kg. vejer ca. 1 kg.
+Knogler kan opdeles i 4 grupper:
 
-Latinske navne:
-Rygsøjle (Columna vertebralis), Kranie (Cranium), Kraveben (Clavicula), Skulderblad (Scapula), Brystben (Sternum), Overarmsben (Humerus), Ribben (Costa), Hvirvel (vertebra), Albueben (Ulna), Spoleben (Radius), Bækken (Pelvis), Lårben (Femur), Knæskal (Patella), Skinneben (Tibia), Lægben (Fibula)
+- **Rørknogler**. Rørknoglernes form gør dem velegnede til at danne arme og ben. Opbygningen i røret giver knoglerne en relativ stor brudstyrke med begrænset vægt. Fx arme, ben, fingre, mellemhåndsknogler.
+- **Flade knogler**. De flade knogler danner kroppens hulrum. Fx skulderblad, ribben, bækkenet.
+- **Korte knogler**. De korte knogler er fx håndrodens knogler og fodrodens knogler.
+- **Uregelmæssige knogler**. De uregelmæssige knogler er fx rygsøjlens knogler.
+
+{% include figure image_path="https://vignette.wikia.nocookie.net/humanbiologi/images/e/e4/0607.jpg/revision/latest?cb=20110618173735&path-prefix=da" caption="Knogletyper" alt="Knogletyper" %}

@@ -1,6 +1,8 @@
 ---
 title: "Serratus Anterior"
 latin: "Serratus Anterior"
+tags:
+  - imagemap
 origin: 
   da: Et hoved fra hver side af nederste bageste del af lårbenet.
 insertion: 

@@ -1,6 +1,8 @@
 ---
 title: Pectoralis Major
 latin: Pectoralis Major
+tags:
+  - imagemap
 function:
   - short: Abducts the arm at the shoulder.
     extended: This means that the pectoralis major muscle moves the upper arm away from the vertical midline of the body (i.e. the action of raising your arms to the side).

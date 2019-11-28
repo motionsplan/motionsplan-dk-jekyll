@@ -1,6 +1,8 @@
 ---
 title: "Flexor Carpi Radialis"
 latin: Flexor Carpi Radialis
+tags:
+  - imagemap
 origin: 
   da: Et hoved fra hver side af nederste bageste del af lårbenet.
 insertion: 

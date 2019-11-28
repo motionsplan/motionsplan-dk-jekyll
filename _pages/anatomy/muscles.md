@@ -5,9 +5,10 @@ excerpt: "Musklerne hæfter på knoglerne, så de kan bevæge dem i forhold til 
 permalink: /muskler/
 tags:
   - anatomi
+toc: true
+toc_sticky: true
+author_profile: true
 ---
-
-## Skeletmuskler
 
 Der findes forskellige muskeltyper, men i forbindelse med analyser af bevægelser er skeletmusklerne de mest relevante.
 

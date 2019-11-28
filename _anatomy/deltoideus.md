@@ -1,6 +1,8 @@
 ---
 title: "Deltoideus"
 latin: Deltoideus
+tags:
+  - imagemap
 origin: 
   da: Et hoved fra hver side af nederste bageste del af lårbenet.
 insertion: 

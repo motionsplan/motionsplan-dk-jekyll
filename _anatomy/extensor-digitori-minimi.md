@@ -1,6 +1,8 @@
 ---
 title: "Extensor Digitori Minimi"
 latin: Extensor Digitori Minimi
+tags:
+  - imagemap
 origin: 
   da: Et hoved fra hver side af nederste bageste del af lårbenet.
 insertion: 

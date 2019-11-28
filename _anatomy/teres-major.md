@@ -1,6 +1,8 @@
 ---
 title: "Teres Major"
 latin: "Teres Major"
+tags:
+  - imagemap
 origin: 
   da: Et hoved fra hver side af nederste bageste del af lårbenet.
 insertion: 

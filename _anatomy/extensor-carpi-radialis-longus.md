@@ -1,6 +1,8 @@
 ---
 title: "Extensor Carpi Radialis Longus"
 latin: Extensor Carpi Ulnaris
+tags:
+  - imagemap
 origin: 
   da: Et hoved fra hver side af nederste bageste del af lårbenet.
 insertion: 

@@ -1,17 +1,19 @@
 ---
-title: "Tibialis Anterior"
+title: "Forreste skinnebensmuskel"
 latin: "Tibialis Anterior"
+category:
+  - Fodled
+tags:
+  - imagemap
 origin: 
-  da: Et hoved fra hver side af nederste bageste del af lårbenet.
+  da: Øverst på skinnebenets yderside.
 insertion: 
-  da: i akillessenen og fæster på hælbenet.
+  da: Inderside af fodrod og mellemfod.
 function: 
   - short: Dorsiflexes the foot.
     extended: This means that the tibialis anterior muscle bends the ankle such that the angle between the top of the foot and the lower leg decreases (i.e. bringing your toes toward your knees).
-  - short: Supinates, or inverts, the foot.
+  - short: Supinates, or inverts, the foot (sekundær)
     extended: This means that the tibialis anterior muscle bends the ankle inward to the side such that the sole of the foot faces inward.
-exercises:
-  - Stående calf-raise
 image: http://www.shapesense.com/images/tibialis-anterior.jpg
 image_focus: /assets/images/anatomy/focus-tibialis-anterior.jpg
 coords:

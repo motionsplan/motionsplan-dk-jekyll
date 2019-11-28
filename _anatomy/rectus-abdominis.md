@@ -1,6 +1,8 @@
 ---
 title: "Rectus Abdominis"
 latin: "Rectus Abdominis"
+tags:
+  - imagemap
 origin: 
   da: Et hoved fra hver side af nederste bageste del af lårbenet.
 insertion: 

@@ -1,15 +1,18 @@
 ---
-title: "Soleus"
+title: "Flyndermusklen"
 latin: "Soleus"
+tags:
+  - imagemap
 origin: 
-  da: Et hoved fra hver side af nederste bageste del af lårbenet.
+  da: Øverst på lægbenet og øverste 2/3 af skinnebenet bagpå.
 insertion: 
-  da: i akillessenen og fæster på hælbenet.
+  da: I akillessenen og fæster på hælbenet.
 function: 
   - short: Plantar flexes the foot.
     extended: This means that the soleus muscle extends the ankle such that the angle between the top of the foot and the lower leg increases (i.e. the action of rising up on your toes or the balls of your feet).
 exercises:
   - Stående calf-raise
+  - Siddende calf-raise
 image: http://www.shapesense.com/images/soleus.jpg
 image_focus: /assets/images/anatomy/focus-soleus.jpg
 coords:
