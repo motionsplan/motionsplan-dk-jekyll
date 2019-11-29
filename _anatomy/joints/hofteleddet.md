@@ -1,6 +1,9 @@
 ---
 title: "Hofteleddet"
 latin: ""
+header:
+  teaser: https://upload.wikimedia.org/wikipedia/commons/9/9b/Knochenmetastase_Mamma-Ca_Becken_02.jpg
+  overlay_image: https://upload.wikimedia.org/wikipedia/commons/9/9b/Knochenmetastase_Mamma-Ca_Becken_02.jpg
 type: Kugleled
 movements: 
   - title: Bøjning
@@ -26,8 +29,7 @@ movements:
     muscles:
       - Gluteus Minimus
       - Adductors
-image: http://www.shapesense.com/images/adductor-longus.jpg
-image_focus: /assets/images/anatomy/focus-adductor-longus.jpg
+image: https://www.orthonow.com/3d-images/Hip-Anatomy.jpg
 ---
 
 Hofteleddet er et kugleled, der er dannet af en ledskål på hoftebenet og et ledhoved på lårbensknoglen. Leddet er forstærket af kraftige ledbånd, der begrænser Stræknings- og Udadføringsbevægelser. Bøjning med bøjet knæ er normalt begrænset af lårets møde med maven. Med strakt knæ er det smidigheden af hasemusklerne der er begrænsende.

@@ -24,8 +24,9 @@ movements:
       - Den lige rygstrækker
       - Den ydre skrå bugmuskel
       - Den indre skrå bugmuskel
-image: http://www.shapesense.com/images/adductor-longus.jpg
-image_focus: /assets/images/anatomy/focus-adductor-longus.jpg
+image: http://rygsygdom.dk/images/6/69/Columnavertebralis.jpg
+header:
+  overlay_image: https://besimplywell.com/wp-content/uploads/2018/02/xray-back.jpg
 ---
 
 Udover halebenet og korsbenet består rygsøjlen af 24 hvirvler. Disse kan inddeles i: 7 halshvirvler, 12 brysthvirvler og 5 lændehvirvler.

@@ -51,8 +51,9 @@ movements_scapula:
   - title: Indadrotation
     muscles:
       - Rhombemusklen
-image: http://www.shapesense.com/images/adductor-longus.jpg
-image_focus: /assets/images/anatomy/focus-adductor-longus.jpg
+image: https://static1.squarespace.com/static/5bba6b9caf468381c6d11b6f/5d33107d18cbd7000113d73a/5dad8ba351bf6e19d66acec1/1571863756133/acromion-process.jpg?format=2500w
+header:
+  overlay_image: https://www.orthopaedicsone.com/download/attachments/34800936/Little+Leaguer%27s+Shoulder_AP.jpg
 ---
 
 Skulderens utroligt store bevægelsesfrihed skabes gennem flere forskellige led, som man tilsammen kalder for skulderbæltet. Dette består af leddene mellem henholdsvis: overarmsknoglen og skulderbladet, skulderbladet og brystkassen, kravebenet og skulderbladet og leddet mellem kravebenet og brystbenet.

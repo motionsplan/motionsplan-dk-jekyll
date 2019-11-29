@@ -17,8 +17,9 @@ movements:
   - title: Rotation - pronation
     muscles:
       - Underarmsmusklerne
-image: http://www.shapesense.com/images/adductor-longus.jpg
-image_focus: /assets/images/anatomy/focus-adductor-longus.jpg
+image: https://ars.els-cdn.com/content/image/1-s2.0-S0021929013003527-gr1.jpg
+header:
+  overlay_image: https://i1.wp.com/dontforgetthebubbles.com/wp-content/uploads/2013/11/image1.jpg
 ---
 
 ## Bevægelser

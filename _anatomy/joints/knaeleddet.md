@@ -10,8 +10,10 @@ movements:
   - title: Strækning
     muscles:
       - Quadriceps
-image: http://www.shapesense.com/images/adductor-longus.jpg
-image_focus: /assets/images/anatomy/focus-adductor-longus.jpg
+image: https://shop9156.hstatic.dk/upload_dir/pics/Menisk-01.jpg
+header:
+  teaser: https://www.students4bestevidence.net/app/uploads/2018/01/knee-2253047_1920.jpg
+  overlay_image: https://www.students4bestevidence.net/app/uploads/2018/01/knee-2253047_1920.jpg
 ---
 
 Knæleddet er kroppens største og mest komplicerede led. Dette er ikke mærkeligt når man tænker på de belastninger leddet udsættes for f.eks. under idrætsudfoldelse. Af samme grund opstår der ofte skader i dette led, og det er derfor vigtigt at kende til dets opbygning.
