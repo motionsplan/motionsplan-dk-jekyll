@@ -31,16 +31,5 @@ image_focus: /assets/images/anatomy/focus-adductor-longus.jpg
 ---
 
 Hofteleddet er et kugleled, der er dannet af en ledskål på hoftebenet og et ledhoved på lårbensknoglen. Leddet er forstærket af kraftige ledbånd, der begrænser Stræknings- og Udadføringsbevægelser. Bøjning med bøjet knæ er normalt begrænset af lårets møde med maven. Med strakt knæ er det smidigheden af hasemusklerne der er begrænsende.
-Bevægelser:
 
-Bøjning: Lænde-hoftebensmusklen, det lige hoved af Den firehovede knæstrækker.
-
-Strækning: Den store sædemuskel, Hasemusklerne (Den halvhindede, Den halvsenede og Den tohovede).
-
-Udadføring: Den mellemste sædemuskel, Den lille sædemuskel og Lårfasciens spænder.
-
-Indadføring: Indadførerne (Lange, Korte og Store).
-
-Udadrotation: Den store sædemuskel og en del mindre muskler, der sidder mellem den indre del af bækkenet og lårbenets yderside (bl.a piriformis).
-
-Indadrotation: Den lille sædemuskel og indadførerne.
+## Bevægelser
