@@ -1,5 +1,6 @@
 ---
 title: "Ryggen"
+excerpt: ""
 tags:
   - led
 latin: Adductor Longus
@@ -38,3 +39,10 @@ Den lige rygstrækker (Erector Spinae) er betegnelsen for den muskulatur, der l�
 ## Bevægelser
 
 De forskellige bevægelser foregår forskellige steder i rygsøjlen. Vi undlader her at omtale halsens bevægelser.
+
+{% for m in page.movements %}
+- **{{ m.title }}**.
+  {{ m.muscles | join: ", " }}
+{% endfor %}
+
+{% include figure image_path=page.image caption=page.title alt=page.title %}

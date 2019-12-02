@@ -61,7 +61,7 @@ $(document).ready(function() {
             class="{{ m.slug }}"
             onmouseover="document.muscles.src='{{ m.image_focus }}'" 
             onmouseout="document.muscles.src='/assets/images/anatomy/blank-muscle-anatomy.jpg'" 
-            href="#" alt="{{ m.title }}"/>
+            href="{{ m.url }}" alt="{{ m.title }}"/>
     {% endfor %}
 {% endfor %}
 	</map>

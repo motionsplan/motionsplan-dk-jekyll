@@ -1,11 +1,12 @@
 ---
 title: "Albueleddet"
+excerpt: ""
 latin: 
 tags:
   - led
 movements:
   - title: Bøjning
-    mucles:
+    muscles:
       - Biceps Brachii
       - Brachialis
   - title: Strækning
@@ -24,3 +25,9 @@ header:
 
 ## Bevægelser
 
+{% for m in page.movements %}
+- **{{ m.title }}**.
+  {{ m.muscles | join: ", " }}
+{% endfor %}
+
+{% include figure image_path=page.image caption=page.title alt=page.title %}

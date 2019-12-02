@@ -45,4 +45,13 @@ De tre grundelementer i bevægeapparatets anatomi er:
 
 Hvis man ved, hvordan musklerne sidder fast på knoglerne og hvilke bevægelser det enkelte led kan lave, så kan man analysere træningsøvelser.
 
+## Bevægelsesanalyse
+
+Når du laver en bevægelsesanalyse, så skal du:
+
+- Hvad er de involverede led?
+- Hvilke bevægelser foregår der i leddet? (bøjning, strækning, rotation)
+- Hvilke muskler arbejder i bevægelsen? (primære og sekundære)
+- Hvordan arbejder musklerne i bevægelsen? Hvad er den koncentriske og ekscentriske fase? Er der statisk arbejde i bevægelsen?
+
 {% include feature_row type="left" %}

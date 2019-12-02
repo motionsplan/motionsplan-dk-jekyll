@@ -1,5 +1,6 @@
 ---
-title: "Skulderleddet og -bladet"
+title: "Skulderleddet og -bladet (skulderbæltet)"
+excerpt: "Skulderens store bevægelsesfrihed skabes gennem flere led, som man tilsammen kalder for skulderbæltet."
 latin: Scapula
 tags:
   - led
@@ -57,6 +58,7 @@ header:
 ---
 
 Skulderens utroligt store bevægelsesfrihed skabes gennem flere forskellige led, som man tilsammen kalder for skulderbæltet. Dette består af leddene mellem henholdsvis: overarmsknoglen og skulderbladet, skulderbladet og brystkassen, kravebenet og skulderbladet og leddet mellem kravebenet og brystbenet.
+
 For at kunne forstå skulderens bevægelser er det imidlertid kun nødvendigt at se på to dele, nemlig det egentlige skulderled (mellem overarmsknoglen og skulderbladet) og selve skulderbladets bevægelser. De fleste store bevægelser med armen vil være en kombination af bevægelser i begge disse “led”.
 
 ## Skulderleddet
@@ -65,10 +67,22 @@ Det egentlige skulderled består af et kugleled mellem overarmsknoglen og skulde
 
 ### Bevægelser i skulderleddet
 
+{% for m in page.movements %}
+- **{{ m.title }}**.
+  {{ m.muscles | join: ", " }}
+{% endfor %}
+
 ## Skulderbladet
 
 Skulderbladets bevægelser er som før nævnt en vigtig del af hele skulderens bevægelser. Kontakten mellem skulderbladet og bagsiden af brystkassen kan betragtes som et stort glideled.
 
+{% for m in page.movements_scapula %}
+- **{{ m.title }}**.
+  {{ m.muscles | join: ", " }}
+{% endfor %}
+
 ### Bevægelser i skulderbladet
 
 {% include video provider="youtube" id="PPKlGlwxr5s" %}
+
+{% include figure image_path=page.image caption=page.title alt=page.title %}

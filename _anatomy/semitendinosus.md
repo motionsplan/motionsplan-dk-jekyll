@@ -1,8 +1,10 @@
 ---
-title: "Semitendinosus"
+title: "Halvtrinde knæbøjer"
 latin: "Semitendinosus"
 tags:
   - imagemap
+  - fitnessinstruktør
+  - muskel
 origin: 
   da: Et hoved fra hver side af nederste bageste del af lårbenet.
 insertion: 
@@ -14,7 +16,7 @@ function:
     extended: This means that the semitendinosus muscle straightens the hip joint such that there is an increase in the angle between the upper leg and the torso.
 exercises:
   - Stående calf-raise
-image: http://www.shapesense.com/images/semitendinosus.jpg
+image: /assets/images/anatomy/semitendinosus.jpg
 image_focus: /assets/images/anatomy/focus-semitendinosus.jpg
 coords:
   - "434,283,429,299,429,310,426,326,424,339,428,358,430,355,429,343,434,324,437,314,439,296"
@@ -22,3 +24,19 @@ coords:
 ---
 
 "hamstrings" - the semitendinosus muscle forms part of the hamstrings muscle group, along with semimembranosus and biceps femoris.
+
+_{{ page.latin }}_
+
+- **Udspring**: {{ page.origin.da }}
+- **Hæfte**: {{ page.insertion.da }}
+
+{% include figure image_path=page.image alt=page.title caption=page.title %}
+
+## Funktion
+
+{% for f in page.function %}
+- **{{ f.short }}**.
+  {{ f.extended | markdownify }}
+{% endfor %}
+
+{% include figure image_path=page.image_focus alt=page.title caption=page.title %}

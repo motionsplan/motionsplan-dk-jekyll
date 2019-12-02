@@ -109,8 +109,7 @@ Bevægelser kan foregå i tre forskellige planer.
 
 ## Kroppens led
 
-{% assign pages = site.anatomy | where: "tags", "led" %}
-{% for p in pages %}
-- **[{{ p.title }}]({{ p.url }})**.
-  {{ p.excerpt | markdownify }}
+{% assign joints = site.anatomy | where: "tags", "led" %}
+{% for j in joints %}
+- **[{{ j.title }}]({{ j.url }})**.
 {% endfor %}

@@ -1,12 +1,14 @@
 ---
-title: "Gluteus Medius"
+title: "Den mellemste sædemuskel"
 latin: "Gluteus Medius"
 tags:
   - imagemap
+  - fitnessinstruktør
+  - muskel
 origin: 
-  da: Et hoved fra hver side af nederste bageste del af lårbenet.
+  da: Yderst på øverste kant af hoftebenet
 insertion: 
-  da: i akillessenen og fæster på hælbenet.
+  da: Øverst på bagsiden af låret
 function: 
   - short: Abducts the leg at the hip.
     extended: This means that the gluteus medius muscle moves the upper leg outward to the side away from the vertical midline of the body (i.e. the action of spreading your legs to the side).
@@ -22,9 +24,25 @@ function:
     extended: This means that the gluteus medius muscle keeps the pelvis level when the leg on the opposite side of the body lifts off the ground during walking.
 exercises:
   - Stående calf-raise
-image: http://www.shapesense.com/images/gluteus-medius.jpg
+image: /assets/images/anatomy/gluteus-medius.jpg
 image_focus: /assets/images/anatomy/focus-gluteus-medius.jpg
 coords:
   - "422,216,435,216,443,219,428,224,417,234"
   - "497,235,491,215,481,216,471,218,486,224"
 ---
+
+_{{ page.latin }}_
+
+- **Udspring**: {{ page.origin.da }}
+- **Hæfte**: {{ page.insertion.da }}
+
+{% include figure image_path=page.image alt=page.title caption=page.title %}
+
+## Funktion
+
+{% for f in page.function %}
+- **{{ f.short }}**.
+  {{ f.extended | markdownify }}
+{% endfor %}
+
+{% include figure image_path=page.image_focus alt=page.title caption=page.title %}

@@ -1,5 +1,6 @@
 ---
 title: "Ankel- og fodleddet"
+excpert: ""
 latin: 
 tags:
   - led
@@ -19,6 +20,11 @@ Ankelleddet er et hængselled. Skinneben og lægben danner nedadtil en gaffelfor
 
 ## Bevægelser i ankelleddet
 
+{% for m in page.movements %}
+- **{{ m.title }}**.
+  {{ m.muscles | join: ", " }}
+{% endfor %}
+
 ## Fodleddet
 
 I de øvrige fodrodsknogler kan der foregå andre bevægelser. Vigtigst er pronations/supinationsbevægelsen. Når man vrikker om i ankelleddet svarer det til, at man har lavet for kraftig supination.
@@ -27,3 +33,5 @@ Fodens evne til at være støddæmper skabes bl.a ved den såkaldte fodhvælving
 
 Bemærk at anatomisk sprogbrug er anderledes end daglig tale. Det man normalt kalder for en strækning af fodleddet (strækning af vristen) hedder på anatomisprog en bøjning (plantarfleksion) – beklager!
 {: .notice .notice--danger }
+
+{% include figure image_path=page.image caption=page.title alt=page.title %}

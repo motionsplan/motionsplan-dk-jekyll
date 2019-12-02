@@ -1,8 +1,10 @@
 ---
-title: "Biceps Femoris"
+title: "Den tohovedede knæbøjer"
 latin: Biceps Femoris
 tags:
   - imagemap
+  - fitnessinstruktør
+  - muskel
 origin: 
   da: Et hoved fra hver side af nederste bageste del af lårbenet.
 insertion: 
@@ -14,7 +16,7 @@ function:
     extended: This means that the biceps femoris muscle straightens the hip joint such that there is an increase in the angle between the upper leg and the torso.
 exercises:
   - Stående calf-raise
-image: http://www.shapesense.com/images/biceps-femoris.jpg
+image: /assets/images/anatomy/biceps-femoris.jpg
 image_focus: /assets/images/anatomy/focus-biceps-femoris.jpg
 coords:
   - "429,285,421,284,414,305,410,328,409,343,417,345,422,328,425,305"
@@ -22,3 +24,19 @@ coords:
 ---
 
 "hamstrings" - the biceps femoris muscle forms part of the hamstrings muscle group, along with semimembranosus and semitendinosus.
+
+_{{ page.latin }}_
+
+- **Udspring**: {{ page.origin.da }}
+- **Hæfte**: {{ page.insertion.da }}
+
+{% include figure image_path=page.image alt=page.title caption=page.title %}
+
+## Funktion
+
+{% for f in page.function %}
+- **{{ f.short }}**.
+  {{ f.extended | markdownify }}
+{% endfor %}
+
+{% include figure image_path=page.image_focus alt=page.title caption=page.title %}

@@ -3,6 +3,7 @@ title: "Adductor Magnus"
 latin: Adductor Magnus
 tags:
   - imagemap
+  - muskel
 origin: 
   da: Et hoved fra hver side af nederste bageste del af lårbenet.
 insertion: 
@@ -16,9 +17,25 @@ function:
     extended: This means that the adductor magnus muscle can possibly rotate the upper leg inward around the axis of the bone (i.e. rotate the upper leg toward the vertical midline of the body).
 exercises:
   - Stående calf-raise
-image: http://www.shapesense.com/images/adductor-magnus.jpg
+image: /assets/images/anatomy/adductor-magnus.jpg
 image_focus: /assets/images/anatomy/focus-adductor-magnus.jpg
 coords:
   - "453,276,448,282,439,286,443,298,442,323,451,296"
   - "473,285,461,277,462,293,471,320,470,297"
 ---
+
+_{{ page.latin }}_
+
+- **Udspring**: {{ page.origin.da }}
+- **Hæfte**: {{ page.insertion.da }}
+
+{% include figure image_path=page.image alt=page.title caption=page.title %}
+
+## Funktion
+
+{% for f in page.function %}
+- **{{ f.short }}**.
+  {{ f.extended | markdownify }}
+{% endfor %}
+
+{% include figure image_path=page.image_focus alt=page.title caption=page.title %}

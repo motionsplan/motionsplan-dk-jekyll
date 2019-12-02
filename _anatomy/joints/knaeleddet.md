@@ -1,5 +1,6 @@
 ---
 title: "Knæleddet"
+excerpt: ""
 latin:
 tags:
   - led
@@ -27,3 +28,10 @@ Inde i ledhulen findes også korsbåndene. Disse sørger primært for at underbe
 Ledkapslen er forstærket af stærke sideledbånd, der imidlertid bliver løsere når knæet bøjes. Kort sagt kan man sige at jo mere knæet er flekteret, jo større belastning udsættes leddet for og jo mere ustabilt bliver det. Man bør derfor undgå langvarige eller store belastninger med en knævinkel der er dybere end 90 grader.
 
 ## Bevægelser
+
+{% for m in page.movements %}
+- **{{ m.title }}**.
+  {{ m.muscles | join: ", " }}
+{% endfor %}
+
+{% include figure image_path=page.image caption=page.title alt=page.title %}
