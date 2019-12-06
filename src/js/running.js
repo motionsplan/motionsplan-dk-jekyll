@@ -13,7 +13,7 @@ motionsplan.Running = function() {
         return (km * 1000) / l;
     }
 
-    function getMilometersPrHour(m, s, km) {
+    function getKilometersPrHour(m, s, km) {
         return (km / s + m * 60) / (60 * 60); // (m * 60 + s) / (60*60)
     }
 
@@ -41,7 +41,9 @@ motionsplan.Running = function() {
     }
 
     var publicAPI = {
-        getEstimatedFitnessLevel: getEstimatedFitnessLevel
+        getEstimatedFitnessLevel: getEstimatedFitnessLevel,
+        getKilometersPrHour : getKilometersPrHour,
+        getTimePrKilometer : getTimePrKilometer
     };
 
     return publicAPI;

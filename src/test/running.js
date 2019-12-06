@@ -9,4 +9,18 @@ describe('RunningTest', function() {
       assert.equal(r.getEstimatedFitnessLevel(60, 0, 10), 46.6);
     });
   });
+  describe('getKilometersPrHour', function() {
+    it('should return the correct number', function() {
+      var r = motionsplan.Running();
+      // m2, s2, km
+      assert.equal(r.getKilometersPrHour(4, 0, 3), 12);
+    });
+  });
+  describe('getTimePrKilometer', function() {
+    it('should return the correct number', function() {
+      var r = motionsplan.Running();
+      // m2, s2, km
+      assert.equal(r.getTimePrKilometer(12, 0, 3), "4:00");
+    });
+  });
 });
