@@ -13,7 +13,7 @@ describe('RunningTest', function() {
     it('should return the correct number', function() {
       var r = motionsplan.Running();
       // m2, s2, km
-      assert.equal(r.getKilometersPrHour(4, 0, 3), 12);
+      assert.equal(r.getKilometersPrHour(12, 0, 3), 15);
     });
   });
   describe('getTimePrKilometer', function() {

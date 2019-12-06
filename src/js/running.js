@@ -14,7 +14,10 @@ motionsplan.Running = function() {
     }
 
     function getKilometersPrHour(m, s, km) {
-        return (km / s + m * 60) / (60 * 60); // (m * 60 + s) / (60*60)
+        // return (km / (s + (m * 60)) * (60 * 60)); // (m * 60 + s) / (60*60)
+        s = s / (60 * 60);
+        m = m / 60;
+        return (km / (s + m));
     }
 
     function getTimePrKilometer(m, s, km) {
