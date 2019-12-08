@@ -13,6 +13,11 @@ tags:
   - anaerob
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
+quiz:
+  - front: "Hvor lang tid tager Wingate-testen?" 
+    back: "30 sekunder"
+  - front: "Hvad tester Wingate-testen?"
+    back: "Anaerobe kapacitet og power"
 ---
 
 *[PPO]: Peak Power Output (watt)
@@ -42,6 +47,10 @@ Hvis du har adgang til en Wattbike, så er der forprogrammeret en 30 sekunders _
 Her kan du umiddelbart aflæse alle værdierne undtagen "Anaerobic Capacity". Den kan du imidlertid hurtigt regne ud ved at tage "Power avg." og gange den med 6 eller lægge de 6 5-sekunders intervaller sammen.
 
 [Wattbike 30 Second Test](https://support.wattbike.com/hc/da/articles/115002920669-The-30-Second-Test){: .btn .btn--large .btn--info }
+
+## Quiz
+
+{% include flipcard id="quiz" %}
 
 ## Referencer
 
