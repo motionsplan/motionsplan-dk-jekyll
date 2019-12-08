@@ -76,10 +76,11 @@ form.calculator {
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
+  font-family: $calisto;
   background-color: transparent;
   width: 300px;
   height: 300px;
-  border: 1px solid #f1f1f1;
+  border: 1px solid #ccc;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
   float: left;
   margin-right: 0.5em;
@@ -107,17 +108,21 @@ form.calculator {
   height: 100%;
   backface-visibility: hidden;
   padding: 1em;
+  display: flex;
+  justify-content: center;
 }
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background-color: rgb(200,107,107);
+  background-color: $info-color;
   color: white;
+  border: 5px solid #34557A;
 }
 
 /* Style the back side */
 .flip-card-back {
-  background-color: dodgerblue;
+  background-color: #34557A;
   color: white;
   transform: rotateY(180deg);
+  border: 5px solid $info-color;
 }

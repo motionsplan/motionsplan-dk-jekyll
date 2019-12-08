@@ -35,8 +35,8 @@ Testen er meget tidseffektiv, fordi den normalt kun køres en gang.
 
 - Peak Power Output (watt) (PPO) - Den højeste kraft som gerne skulle måles i løbet af de første 5 sekunder.
 - Relative Peak Power Output (watt/kg) (RPP) - PPO relativt ift. kropsvægt.
-- Anaerobic fatigue / fatigue index (%) (AF) - Det procentvise fald mellem første 5 sekunder og sidste 5 sekunder.
-- Anaerobic Capacity (watt/30 sek) (AC) - Det samlede arbejde - summen af hver af fem sekunders målingerne (PPO).
+- Anaerobic fatigue / fatigue index (%) (AF) - Det procentvise fald mellem de første 5 sekunder og de sidste 5 sekunder.
+- Anaerobic Capacity (watt/30 sek) (AC) - Det samlede arbejde som er summen af alle fem sekunders-målingerne (PPO).
 
 ## Testen på Wattbikes
 
@@ -44,9 +44,9 @@ Hvis du har adgang til en Wattbike, så er der forprogrammeret en 30 sekunders _
 
 {% include figure image_path="/assets/images/tests/wattbike-wingate.png" caption="Screen from Wattbike 30 sek Sprint Test" alt="Screen from Wattbike 30 sek Sprint Test" %}
 
-Her kan du umiddelbart aflæse alle værdierne undtagen "Anaerobic Capacity". Den kan du imidlertid hurtigt regne ud ved at tage "Power avg." og gange den med 6 eller lægge de 6 5-sekunders intervaller sammen.
+Her kan du umiddelbart aflæse alle værdierne undtagen "Anaerobic Capacity". "Anaerobic Capacity" kan du imidlertid hurtigt regne ud ved at tage "Power avg." og gange den med 6 eller lægge de seks 5-sekunders intervaller sammen.
 
-[Wattbike 30 Second Test](https://support.wattbike.com/hc/da/articles/115002920669-The-30-Second-Test){: .btn .btn--large .btn--info }
+[Wattbike 30 Second Test](https://support.wattbike.com/hc/da/articles/115002920669-The-30-Second-Test){: .btn .btn--large .btn--warning }
 
 ## Quiz
 

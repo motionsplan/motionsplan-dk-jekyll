@@ -22,8 +22,8 @@ Når jeg træner løb eller cykling, vil jeg typisk gerne kende den hastighed, j
 
 Typisk kan man i angive hastigheden på to forskellige måder:
 
-- **km/t**. Den hastighed kender man også fra sit spedometer i bilen, så den er let at forholde sig til. Typisk er det også den man kan indstille på et løbebånd. Jeg synes den er lidt vanskeligere at bruge, når man er ude på en løbetur.
-- **min/km**. På løbeture synes jeg det er lettere at forholde sig til, hvor mange minutter man bruger for at løbe en kilometer. Det er let at forholde sig til - særligt hvis man kender den distance, man løber.
+- **km/t**. Den hastighed kender du fra sit spedometer i bilen, så den er let at forholde sig til. Typisk er det også den hastighed, man kan indstille på et løbebånd. Jeg synes, at den er lidt vanskeligere at bruge, når man er ude på en løbetur.
+- **min/km**. På løbeture foretrækker jeg at forholde mig til, hvor mange minutter jeg bruger for at løbe en kilometer. Det er let at forholde sig til - særligt hvis man kender den distance, man løber.
 
 ## Udregn din hastighed fra distance og tid
 
