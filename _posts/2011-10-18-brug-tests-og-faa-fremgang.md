@@ -9,7 +9,7 @@ tags:
   - styrketræning
 category:
   - Styrketræning
-last_modified_at: 2013-02-13T21:38:12Z
+last_modified_at: 2019-11-24T21:38:12Z
 feature_row:
   - image_path: https://imgcdn.saxo.com/_9788799095872/0x500
     title: &book_title "Fitness testning - fysisk testning og sundhedstestning i fitnesscentre, skole og hjem"
@@ -31,7 +31,7 @@ feature_row:
 
 Der er rigtig mange måder at styrketræne på, men fælles for dem alle er, at hensigten er at blive stærkere. For at få fremgang skal man naturligvis træne, men der skal også være progression i træningen. Du kan bruge tests til at sikre dig, at din træning rent faktisk virker.
 
-## Hvordan kan jeg sikre progressionen?
+## Hvordan kan jeg sikre progression?
 
 Du bliver bedre til det du træner. Hvis du har lavet et program, hvor du har besluttet dig for en bestemt vægt, bliver det altså lettere, når du har trænet et stykke tid. Progression kan man sikre sig på flere måder.
 
@@ -46,9 +46,9 @@ Testen går således ud på, at du skal finde en vægt, du kan løfte 1 - 10 gan
 
 **Eksempel.** Jeg vil teste min maksimale styrke i bænkpres. Først laver jeg et par opvarmningssæt med let vægt og middelhøj vægt. Så sætter jeg 80 kg på, og det forventer jeg, at jeg kan løfte 4 gange. Jeg prøver, og det viser sig, at jeg kan løfte vægten 3 gange. Min 3RM er altså 80 kg.
 
-**Udregning af 1RM.** Når jeg ved det, kan jeg bruge en af de udregnere der findes rundt omkring på nettet. Vi kan godt lide udregneren fra exrx.net, som du kan finde på: [www.exrx.net/Calculators/OneRepMax.html](http://www.exrx.net/Calculators/OneRepMax.html). Jeg taster mine tal ind, og finder ud af, at min 1RM er 85 kg.
+**Udregning af 1RM.** Når jeg ved det, kan jeg bruge en af de udregnere der findes rundt omkring på nettet. Vi har lavet vores egen beregner [1 RM Beregner](/rm-beregner/). Jeg taster mine tal ind, og finder ud af, at min 1RM er 85 kg.
 
-Du kan [læse mere om 1RM hos motion-online.dk](http://www.motion-online.dk/styrketraening/artikler/rm-beregner_-_teoretisk_baggrund/), hvor de også har en [1RM beregner, som tager højde for køn og træningstilstand](http://www.motion-online.dk/styrketraening/artikler/rm-beregner/).
+Du kan [læse mere om 1RM](/rm-beregner/).
 
 ## Hvad gør du for at sikre progression i træningen?
 

@@ -15,8 +15,10 @@ const wilks = require('wilks-calculator');
 const karvonen = require('./karvonen');
 const index23 = require('./fitness-index-23');
 const running = require('./running');
+require('image-map-resizer');
 
 $(document).ready(function() {
+    $('map').imageMapResize();
 
     $("#calculator_rm").ready(function() {
         $(".motiononline").hide();
@@ -635,4 +637,148 @@ $(document).ready(function() {
         if (this.min) this.value = Math.max(parseInt(this.min), parseInt(this.value));
         if (this.max) this.value = Math.min(parseInt(this.max), parseInt(this.value));
     });
+ 
+    $(".adductor-longus").hover(function () {
+    	$(".adductor-longus").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".adductor-magnus").hover(function () {
+    	$(".adductor-magnus").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".anconeus").hover(function () {
+    	$(".anconeus").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".biceps-brachii").hover(function () {
+    	$(".biceps-brachii").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".biceps-femoris").hover(function () {
+    	$(".biceps-femoris").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".brachioradialis").hover(function () {
+    	$(".brachioradialis").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".deltoideus").hover(function () {
+    	$(".deltoideus").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".extensor-carpi-radialis-longus").hover(function () {
+    	$(".extensor-carpi-radialis-longus").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".extensor-carpi-ulnaris").hover(function () {
+    	$(".extensor-carpi-ulnaris").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".extensor-digitori-minimi").hover(function () {
+    	$(".extensor-digitori-minimi").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".extensor-digitorum").hover(function () {
+    	$(".extensor-digitorum").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".external-oblique").hover(function () {
+    	$(".external-oblique").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".flexor-carpi-radialis").hover(function () {
+    	$(".flexor-carpi-radialis").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".flexor-carpi-ulnaris").hover(function () {
+    	$(".flexor-carpi-ulnaris").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".gastrocnemius").hover(function () {
+    	$(".gastrocnemius").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".gluteus-maximus").hover(function () {
+    	$(".gluteus-maximus").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".gluteus-medius").hover(function () {
+    	$(".gluteus-medius").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".gracilis").hover(function () {
+    	$(".gracilis").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".infraspinatus").hover(function () {
+    	$(".infraspinatus").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".internal-oblique").hover(function () {
+    	$(".internal-oblique").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".latissimus-dorsi").hover(function () {
+    	$(".latissimus-dorsi").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".pectineus").hover(function () {
+    	$(".pectineus").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".pectoralis-major").hover(function () {
+    	$(".pectoralis-major").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".rectus-abdominis").hover(function () {
+    	$(".rectus-abdominis").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".rectus-femoris").hover(function () {
+    	$(".rectus-femoris").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".sartorius").hover(function () {
+    	$(".sartorius").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".semimembranosus").hover(function () {
+    	$(".semimembranosus").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".semitendinosus").hover(function () {
+    	$(".semitendinosus").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".serratus-anterior").hover(function () {
+    	$(".serratus-anterior").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".soleus").hover(function () {
+    	$(".soleus").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".teres-major").hover(function () {
+    	$(".teres-major").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".tibialis-anterior").hover(function () {
+    	$(".tibialis-anterior").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".trapezius").hover(function () {
+    	$(".trapezius").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".triceps-brachii").hover(function () {
+    	$(".triceps-brachii").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".vastus-lateralis").hover(function () {
+    	$(".vastus-lateralis").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".vastus-medialis").hover(function () {
+    	$(".vastus-medialis").toggleClass("anatomy-popup-on");
+	});
 });

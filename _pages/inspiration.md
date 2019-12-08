@@ -14,7 +14,7 @@ feature_row:
     btn_class: "btn--success"
 ---
 
-På [Saxo\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264) kan du finde masser af inspiration investering og finansiel uafhængighed. Her kommer nogle af mine favoritter. Jeg forsøger at læse mindst en time dagligt om emner, der intereserer mig.
+På [Saxo\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264) kan du finde masser af inspiration til træning og sundhed. Her kommer nogle af mine favoritter. Jeg forsøger at læse mindst en time dagligt om emner, der intereserer mig.
 
 {% include feature_row type="left" %}
 

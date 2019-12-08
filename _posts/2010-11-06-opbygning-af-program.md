@@ -68,14 +68,14 @@ Du kan organisere styrketræningen på mange måder. Enten kan du køre sættene
 
 ## Checkliste for opbygning af træningsprogrammer
 
-[ ] Opfylder programmet målet?
-[ ] Er der muskelbalance i programmet (knædomineret, hoftedomineret, bagkæde, træk, skub, unilaterale bevægelser, core, bevægelsesplaner)
-[ ] Rækkefølgen i programmet
-[ ] Reps pr. kropsdel og bevægelse (fx Prilepins tabel for vægtløftere og styrke - ellers mellem 40 - 70 reps pr. kropsdel)
-[ ] Intensitet i de enkelte sæt - 1-15 reps alt efter mål ift. power, styrke og hypertrofi.
-[ ] Frekvens pr. kropsdel pr. uge? (2-3x om ugen)
-[ ] Progressionen i programmet?
-[ ] Hvordan logger du træningen?
-[ ] Er programmet blevet unødvendigt kompliceret?
+- [ ] Opfylder programmet målet?
+- [ ] Er der muskelbalance i programmet (knædomineret, hoftedomineret, bagkæde, træk, skub, unilaterale bevægelser, core, bevægelsesplaner)
+- [ ] Rækkefølgen i programmet
+- [ ] Reps pr. kropsdel og bevægelse (fx Prilepins tabel for vægtløftere og styrke - ellers mellem 40 - 70 reps pr. kropsdel)
+- [ ] Intensitet i de enkelte sæt - 1-15 reps alt efter mål ift. power, styrke og hypertrofi.
+- [ ] Frekvens pr. kropsdel pr. uge? (2-3x om ugen)
+- [ ] Progressionen i programmet?
+- [ ] Hvordan logger du træningen?
+- [ ] Er programmet blevet unødvendigt kompliceret?
 
 Hvad tænker du på, når du laver dine programmer?

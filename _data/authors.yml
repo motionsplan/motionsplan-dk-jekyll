@@ -48,7 +48,7 @@ martin.madsen:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://www.vih.dk/"
-martin.madsen:
+linda.kruse:
   name             : "Linda Kruse"
   avatar           : "/assets/images/authors/lindakruse.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Linda Kruse er bachelor i Idræt og Sundhed fra Syddansk Universitet. Hun arbejder som bevægelseskonsulent og projektleder i sundhedsafdelingen i Vejle Kommune - og driver Kroptimal."
