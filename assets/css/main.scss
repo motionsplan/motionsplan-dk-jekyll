@@ -80,10 +80,11 @@ form.calculator {
   background-color: transparent;
   width: 300px;
   height: 300px;
-  border: 1px solid #ccc;
+  border: 1px solid $lighter-gray;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
   float: left;
   margin-right: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 /* This container is needed to position the front and back side */
@@ -109,6 +110,7 @@ form.calculator {
   backface-visibility: hidden;
   padding: 1em;
   display: flex;
+  align-items: center;
   justify-content: center;
 }
 
@@ -116,7 +118,7 @@ form.calculator {
 .flip-card-front {
   background-color: $info-color;
   color: white;
-  border: 5px solid #34557A;
+  border: 10px solid $lighter-gray;
 }
 
 /* Style the back side */
@@ -124,5 +126,5 @@ form.calculator {
   background-color: #34557A;
   color: white;
   transform: rotateY(180deg);
-  border: 5px solid $info-color;
+  border: 10px solid $lighter-gray;
 }
