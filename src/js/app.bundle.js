@@ -607,7 +607,44 @@ $(document).ready(function() {
         
         return false;
     });
-     // Calculate Cooper 12 min
+    $("#calculator_velocity").submit(function() {
+        console.log("Calculate velocity");
+
+        var min = Number($("[name='min']").val());
+        var sec = Number($("[name='sec']").val());
+        var distance = Number($("[name='distance']").val());
+
+        var c = running.Running();
+
+        $("#velocity_kmt").val(c.getKilometersPrHour(min, sec, distance));
+        $("#velocity_min_km").val(c.getTimePrKilometer(min, sec, distance));
+        
+        return false;
+    });
+    $("#calculator_convert_kmt_minkm_velocity").submit(function() {
+        console.log("Calculate velocity");
+
+        var kmt = Number($("[name='kmt']").val());
+
+        var c = running.Running();
+
+        $("#velocity_convert_minkm").val(c.convertKmtToMinPerKm(kmt));
+
+        return false;
+    });
+    $("#calculator_convert_minkm_kmt_velocity").submit(function() {
+        console.log("Calculate velocity");
+
+        var min = Number($("[name='min']").val());
+        var sec = Number($("[name='sec']").val());
+
+        var c = running.Running();
+
+        $("#velocity_convert_kmt").val(c.convertMinPerKmToKmt(min, sec));
+
+        return false;
+    });
+    // Calculate Cooper 12 min
     $("#calculator_cooper_2400_test").submit(function() {
         console.log("Calculate CooperTest 2400");
 

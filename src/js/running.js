@@ -33,7 +33,20 @@ motionsplan.Running = function() {
         else {
             return minPrKm.toFixed(0) + ":" + rest.toFixed(0);
         }
+    }
 
+    function convertMinPerKmToKmt(min, sec) {
+        return 60/(min*1+(sec/60));
+    }
+
+    function convertKmtToMinPerKm(kmt) {
+        var min = 60 / kmt;
+        var min_out = Math.floor(min);
+        var sec_out = Math.round((min - Math.floor(min)) * 60);
+        if (sec_out < 10) {
+            sec_out='0'+sec_out;
+        }
+        return (min_out + ":" + sec_out);
     }
 
     // Based on https://www.researchgate.net/profile/Luc_Leger/publication/19712663_New_approaches_to_predict_VO2max_and_endurance_from_running_performances_The_Journal_of_sports_medicine_and_physical_fitness_27_4_401-409_1988/links/54f5fa880cf27d8ed71d235f/New-approaches-to-predict-VO2max-and-endurance-from-running-performances-The-Journal-of-sports-medicine-and-physical-fitness-27-4-401-409-1988.pdf
@@ -46,7 +59,9 @@ motionsplan.Running = function() {
     var publicAPI = {
         getEstimatedFitnessLevel: getEstimatedFitnessLevel,
         getKilometersPrHour : getKilometersPrHour,
-        getTimePrKilometer : getTimePrKilometer
+        getTimePrKilometer : getTimePrKilometer,
+        convertKmtToMinPerKm : convertKmtToMinPerKm,
+        convertMinPerKmToKmt : convertMinPerKmToKmt
     };
 
     return publicAPI;
