@@ -48,6 +48,32 @@ form.calculator {
     }    
 }
 
+#anatomy_muscle {
+    position: relative;
+    width: 100%;
+
+    .anatomy-popup {
+        display: none;
+    }
+
+    .anatomy-popup-on {
+	    display: block !important;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+        background-color: #333;
+        padding: 0.5em 1em;
+        color: #fff;
+    
+        h3, p {
+            font-size: 0.7em;
+            margin: 0;
+            text-align: center;
+        }
+    }
+}
+
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
   background-color: transparent;

@@ -1,0 +1,77 @@
+<script>
+if (document.images) {
+	mouseout  = new Image(); mouseout.src = '/assets/images/anatomy/blank-muscle-anatomy.jpg';
+	deltoidmouseover = new Image(); deltoidmouseover.src = '/assets/images/anatomy/focus-deltoid.jpg';
+	bicepsbrachiimouseover = new Image(); bicepsbrachiimouseover.src = '/assets/images/anatomy/focus-biceps-brachii.jpg';
+	pectoralismajormouseover = new Image(); pectoralismajormouseover.src = '/assets/images/anatomy/focus-pectoralis-major.jpg';
+	latissimusdorsimouseover = new Image(); latissimusdorsimouseover.src = '/assets/images/anatomy/focus-latissimus-dorsi.jpg';
+	trapeziusmouseover = new Image(); trapeziusmouseover.src = '/assets/images/anatomy/focus-trapezius.jpg';
+	tricepsbrachiimouseover = new Image(); tricepsbrachiimouseover.src = '/assets/images/anatomy/focus-triceps-brachii.jpg';
+	teresmajormouseover = new Image(); teresmajormouseover.src = '/assets/images/anatomy/focus-teres-major.jpg';
+	infraspinatusmouseover = new Image(); infraspinatusmouseover.src = '/assets/images/anatomy/focus-infraspinatus.jpg';
+	flexorcarpiulnarismouseover = new Image(); flexorcarpiulnarismouseover.src = '/assets/images/anatomy/focus-flexor-carpi-ulnaris.jpg';
+	flexorcarpiradialismouseover = new Image(); flexorcarpiradialismouseover.src = '/assets/images/anatomy/focus-flexor-carpi-radialis.jpg';
+	brachioradialismouseover = new Image(); brachioradialismouseover.src = '/assets/images/anatomy/focus-brachioradialis.jpg';
+	extensorcarpiulnarismouseover = new Image(); extensorcarpiulnarismouseover.src = '/assets/images/anatomy/focus-extensor-carpi-ulnaris.jpg';
+	extensordigitiminimimouseover = new Image(); extensordigitiminimimouseover.src = '/assets/images/anatomy/focus-extensor-digiti-minimi.jpg';
+	extensordigitorummouseover = new Image(); extensordigitorummouseover.src = '/assets/images/anatomy/focus-extensor-digitorum.jpg';
+	extensorcarpiradialislongusmouseover = new Image(); extensorcarpiradialislongusmouseover.src = '/assets/images/anatomy/focus-extensor-carpi-radialis-longus.jpg';
+	anconeusmouseover = new Image(); anconeusmouseover.src = '/assets/images/anatomy/focus-anconeus.jpg';
+	serratusanteriormouseover = new Image(); serratusanteriormouseover.src = '/assets/images/anatomy/focus-serratus-anterior.jpg';
+	rectusabdominismouseover = new Image(); rectusabdominismouseover.src = '/assets/images/anatomy/focus-rectus-abdominis.jpg';
+	externalobliquemouseover = new Image(); externalobliquemouseover.src = '/assets/images/anatomy/focus-external-oblique.jpg';
+	internalobliquemouseover = new Image(); internalobliquemouseover.src = '/assets/images/anatomy/focus-internal-oblique.jpg';
+	rectusfemorismouseover = new Image(); rectusfemorismouseover.src = '/assets/images/anatomy/focus-rectus-femoris.jpg';
+	pectineusmouseover = new Image(); pectineusmouseover.src = '/assets/images/anatomy/focus-pectineus.jpg';
+	gracilismouseover = new Image(); gracilismouseover.src = '/assets/images/anatomy/focus-gracilis.jpg';
+	semitendinosusmouseover = new Image(); semitendinosusmouseover.src = '/assets/images/anatomy/focus-semitendinosus.jpg';
+	gluteusmediusmouseover = new Image(); gluteusmediusmouseover.src = '/assets/images/anatomy/focus-gluteus-medius.jpg';
+	gluteusmaximusmouseover = new Image(); gluteusmaximusmouseover.src = '/assets/images/anatomy/focus-gluteus-maximus.jpg';
+	bicepsfemorismouseover = new Image(); bicepsfemorismouseover.src = '/assets/images/anatomy/focus-biceps-femoris.jpg';
+	semimembranosusmouseover = new Image(); semimembranosusmouseover.src = '/assets/images/anatomy/focus-semimembranosus.jpg';
+	vastuslateralismouseover = new Image(); vastuslateralismouseover.src = '/assets/images/anatomy/focus-vastus-lateralis.jpg';
+	soleusmouseover = new Image(); soleusmouseover.src = '/assets/images/anatomy/focus-soleus.jpg';
+	sartoriusmouseover = new Image(); sartoriusmouseover.src = '/assets/images/anatomy/focus-sartorius.jpg';
+	adductorlongusmouseover = new Image(); adductorlongusmouseover.src = '/assets/images/anatomy/focus-adductor-longus.jpg';
+	vastusmedialismouseover = new Image(); vastusmedialismouseover.src = '/assets/images/anatomy/focus-vastus-medialis.jpg';
+	gastrocnemiusmouseover = new Image(); gastrocnemiusmouseover.src = '/assets/images/anatomy/focus-gastrocnemius.jpg';
+	adductormagnusmouseover = new Image(); adductormagnusmouseover.src = '/assets/images/anatomy/focus-adductor-magnus.jpg';
+	tibialisanteriormouseover = new Image(); tibialisanteriormouseover.src = '/assets/images/anatomy/focus-tibialis-anterior.jpg';
+}
+
+/* The generated code here is moved to bundle.app.js
+$(document).ready(function() {
+    {% for m in site.anatomy %}
+	$(".{{ m.slug }}").hover(function () {
+    	$(".{{ m.slug }}").toggleClass("anatomy-popup-on");
+	});
+	{% endfor %}
+});
+*/
+</script>
+
+<div id="anatomy_muscle">
+	<img src="/assets/images/anatomy/blank-muscle-anatomy.jpg" id="muscles" name="muscles" width="600" height="510" alt="A diagram of the human muscular system anatomy" usemap="#muscle-anatomy-map">
+
+	<map name="muscle-anatomy-map">
+{% for m in site.anatomy %}
+    {% for c in m.coords  %}
+        <area shape="poly" coords="{{ c }}"
+            title="{{ m.title }}"
+            class="{{ m.slug }}"
+            onmouseover="document.muscles.src='{{ m.image_focus }}'" 
+            onmouseout="document.muscles.src='/assets/images/anatomy/blank-muscle-anatomy.jpg'" 
+            href="#" alt="{{ m.title }}"/>
+    {% endfor %}
+{% endfor %}
+	</map>
+
+{% for m in site.anatomy %}
+  <div class="{{ m.slug }} anatomy-popup">
+  	<h3>{{ m.title }}</h3>
+  	<p>
+  		Latin: {{ m.latin }}
+  	</p>
+  </div>
+{% endfor %}
+</div>

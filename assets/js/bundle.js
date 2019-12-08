@@ -1,4 +1,13 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
+/*! Image Map Resizer (imageMapResizer.min.js ) - v1.0.10 - 2019-04-10
+ *  Desc: Resize HTML imageMap to scaled image.
+ *  Copyright: (c) 2019 David J. Bradshaw - dave@bradshaw.net
+ *  License: MIT
+ */
+
+!function(){"use strict";function r(){function e(){var r={width:u.width/u.naturalWidth,height:u.height/u.naturalHeight},a={width:parseInt(window.getComputedStyle(u,null).getPropertyValue("padding-left"),10),height:parseInt(window.getComputedStyle(u,null).getPropertyValue("padding-top"),10)};i.forEach(function(e,t){var n=0;o[t].coords=e.split(",").map(function(e){var t=1==(n=1-n)?"width":"height";return a[t]+Math.floor(Number(e)*r[t])}).join(",")})}function t(e){return e.coords.replace(/ *, */g,",").replace(/ +/g,",")}function n(){clearTimeout(d),d=setTimeout(e,250)}function r(e){return document.querySelector('img[usemap="'+e+'"]')}var a=this,o=null,i=null,u=null,d=null;"function"!=typeof a._resize?(o=a.getElementsByTagName("area"),i=Array.prototype.map.call(o,t),u=r("#"+a.name)||r(a.name),a._resize=e,u.addEventListener("load",e,!1),window.addEventListener("focus",e,!1),window.addEventListener("resize",n,!1),window.addEventListener("readystatechange",e,!1),document.addEventListener("fullscreenchange",e,!1),u.width===u.naturalWidth&&u.height===u.naturalHeight||e()):a._resize()}function e(){function t(e){e&&(!function(e){if(!e.tagName)throw new TypeError("Object is not a valid DOM element");if("MAP"!==e.tagName.toUpperCase())throw new TypeError("Expected <MAP> tag, found <"+e.tagName+">.")}(e),r.call(e),n.push(e))}var n;return function(e){switch(n=[],typeof e){case"undefined":case"string":Array.prototype.forEach.call(document.querySelectorAll(e||"map"),t);break;case"object":t(e);break;default:throw new TypeError("Unexpected data type ("+typeof e+").")}return n}}"function"==typeof define&&define.amd?define([],e):"object"==typeof module&&"object"==typeof module.exports?module.exports=e():window.imageMapResize=e(),"jQuery"in window&&(window.jQuery.fn.imageMapResize=function(){return this.filter("map").each(r).end()})}();
+
+},{}],2:[function(require,module,exports){
 'use strict';
 
 const maleValues = [
@@ -180,7 +189,7 @@ module.exports = {
 	calculateWeightToLift: calculateWeightToLift,
 	calculateNeededBodyWeight: calculateNeededBodyWeight
 };
-},{}],2:[function(require,module,exports){
+},{}],3:[function(require,module,exports){
 let motionsplan = {};
 
 motionsplan.Estimate1RM = function(weight, repetitions) {
@@ -305,7 +314,7 @@ motionsplan.Estimate1RM = function(weight, repetitions) {
 
 module.exports = motionsplan;
 
-},{}],3:[function(require,module,exports){
+},{}],4:[function(require,module,exports){
 'use strict'
 
 const fitness = require('./fitness-hr');
@@ -323,8 +332,10 @@ const wilks = require('wilks-calculator');
 const karvonen = require('./karvonen');
 const index23 = require('./fitness-index-23');
 const running = require('./running');
+require('image-map-resizer');
 
 $(document).ready(function() {
+    $('map').imageMapResize();
 
     $("#calculator_rm").ready(function() {
         $(".motiononline").hide();
@@ -943,9 +954,153 @@ $(document).ready(function() {
         if (this.min) this.value = Math.max(parseInt(this.min), parseInt(this.value));
         if (this.max) this.value = Math.min(parseInt(this.max), parseInt(this.value));
     });
+ 
+    $(".adductor-longus").hover(function () {
+    	$(".adductor-longus").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".adductor-magnus").hover(function () {
+    	$(".adductor-magnus").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".anconeus").hover(function () {
+    	$(".anconeus").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".biceps-brachii").hover(function () {
+    	$(".biceps-brachii").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".biceps-femoris").hover(function () {
+    	$(".biceps-femoris").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".brachioradialis").hover(function () {
+    	$(".brachioradialis").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".deltoideus").hover(function () {
+    	$(".deltoideus").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".extensor-carpi-radialis-longus").hover(function () {
+    	$(".extensor-carpi-radialis-longus").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".extensor-carpi-ulnaris").hover(function () {
+    	$(".extensor-carpi-ulnaris").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".extensor-digitori-minimi").hover(function () {
+    	$(".extensor-digitori-minimi").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".extensor-digitorum").hover(function () {
+    	$(".extensor-digitorum").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".external-oblique").hover(function () {
+    	$(".external-oblique").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".flexor-carpi-radialis").hover(function () {
+    	$(".flexor-carpi-radialis").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".flexor-carpi-ulnaris").hover(function () {
+    	$(".flexor-carpi-ulnaris").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".gastrocnemius").hover(function () {
+    	$(".gastrocnemius").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".gluteus-maximus").hover(function () {
+    	$(".gluteus-maximus").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".gluteus-medius").hover(function () {
+    	$(".gluteus-medius").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".gracilis").hover(function () {
+    	$(".gracilis").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".infraspinatus").hover(function () {
+    	$(".infraspinatus").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".internal-oblique").hover(function () {
+    	$(".internal-oblique").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".latissimus-dorsi").hover(function () {
+    	$(".latissimus-dorsi").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".pectineus").hover(function () {
+    	$(".pectineus").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".pectoralis-major").hover(function () {
+    	$(".pectoralis-major").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".rectus-abdominis").hover(function () {
+    	$(".rectus-abdominis").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".rectus-femoris").hover(function () {
+    	$(".rectus-femoris").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".sartorius").hover(function () {
+    	$(".sartorius").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".semimembranosus").hover(function () {
+    	$(".semimembranosus").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".semitendinosus").hover(function () {
+    	$(".semitendinosus").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".serratus-anterior").hover(function () {
+    	$(".serratus-anterior").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".soleus").hover(function () {
+    	$(".soleus").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".teres-major").hover(function () {
+    	$(".teres-major").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".tibialis-anterior").hover(function () {
+    	$(".tibialis-anterior").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".trapezius").hover(function () {
+    	$(".trapezius").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".triceps-brachii").hover(function () {
+    	$(".triceps-brachii").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".vastus-lateralis").hover(function () {
+    	$(".vastus-lateralis").toggleClass("anatomy-popup-on");
+	});
+	
+	$(".vastus-medialis").hover(function () {
+    	$(".vastus-medialis").toggleClass("anatomy-popup-on");
+	});
 });
 
-},{"./1rm":2,"./bmi":4,"./bmr":5,"./cooper":7,"./cooper-running":6,"./etpunkttest":8,"./fat-pct":10,"./fat-pct-measurements":9,"./fitness-hr":11,"./fitness-index-23":12,"./karvonen":13,"./max-hr":14,"./running":15,"./topunkttest":16,"wilks-calculator":1}],4:[function(require,module,exports){
+},{"./1rm":3,"./bmi":5,"./bmr":6,"./cooper":8,"./cooper-running":7,"./etpunkttest":9,"./fat-pct":11,"./fat-pct-measurements":10,"./fitness-hr":12,"./fitness-index-23":13,"./karvonen":14,"./max-hr":15,"./running":16,"./topunkttest":17,"image-map-resizer":1,"wilks-calculator":2}],5:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.BMI = function(h, w) {
@@ -973,7 +1128,7 @@ motionsplan.BMI = function(h, w) {
 
 module.exports = motionsplan;
 
-},{}],5:[function(require,module,exports){
+},{}],6:[function(require,module,exports){
 let motionsplan = {};
 
 
@@ -1060,7 +1215,7 @@ motionsplan.EnergyExpenditure = function(sex, age, weight, pal, sport) {
 
 module.exports = motionsplan;
 
-},{}],6:[function(require,module,exports){
+},{}],7:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.CooperRunning = function() {
@@ -1087,7 +1242,7 @@ motionsplan.CooperRunning = function() {
 
 module.exports = motionsplan;
 
-},{}],7:[function(require,module,exports){
+},{}],8:[function(require,module,exports){
 let motionsplan = {};
 
 motionsplan.CooperClinicMortalityRiskIndex = function(age, hr, bloodpressure, diabetes, smoker, bmi, fitness) {
@@ -1256,7 +1411,7 @@ motionsplan.CooperClinicMortalityRiskIndex = function(age, hr, bloodpressure, di
 
 module.exports = motionsplan;
 
-},{}],8:[function(require,module,exports){
+},{}],9:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.EtPunktTest = function(gender, age, weight, work, hr) {
@@ -1335,7 +1490,7 @@ motionsplan.EtPunktTest = function(gender, age, weight, work, hr) {
 
 module.exports = motionsplan;
 
-},{}],9:[function(require,module,exports){
+},{}],10:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.CalculateFatPercentMeasurements = function() {
@@ -1368,7 +1523,7 @@ motionsplan.CalculateFatPercentMeasurements = function() {
 
 module.exports = motionsplan;
 
-},{}],10:[function(require,module,exports){
+},{}],11:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.CalculateFatPercent = function(h, w, a, sex) {
@@ -1409,7 +1564,7 @@ motionsplan.CalculateFatPercent = function(h, w, a, sex) {
 
 module.exports = motionsplan;
 
-},{}],11:[function(require,module,exports){
+},{}],12:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.CalculateFitnessFromHr = function(mxpul, hvpul, wgt) {
@@ -1442,7 +1597,7 @@ motionsplan.CalculateFitnessFromHr = function(mxpul, hvpul, wgt) {
 
 module.exports = motionsplan;
 
-},{}],12:[function(require,module,exports){
+},{}],13:[function(require,module,exports){
 let motionsplan = {}
 
 // height in cm
@@ -1478,7 +1633,7 @@ motionsplan.FitnessIndex23 = function(height, weight) {
 
 module.exports = motionsplan;
 
-},{}],13:[function(require,module,exports){
+},{}],14:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.Karvonen = function(minHr, maxHr) {
@@ -1502,7 +1657,7 @@ motionsplan.Karvonen = function(minHr, maxHr) {
 
 module.exports = motionsplan;
 
-},{}],14:[function(require,module,exports){
+},{}],15:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.EstimateMaxHr = function(ald) {
@@ -1523,7 +1678,7 @@ motionsplan.EstimateMaxHr = function(ald) {
 
 module.exports = motionsplan;
 
-},{}],15:[function(require,module,exports){
+},{}],16:[function(require,module,exports){
 let motionsplan = {};
 
 motionsplan.Running = function() {
@@ -1575,7 +1730,7 @@ motionsplan.Running = function() {
 
 module.exports = motionsplan;
 
-},{}],16:[function(require,module,exports){
+},{}],17:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.ToPunktTest = function(age, weight, work1, hr1, work2, hr2) {
@@ -1613,4 +1768,4 @@ motionsplan.ToPunktTest = function(age, weight, work1, hr1, work2, hr2) {
 
 module.exports = motionsplan;
 
-},{}]},{},[3]);
+},{}]},{},[4]);

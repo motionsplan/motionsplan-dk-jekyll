@@ -70,7 +70,7 @@ Lig på bænken med flade fødder på jorden. Hovedet, skuldrene og ballerne ska
 
 ### Dødløft
 
-Ved løftets afslutning skal løfteren have strakte ben og skuldrene tilbage for at få det godkendt.
+Ved løftets afslutning skal løfteren have strakte ben og skuldrene tilbage. Derefter skal vægten sættes tilbage på gulvet under kontrol.
 
 {% include video provider="youtube" id="WtPdpWnkYV4" %}
 
