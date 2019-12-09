@@ -1,6 +1,8 @@
 ---
 title: "Udregn 1RM - beregner til styrketræning"
 permalink: /rm-beregner/
+redirect_from:
+  - rm
 excerpt: "Du kan bruge denne beregner til at udregne 1RM på baggrund af flere forskeres formler til at bestemme 1RM ud fra submaksimale løft - repetitions to fatigue."
 language: da
 header:

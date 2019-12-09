@@ -1,0 +1,27 @@
+{% if include.id %}
+  {% assign flipcard = page[include.id] %}
+{% else %}
+  {% assign flipcard = page.flipcard %}
+{% endif %}
+
+<div class="feature__wrapper">
+  {% for f in flipcard %}
+
+    {% if f.url contains "://" %}
+      {% capture f_url %}{{ f.url }}{% endcapture %}
+    {% else %}
+      {% capture f_url %}{{ f.url | relative_url }}{% endcapture %}
+    {% endif %}
+
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          {{ f.front | markdownify }}
+        </div>
+        <div class="flip-card-back">
+          {{ f.back | markdownify }}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
