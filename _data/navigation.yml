@@ -8,10 +8,24 @@ main:
     url: /inspiration/
   - title: "Om"
     url: /om/
-anatomy:
+anatomi:
   - title: "Anatomi"
     url: "/anatomi/"
     children:
+      - title: "Knogler og knogletyper"
+        url: /knogler/
+      - title: "Led og bevægelser"
+        url: /led/
+      - title: "Muskler"
+        url: /muskler/
+muscles:
+  - title: "Skeletmuskler"
+    url: "/muskler/"
+    children:
+      - title: Adductor Hiatus
+        url: /adductor-hiatus/
+      - title: Adductor Brevis
+        url: /adductor-brevis/
       - title: Den lange indadfører
         url: /adductor-longus/
       - title: Den store indadfører

@@ -340,7 +340,7 @@ defaults:
       toc: true
       toc_sticky: true
       sidebar:
-        nav: "anatomy"
+        nav: "muscles"
 # _redirects
   - scope:
       path: ""

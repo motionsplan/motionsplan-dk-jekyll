@@ -4,6 +4,7 @@ latin: "Erector Spinae"
 tags:
   - fitnessinstruktør
   - muskel
+  - not-in-imagemap
 origin: 
   da: Bagsiden af bækkenet
 insertion: 

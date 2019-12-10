@@ -10,6 +10,8 @@ header:
 toc: true
 toc_sticky: true
 author_profile: true
+sidebar:
+  nav: anatomi
 ---
 
 Skelettet består af knogler. Knoglerne afstiver kroppen og agerer vægtstænger for musklerne. Desuden beskytter knoglerne de vigtige organer.

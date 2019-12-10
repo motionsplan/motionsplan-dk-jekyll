@@ -31,6 +31,8 @@ feature_row:
 toc: true
 toc_sticky: true
 author_profile: true
+sidebar:
+  nav: anatomi
 ---
 
 Hvis du vil forstå, hvordan træningsøvelser virker, så er det godt at kende kroppens anatomi.
