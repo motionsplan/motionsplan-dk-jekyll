@@ -1,13 +1,13 @@
 ---
-title: "Gracilis"
+title: "Den slanke indadfører"
 latin: "Gracilis"
 tags:
   - imagemap
   - muskel
 origin: 
-  da: Et hoved fra hver side af nederste bageste del af lårbenet.
+  da: Skambenet.
 insertion: 
-  da: i akillessenen og fæster på hælbenet.
+  da: Øverst på den inderste skinnebenskondyl.
 function: 
   - short: Flexes the leg at the knee.
     extended: This means that the gracilis muscle bends the leg at the knee joint such that there is a decrease in the angle between the lower leg and the upper leg.

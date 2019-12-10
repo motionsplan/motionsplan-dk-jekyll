@@ -1,13 +1,13 @@
 ---
-title: "Sartorius"
+title: "Skræddermusklen"
 latin: "Sartorius"
 tags:
   - imagemap
   - muskel
 origin: 
-  da: Et hoved fra hver side af nederste bageste del af lårbenet.
+  da: forreste øverste hoftebensfremspring
 insertion: 
-  da: i akillessenen og fæster på hælbenet.
+  da: øverst på den inderste skinnebenskondyl
 function: 
   - short: Flexes the leg at the hip.
     extended: This means that the sartorius muscle bends the hip joint such that there is a decrease in the angle between the upper leg and the torso.

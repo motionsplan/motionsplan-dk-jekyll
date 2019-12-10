@@ -24,6 +24,15 @@ feature_row:
   - image_path: https://i.ytimg.com/vi/GaXr9aZ2FR4/maxresdefault.jpg
     alt: "Dødløft"
     excerpt: "Dødløft"
+quiz:
+  - front: >
+      ![Squat](https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg)
+      Hvor langt skal man ned i squat for at få godkendt løftet?
+    back: "Hofteleddet skal være under knæleddet."
+  - front: "Må hovedet løftes fra bænken i bænkpres?"
+    back: >
+      Hovedet, skuldrene og ballerne skal røre bænken og fødderne skal være flade i gulvet.
+      ![Bænkpres](https://i.ytimg.com/vi/q3uQE0yugH8/maxresdefault.jpg)
 ---
 
 *[IPF]: International Powerlifting Federation
@@ -64,6 +73,10 @@ Lig på bænken med flade fødder på jorden. Hovedet, skuldrene og ballerne ska
 Ved løftets afslutning skal løfteren have strakte ben og skuldrene tilbage. Derefter skal vægten sættes tilbage på gulvet under kontrol.
 
 {% include video provider="youtube" id="WtPdpWnkYV4" %}
+
+## Quiz
+
+{% include flipcard id="quiz" %}
 
 ## Referencer
 

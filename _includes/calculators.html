@@ -15,8 +15,8 @@
         <legend>Hastighed</legend>
         <table>
             <tr>
-                <th>Indtast hvad du har</th>
-                <th>Omregningsfaktor</th>
+                <th>Udgangspunkt</th>
+                <th>Beregning</th>
                 <th>Resultat</th>
             </tr>
             <tr>
@@ -183,13 +183,13 @@
             </tr>
             <tr>
                 <td>
-                    <input name="Input" onchange="calc(this.value,2.54,'cmillimeters')" class="input-mini"> inches (tommer)
+                    <input name="Input" onchange="calc(this.value,2.54,'cmillimeters')" class="input-mini"> inches
                 </td>
                 <td>
                     * 2.5 =
                 </td>
                 <td>
-                    <input name="cmillimeters" class="input-mini" disabled="disabled"> centimeter
+                    <input name="cmillimeters" class="input-mini" disabled="disabled"> cm
                 </td>
             </tr>
             <tr>
@@ -200,7 +200,7 @@
                     * 30 =
                 </td>
                 <td>
-                    <input name="ccentimeters" class="input-mini" disabled="disabled"> centimeter
+                    <input name="ccentimeters" class="input-mini" disabled="disabled"> cm
                 </td>
             </tr>
             <tr>
@@ -211,7 +211,7 @@
                     * 0.91 =
                 </td>
                 <td>
-                    <input name="cmeters" class="input-mini" disabled="disabled"> meter
+                    <input name="cmeters" class="input-mini" disabled="disabled"> m
                 </td>
             </tr>
             <tr>
@@ -222,7 +222,7 @@
                     * 1.6 =
                 </td>
                 <td>
-                    <input name="ckilos" class="input-mini" disabled="disabled"> kilometer
+                    <input name="ckilos" class="input-mini" disabled="disabled"> km
                 </td>
             </tr>
             <tr>
@@ -233,7 +233,7 @@
                     * 1.85 =
                 </td>
                 <td>
-                    <input name="ckilos2" class="input-mini" disabled="disabled"> kilometer
+                    <input name="ckilos2" class="input-mini" disabled="disabled"> km
                 </td>
             </tr>
             <tr>
@@ -243,7 +243,7 @@
             </tr>
             <tr>
                 <td>
-                    <input onchange="calc(this.value,0.3937,'cinches')" class="input-mini"> centimeter
+                    <input onchange="calc(this.value,0.3937,'cinches')" class="input-mini"> cm
                 </td>
                 <td>
                     * 0.39 =
@@ -254,7 +254,7 @@
             </tr>
             <tr>
                 <td>
-                    <input onchange="calc(this.value,0.0328,'cinches2')" class="input-mini"> centimeter
+                    <input onchange="calc(this.value,0.0328,'cinches2')" class="input-mini"> cm
                 </td>
                 <td>
                     * 0.033 =
@@ -265,7 +265,7 @@
             </tr>
             <tr>
                 <td>
-                    <input onchange="calc(this.value,1.094,'cyards')" class="input-mini"> meter
+                    <input onchange="calc(this.value,1.094,'cyards')" class="input-mini"> m
                 </td>
                 <td>
                     * 1.1 =
@@ -276,7 +276,7 @@
             </tr>
             <tr>
                 <td>
-                    <input onchange="calc(this.value,0.6214,'cmiles')" class="input-mini"> kilometer
+                    <input onchange="calc(this.value,0.6214,'cmiles')" class="input-mini"> km
                 </td>
                 <td>
                     * 0.62 =
@@ -287,7 +287,7 @@
             </tr>
             <tr>
                 <td>
-                    <input onchange="calc(this.value,0.53996,'cnmiles')" class="input-mini"> kilometer
+                    <input onchange="calc(this.value,0.53996,'cnmiles')" class="input-mini"> km
                 </td>
                 <td>
                     * 0.54 =
@@ -308,46 +308,46 @@
             </tr>
             <tr>
                 <td>
-                    <input onchange="calc(this.value,6.452,'csqcent')" class="input-mini"> square inches
+                    <input onchange="calc(this.value,6.452,'csqcent')" class="input-mini"> inches<sup>2</sup>
                 </td>
                 <td>
                     * 6.5 =
                 </td>
                 <td>
-                    <input name="csqcent" class="input-mini" disabled="disabled"> kvadratcentimeter
+                    <input name="csqcent" class="input-mini" disabled="disabled"> cm<sup>2</sup>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <input onchange="calc(this.value,0.0929,'csqmeter')" class="input-mini"> square feet
+                    <input onchange="calc(this.value,0.0929,'csqmeter')" class="input-mini"> feet<sup>2</sup>
                 </td>
                 <td>
                     * 0.093 =
                 </td>
                 <td>
-                    <input name="csqmeter" class="input-mini" disabled="disabled"> kvadratmeter
+                    <input name="csqmeter" class="input-mini" disabled="disabled"> m<sup>2</sup>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <input onchange="calc(this.value,0.8361,'csqmeter2')" class="input-mini"> square yards
+                    <input onchange="calc(this.value,0.8361,'csqmeter2')" class="input-mini"> yards<sup>2</sup>
                 </td>
                 <td>
                     * 0.84 =
                 </td>
                 <td>
-                    <input name="csqmeter2" class="input-mini" disabled="disabled"> kvadratmeter
+                    <input name="csqmeter2" class="input-mini" disabled="disabled"> m<sup>2</sup>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <input onchange="calc(this.value,2.59,'csqkilos')" class="input-mini"> square miles
+                    <input onchange="calc(this.value,2.59,'csqkilos')" class="input-mini"> miles<sup>2</sup>
                 </td>
                 <td>
                     * 2.6 =
                 </td>
                 <td>
-                    <input name="csqkilos" class="input-mini" disabled="disabled"> kvadratkilometer
+                    <input name="csqkilos" class="input-mini" disabled="disabled"> km<sup>2</sup>
                 </td>
             </tr>
             <tr>
@@ -357,46 +357,46 @@
             </tr>
             <tr>
                 <td>
-                    <input onchange="calc(this.value,0.155,'csqinch')" class="input-mini"> kvadratcentimeter
+                    <input onchange="calc(this.value,0.155,'csqinch')" class="input-mini"> cm<sup>2</sup>
                 </td>
                 <td>
                     * 0.16 =
                 </td>
                 <td>
-                    <input name="csqinch" class="input-mini" disabled="disabled"> square inches
+                    <input name="csqinch" class="input-mini" disabled="disabled"> inches<sup>2</sup>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <input onchange="calc(this.value,10.764,'csqfeet')" class="input-mini"> kvadratmeter
+                    <input onchange="calc(this.value,10.764,'csqfeet')" class="input-mini"> m<sup>2</sup>
                 </td>
                 <td>
                     * 11 =
                 </td>
                 <td>
-                    <input name="csqfeet" class="input-mini" disabled="disabled"> square feet
+                    <input name="csqfeet" class="input-mini" disabled="disabled"> feet<sup>2</sup>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <input onchange="calc(this.value,1.196,'csqyard')" class="input-mini"> kvadratmeter
+                    <input onchange="calc(this.value,1.196,'csqyard')" class="input-mini"> m<sup>2</sup>
                 </td>
                 <td>
                     * 1.2 =
                 </td>
                 <td>
-                    <input name="csqyard" class="input-mini" disabled="disabled"> square yards
+                    <input name="csqyard" class="input-mini" disabled="disabled"> yards<sup>2</sup>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <input onchange="calc(this.value,0.3861,'csqmile')" class="input-mini"> Kvadratkilometer
+                    <input onchange="calc(this.value,0.3861,'csqmile')" class="input-mini"> km<sup>2</sup>
                 </td>
                 <td>
                     * 0.39 =
                 </td>
                 <td>
-                    <input name="csqmile" class="input-mini" disabled="disabled"> square miles
+                    <input name="csqmile" class="input-mini" disabled="disabled"> miles<sup>2</sup>
                 </td>
             </tr>
         </table>
@@ -417,7 +417,7 @@
                     * 0.45 =
                 </td>
                 <td>
-                    <input name="ckgrams" class="input-mini" disabled="disabled"> kilogram
+                    <input name="ckgrams" class="input-mini" disabled="disabled"> kg
                 </td>
             </tr>
             <tr>
@@ -428,7 +428,7 @@
                     * 6.35 =
                 </td>
                 <td>
-                    <input name="ckgrams2" class="input-mini" disabled="disabled"> kilogram
+                    <input name="ckgrams2" class="input-mini" disabled="disabled"> kg
                 </td>
             </tr>
             <tr>
@@ -438,7 +438,7 @@
             </tr>
             <tr>
                 <td>
-                    <input onchange="calc(this.value,2.205,'clbs')" class="input-mini"> kilogram
+                    <input onchange="calc(this.value,2.205,'clbs')" class="input-mini"> kg
                 </td>
                 <td>
                     * 2.2 =
@@ -449,7 +449,7 @@
             </tr>
             <tr>
                 <td>
-                    <input onchange="calc(this.value,0.1574728,'stone')" class="input-mini"> kilogram
+                    <input onchange="calc(this.value,0.1574728,'stone')" class="input-mini"> kg
                 </td>
                 <td>
                     * 0.16 =
@@ -476,7 +476,7 @@
                     * 29.6 =
                 </td>
                 <td>
-                    <input name="cml" class="input-mini" disabled="disabled"> milliliter
+                    <input name="cml" class="input-mini" disabled="disabled"> ml
                 </td>
             </tr>
             <tr>
@@ -487,7 +487,7 @@
                     * 0.47 =
                 </td>
                 <td>
-                    <input name="cliter" class="input-mini" disabled="disabled"> liter
+                    <input name="cliter" class="input-mini" disabled="disabled"> l
                 </td>
             </tr>
             <tr>
@@ -498,7 +498,7 @@
                     * 0.95 =
                 </td>
                 <td>
-                    <input name="cliter2" class="input-mini" disabled="disabled"> liter
+                    <input name="cliter2" class="input-mini" disabled="disabled"> l
                 </td>
             </tr>
             <tr>
@@ -509,7 +509,7 @@
                     * 3.8 =
                 </td>
                 <td>
-                    <input name="cliter3" class="input-mini" disabled="disabled"> liter
+                    <input name="cliter3" class="input-mini" disabled="disabled"> l
                 </td>
             </tr>
             <tr>
@@ -519,7 +519,7 @@
             </tr>
             <tr>
                 <td>
-                    <input onchange="calc(this.value,0.03382,'coz')" class="input-mini"> milliliter
+                    <input onchange="calc(this.value,0.03382,'coz')" class="input-mini"> ml
                 </td>
                 <td>
                     * 0.034 =
@@ -530,7 +530,7 @@
             </tr>
             <tr>
                 <td>
-                    <input onchange="calc(this.value,2.113,'clit1')" class="input-mini"> liter
+                    <input onchange="calc(this.value,2.113,'clit1')" class="input-mini"> l
                 </td>
                 <td>
                     * 2.1 =
@@ -541,7 +541,7 @@
             </tr>
             <tr>
                 <td>
-                    <input onchange="calc(this.value,1.057,'cqts')" class="input-mini"> liter
+                    <input onchange="calc(this.value,1.057,'cqts')" class="input-mini"> l
                 </td>
                 <td>
                     * 1.1 =
@@ -552,7 +552,7 @@
             </tr>
             <tr>
                 <td>
-                    <input onchange="calc(this.value,0.2642,'cgal1')" class="input-mini"> liter
+                    <input onchange="calc(this.value,0.2642,'cgal1')" class="input-mini"> l
                 </td>
                 <td>
                     * 0.26 =

@@ -6,9 +6,9 @@ tags:
   - fitnessinstruktør
   - muskel
 origin: 
-  da: Et hoved fra hver side af nederste bageste del af lårbenet.
+  da: Ydersiden af nederste 8 ribben
 insertion: 
-  da: i akillessenen og fæster på hælbenet.
+  da: Ydersiden af hoftekammen og danner fortil senepladen for den lige bugmuskel sammen med den indre skrå og den tværgående og mødes med den modsatte sides muskel i den hvide linie
 function: 
   - short: Laterally flexes the spine.
     extended: This means that the external oblique muscle bends the spine to the side (i.e. it moves the ribcage downward to the side towards the pelvis).

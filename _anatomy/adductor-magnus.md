@@ -1,13 +1,13 @@
 ---
-title: "Adductor Magnus"
+title: "Den store indadfører"
 latin: Adductor Magnus
 tags:
   - imagemap
   - muskel
 origin: 
-  da: Et hoved fra hver side af nederste bageste del af lårbenet.
+  da: Skambenet og sædebensknuden
 insertion: 
-  da: i akillessenen og fæster på hælbenet.
+  da: På indersiden/bagsiden af de meste af lårbensknoglen samt ovenpå den inderste lårbenskondyl.
 function: 
   - short: Adducts the leg at the hip.
     extended: This means that the adductor magnus muscle moves the upper leg toward the vertical midline of the body (i.e. the action of closing your legs together from a spread out position).
@@ -15,6 +15,8 @@ function:
     extended: This means that the adductor magnus muscle rotates the upper leg outward around the axis of the bone (i.e. it rotates the upper leg away from the vertical midline of the body).
   - short: Medially rotates the upper leg (possibly).
     extended: This means that the adductor magnus muscle can possibly rotate the upper leg inward around the axis of the bone (i.e. rotate the upper leg toward the vertical midline of the body).
+  - short: Ekstension i hofteleddet
+    extended: ""
 exercises:
   - Stående calf-raise
 image: /assets/images/anatomy/adductor-magnus.jpg

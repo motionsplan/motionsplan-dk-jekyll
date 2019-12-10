@@ -1,13 +1,13 @@
 ---
-title: "Adductor Longus"
+title: "Den lange indadfører"
 latin: Adductor Longus
 tags:
   - imagemap
   - muskel
 origin: 
-  da: Et hoved fra hver side af nederste bageste del af lårbenet.
+  da: Skambenet.
 insertion: 
-  da: I akillessenen og fæster på hælbenet.
+  da: På indersiden/bagsiden af det midterste af lårbensknoglen.
 function: 
   - short: Flexes the leg at the hip.
     extended: This means that the adductor longus muscle bends the hip joint such that there is a decrease in the angle between the upper leg and the torso.
