@@ -22,7 +22,9 @@ _{{ page.latin }}_
 - **Udspring**: {{ page.origin.da }}
 - **Hæfte**: {{ page.insertion.da }}
 
+{% if page.image %}
 {% include figure image_path=page.image alt=page.title caption=page.title %}
+{% endif %}
 
 ## Funktion
 
