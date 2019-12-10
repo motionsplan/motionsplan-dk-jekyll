@@ -12,9 +12,17 @@ tags:
 category:
   - Styrketræning
 last_modified_at: 2013-02-13T22:03:29Z
+feature_row:
+  - image_path: https://imgcdn.saxo.com/_9781450472913/0x500
+    alt: "Low Back Disorders - Evidence-Based Prevention and Rehabilitation af Stuart Mcgill"
+    title: "Low Back Disorders - Evidence-Based Prevention and Rehabilitation af Stuart Mcgill"
+    excerpt: "Low Back Disorders - Evidence-Based Prevention and Rehabilitation af Stuart Mcgill"
+    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/low-back-disorders_stuart-mcgill_hardback_9781450472913"
+    btn_label: "Læs mere"
+    btn_class: "btn--success"
 ---
 
-Ondt i ryggen er en folkesygdom. [Motion-online.dk har fire gode råd for at undgå ondt i ryggen](http://www.motion-online.dk/sundhed_og_vaegt/sundhed_generelt/undgaa_ondt_i_ryggen/):
+Ondt i ryggen er en folkesygdom. [Motion-online.dk har fire gode råd for at undgå ondt i ryggen](https://web.archive.org/web/20160406053525/http://www.motion-online.dk/sundhed_og_vaegt/sundhed_generelt/undgaa_ondt_i_ryggen/):
 
 - **Sid varieret**. Du skal skifte stilling ofte, når du sidder. Det gælder både på kontoret, i skolen, i toget og også derhjemme når du er lidt træt.
 - **Bevæg ryggen**. Du skal bevæge ryggen på mange forskellige måder, og det er en god ide at tage nogle pauser i løbet af dagen, hvor du gør det. Drejninger, foroverbøjninger og bagudbøjninger.
@@ -51,6 +59,8 @@ Vi leder efter forskning der fortæller lidt om udbredelsen af rygproblemer i Da
 
 Referencer
 ----------
+
+{% include feature_row %}
 
 - [McGill, Stuart: Low Back Disorders, Second Edition](http://www.amazon.com/Back-Disorders-Second-Stuart-McGill/dp/0736066926)
 - [Long-term effects of specific stabilizing exercises for first-episode low back pain. Hides JA, Jull GA, Richardson CA. Spine 2001 Jun 1;26(11):E243-8](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11389408&dopt=Abstract)
