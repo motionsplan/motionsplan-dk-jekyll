@@ -18,7 +18,9 @@ last_modified_at: 2019-11-14T09:21:56Z
 
 {% include figure image_path="https://chebellainteriors.com/wp-content/uploads/2019/08/Simple-but-significant.jpg" alt="Make it simple but significant" %}
 
-For at opbygge et godt styrketræningsprogram, er der en række faktorer du skal overveje, men først og fremmest skal du huske KISS - at gøre det enkelt og huske at logge træningen, så du kan spore fremgang eller tilbagebang i træningen:
+For at opbygge et godt styrketræningsprogram, er der en række faktorer du kan overveje. Hvis du for alvor vil finde ud af, hvad der virker, så kan det være en fordel at gøre det så enkelt som muligt (KISS). Derudover er det også en rigtig god ide at logge din træning, så du kan spore fremgang eller tilbagegang i træningen.
+
+Stil dig selv følgende spørgsmål:
 
 - **Hvad er målet for din træning?** Du kan have mange forskellige mål for din træning. Vil du være stærkere, tabe dig, have større muskler. Din træning skal tilrettelægges ud fr adette mål.
 - **Hvor ofte?** [Begyndere og trænede skal dosere træningen forskelligt](/artikel/hvordan-skal-jeg-dosere-min-styrketraening). Begyndere får mest ud af at træne den samme muskelgruppe tre gange om ugen, mens trænede måske kan nøjes med to gange, fordi de kan træne hårdere.

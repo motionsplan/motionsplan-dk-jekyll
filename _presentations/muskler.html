@@ -1,0 +1,30 @@
+---
+layout: webslides
+title: Muskler
+---
+
+{% for m in site.anatomy %}
+<section>
+  <div class="wrap">
+    <div class="grid vertical-align">
+      <div class="column">
+        <h1>{{ m.title }}</h1>
+        <h2>{{ m.latin }}</h2>
+        {% if m.origin.da %}
+        <p>Udspring: {{ m.origin.da }}</p>
+        {% endif %}
+        {% if m.insertion.da %}
+        <p>Hæfte: {{ m.insertion.da }}</p>
+        {% endif %}
+      </div>
+      <div class="column">
+        {% if m.image %}
+        <figure>
+          <img src="{{ m.image }}" alt="{{ m.title }}">
+        </figure>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+{% endfor %}

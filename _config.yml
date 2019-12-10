@@ -271,6 +271,9 @@ collections:
   anatomy:
     output: true
     permalink: /:path/
+  presentations:
+    output: true
+    permalink: /p/:path/
   exercises:
     output: true
     permalink: /oevelse/:path/
@@ -298,7 +301,7 @@ defaults:
       toc: true
       toc_sticky: true
       author: lsolesen     
-# _exercises
+  # _exercises
   - scope:
       path: ""
       type: exercises
@@ -312,7 +315,7 @@ defaults:
       author: lsolesen
       tag_archive_path: /category/tags/
       category_archive_path: /oevelseskategorier/      
-# _programs
+  # _programs
   - scope:
       path: ""
       type: programs
@@ -342,7 +345,9 @@ defaults:
       author: lsolesen
       tag_archive_path: /anatomi/tags/
       category_archive_path: /anatomi-kategorier/
-# _redirects
+      sidebar:
+        nav: "muscles"
+  # _redirects
   - scope:
       path: ""
       type: redirects
@@ -353,3 +358,9 @@ defaults:
       comments: false
       share: false
       related: false
+  # _presentations
+  - scope:
+      path: ""
+      type: presentations
+    values:
+      layout: webslides

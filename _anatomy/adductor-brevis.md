@@ -1,21 +1,23 @@
 ---
-title: "Hoftebøjeren"
-latin: "Iliopsoas"
+title: "Adductor Brevis"
+latin: Adductor Brevis
 tags:
-  - fitnessinstruktør
-  - muskel
   - not-in-imagemap
+  - muskel
 origin: 
-  da: Lændehvirvel og hoftebenet
+  da: 
 insertion: 
-  da: Bagsiden af lårbenet
+  da: 
 function: 
-  - short: Bøjning i hofteleddet
-    extended: ""
+  - short: Adducts the leg at the hip.
+    extended: This means that the adductor longus muscle moves the upper leg toward the vertical midline of the body (i.e. the action of closing your legs together from a spread out position).
 exercises:
   - Stående calf-raise
 image: 
 image_focus: 
+coords:
+  - "126,253,120,261,125,272,129,288,130,304,132,297,132,285,131,268"
+  - "159,255,165,263,162,272,159,286,157,305,155,295,154,284,154,270"
 ---
 
 _{{ page.latin }}_
@@ -23,7 +25,9 @@ _{{ page.latin }}_
 - **Udspring**: {{ page.origin.da }}
 - **Hæfte**: {{ page.insertion.da }}
 
+{% if page.image %}
 {% include figure image_path=page.image alt=page.title caption=page.title %}
+{% endif %}
 
 ## Funktion
 
