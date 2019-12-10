@@ -1,0 +1,11 @@
+---
+layout: webslides
+title: Muskler
+---
+
+{% for m in site.anatomy %}
+<section>
+  <h1>{{ m.title }}</h1>
+  <p>{{ m.latin }}</p>
+</section>
+{% endfor %}

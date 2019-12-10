@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CLEAN MARKUP = GOOD KARMA.
+      Hi source code lover,
+
+      you're a curious person and a fast learner ;)
+      Let's make something beautiful together. Contribute on Github:
+      https://github.com/webslides/webslides
+
+      Thanks!
+    -->
+
+    <!-- SEO -->
+    <title>{{ page.title }}</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="all" href="https://cdn.jsdelivr.net/npm/webslides@1.5.0/static/css/webslides.css">
+    <link rel="stylesheet" type="text/css" media="all" href="https://cdn.jsdelivr.net/npm/webslides@1.5.0/static/css/svg-icons.css">
+
+</head>
+
+<body>
+    <header role="banner">
+        <nav role="navigation">
+            <p class="logo"><a style="background: url('/favicon-32x32.png') no-repeat;" href="/" title="Motionsplan">Motionsplan</a></p>
+            <ul>
+                {% for l in site.footer.links %}
+                <li class="{{ l.label | lowercase }}">
+                    <a rel="external" href="{{ l.url }}" title="{{ l.label }}">
+                      <svg class="{{ l.icon }}">
+                        <use xlink:href="#{{ l.icon }}"></use>
+                      </svg>
+                      <em>@Motionsplan</em>
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+        </nav>
+    </header>
+    <main role="main">
+        <article id="webslides">
+            {{ content }}
+        </article>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/webslides@1.5.0/static/js/webslides.min.js"></script>
+    <script>
+        window.ws = new WebSlides();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/webslides@1.5.0/static/js/svg-icons.js"></script>
+</body>
+
+</html>
