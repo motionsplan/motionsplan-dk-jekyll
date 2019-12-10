@@ -35,6 +35,8 @@ feature_row:
     excerpt: "Saddelled kan lave to bevægelser vinkelret på hinanden. F.eks. tommelfingers rodled."
 toc: true
 toc_sticky: true
+sidebar:
+  nav: anatomi
 ---
 
 Et led er en forbindelse mellem to eller flere knogler, uanset om der kan være bevægelse i leddet eller ej. I forbindelse med idræt er vi hovedsageligt interesseret i de led, der kan bevæge sig. Mennesket kan bevæge sig på mange forskellige måder, og derfor er der også flere forskellige typer led.

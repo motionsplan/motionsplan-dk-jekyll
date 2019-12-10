@@ -342,8 +342,9 @@ defaults:
       related: true
       toc: true
       toc_sticky: true
-      author: lsolesen
-  # _redirects
+      sidebar:
+        nav: "muscles"
+# _redirects
   - scope:
       path: ""
       type: redirects

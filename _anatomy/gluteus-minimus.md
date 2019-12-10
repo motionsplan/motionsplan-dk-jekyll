@@ -4,6 +4,7 @@ latin: "Gluteus Minimus"
 tags:
   - fitnessinstruktør
   - muskel
+  - not-in-imagemap
 origin: 
   da: Yderst på øverste kant af hoftebenet
 insertion: 
