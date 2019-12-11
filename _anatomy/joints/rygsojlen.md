@@ -3,7 +3,7 @@ title: "Ryggen"
 excerpt: ""
 tags:
   - led
-latin: Adductor Longus
+latin: ""
 movements:
   - title: Bøjning (i lændedelen)
     muscles:

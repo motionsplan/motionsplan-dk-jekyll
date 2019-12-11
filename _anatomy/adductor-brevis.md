@@ -10,7 +10,7 @@ insertion:
   da: 
 function: 
   - short: Adducts the leg at the hip.
-    extended: This means that the adductor longus muscle moves the upper leg toward the vertical midline of the body (i.e. the action of closing your legs together from a spread out position).
+    extended: ""
 exercises:
   - Stående calf-raise
 image: 
