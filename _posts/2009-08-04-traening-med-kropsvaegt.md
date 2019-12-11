@@ -13,7 +13,7 @@ category:
   - Styrketræning
 last_modified_at: 2013-02-13T22:09:52Z
 feature_row:
-  - image_path: https://cdn.shopify.com/s/files/1/0247/5674/8373/products/Vaegtvest_KINETIK_VX1_Spaende_540x.jpg?v=1571814228
+  - image_path: https://cdn.shopify.com/s/files/1/0247/5674/8373/products/KINETIK_VX1_-_Vaegtvest_900x.png?v=1574882659
     alt: "KINETIK Vægtvest VX1"
     title: "KINETIK Vægtvest VX1"
     excerpt: "KINETIK VX1 er det ultimative træningsudstyr, og er enestående når det kommer til design og kvalitet. Vores vægtvest er specialdesignet til at aktivere din styrke, og effektivisere din træning."
@@ -49,7 +49,6 @@ Man skal altid planlægge sin træning ud fra ens mål. Du kan sagtens få masse
 ## Yderligere inspiration
 
 - [Øvelsesforslag med kropsvægt](/kategori/redskaber/kropsvaegt) fra vores site. Der er en lang række at vælge i mellem.
-- [Træningskort - egen kropsvægt](http://www.motion-online.dk/styrketraening/styrke_-_oevelser/traeningskort_-_egen_kropsvaegt/). Motion-online.dk har lavet en række træningsøvelser med kropsvægt. Kortene er lette at printe ud.
 - [Linksamling om bodyweight / Kettlebells / alternativ træning](http://www.motion-online.dk/fora/index.php?showtopic=29480&hl=kropsv%E6gt). Samling af links omkring øvelser med kropsvægt, kettlebells og alternativ træning lavet af brugerne af motion-online.dks forum. Posten er temmelig rodet, men der er flere gode links.
 
 Har du nogle gode sites eller nogle gode øvelser, så del det gerne i kommentarerne?

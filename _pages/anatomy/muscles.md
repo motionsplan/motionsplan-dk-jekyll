@@ -8,6 +8,8 @@ tags:
 toc: true
 toc_sticky: true
 author_profile: true
+sidebar:
+  nav: anatomi
 ---
 
 Der findes forskellige muskeltyper, men i forbindelse med analyser af bevægelser er skeletmusklerne de mest relevante.
@@ -20,13 +22,15 @@ Skeletmusklerne kan opdeles i tre kategorier.
 
 I nedenstående figur er det mest relevante muskler i forhold til træning vist på skelettet. Alle musklerne er relevante for træningen.
 
+## Muskeloversigt
+
 {% include anatomy.html %}
+
+### Øvrige muskler
 
 Øvrige vigtige muskler, der ikke vises i skelettet er:
 
-- Transversus Abdominis - Bugpressen
-- Erector Spinae - Rygstrækkerne
-- Iliopsoas - Hoftebøjeren
-- Gluteus Minimus - Den lille sædemuskel
-- Adductor Brevis
-- Adductor Hiatus
+{% assign imagemap = site.anatomy | where: "tags", "not-in-imagemap" %}
+{% for m in imagemap %}
+- [{{ m.title }}]({{ m.url }})
+{% endfor %}

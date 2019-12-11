@@ -4,6 +4,7 @@ latin: "Erector Spinae"
 tags:
   - fitnessinstruktør
   - muskel
+  - not-in-imagemap
 origin: 
   da: Bagsiden af bækkenet
 insertion: 
@@ -22,7 +23,9 @@ _{{ page.latin }}_
 - **Udspring**: {{ page.origin.da }}
 - **Hæfte**: {{ page.insertion.da }}
 
+{% if page.image %}
 {% include figure image_path=page.image alt=page.title caption=page.title %}
+{% endif %}
 
 ## Funktion
 

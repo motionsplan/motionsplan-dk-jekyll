@@ -24,7 +24,7 @@ Hvordan får man den bedste effekt af sine træning, hvis konditions- og styrket
 
 ## Konditionstræning _før_ styrketræning forbedrer løbetiden
 
-[Konditionstræning før styrketræning giver bedre præstation](http://www.motion-online.dk/konditionstraening/kondition_-_artikler/konditionstraening_foer_styrketraening_giver_bedre_praestation/) viser at en gruppe, der trænede konditionstræning efterfulgt af styrketræning, havde de største forbedringer på deres 4 km løbetid over et 12 ugers træningsprogram, hvor der var træning tre gange om ugen. Styrketræningen blev udført som cirkeltræning med en ratio mellem arbejde og restitution på 30s/30s eller 40s/20s. Det har formentlig ikke været traditionel styrketræning, men træning med >12RM.
+[Konditionstræning før styrketræning giver bedre præstation](https://www.motion-online.dk/konditionstraening-foer-styrketraening-giver-bedre-praestation/) viser at en gruppe, der trænede konditionstræning efterfulgt af styrketræning, havde de største forbedringer på deres 4 km løbetid over et 12 ugers træningsprogram, hvor der var træning tre gange om ugen. Styrketræningen blev udført som cirkeltræning med en ratio mellem arbejde og restitution på 30s/30s eller 40s/20s. Det har formentlig ikke været traditionel styrketræning, men træning med >12RM.
 
 ## Styrketræning _før_ konditionstræning har en god effekt på fedtforbrændingen
 
