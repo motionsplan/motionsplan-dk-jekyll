@@ -334,7 +334,7 @@ defaults:
       path: ""
       type: anatomy
     values:
-      layout: single
+      layout: single-anatomy
       author_profile: true
       read_time: false
       comments: true
