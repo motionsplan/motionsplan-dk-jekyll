@@ -12,7 +12,7 @@ category:
 last_modified_at: 2013-02-13T21:55:25Z
 ---
 
-Der bliver sagt usædvanligt meget om træning og ernæring. Vi forsøger at formidle tingene, så de er til at forstå, men vi forsøger også at finde opbakning i videnskaben. Hvis et emne interesserer os, laver vi en søgning på fx [pubmed.org](http://pubmed.org) ([hvordan søger vi - og hvordan læser vi artiklerne?](http://www.motion-online.dk/sundhed_og_vaegt/sundhed_generelt/saadan_soeger_du_selv_videnskabelige_artikler/)). Hvis artiklen efter at have læst _abstract_ ser spændende ud, læser vi videre, mens vi vurderer følgende:
+Der bliver sagt usædvanligt meget om træning og ernæring. Vi forsøger at formidle tingene, så de er til at forstå, men vi forsøger også at finde opbakning i videnskaben. Hvis et emne interesserer os, laver vi en søgning på fx [pubmed.org](http://pubmed.org) ([hvordan søger vi - og hvordan læser vi artiklerne?](https://web.archive.org/web/20160406123230/http://www.motion-online.dk/sundhed_og_vaegt/sundhed_generelt/saadan_soeger_du_selv_videnskabelige_artikler/)). Hvis artiklen efter at have læst _abstract_ ser spændende ud, læser vi videre, mens vi vurderer følgende:
 
 Design
 : Har studiet et solidt design? Hvordan måles effekten af det studiet undersøger? Er der en kontrolgruppe? Er grupperne tilfældigt sammensat? Er forsøget blindet? Det mest solide design er dobbeltblindet, randomiseret forsøg med kontrolgruppe.

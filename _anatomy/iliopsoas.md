@@ -4,6 +4,7 @@ latin: "Iliopsoas"
 tags:
   - fitnessinstruktør
   - muskel
+  - not-in-imagemap
 origin: 
   da: Lændehvirvel og hoftebenet
 insertion: 

@@ -4,6 +4,7 @@ latin: "Transversus Abdominis"
 tags:
   - fitnessinstruktør
   - muskel
+  - not-in-imagemap
 origin: 
   da: Nederste ribben, hoftebenskammen og lændefascien
 insertion: 

@@ -343,6 +343,10 @@ defaults:
       toc: true
       toc_sticky: true
       author: lsolesen
+      tag_archive_path: /anatomi/tags/
+      category_archive_path: /anatomi-kategorier/
+      sidebar:
+        nav: "muscles"
   # _redirects
   - scope:
       path: ""
