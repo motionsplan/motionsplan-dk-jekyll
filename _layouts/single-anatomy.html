@@ -30,7 +30,7 @@ layout: default
           {% if page.read_time %}
             <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
           {% endif %}
-            <p class="page__meta"><i class="far fa-pencil" aria-hidden="true"></i> Hjælp med at {% github_edit_link "forbedre denne beskrivelse" %}.</p>
+            <p class="page__meta"><a href="https://github.com/{{site.repository}}/edit/gh-pages/{{ page.path }}"><i class="fas fa-pencil-alt" aria-hidden="true"></i> Hjælp med at forbedre denne side</a></p>
         </header>
       {% endunless %}
 

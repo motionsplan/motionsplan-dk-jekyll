@@ -21,7 +21,7 @@ name                     : "Motionsplan"
 description              : "Træningsøvelser og træningsprogrammer til styrketræning, yoga, løb og træning - med de videnskabelige briller."
 url                      : "https://www.motionsplan.dk" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "lsolesen/motionsplan-jekyll" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "motionsplan/motionsplan-dk-jekyll" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 logo                     : "/assets/images/logo.gif" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
