@@ -13,7 +13,7 @@ function:
     extended: ""
 exercises:
   - Stående calf-raise
-image: 
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Transversus_abdominis.png/375px-Transversus_abdominis.png
 image_focus: 
 ---
 

@@ -13,7 +13,7 @@ function:
     extended: ""
 exercises:
   - Stående calf-raise
-image: 
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Gray389_-_Erector_spinae.png/375px-Gray389_-_Erector_spinae.png
 image_focus: 
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: "Brachialis"
-latin: Brachialis
+title: "Brachoradialis"
+latin: Brachioradialis
 tags:
   - imagemap
   - muskel

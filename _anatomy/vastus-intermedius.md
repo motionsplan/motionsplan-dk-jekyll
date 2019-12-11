@@ -13,7 +13,7 @@ function:
     extended: This means that the vastus medialis muscle straightens the leg at the knee joint such that there is an increase in the angle between the lower leg and the upper leg.
 exercises:
   - Stående calf-raise
-image: 
+image: https://www.healthguideline.net/wp-content/uploads/2019/07/Quadriceps-2BMuscle-2BStrain.jpg
 image_focus: 
 ---
 

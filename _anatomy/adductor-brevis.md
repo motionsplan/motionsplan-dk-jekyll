@@ -13,7 +13,7 @@ function:
     extended: ""
 exercises:
   - Stående calf-raise
-image: 
+image: https://www.getbodysmart.com/wp-content/uploads/2017/09/4-8-550x550.png
 image_focus: 
 coords:
   - "126,253,120,261,125,272,129,288,130,304,132,297,132,285,131,268"

@@ -13,7 +13,7 @@ function:
     extended: ""
 exercises:
   - Stående calf-raise
-image: 
+image: https://chintamaniyoga.com/wp-content/uploads/2017/02/Screen-Shot-2017-02-04-at-4.55.13-PM-725x675.png
 image_focus: 
 ---
 
