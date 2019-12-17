@@ -4,8 +4,9 @@ permalink: /lobeokonomi/
 excerpt: "En god løbeøkonomi er evnen til at holde høj fart i lang tid ved et minimalt energiforbrug, men hvordan beregner man det egentlig?"
 language: da
 header:
-  overlay_image: https://c.pxhere.com/photos/e3/ed/dumbbells_training_silver_sports_force_mussels_body_building-600719.jpg!d
-  teaser: https://c.pxhere.com/photos/e3/ed/dumbbells_training_silver_sports_force_mussels_body_building-600719.jpg!d
+  overlay_image: https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80
+  teaser: https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  caption: "Photo by [Fitsum Admasu](https://unsplash.com/@fitmasu?utm_medium=referral&utm_campaign=photographer-credit&utm_content=creditBadge) on Unsplash"
 category:
   - Kondition
 tags:
