@@ -15,6 +15,7 @@ const wilks = require('wilks-calculator');
 const karvonen = require('./karvonen');
 const index23 = require('./fitness-index-23');
 const running = require('./running');
+const running_economy = require('./running-economy');
 require('image-map-resizer');
 
 $(document).ready(function() {
@@ -641,6 +642,19 @@ $(document).ready(function() {
         var c = running.Running();
 
         $("#velocity_convert_kmt").val(c.convertMinPerKmToKmt(min, sec));
+
+        return false;
+    });
+    $("#calculator_running_economy").submit(function() {
+        console.log("Calculate running economy");
+
+        var weight = Number($("[name='weight']").val());
+        var velocity = Number($("[name='velocity']").val());
+        var oxygenuptake = Number($("[name='oxygenuptake']").val());
+
+        var c = running_economy.RunningEconomy(weight, oxygenuptake);
+
+        $("#running_economy").val(c.getRunningEconomy(velocity).toFixed(2));
 
         return false;
     });

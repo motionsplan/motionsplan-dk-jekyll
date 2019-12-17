@@ -1,0 +1,25 @@
+<form class="calculator" id="calculator_running_economy">
+    <fieldset>
+        <legend>Beregning af løbeøkonomi</legend>
+        <div class="form-group">
+            <label>Vægt (kg)</label>
+            <input type="number" name="weight" placeholder="kg" step="0.01">
+        </div>
+        <div class="form-group">
+            <label>Hastighed (km/t)</label>
+            <input type="number" name="velocity" placeholder="km/t" step="0.01">
+        </div>
+        <div class="form-group">
+            <label>Iltoptagelse (l O<sub>2</sub>/min)</label>
+            <input type="number" name="oxygenuptake" placeholder="l/min" step="0.01">
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <legend></legend>
+        <div class="form-group">
+            <label>Løbeøkonomi (ml O<sub>2</sub>/kg/km)</label>
+            <input type="text" id="running_economy" name="running_economy" disabled="disabled" class="input-mini">
+        </div>
+    </fieldset>
+</form>

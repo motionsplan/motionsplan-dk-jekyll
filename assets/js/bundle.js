@@ -332,6 +332,7 @@ const wilks = require('wilks-calculator');
 const karvonen = require('./karvonen');
 const index23 = require('./fitness-index-23');
 const running = require('./running');
+const running_economy = require('./running-economy');
 require('image-map-resizer');
 
 $(document).ready(function() {
@@ -961,6 +962,19 @@ $(document).ready(function() {
 
         return false;
     });
+    $("#calculator_running_economy").submit(function() {
+        console.log("Calculate running economy");
+
+        var weight = Number($("[name='weight']").val());
+        var velocity = Number($("[name='velocity']").val());
+        var oxygenuptake = Number($("[name='oxygenuptake']").val());
+
+        var c = running_economy.RunningEconomy(weight, oxygenuptake);
+
+        $("#running_economy").val(c.getRunningEconomy(velocity).toFixed(2));
+
+        return false;
+    });
     // Calculate Cooper 12 min
     $("#calculator_cooper_2400_test").submit(function() {
         console.log("Calculate CooperTest 2400");
@@ -1137,7 +1151,7 @@ $(document).ready(function() {
 	});
 });
 
-},{"./1rm":3,"./bmi":5,"./bmr":6,"./cooper":8,"./cooper-running":7,"./etpunkttest":9,"./fat-pct":11,"./fat-pct-measurements":10,"./fitness-hr":12,"./fitness-index-23":13,"./karvonen":14,"./max-hr":15,"./running":16,"./topunkttest":17,"image-map-resizer":1,"wilks-calculator":2}],5:[function(require,module,exports){
+},{"./1rm":3,"./bmi":5,"./bmr":6,"./cooper":8,"./cooper-running":7,"./etpunkttest":9,"./fat-pct":11,"./fat-pct-measurements":10,"./fitness-hr":12,"./fitness-index-23":13,"./karvonen":14,"./max-hr":15,"./running":17,"./running-economy":16,"./topunkttest":18,"image-map-resizer":1,"wilks-calculator":2}],5:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.BMI = function(h, w) {
@@ -1716,6 +1730,37 @@ motionsplan.EstimateMaxHr = function(ald) {
 module.exports = motionsplan;
 
 },{}],16:[function(require,module,exports){
+let motionsplan = {}
+
+// weight in kg
+// velocity in km/t
+// oxygenuptage in L O2 / min
+motionsplan.RunningEconomy= function(weight, oxygenuptake) {
+
+  var w = weight;
+  var o = oxygenuptake;
+
+  function getRunningEconomy(velocity) {
+    var v = velocity;
+    var a = (o / w) * 1000; // ml / kg / min
+    var b = v / 60;
+    return a / b;
+  }
+
+  function getFitnessLevel() {
+    // return w / (h * h * h);
+  }
+
+  var publicAPI = {
+    getRunningEconomy : getRunningEconomy
+  };
+
+  return publicAPI;
+}
+
+module.exports = motionsplan;
+
+},{}],17:[function(require,module,exports){
 let motionsplan = {};
 
 motionsplan.Running = function() {
@@ -1787,7 +1832,7 @@ motionsplan.Running = function() {
 
 module.exports = motionsplan;
 
-},{}],17:[function(require,module,exports){
+},{}],18:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.ToPunktTest = function(age, weight, work1, hr1, work2, hr2) {
