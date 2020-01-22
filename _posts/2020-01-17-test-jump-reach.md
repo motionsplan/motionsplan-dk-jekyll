@@ -30,3 +30,5 @@ Foreløbig kan du læse mere om [spring, at hoppe højere og eksplosivitet her](
 
 - https://www.topendsports.com/testing/norms/vertical-jump.htm
 - https://www.scienceforsport.com/vertec-jump-test/
+
+{% include video provider="youtube" provider="0f7FQ8DWYk" %}
