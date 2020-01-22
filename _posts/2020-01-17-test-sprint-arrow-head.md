@@ -1,6 +1,6 @@
 ---
-title: "Sprint - "
-permalink: /sprint/
+title: "Sprint - Test din agility med arrow head"
+permalink: /arrow-head/
 excerpt: ""
 language: da
 header:
@@ -12,12 +12,17 @@ category:
 tags:
   - beregnere
   - løbeøkonomi
+  - SPARQ
 last_modified_at: 2019-11-19T23:14:14Z
 toc: true
 ---
 
 *[GCT]: Ground Contact Time
 *[RE]: Running Economy
-*[FTP]: Functional Threshld Power
+*[FTP]: Functional Threshold Power
 
 {% include video provider="youtube" id="Zdq6X4QlRg4" %}
+
+https://www.topendsports.com/testing/tests/arrowhead-agility-drill.htm
+
+https://files.eric.ed.gov/fulltext/EJ1182624.pdf

@@ -1,6 +1,6 @@
 ---
 title: "Hvor højt springer du - Jump and Reach"
-permalink: /sprint/
+permalink: /jump-reach/
 excerpt: ""
 language: da
 header:
@@ -19,3 +19,8 @@ toc: true
 
 
 {% include video provider="youtube" provider="0f7FQ8DWYk" %}
+
+
+https://www.topendsports.com/testing/norms/vertical-jump.htm
+
+https://www.scienceforsport.com/vertec-jump-test/

@@ -1,6 +1,6 @@
 ---
 title: "Hvor højt springer du? Counter movement jump og squat jump"
-permalink: /sprint/
+permalink: /cmj/
 excerpt: ""
 language: da
 header:

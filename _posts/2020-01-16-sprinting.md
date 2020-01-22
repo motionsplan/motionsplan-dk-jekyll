@@ -1,5 +1,5 @@
 ---
-title: "Sprint - "
+title: "Sprint - hvordan løber du hurtigere?"
 permalink: /sprint/
 excerpt: ""
 language: da

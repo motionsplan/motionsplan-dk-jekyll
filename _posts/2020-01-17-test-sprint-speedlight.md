@@ -1,6 +1,6 @@
 ---
 title: "Test hvor hurtigt du løber og accelererer - Sprintceller"
-permalink: /sprint/
+permalink: /sprintceller/
 excerpt: ""
 language: da
 header:

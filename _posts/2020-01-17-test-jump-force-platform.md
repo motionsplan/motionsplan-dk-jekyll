@@ -1,6 +1,6 @@
 ---
 title: "Hvor meget kraft sætter du af med - Kraftplatform"
-permalink: /sprint/
+permalink: /force-platform/
 excerpt: ""
 language: da
 header:
