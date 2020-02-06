@@ -20,6 +20,25 @@ motionsplan.Estimate1RM = function(weight, repetitions) {
     return repmax / (1 + (0.0333 * rm));
   }
 
+  function getReynolds(rm = 1) {
+    var repmax = (1 + (0.0333 * repetitions)) * weight;
+    if (rm == 1) {
+      return repmax;
+    }
+    return repmax / (1 + (0.0333 * rm));
+  }
+
+  /**
+   * Women College Aged
+   */
+  function getAbadie(rm = 1) {
+    var repmax = 7.24 + (1.05 * weight * repetitions);
+    if (rm == 1) {
+      return repmax;
+    }
+    return repmax / (1 + (0.0333 * rm));
+  }
+
   function getLander() {
     return (100 * weight) / (101.3 - 2.67123 * repetitions);
   }
