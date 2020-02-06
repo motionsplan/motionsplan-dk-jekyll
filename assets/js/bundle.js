@@ -212,8 +212,15 @@ motionsplan.Estimate1RM = function(weight, repetitions) {
     return repmax / (1 + (0.0333 * rm));
   }
 
-  function getReynolds(rm = 1) {
-    var repmax = (1 + (0.0333 * repetitions)) * weight;
+  function getReynolds(rm = 1, body_part = "lower") {
+    if (repetitions != 5) {
+      alert('Only works with 5 RM');
+    }
+    if (body_part == "lower") {
+      var repmax =  (1.09703 * weight) + 14.2546
+    } else {
+      var repmax =  (1.1307 * weight) + 0.6998;
+    }
     if (rm == 1) {
       return repmax;
     }
@@ -223,6 +230,7 @@ motionsplan.Estimate1RM = function(weight, repetitions) {
   /**
    * Women College Aged
    */
+  /*
   function getAbadie(rm = 1) {
     var repmax = 7.24 + (1.05 * weight * repetitions);
     if (rm == 1) {
@@ -230,6 +238,7 @@ motionsplan.Estimate1RM = function(weight, repetitions) {
     }
     return repmax / (1 + (0.0333 * rm));
   }
+  */
 
   function getLander() {
     return (100 * weight) / (101.3 - 2.67123 * repetitions);
@@ -317,6 +326,8 @@ motionsplan.Estimate1RM = function(weight, repetitions) {
 
   var publicAPI = {
     getBrzycki: getBrzycki,
+    // getAbadie: getAbadie,
+    getReynolds: getReynolds,
     getEpley: getEpley,
     getLander: getLander,
     getLombardi: getLombardi,

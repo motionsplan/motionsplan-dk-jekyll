@@ -17,6 +17,22 @@ describe('Estimate1RM', function() {
       assert.equal(rm.getWathan(), 116.58250529118924);
     });
   });
+  describe('getReynolds', function() {
+    it('should return the correct number', function() {
+      // weigt, reps
+      var rm = motionsplan.Estimate1RM(100, 5);
+      assert.equal(rm.getReynolds(), 123.95759999999999);
+    });
+  });
+  /*
+  describe('getAbadie', function() {
+    it('should return the correct number', function() {
+      // weigt, reps
+      var rm = motionsplan.Estimate1RM(100, 5);
+      assert.equal(rm.getAbadie(), 112.5);
+    });
+  });
+  */
   describe('getMol', function() {
     it('should return the correct number', function() {  
       var rm = motionsplan.Estimate1RM(100, 5);
