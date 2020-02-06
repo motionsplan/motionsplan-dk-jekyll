@@ -925,19 +925,6 @@ $(document).ready(function() {
         
         return false;
     });
-     // Calculate Cooper 12 min
-    $("#calculator_cooper_2400_test").submit(function() {
-        console.log("Calculate CooperTest 2400");
-
-        var min = Number($("#tid_min").val());
-        var sek = Number($("#tid_sek").val());
-
-        var c = cooper_test.CooperRunning();
-
-        $("#kondital").val(c.getVO22400MeterTest(min, sek));
-        
-        return false;
-    });
     $("#calculator_velocity").submit(function() {
         console.log("Calculate velocity");
 
@@ -1000,6 +987,19 @@ $(document).ready(function() {
 
         return false;
     });
+     // Calculate Cooper 2400 meter
+    $("#calculator_cooper_2400_test").submit(function() {
+        console.log("Calculate CooperTest 2400");
+
+        var min = Number($("#tid_min").val());
+        var sek = Number($("#tid_sek").val());
+
+        var c = cooper_test.CooperRunning();
+
+        $("#kondital").val(c.getVO22400MeterTest(min, sek));
+        
+        return false;
+    });
     // Calculate Cooper 12 min
     $("#calculator_cooper_test").submit(function() {
         console.log("Calculate CooperTest");
@@ -1017,7 +1017,6 @@ $(document).ready(function() {
         if (this.min) this.value = Math.max(parseInt(this.min), parseInt(this.value));
         if (this.max) this.value = Math.min(parseInt(this.max), parseInt(this.value));
     });
-
 
     $(".adductor-longus").hover(function () {
     	$(".adductor-longus").toggleClass("anatomy-popup-on");
