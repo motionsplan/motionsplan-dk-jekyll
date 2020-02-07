@@ -8,20 +8,64 @@ describe('Estimate1RM', function() {
       var rm = motionsplan.Estimate1RM(100, 5);
       assert.equal(rm.getBrzycki(), 112.5);
       assert.equal(rm.getBrzycki(2).toFixed(1), 109.4);
-      
-      // Other equations
-      assert.equal(rm.getLander(), 113.70891767872341);
-      assert.equal(rm.getLombardi(), 117.4618943088019);
+    });
+  });
+  describe('getMayhew', function() {
+    it('should return the correct number', function() {
+      // weigt, reps
+      var rm = motionsplan.Estimate1RM(100, 5);
       assert.equal(rm.getMayhew(), 119.01068045151959);
-      assert.equal(rm.getOconnor(), 112.5);
+      assert.equal(rm.getMayhew(5), 100);
+    });
+  });
+  describe('getLander', function() {
+    it('should return the correct number', function() {
+      // weigt, reps
+      var rm = motionsplan.Estimate1RM(100, 5);
+      assert.equal(rm.getLander(), 113.70891767872341);
+      assert.equal(rm.getLander(5), 100);
+    });
+  });
+  describe('getWathan', function() {
+    it('should return the correct number', function() {
+      // weigt, reps
+      var rm = motionsplan.Estimate1RM(100, 5);
       assert.equal(rm.getWathan(), 116.58250529118924);
+      assert.equal(rm.getWathan(5), 100);
+    });
+  });
+  describe('getLombardi', function() {
+    it('should return the correct number', function() {
+      // weigt, reps
+      var rm = motionsplan.Estimate1RM(100, 5);
+      assert.equal(rm.getLombardi(), 117.4618943088019);
+      assert.equal(rm.getLombardi(5), 100);
+    });
+  });
+  describe('getOconnor', function() {
+    it('should return the correct number', function() {
+      // weigt, reps
+      var rm = motionsplan.Estimate1RM(100, 5);
+      assert.equal(rm.getOconnor(), 112.5);
+      assert.equal(rm.getOconnor(5), 100);
+    });
+  });
+  describe('getWendler', function() {
+    it('should return the correct number', function() {
+      // weigt, reps
+      var rm = motionsplan.Estimate1RM(100, 5);
+      assert.equal(rm.getWendler(), 116.65);
+      assert.equal(rm.getWendler(5), 100);
     });
   });
   describe('getReynolds', function() {
     it('should return the correct number', function() {
       // weigt, reps
-      var rm = motionsplan.Estimate1RM(100, 5);
+      var rm;
+      rm = motionsplan.Estimate1RM(100, 5);
       assert.equal(rm.getReynolds(), 123.95759999999999);
+      assert.equal(rm.getReynolds("lower"), 123.95759999999999);
+      assert.equal(rm.getReynolds("upper"), 113.7698);
     });
   });
   /*

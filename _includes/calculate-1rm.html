@@ -5,10 +5,18 @@
             <label for="form-formula">Anvend følgende formel</label>
             <select name="formula" id="form-formula">
                 <option value="brzycki">Brzycki (mest udbredte)</option>
+                <option value="reynolds">Reynolds (kun ved 5RM)</option>
+                <option value="epley">Epley</option>
+                <option value="lander">Lander</option>
+                <option value="lombardi">Lombardi</option>
+                <option value="mayhew">Mayhew</option>
+                <option value="oconnor">O'Connor</option>
+                <option value="wathan">Wathan</option>
+                <option value="wendler">Wendler (empirisk)</option>
                 <option value="motiononline">Morten Zacho Motion-online.dk</option>
             </select>
         </div>
-        <div class="form-group">
+        <div class="form-group" id="form-group-reps">
             <label for="form-reps">Antal reps</label>
             <input type="number" min="1" max="15" id="form-reps" name="reps" placeholder="fx 5">
         </div>
@@ -16,6 +24,15 @@
             <label for="form-weight">Vægt (kg)</label>
             <input type="number" min="10" max="600" name="weight" id="form-weight" placeholder="fx 50" >
         </div>
+        <!-- REYNOLDS FORMULA -->
+        <div class="form-group reynolds">
+            <label for="form-sex">Kropsdel</label>
+            <select name="bodypart" id="form-bodypart">
+                <option value="lower">Underkrop</option>
+                <option value="upper">Overkrop</option>
+            </select>
+        </div>
+        <!-- MOTIONONLINE FORMULA -->
         <div class="form-group motiononline">
             <label for="form-sex">Køn</label>
             <select name="koen" id="form-sex">

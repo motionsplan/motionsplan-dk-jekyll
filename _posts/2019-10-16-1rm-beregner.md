@@ -17,6 +17,7 @@ tags:
   - beregnere
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
+classes: wide
 ---
 
 *[RM]: Repetition Maximum
@@ -42,12 +43,4 @@ Derfor er det mere typisk, at man bruger RM-begrebet til at estimere, hvad man n
 
 - [Testing 1RM](https://www.scienceforsport.com/1rm-testing/)
 
-Fleck & Kraemer. Designing resistance training programmes. Chapter 5, pp 101-102
-
-Hoeger et al. Journal of Applied Sport Science Research (1990) 4 (3): 47-54 Tables 3 & 4
-
-Anderson and Haring (1977) via
-Sale, D. G. and D. MacDougall. (1981) “Specificity in Strength Training: A Review for the Coach and Athlete.” Canadian Journal of Applied Sport Sciences (Vol 6 #2), pp 87-92.
-
-Brzycki, M. Strength testing: Predicting a one-rep max from a reps-to-fatigue
-Journal of Physical Education, Recreation and Dance 64 (1): 88-90, 1993.
+Reynolds, Jeff M., Toryanno J. Gordon, og Robert Andrew Robergs. “Prediction of one repetition maximum strength from multiple repetition maximum testing and anthropometry.” Journal of strength and conditioning research 20, nr. 3 (2006): 584–92. https://doi.org/10.1519/R-15304.1.

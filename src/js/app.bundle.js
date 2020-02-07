@@ -23,6 +23,7 @@ $(document).ready(function() {
 
     $("#form-formula").ready(function() {
         $(".motiononline").hide();
+        $(".reynolds").hide();
     });
     // 1RM calculate
     $("#form-formula").change(function() {
@@ -31,57 +32,156 @@ $(document).ready(function() {
         } else {
             $(".motiononline").hide();
         }
+        if ($("#form-formula").val() == 'reynolds') {
+            $(".reynolds").show();
+            $("#form-group-reps").hide();
+        } else {
+            $(".reynolds").hide();
+            $("#form-group-reps").show();
+        }
     });
     $("#calculator_rm").submit(function() {
         console.log("Calculate 1RM");
         
-        var repmax;
+        var repmax, reps;
+        var formula = $("#form-formula").val();
+        var decimals = 1;
 
-        var reps = Number($("#form-reps").val());
+        if (formula == "reynolds") {
+            reps = 5;
+        } else {    
+            reps = Number($("#form-reps").val());
+        }
         var weight = Number($("#form-weight").val());
         var trained = Number($("#form-trained").val());
         var koen = Number($("#form-sex").val());
-        var formula = Number($("#form-formula").val());
+        var bodypart = $("#form-bodypart").val();
 
         var r = rm.Estimate1RM(weight, reps);
 
         if (formula == "brzycki") {
             repmax = r.getMOLBrzycki();
-            $("#rm1").val(r.getMOLBrzycki());
-            $("#rm2").val(r.getMOLBrzycki(2));
-            $("#rm3").val(r.getMOLBrzycki(3));
-            $("#rm4").val(r.getMOLBrzycki(4));
-            $("#rm5").val(r.getMOLBrzycki(5));
-            $("#rm6").val(r.getMOLBrzycki(6));
-            $("#rm8").val(r.getMOLBrzycki(8));
-            $("#rm10").val(r.getMOLBrzycki(10));
-            $("#rm12").val(r.getMOLBrzycki(12));
-            $("#rm15").val(r.getMOLBrzycki(15));
-        }
-        else {
+            $("#rm1").val(repmax.toFixed(decimals));
+            $("#rm2").val(r.getMOLBrzycki(2).toFixed(decimals));
+            $("#rm3").val(r.getMOLBrzycki(3).toFixed(decimals));
+            $("#rm4").val(r.getMOLBrzycki(4).toFixed(decimals));
+            $("#rm5").val(r.getMOLBrzycki(5).toFixed(decimals));
+            $("#rm6").val(r.getMOLBrzycki(6).toFixed(decimals));
+            $("#rm8").val(r.getMOLBrzycki(8).toFixed(decimals));
+            $("#rm10").val(r.getMOLBrzycki(10).toFixed(decimals));
+            $("#rm12").val(r.getMOLBrzycki(12).toFixed(decimals));
+            $("#rm15").val(r.getMOLBrzycki(15).toFixed(decimals));
+        } else if (formula == "reynolds") {
+            repmax = r.getReynolds();
+            $("#rm1").val(repmax).toFixed(decimals);
+        } else if (formula == "epley") {
+            repmax = r.getEpley();
+            $("#rm1").val(repmax.toFixed(decimals));
+            $("#rm2").val(r.getEpley(2).toFixed(decimals));
+            $("#rm3").val(r.getEpley(3).toFixed(decimals));
+            $("#rm4").val(r.getEpley(4).toFixed(decimals));
+            $("#rm5").val(r.getEpley(5).toFixed(decimals));
+            $("#rm6").val(r.getEpley(6).toFixed(decimals));
+            $("#rm8").val(r.getEpley(8).toFixed(decimals));
+            $("#rm10").val(r.getEpley(10).toFixed(decimals));
+            $("#rm12").val(r.getEpley(12).toFixed(decimals));
+            $("#rm15").val(r.getEpley(15).toFixed(decimals));
+        } else if (formula == "lander") {
+            repmax = r.getLander();
+            $("#rm1").val(repmax.toFixed(decimals));
+            $("#rm2").val(r.getLander(2).toFixed(decimals));
+            $("#rm3").val(r.getLander(3).toFixed(decimals));
+            $("#rm4").val(r.getLander(4).toFixed(decimals));
+            $("#rm5").val(r.getLander(5).toFixed(decimals));
+            $("#rm6").val(r.getLander(6).toFixed(decimals));
+            $("#rm8").val(r.getLander(8).toFixed(decimals));
+            $("#rm10").val(r.getLander(10).toFixed(decimals));
+            $("#rm12").val(r.getLander(12).toFixed(decimals));
+            $("#rm15").val(r.getLander(15).toFixed(decimals));
+        } else if (formula == "lombardi") {
+            repmax = r.getLombardi();
+            $("#rm1").val(repmax.toFixed(decimals));
+            $("#rm2").val(r.getLombardi(2).toFixed(decimals));
+            $("#rm3").val(r.getLombardi(3).toFixed(decimals));
+            $("#rm4").val(r.getLombardi(4).toFixed(decimals));
+            $("#rm5").val(r.getLombardi(5).toFixed(decimals));
+            $("#rm6").val(r.getLombardi(6).toFixed(decimals));
+            $("#rm8").val(r.getLombardi(8).toFixed(decimals));
+            $("#rm10").val(r.getLombardi(10).toFixed(decimals));
+            $("#rm12").val(r.getLombardi(12).toFixed(decimals));
+            $("#rm15").val(r.getLombardi(15).toFixed(decimals));
+        } else if (formula == "mayhew") {
+            repmax = r.getMayhew();
+            $("#rm1").val(repmax.toFixed(decimals));
+            $("#rm2").val(r.getMayhew(2).toFixed(decimals));
+            $("#rm3").val(r.getMayhew(3).toFixed(decimals));
+            $("#rm4").val(r.getMayhew(4).toFixed(decimals));
+            $("#rm5").val(r.getMayhew(5).toFixed(decimals));
+            $("#rm6").val(r.getMayhew(6).toFixed(decimals));
+            $("#rm8").val(r.getMayhew(8).toFixed(decimals));
+            $("#rm10").val(r.getMayhew(10).toFixed(decimals));
+            $("#rm12").val(r.getMayhew(12).toFixed(decimals));
+            $("#rm15").val(r.getMayhew(15).toFixed(decimals));
+        } else if (formula == "oconnor") {
+            repmax = r.getOconnor();
+            $("#rm1").val(repmax.toFixed(decimals));
+            $("#rm2").val(r.getOconnor(2).toFixed(decimals));
+            $("#rm3").val(r.getOconnor(3).toFixed(decimals));
+            $("#rm4").val(r.getOconnor(4).toFixed(decimals));
+            $("#rm5").val(r.getOconnor(5).toFixed(decimals));
+            $("#rm6").val(r.getOconnor(6).toFixed(decimals));
+            $("#rm8").val(r.getOconnor(8).toFixed(decimals));
+            $("#rm10").val(r.getOconnor(10).toFixed(decimals));
+            $("#rm12").val(r.getOconnor(12).toFixed(decimals));
+            $("#rm15").val(r.getOconnor(15).toFixed(decimals));
+        } else if (formula == "wathan") {
+            repmax = r.getWathan();
+            $("#rm1").val(repmax.toFixed(decimals));
+            $("#rm2").val(r.getWathan(2).toFixed(decimals));
+            $("#rm3").val(r.getWathan(3).toFixed(decimals));
+            $("#rm4").val(r.getWathan(4).toFixed(decimals));
+            $("#rm5").val(r.getWathan(5).toFixed(decimals));
+            $("#rm6").val(r.getWathan(6).toFixed(decimals));
+            $("#rm8").val(r.getWathan(8).toFixed(decimals));
+            $("#rm10").val(r.getWathan(10).toFixed(decimals));
+            $("#rm12").val(r.getWathan(12).toFixed(decimals));
+            $("#rm15").val(r.getWathan(15).toFixed(decimals));
+        } else if (formula == "wendler") {
+            repmax = r.getWendler();
+            $("#rm1").val(repmax.toFixed(decimals));
+            $("#rm2").val(r.getWendler(2).toFixed(decimals));
+            $("#rm3").val(r.getWendler(3).toFixed(decimals));
+            $("#rm4").val(r.getWendler(4).toFixed(decimals));
+            $("#rm5").val(r.getWendler(5).toFixed(decimals));
+            $("#rm6").val(r.getWendler(6).toFixed(decimals));
+            $("#rm8").val(r.getWendler(8).toFixed(decimals));
+            $("#rm10").val(r.getWendler(10).toFixed(decimals));
+            $("#rm12").val(r.getWendler(12).toFixed(decimals));
+            $("#rm15").val(r.getWendler(15).toFixed(decimals));
+        } else {
             repmax = r.getMOL(trained, koen);
             $("#rm1").val(repmax);
-            $("#rm2").val(r.getMOL(trained, koen, 2));
-            $("#rm3").val(r.getMOL(trained, koen, 3));
-            $("#rm4").val(r.getMOL(trained, koen, 4));
-            $("#rm5").val(r.getMOL(trained, koen, 5));
-            $("#rm6").val(r.getMOL(trained, koen, 6));
-            $("#rm8").val(r.getMOL(trained, koen, 8));
-            $("#rm10").val(r.getMOL(trained, koen, 10));
-            $("#rm12").val(r.getMOL(trained, koen, 12));
-            $("#rm15").val(r.getMOL(trained, koen, 15));
+            $("#rm2").val(r.getMOL(trained, koen, 2).toFixed(decimals));
+            $("#rm3").val(r.getMOL(trained, koen, 3).toFixed(decimals));
+            $("#rm4").val(r.getMOL(trained, koen, 4).toFixed(decimals));
+            $("#rm5").val(r.getMOL(trained, koen, 5).toFixed(decimals));
+            $("#rm6").val(r.getMOL(trained, koen, 6).toFixed(decimals));
+            $("#rm8").val(r.getMOL(trained, koen, 8).toFixed(decimals));
+            $("#rm10").val(r.getMOL(trained, koen, 10).toFixed(decimals));
+            $("#rm12").val(r.getMOL(trained, koen, 12).toFixed(decimals));
+            $("#rm15").val(r.getMOL(trained, koen, 15).toFixed(decimals));
         }
 
-        $("#p100").val(r.getPercentOfRm(repmax, 100));
-        $("#p95").val(r.getPercentOfRm(repmax, 95));
-        $("#p90").val(r.getPercentOfRm(repmax, 90));
-        $("#p85").val(r.getPercentOfRm(repmax, 85));
-        $("#p80").val(r.getPercentOfRm(repmax, 80));
-        $("#p75").val(r.getPercentOfRm(repmax, 75));
-        $("#p70").val(r.getPercentOfRm(repmax, 70));
-        $("#p60").val(r.getPercentOfRm(repmax, 60));
-        $("#p50").val(r.getPercentOfRm(repmax, 50));
-        $("#p40").val(r.getPercentOfRm(repmax, 40));
+        $("#p100").val(r.getPercentOfRm(repmax, 100).toFixed(decimals));
+        $("#p95").val(r.getPercentOfRm(repmax, 95).toFixed(decimals));
+        $("#p90").val(r.getPercentOfRm(repmax, 90).toFixed(decimals));
+        $("#p85").val(r.getPercentOfRm(repmax, 85).toFixed(decimals));
+        $("#p80").val(r.getPercentOfRm(repmax, 80).toFixed(decimals));
+        $("#p75").val(r.getPercentOfRm(repmax, 75).toFixed(decimals));
+        $("#p70").val(r.getPercentOfRm(repmax, 70).toFixed(decimals));
+        $("#p60").val(r.getPercentOfRm(repmax, 60).toFixed(decimals));
+        $("#p50").val(r.getPercentOfRm(repmax, 50).toFixed(decimals));
+        $("#p40").val(r.getPercentOfRm(repmax, 40).toFixed(decimals));
         return false;
     });
     // Mortality calculation
