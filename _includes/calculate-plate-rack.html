@@ -1,15 +1,20 @@
-
-    <style>
-        .stack-table td {
-            padding: 7px 3px 7px 3px;
-        }
-    </style>
-<form>
+<style>
+    .stack-table td {
+        padding: 7px 3px 7px 3px;
+    }
+</style>
+<form  class="calculator" id="calculator_plate_rack">
+    <fieldset>
     <table class="stack-table">
         <tbody>
             <tr>
                 <td>
-                    <input name="Weight" type="text" size="5" value="100" id="Weight"> Total Weight
+                    <div class="form-group">
+                        <label>Total Weight</label>
+                        <input name="Weight" type="text" size="5" value="100" id="Weight">
+                    </div>
+                    <div class="form-group">
+                    <label>Percentage</label>
                     <select name="Percentage" id="Percentage">
                         <option value="1" selected="">100%</option>
                         <option value="0.95">95%</option>
@@ -31,21 +36,40 @@
                         <option value="0.15">15%</option>
                         <option value="0.10">10%</option>
                         <option value="0.05">5%</option>
-                    </select> Percentage
-                    <input name="Bar" type="text" size="5" value="20" id="Bar"> Bar Weight
-                    <select name="Collars" id="collars">
-                        <option value="0" selected="">None</option>
-                        <option value="0.5">Spring ()</option>
-                        <option value="1">Clamp ()</option>
-                        <option value="5">Standard ()</option>
-                    </select> Collars
-                    <hr>
-                    <input type="button" value="Calculate" onclick="startcalc();">
-                    <input type="reset" value="Reset" name="Reset">
+                    </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Bar weight</label>
+                        <input name="Bar" type="text" size="5" value="20" id="Bar">
+                    </div>
                     
-                    <input name="Target" type="text" size="5" id="Target" disabled=""> Target Weight
-                    <input name="Final" type="text" size="5" id="finalw" disabled=""> Final Weight
-                    <input name="Dif" type="text" size="5" id="diff" disabled=""> Difference
+                    <div class="form-group">
+                        <label>Collars</label>
+                        <select name="Collars" id="collars">
+                            <option value="0" selected="">None</option>
+                            <option value="0.5">Spring ()</option>
+                            <option value="1">Clamp ()</option>
+                            <option value="5">Standard ()</option>
+                        </select>
+                    </div>
+
+                    <input type="submit" value="Calculate" onclick="startcalc();">
+                    <input type="reset" value="Reset" name="Reset">
+                    </fieldset>
+                    <fieldset class="results">
+
+                    <div class="form-group">
+                        <label>Target weight</label>
+                        <input name="Target" type="text" size="5" id="Target" disabled="disabled">
+                    </div>
+                    <div class="form-group">
+                        <label>Final Weight</label>
+                        <input name="Final" type="text" size="5" id="finalw" disabled="disabled">
+                    </div>
+                    <div class="form-group">
+                        <label>Difference</label>
+                        <input name="Dif" type="text" size="5" id="diff" disabled="disabled">
+                    </div>
                 </td>
                 <td>
                     <table>
@@ -54,105 +78,94 @@
                             <tr>
                                 <td>Required</td>
                                 <td>Weight (kg)</td>
-                                <td>Color</td>
                                 <td>Available</td>
                             </tr>
                             <tr>
                                 <td>
-                                    <input name="N25" type="text" size="4" id="req100" disabled="">
+                                    <input name="N25" type="text" size="4" id="req100" disabled="disabled">
                                 </td>
-                                <td>25</td>
-                                <td width="22%" bgcolor="#ff0000" align="CENTER">&nbsp;</td>
+                                <td bgcolor="#ff0000">25</td>
                                 <td>
-                                    <input name="A25" type="text" size="4" value="20" id="avail100">
+                                    <input name="A25" type="text" size="4" value="2" id="avail100">
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <input name="N20" type="text" size="4" id="req45" disabled="">
+                                    <input name="N20" type="text" size="4" id="req45" disabled="disabled">
                                 </td>
-                                <td>20</td>
-                                <td width="22%" bgcolor="#0000ff" align="CENTER">&nbsp;</td>
+                                <td bgcolor="#0000ff">20</td>
                                 <td>
                                     <input name="A20" type="text" size="4" value="2" id="avail45">
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <input name="N15" type="text" size="4" id="req35" disabled="">
+                                    <input name="N15" type="text" size="4" id="req35" disabled="disabled">
                                 </td>
-                                <td>15</td>
-                                <td width="22%" bgcolor="#ffff00" align="CENTER">&nbsp;</td>
+                                <td bgcolor="#ffff00">15</td>
                                 <td>
                                     <input name="A15" type="text" size="4" value="2" id="avail35">
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <input name="N10" type="text" size="4" id="req25" disabled="">
+                                    <input name="N10" type="text" size="4" id="req25" disabled="disabled">
                                 </td>
-                                <td>10</td>
-                                <td width="22%" bgcolor="#009900" align="CENTER">&nbsp;</td>
+                                <td bgcolor="#009900">10</td>
                                 <td>
                                     <input name="A10" type="text" size="4" value="2" id="avail25">
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <input name="N5" type="text" size="4" id="req10" disabled="">
+                                    <input name="N5" type="text" size="4" id="req10" disabled="disabled">
                                 </td>
                                 <td>5</td>
-                                <td>&nbsp;</td>
                                 <td>
                                     <input name="A5" type="text" size="4" value="2" id="avail10">
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <input name="N2half" type="text" size="4" id="req2" disabled="">
+                                    <input name="N2half" type="text" size="4" id="req2" disabled="disabled">
                                 </td>
-                                <td>2.5</td>
-                                <td bgcolor="#ff0000">&nbsp;</td>
+                                <td bgcolor="#ff0000">2.5</td>
                                 <td>
                                     <input name="A2half" type="text" size="4" value="2" id="avail2">
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <input name="N2" type="text" size="4" id="req5" disabled="">
+                                    <input name="N2" type="text" size="4" id="req5" disabled="disabled">
                                 </td>
-                                <td>2</td>
-                                <td width="22%" bgcolor="#0000ff" align="CENTER">&nbsp;</td>
+                                <td bgcolor="#0000ff">2</td>
                                 <td>
                                     <input name="A2" type="text" size="4" value="2" id="avail5">
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <input name="N1half" type="text" size="4" id="req2" disabled="">
+                                    <input name="N1half" type="text" size="4" id="req2" disabled="disabled">
                                 </td>
-                                <td>1.5</td>
-                                <td width="22%" bgcolor="#ffff00" align="CENTER">&nbsp;</td>
+                                <td bgcolor="#ffff00">1.5</td>
                                 <td>
                                     <input name="A1half" type="text" size="4" value="2" id="avail2">
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <input name="N1" type="text" size="4" id="req5" disabled="">
+                                    <input name="N1" type="text" size="4" id="req5" disabled="disabled">
                                 </td>
-                                <td>1</td>
-                                <td width="22%" bgcolor="#009900" align="CENTER">&nbsp;</td>
+                                <td bgcolor="#009900">1</td>
                                 <td>
                                     <input name="A1" type="text" size="4" value="2" id="avail2">
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <input name="Nhalf" type="text" size="4" id="req5" disabled="">
+                                    <input name="Nhalf" type="text" size="4" id="req5" disabled="disabled">
                                 </td>
                                 <td>0.5</td>
-                                <td>&nbsp;</td>
                                 <td>
                                     <input name="Ahalf" type="text" size="4" value="2" id="avail2">
                                 </td>
@@ -163,13 +176,10 @@
             </tr>
         </tbody>
     </table>
-    <p></p>
+    </fieldset>
 </form>
 <script>
-    // Do not copy any part of this script without permission; ExRx.net; http://www.exrx.net 
-
     function startcalc() {
-        /*Variable initialization*/
 
         var Weight, percentage, Selpercentage, Bar, Collars, Selcollars;
         var Target, Final, Diff;
