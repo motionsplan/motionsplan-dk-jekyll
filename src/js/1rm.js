@@ -30,9 +30,9 @@ motionsplan.Estimate1RM = function(weight, repetitions = 5) {
 
   function getReynoldsPercent(body_part = "lower", rm = 1) {
     if (body_part == "lower") {
-      return 78.17 * Math.pow(Math.E, -0.0569 * rm) + 26.41;
+      return 78.17 * Math.exp(-0.0569 * rm) + 26.41;
     } else {
-      return 55.51 * Math.pow(Math.E, -0.0723 * rm) + 48.47;
+      return 55.51 * Math.exp(-0.0723 * rm) + 48.47;
     }
   }
 
