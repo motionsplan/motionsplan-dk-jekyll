@@ -66,6 +66,16 @@ describe('Estimate1RM', function() {
       assert.equal(rm.getReynolds(), 123.95759999999999);
       assert.equal(rm.getReynolds("lower"), 123.95759999999999);
       assert.equal(rm.getReynolds("upper"), 113.7698);
+
+      assert.equal(rm.getReynoldsPercent("upper"), 100.1082762196593);
+      assert.equal(rm.getReynoldsPercent("lower"), 100.25630266342826);
+
+      assert.equal(rm.getReynoldsPercent("upper", 5), 87.13996438815076);
+      assert.equal(rm.getReynoldsPercent("lower", 5), 85.22435408662034);
+
+      // Gives Percentage of 1RM.
+      assert.equal(rm.getReynolds("lower", 5), 105.64206394127649);
+      assert.equal(rm.getReynolds("upper", 5), 99.13896320447034);
     });
   });
   /*

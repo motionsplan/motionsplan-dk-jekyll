@@ -74,6 +74,15 @@ $(document).ready(function() {
         } else if (formula == "reynolds") {
             repmax = r.getReynolds();
             $("#rm1").val(repmax.toFixed(decimals));
+            $("#rm2").val(r.getReynolds(bodypart, 2).toFixed(decimals));
+            $("#rm3").val(r.getReynolds(bodypart, 3).toFixed(decimals));
+            $("#rm4").val(r.getReynolds(bodypart, 4).toFixed(decimals));
+            $("#rm5").val(r.getReynolds(bodypart, 5).toFixed(decimals));
+            $("#rm6").val(r.getReynolds(bodypart, 6).toFixed(decimals));
+            $("#rm8").val(r.getReynolds(bodypart, 8).toFixed(decimals));
+            $("#rm10").val(r.getReynolds(bodypart, 10).toFixed(decimals));
+            $("#rm12").val(r.getReynolds(bodypart, 12).toFixed(decimals));
+            $("#rm15").val(r.getReynolds(bodypart, 15).toFixed(decimals));
         } else if (formula == "epley") {
             repmax = r.getEpley();
             $("#rm1").val(repmax.toFixed(decimals));
