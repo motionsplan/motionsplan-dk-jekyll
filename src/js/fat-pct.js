@@ -1,5 +1,9 @@
 let motionsplan = {}
 
+/**
+ * Also see here
+ * https://www.researchgate.net/publication/242017991_Predicting_Body_Composition_in_College_Students_Using_the_Womersley_and_Durnin_Body_Mass_Index_Equation
+ */
 motionsplan.CalculateFatPercent = function(h, w, a, sex) {
   var h, w, sex;
 
