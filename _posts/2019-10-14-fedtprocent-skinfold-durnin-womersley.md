@@ -44,8 +44,8 @@ Der måles på biceps, triceps, skulderbladets spids og hoftekammen. Du kan se n
 
 ## Usikkerheder i Durnin & Womersley
 
-- Den oprindelige formel tager også højde for alderen, da der typisk vil komme mere fedt omkring de indre organer.
-- Formlen overestimerer fedtprocenten med 2-3% for meget magre personer.
+- Der tages højde for alderen i formlen, da der typisk vil komme mere fedt omkring de indre organer.
+- Formlen kan overestimere fedtprocenten med 2-3% for meget magre personer.
 
 ## Formler
 
