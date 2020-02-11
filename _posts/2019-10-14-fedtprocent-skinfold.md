@@ -1,6 +1,8 @@
 ---
 title: "Måling af fedtprocent med skinfold måler"
-permalink: /artikel/fedtprocent-skinfold/
+permalink: /skinfold/
+redirect_from:
+  - /artikel/fedtprocent-skinfold/
 excerpt: "Du kan måle din fedtprocent og kropskomposition med bioimpedans - og de nyere maskiner er relativt reliabile og valide"
 language: da
 header:
