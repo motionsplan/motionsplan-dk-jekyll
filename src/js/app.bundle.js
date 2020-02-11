@@ -32,13 +32,6 @@ $(document).ready(function() {
         } else {
             $(".motiononline").hide();
         }
-        if ($("#form-formula").val() == 'reynolds') {
-            $(".reynolds").show();
-            $("#form-group-reps").hide();
-        } else {
-            $(".reynolds").hide();
-            $("#form-group-reps").show();
-        }
     });
     $("#calculator_rm").submit(function() {
         console.log("Calculate 1RM");
@@ -47,11 +40,7 @@ $(document).ready(function() {
         var formula = $("#form-formula").val();
         var decimals = 1;
 
-        if (formula == "reynolds") {
-            reps = 5;
-        } else {    
-            reps = Number($("#form-reps").val());
-        }
+        var reps = Number($("#form-reps").val());
         var weight = Number($("#form-weight").val());
         var trained = Number($("#form-trained").val());
         var koen = Number($("#form-sex").val());

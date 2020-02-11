@@ -12,7 +12,10 @@ motionsplan.Estimate1RM = function(weight, repetitions = 5) {
     return repmax / (36 / (37 - rm));
   }
 
-  function getReynolds(body_part = "lower", rm = 1) {
+  /**
+   * Lower body Reynolds seems to overestimate lower body 1RM
+   */
+  function getReynolds5RM(body_part = "lower") {
     if (repetitions != 5) {
       throw Error('Reynolds only works with 5RM');
     }
@@ -22,6 +25,16 @@ motionsplan.Estimate1RM = function(weight, repetitions = 5) {
     } else {
       repmax = (1.1307 * weight) + 0.6998;
     }
+    return repmax;
+  }
+
+  /**
+   * Lower body Reynolds original formula from getReynolds5RM()
+   * seems to overestimate lower body 1RM so we are using the estimation formula
+   * from figure 3 instead for all calculations.
+   */
+  function getReynolds(body_part = "lower", rm = 1) {
+    var repmax = weight / getReynoldsPercent(body_part, repetitions) * 100;
     if (rm == 1) {
       return repmax;
     }
@@ -176,6 +189,7 @@ motionsplan.Estimate1RM = function(weight, repetitions = 5) {
     getBrzycki: getBrzycki,
     // getAbadie: getAbadie,
     getReynolds: getReynolds,
+    getReynolds5RM: getReynolds5RM,
     getReynoldsPercent: getReynoldsPercent,
     getEpley: getEpley,
     getLander: getLander,
