@@ -16,6 +16,8 @@ const karvonen = require('./karvonen');
 const index23 = require('./fitness-index-23');
 const running = require('./running');
 const running_economy = require('./running-economy');
+const skinfold_durnin = require('./skinfold-durnin');
+
 require('image-map-resizer');
 
 $(document).ready(function() {
@@ -280,27 +282,18 @@ $(document).ready(function() {
     $("#calculator_skinfold_durnin").submit(function() {
         console.log("Calculate Skinfold Durnin");
 
-        var density;
-
         var biceps = Number($("[name='biceps']").val());
         var triceps = Number($("[name='triceps']").val());
         var hoftekam = Number($("[name='hoftekam']").val());
         var skulder = Number($("[name='skulder']").val());
         var vaegt = Number($("[name='vaegt']").val());
-        var koen = Number($("[name='koen']").val());
+        var koen = $("[name='koen']").val();
 
-        var fedtsum = biceps * 1 + triceps * 1 + hoftekam * 1 + skulder * 1;
-        if (koen == 1) {
-            density = -0.0274 * Math.log(fedtsum) + 1.1631;
-        }
-        else {
-            density = -0.0311 * Math.log(fedtsum) + 1.1599;
-        }
-        var resultat1 = Math.round((495 / density - 450) * Math.pow(10, 1)) / Math.pow(10, 1)
-        var resultat2 = Math.round((vaegt - vaegt * resultat1 / 100) * Math.pow(10, 1)) / Math.pow(10, 1)
-
-        $("[name='fedtprocentDurnin']").val(resultat1);
-        $("[name='fedtfriDurnin']").val(resultat2);
+        //var f = skinfold_durnin.SkinfoldDurnin(biceps, triceps, hoftekam, skulder, vaegt, koen);
+        var f = skinfold_durnin.SkinfoldDurnin(10, 10, 20, 20, 80, "female");
+        
+        $("[name='fedtprocentDurnin']").val(f.getBodyFatPercent().toFixed(2));
+        $("[name='fedtfriDurnin']").val(f.getFatFreeMass().toFixed(2));
         return false;
     });
     // Calculate Pollock

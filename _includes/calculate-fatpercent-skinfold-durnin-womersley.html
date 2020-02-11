@@ -1,11 +1,5 @@
-<table>
-    <tbody>
-        <tr>
-            <td><img width="146" height="195" src="https://web.archive.org/web/20110704004541im_/http://www.motion-online.dk/images/fedt/woman_durnin1.jpg" /></td>
-            <td><img width="147" height="195" src="https://web.archive.org/web/20110704004541im_/http://www.motion-online.dk/images/fedt/woman_durnin2.jpg" /></td>
-        </tr>
-    </tbody>
-</table>
+{% include figure image_path="https://miro.medium.com/max/2250/1*dMsWX5cS4CLkKnVAyYPn5A.png" alt="Durnin and Womersley 4-site skinfold test" %}
+{% include figure image_path="https://miro.medium.com/max/2250/1*_FXK5XcWvuWv0g-aZD-6fQ.png" alt="Durnin and Womersley 4-site skinfold test" %}
 
 <form class="calculator" id="calculator_skinfold_durnin">
     <fieldset>
@@ -29,13 +23,13 @@
         <div class="form-group">
             <label for="gender">Køn</label>
             <select name="koen" id="gender">
-                <option value="1">Mand</option>
-                <option value="0">Kvinde</option>
+                <option value="male">Mand</option>
+                <option value="female">Kvinde</option>
             </select>
         </div>
         <div class="form-group">
             <label for="vaegt">Vægt (kg)</label>
-            <input type="number" name="vaegt" id="vaegt" min="10" max="200">
+            <input type="number" name="vaegt" id="vaegt" min="10" max="200" step="0.1">
         </div>
         <input type="submit" value="Beregn">
     </fieldset>

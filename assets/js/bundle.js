@@ -192,7 +192,7 @@ module.exports = {
 },{}],3:[function(require,module,exports){
 let motionsplan = {};
 
-motionsplan.Estimate1RM = function(weight, repetitions) {
+motionsplan.Estimate1RM = function(weight, repetitions = 5) {
   weight = weight;
   repetitions = repetitions;
 
@@ -204,6 +204,43 @@ motionsplan.Estimate1RM = function(weight, repetitions) {
     return repmax / (36 / (37 - rm));
   }
 
+  /**
+   * Lower body Reynolds seems to overestimate lower body 1RM
+   */
+  function getReynolds5RM(body_part = "lower") {
+    if (repetitions != 5) {
+      throw Error('Reynolds only works with 5RM');
+    }
+    var repmax;
+    if (body_part == "lower") {
+      repmax = (1.09703 * weight) + 14.2546;
+    } else {
+      repmax = (1.1307 * weight) + 0.6998;
+    }
+    return repmax;
+  }
+
+  /**
+   * Lower body Reynolds original formula from getReynolds5RM()
+   * seems to overestimate lower body 1RM so we are using the estimation formula
+   * from figure 3 instead for all calculations.
+   */
+  function getReynolds(body_part = "lower", rm = 1) {
+    var repmax = weight / getReynoldsPercent(body_part, repetitions) * 100;
+    if (rm == 1) {
+      return repmax;
+    }
+    return getReynoldsPercent(body_part, rm) * repmax / 100;
+  }
+
+  function getReynoldsPercent(body_part = "lower", rm = 1) {
+    if (body_part == "lower") {
+      return 78.17 * Math.exp(-0.0569 * rm) + 26.41;
+    } else {
+      return 55.51 * Math.exp(-0.0723 * rm) + 48.47;
+    }
+  }
+
   function getEpley(rm = 1) {
     var repmax = (1 + (0.0333 * repetitions)) * weight;
     if (rm == 1) {
@@ -212,24 +249,68 @@ motionsplan.Estimate1RM = function(weight, repetitions) {
     return repmax / (1 + (0.0333 * rm));
   }
 
-  function getLander() {
-    return (100 * weight) / (101.3 - 2.67123 * repetitions);
+  /**
+   * Women College Aged
+   */
+  /*
+  function getAbadie(rm = 1) {
+    var repmax = 7.24 + (1.05 * weight * repetitions);
+    if (rm == 1) {
+      return repmax;
+    }
+    return repmax / (1 + (0.0333 * rm));
+  }
+  */
+
+  /**
+   * McGlothin on Wikipedia
+   */
+  function getLander(rm = 1) {
+    var repmax = (100 * weight) / (101.3 - 2.67123 * repetitions);
+    if (rm == 1) {
+      return repmax;
+    }
+    return (repmax * (101.3 - 2.67123 * rm)) / 100;
   }
 
-  function getLombardi() {
-    return weight * (Math.pow(repetitions, 0.1));
+  function getLombardi(rm = 1) {
+    var repmax = weight * (Math.pow(repetitions, 0.1));
+    if (rm == 1) {
+      return repmax;
+    }
+    return repmax / ((Math.pow(repetitions, 0.1)));
   }
 
-  function getMayhew() {
-    return (100 * weight) / (52.2 + (41.9 * Math.exp(-0.055 * repetitions)));
+  function getMayhew(rm = 1) {
+    var repmax = (100 * weight) / (52.2 + (41.9 * Math.exp(-0.055 * repetitions)));
+    if (rm == 1) {
+      return repmax;
+    }
+    return repmax * (52.2 + (41.9 * Math.exp(-0.055 * rm))) / 100;
   }
 
-  function getOconnor() {
-    return weight * (1 + 0.025 * repetitions);
+  function getOconnor(rm = 1) {
+    var repmax = weight * (1 + 0.025 * repetitions);
+    if (rm == 1) {
+      return repmax;
+    }
+    return repmax / (1 + 0.025 * rm);
   }
 
-  function getWathan() {
-    return (100 * weight) / (48.8 + (53.8 * Math.exp(-0.075 * repetitions)));
+  function getWathan(rm = 1) {
+    var repmax = (100 * weight) / (48.8 + (53.8 * Math.exp(-0.075 * repetitions)));
+    if (rm == 1) {
+      return repmax;
+    }
+    return repmax * (48.8 + (53.8 * Math.exp(-0.075 * rm))) / 100;
+  }
+
+  function getWendler(rm = 1) {
+    var repmax = weight * repetitions * 0.0333 + weight;
+    if (rm == 1) {
+      return repmax;
+    }
+    return 1 / (((rm * .0333) / repmax) + (1 / repmax));
   }
 
   /**
@@ -298,6 +379,10 @@ motionsplan.Estimate1RM = function(weight, repetitions) {
 
   var publicAPI = {
     getBrzycki: getBrzycki,
+    // getAbadie: getAbadie,
+    getReynolds: getReynolds,
+    getReynolds5RM: getReynolds5RM,
+    getReynoldsPercent: getReynoldsPercent,
     getEpley: getEpley,
     getLander: getLander,
     getLombardi: getLombardi,
@@ -306,7 +391,8 @@ motionsplan.Estimate1RM = function(weight, repetitions) {
     getWathan: getWathan,
     getMOL: getMOL,
     getMOLBrzycki : getMOLBrzycki,
-    getPercentOfRm : getPercentOfRm
+    getPercentOfRm : getPercentOfRm,
+    getWendler : getWendler
   };
 
   return publicAPI;
@@ -333,6 +419,8 @@ const karvonen = require('./karvonen');
 const index23 = require('./fitness-index-23');
 const running = require('./running');
 const running_economy = require('./running-economy');
+const skinfold_durnin = require('./skinfold-durnin');
+
 require('image-map-resizer');
 
 $(document).ready(function() {
@@ -597,27 +685,18 @@ $(document).ready(function() {
     $("#calculator_skinfold_durnin").submit(function() {
         console.log("Calculate Skinfold Durnin");
 
-        var density;
-
         var biceps = Number($("[name='biceps']").val());
         var triceps = Number($("[name='triceps']").val());
         var hoftekam = Number($("[name='hoftekam']").val());
         var skulder = Number($("[name='skulder']").val());
         var vaegt = Number($("[name='vaegt']").val());
-        var koen = Number($("[name='koen']").val());
+        var koen = $("[name='koen']").val();
 
-        var fedtsum = biceps * 1 + triceps * 1 + hoftekam * 1 + skulder * 1;
-        if (koen == 1) {
-            density = -0.0274 * Math.log(fedtsum) + 1.1631;
-        }
-        else {
-            density = -0.0311 * Math.log(fedtsum) + 1.1599;
-        }
-        var resultat1 = Math.round((495 / density - 450) * Math.pow(10, 1)) / Math.pow(10, 1)
-        var resultat2 = Math.round((vaegt - vaegt * resultat1 / 100) * Math.pow(10, 1)) / Math.pow(10, 1)
-
-        $("[name='fedtprocentDurnin']").val(resultat1);
-        $("[name='fedtfriDurnin']").val(resultat2);
+        //var f = skinfold_durnin.SkinfoldDurnin(biceps, triceps, hoftekam, skulder, vaegt, koen);
+        var f = skinfold_durnin.SkinfoldDurnin(10, 10, 20, 20, 80, "female");
+        
+        $("[name='fedtprocentDurnin']").val(f.getBodyFatPercent().toFixed(2));
+        $("[name='fedtfriDurnin']").val(f.getFatFreeMass().toFixed(2));
         return false;
     });
     // Calculate Pollock
@@ -1261,7 +1340,7 @@ $(document).ready(function() {
 	});
 });
 
-},{"./1rm":3,"./bmi":5,"./bmr":6,"./cooper":8,"./cooper-running":7,"./etpunkttest":9,"./fat-pct":11,"./fat-pct-measurements":10,"./fitness-hr":12,"./fitness-index-23":13,"./karvonen":14,"./max-hr":15,"./running":17,"./running-economy":16,"./topunkttest":18,"image-map-resizer":1,"wilks-calculator":2}],5:[function(require,module,exports){
+},{"./1rm":3,"./bmi":5,"./bmr":6,"./cooper":8,"./cooper-running":7,"./etpunkttest":9,"./fat-pct":11,"./fat-pct-measurements":10,"./fitness-hr":12,"./fitness-index-23":13,"./karvonen":14,"./max-hr":15,"./running":17,"./running-economy":16,"./skinfold-durnin":18,"./topunkttest":19,"image-map-resizer":1,"wilks-calculator":2}],5:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.BMI = function(h, w) {
@@ -1952,6 +2031,53 @@ motionsplan.Running = function() {
 module.exports = motionsplan;
 
 },{}],18:[function(require,module,exports){
+let motionsplan = {}
+
+motionsplan.SkinfoldDurnin = function(biceps, triceps, hoftekam, skulder, weight, gender, age = 20) {
+
+  biceps = biceps;
+  triceps = triceps;
+  hoftekam = hoftekam;
+  skulder = skulder;
+  weight = weight;
+  gender = gender; // male / female
+  age = age;
+
+  function getBodyFatPercent() {
+    var density;
+
+    var fedtsum = biceps * 1 + triceps * 1 + hoftekam * 1 + skulder * 1;
+    if (isMale()) {
+      density = -0.0274 * Math.log(fedtsum) + 1.1631;
+    }
+    else {
+      density = -0.0311 * Math.log(fedtsum) + 1.1599;
+    }
+    return (495 / density - 450) * Math.pow(10, 1) / Math.pow(10, 1);
+  }
+  
+  function isMale() {
+    if (gender == "male") {
+      return true;
+    }
+    return false;
+  }
+
+  function getFatFreeMass() {
+    return (weight - weight * getBodyFatPercent() / 100) * Math.pow(10, 1) / Math.pow(10, 1);
+  }
+
+  var publicAPI = {
+    getFatFreeMass: getFatFreeMass,
+    getBodyFatPercent: getBodyFatPercent
+  };
+
+  return publicAPI;
+}
+
+module.exports = motionsplan;
+
+},{}],19:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.ToPunktTest = function(age, weight, work1, hr1, work2, hr2) {
