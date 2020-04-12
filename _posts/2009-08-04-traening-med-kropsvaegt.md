@@ -52,3 +52,12 @@ Man skal altid planlægge sin træning ud fra ens mål. Du kan sagtens få masse
 - [Linksamling om bodyweight / Kettlebells / alternativ træning](http://www.motion-online.dk/fora/index.php?showtopic=29480&hl=kropsv%E6gt). Samling af links omkring øvelser med kropsvægt, kettlebells og alternativ træning lavet af brugerne af motion-online.dks forum. Posten er temmelig rodet, men der er flere gode links.
 
 Har du nogle gode sites eller nogle gode øvelser, så del det gerne i kommentarerne?
+
+{% assign exercises = site.exercises | where: "equipment", "kropsvægt" | sort: "title" %}
+
+{% if exercises.size > 0 %}
+## Øvelser med kropsvægt
+  {% for post in exercises %}
+    {% include archive-single-simple.html type="grid" %}
+  {% endfor %}
+{% endif %}

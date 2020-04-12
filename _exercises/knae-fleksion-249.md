@@ -15,6 +15,7 @@ tags:
   - knædomineret
   - maskine
   - Baglår
+  - fitnessinstruktør
 categories:
   - Ben
 training_type: 

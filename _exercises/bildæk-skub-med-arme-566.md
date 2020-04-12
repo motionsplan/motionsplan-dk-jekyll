@@ -11,11 +11,13 @@ header:
   teaser: /assets/images/exercises/bildæk-skub-med-arme-0-320.jpg
 tags:
   - Pres
+  - outdoor
 categories:
   - Pres
 training_type: 
 training_focus: 
 equipment:
+  - bildæk
 muscle_group:
 alternative_titles:
 gallery:

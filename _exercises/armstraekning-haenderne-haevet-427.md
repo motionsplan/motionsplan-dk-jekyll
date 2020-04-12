@@ -17,6 +17,7 @@ tags:
   - Step
   - Arme
   - Bryst
+  - fitnessinstruktør
 categories:
 training_type: 
   - Styrketræning

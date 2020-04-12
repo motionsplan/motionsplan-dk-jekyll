@@ -1,10 +1,7 @@
 ---
 layout: single
 title: Bevæg dig for Livet - Fitnessinstruktør
-permalink: /fitness/
-redirect_from:
-  - /fitnessinstruktoer/
-  - /fitnessinstruktor/
+permalink: /fitness/ovelser/
 author_profile: true
 classes: wide
 header:
@@ -21,22 +18,12 @@ feature_row:
 
 På [Vejle Idrætshøjskole underviser vi i Fitnessinstruktør](https://www.vih.dk/fag/fitnessinstruktor). Her er nogle af de spørgsmål, vi bruger til at gøre os klar til den afsluttende prøve.
 
-## Lær
+{% assign tags = "fitnessinstruktør" %}
+{% assign exercises = site.exercises | where: "tags", tags | sort: "title" %}
 
-- [Anatomi](/anatomi/)
-- [Øvelser](/fitness/ovelser/)
-
-## Quiz på Quizizz
-
-{% include figure image_path="/assets/images/quizizz.png" alt="Quiziziz" caption="Sådan kan du spille" %}
-
-1. Klik på et link nedenunder.
-2. Vælg "Solo Practice" hvis du vil øve selv, eller "Live Game" hvis I vil spille mod hinanden.
-3. I vælger selv om I vil have en Quizizz konto for at spille.
-4. Svar på spørgsmålene.
-
-[Anatomi](https://quizizz.com/admin/quiz/5856b0c7aef9e6020e94438c){: .btn .btn--large .btn--warning }
-[Fysiologi](https://quizizz.com/admin/quiz/5b995e2702a076001910328f){: .btn .btn--large .btn--success }
-[Træningslære](https://quizizz.com/admin/quiz/5dd7a9787ce184001b624109){: .btn .btn--large .btn--info }
-
-{% include feature_row type="left" %}
+{% if exercises.size > 0 %}
+## Inspiration til {{ equipment }}
+  {% for post in exercises %}
+    {% include archive-single-simple.html type="grid" %}
+  {% endfor %}
+{% endif %}

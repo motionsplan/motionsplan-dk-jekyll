@@ -12,9 +12,7 @@ header:
 tags:
   - bænk
   - kropsvægt
-  - 
-  - 
-  - 
+  - fitnessinstruktør
 categories:
 training_type: 
 training_focus: 

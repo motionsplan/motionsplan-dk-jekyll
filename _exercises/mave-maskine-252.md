@@ -12,7 +12,7 @@ header:
 tags:
   - kropsstamme
   - maskine
-  - 
+  - fitnessinstruktør
 categories:
 training_type: 
 training_focus: 

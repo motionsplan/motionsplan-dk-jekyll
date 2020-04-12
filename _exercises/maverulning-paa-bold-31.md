@@ -12,6 +12,7 @@ header:
 tags:
   - swissball
   - Mave
+  - fitnessinstruktør
 categories:
 training_type: 
 training_focus: 
