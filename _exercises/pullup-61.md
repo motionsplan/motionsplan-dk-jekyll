@@ -11,11 +11,14 @@ header:
   teaser: /assets/images/exercises/pullup-0-320.jpg
 tags:
   - bar
+  - fitnessinstruktør
+  - kropsvægt
 categories:
 training_type: 
 training_focus: 
 equipment:
   - bar
+  - kropsvægt
 muscle_group:
 gallery:
   - url: /assets/images/exercises/pullup-0.jpg

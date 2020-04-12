@@ -17,6 +17,7 @@ tags:
   - Baglår
   - Baller
   - Mave
+  - fitnessinstruktør
 categories:
   - Kropsstamme
 training_type: 

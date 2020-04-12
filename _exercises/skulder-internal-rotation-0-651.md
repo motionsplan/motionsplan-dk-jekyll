@@ -13,7 +13,7 @@ tags:
   - Koordination og balance
   - Styrketræning
   - elastik
-  - kettlebell
+  - kabeltræk
   - Skuldre
 categories:
   - Koordination og balance
@@ -22,7 +22,7 @@ training_type:
 training_focus: 
 equipment:
   - elastik
-  - kettlebell
+  - kabeltræk
 muscle_group:
   - Skuldre
 gallery:

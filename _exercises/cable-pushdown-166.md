@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/exercises/cable-pushdown-0-320.jpg
 tags:
   - kabeltræk
-  - 
+  - fitnessinstruktør
 categories:
 training_type: 
 training_focus: 

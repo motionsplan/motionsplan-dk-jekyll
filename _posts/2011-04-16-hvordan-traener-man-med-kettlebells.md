@@ -67,3 +67,13 @@ Du kan sikkert finde lidt inspiration i videoerne nedenunder:
 {% include video provider="youtube" id="nhZgNKII4rw" %}
 
 {% include video provider="youtube" id="pR9KNdpen1g" %}
+
+{% assign equipment = "kettlebell" %}
+{% assign exercises = site.exercises | where: "equipment", equipment | sort: "title" %}
+
+{% if exercises.size > 0 %}
+## Øvelser med {{ equipment }}
+  {% for post in exercises %}
+    {% include archive-single-simple.html type="grid" %}
+  {% endfor %}
+{% endif %}

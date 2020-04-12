@@ -11,11 +11,13 @@ header:
   teaser: /assets/images/exercises/bildæk-maveøvelse-ii-0-320.jpg
 tags:
   - Kropsstamme
+  - outdoor
 categories:
   - Kropsstamme
 training_type: 
 training_focus: 
 equipment:
+  - bildæk
 muscle_group:
 alternative_titles:
 gallery:

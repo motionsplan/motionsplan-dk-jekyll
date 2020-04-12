@@ -17,6 +17,7 @@ tags:
   - Baglår
   - Baller
   - Ryg
+  - fitnessinstruktør
 categories:
   - Kropsstamme
 training_type: 

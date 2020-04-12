@@ -11,8 +11,7 @@ header:
   teaser: /assets/images/exercises/armstraekker-0-320.jpg
 tags:
   - kropsvægt
-  - 
-  - 
+  - fitnessinstruktør
 categories:
 training_type: 
 training_focus: 

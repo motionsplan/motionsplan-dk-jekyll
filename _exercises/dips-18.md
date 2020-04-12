@@ -16,6 +16,7 @@ tags:
   - stativ
   - Arme
   - Bryst
+  - fitnessinstruktør
 categories:
   - Pres
 training_type: 

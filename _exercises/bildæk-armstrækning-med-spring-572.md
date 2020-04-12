@@ -11,11 +11,13 @@ header:
   teaser: /assets/images/exercises/bildæk-armstrækning-med-spring-0-320.jpg
 tags:
   - Hård styrkeøvelse
+  - outdoor
 categories:
   - Hård styrkeøvelse
 training_type: 
 training_focus: 
 equipment:
+  - bildæk
 muscle_group:
 alternative_titles:
 gallery:
