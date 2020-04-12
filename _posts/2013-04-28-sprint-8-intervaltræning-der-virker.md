@@ -22,10 +22,10 @@ Der er lavet mange studier på effekten af Sprint-8-intervaller, og det er kun n
 
 ![Sprint 8](/assets/images/sprint-8-landing-infographic.jpg "Sprint 8")
 
-### Dine erfaringer
+## Dine erfaringer
 
 Har du prøvet Sprint 8 - og hvad er dine erfaringer med det? Kan du supplere med mere viden?
 
-### Referencer
+## Referencer
 
-- [Sprint 8](http://www.visionfitness.com/content/sprint-8)
+- [Sprint 8](https://sprint8.com/)
