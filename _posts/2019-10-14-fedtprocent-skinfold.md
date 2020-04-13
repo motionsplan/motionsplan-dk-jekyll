@@ -23,11 +23,11 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=20604&htmlurl=https://www.bodyman.dk/shop/accu-measure-fitness-54935p.html"
     btn_label: "Læs mere"
     btn_class: "btn--success"
-  - image_path: https://bodystore.dk/media/catalog/product/cache/4/image/600x/9df78eab33525d08d6e5fb8d27136e95/h/a/harpenden-skinfold-caliper-baty_1.png
+  - image_path: https://www.bodystore.dk/dw/image/v2/BDJH_PRD/on/demandware.static/-/Sites-hsng-master-catalog/default/dweed812b8/Hi-res/h/a/harpenden-skinfold-caliper-baty_1.png?sw=710&sh=710&sm=fit
     alt: "Harpenden Skinfold Caliper"
     title: "Harpenden Skinfold Caliper"
     excerpt: "Harpenden Skinfold Caliper - Kvalitetscaliper fra Baty til nem og præcis måling af fedtprocent!"
-    url: "https://bodystore.dk/harpenden-skinfold-caliper"
+    url: "https://www.bodystore.dk/harpenden-skinfold-caliper"
     btn_label: "Læs mere"
     btn_class: "btn--success"
 ---
