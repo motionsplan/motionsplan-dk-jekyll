@@ -29,5 +29,3 @@ På [Vejle Idrætshøjskole underviser vi i Fitnessinstruktør](https://www.vih.
   {% endfor %}
 </div>
 {% endif %}
-
-{% include feature_row type="left" %}
