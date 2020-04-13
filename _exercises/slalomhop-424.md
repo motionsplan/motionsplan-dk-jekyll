@@ -6,9 +6,9 @@ permalink: /oevelse/slalomhop/
 redirect_from: /node/424
 id: 424
 language: da
-header:
-  overlay_image: /assets/images/exercises/slalomhop-0.gif
-  teaser: /assets/images/exercises/slalomhop-0-320.gif
+#header:
+#  overlay_image: /assets/images/exercises/slalomhop-0.gif
+#  teaser: /assets/images/exercises/slalomhop-0-320.gif
 tags:
   - knædomineret
   - kropsvægt
@@ -19,11 +19,11 @@ training_focus:
 equipment:
   - kropsvægt
 muscle_group:
-gallery:
-  - url: /assets/images/exercises/slalomhop-0.gif
-    image_path: /assets/images/exercises/slalomhop-0-320.gif
-    alt: "Slalomhop"
-    title: "Slalomhop"
+#gallery:
+#  - url: /assets/images/exercises/slalomhop-0.gif
+#    image_path: /assets/images/exercises/slalomhop-0-320.gif
+#    alt: "Slalomhop"
+#    title: "Slalomhop"
 last_modified_at: 2012-01-12T11:04:22Z
 ---
 
