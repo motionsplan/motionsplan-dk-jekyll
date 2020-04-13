@@ -54,10 +54,4 @@ Man skal altid planlægge sin træning ud fra ens mål. Du kan sagtens få masse
 Har du nogle gode sites eller nogle gode øvelser, så del det gerne i kommentarerne?
 
 {% assign exercises = site.exercises | where: "equipment", "kropsvægt" | sort: "title" %}
-
-{% if exercises.size > 0 %}
-## Øvelser med kropsvægt
-  {% for post in exercises %}
-    {% include archive-single-simple.html type="grid" %}
-  {% endfor %}
-{% endif %}
+{% include exercises-by-search title="Øvelser med kropsvægt" exercises=exercises %}

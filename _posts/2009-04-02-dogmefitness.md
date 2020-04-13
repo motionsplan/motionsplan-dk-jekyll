@@ -39,12 +39,5 @@ Man kan organisere det på et utal af måder.
 
 Hvordan gør du?
 
-{% assign tags = "outdoor" %}
-{% assign exercises = site.exercises | where: "tags", tags | sort: "title" %}
-
-{% if exercises.size > 0 %}
-## Inspiration til {{ equipment }}
-  {% for post in exercises %}
-    {% include archive-single-simple.html type="grid" %}
-  {% endfor %}
-{% endif %}
+{% assign exercises = site.exercises | where: "tags", "outdoor" | sort: "title" %}
+{% include exercises-by-search title="Inspiration til outdoor træning" exercises=exercises %}

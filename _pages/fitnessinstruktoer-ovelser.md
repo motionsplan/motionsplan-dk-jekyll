@@ -18,14 +18,7 @@ feature_row:
 
 På [Vejle Idrætshøjskole underviser vi i Fitnessinstruktør](https://www.vih.dk/fag/fitnessinstruktor). Her er nogle af de spørgsmål, vi bruger til at gøre os klar til den afsluttende prøve.
 
-{% assign tags = "fitnessinstruktør" %}
-{% assign exercises = site.exercises | where: "tags", tags | sort: "title" %}
+{% assign exercises = site.exercises | where: "tags", "fitnessinstruktør" | sort: "title" %}
+{% include exercises-by-search exercises=exercises %}
 
-{% if exercises.size > 0 %}
-## Øvelsesbibliotek til {{ tags }}
-<div class="grid__wrapper">
-  {% for post in exercises %}
-    {% include archive-single-simple.html type="grid" %}
-  {% endfor %}
-</div>
-{% endif %}
+{% include feature_row type="left" %}

@@ -46,6 +46,12 @@ Som al anden vægttræning er det vigtigt, at du arbejder med teknik, inden du b
 - Skyd brystet frem og spænd altid i maven
 - Hvis du mister kontrollen, så slip vægten
 
+## Beskyttelse
+
+Det er hårdt for hænderne, håndleddene og underarmene at gå i gang med træning med kettlebells.
+
+{% include pa-banner product="kettlebell beskyttelse" %}
+
 ## Klassiske øvelser
 
 - Swings - [se øvelsen](/oevelse/tohaandssving)
@@ -56,11 +62,13 @@ Som al anden vægttræning er det vigtigt, at du arbejder med teknik, inden du b
 
 Du kan [sammensætte et træningsprogram til styrketræning](/artikel/opbygning-af-program) på rigtig mange måder. En meget populær måde at træne på i øjeblikket er at lave så mange runder som muligt på 20 minutter. Runderne kunne fx bestå af 20 swings og 2 turkish getups til hver side. Dette program kører du fx tre gange om ugen. Måske skal du starte med 10 minutter den første dag, da swings sagtens kan mærkes i baglårene.
 
+{% include pa-banner product="kettlebell program" %}
+
 ## Mere inspiration om kettlebells
 
 Denne side viser en [masse forskellige kettlebell-øvelser](https://kettlebellsworkouts.com/kettlebell-exercises/).
 
-Hvis du vil læse mere om kettlebells, så har [Liam O'Brien skrevet Kettlebell Training. The basics v2 og udgivet den som gratis e-bog](http://www.sendspace.com/file/gwz682).
+Hvis du vil læse mere om kettlebells, så har [Liam O'Brien skrevet Kettlebell Training. The basics v2 og udgivet den som gratis e-bog](https://americashapesup.files.wordpress.com/2009/07/kettlebell-training_the-basics.pdf).
 
 Du kan sikkert finde lidt inspiration i videoerne nedenunder:
 
@@ -68,12 +76,9 @@ Du kan sikkert finde lidt inspiration i videoerne nedenunder:
 
 {% include video provider="youtube" id="pR9KNdpen1g" %}
 
-{% assign equipment = "kettlebell" %}
-{% assign exercises = site.exercises | where: "equipment", equipment | sort: "title" %}
+{% assign exercises = site.exercises | where: "equipment", "kettlebell" | sort: "title" %}
+{% include exercises-by-search search="kettlbell" %}
 
-{% if exercises.size > 0 %}
-## Øvelser med {{ equipment }}
-  {% for post in exercises %}
-    {% include archive-single-simple.html type="grid" %}
-  {% endfor %}
-{% endif %}
+## Hvor kan du købe kettlebells?
+
+{% include pa-banner product="kettlebell" %}
