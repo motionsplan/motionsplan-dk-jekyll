@@ -17,7 +17,7 @@
   {% endfor %}
 {% endif %}
 
-<div class="feature__wrapper">
+<div class="grid__wrapper">
   {% for f in exercises %}
 
     {% if f.url contains "://" %}
