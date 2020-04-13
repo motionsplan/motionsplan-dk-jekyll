@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Bevæg dig for Livet - Fitnessinstruktør
+title: Øvelser - Fitnessinstruktør
 permalink: /fitness/ovelser/
 author_profile: true
 classes: wide
@@ -22,8 +22,12 @@ På [Vejle Idrætshøjskole underviser vi i Fitnessinstruktør](https://www.vih.
 {% assign exercises = site.exercises | where: "tags", tags | sort: "title" %}
 
 {% if exercises.size > 0 %}
-## Inspiration til {{ equipment }}
+## Øvelsesbibliotek til {{ tags }}
+<div class="grid__wrapper">
   {% for post in exercises %}
     {% include archive-single-simple.html type="grid" %}
   {% endfor %}
+</div>
 {% endif %}
+
+{% include feature_row type="left" %}
