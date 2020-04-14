@@ -1,6 +1,8 @@
 ---
 title: "Kropskomposition 101 - fedtprocent og fedtfri masse"
-permalink: /artikel/kropskomposition
+permalink: /kropskomposition
+redirect_from:
+  - /artikel/kropskomposition/
 excerpt: "Kropskomposition handler om at få indblik i, hvad kroppen består af. Hvad er fedtprocenten og den fedtfri masse?"
 language: da
 header:
@@ -29,7 +31,7 @@ toc: true
 
 Måling af kropskomposition, fedtprocent og muskelmasse virker i samfundet til at være vigtigt for både atleter og almindelige mennesker. Vi oplever stor interesse for at få målt fedtprocent og muskelmasse både af folk, der gerne vil tabe sig og tage på i vægt.
 
-En måling af kropskompositionmålinger måler vi fedtprocent, muskelmasse og vand i kroppen. 
+En måling af kropskomposition måler vi fedtprocent, muskelmasse og vand i kroppen. 
 
 ## Hvad består kroppen af?
 
@@ -38,7 +40,7 @@ De to mest udbredte modeller til at forstå kropskomposition er 2C- og 4C-modell
 ### 2C-modellen
 
 1. Fedtmassen
-: Fedt er nødvendigt for at kroppen kan fungere. Fedt lagrer energi, beskytter de indre organer, isolerer og regulerer kropstemperaturen. Alligevel er fedt formentlig den del af kroppen, som flest mennesker kæmper med.
+: Fedt er nødvendigt for at kroppen kan fungere. Fedt lagrer energi, beskytter de indre organer, isolerer og regulerer kropstemperaturen. Alligevel er fedt formentlig den del af kroppen, som flest mennesker kæmper med og er bekymret for.
 
 2. Fedtfrie masse (FFM)
 : Den fedtfrie masse indeholder alt det i din krop, der ikke er relateret til fedt; dine interne organer, muskelmasse, vand, knogler, ledbånd og så videre.
@@ -112,7 +114,7 @@ Du skal være opmærksom på, at reproducerbarheden af testen med fedttang ikke 
 
 {% include video id="VBJuVfiKrbY" provider="youtube" %}
 
-[Læs mere om måling med fedttang](/artikel/fedtprocent-skinfold/){: .btn .btn--success }
+[Læs mere om måling med fedttang](/artikel/fedtprocent-skinfold/){: .btn .btn--large .btn--success }
 
 ### Bioelectric Impedance Analysis (BIA)
 
@@ -122,13 +124,13 @@ Der er stor forskel i kvaliteten og præcisionen af BIA-apparater - og det er no
 
 Fordi BIA virker ved at måle på vandet i kroppen, så får man brugbar information også om vandbalancen i kroppen. Samtidig får man information om muskelmasse, _lean body mass_ og fedtprocent.
 
-[Læs mere om Bioimpedans](/artikel/inbody-570-bioimpedans){: .btn .btn--success }
+[Læs mere om måling med bioimpedans](/artikel/inbody-570-bioimpedans){: .btn .btn--large .btn--success }
 
 ### Målinger og udregninger
 
 Baseret på målinger med målebånd kan du også udregne din fedtprocent. Præcisionen af disse udregninger er behæftet med de samme usikkerheder, som fx BMI eller andre lignende mere generelle målinger.
 
-[Udregn din fedtprocent](/artikel/udregning-af-fedtprocent){: .btn .btn--info }
+[Udregn din fedtprocent](/artikel/udregning-af-fedtprocent){: .btn .btn--info .btn--large }
 
 ## Afslutning
 

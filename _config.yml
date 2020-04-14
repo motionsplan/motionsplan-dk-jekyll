@@ -5,7 +5,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-remote_theme:            "mmistakes/minimal-mistakes@4.17.2"
+remote_theme:            "mmistakes/minimal-mistakes@4.19.1"
 minimal_mistakes_skin:   "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 
 # Jekyll specific
@@ -21,7 +21,7 @@ name                     : "Motionsplan"
 description              : "Træningsøvelser og træningsprogrammer til styrketræning, yoga, løb og træning - med de videnskabelige briller."
 url                      : "https://www.motionsplan.dk" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "lsolesen/motionsplan-jekyll" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "motionsplan/motionsplan-dk-jekyll" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 logo                     : "/assets/images/logo.gif" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
@@ -89,12 +89,15 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
+      webslides: "fa-twitter"
       url: "https://twitter.com/motionsplan"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
+      webslides: "fa-facebook"
       url: "https://facebook.com/motionsplan"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
+      webslides: "fa-github"
       url: "https://github.com/motionsplan"
 
 
@@ -134,7 +137,6 @@ include:
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
-  - vendor
   - .asset-cache
   - .bundle
   - .jekyll-assets-cache
@@ -155,14 +157,18 @@ exclude:
   - package.json
   - Rakefile
   - README
+  - README.md
+  - Rakefile
+  - npm-debug.log
+  - composer.json
+  - composer.lock
+  - composer.phar
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
-  - composer.phar
-  - composer.json
-  - composer.lock
   - /vendor
   - /src
+  - /node_modules
   - .git
   - .svn
 keep_files:
@@ -271,6 +277,9 @@ collections:
   anatomy:
     output: true
     permalink: /:path/
+  presentations:
+    output: true
+    permalink: /p/:path/
   exercises:
     output: true
     permalink: /oevelse/:path/
@@ -298,12 +307,14 @@ defaults:
       toc: true
       toc_sticky: true
       author: lsolesen     
-# _exercises
+  # _exercises
   - scope:
       path: ""
       type: exercises
     values:
       layout: activity
+      header:
+        teaser: //via.placeholder.com/400x300
       author_profile: true
       read_time: false
       comments: true
@@ -312,7 +323,7 @@ defaults:
       author: lsolesen
       tag_archive_path: /category/tags/
       category_archive_path: /oevelseskategorier/      
-# _programs
+  # _programs
   - scope:
       path: ""
       type: programs
@@ -331,7 +342,7 @@ defaults:
       path: ""
       type: anatomy
     values:
-      layout: single
+      layout: single-anatomy
       author_profile: true
       read_time: false
       comments: true
@@ -340,7 +351,11 @@ defaults:
       toc: true
       toc_sticky: true
       author: lsolesen
-# _redirects
+      tag_archive_path: /anatomi/tags/
+      category_archive_path: /anatomi-kategorier/
+      sidebar:
+        nav: "muscles"
+  # _redirects
   - scope:
       path: ""
       type: redirects
@@ -351,3 +366,9 @@ defaults:
       comments: false
       share: false
       related: false
+  # _presentations
+  - scope:
+      path: ""
+      type: presentations
+    values:
+      layout: webslides

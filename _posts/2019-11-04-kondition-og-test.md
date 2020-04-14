@@ -1,7 +1,7 @@
 ---
 title: "Kondition og test - Kommer jeg i bedre form?"
 permalink: /kondition-og-test/
-excerpt: "Kommer jeg i bedre form? Beregn dit kondital og se dine resultater"
+excerpt: "Kommer jeg i bedre form? Beregn dit kondital og iltoptagelse og se dine resultater."
 language: da
 header:
   overlay_image: https://cnet1.cbsistatic.com/img/Y3vodO8bMPi6qlFLRF3xFcQpLHo=/1092x0/2019/07/26/114f1721-1a71-42bc-b1a4-cb35299bedbc/gettyimages-640493589.jpg
@@ -14,7 +14,11 @@ last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 ---
 
-Hvis du gerne vil _tracke_ om du kommer i bedre form med konditionstræning, så er der lidt forskellige muligheder. Men først lad os lige definere nogle begreber:
+Hvis du gerne vil _tracke_ om du kommer i bedre form med konditionstræning, så er der lidt forskellige muligheder. 
+
+## Hvad er maksimal iltoptagelse og kondital?
+
+Men lad os først definere den maksimale iltoptagelse og konditallet:
 
 Maksimale iltoptagelse (VO<sub>2</sub>max) (l/min)
 : Den maksimale iltoptagelse er et udtryk for hvor meget ilt, du kan optage under maksimalt arbejde. Den maksimale iltoptagelse er hvor meget ilt (ml) kroppen optager pr. minut.
@@ -22,17 +26,25 @@ Maksimale iltoptagelse (VO<sub>2</sub>max) (l/min)
 Kondital (ml/kg/min)
 : Konditallet er et udtryk for, hvor effektiv kroppen i forhold til kropsvægten er til at optage ilt, når den arbejder ved maksimal intensitet. Konditallet viser hvor meget ilt (ml) kroppen er i stand til at optage pr. min i forhold til ens kropsvægt (kg).
 
-## Måling af kondition og iltoptagelse
+I den engelske litteratur vil man sommetider se, at man bruger VO<sub>2</sub>-max med enhederne (ml/kg/min). Det er altså vigtigt at holde øje med enhederne.
+{: .notice .notice--danger }
+
+## Hvordan måles kondition og iltoptagelse?
 
 Helt grundlæggende er der to måder at måle konditionen på:
 
-- **Direkte**. Målingen foregår i et laboratorium med maske, hvor man måler indåndings- og udåndingsluften.
-- **Indirekte**. Man estimerer konditionen ud fra fx hjertefrekvens eller evnen til at arbejde med en bestemt belastning.
+Direkte test
+: Målingen foregår i et laboratorium med maske, hvor man måler volumen af indåndings- og udåndingsluften og indholdet af ilt og kuldioxid.
+
+Indirekte test
+: Man estimerer konditionen ud fra fx hjertefrekvens eller evnen til at arbejde med en bestemt belastning. Det kan man gøre fordi man ved, hvor meget ilt der kræves for at udføre et bestemt arbejde.
 
 Testene kan have følgende intensitet i forhold til forsøgspersonen:
 
-- **Maksimal**. Testpersonerne skal køre sig selv helt ud i testen og finde de maksimale færdier, fx for hvilken belastning man kan køre med.
-- **Submaksimal**. Testpersonen kører på forudbestemte belastningsgrader og ud fra præstationen på disse belastningsgrader estimeres, hvad de maksimalt ville kunne klare.
+- **Maksimal**. Testpersonerne skal køre sig selv helt ud i testen og finde de maksimale færdier, fx for hvilken belastning man kan arbejde med eller hvor hurtigt, man kan bevæge sig.
+- **Submaksimal**. Testpersonen kører på forudbestemte belastningsgrader og ud fra præstationen på disse belastningsgrader estimeres, hvad forsøgspersonen maksimalt ville kunne klare.
+
+Generelt er de maksimale tests mere pålidelige end de submaksimale i forhold til at finde den maksimale iltoptagelse, men de submaksimale tests kan være rigtig gode til at _tracke_, hvordan træningen påvirker ens kondition.
 
 ## Hvordan ved jeg om jeg er kommet i bedre form?
 
@@ -69,7 +81,7 @@ Man har lavet studier, hvor forsøgspersonerne har ligget stille i en seng i læ
 
 ## Hvordan tester jeg mit kondital?
 
-Der er mange måder at test sin kondition på.
+Der er mange måder at måle sin kondition på. Vi har samlet tests her på siden:
 
 {% assign site_posts = site.posts | where: "tags", "konditionstest" | sort: "date" %}
 
@@ -117,4 +129,3 @@ Faulkner, John A., Carol S. Davis, Christopher L. Mendias, og Susan V. Brooks. 2
 Kolata, Gina. 2005. “Super, Sure, but Not More Than Human”. The New York Times, 24. juli 2005, par. Week in Review. https://www.nytimes.com/2005/07/24/weekinreview/super-sure-but-not-more-than-human.html.
 
 Thomsen, J. J., R. L. Rentsch, P. Robach, J. a. L. Calbet, R. Boushel, P. Rasmussen, C. Juel, og C. Lundby. 2007. “Prolonged Administration of Recombinant Human Erythropoietin Increases Submaximal Performance More than Maximal Aerobic Capacity”. European Journal of Applied Physiology 101 (4): 481–86. https://doi.org/10.1007/s00421-007-0522-8.
-

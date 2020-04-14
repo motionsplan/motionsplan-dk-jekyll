@@ -4,6 +4,7 @@ latin: "Erector Spinae"
 tags:
   - fitnessinstruktør
   - muskel
+  - not-in-imagemap
 origin: 
   da: Bagsiden af bækkenet
 insertion: 
@@ -13,7 +14,7 @@ function:
     extended: ""
 exercises:
   - Stående calf-raise
-image: 
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Gray389_-_Erector_spinae.png/375px-Gray389_-_Erector_spinae.png
 image_focus: 
 ---
 
@@ -22,7 +23,9 @@ _{{ page.latin }}_
 - **Udspring**: {{ page.origin.da }}
 - **Hæfte**: {{ page.insertion.da }}
 
+{% if page.image %}
 {% include figure image_path=page.image alt=page.title caption=page.title %}
+{% endif %}
 
 ## Funktion
 

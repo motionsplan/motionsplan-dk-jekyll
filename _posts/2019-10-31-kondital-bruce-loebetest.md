@@ -4,13 +4,15 @@ permalink: /bruce-test/
 excerpt: "Bruce-test på løbebånd er en submaksimal test, der kræver et løbebånd med mulighed for at indstille hastighed og hældning."
 language: da
 header:
-  overlay_image: https://i.ytimg.com/vi/zUyuUoU7lAQ/maxresdefault.jpg
-  teaser: https://i.ytimg.com/vi/zUyuUoU7lAQ/maxresdefault.jpg
+  overlay_image: https://i.ytimg.com/vi/AQzjKh6E8zU/maxresdefault.jpg
+  teaser: https://i.ytimg.com/vi/AQzjKh6E8zU/maxresdefault.jpg
 category:
   - Kondition
 tags:
   - konditionstest
   - løbebånd
+  - maksimal test
+  - indirekte test
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 feature_row:

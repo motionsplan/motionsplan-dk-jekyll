@@ -54,24 +54,23 @@ $(document).ready(function() {
 	<img src="/assets/images/anatomy/blank-muscle-anatomy.jpg" id="muscles" name="muscles" width="600" height="510" alt="A diagram of the human muscular system anatomy" usemap="#muscle-anatomy-map">
 
 	<map name="muscle-anatomy-map">
-{% for m in site.anatomy %}
+{% assign imagemap = site.anatomy | where: "tags", "imagemap" %}
+{% for m in imagemap %}
     {% for c in m.coords  %}
         <area shape="poly" coords="{{ c }}"
             title="{{ m.title }}"
             class="{{ m.slug }}"
             onmouseover="document.muscles.src='{{ m.image_focus }}'" 
             onmouseout="document.muscles.src='/assets/images/anatomy/blank-muscle-anatomy.jpg'" 
-            href="#" alt="{{ m.title }}"/>
+            href="#anatomy_muscle" alt="{{ m.title }}"/>
     {% endfor %}
 {% endfor %}
 	</map>
 
-{% for m in site.anatomy %}
+{% for m in imagemap %}
   <div class="{{ m.slug }} anatomy-popup">
-  	<h3>{{ m.title }}</h3>
-  	<p>
-  		Latin: {{ m.latin }}
-  	</p>
+    <p><strong>{{ m.title }}</strong></p>
+    <p>Latin: {{ m.latin }}</p>
   </div>
 {% endfor %}
 </div>

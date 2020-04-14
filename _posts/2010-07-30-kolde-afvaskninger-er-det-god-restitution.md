@@ -12,7 +12,7 @@ category:
 last_modified_at: 2019-03-03T20:39:39Z
 ---
 
-For nylig fik jeg anbefalet at spule mine ben med koldt vand efter mine løbeture for at restituere hurtigere. Nu er jeg ikke så vild med koldt vand, så jeg tog ikke min vens ord for det. Jeg gik på [pubmed.com](http://pubmed.com) ([se guide](http://www.motion-online.dk/sundhed_og_vaegt/sundhed_generelt/saadan_soeger_du_selv_videnskabelige_artikler/)) for at finde noget videnskab, der kunne overbevise mig om, at jeg har brug for afkøling efter træning.
+For nylig fik jeg anbefalet at spule mine ben med koldt vand efter mine løbeture for at restituere hurtigere. Nu er jeg ikke så vild med koldt vand, så jeg tog ikke min vens ord for det. Jeg gik på [pubmed.com](http://pubmed.com) ([se guide](/videnskabelig-sogning/)) for at finde noget videnskab, der kunne overbevise mig om, at jeg har brug for afkøling efter træning.
 
 Det er fortsat ikke klart, hvad de videnskabelige rationale bag at tage et koldt bad er (se metastudium af Bleakley og Davison 2010), men derfor kan vi jo sagtens se på, om det virker.
 

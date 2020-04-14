@@ -38,3 +38,6 @@ Man kan organisere det på et utal af måder.
 - **Cirkeltræning.** En forudbestemt rækkefølge af øvelser, hvor man fx laver tre runder og bruger 30 sekunder på hver øvelse.
 
 Hvordan gør du?
+
+{% assign exercises = site.exercises | where: "tags", "outdoor" | sort: "title" %}
+{% include exercises-by-search title="Inspiration til outdoor træning" exercises=exercises %}

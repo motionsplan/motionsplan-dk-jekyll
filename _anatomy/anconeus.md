@@ -5,9 +5,9 @@ tags:
   - imagemap
   - muskel
 origin: 
-  da: Et hoved fra hver side af nederste bageste del af lårbenet.
+  da: Epicondylus lateralis
 insertion: 
-  da: i akillessenen og fæster på hælbenet.
+  da: Proksimalt på ulnas bagflade
 function: 
   - short: Extends the arm at the elbow.
     extended: This means that the anconeus muscle straightens the elbow joint such that there is an increase in the angle between the forearm and the upper arm.

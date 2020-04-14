@@ -16,3 +16,5 @@ Motionsplan ejes og drives af Lars Olesen (chefudvikler og chefredaktør). Der e
 - **Fintuner teknikken.** Vi leverer et højt teknisk niveau baseret på Open Source teknologier.
 
 Hvis du har nogle spørgsmål er du altid velkommen til at kontakte os på {{ site.email }}.
+
+Vi bruger billeder fra [Unsplash.com](https://unsplash.com/).

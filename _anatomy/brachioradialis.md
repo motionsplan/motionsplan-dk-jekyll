@@ -1,13 +1,13 @@
 ---
-title: "Brachialis"
-latin: Brachialis
+title: "Brachoradialis"
+latin: Brachioradialis
 tags:
   - imagemap
   - muskel
 origin: 
-  da: Et hoved fra hver side af nederste bageste del af lårbenet.
+  da: anteriore overflade af humerus, især den distale halvdel af denne knogle
 insertion: 
-  da: i akillessenen og fæster på hælbenet.
+  da: Lateralsiden af ekstremitas distalis radii (processus styloideus radii)
 function: 
   - short: Flexes the arm at the elbow.
     extended: This means that the brachioradialis muscle bends the arm at the elbow joint such that there is a decrease in the angle between the forearm and the upper arm.

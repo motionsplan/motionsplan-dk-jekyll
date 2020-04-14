@@ -18,14 +18,14 @@ Vi er i øjeblikket i færd med at undersøge forskellige måder at strukturere 
 
 Vi kigger på, bl.a.:
 
-- [**Vmax-træning**](http://www.motion-online.dk/konditionstraening/kondition_-_artikler/vmax-traening/). En let måde at komme til at arbejde tæt på sin maksimale løbekapacitet og forbedre den.
+- [**Vmax-træning**](/vmax/). En let måde at komme til at arbejde tæt på sin maksimale løbekapacitet og forbedre den.
 - [**Jack Daniels formular til løb**](http://www.simpsonassociatesinc.com/runningmath1.htm). Han udregner V<sub>DOT</sub>, som ud over iltoptagelsen tager højde for ens løbeøkonomi. Den er udgangspunkt for udregningerne på [loebesiden.dk](https://loebesiden.dk/beregninger/). Du kan læse en [kritik af Jack Daniels udregninger her](http://jaredmcqueen.com/jackdanielsflaw.html).
-- [**vVO<sub>2</sub>-max**](http://www.runningplanet.com/vo2-max-tlimvvo2-max.html). En ret enkel måde at finde det tempo, der ligger tæt på ens maksimale formåen.
+- [**vVO<sub>2</sub>-max**](http://runningplanet.businesscatalyst.com/vo2-max-tlimvvo2-max.html). En ret enkel måde at finde det tempo, der ligger tæt på ens maksimale formåen.
 
 Vi har tidligere beskæftiget os med, at intensiteten af ens træning har stor betydning for ens præstationsmæssige udbytte. Noget tyder på at:
 
-- [4 minutters hård intervaltræning var mere effektivt end en times kontinuerlig løb](http://www.motionsplan.dk/artikel/4-minutters-haard-intervaltraening-bedre-end-en-times-moderat-loeb). Djævelsk hårdt, men tilsyneladende effektivt.
-- [Intensiteten har betydning for forbedring af VO<sub>2</sub>max](http://www.motion-online.dk/konditionstraening/kondition_-_artikler/intensitetens_betydning_for_forbedring_af_vo2max/). 4 x 4 minutters løb på 90-95% af maksimale iltoptagelse var mere effektivt end 24 minutter på 85% af VO2max. Men det var tilsyneladende også mere effektivt end 45 x 15 sekunders gentagelser på 90-95% af V02max.
+- [4 minutters hård intervaltræning var mere effektivt end en times kontinuerlig løb](/artikel/4-minutters-haard-intervaltraening-bedre-end-en-times-moderat-loeb). Djævelsk hårdt, men tilsyneladende effektivt.
+- [Intensiteten har betydning for forbedring af VO<sub>2</sub>max](/intensitet-vo2max/). 4 x 4 minutters løb på 90-95% af maksimale iltoptagelse var mere effektivt end 24 minutter på 85% af VO2max. Men det var tilsyneladende også mere effektivt end 45 x 15 sekunders gentagelser på 90-95% af V02max.
 
 Det kunne jo være interessant at få sammenlignet nogle af de meget populære trænings- og undersøgelsesprotokoller.
 
@@ -34,7 +34,7 @@ Hvis du kender til flere spændende måder at strukturere ens træning på, som 
 Det mest effektive program er!
 ------------------------------
 
-Indtil da kan vi anbefale, at du starter på det mest effektive løbeprogram, der findes i øjeblikket. Det er samtidig også det mest enkle (via [motion-online.dk](http://www.motion-online.dk/konditionstraening/kondition_-_artikler/det_mest_effektive_loebeprogram!/)):
+Indtil da kan vi anbefale, at du starter på det mest effektive løbeprogram, der findes i øjeblikket. Det er samtidig også det mest enkle (via [motion-online.dk](https://www.motion-online.dk/mest-effektive-loebeprogram/)):
 
 **5 km 3 gange om ugen i højest mulige tempo!**
 

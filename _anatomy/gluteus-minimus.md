@@ -4,6 +4,7 @@ latin: "Gluteus Minimus"
 tags:
   - fitnessinstruktør
   - muskel
+  - not-in-imagemap
 origin: 
   da: Yderst på øverste kant af hoftebenet
 insertion: 
@@ -17,7 +18,7 @@ function:
     extended: ""
 exercises:
   - Stående calf-raise
-image: 
+image: https://www.yoganatomy.com/wp-content/uploads/2018/05/gluteus-minimus-muscle-1.png
 image_focus: 
 
 ---

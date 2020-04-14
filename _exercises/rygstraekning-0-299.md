@@ -10,6 +10,7 @@ header:
   overlay_image: /assets/images/exercises/rygstraekning-0-0.jpg
   teaser: /assets/images/exercises/rygstraekning-0-0-320.jpg
 tags:
+  - fitnessinstruktør
 categories:
 training_type: 
 training_focus: 

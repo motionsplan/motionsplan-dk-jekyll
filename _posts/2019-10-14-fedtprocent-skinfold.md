@@ -1,6 +1,8 @@
 ---
 title: "Måling af fedtprocent med skinfold måler"
-permalink: /artikel/fedtprocent-skinfold/
+permalink: /skinfold/
+redirect_from:
+  - /artikel/fedtprocent-skinfold/
 excerpt: "Du kan måle din fedtprocent og kropskomposition med bioimpedans - og de nyere maskiner er relativt reliabile og valide"
 language: da
 header:
@@ -21,18 +23,18 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=20604&htmlurl=https://www.bodyman.dk/shop/accu-measure-fitness-54935p.html"
     btn_label: "Læs mere"
     btn_class: "btn--success"
-  - image_path: https://bodystore.dk/media/catalog/product/cache/4/image/600x/9df78eab33525d08d6e5fb8d27136e95/h/a/harpenden-skinfold-caliper-baty_1.png
+  - image_path: https://www.bodystore.dk/dw/image/v2/BDJH_PRD/on/demandware.static/-/Sites-hsng-master-catalog/default/dweed812b8/Hi-res/h/a/harpenden-skinfold-caliper-baty_1.png?sw=710&sh=710&sm=fit
     alt: "Harpenden Skinfold Caliper"
     title: "Harpenden Skinfold Caliper"
     excerpt: "Harpenden Skinfold Caliper - Kvalitetscaliper fra Baty til nem og præcis måling af fedtprocent!"
-    url: "https://bodystore.dk/harpenden-skinfold-caliper"
+    url: "https://www.bodystore.dk/harpenden-skinfold-caliper"
     btn_label: "Læs mere"
     btn_class: "btn--success"
 ---
 
 I forbindelse med træning og vægttab kan det være motiverende at følge ændringer i kropskompositionen og fedtprocenten, da ændringer i kropsvægt både kan skyldes ændringer i muskel- og fedtmasse.
 
-En måde at estimere sin fedtprocent på er ved hjælp af en fedttang, som man kan bruge til at lave en hudfoldsmåling med..
+En måde at estimere sin fedtprocent på er ved hjælp af en fedttang, som man kan bruge til at lave en hudfoldsmåling med.
 
 ## Om fedttangen
 
@@ -65,5 +67,3 @@ Der er mange forskellige formler, som kan bruges til _skinfold_-målinger. Vi ha
 ***
 
 ## Hvad er normale fedtprocenter?
-
-

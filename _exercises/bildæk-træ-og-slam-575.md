@@ -11,11 +11,13 @@ header:
   teaser: /assets/images/exercises/bildæk-træ-og-slam-0-320.jpg
 tags:
   - Kondition og puls
+  - outdoor
 categories:
   - Kondition og puls
 training_type: 
 training_focus: 
 equipment:
+  - bildæk
 muscle_group:
 alternative_titles:
 gallery:

@@ -8,6 +8,7 @@ header:
   teaser: https://s3-ap-southeast-2.amazonaws.com/ad-aspi/2019-09/4.jpg?rcQ9OQeAebglw4Sy7y3RhJVMINnhBUo0
 category:
   - Træning
+  - Kondition
 tags:
   - energisystemer
 last_modified_at: 2019-03-06T23:14:14Z

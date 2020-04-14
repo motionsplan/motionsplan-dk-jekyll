@@ -1,0 +1,50 @@
+---
+layout: webslides
+title: Muskler
+---
+
+{% assign muscles = site.anatomy | where: "tags", "muskel" %}
+{% for m in muscles %}
+<section>
+  <div class="wrap">
+    <div class="grid vertical-align">
+      <div class="content-left vertical-align">
+        <h2>{{ m.title }}</h2>
+        <h4>{{ m.latin }}</h4>
+        {% if m.excerpt %}
+          <p class="text-intro">{{ m.excerpt }}</p>
+        {% endif%}
+        <ul class="flexblock specs">
+        {% for b in m.function %}
+          <li>
+            <h2>{{ b.short }}</h2>
+            {{ b.extended }}
+          </li>
+        {% endfor %}
+        </ul>
+      </div>
+      <div class="content-right vertical-align">
+        {% if m.image %}
+        <figure>
+          <img class="aligncenter" src="{{ m.image }}" alt="{{ m.title }}">
+        </figure>
+        {% endif %}
+        <ul class="description">
+        {% if m.origin.da %}
+          <li>
+            <span class="text-label">Udspring</span>
+            {{ m.origin.da }}
+          </li>
+        {% endif %}
+        {% if m.insertion.da %}
+          <li>
+            <span class="text-label">Hæfte</span>
+            {{ m.insertion.da }}
+          </li>
+        {% endif %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+{% endfor %}

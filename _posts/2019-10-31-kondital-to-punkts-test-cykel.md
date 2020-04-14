@@ -1,15 +1,17 @@
 ---
-title: "To-punkts test på cykel"
+title: "Åstrands to-punkts test på cykel"
 permalink: /topunktstest/
 excerpt: "Åstrands to-punktstest er en submaksimal test af konditionen på en ergometercykel, hvor du måler belastning og puls."
 language: da
 header:
-  overlay_image: https://i.ytimg.com/vi/zUyuUoU7lAQ/maxresdefault.jpg
-  teaser: https://i.ytimg.com/vi/zUyuUoU7lAQ/maxresdefault.jpg
+  overlay_image: https://i.ytimg.com/vi/bTynfzI2bWw/maxresdefault.jpg
+  teaser: https://i.ytimg.com/vi/bTynfzI2bWw/maxresdefault.jpg
 category:
   - Kondition
 tags:
   - konditionstest
+  - submaksimal test
+  - indirekte test
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 feature_row:

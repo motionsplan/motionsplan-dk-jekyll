@@ -14,7 +14,7 @@ category:
 last_modified_at: 2019-11-07T08:34:44Z
 ---
 
-Vi har lært, at vi skal [glemme fedtforbrændingszonen](http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/) og holde en så høj intensitet, som vi kan holde til under træningen. Det gælder om at finde et passende forhold mellem træningstid og intensitet, så man kan nå at restitutere, men man skal ikke lægge bånd på sig selv for at ramme en bestemt intensitet, fordi den giver en større fedtforbrænding.
+Vi har lært, at vi skal [glemme fedtforbrændingszonen](http://www.motion-online.dk/glem-fedtforbraendingszonen/) og holde en så høj intensitet, som vi kan holde til under træningen. Det gælder om at finde et passende forhold mellem træningstid og intensitet, så man kan nå at restitutere, men man skal ikke lægge bånd på sig selv for at ramme en bestemt intensitet, fordi den giver en større fedtforbrænding.
 
 Vi har tidligere [advokeret for at intervaltræning giver en bedre træningseffekt end kontinuerlig træning på mindre tid](/artikel/4-minutters-haard-intervaltraening-bedre-end-en-times-moderat-loeb). Flere steder foreslår man, at [intervaltræning også er overlegent ift. fedtforbrænding](http://www.alun.dk/traening/high-intensity-interval-training.html), men er det korrekt?
 
@@ -43,7 +43,7 @@ Konklusion
 
 Det er dog helt sikkert, at vi har brug for mere forskning for at finde mere kvalificerede svar på om intervaltræning er mere effektivt end kontinuerlig træning for at tabe fedt - og vi har i særdeleshed brug for studier, der måler på deltagernes kropskomosition.
 
-Uanset hvordan du træner, så gælder det stadig at en [fornuftig diæt kombineret med træning er den mest effektive vej til fedttab](http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/motion-online_slankekuren/). Det gælder fortsat at du skal træne med så høj intensitet, som du kan holde til i det tidsrum, du har afsat til din træning. Men det er fortsat uklart om det er en fordel at lave træningen som intervaltræning, hvis vi isoleret ser på fedttabet. I forhold til den samlede træningseffekt, hersker der ikke meget tvivl om, at det er rigtig smart at smide nogle intervaller ind i din daglige træning.
+Uanset hvordan du træner, så gælder det stadig at en [fornuftig diæt kombineret med træning er den mest effektive vej til fedttab](https://www.motion-online.dk/motions-slankekuren/). Det gælder fortsat at du skal træne med så høj intensitet, som du kan holde til i det tidsrum, du har afsat til din træning. Men det er fortsat uklart om det er en fordel at lave træningen som intervaltræning, hvis vi isoleret ser på fedttabet. I forhold til den samlede træningseffekt, hersker der ikke meget tvivl om, at det er rigtig smart at smide nogle intervaller ind i din daglige træning.
 
 Referencer
 ----------

@@ -12,6 +12,7 @@ category:
   - Test
 tags:
   - konditionstest
+  - indirekte test
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 ---
@@ -35,6 +36,17 @@ Du kan også estimere din hvilepuls ud fra følgende skema:
 | God form          | 60        |
 | Dårlig form       | 70        |
 | Meget dårlig form | 80        |
+
+### Hvad er en normal hvilepuls?
+
+|                                                          | slag pr. minut |
+|----------------------------------------------------------|---------------:|
+| Meget høj hvilepuls                                      | > 100          | 
+| Lettere forhøjet                                         | 80-100         |
+| Normal hvilepuls                                         | 70-80          |
+| Lidt lavere end normalt                                  | 60-70          |
+| Lav hvilepuls                                            | 50-60          | 
+| Meget lav hvilepuls (typisk meget konditionsstærk atlet) | < 50           |
 
 ## Måling af maxpulsen
 

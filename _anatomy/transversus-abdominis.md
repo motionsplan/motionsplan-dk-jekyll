@@ -4,6 +4,7 @@ latin: "Transversus Abdominis"
 tags:
   - fitnessinstruktør
   - muskel
+  - not-in-imagemap
 origin: 
   da: Nederste ribben, hoftebenskammen og lændefascien
 insertion: 
@@ -13,7 +14,7 @@ function:
     extended: ""
 exercises:
   - Stående calf-raise
-image: 
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Transversus_abdominis.png/375px-Transversus_abdominis.png
 image_focus: 
 ---
 
