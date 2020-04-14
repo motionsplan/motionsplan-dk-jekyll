@@ -15,17 +15,19 @@ last_modified_at: 2013-02-13T21:40:51Z
 
 Rigtig mange træner ikke deres baglårsmuskler tilstrækkeligt. Det øger risikoen for skader og nedsætter præstationspotentialet, så næste gang du går i styrkerummet starter træningen.
 
-### Tager dit program højde for følgende?
+## Tager dit program højde for følgende?
 
 Ofte bliver baglåret ikke trænet tilstrækkeligt, og ofte heller ikke på den måde musklen skal bruges. Det er vigtigt at forstå, at musklerne i baglåret har flere funktioner - og at disse funktioner kræver forskellig træning:
 
 - **Fleksion af knæet** og **ekstension af hoften****.** Begge disse typer bevægelser skal altså en del af træningsprogrammet - og det er helt centrale bevægelser i sprint.
 
-![De flekterer knæet](/assets/images/image001.jpg)![](/assets/images/image003.jpg)- **væsentlige i nedbremsninger**. Musklerne i baglåret er meget vigtige, når man decellerer (bremser). Jo stærkere baglårsmuskler, jo hurtigere kan man stoppe, og derefter skifte retning og fortsætte sin fremdrift. Det kan atlså være en god ide med relativt tungt excentrisk arbejde - og måske endda isometrisk arbejde.
+![De flekterer knæet](/assets/images/knee_flexors.jpg.jpg)![](/assets/images/hip_extensors.jpg)
+
+- **væsentlige i nedbremsninger**. Musklerne i baglåret er meget vigtige, når man decellerer (bremser). Jo stærkere baglårsmuskler, jo hurtigere kan man stoppe, og derefter skifte retning og fortsætte sin fremdrift. Det kan atlså være en god ide med relativt tungt excentrisk arbejde - og måske endda isometrisk arbejde.
 - **bygget til hastighed**, og derfor har de ofte mange hurtige fibre. Træningen bør altså være eksplosiv, men også gerne excentrisk som tenderer til at rekruttere også de hurtige muskelfibre.
 - **stabiliserer knæet**, og derfor er det meget vigtige ift. at forebygge knæskader (især korsbåndsskader). Det er især evnen til at bremse bevægelser, der beskytter knæet.
 
-### Hvordan bør jeg så træne baglårene?
+## Hvordan bør jeg så træne baglårene?
 
 Disse observationer har naturligvis betydning for, hvordan du bør træne baglårene. Vi vil sørge for at træne både evnen til at lave hofteudstrækning og til at bøje knæet. Vi deler træningen op i to træningspas. Når du laver træningspassene, skal du være opmærksom på følgende:
 
@@ -33,7 +35,7 @@ Disse observationer har naturligvis betydning for, hvordan du bør træne baglå
 - **Opbygning.** Træningspassene starter med tunge øvelser og går over til mindre tunge øvelser.
 - **Gentagelser og sæt.** De tunge øvelser, skal du lave 4-6 sæt med 3-6 gentagelser alt efter hvor du er henne i din træning. De lettere øvelser laver du 2-3 sæt med 10-12 gentagelser af.
 
-#### Træningspas 1: Hofteekstension
+### Træningspas 1: Hofteekstension
 
 Hofteekstension kan ske på to måder, alt efter hvordan fødderne er placeret, og det er væsentligt at træne begge:
 
@@ -55,7 +57,7 @@ Hofteekstension kan ske på to måder, alt efter hvordan fødderne er placeret, 
 
 {% include exercises exercises="Hofteudstrækning, et ben stående" match="exact" type="left" %}
 
-#### Træningspas 2: Knæfleksion
+### Træningspas 2: Knæfleksion
 
 **Øvelse 1.** Vi starter igen tungt med en af de bedste øvelser for baglårene.
 
@@ -75,10 +77,10 @@ Desværre findes den maskine ikke i alle træningscentre, og et alternativ kan v
 
 {% include exercises exercises="Knæbøj" match="exact" type="left" %}
 
-### I gang med træningen
+## I gang med baglårstræningen
 
 Inden du springer ud i træningen af dine baglår, skal du naturligvis huske på, at det også er rigtig vigtigt at træne øvelser, der fokuserer på dine forlår. Dette træningsprogram er udelukkende et forslag til, hvordan du virkelig kan fokusere intensivt på træningen af dine baglår på en måde, som de er designet til at bruge.
 
-### Referencer
+## Referencer
 
 - [The Lost Art of Hamstring Training](http://tnation.tmuscle.com/free_online_article/sports_body_training_performance/the_lost_art_of_hamstring_training)

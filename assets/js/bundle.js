@@ -1,4 +1,13 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
+/*! Image Map Resizer (imageMapResizer.min.js ) - v1.0.10 - 2019-04-10
+ *  Desc: Resize HTML imageMap to scaled image.
+ *  Copyright: (c) 2019 David J. Bradshaw - dave@bradshaw.net
+ *  License: MIT
+ */
+
+!function(){"use strict";function r(){function e(){var r={width:u.width/u.naturalWidth,height:u.height/u.naturalHeight},a={width:parseInt(window.getComputedStyle(u,null).getPropertyValue("padding-left"),10),height:parseInt(window.getComputedStyle(u,null).getPropertyValue("padding-top"),10)};i.forEach(function(e,t){var n=0;o[t].coords=e.split(",").map(function(e){var t=1==(n=1-n)?"width":"height";return a[t]+Math.floor(Number(e)*r[t])}).join(",")})}function t(e){return e.coords.replace(/ *, */g,",").replace(/ +/g,",")}function n(){clearTimeout(d),d=setTimeout(e,250)}function r(e){return document.querySelector('img[usemap="'+e+'"]')}var a=this,o=null,i=null,u=null,d=null;"function"!=typeof a._resize?(o=a.getElementsByTagName("area"),i=Array.prototype.map.call(o,t),u=r("#"+a.name)||r(a.name),a._resize=e,u.addEventListener("load",e,!1),window.addEventListener("focus",e,!1),window.addEventListener("resize",n,!1),window.addEventListener("readystatechange",e,!1),document.addEventListener("fullscreenchange",e,!1),u.width===u.naturalWidth&&u.height===u.naturalHeight||e()):a._resize()}function e(){function t(e){e&&(!function(e){if(!e.tagName)throw new TypeError("Object is not a valid DOM element");if("MAP"!==e.tagName.toUpperCase())throw new TypeError("Expected <MAP> tag, found <"+e.tagName+">.")}(e),r.call(e),n.push(e))}var n;return function(e){switch(n=[],typeof e){case"undefined":case"string":Array.prototype.forEach.call(document.querySelectorAll(e||"map"),t);break;case"object":t(e);break;default:throw new TypeError("Unexpected data type ("+typeof e+").")}return n}}"function"==typeof define&&define.amd?define([],e):"object"==typeof module&&"object"==typeof module.exports?module.exports=e():window.imageMapResize=e(),"jQuery"in window&&(window.jQuery.fn.imageMapResize=function(){return this.filter("map").each(r).end()})}();
+
+},{}],2:[function(require,module,exports){
 'use strict';
 
 const maleValues = [
@@ -180,10 +189,10 @@ module.exports = {
 	calculateWeightToLift: calculateWeightToLift,
 	calculateNeededBodyWeight: calculateNeededBodyWeight
 };
-},{}],2:[function(require,module,exports){
+},{}],3:[function(require,module,exports){
 let motionsplan = {};
 
-motionsplan.Estimate1RM = function(weight, repetitions) {
+motionsplan.Estimate1RM = function(weight, repetitions = 5) {
   weight = weight;
   repetitions = repetitions;
 
@@ -195,6 +204,43 @@ motionsplan.Estimate1RM = function(weight, repetitions) {
     return repmax / (36 / (37 - rm));
   }
 
+  /**
+   * Lower body Reynolds seems to overestimate lower body 1RM
+   */
+  function getReynolds5RM(body_part = "lower") {
+    if (repetitions != 5) {
+      throw Error('Reynolds only works with 5RM');
+    }
+    var repmax;
+    if (body_part == "lower") {
+      repmax = (1.09703 * weight) + 14.2546;
+    } else {
+      repmax = (1.1307 * weight) + 0.6998;
+    }
+    return repmax;
+  }
+
+  /**
+   * Lower body Reynolds original formula from getReynolds5RM()
+   * seems to overestimate lower body 1RM so we are using the estimation formula
+   * from figure 3 instead for all calculations.
+   */
+  function getReynolds(body_part = "lower", rm = 1) {
+    var repmax = weight / getReynoldsPercent(body_part, repetitions) * 100;
+    if (rm == 1) {
+      return repmax;
+    }
+    return getReynoldsPercent(body_part, rm) * repmax / 100;
+  }
+
+  function getReynoldsPercent(body_part = "lower", rm = 1) {
+    if (body_part == "lower") {
+      return 78.17 * Math.exp(-0.0569 * rm) + 26.41;
+    } else {
+      return 55.51 * Math.exp(-0.0723 * rm) + 48.47;
+    }
+  }
+
   function getEpley(rm = 1) {
     var repmax = (1 + (0.0333 * repetitions)) * weight;
     if (rm == 1) {
@@ -203,24 +249,68 @@ motionsplan.Estimate1RM = function(weight, repetitions) {
     return repmax / (1 + (0.0333 * rm));
   }
 
-  function getLander() {
-    return (100 * weight) / (101.3 - 2.67123 * repetitions);
+  /**
+   * Women College Aged
+   */
+  /*
+  function getAbadie(rm = 1) {
+    var repmax = 7.24 + (1.05 * weight * repetitions);
+    if (rm == 1) {
+      return repmax;
+    }
+    return repmax / (1 + (0.0333 * rm));
+  }
+  */
+
+  /**
+   * McGlothin on Wikipedia
+   */
+  function getLander(rm = 1) {
+    var repmax = (100 * weight) / (101.3 - 2.67123 * repetitions);
+    if (rm == 1) {
+      return repmax;
+    }
+    return (repmax * (101.3 - 2.67123 * rm)) / 100;
   }
 
-  function getLombardi() {
-    return weight * (Math.pow(repetitions, 0.1));
+  function getLombardi(rm = 1) {
+    var repmax = weight * (Math.pow(repetitions, 0.1));
+    if (rm == 1) {
+      return repmax;
+    }
+    return repmax / ((Math.pow(repetitions, 0.1)));
   }
 
-  function getMayhew() {
-    return (100 * weight) / (52.2 + (41.9 * Math.exp(-0.055 * repetitions)));
+  function getMayhew(rm = 1) {
+    var repmax = (100 * weight) / (52.2 + (41.9 * Math.exp(-0.055 * repetitions)));
+    if (rm == 1) {
+      return repmax;
+    }
+    return repmax * (52.2 + (41.9 * Math.exp(-0.055 * rm))) / 100;
   }
 
-  function getOconnor() {
-    return weight * (1 + 0.025 * repetitions);
+  function getOconnor(rm = 1) {
+    var repmax = weight * (1 + 0.025 * repetitions);
+    if (rm == 1) {
+      return repmax;
+    }
+    return repmax / (1 + 0.025 * rm);
   }
 
-  function getWathan() {
-    return (100 * weight) / (48.8 + (53.8 * Math.exp(-0.075 * repetitions)));
+  function getWathan(rm = 1) {
+    var repmax = (100 * weight) / (48.8 + (53.8 * Math.exp(-0.075 * repetitions)));
+    if (rm == 1) {
+      return repmax;
+    }
+    return repmax * (48.8 + (53.8 * Math.exp(-0.075 * rm))) / 100;
+  }
+
+  function getWendler(rm = 1) {
+    var repmax = weight * repetitions * 0.0333 + weight;
+    if (rm == 1) {
+      return repmax;
+    }
+    return 1 / (((rm * .0333) / repmax) + (1 / repmax));
   }
 
   /**
@@ -289,6 +379,10 @@ motionsplan.Estimate1RM = function(weight, repetitions) {
 
   var publicAPI = {
     getBrzycki: getBrzycki,
+    // getAbadie: getAbadie,
+    getReynolds: getReynolds,
+    getReynolds5RM: getReynolds5RM,
+    getReynoldsPercent: getReynoldsPercent,
     getEpley: getEpley,
     getLander: getLander,
     getLombardi: getLombardi,
@@ -297,7 +391,8 @@ motionsplan.Estimate1RM = function(weight, repetitions) {
     getWathan: getWathan,
     getMOL: getMOL,
     getMOLBrzycki : getMOLBrzycki,
-    getPercentOfRm : getPercentOfRm
+    getPercentOfRm : getPercentOfRm,
+    getWendler : getWendler
   };
 
   return publicAPI;
@@ -305,7 +400,7 @@ motionsplan.Estimate1RM = function(weight, repetitions) {
 
 module.exports = motionsplan;
 
-},{}],3:[function(require,module,exports){
+},{}],4:[function(require,module,exports){
 'use strict'
 
 const fitness = require('./fitness-hr');
@@ -323,11 +418,16 @@ const wilks = require('wilks-calculator');
 const karvonen = require('./karvonen');
 const index23 = require('./fitness-index-23');
 const running = require('./running');
+const running_economy = require('./running-economy');
+const skinfold_durnin = require('./skinfold-durnin');
+require('image-map-resizer');
 
 $(document).ready(function() {
+    $('map').imageMapResize();
 
-    $("#calculator_rm").ready(function() {
+    $("#form-formula").ready(function() {
         $(".motiononline").hide();
+        $(".reynolds").hide();
     });
     // 1RM calculate
     $("#form-formula").change(function() {
@@ -336,63 +436,165 @@ $(document).ready(function() {
         } else {
             $(".motiononline").hide();
         }
+        if ($("#form-formula").val() == 'reynolds') {
+            $(".reynolds").show();
+        } else {
+            $(".reynolds").hide();
+        }
     });
     $("#calculator_rm").submit(function() {
         console.log("Calculate 1RM");
-        
-        var repmax;
+
+        var repmax, reps;
+        var formula = $("#form-formula").val();
+        var decimals = 1;
 
         var reps = Number($("#form-reps").val());
         var weight = Number($("#form-weight").val());
         var trained = Number($("#form-trained").val());
         var koen = Number($("#form-sex").val());
-        var formula = $("#form-formula").val();
+        var bodypart = $("#form-bodypart").val();
 
         var r = rm.Estimate1RM(weight, reps);
 
         if (formula == "brzycki") {
             repmax = r.getMOLBrzycki();
-            $("#rm1").val(r.getMOLBrzycki());
-            $("#rm2").val(r.getMOLBrzycki(2));
-            $("#rm3").val(r.getMOLBrzycki(3));
-            $("#rm4").val(r.getMOLBrzycki(4));
-            $("#rm5").val(r.getMOLBrzycki(5));
-            $("#rm6").val(r.getMOLBrzycki(6));
-            $("#rm8").val(r.getMOLBrzycki(8));
-            $("#rm10").val(r.getMOLBrzycki(10));
-            $("#rm12").val(r.getMOLBrzycki(12));
-            $("#rm15").val(r.getMOLBrzycki(15));
-        }
-        else {
+            $("#rm1").val(repmax.toFixed(decimals));
+            $("#rm2").val(r.getMOLBrzycki(2).toFixed(decimals));
+            $("#rm3").val(r.getMOLBrzycki(3).toFixed(decimals));
+            $("#rm4").val(r.getMOLBrzycki(4).toFixed(decimals));
+            $("#rm5").val(r.getMOLBrzycki(5).toFixed(decimals));
+            $("#rm6").val(r.getMOLBrzycki(6).toFixed(decimals));
+            $("#rm8").val(r.getMOLBrzycki(8).toFixed(decimals));
+            $("#rm10").val(r.getMOLBrzycki(10).toFixed(decimals));
+            $("#rm12").val(r.getMOLBrzycki(12).toFixed(decimals));
+            $("#rm15").val(r.getMOLBrzycki(15).toFixed(decimals));
+        } else if (formula == "reynolds") {
+            repmax = r.getReynolds();
+            $("#rm1").val(repmax.toFixed(decimals));
+            $("#rm2").val(r.getReynolds(bodypart, 2).toFixed(decimals));
+            $("#rm3").val(r.getReynolds(bodypart, 3).toFixed(decimals));
+            $("#rm4").val(r.getReynolds(bodypart, 4).toFixed(decimals));
+            $("#rm5").val(r.getReynolds(bodypart, 5).toFixed(decimals));
+            $("#rm6").val(r.getReynolds(bodypart, 6).toFixed(decimals));
+            $("#rm8").val(r.getReynolds(bodypart, 8).toFixed(decimals));
+            $("#rm10").val(r.getReynolds(bodypart, 10).toFixed(decimals));
+            $("#rm12").val(r.getReynolds(bodypart, 12).toFixed(decimals));
+            $("#rm15").val(r.getReynolds(bodypart, 15).toFixed(decimals));
+        } else if (formula == "epley") {
+            repmax = r.getEpley();
+            $("#rm1").val(repmax.toFixed(decimals));
+            $("#rm2").val(r.getEpley(2).toFixed(decimals));
+            $("#rm3").val(r.getEpley(3).toFixed(decimals));
+            $("#rm4").val(r.getEpley(4).toFixed(decimals));
+            $("#rm5").val(r.getEpley(5).toFixed(decimals));
+            $("#rm6").val(r.getEpley(6).toFixed(decimals));
+            $("#rm8").val(r.getEpley(8).toFixed(decimals));
+            $("#rm10").val(r.getEpley(10).toFixed(decimals));
+            $("#rm12").val(r.getEpley(12).toFixed(decimals));
+            $("#rm15").val(r.getEpley(15).toFixed(decimals));
+        } else if (formula == "lander") {
+            repmax = r.getLander();
+            $("#rm1").val(repmax.toFixed(decimals));
+            $("#rm2").val(r.getLander(2).toFixed(decimals));
+            $("#rm3").val(r.getLander(3).toFixed(decimals));
+            $("#rm4").val(r.getLander(4).toFixed(decimals));
+            $("#rm5").val(r.getLander(5).toFixed(decimals));
+            $("#rm6").val(r.getLander(6).toFixed(decimals));
+            $("#rm8").val(r.getLander(8).toFixed(decimals));
+            $("#rm10").val(r.getLander(10).toFixed(decimals));
+            $("#rm12").val(r.getLander(12).toFixed(decimals));
+            $("#rm15").val(r.getLander(15).toFixed(decimals));
+        } else if (formula == "lombardi") {
+            repmax = r.getLombardi();
+            $("#rm1").val(repmax.toFixed(decimals));
+            $("#rm2").val(r.getLombardi(2).toFixed(decimals));
+            $("#rm3").val(r.getLombardi(3).toFixed(decimals));
+            $("#rm4").val(r.getLombardi(4).toFixed(decimals));
+            $("#rm5").val(r.getLombardi(5).toFixed(decimals));
+            $("#rm6").val(r.getLombardi(6).toFixed(decimals));
+            $("#rm8").val(r.getLombardi(8).toFixed(decimals));
+            $("#rm10").val(r.getLombardi(10).toFixed(decimals));
+            $("#rm12").val(r.getLombardi(12).toFixed(decimals));
+            $("#rm15").val(r.getLombardi(15).toFixed(decimals));
+        } else if (formula == "mayhew") {
+            repmax = r.getMayhew();
+            $("#rm1").val(repmax.toFixed(decimals));
+            $("#rm2").val(r.getMayhew(2).toFixed(decimals));
+            $("#rm3").val(r.getMayhew(3).toFixed(decimals));
+            $("#rm4").val(r.getMayhew(4).toFixed(decimals));
+            $("#rm5").val(r.getMayhew(5).toFixed(decimals));
+            $("#rm6").val(r.getMayhew(6).toFixed(decimals));
+            $("#rm8").val(r.getMayhew(8).toFixed(decimals));
+            $("#rm10").val(r.getMayhew(10).toFixed(decimals));
+            $("#rm12").val(r.getMayhew(12).toFixed(decimals));
+            $("#rm15").val(r.getMayhew(15).toFixed(decimals));
+        } else if (formula == "oconnor") {
+            repmax = r.getOconnor();
+            $("#rm1").val(repmax.toFixed(decimals));
+            $("#rm2").val(r.getOconnor(2).toFixed(decimals));
+            $("#rm3").val(r.getOconnor(3).toFixed(decimals));
+            $("#rm4").val(r.getOconnor(4).toFixed(decimals));
+            $("#rm5").val(r.getOconnor(5).toFixed(decimals));
+            $("#rm6").val(r.getOconnor(6).toFixed(decimals));
+            $("#rm8").val(r.getOconnor(8).toFixed(decimals));
+            $("#rm10").val(r.getOconnor(10).toFixed(decimals));
+            $("#rm12").val(r.getOconnor(12).toFixed(decimals));
+            $("#rm15").val(r.getOconnor(15).toFixed(decimals));
+        } else if (formula == "wathan") {
+            repmax = r.getWathan();
+            $("#rm1").val(repmax.toFixed(decimals));
+            $("#rm2").val(r.getWathan(2).toFixed(decimals));
+            $("#rm3").val(r.getWathan(3).toFixed(decimals));
+            $("#rm4").val(r.getWathan(4).toFixed(decimals));
+            $("#rm5").val(r.getWathan(5).toFixed(decimals));
+            $("#rm6").val(r.getWathan(6).toFixed(decimals));
+            $("#rm8").val(r.getWathan(8).toFixed(decimals));
+            $("#rm10").val(r.getWathan(10).toFixed(decimals));
+            $("#rm12").val(r.getWathan(12).toFixed(decimals));
+            $("#rm15").val(r.getWathan(15).toFixed(decimals));
+        } else if (formula == "wendler") {
+            repmax = r.getWendler();
+            $("#rm1").val(repmax.toFixed(decimals));
+            $("#rm2").val(r.getWendler(2).toFixed(decimals));
+            $("#rm3").val(r.getWendler(3).toFixed(decimals));
+            $("#rm4").val(r.getWendler(4).toFixed(decimals));
+            $("#rm5").val(r.getWendler(5).toFixed(decimals));
+            $("#rm6").val(r.getWendler(6).toFixed(decimals));
+            $("#rm8").val(r.getWendler(8).toFixed(decimals));
+            $("#rm10").val(r.getWendler(10).toFixed(decimals));
+            $("#rm12").val(r.getWendler(12).toFixed(decimals));
+            $("#rm15").val(r.getWendler(15).toFixed(decimals));
+        } else {
             repmax = r.getMOL(trained, koen);
-            $("#rm1").val(repmax);
-            $("#rm2").val(r.getMOL(trained, koen, 2));
-            $("#rm3").val(r.getMOL(trained, koen, 3));
-            $("#rm4").val(r.getMOL(trained, koen, 4));
-            $("#rm5").val(r.getMOL(trained, koen, 5));
-            $("#rm6").val(r.getMOL(trained, koen, 6));
-            $("#rm8").val(r.getMOL(trained, koen, 8));
-            $("#rm10").val(r.getMOL(trained, koen, 10));
-            $("#rm12").val(r.getMOL(trained, koen, 12));
-            $("#rm15").val(r.getMOL(trained, koen, 15));
+            $("#rm1").val(repmax).toFixed(decimals);
+            $("#rm2").val(r.getMOL(trained, koen, 2).toFixed(decimals));
+            $("#rm3").val(r.getMOL(trained, koen, 3).toFixed(decimals));
+            $("#rm4").val(r.getMOL(trained, koen, 4).toFixed(decimals));
+            $("#rm5").val(r.getMOL(trained, koen, 5).toFixed(decimals));
+            $("#rm6").val(r.getMOL(trained, koen, 6).toFixed(decimals));
+            $("#rm8").val(r.getMOL(trained, koen, 8).toFixed(decimals));
+            $("#rm10").val(r.getMOL(trained, koen, 10).toFixed(decimals));
+            $("#rm12").val(r.getMOL(trained, koen, 12).toFixed(decimals));
+            $("#rm15").val(r.getMOL(trained, koen, 15).toFixed(decimals));
         }
 
-        $("#p100").val(r.getPercentOfRm(repmax, 100));
-        $("#p95").val(r.getPercentOfRm(repmax, 95));
-        $("#p90").val(r.getPercentOfRm(repmax, 90));
-        $("#p85").val(r.getPercentOfRm(repmax, 85));
-        $("#p80").val(r.getPercentOfRm(repmax, 80));
-        $("#p75").val(r.getPercentOfRm(repmax, 75));
-        $("#p70").val(r.getPercentOfRm(repmax, 70));
-        $("#p60").val(r.getPercentOfRm(repmax, 60));
-        $("#p50").val(r.getPercentOfRm(repmax, 50));
-        $("#p40").val(r.getPercentOfRm(repmax, 40));
+        $("#p100").val(r.getPercentOfRm(repmax, 100).toFixed(decimals));
+        $("#p95").val(r.getPercentOfRm(repmax, 95).toFixed(decimals));
+        $("#p90").val(r.getPercentOfRm(repmax, 90).toFixed(decimals));
+        $("#p85").val(r.getPercentOfRm(repmax, 85).toFixed(decimals));
+        $("#p80").val(r.getPercentOfRm(repmax, 80).toFixed(decimals));
+        $("#p75").val(r.getPercentOfRm(repmax, 75).toFixed(decimals));
+        $("#p70").val(r.getPercentOfRm(repmax, 70).toFixed(decimals));
+        $("#p60").val(r.getPercentOfRm(repmax, 60).toFixed(decimals));
+        $("#p50").val(r.getPercentOfRm(repmax, 50).toFixed(decimals));
+        $("#p40").val(r.getPercentOfRm(repmax, 40).toFixed(decimals));
         return false;
     });
     // Mortality calculation
     $("#calculator_cooper_mortality").submit(function() {
         console.log("Calculate Cooper");
-        
+
         var Alder = Number($("#age").val());
         var Hvilepuls = Number($("#hrrest").val());
         var Blodtryk = Number($("#bloodpressure").val());
@@ -445,9 +647,9 @@ $(document).ready(function() {
     // Calculate Max Heart Rate
     $("#calculator_maxhr").submit(function() {
         console.log("Calculate Maximal Heart Rate");
-        
+
         var ald = Number($("#mxAld").val());
-        
+
         var hr = maxhr.EstimateMaxHr(ald);
 
         $("#mxMaxpul").val(hr.getMaxHr());
@@ -462,11 +664,11 @@ $(document).ready(function() {
 
         var b = bmi.BMI(h, w);
 
-        $("#BMI").val(b.getBMI());
-        $("#PMI").val(b.getPonderalIndex());
+        $("#BMI").val(b.getBMI().toFixed(1));
+        $("#PMI").val(b.getPonderalIndex().toFixed(1));
         return false;
     });
-    
+
     // Calculate Fat Percent
     $("#calculator_fat_percent").submit(function() {
         console.log("Calculate Fat Percent");
@@ -478,36 +680,28 @@ $(document).ready(function() {
 
         var f = fat.CalculateFatPercent(h, w, a, g);
 
-        $("#BMI").val(f.getBMI());
-        $("#fat_mass").val(f.getFatMass());
-        $("#fat_percent").val(f.getFatPercent());
+        $("#BMI").val(f.getBMI().toFixed(2));
+        $("#fat_percent_heitmann").val(f.getBodyFatPercentHeitmannBMIEquation().toFixed(2));
+        $("#fat_percent_durnin").val(f.getBodyFatPercentWomersleyDurninBMIEquation().toFixed(2));
+        $("#fat_percent_duerenberg").val(f.getBodyFatPercentDuerenbergBMIEquation().toFixed(2));
         return false;
     });
     // Calculate Durnin
     $("#calculator_skinfold_durnin").submit(function() {
         console.log("Calculate Skinfold Durnin");
 
-        var density;
-
         var biceps = Number($("[name='biceps']").val());
         var triceps = Number($("[name='triceps']").val());
         var hoftekam = Number($("[name='hoftekam']").val());
         var skulder = Number($("[name='skulder']").val());
         var vaegt = Number($("[name='vaegt']").val());
-        var koen = Number($("[name='koen']").val());
+        var koen = $("[name='koen']").val();
+        var age = Number($("[name='age']").val());
 
-        var fedtsum = biceps * 1 + triceps * 1 + hoftekam * 1 + skulder * 1;
-        if (koen == 1) {
-            density = -0.0274 * Math.log(fedtsum) + 1.1631;
-        }
-        else {
-            density = -0.0311 * Math.log(fedtsum) + 1.1599;
-        }
-        var resultat1 = Math.round((495 / density - 450) * Math.pow(10, 1)) / Math.pow(10, 1)
-        var resultat2 = Math.round((vaegt - vaegt * resultat1 / 100) * Math.pow(10, 1)) / Math.pow(10, 1)
+        var f = skinfold_durnin.SkinfoldDurnin(biceps, triceps, hoftekam, skulder, vaegt, koen, age);
 
-        $("[name='fedtprocentDurnin']").val(resultat1);
-        $("[name='fedtfriDurnin']").val(resultat2);
+        $("[name='fedtprocentDurnin']").val(f.getBodyFatPercent().toFixed(2));
+        $("[name='fedtfriDurnin']").val(f.getFatFreeMass().toFixed(2));
         return false;
     });
     // Calculate Pollock
@@ -522,7 +716,7 @@ $(document).ready(function() {
 
         var fedtsum_m = bryst_m * 1 + mave_m * 1 + laar_m * 1;
         var density_m = 1.10938 - 0.0008267 * fedtsum_m + 0.0000016 * Math.pow(fedtsum_m, 2) - 0.0002574 * alder_m;
-        
+
         var resultat1_m = Math.round((495 / density_m - 450) * Math.pow(10, 1)) / Math.pow(10, 1)
         var resultat2_m = Math.round((vaegt_m - vaegt_m * resultat1_m / 100) * Math.pow(10, 1)) / Math.pow(10, 1)
 
@@ -634,7 +828,7 @@ $(document).ready(function() {
     // Calculate VO2 from HR
     $("#calculate_fitness_level_hr").submit(function() {
         console.log("Calculate VO2 from HR");
-        
+
         var hvpul = Number($("#plHvil").val());
         var mxpul = Number($("#plMaxp").val());
         var wgt = Number($("#plVgt").val());
@@ -646,7 +840,7 @@ $(document).ready(function() {
 
         $("#plIltop").val(maxiltop);
         $("#plKond").val(kondi);
-        
+
         return false;
     });
     // Calculate Borg 15 fitness
@@ -791,7 +985,7 @@ $(document).ready(function() {
         var Vmax2 = Number($("[name='Vmax2']").val());
         var Min = Number($("[name='Min']").val());
         var Sek = Number($("[name='Sek']").val());
-        
+
         var Tid = Min * 60 + Sek * 1
 
         $("[name='Opvarm1']").val(Math.round((Vmax2 * 0.6 / 5) * Math.pow(10, 0)) / Math.pow(10, 0) * 5);
@@ -811,7 +1005,7 @@ $(document).ready(function() {
         var Vmax2 = Number($("[name='Vmax2']").val());
         var Min = Number($("[name='Min']").val());
         var Sek = Number($("[name='Sek']").val());
-        
+
         var Tid = Min * 60 + Sek * 1
 
         $("[name='Opvarm1']").val(Math.round((Vmax2 * 0.6 / 5) * Math.pow(10, 1)) / Math.pow(10, 1) * 5);
@@ -881,7 +1075,7 @@ $(document).ready(function() {
 
         var minHr = Number($("#karvonen_min_hr").val());
         var maxHr = Number($("#karvonen_max_hr").val());
-        
+
         var k = karvonen.Karvonen(minHr, maxHr);
 
         $("#karvonen_zone1_a").val(k.getTargetHR(50));
@@ -910,10 +1104,72 @@ $(document).ready(function() {
         var c = running.Running();
 
         $("#kondital").val(c.getEstimatedFitnessLevel(min, sek, distance));
-        
+
         return false;
     });
-     // Calculate Cooper 12 min
+    $("#calculator_velocity").submit(function() {
+        console.log("Calculate velocity");
+
+        var min = Number($("[name='min']").val());
+        var sec = Number($("[name='sec']").val());
+        var distance = Number($("[name='distance']").val());
+
+        var c = running.Running();
+
+        $("#velocity_kmt").val(c.getKilometersPrHour(min, sec, distance));
+        $("#velocity_min_km").val(c.getTimePrKilometer(min, sec, distance));
+
+        return false;
+    });
+    $("#calculator_convert_kmt_minkm_velocity").submit(function() {
+        console.log("Calculate velocity");
+
+        var kmt = Number($("[name='kmt']").val());
+
+        var c = running.Running();
+
+        $("#velocity_convert_minkm").val(c.convertKmtToMinPerKm(kmt));
+
+        return false;
+    });
+    $("#calculator_convert_minkm_kmt_velocity").submit(function() {
+        console.log("Calculate velocity");
+
+        var min = Number($("[name='min']").val());
+        var sec = Number($("[name='sec']").val());
+
+        var c = running.Running();
+
+        $("#velocity_convert_kmt").val(c.convertMinPerKmToKmt(min, sec));
+
+        return false;
+    });
+    $("#calculator_running_economy").submit(function() {
+        console.log("Calculate running economy");
+
+        var weight = Number($("[name='weight']").val());
+        var velocity = Number($("[name='velocity']").val());
+        var oxygenuptake = Number($("[name='oxygenuptake']").val());
+
+        var c = running_economy.RunningEconomy(weight, oxygenuptake);
+
+        $("#running_economy").val(c.getRunningEconomy(velocity).toFixed(2));
+
+        return false;
+    });
+    $("#calculator_oxygen_uptake").submit(function() {
+        console.log("Calculate oxygen uptake");
+
+        var weight = Number($("[name='fitness_weight']").val());
+        var oxygenuptake = Number($("[name='fitness_oxygenuptake']").val());
+
+        var c = running_economy.RunningEconomy(weight, oxygenuptake);
+
+        $("#fitness_level").val(c.getFitnessLevel().toFixed(2));
+
+        return false;
+    });
+     // Calculate Cooper 2400 meter
     $("#calculator_cooper_2400_test").submit(function() {
         console.log("Calculate CooperTest 2400");
 
@@ -923,10 +1179,10 @@ $(document).ready(function() {
         var c = cooper_test.CooperRunning();
 
         $("#kondital").val(c.getVO22400MeterTest(min, sek));
-        
+
         return false;
     });
-     // Calculate Cooper 12 min
+    // Calculate Cooper 12 min
     $("#calculator_cooper_test").submit(function() {
         console.log("Calculate CooperTest");
 
@@ -935,7 +1191,7 @@ $(document).ready(function() {
         var c = cooper_test.CooperRunning();
 
         $("#kondital").val(c.getVO212MinTest(distance));
-        
+
         return false;
     });
 
@@ -943,9 +1199,153 @@ $(document).ready(function() {
         if (this.min) this.value = Math.max(parseInt(this.min), parseInt(this.value));
         if (this.max) this.value = Math.min(parseInt(this.max), parseInt(this.value));
     });
+
+    $(".adductor-longus").hover(function () {
+    	$(".adductor-longus").toggleClass("anatomy-popup-on");
+	});
+
+	$(".adductor-magnus").hover(function () {
+    	$(".adductor-magnus").toggleClass("anatomy-popup-on");
+	});
+
+	$(".anconeus").hover(function () {
+    	$(".anconeus").toggleClass("anatomy-popup-on");
+	});
+
+	$(".biceps-brachii").hover(function () {
+    	$(".biceps-brachii").toggleClass("anatomy-popup-on");
+	});
+
+	$(".biceps-femoris").hover(function () {
+    	$(".biceps-femoris").toggleClass("anatomy-popup-on");
+	});
+
+	$(".brachioradialis").hover(function () {
+    	$(".brachioradialis").toggleClass("anatomy-popup-on");
+	});
+
+	$(".deltoideus").hover(function () {
+    	$(".deltoideus").toggleClass("anatomy-popup-on");
+	});
+
+	$(".extensor-carpi-radialis-longus").hover(function () {
+    	$(".extensor-carpi-radialis-longus").toggleClass("anatomy-popup-on");
+	});
+
+	$(".extensor-carpi-ulnaris").hover(function () {
+    	$(".extensor-carpi-ulnaris").toggleClass("anatomy-popup-on");
+	});
+
+	$(".extensor-digitori-minimi").hover(function () {
+    	$(".extensor-digitori-minimi").toggleClass("anatomy-popup-on");
+	});
+
+	$(".extensor-digitorum").hover(function () {
+    	$(".extensor-digitorum").toggleClass("anatomy-popup-on");
+	});
+
+	$(".external-oblique").hover(function () {
+    	$(".external-oblique").toggleClass("anatomy-popup-on");
+	});
+
+	$(".flexor-carpi-radialis").hover(function () {
+    	$(".flexor-carpi-radialis").toggleClass("anatomy-popup-on");
+	});
+
+	$(".flexor-carpi-ulnaris").hover(function () {
+    	$(".flexor-carpi-ulnaris").toggleClass("anatomy-popup-on");
+	});
+
+	$(".gastrocnemius").hover(function () {
+    	$(".gastrocnemius").toggleClass("anatomy-popup-on");
+	});
+
+	$(".gluteus-maximus").hover(function () {
+    	$(".gluteus-maximus").toggleClass("anatomy-popup-on");
+	});
+
+	$(".gluteus-medius").hover(function () {
+    	$(".gluteus-medius").toggleClass("anatomy-popup-on");
+	});
+
+	$(".gracilis").hover(function () {
+    	$(".gracilis").toggleClass("anatomy-popup-on");
+	});
+
+	$(".infraspinatus").hover(function () {
+    	$(".infraspinatus").toggleClass("anatomy-popup-on");
+	});
+
+	$(".internal-oblique").hover(function () {
+    	$(".internal-oblique").toggleClass("anatomy-popup-on");
+	});
+
+	$(".latissimus-dorsi").hover(function () {
+    	$(".latissimus-dorsi").toggleClass("anatomy-popup-on");
+	});
+
+	$(".pectineus").hover(function () {
+    	$(".pectineus").toggleClass("anatomy-popup-on");
+	});
+
+	$(".pectoralis-major").hover(function () {
+    	$(".pectoralis-major").toggleClass("anatomy-popup-on");
+	});
+
+	$(".rectus-abdominis").hover(function () {
+    	$(".rectus-abdominis").toggleClass("anatomy-popup-on");
+	});
+
+	$(".rectus-femoris").hover(function () {
+    	$(".rectus-femoris").toggleClass("anatomy-popup-on");
+	});
+
+	$(".sartorius").hover(function () {
+    	$(".sartorius").toggleClass("anatomy-popup-on");
+	});
+
+	$(".semimembranosus").hover(function () {
+    	$(".semimembranosus").toggleClass("anatomy-popup-on");
+	});
+
+	$(".semitendinosus").hover(function () {
+    	$(".semitendinosus").toggleClass("anatomy-popup-on");
+	});
+
+	$(".serratus-anterior").hover(function () {
+    	$(".serratus-anterior").toggleClass("anatomy-popup-on");
+	});
+
+	$(".soleus").hover(function () {
+    	$(".soleus").toggleClass("anatomy-popup-on");
+	});
+
+	$(".teres-major").hover(function () {
+    	$(".teres-major").toggleClass("anatomy-popup-on");
+	});
+
+	$(".tibialis-anterior").hover(function () {
+    	$(".tibialis-anterior").toggleClass("anatomy-popup-on");
+	});
+
+	$(".trapezius").hover(function () {
+    	$(".trapezius").toggleClass("anatomy-popup-on");
+	});
+
+	$(".triceps-brachii").hover(function () {
+    	$(".triceps-brachii").toggleClass("anatomy-popup-on");
+	});
+
+	$(".vastus-lateralis").hover(function () {
+    	$(".vastus-lateralis").toggleClass("anatomy-popup-on");
+	});
+
+	$(".vastus-medialis").hover(function () {
+    	$(".vastus-medialis").toggleClass("anatomy-popup-on");
+	});
 });
 
-},{"./1rm":2,"./bmi":4,"./bmr":5,"./cooper":7,"./cooper-running":6,"./etpunkttest":8,"./fat-pct":10,"./fat-pct-measurements":9,"./fitness-hr":11,"./fitness-index-23":12,"./karvonen":13,"./max-hr":14,"./running":15,"./topunkttest":16,"wilks-calculator":1}],4:[function(require,module,exports){
+},{"./1rm":3,"./bmi":5,"./bmr":6,"./cooper":8,"./cooper-running":7,"./etpunkttest":9,"./fat-pct":11,"./fat-pct-measurements":10,"./fitness-hr":12,"./fitness-index-23":13,"./karvonen":14,"./max-hr":15,"./running":17,"./running-economy":16,"./skinfold-durnin":18,"./topunkttest":19,"image-map-resizer":1,"wilks-calculator":2}],5:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.BMI = function(h, w) {
@@ -973,7 +1373,7 @@ motionsplan.BMI = function(h, w) {
 
 module.exports = motionsplan;
 
-},{}],5:[function(require,module,exports){
+},{}],6:[function(require,module,exports){
 let motionsplan = {};
 
 
@@ -1060,7 +1460,7 @@ motionsplan.EnergyExpenditure = function(sex, age, weight, pal, sport) {
 
 module.exports = motionsplan;
 
-},{}],6:[function(require,module,exports){
+},{}],7:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.CooperRunning = function() {
@@ -1087,7 +1487,7 @@ motionsplan.CooperRunning = function() {
 
 module.exports = motionsplan;
 
-},{}],7:[function(require,module,exports){
+},{}],8:[function(require,module,exports){
 let motionsplan = {};
 
 motionsplan.CooperClinicMortalityRiskIndex = function(age, hr, bloodpressure, diabetes, smoker, bmi, fitness) {
@@ -1256,7 +1656,7 @@ motionsplan.CooperClinicMortalityRiskIndex = function(age, hr, bloodpressure, di
 
 module.exports = motionsplan;
 
-},{}],8:[function(require,module,exports){
+},{}],9:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.EtPunktTest = function(gender, age, weight, work, hr) {
@@ -1335,7 +1735,7 @@ motionsplan.EtPunktTest = function(gender, age, weight, work, hr) {
 
 module.exports = motionsplan;
 
-},{}],9:[function(require,module,exports){
+},{}],10:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.CalculateFatPercentMeasurements = function() {
@@ -1368,9 +1768,13 @@ motionsplan.CalculateFatPercentMeasurements = function() {
 
 module.exports = motionsplan;
 
-},{}],10:[function(require,module,exports){
+},{}],11:[function(require,module,exports){
 let motionsplan = {}
 
+/**
+ * Also see here
+ * https://www.researchgate.net/publication/242017991_Predicting_Body_Composition_in_College_Students_Using_the_Womersley_and_Durnin_Body_Mass_Index_Equation
+ */
 motionsplan.CalculateFatPercent = function(h, w, a, sex) {
   var h, w, sex;
 
@@ -1383,9 +1787,13 @@ motionsplan.CalculateFatPercent = function(h, w, a, sex) {
     return w / (h * h);
   }
 
+  /**
+   * Might be Heitmann
+   * Evaluation of body fat estimated from body mass index, skinfolds and impedance. A comparative study
+   */
   function getFatMass() {
     var fm;
-    if (sex == 'man') {
+    if (isMale()) {
       fm = 0.988 * getBMI() + 0.242 * w + 0.094 * a - 30.18;
     } else {
       fm = 0.988 * getBMI() + 0.344 * w + 0.094 * a - 30.18;
@@ -1393,15 +1801,45 @@ motionsplan.CalculateFatPercent = function(h, w, a, sex) {
     return fm;
   }
 
-  function getFatPercent() {
+  function getBodyFatPercentHeitmannBMIEquation() {
     return getFatMass() / w * 100;
+  }
+
+  /**
+   * https://www.researchgate.net/publication/242017991_Predicting_Body_Composition_in_College_Students_Using_the_Womersley_and_Durnin_Body_Mass_Index_Equation
+   */
+  function getBodyFatPercentWomersleyDurninBMIEquation() {
+    if (isMale()) {
+      return 1.34*getBMI()-12.47;
+    }
+    return 1.37*getBMI()-3.47;
+  }
+
+  /**
+   * https://www.ncbi.nlm.nih.gov/pubmed/2043597
+   */
+  function getBodyFatPercentDuerenbergBMIEquation() {
+    if (isMale()) {
+      sex = 1;
+    } else {
+      sex = 1;
+    }
+    return 1.20 * getBMI() + 0.23 * a - 10.8 * sex - 5.4;
+  }
+
+  function isMale() {
+    if (sex == 'man') {
+      return true; 
+    }
+    return false;
   }
 
   var publicAPI = {
     getBMI : getBMI,
     getFatMass: getFatMass,
-    getFatPercent: getFatPercent
-
+    getBodyFatPercentHeitmannBMIEquation: getBodyFatPercentHeitmannBMIEquation,
+    getBodyFatPercentWomersleyDurninBMIEquation : getBodyFatPercentWomersleyDurninBMIEquation,
+    getBodyFatPercentDuerenbergBMIEquation : getBodyFatPercentDuerenbergBMIEquation
   };
 
   return publicAPI;
@@ -1409,7 +1847,7 @@ motionsplan.CalculateFatPercent = function(h, w, a, sex) {
 
 module.exports = motionsplan;
 
-},{}],11:[function(require,module,exports){
+},{}],12:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.CalculateFitnessFromHr = function(mxpul, hvpul, wgt) {
@@ -1442,7 +1880,7 @@ motionsplan.CalculateFitnessFromHr = function(mxpul, hvpul, wgt) {
 
 module.exports = motionsplan;
 
-},{}],12:[function(require,module,exports){
+},{}],13:[function(require,module,exports){
 let motionsplan = {}
 
 // height in cm
@@ -1478,7 +1916,7 @@ motionsplan.FitnessIndex23 = function(height, weight) {
 
 module.exports = motionsplan;
 
-},{}],13:[function(require,module,exports){
+},{}],14:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.Karvonen = function(minHr, maxHr) {
@@ -1502,7 +1940,7 @@ motionsplan.Karvonen = function(minHr, maxHr) {
 
 module.exports = motionsplan;
 
-},{}],14:[function(require,module,exports){
+},{}],15:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.EstimateMaxHr = function(ald) {
@@ -1523,7 +1961,47 @@ motionsplan.EstimateMaxHr = function(ald) {
 
 module.exports = motionsplan;
 
-},{}],15:[function(require,module,exports){
+},{}],16:[function(require,module,exports){
+let motionsplan = {}
+
+// weight in kg
+// velocity in km/t
+// oxygenuptake in L O2 / min
+motionsplan.RunningEconomy= function(weight, oxygenuptake) {
+
+  var w = weight;
+  var o = oxygenuptake;
+
+  /**
+   * @param {float} velocity - Velocity.
+   * 
+   * @return float (ml/kg/min)
+   */
+  function getRunningEconomy(velocity) {
+    var v = velocity;
+    var a = getFitnessLevel(); // ml / kg / min
+    var b = v / 60;
+    return a / b;
+  }
+
+  /**
+   * @return float (ml/kg/min)
+   */
+  function getFitnessLevel() {
+    return o / w * 1000;
+  }
+
+  var publicAPI = {
+    getRunningEconomy : getRunningEconomy,
+    getFitnessLevel : getFitnessLevel
+  };
+
+  return publicAPI;
+}
+
+module.exports = motionsplan;
+
+},{}],17:[function(require,module,exports){
 let motionsplan = {};
 
 motionsplan.Running = function() {
@@ -1539,8 +2017,11 @@ motionsplan.Running = function() {
         return (km * 1000) / l;
     }
 
-    function getMilometersPrHour(m, s, km) {
-        return (km / s + m * 60) / (60 * 60); // (m * 60 + s) / (60*60)
+    function getKilometersPrHour(m, s, km) {
+        // return (km / (s + (m * 60)) * (60 * 60)); // (m * 60 + s) / (60*60)
+        s = s / (60 * 60);
+        m = m / 60;
+        return (km / (s + m));
     }
 
     function getTimePrKilometer(m, s, km) {
@@ -1556,7 +2037,20 @@ motionsplan.Running = function() {
         else {
             return minPrKm.toFixed(0) + ":" + rest.toFixed(0);
         }
+    }
 
+    function convertMinPerKmToKmt(min, sec) {
+        return 60/(min*1+(sec/60));
+    }
+
+    function convertKmtToMinPerKm(kmt) {
+        var min = 60 / kmt;
+        var min_out = Math.floor(min);
+        var sec_out = Math.round((min - Math.floor(min)) * 60);
+        if (sec_out < 10) {
+            sec_out='0'+sec_out;
+        }
+        return (min_out + ":" + sec_out);
     }
 
     // Based on https://www.researchgate.net/profile/Luc_Leger/publication/19712663_New_approaches_to_predict_VO2max_and_endurance_from_running_performances_The_Journal_of_sports_medicine_and_physical_fitness_27_4_401-409_1988/links/54f5fa880cf27d8ed71d235f/New-approaches-to-predict-VO2max-and-endurance-from-running-performances-The-Journal-of-sports-medicine-and-physical-fitness-27-4-401-409-1988.pdf
@@ -1567,7 +2061,11 @@ motionsplan.Running = function() {
     }
 
     var publicAPI = {
-        getEstimatedFitnessLevel: getEstimatedFitnessLevel
+        getEstimatedFitnessLevel: getEstimatedFitnessLevel,
+        getKilometersPrHour : getKilometersPrHour,
+        getTimePrKilometer : getTimePrKilometer,
+        convertKmtToMinPerKm : convertKmtToMinPerKm,
+        convertMinPerKmToKmt : convertMinPerKmToKmt
     };
 
     return publicAPI;
@@ -1575,7 +2073,88 @@ motionsplan.Running = function() {
 
 module.exports = motionsplan;
 
-},{}],16:[function(require,module,exports){
+},{}],18:[function(require,module,exports){
+let motionsplan = {}
+
+motionsplan.SkinfoldDurnin = function(biceps, triceps, hoftekam, skulder, weight, gender, age = 20) {
+
+  biceps = biceps;
+  triceps = triceps;
+  hoftekam = hoftekam;
+  skulder = skulder;
+  weight = weight;
+  gender = gender; // male / female
+  age = age;
+
+  function getBodyFatPercent() {
+    return (495 / getDensity() - 450);
+  }
+
+  function getFatSum() {
+    return biceps * 1 + triceps * 1 + hoftekam * 1 + skulder * 1;
+  }
+
+  function getDensity() {
+    var density;
+
+    var fedtsum = getFatSum();
+    if (isMale()) {
+      if (age < 17) {
+        density = 1.1533 - 0.0643 * Math.log10(fedtsum);
+      } else if (age < 19) {
+        density = 1.1620 - 0.0630 * Math.log10(fedtsum);
+      } else if (age < 29) {
+        density = 1.1631 - 0.0632 * Math.log10(fedtsum);
+      } else if (age < 39) {
+        density = 1.1422 - 0.0544 * Math.log10(fedtsum);
+      } else if (age < 49) {
+        density = 1.1620 - 0.0700 * Math.log10(fedtsum);
+      } else {
+        density = 1.1715 - 0.0779 * Math.log10(fedtsum);
+      }
+    }
+    else {
+      if (age < 17) {
+        density = 1.1369 - 0.0598 * Math.log10(fedtsum);
+      } else if (age < 19) {
+        density = 1.1549 - 0.0678 * Math.log10(fedtsum);
+      } else if (age < 29) {
+        density = 1.1599 - 0.0717 * Math.log10(fedtsum);
+      } else if (age < 39) {
+        density = 1.1423 - 0.0632 * Math.log10(fedtsum);
+      } else if (age < 49) {
+        density = 1.1333 - 0.0612 * Math.log10(fedtsum);
+      } else {
+        density = 1.1339 - 0.0645 * Math.log10(fedtsum);
+      }
+    }
+    return density; 
+  }
+  
+  function isMale() {
+    if (gender == "male") {
+      return true;
+    }
+    return false;
+  }
+
+  function getFatFreeMass() {
+    return (weight - weight * getBodyFatPercent() / 100) * Math.pow(10, 1) / Math.pow(10, 1);
+  }
+
+  var publicAPI = {
+    getFatFreeMass: getFatFreeMass,
+    getBodyFatPercent: getBodyFatPercent,
+    getDensity : getDensity,
+    getFatSum : getFatSum
+  };
+
+  return publicAPI;
+}
+
+module.exports = motionsplan;
+
+},{}],19:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.ToPunktTest = function(age, weight, work1, hr1, work2, hr2) {
@@ -1613,4 +2192,4 @@ motionsplan.ToPunktTest = function(age, weight, work1, hr1, work2, hr2) {
 
 module.exports = motionsplan;
 
-},{}]},{},[3]);
+},{}]},{},[4]);

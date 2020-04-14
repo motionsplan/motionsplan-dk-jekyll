@@ -4,8 +4,9 @@ permalink: /kondital/
 excerpt: "Svaret på hvad et godt kondital er afhænger naturligvis af hvem man sammenligner sig med. Her er tabeller gældende for almindelige mennesker i Skandinavien."
 language: da
 header:
-  overlay_image: https://cdn6.omidoo.com/sites/default/files/imagecache/1200x630/images/headline/20140305/shutterstock111592904.jpg
-  teaser: https://cdn6.omidoo.com/sites/default/files/imagecache/1200x630/images/headline/20140305/shutterstock111592904.jpg
+  overlay_image: https://images.unsplash.com/photo-1571008887538-b36bb32f4571?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80
+  teaser: https://images.unsplash.com/photo-1571008887538-b36bb32f4571?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80
+  caption: Photo by sporlab on Unsplash
 category:
   - Kondition
 tags:
@@ -25,7 +26,11 @@ feature_row:
 
 *[BMI]: Body Mass Index
 
-Svaret på hvad et godt kondital er afhænger naturligvis af hvem man sammenligner sig med. Nedenstående tabeller gælder for almindelige mennesker i Skandinavien og er såkaldte normaltabeller, hvor man sammenligner sig med andre mennesker. 
+Svaret på hvad et godt kondital er afhænger naturligvis af hvem man sammenligner sig med. 
+
+## Hvad er et godt kondital?
+
+Nedenstående tabeller gælder for almindelige mennesker i Skandinavien og er såkaldte normaltabeller, hvor man sammenligner sig med andre mennesker. 
 
 [Test dit kondital](/kondition-og-test/){: .btn .btn--large .btn--info }
 

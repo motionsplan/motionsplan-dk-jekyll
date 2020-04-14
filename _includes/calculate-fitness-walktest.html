@@ -3,8 +3,8 @@
         <legend>1,6 km gåtest. Indtast værdier.</legend>
         <div class="form-group">
             <label for="">Tiden for at gå 1,6 km</label>
-            <input name="Min" type="number" min="5" max="60" placeholder="fx 17" /> minutter 
-            <input name="Sek" type="number" min="0" max="60"  placeholder="fx 20" /> sek.
+            <input name="Min" type="number" min="5" max="60" placeholder="fx 17" class="input-mini" /> <span class="help-inline">min</span>
+            <input name="Sek" type="number" min="0" max="60"  placeholder="fx 20" class="input-mini" /> <span class="help-inline">sek</span>
         </div>
         <div class="form-group">
             <label>Pulsefter 1,6 km (slag/min)</label>
@@ -23,7 +23,7 @@
         </div>
         <div class="form-group">
             <label>Vægt (kg)</label>
-            <input name="Vaegt" type="number" min="20" max="200" placeholder="fx 70" />
+            <input name="Vaegt" type="number" min="20" max="200" placeholder="fx 70" step="0.1" />
         </div>
         <input type="submit" value="Beregn" />
     </fieldset>

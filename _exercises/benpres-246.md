@@ -15,6 +15,7 @@ tags:
   - knædomineret
   - maskine
   - Forlår
+  - fitnessinstruktør
 categories:
   - Ben
 training_type: 

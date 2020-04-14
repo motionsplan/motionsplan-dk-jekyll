@@ -8,3 +8,119 @@ main:
     url: /inspiration/
   - title: "Om"
     url: /om/
+anatomi:
+  - title: "Anatomi"
+    url: "/anatomi/"
+    children:
+      - title: "Knogler og knogletyper"
+        url: /knogler/
+      - title: "Led og bevægelser"
+        url: /led/
+      - title: "Muskler"
+        url: /muskler/
+muscles:
+  - title: "Led"
+    url: /led/
+    children:
+      - title: Albueleddet
+        url: /joints/albueleddet/
+      - title: Ankel- og fodleddet
+        url: /joints/ankelleddet-og-fodleddet/
+      - title: Hofteleddet
+        url: /joints/hofteleddet/
+      - title: Knæleddet
+        url: /joints/knaeleddet/
+      - title: Ryggen
+        url: /joints/rygsojlen/
+      - title: Skulderleddet og -bladet (skulderbæltet)
+        url: /joints/skulderleddet/
+
+  - title: "Skeletmuskler"
+    url: "/muskler/"
+    children:
+      - title: Adductor Hiatus
+        url: /adductor-hiatus/
+      - title: Adductor Brevis
+        url: /adductor-brevis/
+      - title: Den lange indadfører
+        url: /adductor-longus/
+      - title: Den store indadfører
+        url: /adductor-magnus/
+      - title: Aconeus
+        url: /anconeus/
+      - title: Tohovedede armbøjer
+        url: /biceps-brachii/
+      - title: Den tohovedede knæbøjer
+        url: /biceps-femoris/
+      - title: Brachialis
+        url: /brachioradialis/
+      - title: Skuldermuskel
+        url: /deltoideus/
+      - title: Rygstrækkere
+        url: /erector-spinae/
+      - title: Extensor Carpi Radialis Longus
+        url: /extensor-carpi-radialis-longus/
+      - title: Extensor Carpi Ulnaris
+        url: /extensor-carpi-ulnaris/
+      - title: Extensor Digitori Minimi
+        url: /extensor-digitori-minimi/
+      - title: Extensor Digitorum
+        url: /extensor-digitorum/
+      - title: Ydre skrå mavemuskel
+        url: /external-oblique/
+      - title: Flexor Carpi Radialis
+        url: /flexor-carpi-radialis/
+      - title: Flexor Carpi Ulnaris
+        url: /flexor-carpi-ulnaris/
+      - title: Den tohovedede lægmuskel
+        url: /gastrocnemius/
+      - title: Den store sædemuskel
+        url: /gluteus-maximus/
+      - title: Den mellemste sædemuskel
+        url: /gluteus-medius/
+      - title: Den lille sædemuskel
+        url: /gluteus-minimus/
+      - title: Den slanke indadfører
+        url: /gracilis/
+      - title: Hoftebøjeren
+        url: /iliopsoas/
+      - title: Infraspinatus
+        url: /infraspinatus/
+      - title: Indre skrå mavemuskel
+        url: /internal-oblique/
+      - title: Bred rygmuskel
+        url: /latissimus-dorsi/
+      - title: Pectineus
+        url: /pectineus/
+      - title: Brystmuskel
+        url: /pectoralis-major/
+      - title: Lige mavemuskel
+        url: /rectus-abdominis/
+      - title: Lårmusklens lige hoved
+        url: /rectus-femoris/
+      - title: Skræddermusklen
+        url: /sartorius/
+      - title: Halvsenede knæbøjer
+        url: /semimembranosus/
+      - title: Halvtrinde knæbøjer
+        url: /semitendinosus/
+      - title: Serratus Anterior
+        url: /serratus-anterior/
+      - title: Flyndermusklen
+        url: /soleus/
+      - title: Teres Major
+        url: /teres-major/
+      - title: Forreste skinnebensmuskel
+        url: /tibialis-anterior/
+      - title: Bugpressen
+        url: /transversus-abdominis/
+      - title: Trapezius
+        url: /trapezius/
+      - title: Trehovede armstrækker
+        url: /triceps-brachii/
+      - title: Lårmusklens dybe hoved
+        url: /vastus-intermedius/
+      - title: Lårmusklens ydre hoved
+        url: /vastus-lateralis/
+      - title: Lårmusklens indre hoved
+        url: /vastus-medialis/

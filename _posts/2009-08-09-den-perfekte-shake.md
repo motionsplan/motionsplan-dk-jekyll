@@ -12,11 +12,11 @@ category:
   - Ernæring
 last_modified_at: 2013-02-13T22:08:10Z
 feature_row:
-  - image_path: https://images.wupti.com/retrievefile.axd?file=1863857&mh=350&mw=350&ps=FullSize&q=95&hash=65FAF40F2757B09621DFDE7F109E19344A7B5B75
+  - image_path: https://www.elgiganten.dk/image/dv_web_D18000100225744/5KSB8270EBK/kitchenaid-artisan-power-plus-blender-5ksb8270ebk-taenk-testvinder.jpg?$prod_all4one$
     alt: "KitchenAid 6060EOB Artisan Power blender"
     title: "KitchenAid 6060EOB Artisan Power blender"
     excerpt: "Kraftfuld og højtydende power blender fra KitchenAid. Blenderes kraftfulde motor og asymmetriske knivblade kan blende alt fra nødder til is med fantastiske resultater – hver gang! Blenderen har en robust konstruktion i formstøbt metal og står derfor helt stabilt på bordet. Blenderen er nem at rengøre, da alle dele tåler maskinvask."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=25156&htmlurl=https://www.wupti.com/produkter/husholdning/koekkenmaskine/blender/power-blender/kitchenaid-6060eob-artisan-power"
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70499&htmlurl=https://www.elgiganten.dk/product/husholdning/kokkenudstyr/blendere/5KSB8270EBK/kitchenaid-artisan-power-plus-blender-5ksb8270ebk-tank-testvinder
     btn_label: "Læs mere"
     btn_class: "btn--success"
 feature_row_vitamix:

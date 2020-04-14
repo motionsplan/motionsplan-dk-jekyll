@@ -3,8 +3,9 @@ title: "Hvordan lærer jeg at tage en armstrækning?"
 permalink: /artikel/hvordan-laerer-jeg-tage-en-armstraekning
 language: da
 header:
-  overlay_image: /assets/images/blog/hvordan-laerer-jeg-tage-en-armstraekning.jpg
-  teaser: /assets/images/blog/hvordan-laerer-jeg-tage-en-armstraekning.jpg
+  overlay_image: https://images.unsplash.com/photo-1514512364185-4c2b0985be01?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80
+  teaser: https://images.unsplash.com/photo-1514512364185-4c2b0985be01?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  caption: Photo by Ayo Ogunseinde on Unsplash
 tags:
   - styrketræning
   - guide

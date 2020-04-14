@@ -1,6 +1,8 @@
 ---
 title: "Udregn intensitet i forhold til puls"
 permalink: /puls-intensitet/
+redirect_from:
+  - puls
 excerpt: "Beregn din træningsintensitet ud fra pulsen eller beregn hvilken puls du skal ligge på for at ramme en bestemt intensitet."
 language: da
 header:

@@ -1,5 +1,6 @@
 ---
 title: "De fem tibetanere"
+excerpt: "De fem tibetanere er fem yogaøvelser beskrevet af Peter kelder i slutningen af 1930'erne. "
 permalink: /artikel/de-fem-tibetanere
 language: da
 header:
@@ -31,12 +32,13 @@ feature_row:
 
 At motionere og holde sig i form er mange ting. Foreløbig har vi hovedsageligt her på sitet fokuseret på løb og styrketræning, men vi vil i fremtiden også beskæftige os med yoga og beslægtede motionsformer. Vi har arbejdet med de fem tibetanere, som er fem øvelser, der er blevet grundlagt omkring år 0.
 
+## Hvad er de fem tibetanere?
+
 Tibetanske munke lavede øvelserne for at holde sig evigt unge, og det er vi jo nogle stykker, der gerne vil. Derfor var det også belejligt, at Oberst Bradford førte disse øvelser til vesten. Han bragte bl.a. øvelserne videre til Peter Kelder, som i slutningen af 1930'erne skrev bogen: de fem tibetanere.
 
-{% include feature_row %}
+{% include feature_row type="left" %}
 
-Hvor mange gange skal de fem tibetanere laves og hvordan?
----------------------------------------------------------
+## Hvor mange gange skal de fem tibetanere laves og hvordan?
 
 Lav De Fem Tibetanere en gang om dagen - fx om morgenen når du står op, eller om aftenen inden du går i seng. Nogle mennesker sover godt oven på øvelserne, mens andre bliver for friske til at sove. Du skal derfor selv finde ud af, hvad der passer dig bedst.
 
@@ -46,8 +48,7 @@ Start med at lave 3 gentagelser af hver øvelse og trap så langsomt op med 2 hv
 
 [![](https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=37797)](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=37797)
 
-Hvordan ser øvelserne ud til de fem riter?
-------------------------------------------
+## Hvordan ser øvelserne ud til de fem riter?
 
 Der er jo ikke noget bedre end en video til at illustrere hvordan tibetanerne ser ud.
 

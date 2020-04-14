@@ -9,19 +9,13 @@ tags:
 category:
   - Styrketræning
 last_modified_at: 2019-03-06T23:00:18Z
-feature_row:
-  - image_path: https://www.fotoagent.dk/single_picture/11803/138/mega/trx_c4_uxtender.jpg
-    alt: "TRX Suspension Trainer Pro 4.0"
-    title: "TRX Suspension Trainer Pro 4.0"
-    excerpt: "Denne TRX velegner sig specielt til motionsrum, centerbrug og personlige trænere. TRX-træning er for alle, uanset niveau. Her er der mulighed for at træne hele kroppen ved hjælp af din egen kropsvægt."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/trx-suspension-trainer-pro-4-0/"
-    btn_label: "Læs mere"
-    btn_class: "btn--success"
 ---
 
 Hvis man hænger en snor op med to håndtag, kalder mand det suspension træning. Man kan enten sætte hænderne eller fødderne i håndtagene og så er man klar til at udfordre hele kroppen med en varieret træning, som især udfordrer kropsstammen, fordi man skal stabilisere meget undervejs.
 
 Du kan stort set lave suspension træning overalt. Det kræver bare et eller andet, du kan hænge din slynge op i - og de fleste systemer inden for træningsformen er konstrueret, så det er let at finde plads til dem.
+
+{% include video provider="youtube" id="Lan2_c0uEtE" %}
 
 ## TRX Suspension træning er for alle
 
@@ -31,11 +25,9 @@ Nu er det faktisk bare at finde nogle øvelser, fx her på motionsplan eller and
 
 Sørg for at bygge din træning op gradvist - ellers vil du virkelig finde ud af, hvad dine mavemuskler også bliver brugt til.
 
+{% assign exercises = site.exercises | where: "equipment", "trx" | sort: "title" %}
+{% include exercises-by-search title="Inspiration til TRX og slyngetræning" exercises=exercises %}
+
 ## Hvor køber jeg en TRX suspension træner?
-------------------------------------
 
-Jeg har haft lejlighed til at afprøve [PowerSling fra Abilica](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=9750&htmlurl=https://www.abilicaonline.dk/salg/slyngetraening/abilica-powersling-slyngetraening/). De har gode håndtag og virker meget solide.
-
-[![](https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=8054)](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=8054)
-
-{% include feature_row type="left" %}
+{% include pa-banner product="trx" %}

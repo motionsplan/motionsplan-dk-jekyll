@@ -1,3 +1,4 @@
+{% assign exercises = '' | split: '' %}
 {% assign maximum = include.maximum | default: 50 %}
 {% if include.input_type != "array" %}
   {% assign ex = include.exercises | split: "; " %}
@@ -17,7 +18,7 @@
   {% endfor %}
 {% endif %}
 
-<div class="feature__wrapper">
+<div class="grid__wrapper">
   {% for f in exercises %}
 
     {% if f.url contains "://" %}
@@ -55,7 +56,7 @@
           {% endif %}
 
           {% if f.url %}
-            <p><a href="{{ f_url }}" class="btn">{{ default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
+            <p><a href="{{ f_url }}" class="btn">{{ site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
           {% endif %}
         </div>
       </div>

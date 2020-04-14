@@ -1,5 +1,5 @@
 ---
-title: "6 minutters gå-test"
+title: "Kondital fra 6 minutters gå-test"
 permalink: /gaatest-6min/
 excerpt: "6 minutters gå-test er en submaksimal test til at estimere konditallet for relativt fysisk svage personer."
 language: da
@@ -10,6 +10,8 @@ category:
   - Kondition
 tags:
   - konditionstest
+  - submaksimal test
+  - indirekte test
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 ---

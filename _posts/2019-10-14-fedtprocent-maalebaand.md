@@ -1,17 +1,21 @@
 ---
-title: "Bestem fedtprocent med målebånd"
+title: "Beregn din fedtprocent med målebånd"
 permalink: /fedtprocent-maalebaand/
+redirect_from:
+  - /measure-fp/
 excerpt: "Du kan udregne din fedtprocent på baggrund af enkelte kropsmålinger, der kan laves med et målebånd."
 language: da
 header:
-  overlay_image: /assets/images/blog/udregning-af-fedtprocent.jpg
-  teaser: /assets/images/blog/udregning-af-fedtprocent.jpg
+  overlay_image: https://images.unsplash.com/photo-1530530488105-64664c7213bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80
+  caption: Photo by Annie Spratt on Unsplash
+  teaser: https://images.unsplash.com/photo-1530530488105-64664c7213bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+category:
+  - Test
 tags:
   - fedtprocent
-  - udregning
-category:
-  - Beregnere
-  - Test
+  - test
+  - kropskomposition
+  - skinfold
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 feature_row:
@@ -38,7 +42,7 @@ Du kan ikke få din præcise fedtprocent med testen, men værktøjet kan vær et
 
 Algoritmen bag testen er afhængig af køn og alder, så derfor skel du bruge den rigtige formular nedenunder.
 
-## Udfør testen
+## Udfør testen og beregn fedtprocenten
 
 {% include calculate-fat-percent-measurement.html %}
 

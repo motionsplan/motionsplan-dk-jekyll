@@ -1,11 +1,15 @@
 ---
 title: "Måling af fedtprocent med bioimpedans"
 permalink: /artikel/inbody-570-bioimpedans
+redirect_from:
+  - /inbody/
+  - /bioimpedans/
 excerpt: "Du kan måle din fedtprocent og kropskomposition med bioimpedans - og de nyere maskiner er relativt reliabile og valide"
 language: da
 header:
-  overlay_image: https://crossfitdnr.com/wp-content/uploads/2019/08/inbody-dnr-570.jpg
-  teaser: https://crossfitdnr.com/wp-content/uploads/2019/08/inbody-dnr-570.jpg
+  overlay_image: https://images.unsplash.com/photo-1501525547-7b008cf72da5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80
+  caption: Photo by Yannis Papanastasopoulos on Unsplash
+  teaser: https://images.unsplash.com/photo-1501525547-7b008cf72da5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
 category:
   - Test
 tags:
@@ -36,7 +40,6 @@ feature_row:
     btn_label: "Læs mere"
     btn_class: "btn--success"
 ---
----
 
 *[PBF]: Percent Body Fat
 *[SMM]: Skeletal Muscle Mass
@@ -56,7 +59,7 @@ Bioimpedans er en let måde at måle kropssammensætning på. Teknologien blev k
 
 ## Bioimpedans måling med InBody 570
 
-På [Vejle Idrætshøjskole](http://www.vih.dk/) har vi adgang til en [InBody 570](http://inbodydanmark.dk/produkter/inbody570/), som vi har købt gennem Fitness Institute og [Henrik Duer](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=53070). Den korrelerer 
+På [Vejle Idrætshøjskole](http://www.vih.dk/) har vi adgang til en [InBody 570](http://inbodydanmark.dk/produkter/inbody570/), som vi har købt gennem Fitness Institute og [Henrik Duer](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=53070). Den korrelerer omkring 0,9 med en DEXA-scanner.
 
 ### Hvor præcis er InBody 570
 
@@ -72,7 +75,7 @@ Dog skal du være opmærksom på, at fedtprocenten målt med DEXA-scanneren var 
 
 ### Hvordan udføres testen med InBody 570
 
-Det er ret enkelt at tage selve testen. Du følger bare instruktionerne på skærmen. Det besværlige er, at du møder op til testen under de rigtige forudsætninger, som beskrevet ovenfor.
+Det er ret enkelt at tage selve testen. Du følger bare instruktionerne på skærmen. Det besværlige er at møde op til testen med den rigtige forberedelse, som er beskrevet ovenfor.
 
 {% include video id="4j6GuQDVOc8" provider="youtube"  %}
 
@@ -87,16 +90,18 @@ Percent Body Fat (PBF)
 Extra Cellular Water-ratio (ECW Ratio)
 : Andelen af vand uden for cellerne sammenlignet med den totale mængde vand i kroppen. En vigtig indikator for vandbalancen i kroppen. Hvis du fx oplever en stigning i ECW, men ikke i ICW, så kan det være en indikator på hævelse eller inflammation i kroppen.
 
-{% include figure image_path="http://inbodydanmark.dk/wp-content/uploads/2014/09/Global_inbody570_lcd.jpg" caption="LCD på InBody 570" alt="LCD på InBody 570" %}
+{% include figure image_path="https://inbodydanmark.dk/wp-content/uploads/2014/09/Global_inbody570_lcd.jpg" caption="LCD på InBody 570" alt="LCD på InBody 570" %}
 
 ### Fortolke resultatarket fra InBody 570
 
 Når du har lavet testen, så får du et resultatark udprintet, som ser sådan her ud:
 
-{% include figure image_path="http://inbodydanmark.dk/wp-content/uploads/2014/09/Global_inbody570_results02.jpg" caption="Resultatark fra InBody 570" alt="Resultatark fra InBody 570" %}
+{% include figure image_path="https://inbodydanmark.dk/wp-content/uploads/2014/09/Global_inbody570_results02.jpg" caption="Resultatark fra InBody 570" alt="Resultatark fra InBody 570" %}
 
 På [InBody USA](https://inbodyusa.com/general/result-sheet-interpretation/) har de en god gennemgang af resultatarket, og du kan også se mere i nedenstående video.
 
 {% include video id="-zwAYct6COs" provider="youtube"  %}
+
+## Andre typer bioimpedans-målere
 
 {% include feature_row type="left" %}

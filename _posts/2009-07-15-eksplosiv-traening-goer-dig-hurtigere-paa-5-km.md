@@ -3,8 +3,9 @@ title: "Eksplosiv træning gør dig hurtigere på 5 km"
 permalink: /artikel/eksplosiv-traening-goer-dig-hurtigere-paa-5-km
 language: da
 header:
-  overlay_image: /assets/images/blog/eksplosiv-traening-goer-dig-hurtigere-paa-5-km.jpg
-  teaser: /assets/images/blog/eksplosiv-traening-goer-dig-hurtigere-paa-5-km.jpg
+  overlay_image: https://images.unsplash.com/photo-1509833903111-9cb142f644e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2155&q=80
+  teaser: https://images.unsplash.com/photo-1509833903111-9cb142f644e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  caption: Photo by Andrew Tanglao on Unsplash
 tags:
   - styrketræning
   - webclips
@@ -40,4 +41,4 @@ Kender du nogle studier, der kan sige noget om det?
 ## Referencer
 
 - [Explosive-strength training improves 5-km running time by improving running economy and muscle power](http://jap.physiology.org/cgi/content/full/86/5/1527)
-- Se også [Spændstighedstræning øger 5 km løbehastigheden](http://www.motion-online.dk/konditionstraening/kondition_-_artikler/spaendstighedstraening_oeger_5_km_loebehastigheden/)
+- Se også [Spændstighedstræning øger 5 km løbehastigheden](http://www.motion-online.dk/spaendstighedstraening-oeger-5-km-loebehastigheden/)

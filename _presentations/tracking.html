@@ -1,0 +1,27 @@
+---
+layout: webslides
+title: Tracking
+---
+
+{% assign posts = site.posts | where: "tags", "tracking" %}
+{% for m in posts %}
+<section>
+  <div class="wrap">
+    <div class="grid vertical-align">
+      <div class="content-left vertical-align">
+        <h2>{{ m.title }}</h2>
+        {% if m.excerpt %}
+          <p class="text-intro">{{ m.excerpt }}</p>
+        {% endif%}
+      </div>
+      <div class="content-right vertical-align">
+        {% if m.header.overlay_image %}
+        <figure>
+          <img class="aligncenter" src="{{ m.header.overlay_image }}" alt="{{ m.title }}">
+        </figure>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+{% endfor %}
