@@ -10,10 +10,12 @@ header:
   overlay_image: /assets/images/exercises/svinge-dæk-0.jpg
   teaser: /assets/images/exercises/svinge-dæk-0-320.jpg
 tags:
+  - outdoor
 categories:
 training_type: 
 training_focus: 
 equipment:
+  - bildæk
 muscle_group:
 gallery:
   - url: /assets/images/exercises/svinge-dæk-0.jpg

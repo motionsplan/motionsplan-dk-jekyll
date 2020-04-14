@@ -12,6 +12,7 @@ header:
 tags:
   - kropsstamme
   - slosh pipe
+  - outdoor
 categories:
 training_type: 
 training_focus: 

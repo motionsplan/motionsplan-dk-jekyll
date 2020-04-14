@@ -1,0 +1,9 @@
+{% assign e = include.exercises%}
+{% if e.size > 0 %}
+<h2>{{ include.title }}</h2>
+<div class="feature__wrapper">
+  {% for post in e %}
+    {% include archive-single-simple.html type="grid" %}
+  {% endfor %}
+</div>
+{% endif %}

@@ -2,6 +2,9 @@
 layout: single
 title: Bevæg dig for Livet - Fitnessinstruktør
 permalink: /fitness/
+redirect_from:
+  - /fitnessinstruktoer/
+  - /fitnessinstruktor/
 author_profile: true
 classes: wide
 header:
@@ -17,6 +20,11 @@ feature_row:
 ---
 
 På [Vejle Idrætshøjskole underviser vi i Fitnessinstruktør](https://www.vih.dk/fag/fitnessinstruktor). Her er nogle af de spørgsmål, vi bruger til at gøre os klar til den afsluttende prøve.
+
+## Lær
+
+- [Anatomi](/anatomi/)
+- [Øvelser](/fitness/ovelser/)
 
 ## Quiz på Quizizz
 

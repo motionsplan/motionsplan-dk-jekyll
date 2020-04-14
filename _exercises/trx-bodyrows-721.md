@@ -11,6 +11,7 @@ categories:
 training_type: 
 training_focus: 
 equipment:
+  - trx
 muscle_group:
 alternative_titles:
 gallery:

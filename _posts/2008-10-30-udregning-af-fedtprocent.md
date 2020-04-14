@@ -16,7 +16,7 @@ tags:
   - test
   - kropskomposition
   - skinfold
-last_modified_at: 2019-03-06T23:14:14Z
+last_modified_at: 2020-02-11T23:14:14Z
 toc: true
 feature_row:
   - image_path: https://cdn6.bogreolen.dk/00039/91685/cover.1571714918.jpg
@@ -56,7 +56,41 @@ I tabel 1 kan du se normalværdierne for BMI:
 
 ## Fedtprocent ud fra udregning
 
-Fedtprocenten er den relative del af kropsvægten, som udgøres af fedt. Du har behov for fedt for overhovedet at kunne holde varmen. I formularen oven for er fedtprocenten udregnet ud fra køn, BMI og alder.
+Fedtprocenten er den relative del af kropsvægten, som udgøres af fedt. Du har behov for fedt for overhovedet at kunne holde varmen. 
+
+Formularen oven for benytter sig af to forskellige udregninger til at estimere fedtprocenten.
+
+### Heitmann
+
+Heitmann bruger i sin formel køn, BMI og alder.
+
+#### Mænd
+
+{% include math formula="PBF = \frac{0.988 * BMI + 0.242 * weight (kg) + 0.094 * age - 30.18;}{weight (kg)}" %}
+
+#### Kvinder
+
+{% include math formula="PBF = \frac{0.988 * BMI + 0.344 * weight (kg) + 0.094 * age - 30.18}{height (m)^2}" %}
+
+### Durnin & Womersley
+
+Durnin & Womersley bruger i sin formel køn og alder.
+
+#### Mænd
+
+PBF = 1.34 * BMI - 12.47
+
+#### Kvinder
+
+PBF = 1.37 * BMI - 3.47
+
+### Duerenberg et al.
+
+PBF = 1.20 * BMI + 0.23 * age - 10.8 * sex[^note] - 5.4;
+
+[^note]: sex: men = 1; female = 0
+
+## Normer for fedtprocent
 
 | Tabel 2: Fedtprocent normer                            |||
 | Klassifikation         | Kvinde (% fedt) | Mand (% fedt) |
@@ -83,5 +117,12 @@ Udregningen af fedtprocent i formularen har en standardfejl på på 3,9%. Det be
 {% endif %}
 
 ## Referencer
+
+Predicting Body Composition in College Students Using the Womersley and Durnin Body Mass Index Equation Jeremy P. Loenneke*1BCDG, MS; Kathryn M. Hirt2CDG, MS; Jacob M. Wilson3CDG, PhD; Jeremy T Barnes4ABDG, PhD; Thomas J Pujol4ABDG, EdD
+
+Evaluation of body fat estimated from body mass index, skinfolds and impedance. A comparative study.
+BL Heitmann - European journal of clinical nutrition, 1990 - europepmc.org
+
+Duerenberg et al. https://www.ncbi.nlm.nih.gov/pubmed/2043597
 
 {% include feature_row type="left" %}

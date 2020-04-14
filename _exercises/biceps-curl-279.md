@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/exercises/biceps-curl-0-320.jpg
 tags:
   - håndvægte
-  - 
+  - fitnessinstruktør
 categories:
 training_type: 
 training_focus: 
@@ -23,6 +23,7 @@ alternative_titles:
   - Stående curl
   - albuebøj håndvægte
   - albuebøj
+  - curls
 gallery:
   - url: /assets/images/exercises/biceps-curl-0.jpg
     image_path: /assets/images/exercises/biceps-curl-0-320.jpg

@@ -42,12 +42,27 @@ Der måles på biceps, triceps, skulderbladets spids og hoftekammen. Du kan se n
 
 {% include calculate-fatpercent-skinfold-durnin-womersley.html %}
 
-[Fedtmåling med Durnin og Womersley](http://www.health-calc.com/body-composition/skinfold-d-and-w){: .btn .btn--info }
-
 ## Usikkerheder i Durnin & Womersley
 
-- Den oprindelige formel tager også højde for alderen, da der typisk vil komme mere fedt omkring de indre organer.
-- Formlen overestimerer fedtprocenten med 2-3% for meget magre personer.
+- Der tages højde for alderen i formlen, da der typisk vil komme mere fedt omkring de indre organer.
+- Formlen kan overestimere fedtprocenten med 2-3% for meget magre personer.
+
+## Formler
+
+| age (years) |	equations for males	      | equations for females     |
+|-------------|---------------------------|---------------------------|
+| < 17	      | D = 1.1533 - (0.0643 X L)	| D = 1.1369 - (0.0598 X L) |
+| 17-19	      | D = 1.1620 - (0.0630 X L)	| D = 1.1549 - (0.0678 X L) |
+| 20-29	      | D = 1.1631 - (0.0632 X L)	| D = 1.1599 - (0.0717 X L) |
+| 30-39	      | D = 1.1422 - (0.0544 X L)	| D = 1.1423 - (0.0632 X L) |
+| 40 -49	    | D = 1.1620 - (0.0700 X L)	| D = 1.1333 - (0.0612 X L) |
+| > 50	      | D = 1.1715 - (0.0779 X L)	| D = 1.1339 - (0.0645 X L) |
+
+Hvor D = estimeret density af kroppen (g/ml), og L = log af den totale sum af de 4 skinfolds (mm)
+
+Derefter kan Siri-formlen omsætte densiteten til fedtprocent.
+
+{% include math formula="PBF = \frac{495}{D} - 450" %}
 
 ## Referencer
 

@@ -1,41 +1,39 @@
-<table>
-    <tbody>
-        <tr>
-            <td><img width="146" height="195" src="https://web.archive.org/web/20110704004541im_/http://www.motion-online.dk/images/fedt/woman_durnin1.jpg" /></td>
-            <td><img width="147" height="195" src="https://web.archive.org/web/20110704004541im_/http://www.motion-online.dk/images/fedt/woman_durnin2.jpg" /></td>
-        </tr>
-    </tbody>
-</table>
+{% include figure image_path="https://miro.medium.com/max/2250/1*dMsWX5cS4CLkKnVAyYPn5A.png" alt="Durnin and Womersley 4-site skinfold test" %}
+{% include figure image_path="https://miro.medium.com/max/2250/1*_FXK5XcWvuWv0g-aZD-6fQ.png" alt="Durnin and Womersley 4-site skinfold test" %}
 
 <form class="calculator" id="calculator_skinfold_durnin">
     <fieldset>
         <legend>Durnin & Womersley 4-site skinfold. Indtast de målte værdier.</legend>
         <div class="form-group">
             <label for="biceps">Biceps (mm)</label>
-            <input type="number" name="biceps" id="biceps" min="1" max="100">
-        </div>
-        <div class="form-group">
-            <label for="hoftekam">Hoftekam (mm)</label>
-            <input type="number" name="hoftekam" id="hoftekam" min="1" max="100">
+            <input type="number" name="biceps" id="biceps" min="0" max="100" step="0.1">
         </div>
         <div class="form-group">
             <label for="triceps">Triceps (mm)</label>
-            <input type="number" name="triceps" id="triceps" min="1" max="100">
+            <input type="number" name="triceps" id="triceps" min="0" max="100" step="0.1">
         </div>
         <div class="form-group">
-            <label for="skulder">Skulderblad (mm)</label>
-            <input type="number" name="skulder" id="skulder" min="1" max="100">
+            <label for="skulder">Skulderblad - subscapularis (mm)</label>
+            <input type="number" name="skulder" id="skulder" min="0" max="100" step="0.1">
+        </div>
+        <div class="form-group">
+            <label for="hoftekam">Hoftekam - suprailiac (mm)</label>
+            <input type="number" name="hoftekam" id="hoftekam" min="0" max="100" step="0.1">
         </div>
         <div class="form-group">
             <label for="gender">Køn</label>
             <select name="koen" id="gender">
-                <option value="1">Mand</option>
-                <option value="0">Kvinde</option>
+                <option value="male">Mand</option>
+                <option value="female">Kvinde</option>
             </select>
         </div>
         <div class="form-group">
             <label for="vaegt">Vægt (kg)</label>
-            <input type="number" name="vaegt" id="vaegt" min="10" max="200">
+            <input type="number" name="vaegt" id="vaegt" min="10" max="200" step="0.1">
+        </div>
+        <div class="form-group">
+            <label for="vaegt">Alder (år)</label>
+            <input type="number" name="age" id="age" min="10" max="100">
         </div>
         <input type="submit" value="Beregn">
     </fieldset>
@@ -50,4 +48,3 @@
         </div>
     </fieldset>
 </form>
-<p class="notice notice--info">I de oprindelige formler er der taget højde for alder, da der med alderen sætter sig relativt mere fedt på de indre organer i forhold til under huden. Vi har valgt her kun at bruge den formel der gælder for 20-29 årige (hvilket man også gør hos Team Danmark). Hvis man er over 30 og utrænet, er der altså en risiko for, at man får undervurderet sin fedtprocent.</p>
