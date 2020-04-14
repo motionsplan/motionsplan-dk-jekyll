@@ -12,8 +12,7 @@ header:
 tags:
   - vægtstang
   - håndvægte
-  - 
-  - 
+  - fitnessinstruktør
 categories:
 training_type: 
 training_focus: 

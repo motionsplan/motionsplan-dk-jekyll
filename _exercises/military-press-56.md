@@ -16,6 +16,7 @@ tags:
   - vægtstang
   - Bryst
   - Skuldre
+  - fitnessinstruktør
 categories:
   - Hård styrkeøvelse
 training_type: 

@@ -11,11 +11,13 @@ header:
   teaser: /assets/images/exercises/bildæk-maverulning-til-armstrækning-0-320.jpg
 tags:
   - Helkropsøvelse
+  - outdoor
 categories:
   - Helkropsøvelse
 training_type: 
 training_focus: 
 equipment:
+  - bildæk
 muscle_group:
 alternative_titles:
 gallery:

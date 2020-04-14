@@ -16,6 +16,7 @@ tags:
   - Arme
   - Skuldre
   - Øvre ryg
+  - fitnessinstruktør
 categories:
 training_type: 
   - Styrketræning

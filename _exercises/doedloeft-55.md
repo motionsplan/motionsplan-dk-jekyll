@@ -16,6 +16,7 @@ tags:
   - vægtstang
   - Baglår
   - Baller
+  - fitnessinstruktør
 categories:
   - Ben
 training_type: 

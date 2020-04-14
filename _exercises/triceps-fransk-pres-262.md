@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/exercises/triceps-fransk-pres-0-320.jpg
 tags:
   - vægtstang
-  - 
+  - fitnessinstruktør
 categories:
 training_type: 
 training_focus: 

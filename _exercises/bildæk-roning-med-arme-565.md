@@ -11,11 +11,13 @@ header:
   teaser: /assets/images/exercises/bildæk-roning-med-arme-0-320.jpg
 tags:
   - Træk
+  - outdoor
 categories:
   - Træk
 training_type: 
 training_focus: 
 equipment:
+  - bildæk
 muscle_group:
 alternative_titles:
 gallery:

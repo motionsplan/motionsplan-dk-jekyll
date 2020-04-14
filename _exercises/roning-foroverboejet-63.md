@@ -18,6 +18,7 @@ tags:
   - Bred ryg
   - Skuldre
   - Øvre ryg
+  - fitnessinstruktør
 categories:
   - Træk
 training_type: 

@@ -10,6 +10,8 @@ header:
   overlay_image: /assets/images/exercises/vandret-kropshaevning-0.jpg
   teaser: /assets/images/exercises/vandret-kropshaevning-0-320.jpg
 tags:
+  - kropsvægt
+  - fitnessinstruktør
 categories:
 training_type: 
 training_focus: 
