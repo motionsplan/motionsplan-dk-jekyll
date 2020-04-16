@@ -16,3 +16,14 @@ end
 gem 'classifier-reborn'
 gem 'gsl'
 gem 'html-proofer'
+
+group :development, :test do
+  gem 'html-proofer'  
+  gem "rspec"
+  gem "selenium-webdriver"
+  gem "webdrivers"
+  gem "puma"
+  gem "capybara"
+  gem "rack-jekyll"
+  gem "pry"
+end
