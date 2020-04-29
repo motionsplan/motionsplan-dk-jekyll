@@ -13,4 +13,14 @@ group :jekyll_plugins do
     gem 'jekyll-include-cache'
     gem "jekyll-remote-theme"
 end
-gem 'html-proofer'
+
+group :development, :test do
+  gem 'html-proofer'  
+  gem "rspec"
+  gem "selenium-webdriver"
+  gem "webdrivers"
+  gem "puma"
+  gem "capybara"
+  gem "rack-jekyll"
+  gem "pry"
+end
