@@ -33,3 +33,11 @@ Formlerne er henvendt til mennesker, der er højere end 152 cm høje.
 ## Udregn din idealvægt for voksne
 
 {% include calculate-ideal-weight.html %}
+
+## Andre typer målinger af idealvægt
+
+Jeg har skrevet en lang grundig artikel om [Body Mass Index (BMI)](/bmi/), som ofte også bruges til at få en ide om, hvad ens idealvægt er.
+
+Men husk at idealvægt ikke er nogen faktuel videnskab, men bare en retningslinje, som ikke tager højde for din kropsbygning, fedtprocent eller kropskomposition.
+
+Hvis du vil lære mere om kropskomposition, så har jeg skrevet et indlæg om [forskellige modeller til at beskrive kropskomposition]({% link _posts/2019-10-14-kropskomposition.md %}).

@@ -20,6 +20,7 @@ const running = require('./running');
 const running_economy = require('./running-economy');
 const skinfold_durnin = require('./skinfold-durnin');
 const rockport = require('../js/walktest-rockport-16.js');
+const fatenergypct = require('../js/fatenergypct.js');
 require('image-map-resizer');
 
 $(document).ready(function() {
@@ -824,6 +825,18 @@ $(document).ready(function() {
         var c = cooper_test.CooperRunning();
 
         $("#kondital").val(c.getVO212MinTest(distance));
+
+        return false;
+    });
+    $("#calculator_fat_percent_food").submit(function() {
+        console.log("Calculate Fat Energy Pct");
+
+        var kj = Number($("#kj").val());
+        var fat = Number($("#fat").val());
+
+        var c = fatenergypct.FatEnergyPct(kj, fat);
+
+        $("#fat_energy_pct").val(c.getFatEnergyPct());
 
         return false;
     });
