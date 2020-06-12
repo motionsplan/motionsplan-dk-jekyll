@@ -21,7 +21,7 @@ Ofte bliver baglåret ikke trænet tilstrækkeligt, og ofte heller ikke på den 
 
 - **Fleksion af knæet** og **ekstension af hoften****.** Begge disse typer bevægelser skal altså en del af træningsprogrammet - og det er helt centrale bevægelser i sprint.
 
-![De flekterer knæet](/assets/images/knee_flexors.jpg.jpg)![](/assets/images/hip_extensors.jpg)
+![De flekterer knæet](/assets/images/knee_flexors.jpg)![](/assets/images/hip_extensors.jpg)
 
 - **væsentlige i nedbremsninger**. Musklerne i baglåret er meget vigtige, når man decellerer (bremser). Jo stærkere baglårsmuskler, jo hurtigere kan man stoppe, og derefter skifte retning og fortsætte sin fremdrift. Det kan atlså være en god ide med relativt tungt excentrisk arbejde - og måske endda isometrisk arbejde.
 - **bygget til hastighed**, og derfor har de ofte mange hurtige fibre. Træningen bør altså være eksplosiv, men også gerne excentrisk som tenderer til at rekruttere også de hurtige muskelfibre.

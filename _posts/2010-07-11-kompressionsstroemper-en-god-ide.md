@@ -107,7 +107,6 @@ Vi glæder os til at se mere forskning om kompressionsstrømper.
 - Perrey, S., A. Bringard, S. Racinais, K. Puchaux and N. Belluye. "Graduated Compression Stockings and Delayed Onset Muscle Soreness (P105)." The Engineering of Sport 7.1 (2008): 547-554.5.
 - Berry, M.J. and R.G. McMurray. "Effects of Graduated Compression Stockings on Blood Lactate Following an Exhaustive Bout of Exercise." American Journal of Physical Medicine 61.3 (1987): 121-132.
 - [Joe Friel: Can socks make your faster?](http://www2.trainingbible.com/joesblog/2007/10/can-your-socks-make-you-faster.html)
-- [Steve Stenzel: Do compression tights and socks REALLY work? The science behind compression gear.](http://www.examiner.com/x-31540-St-Paul-Triathlon-Examiner~y2010m3d17-Do-compression-tights-and-socks-REALLY-work--The-science-behind-compression-gear)
 - [Joe Friel: Compression Socks Update](http://www.trainingbible.com/joesblog/2009/03/compression-socks-update.html)
 
 [![](https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=55589)](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55589)
