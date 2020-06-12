@@ -127,6 +127,8 @@ BMI forsøger at give en indikation af, om du er undervægtig eller overvægtig.
 
 Hvis man har for lidt eller meget fedt, så kan det have sundhedsmæssige konsekvenser. BMI giver imidlertid ikke et præcist svar på det.
 
+Duerenberg et al (1991) har foreslået formler til at bestemme fedtprocenten ud fra BMI. Jeg har medtaget Duerenbergs formel i [min beregner til at udregne fedtprocent ud fra højde og vægt]({% link _posts/2008-10-30-udregning-af-fedtprocent.md %}).
+
 Jeg har skrevet andre indlæg om, hvordan du kan [måle din fedtprocent]({% link _posts/2019-10-13-fedtprocent-maaling.md %}) eller hvordan du kan [forstå og måle kropskomposition]({% link _posts/2019-10-14-kropskomposition.md %}). Så hvis du vil have styr på din muskelmasse eller fedtprocent, så skal du altså i gang med flere undersøgelser.
  
 ## BMI børn og teenagere
