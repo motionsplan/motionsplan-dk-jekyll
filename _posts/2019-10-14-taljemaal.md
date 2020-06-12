@@ -1,7 +1,7 @@
 ---
-title: "Om taljemålet - og risikofaktorer"
+title: "Talje-hoftemål: Beregn din fedtfordeling"
 permalink: /taljemaal/
-excerpt: "Der er sammenhæng mellem taljemål og risiko for livsstilssygdomme. Taljemålet er også et godt mål for fedttab sammenlignet med vægttab."
+excerpt: "Der er sammenhæng mellem talje- og hoftemål og risiko for livsstilssygdomme. Talje- og hoftemål kan bruges til at sige noget om fedtfordelingen ved vægttab."
 language: da
 header:
   overlay_image: https://www.berkeleywellness.com/sites/default/files/field/image/waist-measurement-MF_998_380.webp
@@ -17,6 +17,20 @@ toc: true
 ---
 
 *[WHR]: Waist/Hip-ratio
+
+Talje- og hoftemål kan være en let måde at sige noget om fedtfordelingen på din krop. Jeg har researchet hvilke forskellige talje- og hoftemål der findes.
+
+Jeg har fundet frem til tre forskellige mål, hvor taljen er med til at sige noget om man er under- eller overvægtig og i risiko for livsstilssygdomme.
+
+Typer af taljemål:
+
+- **Taljemål**. Taljemålet kan indikere noget om ens risiko for sygdomme.
+- **Talje-højde-ratio**. Når man medtager højden, så får man en mere retfærdig vurdering af taljemålet. Det er klart at høje personer sandsynligvis vil have en større talje.
+- **Talje-hofte-ratio**. Talje-hofte-målet kan sige noget om fordelingen af fedt på kroppen - og derved også noget om risikoen for sygdom.
+
+I det følgende beskriver jeg de forskellige taljemål, og hvad de kan bruges til.
+
+## Taljemålet
 
 Taljemålet er et af de enkleste mål for om man er overvægtig. Flere studier viser sammenhæng mellem taljemålet og risikoen for mange livsstilssygdomme. 
 
@@ -47,8 +61,6 @@ Efterhånden har talje/højde-ratioen sneget sig ind i litteraturen, fordi det t
 
 Når man sætter sit taljemål i forhold til sin højde, så er det forbundet med lavere risiko for livsstilssygdomme, hvis ratioen er under 0,5.
 
-[Beregn talje/højde-ratio](https://www.health-calc.com/body-composition/waist-to-height-ratio){: .btn .btn--info }
-
 ## Talje-hofte-ratio
 
 Ratioen mellem taljemålet og hoftemålet er en indikator på sundhed. Relationen kan sige noget om kropsformen, og man skelner ofte mellem pæreformet og æbleformet kropsfacon. WHR kan afspejle den intraabdominale fedme. Ofte er WHR også knyttet sammen tiltrækning på tværs af forskellige kulturer. 
@@ -70,19 +82,21 @@ Normalværdierne for WHR er følgende. Hvis du har højere værdier, så kan du 
 | Mænd    | > 1,0   |
 | Kvinder | > 0,8   |
 
-[Udregn talje-hofte-ratio](https://www.sundhed.dk/sundhedsfaglig/laegehaandbogen/undersoegelser-og-proever/kalkulatorer/th-talje-hofte-ratio/){: .btn .btn--success }
+## Bergner til talje-hofte-målet
 
-## Opsamling
+{% include calculate-waist.html %}
+
+## Opsamling på taljemål
 
 Et nærliggende spørgsmål når man samlet kigger på de tre forskellige mål er, hvilke resultater der sikrer dig mod livsstilssygdomme. Hvis du ligger over det anbefalede talje/højde-mål, men har et talje/hofte-mål, der får dig inden for skiven igen?
 
 I øjeblikket ser det ud til, at talje/højde-målet er det mest brugte mål i de videnskabelige studier, men for at sikre at mavefedtet ikke skaber en for høj risiko, så kan det formentlig også være værd at tjekke den ratio en gang imellem.
 
-## Referencer
+## Referencer til taljemål
 
 ### Taljemål
 
-Han, T. S., E. M. van Leer, J. C. Seidell, og M. E. Lean. 1995. “Waist Circumference Action Levels in the Identification of Cardiovascular Risk Factors: Prevalence Study in a Random Sample.” BMJ : British Medical Journal 311 (7017): 1401. https://doi.org/10.1136/bmj.311.7017.1401.
+Han, T. S., E. M. van Leer, J. C. Seidell, og M. E. Lean. 1995. “Waist Circumference Action Levels in the Identification of Cardiovascular Risk Factors: Prevalence Study in a Random Sample.” BMJ: British Medical Journal 311 (7017): 1401. https://doi.org/10.1136/bmj.311.7017.1401.
 
 Han, T. S., E. M. van Leer, J. C. Seidell, og M. E. Lean. 1996. “Waist Circumference as a Screening Tool for Cardiovascular Risk Factors: Evaluation of Receiver Operating Characteristics (ROC)”. Obesity Research 4 (6): 533–47. https://doi.org/10.1002/j.1550-8528.1996.tb00267.x.
 
@@ -104,4 +118,5 @@ Browning, Lucy M., Shiun Dong Hsieh, og Margaret Ashwell. 2010. “A Systematic 
 
 Butovskaya, M., A. Sorokowska, M. Karwowski, A. Sabiniewicz, J. Fedenok, D. Dronova, M. Negasheva, E. Selivanova, og P. Sorokowski. 2017. “Waist-to-Hip Ratio, Body-Mass Index, Age and Number of Children in Seven Traditional Societies”. Scientific Reports 7 (1): 1–9. https://doi.org/10.1038/s41598-017-01916-9.
 
-World Health Organization (WHO). Waist Circumference and Waist-Hip Ratio. Report of a WHO Expert Consultation, 2008
+World Health Organization (WHO). Waist Circumference and Waist-Hip Ratio. Report of a WHO Expert Consultation, 2008 - https://apps.who.int/iris/bitstream/handle/10665/44583/9789241501491_eng.pdf;jsessionid=F00FF7FB19FE76C81824CD52AF7FD4D4?sequence=1
+

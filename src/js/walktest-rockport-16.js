@@ -19,7 +19,6 @@ motionsplan.RockPortWalkingTest = function(min, sec, hr, sex, age, weight) {
     var time = tm + ts;
 
     weight = Vaegt * 2.2046226218; // Original formula is in lbs
-    console.log(Koen);
     return 132.853 - (0.0769 * weight) - (0.3877 * age) + (6.3150 * Koen) - (3.2649 * time) - (0.1565 * hr);
   }
 

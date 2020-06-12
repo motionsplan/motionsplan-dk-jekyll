@@ -119,6 +119,6 @@ Predicting Body Composition in College Students Using the Womersley and Durnin B
 
 Evaluation of body fat estimated from body mass index, skinfolds and impedance. A comparative study. BL Heitmann - European journal of clinical nutrition, 1990 - europepmc.org
 
-Duerenberg et al. https://www.ncbi.nlm.nih.gov/pubmed/2043597
+Duerenberg et al. Body Mass Index as a Measure of Body Fatness: Age- And Sex-Specific Prediction Formulas https://www.ncbi.nlm.nih.gov/pubmed/2043597
 
 {% include feature_row type="left" %}

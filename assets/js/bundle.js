@@ -403,6 +403,8 @@ module.exports = motionsplan;
 },{}],4:[function(require,module,exports){
 'use strict'
 
+/* global $ */
+
 const fitness = require('./fitness-hr');
 const maxhr = require('./max-hr');
 const cooper = require('./cooper');
@@ -424,6 +426,7 @@ const running_economy = require('./running-economy');
 const skinfold_durnin = require('./skinfold-durnin');
 const rockport = require('../js/walktest-rockport-16.js');
 const fatenergypct = require('../js/fatenergypct.js');
+const whr = require('../js/waist.js');
 require('image-map-resizer');
 
 $(document).ready(function() {
@@ -1243,7 +1246,20 @@ $(document).ready(function() {
 
         return false;
     });
+    $("#calculator_waist").submit(function() {
+        console.log("Calculate Waist");
 
+        var hip = Number($("#hip").val());
+        var waist = Number($("#waist").val());
+        var height = Number($("#height").val());
+
+        var c = whr.WaistRatio();
+
+        $("#whr").val(c.getWaistHipRatio(waist, hip));
+        $("#waistheightratio").val(c.getWaistHeightRatio(waist, height));
+
+        return false;
+    });
     $("[input='number']").on('input keyup change paste', function() {
         if (this.min) this.value = Math.max(parseInt(this.min), parseInt(this.value));
         if (this.max) this.value = Math.min(parseInt(this.max), parseInt(this.value));
@@ -1394,7 +1410,7 @@ $(document).ready(function() {
 	});
 });
 
-},{"../js/fatenergypct.js":13,"../js/walktest-rockport-16.js":23,"./1rm":3,"./bmi":5,"./bmr":6,"./cooper":8,"./cooper-running":7,"./etpunkttest":9,"./fat-pct":12,"./fat-pct-measurements":10,"./fat-pct-navy":11,"./fitness-hr":14,"./fitness-index-23":15,"./ideal-weight":16,"./karvonen":17,"./max-hr":18,"./running":20,"./running-economy":19,"./skinfold-durnin":21,"./topunkttest":22,"image-map-resizer":1,"wilks-calculator":2}],5:[function(require,module,exports){
+},{"../js/fatenergypct.js":13,"../js/waist.js":23,"../js/walktest-rockport-16.js":24,"./1rm":3,"./bmi":5,"./bmr":6,"./cooper":8,"./cooper-running":7,"./etpunkttest":9,"./fat-pct":12,"./fat-pct-measurements":10,"./fat-pct-navy":11,"./fitness-hr":14,"./fitness-index-23":15,"./ideal-weight":16,"./karvonen":17,"./max-hr":18,"./running":20,"./running-economy":19,"./skinfold-durnin":21,"./topunkttest":22,"image-map-resizer":1,"wilks-calculator":2}],5:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.BMI = function(h, w) {
@@ -2350,6 +2366,29 @@ module.exports = motionsplan;
 },{}],23:[function(require,module,exports){
 let motionsplan = {}
 
+motionsplan.WaistRatio = function() {
+
+  function getWaistHeightRatio(waist, height) {
+    return waist / height;
+  }
+
+  function getWaistHipRatio(waist, hip) {
+    return waist / hip;
+  }
+
+  var publicAPI = {
+    getWaistHeightRatio : getWaistHeightRatio,
+    getWaistHipRatio : getWaistHipRatio
+  };
+
+  return publicAPI;
+}
+
+module.exports = motionsplan;
+
+},{}],24:[function(require,module,exports){
+let motionsplan = {}
+
 motionsplan.RockPortWalkingTest = function(min, sec, hr, sex, age, weight) {
   var resultat, Koen; // Oxygen
   var Pul = hr;
@@ -2369,7 +2408,6 @@ motionsplan.RockPortWalkingTest = function(min, sec, hr, sex, age, weight) {
     var time = tm + ts;
 
     weight = Vaegt * 2.2046226218; // Original formula is in lbs
-    console.log(Koen);
     return 132.853 - (0.0769 * weight) - (0.3877 * age) + (6.3150 * Koen) - (3.2649 * time) - (0.1565 * hr);
   }
 

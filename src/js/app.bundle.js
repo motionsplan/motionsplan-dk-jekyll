@@ -1,5 +1,7 @@
 'use strict'
 
+/* global $ */
+
 const fitness = require('./fitness-hr');
 const maxhr = require('./max-hr');
 const cooper = require('./cooper');
@@ -21,6 +23,7 @@ const running_economy = require('./running-economy');
 const skinfold_durnin = require('./skinfold-durnin');
 const rockport = require('../js/walktest-rockport-16.js');
 const fatenergypct = require('../js/fatenergypct.js');
+const whr = require('../js/waist.js');
 require('image-map-resizer');
 
 $(document).ready(function() {
@@ -840,7 +843,20 @@ $(document).ready(function() {
 
         return false;
     });
+    $("#calculator_waist").submit(function() {
+        console.log("Calculate Waist");
 
+        var hip = Number($("#hip").val());
+        var waist = Number($("#waist").val());
+        var height = Number($("#height").val());
+
+        var c = whr.WaistRatio();
+
+        $("#whr").val(c.getWaistHipRatio(waist, hip));
+        $("#waistheightratio").val(c.getWaistHeightRatio(waist, height));
+
+        return false;
+    });
     $("[input='number']").on('input keyup change paste', function() {
         if (this.min) this.value = Math.max(parseInt(this.min), parseInt(this.value));
         if (this.max) this.value = Math.min(parseInt(this.max), parseInt(this.value));
