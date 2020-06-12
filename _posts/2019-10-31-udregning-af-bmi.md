@@ -1,7 +1,7 @@
 ---
 title: "Udregn BMI for voksne og børn - Komplet guide og beregner"
 permalink: /bmi/
-excerpt: "Body Mass Index (BMI) den mest udbredte metode til at bestemme om man er normalvægtig, undervægtig eller overvægtig. Beregn selv dit BMI, se formler og tabeller for børn og voksne."
+excerpt: "Body Mass Index (BMI) den mest udbredte metode til at bestemme om man er normalvægtig, undervægtig eller overvægtig. Beregn selv dit BMI i vores beregner, se formler og tabeller for børn og voksne."
 language: da
 header:
   overlay_image: https://helseboost.dk/filer/bmi-1500x960.jpg
