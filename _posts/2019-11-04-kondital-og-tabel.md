@@ -75,7 +75,9 @@ Nedenstående tabeller gælder for almindelige mennesker i Skandinavien og er s�
 
 [Bjørn Dæhlie](https://da.wikipedia.org/wiki/Bj%C3%B8rn_D%C3%A6hlie) har uden for sæson fået målt et kondital på 96 ml/kg/min, hvilket må siges at være virkelig højt. Der går forlydender om, at den norske cyklist Oskar Svendsen har [slået rekorden for det højeste maksimale iltoptagelse, der er målt](https://www.outsideonline.com/2398524/highest-ever-vo2max-cyclist-oskar-svendsen) på 96,7 ml/min/kg.
 
-[Anna Møller](https://sport.tv2.dk/video/YW5uYTA0MDRtYXNm) har fået målt det højeste kondital på Københavns Universitet.
+[Anna Møller](https://sport.tv2.dk/video/YW5uYTA0MDRtYXNm) har fået målt det højeste kondital på Københavns Universitet for danskere. Ellers kan du tjekke denne video med de højeste tal for kvinder, hvor langdistanceløberen Joan Benoit står registreret til 78,6 ml/min/kg.
+
+{% include video provider="youtube" id="KmigHqqdWto" %}
 
 ### Kondital - Verdensklasseatleter (fx løb, cykling, roning, langrend)
 
