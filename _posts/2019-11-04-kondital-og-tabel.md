@@ -27,9 +27,21 @@ feature_row:
 
 *[BMI]: Body Mass Index
 
-Svaret på hvad et godt kondital er afhænger naturligvis af hvem man sammenligner sig med. 
+Konditallet siger meget om, hvordan din krop fungerer. Jeg har skrevet lidt om, hvad konditallet er, og hvad et godt kondital er.
+
+**Konditallet fortæller, hvor meget ilt kroppen kan transportere rundt og forbruge i forhold til din vægt. Jo mere ilt kroppen kan optage, desto mere energi kan kroppen producere, hvilket gør, at du kan klare en højere arbejdsintensitet. Vægten spiller også en rolle, fordi det kræver mere energi at flytte en tungere rolle væk. Konditallet måles som ml O<sub>2</sub> pr. min pr. kg kropsvægt.**
+
+For at beregne dit kondital skal du kende din krops **maksimale iltoptagelse** og derefter divididerer du med din kropsvægt.
+
+Jeg har samlet en [masse forskellige tests og metoder til at finde dit kondital](/kondition-og-test/). Der står også lidt om, hvad man skal være opmærksom på.
 
 ## Hvad er et godt kondital?
+
+Svaret på hvad et godt kondital er afhænger naturligvis af hvem man sammenligner sig med.
+
+Et _højt kondital_ er lig med en god kondition. Når du har et højt kondital, så kan du være fysisk aktiv i længere tid og med højere intensitet.
+
+Du kan se, hvad et godt kondital er i tabellerne nedenunder.
 
 Nedenstående tabeller gælder for almindelige mennesker i Skandinavien og er såkaldte normaltabeller, hvor man sammenligner sig med andre mennesker. 
 
@@ -68,9 +80,19 @@ Topidrætsfolk i konditionskrævende idrætsgrene har som regel et kondital over
 | Mænd    | < 60       | 60-70 | 70-80  | 80-90 | > 90       |
 | Kvinder | < 50       | 50-58 | 58-64  | 64-72 | > 72       |
 
+## Hvordan beregnes dit kondital?
+
 Konditallet udregnes ved at man dividerer den maksimale iltoptagelse (VO<sub>2</sub>max) med kropsvægten. For at opnå et højt kondital gælder det derfor om at træne sin iltoptagelse og holde kropsvægten nede.
 
 {% include math formula="kondital = \frac{VO_2max}{weight}" %}
+
+Hvis du vil finde dit eget kondital, så tjek [vores forskellige tests til at finde dit kondital](/kondition-og-test/).
+
+## Hvad kan du bruge konditallet til?
+
+Når du kender dit kondital, så kan du bruge det til at _tracke_ din træning. Konditallet er en rigtig god indikator for din generelle sundhed. Risikoen for livsstilssygdomme er mindre, når du har et højt kondital.
+
+Du behøver ikke nødvendigvis at få målt din iltoptagelse i et laboratorium. Du kan sagtens bruge nogle af de [indirekte tests, vi har beskrevet](/kondition-og-test/).
 
 ## Retfærdig sundhedsmæssig vurdering af overvægtiges kondition
 
@@ -82,6 +104,8 @@ En mulighed for bedre at kunne vurdere den overvægtiges kondital i forhold til 
 
 {% include calculate-fitness-index-23.html %}
 
+## Kondital og vægt bør vurderes uafhængigt
+
 Det almindelige kondital udregnes ved at dividere VO<sub>2</sub>max med kropsvægten. Konditallet siger altså noget om hvor stærk kredsløbsmotoren er i forhold til den krop, der skal flyttes. Det giver rigtig fin mening i forhold til at vurdere præstationsevnen, men det er ikke helt så let i forhold til sundhedstilstanden.
 
 I forhold til vejledning har vi brug for målinger, der objektivt vurderer kondition og vægt adskilt. Med det normale kondital risikerer vi at vejlede til mere motion, selvom det i virkeligheden er kosten, der skaber udfordringer for den enkelte.
@@ -92,6 +116,8 @@ Der er forskellige teoretiske muligheder for at løse dette[^note], men den meto
 
 Princippet i _Kondital ved index 23_ for denne beregner er, at den maksimale iltoptagelse (målt med en test) divideres med den vægt man ville have, hvis man havde et BMI på 23. Dette vægtuafhængige kondital kan man slå op i de tabeller, der bruges for det almindelige kondital, og dermed få en vægtuafhængig vurdering af konditionen i forhold til alder og køn.
 
+## Hvordan udregnes Kondital ved Index 23?
+
 På formel ser det således ud:
 
 {% include math formula="Kondital_{Index23} = \frac{VO_2max (ml/min)}{23 * height (m)^2}" %}
@@ -100,6 +126,10 @@ Kondital<sub>Index 23</sub> er altså en beskrivelse af en persons relative kred
 
 Det har også været foreslået at opløfte kropsvægten med 0,73, når man sammenligner kondital for bedre at tage højde for løbeøkonomi og give en mere retfærdig sammenligning mellem lette og tunge atleter. Læs fx mere i denne artikel [Effekt af Kropsvægt på den maksimale iltoptagelse](http://www.motion-online.dk/effekt-kropsvaegt-paa-maksimale-iltoptagelse/).
 {: .notice .notice--warning }
+
+## Hvordan forbedrer jeg mit kondital?
+
+Skriv i kommentarerne, hvis du er klar til at læse, hvordan du forbedrer dit kondital, så bliver det den næste artikel, vi vil arbejde på.
 
 ## Referencer for kondition og kondital
 

@@ -1,5 +1,5 @@
 ---
-title: "Kondition og test - Hvordan får jeg et bedre kondital og kommer i bedre form?"
+title: "Kondition, kondital og test - Hvordan tester jeg mit kondital?"
 permalink: /kondition-og-test/
 excerpt: "Kommer jeg i bedre form og kondition? Udregn dit kondital og iltoptagelse med vores beregnere og se om du får et bedre kondital og fremgang i træningen."
 language: da
@@ -15,7 +15,11 @@ last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 ---
 
-Hvis du gerne vil _tracke_ om du kommer i bedre form med konditionstræning, så er der lidt forskellige muligheder. 
+Hvis du gerne vil _tracke_ om du kommer i bedre form med konditionstræning, så er der forskellige muligheder for at teste konditallet. 
+
+**Du kan teste dit kondital på mange forskellige måder. Der findes både direkte tests i et laboratorium og indirekte tests, som du kan lave selv. Konditallet er et udtryk for, hvor god din krop er til at optage og forbruge ilt, og du kan forbedre konditallet med konditionstræning.**
+
+Men lad os dykke ned i, hvordan man tester den **maksimale iltoptagelse** og **konditallet** i det følgende. Sidst i indlægget kan du se alle de tests, vi har beskrevet her på siden.
 
 ## Hvad er maksimal iltoptagelse og kondital?
 
