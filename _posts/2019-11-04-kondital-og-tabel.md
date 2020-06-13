@@ -71,9 +71,15 @@ Nedenstående tabeller gælder for almindelige mennesker i Skandinavien og er s�
 | 50-64	| < 21       | 22-28 | 29-36  | 37-41 | > 42       |
 | 65-	  | < 19       | 20-26 | 27-34  | 35-39 | > 40       | 
 
-Topidrætsfolk i konditionskrævende idrætsgrene har som regel et kondital over 70. Hvis du forventer at kunne være med i verdenseliten, så bør du vurdere dig selv ud fra nedenstående tabel:
+## Hvad er de højeste kondital der er målt?
+
+[Bjørn Dæhlie](https://da.wikipedia.org/wiki/Bj%C3%B8rn_D%C3%A6hlie) har uden for sæson fået målt et kondital på 96 ml/kg/min, hvilket må siges at være virkelig højt.
+
+[Anna Møller](https://sport.tv2.dk/video/YW5uYTA0MDRtYXNm) har fået målt det højeste kondital på Københavns Universitet.
 
 ### Kondital - Verdensklasseatleter (fx løb, cykling, roning, langrend)
+
+Topidrætsfolk i konditionskrævende idrætsgrene har som regel et kondital over 70. Hvis du forventer at kunne være med i verdenseliten, så bør du vurdere dig selv ud fra nedenstående tabel:
 
 |         | Meget Lavt | Lavt  | Middel | Højt  | Meget Højt |
 |---------|------------|-------|--------|-------|------------|
@@ -126,6 +132,22 @@ Kondital<sub>Index 23</sub> er altså en beskrivelse af en persons relative kred
 
 Det har også været foreslået at opløfte kropsvægten med 0,73, når man sammenligner kondital for bedre at tage højde for løbeøkonomi og give en mere retfærdig sammenligning mellem lette og tunge atleter. Læs fx mere i denne artikel [Effekt af Kropsvægt på den maksimale iltoptagelse](http://www.motion-online.dk/effekt-kropsvaegt-paa-maksimale-iltoptagelse/).
 {: .notice .notice--warning }
+
+## Falder konditallet med alderen?
+
+Konditallet falder med alderen. En stor del af faldet skyldes, at aktivitetsniveauet typisk går ned med alderen. Hvis du bliver ved med at træne og forsøger at holde det samme aktivitetsniveau, så kan du vedligeholde konditallet over tid, men da muskelmassen typisk også går ned med alderen, så vil den maksimale iltoptagelse og derved konditallet også falde.
+
+## Er der forskel på mænd og kvinders kondital?
+
+Da kvinder har en større andel af fedt i kroppen end mænd, så vil kvinders kondital typisk være lavere end mænds.
+
+## Kondital og risiko for sygdomme
+
+Konditallet er med til at fortælle om hjerte og kredsløb fungerer optimalt. Konditionsniveauet har vist sig at hænge sammen med den relative risiko for at udvikle livsstilsbetingede sygdomme.
+
+Bente Klarlund og Bengt Saltin har lavet følgende grafik, der viser, hvad den relative risiko for at udvikle sygdomme er sammenholdt med konditallet og alderen.
+
+{% include figure image_path="https://inner-gym.com/wp-content/uploads/2018/09/Graf.jpg" caption="Kilde: Sundhedsstyrelsen, Center for Forebyggelse: Fysisk aktivitet – håndbog om forebyggelse og behandling, 2003. Udarbejdet af Bente Klarlund Pedersen og Bengt Saltin." %}
 
 ## Hvordan forbedrer jeg mit kondital?
 
