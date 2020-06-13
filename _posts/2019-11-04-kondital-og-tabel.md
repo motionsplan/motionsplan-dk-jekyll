@@ -73,7 +73,9 @@ Nedenstående tabeller gælder for almindelige mennesker i Skandinavien og er s�
 
 ## Hvad er de højeste kondital der er målt?
 
-[Bjørn Dæhlie](https://da.wikipedia.org/wiki/Bj%C3%B8rn_D%C3%A6hlie) har uden for sæson fået målt et kondital på 96 ml/kg/min, hvilket må siges at være virkelig højt. Der går forlydender om, at den norske cyklist Oskar Svendsen har [slået rekorden for det højeste maksimale iltoptagelse, der er målt](https://www.outsideonline.com/2398524/highest-ever-vo2max-cyclist-oskar-svendsen) på 96,7 ml/min/kg.
+[Bjørn Dæhlie](https://da.wikipedia.org/wiki/Bj%C3%B8rn_D%C3%A6hlie) har uden for sæson fået målt et kondital på 96 ml/kg/min, hvilket må siges at være virkelig højt. Der går forlydender om, at den norske cyklist Oskar Svendsen har [slået rekorden for det højeste maksimale iltoptagelse, der er målt](https://www.procycling.no/3467273/) på 97,5 ml/min/kg.
+
+Det er interessant, hvor mange nordmænd der er på [listen over de højeste kondital i verden](https://www.topendsports.com/testing/records/vo2max.htm).
 
 [Anna Møller](https://sport.tv2.dk/video/YW5uYTA0MDRtYXNm) har fået målt det højeste kondital på Københavns Universitet for danskere. Ellers kan du tjekke denne video med de højeste tal for kvinder, hvor langdistanceløberen Joan Benoit står registreret til 78,6 ml/min/kg.
 
@@ -152,6 +154,8 @@ Bente Klarlund og Bengt Saltin har lavet følgende grafik, der viser, hvad den r
 {% include figure image_path="https://inner-gym.com/wp-content/uploads/2018/09/Graf.jpg" caption="Kilde: Sundhedsstyrelsen, Center for Forebyggelse: Fysisk aktivitet – håndbog om forebyggelse og behandling, 2003. Udarbejdet af Bente Klarlund Pedersen og Bengt Saltin." %}
 
 ## Hvordan forbedrer jeg mit kondital?
+
+Hvis du gerne selv vil teste dit kondital, så tjek alle de [forskellige konditionstests, vi har beskrevet her](/kondition-og-test/).
 
 Skriv i kommentarerne, hvis du er klar til at læse, hvordan du forbedrer dit kondital, så bliver det den næste artikel, vi vil arbejde på.
 
