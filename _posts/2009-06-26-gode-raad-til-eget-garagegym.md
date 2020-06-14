@@ -29,6 +29,11 @@ Ross står bag den helt fabelagtige [rosstraining.com](http://rosstraining.com/)
 
 {% include video provider="youtube" id="H2UVZhbX074" %}
 
+## Flere ideer
+
+<a data-pin-do="embedBoard" data-pin-board-width="600" data-pin-scale-height="400" data-pin-scale-width="80" href="https://www.pinterest.dk/lsolesen/garage-gym/"></a>
+<script async defer src="//assets.pinterest.com/js/pinit.js"></script>
+
 ## Del dit eget garagegym
 
 Nu til sagen:
