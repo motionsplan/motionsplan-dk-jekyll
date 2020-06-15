@@ -3,8 +3,8 @@ title: "Hvad er fedtenergiprocenten? Med beregner!"
 permalink: /fedtenergiprocent/
 language: da
 header:
-  overlay_image: https://scx1.b-cdn.net/csz/news/800/2018/1-thedangersof.jpg
-  teaser: https://scx1.b-cdn.net/csz/news/800/2018/1-thedangersof.jpg
+  overlay_image: https://images.unsplash.com/photo-1494390248081-4e521a5940db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1895&q=80
+  teaser: https://images.unsplash.com/photo-1494390248081-4e521a5940db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
   overlay_filter: 0.2
 category:
   - Viden om
@@ -12,56 +12,6 @@ tags:
   - biohacking
 last_modified_at: 2020-06-11T08:14:14Z
 toc: true
-gallery:
-  - image_path: /assets/images/slow_muscle.jpg
-    url: /assets/images/slow_muscle.jpg
-    title: "Langsom muskel"
-    alt: "Langsom muskel"
-  - image_path: /assets/images/fast_muscle.jpg
-    url: /assets/images/fast_muscle.jpg
-    title: "Hurtig muskel"
-    alt: "Hurtig muskel"
-biopsi:
-  - image_path: /assets/images/blog/biopsi1.jpg
-    url: /assets/images/blog/biopsi1.jpg
-    title: "De forskellige remedier gøres klar. Her ses bl.a. selve biopsinålen (tykkelse = 5 mm). Og sprøjten der bruges til at lave undertryk inde i biopsinålen."
-    alt: "De forskellige remedier gøres klar. Her ses bl.a. selve biopsinålen (tykkelse = 5 mm). Og sprøjten der bruges til at lave undertryk inde i biopsinålen."
-  - image_path: /assets/images/blog/biopsi2.jpg
-    url: /assets/images/blog/biopsi2.jpg
-    title: "Lægen lægger lidt bedøvelse i huden og i den yderste muskelfascie."
-    alt: "Lægen lægger lidt bedøvelse i huden og i den yderste muskelfascie."
-  - image_path: /assets/images/blog/biopsi3.jpg
-    url: /assets/images/blog/biopsi3.jpg
-    title: "Med en lille skalpel skærer hen et overfladisk snit på ca. 5 mm."
-    alt: "Med en lille skalpel skærer hen et overfladisk snit på ca. 5 mm."
-  - image_path: /assets/images/blog/biopsi4.jpg
-    url: /assets/images/blog/biopsi4.jpg
-    title: "Biopsinålen placeres udfor snittet og hjælperen med suget gør klar."
-    alt: "Biopsinålen placeres udfor snittet og hjælperen med suget gør klar."
-  - image_path: /assets/images/blog/biopsi5.jpg
-    url: /assets/images/blog/biopsi5.jpg
-    title: "Når nålen er godt inde i musklen bliver et lille stykke muskel klippet fra ude i spidsen af nålen."
-    alt: "Når nålen er godt inde i musklen bliver et lille stykke muskel klippet fra ude i spidsen af nålen."
-  - image_path: /assets/images/blog/biopsi6.jpg
-    url: /assets/images/blog/biopsi6.jpg
-    title: "Den lille stump muskel tages ud af spidsen af nålen."
-    alt: "Den lille stump muskel tages ud af spidsen af nålen."
-  - image_path: /assets/images/blog/biopsi7.jpg
-    url: /assets/images/blog/biopsi7.jpg
-    title: "Muskelstykket trimmes for fedt og bindevæv."
-    alt: "Muskelstykket trimmes for fedt og bindevæv."
-  - image_path: /assets/images/blog/biopsi8.jpg
-    url: /assets/images/blog/biopsi8.jpg
-    title: "Muskelstykket monteres på en holder med speciallim, som størkner ved frostgrader."
-    alt: "Muskelstykket monteres på en holder med speciallim, som størkner ved frostgrader."
-  - image_path: /assets/images/blog/biopsi9.jpg
-    url: /assets/images/blog/biopsi9.jpg
-    title: "Biopsien lægges således at fibrene løber parallelt med holderen."
-    alt: "Biopsien lægges således at fibrene løber parallelt med holderen."
-  - image_path: /assets/images/blog/biopsi10.jpg
-    url: /assets/images/blog/biopsi10.jpg
-    title: "Muskelbiopsien fryses ned i isopentan (ca. -160 gr.) der er afkølet i flydende kvælstof. Biopsien gemmes herefter ved -80 gr. indtil den skal analyseres."
-    alt: "Muskelbiopsien fryses ned i isopentan (ca. -160 gr.) der er afkølet i flydende kvælstof. Biopsien gemmes herefter ved -80 gr. indtil den skal analyseres."
 feature_row:
   - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/1000x/9df78eab33525d08d6e5fb8d27136e95/a/n/anatomisk-guide-til-bevaegeapparatet-9788777499104-andrew-biel-gitte-bjerg-fuusager.jpg
     alt: "Anatomisk Guide til Bevægeapparatet"

@@ -12,76 +12,19 @@ tags:
   - biohacking
 last_modified_at: 2020-06-11T08:14:14Z
 toc: true
-gallery:
-  - image_path: /assets/images/slow_muscle.jpg
-    url: /assets/images/slow_muscle.jpg
-    title: "Langsom muskel"
-    alt: "Langsom muskel"
-  - image_path: /assets/images/fast_muscle.jpg
-    url: /assets/images/fast_muscle.jpg
-    title: "Hurtig muskel"
-    alt: "Hurtig muskel"
-biopsi:
-  - image_path: /assets/images/blog/biopsi1.jpg
-    url: /assets/images/blog/biopsi1.jpg
-    title: "De forskellige remedier gøres klar. Her ses bl.a. selve biopsinålen (tykkelse = 5 mm). Og sprøjten der bruges til at lave undertryk inde i biopsinålen."
-    alt: "De forskellige remedier gøres klar. Her ses bl.a. selve biopsinålen (tykkelse = 5 mm). Og sprøjten der bruges til at lave undertryk inde i biopsinålen."
-  - image_path: /assets/images/blog/biopsi2.jpg
-    url: /assets/images/blog/biopsi2.jpg
-    title: "Lægen lægger lidt bedøvelse i huden og i den yderste muskelfascie."
-    alt: "Lægen lægger lidt bedøvelse i huden og i den yderste muskelfascie."
-  - image_path: /assets/images/blog/biopsi3.jpg
-    url: /assets/images/blog/biopsi3.jpg
-    title: "Med en lille skalpel skærer hen et overfladisk snit på ca. 5 mm."
-    alt: "Med en lille skalpel skærer hen et overfladisk snit på ca. 5 mm."
-  - image_path: /assets/images/blog/biopsi4.jpg
-    url: /assets/images/blog/biopsi4.jpg
-    title: "Biopsinålen placeres udfor snittet og hjælperen med suget gør klar."
-    alt: "Biopsinålen placeres udfor snittet og hjælperen med suget gør klar."
-  - image_path: /assets/images/blog/biopsi5.jpg
-    url: /assets/images/blog/biopsi5.jpg
-    title: "Når nålen er godt inde i musklen bliver et lille stykke muskel klippet fra ude i spidsen af nålen."
-    alt: "Når nålen er godt inde i musklen bliver et lille stykke muskel klippet fra ude i spidsen af nålen."
-  - image_path: /assets/images/blog/biopsi6.jpg
-    url: /assets/images/blog/biopsi6.jpg
-    title: "Den lille stump muskel tages ud af spidsen af nålen."
-    alt: "Den lille stump muskel tages ud af spidsen af nålen."
-  - image_path: /assets/images/blog/biopsi7.jpg
-    url: /assets/images/blog/biopsi7.jpg
-    title: "Muskelstykket trimmes for fedt og bindevæv."
-    alt: "Muskelstykket trimmes for fedt og bindevæv."
-  - image_path: /assets/images/blog/biopsi8.jpg
-    url: /assets/images/blog/biopsi8.jpg
-    title: "Muskelstykket monteres på en holder med speciallim, som størkner ved frostgrader."
-    alt: "Muskelstykket monteres på en holder med speciallim, som størkner ved frostgrader."
-  - image_path: /assets/images/blog/biopsi9.jpg
-    url: /assets/images/blog/biopsi9.jpg
-    title: "Biopsien lægges således at fibrene løber parallelt med holderen."
-    alt: "Biopsien lægges således at fibrene løber parallelt med holderen."
-  - image_path: /assets/images/blog/biopsi10.jpg
-    url: /assets/images/blog/biopsi10.jpg
-    title: "Muskelbiopsien fryses ned i isopentan (ca. -160 gr.) der er afkølet i flydende kvælstof. Biopsien gemmes herefter ved -80 gr. indtil den skal analyseres."
-    alt: "Muskelbiopsien fryses ned i isopentan (ca. -160 gr.) der er afkølet i flydende kvælstof. Biopsien gemmes herefter ved -80 gr. indtil den skal analyseres."
 feature_row:
-  - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/1000x/9df78eab33525d08d6e5fb8d27136e95/a/n/anatomisk-guide-til-bevaegeapparatet-9788777499104-andrew-biel-gitte-bjerg-fuusager.jpg
-    alt: "Anatomisk Guide til Bevægeapparatet"
-    title: "Anatomisk Guide til Bevægeapparatet"
-    excerpt: "En praktisk guide til lokalisering af muskler, knogler med mere. Før du kan få succes med at undersøge og behandle bevægeapparatet, er du nødt til først at kende dets opbygning og kunne lokalisere de relevante strukturer."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/anatomisk-guide-til-bevaegeapparatet-9788777499104"
-    btn_label: "Læs mere hos Den Intelligente Krop"
+  - image_path: https://imgcdn.saxo.com/_9781512121278/0x500
+    alt: "The Biohacking Manifesto"
+    title: "The Biohacking Manifesto"
+    excerpt: "Biohacking is just a fancy word for optimizing your own biological potential, and in the context of this brand new book from James Lee (author of The Methuselah Project) it means achieving this via - - Slowing the process of cellular aging to extend longevity"
+    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/the-biohacking-manifesto_james-lee_paperback_9781512121278"
+    btn_label: "Tjek prisen hos Saxo"
     btn_class: "btn--success"
-  - image_path: https://cdn5.bogreolen.dk/thumbnail/300x0/00002/73191/cover.20160911.jpg
-    alt: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
-    title: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
-    excerpt: "Menneskekroppen - anatomi, fysiologi og sygdomme er et anatomisk atlas til mennesket i det 21. århundrede. Gennem de computergenererede 3d-billeder og fantastiske illustrationer kan man opleve menneskekroppen i hidtil uset detaljegrad og skønhed."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://bogreolen.dk/menneskekroppen_steve-parker_9788756784436"
-    btn_label: "Læs mere hos Bogreolen"
-    btn_class: "btn--success"
-  - image_path: https://imgcdn.saxo.com/_9788762809000/0x500
-    alt: "Bevægeapparatets anatomi"
-    title: "Bevægeapparatets anatomi"
-    excerpt: "Når man skal lære om anatomi er det selvsagt en fordel med gode lærebøger, og her er “Bevægeapparatets anatomi” en absolut klassiker. Bag lærebogen står forfatterne Finn Bojsen Møller, Jan Hejle, Erik Bruun Simonsen, Jørgen Tranum-Jensen. De kombinerer viden om almen anatomi med information om hvordan man forebygger, undersøger, behandler, træner og genoptræner."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/bevaegeapparatets-anatomi_joergen-tranum-jensen_indbundet_9788762809000"
+  - image_path: https://imgcdn.saxo.com/Image?ImageID=10149040
+    alt: "Saxos bøger om Biohacking"
+    title: "Saxos bøger om Biohacking"
+    excerpt: "Der er skrevet en masse bøger om Biohacking efterhånden, og Saxo har flere spændende bøger, bl.a. af John Board."
+    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/products/search?query=biohacking"
     btn_label: "Læs mere hos Saxo"
     btn_class: "btn--success"
 ---
@@ -98,8 +41,7 @@ Jeg vil prøve at komme forbi forskellige aspekter ved biohacking og præsentere
 
 Biohacking er at tage kontrol over din krop, dit sind og dit liv og forsøge at optimere kroppen og biologien ved hjælp fra videnskab, teknologi og personlige eksperimenter.
 
-
-Rationalet er, at man med videnskab og empiriske eksperimenter med sig selv som forsøgsperson kan gøre sig selv til en bedre version. Biohackere bruger ofte teknologi til at indsamle data og forsøge at bruge resultaterne til at **få mere energi**, **blive stærkere*, **tænke hurtigere** og ganske enkelt **leve smartere og sundere**.
+Rationalet er, at man med videnskab og empiriske eksperimenter med sig selv som forsøgsperson kan gøre sig selv til en bedre version. Biohackere bruger ofte teknologi til at indsamle data og forsøge at bruge resultaterne til at **få mere energi**, **blive stærkere**, **tænke hurtigere** og ganske enkelt **leve smartere og sundere**.
 
 For mange biohackere er det et samlet system, hvor man forsøger at optimere sig selv. Hvis man sover dårligt, mangler energi eller har vanskeligt ved at holde fokus, så prøver man gennem optimering af sin hverdag ud fra målinger og eksperimenter at forbedre disse parametre.
 
@@ -213,3 +155,5 @@ Jeg kan altså ikke give en helt præcis definition på, hvornår man er biohack
 [Anders Nedergaard](https://andersnedergaard.dk/fitness-mk/fitness-m-k-253/) har talt med Rasmus Just, som er med i Min Sindssygt Sunde Familie. Det er interessant, hvordan udeforstående dømmer livsstilen uden rigtigt at kende den i detaljer.
 
 Som skrevet har jeg selv eksperimenteret med at måle min HRV, som jeg har [skrevet lidt om i dette indlæg om heart rate variability](/hrv/).
+
+{% include feature_row type="left" %}

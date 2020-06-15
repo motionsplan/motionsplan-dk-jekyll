@@ -2,10 +2,10 @@
 main:
   - title: "Blog"
     url: /blog/
+  - title: "Styrke"
+    url: /styrke/
   - title: "Kondition"
     url: /kondition/
-#  - title: "Styrke"
-#    url: /styrke/
 #  - title: "Træningslære"
 #    url: /fysiologi/
 #  - title: "Træningslære"

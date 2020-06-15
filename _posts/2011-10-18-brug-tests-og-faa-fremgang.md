@@ -27,7 +27,7 @@ feature_row:
     btn_class: "btn--success"
 ---
 
-[1RM]: One Repetition Maximum
+*[1RM]: One Repetition Maximum
 
 Der er rigtig mange måder at styrketræne på, men fælles for dem alle er, at hensigten er at blive stærkere. For at få fremgang skal man naturligvis træne, men der skal også være progression i træningen. Du kan bruge tests til at sikre dig, at din træning rent faktisk virker.
 

@@ -4,8 +4,8 @@ permalink: /gvt/
 excerpt: "Brutalt program med fokus på hypertrofi ved en høj volumen med 10 x 10 i store helkropsøvelser."
 language: da
 header:
-  overlay_image: http://cdn.shopify.com/s/files/1/0942/6160/files/german-volume-training-gvt.jpg?v=1555597618
-  teaser: http://cdn.shopify.com/s/files/1/0942/6160/files/german-volume-training-gvt.jpg?v=1555597618
+  overlay_image: https://images.unsplash.com/photo-1534367610401-9f5ed68180aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
+  teaser: https://images.unsplash.com/photo-1534367610401-9f5ed68180aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
 category:
   - Styrketræning
 tags:
