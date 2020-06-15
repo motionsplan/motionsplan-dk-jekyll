@@ -17,16 +17,16 @@ toc: true
 
 *[AT]: Anaerobic Threshold
 
-{% include video provider="wistia-net" id="p648ek0dn5" %}
-
 Alle cellerne i din krop har brug for energi for at holde dig i live. Kroppen får sin energi gennem energisystemerne. _Conditioning_ handler om at forbedre energiproduktionen og -forbruget.
 
 Din krop får sin energi fra en af følgende energisystemer:
 
 - **Aerob (med ilt)**
-- **Anaerobic (uden ilt)**
+- **Anaerob (uden ilt)**
 
 Begge disse energisystemer producerer energimolekylet ATP. Kroppen sørger for, at der hele tiden bliver produceret energi. Kroppen vil opretholde homeøstase - kroppens ligevægt - som svar på forskellige interne og eksterne påvirkninger af kroppen. Homeøstasen regulerer kroppens stadige energiproduktion og -levering.
+
+{% include video provider="wistia-net" id="p648ek0dn5" %}
 
 Helt grundlæggende er alle tilpasningsprocesserne i kroppen for at opretholde homeøstasis og fortsætte med at skabe energi til kroppens celler.
 
@@ -92,13 +92,13 @@ Målet er at øge densiteten af kapilærerne ved musklerne og forbedre de _oxida
 
 Arbejdet er 8-12 sekunder med 70% af den maksimale intensitet med omkring 60 sekunders arbejde. Der kan laves 8-22 reps med moderat intensitet.
 
-{% include video provider="facebook" id="https://www.facebook.com>/8weeksout>/videos>/10155692941440787" %}
+{% include video provider="facebook" id="https://www.facebook.com/8weeksout/videos/10155692941440787" %}
 
 ### High Resistance Intervals
 
 Målet er at forbedre udholdenheden af _fast twitch_-muskelfibrene. Skal ske med høj modstand, bakke eller vægt. Arbejdsperioden er omkring 5-8 sekunder. Pause indtil hjertet er faldet til omkring 130-160 slag / min. 
 
-{% include video provider="facebook" id="https://www.facebook.com>/8weeksout>/videos>/10155741321175787" %}
+{% include video provider="facebook" id="https://www.facebook.com/8weeksout/videos>/10155741321175787" %}
 
 ## Anaerobe system
 
@@ -192,7 +192,7 @@ Anaerobic Power Reserve
 
 ## Generel vs. specifik conditioning
 
-{% include video provider="facebook" id="https://www.facebook.com>/8weeksout>/videos>/10155830804600787" %}
+{% include video provider="facebook" id="https://www.facebook.com/8weeksout/videos/10155830804600787" %}
 
 ## Referencer
 

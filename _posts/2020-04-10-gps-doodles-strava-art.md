@@ -9,7 +9,7 @@ header:
   caption: "Stephen Lunds GPS-Doodle"
   overlay_filter: 0.5
 category:
-  - Kondition
+  - Træningsideer
 tags:
   - gps
   - kunst

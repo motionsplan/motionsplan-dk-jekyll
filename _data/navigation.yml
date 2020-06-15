@@ -1,9 +1,17 @@
 # main links
 main:
-  - title: "Øvelser"
-    url: /traeningsoevelser/
   - title: "Blog"
     url: /blog/
+  - title: "Kondition"
+    url: /kondition/
+#  - title: "Styrke"
+#    url: /styrke/
+#  - title: "Træningslære"
+#    url: /fysiologi/
+#  - title: "Træningslære"
+#    url: /fysiologi/
+  - title: "Øvelser"
+    url: /traeningsoevelser/
   - title: "Inspiration"
     url: /inspiration/
   - title: "Om"
