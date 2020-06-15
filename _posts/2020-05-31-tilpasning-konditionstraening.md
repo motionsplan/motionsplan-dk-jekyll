@@ -145,7 +145,7 @@ Kroppen producerer flere af de nødvendige enzymer, så processerne kan blive me
 
 ## Forskel på mænd og kvinder i fysiologiske tilpasninger
 
-Der er naturligvis ikke forskel på, hvordan mænd og kvinder fysiologisk responderer 
+Der er naturligvis ikke forskel på, hvordan mænd og kvinder fysiologisk responderer på konditionstræning.
 
 ## Opsummering på effekten af konditionstræning
 
@@ -161,6 +161,10 @@ Kredsløbstræning har altså en række afledte effekter, som kan sammenfattes s
 Samlet set giver alle tilpasninger til kredsløbstræningen mulighed for, at kroppen kan skabe mere energi til at musklerne kan arbejde. Når musklerne kan arbejde længere tid og mere effektivt, så bliver dine præstationer alt andet lige bedre.
 
 Konkret giver de fysiologiske tilpasninger mulighed for at den maksimale iltoptagelse kan stige, så din kondition og dit kondital bliver bedre. Hvis du går i gang med træning, så anbefaler jeg, at du laver nogle test for at se om træningen virker.
+
+Jeg synes denne video forklarer tilpasningerne ved konditionstræning på en god måde:
+
+{% include video provider="youtube" id="k0nziaiGxSU" %}
 
 Jeg har skrevet en grundig artikel om, [hvordan du tester dit kondital med og uden udstyr](/kondition-og-test/), og jeg har også skrevet om, [hvad et godt kondital er](/kondital/). Her kan du sammenligne dit kondital med normer og eliteatleter.
 
