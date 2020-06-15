@@ -1,17 +1,18 @@
 ---
-title: "To metoder til at øge maksimal styrke: wave loading og rest-pause"
+title: "Maksimal styrke: Metoder til maksimal muskelstyrke"
 permalink: /maksimal-styrke/
-excerpt: "Wave loading og rest pause kan være effektive metoder til at træne maksimal styrke."
+excerpt: "Maksimal muskelstyrke kan trænes på flere måder. Wave loading og rest pause kan være effektive metoder til at træne maksimal styrke."
 language: da
 header:
-  overlay_image: https://thibarmy.com/wp-content/uploads/2018/04/pic-e1525353005985.jpg
-  teaser: https://thibarmy.com/wp-content/uploads/2018/04/pic-e1525353005985.jpg
+  overlay_image: https://images.unsplash.com/photo-1534438097545-a2c22c57f2ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
+  teaser: https://images.unsplash.com/photo-1534438097545-a2c22c57f2ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80
 category:
   - Styrketræning
 tags:
   - maksimal styrke
   - træningsmetoder
-last_modified_at: 2019-03-06T23:14:14Z
+  - maksimal muskelstyrke
+last_modified_at: 2020-06-14T23:14:14Z
 toc: true
 ---
 
@@ -21,12 +22,18 @@ toc: true
 *[PAP]: Post-activation potentiation
 *[RFD]: Rate of Force Development
 
-Maksimal styrke handler om at forbedre ens teknik, at kunne aktivere flere muskelfibre, at kunne koordinere musklerne og at være mentalt forberedt. Der er mange måder, løftere kan forøge deres muskelstyrke, og du kan finde et have af forskellige programmer, der ser vidt forskellige ud.
+Jeg træner for at forbedre min maksimale muskelstyrke, og jeg har undersøgt, hvilke metoder der er særligt velegnede til at få min styrke til at stige.
+
+**Maksimal muskelstyrke handler om at forbedre teknikken, at kunne aktivere flere muskelfibre, at kunne koordinere musklerne og at være mentalt forberedt. At forbedre den maksimale muskelstyrke kræver først og fremmest forbedringer i nervesystemet, men større muskler hjælper også på styrkepotentialet.**
+
+Der er mange måder, løftere kan forøge deres maksimale muskelstyrke, og du kan finde et hav af forskellige programmer, der ser vidt forskellige ud.
 
 Der er et par vigtige principper, som er nødvendige i din træning:
 
 - **Progressivt overload.** Efterhånden skal du i din træning udfordre kroppen med større belastning. Intensiteten i styrketræning måles ofte i forhold til 1RM, og intenstiten kan i princippet være det samme, så længe belastningen øges.
 - **SAID-principppet**. Du bliver stærkere til det, du gør. Så hvis du gerne vil løfte mere i en bestemt bevægelse, så skal du lave bevægelsen.
+
+## Metoder til forøgelse af maksimal styrke
 
 _Wave_-loading og _rest-pause_ er bare to metoder, hvor du kan flytte din maksimale styrke.
 
@@ -39,7 +46,7 @@ Formålet med opvarmningen er at optimere løfteteknikken inden arbejdssættene.
 - 2x3-5 reps med ca. 70% af 1RM
 - 2x2 reps med ca. 80-85% af 1RM
 
-## Waves
+## Waves for muskelstyrke
 
 Ideen bag waves er at udnytte _post-activation potentiation_ (PAP). Teorien er at en maksimal sammentrækning aktiverer nervesystemet, hvilket øger kapaciteten til at rekruttere muskelfibre, når man løfter eksempelvis tunge 1'ere og 2'ere på over 85% af 1RM. Det skaber en PAP, der kan måles som øget _rate of force development (RFD)_, power og maksimal kraft omkring 7-8 minutter senere. Der er uenighed om, hvor længe effekten varer ved, men nogle studier foreslår, at effekten måske varer i op til 24 timer efter. 
 
@@ -126,8 +133,8 @@ Ved brug af RPE som intensitetsskala[^note] for at vælge sin _wave_ sørger man
 Jeg tror mange glemmer, at man ikke behøver at have eksplosiv fremgang mellem de enkelte træninger. Hvis du kan have et relativt langsomt _progressivt overload_, hvor du stadig bliver bedre, så vil du kunne have fremgang i længere tid inden du støder på et plateau. 
 
 > Remember, the slower you can progress the weights while still growing and making the workouts hard, the longer you'll progress – and the stronger you'll be at the end. To that end, an optimal progression scheme when using this system would be to add 5 pounds to the starting wave every third workout.
->
-> Christian Thibaudeau
+
+--- <cite>Christian Thibaudeau</cite>
 
 ## Rest-pause for maksimal styrke
 
@@ -160,6 +167,8 @@ Du kan også benytte dig af en række andre metoder, som vi vil komme tilbage ti
 - Løfte mod isometrisk modstand
 
 Hvilke metoder bruger du i forbindelse med maksimal styrke - og hvilke erfaringer har du med _waves_ og _rest-pause_?
+
+Jeg har skrevet et andet indlæg om [metoder til maksimal muskeltilvækst og hypertrofi]({% link _posts/2019-10-22-metoder-til-hypertrofi.md %}).
 
 ## Referencer
 
