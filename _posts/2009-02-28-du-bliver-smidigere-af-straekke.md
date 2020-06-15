@@ -62,7 +62,7 @@ Efter vores mening skal man hverken bare strække ud eller undlade det. Man skal
 - [Knudson, Duane V., Peter Magnusson, Malachy McHugh (2000): "Current Issues In Flexibility Fitness", i: President s Council on Physcial Fitness and Sports. Research Digest, Series 3, No. 10, June 2000.](http://www.presidentschallenge.org/misc/news_research/research_digests/59131a.pdf)
 - [Schrier, Ian, Kav Gossal (2000): "Myths and Truths of Streching", i: The Physician an Sportsmedicine, vol. 28, no. 8, August 2000.](http://www.physsportsmed.com/issues/2000/08_00/shrier.htm)
 - Magnusson, Peter S. (1998): A Biomechanical Evaluation of Human Skeletal Muscle During Stretch, Lægeforeningens Forlag, København
-- [Aagaard, Per (2003): "Nyeste viden om nervesystemets tilpasninger til tung styrketræning"](https://www.motion-online.dk/nyeste-viden-nervesystemets-tilpasninger-tung-styrketraening/)
+- Aagaard, Per (2003): "Nyeste viden om nervesystemets tilpasninger til tung styrketræning på motion-online.dk
 - Critchell, Mick (2002): Warm Ups for Soccer. A dynamic approach, Reedswain Publishing
 - [Chronic static stretching improves exercise performance. Kokkonen et al. Med Sci Sports Exerc. 2007 Oct;39(10):1825-31](http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&Cmd=ShowDetailView&TermToSearch=17909411&ordinalpos=1&itool=EntrezSystem2.PEntrez.Pubmed.Pubmed_ResultsPanel.Pubmed_RVDocSum) via [motion-online.dk](https://www.motion-online.dk/udstraekning-oeger-praestationsevnen/)
 - [Rob D Herbert, Michael Gabriel: Effects of stretching before and after exercising on muscle soreness and risk of injury: systematic review, BMJ 2002;325:468 (31 August)](http://www.bmj.com/cgi/content/abstract/325/7362/468)

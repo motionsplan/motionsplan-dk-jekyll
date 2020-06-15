@@ -1,0 +1,11 @@
+{% assign navigation = site.data.navigation[include.nav] %}
+<ul class="pyramid">
+   {% for nav in navigation reversed %}
+      {% if nav.url contains "://" %}
+         {% assign nav_url = nav.url %}
+       {% else %}
+         {% assign nav_url = nav.url | relative_url %}
+      {% endif %}
+   <li class="zone"><a href="{{ nav_url }}" title="{{ nav.description }}">{{ nav.title }}</a></li>
+   {% endfor %}
+</ul>

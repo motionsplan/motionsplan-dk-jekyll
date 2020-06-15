@@ -2,10 +2,10 @@
 main:
   - title: "Blog"
     url: /blog/
+  - title: "Styrke"
+    url: /styrke/
   - title: "Kondition"
     url: /kondition/
-#  - title: "Styrke"
-#    url: /styrke/
 #  - title: "Træningslære"
 #    url: /fysiologi/
 #  - title: "Træningslære"
@@ -16,6 +16,7 @@ main:
     url: /inspiration/
   - title: "Om"
     url: /om/
+
 anatomi:
   - title: "Anatomi"
     url: "/anatomi/"
@@ -132,3 +133,14 @@ muscles:
         url: /vastus-lateralis/
       - title: Lårmusklens indre hoved
         url: /vastus-medialis/
+
+strength:
+  - title: "Adherence"
+  - title: "Volume, intensity, freequency"
+    url: "/artikel/hvordan-skal-jeg-dosere-min-styrketraening"
+  - title: "Progression"
+  - title: "Exercise selection"
+    url: "/artikel/opbygning-af-program"
+  - title: "Rest Periods"
+  - title: "Tempo"
+    url: "/artikel/foelg-tempoet-naar-du-loefter"

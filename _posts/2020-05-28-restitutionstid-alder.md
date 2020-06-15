@@ -184,4 +184,4 @@ Restitutionstiden er meget individuel, men den har stor betydning for, hvordan e
 
 ## Referencer
 
-Journal of Strength and Conditioning Research 31(12): 3454-3462.Berkeley University of California. “Do Older People Need Longer to Recover from Exercise?”
+- Fell, James, og Dafydd Williams. 2008. “The Effect of Aging on Skeletal-Muscle Recovery from Exercise: Possible Implications for Aging Athletes”. Journal of aging and physical activity 16 (februar): 97–115. <https://doi.org/10.1123/japa.16.1.97>.
