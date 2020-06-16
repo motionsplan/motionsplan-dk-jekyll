@@ -1,5 +1,5 @@
 ---
-title: "Hvad er fedtenergiprocenten? Med beregner!"
+title: "Hvad er fedtenergiprocenten? Beregner til mad"
 permalink: /fedtenergiprocent/
 language: da
 header:

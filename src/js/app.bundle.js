@@ -24,6 +24,7 @@ const skinfold_durnin = require('./skinfold-durnin');
 const rockport = require('../js/walktest-rockport-16.js');
 const fatenergypct = require('../js/fatenergypct.js');
 const whr = require('../js/waist.js');
+const tbw = require('../js/bodywater.js');
 require('image-map-resizer');
 
 $(document).ready(function() {
@@ -308,7 +309,21 @@ $(document).ready(function() {
         $("#PMI").val(b.getPonderalIndex().toFixed(1));
         return false;
     });
+    // Calculate Body Water
+    $("#calculator_bodywater").submit(function() {
+        console.log("Calculate Body Water");
 
+        var a = Number($("#age").val());
+        var h = Number($("#height").val());
+        var w = Number($("#weight").val());
+        var g = $("[name='sex']:checked").val();
+
+        var f = tbw.BodyWater(h, w, a, g);
+
+        $("#tbw").val(f.getTotalBodyWater().toFixed(2));
+        $("#tbw_pct").val(f.getPercent().toFixed(2));
+        return false;
+    });
     // Calculate Fat Percent
     $("#calculator_fat_percent").submit(function() {
         console.log("Calculate Fat Percent");
