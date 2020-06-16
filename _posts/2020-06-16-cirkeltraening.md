@@ -129,7 +129,7 @@ Der findes et utal af apps til Cirkeltræning, hvis du vil downloade et program 
 
 Hvis du foretrækker at designe din egen cirkeltræning, så kan jeg anbefale følgende app til tidtagning.
 
-- **Interval timer**. Jeg bruger selv den gratis [Interval timer](https://play.google.com/store/apps/details?id=cc.dreamspark.intervaltimer&hl=da) (dog med reklamer) fra Google Play Store, hvor jeg kan sætte intervallerne op, som jeg gerne vil have dem. Så kan spille musik fra fx Spotify eller Google Play Music i baggrunden, og så bipper app’en, når intervallerne er gået. På IOS så ved jeg mange er glade for denne [Interval timer](https://apps.apple.com/us/app/interval-timer-hiit-workouts/id406473568).
+- **Interval timer**. Jeg bruger selv den gratis [Interval timer](https://play.google.com/store/apps/details?id=cc.dreamspark.intervaltimer&hl=da) (dog med reklamer) fra Google Play Store, hvor jeg kan sætte intervallerne op, som jeg gerne vil have dem. Så kan jeg spille musik fra fx Spotify eller Google Play Music i baggrunden, og så bipper app’en, når intervallerne er gået. På IOS så ved jeg mange er glade for denne [Interval timer](https://apps.apple.com/us/app/interval-timer-hiit-workouts/id406473568).
 
 ## Fordele ved cirkeltræning
 
