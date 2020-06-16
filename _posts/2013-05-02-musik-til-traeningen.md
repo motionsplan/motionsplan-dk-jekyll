@@ -1,5 +1,5 @@
 ---
-title: "Musik til træningen"
+title: "Musik til træningen: Hvordan finder du de bedste sange?"
 permalink: /artikel/musik-til-træningen
 language: da
 header:
@@ -17,7 +17,7 @@ last_modified_at: 2020-06-15T15:18:24Z
 
 *[bpm]: beats per minute
 
-Jeg bruger ofte musik til træningen, når jeg underviser mine elever. Hvis jeg ikke lige er faldet over en podcast, og jeg er i humør til det, så bruger jeg også musik til min egen træning. Men hvordan får man musikken til at give sig ekstra energi til træningen?
+Jeg bruger ofte musik til træningen, når jeg underviser mine elever. Hvis jeg ikke lige er faldet over en podcast, og jeg er i humør til det, så bruger jeg også musik til min egen træning. Men hvordan finder man de bedste sange og får musikken til at give sig ekstra energi og motivation til træningen?
 
 **Hvis musikken passer til din træning, så kan den hjælpe med at få træningen til at virke lettere eller presse tempoet højere op. Derved kan træningen blive mere effektiv. Det bedste er, hvis du kan finde musik, der er synkront med dine bevægelser. Hvis det fx er løb, så passer 160-180 bpm rigtig godt for de fleste.**
 
