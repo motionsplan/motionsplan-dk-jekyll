@@ -11,12 +11,16 @@ tags:
 category:
   - Konditionstræning
   - Styrketræning
-last_modified_at: 2013-05-02T15:18:24Z
+last_modified_at: 2020-06-15T15:18:24Z
 ---
+
+Jeg bruger ofte musik til træningen, når jeg underviser mine elever. 
+
+## Hvordan bruger jeg musik til intervaltræning
 
 Når jeg underviser har jeg ofte mellem 20 og 30 elever på [Vejle Idrætshøjskole](http://vih.dk). Vi laver ofte en form for intervaltræning med en masse forskellige øvelser, hvor eleverne starter ved hver deres øvelse - og efter et givent tidsinterval skifter til en ny øvelse. Vi kører så alt mellem 1 og 4 runder.
 
-Jeg bruger ofte musik til træningen. Jeg gider ikke stå og tage tid og fløjte, så jeg vil helst have musikken til at indikere, når der skal være skift. Tidligere miksede jeg selv musikken, men så blev jeg klogere.
+Hvis jeg laver intervaltræning, så gider jeg ikke stå og tage tid og fløjte, så jeg vil helst have musikken til at indikere, når der skal være skift. Tidligere miksede jeg selv musikken, men så blev jeg klogere.
 
 ### Tidligere: Mix din egen musik
 
