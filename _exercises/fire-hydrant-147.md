@@ -12,6 +12,7 @@ header:
 tags:
   - kropsstamme
   - kropsvægt
+  - cirkeltræning
 categories:
 training_type: 
 training_focus: 

@@ -14,6 +14,7 @@ tags:
   - Kondition
   - helkropsøvelse
   - kropsvægt
+  - cirkeltræning
 categories:
   - Kondition og puls
 training_type: 

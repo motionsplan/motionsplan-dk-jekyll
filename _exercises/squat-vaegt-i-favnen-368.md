@@ -18,6 +18,7 @@ tags:
   - Baller
   - Core
   - Forlår
+  - cirkeltræning
 categories:
   - Ben
 training_type: 

@@ -16,6 +16,7 @@ tags:
   - håndvægte
   - Baller
   - Forlår
+  - cirkeltræning
 categories:
   - Ben
 training_type: 

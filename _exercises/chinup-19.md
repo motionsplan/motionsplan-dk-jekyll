@@ -17,6 +17,7 @@ tags:
   - Arme
   - Skuldre
   - Øvre ryg
+  - cirkeltræning
 categories:
   - Træk
 training_type: 

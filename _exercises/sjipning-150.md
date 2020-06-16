@@ -12,6 +12,7 @@ header:
 tags:
   - Kondition og puls
   - sjippetov
+  - cirkeltræning
 categories:
   - Kondition og puls
 training_type: 

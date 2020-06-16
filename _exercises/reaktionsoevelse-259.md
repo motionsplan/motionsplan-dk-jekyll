@@ -1,9 +1,7 @@
 ---
 title: "Reaktionsøvelse"
-excerpt: "Lig på maven og kom om på ryggen og tilbage igen ved at føre benene gennem armene.
-"
-instructions: "Lig på maven og kom om på ryggen og tilbage igen ved at føre benene gennem armene.
-"
+excerpt: "Lig på maven og kom om på ryggen og tilbage igen ved at føre benene gennem armene."
+instructions: "Lig på maven og kom om på ryggen og tilbage igen ved at føre benene gennem armene."
 permalink: /oevelse/reaktionsoevelse/
 redirect_from: /node/259
 id: 259
@@ -14,6 +12,7 @@ header:
 tags:
   - Kondition
   - kropsvægt
+  - cirkeltræning
 categories:
 training_type: 
   - Kondition

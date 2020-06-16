@@ -18,6 +18,7 @@ tags:
   - Baglår
   - Baller
   - Core
+  - cirkeltræning
 categories:
   - Kondition og puls
 training_type: 

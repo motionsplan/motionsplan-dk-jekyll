@@ -17,6 +17,7 @@ tags:
   - Arme
   - Bryst
   - Skuldre
+  - cirkeltræning
 categories:
   - Pres
 training_type: 

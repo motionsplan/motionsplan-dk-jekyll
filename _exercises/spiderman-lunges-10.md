@@ -15,6 +15,7 @@ tags:
   - helkropsøvelse
   - kropsvægt
   - Core
+  - cirkeltræning
 categories:
   - Koordination og balance
 training_type: 

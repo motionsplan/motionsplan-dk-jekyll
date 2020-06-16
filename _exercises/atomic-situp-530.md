@@ -16,6 +16,7 @@ tags:
   - kropsvægt
   - Core
   - Mave
+  - cirkeltræning
 categories:
   - Kropsstamme
 training_type: 

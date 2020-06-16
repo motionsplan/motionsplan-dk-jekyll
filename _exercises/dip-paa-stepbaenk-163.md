@@ -13,6 +13,7 @@ tags:
   - bænk
   - kropsvægt
   - fitnessinstruktør
+  - cirkeltræning
 categories:
 training_type: 
 training_focus: 
