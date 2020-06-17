@@ -94,7 +94,7 @@ Hvis du gerne vil have en lidt mere avanceret beregner, så kan du finde den på
 
 [Avanceret BMR beregner](https://www.health-calc.com/diet/energy-expenditure-advanced){: .btn .btn--large .btn--success }
 
-### Referencer
+## Referencer
 
 {% include feature_row type="left" %}
 
