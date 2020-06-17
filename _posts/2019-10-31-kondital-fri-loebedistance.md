@@ -30,4 +30,4 @@ Tre ting skal dog være opfyldt:
 
 ## Reference
 
-Tokmakidis, S. P., L. Léger, D. Mercier, F. Péronnet, og G. Thibault. 1987. “New Approaches to Predict VO2max and Endurance from Running Performances”. The Journal of Sports Medicine and Physical Fitness 27 (4): 401–9.
+- Tokmakidis, S. P., L. Léger, D. Mercier, F. Péronnet, og G. Thibault. 1987. “New Approaches to Predict VO2max and Endurance from Running Performances”. The Journal of Sports Medicine and Physical Fitness 27 (4): 401–9.

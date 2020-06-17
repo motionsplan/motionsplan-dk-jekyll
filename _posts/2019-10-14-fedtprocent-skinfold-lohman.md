@@ -47,8 +47,7 @@ Mål tre gange hvert sted og brug gennemsnittet af de tre målinger for at få e
 
 ## Reference
 
-Lohman, T.G.: The use of skinfolds to estimate body fatness on children and youth. Journal of physical education, recreation and dance, 58(9):67, 69, 1987.
-
-Slaughter, M. H., T. G. Lohman, R. A. Boileau, C. A. Horswill, R. J. Stillman, M. D. Van Loan, og D. A. Bemben. 2014. “Skinfold Equations for Estimation of Body Fatness in Children and Youth”. Human Biology 60 (5). https://digitalcommons.wayne.edu/humbiol/vol60/iss5/4.
+- Lohman, T.G.: The use of skinfolds to estimate body fatness on children and youth. Journal of physical education, recreation and dance, 58(9):67, 69, 1987.
+- Slaughter, M. H., T. G. Lohman, R. A. Boileau, C. A. Horswill, R. J. Stillman, M. D. Van Loan, og D. A. Bemben. 2014. “Skinfold Equations for Estimation of Body Fatness in Children and Youth”. Human Biology 60 (5). <https://digitalcommons.wayne.edu/humbiol/vol60/iss5/4>.
 
 {% include feature_row type="left" %}

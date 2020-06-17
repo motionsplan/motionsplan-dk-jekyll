@@ -74,6 +74,5 @@ Du kan køre testen på en Wattbike ved at bruge tabellerne, der omsætter modst
 
 ## Referencer
 
-[Wattmax test](https://systime.dk/fileadmin/indhold/SupplerendeMaterialer/Idraet_-_teori_og_traening/4_Traeningslaere/watt-max.htm)
-
-Andersen, L. B. 1995. “A Maximal Cycle Exercise Protocol to Predict Maximal Oxygen Uptake”. Scandinavian Journal of Medicine & Science in Sports 5 (3): 143–46. https://doi.org/10.1111/j.1600-0838.1995.tb00027.x.
+- [Wattmax test](https://systime.dk/fileadmin/indhold/SupplerendeMaterialer/Idraet_-_teori_og_traening/4_Traeningslaere/watt-max.htm)
+- Andersen, L. B. 1995. “A Maximal Cycle Exercise Protocol to Predict Maximal Oxygen Uptake”. Scandinavian Journal of Medicine & Science in Sports 5 (3): 143–46. <https://doi.org/10.1111/j.1600-0838.1995.tb00027.x>.

@@ -52,14 +52,9 @@ Vi har valgt at angive referenceværdier der ikke er baseret på tilvænning, da
 
 ## Referencer
 
-Enright, P. L., og D. L. Sherrill. 1998. “Reference Equations for the Six-Minute Walk in Healthy Adults”. American Journal of Respiratory and Critical Care Medicine 158 (5 Pt 1): 1384–87. https://doi.org/10.1164/ajrccm.158.5.9710086.
-
-Enright, Paul L. 2003. “The Six-Minute Walk Test”. Respiratory Care 48 (8): 783–85.
-
-Enright, Paul L., Mary Ann McBurnie, Vera Bittner, Russell P. Tracy, Robert McNamara, Alice Arnold, Anne B. Newman, og Cardiovascular Health Study. 2003. “The 6-Min Walk Test: A Quick Measure of Functional Status in Elderly Adults”. Chest 123 (2): 387–98. https://doi.org/10.1378/chest.123.2.387.
-
-Carter, Rick, David B. Holiday, Chiagozie Nwasuruba, James Stocks, Carol Grothues, og Brian Tiep. 2003. “6-Minute Walk Work for Assessment of Functional Capacity in Patients with COPD”. Chest 123 (5): 1408–15. https://doi.org/10.1378/chest.123.5.1408.
-
-Rostagno, Carlo, Giuseppe Olivo, Marco Comeglio, Vieri Boddi, Michela Banchelli, Giorgio Galanti, og Gian Franco Gensini. 2003. “Prognostic Value of 6-Minute Walk Corridor Test in Patients with Mild to Moderate Heart Failure: Comparison with Other Methods of Functional Evaluation”. European Journal of Heart Failure 5 (3): 247–52. https://doi.org/10.1016/s1388-9842(02)00244-1.
-
-Gibbons, W. J., N. Fruchter, S. Sloan, og R. D. Levy. 2001. “Reference Values for a Multiple Repetition 6-Minute Walk Test in Healthy Adults Older than 20 Years”. Journal of Cardiopulmonary Rehabilitation 21 (2): 87–93. https://doi.org/10.1097/00008483-200103000-00005.
+- Enright, P. L., og D. L. Sherrill. 1998. “Reference Equations for the Six-Minute Walk in Healthy Adults”. American Journal of Respiratory and Critical Care Medicine 158 (5 Pt 1): 1384–87. <https://doi.org/10.1164/ajrccm.158.5.9710086>.
+- Enright, Paul L. 2003. “The Six-Minute Walk Test”. Respiratory Care 48 (8): 783–85.
+- Enright, Paul L., Mary Ann McBurnie, Vera Bittner, Russell P. Tracy, Robert McNamara, Alice Arnold, Anne B. Newman, og Cardiovascular Health Study. 2003. “The 6-Min Walk Test: A Quick Measure of Functional Status in Elderly Adults”. Chest 123 (2): 387–98. <https://doi.org/10.1378/chest.123.2.387>.
+- Carter, Rick, David B. Holiday, Chiagozie Nwasuruba, James Stocks, Carol Grothues, og Brian Tiep. 2003. “6-Minute Walk Work for Assessment of Functional Capacity in Patients with COPD”. Chest 123 (5): 1408–15. <https://doi.org/10.1378/chest.123.5.1408>.
+- Rostagno, Carlo, Giuseppe Olivo, Marco Comeglio, Vieri Boddi, Michela Banchelli, Giorgio Galanti, og Gian Franco Gensini. 2003. “Prognostic Value of 6-Minute Walk Corridor Test in Patients with Mild to Moderate Heart Failure: Comparison with Other Methods of Functional Evaluation”. European Journal of Heart Failure 5 (3): 247–52. <https://doi.org/10.1016/s1388-9842(02)00244-1>.
+- Gibbons, W. J., N. Fruchter, S. Sloan, og R. D. Levy. 2001. “Reference Values for a Multiple Repetition 6-Minute Walk Test in Healthy Adults Older than 20 Years”. Journal of Cardiopulmonary Rehabilitation 21 (2): 87–93. <https://doi.org/10.1097/00008483-200103000-00005>.

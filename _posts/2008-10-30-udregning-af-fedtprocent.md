@@ -115,10 +115,8 @@ Hvis du vil have et mere præcist bud på din fedtprocent, så kan du kigge på 
 
 ## Referencer om BMI og fedtprocentmåling
 
-Predicting Body Composition in College Students Using the Womersley and Durnin Body Mass Index Equation Jeremy P. Loenneke*1BCDG, MS; Kathryn M. Hirt2CDG, MS; Jacob M. Wilson3CDG, PhD; Jeremy T Barnes4ABDG, PhD; Thomas J Pujol4ABDG, EdD
-
-Evaluation of body fat estimated from body mass index, skinfolds and impedance. A comparative study. BL Heitmann - European journal of clinical nutrition, 1990 - europepmc.org
-
-Duerenberg et al. Body Mass Index as a Measure of Body Fatness: Age- And Sex-Specific Prediction Formulas https://www.ncbi.nlm.nih.gov/pubmed/2043597
+- Loenneke, Jeremy P., Kathryn M. Hirt, Jacob M. Wilson, Jeremy T Barnes, og Thomas J Pujol. 2013. “Predicting Body Composition in College Students Using the Womersley and Durnin Body Mass Index Equation”. Asian Journal of Sports Medicine 4 (2): 153–57. <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3690736/>.
+- Heitmann, B. L. 1990. “Evaluation of Body Fat Estimated from Body Mass Index, Skinfolds and Impedance. A Comparative Study”. European Journal of Clinical Nutrition 44 (11): 831–37.
+- Deurenberg, P., J. A. Weststrate, og J. C. Seidell. 1991. “Body Mass Index as a Measure of Body Fatness: Age- and Sex-Specific Prediction Formulas”. The British Journal of Nutrition 65 (2): 105–14. <https://doi.org/10.1079/bjn19910073>.
 
 {% include feature_row type="left" %}

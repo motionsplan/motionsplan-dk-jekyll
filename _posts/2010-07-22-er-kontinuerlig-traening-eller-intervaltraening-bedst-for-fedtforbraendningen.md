@@ -48,7 +48,7 @@ Uanset hvordan du træner, så gælder det stadig at en [fornuftig diæt kombine
 Referencer
 ----------
 
-- Tabata, I., et al. Effects of moderate-intensity endurance and high-intensity intermittent training on anaerobic capacity and VO2max. Med Sci Sports Exerc. 1996 Oct;28(10):1327-30.
-- Tremblay, A., et al. Impact of exercise intensity on body fatness and skeletal muscle metabolism. Metabolism. 1994 Jul;43(7):814-8.
-- Trapp, EG., et al. The effects of high-intensity intermittent exercise training on fat loss and fasting insulin levels of young women. International Journal of Obesity (2008) 32, 684–691.
-- Jason Talanian, University Of Guelph. "[Interval Training Burns More Fat, Increases Fitness, Study Finds](https://www.sciencedaily.com/releases/2007/06/070627140103.htm)." ScienceDaily 29 June 2007. 18 August 2010
+- Tabata, I., K. Nishimura, M. Kouzaki, Y. Hirai, F. Ogita, M. Miyachi, og K. Yamamoto. 1996. “Effects of Moderate-Intensity Endurance and High-Intensity Intermittent Training on Anaerobic Capacity and VO2max”. Medicine and Science in Sports and Exercise 28 (10): 1327–30.
+- Tremblay, A., J. A. Simoneau, og C. Bouchard. 1994. “Impact of Exercise Intensity on Body Fatness and Skeletal Muscle Metabolism”. Metabolism: Clinical and Experimental 43 (7): 814–18. <https://doi.org/10.1016/0026-0495(94)90259-3>.
+- Trapp, E. G., D. J. Chisholm, J. Freund, og S. H. Boutcher. 2008. “The Effects of High-Intensity Intermittent Exercise Training on Fat Loss and Fasting Insulin Levels of Young Women”. International Journal of Obesity 32 (4): 684–91. <https://doi.org/10.1038/sj.ijo.0803781>.
+- “Interval Training Burns More Fat, Increases Fitness, Study Finds”. u.å. ScienceDaily. <https://www.sciencedaily.com/releases/2007/06/070627140103.htm>.

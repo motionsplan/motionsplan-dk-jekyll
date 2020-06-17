@@ -52,4 +52,4 @@ Validiteten af testen stiger markant, når man kobler en systematisk snakketest 
 
 ## Reference
 
-Okura, T., og K. Tanaka. 2001. “A Unique Method for Predicting Cardiorespiratory Fitness Using Rating of Perceived Exertion”. Journal of Physiological Anthropology and Applied Human Science 20 (5): 255–61. https://doi.org/10.2114/jpa.20.255.
+Okura, T., og K. Tanaka. 2001. “A Unique Method for Predicting Cardiorespiratory Fitness Using Rating of Perceived Exertion”. Journal of Physiological Anthropology and Applied Human Science 20 (5): 255–61. <https://doi.org/10.2114/jpa.20.255>.

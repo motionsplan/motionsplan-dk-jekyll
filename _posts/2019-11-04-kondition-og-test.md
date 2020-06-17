@@ -125,14 +125,14 @@ Du skal vedligeholde din kredsløbsfunktion og derved din kondition hele livet. 
 
 ## Referencer
 
-Padilla, Sabino, Iñigo Mujika, Francisco Angulo, og Juan Jose Goiriena. 2000. “Scientific approach to the 1-h cycling world record: a case study”. Journal of Applied Physiology 89 (4): 1522–27. https://doi.org/10.1152/jappl.2000.89.4.1522.
+Padilla, Sabino, Iñigo Mujika, Francisco Angulo, og Juan Jose Goiriena. 2000. “Scientific approach to the 1-h cycling world record: a case study”. Journal of Applied Physiology 89 (4): 1522–27. <https://doi.org/10.1152/jappl.2000.89.4.1522>.
 
 Mujika, Iñigo. 2012. “The Cycling Physiology of Miguel Indurain 14 Years after Retirement”. International Journal of Sports Physiology and Performance 7 (4): 397–400.
 
-Coyle, Edward F. 2005. “Improved Muscular Efficiency Displayed as Tour de France Champion Matures”. Journal of Applied Physiology (Bethesda, Md.: 1985) 98 (6): 2191–96. https://doi.org/10.1152/japplphysiol.00216.2005.
+Coyle, Edward F. 2005. “Improved Muscular Efficiency Displayed as Tour de France Champion Matures”. Journal of Applied Physiology (Bethesda, Md.: 1985) 98 (6): 2191–96. <https://doi.org/10.1152/japplphysiol.00216.2005>.
 
-Faulkner, John A., Carol S. Davis, Christopher L. Mendias, og Susan V. Brooks. 2008. “The Aging of Elite Male Athletes: Age-Related Changes in Performance and Skeletal Muscle Structure and Function”. Clinical Journal of Sport Medicine: Official Journal of the Canadian Academy of Sport Medicine 18 (6): 501–7. https://doi.org/10.1097/JSM.0b013e3181845f1c.
+Faulkner, John A., Carol S. Davis, Christopher L. Mendias, og Susan V. Brooks. 2008. “The Aging of Elite Male Athletes: Age-Related Changes in Performance and Skeletal Muscle Structure and Function”. Clinical Journal of Sport Medicine: Official Journal of the Canadian Academy of Sport Medicine 18 (6): 501–7. <https://doi.org/10.1097/JSM.0b013e3181845f1c>.
 
-Kolata, Gina. 2005. “Super, Sure, but Not More Than Human”. The New York Times, 24. juli 2005, par. Week in Review. https://www.nytimes.com/2005/07/24/weekinreview/super-sure-but-not-more-than-human.html.
+Kolata, Gina. 2005. “Super, Sure, but Not More Than Human”. The New York Times, 24. juli 2005, par. Week in Review. <https://www.nytimes.com/2005/07/24/weekinreview/super-sure-but-not-more-than-human.html>.
 
-Thomsen, J. J., R. L. Rentsch, P. Robach, J. a. L. Calbet, R. Boushel, P. Rasmussen, C. Juel, og C. Lundby. 2007. “Prolonged Administration of Recombinant Human Erythropoietin Increases Submaximal Performance More than Maximal Aerobic Capacity”. European Journal of Applied Physiology 101 (4): 481–86. https://doi.org/10.1007/s00421-007-0522-8.
+Thomsen, J. J., R. L. Rentsch, P. Robach, J. a. L. Calbet, R. Boushel, P. Rasmussen, C. Juel, og C. Lundby. 2007. “Prolonged Administration of Recombinant Human Erythropoietin Increases Submaximal Performance More than Maximal Aerobic Capacity”. European Journal of Applied Physiology 101 (4): 481–86. <https://doi.org/10.1007/s00421-007-0522-8>.

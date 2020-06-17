@@ -30,4 +30,4 @@ Risikoen for at dø er stigende med alderne, så beregneren giver også en relat
 
 ## Referencer
 
-Janssen, Ian, Peter T. Katzmarzyk, Timothy S. Church, og Steven N. Blair. 2005. “The Cooper Clinic Mortality Risk Index: Clinical Score Sheet for Men”. American Journal of Preventive Medicine 29 (3): 194–203. https://doi.org/10.1016/j.amepre.2005.05.003.
+- Janssen, Ian, Peter T. Katzmarzyk, Timothy S. Church, og Steven N. Blair. 2005. “The Cooper Clinic Mortality Risk Index: Clinical Score Sheet for Men”. American Journal of Preventive Medicine 29 (3): 194–203. <https://doi.org/10.1016/j.amepre.2005.05.003>.

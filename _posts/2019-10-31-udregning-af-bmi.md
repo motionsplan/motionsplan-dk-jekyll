@@ -230,22 +230,15 @@ Endelig kan du dykke lidt ned i din samlede kropskomposition for at få en stør
 
 ### Generelle referencer
 
-Lee, C. D., A. S. Jackson, og S. N. Blair. 1998. “US Weight Guidelines: Is It Also Important to Consider Cardiorespiratory Fitness?” International Journal of Obesity and Related Metabolic Disorders: Journal of the International Association for the Study of Obesity 22 Suppl 2 (august): S2-7.
-
-WHO Consultation on Obesity (1997: Geneva, Switzerland), World Health Organization Division of Noncommunicable Diseases, og Family and Reproductive Health World Health Organization. Programme of Nutrition. 1998. “Obesity: Preventing and Managing the Global Epidemic: Report of a WHO Consultation on Obesity, Geneva, 3-5 June 1997”. https://apps.who.int/iris/handle/10665/63854.
-
-Quetelet, Adolphe. 1835. Sur l’homme et le développement de ses facultés: ou, Essai de physique sociale. Paris: Bachelier, imprimeur-libraire, quai des Augustins, no 55. http://archive.org/details/surlhommeetled00quet.
+- Lee, C. D., A. S. Jackson, og S. N. Blair. 1998. “US Weight Guidelines: Is It Also Important to Consider Cardiorespiratory Fitness?” International Journal of Obesity and Related Metabolic Disorders: Journal of the International Association for the Study of Obesity 22 Suppl 2 (august): S2-7.
+- WHO Consultation on Obesity (1997: Geneva, Switzerland), World Health Organization Division of Noncommunicable Diseases, og Family and Reproductive Health World Health Organization. Programme of Nutrition. 1998. “Obesity: Preventing and Managing the Global Epidemic: Report of a WHO Consultation on Obesity, Geneva, 3-5 June 1997”. <https://apps.who.int/iris/handle/10665/63854>.
+- Quetelet, Adolphe. 1835. Sur l’homme et le développement de ses facultés: ou, Essai de physique sociale. Paris: Bachelier, imprimeur-libraire, quai des Augustins, no 55. <http://archive.org/details/surlhommeetled00quet>.
 
 ### BMI og børn
 
-Cole, Tim J., Katherine M. Flegal, Dasha Nicholls, og Alan A. Jackson. 2007. “Body Mass Index Cut Offs to Define Thinness in Children and Adolescents: International Survey”. BMJ (Clinical Research Ed.) 335 (7612): 194. https://doi.org/10.1136/bmj.39238.399444.55.
-
-Due P, Heitmann BL & Sørensen TIA. Adipositasepidemien i Danmark. Ugeskr Læger 2006;168(2):129
-
-Cole TJ, Bellizi MC, Flegal KM et al. Establishing a standard definition for child overweight and obesity worldwide: international survey. BMJ 2000; 320:240-3.
-
-Hammer, L. D., H. C. Kraemer, D. M. Wilson, P. L. Ritter, og S. M. Dornbusch. 1991. “Standardized Percentile Curves of Body-Mass Index for Children and Adolescents”. American Journal of Diseases of Children (1960) 145 (3): 259–63. https://doi.org/10.1001/archpedi.1991.02160030027015.
-
-Pietrobelli, A., M. S. Faith, D. B. Allison, D. Gallagher, G. Chiumello, og S. B. Heymsfield. 1998. “Body Mass Index as a Measure of Adiposity among Children and Adolescents: A Validation Study”. The Journal of Pediatrics 132 (2): 204–10. https://doi.org/10.1016/s0022-3476(98)70433-0.
-
-The Centers for Disease Control and Prevention (CDC). BMI - Body Mass Index: BMI for Children and Teens.
+- Cole, Tim J., Katherine M. Flegal, Dasha Nicholls, og Alan A. Jackson. 2007. “Body Mass Index Cut Offs to Define Thinness in Children and Adolescents: International Survey”. BMJ (Clinical Research Ed.) 335 (7612): 194. <https://doi.org/10.1136/bmj.39238.399444.55>.
+- Due P, Heitmann BL & Sørensen TIA. Adipositasepidemien i Danmark. Ugeskr Læger 2006;168(2):129
+- Cole TJ, Bellizi MC, Flegal KM et al. Establishing a standard definition for child overweight and obesity worldwide: international survey. BMJ 2000; 320:240-3.
+- Hammer, L. D., H. C. Kraemer, D. M. Wilson, P. L. Ritter, og S. M. Dornbusch. 1991. “Standardized Percentile Curves of Body-Mass Index for Children and Adolescents”. American Journal of Diseases of Children (1960) 145 (3): 259–63. <https://doi.org/10.1001/archpedi.1991.02160030027015>.
+- Pietrobelli, A., M. S. Faith, D. B. Allison, D. Gallagher, G. Chiumello, og S. B. Heymsfield. 1998. “Body Mass Index as a Measure of Adiposity among Children and Adolescents: A Validation Study”. The Journal of Pediatrics 132 (2): 204–10. <https://doi.org/10.1016/s0022-3476(98)70433-0>.
+- The Centers for Disease Control and Prevention (CDC). BMI - Body Mass Index: BMI for Children and Teens.

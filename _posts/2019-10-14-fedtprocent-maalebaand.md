@@ -50,10 +50,7 @@ Algoritmen bag testen er afhængig af køn og alder, så derfor skel du bruge de
 
 {% include feature_row type="left" %}
 
-McArdle; Katch & Katch. Exercise Physiology, 4th ed.
-
-Katch, F. I., og W. D. McArdle. 1973. “Prediction of Body Density from Simple Anthropometric Measurements in College-Age Men and Women”. Human Biology 45 (3): 445–55.
-
-Tran, Z. V., og A. Weltman. 1989. “Generalized Equation for Predicting Body Density of Women from Girth Measurements”. Medicine and Science in Sports and Exercise 21 (1): 101–4. https://doi.org/10.1249/00005768-198902000-00018.
-
-Tran, Z. V., og A. Weltman. 1988. “Predicting Body Composition of Men from Girth Measurements”. Human Biology 60 (1): 167–75.
+- McArdle, William D., og Frank I. Katch. 2010. Essential Exercise Physiology 4th. 4th revised international ed edition. Philadelphia: Lippincott Williams and Wilkins.
+- Katch, F. I., og W. D. McArdle. 1973. “Prediction of Body Density from Simple Anthropometric Measurements in College-Age Men and Women”. Human Biology 45 (3): 445–55.
+- Tran, Z. V., og A. Weltman. 1989. “Generalized Equation for Predicting Body Density of Women from Girth Measurements”. Medicine and Science in Sports and Exercise 21 (1): 101–4. <https://doi.org/10.1249/00005768-198902000-00018>.
+- Tran, Z. V., og A. Weltman. 1988. “Predicting Body Composition of Men from Girth Measurements”. Human Biology 60 (1): 167–75.

@@ -92,14 +92,9 @@ Hvis du gerne vil have en lidt mere avanceret beregner, så kan du finde den på
 
 {% include feature_row type="left" %}
 
-Nordiska næringsrekommendationer 1996. Nordiska ministerrådet. København, 1996.
-
-Waterlow, John C., Nevin S. Scrimshaw, og Beat Schürch. 1996. “Energy and Protein requirements, Proceedings of an IDECG workshop”. Eur J Clin Nutr 50 (februar): 1–197. http://archive.unu.edu/unupress/food2/UID01E/UID01E00.HTM.
-
-World Health Organisation, Fao, and Unu. Energy and protein requirements. Geneva: WHO, Technical Report Series 724, 1985.
-
-Exercise Physiology, McArdle, Katch & Katch, 5th ed
-
-WHO Obesity Guidelines, 2000 - Technical Report Series 894
-
-Schofield, W. N. 1985. “Predicting Basal Metabolic Rate, New Standards and Review of Previous Work”. Human Nutrition. Clinical Nutrition 39 Suppl 1: 5–41.
+- Nordiska næringsrekommendationer 1996. Nordiska ministerrådet. København, 1996.
+- Waterlow, John C., Nevin S. Scrimshaw, og Beat Schürch. 1996. “Energy and Protein requirements, Proceedings of an IDECG workshop”. Eur J Clin Nutr 50 (februar): 1–197. <http://archive.unu.edu/unupress/food2/UID01E/UID01E00.HTM>.
+- World Health Organisation, Fao, and Unu. Energy and protein requirements. Geneva: WHO, Technical Report Series 724, 1985.
+- Exercise Physiology, McArdle, Katch & Katch, 5th ed
+- WHO Obesity Guidelines, 2000 - Technical Report Series 894
+- Schofield, W. N. 1985. “Predicting Basal Metabolic Rate, New Standards and Review of Previous Work”. Human Nutrition. Clinical Nutrition 39 Suppl 1: 5–41.

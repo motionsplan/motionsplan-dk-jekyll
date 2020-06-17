@@ -46,6 +46,6 @@ Hvilke ting spiser du kort efter træning?
 
 ### Referencer
 
-- Anders Ejby: Genvejen til hurtig restitution i Aktiv Træning, nr. 7, jjuli 2011
+- Anders Ejby: Genvejen til hurtig restitution i Aktiv Træning, nr. 7, juli 2011
 
 [![](https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=61735)](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=61735)

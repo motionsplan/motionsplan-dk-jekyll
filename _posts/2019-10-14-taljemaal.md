@@ -96,27 +96,20 @@ I øjeblikket ser det ud til, at talje/højde-målet er det mest brugte mål i d
 
 ### Taljemål
 
-Han, T. S., E. M. van Leer, J. C. Seidell, og M. E. Lean. 1995. “Waist Circumference Action Levels in the Identification of Cardiovascular Risk Factors: Prevalence Study in a Random Sample.” BMJ: British Medical Journal 311 (7017): 1401. https://doi.org/10.1136/bmj.311.7017.1401.
-
-Han, T. S., E. M. van Leer, J. C. Seidell, og M. E. Lean. 1996. “Waist Circumference as a Screening Tool for Cardiovascular Risk Factors: Evaluation of Receiver Operating Characteristics (ROC)”. Obesity Research 4 (6): 533–47. https://doi.org/10.1002/j.1550-8528.1996.tb00267.x.
-
-Dobbelsteyn, C. J., M. R. Joffres, D. R. MacLean, og G. Flowerdew. 2001. “A Comparative Evaluation of Waist Circumference, Waist-to-Hip Ratio and Body Mass Index as Indicators of Cardiovascular Risk Factors. The Canadian Heart Health Surveys”. International Journal of Obesity and Related Metabolic Disorders: Journal of the International Association for the Study of Obesity 25 (5): 652–61. https://doi.org/10.1038/sj.ijo.0801582.
-
-Janssen, Ian, Peter T. Katzmarzyk, og Robert Ross. 2004. “Waist Circumference and Not Body Mass Index Explains Obesity-Related Health Risk”. The American Journal of Clinical Nutrition 79 (3): 379–84. https://doi.org/10.1093/ajcn/79.3.379.
-
-Bray, George A. 2004. “Don’t Throw the Baby out with the Bath Water”. The American Journal of Clinical Nutrition 79 (3): 347–49. https://doi.org/10.1093/ajcn/79.3.347.
+- Han, T. S., E. M. van Leer, J. C. Seidell, og M. E. Lean. 1995. “Waist Circumference Action Levels in the Identification of Cardiovascular Risk Factors: Prevalence Study in a Random Sample.” BMJ: British Medical Journal 311 (7017): 1401. <https://doi.org/10.1136/bmj.311.7017.1401>.
+- Han, T. S., E. M. van Leer, J. C. Seidell, og M. E. Lean. 1996. “Waist Circumference as a Screening Tool for Cardiovascular Risk Factors: Evaluation of Receiver Operating Characteristics (ROC)”. Obesity Research 4 (6): 533–47. <https://doi.org/10.1002/j.1550-8528.1996.tb00267.x>.
+- Dobbelsteyn, C. J., M. R. Joffres, D. R. MacLean, og G. Flowerdew. 2001. “A Comparative Evaluation of Waist Circumference, Waist-to-Hip Ratio and Body Mass Index as Indicators of Cardiovascular Risk Factors. The Canadian Heart Health Surveys”. International Journal of Obesity and Related Metabolic Disorders: Journal of the International Association for the Study of Obesity 25 (5): 652–61. <https://doi.org/10.1038/sj.ijo.0801582>.
+- Janssen, Ian, Peter T. Katzmarzyk, og Robert Ross. 2004. “Waist Circumference and Not Body Mass Index Explains Obesity-Related Health Risk”. The American Journal of Clinical Nutrition 79 (3): 379–84. <https://doi.org/10.1093/ajcn/79.3.379>.
+- Bray, George A. 2004. “Don’t Throw the Baby out with the Bath Water”. The American Journal of Clinical Nutrition 79 (3): 347–49. <https://doi.org/10.1093/ajcn/79.3.347>.
 
 ### Talje/højde-ratio
 
-Lee, Crystal Man Ying, Rachel R. Huxley, Rachel P. Wildman, og Mark Woodward. 2008. “Indices of Abdominal Obesity Are Better Discriminators of Cardiovascular Risk Factors than BMI: A Meta-Analysis”. Journal of Clinical Epidemiology 61 (7): 646–53. https://doi.org/10.1016/j.jclinepi.2007.08.012.
-
-Browning, Lucy M., Shiun Dong Hsieh, og Margaret Ashwell. 2010. “A Systematic Review of Waist-to-Height Ratio as a Screening Tool for the Prediction of Cardiovascular Disease and Diabetes: 0·5 Could Be a Suitable Global Boundary Value”. Nutrition Research Reviews 23 (2): 247–69. https://doi.org/10.1017/S0954422410000144.
+- Lee, Crystal Man Ying, Rachel R. Huxley, Rachel P. Wildman, og Mark Woodward. 2008. “Indices of Abdominal Obesity Are Better Discriminators of Cardiovascular Risk Factors than BMI: A Meta-Analysis”. Journal of Clinical Epidemiology 61 (7): 646–53. <https://doi.org/10.1016/j.jclinepi.2007.08.012>.
+- Browning, Lucy M., Shiun Dong Hsieh, og Margaret Ashwell. 2010. “A Systematic Review of Waist-to-Height Ratio as a Screening Tool for the Prediction of Cardiovascular Disease and Diabetes: 0·5 Could Be a Suitable Global Boundary Value”. Nutrition Research Reviews 23 (2): 247–69. <https://doi.org/10.1017/S0954422410000144>.
 
 ### Talje/hofte-ratio
 
-[The Relationship Between Waist-Hip Ratio and Fertility](https://www.psychologytoday.com/us/blog/beastly-behavior/201706/the-relationship-between-waist-hip-ratio-and-fertility)
-
-Butovskaya, M., A. Sorokowska, M. Karwowski, A. Sabiniewicz, J. Fedenok, D. Dronova, M. Negasheva, E. Selivanova, og P. Sorokowski. 2017. “Waist-to-Hip Ratio, Body-Mass Index, Age and Number of Children in Seven Traditional Societies”. Scientific Reports 7 (1): 1–9. https://doi.org/10.1038/s41598-017-01916-9.
-
-World Health Organization (WHO). Waist Circumference and Waist-Hip Ratio. Report of a WHO Expert Consultation, 2008 - https://apps.who.int/iris/bitstream/handle/10665/44583/9789241501491_eng.pdf;jsessionid=F00FF7FB19FE76C81824CD52AF7FD4D4?sequence=1
+- [The Relationship Between Waist-Hip Ratio and Fertility](https://www.psychologytoday.com/us/blog/beastly-behavior/201706/the-relationship-between-waist-hip-ratio-and-fertility)
+- Butovskaya, M., A. Sorokowska, M. Karwowski, A. Sabiniewicz, J. Fedenok, D. Dronova, M. Negasheva, E. Selivanova, og P. Sorokowski. 2017. “Waist-to-Hip Ratio, Body-Mass Index, Age and Number of Children in Seven Traditional Societies”. Scientific Reports 7 (1): 1–9. <https://doi.org/10.1038/s41598-017-01916-9>.
+- World Health Organization (WHO). Waist Circumference and Waist-Hip Ratio. Report of a WHO Expert Consultation, 2008 - <https://apps.who.int/iris/bitstream/handle/10665/44583/9789241501491_eng.pdf;jsessionid=F00FF7FB19FE76C81824CD52AF7FD4D4?sequence=1>
 

@@ -69,8 +69,7 @@ Der er en formel for hhv. mænd og kvinder.
 
 {% include feature_row id="feature_row_references" type="left" %}
 
-Jackson, A. S., og M. L. Pollock. 2004. “Generalized Equations for Predicting Body Density of Men. 1978”. The British Journal of Nutrition 91 (1): 161–68.
-
-Siri, W. E. 1956. “The Gross Composition of the Body”. Advances in Biological and Medical Physics 4: 239–80. https://doi.org/10.1016/b978-1-4832-3110-5.50011-x.
+- Jackson, A. S., og M. L. Pollock. 2004. “Generalized Equations for Predicting Body Density of Men. 1978”. The British Journal of Nutrition 91 (1): 161–68.
+- Siri, W. E. 1956. “The Gross Composition of the Body”. Advances in Biological and Medical Physics 4: 239–80. <https://doi.org/10.1016/b978-1-4832-3110-5.50011-x>.
 
 {% include feature_row type="left" %}

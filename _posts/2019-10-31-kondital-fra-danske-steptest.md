@@ -46,4 +46,4 @@ Desto mere intensivt arbejdet bliver, desto højere bliver energiomsætningen.
 
 ## Referencer
 
-Aadahl, Mette, Morten Zacho, Allan Linneberg, Betina Thuesen, og Torben Jørgensen. 2012. “Comparison of the Danish step test and the watt-max test for estimation of maximal oxygen uptake: The Health2008 study”. European journal of preventive cardiology 20 (september). https://doi.org/10.1177/2047487312462825.
+- Aadahl, Mette, Morten Zacho, Allan Linneberg, Betina Thuesen, og Torben Jørgensen. 2012. “Comparison of the Danish step test and the watt-max test for estimation of maximal oxygen uptake: The Health2008 study”. European journal of preventive cardiology 20 (september). <https://doi.org/10.1177/2047487312462825>.

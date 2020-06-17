@@ -48,8 +48,5 @@ Jeg har ikke kunnet finde nogle normer for Ponderal Index. Ponderal Index har de
  
 ## Referencer om Ponderal Index
 
-Günther, B. 1975. “Dimensional Analysis and Theory of Biological Similarity”. Physiological Reviews 55 (4): 659–99. https://doi.org/10.1152/physrev.1975.55.4.659.
-
-Der Index der Körperfülle als Maß des Ernährungszustandes
-F. Rohrer
-Münchner Med. Wschr. 68(1921), 580-582
+- Günther, B. 1975. “Dimensional Analysis and Theory of Biological Similarity”. Physiological Reviews 55 (4): 659–99. <https://doi.org/10.1152/physrev.1975.55.4.659>.
+- Der Index der Körperfülle als Maß des Ernährungszustandes. F. Rohrer. Münchner Med. Wschr. 68(1921), 580-582

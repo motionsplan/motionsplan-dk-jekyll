@@ -152,42 +152,17 @@ Hvad er din definition af sundhed?
 
 {% include feature_row id="feature_row_references" type="left" %}
 
-Risikofaktorer og folkesundhed i Danmark
-Knud Juel, Jan Sørensen og Henrik Brønnum-Hansen
-Statens Institut for Folkesundhed, København, juni 2006
-
-YMCA Fitness Testing and Assessment Manual
-4th Edition. 2000. YMCA of the USA
-Lawrence A. Golding, Phd
-
-ACSM’s guidelines for exercise testing and prescription. 7th edition
-American College of Sports Medicine. Lippincott Williams & Wilkins, 2005
-
-Fysisk aktivitet – håndbog om forebyggelse og behandling
-Sundhedsstyrelsen, Center for Forebyggelse. 2003
-
-Measurement and Evaluation in Human Performance, Third Edition
-James R. Morrow, Jr., Allen W. Jackson, James G. Disch, Dale P. Mood
-Human Kinetics 2005
-
-Advanced Fitness Assessment and Exercise Prescription. 5th Edition
-Vivian H. Heyward
-Human Kinetics 2006
-
-Norms for Fitness, Performance, and Health
-Jay Hoffman
-Human Kinetics 2006
-
-Tokmakidis, S. P., L. Léger, D. Mercier, F. Péronnet, og G. Thibault. 1987. “New Approaches to Predict VO2max and Endurance from Running Performances”. The Journal of Sports Medicine and Physical Fitness 27 (4): 401–9.
-
-Cureton TK Jr. Flexibility as an aspect of physical fitness. Research Quarterly Supplement 12 388-390. 1941
-
-Han, T. S., E. M. van Leer, J. C. Seidell, og M. E. Lean. 1995. “Waist Circumference Action Levels in the Identification of Cardiovascular Risk Factors: Prevalence Study in a Random Sample”. BMJ (Clinical Research Ed.) 311 (7017): 1401–5. https://doi.org/10.1136/bmj.311.7017.1401.
-
-Han, T. S., E. M. van Leer, J. C. Seidell, og M. E. Lean. 1996. “Waist Circumference as a Screening Tool for Cardiovascular Risk Factors: Evaluation of Receiver Operating Characteristics (ROC)”. Obesity Research 4 (6): 533–47. https://doi.org/10.1002/j.1550-8528.1996.tb00267.x.
-
-Dobbelsteyn, C. J., M. R. Joffres, D. R. MacLean, og G. Flowerdew. 2001. “A Comparative Evaluation of Waist Circumference, Waist-to-Hip Ratio and Body Mass Index as Indicators of Cardiovascular Risk Factors. The Canadian Heart Health Surveys”. International Journal of Obesity and Related Metabolic Disorders: Journal of the International Association for the Study of Obesity 25 (5): 652–61. https://doi.org/10.1038/sj.ijo.0801582.
-
-Janssen, Ian, Peter T. Katzmarzyk, og Robert Ross. 2004. “Waist Circumference and Not Body Mass Index Explains Obesity-Related Health Risk”. The American Journal of Clinical Nutrition 79 (3): 379–84. https://doi.org/10.1093/ajcn/79.3.379.
-
-Bray, George A. 2004. “Don’t Throw the Baby out with the Bath Water”. The American Journal of Clinical Nutrition 79 (3): 347–49. https://doi.org/10.1093/ajcn/79.3.347.
+- Sørensen, Jan, Knud Juel, Henrik Brønnum-Hansen, Danmark, Sundhedsstyrelsen, Danmark, og Statens Institut for Folkesundhed. 2008. Risikofaktorer og folkesundhed i Danmark. Kbh.: Statens Institut for Folkesundhed. <https://www.sst.dk/da/udgivelser/2006/~/media/762BA0CB12714748810B93946E95730F.ashx>.
+- Golding, Lawrence A., red. 2000. Ymca Fitness Testing and Assessment Manual. 4 edition. Champaign, Ill.: Human Kinetics.
+- Ferguson, Brad. 2014. “ACSM’s Guidelines for Exercise Testing and Prescription 9th Ed. 2014”. The Journal of the Canadian Chiropractic Association 58 (3): 328. <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4139760/>.
+- “Fysisk-aktivitet - håndbog om forebyggelse og behandling”. 2018. Sundhedsstyrelsen, Center for Forebyggelse. <https://www.sst.dk/-/media/Udgivelser/2018/Fysisk-aktivitet-h%C3%A5ndbog-og-tr%C3%A6ning/Fysisk-aktivitet-%E2%80%93-h%C3%A5ndbog-om-forebyggelse-og-behandling.ashx>.
+- Morrow, James R., Allen W. Jackson, James G. Disch, og Dale P. Mood. 2005. Measurement And Evaluation In Human Performance. 3 edition. Champaign, IL: Human Kinetics.
+- Heyward, Vivian H. 2006. Advanced Fitness Assessment and Exercise Prescription. 5th edition. Champaign, IL: Human Kinetics Europe Ltd.
+- Hoffman, Jay. 2006. Norms for Fitness, Performance, and Health. Human Kinetics.
+- Tokmakidis, S. P., L. Léger, D. Mercier, F. Péronnet, og G. Thibault. 1987. “New Approaches to Predict VO2max and Endurance from Running Performances”. The Journal of Sports Medicine and Physical Fitness 27 (4): 401–9.
+- Cureton, Thomas Kirk. 1941. “Flexibility as an Aspect of Physical Fitness”. Research Quarterly. American Association for Health, Physical Education and Recreation 12 (sup2): 381–90. <https://doi.org/10.1080/10671188.1941.10624692>.
+- Han, T. S., E. M. van Leer, J. C. Seidell, og M. E. Lean. 1995. “Waist Circumference Action Levels in the Identification of Cardiovascular Risk Factors: Prevalence Study in a Random Sample”. BMJ (Clinical Research Ed.) 311 (7017): 1401–5. <https://doi.org/10.1136/bmj.311.7017.1401>.
+- Han, T. S., E. M. van Leer, J. C. Seidell, og M. E. Lean. 1996. “Waist Circumference as a Screening Tool for Cardiovascular Risk Factors: Evaluation of Receiver Operating Characteristics (ROC)”. Obesity Research 4 (6): 533–47. <https://doi.org/10.1002/j.1550-8528.1996.tb00267.x>.
+- Dobbelsteyn, C. J., M. R. Joffres, D. R. MacLean, og G. Flowerdew. 2001. “A Comparative Evaluation of Waist Circumference, Waist-to-Hip Ratio and Body Mass Index as Indicators of Cardiovascular Risk Factors. The Canadian Heart Health Surveys”. International Journal of Obesity and Related Metabolic Disorders: Journal of the International Association for the Study of Obesity 25 (5): 652–61. <https://doi.org/10.1038/sj.ijo.0801582>.
+- Janssen, Ian, Peter T. Katzmarzyk, og Robert Ross. 2004. “Waist Circumference and Not Body Mass Index Explains Obesity-Related Health Risk”. The American Journal of Clinical Nutrition 79 (3): 379–84. <https://doi.org/10.1093/ajcn/79.3.379>.
+- Bray, George A. 2004. “Don’t Throw the Baby out with the Bath Water”. The American Journal of Clinical Nutrition 79 (3): 347–49. <https://doi.org/10.1093/ajcn/79.3.347>.
