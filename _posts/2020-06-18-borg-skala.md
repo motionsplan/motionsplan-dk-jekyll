@@ -130,6 +130,5 @@ Hvis du vil teste dig selv med en cykelergometer test, der bygger på Borg-skala
 
 ## Referencer
 
-Borg G.
-Perceived exertion as an indicator of somatic stress.
-Scand J Rehabil Med. 1970;2(2):92-8.
+- Borg, G. 1970. “Perceived Exertion as an Indicator of Somatic Stress”. Scandinavian Journal of Rehabilitation Medicine 2 (2): 92–98.
+- Borg, G. 1990. “Psychophysical Scaling with Applications in Physical Work and the Perception of Exertion.” Scandinavian Journal of Work, Environment & Health 16: 55–58. <https://doi.org/10.5271/sjweh.1815>.

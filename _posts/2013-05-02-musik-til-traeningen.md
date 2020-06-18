@@ -156,3 +156,6 @@ Jeg laver så mit træningsprogram her på motionsplan, hvor jeg let kan skrive 
 
 ## Referencer
 
+- Centala, Jacob, Cameron Pogorel, Scott W. Pummill, og Moh H. Malek. 2020. “Listening to Fast-Tempo Music Delays the Onset of Neuromuscular Fatigue”. Journal of Strength and Conditioning Research 34 (3): 617–22. <https://doi.org/10.1519/JSC.0000000000003417>.
+- Eliakim, Michal, Ehud Bodner, Alon Eliakim, Dan Nemet, og Yoav Meckel. 2012. “Effect of Motivational Music on Lactate Levels during Recovery from Intense Exercise”. Journal of Strength and Conditioning Research 26 (1): 80–86. <https://doi.org/10.1519/JSC.0b013e31821d5f31>.
+- Lee, Sam, og Derek S. Kimmerly. 2016. “Influence of Music on Maximal Self-Paced Running Performance and Passive Post-Exercise Recovery Rate”. The Journal of Sports Medicine and Physical Fitness 56 (1–2): 39–48.
