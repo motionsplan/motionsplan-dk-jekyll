@@ -3,8 +3,8 @@ title: "Musik til træningen: Hvordan finder du de bedste sange?"
 permalink: /artikel/musik-til-træningen
 language: da
 header:
-  overlay_image: /assets/images/blog/musik-til-traeningen.jpg
-  teaser: /assets/images/blog/musik-til-traeningen.jpg
+  overlay_image: https://images.unsplash.com/photo-1514994806776-144805fdde34?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80
+  teaser: https://images.unsplash.com/photo-1514994806776-144805fdde34?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
 tags:
   - gode råd
   - træningsplanlægning
@@ -82,29 +82,31 @@ Hvis du skal lave et opvarmningsprogram, der passer til musik, og hvor musikken 
 
 Når musikken mere skal bruges som baggrundsmotivation, så er det vigtigst, at du finder musik i et passende tempo.
 
-Her er nogle eksempler.
+## Eksempler på musik til din træning
 
-#### Sving --- 70 bpm --- Timbaland - 2 man show
+Her er nogle eksempler på musikstykker i forskellig tempo.
+
+#### Sving: 70 bpm --- Timbaland - 2 man show
 
 <iframe src="https://open.spotify.com/embed?uri=spotify%3Atrack%3A5wsENdyZpOv7w7Jc5ehkUC" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-#### Styrkeøvelser --- 85 bpm --- Arctic Monkeys - Do I Wanna Know?
+#### Styrkeøvelser: 85 bpm --- Arctic Monkeys - Do I Wanna Know?
 
 <iframe src="https://open.spotify.com/embed?uri=spotify%3Atrack%3A5FVd6KXrgO9B3JPmC8OPst" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-#### Gang --- 105 bpm --- Gang: Kongos - Come With Me Now
+#### Gang: 105 bpm --- Gang: Kongos - Come With Me Now
 
 <iframe src="https://open.spotify.com/embed?uri=spotify%3Atrack%3A2kWowW0k4oFymhkr7LmvzO" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-#### Gang og Hop --- 117 bpm --- Estelle - American Boy
+#### Gang og Hop: 117 bpm --- Estelle - American Boy
 
 <iframe src="https://open.spotify.com/embed?uri=spotify%3Atrack%3A3doSc40sdXfuwHV9mnJbhH" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-#### Løb --- 160 bpm --- Pharrell Williams - Happy
+#### Løb: 160 bpm --- Pharrell Williams - Happy
 
 <iframe src="https://open.spotify.com/embed?uri=spotify%3Atrack%3A60nZcImufyMA1MKQY3dcCH" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-#### Udstrækning --- 76 bpm --- Ed Sheeran - I See Fire
+#### Udstrækning: 76 bpm --- Ed Sheeran - I See Fire
 
 <iframe src="https://open.spotify.com/embed?uri=spotify%3Atrack%3A3B7udSGy2PfgoCniMSb523" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
@@ -126,7 +128,7 @@ Hvis jeg laver intervaltræning, så gider jeg ikke stå og tage tid og fløjte,
 
 Jeg har af flere omgange siddet og mikset min egen musik, så jeg bare kan sætte træningen i gang, og der i musikken er indikationer på, hvornår øvelsen skal skifte. Ulempen er at det tager en masse tid, og at det enkelte mix kun virker til netop en tidsangivelse. Endelig så er det sjældent at man får fornyet sine mix, når de først er lavet - og jeg har da fået en klage eller to over musikvalget i min tid som underviser.
 
-### Nu bruger jeg en app til at tage tid
+### En app til at tage tid til træning
 
 Jeg har fundet en app, jeg godt kan lide at bruge. Den er gratis og hedder [Interval timer](https://play.google.com/store/apps/details?id=cc.dreamspark.intervaltimer&hl=da) (dog med reklamer) fra Google Play Store. Her kan jeg selv sætte intervallerne op, som jeg gerne vil have dem. Så kan jeg spille musik fra fx Spotify eller Google Play Music i baggrunden, og så bipper app’en, når intervallerne er gået. På IOS så ved jeg mange er glade for en app af samme navn: [Interval timer](https://apps.apple.com/us/app/interval-timer-hiit-workouts/id406473568).
 
