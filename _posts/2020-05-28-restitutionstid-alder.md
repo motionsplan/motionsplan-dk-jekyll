@@ -16,9 +16,9 @@ last_modified_at: 2020-05-28T08:14:14Z
 toc: true
 ---
 
-Jeg kan godt lide at træne, men jeg vil stadig gerne gøre det så effektivt som muligt. Hvis jeg gerne vil bygge kroppen op, skal jeg finde en balance mellem at træne for lidt og træne for meget. Defor tænker jeg over, hvordan jeg planlægger min træning.
+Jeg kan godt lide at træne, men jeg vil stadig gerne gøre det så effektivt som muligt, så jeg også tager højde for restitutionstiden. Hvis jeg gerne vil bygge kroppen op, skal jeg finde en balance mellem træningen og restitutionen. Defor tænker jeg over, hvordan jeg planlægger min træning i forhold til min alder.
 
-Jeg begyndte derfor at _researche_ lidt på, hvordan det ser ud med restitutionstiden, og hvilken betydning alderen har for restitutionen.
+Jeg begyndte derfor at _researche_ lidt på, hvordan det ser ud med restitutionstiden, og hvilken betydning alderen har for restitutionen?
 
 **Restitutionstiden afhænger af den aktivitet, du laver. Hvis du har trænet rigtig hårdt, så vil restitutionstiden være længere end efter en lettere træning. Restitutionstiden afhænger også af din nuværende form, og hvad du laver ud over træningen. Din søvn og kost spiller også ind på restitutionstiden. Endelig spiller det samlede stress på kroppen i perioden også ind. Alderen har også betydning for restitutionstiden.**
 
