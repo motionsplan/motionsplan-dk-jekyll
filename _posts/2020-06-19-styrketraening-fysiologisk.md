@@ -122,7 +122,7 @@ Per Aagaard (2009) har lavet følgende [liste]((http://web.archive.org/web/20110
 
 Hvis du foretrækker at se en video om emnet, så kan du kigge her.
 
-{% include video provider=youtube id=5TAN-o_7Miw %}
+{% include video provider="youtube" id="5TAN-o_7Miw" %}
 
 For begyndere og lettere trænede, så kan du formentlig udnytte et stort spektrum af _rep ranges_ for at få de neurale fordele. Det afgørende er, at du løfter stangen med _maximal intent_ - altså så hurtigt som du overhovedet kan. Så som begynder og lettere trænet kan du tilegne dig neurale forbedringer fra **1-12 RM**.
 
