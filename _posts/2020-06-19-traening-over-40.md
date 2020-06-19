@@ -138,6 +138,4 @@ Når man har taget hensyn til træningserfaring og sundhedstilstand, så er der 
 
 ## Referencer
 
-J Strength Cond Res. 2009 Oct;23(7):1915-20.
-Association of age with muscle size and strength before and after short-term resistance training in young adults. Lowndes J, Carpenter RL, Zoeller RF, Seip RL, Moyna NM, Price TB, Clarkson PM, Gordon PM, Pescatello LS, Visich PS, Devaney JM, Gordish-Dressman H, Hoffman EP, Thompson PD, Angelopoulos TJ.
-Source: Center for Lifestyle Medicine and Department of Health Professions, University of Central Florida, Orlando, Florida 32826, USA.
+- Lowndes, Joshua, Richard L. Carpenter, Robert F. Zoeller, Richard L. Seip, Naill M. Moyna, Thomas B. Price, Priscilla M. Clarkson, m.fl. 2009. “Association of Age with Muscle Size and Strength before and after Short-Term Resistance Training in Young Adults”. Journal of Strength and Conditioning Research 23 (7): 1915–20. <https://doi.org/10.1519/JSC.0b013e3181b94b35>.

@@ -1,5 +1,5 @@
 ---
-title: "Hvad er de fysiologiske tilpasninger ved styrketræning"
+title: "Hvad er de fysiologiske tilpasninger ved styrketræning?"
 permalink: /fysiologiske-tilpasninger/
 language: da
 header:

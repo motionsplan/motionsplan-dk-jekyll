@@ -35,6 +35,8 @@ Fordelen med Borg 15-testen er, at den ikke ikke tager udgangspunkt i en anslåe
 
 {% include figure image_path="https://hjerteforeningen.dk/wp-content/uploads/sites/14/2018/02/borg-skala-dorthe-768x1086.jpg" caption="Borg-skalaen" alt="Borg-skalaen" %}
 
+Jeg har skrevet en mere [udførlig artikel om selve Borg-skalaen, hvor du også kan downloade Borgskalaen](/borg/).
+
 ## Lav testen
 
 {% include calculate-fitness-borg15.html %}
