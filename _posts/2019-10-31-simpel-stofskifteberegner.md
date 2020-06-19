@@ -21,12 +21,6 @@ feature_row:
     btn_class: "btn--success"
 ---
 
-*[BMR]: Kroppens hvilestofskifte (basic metabolic rate)
-*[PAL]: Fysisk aktivitetsniveau (Physical Acitivity Level)
-*[FIT]: Fødevare induceret termogenese
-*[TEE]: Total energiomsætning
-*[kJ]: KiloJoule
-
 Jeg har lavet en beregner, hvor du kan udregne dit stofskifte og dit daglige energiforbrug på baggrund af dit hvilestofskifte og fysiske aktivitetsniveau. Jeg synes det er interessant at udregne, hvad mit hvilestofskifte er i forhold min fysiske aktivitet for at se, hvad mit omtrentlige daglige energibehov er.
 
 **Stofskiftet består af 3 hovedkomponenter: hvilestofskiftet (BMR), fødeinduceret termogenese (FIT) og fysisk aktivitet (PAL).**
@@ -93,6 +87,12 @@ Eksempel: kvinden fra eks. 1. arbejder på et kontor hvor de ikke bevæger sig m
 Hvis du gerne vil have en lidt mere avanceret beregner, så kan du finde den på  [Motion-online.dk](https://web.archive.org/web/20160604213227/http://www.motion-online.dk/sundhed_og_vaegt/sundhed_generelt/beregn_dit_energiforbrug/)
 
 [Avanceret BMR beregner](https://www.health-calc.com/diet/energy-expenditure-advanced){: .btn .btn--large .btn--success }
+
+*[BMR]: Kroppens hvilestofskifte (basic metabolic rate)
+*[PAL]: Fysisk aktivitetsniveau (Physical Acitivity Level)
+*[FIT]: Fødevare induceret termogenese
+*[TEE]: Total energiomsætning
+*[kJ]: KiloJoule
 
 ## Referencer
 

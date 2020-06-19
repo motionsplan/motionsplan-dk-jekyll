@@ -14,9 +14,9 @@ tags:
 last_modified_at: 2019-11-14T09:21:56Z
 ---
 
-*[KISS]: Keep It Simple Stupid
-
 For at opbygge et godt styrketræningsprogram, er der en række faktorer du kan overveje. Hvis du for alvor vil finde ud af, hvad der virker, så kan det være en fordel at gøre det så enkelt som muligt (KISS). Derudover er det også en rigtig god ide at logge din træning, så du kan spore fremgang eller tilbagegang i træningen.
+
+*[KISS]: Keep It Simple Stupid
 
 {% include figure image_path="https://chebellainteriors.com/wp-content/uploads/2019/08/Simple-but-significant.jpg" alt="Make it simple but significant" %}
 

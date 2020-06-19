@@ -27,9 +27,11 @@ feature_row:
     btn_class: "btn--success"
 ---
 
-*[1RM]: One Repetition Maximum
+Du kan bruge tests undervejs i din træning for at sikre dig, at styrketræningsprogrammet passer til dig. Jeg har her undersøgt lidt forskellige måder at lave tests i træningen på.
 
-Der er rigtig mange måder at styrketræne på, men fælles for dem alle er, at hensigten er at blive stærkere. For at få fremgang skal man naturligvis træne, men der skal også være progression i træningen. Du kan bruge tests til at sikre dig, at din træning rent faktisk virker.
+Der er rigtig mange måder at lave programmer til styrketræning på, men fælles for dem alle er, at hensigten er at blive stærkere. For at få fremgang skal man naturligvis træne, men der skal også være progression i træningen. Du kan bruge tests til at sikre dig, at din træning rent faktisk virker.
+
+*[1RM]: One Repetition Maximum
 
 ## Hvordan kan jeg sikre progression?
 

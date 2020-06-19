@@ -1,7 +1,6 @@
 ---
 title: "Intensitetens betydning for forbedring af VO2max"
 permalink: /intensitet-vo2max/
-excerpt: ""
 language: da
 header:
   overlay_image: https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/young-woman-jogging-royalty-free-image-936156826-1548705024.jpg
@@ -14,10 +13,6 @@ tags:
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 ---
-
-*[SAID]: Specific Adaptations to Imposed Demands
-*[LSD]: Long Slow Distance
-*[LT]: Lactate Threshold
 
 Kredsløbet består af flere forskellige afhængige systemer. Hvis man gerne vil forbedre den maksimale tiloptagelse (VO<sub>2</sub>max), så skal man arbejde i nærheden af den maksimale iltoptagelse. Det er ikke så overraskende ud fra specificitetsprincippet (SAID).
 
@@ -63,6 +58,10 @@ Det er også lidt overraskende, at slagvolumen (SV) ikke blev forbedret i gruppe
 ## Konklusion
 
 Det bedste råd i øjeblikket er formentligt, at man skal huske at ramme sit energisystem bredt i sin træning. Hvis du vil flytte VO<sub>2</sub>max, skal du formentlig også lave intervaller med høj intensitet.
+
+*[SAID]: Specific Adaptations to Imposed Demands
+*[LSD]: Long Slow Distance
+*[LT]: Lactate Threshold
 
 ## Reference
 

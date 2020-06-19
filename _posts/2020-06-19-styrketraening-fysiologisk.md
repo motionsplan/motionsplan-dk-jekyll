@@ -38,11 +38,7 @@ feature_row:
     btn_class: "btn--success"
 ---
 
-*[RM]: Repetition Maximum
-*[BMD]: Bone Mass Density
-*[EMG]: Electro Myo Gram
-
-Når man styrketræner bliver du stærkere og dine muskler vokser. Jeg synes det er spændende at vide, hvilke fysiologiske tilpasninger, der egentlig sker ved styrketræning, så det har jeg undersøgt.
+Når man styrketræner bliver du stærkere og dine muskler vokser, fordi der sker nogle fysiologiske ændringer i musklerne. Jeg synes, det er spændende at vide, hvilke fysiologiske tilpasninger, der egentlig sker ved styrketræning, så det har jeg undersøgt.
 
 **Styrketræning har flere fysiologiske tilpasninger. Der sker både tilpasninger i nerveystemet, i musklerne og i knogle- og senevævet. Man kan opdele ændringerne i morfologiske tilpasninger, neurale tilpasninger og metaboliske tilpasninger.**
 
@@ -249,6 +245,10 @@ Det er vigtigt at huske på, at _rep ranges_ er en tommelfingerregel i forhold t
 Tidligere har vi skrevet en artikel, der handler om, [hvordan muskler vokser]({% link _posts/2019-10-22-hvordan-vokser-muskler.md %}), som giver nogle praktiske anvisninger på, hvordan du kan træne for muskeltilvækst.
 
 Vi har skrevet et andet indlæg om [de fysiologiske tilpasningerne til konditionstræning]({% link _posts/2020-05-31-tilpasning-konditionstraening.md %}).
+
+*[RM]: Repetition Maximum
+*[BMD]: Bone Mass Density
+*[EMG]: Electro Myo Gram
 
 ## Referencer
 
