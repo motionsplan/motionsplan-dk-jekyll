@@ -136,7 +136,7 @@ Vi har skrevet mere om [hvordan muskler vokser, hvis du er interesseret]({% link
 
 Det er klart lettest at bygge muskelmasse op i starten af ens styrketræningskarriere, og det bliver stadig vanskeligere og vanskeligere. Du kan formentlig bygge helt op til 10 kg muskelmasse på i løbet af det første år, hvis du gør alt rigtigt. Det følgende år er den mængde muskel allerede halveret. Det ser ud til, at responset er klart størst de første 12-18 uger.
 
-Hvis du vil kende nogle af de fysiologiske tilpasninger, der sker ved styrketræning, så tjek [dette indlæg]({% link _posts/ %}).
+Hvis du vil kende nogle af de fysiologiske tilpasninger, der sker ved styrketræning, så tjek [dette indlæg]({% link _posts/2020-06-19-styrketraening-fysiologisk.md %}).
 
 ## Referencer
 

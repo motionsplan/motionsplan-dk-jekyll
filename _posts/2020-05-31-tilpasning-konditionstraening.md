@@ -168,4 +168,12 @@ Jeg synes denne video forklarer tilpasningerne ved konditionstræning på en god
 
 Jeg har skrevet en grundig artikel om, [hvordan du tester dit kondital med og uden udstyr](/kondition-og-test/), og jeg har også skrevet om, [hvad et godt kondital er](/kondital/). Her kan du sammenligne dit kondital med normer og eliteatleter.
 
+Vi har også skrevet et indlæg, der handler om [fysiologiske tilpasninger til styrketræning]({% link _posts/2020-06-19-styrketraening-fysiologisk.md %}).
+
 Hvis du vil lære mere om fysiologi og arbejdsfysiologi, så har [Saxo rigtig mange gode bøger om emnet\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/products/search?query=fysiologi).
+
+## Referencer
+
+- Leveritt, M., H. MacLaughlin, og P. J. Abernethy. 2000. “Changes in Leg Strength 8 and 32 h after Endurance Exercise”. Journal of Sports Sciences 18 (11): 865–71. <https://doi.org/10.1080/026404100750017797>.
+- Trappe, Scott, Matthew Harber, Andrew Creer, Philip Gallagher, Dustin Slivka, Kiril Minchev, og David Whitsett. 2006. “Single Muscle Fiber Adaptations with Marathon Training”. Journal of Applied Physiology (Bethesda, Md.: 1985) 101 (3): 721–27. <https://doi.org/10.1152/japplphysiol.01595.2005>.
+- Wenger, H. A., og G. J. Bell. 1986. “The Interactions of Intensity, Frequency and Duration of Exercise Training in Altering Cardiorespiratory Fitness”. Sports Medicine (Auckland, N.Z.) 3 (5): 346–56. <https://doi.org/10.2165/00007256-198603050-00004>.
