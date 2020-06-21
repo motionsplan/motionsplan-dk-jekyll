@@ -13,7 +13,7 @@ category:
 last_modified_at: 2013-02-13T21:40:51Z
 ---
 
-Rigtig mange træner ikke deres baglårsmuskler tilstrækkeligt. Det øger risikoen for skader og nedsætter præstationspotentialet, så næste gang du går i styrkerummet starter træningen.
+Rigtig mange træner ikke deres baglårsmuskler tilstrækkeligt. Træner du dine haser? Det øger risikoen for skader og nedsætter præstationspotentialet, så næste gang du går i styrkerummet starter træningen af haserne.
 
 ## Tager dit program højde for følgende?
 

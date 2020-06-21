@@ -62,7 +62,7 @@ Som på alle andre indirekte submaksimale tests er der usikkerheder forbundet me
 
 De målte pulsværdier plottes ind i et koordinatsystem mod de tilhørende arbejdsbelastninger. Herefter forlænges (ekstrapolereres) linjen op til maxpulsen og den anslåede "maksimale aerobe arbejdsbelastning" aflæses.
 
-{% include figure image_path="https://web.archive.org/web/20070322002756im_/http://www.motion-online.dk/images/vo2/to_punktstest.gif" %}
+{% include figure image_path="https://web.archive.org/web/20070322002756im_/http://www.motion-online.dk/images/vo2/to_punktstest.gif" alt="Åstrands nomogram til topunktstesten" %}
 
 Dette kan også skrives som en formel:
 

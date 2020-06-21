@@ -38,7 +38,7 @@ feature_row:
     btn_class: "btn--success"
 ---
 
-Når man styrketræner bliver du stærkere og dine muskler vokser, fordi der sker nogle fysiologiske ændringer i musklerne. Jeg synes, det er spændende at vide, hvilke fysiologiske tilpasninger, der egentlig sker ved styrketræning, så det har jeg undersøgt.
+Når man styrketræner bliver du stærkere og dine muskler vokser, fordi der sker nogle fysiologiske ændringer i musklerne. Jeg synes, det er spændende at vide, hvad effekten er og hvilke fysiologiske tilpasninger, der egentlig sker ved styrketræning, så det har jeg undersøgt.
 
 **Styrketræning har flere fysiologiske tilpasninger. Der sker både tilpasninger i nerveystemet, i musklerne og i knogle- og senevævet. Man kan opdele ændringerne i morfologiske tilpasninger, neurale tilpasninger og metaboliske tilpasninger.**
 

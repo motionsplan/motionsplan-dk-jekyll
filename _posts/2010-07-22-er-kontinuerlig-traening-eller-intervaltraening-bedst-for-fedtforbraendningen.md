@@ -11,8 +11,10 @@ tags:
   - fedttab
 category:
   - Konditionstræning
-last_modified_at: 2019-11-07T08:34:44Z
+last_modified_at: 2020-06-07T08:34:44Z
 ---
+
+Jeg har sat mig ned for at undersøge, om det er kontinuerlig træning eller intervaltræning, der er bedst for fedtforbrændingen?
 
 Vi har lært, at vi skal [glemme fedtforbrændingszonen](http://www.motion-online.dk/glem-fedtforbraendingszonen/) og holde en så høj intensitet, som vi kan holde til under træningen. Det gælder om at finde et passende forhold mellem træningstid og intensitet, så man kan nå at restitutere, men man skal ikke lægge bånd på sig selv for at ramme en bestemt intensitet, fordi den giver en større fedtforbrænding.
 
