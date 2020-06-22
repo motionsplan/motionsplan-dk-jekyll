@@ -131,7 +131,9 @@ Hvis du vil være sikker på at musklerne er helt klar til at kraftudvikle maksi
 
 Hvis du gerne vil træne begge ting på en dag, men ikke kan vente 8 timer, så kan du formentlig få en forbedret effekt af din træning, hvis du holder en pause på mindst 15 minutter mellem de to træningsformer, hvor du kan sikre dig, at du har fyldt energidepoterne op.
 
-## Hvad gør jeg så, hvis jeg vil kombinere styrketræning og løbetræning?
+## Hvad gør jeg så, hvis jeg vil kombinere styrketræning, konditionstræning og løbetræning?
+
+{% include video provider="youtube" id="qrkxcOtScvQ" %}
 
 Så hvis formålet er at komme til at løbe hurtigere eller forbedre kraftudviklingen, så ser det ud til, at det er bedst at lægge styrketræningen efter konditionstræningen (Chtara 2005; Paavolainen et al 1999). 
 

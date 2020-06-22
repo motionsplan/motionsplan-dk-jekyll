@@ -1,7 +1,6 @@
 ---
-title: "German volume training - hypertrofiprogram"
+title: "German Volume Training: Virker GVT til hypertrofi?"
 permalink: /gvt/
-excerpt: "Brutalt program med fokus på hypertrofi ved en høj volumen med 10 x 10 i store helkropsøvelser."
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1534367610401-9f5ed68180aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
@@ -14,10 +13,16 @@ last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 ---
 
+Jeg har undersøgt, hvor godt styrketræningsprogrammet German Volume Training (GVT) for at skabe hypertrofi, når man styrketræner. Samtidig har jeg kigget lidt på baggrunden for GVT.
+
+**German Volume Training (GVT) er et brutalt styrketræningsprogram med fokus på en høj volumen med 10 sæt x 10 gentagelser i store helkropsøvelser med en vægt der svarer til ~60% af 1RM eller en 20RM. Alle gentagelser skal laves med 401 i tempo. Rationalet bag den høje volumen er for at skabe metabolisk stress og mekanisk spænding i musklerne, der skal skalbe muskelvækst.**
+
+German Volume Training er et styrketræningsprogram for moderat trænede (for utrænede er en så høj træningsvolumen langt over det optimale), der ønsker muskelhypertrofi. I GVT laver man 10sæt med 10 gentagelser i store basisøvelser med langsomme og kontrollerede bevægelser med stort bevægeudslag. Hemmeligheden er, at musklerne har en lang _time under tension (TUT)_, og at man opnår høj muskeludmattelse.
+
 *[GVT]: German Volume Training
 *[TUT]: Time under tension
 
-German Volume Training er et styrketræningsprogram for moderat trænede (for utrænede er en så høj træningsvolumen langt over dptimale), der ønsker muskelhypertrofi. I GVT laver man 10sæt med 10 gentagelser i store basisøvelser med langsomme og kontrollerede bevægelser med stort bevægeudslag. Hemmeligheden er, at musklerne har en lang _time under tension (TUT)_, og at man opnår høj muskeludmattelse.
+## Grundstrukturen i German Volume Training
 
 Grundstrukturen i programmet er, at det køres over fem dage med et forskelligt fokus hver dag. Der vælges en eller to A-øvelser, som køres efter metoden. Dertil vælges to suppleringsøvelser. Programmet kræver restitution, da det er meget nedbrydende for kroppen.
 
@@ -39,13 +44,17 @@ Du kan finde forskellige bud på GVT-programmer rundt omkring på nettet, men du
 | 3x15         | Arnold press | Lunges      |     |                 |     |
 |              |              | Hamstrings  |     |                 |     |
 
-## For høj volumen?
+## Er det nødvendigt med GVTs høje volumen?
 
 Amirthalingam et al (2017) fandt i et 6 ugers træningsstudium med tre træninger om ugen, at 5x10 virkede bedre ift. armstørrelse, lat pulldowns og bænkpres end 10x10. I dette studium viste ingen af studierne muskelforstørrelse i benene, hvilket måske skyldes at de fik alt for høj volumen.
 
 > "To maximize hypertrophic training effects, it is recommended that 4-6 sets per exercise be performed, as it seems gains will plateau beyond this set range and may even regress due to overtraining."
 
 ---<cite>Amirthalingam et al (2017)</cite>
+
+Hackett et al (2018) udvider ovenstående studium med seks uger mere. Desværre havde studiet så få deltagere, at de ikke kunne sige yderligere. Så deres oprindelige anbefaling med 4-6 sæt for muskelhypertrofi står stadig ved magt.
+
+{% include video provider="youtube" id="iiQK-P_KWLA" %}
 
 ## Referencer
 
@@ -56,3 +65,9 @@ Amirthalingam et al (2017) fandt i et 6 ugers træningsstudium med tre træninge
 - [GVT fizzles out](https://www.t-nation.com/training/tip-german-volume-training-fizzles-out)
 
 Amirthalingam, Theban; Mavros, Yorgi; Wilson, Guy C.; Clarke, Jillian L.; Mitchell, Lachlan; Hackett, Daniel A. "Effects of a Modified German Volume Training Program on Muscular Hypertrophy and Strength. " Journal of Strength & Conditioning Research: November 2017, Volume 31, Issue 11, pp. 3109–3119.
+
+Hackett et al. 2018: Effects of a 12-Week Modified German Volume Training Program on Muscle Strength and Hypertrophy - A Pilot study.
+
+The Effects of German Volume Training on Lean Muscle Mass and Strength and Power Characteristics in Elite Wild-Water Canoeists
+
+https://strengthandconditioning.org/index.php?option=com_content&view=article&id=1559&Itemid=512
