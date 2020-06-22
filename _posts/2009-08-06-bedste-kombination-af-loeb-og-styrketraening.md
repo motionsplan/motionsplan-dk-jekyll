@@ -109,7 +109,7 @@ Resultaterne fra Karavirta et al (2011) indikerer altså, at udholdenhedstrænin
 
 ## HIIT kombineret med styrketræning
 
-Sabag et al (2018) konkluderer i deres meta-review af 14 studier, at det ikke ser ud til at HIIT har en negativ effekt på muskelstyrke og hypertrofi. De fandt i deres meta-analyse, at cykling så ud til at have en negativ effekt på styrken i benene, mens løb ikke havde nogen negativ effekt.
+Sabag et al (2018) konkluderer i deres meta-review af 14 studier, at det ikke ser ud til at HIIT har en negativ effekt på muskelstyrke og hypertrofi. De fandt i deres meta-analyse, at cykling så ud til at have en negativ effekt på styrken i benene, mens løb ikke havde nogen negativ effekt. Dette skal dog sammenholdes med Wilson (2011), som ikke kommer til samme konklusion i forhold til cykling.
 
 Forskerne har sammenholdt resultatet fra studierne i følgende figur. Kig særligt på de sorte diamanter, som giver en samlet effekt inden for de tre områder, de har valgt at kigge på.
 
@@ -125,9 +125,9 @@ Konklusionen af Sabag et al (2018) er altså, at hvis man sørger for at holde e
 
 ## Kan du vente 8 timer mellem styrketræning og udholdenhedstræning?
 
-Leveritt et al (2000) undersøgte, hvordan forskellige styrkemålinger påvirkes af et hårdt træningspas på cykel. Tidligere studier har vist at muskelstyrken er nedsat i fire timer efter intensiv cykeltræning, men Leveritt undersøgte styrken efter 8 og 32 timer. Tilsyneladende er muskelstyrken fuldt restitueret efter 8 timer. Dog så det ud til, at der var en større ophobning af affaldsstoffer i musklerne, hvilket tyder på, at træthed kan opstå hurtigere. 
+Leveritt et al (2000) undersøgte, hvordan forskellige styrkemålinger påvirkes af et hårdt træningspas på cykel. Leveritt et al undersøgte styrken efter 8 og 32 timer. Tilsyneladende er muskelstyrken fuldt restitueret efter 8 timer. Dog så det ud til, at der var en større ophobning af affaldsstoffer i musklerne, hvilket tyder på, at træthed kan opstå hurtigere. Sporer og Wenger (2003) er siden kommet til samme konklusion med en sammenligning af steady state sub-maksimale konditionstræning og høj intensitet konditionstræning på cykel. Intensiteten betød ikke noget, men det gjorde restitutionstiden. 
 
-Hvis du vil være sikker på at musklerne er helt klar til at kraftudvikle maksimalt, så er det en god ide at vente mellem fire og otte timer, inden man går i gang med styrketræningen, hvis du har mulighed for det i din hverdag.
+Hvis du vil være sikker på at musklerne er helt klar til at kraftudvikle maksimalt, så er det formentlig en god ide at vente otte timer, inden du går i gang med styrketræningen, hvis du har mulighed for det i din hverdag.
 
 Hvis du gerne vil træne begge ting på en dag, men ikke kan vente 8 timer, så kan du formentlig få en forbedret effekt af din træning, hvis du holder en pause på mindst 15 minutter mellem de to træningsformer, hvor du kan sikre dig, at du har fyldt energidepoterne op.
 
@@ -161,3 +161,5 @@ Kan du supplere med nogle forskningsresultater, der kan få os tættere på et g
 - Hawley, John A. 2009. “Molecular Responses to Strength and Endurance Training: Are They Incompatible?” Applied Physiology, Nutrition, and Metabolism 34 (3): 355–61. <https://doi.org/10.1139/H09-023>.
 - Coffey, Vernon G, og John A Hawley. 2007. “The Molecular Bases of Training Adaptation”: Sports Medicine 37 (9): 737–63. <https://doi.org/10.2165/00007256-200737090-00001>.
 - Sabag, Angelo, Abdolrahman Najafi, Scott Michael, Tuguy Esgin, Mark Halaki, og Daniel Hackett. 2018. “The Compatibility of Concurrent High Intensity Interval Training and Resistance Training for Muscular Strength and Hypertrophy: A Systematic Review and Meta-Analysis”. Journal of Sports Sciences 36 (21): 2472–83. <https://doi.org/10.1080/02640414.2018.1464636>.
+- Wilson, Jacob, Pedro Marín, Matthew Rhea, Stephanie Wilson, Jeremy Loenneke, og JC Andersen. “Concurrent training: A meta-analysis examining interference of aerobic and resistance exercises”. Journal of strength and conditioning research / National Strength & Conditioning Association 26 (13. oktober 2011): 2293–2307. <https://doi.org/10.1519/JSC.0b013e31823a3e2d>.
+- Fyfe, Jackson, David John Bishop, og Nigel Stepto. “Interference between Concurrent Resistance and Endurance Exercise: Molecular Bases and the Role of Individual Training Variables”. Sports medicine (Auckland, N.Z.) 44 (12. april 2014). <https://doi.org/10.1007/s40279-014-0162-1>.
