@@ -40,5 +40,5 @@ Kender du nogle studier, der kan sige noget om det?
 
 ## Referencer
 
-- [Explosive-strength training improves 5-km running time by improving running economy and muscle power](http://jap.physiology.org/cgi/content/full/86/5/1527)
-- Se også [Spændstighedstræning øger 5 km løbehastigheden](http://www.motion-online.dk/spaendstighedstraening-oeger-5-km-loebehastigheden/)
+- Paavolainen, Leena, Keijo Häkkinen, Ismo Hämäläinen, Ari Nummela, og Heikki Rusko. 1999. “Explosive-strength training improves 5-km running time  by improving running economy and muscle power”. Journal of Applied Physiology 86 (5): 1527–33. <https://doi.org/10.1152/jappl.1999.86.5.1527>.
+

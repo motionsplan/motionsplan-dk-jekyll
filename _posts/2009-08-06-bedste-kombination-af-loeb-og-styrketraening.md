@@ -3,47 +3,142 @@ title: "Hvad er den bedste kombination af løb og styrketræning?"
 permalink: /artikel/bedste-kombination-af-loeb-og-styrketraening
 language: da
 header:
-  overlay_image: /assets/images/blog/bedste-kombination-af-loeb-og-styrketraening.jpg
-  teaser: /assets/images/blog/bedste-kombination-af-loeb-og-styrketraening.jpg
+  overlay_image: https://images.unsplash.com/photo-1434596922112-19c563067271?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
+  teaser: https://images.unsplash.com/photo-1434596922112-19c563067271?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
 tags:
   - styrketræning
   - løb
   - kondition
+  - kombinationstræning
 category:
   - Konditionstræning
   - Løb
   - Styrketræning
-last_modified_at: 2013-02-13T22:09:36Z
+last_modified_at: 2020-06-22T22:09:36Z
 ---
 
-Det er genstand for megen debat, hvordan styrketræning og konditionstræning kombineres bedst muligt.
+Jeg kan godt lide at kombinere styrketræning, løbetræning og konditionstræning. Jeg får også ofte spørgsmålet om, hvordan man kan træne styrke og cardio samtidigt, og hvad den bedste kombination er?
 
-Tidligere har vi skrevet, at [eksplosiv træning gør dig hurtigere på 5 kilometer](/artikel/eksplosiv-traening-goer-dig-hurtigere-paa-5-km), motion-online.dk skriver at [tung styrketræning øger præstationsevnen hos løbere](https://www.motion-online.dk/tung-styrketraening-oeger-praestationsevnen-loebere/) og [Styrketræning øger udholdenheden](https://www.motion-online.dk/styrketraening-oeger-udholdenheden/) hos langrendsløbere. Studierne beskriver imidlertid ikke noget om, nøjagtigt hvordan styrketræningen var placeret ift. forsøgspersonernes øvrige træning.
+Først og fremmest handler det naturligvis om dine mål, hvordan du kombinerer styrketræning og løbetræning (udholdenhedstræning). Jeg synes, at det er interessant at starte med at kigge på, hvordan træningstyperne påvirker hinanden?
+
+I den sammenhæng er det nødvendigt at få et par begreber på plads først om styrketræning og konditionstræning.
+
+Styrketræning
+: Formålet med styrketræning kan både være at bygge større muskler (hypertrofi), forbedre evnen til at løfte tungere (styrke) og evnen til at kunne yde mere kraft (power).
+
+Konditionstræning
+: Konditionstræning kan både have til formål at øge den maksimale iltoptagelse, så det samme arbejde bliver lettere, og forbedre udholdenheden, altså evnen til at arbejde i længere tid med den samme intensitet.
+
+## Hvordan påvirker styrketræning og udholdenhedstræning hinanden?
+
+Hawley (2009) undersøgte de konkurrerende signaler fra styrketræning og aerob træning. Det meste litteratur kalder det _samtidig træning_ (concurrent training) eller _interference effect_.
+
+Træning indebærer, at der er et **signal**, der skaber et **respons**, og kroppen laver en **tilpasning (adaptation)**, hvis den gennemgår de samme signaler flere gange.
+
+Et signal er alle de typer træninger, du kan finde på at lave. Squat, tempoløb, plyometri. På delle niveau er der en opregulering og nedregulering af forskellige mekanismer og enzymer.
+
+{% include figure image_path="/assets/images/blog/hawley2009.jpg" caption="Kroppens respons på styrketræning og udholdenhedstræning og de afledte tilpasninger. Måske modarbejder styrketræning og udholdenhedstræning hinanden." alt="Kroppens respons på styrketræning og udholdenhedstræning og de afledte tilpasninger. Måske modarbejder styrketræning og udholdenhedstræning hinanden." %}
+
+**Styrketræning** sender et signal til cellerne om at være **anabole**, dvs. Proteinsyntesen skal overstige proteinnedbrydningen over tid, og musklerne skal vokse. Det primære respons ser ud til at være PI3-k-AKT-mTOR og p70 s6k (ribosom protein s6 kinase).
+
+**Udholdenhedstræning** giver et signal, som kroppen vil respondere på ved primært at skabe nye mitokondrier i cellerne. Det primære respons er aktiveringen af PGC-1a og AMPK (protein kinase).
+
+Hawley (2009) skriver, at når man ser på styrketræning og udholdenhedstræning alene, så er der en god effekt på de rette tilpasninger. 
+
+Hvis man derimod ser på samtidig træning, så er der en _sub-optimal activation_ af begge signalveje. Coffey og Hawley (2007) skriver mere om, hvad der får signalvejene til at forstyrre hinanden. 
+
+Når signalvejene kan forstyrre hinanden, så er timingen af træningen vigtig. 
+
+Studier har vist, at der er forøget proteinsyntese i 24-48 timer efter et hårdt styrketræningspas. Derfor er det formentlig ikke en god ide at lave et kredsløbstræningspas med en høj volumen indenfor den tidsramme.
+
+Det samme gør sig gældende, hvis man har til mål at forbedre den maksimale iltoptagelse og udholdenhed, så kan styrketræning potentielt ødelægge opbygningen af mitokondrier i musklerne.
+
+Inden vi kommer tilbage til timingen, så lad os lige kigge på et par fordele ved at inkludere både styrke og cardio i sin træning.
+
+## Tung styrketræning øger præstationsevnen i løb
+
+Støren et al (2008) undersøgte to grupper af veltrænede løbere over 8 ugers træning. Den ene gruppe fortsatte den normale træning, mens den anden gruppe supplerede med tung styrketræning 3 gange om ugen. Styrkeprogrammet bested af 4 sæt med halve squats med en belastning på 4RM. Vægten på stangen blev øget, når man kunne løfte mere vægt. Der var 3 minutters pause mellem styrkesættene.
+
+Styrketræningsgruppen havde efter de 8 ugers træning forbedret deres styrke og  deres eksplosive styrke (Rate of Force Development). Mere bemærkelsesværdigt var deres løbeøkonomi også forbedret med 5% og tiden til udmattelse på deres maksimale aerobe løbehastighed blev også forøget. 
+
+{% include figure image_path="/assets/images/blog/storen-maximal-strength.jpeg" caption="Forskel fra før- til efter træningsperioden for styrketræningsgruppen (MST) og kontrolgruppen, der fortsat trænede sit almindelige program" alt="Forskel fra før- til efter træningsperioden for styrketræningsgruppen (MST) og kontrolgruppen, der fortsat trænede sit almindelige program" %}
+
+Styrkegruppens program tog i alt 11 minutter at gennemføre pr. gang. Det betyder naturligvis, at den gruppe havde 33 minutters ekstra træning i løbet af ugen. Det kunne have været interessant, hvis de havde justeret for træningsmængde i studiet.
+
+Hoff et all (2002) viste også med ekstremt veltrænede langrendsløbere (kondital ~ 70), at funktionel styrketræning 3 gange om ugen i  alt 45 minutter forbedrede deres udholdenhed med ~20%, maksimale styrke med ~10% og _rate of force development_ med 50% i forhold til kontrolgruppen, som trænede normalt.
+
+De to grupper trænede ellers deres normale træningsmængde på 10 timer. Styrketræningen bestod af 3 serier af 6 getagelser med omkring 85% af 1RM i et kabeltræk, der ligner dobbelt stavtag på langrendsski. 
+
+Den tunge styrketræning kan altså være med til at forbedre bevægelsesøkonomien, så derfor er det rigtig godt at implementere styrketræning, selvom ens mål er udholdenhed og løbetider.
+
+## Hvordan kombinerer jeg bedst styrketræning og cardio i samme træningspas?
+
+Studierne beskriver imidlertid ikke noget om, nøjagtigt hvordan styrketræningen var placeret ift. forsøgspersonernes øvrige træning.
 
 Hvordan får man den bedste effekt af sine træning, hvis konditions- og styrketræning kombineres i samme træningspas?
 
-## Konditionstræning _før_ styrketræning forbedrer løbetiden
+## Eksplosiv (styrke)træning _efter_ konditionstræning forbedrer løbetiden
 
-[Konditionstræning før styrketræning giver bedre præstation](https://www.motion-online.dk/konditionstraening-foer-styrketraening-giver-bedre-praestation/) viser at en gruppe, der trænede konditionstræning efterfulgt af styrketræning, havde de største forbedringer på deres 4 km løbetid over et 12 ugers træningsprogram, hvor der var træning tre gange om ugen. Styrketræningen blev udført som cirkeltræning med en ratio mellem arbejde og restitution på 30s/30s eller 40s/20s. Det har formentlig ikke været traditionel styrketræning, men træning med >12RM.
+Chtara et al (2005) undersøgte, om der var forskel på at lave styrketræningen eller konditionstræningen først, hvis man lavede begge dele i samme træningspas. Træningen varede i 12 uger med 3 gange træning om ugen. 
+
+Konditionstræningen blev udført som intervaltræning med intensiteter mellem 60% og 100%. Styrketræningen blev udført som cirkeltræning med en ratio mellem arbejde og restitution på 30s/30s eller 40s/20s. Styrketræningen var de første 6 uger med fokus på udholdenhed og de sidste uger med fokus på eksplosivitet.
+
+Studiet viser at den gruppe, der trænede konditionstræning efterfulgt af styrketræning, havde de signifikant største forbedringer på deres 4 km løbetid over et 12 ugers træningsprogram. Paavolainen et al (1999) fandt også en positiv effekt af eksplosiv træning på løbetiderne på 5 kilometer, som [jeg har skrevet om her]({% link _posts/2009-07-15-eksplosiv-traening-goer-dig-hurtigere-paa-5-km.md %}). Studiet af Paavolainen nævner ikke om den eksplosive træning og udholdenhedstræningen blev udført samme dag.
 
 ## Styrketræning _før_ konditionstræning har en god effekt på fedtforbrændingen
 
 Det ser ud til, at styrketræning før konditionstræning har en god effekt på fedtforbrændingen (Goto et al 2005 og 2007). Det er også teoretisk sandsynligt, at kroppen netop har brugt noget af kulhydratlagrene, og derfor bliver kroppen nødt til at arbejde med fedtforbrændingen under den længere træning.
 
-## Kan du vente 8 timer?
+## Kombinationstræning forstyrrer muskeltilvækst
 
-Du får en forbedret effekt af din træning, hvis du holder en pause på mindst 15 minutter mellem de to træningsformer, hvis det kan lade sig gøre i din hverdag.
+Karavirta et al (2011) undersøgte effekten af kombineret styrketræning og konditionstræning på både styrke, power og hypertrofi for 40-67 årige mænd. Mændene gennemførte 21 ugers træning. 
 
-Hvis du vil være sikker på at musklerne er helt klar til at kraftudvikle maksimalt, så er det formentlig en god ide at vente mellem fire og otte timer, inden man går i gang med styrketræningen (ifølge [Ødelægger konditionstræning din styrketræning?](https://www.motion-online.dk/oedelaegger-konditionstraening-din-styrketraening/).
+Studiet viste at fremgangen i maksimal styrke vær lige så høj for den gruppe, der kombinerede styrketræning og udholdenhedstræning (SE), som den var i den gruppe, der trænede styrketræning alene (S).
 
-## Hvad gør jeg så?
+{% include figure image_path="/assets/images/blog/karavirta-strength.png" caption="Kombinationsgruppen havde lige så stor fremgang som styrketræning alene i forhold til muskelstyrke" alt="Kombinationsgruppen havde lige så stor fremgang som styrketræning alene i forhold til muskelstyrke" %}
 
-Så hvis formålet er at komme til at løbe hurtigere eller forbedre kraftudviklingen, så ser det ud til, at det er bedst at lægge styrketræningen efter konditionstræningen. Hvis du derimod går efter den fedtforbrændende effekt, så skal styrketræningen nok ligge før konditionstræningen.
+Hvis man derimod kigger på muskelfibrenes tværsnit, så viste studiet at dem der alene styrketrænede havde en større vækst særligt i type II-fibrene end kombinationsgruppen. Studiet viste altså, at det er muligt at få en styrkefremgang uden at have en tilsvarende muskeltilvækst, men det viste også, at kombinationstræning tilsyneladende ikke giver mulighed for samme muskeltilvækst som styrketræning alene.
 
-Kan du supplere med nogle forskningsresultater, der kan få os tættere på et godt bud på, hvordan træningen skal organiseres og udføres for at få mest muligt ud af den?
+{% include figure image_path="/assets/images/blog/karavirta-csa.png" caption="Tværsnitserealet hvor vi sammenligner kombinationstræning med træning enten i cardio eller styrke" alt="Tværsnitserealet hvor vi sammenligner kombinationstræning med træning enten i cardio eller styrke" %}
 
-## Referencer
+Når man sammenligende kombinationsgruppen (SE) med udholdenhedsgruppen, så ser det ikke ud til, at der var en hæmmende effekt på iltoptagelsen eller evnen til at udvikle maksimal aerob power på cyklen.
 
-- [Konditionstræning og styrketræning sammen](http://fitness-blog.dk/kondition-og-styrke-8996/).
-- Goto K, Higashiyama M, Ishii N, Takamatsu K. – Prior endurance exercise attenuates growth hormone response to subsequent resistance exercise. (2005)
-- Goto K, Higashiyama M, Ishii N, Takamatsu K. – Effects of resistance exercise on lipolysis during subsequent submaximal exercise. (2007)
+{% include figure image_path="/assets/images/blog/karavirta-oxygen.png" caption="Sammenligning af kombination af styrke og udholdenhed med udholdenhed og styrketræning alene i forhold maksimal iltoptagelse og maksimal aerob power" alt="Sammenligning af kombination af styrke og udholdenhed med udholdenhed og styrketræning alene i forhold maksimal iltoptagelse og maksimal aerob power" %}
+
+Resultaterne fra Karavirta et al (2011) indikerer altså, at udholdenhedstræning forstyrrer muskeltilvækst, men at hvis målet er muskelstyrke eller udholdenhed og maksimal power, så kan de sagtens trænes samtidigt under forudsætning af, at man ikke ophober træthed.
+
+## Kan du vente 8 timer mellem styrketræning og udholdenhedstræning?
+
+Leveritt et al (2000) undersøgte, hvordan forskellige styrkemålinger påvirkes af et hårdt træningspas på cykel. Tidligere studier har vist at muskelstyrken er nedsat i fire timer efter intensiv cykeltræning, men Leveritt undersøgte styrken efter 8 og 32 timer. Tilsyneladende er muskelstyrken fuldt restitueret efter 8 timer. Dog så det ud til, at der var en større ophobning af affaldsstoffer i musklerne, hvilket tyder på, at træthed kan opstå hurtigere. 
+
+Hvis du vil være sikker på at musklerne er helt klar til at kraftudvikle maksimalt, så er det en god ide at vente mellem fire og otte timer, inden man går i gang med styrketræningen, hvis du har mulighed for det i din hverdag.
+
+Hvis du gerne vil træne begge ting på en dag, men ikke kan vente 8 timer, så kan du formentlig få en forbedret effekt af din træning, hvis du holder en pause på mindst 15 minutter mellem de to træningsformer, hvor du kan sikre dig, at du har fyldt energidepoterne op.
+
+## Hvad gør jeg så, hvis jeg vil kombinere styrketræning og løbetræning?
+
+Så hvis formålet er at komme til at løbe hurtigere eller forbedre kraftudviklingen, så ser det ud til, at det er bedst at lægge styrketræningen efter konditionstræningen (Chtara 2005; Paavolainen et al 1999). 
+
+Hvis du derimod går efter den fedtforbrændende effekt, så skal styrketræningen nok ligge før konditionstræningen (Goto 2005 og 2007).
+
+Hvis du går efter muskelopbygning og hypertrofi, så skal du tænke over timingen, intensiteten og volumen af din cardiotræning (Karavirta et al 2011; Hawley 2009).
+
+I denne artikel mangler vi stadig at svare nøjagtigt på, hvordan cardio-træningen kan tænkes ind i fx et muskeltilvækst-program, og hvordan tung styrketræning bedst tænkes ind i et udholdenhedsprogram. Intensiteten, frekvensen og varigheden af både styrketræningen og konditionstræningen er spændende paramtre.
+
+Samtidig mangler der svar på, hvad den _optimale minimale dosis_, hvis man gerne vil have effekt af begge træningsmodaliteter.
+
+Kan du supplere med nogle forskningsresultater, der kan få os tættere på et godt bud på, hvordan træningen skal organiseres og udføres for at få mest muligt ud af den, så brug endelig kommentarerne?
+
+## Referencer til kombination af styrketræning, løbetræning og udholdenhedstræning
+
+- Goto, Kazushige, Masao Higashiyama, Naokata Ishii, og Kaoru Takamatsu. 2005. “Prior Endurance Exercise Attenuates Growth Hormone Response to Subsequent Resistance Exercise”. European Journal of Applied Physiology 94 (3): 333–38. <https://doi.org/10.1007/s00421-004-1296-x>.
+- Goto, Kazushige, Naokata Ishii, Shuhei Sugihara, Toshitsugu Yoshioka, og Kaoru Takamatsu. 2007. “Effects of Resistance Exercise on Lipolysis during Subsequent Submaximal Exercise”. Medicine and Science in Sports and Exercise 39 (2): 308–15. <https://doi.org/10.1249/01.mss.0000246992.33482.cb>.
+- Wang, Li, Henrik Mascher, Niklas Psilander, Eva Blomstrand, og Kent Sahlin. 2011. “Resistance Exercise Enhances the Molecular Signaling of Mitochondrial Biogenesis Induced by Endurance Exercise in Human Skeletal Muscle”. Journal of Applied Physiology (Bethesda, Md.: 1985) 111 (5): 1335–44. <https://doi.org/10.1152/japplphysiol.00086.2011>.
+- Chtara, M, K Chamari, M Chaouachi, A Chaouachi, D Koubaa, Y Feki, G Millet, og M Amri. 2005. “Effects of intra-session concurrent endurance and strength training sequence on aerobic performance and capacity”. British Journal of Sports Medicine 39 (8): 555–60. <https://doi.org/10.1136/bjsm.2004.015248>.
+- Hoff, J., A. Gran, og J. Helgerud. 2002. “Maximal Strength Training Improves Aerobic Endurance Performance”. Scandinavian Journal of Medicine & Science in Sports 12 (5): 288–95. <https://doi.org/10.1034/j.1600-0838.2002.01140.x>.
+- Karavirta, L., A. Häkkinen, E. Sillanpää, D. García-López, A. Kauhanen, A. Haapasaari, M. Alen, m.fl. 2011. “Effects of Combined Endurance and Strength Training on Muscle Strength, Power and Hypertrophy in 40-67-Year-Old Men”. Scandinavian Journal of Medicine & Science in Sports 21 (3): 402–11. <https://doi.org/10.1111/j.1600-0838.2009.01059.x>.
+- Leveritt, M., H. MacLaughlin, og P. J. Abernethy. 2000. “Changes in Leg Strength 8 and 32 h after Endurance Exercise”. Journal of Sports Sciences 18 (11): 865–71. <https://doi.org/10.1080/026404100750017797>.
+- Paavolainen, Leena, Keijo Häkkinen, Ismo Hämäläinen, Ari Nummela, og Heikki Rusko. 1999. “Explosive-strength training improves 5-km running time  by improving running economy and muscle power”. Journal of Applied Physiology 86 (5): 1527–33. <https://doi.org/10.1152/jappl.1999.86.5.1527>.
+- Støren, Oyvind, Jan Helgerud, Eva Maria Støa, og Jan Hoff. 2008. “Maximal Strength Training Improves Running Economy in Distance Runners”. Medicine and Science in Sports and Exercise 40 (6): 1087–92. <https://doi.org/10.1249/MSS.0b013e318168da2f>.
+- Hawley, John A. 2009. “Molecular Responses to Strength and Endurance Training: Are They Incompatible?” Applied Physiology, Nutrition, and Metabolism 34 (3): 355–61. <https://doi.org/10.1139/H09-023>.
+- Coffey, Vernon G, og John A Hawley. 2007. “The Molecular Bases of Training Adaptation”: Sports Medicine 37 (9): 737–63. <https://doi.org/10.2165/00007256-200737090-00001>.
