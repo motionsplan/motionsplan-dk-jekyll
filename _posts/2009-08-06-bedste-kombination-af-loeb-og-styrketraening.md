@@ -3,8 +3,8 @@ title: "Hvad er den bedste kombination af løb og styrketræning?"
 permalink: /artikel/bedste-kombination-af-loeb-og-styrketraening
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1434596922112-19c563067271?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
-  teaser: https://images.unsplash.com/photo-1434596922112-19c563067271?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1526676537331-7747bf8278fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
+  teaser: https://images.unsplash.com/photo-1526676537331-7747bf8278fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
 tags:
   - styrketræning
   - løb
@@ -107,6 +107,22 @@ Når man sammenligende kombinationsgruppen (SE) med udholdenhedsgruppen, så ser
 
 Resultaterne fra Karavirta et al (2011) indikerer altså, at udholdenhedstræning forstyrrer muskeltilvækst, men at hvis målet er muskelstyrke eller udholdenhed og maksimal power, så kan de sagtens trænes samtidigt under forudsætning af, at man ikke ophober træthed.
 
+## HIIT kombineret med styrketræning
+
+Sabag et al (2018) konkluderer i deres meta-review af 14 studier, at det ikke ser ud til at HIIT har en negativ effekt på muskelstyrke og hypertrofi. De fandt i deres meta-analyse, at cykling så ud til at have en negativ effekt på styrken i benene, mens løb ikke havde nogen negativ effekt.
+
+Forskerne har sammenholdt resultatet fra studierne i følgende figur. Kig særligt på de sorte diamanter, som giver en samlet effekt inden for de tre områder, de har valgt at kigge på.
+
+{% include figure image_path="/assets/images/blog/sabag2018.png" caption="Effekten af samtidig træning af HIIT (high intensity interval training) og styrketræning (RT) på muskelstyrke og hypertrofi. De åbne firkanter viser standardafvigelsen i effektstørrelsen og et 95% konfidensinterval. Diamanterne repræsenterer den samlede effekt på tværs af studier." alt="Effekten af samtidig træning af HIIT (high intensity interval training) og styrketræning (RT) på muskelstyrke og hypertrofi. De åbne firkanter viser standardafvigelsen i effektstørrelsen og et 95% konfidensinterval. Diamanterne repræsenterer den samlede effekt på tværs af studier." %}
+
+Den samlede metaanalyse får forskerne til at konkludere følgende:
+
+> Data suggests concurrent HIIT and RT does not negatively impact hypertrophy or upper body strength, and that any possible negative effect on lower body strength may be ameliorated by incorporating running based HIIT and longer inter-modal rest periods.
+
+--- <cite>[Sabag et al 2018](https://doi.org/10.1080/02640414.2018.1464636)</cite>
+
+Konklusionen af Sabag et al (2018) er altså, at hvis man sørger for at holde en passende pause, så kan man godt lave HIIT-træning, selvom man gerne vil have mere muskelmasse.
+
 ## Kan du vente 8 timer mellem styrketræning og udholdenhedstræning?
 
 Leveritt et al (2000) undersøgte, hvordan forskellige styrkemålinger påvirkes af et hårdt træningspas på cykel. Tidligere studier har vist at muskelstyrken er nedsat i fire timer efter intensiv cykeltræning, men Leveritt undersøgte styrken efter 8 og 32 timer. Tilsyneladende er muskelstyrken fuldt restitueret efter 8 timer. Dog så det ud til, at der var en større ophobning af affaldsstoffer i musklerne, hvilket tyder på, at træthed kan opstå hurtigere. 
@@ -142,3 +158,4 @@ Kan du supplere med nogle forskningsresultater, der kan få os tættere på et g
 - Støren, Oyvind, Jan Helgerud, Eva Maria Støa, og Jan Hoff. 2008. “Maximal Strength Training Improves Running Economy in Distance Runners”. Medicine and Science in Sports and Exercise 40 (6): 1087–92. <https://doi.org/10.1249/MSS.0b013e318168da2f>.
 - Hawley, John A. 2009. “Molecular Responses to Strength and Endurance Training: Are They Incompatible?” Applied Physiology, Nutrition, and Metabolism 34 (3): 355–61. <https://doi.org/10.1139/H09-023>.
 - Coffey, Vernon G, og John A Hawley. 2007. “The Molecular Bases of Training Adaptation”: Sports Medicine 37 (9): 737–63. <https://doi.org/10.2165/00007256-200737090-00001>.
+- Sabag, Angelo, Abdolrahman Najafi, Scott Michael, Tuguy Esgin, Mark Halaki, og Daniel Hackett. 2018. “The Compatibility of Concurrent High Intensity Interval Training and Resistance Training for Muscular Strength and Hypertrophy: A Systematic Review and Meta-Analysis”. Journal of Sports Sciences 36 (21): 2472–83. <https://doi.org/10.1080/02640414.2018.1464636>.
