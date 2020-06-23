@@ -89,15 +89,15 @@ Taaffe og Marcus (1997) lod deltagerne styrketræne i 24 uger. Deltagerne fik et
 
 I hele perioden tog forskerne muskelbiopsier og undersøgte tværsnitsarealet af de enkelt fibre for at se graden af hypertrofi og atrofi i perioden.
 
-{% include figure image_path="http://web.archive.org/web/20110606174913im_/http://www.motion-online.dk/images/2003/hyp_protokol.gif" caption="I hele perioden tog forskerne muskelbiopsier og undersøgte tværsnitsarealet af de enkelt fibre for at se graden af hypertrofi og atrofi i perioden" %}
+{% include figure image_path="/assets/images/blog/hyp_protokol.gif" caption="I hele perioden tog forskerne muskelbiopsier og undersøgte tværsnitsarealet af de enkelt fibre for at se graden af hypertrofi og atrofi i perioden" %}
 
 Gennem træningsperioden var der en forøgelse på tværsnittet på 25% efter tre måneders træning. Hovedparten af væksten var i de hurtige type II-fibre.
 
 Allerede efter 10 dages detræning var der signifikant fald i tværsnitsarealet til type II-fibre. Der sker et yderligere markant fald hen mod dag 120, hvorefter det ser ud til at type II-fibrene stabiliserer sig størrelsesmæssigt på et niveau, der nogenlunde svarer til før træningsinterventionen. For type I fibrene glider de også langsomt tilbage til udgangsværdien.
 
-{% include figure image_path="http://web.archive.org/web/20110606174913im_/http://www.motion-online.dk/images/2003/hyp_fig1.gif" caption="Ændringer i muskelfiberstørrelse for de hurtige muskelfibre (type 2, hvide fibre). * Signifikant forskellig fra 0 # Signifikant forskellig fra 90 og 93" %}
+{% include figure image_path="/assets/images/blog/hyp_fig1.gif" caption="Ændringer i muskelfiberstørrelse for de hurtige muskelfibre (type 2, hvide fibre). * Signifikant forskellig fra 0 # Signifikant forskellig fra 90 og 93" %}
 
-{% include figure image_path="http://web.archive.org/web/20110606174913im_/http://www.motion-online.dk/images/2003/hyp_fig1.gif" caption="Ændringer i muskelfiberstørrelse for de langsomme muskelfibre (type 1, røde fibre). Den høje måling ved dag 93 skyldes sandsynligvis måleusikkerhed. * Signifikant forskellig fra alle andre tidspunkter. # Signifikant forskellig fra 90 og 93" %}
+{% include figure image_path="/assets/images/blog/hyp_fig2.gif" caption="Ændringer i muskelfiberstørrelse for de langsomme muskelfibre (type 1, røde fibre). Den høje måling ved dag 93 skyldes sandsynligvis måleusikkerhed. * Signifikant forskellig fra alle andre tidspunkter. # Signifikant forskellig fra 90 og 93" %}
 
 Et relativt kort ophold (mindre end 14 dage) i styrketræningen vil medføre et betydeligt tab i muskelvolumen, men også at en yderligere pause betyder yderligere tab af muskelvolumen, men ikke i nær så høj grad som det ses i de første uger. Jespersen et al (2011) og McMahon (2014) konkluderer også, at muskeltab vil ske indenfor 2 uger, men Ochi et al (2018) viser, at muskeltab først sker efter 3-6 uger.
 
