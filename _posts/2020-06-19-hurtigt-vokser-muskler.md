@@ -1,5 +1,5 @@
 ---
-title: "Hvor hurtigt vokser dine muskler - og du ser resultater?"
+title: "Hypertrofi: Hvor hurtigt vokser dine muskler?"
 permalink: /hvor-hurtigt-vokser-muskler/
 language: da
 header:
@@ -60,7 +60,9 @@ Væksten i muskelmasse var på hele 7,4 - 9,9% efter kun 6-8 træningssessioner.
 
 Efter 8. træning var der føjet yderligere til, så der i alt var 116,1 gram muskler. Det svarer i gennemsnit til 14,5 gram muskel pr. træning bare i armbøjerne og skuldermusklerne. Fremgangen vil naturligvis stagnere over tid.
 
-Studiet har dog en del begrænsninger. Der var kun 13 deltagere. Forsøgspersonernes kost var meget forskellig i forhold til kalorie- og proteinindtag. Endelig er målemetoden DXA ikke uden teoretiske udfordringer.
+Studiet har dog en del begrænsninger. Der var kun 13 deltagere. Forsøgspersonernes kost var meget forskellig i forhold til kalorie- og proteinindtag. 
+
+Endelig er målemetoden DXA ikke uden teoretiske udfordringer. Bone et al (2016) har vist at mængden af glykogen i musklerne har indflydelse på, hvordan en DEXA-scanner estimerer muskelmassen. Denne effekt skaber også usikkerhed om målingerne af, hvor hurtigt man kan tage muskelmasse på.
 
 ## Vækstpotentialet i musklerne falder med tiden
 
@@ -142,6 +144,7 @@ Hvis du vil kende nogle af de fysiologiske tilpasninger, der sker ved styrketræ
 
 - Abe, Takashi, Samuel L. Buckner, Scott J. Dankel, Matthew B. Jessee, Kevin T. Mattocks, J. Grant Mouser, og Jeremy P. Loenneke. 2018. “Skeletal Muscle Mass in Human Athletes: What Is the Upper Limit?” American Journal of Human Biology: The Official Journal of the Human Biology Council 30 (3): e23102. <https://doi.org/10.1002/ajhb.23102>.
 - Bhasin, Shalender, Thomas W. Storer, Nancy Berman, Carlos Callegari, Brenda Clevenger, Jeffrey Phillips, Thomas J. Bunnell, Ray Tricker, Aida Shirazi, og Richard Casaburi. 1996. “The Effects of Supraphysiologic Doses of Testosterone on Muscle Size and Strength in Normal Men”. New England Journal of Medicine 335 (1): 1–7. <https://doi.org/10.1056/NEJM199607043350101>.
+- Bone, Julia L., Megan L. Ross, Kristyen A. Tomcik, Nikki A. Jeacocke, Will G. Hopkins, og Louise M. Burke. 2017. “Manipulation of Muscle Creatine and Glycogen Changes Dual X-Ray Absorptiometry Estimates of Body Composition”. Medicine and Science in Sports and Exercise 49 (5): 1029–35. <https://doi.org/10.1249/MSS.0000000000001174>.
 - Counts, Brittany R., Samuel L. Buckner, J. Grant Mouser, Scott J. Dankel, Matthew B. Jessee, Kevin T. Mattocks, og Jeremy P. Loenneke. 2017. “Muscle Growth: To Infinity and Beyond?” Muscle & Nerve 56 (6): 1022–30. <https://doi.org/10.1002/mus.25696>.
 - Dankel, Scott J., Kevin T. Mattocks, Matthew B. Jessee, Samuel L. Buckner, J. Grant Mouser, og Jeremy P. Loenneke. 2017. “Do Metabolites That Are Produced during Resistance Exercise Enhance Muscle Hypertrophy?” European Journal of Applied Physiology 117 (11): 2125–35. <https://doi.org/10.1007/s00421-017-3690-1>.
 - Herman, Christopher W., Anna S. C. Conlon, Melvyn Rubenfire, Andrew R. Burghardt, og Stephen J. McGregor. 2014. “The Very High Premature Mortality Rate among Active Professional Wrestlers Is Primarily Due to Cardiovascular Disease”. PLoS ONE 9 (11). <https://doi.org/10.1371/journal.pone.0109945>.

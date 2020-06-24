@@ -1,7 +1,7 @@
 ---
-title: "Kondition - Hvad er et godt kondital?"
+title: "Kondition: Hvad er et godt, højt kondital?"
 permalink: /kondital/
-excerpt: "Hvad er et godt kondital, og hvordan finder du dit kondital? Her er forskellige metoder til udregning og beregnere til kondital."
+excerpt: "Hvad er et godt, højt kondital, og hvordan finder du dit kondital? Her er forskellige metoder til udregning og beregnere til kondital."
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1571008887538-b36bb32f4571?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80
@@ -25,9 +25,9 @@ feature_row:
     btn_class: "btn--success"
 ---
 
-*[BMI]: Body Mass Index
+Konditallet siger meget om, hvordan din krop fungerer. Jeg har skrevet lidt om, hvad konditallet er, og hvad et godt, højt kondital er.
 
-Konditallet siger meget om, hvordan din krop fungerer. Jeg har skrevet lidt om, hvad konditallet er, og hvad et godt kondital er.
+*[BMI]: Body Mass Index
 
 **Konditallet fortæller, hvor meget ilt kroppen kan transportere rundt og forbruge i forhold til din vægt. Jo mere ilt kroppen kan optage, desto mere energi kan kroppen producere, hvilket gør, at du kan klare en højere arbejdsintensitet. Vægten spiller også en rolle, fordi det kræver mere energi at flytte en tungere rolle væk. Konditallet måles som ml O<sub>2</sub> pr. min pr. kg kropsvægt.**
 

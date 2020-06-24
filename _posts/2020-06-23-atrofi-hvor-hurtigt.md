@@ -40,6 +40,8 @@ feature_row:
 
 Jeg har haft en længere styrketræningspause, så jeg synes det er interessant at kigge på, hvor hurtigt musklerne forsvinder. Det er naturligvis ikke selve musklerne, der forsvinder, men hvor hurtigt forsvinder muskelmassen, muskelstørrelsen og muskelstyrken?
 
+**Tilsyneladende kan både begyndere og trænede opretholde sin muskelstyrke og muskelmasse i omkring 2-3 uger uden træning, særligt hvis du sørger for ikke at være helt inaktiv i pauserne. De fleste forskningsresultater peger på at muskelstørrelsen først forsvinder før selve muskelstyrken går ned.**
+
 Styrketræning for musklerne til at vokse (hypertrofi), mens detræning for musklerne til at skrumpe igen (atrofi). Det er interessant at vide, hvor hurtigt musklerne forsvinder igen, når man holder pause fra sin træning.
 
 Men lad os først kigge lidt på fysiologien bag ved, at muskelmassen forsvinder, når man holder pause fra træningen.
