@@ -1,9 +1,11 @@
 backend:
   name: github
-  repo: vih/fond-jekyll
+  repo: motionsplan/motionsplan-dk-jekyll
   branch: master # Branch to update (optional; defaults to master)
 
 media_folder: "assets/images/uploads" # Media files will be stored in the repo under images/uploads
+
+publish_mode: editorial_workflow
 
 slug:
   encoding: "ascii"
