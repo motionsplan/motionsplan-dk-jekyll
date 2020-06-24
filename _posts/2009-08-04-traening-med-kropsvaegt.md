@@ -1,5 +1,5 @@
 ---
-title: "Træning med kropsvægt"
+title: "Træning med kropsvægt: Forslag til øvelser"
 permalink: /artikel/traening-med-kropsvaegt
 language: da
 header:
@@ -11,7 +11,7 @@ tags:
   - kropsvægt
 category:
   - Styrketræning
-last_modified_at: 2013-02-13T22:09:52Z
+last_modified_at: 2020-02-13T22:09:52Z
 feature_row:
   - image_path: https://cdn.shopify.com/s/files/1/0247/5674/8373/products/KINETIK_VX1_-_Vaegtvest_900x.png?v=1574882659
     alt: "KINETIK Vægtvest VX1"
@@ -22,19 +22,23 @@ feature_row:
     btn_class: "btn--success"
 ---
 
-Træning med kropsvægt har mange fordele, og træningen kan være rigtig effektiv. Man behøver altså ikke vægte eller maskiner for at udfordre kroppens fysik.
+Træning med kropsvægt har mange fordele. Kropsvægtsøvelser kan være kan være rigtig effektive - og du kan både træne styrke, kondition og balance bare ved brug af din kropsvægt. Du behøver altså ikke vægte eller maskiner for at udfordre kroppens fysik.
 
-## Fordele
+## Fordele ved at træne med egen kropsvægt
 
-- træningscenteret er altid med
-- lav læringskurve. Øvelserne er ofte relativt lette at lære.
-- lette at organisere med større grupper
+- træningscenteret er altid med, og du kan træne overalt.
+- det er **gratis**.
+- lav læringskurve for effektive øvelser til kropsvægt.
+- mange udviklingsmuligheder mod øvelser, der kræver gode færdigheder.
+- er med til at forbedre din core-stabilitet.
+- lette at organisere med større grupper.
+- forbedrer koordinationen.
 
-## Det handler om modstand
+## Træning med kropsvægt handler om modstand
 
 At blive stærkere handler om **modstand**, og derfor kan øvelser med kropsvægt være rigtig effektive. Sommetider kræver det bare lidt kreativitet for at gøre øvelsen mere anstrengende. Så snart øvelserne ikke længere giver modstand er det tid til at variere øvelserne eller sætte noget mere belastning på.
 
-## Man kan blive rigtig hardcore
+## Man kan blive rigtig hardcore med kropsvægtsøvelser
 
 Det er befriende at kunne træne uden at have br. Hvis du har brug for et bevis på, at man blive rigtig stærk ved at bruge kropsvægt som modstand, kan du se i det følgende link:
 
@@ -48,7 +52,6 @@ Man skal altid planlægge sin træning ud fra ens mål. Du kan sagtens få masse
 
 ## Yderligere inspiration
 
-- [Øvelsesforslag med kropsvægt](/kategori/redskaber/kropsvaegt) fra vores site. Der er en lang række at vælge i mellem.
 - [Linksamling om bodyweight / Kettlebells / alternativ træning](http://www.motion-online.dk/fora/index.php?showtopic=29480&hl=kropsv%E6gt). Samling af links omkring øvelser med kropsvægt, kettlebells og alternativ træning lavet af brugerne af motion-online.dks forum. Posten er temmelig rodet, men der er flere gode links.
 
 Har du nogle gode sites eller nogle gode øvelser, så del det gerne i kommentarerne?
