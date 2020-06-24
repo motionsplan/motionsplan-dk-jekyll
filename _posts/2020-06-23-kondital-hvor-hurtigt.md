@@ -1,5 +1,8 @@
 ---
 title: "Kondition og kondital: Hvor hurtigt mister man formen?"
+permalink: /kondital-hvor-hurtigt/
+redirect_from:
+  - /viden%20om/kondital-hvor-hurtigt/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1457449205106-d0aad138e99b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
