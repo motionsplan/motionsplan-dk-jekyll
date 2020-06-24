@@ -19,7 +19,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Excerpt", name: "exerpt", widget: "text"}
+      - {label: "Excerpt", name: "excerpt", widget: "text",  required: false}
       - {label: "Permalink", name: "permalink", widget: "string"}
       - {label: "Category", name: "category", widget: "list", allow_add: true}
       - {label: "Tags", name: "tags", widget: "list", allow_add: true}
@@ -29,8 +29,21 @@ collections:
         widget: object
         collapsed: true
         fields:
-          - {label: "Overlay Image", name: "overlay_image", widget: "image", required: false}
-          - {label: "Teaser Image", name: "teaser", widget: "image", required: false}
-          - {label: "Caption", name: "caption", widget: "text"}
+          - {label: "Overlay Image", name: "overlay_image", widget: "string", required: false}
+          - {label: "Teaser Image", name: "teaser", widget: "string", required: false}
+          - {label: "Caption", name: "caption", widget: "string"}
       - {label: "Last modified at", name: "last_modified_at", widget: "datetime"}
       - {label: "TOC", name: "toc", widget: "boolean", default: true}
+      - label: Feature row
+        name: feature_row
+        widget: list
+        collapsed: true
+        required: false
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Overlay Image", name: "image_path", widget: "string"}
+          - {label: "Alt", name: "alt", widget: "string"}
+          - {label: "Exerpt", name: "excerpt", widget: "text"}
+          - {label: "Url", name: "url", widget: "string"}
+          - {label: "Btn label", name: "btn_label", widget: "string"}
+          - {label: "Btn class", name: "btn_class", widget: "select", options: ["btn--success", "btn--warning", "btn--danger"], default: "btn--success"}
