@@ -1,0 +1,25 @@
+<table>
+    <thead>
+        <tr>
+            <th>Kilometer</th>
+            <th>Skridt / Mænd</th>
+            <th>Skridt / Kvinder</th>
+        </tr>
+        <tr>
+            <td>Skridtlængde (cm)</td>
+            <td><input type="number" name="step_man" id="step_man" value="79" min="1" max="200"></td>
+            <td><input type="number" name="step_woman" id="step_woman" value="66" min="1" max="200"></td>
+        </tr>
+    </thead>
+    <tbody>
+        {% assign array = "1,2,3,4,5,6,7,8,9,10,20,30,40,50,60,70,80,90,100" | split: "," %}
+        
+        {% for km in array %}
+        <tr>
+            <td id="km_{{ km }}">{{ km }}</td>
+            <td id="man_{{ km }}">{{ km | times: 1000 | divided_by: 0.79 | round }}</td>
+            <td id="woman_{{ km }}">{{ km | times: 1000 | divided_by: 0.66 | round }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

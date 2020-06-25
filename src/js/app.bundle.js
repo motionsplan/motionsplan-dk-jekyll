@@ -30,6 +30,14 @@ require('image-map-resizer');
 $(document).ready(function() {
     $('map').imageMapResize();
 
+    $("#step_man").change(function() {
+        console.log('Ready to calculate');
+        $("table#steps tbody tr").each(function() {
+            console.log('finding trs');
+            this.find('td').eq(2).text('man');
+        });
+    });
+
     $("#form-formula").ready(function() {
         $(".motiononline").hide();
         $(".reynolds").hide();
