@@ -37,7 +37,7 @@ Pulsprofilerne for de forskellige træningsprotokoller så sådan her ud:
 
 Resultatet viste, at VO<sub>2</sub>max blev signifikant forbedret i 15/15 og 4x4 med henholdsvis 5,5% og 7,2% efter 8 ugers træning, hvilket ikke var tilfældet for LSD og LT. Der var ikke signifikant forskel imellem 15/15 og 4x4. Resultaterne viste yderligere, at slagvolumen (SV) var signifikant forøget i 15/15 og 4x4, hvilket ikke var tilfældet for LSD og LT. Den øgede slagvolumen i 15/15 og 4x4 korrelerede med den øgede VO<sub>2</sub>max, hvilket understøtter at VO<sub>2</sub>max i stor grad afhænger af slagvolumen.
 
-{% include figure image_path="https://images.journals.lww.com/acsm-msse/Original.00005768-200704000-00012.F2-12.jpeg" caption="JProcentvis ændringer i absolute VO<sub>2</sub>max og absolutte slagvolumen." alt="JProcentvis ændringer i absolute VO<sub>2</sub>max og absolutte slagvolumen." %}
+{% include figure image_path="https://images.journals.lww.com/acsm-msse/Original.00005768-200704000-00012.F2-12.jpeg" caption="Procentvis ændringer i absolute VO<sub>2</sub>max og absolutte slagvolumen." alt="Procentvis ændringer i absolute VO<sub>2</sub>max og absolutte slagvolumen." %}
 
 Dette studie tyder det på, at intens intervaltræning er mere effektiv til at forøge VO<sub>2</sub>max hos moderat-trænede mandlige løbere i forhold til længerevarende lav til moderat træning. Derudover viser studiet, at en reducering af arbejdsintensiteten ikke kan kompenseres af en tilsvarende forøgelse i arbejdstiden således, at det totale arbejde opretholdes. Intensiteten synes derfor at være afgørende for forbedringer i VO<sub>2</sub>max.
 
@@ -51,7 +51,7 @@ Ydermere når Scribbans et al (2016) i en metaanalyse af en række studier en li
 
 > These data suggest that exercise training intensity has no effect on the magnitude of training-induced increases in maximal oxygen uptake in young healthy human participants, but similar adaptations can be achieved in low training doses at higher exercise intensities than higher training doses of lower intensity (endurance training).
 
----<cite>Scribbans (2016)</cite>
+---<cite>[Scribbans (2016)](https://pubmed.ncbi.nlm.nih.gov/27182424/)</cite>
 
 Det er også lidt overraskende, at slagvolumen (SV) ikke blev forbedret i grupperne der trænede med lavere intensitet i Helgeruds (2007) studie. Det vil vi naturligvis også kigge lidt nærmere på i dn nærmeste fremtid.
 
@@ -67,6 +67,4 @@ Det bedste råd i øjeblikket er formentligt, at man skal huske at ramme sit ene
 
 Helgerud, Jan, Kjetill Høydal, Eivind Wang, Trine Karlsen, Pålr Berg, Marius Bjerkaas, Thomas Simonsen, m.fl. 2007. “Aerobic High-Intensity Intervals Improve VO2max More than Moderate Training”. Medicine and Science in Sports and Exercise 39 (4): 665–71. <https://doi.org/10.1249/mss.0b013e3180304570>.
 
-Scribbans, Trisha D., Stephan Vecsey, Paul B. Hankinson, William S. Foster, og Brendon J. Gurd. 2016. “The Effect of Training Intensity on VO2max in Young Healthy Adults: A Meta-Regression and Meta-Analysis”. International Journal of Exercise Science 9 (2): 230–47.
-
-Dalbøge, Annnett. 2007. “[Intensitetens betydning for forbedring af VO2max](https://www.motion-online.dk/intensitetens-betydning-forbedring-vo2max/)”. Motion Online (blog). 21. maj 2007. https://www.motion-online.dk/intensitetens-betydning-forbedring-vo2max/.
+Scribbans, Trisha D., Stephan Vecsey, Paul B. Hankinson, William S. Foster, og Brendon J. Gurd. 2016. “The Effect of Training Intensity on VO2max in Young Healthy Adults: A Meta-Regression and Meta-Analysis”. International Journal of Exercise Science 9 (2): 230–47. <https://pubmed.ncbi.nlm.nih.gov/27182424/>
