@@ -10,7 +10,7 @@ layout: archive
   {% for tag in tags %}
     {% assign i = 0 %}
     {% for post in site[page.collection] %}
-      {% if post.category contains tag %}
+      {% if post.categories contains tag %}
         {% assign i = i | plus:1 %}
       {% endif %}
     {% endfor %}
