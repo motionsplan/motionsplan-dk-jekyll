@@ -61,11 +61,11 @@ Hvor:
 
 ## Hvor god form er jeg i?
 
-Når du har lavet testen, så har du fået et kondital. Jeg har lavet en [tabel, hvor du kan sammenligne dit kondital med forskellige normer](/kondital-og-tabel/). Jeg har lavet et andet indlæg, hvor du kan se [flere konditionstests]({% link _posts/2019-11-04-kondital-og-tabel.md %}).
+Når du har lavet testen, så har du fået et kondital. Jeg har lavet en [tabel, hvor du kan sammenligne dit kondital med forskellige normer]({% link _posts/2019-11-04-kondital-og-tabel.md %}). Jeg har lavet et andet indlæg, hvor du kan se [flere konditionstests]({% link _posts/2019-11-04-kondition-og-test.md %}).
 
 ## Referencer til 1,6 km gåtest
 
-- KILNE, G. et al. (1987) Estimation of VO2 max from a one-mile track walk, gender, age and body weight. Med Sci. Sports Exerc., 19, p. 253-259
-- LUNT, H. et al. (2013) Validation of one-mile walk equations for the estimation of aerobic fitness in British military personnel under the age of 40 years. Military medicine, 178 (7), p. 753-759
-- SARTOR, F. et al. (2013) Estimation of maximal oxygen uptake via submaximal exercise testing in sports, clinical, and home settings. Sports medicine, 43 (9), p. 865-873
-- WEIGLEIN, L. et al. (2011) The 1-Mile Walk Test is a Valid Predictor of VO2max and is a Reliable Alternative Fitness Test to the 1.5-Mile Run in US Air Force Males. Military medicine, 176 (6), p. 669-673
+- Kline, G. M., J. P. Porcari, R. Hintermeister, P. S. Freedson, A. Ward, R. F. McCarron, J. Ross, og J. M. Rippe. 1987. “Estimation of VO2max from a One-Mile Track Walk, Gender, Age, and Body Weight”. Medicine and Science in Sports and Exercise 19 (3): 253–59.
+- Lunt, Heather, Daniel Roiz De Sa, Julia Roiz De Sa, og Adrian Allsopp. 2013. “Validation of One-Mile Walk Equations for the Estimation of Aerobic Fitness in British Military Personnel under the Age of 40 Years”. Military Medicine 178 (7): 753–59. <https://doi.org/10.7205/MILMED-D-12-00369>.
+- Sartor, Francesco, Gianluca Vernillo, Helma M. de Morree, Alberto G. Bonomi, Antonio La Torre, Hans-Peter Kubis, og Arsenio Veicsteinas. 2013. “Estimation of Maximal Oxygen Uptake via Submaximal Exercise Testing in Sports, Clinical, and Home Settings”. Sports Medicine (Auckland, N.Z.) 43 (9): 865–73. <https://doi.org/10.1007/s40279-013-0068-3>.
+- Weiglein, Laura, Jeffery Herrick, Stacie Kirk, og Erik P. Kirk. 2011. “The 1-Mile Walk Test Is a Valid Predictor of VO(2max) and Is a Reliable Alternative Fitness Test to the 1.5-Mile Run in U.S. Air Force Males”. Military Medicine 176 (6): 669–73. <https://doi.org/10.7205/milmed-d-10-00444>.
