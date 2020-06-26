@@ -302,12 +302,6 @@ defaults:
       toc: true
       toc_sticky: true
       author: lsolesen
-      sidebar:
-        - text: >
-            ---
-            [![Få IForm](https://impr.adservicemedia.dk/cgi-bin/Services/ImpressionService/Image.pl?bid=1625038&media_id=90737)](https://online.adservicemedia.dk/cgi-bin/click.pl?bid=1625038&media_id=90737)
-            ---
-            <a href="https://online.adservicemedia.dk/cgi-bin/click.pl?bid=1625046&media_id=90737" target="_blank"><img src="https://impr.adservicemedia.dk/cgi-bin/Services/ImpressionService/Image.pl?bid=1625046&media_id=90737"/></a>
   # _exercises
   - scope:
       path: ""
