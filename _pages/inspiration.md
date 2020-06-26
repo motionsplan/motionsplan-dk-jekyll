@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Inspiration
+excerpt: "Mot"
 permalink: /inspiration/
 author_profile: true
 classes: wide
