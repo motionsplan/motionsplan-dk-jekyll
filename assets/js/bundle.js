@@ -435,9 +435,18 @@ $(document).ready(function() {
 
     $("#step_man").change(function() {
         console.log('Ready to calculate');
-        $("table#steps tbody tr").each(function() {
-            console.log('finding trs');
-            this.find('td').eq(2).text('man');
+        $("table#steps > tbody > tr").each(function(i, obj) {
+            var km = $(this).find('td:first').html();
+            var steps = km * 1000 / ($("#step_man").val() / 100);
+            $(this).find('td').eq(1).html(steps.toFixed(0));
+        });
+    });
+    $("#step_woman").change(function() {
+        console.log('Ready to calculate');
+        $("table#steps > tbody > tr").each(function(i, obj) {
+            var km = $(this).find('td:first').html();
+            var steps = km * 1000 / ($("#step_woman").val() / 100);
+            $(this).find('td').eq(2).html(steps.toFixed(0));
         });
     });
 
