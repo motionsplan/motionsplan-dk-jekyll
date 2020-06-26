@@ -62,7 +62,7 @@ Leddene er omgivet af en ledkapsel, som består af bindevæv. Inderst i ledkapsl
 
 De ægte led kan bevæge sig. Størrelse, retning og størrelse på bevægelsesudslaget afhænger af formen på knoglerne, stramheden i ledkapselen og ledbåndene og smidigheden af musklerne omkring leddet. Det vigtigste parameter er knoglernes form, og derfor kan man (forenklet) opdele kroppens led i forskellige mekaniske typer.
 
-{% include figure image_path="https://idraet-b.systime.dk/fileadmin/_processed_/a/d/csm_1_28_A27a_141bf3b481.png" alt="Opbyging af et led" caption="Opbygning af et led" %}
+{% include figure image_path="https://slideplayer.dk/slide/2341220/8/images/18/Ledkapslen.jpg" alt="Opbyging af et led" caption="Opbygning af et led" %}
 
 Kroppens led kan inddeles i seks mekaniske typer led.
 

@@ -1,6 +1,6 @@
 ---
 title: "Kropskomposition 101 - fedtprocent og fedtfri masse"
-permalink: /kropskomposition
+permalink: /kropskomposition/
 redirect_from:
   - /artikel/kropskomposition/
 excerpt: "Kropskomposition handler om at få indblik i, hvad kroppen består af. Hvad er fedtprocenten og den fedtfri masse?"

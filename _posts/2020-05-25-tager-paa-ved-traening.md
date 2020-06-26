@@ -143,7 +143,7 @@ Det er faktisk en god ide under træning at sørge for at få nok energi. Kroppe
  
 Der er forskellige måder at anskue, hvad kroppen består af. Den fedtfrie masse består af vand, protein og mineraler. Hvis ikke din fedtfrie masse stiger ved træning på den ene eller anden måde, så er der formentlig et eller andet galt. Det gælder uanset om du er gået i gang med styrketræning, konditionstræning eller en blanding af dem.
 
-Jeg synes selv det er spændende at dykke lidt ned i de forskellige modeller, der findes for, hvordan kroppen er skruet sammen. Typisk kan man forstå kropssammensætningen ud fra en [2- eller 4-komponentmodel](/kropskomposition/).
+Jeg synes selv det er spændende at dykke lidt ned i de forskellige modeller, der findes for, hvordan kroppen er skruet sammen. Typisk kan man forstå kropssammensætningen ud fra en [2- eller 4-komponentmodel]({% link _posts/2019-10-14-kropskomposition.md %}).
 
 ## Vægten er altså en dårlig indikator for træningsfremgang
  
@@ -161,6 +161,6 @@ Jeg synes til hver en tid, at det er mere interessant at holde øje med, om jeg 
 
 Men jeg fornemmer også, at rigtig mange bekymrer sig om deres vægt og fedtprocent. 
 
-Hvis dit overordnede mål er at tabe dig, så sæt dig ned og kig lidt på, [hvordan man kan måle, hvor meget fedt udgør af din kropsvægt](/kropskomposition/).
+Hvis dit overordnede mål er at tabe dig, så sæt dig ned og kig lidt på, [hvordan man kan måle, hvor meget fedt udgør af din kropsvægt]({% link _posts/2019-10-14-kropskomposition.md %}).
 
 ## Noter
