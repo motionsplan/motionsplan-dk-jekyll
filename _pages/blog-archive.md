@@ -1,6 +1,7 @@
 ---
 layout: posts
 permalink: /blog/
+excerpt: "Motionsplan.dk blog er for os der træner og gerne vil blive klogere på kroppen."
 title: Motionsplans blog
 classes: wide
 author_profile: true

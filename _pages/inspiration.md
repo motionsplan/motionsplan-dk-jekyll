@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Inspiration
+excerpt: "Motionsplan har samlet alt den bedste inspiration til styrketræning, konditionstræning, cardio, yoga, løb og træning."
 permalink: /inspiration/
 author_profile: true
 classes: wide
