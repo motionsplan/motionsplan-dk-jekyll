@@ -317,7 +317,7 @@ defaults:
       related: true
       author: lsolesen
       tag_archive_path: /exercises/tags/
-      category_archive_path: /oevelseskategorier/      
+      category_archive_path: /exercises/categories/      
   # _programs
   - scope:
       path: ""
@@ -330,8 +330,8 @@ defaults:
       share: true
       related: true
       author: lsolesen
-      tag_archive_path: /category/tags/
-      category_archive_path: /oevelseskategorier/
+      tag_archive_path: /programs/tags/
+      category_archive_path: /programs/categories/
   # _anatomy
   - scope:
       path: ""
@@ -347,7 +347,7 @@ defaults:
       toc_sticky: true
       author: lsolesen
       tag_archive_path: /anatomi/tags/
-      category_archive_path: /anatomi-kategorier/
+      category_archive_path: /anatomi/categories/
       sidebar:
         nav: "muscles"
   # _redirects

@@ -1,10 +1,10 @@
 ---
-layout: single
+layout: collection
 title: "Træningsprogrammer"
 permalink: /traeningsprogrammer/
-excerpt: "Træningsprogrammer fra Motionsplan"
-author_profile: true
-author: lsolesen
+excerpt: "Forslag til træningsprogrammer fra Motionsplan."
+comments: false
+collection: programs
+entries_layout: list
+classes: wide
 ---
-
-Her bringer vi en række træningsprogrammer i fremtiden.

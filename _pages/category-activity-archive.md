@@ -1,6 +1,8 @@
 ---
 layout: collection-categories
-permalink: /oevelseskategorier/
+permalink: /exercises/categories/
+redirect_from:
+  - /ovelseskategorier/
 collection: exercises
 title: "Træningsøvelser efter kategori"
 author_profile: true

@@ -15,7 +15,7 @@ Desto ældre man bliver, desto mere brug for træning har man for at holde sin k
 
 ## Hvilke øvelser kan jeg lave?
 
-Du kan vælge de øvelser, du synes bedst om. Det er dog smart at følge vores vejledning til, [hvad der bør være i et træningsprogram, hvor man træner hele kroppen](/artikel/hvordan-opbygger-jeg-et-helkropsprogram). Vi har lavet et [forslag til et træningsprogram for de stærke](/program/tr%C3%A6n-din-alder), som du kan træne mindst tre gange om ugen.
+Du kan vælge de øvelser, du synes bedst om. Det er dog smart at følge vores vejledning til, [hvad der bør være i et træningsprogram, hvor man træner hele kroppen](/artikel/hvordan-opbygger-jeg-et-helkropsprogram). 
 
 ## Hvad synes du?
 

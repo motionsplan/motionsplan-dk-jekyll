@@ -1,7 +1,8 @@
 ---
 layout: collection
 permalink: /traeningsoevelser/
-redirect_from: /exercise-search/
+redirect_from:
+  - /exercise-search/
 title: Træningsøvelser
 excerpt: "Træningsøvelser til dit træningsprogram - øvelser til styrketræning, udspænding og yoga"
 comments: false
