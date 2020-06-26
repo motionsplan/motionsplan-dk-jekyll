@@ -4,7 +4,8 @@ permalink: /kondition-og-test/
 excerpt: "Kommer jeg i bedre form og kondition? Udregn dit kondital og iltoptagelse med vores beregnere og se om du får et bedre kondital og fremgang i træningen."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1960&q=80
+  overlay_image: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=f
+ormat&fit=crop&w=1960&q=80
   teaser: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1960&q=80
   caption: Photo by Clem Onojeghuo on Unsplash
   overlay_filter: 0.2
@@ -132,6 +133,8 @@ Mujika, Iñigo. 2012. “The Cycling Physiology of Miguel Indurain 14 Years afte
 Coyle, Edward F. 2005. “Improved Muscular Efficiency Displayed as Tour de France Champion Matures”. Journal of Applied Physiology (Bethesda, Md.: 1985) 98 (6): 2191–96. <https://doi.org/10.1152/japplphysiol.00216.2005>.
 
 Faulkner, John A., Carol S. Davis, Christopher L. Mendias, og Susan V. Brooks. 2008. “The Aging of Elite Male Athletes: Age-Related Changes in Performance and Skeletal Muscle Structure and Function”. Clinical Journal of Sport Medicine: Official Journal of the Canadian Academy of Sport Medicine 18 (6): 501–7. <https://doi.org/10.1097/JSM.0b013e3181845f1c>.
+
+Kolata, Gina. 2005. “Super, Sure, but Not More Than Human”. The New York Times, 24. juli 2005, par. Week in Review. <https://www.nytimes.com/2005/07/24/weekinreview/super-sure-but-not-more-than-human.html>.
 
 Kolata, Gina. 2005. “Super, Sure, but Not More Than Human”. The New York Times, 24. juli 2005, par. Week in Review. <https://www.nytimes.com/2005/07/24/weekinreview/super-sure-but-not-more-than-human.html>.
 
