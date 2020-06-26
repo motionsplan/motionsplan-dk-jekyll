@@ -33,11 +33,11 @@ I det følgende skal alle intensiteter forstås som løb svarende til en procent
 
 Pulsprofilerne for de forskellige træningsprotokoller så sådan her ud:
 
-{% include figure image_path="https://www.motion-online.dk/images/2007/hrcurves.jpg" caption="Pulseksempler fra de fire grupper. (Bemærk at de viste eksempler er fra personer med forskellig maxpuls)" %}
+{% include figure image_path="https://images.journals.lww.com/acsm-msse/Original.00005768-200704000-00012.F1-12.jpeg" caption="Pulseksempler fra de fire grupper. (Bemærk at de viste eksempler er fra personer med forskellig maxpuls)" alt="Pulseksempler fra de fire grupper. (Bemærk at de viste eksempler er fra personer med forskellig maxpuls)" %}
 
 Resultatet viste, at VO<sub>2</sub>max blev signifikant forbedret i 15/15 og 4x4 med henholdsvis 5,5% og 7,2% efter 8 ugers træning, hvilket ikke var tilfældet for LSD og LT. Der var ikke signifikant forskel imellem 15/15 og 4x4. Resultaterne viste yderligere, at slagvolumen (SV) var signifikant forøget i 15/15 og 4x4, hvilket ikke var tilfældet for LSD og LT. Den øgede slagvolumen i 15/15 og 4x4 korrelerede med den øgede VO<sub>2</sub>max, hvilket understøtter at VO<sub>2</sub>max i stor grad afhænger af slagvolumen.
 
-{% include figure image_path="https://www.motion-online.dk/images/2007/vo2_300.jpg" %}
+{% include figure image_path="https://images.journals.lww.com/acsm-msse/Original.00005768-200704000-00012.F2-12.jpeg" caption="JProcentvis ændringer i absolute VO<sub>2</sub>max og absolutte slagvolumen." alt="JProcentvis ændringer i absolute VO<sub>2</sub>max og absolutte slagvolumen." %}
 
 Dette studie tyder det på, at intens intervaltræning er mere effektiv til at forøge VO<sub>2</sub>max hos moderat-trænede mandlige løbere i forhold til længerevarende lav til moderat træning. Derudover viser studiet, at en reducering af arbejdsintensiteten ikke kan kompenseres af en tilsvarende forøgelse i arbejdstiden således, at det totale arbejde opretholdes. Intensiteten synes derfor at være afgørende for forbedringer i VO<sub>2</sub>max.
 

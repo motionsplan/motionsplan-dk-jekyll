@@ -113,7 +113,7 @@ Sabag et al (2018) konkluderer i deres meta-review af 14 studier, at det ikke se
 
 Forskerne har sammenholdt resultatet fra studierne i følgende figur. Kig særligt på de sorte diamanter, som giver en samlet effekt inden for de tre områder, de har valgt at kigge på.
 
-{% include figure image_path="/assets/images/blog/sabag2018.png" caption="Effekten af samtidig træning af HIIT (high intensity interval training) og styrketræning (RT) på muskelstyrke og hypertrofi. De åbne firkanter viser standardafvigelsen i effektstørrelsen og et 95% konfidensinterval. Diamanterne repræsenterer den samlede effekt på tværs af studier." alt="Effekten af samtidig træning af HIIT (high intensity interval training) og styrketræning (RT) på muskelstyrke og hypertrofi. De åbne firkanter viser standardafvigelsen i effektstørrelsen og et 95% konfidensinterval. Diamanterne repræsenterer den samlede effekt på tværs af studier." %}
+{% include figure image_path="/assets/images/blog/sabag2018.jpg" caption="Effekten af samtidig træning af HIIT (high intensity interval training) og styrketræning (RT) på muskelstyrke og hypertrofi. De åbne firkanter viser standardafvigelsen i effektstørrelsen og et 95% konfidensinterval. Diamanterne repræsenterer den samlede effekt på tværs af studier." alt="Effekten af samtidig træning af HIIT (high intensity interval training) og styrketræning (RT) på muskelstyrke og hypertrofi. De åbne firkanter viser standardafvigelsen i effektstørrelsen og et 95% konfidensinterval. Diamanterne repræsenterer den samlede effekt på tværs af studier." %}
 
 Den samlede metaanalyse får forskerne til at konkludere følgende:
 

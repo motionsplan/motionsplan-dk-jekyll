@@ -114,11 +114,11 @@ Området omkring 4-7 RPE er det typisk for konditionstræning og almen aerob tr�
 
 {% include figure image_path="/assets/images/borg-skala-724x1024.jpg" caption="Borgskala bearbejdet af Morten Zacho, tidligere motion-online.dk" alt="Download Borgs intensitetsskala i PDF til løb og træning" %}
 
-[<i class='fas fa-file-pdf'></i> Download Borg skala](/assets/imags/pdf/borg-skala-a4-format.pdf){: .btn .btn--large .btn--danger }
+[<i class='fas fa-file-pdf'></i> Download Borg skala](/assets/pdf/borg-skala-a4-format.pdf){: .btn .btn--large .btn--danger }
 
 {% include figure image_path="/assets/images/borg-skala-vandret.jpg" caption="Borgskala i en vandret version. Lavet med udgangspunkt i Morten Zacho, tidligere motion-online.dk" alt="Download Borgs anstrengelsesskala og Borgskalaen i PDF til løb og træning" %}
 
-[<i class='fas fa-file-pdf'></i> Download vandret version](/assets/imags/pdf/borg-skala-vandret.pdf){: .btn .btn--large .btn--danger }
+[<i class='fas fa-file-pdf'></i> Download vandret version](/assets/pdf/borg-skala-vandret.pdf){: .btn .btn--large .btn--danger }
  
 ## Hvad kan jeg bruge Borg-skalaen til?
 

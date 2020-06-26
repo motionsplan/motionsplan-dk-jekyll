@@ -79,6 +79,6 @@ Formlen ser sådan her ud.
 
 Uth, Niels, Henrik Sørensen, Kristian Overgaard, og Preben K. Pedersen. 2004. “Estimation of VO2max from the Ratio between HRmax and HRrest--the Heart Rate Ratio Method”. European Journal of Applied Physiology 91 (1): 111–15. <https://doi.org/10.1007/s00421-003-0988-y>.
 
-Tanaka, H., K. D. Monahan, og D. R. Seals. 2001. “Age-Predicted Maximal Heart Rate Revisited”. Journal of the American College of Cardiology 37 (1): 153–56. <https://doi.org/10.1016/s0735-1097(00)01054-8.>
+Tanaka, H., K. D. Monahan, og D. R. Seals. 2001. “Age-Predicted Maximal Heart Rate Revisited”. Journal of the American College of Cardiology 37 (1): 153–56. <https://doi.org/10.1016/s0735-1097(00)01054-8>.
 
 ## Noter

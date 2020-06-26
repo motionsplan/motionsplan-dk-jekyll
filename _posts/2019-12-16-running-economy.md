@@ -32,10 +32,6 @@ feature_row_stryd:
     btn_class: "btn--success"
 ---
 
-*[GCT]: Ground Contact Time
-*[RE]: Running Economy
-*[FTP]: Functional Threshold Power
-
 Hvis du gerne vil løbe hurtigere, kan det betale sig at forbedre sin løbeøkonomi. Løbeøkonomien kan bestå af følgende punkt:
 
 1. **Kroppens sammensætning**
@@ -44,6 +40,10 @@ Hvis du gerne vil løbe hurtigere, kan det betale sig at forbedre sin løbeøkon
    En højre procentdel af glykogen producerer mere kraft, hvilket forbedrer løbeøkonomien.
 3. **Løbeteknikken**
    Kadence, GCT, benlængde, armtræk, fodisættet, hoftevinklen, knæløftet, udstrækningen af benet, hvor meget læggene løftes og ankelvinklen.
+
+*[GCT]: Ground Contact Time
+*[RE]: Running Economy
+*[FTP]: Functional Threshold Power
 
 ## Hvordan kan vi måle RE?
 
@@ -87,7 +87,5 @@ Hvordan arbejder du med din løbeøkonomi?
 ## Referencer
 
 {% include feature_row id="feature_row" type="left" %}
-
-- [Noter fra The Secret of Running - Hans Van Dijk](https://hetgeheimvanhardlopen.nl/wp-content/uploads/2016/10/6.-Measuring-and-improving-your-running-economy.pdf)
 
 {% include feature_row id="feature_row_stryd" type="left" %}

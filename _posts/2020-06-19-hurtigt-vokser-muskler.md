@@ -130,7 +130,7 @@ Hvis musklerne skal vokse, så er intensiteten og volumen en meget vigtig parame
 
 Hvis man derimod bruger tungere vægte, fx 10RM, så er det nok at køre omkring 75% af max i sine sæt for at aktivere så mange muskelfibre som muligt.
 
-{% include figure image_path="/assets/images/dankel-low-load-vs-high-load.jpg" caption="Dankel et al (2017) viser den nødvendige belastning med forskellige intensiteter for at aktivere andelen af muskelfibre med potentiale for at skabe muskelvækst" %}
+{% include figure image_path="/assets/images/blog/dankel-low-load-vs-high-load.jpg" caption="Dankel et al (2017) viser den nødvendige belastning med forskellige intensiteter for at aktivere andelen af muskelfibre med potentiale for at skabe muskelvækst" %}
 
 Vi har skrevet mere om [hvordan muskler vokser, hvis du er interesseret]({% link _posts/2019-10-22-hvordan-vokser-muskler.md %}).
 

@@ -104,7 +104,7 @@ Den trænede kan altså i forhold til den utrænede:
 
 Ændringerne i nervesystemet er mest udtalte, når du træner med tungere vægte, fx 1-8 RM. NÅr vægtene er tunge, så skal hjernen sørge for at aktivere en større del af muskelmassen for at accelerere vægten. 
 
-Per Aagaard (2009) har lavet følgende [liste]((http://web.archive.org/web/20110606191439/http://www.motion-online.dk/styrketraening/styrke_-_artikler/optimal_styrketraening_er_tung_styrketraening/)) med neurale tilpasninger til styrketræning:
+Per Aagaard (2009) har lavet følgende [liste](http://web.archive.org/web/20110606191439/http://www.motion-online.dk/styrketraening/styrke_-_artikler/optimal_styrketraening_er_tung_styrketraening/) med neurale tilpasninger til styrketræning:
 
 - øget neuralt drive til muskelfibre (større iEMG) (Moritani & DeVries 1979, Schmidtbleicher 1987, Narici et al. 1989, Aagaard et al. 1998, 2000)
 - øget “rate of EMG rise” (Schmidtbleicher & Buehrle 1987, Aagaard et al. 1999)
@@ -155,7 +155,7 @@ Følgende har også været foreslået som udløsere af vækstfaktorer:
 
 Der er altså en lang række forhold, som er blevet foreslået til at være _trigger_ for vækstfaktorerne. Den vigtigste er imidlertid som nævnt det mekaniske stress på musklerne. 
 
-Per Aagaard (2009) har lavet følgende [liste]((http://web.archive.org/web/20110606191439/http://www.motion-online.dk/styrketraening/styrke_-_artikler/optimal_styrketraening_er_tung_styrketraening/)) med morfologiske forandringer ved styrketræning.
+Per Aagaard (2009) har lavet følgende [liste](http://web.archive.org/web/20110606191439/http://www.motion-online.dk/styrketraening/styrke_-_artikler/optimal_styrketraening_er_tung_styrketraening/) med morfologiske forandringer ved styrketræning.
 
 - øget anatomisk muskel-tværsnitsareal og volumen (målt ved MRI og CT) (Jones & Rutherford 1987, Narici et al. 1989,1996, Aagaard et al. 1999, 2000)
 - øget fysiologisk muskelfiber areal (målt ved muskel biopsier) (McDonagh & Davies 1984, Andersen et al. 1994, Andersen & Aagaard 2000)
