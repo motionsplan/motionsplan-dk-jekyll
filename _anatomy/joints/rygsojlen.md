@@ -1,6 +1,6 @@
 ---
 title: "Ryggen"
-excerpt: ""
+excerpt: "Din rygsøjle går fra halebenet og op til kraniet. Den består af 24 knoglehvirvler: 7 halshvirvler, 12 brysthvirvler og 5 lændehvirvler."
 tags:
   - led
 latin: ""

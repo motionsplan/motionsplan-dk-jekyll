@@ -1,6 +1,6 @@
 ---
 title: "Knæleddet"
-excerpt: ""
+excerpt: "Knæleddet er kroppens største og mest komplicerede led. Det danner forbindelse mellem lårbenet (femur),  skinnebenet (tibia) og knæskallen (patella). Knæskallen er  indkapslet i den sene, der går fra lårmusklen ned til skinnebenet."
 latin:
 tags:
   - led

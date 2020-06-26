@@ -1,6 +1,6 @@
 ---
 title: "Ankel- og fodleddet"
-excpert: ""
+excpert: "Ankelleddet er et hængselled. Skinneben og lægben danner nedadtil en gaffelformet ledskål. De to knogler er holdt sammen af kraftige ledbånd."
 latin: 
 tags:
   - led
@@ -16,7 +16,9 @@ header:
   overlay_image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrqNXjmfE7vW6n-dMuY28ulyi3ZgxTkXAV34bp2t25ynDjPexTeg&s
 ---
 
-Ankelleddet er et hængselled. Skinneben og lægben danner nedadtil en gaffelformet ledskål. De to knogler er holdt sammen af kraftige ledbånd. “Gaflen” går ned over rullebenet, der er kileformet, det vil sige smalt bagtil og bredt fortil. Når foden bøjes opad vil den brede del af rullebenet kile sig fast i gaflen og derfor gøre leddet mere stabilt. Det er derfor man altid vrikker om på vej nedad bakke og ikke opad.
+Ankelleddet er et hængselled. Skinneben og lægben danner nedadtil en gaffelformet ledskål. De to knogler er holdt sammen af kraftige ledbånd. “Gaflen” går ned over rullebenet, der er kileformet, det vil sige smalt bagtil og bredt fortil.
+
+Når foden bøjes opad vil den brede del af rullebenet kile sig fast i gaflen og derfor gøre leddet mere stabilt. Det er derfor man altid vrikker om på vej nedad bakke og ikke opad.
 
 ## Bevægelser i ankelleddet
 
