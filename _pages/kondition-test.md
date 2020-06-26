@@ -1,6 +1,7 @@
 ---
 layout: tag
 permalink: /kondition/tests/
+excerpt: "Oversigt over alle konditionstests, hvor du kan udregne kondital og iltoptagelse med vores beregnere og se om du får et bedre kondital og fremgang i træningen."
 title: "Test din kondition"
 author_profile: true
 sort_by: title # date (default) title
