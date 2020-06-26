@@ -1,7 +1,6 @@
 ---
 title: "Hvordan laver man et program?"
 permalink: /hvordan-laver-man-program/
-excerpt: ""
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80

@@ -316,7 +316,7 @@ defaults:
       share: true
       related: true
       author: lsolesen
-      tag_archive_path: /category/tags/
+      tag_archive_path: /exercises/tags/
       category_archive_path: /oevelseskategorier/      
   # _programs
   - scope:

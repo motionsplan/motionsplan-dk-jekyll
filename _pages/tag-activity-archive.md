@@ -1,6 +1,10 @@
 ---
 layout: collection-tags
-permalink: /category/tags/
+permalink: /exercises/tags/
+redirect_from:
+  - /category/tags/
+  - /category/tags/knædomineret
+  - /category/tags/hoftedomineret
 collection: exercises
 title: "Træningsøvelser sorteret efter nøgleord"
 author_profile: true
