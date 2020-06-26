@@ -16,8 +16,6 @@ exercises:
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Gray433.png/250px-Gray433.png
 image_focus:
 coords:
-  - "126,253,120,261,125,272,129,288,130,304,132,297,132,285,131,268"
-  - "159,255,165,263,162,272,159,286,157,305,155,295,154,284,154,270"
 ---
 
 _{{ page.latin }}_
