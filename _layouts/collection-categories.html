@@ -29,7 +29,7 @@ layout: archive
     <h2 class="archive__subtitle">{{ tag }}</h2>
     <div class="entries-{{ page.entries_layout | default: 'list' }}">
     {% for post in site[page.collection] %}
-      {% if post.category contains tag %}
+      {% if post.categories contains tag %}
         {% include archive-single.html type=page.entries_layout %}
       {% endif %}
     {% endfor %}
