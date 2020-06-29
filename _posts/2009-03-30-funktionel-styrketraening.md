@@ -7,6 +7,7 @@ header:
   overlay_image: /assets/images/blog/funktionel-styrketraening.png
   teaser: /assets/images/blog/funktionel-styrketraening.png
 tags:
+  - funktionel træning
 category:
   - Styrketræning
 last_modified_at: 2013-02-13T22:24:48Z
