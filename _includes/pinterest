@@ -3,7 +3,7 @@
   <img src="{{ include.image_path | relative_url }}"
        alt="{% if include.alt %}{{ include.alt }}{% endif %}"
        {% if include.data-pin-image %}data-pin-image="{{ include.data-pin-image }}"{% endif %}
-       {% if data_pin_description %}data-pin-description="{{ data_pin_description }}"{% endif %}>
+       {% if data_pin_description %}data-pin-description="{{ data_pin_description | strip_html }} #{{ page.tags | join: " #" }}"{% endif %}>
   {% if include.caption %}
     <figcaption>
       {{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}

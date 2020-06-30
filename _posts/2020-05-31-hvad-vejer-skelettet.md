@@ -12,6 +12,9 @@ category:
 tags:
   - anatomi
   - fysiologi
+  - vægt
+  - knogler
+  - skelettet
 last_modified_at: 2020-05-31T08:14:14Z
 toc: true
 feature_row:
@@ -106,7 +109,7 @@ Jeg har ikke kunnet finde den anslåede vægt for ret mange knogler. Hvis du fin
 
 Jeg har skrevet lidt flere artikler om [knoglerne og knogletyperne](/knogler/) og [anatomi](/anatomi/).
 
-{% include pinterest image_path="/assets/images/pinterest/hvad-vejer-skelettet.png" data-pin-media="/assets/images/pinterest/hvad-vejer-skelettet.png" hidden="true" %}
+{% include pinterest image_path="/assets/images/pinterest/hvad-vejer-skelettet.png" data-pin-media="/assets/images/pinterest/hvad-vejer-skelettet.png" class="hidden" %}
 
 ## Bøger
 

@@ -165,3 +165,5 @@ Træningsanbefalingerne for kvinder og mænd i forhold til styrketræning er dog
 - Taekema, Diana G., Carolina H. Y. Ling, Gerard Jan Blauw, Carel G. Meskers, Rudi G. J. Westendorp, Anton J. M. de Craen, og Andrea B. Maier. 2011. “Circulating Levels of IGF1 Are Associated with Muscle Strength in Middle-Aged- and Oldest-Old Women”. European Journal of Endocrinology 164 (2): 189–96. <https://doi.org/10.1530/EJE-10-0703>.
 - Velders, Martina, og Patrick Diel. 2013. “How Sex Hormones Promote Skeletal Muscle Regeneration”. Sports Medicine (Auckland, N.Z.) 43 (11): 1089–1100. <https://doi.org/10.1007/s40279-013-0081-6>.
 - WALTS, CORY T., ERIK D. HANSON, MATTHEW J. DELMONICO, LILI YAO, MIN QI WANG, og BEN F. HURLEY. 2008. “Do Sex or Race Differences Influence Strength Training Effects on Muscle or Fat?” Medicine and science in sports and exercise 40 (4): 669–76. <https://doi.org/10.1249/MSS.0b013e318161aa82>.
+
+{% include pinterest image_path="/assets/images/pinterest/forskel-maend-kvinders-muskler.png" data-pin-media="/assets/images/pinterest/forskel-maend-kvinders-muskler.png" class="hidden" %}
