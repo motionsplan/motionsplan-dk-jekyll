@@ -1,5 +1,5 @@
 ---
-title: "Hvad er biohacking?"
+title: "Biohacker: Guide og inspiration til hvad biohacking er?"
 permalink: /hvad-er-biohacking/
 language: da
 header:
@@ -29,7 +29,7 @@ feature_row:
     btn_class: "btn--success"
 ---
 
-Jeg har et stykke tid været interesseret i biohacking, og hvordan man kan måle biomarkører i forhold til søvn og restitution og bruge det til at planlægge sin træning. Derfor fik jeg lyst til at dykke ned i, hvad biohacking er?
+Jeg har et stykke tid været interesseret i biohacking. En biohacker måler fx biomarkører i forhold til søvn og restitution og bruger det til at planlægge sin træning. Derfor fik jeg lyst til at dykke ned i, hvad biohacking er?
 
 **Biohacking betyder, at man hacker et biologisk system eller en biologisk proces. I biohacking skiller man tingene fra hinanden og sætter dem sammen på en ny og bedre måde. Biohacking er en del af en voksende social bevægelse, hvor individer, grupper og foreninger udforsker og forbedrer biologien med udgangspunkt i en gør-det-selv-mentalitet.**
 
