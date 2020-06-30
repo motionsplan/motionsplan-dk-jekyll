@@ -194,7 +194,6 @@ Pullups og chinups ligner hinanden og bruger mange af de samme muskler. Man kan 
 
 - Dickie, James A., James A. Faulkner, Matthew J. Barnes, og Sally D. Lark. 2017. “Electromyographic Analysis of Muscle Activation during Pull-up Variations”. Journal of Electromyography and Kinesiology: Official Journal of the International Society of Electrophysiological Kinesiology 32 (februar): 30–36. <https://doi.org/10.1016/j.jelekin.2016.11.004>.
 - Dinunzio, Christopher, Nathaniel Porter, John Van Scoy, Derrick Cordice, og Ryan S. McCulloch. 2019. “Alterations in Kinematics and Muscle Activation Patterns with the Addition of a Kipping Action during a Pull-up Activity”. Sports Biomechanics 18 (6): 622–35. <https://doi.org/10.1080/14763141.2018.1452971>.
-- “PubMed entry”. u.å. Set 29. juni 2020. <http://www.ncbi.nlm.nih.gov/pubmed/28011412>.
 - Snarr, Ronald, Jason Casey, Ashleigh Hallmark, og Michael Esco. 2018. “Electromyographical analysis of a traditional and kipping pull-up”. Journal of Australian Strength & Conditioning 26 (april): 28–34.
 - Snarr, Ronald L., Ashleigh V. Hallmark, Jason C. Casey, og Michael R. Esco. 2017. “Electromyographical Comparison of a Traditional, Suspension Device, and Towel Pull-Up”. Journal of Human Kinetics 58 (1): 5–13. <https://doi.org/10.1515/hukin-2017-0068>.
 - Snyder, Benjamin, og James Leech. 2009. “Voluntary Increase in Latissimus Dorsi Muscle Activity During the Lat Pull-Down Following Expert Instruction”. Journal of Strength and Conditioning Research 23 (8): 2204–9. <https://doi.org/10.1519/JSC.0b013e3181bb7213>.
