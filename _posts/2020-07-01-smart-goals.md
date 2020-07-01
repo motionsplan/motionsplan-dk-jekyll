@@ -18,6 +18,8 @@ last_modified_at: 2020-07-01T08:14:14Z
 toc: true
 ---
 
+Jeg sætter ofte nye målsætninger, og jeg bruger SMART-modellen til at formulere mine egne mål, men jeg går endnu mere i dybden med målsætning i dette indlæg.
+
 I dag vil jeg gerne præsentere målsætning for dig som et rigtig godt redskab til at **garantere fremgang i din træning**.
 
 Jeg arbejder selv meget struktureret med målsætning - og jeg har opstillet nogle mål for min træning, som jeg gerne vil opfylde.
