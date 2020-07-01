@@ -1,5 +1,5 @@
 ---
-title: "Biohacker: Guide og inspiration til hvad biohacking er?"
+title: "Biohacker: Definition og guide til hvad biohacking er?"
 permalink: /hvad-er-biohacking/
 language: da
 header:
