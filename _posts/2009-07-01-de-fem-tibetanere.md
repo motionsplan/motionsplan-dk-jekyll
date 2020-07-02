@@ -103,3 +103,5 @@ Riterne i de 5 tibetanere vække dine chakraer og stimulerer dem til at rotere h
 Livsenergien kan kun cirkulere i kroppen, hvis chakraerne fungerer ordentligt og i samme hastighed. 
 
 Jeg har været glad for at bruge de fem tibetanere som morgenmotion eller træning, hvis jeg ikke hr så meget træningsmotivation.
+
+Vi har et andet indlæg her på sitet, der handler om [Mindfulness meditation]({% link _posts/2010-10-05-mindfullness-meditation.md %}).
