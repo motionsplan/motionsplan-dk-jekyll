@@ -8,7 +8,7 @@ header:
   caption: Photo by Anupam Mahapatra on Unsplash
   overlay_filter: 0.2
 category:
-  - Viden om
+  - Yoga
 tags:
   - yoga
   - musik

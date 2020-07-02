@@ -42,21 +42,22 @@ layout: default
             </nav>
           </aside>
         {% endif %}
+
+        {{ page.excerpt }}
+
         {% if page.video %}
           {% include video provider=page.video.provider id=page.video.id %}
+        {% endif %}
+
+        {{ content }}
+
+        {% if page.gallery.size > 0 %}
+          {% include gallery id="gallery" %}
         {% endif %}
 
         {% if page.alternative_titles.size > 0 %}
           <p><strong>Alternative navne</strong>: {{ page.alternative_titles | join: ", " }}</p>
         {% endif %}
-        
-        {{ page.excerpt }}
-
-        {% if page.gallery.size > 0 %}
-          {% include gallery id="gallery" %}
-        {% endif %}
-        
-        {{ content }}
         
         <div>
           {% if page.muscle_group and page.muscle_group != "" and page.muscle_group.size > 0 %}
