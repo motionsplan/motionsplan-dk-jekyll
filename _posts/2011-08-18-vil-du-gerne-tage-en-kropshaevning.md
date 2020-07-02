@@ -1,5 +1,5 @@
 ---
-title: "Vil du gerne tage en kropshævning?"
+title: "Kropshævninger: Lær at tage en pullup og chinup?"
 permalink: /artikel/vil-du-gerne-tage-en-kropshaevning
 language: da
 header:
@@ -30,3 +30,5 @@ Når du trænet op til at kunne hænge i baren, er du klar til det egentlige tr�
 - **3. dag: Superlangsom nedsænkning.** Start med bøjede arme og sænk dig så langsomt som du overhovedet kan. Lav 5 - 6 gentagelser.
 
 Har du andre forslag til, hvordan man kan komme i gang med at lave en kropshævning?
+
+Jeg har skrevet lidt mere om [forskellen på chinups og pullups her]({% link _posts/2020-06-30-pullup-chinup.md %})
