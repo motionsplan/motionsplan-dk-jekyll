@@ -33,6 +33,8 @@ Måske sker dette op til 100 gange for dig under en meditation - at du opdager t
 - **Siddende meditation**: Du sidder på en stol med ret ryg, afslappede skuldre, hænderne på lårene med håndfladerne opad, evt. med en blid kontakt mellem tommeltot og pegefingerens spidser. Denne håndbevægelse er ikke religiøs, men sikrer i stedet du forbliver i kroppen, er jordnær, og ikke flyder væk i tanker, men er til stede lige nu - vågen og opmærksom.
 - **Fokus på åndedrættet**. Håndbevægelsen kan også laves på andre tidspunkter i løbet af dagen, og kan minde dig om at trække vejret uhindret, slippe tankerne (især bekymringerne) og være til stede, lige nu.
 
+Hvis du er interesseret i at læse lidt om musik til mindfulness og yoga, så har jeg skrevet et [andet indlæg med fem tips til at vælge det rigtige musik]({% link _posts/2020-07-02-musik-yoga.md %}). Du skal naturligvis også lige kigge forbi vores mest populære indlæg, som handler om [yogaøvelserne De Fem Tibetanere]({% link _posts/2009-07-01-de-fem-tibetanere.md %}).
+
 [![](https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=37797)](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=37797)
 
 [![](https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=38087)](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38087)
