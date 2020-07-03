@@ -64,6 +64,8 @@ Zajkowski (2002) rapporterede, at kompressionsstrømper er mere effektive til at
 
 Kompressionsstrømper kan altså være med til at forbedre det venøse tilbageløb, og på den måde kan strømperne være med til at forhindre ødemer i musklerne.
 
+Du kan på [Sundhed.dk](https://www.sundhed.dk/borger/patienthaandbogen/hud/sygdomme/diverse/kompressionsstroemper/) læse mere om, hvad de forskellige grader af kompressionsstrømper betyder i forhold til sygdom; overfladiske åreknuder, åreforkalkning, venøs insufficiens og lymfødem, hvilket er uden for dette indlægs ramme.
+
 ### Hvordan virker kompressionsstrømper for raske mennesker under løb
 
 Jeg har ikke kunnet finde så mange studier af raske mennesker og kompressionsstrømper. Berry og McMurray (1987) viste med løb, at kompressionsstrømper ikke forbedrer den maskimale iltoptagelse (VO2-max), men resultererede i at mælkesyren i blodet efter træningen var lavere, end kontrolgruppen uden strømper.
@@ -96,13 +98,15 @@ Det er tydeligt, at der stadig mangler mere forskning for at kunne give et helt 
 
 Det ser dog ud til, at strømperne er en fordel ift. restitutionsfasen. Selvom Perrey et al (2009) ikke kunne finde forbedret restitution på de funktionelle parametre, så har flere studier vist, at ømheden kan være nedsat. Der er ingen studier der viser, at det er en ulempe at bruge strømperne.
 
-## Kan det betale sig at købe et par kompressionsstrømper?
+## Kan det betale sig at købe et par kompressionsstrømper til løb?
 
 Hvis man synes, at man har råd til strømperne, ser det ud til, at det kan være en fordel at bruge strømperne - især i restitutionsfasen.
 
 ### Hvad skal jeg kigge efter for at det virker?
 
 Strømperne skal købes efter størrelse på læggen, ikke skostørrelsen. Du bør derfor købe dem et sted, hvor de ved dette og ikke bare kigger efter din skostørrelse. Det første de skal tænke er: hvor er målebåndet, så jeg kan måle din læg.
+
+[Sahva](https://www.sahva.dk/private/kompression-og-stoettestroemper/forskellen-paa-kompressionsstroemper-og-stoettestroemper/) har en grundig oversigt over, hvad forskellen er på "Støttestrømper, rejsestrømper, løbestrømper, kompressionsstrømper og lymfødemstrømper".
 
 ## Hvad er det mest effektive pres?
 
@@ -140,5 +144,6 @@ Vi glæder os til at se mere forskning om kompressionsstrømper, og hvis du kan 
 - Perrey, S., A. Bringard, S. Racinais, K. Puchaux and N. Belluye. "Graduated Compression Stockings and Delayed Onset Muscle Soreness (P105)." The Engineering of Sport 7.1 (2008): 547-554.5.
 - [Joe Friel: Can socks make your faster?](http://www2.trainingbible.com/joesblog/2007/10/can-your-socks-make-you-faster.html)
 - [Joe Friel: Compression Socks Update](http://www.trainingbible.com/joesblog/2009/03/compression-socks-update.html)
+- Treseler, Christine, Walter R. Bixby, og Svetlana Nepocatych. 2016. “The Effect of Compression Stockings on Physiological and Psychological Responses after 5-Km Performance in Recreationally Active Females”. Journal of Strength and Conditioning Research 30 (7): 1985–91. <https://doi.org/10.1519/JSC.0000000000001291>.
 
 [![](https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=55589)](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55589)
