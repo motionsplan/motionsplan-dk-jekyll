@@ -1,7 +1,7 @@
 ---
 title: "Kompressionsstrømper: Virker det på præstation og restitution til løb?"
 permalink: /artikel/kompressionsstroemper-en-god-ide
-excerpt: "Kompressionsstrømper foretrækkes af flere og flere løbere, men hvad er effekten og virker kompressionsstrømper på præstationsevnen og restitutionen til løb - og er der bivirkninger?"
+excerpt: "Kompressionsstrømper foretrækkes af flere og flere løbere, men hvad er effekten og virker kompressionsstrømper på præstationsevnen og restitutionen til løb og cykling - og er der bivirkninger?"
 language: da
 header:
   overlay_image: /assets/images/blog/kompressionsstroemper-en-god-ide.jpg
@@ -44,7 +44,7 @@ Kompressionsstrømper har vundet størst indpas. Flere og flere løbere er begyn
 - forbedret restitution efter træningen
 - mindre hævelse ved flyrejser, hvilket betyder at man hurtigere kan komme til at træne
 
-Så det er interessant at undersøge om de overhovedet har nogen effekt?
+Så det er interessant at undersøge om kompressionsstrømper overhovedet har nogen effekt i forhold til træning?
 
 Kan kompressionsstrømper forbedre ens præstation under fx løb, og er der nogen grund til at have dem på før og efter træningen hos raske mennesker?
 
@@ -63,6 +63,8 @@ Kahn (2003) fandt ikke nogen forbedringer i folks evne til at træne hos folk me
 Zajkowski (2002) rapporterede, at kompressionsstrømper er mere effektive til at kontrollere, at blodet ikke flyder tilbage i venerne, end de var til at effektivisere venepumpen ved folk med trombose og varicose vener. Ibegbuna (2003) viste dog et signifikant forbedret venøst returløb hos folk med kronisk venøs _insufficiency_ uanset hvilken ganghastighed forsøgspersonerne havde.
 
 Kompressionsstrømper kan altså være med til at forbedre det venøse tilbageløb, og på den måde kan strømperne være med til at forhindre ødemer i musklerne.
+
+{% include figure image_path="https://www.sundhed.dk/content/cms/77/18277_ben-vener-venepumpe-normal4240x2915.jpg" caption="Venepumpen aktiveres når musklerne trækker sig sammen om venerne, hvorved blodet skubbes tilbage mod hjertet, og blodet kan ikke løbet tilbage pga. veneklapperne. Kompressionsstrømper siges at hjælpe på venepumpen. [Sundhed.dk](https://www.sundhed.dk/borger/patienthaandbogen/hjerte-og-blodkar/illustrationer/tegning/vener-og-venepumpen/)" %}
 
 Du kan på [Sundhed.dk](https://www.sundhed.dk/borger/patienthaandbogen/hud/sygdomme/diverse/kompressionsstroemper/) læse mere om, hvad de forskellige grader af kompressionsstrømper betyder i forhold til sygdom; overfladiske åreknuder, åreforkalkning, venøs insufficiens og lymfødem, hvilket er uden for dette indlægs ramme.
 
@@ -98,11 +100,37 @@ Det er tydeligt, at der stadig mangler mere forskning for at kunne give et helt 
 
 Det ser dog ud til, at strømperne er en fordel ift. restitutionsfasen. Selvom Perrey et al (2009) ikke kunne finde forbedret restitution på de funktionelle parametre, så har flere studier vist, at ømheden kan være nedsat. Der er ingen studier der viser, at det er en ulempe at bruge strømperne.
 
+## Hvordan virker kompressionsstrømper?
+
+CEP, som er en af de store producenter af kompressionsstrømper, har lavet denne video, som glimrende forklarer baggrunden for kompressionsløbestrømper.
+
+{% include video provider="youtube" id="THCM7fe5Z-8" %}
+
+## Virker kompressionsstrømper på skinnebensbetændelse?
+
+Det er umuligt at give et retvisende svar på om kompressionsstrømper hjælper på skinnebensbetændelse. Der er ikke nogen videnskabelige studier, der har afprøvet strømpernes effekt på skinnebensbetændelse. 
+
+Teoretisk set så er strømperne med til at holde skinnebenene varme allerede i løbet af opvarmningen, hvilket kan have en positiv effekt på følelsen af skinnebensbetændelsen. Samtidig ser det ud til, at strømperne virker på restitutionen, hvilket sandsynligvis kan sikre at du hurtigere bliver klar til næste træningspas.
+
+Da jeg ikke har kunnet finde nogen bivirkninger ved strømperne, så kan det ikke skade at prøve kompressionsstrømper i forbindelse med skinnebensbetændelse, hvis du tror på deres effekt.
+
+I forhold til skinnebensbetændelse er der desværre ikke nogen let, sikker kur. Det skyldes at din krop ikke kan holde til de belastninger, du udsætter den for i det tempo du har introduceret belastningen.
+
 ## Kan det betale sig at købe et par kompressionsstrømper til løb?
 
 Hvis man synes, at man har råd til strømperne, ser det ud til, at det kan være en fordel at bruge strømperne - især i restitutionsfasen.
 
-### Hvad skal jeg kigge efter for at det virker?
+## Kompresssionsstrømper og cykling
+
+Flere studier har vist god effekt af kompressionsstrømper, når de anvendes under hvile. Argus et al (2013) fandt, at seriøse cykelmotionister kan øge effekten (watt), de kan træde under gentagne sprintpræstationer. 
+
+de Glanville et al (2012) fandt, at deltagerne i deres studie i gennemsnit skrællede 1,2 % af deres tid på en 40 km tidskørsel med brugen af kompressionsstrømperne under hvile inden præstationen.
+
+Millán et al (2013) fandt i lighed med resultaterne fra løberne, at strømperne kunne hjælpe med at fjerne laktat fra blodbanen, og derved forbedre den efterfølgende præstation for mandlige elitecyklister.
+
+Det er jo interessant, at kompressionsstrømper også kan virke for cyklister, men så vidt jeg ved, så er der strenge krav til længden på strømperne i cykelløb, hvilket formentlig også er årsagen til, at studiet med tidskørslen af de Glanville et al (2012) testede effekten af at have strømperne på inden præstationen.
+
+## Hvad skal jeg kigge efter for at det virker?
 
 Strømperne skal købes efter størrelse på læggen, ikke skostørrelsen. Du bør derfor købe dem et sted, hvor de ved dette og ikke bare kigger efter din skostørrelse. Det første de skal tænke er: hvor er målebåndet, så jeg kan måle din læg.
 
@@ -145,5 +173,8 @@ Vi glæder os til at se mere forskning om kompressionsstrømper, og hvis du kan 
 - [Joe Friel: Can socks make your faster?](http://www2.trainingbible.com/joesblog/2007/10/can-your-socks-make-you-faster.html)
 - [Joe Friel: Compression Socks Update](http://www.trainingbible.com/joesblog/2009/03/compression-socks-update.html)
 - Treseler, Christine, Walter R. Bixby, og Svetlana Nepocatych. 2016. “The Effect of Compression Stockings on Physiological and Psychological Responses after 5-Km Performance in Recreationally Active Females”. Journal of Strength and Conditioning Research 30 (7): 1985–91. <https://doi.org/10.1519/JSC.0000000000001291>.
+- Argus, Christos K., Matthew W. Driller, Tammie R. Ebert, David T. Martin, og Shona L. Halson. 2013. “The Effects of 4 Different Recovery Strategies on Repeat Sprint-Cycling Performance”. International Journal of Sports Physiology and Performance 8 (5): 542–48. <https://doi.org/10.1123/ijspp.8.5.542>.
+- Glanville, Kieran M. de, og Michael J. Hamlin. 2012. “Positive Effect of Lower Body Compression Garments on Subsequent 40-KM Cycling Time Trial Performance”. Journal of Strength and Conditioning Research 26 (2): 480–86. <https://doi.org/10.1519/JSC.0b013e318225ff61>.
+- San Millán, Iñigo, Kristen Bing, Carrie Brill, John C Hill, og Larry E Miller. 2013. “Randomized controlled trial of Micro-Mobile Compression® on lactate clearance and subsequent exercise performance in elite male cyclists”. Open Access Journal of Sports Medicine 4 (oktober): 221–27. <https://doi.org/10.2147/OAJSM.S51956>.
 
 [![](https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=55589)](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55589)
