@@ -41,7 +41,7 @@ Eliakim et al (2012) foreslår brugen af (motiverende) musik i restitutionsfasen
 
 Musik kan altså tilsyneladende både hjælpe under træningen til, at man træner hårdere uden at det føles hårdere, og efter træning for at kickstarte restitutionsfasen.
 
-## God musik til træningen
+## God musik til træning
 
 Musikvalget er vigtigt, og det skal passe til de aktiviteter, du laver. Jeg har alt for ofte selv bare sat noget tilfældigt musik på, når jeg underviser andre.
 
