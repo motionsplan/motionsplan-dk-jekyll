@@ -1,6 +1,6 @@
 ---
 title: "Extensor Carpi Radialis Longus"
-latin: Extensor Carpi Ulnaris
+latin: Extensor Carpi Radialis Longus
 tags:
   - imagemap
   - muskel

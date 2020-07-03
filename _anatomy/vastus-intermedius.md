@@ -17,7 +17,7 @@ image: https://www.healthguideline.net/wp-content/uploads/2019/07/Quadriceps-2BM
 image_focus: 
 ---
 
-"quadriceps," "quads" - the vastus medialis muscle forms part of the quadriceps femoris muscle group, along with rectus femoris, vastus lateralis, and vastus intermedius (vastus intermedius is not shown in the muscle anatomy section since it is located below rectus femoris).
+"quadriceps," "quads" - the vastus intermedius muscle forms part of the quadriceps femoris muscle group, along with rectus femoris, vastus lateralis, and vastus intermedius (vastus intermedius is not shown in the muscle anatomy section since it is located below rectus femoris).
 
 _{{ page.latin }}_
 
