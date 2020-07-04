@@ -26,7 +26,14 @@ feature_row:
     title: "Seger Compression Løbestrømper"
     excerpt: "Segers kompressions løbestrømper giver den optimale blodgennemstrømning i underbenet, hvilket giver dig mange fordele, når du løber. Til orientering har vi kun set studier på CEPs strømper."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=9397&htmlurl=https://www.billigsport24.dk/seger-compression-lobestromper-2-par-326708"
-    btn_label: "Læs mere"
+    btn_label: "Tjek pris"
+    btn_class: "btn--success"
+  - image_path: https://www.billigsport24.dk/media/catalog/product/w/s/ws50n0_green_herre.jpg
+    alt: "CEP Calf Sleeve"
+    title: "CEP Calf Sleeve"
+    excerpt: "Calf sleeve uden fod. Ergonomisk pasform. Microfiber teknologi for den bedste komfort. Antibakterielle og lugtreducerence egenskaber. Mesh ved læggen for bedre ventilation."
+    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=16532&htmlurl=https://www.billigsport24.dk/cep-compression-sleeves-green-mens"
+    btn_label: "Tjek pris"
     btn_class: "btn--success"
 ---
 
@@ -74,7 +81,7 @@ Jeg har ikke kunnet finde så mange studier af raske mennesker og kompressionsst
 
 Ali et al (2007) demonstrerede at efter 10 km løb hos let trænede (recreationally active) at det havde reduceret andendagsømhed (DOMS) 24 timer efter at de havde haft kompressionsstrømper på, men der var ingen forskel i det venøse returløb. Dette indikerer en hurtigere restitution. De viste heller ingen forskel under intervalløb.
 
-Perrey et al (2009) fandt også reduceret DOMS, når de bar strømperne i fem dage. De kunne dog ikke vise nogen fordel ift. behandling af styrke og funktionel nedsættelse.
+Perrey et al (2009) fandt også reduceret DOMS, når de bar strømperne i fem dage. De kunne dog ikke vise nogen fordel ift. behandling af styrke og funktionel nedsættelse (se også Beliard et al 2015).
 
 Kemmler et al (2009) undersøgte 21 moderat trænede mænd, som løb på et løbebånd til der selvvalgte maksimale ydeevne. De lavede en test med kompressionsstrømper og en uden kompressionsstrømper. Løbepræstationen på anaerobe grænse blev forbedret med 1,5% og på deres aerobe grænse på 2,1%.
 
@@ -176,5 +183,4 @@ Vi glæder os til at se mere forskning om kompressionsstrømper, og hvis du kan 
 - Argus, Christos K., Matthew W. Driller, Tammie R. Ebert, David T. Martin, og Shona L. Halson. 2013. “The Effects of 4 Different Recovery Strategies on Repeat Sprint-Cycling Performance”. International Journal of Sports Physiology and Performance 8 (5): 542–48. <https://doi.org/10.1123/ijspp.8.5.542>.
 - Glanville, Kieran M. de, og Michael J. Hamlin. 2012. “Positive Effect of Lower Body Compression Garments on Subsequent 40-KM Cycling Time Trial Performance”. Journal of Strength and Conditioning Research 26 (2): 480–86. <https://doi.org/10.1519/JSC.0b013e318225ff61>.
 - San Millán, Iñigo, Kristen Bing, Carrie Brill, John C Hill, og Larry E Miller. 2013. “Randomized controlled trial of Micro-Mobile Compression® on lactate clearance and subsequent exercise performance in elite male cyclists”. Open Access Journal of Sports Medicine 4 (oktober): 221–27. <https://doi.org/10.2147/OAJSM.S51956>.
-
-[![](https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=55589)](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55589)
+- Beliard, Samuel, Michel Chauveau, Timothée Moscatiello, François Cros, Fiona Ecarnot, og François Becker. 2015. “Compression Garments and Exercise: No Influence of Pressure Applied”. Journal of Sports Science & Medicine 14 (1): 75–83.

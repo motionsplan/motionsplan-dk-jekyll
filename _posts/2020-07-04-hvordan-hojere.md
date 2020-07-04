@@ -147,7 +147,7 @@ Det gælder især om at få nok mad, for ellers vil kroppen spare på de mest en
 
 Det skader aldrig noget at [fokusere på kosten](https://www.osteoporose-f.dk/knoglernes-udvikling/staerke-knogler-til-boern-og-unge/). Variation, grøntsager og tilstrækkeligt med kulhydrater, fedt og protein i en fornuftig fordeling.
 
-## Søvn kan også gavne
+## Søvn kan også gavne højden
 
 Når du sover godt, så giver du kroppen mulighed for at bygge sig selv op. Jeg oplever med mine børn, at de primært oplever “vokseværk”, når de er lagt i seng.
 
@@ -230,7 +230,6 @@ Du falder lidt sammen i løbet af dagen. Det kan du modvirke ved at lave fx str�
 Her er et par gode forslag til øvelser:
 
 - Stå fladt på fødderne i neutral position. Stræk armene op mod himlen så højt som muligt. Stræk hele kroppen så lang som muligt og gå op på tæer. Gentag øvelsen flere gange.
-
 - **Matrix-positionen**. Stå på begge ben. Læn dig tilbage i den stående position. Stræk armene i vejret og hold positionen i nogle sekunder. Måske skal du gøre det ved siden af din seng, så du har noget til at afbøde faldet, hvis du skulle falde bagover.
 
 ## Stræk kroppen ved at hænge fra en stang
