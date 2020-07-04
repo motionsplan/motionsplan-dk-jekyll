@@ -23,6 +23,19 @@ gallery:
     url: /assets/images/blog/female_mri.gif
     title: "Kvindelig muskel MRI"
     alt: "Kvindelig muskel MRI"
+feature_row:
+  - image_path: https://apuls.dk/image/catalog/Produkter/traeningsudstyr/fitwood/trolleveggen/FitWood_TROLLVEGGEN_chin_bar_pull_up_bar_white_wood_steel_bar_product_image1.jpg
+    alt: "Fitwood Pullupbar"
+    excerpt: "FitWood Trollveggen dørribbe er en multifunktionel chin-up/pull-up bar i lækkert scandinavisk design."
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/fitwood-trollveggen-dorribbe-hvid
+    btn_label: "Pris hos Apuls"
+    btn_class: "btn--success"
+  - image_path: https://apuls.dk/image/catalog/produkter-kina/pull-up-bar-lille/1.jpg
+    alt: "cPro9 Pullupbar"
+    excerpt: "cPro9 Pull Up Bar til dør, som er let monteres i en døråbning. Baren giver dig mange forskellige muligheder for greb."
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/fitwood-trollveggen-dorribbe-hvid
+    btn_label: "Pris hos Apuls"
+    btn_class: "btn--success"
 ---
 
 Pull ups og chinups er en fast del af min træning, og jeg synes alle bør mestre en kropshævning. Men hvad er forskellen egentlig på chinups og pullups?
@@ -189,6 +202,8 @@ De resterende forskelle i muskelaktivering var _ikke signifikante_ tendenser, s�
 - Supineret eller proneret betyder noget for aktiveringen af biceps, og derfor vil chinups aktivere biceps lidt mere end pullups, men ikke ret meget mere.
 
 Pullups og chinups ligner hinanden og bruger mange af de samme muskler. Man kan ikke entydigt sige, at en af variationerne er bedre end den anden. Det afhænger af dine mål.
+
+{% include feature_row type="left" %}
 
 ## Referencer
 
