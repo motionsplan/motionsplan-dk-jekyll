@@ -12,6 +12,11 @@ tags:
 category:
   - Webclips
 last_modified_at: 2020-05-28T20:39:39Z
+gallery:
+  - image_path: https://yourboots.dk/wp-content/uploads/2019/12/cool-framegrab-2048x871.png
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=71899&htmlurl=https://yourboots.dk/cool/
+    alt: Yourboots Cool
+    title: Yourboots Cool
 ---
 
 For nylig fik jeg anbefalet at spule mine ben med koldt vand efter mine løbeture for at restituere hurtigere. Nu er jeg ikke så vild med koldt vand, så jeg tog ikke min vens ord for det. 
@@ -67,6 +72,10 @@ Et koldt bad forbedrer tilsyneladende ikke restitutionstiden, så man kan udfør
 Hvis du gerne vil bruge isbade, skal du nok overveje kun at gøre det efter udholdenhedsaktiviteter, da de tilsyneladende kan hæmme din muskeltilvækst.
 
 Du skal også huske, at det er vanskeligt at lave et dobbeltblindet, placebo-kontrolleret studie. Man kan godt lave et studie, der sammenligner med en anden type restitutionsaktivitet, men hvis man ender i den kolde balje, så opdager man det i hvert fald.
+
+Hvis du gerne vil implementere isbade ind i din træning og restitution, så har [yourboots.dk lanceret et ret smart produkt med deres Cool sleeve](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=71899&htmlurl=https://yourboots.dk/cool/).
+
+{% include gallery caption="Tjek priserne for Cool hos [yourboots.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=71899&htmlurl=https://yourboots.dk/cool/)" %}
 
 Hvilke erfaringer har du med kolde isbade i forhold til din træning?
 
