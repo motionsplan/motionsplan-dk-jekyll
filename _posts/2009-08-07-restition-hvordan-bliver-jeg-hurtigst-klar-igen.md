@@ -37,7 +37,7 @@ Udspænding kan godt være en del af nedvarmningen, men hvis man kun har tid til
 
 Det ser ud til at [kompressionsstrømper kan være en god ide](/artikel/kompressionsstroemper-en-god-ide), når du vil forbedre din restitution og undgå anden-dags-ømhed.
 
-## Øvrige forslag - kan I hjælpe?
+## Øvrige forslag til restitution - kan I hjælpe?
 
 Derudover anbefaler IForm massage, akupunktur, grundig opvarmning, let træning og et koldt bad. Vi savner dokumentation for disse former, og hvis nogen af jer kender studier, er vi meget interesseret i at læse mere om det.
 

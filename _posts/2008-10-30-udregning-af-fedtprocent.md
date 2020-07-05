@@ -95,7 +95,7 @@ Fedtprocenten bliver med begge formler udregnet på baggrund af de samme oplysni
 
 - Tager ikke højde for om vægten skyldes muskler eller fedt eller din kropsbygning i det hele taget.
 
-Jeg har skrevet mere om [BMI og har lavet en beregner](/bmi/).
+Jeg har skrevet mere om [BMI og lavet en beregner](/bmi/).
 
 Du kan kombinere udregningen af fedtprocent med en øjemålstest. Så har du formentlig en nogenlunde ide om din fedtprocent ligger inden for et sundt spektrum.
 
