@@ -1,5 +1,5 @@
 ---
-title: "Roprogrmmer: Træningsprogrammer til ro- og kajaksporten"
+title: "Roprogrammer: Træningsprogrammer til ro- og kajaksporten"
 permalink: /artikel/ropro-traeningsprogrammer-til-ro-og-kajaksporten
 language: da
 header:
@@ -29,6 +29,6 @@ Anders Krintel skriver selv om Ropro.
 
 > Herværende roprogrammer er ment som inspiration og er ikke baseret på noget træningssystem. De er sorteret efter varighed/distance, og brugeren må ofte selv afgøre om intensiteten skal ligge i T1,2,3,4 eller 5. En pyramide kan eksempelvis gennemføres i T1 eller den kan roes med stigende og faldende intensitet. Når intensiteterne er programmernes egentlige pointe, er de dog alligevel anført.
 
---- <cite>[ropro.dk](http://www.ropro.dk)</cite>
+--- <cite>[Anders Krintel](http://www.ropro.dk)</cite>
 
 Kender du andre gode sider om roning?
