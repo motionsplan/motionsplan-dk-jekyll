@@ -1,7 +1,7 @@
 ---
 layout: single
-title: Led og bevægelser
-excerpt: "Mellem knoglerne er der led, som kan bevæge sig på forskellige måder for at give kroppen frihedsgrader."
+title: Led, ledtyper og bevægelser
+excerpt: "Mellem knoglerne er der led, som kan opdeles i forskellige ledtyper. Leddene kan bevæge sig på forskellige måder for at give kroppen frihedsgrader."
 permalink: /led/
 author_profile: true
 header:
@@ -47,7 +47,7 @@ Uægte led (ledbånd og symfyser)
 : Uægte led er led uden ledhule. I uægte led kan der kun forekomme små bevægelsesudslag. De uægte led kan noget forenklet opdeles i ledbånd og symfyser.
 
 Ægte led (hængselsled, drejeled, saddelled, ægled, kugleled og glideled)
-: Et ægte led har en ledhule
+: Et ægte led omsluttes af en ledkapsel, som beskytter leddet. Et ægte led har en ledhule. Et ægte led består af to ledflader typisk med et ledhoved og en ledskål.
 
 ## Ægte led
 
@@ -62,7 +62,7 @@ Leddene er omgivet af en ledkapsel, som består af bindevæv. Inderst i ledkapsl
 
 De ægte led kan bevæge sig. Størrelse, retning og størrelse på bevægelsesudslaget afhænger af formen på knoglerne, stramheden i ledkapselen og ledbåndene og smidigheden af musklerne omkring leddet. Det vigtigste parameter er knoglernes form, og derfor kan man (forenklet) opdele kroppens led i forskellige mekaniske typer.
 
-{% include figure image_path="https://slideplayer.dk/slide/2341220/8/images/18/Ledkapslen.jpg" alt="Opbyging af et led" caption="Opbygning af et led" %}
+{% include figure image_path="https://slideplayer.dk/slide/2341220/8/images/18/Ledkapslen.jpg" alt="Opbyging af et kroppens ægte led" caption="Opbygning af et ægte led" %}
 
 Kroppens led kan inddeles i seks mekaniske typer led.
 
@@ -70,7 +70,7 @@ Kroppens led kan inddeles i seks mekaniske typer led.
 
 {% include feature_row %}
 
-{% include figure image_path="https://s3-us-west-2.amazonaws.com/courses-images/wp-content/uploads/sites/1223/2017/02/08001845/Figure_38_03_04-883x1024.jpg" alt="Skelettet, led og ledtyper" caption="Ledtyper" %}
+{% include figure image_path="https://s3-us-west-2.amazonaws.com/courses-images/wp-content/uploads/sites/1223/2017/02/08001845/Figure_38_03_04-883x1024.jpg" alt="Skelettet, led og ledtyper: Ægled, drejeled, hængselsled, kugleled, glideled, saddelled" caption="Ledtyper: Ægled, drejeled, hængselsled, kugleled, glideled, saddelled" %}
 
 ## Uægte led
 
@@ -82,7 +82,9 @@ Ledbånd kender vi f.eks fra underbenet og foden, hvor tilstødende knogler hold
 
 ### Symfyser
 
-En symfyse er et uægte led, hvor der udover ledbåndsfibre er indskudt en blød kerne. Fibrene gør, at leddets knogler ikke kan trækkes væk fra hinanden, fuldstændigt som ved et ledbånd. Den bløde kerne gør, at leddets knogler heller ikke kan presses sammen, og dette er specielt for symfyser. Hvis knoglerne presses sammen, vil den bløde kerne blive trykket fladere og derved udvide sig mod siderne. Det forhindres imidlertid af ledbåndsfibrene, der ligger hele vejen rundt om kernen, der således kommer til at virke som en stødpude mellem knoglerne. En symfyse er altså både trækstærk (som alle andre typer led) og trykstærk. Det har vi brug for i rygsøjlen, der skal kunne bære stor vægt uden at hvirvlerne støder mod hinanden, så de er alle adskilt af symfyser. Leddet mellem de to skamben er også en symfyse.
+En symfyse er et uægte led, hvor der udover ledbåndsfibre er indskudt en blød kerne. Fibrene gør, at leddets knogler ikke kan trækkes væk fra hinanden, fuldstændigt som ved et ledbånd. Den bløde kerne gør, at leddets knogler heller ikke kan presses sammen, og dette er specielt for symfyser. 
+
+Hvis knoglerne presses sammen, vil den bløde kerne blive trykket fladere og derved udvide sig mod siderne. Det forhindres imidlertid af ledbåndsfibrene, der ligger hele vejen rundt om kernen, der således kommer til at virke som en stødpude mellem knoglerne. En symfyse er altså både trækstærk (som alle andre typer led) og trykstærk. Det har vi brug for i rygsøjlen, der skal kunne bære stor vægt uden at hvirvlerne støder mod hinanden, så de er alle adskilt af symfyser. Leddet mellem de to skamben er også en symfyse.
 
 ## Bevægelsestyper
 
@@ -92,7 +94,7 @@ Bevægelser kan foregå i tre forskellige planer.
 - Sagitale plan.
 - Transversale plan.
 
-{% include figure image_path="https://www.sci-sport.com/theorie/img/lightbox/t201.png" %}
+{% include figure image_path="https://www.sci-sport.com/theorie/img/lightbox/t201.png" caption="Illustration af sagitale, frontale og transversale plan" alt="Sagitale, frontale og transversale plan" %}
 
 ### Sagitale plan
 
@@ -113,5 +115,5 @@ Bevægelser kan foregå i tre forskellige planer.
 
 {% assign joints = site.anatomy | where: "tags", "led" %}
 {% for j in joints %}
-- **[{{ j.title }}]({{ j.url }})**.
+- **[{{ j.title }}]({{ j.url }})**. {{ j.excerpt }}
 {% endfor %}

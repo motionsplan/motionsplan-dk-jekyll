@@ -36,7 +36,7 @@ Polstringen gør, at stangen ligger højere på nakken end en almindelig squat s
 
 Typisk vil du derfor med en safety bar squatte lidt mere oprejst lidt ligesom du gør i en _front squat_.
 
-Chris Duffin fra Kabuki Strength siger, at en safety bar gør det meget lettere for folk, der har problemer med at komme dybt ned i en almindelig _back squat_ har færre problemer med at få rigeligt med dybde på en safety bar squat med en god teknik.
+Chris Duffin fra Kabuki Strength [siger](https://www.spreaker.com/user/anders_nedergaard/236-chris-duffin_1), at en safety bar gør det meget lettere for folk, der har problemer med at komme dybt ned i en almindelig _back squat_ har færre problemer med at få rigeligt med dybde på en safety bar squat med en god teknik.
 
 Når du laver front squat vil du efterhånden blive trukket lidt fremefter, særligt hvis du bliver træt i det øverste af ryggen og får problemer med at holde albuerne oppe.
 

@@ -36,7 +36,7 @@ Set fra siden er rygsøjlen S-formet med 4 krumninger, hvis man medtager haleben
 
 Den lige rygstrækker (Erector Spinae) er betegnelsen for den muskulatur, der løber op langs selve rygsøjlen. I virkeligheden er det ikke een muskel, men et helt kompleks af større og mindre muskler, der løber både lige op og på skrå.
 
-## Bevægelser
+## Bevægelser i rygsøjlen
 
 De forskellige bevægelser foregår forskellige steder i rygsøjlen. Vi undlader her at omtale halsens bevægelser.
 
