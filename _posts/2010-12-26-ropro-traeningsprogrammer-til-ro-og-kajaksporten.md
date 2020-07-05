@@ -12,7 +12,7 @@ tags:
   - kajak
 category:
   - Webclips
-last_modified_at: 2013-02-13T21:42:12Z
+last_modified_at: 2020-07-05T21:42:12Z
 ---
 
 Hvis du er bidt af vandet og elsker at træne roning eller kajak, så skal du have fingrene i de her roprogrammer. Der er masser af inspiration til træning og forskellige intervaller i ro- og kajaksporten.

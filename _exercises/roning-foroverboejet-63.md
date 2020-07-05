@@ -1,6 +1,6 @@
 ---
 title: "Roning, foroverbøjet"
-excerpt: "Hold vægten i strakte arme. Træk du den op mod maven. Sørg for at skulderbladene bevæger sig sammen."
+excerpt: "Stå foroverbøjet med ret ryg. Hold vægten i strakte arme. Træk du den op mod maven. Sørg for at skulderbladene bevæger sig sammen."
 instructions: "Hold vægten i strakte arme. Træk du den op mod maven. Sørg for at skulderbladene bevæger sig sammen."
 permalink: /oevelse/roning-foroverboejet/
 redirect_from: /node/63
