@@ -7,6 +7,7 @@ language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1514994806776-144805fdde34?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80
   teaser: https://images.unsplash.com/photo-1514994806776-144805fdde34?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  caption: "Musik til træningen: Vælg de bedste sange!"
 tags:
   - gode råd
   - træningsplanlægning
@@ -17,17 +18,18 @@ category:
 last_modified_at: 2020-06-15T15:18:24Z
 ---
 
-Jeg bruger ofte musik til træningen, når jeg underviser mine elever. Hvis jeg ikke lige er faldet over en podcast, og jeg er i humør til det, så bruger jeg også musik til min egen træning. Men hvordan finder man de bedste sange og får musikken til at give sig ekstra energi og motivation til træningen?
+Jeg bruger ofte musik til træningen, når jeg underviser mine elever. Hvis jeg ikke lige er faldet over en podcast, så bruger jeg også musik til min egen træning. Men hvordan finder man de bedste sange til træningen, så musikken kan give ekstra energi og motivation?
 
 **Hvis musikken passer til din træning, så kan den hjælpe med at få træningen til at virke lettere eller presse tempoet højere op. Derved kan træningen blive mere effektiv. Det bedste er, hvis du kan finde musik, der er synkront med dine bevægelser. Hvis det fx er løb, så passer 160-180 bpm rigtig godt for de fleste.**
 
 *[bpm]: beats per minute
+*[RPE]: Rate of Percieved Exertion
 
 Man kan kickstarte sin træningsmotivation ved at høre musik til træningen. Jeg oplever elever, der ikke kan løbe uden at have musik i ørerne eller insisterer på at have hovedtelefoner på, når de skal løfte noget tungt.
 
 Og videnskaben understøtter faktisk, at musik kan hjælpe i træningen. Lad os dykke lidt ned forskningen først.
 
-## Forskningen understøtter fornemmelsen om musik i træningen
+## Forskningen om musik i træningen
 
 De fleste af de studier, jeg har kunnet finde om musik i træningen, har ikke særlig mange forsøgspersoner, så studierne er lidt udfordret statistisk i forhold til at generalisere på baggrund af resultaterne. Du skal først og fremmest lytte til dig selv og din egen krop. Jeg kommer nok til at bruge musik lidt mere aktivt, når jeg underviser på baggrund af følgende.
 
@@ -56,7 +58,7 @@ Du kan analysere musik på mange forskellige måder. Noget af det vigtigste for 
 
 ## Musikkens tempo
 
-Men hvilken type musik skal man så vælge til sine aktiviteter. Det betyder altså noget, hvad beatet i musikken er. Lad os kigge på nogle forskellige tempi musikken kan have og finde hvilke aktiviteter musikstykkerne passer til.
+Men hvilken type musik skal man så vælge til sine aktiviteter. Det betyder altså noget, hvad beatet i musikken er. Lad os kigge på nogle forskellige tempi musikken kan have og finde hvilke aktiviteter musikstykkerne passer til. Tempoet angives ofte i [beats per minute (BPM)](https://da.wikipedia.org/wiki/Beats_per_minute).
 
 > Tempoet angiver simpelthen hvor hurtig grundtakten eller pulsen i et musikstykke er, og er ofte udgangspunktet for at vurdere et musikstykkes egnethed til opvarmning. Tempo oftest i Beats per minute (taktslag pr. minut).
 > 
@@ -88,29 +90,29 @@ Når musikken mere skal bruges som baggrundsmotivation, så er det vigtigst, at 
 
 Her er nogle eksempler på musikstykker i forskellig tempo.
 
-#### Sving: 70 bpm --- Timbaland - 2 man show
+**Sving: 70 bpm --- Timbaland - 2 man show**
 
-<iframe src="https://open.spotify.com/embed?uri=spotify%3Atrack%3A5wsENdyZpOv7w7Jc5ehkUC" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe src="https://open.spotify.com/embed?uri=spotify%3Atrack%3A5wsENdyZpOv7w7Jc5ehkUC" width="600" height="100" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-#### Styrkeøvelser: 85 bpm --- Arctic Monkeys - Do I Wanna Know?
+**Styrkeøvelser: 85 bpm --- Arctic Monkeys - Do I Wanna Know?**
 
-<iframe src="https://open.spotify.com/embed?uri=spotify%3Atrack%3A5FVd6KXrgO9B3JPmC8OPst" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe src="https://open.spotify.com/embed?uri=spotify%3Atrack%3A5FVd6KXrgO9B3JPmC8OPst" width="600" height="100" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-#### Gang: 105 bpm --- Gang: Kongos - Come With Me Now
+**Gang: 105 bpm --- Gang: Kongos - Come With Me Now**
 
-<iframe src="https://open.spotify.com/embed?uri=spotify%3Atrack%3A2kWowW0k4oFymhkr7LmvzO" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe src="https://open.spotify.com/embed?uri=spotify%3Atrack%3A2kWowW0k4oFymhkr7LmvzO" width="600" height="100" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-#### Gang og Hop: 117 bpm --- Estelle - American Boy
+**Gang og Hop: 117 bpm --- Estelle - American Boy**
 
-<iframe src="https://open.spotify.com/embed?uri=spotify%3Atrack%3A3doSc40sdXfuwHV9mnJbhH" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe src="https://open.spotify.com/embed?uri=spotify%3Atrack%3A3doSc40sdXfuwHV9mnJbhH" width="600" height="100" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-#### Løb: 160 bpm --- Pharrell Williams - Happy
+**Løb: 160 bpm --- Pharrell Williams - Happy**
 
-<iframe src="https://open.spotify.com/embed?uri=spotify%3Atrack%3A60nZcImufyMA1MKQY3dcCH" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe src="https://open.spotify.com/embed?uri=spotify%3Atrack%3A60nZcImufyMA1MKQY3dcCH" width="600" height="100" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-#### Udstrækning: 76 bpm --- Ed Sheeran - I See Fire
+**Udstrækning: 76 bpm --- Ed Sheeran - I See Fire**
 
-<iframe src="https://open.spotify.com/embed?uri=spotify%3Atrack%3A3B7udSGy2PfgoCniMSb523" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe src="https://open.spotify.com/embed?uri=spotify%3Atrack%3A3B7udSGy2PfgoCniMSb523" width="600" height="100" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 ## Musik til løbetræningen
 
