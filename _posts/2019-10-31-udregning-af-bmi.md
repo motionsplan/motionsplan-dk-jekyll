@@ -1,17 +1,19 @@
 ---
 title: "Udregn BMI for voksne og børn - Komplet guide og beregner"
 permalink: /bmi/
-excerpt: "Body Mass Index (BMI) den mest udbredte metode til at bestemme om man er normalvægtig, undervægtig eller overvægtig. Beregn selv dit BMI i vores beregner, se formler og tabeller for børn og voksne."
+excerpt: "Body Mass Index (BMI) den mest udbredte metode til at bestemme om man er normalvægtig, undervægtig eller overvægtig. Beregn selv dit BMI i vores beregner, se formel og tabeller for børn og voksne."
 language: da
 header:
   overlay_image: https://helseboost.dk/filer/bmi-1500x960.jpg
   teaser: https://helseboost.dk/filer/bmi-1500x960.jpg
+  caption: Udregn BMI med vores beregner og se formel
 category:
   - Beregnere
   - Test
 tags:
   - kropskomposition
   - udregning
+  - formel
 last_modified_at: 2019-03-06T23:14:14Z
 ---
 
@@ -22,14 +24,14 @@ Jeg sidder og læser et glitrende magasin om sport og helse, og endnu engang ser
 
 **Body Mass Index (BMI) er en enkel matematisk formel for sammenhængen mellem personers højde og vægt. Formlen bruges til at vurdere undervægt, normalvægt og overvægt i større befolkningsgrupper, fordi BMI tilsyneladende har en sammenhæng med fedtprocenten. BMI bruges også ofte til at indikere under- og overvægt hos enkelte personer, men bør ikke bruges til præcise målinger hos individuelle.**
 
-Vi har lavet en beregner, hvor du få udregnet dit BMI og få en vurdering med det samme. Ud fra beregningen kan du sammenligne dig med _det normale_ og få et bud på, hvad din idealvægt er. 
+Vi har lavet en beregner, hvor du få udregnet dit BMI baseret på den originale formel og få en vurdering med det samme. Ud fra beregningen kan du sammenligne dig med _det normale_ og få et bud på, hvad din idealvægt er. 
 
 Fordelen ved BMI er, at det er utrolig let at bruge. Derfor bliver BMI-udregninger også brugt mange steder, men ofte uden nærmere forklaringer af, hvad BMI er. At bruge BMI på individuelt niveau er forbundet med en række forbehold, så husk at læse lidt videre.
 
 Jeg har i dette indlæg forsøgt at svare på følgende spørgsmål:
 
 - Hvad er Body Mass Index (BMI) helt præcist?
-- Hvordan kan du beregne BMI?
+- Hvordan kan du beregne BMI? Hvilken formel bruges til BMI?
 - Hvilke grænseværdier er der for din idealvægt? Hvad er din ideelle kropsvægt ifølge BMI-udregningen?
 - Hvilke fordele og ulemper er der ved at beregne BMI?
 
@@ -66,7 +68,7 @@ Du kan læse lidt mere om [retfærdig vurdering af overvægtiges kondition](/kon
 
 BMI har vist sig at være et godt værktøj til at beskrive forekomsten af overvægt i større befolkningsgrupper. Når man kigger på tilstrækkeligt mange personer på en gang, så forsvinder “afvigerne” og gennemsnitsværdierne er et fornuftigt udtryk for forekomsten af overvægt og fedme i større populationer.
 
-## Hvordan udregnes BMI?
+## Formel: Hvordan udregnes BMI?
 
 BMI er let at udregne, når du kender din højde (meter) og din vægt (kg):
  
