@@ -1,7 +1,7 @@
 ---
-title: "Udregn BMI for voksne og børn - Komplet guide og beregner"
+title: "Udregn BMI: Komplet guide og beregner for voksne og børn"
 permalink: /bmi/
-excerpt: "Body Mass Index (BMI) den mest udbredte metode til at bestemme om man er normalvægtig, undervægtig eller overvægtig. Beregn selv dit BMI i vores beregner, se formel og tabeller for børn og voksne."
+excerpt: "Body Mass Index (BMI) den mest udbredte metode og test til at bestemme om man er normalvægtig, undervægtig eller overvægtig. Beregn selv dit BMI i vores beregner, se formel og tabeller for børn og voksne."
 language: da
 header:
   overlay_image: https://helseboost.dk/filer/bmi-1500x960.jpg
@@ -22,7 +22,7 @@ last_modified_at: 2019-03-06T23:14:14Z
 
 Jeg sidder og læser et glitrende magasin om sport og helse, og endnu engang ser jeg udregninger om body mass index (BMI) uden at gå i dybden med, hvad det egentlig måler. Derfor satte jeg mig ned for at researche lidt på, hvad BMI er, og hvordan BMI kan bruges for os almindelige mennesker?
 
-**Body Mass Index (BMI) er en enkel matematisk formel for sammenhængen mellem personers højde og vægt. Formlen bruges til at vurdere undervægt, normalvægt og overvægt i større befolkningsgrupper, fordi BMI tilsyneladende har en sammenhæng med fedtprocenten. BMI bruges også ofte til at indikere under- og overvægt hos enkelte personer, men bør ikke bruges til præcise målinger hos individuelle.**
+**Body Mass Index (BMI) er en enkel matematisk formel for sammenhængen mellem personers højde og vægt. Formlen bruges til at vurdere undervægt, normalvægt og overvægt i større befolkningsgrupper, fordi BMI tilsyneladende har en sammenhæng med fedtprocenten. BMI bruges også ofte som test til at indikere under- og overvægt hos enkelte personer, men bør ikke bruges til præcise målinger hos individuelle.**
 
 Vi har lavet en beregner, hvor du få udregnet dit BMI baseret på den originale formel og få en vurdering med det samme. Ud fra beregningen kan du sammenligne dig med _det normale_ og få et bud på, hvad din idealvægt er. 
 
@@ -80,7 +80,7 @@ Eksempelvis vejer jeg selv 80 kg og jeg er 1,81 m høj. Mit BMI er altså:
 
 Ifølge BMI holder jeg mig lige netop inden for normalområdet, men lad os se på, hvordan vi kan fortolke BMI.
  
-## Hvad er et sundt BMI-tal?
+## Test: Hvad er et sundt BMI-tal?
 
 Disse tabeller for BMI retter sig mod voksne mænd og kvinder i alderen med en højde i normalområdet og fra omkring 20 år og opefter.
 
@@ -174,7 +174,7 @@ Generelt skal der tages disse forbehold ved vurderingen af BMI:
 - Ved samme BMI har atleter mindre kropsfedt end ikke-atleter.
  
 Forskere har også foreslået, at man på baggrund af alder og vægt kan udregne sin fedtprocent. Vi har også lavet en [beregner til beregne fedtprocenten]({% link _posts/2008-10-30-udregning-af-fedtprocent.md %}).
- 
+
 ## Ulemper ved BMI?
 
 - BMI tager kun højde for din vægt og højde. To personer kan sagtens have den samme højde og vægt uden at have den samme kropsbygning. Den ene kan have en høj muskelmasse eller motionere meget mere end den anden.
@@ -200,7 +200,7 @@ Det hele er naturligvis en balance, og man skal nok ikke være klassificeret som
 
 Sundhed og helbred handler om så meget mere end under- og overvægt.
 
-## BMI kan være misvisende   
+## Test af BMI kan være misvisende   
 
 Drop BMI og overvægt som indikator for, om din krop er sund eller ej. Måleenheden kan være direkte misvisende, viser amerikansk forskning fra University of California. Selv om du har et højt BMI, kan du sagtens være fuldstændig sund og rask!
 
