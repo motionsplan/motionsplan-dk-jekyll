@@ -1,5 +1,5 @@
 ---
-title: "De fem tibetanere"
+title: "De fem tibetanere: 5 yoga riter"
 permalink: /artikel/de-fem-tibetanere
 language: da
 header:
@@ -14,16 +14,16 @@ category:
 last_modified_at: 2020-06-15T20:41:09Z
 feature_row:
   - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/1000x/9df78eab33525d08d6e5fb8d27136e95/d/e/de-fem-tibetanere-1.jpg
-    alt: "De fem tibetanere"
+    alt: "De 5 tibetanere"
     title: "Peter Kelder - de fem tibetanere (bog 1)"
-    excerpt: "Den gamle hemmelighed om ungdommens kilde. Denne bog om fem gamle tibetanske kropsøvelser har gået sin sejrsgang over det meste af den vestlige verden. Den har indtil nu solgt i over 2 millioner eksemplarer bare i Tyskland og USA. Du lærer her fem enkle øvelser, som giver fornyet livskraft og velvære. Øvelserne er lette at udføre, og du bestemmer selv, hvor megen tid du vil bruge på dem. "
+    excerpt: "Den gamle hemmelighed om ungdommens kilde. Denne bog om 5 gamle tibetanske kropsøvelser har gået sin sejrsgang over det meste af den vestlige verden. Den har indtil nu solgt i over 2 millioner eksemplarer bare i Tyskland og USA. Du lærer her fem enkle øvelser, som giver fornyet livskraft og velvære. Øvelserne er lette at udføre, og du bestemmer selv, hvor megen tid du vil bruge på dem. "
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-bog-1"
     btn_label: "Læs mere"
     btn_class: "btn--success"
   - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/1000x/9df78eab33525d08d6e5fb8d27136e95/d/e/1294-de-fem-tibetanere-bog-2.gif
-    alt: "De fem tibetanere"
+    alt: "De 5 tibetanere"
     title: "Peter Kelder - de fem tibetanere (bog 2)"
-    excerpt: "Bog - Den gamle hemmelighed om ungdommens kilde - Opfølgeren til bog nr. 1. Denne bog er på 302 sider og noget mere omfattende end bog nr. 1. Du bliver blandt andet præsenteret for den sjette tibetaner."
+    excerpt: "Den gamle hemmelighed om ungdommens kilde er opfølgeren til bog nr. 1 om De 5 tibetanere. Denne bog er på 302 sider og noget mere omfattende end bog nr. 1. Du bliver blandt andet præsenteret for den sjette tibetaner."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-bog-2"
     btn_label: "Læs mere"
     btn_class: "btn--success"
