@@ -96,7 +96,7 @@ Hårdheden af de enkelte træningspas bliver bestemt af den intensitet du bruger
 
 ## Intervaller til roning
 
-### 5’er pyramiden
+### Sixty seconds off staircase
 
 - 5 x 210/30
 - 5 x 150/30
@@ -109,7 +109,7 @@ Således varer grupperne henholdsvis 20, 15, 10 og 5 minutter.
 
 Er nem at forlænge eller forkorte ved at fjerne en gruppe i den ene eller anden ende.
 
-### 6 x 131
+### 6-18-6 pyramide
 
 - 6x1
 - 6x3
@@ -119,13 +119,13 @@ Såre simpel: seks gange ét minut, seks gange tre og igen seks gange ét.
 
 Jeg holder bare 1 minuts pause for hver.
 
-### Tidspyramiden
+### Pyramid of fours
 
 En eller to omgange af (1111 22 4 22 1111 minutter)
 
 Hele tiden med 1 minuts pause.
 
-### Krintels favorit-intervaller
+### Krintels Favorit
 
 Den her ror Krintel selv ofte for tiden, fordi den er et godt miks mellem lidt længere intervaller og lidt korter intervaller
 
@@ -133,17 +133,21 @@ Den her ror Krintel selv ofte for tiden, fordi den er et godt miks mellem lidt l
 
 En runde = 18 minutter. Der er en pause på 2 minutter mellem de enkelte serier i intervallerne.
 
-### Omvendt faldende pyramide
+### Omvendte trappe
 
 Krintel kan godt lide, når tallene passer sammen. Hans kommentar til dette interval til roning er bare: “Er det ikke smukt?”
 
-54321 4321 321 21 1
+- 54321
+- 4321
+- 321
+- 21
+- 1
 
 Hele tiden 1 minutters pause mellem de enkelte intervaller.
 
 {% include figure image_path="https://images.unsplash.com/photo-1519505907962-0a6cb0167c73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" caption="Den mest anerkendte indendørs romaskine er Concept2. Du kan tjekke prisen hos [fitnessgruppen.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/concept-2-model-d-sort-pm5/)" alt="Concept2: Ro programmer med intervaller til et indendørs træningsprogram til roning med intervaltræning" %}
 
-### Tre blokke af halvfems sekunder vendes op og ned
+### 90 seconds shuffle
 
 - 15 minutter 60/30
 - 15 minutter 45/45
@@ -163,7 +167,7 @@ I hvert sæt ror du 1000 meter, som du fordeler mellem et hårdere interval, og 
 
 Disse intervaller er lette at forlænge eller forkorte, men du får nok mest brug for at forkorte dem.
 
-### EMO2M --- hvert andet minut
+### EMO2M pyramide
  
 1-2 serier x (30 sek – 35 – 40 – 45 – 50 – 55 – 60 – 55 – 50 – 45 – 40 – 35 - 30)
 
@@ -173,7 +177,7 @@ Pauserne i dette interval bliver således kortere og kortere, indtil de bliver l
 
 Én runde varer i alt 26 minutter.
  
-### 200 meters pause fra arbejdet
+### 1000 meter trappe
 
 Igen passer tallene sammen i dette distancebaserede intervalprogram til roning. Krintel kommenterer selv symmetrien i programmet med: “Det er så smukt, at man får en klump i halsen!”
 
