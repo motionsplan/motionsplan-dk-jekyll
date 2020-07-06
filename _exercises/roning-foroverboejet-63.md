@@ -1,8 +1,10 @@
 ---
 title: "Bent over rows"
 instructions: "I bent over rows står man i en let bredstående stilling med fødderne og foroverbøjet. Grib fat i stangen med enten med overhåndsgreb eller underhåndsgreb. Hældningen i overkroppen er lige omkring vandret. Træk vægtstangen op mod navlen eller brystet. Forestil dig at du klemmer noget sammen mellem skulderbladene samtidig med, at du trækker vægten op mod maven. Forestil dig at vægten trække lige op og ned."
-permalink: /oevelse/roning-foroverboejet/
-redirect_from: /node/63
+permalink: /oevelse/bent-over-rows-bor/
+redirect_from:
+  - /node/63
+  - /oevelse/roning-foroverboejet/
 id: 63
 language: da
 header:
@@ -38,6 +40,7 @@ alternative_titles:
   - bent over rows
   - barbell rows
   - stående roning
+  - BOR
 gallery:
   - url: /assets/images/exercises/roning-foroverboejet-0.jpg
     image_path: /assets/images/exercises/roning-foroverboejet-0-320.jpg
@@ -53,7 +56,7 @@ video:
 last_modified_at: 2020-07-06T16:08:18Z
 ---
 
-_Bent over rows_ er en af de mest udbredte basisøvelser for ryggen. Bent over rows er en horisontal trækøvelse, hvor du træner den brede rygmuskel, øvre del af ryggen, nakken, lænden og biceps alt afhængig af, hvordan du udfører øvelsen.
+_Bent over rows_ (BOR) er en af de mest udbredte basisøvelser for ryggen. Bent over rows er en horisontal trækøvelse, hvor du træner den brede rygmuskel, øvre del af ryggen, nakken, lænden og biceps alt afhængig af, hvordan du udfører øvelsen.
 
 I bent over rows står man i en let bredstående stilling med fødderne og foroverbøjet. Grib fat i stangen med enten med overhåndsgreb eller underhåndsgreb. Hældningen i overkroppen er lige omkring vandret. Træk vægtstangen op mod navlen eller brystet. Forestil dig at du klemmer noget sammen mellem skulderbladene samtidig med, at du trækker vægten op mod maven. Forestil dig at vægten trække lige op og ned.
 
