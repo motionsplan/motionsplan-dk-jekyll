@@ -14,7 +14,7 @@ tags:
   - løb
   - indirekte test
   - submaksimal test
-last_modified_at: 2019-03-06T23:14:14Z
+last_modified_at: 2020-05-06T23:14:14Z
 toc: true
 ---
 
@@ -55,6 +55,32 @@ Der findes også formler, der inkluderer vægt, køn og alder. Hvis du bruger Co
 ## Usikkerheder i Cooper-testen
 
 12 minutters Cooper-test er forbundet med nogen usikkerhed. Fx vil folk med ekstrem god løbeøkonomi få overvurderet deres iltoptagelse, og folk med meget dårlig løbeøkonomi vil få undervurderet deres iltoptagelse.
+
+## Tabel over resultater fra Cooper-test
+
+### Mænd
+
+| Alder | Køn | Meget godt | Godt | Nogenlunde | Dårligt | Meget dårligt |
+|-|-|-|-|-|-|-|-|
+| 11-14 | 2500+ m | 2400 - 2600 m | 2200 - 2399 m | 2100 - 2199 m | op til 1400 m |
+| 15-16 | 2800+ m | 2500 - 2800 m | 2300 - 2499 m | 2200 - 2299 m | op til 2200 m |
+| 17-20 | 3000+ m | 2700 - 3000 m | 2500 - 2699 m | 2300 - 2499 m | op til 2300 m |
+| 21-29 | 2800+ m | 2400 - 2800 m | 2200 - 2399 m | 1600 - 2199 m | op til 1600 m |
+| 30-39 | 2700+ m | 2300 - 2700 m | 1900 - 2299 m | 1500 - 1899 m | op til 1500 m |
+| 40-49 | 2500+ m | 2100 - 2500 m | 1700 - 2099 m | 1400 - 1699 m | op til 1400 m |
+| 50+ | 2400+ m | 2000 - 2400 m | 1600 - 1999 m | 1300 - 1599 m | op til 1300 m |
+
+### Kvinder
+
+| Alder | Køn | Meget godt | Godt | Nogenlunde | Dårligt | Meget dårligt |
+|-|-|-|-|-|-|-|-|
+| 11-14 | 1700+ m | 1400 - 1700 m | 1100 - 1400 m | 800 - 1100 m | op til 1600 m |
+| 15-16 | 2100+ m | 2000 - 2100 m | 1700 - 1999 m | 1600 - 1699 m | op til 1600 m |
+| 17-20 | 2300+ m | 2100 - 2300 m | 1800 - 2099 m | 1700 - 1799 m | op til 1700 m |
+| 21-29 | 2700+ m | 2200 - 2700 m | 1800 - 2199 m | 1500 - 1799 m | op til 1500 m |
+| 30-39 | 2500+ m | 2000 - 2500 m | 1700 - 1999 m | 1400 - 1699 m | op til 1400 m |
+| 40-49 | 2300+ m | 1900 - 2300 m | 1500 - 1899 m | 1200 - 1499 m | op til 1200 m |
+| 50+ | 2200+ m | 1700 - 2200 m | 1400 - 1699 m | 1100 - 1399 m | op til 1100 m |
 
 ## Referencer til Cooper-test
 

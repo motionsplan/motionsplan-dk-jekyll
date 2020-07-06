@@ -37,7 +37,7 @@ Jeg har været på udkig efter et træningsprogram til indendørs roning på rom
 
 Jeg vil gerne i gang med at ro lidt på romaskine for at genvinde lidt af min kondition. Derfor skrev jeg til Anders Krintel, som ved virkelig meget om at ro, og han var så venlig at give mig nogle af de bedste intervalprogrammer fra hans hjemmeside.
 
-{% include figure image_path="https://www.tvsyd.dk/files/styles/16_9_medium_2x/public/kaltura/2014/50/efe7144d-f067-4379-90d4-b29f8cd9028c.jpg" caption="Anders Krintel - redaktør af [ropro.dk](http://ropro.dk/)" alt="Anders Krintel har lavet ro programmer med intervaller til et indendørs træningsprogram til roning med intervaltræning" %}
+{% include figure image_path="https://www.tvsyd.dk/files/styles/16_9_medium_2x/public/kaltura/2014/50/efe7144d-f067-4379-90d4-b29f8cd9028c.jpg" caption="Anders Krintel er  redaktør af [ropro.dk](http://ropro.dk/). Samtidig har Krintel været dansk mester omkring 40 gange kombineret i kano, kajak og kajakergomenter." alt="Anders Krintel har lavet ro programmer med intervaller til et indendørs træningsprogram til roning med intervaltræning" %}
 
 Formålet med dette indlæg er selv at blive i stand til at udvælge intervaller til sit træningsprogram. Du kan naturligvis også bare ro kontinuerligt, men jeg kan godt lide at bryde min træning ned i intervaller.
 
