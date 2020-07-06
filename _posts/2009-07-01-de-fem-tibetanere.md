@@ -23,13 +23,13 @@ feature_row:
   - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/1000x/9df78eab33525d08d6e5fb8d27136e95/d/e/1294-de-fem-tibetanere-bog-2.gif
     alt: "De fem tibetanere"
     title: "Peter Kelder - de fem tibetanere (bog 2)"
-    excerpt: "Bog - Den gamle hemmelighed om ungdommens kilde - Opfølgeren til bog nr. 1. Denne bog er på 302 sider og noget mere omfattende end bog nr. 1. Forskellige forfattere har givet deres bidrag til denne meget spændende bog. "
+    excerpt: "Bog - Den gamle hemmelighed om ungdommens kilde - Opfølgeren til bog nr. 1. Denne bog er på 302 sider og noget mere omfattende end bog nr. 1. Du bliver blandt andet præsenteret for den sjette tibetaner."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-bog-2"
     btn_label: "Læs mere"
     btn_class: "btn--success"
 ---
 
-De fem tibetanere er fem yogaøvelser beskrevet af Peter Kelder i slutningen af 1930'erne, men som kan spores tilbage til omkring år 0. De fem tibetanske riter er en rigtig god introduktion til yoga og let at implementere i sin egen hverdag. Jeg har kigget lidt på, hvad de fem tibetnere er?
+De fem tibetanere er fem yogaøvelser beskrevet af Peter Kelder i slutningen af 1930'erne, men som kan spores tilbage til omkring år 0. De fem tibetanske riter er en rigtig god introduktion til yoga og let at implementere i sin egen hverdag. Jeg har kigget lidt på, hvad de fem tibetanere er?
 
 **De fem tibetanere er fem yogabaserede øvelser skabt til at give dig en fornyet følelse af energi og vitalitet. De fem tibetanske riter skal laves 21 gange hver, og tager omkring 15 minutter at lave. Øvelserne stammer fra tibetanske munke, men blev bragt til vesten af Oberst Bradford, og Peter Kelder beskrev dem i sin bog: De fem tibetanere.**
 
@@ -105,3 +105,5 @@ Livsenergien kan kun cirkulere i kroppen, hvis chakraerne fungerer ordentligt og
 Jeg har været glad for at bruge de fem tibetanere som morgenmotion eller træning, hvis jeg ikke hr så meget træningsmotivation.
 
 Vi har et andet indlæg her på sitet, der handler om [Mindfulness meditation]({% link _posts/2010-10-05-mindfullness-meditation.md %}).
+
+{% include feature_row type="left" %}
