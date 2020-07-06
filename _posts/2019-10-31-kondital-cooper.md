@@ -1,11 +1,12 @@
 ---
-title: "Coopers 12 minutters løbetest: Find dit kondital!"
+title: "Cooper-test: Find kondital med Coopers 12 minutters løbetest"
 permalink: /kondital-cooper/
-excerpt: "12 minutters Cooper løbetest er en maksimal konditionstest, der estimerer konditallet ud fra den tilbagelagte distance."
+excerpt: "12 minutters Cooper løbetest er en maksimal konditionstest, der estimerer konditallet ud fra den tilbagelagte distance opnået på Cooper-testen."
 language: da
 header:
   overlay_image: https://coopertest-online.de/wp-content/uploads/2019/02/Coopertest_Collage_368385_R_K_B_by_Kurt-Michel_pixelio.de_1100px-1.jpg
   teaser: https://coopertest-online.de/wp-content/uploads/2019/02/Coopertest_Collage_368385_R_K_B_by_Kurt-Michel_pixelio.de_1100px-1.jpg
+  caption: Find dit kondital med Cooper-testen
 category:
   - Kondition
 tags:
@@ -33,9 +34,11 @@ Cooper-testen er en maksiml løbetest, hvor den distance man kan tilbagelægge p
 
 ## Baggrund for konditallet fra Cooper-testen
 
-Konditallet i Coopertesten afhænger ikke af vægten. Konditallet er VO<sub>2</sub>-max divideret med kropsvægten. Hvis en person på 50 kg skal løbe 3000 meter på 12 minutter, så kræver det en VO<sub>2</sub>max på 2,8 l/min. Hvis en person på 100 kg skal løbe samme distance, så kræver det dobbelt så meget energi og dermed en VO<sub>2</sub>max på 5,6 l/min, men da personen jo netop har dobbelt så stor kropsvægt, så ender konditallet med at være det samme.
+Konditallet i Coopertesten afhænger ikke af vægten. Konditallet er VO<sub>2</sub>-max divideret med kropsvægten. Hvis en person på 50 kg skal løbe 3000 meter på 12 minutter, så kræver det en VO<sub>2</sub>max på 2,8 l/min.
 
-{% include figure image_path="https://levaktivt.dk/media/2593/cooper-test-infografik.jpg" %}
+Hvis en person på 100 kg skal løbe samme distance, så kræver det dobbelt så meget energi og dermed en VO<sub>2</sub>max på 5,6 l/min, men da personen jo netop har dobbelt så stor kropsvægt, så ender konditallet med at være det samme.
+
+{% include figure image_path="https://levaktivt.dk/media/2593/cooper-test-infografik.jpg" caption="Coopers 12 minutters løbetest" alt="Find dit kondital med Cooper-testen" %}
 
 ## Formel til Coopers 12 minutters test
 
@@ -53,6 +56,6 @@ Der findes også formler, der inkluderer vægt, køn og alder. Hvis du bruger Co
 
 12 minutters Cooper-test er forbundet med nogen usikkerhed. Fx vil folk med ekstrem god løbeøkonomi få overvurderet deres iltoptagelse, og folk med meget dårlig løbeøkonomi vil få undervurderet deres iltoptagelse.
 
-## Referencer
+## Referencer til Cooper-test
 
-Cooper, K. H. 1968. “A Means of Assessing Maximal Oxygen Intake. Correlation between Field and Treadmill Testing”. JAMA 203 (3): 201–4.
+Cooper, K. H. 1968. [“A Means of Assessing Maximal Oxygen Intake. Correlation between Field and Treadmill Testing”](https://pubmed.ncbi.nlm.nih.gov/5694044/). JAMA 203 (3): 201–4.
