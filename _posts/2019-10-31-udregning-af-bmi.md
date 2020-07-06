@@ -1,7 +1,7 @@
 ---
 title: "Udregn BMI: Komplet guide og beregner for voksne og børn"
 permalink: /bmi/
-excerpt: "Body Mass Index (BMI) den mest udbredte metode og test til at bestemme om man er normalvægtig, undervægtig eller overvægtig. Beregn selv dit BMI i vores beregner, se formel og tabeller for børn og voksne."
+excerpt: "Body Mass Index (BMI) den mest udbredte formel og test til at udregne om man er normalvægtig, undervægtig eller overvægtig. Beregn selv dit BMI i vores beregner og se skala og tabeller for børn og voksne."
 language: da
 header:
   overlay_image: https://helseboost.dk/filer/bmi-1500x960.jpg
@@ -14,13 +14,13 @@ tags:
   - kropskomposition
   - udregning
   - formel
-last_modified_at: 2019-03-06T23:14:14Z
+last_modified_at: 2020-07-06T22:14:14Z
 ---
+
+Jeg sidder og læser et glitrende magasin om sport og helse, og endnu engang ser jeg udregninger om body mass index (BMI) uden at gå i dybden med, hvad det egentlig måler. Derfor satte jeg mig ned for at researche lidt på, hvad BMI er, og hvordan BMI kan bruges for os almindelige mennesker?
 
 *[BMI]: Body Mass Index
 *[IOTF]: The International Obesity Task Force
-
-Jeg sidder og læser et glitrende magasin om sport og helse, og endnu engang ser jeg udregninger om body mass index (BMI) uden at gå i dybden med, hvad det egentlig måler. Derfor satte jeg mig ned for at researche lidt på, hvad BMI er, og hvordan BMI kan bruges for os almindelige mennesker?
 
 **Body Mass Index (BMI) er en enkel matematisk formel for sammenhængen mellem personers højde og vægt. Formlen bruges til at vurdere undervægt, normalvægt og overvægt i større befolkningsgrupper, fordi BMI tilsyneladende har en sammenhæng med fedtprocenten. BMI bruges også ofte som test til at indikere under- og overvægt hos enkelte personer, men bør ikke bruges til præcise målinger hos individuelle.**
 
@@ -80,7 +80,7 @@ Eksempelvis vejer jeg selv 80 kg og jeg er 1,81 m høj. Mit BMI er altså:
 
 Ifølge BMI holder jeg mig lige netop inden for normalområdet, men lad os se på, hvordan vi kan fortolke BMI.
  
-## Test: Hvad er et sundt BMI-tal?
+## Test: Hvad er et normalt, sundt BMI-tal?
 
 Disse tabeller for BMI retter sig mod voksne mænd og kvinder i alderen med en højde i normalområdet og fra omkring 20 år og opefter.
 
@@ -96,7 +96,7 @@ For voksne er de generelle kategorier for BMI for voksne (ældre end 19 år og i
 
 Hvis vi sætter standarderne for BMI ind i en tabel, ser det sådan ud:
 
-#### Tabel 1: Body Mass Index
+### Normalværdier for Body Mass Index
 
 | Klassifikation | Kvinde (kg/m<sup>2</sup>) | Mand (kg/m<sup>2</sup>) |
 |----------------|---------------------------|-------------------------|
@@ -107,7 +107,7 @@ Hvis vi sætter standarderne for BMI ind i en tabel, ser det sådan ud:
 
 Nyere tabeller har udvidet fedmeområdet til forskellige klassificeringer, som du kan se i denne tabel. Klassificeringen er lavet af [World Health Organization (WHO)](http://www.euro.who.int/en/health-topics/disease-prevention/nutrition/a-healthy-lifestyle/body-mass-index-bmi).
 
-#### Tabel 2: Body Mass Index
+### Fedmeklassificering ud fra Body Mass Index
 
 |               | Fedme klassificering | BMI (kg/m<sup>2</sup>) | 
 |---------------|----------------------|------------------------|
@@ -121,9 +121,9 @@ Nyere tabeller har udvidet fedmeområdet til forskellige klassificeringer, som d
 NB. Hvis du er under 18 år, så kig længere nede på siden for en retfærdig vurdering af dit BMI.
 {: .notice .notice--warning }
 
-{% include figure image_path="https://bgh.dk/wp-content/uploads/2018/11/det-betyder-bmi-tallene-847x1024.jpg" %}
+{% include figure image_path="https://bgh.dk/wp-content/uploads/2018/11/det-betyder-bmi-tallene-847x1024.jpg" caption="Hvad er din BMI i forhold til normal?" alt="Illustration af skala for hvad normal BMI er" %}
 
-## Hvad med min muskelmasse og fedtprocent?
+## Hvad med min muskelmasse og fedtprocent i forhold BMI?
 
 BMI forsøger at give en indikation af, om du er undervægtig eller overvægtig. Uanset hvordan du bliver kategoriseret ud fra BMI, så har du brug for mere præcise målinger for at få et retvisende billede af, om din krop er sund. BMI tager fx ikke højde for din muskelmasse. 
 
@@ -133,7 +133,7 @@ Duerenberg et al (1991) har foreslået formler til at bestemme fedtprocenten ud 
 
 Jeg har skrevet andre indlæg om, hvordan du kan [måle din fedtprocent]({% link _posts/2019-10-13-fedtprocent-maaling.md %}) eller hvordan du kan [forstå og måle kropskomposition]({% link _posts/2019-10-14-kropskomposition.md %}). Så hvis du vil have styr på din muskelmasse eller fedtprocent, så skal du altså i gang med flere undersøgelser.
  
-## BMI børn og teenagere
+## BMI for børn og teenagere
 
 BMI udregnes på samme måde for børn og teenagere. Men da der sker mange forandringer med kroppens sammensætning og kropsfedtet med alderen, så skal børn og teenagere vurderes efter andre normer.
 
@@ -160,7 +160,7 @@ Husk at BMI ikke tager højde for kropsbygning og muskelmasse. En vurdering af b
 
 Bemærk at ovenstående grafer er baseret på børn over hele verden. Som med BMI for voksne, så indrager tallene ikke dit barns bygning.
  
-## Hvor god er BMI som indikator for kropsfedt?
+## Kan BMI bruges som indikator på kropsfedt?
 
 Der er en høj sammenhæng mellem BMI og kropsfedt i større populationer. Men selvom to personer har samme BMI, så har de ikke nødvendigvis samme andel af kropsfedt.
 [Politiken](https://politiken.dk/forbrugogliv/sundhedogmotion/art5517450/Disse-tre-kvinder-har-lige-meget-fedt) skriver fx om tre kvinder med meget forskellig kropsbygning og BMI, men de har samme fedtprocent.
@@ -230,7 +230,7 @@ Endelig kan du dykke lidt ned i din samlede kropskomposition for at få en stør
 
 ## Referencer om BMI og Body Mass Index
 
-### Generelle referencer
+### Generelle referencer om BMI
 
 - Lee, C. D., A. S. Jackson, og S. N. Blair. 1998. “US Weight Guidelines: Is It Also Important to Consider Cardiorespiratory Fitness?” International Journal of Obesity and Related Metabolic Disorders: Journal of the International Association for the Study of Obesity 22 Suppl 2 (august): S2-7.
 - WHO Consultation on Obesity (1997: Geneva, Switzerland), World Health Organization Division of Noncommunicable Diseases, og Family and Reproductive Health World Health Organization. Programme of Nutrition. 1998. “Obesity: Preventing and Managing the Global Epidemic: Report of a WHO Consultation on Obesity, Geneva, 3-5 June 1997”. <https://apps.who.int/iris/handle/10665/63854>.
