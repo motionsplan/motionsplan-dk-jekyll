@@ -17,6 +17,7 @@ tags:
   - Arme
   - Skuldre
   - Øvre ryg
+  - rows
 categories:
   - Træk
 training_type: 

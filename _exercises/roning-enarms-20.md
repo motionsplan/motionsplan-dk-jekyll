@@ -1,7 +1,6 @@
 ---
-title: "Roning, enarms"
-excerpt: "Støt på en bænk med det ene knæ og den ene arm. Hold en håndvægt i den ene hånd. Træk vægten op, mens du holder kroppen i ro."
-instructions: "Støt på en bænk med det ene knæ og den ene arm. Hold en håndvægt i den ene hånd. Træk vægten op, mens du holder kroppen i ro."
+title: "One arm rows med håndvægt"
+instructions: "I one arm rows på bænk holder du en vægt i den ene hånd. Sæt et knæ op på bænken og støt armen på bænken. Ryggen er parallel med jorden. Hold en ret ryg under hele bevægelsen. Start med at vægten bare hænger i armen. Start bevægelsen i i skulderbladet og træk vægten opad. Lav et stort bevægeudslag."
 permalink: /oevelse/roning-enarms/
 redirect_from: /node/20
 id: 20
@@ -18,6 +17,7 @@ tags:
   - Skuldre
   - Øvre ryg
   - fitnessinstruktør
+  - rows
 categories:
   - Træk
 training_type: 
@@ -31,9 +31,11 @@ muscle_group:
   - Skuldre
   - Øvre ryg
 alternative_titles:
-  - cheat
-  - One arm rows
-  - one arm row
+  - one arm rows
+  - en-arms roning
+  - dumbbell rows
+  - en-arms stående roning
+  - one arm dumbbell rows
 gallery:
   - url: /assets/images/exercises/roning-enarms-0.jpg
     image_path: /assets/images/exercises/roning-enarms-0-320.jpg
@@ -50,7 +52,11 @@ gallery:
 video:
   provider: youtube
   id: U7JM0pKMWSA
-last_modified_at: 2014-10-12T19:21:43Z
+last_modified_at: 2020-07-02T19:21:43Z
 ---
 
-Hold en vægt i den ene hånd. Et knæ op på bænken og armen støtter på bænken. Ryggen er parallel med jorden. Hold en ret ryg (kosteskaft) under hele bevægelsen. Start med at vægten bare hænger i armen. Løft vægten så højt op som muligt. I bevægelsen skal du sørge for, at skulderbladet bevæger sig frit frem og tilbage på brystkassen.
+_One arm rows_ er et horisontalt træk, hvor du med en arm trækker en vægt tættere på dig selv. Typisk laves one arm rows med at støtte på en bænk, men du kan også lave den stående, hvor du støtter hånden på et stativ.
+
+I one arm rows på bænk holder du en vægt i den ene hånd. Sæt et knæ op på bænken og støt armen på bænken. Ryggen er parallel med jorden. Hold en ret ryg under hele bevægelsen. Start med at vægten bare hænger i armen. Start bevægelsen i i skulderbladet og træk vægten opad. Lav et stort bevægeudslag.
+
+Når du laver rows med en håndvægte, så er dine skrå mavemuskler mere aktive, fordi de forsøger at modstå rotationen, der skabes af en tung vægt i den ene hånd.

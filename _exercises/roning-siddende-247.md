@@ -19,6 +19,7 @@ tags:
   - Skuldre
   - Øvre ryg
   - fitnessinstruktør
+  - rows
 categories:
   - Træk
 training_type: 

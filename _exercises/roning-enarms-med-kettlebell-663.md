@@ -16,6 +16,7 @@ tags:
   - kettlebell
   - Arme
   - Øvre ryg
+  - rows
 categories:
   - Træk
 training_type: 
