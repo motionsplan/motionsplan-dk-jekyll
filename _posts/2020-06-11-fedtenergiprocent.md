@@ -1,5 +1,5 @@
 ---
-title: "Hvad er fedtenergiprocenten? Beregner til mad"
+title: "Forskel på fedtenergiprocent og fedtprocent i mad [Beregner]"
 permalink: /fedtenergiprocent/
 language: da
 header:
@@ -36,7 +36,7 @@ feature_row:
     btn_class: "btn--success"
 ---
 
-Når du skal have styr på, hvor meget fedt, der er i mad, så skal du udregne fedtenergiprocenten. Jeg har lavet en beregner til at udregne fedtenergiprocenten, og så har jeg skrevet en lidt grundigere forklaring af begreberne fedtprocent og fedtenergiprocent i mad.
+Når du skal have styr på, hvor meget fedt, der er i mad, så skal du udregne fedtenergiprocenten. Jeg har lavet en beregner til at udregne fedtenergiprocenten, og så har jeg skrevet en lidt grundigere forklaring af hvad fedtprocent og fedtenergiprocent betyder, når man snakker om mad.
 
 Når du kigger på en varedeklaration, så kan du se, hvor mange procent protein, kulhydrat og fedt, der er i varen. Det er typisk angivt i gram pr. 100 gram. På den måde svarer det til procent i varen. Hvis der fx er 17 gram fedt i en Marsbar, så kan man sagtens tænke, at der er 17% fedt i.
 
