@@ -12,7 +12,7 @@ tags:
   - smidighed
 category:
   - Yoga
-last_modified_at: 2019-08-02T11:45:14Z
+last_modified_at: 2020-07-07T11:45:14Z
 ---
 
 **Du bliver smidigere af udstrækning, den maksimale styrke kan være nedsat lige efter udspændingsøvelser og utrænede får tilsyneladende præstationsfremgang efter længerevarende smidighedstræning.**
