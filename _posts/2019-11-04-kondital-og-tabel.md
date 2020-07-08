@@ -1,19 +1,19 @@
 ---
-title: "Kondition: Hvad er et godt, højt kondital?"
+title: "Kondition: Hvad er et godt, højt kondital? [Tabel]"
 permalink: /kondital/
-excerpt: "Hvad er et godt, højt kondital, og hvordan finder du dit kondital? Her er forskellige metoder til udregning og beregnere til kondital."
+excerpt: "Hvad er et godt, højt kondital? Se dit kondital i en tabel. Hvordan finder du dit kondital? Her er forskellige metoder til udregning og beregnere til kondital."
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1571008887538-b36bb32f4571?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80
   teaser: https://images.unsplash.com/photo-1571008887538-b36bb32f4571?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80
-  caption: Photo by sporlab on Unsplash
+  caption: Hvad er et godt kondital? Photo by sporlab on Unsplash
 category:
   - Kondition
 tags:
   - kondition
   - tabel
   - kondital
-last_modified_at: 2019-03-06T23:14:14Z
+last_modified_at: 2020-05-06T23:14:14Z
 toc: true
 feature_row:
   - image_path: https://books.google.dk/books/content?id=BC9SiAsUPqsC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70NFS4lEU6whWCqlyrgOGErL5OJe7YUn-qJQJ5_NuL_euKqiLC3Uf1qDPx-lSIhDDhVIpgexBiz5cdAiKXbtccrKfOlel8OTdj9EgWhSXwkff-qWaHaQt5WU1MvzRP65Jcjll3V
@@ -47,7 +47,7 @@ Nedenstående tabeller gælder for almindelige mennesker i Skandinavien og er s�
 
 [Test dit kondital](/kondition-og-test/){: .btn .btn--large .btn--info }
 
-### Kondital - Normalbefolkning - Mænd
+### Tabel: Kondital - Normalbefolkning - Mænd
 
 | Alder	| Meget Lavt | Lavt  | Middel | Højt  | Meget højt |
 |-------|------------|-------|--------|-------|------------|
@@ -60,7 +60,7 @@ Nedenstående tabeller gælder for almindelige mennesker i Skandinavien og er s�
 | 60-69	| < 21       | 22-26 | 27-35  | 36-39 | > 40       |
 | 70-	  | < 19       | 20-24 | 25-32  | 33-37 | > 38       |
 
-### Kondital - Normalbefolkning - Kvinder
+### Tabel: Kondital - Normalbefolkning - Kvinder
 
 | Alder	| Meget Lavt | Lavt  | Middel | Højt  | Meget Højt |
 |-------|------------|-------|--------|-------|------------|
@@ -81,7 +81,7 @@ Det er interessant, hvor mange nordmænd der er på [listen over de højeste kon
 
 {% include video provider="youtube" id="KmigHqqdWto" %}
 
-### Kondital - Verdensklasseatleter (fx løb, cykling, roning, langrend)
+### Tabel: Kondital - Verdensklasseatleter (fx løb, cykling, roning, langrend)
 
 Topidrætsfolk i konditionskrævende idrætsgrene har som regel et kondital over 70. Hvis du forventer at kunne være med i verdenseliten, så bør du vurdere dig selv ud fra nedenstående tabel:
 
