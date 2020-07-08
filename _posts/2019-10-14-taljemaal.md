@@ -1,26 +1,27 @@
 ---
-title: "Talje-hoftemål: Beregn din fedtfordeling"
+title: "Talje-hoftemål: Beregn dit taljemål og din talje/hofte-ratio"
 permalink: /taljemaal/
-excerpt: "Der er sammenhæng mellem talje- og hoftemål og risiko for livsstilssygdomme. Talje- og hoftemål kan bruges til at sige noget om fedtfordelingen ved vægttab."
+excerpt: "Der er sammenhæng mellem taljemål og hoftemål og risiko for livsstilssygdomme. Ratioen mellem taljemål og hoftemål kan bruges til at sige noget om fedtfordelingen."
 language: da
 header:
   overlay_image: https://www.berkeleywellness.com/sites/default/files/field/image/waist-measurement-MF_998_380.webp
   teaser: https://www.berkeleywellness.com/sites/default/files/field/image/waist-measurement-MF_998_380.webp
+  caption: "Taljemål, hoftemål og højdemål og talje-hofte-ratioen."
 category:
   - Test
 tags:
   - fedtprocent
   - beregnere
   - kropskomposition
-last_modified_at: 2019-03-06T23:14:14Z
+last_modified_at: 2020-06-06T23:14:14Z
 toc: true
 ---
 
 *[WHR]: Waist/Hip-ratio
 
-Talje- og hoftemål kan være en let måde at sige noget om fedtfordelingen på din krop. Jeg har researchet hvilke forskellige talje- og hoftemål der findes.
+Taljemål og hoftemål kan være en let måde at sige noget om fedtfordelingen på din krop. Jeg har researchet hvilke forskellige taljemål og hoftemål, der findes.
 
-Jeg har fundet frem til tre forskellige mål, hvor taljen er med til at sige noget om man er under- eller overvægtig og i risiko for livsstilssygdomme.
+Jeg har fundet frem til tre forskellige mål, hvor taljen er med til at sige noget om man er undervægtig eller overvægtig og i risiko for livsstilssygdomme.
 
 Typer af taljemål:
 
@@ -63,9 +64,17 @@ Når man sætter sit taljemål i forhold til sin højde, så er det forbundet me
 
 ## Talje-hofte-ratio
 
+Wikipedia skriver om talje-hofte-ratioen:
+
+> **Talje-hofte forholdet**,**talje-hofte målet**,**æble-pære indekset**(**talje-hofte ratio**([anglicisme](https://da.wikipedia.org/wiki/Anglicisme "Anglicisme")),**THR**) er en måde at beskrive forholdet mellem[talje-](https://da.wikipedia.org/wiki/Talje_(anatomi) "Talje (anatomi)")og[hoftevidden](https://da.wikipedia.org/wiki/Hofte "Hofte"). Forholdet måler proportionen af fedt deponeret forskellige stedet på kroppen. Der er også kraftige indicer på at nogle bestemte mål opfattes som specielt attraktive hos det modsatte køn og for kvinder indikere en mærkbar højere frugtbarhed.
+
+— <cite>[Wikipedia](https://da.wikipedia.org/wiki/Talje-hofte_forhold)</cite>
+
 Ratioen mellem taljemålet og hoftemålet er en indikator på sundhed. Relationen kan sige noget om kropsformen, og man skelner ofte mellem pæreformet og æbleformet kropsfacon. WHR kan afspejle den intraabdominale fedme. Ofte er WHR også knyttet sammen tiltrækning på tværs af forskellige kulturer. 
 
-{% include figure image_path="https://www.hellodoctor.co.za/wp-content/uploads/2013/12/Body-shapes.jpg" caption="Pæreformet og æbleformet" %}
+{% include figure image_path="https://www.hellodoctor.co.za/wp-content/uploads/2013/12/Body-shapes.jpg" caption="Pæreformet og æbleformet" alt="Talje mål og hoftemål kan via talje-hofte-ratioen siger noget om fedtfordelingen" %}
+
+Hvordan måles taljemålet og hoftemålet til brug for talje-hofte-ratioen?
 
 - Personen skal stå oprejst
 - Mål omkredsen af taljen ved midtpunktet på siden mellem nederste punkt at nederste ribben og øverste punkt af hoftekammen.
@@ -82,17 +91,17 @@ Normalværdierne for WHR er følgende. Hvis du har højere værdier, så kan du 
 | Mænd    | > 1,0   |
 | Kvinder | > 0,8   |
 
-## Bergner til talje-hofte-målet
+## Bergner til talje-hofte-ratio
 
 {% include calculate-waist.html %}
 
-## Opsamling på taljemål
+## Opsamling på taljemål og hoftemål
 
 Et nærliggende spørgsmål når man samlet kigger på de tre forskellige mål er, hvilke resultater der sikrer dig mod livsstilssygdomme. Hvis du ligger over det anbefalede talje/højde-mål, men har et talje/hofte-mål, der får dig inden for skiven igen?
 
 I øjeblikket ser det ud til, at talje/højde-målet er det mest brugte mål i de videnskabelige studier, men for at sikre at mavefedtet ikke skaber en for høj risiko, så kan det formentlig også være værd at tjekke den ratio en gang imellem.
 
-## Referencer til taljemål
+## Referencer til taljemål og hoftemål
 
 ### Taljemål
 
