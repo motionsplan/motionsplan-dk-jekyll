@@ -5,6 +5,7 @@ language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1551337948-0ad8de8568ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1925&q=80
   teaser: https://images.unsplash.com/photo-1551337948-0ad8de8568ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  caption: Beregn dit stofskifte, daglige energiforbrug og basalstofskifte
 category:
   - Beregnere
 tags:
@@ -21,13 +22,13 @@ feature_row:
     btn_class: "btn--success"
 ---
 
-Jeg har lavet en beregner, hvor du kan udregne dit stofskifte og dit daglige energiforbrug på baggrund af dit hvilestofskifte og fysiske aktivitetsniveau. Jeg synes det er interessant at udregne, hvad mit hvilestofskifte er i forhold min fysiske aktivitet for at se, hvad mit omtrentlige daglige energibehov er.
+Jeg har lavet en beregner, hvor du kan udregne dit stofskifte og dit daglige energiforbrug på baggrund af dit hvilestofskifte og fysiske aktivitetsniveau. Jeg synes det er interessant at udregne, hvad mit basalstofskifte er i forhold min fysiske aktivitet for at se, hvad mit omtrentlige daglige energibehov er.
 
 **Stofskiftet består af 3 hovedkomponenter: hvilestofskiftet (BMR), fødeinduceret termogenese (FIT) og fysisk aktivitet (PAL).**
 
-## Beregn dit stofskifte
+## Beregn dit stofskifte og basalstofskifte
 
-Med denne beregner kan du udregne dit hvilestofskifte og dit samlede daglige energibehov. Beregneren er ret simpel og angiver dit aktivitetsniveau udfra nogle overordnede mål. Resultatet er en gennemsnitsberegning for dit køn, din alder og din vægt.
+Med denne beregner kan du udregne dit hvilestofskifte, som også ofte kaldes basalstofskiftet, og dit samlede daglige energibehov. Beregneren er ret simpel og angiver dit aktivitetsniveau udfra nogle overordnede mål. Resultatet er en gennemsnitsberegning for dit køn, din alder og din vægt.
 
 {% include calculate-metabolic-rate.html %}
 
@@ -79,12 +80,12 @@ Eksempel: en kvinde på 23 år som vejer 62 kg. har derfor et BMR på: 61,5*62 +
 
 PAL skal ganges med BMR for at estimere ens daglige stofskifte. 
 
-Eksempel: kvinden fra eks. 1. arbejder på et kontor hvor de ikke bevæger sig meget (PAL = 1,4-1,5). Hun er dog rimeligt aktiv i fritiden (PAL + 0,3). BMR (5893 Kj) gange med PAL (1,7) = 10018 Kj. Kvindens daglige stofskifte (ligevægtsindtag) vil være ca. 10.000 Kj.
+**Eksempel:** Kvinden fra eksempel 1 arbejder på et kontor, hvor de ikke bevæger sig meget (PAL = 1,4-1,5). Hun er dog rimeligt aktiv i fritiden (PAL + 0,3). BMR (5893 Kj) gange med PAL (1,7) = 10018 Kj. Kvindens daglige stofskifte (ligevægtsindtag) vil være ca. 10.000 Kj.
 {: .notice .notice--info }
 
 ## Mere avanceret udregning af dagligt energiforbrug
 
-Hvis du gerne vil have en lidt mere avanceret beregner, så kan du finde den på  [Motion-online.dk](https://web.archive.org/web/20160604213227/http://www.motion-online.dk/sundhed_og_vaegt/sundhed_generelt/beregn_dit_energiforbrug/)
+Hvis du gerne vil have en lidt mere avanceret beregner, så kan du finde den på  [health-calc.com](https://www.health-calc.com/diet/energy-expenditure-advanced).
 
 [Avanceret BMR beregner](https://www.health-calc.com/diet/energy-expenditure-advanced){: .btn .btn--large .btn--success }
 
@@ -94,7 +95,7 @@ Hvis du gerne vil have en lidt mere avanceret beregner, så kan du finde den på
 *[TEE]: Total energiomsætning
 *[kJ]: KiloJoule
 
-## Referencer
+## Referencer til stofskiftet
 
 {% include feature_row type="left" %}
 
