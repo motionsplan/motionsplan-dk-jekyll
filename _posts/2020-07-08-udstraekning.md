@@ -1,5 +1,5 @@
 ---
-title: "Udstrækning: Komplet guide til udstrækning og udspænding!"
+title: "Udstrækning: Komplet guide til udstrækning og strækøvelser!"
 permalink: /udstraekning-udspaending/
 language: da
 header:
@@ -39,7 +39,7 @@ feature_row:
     btn_class: "btn--warning"
 ---
 
-Udstrækning og udspænding bliver brugt i rigtig mange idrætsgrene. Udstrækningsøvelser bliver ofte brugt for at blive smidigere, så de kaldes også ofte smidighedsøvelser. Vi kigger på, hvad der sker i kroppen, når vi strækker ud og hvilket forskellige typer udstrækning, der findes.
+Udstrækning og udspænding bliver brugt i rigtig mange idrætsgrene. Udstrækningsøvelser bliver ofte brugt for at blive smidigere, så de kaldes også ofte smidighedsøvelser. Vi kigger på, hvad der sker i kroppen, når vi strækker ud og hvilket forskellige typer udstrækning, der findes. Endelig giver vi nogle forslag til strækøvelser.
 
 Hvad er udstrækning og udspænding?
 
@@ -235,7 +235,7 @@ Med andre ord: Det er hjernen og nervesystemet, der bestemmer, hvor smidig du er
 **Men** jeg er lidt udfordret af teorien, da alle jo ellers teoretisk set ville kunne gå i spagat og split eller sidde på hug. Måske kommer der senere en muskulær tilpasning til udstrækning, som træningsforsøgene ikke har kunnet fange?
 {: .notice .notice--info }
 
-## Hvad får man ud af at strække ud?
+## Hvad får man ud af strækøvelser?
 
 Der er flere gode grunde til, hvorfor det er en god ide at investere tid på udstrækning, men lad os opsummere de væsentligste pointer fra videnskaben omkring udstrækning. 
 
@@ -391,7 +391,7 @@ Musklens udseende er primært genetisk bestemt. Du kan naturligvis lave styrketr
 
 Måske kan der i forskningen være en tendens til et lille fald i præstationsevnen ved længerevarende statiske stræk over 45 sekunder. Men selv ved så lange stræk, så er forringelsen i kraftudvikling minimalt, så det nok ikke har den store betydning i forhold til træning. Hvis du er sprinter, styrkeløfter eller vægtløfter, så kan det måske være en fordel at tænke over det.
 
-## Anbefalinger til udstrækning
+## Anbefalinger til strækøvelser
 
 Lad os lige summere op med nogle anbefalinger i forhold til udstrækning:
 
@@ -421,9 +421,9 @@ Bøgerne går i dybden med teorien om udstrækning, og så kan de give inspirati
 
 Du kan også lede videre her på siden for at finde en masse udstrækningsøvelser. Jeg har bl.a. skrevet et andet indlæg, som går lidt mere i dybden med, [hvordan du bliver smidigere med udstrækning]({% link _posts/2009-02-28-du-bliver-smidigere-af-straekke.md %}). Tjek det ud før din nabo.
 
-## Forslag til udstrækningsøvelser
+## Forslag til strækøvelser og udstrækningsøvelser
 
-{% assign site_posts = site.exercises | where: "tags", "udstrækning'" | sort: "title" %}
+{% assign site_posts = site.exercises | where: "training_type", "training_type'" | sort: "title" %}
 
 <div class="feature__wrapper">
 

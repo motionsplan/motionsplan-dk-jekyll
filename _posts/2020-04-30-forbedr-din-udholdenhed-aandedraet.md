@@ -1,7 +1,6 @@
 ---
-title: "Åndedrætstræning 7 minutter om dagen forbedrer udholdenheden"
+title: "Åndedrætstræning: 7 minutter om dagen forbedrer udholdenheden"
 permalink: /aandedraetstraening-forbedrer-udholdenheden/
-excerpt: ""
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1483004406427-6acb078d1f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80
