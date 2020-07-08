@@ -1,5 +1,5 @@
 ---
-title: "Udstrækning: Komplet guide til udstrækning og strækøvelser!"
+title: "Udstrækning: Komplet guide til udspænding og strækøvelser!"
 permalink: /udstraekning-udspaending/
 language: da
 header:
@@ -210,7 +210,7 @@ Når musklen strækkes i et statisk stræk over fx 90 sekunder vil musklen langs
 
 Denne effekt forøges indtil 5. stræk (Magnusson 1998).
 
-{% include figure image_path="https://ars.els-cdn.com/content/image/3-s2.0-B9781455731725000074-f07-05-9781455731725.jpg" caption="Stress relaxation forklares på [www.sciencedirect.com](https://www.sciencedirect.com/topics/engineering/stress-relaxation)" %}
+{% include figure image_path="https://ars.els-cdn.com/content/image/3-s2.0-B9781455731725000074-f07-05-9781455731725.jpg" caption="Stress relaxation forklares på [www.sciencedirect.com](https://www.sciencedirect.com/topics/engineering/stress-relaxation)" alt="Stress relaxation forklares i forbindelse med udstrækning og udspænding forklares" %}
 
 Hvis musklen var et elastik, så ville den med det samme returnere til sin almindelige størrelse. Viskoelastisk materiale krymper sig langsomt sammen til samme størrelse.
 
@@ -305,7 +305,7 @@ En anden afledt fordel ved udstrækningsøvelser er, at de kan være med til at 
 
 Kokkonen (1997) viste fx, at **utrænede efter et træningsprogram på 10 uger med 15 forskelllige øvelser (3 x 15 sekunder pr. øvelse) for underkroppen forbedrede smidighed, eksplosivitet, styrke og muskeludholdenhed** i forhold til en kontrolgruppe. Kokkonen (2007) undersøgte ikke hvilke mekanismer, der lå bag fremgangen.
 
-## Udstrækning og skader
+## Udspænding og skader
 
 Der er ikke noget i den videnskabelige forskning, der tyder på, at udstrækning har en positiv effekt på skadesfrekvensen hos atleter eller virker skadesnedsættende generelt (Garber et al., 2011).
 
@@ -371,7 +371,7 @@ Når jeg får lavet lidt yoga og udstrækning om morgenen, er det som om formidd
 
 Jeg ville selv gerne lave flere udstrækningsøvelser, men sommetider hopper sofaen op på nakken af mig i stedet.
 
-## Myter om udstrækning
+## Myter om udspænding
 
 Der findes virkelig mange myter om udstrækning. Nogle kan endda finde på at konkludere, at "Udstrækning virker ikke!". Men det er noget vrøvl. Lad os kigge på et par af myterne.
 
