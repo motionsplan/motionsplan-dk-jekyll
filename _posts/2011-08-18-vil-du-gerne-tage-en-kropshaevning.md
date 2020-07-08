@@ -19,7 +19,7 @@ Kropshævning er en af de absolut bedste overkropsøvelser, så du kan egentlig 
 
 {% include exercises exercises="Chinup, kropshævning med underhåndsgreb" match="exact" type="left" %}
 
-Hvis du også vil være en af de seje, kan følgende træningsprogram måske hjælpe dig til at kunne tage en kropshævning uden hjælp. Programmet er udarbejdet af Nikolaj Lehmann fra [jui.dk](http://jui.dk).
+Hvis du også vil være en af de seje, kan følgende træningsprogram måske hjælpe dig til at kunne tage en kropshævning uden hjælp.
 
 - **Hæng med strakte arme i baren.** Først og fremmest skal du træne i at hænge i baren. Du skal mindst kunne hænge 20 sekunder i baren.
 
@@ -31,4 +31,4 @@ Når du trænet op til at kunne hænge i baren, er du klar til det egentlige tr�
 
 Har du andre forslag til, hvordan man kan komme i gang med at lave en kropshævning?
 
-Jeg har skrevet lidt mere om [forskellen på chinups og pullups her]({% link _posts/2020-06-30-pullup-chinup.md %})
+Jeg har skrevet lidt mere om [forskellen på chinups og pullups her]({% link _posts/2020-06-30-pullup-chinup.md %}).
