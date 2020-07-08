@@ -1,5 +1,5 @@
 ---
-title: "De fem tibetanere: 5 yoga riter"
+title: "De fem tibetanere: Komplet guide til de 5 yoga riter"
 permalink: /artikel/de-fem-tibetanere
 language: da
 header:
@@ -81,7 +81,7 @@ Tibetanske munke lavede øvelserne taget fra yoga for at holde sig evigt unge, o
 
 Jeg anbefaler dig helt klart at læse de to bøger, hvis du vil dykke ned i hele historien og baggrunden for, hvorfor øvelserne er blevet så kendte og populære.
 
-{% include feature_row type="left" %}
+{% include gallery id="feature_row" layout="half" caption="Peter Kelders bøger om De fem tibetanere." %}
 
 Men nu til det vigtigste: Hvordan laver man de fem tibetanere?
 
@@ -151,13 +151,13 @@ _Det er ikke meningen, at du skal opleve smerte eller ubehag, når du gennemfør
 
 ### Rite 1
 
-{% include figure image_path="https://post.healthline.com/wp-content/uploads/2019/09/158078-Everything\_You\_Need\_to\_Know\_About\_the\_5\_Tibetan\_Rites-1296x728-Body\_Image-Rite_01-1296x728.jpg" caption="Rite 1" %}
+{% include figure image_path="https://post.healthline.com/wp-content/uploads/2019/09/158078-Everything_You_Need_to_Know_About_the_5_Tibetan_Rites-1296x728-Body_Image-Rite_01-1296x728.jpg" caption="Rite 1" %}
 
 I den første rite skal du stå oprejst og strække armene ud til siden. Drej rundt om dig selv i urets retning i det tempo, der passer dig. Træk vejret dybt og langsomt for at undgå at blive svimmel. Denne øvelse er måske den der for de fleste voksne kræver mest tilvænning.
 
 ### Rite 2
 
-{% include figure image_path="https://post.healthline.com/wp-content/uploads/2019/09/158078-Everything\_You\_Need\_to\_Know\_About\_the\_5\_Tibetan\_Rites-1296x728-Body\_Image-Rite_02-1296x728.jpg" caption="Rite 2" %}
+{% include figure image_path="https://post.healthline.com/wp-content/uploads/2019/09/158078-Everything_You_Need_to_Know_About_the_5_Tibetan_Rites-1296x728-Body_Image-Rite_02-1296x728.jpg" caption="Rite 2" %}
 
 I den anden rite skal du lægge dig fladt på ryggen. Armene skal ligge langs siden og dine håndflader skal vende mod gulvet. Løft nu hovedet op fra gulvet og træk hagen ned mod brystet, mens du løfter dine ben strakte og lodret op. Sænk herefter ben og hoved tilbage igen, så du ender i startpositionen.
 
@@ -167,9 +167,7 @@ Hvis denne øvelse er for hård, kan du med fordele bøje dine ben i stedet for 
 
 ### Rite 3
 
-{% include figure image_path="
-https://post.healthline.com/wp-content/uploads/2019/09/158078-Everything\_You\_Need\_to\_Know\_About\_the\_5\_Tibetan\_Rites-1296x728-Body\_Image-Rite_03-1296x728.jpg"
-" caption="Rite 3" %}
+{% include figure image_path="https://post.healthline.com/wp-content/uploads/2019/09/158078-Everything_You_Need_to_Know_About_the_5_Tibetan_Rites-1296x728-Body_Image-Rite_03-1296x728.jpg" caption="Rite 3" %}
 
 Den tredje rite er forholdsvis simpel. Sæt dig på knæene, så kun dine tær og knæ rør underlaget. Placer herefter dine hænder på baglåret. Træk nu hagen mod brystet ved at bøje hovedet fremover. Bøj derefter hoved bagover og svaj i din rygrad. Kør efterfølgende op til standardpositionen. 
 
@@ -177,9 +175,7 @@ Træk vejret ind når du bøjer dig bagover, og pust ud når du bøjer dig forov
 
 ### Rite 4
 
-{% include figure image_path="
-https://post.healthline.com/wp-content/uploads/2019/09/158078-Everything\_You\_Need\_to\_Know\_About\_the\_5\_Tibetan\_Rites-1296x728-Body\_Image-Rite_04-1296x728.jpg"
-" caption="Rite 4" %}
+{% include figure image_path="https://post.healthline.com/wp-content/uploads/2019/09/158078-Everything_You_Need_to_Know_About_the_5_Tibetan_Rites-1296x728-Body_Image-Rite_04-1296x728.jpg" caption="Rite 4" %}
 
 Den fjerde rite sætter du dig på gulvet med strakte ben. Sænk herefter hagen mod brystet. Ryk derefter hovedet så langt tilbage det kan komme, og løft kroppen op i en ”bro”, ved at spænde i alle muskler. Slap herefter af i musklerne og kør din krop tilbage til startpositionen. 
 
@@ -187,9 +183,7 @@ Du skal i denne øvelse løfte kroppen op på en indånding, og sænke kroppen p
 
 ### Rite 5
 
-{% include figure image_path="
-https://post.healthline.com/wp-content/uploads/2019/09/158078-Everything\_You\_Need\_to\_Know\_About\_the\_5\_Tibetan\_Rites-1296x728-Body\_Image-Rite_05-1296x728.jpg"
-" caption="Rite 5" %}
+{% include figure image_path="https://post.healthline.com/wp-content/uploads/2019/09/158078-Everything_You_Need_to_Know_About_the_5_Tibetan_Rites-1296x728-Body_Image-Rite_05-1296x728.jpg" caption="Rite 5" %}
 
 For at udføre den femte rite skal du lægge dig på maven. Sæt nu hænderne på underlaget ud fra skulderne. Herefter skal du strække dine arme, så kun dine tæer og hænder rammer underlaget. Bøj nu i hofterne og kør bagdelen op, så din krop former en ”pyramide”. Kør herefter hoften frem igen.
 
@@ -335,10 +329,16 @@ Livsenergien kan kun cirkulere i kroppen, hvis chakraerne fungerer ordentligt og
 
 Jeg har været glad for at bruge de fem tibetanere som morgenmotion eller træning, hvis jeg ikke hr så meget træningsmotivation.
 
-Vi har et andet indlæg her på sitet, der handler om [Mindfulness meditation]({% link _posts/2010-10-05-mindfullness-meditation.md %}).
+Vi har et andet indlæg her på sitet, der handler om [Mindfulness meditation]({% link _posts/2010-10-05-mindfullness-meditation.md %}) og hvis du er interesseret i at [vælge noget passende musik til yoga, så tjek det her indlæg]({% link _posts/2020-07-02-musik-yoga.md %}).
 
-{% include feature_row type="left" %}
+## Anbefalinger
 
 {% include feature_row id="feature_row_yogamat" type="left" %}
 
 {% include feature_row id="feature_row_dvd" type="left" %}
+
+## Referencer til de fem tibetanere
+
+{% include feature_row type="left" %}
+
+## Noter
