@@ -1,11 +1,12 @@
 ---
-title: "Hvordan måler jeg fedtprocent - 7 metoder!"
+title: "Hvordan måler jeg min fedtprocent? 7 forskellige metoder [2020]"
 permalink: /maal-fedtprocent/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1523901839036-a3030662f220?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80
   teaser: https://images.unsplash.com/photo-1523901839036-a3030662f220?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
   overlay_filter: 0.6
+  caption: "7 metoder til at måle din fedtprocent?"
 category:
   - Test
 tags:
@@ -16,21 +17,21 @@ feature_row:
   - image_path: https://shop.getbig.dk/images/medium/personvaegt-med-fedtprocentmaaler_MED.jpg
     alt: "Badevægt med fedtprocent måler"
     title: "Badevægt med fedtprocent måler"
-    excerpt: "Denne badevægt kan give dig en komplet oversigt over både vægt, fedtprocent, BMI, væskeandel og knoglemasse. Man kan oprette analyser for 8 personer, og dermed kan hele familien nøjes med denne ene vægt. Denne vægt er formentlig ikke valideret og er langt fra så præcis, som de andre præsenteret i denne artikel."
+    excerpt: "Denne badevægt kan måle både vægt, fedtprocent, BMI, væskeandel og knoglemasse. Man kan oprette analyser for 8 personer, og dermed kan hele familien nøjes med denne ene vægt. Denne vægt er formentlig ikke valideret og er langt fra så præcis, som de andre præsenteret i denne artikel."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=21411&htmlurl=https://shop.getbig.dk/badevaegt-i-luksuskvalitet"
     btn_label: "Læs mere"
     btn_class: "btn--success"
   - image_path: https://www.fotoagent.dk/single_picture/11803/138/custom1/tanita_dc_360_p_avec_colonne_analyseur_de_masse_co.jpg
     alt: "Tanita DC 360P Kropsanalysevægt"
     title: "Tanita DC 360P Kropsanalysevægt"
-    excerpt: "Med en Tanita DC 360P kropsanalysevægt er du garanteret præcise og nøjagtige resultater. På blot 15 sekunder er det muligt at få en fuld kropsanalyse. Resultaterne vil øjeblikkeligt blive vist på LCD-skærmen, som er nem at læse."
+    excerpt: "Med en Tanita DC 360P kropsanalysevægt er du garanteret præcise og nøjagtige resultater. På blot 15 sekunder er det muligt at få en fuld kropsanalyse og måle din fedtprocent."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/tanita-dc-360p-kropsanalysevaegt/"
     btn_label: "Læs mere"
     btn_class: "btn--success"
   - image_path: https://www.fotoagent.dk/single_picture/11803/138/mega/Tanita_MC780_full(1).jpg
     alt: "Tanita MC 780 P MA"
     title: "Tanita MC 780 P MA"
-    excerpt: "Tanita MC 780 P MA, er en interaktiv maskine, hvilket gør at vægten er nemt at benytte. Med det todelte display, kan du nemt overskue den målte og beregnede data."
+    excerpt: "Tanita MC 780 P MA, er en interaktiv maskine til at måle fedtprocent, hvilket gør at vægten er nemt at benytte. Med det todelte display, kan du nemt overskue den målte og beregnede data."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/tanita-mc-780-p-ma/"
     btn_label: "Læs mere"
     btn_class: "btn--success"
@@ -80,7 +81,7 @@ For den almindelige fitnessudøver så kan følgende være muligheder for at få
 
 - **Øjemål**. Spejlet er faktisk en udmærket måde at estimere på, om man har en passende fedtprocent i forhold til både sundhed og træning. Ulempen er at man kan blive snydt af fedt, der sidder omkring organerne, som kan være en risiko. Der er nogle der er såkaldt _tyndfede_.
 
-{% include figure image_path="https://exerciseandwellness.files.wordpress.com/2016/03/body-fat-percentage-men-women.jpg" caption="Øjemålstest af fedtprocenten - [via](https://exerciseandwellness.wordpress.com/2016/03/28/body-fat-percentages/)" %}
+{% include figure image_path="https://exerciseandwellness.files.wordpress.com/2016/03/body-fat-percentage-men-women.jpg" caption="Øjemålstest af fedtprocenten - [via](https://exerciseandwellness.wordpress.com/2016/03/28/body-fat-percentages/)" alt="Hvordan måler jeg min fedtprocent for mænd og kvinder?" %}
 
 - **Udregning af fedtprocent**. Der findes nogle formler, hvor du kan udregne din fedtprocent. Formlerne er imidlertid behæftet med stor usikkerhed, og de kan ikke stå alene. Jeg har lavet en [beregner som kan udregne fedtprocenten på baggrund af højde, vægt, alder og køn]({% link _posts/2008-10-30-udregning-af-fedtprocent.md %}).
 
@@ -96,9 +97,10 @@ Når du har valgt en metode til at måle din fedtprocent, hvad skal du så gøre
 
 Du kan sammenligne det med normalværdierne for fedtprocent, som jeg har samlet i nedenstående tabel:
 
-## Normer for fedtprocent
+## Normer for fedtprocent for mænd og kvinder
 
-| Fedtprocent normer                            |||
+Tabellen nedenunder indeholder normerne for fedtprocent for mænd og kvinder.
+
 | Klassifikation         | Kvinde (% fedt) | Mand (% fedt) |
 |------------------------|-----------------|---------------|
 | Essentiel fedt         | 10-12%          | 2-4%          |
@@ -112,7 +114,7 @@ _Data fra Howley and Franks: Health/Fitness Instructor's Handbook, Human Kinetic
 
 Oversat til en grafik baseret på alder kan det se sådan her ud:
 
-{% include figure image_path="https://4.bp.blogspot.com/-nOLwVUh5HaQ/XUuHz1AD3PI/AAAAAAAAStE/HWTJneEhKDElIU_yvxsKezZjh6D3Z_frQCLcBGAs/s1600/BodyFatRangeChartLarge.jpg" caption="Fedtprocent for voksne baseret på WHO BMI guidelines" %}
+{% include figure image_path="https://4.bp.blogspot.com/-nOLwVUh5HaQ/XUuHz1AD3PI/AAAAAAAAStE/HWTJneEhKDElIU_yvxsKezZjh6D3Z_frQCLcBGAs/s1600/BodyFatRangeChartLarge.jpg" caption="Fedtprocent for voksne mænd og kvinder baseret på WHO BMI guidelines" alt="Hvordan måler jeg min fedtprocent? Fedtprocent for mænd og kvinder" %}
 
 ## Mere om at måle fedtprocent
 
