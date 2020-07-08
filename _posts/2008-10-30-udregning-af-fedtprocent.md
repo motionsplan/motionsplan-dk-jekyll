@@ -8,7 +8,7 @@ excerpt: "Beregn din fedtprocent med en udregning med din højde og vægt i denn
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1522844990619-4951c40f7eda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80
-  caption: Photo by i yunmai on Unsplash
+  caption: Beregn din fedtprocent. Photo by i yunmai on Unsplash
   teaser: https://images.unsplash.com/photo-1522844990619-4951c40f7eda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
 category:
   - Test
@@ -83,7 +83,7 @@ PBF = 1.20 * BMI + 0.23 * age - 10.8 * sex - 5.4;
 
 sex: men = 1; female = 0
 
-## Usikkerhed i udregningen
+## Usikkerhed i udregningen af fedtprocent
 
 Hvad kan jeg så bruge udregningen af fedtprocent til?
 
@@ -99,7 +99,9 @@ Jeg har skrevet mere om [BMI og lavet en beregner](/bmi/).
 
 Du kan kombinere udregningen af fedtprocent med en øjemålstest. Så har du formentlig en nogenlunde ide om din fedtprocent ligger inden for et sundt spektrum.
 
-{% include figure image_path="https://exerciseandwellness.files.wordpress.com/2016/03/body-fat-percentage-men-women.jpg" caption="Øjemålstest af fedtprocenten - [via](https://exerciseandwellness.wordpress.com/2016/03/28/body-fat-percentages/)" %}
+{% include figure image_path="https://exerciseandwellness.files.wordpress.com/2016/03/body-fat-percentage-men-women.jpg" caption="Øjemålstest af fedtprocenten - [via](https://exerciseandwellness.wordpress.com/2016/03/28/body-fat-percentages/)" alt="Beregn og udregn din fedtprocent med forskellige formler" %}
+
+Hvis du vil tjekke din [fedtprocent i forhold til normerne for mænd og kvinder, så klik her]({% link _posts/2019-10-13-fedtprocent-maaling.md %}).
 
 ## Andre typer målinger af kropskomposition
 
