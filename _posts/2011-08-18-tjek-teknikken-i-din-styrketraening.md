@@ -12,7 +12,9 @@ category:
 last_modified_at: 2013-04-03T15:06:01Z
 ---
 
-Styrketræning er et rigtig godt middel til at gøre kroppen stærkere, når du udfører den på den rigtige måde. Inspireret af Rolf Bau fra [jui.dk](http://jui.dk) har vi samlet nogle enkle retningslinjer, som kan hjælpe med at gøre din træning endnu mere sikker. Hvis du er usikker på, om du udfører en øvelse på en hensigtsmæssig måde, er det en god ide at få en til at holde øje med om du i hvert fald overholder følgende:
+Styrketræning er et rigtig godt middel til at gøre kroppen stærkere, når du udfører den på den rigtige måde.
+
+Jeg har samlet nogle enkle retningslinjer, som kan hjælpe med at gøre din træning endnu mere sikker. Hvis du er usikker på, om du udfører en øvelse på en hensigtsmæssig måde, er det en god ide at få en til at holde øje med om du i hvert fald overholder følgende:
 
 ## 1) Hovedet og rygsøjlen følger et kosteskaft
 
@@ -45,3 +47,5 @@ Foden solidt plantet på jorden med vægten fordelt nogenlunde ligeligt på hele
 Bækkenbunden er en del af det muskelkorset, der stabiliserer din kropsstamme. Derfor skal du sørge for at spænde godt op i bækkenbunden, når du laver en øvelse. Dette gælder både for mænd og kvinder. Fornemmelsen er at du lukker for både "gas" og "vand".
 
 Hvis du følger disse meget enkle retningslinjer, er der stor sandsynlighed for, at du kan træne uden at få skader. Hvis du er i tvivl om en øvelse, så spørg altid en der har mere forstand på det end dig selv. God træning.
+
+Jeg har skrevet lidt mere om det uhensigtsmæssige i at arbejde med absolutte mål for det "rigtige" bevægelsesmønster i denne diskussion af,  [om der findes en rigtig teknik til styrketræning]({% link _posts/2019-08-10-teknik.md %}).
