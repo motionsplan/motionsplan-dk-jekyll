@@ -1,12 +1,12 @@
 ---
 title: "Udregn BMI: Komplet guide og beregner for voksne og børn"
 permalink: /bmi/
-excerpt: "Body Mass Index (BMI) den mest udbredte formel og test til at udregne om man er normalvægtig, undervægtig eller overvægtig. Beregn selv dit BMI i vores beregner og se skala og tabeller for børn og voksne."
+excerpt: "Body Mass Index (BMI) den mest udbredte formel og test til at udregne om man er normalvægtig, undervægtig eller overvægtig. Beregn selv dit BMI i vores beregner og se skala og tabel for børn og voksne."
 language: da
 header:
   overlay_image: https://helseboost.dk/filer/bmi-1500x960.jpg
   teaser: https://helseboost.dk/filer/bmi-1500x960.jpg
-  caption: Udregn BMI med vores beregner og se formel
+  caption: Udregn BMI med vores beregner, tabel og se formel
 category:
   - Beregnere
   - Test
@@ -96,7 +96,7 @@ For voksne er de generelle kategorier for BMI for voksne (ældre end 19 år og i
 
 Hvis vi sætter standarderne for BMI ind i en tabel, ser det sådan ud:
 
-### Normalværdier for Body Mass Index
+### Tabel: Normalværdier for Body Mass Index
 
 | Klassifikation | Kvinde (kg/m<sup>2</sup>) | Mand (kg/m<sup>2</sup>) |
 |----------------|---------------------------|-------------------------|
@@ -107,7 +107,7 @@ Hvis vi sætter standarderne for BMI ind i en tabel, ser det sådan ud:
 
 Nyere tabeller har udvidet fedmeområdet til forskellige klassificeringer, som du kan se i denne tabel. Klassificeringen er lavet af [World Health Organization (WHO)](http://www.euro.who.int/en/health-topics/disease-prevention/nutrition/a-healthy-lifestyle/body-mass-index-bmi).
 
-### Fedmeklassificering ud fra Body Mass Index
+### Tabel: Fedmeklassificering ud fra Body Mass Index
 
 |               | Fedme klassificering | BMI (kg/m<sup>2</sup>) | 
 |---------------|----------------------|------------------------|
@@ -121,7 +121,7 @@ Nyere tabeller har udvidet fedmeområdet til forskellige klassificeringer, som d
 NB. Hvis du er under 18 år, så kig længere nede på siden for en retfærdig vurdering af dit BMI.
 {: .notice .notice--warning }
 
-{% include figure image_path="https://bgh.dk/wp-content/uploads/2018/11/det-betyder-bmi-tallene-847x1024.jpg" caption="Hvad er din BMI i forhold til normal?" alt="Illustration af skala for hvad normal BMI er" %}
+{% include figure image_path="https://bgh.dk/wp-content/uploads/2018/11/det-betyder-bmi-tallene-847x1024.jpg" caption="Hvad er din BMI i forhold til normal?" alt="Tabel: Illustration af skala for hvad normal BMI er." %}
 
 ## Hvad med min muskelmasse og fedtprocent i forhold BMI?
 
@@ -230,7 +230,7 @@ Endelig kan du dykke lidt ned i din samlede kropskomposition for at få en stør
 
 ## Referencer om BMI og Body Mass Index
 
-### Generelle referencer om BMI
+### Generelle referencer om BMI og tabel
 
 - Lee, C. D., A. S. Jackson, og S. N. Blair. 1998. “US Weight Guidelines: Is It Also Important to Consider Cardiorespiratory Fitness?” International Journal of Obesity and Related Metabolic Disorders: Journal of the International Association for the Study of Obesity 22 Suppl 2 (august): S2-7.
 - WHO Consultation on Obesity (1997: Geneva, Switzerland), World Health Organization Division of Noncommunicable Diseases, og Family and Reproductive Health World Health Organization. Programme of Nutrition. 1998. “Obesity: Preventing and Managing the Global Epidemic: Report of a WHO Consultation on Obesity, Geneva, 3-5 June 1997”. <https://apps.who.int/iris/handle/10665/63854>.
