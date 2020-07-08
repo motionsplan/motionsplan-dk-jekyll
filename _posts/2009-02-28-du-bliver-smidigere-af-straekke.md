@@ -23,7 +23,7 @@ Udstrækning og udspænding er forbundet med mange myter. Nogen siger, at det ik
 
 ## Du bliver smidigere af at strække!
 
-Følgende tabel viser meget klar, at du bliver smidigere af at strække. Uanset hvilket studium og hvor længe der blev strakt ud, så øges _range of motion_ efter udstrækning. Tabellen er lavet af Magnusson (1998).
+Følgende tabel viser meget klar, at **du bliver smidigere af at strække**. Uanset hvilket studium og hvor længe der blev strakt ud, så øges _range of motion_ efter udstrækning. Tabellen er lavet af Magnusson (1998).
 
 | Forfatter | Stræk | reps/dag | dag/uge | uger | total antal sek | ændring i grader  |
 |-|-|-|-|-|-|-|
@@ -58,7 +58,9 @@ Følgende tabel viser meget klar, at du bliver smidigere af at strække. Uanset 
 
 Der findes ingen sandheder om udspænding, men forskerne bliver efterhånden klogere. Man har i flere år været relativt sikker på, at man bliver mere smidig af at strække, mens det er under stadig debat hvordan udspænding påvirker præstationen.
 
-Peter Magnusson (1998) viser gennem et metastudium, at **man får en større funktionel smidighed (range of motion) ved at strække ud**, og det er nærmest uanset forsøgsprotokollernes tid, frekvens og varighed. Derimod kunne han ikke påvise, at musklernes passive vævsegenskaber ændrede sig markant. Det får Peter Magnussons (1998) til at konkludere, at smertetærsklen eller tolerancen over for strækket øges, så det simpelthen gør mindre ondt, når man kommer ud i yderstillinger. Nervesystemet tilpasser sig altså denne særlige træningsform. Den øgede smidighed skyldes formentlig bindevævet og senernes øgede tolerance for strækket.
+Peter Magnusson (1998) viser gennem et metastudium, at **man får en større funktionel smidighed (range of motion) ved at strække ud**, og det er nærmest uanset forsøgsprotokollernes tid, frekvens og varighed. Derimod kunne han ikke påvise, at musklernes passive vævsegenskaber ændrede sig markant. 
+
+Det får Peter Magnussons (1998) til at konkludere, at smertetærsklen eller tolerancen over for strækket øges, så det simpelthen gør mindre ondt, når man kommer ud i yderstillinger. Nervesystemet tilpasser sig altså denne særlige træningsform. Den øgede smidighed skyldes formentlig bindevævet og senernes øgede tolerance for strækket.
 
 Man kan måske forestille sig en **alternativ hypotese**: Ved styrketræning har det i mange år været velkendt, at nervesystemet er årsag til den første styrkefremgang. Nervesystemet bliver simpelthen bedre til at få flere muskler til at arbejde sammen. Først senere ændrer musklerne egenskaber (bl.a. Aagaard 2003). Det kunne altså teoretisk set tænkes, at udspænding først ændrer musklernes vævsegenskaber efter fx 10 ugers træning.
 
@@ -70,9 +72,11 @@ De fleste forsøgsprotokoller er lavet med statisk udspænding. Det kunne være 
 
 ## Konklusion om udstrækning: Du bliver smidigere
 
-Efter vores mening skal man hverken bare strække ud eller undlade det. Man skal gøre det på et kvalificeret grundlag. Hvis man skal lave maksimale præstationer, bør man ikke lave lange stræk på sine muskler i timen op til ens præstation. Til gengæld vil vi anbefale at strække ud efter træning for at gøre musklerne mere afspændte (hvilket sammen med nedvarmning kan gøre restitutionen hurtigere).
+Efter vores mening skal man hverken bare strække ud eller undlade det. Man skal gøre det på et kvalificeret grundlag. Hvis man skal lave maksimale præstationer, bør man ikke lave lange stræk på sine muskler i timen op til ens præstation.
 
-Man bliver smidigere af udstrækning, og der er chance for, at tilbagevendende udspænding over længere tid forbedrer ens præstationsevne.
+Til gengæld vil **vi anbefale at strække ud efter træning for at gøre musklerne mere afspændte** (hvilket sammen med nedvarmning kan gøre restitutionen hurtigere).
+
+Samtidig bliver man **smidigere af udstrækning**, og der er chance for, at tilbagevendende udspænding over længere tid forbedrer ens præstationsevne.
 
 ## Referencer til udspænding og udstrækning
 

@@ -79,9 +79,9 @@ PBF = 1.37 * BMI - 3.47
 
 ### Duerenberg et al. udregning
 
-PBF = 1.20 * BMI + 0.23 * age - 10.8 * sex[^note] - 5.4;
+PBF = 1.20 * BMI + 0.23 * age - 10.8 * sex - 5.4;
 
-[^note]: sex: men = 1; female = 0
+sex: men = 1; female = 0
 
 ## Usikkerhed i udregningen
 
