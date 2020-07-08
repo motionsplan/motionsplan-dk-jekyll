@@ -28,13 +28,19 @@ Isolationsøvelser, hvor du træner en muskelgruppe af gangen, kan udmærket ind
 
 ## Fordele ved funktionel træning
 
-Funktionel styrketræning forbedrer både helbred, præstationsevne og nedsætter skadesrisikoen, da øvelserne indbefatter træning og forbedring af kropsholdning, koordination, balance, bevægelighed, styrke og udholdenhed. Af samme årsag er funktionel træning lige vigtig, uanset om du er mand eller kvinde, barn, ung, voksen eller gammel. De funktionelle basisøvelser er de samme uanset alder og køn. Den eneste forskel ligger i træningsmængden, der er baseret på frekvens, intensitet og varighed, samt træningsniveauet, som hænger sammen med øvelsernes sværhedsgrad, belastning og hastighed.
+Funktionel styrketræning forbedrer både helbred, præstationsevne og nedsætter skadesrisikoen, da øvelserne indbefatter træning og forbedring af kropsholdning, koordination, balance, bevægelighed, styrke og udholdenhed. Af samme årsag er funktionel træning lige vigtig, uanset om du er mand eller kvinde, barn, ung, voksen eller gammel.
+
+De funktionelle basisøvelser er de samme uanset alder og køn. Den eneste forskel ligger i træningsmængden, der er baseret på frekvens, intensitet og varighed, samt træningsniveauet, som hænger sammen med øvelsernes sværhedsgrad, belastning og hastighed.
 
 ## Indholdet i funktionel træning
 
-Idrætsspecifik funktionel træning tager udgangspunkt i disciplinens bevægelser. For at sikre den bedste overførselsværdi fra træningsøvelser til idrætsaktivitet analyseres de specielle krav, din idræt stiller til dig i forhold til bevægelsesmønstrene, deres sammensætning, bevægeudslag og hastighed. Alle de informationer danner så grundlag for planlægningen. Alle kast ser fundamentalt ens ud, alle hop ser ens ud, og acceleration er uanset idrætsgren ens. Det, der adskiller idrætsgrene, er udstyret, underlaget og beklædningen. Langt de fleste idrætsgrene indeholder et element af løb, hop, kast, skub, træk, løft, bøj, stræk, start og stop.
+Idrætsspecifik funktionel træning tager udgangspunkt i disciplinens bevægelser. For at sikre den bedste overførselsværdi fra træningsøvelser til idrætsaktivitet analyseres de specielle krav, din idræt stiller til dig i forhold til bevægelsesmønstrene, deres sammensætning, bevægeudslag og hastighed. Alle de informationer danner så grundlag for planlægningen.
+
+Alle kast ser fundamentalt ens ud, alle hop ser ens ud, og acceleration er uanset idrætsgren ens. Det, der adskiller idrætsgrene, er udstyret, underlaget og beklædningen. Langt de fleste idrætsgrene indeholder et element af løb, hop, kast, skub, træk, løft, bøj, stræk, start og stop.
 
 Et vigtigt element i funktionel træning er styrketræning af kropsstammen, musklerne mellem bækken og mellemgulv. Med en stærk og stabil kropsstamme opnår du større kraft, kvalitet og effektivitet i alle øvelser og hermed kropsligt overskud og forbedret total præstationsevne. Sidst, men ikke mindst, er træning af balancen med i al funktionel træning, fordi en bedre balance optimerer alle dine bevægelsesmønstre både i dagligdagen og under udøvelse af sport.
+
+## Bevægelsesmønstre i funktionel træning
 
 Funktionel træning omfatter de seks primære bevægelsesmønstre, som forekommer både i dagligdag og idrætstræning:
 
