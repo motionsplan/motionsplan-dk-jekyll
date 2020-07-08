@@ -6,10 +6,12 @@ header:
   overlay_image: https://images.unsplash.com/photo-1483721310020-03333e577078?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80
   teaser: https://images.unsplash.com/photo-1483721310020-03333e577078?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
   overlay_filter: 0.4
+  caption: Intervalløb: 9 effektive metoder til intervaltræning til løb
 category:
-  - Viden om
+  - Konditionstræning
 tags:
-  - biohacking
+  - intervaltræning
+  - intervalløb
 last_modified_at: 2020-06-11T08:14:14Z
 toc: true
 feature_row:
@@ -36,7 +38,7 @@ feature_row:
     btn_class: "btn--success"
 ---
 
-Jeg nyder selv at bruge intervaltræning, når jeg forsøger at forbedre min kondition, og intervaller er en fast del af mit løbeprogram. Jeg har researchet lidt på, hvad intervalttræning er, hvordan det virker på kroppen, og så har jeg lavet en oversigt over effektive intervalprogrammer.
+Jeg nyder selv at bruge intervaltræning og intervalløb, når jeg forsøger at forbedre min kondition, og intervaller er en fast del af mit løbeprogram. Jeg har researchet lidt på, hvad intervalttræning er, hvordan det virker på kroppen, og så har jeg lavet en oversigt over effektive intervalprogrammer.
 
 **Intervaltræning styrker dit kredsløb og kondition effektivt, fordi du ved intervalløb er i stand til at løbe med en højere intensitet i din træning. Formålet med intervalttræning er ofte at arbejde med forskellige energisystemer.**
 
@@ -121,14 +123,14 @@ Oversigt over effektive intervalprogrammer (ordnet med de længste intervaller �
 
 | Intervalform | Udførelse | Variation | Kommentar |
 |-|-|-|-|
-| Fartleg | Varier tempo frit efter lyst | Lad musikken og lysten styre din fart eller ting i terrænet som fx lygtepæle, gadehjørner eller bakker. | Effekten afhænger af hvordan du gør det. Jeg har mest brugt det, når jeg er sammen med andre. |
+| Fartleg | Varier tempo frit efter lyst | Lad musikken og lysten styre din fart eller ting i terrænet som fx lygtepæle, gadehjørner eller bakker | Effekten afhænger af hvordan du gør det. Jeg har mest brugt det, når jeg er sammen med andre. |
 | 4 min intervaller (1000 meter intervaller) | 3 x 4 min med 2 min pause mellem hvert interval | Fra 2 til 6 intervaller Intervallerne kan varieres fra 3 til 5 min Pause fra 1½ til 4 min | Nok den mest udbredte og effektive intervaltype til at øge den maksimale iltoptagelse |
 | Pyramide - 1000-800-600-400-200 | 1000 m – 800 m – 600 m – 400 m – 200 m med 1 minuts pause mellem hver | Fjern en distance og gentag resten 2 gange. Pausen kan starte på 2 min og gøres gradvist kortere | En sjov og motiverende intervalform som rammer mange forskellige ting i samme træningspas. Er nemmest at lave på bane. |
-| 70-60 (400 meter intervaller) | 5 x 70 sekunders løb med 60 sek pause | Fra 3 til 8 intervaller. Pause fra ½ til 2 min Evt. jogge 200 eller 400 meter i pausen i stedet for at tage tid | En klassiker fra militæret. Minder om 400 m intervaller. Egner sig godt til træning på bane. Er også temmelig anaerob træning. |
-| 10-20-30 | 30 s jog - 20 s løb - 10 s sprint gentages. Fx 8 runder.  | De første gange kan du gå 30 s - jogge 20 s og sprinte 10 s. Varier antallet af runder. | Træningsformen har vist rigtig gode resultater på løbetider, kondition og sundhedsparametre. Dansk forskning af Jens Bangsbo. |
-| 200 meter intervaller | 10 x 200 m med 30 sek pause | Fra 6 til 20 intervaller Pause fra 15 sek til 1 min Evt. jogge 100 eller 200 meter i pausen i stedet for at tage tid | Bedst til træning på bane, men du kan let skridte en 200 meter strækning af. Har karakter af sprinttræning. |
-| 20-10 (Tabata) | 20 sek løb – 10 sek pause Gentages 10 gange | Fra 8 til 20 intervaller Pause fra 10 til 20 sek | Jeg har skrevet et andet indlæg om [Tabata-protokollen, som oprindeligt er lavet på cykel](/artikel/4-minutters-haard-intervaltraening-bedre-end-en-times-moderat-loeb). |
-| 15-15 | 15 sek løb – 15 sek pause Gentages 20 gange | Fra 10 til 40 intervaller Pause fra 10 til 15 sek |
+| 70-60 (400 meter intervaller) | 5 x 70 sekunders løb med 60 sek pause | Fra 3 til 8 intervaller. Pause fra ½ til 2 min Evt. jogge 200 eller 400 meter i pausen i stedet for at tage tid | En klassiker fra militæret. Minder om 400 m intervaller. Egner sig godt til træning på bane. Er også temmelig anaerob træning |
+| 10-20-30 | 30 s jog - 20 s løb - 10 s sprint gentages. Fx 8 runder | De første gange kan du gå 30 s - jogge 20 s og sprinte 10 s. Varier antallet af runder | Træningsformen har vist rigtig gode resultater på løbetider, kondition og sundhedsparametre. Dansk forskning af Jens Bangsbo |
+| 200 meter intervaller | 10 x 200 m med 30 sek pause | Fra 6 til 20 intervaller Pause fra 15 sek til 1 min Evt. jogge 100 eller 200 meter i pausen i stedet for at tage tid | Bedst til træning på bane, men du kan let skridte en 200 meter strækning af. Har karakter af sprinttræning |
+| 20-10 (Tabata) | 20 sek løb – 10 sek pause Gentages 10 gange | Fra 8 til 20 intervaller Pause fra 10 til 20 sek | Jeg har skrevet et andet indlæg om [Tabata-protokollen, som oprindeligt er lavet på cykel](/artikel/4-minutters-haard-intervaltraening-bedre-end-en-times-moderat-loeb) |
+| 15-15 | 15 sek løb – 15 sek pause Gentages 20 gange | Fra 10 til 40 intervaller | Pause fra 10 til 15 sek |
 | Sprint 8 | Sprint 30 sekunder. Pause i halvandet minut. | Antallet af reps. Det er vigtigt, at du i pausen restituerer nok til at næste sprint er effektiv. | Jeg har skrevet et andet indlæg om [Sprint 8](/artikel/sprint-8-intervaltræning-der-virker) |
 
 Der findes usædvanligt mange intervalprogrammer og -principper, og du kan variere dem i det uendelige. Jeg har skrevet et andet indlæg, der handler om [vores energisystemer]({% link _posts/2019-11-14-energisystemer-101.md %}).
