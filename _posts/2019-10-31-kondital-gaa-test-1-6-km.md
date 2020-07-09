@@ -1,11 +1,12 @@
 ---
 title: "1,6 km gå-test: Find dit kondital med Rockports gåtest"
 permalink: /gaatest/
-excerpt: "Rockports 1,6 km gåtest er en submaksimal test til at estimere konditallet ud fra tiden det tager at gennemføre testen. Testen er særligt velegnet for utrænede, folk i dårlig form, ældre og overvægtige."
+excerpt: "Rockports 1,6 km gåtest er en submaksimal gangtest til at estimere konditallet ud fra tiden det tager at gennemføre testen. Testen er særligt velegnet for utrænede, folk i dårlig form, ældre og overvægtige."
 language: da
 header:
   overlay_image: https://static.lakana.com/npg-global-us-east-1/photo/2017/04/05/people%20walking%20generic%20sidewalk_6381382_ver1.0_1280_720.jpg
   teaser: https://static.lakana.com/npg-global-us-east-1/photo/2017/04/05/people%20walking%20generic%20sidewalk_6381382_ver1.0_1280_720.jpg
+  caption: "Gangtest: 1,6 km gåtest"
 category:
   - Kondition
 tags:
@@ -22,7 +23,7 @@ toc: true
 **Vigtigt**: Denne beregner tager udgangspunkt i Kilnes (1987) formel. Der findes andre beregnere på dansk, som har en alternativ formel, som det i min research ikke er lykkes mig at finde ud af hvord det kommer fra.
 {: .notice .notice--info }
 
-## Sådan udfører du 1,6 km gåtesten
+## Sådan udfører du gåtesten på 1,6 km
 
 1. Vej dig.
 2. Mål en distance på 1,609 km. Det bedste er at gå på en 400 meter bane, men kan også udføres på løbebånd.
@@ -35,11 +36,11 @@ Testen kan enten udføres på et løbebånd eller en opmålt rute, evt. på en 4
 
 {% include video provider="youtube" id="tYhltBpAsSo" %}
 
-## Udregn dit kondital
+## Udregn dit kondital ud fra 1,6 km gangtest
 
 {% include calculate-fitness-walktest.html %}
 
-## Validiteten af Rockports gåtest
+## Validiteten af Rockports 1,6 km gåtest
 
 Rockports gåtest estimerer konditallet. Hvor præcist den rammer konditallet for den enkelte afhænger af mange faktorer. Weiglein (2011) har vist at testen er valid til at estimere konditallet, når man sammenligner med 1,5 mile (2,414) løbetesten, som bruges af det amerikanske militær. Det betyder i praksis, at den kan sammenlignes med [Coopers 2400 meter test](/kondital-2400-meter/).
 

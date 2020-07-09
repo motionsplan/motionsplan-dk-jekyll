@@ -1,11 +1,12 @@
 ---
-title: "Find konditallet ud fra Watt-max testen på cykel"
+title: "Wattmax-test: Find konditallet med Watt-max-testen på cykel"
 permalink: /kondital-wattmax/
-excerpt: "Watt-max testen er en trinvist stigende maksimaltest på ergometercykel. Testens resultat kan være et præstationsmål i sig selv, men den giver også et validt estimat af den maksimale iltoptagelse."
+excerpt: "Wattmax-testen er en trinvist stigende maksimal test på ergometercykel. Watt-max-testens resultat kan være et præstationsmål i sig selv, men testen giver også et validt estimat af den maksimale iltoptagelse."
 language: da
 header:
   overlay_image: https://prod-wattbike-images.s3.amazonaws.com/images/Wattbike4059_edit-(2)-ecffa30a11c87543.jpg
   teaser: https://prod-wattbike-images.s3.amazonaws.com/images/Wattbike4059_edit-(2)-ecffa30a11c87543.jpg
+  caption: Watt-max-testen på cykelergometer
 category:
   - Kondition
 tags:
@@ -32,7 +33,7 @@ En nem og præcis måde at finde dit kondital på. Du skal bruge et præcist cyk
 
 Testen er uhyre simpel at gennemføre og kræver blot, at man har adgang til en ergometercykel, der kan vise belastningen i watt. Testen er mindre hård end den lyder, da det kun er de sidste 2-4 minutter der er virkeligt hårde.
 
-## Testens gennemførelse
+## Watt-max-testens gennemførelse
 
 1. Start med at veje dig.
 2. Varm op i fem minutter ved at cykle 5 min på 100 watt (mand) eller 5 min på 70 watt (kvinde).
@@ -72,7 +73,7 @@ Du kan køre testen på en Wattbike ved at bruge tabellerne, der omsætter modst
 
 {% include feature_row type="left" %}
 
-## Referencer
+## Referencer til Wattmax-testen
 
 - [Wattmax test](https://systime.dk/fileadmin/indhold/SupplerendeMaterialer/Idraet_-_teori_og_traening/4_Traeningslaere/watt-max.htm)
 - Andersen, L. B. 1995. “A Maximal Cycle Exercise Protocol to Predict Maximal Oxygen Uptake”. Scandinavian Journal of Medicine & Science in Sports 5 (3): 143–46. <https://doi.org/10.1111/j.1600-0838.1995.tb00027.x>.
