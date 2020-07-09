@@ -14,3 +14,4 @@ _scripts/*.png
 npm-debug.log
 .jekyll-cache/
 
+_posts/.ztr-directory
