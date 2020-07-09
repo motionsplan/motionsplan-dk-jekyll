@@ -423,7 +423,7 @@ Du kan også lede videre her på siden for at finde en masse udstrækningsøvels
 
 ## Forslag til strækøvelser og udstrækningsøvelser
 
-{% assign site_posts = site.exercises | where: "training_type", "training_type'" | sort: "title" %}
+{% assign site_posts = site.exercises | where: "training_type", "Strækøvelser'" | sort: "title" %}
 
 <div class="feature__wrapper">
 
