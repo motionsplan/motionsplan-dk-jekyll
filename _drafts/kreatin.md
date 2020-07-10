@@ -48,17 +48,15 @@ kreatin piller
 
 
 
-**Kreatin** er nok det mest anerkendte og veldokumenterede kosttilskud. Og så virker kreatin rent faktisk både på muskelopbygning og din evne til at være ekslosiv flere gange. Kreatin har ikke nogen reelle bivirkninger.
+**Kreatin monohydrat** er nok det mest anerkendte og veldokumenterede kosttilskud. Kreatin taget typisk som pulver blandet op i vand, og man kan mig bekendt ikke få det som piller. Og så virker kreatin rent faktisk både på muskelopbygning og din evne til at være ekslosiv flere gange. Kreatin har tilmed ikke nogen reelle bivirkninger.
 
-
-
-Faktisk bør man kalde det **kreatin monohydrat**
+***
 
 Der sker en væskeophobning i kroppen, men denne væske forsvinder igen når du stopper indtaget af kreatin. Det er så at sige den eneste på nuværende tidspunkt kendte "bivirkning" og den er altså ikke vedvarende, ej heller farlig.
 
 Der findes mange forskellige former for kreatin på kosttilskudsmarkedet, men det mest testede er kreatin monohydrat. Hver gang nye former for kreatin vinder frem, viser det sig, at de ikke er nær så gode som monohydrat, men til gengæld er de næsten altid dyrere [1]
 
-## Sådan virker kreatin
+## Hvordan virker kreatin?
 
 Kreatin virker ved at tilføre ekstra kreatinfosfat til ATP-CP energisystemet. Når vi laver højintenst arbejde spaltes ATP (tre fosfatgrupper) til ADP (to fosfatgrupper) og energi frigøres. Her hjælper kreatinfosfat til resyntetisering af ATP, da den “donerer” en fosfatgruppe og vi derfor er hurtigere klar til at lave mere arbejde.
 
@@ -74,7 +72,9 @@ Et øget indhold af kreatinfosfat vil hjælpe dig til at øge mængden af arbejd
 
 Du kan høre meget mere om kreatins fysiologiske virkning her.
 
-## Loadingfase og kreatin - er det nødvendigt?
+## Kan man få kreatin som piller?
+
+## Hvordan tager man en kreatin kur?
 
 Kreatin indtages typisk på en af to måder:
 
@@ -111,16 +111,20 @@ Kreatin monohydrat er et nemt og billigt kosttilskud, hvis effekter er veldokume
 [3] Forbes, S. C., & Candow, D. G. Timing of Creatine Supplementation and Resistance Training: A Brief.
 
 
-
-## Hvad er det bedste og billigeste kreatin?
+***
+## Hvad er det bedste og billigste kreatin [2020]?
 
 Du kan finde rigtig mange guides med sammenligninger mellem kreatin fra forskellige brands rundt omkring på nettet. De fleste sammenligninger mellem kreativpulvere lader som om de rent faktisk har testet, **hvilken kreatin der er bedst?** Sandheden er, at de fremhæver dem de kan få _affiliate kommision_ fra.
 
 Jeg har stadig ikke set nogen guide, der kan fortælle dig andet end **hvad det billigste kreatin er?**. Det er jo heldigvis let at teste, fordi man bare kan kigge på prisen.
 
-Hvis alle de sites skulle teste **"hvem der laver det bedste kreatin?"** så skulle de have adgang til et laboratorium.
+Hvis alle de sites skulle teste **"hvem der laver det bedste kreatin?"** så skulle de have adgang til et laboratorium. Det er der så vidt jeg ved ikke nogen danske sites, der har adgang til at kunne få testet kreatin i laboratorier, så derfor giver det ikke mening, at de foregiver at vide, hvad det bedste kreatin pulver er?
 
+Når du kigger efter **det bedste kreatinpulver**, så skal du kigge efter **kreatin monohydrat**. Jeg foreslår, at du køber kreatin fra en dansk forhandler, som du stoler på. 
 
+**Kreatin er virkelig billigt**, så du kan ikke gå helt galt i byen. Jeg køber normalt selv fra danske [bodylab.dk\*](), som har et god ry. Hvis du gerne vil støtte Motionsplan, så får vi kommision, hvis du køber fra nogle af vores samarbejdspartnere.
+
+***
 
 
 
