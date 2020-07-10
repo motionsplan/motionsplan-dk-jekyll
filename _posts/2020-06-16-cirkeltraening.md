@@ -7,14 +7,18 @@ header:
   teaser: https://images.unsplash.com/photo-1544216717-3bbf52512659?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
   overlay_filter: 0.4
 category:
-  - Viden om
+  - Kombinationstræning
+  - Konditionstræning
+  - Styrketræning
 tags:
-  - biohacking
+  - cirkeltræning
+  - kondition
+  - træning
 last_modified_at: 2020-06-11T08:14:14Z
 toc: true
 ---
 
-Jeg kan godt lide at organisere min træning som cirkeltræning. Jeg har kigget lidt på, hvad cirkeltræning er, hvordan du kan skrue dit cirkeltræningsprogram sammen, og hvilke øvelser du kan bruge i din cirkeltræning.
+Jeg kan godt lide at organisere min træning som cirkeltræning eller som det hedder på _circuit træning_. Jeg har kigget lidt på, hvad cirkeltræning er, hvordan du kan skrue dit cirkeltræningsprogram sammen, og hvilke øvelser du kan bruge i din cirkeltræning?
 
 **Cirkeltræning er en klassisk måde at strukturere din træning på, hvor du på begrænset tid kan opnå stor effekt på både styrke, kondition og sundhed. Cirkeltræning indebærer, at du vælger en række øvelser, som du udfører på skift, hvorefter du starter forfra på cirklen.**
 
@@ -109,7 +113,7 @@ Hvis du foretrækker at designe din egen cirkeltræning, så kan jeg anbefale f�
 
 - **Interval timer**. Jeg bruger selv den gratis [Interval timer](https://play.google.com/store/apps/details?id=cc.dreamspark.intervaltimer&hl=da) (dog med reklamer) fra Google Play Store, hvor jeg kan sætte intervallerne op, som jeg gerne vil have dem. Så kan jeg spille musik fra fx Spotify eller Google Play Music i baggrunden, og så bipper app’en, når intervallerne er gået. På IOS så ved jeg mange er glade for denne [Interval timer](https://apps.apple.com/us/app/interval-timer-hiit-workouts/id406473568).
 
-## Fordele ved cirkeltræning
+## Fordele ved cirkeltræning og circuit træning
 
 - **Variation i øvelserne**. Du kan have en stor variation i øvelserne, hvilket gør, at du får en alsidig træning.
 - **Tidseffektiv**. Cirkeltræning kan være en effektiv måde at strukturere træningen på, da du kan arbejde hårdt i de enkelte intervaller.
@@ -122,11 +126,11 @@ Hvis du foretrækker at designe din egen cirkeltræning, så kan jeg anbefale f�
 
 ## Cirkeltræning som en del af din træning
 
-Nu er du klædt på til at lave dit eget cirkeltræningsprogram. Du kan fx implementere det en-to gange om ugen.
+Nu er du klædt på til at lave dit eget cirkeltræningsprogram. Du kan fx implementere _circuit træning_ en-to gange om ugen.
 
 Jeg har skrevet et indlæg om [intervaltræning også, hvor du kan se mere hvordan du kan skrue arbejds- og pauseperioderne sammen]({% link _posts/2020-06-16-cirkeltraening.md %}).
 
-## Referencer til cirkeltræning
+## Referencer til cirkeltræning og circuit træning
 
 - Braun, W. A., W. E. Hawthorne, og M. M. Markofski. 2005. “Acute EPOC Response in Women to Circuit Training and Treadmill Exercise of Matched Oxygen Consumption”. European Journal of Applied Physiology 94 (5–6): 500–504. <https://doi.org/10.1007/s00421-005-1383-7>.
 - Riegler, Michelle, G. Stotz, Kaitlyn Fitzgerald, Christian K. Munoz, Jamie Thornton Lewis, Sebastian Ring, og Todd A. Astorino. 2017. “Acute Responses to the 7-Minute Workout”. Journal of strength and conditioning research. <https://doi.org/10.1519/JSC.0000000000002073>.
