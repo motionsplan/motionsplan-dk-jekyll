@@ -47,19 +47,19 @@ video:
   id: yIoDxPDVLI4
 feature_row:
   - image_path: https://www.fotoagent.dk/single_picture/11803/138/custom1/Relax_Fitness_Leg_Press_PL1008(1).jpg
-    url: https://www.fitnessgruppen.dk/relax-leg-press-pl1008/
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/relax-leg-press-pl1008/
     title: Siddende benpres
-    btn_label: Tjek pris Fitnessgruppen
+    btn_label: Tjek pris Fitnessgruppen*
     btn_class: btn--success
   - image_path: https://www.fotoagent.dk/single_picture/11803/138/mega/Relax_PL1211.jpg
-    url: https://www.fitnessgruppen.dk/relax-seated-leg-press/
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/relax-seated-leg-press/
     title: 45 graders extension
-    btn_label: Tjek pris Fitnessgruppen
+    btn_label: Tjek pris Fitnessgruppen*
     btn_class: btn--success
   - image_path: https://www.fotoagent.dk/single_picture/11803/138/custom1/Relax_PTT0116.jpg
-    url: https://www.fitnessgruppen.dk/relax-45-degree-leg-press/
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/relax-45-degree-leg-press/
     title: Leg press
-    btn_label: Tjek pris Fitnessgruppen
+    btn_label: Tjek pris Fitnessgruppen*
     btn_class: btn--success
 ---
 

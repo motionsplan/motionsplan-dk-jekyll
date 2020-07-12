@@ -15,27 +15,13 @@ tags:
 last_modified_at: 2020-07-11T07:33:14Z
 toc: true
 feature_row:
-  - image_path: https://cdn6.tales.dk/00115/65340/cover.1569373580.jpg
-    url: https://tales.dk/stretching-anatomy_arnold-g-nelson_9781492577775
-    title: "Facilitated Stretching"
-    excerpt: "See inside every stretch as you increase flexibility and improve muscular strength. Expanded, enhanced, and updated, the best-selling Stretching Anatomy returns to show you how to increase range of motion, supplement training, enhance recovery, and maximize efficiency of movement."
-    alt: "Stretching Anatomy af Arnold G. Nelson, Jouko J. Kokkonen om anatomi og udstrækning"
-    btn_label: "Tjek prisen hos Tales"
-    btn_class: "btn--warning"
-  - image_path: https://cdn6.tales.dk/00098/14031/cover.1572457859.jpg
-    url: https://tales.dk/performance-stretching_deborah-ellison_9780880117746
-    title: "Performance Stretching"
-    excerpt: "Deborah Ellison presents a new way to stretch, one that combines the mechanically sound concept of complete chain exercise for stability, strength and optimal flexibility. It also incorporates proven performance benefits of functional training."
-    alt: "Performance Stretching af Deborah Ellison"
-    btn_label: "Tjek prisen hos Tales"
-    btn_class: "btn--warning"
-  - image_path: https://cdn6.tales.dk/00024/08273/cover.1577053163.jpg
-    url: https://tales.dk/facilitated-stretching_robert-e-mcatee_9781450434317
-    title: "Facilitated Stretching"
-    excerpt: "A resource for proprioceptive neuromuscular facilitation (PNF) stretching, an effective and easy-to-use method that involves stretching the muscle, contracting it isometrically against resistance and then stretching it again to increase range of motion."
-    alt: "Facilitated Stretching om PNF udstrækning"
-    btn_label: "Tjek prisen hos Tales"
-    btn_class: "btn--warning"
+  - image_path: https://www.bodylab.dk/images/products/zma-105g-2019-p.png
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=22819&htmlurl=https://www.bodylab.dk/shop/bodylab-zma-120-695p.html
+    title: "Bodylab ZMA"
+    excerpt: "Bodylab ZMA indeholder en kombination af zink, magnesium og B6 vitamin. Bodylab ZMA bruger det organisk-bundne magnesium bisglycinat."
+    alt: "Bodylab magnesium tilskud til at undgå magnesiummangel bivirkninger"
+    btn_label: "Tjek prisen hos Bodylab*"
+    btn_class: "btn--info"
 ---
 
 Jeg har følt mig træt på det seneste, så derfor er jeg gået i gang med at researche lidt på, hvad magnesium er og hvordan magnesium virker? Kan det betale sig at tage magnesium som tilskud til kosten, eller får man rigeligt gennem de rigtige fødevarer?
@@ -291,7 +277,9 @@ Der er **naturligvis ikke nogen tvivl om, at du skal sørge for at have magnesiu
 
 Det mest sandsynlige er, at der ikke er nogen risiko ved at tage lidt ekstra magnesium, da det udskilles gennem nyrerne og urinen, hvis der er for meget.
 
-## Kilder
+{% include feature_row type="left" %}
+
+## Referencer til magnesium
 
 - Abbasi, Behnood, Masud Kimiagar, Khosro Sadeghniiat, Minoo M. Shirazi, Mehdi Hedayati, og Bahram Rashidkhani. “The effect of magnesium supplementation on primary insomnia in elderly: A double-blind placebo-controlled clinical trial”. _Journal of Research in Medical Sciences : The Official Journal of Isfahan University of Medical Sciences_ 17, nr. 12 (december 2012): 1161–69.
 - Al Alawi, Abdullah M., Sandawana William Majoni, og Henrik Falhammar. “Magnesium and Human Health: Perspectives and Research Directions”. _International Journal of Endocrinology_ 2018 (16. april 2018). [https://doi.org/10.1155/2018/9041694](https://doi.org/10.1155/2018/9041694).
