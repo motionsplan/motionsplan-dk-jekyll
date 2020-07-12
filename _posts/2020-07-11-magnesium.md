@@ -113,6 +113,25 @@ Magnesium findes nemlig i rigtig mange fødevarer, men følgende fødevarer er s
 
 Først og fremmest skal du altså gøre dig umage med at få en varieret kost, hvor du også vælger fødevarer, hvor der er magnesium i. Magnesium findes især i fuldkornsprodukter, grøntsager, mandler og mælk.
 
+### 10 fødevarer med mest magnesium
+
+Mængden af magnesium i forskellige fødevarer i 100 gram af den angivne fødevare.
+
+| Fødevare | mg / 100 gram |
+|-|-|
+| Mandler | 265 mg |
+| Havregryn | 200 mg |
+| Kikærter | 158 mg |
+| Bulgur | 116 mg |
+| Mørk chokolade | 121 mg |
+| Tofu | 111 mg |
+| Figner | 92 mg |
+| Jomfruhummer | 68 mg |
+| Spinat | 26 mg |
+| Broccoli | 20 mg |
+
+Kilde: www.foodcomp.dk
+
 ## Hvem har øget risiko for magnesiummangel?
 
 Der kan være forskellige årsager til magnesiummangel hos mennesket. Det er svært at forestille sig, at mennesker skal mangle magnesium, hvis man har en almindelig varieret kost, fordi magnesium findes i så mange forskellige fødevarer.
