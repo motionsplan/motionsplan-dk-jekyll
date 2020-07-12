@@ -1,5 +1,5 @@
 ---
-title: "De fem tibetanere: Komplet guide til de 5 yoga riter"
+title: "De fem tibetanere: Komplet guide til de 5 yoga riter [2020]"
 permalink: /artikel/de-fem-tibetanere
 language: da
 header:
