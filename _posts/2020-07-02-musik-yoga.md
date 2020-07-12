@@ -1,5 +1,5 @@
 ---
-title: "Musik til yoga: 5 tips til en god playliste"
+title: "Musik til yoga: 5 tips til en god playliste [2020]"
 permalink: /yoga-musik/
 language: da
 header:
