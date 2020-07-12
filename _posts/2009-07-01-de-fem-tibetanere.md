@@ -5,6 +5,7 @@ language: da
 header:
   overlay_image: /assets/images/blog/de-fem-tibetanere.jpg
   teaser: /assets/images/blog/de-fem-tibetanere.jpg
+  caption: "De fem tibetanere: 5 yoga riter"
 tags:
   - yoga
   - træning
@@ -117,7 +118,7 @@ Find dit eget tempo til hver af øvelserne - det handler ikke om at kunne gøre 
 
 Har du udfordringer med en af øvelserne, anbefaler jeg, at du laver så mange du kan med overskud. Derefter går du videre til den næste tibetaner. Du bliver efterhånden stærkere og stærkere, så du kan lave flere gentagelser. 
 
-[![](https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=37797)](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=37797)
+<a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=37797" target="_blank" rel="nofollow noopener"><img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=37797" border="0" alt=""></a>
 
 ## Hvordan udføres de fem riter?
 
@@ -297,9 +298,11 @@ De fem tibetanere blev for alvor udbredt i den vestlige verden, da Peter Kelder 
 
 ## Virker de 5 tibetanere virkelig?
 
+Jeg er lige ved at dykke ned videnskaben i forhold til om der findes videnskabeligt belæg for effekten af de fem tibetanere. Stay tuned. Brug kommentarerne, hvis jeg skal arbejde lidt hurtigere, eller du har nogle indsigter som kunne besvare dette spørgsmål.
+
 ## Hvorfor er der 5 tibetanere?
 
-Jeg har ikke kunnet finde et definitivt svar på, hvorfor det er endt med 5 tibetanere. Det mest sandsynlige er nok, at det er et godt talc.
+Jeg har ikke kunnet finde et definitivt svar på, hvorfor det er endt med 5 tibetanere. Det mest sandsynlige er nok, at det er et godt tal.
 
 ## Hvad er den sjette tibetaner?
 
@@ -318,6 +321,8 @@ Hvis det er sket for dig, at du overskydende seksuel energi, så kan du følge b
 > take air into your empty lungs, let the air flow in through the nose. When the lungs are full, exhale through the mouth. As you exhale, relax your arms... Then take several deep breaths through the mouth or nose, allowing them to escape through either the mouth or nose."
 
 — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Five_Tibetan_Rites#Sixth_Rite)</cite>
+
+<a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=72081" target="_blank" rel="nofollow noopener"><img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=72081" border="0" alt=""></a>
 
 ## Er de fem tibetanere for dig?
 
@@ -340,5 +345,7 @@ Vi har et andet indlæg her på sitet, der handler om [Mindfulness meditation]({
 ## Referencer til de fem tibetanere
 
 {% include feature_row type="left" %}
+
+<a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=37797" target="_blank" rel="nofollow noopener"><img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=37797" border="0" alt=""></a>
 
 ## Noter
