@@ -75,7 +75,7 @@ Du kan også bruge safety baren til andre øvelser.
 - **Good mornings**. Stangens tyngdepunkt kommer tættere ind på kroppen end med en almindelige squat stang. 
 - **Etbensarbejde**. Safety baren er også anvendlig til lunges, split squats og stepups, fordi den har en god balance på skuldrene. Hvis du har brug for assistance, så kan du altså hjælpe dig selv undervejs ved at gribe fat i racket, når du laver etbensarbejde.
 
-## Videnskabelig sammenligning med safety squats og alm. Squats
+## Videnskabelig sammenligning med safety squats og alm. squats
 
 Der er ikke mange studier med safety bar squats, men der har været et par enkelt de seneste år.
 
@@ -127,7 +127,7 @@ Men **hvilke safety bars kan så anbefales**?
 
 Jeg har læst virkelig mange sites og [grundige anbefalinger](https://www.garagegymreviews.com/the-best-safety-squat-bar) rundt omkring på nettet for at finde ud af, hvilken bar jeg selv vil købe.
 
-Både [Christian Bach](https://nikolajbach.dk/safety-bar-squats/), [Bigshooter](https://andersnedergaard.dk/fitness-mk/fitness-m-k-233/) anbefaler safety baren fra EliteFts og [Coop fra garagegymreviews.com](https://www.garagegymreviews.com/the-best-safety-squat-bar) . 
+Både [Christian Bach](https://nikolajbach.dk/safety-bar-squats/), [Bigshooter](https://andersnedergaard.dk/fitness-mk/fitness-m-k-233/) og [Coop fra garagegymreviews.com](https://www.garagegymreviews.com/the-best-safety-squat-bar) anbefaler safety baren fra EliteFts. 
 
 - **[EliteFts Yoke Bar](https://www.elitefts.com/elitefts-ss-yoke-bar.html)**. EliteFts var blandt de første, der udviklede en safety bar. Den har først og fremmest det rigtige design, og så er den konstrueret til at håndtere meget vægt over lang tid.
 
