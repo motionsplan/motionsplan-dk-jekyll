@@ -1,7 +1,7 @@
 ---
 title: "Udstrækning af sædemusklen"
-excerpt: "Udstrækning af sædemusklen siddende på gulvet. "
-instructions: "Udstrækning af sædemusklen siddende på gulvet. "
+excerpt: "Udstrækning af sædemusklen siddende på gulvet."
+instructions: "Udstrækning af sædemusklen siddende på gulvet."
 permalink: /oevelse/udstraekning-af-saedemusklen/
 redirect_from: /node/161
 id: 161
@@ -29,4 +29,4 @@ gallery:
 last_modified_at: 2014-10-12T19:08:51Z
 ---
 
-Man sidder på gulvet med det ene ben over det andet og presser men den anden armen låret ind mod kroppen. Men kan lave øvelsen med bøjet eller strækket ben, som vist på billedet.
+Man sidder på gulvet med det ene ben over det andet og presser med den anden arm låret ind mod kroppen. Men kan lave øvelsen med bøjet eller strakt ben, som vist på billedet.
