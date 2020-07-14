@@ -48,6 +48,8 @@ video:
 last_modified_at: 2014-10-12T19:15:35Z
 ---
 
+**Vi er ikke så bekymrede for denne øvelse længere. Det handler snarere om træningsdosering. Vi omskriver denne øvelsesbeskrivelse hurtigst muligt.**
+
 Vi anbefaler at du i stedet for denne øvelse laver træk til bryst. Det gør vi af tre årsager:
 
 - Overarmsknoglen i denne position kommer så langt tilbage i skulderleddet, at den har en dårlig arbejdsposition.
@@ -55,3 +57,5 @@ Vi anbefaler at du i stedet for denne øvelse laver træk til bryst. Det gør vi
 - Træk til nakke er ikke funktionel.
 
 Hvis du alligevel insisterer på at lave denne øvelse, så hold øje med om du får problemer med skuldrene.
+
+Vi har skrevet om [træk til bryst her]({% link _exercises/traek-til-bryst-62.md %}).

@@ -1,6 +1,6 @@
 ---
 title: "Pulldown: Træk til bryst"
-instructions: "Sæt dig i pulldown maskinen med et naturligt lændesvaj. Grib stangen med dit ønskede greb. Træk stangen ned til brystet. Kontrolleret tilbage til udgangspositionen."
+instructions: "Sæt dig i pulldown maskinen med neutral ryg og naturligt lændesvaj. Grib stangen med dit ønskede greb. Træk stangen ned til brystet. Kontrolleret tilbage til udgangspositionen."
 permalink: /oevelse/puldown-traek-til-bryst/
 redirect_from:
   - /oevelse/traek-til-bryst/
@@ -77,7 +77,7 @@ Pulldown er flerledsøvelse, som er i kategorien for vertikale trækøvelser. Pu
 
 ## Træk til bryst eller nakke
 
-Pulldown kaldes på dansk ‘træk til bryst’ eller ‘træk til nakke’ afhængigt af, hvordan du udfører øvelsen. 
+Pulldown kaldes på dansk ‘træk til bryst’ eller ‘træk til nakke’ afhængigt af, hvordan du udfører øvelsen. Jeg har skrevet lidt om [træk til nakke her]({% link _exercises/traek-til-nakke-286.md %}).
 
 ## Teknikken i pulldown
 
