@@ -37,7 +37,7 @@ gallery:
 last_modified_at: 2020-06-02T20:36:59Z
 video:
   provider: youtube
-  id:G5yx4qS-bF0
+  id: G5yx4qS-bF0
 ---
 
 Fransk pres en en rigtig effektiv øvelse til at træne triceps med. Der er to forskellige variationer af øvelsen. Hvis du kører stangen hele vejen ned bag hovedet, vil fokus være på det lange tricepshoved. Kører du derimod stangen lige ned imod panden (denne variation kaldes også "skull crushers"), rykker fokus sig til det laterale og mediale tricepshoved (se bl.a. [Kholinne 2018](https://pubmed.ncbi.nlm.nih.gov/29503079/)).
