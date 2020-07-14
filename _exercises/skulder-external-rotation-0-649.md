@@ -1,5 +1,5 @@
 ---
-title: "Skulder, external rotation"
+title: "Skulder, external rotation from front"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/skulder-external-rotation-0/
