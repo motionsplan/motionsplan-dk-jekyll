@@ -1,9 +1,11 @@
 ---
-title: "Albuestræk"
-excerpt: "Tag en håndvægt i strakt arm over hovedet. Før håndvægten mod skulderen. Stræk armen igen."
+title: "Triceps extension: Albuestræk stående med håndvægt"
+excerpt: "Triceps extension laves ved at tage en håndvægt i strakt arm over hovedet. Før håndvægten mod skulderen. Stræk armen igen."
 instructions: "Tag en håndvægt i strakt arm over hovedet. Før håndvægten mod skulderen. Stræk armen igen."
-permalink: /oevelse/albuestraek/
-redirect_from: /node/429
+permalink: /oevelse/triceps-extension/
+redirect_from:
+  - /node/429
+  - /oevelse/albuestraek/
 id: 429
 language: da
 header:
@@ -34,9 +36,16 @@ gallery:
     image_path: /assets/images/exercises/albuestraek-1-320.jpg
     alt: "Albuestræk"
     title: "Albuestræk"
-last_modified_at: 2014-10-12T19:30:19Z
+last_modified_at: 2020-04-12T19:30:19Z
+video:
+  provider: youtube
+  id: lZkzMAseod4
 ---
 
-Fødderne placeres i hoftebredde, kroppens holdes ret, håndvægten placeres i den ene hånd og armen strækkes opad.
+Triceps extension kan enten laves stående eller siddende, og du kan lave den både med håndvægte eller med en stang. Her har vi valgt at vise den med håndvægt på billederne og med stang i videoen.
 
-Man vælger en håndvægt med passende vægt, som man tager i hånden. Herefter strækker man armen over hovedet, dog med et let bøj. Nu bøjes albuen så hånden føres nedad, og håndvægten går mod skulderen. Man skal så langt ned med håndvægten som smidigheden tillader. Herefter strækkes albuen og man kommer tilbage til start positionen.
+Placer håndvægten i den ene hånd og stræk armen opad.
+
+Man vælger en håndvægt med passende vægt, som man tager i hånden. Herefter strækker man armen over hovedet. Nu bøjes albuen så hånden føres nedad, og håndvægten går mod skulderen. Man skal så langt ned med håndvægten som smidigheden tillader. Herefter strækkes albuen, indtil du tilbage til start positionen.
+
+Hvis du er på udkig efter [fransk pres eller skull crushers, så se her]({% link _exercises/triceps-fransk-pres-262.md %}).
