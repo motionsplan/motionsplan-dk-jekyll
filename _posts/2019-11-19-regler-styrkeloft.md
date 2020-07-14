@@ -1,36 +1,37 @@
 ---
-title: "Styrkeløft - hvad er powerlifting og reglerne?"
+title: "Styrkeløft: Hvad er powerlifting og reglerne til styrkeløft?"
 permalink: /powerlifting-rules/
-excerpt: "Hvad er styrkeløft - og hvad er reglerne til powerlifting?"
+excerpt: "Hvad er styrkeløft, som på engelsk kaldes powerlifting, og hvad er reglerne styrkeløft?"
 language: da
 header:
   overlay_image: https://www.elitefts.com/wp/wp-content/uploads/2017/03/raw-squat--800x533.jpg
   teaser: https://www.elitefts.com/wp/wp-content/uploads/2017/03/raw-squat--800x533.jpg
+  caption: "Regler til styrkeløft og powerlifting"
 category:
   - Styrketræning
 tags:
   - regler
   - styrkeløft
   - powerlifting
-last_modified_at: 2019-11-19T23:14:14Z
+last_modified_at: 2020-04-19T23:14:14Z
 toc: true
 feature_row:
   - image_path: https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg
-    alt: "Squat"
+    alt: "Squat - styrkeløft og powerlifting regler for squat"
     excerpt: "Squat"
   - image_path: https://i.ytimg.com/vi/q3uQE0yugH8/maxresdefault.jpg
-    alt: "Bænkpres"
+    alt: "Bænkpres - powerlifting og styrkeløft regler for bænkpres"
     excerpt: "Bænkpres"
   - image_path: https://i.ytimg.com/vi/GaXr9aZ2FR4/maxresdefault.jpg
-    alt: "Dødløft"
+    alt: "Dødløft - poserlifting og styrkeløft regler for dødløft"
     excerpt: "Dødløft"
 feature_row_books:
   - image_path: https://imgcdn.saxo.com/_9788771801835/0x500
     alt: "Stærk"
     title: "Stærk - Jacob Beermann"
-    excerpt: "Kunne du godt tænke dig at blive rigtigt stærk? Det kræver den rette hjælp, og den kan du heldigvis få af Jacob Beermann med bogen \"Stærk\". Her får du en god og grundig introduktion til hvordan man styrketræner bedst."
+    excerpt: "Kunne du godt tænke dig at blive rigtigt stærk til styrkeløft og powerlifting, så har en af Danmarks bedste styrkeløftere Jacob Beermann skrevet bogen _Stærk_. Her får du en god og grundig introduktion til, hvordan man bliver stærk. Med i købet får du et fremragende program målrettet på powerlifting."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835"
-    btn_label: "Læs mere"
+    btn_label: "Tjek prisen hos Saxo*"
     btn_class: "btn--success"
 quiz:
   - front: >
@@ -45,13 +46,27 @@ quiz:
 
 *[IPF]: International Powerlifting Federation
 
-Styrkeløft er en sport, hvor man forsøger at løfte så mange kilo som muligt i squat, bænkpres og dødløft.
+Styrkeløft er en sport, hvor man konkurrerer i at løfte så mange kilo som muligt i squat, bænkpres og dødløft. Styrkeløft kan enten udføres med udstyr (særlige dragter) eller klassisk (raw).
+
+I konkurrencer er løfterne delt op i vægtklasser, hvor man konkurrerer internt om at løfte mest totalt i de tre løft.
+
+Vægtklasserne kan også sammenlignes med hinanden ved hjælp af IPF-point, som er blevet introduceret for nyligt (tidligere brugte man nemlig Wilks til sammenligning af st(yrkeløftere). Jeg har skrevet lidt om at [sammenligne styrke på tværs af forskellig vægt her]({% link _posts/2019-10-31-sammenligning-styrke.md %}).
+
+I Danmark hedder forbundet _Dansk Styrkeløft Forbund (DSF)_ og hører hjemme på [styrke.dk](https://styrke.dk/). Alle klubber i Danmark, der stiller op til konkurrencer, er medlem af Dansk Styrkeløft Forbund, som til gengæld er medlem af International Powerlifting Federation (IPF), som er verdens største styrkeløftforbund. Der findes andre store forbund, men IPF har ry for at være det med de skrappeste dopingtests.
+
+Her kan du se promotion video fra International Powerlifting Federation.
+
+{% include video provider="youtube" id="TMIGc-PqsBc" %}
+
+Når vi gennemgår reglerne til [styrkeløft](https://da.wikipedia.org/wiki/Styrkel%C3%B8ft) nedenunder, så refererer vi til IPF's regler.
+
+Hvis du gerne vil konkurrere i styrkeløft, så skal du være medlem af en klub. Du kan både konkurrere med udstyr (særlige dragter) eller klassisk (raw).
 
 {% include feature_row %}
 
-## Regler i styrkeløft
+## Regler i styrkeløft (IPF)
 
-I noget så enkelt som at løfte en vægt, så er der alligevel mange regler. Her beskriver vi meget kort de regler, man løfter efter i, International Powerlifting Federation (IPF).
+I noget så enkelt som at løfte en vægt, så er der alligevel mange regler. Her beskriver vi meget kort de regler, man løfter efter i, International Powerlifting Federation (IPF). 
 
 ### Squat
 
@@ -82,11 +97,24 @@ Ved løftets afslutning skal løfteren have strakte ben og skuldrene tilbage. De
 
 {% include video provider="youtube" id="WtPdpWnkYV4" %}
 
-## Quiz
+## Regler for klassisk styrkeløft
+
+Når du løfter efter de klassiske regler (raw), så gælder følgende generelle regler.
+
+- Du skal bære en **ikke** understøttende dragt.
+- Du skal bære t-shirt.
+- Du må bære godkendte bælter på maksimalt 10 cm brede og 13 mm tykke.
+- Du skal bære sko.
+- Der må anvendes godkendte håndledsbind på maksimalt 10 cm.
+- Der må anvendes godkendte neopren knæbind i et stykke.
+
+Denne liste for reglerne for udstyr i forhold til klassisk styrkeløft er ikke udtømmende. Læs de officielle regler, så du ikke stiller op i forkert udstyr. Jeg har primært samlet denne liste for at kunne formidle reglerne til styrkeløft, når vi laver uofficielle konkurrencer for folk, der gerne vil prøve styrkeløft første gang.
+
+## Quiz om regler for styrkeløft
 
 {% include flipcard id="quiz" %}
 
-## Referencer
+## Referencer til powerlifting
 
 - [The International Powerlifting Federation. Tekniske Regler 2019](http://filer.styrke.dk/Tekniske_regler_IPF_2019.pdf)
 
