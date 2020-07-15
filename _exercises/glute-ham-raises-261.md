@@ -73,6 +73,8 @@ Du starter bevægelsen i glute-ham-raises med ballemusklerne og den del af bagl�
 
 Det er en stor fordel, at musklerne ikke arbejder isolerede, men arbejder synergistisk, så den intermuskulære koordination også forbedres. 
 
+I en sammenligning af [leg curl]({% link _exercises/knae-fleksion-249.md %}), [good morning]({% link _exercises/goodmorning-16.md %}), [Romanian Deadlift]({% link _exercises/romanian-deadlift-43.md %}) og glute ham raise fandt McAllister et al (2014), at baglårsmusklerne var mest aktive i RDL og glute ham raise.
+
 ## Hvad hjælper glute ham raise på?
 
 Der er lavet mange studier på Nordic hamstrings, som ligner den sidste del af bevægelsen i glute ham raise. Nordic hamstrings ser ud til i litteraturen at have to virkelig gode effekter:
@@ -101,3 +103,9 @@ Du kan også bruge GHR-bænken til andre formål.
 
 - **Back extensions** kan lavet med ret stor bevægeudslag, fordi du liger vandret med benene.
 - **GHD Situps** som er en meget brugt øvelse i crossfit.
+
+## Referencer
+
+- Chiu, Loren Z. F., Anita Yaremko, og Gabriella L. vonGaza. 2017. “Addition of Glute-Ham-Gastroc Raise to a Resistance Training Program: Effect on Jump Propulsion and Landing”. _Journal of Strength and Conditioning Research_ 31 (9): 2562–71. [https://doi.org/10.1519/JSC.0000000000002065](https://doi.org/10.1519/JSC.0000000000002065).
+
+## Noter
