@@ -1,8 +1,7 @@
 ---
-title: "Styrkeløft: Hvad er powerlifting og reglerne til styrkeløft?"
+title: "Hvad er reglerne til styrkeløft og powerlifting?"
 permalink: /powerlifting-rules/
-excerpt: "Hvad er styrkeløft, som på engelsk kaldes powerlifting, og hvad er reglerne styrkeløft?"
-language: da
+slanguage: da
 header:
   overlay_image: https://www.elitefts.com/wp/wp-content/uploads/2017/03/raw-squat--800x533.jpg
   teaser: https://www.elitefts.com/wp/wp-content/uploads/2017/03/raw-squat--800x533.jpg
@@ -46,9 +45,9 @@ quiz:
 
 *[IPF]: International Powerlifting Federation
 
-Styrkeløft er en sport, hvor man konkurrerer i at løfte så mange kilo som muligt i squat, bænkpres og dødløft. Styrkeløft kan enten udføres med udstyr (særlige dragter) eller klassisk (raw).
+Styrkeløft er en sport, hvor man konkurrerer i at løfte så mange kilo som muligt i squat, bænkpres og dødløft. Styrkeløft kan enten udføres med udstyr (særlige dragter) eller klassisk (raw). Jeg har kigget lidt på reglerne til styrkeløft.
 
-I konkurrencer er løfterne delt op i vægtklasser, hvor man konkurrerer internt om at løfte mest totalt i de tre løft.
+I konkurrencer i styrkeløft er løfterne delt op i vægtklasser, hvor man konkurrerer internt om at løfte mest totalt i de tre løft.
 
 Vægtklasserne kan også sammenlignes med hinanden ved hjælp af IPF-point, som er blevet introduceret for nyligt (tidligere brugte man nemlig Wilks til sammenligning af st(yrkeløftere). Jeg har skrevet lidt om at [sammenligne styrke på tværs af forskellig vægt her]({% link _posts/2019-10-31-sammenligning-styrke.md %}).
 
