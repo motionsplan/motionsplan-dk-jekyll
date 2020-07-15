@@ -11,20 +11,12 @@ header:
   teaser: /assets/images/exercises/skulderpres-0-320.jpg
 tags:
   - maskine
-  - 
-  - 
-  - 
-  - 
 categories:
 training_type: 
 training_focus: 
 equipment:
   - maskine
 muscle_group:
-  - 
-  - 
-  - 
-  - 
 gallery:
   - url: /assets/images/exercises/skulderpres-0.jpg
     image_path: /assets/images/exercises/skulderpres-0-320.jpg
