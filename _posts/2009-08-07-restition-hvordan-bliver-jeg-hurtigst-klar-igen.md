@@ -15,11 +15,11 @@ last_modified_at: 2019-03-03T20:38:52Z
 
 Hvis man gerne vil træne meget, er det meget betydningsfuldt, hvor hurtigt man kan restituere og blive klar til næste træningspas. Jeg er dykket lidt ned i, hvad der betyder noget for ens restitution.
 
-IForm beskriver, hvor længe man bruger på at blive klar i [Friske muskler i en fart](http://iform.dk/traening/friske-muskler-i-en-fart). Intensiteten af ens træning har rigtig stor betydning for, hvornår kroppen kan være klar igen, som man kan se i nedenstående skema fra IForm (som også savner videnskabeligt belæg).
+IForm beskriver, hvor længe man bruger på at blive klar i [Friske muskler i en fart](https://iform.dk/traening/friske-muskler-i-en-fart). Intensiteten af ens træning har rigtig stor betydning for, hvornår kroppen kan være klar igen, som man kan se i nedenstående skema fra IForm (som også savner videnskabeligt belæg).
 
 ![Skema fra IForm](/assets/images/restitution.png)
 
-Men det er ikke kun intensiteten, der har betydning for restitutionen. Du kan selv gøre meget for at gøre restitutionen mere effektiv. I Form beskriver [10 veje til aktiv restitution](http://iform.dk/traening/10-veje-til-aktiv-restitution), og de har fat i nogle væsentlige pointer, men vi har brug for hjælp til at finde flere studier.
+Men det er ikke kun intensiteten, der har betydning for restitutionen. Du kan selv gøre meget for at gøre restitutionen mere effektiv. I Form beskriver [10 veje til aktiv restitution](https://iform.dk/traening/10-veje-til-aktiv-restitution), og de har fat i nogle væsentlige pointer, men vi har brug for hjælp til at finde flere studier.
 
 ## Spis dig til ny energi
 
@@ -45,8 +45,18 @@ Vi har brug for flere studier til helt at dokumentere en effektiv restitution. K
 
 Jeg har skrevet et indlæg om [restitutionstid]({% link _posts/2020-05-28-restitutionstid-alder.md %}).
 
-[![](https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=55589)](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55589)
+<div class="feature__wrapper">
 
-[![](https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=61735)](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=61735)
+{% assign site_posts = site.posts | where: "tags", "restitution" | sort: "last_modified_at" | reverse %}
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
+[![](https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=55589)](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55589)
 
 <a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55254" target="_blank" rel="nofollow noopener"><img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=55254" border="0"></a>
