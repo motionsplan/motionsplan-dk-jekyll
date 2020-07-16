@@ -98,8 +98,8 @@ Jeg venter typisk med hård og udmattende core-træning til efter de store flerl
 | Fase | Beskrivelse | Core-træning og øvelser |
 |-|-|-|
 | Opvarmning | Generel og specifik opvarmning | Core-øvelser køres for at aktivere musklerne til de efterfølgende aktiviteter, men der køres ikke til udmattelse |
-| Hovedkomponentet i træningen | Styrketræning, konditionstræning, sportsspecifik træning | Her skal kropsstammen og 'core' være 'klar' til at modstå og hjælpe med udfordringerne |
-| Assistanceøvelser | Her kan de assisterende styrkeøvelser og core-øvelser ligge |
+| Primære del af træningen | Styrketræning, konditionstræning, sportsspecifik træning | Her skal kropsstammen og 'core' være 'klar' til at modstå og hjælpe med udfordringerne |
+| Assistanceøvelser | Supplerende øvelser til den primære træning | Her kan de assisterende styrkeøvelser og core-øvelser ligge |
 | Cool down | [Udstrækning]({% link _posts/2020-07-08-udstraekning.md %}) og nedkøling | Her kan man arbejde med lettere core- og vejrtrækningsøvelser, som er med til at sætte kroppen i _recovery mode_ og tænde for det parasympatiske nervesystem |
 
 Core-øvelser ligger altså ikke højest på prioriteringslisten i mine træningsprogrammer, fordi jeg vurderer at core får en del træning i de store flerledsøvelser, men jeg sørger altid for at programmere mindst en øvelse i forhold til core.
