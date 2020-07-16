@@ -42,7 +42,7 @@ Den vigtigste parameter i forhold til at minimere skadesrisiko er altså trænin
 
 Hvis du hellere vil se en video, så fortæller Jacob Beerman lidt mere om det i denne video:
 
-{% include video provider="video" id="YTyKc2BNKrw" %}
+{% include video provider="youtube" id="YTyKc2BNKrw" %}
 
 ## 7 tips til god teknik i styrketræning
 
