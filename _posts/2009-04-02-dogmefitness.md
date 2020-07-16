@@ -1,10 +1,11 @@
 ---
-title: "Dogmefitness - gratis træning i naturen"
+title: &title "Træning i naturen: Outdoor fitness, Dogmefitness og Naturfitness"
 permalink: /artikel/dogmefitness
 language: da
 header:
   overlay_image: /assets/images/blog/dogmefitness.jpg
   teaser: /assets/images/blog/dogmefitness.jpg
+  caption: *title
 tags:
   - dogmefitness
   - styrketræning
@@ -41,3 +42,7 @@ Hvordan gør du?
 
 {% assign exercises = site.exercises | where: "tags", "outdoor" | sort: "title" %}
 {% include exercises-by-search title="Inspiration til outdoor træning" exercises=exercises %}
+
+## Referencer
+
+- [Naturstyrelsen med Naturfitness](https://naturstyrelsen.dk/naturoplevelser/aktiviteter/naturfitness/)
