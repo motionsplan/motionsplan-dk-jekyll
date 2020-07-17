@@ -29,6 +29,7 @@ muscle_group:
 alternative_titles:
   - Natural glute ham
   - Nordic glute-ham raises
+  - Nordic Ham Curls
 gallery:
   - url: /assets/images/exercises/nordic-hamstring-0.jpg
     image_path: /assets/images/exercises/nordic-hamstring-0-320.jpg
@@ -54,6 +55,10 @@ Nordic hamstring er en isolationsøvelse for baglårerne, hvor man træne baglå
 
 I Nordic Hamstring sidder du på knæene med fikserede underben. Hav gerne flekteret fod. Læn dig langsomt fremad i en jævn bevægelse. Hold ryg og hofter strakte (spænd ballerne) og hold igen med musklerne på lårets bagside. Tag imod med armene og skub fra igen, indtil du igen kan bruge haserne til at trække dig op i startpositionen igen.
 
+Bret Contreas har lavet en en virkelig fin video omkring måder at lave Nordic Hamstring på - og hvordan man kan blive stærk nok til at kunne lave den.
+
+{% include video provider="youtube" id="443ERGrFDf8" %}
+
 ## Hvordan kan jeg assistere i Nordic Hamstring?
 
 Hvis du vil lave Nordic Hamstring både koncentrisk og excentrisk og har adgang til at kunne fiksere fødderne tæt på en væg, så kan du bruge et elastik rundt om brystet. Så du kan trække dig hele vejen op igen uden at skulle skubbe fra med armene. Så bliver den excentriske arbejde mindre belastende (men husk at den er vigtig for udbyttet af øvelsen). Til gengæld bliver den koncentriske fase lidt mere effektiv.
@@ -69,3 +74,5 @@ Nordic Hamstring har nogle ulemper. I den excentriske fase ser man ofte udøvere
 - [Muskelskader i Baglåret – Forebyggelse vs præstationsfremme](https://dansksportsmedicin.dk/muskelskader-i-baglaaret-forebyggelse-vs-praestationsfremme/)
 - [Evidensen bag Nordic Hamstring](https://physioblogandreasbjerregaard.com/2016/12/26/10923/)
 - Dyk, Nicol van, Fearghal P. Behan, og Rod Whiteley. 2019. “Including the Nordic Hamstring Exercise in Injury Prevention Programmes Halves the Rate of Hamstring Injuries: A Systematic Review and Meta-Analysis of 8459 Athletes”. _British Journal of Sports Medicine_ 53 (21): 1362–70. [https://doi.org/10.1136/bjsports-2018-100045](https://doi.org/10.1136/bjsports-2018-100045).
+- [Bret Contreas: Nordic Ham Curl: Stable exercise for athletes](https://bretcontreras.com/nordic-ham-curl-staple-exercise-athletes/)
+- 
