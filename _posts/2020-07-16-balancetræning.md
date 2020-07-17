@@ -260,9 +260,9 @@ Du stiller dig først på banen med hænderne i siden. Hænderne skal blive i si
 
 Nu skal du hinke i den rigtige rækkefølge gennem hinkebanen på et ben. Du skal lande præcist på afmærkningen og holde stillingen. For hver landing holder du fem sekunders pause, hvor standfoden holdes helt i ro. Du har to prøveforsøg og det tredje forsøg er tællende. Testen gentages på det modsatte ben.
 
-# Balance på tæer: Nem kom-i-gang balancetræning
+# Kom i gang med balancetræning
 
-Balancetræning kan foregå på fødder, hænder eller andre kropsdele. Typisk står man på et ben, men der er mange andre muligheder. Basis balancetræning kan være helt enkel og kan udføres på job, studie eller derhjemme, inde eller ude.
+Meget balancetræning foregår typisk på et ben, men der er faktisk mange forskellige muligehder. Balancetræning kan foregå på alle kropsdele, fx fødder, hænder, hoved, numse. At arbejde med buegangene i ørerne vil jeg også kalde en balanceøvelse.
 
 ### Rundt om sin egen akse
 
@@ -386,7 +386,6 @@ Styrke: Øvelser, hvor man løfter tung vægt i en vanskelig stilling. PU i fri 
 Eksplosiv styrke: Hop og spring, hvor man skal være stabil i landingerne (og opspring).
 
 Smidighed: T-balancer, vertical split og illusioner (splitdrejning); kræver hoftesmidighed.
-
 
 # Få Bedre Balance: 7 Metoder til Alsidig Balancetræning
 
