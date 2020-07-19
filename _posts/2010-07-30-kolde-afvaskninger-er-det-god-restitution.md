@@ -1,5 +1,5 @@
 ---
-title: "Virker et isbad efter træning på restitutionen?"
+title: &title "Virker et isbad efter træning på restitutionen?"
 permalink: /isbad-og-kryoterapi
 redirect_from:
   - /artikel/kolde-afvaskninger-er-det-god-restitution
@@ -7,6 +7,7 @@ language: da
 header:
   overlay_image: /assets/images/blog/kolde-afvaskninger-er-det-god-restitution.jpg
   teaser: /assets/images/blog/kolde-afvaskninger-er-det-god-restitution.jpg
+  caption: *title
 tags:
   - restitution
 category:
@@ -19,7 +20,7 @@ gallery:
     title: Yourboots Cool
 ---
 
-For nylig fik jeg anbefalet at spule mine ben med koldt vand efter mine løbeture for at restituere hurtigere. Nu er jeg ikke så vild med koldt vand, så jeg tog ikke min vens ord for det. 
+For nylig fik jeg anbefalet at spule mine ben med koldt vand efter mine løbeture for at restituere hurtigere. Nu er jeg ikke så vild med koldt vand, så jeg tog ikke min vens ord for det.
 
 Jeg gik i stedet for i gang med at researche lidt på emnet. Jeg fandt hurtigt ud af, at det ikke er nok at spule sine ben med vand, men forskningen er i gang med at undersøge **kryoterapi** og **isbade** som to forskellige strategier.
 
