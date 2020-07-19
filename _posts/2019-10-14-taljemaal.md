@@ -1,11 +1,10 @@
 ---
 title: "Talje-hoftemål: Beregn dit taljemål og din talje/hofte-ratio"
 permalink: /taljemaal/
-excerpt: "Der er sammenhæng mellem taljemål og hoftemål og risiko for livsstilssygdomme. Ratioen mellem taljemål og hoftemål kan bruges til at sige noget om fedtfordelingen."
 language: da
 header:
-  overlay_image: https://www.berkeleywellness.com/sites/default/files/field/image/waist-measurement-MF_998_380.webp
-  teaser: https://www.berkeleywellness.com/sites/default/files/field/image/waist-measurement-MF_998_380.webp
+  overlay_image: https://images.unsplash.com/photo-1591384640699-9a85bd036da2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=60
+  teaser: https://images.unsplash.com/photo-1591384640699-9a85bd036da2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60
   caption: "Taljemål, hoftemål og højdemål og talje-hofte-ratioen."
 category:
   - Test
@@ -13,13 +12,13 @@ tags:
   - fedtprocent
   - beregnere
   - kropskomposition
-last_modified_at: 2020-06-06T23:14:14Z
+last_modified_at: 2020-07-06T23:14:14Z
 toc: true
 ---
 
-*[WHR]: Waist/Hip-ratio
+Taljemål og hoftemål kan være en let måde at sige noget om fedtfordelingen på din krop. Studier har vist en sammenhæng mellem taljemål og hoftemål og risiko for livsstilssygdomme. Jeg har researchet hvilke forskellige taljemål og hoftemål, der findes.
 
-Taljemål og hoftemål kan være en let måde at sige noget om fedtfordelingen på din krop. Jeg har researchet hvilke forskellige taljemål og hoftemål, der findes.
+*[WHR]: Waist/Hip-ratio
 
 Jeg har fundet frem til tre forskellige mål, hvor taljen er med til at sige noget om man er undervægtig eller overvægtig og i risiko for livsstilssygdomme.
 
@@ -33,7 +32,7 @@ I det følgende beskriver jeg de forskellige taljemål, og hvad de kan bruges ti
 
 ## Taljemålet
 
-Taljemålet er et af de enkleste mål for om man er overvægtig. Flere studier viser sammenhæng mellem taljemålet og risikoen for mange livsstilssygdomme. 
+Taljemålet er et af de enkleste mål for om man er overvægtig. Flere studier viser sammenhæng mellem taljemålet og risikoen for mange livsstilssygdomme, som fx hjertekarsygdomme og diabetes type II.
 
 Taljemålet er særligt relevant, fordi fedtet omkring maven giver øget risiko for sygdomme. I forbindelse med træning er taljemålet også et bedre mål for fedttab end vægt og BMI. Man kan nemlig godt blive tungere af træning, fordi man øger muskelmassen, men hvis man taber fedt, vil taljemålet formentlig falde.
 
@@ -44,6 +43,8 @@ Taljemålet er særligt relevant, fordi fedtet omkring maven giver øget risiko 
 
 Hvis du er i tvivl, kan du også mærke dig frem til punktet, som på siden af kroppen ligger mellem hoftebenskammen og det nederste ribben.
 {: .notice .notice--info }
+
+{% include video provider="youtube" id="Cytz_9lMl68" %}
 
 ### Normalværdier for taljemålet
 
@@ -56,17 +57,27 @@ Studier med taljemål har vist, at man kan have forøget risiko for kredsløbssy
 
 Opstillingen er naturligvis meget forenklet, og målet tager således ikke højde for den enkeltes kropsbygning. Fx får man hurtigt et højt taljemål, hvis man er høj.
 
+### Fordele og ulemper ved taljemålet
+
+**Fordelen ved taljemålet** er at det er en let måling at lave, og den kan give en indikation af, hvor fedtet er placeret på kroppen.
+
+**Ulempen ved taljemålet** er imidlertid, at man godt kan blive i tvivl om, hvor man skal måle. Samtidig tager hofte-taljemålet ikke hensyn til højden. Højere mennesker vil ofte naturligt have en større talje.
+
+Det kan talje-højde ratioen imidlertid tage højde for, så lad os i det følgende kigge lidt på den. 
+
 ## Talje-højde-ratio
 
 Efterhånden har talje/højde-ratioen sneget sig ind i litteraturen, fordi det tager højde for personer, som ikke har en gennemsnitlig højde. Når man sætter taljemålet i forhold til højden, har man også et mål man kan bruge på både børn og voksne.
 
-Når man sætter sit taljemål i forhold til sin højde, så er det forbundet med lavere risiko for livsstilssygdomme, hvis ratioen er under 0,5.
+Når man sætter sit taljemål i forhold til sin højde, så er det forbundet med lavere risiko for livsstilssygdomme, hvis ratioen er under 0,5. Det betyder i praksis, at dit taljemål skal være under halvdelen af din højde i centimeter for at have en nedsat risiko for livsstilssygdomme.
+
+Et andet meget brugt mål er talje/hofte-ratioen, som jeg også godt kan lide, da jeg synes det kan give endnu flere informationer om, hvordan fedtet er fordelt på kroppen.
 
 ## Talje-hofte-ratio
 
 Wikipedia skriver om talje-hofte-ratioen:
 
-> **Talje-hofte forholdet**,**talje-hofte målet**,**æble-pære indekset**(**talje-hofte ratio**([anglicisme](https://da.wikipedia.org/wiki/Anglicisme "Anglicisme")),**THR**) er en måde at beskrive forholdet mellem[talje-](https://da.wikipedia.org/wiki/Talje_(anatomi) "Talje (anatomi)")og[hoftevidden](https://da.wikipedia.org/wiki/Hofte "Hofte"). Forholdet måler proportionen af fedt deponeret forskellige stedet på kroppen. Der er også kraftige indicer på at nogle bestemte mål opfattes som specielt attraktive hos det modsatte køn og for kvinder indikere en mærkbar højere frugtbarhed.
+> **Talje-hofte forholdet**, **talje-hofte målet**, **æble-pære indekset** (**talje-hofte ratio** (**THR**) er en måde at beskrive forholdet mellem talje- og hoftevidden. Forholdet måler proportionen af fedt deponeret forskellige stedet på kroppen. Der er også kraftige indicer på at nogle bestemte mål opfattes som specielt attraktive hos det modsatte køn og for kvinder indikere en mærkbar højere frugtbarhed.
 
 — <cite>[Wikipedia](https://da.wikipedia.org/wiki/Talje-hofte_forhold)</cite>
 
@@ -91,7 +102,7 @@ Normalværdierne for WHR er følgende. Hvis du har højere værdier, så kan du 
 | Mænd    | > 1,0   |
 | Kvinder | > 0,8   |
 
-## Bergner til talje-hofte-ratio
+## Beregner til talje-hofte-ratio
 
 {% include calculate-waist.html %}
 
@@ -99,7 +110,7 @@ Normalværdierne for WHR er følgende. Hvis du har højere værdier, så kan du 
 
 Et nærliggende spørgsmål når man samlet kigger på de tre forskellige mål er, hvilke resultater der sikrer dig mod livsstilssygdomme. Hvis du ligger over det anbefalede talje/højde-mål, men har et talje/hofte-mål, der får dig inden for skiven igen?
 
-I øjeblikket ser det ud til, at talje/højde-målet er det mest brugte mål i de videnskabelige studier, men for at sikre at mavefedtet ikke skaber en for høj risiko, så kan det formentlig også være værd at tjekke den ratio en gang imellem.
+I øjeblikket ser det ud til, at talje/højde-målet er det mest brugte mål i de videnskabelige studier, men for at sikre at mavefedtet ikke skaber en for høj risiko, så kan det formentlig også være værd at tjekke din ratio en gang imellem.
 
 ## Referencer til taljemål og hoftemål
 
