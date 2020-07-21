@@ -24,11 +24,13 @@ feature_row:
     btn_class: "btn--success"
 ---
 
-Åstrand har lavet forskellige konditionstest, og her beskriver jeg to-punktstesten.
+Åstrands to-punktstest er en submaksimal konditionstest på en ergometercykel, hvor du måler belastning og puls.
+
+Jeg beskriver i det følgende, hvad Åstrands to-punktstest er, og hvordan testen udføres?
 
 **Åstrands to-punktstest er en submaksimal konditionstest, der udføres på en kondicykel. På baggrund af belastningen og pulsfrekvensen kan du estimere forsøgspersonens kondital.**
 
-Hvis du leder efter [Åstrands etpunktstest, så har jeg skrevet om den her](/etpunktstest/).
+Hvis du leder efter [Åstrands et-punktstest, så har jeg skrevet om den her](/etpunktstest/).
 
 ## Hvordan udføres topunktstesten?
 
@@ -38,8 +40,8 @@ Til Åstrands to-punktstest skal du bruge en kondicykel, der kan vise belastning
 
 I testen skal du køre på to forskellige belastninger:
 
-- Den **første belastning**:din puls skal stabilisere sig i området 120-140 slag/min efter ca. 6 minutters cykling.
-- Den **anden belastning** din puls skal stabilisere sig i området 150-170 slag/min efter yderligere 4 minutters cykling.
+- Den **første belastning**: din puls skal stabilisere sig i området 120-140 slag/min efter ca. 6 minutters cykling.
+- Den **anden belastning**: din puls skal stabilisere sig i området 150-170 slag/min efter yderligere 4 minutters cykling.
 
 Indtast værdierne i nedenstående beregner:
 
@@ -56,11 +58,11 @@ HR<sub>max</sub> = 208 - 0,7 x alder.
 Hvis du kender din rigtige maxpuls ud fra en måling, kan du evt. regne baglæns og indtaste den (forkerte) alder, der giver dig den korrekte målte maxpuls.
 {: .notice .notice--info }
 
-Som på alle andre indirekte submaksimale tests er der usikkerheder forbundet medresultatet. Noget af usikkerheden skyldes bl.a. at maxpulsen bestemmes ud fra en generel formel baseret på din alder.
+Som på alle andre indirekte submaksimale tests er der usikkerheder forbundet med resultatet. Noget af usikkerheden skyldes bl.a. at maxpulsen bestemmes ud fra en generel formel baseret på din alder.
 
 ## Beregningerne bag Åstrands topunktstest
 
-De målte pulsværdier plottes ind i et koordinatsystem mod de tilhørende arbejdsbelastninger. Herefter forlænges (ekstrapolereres) linjen op til maxpulsen og den anslåede "maksimale aerobe arbejdsbelastning" aflæses.
+De målte pulsværdier i topunktstesten plottes ind i et koordinatsystem mod de tilhørende arbejdsbelastninger. Herefter forlænges (ekstrapolereres) linjen op til maxpulsen og den anslåede "maksimale aerobe arbejdsbelastning" aflæses.
 
 {% include figure image_path="https://web.archive.org/web/20070322002756im_/http://www.motion-online.dk/images/vo2/to_punktstest.gif" alt="Åstrands nomogram til topunktstesten" %}
 

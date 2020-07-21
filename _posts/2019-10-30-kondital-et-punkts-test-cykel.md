@@ -25,13 +25,15 @@ feature_row:
     btn_class: "btn--success"
 ---
 
-Åstrands et-punkt-test er en enkel, submaksimal konditionstest, hvor testpersonen ikke behøver anstrenge sig alt for meget. 
+Åstrands et-punktstest er en enkel, submaksimal konditionstest, hvor testpersonen ikke behøver anstrenge sig alt for meget. 
 
-Jeg forsøger i det følgende at beskrive, hvad Åstrands et-punkt-test er, og hvordan testen udføres.
+Jeg beskriver i det følgende, hvad Åstrands et-punktstest er, og hvordan testen udføres?
 
-**Åstrands et-punkt-test cykeltest er en enkel, submaksimal konditionstest, som kan bruges til at estimere forsøgspersonens kondital baseret på belastningen og pulsen.**
+**Åstrands et-punktstest cykeltest er en enkel, submaksimal konditionstest, som kan bruges til at estimere forsøgspersonens kondital baseret på belastningen og pulsen.**
 
 Konditionstesten er let at gennemføre, fordi man kører på en enkelt submaximal belastning.
+
+Hvis du leder efter [Åstrands to-punktstest, så har jeg skrevet om den her]({% link _posts/2019-10-31-kondital-to-punkts-test-cykel.md %}).
 
 ## Hvilke usikkerheder er der ved et-punktstesten?
 
@@ -45,7 +47,7 @@ Du skal køre på en af fire nedenstående belastninger: 50, 75, 100 eller 150 w
 
 {% include calculate-etpunkttest.html %}
 
-## Baggrund for Åstrands etpunktstest
+## Baggrund for beregningen i Åstrands etpunktstest
 
 Oprindeligt skulle konditallet findes ved at bruge det [nomogram, Åstrand har udviklet](https://www.sst.dk/-/media/Udgivelser/2006/Publ2006/CFF/Fysisk_aktivitet_psyk/Testmanual_psyk,-d-,pdf.ashx).
 
@@ -55,7 +57,7 @@ De anvendte sammenhænge mellem submaksimal puls, arbejdsbelastning, alder, køn
 
 Morten Zacho har imidlertid estimeret en formel, som bruges i beregneren ovenfor - og han har også delt et regneark med formlen.
 
-[Download estimeret Excel-ark lavet af Morten Zacho](https://web.archive.org/web/20040405164705/http://motion-online.dk/vo2/etpunktstest.xls){: .btn .btn--large .btn--info }
+[Download Excel-ark lavet af Morten Zacho](https://web.archive.org/web/20040405164705/http://motion-online.dk/vo2/etpunktstest.xls){: .btn .btn--large .btn--info }
 
 ## Usikkerheder
 
