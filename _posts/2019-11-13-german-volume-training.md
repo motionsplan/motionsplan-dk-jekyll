@@ -1,10 +1,11 @@
 ---
-title: "German Volume Training: Virker GVT til hypertrofi?"
+title: &title "German Volume Training: Virker GVT til hypertrofi?"
 permalink: /gvt/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1534367610401-9f5ed68180aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
   teaser: https://images.unsplash.com/photo-1534367610401-9f5ed68180aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  caption: *title
 category:
   - Styrketræning
 tags:
@@ -13,7 +14,7 @@ last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 ---
 
-Jeg har undersøgt, hvor godt styrketræningsprogrammet German Volume Training (GVT) for at skabe hypertrofi, når man styrketræner. Samtidig har jeg kigget lidt på baggrunden for GVT.
+Jeg har undersøgt, hvor godt styrketræningsprogrammet German Volume Training (GVT) for at skabe hypertrofi, når man styrketræner. Samtidig har jeg kigget lidt på baggrunden for German Volume Training (GVT).
 
 **German Volume Training (GVT) er et brutalt styrketræningsprogram med fokus på en høj volumen med 10 sæt x 10 gentagelser i store helkropsøvelser med en vægt der svarer til ~60% af 1RM eller en 20RM. Alle gentagelser skal laves med 401 i tempo. Rationalet bag den høje volumen er for at skabe metabolisk stress og mekanisk spænding i musklerne, der skal skalbe muskelvækst.**
 

@@ -1,6 +1,5 @@
 ---
 title: "Wall Ball"
-excerpt: "I wall ball skal du støde en medicinbold fra brystet med begge hænder op over et punkt på væggen. Når du griber den igen går du ned i en squat og sender bolden afsted igen."
 instructions: "I wall ball skal du støde en medicinbold fra brystet med begge hænder op over et punkt på væggen. Når du griber den igen går du ned i en squat og sender bolden afsted igen."
 permalink: /oevelse/wall-ball/
 redirect_from:
@@ -61,7 +60,9 @@ feature_row:
     excerpt: "Det smarte ved denne wall ball er, at den også kan holde til slams og slam ball, fordi den er specialudviklet i Kevlar. Bolden er imidlertid kun 34 cm i diameter, hvilket er lidt mindre end en normal wall ball." 
 ---
 
-Til **wall ball** skal du bruge en medicinbold med en passende vægt, og et punkt i en passende højde på væggen, således at øvelsen passer til dit niveau.
+Til **wall ball** eller **wall balls** skal du bruge en medicinbold med en passende vægt, og et punkt i en passende højde på væggen, således at øvelsen passer til dit niveau.
+
+I wall ball skal du støde en medicinbold fra brystet med begge hænder op over et punkt på væggen. Når du griber den igen går du ned i en squat og sender bolden afsted igen.
 
 ## Sådan laver du wall balls
 
