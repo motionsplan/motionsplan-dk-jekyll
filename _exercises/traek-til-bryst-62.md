@@ -4,7 +4,7 @@ instructions: "Sæt dig i pulldown maskinen med neutral ryg og naturligt lændes
 permalink: /oevelse/puldown-traek-til-bryst/
 redirect_from:
   - /oevelse/traek-til-bryst/
-redirect_from: /node/62
+  - /node/62
 id: 62
 language: da
 header:
