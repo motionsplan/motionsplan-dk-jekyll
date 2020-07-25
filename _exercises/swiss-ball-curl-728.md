@@ -1,7 +1,7 @@
 ---
-title: "Swiss ball hamstring curl"
-excerpt: ""
-instructions: ""
+title: &title "Swiss ball hamstring curl"
+excerpt: *title
+instructions: *title
 permalink: /oevelse/swiss-ball-curl/
 redirect_from: /node/728
 id: 728

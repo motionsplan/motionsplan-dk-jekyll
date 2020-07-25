@@ -43,9 +43,9 @@ quiz:
       ![Bænkpres](https://i.ytimg.com/vi/q3uQE0yugH8/maxresdefault.jpg)
 ---
 
-*[IPF]: International Powerlifting Federation
-
 Styrkeløft er en sport, hvor man konkurrerer i at løfte så mange kilo som muligt i squat, bænkpres og dødløft. Styrkeløft kan enten udføres med udstyr (særlige dragter) eller klassisk (raw). Jeg har kigget lidt på reglerne til styrkeløft.
+
+*[IPF]: International Powerlifting Federation
 
 I konkurrencer i styrkeløft er løfterne delt op i vægtklasser, hvor man konkurrerer internt om at løfte mest totalt i de tre løft.
 
