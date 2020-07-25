@@ -51,7 +51,7 @@ Jeg har lavet yoga solhilsen mange gange, så derfor vil jeg gerne beskrive denn
 
 Yoga solhilsen er en grundlæggende serie af yoga-øvelser, som er kædet sammen af vejrtrækningen. Solhilsen bruges ofte som opvarmning i de forskellige yoga-systemer. Jeg beskriver i det følgende _Surya Namaskar_, som er fra [Ashtanga Vinyasa Yoga](https://en.wikipedia.org/wiki/Ashtanga_Vinyasa_Yoga). I denne form for yoga er der to versioner af solhilsenen, som kaldes A og B, men solhilsen bruges også ofte i Hatha-yoga.
 
-_Surya_ betyder sol og _Namaskar_ betyder hilsen. Sarya Namaskar er en klassisk yogasekvens, som hylder den livgivende sol og lyset. Solhilsen hylder både det lys, vi kan se og det guddommelige lys, der siges at eksistere i alt levende.
+_Surya_ betyder sol og _Namaskar_ betyder hilsen. Sarya Namaskar er en klassisk yogasekvens, som hylder den livgivende sol og lyset. Solhilsen hylder både det lys, vi kan se og det guddommelige lys, der siges at eksistere i alt levende.
 
 Du behøver ikke at være yoga-udøver for at få noget ud af solhilsen. Den kan bruges som opvarmning til anden træning, eller den kan bruges om morgenen til at få dig selv i gang med dagen.
 
@@ -126,7 +126,7 @@ Solhilsen A tager omkring fem-syv minutter at lave. Hvis du gerne vil lave mere 
 
 I den følgende illustration kan du se en simpel gennemgang af solhilsen A.
 
-{% include image_path="https://healthydeskdweller.com/wp-content/uploads/2019/08/Yoga-sun-salutation-step-by-step-sequence-1.jpg" caption="Solhilsen A" alt="Yoga Solhilsen A" %}
+{% include figure image_path="https://healthydeskdweller.com/wp-content/uploads/2019/08/Yoga-sun-salutation-step-by-step-sequence-1.jpg" caption="Solhilsen A" alt="Yoga Solhilsen A" %}
 
 {% include video provider="youtube" id="jO4Aq5XwLh0" %}
 
@@ -211,7 +211,7 @@ Hvis du typisk laver en kort afspænding bagefter og har en tendens til at fryse
 
 Hvis du kan lide artiklerne her fra Motionsplan og gerne vil støtte sitet, så kan du overveje at bruge vores partnere til at købe dine yoga-produkter. Så tjener vi lidt kommision, og du får nogle fede produkter.
 
-{% include feature_row id="feature_row_mat" type="left" %}
+{% include feature_row id="feature_row_yogamat" type="left" %}
 
 ## Referencer til solhilsen A og B
 
