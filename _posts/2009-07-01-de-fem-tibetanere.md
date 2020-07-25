@@ -60,6 +60,14 @@ gallery:
   - image_path: https://upload.wikimedia.org/wikipedia/commons/3/3d/Five_tibetan_rite_5.gif
     alt: "Rite 5: De 5 tibetanere"
     title: "Rite 5: De 5 tibetanere"
+wallsticker:
+  - image_path: https://www.wallstickerland.dk/media/catalog/product/t/h/the-5-tibetan-rites-danish.jpg
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=44221&htmlurl=https://www.wallstickerland.dk/de-5-tibetanere-wallsticker
+    title: "Wallsticker med De 5 tibetanere"
+    alt: "Wallsticker med De 5 tibetanere"
+    excerpt: "Wallstickerland har en enkel wallsticker med De 5 tibetanere, som er rigtig let at sætte op. Du kan få et gavekort på 100 kroner, hvis du [tilmelder dig her](http://gavekort.wallstickerland.dk/gratis) først."
+    btn_label: "Tjek prisen*"
+    btn_class: "btn--warning"
 ---
 
 De fem tibetanere er fem yogaøvelser beskrevet af Peter Kelder i slutningen af 1930'erne, men øvelserne kan spores tilbage til omkring år 0. De fem tibetanske riter er en rigtig god introduktion til yoga og øvelserne let at implementere i sin egen hverdag. Jeg har kigget lidt på, hvad de fem tibetanere er?
@@ -69,6 +77,8 @@ De fem tibetanere er fem yogaøvelser beskrevet af Peter Kelder i slutningen af 
 De fem tibetanere er en sammensætning af 5 forholdsvist simle yogaøvelser. Øvelserne har vundet større og større indpas i den vestlige verden og udføres dagligt af flere millioner mennesker.
 
 Man siger, at de fem tibetanere er hemmeligheden bag ungdommens kilde. Jeg har ikke kunnet finde noget forskning direkte lavet på de fem tibetanere, så du må selv afgøre om øvelserne giver dig øget styrke og energi i hverdagen at udføre tibetanerne.
+
+{% include feature_row type="left" id="wallsticker" %}
 
 Måske er du klar til selv at kaste dig ud i øvelserne. De fem øvelser kan udføres hvor som helst, og tager ikke mere end 20 minutter.
 
@@ -337,6 +347,8 @@ Jeg har været glad for at bruge de fem tibetanere som morgenmotion eller træni
 Vi har et andet indlæg her på sitet, der handler om [Mindfulness meditation]({% link _posts/2010-10-05-mindfullness-meditation.md %}) og hvis du er interesseret i at [vælge noget passende musik til yoga, så tjek det her indlæg]({% link _posts/2020-07-02-musik-yoga.md %}).
 
 ## Anbefalinger
+
+{% include feature_row id="wallsticker" type="left" %}
 
 {% include feature_row id="feature_row_yogamat" type="left" %}
 
