@@ -5,7 +5,7 @@ language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1549576490-b0b4831ef60a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80
   teaser: https://images.unsplash.com/photo-1549576490-b0b4831ef60a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
-  caption: Photo by Anupam Mahapatra on Unsplash
+  caption: God musik til yoga og mindfulness. Photo by Anupam Mahapatra on Unsplash
   overlay_filter: 0.2
 category:
   - Yoga
@@ -113,6 +113,6 @@ For at opsummere, så skal god yogamusik altså passe til øvelserne i din yoga 
 
 Jeg har skrevet et andet indlæg, der handler om at [vælge musik til din træning]({% link _posts/2013-05-02-musik-til-traeningen.md %}).
 
-Du skal næsten også lige læse et andet af vores meget populære indlæg, der handler om [yogaøvelserne, De Fem Tibetanere]({% link _posts/2009-07-01-de-fem-tibetanere.md %}).
+Du skal næsten også lige læse et andet af vores meget populære indlæg, der handler om [yogaøvelserne, De Fem Tibetanere]({% link _posts/2009-07-01-de-fem-tibetanere.md %}) eller [Solhilsen]({% link _posts/2020-07-25-solhilsen.md %}) - eller måske er du interesseret i [Mindful meditation]({% link _posts/2010-10-05-mindfullness-meditation.md %}).
 
 <a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=37797" target="_blank" rel="nofollow noopener"><img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=37797" border="0" alt=""></a>

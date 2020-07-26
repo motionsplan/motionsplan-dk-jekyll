@@ -86,7 +86,7 @@ Hvis du skal lave et opvarmningsprogram, der passer til musik, og hvor musikken 
 
 Når musikken mere skal bruges som baggrundsmotivation, så er det vigtigst, at du finder musik i et passende tempo.
 
-## Eksempler på musik til din træning
+## Eksempler på sange til din træning
 
 Her er nogle eksempler på musikstykker i forskellig tempo.
 
@@ -136,7 +136,7 @@ De fleste foretrak hip hop, mens country-musik var den mindst foretrukne musikge
 
 Musik kan altså have en gavnlig effekt på styrketræning, når det handler om længerevarende arbejde i forhold til _reps to failure_ og isometrisk arbejde (se også Centela et al 2020). Årsagen er formentlig at folk bliver mere motiverede af musikken. Pearce (1981) fandt også at beroligende musik gav dårligere performance i den isometriske grebsstyrke-test, så det er formentlig vigtigt at bruge stimulerende musik, deltagerne foretrækker, hvis du vil flytte performance i styrketræning med musik.
 
-## Hvordan bruger jeg musik til intervaltræning
+## Hvordan bruger jeg musik til intervaltræning?
 
 Når jeg underviser har jeg ofte mellem 20 og 30 elever på [Vejle Idrætshøjskole](https://www.vih.dk). Vi laver ofte en form for intervaltræning med en masse forskellige øvelser, hvor eleverne starter ved hver deres øvelse - og efter et givent tidsinterval skifter til en ny øvelse. Vi kører så alt mellem 1 og 4 runder.
 
@@ -247,4 +247,3 @@ Jeg laver så mit træningsprogram her på motionsplan, hvor jeg let kan skrive 
 - Kreutzer, Jeffrey S., John DeLuca, og Bruce Caplan, red. 2011. _Encyclopedia of Clinical Neuropsychology_. New York: Springer-Verlag. [https://www.springer.com/gp/book/9780387799476](https://www.springer.com/gp/book/9780387799476).
 - Lee, Sam, og Derek S. Kimmerly. 2016. “Influence of Music on Maximal Self-Paced Running Performance and Passive Post-Exercise Recovery Rate”. _The Journal of Sports Medicine and Physical Fitness_ 56 (1–2): 39–48.
 - Pearce, Kathy A. 2016. “Effects of Different Types of Music on Physical Strength”: _Perceptual and Motor Skills_, oktober. [https://doi.org/10.2466/pms.1981.53.2.351](https://doi.org/10.2466/pms.1981.53.2.351).
-

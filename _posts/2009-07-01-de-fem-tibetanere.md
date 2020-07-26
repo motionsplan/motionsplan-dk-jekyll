@@ -344,7 +344,7 @@ Livsenergien kan kun cirkulere i kroppen, hvis chakraerne fungerer ordentligt og
 
 Jeg har været glad for at bruge de fem tibetanere som morgenmotion eller ganske enkelt som min træning, hvis jeg ikke har så meget træningsmotivation til længerevarende træning. Jeg bruger også ofte en [Yoga Solhilsen på nogenlunde samme måde]({% link _posts/2020-07-25-solhilsen.md %}).
 
-Vi har et andet indlæg her på sitet, der handler om [Mindfulness meditation]({% link _posts/2010-10-05-mindfullness-meditation.md %}) og hvis du er interesseret i at [vælge noget passende musik til yoga, så tjek det her indlæg]({% link _posts/2020-07-02-musik-yoga.md %}).
+Vi har et andet indlæg her på sitet, der handler om [Mindfulness meditation]({% link _posts/2010-10-05-mindfullness-meditation.md %}), og vi har også skrevet et andet indlæg om at [vælge noget passende musik til yoga]({% link _posts/2020-07-02-musik-yoga.md %}).
 
 ## Anbefalinger
 
