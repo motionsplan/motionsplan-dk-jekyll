@@ -156,9 +156,66 @@ Så er det let at lave sin egen playliste og skifte træningsmusik - eller lade 
 
 Det er oplagt at bruge enten langsom musik eller motiverende musik i pauserne, der hjælper med at restitutionen bliver hurtigere og pulsen kommer hurtigere nedad.
 
-## Hvordan finder du playlister til din træning?
+## De mest populære træningssange på Spotify
 
-Skriv i kommentarerne, hvor du finder de bedste træningsplaylister.
+Her har vi samlet den mest populære musik til træning, som Spotify offentliggør hvert år. Det er meget populært at bruge musik til træning i Danmark.
+
+Det er især kvinder mellem 35-44 år, der træner mest til forskellige musiklister fra Spotify - og generelt streamer kvinder mere end mænd.
+
+Der er 54 millioner træningsplaylister på Spotify, så de har et godt grundlag for at undersøge de største trends og populære sange.
+
+Det er tydeligt, at du skal have Eminems _Till I Collapse_ på din playliste til træningen.
+
+{% include video provider="youtube" id="ytQ5CYE1VZw" %}
+
+### 10 mest populære træningssange i Danmark 2017
+
+De 10 mest populære træningssange i Danmark:
+
+1. Eminem - Till I Collapse
+2. Post Malone - rockstar
+3. Jax Jones - You Don't Know Me - Radio Edit
+4. Axwell /\ Ingrosso - More Than You Know
+5. Luis Fonsi - Despacito feat. Justin Bieber - Remix
+6. Volbeat - For Evigt
+7. Fort Minor - Remember The Name (feat. Styles Of Beyond)
+8. Kanye West - Stronger
+9. Eminem - Lose Yourself - Soundtrack Version
+10. Camila Cabello - Havana
+
+### 10 mest populære sange i Danmark til træning 2018
+
+Det mest populære musik til træning i 2018 var på Spotify:
+
+1. Till I Collapse” – Eminem
+2. ”Stronger” – Kanye West
+3. “Lose Yourself” - From "8 Mile" Soundtrack – Eminem
+4. “Remember The Name” (feat. Styles Of Beyond) – Fort Minor
+5. “Black Skinhead” – Kanye West
+6. “POWER” – Kanye West
+7. “Numb / Encore“ – JAY Z
+8. “Can't Hold Us” (feat. Ray Dalton) - Macklemore & Ryan Lewis
+9. “Eye of the Tiger” – Survivor
+10. “Last Resort” – Papa Roach 
+
+### De mest streamede træningssange i 2019
+
+Det mest populære musik til træningen i 2019 var på Spotify:
+
+1. “‘Till I Collapse” – Eminem, Nate Dogg
+2. “I Don’t Care” – Ed Sheeran, Justin Bieber
+3. “Dance Monkey” – Tones and I
+4. “If I Can’t Have You” – Shawn Mendes
+5. “Beautiful People” – Ed Sheeran, Khalid
+6. “Sucker” – Jonas Brothers
+7. “SICKO MODE” – Travis Scott
+8. “Higher Love” – Kygo, Whitney Houston
+9. “Lose Yourself” – Eminem
+10. “i’m so tired…” – Lauv, Troye Sivan
+
+### 2020
+
+Det er spændende, hvad de mest populære sange på Spotify træningsplaylisterne bliver i 2020.
 
 ## Populære playlister til træning
 
@@ -169,6 +226,8 @@ På Spotify er følgende playlister populære, når du søger efter træningspla
 - No Metal, no gain
 - Høj puls
 - Hård træning
+
+Skriv i kommentarerne, hvor du finder de bedste træningsplaylister.
 
 ## Hvad gør du med musik til træningen?
 
@@ -188,3 +247,4 @@ Jeg laver så mit træningsprogram her på motionsplan, hvor jeg let kan skrive 
 - Kreutzer, Jeffrey S., John DeLuca, og Bruce Caplan, red. 2011. _Encyclopedia of Clinical Neuropsychology_. New York: Springer-Verlag. [https://www.springer.com/gp/book/9780387799476](https://www.springer.com/gp/book/9780387799476).
 - Lee, Sam, og Derek S. Kimmerly. 2016. “Influence of Music on Maximal Self-Paced Running Performance and Passive Post-Exercise Recovery Rate”. _The Journal of Sports Medicine and Physical Fitness_ 56 (1–2): 39–48.
 - Pearce, Kathy A. 2016. “Effects of Different Types of Music on Physical Strength”: _Perceptual and Motor Skills_, oktober. [https://doi.org/10.2466/pms.1981.53.2.351](https://doi.org/10.2466/pms.1981.53.2.351).
+
