@@ -23,8 +23,7 @@ feature_row_vitamix:
   - image_path: https://highonlife.dk/media/catalog/product/cache/1/image/540x/9df78eab33525d08d6e5fb8d27136e95/a/3/a3500i-b_rstet-sta_l.jpg
     alt: "Vitamix Ascent A3500 I"
     title: "Vitamix Ascent A3500 I"
-    excerpt: "Har du lyst til at kunne lave personlige og individuelle smoothies til familien?
-Vitamix har, til Ascent-serie, lanceret dette startsæt med to blenderkopper, to drikkelåg og en knivbase. Genialt til din smoothie - lige til at tage med."
+    excerpt: "Har du lyst til at kunne lave personlige og individuelle smoothies til familien? Vitamix har, til Ascent-serie, lanceret dette startsæt med to blenderkopper, to drikkelåg og en knivbase. Genialt til din smoothie - lige til at tage med."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=52999&htmlurl=https://highonlife.dk/vitamix-ascent-blender-kopper-startsaet.html"
     btn_label: "Læs mere"
     btn_class: "btn--success"
