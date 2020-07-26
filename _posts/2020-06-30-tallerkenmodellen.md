@@ -1,5 +1,5 @@
 ---
-title: "Tallerkenmodellen: Hvad er T, E og Y tallerken-modellerne?"
+title: "Tallerkenmodellen: Hvad er Y, T, E og X tallerken-modellerne?"
 permalink: /tallerken-modeller/
 language: da
 header:
@@ -11,22 +11,13 @@ category:
 tags:
   - kost
   - ernæring
-last_modified_at: 2020-06-11T08:14:14Z
+last_modified_at: 2020-07-11T08:14:14Z
 toc: true
-gallery:
-  - image_path: /assets/images/blog/male_mri.gif
-    url: /assets/images/blog/male_mri.gif
-    title: "Kvindelig muskel MRI"
-    alt: "Kvindelig muskel MRI"
-  - image_path: /assets/images/blog/female_mri.gif
-    url: /assets/images/blog/female_mri.gif
-    title: "Kvindelig muskel MRI"
-    alt: "Kvindelig muskel MRI"
 ---
 
-Jeg har kigget lidt på de forskellige tallerkenmodeller, der findes. Hvilke tallerkenmodeller findes der, og hvad er fordelene og ulemperne ved dem.
+Tallerkenmodeller kan være en guide til, hvordan du kan spise sundt. Jeg har researchet lidt på, hvilke tallerkenmodeller findes der, og hvad er fordelene og ulemperne ved de forskellige tallerken-modeller.
 
-**Tallerkenmodeller er med til at give en enkel rettesnor til, hvordan du kan bygge et sundt måltid op. Der findes i hvert fald en T-, E- og Y-tallerkenmodel.**
+**Tallerkenmodeller er med til at give en enkel rettesnor til, hvordan du kan bygge et sundt måltid op. Der findes i hvert fald en Y-, T-, E- og X-tallerkenmodel.**
 
 Kosten er helt afgørende for dit velvære. Kosten er det brændstof kroppen lever af. Der er imidlertid så meget information om kost og ernæring, og nye fødevarer tilføjes til listen over ekstra sundt mad eller udskammes for alverdens dårligdomme.
 
@@ -36,17 +27,18 @@ Der kunne være forskellige måder at opnå samme mål på, men den letteste lø
 
 Du kan ganske enkelt gå ud fra tallerkenmodellen, når du tager en portion mad.
 
-De mest udbredte tallerkenmodeller er: Y, T og E. Jeg forklarer forskellene i det følgende.
+De mest udbredte tallerkenmodeller er: Y, T, E og X. Jeg forklarer forskellene i det følgende.
 
 ## Samlet overblik over tallerkenmodellerne
 
-| | Y | T | E |
-|-|-|-|-|
-| Udarbejdet af | Fødevarestyrelsen | U.S. Department of Agriculture (USDA) | Team Danmark |
-| Passer til | Normalbefolking med lavt-normalt aktivitetsniveau | Normalbefolking med lavt-normalt aktivitetsniveau | Trænede normalt-højt aktivitetsniveau |
-| Træning | Under 1-1½ time om dagen | Under 1-1½ time om dagen | 1½-2 timer |
-| Kulhydratbehov pr. dag | Minimum 130 g. 2-5 g / kg kropsvægt | Minimum 130 g. 2-5 g / kg kropsvægt | 5-12 g / kg kropsvægt |
-| Proteinbehov pr. dag | 0,7 g (kvinder) - 0,8 g (mænd) / kg kropsvægt | 0,7 g (kvinder) - 0,8 g (mænd) / kg kropsvægt | 0,9 - 1,4 g (kvinder) - 1-1,7 g (mænd) / kg kropsvægt |  
+|                        | Y                                                 | X                                                 | T                                                 | E                                                     |
+|------------------------|---------------------------------------------------|---------------------------------------------------|---------------------------------------------------|-------------------------------------------------------|
+| Oprindeligt navn       | Y-tallerken                                       | My Plate                                          | T-tallerken                                       | Elitemodellen                                         |
+| Udarbejdet af          | Fødevarestyrelsen                                 | U.S. Department of Agriculture (USDA)             | Marina Aagaard                                    | Team Danmark                                          |
+| Passer til             | Normalbefolking med lavt-normalt aktivitetsniveau | Normalbefolking med lavt-normalt aktivitetsniveau | Normalbefolking med lavt-normalt aktivitetsniveau | Trænende normalt-højt aktivitetsniveau                |
+| Træning                | Under 1-1½ time om dagen                          | Under 1-1½ time om dagen                          | Under 1-1½ time om dagen                          | 1½-2 timer                                            |
+| Kulhydratbehov pr. dag | Minimum 130 g. 2-5 g / kg kropsvægt               | Minimum 130 g. 2-5 g / kg kropsvægt               | Minimum 130 g. 2-5 g / kg kropsvægt               | 5-12 g / kg kropsvægt                                 |
+| Proteinbehov pr. dag   | 0,7 g (kvinder) - 0,8 g (mænd) / kg kropsvægt     | 0,7 g (kvinder) - 0,8 g (mænd) / kg kropsvægt     | 0,7 g (kvinder) - 0,8 g (mænd) / kg kropsvægt     | 0,9 - 1,4 g (kvinder) - 1-1,7 g (mænd) / kg kropsvægt |
 
 ## Y-tallerken-modellen
 
@@ -64,35 +56,59 @@ Tallerkenen skal i Y-modellen bestå af følgende:
 | Proteinbehov per dag | 0,7 (Kvinder) – 0,8 (Mænd) g pr. kg kropsvægt |
 | Maximum protein for normalbefolkningen | ca. 1-1,5 g / kg |
  
-## T-tallerken-modellen
+## X-tallerken-modellen
 
-Det Amerikanske Landbrugsministerium, U.S. Department of Agriculture (USDA) anbefaler _MyPlate_ til normalbefolkningen med et lavt til moderat aktivitetsniveau, og som gerne vil spise sundere og måske opnå et vægttab.
+Det Amerikanske Landbrugsministerium, U.S. Department of Agriculture (USDA) anbefaler _My Plate_ til normalbefolkningen med et lavt til moderat aktivitetsniveau, og som gerne vil spise sundere og måske opnå et vægttab. _My Plate_ ligner et kryds, så jeg har i denne sammehæng valgt at kalde den X-tallerkenen.
 
-T-modellen er baseret på amerikanske ernæringsanbefalinger. Tendensen i T-tallerkenen er at der anbefales færre kornprodukter og mere protein, især i forbindelse med diæter til vægttab. Der foregår fortsat en del debat om, hvordan den sundeste fordeling mellem kulhydrat og protein er.
+X-modellen er baseret på amerikanske ernæringsanbefalinger. Tendensen i X-tallerkenen er at der anbefales færre kornprodukter og mere protein, især i forbindelse med diæter til vægttab. Der foregår fortsat en del debat om, hvordan den sundeste fordeling mellem kulhydrat og protein er.
 
-{% include figure image_path="https://i2.wp.com/childrensalblog.org/wp-content/uploads/2020/04/MyPlateInfographic.png?fit=2743%2C2616&ssl=1" caption="T-tallerken-modellen fra [USDA](http://www.cnpp.usda.gov/)" alt="T-tallerkenmodellen" %}
+{% include figure image_path="https://i2.wp.com/childrensalblog.org/wp-content/uploads/2020/04/MyPlateInfographic.png?fit=2743%2C2616&ssl=1" caption="X-tallerken-modellen fra [USDA](http://www.cnpp.usda.gov/)" alt="X-tallerkenmodellen" %}
 
-Den originale T-tallerkenmodel viser følgende:
+_My Plate_ indeholder følgende følgende:
 
-- en halv tallerken frugt og grønt (dog opdelt i to dele med lidt mindre frugt)
-- omtrent en kvart tallerken kulhydrat (kornprodukter m.m.)
+- en halv tallerken frugt og grønt opdelt i to halvdele
+- omtrent en kvart tallerken med kulhydrater (kornprodukter mm.)
 - en kvart tallerken protein (lidt mindre protein end kulhydrat). 
 
-Desuden er der _ved siden af_ den amerikanske T-tallerkenmodel et glas fedtfattigt mælk.
+Desuden er der _ved siden af_ den amerikanske X-tallerkenmodel et glas fedtfattigt mælk.
 
 Daglige anbefalinger i forhold til kulhydrat og protein ser sådan her ud:
 
-| Kulhydratbehov pr. dag | Minimum 130 g (hjernens behov). Min. 2-3 g – 5 g / kg |
-| Proteinbehov pr. dag | 0,7 (Kvinder) – 0,8 (Mænd) g pr. kg kropsvægt |
-| Maximum protein for normalbefolkningen | ca. 1-1,5 g / kg |
+| Næringsbehov                           | Mænd                                                  | Kvinder                                               |
+|----------------------------------------|-------------------------------------------------------|-------------------------------------------------------|
+| Kulhydratbehov pr. dag                 | Minimum 130 g (hjernens behov). Min. 2-3 g – 5 g / kg | Minimum 130 g (hjernens behov). Min. 2-3 g – 5 g / kg |
+| Proteinbehov pr. dag                   | 0,8 (Mænd) g pr. kg kropsvægt                         | 0,7 g pr. kg kropsvægt                                |
+| Maximum protein for normalbefolkningen | ca. 1-1,5 g / kg                                      | ca. 1-1,5 g / kg                                      |
+
+## T-tallerken-modellen
+
+[Marina Aagaard](http://marinaaagaardblog.com/2013/03/19/kost-krop-og-traening-kend-din-y-t-e-tallerken/) formulerede i 2013 T-modellen. Marina Aagard var inspireret af tendenserne i _My Plate_ med mere grønt og lavede en forenklet model, som hun kaldte T-modellen. 
+
+{% include figure image_path="https://fruslank.dk/wp-content/uploads/2018/02/T-TALLERKEN-modellen.jpg" caption="T-tallerken-modellen er formuleret af [Marina Aaagard](http://marinaaagaardblog.com/2013/03/19/kost-krop-og-traening-kend-din-y-t-e-tallerken/)" alt="T-tallerkenmodellen" %}
+
+T-modellen er altså en forenkling af den amerikanske model.
+
+- den halve tallerken skal bestå af grøntsager og frugt
+- en kvart tallerken skal bestå af kulhydrater (fx kornprodukter mv.)
+- en kvart tallerken med protein
+
+Daglige anbefalinger i forhold til kulhydrat og protein ser sådan her ud for den almindelige befolkning:
+
+| Næringsbehov                           | Mænd                                                  | Kvinder                                               |
+|----------------------------------------|-------------------------------------------------------|-------------------------------------------------------|
+| Kulhydratbehov pr. dag                 | Minimum 130 g (hjernens behov). Min. 2-3 g – 5 g / kg | Minimum 130 g (hjernens behov). Min. 2-3 g – 5 g / kg |
+| Proteinbehov pr. dag                   | 0,8 (Mænd) g pr. kg kropsvægt                         | 0,7 g pr. kg kropsvægt                                |
+| Maximum protein for normalbefolkningen | ca. 1-1,5 g / kg                                      | ca. 1-1,5 g / kg                                      |
 
 ## E-tallerken-modellen 
 
-Team Danmark anbefaler E-tallerkenmodellen til trænende med moderat til højt aktivitetsniveau. 
+Team Danmark anbefaler i hæftet [Kost og Elitesport](https://umbraco.teamdanmark.dk/media/1601/kost-og-elitesport-2017.pdf?), at når man træner hårdt i 1½ - 2 timer om dagen, så har man også behov for at få mange kulhydrater. Team Danmark kalder deres tallerken for **Elitemodellen**.  [Marina Aaagard](http://marinaaagaardblog.com/2013/03/19/kost-krop-og-traening-kend-din-y-t-e-tallerken/) omdøber modellen til E-tallerken-modellen for at passe den ind i de andre modeller.
 
-Team Danmark anbefaler i hæftet [Kost og Elitesport](https://umbraco.teamdanmark.dk/media/1601/kost-og-elitesport-2017.pdf?), at når man træner hårdt i 1½ - 2 timer om dagen, så har man også behov for at få mange kulhydrater. E-tallerkenmodellen sikrer at der er nok kulhydrat, som er afgørende for folk der træner meget, så de har nok energi til optimal præstationsevne, muskelopbygning og restitutionsevne.
+Team Danmark anbefaler E-tallerkenmodellen til trænende med moderat til højt aktivitetsniveau - supermotionister - og eliteidrætsudøvere.
 
-{% include figure image_path="/assets/images/blog/teamdanmark-elitetallerken.png" caption="E-tallerkenmodellen har særligt fokus på de kulhydratrige fødevarer" alt="Elitemodel fra Team Danmark" %}
+E-tallerkenmodellen sikrer at der er nok kulhydrat, som er afgørende for folk der træner meget, så de har nok energi til optimal præstationsevne, muskelopbygning og restitutionsevne.
+
+{% include figure image_path="/assets/images/blog/teamdanmark-elitetallerken.png" caption="E-tallerkenmodellen har særligt fokus på de kulhydratrige fødevarer" alt="E-tallerken-model: Elitemodel fra Team Danmark" %}
 
 Team Danmark kalder deres tallerkenmodel for **Elitemodel**. På dage med over 1½ - 2 timers træning bør fordelingen på tallerkenen til frokost og aften være følgende:
 
@@ -107,12 +123,11 @@ Team Danmark foreslår følgende værdier for kulhydrat og protein i forhold til
 | Moderat (puls)træning | ~4-5 x/uge, <1-1½ t/dag, moderat-høj intensitet | 5-7 g pr. kg kropsvægt | 0,9 (kvinder), 1,0 (mænd) g pr. kg kropsvægt | 
 | Moderat styrketræning (vedligehold) | ~4-5 x/uge, <1-1½ t/dag, moderat-høj intensitet | 5-7 g pr. kg kropsvægt. | 0,9-1,0 (kvinder), 1,0-1,2 (mænd) g pr. kg kropsvægt |
 | Intens kredsløbstræning | 7 x/uge, > 1-1½ t pr. dag, moderat-høj intensitet | 7-10 g pr. kg kropsvægt (ekstrem træning >6-8 t/dag; 10-12 g pr. kg kropsvægt | 1,0-1,4 (kvinder), 1,2-1,6 (mænd) g pr. kg kropsvægt.
- 
-| Intensiv styrketræning (opbygningsfase) | 7 x/uge, > 1-1½ t pr. dag, moderat-høj intensitet | 7-10 g pr. kg kropsvægt (ekstrem træning >6-8 t/dag; 10-12 g pr. kg kropsvægt) | 1,3-1,4 g (kvinder), 1,5-1,7 g (mænd) pr. kg kropsvægt |
+ | Intensiv styrketræning (opbygningsfase) | 7 x/uge, > 1-1½ t pr. dag, moderat-høj intensitet | 7-10 g pr. kg kropsvægt (ekstrem træning >6-8 t/dag; 10-12 g pr. kg kropsvægt) | 1,3-1,4 g (kvinder), 1,5-1,7 g (mænd) pr. kg kropsvægt |
 
 ## Den grøntsagsmodificerede tallerkenmodel
 
-Casper Jespersen [foreslår](https://casperjespersen.dk/den-modificerede-tallerkenmodel-til-dig-der-gerne-vil-spise-ude/) en modificeret tallerkenmodel, som jeg rigtig godt kan lide. Han opprioriterer grøntsagerne på tallerkenen. Casper Jespersen er personlig træner og arbejder ofte med klienter, som har et ønske om at tabe sig. 
+Casper Jespersen [foreslår](https://casperjespersen.dk/den-modificerede-tallerkenmodel-til-dig-der-gerne-vil-spise-ude/) en modificeret tallerkenmodel, som jeg rigtig godt kan lide. Egentlig er det bare en præcisering af T-tallerkenmodellen. Casper Jespersen opprioriterer, at det skal være grøntsagerne på tallerkenen, der fylder mest (ikke frugt). Casper Jespersen er personlig træner og arbejder ofte med klienter, som har et ønske om at tabe sig. 
 
 {% include figure image_path="https://casperjespersen.dk/wp-content/uploads/2019/01/50517273_619006101861854_6042291499616436224_n.jpg" caption="Casper Jespersens grøntsagsmodificerede tallerkenmodel" alt="Modificeret tallerkenmodel" %}
  
@@ -147,7 +162,7 @@ Formålet med tallerkenmodellerne er naturligvis at understøtte en sund kost. I
 
 > “Kostrådene sammenfatter den viden, man har i dag, så for den almindelige forbruger er de den bedste kilde til viden om sund kost. Det er langt bedre end de alternative kostanbefalinger, man finder rundt omkring i ugebladene. Der kan være et efterslæb i forhold til den nyeste forskning, men det skal der være, for man skal være helt sikker, før man justerer de officielle kostråd.”
 
--- <cite>Lektor Lars Helgren, DTU Systembiologi til [videnskab.dk](https://videnskab.dk/krop-sundhed/smor-margarine-eller-planteolier-fedt-er-en-kompliceret-sag). 
+-- <cite>Lektor Lars Helgren, DTU Systembiologi til [videnskab.dk](https://videnskab.dk/krop-sundhed/smor-margarine-eller-planteolier-fedt-er-en-kompliceret-sag).</cite>
 
 Lad os sammenfatte nogle gode kostråd, som tallerkenmodellerne skal understøtte.
 
