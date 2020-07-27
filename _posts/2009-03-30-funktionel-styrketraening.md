@@ -27,9 +27,13 @@ Funktionel styrketræning er træning, som forbereder kroppen til en given funkt
 
 — <cite>[Wikipedia](https://da.wikipedia.org/wiki/Funktionel_tr%C3%A6ning)</cite>
 
-Betegnelsen ”funktionel træning” henviser til sammensatte, komplekse bevægelser med store og naturlige bevægeudslag, hvor koordination, styrke og balance trænes i de samme øvelser. De bedste muskelopbyggende funktionelle øvelser er dem, som bruger dine muskler på den måde, som musklerne er designet til, nemlig at trække, skubbe, rotere etc.
+Betegnelsen ”funktionel træning” henviser til sammensatte, komplekse bevægelser med store og naturlige bevægeudslag, hvor koordination, styrke og balance trænes i de samme øvelser. De bedste funktionelle øvelser er dem, som bruger dine muskler på den måde, som musklerne er designet til, nemlig at trække, skubbe, rotere etc.
 
 Isolationsøvelser, hvor du træner en muskelgruppe af gangen, kan udmærket indgå i træningen, forudsat at der er en mening dermed og forudsat, at de indlærte, styrkede færdigheder efterfølgende integreres i sammensatte bevægelser, ellers bruges isolationsøvelser primært til genoptræning og bodybuilding.
+
+Udtrykket funktionel træning bliver ofte brugt om specialtræning i forskellige sammenhænge, men kan reelt bruges om al træning, der har en funktion for den enkelte. Jeg foretrækker dog at bruge defintionen om om integrerede lidt mere komplekse bevægelser, der sigter mod øget kropsbevidsthed, indlæring af basisbevægelser og optræning af styrke.
+
+Funktionel træning kan betragtes som et kontinuum fra mere enkle øvelser til hyperkomplekse øvelser.
 
 ## Fordele ved funktionel træning
 
@@ -44,6 +48,17 @@ Idrætsspecifik funktionel træning tager udgangspunkt i disciplinens bevægelse
 Alle kast ser fundamentalt ens ud, alle hop ser ens ud, og acceleration er uanset idrætsgren ens. Det, der adskiller idrætsgrene, er udstyret, underlaget og beklædningen. Langt de fleste idrætsgrene indeholder et element af løb, hop, kast, skub, træk, løft, bøj, stræk, start og stop.
 
 Et vigtigt element i funktionel træning er styrketræning af kropsstammen, musklerne mellem bækken og mellemgulv. Med en stærk og stabil kropsstamme opnår du større kraft, kvalitet og effektivitet i alle øvelser og hermed kropsligt overskud og forbedret total præstationsevne. Sidst, men ikke mindst, er træning af balancen med i al funktionel træning, fordi en bedre balance optimerer alle dine bevægelsesmønstre både i dagligdagen og under udøvelse af sport.
+
+[Marina Aaagaard](http://marinaaagaardblog.com/2013/09/04/hvad-er-funktionel-traening/) har opstillet følgende nøgleord for funktionel træning:
+
+- Balance, dynamisk og statisk, og stabilitet
+- Koordination, generel samt ben- og armarbejde
+- Smidighed, bevægelighed, dynamisk, statisk, efter behov
+- Udholdenhed, specifik i henhold til behov.
+- Maksimal styrke (og kropsstammestyrke, core stabilitet)
+- Hastighed. Start, acceleration, deceleration, stop, variabel hastighed/rytmeskift
+- Power, kraft, hastighed, acceleration, RFD
+- Agility, inklusive reaktionsevne
 
 ## Bevægelsesmønstre i funktionel træning
 
@@ -92,3 +107,30 @@ Du behøver som sådan ikke at lege for at lave funktionel træning. Fordelen ve
 ### 8. Hvordan kan jeg ellers variere min træning?
 
 Funktionel træning kan laves overalt. Du kan bruge forskellige redskaber. Der er fx forskel på at lave pullups i en stang og i gymnastikringe. Du kan også udfordre din [balanceevne med balancetræning]({% link _posts/2020-07-16-balancetræning.md %}). Du kan lave styrketræning med naturredskaber eller lave [træning med kropsvægt]({% link _posts/2009-08-04-traening-med-kropsvaegt.md %}). Du kan lave noget hårdt og intenst eller du kan arbejde med mindre intensitet.
+
+## Planlægning af funktionel træning
+
+Funktionel træning skal følge de almindelige retningslinjer for god træningsplanlægning. Derfor skal du tilrettelægge med højde for at lave **progressivt overload** i forhold til belastning og sværhedsgrad ved træningen. 
+
+Du skal altså tage hensyn til din nuværende form, og hvis du står for holdtræning i funktionel træning, så sørg for at deltagerne kan vælge forskellige løsningsmuligheder i træningen.
+
+Al god træning starter naturligvis med en god og grundig opvarmning.
+
+Hvis du laver noget teknisk vanskeligt eller eksplosiv træning, så bør det ligge først i træningen. Det er her musklerne og nervesystemet er mest parat til udfordringerne.
+
+Hvis din træning består af forskellige funktionelle øvelser, så træner du formentlig typisk mellem 45 minutter og fem kvarter. Husk i denne sammenhæng er længere ikke bedre. Mere kvalitet i træningen er bedre!
+
+## Hvilke øvelser skal jeg vælge?
+
+Hvis du planlægger funktionel træning, så kan du bruge følgende tjekliste til at sørge for, at du får trænet varieret og funktionelt:
+
+- [ ] Naturlige og alsidige bevægelser, der udfordrer grundmotorikken: Bøj, stræk, træk, pres, rotation, gang, løb, hink, hop, spring
+- [ ] Brug fuldt bevægeudslag (Range of Motion)
+- [ ] Bevægelserne er komplekse og sammensatte og udfordrer kroppens almindelige funktioner
+- [ ] Balancen trænes både statisk og dynamisk
+- [ ] Koordinationstræning hvor du bruger kroppen på nye måder for at udvide bevægelseserfaringen
+- [ ] Tag højde for bevægelsesplaner, så du arbejder både i det sagitale-, frontale- og horisontale bevægelsesplan
+- [ ] Muskelbalancer tilgodeses i træningen - og meget gerne i det enkelte træningspas, så agonister, antagonister og synergister trænes. Når der skubbes, trækkes der også.
+- [ ] Giv mulighed for at have kvalitet i bevægelserne
+- [ ] Stabilitet med '[core træning]({% link _posts/2020-07-16-coretraening.md %})'
+- [ ] Træn de små stabilisatorer også, så fundamentet bliver stærkt, fx 'rotator cuff'
