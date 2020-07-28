@@ -17,7 +17,7 @@ author: linda.kruse
 
 **Funktionel træning er trenden og det blivende indenfor fitness. Hvad er det, og hvorfor kan du drage nytte funktionel træning? Her får du svar på, hvordan du kan optimere din træning, så du hurtigere og lettere får en stærkere, slankere og sundere krop.**
 
-Som mennesker og især som idrætsudøvere udfører vi mange forskellige bevægelser. Vi går, jogger, løber, sprinter, hopper, løfter, skubber, trækker, bøjer, roterer, står, starter, stopper og klatrer. Alle de bevægelser involverer glidende, rytmiske bevægelser i [forskellige bevægelsesplaner]({% link _pages/joints.md %}).
+Som mennesker og især som idrætsudøvere udfører vi mange forskellige bevægelser. Vi går, jogger, løber, sprinter, hopper, løfter, skubber, trækker, bøjer, roterer, står, starter, stopper og klatrer. Alle de bevægelser involverer glidende, rytmiske bevægelser i [forskellige bevægelsesplaner]({% link _pages/anatomy/joints.md %}).
 
 Funktionel styrketræning er træning, som forbereder kroppen til en given funktion i hverdagen eller en idræt. Kroppen er en funktionel helhed designet til at arbejde som et sammenhængende system, og derfor bør kroppen også trænes sammenhængende i din træning og styrketræning.
 
