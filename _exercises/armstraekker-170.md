@@ -12,6 +12,8 @@ header:
 tags:
   - kropsvægt
   - fitnessinstruktør
+  - Bryst
+  - Arme
 categories:
 training_type: 
 training_focus: 

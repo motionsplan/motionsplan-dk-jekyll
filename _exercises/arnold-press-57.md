@@ -11,6 +11,7 @@ header:
   caption: "Arnold Press"
 tags:
   - Pres
+  - Skulder
 categories:
   - Pres
 training_type: 
