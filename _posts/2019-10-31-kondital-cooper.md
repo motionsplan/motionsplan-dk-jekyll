@@ -1,7 +1,9 @@
 ---
 title: "Cooper-test: Find kondital med Coopers 12 minutters løbetest"
-permalink: /kondital-cooper/
-excerpt: "Cooper-test er en 12 minutters løbetest og en maksimal konditionstest, der estimerer konditallet ud fra den tilbagelagte distance løbet på Cooper-testen."
+permalink: /cooper-test/
+redirect_from:
+  - /kondital-cooper/
+excerpt: "Cooper-testen er en 12 minutters løbetest og en indirekte, maksimal konditionstest. Brug vores beregner og tabeller til at finde dit kondital ud fra den tilbagelagte distance på de 12 minutter."
 language: da
 header:
   overlay_image: https://coopertest-online.de/wp-content/uploads/2019/02/Coopertest_Collage_368385_R_K_B_by_Kurt-Michel_pixelio.de_1100px-1.jpg
@@ -18,7 +20,7 @@ last_modified_at: 2020-05-06T23:14:14Z
 toc: true
 ---
 
-Cooper-testen er en maksiml løbetest, hvor den distance man kan tilbagelægge på 12 minutter er med til at estimere udøverens kondital. Jeg beskriver her, hvad testen er, og hvordan den udføres.
+Cooper-testen er en maksimal løbetest, hvor den distance man kan tilbagelægge på 12 minutter er med til at estimere udøverens kondital. Jeg beskriver her, hvad testen er, og hvordan den udføres?
 
 **12 minutters Cooper-test er en klassisk konditionstest, som blev designet af militærfysiologen Kenneth H. Cooper i 1968. Cooper-testen var oprindeligt beregnet tl at teste de amerikanske soldaters fysiske form. Det gælder om at løbe så langt som muligt på 12 minutter. Testen skal udføres på en flad strækning, fx en 400 m atletikbane. Testens pålidelighed forudsætter, at man kan presse sig selv og, at man kan løbe med nogenlunde jævn hastighed hele vejen igennem.**
 
@@ -38,13 +40,13 @@ Konditallet i Coopertesten afhænger ikke af vægten. Konditallet er VO<sub>2</s
 
 Hvis en person på 100 kg skal løbe samme distance, så kræver det dobbelt så meget energi og dermed en VO<sub>2</sub>max på 5,6 l/min, men da personen jo netop har dobbelt så stor kropsvægt, så ender konditallet med at være det samme.
 
-{% include figure image_path="https://levaktivt.dk/media/2593/cooper-test-infografik.jpg" caption="Coopers 12 minutters løbetest" alt="Find dit kondital med Cooper-testen" %}
+{% include figure image_path="https://levaktivt.dk/media/2593/cooper-test-infografik.jpg" caption="Cooper-test: Find dit kondital med Coopers 12 minutters løbetest" alt="Find dit kondital med Cooper-testen" %}
 
 ## Formel til at udregne konditallet fra Coopertesten
 
 Der findes forskellige formler til at udregne konditallet fra Cooper-testen. Her er den mest enkle:
 
-{% include math formula="VO_2max = \frac{d_{12} – 505}{45}" %}
+{% include math formula="VO_2max = \frac{d_{12} - 505}{45}" %}
 
 I beregneren bruger jeg dog denne formel, da senere studier har vist, at den er lidt mere præcis.
 
@@ -60,8 +62,8 @@ Der findes også formler, der inkluderer vægt, køn og alder. Hvis du bruger Co
 
 ### Mænd
 
-| Alder | Køn | Meget godt | Godt | Nogenlunde | Dårligt | Meget dårligt |
-|-|-|-|-|-|-|-|-|
+| Alder | Meget godt | Godt | Nogenlunde | Dårligt | Meget dårligt |
+|-|-|-|-|-|-|
 | 11-14 | 2500+ m | 2400 - 2600 m | 2200 - 2399 m | 2100 - 2199 m | op til 1400 m |
 | 15-16 | 2800+ m | 2500 - 2800 m | 2300 - 2499 m | 2200 - 2299 m | op til 2200 m |
 | 17-20 | 3000+ m | 2700 - 3000 m | 2500 - 2699 m | 2300 - 2499 m | op til 2300 m |
@@ -72,8 +74,8 @@ Der findes også formler, der inkluderer vægt, køn og alder. Hvis du bruger Co
 
 ### Kvinder
 
-| Alder | Køn | Meget godt | Godt | Nogenlunde | Dårligt | Meget dårligt |
-|-|-|-|-|-|-|-|-|
+| Alder | Meget godt | Godt | Nogenlunde | Dårligt | Meget dårligt |
+|-|-|-|-|-|-|
 | 11-14 | 1700+ m | 1400 - 1700 m | 1100 - 1400 m | 800 - 1100 m | op til 1600 m |
 | 15-16 | 2100+ m | 2000 - 2100 m | 1700 - 1999 m | 1600 - 1699 m | op til 1600 m |
 | 17-20 | 2300+ m | 2100 - 2300 m | 1800 - 2099 m | 1700 - 1799 m | op til 1700 m |
