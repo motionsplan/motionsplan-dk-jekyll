@@ -6,6 +6,11 @@ comments: false
 collection: programs
 entries_layout: list
 classes: wide
+author_profile: true
+header:
+  overlay_image: https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
+  teaser: https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80
+  caption: "Træningsprogrammer: fullbody, 2-split, 3-split, 4-split og 5-split styrketræning"
 ---
 
 Find et effektivt og gratis træningsprogram til styrketræning, der passer perfekt til dine behov. Få dit eget program. Vi har både klassiske styrketræningsprogrammer, fx fullbody, 2-splitprogram og 3-splitprogram.
