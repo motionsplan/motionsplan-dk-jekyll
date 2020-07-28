@@ -77,15 +77,20 @@ feature_row_ads:
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=52999
     btn_label: "Besøg High On Life*"
     btn_class: "btn--info"
+yogastream:
+  - image_path: https://www.yogastream.dk/images/homepage/forloeb.jpg
+    url: http://motionsplan.yogastream.dk
+    title: "Bliv medlem af Yogastream og lær yoga"
+    alt: "Bliv medlem af Yogastream og lær yoga"
 ---
 
 På [Saxo\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264) kan du finde masser af inspiration til træning og sundhed. Her kommer nogle af mine favoritter. Jeg forsøger at læse mindst en time dagligt om emner, der interesserer mig.
 
 {% include feature_row type="left" %}
 
-[Køb bøger på Saxo\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264){: .btn .btn--large .btn--danger}
+[Køb bøger på Saxo\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264){: .btn .btn--large .btn--danger }
 
-<a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43262" target="_blank" rel="nofollow noopener"> <img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=43262" border="0"></a>
+{% include gallery id="yogastream" caption="YogaStream er et online yogaunivers med over 1000 yoga- og meditationsvideoer. Du bliver guidet af dygtige og erfarne instruktører lige når det passer dig. Få den [første måned gratis gennem vores link*](http://motionsplan.yogastream.dk)." %}
 
 ## Samarbejdspartnere (reklamelinks)
 
