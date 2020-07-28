@@ -13,6 +13,11 @@ tags:
 category:
   - Yoga
 last_modified_at: 2020-07-12T20:41:31Z
+yogastream:
+  - image_path: https://www.yogastream.dk/images/homepage/forloeb.jpg
+    url: http://motionsplan.yogastream.dk
+    title: "Bliv medlem af Yogastream og lær yoga"
+    alt: "Bliv medlem af Yogastream og lær yoga"
 ---
 
 Mindfulness meditation kan være et nyttigt værktøj til at opnå øget bevidstgørelse omkring egne værdier og målsætninger. Jeg har samlet øvelser på dansk til at lave din egen mindful meditation i forbindelse med yoga derhjemme. Samtidig beskriver jeg, hvordan jeg forstår mindfulness meditation.
@@ -70,5 +75,7 @@ Kathrine Christensen, yogalærer i Vejle, har lavet en guidet meditation til min
 Hvis du er interesseret i at læse lidt om musik til mindfulness og yoga, så har jeg skrevet et [andet indlæg med fem tips til at vælge det rigtige musik]({% link _posts/2020-07-02-musik-yoga.md %}). Du skal naturligvis også lige kigge forbi et af vores mest populære indlæg, som handler om [yogaøvelserne De Fem Tibetanere]({% link _posts/2009-07-01-de-fem-tibetanere.md %}) eller [Solhilsen]({% link _posts/2020-07-25-solhilsen.md %}).
 
 Den Intelligente Krop som er vores samarbejdspartner har også [afspændinger til yoga og mindfulness meditation\*](https://www.denintelligentekrop.dk/interesse/yoga-og-meditation/yoga-og-meditation-musik-og-lyd-cd).
+
+{% include gallery id="yogastream" caption="YogaStream er et online yogaunivers med over 1000 yoga- og meditationsvideoer. Du bliver guidet af dygtige og erfarne instruktører lige når det passer dig. Få den [første måned gratis gennem vores link*](http://motionsplan.yogastream.dk)." %}
 
 <a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=37797" target="_blank" rel="nofollow noopener"><img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=37797" border="0" alt=""></a>
