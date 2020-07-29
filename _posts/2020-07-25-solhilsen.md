@@ -45,6 +45,11 @@ feature_row_yogamat:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/manduka-x-yoga-mat"
     btn_label: "Tjek prisen*"
     btn_class: "btn--success"
+yogastream:
+  - image_path: https://www.yogastream.dk/images/homepage/forloeb.jpg
+    url: http://motionsplan.yogastream.dk
+    title: "Bliv medlem af Yogastream og lær yoga"
+    alt: "Bliv medlem af Yogastream og lær yoga"
 ---
 
 Jeg har lavet yoga solhilsen mange gange, så derfor vil jeg gerne beskrive denne alsidige serie af yoga-øvelser for dig, så du også kan komme i gang med øvelserne. Jeg dykker i det følgende ned i _Surya Namaskar_ (solhilsen) fra Asthanga Vinyasa Yogaen, som findes i en A- og B-version.
@@ -200,6 +205,8 @@ Eller den her:
 Når du har afsluttet din solhilsen, så kan det være rart at bruge 5 minutter, hvor du laver en lille afspænding. Yogalærer, Kathrine Christensen, har skrevet en lille guide her på Motionsplan til [mindful meditation]({% link _posts/2010-10-05-mindfullness-meditation.md %}).
 
 Jeg udfører også ofte [De fem tibetanere]({% link _posts/2009-07-01-de-fem-tibetanere.md %}), fordi de giver mig nogenlunde samme fornemmelse som solhilsen bagefter. Vi har også skrevet et andet indlæg om at vælge [musik til din yoga]({% link _posts/2020-07-02-musik-yoga.md %}).
+
+{% include gallery id="yogastream" caption="YogaStream er et online yogaunivers med over 1000 yoga- og meditationsvideoer. Du bliver guidet af dygtige og erfarne instruktører lige når det passer dig. Få den [første måned gratis gennem vores link*](http://motionsplan.yogastream.dk)." %}
 
 <a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=37797" target="_blank" rel="nofollow noopener"><img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=37797" border="0" alt=""></a>
 

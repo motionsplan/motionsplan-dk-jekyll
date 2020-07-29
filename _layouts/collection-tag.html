@@ -1,0 +1,16 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+{% assign posts = site[page.collection] | where: "tags", page.taxonomy %}
+{% assign layout = page.entries_layout | default: "grid" %}
+
+<div class="entries-{{ layout }}">
+{%- for post in posts -%}
+  {%- unless post.hidden -%}
+    {% include archive-single.html type=layout %}
+  {%- endunless -%}
+{%- endfor -%}
+</div>

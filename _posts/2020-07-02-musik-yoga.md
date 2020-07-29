@@ -12,8 +12,14 @@ category:
 tags:
   - yoga
   - musik
+  - meditation
 last_modified_at: 2020-07-02T08:12:14Z
 toc: true
+yogastream:
+  - image_path: https://www.yogastream.dk/images/homepage/forloeb.jpg
+    url: http://motionsplan.yogastream.dk
+    title: "Bliv medlem af Yogastream og lær yoga"
+    alt: "Bliv medlem af Yogastream og lær yoga"
 ---
  
 Jeg er på udkig efter noget god musik, jeg kan bruge til mindful yoga og mindfulness, når der ikke bare skal være stilhed. Jeg har derfor undersøgt, hvad god musik kan være til både yoga, mindfulness og meditation.
@@ -116,3 +122,5 @@ Jeg har skrevet et andet indlæg, der handler om at [vælge musik til din træni
 Du skal næsten også lige læse et andet af vores meget populære indlæg, der handler om [yogaøvelserne, De Fem Tibetanere]({% link _posts/2009-07-01-de-fem-tibetanere.md %}) eller [Solhilsen]({% link _posts/2020-07-25-solhilsen.md %}) - eller måske er du interesseret i [Mindful meditation]({% link _posts/2010-10-05-mindfullness-meditation.md %}).
 
 <a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=37797" target="_blank" rel="nofollow noopener"><img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=37797" border="0" alt=""></a>
+
+{% include gallery id="yogastream" caption="YogaStream er et online yogaunivers med over 1000 yoga- og meditationsvideoer. Du bliver guidet af dygtige og erfarne instruktører lige når det passer dig. Få den [første måned gratis gennem vores link*](http://motionsplan.yogastream.dk)." %}

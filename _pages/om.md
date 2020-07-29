@@ -16,11 +16,16 @@ Lars Olesen er cand.scient. og har læst Sundhed og Idræt på Syddansk Universi
 - **Tager et videnskabeligt udgangspunkt.** Vores artikler er baseret på videnskab. Hvis videnskaben ændrer sig, eller vi bliver klogere ændrer vi artiklerne.
 - **Bruger klar tale.** Vi forsøger at gøre det svære forståeligt. Hvis du ikke helt forstår, hvad vi har skrevet, forsøger vi at gøre det bedre.
 - **Er nuancerede.** Selvom vi forsøger at gøre tingene forståeligt, gør vi det ikke for enkelt. Det betyder også, at vi gerne nuancerer mediernes historier.
-- **Holder sitet opdateret.** Artikler og øvelser gennemlæses og revideresløbende for at tage højde for den nyeste viden. Hvis nogle af læserne har konstruktive kommentarer til artikler, tager vi det til efterretning så hurtigt som muligt. Du finder altså ingen gammel og outdated viden her.
-- **Fintuner teknikken.** Vi leverer et højt teknisk niveau baseret på Open Source teknologier.
+- **Holder sitet opdateret.** Artikler og øvelser gennemlæses og revideres løbende for at tage højde for den nyeste viden. Hvis nogle af læserne har konstruktive kommentarer til artikler, tager vi det til efterretning så hurtigt som muligt. Du finder altså ingen gammel og outdated viden her.
 
 Hvis du har nogle spørgsmål er du altid velkommen til at kontakte os på {{ site.email }}.
 
 ## Materiale på sitet
 
 Vi bruger billeder fra [Unsplash.com](https://unsplash.com/) og skriver selv alle artiklerne.
+
+## Tal
+
+- Blogindlæg: {{ site.posts.size }}
+- Øvelser: {{ site.exercises.size }}
+- Træningsprogrammer: {{ site.programs.size }}
