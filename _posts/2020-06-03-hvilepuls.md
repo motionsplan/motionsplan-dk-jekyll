@@ -91,8 +91,10 @@ Hvis vi kigger på raske mennesker, så kan det være et mål med sin træning a
 
 Her har jeg samlet nogle retningslinjer:
 
+## Hvilepuls tabel
+
 | Kategori | Kvinder | Mænd |
-|-|-|
+|-|-|-|
 | Sportsudøver | 54-60 |  49-56 |
 | Glimrende | 60-64 | 57-61 |
 | God | 65-68 | 62-66 |
@@ -101,13 +103,13 @@ Her har jeg samlet nogle retningslinjer:
 | Under gennemsnittet | 79-84 | 76-81 |
 | Dårlig |  85+ | 82+ |
 
-Nogle lidt grovere retningslinjer for hvilepulsen kan også se sådan her ud ([kilde](https://www.sportshojskolen.dk/vidensbank/pulstr%C3%A6ning---max-pulsen)):
+Nogle lidt grovere **retningslinjer for hvilepulsen** kan også se sådan her ud ([kilde](https://www.sportshojskolen.dk/vidensbank/pulstr%C3%A6ning---max-pulsen)):
 
-- Hvilepuls på 80: Uhyre dårlig kondition – bør forbedres alene set ud fra en fysisk sundhedsmæssig vinkel.
-- Hvilepuls 70: Dårlig kondition – bør stadig forbedres, både af sundhedsmæssige og præstationsfremmende hensyn
-- Hvilepuls 60: Rimelig kondition – passer fint til fritidsmotionisten, men kan stadig med fordel forbedres
-- Hvilepuls 50: Rigtig god kondition – Her ligger ofte den ambitiøse amatørmotionist
-- Hvilepuls 40: Suveræn kondition – Forbeholdt de få; oftest elitefolk.
+- **Hvilepuls på 80**: Uhyre dårlig kondition – bør forbedres alene set ud fra en fysisk sundhedsmæssig vinkel.
+- **Hvilepuls 70**: Dårlig kondition – bør stadig forbedres, både af sundhedsmæssige og præstationsfremmende hensyn
+- **Hvilepuls 60**: Rimelig kondition – passer fint til fritidsmotionisten, men kan stadig med fordel forbedres
+- **Hvilepuls 50**: Rigtig god kondition – Her ligger ofte den ambitiøse amatørmotionist
+- **Hvilepuls 40*'': Suveræn kondition – Forbeholdt de få; oftest elitefolk.
 
 Som udgangspunkt er en lav hvilepuls altså at foretrække. Miguel Indurain, tidligere cykelrytter, havde en hvilepuls på 28. Jeg hørte på et tidspunkt, at udfordringen med et så stort hjerte kan være, at man bliver nødt til at fortsætte sin træning for at hjertet forbliver stærkt nok. Det ved jeg ikke om er rigtigt.
 
@@ -172,6 +174,7 @@ Hvis du er rask, så bør du allerede inden 3-4 uger efter du starter et trænin
 
 Hvis du allerede er veltrænet, så tager det naturligvis længere tid at flytte din hvilepuls, og der er også grænser for hvor langt den kommer ned. 
 
+<div class="hidden">
 ***
 
 ## Er en lav hvilepuls altid godt?
@@ -181,11 +184,11 @@ Hvilepulsen kan også påvirkes af sygdom og alderdom. Hvis du har sygdomme omkr
 Nogle rapporterer også, at skader på hjertet med alderen kan forårsage en lavere hvilepuls.
 
 ***
-
+</div>
 ## Hvad kan du bruge hvilepulsen til?
 
 Ud over at hvilepulsen er en indikator på ens træningsniveau særligt i kredsløbssystemet, så kan du også bruge hvilepulsen til at udregne forskellige træningsparametre.
 
 Sammen med max-pulsen kan du [estimere dit kondital ud fra puls med vores enkle beregner](/kondital-fra-puls/).
 
-Jeg har også skrevet mere om, hvordan du kan [udregne dine intensitetszoner fra pulsen, fordi du ved at kende din max-puls og hvilepuls kender din pulsreserve](/puls-intensitet/).
+Jeg har også skrevet mere om, hvordan du kan [udregne dine intensitetszoner fra pulsen](/puls-intensitet/), fordi du ved at kende din max-puls og hvilepuls kender din pulsreserve.
