@@ -91,3 +91,181 @@ En anden mulighed er at bruge [coretræning]({% link _post/2020-07-16-coretraeni
 Det er vigtigt, når du laver supersæt at kvaliteten i de enkelte øvelser stadig er høj. Tanken med supersæt er at nå mere træning på kortere tid uden at gå på kompromis med kvaliteten i træningen.
 
 Superset-træning kan bruges af alle, men du skal naturligvis tænke dig om. God fornøjelse med dine supersæt.
+
+
+<div class="hidden">
+# Supersæt guide: Super set og alternating set
+
+Superset, super sæt, er en tidseffektiv, intens træningsmetode
+i bodybuilding, men den er lige så oplagt i almen motion og fitness.
+
+Der findes utallige træningsmetoder. Hvilken metode der er den bedste, afhænger af formål og person. Man kan med fordel skifte metode fra tid til anden: Det motiverer og giver resultater: Musklerne reagerer godt på lejlighedsvis variation.
+
+Supersæt guide
+Metoden super sæt eller supersæt, supersets, må ikke forveksles med skiftende sæt,
+alternating sets, der er opbygget på samme måde, men med pauser imellem.
+
+Hvad er supersæt?
+Supersæt er to øvelser efter hinanden uden pauser:
+
+Man udfører et sæt af en øvelse og derefter straks et sæt af en anden øvelse,
+lige efter hinanden uden pause, ingen straks-restitution, mellem de to øvelser.
+
+Eksempel:
+
+Sæt nr. 1 øvelse A.
+Sæt nr. 1 øvelse B.
+
+Sæt nr. 2 øvelse A.
+Sæt nr. 2 øvelse B.
+
+Sæt nr. 3 øvelse A.
+Sæt nr. 3 øvelse B.
+
+Man kan køre supersæt lige efter hinanden uden pauser (vist herover).
+Der kan også være en pause mellem hvert supersæt (efter øvelse B)
+Det afhænger af øvelser og intensitet, hvor anstrengende det er.
+
+Man gentager A-B-supersættet det ønskede antal gange,
+typisk 2-4 sæt i alt.
+
+Hvad er fordelen ved supersæt?
+
+Tidseffektiv træning, pauser elimineres.
+Intensiv træning, belastningen på kredsløb og muskler holdes oppe:
+En form for metcon træning, metabolisk konditionering; øget forbrænding.
+Når den ene muskel trænes, aflastes og afslappes den anden (agonist-antagonist).
+Hvad er ulempen ved supersæt?
+
+Hurtig udtrætning og akkummuleret udtræning, evt. risiko for sjusk:
+Lige efter øvelse A er man ikke helt frisk til øvelse B eller næste A og B.
+Man kan ikke løfte så tungt som ellers, ikke optimal styrke-metode.
+Kræver viden om muskelfunktion, så supersæt sammensættes optimalt.
+Supersæt typer
+Der er to klassiske supersæt typer og tre specielle typer, fem overordnede typer:
+
+Agonist Antagonist supersæt
+Den mest brugte supersæt metode. Anbefales også til motionstræning:
+
+Man træner to modstående muskelgrupper – med modsatrettet funktion.
+
+En metode med effektiv tidsudnyttelse og begrænset udtrætning.
+
+Eksempel: Skulderpres (eller wall ball) og lat pulldown. Eller bænkpres og horizontal row.
+
+Agonisten er den primære muskel i et muskelarbejde (andre muskler, synergister, hjælper til).
+Når agonisten spændes, sendes der nerveimpulser, så musklen på den anden side af leddet, antagonisten slapper en smule af for at lette arbejdet, selvom der er en vis spænding, co-kontraktion, en form for bremsende kontrol, som beskytter leddet (lidt co-kontraktion er godt, for meget er skidt). Når man skifter side, så bliver den tidligere antagonist til agonist i det nye muskelarbejde.
+
+
+Compound supersæt
+Den næstmest brugte supersæt metode.
+
+Man træner to øvelser for samme muskelgruppe – uden pause imellem.
+
+En metode, der øger udtrætning (kan medvirke til hypertrofi).
+Øvelse nummer to bør ikke være for tung; undgå at øge risiko for skader.
+
+Eksempel: Bænkpres efterfulgt af kabel fly. Derimod kan bænkpres efterfulgt af skråpres, incline bench press, være en hård kombination, der øger risikoen for tidlig udmattelse.
+Bør udføres med en spotter (hjælper).
+
+Staggered supersæt
+Metoden er inspireret af Staggered sets, der er med pause.
+
+Staggered supersæt er træning af to forskellige muskelgrupper.
+
+Det er træning af muskelgrupper som ikke er aktive i samme øvelse.
+
+Øvelserne køres uden pause; når den ene muskelgruppe trænes,
+hviler den anden muskelgruppe; straks-restitution til næste sæt.
+
+Typisk indskydes øvelser for mindre assisterende muskler i pauserne i anden træning.
+
+Eksempel: Bentræning (squat, lunge, med mere) og skulderrotation. Eller brysttræning (bænkpres, skråpres) og lægmuskel træning. Derimod er det ikke en god ide, at træne dødløft og dernæst håndledsøvelser, fordi man har brug for underarmsstyrken i dødløft.
+
+Isolation supersæt
+Isolation supersæt består af to isolationsøvelser.
+
+Formålet er at udtrætte en muskelgruppe fuldstændigt.
+
+Eksempel: Reverse overhead sideløft efterfulgt af upright row. Eller biceps curl med vægtstang efterfulgt af hammer curl med håndvægte. Eller stående lægpres efterfulgt af siddende lægpres.
+
+Exhaustion supersæt
+Exhaustion supersæt er supersæt med bevidst udtrætning (exhaustion).
+
+Pre-exhaustion
+Metoden Pre-exhaustion er en klassiker almindelig i bodybuilding.
+
+Man udtrætter en muskelgruppe ved først at lave en isolationsøvelse, dernæst en multi-muskel, sammensat (compound) øvelse.
+
+Eksempel: Leg extension efterfulgt af benpres. Eller triceps extension før brystpres i maskine.
+
+Post-exhaustion supersæt
+En anden, mere speciel metode er Post-exhaustion:
+
+This method of supersetting takes pain to a whole new level.
+Bodybuilding.com
+
+Først en multi-muskel, sammensat (compound) øvelse og umiddelbart derefter en isolationsøvelse, som udtrætter den udvalgte del af muskelgruppen helt.
+
+Eksempel: Benpres efterfulgt af leg extension.
+
+På grund af udtrætningen i pre-exhaustion og post-exhaustion:
+
+Vær ekstra forsigtig og vælg let til moderat vægt ved brug af frivægtsøvelser.
+
+Hav pause mellem hvert sæt:
+
+Eksempel:
+
+Sæt nr. 1 øvelse A.
+Sæt nr. 1 øvelse B.
+
+Pause.
+
+Sæt nr. 2 øvelse A.
+Sæt nr. 2 øvelse B.
+
+Pause.
+
+Sæt nr. 3 øvelse A.
+Sæt nr. 3 øvelse B.
+
+Pause.
+
+
+Alternating set (skiftende sæt)
+Skiftende sæt er som supersets, men der er pauser mellem sæt som i almindelig træning.
+
+Eksempel:
+
+Sæt nr. 1 øvelse A.
+
+Pause.
+
+Sæt nr. 1 øvelse B.
+
+Pause.
+
+Sæt nr. 2 øvelse A.
+
+Pause.
+
+Sæt nr. 2 øvelse B.
+
+Pause.
+
+Sæt nr. 3 øvelse A.
+
+Pause.
+
+Sæt nr. 3 øvelse B.
+
+Pause.
+
+Pausevarighed typisk 2-3 minutter – i supersæt evt. 60-90 sekunder.
+
+Som i supersæt blander man øvelser, men har pauser, så man bruger mere tid:
+Ikke så tidseffektivt som supersæt og ikke så høj “tæthed” i træningspas.
+Tæthed, density; hvor meget arbejde man udfører per tidsenhed.
+
+</div>
