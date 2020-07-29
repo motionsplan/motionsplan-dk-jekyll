@@ -1,23 +1,37 @@
 ---
-title: "Energisystemer 101 - aerob og anaerobt arbejde"
+title: "Energisystemer 101: Aerob og anaerob træning og arbejde"
 permalink: /energisystemer/
-excerpt: "Hvordan ser kroppens energisystemer ud - noget om aerob og anaerob energisystem."
 language: da
 header:
   overlay_image: https://s3-ap-southeast-2.amazonaws.com/ad-aspi/2019-09/4.jpg?rcQ9OQeAebglw4Sy7y3RhJVMINnhBUo0
   teaser: https://s3-ap-southeast-2.amazonaws.com/ad-aspi/2019-09/4.jpg?rcQ9OQeAebglw4Sy7y3RhJVMINnhBUo0
+  caption: "Energisystemer 101: Aerob og anaerob træning og arbejde"
 category:
   - Træning
   - Kondition
 tags:
   - energisystemer
-last_modified_at: 2019-03-06T23:14:14Z
+  - anaerob
+  - aerob
+last_modified_at: 2020-03-06T23:14:14Z
 toc: true
 ---
 
-*[AT]: Anaerobic Threshold
+Man hører ofte om det aerobe og det anaerobe energisystem. Jeg har siddet og researchet lidt på, forskellene, og hvordan man træner de to energissystemer?
+
+Lad os med det samme kigge på, hvad aerob og anaerob betyder?
+
+Aerob energisystem
+: **Aerob**. Aerob betyder "med ilt". Når kroppen arbejder aerobt, så omsætter den kulhydrat og fedt i en forbrænding, hvor der er ilt til stede. Når man henviser til **aerob** i træningsmæssig sammenhæng, så snakker man typisk om de træningsformer, der normalt kategoriseres som konditionstræning.
+
+Anaerob energisystem
+: **Anaerob**. Anaerob er de processer, der foregår uden ilt. Musklerne har altid ATP til rådighed som kan spaltes uden ilt og bruges til meget kortvarigt arbejde. Ved lidt længerevarende hårdt arbejde spaltes kulhydrat uden ilt glukosen omdannes til mælkesyre.
+
+## Energisystemerne skaber energi
 
 Alle cellerne i din krop har brug for energi for at holde dig i live. Kroppen får sin energi gennem energisystemerne. _Conditioning_ handler om at forbedre energiproduktionen og -forbruget.
+
+*[AT]: Anaerobic Threshold
 
 Din krop får sin energi fra en af følgende energisystemer:
 
@@ -34,29 +48,48 @@ Der er tre variabler, der definerer hvilken type miljø, der er i kroppen.
 
 - **Hastigheden af energiproduktionen.** Når der kræves energi hurtigt, så dominerer det anaerobe system.
 - **Varigheden af energiproduktionen.** Når varigheden er lang, så dominerer det aerobe system. 
-- **Ratio mellem arbejde og pause.** Når der arbejdes hårdt med korte pauser, så vil aktiviteten blive domineret af det aerobe system. 
+- **Ratio mellem arbejde og pause.** Når der arbejdes hårdt med korte pauser, så vil aktiviteten blive domineret af det aerobe system.
 
-## To forskellige energisystemer
+{% include figure image_path="/assets/images/blog/anaerob-aerob-energy.jpg" caption="Illustration af det procentvise energibidrag fra nedbrydning af henholdsvis kulhydrat og fedt i forhold til arbejdsintensiteten. Ved lav intensitet, som kan udføres i lang tid, er der en stor fedtnedbrydning. Ved næsten maksimal intensitet, som kan udføres i kort tid, dominerer den anaerobe glykogennedbrydning samt spaltningen af ATP og KrP. Mellem disse intensitetsniveauer dominerer den aerobe glykogennedbrydning. Det skal understreges, at der er tale om en principskitse, idet der kan være forholdsvis store individuelle forskelle bl.a. på grund af træningstilstanden. Desuden vil energibidraget ved en vilkårlig intensitet være afhængig af i hvor lang tid, man arbejder med den givne intensitet." %}
+
+## Anaerobe og aerobe energisystemer
 
 {% include video provider="wistia-net" id="e456dupxrv" %}
 
 De forskellige energisystemer er i stand til at producere ATP i forskellige hastigheder. De to anaerobe systemer (glycolysis and phosphocreatine hydrolysis) bruges mest under aktiviteter af kort varighed og en høj kraftudfoldelse.
 
-Det mere energieffektive aerobe system kan kun producere en lavere kraftudfoldelse, men den kan til gengæld gøre det noget længere.
+Det **mere energieffektive aerobe system** kan kun producere en lavere kraftudfoldelse, men den kan til gengæld gøre det noget længere.
 
 Bidraget fra et aerobe system stiger desto længere aktiviteten tager. Faktisk vil det aerobe system efterhånden være det dominerende system i alle aktiviteter over 50-60 sekunder. Også selvom aktiviteten stadig virker stærk og eksplosivt. Efterhånden vil bevægelserne blive lidt langsommere med hver gentagelse, hvis du fx laver gentagne sprints i en fodboldkamp. Det sker fordi aktiviteten bliver gradvist mere aerob med hver gentagelse.
 
 I all-out, maksimale aktiviteter så begynder det aerobe system at dominere efter omkring 20-30 sekunder.
 
-Men hvor meget betyder det anaerobe system så?
+Men **hvor meget betyder det anaerobe system** så?
 
 Det er forskelligt fra person til person. Forskellen mellem hvad den enkelte kan producere aerobt vs. anaerobt kaldes den _anaerobe power reserve_.
 
+***
+
 Anaerobic power reserve = max speed - max speed produced aerobically
 
-Desto større del af din energi, der kommer fra det aerobe system, desto længere tid vil du kunne holde til aktiviteten. 
+***
 
-## Aerobe system
+Desto større del af din energi, der kommer fra det aerobe system, desto længere tid vil du kunne holde til aktiviteten.
+
+{% include figure image_path="/assets/images/blog/anaerob-aerob-intensitet.jpg" caption="Primære træningsområder inden for aerob og anaerob træning udtrykt i relation til maksimal arbejdsintensitet (100%). De enkelte områder overlapper hinanden, idet der er et vist variationsområde inden for hver kategori. Arbejdsintensiteten svarende til den maksimale iltoptagelse og den maksimale arbejdsintensitet er angivet ved henholdsvis den nederste og øverste stiplede linie. Der er store individuelle forskelle på, hvor meget intensiteten svarende til den maksimale iltoptagelse udgør i forhold til den maksimale intensitet. Her er den sat til 25%, men for nogle udgør den kun 10% og for andre op til 50 60% af den maksimale intensitet." %}
+
+## Aerob og anaerob træning
+
+| Træningsform | Primært træningsområde | % af maksimal intensitet | Arbejdstid | Varighed af pause |
+|-|-|-|-|-|
+| **Anaerob** træning | Hurtighedstræning | 100 | 2-10 sek | 20 sek - 5 min |
+| Anaerob træning | Produktionstræning | 60-100 | 5-40 sek | 2-10 min |
+| Anaerob træning | Tolerancetræning | 30-100 | 5-120 sek | 5 sek - 12 min |
+| **Aerob** træning | Høj-intensitetstræning | 15-40 | 20-120 sek, 2-10 min | 10-60 sek, 1-6 min |
+| Aerob træning | Moderat-intensitetstræning | 5-20 | 5 min eller længere | 1-2 min |
+| Aerob træning | Lav-intensitetstræning | 0-10 | 5 min eller længere | 0-1 min |
+
+## Træning af det aerobe system
 
 {% include video provider="wistia-net" id="we0vqpyxc5" %}
 
@@ -98,9 +131,9 @@ Arbejdet er 8-12 sekunder med 70% af den maksimale intensitet med omkring 60 sek
 
 Målet er at forbedre udholdenheden af _fast twitch_-muskelfibrene. Skal ske med høj modstand, bakke eller vægt. Arbejdsperioden er omkring 5-8 sekunder. Pause indtil hjertet er faldet til omkring 130-160 slag / min. 
 
-{% include video provider="facebook" id="https://www.facebook.com/8weeksout/videos>/10155741321175787" %}
+{% include video provider="facebook" id="https://www.facebook.com/8weeksout/videos/10155741321175787" %}
 
-## Anaerobe system
+## Træning af det anaerobe system
 
 {% include video provider="wistia-net" id="0us0ylzvpp" %}
 
@@ -133,20 +166,20 @@ Der arbejdes 30-40 sekunder med 1-4 minutters pause. Der arbejdes med 2-5 sæt o
 
 {% include video provider="youtube" id="q8zcxiucNkY" %}
 
-## Programlægning
+## Programlægning af aerob og anaerob træning
 
 {% include video provider="wistia-net" id="7urt2wjedc" %}
 
 I træning er det altid godt at sætte en baseline, som du kan sammenligne dit fremskridt med. 
 
-I den aerobe træning kan du sætte din baseline med følgende:
+I den **aerobe træning** kan du sætte din baseline med følgende:
 
 - Måle din hvilepuls
 - Bruge Heart Rate Variability (HRV)
 - Lave fx en 2400 meter eller Coopers 12-minutters test
 - Måle Heart Rate Recovery efter lignende aktiviteter eller pulsen ved en stabil belastning.
 
-En baseline for den anaerobe træning kan være:
+En baseline for den **anaerobe træning** kan være:
 
 - Alactic power 3-6 sec
 - Alactic capacity 6-10 sec
@@ -175,7 +208,7 @@ High-low-princippet betyder, at træningen af energisystemerne enten skal være 
 
 En god baseline at sætte for sin træning kunne være at finde ud af, hvor meget kraft man kan lave både aerobt og anaerobt og derved få en forståelse for sin _anaerobe power reserve_.
 
-{% include video provider="facebook" id="https://www.facebook.com>/8weeksout>/videos>/10155997740030787" %}
+{% include video provider="facebook" id="https://www.facebook.com/8weeksout/videos/10155997740030787" %}
 
 Aerobic Power
 : Den aerobe power er den maksimale kraft, der kan produceres med aerob energiomsætning - altså med til tilgængelig. Normalt vil man måle denne som kraften eller hastigheden ved VO<sub>2</sub>max, men den vil også korrelere med laktattærsklen (AT). Dette er en måling af kraft man kan opretholde i en længere periode, og den er også væsentlig i gentagne aktiviteter af kortere varighed.
@@ -202,7 +235,6 @@ Anaerobic Power Reserve
 - [The Truth About Energy Systems - Day 4](https://www.8weeksout.com/truth-about-energy-systems-day-4/)
 - [The Truth About Energy Systems - Day 5](https://www.8weeksout.com/truth-about-energy-systems-day-5/)
 - [The Anaerobic Power Reserve](https://www.8weeksout.com/2013/03/15/anaerobic-power-reserve/)
-
-Weyand, P. G., Lin, J. E., & Bundle, M. W. (2006). Sprint performance-duration relationships are set by the fractional duration of external force application. American journal of physiology. Regulatory, integrative and comparative physiology, 290(3), R758–65. doi:10.1152/ajpregu.00562.2005
-
-Mendez-Villanueva, A., Hamer, P., & Bishop, D. (2008). Fatigue in repeated-sprint exercise is related to muscle power factors and reduced neuromuscular activity. European journal of applied physiology, 103(4), 411–9. doi:10.1007/s00421-008-0723-9
+- Weyand, P. G., Lin, J. E., & Bundle, M. W. (2006). Sprint performance-duration relationships are set by the fractional duration of external force application. American journal of physiology. Regulatory, integrative and comparative physiology, 290(3), R758–65. doi:10.1152/ajpregu.00562.2005
+- Mendez-Villanueva, A., Hamer, P., & Bishop, D. (2008). Fatigue in repeated-sprint exercise is related to muscle power factors and reduced neuromuscular activity. European journal of applied physiology, 103(4), 411–9. doi:10.1007/s00421-008-0723-9
+- [DIF: Anaerob Præstationsevne](https://www.dif.dk/-/media/difdk/foreningsliv/udgivelser/pdf/anaerobprstationsevnetoleranceproduktionoghurtighedstrning.pdf)
