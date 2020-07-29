@@ -17,7 +17,7 @@ last_modified_at: 2020-03-06T23:14:14Z
 toc: true
 ---
 
-Man hører ofte om det aerobe og det anaerobe energisystem. Jeg har siddet og researchet lidt på, forskellene, og hvordan man træner de to energissystemer?
+Man hører ofte om træning af det aerobe og det anaerobe energisystem. Jeg har siddet og researchet lidt på forskellene, og hvordan man træner de to energissystemer?
 
 Lad os med det samme kigge på, hvad aerob og anaerob betyder?
 
