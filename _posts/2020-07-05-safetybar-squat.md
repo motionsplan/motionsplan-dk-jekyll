@@ -1,5 +1,5 @@
 ---
-title: "Safety Bar Squats: Hvilken safety bar kan anbefales?"
+title: "Safety Bar Squat: Hvilken safety squat bar kan anbefales?"
 permalink: /safety-bar-squats/
 language: da
 header:
@@ -26,17 +26,17 @@ gallery:
     title: "Håndtag til at lave armbøjninger, armstrækninger og pushups"
 ---
 
-Jeg er blevet interesseret i safety bar squats, fordi har lidt vrøvl med skulderen. Mange mener at alle træningscentre bør have en god safety bar, men hvad en god bar, og hvilke fordele har en safety bar?
+Jeg er blevet interesseret i safety bar squats, fordi har lidt vrøvl med skulderen. Mange mener at alle træningscentre bør have en god safety bar, men hvad en god bar, og hvilke fordele har en safety squat bar?
 
-Men hvad er en safety bar?
+Hvad er en safety bar, og hvad bruges den til?
 
-**En safety bar er en vægtstang med polstring på nakken, håndtag man kan holde i, og så er der forskydning i den yderste del af stangen, hvor vægtskiverne sættes på.**
+**En safety squat bar er en vægtstang med polstring på nakken, håndtag man kan holde i, og så er der forskydning i den yderste del af stangen, hvor vægtskiverne sættes på.**
 
-Polstringen gør, at stangen ligger højere på nakken end en almindelig squat stang, og vinklingen mellem håndtaget og skiverne gør, at tyngdepunktet flyttes længere frem end almindelige _back squats_.
+Polstringen på en safety bar gør, at stangen ligger højere på nakken end en almindelig squat stang, og vinklingen mellem håndtaget og skiverne gør, at tyngdepunktet flyttes længere frem end almindelige _back squats_.
 
 Typisk vil du derfor med en safety bar squatte lidt mere oprejst lidt ligesom du gør i en _front squat_.
 
-Chris Duffin fra Kabuki Strength [siger](https://www.spreaker.com/user/anders_nedergaard/236-chris-duffin_1), at en safety bar gør det meget lettere for folk, der har problemer med at komme dybt ned i en almindelig _back squat_ har færre problemer med at få rigeligt med dybde på en safety bar squat med en god teknik.
+Chris Duffin fra Kabuki Strength [siger](https://www.spreaker.com/user/anders_nedergaard/236-chris-duffin_1), at en safety squat bar gør det meget lettere for folk, der har problemer med at komme dybt ned i en almindelig _back squat_ har færre problemer med at få rigeligt med dybde på en safety bar squat med en god teknik.
 
 Når du laver front squat vil du efterhånden blive trukket lidt fremefter, særligt hvis du bliver træt i det øverste af ryggen og får problemer med at holde albuerne oppe.
 
@@ -75,7 +75,7 @@ Du kan også bruge safety baren til andre øvelser.
 - **Good mornings**. Stangens tyngdepunkt kommer tættere ind på kroppen end med en almindelige squat stang. 
 - **Etbensarbejde**. Safety baren er også anvendlig til lunges, split squats og stepups, fordi den har en god balance på skuldrene. Hvis du har brug for assistance, så kan du altså hjælpe dig selv undervejs ved at gribe fat i racket, når du laver etbensarbejde.
 
-## Videnskabelig sammenligning med safety squats og alm. squats
+## Videnskabelig sammenligning med safety bar squats og alm. squats
 
 Der er ikke mange studier med safety bar squats, men der har været et par enkelt de seneste år.
 
