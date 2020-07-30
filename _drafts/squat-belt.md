@@ -36,7 +36,9 @@ Vægtløftning - https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&b
 
 Neopren - https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/harbringer-neopren-baelte-herre-medium/
 
-
+Unless it doesn’t make sense for them. Siewe et alfound that the use of weight belts_increased_the injury rate of the lumbar spine in powerlifters.19_Ruh roh!_
+Se Vær god ved din ryg.
+***
 
 Der findes mange forskellige typer af træningsbælter til styrketræning afhængigt af hvad formålet med bæltet er. Altså om du primært skal bruge det til styrkeløft (squat, bænkpres og dødløft), vægtløftning (træk og stød), genoptræning eller bodybuilding. De mest gængse typer af bælter er:
 
