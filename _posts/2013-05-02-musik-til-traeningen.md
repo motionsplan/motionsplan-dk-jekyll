@@ -247,3 +247,90 @@ Jeg laver så mit træningsprogram her på motionsplan, hvor jeg let kan skrive 
 - Kreutzer, Jeffrey S., John DeLuca, og Bruce Caplan, red. 2011. _Encyclopedia of Clinical Neuropsychology_. New York: Springer-Verlag. [https://www.springer.com/gp/book/9780387799476](https://www.springer.com/gp/book/9780387799476).
 - Lee, Sam, og Derek S. Kimmerly. 2016. “Influence of Music on Maximal Self-Paced Running Performance and Passive Post-Exercise Recovery Rate”. _The Journal of Sports Medicine and Physical Fitness_ 56 (1–2): 39–48.
 - Pearce, Kathy A. 2016. “Effects of Different Types of Music on Physical Strength”: _Perceptual and Motor Skills_, oktober. [https://doi.org/10.2466/pms.1981.53.2.351](https://doi.org/10.2466/pms.1981.53.2.351).
+
+
+
+
+# Træningsmusik ekspertguide: Musik til motivation og præstation
+
+Af Marina Aagaard, MFT
+
+Uanset om man løber, cykler, spinner eller dyrker fitness har man en fornemmelse af, at musik til træningen virker motiverende og får en til at holde ud i længere tid, når træningen bliver hård.
+
+At musik påvirker træningen, er ikke indbildning; et engelsk forskerhold har gennem en årrække undersøgt træning til musik og konkluderer, at træningsmusik har en række positive effekter, når den er rigtigt valgt.
+
+“Brugen af musik ses at give præstationsfremmende resultater i træning
+samtidig med at det giver mentale (positive følelser) og
+psykofysiske (lavere grad af følt anstrengelse) fordele”.
+Karageorghis et al., 2012
+
+
+BASES om træningsmusik
+Guide til musik, der inspirerer til at træne hårdere eller længere
+(CI Karageorghis, PC Terry, AM Lane, DT. Bishop, D Priest, 2014).
+
+Musik bør være:
+
+nogenlunde kendt af lytteren og afspejle personlige [musik] præferencer.
+…
+funktionel i forhold til aktiviteten, dvs. tempo skal svare til bevægelser.
+…
+valgt med omtanke for den ønskede effekt, fx høj, hurtig, rytmisk musik
+med fremhævet bas for at øge spændingsniveau (arousal).
+…
+valgt for dens motiverende kvaliteter via en objektiv vurdering
+(fx Brunel Music Rating Inventory-2; Karageorghis et al., 2006).
+…
+karakteriseret af fremtrædende rytmiske kvaliteter og percussion (slagtøj)
+i tillæg til melodiske og harmoniske strukturer til repetetivt aerobt og anaerobt arbejde, melodien er den højest lydende del eller ‘lyd’ i musikken, mens harmoni refererer til lyden af flere toner på samme tid, hvilket giver musikken dens følelsesmæssige ‘farve’, fx glad eller trist.
+…
+passende til bevægelser; musiktempo skal passe til bevægelsestempo ved brug af
+synkron musik [hurtig til hurtige aktiviteter, langsom til langsom aktivitet].
+…
+omkring 125-140 bpm, taktslag per minut, ved brug af asynkron musik,
+[musik som er lidt i baggrunden; man følger ikke rytmen] for de fleste raske trænede, der dyrker repetetiv, aerob aktivitet (langsommere musik passer bedre til opvarmning og nedvarmning).
+…
+med tekster, som understøtter bevægelse, fx “run to the beat”, eller alment
+motiverende udsagn, fx “the only way is up”.
+…
+med fornuftig brug; skal bruges på måder, hvorved sikkerheden ikke tilsidesættes, fx bør trænende ikke bruge musik under løb og cykling nær trafik.
+…
+[Musik bør heller ikke bruges, når man skal a) koncentrere sig fuldt ud om en motorisk krævende opgave, fx et power clean, b) være opmærksom, lytte til kroppen, under høj-intensiv træning, c) forberede sig til langdistance løb, hvor musik ikke er tilladt; dvs. det vil sandsynligvis være hensigtsmæssigt at skifte mellem brug af musik og ingen musik.
+…
+Samtidig bør overdrevent høj musik i kombination med høj-intensiv træning undgås pga. den potentielle risiko for skader på det indre øre. Forskning viser at selv moderat-intensiv aktivitet ledsaget af meget høj musik (> 100 dB lydtryk niveau) kan give høretab (Music in the exercise domain: a review and synthesis (part II)].…
+Baggrund for anbefalinger
+Ifølge Costas I. Karageorghis og hans kollegaer fra især Brunel Universitetet i England vælges musik ofte intuitivt i stedet for systematisk og de har derfor studeret, hvordan man bevidst kan vælge musik, der vil forbedre præstationsevnen.
+
+Det kan ske ved, at musikken enten mindsker følelsen af, hvor hård træningen er, eller direkte øger arbejdskapaciteten.
+
+Øget træningsvedholdenhed; langtidseffekten af musikbrug er ikke undersøgt tilbundsgående, men menes at omfatte øget træningsvedholdenhed (Annesi, 2001).
+…
+Virker terapeutisk; undersøgelser har påvist nytten af musik i medicinsk sammenhæng og rehabilitering, træning for syge (fx fysioterapi, slagtilfælde, kronisk smerte og hjertetilfælde), som har særlig brug for opmuntring, forbedring af humør (affekter), distraktion og stimulering (Karageorghis et al., 2008).
+…
+Fire faktorer fremmer motivation (Terry, Karageorghis, 2006).
+Tempo, rytme
+Melodi, harmonier
+Kulturel gennemslagskraft (popularitet)
+Personlige associationer ifm. musikken
+…
+Personlighed og køn kan spille rolle ift. præference og respons (Crust, Clough, 2006, Karageorghis et al., 2010). Mænd udtrykker generelt en større præference for bas frekvenser end kvinder (McDown et al., 1997) og ekstroverte regerer mere positivt på livlig musik end introverte (Crust, Clough, 2006, m.fl.).
+…
+Kontekst, lytte-situationen, er en nøglefaktor for effekten af musik, hvor trænende har forudbestemte forventninger til typen af musik, der skal spilles i særlige situationer, fx up-beat motiverende musik i træningssale.
+…
+Musik før træning kan virke som stimulans; musik før træning og sport er kun undersøgt af få, men har vist sig at være et effektivt stimulerende middel, som kan øge spændingsniveau og forbedre mental tilstand (Terry, Karageorghis, 2011).
+…
+Forholdet mellem puls og foretrukket musiktempo er ikke lineært. Over et bredt spekter af træningsintensitet, fra 40-90 % af maksimal pulsreserve, faldt det foretrukne musiktempo i et smalt område på 125-140 bpm (taktslag per minut).
+Dette er p.t. ikke undersøgt for ældre trænende, som har lavere maksimalpuls.
+…
+Asynkron baggrundsmusik kan forbedre præstationen. Brug af asynkron musik, fx baggrundsmusik, hvortil bevægelser ikke er bevidst synkroniseret, sørger for distraktion, fremmer positive følelser og forbedrer præstationen, især ved lav-til-moderat træningsintensitet.
+Selvom den slags musik typisk bruges til motivation, kan det fungere som middel til at fremme neuromuskulær effektivitet i langvarige repetitive aktiviteter, såsom langdistanceløb (Copeland, Franks, 1991).
+…
+Synkron musik giver præstationsfremmende og mentale fordele i repetitive udholdenhedsaktiviteter [fx løb og cykling]. Motiverende synkron musik, musik og bevægelser følges ad, øgede tid til udmattelse ved gang på løbebånd med 15 %.
+Andre forsøg antyder at musik kan forbedre bevægelsesrytmen, hvilket resulterer i øget effektivitet, hvilket forbindes med lavere relativt iltoptag (Bacon, Myers, Karageorghis; Terry et al., 2012).
+…
+Musik kan mindske følelsen af anstrengelse og træthed. Musiklytning kan være en effektiv dissociationsstrategi [fjerne sig mentalt], der mindsker følelsen af anstrengelse og træthed med op til 12 % (Bharani, Sahu, Mathew, 2004; Nethery, 2002). Den distraherende effekt svækkes dog ved højere træningsintensiteter (> 70 % VO2max).
+…
+Velvalgt musik ser ud til at fremme positive følelser selv ved meget høj træningsintensitet ifølge nyere forskning (Hutchinson et al., 2011; Karageorghis et al. 2009; Terry et al., 2012).
+…
+Musik efter træning kan muligvis forbedre restitutionen.
+Post-træning musik, fx ifm. restitution efter træning, konkurrence eller skade vises efterhånden opmærksomhed (Jing, Xudong, 2008; Savitha, Mallikarjuna, Chythra, 2010). Selvom de indledende fund virker lovende, kræves der yderligere forskning, før man har en fornuftig baggrund for anbefalinger.
