@@ -1,5 +1,5 @@
 ---
-title: "Knæbøj"
+title: "Leg curl: Knæbøj"
 excerpt: "Indstil maskinen. Start med strakte ben (den at overstrække) og bøj benene så langt du kan. Hold igen, når du går tilbage til udgangspunktet."
 instructions: "Indstil maskinen. Start med strakte ben (den at overstrække) og bøj benene så langt du kan. Hold igen, når du går tilbage til udgangspunktet."
 permalink: /oevelse/knae-fleksion/
