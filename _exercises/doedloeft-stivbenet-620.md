@@ -51,4 +51,4 @@ gallery:
 last_modified_at: 2015-03-04T20:03:23Z
 ---
 
-Denne øvelse kræver meget smidighed og vi vil i de fleste tilfælde anbefale at køre [Romanian Deadlift](/node/43) i stedet.
+Denne øvelse kræver meget smidighed. Hvis du har svært ved at lave den, så kan ud starte med [Romanian Deadlift](/node/43), hvor du langsomt forbedrer din smidighed.
