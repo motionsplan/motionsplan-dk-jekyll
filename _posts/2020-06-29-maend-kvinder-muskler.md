@@ -5,7 +5,7 @@ language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1434682881908-b43d0467b798?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2106&q=80
   teaser: https://images.unsplash.com/photo-1434682881908-b43d0467b798?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
-  caption: Photo by Steven Lelham on Unsplash
+  caption: Mænd og kvinders muskler. Photo by Steven Lelham on Unsplash
 category:
   - Viden om
 tags:
@@ -17,8 +17,8 @@ toc: true
 gallery:
   - image_path: /assets/images/blog/male_mri.gif
     url: /assets/images/blog/male_mri.gif
-    title: "Kvindelig muskel MRI"
-    alt: "Kvindelig muskel MRI"
+    title: "Mandelig muskel MRI"
+    alt: "Mandelig muskel MRI"
   - image_path: /assets/images/blog/female_mri.gif
     url: /assets/images/blog/female_mri.gif
     title: "Kvindelig muskel MRI"
@@ -73,7 +73,7 @@ Typisk har kvinder imidlertid mere fedt i kroppen, så selvom låret fx er samme
 
 Fx kan du i følgende se tværsnittet af låret på en veltrænet ung kvinde og ung mand, hvor det er tydeligt at fedtet fylder mere for kvinderne end for mænd.
 
-{% include gallery caption="Tværsnit af låret på en veltrænet ung kvinde vs. tværsnittet af låret på en veltrænet ung mand" %}
+{% include gallery caption="Tværsnit af låret på en veltrænet ung mand vs. tværsnittet af låret på en veltrænet ung kvinde" alt="Forskellen på mænds og kvinders muskler" %}
 
 Hvis man skal sammenligne mænd og kvinder, så giver det naturligvis mest mening at beskæftige sig med den relative styrkefremgang i forhold til fedtfrie masse, da der er store genetiske og hormonelle forskelle.
 
@@ -89,7 +89,7 @@ Gentil et al (2016) have unge begyndere til at styrketræne i 10 uger. Efter de 
 
 I starten af et træningsprogram hos utrænede kan musklerne måske respondere på samme måde både for mænd og kvinder.
 
-Kvinder har ikke de samme hormonelle betingelser for muskelvækst som mænd, hvorved den absolutte muskelvækst vil være noget mindre både på kort og på lang sigt (se bl.a. Haizlip et al 2015).
+Kvinder har ikke de samme hormonelle betingelser for muskelvækst som mænd. Testosteron bliver ofte forklaringen på, hvorfor mænd får større muskler. Men det er faktisk ikke korrekt!
 
 Mænd har til at starte med mere muskelmasse, men hvis vi kigger på den relative vækst i muskelmasse og tværsnitsareal, så tyder det på, at kvinders muskler har de samme vækstpotentiale som mænd - særligt i begyndelsen af træningen (Roth et al 2001; Walts et al 2008; O’Hagan et al 1995). 
 
