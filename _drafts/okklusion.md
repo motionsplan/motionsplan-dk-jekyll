@@ -1,6 +1,6 @@
 ---
-title: "Bælte i styrketræning - har du brug for et træningsbælte?"
-permalink: /baelte-styrketraening/
+title: "Okklusion"
+permalink: /okklusion/
 excerpt: "Et godt bælte kan gøre dine løft mere stabile og samtidig give dig mere vægt på stangen i især squat og dødløft. I denne artikel vil jeg fortælle dig om de forskellige typer af bælter, hvordan bæltet virker og hvornår du skal bruge det."
 language: da
 header:
