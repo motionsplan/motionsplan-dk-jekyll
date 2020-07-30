@@ -1,6 +1,5 @@
 ---
 title: "Rackpull"
-excerpt: "I rackpull starter stangen ved knæene og du bøjer dig forover uden at bøje alt for meget i knæene. Hold ved stangen i skulderbredde og med modsatrettede hænder. Rejs dig ved at strække i hoften. Træner øverste del af dødløftet."
 instructions: "Start med stangen ved knæene og bøj dig forover uden at bøje alt for meget i knæene. Hold ved stangen i skulderbredde og med modsatrettede hænder. Rejs dig ved at strække i hoften. Træner øverste del af dødløftet."
 permalink: /oevelse/rackpull-0/
 redirect_from: /node/268
@@ -46,6 +45,8 @@ video:
   provider: youtube
   id: 7Lts_ikaLNI
 ---
+
+I rackpull starter stangen ved knæene og du bøjer dig forover uden at bøje alt for meget i knæene. Hold ved stangen i skulderbredde og med modsatrettede hænder. Rejs dig ved at strække i hoften. Træner øverste del af dødløftet.
 
 Rack pull træner den øverste fase af dødløft. Stangen starter ved knæene i stedet for på gulvet.
 
