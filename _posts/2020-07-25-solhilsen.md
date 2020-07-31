@@ -70,11 +70,9 @@ Jeg kan godt lide at lave solhilsen langsomt, så jeg rigtigt kan mærke de fors
 
 {% include feature_row type="left" id="wallsticker" %}
 
-Solhilsen
+> The sun is a daily reminder that we too can rise again from the darkness. That we too can shine our own light.
 
-> “giver os god lykke til kun, at have gode tanker, at høre og tale kun gode ord og at opnå en sund og stærk krop, så vi kan have et langt liv og en dag opnå enhed med Gud.”
-
-— <cite>- Sri K. Pattabhi Jois</cite>
+--- <cite>S. Ajna</cite>
 
 Du vil opleve at solhilsen både styrker og strækker musklerne samtidig med at den sætter gang i vejrtrækningen og blodcirkulationen. 
 
