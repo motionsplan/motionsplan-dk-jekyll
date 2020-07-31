@@ -84,7 +84,7 @@ Det findes flere forskellige måder at køre superset i din træning på. Her er
 
 Hvis du skal i gang med supersæts, så er **push-pull supersæt** et godt sted at starte, men prøv at eksperimentere lidt med det.
 
-En anden mulighed er at bruge [coretræning]({% link _post/2020-07-16-coretraening.md %}) i et supersæt, som det foreslås i denne video:
+En anden mulighed er at bruge [coretræning]({% link _posts/2020-07-16-coretraening.md %}) i et supersæt, som det foreslås i denne video:
 
 {% include video provider="youtube" id="axgv7H_VQOo" %}
 
