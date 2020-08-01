@@ -1,31 +1,33 @@
 ---
-title: "Opvarmning til styrketræning"
+title: "Opvarmning til styrketræning: Øvelser du kan bruge i dag!"
 permalink: /opvarmning/
 excerpt: "Opvarmning til styrketræning kan kan struktureres gennem en række faser, fx generel, dynamisk, specifik og en forberedelse af nervesystemet."
 language: da
 header:
   overlay_image: https://www.rdellatraining.com/wp-content/uploads/2017/02/Warm-up-1.jpg
   teaser: https://www.rdellatraining.com/wp-content/uploads/2017/02/Warm-up-1.jpg
+  caption: "Opvarmning til styrketræning: Øvelser du kan bruge i dag!"
 category:
   - Styrketræning
 tags:
-  - program
-  - let øvet
-last_modified_at: 2019-03-06T23:14:14Z
+  - opvarmning
+last_modified_at: 2020-03-06T23:14:14Z
 toc: true
 feature_row:
   - image_path: https://imgcdn.saxo.com/_9788771801835/0x500
-    alt: "Stærk"
+    alt: "Stærk af Jacob Beermann indeholder også opvarmning"
     title: "Stærk - Jacob Beermann"
-    excerpt: "Kunne du godt tænke dig at blive rigtigt stærk? Det kræver den rette hjælp, og den kan du heldigvis få af Jacob Beermann med bogen Stærk. Her får du en god og grundig introduktion til hvordan man styrketræner bedst."
+    excerpt: "Kunne du godt tænke dig at blive rigtigt stærk? Jacob Beermann har med bogen Stærk skrevet en god og grundig introduktion til hvordan man styrketræner bedst, og hvordan man laver opvarmning til styrketræning."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835"
     btn_label: "Tjek prisen hos Saxo*"
     btn_class: "btn--success"
 ---
 
-Opvarmning er vigtigt, og du kan bruge den fornuftigt. Formålet med opvarmning er at øge kropstemperaturen, smøre leddene, øge mobiliteten, gøre nervesystemet klar og forbedre ens evne til at bevæge sig.
+Opvarmning er vigtigt, og du kan bruge den fornuftigt. Det gælder også opvarmning til styrketræning. Formålet med opvarmning er at øge kropstemperaturen, smøre leddene, øge mobiliteten, gøre nervesystemet klar og forbedre ens evne til at bevæge sig.
 
 Opvarmning skal tage højde for den efterfølgende aktivitet, og sådan er det også i styrketræning. For at tage opvarmningen seriøst nok, så er det en god ide at have nogle faser, som du sætter dig for at skulle igennem i din opvarmning.
+
+## Opvarmning til styrketræning
 
 Opvarmning går typisk gennem tre faser:
 
@@ -38,9 +40,9 @@ Specifik opvarmning
 CNS-priming
 : Her skal du gøre nervesystemet helt klar til den efterfølgende træning. Det gør du med nogle eksplosive og plyometriske øvelser. Typisk laver man sæt af 3-5 reps med 60-90 sekunders pause imellem, fx i en cirkel.
 
-## Strukturen fra Bulletproof Athlete
+## Forslag til struktur for opvarmningen
 
-Jeg er ret inspireret af Mike Robertsons træningstilgang og [struktur i hans Bulletproof Athlete-program](/artikel/bulletproof-athlete). I forhold til opvarmning, så bringer han os igennem disse faser.
+Jeg er ret inspireret af Mike Robertsons træningstilgang og [struktur i hans Bulletproof Athlete-program](/artikel/bulletproof-athlete). I forhold til opvarmning til styrketræning, så bringer han os igennem disse faser.
 
 R1 --- Release
 : Arbejde med det bløde muskelvæv med foamrollere og lacrosse bolde. Vi arbejder med vævet for at løsne spændinger.
@@ -54,7 +56,9 @@ R3 --- Readiness
 R4 --- Reactive
 : Vi arbejder med ekplosivitet og fyrer for alvor op for nervesystemet.
 
-Jeg synes det er nogle gode faser at komme igennem, og i de enkelte faser kan du så tænke både generelle elementer og specifikke elementer ind. Ved at have en struktur på opvarmningen, er der større sandsynlighed for, at man rent laver det hele. Personligt er der stor forskel på, hvor dygtig jeg er til at varme op, hvis jeg har skrevet programmet ned på forhånd, eller hvis jeg bare finder på undervejs.
+Jeg synes det er nogle gode faser at komme igennem, og i de enkelte faser kan du så tænke både generelle elementer og specifikke elementer ind.
+
+Ved at have en struktur på opvarmningen, er der større sandsynlighed for, at man rent laver det hele. Personligt er der stor forskel på, hvor dygtig jeg er til at varme op, hvis jeg har skrevet programmet ned på forhånd, eller hvis jeg bare finder på undervejs.
 
 ## Eksempler på opvarmningsøvelser
 
@@ -88,7 +92,7 @@ Jeg synes det er nogle gode faser at komme igennem, og i de enkelte faser kan du
 
 Der er mange forskellige øvelser, du kan lave for at aktivere nerveystemet. I [Neural Charge Training](https://www.t-nation.com/workouts/neural-charge-training) kan du finde en masse eksempler på øvelser.
 
-## Specifik øvelsesopvarmning
+## Specifik opvarmning i styrketræning
 
 Når du så skal i gang med at løfte vægte, så er det en god ide at lave opvarmningssæt i øvelsen. Dels får du gentaget og gjort bevægelsesmønsteret klart. Dels vænner du dig gradvist til vægten på skuldrene.
 
@@ -109,11 +113,13 @@ Du laver altså en ramp up til en vægt, der er tungere end dit arbejdssæt, men
 
 5x5 @ RPE 8
 
-## Afslutning
+## Afslutning på opvarmning til styrketræning
 
-Det allervigtigste med opvarmning er, at du laver en opvarmning, du rent faktisk får lavet. Hvordan varmer du op til styrketræning?
+Det allervigtigste med opvarmning er, at du laver en opvarmning, du rent faktisk får lavet.
 
-## Referencer
+Hvordan varmer du op til styrketræning?
+
+## Referencer til opvarmning
 
 - [Most intelligent way to warm up](https://www.t-nation.com/training/most-intelligent-way-to-warm-up)
 - [The simple 7 warmup](https://www.t-nation.com/training/the-simple-7-warm-up)

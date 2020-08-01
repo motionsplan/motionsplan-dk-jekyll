@@ -83,7 +83,7 @@ De fem tibetanere er en sammensætning af 5 forholdsvist simle yogaøvelser. Øv
 
 Man siger, at de fem tibetanere er hemmeligheden bag ungdommens kilde. Jeg har ikke kunnet finde noget forskning direkte lavet på de fem tibetanere, så du må selv afgøre om øvelserne giver dig øget styrke og energi i hverdagen at udføre tibetanerne.
 
-{% include feature_row type="left" id="wallsticker" %}
+{% include gallery id="wallsticker" caption="Wallsticker med De fem tibetanere" %}
 
 Måske er du klar til selv at kaste dig ud i øvelserne. De fem øvelser kan udføres hvor som helst, og tager ikke mere end 20 minutter.
 
@@ -363,7 +363,7 @@ Vi har et andet indlæg her på sitet, der handler om [Mindfulness meditation]({
 
 ## Referencer til de fem tibetanere
 
-{% include feature_row type="left" %}
+{% include gallery caption="Peter Kelder har skrevet to bøger om de 5 tibetanere" %}
 
 <a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=37797" target="_blank" rel="nofollow noopener"><img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=37797" border="0" alt=""></a>
 
