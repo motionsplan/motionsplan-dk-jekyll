@@ -15,11 +15,11 @@ last_modified_at: 2013-02-12T19:47:02Z
 
 Det er en god ide, at have øvelser i træningen, som belaster den ene side af kroppen på skift. Med andre ord så skal du lave øvelser, hvor højre side af kroppen bliver ekstra hårdt belastet. I samme træning skal venstre side af kroppen naturligvis belastes lige så hårdt. Du skal gøre det fordi det er en rigtig god træning for stabiliseringsmusklerne og det er rigtig funktionelt.
 
-### Tosidige øvelser er en god basis
+## Tosidige øvelser er en god basis
 
 Vi er fortalere for at træne øvelser, som aktiverer mange muskler på en gang. Vi elsker squat, dødløft og pullups, som virkelig giver et godt udbytte i forhold til den tidsmæssige indsats. I disse øvelser arbejder man samtidig i begge sider af kroppen, og mange muskler aktiveres på samme tid.
 
-### Ensidige øvelser løfter niveauet
+## Ensidige øvelser løfter niveauet
 
 Træningen bør suppleres med øvelser, hvor den ene side af kroppen trænes ad gangen i en øvelse. Du bør med et fint ord også træne unilateral træning. Fx kan du lave bænkpres med en håndvægt i den ene hånd, lunges, bulgarian squat eller andre lignende øvelser.
 
@@ -31,8 +31,7 @@ Der er flere **fordele** ved at træne unilateralt:
 - Fordi du hele tiden udfordrer dit tyngdepunkt, forbedrer det også din evne til at holde balancen og genvinde den igen.
 - **Vedligeholdelse af kroppens styrke under skader.** Vi har hørt om studier, der har vist, at træner man den ene side, så påvirker det også den anden side. Det betyder, at hvis man har brækket et ben, så vil det mindske faldet i styrke i det skadede ben, hvis man træner det raske ben. Vi kan dog ikke lige finde studiet i øjeblikket, og det vil vi gerne have hjælp til.
 
-Hvordan implementerer jeg det så i min træning?
------------------------------------------------
+## Hvordan implementerer jeg det så i min træning?
 
 - Kabeltræk og håndvægte er ideelle til unilaterale øvelser. Der er masser af eksempler her på sitet, men se også på [Lances blog](http://lancebreger.blogspot.com/2009/10/unilateral-training-part-3.html).
 - Vælg en unilateral øvelse hver gang du træner.
@@ -40,11 +39,10 @@ Hvordan implementerer jeg det så i min træning?
 - Brug en lavere vægt.
 - Hold øje med din teknik. Det stiller store krav til balancen og stabiliteten i kroppens kerne.
 
-### Eksempler på unilateral træning
+## Eksempler på unilateral træning
 
-{% include video provider="video" id="Eh60H4J_bqw" %}
+{% include video provider="youtube" id="Eh60H4J_bqw" %}
 
-Hvad gør du selv?
------------------
+## Hvad gør du selv?
 
 Hvilke øvelser bruger du selv i dit eget træningsprogram? Skriv det i kommentarerne.
