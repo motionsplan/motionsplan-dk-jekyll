@@ -1,17 +1,18 @@
 ---
-title: "Løbesiden: Beregn effekten af et vægttab på løbetid"
+title: "Vægttab og løb: Beregn effekten af et vægttab på løbetid"
 permalink: /vaegttab-loebetid/
 last_modified_at: 2020-07-24T09:41:09Z
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1554774853-b3d587d95440?ixlib=rb-1.2.1&auto=format&fit=crop&w=1963&q=80
-  teaser: https://images.unsplash.com/photo-1554774853-b3d587d95440?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
-  caption: "Bedste fitness blogs og træningsblogs"
+  overlay_image: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1960&q=80
+  teaser: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  caption: "Vægttab og løb: Beregn effekten af et vægttab på løbetid"
 category:
   - Løb
 tags:
   - kondition
   - beregner
+  - vægttab
 ---
 
 ## Beregn gevinsten af et vægttab i forhold til din løbetider og find ud af, hvad en slankekur kan betyde for dit løb.
@@ -25,3 +26,6 @@ Indtast din aktuelle vægt, ønskede vægttab, en løbetid (fx din marathon tid)
 Bemærk, at den nye tid automatisk kommer frem, når alle felter er udfyldt.
 
 {% include calculate-weightloss-runningtime.html %}
+
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3934974/

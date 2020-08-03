@@ -1,18 +1,27 @@
 ---
-title: "Løbesiden: Løbeberegner til udregning af træningstempo og konkurrencetider"
+title: "Løbesiden: Løbeberegner til træningstempo og konkurrencetider"
 permalink: /jack-daniels-loebeberegner/
 last_modified_at: 2020-07-24T09:41:09Z
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1554774853-b3d587d95440?ixlib=rb-1.2.1&auto=format&fit=crop&w=1963&q=80
-  teaser: https://images.unsplash.com/photo-1554774853-b3d587d95440?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
-  caption: "Bedste fitness blogs og træningsblogs"
+  overlay_image: https://images.unsplash.com/photo-1529795533870-ea8020391255?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
+  teaser: https://images.unsplash.com/photo-1529795533870-ea8020391255?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  caption: "Løbesiden: Jack Daniels løbeberegner til udregning af træningstempo og konkurrencetider"
 category:
   - Løb
 tags:
   - kondition
   - beregner
 ---
+
+Løbesiden: Løbeberegner til træningstempo og konkurrencetider
+løbesiden
+loebesiden
+løbsberegner
+løbeside
+løbe beregner
+
+Din guide til løbetræning. Find nyttig viden om løb til 5 km, 10 km, halvmarathon og marathon. Vælg et effektivt løbeprogram. Lær om pulstræning, intervaltræning og diskuter i forumet.
 
 ## Avanceret løbetidsberegner baseret på Jack Daniels Running Formular. Beregnning af træningstempo og konkurrencetider.
 

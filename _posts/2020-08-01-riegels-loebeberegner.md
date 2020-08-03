@@ -1,12 +1,12 @@
 ---
-title: "Løbesiden: Riegels formel til beregning af konkurrencetider"
+title: "Riegels formel til beregning af konkurrencetider ved løb"
 permalink: /riegels-loebeberegner/
 last_modified_at: 2020-07-24T09:41:09Z
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1554774853-b3d587d95440?ixlib=rb-1.2.1&auto=format&fit=crop&w=1963&q=80
-  teaser: https://images.unsplash.com/photo-1554774853-b3d587d95440?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
-  caption: "Bedste fitness blogs og træningsblogs"
+  overlay_image: https://images.unsplash.com/photo-1486829060564-50dae90dccd4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1952&q=80
+  teaser: https://images.unsplash.com/photo-1486829060564-50dae90dccd4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  caption: "Riegels formel til beregning af konkurrencetider ved løb"
 category:
   - Løb
 tags:
@@ -23,3 +23,8 @@ Forskeren Pete Riegel har udviklet en formel til dette formål, der går ud på,
 Beregningen giver et godt fingerpeg om, hvad man skal satse på, men der er ingen garanti for resultatet. Der kan være mange faktorer som vejr, terræn, oplagthed og korrekt disponering, der er afgørende for løbetiderne.
 
 {% include calculate-running-riegel.html %}
+
+## Referencer
+
+- Riegel PS. Time predicting Runner’s World Magazine. 1977
+- [Prediction and Quantification of Individual Athletic Performance of Runners](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4919094). Duncan A. J. Blythe og Franz J. Király

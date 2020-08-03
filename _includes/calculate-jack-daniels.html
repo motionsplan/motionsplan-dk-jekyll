@@ -473,12 +473,10 @@
     }
 </script>
 
-<table class="padding3">
-    <tr>
-        <td>
-            <b>Distance</b>
-        </td>
-        <td>
+<form class="calculator">
+    <fieldset>
+        <div class="form-group">
+            <label>Distance</label>
             <select id="racedist">
         <option value="1500m">1500m</option>
         <option value="1mile">1 mile</option>
@@ -496,55 +494,49 @@
         <option value="30km">30km</option>
         <option value="marathon">marathon</option>
       </select>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <b>Tid</b>&nbsp;&nbsp;&nbsp;
-        </td>
-        <td>
-            <input type="text" id='race_h' size="2" style="width: 20px;" onfocus="this.select();">&nbsp;:&nbsp;<input type="text" id='race_m' size="2" style="width: 20px;" onfocus="this.select();">&nbsp;:&nbsp;<input type="text" id='race_s' size="2" style="width: 20px;"
-                onfocus="this.select();">&nbsp;(timer:minutter:sekunder)
-        </td>
-    </tr>
-    <tr>
-        <td></td>
-        <td align="left">
-            <input type="button" class="button" value="Beregn tider" onclick="calculate_vdot()"> <input type="button" class="button" value="Nulstil felter" onclick="top.location='/beregninger/'">
-        </td>
-    </tr>
-</table>
-<hr style="margin-top: 15px; margin-bottom: 15px;" />
-<table class="padding3">
-    <tr>
-        <td><b>VDOT værdi&nbsp;&nbsp;&nbsp;</b>
-            </td>
-            <td valign="top">
-                <input type="text" id="vdot" size="3"> <input type="button" class="button" value=" + " onclick="javascript: addvdot();"> <input type="button" class="button" value=" - " onclick="javascript: subvdot();"> <input type="button" class="button"
-                    value="Opdater" onclick="javascript: updatevdot();"> &nbsp;(Jack Daniels VDOT-værdi beskriver løberens niveau)
-            </td>
-    </tr>
-</table>
-<hr style="margin-top: 15px; margin-bottom: 15px;" />
+        </div>
+        <div class="form-group">
+            <label>Tid</label>
+            <input type="text" id="race_h" size="2" onfocus="this.select();" class="input-mini" placeholder="timer">
+            <input type="text" id="race_m" size="2" onfocus="this.select();" class="input-mini" placeholder="min">
+            <input type="text" id="race_s" size="2" onfocus="this.select();" class="input-mini" placeholder="sek">
+        </div>
+        <input type="button" value="Beregn tider" onclick="calculate_vdot()">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>VDOT værdi</label>
+            <input type="text" id="vdot" size="3">
+        </div>
+        <div class="form-group">
+            <input type="button" class="button" value=" + " onclick="javascript: addvdot();">
+            <input type="button" class="button" value=" - " onclick="javascript: subvdot();">
+            <input type="button" class="button" value="Opdater" onclick="javascript: updatevdot();">
+            <p>(Jack Daniels VDOT-værdi beskriver løberens niveau)</p>
+        </div>
+    </fieldset>
+</form>
+
 <h3>Træningstider</h3>
-Benyt følgende tider under træningen. Er der intervaller, hvor tiderne ikke er angivet, skyldes det, at intervallerne ikke anbefales pågældende niveau.
-<br /><br />
-<table class="box" style="width: 700px;">
-    <tr class="boxheader">
+
+<p>Benyt følgende tider under træningen. Er der intervaller, hvor tiderne ikke er angivet, skyldes det, at intervallerne ikke anbefales pågældende niveau.</p>
+
+<table class="box" style="width: 100%;">
+    <tr>
         <td><b>Træning</b></td>
-        <td style="width: 100px;"><b>Distance/tid</b></td>
+        <td><b>Distance/tid</b></td>
         <td><b>Tempo (min/km)</b></td>
         <td><b>Kategori</b></td>
     </tr>
-    <tr valign="top" class="boxcontent">
-        <td><b>Roligt løb</b>&nbsp;&nbsp;&nbsp;</td>
+    <tr valign="top">
+        <td><b>Roligt løb</b></td>
         <td>-</td>
         <td nowrap="nowrap">
             <center><span id="e_km"></span><span id="e_mile" style="display: none;"></span></center>
         </td>
         <td><a href="udholdenhedstraening.php">Udholdenhed</a></td>
     </tr>
-    <tr valign="top" class="boxcontent">
+    <tr valign="top">
         <td><b>Marathon pace</b></td>
         <td>-</td>
         <td nowrap="nowrap">
@@ -552,7 +544,7 @@ Benyt følgende tider under træningen. Er der intervaller, hvor tiderne ikke er
         </td>
         <td></td>
     </tr>
-    <tr valign="top" class="boxcontent">
+    <tr valign="top">
         <td><b>Tempotur/<br />Tærskelintervaller</b></td>
         <td nowrap="nowrap">
             <span style="width: 50px; float: left; display: block;">400m:</span><span id="t_400"></span><br />
@@ -565,7 +557,7 @@ Benyt følgende tider under træningen. Er der intervaller, hvor tiderne ikke er
         </td>
         <td><a href="maelkesyretaerskeltraening.php">Mælkesyretærskeltræning</a></td>
     </tr>
-    <tr valign="top" class="boxcontent">
+    <tr valign="top">
         <td><b>Intervaltræning</b></td>
         <td nowrap="nowrap">
             <span style="width: 50px; float: left; display: block;">400m:</span><span id="i_400"></span><br />
@@ -592,8 +584,8 @@ Benyt følgende tider under træningen. Er der intervaller, hvor tiderne ikke er
     </tr>
 </table>
 
+<p>Se også <a href="javascript: open_at();">gradueret AT-tempi</a>, hvor tempoet under tempoløb beregnes i forhold til varigheden af tempoløbet - jo længere varighed desto lavere tempo.</p>
 
-Se også <a href="javascript: open_at();">gradueret AT-tempi</a>, hvor tempoet under tempoløb beregnes i forhold til varigheden af<br />tempoløbet - jo længere varighed desto lavere tempo.
 <table id="attable" style="display: none; position: absolute; border: 1px #000 solid; background-color: #eee;" class="padding3">
     <tr>
         <td><b>Graduerer AT-tempi</b></td>
@@ -603,124 +595,85 @@ Se også <a href="javascript: open_at();">gradueret AT-tempi</a>, hvor tempoet u
         <td colspan="2" id="atbox" style="border-top: 1px #000 dotted; padding: 3px;">VDOT værdi er endnu ikke beregnet!</td>
     </tr>
 </table>
-<hr style="margin-top: 15px; margin-bottom: 15px;" />
+
 <h3>Konkurrencetider</h3>
-Tilsvarende konkurrencetider for samme VDOT-værdi
-<br />
-<table>
-    <tr valign="top">
-        <td style="width: 170px;">
-            <table class="padding3">
-                <tr>
-                    <td><b>1500m:</b></td>
-                    <td><span id="1500m"></span></td>
-                </tr>
-                <tr>
-                    <td><b>1 mile:</b></td>
-                    <td><span id="1mile"></span></td>
-                </tr>
-                <tr>
-                    <td><b>3km:</b></td>
-                    <td><span id="3km"></span></td>
-                </tr>
-                <tr>
-                    <td><b>2 miles:</b></td>
-                    <td><span id="2miles"></span></td>
-                </tr>
-                <tr>
-                    <td><b>5km:</b></td>
-                    <td><span id="5km"></span></td>
-                </tr>
-                <tr>
-                    <td><b>8km:</b></td>
-                    <td><span id="8km"></span></td>
-                </tr>
-                <tr>
-                    <td><b>5 miles:</b></td>
-                    <td><span id="5miles"></span></td>
-                </tr>
-                <tr>
-                    <td><b>10km:</b></td>
-                    <td><span id="10km"></span></td>
-                </tr>
-                <tr>
-                    <td><b>15km:</b></td>
-                    <td><span id="15km"></span></td>
-                </tr>
-                <tr>
-                    <td><b>10 miles:</b></td>
-                    <td><span id="10miles"></span></td>
-                </tr>
-                <tr>
-                    <td><b>20km:</b></td>
-                    <td><span id="20km"></span></td>
-                </tr>
-                <tr>
-                    <td><b>&frac12; marathon:&nbsp;&nbsp;&nbsp;</b></td>
-                    <td><span id="hmarathon"></span></td>
-                </tr>
-                <tr>
-                    <td><b>25km:</b></td>
-                    <td><span id="25km"></span></td>
-                </tr>
-                <tr>
-                    <td><b>30km:</b></td>
-                    <td><span id="30km"></span></td>
-                </tr>
-                <tr>
-                    <td><b>Marathon:</b></td>
-                    <td><span id="marathon"></span></td>
-                </tr>
-            </table>
-        </td>
-        <td>
-            <table class="padding3">
-                <tr>
-                    <td><span id="speed1500m"></span></td>
-                </tr>
-                <tr>
-                    <td><span id="speed1mile"></span></td>
-                </tr>
-                <tr>
-                    <td><span id="speed3km"></span></td>
-                </tr>
-                <tr>
-                    <td><span id="speed2miles"></span></td>
-                </tr>
-                <tr>
-                    <td><span id="speed5km"></span></td>
-                </tr>
-                <tr>
-                    <td><span id="speed8km"></span></td>
-                </tr>
-                <tr>
-                    <td><span id="speed5miles"></span></td>
-                </tr>
-                <tr>
-                    <td><span id="speed10km"></span></td>
-                </tr>
-                <tr>
-                    <td><span id="speed15km"></span></td>
-                </tr>
-                <tr>
-                    <td><span id="speed10miles"></span></td>
-                </tr>
-                <tr>
-                    <td><span id="speed20km"></span></td>
-                </tr>
-                <tr>
-                    <td><span id="speedhmarathon"></span></td>
-                </tr>
-                <tr>
-                    <td><span id="speed25km"></span></td>
-                </tr>
-                <tr>
-                    <td><span id="speed30km"></span></td>
-                </tr>
-                <tr>
-                    <td><span id="speedmarathon"></span></td>
-                </tr>
-            </table>
-        </td>
+
+<p>Tilsvarende konkurrencetider for samme VDOT-værdi</p>
+
+<table style="width: 100%">
+    <tr>
+        <th>1500m:</th>
+        <td><span id="1500m"></span></td>
+        <td><span id="speed1500m"></span></td>
+    </tr>
+    <tr>
+        <td><b>1 mile:</b></td>
+        <td><span id="1mile"></span></td>
+        <td><span id="speed1mile"></span></td>
+    </tr>
+    <tr>
+        <td><b>3km:</b></td>
+        <td><span id="3km"></span></td>
+        <td><span id="speed3km"></span></td>
+    </tr>
+    <tr>
+        <td><b>2 miles:</b></td>
+        <td><span id="2miles"></span></td>
+        <td><span id="speed2miles"></span></td>
+    </tr>
+    <tr>
+        <td><b>5 km</b></td>
+        <td><span id="5km"></span></td>
+        <td><span id="speed5km"></span></td>
+    </tr>
+    <tr>
+        <td><b>8 km</b></td>
+        <td><span id="8km"></span></td>
+        <td><span id="speed8km"></span></td>
+    </tr>
+    <tr>
+        <td><b>5 miles</b></td>
+        <td><span id="5miles"></span></td>
+        <td><span id="speed5miles"></span></td>
+    </tr>
+    <tr>
+        <td><b>10 km</b></td>
+        <td><span id="10km"></span></td>
+        <td><span id="speed10km"></span></td>
+    </tr>
+    <tr>
+        <td><b>15 km</b></td>
+        <td><span id="15km"></span></td>
+        <td><span id="speed15km"></span></td>
+    </tr>
+    <tr>
+        <td><b>10 miles</b></td>
+        <td><span id="10miles"></span></td>
+        <td><span id="speed10miles"></span></td>
+    </tr>
+    <tr>
+        <td><b>20 km</b></td>
+        <td><span id="20km"></span></td>
+        <td><span id="speed20km"></span></td>
+    </tr>
+    <tr>
+        <td><b>&frac12; maraton</b></td>
+        <td><span id="hmarathon"></span></td>
+        <td><span id="speedhmarathon"></span></td>
+    </tr>
+    <tr>
+        <td><b>25 km</b></td>
+        <td><span id="25km"></span></td>
+        <td><span id="speed25km"></span></td>
+    </tr>
+    <tr>
+        <td><b>30 km</b></td>
+        <td><span id="30km"></span></td>
+        <td><span id="speed30km"></span></td>
+    </tr>
+    <tr>
+        <td><b>Maraton</b></td>
+        <td><span id="marathon"></span></td>
+        <td><span id="speedmarathon"></span></td>
     </tr>
 </table>

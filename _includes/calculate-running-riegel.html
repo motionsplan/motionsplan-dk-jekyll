@@ -1,7 +1,7 @@
 <script>
     // **************************************************************************************************************************************************** //
     // English: The following scripts are copyright protected Loebesiden.dk. It is not allowed to make any copies without approvement from the webmaster.   //
-    // Dansk: FÃ¸lgende script er beskyttet af ophavsretsloven og mÃ¥ under ingen omstÃ¦ndigheder kopieres uden godkendelse fra webmasteren.                   //
+    // Dansk: Følgende script er beskyttet af ophavsretsloven og mÃ¥ under ingen omstændigheder kopieres uden godkendelse fra webmasteren.                   //
     // **************************************************************************************************************************************************** //
 
     function dotReplace(number) {
@@ -89,16 +89,16 @@
 
     function calc_end_time() {
         if (!isInt('dist')) {
-            alert('Distancen er sat ukorrekt. Indtast kun hele talvÃ¦rdier og uden bogstaver!');
+            alert('Distancen er sat ukorrekt. Indtast kun hele talværdier og uden bogstaver!');
         }
         else if (document.getElementById('dist').value < 1000) {
-            alert('Distancen skal vÃ¦re stÃ¸rre end 1000 m!');
+            alert('Distancen skal være større end 1000 m!');
         }
         else if ((!isInt('hours') && isSet('hours')) || (!isInt('minutes') && isSet('minutes')) || (!isInt('seconds') && isSet('seconds'))) {
-            alert('Tiden er sat forkert. Indtast kun hele talvÃ¦rdier og uden bogstaver!');
+            alert('Tiden er sat forkert. Indtast kun hele talværdier og uden bogstaver!');
         }
         else if (!isSet('hours') && !isSet('minutes') && !isSet('seconds')) {
-            alert('Husk at sÃ¦tte tiden!');
+            alert('Husk at sætte tiden!');
         }
         else {
             var res = '';
@@ -134,7 +134,7 @@
     function calc_speed() {
         if (isInt('d1') && (isSet('h1') || isSet('m1') || isSet('s1'))) {
             if ((!isInt('h1') && isSet('h1')) || (!isInt('m1') && isSet('m1')) || (!isInt('s1') && isSet('s1'))) {
-                alert('Tiden er sat forkert. Indtast kun hele talvÃ¦rdier og uden bogstaver!');
+                alert('Tiden er sat forkert. Indtast kun hele talværdier og uden bogstaver!');
             }
             else {
                 var d1 = document.getElementById('d1').value;
@@ -170,7 +170,7 @@
     function calc_time() {
         if (isInt('d2') && (isSet('m2') || isSet('s2'))) {
             if ((!isInt('m2') && isSet('m2')) || (!isInt('s2') && isSet('s2'))) {
-                alert('Hastigheden er sat forkert. Indtast kun hele talvÃ¦rdier og uden bogstaver!');
+                alert('Hastigheden er sat forkert. Indtast kun hele talværdier og uden bogstaver!');
             }
             else {
                 var d2 = document.getElementById('d2').value;
@@ -204,10 +204,10 @@
     function calc_dist() {
         if ((isSet('h3a') || isSet('m3a') || isSet('s3a')) && (isSet('m3b') || isSet('s3b'))) {
             if ((!isInt('h3a') && isSet('h3a')) || (!isInt('m3a') && isSet('m3a')) || (!isInt('s3a') && isSet('s3a'))) {
-                alert('Tiden er sat forkert. Indtast kun hele talvÃ¦rdier og uden bogstaver!');
+                alert('Tiden er sat forkert. Indtast kun hele talværdier og uden bogstaver!');
             }
             else if ((!isInt('m3b') && isSet('m3b')) || (!isInt('s3b') && isSet('s3b'))) {
-                alert('Hastigheden er sat forkert. Indtast kun hele talvÃ¦rdier og uden bogstaver!');
+                alert('Hastigheden er sat forkert. Indtast kun hele talværdier og uden bogstaver!');
             }
             else {
                 var h3a = document.getElementById('h3a').value;
@@ -259,7 +259,7 @@
         calc_split_next_dist(n);
         if (isInt('d' + n + '1') && isInt('d' + n + '2') && (isSet('h' + n + '1') || isSet('m' + n + '1') || isSet('s' + n + '1')) && (isSet('h' + n + '2') || isSet('m' + n + '2') || isSet('s' + n + '2'))) {
             if ((!isInt('h' + n + '1') && isSet('h' + n + '1')) || (!isInt('m' + n + '1') && isSet('m' + n + '1')) || (!isInt('s' + n + '1') && isSet('s' + n + '1')) || (!isInt('h' + n + '2') && isSet('h' + n + '2')) || (!isInt('m' + n + '2') && isSet('m' + n + '2')) || (!isInt('s' + n + '2') && isSet('s' + n + '2'))) {
-                alert('Tiden er sat forkert. Indtast kun hele talvÃ¦rdier og uden bogstaver!');
+                alert('Tiden er sat forkert. Indtast kun hele talværdier og uden bogstaver!');
             }
             else {
                 var d11 = document.getElementById('d' + n + '1').value;
@@ -356,7 +356,7 @@
         var set3 = false;
         if (isInt('d1') && (isSet('h11') || isSet('m11') || isSet('s11'))) {
             if ((!isInt('h11') && isSet('h11')) || (!isInt('m11') && isSet('m11')) || (!isInt('s11') && isSet('s11'))) {
-                alert('Tiden er sat forkert. Indtast kun hele talvÃ¦rdier og uden bogstaver!');
+                alert('Tiden er sat forkert. Indtast kun hele talværdier og uden bogstaver!');
             }
             else {
                 calc_improvement_function(1, 1);
@@ -368,7 +368,7 @@
         }
         if (isInt('d1') && (isSet('h21') || isSet('m21') || isSet('s21'))) {
             if ((!isInt('h21') && isSet('h21')) || (!isInt('m21') && isSet('m21')) || (!isInt('s21') && isSet('s21'))) {
-                alert('Tiden er sat forkert. Indtast kun hele talvÃ¦rdier og uden bogstaver!');
+                alert('Tiden er sat forkert. Indtast kun hele talværdier og uden bogstaver!');
             }
             else {
                 calc_improvement_function(2, 1);
@@ -380,7 +380,7 @@
         }
         if (isInt('d2') && (isSet('h31') || isSet('m31') || isSet('s31'))) {
             if ((!isInt('h31') && isSet('h31')) || (!isInt('m31') && isSet('m31')) || (!isInt('s31') && isSet('s31'))) {
-                alert('Tiden er sat forkert. Indtast kun hele talvÃ¦rdier og uden bogstaver!');
+                alert('Tiden er sat forkert. Indtast kun hele talværdier og uden bogstaver!');
             }
             else {
                 calc_improvement_function(3, 2);
@@ -429,12 +429,12 @@
         }
     }
 
-    // lÃ¸betid * (startvÃ¦gt - vÃ¦gttab * 0.8)/ startvÃ¦gt;
+    // løbetid * (startvægt - vægttab * 0.8)/ startvægt;
 
     function calc_weight() {
         if (isSet('weight') && isSet('loose') && (isSet('hours') || isSet('minutes') || isSet('seconds'))) {
             if ((!isInt('hours') && isSet('hours')) || (!isInt('minutes') && isSet('minutes')) || (!isInt('seconds') && isSet('seconds'))) {
-                alert('Tiden er sat forkert. Indtast kun hele talvÃ¦rdier og uden bogstaver!');
+                alert('Tiden er sat forkert. Indtast kun hele talværdier og uden bogstaver!');
             }
             else {
                 var weight = dotReplace(document.getElementById('weight').value);
@@ -481,22 +481,22 @@
             var bmi = roundNumber(10000 * weight / (height * height), 2);
             document.getElementById('bmi').innerHTML = bmi;
             if (bmi < 16) {
-                document.getElementById('condition').innerHTML = 'Meget undervÃ¦gtig';
+                document.getElementById('condition').innerHTML = 'Meget undervægtig';
             }
             else if (bmi < 20) {
-                document.getElementById('condition').innerHTML = 'UndervÃ¦gtig';
+                document.getElementById('condition').innerHTML = 'Undervægtig';
             }
             else if (bmi < 25) {
-                document.getElementById('condition').innerHTML = 'Normal vÃ¦gt';
+                document.getElementById('condition').innerHTML = 'Normal vægt';
             }
             else if (bmi < 30) {
-                document.getElementById('condition').innerHTML = 'OvervÃ¦gtig';
+                document.getElementById('condition').innerHTML = 'Overvægtig';
             }
             else if (bmi < 40) {
-                document.getElementById('condition').innerHTML = 'Meget overvÃ¦gtig';
+                document.getElementById('condition').innerHTML = 'Meget overvægtig';
             }
             else {
-                document.getElementById('condition').innerHTML = 'Ekstrem overvÃ¦gtig';
+                document.getElementById('condition').innerHTML = 'Ekstrem overvægtig';
             }
         }
     }
@@ -612,45 +612,24 @@
             document.getElementById('kmt').value = '';
         }
     }
-
-    /* Konkurrence tilmelding */
-
-    function submit_gear_competition() {
-        var competition = $('#competition').val();
-        var answer = $('input:radio[name="answer"]:checked').val();
-        var url = "/konkurrence.func.php?competition=" + competition + "&answer=" + answer;
-
-        $("#result").load(url, function(response, status, xhr) {
-            if (status == "error") {
-                alert("Der opstod en fejl!");
-            }
-            else if (xhr.readyState == 4) {
-                if ($("#result").html() == '') {
-                    alert('Konkurrencen er tilmeldt!');
-                }
-                else {
-                    alert($("#result").html());
-                }
-            }
-        });
-    }
 </script>
-<p>
-    Indtast din seneste konkurrence distance og tid:
-</p>
-<table class="padding3">
-    <tr>
-        <td><b>Distance:</b></td>
-        <td><input id="dist" type="text" style="width: 60px;" /> meter</td>
-    </tr>
-    <tr>
-        <td><b>Tid:</b></td>
-        <td><input id="hours" type="text" maxlength="2" style="width: 20px;" /> timer <input id="minutes" type="text" maxlength="2" style="width: 20px;" /> minutter <input id="seconds" type="text" maxlength="2" style="width: 20px;" /> sekunder</td>
-    </tr>
-    <tr>
-        <td></td>
-        <td><input type="button" value="Beregn" class="button" onclick="javascript: calc_end_time();"></td>
-    </tr>
-</table>
-<br />
-<span id="results"></span>
+<form class="calculator">
+    <fieldset>
+        <legend>Indtast din seneste konkurrence distance og tid</legend>
+
+        <div class="form-group">
+            <label>Distance (meter)</label>
+            <input id="dist" type="text">
+        </div>
+        <div class="form-group">
+            <label>Tid</label>
+            <input id="hours" type="text" maxlength="2" class="input-mini" placeholder="timer">
+            <input id="minutes" type="text" maxlength="2" class="input-mini" placeholder="min">
+            <input id="seconds" type="text" maxlength="2" class="input-mini" placeholder="sek">
+        </div>
+        <input type="button" value="Beregn" onclick="javascript: calc_end_time();">
+    </fieldset>
+    <fieldset class="results">
+        <span id="results"></span>
+    </fieldset>
+</form>

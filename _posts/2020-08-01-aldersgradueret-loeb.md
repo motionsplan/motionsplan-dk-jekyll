@@ -1,17 +1,19 @@
 ---
-title: "Løbesiden: Aldersgraduerede tider"
+title: "Alder og løbetider: Sammenlign med aldersgraduerede løbetider"
 permalink: /aldersgraduerede-tider/
 last_modified_at: 2020-07-24T09:41:09Z
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1554774853-b3d587d95440?ixlib=rb-1.2.1&auto=format&fit=crop&w=1963&q=80
-  teaser: https://images.unsplash.com/photo-1554774853-b3d587d95440?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
-  caption: "Bedste fitness blogs og træningsblogs"
+  overlay_image: https://images.unsplash.com/photo-1572379892936-47d01f2cd2b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
+  teaser: https://images.unsplash.com/photo-1572379892936-47d01f2cd2b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_filter: 0.2
+  caption: "Alder og løbetider: Sammenlign med aldersgraduerede løbetider"
 category:
   - Løb
 tags:
   - kondition
   - beregner
+  - alder
 ---
 
 ## Beregn din præstation udfra alder og køn og sammenlign dig på lige fod med andre.
