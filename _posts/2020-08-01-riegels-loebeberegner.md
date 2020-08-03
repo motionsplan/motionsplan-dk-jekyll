@@ -14,6 +14,8 @@ tags:
   - beregner
 ---
 
+Riegels formel til at udregne konkurrencetider til løb er af ældre dato.
+
 Som et alternativ til VDOT-beregning giver Riegels beregning også mulighed for at beregne potentielle konkurrencetider.
 
 Det er herunder muligt at beregne en tilnærmede tid på en distance udfra en tid på en anden distance. Ønsker du fx. at finde ud af, hvor hurtigt du kan løbe et marathon med udgangspunkt i din seneste 10km tid, så kan det lade sig gøre her.

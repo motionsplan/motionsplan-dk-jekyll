@@ -16,10 +16,12 @@ tags:
   - alder
 ---
 
-## Beregn din præstation udfra alder og køn og sammenlign dig på lige fod med andre.
+Når man bliver ældre, så kan det være rart med en beregner, som kan finde ud af, hvor gode ens løbetider er i forhold til ens alder. Beregneren kan altså beregne din præstation og niveau ud fra din køn og alder, så du kan sammenligne dine løbetider med andre.
 
-Med følgende beregner er det muligt at beregne niveauet af sine tider i forhold til ens alderen. Der kan med andre ord beregnes på niveauet, hvor der tages forbehold for alderen.
+Når to løbere med forskellig alder skal sammenligne deres tider, så kan det være relevant at tage hensyn til aldersforskellen i forhold til at vurdere løbetiden.
 
-Skal to løbere med forskellig alder sammenligne deres tider og tage hensyn til aldersforskellen, skal de indtaste deres tider i nedenstående beregner og sammenligne den aldersgradueret præstation dvs. hvor tæt tiden ligger på den bedste tid indenfor alderesgruppen.
+Du kan bruge nedenstående beregner til at sammenligne dine løbetider med de bedste inden for aldersgruppen, men også give en vurdering af, hvordan tiden kan sammenlignes med yngre og ældre løbere.
+
+Du får med andre ord en aldersgradueret vurdering af din præstation baseret på dine løbetider.
 
 {% include calculate-running-age-graded.html %}
