@@ -15,17 +15,24 @@ tags:
   - vægttab
 ---
 
-## Beregn gevinsten af et vægttab i forhold til din løbetider og find ud af, hvad en slankekur kan betyde for dit løb.
+Din vægt har betydning for, hvor hurtigt du kan løbe. Her er en beregner, der kan give et bud på, hvad en vægtændring betyder for dine løbetider.
 
-Konditionen afhænger direkte af iltoptagelsen i forhold til vægten set udfra et teoretisk synspunkt. Et vægttab af ren dødvægt (fedtvæv) vil således, såfremt formen holdes, resultere i en tilsvarende hastighedsforbedring.
+Din [kondition]({% link _posts/2019-11-04-kondition-og-test.md %}) udregnes som din maksimale iltoptagelse i forhold til din vægt, og så får du dit [kondital]({% link _posts/2019-11-04-kondital-og-tabel.md %}). Det betyder altså, at vægten teoretisk set har betydning for, hvor hurtigt du kan løbe.
 
-Det er i praksis individuelt, hvorvidt en person kan realisere det fulde potentiale for en hastigedsforbedring i forhold til vægttabet. Andre faktorer som fx. løbeøkonomi og teknik spiller også en rolle. Vores bud på en forøgelse af hastigheden er derfor 80% af den potentielle forbedring. Husk dog på at denne beregning kun er vejledende, og at den reelle forbedring varierer fra person til person. Beregningen giver dog et meget godt bud på, hvad en slankekur kan gøre for dit løbetempo.
+Hvis vi leger med ideen om, at vægtændringer sker uden at du ændrer din maksimale iltoptagelse og løbeøkonomi, så kan vi altså teoretisk set lege med, hvordan løbetiden ændrer sig, når du taber dig på en slankekur eller tager vægt på ved et kagebord.
 
-Indtast din aktuelle vægt, ønskede vægttab, en løbetid (fx din marathon tid) og udregn den nye bedre tid.
+Vi tænker også i beregneren at vægtændringer hovedsageligt består af fedtvæv. Det er naturligvis usandsynligt, at vægttab og vægtændringer kun består af fedt.
 
-Bemærk, at den nye tid automatisk kommer frem, når alle felter er udfyldt.
+I praksis vil der være store individuelle forskelle på, hvordan folk responderer på en vægtændring med [løbeteknik og løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %}).
+
+**Husk** at beregningen kun er vejledende og vil variere fra person til person. Løbesiden estimerer, at at hastigheden øges med 80% i forhold til den potentielle forbedring ved, at konditionen ændrer sig.
+
+I beregneren nedenunder kan du indtaste din aktuelle vægt og din aktuelle løbetid. Samtidig indtaster du din vægtændring, og så får du et bud på din nye tid. 
+
+Du indtaster positive tal, hvis der er tale om vægttab, og hvis du forventer at blive tungere, så skriver du negative tal.
 
 {% include calculate-weightloss-runningtime.html %}
 
+## Bliv klogere BMI og løbetider
 
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3934974/
+- Adrien Sedeaud et al (2014). [BMI, a Performance Parameter for Speed Improvement](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3934974/)

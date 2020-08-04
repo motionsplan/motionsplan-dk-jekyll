@@ -8,7 +8,8 @@ header:
   overlay_filter: 0.4
   caption: "Intervalløb: 9 effektive metoder til intervaltræning til løb"
 category:
-  - Konditionstræning
+  - Kondition
+  - Løb
 tags:
   - intervaltræning
   - intervalløb

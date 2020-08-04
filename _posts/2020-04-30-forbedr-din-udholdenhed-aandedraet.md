@@ -8,6 +8,8 @@ header:
   caption: "Photo by Sime Basioli on Unsplash"
 category:
   - Udholdenhed
+  - Løb
+  - Kondition
 tags:
   - udholdenhed
   - åndedræt

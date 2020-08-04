@@ -19,7 +19,7 @@ tags:
   - intervalløb
   - intervaltræning
 category:
-  - Konditionstræning
+  - Kondition
   - Løb
 last_modified_at: 2020-04-17T22:42:12Z
 ---

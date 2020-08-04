@@ -9,7 +9,7 @@ tags:
   - løb
   - kondition
 category:
-  - Konditionstræning
+  - Kondition
   - Løb
 last_modified_at: 2013-02-13T22:06:29Z
 ---

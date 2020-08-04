@@ -9,6 +9,7 @@ header:
   caption: "Photo by [Fitsum Admasu](https://unsplash.com/@fitmasu?utm_medium=referral&utm_campaign=photographer-credit&utm_content=creditBadge) on Unsplash"
 category:
   - Kondition
+  - Løb
 tags:
   - beregnere
   - løbeøkonomi

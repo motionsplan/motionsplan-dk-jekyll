@@ -1,15 +1,10 @@
 <script>
-    // **************************************************************************************************************************************************** //
-    // English: The following scripts are copyright protected Loebesiden.dk. It is not allowed to make any copies without approvement from the webmaster.   //
-    // Dansk: Følgende script er beskyttet af ophavsretsloven og må under ingen omstændigheder kopieres uden godkendelse fra webmasteren.                   //
-    // **************************************************************************************************************************************************** //
-
     // comp array sortering
 
     var distances = new Array("1500m", "1mile", "3km", "2miles", "5km", "8km", "5miles", "10km", "15km", "10miles", "20km", "hmarathon", "25km", "30km", "marathon");
     var complength = new Array(1.5, 1.609344, 3, 3.218688, 5, 8, 8.04672, 10, 15, 16.09344, 20, 21.1, 25, 30, 42.2);
 
-    // konkurrence tider
+    // Konkurrencetider
 
     var comp = new Array();
     comp[85] = new Array("3:23.5", "3:39.6", "7:14.1", "7:48.9", "12:37", "20:50", "20:58", "26:19", "40:17", "43:26", "54:40", "57:50", "1:09:33", "1:24:33", "2:01:10");
@@ -73,7 +68,7 @@
 
     var zones = new Array("e_km", "e_mile", "mp_km", "mp_mile", "t_400", "t_800", "t_1000", "t_mile", "i_400", "i_1000", "i_1200", "i_mile", "r_200", "r_400", "r_800");
 
-    // træningstider
+    // Training times
 
     var train = new Array();
     train[30] = new Array("7:52", "12:40", "6:50", "11:1", "2:33", "5:7", "6:24", "10:18", "2:22", "-", "-", "-", "67", "2:16", "-");
@@ -478,22 +473,22 @@
         <div class="form-group">
             <label>Distance</label>
             <select id="racedist">
-        <option value="1500m">1500m</option>
-        <option value="1mile">1 mile</option>
-        <option value="3km">3km</option>
-        <option value="2miles">2 mile</option>
-        <option value="5km" selected>5km</option>
-        <option value="8km">8km</option>
-        <option value="5miles">5 mile</option>
-        <option value="10km">10km</option>
-        <option value="15km">15km</option>
-        <option value="10miles">10 mile</option>
-        <option value="20km">20km</option>
-        <option value="hmarathon">half marathon</option>
-        <option value="25km">25km</option>
-        <option value="30km">30km</option>
-        <option value="marathon">marathon</option>
-      </select>
+                <option value="1500m">1500m</option>
+                <option value="1mile">1 mile</option>
+                <option value="3km">3km</option>
+                <option value="2miles">2 mile</option>
+                <option value="5km" selected>5km</option>
+                <option value="8km">8km</option>
+                <option value="5miles">5 mile</option>
+                <option value="10km">10km</option>
+                <option value="15km">15km</option>
+                <option value="10miles">10 mile</option>
+                <option value="20km">20km</option>
+                <option value="hmarathon">half marathon</option>
+                <option value="25km">25km</option>
+                <option value="30km">30km</option>
+                <option value="marathon">marathon</option>
+            </select>
         </div>
         <div class="form-group">
             <label>Tid</label>
@@ -534,7 +529,7 @@
         <td nowrap="nowrap">
             <center><span id="e_km"></span><span id="e_mile" style="display: none;"></span></center>
         </td>
-        <td><a href="udholdenhedstraening.php">Udholdenhed</a></td>
+        <td><a href="#udholdenhedstræning-lsd">Udholdenhed</a></td>
     </tr>
     <tr valign="top">
         <td><b>Marathon pace</b></td>
@@ -555,7 +550,7 @@
         <td>
             <center><span id="t_speed"></span></center>
         </td>
-        <td><a href="maelkesyretaerskeltraening.php">Mælkesyretærskeltræning</a></td>
+        <td><a href="#mælkesyretærskeltræning-at">Mælkesyretærskeltræning</a></td>
     </tr>
     <tr valign="top">
         <td><b>Intervaltræning</b></td>
@@ -568,7 +563,7 @@
         <td>
             <center><span id="i_speed"></span></center>
         </td>
-        <td><a href="vo2max-traening.php">Træning af VO2max</a></td>
+        <td><a href="#træning-af-maksimal-iltoptagelse-vo2max">Træning af VO2max</a></td>
     </tr>
     <tr valign="top" class="boxcontent">
         <td><b>Repetitions intervaller</b></td>
@@ -580,7 +575,7 @@
         <td>
             <center><span id="r_speed"></span></center>
         </td>
-        <td><a href="sprinttraening.php">Hastighedsteknik/sprint</a></td>
+        <td><a href="#sprinttræning-og-hastighedsteknik">Hastighedsteknik/sprint</a></td>
     </tr>
 </table>
 

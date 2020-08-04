@@ -14,17 +14,25 @@ tags:
   - beregner
 ---
 
-Riegels formel til at udregne konkurrencetider til løb er af ældre dato.
+Riegels formel til at udregne konkurrencetider til løb er af ældre dato, men en enkel måde at udregne løbetider på andre distancer på ud fra aktuelle løbetider.
+
+Riegels formel beregner potentielle konkurrencetider. Du kan altså beregne din tilnærmede tid på en distance ud fra en tid på en anden distance. Hvis du fx ønsker at kende din omtrentlige maratontid baseret på din 10 km tid, så kan du bruge Pete Riegels formel og løbeberegneren her på siden til det.
+
+Det er mere udbredt at bruge [Jack Daniels Running Formula og løbsberegner]({% link _posts/2020-08-01-jack-daniels-loebeberegner.md %}) i forhold til Riegels formular.
 
 Som et alternativ til VDOT-beregning giver Riegels beregning også mulighed for at beregne potentielle konkurrencetider.
 
-Det er herunder muligt at beregne en tilnærmede tid på en distance udfra en tid på en anden distance. Ønsker du fx. at finde ud af, hvor hurtigt du kan løbe et marathon med udgangspunkt i din seneste 10km tid, så kan det lade sig gøre her.
+## Baggrunden for Riegels formel
 
-Forskeren Pete Riegel har udviklet en formel til dette formål, der går ud på, at der mistes 6% af hastigheden, hver gang distancen fordobles. Udviklingen er dog behæftet med en vis fejlmargin. Anvend derfor tider fra distancer, der er så tæt så muligt på den distance, du ønsker at finde tiden på, for at undgå for store afvigelser.
+Pete Riegels udgangspunkt er, at man mister omkring 6% af hastigheden, hver gang man fordobler løbedistancen. Dette præmis er dog ikke uden udfordringer, og udregningen af løbetider bliver formentlig mest præcist, hvis man bruger distancer, der ligger relativt tæt på hinanden. 
 
-Beregningen giver et godt fingerpeg om, hvad man skal satse på, men der er ingen garanti for resultatet. Der kan være mange faktorer som vejr, terræn, oplagthed og korrekt disponering, der er afgørende for løbetiderne.
+Riegels formel kan give et fingerpeg om, hvilken tid man kan satse på i forhold til mellemtider, når man løber andre distancer.
+
+**Husk** dog altid at beregninger kun kan give et omtrentligt resultat. Der er ingen garantier for at løbetiden passer præcist, og ved løb er der mange faktorer, der kan spille ind, fx vejr og terræn, men det betyder også meget, hvor oplagt du er på dagen og hvordan du får disponeret løbet.
 
 {% include calculate-running-riegel.html %}
+
+Husk at [Jack Daniels Running Formula og løbsberegner]({% link _posts/2020-08-01-jack-daniels-loebeberegner.md %}) er mere avanceret og baseret på nyere data fra løbere.
 
 ## Referencer
 
