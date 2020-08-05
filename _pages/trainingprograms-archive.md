@@ -2,6 +2,7 @@
 layout: collection
 title: "Træningsprogrammer: fullbody, 2-split, 3-split, 4-split og 5-split styrketræning"
 permalink: /traeningsprogrammer/
+excerpt: "Find et effektivt og gratis træningsprogram til styrketræning, der passer perfekt til dine behov. Få dit eget program. Vi har både klassiske styrketræningsprogrammer, fx fullbody, 2-splitprogram og 3-splitprogram."
 comments: false
 collection: programs
 entries_layout: list
