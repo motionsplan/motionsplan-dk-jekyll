@@ -1,1 +1,12 @@
+---
+---
 Options +MultiViews
+
+RewriteEngine On
+RewriteBase /
+
+{% for post in site.posts %}
+{% for link in post.redirect_from %}
+RewriteRule ^{{ link }} {{ post.permalink }} [R=301,L]
+{% endfor %}
+{% endfor %}
