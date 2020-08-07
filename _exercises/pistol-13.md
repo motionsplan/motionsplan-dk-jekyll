@@ -7,8 +7,8 @@ redirect_from: /node/13
 id: 13
 language: da
 header:
-  overlay_image: /assets/images/exercises/pistol-0.jpg
-  teaser: /assets/images/exercises/pistol-0-320.jpg
+  overlay_image: https://images.unsplash.com/photo-1572432332292-6ec3392bee00?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
+  teaser: https://images.unsplash.com/photo-1572432332292-6ec3392bee00?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
 tags:
   - Hård styrkeøvelse
   - Styrketræning

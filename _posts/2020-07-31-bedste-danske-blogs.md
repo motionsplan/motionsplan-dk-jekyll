@@ -125,19 +125,23 @@ Min opdaterede liste over danske fitness og træningsblogs indeholder følgende:
 
 Hvis jeg har overset nogle blogs om fitness, træning, motion og sundhed i min research, så skriv endelig i kommentarerne for at hjælpe mig med at udvide listen.
 
-## {{ page.feature_row.size }} bedste danske fitness blogs
+## {{ page.feature_row.size }} bedste danske fitness og træning blogs
 
 {% include feature_row type="left" %}
 
 <div class="hidden">
 
-## Sponsorerede gode fitness blogs
+## Sponsorerede fitness og træning blogs med kvalitet
 
 Jeg har også udvalgt et par blogs af høj kvalitet fra firmaer, der er med til at støtte dette site:
 
 {% include feature_row type="right" id="feature_row_sponsored" %}
 
 </div>
+
+## Hvordan følger jeg med i træningsblogs og fitnessblogs?
+
+For ikke at gå glip af nye skarpe blog indlæg, så har jeg tilføjet alle mine favoritter om træning til min _bloglæser_. Jeg bruger selv [Feedly](http://www.feedly.com), men der findes flere forskellige muligheder for at læse blogs uden at skulle klikke ind på alle hjemmesiderne.
 
 ## Fitness Blogs og Træningsblogs
 
