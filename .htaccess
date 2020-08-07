@@ -10,3 +10,6 @@ RewriteBase /
 RewriteRule ^{{ link }} {{ post.permalink }} [R=301,L]
 {% endfor %}
 {% endfor %}
+{% for link in site.data.redirects %}
+RewriteRule ^{{ link.redirect_from }} {{ link.redirect_to }} [R=301,L]
+{% endfor %}
