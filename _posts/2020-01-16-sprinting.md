@@ -20,9 +20,7 @@ Jeg har samlet en række videoer om sprint, hvor du kan få oplysninger om, hvor
 *[RE]: Running Economy
 *[FTP]: Functional Threshold Power
 
-
 {% include video provider="youtube" id="u-6YEP9bygg" }
-
 
 {% include video provider="youtube" id="PPbsJ-JogAg" %}
 

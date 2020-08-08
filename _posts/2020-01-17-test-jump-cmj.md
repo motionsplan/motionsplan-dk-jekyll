@@ -25,8 +25,4 @@ Foreløbig kan du læse mere om [spring, at hoppe højere og eksplosivitet her](
 
 {% include figure image_path="https://www.researchgate.net/profile/Karim_Chamari/publication/229085181/figure/fig1/AS:300700530692099@1448704001393/Counter-movement-Jump.png" caption="Countermovement Jump" %}
 
-*[GCT]: Ground Contact Time
-*[RE]: Running Economy
-*[FTP]: Functional Threshld Power
-
 {% include video provider="youtube" id="lgkCxnSHV7w" %}
