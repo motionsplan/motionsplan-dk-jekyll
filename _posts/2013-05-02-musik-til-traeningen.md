@@ -21,7 +21,7 @@ last_modified_at: 2020-06-15T15:18:24Z
 
 Jeg bruger ofte musik til træningen, når jeg underviser mine elever. Hvis jeg ikke lige er faldet over en podcast, så bruger jeg også musik til min egen træning. Men hvordan finder jeg de bedste sange til træning, løb, styrketræning og intervaltræning, så musikken kan give ekstra energi og motivation?
 
-**Hvis musikken passer til din træning, så kan den hjælpe med at få træningen til at virke lettere, så du kan arbejde længere, eller presse tempoet højere op. Derved kan træningen blive mere effektiv. Det bedste er, hvis du kan finde musik, der er synkront med dine bevægelser. Hvis det fx er løb, så passer 160-180 bpm rigtig godt for de fleste.**
+Hvorfor skal jeg bruge musik til træningen, og hvordan finder jeg de bedste sange? **Det bedste er, hvis du kan finde musik, der er synkront med dine bevægelser. Hvis det fx er løb, så passer 160-180 bpm rigtig godt for de fleste. Hvis musikken passer til din træning, så kan den hjælpe med at få træningen til at virke lettere, så du kan arbejde længere, eller presse tempoet højere op. Musik kan gøre træningen mere effektiv.**
 
 *[bpm]: beats per minute
 *[RPE]: Rate of Percieved Exertion
