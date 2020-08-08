@@ -47,7 +47,7 @@ Så kan ud analysere de forskellige faser i bevægelsen bagefter. De fleste idr�
 - Hvilke muskler arbejder i bevægelsen? 
 - Arbejder de aktive muskler excentrisk, koncentrisk eller statisk?
 
-Nedenfor har jeg samlet en række videoer, der hjælper dig med at få styr på begreberne. Du kan også kigge under afsnittet om [led, ledtyper og bevægelse]({% link _posts/joints.md %}).
+Nedenfor har jeg samlet en række videoer, der hjælper dig med at få styr på begreberne. Du kan også kigge under afsnittet om [led, ledtyper og bevægelse]({% link _pages/anatomy/joints.md %}).
 
 ## Videoer om bevægelsesanalyse
 
