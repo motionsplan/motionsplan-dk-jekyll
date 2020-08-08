@@ -1,8 +1,6 @@
 ---
 title: "RM-beregner: 10 formler til at teste og udregne 1RM max"
 permalink: /rm-beregner/
-redirect_from:
-  - rm
 excerpt: "Lav din egen RM-test og udregn 1RM max (repetition maximum) i vores avancerede RM-beregner på baggrund af 10 forskeres formler til at udregne 1RM ud fra vægten på dine submaksimale løft."
 language: da
 header:
