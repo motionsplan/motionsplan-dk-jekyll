@@ -18,14 +18,14 @@ feature_row:
     title: "The Biohacking Manifesto"
     excerpt: "Biohacking is just a fancy word for optimizing your own biological potential, and in the context of this brand new book from James Lee (author of The Methuselah Project) it means achieving this via - - Slowing the process of cellular aging to extend longevity"
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/the-biohacking-manifesto_james-lee_paperback_9781512121278"
-    btn_label: "Tjek prisen hos Saxo"
+    btn_label: "Tjek prisen hos Saxo*"
     btn_class: "btn--success"
   - image_path: https://imgcdn.saxo.com/Image?ImageID=10149040
     alt: "Saxos bøger om Biohacking"
     title: "Saxos bøger om Biohacking"
     excerpt: "Der er skrevet en masse bøger om Biohacking efterhånden, og Saxo har flere spændende bøger, bl.a. af John Board."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/products/search?query=biohacking"
-    btn_label: "Læs mere hos Saxo"
+    btn_label: "Se prisen hos Saxo*"
     btn_class: "btn--success"
 ---
 
@@ -42,6 +42,10 @@ Jeg vil prøve at komme forbi forskellige aspekter ved biohacking og præsentere
 Biohacking er at tage kontrol over din krop, dit sind og dit liv og forsøge at optimere kroppen og biologien ved hjælp fra videnskab, teknologi og personlige eksperimenter.
 
 Rationalet er, at man med videnskab og empiriske eksperimenter med sig selv som forsøgsperson kan gøre sig selv til en bedre version. Biohackere bruger ofte teknologi til at indsamle data og forsøge at bruge resultaterne til at **få mere energi**, **blive stærkere**, **tænke hurtigere** og ganske enkelt **leve smartere og sundere**.
+
+Du kan se Martin Kremmer fortælle om biohacking i denne video fra Tedx:
+
+{% include video provider="youtube" id="ADyCY382lAY" %}
 
 For mange biohackere er det et samlet system, hvor man forsøger at optimere sig selv. Hvis man sover dårligt, mangler energi eller har vanskeligt ved at holde fokus, så prøver man gennem optimering af sin hverdag ud fra målinger og eksperimenter at forbedre disse parametre.
 
