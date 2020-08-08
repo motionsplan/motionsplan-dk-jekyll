@@ -9,6 +9,7 @@ header:
   caption: "Beregn din løbeøkonomi: Løbeteknik er en vigtig faktor. Photo by Fitsum Admasu on Unsplash"
 category:
   - Kondition
+  - Løb
 tags:
   - beregnere
   - løbeøkonomi

@@ -13,7 +13,7 @@ tags:
   - løbeøkonomi
   - kondition
 category:
-  - Konditionstræning
+  - Kondition
   - Løb
   - Styrketræning
 last_modified_at: 2013-04-03T13:50:33Z

@@ -8,7 +8,7 @@ header:
   overlay_filter: 0.4
 category:
   - Kombinationstræning
-  - Konditionstræning
+  - Kondition
   - Styrketræning
 tags:
   - cirkeltræning

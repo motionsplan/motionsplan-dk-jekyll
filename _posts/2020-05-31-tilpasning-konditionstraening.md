@@ -10,6 +10,7 @@ header:
 category:
   - Viden om
   - Konditionstræning
+  - Løb
 tags:
   - anatomi
   - fysiologi

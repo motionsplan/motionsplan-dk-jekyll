@@ -11,7 +11,7 @@ tags:
   - kondition
   - kombinationstræning
 category:
-  - Konditionstræning
+  - Kondition
   - Løb
   - Styrketræning
 last_modified_at: 2020-06-22T22:09:36Z
