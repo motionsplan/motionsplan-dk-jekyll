@@ -1,5 +1,5 @@
 ---
-title: "5 tips til musik og playliste til yoga og mindfulness [2020]"
+title: "5 tips til musik til yoga og mindfulness playliste [2020]"
 permalink: /yoga-musik/
 language: da
 header:
@@ -19,12 +19,12 @@ yogastream:
   - image_path: https://www.yogastream.dk/images/homepage/forloeb.jpg
     url: http://motionsplan.yogastream.dk
     title: "Bliv medlem af Yogastream og lær yoga"
-    alt: "Bliv medlem af Yogastream og lær yoga"
+    alt: "Musik og yoga - Bliv medlem af Yogastream og lær yoga"
 ---
  
-Jeg er på udkig efter noget god musik, jeg kan bruge til mindful yoga og mindfulness, når der ikke bare skal være stilhed. Jeg har derfor undersøgt, hvad god musik kan være til både yoga, mindfulness og meditation.
+Jeg er på udkig efter noget god musik til yoga og mindfulness. Når det ikke bare skal være stille kan jeg godt lide at have en playliste, som jeg bruger til mindful yoga og mindfulness. Jeg har derfor undersøgt, hvad god musik kan være til både yoga, mindfulness og meditation.
 
-**God musik til yoga, mindfulness og meditation skal passe til aktiviteten. Yoga kan få pulsen helt op til 160 bpm (beats per minute) for energisk yoga, men typisk vil langsommere musik fra 60-100 bpm bedre understøtte yoga, mindfulness og meditation.**
+Hvordan vælger man musik til yoga og mindfulness? **God musik til yoga, mindfulness og meditation skal have den rigtige rytme og en rigtige stemning. Typisk passer langsommere musik med 60-100 bpm godt til yoga, selvom yoga kan få pulsen helt op til 160 bpm (beats per minute), men stemningen i musikken er også meget afgørende.**
 
 Når du skal finde musik, der passer til en aktivitet, så er en af de væsentlige parametre i musikken _beats per minute_. Tempoet i musikken kan enten relateres til dit hjerteslag, eller det kan relateres til dit bevægelsesmønster for at understøtte aktiviteten.
 
@@ -58,7 +58,7 @@ Tænk på hvor mange BPM og tempoet af hver sang, og hvilke øvelser sangene ska
 
 Start med langsommere sange til opvarmningen og vælg lidt hurtigere musik til solhilsenerne. Sænk tempoet igen til slutningen og de siddende stillinger og Savasana.
 
-### 2. Vælg noget forskelligt til yoga
+### 2. Vælg noget forskelligt musik til yoga
 
 Hvis du kun vælger musik til din egen yoga, så kan du naturligvis vælge lige nøjagtigt de sange, du bedst kan lide. Men hvis du underviser, så er det ikke sikkert at alle kan lide den samme type musik.
 
@@ -72,11 +72,11 @@ Men det betyder ikke, at du kun skal lytte til “yoga musik”. Du kan også v�
 
 Men det bliver hurtigt vanskeligt at holde sin _mindful state_, hvis rapperen M.I.A pludselig kommer ud af højtalerne med “Paper Planes”, hvor noget af teksten er: <q>All I wanna do is (gun shots) and take your money.</q>. Det er nok ikke lige det, man gerne vil lytte til, mens man laver yoga.
 
-### 4. Kontroller volumen under yogaen
+### 4. Kontroller volumen på musikken under yogaen
 
 Hvis du bruger musik til din yoga, mindfulness og meditation, så husk at finde den rette _volumen_ for musikken. Den skal ikke overskygge de instruktioner, du vil give, men man skal også kunne høre musikken. Ellers kommer det bare til at lyde som elevatormusik.
 
-### 5. Ændringer kan være gode
+### 5. Variation i playlisten kan være en fordel
 
 Opdater din playliste jævnligt. Mange af os har adgang til alverdens musik gennem et abonnement til fx Spotify. Du kan også søge inspiration ved at søge efter playlister med “yoga music”.
 
