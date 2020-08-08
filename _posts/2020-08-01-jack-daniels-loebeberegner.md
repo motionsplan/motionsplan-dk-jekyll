@@ -1,6 +1,6 @@
 ---
 title: "Løbesiden: Løbsberegner til træningstempo og konkurrencetider"
-permalink: /jack-daniels-loebeberegner/
+permalink: /loebesiden-jack-daniels-loebeberegner/
 last_modified_at: 2020-07-24T09:41:09Z
 language: da
 header:
