@@ -15,6 +15,12 @@ last_modified_at: 2019-11-19T23:14:14Z
 toc: true
 ---
 
+Jeg er ved at lave et indlæg om sprintceller til at teste hurtighed. Hvis ud kender noget til testen og gerne vil hjælpe med at lave en god indføring i sprintceller, så kontakt mig endelig.
+
+Artiklen er under opbygning, så lige nu er det mest en inspiration til en masse forskellige begreber, der har betydning for eksplosivitet og sprint.
+
+Hvis du gerne vil hjælpe med at forbedre artiklen, så skriv endelig til lars@vih.dk.
+
 *[GCT]: Ground Contact Time
 *[RE]: Running Economy
 *[FTP]: Functional Threshld Power
