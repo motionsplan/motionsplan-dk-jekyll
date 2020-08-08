@@ -1,5 +1,5 @@
 ---
-title: "Musik til træningen: Find de bedste sange til træning [2020]"
+title: "Musik til træning: Find de bedste sange til træningen [2020]"
 permalink: /artikel/musik-til-traeningen/
 redirect_from:
   - /artikel/musik-til-træningen
@@ -16,7 +16,7 @@ category:
   - Kondition
   - Styrketræning
   - Løb
-last_modified_at: 2020-06-15T15:18:24Z
+last_modified_at: 2020-07-15T15:18:24Z
 ---
 
 Jeg bruger ofte musik til træningen, når jeg underviser mine elever. Hvis jeg ikke lige er faldet over en podcast, så bruger jeg også musik til min egen træning. Men hvordan finder jeg de bedste sange til træning, løb, styrketræning og intervaltræning, så musikken kan give ekstra energi og motivation?
