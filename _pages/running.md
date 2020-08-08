@@ -7,7 +7,7 @@ sort_by: title # date (default) title
 sort_order: forward # forward (default), reverse
 taxonomy: Løb
 entries_layout: grid
-excerpt: "Guide til løbetræning. Find nyttig viden om løb til 5 km, 10 km, halvmaraton og maraton. Vælg et effektivt løbeprogram. Lær om pulstræning, intervalløb og intervaltræning."
+excerpt: &excerpt "Guide til løbetræning. Find nyttig viden om løb til 5 km, 10 km, halvmaraton og maraton. Vælg et effektivt løbeprogram. Lær om pulstræning, intervalløb og intervaltræning."
 header:
   overlay_image: https://images.unsplash.com/photo-1581889470536-467bdbe30cd0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1990&q=80
   caption: "Løbesiden: Alt om løb og løbetræning"
@@ -15,6 +15,8 @@ header:
     - label: "<i class='fas fa-download'></i> Hvad er min hastighed?"
       url: "/hastighed/"
 classes: wide
+feature_row_exerpt:
+  - excerpt: *excerpt
 feature_row_feature:
   - image_path: https://images.unsplash.com/photo-1501820434261-5bb046afcf6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80
     alt: "Energisystemer 101"
@@ -46,6 +48,8 @@ feature_row:
     btn_label: "Lær om løbeøkonomi"
     btn_class: "btn--info"
 ---
+
+{% include feature_row type="center" id="feature_row_excerpt" %}
 
 {% include feature_row id="feature_row_feature" type="left" %}
 

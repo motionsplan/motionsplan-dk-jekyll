@@ -55,15 +55,17 @@ Du skal kun indtaste tider ind i beregneren, som du rent faktisk har løbet. Hvi
 
 {% include calculate-jack-daniels.html %}
 
+Jeg har skrevet lidt mere om i det følgende, hvordan du kan bruge oplysningerne fra løbsberegneren til at planlægge din egen træning.
+
 ## Hvordan laver jeg et løbeprogram?
 
 Når du skal lave et løbeprogram, så er der flere faktorer, du kan tage hensyn til. Hvis du vil lave et alsidigt effektivt program til løb, så kan det være godt at tænke forskellige træningskategorier ind i træningen.
 
 Grundlæggende kan man i løbe lave træningszoner ud fra følgende faktorer.
 
-- Hastighed
-- Puls
-- Watt
+- **Hastighed**. Du kan udregne hvilke tider, du skal løbe med i løbsberegneren fra Jack Daniels. Det kræver enten en løbebane eller andre opmålte distancer eller et GPS-ur at træne på denne måde.
+- **Puls**. Du skal bruge en pulsmåler og kan [udregne pulszoner til træning her]({% link _posts/2019-10-31-intensitet-puls.md %}).
+- **Watt**. Du har brug for særligt udstyr for at bruge Watt. Det har jeg skrevet lidt om under [løbeøkonomi og løbeteknik]({% link _posts/2019-12-16-running-economy.md %}).
 
 Ved at tænke løbetræningen ind i forskellige træningskategorier, kan man tage højde for [kroppens forskellige energisystemer]({% link _posts/2019-11-14-energisystemer-101.md %}), som er nødvendige for effekten af løbetræningen.
 
@@ -120,7 +122,7 @@ Når musklerne skal arbejde uden ilt, kalder vi det en anaerob proces. Under den
 
 Hvis du løbetræner, så du kan flytte din anaerobe tærkel vil du altså træne evnen til at løbe med en højere intensitet, men stadig primært bruge det aerobe system, som kan arbejde meget længere end det anaerobe system.
 
-Hvis du har en [maxpuls]({% link _posts/2020-06-02-max-hr.md %}) på 200 og formår at flytte din anaerobe tærskel målt som hjerteslag fra 180 slag/min til 185 slag/min, så kan du altså løbe med en højere intensitet, hvilket også alt andet lige vil sige hurtigere med den aerobe forbrænding og uden at ophobe mælkesyre.
+Hvis du har en [maxpuls]({% link _posts/2020-06-02-max-hr.md %}) på 200 slag/min og formår at flytte din anaerobe tærskel målt som hjerteslag fra 180 slag/min til 185 slag/min, så kan du altså løbe med en højere intensitet, hvilket også alt andet lige vil sige hurtigere med den aerobe forbrænding og uden at ophobe mælkesyre.
 
 ### Udførelse
 
@@ -130,27 +132,23 @@ Når du udfører træning af den anaerobe tærskel skal du ramme en belastning, 
 
 Lad os kigge på nogle metoder til at arbejde med den anaerobe tærskel: tempoløb, tærskel-intervaller eller tærskel-bakkeløb.
 
-Den intensive del bør have en samlet varighed på 20-40 minutter.
+Den intensive del af træningen bør have en samlet varighed på 20-40 minutter.
 
-***
+Lad os kigge lidt på forskellige øvelser, som kan være med til at flytte mælkesyretærsklen.
 
 ### Tempoløb
 
-Tempoløb er den helt simple og klassiske måde at rykke mælkesyretærsklen. Træningen er dog også meget hård, idet der skal løbes intensivt i relativ lang tid. Der varmes indledningsvist godt op 2-3 km. Herefter løbes 5-8 km i et tempo på selve mælkesyregrænsen eller lige under. Til sidst afsluttes med 2 km afjogning. Udover træning af mælkesyretærsklen giver træningen også en mental sejhed, der gør det mere overskueligt at gennemføre hårde træningspas som fx lange intervaller og løbe konkurrencer.
+Tempoløb er hårdt, men effektivt. Du skal løbe intensivt i relativt lang tid. Et eksempel kan være at løbe et par kilometer som opvarmning, hvorefter du løber 3-8 km i et tempo omkring den anaerobe tærskel. Slut med et par kilometers afjogning. 
 
-Tempotræning kan også gennemføres i form af 5-10 km konkurrencer. Her er det blot vigtigt ikke at lade sig rive med og give sig 100%, da det vil hæmme træningseffekten og kræve al for lang restitution efterfølgende.
+Når man laver tempoløb arbejder man også med sin mentale styrke. Husk at løbe omkring mælkesyregrænsen, så du får den rette træningseffekt. Hvis du løber hurtigere end det i perioder, så får du brug for længere restitution.
 
 ### Tærskel-intervaller
 
-Tærskel-intervaller er ekstra lange intervaller á 6-8 minutters varighed. Det kunne fx. være 4 x 8 minutters intervaller med pause 2 minutter imellem hvert interval, hvilket i alt vil give 32 minutters intensiv træning. Det er godt at veksle mellem det koncentrerede tempoløb og de lettere tærskel-intervaller for på den måde at gøre den samlede træning mere overskuelig og overkommelig. Pausen mellem tærskelintervallerne bør være af højest 2 minutters varighed.
+Tærskel intervaller er ekstra lange intervaller på omkrign 6-8 minutter. Det kan fx være 4 x 8 minutters intervaller med 2 minutters pause. Tærskelintervallerne er lidt mere overskuelige end tempoløbene. Pausen bør højest være 2 minutter.
 
 ### Tærskel-bakkeløb
 
-Tærskel-bakkeløb ligner meget tærskel-intervaller, idet der benyttes længere intervaller. Bakkeløbet kan laves på lange bakker af 1000-1500 m længde. Der løbes roligt ned af bakken samt på lige strækninger, og der løbes intensivt opad bakken svarende til mælkesyretærsklen. 4 omgange er velegnet og vil give i alt 20-25 minutters intensiv træning.
-
-Tærskel-bakkeløb er desuden en god måde at variere sin træning på og undgå ensidsig og nedslidende løb.
-
-***
+Tærskel-bakkeløb ligner tærskelintervaller. Du har imidlertid brug for at finde nogle bakker på 1000-1500 meters længde. Du løber roligt ned af bakken, mens du løber intensivt op ad bakken. Det er formentlig passende at løbe 4 omgange, hvilket giver omkrign 20-25 minutters intensiv træning.
 
 ### Hyppighed og mængde
 
@@ -184,21 +182,31 @@ Du kan enten bruge pauser, der er omkring 50-90% af arbejdstiden, eller du kan h
 
 Du kan arbejde med din maksimale iltoptagelse på flere forskellige måder. Det afgørende er, at intensiteten er høj nok. Den intensive del af træningen vil typisk vare mellem 16-24 minutter.
 
-***
+Lad os kigge på lidt metoder, som kan bruges til at flytte den maksimale iltoptagelse.
 
 ### Intervaltræning
 
-Intervaltræning er en vekslen mellem arbejdsperioder og hvileperioder. Arbejdsperioderne skal under intervaltræning af VO2max have en varighed af 2-5 minutter. Det kunne fx. være 5 x 4 minutters intervaller med pause 3 minutter mellem hvert interval. Tempoet under alle arbejdsperioder skal være det samme. Der skal derfor ikke lægges for hårdt ud i de første intervaller, hvis det betyder, at tempoet reduceres under de sidste intervaller. Antallet af intervaller afhænger af den aktuelle form. Det er normalt at løbe intensivt i sammenlagt 20 minutter per træningspas.
+Når man laver [intervalløb]({% link _posts/2020-06-15-intervallob.md %}) veksler man mellem arbejdsperioder og hvileperioder. Arbejdsperioderne når man arbejder med VO<sub>2</sub>max skal have en varighed på 2-5 minutter. Det kan fx være 5 x 4 minutters intervaller med en pause på 3 minutter mellem hvert interval.
+
+Tempoet i de enkelte arbejdsperioder skal være det samme. Derfor skal du ikke lægge for hårdt ud på de første intervaller. Antallet af intervaller afhænger naturligvis af den aktuelle form.
+
+Typisk vil man løbe omkring 20 minutter per træningspas, når man gerne vil flytte den maksimale iltoptagelse.
+
+Helgerud (2007) fandt en rigtig god effekt af 4 x 4 min med 3 minutters aktiv pause på den maksimale iltoptagelse, hvilket jeg har skrevet lidt om i [intensitetens betydning for forbedring af VO<sub>2</sub>max]({% link _posts/2019-11-03-intensiteten-og-vo2max.md %}).
 
 ### Fartleg
 
-Fartleg er en ustruktureret træningsform præget af skiftende tempo, der ikke på forhånd er planlagt. Der skal med andre ord løbes spontant og impulsivt. Under løbet planlægges start- og slutpunkter for, hvor der skal løbes hurtigt. Brug gerne terrænet til at bestemme, hvor der skal løbes hurtigt fx træer, lygtepæle, vejsving m.v. Det kan til at starte med virke uoverskueligt at træne på denne løse måde. Det kan være en god ide at gennemtænke, hvor mange hurtige ryk, man vil foretage for at sætte en lille smule struktur på træningen. Legemomentet kan ende i for hård træning, der kræver ekstra lang restitutionstid, så vær opmærksom på at løbe i roligt tempo i omkring halvdelen af tiden.
+Fartleg er en ustruktureret træningsform præget af skiftende tempo, der ikke på forhånd er planlagt. Der skal med andre ord løbes spontant og impulsivt. 
+
+Mens du løber planlægger man start- og slutpunkter for, hvornår der skal løbes hurtigt. Typisk bruger man terrænet til at bestemme, hvornår der skal være tempo på, fx løber man hurtigt til næste træ eller lygtepæl, eller også løber man hurtigt op ad bakkerne.
+
+Det kan godt virke lidt uoverskueligt at træne på denne løse måde. Det kan være en god ide at gennemtænke, hvor mange hurtige ryk, man vil foretage for at sætte en lille smule struktur på træningen.
+
+Legemomentet kan ende i for hård træning, der kræver ekstra lang restitutionstid, så vær opmærksom på at løbe i roligt tempo i omkring halvdelen af tiden.
 
 ### Bakketræning
 
-Bakketræning udføres på bakker eller kan med nød udføres på trapper og foregår på samme måde som intervaltræning med arbejdsperioder og hvileperioder. Find en bakke, hvor der kan løbes opad i 2-6 minutter i arbejdsperioderne. I hvileperioderne løbes roligt ned igen til starten af bakken.
-
-***
+Du kan også træne den maksimale iltoptagelse med bakketræning. Du har brug for en bakke, hvor du kan løbe opad i 2-5 minutter i arbejdsperioderne. Vær opmærksom på, at du du ikke kommer til at løbe for hurtigt, da det er let at oparbejde for meget mælkesyre i musklerne, når man løber bakkeintervaller. 
 
 ### Hyppighed og mængde
 
@@ -263,22 +271,21 @@ Roligt løb bruges ofte som fyld i programmet for at få træningsmængden op. B
 
 Formålet med roligt løb er at få en højere samlet træningsmængde. Det har en gavnlig effekt for dit løb, hvis du kan løbe flere kilometer uden at det går ud over din evne til at restituere.
 
-***
+Jeg har hørt om studier, der fortæller at en større løbemængde er gavnlig for præstationen for løbere, men at en del af distancen sagtens kan være med lavere hastighed. Jeg har dog ikke lige kunnet finde studierne, så hvis du støder på dem, så brug endelig kommentarerne.
 
-Roligt løb har til formål at øge ugens samlede mængde, hvilket vil bidrage med en gavnlig effekt på formen. Forsøg har vist, at der opnås en gavnlig effekt på formen alene som resultat af træningsmængden op til en ugentlig mængde på 120 km. Effekten falder dog omvendt proportionalt med mængden, hvilket vil sige, at hver km får mindre betydning, jo tættere mængden nærmer sig de 120 km.
+Når man har en større træningsmængde er rationalet, at man bedre kan tolerere træning i de andre mere intensive træningskategorier som træning af den anaerobe tærskel og VO<sub>2</sub>max-træning.
 
-Med en større træningsmængde vil kroppen desuden på sigt kunne tolerere større mængder af de andre hurtigere kategorier som mælkesyretærskeltræning og VO2max-træning. Herudover bidrager roligt løb med mange af de samme fysiologiske forbedringer som udholdenshedstræning.
+Det rolige løb er med til at give de samme fysiologiske forbedringer som ved udholdenhedstræning.
 
 ### Udførelse
 
-Tempoet under udholdenstræning bør være ligesom under udholdenhedstræning. På de kortere ture kan der løbes en smule hurtigere, hvis overskuddet er til det. Specielt under grundtræning, der indeholder et minimum af intensivt løb, kan der løbes en smule hurtigere end normalt under roligt løb for at hæve den samlede træningsbelastning. Det er dog vigtig, turene ikke resulterer i egentlig træthed, men blot en følelse af at være blevet brugt.
+Tempoet under udholdenstræning bør være ligesom under udholdenhedstræning. På de kortere ture kan der løbes en smule hurtigere, hvis overskuddet er til det, men husk formålet med træningen.
+
+De rolige ture må ikke resultere i træthed, men du skal ende turene med en følelse af at af at være brugt.
 
 ### Hyppighed og mængde
 
-Roligt løb kan fyldes ind i næsten ubegrænsede mængder, sålænge den samlede træningsmængde ikke stiger for hurtigt. At træne roligt løb mere end en gang om dagen kan dog ikke anbefales for andre end meget øvede løbere, der i forvejen har en høj tolerance overfor store træningsmængder.
-Længden af en rolig tur ligger normalt fra 5-12 km.
-
-***
+Roligt løb kan bruges meget i træning, så længe den samlede træningsmængde ikke stiger for hurtigt. En rolig tur kan typisk ligge på 5-12 km.
 
 ## Restitutionstræning
 
