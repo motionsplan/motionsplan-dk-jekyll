@@ -11,7 +11,7 @@ tags:
   - restitution
 category:
   - Ernæring
-  - Konditionstræning
+  - Kondition
   - Løb
   - Styrketræning
 last_modified_at: 2019-03-03T20:34:52Z

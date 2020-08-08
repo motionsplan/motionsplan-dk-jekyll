@@ -4,14 +4,15 @@ permalink: /gaatest/
 excerpt: "Rockports 1,6 km gåtest er en submaksimal gangtest til at estimere konditallet ud fra tiden det tager at gennemføre testen. Testen er særligt velegnet for utrænede, folk i dårlig form, ældre og overvægtige."
 language: da
 header:
-  overlay_image: https://static.lakana.com/npg-global-us-east-1/photo/2017/04/05/people%20walking%20generic%20sidewalk_6381382_ver1.0_1280_720.jpg
-  teaser: https://static.lakana.com/npg-global-us-east-1/photo/2017/04/05/people%20walking%20generic%20sidewalk_6381382_ver1.0_1280_720.jpg
-  caption: "Gangtest: 1,6 km gåtest"
+  overlay_image: https://images.unsplash.com/photo-1434119261056-73a0f53c8306?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=80
+  teaser: https://images.unsplash.com/photo-1434119261056-73a0f53c8306?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  caption: "Rockports Gangtest: 1,6 km gåtest"
 category:
   - Kondition
 tags:
   - konditionstest
   - gang
+  - gåtest
   - submaksimal test
   - indirekte test
 last_modified_at: 2019-03-06T23:14:14Z

@@ -8,7 +8,7 @@ header:
   teaser: /assets/images/blog/kompressionsstroemper-en-god-ide.jpg
   caption: "Kompressionsstrømper"
 category:
-  - Konditionstræning
+  - Kondition
   - Løb
   - Viden om
 tags:

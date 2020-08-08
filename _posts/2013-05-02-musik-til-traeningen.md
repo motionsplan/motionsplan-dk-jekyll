@@ -13,8 +13,9 @@ tags:
   - træningsplanlægning
   - musik
 category:
-  - Konditionstræning
+  - Kondition
   - Styrketræning
+  - Løb
 last_modified_at: 2020-06-15T15:18:24Z
 ---
 

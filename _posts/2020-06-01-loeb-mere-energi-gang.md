@@ -9,7 +9,8 @@ header:
   caption: "Forbrænding af kalorier ved at gå og løbe"
 category:
   - Viden om
-  - Konditionstræning
+  - Kondition
+  - Løb
 tags:
   - sammenligning
   - energiforbrug

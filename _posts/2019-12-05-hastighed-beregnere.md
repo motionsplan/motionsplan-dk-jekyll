@@ -8,6 +8,7 @@ header:
   teaser: https://www.preparetoperform.net/uploads/4/8/6/3/48639259/s293680962926849687_p21_i4_w2560.jpeg
 category:
   - Kondition
+  - Løb
 tags:
   - løb
   - cykling

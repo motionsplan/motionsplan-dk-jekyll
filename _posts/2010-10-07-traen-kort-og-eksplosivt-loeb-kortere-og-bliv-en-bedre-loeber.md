@@ -9,6 +9,7 @@ tags:
   - løb
   - kondition
 category:
+  - Løb
 last_modified_at: 2011-04-14T11:04:07Z
 author: mads.davidsen
 ---
