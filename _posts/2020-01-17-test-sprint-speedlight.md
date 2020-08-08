@@ -17,6 +17,8 @@ toc: true
 
 Jeg er ved at lave et indlæg om sprintceller til at teste hurtighed. Hvis du kender noget til testen og gerne vil hjælpe med at lave en god indføring i sprintceller, så kontakt mig endelig.
 
+Artiklen er under opbygning, så lige nu er det mest en inspiration til en masse forskellige begreber, der har betydning for eksplosivitet og sprint.
+
 Hvis du gerne vil hjælpe med at forbedre artiklen, så skriv endelig til lars@vih.dk.
 
 *[GCT]: Ground Contact Time
