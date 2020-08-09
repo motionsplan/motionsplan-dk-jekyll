@@ -26,17 +26,15 @@ gallery:
     title: "Håndtag til at lave armbøjninger, armstrækninger og pushups"
 ---
 
-Jeg er blevet interesseret i safety bar squats, fordi har lidt vrøvl med skulderen. Mange mener at alle træningscentre bør have en god safety bar, men hvad en god bar, og hvilke fordele har en safety squat bar?
+Jeg er blevet interesseret i safety bar squats, fordi har lidt vrøvl med skulderen. Mange mener at alle træningscentre bør have en god safety bar, men hvad en god safety bar, og hvilke fordele har en safety squat bar?
 
-Hvad er en safety bar, og hvad bruges den til?
-
-**En safety squat bar er en vægtstang med polstring på nakken, håndtag man kan holde i, og så er der forskydning i den yderste del af stangen, hvor vægtskiverne sættes på.**
+Hvad er en safety bar, og hvad bruges den til? **En safety squat bar er en vægtstang med polstring på nakken, håndtag man kan holde i, og så er der forskydning i den yderste del af stangen, hvor vægtskiverne sættes på.**
 
 Polstringen på en safety bar gør, at stangen ligger højere på nakken end en almindelig squat stang, og vinklingen mellem håndtaget og skiverne gør, at tyngdepunktet flyttes længere frem end almindelige _back squats_.
 
 Typisk vil du derfor med en safety bar squatte lidt mere oprejst lidt ligesom du gør i en _front squat_.
 
-Chris Duffin fra Kabuki Strength [siger](https://www.spreaker.com/user/anders_nedergaard/236-chris-duffin_1), at en safety squat bar gør det meget lettere for folk, der har problemer med at komme dybt ned i en almindelig _back squat_ har færre problemer med at få rigeligt med dybde på en safety bar squat med en god teknik.
+Chris Duffin fra Kabuki Strength [siger, at en safety squat bar gør det meget lettere for folk](https://www.spreaker.com/user/anders_nedergaard/236-chris-duffin_1), der har problemer med at komme dybt ned i en almindelig _back squat_ har færre problemer med at få rigeligt med dybde på en safety bar squat med en god teknik.
 
 Når du laver front squat vil du efterhånden blive trukket lidt fremefter, særligt hvis du bliver træt i det øverste af ryggen og får problemer med at holde albuerne oppe.
 
@@ -44,9 +42,9 @@ Det samme sker ikke med safety squat, så det er lettere at lave mange gentagels
 
 ## Hvordan skal en safety bar se ud?
 
-{% include figure image_path="https://p6r9a9v8.stackpathcdn.com/wp-content/uploads/2017/11/IMG_0396-Edited_opt.jpg" caption="Yoke Safety Bar fra EliteFts" caption="Yoke Safety Bar fra EliteFts" %}
+{% include figure image_path="https://p6r9a9v8.stackpathcdn.com/wp-content/uploads/2017/11/IMG_0396-Edited_opt.jpg" caption="Yoke Safety Bar fra EliteFts" alt="Yoke Safety Bar til Squat fra EliteFts" %}
 
-Simon fra [supertraining.dk](http://supertraining.dk/) anbefaler safety bars, men han er ikke så vild med [Charles Poliquin](http://supertraining.dk/180-charles-poliquin-master-of-bullshit/).
+Simon fra [supertraining.dk](http://supertraining.dk/) anbefaler safety bars, men han er ikke så vild med [Charles Poliquins version af safety bar squats](http://supertraining.dk/180-charles-poliquin-master-of-bullshit/).
 
 Det handler nemlig om, at der skal være de rigtige vinkler i safety baren, så den har den rigtige balance på skuldrene.
 
@@ -54,7 +52,7 @@ En safety bar skal naturligvis være konstrueret på den rigtige måde, hvis man
 
 > Watson er ingen garanti for kvalitet. Deres Safety Bar fx er en vederstyggelighed. Absurd fejldesign, og de sletter bemærkninger desangående på YT (Youtube, red.).
 
---- <cite>[Bigshooter](http://supertraining.dk/146-qa-squats-leg-curls/)</cite>
+--- <cite>[Simon Bigshooter](http://supertraining.dk/146-qa-squats-leg-curls/)</cite>
 
 Vinklen mellem puderne og vægtene skal så vidt jeg har kunnet finde ud af være 22 grader. Nogle stænger har for lille vinkel, og Watsons Safety Bar har for stor en vinkel.
 
@@ -66,7 +64,7 @@ Hvis du vil undersøge specifikationerne for den oprindelige safety squat bar, s
 - **Grebet kan varieres og tyngdepunktet flyttes**. Man kan flytte rundt på tyngdepunktet i stangen ved at variere hvor man holder håndtagene.
 - **Mere sikker**. Det er mere sikkert med en safety bar at køre tæt på _failure_ under hypertrof-træning. Når stangen selv kan ligge på skuldrene, så kan tage fat i racket for at hjælpe dig selv op. Det vil jeg dog under ingen omstændigheder anbefale. Det er mest dumt ikke at have sat  _sikkerhedspins_ op i racket.
 
-## Safety bar kan bruges til mere end squat
+## En safety bar kan bruges til mere end squat
 
 {% include video provider="youtube" id="YN3meVAX5Gk" %}
 
@@ -127,13 +125,13 @@ Men **hvilke safety bars kan så anbefales**?
 
 Jeg har læst virkelig mange sites og [grundige anbefalinger](https://www.garagegymreviews.com/the-best-safety-squat-bar) rundt omkring på nettet for at finde ud af, hvilken bar jeg selv vil købe.
 
-Både [Christian Bach](https://nikolajbach.dk/safety-bar-squats/), [Bigshooter](https://andersnedergaard.dk/fitness-mk/fitness-m-k-233/) og [Coop fra garagegymreviews.com](https://www.garagegymreviews.com/the-best-safety-squat-bar) anbefaler safety baren fra EliteFts. 
+Både [Nikolaj Bach](https://nikolajbach.dk/safety-bar-squats/), [Simon Bigshooter](https://andersnedergaard.dk/fitness-mk/fitness-m-k-233/) og [Coop fra garagegymreviews.com](https://www.garagegymreviews.com/the-best-safety-squat-bar) anbefaler safety baren fra EliteFts. 
 
 - **[EliteFts Yoke Bar](https://www.elitefts.com/elitefts-ss-yoke-bar.html)**. EliteFts var blandt de første, der udviklede en safety bar. Den har først og fremmest det rigtige design, og så er den konstrueret til at håndtere meget vægt over lang tid.
 
 Her kan du se forskellige måder, safety baren fra EliteFts kan bruges på.
 
-{% include figure image_path="https://www.elitefts.com/wp/wp-content/uploads/2016/04/ssb3.jpg" caption="Yoke Safety Bar fra EliteFts" caption="Yoke Safety Bar fra EliteFts" %}
+{% include figure image_path="https://www.elitefts.com/wp/wp-content/uploads/2016/04/ssb3.jpg" caption="Yoke Safety Bar fra EliteFts" alt="Yoke Safety Bar til Squat fra EliteFts" %}
 
 [Coop](https://www.garagegymreviews.com/the-best-safety-squat-bar) anbefaler imidlertid også denne safety bar fra Titan. Garagegymreviews.com er uden tvivl et _affiliate_ site, men gennemgangen af de forskellige _safety bars_ er virkelig grundig.
 
