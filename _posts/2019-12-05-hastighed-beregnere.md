@@ -1,11 +1,12 @@
 ---
-title: "Hvad er min hastighed i km/t eller min/km?"
+title: &title "Hvad er min hastighed i km/t, m/s eller min/km? [Beregner]"
 permalink: /hastighed/
-excerpt: "Beregn hastighed i km/t eller min/km, så du ved hvor hurtigt du løber eller cykler eller til at lave træningsprogrammer med."
+excerpt: "Beregn din hastighed i km/t, m/s eller min/km, så du ved hvor hurtigt du løber eller cykler. Du kan også se en tabel, så du ikke behøver at regne."
 language: da
 header:
-  overlay_image: https://www.preparetoperform.net/uploads/4/8/6/3/48639259/s293680962926849687_p21_i4_w2560.jpeg
-  teaser: https://www.preparetoperform.net/uploads/4/8/6/3/48639259/s293680962926849687_p21_i4_w2560.jpeg
+  overlay_image: https://images.unsplash.com/photo-1526676537331-7747bf8278fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
+  teaser: https://images.unsplash.com/photo-1526676537331-7747bf8278fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  caption: *title
 category:
   - Kondition
   - Løb
@@ -17,7 +18,9 @@ last_modified_at: 2019-11-19T23:14:14Z
 toc: true
 ---
 
-Når jeg træner løb eller cykling, vil jeg typisk gerne kende den hastighed, jeg skal træne med. Typisk bruger jeg et GPS-ur til at holde styr på distancen og tiden, og uret kan naturligvis også udregne hastigheden på turen. Men når jeg laver træningsprogrammer, så er det rigtig godt at vide, hvilket tempo man skal følge undervejs.
+Når jeg træner løb eller cykling, vil jeg typisk gerne kende den hastighed, jeg skal træne med. Typisk bruger jeg et GPS-ur til at holde styr på distancen og tiden, og uret kan naturligvis også udregne hastigheden på turen. Men når jeg laver træningsprogrammer, så er det rigtig godt at vide, hvilket tempo man skal følge undervejs. Det kan denne beregner og tabel hjælpe med at regne km/t, m/s og min/km.
+
+Hvis du leder efter en [løbsberegner til træningstider og konkurrencetider, så tjek Jack Daniels Running Formula]({% link _posts/2020-08-01-jack-daniels-loebeberegner.md %}).
 
 ## Hvordan angiver man løbehastighed?
 
@@ -41,3 +44,7 @@ Typisk kan man i angive hastigheden på to forskellige måder:
 ## Hvorfor skal jeg kende min hastighed?
 
 Det gør virkelig en forskel i din træning om du rammer den rigtige intensitet. Det er særligt på de planlagte langsommere ture, at det giver god mening at kende sit tempo, så det ikke stiger for meget.
+
+## Tabel med km/t, m/s og min/km og andre tider
+
+{% include table-kmt-minkm.html %}
