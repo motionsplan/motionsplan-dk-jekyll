@@ -3,8 +3,8 @@ title: "Safety Bar Squat: Hvilken safety squat bar kan anbefales?"
 permalink: /safety-bar-squats/
 language: da
 header:
-  overlay_image: https://www.rogueeurope.eu/media/catalog/product/cache/5/rogue_header_2015/472321edac810f9b2465a359d8cdc0b5/c/e/cerakote-safety-squat-bar-h_1.jpg
-  teaser: https://www.rogueeurope.eu/media/catalog/product/cache/5/rogue_header_2015/472321edac810f9b2465a359d8cdc0b5/c/e/cerakote-safety-squat-bar-h_1.jpg
+  overlay_image: https://images.unsplash.com/photo-1534368575702-7c65b7474f91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
+  teaser: https://images.unsplash.com/photo-1534368575702-7c65b7474f91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
   caption: "Ikke alle safety bars er skabt ens. Vælg den rigtige safety bar til din squat!"
 category:
   - Styrketræning
