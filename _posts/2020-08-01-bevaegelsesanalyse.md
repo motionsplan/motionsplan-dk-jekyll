@@ -45,7 +45,7 @@ Så kan ud analysere de forskellige faser i bevægelsen bagefter. De fleste idr�
 - Hvilke led arbejder under bevægelsen i de forskellige facer?
 - Hvilke bevægelser foregår der? Sker der en fleksion, ekstension eller rotation i ledet?
 - Hvilke muskler arbejder i bevægelsen? 
-- Arbejder de aktive muskler excentrisk, koncentrisk eller statisk?
+- Arbejder de aktive muskler [excentrisk, koncentrisk eller statisk]({% link _posts/2020-08-11-excentrisk-koncentrisk.md %})?
 
 Nedenfor har jeg samlet en række videoer, der hjælper dig med at få styr på begreberne. Du kan også kigge under afsnittet om [led, ledtyper og bevægelse]({% link _pages/anatomy/joints.md %}).
 
