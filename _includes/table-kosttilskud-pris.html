@@ -1,0 +1,25 @@
+{% assign kosttilskud_values = site.data.kosttilskud-priser %}
+
+<table class="table">
+  {% for row in kosttilskud_values %}
+    {% if forloop.first %}
+    <thead>
+    <tr>
+      <th>{{ row.Kosttilskud }}</th>
+      <th>Dagspris (DKK)</th>
+      <th>{{ row.Note }}</th>
+    </tr>
+    </thead>
+    {% endif %}
+    {% if forloop.length == 1 %}
+    <tbody>
+    {% endif %}
+      <tr>
+        <td>{{ row.Kosttilskud }}</td>
+        <td>{{ row.Dagspris | round: 2 }}</td>
+        <td>{{ row.Note }}</td>
+      </tr>
+    {% if forloop.last %}
+    {% endif %}
+  {% endfor %}
+</table>

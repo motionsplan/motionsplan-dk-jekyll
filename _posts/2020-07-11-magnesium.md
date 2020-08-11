@@ -26,9 +26,11 @@ feature_row:
 
 Jeg har følt mig træt på det seneste, så derfor er jeg gået i gang med at researche lidt på, hvad magnesium er og hvordan magnesium virker? Kan det betale sig at tage magnesium som tilskud til kosten, eller får man rigeligt gennem de rigtige fødevarer?
 
-**Magnesium er et af de mest almindelige mineraler i kroppen. I menneskekroppen er der omkring 24 gram magnesium primært i knoglerne, musklerne og det bløde væv.**
+Hvad er magnesium? **Magnesium er et af de mest almindelige mineraler i kroppen. I menneskekroppen er der omkring 24 gram magnesium primært i knoglerne, musklerne og det bløde væv.**
 
-Men hvorfor er magnesium så vigtigt, og hvad bidrager mineralet egentligt til? Det kan du læse meget mere om herunder.
+Men hvorfor er magnesium så vigtigt? Hvad bidrager mineralet egentligt til?
+
+Det kan du læse meget mere om herunder, hvor jeg også konkluderer, at magnesium ikke er det første [kosttilskud, du skal overveje]({% link _posts/2020-08-11-kosttilskud.md %}).
 
 <div class="hidden">
 **Nøgleord**: magnesium piller, magnesium tilskud, magnesium bivirkninger, magnesium muskelkramper, magnesium muskelafslappende, hvilkem magnesium virker bedst?
@@ -45,6 +47,7 @@ Magnesium spiller en vigtig rolle i kroppens stofskifteprocesser, blandt andet v
 Magnesium er altså en nødvendighed for, at kroppens stofskifte fungerer, som den skal, at vi kan bruge vores muskler på normal vis, og at hjertet fungerer normalt. 
 
 Magnesium har en betydning for overførslen af nerveimpulser til muskler og hjertet. 
+
 Magnesium er også vigtig for funktionen af hormonet insulin, der bl.a. regulerer sukkerstofskiftet. 
 
 Studier viser, at en kost med et højt indtag af fødevarer, der er rige på magnesium, er vigtig for et normalt blodtryk og et normalt blodsukker, og magnesium giver en lavere risiko for at udvikle hjerte-kar sygdomme.
@@ -83,7 +86,7 @@ En almindelig multivitamin-mineral pille indeholder typisk 50 mg magnesium.
 
 Tilskud udelukkende med magnesium indeholder ofte mellem 150 og 300 mg.
 
-## Hvor finder jeg jeg det i kosten?
+## Hvor finder jeg magnesium i kosten?
 
 Som du kan se, spiller magnesium en vigtig rolle i rigtigt mange af kroppens funktioner. 
 
@@ -182,7 +185,7 @@ I meget alvorlige tilfælde af overdosering af magnesium kan der også forekomme
 
 ## Typer af magnesium i kosttilskud
 
-Der findes mange typer af magnesium i diverse kosttilskud, så man skal holde tungen lige i munden. Det er fx ikke nok at kigge på, hvor meget magnesium der er i kosttilskuddet. Hvis optageligheden er lav, så skal mængden naturligvis være højere for at give samme effekt.
+Der findes mange typer af magnesium i diverse [kosttilskud]({% link _posts/2020-08-11-kosttilskud.md %}), så man skal holde tungen lige i munden. Det er fx ikke nok at kigge på, hvor meget magnesium der er i kosttilskuddet. Hvis optageligheden er lav, så skal mængden naturligvis være højere for at give samme effekt.
 
 De forskellige typer af magnesium adskiller sig primært på, hvor lette de er at optage i kroppen, og hvad prisen er. Typisk ser det ud til, at prisen bliver højere, jo lettere magnesiumtypen er at optage.
 

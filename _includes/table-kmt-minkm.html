@@ -1,0 +1,30 @@
+<table class="table">
+    <thead>
+        <tr>
+            <th>km/h</th>
+            <th>m/s</th>
+            <th>min/km</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% assign kmt = 7 %}
+        {% for i in (1..80) %}
+        <tr>
+        <td>{{ kmt }}</td>
+        <td>{{ kmt | times: 0.2278 | round: 2 }}</td>
+        <td>
+            {% assign min = 60 | divided_by: kmt %}
+            {% assign min_out = min | floor %}
+            {% assign sec_out = min | minus: min_out | times: 60 | round: 0 %}
+            {% if sec_out < 10 %}
+             {{ her }}
+              {% assign sec_out = sec_out | downcase %}
+              {% assign sec_out = '0' | append: sec_out %}
+            {% endif %}
+            {{ min_out }}:{{ sec_out }}
+        </td>
+        {% assign kmt = kmt | plus: 0.2 %}
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
