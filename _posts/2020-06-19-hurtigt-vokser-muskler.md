@@ -5,7 +5,7 @@ language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1552084162-ec07b3f162dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
   teaser: https://images.unsplash.com/photo-1552084162-ec07b3f162dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
-  caption: Photo by Paweł Czerwiński on Unsplash
+  caption: "Hypertrofi: Hvor hurtigt vokser dine muskler? Photo by Paweł Czerwiński on Unsplash"
 category:
   - Viden om
 tags:
