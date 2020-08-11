@@ -1,6 +1,8 @@
 ---
 title: "De 11 bedste danske blogs om fitness og træning [2020]"
 permalink: /bedste-fitness-blogs/
+redirect_from:
+  - /artikel/vores-favoritter-om-styrketraening
 last_modified_at: 2020-07-24T09:41:09Z
 language: da
 header:
