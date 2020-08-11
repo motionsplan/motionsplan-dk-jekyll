@@ -186,7 +186,7 @@ Måske er det indholdet i fiskeolien mellem EPA og DHA eller også er der brugt 
 
 Du skal med indtagelse af fiskeolie ikke forvente, at få den samme effekt som ved at spise fede fisk.
 
-### Har måske en effekt
+### Kosttilskud som måske har en effekt
 
 Følgende ser ud til i litteraturen at kunne påvirke ens træthed. Hvis du har styr på din grundlæggende kostpyramide, og du derefter har styr på din pyramide over kosttilskud, så kan du overveje at læse mere op på følgende:
 
