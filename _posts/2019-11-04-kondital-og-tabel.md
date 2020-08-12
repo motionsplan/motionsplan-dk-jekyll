@@ -134,7 +134,7 @@ På formel ser det således ud:
 
 Kondital<sub>Index 23</sub> er altså en beskrivelse af en persons relative kredsløbskapacitet i forhold til det potentiale som den medfødte kropsstørrelse giver. Samtidigt er det en værdi der er nem at forklare for almindelige mennesker: "Dette er det kondital du ville have, såfremt du var normalvægtig"
 
-Det har også været foreslået at opløfte kropsvægten med 0,73, når man sammenligner kondital for bedre at tage højde for løbeøkonomi og give en mere retfærdig sammenligning mellem lette og tunge atleter. Læs fx mere i denne artikel [Effekt af Kropsvægt på den maksimale iltoptagelse](http://www.motion-online.dk/effekt-kropsvaegt-paa-maksimale-iltoptagelse/).
+Det har også været foreslået at opløfte kropsvægten med 0,73, når man sammenligner kondital for bedre at tage højde for [løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %}) og give en mere retfærdig sammenligning mellem lette og tunge atleter. Læs fx mere i denne artikel [Effekt af Kropsvægt på den maksimale iltoptagelse](http://www.motion-online.dk/effekt-kropsvaegt-paa-maksimale-iltoptagelse/).
 {: .notice .notice--warning }
 
 ## Falder konditallet med alderen?

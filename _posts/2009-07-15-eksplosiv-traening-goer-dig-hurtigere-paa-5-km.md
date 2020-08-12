@@ -34,11 +34,14 @@ Alle øvelserne blev udført eksplosivt.
 
 ## Kommentar
 
-Disse resultater er interessante og viser, at hvis du gerne vil løbe noget hurtigere, så kan det være en god ide at lave noget eksplosiv styrketræning. Efter vores mening kan træningen dog ikke helt karakteriseres som ekslosiv styrketræning, men snarere eksplosiv træning. Det vil være interessant at se, hvordan resultaterne ville være, hvis sprint- og springøvelserne var blevet suppleret med tung styrketræning for benenes muskler, fx squat og dødløft.
+Disse resultater er interessante og viser, at hvis du gerne vil løbe noget hurtigere, så kan det være en god ide at lave noget eksplosiv styrketræning. Efter vores mening kan træningen dog ikke helt karakteriseres som ekslosiv styrketræning, men snarere eksplosiv træning.
+
+Det vil være interessant at se, hvordan resultaterne ville være, hvis sprint- og springøvelserne var blevet suppleret med tung styrketræning for benenes muskler, fx squat og dødløft.
 
 Kender du nogle studier, der kan sige noget om det?
+
+Jeg har skrevet et indlæg om [løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %}), hvor du kan lære endnu mere om begrebet.
 
 ## Referencer
 
 - Paavolainen, Leena, Keijo Häkkinen, Ismo Hämäläinen, Ari Nummela, og Heikki Rusko. 1999. “Explosive-strength training improves 5-km running time  by improving running economy and muscle power”. Journal of Applied Physiology 86 (5): 1527–33. <https://doi.org/10.1152/jappl.1999.86.5.1527>.
-

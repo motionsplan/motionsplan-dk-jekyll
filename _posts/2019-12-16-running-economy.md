@@ -59,7 +59,7 @@ Løberens præstation er betinget af, hvor god vedkommende er til at udnytte den
 
 [Barness (2015)](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4555089/) afdækkede i sit systematiske review de faktorer forskere er begyndt at fokusere på i forbindelse med løbeøkonomi:
 
-{% include figure image_path=https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4555089/bin/40798_2015_7_Fig2_HTML.jpg caption=Faktorer som har betydning for løbeøkonomien efter Barness (2015) alt=Faktorer som har betydning for løbeøkonomien %}
+{% include figure image_path="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4555089/bin/40798_2015_7_Fig2_HTML.jpg" caption="Faktorer som har betydning for løbeøkonomien efter Barness (2015)" alt="Faktorer som har betydning for løbeøkonomien" %}
 
 I figuren er løbeøkonomien delt op i følgende punkter:
 
