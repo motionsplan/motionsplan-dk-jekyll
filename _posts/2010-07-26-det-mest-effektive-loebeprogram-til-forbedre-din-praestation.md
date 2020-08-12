@@ -16,7 +16,7 @@ last_modified_at: 2013-02-13T22:06:29Z
 
 Vi er i øjeblikket i færd med at undersøge, hvordan man kan lave et effektivt løbeprogram og strukturere sin løbetræning på for at blive en bedre løber. Hvis man gerne vil lave et effektivt løbeprogram skal man tage højde for iltoptagelsen, løbeøkonomien og udholdenheden.
 
-Med de få studier vi har set indtil nu, så står det helt klart at ens maksimale iltoptagelse ikke kan stå alene ift. at vurdere, hvor dygtig en løber man er. Det afgørende er hvor hurtigt man kan kan løbe, hvilket således også tager højde for løbeøkonomi, aerob og anaerob kapacitet og naturligvis også iltoptagelsen.
+Med de få studier vi har set indtil nu, så står det helt klart at ens maksimale iltoptagelse ikke kan stå alene ift. at vurdere, hvor dygtig en løber man er. Det afgørende er hvor hurtigt man kan kan løbe, hvilket således også tager højde for [løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %}), aerob og anaerob kapacitet og naturligvis også iltoptagelsen.
 
 Vi kigger på, bl.a.:
 

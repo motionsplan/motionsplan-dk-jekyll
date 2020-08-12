@@ -56,7 +56,7 @@ Der findes også formler, der inkluderer vægt, køn og alder. Hvis du bruger Co
 
 ## Usikkerheder i Cooper-testen
 
-12 minutters Cooper-test er forbundet med nogen usikkerhed. Fx vil folk med ekstrem god løbeøkonomi få overvurderet deres iltoptagelse, og folk med meget dårlig løbeøkonomi vil få undervurderet deres iltoptagelse.
+12 minutters Cooper-test er forbundet med nogen usikkerhed. Fx vil folk med ekstrem god løbeøkonomi få overvurderet deres iltoptagelse, og folk med meget dårlig [løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %}) vil få undervurderet deres iltoptagelse.
 
 ## Tabel over resultater fra Cooper-test
 
