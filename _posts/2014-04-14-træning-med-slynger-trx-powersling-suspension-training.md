@@ -1,12 +1,12 @@
 ---
-title: "Slyngetræning: Træning med slynger, TRX og PowerSling"
+title: "Slyngetræning: Træning med slynger, TRX og slyngetræner"
 permalink: /artikel/traening-med-slynger-trx-powersling-suspension-training
 redirect_from:
   - /artikel/træning-med-slynger-trx-powersling-suspension-training
 language: da
 header:
-  overlay_image: /assets/images/blog/traening-med-slynger-trx-powersling-suspension-training.jpg
-  teaser: /assets/images/blog/traening-med-slynger-trx-powersling-suspension-training.jpg
+  overlay_image: https://images.unsplash.com/photo-1581009137042-c552e485697a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
+  teaser: https://images.unsplash.com/photo-1581009137042-c552e485697a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
   caption: "Slyngetræning: Træning med slynger, TRX og PowerSling"
 tags:
   - trx
@@ -16,7 +16,9 @@ category:
 last_modified_at: 2019-03-06T23:00:18Z
 ---
 
-Hvis man hænger en snor op med to håndtag, kalder mand det 'suspension' træning. Træningsformen kaldes også slyngetræning, træning med slynger, TRX og Powersling. Man kan enten sætte hænderne eller fødderne i håndtagene og så er man klar til at udfordre hele kroppen med en varieret træning, som især udfordrer kropsstammen, fordi man skal stabilisere meget undervejs.
+Hvis man hænger en snor op med to håndtag, kalder mand det 'suspension' træning. Træningsformen kaldes også slyngetræning, træning med slynger, TRX og Powersling.
+
+Man kan enten sætte hænderne eller fødderne i håndtagene og så er man klar til at udfordre hele kroppen med en varieret træning, som især udfordrer kropsstammen, fordi man skal stabilisere meget undervejs.
 
 Du kan stort set lave suspension træning overalt. Det kræver bare et eller andet, du kan hænge din slynge op i - og de fleste systemer inden for træningsformen er konstrueret, så det er let at finde plads til dem.
 
