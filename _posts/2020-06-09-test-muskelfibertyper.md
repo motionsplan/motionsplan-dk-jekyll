@@ -151,7 +151,9 @@ Hvis du læser mine [grundige overvejelser om muskelfibertyper](/muskelfibertype
 
 ## Muskelbiopsi til at finde muskelfibertypesammensætning
 
-En muskelbiopsiv er et invasivt indgreb, hvor man med en stor nål tager et stykke af musklen ud, som man så kan analysere på under et mikroskop. 
+En muskelbiopsiv er et invasivt indgreb, hvor man med en stor nål tager et stykke af musklen ud, som man så kan analysere på under et mikroskop.
+
+Hvordan laver man en muskelbiopsi? **En muskelbiopsi udføres ved at lokalbedøve musklen. Herefter prikkes et lille hul i huden, og der indføres en tang, som tager et stykke muskelvæv ud. En muskelbiopsi kan være forbundet med ubehag. Undersøgelsen varer cirka 15-30 minutter.**
 
 {% include video provider="youtube" id="9RaErjFodnE" %}
 
