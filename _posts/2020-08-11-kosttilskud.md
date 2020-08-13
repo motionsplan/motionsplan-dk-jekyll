@@ -75,9 +75,9 @@ Hvis du ikke får dækket dit proteinbehov gennem kosten, så kan man tage prote
 
 Der er nemlig noget, der tyder på, at vi [bør tale om proteinindtag pr. måltid og ikke pr. dag](https://www.bodylab.dk/shop/boer-vi-i-2559c1.html). Proteinindtaget bør formentlig fordeles på 4-5 måltider over dagen, og dosis inden sengetid er dobbelt så stor som de øvrige måltider (Trommelen og Loon 2016)
 
-Kerksick og Schoenfeld (2017) skriver også, at det sandsynligvis er fordelagtigt at indtage protein lige efter træning. Det gælder ikke overraskende særligt, hvis man ikke har spist lige inden træning og har trænet i lang tid. Der kan det være let at medbringe en _shake_ med protein. Der er også nogle der taler om, at der er et [åbent vindue]({% link _posts/2011-09-14-udnyt-det-aabne-vindue-og-restituer-hurtigere.md %}) lige efter træning.
+Kerksick og Schoenfeld (2017) skriver også, at det sandsynligvis er fordelagtigt at indtage protein lige efter træning. Det gælder ikke overraskende særligt, hvis man ikke har spist lige inden træning og har trænet i lang tid. Der kan det være let at medbringe en _shake_ med protein. Der er også nogle der taler om, at der er et [åbent vindue]({% link _posts/2011-09-14-udnyt-det-aabne-vindue-og-restituer-hurtigere.md %}) lige efter træning, selvom det åbne vindue formentlig hverken åbner eller lukker så hurtigt eller tæt som tidligere foreslået.
 
-Den primære fordel ved proteinpulver er, at det let at medbringe det, så du kan få det på de rigtige tidspunkter på dagen. 
+Den primære fordel ved proteinpulver er, at det let at medbringe det, så du kan få det på de fordelt jævnt ud over dagen.
 
 Flere studier har undersøgt, hvor meget valleprotein man skal indtage lige efter træning. Det ser ud til at 20 g valleprotein medfører noget nær et maksimalt respons på muskelproteinsyntesn, mens 40 g medfører 10-20% yderligere stigning (Macnaughton et al Witard et al 2014; Moore et al 2009).
 
