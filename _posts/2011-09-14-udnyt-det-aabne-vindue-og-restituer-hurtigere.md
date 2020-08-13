@@ -101,6 +101,14 @@ Du kan se [Jeff Nippard](https://jeffnippard.com/) gennemgå det åbne vindue i 
 
 Kerksick et al (2017) konkluderer i deres "International society of sports nutrition position stand" i forhold til timing, at man får protein så hurtigt efter træning som muligt eller op til 2 timer.
 
+## Hvor meget protein skal du spise omkring træning?
+
+Aragon og Schoenfeld (2013) støtter fleksibiliteten om, hvornår man skal indtage protein. De giver en fejlsikker generel anbefaling, som kan give et akut maksimal anabolsk effekt på 0,4-0,5 g/kg af _lean body mass_ for og efter træning. For de fleste vil det give et spektrum mellem 20-40 gram protein. (Husk at de arbejder med lean body mass, som du kan læse lidt mere om under [kropskomposition]({% link _posts/2019-10-14-kropskomposition.md %})).
+
+Formentlig gør det ikke så meget at overskride denne dosering, men hvis du får for lidt protein, så maksimerer du ikke det opbyggende respons.
+
+Hvis du træner lang tid efter dit seneste måltid, så vil det formentlig kunne betale sig at få protein efter træning, hvis du gerne vil bygge muskler og have hypertrofi. Dvs. hvis træningen påbegyndes ~3-4 timer efter det forudgående måltid, så kan det overvejes at indtage noget proteinholdigt i nærheden af træningen.
+
 ## Hvem skal spise i det åbne vindue?
 
 - Hvis du dyrker hård træning, så skal du være opmærksom på at få mad omkring din træning.
@@ -116,7 +124,7 @@ Kerksick et al (2017) konkluderer i deres "International society of sports nutri
 
 ## Hvad spiser du så?
 
-Jeg har på et tidspunkt lært, at man lige efter kan optage 1 gram kulhydrat pr. kilo kropsvægt og 0,25 gram protein.
+Jeg har på et tidspunkt lært, at man lige efter kan optage 1 gram kulhydrat pr. kilo kropsvægt og 0,25 gram protein, hvilket i forhold til protein er lavere end anbefalingerne fra Aragon og Shoenfeld (2013).
 
 Jeg kan dog lige nu ikke finde studiet eller referencen, så brug meget gerne kommentarerne for at hjælpe med det.
 
@@ -128,6 +136,7 @@ Sørg for at få nok protein at spise omkring din træning, og det er også vigt
 
 ## Referencer om det åbne vindue
 
+- Aragon, Alan Albert, og Brad Jon Schoenfeld. 2013. “Nutrient timing revisited: is there a post-exercise anabolic window?” _Journal of the International Society of Sports Nutrition_ 10 (1): 5. [https://doi.org/10.1186/1550-2783-10-5](https://doi.org/10.1186/1550-2783-10-5).
 - Churchward-Venne, Tyler A, Nicholas A Burd, og Stuart M Phillips. 2012. “Nutritional regulation of muscle protein synthesis with resistance exercise: strategies to enhance anabolism”. _Nutrition & Metabolism_ 9 (maj): 40. [https://doi.org/10.1186/1743-7075-9-40](https://doi.org/10.1186/1743-7075-9-40).
 - Ivy, John L., og Lisa M. Ferguson-Stegall. 2014. “Nutrient Timing: The Means to Improved Exercise Performance, Recovery, and Training Adaptation”. _American Journal of Lifestyle Medicine_ 8 (4): 246–59. [https://doi.org/10.1177/1559827613502444](https://doi.org/10.1177/1559827613502444).
 - Kerksick, Chad M., Shawn Arent, Brad J. Schoenfeld, Jeffrey R. Stout, Bill Campbell, Colin D. Wilborn, Lem Taylor, m.fl. 2017. “International society of sports nutrition position stand: nutrient timing”. _Journal of the International Society of Sports Nutrition_ 14 (1): 33. [https://doi.org/10.1186/s12970-017-0189-4](https://doi.org/10.1186/s12970-017-0189-4).
