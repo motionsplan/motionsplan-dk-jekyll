@@ -175,66 +175,48 @@ Jeg kan godt lide at lave balancetræning uden sko, fordi fødderne får lov at 
 
 **Først** skal du kunne holde balancen stående på to ben, hvor du holder dig rank og stabil. Forestil dig at der er nogen, der blidt tager fat i dit hoved og trækker det lidt opad. Mærk hvordan kroppen hele tiden laver små mikrojusteringer i din balance, og hvordan trykket flytter sig rundt på fødderne. Det er den proprioceptive sans, der er på arbejde.
 
-<div class="hidden">
-Dr. Cobb foreslår følgende progression i balancetræningen.
+Marina Aagaard har [samlet en progression i sin balancetræning](http://marinaaagaardblog.com/2017/04/26/bedre-balance-traening-progression-af-ovelser-fra-let-til-udfordrende/) fra Dr. Cobb fra Zhealth i en ret overskuelig liste.
 
-Hoved i neutral stilling og i ro
-Statisk. På sted. Med hoved i ro. Med åbne øjne.
+Først starter du således:
 
-I bredstående (ved balanceproblemer) med let bøjede ben
-I bredstående med strakte (ikke låste) knæ
-I skulder- eller hoftebredde let bøjede
-I skulder- eller hoftebredde og strakte (ikke låste)
-Med samlede fødder med let bøjede ben
-Med samlede fødder med strakte (ikke låste knæ)
-Med fødder forskudt og på linje (let øvet)
-På et ben (let øvet) med let bøjet knæ
-På et ben med strakt (ikke låst) knæ
+- Hoved i neutral stilling og i ro
+- Statisk. På stedet. Med hovedet i ro. **Med åbne øjne**.
 
-Dernæst:
+Derefter arbejder du dig med forskellige standpositioner, hvor det gradvist bliver sværere:
 
-Statisk. På sted. Med hoved i ro. Lukkede øjne [man kan evt. et lukke et ad gangen].
+- I bredstående med let bøjede ben
+- I bredstående med strakte knæ
+- I skulder- eller hoftebredde let bøjede
+- I skulder- eller hoftebredde og strakte ben
+- Med samlede fødder med let bøjede ben
+- Med samlede fødder med strakte knæ
+- Med fødder forskudt og på linje (let øvet)
+- På et ben (let øvet) med let bøjet knæ
+- På et ben med strakt knæ
 
-Med samlede fødder (begynder)
-Med fødder forskudt og på linje (let øvet)
-På et ben (let øvet)
-Benene kan være let bøjede eller strakte og [næsten] låst.
+Når du mestrer de øvelser, så kan du gå videre til følgende:
 
-Der kan tilføjes elastikmodstand (arme strakt frem foran krop med ene ende af elastik i hænder. Elastik fæstet til højre eller venstre for krop, lige ud for eller oppe eller nede fra.
-Armene holdes strakt og i ro; trækket fra elastikken vil udfordre balancen.
+- Statisk. På stedet. Med hovedet i ro. Lukkede øjne (du kan også eksperimentere med at lukke et øje ad gangen).
 
-Med hoved i en anden stilling og i ro
-Hovedet, halsen, kan være:
+Med lukkede øjne gør du følgende:
 
-drejet til højre
-drejet til venstre
-strakt op, kig mod loft
-bøjet ned, kig mod gulv
-sidebøjet til højre
-sidebøjet til venstre
-Ved almindelig god fysisk form:
+- Med samlede fødder (begynder)
+- Med fødder forskudt og på linje (let øvet)
+- På et ben (let øvet)
+- Benene kan være let bøjede eller strakte ben.
 
-Start med fødder samlede. Alternativt forskudt.
-Bevæg hoved ud og hold i 15-30 sekunder i stillingen. Opbyg udholdenhed i stilling.
-Hovedet i alle seks stillinger.
-Dernæst:
+Nu er det tid til at **udfordre hovedets stilling og bevægelse**:
 
-Stå på et ben i stedet for. Efter et sæt skiftes der ben.
-Bevæg hoved og hold i 15-30 sekunder i stillingen. Opbyg udholdenhed i stilling.
-Hovedet i alle seks stillinger.
-Dernæst:
+Du kan enten arbejde med at holde hovedet i ro eller ved at sætte bevægelse på hovedet. Hovedet og halsen kan være:
 
-Stå på begge ben med lukkede øjne.
-Bevæg hoved og hold i 15-30 sekunder i stillingen. Opbyg udholdenhed i stilling.
-Alle stillinger.
-Dernæst:
+- drejet til højre
+- drejet til venstre
+- strakt op, kig mod loft
+- bøjet ned, kig mod gulv
+- sidebøjet til højre
+- sidebøjet til venstre
 
-Stå på et ben (skift ben efter et sæt) med lukkede øjne. Efter et sæt skiftes der ben.
-
-Bevæg hoved og hold i 15-30 sekunder i stillingen.
-Opbyg udholdenhed i stilling.
-Alle stillinger.
-</div>
+Når du har lavet ovenstående statisk, fx med 15-30 sekunder i alle stillingerne, kan du eksperimentere med forskellige måder at have fødderne på og begynde at bevæge hovedet rundt i forskellige stillinger.
 
 ## Test af balance
 
