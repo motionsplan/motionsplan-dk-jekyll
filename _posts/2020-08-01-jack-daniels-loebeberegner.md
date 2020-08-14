@@ -85,7 +85,7 @@ Udholdenhedstræning kaldes også sommetider for Long Slow Distance (LSD). Når 
 
 Udholdenhed er naturligvis vigtig, når du træner langdistanceløb. Udholdenhedstræningen fremmer kroppens evne til at tolerere bevægelse over længere tid, evnen til at forbrænde fedt og forbedre kredsløbet.
 
-Grundlæggende forbedrer udholdenhedstræning kredsløbet og og den aerobe kapacitet. Der sker altså nogle [fysiologiske tilpasninger og adaptation er til udholdenhedstræning]({ % link _posts/2020-05-31-tilpasning-konditionstraening.md %}).
+Grundlæggende forbedrer udholdenhedstræning kredsløbet og og den aerobe kapacitet. Der sker altså nogle [fysiologiske tilpasninger og adaptation er til udholdenhedstræning]({% link _posts/2020-05-31-tilpasning-konditionstraening.md %}).
 
 - Der kommer flere mitochondrier, som bliver mere effektive.
 - Der kommer flere små blodårer (kapilærer) omkring musklerne og ved lungerne

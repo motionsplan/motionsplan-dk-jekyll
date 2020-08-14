@@ -98,7 +98,7 @@ På formel ser løbeøkonomien altså sådan her ud:
 
 RE = VO<sub>2</sub> (ml/kg/min) / v (km/min)
 
-Hvis du har adgang til et løbebånd, så får du oftest værdierne for iltoptagelsen som l/min og hastigheden som km/t.
+Hvis du har adgang til et [løbebånd]({% link _posts/2020-08-14-loebebaand.md %}), så får du oftest værdierne for iltoptagelsen som l/min og hastigheden som km/t.
 
 Du kan taste disse værdier ind i følgende beregner og få beregnet din løbeøkonomi.
 
