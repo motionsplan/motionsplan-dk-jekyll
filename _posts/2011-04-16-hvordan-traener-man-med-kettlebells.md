@@ -1,10 +1,11 @@
 ---
-title: "Hvordan træner man med kettlebells?"
+title: &title "Hvordan træner man med kettlebells?"
 permalink: /artikel/hvordan-traener-man-med-kettlebells
 language: da
 header:
-  overlay_image: /assets/images/blog/hvordan-traener-man-med-kettlebells.jpg
-  teaser: /assets/images/blog/hvordan-traener-man-med-kettlebells.jpg
+  overlay_image: https://images.unsplash.com/photo-1517344800994-80b20463999c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
+  teaser: https://images.unsplash.com/photo-1517344800994-80b20463999c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  caption: *title
 tags:
   - styrketræning
   - kettlebell
@@ -17,14 +18,14 @@ feature_row:
     title: "Peak Fitness Kettlebell"
     excerpt: "En super lækker kettlebell af støbejern, som er delvist betrukket med et kraftigt lag neopren for at beskytte gulv."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/peak-fitness-12-kg-kettlebell/"
-    btn_label: "Læs mere"
+    btn_label: "Tjek prisen*"
     btn_class: "btn--success"
   - image_path: https://www.fotoagent.dk/single_picture/11803/138/custom1/12_kg._Competition_Kettlebell_clipped_rev_1.jpg
     alt: "Peak Fitness Competition Kettlebell"
     title: "Peak Fitness Competition Kettlebell"
     excerpt: "Peak Fitness Competition Kettlebells er lavet af stål, og har de internationale farvekoder, hvilket gør det nemt at kende de forskellige kg. fra hinanden. Håndtaget er poleret og giver en god komfort."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/peak-fitness-12-kg-competition-kettlebell/"
-    btn_label: "Læs mere"
+    btn_label: "Tjek prisen*"
     btn_class: "btn--success"
 toc: true
 ---
