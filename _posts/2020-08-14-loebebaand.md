@@ -72,7 +72,7 @@ Mange professionelle bruger løbebåndet, som en del af deres daglige træning. 
 
 Barton (2016) fandt også løbebåndet hjælpsomt, når træneren skal give øjeblikkelig feedback enten visuelt på en skærm eller verbal feedback til den pågældende løbestil.
  
-### 4) Træn varieret
+### 4) Træn varieret på løbebåndet
 
 Ligesom med al anden træning så er _variation_ på løbebåndet også fornuftigt. Variationen kan ligge i den måde du tilrettelægger træningen i forhold til distance, tempo, intervaller og hældning.
 
@@ -81,6 +81,8 @@ Jeg synes ikke løbetræning er så inspirerende med mindre jeg har et mål og n
 Hvis du laver nogle inspirerende omgivelser, så kan der faktisk være fine udfordringer på løbebåndet, som et supplement til at træne udendørs. 
 
 Du kan [løbe bakkesprints](https://www.rekordjagt.dk/loebebaand-intervaltraening/) og [intervalløb]({% link _posts/2020-06-15-intervallob.md %}) på løbebåndet.
+
+## Opsamling på løbebånd vs. udendørs løb
 
 Her er en god guide til at komme i gang med at løbe på et løbebånd. Der er nogle små tips til løbebåndet, som kan være gode at kende i forhold til at løbe udenfor.
  
