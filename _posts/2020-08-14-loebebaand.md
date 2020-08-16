@@ -53,7 +53,7 @@ Det har også været anført, at man på et løbebånd ikke aktiverer bagkæden 
 
 Du bruger lidt mindre ilt, når du løber på et fladt løbebånd sammenlignet med at løbe udenfor. Jones og Doust (1996) fandt i deres studium, at en hældning på omkring 1% på løbebåndet er med til at simulere det samme energiforbrug som bliver brugt på udendørs løb.
  
-{% include figure image_path=https://www.researchgate.net/profile/Andrew_Jones18/publication/14320136/figure/fig1/AS:601591753232386@1520442059508/figure-fig1.png caption=Figur viser forskelle målt på iltforbrug mellem udendørs løb og løb på løbebånd med forskellige hældninger. Figur fra [Jones og Doust (1996)](http://www.ncbi.nlm.nih.gov/pubmed/8887211). %}
+{% include figure image_path="https://www.researchgate.net/profile/Andrew_Jones18/publication/14320136/figure/fig1/AS:601591753232386@1520442059508/figure-fig1.png" caption="Figur viser forskelle målt på iltforbrug mellem udendørs løb og løb på løbebånd med forskellige hældninger. Figur fra [Jones og Doust (1996)](http://www.ncbi.nlm.nih.gov/pubmed/8887211)." %}
 
 Det gælder ikke nødvendigvis for alle hastigheder, da Jones og Doust (1996) først fandt siginfikante resultater, da hastigheden blev højere end 12,87 km/t på løbebåndet.
 Kender du andre studier i forhold til _incline_ på løbebåndet, der kan gøre os alle klogere, så brug endelig kommentarerne.
@@ -62,7 +62,7 @@ Kender du andre studier i forhold til _incline_ på løbebåndet, der kan gøre 
  
 Jeg synes ikke det er så spændende at løbe på løbebånd selv, men når jeg har et specifikt formål, så giver det meget god mening.
  
-Når jeg arbejder med et specifikt teknisk fokus eller et øget _pace_, så synes jeg et løbebånd kan være godt at træne på. Her kan jeg lettere filme min egen træning og se, hvordan løbeteknikken er. Det gør det muligt at arbejde med [løbeøkonomien]({% link_posts/2019-12-16-running-economy.md %}) på en meget præcis måde, fordi du kan kontrollere hastigheden og måle pulsen. 
+Når jeg arbejder med et specifikt teknisk fokus eller et øget _pace_, så synes jeg et løbebånd kan være godt at træne på. Her kan jeg lettere filme min egen træning og se, hvordan løbeteknikken er. Det gør det muligt at arbejde med [løbeøkonomien]({% link _posts/2019-12-16-running-economy.md %}) på en meget præcis måde, fordi du kan kontrollere hastigheden og måle pulsen. 
  
 Jeg er naturligvis opmærksom på at mekanikken er en lille smule anderledes på løbebåndet end når jeg løber udendørs.
  
@@ -72,7 +72,7 @@ Mange professionelle bruger løbebåndet, som en del af deres daglige træning. 
 
 Barton (2016) fandt også løbebåndet hjælpsomt, når træneren skal give øjeblikkelig feedback enten visuelt på en skærm eller verbal feedback til den pågældende løbestil.
  
-### 4) Træn varieret
+### 4) Træn varieret på løbebåndet
 
 Ligesom med al anden træning så er _variation_ på løbebåndet også fornuftigt. Variationen kan ligge i den måde du tilrettelægger træningen i forhold til distance, tempo, intervaller og hældning.
 
@@ -82,8 +82,10 @@ Hvis du laver nogle inspirerende omgivelser, så kan der faktisk være fine udfo
 
 Du kan [løbe bakkesprints](https://www.rekordjagt.dk/loebebaand-intervaltraening/) og [intervalløb]({% link _posts/2020-06-15-intervallob.md %}) på løbebåndet.
 
+## Opsamling på løbebånd vs. udendørs løb
+
 Her er en god guide til at komme i gang med at løbe på et løbebånd. Der er nogle små tips til løbebåndet, som kan være gode at kende i forhold til at løbe udenfor.
  
-{% include video provider=youtube id=3e_aZ6298SM %}
+{% include video provider="youtube" id="3e_aZ6298SM" %}
 
 Du kan selv prøve en tur på løbebåndet for at se, hvordan du synes det er i forhold til at løbe udendørs.
