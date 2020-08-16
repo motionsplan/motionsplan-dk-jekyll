@@ -155,6 +155,12 @@ FTP = 88% * V<sub>max</sub>
 
 — <cite>[Shaw et al (2015)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4388468/)</cite>
 
+## Forskel på mænd og kvinders løbeøkonomi
+
+> At all common test velocities, women were more economical than men.
+
+— <cite>[Barnes et al (2014)](https://www.researchgate.net/publication/257814408_Lower-Body_Determinants_of_Running_Economy_in_Male_and_Female_Distance_Runners#read)</cite>
+
 ## Opsamling på løbeøkonomi
 
 Hvis du ved mere om løbeøkonomi, så brug endelig kommentarerne.

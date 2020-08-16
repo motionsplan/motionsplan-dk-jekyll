@@ -19,11 +19,24 @@ tags:
   - løbe beregner
   - løb
 toc_sticky: false
+feature_row:
+  - image_path: https://cdn6.tales.dk/00039/86456/cover.1579497278.jpg
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/daniels-running-formula_jack-daniels_9781450431835
+    title: "Daniels' Running Formula"
+    excerpt: "Jack Daniels was named the world's best running coach by Runner's World magazine, and his best-selling book, Daniels' Running Formula, shows you why. Whether your race of choice is the 800 meters, the marathon, or anything in between, Daniels' Running Formula, Third Edition, offers a proven recipe for success."
+    btn_label: "Tjek prisen hos Tales*"
+    btn_class: "btn--info"
+  - image_path: https://cdn6.tales.dk/00001/70394/cover.1568203219.jpg
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390
+    title: "Løb som eliten"
+    excerpt: "Claus Hechmanns bog LØB SOM ELITEN er handler om, hvordan du skal træne for at blive en hurtigere løber og få mest muligt ud af dit potentiale. Bogen indeholder fem specialdesignede 12-ugers programmer til distancerne 5 km, 10 km og helt op til maraton."
+    btn_label: "Tjek prisen hos Tales*"
+    btn_class: "btn--danger"
 ---
 
 Jeg har lavet en løbeberegner baseret på Løbesiden, der kan beregne dit træningstempo og konkurrencetider ud fra Jack Daniels Running Formula. Enhver løbeside med respekt for sig selv skal naturligvis have en løbsberegner.
 
-Den avancerede løbsberegner er baseret på [Jack Daniels Running Formula](https://runsmartproject.com/calculator/), og den kan udregne træningstider til din løbetræning og konkurrencetider.
+Den avancerede løbsberegner er baseret på [Jack Daniels Running Formula](https://runsmartproject.com/calculator/), og den kan udregne træningstider til din løbetræning og konkurrencetider. Jack Daniels har beskrevet det i sin bog [Running Formula\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/daniels-running-formula_jack-daniels_9781450431835). Tjek prisen på bogen hos [Tales\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/daniels-running-formula_jack-daniels_9781450431835).
 
 Ved at indtaste aktuelle konkurrencetider ind i løbeberegneren, kan du finde løbetider og hvilken tempo du bør træne efter i forskellige zoner og træningsmetoder.
 
@@ -39,15 +52,16 @@ Løbesidens beregner udregner V<sub>dot</sub>, som er defineret som:
 
 --- <cite>[fellrnr.com](https://fellrnr.com/wiki/VDOT)</cite>
 
-V<sub>dot</sub> indregner på sin vis [løbeøkonomien]({% link _posts/2019-12-16-running-economy.md %}), hvilket jeg synes er meget smart.
+V<sub>dot</sub> indregner på sin vis [løbeøkonomien]({% link _posts/2019-12-16-running-economy.md %}).
 
-Formålet med beregneren er dels at udregne træningstider til din løbetræning, som giver dig mindst mulig risiko skader, men samtidig sikrer en fremgang, så din [kondition]({% link _posts/2019-11-04-kondition-og-test.md %}) bliver bedre.
+Formålet med beregneren er dels at udregne træningstider til din løbetræning, som giver dig mindst mulig risiko for skader, men samtidig sikrer en fremgang over længere tid, så din [kondition]({% link _posts/2019-11-04-kondition-og-test.md %}) bliver bedre, men så du også flytter din udholdenhed og løbeøkonomi.
 
 De **konkurrencetider** du udregner i beregneren er et udtryk for de bedst muligt tider, du kan løbe.
 
 **Nybegyndere kan have svært ved at konvertere de kortere distancer udregnet i løbeberegneren til maratontider**, da det vanskeligt at løbe optimalt over så lang en distance for nybegyndere. [Løbesiden](https://loebesiden.dk/beregninger/) foreslår at man lægger 10-20 minuttter oven i den udregnede sluttid for de lange distancer, hvis du er bgynder. 
 
-**Erfarne løbere** skal også følge et løbeprogram for at kunne løbe op mod konkurrencetiderne fra beregneren. 
+**Erfarne løbere** skal også følge et løbeprogram for at kunne løbe op mod konkurrencetiderne fra beregneren.
+
 ## Hvordan bruger jeg løbsberegneren?
 
 Du skal kun indtaste tider ind i beregneren, som du rent faktisk har løbet. Hvis du taster tider ind, du godt kunne tænke dig at løbe, så bliver træningstiderne for hurtigere, og du ender med risiko for overbelastning og skader.
@@ -55,13 +69,23 @@ Du skal kun indtaste tider ind i beregneren, som du rent faktisk har løbet. Hvi
 
 {% include calculate-jack-daniels.html %}
 
+## Betragtninger om Jack Daniels løbeberegner
+
+Træningstempoet udregnet ved hjælp af Jack Daniels Running Formula er ofte baseret på konkurrencetempo for fx 5 kilometer.
+
+Claus Hechmann påpeger i sin bog [Løb som eliten\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390), at udregninger baseret på så korte løb primært tager udgangspunkt i den maksimale iltoptagelse, men ikke tager højde for udholdenheden i tilstrækkelig grad.
+
+Det betyder i praksis for løbere, som ikke har en så god udholdenhed (altså evne til at bruge fedtforbrænding ved forskellige hastigheder), vil ende hastigheder i de langsommere løb, som ikke tilgodeser forbedring af fedtforbrændingen i tilstrækkeligt omfang.
+
+Hechmann foreslår i sin virkelig gode og grundige bog en 10 minutters test og en 60 minutters test for at få indblik i tempoet ved den maksimale iltoptagelse og tempoet ved den anaerobe tærskel. Du kan [tjekke prisen på Hechmanns bog hos Tales.dk\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390).
+
 Jeg har skrevet lidt mere om i det følgende, hvordan du kan bruge oplysningerne fra løbsberegneren til at planlægge din egen træning.
 
 ## Hvordan laver jeg et løbeprogram?
 
 Når du skal lave et løbeprogram, så er der flere faktorer, du kan tage hensyn til. Hvis du vil lave et alsidigt effektivt program til løb, så kan det være godt at tænke forskellige træningskategorier ind i træningen.
 
-Grundlæggende kan man i løbe lave træningszoner ud fra følgende faktorer.
+Grundlæggende kan man i løb lave træningszoner ud fra følgende faktorer.
 
 - **Hastighed**. Du kan udregne hvilke tider, du skal løbe med i løbsberegneren fra Jack Daniels. Det kræver enten en løbebane eller andre opmålte distancer eller et GPS-ur at træne på denne måde.
 - **Puls**. Du skal bruge en pulsmåler og kan [udregne pulszoner til træning her]({% link _posts/2019-10-31-intensitet-puls.md %}).
@@ -69,9 +93,11 @@ Grundlæggende kan man i løbe lave træningszoner ud fra følgende faktorer.
 
 Ved at tænke løbetræningen ind i forskellige træningskategorier, kan man tage højde for [kroppens forskellige energisystemer]({% link _posts/2019-11-14-energisystemer-101.md %}), som er nødvendige for effekten af løbetræningen.
 
-Det kan være meget [effektivt at løbe fem kilometer med høj intensitet tre gange om ugen]({% link _posts/2010-07-26-det-mest-effektive-loebeprogram-til-forbedre-din-praestation.md %}), men på sigt kan du formentlig få endnu bedre resultater af dit løbeprogram og blive ved med at få fremgang. Når du varierer træningen, bliver den forhåbentlig også mere inspirerende.
+Det kan være meget [effektivt at løbe fem kilometer med høj intensitet tre gange om ugen]({% link _posts/2010-07-26-det-mest-effektive-loebeprogram-til-forbedre-din-praestation.md %}), men på sigt kan du få endnu bedre resultater af dit løbeprogram ved at variere det tempo, du løber i. Når du varierer træningen, bliver den forhåbentlig også mere inspirerende.
 
-## Træningskategorier
+{% include feature_row type="left" %}
+
+## Træningskategorier til løbsberegneren
 
 I det følgende har jeg forsøgt at beskrive forskellige træningskategorier, som kan bruges i dit løbeprogram. Lad os dykke ned i de forskellige træningskategorier.
 
@@ -112,7 +138,7 @@ Udholdenhedstræning kan fx fylde omkring 25-30% af ugens samlede træningsmæng
 
 Træning af den anaerobe tærskel er en vigtig træningsform for distanceløbere, men hvad er mælkesyretærsklen eller den anaerobe tærskel?
 
-**Den anaerobe tærskel eller mælkesyregrænsen er det tidspunkt, hvor musklerne og leveren ikke længere kan nå at nedbryde mælkesyren lige så hurtigt som den skabes som biprodukt af en anaerob forbrænding i mitochondrierne. Når man løber voer den anaerobe tærskel, vil man altså langsomt opbygge mere og mere mælkesyre i kroppen.**
+Hvad er den anaerobe tærkel? **Den anaerobe tærskel eller mælkesyregrænsen er det tidspunkt, hvor musklerne og leveren ikke længere kan nå at nedbryde mælkesyren lige så hurtigt som den skabes som biprodukt af en anaerob forbrænding i mitochondrierne. Når man løber voer den anaerobe tærskel, vil man altså langsomt opbygge mere og mere mælkesyre i kroppen.**
 
 Den anaerobe tærskel er der, hvor kroppen gradvist går fra forbrænding med ilt (aerob forbrænding) til en proces, hvor musklerne ikke har ilt til stede.
 
@@ -312,10 +338,12 @@ Restitutionstræning kan lægges ind flere tidspunkter i dit program for at styr
 
 Når du har gennemført et restitutionsløb, skal du gerne have følelsen af overskud. Typisk vil du også have fornemmelsen af, at du godt kunne have lavet mere, men lad dig ikke friste.
 
-## Hvordan bruger jeg resultaterne fra løbsberegneren?
+## Hvordan bruger jeg resultaterne fra Løbesidens løbsberegner?
 
 Jeg synes godt det kan være lidt vanskeligt at bruge hastighederne, når jeg løber i skoven, som er mit foretrukne sted at løbe. Der skal ikke mange bakker op og ned inden det er vanskeligt at følge de foreskrevne tider.
 
 Jeg bliver også sommetider for ivrig og kommer til at løbe hurtigere på de lidt løbetider, som har til formål at sætte løbetempoet for en træning med lavere intensitet.
 
 I disse tilfælde kan jeg også godt lide at planlægge min løbetræning på baggrund af min [puls og pulszonerne]({% link _posts/2019-10-31-intensitet-puls.md %}).
+
+{% include gallery id="feature_row" caption="Du kan købe bøgerne hos [Tales\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214) eller hos [Saxo\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264)." %}

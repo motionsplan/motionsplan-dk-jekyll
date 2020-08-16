@@ -211,7 +211,9 @@ De første gange jeg selv udførte de fem tibetanere havde jeg udskrevet en guid
 
 Det her er en rigtig god PDF, som du kan downloade og udskrive, så du hjemme selv kan lave øvelserne.
 
-[Udskrive øvelserne med forklaring](http://www.balancen.net/tibetanere.pdf){: .btn .btn--large .btn--danger }
+[Udskriv øvelserne med forklaring](http://www.balancen.net/tibetanere.pdf){: .btn .btn--large .btn--danger }
+
+{% include gallery id="yogastream" caption="YogaStream er et online yogaunivers med over 1000 yoga- og meditationsvideoer. Du bliver guidet af dygtige og erfarne instruktører lige når det passer dig. Få den [første måned gratis gennem vores link*](http://motionsplan.yogastream.dk)." %}
 
 ### Video af tibetanerne
 
@@ -237,7 +239,7 @@ Du behøver ikke noget udstyr for at kunne udføre de fem tibetanere. Jeg plejer
 
 Det synes jeg især er rart til de øvelser, hvor man ligger ned, men det giver også et meget bedre greb, når man fx laver rite 5, som også kaldes _downward dog_.
 
-Jeg anbefaler derfor, at du bruger en yogamåtte, når du laver tibetanerne, men især hvis du også laver anden træning. Så kan det godt betale sig at investere i en yogamåtte af høj kvalitet. På [www.denintelligentekrop.dk](https://www.denintelligentekrop.dk/) har de masser af udstyr til yoga, og du kunne starte med at kigge på Manduka X Yoga Mat, som er virkelig lækker.
+Jeg anbefaler derfor, at du bruger en yogamåtte, når du laver tibetanerne, men især hvis du også laver anden træning. Så kan det godt betale sig at investere i en yogamåtte af høj kvalitet. På [www.denintelligentekrop.dk\*](https://www.denintelligentekrop.dk/) har de masser af udstyr til yoga, og du kunne starte med at kigge på Manduka X Yoga Mat, som er virkelig lækker.
 
 {% include feature_row id="feature_row_yogamat" type="left" %}
 
@@ -269,7 +271,7 @@ De 5 tibetanere påstås allerede efter et par ugers træning at kunne:
 
 ## Historien om de fem tibetanere
 
-I de næste par afsnit dykker jeg lidt ned i historien bag de fem tibetanere. De var aldrig blevet så udbredte og populære i vesten, hvis ikke Peter Kelder havde skrevet sin [anbefalelsesværdige bog](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-bog-1). Men hvordan fik Peter Kelder øjnene op for De fem tibetanere.
+I de næste par afsnit dykker jeg lidt ned i historien bag de fem tibetanere. De var aldrig blevet så udbredte og populære i vesten, hvis ikke Peter Kelder havde skrevet sin [anbefalelsesværdige bog\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-bog-1). Men hvordan fik Peter Kelder øjnene op for De fem tibetanere.
 
 Hemmeligheden om _ungdommens kilde_ var i mange tusind år forbeholdt de tibetanske munke.
 
@@ -367,4 +369,4 @@ Vi har et andet indlæg her på sitet, der handler om [Mindfulness meditation]({
 
 <a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=37797" target="_blank" rel="nofollow noopener"><img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=37797" border="0" alt=""></a>
 
-## Noter
+## Noter til de 5 tibetanere
