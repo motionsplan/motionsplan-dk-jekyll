@@ -32,6 +32,13 @@ feature_row_feature:
     url: "/lobeokonomi/"
     btn_label: "Lær om løbeøkonomi"
     btn_class: "btn--info"
+  - image_path: https://images.unsplash.com/photo-1512941675424-1c17dabfdddc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+    alt: "Løbeteknik"
+    title: "Løbeteknik og løbestil"
+    excerpt: "Når du løber, så kan det være en rigtig god ide at tænke over din løbeteknik og løbestil. Jeg kigger her på, hvilke elementer i din løbestil, du kan arbejde med, hvis du vil forbedre din teknik, når du løber."
+    url: "/loebeteknik/"
+    btn_label: "Lær om løbeteknik og løbestil"
+    btn_class: "btn--info"
 feature_row:
   - image_path: https://cnet1.cbsistatic.com/img/Y3vodO8bMPi6qlFLRF3xFcQpLHo=/1092x0/2019/07/26/114f1721-1a71-42bc-b1a4-cb35299bedbc/gettyimages-640493589.jpg
     alt: "Kondition og tests"

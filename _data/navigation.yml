@@ -6,6 +6,8 @@ main:
     url: /styrke/
   - title: "Kondition"
     url: /kondition/
+  - title: "Løbesiden"
+    url: /loebesiden/
 #  - title: "Træningslære"
 #    url: /fysiologi/
 #  - title: "Træningslære"
