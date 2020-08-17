@@ -31,7 +31,7 @@ feature_row:
 
 Jeg har et stykke tid været interesseret i biohacking. En biohacker måler fx biomarkører i forhold til søvn og restitution og bruger det til at planlægge sin træning. Derfor fik jeg lyst til at dykke ned i, hvad biohacking er?
 
-**Biohacking betyder, at man hacker et biologisk system eller en biologisk proces. I biohacking skiller man tingene fra hinanden og sætter dem sammen på en ny og bedre måde. Biohacking er en del af en voksende social bevægelse, hvor individer, grupper og foreninger udforsker og forbedrer biologien med udgangspunkt i en gør-det-selv-mentalitet.**
+Hvad er biohacking? **Biohacking betyder, at man hacker et biologisk system eller en biologisk proces. I biohacking skiller man tingene fra hinanden og sætter dem sammen på en ny og bedre måde. Biohacking er en del af en voksende social bevægelse, hvor individer, grupper og foreninger udforsker og forbedrer biologien med udgangspunkt i en gør-det-selv-mentalitet.**
 
 Det er en meget bred definition af biohacking. Der er mange forskellige indgangsvinkler til biohacking.
 
@@ -82,7 +82,7 @@ Hvis du vil have lidt mere inspiration, så sørg for at skrue ned for det blå 
  
 Du kan også læse lidt videre og se de mere ekstreme eksempler fra nogle af frontløberne.
  
-## TV2Lorry: Mit liv som hacker
+## TV2Lorry: Mit liv som biohacker i Danmark
 
 TV2Lorry har lavet en serie i fem afsnit, der forklarer hvad biohacking er.
 
@@ -98,7 +98,7 @@ DR har for nogle år siden lavet en serie, som de kalder Velkommen til fremtiden
 
 --- <cite>[dr.tv](https://www.dr.dk/drtv/episode/velkommen-til-fremtiden_-fordybelse_49661)</cite>
 
-## Biohacking i Min Sindssygt Sunde Familie på TV2
+## Biohacking i Min Sindssygt Sunde Familie på TV2 i Danmark
 
 I Min Sindssygt Sunde Familie følger du bl.a. Rasmus Just og hans kone, som kalder sig selv biohackere.
 
