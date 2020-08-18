@@ -57,7 +57,7 @@ At arbejde med kadencen har [flere positive indvirkninger på dit løb](https://
 
 Der er de seneste mange år blevet snakket rigtig meget om forfodsløb, midtfodsløb og hællandere. Det har lydt som om, at det er bedre at lande på forfoden end på hælen, men faktisk lander langt de fleste på hælen af almindelige motionister.
  
-Det bliver ofte foreslået, at knæsmerter kan reduceres ved at ændre sin landing til midtfod eller forfod, mens løbere med overbelastede akillessener og lægmuskulatur kan fokusere på at lande længere tilbage på foden.
+Det bliver ofte foreslået, at knæsmerter kan reduceres ved at ændre sin landing til midtfod eller forfod, mens [løbere med overbelastede akillessener og lægmuskulatur kan fokusere på at lande længere tilbage på foden](https://www.tendinopathyrehab.com/blog/tendinopathy-updates/what-are-the-best-run-retraining-strategies-for-achilles-tendinopathy).
  
 Jeg tror det er meget mere gavnligt at fokusere på kadencen, som giver mange en lidt anden løbemekanik, og det har for langt de fleste også betydning for, hvor løberen lander på foden.
  
