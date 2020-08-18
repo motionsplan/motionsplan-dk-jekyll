@@ -23,6 +23,12 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/secret-of-running_hans-van-dijk_paperback_9781782551096"
     btn_label: "Se prisen*"
     btn_class: "btn--success"
+  - image_path: https://cdn6.tales.dk/00001/70394/cover.1568203219.jpg
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390
+    title: "Løb som eliten"
+    excerpt: "Claus Hechmanns bog LØB SOM ELITEN er handler om, hvordan du skal træne for at blive en hurtigere løber og få mest muligt ud af dit potentiale. Bogen indeholder fem specialdesignede 12-ugers programmer til distancerne 5 km, 10 km og helt op til maraton."
+    btn_label: "Tjek prisen hos Tales*"
+    btn_class: "btn--danger"
 feature_row_stryd:
   - image_path: https://static.wixstatic.com/media/3c82eb_70f1384f64584b009ccc002dbe0fe482~mv2.jpg/v1/fill/w_630,h_630,al_c,q_85,usm_0.66_1.00_0.01/3c82eb_70f1384f64584b009ccc002dbe0fe482~mv2.webp
     alt: "STRYD Wattmåler - Next Generation"
@@ -47,7 +53,7 @@ Der er tre testbare faktorer, der udgør præstationsevnen, når man løber, og 
 
 - Den **maksimale iltoptagelse** - VO<sub>2</sub>max - eller vores [kondital]({% link _posts/2019-11-04-kondital-og-tabel.md %}).
 - **Løbeøkonomien**
-- Evnen til at **løbe med en så høj procentdel af VO<sub>2</sub>max som muligt** over hele distancen
+- Evnen til at **løbe med en så høj procentdel af VO<sub>2</sub>max som muligt** over hele distancen, hvilket også kan fortolkes som udholdenheden eller evnen til at løbe omkring den anaerobe tærskel.
 
 Lad os dykke lidt længere ned i begrebet løbeøkonomi.
 
@@ -123,6 +129,18 @@ Hvis du laver ændringer, der påvirker din løbeøkonomi, så skal du være opm
  
 Denne minimumsgrænse blev fundet på tværs af løbere, der løb på tre forskellige løbehastigheder. Hvis du løber på den samme relative løbehastighed, så kan du måske være tilfreds med mindre ændringer.
 
+## Ulempen ved at bruge iltoptagelsen som mål for løbeøkonomien
+
+Claus Hechmann påpeger et problem med at bruge iltoptagelsen som eneste mål for løbeøkonomien. Han skriver i [Løb som eliten\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390) et eksempel med den tidligere danske løber, Henrik Jørgensen, som fik målt sin iltoptagelse til 59,8 ml/min/kg på maratontempo, mens den efterfølgende var steget til 64 ml/min/kg efter 12 ugers træning. Det fik forskerene til at konkludere, at Henrik Jørgensens løbeøkonomi var blevet forværret:
+
+> Efter min mening er der ingen tivvl om, at man havde misforstået fysiologien bag. Man glemte simpelthen at tage højde for, hvordan energiomsætningen finder sted i musklerne -- om det er med fedt eller kulhydrat som substrat. Det er for så vidt rigtigt nok, at en højere iltoptagelse ved en given hastighed (for eksempel maratontempo) altid er et udtryk for en højere energiomsætning. **Men det er ikke rigtigt, at dette nødvendigvis er et udtryk for en dårligere løbeøkonomi.** Tværtimod, for hvis en større procentdel af energien kommer fra fedtforbrænding, kan løbeøkonomien sagtens være forbedret.
+
+--- <cite>[Claus Hechmann\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390)</cite>
+
+Claus Hechmann skriver efterfølgende lidt beklagende om fortolkningen af træningsstudiet, at man i store dele af <q>det danske atletikmiljø ... skiftede fokus fra mængdetræning til højintensitetstræning.</q>
+
+Det er naturligvis beklageligt i forhold til at træning af udholdenheden netop også er et væsentligt element i den enkeltes præstation og evne til at kunne holde til at træne meget.
+
 ## Udregning af kondital til brug i løbeøkonomien
 
 Hvis du kun har behov for selve konditallet ud fra din iltoptagelse og vægt, så kan du beregne det nedenunder:
@@ -153,17 +171,15 @@ FTP = 88% * V<sub>max</sub>
 
 > In conclusion, the current investigation demonstrates that only a small to moderate relationship exists between running economy and V̇O<sub>2</sub>max in highly trained distance runners. With >85% of the variance in these parameters unexplained by this relationship, these findings reaffirm that running economy and V̇O<sub>2</sub>max are primarily determined independently.
 
-— <cite>[Shaw et al (2015)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4388468/)</cite>
+--- <cite>[Shaw et al (2015)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4388468/)</cite>
 
 ## Forskel på mænd og kvinders løbeøkonomi
 
 > At all common test velocities, women were more economical than men.
 
-— <cite>[Barnes et al (2014)](https://www.researchgate.net/publication/257814408_Lower-Body_Determinants_of_Running_Economy_in_Male_and_Female_Distance_Runners#read)</cite>
+--- <cite>[Barnes et al (2014)](https://www.researchgate.net/publication/257814408_Lower-Body_Determinants_of_Running_Economy_in_Male_and_Female_Distance_Runners#read)</cite>
 
 ## Opsamling på løbeøkonomi
-
-Hvis du ved mere om løbeøkonomi, så brug endelig kommentarerne.
 
 Vi kan konkludere følgende om løbeøkonomi:
 
@@ -180,6 +196,8 @@ Du kan altså arbejde med løbeøkonomien ved at forbedre din teknik, så kan du
 - Armsvinget
 - Spændstighed i sener og ligamenter
 - Din styrke
+
+Alle disse punkter hænger sammen med din [løbestil og løbeteknik, som jeg har skrevet et indlæg om her]({% link _posts/2020-08-16-loebeteknik.md %}).
 
 ## Træning af løbeøkonomien
 
@@ -203,12 +221,13 @@ Allan Zachariasen og Jesper Petersen foreslår, at man løber i det ønskede kon
 Det er lidt anderledes end [Jack Daniels griber det an i sin løbsberegner]({% link _posts/2020-08-01-jack-daniels-loebeberegner.md %}), hvor man udregner træningstempo på baggrund af sit nuværende niveau og ikke et ønsket niveau.
  
 ### Sprinttræning
+
 Superintense træningspas i all-out tempo (også kaldet _sprint træning_) kan også forbedre løbeøkonomien. Det kan fx være:
 
 - 6 x 30 sekunder <3 min pause>
 - 10 x 15 sekunder <3 min pause>
 
-Der skal løbes _all-out_, og Allan Zachariasen og Jesper Petersen anbefaler, at man har en del løberfaring inden man begiver sig ud i denne træningsform.
+Der skal løbes _all-out_, og Allan Zachariasen og Jesper Petersen anbefaler, at man har en del løberfaring, inden man begiver sig ud i denne træningsform.
 
 Man kan imidlertid også implementere det som bakkesprints, og man kan også løbe på 98% af sin maksimale ydeevne og på den måde mindske risikoen for skader betragteligt. Men denne træningsform kræver meget restitution.
  
@@ -229,5 +248,3 @@ Hvordan arbejder du med din løbeøkonomi?
 {% include feature_row id="feature_row" type="left" %}
 
 {% include feature_row id="feature_row_stryd" type="left" %}
-
-
