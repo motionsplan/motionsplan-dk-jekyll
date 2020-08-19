@@ -86,11 +86,11 @@ De sidste procent fremgang kræver virkelig meget arbejde, men risikoen ved at f
 
 Det kan illustreres med følgende figur:
 
-{% include figure image_path="/assets/images/training/powerlaw.svg" caption="" %}
+{% include figure image_path="/assets/images/training/powerlaw.svg" caption="Dit træningsprogram bør tage hensyn til, hvad der giver den største effekt" %}
 
 Nedenstående figur illustrerer at så snart du går i gang med at træne, så får du en stor gevinst. Den viser også, at du skal sørge for at give den lidt gas, før der sker noget. Desto mere du træner, desto større effekt får du, indtil du et vist punkt, hvor den blå linje krydser x-aksen - og hvor træningen faktisk begynder at stjæle af din gevinst for den træning.
 
-{% include figure image_path="/assets/images/training/marginal-gain.svg" caption="" %}
+{% include figure image_path="/assets/images/training/marginal-gain.svg" caption="Din træningsplanlægning skal basere sig på de grundlæggende principper, hvor der er de største marginale _gains_" %}
 
 Desto mere trænet du er, desto vanskeligere bliver det at få fremgang, men til gengæld kan du holde til mere.
 
@@ -104,7 +104,7 @@ Hvor meget belastning kroppen kan holde til afhænger af mange ting. Fx vil øge
 
 Teorien er at kroppen smider alle de belastninger kroppen kommer ud for ind i en pulje. Du kan lave et fantastisk træningsprogram, men det nytter ikke noget, hvis du drikker, spiser dårligt, har kæresteproblemer eller er stresset på arbejdet. General Adaption Syndrome (GAS) modellen smider alt i en pulje.
 
-{% include figure image_path="/assets/images/training/gas.svg" caption="" %}
+{% include figure image_path="/assets/images/training/gas.svg" caption="General adaption syndrome (GAS)" %}
 
 Hver gang du træner, nedbryder du kroppen (alarm-fasen). Men den er stædig og kæmper tilbage, for den vil være stærk nok til at modstå træningen næste gang (resistance-fasen). Kroppen superkompenserer for genopbygningen i forhold til den tidligere træning. Men du kan risikere at vente for længe, inden du giver kroppen nye udfordringer (exhaustion-fasen).
 
@@ -114,7 +114,7 @@ Banister har introduceret en anden måde at forstå træning på. I stedet for k
 
 I denne forståelse maskerer trætheden, hvor stor fremgangen er for den enkelte. Trætheden kommer før fitness, hvilket betyder, at præstationen går ned. Det svarer til ‘alarm’-fasen i GAS-modellen. Efterhånden forsvinder trætheden, og præstationen går op.
 
-{% include figure image_path="/assets/images/training/bannister.svg" caption="" %}
+{% include figure image_path="/assets/images/training/bannister.svg" caption="Banisters Impuls-Respons-model" %}
 
 Denne model har konsekvenser for træningsplanlægningen. Der kan godt være noget træthed i kroppen, selvom man er i ‘resistance’-fasen. Og måske kan trætheden være en indikator for, hvornår man skal træne næste gang, så man hver gang kan træne i overkompensation eller superkompensationsfasen.
 

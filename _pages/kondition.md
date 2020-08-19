@@ -1,16 +1,16 @@
 ---
 layout: category
 permalink: /kondition/
-title: "Kondition og kredsløbstræning"
+title: &title "Kondition, konditionstræning og kredsløbstræning"
 author_profile: true
 sort_by: title # date (default) title
 sort_order: forward # forward (default), reverse
 taxonomy: Kondition
 entries_layout: grid
-excerpt: "Lær mere om konditionstræning og se ekempler på træning."
+excerpt: "Lær mere om kondition, konditionstræning, kredsløbstræning og se eksempler på træning, hvor du kan øge din maksimale iltoptagelse og udholdenhed."
 header:
   overlay_image: https://images.unsplash.com/photo-1457449205106-d0aad138e99b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
-  caption: "Photo by Tikkho Maciel on Unsplash"
+  caption: *title
   actions:
     - label: "<i class='fas fa-download'></i> Test din kondition"
       url: "/kondition/tests/"
@@ -21,7 +21,7 @@ feature_row_feature:
   - image_path: https://images.unsplash.com/photo-1501820434261-5bb046afcf6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80
     alt: "Energisystemer 101"
     title: "Energisystemer 101"
-    excerpt: "Hvordan ser kroppens energisystemer ud - noget om aerob og anaerob energisystem."
+    excerpt: "Forstå kroppens energisystemer for at kunne forstå, hvordan du bedst kan lave konditionstræning og få et bedre kredsløb og udholdenhed."
     url: "/energisystemer/"
     btn_label: "Lær om energisystemer"
     btn_class: "btn--danger"
@@ -29,7 +29,7 @@ feature_row:
   - image_path: https://cnet1.cbsistatic.com/img/Y3vodO8bMPi6qlFLRF3xFcQpLHo=/1092x0/2019/07/26/114f1721-1a71-42bc-b1a4-cb35299bedbc/gettyimages-640493589.jpg
     alt: "Kondition og tests"
     title: "Kondition og tests"
-    excerpt: "Hvad er kondital og iltoptagelse, og hvordan måler man det?"
+    excerpt: "Hvad er kondital og iltoptagelse, og hvordan måler man det i forbindelse med sin konditionstræning?"
     url: "/kondition-og-test/"
     btn_label: "Læs om kondital"
     btn_class: "btn--success"
@@ -53,4 +53,4 @@ feature_row:
 
 {% include feature_row %}
 
-## Artikler om konditionstræning og kredsløbstræning
+## Artikler om kondtion, konditionstræning og kredsløbstræning
