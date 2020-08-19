@@ -59,7 +59,9 @@ Du bruger lidt mindre ilt, når du løber på et fladt løbebånd sammenlignet m
 Det gælder ikke nødvendigvis for alle hastigheder, da Jones og Doust (1996) først fandt siginfikante resultater, da hastigheden blev højere end 12,87 km/t på løbebåndet.
 
 Kender du andre studier i forhold til _incline_ på løbebåndet, der kan gøre os alle klogere, så brug endelig kommentarerne.
- 
+
+Det bliver ofte foreslået, at knæsmerter kan reduceres ved at ændre sin landing til midtfod eller forfod, mens [løbere med overbelastede akillessener og lægmuskulatur kan fokusere på at lande længere tilbage på foden](https://www.tendinopathyrehab.com/blog/tendinopathy-updates/what-are-the-best-run-retraining-strategies-for-achilles-tendinopathy).
+
 ### 3) "Set and forget": Løbeteknik på løbebåndet
  
 Jeg synes ikke det er så spændende at løbe på løbebånd selv, men når jeg har et specifikt formål, så giver det meget god mening.
