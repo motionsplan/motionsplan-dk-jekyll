@@ -116,7 +116,7 @@ I denne forståelse maskerer trætheden, hvor stor fremgangen er for den enkelte
 
 {% include figure image_path="/assets/images/training/bannister.svg" caption="Banisters Impuls-Respons-model" %}
 
-Denne model har konsekvenser for træningsplanlægningen. Der kan godt være noget træthed i kroppen, selvom man er i ‘resistance’-fasen. Og måske kan trætheden være en indikator for, hvornår man skal træne næste gang, så man hver gang kan træne i overkompensation eller superkompensationsfasen.
+Denne model har konsekvenser for træningsplanlægningen. Der kan godt være noget træthed i kroppen, selvom man er i ‘resistance’-fasen. Og måske kan trætheden være en indikator for, hvornår man skal træne næste gang, så man hver gang kan træne i overkompensation eller [superkompensationsfasen]({% link _posts/2020-08-07-superkompensation.md %}).
 
 ## Træn specifikt - princippet om exercise Specificity (SAID)
 
@@ -134,7 +134,7 @@ Men husk SAID-princippet om _Specific Adaptation to Imposed Demands_.
 
 Der findes imidlertid også flere andre måder at sørge for, at dit program giver ‘progressive overload’. Du kan se hvordan man opnår progressive overload nedenunder:
 
-{% include figure image_path="/assets/images/training/progressive-overload.svg" caption="" %}
+{% include figure image_path="/assets/images/training/progressive-overload.svg" caption="Progressive overload" %}
 
 ## Volumen
 
@@ -156,7 +156,7 @@ Intensiteten måles i forhold til ‘1 repetition maximum’ (1RM), som er den v
 
 For det meste af din træning er omkring 70-80% af din 1RM et fint interval at løfte i. Du kan se i nedenstående tabel, at det svarer til at løfte med omkring 7-12 gentagelser.
 
-Der findes forskellige måder at [udregne intensiteten og 1RM]({% link _posts/2019-10-16-1rm-beregner.md %}), men tabellen nedenunder er den mest brugte formular.
+Der findes forskellige måder at [udregne intensiteten og 1RM, og vi har lavet vores egen RM-beregner]({% link _posts/2019-10-16-1rm-beregner.md %}), men tabellen nedenunder er den mest brugte formular.
 
 Desto højere du sætter intensiteten, desto længere skal pauserne være og restitutionen være.
 
@@ -164,7 +164,7 @@ Desto højere du sætter intensiteten, desto længere skal pauserne være og res
 
 ## Adaptationer der gør dig stærkere
 
-Når du træner, sker der to typer af tilpasninger i kroppen. Først der der de **neurale ændringer**, hvilket ganske enkelt betyder, at hjernen bliver bedre til at aktivere mere muskelmasse. Desuden er der ændringer i **musklens struktur**. Den vokser, og en større muskel er i stand til at skabe mere muskelkraft.
+Når du træner, sker der to typer af tilpasninger i kroppen. Først der der de **neurale ændringer**, hvilket ganske enkelt betyder, at hjernen bliver bedre til at aktivere mere muskelmasse. Desuden er der ændringer i **musklens struktur**. Den vokser, og en større muskel er i stand til at skabe mere muskelkraft. Jeg har skrevet et andet indlæg om [fysiologiske adaptationer og tilpasninger til styrketræning]({% link _posts/2020-06-19-styrketraening-fysiologisk.md %}).
 
 Det er sandsynligt at den neurale adaptation sker først - nærmest fra allerførst gang du træner. Derefter følger muskelmassen. Figuren viser også, at når man har trænet et stykke tid, bliver det vanskeligere at forbedre sig - og det kræver en større og større indsats.
 
@@ -246,7 +246,7 @@ Du bør fokusere på det, der giver størst afkast ift. den tid og de kræfter, 
 
 Nedenstående forsøger at give et  bud på, hvad der er allervigtigst, når du laver (og følger) et styrketræningsprogram.
 
-{% include figure image_path="/assets/images/training/helms-trainingpyramid.svg" caption="" %}
+{% include figure image_path="/assets/images/training/helms-trainingpyramid.svg" caption="Eric Helms træningspyramide" %}
 
 ### Hvor ofte skal jeg styrketræne?
 
@@ -283,7 +283,7 @@ Et helkropsprogram skal indeholde øvelser, der opfylder følgende kriterier:
 
 Hvis du vælger en øvelse fra hver kategori, så er der en ret god balance i din træning - og der er ikke mange muskelfibre, der undgår at komme på arbejde. Hvis du vælger et horisontalt træk, er det en god ide også at vælge et horisontalt skub og så fremdeles.
 
-**Gratis helkropsprogram**. Vi har lavet et eksempel på et helkropsprogram, som du kan bruge som udgangspunkt for dit træningsprogram. Hent programmet på [motionsplan.dk/gratis-helkropsprogram](https://www.motionsplan.dk/gratis-helkropsprogram).
+**Gratis helkropsprogram**. Vi har lavet et eksempel på et helkropsprogram, som du kan bruge som udgangspunkt for dit træningsprogram. Hent programmet på [motionsplan.dk/gratis-helkropsprogram](/gratis-helkropsprogram/).
 {: .notice .notice--success }
 
 ### Split program
