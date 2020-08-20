@@ -83,6 +83,15 @@ Nogle har mere kompakte knogler end andre. Man siger at densiteten og knoglemine
 
 Knoglernes densitet har intet at gøre med knoglernes omkreds.
 
+## Hvad er massefylden for knogler?
+
+|        | Massefylde              | 1 liter vejer |
+|--------|-------------------------|---------------|
+| Knogler | 1,850 g / cm<sup>3</sup> | 1,850 kg       |
+| Fedt   | 0,940 kg / cm<sup>3</sup>  | 0,9 kg        |
+| Muskel | 1,050 g / cm<sup>3</sup> | 1,06 kg       |
+| Vand | 1,000 g / cm<sup>3</sup> | 1,00 kg       |
+
 ## Hvor mange knogler har et menneske?
 
 Menneskekroppen har som voksen i alt 206 knogler. Knoglerne er bundet sammen til skelettet via led. Alle mennesker har knogler, der ligner hinanden, men størrelsen og længden kan være forskellige. Derfor har vi forskellig kropsbygning. Babyer er født med 300 knogler, som hovedsageligt er lavet af brusk, men nogle af knoglerne vokser efterhånden sammen.
