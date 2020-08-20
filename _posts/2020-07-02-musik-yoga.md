@@ -1,5 +1,5 @@
 ---
-title: "Musik til yoga, mindfulness og meditation [2020]"
+title: "Den bedste musik til yoga, mindfulness og meditation [2020]"
 permalink: /yoga-musik/
 language: da
 header:
