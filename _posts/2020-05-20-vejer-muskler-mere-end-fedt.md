@@ -1,5 +1,5 @@
 ---
-title: &title "Vejer muskler mere end fedt?"
+title: &title "Hvad vejer muskler og fedt - og vejer muskler mere end fedt?"
 permalink: /vejer-muskler-mere-end-fedt/
 language: da
 header:
@@ -18,7 +18,9 @@ toc: true
 
 Jeg hører ofte folk sige, at muskler vejer mere end fedt, når folk vil forklare, hvorfor man kan tage på af at træne. Jeg lavede lidt research på vægten af muskler og fedt, for der står mange forskellige ting rundt omkring på internettet.
 
-Vejer muskler mere end fedt? **Muskler vejer mere end fedt, fordi massefylden for fedt er lavere end for muskler. Det skyldes, at fedtceller først og fremmest består af triglycerider, der er lettere end de proteiner og det vand, muskelcellerne er bygget af. En liter muskel vejer omkring 1,06 kg, mens en liter fedt vejer omkring 0,9 kg.**
+## Vejer muskler mere end fedt?
+
+**Muskler vejer mere end fedt, fordi massefylden for fedt er lavere end for muskler. Det skyldes, at fedtceller først og fremmest består af triglycerider, der er lettere end de proteiner og det vand, muskelcellerne er bygget af. En liter muskel vejer omkring 1,06 kg, mens en liter fedt vejer omkring 0,9 kg.**
 
 Lad os kigge lidt på, hvordan det kan være at musklerne vejer mere end fedtet.
 
