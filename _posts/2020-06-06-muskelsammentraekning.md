@@ -1,11 +1,12 @@
 ---
-title: "Hvordan trækker en muskel sig sammen?"
+title: &title "Sliding filament: Hvordan trækker en muskel sig sammen?"
 permalink: /muskelsammentraekning/
 language: da
 header:
   overlay_image: https://www.verywellmind.com/thmb/lipce_c9sabrZqjjE5pFeyfx1aE=/3513x2635/smart/filters:no_upscale()/GettyImages-172594438-56a796f13df78cf7729768ee.jpg
   teaser: https://www.verywellmind.com/thmb/lipce_c9sabrZqjjE5pFeyfx1aE=/3513x2635/smart/filters:no_upscale()/GettyImages-172594438-56a796f13df78cf7729768ee.jpg
   overlay_filter: 0.4
+  caption: *title
 category:
   - Viden om
 tags:
@@ -36,11 +37,11 @@ feature_row:
     btn_class: "btn--success"
 ---
 
-Jeg har ofte forklaret mine elever, hvordan en muskel trækker sig sammen, så jeg har samlet min forklaring her.
+Jeg har ofte forklaret mine elever, hvordan en muskel trækker sig sammen. Jeg har samlet min forklaring på en muskelsammentrækning i dette indlæg. Den mest udbredte forklaring på, hvordan en muskel trækker sig sammen er _sliding filament teorien_.
 
-**Den mest udbredte teori til at forklare, hvorfor en muskel trækker sig sammen er ‘sliding filament’-teorien. Ifølge teorien så kommer der et signal gennem nervetrådene til muskelfiberen, som gør at myosin-filamenterne bruger energi til at vandre på langs af aktin-filamenterne, hvorefter muskelfiberen bliver kortere.**
+Hvordan trækker en muskel sig sammen? **Den mest udbredte teori til at forklare, hvorfor en muskel trækker sig sammen er ‘sliding filament’-teorien. Ifølge teorien så kommer der et signal gennem nervetrådene til muskelfiberen, som gør at myosin-filamenterne bruger energi til at vandre på langs af aktin-filamenterne, hvorefter muskelfiberen bliver kortere.**
 
-{% include figure image_path="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Skeletal_muscle.jpg/1280px-Skeletal_muscle.jpg" caption="Opbygningen af en muskel" %}
+{% include figure image_path="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Skeletal_muscle.jpg/1280px-Skeletal_muscle.jpg" caption="Opbygningen af en muskel" alt="Hvordan trækker en muskel sig sammen" %}
 
 ## Hvad får en muskel til at trække sig sammen?
 
@@ -85,7 +86,21 @@ I denne video kan du se en medlevende forklaring af, hvordan muskler er bygget o
 
 {% include video provider="youtube" id="Ktv-CaOt6UQ" %}
 
-## Musler og nerver
+## Historie om muskelkontraktionen
+
+Aktionspotentiale fra centralnervesystemet når ud til en alpha motor neuron. Denne neuron transmitterer et aktionspotentiale (AP) ned ad sin egen axon, hvor den rammer den motoriske endeplade.
+
+To store proteiner i musklerne er actin og myosin. Det er dem, der sørger for muskelkontraktion. I hvile er de forhindret i at komme i kontakt med hinanden. To andre proteiner, troponin og tropomyosin, sidder på spidsen af actin og myosin, og det er disse to proteiner, som sørger for tværbrodannelse. Når Ca++ kommer ind i musklen efter at AP har ramt den motoriske endeplade ændres troponin og tropomyosin, så actin og myosin kan komme i kontakt med hinanden, og der bliver dannet en tværbro.
+
+Vi kan anskue det lidt som en fest-metafor.
+
+Actin og myosin har gået og været lidt lune på hinanden, men der kommer altid lige noget i vejen. Generthed og venner, så deres munde har endnu ikke kunnet mødes i et længe ventet kys. Så tager man til en fest, og pludselig får man måske mulighed for at få lidt øl, så genertheden forsvinder, og når mørket er faldet på, har man mulighed for at få lidt kvalitetstid sammen.
+
+Det er calcium og pludselig ændrer mundene fuldstændig positur, så de nærmer sig en som til et kys. Pludselig er der dannet en tværbro.
+
+Myosin er et hoved på en stilk. Hovedet er fleksibelt og det knytter an til actin-molekylet. Ifølge _sliding filament_ teorien vil muskelfiberen nu trække sig sammen.
+
+## Muskler og nerver i musklerne
 
 Muskler kan ikke trække sig sammen alene. De har behov for et _stimulus_ fra en nervecelle, der giver signal til musklen om at trække sig sammen. 
 
@@ -93,7 +108,7 @@ Hvis du fx vil bøje din arm, så sender hjernen et elektrisk signal til nervece
 
 Selv de ufrivillige bevægelser, fx  hjertemusklen, er også styret af nervesystemet.
 
-## Lidt dybere ned i hvordan musklerne trækker sig sammen
+## Video om hvordan musklerne trækker sig sammen
 
 {% include video provider="youtube" id="NfEJUPnqxk0" %}
 

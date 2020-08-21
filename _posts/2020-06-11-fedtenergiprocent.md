@@ -30,7 +30,7 @@ Hvad er fedtenergiprocenten? **Fedtenergiprocenten angiver hvor meget af energie
 
 {% include calculate-fat-percent-food.html %}
 
-## Hvordan udregner jeg fedtenergiprocenten?
+## Hvordan beregner jeg fedtenergiprocenten?
 
 Jeg foretrækker at bruge kilojoule, når jeg angiver energi i fødevarer. 
 

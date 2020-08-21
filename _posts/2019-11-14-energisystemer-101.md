@@ -27,7 +27,7 @@ Aerob energisystem
 Anaerob energisystem
 : **Anaerob**. Anaerob er de processer, der foregår uden ilt. Musklerne har altid ATP til rådighed som kan spaltes uden ilt og bruges til meget kortvarigt arbejde. Ved lidt længerevarende hårdt arbejde spaltes kulhydrat uden ilt glukosen omdannes til mælkesyre.
 
-## Energisystemerne skaber energi
+## Energisystemerne skaber energi med aerobe og anaerobe processer
 
 Alle cellerne i din krop har brug for energi for at holde dig i live. Kroppen får sin energi gennem energisystemerne. _Conditioning_ handler om at forbedre energiproduktionen og -forbruget.
 
@@ -77,6 +77,31 @@ Anaerobic power reserve = max speed - max speed produced aerobically
 Desto større del af din energi, der kommer fra det aerobe system, desto længere tid vil du kunne holde til aktiviteten.
 
 {% include figure image_path="/assets/images/blog/anaerob-aerob-intensitet.jpg" caption="Primære træningsområder inden for aerob og anaerob træning udtrykt i relation til maksimal arbejdsintensitet (100%). De enkelte områder overlapper hinanden, idet der er et vist variationsområde inden for hver kategori. Arbejdsintensiteten svarende til den maksimale iltoptagelse og den maksimale arbejdsintensitet er angivet ved henholdsvis den nederste og øverste stiplede linie. Der er store individuelle forskelle på, hvor meget intensiteten svarende til den maksimale iltoptagelse udgør i forhold til den maksimale intensitet. Her er den sat til 25%, men for nogle udgør den kun 10% og for andre op til 50 60% af den maksimale intensitet." %}
+
+## Hvad er forskellen på det aerobe og anaerobe system
+
+Følgende tabel giver et godt overblik over effektiviteten af det anaerobe og aerobe energisystem.
+
+| Aktivitet | Anaerob | Aerob                         |
+|--------------------------------|------|-----------|
+| Hastighed for ATP regenerering | Hurtig | Langsom   |
+| Mængde ATP produceret | Lille | Stor                |
+| Sted | Cytosol | Mitochondrier                      |
+| Næringskilde | Kulhydrat | Kulhydrat, fedt, protein |
+| Affaldsstoffer | Laktat + H2O | CO2 + H2O           |
+
+## Hvordan ser energilagrene i kroppen ud?
+
+I nedenstående tabel er der det groft estimat på, hvor meget energi man har tilgængelig i kroppen.
+
+| Aktivitet | Mængde | Energi | Arbejdstid |
+|-|-|-|-|
+| ATP | Meget lidt | 4 kJ | 4 s |
+| Creatin Phospat (CrP) | Meget lidt | 15 kJ | 6 – 10 s |
+| Kulhydrat | 400 – 800 g | 6800 – 13600 kJ | timer |
+| Fedt | 8 - 30% | Meget variabelt | dage |
+
+ATP og CrP bliver hurtigt genopladet igen, men hvis man laver maksimale præstationer skal man alligvel vente omkring 3-8 minutter før man kan forvente, at de er oppe på niveau igen.
 
 ## Aerob og anaerob træning
 

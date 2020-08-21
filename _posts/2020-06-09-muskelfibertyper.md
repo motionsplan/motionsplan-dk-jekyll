@@ -63,12 +63,15 @@ Den følgende tabel er en bearbejdelse af Honeybourne et al. (1996)
 
 | Forskelle | I | IIA | IIX |
 |-|-|-|-|
+| Farve | Rød | Hvid (rosa) | Hvid (lyserød) |
+| Tykkelse | Lille | Mellem | Stor |
+| Evne til at vokse | Lille | Mellem | Stor |
 | Hurtighed | Langsom | Hurtig | Meget hurtig |
+| Styrke | Lille | Mellem | Stor |
 | Udholdenhed | Høj | Middel | Lav |
 | Kapillærer | Mange | Middel | Få |
 | Mitokondrier | Mange | Middel | Få |
 | Myoglobinindhold | Højt | Middel | Lavt |
-| Farve | Rød | Hvid (rosa) | Hvid (lyserød) |
 | Size of motor neuron | Small | Large | Very Large |
 | Activity Used for | Aerobic | Long-term anaerobic | Short term anaerobic |
 | Force production | Low | High | Very High |
