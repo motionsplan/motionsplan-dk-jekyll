@@ -1,10 +1,13 @@
 ---
-title: "Hvad er den bedste kombination af løb og styrketræning?"
-permalink: /artikel/bedste-kombination-af-loeb-og-styrketraening
+title: &title "Hvad er den bedste kombination af løb og styrketræning?"
+permalink: /artikel/bedste-kombination-af-loeb-og-styrketraening/
+redirect_from:
+  - /artikel/bedste-kombination-af-loeb-og-styrketraening
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1526676537331-7747bf8278fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
   teaser: https://images.unsplash.com/photo-1526676537331-7747bf8278fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  caption: *title
 tags:
   - styrketræning
   - løb
