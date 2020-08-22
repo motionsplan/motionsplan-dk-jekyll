@@ -60,3 +60,5 @@ Der vil dog altid være en mindre kulhydratforbrænding, så i praksis kommer me
 Jo hårdere intensitet du træner med, desto højere vil RER-værdien være. RER-værdien vil med rigtig høj intensitet overstige 1,0, fordi du begynder at hyperventilere, og så forbrænder du ikke længere fedt under selve aktiviteten.
 
 RER bruges ofte i forbindelse med fx VO<sub>2</sub>-max-tests som en af indikatorerne på, hvornår deltageren er tæt på at være nær grænserne for kredsløbet og den maksimale iltoptagelse. Hvis RER-værdien kommer over 1,0 og gerne lidt højere, så kan det være et slutpunktskriterium for VO<sub>2</sub>-max-testen.
+
+Vi har lavet en side, der går mere i dybden med [test af iltoptagelse i laboratorium]({% link _posts/2019-10-31-kondital-laboratorietest.md %}).

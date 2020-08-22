@@ -1,11 +1,11 @@
 ---
-title: "5 tips til musik til yoga og mindfulness playliste [2020]"
+title: "Den bedste musik til yoga, mindfulness og meditation [2020]"
 permalink: /yoga-musik/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1549576490-b0b4831ef60a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80
   teaser: https://images.unsplash.com/photo-1549576490-b0b4831ef60a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
-  caption: God musik til yoga og mindfulness. Photo by Anupam Mahapatra on Unsplash
+  caption: God musik til yoga, meditation og mindfulness. Photo by Anupam Mahapatra on Unsplash
   overlay_filter: 0.2
 category:
   - Yoga
@@ -22,7 +22,7 @@ yogastream:
     alt: "Musik og yoga - Bliv medlem af Yogastream og lær yoga"
 ---
  
-Jeg er på udkig efter noget god musik til yoga og mindfulness. Når det ikke bare skal være stille kan jeg godt lide at have en playliste, som jeg bruger til mindful yoga og mindfulness. Jeg har derfor undersøgt, hvad god musik kan være til både yoga, mindfulness og meditation.
+Jeg er på udkig efter noget god musik til yoga, meditation og mindfulness. Når det ikke bare skal være stille kan jeg godt lide at have en playliste, som jeg bruger til mindful yoga og mindfulness. Jeg har derfor undersøgt, hvad god musik kan være til både yoga, mindfulness og meditation.
 
 Hvordan vælger man musik til yoga og mindfulness? **God musik til yoga, mindfulness og meditation skal have den rigtige rytme og en rigtige stemning. Typisk passer langsommere musik med 60-100 bpm godt til yoga, selvom yoga kan få pulsen helt op til 160 bpm (beats per minute), men stemningen i musikken er også meget afgørende.**
 
@@ -82,7 +82,7 @@ Opdater din playliste jævnligt. Mange af os har adgang til alverdens musik genn
 
 <a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=72081" target="_blank" rel="nofollow noopener"><img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=72081" border="0" alt=""></a>
 
-## Forslag til god musik til yoga og mindfulness
+## Forslag til god musik til yoga, meditation og mindfulness
 
 [Kathrine Christensen](https://kathrinechristensen.dk/musik-til-yoga-meditation), som er yogalærer i Vejle og har læst musikvidenskab, foreslår følgende musik til yoga.
  

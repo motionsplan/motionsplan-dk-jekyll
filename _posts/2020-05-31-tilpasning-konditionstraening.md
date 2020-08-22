@@ -5,7 +5,7 @@ language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1477332552946-cfb384aeaf1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
   teaser: https://images.unsplash.com/photo-1477332552946-cfb384aeaf1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
-  caption: "Photo by Emma Simpson on Unsplash"
+  caption: "Fysiologiske forandringer og adaptationer ved konditionstræning"
   overlay_filter: 0.2
 category:
   - Viden om
@@ -40,7 +40,7 @@ feature_row:
     btn_class: "btn--success"
 ---
 
-Jeg satte satte mig for at prøve at lave en oversigt over hvilke fysiologiske tilpasninger, der sker i kroppen, når man laver konditionstræning. Hvad er effekten egentlig af kredsløbstræning? 
+Jeg satte satte mig for at prøve at lave en oversigt over hvilke fysiologiske tilpasninger og adaptationer, der sker i kroppen, når man laver konditionstræning. Hvad er effekten egentlig af kredsløbstræning? 
 
 Konditionstræning kaldes også pulstræning, kredsløbstræning eller cardio-træning eller slet og ret _cardio_. Træningen handler naturligvis om at få kredsløbet med hjertet, lungerne og musklerne til at arbejde og sende blod rundt i systemet. 
 
@@ -50,7 +50,7 @@ Hvis du ikke vil læse hele indlægget, så har jeg sammenfattet effekten af kon
 
 **Under konditionstræning sker der en række fysiologiske forandringer i kroppen. Blodmængden stiger og du får mere hæmoglobin. Hjertet bliver større og stærkere. Du får flere mitokondrier og myoglobin i musklerne. Enzymaktiviteten bliver højere og mere effektiv. Alt dette er med til at øge din maksimale iltoptagelse og derved din kondition.**
 
-{% include figure image_path="https://www.ambulancevejen.dk/wp-content/uploads/2016/09/Circulation-designed-by-freepik.jpg" caption="Oversigt over kredsløbet, hvor de fysiologiske ændringer sker" %}
+{% include figure image_path="https://www.ambulancevejen.dk/wp-content/uploads/2016/09/Circulation-designed-by-freepik.jpg" caption="Oversigt over kredsløbet, hvor de fysiologiske ændringer sker" alt="Tilpasninger og adaptationer ved konditionstræning" %}
 
 ## Kroppen tilpasser sig træning
 
