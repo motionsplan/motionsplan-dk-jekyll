@@ -5,7 +5,7 @@ language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1570997491915-47ade51fed9f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
   teaser: https://images.unsplash.com/photo-1570997491915-47ade51fed9f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
-  caption: "Komplet guide til Solhilsen A og B"
+  caption: "Komplet guide til yoga solhilsen A og B"
 tags:
   - yoga
   - træning
@@ -49,7 +49,7 @@ yogastream:
   - image_path: https://www.yogastream.dk/images/homepage/forloeb.jpg
     url: http://motionsplan.yogastream.dk
     title: "Bliv medlem af Yogastream og lær yoga"
-    alt: "Bliv medlem af Yogastream og lær yoga"
+    alt: "Bliv medlem af Yogastream og lær yoga og solhilsen"
 ---
 
 Jeg har lavet yoga solhilsen mange gange, så derfor vil jeg gerne beskrive denne alsidige serie af yoga-øvelser for dig, så du også kan komme i gang med øvelserne. Jeg dykker i det følgende ned i _Surya Namaskar_ (solhilsen) fra Asthanga Vinyasa Yogaen, som findes i en A- og B-version.
@@ -119,7 +119,7 @@ Der findes to versioner af solhilsen. De to solhilsener ligner hinanden. A er de
 
 Du kan se en simpel oversigt over solhilsen A og B her.
 
-{% include figure image_path="https://www.freewebs.com/penyoga/sun_salutations-2.gif" caption="Simpel oversigt over forskellene på solhilsen A og B" caption="Forskellen på solhilsen A og B" %}
+{% include figure image_path="https://www.freewebs.com/penyoga/sun_salutations-2.gif" caption="Simpel oversigt over forskellene på solhilsen A og B" alt="Forskellen på solhilsen A og B" %}
 
 Solhilsen udføres lidt forskelligt inden for de forskellig retninger i yoga. Jeg har valgt at fokusere på den mest kendte _Surya Namaskar_ (solhilsen) fra _Asthanga Vinyasa Yogaen_ i det følgende.
 
@@ -208,7 +208,7 @@ Jeg udfører også ofte [De fem tibetanere]({% link _posts/2009-07-01-de-fem-tib
 
 <a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=37797" target="_blank" rel="nofollow noopener"><img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=37797" border="0" alt=""></a>
 
-## Udstyr til solhilsen
+## Udstyr til solhilsen og yoga
 
 Du behøver ikke noget udstyr for at kunne lave solhilsen. Det kan dog være meget rart med en yoga-måtte eller et andet underlag, hvor du kan stå godt fast på. Når du har et skridsikkert underlag, så kan du udføre øvelserne mere kraftfuldt og præcist.
 
