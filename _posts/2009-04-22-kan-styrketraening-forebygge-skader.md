@@ -1,6 +1,6 @@
 ---
 title: &title "Forebyggelse af skader: Hvad er mest effektivt?"
-permalink: /artikel/kan-styrketraening-forebygge-skader
+permalink: /artikel/kan-styrketraening-forebygge-skader/
 language: da
 header:
   overlay_image: /assets/images/blog/kan-styrketraening-forebygge-skader.jpg

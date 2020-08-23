@@ -1,6 +1,6 @@
 ---
 title: "Træner du grebsstyrke?"
-permalink: /artikel/traener-du-grebsstyrke
+permalink: /artikel/traener-du-grebsstyrke/
 language: da
 header:
   overlay_image: /assets/images/blog/traener-du-grebsstyrke.jpg

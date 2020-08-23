@@ -1,10 +1,11 @@
 ---
-title: "Øvelser til baglår: Træn haser og undgå fibersprængninger?"
-permalink: /artikel/traener-du-dine-haser
+title: &title "Øvelser til baglår: Træn haser og undgå fibersprængninger?"
+permalink: /artikel/traener-du-dine-haser/
 language: da
 header:
   overlay_image: /assets/images/blog/traener-du-dine-haser.jpg
   teaser: /assets/images/blog/traener-du-dine-haser.jpg
+  caption: *title
 tags:
   - styrketræning
   - anatomi

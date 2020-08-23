@@ -1,7 +1,7 @@
 ---
 title: "Beregn din fedtprocent: Enkel udregning med højde og vægt"
 seo_title: "Fedtprocent • Beregn din fedtprocent ud fra din højde og vægt »"
-permalink: /artikel/udregning-af-fedtprocent
+permalink: /artikel/udregning-af-fedtprocent/
 redirect_from:
   - /udregn-fp/
 excerpt: "Beregn din fedtprocent med en udregning med din højde og vægt i denne simple beregner. Beregneren udregner også dit BMI."

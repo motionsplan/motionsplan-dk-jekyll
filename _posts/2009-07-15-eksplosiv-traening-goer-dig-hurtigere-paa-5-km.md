@@ -1,6 +1,6 @@
 ---
 title: "Eksplosiv træning gør dig hurtigere på 5 km"
-permalink: /artikel/eksplosiv-traening-goer-dig-hurtigere-paa-5-km
+permalink: /artikel/eksplosiv-traening-goer-dig-hurtigere-paa-5-km/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1509833903111-9cb142f644e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2155&q=80

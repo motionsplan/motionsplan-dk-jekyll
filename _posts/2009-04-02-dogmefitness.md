@@ -1,6 +1,6 @@
 ---
 title: &title "Træning i naturen: Outdoor fitness, Dogmefitness og Naturfitness"
-permalink: /artikel/dogmefitness
+permalink: /artikel/dogmefitness/
 language: da
 header:
   overlay_image: /assets/images/blog/dogmefitness.jpg

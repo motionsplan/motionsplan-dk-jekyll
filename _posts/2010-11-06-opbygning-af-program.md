@@ -1,10 +1,11 @@
 ---
-title: "Hvordan opbygger jeg et styrketræningsprogram?"
-permalink: /artikel/opbygning-af-program
+title: &title "Hvordan opbygger jeg et styrketræningsprogram?"
+permalink: /artikel/opbygning-af-program/
 language: da
 header:
   overlay_image: /assets/images/blog/opbygning-af-program.jpg
   teaser: /assets/images/blog/opbygning-af-program.jpg
+  caption: *title
 category:
   - Styrketræning
 tags:

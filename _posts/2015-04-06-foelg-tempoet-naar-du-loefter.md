@@ -1,6 +1,6 @@
 ---
 title: "Følg tempoet når du løfter"
-permalink: /artikel/foelg-tempoet-naar-du-loefter
+permalink: /artikel/foelg-tempoet-naar-du-loefter/
 language: da
 header:
   overlay_image: /assets/images/blog/foelg-tempoet-naar-du-loefter.jpg

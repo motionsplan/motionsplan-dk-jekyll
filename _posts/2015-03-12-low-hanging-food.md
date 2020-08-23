@@ -1,6 +1,6 @@
 ---
 title: "Low hanging food"
-permalink: /artikel/low-hanging-food
+permalink: /artikel/low-hanging-food/
 language: da
 header:
   overlay_image: /assets/images/blog/low-hanging-food.jpg

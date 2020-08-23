@@ -1,6 +1,6 @@
 ---
 title: "Superfoods - hvad er nu det?"
-permalink: /artikel/superfoods-hvad-er-nu-det
+permalink: /artikel/superfoods-hvad-er-nu-det/
 language: da
 header:
   overlay_image: /assets/images/blog/superfoods-hvad-er-nu-det.jpg

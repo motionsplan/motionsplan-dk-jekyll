@@ -1,6 +1,6 @@
 ---
 title: "Brug tests i styrketræning og få fremgang"
-permalink: /artikel/brug-tests-og-faa-fremgang
+permalink: /artikel/brug-tests-og-faa-fremgang/
 language: da
 header:
   overlay_image: /assets/images/blog/brug-tests-og-faa-fremgang.jpg

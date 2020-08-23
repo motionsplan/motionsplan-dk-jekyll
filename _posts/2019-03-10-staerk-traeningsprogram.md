@@ -1,6 +1,6 @@
 ---
 title: "Stærk træningsprogram"
-permalink: /artikel/staerk-traeningsprogram
+permalink: /artikel/staerk-traeningsprogram/
 language: da
 header:
   overlay_image: /assets/images/blog/staerk-traeningsprogram.jpg

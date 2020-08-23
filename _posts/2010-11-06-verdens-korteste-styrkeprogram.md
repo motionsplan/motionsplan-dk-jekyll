@@ -1,10 +1,11 @@
 ---
-title: "Verdens mest effektive styrketræningsprogram"
-permalink: /artikel/verdens-korteste-styrkeprogram
+title: &title "Verdens mest effektive styrketræningsprogram"
+permalink: /artikel/verdens-korteste-styrkeprogram/
 language: da
 header:
   overlay_image: /assets/images/blog/verdens-korteste-styrkeprogram.JPG
   teaser: /assets/images/blog/verdens-korteste-styrkeprogram.JPG
+  caption: *title
 tags:
   - styrketræning
   - træningsplanlægning

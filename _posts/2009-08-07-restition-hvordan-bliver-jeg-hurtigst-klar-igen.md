@@ -1,6 +1,6 @@
 ---
 title: "Restitution: Hvordan bliver jeg hurtigst klar til træning?"
-permalink: /artikel/restitution-hvordan-bliver-jeg-hurtigst-klar-igen
+permalink: /artikel/restitution-hvordan-bliver-jeg-hurtigst-klar-igen/
 redirect_from: /artikel/restition-hvordan-bliver-jeg-hurtigst-klar-igen
 language: da
 header:

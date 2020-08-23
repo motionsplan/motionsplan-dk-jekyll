@@ -1,6 +1,6 @@
 ---
 title: "De fem tibetanere: Komplet guide til de 5 yoga riter [2020]"
-permalink: /artikel/de-fem-tibetanere
+permalink: /artikel/de-fem-tibetanere/
 language: da
 header:
   overlay_image: /assets/images/blog/de-fem-tibetanere.jpg

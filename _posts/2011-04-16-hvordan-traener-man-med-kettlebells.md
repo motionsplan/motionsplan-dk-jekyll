@@ -1,6 +1,6 @@
 ---
 title: &title "Hvordan træner man med kettlebells?"
-permalink: /artikel/hvordan-traener-man-med-kettlebells
+permalink: /artikel/hvordan-traener-man-med-kettlebells/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1517344800994-80b20463999c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80

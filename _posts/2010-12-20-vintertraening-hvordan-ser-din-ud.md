@@ -1,6 +1,6 @@
 ---
 title: "Vintertræning - hvordan ser din ud?"
-permalink: /artikel/vintertraening-hvordan-ser-din-ud
+permalink: /artikel/vintertraening-hvordan-ser-din-ud/
 language: da
 header:
   overlay_image: /assets/images/blog/vintertraening-hvordan-ser-din-ud.jpg

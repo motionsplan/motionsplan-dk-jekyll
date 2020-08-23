@@ -1,6 +1,6 @@
 ---
 title: "Den perfekte shake?"
-permalink: /artikel/den-perfekte-shake
+permalink: /artikel/den-perfekte-shake/
 language: da
 header:
   overlay_image: /assets/images/blog/den-perfekte-shake.jpg

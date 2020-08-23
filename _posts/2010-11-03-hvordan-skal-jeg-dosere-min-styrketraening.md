@@ -1,6 +1,6 @@
 ---
 title: "Hvordan skal jeg dosere min styrketræning?"
-permalink: /artikel/hvordan-skal-jeg-dosere-min-styrketraening
+permalink: /artikel/hvordan-skal-jeg-dosere-min-styrketraening/
 language: da
 header:
   overlay_image: /assets/images/blog/hvordan-skal-jeg-dosere-min-styrketraening.jpg

@@ -1,6 +1,6 @@
 ---
 title: "Bliv din egen kostvejleder"
-permalink: /artikel/bliv-din-egen-kostvejleder
+permalink: /artikel/bliv-din-egen-kostvejleder/
 language: da
 header:
   overlay_image: /assets/images/blog/bliv-din-egen-kostvejleder.jpg

@@ -1,6 +1,6 @@
 ---
 title: "Træn med en makker"
-permalink: /artikel/traen-med-en-makker
+permalink: /artikel/traen-med-en-makker/
 language: da
 header:
   overlay_image: /assets/images/blog/traen-med-en-makker.jpg

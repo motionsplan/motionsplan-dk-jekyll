@@ -1,6 +1,6 @@
 ---
 title: &title "Unilateral træning: Ensidige øvelser løfter niveauet"
-permalink: /artikel/unilateral-traening
+permalink: /artikel/unilateral-traening/
 language: da
 header:
   overlay_image: /assets/images/blog/unilateral-traening.jpg

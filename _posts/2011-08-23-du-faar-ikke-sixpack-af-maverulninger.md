@@ -1,10 +1,11 @@
 ---
-title: "Du får ikke sixpack af maverulninger"
-permalink: /artikel/du-faar-ikke-sixpack-af-maverulninger
+title: &title "Du får ikke sixpack af maverulninger"
+permalink: /artikel/du-faar-ikke-sixpack-af-maverulninger/
 language: da
 header:
   overlay_image: /assets/images/blog/du-faar-ikke-sixpack-af-maverulninger.jpg
   teaser: /assets/images/blog/du-faar-ikke-sixpack-af-maverulninger.jpg
+  caption: *title
 tags:
   - maveøvelser
   - flad mave

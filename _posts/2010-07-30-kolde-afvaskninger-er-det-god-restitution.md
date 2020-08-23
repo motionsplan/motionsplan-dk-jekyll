@@ -1,6 +1,6 @@
 ---
-title: &title "Virker et isbad efter træning på restitutionen?"
-permalink: /isbad-og-kryoterapi
+title: &title "Kryoterapi: Virker et isbad efter træning på restitutionen?"
+permalink: /isbad-og-kryoterapi/
 redirect_from:
   - /artikel/kolde-afvaskninger-er-det-god-restitution
 language: da
@@ -10,6 +10,8 @@ header:
   caption: *title
 tags:
   - restitution
+  - isbad
+  - kryoterapi
 category:
   - Webclips
 last_modified_at: 2020-05-28T20:39:39Z

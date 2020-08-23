@@ -1,12 +1,14 @@
 ---
-title: "Sprint 8 - intervaltræning der virker"
-permalink: /artikel/sprint-8-intervaltræning-der-virker
+title: &title "Sprint 8 - intervaltræning der virker"
+permalink: /artikel/sprint-8-intervaltræning-der-virker/
 language: da
 header:
   overlay_image: /assets/images/blog/sprint-8-intervaltraening-der-virker.jpg
   teaser: /assets/images/blog/sprint-8-intervaltraening-der-virker.jpg
+  caption: *title
 tags:
   - anaerob
+  - aerob
 category:
   - Kondition
   - Løb

@@ -1,6 +1,6 @@
 ---
 title: "7 tips til din teknik i din styrketræning [2020]"
-permalink: /artikel/tjek-teknikken-i-din-styrketraening
+permalink: /artikel/tjek-teknikken-i-din-styrketraening/
 language: da
 header:
   overlay_image: /assets/images/blog/tjek-teknikken-i-din-styrketraening.jpg

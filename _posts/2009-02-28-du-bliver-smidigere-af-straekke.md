@@ -1,11 +1,12 @@
 ---
-title: "Udstrækning: Bliver jeg smidigere af at strække ud?"
+title: &title "Udstrækning: Bliver jeg smidigere af at strække ud?"
 excerpt: "Udspænding og udstrækning er forbundet med mange myter. Du bliver smidigere af at strække ud, men vi gennemgår også de uafklarede ting i forbindelse med udstrækning!"
-permalink: /artikel/du-bliver-smidigere-af-straekke
+permalink: /artikel/du-bliver-smidigere-af-straekke/
 language: da
 header:
   overlay_image: /assets/images/blog/du-bliver-smidigere-af-straekke.jpg
   teaser: /assets/images/blog/du-bliver-smidigere-af-straekke.jpg
+  caption: *title
 tags:
   - udspænding
   - udstrækning

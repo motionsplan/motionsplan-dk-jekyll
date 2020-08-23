@@ -1,6 +1,6 @@
 ---
 title: "Slyngetræning: Træning med slynger, TRX og slyngetræner"
-permalink: /artikel/traening-med-slynger-trx-powersling-suspension-training
+permalink: /artikel/traening-med-slynger-trx-powersling-suspension-training/
 redirect_from:
   - /artikel/træning-med-slynger-trx-powersling-suspension-training
 language: da

@@ -1,12 +1,14 @@
 ---
 title: "Kompressionsstrømper: Virker det på præstation og restitution til løb?"
-permalink: /artikel/kompressionsstroemper-en-god-ide
+permalink: /artikel/virker-kompressionsstroemper/
+redirect_from:
+  - /artikel/kompressionsstroemper-en-god-ide
 excerpt: "Kompressionsstrømper foretrækkes af flere og flere løbere, men hvad er effekten og virker kompressionsstrømper på præstationsevnen og restitutionen til løb og cykling - og er der bivirkninger?"
 language: da
 header:
   overlay_image: /assets/images/blog/kompressionsstroemper-en-god-ide.jpg
   teaser: /assets/images/blog/kompressionsstroemper-en-god-ide.jpg
-  caption: "Kompressionsstrømper"
+  caption: "Virker kompressionsstrømper?"
 category:
   - Kondition
   - Løb

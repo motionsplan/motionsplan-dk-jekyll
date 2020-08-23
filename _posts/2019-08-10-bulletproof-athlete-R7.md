@@ -1,6 +1,6 @@
 ---
 title: "Bulletproof Athlete og R7"
-permalink: /artikel/bulletproof-athlete
+permalink: /artikel/bulletproof-athlete/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1590260712186-ff1891e5876e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80

@@ -1,14 +1,16 @@
 ---
-title: "Jeg vil tage mange armstrækninger?"
-permalink: /artikel/jeg-vil-tage-mange-armstraekninger
+title: &title "Jeg vil tage mange armstrækninger?"
+permalink: /artikel/jeg-vil-tage-mange-armstraekninger/
 language: da
 header:
   overlay_image: /assets/images/blog/jeg-vil-tage-mange-armstraekninger.jpg
   teaser: /assets/images/blog/jeg-vil-tage-mange-armstraekninger.jpg
+  caption: *title
 tags:
   - styrketræning
   - udholdenhed
   - guide
+  - armstrækning
 category:
   - Styrketræning
 last_modified_at: 2013-02-13T22:01:30Z

@@ -1,12 +1,15 @@
 ---
-title: "Kontrasttræning - for eksplosiv power"
-permalink: /artikel/kontrasttraening
+title: &title "Kontrasttræning - for eksplosiv power"
+permalink: /artikel/kontrasttraening/
 language: da
 header:
   overlay_image: /assets/images/blog/kontrasttraening.jpg
   teaser: /assets/images/blog/kontrasttraening.jpg
+  caption: *title
 tags:
   - styrketræning
+  - eksplosivitet
+  - kontrasttræning
 category:
   - Styrketræning
 last_modified_at: 2015-04-09T21:24:52Z

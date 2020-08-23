@@ -1,7 +1,7 @@
 ---
 title: "Hvordan opbygger jeg et helkropsprogram?"
 excerpt: "At opbygge et styrketræningsprogram, der gerne vil træne hele kroppen hver gang og en og tre gange om ugen og vil bruge omkring en time på hver træning."
-permalink: /artikel/hvordan-opbygger-jeg-et-helkropsprogram
+permalink: /artikel/hvordan-opbygger-jeg-et-helkropsprogram/
 language: da
 header:
   overlay_image: /assets/images/blog/hvordan-opbygger-jeg-et-helkropsprogram.jpg

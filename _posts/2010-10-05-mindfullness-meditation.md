@@ -1,6 +1,6 @@
 ---
 title: "Mindfulness meditation - øvelser og video på dansk [2020]"
-permalink: /artikel/mindfullness-meditation
+permalink: /artikel/mindfullness-meditation/
 language: da
 author: kathrine.christensen
 header:

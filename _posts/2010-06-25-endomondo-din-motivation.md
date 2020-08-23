@@ -1,6 +1,6 @@
 ---
 title: "Endomondo - din motivation?"
-permalink: /artikel/endomondo-din-motivation
+permalink: /artikel/endomondo-din-motivation/
 language: da
 header:
   overlay_image: /assets/images/blog/endomondo-din-motivation.jpg

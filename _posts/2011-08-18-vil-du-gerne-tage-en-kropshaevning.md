@@ -1,10 +1,11 @@
 ---
-title: "Kropshævninger: Lær at tage en pullup og chinup?"
-permalink: /artikel/vil-du-gerne-tage-en-kropshaevning
+title: &title "Kropshævninger: Lær at tage en pullup og chinup?"
+permalink: /artikel/vil-du-gerne-tage-en-kropshaevning/
 language: da
 header:
   overlay_image: /assets/images/blog/vil-du-gerne-tage-en-kropshaevning.jpg
   teaser: /assets/images/blog/vil-du-gerne-tage-en-kropshaevning.jpg
+  caption: *title
 tags:
   - styrketræning
   - guide

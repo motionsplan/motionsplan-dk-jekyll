@@ -1,10 +1,11 @@
 ---
-title: "Er kontinuerlig træning eller intervaltræning bedst for fedtforbrændingen?"
-permalink: /artikel/er-kontinuerlig-traening-eller-intervaltraening-bedst-for-fedtforbraendningen
+title: &title "Er kontinuerlig træning eller intervaltræning bedst for fedtforbrændingen?"
+permalink: /artikel/er-kontinuerlig-traening-eller-intervaltraening-bedst-for-fedtforbraendningen/
 language: da
 header:
   overlay_image: /assets/images/blog/er-kontinuerlig-traening-eller-intervaltraening-bedst-for-fedtforbraendningen.jpg
   teaser: /assets/images/blog/er-kontinuerlig-traening-eller-intervaltraening-bedst-for-fedtforbraendningen.jpg
+  caption: *title
 tags:
   - intervaltræning
   - fedtforbrænding
