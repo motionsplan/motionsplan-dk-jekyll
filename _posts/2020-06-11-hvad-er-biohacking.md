@@ -1,11 +1,12 @@
 ---
-title: "Biohacker: Definition og guide til hvad biohacking er?"
+title: &title "Biohacker: Definition og guide til hvad biohacking er?"
 permalink: /hvad-er-biohacking/
 language: da
 header:
   overlay_image: https://scx1.b-cdn.net/csz/news/800/2018/1-thedangersof.jpg
   teaser: https://scx1.b-cdn.net/csz/news/800/2018/1-thedangersof.jpg
   overlay_filter: 0.2
+  caption: *title
 category:
   - Viden om
 tags:

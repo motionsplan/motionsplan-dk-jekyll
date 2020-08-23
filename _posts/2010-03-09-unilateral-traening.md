@@ -15,10 +15,9 @@ category:
 last_modified_at: 2020-02-12T19:47:02Z
 ---
 
-Det er en god ide, at lave øvelser i træningen, som belaster den ene side af kroppen på skift. Med andre ord så skal du lave unilaterale øvelser, fordi det har mange positive effekter på din træning.
+Det er en god ide, at lave unilateral træning, som belaster den ene side af kroppen på skift. Med andre ord så skal du lave unilaterale øvelser, fordi det har mange positive effekter på din træning.
 
 Hvad er unilaterale øvelser? **Unilaterale øvelser træner hver side af din krop uafhængigt af hinanden. Unilateral træning er øvelser som fx split squats, etbens dødløft, one-arm row, planke med skulderklap, one-arm press, lunges og andre øvelser, hvor du arbejder med et ben eller arm ad gangen.**
-
 
 ## Tosidige øvelser er en god basis
 
@@ -89,4 +88,4 @@ Unilateral træning er naturligvis ikke i sig selv magisk, men det har bare mang
 
 Har du ikke prøvet unilateral træning før, så prøv det og mærk hvor udfordrende det er?
 
-Hvilke øvelser bruger du selv i dit eget træningsprogram? Skriv det i kommentarerne.
+Hvilke unilaterale øvelser bruger du selv i dit eget træningsprogram? Skriv det i kommentarerne.

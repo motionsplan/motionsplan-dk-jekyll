@@ -20,7 +20,7 @@ gallery:
     title: Musklerne på baglåret er med til at strække hoften
 ---
 
-Rigtig mange glemmer træningen af deres baglår. Jeg har samlet nogle øvelser til baglåret og haserne, som er med til at mindske risikoen for skader (fx fibersprængninger) og øge dit præstationspotentiale. 
+Rigtig mange glemmer træningen af deres baglår. Jeg har samlet nogle øvelser til træning af baglåret og haserne, som er med til at mindske risikoen for skader (fx fibersprængninger) og øge dit præstationspotentiale. 
 
 Træner du dit baglår og dine haser? Det tror jeg nok du går, så næste gang du går i styrkerummet starter træningen af haserne.
 
@@ -28,7 +28,7 @@ Træner du dit baglår og dine haser? Det tror jeg nok du går, så næste gang 
 
 Ofte bliver baglåret ikke trænet tilstrækkeligt, og ofte heller ikke på den måde baglårsmusklen bruges. 
 
-Lad os dykke lidt ned i anatomien.
+Lad os dykke lidt ned i anatomien i baglåret.
 
 {% include figure image_path="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5582808/bin/gr1.jpg" caption="Musklerne i baglåret. Kilde: [Ernlund og Viera (2017)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5582808/)" %}
 
