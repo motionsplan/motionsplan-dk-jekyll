@@ -16,17 +16,17 @@ category:
   - Kondition
   - Styrketræning
   - Løb
-last_modified_at: 2020-07-15T15:18:24Z
+last_modified_at: 2020-08-23T15:18:24Z
 ---
 
 Jeg bruger ofte musik til træningen, når jeg underviser mine elever. Hvis jeg ikke lige er faldet over en podcast, så bruger jeg også musik til min egen træning. Men hvordan finder jeg de bedste sange til træning, løb, styrketræning og intervaltræning, så musikken kan give ekstra energi og motivation?
 
-Hvorfor skal jeg bruge musik til træningen, og hvordan finder jeg de bedste sange? **Det bedste er, hvis du kan finde musik, der er synkront med dine bevægelser. Hvis det fx er løb, så passer 160-180 bpm rigtig godt for de fleste. Hvis musikken passer til din træning, så kan den hjælpe med at få træningen til at virke lettere, så du kan arbejde længere, eller presse tempoet højere op. Musik kan gøre træningen mere effektiv.**
+Hvorfor skal jeg bruge musik til træningen? **Når musikken passer til din træning, så kan musikken hjælpe med at få træningen til at virke lettere, så du kan arbejde længere, eller presse tempoet højere op. Musik kan altså gøre træningen mere effektiv. Det bedste er, hvis du kan finde musik, der er synkrone med dine bevægelser. Hvis det fx er løb, så passer 160-180 bpm rigtig godt for de fleste.**
 
 *[bpm]: beats per minute
 *[RPE]: Rate of Percieved Exertion
 
-Man kan kickstarte sin træningsmotivation ved at høre musik til træningen. Jeg oplever elever, der ikke kan løbe uden at have musik i ørerne eller insisterer på at have hovedtelefoner på, når de skal løfte noget tungt.
+Du kan kickstarte din træningsmotivation ved at høre musik til træningen. Jeg oplever elever, der ikke kan løbe uden at have musik i ørerne eller insisterer på at have hovedtelefoner på, når de skal løfte noget tungt.
 
 Og videnskaben understøtter faktisk, at musik kan hjælpe i træningen. Lad os dykke lidt ned forskningen først.
 
@@ -55,7 +55,17 @@ Musikvalget er vigtigt, og det skal passe til de aktiviteter, du laver. Jeg har 
 
 ## Find passende musik til træningen
 
-Du kan analysere musik på mange forskellige måder. Noget af det vigtigste for om det passer til en aktivitet er musikkens tempo. 
+Du kan analysere musik på mange forskellige måder. Noget af det vigtigste for om det passer til en aktivitet er musikkens tempo, så det kigger vi lige på først.
+
+I løb [anbefaler mange løbecoaches, at man skruer kadencen op](https://vorespuls.dk/loeb/artikler/loebestil-med-flere-skridt-brug-metronom) til omkring 170-180 skridt pr. minut. Du kan få musikken til at hjælpe med at ramme tempoet.
+
+I cykling anbefales det, at kadencen ligger mellem 90 og 105 _revolutions per minute (RPM)_, mens den i **spinning** ligger på følgende:
+
+- Enkelttakt: 60-70 RPM
+- Mellemtakt: 90-110 RPM
+- Dobbelttakt: 120-140 RPM
+
+Det skal du altså gøre dig umage for, at musikken rammer, så du ikke risikerer at musikken sløver dig ned.
 
 ## Musikkens tempo
 
@@ -87,33 +97,32 @@ Hvis du skal lave et opvarmningsprogram, der passer til musik, og hvor musikken 
 
 Når musikken mere skal bruges som baggrundsmotivation, så er det vigtigst, at du finder musik i et passende tempo.
 
+Jeg bruger ofte [SongBPM](https://songbpm.com/), hvis jeg vil finde bpm for de forskellige gode sange, så jeg kan finde den musik, der passer bedst til min træning.
+
 ## Eksempler på sange til din træning
 
-Her er nogle eksempler på musikstykker i forskellig tempo.
+Her er nogle eksempler på musikstykker i forskellig tempo, som bliver foreslået af [Idrætsmusik](https://idraetsmusik.dk/).
 
-**Sving: 70 bpm --- Timbaland - 2 man show**
+| Aktivitet | BPM | Kunster - sangtitel |
+|-|-|-|
+| Sving | 70 bpm | Timbaland - 2 Man Show |
+| Styrkeøvelser | 85 bpm | Arctic Monkeys - Do You Wanna Know? |
+| Gang | 105 bpm | Kongos - Come With Me Now? |
+| Gang og hop | 117 bpm | Estelle - American Boy |
+| Løb | 160 bpm | Pharell Williams - Happy |
+| Udstrækning | 76 bpm | Ed Sheeran - I See Fire |
 
-<iframe src="https://open.spotify.com/embed?uri=spotify%3Atrack%3A5wsENdyZpOv7w7Jc5ehkUC" width="600" height="100" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+## Musikkens budskab
 
-**Styrkeøvelser: 85 bpm --- Arctic Monkeys - Do I Wanna Know?**
+Et meget populært hit til træning er _Gonna Fly_ fra Rocky med Sylvester Stallone. Mange bruger den mental træning eller motivation under sin træning. Det kan der være flere forklaringer på, men den sang har i hvert fald en god melodi og en motiverende tekst.
 
-<iframe src="https://open.spotify.com/embed?uri=spotify%3Atrack%3A5FVd6KXrgO9B3JPmC8OPst" width="600" height="100" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+> ”Sangen bringer lytteren i en tilstand af optimisme og opstemt spænding.”
 
-**Gang: 105 bpm --- Gang: Kongos - Come With Me Now**
+— <cite>[Costas Karageorghis](https://vorespuls.dk/kost-sundhed/artikler/saadan-vaelger-du-musik-til-traening), idrætsforsker</cite>
 
-<iframe src="https://open.spotify.com/embed?uri=spotify%3Atrack%3A2kWowW0k4oFymhkr7LmvzO" width="600" height="100" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+Du kan høre sangen her, så du bliver motiveret til at læse resten af artiklen.
 
-**Gang og Hop: 117 bpm --- Estelle - American Boy**
-
-<iframe src="https://open.spotify.com/embed?uri=spotify%3Atrack%3A3doSc40sdXfuwHV9mnJbhH" width="600" height="100" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-
-**Løb: 160 bpm --- Pharrell Williams - Happy**
-
-<iframe src="https://open.spotify.com/embed?uri=spotify%3Atrack%3A60nZcImufyMA1MKQY3dcCH" width="600" height="100" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-
-**Udstrækning: 76 bpm --- Ed Sheeran - I See Fire**
-
-<iframe src="https://open.spotify.com/embed?uri=spotify%3Atrack%3A3B7udSGy2PfgoCniMSb523" width="600" height="100" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+{% include video provider="youtube" id="ioE_O7Lm0I4" %}
 
 ## Musik til løb og løbetræning
 
@@ -122,6 +131,10 @@ Du kan tænke over følgende i forhold til din løbetræning:
 - **Tempo**. Hvis du vil lytte til musik, når du løber så kan du udnytte musik med et tempo, der nogenlunde svarer til din løbekadence. Det kan betale sig for de fleste at løbe med en kadence på 160-180 skridt i minuttet.
 - **Intensitet**. Intensiteten i musikken skal passe til dig, men man kan finde musiknumre, som er lidt vildere.
 - **Teksterne**. Du kan også vælge musik, hvor teksten er motiverende. Altså finde nogle numre, hvor lyrikken taler til dig.
+
+En klassiker fra min ungdom til løb er Dire Straits _Walk of Life_:
+
+{% include video provider="youtube" id="kd9TlGDZGkI" %}
 
 ## Musik til styrketræning
 
@@ -157,6 +170,12 @@ Så er det let at lave sin egen playliste og skifte træningsmusik - eller lade 
 
 Det er oplagt at bruge enten langsom musik eller motiverende musik i pauserne, der hjælper med at restitutionen bliver hurtigere og pulsen kommer hurtigere nedad.
 
+### Hvad gør du med musik til træningen?
+
+Jeg laver så mit træningsprogram her på motionsplan, hvor jeg let kan skrive øvelsesbeskrivelserne ud.
+
+Jeg får eleverne til at hjælpe med at stille øvelserne op. Så kører vi en prøverunde, hvor man lige får lov til at prøve øvelserne. Derefter skruer jeg op for musikken og starter App'en - og træningen går i gang. Hvad gør du?
+
 ## De mest populære træningssange på Spotify
 
 Her har vi samlet den mest populære musik til træning, som Spotify offentliggør hvert år. Det er meget populært at bruge musik til træning i Danmark.
@@ -169,58 +188,71 @@ Det er tydeligt, at du skal have Eminems _Till I Collapse_ på din playliste til
 
 {% include video provider="youtube" id="ytQ5CYE1VZw" %}
 
+Du vil lægge mærke til at en rigtig stor del af sangene i de følgende lister har _bpm_, der ligger under løbetempo, men måske passer bedre til spinning og styrketræning.
+
 ### 10 mest populære træningssange i Danmark 2017
 
 De 10 mest populære træningssange i Danmark:
 
-1. Eminem - Till I Collapse
-2. Post Malone - rockstar
-3. Jax Jones - You Don't Know Me - Radio Edit
-4. Axwell /\ Ingrosso - More Than You Know
-5. Luis Fonsi - Despacito feat. Justin Bieber - Remix
-6. Volbeat - For Evigt
-7. Fort Minor - Remember The Name (feat. Styles Of Beyond)
-8. Kanye West - Stronger
-9. Eminem - Lose Yourself - Soundtrack Version
-10. Camila Cabello - Havana
+1. Eminem - Till I Collapse - 168 bpm
+2. Post Malone - rockstar - 80 bpm
+3. Jax Jones - You Don't Know Me - Radio Edit - 124 bpm
+4. Axwell /\ Ingrosso - More Than You Know - 123 bpm
+5. Luis Fonsi - Despacito feat. Justin Bieber - Remix - 89 bpm
+6. Volbeat - For Evigt - 147 bpm
+7. Fort Minor - Remember The Name (feat. Styles Of Beyond) - 85 bpm
+8. Kanye West - Stronger - 104 bpm
+9. Eminem - Lose Yourself - Soundtrack Version - 171 bpm
+10. Camila Cabello - Havana - 105 bpm
 
-### 10 mest populære sange i Danmark til træning 2018
+### 10 mest populære sange til træning i Danmark 2018
 
 Det mest populære musik til træning i 2018 var på Spotify:
 
-1. Till I Collapse” – Eminem
-2. ”Stronger” – Kanye West
-3. “Lose Yourself” - From "8 Mile" Soundtrack – Eminem
-4. “Remember The Name” (feat. Styles Of Beyond) – Fort Minor
-5. “Black Skinhead” – Kanye West
-6. “POWER” – Kanye West
-7. “Numb / Encore“ – JAY Z
-8. “Can't Hold Us” (feat. Ray Dalton) - Macklemore & Ryan Lewis
-9. “Eye of the Tiger” – Survivor
-10. “Last Resort” – Papa Roach 
+1. Till I Collapse” – Eminem - 171 bpm
+2. ”Stronger” – Kanye West - 104 bpm
+3. “Lose Yourself” - From "8 Mile" Soundtrack – Eminem - 171 bpm
+4. “Remember The Name” (feat. Styles Of Beyond) – Fort Minor - 85 bpm
+5. “Black Skinhead” – Kanye West - 130 bpm
+6. “POWER” – Kanye West - 154 bpm
+7. “Numb / Encore“ – JAY Z - 107 bpm
+8. “Can't Hold Us” (feat. Ray Dalton) - Macklemore & Ryan Lewis - 146 bpm
+9. “Eye of the Tiger” – Survivor - 109 bpm
+10. “Last Resort” – Papa Roach - 91 bpm
 
 ### De mest streamede træningssange i 2019
 
 Det mest populære musik til træningen i 2019 var på Spotify:
 
-1. “‘Till I Collapse” – Eminem, Nate Dogg
-2. “I Don’t Care” – Ed Sheeran, Justin Bieber
-3. “Dance Monkey” – Tones and I
-4. “If I Can’t Have You” – Shawn Mendes
-5. “Beautiful People” – Ed Sheeran, Khalid
-6. “Sucker” – Jonas Brothers
-7. “SICKO MODE” – Travis Scott
-8. “Higher Love” – Kygo, Whitney Houston
-9. “Lose Yourself” – Eminem
-10. “i’m so tired…” – Lauv, Troye Sivan
+1. “‘Till I Collapse” – Eminem, Nate Dogg - 171 bpm
+2. “I Don’t Care” – Ed Sheeran, Justin Bieber - 102 bpm
+3. “Dance Monkey” – Tones and I - 98 bpm
+4. “If I Can’t Have You” – Shawn Mendes - 125 bpm
+5. “Beautiful People” – Ed Sheeran, Khalid - 93 bpm
+6. “Sucker” – Jonas Brothers - 138 bpm
+7. “SICKO MODE” – Travis Scott - 155 bpm
+8. “Higher Love” – Kygo, Whitney Houston - 104 bpm
+9. “Lose Yourself” – Eminem - 171 bpm
+10. “i’m so tired…” – Lauv, Troye Sivan - 102 bpm
 
-### 2020
+### Bedste musik til træning i 2020
 
 Det er spændende, hvad de mest populære sange på Spotify træningsplaylisterne bliver i 2020.
 
 ## Populære playlister til træning
 
-På Spotify er følgende playlister populære, når du søger efter træningsplaylister:
+På Spotify er der mange populære playlister, når du søger efter en playliste til træning. [Urban List](https://www.theurbanlist.com/a-list/best-spotify-workout-playlists) har valgt de fem bedste træningsplaylister.
+
+- New Wave Rap
+- Gold School
+- Rap Caviar
+- Hype
+- Cali Fire
+- Run This Down
+- EDM Workout
+- Cool Down
+
+[Iform](https://iform.dk/traening/traeningsmotivation/kickstart-din-traening-med-musik) peger derimod på de følgende playlister som de mest populære træningsplaylister:
 
 - Pop til træningen
 - Rock til træningen
@@ -228,13 +260,9 @@ På Spotify er følgende playlister populære, når du søger efter træningspla
 - Høj puls
 - Hård træning
 
-Skriv i kommentarerne, hvor du finder de bedste træningsplaylister.
+Skriv i kommentarerne, hvor du finder de bedste træningsplaylister, og hvad din bedste playliste er til hhv. løb, styrketræning, yoga, intervaltræning og konditionstræning.
 
-## Hvad gør du med musik til træningen?
-
-Jeg laver så mit træningsprogram her på motionsplan, hvor jeg let kan skrive øvelsesbeskrivelserne ud. Jeg får eleverne til at hjælpe med at stille op. Så kører vi en prøverunde, hvor man lige får lov til at prøve øvelserne. Derefter skruer jeg op for musikken og starter App'en - og træningen går i gang. Hvad gør du?
-
-## Referencer
+## Referencer til musik i træningen
 
 - Arazi, Hamid, Abbas Asadi, og Morteza Purabed. 2015. “Physiological and Psychophysical Responses to Listening to Music during Warm-Up and Circuit-Type Resistance Exercise in Strength Trained Men”. _Journal of Sports Medicine (Hindawi Publishing Corporation)_ 2015: 389831. [https://doi.org/10.1155/2015/389831](https://doi.org/10.1155/2015/389831).
 - Ballmann, Christopher G., Marquis J. McCullum, Rebecca R. Rogers, Mallory M. Marshall, og Tyler D. Williams. 2018. “Effects of Preferred vs. Nonpreferred Music on Resistance Exercise Performance”. _Journal of Strength and Conditioning Research_, december. [https://doi.org/10.1519/JSC.0000000000002981](https://doi.org/10.1519/JSC.0000000000002981).
