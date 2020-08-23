@@ -1,5 +1,5 @@
 ---
-title: &title Hvordan lærer jeg at tage en armstrækning?"
+title: &title "Hvordan lærer jeg at tage en armstrækning?"
 permalink: /artikel/hvordan-laerer-jeg-tage-en-armstraekning/
 language: da
 header:
@@ -21,7 +21,7 @@ For os er en armstrækning en armstrækning. Vi skelner ikke mellem forskellige 
 
 {% include exercises exercises="Armstrækning, på tæerne" match="exact" type="left" %}
 
-### Hvordan træner jeg så?
+### Hvordan træner jeg så armstrækninger?
 
 Det er en udbredt misforståelse, at det er en god ide at starte med at tage armstrækninger på knæene og til sidst håbe på at man bliver stærk nok til at kunne tage dem på tæerne. Der skal helt andre midler til.
 
@@ -38,3 +38,5 @@ Placer hænderne på en bænk. Sænk brystet ned mod bænken med helt ret krop. 
 **3. dag. Excentrisk arbejde.** Stil dig i armstrækningsstillingen. Sænk dig så langsomt som du overhovedet kan med kroppen helt ret. Stil dig derefter op i armstrækningsstillingen igen. Gentag 10 gange.
 
 Det er vigtigt at du til hver træning forsøger at slå dine tidligere rekorder, så skriv ned hver gang, hvad du laver. Vi glæder os til at høre om resultatet.
+
+Jeg har skrevet en grundlæggende artikel om, hvad [armbøjninger og armstrækninger er?]({% link _posts/2020-07-05-pushups.md %}) eller hvis du gerne vil [tage mange armstrækninger]({% link _posts/2010-09-04-jeg-vil-tage-mange-armstraekninger.md %}).

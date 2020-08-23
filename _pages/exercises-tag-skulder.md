@@ -36,4 +36,4 @@ Jeg har skrevet mere om [armstrækninger]({% link _posts/2020-07-05-pushups.md %
 
 </div>
 
-## Øvelser til skuldertræning
+## Skulderøvelser: Øvelser til skuldertræning
