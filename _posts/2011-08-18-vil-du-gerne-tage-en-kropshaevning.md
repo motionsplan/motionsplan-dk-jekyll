@@ -9,6 +9,7 @@ header:
 tags:
   - styrketræning
   - guide
+  - skulder
 category:
   - Styrketræning
 last_modified_at: 2013-02-13T22:27:53Z

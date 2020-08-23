@@ -25,3 +25,5 @@ Hvis du vil have nogen effekt af styrketræning, så bør du vælge et program, 
 Jeg synes fullbody, 2-split og 3-split er det mest interessante programmer for langt de fleste mennesker, men hvis du træner rigtig meget og vil have variation, så er der også nogle der bruger 4-split og 5-split-programmer til styrketræning.
 
 Tag udgangspunkt i et af de mange effektive programmer her og tilpas dem til dine behov.
+
+## Træningsprogrammer

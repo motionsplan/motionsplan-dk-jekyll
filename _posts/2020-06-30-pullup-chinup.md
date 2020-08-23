@@ -1,17 +1,18 @@
 ---
-title: "Pull ups vs chin ups: Hvad er forskellen på kropshævninger?"
+title: &title "Pull ups vs chin ups: Hvad er forskellen på kropshævninger?"
 permalink: /chinup-vs-pullup/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1502955717682-d0430000b16d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
   teaser: https://images.unsplash.com/photo-1502955717682-d0430000b16d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
-  caption: Photo by Martine Jacobsen on Unsplash
+  caption: *title
 category:
   - Viden om
+  - Styrketræning
 tags:
-  - anatomi
-  - fysiologi
+  - styrketræning
   - muskler
+  - skulder
 last_modified_at: 2020-06-11T08:14:14Z
 toc: true
 gallery:

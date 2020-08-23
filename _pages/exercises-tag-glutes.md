@@ -23,3 +23,5 @@ Balleøvelserne glute bridge og hip thrusters er populære og effektive, men hvi
 Vi har samlet alle de bedste og mest effektive baldeøvelser her, som du kan lave både hjemme og i styrketræningscenteret. 
 
 På engelsk kaldes ballerne for 'glutes', og det kan være godt at dykke lidt ned i anatomien for ballerne for at finde ud af, hvordan du sammensætter det bedste træningsprogram til dine baller og lærer at vælge det bedste balleøvelser.
+
+## Øvelser til træning af balderne

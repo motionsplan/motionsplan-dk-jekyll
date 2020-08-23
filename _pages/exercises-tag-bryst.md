@@ -19,3 +19,5 @@ excerpt: "Du kommer naturligvis ikke uden om bænkpres og varianter af bænkpres
 Du kommer naturligvis ikke uden om bænkpres og varianter af bænkpres med både vægtstang og håndvægte, når du vil finde øvelser til brystet. Brysttræning og styrketræning af brystet involverer også ofte skulderen og triceps.
 
 Vi har samlet en masse effektive styrketræningsøvelser til brystet både med vægtstang, håndvægte, kabel og elastik, så du kan varirere, hvordan du rammer brystmusklen.
+
+## Øvelser til træning af brystet

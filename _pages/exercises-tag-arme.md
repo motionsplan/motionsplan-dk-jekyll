@@ -31,3 +31,5 @@ Hvis du gerne vil have store arme, så er det især triceps du skal træne. Tric
 Vi har samlet de bedste styrkeøvelser til triceps, så du kan optimere din armtræning. Husk at triceps er en væsentlig del af mange skub-øvelser som fx bænkpres, men du kan også træne den isoleret med fx fransk pres, triceps pushdown og triceps extensions. 
 
 Du kan træne triceps med både stang, håndvægte, elastik, kettlebell og kropsvægt, fx ved armstrækninger.
+
+## Armøvelser
