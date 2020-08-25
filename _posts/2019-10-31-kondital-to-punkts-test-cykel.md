@@ -34,7 +34,7 @@ Hvis du leder efter [Åstrands et-punktstest, så har jeg skrevet om den her](/e
 
 ## Hvordan udføres topunktstesten?
 
-Til Åstrands to-punktstest skal du bruge en kondicykel, der kan vise belastningen i watt. Desuden skal du kunne måle din puls - gerne med et pulsur.
+Til Åstrands **to-punktstest** skal du bruge en kondicykel, der kan vise belastningen i watt. Desuden skal du kunne måle din puls - gerne med et pulsur.
 
 {% include video provider="youtube" id="Ej5UH8KrE5Q" %}
 

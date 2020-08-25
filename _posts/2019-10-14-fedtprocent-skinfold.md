@@ -8,7 +8,7 @@ language: da
 header:
   overlay_image: https://www.ubershape.com.au/wp-content/uploads/2017/05/35A2528-1024x683.jpg
   teaser: https://www.ubershape.com.au/wp-content/uploads/2017/05/35A2528-1024x683.jpg
-  caption: "[Image credit: Ubershape](https://www.uberhape.com.au/why-i-use-metabolic-analytics-with-my-clients/)"
+  caption: "Mål din fedtprocent med fedttang. Image credit: [Ubershape](https://www.uberhape.com.au/why-i-use-metabolic-analytics-with-my-clients/)"
 category:
   - Test
 tags:
@@ -21,14 +21,14 @@ feature_row:
     title: "Accu-Measure Fitness 3000 Body Fat Caliper"
     excerpt: "Mål din fedtprocent nemt med Accu-Measure Fitness 3000 Body Fat Caliper. Fedttangen bliver brugt af mange amerikanske personlige trænere på grund af dens præcise målinger. Du kan både bruge den hjemme eller have den med på farten."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=20604&htmlurl=https://www.bodyman.dk/shop/accu-measure-fitness-54935p.html"
-    btn_label: "Læs mere"
+    btn_label: "Tjek pris*"
     btn_class: "btn--success"
   - image_path: https://www.bodystore.dk/dw/image/v2/BDJH_PRD/on/demandware.static/-/Sites-hsng-master-catalog/default/dweed812b8/Hi-res/h/a/harpenden-skinfold-caliper-baty_1.png?sw=710&sh=710&sm=fit
     alt: "Harpenden Skinfold Caliper"
     title: "Harpenden Skinfold Caliper"
     excerpt: "Harpenden Skinfold Caliper - Kvalitetscaliper fra Baty til nem og præcis måling af fedtprocent!"
     url: "https://www.bodystore.dk/harpenden-skinfold-caliper"
-    btn_label: "Læs mere"
+    btn_label: "Tjek pris*"
     btn_class: "btn--success"
 ---
 
@@ -68,6 +68,8 @@ Der er mange forskellige formler, som kan bruges til _skinfold_-målinger. Vi ha
 
 Jeg foretrækker selv [Durnin & Womersley 4-punkts måling af fedtprocent](/skinfold-durnin-womersley/), fordi den er ens til mænd og kvinder og fordi formlen den er lavet med udgangspunkt i almindelige mennesker.
 
+Alle de følgende indlæg kræver en pålidelig fedttang til at lave hudfoldsmålinger for at estimere fedtprocenten.
+
 {% assign site_posts = site.posts | where: "tags", "skinfold" | sort: "date" %}
 
 {% if site_posts.size > 0 %}
@@ -81,3 +83,7 @@ Jeg foretrækker selv [Durnin & Womersley 4-punkts måling af fedtprocent](/skin
 ## Hvad er normale fedtprocenter?
 
 Du kan også udregne din fedtprocent, og hvis du se normalværdier for fedtprocent, så [kig i mit indlæg om at udregne sin fedtprocent, hvor jeg har lavet en tabel](/artikel/udregning-af-fedtprocent).
+
+## Køb en fedttang
+
+{% include feature_row type="left" %}

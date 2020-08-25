@@ -41,7 +41,7 @@ Testens bestemmelse af den maksimale iltoptagelse er behæftet med nogen usikker
 
 ## Hvordan udfører du Åstrands etpunktstest?
 
-Du skal bruge en kondicykel, der kan vise belastningen i watt. Desuden skal du måle din puls, mens du cykler.
+Til Åstrands **et-punktstest** skal du bruge en kondicykel, der kan vise belastningen i watt. Desuden skal du måle din puls, mens du cykler.
 
 Du skal køre på en af fire nedenstående belastninger: 50, 75, 100 eller 150 watt. Belastningen skal vælges således, at din puls stabiliseres i området 110-150 slag/min efter ca. 5 minutters cykling. Belastningen skal gøre dig moderat forpustet, men må ikke føles hård.
 

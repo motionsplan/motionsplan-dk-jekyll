@@ -138,11 +138,11 @@ Udholdenhedstræning kan fx fylde omkring 25-30% af ugens samlede træningsmæng
 
 Træning af den anaerobe tærskel er en vigtig træningsform for distanceløbere, men hvad er mælkesyretærsklen eller den anaerobe tærskel?
 
-Hvad er den anaerobe tærkel? **Den anaerobe tærskel eller mælkesyregrænsen er det tidspunkt, hvor musklerne og leveren ikke længere kan nå at nedbryde mælkesyren lige så hurtigt som den skabes som biprodukt af en anaerob forbrænding i mitochondrierne. Når man løber voer den anaerobe tærskel, vil man altså langsomt opbygge mere og mere mælkesyre i kroppen.**
+Hvad er den anaerobe tærkel? **Den anaerobe tærskel eller mælkesyregrænsen er det tidspunkt, hvor musklerne og leveren ikke længere kan nå at nedbryde mælkesyren lige så hurtigt som den skabes som biprodukt af en anaerob forbrænding i mitochondrierne. Når man løber over den anaerobe tærskel, vil man altså langsomt opbygge mere og mere mælkesyre i kroppen.**
 
 Den anaerobe tærskel er der, hvor kroppen gradvist går fra forbrænding med ilt (aerob forbrænding) til en proces, hvor musklerne ikke har ilt til stede.
 
-Når musklerne skal arbejde uden ilt, kalder vi det en anaerob proces. Under den anaerobe forbrænding i mitochondrierne kommer mælkesyre som et affaldsprodukt.
+Når musklerne skal arbejde uden ilt, kalder vi det en anaerob proces. Under den anaerobe forbrænding i mitochondrierne kommer [mælkesyre]({% link _posts/2020-08-24-maelkesyre.md %}) som et affaldsprodukt.
 
 ### Formål
 

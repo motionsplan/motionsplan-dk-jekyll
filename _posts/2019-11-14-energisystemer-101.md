@@ -183,7 +183,7 @@ Der arbejdes 3-6 sekunder med 60-120 sekunders pause. Der arbejdes med 10-20 sæ
 
 ### Lactic Interval Training
 
-Målet er at forbedre den glykolytiske del af det anaerobe system med mælkesyre som biprodukt og forbedre den anaerobe udholdenhed og kapacitet.
+Målet er at forbedre den glykolytiske del af det anaerobe system med [mælkesyre som biprodukt]({% link _posts/2020-08-24-maelkesyre.md %}) og forbedre den anaerobe udholdenhed og kapacitet.
 
 Der arbejdes 30-40 sekunder med 1-4 minutters pause. Der arbejdes med 2-5 sæt og i 1-2 serier. Kortere pauser for at forbedre kapaciteten og længere pause for at forbedre power.
 
