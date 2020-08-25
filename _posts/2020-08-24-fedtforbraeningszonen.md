@@ -25,7 +25,7 @@ gallery:
     title: "Fedt forbrændt under træningen"
     excerpt: "Jo højere træningsintensitet, desto flere kalorier forbrænder man pr. minutDen absolutte mængde fedt i gram forbrændt pr. minut kan man beregne ved at kombinere de to ovenstående kurver. Herved kan man se, at ved en relativ intensitet på 60-70 % forbrænder man flest gram fedt pr. træningsminut. Denne observation har givet anledning til udnævnelse af den famøse _fedtforbrændingszone_."
 gallery_explain:
-  - image_path: /assets/images/blog/fedt4.gif
+  - image_path: /assets/images/blog/fedt3.gif
     title: "Fedt forbrændt under træningen"
     excerpt: "Jo højere træningsintensitet, desto flere kalorier forbrænder man pr. minut. Den absolutte mængde fedt i gram forbrændt pr. minut kan man beregne ved at kombinere de to ovenstående kurver. Herved kan man se, at ved en relativ intensitet på 60-70 % forbrænder man flest gram fedt pr. træningsminut. Denne observation har givet anledning til udnævnelse af den famøse _fedtforbrændingszone_."
   - image_path: /assets/images/blog/fedt3.gif
@@ -108,7 +108,7 @@ Det viser med al tydelighed, at det er godt at træne med forskellige intensitet
 
 I nedenstående figur kan man få en fornemmelse for, at fedtforbrændingen topper på et tidspunkt.
 
-{% include figure image_path="https://gym-idraet.dk/app/uploads/2019/09/Fig.-2_837x500_acf_cropped-610x0-c-default\quality-85.jpg" caption="Fedtoxidation (baseret på ligning 1) under cykling som funktion af intensitet, angivet som % af maksimal iltoptagelse (VO₂–max). De hvide (uden opvarmning) og sorte cirkler (med 10 min progressiv opvarmning) angiver gennemsnitsværdier for en gruppe på 13 moderat til veltrænede motionscykelryttere med VO₂–max – opgivet som kondital – mellem 50-70 ml O₂·min⁻¹·kg⁻¹). Kilde: [Simon Riis: Din fedtforbrændingszone - En sandhed med modifikationer](https://gym-idraet.dk/nyheder-viden/din-fedtforbraendingszone-en-sandhed-med-modifikationer/)" %}
+{% include figure image_path="https://gym-idraet.dk/app/uploads/2019/09/Fig.-2_837x500_acf_cropped-610x0-c-default_quality-85.jpg" caption="Fedtoxidation (baseret på ligning 1) under cykling som funktion af intensitet, angivet som % af maksimal iltoptagelse (VO₂–max). De hvide (uden opvarmning) og sorte cirkler (med 10 min progressiv opvarmning) angiver gennemsnitsværdier for en gruppe på 13 moderat til veltrænede motionscykelryttere med VO₂–max – opgivet som kondital – mellem 50-70 ml O₂·min⁻¹·kg⁻¹). Kilde: [Simon Riis: Din fedtforbrændingszone - En sandhed med modifikationer](https://gym-idraet.dk/nyheder-viden/din-fedtforbraendingszone-en-sandhed-med-modifikationer/)" %}
 
 Som jeg har skrevet om i forhold til den [respiratoriske udvekslingskvotient]({% link _posts/2020-08-08-respiratoriske-kvotient.md %}), så er andelen af fedt ved moderate intensiteter omkring 50%, mens den ved højere intensiteter går mere og mere over mod ren kulhydratforbrænding indtil du rammer din maksimale iltoptagelse.
 
