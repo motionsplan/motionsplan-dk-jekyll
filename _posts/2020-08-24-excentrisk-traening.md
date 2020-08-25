@@ -40,7 +40,7 @@ Hvordan kan det være, at det er sådan?
 
 Det skyldes ganske enkelt at musklerne er stærkere i det excentriske arbejde i forhold det koncentriske arbejde. I den koncentriske fase begynder musklerne at udvikle styrke fra 0% og op til 100%, men som du kan se i **force-velocity-kurven** nedenunder, så kan musklerne i den excentriske fase udvikle over 100% af kraft i forhold til den koncentriske fase.
 
-{% include figure image_path="Force-velocity og power kurve. Billede: [Wikipedia](https://upload.wikimedia.org/wikipedia/en/2/22/Muscle_Force_Velocity_relationship.png)" %}
+{% include figure image_path="https://upload.wikimedia.org/wikipedia/en/2/22/Muscle_Force_Velocity_relationship.png" caption="Force-velocity og power kurve. Billede: [Wikipedia](https://en.wikipedia.org/wiki/Muscle_contraction)" %}
 
 Du har altså lige været i gang med at lave **excentrisk træning** i bænkpres.
 
