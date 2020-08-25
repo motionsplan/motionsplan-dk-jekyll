@@ -11,6 +11,7 @@ category:
   - Viden om
 tags:
   - begreber
+  - forbrænding
 ---
 
 Når vi laver tests med iltmaske på løbebånd, så måler vi den respiratoriske udvekslingskvotient, som også kaldes R eller RER. Derfor forklarer jeg lidt mere om, hvad den respiratoriske udviklingskvotient er i forhold til den metaboliske udvekslingskvotient (RQ).
@@ -60,5 +61,17 @@ Der vil dog altid være en mindre kulhydratforbrænding, så i praksis kommer me
 Jo hårdere intensitet du træner med, desto højere vil RER-værdien være. RER-værdien vil med rigtig høj intensitet overstige 1,0, fordi du begynder at hyperventilere, og så forbrænder du ikke længere fedt under selve aktiviteten.
 
 RER bruges ofte i forbindelse med fx VO<sub>2</sub>-max-tests som en af indikatorerne på, hvornår deltageren er tæt på at være nær grænserne for kredsløbet og den maksimale iltoptagelse. Hvis RER-værdien kommer over 1,0 og gerne lidt højere, så kan det være et slutpunktskriterium for VO<sub>2</sub>-max-testen.
+
+## Konklusion
+
+RER-værdien er altså forholdet mellem det udskilte CO<sub>2</sub> og den optagede ilt. Så længe du ikke arbejder maksimalt vil RER-værdien kunne bruges til fortælle noget om fordelingen mellem forbrænding af fedt (RQ=0,7) og kulhydrat (RQ=1,0).
+
+Når du nærmer dig din maksimale ydeevne, så vil en del af energien blive produceret anaerobt. 
+
+Når det anaerobe arbejde stiger falder pH-værdien i cellerne og i blodet, bl.a. fordi der sker en ophobning af mælkesyre. For at neutralisere den faldende pH-værdi i blodet forsøger kroppen at udskille ekstra CO<sub>2</sub> ved at hyperventilere. Veltrænede personer kan arbejde med en RER-værdi på over 1 i adskillige minutter.
+
+Det er også derfor at _cutoff_ i en maxtest på løbebåndet typisk kræver RER-værdier på mere end 1,1.
+
+Udskillelsen af CO<sub>2</sub> gennem udåndingsluften kan i øvrigt stige efter arbejdet er ophørt, og det vil man ofte se i en laboratorietest.
 
 Vi har lavet en side, der går mere i dybden med [test af iltoptagelse i laboratorium]({% link _posts/2019-10-31-kondital-laboratorietest.md %}).
