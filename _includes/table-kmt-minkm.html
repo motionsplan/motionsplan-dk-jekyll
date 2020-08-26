@@ -1,29 +1,118 @@
 <table class="table">
     <thead>
         <tr>
-            <th>km/h</th>
+            <th>km/t</th>
             <th>m/s</th>
             <th>min/km</th>
+            <th>400 m</th>
+            <th>3 km</th>
+            <th>5 km</th>
+            <th>10 km</th>
+            <th>½ mara</th>
+            <th>Maraton</th>
         </tr>
     </thead>
     <tbody>
-        {% assign kmt = 7 %}
+        {% assign kmt = 8.0 | times: 1 %}
         {% for i in (1..80) %}
         <tr>
         <td>{{ kmt }}</td>
-        <td>{{ kmt | times: 0.2278 | round: 2 }}</td>
         <td>
-            {% assign min = 60 | divided_by: kmt %}
-            {% assign min_out = min | floor %}
-            {% assign sec_out = min | minus: min_out | times: 60 | round: 0 %}
+            {% assign ms = kmt | times: 1 | divided_by: 3.6 %}
+            {{ ms | round: 2 }}
+        </td>
+        <td>
+            {% assign min_km = 60 | divided_by: kmt %}
+            {% assign min_out = min_km | floor %}
+            {% assign sec_out = min_km | minus: min_out | times: 60 | round: 0 %}
             {% if sec_out < 10 %}
-             {{ her }}
               {% assign sec_out = sec_out | downcase %}
               {% assign sec_out = '0' | append: sec_out %}
             {% endif %}
             {{ min_out }}:{{ sec_out }}
         </td>
-        {% assign kmt = kmt | plus: 0.2 %}
+        <td>
+            {% assign min_dist = 400 | divided_by: ms | divided_by: 60 %}
+            {% assign min_out = min_dist | floor %}
+            {% assign sec_out = min_dist | minus: min_out | times: 60 | round: 0 %}
+            {% if sec_out < 10 %}
+              {% assign sec_out = sec_out | downcase %}
+              {% assign sec_out = '0' | append: sec_out %}
+            {% endif %}
+            {{ min_out }}:{{ sec_out }}
+        </td>
+        <td>
+            {% assign min_dist = 3000 | divided_by: ms | divided_by: 60 %}
+            {% assign min_out = min_dist | floor %}
+            {% assign sec_out = min_dist | minus: min_out | times: 60 | round: 0 %}
+            {% if sec_out < 10 %}
+              {% assign sec_out = sec_out | downcase %}
+              {% assign sec_out = '0' | append: sec_out %}
+            {% endif %}
+            {{ min_out }}:{{ sec_out }}
+        </td>
+        <td>
+            {% assign min_dist = 5000 | divided_by: ms | divided_by: 60 %}
+            {% assign min_out = min_dist | floor %}
+            {% assign sec_out = min_dist | minus: min_out | times: 60 | round: 0 %}
+            {% if sec_out < 10 %}
+              {% assign sec_out = sec_out | downcase %}
+              {% assign sec_out = '0' | append: sec_out %}
+            {% endif %}
+            {{ min_out }}:{{ sec_out }}
+        </td>
+        <td>
+            {% assign min_dist = 10000 | divided_by: ms | divided_by: 60 %}
+            {% assign min_out = min_dist | floor %}
+            {% assign sec_out = min_dist | minus: min_out | times: 60 | round: 0 %}
+            {% assign hours_out = min_out | divided_by: 60 | round: 0 %}
+            {% assign minus_min = hours_out | times: 60 %}
+            {% assign min_out = min_out | minus: minus_min %}
+            {% if sec_out < 10 %}
+              {% assign sec_out = sec_out | downcase %}
+              {% assign sec_out = '0' | append: sec_out %}
+            {% endif %}
+            {% if min_out < 10 %}
+              {% assign min_out = min_out | downcase %}
+              {% assign min_out = '0' | append: min_out %}
+            {% endif %}
+            {{ hours_out }}:{{ min_out }}:{{ sec_out }}
+        </td>
+        <td>
+            {% assign min_dist = 21097.5 | divided_by: ms | divided_by: 60 %}
+            {% assign min_out = min_dist | floor %}
+            {% assign sec_out = min_dist | minus: min_out | times: 60 | round: 0 %}
+            {% assign hours_out = min_out | divided_by: 60 | round: 0 %}
+            {% assign minus_min = hours_out | times: 60 %}
+            {% assign min_out = min_out | minus: minus_min %}
+            {% if sec_out < 10 %}
+              {% assign sec_out = sec_out | downcase %}
+              {% assign sec_out = '0' | append: sec_out %}
+            {% endif %}
+            {% if min_out < 10 %}
+              {% assign min_out = min_out | downcase %}
+              {% assign min_out = '0' | append: min_out %}
+            {% endif %}
+            {{ hours_out }}:{{ min_out }}:{{ sec_out }}
+        </td>
+        <td>
+            {% assign min_dist = 42195 | divided_by: ms | divided_by: 60 %}
+            {% assign min_out = min_dist | floor %}
+            {% assign sec_out = min_dist | minus: min_out | times: 60 | round: 0 %}
+            {% assign hours_out = min_out | divided_by: 60 | round: 0 %}
+            {% assign minus_min = hours_out | times: 60 %}
+            {% assign min_out = min_out | minus: minus_min %}
+            {% if sec_out < 10 %}
+              {% assign sec_out = sec_out | downcase %}
+              {% assign sec_out = '0' | append: sec_out %}
+            {% endif %}
+            {% if min_out < 10 %}
+              {% assign min_out = min_out | downcase %}
+              {% assign min_out = '0' | append: min_out %}
+            {% endif %}
+            {{ hours_out }}:{{ min_out }}:{{ sec_out }}
+        </td>
+        {% assign kmt = kmt | plus: 0.25 %}
         </tr>
         {% endfor %}
     </tbody>

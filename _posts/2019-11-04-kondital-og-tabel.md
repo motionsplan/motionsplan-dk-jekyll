@@ -29,15 +29,15 @@ Konditallet siger meget om, hvordan din krop fungerer. Jeg har skrevet lidt om, 
 
 *[BMI]: Body Mass Index
 
-**Konditallet fortæller, hvor meget ilt kroppen kan transportere rundt og forbruge i forhold til din vægt. Jo mere ilt kroppen kan optage, desto mere energi kan kroppen producere, hvilket gør, at du kan klare en højere arbejdsintensitet. Vægten spiller også en rolle, fordi det kræver mere energi at flytte en tungere rolle væk. Konditallet måles som ml O<sub>2</sub> pr. min pr. kg kropsvægt.**
+Hvad er konditallet? **Konditallet fortæller, hvor meget ilt kroppen kan transportere rundt og forbruge i forhold til din vægt. Jo mere ilt kroppen kan optage, desto mere energi kan kroppen producere, hvilket gør, at du kan klare en højere arbejdsintensitet. Vægten spiller også en rolle, fordi det kræver mere energi at flytte en tungere rolle væk. Konditallet måles som ml O<sub>2</sub> pr. min pr. kg kropsvægt.**
 
 For at beregne dit kondital skal du kende din krops **maksimale iltoptagelse** og derefter divididerer du med din kropsvægt.
 
-Jeg har samlet en [masse forskellige tests og metoder til at finde dit kondital](/kondition-og-test/). Der står også lidt om, hvad man skal være opmærksom på.
+Jeg har samlet en [forskellige tests og metoder til at finde dit kondital](/kondition-og-test/). Der står også lidt om, hvad man skal være opmærksom på, når man vil måle sit kondital.
 
 ## Hvad er et godt kondital?
 
-Svaret på hvad et godt kondital er afhænger naturligvis af hvem man sammenligner sig med.
+Svaret på hvad et godt kondital er afhænger naturligvis af, hvem man sammenligner sig med.
 
 Et _højt kondital_ er lig med en god kondition. Når du har et højt kondital, så kan du være fysisk aktiv i længere tid og med højere intensitet.
 
@@ -154,6 +154,8 @@ Bente Klarlund og Bengt Saltin har lavet følgende grafik, der viser, hvad den r
 {% include figure image_path="https://inner-gym.com/wp-content/uploads/2018/09/Graf.jpg" caption="Kilde: Sundhedsstyrelsen, Center for Forebyggelse: Fysisk aktivitet – håndbog om forebyggelse og behandling, 2003. Udarbejdet af Bente Klarlund Pedersen og Bengt Saltin." %}
 
 ## Hvordan forbedrer jeg mit kondital?
+
+Hvis du gerne vil forbedre dit kondital, så kan du finde inspiration under vores afsnit om [kondition og konditionstræning](/kondition/).
 
 Hvis du gerne selv vil teste dit kondital, så tjek alle de [forskellige konditionstests, vi har beskrevet her](/kondition-og-test/).
 

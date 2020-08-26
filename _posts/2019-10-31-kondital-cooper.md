@@ -22,7 +22,7 @@ toc: true
 
 Cooper-testen er en maksimal løbetest, hvor den distance man kan tilbagelægge på 12 minutter er med til at estimere udøverens kondital. Jeg beskriver her, hvad testen er, og hvordan den udføres?
 
-**12 minutters Cooper-test er en klassisk konditionstest, som blev designet af militærfysiologen Kenneth H. Cooper i 1968. Cooper-testen var oprindeligt beregnet tl at teste de amerikanske soldaters fysiske form. Det gælder om at løbe så langt som muligt på 12 minutter. Testen skal udføres på en flad strækning, fx en 400 m atletikbane. Testens pålidelighed forudsætter, at man kan presse sig selv og, at man kan løbe med nogenlunde jævn hastighed hele vejen igennem.**
+Hvad er en Cooper-test? **12 minutters Cooper-test er en klassisk konditionstest, som blev designet af militærfysiologen Kenneth H. Cooper i 1968. Cooper-testen var oprindeligt beregnet tl at teste de amerikanske soldaters fysiske form. Det gælder om at løbe så langt som muligt på 12 minutter. Testen skal udføres på en flad strækning, fx en 400 m atletikbane. Testens pålidelighed forudsætter, at man kan presse sig selv og, at man kan løbe med nogenlunde jævn hastighed hele vejen igennem.**
 
 ## Hvordan laver du en Cooper-test?
 
@@ -34,7 +34,7 @@ Cooper-testen er en maksimal løbetest, hvor den distance man kan tilbagelægge 
 
 {% include calculate-fitness-cooper.html %}
 
-## Baggrund for konditallet fra Cooper-testen
+## Baggrund for kondital og Cooper-test
 
 Konditallet i Coopertesten afhænger ikke af vægten. Konditallet er VO<sub>2</sub>-max divideret med kropsvægten. Hvis en person på 50 kg skal løbe 3000 meter på 12 minutter, så kræver det en VO<sub>2</sub>max på 2,8 l/min.
 
