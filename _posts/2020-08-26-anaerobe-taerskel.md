@@ -42,7 +42,7 @@ LT1 - Aerobe tærskel
 LT2 - Anaerob tærskel
 : LT2 er på det tidspunkt, hvor der kommer en stigning i koncentrationen af laktat i blodet, når man sætter intensiteteen op. På dette punkt kan kroppen - og særligt leveren - ikke længere bortskaffe den mælkesyre, der produceres i musklerne. Typisk ligger denne værdi mellem 2,5-5,5 mmol/l, men traditionelt har man sagt ved 4,0 mmol/l.
 
-{% include figure image_path="" caption="" %}
+{% include figure image_path="https://training4endurance.co.uk/wp-content/uploads/2020/03/lactate-threshold-cycling-test.jpg" caption="Den aerobe og anaerobe tærskel - LT1 og LT2. Kilde: [training4endurance.co.uk](https://training4endurance.co.uk/physiology-of-endurance/lactate-threshold/)" %}
 
 Men der findes [i hvert fald 8 fortolkninger af den anaerob tærskel, som Heuberger et al (2018) diskuterer i deres studium](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6235347/).
 
