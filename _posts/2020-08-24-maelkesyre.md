@@ -87,7 +87,7 @@ Der er et par problemer med den forklaring.
 
 ## Hvordan fjernes mælkesyren fra musklerne?
 
-Den producerede mælkesyre bliver dels brugt i forbrænding i muskler, hvor der er ilt til stede, og mælkesyren fjernes også gennem nyrerne og leveren.
+Den producerede mælkesyre bliver dels [brugt i forbrænding i muskler](https://www.trainingpeaks.com/blog/what-is-lactate-and-lactate-threshold/), hvor der er ilt til stede, og mælkesyren fjernes også gennem nyrerne og leveren.
 
 Tidligere troede man, at der blev produceret mere og mere mælkesyre, når arbejdet blev gradvist hårdere. Men i virkeligheden er det nok fordi leveren ikke kan følge med til at fjerne mælkesyren fra musklerne, når koncentrationen når et vist niveau.
 
