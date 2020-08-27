@@ -87,9 +87,23 @@ Der er et par problemer med den forklaring.
 
 ## Hvordan fjernes mælkesyren fra musklerne?
 
-Den producerede mælkesyre bliver dels [brugt i forbrænding i muskler](https://www.trainingpeaks.com/blog/what-is-lactate-and-lactate-threshold/), hvor der er ilt til stede, og mælkesyren fjernes også gennem nyrerne og leveren.
+Den producerede mælkesyre bliver fjernet på forskellige måder kroppen.
 
-Tidligere troede man, at der blev produceret mere og mere mælkesyre, når arbejdet blev gradvist hårdere. Men i virkeligheden er det nok fordi leveren ikke kan følge med til at fjerne mælkesyren fra musklerne, når koncentrationen når et vist niveau.
+- Ved at blive metaboliseret i musklerne
+- Ved at blive omdannet til glykose i leveren
+- I nyrerne
+
+**Mælkesyre fjernes i musklerne**. Man har fundet ud af, at der findes [shuttle-mekanismer, der kan flytte laktat mellem muskelfibre](https://www.cell.com/cell-metabolism/comments/S1550-4131(18)30186-4), så mælkesyren kan produceres i en type muskelfibre og metaboliseres i en anden. Mælkesyren kan altså blive [brugt i forbrænding i musklerne](https://www.trainingpeaks.com/blog/what-is-lactate-and-lactate-threshold/).
+
+**Mælkesyren fjernes i leveren**. Teorien bag leverens evne til at gendanne glykose fra mælkesyre, som bagefter gør blodet i stand til at forsynes musklerne med ny glykose kaldes **cori cyklus**.
+
+Cori cyklus er en cyklus, hvor muskler nedbryder glukose til laktat. Derefter frigives laktat til blodet, og leveren optager laktaten. Laktat bliver derefter omdannet til glucose i leveren, og leveren frigiver glukose til blodet, som musklerne så igen kan optage og bruge til brændstof.
+
+**Mælkesyren fjernes i nyrerne.** Her bliver det fjernet.
+
+Hvad fordelingen er af omsætningen mellem de forskellige vævstyper under og lige efter aktivitet, har jeg ikke kunnet finde ud af.
+
+Tidligere troede man, at der blev produceret eksponentielt mere og mere mælkesyre, når arbejdet blev gradvist hårdere. Men i virkeligheden er det nok fordi leveren ikke kan følge med til at fjerne mælkesyren fra musklerne, når koncentrationen når et vist niveau.
 
 Det ser ud til, at [nyrere fortsætter med at fjerne mælkesyre under moderat arbejde](http://www.tandfonline.com/doi/abs/10.1080/02640414.2011.614271), mens leverens evne nedsættes markant, fordi blodgennemstrømningen i leveren nedsættes under hårdt arbejde, fordi musklerne har brug for større blodgennemstrømning.
 

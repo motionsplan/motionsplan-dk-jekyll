@@ -95,3 +95,5 @@ Træningen af den anaerobe tærskel skal primært forbedre kroppens evne til at 
 — <cite>[San Millán på Training Peaks](https://www.trainingpeaks.com/blog/what-is-lactate-and-lactate-threshold/)</cite>
 
 San Millán argumenterer altså for, at en stor del af træningen skal foregå i [Zone 2](https://www.trainingpeaks.com/blog/why-triathletes-should-train-in-zone-2/). I denne zone arbejder vi under den anaerobe tærskel, men tættere den aerobe tærskel.
+
+Jeg har skrevet en mere grundig artikel om [mælkesyre]({% link _posts/2020-08-24-maelkesyre.md %}), hvis du vil dykke endnu mere ned i emnet.
