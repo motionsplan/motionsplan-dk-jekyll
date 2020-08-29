@@ -4,7 +4,7 @@ permalink: /maveoevelser/
 collection: exercises
 taxonomy: Mave # tag name
 entries_layout: grid # list (default), grid
-title: "Maveøvelser: De mest effektive øvelser til maven"
+title: "Maveøvelser: De mest effektive øvelser til maven 🏋"
 excerpt: "Vi har samlet alle de effektive maveøvelser her. Vi synes målet med din mavetræning skal være at få en stærk core, men øvelserne er også perfekte og udfordrende, når du arbejder på en flad mave, markeret sixpack eller at stramme op."
 author_profile: true
 classes: wide

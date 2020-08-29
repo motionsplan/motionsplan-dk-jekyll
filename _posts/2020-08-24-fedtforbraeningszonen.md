@@ -1,5 +1,5 @@
 ---
-title: &title "Fedtforbrændingszonen: Alt du behøver at vide [2020]"
+title: &title "Fedtforbrændingszonen: Alt du behøver at vide [2020] 🔥"
 permalink: /fedtforbraeningszonen/
 last_modified_at: 2020-08-24T09:41:09Z
 language: da

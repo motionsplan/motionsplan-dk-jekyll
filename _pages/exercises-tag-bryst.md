@@ -4,7 +4,7 @@ permalink: /brystoevelser/
 collection: exercises
 taxonomy: Bryst # tag name
 entries_layout: grid # list (default), grid
-title: "Øvelser til brystet: De mest effektive styrketræningsøvelser til brystet"
+title: "Øvelser til brystet: De mest effektive styrketræningsøvelser til brystet 🏋"
 author_profile: true
 classes: wide
 sort_by: title # date (default) title

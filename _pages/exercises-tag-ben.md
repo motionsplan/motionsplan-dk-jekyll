@@ -8,7 +8,7 @@ header:
   caption: "Benøvelser: De mest effektive styrketræningsøvelser til bentræningen"
 taxonomy: Ben # tag name
 entries_layout: grid # list (default), grid
-title: "Benøvelser: De mest effektive styrketræningsøvelser til bentræningen"
+title: "Benøvelser: De mest effektive styrketræningsøvelser til bentræningen 🏋"
 author_profile: true
 classes: wide
 sort_by: title # date (default) title
