@@ -4,7 +4,7 @@ title: "Om Motionsplans formål og tilblivelse"
 permalink: /om/
 excerpt: "Motionsplan er skrevet for at formidle træningsøvelser, træningsprogrammer og viden om træning."
 author_profile: true
-author: lsolesen
+toc: true
 ---
 
 Motionsplan ejes og drives af Lars Olesen (chefudvikler og chefredaktør). Der er tilknyttet en række freelance-journalister til at hjælpe med det redaktionelle stof. Vi:

@@ -1,12 +1,14 @@
 ---
 layout: single
-title: "Skelettet, knogler og knogletyper"
+title: &title "Skelettet, knogler og knogletyper"
 excerpt: "Skelettet består af knogler. Knoglerne afstiver kroppen og agerer vægtstænger for musklerne, så kroppen kan bevæge sig. Knoglerne opdeles i forskellige knogletyper."
 permalink: /knogler/
 tags:
   - anatomi
 header:
-  teaser: https://samvirke.dk/sites/default/files/styles/image_component_large/public/migrated/kn/knoglerlis_0.jpg.jpeg?itok=3xXtRBZo
+  teaser: https://images.unsplash.com/photo-1530210124550-912dc1381cb8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1530210124550-912dc1381cb8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
+  caption: *title
 toc: true
 toc_sticky: true
 author_profile: true

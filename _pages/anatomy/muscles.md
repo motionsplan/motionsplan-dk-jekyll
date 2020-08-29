@@ -1,8 +1,12 @@
 ---
 layout: single
-title: "Skeletmuskler: Muskler, muskelgrupper og muskeloversigt"
+title: &title "Skeletmuskler: Muskler, muskelgrupper og muskeloversigt"
 excerpt: "Skeletmuskler bevæger kroppen. Jeg har lavet en oversigt over muskler, muskelgrupper og muskel anatomi, hvor du kan se navne på kroppens muskler på latin og dansk."
 permalink: /muskler/
+header:
+  overlay_image: https://images.unsplash.com/photo-1539814858141-928517f6afd3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=60
+  teaser: https://images.unsplash.com/photo-1539814858141-928517f6afd3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60
+  caption: *title
 tags:
   - anatomi
 toc: true
@@ -11,12 +15,6 @@ author_profile: true
 sidebar:
   nav: anatomi
 ---
-
-muskelgrupper
-muskel navne
-muskel anatomi
-muskler på latin
-kroppens muskler dansk
 
 De muskler, der skaber bevægelse af kroppen, kaldes for ”den tværstribede skeletmuskulatur”. Denne side handler om skeletmusklerne. Først kan du læse en kort introduktion til, hvad muskler og skeletmuskler er og deres anatomi. Derefter kigger jeg på de forskellige muskelgrupper.
 
@@ -47,7 +45,7 @@ I nedenstående figur er det mest relevante muskler i forhold til træning vist 
 Øvrige vigtige muskler, der ikke vises i skelettet, er:
 
 {% assign imagemap = site.anatomy | where: "tags", "not-in-imagemap" %}
-{% for m in imagemap %}
+{%- for m in imagemap -%}
 - [{{ m.title }}]({{ m.url }})
 {% endfor %}
 
