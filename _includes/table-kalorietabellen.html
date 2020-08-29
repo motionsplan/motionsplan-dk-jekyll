@@ -1,4 +1,9 @@
-{% assign kalorie_values = site.data.frida-kalorietabel %}
+{% assign search = include.where %}
+{% if search %}
+  {% assign kalorie_values = site.data.frida-kalorietabel | where_exp: "item", "item.Gruppe contains search" %}
+{% else %}
+  {% assign kalorie_values = site.data.frida-kalorietabel %}
+{% endif%}
 
 <script>
 function KalorieSearch() {
