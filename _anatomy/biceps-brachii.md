@@ -1,6 +1,7 @@
 ---
 title: "Tohovedede armbøjer"
 latin: Biceps Brachii
+group: "Arme"
 tags:
   - imagemap
   - fitnessinstruktør

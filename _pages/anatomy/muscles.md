@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "Muskler og skeletmuskler"
-excerpt: "Muskler (skeletmuskler) bevæger kroppen. Musklerne hæfter på knoglerne, så musklerne kan bevæge knoglerne i forhold til hinanden."
+title: "Skeletmuskler: Muskler, muskelgrupper og muskeloversigt"
+excerpt: "Skeletmuskler bevæger kroppen. Jeg har lavet en oversigt over muskler, muskelgrupper og muskel anatomi, hvor du kan se navne på kroppens muskler på latin og dansk."
 permalink: /muskler/
 tags:
   - anatomi
@@ -12,7 +12,15 @@ sidebar:
   nav: anatomi
 ---
 
-De muskler, der skaber bevægelse af kroppen, kaldes for ”den tværstribede skeletmuskulatur”. Det er dem vi kigger på i denne sammenhæng. Musklerne er hæftet til knoglerne via sener. Når musklerne gennem nervesystemet får et signal, vil de trække sig sammen og ved hjælp af leddenes bevægelighed skabe bevægelse af skelettets knogler.
+muskelgrupper
+muskel navne
+muskel anatomi
+muskler på latin
+kroppens muskler dansk
+
+De muskler, der skaber bevægelse af kroppen, kaldes for ”den tværstribede skeletmuskulatur”. Denne side handler om skeletmusklerne. Først kan du læse en kort introduktion til, hvad muskler og skeletmuskler er og deres anatomi. Derefter kigger jeg på de forskellige muskelgrupper.
+
+Musklerne er hæftet til knoglerne via sener. Når musklerne gennem nervesystemet får et signal, vil de trække sig sammen og ved hjælp af leddenes bevægelighed skabe bevægelse af skelettets knogler.
 
 Musklerne er altså en del af en funktionel enhed sammen med led og knogler. Musklerne på forsiden og bagsiden af et led samarbejder om en bevægelse. Musklen, der udfører bevægelsen kaldes agonisten, mens musklen på den modsatte side kaldes antagonisten. 
 
@@ -30,11 +38,11 @@ Skeletmusklerne kan opdeles i tre kategorier.
 
 I nedenstående figur er det mest relevante muskler i forhold til træning vist på skelettet. Alle musklerne er relevante for træningen.
 
-## Muskeloversigt
+## Muskeloversigt og anatomi
 
 {% include anatomy.html %}
 
-### Øvrige muskler
+### Liste over andre muskler
 
 Øvrige vigtige muskler, der ikke vises i skelettet, er:
 
@@ -42,3 +50,7 @@ I nedenstående figur er det mest relevante muskler i forhold til træning vist 
 {% for m in imagemap %}
 - [{{ m.title }}]({{ m.url }})
 {% endfor %}
+
+## Muskeloversigt med navne på dansk og latin
+
+{% include table-muscles.html %}

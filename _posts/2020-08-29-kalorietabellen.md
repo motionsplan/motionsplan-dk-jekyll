@@ -18,7 +18,7 @@ tags:
 classes: wide
 ---
 
-Jeg har samlet en kalorietabel, hvor du kan se indhold af kalorier og næringsstoffer i maden. Kalorietabellen indeholder energi og næringsindhold i rigtig mange fødevarer. Tabellen med kalorier er gjort søgbar.
+Jeg har samlet en kalorietabel, hvor du kan se indholdet af kalorier og næringsstoffer i maden. Kalorietabellen indeholder energi og næringsindhold fra fedt, kulhydrat og protein i rigtig mange fødevarer. Tabellen med kalorier er gjort søgbar.
 
 Når man søger rundt på nettet, så kan man finde rigtig mange kalorietabeller. Når man kigger på en kalorietabel, så skal man huske at det ikke handler om slankekur eller fødevarer, der er usunde, hvis der er mange kalorier i fødevaren.
 
