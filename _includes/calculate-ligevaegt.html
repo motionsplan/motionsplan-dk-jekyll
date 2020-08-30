@@ -22,6 +22,7 @@
         var bulk = vedligehold + bulkConstant;
         var cut = vedligehold - bulkConstant;
         var protein = weight * 2;
+        document.getElementById('bmr').value = basicMeta + " kcal";
         document.getElementById('equilibrium').value = vedligehold + " kcal";
         document.getElementById('bulk').value = bulk + " kcal";
         document.getElementById('cut').value = cut + " kcal";
@@ -68,12 +69,10 @@
         <input type="submit" value="Beregn" onclick="return calculate(this.form);">
     </fieldset>
     <fieldset class="results">
-        <!--
         <div class="form-group">
-            <label for="BMR2">Basalstofskifte (BMR) (kJ)</label>
-            <input name="BMR2" id="BMR2" disabled="disabled">
+            <label for="bmr">Basalstofskifte (BMR) (kJ)</label>
+            <input name="bmr" id="bmr" disabled="disabled">
         </div>
-        -->
         <div class="form-group">
             <label for="equilibrium">Ligevægtsindtag (kJ)</label>
             <input name="equilibrium" id="equilibrium" disabled="disabled">

@@ -377,6 +377,7 @@ defaults:
       comments: false
       share: false
       related: false
+      search: false
   # _presentations
   - scope:
       path: ""

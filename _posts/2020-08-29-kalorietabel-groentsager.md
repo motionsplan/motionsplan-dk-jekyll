@@ -1,6 +1,6 @@
 ---
 title: &title "Kalorietabel for grønstager: Tabel med kalorier for grøntsager 🥦"
-permalink: /kalorietabel-broed/
+permalink: /kalorietabel-groentsager/
 last_modified_at: 2020-07-29T09:41:09Z
 language: da
 header:
