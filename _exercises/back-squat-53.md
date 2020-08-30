@@ -17,6 +17,7 @@ tags:
   - Baller
   - Forlår
   - fitnessinstruktør
+  - crossfit
 categories:
   - Ben
 training_type: 

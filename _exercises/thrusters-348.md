@@ -17,6 +17,7 @@ tags:
   - Baller
   - Forlår
   - Skuldre
+  - crossfit
 categories:
   - Helkropsøvelse
 training_type: 

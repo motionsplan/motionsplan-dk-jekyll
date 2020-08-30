@@ -14,10 +14,7 @@ tags:
   - hoftedomineret
   - helkropsøvelse
   - vægtstang
-  - 
-  - 
-  - 
-  - 
+  - crossfit
 categories:
 training_type: 
 training_focus: 

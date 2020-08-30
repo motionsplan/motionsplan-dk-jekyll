@@ -21,6 +21,7 @@ tags:
   - Bryst
   - Forlår
   - Skuldre
+  - crossfit
 categories:
   - Helkropsøvelse
 training_type: 

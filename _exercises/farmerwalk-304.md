@@ -12,6 +12,7 @@ header:
 tags:
   - loaded carry
   - carry
+  - crossfit
 categories:
 training_type: 
 training_focus: 

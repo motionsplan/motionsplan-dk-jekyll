@@ -11,6 +11,7 @@ header:
   teaser: /assets/images/exercises/490-0-320.jpg
 tags:
   - Kondition og puls
+  - crossfit
 categories:
   - Kondition og puls
 training_type: 

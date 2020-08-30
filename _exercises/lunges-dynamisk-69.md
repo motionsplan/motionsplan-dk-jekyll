@@ -13,6 +13,7 @@ tags:
   - knædomineret
   - vægtstang
   - fitnessinstruktør
+  - crossfit
 categories:
 training_type: 
 training_focus: 

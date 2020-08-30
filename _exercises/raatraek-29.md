@@ -10,6 +10,7 @@ header:
   overlay_image: /assets/images/exercises/raatraek-0.jpg
   teaser: /assets/images/exercises/raatraek-0-320.jpg
 tags:
+  - crossfit
 categories:
 training_type: 
 training_focus: 

@@ -20,6 +20,7 @@ tags:
   - Forlår
   - Hoftebøjere
   - Lægge
+  - crossfit
 categories:
   - Helkropsøvelse
 training_type: 

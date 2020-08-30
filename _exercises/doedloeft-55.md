@@ -17,6 +17,7 @@ tags:
   - Baglår
   - Baller
   - fitnessinstruktør
+  - crossfit
 categories:
   - Ben
 training_type: 

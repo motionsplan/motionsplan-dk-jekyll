@@ -14,6 +14,7 @@ tags:
   - kropsstamme
   - kropsvægt
   - Mave
+  - crossfit
 categories:
   - Kropsstamme
 training_type: 
