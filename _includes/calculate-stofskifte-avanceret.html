@@ -1,0 +1,121 @@
+<script>
+    function calculate(form) {
+        var age = parseInt(form.age.value);
+        var weight = parseInt(form.weight.value);
+        var height = parseInt(form.height.value); // convert to meters
+        var sex = form.sexHidden.value;
+
+        if (sex == "male") {
+            var basicMeta = 66 + (13.7 * weight) + (5 * height) - (6.8 * age); // basic Metabolism for males	
+        }
+
+        if (sex == "female") {
+            var basicMeta = 655 + (9.6 * weight) + (1.8 * height) - (4.7 * age); // basic Metabolism for female between 19-30 years
+        }
+
+        var min_day = 24 * 60;
+        var activity_intense = document.getElementById('activity_intense').value;
+        var activity_moderat = document.getElementById('activity_moderat').value;
+        var activity_light = document.getElementById('activity_light').value;
+        var activity_standing = document.getElementById('activity_standing').value;
+        var activity_sleeping = document.getElementById('activity_sleeping').value;
+
+        var activity_sitting = min_day - activity_intense - activity_moderat - activity_light - activity_standing - activity_sleeping;
+
+        var met_intense = 14;
+        var met_moderat = 10;
+        var met_light = 6;
+        var met_standing = 4;
+        var met_sleeping = 1;
+        var met_sitting = 2;
+
+        var pal_intense = ((met_intense - 1) * ((1.15 / 0.9) * (activity_intense / 1440))) / (basicMeta / (0.0175 * 1440 * weight));
+        var pal_moderat = ((met_moderat - 1) * ((1.15 / 0.9) * (activity_moderat / 1440))) / (basicMeta / (0.0175 * 1440 * weight));
+        var pal_light = ((met_light - 1) * ((1.15 / 0.9) * (activity_light / 1440))) / (basicMeta / (0.0175 * 1440 * weight));
+        var pal_standing = ((met_standing - 1) * ((1.15 / 0.9) * (activity_standing / 1440))) / (basicMeta / (0.0175 * 1440 * weight));
+        var pal_sleeping = ((met_sleeping - 1) * ((1.15 / 0.9) * (activity_sleeping / 1440))) / (basicMeta / (0.0175 * 1440 * weight));
+        var pal_sitting = ((met_sitting - 1) * ((1.15 / 0.9) * (activity_sitting / 1440))) / (basicMeta / (0.0175 * 1440 * weight));
+
+        var pal = pal_intense + pal_moderat + pal_light + pal_standing + pal_sleeping + pal_sitting;
+
+        var activityConstant = pal;
+
+        var vedligehold = parseInt(basicMeta * activityConstant);
+        document.getElementById('pal').value = pal;
+        document.getElementById('activity_sitting').value = activity_sitting;
+        document.getElementById('bmr').value = basicMeta + " kcal";
+        document.getElementById('equilibrium').value = vedligehold + " kcal";
+        return false;
+    }
+</script>
+<form class="calculator" id="form1">
+    <fieldset>
+        <legend>Avanceret udregning af dit stofskifte og ligevægtsindtag.</legend>
+        <fieldset>
+            <legend>Køn</legend>
+            <label for="male" class="radio"><input type="radio" name="sex" value="male" id="male" onclick="this.form.sexHidden.value = 'male';" checked="checked"> Mand</label>
+    		<label for="female" class="radio"><input type="radio" name="sex" value="female" id="female" onclick="this.form.sexHidden.value = 'female';"> Kvinde</label>
+    		<input type="hidden" name="sexHidden" value="male">
+        </fieldset>
+        <div class="form-group">
+            <label for="age">Alder (år)</label>
+            <input type="number" min="10" max="100" placeholder="fx 40" name="age" id="age">
+        </div>
+        <div class="form-group">
+            <label for="weight">Vægt (kg)</label>
+            <input type="number" min="10" max="200" placeholder="fx 70" name="weight" id="weight" step="0.1">
+        </div>
+        <div class="form-group">
+            <label for="height">Højde (cm)</label>
+            <input type="number" min="10" max="240" placeholder="fx 170" name="height" id="height" step="0.1">
+        </div>
+        <fieldset>
+            <legend>Fysisk aktivitetsniveau</legend>
+        <div class="form-group">
+            <label for="height">Intens træning (min)</label>
+            <input type="number" min="0" max="1440" placeholder="" name="activity_intense" id="activity_intense" onchange="calculate(this.form);">
+            <p class="help-block">Mere beskrivelse</p>
+        </div>
+        <div class="form-group">
+            <label for="height">Moderat træning (min)</label>
+            <input type="number" min="0" max="1440" placeholder="" name="activity_moderat" id="activity_moderat" onchange="calculate(this.form);">
+            <p class="help-block">Mere beskrivelse</p>
+        </div>
+        <div class="form-group">
+            <label for="height">Let aktivitet (min)</label>
+            <input type="number" min="0" max="1440" placeholder="" name="activity_light" id="activity_light" onchange="calculate(this.form);">
+            <p class="help-block">Mere beskrivelse</p>
+        </div>
+        <div class="form-group">
+            <label for="height">Stående og gående (min)</label>
+            <input type="number" min="00" max="1440" placeholder="" name="activity_standing" id="activity_standing" onchange="calculate(this.form);">
+            <p class="help-block">Mere beskrivelse</p>
+        </div>
+        <div class="form-group">
+            <label for="height">Sove (min)</label>
+            <input type="number" min="0" max="1440" placeholder="" name="activity_sleeping" id="activity_sleeping" onchange="calculate(this.form);">
+            <p class="help-block">Mere beskrivelse</p>
+        </div>
+        <div class="form-group">
+            <label for="height">Siddende (min)</label>
+            <input type="number" min="0" max="1440" value="1440" name="activity_sitting" id="activity_sitting" disabled="disabled">
+            <p class="help-block">Mere beskrivelse</p>
+        </div>
+        </fieldset>
+        <input type="submit" value="Beregn" onclick="return calculate(this.form);">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label for="pal">Physical Activity Level (PAL)</label>
+            <input name="pal" id="pal" disabled="disabled">
+        </div>
+        <div class="form-group">
+            <label for="bmr">Basalstofskifte (BMR) (kJ)</label>
+            <input name="bmr" id="bmr" disabled="disabled">
+        </div>
+        <div class="form-group">
+            <label for="equilibrium">Ligevægtsindtag (kJ)</label>
+            <input name="equilibrium" id="equilibrium" disabled="disabled">
+        </div>
+    </fieldset>
+</form>

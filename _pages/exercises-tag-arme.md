@@ -32,4 +32,4 @@ Vi har samlet de bedste styrkeøvelser til triceps, så du kan optimere din armt
 
 Du kan træne triceps med både stang, håndvægte, elastik, kettlebell og kropsvægt, fx ved armstrækninger.
 
-## Armøvelser
+## Armøvelser og træningsøvelser for armene

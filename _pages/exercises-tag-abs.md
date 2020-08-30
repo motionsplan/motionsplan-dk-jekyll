@@ -20,4 +20,4 @@ Vi har samlet alle de effektive maveøvelser her. Vi synes målet med din mavetr
 
 Vi har styrketræningsøvelser for maven med både kropsvægt, håndvægte, elastikker, bolde og hjul. Der er altså mange muligheder for at supplere mavebøjningerne med meget mere udfordrende varianter af øvelser for maven, men husk maven er en del af din core. Vi har skrevet et indlæg om [coretræning]({% link _posts/2020-07-16-coretraening.md %}) og om at [tabe fedt på maven]({% link _posts/2020-07-07-mavefedt.md %}).
 
-## Maveøvelser
+## Maveøvelser og træningsøvelser til maven

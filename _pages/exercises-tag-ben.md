@@ -22,4 +22,4 @@ Bentræning kan foregå både med frie vægte og lave squat og lunges og i benma
 
 Vi har samlet en række simple og effektive benøvelser, som du kan bruge til at styrke benmusklerne, din hofte og dine knæ.
 
-## Øvelser til bentræning
+## Benøvelser: Øvelser til bentræning
