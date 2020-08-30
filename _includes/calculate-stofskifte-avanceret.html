@@ -22,12 +22,12 @@
 
         var activity_sitting = min_day - activity_intense - activity_moderat - activity_light - activity_standing - activity_sleeping;
 
-        var met_intense = 14;
-        var met_moderat = 10;
-        var met_light = 6;
-        var met_standing = 4;
-        var met_sleeping = 1;
-        var met_sitting = 2;
+        var met_intense = 10;
+        var met_moderat = 7;
+        var met_light = 4;
+        var met_standing = 2;
+        var met_sleeping = 0.9;
+        var met_sitting = 1;
 
         var pal_intense = ((met_intense - 1) * ((1.15 / 0.9) * (activity_intense / 1440))) / (basicMeta / (0.0175 * 1440 * weight));
         var pal_moderat = ((met_moderat - 1) * ((1.15 / 0.9) * (activity_moderat / 1440))) / (basicMeta / (0.0175 * 1440 * weight));
@@ -74,32 +74,32 @@
         <div class="form-group">
             <label for="height">Intens træning (min)</label>
             <input type="number" min="0" max="1440" placeholder="" name="activity_intense" id="activity_intense" onchange="calculate(this.form);">
-            <p class="help-block">Mere beskrivelse</p>
+            <p class="help-block">Maksimal aktivitet. Intensiv idræt. Hurtig løb. Hurtig roning.</p>
         </div>
         <div class="form-group">
             <label for="height">Moderat træning (min)</label>
             <input type="number" min="0" max="1440" placeholder="" name="activity_moderat" id="activity_moderat" onchange="calculate(this.form);">
-            <p class="help-block">Mere beskrivelse</p>
+            <p class="help-block">Styrketræning. Hugge brænde. De fleste idrætsgrene. Cykling.</p>
         </div>
         <div class="form-group">
             <label for="height">Let aktivitet (min)</label>
             <input type="number" min="0" max="1440" placeholder="" name="activity_light" id="activity_light" onchange="calculate(this.form);">
-            <p class="help-block">Mere beskrivelse</p>
+            <p class="help-block">Husarbejde. Havearbejde. Hurtig gang. Golf.</p>
         </div>
         <div class="form-group">
             <label for="height">Stående og gående (min)</label>
             <input type="number" min="00" max="1440" placeholder="" name="activity_standing" id="activity_standing" onchange="calculate(this.form);">
-            <p class="help-block">Mere beskrivelse</p>
+            <p class="help-block">Madlavning. Let gang. Indkøb. Shopping.</p>
         </div>
         <div class="form-group">
             <label for="height">Sove (min)</label>
             <input type="number" min="0" max="1440" placeholder="" name="activity_sleeping" id="activity_sleeping" onchange="calculate(this.form);">
-            <p class="help-block">Mere beskrivelse</p>
+            <p class="help-block">Fra du ligger i sengen til du står op.</p>
         </div>
         <div class="form-group">
             <label for="height">Siddende (min)</label>
             <input type="number" min="0" max="1440" value="1440" name="activity_sitting" id="activity_sitting" disabled="disabled">
-            <p class="help-block">Mere beskrivelse</p>
+            <p class="help-block">Den resterende tid.</p>
         </div>
         </fieldset>
         <input type="submit" value="Beregn" onclick="return calculate(this.form);">
