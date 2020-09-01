@@ -12,7 +12,8 @@ const fatm = require('./fat-pct-measurements');
 const rm = require('./1rm');
 const etpunkt = require('./etpunkttest');
 const topunkt = require('./topunkttest');
-const bmr = require('./bmr');
+const bmr = require('./bmr-nordic-1996');
+const ree = require('./bmr-nordic-2012');
 const bmi = require('./bmi');
 const idealweight = require('./ideal-weight');
 const wilks = require('wilks-calculator');
@@ -620,9 +621,9 @@ $(document).ready(function() {
         $("[name='Krop100']").val(resultat);
         return false;
     });
-    // Calculate BMR
+    // Calculate BMR - Nordic Nutrition 1996
     $("#calculator_bmr").submit(function() {
-        console.log("Calculate BMR");
+        console.log("Calculate BMR - 1996");
 
         var koen = Number($("[name='koen']").val());
         var alder = Number($("[name='alder']").val());
@@ -633,6 +634,22 @@ $(document).ready(function() {
         var b = bmr.EnergyExpenditure(koen, alder, vaegt, pal, sport);
 
         $("[name='BMR2']").val(b.getBasicMetabolicRate());
+        $("[name='TEE2']").val(b.getTotalEnergyExpenditure());
+        return false;
+    });
+    // Calculate BMR - Nordic Nutrition 2012
+    $("#calculator_nordic_2012").submit(function() {
+        console.log("Calculate BMR - 2012");
+
+        var koen = Number($("[name='koen']").val());
+        var alder = Number($("[name='alder']").val());
+        var vaegt = Number($("[name='vaegt']").val());
+        var sport = $("[name='sport']:checked").val();
+        var pal = Number($("[name='pal']:checked").val());
+
+        var b = ree.REE2012(koen, alder, vaegt, pal, sport);
+
+        $("[name='BMR2']").val(b.getRestingEnergyExpenditure());
         $("[name='TEE2']").val(b.getTotalEnergyExpenditure());
         return false;
     });

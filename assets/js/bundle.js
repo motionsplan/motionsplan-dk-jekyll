@@ -415,7 +415,8 @@ const fatm = require('./fat-pct-measurements');
 const rm = require('./1rm');
 const etpunkt = require('./etpunkttest');
 const topunkt = require('./topunkttest');
-const bmr = require('./bmr');
+const bmr = require('./bmr-nordic-1996');
+const ree = require('./bmr-nordic-2012');
 const bmi = require('./bmi');
 const idealweight = require('./ideal-weight');
 const wilks = require('wilks-calculator');
@@ -1023,9 +1024,9 @@ $(document).ready(function() {
         $("[name='Krop100']").val(resultat);
         return false;
     });
-    // Calculate BMR
+    // Calculate BMR - Nordic Nutrition 1996
     $("#calculator_bmr").submit(function() {
-        console.log("Calculate BMR");
+        console.log("Calculate BMR - 1996");
 
         var koen = Number($("[name='koen']").val());
         var alder = Number($("[name='alder']").val());
@@ -1036,6 +1037,22 @@ $(document).ready(function() {
         var b = bmr.EnergyExpenditure(koen, alder, vaegt, pal, sport);
 
         $("[name='BMR2']").val(b.getBasicMetabolicRate());
+        $("[name='TEE2']").val(b.getTotalEnergyExpenditure());
+        return false;
+    });
+    // Calculate BMR - Nordic Nutrition 2012
+    $("#calculator_nordic_2012").submit(function() {
+        console.log("Calculate BMR - 2012");
+
+        var koen = Number($("[name='koen']").val());
+        var alder = Number($("[name='alder']").val());
+        var vaegt = Number($("[name='vaegt']").val());
+        var sport = $("[name='sport']:checked").val();
+        var pal = Number($("[name='pal']:checked").val());
+
+        var b = ree.REE2012(koen, alder, vaegt, pal, sport);
+
+        $("[name='BMR2']").val(b.getRestingEnergyExpenditure());
         $("[name='TEE2']").val(b.getTotalEnergyExpenditure());
         return false;
     });
@@ -1442,7 +1459,7 @@ $(document).ready(function() {
 	});
 });
 
-},{"../js/bodywater.js":7,"../js/fatenergypct.js":14,"../js/waist.js":24,"../js/walktest-rockport-16.js":25,"./1rm":3,"./bmi":5,"./bmr":6,"./cooper":9,"./cooper-running":8,"./etpunkttest":10,"./fat-pct":13,"./fat-pct-measurements":11,"./fat-pct-navy":12,"./fitness-hr":15,"./fitness-index-23":16,"./ideal-weight":17,"./karvonen":18,"./max-hr":19,"./running":21,"./running-economy":20,"./skinfold-durnin":22,"./topunkttest":23,"image-map-resizer":1,"wilks-calculator":2}],5:[function(require,module,exports){
+},{"../js/bodywater.js":8,"../js/fatenergypct.js":15,"../js/waist.js":25,"../js/walktest-rockport-16.js":26,"./1rm":3,"./bmi":5,"./bmr-nordic-1996":6,"./bmr-nordic-2012":7,"./cooper":10,"./cooper-running":9,"./etpunkttest":11,"./fat-pct":14,"./fat-pct-measurements":12,"./fat-pct-navy":13,"./fitness-hr":16,"./fitness-index-23":17,"./ideal-weight":18,"./karvonen":19,"./max-hr":20,"./running":22,"./running-economy":21,"./skinfold-durnin":23,"./topunkttest":24,"image-map-resizer":1,"wilks-calculator":2}],5:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.BMI = function(h, w) {
@@ -1493,7 +1510,7 @@ motionsplan.EnergyExpenditure = function(sex, age, weight, pal, sport) {
     sport = sport;
     pal = pal;
 
-    // BMR
+    // BMR - Nordiska 1996
     function getBasicMetabolicRate() {
         if ((koen == "1") && (alder > 10) && (alder < 19)) {
             bmr = 74 * vaegt + 2750;
@@ -1558,6 +1575,95 @@ motionsplan.EnergyExpenditure = function(sex, age, weight, pal, sport) {
 module.exports = motionsplan;
 
 },{}],7:[function(require,module,exports){
+let motionsplan = {};
+
+
+/**
+ * Based on Nordic Nutrition Recommendations 2012
+ * 
+ * PAL-values:
+ * 
+ * 1.45 Stillesiddende arbejde med kun lidt fysisk aktivitet og ingen eller begrænset fysisk aktivitet i fritiden. 
+ * 1.65 Stillesiddende arbejde med et vist behov for fysisk aktivitet og ingen eller begrænset fysisk aktivitet i fritiden.
+ * 1.85 Hovedsageligt stående arbejde.
+ * 2.20 Hårdt kropsarbejde eller meget høj fritidsaktivitet.
+ * 
+ * +0.3 Sport eller anden hård fysisk aktivitet i fritiden. (30-60 min. 4-5 gange/uge)
+ */
+
+motionsplan.REE2012 = function(sex, age, weight, pal, sport) {
+    var bmr;
+    var koen = sex; // Men is 1; women 0
+    var alder = age;
+    var vaegt = weight;
+    sport = sport;
+    pal = pal;
+
+    // BMR - Nordiska 2012
+    function getRestingEnergyExpenditure() {
+        if ((koen == "1") && (alder > 10) && (alder < 19)) {
+            bmr = 0.0769 * vaegt + 2.43;
+        }
+        else if ((koen == "1") && (alder > 18) && (alder < 31)) {
+            bmr = 0.0669 * vaegt + 2.28;
+        }
+        else if ((koen == "1") && (alder > 30) && (alder < 61)) {
+            bmr = 0.0592 * vaegt + 2.48;
+        }
+        else if ((koen == "1") && (alder > 60) && (alder < 71)) {
+            bmr = 0.0543 * vaegt + 2.37;
+        }
+        else if ((koen == "1") && (alder > 70)) {
+            bmr = 0.0573 * vaegt + 2.01;
+        }
+        else if ((koen == "0") && (alder > 10) && (alder < 19)) {
+            bmr = 0.0465 * vaegt + 3.18;
+        }
+        else if ((koen == "0") && (alder > 18) && (alder < 31)) {
+            bmr = 0.0546 * vaegt + 2.33;
+        }
+        else if ((koen == "0") && (alder > 30) && (alder < 61)) {
+            bmr = 0.0407 * vaegt + 2.9;
+        }
+        else if ((koen == "0") && (alder > 60) && (alder < 71)) {
+            bmr = 0.0429 * vaegt + 2.39;
+        }
+        else if ((koen == "0") && (alder > 70)) {
+            bmr = 0.0417 * vaegt + 2.41;
+        }
+        return bmr * 1000;
+    }
+
+    // TEE
+    function getTotalEnergyExpenditure() {
+        return getPhysicalActivityLevel() * getRestingEnergyExpenditure();
+    }
+
+    // PAL
+    function getPhysicalActivityLevel() {
+        var pal2;
+        var pal_val = pal;
+        pal2 = pal_val * 1;
+        console.log(sport);
+        if (String(sport) == "true") {
+            pal2 = pal2 + 0.3;
+        }
+        return pal2;
+    }
+
+    var publicAPI = {
+        getRestingEnergyExpenditure: getRestingEnergyExpenditure,
+        getTotalEnergyExpenditure: getTotalEnergyExpenditure,
+        getPhysicalActivityLevel: getPhysicalActivityLevel
+    };
+
+    return publicAPI;
+
+};
+
+module.exports = motionsplan;
+
+},{}],8:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.BodyWater = function(height, weight, age, sex) {
@@ -1596,7 +1702,7 @@ motionsplan.BodyWater = function(height, weight, age, sex) {
 
 module.exports = motionsplan;
 
-},{}],8:[function(require,module,exports){
+},{}],9:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.CooperRunning = function() {
@@ -1623,7 +1729,7 @@ motionsplan.CooperRunning = function() {
 
 module.exports = motionsplan;
 
-},{}],9:[function(require,module,exports){
+},{}],10:[function(require,module,exports){
 let motionsplan = {};
 
 motionsplan.CooperClinicMortalityRiskIndex = function(age, hr, bloodpressure, diabetes, smoker, bmi, fitness) {
@@ -1792,7 +1898,7 @@ motionsplan.CooperClinicMortalityRiskIndex = function(age, hr, bloodpressure, di
 
 module.exports = motionsplan;
 
-},{}],10:[function(require,module,exports){
+},{}],11:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.EtPunktTest = function(gender, age, weight, work, hr) {
@@ -1871,7 +1977,7 @@ motionsplan.EtPunktTest = function(gender, age, weight, work, hr) {
 
 module.exports = motionsplan;
 
-},{}],11:[function(require,module,exports){
+},{}],12:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.CalculateFatPercentMeasurements = function() {
@@ -1904,7 +2010,7 @@ motionsplan.CalculateFatPercentMeasurements = function() {
 
 module.exports = motionsplan;
 
-},{}],12:[function(require,module,exports){
+},{}],13:[function(require,module,exports){
 let motionsplan = {}
 
 /**
@@ -1940,7 +2046,7 @@ motionsplan.CalculateFatPercentNavy = function(sex, h, waist, neck, hip = 0) {
 
 module.exports = motionsplan;
 
-},{}],13:[function(require,module,exports){
+},{}],14:[function(require,module,exports){
 let motionsplan = {}
 
 /**
@@ -2019,7 +2125,7 @@ motionsplan.CalculateFatPercent = function(h, w, a, sex) {
 
 module.exports = motionsplan;
 
-},{}],14:[function(require,module,exports){
+},{}],15:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.FatEnergyPct = function(kj, fat) {
@@ -2039,7 +2145,7 @@ motionsplan.FatEnergyPct = function(kj, fat) {
 
 module.exports = motionsplan;
 
-},{}],15:[function(require,module,exports){
+},{}],16:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.CalculateFitnessFromHr = function(mxpul, hvpul, wgt) {
@@ -2072,7 +2178,7 @@ motionsplan.CalculateFitnessFromHr = function(mxpul, hvpul, wgt) {
 
 module.exports = motionsplan;
 
-},{}],16:[function(require,module,exports){
+},{}],17:[function(require,module,exports){
 let motionsplan = {}
 
 // height in cm
@@ -2108,7 +2214,7 @@ motionsplan.FitnessIndex23 = function(height, weight) {
 
 module.exports = motionsplan;
 
-},{}],17:[function(require,module,exports){
+},{}],18:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.IdealWeight = function(h, sex) {
@@ -2158,7 +2264,7 @@ motionsplan.IdealWeight = function(h, sex) {
 
 module.exports = motionsplan;
 
-},{}],18:[function(require,module,exports){
+},{}],19:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.Karvonen = function(minHr, maxHr) {
@@ -2182,7 +2288,7 @@ motionsplan.Karvonen = function(minHr, maxHr) {
 
 module.exports = motionsplan;
 
-},{}],19:[function(require,module,exports){
+},{}],20:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.EstimateMaxHr = function(ald) {
@@ -2203,7 +2309,7 @@ motionsplan.EstimateMaxHr = function(ald) {
 
 module.exports = motionsplan;
 
-},{}],20:[function(require,module,exports){
+},{}],21:[function(require,module,exports){
 let motionsplan = {}
 
 // weight in kg
@@ -2243,7 +2349,7 @@ motionsplan.RunningEconomy= function(weight, oxygenuptake) {
 
 module.exports = motionsplan;
 
-},{}],21:[function(require,module,exports){
+},{}],22:[function(require,module,exports){
 let motionsplan = {};
 
 motionsplan.Running = function() {
@@ -2315,7 +2421,7 @@ motionsplan.Running = function() {
 
 module.exports = motionsplan;
 
-},{}],22:[function(require,module,exports){
+},{}],23:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.SkinfoldDurnin = function(biceps, triceps, hoftekam, skulder, weight, gender, age = 20) {
@@ -2396,7 +2502,7 @@ motionsplan.SkinfoldDurnin = function(biceps, triceps, hoftekam, skulder, weight
 
 module.exports = motionsplan;
 
-},{}],23:[function(require,module,exports){
+},{}],24:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.ToPunktTest = function(age, weight, work1, hr1, work2, hr2) {
@@ -2434,7 +2540,7 @@ motionsplan.ToPunktTest = function(age, weight, work1, hr1, work2, hr2) {
 
 module.exports = motionsplan;
 
-},{}],24:[function(require,module,exports){
+},{}],25:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.WaistRatio = function() {
@@ -2457,7 +2563,7 @@ motionsplan.WaistRatio = function() {
 
 module.exports = motionsplan;
 
-},{}],25:[function(require,module,exports){
+},{}],26:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.RockPortWalkingTest = function(min, sec, hr, sex, age, weight) {

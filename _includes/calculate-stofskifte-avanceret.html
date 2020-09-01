@@ -6,11 +6,10 @@
         var sex = form.sexHidden.value;
 
         if (sex == "male") {
-            var basicMeta = 66 + (13.7 * weight) + (5 * height) - (6.8 * age); // basic Metabolism for males	
+            var basicMeta = 66.5 + (13.75 * weight) + (5.003 * height) - (6.755 * age); // basic Metabolism for males	
         }
-
-        if (sex == "female") {
-            var basicMeta = 655 + (9.6 * weight) + (1.8 * height) - (4.7 * age); // basic Metabolism for female between 19-30 years
+        else if (sex == "female") {
+            var basicMeta = 655 + (9.563 * weight) + (1.850 * height) - (4.676 * age); // basic Metabolism for female between 19-30 years
         }
 
         var min_day = 24 * 60;
@@ -50,7 +49,7 @@
 </script>
 <form class="calculator" id="form1">
     <fieldset>
-        <legend>Avanceret udregning af dit stofskifte og ligevægtsindtag.</legend>
+        <legend>Avanceret udregning af dit stofskifte, energibehov og ligevægtsindtag baseret på Benedict-Harris.</legend>
         <fieldset>
             <legend>Køn</legend>
             <label for="male" class="radio"><input type="radio" name="sex" value="male" id="male" onclick="this.form.sexHidden.value = 'male';" checked="checked"> Mand</label>

@@ -2,6 +2,8 @@ let motionsplan = {};
 
 
 /**
+ * Based on Nordic Nutrition Recommendations 2012
+ * 
  * PAL-values:
  * 
  * 1.45 Stillesiddende arbejde med kun lidt fysisk aktivitet og ingen eller begrænset fysisk aktivitet i fritiden. 
@@ -12,52 +14,52 @@ let motionsplan = {};
  * +0.3 Sport eller anden hård fysisk aktivitet i fritiden. (30-60 min. 4-5 gange/uge)
  */
 
-motionsplan.EnergyExpenditure = function(sex, age, weight, pal, sport) {
+motionsplan.REE2012 = function(sex, age, weight, pal, sport) {
     var bmr;
-    var koen = sex;
+    var koen = sex; // Men is 1; women 0
     var alder = age;
     var vaegt = weight;
     sport = sport;
     pal = pal;
 
-    // BMR
-    function getBasicMetabolicRate() {
+    // BMR - Nordiska 2012
+    function getRestingEnergyExpenditure() {
         if ((koen == "1") && (alder > 10) && (alder < 19)) {
-            bmr = 74 * vaegt + 2750;
+            bmr = 0.0769 * vaegt + 2.43;
         }
         else if ((koen == "1") && (alder > 18) && (alder < 31)) {
-            bmr = 64 * vaegt + 2840;
+            bmr = 0.0669 * vaegt + 2.28;
         }
         else if ((koen == "1") && (alder > 30) && (alder < 61)) {
-            bmr = 48.5 * vaegt + 3670;
+            bmr = 0.0592 * vaegt + 2.48;
         }
-        else if ((koen == "1") && (alder > 60) && (alder < 76)) {
-            bmr = 49.9 * vaegt + 2930;
+        else if ((koen == "1") && (alder > 60) && (alder < 71)) {
+            bmr = 0.0543 * vaegt + 2.37;
         }
-        else if ((koen == "1") && (alder > 75)) {
-            bmr = 35 * vaegt + 3430;
+        else if ((koen == "1") && (alder > 70)) {
+            bmr = 0.0573 * vaegt + 2.01;
         }
         else if ((koen == "0") && (alder > 10) && (alder < 19)) {
-            bmr = 56 * vaegt + 2900;
+            bmr = 0.0465 * vaegt + 3.18;
         }
         else if ((koen == "0") && (alder > 18) && (alder < 31)) {
-            bmr = 61.5 * vaegt + 2080;
+            bmr = 0.0546 * vaegt + 2.33;
         }
         else if ((koen == "0") && (alder > 30) && (alder < 61)) {
-            bmr = 36.4 * vaegt + 3470;
+            bmr = 0.0407 * vaegt + 2.9;
         }
-        else if ((koen == "0") && (alder > 60) && (alder < 76)) {
-            bmr = 38.6 * vaegt + 2880;
+        else if ((koen == "0") && (alder > 60) && (alder < 71)) {
+            bmr = 0.0429 * vaegt + 2.39;
         }
-        else if ((koen == "0") && (alder > 75)) {
-            bmr = 41 * vaegt + 2610;
+        else if ((koen == "0") && (alder > 70)) {
+            bmr = 0.0417 * vaegt + 2.41;
         }
-        return bmr;
+        return bmr * 1000;
     }
 
     // TEE
     function getTotalEnergyExpenditure() {
-        return getPhysicalActivityLevel() * getBasicMetabolicRate();
+        return getPhysicalActivityLevel() * getRestingEnergyExpenditure();
     }
 
     // PAL
@@ -73,7 +75,7 @@ motionsplan.EnergyExpenditure = function(sex, age, weight, pal, sport) {
     }
 
     var publicAPI = {
-        getBasicMetabolicRate: getBasicMetabolicRate,
+        getRestingEnergyExpenditure: getRestingEnergyExpenditure,
         getTotalEnergyExpenditure: getTotalEnergyExpenditure,
         getPhysicalActivityLevel: getPhysicalActivityLevel
     };

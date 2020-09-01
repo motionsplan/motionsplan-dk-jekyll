@@ -40,7 +40,12 @@ Du kan bruge ligevægtsindtaget, hvis du fx laver kostplaner, hvor du skal ramme
 
 ## Hvordan udregner jeg ligevægtsindtaget
 
-I denne beregner er Benedict-Harris formlen brugt til at udregne basalstofskiftet, som bruges til at udregne ligevægtsindtaget.
+I denne beregner er [Benedict-Harris formlen](https://en.wikipedia.org/wiki/Harris%E2%80%93Benedict_equation) brugt til at udregne basalstofskiftet, som bruges til at udregne ligevægtsindtaget.
+
+- Mænd: BMR = 66.5 + ( 13.75 × weight in kg ) + ( 5.003 × height in cm ) – ( 6.755 × age in years )
+- Kvinder: BMR = 655 + ( 9.563 × weight in kg ) + ( 1.850 × height in cm ) – ( 4.676 × age in years )
+
+Roza and Shizgal reviderede formlen i 1984. Den formel forventer jeg senere at integrere i beregneren her. Skriv i kommentarerne, hvis det skal gå lidt hurtigere :)
 
 - Mænd: BMR = 88.362 + (13.397 × weight in kg) + (4.799 × height in cm) - (5.677 × age in years)
 - Kvinder: BMR = 447.593 + (9.247 × weight in kg) + (3.098 × height in cm) - (4.330 × age in years)

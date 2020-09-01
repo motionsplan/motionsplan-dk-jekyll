@@ -1,4 +1,4 @@
-const motionsplan = require('../js/bmr.js');
+const motionsplan = require('../js/bmr-nordic-1996.js');
 var assert = require('assert');
 
 describe('EnergyExpenditure', function() {

@@ -26,6 +26,8 @@ Jeg har lavet en beregner, hvor du kan udregne dit stofskifte og dit daglige ene
 
 **Stofskiftet består af 3 hovedkomponenter: hvilestofskiftet (BMR), fødeinduceret termogenese (FIT) og fysisk aktivitet (PAL).**
 
+Jeg har lavet en anden [beregner af hvilestofskiftet, som tager udgangspunkt i _Nordic Nutrition Reccommandations 2012_]({% link _posts/2020-09-01-stofskifte-nordic-2012.md %}). Jeg har også lavet en [avanceret beregner af dit daglige energibehov, hvor den fysiske aktivitet bliver angivet lidt mere præcist]({% link _posts/2019-10-31-avanceret-stofskifteberegner.md %}). Endelig har jeg lavet en [beregner af ligevægtsindtaget]({% link _posts/2019-10-31-ligevaegtsberegner.md %}).
+
 ## Beregn dit stofskifte og basalstofskifte
 
 Med denne beregner kan du udregne dit hvilestofskifte, som også ofte kaldes basalstofskiftet, og dit samlede daglige energibehov. Beregneren er ret simpel og angiver dit aktivitetsniveau udfra nogle overordnede mål. Resultatet er en gennemsnitsberegning for dit køn, din alder og din vægt.
@@ -38,13 +40,13 @@ Beregningen er behæftet med stor usikkerhed. Værdierne er rettet mod "almindel
 
 ## Tabeller for udregning af hvilestofskiftet
 
-Tabellerne er baseret på værdier fra _Nordiska næringsrekommendationer 1996_.
+Tabellerne og beregneren af stofskiftet er baseret på værdier fra _Nordiska Næringsrekommendationer 1996_.
 
 ### Formel til at beregne hvilestofskiftet
 
 #### Mænds hvilestofskifte
 
-| Alder   | BMR (Kj/dag)  |
+| Alder   | BMR (kJ/dag)  |
 |---------|---------------|
 |	11-18	  | 74 V + 2750   |
 | 19-30	  | 64 V + 2840   |
@@ -64,7 +66,7 @@ Tabellerne er baseret på værdier fra _Nordiska næringsrekommendationer 1996_.
 
 V er vægt i kg. 
 
-Eksempel: en kvinde på 23 år som vejer 62 kg. har derfor et BMR på: 61,5*62 + 2080 = 5893 Kj dagligt.
+Eksempel: en kvinde på 23 år som vejer 62 kg. har derfor et BMR på: BMR = 61,5 * 62 + 2080 = 5893 kJ dagligt. Hvis du gerne vil have tallet i **kalorier** skal du dele det med 4,2. Jeg har skrevet lidt mere om, hvad [kalorier (cal) og kilokalorier (kcal) er her]({% link _posts/2020-07-09-kalorier.md %}).
 {: .notice .notice--info }
 
 ### Fysisk aktivitetsniveau i forhold til hvilestofskiftet (PAL)
@@ -85,9 +87,9 @@ PAL skal ganges med BMR for at estimere ens daglige stofskifte.
 
 ## Mere avanceret udregning af dagligt energiforbrug
 
-Hvis du gerne vil have en lidt mere avanceret beregner, så kan du finde den på  [health-calc.com](https://www.health-calc.com/diet/energy-expenditure-advanced).
+Jeg har også lavet en [avanceret beregner af dit daglige energibehov, hvor den fysiske aktivitet bliver angivet lidt mere præcist]({% link _posts/2019-10-31-avanceret-stofskifteberegner.md %}). Hvis du gerne vil have en beregner på engelsk, så kan du finde den på  [health-calc.com](https://www.health-calc.com/diet/energy-expenditure-advanced).
 
-[Avanceret BMR beregner](https://www.health-calc.com/diet/energy-expenditure-advanced){: .btn .btn--large .btn--success }
+[Avanceret stofskifte beregner]({% link _posts/2019-10-31-avanceret-stofskifteberegner.md %}){: .btn .btn--large .btn--success }
 
 *[BMR]: Kroppens hvilestofskifte (basic metabolic rate)
 *[PAL]: Fysisk aktivitetsniveau (Physical Acitivity Level)
