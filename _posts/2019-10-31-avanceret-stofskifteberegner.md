@@ -34,8 +34,26 @@ Med denne beregner kan du udregne dit hvilestofskifte, som også ofte kaldes bas
 
 ## Baggrund for den avancerede stofskifteberegner
 
+I denne beregner er [Benedict-Harris formlen](https://en.wikipedia.org/wiki/Harris%E2%80%93Benedict_equation) brugt til at udregne basalstofskiftet, som bruges til at udregne ligevægtsindtaget.
+
+- Mænd: BMR = 66.5 + ( 13.75 × weight in kg ) + ( 5.003 × height in cm ) – ( 6.755 × age in years )
+- Kvinder: BMR = 655 + ( 9.563 × weight in kg ) + ( 1.850 × height in cm ) – ( 4.676 × age in years )
+
+Roza and Shizgal reviderede formlen i 1984. Den formel forventer jeg senere at integrere i beregneren her. Skriv i kommentarerne, hvis det skal gå lidt hurtigere :)
+
+- Mænd: BMR = 88.362 + (13.397 × weight in kg) + (4.799 × height in cm) - (5.677 × age in years)
+- Kvinder: BMR = 447.593 + (9.247 × weight in kg) + (3.098 × height in cm) - (4.330 × age in years)
+
 [Gerrior et al (2006)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1784117/) viser, hvordan man let udregner energibehovet. Jeg har taget udgangspunkt i dette for at bruge estimerede MET-værdier for aktivitetsniveauet til at udregne PAL.
+
+Brian Henneberg gennemgår et studie, som [sammenligner præcisionen af formler for hvilestofskiftet](https://www.bodylab.dk/shop/hvilestofskifteformler-2881c1.html). Studiet konkluderer:
+
+> Som det fremgår var næsten alle formlerne signifikant off ift. de resultater man fik når man rent faktisk målte hvilestofskiftet. De fleste formler undervurderede hvilestofskiftet, mens to formler overvurderede stofskiftet (De Lorenzo og Cunningham hos kvinderne).
+> 
+> Hos mændene viste beregningerne at Harris-Benedict var den mest præcise, om end den i gennemsnit vist 284 kcal for lidt. Hos kvinderne var Cunningham den mest præcise med en gennemsnitlig afvigelse på 110 kcal (over det faktiske).
+
+--- <cite>[Brian Henneberg](https://www.bodylab.dk/shop/hvilestofskifteformler-2881c1.html)</cite>
 
 ## Se flere typer udregninger af stofskiftet
 
-Jeg har lavet en [simpel beregner til stofskiftet]({% link _posts/2019-10-31-simpel-stofskifteberegner.md %}) og en [beregner til udregning af ligevægtsindtaget]({% link _posts/2019-10-31-ligevaegtsberegner.md %}).
+Jeg har lavet en [simpel beregner til stofskiftet]({% link _posts/2019-10-31-simpel-stofskifteberegner.md %}), som er baseret på _Nordic Nutrition Recommandations fra 2012_ og en [beregner til udregning af ligevægtsindtaget]({% link _posts/2019-10-31-ligevaegtsberegner.md %}).
