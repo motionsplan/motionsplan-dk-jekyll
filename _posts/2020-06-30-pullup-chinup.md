@@ -3,8 +3,8 @@ title: &title "Pull ups vs chin ups: Hvad er forskellen på kropshævninger?"
 permalink: /chinup-vs-pullup/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1502955717682-d0430000b16d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
-  teaser: https://images.unsplash.com/photo-1502955717682-d0430000b16d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://c.pxhere.com/photos/f1/8a/active_athlete_background_bar_begin_dangle_equipment_evening-857075.jpg!d
+  teaser: https://c.pxhere.com/photos/f1/8a/active_athlete_background_bar_begin_dangle_equipment_evening-857075.jpg!d
   caption: *title
 category:
   - Viden om
@@ -15,27 +15,18 @@ tags:
   - skulder
 last_modified_at: 2020-06-11T08:14:14Z
 toc: true
-gallery:
-  - image_path: /assets/images/blog/male_mri.gif
-    url: /assets/images/blog/male_mri.gif
-    title: "Kvindelig muskel MRI"
-    alt: "Kvindelig muskel MRI"
-  - image_path: /assets/images/blog/female_mri.gif
-    url: /assets/images/blog/female_mri.gif
-    title: "Kvindelig muskel MRI"
-    alt: "Kvindelig muskel MRI"
 feature_row:
   - image_path: https://apuls.dk/image/catalog/Produkter/traeningsudstyr/fitwood/trolleveggen/FitWood_TROLLVEGGEN_chin_bar_pull_up_bar_white_wood_steel_bar_product_image1.jpg
     alt: "Fitwood Pullupbar"
     excerpt: "FitWood Trollveggen dørribbe er en multifunktionel chin-up/pull-up bar i lækkert scandinavisk design."
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/fitwood-trollveggen-dorribbe-hvid
-    btn_label: "Pris hos Apuls"
+    btn_label: "Pris hos Apuls*"
     btn_class: "btn--success"
   - image_path: https://apuls.dk/image/catalog/produkter-kina/pull-up-bar-lille/1.jpg
     alt: "cPro9 Pullupbar"
     excerpt: "cPro9 Pull Up Bar til dør, som er let monteres i en døråbning. Baren giver dig mange forskellige muligheder for greb."
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/fitwood-trollveggen-dorribbe-hvid
-    btn_label: "Pris hos Apuls"
+    btn_label: "Pris hos Apuls*"
     btn_class: "btn--success"
 ---
 

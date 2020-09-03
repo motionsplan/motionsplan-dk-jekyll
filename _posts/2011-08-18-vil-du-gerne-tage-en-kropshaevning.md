@@ -1,10 +1,10 @@
 ---
-title: &title "Kropshævninger: Hvordan lærer jeg at tage en pullup og chinup?"
+title: &title "Kropshævninger: Hvordan lærer jeg at tage pullup og chinup?"
 permalink: /artikel/vil-du-gerne-tage-en-kropshaevning/
 language: da
 header:
-  overlay_image: /assets/images/blog/vil-du-gerne-tage-en-kropshaevning.jpg
-  teaser: /assets/images/blog/vil-du-gerne-tage-en-kropshaevning.jpg
+  overlay_image: https://images.unsplash.com/photo-1502955717682-d0430000b16d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=80
+  teaser: https://images.unsplash.com/photo-1502955717682-d0430000b16d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
   caption: *title
 tags:
   - styrketræning
@@ -12,14 +12,18 @@ tags:
   - skulder
 category:
   - Styrketræning
-last_modified_at: 2013-02-13T22:27:53Z
+last_modified_at: 2020-09-02T22:27:53Z
 ---
 
-Kropshævning er en af de absolut bedste overkropsøvelser, så du kan egentlig ikke komme i gang med den hurtigt nok. Øvelsen findes i hvert fald i to variationer - og vi synes du er sej, uanset hvilken du kan udføre.
+Vil du også gerne lære at tage en kropshævning, pullup eller en chinup? Jeg har skrevet en komplet guide til, hvordan du lærer at tage din første kropshævning, chinup eller pullup, og jeg foreslår et godt træningsprogram.
 
-{% include exercises exercises="Pullup, kropshævning med overhåndsgreb" match="exact" type="left" %}
+Kropshævning er en af de absolut bedste overkropsøvelser, så du kan egentlig ikke komme i gang med den hurtigt nok. Kropshævninger kommer i to overordnede variationer - chinups og pullups - men der er et hav af andre variationer af kropshævninger.
 
-{% include exercises exercises="Chinup, kropshævning med underhåndsgreb" match="exact" type="left" %}
+Jeg har skrevet en guide til [forskellen på en pullup og en chinup]({% link _posts/2020-06-30-pullup-chinup.md %}), men kort forklaret så handler det om, hvordan man holder i stangen.
+
+{% include figure image_path="https://res-5.cloudinary.com/rubberbanditz/image/upload/c_lpad,dpr_1.0,f_auto,q_auto/v1/media/wysiwyg/blog_images/pullupchinup-image1.jpg" caption="Forskel på chinups og pullups fra [Rubberbanditz](https://www.rubberbanditz.com/blog/pull-up-vs-chin-up/)"  %}
+
+Lad os kigge på, hvordan du også kan lære at tage en pullup med et godt træningsprogram. Principperne i fremgangsmåden er den samme uanset, hvilken type kropshævning dit træningsprogram handler om.
 
 ## Grundlæggende om at træne pullups
 
@@ -51,6 +55,96 @@ Hvis du ikke kan lave en pullup lige nu, så tager det lidt tid at lære det. De
 2. Film dit forsøg og få visuel feedback
 Det er en god ide at filme de første forsøg. Derved får du visuelt feedback på din bevægelse, men du kan også se over tid, om du har rykket dig i din teknik og styrke.
 
+Det er naturligvis vigtigt, at du har øje for, [hvilke muskler der bruges i en pullup og en chinup]({% link _posts/2020-06-30-pullup-chinup.md %}), hvis du gerne vil lære at lave øvelsen uden hjælpemidler.
+
+## Gode øvelser til chinup og pull up progression
+
+Hvis du gerne vil lave en chinup og en pullup, så er det helt afgørende, at du mestrer følgende øvelser først.
+
+### Dead hang
+
+Øv dig i at hænge i stangen. Start med fx 5 sekunder, men arbejd dig langsomt op, så du i hvert fald kan hænge 30 sekunder i stangen.
+
+### Scapula pullups
+
+Hæng i strakte arme i en stang. Prøv at løfte dig op stille ved at samle skulderbladene og trække dem nedad.
+
+{% include video provider="youtube" id="icD6a_JcCbQ" %}
+
+### Superman pullups
+
+Superman pullups er faktisk hårdere end det ser ud til. Det er vigtigt, når du laver øvelsen, at du får fornemmelsen af, at det er den brede rygmuskel, der hiver armene ned, og at du også trækker skulderbladende ned og sammen. Hold gerne spændingen i musklen i begge retninger.
+
+Når du har en god fornemmelse for muskelinvolveringen, så kan du lave den med elastik, som det også vises i videoen.
+
+{% include video provider="youtube" id="bMZGI7TyUT4" %}
+
+### Body rows
+
+_Interved rows_ eller _body rows_ er en rigtig god måde at få trænet nogle af de vigtige muskler i pullups og chinups.
+
+Det kan være rigtig godt at arbejde med stop i bevægelsen, så du fx holder spændingen, når brystet i nærheden af stangen.
+
+{% include video provider="youtube" id="hXTc1mDnZCw" %}
+
+## Variationer af assisterede pullups og chinups
+
+Jeg kan godt lide at bruge forskellige typer assisterede pullups og chinups, når du skal lære bevægelsen.
+
+Her er nogle generelle retningslinjer til, hvordan man laver en assisteret pullup og chinup.
+
+- Sørg for at spænde i din core og kropsstamme
+- Tænk på at trække stangen ned, og træk skulderbladene ned og sammen også
+- Brug den mindst mulige assistance, du har brug for i forhold dit træningsprogram. Hvis du skal tage 8 gentagelser med en RPE på 8, så prøv at afpasse hjælpen til, at du netop kun ville kunne tage 10. Der er ingen grund til at træne til _failure_. Gem gerne 1-2 reps.
+
+### Leg supported pullup og chinup
+
+{% include figure image_path="https://www.nerdfitness.com/wp-content/uploads/2019/03/assisted-pull-up-chair.gif" caption="Leg assisted pullups fra [NerdFitness](https://www.nerdfitness.com/blog/do-a-pull-up/)"  %}
+
+{% include figure image_path="https://www.nerdfitness.com/wp-content/uploads/2019/03/assisted-pull-up.gif" caption="Leg assisted pullups fra [NerdFitness](https://www.nerdfitness.com/blog/do-a-pull-up/)"  %}
+
+{% include video provider="youtube" id="BLJtNxBtv_8" %}
+
+{% include video provider="youtube" id="n1PyiFuSnX8" %}
+
+### L-leg eller chair supported pullups og chinups
+
+{% include video provider="youtube" id="gl3ijG_pozM" %}
+
+### Pullups med elastik
+
+Hvis du bruger elastik som hjælpe til at tage pullups, så kan du enten have det rundt om fødderne eller eller på det ene knæ.
+
+En progression med elastik kan være at arbejde dig op til at kunne tage 10-12 med en type elastik. Når du kan det, så kan du skifte ned til en lettere elastik.
+
+{% include video provider="youtube" id="7yqudG7vnow" %}
+
+{% include figure image_path="https://www.nerdfitness.com/wp-content/uploads/2019/03/assisted-pull-up-staci.gif" caption="Elastik assisted pullups fra [NerdFitness](https://www.nerdfitness.com/blog/do-a-pull-up/)"  %}
+
+### Partner assisterede pullups og chinups
+
+Du kan have en ven til at holde dine fødder. Så fungerer det nogenlunde som leg-assisted, hvor du har fødderne bag ved dig selv. Det er lidt unaturligt at have benene bagved sig selv i forhold til bevægelsen, men prøv det gerne.
+
+{% include video provider="youtube" id="7yqudG7vnow" %}
+
+{% include figure image_path="https://www.nerdfitness.com/wp-content/uploads/2019/03/pull-up-friend.gif" caption="Partner assisterede pullups fra [NerdFitness](https://www.nerdfitness.com/blog/do-a-pull-up/)"  %}
+
+## Variationer af pullups og chinups
+
+### Flexed hang
+
+{% include video provider="youtube" id="zNXE1cRva9Y" %}
+
+### Excentrisk eller negative pullups og chinups
+
+{% include figure image_path="https://www.nerdfitness.com/wp-content/uploads/2019/03/negative-pull-up.gif" caption="Negative eller excentriske pullups fra [NerdFitness](https://www.nerdfitness.com/blog/do-a-pull-up/)"  %}
+
+{% include video provider="youtube" id="urXuSSF6Ons" %}
+
+### Halve chinups eller pullups
+
+{% include video provider="youtube" id="urXuSSF6Ons" %}
+
 ## Hvordan lærer jeg at tage en pullup og en chinup?
 
 Hvis du også vil være en af de seje, kan følgende træningsprogram måske hjælpe dig til at kunne tage en kropshævning uden hjælp.
@@ -67,6 +161,6 @@ Når du trænet op til at kunne hænge i baren, er du klar til det egentlige tr�
 
 Hvis du laver en god plan, så bør du kunne [lave en pullup eller en chinup i løbet af 30 dage](https://www.nerdfitness.com/blog/do-a-pull-up/).
 
-Har du andre forslag til, hvordan man kan komme i gang med at lave en kropshævning?
+**Jeg arbejder på et træningsprogram, som skal lære dig at lave din første kropshævning. Hvis du er interesseret i at prøve det gratis program, inden det offentliggøres, så skriv endelig til lars@vih.dk, så sender jeg dig et eksemplar af programmet. Du skal imidlertid være dedikeret for at lære at lave en kropshævning, og til at følge et program over lang tid.**
 
 Jeg har skrevet lidt mere om [forskellen på chinups og pullups her]({% link _posts/2020-06-30-pullup-chinup.md %}).
