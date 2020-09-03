@@ -181,6 +181,30 @@ Når du trænet op til at kunne hænge i baren, er du klar til det egentlige tr�
 
 Hvis du laver en god plan, så bør du kunne [lave en pullup eller en chinup i løbet af 30 dage](https://www.nerdfitness.com/blog/do-a-pull-up/).
 
-**Jeg arbejder på et træningsprogram, som skal lære dig at lave din første kropshævning. Hvis du er interesseret i at prøve det gratis program, inden det offentliggøres, så skriv endelig til lars@vih.dk, så sender jeg dig et eksemplar af programmet. Du skal imidlertid være dedikeret for at lære at lave en kropshævning, og til at følge et program over lang tid.**
+<!-- Begin Mailchimp Signup Form -->
+<div id="mc_embed_signup">
+<form action="https://motionsplan.us2.list-manage.com/subscribe/post?u=c17bb696b7624b69cbd0acaff&amp;id=67651fdd38" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate class="calculator">
+    <div id="mc_embed_signup_scroll">
+	<h2>Gratis program til at få din første kropshævning</h2>
+	<p>Jeg arbejder på et træningsprogram, som skal lære dig at lave din første kropshævning. Hvis du er interesseret i at prøve det <strong>gratis program</strong>, så kan jeg sende det til dig, hvis du skriver din e-mail nedenunder. Du skal imidlertid være dedikeret for at lære at lave en kropshævning, for programmet tager 16 uger, men så skulle du også gerne have taget din første kropshævning.</p>
+<div class="mc-field-group">
+	<label for="mce-EMAIL">E-mail  <span class="asterisk">*</span>
+</label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+<div class="mc-field-group">
+	<label for="mce-FNAME">Fornavn </label>
+	<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c17bb696b7624b69cbd0acaff_67651fdd38" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Få programmet" name="subscribe" id="mc-embedded-subscribe" class="btn btn--large btn--info"></div>
+    </div>
+</form>
+</div>
+<!--End mc_embed_signup-->
 
 Jeg har skrevet lidt mere om [forskellen på chinups og pullups her]({% link _posts/2020-06-30-pullup-chinup.md %}).
