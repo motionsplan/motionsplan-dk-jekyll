@@ -107,11 +107,27 @@ Her er nogle generelle retningslinjer til, hvordan man laver en assisteret pullu
 
 {% include video provider="youtube" id="n1PyiFuSnX8" %}
 
-### L-leg eller chair supported pullups og chinups
+### Jackknife pullups eller chair supported pullups og chinups
 
 {% include video provider="youtube" id="gl3ijG_pozM" %}
 
-### Pullups med elastik
+### Pullups og chinups med elastik
+
+Der er mange, der bruge elastik eller bands til at hive sig selv op med. Umiddelbart giver det god mening at få hjælp, når man ikke er stærk nok til at tage en pullup eller chinup selv.
+
+Du skal imidlertid være opmærksom på følgende, hvis du vælger at bruge elastikker til at træne chinups og pullups.
+
+- Elastikker varierer meget i styrke. Derfor ka ndet være svært at ramme den rigtige intensitet med mindre du er sikker på, hvilken elastik du brugte sidst, men springet mellem elastikkerne kan også blive for stort. Det kan imidlertid delvist imødegås ved at bruge to elastikker af forskellig tykkelse.
+- Elastikker hjælper lidt for meget i bunden og lidt for lidt på toppen, så styrkekurven er lidt off, når man bruger elastikker.
+- Elastikket ændrer også balancen lidt i kroppen fordi den trækker benene lidt fremdad.
+
+Fitness FAQ har lavet en fin video om at bruge elastik i træningen, og i videoen kommer han også ind på, hvorfor elastikker ikke er det bedste valg til at træne kropshævning.
+
+{% include video provider="youtube" id="GyBVkt-VgwE" %}
+
+[Nikolaj Bach problematiserer også brugen af elastik til pullup og chinups](https://nikolajbach.dk/pull-ups-elastik/), og han foreslår endda øvelser i maskiner som bedre alternativer. Personligt kan jeg bedre lide de assisterede varianter, som er valgt på denne side.
+
+Jeg har valgt at inkludere pullups og chinups med elastik i fase tre for at få volumen på i en bevægelse, der minder om den rigtige pullupbevægelse. Tanken er at du skal udfordre dig selv, så du bruger et så lille elastik som muligt. 
 
 Hvis du bruger elastik som hjælpe til at tage pullups, så kan du enten have det rundt om fødderne eller eller på det ene knæ.
 
