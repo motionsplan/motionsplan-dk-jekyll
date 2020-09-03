@@ -109,6 +109,8 @@ Her er nogle generelle retningslinjer til, hvordan man laver en assisteret pullu
 
 ### Jackknife pullups eller chair supported pullups og chinups
 
+I Jackknife pullups har du fødderne på en bænk. Sørg for kun at hjælpe det nødvendige med fødderne. Sørg også for, at de ikke bliver en body row til slut, men netop en pullup eller chinup.
+
 {% include video provider="youtube" id="gl3ijG_pozM" %}
 
 ### Pullups og chinups med elastik
@@ -141,23 +143,25 @@ En progression med elastik kan være at arbejde dig op til at kunne tage 10-12 m
 
 Du kan have en ven til at holde dine fødder. Så fungerer det nogenlunde som leg-assisted, hvor du har fødderne bag ved dig selv. Det er lidt unaturligt at have benene bagved sig selv i forhold til bevægelsen, men prøv det gerne.
 
-{% include video provider="youtube" id="7yqudG7vnow" %}
-
 {% include figure image_path="https://www.nerdfitness.com/wp-content/uploads/2019/03/pull-up-friend.gif" caption="Partner assisterede pullups fra [NerdFitness](https://www.nerdfitness.com/blog/do-a-pull-up/)"  %}
 
 ## Variationer af pullups og chinups
 
 ### Flexed hang
 
+Hæng i samme position over længere tid. Du kan vælge forskellige positioner, hvor du holder positionen. Arbejd dig op til at kunne hænge længere tid i den samme position.
+
 {% include video provider="youtube" id="zNXE1cRva9Y" %}
 
 ### Excentrisk eller negative pullups og chinups
 
+Du laver excentriske pullups og chinups ved at springe op og sænke dig meget langsomt. Fra gang til gang skal du gerne blive bedre til at sænke dig langsomt. Måske kan du til sidst bruge op til 20-30 sekunder på at sænke dig. Du skal være opmærksom på, at excentriske pullups er meget hårde, og selvom du kan lave mange, så kan det virkelig sætte sig dagen efter.
+
 {% include figure image_path="https://www.nerdfitness.com/wp-content/uploads/2019/03/negative-pull-up.gif" caption="Negative eller excentriske pullups fra [NerdFitness](https://www.nerdfitness.com/blog/do-a-pull-up/)"  %}
 
-{% include video provider="youtube" id="urXuSSF6Ons" %}
-
 ### Halve chinups eller pullups
+
+Træn bevægelsesbanen med forskellig range of motion. Fx kan du træne det øverste af bevægelsen ved at starte med bøjede arme. Du kan også starte i bunden og hive dig op til bøjede arme.
 
 {% include video provider="youtube" id="urXuSSF6Ons" %}
 
