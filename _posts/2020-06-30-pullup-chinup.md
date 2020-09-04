@@ -63,6 +63,10 @@ Men pullups og chinups er ikke det samme. Der er et par forskelle på de to øve
 | Styrke | Biceps arbejder med | Biceps er arbejder lidt mindre |
 | Muskler | Biceps arbejder lidt mere | Miderste del af trapezus arbejder mere | 
 
+[Calisthenicmovement](https://www.youtube.com/channel/UCZIIRX8rkNjVpP-oLMHpeDw) har lavet en fremragende Youtube video, der sammenligner pullups og chinups. I videoen ser de på, hvilke muskler der bruges i forskellige versioner af pullups.
+
+{% include video provider="youtube" id="UfhT0OSUU0w" %}
+
 ## Forskelle i greb
 
 Den primære forskel mellem pullups og chinup er den type greb, der bliver brugt.

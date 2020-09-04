@@ -62,7 +62,7 @@ Hvis du gerne vil se om du bliver bedre i løbet af træningsprogrammet, så kan
 - **Hvor mange pauser**. Mange uger handler det om at holde så få pauser som muligt. Du kan registrere, hvor mange pauser du holder pr. Gang.
 - **Hvor mange minutter du løber**. Programmet er lavet med minutter. Derfor kan du automatisk i programmet se, at du bliver bedre og bedre til at løbe, fordi du kan løbe flere minutter.
 
-## Principper i Motionsplans løbeprogram
+## Principper i Motionsplans løbeprogram til begyndere
 
 - Løbeprogrammet er tilpasset den uerfarne løber, som gerne vil i gang med at løbe.
 - Programmet er lavet på minutter, så det passer til alle begyndere.
@@ -107,6 +107,21 @@ En 5 minutters løbetur kan virke som meget lidt, men den er en god måde at fas
 Derfor kan de 5 minutter være med til, at du ikke bryder vanen. Du får en lille effekt, så om er så uendeligt meget mere end 0 minutter.
 
 Samtidig kan 5 minutters løbeturen sommetider føre til, at du alligevel laver hele programmet.
+
+## Tips og råd til at få mere ud af løbetræningen
+
+- Giv dig tid. Det kræver tålmodighed at blive en bedre løber, og mange af dine løbeture skal være i et langsomt tempo.
+- Find de gode steder at løbe.
+- Træn på minutter, men en 5 kilometer rute, som du kan bruge til at holde styr på din fremgang.
+- Tag træningstøjet på og snør skoene. Når først man har tøjet på, så skal man nok komme afsted.
+
+## Bonustips til din løbetræning
+
+- Musik i ørene kan give adspredelse og flow i løbet, særligt hvis du finder [musik, der passer til kadencen og din løbetræning]({% link _posts/2013-05-02-musik-til-traeningen.md %}). Men husk at der kan være løbeture, hvor oplevelsen bliver bedst, hvis der ikke er andet end løbet og tomheden i dit eget hoved..
+- Gadgets og udstyr kan gøre det sjovere, men hvis du en dag ser dig selv stå med både mp3-afspiller, GPS, pulsur, sikkerhedsreflkser, kompressionsstrømper og sko til 1.600 kr., så trænger du til en løbetur i bare tæer i sandet.
+- Meld dig til løb, hvis du ved at det øger din motivation at have et mål - men lad være med at melde dig til løb bare fordi alle andre gør det. Der er ingen der siger at du skal blive hurtigere og hurtigere.
+- Det er bedre at løbe flere korte ture end få lange. En løbetur kan godt være 2 km (som jo er meget bedre end 0 km). Brug 5 minutters løbeturen engang imellem.
+- Hvis du har givet det en chance og finder ud af, at du faktisk ikke kan lide at løbe, så lad dog være!
 
 ## Test løbeprogrammet til begyndere
 

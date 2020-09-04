@@ -1,0 +1,44 @@
+{% assign sportsgrene_values = include.sports | default: site.data.sportsgrene %}
+{% assign show_limit = include.limit | default: 300 %}
+{% assign show_description = include.description | default: "show" %}
+{% assign show_column = include.column %}
+
+<table class="table">
+  {% for row in sportsgrene_values | limit: show_limit %}
+    {% if forloop.first %}
+    <thead>
+    <tr>
+      <th>Sportsgren</th>
+      {% if show_description == 'show' %}
+      <th>Beskrivelse</th>
+      {% endif %}
+        {% if show_column == 'Medlem2017' %}
+        <td>Medlemmer 2017</td>
+        {% elsif show_column == 'Medlem2018' %}
+        <td>Medlemmer 2018</td>
+        {% elsif show_column == 'Fans' %}
+        <td>Fans</td>
+        {% endif %}
+    </tr>
+    </thead>
+    {% endif %}
+    {% if forloop.length == 1 %}
+    <tbody>
+    {% endif %}
+      <tr>
+        <td>{{ row.Sportsgren }}</td>
+        {% if show_description == 'show' %}
+        <td>{{ row.Beskrivelse }}</td>
+        {% endif %}
+        {% if show_column == 'Medlem2017' %}
+        <td>{{ row.Medlem2017 }}</td>
+        {% elsif show_column == 'Medlem2018' %}
+        <td>{{ row.Medlem2018 }}</td>
+        {% elsif show_column == 'Fans' %}
+        <td>{{ row.Fans }}</td>
+        {% endif %}
+      </tr>
+    {% if forloop.last %}
+    {% endif %}
+  {% endfor %}
+</table>
