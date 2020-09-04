@@ -99,6 +99,71 @@ Der er naturligvis også en [række sportsgrene og idrætsgrene, du ikke anede e
 - Quidditch
 - Tå-wrestling
 
+## Sportsgrene og idrætsforbund i Danmark
+
+De forskellige idrætsgrene og sportsgrene i Danmark er samlet i bestemte idrætsforbund.
+
+Her kan du se liste over alle idrætsforbundene under Danmarks Idræts-Forbund. Der er forbund i alt fra basketball til faldskærmsudspring og bueskydning.
+
+I Danmark var der i 2019 i alt [1,7 millioner medlemmer i DGI](https://www.dgi.dk/om/fakta/tal-og-referater/medlemstal) og knap [2 millioner medlemmer i en forening under Danmarks Idræts-Forbund (DIF)](https://www.dif.dk/da/politik/vi-er/medlemstal).
+
+- Danmarks Amerikansk Idræts Forbund (DAIF)
+- Dansk Automobil Sports Union (DASU)
+- Danmarks Badminton Forbund (DBF)
+- Danmarks Basketball-Forbund (DBBF)
+- Den Danske Billard Union (DDBU)
+- Danmarks Bokse-Union (DaBu)
+- Dansk Boldspil-Union (DBU)
+- Dansk BordTennis Union (DBTU)
+- Dansk Bowling Forbund (DBwF)
+- Danmarks Brydeforbund (DB)
+- Dansk Bueskytteforbund (DBSF)
+- Dansk Cricket-Forbund (DCF)
+- Dansk Curling Forbund (DCuF)
+- Danmarks Cykle Union (DCU)
+- Dansk Dart Union (DDarU)
+- Dansk Faldskærms Union (DFU)
+- Dansk Fægte-Forbund (DFF)
+- Dansk Golf Union (DGU)
+- Danmarks Gymnastik Forbund (DGF)
+- Dansk Hanggliding og Paragliding Union (DHPU)
+- Dansk Hockey og Floorball Forbund (DHFF)
+- Dansk Håndbold Forbund (DHF)
+- Danmarks Ishockey Union (DIU)
+- Dansk Judo og Ju-Jitsu Union (DJU)
+- Dansk Kano og Kajak Forbund (DKF)
+- Dansk Karate Forbund (DKarF)
+- Dansk Kegle Forbund (DKeF)
+- Dansk Militært Idrætsforbund (DMI)
+- Dansk Minigolf Union (DMgU)
+- Danmarks Motor Union (DMU)
+- Dansk MultiSport Forbund (DMSF)
+- Dansk Orienterings-Forbund (DOF)
+- Dansk Petanque Forbund (DPF)
+- Dansk Ride Forbund (DRF)
+- Dansk Forening for Rosport (DFfR)
+- Dansk Rugby Union (DRU)
+- Danmarks Rulleskøjte Union (DRSU)
+- Dansk Sejlunion (DSejlU)
+- Dansk Skiforbund (DSkiF)
+- Dansk Skytte Union (DSkyU)
+- Dansk Skøjte Union (DSkøU)
+- Dansk Sportsdanserforbund (DS)
+- Dansk Sportsdykker Forbund (DSpF)
+- Dansk Sportsklatreforbund (DSkF)
+- Dansk Squash Forbund (DSqF)
+- Dansk Styrkeløft Forbund (DSF)
+- Dansk Svæveflyver Union (DSvU)
+- Dansk Svømmeunion (SVØM)
+- Dansk Taekwondo Forbund (DTaF)
+- Dansk Tennis Forbund (DTF)
+- Dansk Vandski Forbund (DVSF)
+- Dansk Volleyball Forbund (DVBF)
+- Dansk Vægtløftnings-Forbund (DVF)
+- Dansk Handicap Idræts-Forbund (DHIF)
+- Dansk Arbejder Idrætsforbund (DAI)
+- KFUMs Idrætsforbund i Danmark (KFUM)
+
 ## Læs mere om sportsgrene og idrætsgrene
 
 - Danmarks Idræts-forbund: [DIF](http://www.dif.dk/en/forbund)
