@@ -1,11 +1,11 @@
 ---
-title: "Udregn din idealvægt med denne enkle beregner"
+title: &title "Udregn din idealvægt med denne enkle beregner"
 permalink: /idealvaegt/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80
+  overlay_image: https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
   teaser: https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
-  caption: "Photo by Tingey Injury Law Firm on Unsplash"
+  caption: *title
   overlay_filter: 0.1
 category:
   - Viden om
@@ -21,9 +21,9 @@ Jeg får ofte spørgsmålet om, hvad min idealvægt er? Altså ikke min idealvæ
 
 Hvad er idealvægt? **Idealvægt er et forsøg på at give et bud på, hvad den ideelle kropsvægt er, som teoretisk set vil give dig det længste liv med færrest sygdomme. Idealvægt er altså et mål for, hvornår du er sund ift. livslængde og helbred. Idealvægten kommer an på din højde, alder, køn og kropsbygning.**
 
-I gennem forskellige studier har der været virkelig mange forskellige bud på, hvordan man kan udregne idealvægten. Vi har lavet en meget simpel beregner, der tager udgangspunkt i ens køn og ens højde. Du skal være opmærksom på, at beregneren ikke tager højde for noget som helst andet, fx kropsbygning og muskelmasse.
+## Om beregneren til idealvægt fra højde og køn
 
-## Om beregneren til idealvægt
+I gennem forskellige studier har der været virkelig mange forskellige bud på, hvordan man kan udregne idealvægten. Vi har lavet en meget simpel beregner, der tager udgangspunkt i dit køn og din højde. Du skal være opmærksom på, at beregneren ikke tager højde for noget som helst andet, fx kropsbygning og muskelmasse.
 
 Den simple beregner af idealvægt tager udgangspunkt i de formler, der ser ud til at blive brugt mest til at udregne idealvægten. Formlerne er fra Devine (1974), Miller (1983), Hamwi (1964) og Devine (1974).
 

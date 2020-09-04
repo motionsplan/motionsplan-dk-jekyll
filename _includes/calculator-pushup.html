@@ -1,0 +1,95 @@
+<form class="calculator">
+    <fieldset>
+        <div class="form-group">
+            <label for="Sex">Køn</label>
+            <select name="Sex">
+                <option value="Male" selected="selected">Mænd (på tæerne)</option>
+                <option value="Female">Kvinder (knæ i jorden)</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="Age">Alder</label>
+            <input name="Age">
+        </div>
+        <div class="form-group">
+            <label for="Repetitions">Gentagelser</label>
+            <input name="Repetitions"> 
+        </div>
+        <input type="submit" value="Giv mig vurdering" onclick="return calc(this.form);">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label for="PopulationAverage">Gennemsnit for alderen</label>
+            <input name="PopulationAverage" aria-readonly="true" readonly="read-only" aria-label="Population Average"> 
+        </div>
+        <div class="form-group">
+            <label for="Score">Score</label>
+            <input name="Score" aria-readonly="true" readonly="readonly" aria-label="Score">
+        </div>
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label for="Rating">Rating</label>
+            <input name="Rating" aria-readonly="true" readonly="readonly" aria-label="Rating">
+        </div>
+    </fieldset>
+</form>
+
+<script>
+    function calc(form) {
+        var S, A, StandDev, PercRegress, Zscore, PE
+        Age = form.Age.value
+        S = form.Sex.options[form.Sex.selectedIndex].value
+        if (S == "Male") {
+            form.PopulationAverage.value =
+                Math.round(-69.12079872 + 10.96689892 * Age - 0.40037146 * Math.pow(Age, 2) + 0.00576340 * Math.pow(Age, 3) - 0.00002911 * Math.pow(Age, 4))
+        }
+        if (S == "Female") {
+            form.PopulationAverage.value =
+                Math.round(-0.00003969 * Math.pow(Age, 4) + 0.00710960 * Math.pow(Age, 3) - 0.45191034 * Math.pow(Age, 2) + 11.56628022 * Age - 75.77740372)
+        }
+        if (S == "Male" && form.Repetitions.value <= form.PopulationAverage.value) {
+            StandDev =
+                (-33980791 + 3096739.1 * Age) / (1 + 40384.763 * Age + 3713.2581 * Math.pow(Age, 2))
+        }
+        if (S == "Male" && form.Repetitions.value > form.PopulationAverage.value) {
+            StandDev = -56.09510371 + 8.70427042 * Age - 0.34822960 * Math.pow(Age, 2) + 0.00562839 * Math.pow(Age, 3) - 0.00003203 * Math.pow(Age, 4)
+        }
+        if (S == "Female" && form.Repetitions.value <= form.PopulationAverage.value) {
+            StandDev =
+                1.0794478 * Math.pow(0.96572202, Age) * Math.pow(Age, 1.015305)
+        }
+        if (S == "Female" && form.Repetitions.value > form.PopulationAverage.value) {
+            StandDev =
+                (5.5414783 + 0.47843206 * Age) / (1 - 0.010122299 * Age + 0.0009372169 * Math.pow(Age, 2))
+        }
+        Zscore = (form.Repetitions.value - form.PopulationAverage.value) / StandDev
+        PE = Math.exp(-1.8355027 * (Math.abs(Zscore) - 0.23073201))
+        PercRegress = -0.41682992 * (PE - 1) / (PE + 1) + 0.58953708
+        if (Zscore > 0) {
+            form.Score.value =
+                Math.round(PercRegress * 100)
+        }
+        if (Zscore <= 0) {
+            form.Score.value =
+                Math.round((1 - PercRegress) * 100)
+        }
+        if (Zscore >= 1) {
+            form.Rating.value = "Excellent"
+        }
+        if (Zscore < 1 && Zscore >= 0.5) {
+            form.Rating.value = "Good"
+        }
+        if (Zscore < 0.5 && Zscore >= -0.5) {
+            form.Rating.value = "Average"
+        }
+        if (Zscore < -0.5 && Zscore >= -1) {
+            form.Rating.value = "Fair"
+        }
+        if (Zscore < -1) {
+            form.Rating.value = "Poor"
+        }
+        
+        return false;
+    }
+</script>
