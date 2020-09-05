@@ -39,6 +39,15 @@ motionsplan.IdealWeight = function(height, sex) {
   // Based on Zacho BMI Women 22,5 og Man 24,5  
   function getZacho() {
     var hgt = height / 100;
+    
+    /*
+    var weight_factor = 1 + (((localSliderX-5-buttonXOffset)/282)/6.25)-0.08;
+
+    0.9205673758865248
+    1
+    1.079432624113475
+    */
+    
     if (sex == 'man') {
       return (hgt * hgt) * 24.5;
     } 

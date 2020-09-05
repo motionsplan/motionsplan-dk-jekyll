@@ -8,6 +8,7 @@
         var alder= age;
         var vaegt = weight;
 
+        // Værdier baseret på Schofield
         if (sex == "male") {
             if ((alder > 0) && (alder < 3)) {
                 bmr = 249 * vaegt - 127;
@@ -49,8 +50,9 @@
             }
         }
 
-        var basicMeta = bmr;
-
+	    var basicMeta = bmr;
+	    var BMR = bmr;
+	    
         var min_day = 24 * 60;
         var activity_intense = document.getElementById('activity_intense').value;
         var activity_moderat = document.getElementById('activity_moderat').value;
@@ -66,7 +68,7 @@
         var met_standing = 2;
         var met_sleeping = 0.9;
         var met_sitting = 1;
-
+        
         var pal_intense = (met_intense * (activity_intense / 1440));
         var pal_moderat = (met_moderat * (activity_moderat / 1440));
         var pal_light = (met_light * (activity_light / 1440));
@@ -74,29 +76,67 @@
         var pal_sleeping = (met_sleeping * (activity_sleeping / 1440));
         var pal_sitting = (met_sitting * (activity_sitting / 1440));
 
-        /*
-        var pal_intense = ((met_intense - 1) * ((1.15 / 0.9) * (activity_intense / 1440))) / (basicMeta / (0.0175 * 1440 * weight));
-        var pal_moderat = ((met_moderat - 1) * ((1.15 / 0.9) * (activity_moderat / 1440))) / (basicMeta / (0.0175 * 1440 * weight));
-        var pal_light = ((met_light - 1) * ((1.15 / 0.9) * (activity_light / 1440))) / (basicMeta / (0.0175 * 1440 * weight));
-        var pal_standing = ((met_standing - 1) * ((1.15 / 0.9) * (activity_standing / 1440))) / (basicMeta / (0.0175 * 1440 * weight));
-        var pal_sleeping = ((met_sleeping - 1) * ((1.15 / 0.9) * (activity_sleeping / 1440))) / (basicMeta / (0.0175 * 1440 * weight));
-        var pal_sitting = ((met_sitting - 1) * ((1.15 / 0.9) * (activity_sitting / 1440))) / (basicMeta / (0.0175 * 1440 * weight));
-        */
         var pal = pal_intense + pal_moderat + pal_light + pal_standing + pal_sleeping + pal_sitting;
+        /*
+        var pal_intense = ((met_intense - 1) * ((1.15 / 0.9) * activity_intense) / 1440) / (basicMeta / (0.0175 * 1440 * weight));
+        var pal_moderat = ((met_moderat - 1) * ((1.15 / 0.9) * activity_moderat) / 1440) / (basicMeta / (0.0175 * 1440 * weight));
+        var pal_light = ((met_light - 1) * ((1.15 / 0.9) * activity_light) / 1440) / (basicMeta / (0.0175 * 1440 * weight));
+        var pal_standing = ((met_standing - 1) * ((1.15 / 0.9) * activity_standing) / 1440) / (basicMeta / (0.0175 * 1440 * weight));
+        var pal_sleeping = ((met_sleeping - 1) * ((1.15 / 0.9) * activity_sleeping) / 1440) / (basicMeta / (0.0175 * 1440 * weight));
+        var pal_sitting = ((met_sitting - 1) * ((1.15 / 0.9) * activity_sitting) / 1440) / (basicMeta / (0.0175 * 1440 * weight));
+        var pal = 1.1 + pal_intense + pal_moderat + pal_light + pal_standing + pal_sleeping + pal_sitting;
+        */
 
         var activityConstant = pal;
 
+        // Corrections proposed by Morten Zacho
+        var bmi = weight / ((height / 100) * (height / 100));
+	    var TEE;
+    	var correction1;
+    	var correction2;
+	    var correction3;
+	    if (bmi > 30) {
+		    correction1 = Math.sqrt(30) / Math.sqrt(bmi);
+		    correction2 = 30 / bmi;
+		    correction3 = 30 / bmi;
+	    } else {
+		    correction1 = 1;
+		    correction2 = 1;
+		    correction3 = 1;
+	    }
+
+        var factor = (0.03 * activity_sitting + 0.1 * activity_standing + 0.26 * activity_light * correction1 + 0.5 * activity_moderat * correction2 + 0.88 * activity_intense * correction3);
+
+	    // Correction for children
+	    if (weight < 50) {
+	        var weight_correction = (1 + 0.5 * (50 - weight) / 50);
+		    TEE = Math.round(BMR + weight * ((0.03 * activity_sitting + 0.1 * activity_standing + 0.26 * activity_light * correction1 + 0.5 * activity_moderat * correction2 + 0.88 * activity_intense * correction3)) * weight_correction);
+	    } else {		
+		    TEE = Math.round(BMR + weight * ((0.03 * activity_sitting + 0.1 * activity_standing + 0.26 * activity_light * correction1 + 0.5 * activity_moderat * correction2 + 0.88 * activity_intense * correction3)));
+	    }
+	    /*
+	    // Correction for children
+	    if (weight < 50) {
+		    TEE = Math.round(BMR + weight * ((0.03 * timeDialsTimeRemain() + 0.1 * dialsArray[6].dialValue + 0.26 * dialsArray[5].dialValue * correction1 + 0.5 * dialsArray[4].dialValue * correction2 + 0.88 * dialsArray[3].dialValue * correction3)) * (1 + 0.5 * (50 - weight) / 50));
+	    } else {		
+		    TEE = Math.round(BMR + weight * ((0.03 * timeDialsTimeRemain() + 0.1 * dialsArray[6].dialValue + 0.26 * dialsArray[5].dialValue * correction1 + 0.5 * dialsArray[4].dialValue * correction2 + 0.88 * dialsArray[3].dialValue * correction3)));
+	    }
+	    */
+
         var vedligehold = basicMeta * activityConstant;
+
         document.getElementById('pal').value = pal;
         document.getElementById('activity_sitting').value = activity_sitting;
         document.getElementById('bmr').value = basicMeta + " kJ";
         document.getElementById('equilibrium').value = vedligehold + " kJ";
+        document.getElementById('TEE').value = TEE + " kJ";
+        document.getElementById('factor').value = factor;
         return false;
     }
 </script>
 <form class="calculator" id="form1">
     <fieldset>
-        <legend>Avanceret udregning af dit stofskifte, energibehov og ligevægtsindtag baseret på Benedict-Harris.</legend>
+        <legend>Avanceret udregning af dit stofskifte, energibehov og ligevægtsindtag baseret på Schofield (1985).</legend>
         <fieldset>
             <legend>Køn</legend>
             <label for="male" class="radio"><input type="radio" name="sex" value="male" id="male" onclick="this.form.sexHidden.value = 'male';" checked="checked"> Mand</label>
@@ -162,6 +202,14 @@
         <div class="form-group">
             <label for="equilibrium">Stofskifte og ligevægtsindtag på en dag (kJ)</label>
             <input name="equilibrium" id="equilibrium" disabled="disabled">
+        </div>
+        <div class="form-group">
+            <label for="TEE">Korrigeret for vægt og BMI (kJ)</label>
+            <input name="TEE" id="TEE" disabled="disabled">
+        </div>
+        <div class="form-group">
+            <label for="factor">Faktor</label>
+            <input name="factor" id="factor" disabled="disabled">
         </div>
     </fieldset>
 </form>
