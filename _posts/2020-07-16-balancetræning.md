@@ -105,62 +105,6 @@ Det har været meget populært at introducere redskaber som BOSU-bolde og vippeb
 
 **Balancetræning er for alle**. Det handler om, hvordan du tilrettelægger træningen. Måske skal du starte med at få lidt støtte ved fx at holde i en stol eller læne dig op ad væggen. Efterhånden vil balancen blive bedre, og du kan udnytte nogle af de variationsmuligheder, vi har beskrevet i dette indlæg. Selv dygtige balancekunstnere burde finde udfodringer i de lidt mere avancerede udgaver af balanceøvelserne.
 
-<div class="hidden">
-# Kend din træningsform: Balancetræning og balancer
-
-***
-
-#### Fast eller ustabilt underlag
-
-Fast underlag – det typiske i hverdagen og i mange sportsgrene; fundamental balance
-
-Ustabilt underlag – et godt supplement (og relevant for ryttere, roere, sejlere, m.fl.)
-
-#### Forskellig støttepunkter
-
-Begge ben – på tæer, fødder på linje
-
-Et ben – på flad fod eller tæer
-
-Begge hænder – kan trænes op med tålmodighed
-
-På en hånd (!) – en gymnastisk færdighed
-
-På alle fire – med tre eller to støtte punkter; arm og/eller ben løft.
-
-På en kropsdel – hoved (breakdance), bagdel, side, mave (fx på bold)
-
-#### Balance progression og variation
-
-Flere/færre støttepunkter
-–
-Større/mindre støtteflade
-–
-Mere/mindre bevægelse 
-–
-Lukkede/åbne øje (0, 1, 2 åbne øjne)
-–
-Hastighed – hurtigere eller langsom(mere) hastighed ved drejninger
-–
-Forflytning – fx hink i mønstre eller walking lunges med overkropsrotation
-–
-Retning – vending af hele kroppen under øvelser fx 1, 2 eller 3 rotationer
-–
-Antal muskler i bevægelser, fx 1-bens squat med arm- og/eller hovedbevægelse
-–
-Forstyrrelse: Pertubationstræning; en makker fx puffer til én under øvelsen.
-
-***
-
-Inde og ude.
-Med eller uden redskaber.
-I sko eller med bare fødder.
-Bare fødder er bedst og giver ekstra sanseoplevelser (især på forskellige underlag), men da vi i hverdag og fritid har sko på, bør balancetræningen også foregå med sko på.
-
-***
-Z-Health video med demonstration af balancetræning med elastik-stress:
-</div>
-
 # Progression i balancetræningen
 
 Jeg her ret inspireret af Z-health og deres forståelse af balance, og hvordan man kan lave en progression af sin balancetræning. Du kan først lade dig inspirere af disse to videoer (på engelsk) om balancetræning.
@@ -300,112 +244,29 @@ Yoga Tree Pose er en rigtig god balanceøvelse på et ben. Den kan godt være li
 
 **Udgangssstillingen** er at stå på en fod. Gør dig lang, mens du holder hele kroppen i balance. Bøj det frie ben og sæt foden så højt op på standbenets inderlår som muligt. Knæet på det frie ben skal pege udad, så sørg for at åbne op i hoften. Armene strækkes lidge op med håndfladerne mod hinanden. Hold balancen så længe som muligt. Start fx med 20 sekunder, men arbejd op til et minut eller længere. Gentag på det andet ben.
 
-<div class="hidden">
+## Balance og stabilitet med modstand (Pertubationstræning)
 
-# Balance og stabilitet: Pertubationstræning
+[Marina Aagaard](http://marinaaagaardblog.com/2015/05/27/traening-af-balance-og-stabilitet-pertubationstraening/) har skrevet et glimrende indlæg om balancetræning, hvor man skal holde balance i forhold til udefrakommende påvirkninger.
 
-En god balance og stabilitet, evnen til forblive stabil i alle stillinger eller kunne genoprette balancen, hvis man snubler, er væsentligt for alle, unge såvel som ældre. En metode til forbedring af balancen er pertubationstræning.
+En god balance og stabilitet er evnen til at være stabil i alle stillinger og kunne genoprette balancen, hvis man kommer ud af balance.
 
-Pertubation kommer af per- og en afledning af latin turbare, at ‘bringe i uorden, forstyrre’ og har betydningen “mindre, forstyrrende effekt i et fysisk system i ligevægt” (ifølge Den Store Danske).
+**Pertubationstræning** er en udvidet måde at arbejde med sin balance på. Pertubation betyder noget i retning af at 'bringe i uorden og forstyrre', og ifølge Den Store Danske betyder pertubation 'mindre, forstyrrende effekt i et fysisk system i ligevægt'.
 
-Balancetraening_2907540617_7accc242f2_o
-Pertubationstræning
-I traditionel fitness balancetræning træner man typisk ‘lukkede færdigheder’, statiske stillinger og uden udefrakommende påvirkning. For at forbedre (kontrol af) balancen yderligere er det en fordel også at træne ‘åbne færdigheder’, hvor man skal reagere på udefra kommende, eventuelt overraskende, påvirkninger.
+Pertubationstræning er en videreudvikling af andre balanceøvelser, hvor man skal reagere på udefrakommende påvirkninger. En progression i pertubationstræningen kan være, at du efterhånden gør de udefrakommende påvirkninger mere eller mindre overraskende 
 
-En metode er pertubationstræning; “arbejde på ujævnt underlag og udsættes for uventet ydre kraftpåvirkning. [Man] skal reagere hurtigt og funktionelt med kompenserende bevægelse”. (Dansk Sportsmedicin, nr. 2, Maj, 2002).
+Sommetider arbejder man med:
 
-Metoden bruges blandt andet i neuromuskulær træning med henblik på at optræne knæstabilitet fx for at forebygge korsbåndsskader.
+> “arbejde på ujævnt underlag og udsættes for uventet ydre kraftpåvirkning. [Man] skal reagere hurtigt og funktionelt med kompenserende bevægelse”
 
-Pertubationstræning kan indgå i en progression, så man starter med at træne enkle balanceøvelser, på fast underlag og på bevægeligt underlag, med eller uden bevægelse, først uden og siden med forstyrrelser eller overraskelser.
+— <cite>Dansk Sportsmedicin, nr. 2, Maj, 2002</cite>
 
-Eksempler på pertubationsøvelser:
+Der er imidlertid flere udfordringer med at arbejde med ustabile underlag, når man skal arbejde med at forbedre balancen. Her skal vi huske princippet om **specificitet** i træning. Hvis du har brug for balancen på faste underlag, så skal du først og fremmest træne den der. Men her kan du også sagtens arbejde med (overraskende) udefrakommende påvirkninger.
 
-Stå på et ben på gulv. Træner eller ven puffer til person (set eller uset).
-–
-Stå på Terapibræt eller luftpude. Træner træder på luftpuden (set el. uset).
-–
-Stå på BOSU, stor luftpude). Træner træder på BOSU (set el. uset).
-–
-Sid eller knæl på stor bold. Træner puffer til bold eller person (set el. uset).
+Marina Aagaard foreslår bl.a. følgende balanceøvelser efter pertubationsprincippet.
 
-
-# Svære balanceøvelser: Sådan udvikler du din balancetræning
-
-Selvom man ofte starter med statiske balancer og så går videre til dynamiske balancer, er det to områder og en dynamisk balance er ikke nødvendigvis sværere end en statisk.
-Dynamiske balancer omfatter hop og hink (landinger), drejninger og piruetter.
-
-Underlaget kan være forskelligt; det giver også forskellige måder at træne balancen på:
-
-Stabilt underlag (fast, i ro) og Ustabilt underlag (ujævnt, med bevægelse).
-
-I de fleste tilfælde i hverdag og idræt har man behov for at være stabil på fast grund, derfor bør den type balancetræning dominere. For at forbedre stabiliteten og forberede kroppen på varierede miljøer, kan man med fordel supplere med ustabil træning:
-Forberedelse til bus- og togture, gang på rulletrapper og rullende fortove, cykling m.m.
-
-
-
-SÅDAN GØR DU EN BALANCE SVÆRERE
-
-Balancer kan gøres sværere ved at ændre en eller flere faktorer. Eksempler:
-
-Mindre understøttelsesflade: Fra flad fod og op på tæer (se Diver’s balance øverst).
-
-Færre støttepunkter: Fra fire lemmer til 3-2-1: Fra to ben til et ben. Fra to arme til en.
-
-Krop i ro eller aktiv: Stabil kropsstilling eller arme/ben bevæges (fx bensvin på et ben).
-
-Med ydre aktivitet eller objekter: Makker der puffer, jonglering, kaste-/gribeøvelser.
-
-På balanceredskab: Bold, bom, slackline, waveboard, skateboard, (en-hjulet) cykel o.l.
-
-Mindre visuel hjælp: Åbne øjne, et lukket øje eller begge øjne lukkede.
-
- 
-
-Balancer kan være svære, hvis der er fysiske krav ud over god balanceevne:
-
-Styrke: Øvelser, hvor man løfter tung vægt i en vanskelig stilling. PU i fri planke, m.fl.
-
-Eksplosiv styrke: Hop og spring, hvor man skal være stabil i landingerne (og opspring).
-
-Smidighed: T-balancer, vertical split og illusioner (splitdrejning); kræver hoftesmidighed.
-
-# Få Bedre Balance: 7 Metoder til Alsidig Balancetræning
-
-Balancen kan trænes med og uden bevægelse:
-
-Balancen kan desuden trænes med eller uden ydre (udefra kommende) objekt:
-
-Uden noget i hænderne – på gulv eller på (balance)udstyr
-Med noget i hænderne, fx bold (holde selv/gribe kastet bold) eller vægte.
-Balance_BOSU_bold_G6T7253
-Balancen kan trænes på forskellige underlag (og med eller uden sko på):
-
-På fast underlag ? gulvet er et godt sted at starte og relevant i videre træning
-På ustabilt underlag ? på bold, luftpuder, skumruller og vippebrædder o.l.
-Balance_Skumrulle_G6T8710
-Balancen kan trænes med eller uden hjælp fra synet:
-
-Med åbne øjne ? det er funktionelt og relevant
-Med et øje lukket ? påvirker evnen til at balancere og er fint som variation/supplement. Prøv både med højre og venstre øje.
-Med lukkede øjne ? påvirker balanceevnen, som variation/supplement.
-Balancen kan trænes med forskellig kropsstilling:
-
-Stående – på begge ben, fx op på tæer, forskudt (tandem-balance), på et ben.
-På hænder – for de øvede; stående eller gående på hænder.
-Siddende – på gulv eller udstyr som små eller store bolde og luftpuder.
-Støtliggende – i plankestilling på gulv eller på udstyr.
-Liggende – på gulv eller udstyr såsom små eller store bolde og luftpuder.
-Sideplanke_G6T8873
-Balancen kan trænes med forskellig understøttelsesflade:
-
-Med stor eller lille base; smal, mellem, bred fod- og/eller håndstilling.
-På større eller mindre flader; hoved, hænder, fødder, tæer, bagdel etc.
-Balance_paa_Taeer_G6T8876
-Balancen kan trænes med flere eller færre støttepunkter:
-
-Flere støttepunkter, fx fire eller seks; på hænder, knæ og fødder.
-Få støttepunkter, fx et, to eller tre støttepunkter.
-</div>
+- Stå på et ben på gulvet. En ven puffer til dig (set eller uset).
+- Stå på balancebræt eller luftpude. En ven træder på luftpuden eller balancebrættet (set el. uset).
+- Sid eller knæl på stor bold. Træner puffer til bolden eller person (set el. uset).
 
 ## Opsamling på balance og balancetræning
 
