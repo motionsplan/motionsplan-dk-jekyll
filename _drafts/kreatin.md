@@ -1,37 +1,42 @@
 ---
-title: "Kreatin virker og har meget få bivirkninger"
+title: &title "Kreatin: Det bedste og billigste kosttilskud [2020]"
 permalink: /kreatin/
-excerpt: "Kreatin 2019 test - Her er de bedste og billigste kreatin i en nem oversigt i sammenligner priser og hjælper dig med at spare penge"
 language: da
 header:
-  overlay_image: https://c.pxhere.com/photos/e3/ed/dumbbells_training_silver_sports_force_mussels_body_building-600719.jpg!d
-  teaser: https://c.pxhere.com/photos/e3/ed/dumbbells_training_silver_sports_force_mussels_body_building-600719.jpg!d
+  overlay_image: https://images.unsplash.com/photo-1593095948071-474c5cc2989d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
+  teaser: https://images.unsplash.com/photo-1593095948071-474c5cc2989d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  caption: *title
 category:
-  - Styrketræning
+  - Kosttilskud
 tags:
-  - styrketræning
-  - træningsbælte
+  - kreatin
+  - kosttilskud
 last_modified_at: 2019-11-19T23:14:14Z
 toc: true
 feature_row:
-  - image_path: https://shop.getbig.dk/images/large/bodybuilding-dreikampfguertel_LRG.jpg
-    alt: "3 Kamps bælte Professionel kvalitet"
-    title: "3 Kamps bælte Professionel kvalitet"
-    excerpt: "3 Kamps bælte Professionel kvalitet. Dette bælte er lavet i ekstrem robust læder og er MEGET stabil. Det er specielt velegnet for hård styrkeløft, bodybuilding og 3-kamp."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=21411&htmlurl=https://shop.getbig.dk/traeningsbaelte-professionelt"
-    btn_label: "Læs mere"
+  - image_path: https://linuspro.dk/wp-content/uploads/2019/08/purelinuspro-kreatin-400x400.png
+    alt: "LinusPro PURE Kreatin (Neutral, 400g)"
+    title: "LinusPro PURE Kreatin (Neutral, 400g)"
+    excerpt: "100 % mikroniseret kreatin monohydrat. Bidrager til styrkefremgang og muskelvækst. Hjælper din præstation ved høj intensitetstræning."
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=68280&htmlurl=https://linuspro.dk/linuspro-pure-kreatin-neutral-400g/
+    btn_label: "Tjek prisen*"
     btn_class: "btn--success"
-  - image_path: https://www.fotoagent.dk/single_picture/11803/138/custom1/tr%c3%83%c2%a6ningsb%c3%83%c2%a6lte.jpg
-    alt: "Everlast træningsbælte til vægtløft"
-    title: "Everlast træningsbælte til vægtløft"
-    excerpt: "Everlast træningsbælte til vægtløft i sort. Materialet er i ægte læder med blød indvendig polstring. Everlast bæltet yder en optimal støtte ved intens styrkeløft med en bredde på 10 cm og dobbelt spænde til lukning."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/everlast-traeningsbaelte/"
-    btn_label: "Læs mere"
-    btn_class: "btn--success"
+  - image_path: https://www.bodylab.dk/images/products/bodylab-creatine-400g-p.png
+    alt: "Bodylab Kreatin Kapsler (180 stk)"
+    title: "100% rent mikroniseret kreatin. Øger præstationsevne, muskelstyrke og muskelvækst. Et meget veldokumenteret kosttilskud. Den type kreatin, der anvendes i Bodylab Kreatin, er på 200 mesh, hvilket er den fineste kvalitet, der findes."
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/bodylab-kreatin-pulver-188p.html
+    btn_label: "Tjek prisen*"
+    btn_class: "btn--info"
+  - image_path: https://www.helsebixen.dk/shop/media/catalog/product/k/r/kreatin_kapsler-p.jpg
+    alt: "Bodylab Kreatin Kapsler (180 stk)"
+    title: "Bodylab Kreatin Kapsler (180 stk)"
+    excerpt: "Ved indtagelse af kreatin, kan man øge sin muskelmasse og fremme sin præstationevner. Det er meget udbredt blandt top atleter og almindelig mennesker. 180 kapsler kreatin monohydrat af 500 mg."
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/bodylab-kreatin-kapsler-269p.html
+    btn_label: "Tjek prisen*"
+    btn_class: "btn--info"
 ---
 
 Kreatin: Stadig det bedste og billigste kosttilskud i 2020
-
 
 kreatin
 kreatinin
@@ -44,17 +49,61 @@ kreatin kur
 kreatin bodylab
 kreatin piller
 
+Kreatin 2019 test - Her er de bedste og billigste kreatin i en nem oversigt i sammenligner priser og hjælper dig med at spare penge
+
 {% include video provider="youtube" id="ERGpOzZzU3A" %}
 
 
 
-**Kreatin monohydrat** er nok det mest anerkendte og veldokumenterede kosttilskud. Kreatin taget typisk som pulver blandet op i vand, og man kan mig bekendt ikke få det som piller. Og så virker kreatin rent faktisk både på muskelopbygning og din evne til at være ekslosiv flere gange. Kreatin har tilmed ikke nogen reelle bivirkninger.
+**Kreatin monohydrat** er nok det mest anerkendte og veldokumenterede kosttilskud. Kreatin tages typisk som pulver blandet op i vand, men man kan også få kreatin som piller. Og så virker kreatin rent faktisk både på muskelopbygning og din evne til at være ekslosiv flere gange. Kreatin er billigt og har ikke nogen reelle bivirkninger.
+
+En sideeffekt ved kreatin er, at der sker en væskeophobning i kroppen. Den ekstra væske forsvinder, når du stopper med at indtage kreatin. Væskeophobning er den eneste kendte bivirkning, og den er forbigående, mens du indtager kreatin, og det er ikke farligt.
+
+Markedet for kosttilskud er fyldt med forskellige former for kreatin, men det mest testede produkt er kreatin monohydrat. [Maxer](https://maxer.dk/videoer/introduktion-til-kosttilskud-kreatin) skriver, at når der kommer nye former frem, så virker de typisk ikke helt så godt som kreatin monohydrat, men de er til gengæld næsten altid dyrere (se også Kreider et al 2017).
 
 ***
 
-Der sker en væskeophobning i kroppen, men denne væske forsvinder igen når du stopper indtaget af kreatin. Det er så at sige den eneste på nuværende tidspunkt kendte "bivirkning" og den er altså ikke vedvarende, ej heller farlig.
+## Fysiologiske virkning af kreatin
 
-Der findes mange forskellige former for kreatin på kosttilskudsmarkedet, men det mest testede er kreatin monohydrat. Hver gang nye former for kreatin vinder frem, viser det sig, at de ikke er nær så gode som monohydrat, men til gengæld er de næsten altid dyrere [1]
+Hvis du gerne vil tage kreatin er det godt at kende [den fysiologiske virkning af kreatin på kroppen](https://maxer.dk/videoer/kreatin-og-dets-fysiologiske-virkning). 
+
+{% include video provider="youtube" id="ieRA67pwbrk" %}
+
+Jeg har skrevet et længere indlæg om [energisystemerne og aerob og anaerob arbejde]({% link _posts/2019-11-14-energisystemer-101.md %}). I forhold til kreatin, så kigger jeg her på det lynhurtige anaerobe energisystem, hvor processerne foregår uden ilt.
+
+Når man laver højintenst arbejde, så stiger kravet til tilgængeligheden af kroppens energimolekyle ATP med op til 1000 gange sammenlignet med i hvile (Baker et al 2010). De anaerobe processer kan skabe ATP relativt hurtigt, men de er langt fra så effektive som de aerobe processer, hvor der er ilt til stede.
+
+For at lave en **muskelsammentrækning** så har musklerne to proteiner, der er relevante. De hedder aktin og myosin, og jeg har beskrevet dem yderligere i indlægget om, [hvordan en muskel trækker sig sammen]({% link _posts/2020-06-06-muskelsammentraekning.md %}). For at myosin kan få lov til at trække i aktin-proteinet, så skal der bruges ATP.
+
+For at ATP kan give energi, så fraspaltes en af de tre fosfatgrupper fra ATP. Når bindingen brydes, frigives der energi, som i dette tilfælde bliver brugt til en muskelsammentrækning. Men nu har vi ADP tilbage, hvor der kun er to fosfatgrupper.
+
+Når vi så vil genoplade ADP for at skabe ATP igen, så har vi brug for fosfat. Denne genopladning kan ske både i det aerobe system eller i det anaerobe system. 
+
+Det er netop genopladningen af ATP kreatin har sin effekt som kosttilskud. Hvis du indtager kreatin, så øger du mængden af kreatinfosfat (CrP) i musklerne. Når kroppen skal arbejde hårdt igen, så har vi ekstra CrP tilgængeligt i musklerne, hvilket kan være med til at genoplade ATP igen.
+
+## Hvordan hjælper kreatin i praksis
+
+Når der er mere tilgængeligt kreatinfosfat i musklerne, så har du i praksis en øget mængde brændstof klar til det helt eksplosive arbejde. Kreatins positive effekt som kosttilskud er altså primært på det alactacide anaerobe energisystem. Derfor kan du typisk løfte 1-2 gentagelser flere i de enkelte sæt, og du kan måske være eksplosiv 1-2 gange mere, hvis du sprinter.
+
+## Bivirkninger af kreatin
+
+Når du tager kreatin, så ser man også ofte at _lean body mass (LBM)_ eller den fedtfri masse stiger over tid. En stor del af dette skal formentlig tilskrives ophobning af intracellulært væske i musklen, da kreatin binder vand, men også at arbejdskapaciteten øges, så volumen potentielt går op i træningen. Volumen og de ekstra gentagelser kan netop være en driver for, [hvordan muskler vokser og skaber hypertrofi]({% link _posts/2019-10-22-hvordan-vokser-muskler.md %}).
+
+Når man tager kreatin, så er der en akut nedregulering af din egen kreatinproduktion, men kroppen starter med at producere kreatin igen, når du stopper med at tage kreatin som kosttilskud (Branch 2003).
+
+## Hvordan skal jeg tage kreatin?
+
+Det tager mellem 7-21 dage for kroppen at opnå "mættede" niveauer af kreatin afhængigt af om du loader eller ej. For at holde koncentrationen høj bør du indtage kreatin hver dag.
+
+Der er dog nogle som ikke har samme effekt af kreatin som andre, hvilket sandsynligvis skyldes at de har en højere mætning i musklerne naturligt, det kan du læse mere om her.
+
+
+## REFERENCER
+[1] Baker, J. S., McCormick, M. C., & Robergs, R. A. (2010). Interaction among skeletal muscle metabolic energy systems during intense exercise. Journal of Nutrition and Metabolism, 2010.
+
+[2] Branch, J. D. (2003). Effect of creatine supplementation on body composition and performance: a meta-analysis. International Journal of Sport Nutrition and Exercise Metabolism, 13(2), 198-226.
+
+***
 
 ## Hvordan virker kreatin?
 
@@ -104,7 +153,7 @@ Kreatin monohydrat er et nemt og billigt kosttilskud, hvis effekter er veldokume
 
 ## Referencer
 
-[1] Kreider, R. B., Kalman, D. S., Antonio, J., Ziegenfuss, T. N., Wildman, R., Collins, R., ... & Lopez, H. L. (2017). International Society of Sports Nutrition position stand: safety and efficacy of creatine supplementation in exercise, sport, and medicine. Journal of the International Society of Sports Nutrition, 14(1), 18.
+Kreider, R. B., Kalman, D. S., Antonio, J., Ziegenfuss, T. N., Wildman, R., Collins, R., ... & Lopez, H. L. (2017). International Society of Sports Nutrition position stand: safety and efficacy of creatine supplementation in exercise, sport, and medicine. Journal of the International Society of Sports Nutrition, 14(1), 18.
 
 [2] Branch, J. D. (2003). Effect of creatine supplementation on body composition and performance: a meta-analysis. International journal of sport nutrition and exercise metabolism, 13(2), 198-226.
 
@@ -118,11 +167,13 @@ Du kan finde rigtig mange guides med sammenligninger mellem kreatin fra forskell
 
 Jeg har stadig ikke set nogen guide, der kan fortælle dig andet end **hvad det billigste kreatin er?**. Det er jo heldigvis let at teste, fordi man bare kan kigge på prisen.
 
-Hvis alle de sites skulle teste **"hvem der laver det bedste kreatin?"** så skulle de have adgang til et laboratorium. Det er der så vidt jeg ved ikke nogen danske sites, der har adgang til at kunne få testet kreatin i laboratorier, så derfor giver det ikke mening, at de foregiver at vide, hvad det bedste kreatin pulver er?
+Hvis alle de sites skulle teste **"hvem der laver det bedste kreatin?"**, så skulle de have adgang til et laboratorium. Det er der så vidt jeg ved ikke nogen danske sites, der har adgang til at kunne få testet kreatin i laboratorier, så derfor giver det ikke mening, at de foregiver at vide, hvad det bedste kreatin pulver er?
 
 Når du kigger efter **det bedste kreatinpulver**, så skal du kigge efter **kreatin monohydrat**. Jeg foreslår, at du køber kreatin fra en dansk forhandler, som du stoler på. 
 
-**Kreatin er virkelig billigt**, så du kan ikke gå helt galt i byen. Jeg køber normalt selv fra danske [bodylab.dk\*](), som har et god ry. Hvis du gerne vil støtte Motionsplan, så får vi kommision, hvis du køber fra nogle af vores samarbejdspartnere.
+**Kreatin er virkelig billigt**, så du kan ikke gå helt galt i byen. Jeg køber normalt selv fra danske [bodylab.dk\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/cms-search.html?Keyword=kreatin), som har et god ry og som mange anbefaler, og som mange firmaer sælger. Jeg kan inddrage dig i en hemmelighed. Bodylab giver også den største kommision på affiliate salg.
+
+Hvis du gerne vil støtte Motionsplan, så får vi kommision, hvis du køber fra nogle af vores samarbejdspartnere.
 
 ***
 
@@ -265,6 +316,8 @@ Der er ingen forskel på om du tager kreatin som piller/kapsler eller som pulver
 ### Kan man blande proteinpulver og kreatin?
 
 Ja det må man godt. Faktisk er det er ret smart fordi kreatin optages bedst hvis det bliver optaget sammen med kulhydrater for at stimulerer frigørelsen af insulin.
+
+***
 
 # Den mest dybdegående artikel om kreatin der findes på dansk
 

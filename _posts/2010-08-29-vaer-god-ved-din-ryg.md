@@ -1,10 +1,11 @@
 ---
-title: "Vær god ved din ryg"
-permalink: /artikel/vaer-god-ved-din-ryg
+title: &title "Vær god ved din ryg"
+permalink: /artikel/vaer-god-ved-din-ryg/
 language: da
 header:
   overlay_image: /assets/images/blog/vaer-god-ved-din-ryg.jpg
   teaser: /assets/images/blog/vaer-god-ved-din-ryg.jpg
+  caption: *title
 tags:
   - træning
   - ryggen
@@ -18,11 +19,19 @@ feature_row:
     title: "Low Back Disorders - Evidence-Based Prevention and Rehabilitation af Stuart Mcgill"
     excerpt: "Low Back Disorders - Evidence-Based Prevention and Rehabilitation af Stuart Mcgill"
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/low-back-disorders_stuart-mcgill_hardback_9781450472913"
-    btn_label: "Læs mere"
+    btn_label: "Tjek prisen*"
     btn_class: "btn--success"
 ---
 
-Ondt i ryggen er en folkesygdom.
+Ondt i ryggen er en folkesygdom, og der er mange råd til, hvad man skal gøre for at undgå at få ondt i lænden og passe på sin ryg.
+
+Grundlæggende så mener jeg ikke, at man skal være bekymret for sin ryg. Ryggen er ikke nogen svag struktur. Ryggen er midlertid omgivet af nogle virkelig stærke muskler og strukturer, som skal bruges, bevæges og trænes.
+
+Man hører ofte råd i forhold til løfteteknik, at man skal "løfte med benene", men hvis man følger det råd, så ender man formentlig med at løfte på en måde, hvor kroppen ikke er stærkest muligt.
+
+Det er formentlig meget mere effektivt at sørge for, at man både løfter med benene, balderne og ryggen.
+
+Man hører også ofte, at "det er farligt for ryggen", hvis du løfter sådan, eller "pas nu på ryggen". Men faktisk ser det **ikke ud til at der er en direkte sammenhæng mellem løfteteknik og rygsmerter**. Risikoen forbundet med [løfteteknik er formentlig blevet overdrevet]().
 
 ## 4 gode råd til at undgå ondt i ryggen
 

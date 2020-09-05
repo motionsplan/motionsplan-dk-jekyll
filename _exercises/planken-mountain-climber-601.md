@@ -1,6 +1,5 @@
 ---
 title: "Planken, mountain climber"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/planken-mountain-climber/
 redirect_from: /node/601
@@ -49,5 +48,3 @@ gallery:
     title: "Planken, mountain climber"
 last_modified_at: 2014-10-12T22:17:36Z
 ---
-
-
