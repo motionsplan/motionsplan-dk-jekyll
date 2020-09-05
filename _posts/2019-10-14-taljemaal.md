@@ -16,13 +16,13 @@ last_modified_at: 2020-07-06T23:14:14Z
 toc: true
 ---
 
-Taljemål og hoftemål kan være en let måde at sige noget om fedtfordelingen på din krop. Studier har vist en sammenhæng mellem taljemål og hoftemål og risiko for livsstilssygdomme. Jeg har researchet hvilke forskellige taljemål og hoftemål, der findes.
+Taljemål og hoftemål kan være en let måde at sige noget om fedtfordelingen på din krop. Studier har vist, at der er en sammenhæng mellem taljemål, hoftemål og højden og risiko for livsstilssygdomme. Jeg har researchet hvilke forskellige taljemål og hoftemål, der findes.
 
 *[WHR]: Waist/Hip-ratio
 
-Jeg har fundet frem til tre forskellige mål, hvor taljen er med til at sige noget om man er undervægtig eller overvægtig og i risiko for livsstilssygdomme.
+Jeg har fundet frem til tre forskellige taljemål, hvor størrelsen på taljen er med til at sige noget om ens kropsfacon, om man er undervægtig eller overvægtig, og om man er i risiko for at få livsstilssygdomme.
 
-Typer af taljemål:
+Typer af taljemål og hoftemål:
 
 - **Taljemål**. Taljemålet kan indikere noget om ens risiko for sygdomme.
 - **Talje-højde-ratio**. Når man medtager højden, så får man en mere retfærdig vurdering af taljemålet. Det er klart at høje personer sandsynligvis vil have en større talje.
@@ -42,7 +42,9 @@ Taljemålet er et af de enkleste mål for om man er overvægtig. Flere studier v
 
 Taljemålet er særligt relevant, fordi fedtet omkring maven giver øget risiko for sygdomme. I forbindelse med træning er taljemålet også et bedre mål for fedttab end vægt og BMI. Man kan nemlig godt blive tungere af træning, fordi man øger muskelmassen, men hvis man taber fedt, vil taljemålet formentlig falde.
 
-## Hvordan måles taljemålet
+## Hvordan måles taljemålet?
+
+Hvordan måler du taljen? Og hvor måler man taljen?
 
 - Stå i stående afslappet tilstand.
 - Sæt målebåndet omkring 2 cm over navlehøjde. 
@@ -55,6 +57,8 @@ Hvis du er i tvivl, kan du også mærke dig frem til punktet, som på siden af k
 ### Normalværdier for taljemålet
 
 Studier med taljemål har vist, at man kan have forøget risiko for kredsløbssygdomme, hvis ens taljemål er højt.
+
+I denne tabel er der taljemål for kvinder og mænd i forhold til risikoen for livsstilssygdomme.
 
 |         | Let forøget risiko | Forøget risiko |
 |---------|--------------------|----------------|
@@ -94,7 +98,7 @@ Et andet meget brugt mål er talje/hofte-ratioen, som jeg også godt kan lide, d
 
 Wikipedia skriver om talje-hofte-ratioen:
 
-> **Talje-hofte forholdet**, **talje-hofte målet**, **æble-pære indekset** (**talje-hofte ratio** (**THR**) er en måde at beskrive forholdet mellem talje- og hoftevidden. Forholdet måler proportionen af fedt deponeret forskellige stedet på kroppen. Der er også kraftige indicer på at nogle bestemte mål opfattes som specielt attraktive hos det modsatte køn og for kvinder indikere en mærkbar højere frugtbarhed.
+> **Talje-hofte forholdet**, **talje-hofte målet**, **æble-pære indekset** eller **talje-hofte ratio** (**THR**) er en måde at beskrive forholdet mellem talje- og hoftevidden. Forholdet måler proportionen af fedt deponeret forskellige stedet på kroppen. Der er også kraftige indicer på at nogle bestemte mål opfattes som specielt attraktive hos det modsatte køn og for kvinder indikere en mærkbar højere frugtbarhed.
 
 — <cite>[Wikipedia](https://da.wikipedia.org/wiki/Talje-hofte_forhold)</cite>
 
@@ -102,22 +106,28 @@ Ratioen mellem taljemålet og hoftemålet er en indikator på sundhed. Relatione
 
 {% include figure image_path="https://www.hellodoctor.co.za/wp-content/uploads/2013/12/Body-shapes.jpg" caption="Pæreformet og æbleformet" alt="Talje mål og hoftemål kan via talje-hofte-ratioen siger noget om fedtfordelingen" %}
 
-Hvordan måles taljemålet og hoftemålet til brug for talje-hofte-ratioen?
+Hvordan måles taljemålet og hoftemålet som bruges til talje-hofte-ratioen, og hvor måler man hoften?
 
 - Personen skal stå oprejst
 - Mål omkredsen af taljen ved midtpunktet på siden mellem nederste punkt at nederste ribben og øverste punkt af hoftekammen.
 - Hoften måles ved det den største omkreds ved hoften.
 
+Du kan se mere i denne video om, hvordan man måler taljemålet og hoftemålet:
+
 {% include video provider="youtube" id="gUJXbTl4qzg" %}
 
-### Normalværdier for talje-hofte-målet
+### Normalværdier for talje-hofte-målet for mænd og kvinder
 
-Normalværdierne for WHR er følgende. Hvis du har højere værdier, så kan du være i en forhøjet risikogruppe for livsstilssygdomme.
+Normalværdierne for WHR er følgende.
+
+Hvis du har højere værdier, så kan du være i en forhøjet risikogruppe for livsstilssygdomme.
 
 |         | WHR     |
 |---------|---------|
 | Mænd    | > 1,0   |
 | Kvinder | > 0,8   |
+
+Jeg har ikke kunnet finde, hvad hoftemål for kvinder og mænd er i gennemsnit, men hvis du har disse data, så skriv endelig i kommentarerne.
 
 ## Opsamling på taljemål, talje/højde-ratio og hoftemål
 

@@ -3,12 +3,12 @@ title: "Kompressionsstrømper: Virker de på præstation og restitution til løb
 permalink: /artikel/virker-kompressionsstroemper/
 redirect_from:
   - /artikel/kompressionsstroemper-en-god-ide
-excerpt: "Kompressionsstrømper foretrækkes af flere og flere løbere og cykelryttere, men hvad er effekten og virker kompressionsstrømper på præstationsevnen og restitutionen til løb og cykling - og er der bivirkninger ved kompressionsstrømper?"
+excerpt: "Kompressionsstrømper foretrækkes af flere og flere løbere og cykelryttere, men hvad er effekten og virker kompressionsstrømper på præstationsevnen og restitutionen til løb og cykling? Og er der bivirkninger ved at bruge kompressionsstrømper?"
 language: da
 header:
   overlay_image: /assets/images/blog/kompressionsstroemper-en-god-ide.jpg
   teaser: /assets/images/blog/kompressionsstroemper-en-god-ide.jpg
-  caption: "Virker kompressionsstrømper?"
+  caption: "Virker kompressionsstrømper til cykling og løb?"
 category:
   - Kondition
   - Løb
@@ -26,7 +26,7 @@ feature_row:
   - image_path: https://www.billigsport24.dk/media/catalog/product/cache/1/image/17f82f742ffe127f42dca9de82fb58b1/6/1/6150_compression_calf_profcare_neoprene_kinesiological_effect_pl.jpg
     alt: "Seger kompressionsløbestrømper - kompressionsstrømper der virker"
     title: "Seger Kompressionsstrømper til Løb"
-    excerpt: "Segers kompressionsløbestrømper giver den optimale blodgennemstrømning i underbenet, hvilket giver dig mange fordele, når du løber. Til orientering har jeg kun set studier på CEPs kompressionsstrømper."
+    excerpt: "Segers kompressionsløbestrømper giver den optimale blodgennemstrømning i underbenet. Løbestrømper med kompression giver dig mange fordele, når du løber. Til orientering har jeg kun set studier på CEPs løbestrømper med kompression."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=9397&htmlurl=https://www.billigsport24.dk/seger-compression-lobestromper-2-par-326708"
     btn_label: "Tjek pris*"
     btn_class: "btn--success"
@@ -43,11 +43,15 @@ feature_row_bike:
     title: "Sensor Compress - Kompressionsstrømper cykelstrømper der virker"
     excerpt: "Kompressionsstrømperne fra Sensor stimulere blodcirkulationen og får musklernes regeneration til at foregå hurtigere. Cykelstrømperne er udviklet med en anatomisk svang, samt forstærket tå og hælområde. Derudover modvirker de trætte ben og giver foden en bedre støtte."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=16446&htmlurl=https://www.cykelpartner.dk/sensor-compress---kompressions-cykelstroemper---sortblaa---str-6-8--39-42"
-    btn_label: "Tjek pris"
+    btn_label: "Tjek pris*"
     btn_class: "btn--success"
 ---
 
-Man har i mange år brugt kompressionstøj som behandling af folk med dårligt blodomløb i benene, men nu er kompressionstøj ved at vinde indpas i træningsverden. Flere og flere trænende håber at shorts, tights, kompressionsstrømper og fuldkropsdragte kan hjælpe på muskelpræstationen, lodret hoppehøjde, muskeltræthed, gentagne sprint præstationer, restitution og nedsat muskelømhed.
+Man har i mange år brugt kompressionstøj som behandling af folk med dårligt blodomløb i benene, men nu er kompressionstøj ved at vinde indpas i træningsverden.
+
+Flere og flere trænende håber at shorts, tights, kompressionsstrømper og fuldkropsdragte kan hjælpe på muskelpræstationen, lodret hoppehøjde, muskeltræthed, gentagne sprint præstationer, restitution og nedsat muskelømhed.
+
+Jeg vil i dette indlæg primært koncentrere mig om kompressionsstrømper.
 
 Hvad er kompressionsstrømper? **Kompressionsstrømper sælges både med og uden dokumenteret medicinsk effekt. Når man taler om kompressionsstrømper til løb og cykling, så har de typisk _ikke_ medicinsk testede med dokumenteret effekt.** 
 
@@ -56,7 +60,7 @@ Hvad er kompressionsstrømper? **Kompressionsstrømper sælges både med og uden
 
 ## Hvordan virker kompressionsstrømper til løb og cykling?
 
-Kompressionsstrømper har vundet størst indpas. Flere og flere løbere er begyndt at bruge kompressionsstrømper for at forbedre deres præstation. Producenterne af disse strømper lover:
+Kompressionsstrømper til løb har vundet størst indpas. Flere og flere løbere er begyndt at bruge kompressionsstrømper for at forbedre deres præstation. Producenterne af løbestrømper med kompression lover at:
 
 - forbedret venepumpefunktion, så blodet lettere kommer tilbage til hjertet
 - musklerne vibrerer mindre ved landingerne, hvilket skulle mindske trætheden
@@ -87,7 +91,7 @@ Kompressionsstrømper kan altså være med til at forbedre det venøse tilbagel�
 
 Du kan på [Sundhed.dk](https://www.sundhed.dk/borger/patienthaandbogen/hud/sygdomme/diverse/kompressionsstroemper/) læse mere om, hvad de forskellige grader af kompressionsstrømper betyder i forhold til sygdom; overfladiske åreknuder, åreforkalkning, venøs insufficiens og lymfødem, hvilket er uden for dette indlægs ramme.
 
-### Hvordan virker kompressionsstrømper for raske mennesker under løb
+### Hvordan virker løbestrømper med kompression for raske mennesker til løb?
 
 Jeg har ikke kunnet finde så mange studier af raske mennesker og kompressionsstrømper. Berry og McMurray (1987) viste med løb, at kompressionsstrømper ikke forbedrer den maskimale iltoptagelse (VO2-max), men resultererede i at mælkesyren i blodet efter træningen var lavere, end kontrolgruppen uden strømper.
 
@@ -137,7 +141,7 @@ I forhold til skinnebensbetændelse er der desværre ikke nogen let, sikker kur.
 
 ## Kan det betale sig at købe et par kompressionsstrømper til løb?
 
-Hvis man synes, at man har råd til strømperne, ser det ud til, at det kan være en fordel at bruge strømperne - især i restitutionsfasen.
+Hvis man synes, at man har råd til løbestrømper med kompression, ser det ud til, at det kan være en fordel at bruge kompressionsstrømper - især i restitutionsfasen efter løbeturerne.
 
 ## Kompresssionsstrømper og cykling
 
@@ -151,7 +155,7 @@ Det er jo interessant, at kompressionsstrømper også kan virke for cyklister, m
 
 {% include feature_row type="left" id="feature_row_bike" %}
 
-## Hvad skal jeg kigge efter for at det virker?
+## Hvad skal jeg tænke over, når jeg køber kompressionsstrømper?
 
 Strømperne skal købes efter størrelse på læggen, ikke skostørrelsen. Du bør derfor købe dem et sted, hvor de ved dette og ikke bare kigger efter din skostørrelse. Det første de skal tænke er: hvor er målebåndet, så jeg kan måle din læg.
 
@@ -167,7 +171,7 @@ Jeg har ledt hele litteraturen igennem og søgt rundt på nettet, men det er ikk
 
 Jeg kan selv godt sommetider opleve lidt ubehag, hvis jeg har dem på længe fx i et fly, hvor jeg får lyst til at tage dem af, fordi de presser. Men det er jo netop hele pointen med kompressionsstrømpen, at den skal mindske hævelsen.
 
-## Hvad mangler vi svar på?
+## Hvad mangler vi svar på med kompressionsstrømper?
 
 Hvis du kender mere forskning, så skiv gerne, hvad du ved i kommentarerne. Vi savner stadig noget i den eksisterende litteratur:
 

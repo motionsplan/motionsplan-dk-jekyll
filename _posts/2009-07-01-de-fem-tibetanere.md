@@ -1,11 +1,11 @@
 ---
-title: "De fem tibetanere: Komplet guide til de 5 yoga riter [2020]"
+title: "De fem tibetanere: Komplet guide til de 5 yoga øvelser"
 permalink: /artikel/de-fem-tibetanere/
 language: da
 header:
   overlay_image: /assets/images/blog/de-fem-tibetanere.jpg
   teaser: /assets/images/blog/de-fem-tibetanere.jpg
-  caption: "De fem tibetanere: 5 yoga riter"
+  caption: "De fem tibetanere: 5 tibetanske yoga øvelser og riter"
 tags:
   - yoga
   - træning
@@ -17,7 +17,7 @@ feature_row:
   - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/1000x/9df78eab33525d08d6e5fb8d27136e95/d/e/de-fem-tibetanere-1.jpg
     alt: "De 5 tibetanere"
     title: "Peter Kelder - de fem tibetanere (bog 1)"
-    excerpt: "Den gamle hemmelighed om ungdommens kilde. Denne bog om 5 gamle tibetanske kropsøvelser har gået sin sejrsgang over det meste af den vestlige verden. Den har indtil nu solgt i over 2 millioner eksemplarer bare i Tyskland og USA. Du lærer her fem enkle øvelser, som giver fornyet livskraft og velvære. Øvelserne er lette at udføre, og du bestemmer selv, hvor megen tid du vil bruge på dem. "
+    excerpt: "Den gamle hemmelighed om ungdommens kilde. Denne bog om 5 gamle tibetanske kropsøvelser har gået sin sejrsgang over det meste af den vestlige verden. Bogen har indtil nu solgt i over 2 millioner eksemplarer bare i Tyskland og USA. Du lærer her fem enkle øvelser, som giver fornyet livskraft og velvære. Yogaøvelserne er lette at udføre, og du bestemmer selv, hvor megen tid du vil bruge på dem. "
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-bog-1"
     btn_label: "Tjek prisen*"
     btn_class: "btn--success"
@@ -95,13 +95,13 @@ Du kan nu komme i gang med at udføre de fem tibetanere.
 
 Tibetanske munke lavede øvelserne taget fra yoga for at holde sig evigt unge, og det er vi jo nogle stykker, der gerne vil. Derfor var det også herligt, at Oberst Bradford førte disse øvelser til vesten. Han bragte bl.a. øvelserne videre til vennen Peter Kelder, som i slutningen af 1930'erne skrev bogen: [De Fem Tibetanere](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-bog-1).
 
-Jeg anbefaler dig helt klart at læse de to bøger, hvis du vil dykke ned i hele historien og baggrunden for, hvorfor øvelserne er blevet så kendte og populære.
+Jeg anbefaler dig helt klart at læse de to bøger, hvis du vil dykke ned i hele historien og baggrunden for, hvorfor de fem tibetanske øvelser er blevet så kendte og populære.
 
 {% include gallery id="feature_row" layout="half" caption="Peter Kelders bøger om De fem tibetanere." %}
 
 Men nu til det vigtigste: Hvordan laver man de fem tibetanere?
 
-Baggrunden for de fem tibetanere og hvordan de udføres forklares udemærket i den her lidt ældre video fra Youtube:
+Baggrunden for de øvelserne i de fem tibetanere, og hvordan de udføres forklares udemærket i den her lidt ældre video fra Youtube:
 
 {% include video provider="youtube" id="x2lOypwVfKo" %}
 
@@ -135,15 +135,15 @@ Har du udfordringer med en af øvelserne, anbefaler jeg, at du laver så mange d
 
 <a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=37797" target="_blank" rel="nofollow noopener"><img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=37797" border="0" alt=""></a>
 
-## Hvordan udføres de fem riter?
+## Hvordan udføres de fem tibetanske riter?
 
 Jeg beskriver og illustrerer med billeder i dette afsnit, hvordan du skal udføre de fem tibetanere.
 
 Først kan du se nogle simple tændstikmænd, der illustrerer øvelserne:
 
-{% include gallery caption="Animation af de fem tibetanere fra [Wikipedia](https://en.wikipedia.org/wiki/Five_Tibetan_Rites#Sixth_Rite)" %}
+{% include gallery caption="Animation af de 5 tibetanske øvelser fra [Wikipedia](https://en.wikipedia.org/wiki/Five_Tibetan_Rites#Sixth_Rite)" %}
 
-Jeg har først udvalgt to videoer fra Youtube, hvor danske yogainstruktører forklarer de fem tibetanere. Du kan prøve at klikke på begge to for at se, hvilken instruktør, du helst vil have til at forklare øvelserne.
+Jeg har først udvalgt to videoer om de fem tibetanere fra Youtube, hvor danske yogainstruktører forklarer de fem yogaøvelser og sammenhængen mellem riterne. Du kan prøve at klikke på begge to for at se, hvilken instruktør, du helst vil have til at forklare øvelserne.
 
 Yogainstruktøren, Brian Dernje Nielsen, **forklarer og viser øvelserne i denne video**, hvor der er lidt yogamusik til øvelserne også.
 
@@ -157,7 +157,7 @@ Jette Weimar, som også er yogainstruktør, forklarer de fem riter behageligt og
 
 Hvis du hellere vil have øvelserne **illustreret** og gennemgået på skrift, så læs videre.
 
-{% include figure image_path="https://www.enlightened-consciousness.com/wp-content/uploads/2019/07/dreamstime_s_130021652.jpg" caption="Illustration af de fem tibetanere" alt="Illustration af de 5 tibetanere - 5 riter" %}
+{% include figure image_path="https://www.enlightened-consciousness.com/wp-content/uploads/2019/07/dreamstime_s_130021652.jpg" caption="Illustration af de fem tibetanere" alt="Illustration af de 5 tibetanere - 5 riter - 5 tibetanske øvelser" %}
 
 Øvelserne i de fem tibetanere bliver kaldt for riter. Jeg har her lavet en kort beskrivelse af de 5 riter.
 
@@ -215,7 +215,7 @@ Det her er en rigtig god PDF, som du kan downloade og udskrive, så du hjemme se
 
 {% include gallery id="yogastream" caption="YogaStream er et online yogaunivers med over 1000 yoga- og meditationsvideoer. Du bliver guidet af dygtige og erfarne instruktører lige når det passer dig. Få den [første måned gratis gennem vores link*](http://motionsplan.yogastream.dk)." %}
 
-### Video af tibetanerne
+### Video af tibetanerne på Youtube
 
 Hvis du er til en ret dynamisk gennemgang af øvelserne med markant yogamusik, så gennemgår yogainstruktøren, Helle "Dayal Kaur" Nissen øvelserne i denne video:
 
@@ -229,7 +229,7 @@ Hvis du foretrækker at se øvelserne på DVD, så kan du købe dem her:
 
 ## Hvordan skal jeg trække vejret?
 
-Vejrtrækningen i de fem tibetanere er en vigtig del af øvelserne. Derfor bør du læse øvelsesbeskrivelserne grundigt, så du ved hvordan du skal trække vejret, mens du udfører øvelserne.
+Vejrtrækningen i de fem tibetanere er en vigtig del af øvelserne. Derfor bør du læse øvelsesbeskrivelserne grundigt, så du ved hvordan du skal trække vejret, mens du udfører de tibetanske riter.
 
 Vejrtrækningen har i det hele taget større betydning, når vi gennemfører øvelser.
 
@@ -275,7 +275,7 @@ I de næste par afsnit dykker jeg lidt ned i historien bag de fem tibetanere. De
 
 Hemmeligheden om _ungdommens kilde_ var i mange tusind år forbeholdt de tibetanske munke.
 
-### Opdagelsen af de tibetanske øvelser
+### Opdagelsen af de fem tibetanske øvelser
 
 Nogle år før sin pension var Oberst Bradford under sin tjeneste i Hans Majestæts diplomatiske korps udstationeret i Indien. Her hørte han første gang om, at tibetanske munke fra fjerne dele af Himalaya skulle kende ungdommens kilde. De indfødte fortalte om mænd, der havde besøgt klosteret, var kommet hjem med genvundet sundhed, styrke, kraft og energi.
 
@@ -319,11 +319,13 @@ Jeg er lige ved at dykke ned videnskaben i forhold til om der findes videnskabel
 
 ## Hvorfor er der 5 tibetanere?
 
-Jeg har ikke kunnet finde et definitivt svar på, hvorfor det er endt med 5 tibetanere. Det mest sandsynlige er nok, at det er et godt tal.
+Jeg har ikke kunnet finde et definitivt svar på, hvorfor det er endt med 5 tibetanere. Det mest sandsynlige er nok, at det er et godt tal. Der er mange der søger på: "de syv tibetanere" eller "de 7 tibetanere øvelser"
 
 ## Hvad er den sjette tibetaner?
 
-I den anden bog om De fem tibetanere beskrives en sjette tibetaner, som dog ikke beskrives så ofte. Måske fordi Peter Kelder i bogen skriver: 
+I den anden bog om De fem tibetanere beskrives en sjette tibetaner, som jeg ikke har kunnet finde så mange referencer til.
+
+Måske fordi Peter Kelder i bogen skriver om den sjette tibetanske rite: 
 
 > **"It should be practiced only when you feel an excess of sexual energy..."**
 
@@ -341,7 +343,7 @@ Hvis det er sket for dig, at du overskydende seksuel energi, så kan du følge b
 
 <a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=72081" target="_blank" rel="nofollow noopener"><img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=72081" border="0" alt=""></a>
 
-## Er de fem tibetanere for dig?
+## Er de fem tibetanske riter for dig?
 
 Hvis det er rigtigt, at de fem tibetanere normaliserer hormonelle ubalancer i kroppen, så bør alle mennesker jo lave dem.
 
@@ -355,7 +357,7 @@ Vi har et andet indlæg her på sitet, der handler om [Mindfulness meditation]({
 
 {% include gallery id="yogastream" caption="YogaStream er et online yogaunivers med over 1000 yoga- og meditationsvideoer. Du bliver guidet af dygtige og erfarne instruktører lige når det passer dig. Få den [første måned gratis gennem vores link*](http://motionsplan.yogastream.dk)." %}
 
-## Anbefalinger
+## Anbefalinger for de 5 tibetanske riter
 
 {% include feature_row id="wallsticker" type="left" %}
 
