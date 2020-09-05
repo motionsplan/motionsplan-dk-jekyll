@@ -27,20 +27,22 @@ Denne test af armstrækninger fra "The Canadian Standardized Test of Fitness" vu
 
 ## Test af armstrækninger
 
-Beregneren gælder for 15-69 årige.
+Beregneren gælder for 15-69 årige, og den er baseret på beregneren fra [exrx.net](https://exrx.net/Calculators/PushUps). Umiddelbart virker kategoriseringen lidt hård, og hvis du gerne vil have mere ros, så skal du bruge beregneren på [health-calc.om](http://health-calc.com/exercise/push-up-test).
 
 {% include calculator-pushup.html %}
 
+Husk at dine resultater er negativt korreleret med kropsvægten. Hvis du er tungere, så kan du formentlig lave færre armstrækninger, men når du sammenligner med gennemsnittet er du måske stærkere, fordi du løfter mere vægt.
+
 ## Teknik for armstrækningerne
 
-## Mænd
+### Mænd
 
 - tæerne på fødderne
 - ben, hofter, ryg og nakke er lige
 - testlederen placerer sin knytnæve under testpersonens bryst (jeg har konstrueret nogle standardiserede plader og kigger efter om der er kontakt)
 - testpersonens bryst skal røre knytnævnen her gang
 
-## Kvinder
+### Kvinder
 
 - knæene i gulvet
 - hofter, ryg og nakke er lige
