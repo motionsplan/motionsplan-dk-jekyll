@@ -1,5 +1,5 @@
 ---
-title: "Solhilsen A og B: Komplet guide til solhilsen [2020]"
+title: "Solhilsen A og B: Komplet guide til solhilsen [2020] 🧘"
 permalink: /artikel/solhilsen-a-b-surya-namaskar/
 language: da
 header:

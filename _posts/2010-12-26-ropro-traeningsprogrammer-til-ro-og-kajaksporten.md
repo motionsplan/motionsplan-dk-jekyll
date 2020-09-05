@@ -1,5 +1,5 @@
 ---
-title: "Ro: 10 intervaller og træningsprogram til indendørs romaskine"
+title: "10 intervaller og træningsprogram til indendørs romaskine 🚣"
 permalink: /artikel/traeningsprogrammer-intervaller-roning/
 redirect_from:
   - /artikel/ropro-traeningsprogrammer-til-ro-og-kajaksporten

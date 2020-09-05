@@ -1,5 +1,5 @@
 ---
-title: "Find dit kondital med en vilkårlig løbedistance"
+title: "Find dit kondital med en vilkårlig løbedistance 🏃"
 permalink: /kondital-loeb/
 excerpt: "I denne beregner kan du indtaste en vilkårlig løbedistance og tiden og få et estimeret kondital."
 language: da

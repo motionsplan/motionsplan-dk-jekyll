@@ -1,5 +1,5 @@
 ---
-title: &title "Liste over sportsgrene, idræt og motion"
+title: &title "Liste over sportsgrene, idræt og motion ⚽️🏀🥋🏓 [2020]"
 permalink: /sportsgrene-liste/
 language: da
 header:

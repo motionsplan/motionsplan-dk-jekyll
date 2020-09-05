@@ -1,5 +1,5 @@
 ---
-title: "Hvad er reglerne til styrkeløft og powerlifting?"
+title: "Hvad er reglerne til styrkeløft og powerlifting? 🏋️‍♀️"
 permalink: /powerlifting-rules/
 slanguage: da
 header:

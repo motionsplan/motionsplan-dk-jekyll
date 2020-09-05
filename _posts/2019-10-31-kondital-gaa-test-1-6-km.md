@@ -1,5 +1,5 @@
 ---
-title: "1,6 km gå-test: Find dit kondital med Rockports gåtest"
+title: "1,6 km gå-test: Find dit kondital med Rockports gangtest 🚶‍"
 permalink: /gaatest/
 excerpt: "Rockports 1,6 km gåtest er en submaksimal gangtest til at estimere konditallet ud fra tiden det tager at gennemføre testen. Testen er særligt velegnet for utrænede, folk i dårlig form, ældre og overvægtige."
 language: da

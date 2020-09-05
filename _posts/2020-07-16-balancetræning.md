@@ -1,5 +1,5 @@
 ---
-title: &title "Balancetræning: Effektiv træning af din balance [2020]"
+title: &title "Balancetræning 🤸: Effektiv træning af din balance [2020]"
 permalink: /balance/
 language: da
 header:

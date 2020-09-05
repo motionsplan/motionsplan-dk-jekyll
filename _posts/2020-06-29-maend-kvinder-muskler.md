@@ -1,11 +1,11 @@
 ---
-title: "Er der forskel på mænds og kvinders muskler? [2020]"
+title: "Er der forskel på mænds og kvinders muskler? 💪 [2020]"
 permalink: /maend-kvinder-muskler/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1434682881908-b43d0467b798?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2106&q=80
   teaser: https://images.unsplash.com/photo-1434682881908-b43d0467b798?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
-  caption: Mænd og kvinders muskler. Photo by Steven Lelham on Unsplash
+  caption: "Forskel på mænd og kvinders muskler"
 category:
   - Viden om
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Find dit kondital ud fra din puls"
+title: "Find dit kondital ud fra din puls 💗"
 permalink: /kondital-fra-puls/
 excerpt: "Danske forskere har udviklet en konditionstest, hvor du kun skal bruge din hvilepuls og maxpuls."
 language: da

@@ -1,5 +1,5 @@
 ---
-title: "6 minutters gå-test: Gangtest til at finde kondital for ældre mennesker"
+title: "6 minutters gå-test: Gangtest til kondital for ældre mennesker 🚶‍♀️"
 permalink: /gaatest-6min/
 excerpt: "6 minutters gå-test er en submaksimal gangtest til at sammenligne den tilbagelagte distance i forhold til andre mennesker for relativt fysisk svage personer."
 language: da

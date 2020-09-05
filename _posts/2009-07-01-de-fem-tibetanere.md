@@ -1,5 +1,5 @@
 ---
-title: "De fem tibetanere: Komplet guide til de 5 yoga øvelser"
+title: "De fem tibetanere: Komplet guide til de 5 yoga øvelser 🧘"
 permalink: /artikel/de-fem-tibetanere/
 language: da
 header:

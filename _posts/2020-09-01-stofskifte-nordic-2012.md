@@ -1,5 +1,5 @@
 ---
-title: "Beregn dig hvilestofskifte, energibehov og ligevægtsindtag [2020] 🔥"
+title: "Beregn dit hvilestofskifte, energibehov og ligevægtsindtag"
 permalink: /stofskifte/
 language: da
 header:

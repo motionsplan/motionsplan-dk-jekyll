@@ -1,5 +1,5 @@
 ---
-title: &title "Yogaøvelser: Yogastillinger og øvelser til yoga"
+title: &title "Yogaøvelser: Yogastillinger og øvelser til yoga 🧘‍♂️"
 permalink: /yogastillinger-yogaovelser/
 last_modified_at: 2020-08-22T09:41:09Z
 language: da

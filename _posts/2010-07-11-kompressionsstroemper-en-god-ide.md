@@ -1,5 +1,5 @@
 ---
-title: "Kompressionsstrømper: Virker de på præstation og restitution til løb?"
+    title: "Virker kompressionsstrømper 🧦 til løb 🏃 og cykling 🚴‍♀️?"
 permalink: /artikel/virker-kompressionsstroemper/
 redirect_from:
   - /artikel/kompressionsstroemper-en-god-ide
@@ -8,7 +8,7 @@ language: da
 header:
   overlay_image: /assets/images/blog/kompressionsstroemper-en-god-ide.jpg
   teaser: /assets/images/blog/kompressionsstroemper-en-god-ide.jpg
-  caption: "Virker kompressionsstrømper til cykling og løb?"
+  caption: "Virker kompressionsstrømper på restitution og præstation til cykling og løb?"
 category:
   - Kondition
   - Løb

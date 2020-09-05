@@ -1,5 +1,5 @@
 ---
-title: &title "Vægttab: Hvor meget taber jeg på kalorieunderskud?"
+title: &title "Vægttab ⚖: Hvor meget taber jeg på kalorieunderskud?"
 permalink: /vaegttab-udregning/
 language: da
 header:

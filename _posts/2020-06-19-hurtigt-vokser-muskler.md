@@ -1,5 +1,5 @@
 ---
-title: "Hypertrofi: Hvor hurtigt vokser dine muskler?"
+title: "Hypertrofi: Hvor hurtigt vokser dine muskler? 💪"
 permalink: /hvor-hurtigt-vokser-muskler/
 language: da
 header:

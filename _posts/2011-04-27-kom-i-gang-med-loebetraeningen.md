@@ -1,5 +1,5 @@
 ---
-title: &title "Løbetræning: Kom i gang med at løbe med et løbeprogram"
+title: &title "Løbetræning: Kom i gang med at løbe med et løbeprogram 🏃🏃‍♀️"
 permalink: /artikel/kom-i-gang-med-loebetraeningen/
 language: da
 header:

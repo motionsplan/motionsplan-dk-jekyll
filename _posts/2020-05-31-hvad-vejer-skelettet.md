@@ -1,5 +1,5 @@
 ---
-title: "Hvad vejer skelettet og og knoglerne i mennesket?"
+title: "Hvad vejer skelettet og og knoglerne i mennesket? ⚖"
 permalink: /hvad-vejer-skelettet/
 language: da
 header:
