@@ -1,16 +1,55 @@
 <script>
     function calculate(form) {
+        var bmr;
         var age = parseInt(form.age.value);
         var weight = parseInt(form.weight.value);
         var height = parseInt(form.height.value); // convert to meters
         var sex = form.sexHidden.value;
+        var alder= age;
+        var vaegt = weight;
 
         if (sex == "male") {
-            var basicMeta = 66.5 + (13.75 * weight) + (5.003 * height) - (6.755 * age); // basic Metabolism for males	
+            if ((alder > 0) && (alder < 3)) {
+                bmr = 249 * vaegt - 127;
+            }
+            else if ((alder > 2) && (alder < 11)) {
+                bmr = 95 * vaegt + 2110;
+            }
+            else if ((alder > 10) && (alder < 19)) {
+                bmr = 74 * vaegt + 2754;
+            }
+            else if ((alder > 18) && (alder < 31)) {
+                bmr = 63 * vaegt + 2896;
+            }
+            else if ((alder > 30) && (alder < 61)) {
+                bmr = 48 * vaegt + 3653;
+            }
+            else if ((alder > 60)) {
+                bmr = 49.9 * vaegt + 2930;
+            }
         }
         else if (sex == "female") {
-            var basicMeta = 655 + (9.563 * weight) + (1.850 * height) - (4.676 * age); // basic Metabolism for female between 19-30 years
+            if ((alder > 0) && (alder < 3)) {
+                bmr = 244 * vaegt - 130;
+            }
+            else if ((alder > 2) && (alder < 11)) {
+                bmr = 85 * vaegt + 2033;
+            }
+            else if ((alder > 10) && (alder < 19)) {
+                bmr = 56 * vaegt + 2898;
+            }
+            else if ((alder > 18) && (alder < 31)) {
+                bmr = 62 * vaegt + 2036;
+            }
+            else if ((alder > 30) && (alder < 61)) {
+                bmr = 34 * vaegt + 3538;
+            }
+            else if ((alder > 60)) {
+                bmr = 38 * vaegt + 2755;
+            }
         }
+
+        var basicMeta = bmr;
 
         var min_day = 24 * 60;
         var activity_intense = document.getElementById('activity_intense').value;
@@ -28,22 +67,30 @@
         var met_sleeping = 0.9;
         var met_sitting = 1;
 
+        var pal_intense = (met_intense * (activity_intense / 1440));
+        var pal_moderat = (met_moderat * (activity_moderat / 1440));
+        var pal_light = (met_light * (activity_light / 1440));
+        var pal_standing = (met_standing * (activity_standing / 1440));
+        var pal_sleeping = (met_sleeping * (activity_sleeping / 1440));
+        var pal_sitting = (met_sitting * (activity_sitting / 1440));
+
+        /*
         var pal_intense = ((met_intense - 1) * ((1.15 / 0.9) * (activity_intense / 1440))) / (basicMeta / (0.0175 * 1440 * weight));
         var pal_moderat = ((met_moderat - 1) * ((1.15 / 0.9) * (activity_moderat / 1440))) / (basicMeta / (0.0175 * 1440 * weight));
         var pal_light = ((met_light - 1) * ((1.15 / 0.9) * (activity_light / 1440))) / (basicMeta / (0.0175 * 1440 * weight));
         var pal_standing = ((met_standing - 1) * ((1.15 / 0.9) * (activity_standing / 1440))) / (basicMeta / (0.0175 * 1440 * weight));
         var pal_sleeping = ((met_sleeping - 1) * ((1.15 / 0.9) * (activity_sleeping / 1440))) / (basicMeta / (0.0175 * 1440 * weight));
         var pal_sitting = ((met_sitting - 1) * ((1.15 / 0.9) * (activity_sitting / 1440))) / (basicMeta / (0.0175 * 1440 * weight));
-
+        */
         var pal = pal_intense + pal_moderat + pal_light + pal_standing + pal_sleeping + pal_sitting;
 
         var activityConstant = pal;
 
-        var vedligehold = parseInt(basicMeta * activityConstant);
+        var vedligehold = basicMeta * activityConstant;
         document.getElementById('pal').value = pal;
         document.getElementById('activity_sitting').value = activity_sitting;
-        document.getElementById('bmr').value = basicMeta + " kcal";
-        document.getElementById('equilibrium').value = vedligehold + " kcal";
+        document.getElementById('bmr').value = basicMeta + " kJ";
+        document.getElementById('equilibrium').value = vedligehold + " kJ";
         return false;
     }
 </script>

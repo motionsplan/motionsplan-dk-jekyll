@@ -26,19 +26,55 @@ Med denne beregner kan du udregne dit hvilestofskifte, som også ofte kaldes bas
 
 {% include calculate-stofskifte-avanceret.html %}
 
+## Lav præcis aktivitetsregistrering
+
+Din beregning af det daglige energibehov bliver mest præcist, hvis du er lidt omhyggelig med din aktivitetsregistrering.
+
+Du kan udskrive følgende skema og udfylde det for en typisk dag. Når du har udfyldt skemaet og udregnet, hvor meget aktivitet, du har i de enkelte kategorier, så er du klar til at skrive værdierne ind i beregneren af dit daglige energibehov.
+
+[Download skema](https://docs.google.com/document/d/1pWnzxIkn3h_deY7pavw-OnCxhvtSiyFfBZCoyJjj8dY/edit?usp=sharing){: .btn .btn--large .btn--info }
+
 ## Baggrund for den avancerede stofskifteberegner
 
-I denne beregner er [Benedict-Harris formlen](https://en.wikipedia.org/wiki/Harris%E2%80%93Benedict_equation) brugt til at udregne basalstofskiftet, som bruges til at udregne ligevægtsindtaget.
+Hvilestofskiftet bliver udregnet ud fra [Schofields formler](https://en.wikipedia.org/wiki/Schofield_equation) (1985) som også bruges af WHO. Der er aldersspecifikke formler for børn. 
 
-- Mænd: BMR = 66.5 + ( 13.75 × weight in kg ) + ( 5.003 × height in cm ) – ( 6.755 × age in years )
-- Kvinder: BMR = 655 + ( 9.563 × weight in kg ) + ( 1.850 × height in cm ) – ( 4.676 × age in years )
+### Schofields formler for energibehov for mænd
 
-Roza and Shizgal reviderede formlen i 1984. Den formel forventer jeg senere at integrere i beregneren her. Skriv i kommentarerne, hvis det skal gå lidt hurtigere :)
+| Age | Equation (kJ/day) | SEE |
+|-|-|-|
+|-
+| < 3 | 249 × W - 127 | 292 |
+| 3–10 | 95 × W + 2110 | 280 |
+| 10–18 | 74 × W + 2754 | 441 |
+| 18–30 | 63 × W + 2896 | 641 |
+| 30–60 | 48 × W + 3653 | 700 |
+| > 60 | 49 × W + 2459 | 686 |
 
-- Mænd: BMR = 88.362 + (13.397 × weight in kg) + (4.799 × height in cm) - (5.677 × age in years)
-- Kvinder: BMR = 447.593 + (9.247 × weight in kg) + (3.098 × height in cm) - (4.330 × age in years)
+### Schofields formler for energibehov for kvinder
+
+| Age | Equation (kJ/day) | SEE |
+|-|-|-|
+| < 3 | 244 × W - 130 | 246 |
+| 3–10 | 85 × W + 2033 | 292 |
+| 10–18 | 56 × W + 2898 | 466 |
+| 18–30 | 62 × W + 2036 | 497 |
+| 30–60 | 34 × W + 3538 | 465 |
+| > 60 | 38 × W + 2755 | 451 |
+
+### Energiforbrug for aktiviteter
+
+Energiforbruget ved forskellige aktiviteter bør baseres på forskellige referencer, fordi børn bruger relativt mere energi pr. kg kropsvægt end voksne. Derfor bør der bruges en dynamisk korrektion for børn i forhold deres kropsvægt. På den anden side så tenderer overvægtige personer til at have deres aktivitetsafhængige energiforbrug overestimeret. Derfor kan man bruge en korrektion for [BMI](/bmi/) over 30. Hvis du har brug for denne funktionalitet, så kig på [health-calc.com](http://health-calc.com/diet/energy-expenditure-advanced).
+{: .notice .notice--info }
+
+Målet er altså, at beregneren bliver pålidelig både for børn, normalvægtige voksne og overvægtige voksne.
+
+Hvis du kender algoritmerne bag udregneren på [health-calc.com](http://health-calc.com/diet/energy-expenditure-advanced), så skriv endelig.
+
+## Omregning af energibehov fra MET-værdier
 
 [Gerrior et al (2006)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1784117/) viser, hvordan man let udregner energibehovet. Jeg har taget udgangspunkt i dette for at bruge estimerede MET-værdier for aktivitetsniveauet til at udregne PAL.
+
+Hvis du gerne vil udregne dit energiforbrug mere præcist for forskellige aktiviter, så har jeg en [liste over MET-værdier og en beregner af energiforbrug for aktiviteter](/met/).
 
 Brian Henneberg gennemgår et studie, som [sammenligner præcisionen af formler for hvilestofskiftet](https://www.bodylab.dk/shop/hvilestofskifteformler-2881c1.html). Studiet konkluderer:
 
@@ -51,3 +87,7 @@ Brian Henneberg gennemgår et studie, som [sammenligner præcisionen af formler 
 ## Se flere typer udregninger af stofskiftet
 
 Jeg har lavet en [simpel beregner til stofskiftet]({% link _posts/2019-10-31-simpel-stofskifteberegner.md %}), som er baseret på _Nordic Nutrition Recommandations fra 2012_ og en [beregner til udregning af ligevægtsindtaget]({% link _posts/2019-10-31-ligevaegtsberegner.md %}).
+
+## Referencer
+
+Schofield, W.N. 1985. Predicting basal metabolic rate, new standards and review of previous work. Hum. Nutr. Clin. Nutr., 39C (suppl. 1): 5-41.

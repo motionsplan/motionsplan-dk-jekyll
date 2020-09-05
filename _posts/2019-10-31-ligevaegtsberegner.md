@@ -30,7 +30,7 @@ Hvis du gerne vil finde dit ligevægtsindtag, så skal du bare udfylde skemaet n
 
 ## Benedict-Harris formel til ligevægtsindtag
 
-Udregneren af ligevægtsindtaget tager udgangspunkt i [Benedict-Harris](https://pubmed.ncbi.nlm.nih.gov/18782481/)-formlen, men jeg har også lavet en anden [beregner til at udregne dit stofskifte]({% link _posts/2019-10-31-simpel-stofskifteberegner.md %}), som er baseret på en anden formel til at beregne ligevægtsindtaget. Du kan jo sammenligne dem.
+Udregneren af ligevægtsindtaget tager udgangspunkt i [Benedict-Harris](https://pubmed.ncbi.nlm.nih.gov/18782481/)-formlen, men jeg har også lavet en anden [beregner til at udregne dit stofskifte]({% link _posts/2019-10-31-simpel-stofskifteberegner.md %}), som er baseret på formlen fra _Nordiska Næringsrekommendationer 1996_ til at beregne ligevægtsindtaget. Senere er der kommet opdaterede formler til at [beregne af hvilestofskiftet i _Nordic Nutrition Reccommandations 2012_]({% link _posts/2020-09-01-stofskifte-nordic-2012.md %}), og endelig har jeg en [avanceret beregner til energiforbruget med mere præcis aktivitetsregistrering]({% link _posts/2019-10-31-avanceret-stofskifteberegner.md %}).
 
 ## Hvad kan jeg bruge ligevægtsindtaget til?
 
