@@ -12,6 +12,7 @@ header:
 tags:
   - Hård styrkeøvelse
   - kasse
+  - crossfit
 categories:
   - Hård styrkeøvelse
 training_type: 

@@ -12,6 +12,7 @@ header:
 tags:
   - Helkropsøvelse
   - tov
+  - crossfit
 categories:
   - Helkropsøvelse
 training_type: 

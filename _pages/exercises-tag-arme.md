@@ -8,7 +8,7 @@ header:
   teaser: https://images.unsplash.com/photo-1552848031-326ec03fe2ec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
   caption: "Armøvelser: De mest effektive øvelser til biceps og triceps"
 entries_layout: grid # list (default), grid
-title: "Armøvelser: De mest effektive øvelser til biceps og triceps"
+title: "Armøvelser: De mest effektive øvelser til biceps og triceps 🏋"
 author_profile: true
 classes: wide
 sort_by: title # date (default) title
@@ -32,4 +32,4 @@ Vi har samlet de bedste styrkeøvelser til triceps, så du kan optimere din armt
 
 Du kan træne triceps med både stang, håndvægte, elastik, kettlebell og kropsvægt, fx ved armstrækninger.
 
-## Armøvelser
+## Armøvelser og træningsøvelser for armene

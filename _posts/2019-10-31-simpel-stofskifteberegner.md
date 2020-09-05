@@ -32,6 +32,8 @@ Hvad er fødeinduceret termogenese? **FIT er den energi, kroppen bruger i forbin
 
 Hvad er fysisk aktivitet (PAL)? **Fysisk aktivitet er den komponent, som varierer mest, både mellem mennesker og individuelt. Det er normalt omkring 20-40% af den totale forbrænding. Niveuet for fysisk aktivitet afhænger af ens aktivitet gennem hele dagen. Ligeledes afhænger energiforbruget brugt på fysisk aktivitet af kropsvægten, da det kræver mere energi at flytte en større vægt.**
 
+Jeg har lavet en anden [beregner af hvilestofskiftet, som tager udgangspunkt i _Nordic Nutrition Reccommandations 2012_]({% link _posts/2020-09-01-stofskifte-nordic-2012.md %}). Jeg har også lavet en [avanceret beregner af dit daglige energibehov, hvor den fysiske aktivitet bliver angivet lidt mere præcist]({% link _posts/2019-10-31-avanceret-stofskifteberegner.md %}). Endelig har jeg lavet en [beregner af ligevægtsindtaget]({% link _posts/2019-10-31-ligevaegtsberegner.md %}).
+
 ## Beregn dit stofskifte og basalstofskifte
 
 Hvis ikke du har adgang til en testfacilitet, så kan stofskiftet estimeres med forskellige beregninger. Beregneren tager højde for vægten og dit køn.
@@ -46,19 +48,19 @@ Beregningen er behæftet med stor usikkerhed. Værdierne er rettet mod "almindel
 
 ## Tabeller for udregning af hvilestofskiftet
 
-Tabellerne er baseret på værdier fra _Nordiska Næringsrekommendationer 1996_.
+Tabellerne og beregneren af stofskiftet er baseret på værdier fra _Nordiska Næringsrekommendationer 1996_.
 
 ### Formel til at beregne hvilestofskiftet
 
 #### Mænds hvilestofskifte
 
-| Alder   | BMR (Kj/dag)  |
+| Alder   | BMR (kJ/dag)  |
 |---------|---------------|
-|	11-18	  | 74 V + 2750   |
+| 11-18	  | 74 V + 2750   |
 | 19-30	  | 64 V + 2840   |
 | 31-60	  | 48,5 V + 3670 |
 | 61-75	  | 49,9 V + 2930 |
-| over 75	| 35 V + 3430   |
+| over 75 | 35 V + 3430   |
 
 #### Kvinders hvilestofskifte
 
@@ -68,11 +70,11 @@ Tabellerne er baseret på værdier fra _Nordiska Næringsrekommendationer 1996_.
 | 19-30	  | 61,5 V + 2080 |
 | 31-60	  | 36,4 V + 3470 |
 | 61-75	  | 38,6 V + 2880 |
-| over 75	| 41 V + 2610   |
+| over 75 | 41 V + 2610   |
 
 V er vægt i kg. 
 
-Eksempel: en kvinde på 23 år som vejer 62 kg. har derfor et BMR på: 61,5*62 + 2080 = 5893 Kj dagligt.
+Eksempel: en kvinde på 23 år som vejer 62 kg. har derfor et BMR på: BMR = 61,5 * 62 + 2080 = 5893 kJ dagligt. Hvis du gerne vil have tallet i **kalorier** skal du dele det med 4,2. Jeg har skrevet lidt mere om, hvad [kalorier (cal) og kilokalorier (kcal) er her]({% link _posts/2020-07-09-kalorier.md %}).
 {: .notice .notice--info }
 
 ## Hvordan måles hvilestofskiftet og basal metabolic rate (BMR)?
@@ -151,9 +153,9 @@ Desuden har jeg lavet en anden beregner til at udregne [ligevægtsindtaget på e
 
 ## Mere avanceret udregning af dagligt energiforbrug
 
-Hvis du gerne vil have en lidt mere avanceret beregner, så kan du finde den på  [health-calc.com](https://www.health-calc.com/diet/energy-expenditure-advanced).
+Jeg har også lavet en [avanceret beregner af dit daglige energibehov, hvor den fysiske aktivitet bliver angivet lidt mere præcist]({% link _posts/2019-10-31-avanceret-stofskifteberegner.md %}). Hvis du gerne vil have en beregner på engelsk, så kan du finde den på  [health-calc.com](https://www.health-calc.com/diet/energy-expenditure-advanced).
 
-[Avanceret BMR beregner](https://www.health-calc.com/diet/energy-expenditure-advanced){: .btn .btn--large .btn--success }
+[Avanceret stofskifte beregner]({% link _posts/2019-10-31-avanceret-stofskifteberegner.md %}){: .btn .btn--large .btn--success }
 
 *[BMR]: Kroppens hvilestofskifte (basic metabolic rate)
 *[PAL]: Fysisk aktivitetsniveau (Physical Acitivity Level)

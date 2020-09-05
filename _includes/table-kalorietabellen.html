@@ -1,0 +1,68 @@
+{% assign search = include.where %}
+{% assign column = 0 %}
+
+{% if search == 'brød' %}
+  {% assign kalorie_values = site.data.frida-kalorietabel | where_exp: "item", "item.Navn contains search" %}
+{% elsif search %}
+  {% assign kalorie_values = site.data.frida-kalorietabel | where_exp: "item", "item.Gruppe contains search" %}
+{% else %}
+  {% assign kalorie_values = site.data.frida-kalorietabel %}
+{% endif%}
+
+<script>
+function KalorieSearch() {
+  // Declare variables
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("kalorie_search");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("kalorietabellen");
+  tr = table.getElementsByTagName("tr");
+
+  // Loop through all table rows, and hide those who don't match the search query
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[{{ column }}];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }
+  }
+}
+</script>
+
+<input type="text" id="kalorie_search" onkeyup="KalorieSearch()" placeholder="Søg efter fødevarer...">
+
+<table id="kalorietabellen">
+  {% for row in kalorie_values %}
+    {% if forloop.first %}
+    <thead>
+    <tr>
+      <th>Fødevare</th>
+      <th>KJ</th>
+      <th>kcal</th>
+      <th>Protein (g)</th>
+      <th>Kulhydrat (g)</th>
+      <th>Kostfibre (g)</th>
+      <th>Fedt (g)</th>
+    </tr>
+    </thead>
+    {% endif %}
+    {% if forloop.length == 1 %}
+    <tbody>
+    {% endif %}
+      <tr>
+        <td>{{ row.Navn }}</td>
+        <td>{{ row.kJ }}</td>
+        <td>{{ row.kcal }}</td>
+        <td>{{ row.Protein }}</td>
+        <td>{{ row.Kulhydrat }}</td>
+        <td>{{ row.Kostfibre }}</td>
+        <td>{{ row.Fedt }}</td>
+      </tr>
+    {% if forloop.last %}
+    {% endif %}
+  {% endfor %}
+</table>

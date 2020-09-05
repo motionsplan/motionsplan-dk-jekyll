@@ -2,7 +2,7 @@
 main:
   - title: "Blog"
     url: /blog/
-  - title: "Styrke"
+  - title: "Styrketræning"
     url: /styrke/
   - title: "Kondition"
     url: /kondition/
@@ -12,7 +12,7 @@ main:
 #    url: /fysiologi/
 #  - title: "Træningslære"
 #    url: /fysiologi/
-  - title: "Øvelser"
+  - title: "Træningsøvelser"
     url: /traeningsoevelser/
   - title: "Inspiration"
     url: /inspiration/

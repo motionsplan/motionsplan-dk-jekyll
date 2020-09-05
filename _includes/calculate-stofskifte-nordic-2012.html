@@ -1,0 +1,58 @@
+<form class="calculator" id="calculator_nordic_2012">
+    <fieldset>
+        <legend>Udregning af hvilestofskifte og dagligt energibehov baseret på <em>Nordic Nutrition Recommendations 2012</em>.</legend>
+        <div class="form-group">
+            <label for="koen">Køn</label>
+            <select name="koen" id="koen">
+                <option value="1">Mand</option>
+                <option value="0">Kvinde</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="alder">Alder (år)</label>
+            <input type="number" min="10" max="100" placeholder="fx 40" name="alder" id="alder">
+        </div>
+        <div class="form-group">
+            <label for="vaegt">Vægt (kg)</label>
+            <input type="number" min="10" max="200" placeholder="fx 70" name="vaegt" id="vaegt" step="0.1">
+        </div>
+        <fieldset>
+            <legend>Fysisk aktivitetsniveau (PAL)</legend>
+            <label for="pal12" class="radio">
+                <input type="radio" value="1.2" name="pal" id="pal12">
+                Rullestolsbunden eller sengeliggende.
+            </label>
+            <label for="pal145" class="radio">
+                <input type="radio" checked="checked" value="1.45" name="pal" id="pal145">
+                Stillesiddende arbejde med kun lidt fysisk aktivitet og ingen eller begrænset fysisk aktivitet i fritiden.
+            </label>
+            <label for="pal165" class="radio">
+                <input type="radio" value="1.65" name="pal" id="pal165">
+                Stillesiddende arbejde med et vist behov for fysisk aktivitet og ingen eller begrænset fysisk aktivitet i fritiden.
+            </label>
+            <label for="pal185" class="radio">
+                <input type="radio" value="1.85" name="pal" id="pal185">
+                Hovedsageligt stående arbejde.
+            </label>
+            <label for="pal22" class="radio">
+                <input type="radio" value="2.2" name="pal" id="pal22">
+                Hårdt kropsarbejde eller meget høj fritidsaktivitet.
+            </label>
+            <label for="sport" class="checkbox">
+                <input type="checkbox" value="true" name="sport" id="sport">
+                Sport eller anden hård fysisk aktivitet i fritiden. (30-60 min. 4-5 gange/uge)
+            </label>
+        </fieldset>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label for="BMR2">Resting Energy Expenditure (REE) (kJ)</label>
+            <input name="BMR2" id="BMR2" disabled="disabled">
+        </div>
+        <div class="form-group">
+            <label for="TEE2">Total energiomsætning (kJ)</label>
+            <input name="TEE2" id="TEE2" disabled="disabled">
+        </div>
+    </fieldset>
+</form>

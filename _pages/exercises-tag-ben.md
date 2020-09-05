@@ -8,7 +8,7 @@ header:
   caption: "Benøvelser: De mest effektive styrketræningsøvelser til bentræningen"
 taxonomy: Ben # tag name
 entries_layout: grid # list (default), grid
-title: "Benøvelser: De mest effektive styrketræningsøvelser til bentræningen"
+title: "Benøvelser: De mest effektive styrketræningsøvelser til bentræningen 🏋"
 author_profile: true
 classes: wide
 sort_by: title # date (default) title
@@ -22,4 +22,4 @@ Bentræning kan foregå både med frie vægte og lave squat og lunges og i benma
 
 Vi har samlet en række simple og effektive benøvelser, som du kan bruge til at styrke benmusklerne, din hofte og dine knæ.
 
-## Øvelser til bentræning
+## Benøvelser: Øvelser til bentræning

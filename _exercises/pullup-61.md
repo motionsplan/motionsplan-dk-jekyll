@@ -13,6 +13,7 @@ tags:
   - bar
   - fitnessinstruktør
   - kropsvægt
+  - crossfit
 categories:
 training_type: 
 training_focus: 

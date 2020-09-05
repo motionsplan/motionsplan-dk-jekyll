@@ -17,6 +17,7 @@ tags:
   - Arme
   - Bryst
   - fitnessinstruktør
+  - crossfit
 categories:
   - Pres
 training_type: 

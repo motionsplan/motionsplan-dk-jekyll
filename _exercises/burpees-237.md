@@ -15,6 +15,7 @@ tags:
   - helkropsøvelse
   - kropsvægt
   - cirkeltræning
+  - crossfit
 categories:
   - Kondition og puls
 training_type: 

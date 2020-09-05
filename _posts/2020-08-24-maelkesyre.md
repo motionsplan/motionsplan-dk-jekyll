@@ -87,15 +87,31 @@ Der er et par problemer med den forklaring.
 
 ## Hvordan fjernes mælkesyren fra musklerne?
 
-Den producerede mælkesyre bliver dels brugt i forbrænding i muskler, hvor der er ilt til stede, og mælkesyren fjernes også gennem nyrerne og leveren.
+Den producerede mælkesyre bliver fjernet på forskellige måder kroppen.
 
-Tidligere troede man, at der blev produceret mere og mere mælkesyre, når arbejdet blev gradvist hårdere. Men i virkeligheden er det nok fordi leveren ikke kan følge med til at fjerne mælkesyren fra musklerne, når koncentrationen når et vist niveau.
+- Ved at blive metaboliseret i musklerne
+- Ved at blive omdannet til glykose i leveren
+- I nyrerne
+
+**Mælkesyre fjernes i musklerne**. Man har fundet ud af, at der findes [shuttle-mekanismer, der kan flytte laktat mellem muskelfibre](https://www.cell.com/cell-metabolism/comments/S1550-4131(18)30186-4), så mælkesyren kan produceres i en type muskelfibre og metaboliseres i en anden. Mælkesyren kan altså blive [brugt i forbrænding i musklerne](https://www.trainingpeaks.com/blog/what-is-lactate-and-lactate-threshold/).
+
+**Mælkesyren fjernes i leveren**. Teorien bag leverens evne til at gendanne glykose fra mælkesyre, som bagefter gør blodet i stand til at forsynes musklerne med ny glykose kaldes **cori cyklus**.
+
+Cori cyklus er en cyklus, hvor muskler nedbryder glukose til laktat. Derefter frigives laktat til blodet, og leveren optager laktaten. Laktat bliver derefter omdannet til glucose i leveren, og leveren frigiver glukose til blodet, som musklerne så igen kan optage og bruge til brændstof.
+
+**Mælkesyren fjernes i nyrerne.** Her bliver det fjernet.
+
+Hvad fordelingen er af omsætningen mellem de forskellige vævstyper under og lige efter aktivitet, har jeg ikke kunnet finde ud af.
+
+Tidligere troede man, at der blev produceret eksponentielt mere og mere mælkesyre, når arbejdet blev gradvist hårdere. Men i virkeligheden er det nok fordi leveren ikke kan følge med til at fjerne mælkesyren fra musklerne, når koncentrationen når et vist niveau.
 
 Det ser ud til, at [nyrere fortsætter med at fjerne mælkesyre under moderat arbejde](http://www.tandfonline.com/doi/abs/10.1080/02640414.2011.614271), mens leverens evne nedsættes markant, fordi blodgennemstrømningen i leveren nedsættes under hårdt arbejde, fordi musklerne har brug for større blodgennemstrømning.
 
 I træningsfysiologien snakker man om den anaerobe tærskel eller mælkesyretolerancetærsklen som det tidspunkt, hvor kroppen netop kan nå at fjerne den ekstra mælkesyre, der produceres.
 
 Traditionelt har man talt om en mælkesyregrænse på 4 mmol. Den anaerobe tærskel er rigtig interessant, for hvis du kan flytte den opad, så kan du træne og konkurrere med højere intensitet.
+
+Det er imidlertid en del uenighed om, hvad den anaerobe tærskel nøjagtigt er, og hvordan man bedst kan [flytte den anaerobe tærskel, som denne artikel fra Training Peaks fortæller](https://www.trainingpeaks.com/blog/what-is-lactate-and-lactate-threshold/).
 
 > Nu har vi fundet ud af, at grunden til, at mængden af mælkesyre stiger eksponentielt ved den mælkesyrekoncentration, ikke er, fordi der pludselig bliver produceret mere mælkesyre – men fordi leveren ikke kan følge med til at fjerne mælkesyre fra blodet hurtigt nok.
 
@@ -110,6 +126,8 @@ Den **anaerobe tærskel** er altså snarere en 'eliminationsgrænse' snarere end
 Der bliver altså ikke pludseligt produceret mere mælkesyre på den **anaerobe tærskel**, men der er færre organer til at hjælpe med at fjerne mælkesyren igen, da leverens bidrag bliver mindre.
 
 Den 'magiske' 4 mmol grænse opstår altså fordi blodgennemstrømningen i leveren er faldet så meget, at leveren ikke længere kan følge med til at eliminere mælkesyren i samme hastighed, som den bliver produceret.
+
+Selvom man ved mere om den anaerobe tærskel, så er der ikke fuldstændig enighed om, [hvordan den anarobe tærskel skal defineres og bruges, som Ghosh (2004) viser i sit litteraturstudium](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3438148/).
 
 ## Bliv bedre til at modstå mælkesyre
 

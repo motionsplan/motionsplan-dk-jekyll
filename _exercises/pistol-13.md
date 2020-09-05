@@ -17,6 +17,7 @@ tags:
   - kropsvægt
   - Baller
   - Forlår
+  - crossfit
 categories:
   - Hård styrkeøvelse
 training_type: 

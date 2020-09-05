@@ -28,6 +28,12 @@ Typer af taljemål:
 - **Talje-højde-ratio**. Når man medtager højden, så får man en mere retfærdig vurdering af taljemålet. Det er klart at høje personer sandsynligvis vil have en større talje.
 - **Talje-hofte-ratio**. Talje-hofte-målet kan sige noget om fordelingen af fedt på kroppen - og derved også noget om risikoen for sygdom.
 
+## Beregner til talje-hofte-ratio og talje-højde-ratio
+
+{% include calculate-waist.html %}
+
+## Mere om de forskellige taljemål
+
 I det følgende beskriver jeg de forskellige taljemål, og hvad de kan bruges til.
 
 ## Taljemålet
@@ -71,9 +77,20 @@ Efterhånden har talje/højde-ratioen sneget sig ind i litteraturen, fordi det t
 
 Når man sætter sit taljemål i forhold til sin højde, så er det forbundet med lavere risiko for livsstilssygdomme, hvis ratioen er under 0,5. Det betyder i praksis, at dit taljemål skal være under halvdelen af din højde i centimeter for at have en nedsat risiko for livsstilssygdomme.
 
-Et andet meget brugt mål er talje/hofte-ratioen, som jeg også godt kan lide, da jeg synes det kan give endnu flere informationer om, hvordan fedtet er fordelt på kroppen.
+| WHR | Klassifikation | Handling |
+|-|-|-|
+| under 0.4 | du er måske for tynd | Take care |
+| 0.4 to 0.5 | du er en sund pæreform | Ok |
+| 0.5 to 0.6 | du er en mellemting mellem pære og æble | Consider action |
+| over 0.6 | du er i risikogruppen som en usund æbleform | Take action |
+
+Talje-højde-målet er blevet plottet ind i en simpel _Shape Chart_ foreslået af Ashwell (bl.a. 2011).
+
+{% include figure image_path="https://hcp.nebido.com/sites/g/files/blfpry596/files/2019-07/chart_with_waist_illustrations-909x697.png" caption="I _Ashwell Shape Chart®_ vises det grafisk, om du er i en zone for bekymring i forhold til dit helbred eller ej. [Kilde](https://hcp.nebido.com/hcp/testosterone-therapy/waist-to-height-ratio)." alt="Taljemålet - Talje-højde-ratio Shape Chart fra Ashwell." %}
 
 ## Talje-hofte-ratio
+
+Et andet meget brugt mål er talje/hofte-ratioen, som jeg også godt kan lide, da jeg synes det kan give endnu flere informationer om, hvordan fedtet er fordelt på kroppen.
 
 Wikipedia skriver om talje-hofte-ratioen:
 
@@ -102,11 +119,7 @@ Normalværdierne for WHR er følgende. Hvis du har højere værdier, så kan du 
 | Mænd    | > 1,0   |
 | Kvinder | > 0,8   |
 
-## Beregner til talje-hofte-ratio
-
-{% include calculate-waist.html %}
-
-## Opsamling på taljemål og hoftemål
+## Opsamling på taljemål, talje/højde-ratio og hoftemål
 
 Et nærliggende spørgsmål når man samlet kigger på de tre forskellige mål er, hvilke resultater der sikrer dig mod livsstilssygdomme. Hvis du ligger over det anbefalede talje/højde-mål, men har et talje/hofte-mål, der får dig inden for skiven igen?
 
@@ -132,4 +145,3 @@ I øjeblikket ser det ud til, at talje/højde-målet er det mest brugte mål i d
 - [The Relationship Between Waist-Hip Ratio and Fertility](https://www.psychologytoday.com/us/blog/beastly-behavior/201706/the-relationship-between-waist-hip-ratio-and-fertility)
 - Butovskaya, M., A. Sorokowska, M. Karwowski, A. Sabiniewicz, J. Fedenok, D. Dronova, M. Negasheva, E. Selivanova, og P. Sorokowski. 2017. “Waist-to-Hip Ratio, Body-Mass Index, Age and Number of Children in Seven Traditional Societies”. Scientific Reports 7 (1): 1–9. <https://doi.org/10.1038/s41598-017-01916-9>.
 - World Health Organization (WHO). Waist Circumference and Waist-Hip Ratio. Report of a WHO Expert Consultation, 2008 - <https://apps.who.int/iris/bitstream/handle/10665/44583/9789241501491_eng.pdf;jsessionid=F00FF7FB19FE76C81824CD52AF7FD4D4?sequence=1>
-

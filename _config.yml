@@ -73,6 +73,7 @@ social:
     - "https://www.facebook.com/motionsplan"
     - "https://twitter.com/motionsplan"
     - "https://www.pinterest.dk/motionsplan/"
+    - "https://www.instagram.com/motionsplan/"
 
 
 # Site search
@@ -88,14 +89,22 @@ analytics:
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      webslides: "fa-twitter"
-      url: "https://twitter.com/motionsplan"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       webslides: "fa-facebook"
       url: "https://facebook.com/motionsplan"
+    - label: "Pinterest"
+      icon: "fab fa-fw fa-pinterest"
+      webslides: "fa-pinterest"
+      url: "https://www.pinterest.dk/motionsplan/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      webslides: "fa-instagram"
+      url: "https://www.instagram.com/motionsplan/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      webslides: "fa-twitter"
+      url: "https://twitter.com/motionsplan"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       webslides: "fa-github"
@@ -117,9 +126,14 @@ author:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "http://twitter.com/motionsplan"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/motionsplan/"
+    - label: "Pinterest"
+      icon: "fab fa-fw fa-pinterest"
+      webslides: "fa-pinterest"
+      url: "https://www.pinterest.dk/motionsplan/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      webslides: "fa-instagram"
+      url: "https://www.instagram.com/motionsplan/"
     - label: "Støt sitet"
       icon: "fas fa-fw fa-mug-hot"
       url: "https://www.buymeacoffee.com/lsolesen"
@@ -363,6 +377,7 @@ defaults:
       comments: false
       share: false
       related: false
+      search: false
   # _presentations
   - scope:
       path: ""

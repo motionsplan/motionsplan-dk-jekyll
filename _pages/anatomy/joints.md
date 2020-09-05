@@ -1,11 +1,13 @@
 ---
 layout: single
-title: Led, ledtyper og bevægelser
+title: &title "Led, ledtyper og bevægelser"
 excerpt: "Mellem knoglerne er der led, som kan opdeles i forskellige ledtyper. Leddene kan bevæge sig på forskellige måder for at give kroppen frihedsgrader."
 permalink: /led/
 author_profile: true
 header:
-  teaser: https://nikkb.dk/images/Efteruddannelse/efterudd2018/Billeder-til-website10.jpg
+  teaser: https://images.unsplash.com/photo-1539815208687-a0f05e15d601?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1539815208687-a0f05e15d601?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1967&q=80
+  caption: *title
 tags:
   - anatomi
 feature_row:

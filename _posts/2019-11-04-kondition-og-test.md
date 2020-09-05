@@ -1,31 +1,35 @@
 ---
-title: "Kondition, kondital og test - Hvordan tester jeg mit kondital?"
-permalink: /kondition-og-test/
+title: &title "Konditionstest: Test din kondition og kondital med konditests"
+permalink: /test-kondition-konditest-kondital/
+redirect_from:
+  - /kondition-og-test/
 excerpt: "Kommer jeg i bedre form og kondition? Udregn dit kondital og iltoptagelse med vores beregnere og se om du får et bedre kondital og fremgang i træningen."
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1960&q=80
   teaser: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1960&q=80
-  caption: Photo by Clem Onojeghuo on Unsplash
+  caption: *title
   overlay_filter: 0.2
 category:
   - Kondition
 tags:
   - kondition
   - kondital
+  - konditionstest
+  - konditest
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 ---
 
-Hvis du gerne vil _tracke_ om du kommer i bedre form med konditionstræning, så er der forskellige muligheder for at teste konditallet. 
+Hvis du gerne vil _tracke_, om du kommer i bedre form med konditionstræning, så er der forskellige muligheder for at teste konditallet med en konditionstest. Vi har samlet konditests både på løb, cykel og roergometer.
 
-**Du kan teste dit kondital på mange forskellige måder. Der findes både direkte tests i et laboratorium og indirekte tests, som du kan lave selv. Konditallet er et udtryk for, hvor god din krop er til at optage og forbruge ilt, og du kan forbedre konditallet med konditionstræning.**
+Hvordan tester jeg min kondition med en konditest? **Du kan teste dit kondital med både direkte tests i et laboratorium og indirekte tests, som du kan lave selv. Konditallet er et udtryk for, hvor god din krop er til at optage og forbruge ilt, og du kan forbedre konditallet med konditionstræning.**
 
-Men lad os dykke ned i, hvordan man tester den **maksimale iltoptagelse** og **konditallet** i det følgende. Sidst i indlægget kan du se alle de tests, vi har beskrevet her på siden.
+Men lad os dykke ned i, hvordan du tester den **maksimale iltoptagelse** og **konditallet** i det følgende. Sidst i indlægget kan du se alle de konditionstests, vi har beskrevet her på siden.
 
 ## Hvad er maksimal iltoptagelse og kondital?
 
-Men lad os først definere den maksimale iltoptagelse og konditallet:
+Men lad os først definere den maksimale iltoptagelse og konditallet for at se, hvad en test af konditionen tester:
 
 Maksimal iltoptagelse (VO<sub>2</sub>max) (l/min)
 : Den maksimale iltoptagelse er et udtryk for hvor meget ilt, du kan optage under maksimalt arbejde. Den maksimale iltoptagelse er hvor meget ilt (ml) kroppen optager pr. minut.
@@ -36,7 +40,7 @@ Kondital (ml/kg/min)
 I den engelske litteratur vil man sommetider se, at man bruger VO<sub>2</sub>-max med enhederne (ml/kg/min). Det er altså vigtigt at holde øje med enhederne.
 {: .notice .notice--danger }
 
-## Hvordan måles kondition og iltoptagelse?
+## Hvordan måles kondition, kondital og iltoptagelse?
 
 Helt grundlæggende er der to måder at måle konditionen på:
 
@@ -53,7 +57,7 @@ Testene kan have følgende intensitet i forhold til forsøgspersonen:
 
 Generelt er de maksimale tests mere pålidelige end de submaksimale i forhold til at finde den maksimale iltoptagelse, men de submaksimale tests kan være rigtig gode til at _tracke_, hvordan træningen påvirker ens kondition.
 
-## Hvordan ved jeg om jeg er kommet i bedre form?
+## Konditest: Hvordan ved jeg om jeg er kommet i bedre form?
 
 En ting er naturligvis om din kredsløbsmotor er blevet bedre eller det er din bevægelsesøkonomi, der er blevet forbedret. I praksis er begge ting jo godt. Med mindre du måler iltoptagelsen ved en _direkte_ laboratorietest, så finder du aldrig ud af, hvilket af de to parametre du har forbedret dig på.
 
@@ -88,7 +92,7 @@ Man har lavet studier, hvor forsøgspersonerne har ligget stille i en seng i læ
 
 ## Hvordan tester jeg mit kondital?
 
-Der er mange måder at måle sin kondition på. Vi har samlet tests her på siden:
+Der er mange måder at måle sin kondition på. Vi har samlet en række konditionstests her på siden:
 
 {% assign site_posts = site.posts | where: "tags", "konditionstest" | sort: "date" %}
 
@@ -117,13 +121,13 @@ Konditionen forbedres ved at udfordre kredsløbet, og det kan man gøre på mang
 
 Derfor kan jeg godt lidt at opdele kredsløbstræningen i forskellige metoder, så man husker at få det hele med i sin træing.
 
-## Konklusion
+## Konklusion om konditionstests
 
 Du skal vedligeholde din kredsløbsfunktion og derved din kondition hele livet. Kredsløbet består både af anaerobe og aerobe komponenter, og den anaerobe del kan være både lactacid og alactacid. Det handler om at gøre hjertet større, så det kan pumpe mere ilt ud pr. slag, men også at musklerne bliver gode til at optage og bruge ilten ved forskellige intensiteter.
 
 [Hvad er et godt kondital?](/kondital/){: .btn .btn--large .btn--info }
 
-## Referencer
+## Referencer om konditest
 
 Padilla, Sabino, Iñigo Mujika, Francisco Angulo, og Juan Jose Goiriena. 2000. “Scientific approach to the 1-h cycling world record: a case study”. Journal of Applied Physiology 89 (4): 1522–27. <https://doi.org/10.1152/jappl.2000.89.4.1522>.
 

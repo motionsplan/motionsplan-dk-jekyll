@@ -4,7 +4,7 @@ permalink: /maveoevelser/
 collection: exercises
 taxonomy: Mave # tag name
 entries_layout: grid # list (default), grid
-title: "Maveøvelser: De mest effektive øvelser til maven"
+title: "Maveøvelser: De mest effektive øvelser til maven 🏋"
 excerpt: "Vi har samlet alle de effektive maveøvelser her. Vi synes målet med din mavetræning skal være at få en stærk core, men øvelserne er også perfekte og udfordrende, når du arbejder på en flad mave, markeret sixpack eller at stramme op."
 author_profile: true
 classes: wide
@@ -20,4 +20,4 @@ Vi har samlet alle de effektive maveøvelser her. Vi synes målet med din mavetr
 
 Vi har styrketræningsøvelser for maven med både kropsvægt, håndvægte, elastikker, bolde og hjul. Der er altså mange muligheder for at supplere mavebøjningerne med meget mere udfordrende varianter af øvelser for maven, men husk maven er en del af din core. Vi har skrevet et indlæg om [coretræning]({% link _posts/2020-07-16-coretraening.md %}) og om at [tabe fedt på maven]({% link _posts/2020-07-07-mavefedt.md %}).
 
-## Maveøvelser
+## Maveøvelser og træningsøvelser til maven

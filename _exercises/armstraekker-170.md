@@ -14,6 +14,7 @@ tags:
   - fitnessinstruktør
   - Bryst
   - Arme
+  - crossfit
 categories:
 training_type: 
 training_focus: 

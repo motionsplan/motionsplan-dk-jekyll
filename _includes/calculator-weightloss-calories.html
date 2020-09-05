@@ -1,0 +1,41 @@
+<form class="calculator">
+    <fieldset>
+        <legend>Udregning af nødvendigt kalorieunderskud</legend>
+        <div class="form-group">
+            <label for="lost">Vægttab (kg)</label>
+            <input name="lost" placeholder="4.4">
+        </div>
+        <div class="form-group">
+            <label for="days">Dage</label>
+            <input name="days" placeholder="5">
+        </div>
+        <input type="submit" value="Beregn" onclick="return calc(this.form);">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label for="daily_weight_loss">Daglig vægttab (g)</label>
+            <input name="daily_weight_loss" aria-readonly="true" readonly="read-only"> 
+        </div>
+        <div class="form-group">
+            <label for="daily_diff">Daglig kalorieunderskud (kcal)</label>
+            <input name="daily_diff" aria-readonly="true" readonly="read-only"> 
+        </div>
+    </fieldset>
+</form>
+
+<script>
+    function calc(form) {
+        var lost = form.lost.value;
+        var days = form.days.value;
+        var lost_day = lost / days * 1000;
+
+        var fat = 9; //kcal
+        
+        var diff = lost_day * fat;
+        
+        form.daily_diff.value = diff;
+        form.daily_weight_loss.value = lost_day;
+        
+        return false;
+    }
+</script>

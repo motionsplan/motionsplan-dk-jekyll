@@ -22,7 +22,7 @@ Jeg sidder og læser et glitrende magasin om sport og helse, og endnu engang ser
 *[BMI]: Body Mass Index
 *[IOTF]: The International Obesity Task Force
 
-**Body Mass Index (BMI) er en enkel matematisk formel for sammenhængen mellem personers højde og vægt. Formlen bruges til at vurdere undervægt, normalvægt og overvægt i større befolkningsgrupper, fordi BMI tilsyneladende har en sammenhæng med fedtprocenten. BMI bruges også ofte som test til at indikere under- og overvægt hos enkelte personer, men bør ikke bruges til præcise målinger hos individuelle.**
+Hvad er BMI? **Body Mass Index (BMI) er en enkel matematisk formel for sammenhængen mellem personers højde og vægt. Formlen bruges til at vurdere undervægt, normalvægt og overvægt i større befolkningsgrupper, fordi BMI tilsyneladende har en sammenhæng med fedtprocenten. BMI bruges også ofte som test til at indikere under- og overvægt hos enkelte personer, men bør ikke bruges til præcise målinger hos individuelle.**
 
 Vi har lavet en beregner, hvor du få udregnet dit BMI baseret på den originale formel og få en vurdering med det samme. Ud fra beregningen kan du sammenligne dig med _det normale_ og få et bud på, hvad din idealvægt er. 
 
@@ -122,6 +122,42 @@ NB. Hvis du er under 18 år, så kig længere nede på siden for en retfærdig v
 {: .notice .notice--warning }
 
 {% include figure image_path="https://bgh.dk/wp-content/uploads/2018/11/det-betyder-bmi-tallene-847x1024.jpg" caption="Hvad er din BMI i forhold til normal?" alt="Tabel: Illustration af skala for hvad normal BMI er." %}
+
+## Hvad er det optimale BMI for mænd og kvinder?
+
+Når man kigger på en række forskellige studier i forhold til det optimale BMI i forhold til sundhedsfaktorer, så får man følgende billede.
+
+I de studier hvor man kigger på forskellen mellem mænd og kvinder, så ligger det enten inde for samme optimale område, eller også ligger mændene 2-5 BMI-point højere.
+
+| Reference | Studium | Mænd | Kvinder |
+|-|-|-|-|
+| [Flegal et al (2013)](http://www.ncbi.nlm.nih.gov/pubmed/23280227/) | JAMA 2013 | 25-30 | 25-30 |
+| [Wong et al (2011)](http://www.ncbi.nlm.nih.gov/pubmed/22204699/) | BMC 2011 | 26,4-27,5 | 20,1-24,6 |
+| [Berrington de Gonzalez et al (2010)](http://www.ncbi.nlm.nih.gov/pubmed/21121834/) | NEJM 2010 | 22,5-28,8 | 21,3-26,3 |
+| [Lancet (2009)](http://www.ncbi.nlm.nih.gov/pubmed/19299006/) | Lancet | 22,5-25,0 | 22,5-25,0 |
+| [Adams et al (2006)](http://www.ncbi.nlm.nih.gov/pubmed/16926275/) | NEJM | 25,0-27,9 | 23,5-26,4 |
+| [Calle et al (1999)](http://www.ncbi.nlm.nih.gov/pubmed/10511607/) | NEJM | 22,0-26,4 | 20,5-24,9 |
+
+Det meget store studie fra Flegal et al (2013) kommer til at overvurdere fordelen ved overvægt i forhold til BMI, fordi overvægt sammenlignes med normalvægt i området fra 18,5-25. Man ved fra ander undersøgelser, at dødeligheden er markant forhøjet, hvis man har et BMI mellem 18,5-20. Det interval vi normalt inkluderer som normalvægtigt er altså ikke et optimalt BMI.
+
+På baggrund af studierne kan man altså sætte den optimale BMI til 22,5 for kvinder og 24,5 for mænd. Når man har den optimale BMI, så kan det bl.a. bruges til at [udregne din idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}).
+
+Det er væsentligt at påpege, at der er store variationer for den enkelte i forhold til, om man lige nøjagtigt rammer det optimale BMI. Om BMI går et par stykker op eller ned betyder ikke så meget, men i forhold til helbredet og at leve længe, så kan man altså med fordel være tæt på kategorien overvægtig.
+
+På baggrund af dette siger [Morten Zacho at plus-minus seks kilo ikke betyder noget](https://www.dr.dk/levnu/krop/du-skal-veje-mere-end-du-tror).
+
+> Så der er altså ret stor spændvidde. Vi skal derfor have bredere rammer for, hvad man kan veje og stadig blive betragtet som sund og rask.
+
+--- <cite>[Morten Zacho](https://www.dr.dk/levnu/krop/du-skal-veje-mere-end-du-tror)</cite>
+
+Derfor foreslår Morten Zacho også en ny tabel for BMI.
+
+| Klassification  | BMI (kg/m<sup>2</sup>) | Note |
+|---------------|------------------------|-|
+| Undervægtig	  | < 20                   | Undervægt er meget usundt. Øg din vægt med sund kost og motion |
+| Normalvægt og overvægt	 	    | 20 - 30                | Ingen grund til vægttab, hvis du motionerer, spiser sundt og ikke har sygdomme |
+| Fedme	        | 30 - 35                | Langvarige og blivende livsstilsændringer vil være sundt. Korte slankekure vil være skidt. |
+| Svær fedme    | 35,0 -  | Vægttab vil være godt for din sundhed |
 
 ## Hvad med min muskelmasse og fedtprocent i forhold BMI?
 

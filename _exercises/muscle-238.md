@@ -12,6 +12,7 @@ header:
 tags:
   - kropsvægt
   - bar
+  - crossfit
 categories:
 training_type: 
 training_focus: 

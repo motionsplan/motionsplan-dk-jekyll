@@ -4,7 +4,7 @@ permalink: /balleoevelser/
 collection: exercises
 taxonomy: Baller # tag name
 entries_layout: grid # list (default), grid
-title: "Balleøvelser: De mest effektive styrkeøvelser til ballerne"
+title: "Balleøvelser: De mest effektive styrkeøvelser til ballerne 🏋"
 author_profile: true
 classes: wide
 sort_by: title # date (default) title
