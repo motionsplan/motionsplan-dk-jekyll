@@ -106,7 +106,7 @@ Du behøver som sådan ikke at lege for at lave funktionel træning. Fordelen ve
 
 ### 8. Hvordan kan jeg ellers variere min træning?
 
-Funktionel træning kan laves overalt. Du kan bruge forskellige redskaber. Der er fx forskel på at lave pullups i en stang og i gymnastikringe. Du kan også udfordre din [balanceevne med balancetræning]({% link _posts/2020-07-16-balancetræning.md %}). Du kan lave styrketræning med naturredskaber eller lave [træning med kropsvægt]({% link _posts/2009-08-04-traening-med-kropsvaegt.md %}). Du kan lave noget hårdt og intenst eller du kan arbejde med mindre intensitet.
+Funktionel træning kan laves overalt. Du kan bruge forskellige redskaber. Der er fx forskel på at lave pullups i en stang og i gymnastikringe. Du kan også udfordre din [balanceevne med balancetræning]({% link _posts/2020-07-16-balancetraening.md %}). Du kan lave styrketræning med naturredskaber eller lave [træning med kropsvægt]({% link _posts/2009-08-04-traening-med-kropsvaegt.md %}). Du kan lave noget hårdt og intenst eller du kan arbejde med mindre intensitet.
 
 ## Planlægning af funktionel træning
 

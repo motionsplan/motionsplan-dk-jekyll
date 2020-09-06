@@ -71,6 +71,8 @@ Nedenstående tabeller gælder for almindelige mennesker i Skandinavien og er s�
 | 50-64	| < 21       | 22-28 | 29-36  | 37-41 | > 42       |
 | 65-	  | < 19       | 20-26 | 27-34  | 35-39 | > 40       | 
 
+Tabellerne er lavet af Per-Olof Åstrand og suppleret med data fra danske børn og unge.
+
 ## Hvad er de højeste kondital der er målt?
 
 [Bjørn Dæhlie](https://da.wikipedia.org/wiki/Bj%C3%B8rn_D%C3%A6hlie) har uden for sæson fået målt et kondital på 96 ml/kg/min, hvilket må siges at være virkelig højt. Der går forlydender om, at den norske cyklist Oskar Svendsen har [slået rekorden for det højeste maksimale iltoptagelse, der er målt](https://www.procycling.no/3467273/) på 97,5 ml/min/kg.
@@ -162,8 +164,6 @@ Hvis du gerne selv vil teste dit kondital, så tjek alle de [forskellige konditi
 Skriv i kommentarerne, hvis du er klar til at læse, hvordan du forbedrer dit kondital, så bliver det den næste artikel, vi vil arbejde på.
 
 ## Referencer for kondition og kondital
-
-- Tabellerne er lavet af Per-Olof Åstrand og suppleret med data fra danske børn og unge --- [Hvad er konditallet?](https://www.motion-online.dk/hvad-er-konditallet/)
 
 {% include feature_row type="left" %}
 
