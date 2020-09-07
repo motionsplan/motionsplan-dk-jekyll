@@ -79,6 +79,15 @@
 
         var pal = pal_intense + pal_moderat + pal_light + pal_standing + pal_sleeping + pal_sitting;
         
+        // Calculate MET-energy
+        var met_energy_intense = weight * (met_intense * (activity_intense / 60));
+        var met_energy_moderat = weight * (met_moderat * (activity_moderat / 60));
+        var met_energy_light = weight * (met_light * (activity_light / 60));
+        var met_energy_standing = weight * (met_standing * (activity_standing / 60));
+        var met_energy_sitting = weight * (met_sitting * (activity_sitting / 60));
+        
+        var met_energy = met_energy_intense + met_energy_moderat + met_energy_light + met_energy_standing + met_energy_sitting;
+        
         // Calculate PAL from Gerrior
         var bmr_kcal = basicMeta / 4.2; // BMR is in kcal in formula
         var pal_intense = ((met_intense - 1) * ((1.15 / 0.9) * activity_intense) / 1440) / (bmr_kcal / (0.0175 * 1440 * weight));
@@ -130,6 +139,7 @@
         document.getElementById('pal_gerrior').value = pal_gerrior;
         document.getElementById('activity_sitting').value = activity_sitting;
         document.getElementById('bmr').value = basicMeta + " kJ";
+        document.getElementById('met_energy').value = met_energy * 4.2 + " kJ";
         document.getElementById('equilibrium').value = vedligehold + " kJ";
         document.getElementById('TEE').value = TEE + " kJ";
         return false;
@@ -199,6 +209,10 @@
         <div class="form-group">
             <label for="bmr">Basalstofskifte (BMR) (kJ)</label>
             <input name="bmr" id="bmr" disabled="disabled">
+        </div>
+        <div class="form-group">
+            <label for="met_energy">Energi fra fysisk aktivitetsniveau baseret på MET (kJ)</label>
+            <input name="met_energy" id="met_energy" disabled="disabled">
         </div>
         <div class="form-group">
             <label for="equilibrium">Stofskifte og ligevægtsindtag på en dag (kJ)</label>
