@@ -1036,6 +1036,7 @@ $(document).ready(function() {
 
         var b = bmr.EnergyExpenditure(koen, alder, vaegt, pal, sport);
 
+        $("[name='PAL']").val(b.getPhysicalActivityLevel());
         $("[name='BMR2']").val(b.getBasicMetabolicRate());
         $("[name='TEE2']").val(b.getTotalEnergyExpenditure());
         return false;
@@ -1052,6 +1053,7 @@ $(document).ready(function() {
 
         var b = ree.REE2012(koen, alder, vaegt, pal, sport);
 
+        $("[name='PAL']").val(b.getPhysicalActivityLevel());
         $("[name='BMR2']").val(b.getRestingEnergyExpenditure());
         $("[name='TEE2']").val(b.getTotalEnergyExpenditure());
         return false;
@@ -2217,11 +2219,12 @@ module.exports = motionsplan;
 },{}],18:[function(require,module,exports){
 let motionsplan = {}
 
-motionsplan.IdealWeight = function(h, sex) {
-  var h, sex;
+motionsplan.IdealWeight = function(height, sex) {
+  var h, height, sex;
 
+  height = height;
   // Formulas only works for people over 152
-  h = h - 152;
+  h = height - 152;
   sex = sex;
 
   function getRobinson() {
@@ -2252,11 +2255,30 @@ motionsplan.IdealWeight = function(h, sex) {
     return 45.5 + 0.91 * h;
   }
 
+  // Based on Zacho BMI Women 22,5 og Man 24,5  
+  function getZacho() {
+    var hgt = height / 100;
+    
+    /*
+    var weight_factor = 1 + (((localSliderX-5-buttonXOffset)/282)/6.25)-0.08;
+
+    0.9205673758865248
+    1
+    1.079432624113475
+    */
+    
+    if (sex == 'man') {
+      return (hgt * hgt) * 24.5;
+    } 
+    return (hgt * hgt) * 22.5;
+  }
+
   var publicAPI = {
     getHamwi : getHamwi,
     getDevine : getDevine,
     getMiller : getMiller,
-    getRobinson : getRobinson
+    getRobinson : getRobinson,
+    getZacho : getZacho
   };
 
   return publicAPI;

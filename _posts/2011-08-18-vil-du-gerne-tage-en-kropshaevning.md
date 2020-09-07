@@ -1,11 +1,11 @@
 ---
-title: &title "Kropshævninger: Hvordan lærer jeg at tage pullup og chinup?"
+title: &title "Kropshævninger: Hvordan lærer jeg at tage en pullup og chinup?"
 permalink: /artikel/vil-du-gerne-tage-en-kropshaevning/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1502955717682-d0430000b16d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=80
   teaser: https://images.unsplash.com/photo-1502955717682-d0430000b16d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
-  caption: *title
+  caption: "Kropshævninger: Hvordan lærer jeg at tage pullups og chinups?"
 tags:
   - styrketræning
   - guide
@@ -15,7 +15,7 @@ category:
 last_modified_at: 2020-09-02T22:27:53Z
 ---
 
-Vil du også gerne lære at tage en kropshævning, pullup eller en chinup? Jeg har skrevet en komplet guide til, hvordan du lærer at tage din første kropshævning, chinup eller pullup, og jeg foreslår et godt træningsprogram.
+Vil du også gerne lære at tage en kropshævning, pullup eller en chinup? Jeg har skrevet en komplet guide og træningsprogram til, hvordan du lærer at tage din første kropshævning, chinup eller pullup, og jeg foreslår et godt træningsprogram.
 
 Kropshævning er en af de absolut bedste overkropsøvelser, så du kan egentlig ikke komme i gang med den hurtigt nok. Kropshævninger kommer i to overordnede variationer - chinups og pullups - men der er et hav af andre variationer af kropshævninger.
 

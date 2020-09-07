@@ -633,6 +633,7 @@ $(document).ready(function() {
 
         var b = bmr.EnergyExpenditure(koen, alder, vaegt, pal, sport);
 
+        $("[name='PAL']").val(b.getPhysicalActivityLevel());
         $("[name='BMR2']").val(b.getBasicMetabolicRate());
         $("[name='TEE2']").val(b.getTotalEnergyExpenditure());
         return false;
@@ -649,6 +650,7 @@ $(document).ready(function() {
 
         var b = ree.REE2012(koen, alder, vaegt, pal, sport);
 
+        $("[name='PAL']").val(b.getPhysicalActivityLevel());
         $("[name='BMR2']").val(b.getRestingEnergyExpenditure());
         $("[name='TEE2']").val(b.getTotalEnergyExpenditure());
         return false;

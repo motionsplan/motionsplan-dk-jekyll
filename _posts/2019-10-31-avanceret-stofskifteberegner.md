@@ -1,5 +1,5 @@
 ---
-title: "🔥 Beregn dit stofskifte med avanceret stofskifteberegner?"
+title: "Beregn dit stofskifte 🔥 med avanceret stofskifteberegner?"
 permalink: /avanceret-stofskifteberegner/
 language: da
 header:
