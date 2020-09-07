@@ -10,6 +10,7 @@ category:
   - Beregnere
 tags:
   - stofskifte
+  - ligevægtsindtag
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 feature_row:
@@ -18,7 +19,7 @@ feature_row:
     title: "Exercise Physiology - Nutrition, Energy, and Human Performance"
     excerpt: "Skrevet af BS, William D., PhD McArdle, M.Ed, Frank I. Katch, Victor L. Katch."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://bogreolen.dk/exercise-physiology_bs_9781451193831"
-    btn_label: "Læs mere"
+    btn_label: "Læs mere*"
     btn_class: "btn--success"
 ---
 

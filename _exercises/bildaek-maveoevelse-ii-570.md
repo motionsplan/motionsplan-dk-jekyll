@@ -1,9 +1,10 @@
 ---
 title: "Bildæk, maveøvelse II"
-excerpt: ""
 instructions: ""
-permalink: /oevelse/bildæk-maveøvelse-ii/
-redirect_from: /node/570
+permalink: /oevelse/bildaek-maveoevelse-ii/
+redirect_from:
+  - /node/570
+  - /oevelse/bildæk-maveøvelse-ii/
 id: 570
 language: da
 header:

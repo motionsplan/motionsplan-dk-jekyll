@@ -1,7 +1,7 @@
 ---
 title: "Discgolf: 5 øvelser til skadesforebyggelse med elastik"
 excerpt: "Program med øvelser til forebyggelse af skulderskader i Discgolf med elastik."
-permalink: /program/discgolf-skade-prehab
+permalink: /program/discgolf-skade-prehab/
 redirect_from:
   - /node/652/pdf-compact
 language: da

@@ -1,5 +1,5 @@
 ---
-title: "Beregn dit stofskifte 🔥 med avanceret stofskifteberegner?"
+title: "Beregn dit hvilestofskifte 🔥 og dit daglige energiforbrug?"
 permalink: /avanceret-stofskifteberegner/
 language: da
 header:
@@ -13,14 +13,14 @@ tags:
   - stofskifte
 last_modified_at: 2020-08-06T23:14:14Z
 toc: true
-excerpt: "Jeg har lavet en beregner, hvor du kan udregne dit stofskifte og dit daglige energiforbrug på baggrund af dit hvilestofskifte og fysiske aktivitetsniveau. Jeg synes det er interessant at udregne, hvad mit basalstofskifte er i forhold min fysiske aktivitet for at se, hvad mit omtrentlige daglige energibehov er."
+excerpt: "I denne beregner kan du udregne dit daglige energiforbrug på baggrund af dit basalstofskifte (BMR) og fysiske aktivitetsniveau. Jeg synes det er interessant at udregne, hvad mit hvilestofskifte er i forhold min fysiske aktivitet for at se, hvad mit omtrentlige daglige energibehov er."
 ---
 
-Jeg har lavet en beregner, hvor du kan udregne dit stofskifte og dit daglige energiforbrug på baggrund af dit hvilestofskifte og fysiske aktivitetsniveau. Jeg synes det er interessant at udregne, hvad mit basalstofskifte er i forhold min fysiske aktivitet for at se, hvad mit omtrentlige daglige energibehov er.
+I denne beregner kan du udregne dit daglige energiforbrug på baggrund af dit basalstofskifte (BMR) og fysiske aktivitetsniveau. Jeg synes det er interessant at udregne, hvad mit hvilestofskifte er i forhold min fysiske aktivitet for at se, hvad mit omtrentlige daglige energibehov er.
 
 **Stofskiftet består af 3 hovedkomponenter: hvilestofskiftet (BMR), fødeinduceret termogenese (FIT) og fysisk aktivitet (PAL).**
 
-## Beregn dit stofskifte og basalstofskifte
+## Beregn dit daglige energiforbrug
 
 Med denne beregner kan du udregne dit hvilestofskifte, som også ofte kaldes basalstofskiftet, og dit samlede daglige energibehov. Resultatet er en gennemsnitsberegning for dit køn, din alder og din vægt.
 

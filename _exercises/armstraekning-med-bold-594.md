@@ -1,9 +1,10 @@
 ---
 title: "Armstrækning, med bold"
-excerpt: ""
 instructions: ""
-permalink: /oevelse/armstrækning-med-bold/
-redirect_from: /node/594
+permalink: /oevelse/armstraekning-med-bold/
+redirect_from:
+  - /node/594
+  - /oevelse/armstrækning-med-bold/
 id: 594
 language: da
 header:
@@ -59,5 +60,3 @@ gallery:
     title: "Armstrækning, med bold"
 last_modified_at: 2014-10-12T21:56:03Z
 ---
-
-

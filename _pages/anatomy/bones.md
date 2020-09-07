@@ -16,11 +16,15 @@ sidebar:
   nav: anatomi
 ---
 
-Skelettet består af knogler. Knoglerne afstiver kroppen og agerer vægtstænger for musklerne. Desuden beskytter knoglerne de vigtige organer.
+Skelettet består af knogler. Jeg beskriver her lidt om anatomi og de forskellige knogler i kroppen. Knoglerne i menneskekroppen findes i forskellige knogletyper. Jeg kommer ind på rørknogler, uregelmæssige knogler, flade knogler og korte knogler. 
 
-{% include figure image_path="/assets/images/anatomy/skeleton.png" alt="Skelettet består af knogler. Knoglerne afstiver kroppen og agerer vægtstænger for musklerne. Desuden beskytter knoglerne de vigtige organer." %}
+Knoglerne afstiver kroppen og agerer vægtstænger for musklerne. Desuden beskytter knoglerne i menneskekroppen de vigtige organer.
 
-Skelettet består af 206 knogler. Knoglerne har to primære funktioner:
+{% include figure image_path="/assets/images/anatomy/skeleton.png" caption="Skelettet består af knogler. Knoglerne afstiver kroppen og agerer vægtstænger for musklerne. Desuden beskytter knoglerne de vigtige organer." alt="Skelettet består af knogler. Knoglerne afstiver kroppen og agerer vægtstænger for musklerne. Desuden beskytter knoglerne de vigtige organer." %}
+
+Skelettet består af 206 knogler i kroppen for voksne. Jeg har skrevet et andet indlæg, der besvarer spørgsmålet: "[Hvad vejer skelettet og knoglerne?]({% link _posts/2020-05-31-hvad-vejer-skelettet.md %})".
+
+Knoglerne har to primære funktioner:
 
 - **Støttesystem** for resten af kroppen.
 - **Beskyttelse af indre organer**. Fx beskytter ribbenene lungerne og hjertet; kraniet beskytter hjernen; rygsøjlen skærmer nervesystemet.
@@ -39,7 +43,7 @@ Knoglerne er beklædt med en tynd hinde, som kan danne nye knogleceller indvendi
 
 Knoglernes primære funktion er at være tilhæftningsste for musklerne, og aktivitet påvirker knoglernes udformning. Knoglerne vokser i længden i epifyserne, som findes i hver ende af knoglen. Efter puberteten stopper væksten.
 
-## Knogletyper
+## Knogletyper i menneskekroppen
 
 Skelettet består af 206 knogler og udgør ca. 14-18% af din kropsvægt. Den længste og tungeste knogle er lårknoglen, der hos en mand på 70 kg vejer ca. 1 kg. Jeg har brugt tid på at researche, [hvad knogler vejer](/hvad-vejer-skelettet/), hvis du har lyst til at dykke mere ned i det emne.
 

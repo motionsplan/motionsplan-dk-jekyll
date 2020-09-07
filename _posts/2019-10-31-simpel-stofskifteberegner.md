@@ -1,15 +1,16 @@
 ---
-title: "Beregn dit stofskifte: Udregn dit daglige energiforbrug?"
+title: "Beregn dit stofskifte: Udregn dit daglige energiforbrug? 🔥"
 permalink: /simpel-stofskifte/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1551337948-0ad8de8568ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1925&q=80
   teaser: https://images.unsplash.com/photo-1551337948-0ad8de8568ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
-  caption: Beregn dit stofskifte, daglige energiforbrug og basalstofskifte
+  caption: Beregn dit stofskifte, daglige energiforbrug og basalstofskifte med vores BMR-beregner
 category:
   - Beregnere
 tags:
   - stofskifte
+  - hvilestofskifte
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 feature_row:
@@ -22,11 +23,11 @@ feature_row:
     btn_class: "btn--success"
 ---
 
-Jeg har lavet en beregner, hvor du kan udregne dit stofskifte og dit daglige energiforbrug på baggrund af dit hvilestofskifte og fysiske aktivitetsniveau. Jeg synes det er interessant at udregne, hvad mit basalstofskifte er i forhold min fysiske aktivitet for at se, hvad mit omtrentlige daglige energibehov er.
+Jeg har lavet en BMR-beregner, hvor du kan udregne dit stofskifte og dit daglige energiforbrug på baggrund af dit hvilestofskifte og fysiske aktivitetsniveau. Jeg synes det er interessant at udregne, hvad mit basalstofskifte er i forhold min fysiske aktivitet for at se, hvad mit omtrentlige daglige energibehov er.
 
 Hvad er stofskiftet? **Stofskiftet består af 3 hovedkomponenter: hvilestofskiftet (BMR), fødeinduceret termogenese (FIT) og fysisk aktivitet (PAL).**
 
-Hvad er hvilestofskiftet? **Kroppens hvilestofskifte eller på engelsk basal metabolic rate (BMR) er normalt den største komponent i stofskiftet. Hvilestofskiftet er en nogenlunde konstant størrelse. Normalt udgør hvilestofskiftet omkring 50-70% af den totale forbrænding. BMR er, hvad kroppen bruger af energi i fysisk og psykisk hvile.**
+Hvad er hvilestofskiftet og basalstofskiftet? **Kroppens hvilestofskifte kaldes også basalstofskiftet - eller på engelsk _basal metabolic rate (BMR)_ er normalt den største komponent i kroppens samlede stofskifte. Hvilestofskiftet ser en nogenlunde konstant størrelse. Normalt udgør hvilestofskiftet omkring 50-70% af den totale forbrænding. BMR er, hvad kroppen bruger af energi i fysisk og psykisk hvile.**
 
 Hvad er fødeinduceret termogenese? **FIT er den energi, kroppen bruger i forbindelse med et måltid (indtagelse, absorption, transport, forbrænding og lagring). Det er normalt omkring 10% af den indtagne energi. Energiomsætningen er øget i 3-12 timer afhængigt af måltidets energiindhold og sammensætning.**
 
@@ -38,13 +39,15 @@ Jeg har lavet en anden [beregner af hvilestofskiftet, som tager udgangspunkt i _
 
 Hvis ikke du har adgang til en testfacilitet, så kan stofskiftet estimeres med forskellige beregninger. Beregneren tager højde for vægten og dit køn.
 
-Med denne beregner kan du udregne dit hvilestofskifte, som også ofte kaldes basalstofskiftet, og dit samlede daglige energibehov. Beregneren er ret simpel og angiver dit aktivitetsniveau udfra nogle overordnede mål. Resultatet er en gennemsnitsberegning for dit køn, din alder og din vægt.
+Med denne beregner kan du udregne dit hvilestofskifte, som også ofte kaldes basalstofskiftet, og dit samlede daglige energibehov. Beregneren er ret simpel og angiver dit aktivitetsniveau udfra overordnede kategorier for fysisk aktivitet. 
+
+Resultatet er en gennemsnitsberegning for dit køn, din alder og din vægt.
 
 {% include calculate-metabolic-rate.html %}
 
 ## Baggrunden for stofskifteberegneren
 
-Beregningen er behæftet med stor usikkerhed. Værdierne er rettet mod "almindelige" mennesker og ikke meget aktive kredsløbsatleter, fx cykelryttere og triatleter.
+Beregningen af hvilestofskiftet er behæftet med stor en del usikkerhed. Værdierne er rettet mod "almindelige" mennesker og ikke meget aktive kredsløbsatleter, fx cykelryttere og triatleter, som kan have en noget mere aktiv forbrænding.
 
 ## Tabeller for udregning af hvilestofskiftet
 
@@ -79,7 +82,11 @@ Eksempel: en kvinde på 23 år som vejer 62 kg. har derfor et BMR på: BMR = 61,
 
 ## Hvordan måles hvilestofskiftet og basal metabolic rate (BMR)?
 
-Hvilestofskiftet måles efter 12-18 timers faste med personen i hvile og liggende i et tempereret lokale. Rent praktisk foregår dette om morgenen efter mindst 12 timer uden mad og stimulanser og inden nogen nævneværdig fysisk og psykisk aktivitet. Hård aktivitet dagen inden kan også påvirke BMR, og bør derfor undgås. Dette betegnes EPOC og omtales under ”fysisk aktivitet”.
+Hvilestofskiftet måles normalt efter 12-18 timers faste med personen i hvile og liggende i et tempereret lokale. Rent praktisk foregår dette om morgenen efter mindst 12 timer uden mad og stimulanser og inden nogen nævneværdig fysisk og psykisk aktivitet.
+
+Hård aktivitet dagen inden kan også påvirke BMR, og bør derfor undgås. Dette betegnes EPOC og omtales under ”fysisk aktivitet”.
+
+De færreste har adgang til en facilitet, hvor man kan få målt sit basalstofskifte. Derfor kan man i stedet udregne BMR og lave en beregning af sit energiforbrug.
 
 ## Hvilke faktorer har betydning for hvilestofskiftet?
 
@@ -135,9 +142,9 @@ Jeg har lavet en side, hvor du kan se på [MET-værdier for forskellige fysiske 
 
 ## Andre måder at udregne stofskiftet på
 
-Denne udregning af stofskiftet tager udgangspunkt i bogen [Nordiska Næringsrekommendationer 1996]
+Denne udregning af stofskiftet tager udgangspunkt i _Nordiska Næringsrekommendationer 1996_.
 
-I [Menneskets Ernæring](https://www.saxo.com/dk/menneskets-ernaering_arne-astrup_haeftet_9788762813762) af bl.a. Arne Astrup angiver de følgene formler til at udregne basalstofskiftet eller hvilestofskiftet.
+I [Menneskets Ernæring](https://www.saxo.com/dk/menneskets-ernaering_arne-astrup_haeftet_9788762813762) af bl.a. Arne Astrup angiver de følgende formler til at udregne basalstofskiftet eller hvilestofskiftet.
 
 - Basalstofskifte (MJ/døgn) = 0,09 * FFM (kg) + 1,55
 

@@ -1,9 +1,10 @@
 ---
 title: "Bildæk, lunges"
-excerpt: ""
 instructions: ""
-permalink: /oevelse/bildæk-lunges/
-redirect_from: /node/580
+permalink: /oevelse/bildaek-lunges/
+redirect_from:
+  - /node/580
+  - /oevelse/bildæk-lunges/
 id: 580
 language: da
 header:

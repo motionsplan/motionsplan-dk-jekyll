@@ -3,7 +3,7 @@ title: "Mål din fedtprocent med målebånd (Navy-metoden)"
 permalink: /fedtprocent-navy/
 redirect_from:
   - /measure-fp/
-excerpt: "Du kan udregne din fedtprocent på baggrund af enkelte kropsmålinger, der kan laves med et målebånd."
+excerpt: "Udregn din fedtprocent på baggrund af Navy-metoden, som er enkelte kropsmålinger, der kan laves med et målebånd."
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1530530488105-64664c7213bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80
@@ -31,3 +31,7 @@ feature_row:
 ## Udfør testen og beregn fedtprocenten
 
 {% include calculate-fat-percent-navy.html %}
+
+## Anden fedttest med målebånd
+
+Jeg har også beskrevet en anden [fedtprocentmåling, som kan laves med målebånd]({% link _posts/2019-10-14-fedtprocent-maalebaand.md %}).
