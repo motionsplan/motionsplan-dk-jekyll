@@ -1,9 +1,10 @@
 ---
 title: "Bildæk, prowler"
-excerpt: ""
 instructions: ""
-permalink: /oevelse/bildæk-prowler/
-redirect_from: /node/568
+permalink: /oevelse/bildaek-prowler/
+redirect_from:
+  - /node/568
+  - /oevelse/bildæk-prowler/
 id: 568
 language: da
 header:

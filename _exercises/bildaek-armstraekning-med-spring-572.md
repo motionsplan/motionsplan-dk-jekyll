@@ -1,9 +1,10 @@
 ---
 title: "Bildæk, armstrækning med spring"
-excerpt: ""
 instructions: ""
-permalink: /oevelse/bildæk-armstrækning-med-spring/
-redirect_from: /node/572
+permalink: /oevelse/bildaek-armstraekning-med-spring/
+redirect_from:
+  - /node/572
+  - /oevelse/bildæk-armstrækning-med-spring/
 id: 572
 language: da
 header:

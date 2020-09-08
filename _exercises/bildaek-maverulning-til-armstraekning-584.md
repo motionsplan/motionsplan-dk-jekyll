@@ -1,9 +1,10 @@
 ---
 title: "Bildæk, maverulning til armstrækning"
-excerpt: ""
 instructions: ""
-permalink: /oevelse/bildæk-maverulning-til-armstrækning/
-redirect_from: /node/584
+permalink: /oevelse/bildaek-maverulning-til-armstraekning/
+redirect_from:
+  - /node/584
+  - /oevelse/bildæk-maverulning-til-armstrækning/
 id: 584
 language: da
 header:

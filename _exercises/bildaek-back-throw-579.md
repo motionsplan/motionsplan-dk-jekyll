@@ -1,9 +1,10 @@
 ---
 title: "Bildæk, back throw"
-excerpt: ""
 instructions: ""
-permalink: /oevelse/bildæk-back-throw/
-redirect_from: /node/579
+permalink: /oevelse/bildaek-back-throw/
+redirect_from:
+  - /node/579
+  - /oevelse/bildæk-back-throw/
 id: 579
 language: da
 header:

@@ -1,9 +1,10 @@
 ---
 title: "Bildæk, maveøvelse"
-excerpt: ""
 instructions: ""
-permalink: /oevelse/bildæk-maveøvelse/
-redirect_from: /node/569
+permalink: /oevelse/bildaek-maveoevelse/
+redirect_from:
+  - /node/569
+  - /oevelse/bildæk-maveøvelse/
 id: 569
 language: da
 header:
