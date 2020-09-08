@@ -13,25 +13,20 @@ tags:
   - stofskifte
 last_modified_at: 2020-08-31T23:14:14Z
 toc: true
-feature_row:
-  - image_path: https://cdn6.tales.dk/00039/91685/cover.1589756619.jpg
-    alt: "Exercise Physiology - Nutrition, Energy, and Human Performance"
-    title: "Exercise Physiology - Nutrition, Energy, and Human Performance"
-    excerpt: "Skrevet af BS, William D., PhD McArdle, M.Ed, Frank I. Katch, Victor L. Katch."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://bogreolen.dk/exercise-physiology_bs_9781451193831"
-    btn_label: "Læs mere"
-    btn_class: "btn--success"
 ---
 
-Jeg har lavet en beregner, hvor du kan udregne dit hvilestofskifte og på baggrund af det dit daglige energibehov og ligevægtsindtag. Jeg synes det er interessant at udregne, hvad mit basalstofskifte er i forhold min fysiske aktivitet for at se, hvad mit omtrentlige daglige energibehov er.
+Jeg har lavet en beregner til at udregne dit daglige energibehov på baggrund af dit hvilestofskifte. Beregneren er baseret på Nordic Nutrition Recommandations fra 2012, og du udregner dit hvilestofskiftet og basalstofskifte på baggrund af alder, vægt og højde og sammen med dit fysiske aktivitetsniveau kan vi estimere det omtrentlige daglige energibehov.
 
-Hvordan kan jeg udregne mit energibehov? **Du kan udregne dit energibehov ved at bruge anbefalingerne fra Nordic Nutrition Recommendations 2012. Du skal bruge din vægt og så slår du formlen op i en tabel baseret på din alder. Derefter ganger du med en faktor, der beskriver dit fysiske energiniveau på en dag. Der er en alternativ formel for hvilestofskiftet i samme anbefalinger, hvor du også bruger din højde til at udregne hvilestofskiftet.**
+Hvordan kan jeg udregne mit daglige energibehov? **Du kan udregne dit daglige energibehov ved at bruge anbefalingerne fra Nordic Nutrition Recommendations 2012. Du skal bruge din vægt og så slår du formlen op i en tabel baseret på din alder. Derefter ganger du med en faktor, der beskriver dit fysiske energiniveau på en dag. Der er en alternativ formel for hvilestofskiftet i samme anbefalinger, hvor du også bruger din højde til at udregne hvilestofskiftet.**
 
-Denne beregner er baseret på [Nordic Nutrition Reccommandations 2012](https://www.norden.org/da/node/7832). Her udregner vi _average resting energy expenditure_ (REE), som vi ganger med den del af stofskiftet, der påvirkes af det fysiske aktivitetsniveau, PAL. Det er denne formel, man har valgt at bruge på [Fitness Institutes uddannelse af personlige trænere](https://fitness-institute.dk/).
-
-Jeg har lavet en anden [beregner af stofskiftet, som tager udgangspunkt i _Nordiska Næringsrekommendationer 1996_]({% link _posts/2019-10-31-simpel-stofskifteberegner.md %}). Jeg har også lavet en [avanceret beregner af dit daglige energibehov, hvor den fysiske aktivitet bliver angivet lidt mere præcist]({% link _posts/2019-10-31-avanceret-stofskifteberegner.md %}). Endelig har jeg lavet en [beregner af ligevægtsindtaget]({% link _posts/2019-10-31-ligevaegtsberegner.md %}).
+Denne beregner er baseret på [Nordic Nutrition Recommandations 2012](https://www.norden.org/da/node/7832). Her udregner vi _average resting energy expenditure_ (REE), som vi ganger med den del af stofskiftet, der påvirkes af det fysiske aktivitetsniveau, PAL. Det er denne formel, man har valgt at bruge på [Fitness Institutes uddannelse af personlige trænere](https://fitness-institute.dk/).
 
 *[REE]: Average Resting Energy Expenditure
+*[BMR]: Kroppens hvilestofskifte (basic metabolic rate)
+*[PAL]: Fysisk aktivitetsniveau (Physical Acitivity Level)
+*[FIT]: Fødevare induceret termogenese
+*[TEE]: Total energiomsætning
+*[kJ]: KiloJoule
 
 Stofskiftet består af 3 hovedkomponenter: hvilestofskiftet (BMR), fødeinduceret termogenese (FIT) og fysisk aktivitet (PAL). Du kan [læse en lidt mere uddybende forklaring af, hvad stofskiftet er]({% link _posts/2019-10-31-avanceret-stofskifteberegner.md %})
 
@@ -45,13 +40,9 @@ Med denne beregner kan du udregne dit hvilestofskifte (REE), og dit samlede dagl
 
 Beregningen er behæftet med stor usikkerhed. Værdierne er rettet mod "almindelige" mennesker og ikke meget aktive kredsløbsatleter, fx cykelryttere og triatleter.
 
-## Tabeller for udregning af hvilestofskiftet
+## Formel for udregning af energibehov
 
-Tabellerne og beregneren af stofskiftet er baseret på værdier fra _Nordiska næringsrekommendationer 1996_.
-
-### Formel til at beregne hvilestofskiftet
-
-#### Mænds hvilestofskifte - Resting Energy Expenditure
+### Udregning af mænds hvilestofskifte
 
 I forhold til [Nordic Nutrition Reccommandations 2012](https://www.norden.org/da/node/7832), så har jeg flyttet lidt rundt på formlerne for REE baseret på vægt og højde. Det har jeg gjort fordi, der står i den oprindelige reference at den sidste formel gælder for alle over 60 år. Og da der ikke stod en form under 19-30-årige forestiller jeg mig, at det er en fejl.
 
@@ -63,7 +54,7 @@ I forhold til [Nordic Nutrition Reccommandations 2012](https://www.norden.org/da
 | 61-70	  | 0,0543 W + 2,37 | 0,0748 W + 2,26 H - 1,070 |
 | over 70	| 0,0573 W + 2,01 | 0,0748 W + 2,26 H - 1,070 |
 
-#### Kvinders hvilestofskifte - Resting Energy Expenditure
+### Udregning af kvinders hvilestofskifte
 
 | Alder   | REE (MJ/dag) baseret på vægt  | REE (MJ/dag) baseret på vægt og højde |
 |---------|-----------------|----------------------------|
@@ -78,7 +69,7 @@ W er vægt i kg. H er højde i meter.
 Eksempel: en mand på 25 år, der vejer 80 kg har et hvilestofskifte på: REE = (0,0669 * 80 kg) + 2,28 = 7,632 MJ/dagligt = 7632 kJ = 1817 kcal. Jeg har skrevet lidt mere om, hvad [kalorier (cal) og kilokalorier (kcal) er her]({% link _posts/2020-07-09-kalorier.md %}).
 {: .notice .notice--info }
 
-### Fysisk aktivitetsniveau i forhold til hvilestofskiftet (PAL)
+### Fysisk aktivitetsniveau (PAL) og energibehov
 
 | Aktivitetsniveau	                                                                                                  | PAL     |
 |---------------------------------------------------------------------------------------------------------------------|---------|
@@ -94,20 +85,14 @@ PAL skal ganges med BMR for at estimere ens daglige stofskifte.
 **Eksempel:** Manden fra eksemplet ovenfor arbejder på et kontor, hvor han ikke bevæger sig meget (PAL = 1,4-1,5). Hun er dog rimeligt aktiv i fritiden (PAL + 0,3). REE (7632 kJ) gange med PAL (1,7) = 12.974 kJ. Mandens samlede daglige stofskifte og energibehov (ligevægtsindtag) er altså cirka 13.000 kJ ifølge denne beregner.
 {: .notice .notice--info }
 
-## Mere avanceret udregning af dagligt energibehov
+## Flere beregnere til dagligt energibehov
 
-Jeg har også lavet en [avanceret beregner af dit daglige energibehov, hvor den fysiske aktivitet bliver angivet lidt mere præcist]({% link _posts/2019-10-31-avanceret-stofskifteberegner.md %}). Hvis du gerne vil have en beregner på engelsk, så kan du finde den på  [health-calc.com](https://www.health-calc.com/diet/energy-expenditure-advanced).
+Jeg har lavet en anden [beregner af stofskiftet, som tager udgangspunkt i _Nordiska Næringsrekommendationer 1996_]({% link _posts/2019-10-31-simpel-stofskifteberegner.md %}). Jeg har også lavet en [avanceret beregner af dit daglige energibehov, hvor den fysiske aktivitet bliver angivet lidt mere præcist]({% link _posts/2019-10-31-avanceret-stofskifteberegner.md %}). Endelig har jeg lavet en [beregner af ligevægtsindtaget]({% link _posts/2019-10-31-ligevaegtsberegner.md %}).
+
+Hvis du gerne vil have en beregner af energibehov på engelsk, så kan du finde en på  [health-calc.com](https://www.health-calc.com/diet/energy-expenditure-advanced).
 
 [Avanceret stofskifte beregner]({% link _posts/2019-10-31-avanceret-stofskifteberegner.md %}){: .btn .btn--large .btn--success }
 
-*[BMR]: Kroppens hvilestofskifte (basic metabolic rate)
-*[PAL]: Fysisk aktivitetsniveau (Physical Acitivity Level)
-*[FIT]: Fødevare induceret termogenese
-*[TEE]: Total energiomsætning
-*[kJ]: KiloJoule
-
 ## Referencer til hvilestofskifte, stofskifte, energibehov og ligevægtsindtag
-
-{% include feature_row type="left" %}
 
 - [Nordic Nutrition Reccommandations 2012](https://www.norden.org/da/node/7832)
