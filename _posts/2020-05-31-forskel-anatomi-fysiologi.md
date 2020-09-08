@@ -75,7 +75,7 @@ At lære _fysiologien_ handler om at forstå de enkelte systemer, og hvordan de 
  
 Fysiologien behandler mest det cellulære og molekylære niveau. Kroppens egenskaber afhænger af, hvad der sker i de enkelte celler, og cellernes egenskaber afhænger af de kemiske reaktioner i dem.
 
-Hvis du vil læse mere om fysiologi, så har [Saxo et ret stort udbud](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/alle/tags_fysiologi).
+Hvis du vil læse mere om fysiologi, så har [Saxo et ret stort udbud](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/alle/tags_fysiologi){:rel="nofollow"}.
 
 ## Hvad hører til anatomi?
 
@@ -94,7 +94,7 @@ Anatomi omfatter viden om:
 - Bevægelsestyper
 - Muskler
 
-Hvis du vil læse mere om anatomi, så har [Saxo nogle rigtig gode titler](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/alle/tags_anatomi).
+Hvis du vil læse mere om anatomi, så har [Saxo nogle rigtig gode titler](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/alle/tags_anatomi){:rel="nofollow"}.
 
 ## Eksempler på hvad der hører til anatomien og fysiologien
 

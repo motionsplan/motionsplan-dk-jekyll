@@ -30,7 +30,7 @@ Denne viden er baseret på et stort studie med 933 løbere mellem 18 og 65 år, 
 
 Studiet viste også, at nybegyndere hyppigere får skader, og hvis man tidligere har været skadet er det mere sandsynligt, at man igen får en skade. Løbernes kropsvægt havde også betydning. 
 
-Det er ikke løbeskoene, der forebygger skader. [Hverken støddæmpning i sko](https://www.motion-online.dk/daempning-loebesko-forhindrer-ikke-skader/) eller [løbesko med korrektion forebygger skader](https://politiken.dk/forbrugogliv/motion/art5429312/Stabiliserende-l%C3%B8besko-giver-flere-l%C3%B8beskader) og nogle læger [fraråder endda løbeanalyser](https://politiken.dk/forbrugogliv/motion/art5469708/L%C3%A6ge-Drop-l%C3%B8beb%C3%A5ndstest-og-v%C3%A6lg-selv-dine-sko). 
+Det er ikke løbeskoene, der forebygger skader. [Hverken støddæmpning i sko](https://www.motion-online.dk/daempning-loebesko-forhindrer-ikke-skader/){:rel="nofollow"} eller [løbesko med korrektion forebygger skader](https://politiken.dk/forbrugogliv/motion/art5429312/Stabiliserende-l%C3%B8besko-giver-flere-l%C3%B8beskader) og nogle læger [fraråder endda løbeanalyser](https://politiken.dk/forbrugogliv/motion/art5469708/L%C3%A6ge-Drop-l%C3%B8beb%C3%A5ndstest-og-v%C3%A6lg-selv-dine-sko). 
 
 Træningsmetoden ser altså ud til at være noget af det vigtigste, og her kommer [restitution](/artikel/restition-hvordan-bliver-jeg-hurtigst-klar-igen) naturligvis også ind i billedet.
 

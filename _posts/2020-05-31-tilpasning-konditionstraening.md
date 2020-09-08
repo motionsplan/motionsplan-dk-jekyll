@@ -171,7 +171,7 @@ Jeg har skrevet en grundig artikel om, [hvordan du tester dit kondital med og ud
 
 Vi har også skrevet et indlæg, der handler om [fysiologiske tilpasninger til styrketræning]({% link _posts/2020-06-19-styrketraening-fysiologisk.md %}).
 
-Hvis du vil lære mere om fysiologi og arbejdsfysiologi, så har [Saxo rigtig mange gode bøger om emnet\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/products/search?query=fysiologi).
+Hvis du vil lære mere om fysiologi og arbejdsfysiologi, så har [Saxo rigtig mange gode bøger om emnet\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/products/search?query=fysiologi){:rel="nofollow"}.
 
 ## Referencer
 

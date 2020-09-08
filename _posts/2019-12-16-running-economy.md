@@ -131,11 +131,11 @@ Denne minimumsgrænse blev fundet på tværs af løbere, der løb på tre forske
 
 ## Ulempen ved at bruge iltoptagelsen som mål for løbeøkonomien
 
-Claus Hechmann påpeger et problem med at bruge iltoptagelsen som eneste mål for løbeøkonomien. Han skriver i [Løb som eliten\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390) et eksempel med den tidligere danske løber, Henrik Jørgensen, som fik målt sin iltoptagelse til 59,8 ml/min/kg på maratontempo, mens den efterfølgende var steget til 64 ml/min/kg efter 12 ugers træning. Det fik forskerene til at konkludere, at Henrik Jørgensens løbeøkonomi var blevet forværret:
+Claus Hechmann påpeger et problem med at bruge iltoptagelsen som eneste mål for løbeøkonomien. Han skriver i [Løb som eliten\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390){:rel="nofollow"} et eksempel med den tidligere danske løber, Henrik Jørgensen, som fik målt sin iltoptagelse til 59,8 ml/min/kg på maratontempo, mens den efterfølgende var steget til 64 ml/min/kg efter 12 ugers træning. Det fik forskerene til at konkludere, at Henrik Jørgensens løbeøkonomi var blevet forværret:
 
 > Efter min mening er der ingen tivvl om, at man havde misforstået fysiologien bag. Man glemte simpelthen at tage højde for, hvordan energiomsætningen finder sted i musklerne -- om det er med fedt eller kulhydrat som substrat. Det er for så vidt rigtigt nok, at en højere iltoptagelse ved en given hastighed (for eksempel maratontempo) altid er et udtryk for en højere energiomsætning. **Men det er ikke rigtigt, at dette nødvendigvis er et udtryk for en dårligere løbeøkonomi.** Tværtimod, for hvis en større procentdel af energien kommer fra fedtforbrænding, kan løbeøkonomien sagtens være forbedret.
 
---- <cite>[Claus Hechmann\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390)</cite>
+--- <cite>[Claus Hechmann\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390){:rel="nofollow"}</cite>
 
 Claus Hechmann skriver efterfølgende lidt beklagende om fortolkningen af træningsstudiet, at man i store dele af <q>det danske atletikmiljø ... skiftede fokus fra mængdetræning til højintensitetstræning.</q>
 

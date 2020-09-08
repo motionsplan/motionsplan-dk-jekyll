@@ -76,9 +76,9 @@ Hvis du gerne vil bruge isbade, skal du nok overveje kun at gøre det efter udho
 
 Du skal også huske, at det er vanskeligt at lave et dobbeltblindet, placebo-kontrolleret studie. Man kan godt lave et studie, der sammenligner med en anden type restitutionsaktivitet, men hvis man ender i den kolde balje, så opdager man det i hvert fald.
 
-Hvis du gerne vil implementere isbade ind i din træning og restitution, så har [yourboots.dk lanceret et ret smart produkt med deres Cool sleeve](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=71899&htmlurl=https://yourboots.dk/cool/).
+Hvis du gerne vil implementere isbade ind i din træning og restitution, så har [yourboots.dk lanceret et ret smart produkt med deres Cool sleeve](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=71899&htmlurl=https://yourboots.dk/cool/){:rel="nofollow"}.
 
-{% include gallery caption="Tjek priserne for Cool hos [yourboots.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=71899&htmlurl=https://yourboots.dk/cool/)" %}
+{% include gallery caption="Tjek priserne for Cool hos [yourboots.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=71899&htmlurl=https://yourboots.dk/cool/){:rel=\"nofollow\"}" %}
 
 Hvilke erfaringer har du med kolde isbade i forhold til din træning?
 

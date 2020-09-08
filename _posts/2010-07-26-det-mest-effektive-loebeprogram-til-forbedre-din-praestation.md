@@ -42,7 +42,7 @@ Når du løber med høj intensitet i træningen, så får du både effekt på de
 
 Du kan udnytte [intervaltræning til løb]({% link _posts/2020-06-15-intervallob.md %}), hvis du gerne vil have [dit kondital til at stige]({% link _posts/2020-06-23-kondital-hvor-hurtigt.md %}), men du kan faktisk også gøre det meget enkelt ved at finde en gylden mellemvej mellem løbetræning med lav intensitet og løbetræning med høj intensitet.
 
-Det mest enkle og effektive træningsprogram, man kan forestille sig er utrolig effektivt. Her er det effektive løbeprogram (via [motion-online.dk](https://www.motion-online.dk/mest-effektive-loebeprogram/)):
+Det mest enkle og effektive træningsprogram, man kan forestille sig er utrolig effektivt. Her er det effektive løbeprogram (via [motion-online.dk](https://www.motion-online.dk/mest-effektive-loebeprogram/){:rel="nofollow"}):
 
 **5 km 3 gange om ugen i de højest mulige tempo.**
 

@@ -171,7 +171,7 @@ Husk også at teknikken stadig er vigtig, selvom du gerne vil løfte tungt. Der 
 
 - [Testing 1RM](https://www.scienceforsport.com/1rm-testing/)
 - Reynolds, Jeff M., Toryanno J. Gordon, og Robert Andrew Robergs. “Prediction of one repetition maximum strength from multiple repetition maximum testing and anthropometry.” Journal of strength and conditioning research 20, nr. 3 (2006): 584–92. <https://doi.org/10.1519/R-15304.1>.
-- [Morten Zacho](https://www.motion-online.dk/rm-beregner-teoretisk-baggrund/)
+- [Morten Zacho](https://www.motion-online.dk/rm-beregner-teoretisk-baggrund/){:rel="nofollow"}
 - [Jacob Beermann](https://maxer.dk/artikler/maxtest)
 
 {% include feature_row type="left" %}

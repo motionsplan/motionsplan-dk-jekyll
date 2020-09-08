@@ -32,4 +32,4 @@ Konklusioner fra metaanalyse af 140 styrketræningsstudier (Rhea et al 2003)
 ## Referencer
 
 - [A meta-analysis to determine the dose response for strength development.](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12618576&dopt=Abstract)[Rhea MR, Alvar BA, Burkett LN, Ball SD. Med Sci Sports Exerc. 2003 Mar;35(3):456-64.](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12618576&dopt=Abstract)
-- [Styrketræning: Optimal træningsdosering for begyndere og trænede](https://www.motion-online.dk/styrketraening-optimal-traeningsdosering-begyndere-traenede/)
+- [Styrketræning: Optimal træningsdosering for begyndere og trænede](https://www.motion-online.dk/styrketraening-optimal-traeningsdosering-begyndere-traenede/){:rel="nofollow"}

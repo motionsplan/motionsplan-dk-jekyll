@@ -61,7 +61,7 @@ Helt teknisk så aktiverer de proteinnedbrydende kemiske processer en signalvej,
 
 > Skal vi gøre det lidt billedligt, for forståelsens skyld, så medfører aktiveringen af UPP, at der bliver sat en slags ’ødelæg mig’ mærkater på muskelproteiner, hvorefter de bliver ført ind i en tøndeformet struktur, og bliver hakket i småstykker og spyttet ud som aminosyrer.
 
---- <cite>[Brian Henneberg](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/den-frygtede-pause-1620c1.html)</cite>
+--- <cite>[Brian Henneberg](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/den-frygtede-pause-1620c1.html){:rel="nofollow"}</cite>
 
 ## Hvilke faktorer spiller ind på hastigheden af tab i muskelmasse og muskelstyrke?
 
@@ -87,7 +87,7 @@ Bone et al (2016) har vist at mængden af glykogen i musklerne har indflydelse p
 
 Taaffe og Marcus (1997) lod deltagerne styrketræne i 24 uger. Deltagerne fik et øget tværsnitsareal på 26% og en styrkefremgang på 40%. Efter 12 ugers pause var tværsnitsarealet tilbage på udgangspunktet. Styrken var imidlertid kun faldet med 30%.
 
-[Løvind et al (2008, ej publiceret)](http://web.archive.org/web/20110606174913/http://www.motion-online.dk/styrketraening/styrke_-_artikler/nye_forskningsresultater:_hypertrofi_og_atrofi_-_saa_hurtigt_gaar_det/) undersøgte hvor hurtigt detræningsfasen går i forhold til muskelstørrelse og opdelt på muskelfibertyper. 13 utrænede unge mænd udførte først progressiv tung styrketræning tre gange om ugen i tre måneder. Dernæst var der en detræningsperiode på 90 dage.
+[Løvind et al (2008, ej publiceret)](http://web.archive.org/web/20110606174913/http://www.motion-online.dk/styrketraening/styrke_-_artikler/nye_forskningsresultater:_hypertrofi_og_atrofi_-_saa_hurtigt_gaar_det/){:rel="nofollow"} undersøgte hvor hurtigt detræningsfasen går i forhold til muskelstørrelse og opdelt på muskelfibertyper. 13 utrænede unge mænd udførte først progressiv tung styrketræning tre gange om ugen i tre måneder. Dernæst var der en detræningsperiode på 90 dage.
 
 I hele perioden tog forskerne muskelbiopsier og undersøgte tværsnitsarealet af de enkelt fibre for at se graden af hypertrofi og atrofi i perioden.
 

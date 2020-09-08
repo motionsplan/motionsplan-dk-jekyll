@@ -204,15 +204,15 @@ Mange bruger kosttilskuddet ZMA, fordi det bl.a. markedsføres med at:
 
 > ZMA bidrager til at vedligeholde et normalt testosteronniveau i blodet samt til at mindske træthed og udmattelse.
 
-— <cite>[Bodylab](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=22819&[https://www.bodylab.dk/shop/bodylab-zma-120-695p.html](https://www.bodylab.dk/shop/bodylab-zma-120-695p.html))</cite>
+— <cite>[Bodylab](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=22819&htmlurl=https://www.bodylab.dk/shop/bodylab-zma-120-695p.html){:rel="nofollow"}</cite>
 
 Og hvem kan ikke godt lide det, når man træner. ZMA står for Zink, Magnesium og B6-vitamin, så ideen er naturligvis at de tre mineraler har nogle positive egenskaber i kroppen. Og når de har det, så hjælper præparatet på netop det.
 
 Men det er jo kun rigtigt, hvis du har mangel på det, eller at det giver mening at have ekstra meget af det i kroppen.
 
-Magnesium er også altid en del af en [multivitaminpille](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=22819&htmlurl=https://www.bodylab.dk/shop/bodymin-252p.html), hvis du vælger at tage sådan en.
+Magnesium er også altid en del af en [multivitaminpille](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=22819&htmlurl=https://www.bodylab.dk/shop/bodymin-252p.html){:rel="nofollow"}, hvis du vælger at tage sådan en.
 
-Efterhånden er flere begyndt at reklamere med at indtage vitaminer og mineraler på spray, og magnesium er ingen undtagelse. Fx reklamerer [helsebixen.dk med en magnesiumoliespray](https://www.helsebixen.dk/shop/altiderm-mg12-optima-magnesiumolie.html)
+Efterhånden er flere begyndt at reklamere med at indtage vitaminer og mineraler på spray, og magnesium er ingen undtagelse. Fx reklamerer [helsebixen.dk med en magnesiumoliespray](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=24609&htmlurl=https://www.helsebixen.dk/shop/altiderm-mg12-optima-magnesiumolie.html){:rel="nofollow"}.
 
 Forskningen på området er dog stadig ret ny. Gröber et al (2017) konkluderer fx:
 
@@ -232,7 +232,7 @@ Det giver derimod mening at stille sig selv spørgsmålet: **hvor får jeg det b
 
 Når du kigger efter **det bedste magnesium**, så skal du kigge efter, at der er brugt det organisk-bundne _magnesium bisglycinat_, som har en langt bedre udnyttelsesgrad end fx det langt billigere alternativ _magnesium oxid_. Jeg foreslår, at du køber magnesium fra en dansk forhandler, som du stoler på.
 
-**Magnesium er relativt billigt**, så du kan ikke gå helt galt i byen. Magnesium indgår ofte i en kombination kaldet ZMB. Du kan bl.a. købe [ZMB billigt fra danske Bodylab\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=22819&htmlurl=https://www.bodylab.dk/shop/cms-search.html?Keyword=magnesium), som har et god ry. Hvis du gerne vil støtte Motionsplan, så får vi kommision, hvis du køber fra nogle af vores samarbejdspartnere.
+**Magnesium er relativt billigt**, så du kan ikke gå helt galt i byen. Magnesium indgår ofte i en kombination kaldet ZMB. Du kan bl.a. købe [ZMB billigt fra danske Bodylab\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=22819&htmlurl=https://www.bodylab.dk/shop/cms-search.html?Keyword=magnesium){:rel="nofollow"}, som har et god ry. Hvis du gerne vil støtte Motionsplan, så får vi kommision, hvis du køber fra nogle af vores samarbejdspartnere.
 
 ## Er det sikkert at indtage magnesium?
 
@@ -253,7 +253,7 @@ Magnesium danner fx uopløselige forbindelser med tetracyklin, som findes i anti
 Får man receptpligtig medicin eller benytter håndkøbsmedicin i en længere periode anbefales det generelt, at man kontakter sin læge eller forhører sig på apoteket med hensyn til vitaminer og eventuelt vitamintilskud.
 {: .notice .notice--info } 
 
-Magnesium indgår også i en række lægemidler, fx behandlingen af mavesår (Antacida) eller som et mildt afføringsmiddel, fx [Magnesia, som du kan købe hos Viivaa](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=23009&htmlurl=https://www.viivaa.dk/magnesia-orange-200-1166p.html).
+Magnesium indgår også i en række lægemidler, fx behandlingen af mavesår (Antacida) eller som et mildt afføringsmiddel, fx [Magnesia, som du kan købe hos Viivaa](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=23009&htmlurl=https://www.viivaa.dk/magnesia-orange-200-1166p.html){:rel="nofollow"}.
 
 ## Magnesium og D-vitamin
 

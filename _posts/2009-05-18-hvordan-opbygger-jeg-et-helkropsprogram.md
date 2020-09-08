@@ -1,11 +1,12 @@
 ---
-title: "Hvordan opbygger jeg et helkropsprogram?"
+title: &title "Hvordan opbygger jeg et helkropsprogram?"
 excerpt: "At opbygge et styrketræningsprogram, der gerne vil træne hele kroppen hver gang og en og tre gange om ugen og vil bruge omkring en time på hver træning."
 permalink: /artikel/hvordan-opbygger-jeg-et-helkropsprogram/
 language: da
 header:
   overlay_image: /assets/images/blog/hvordan-opbygger-jeg-et-helkropsprogram.jpg
   teaser: /assets/images/blog/hvordan-opbygger-jeg-et-helkropsprogram.jpg
+  caption: *title
 tags:
   - styrketræning
   - planlægning
@@ -38,7 +39,7 @@ Så har du det du behøver for at lave et varieret helkropsprogram. For at få d
 
 - **Langsom opstart**. Hvis du er begynder, skal du starte stille og roligt, når du starter på et nyt program. Derfor kan det som begynder være fornuftigt ikke at træne med for stor belastning. Husk at sener og knogler er noget langsommere til at tilpasse sig træning end muskler er.
 - **Slå en rekord hver gang**. Når du kommer til træning skal du gerne slå en rekord hver gang. Det kan være lidt mere vægt i en øvelse, eller lidt flere gentagelser, eller et ekstra set af en øvelse. På den måde sikrer du dig, at der er konstant fremgang.
-- **Organisér din træning**. Du bestemmer selv hvordan du organiserer din træning. Enten kan gøre en øvelse helt færdig og holde pauser imellem, eller du kan fx lave otte gentagelser af squat og i pausen lave pullups. Du kan læse mere på [Brug tiden effektivt i fitnesscenteret](https://www.motion-online.dk/brug-tiden-effektivt-fitnesscenteret/) på [motion-online.dk](http://motion-online.dk).
+- **Organisér din træning**. Du bestemmer selv hvordan du organiserer din træning. Enten kan gøre en øvelse helt færdig og holde pauser imellem, eller du kan fx lave otte gentagelser af squat og i pausen lave pullups. Du kan læse mere på [Brug tiden effektivt i fitnesscenteret](https://www.motion-online.dk/brug-tiden-effektivt-fitnesscenteret/){:rel="nofollow"} på [motion-online.dk](http://motion-online.dk){:rel="nofollow"}.
 - **Variér din træning**. Du skal sørge for at variere din træning. Brug fx det samme træningsprogram tre uger i træk, og derefter vælger du nogle nye øvelser.
 - Lær noget mere om styrketræning. Læs fx denne [kom i gang guide](/artikel/opbygning-af-program).
 

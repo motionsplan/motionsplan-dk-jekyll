@@ -63,7 +63,7 @@ Morten Zacho har imidlertid estimeret en formel, som bruges i beregneren ovenfor
 
 > Den teoretiske usikkerhed kan eksemplificeres ved at to tredjedele vil får vurderet konditallet korrekt indenfor en 15 % afvigelse. Ca. hver 20. person vil få sit kondital vurderet 30 % forkert.
 
---- <cite>[Morten Zacho](https://www.motion-online.dk/6-maaling-fysisk-kapacitet-monitorering-traening/)</cite>
+--- <cite>[Morten Zacho](https://www.motion-online.dk/6-maaling-fysisk-kapacitet-monitorering-traening/){:rel="nofollow"}</cite>
 
 ## Referencer
 

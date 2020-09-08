@@ -26,6 +26,6 @@ Kunne du godt tænke dig at blive rigtigt stærk? Det kræver den rette hjælp, 
 
 Det er en virkelig god bog til at blive klogere af, hvis du gerne vil blive stærk i de tre store løft.
 
-[Køb Stærk hos Saxo](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_indbundet_9788771801835) eller hos [Bodyman](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=20604&htmlurl=https://www.bodyman.dk/shop/staerk-jacob-beermann-36182p.html)
+[Køb Stærk hos Saxo](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_indbundet_9788771801835) eller hos [Bodyman](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=20604&htmlurl=https://www.bodyman.dk/shop/staerk-jacob-beermann-36182p.html){:rel="nofollow" class="btn btn--large btn--warning"}
 
 {% include feature_row type="left" %}

@@ -36,7 +36,7 @@ feature_row:
 
 Jeg har lavet en løbeberegner baseret på Løbesiden, der kan beregne dit træningstempo og konkurrencetider ud fra Jack Daniels Running Formula. Enhver løbeside med respekt for sig selv skal naturligvis have en løbsberegner.
 
-Den avancerede løbsberegner er baseret på [Jack Daniels Running Formula](https://runsmartproject.com/calculator/), og den kan udregne træningstider til din løbetræning og konkurrencetider. Jack Daniels har beskrevet det i sin bog [Running Formula\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/daniels-running-formula_jack-daniels_9781450431835). Tjek prisen på bogen hos [Tales\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/daniels-running-formula_jack-daniels_9781450431835).
+Den avancerede løbsberegner er baseret på [Jack Daniels Running Formula](https://runsmartproject.com/calculator/), og den kan udregne træningstider til din løbetræning og konkurrencetider. Jack Daniels har beskrevet det i sin bog [Running Formula\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/daniels-running-formula_jack-daniels_9781450431835){:rel="nofollow"}. Tjek prisen på bogen hos [Tales\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/daniels-running-formula_jack-daniels_9781450431835){:rel="nofollow"}.
 
 Ved at indtaste aktuelle konkurrencetider ind i løbeberegneren, kan du finde løbetider og hvilken tempo du bør træne efter i forskellige zoner og træningsmetoder.
 
@@ -73,11 +73,11 @@ Du skal kun indtaste tider ind i beregneren, som du rent faktisk har løbet. Hvi
 
 Træningstempoet udregnet ved hjælp af Jack Daniels Running Formula er ofte baseret på konkurrencetempo for fx 5 kilometer.
 
-Claus Hechmann påpeger i sin bog [Løb som eliten\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390), at udregninger baseret på så korte løb primært tager udgangspunkt i den maksimale iltoptagelse, men ikke tager højde for udholdenheden i tilstrækkelig grad.
+Claus Hechmann påpeger i sin bog [Løb som eliten\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390){:rel="nofollow"}, at udregninger baseret på så korte løb primært tager udgangspunkt i den maksimale iltoptagelse, men ikke tager højde for udholdenheden i tilstrækkelig grad.
 
 Det betyder i praksis for løbere, som ikke har en så god udholdenhed (altså evne til at bruge fedtforbrænding ved forskellige hastigheder), vil ende hastigheder i de langsommere løb, som ikke tilgodeser forbedring af fedtforbrændingen i tilstrækkeligt omfang.
 
-Hechmann foreslår i sin virkelig gode og grundige bog en 10 minutters test og en 60 minutters test for at få indblik i tempoet ved den maksimale iltoptagelse og tempoet ved den anaerobe tærskel. Du kan [tjekke prisen på Hechmanns bog hos Tales.dk\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390).
+Hechmann foreslår i sin virkelig gode og grundige bog en 10 minutters test og en 60 minutters test for at få indblik i tempoet ved den maksimale iltoptagelse og tempoet ved den anaerobe tærskel. Du kan [tjekke prisen på Hechmanns bog hos Tales.dk\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390){:rel="nofollow"}.
 
 Jeg har skrevet lidt mere om i det følgende, hvordan du kan bruge oplysningerne fra løbsberegneren til at planlægge din egen træning.
 
@@ -346,4 +346,4 @@ Jeg bliver også sommetider for ivrig og kommer til at løbe hurtigere på de li
 
 I disse tilfælde kan jeg også godt lide at planlægge min løbetræning på baggrund af min [puls og pulszonerne]({% link _posts/2019-10-31-intensitet-puls.md %}).
 
-{% include gallery id="feature_row" caption="Du kan købe bøgerne hos [Tales\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214) eller hos [Saxo\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264)." %}
+{% include gallery id="feature_row" caption="Du kan købe bøgerne hos [Tales\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214){:rel=\"nofollow\"} eller hos [Saxo\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264){:rel=\"nofollow\"}." %}

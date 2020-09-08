@@ -93,7 +93,7 @@ Du kan nu komme i gang med at udføre de fem tibetanere.
 
 ## Hvad er de fem tibetanere?
 
-Tibetanske munke lavede øvelserne taget fra yoga for at holde sig evigt unge, og det er vi jo nogle stykker, der gerne vil. Derfor var det også herligt, at Oberst Bradford førte disse øvelser til vesten. Han bragte bl.a. øvelserne videre til vennen Peter Kelder, som i slutningen af 1930'erne skrev bogen: [De Fem Tibetanere](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-bog-1).
+Tibetanske munke lavede øvelserne taget fra yoga for at holde sig evigt unge, og det er vi jo nogle stykker, der gerne vil. Derfor var det også herligt, at Oberst Bradford førte disse øvelser til vesten. Han bragte bl.a. øvelserne videre til vennen Peter Kelder, som i slutningen af 1930'erne skrev bogen: [De Fem Tibetanere](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-bog-1){:rel="nofollow"}.
 
 Jeg anbefaler dig helt klart at læse de to bøger, hvis du vil dykke ned i hele historien og baggrunden for, hvorfor de fem tibetanske øvelser er blevet så kendte og populære.
 
@@ -271,7 +271,7 @@ De 5 tibetanere påstås allerede efter et par ugers træning at kunne:
 
 ## Historien om de fem tibetanere
 
-I de næste par afsnit dykker jeg lidt ned i historien bag de fem tibetanere. De var aldrig blevet så udbredte og populære i vesten, hvis ikke Peter Kelder havde skrevet sin [anbefalelsesværdige bog\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-bog-1). Men hvordan fik Peter Kelder øjnene op for De fem tibetanere.
+I de næste par afsnit dykker jeg lidt ned i historien bag de fem tibetanere. De var aldrig blevet så udbredte og populære i vesten, hvis ikke Peter Kelder havde skrevet sin [anbefalelsesværdige bog\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-bog-1){:rel="nofollow"}. Men hvordan fik Peter Kelder øjnene op for De fem tibetanere.
 
 Hemmeligheden om _ungdommens kilde_ var i mange tusind år forbeholdt de tibetanske munke.
 

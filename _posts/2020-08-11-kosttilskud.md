@@ -39,7 +39,7 @@ Eric Helms har lavet en rigtig god introduktion til, hvordan man skal gribe sin 
 
 Som du kan se i pyramiden, så er kosttilskud noget du skal supplere med, når du har gjort dig umage for at få styr på alle de underliggende niveauer i kostpyramiden.
 
-Når Helsam lover at hjælpe med [hvilke kosttilskud man bør tage](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=66247&htmlurl=https://www.helsam.dk/artikler/forskelligt/hvilke-kosttilskud-skal-jeg-tage), så synes jeg det er lidt ærgerligt, at Helsam bare lister en lang række kosttilskud alfabetisk og fortæller om, hvad de enkelte vitaminer og mineraler kan. Der er ingen hjælp til, hvad man typisk får nok af i kosten.
+Når Helsam lover at hjælpe med [hvilke kosttilskud man bør tage](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=66247&htmlurl=https://www.helsam.dk/artikler/forskelligt/hvilke-kosttilskud-skal-jeg-tage){:rel="nofollow"}, så synes jeg det er lidt ærgerligt, at Helsam bare lister en lang række kosttilskud alfabetisk og fortæller om, hvad de enkelte vitaminer og mineraler kan. Der er ingen hjælp til, hvad man typisk får nok af i kosten.
 
 ## Hvilke kosttilskud virker?
 
@@ -49,7 +49,7 @@ Fisker Performance foreslår følgende [pyramide over kosttilskud, som virker](h
 
 Jeg har valgt at starte rækkefølgen af kostilskud ud fra ovenstående pyramide, fordi Fisker Performance ikke skal tjene penge på nogle særlige produkter, hvilket gør, at de har kigget på evidensen bag ved de enkelte kosttilskud i stedet for at se på indtjening enten ved direkte salg af kosttilskud eller gennem affiliate salg fra en hjemmeside.
 
-Det ser ud til, at Nikolaj Bach har revideret sin liste over kosttilskud i forhold til en [artikel](https://www.bodylab.dk/shop/kosttilskudshierarkiet-2894c1.html), han har skrevet for [Bodylab\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/kosttilskudshierarkiet-2894c1.html), hvor både fiskeolie og Leucin havde fundet vejen ind i top 5.
+Det ser ud til, at Nikolaj Bach har revideret sin liste over kosttilskud i forhold til en [artikel](https://www.bodylab.dk/shop/kosttilskudshierarkiet-2894c1.html), han har skrevet for [Bodylab\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/kosttilskudshierarkiet-2894c1.html){:rel="nofollow"}, hvor både fiskeolie og Leucin havde fundet vejen ind i top 5.
 
 ## Proteinpulver
 
@@ -105,9 +105,9 @@ Kreatin er også relativt sikkert at bruge. Studier har givet folk op til 30 gra
 
 Kreatin monohydrat er imidlertid utrolig billigt i forhold den potentielle positive effekt på muskelvæksten og muskelstyrken.
 
-Den **anbefalede dagsdosis af kreatin er 3 g**. Det koster altså kun omkring 100 kroner at dække et tre måneders forbrug af kreatin. Du kan se [priserne på kreatinpulver hos Bodylab\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/bodylab-kreatin-pulver-188p.html).
+Den **anbefalede dagsdosis af kreatin er 3 g**. Det koster altså kun omkring 100 kroner at dække et tre måneders forbrug af kreatin. Du kan se [priserne på kreatinpulver hos Bodylab\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/bodylab-kreatin-pulver-188p.html){:rel="nofollow"}.
 
-Noget tyder på, at det kan være godt at tage kreatin efter træning sammen med protein og kulhydrat for at få den største effekt (Antonio og Ciccone 2013), men mange starter også dagen med at tage dagsdosis af kreatin. Hvis du er interesseret i at læse mere om kreatin, så har Nikolaj Bach skrevet en [rigtig god indføring om, hvad kreatin er og hvordan det virker?](https://www.bodylab.dk/shop/ofte-stillede-spoergsmaal-1352c1.html) på [Bodylab\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/ofte-stillede-spoergsmaal-1352c1.html)
+Noget tyder på, at det kan være godt at tage kreatin efter træning sammen med protein og kulhydrat for at få den største effekt (Antonio og Ciccone 2013), men mange starter også dagen med at tage dagsdosis af kreatin. Hvis du er interesseret i at læse mere om kreatin, så har Nikolaj Bach skrevet en [rigtig god indføring om, hvad kreatin er og hvordan det virker?](https://www.bodylab.dk/shop/ofte-stillede-spoergsmaal-1352c1.html) på [Bodylab\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/ofte-stillede-spoergsmaal-1352c1.html){:rel="nofollow"}.
 
 ## Koffein
 
@@ -125,7 +125,7 @@ Hvis du vil indtage koffein, så skal du prøve dig lidt frem i forhold til hvil
 | Sensitiv over for stimulanser | 25 - 50 mg |
 | Almindelig startdosis | 75 - 100 mg |
 
-Den billigste måde at få koffein på er formentlig som et rent kosttilskud. Du kan se priserne hos [Bodylab\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/koffein-11c1.html). En pille koster omkring [50 øre med 100 mg\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/bodylab-caffeine-200-643p.html).
+Den billigste måde at få koffein på er formentlig som et rent kosttilskud. Du kan se priserne hos [Bodylab\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/koffein-11c1.html){:rel="nofollow"}. En pille koster omkring [50 øre med 100 mg\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/bodylab-caffeine-200-643p.html){:rel="nofollow"}.
 
 En direkte præstationsfremmende evidensbaseret dosis kræver nok mere, men den individuelle tolerance er meget forskellige.
 
@@ -221,7 +221,7 @@ Casper Jespersen understreger, at der er [4 vigtige ting at være opmærksom på
 - Du skal kigge efter **typen af bakterier**. De skal hedde Lactobacillus acidophilus, Lactobacillus rhamnosus, Lactobacillus plantarum, Bifidobacterium bifidum, Bifidobacterium longum, Lactobacillus salivarius.
 - Lav dine egne undersøgelser i litteraturen, så du ved om den probiotika du vælger er effektiv. Typen skal være stærk nok og give den korrekte effekt.
 
-Casper Jespersen anbefaler versionerne fra Udo's Choice®, som hedder hhv. Super8 Plus og Advanced Adult. Du kan købe begge versioner hos [Helsebixen\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=24609&htmlurl=https://www.helsebixen.dk/shop/catalogsearch/result/?q=probiotika), hvis du gerne vil tage Probiotika.
+Casper Jespersen anbefaler versionerne fra Udo's Choice®, som hedder hhv. Super8 Plus og Advanced Adult. Du kan købe begge versioner hos [Helsebixen\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=24609&htmlurl=https://www.helsebixen.dk/shop/catalogsearch/result/?q=probiotika){:rel="nofollow"}, hvis du gerne vil tage Probiotika.
 
 Hvis du ved mere om Probiotika og kan have lyst til at skrive et endnu mere evidensbaseret og dybdegående blogindlæg, så skriv endelig til os.
 

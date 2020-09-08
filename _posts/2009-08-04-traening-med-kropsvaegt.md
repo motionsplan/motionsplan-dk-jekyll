@@ -48,13 +48,13 @@ Det er befriende at kunne træne uden at have br. Hvis du har brug for et bevis 
 
 Man skal altid planlægge sin træning ud fra ens mål. Du kan sagtens få masser af udfordring ved kropsvægtøvelser, så længe du varierer dem. Men det kan også være, at du skal supplere din træning med fx maskiner eller frie vægte. Fx kan maskiner være en fordel, hvis man ikke er stærk nok til at udføre øvelserne med kropsvægt, og frie vægte er også fremragende i mange sammenhænge.
 
-Du kan også loade dine kropsvægtsøvelser med en vægtvest for at få endnu mere modstand i øvelserne. Jeg synes den her [vægtvest fra Kinetik](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67046&htmlurl=https://kinetikshop.dk/products/kinetik-vx1-vaegtvest) er fed og i forhold til kvaliteten er den ikke så dyr.
+Du kan også loade dine kropsvægtsøvelser med en vægtvest for at få endnu mere modstand i øvelserne. Jeg synes den her [vægtvest fra Kinetik](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67046&htmlurl=https://kinetikshop.dk/products/kinetik-vx1-vaegtvest){:rel="nofollow"} er fed og i forhold til kvaliteten er den ikke så dyr.
 
 {% include feature_row type="left" %}
 
 ## Yderligere inspiration
 
-- [Linksamling om bodyweight / Kettlebells / alternativ træning](http://www.motion-online.dk/fora/index.php?showtopic=29480&hl=kropsv%E6gt). Samling af links omkring øvelser med kropsvægt, kettlebells og alternativ træning lavet af brugerne af motion-online.dks forum. Posten er temmelig rodet, men der er flere gode links.
+- [Linksamling om bodyweight / Kettlebells / alternativ træning](http://www.motion-online.dk/fora/index.php?showtopic=29480&hl=kropsv%E6gt){:rel="nofollow"}. Samling af links omkring øvelser med kropsvægt, kettlebells og alternativ træning lavet af brugerne af motion-online.dks forum. Posten er temmelig rodet, men der er flere gode links.
 
 Jeg har også [skrevet lidt om cirkeltræning]({% link _posts/2020-06-16-cirkeltraening.md %}), som kan være en god måde at organisere dine kropsvægtsøvelser på.
 

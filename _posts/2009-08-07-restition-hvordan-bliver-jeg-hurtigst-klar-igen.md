@@ -57,6 +57,6 @@ Jeg har skrevet et indlæg om [restitutionstid]({% link _posts/2020-05-28-restit
 
 </div>
 
-[![](https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=55589)](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55589)
+[![](https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=55589)](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55589){:rel="nofollow"}
 
 <a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55254" target="_blank" rel="nofollow noopener"><img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=55254" border="0"></a>

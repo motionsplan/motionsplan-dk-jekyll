@@ -63,7 +63,7 @@ HR<sub>max</sub> = 208 – 0,7 x alder
 
 Denne formel har vist sig at være mere præcis end den tidligere tommelfingerregel for estimering af maxpuls[^note].
 
-[^note]: [Ny formel til beregning af aldersbestemt maximalpuls](https://www.motion-online.dk/ny-formel-beregning-aldersbestemt-maximalpuls/)
+[^note]: [Ny formel til beregning af aldersbestemt maximalpuls](https://www.motion-online.dk/ny-formel-beregning-aldersbestemt-maximalpuls/){:rel="nofollow"}
 
 ## Udregn dit kondital
 

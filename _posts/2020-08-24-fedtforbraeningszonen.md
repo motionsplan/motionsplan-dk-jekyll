@@ -52,7 +52,7 @@ Fedtforbrændingszonen er et begreb, som man ofte ser i forbindelse med træning
 
 Hvis man gerne vil tabe sig, så kan man godt blive fristet af en såkaldt fedtforbrændingszone. Der er imidlertid andre ting, der er meget vigtigere, hvis formålet med træningen er at tabe vægt. Navnet på fedtforbræningszonen kan således godt være lidt misvisende.
 
-Der er rigtig mange, der har [opfordrer til at glemme fedtforbrændingszonen](http://www.motion-online.dk/glem-fedtforbraendingszonen/) eller afviser [fedtforbrændingszonen som en myte](https://arndalspa.dk/glem-80er-myten-om-fedtforbraending-2/), men det synes jeg simplicerer den bagvedliggende fysiologi. Samtidig skubber det fokus hen på, at træning altid skal være intensiv for at have nogen gavnlig effekt.
+Der er rigtig mange, der [opfordrer til at glemme fedtforbrændingszonen](http://www.motion-online.dk/glem-fedtforbraendingszonen/){:rel="nofollow"} eller afviser [fedtforbrændingszonen som en myte](https://arndalspa.dk/glem-80er-myten-om-fedtforbraending-2/), men det synes jeg simplicerer den bagvedliggende fysiologi. Samtidig skubber det fokus hen på, at træning altid skal være intensiv for at have nogen gavnlig effekt.
 
 Det giver ikke mening at afvise at træne i en zone, hvis man gerne vil have et veludviklet energisystem. Hvis du træner med høj intensitet træner du energisystemet på en måde. Når du træner med lavere intensitet, så træner du energisystemet på en anden måde.
 
@@ -66,7 +66,7 @@ Det er relativt let ud fra den [respiratoriske udvekslingskvotient]({% link _pos
 
 ## Skal vi "glemme" fedtforbrændingszonen
 
-Morten Zacho var den første jeg læste, der skrev [glem fedtforbrændingszonen](http://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/). Det er vigtigt at holde sig for øje, hvad præmissen for Zachos artikel var.
+Morten Zacho var den første jeg læste, der skrev [glem fedtforbrændingszonen](http://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel="nofollow"}. Det er vigtigt at holde sig for øje, hvad præmissen for Zachos artikel var.
 
 Morten Zacho skrev om fedtforbrændingszonen i forhold vægttab, og han mente at mange andre ting er langt vigtigere.
 

@@ -212,9 +212,9 @@ Jeg udfører også ofte [De fem tibetanere]({% link _posts/2009-07-01-de-fem-tib
 
 Du behøver ikke noget udstyr for at kunne lave solhilsen. Det kan dog være meget rart med en yoga-måtte eller et andet underlag, hvor du kan stå godt fast på. Når du har et skridsikkert underlag, så kan du udføre øvelserne mere kraftfuldt og præcist.
 
-Hvis du sveder meget undervejs, når du laver yoga, så kan mange godt lide at bruge et skridsikkert yoga-håndklæde. Den intelligentekrop.dk har et [relativt billigt yogamåtte-håndklæde fra Equa\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/equa-yoga-handklaede-183-cm), hvis du har brug for det.
+Hvis du sveder meget undervejs, når du laver yoga, så kan mange godt lide at bruge et skridsikkert yoga-håndklæde. Den intelligentekrop.dk har et [relativt billigt yogamåtte-håndklæde fra Equa\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/equa-yoga-handklaede-183-cm){:rel="nofollow"}, hvis du har brug for det.
 
-Hvis du typisk laver en kort afspænding bagefter og har en tendens til at fryse, så ved jeg, at mange er glade for at have et tæppe. Den intelligentekrop.dk har et ret fedt [yogatæppe lavet af genbrugsfibre fra uld\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/uld-yogataeppe-genbrugsfibre-manduka).
+Hvis du typisk laver en kort afspænding bagefter og har en tendens til at fryse, så ved jeg, at mange er glade for at have et tæppe. Den intelligentekrop.dk har et ret fedt [yogatæppe lavet af genbrugsfibre fra uld\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/uld-yogataeppe-genbrugsfibre-manduka){:rel="nofollow"}.
 
 Hvis du kan lide artiklerne her fra Motionsplan og gerne vil støtte sitet, så kan du overveje at bruge vores partnere til at købe dine yoga-produkter. Så tjener vi lidt kommision, og du får nogle fede produkter.
 

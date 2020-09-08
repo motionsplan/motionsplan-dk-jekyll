@@ -83,7 +83,7 @@ Gentil et al (2016) have unge begyndere til at styrketræne i 10 uger. Efter de 
 
 > Studier har vist, at styrkefremgangen varierer blandt kvinder, der udfører styrketræning. Hvis man sætter utrænede mænd og kvinder til at udføre samme styrketræningsprogram, er den absolutte styrkefremgang størst hos mændene. Ser man derimod på den relative styrke som procentuel fremgang, vil kvindernes fremgang være lige så stor som mændenes – hvis ikke større.
 
---- <cite>[Andersen og Vela , Træningsmagasinet](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=20604&htmlurl=https://www.bodyman.dk/shop/cms-kvinderogstyrketraening.html)</cite>
+--- <cite>[Andersen og Vela, Træningsmagasinet](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=20604&htmlurl=https://www.bodyman.dk/shop/cms-kvinderogstyrketraening.html){:rel="nofollow"}</cite>
 
 ## Vokser kvinders muskler ligeså meget som mænds?
 

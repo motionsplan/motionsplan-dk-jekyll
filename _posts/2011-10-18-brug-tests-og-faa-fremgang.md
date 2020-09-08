@@ -58,6 +58,6 @@ Brug kommentarerne så vi alle kan blive klogere!
 
 ## Referencer
 
-- [Test dig i topform](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=20604&htmlurl=https://www.bodyman.dk/shop/cms-test-dig-til-topform.html)
+- [Test dig i topform](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=20604&htmlurl=https://www.bodyman.dk/shop/cms-test-dig-til-topform.html){:rel="nofollow"}
 
 <a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=24840" target="_blank" rel="nofollow noopener"> <img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=24840" border="0"></a>

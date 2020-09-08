@@ -21,4 +21,4 @@ Vil du også gerne have maksimalt udbytte af færrest mulige øvelser? Ofte afs�
 
 ## Referencer
 
-- Morten Zacho: [Essensen af et godt styrkeprogram](https://www.motion-online.dk/essensen-godt-styrketraeningsprogram/), [motion-online.dk](http://motion-online.dk)
+- Morten Zacho: [Essensen af et godt styrkeprogram](https://www.motion-online.dk/essensen-godt-styrketraeningsprogram/){:rel="nofollow"}, [motion-online.dk](http://motion-online.dk){:rel="nofollow"}
