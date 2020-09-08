@@ -13,12 +13,12 @@ tags:
   - stofskifte
 last_modified_at: 2020-08-06T23:14:14Z
 toc: true
-excerpt: "I denne beregner kan du udregne dit daglige energiforbrug på baggrund af dit basalstofskifte (BMR) og fysiske aktivitetsniveau. Jeg synes det er interessant at udregne, hvad mit hvilestofskifte er i forhold min fysiske aktivitet for at se, hvad mit omtrentlige daglige energibehov er."
+excerpt: "I denne beregner kan du udregne dit daglige energiforbrug på baggrund af dit basalstofskifte (BMR) og fysiske aktivitetsniveau. Jeg synes det er interessant at udregne, hvad mit hvilestofskifte er i forhold min fysiske aktivitet for at se, hvad mit omtrentlige daglige energiforbrug er."
 ---
 
 I denne beregner kan du udregne dit daglige energiforbrug på baggrund af dit basalstofskifte (BMR) og fysiske aktivitetsniveau. Jeg synes det er interessant at udregne, hvad mit hvilestofskifte er i forhold min fysiske aktivitet for at se, hvad mit omtrentlige daglige energibehov er.
 
-**Stofskiftet består af 3 hovedkomponenter: hvilestofskiftet (BMR), fødeinduceret termogenese (FIT) og fysisk aktivitet (PAL).**
+Hvad er det daglige energiforbrug? **Dit daglige energiforbrug består af 3 hovedkomponenter: hvilestofskiftet (BMR), fødeinduceret termogenese (FIT) og fysisk aktivitetsniveau (PAL). Når du har beregnet dit hvilestofskifte ganger man typisk med en PAL-faktor for at finde dit daglige energiforbrug.**
 
 ## Beregn dit daglige energiforbrug
 
@@ -26,7 +26,7 @@ Med denne beregner kan du udregne dit hvilestofskifte, som også ofte kaldes bas
 
 {% include calculate-stofskifte-avanceret.html %}
 
-## Lav præcis aktivitetsregistrering
+## Lav præcis aktivitetsregistrering til energiforbruget
 
 Din beregning af det daglige energibehov bliver mest præcist, hvis du er lidt omhyggelig med din aktivitetsregistrering.
 
@@ -34,7 +34,7 @@ Du kan udskrive følgende skema og udfylde det for en typisk dag. Når du har ud
 
 [Download skema](https://docs.google.com/document/d/1pWnzxIkn3h_deY7pavw-OnCxhvtSiyFfBZCoyJjj8dY/edit?usp=sharing){: .btn .btn--large .btn--info }
 
-## Baggrund for den avancerede stofskifteberegner
+## Baggrund for den avancerede udregning af energiforbrug
 
 Hvilestofskiftet bliver udregnet ud fra [Schofields formler](https://en.wikipedia.org/wiki/Schofield_equation) (1985) som også bruges af WHO. Der er aldersspecifikke formler for børn. 
 
@@ -50,7 +50,7 @@ Hvilestofskiftet bliver udregnet ud fra [Schofields formler](https://en.wikipedi
 | 30–60 | 48 × W + 3653 | 700 |
 | > 60 | 49 × W + 2459 | 686 |
 
-### Schofields formler for energibehov for kvinder
+### Schofields formler for energiforbrug for kvinder
 
 | Age | Equation (kJ/day) | SEE |
 |-|-|-|
@@ -70,7 +70,7 @@ Målet er altså, at beregneren bliver pålidelig både for børn, normalvægtig
 
 Hvis du kender algoritmerne bag udregneren på [health-calc.com](http://health-calc.com/diet/energy-expenditure-advanced), så skriv endelig.
 
-## Omregning af energibehov fra MET-værdier
+## Omregning af energiforbrug fra MET-værdier
 
 [Gerrior et al (2006)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1784117/) viser, hvordan man let udregner energibehovet. Jeg har taget udgangspunkt i dette for at bruge estimerede MET-værdier for aktivitetsniveauet til at udregne PAL.
 
@@ -84,10 +84,10 @@ Brian Henneberg gennemgår et studie, som [sammenligner præcisionen af formler 
 
 --- <cite>[Brian Henneberg](https://www.bodylab.dk/shop/hvilestofskifteformler-2881c1.html)</cite>
 
-## Se flere typer udregninger af stofskiftet
+## Udregn energibehov med andre beregnere
 
-Jeg har lavet en [simpel beregner til stofskiftet]({% link _posts/2019-10-31-simpel-stofskifteberegner.md %}), som er baseret på _Nordic Nutrition Recommandations fra 2012_ og en [beregner til udregning af ligevægtsindtaget]({% link _posts/2019-10-31-ligevaegtsberegner.md %}).
+Jeg har lavet en [simpel beregner til stofskiftet]({% link _posts/2019-10-31-simpel-stofskifteberegner.md %}), som er baseret på _Nordiska Næringsrekommendationer 1996_ eller en [beregner af energibehov]({% link _posts/2020-09-01-stofskifte-nordic-2012.md %}) baseret på _Nordic Nutrition Recommandations fra 2012_ og en [beregner til udregning af ligevægtsindtaget]({% link _posts/2019-10-31-ligevaegtsberegner.md %}).
 
-## Referencer
+## Referencer om udregning af dagligt energiforbrug
 
-Schofield, W.N. 1985. Predicting basal metabolic rate, new standards and review of previous work. Hum. Nutr. Clin. Nutr., 39C (suppl. 1): 5-41.
+- Schofield, W.N. 1985. Predicting basal metabolic rate, new standards and review of previous work. Hum. Nutr. Clin. Nutr., 39C (suppl. 1): 5-41. <https://pubmed.ncbi.nlm.nih.gov/4044297/>
