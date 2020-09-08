@@ -16,7 +16,7 @@ category:
 last_modified_at: 2020-06-07T08:34:44Z
 ---
 
-Jeg har sat mig ned for at undersøge, om det er kontinuerlig træning med lavere intensitet eller intervaltræning med høj intensitet, der er bedst for fedtforbrændingen? Intervaltræning og _high intensity training_ bliver oftere og oftere markedsført som virkelig effektivt til at sætte gang i fedtforbrændingen, fordi der er en høj efterforbrænding, mens man tidligere snakkede om en fedtforbrænding ved lavere intensiteter. 
+Jeg har sat mig ned for at undersøge, om det er kontinuerlig træning med lavere intensitet eller intervaltræning med høj intensitet, der er bedst for fedtforbrændingen? Intervaltræning og _high intensity training_ bliver oftere og oftere markedsført som virkelig effektivt til at sætte gang i en effektiv fedtforbrænding, fordi der er en høj efterforbrænding, mens man tidligere snakkede om en fedtforbrænding ved lavere intensiteter. 
 
 Lad os først kigge lidt på et par grundlæggende begreber.
 
@@ -27,9 +27,9 @@ Det er interessant, at der endnu ikke er et definitivt svar på, hvordan du beds
 
 Jeg gennemgår i det følgende fedtforbrændingszonen, efterforbrændingen og den videnskabelige evidens for _om high intensity interval training er bedre end kontinuerlig træning for at forbrænde fedt_?
 
-## Fedtforbrændingszonen
+## Fedtforbrændingszonen - effektiv fedtforbrænding?
 
-Vi har lært, at vi skal [glemme fedtforbrændingszonen](http://www.motion-online.dk/glem-fedtforbraendingszonen/) og holde en så høj intensitet, som vi kan holde til under træningen.
+Vi har lært, at vi skal [glemme fedtforbrændingszonen]({% link _posts/2020-08-24-fedtforbraeningszonen.md %}) og holde en så høj intensitet, som vi kan holde til under træningen.
 
 Det gælder om at finde et passende forhold mellem træningstid og intensitet, så man kan nå at restitutere, men man skal ikke lægge bånd på sig selv for at ramme en bestemt intensitet, fordi den giver en større fedtforbrænding.
 
@@ -103,13 +103,15 @@ Det tyder altså på, at hård intervaltræning er mere effektivt ift. at tabe f
 
 **Talanian (2007)** undersøgte kvinder, der hver dag i to uger lavede intervaltræning på stationære cykler. Efter de to uger undersøgte Talanian kvindernes præstation på en times kontinuerlig cykling med moderat intensitet. Det viste sig at deres evne til at forbrænde fedt var steget med 36% og deres aerobe kapacitet var 13% bedre. Det er interessant, at intervaltræning er med til at forbedre ens evne til at forbrænde fedt under moderat intensitet. Studiet mangler at gøre nøjagtigt rede for, om de kørte med nøjagtigt samme intensitet (eller om de kørte med lidt lavere intensitet, fordi de var kommet i bedre form, hvilket i så fald ville forklare den bedre fedtforbrænding). Studiet kunne følges op ad et studium, der målte direkte på kropskompositionen.
 
-## Konklusion
+## Konklusion ift. effektiv fedtforbrænding
 
 Den mest effektive træning til at hjælpe med fedttab er den træning du får lavet. Det kan godt være noget af en _hurdle_ at skulle gå _all out_ på sine træninger, så hvis du foretrækker træning med moderat intensitet, så kan du altså forbrænde meget ved det. 
 
 Det kunne være interessant med mere forskning, hvor de sammenligner forskellige træningsprotokoller med både HIIT og LISS i forhold til kropskompositionen over tid. Jeg tror ikke der er nogen tvivl om, at hvis du bruger nogenlunde den samme tid på træningen, så intervaller kunne være med til at øge fedtforbrændingen over tid.
 
-Uanset hvordan du træner, så gælder det stadig at en [fornuftig diæt kombineret med træning er den mest effektive vej til fedttab](https://www.motion-online.dk/motions-slankekuren/). 
+Uanset hvordan du træner, så gælder det stadig at en [fornuftig diæt kombineret med træning er den mest effektive vej til fedttab](https://www.motion-online.dk/motions-slankekuren/).
+
+Hvis du vil lave den bedste træning for fedtforbrænding, så kan målet nås på mange måder. Det væsentligste i dit træningsprogram for fedtforbrænding er, at du laver træning, som du kontinuerligt gider at lave over tid. Du kan altså både bruge intervalttræning og kontinuerlig træning som midler til en effektiv fedtforbrænding.
 
 Hvis vi isoleret ser på forbrændingen under træningen, så vil forbrændingen blive højere med intervaller, hvis du bruger samme tid på træningen, og intervaller på sigt kunne være med til at flytte din iltoptagelse mere end kontinuerlig træning.
 

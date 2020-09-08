@@ -6,7 +6,7 @@ language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1560073743-0a45c01b68c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1934&q=80
   teaser: https://images.unsplash.com/photo-1560073743-0a45c01b68c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
-  caption: *title
+  caption: "4 mmol-grænsen: Hvad er den aerobe og anaerobe tærskel og mælkesyregrænsen?"
 category:
   - Viden om
   - Fysiologi
@@ -22,7 +22,7 @@ tags:
 
 Den anaerobe tærskel eller mælkesyregrænsen er et meget udbredt begreb i konditionstræning og udholdenhedstræning, men der er stadig en del forvirring omkring begrebet anaerob tærskel, og hvordan det kan bruges i praksis? Mindre brugt er den aerobe tærskel, som jeg også berører i dette indlæg.
 
-Hvad er den anaerobe tærskel. **Den anaerobe tærskel er det tidspunkt, hvor kroppen ikke længere kan nå at fjerne mælkesyren (laktat), der produceres ved ved anaerobt arbejde med højere intensiteter.**
+Hvad er den anaerobe tærskel? **Den anaerobe tærskel er det tidspunkt, hvor kroppen ikke længere kan nå at fjerne mælkesyren (laktat), der produceres ved ved anaerobt arbejde med højere intensiteter.**
 
 ## Aerob og anaerob tærskel ud fra laktat
 
