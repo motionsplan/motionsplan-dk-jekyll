@@ -21,15 +21,15 @@ feature_row:
     alt: "WaterRower A1 Studio Romaskine Ask - til Roprogrammer, træningsprogrammer og intervaller til indendørs roning på romaskine"
     title: "WaterRower A1 Studio Romaskine Ask"
     excerpt: "WaterRower A1 Home er udført i ask og har en aluminiums skinne, som gør den træning ekstra komfortabel. Denne WaterRower er den billigste af de originale WaterRowers. Mange vælger WaterRower ud fra det smukke og stilrene design, men du får også en romaskine med et naturligt og jævt træk."
-    url: https://apuls.dk/waterrower-a1-studio-romaskine-ask
-    btn_label: "Tjek pris hos Apuls"
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=39091&htmlurl=https://apuls.dk/waterrower-a1-studio-romaskine-ask
+    btn_label: "Tjek pris hos Apuls*"
     btn_class: "btn--success"
   - image_path: https://www.fotoagent.dk/single_picture/11803/138/mega/Concept_2_model_D_sort(2).jpg
     alt: "Concept 2 - Model D Sort + PM5 - til Roprogrammer, træningsprogrammer og intervaller til indendørs roning på romaskine"
     title: "Concept 2 - Model D Sort + PM5"
     excerpt: "Concept 2 er for alle brugere, som ønsker at forkæle sig selv på højeste niveau med det bedste udstyr, der findes på markedet. Her får du centerkvaliteten med hjem i stuen i form af den vel- og anerkendte Concept 2 kvalitet, som giver dig en helt unik træningsoplevelse."
-    url: https://www.fitnessgruppen.dk/concept-2-model-d-sort-pm5/
-    btn_label: "Tjek pris hos Fitnessgruppen"
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/concept-2-model-d-sort-pm5/
+    btn_label: "Tjek pris hos Fitnessgruppen*"
     btn_class: "btn--success"
 ---
 
@@ -37,7 +37,7 @@ Jeg har været på udkig efter et træningsprogram til indendørs roning på rom
 
 Jeg vil gerne i gang med at ro lidt på romaskine for at genvinde lidt af min kondition. Derfor skrev jeg til Anders Krintel, som ved virkelig meget om at ro, og han var så venlig at give mig nogle af de bedste intervalprogrammer fra hans hjemmeside.
 
-{% include figure image_path="https://www.tvsyd.dk/files/styles/16_9_medium_2x/public/kaltura/2014/50/efe7144d-f067-4379-90d4-b29f8cd9028c.jpg" caption="Anders Krintel er  redaktør af [ropro.dk](http://ropro.dk/). Samtidig har Krintel været dansk mester omkring 40 gange kombineret i kano, kajak og kajakergomenter." alt="Anders Krintel har lavet ro programmer med intervaller til et indendørs træningsprogram til roning med intervaltræning" %}
+{% include figure image_path="https://www.tvsyd.dk/files/styles/16_9_medium_2x/public/kaltura/2014/50/efe7144d-f067-4379-90d4-b29f8cd9028c.jpg" caption="Anders Krintel er redaktør af [ropro.dk](http://ropro.dk/). Samtidig har Krintel været dansk mester omkring 40 gange kombineret i kano, kajak og kajakergometer." alt="Anders Krintel har lavet ro programmer med intervaller til et indendørs træningsprogram til roning med intervaltræning" %}
 
 Formålet med dette indlæg er selv at blive i stand til at udvælge intervaller til sit træningsprogram. Du kan naturligvis også bare ro kontinuerligt, men jeg kan godt lide at bryde min træning ned i intervaller.
 

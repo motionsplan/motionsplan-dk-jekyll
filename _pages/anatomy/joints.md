@@ -1,7 +1,7 @@
 ---
 layout: single
 title: &title "Led, ledtyper og bevægelser"
-excerpt: "Mellem knoglerne er der led, som kan opdeles i forskellige ledtyper. Leddene kan bevæge sig på forskellige måder for at give kroppen frihedsgrader."
+excerpt: "Led kan opdeles i ægte led og uægte led og forskellige ledtyper: ægled, saddelled, hængselled, glideled, drejeled og kugleled."
 permalink: /led/
 author_profile: true
 header:
@@ -41,6 +41,8 @@ sidebar:
   nav: anatomi
 ---
 
+Led kan opdeles i ægte led og uægte led og forskellige ledtyper: ægled, saddelled, hængselled, glideled, drejeled og kugleled. Jeg kigger her på de forskellige defintioner og ledtyper.
+
 Et led er en forbindelse mellem to eller flere knogler, uanset om der kan være bevægelse i leddet eller ej. I forbindelse med idræt er vi hovedsageligt interesseret i de led, der kan bevæge sig. Mennesket kan bevæge sig på mange forskellige måder, og derfor er der også flere forskellige typer led.
 
 Overordnet kan led opdeles i ægte og uægte led.
@@ -64,11 +66,11 @@ Leddene er omgivet af en ledkapsel, som består af bindevæv. Inderst i ledkapsl
 
 De ægte led kan bevæge sig. Størrelse, retning og størrelse på bevægelsesudslaget afhænger af formen på knoglerne, stramheden i ledkapselen og ledbåndene og smidigheden af musklerne omkring leddet. Det vigtigste parameter er knoglernes form, og derfor kan man (forenklet) opdele kroppens led i forskellige mekaniske typer.
 
-{% include figure image_path="https://slideplayer.dk/slide/2341220/8/images/18/Ledkapslen.jpg" alt="Opbyging af et kroppens ægte led" caption="Opbygning af et ægte led" %}
+{% include figure image_path="https://slideplayer.dk/slide/2341220/8/images/18/Ledkapslen.jpg" alt="Opbyging af et kroppens ægte led og ledtyper" caption="Opbygning af et ægte led" %}
 
 Kroppens led kan inddeles i seks mekaniske typer led.
 
-### Ledtyper
+## Ledtyper
 
 {% include feature_row %}
 
