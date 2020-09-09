@@ -79,6 +79,7 @@
 
         var pal = pal_intense + pal_moderat + pal_light + pal_standing + pal_sleeping + pal_sitting;
         
+        /*
         // Calculate MET-energy
         var met_energy_intense = weight * (met_intense * (activity_intense / 60));
         var met_energy_moderat = weight * (met_moderat * (activity_moderat / 60));
@@ -87,7 +88,8 @@
         var met_energy_sitting = weight * (met_sitting * (activity_sitting / 60));
         
         var met_energy = met_energy_intense + met_energy_moderat + met_energy_light + met_energy_standing + met_energy_sitting;
-        
+        */
+
         // Calculate PAL from Gerrior
         var bmr_kcal = basicMeta / 4.2; // BMR is in kcal in formula
         var pal_intense = ((met_intense - 1) * ((1.15 / 0.9) * activity_intense) / 1440) / (bmr_kcal / (0.0175 * 1440 * weight));
@@ -126,20 +128,11 @@
         } else {		
             TEE = BMR + weight * ((0.03 * activity_sitting + 0.1 * activity_standing + 0.26 * activity_light * correction1 + 0.5 * activity_moderat * correction2 + 0.88 * activity_intense * correction3));
         }
-	    /*
-	    // Correction for children
-	    if (weight < 50) {
-		    TEE = Math.round(BMR + weight * ((0.03 * timeDialsTimeRemain() + 0.1 * dialsArray[6].dialValue + 0.26 * dialsArray[5].dialValue * correction1 + 0.5 * dialsArray[4].dialValue * correction2 + 0.88 * dialsArray[3].dialValue * correction3)) * (1 + 0.5 * (50 - weight) / 50));
-	    } else {		
-		    TEE = Math.round(BMR + weight * ((0.03 * timeDialsTimeRemain() + 0.1 * dialsArray[6].dialValue + 0.26 * dialsArray[5].dialValue * correction1 + 0.5 * dialsArray[4].dialValue * correction2 + 0.88 * dialsArray[3].dialValue * correction3)));
-	    }
-	    */
 
         var vedligehold = basicMeta * activityConstant;
         document.getElementById('pal_gerrior').value = pal_gerrior;
         document.getElementById('activity_sitting').value = activity_sitting;
         document.getElementById('bmr').value = basicMeta + " kJ";
-        document.getElementById('met_energy').value = met_energy * 4.2 + " kJ";
         document.getElementById('equilibrium').value = vedligehold + " kJ";
         document.getElementById('TEE').value = TEE + " kJ";
         return false;
@@ -196,7 +189,7 @@
         <div class="form-group">
             <label for="height">Siddende (min) - MET 1,2</label>
             <input type="number" min="0" max="1440" value="1440" name="activity_sitting" id="activity_sitting" disabled="disabled">
-            <p class="help-block">Den resterende tid.</p>
+            <p class="help-block">Den resterende tid anslås som siddende.</p>
         </div>
         </fieldset>
         <input type="submit" value="Beregn" onclick="return calculate(this.form);">
@@ -207,20 +200,17 @@
             <input name="pal_gerrior" id="pal_gerrior" disabled="disabled">
         </div>
         <div class="form-group">
-            <label for="bmr">Basalstofskifte (BMR) (kJ)</label>
+            <label for="bmr">Basalstofskifte og hvilestofskifte (BMR) (kJ)</label>
             <input name="bmr" id="bmr" disabled="disabled">
         </div>
         <div class="form-group">
-            <label for="met_energy">Energi fra fysisk aktivitetsniveau baseret på MET (kJ)</label>
-            <input name="met_energy" id="met_energy" disabled="disabled">
-        </div>
-        <div class="form-group">
-            <label for="equilibrium">Stofskifte og ligevægtsindtag på en dag (kJ)</label>
+            <label for="equilibrium">Energiforbrug og stofskifte på en dag (kJ)</label>
             <input name="equilibrium" id="equilibrium" disabled="disabled">
         </div>
         <div class="form-group">
-            <label for="TEE">Korrigeret for vægt og BMI (kJ)</label>
+            <label for="TEE">Energiforbrug - Korrigeret for vægt og BMI (kJ)</label>
             <input name="TEE" id="TEE" disabled="disabled">
+            <p class="help-block">Dette tal er korrigeret ifølge Morten Zachos forslag og udregnet med hans formel.</p>
         </div>
     </fieldset>
 </form>

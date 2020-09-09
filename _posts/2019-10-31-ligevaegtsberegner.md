@@ -43,6 +43,16 @@ I denne beregner er [Benedict-Harris formlen](https://en.wikipedia.org/wiki/Harr
 - Mænd: BMR = 88.362 + (13.397 × weight in kg) + (4.799 × height in cm) - (5.677 × age in years)
 - Kvinder: BMR = 447.593 + (9.247 × weight in kg) + (3.098 × height in cm) - (4.330 × age in years)
 
+## Præcision af formler for ligevægtsindtag og hvilestofskifte
+
+Brian Henneberg gennemgår et studie, som [sammenligner præcisionen af formler for hvilestofskiftet](https://www.bodylab.dk/shop/hvilestofskifteformler-2881c1.html). Studiet konkluderer:
+
+> Som det fremgår var næsten alle formlerne signifikant off ift. de resultater man fik når man rent faktisk målte hvilestofskiftet. De fleste formler undervurderede hvilestofskiftet, mens to formler overvurderede stofskiftet (De Lorenzo og Cunningham hos kvinderne).
+> 
+> Hos mændene viste beregningerne at Harris-Benedict var den mest præcise, om end den i gennemsnit vist 284 kcal for lidt. Hos kvinderne var Cunningham den mest præcise med en gennemsnitlig afvigelse på 110 kcal (over det faktiske).
+
+--- <cite>[Brian Henneberg](https://www.bodylab.dk/shop/hvilestofskifteformler-2881c1.html)</cite>
+
 ## Konklusion om ligevægtsindtag
 
 Nu kender du dit omtrentlige ligevægtsindtag. Som du kan se så er den største del af ligevægtsindtaget bestemt af din vægt. Det betyder, at hvis du taber vægt, så vil dit ligevægtsindtag gå ned, mens det ved højere vægt vil gå op.
