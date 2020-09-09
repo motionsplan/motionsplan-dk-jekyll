@@ -268,6 +268,7 @@ $(document).ready(function() {
         $("#idealweight_miller").val(iw.getMiller());
         $("#idealweight_hamwi").val(iw.getHamwi());
         $("#idealweight_devine").val(iw.getDevine());
+        $("#idealweight_zacho").val(iw.getZacho(Number($("[name='bodytype']").val())));
         return false;
     });
     // Udregn 1punkttest
