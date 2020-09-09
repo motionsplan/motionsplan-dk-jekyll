@@ -1104,9 +1104,8 @@ $(function() {
         console.log("Calculate Water Intake");
         e.preventDefault();
 
-      let w = Number($("[name='weight']").val());
-
-      let b = water.WaterIntake(w);
+        let w = Number($("[name='weight']").val());
+        let b = water.WaterIntake(w);
 
         $("[name='daily_water_intake_lower']").val(b.getDailyWaterIntake());
         $("[name='daily_water_intake_upper']").val(b.getDailyWaterIntake("upper"));
