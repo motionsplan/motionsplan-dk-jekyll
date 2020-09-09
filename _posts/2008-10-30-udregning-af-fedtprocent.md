@@ -57,11 +57,11 @@ Baggrunden for beregneren er at BMI på populationsniveau er nogenlunde korreler
 
 Heitmann bruger i sin formel køn, BMI og alder.
 
-#### Mænd
+#### Formel for fedtprocent for mænd
 
-{% include math formula="PBF = \frac{0.988 * BMI + 0.242 * weight (kg) + 0.094 * age - 30.18;}{weight (kg)}" %}
+{% include math formula="PBF = \frac{0.988 * BMI + 0.242 * weight (kg) + 0.094 * age - 30.18}{weight (kg)}" %}
 
-#### Kvinder
+#### Formel for fedtprocent for kvinder
 
 {% include math formula="PBF = \frac{0.988 * BMI + 0.344 * weight (kg) + 0.094 * age - 30.18}{height (m)^2}" %}
 
@@ -69,15 +69,15 @@ Heitmann bruger i sin formel køn, BMI og alder.
 
 Durnin & Womersley bruger i sin formel køn og alder.
 
-#### Mænd
+#### Mænd: Udregn din fedtprocent
 
 PBF = 1.34 * BMI - 12.47
 
-#### Kvinder
+#### Kvinder: Udregn din fedtprocent
 
 PBF = 1.37 * BMI - 3.47
 
-### Duerenberg et al. udregning
+### Duerenberg et al. udregning af fedtprocent
 
 PBF = 1.20 * BMI + 0.23 * age - 10.8 * sex - 5.4;
 

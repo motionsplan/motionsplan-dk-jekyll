@@ -17,6 +17,8 @@ last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 ---
 
+Måling af kropskomposition, fedtprocent og muskelmasse virker i samfundet til at være vigtigt for både atleter og almindelige mennesker. Vi oplever stor interesse for at få målt fedtprocent og muskelmasse både af folk, der gerne vil tabe sig og tage på i vægt.
+
 *[PBF]: Percent Body Fat
 *[SMM]: Skeletal Muscle Mass
 *[ECW]: Extra Cellular Water
@@ -28,8 +30,6 @@ toc: true
 *[LBM]: Lean Body Mass
 *[SMM]: Skeletal Muscle Mass
 *[BMI]: Body Mass Index
-
-Måling af kropskomposition, fedtprocent og muskelmasse virker i samfundet til at være vigtigt for både atleter og almindelige mennesker. Vi oplever stor interesse for at få målt fedtprocent og muskelmasse både af folk, der gerne vil tabe sig og tage på i vægt.
 
 En måling af kropskomposition måler vi fedtprocent, muskelmasse og vand i kroppen. 
 
@@ -94,7 +94,7 @@ Det er ikke så let at få lavet en vandvejning.
 
 {% include figure image_path="https://www.verywellfit.com/thmb/3b3BZdCKjz9ankRyoZdRJ9clznE=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/underwater-hydrostatic-body-fat-weighing-453131436-5ad4f5c2642dca0036367079.jpg" caption="Hydrostatic Weighing. Image Credit: [Very Well Fit](https://www.verywellfit.com)" alt="Hydrostatic Weighing" %}
 
-### Dual Energy X-Ray Absorptiometry (DEXA)
+### DEXA-scanning - Dual Energy X-Ray Absorptiometry (DEXA)
 
 DEXA-scanning får du stråler gennem kroppen. Oprindeligt var DEXA skabt til at måle densiteten af knoglerne, men metoden kan også bruges til at måle fedt og muskelmasse. Målingen består i, at man måler på forskellen i strålerne før og efter.
 
@@ -104,7 +104,7 @@ DEXA-scanner vil ofte være relativt dyrt at få lavet.
 
 {% include figure image_path="https://cdn.shopify.com/s/files/1/0832/8945/files/1047px-DEXA_scanner_in_use_ALSPAC_grande.jpg?8848881564353978401" caption="DEXA-scanner. Image Credit: [Nick Smith photography](http://www.nicksmithphotography.com/)" alt="DEXA Scanner" %}
 
-### Skinfold Calipers (fedttang)
+### Hudfoldsmåling (fedttang)
 
 Måling med fedttang er relativt udbredt, og alle kan lære at bruge en fedttang. Du måler det eksterne fedt ved med to fingre at samle hud og måle, hvor tyk hudfolden er. Målingerne bliver taget ind i matematiske formler, som så bestemmer fedtmassen i hele kroppen.
 
@@ -116,7 +116,7 @@ Du skal være opmærksom på, at reproducerbarheden af testen med fedttang ikke 
 
 [Læs mere om måling med fedttang](/artikel/fedtprocent-skinfold/){: .btn .btn--large .btn--success }
 
-### Bioelectric Impedance Analysis (BIA)
+### Bioimpedans - Bioelectric Impedance Analysis (BIA)
 
 Ved analyse af kropssammensætning med bioimpedans sættes små elektriske signaler (impedans) gennem kroppen og der måles på modstanden gennem kroppens vand. Modstanden er nemlig forskellig i vævstyper. Det er let at lave en bioimpedans-test selv, hvis du har adgang til udstyret. 
 
@@ -128,11 +128,11 @@ Fordi BIA virker ved at måle på vandet i kroppen, så får man brugbar informa
 
 ### Målinger og udregninger
 
-Baseret på målinger med målebånd kan du også udregne din fedtprocent. Præcisionen af disse udregninger er behæftet med de samme usikkerheder, som fx BMI eller andre lignende mere generelle målinger.
+Baseret på målinger med målebånd kan du også udregne din fedtprocent. Præcisionen af disse udregninger er behæftet med de samme usikkerheder, som fx [BMI](/bmi/) eller andre lignende mere generelle målinger.
 
 [Udregn din fedtprocent](/artikel/udregning-af-fedtprocent){: .btn .btn--info .btn--large }
 
-## Afslutning
+## Afslutning om kropskomposition
 
 Der er altså mange måder at måle kropskomposition på. Jeg synes de væsentligste paramtre, man bør vurdere sin træning på, er styrke, hurtighed, springstyrke, udholdenhed og mobilitet. Hvis der er fremgang på alle de paramtre, så kommer kroppen til at fungere bedre og bedre.
 
@@ -142,6 +142,6 @@ InBody har lavet en fin video, der hurtigt gennemgår pointerne ift. kropskompos
 
 {% include video id="B6jIUOi8puk" provider="youtube" %}
 
-## Referencer 
+## Referencer om kropskomposition
 
 - [Body Composition 101: The Beginner’s Guide](https://inbodyusa.com/blogs/inbodyblog/28828609-body-composition-101-the-beginners-guide)
