@@ -326,6 +326,7 @@ $(document).ready(function() {
 
         $("#BMI").val(b.getBMI().toFixed(1));
         $("#PMI").val(b.getPonderalIndex().toFixed(1));
+        $("#evaluering").val(b.evaluateAdults());
         return false;
     });
     // Calculate Body Water

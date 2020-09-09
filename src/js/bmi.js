@@ -17,7 +17,27 @@ motionsplan.BMI = function(h, w) {
   }
 
   function evaluateAdults() {
-
+    var bmiCalc = getBMI();
+    var theEval;
+    if (bmiCalc < 18.5) {
+      theEval = "Underweight";
+    }
+    else if (bmiCalc < 25) {
+      theEval = "Normal weight";
+    }
+    else if (bmiCalc < 30) {
+      theEval = "Overweight";
+    }
+    else if (bmiCalc < 35) {
+      theEval = "Obese Class I";
+    }
+    else if (bmiCalc < 40) {
+      theEval = "Obese Class II";
+    }
+    else if (bmiCalc > 40) {
+      theEval = "Obese Class III";
+    }
+    return theEval;
   }
 
   function evaluateChildren(sex, age) {
@@ -31,7 +51,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 86.86160934;
         Sh = 0.040395626;
       }
-      if (age == 2.5) {
+      else if (age == 2.5) {
         L = -1.642106779;
         M = 16.24972371;
         S = 0.075499126;
@@ -39,7 +59,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 91.33242379;
         Sh = 0.04096533;
       }
-      if (age == 3.0) {
+      else if (age == 3.0) {
         L = -1.419991255;
         M = 16.00030401;
         S = 0.072634432;
@@ -47,7 +67,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 95.27359106;
         Sh = 0.04053412;
       }
-      if (age == 3.5) {
+      else if (age == 3.5) {
         L = -1.438164899;
         M = 15.79405728;
         S = 0.071495113;
@@ -55,7 +75,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 99.00254338;
         Sh = 0.040848042;
       }
-      if (age == 4.0) {
+      else if (age == 4.0) {
         L = -1.714869347;
         M = 15.62817269;
         S = 0.071889214;
@@ -63,7 +83,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 102.5104735;
         Sh = 0.041344257;
       }
-      if (age == 4.5) {
+      else if (age == 4.5) {
         L = -2.155348017;
         M = 15.50258427;
         S = 0.073490667;
@@ -71,7 +91,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 105.8812823;
         Sh = 0.041955723;
       }
-      if (age == 5.0) {
+      else if (age == 5.0) {
         L = -2.61516595;
         M = 15.41914163;
         S = 0.07599225;
@@ -79,7 +99,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 109.1751441;
         Sh = 0.042593311;
       }
-      if (age == 5.5) {
+      else if (age == 5.5) {
         L = -2.981796828;
         M = 15.37952958;
         S = 0.079211369;
@@ -87,7 +107,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 112.4295761;
         Sh = 0.043180513;
       }
-      if (age == 6.0) {
+      else if (age == 6.0) {
         L = -3.21170511;
         M = 15.38353217;
         S = 0.083048178;
@@ -95,7 +115,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 115.6608862;
         Sh = 0.043673359;
       }
-      if (age == 6.5) {
+      else if (age == 6.5) {
         L = -3.314768951;
         M = 15.42902273;
         S = 0.087400421;
@@ -103,7 +123,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 118.8668123;
         Sh = 0.044069112;
       }
-      if (age == 7.0) {
+      else if (age == 7.0) {
         L = -3.323188896;
         M = 15.51286936;
         S = 0.092131305;
@@ -111,7 +131,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 122.0305342;
         Sh = 0.044403374;
       }
-      if (age == 7.5) {
+      else if (age == 7.5) {
         L = -3.270454609;
         M = 15.63170735;
         S = 0.097081694;
@@ -119,7 +139,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 125.1259182;
         Sh = 0.044735646;
       }
-      if (age == 8.0) {
+      else if (age == 8.0) {
         L = -3.18305795;
         M = 15.78231007;
         S = 0.102091189;
@@ -127,7 +147,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 128.1237104;
         Sh = 0.045127088;
       }
-      if (age == 8.5) {
+      else if (age == 8.5) {
         L = -3.079383079;
         M = 15.96169481;
         S = 0.107012788;
@@ -135,7 +155,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 130.9982857;
         Sh = 0.045618459;
       }
-      if (age == 9.0) {
+      else if (age == 9.0) {
         L = -2.971148225;
         M = 16.16712234;
         S = 0.111720691;
@@ -143,7 +163,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 133.7344759;
         Sh = 0.046217028;
       }
-      if (age == 9.5) {
+      else if (age == 9.5) {
         L = -2.865311266;
         M = 16.39605916;
         S = 0.116113097;
@@ -151,7 +171,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 136.3342577;
         Sh = 0.046896817;
       }
-      if (age == 10.0) {
+      else if (age == 10.0) {
         L = -2.765648008;
         M = 16.64613844;
         S = 0.120112464;
@@ -159,7 +179,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 138.8234114;
         Sh = 0.047610108;
       }
-      if (age == 10.5) {
+      else if (age == 10.5) {
         L = -2.673903164;
         M = 16.91512487;
         S = 0.123664186;
@@ -167,7 +187,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 141.2581515;
         Sh = 0.048304259;
       }
-      if (age == 11.0) {
+      else if (age == 11.0) {
         L = -2.590560148;
         M = 17.20088732;
         S = 0.126734613;
@@ -175,7 +195,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 143.7303663;
         Sh = 0.048937694;
       }
-      if (age == 11.5) {
+      else if (age == 11.5) {
         L = -2.515320235;
         M = 17.50138161;
         S = 0.129309001;
@@ -183,7 +203,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 146.3665278;
         Sh = 0.049488934;
       }
-      if (age == 12.0) {
+      else if (age == 12.0) {
         L = -2.447426113;
         M = 17.81463359;
         S = 0.131389042;
@@ -191,7 +211,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 149.3088178;
         Sh = 0.049947823;
       }
-      if (age == 12.5) {
+      else if (age == 12.5) {
         L = -2.385858029;
         M = 18.1387275;
         S = 0.132990575;
@@ -199,7 +219,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 152.6623878;
         Sh = 0.050273285;
       }
-      if (age == 13.0) {
+      else if (age == 13.0) {
         L = -2.3294571;
         M = 18.47179706;
         S = 0.13414147;
@@ -207,7 +227,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 156.4098858;
         Sh = 0.050333444;
       }
-      if (age == 13.5) {
+      else if (age == 13.5) {
         L = -2.277017201;
         M = 18.81201584;
         S = 0.134879611;
@@ -215,7 +235,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 160.3493168;
         Sh = 0.049926861;
       }
-      if (age == 14.0) {
+      else if (age == 14.0) {
         L = -2.227362173;
         M = 19.15758672;
         S = 0.135251083;
@@ -223,7 +243,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 164.1418486;
         Sh = 0.04894519;
       }
-      if (age == 14.5) {
+      else if (age == 14.5) {
         L = -2.179425674;
         M = 19.50672885;
         S = 0.135308594;
@@ -231,7 +251,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 167.4641466;
         Sh = 0.047506783;
       }
-      if (age == 15.0) {
+      else if (age == 15.0) {
         L = -2.132344989;
         M = 19.85766121;
         S = 0.135110159;
@@ -239,7 +259,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 170.139255;
         Sh = 0.045889585;
       }
-      if (age == 15.5) {
+      else if (age == 15.5) {
         L = -2.085574403;
         M = 20.20858236;
         S = 0.134718085;
@@ -247,7 +267,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 172.1562865;
         Sh = 0.044362674;
       }
-      if (age == 16.0) {
+      else if (age == 16.0) {
         L = -2.039015385;
         M = 20.5576474;
         S = 0.134198323;
@@ -255,7 +275,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 173.6100518;
         Sh = 0.043085685;
       }
-      if (age == 16.5) {
+      else if (age == 16.5) {
         L = -1.993150137;
         M = 20.90294449;
         S = 0.1336202;
@@ -263,7 +283,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 174.6309856;
         Sh = 0.042107465;
       }
-      if (age == 17.0) {
+      else if (age == 17.0) {
         L = -1.949134561;
         M = 21.24247982;
         S = 0.13305669;
@@ -271,7 +291,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 175.340954;
         Sh = 0.041408129;
       }
-      if (age == 17.5) {
+      else if (age == 17.5) {
         L = -1.908831065;
         M = 21.57417053;
         S = 0.132584784;
@@ -279,7 +299,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 175.8359757;
         Sh = 0.040938463;
       }
-      if (age == 18.0) {
+      else if (age == 18.0) {
         L = -1.874670324;
         M = 21.8958685;
         S = 0.132286382;
@@ -298,7 +318,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 85.3973169;
         Sh = 0.040859727;
       }
-      if (age == 2.5) {
+      else if (age == 2.5) {
         L = -1.53454192;
         M = 16.00593001;
         S = 0.080932448;
@@ -306,7 +326,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 90.33341722;
         Sh = 0.04175368;
       }
-      if (age == 3.0) {
+      else if (age == 3.0) {
         L = -2.096828937;
         M = 15.69924188;
         S = 0.078605255;
@@ -314,7 +334,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 94.21335709;
         Sh = 0.042017509;
       }
-      if (age == 3.5) {
+      else if (age == 3.5) {
         L = -2.618732901;
         M = 15.46470384;
         S = 0.077903716;
@@ -322,7 +342,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 97.6484807;
         Sh = 0.042621565;
       }
-      if (age == 4.0) {
+      else if (age == 4.0) {
         L = -3.018521987;
         M = 15.29854897;
         S = 0.078713325;
@@ -330,7 +350,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 101.033927;
         Sh = 0.043259907;
       }
-      if (age == 4.5) {
+      else if (age == 4.5) {
         L = -3.259300182;
         M = 15.19606152;
         S = 0.080904391;
@@ -338,7 +358,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 104.4634511;
         Sh = 0.043816701;
       }
-      if (age == 5.0) {
+      else if (age == 5.0) {
         L = -3.35007771;
         M = 15.15188405;
         S = 0.084300139;
@@ -346,7 +366,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 107.9566031;
         Sh = 0.044276588;
       }
-      if (age == 5.5) {
+      else if (age == 5.5) {
         L = -3.325522491;
         M = 15.16056419;
         S = 0.088680264;
@@ -354,7 +374,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 111.4875806;
         Sh = 0.044652942;
       }
-      if (age == 6.0) {
+      else if (age == 6.0) {
         L = -3.225606516;
         M = 15.21690296;
         S = 0.093803033;
@@ -362,7 +382,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 115.0054978;
         Sh = 0.044963636;
       }
-      if (age == 6.5) {
+      else if (age == 6.5) {
         L = -3.084290931;
         M = 15.31606644;
         S = 0.099426955;
@@ -370,7 +390,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 118.4496481;
         Sh = 0.045226249;
       }
-      if (age == 7.0) {
+      else if (age == 7.0) {
         L = -2.926186592;
         M = 15.45356545;
         S = 0.105325289;
@@ -378,7 +398,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 121.7616844;
         Sh = 0.045460702;
       }
-      if (age == 7.5) {
+      else if (age == 7.5) {
         L = -2.767310047;
         M = 15.6251988;
         S = 0.111294537;
@@ -386,16 +406,15 @@ motionsplan.BMI = function(h, w) {
         Mh = 124.8956114;
         Sh = 0.04569445;
       }
-      if (age == 8.0) {
+      else if (age == 8.0) {
         L = -2.617192204;
         M = 15.82699517;
         S = 0.117158667;
         Lh = -0.079283065;
         Mh = 127.8262759;
         Sh = 0.045968169;
-
       }
-      if (age == 8.5) {
+      else if (age == 8.5) {
         L = -2.48095189;
         M = 16.05516984;
         S = 0.12277087;
@@ -403,7 +422,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 130.5573839;
         Sh = 0.046340046;
       }
-      if (age == 9.0) {
+      else if (age == 9.0) {
         L = -2.360920527;
         M = 16.30609316;
         S = 0.128013515;
@@ -411,7 +430,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 133.1303527;
         Sh = 0.04688401;
       }
-      if (age == 9.5) {
+      else if (age == 9.5) {
         L = -2.257782149;
         M = 16.57626713;
         S = 0.132796819;
@@ -419,7 +438,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 135.634186;
         Sh = 0.047670085;
       }
-      if (age == 10.0) {
+      else if (age == 10.0) {
         L = -2.171295888;
         M = 16.86231366;
         S = 0.137057004;
@@ -427,7 +446,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 138.2111552;
         Sh = 0.048704503;
       }
-      if (age == 10.5) {
+      else if (age == 10.5) {
         L = -2.100749266;
         M = 17.16096656;
         S = 0.140753927;
@@ -435,7 +454,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 141.0396832;
         Sh = 0.049812203;
       }
-      if (age == 11.0) {
+      else if (age == 11.0) {
         L = -2.045235058;
         M = 17.46906585;
         S = 0.143868341;
@@ -443,7 +462,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 144.2609497;
         Sh = 0.050524236;
       }
-      if (age == 11.5) {
+      else if (age == 11.5) {
         L = -2.003802134;
         M = 17.78355575;
         S = 0.146399239;
@@ -451,16 +470,15 @@ motionsplan.BMI = function(h, w) {
         Mh = 147.8423918;
         Sh = 0.050207825;
       }
-      if (age == 12.0) {
+      else if (age == 12.0) {
         L = -1.975521156;
         M = 18.10148804;
         S = 0.148361495;
         Lh = 1.303044695;
         Mh = 151.4865636;
         Sh = 0.048599314;
-
       }
-      if (age == 12.5) {
+      else if (age == 12.5) {
         L = -1.959520079;
         M = 18.42002284;
         S = 0.149783482;
@@ -468,7 +486,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 154.755501;
         Sh = 0.046198356;
       }
-      if (age == 13.0) {
+      else if (age == 13.0) {
         L = -1.954977947;
         M = 18.73643338;
         S = 0.150705138;
@@ -476,16 +494,15 @@ motionsplan.BMI = function(h, w) {
         Mh = 157.3436995;
         Sh = 0.043859135;
       }
-      if (age == 13.5) {
+      else if (age == 13.5) {
         L = -1.9610997;
         M = 19.04811118;
         S = 0.151176355;
         Lh = 1.076970655;
         Mh = 159.2074654;
         Sh = 0.042114211;
-
       }
-      if (age == 14.0) {
+      else if (age == 14.0) {
         L = -1.977073595;
         M = 19.35257209;
         S = 0.151255713;
@@ -493,7 +510,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 160.4776996;
         Sh = 0.041022401;
       }
-      if (age == 14.5) {
+      else if (age == 14.5) {
         L = -2.002014224;
         M = 19.64746266;
         S = 0.151009595;
@@ -501,7 +518,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 161.3267744;
         Sh = 0.040409354;
       }
-      if (age == 15.0) {
+      else if (age == 15.0) {
         L = -2.034893091;
         M = 19.9305662;
         S = 0.150511645;
@@ -509,7 +526,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 161.8979913;
         Sh = 0.040083845;
       }
-      if (age == 15.5) {
+      else if (age == 15.5) {
         L = -2.074459502;
         M = 20.19980767;
         S = 0.14984254;
@@ -517,7 +534,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 162.2908474;
         Sh = 0.039913066;
       }
-      if (age == 16.0) {
+      else if (age == 16.0) {
         L = -2.119156972;
         M = 20.45325617;
         S = 0.14909006;
@@ -525,7 +542,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 162.5689958;
         Sh = 0.039820663;
       }
-      if (age == 16.5) {
+      else if (age == 16.5) {
         L = -2.167044578;
         M = 20.6891237;
         S = 0.148349348;
@@ -533,7 +550,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 162.7718741;
         Sh = 0.03976685;
       }
-      if (age == 17.0) {
+      else if (age == 17.0) {
         L = -2.215737645;
         M = 20.90575839;
         S = 0.147723315;
@@ -541,7 +558,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 162.9238449;
         Sh = 0.039732048;
       }
-      if (age == 17.5) {
+      else if (age == 17.5) {
         L = -2.26238209;
         M = 21.10163241;
         S = 0.147323144;
@@ -549,7 +566,7 @@ motionsplan.BMI = function(h, w) {
         Mh = 163.0401953;
         Sh = 0.039706971;
       }
-      if (age == 18.0) {
+      else if (age == 18.0) {
         L = -2.303687802;
         M = 21.27532239;
         S = 0.14726877;
@@ -575,7 +592,7 @@ motionsplan.BMI = function(h, w) {
     }
 
     var height = h * 100;
-  
+
     var zScoreHeight = ((Math.pow((height / Mh), Lh)) - 1) / (Lh * Sh);
     if (zScoreHeight < -3) {
       percentileHeight = 0;
@@ -591,20 +608,23 @@ motionsplan.BMI = function(h, w) {
     }
 
     var evaluation;
-    
+
     // Setting the color bar indicator
     if (percentile < 5) {
       evaluation = "Underweight";
-    } else if (percentile >= 5 && percentile < 85) {
+    }
+    else if (percentile >= 5 && percentile < 85) {
       evaluation = "Healthy weight";
-    } else if (percentile >= 85 && percentile < 95) {
+    }
+    else if (percentile >= 85 && percentile < 95) {
       evaluation = "Overweight";
-    } else if (percentile >= 95) {
+    }
+    else if (percentile >= 95) {
       evaluation = "Obese";
     }
-    
+
     return evaluation;
-    
+
     /*
     // Setting indicator and indicator bounderies
     indicatorValue = (percentile * 2.80) - 18;
@@ -652,7 +672,7 @@ motionsplan.BMI = function(h, w) {
     }
     */
   }
-  
+
   function evaluateChildrenHeight() {
     var height_evaluation;
     if (Math.floor(percentileHeight) < 26) {
@@ -668,11 +688,11 @@ motionsplan.BMI = function(h, w) {
   }
 
   var publicAPI = {
-    getBMI : getBMI,
-    getPonderalIndex : getPonderalIndex,
-    evaluateChildren : evaluateChildren,
-    evaluateChildrenHeight : evaluateChildrenHeight,
-    evaluateAdults : evaluateAdults
+    getBMI: getBMI,
+    getPonderalIndex: getPonderalIndex,
+    evaluateChildren: evaluateChildren,
+    evaluateChildrenHeight: evaluateChildrenHeight,
+    evaluateAdults: evaluateAdults
   };
 
   return publicAPI;
