@@ -14,8 +14,10 @@ describe('EnergyExpenditure', function() {
       var b = motionsplan.REE2012(1, 32, 80, 2.2, false);
 
       assert.equal(b.getRestingEnergyExpenditure(), 7216.000000000001);
-      assert.equal(b.getPhysicalActivityLevel(), 2.2);      
+      assert.equal(b.getPhysicalActivityLevel(), 2.2);    
       assert.equal(b.getTotalEnergyExpenditure(), 15875.200000000003);
+      
+      assert.equal(b.getRestingEnergyExpenditureHeight(181), 7324.6);
     });
   });
 });

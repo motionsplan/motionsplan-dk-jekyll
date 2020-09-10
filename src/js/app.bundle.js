@@ -268,6 +268,7 @@ $(document).ready(function() {
         $("#idealweight_miller").val(iw.getMiller());
         $("#idealweight_hamwi").val(iw.getHamwi());
         $("#idealweight_devine").val(iw.getDevine());
+        $("#idealweight_zacho").val(iw.getZacho(Number($("[name='bodytype']").val())));
         return false;
     });
     // Udregn 1punkttest
@@ -645,14 +646,21 @@ $(document).ready(function() {
         var koen = Number($("[name='koen']").val());
         var alder = Number($("[name='alder']").val());
         var vaegt = Number($("[name='vaegt']").val());
+        var height = Number($("[name='height']").val());
         var sport = $("[name='sport']:checked").val();
         var pal = Number($("[name='pal']:checked").val());
 
         var b = ree.REE2012(koen, alder, vaegt, pal, sport);
 
         $("[name='PAL']").val(b.getPhysicalActivityLevel());
-        $("[name='BMR2']").val(b.getRestingEnergyExpenditure());
-        $("[name='TEE2']").val(b.getTotalEnergyExpenditure());
+        if (height > 0) {
+            $("[name='BMR2']").val(b.getRestingEnergyExpenditureHeight(height));
+            $("[name='TEE2']").val(b.getRestingEnergyExpenditureHeight(height) * b.getPhysicalActivityLevel());
+        } else {
+            $("[name='BMR2']").val(b.getRestingEnergyExpenditure());
+            $("[name='TEE2']").val(b.getTotalEnergyExpenditure());
+        }
+        
         return false;
     });
     // Calculate VMax

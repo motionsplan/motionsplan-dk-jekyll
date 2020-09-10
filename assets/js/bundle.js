@@ -671,6 +671,7 @@ $(document).ready(function() {
         $("#idealweight_miller").val(iw.getMiller());
         $("#idealweight_hamwi").val(iw.getHamwi());
         $("#idealweight_devine").val(iw.getDevine());
+        $("#idealweight_zacho").val(iw.getZacho(Number($("[name='bodytype']").val())));
         return false;
     });
     // Udregn 1punkttest
@@ -1048,14 +1049,21 @@ $(document).ready(function() {
         var koen = Number($("[name='koen']").val());
         var alder = Number($("[name='alder']").val());
         var vaegt = Number($("[name='vaegt']").val());
+        var height = Number($("[name='height']").val());
         var sport = $("[name='sport']:checked").val();
         var pal = Number($("[name='pal']:checked").val());
 
         var b = ree.REE2012(koen, alder, vaegt, pal, sport);
 
         $("[name='PAL']").val(b.getPhysicalActivityLevel());
-        $("[name='BMR2']").val(b.getRestingEnergyExpenditure());
-        $("[name='TEE2']").val(b.getTotalEnergyExpenditure());
+        if (height > 0) {
+            $("[name='BMR2']").val(b.getRestingEnergyExpenditureHeight(height));
+            $("[name='TEE2']").val(b.getRestingEnergyExpenditureHeight(height) * b.getPhysicalActivityLevel());
+        } else {
+            $("[name='BMR2']").val(b.getRestingEnergyExpenditure());
+            $("[name='TEE2']").val(b.getTotalEnergyExpenditure());
+        }
+        
         return false;
     });
     // Calculate VMax
@@ -1601,37 +1609,70 @@ motionsplan.REE2012 = function(sex, age, weight, pal, sport) {
     sport = sport;
     pal = pal;
 
+    function isMale() {
+        if (koen == "1") {
+            return true;
+        }
+        return false;
+    }
+
     // BMR - Nordiska 2012
     function getRestingEnergyExpenditure() {
-        if ((koen == "1") && (alder > 10) && (alder < 19)) {
-            bmr = 0.0769 * vaegt + 2.43;
+        if (isMale()) {
+            if ((alder > 10) && (alder < 19)) {
+                bmr = 0.0769 * vaegt + 2.43;
+            } else if ((alder > 18) && (alder < 31)) {
+                bmr = 0.0669 * vaegt + 2.28;
+            } else if ((alder > 30) && (alder < 61)) {
+                bmr = 0.0592 * vaegt + 2.48;
+            } else if ((alder > 60) && (alder < 71)) {
+                bmr = 0.0543 * vaegt + 2.37;
+            } else if ((alder > 70)) {
+                bmr = 0.0573 * vaegt + 2.01;
+            }
+        } else {
+            if ((alder > 10) && (alder < 19)) {
+                bmr = 0.0465 * vaegt + 3.18;
+            } else if ((alder > 18) && (alder < 31)) {
+                bmr = 0.0546 * vaegt + 2.33;
+            } else if ((alder > 30) && (alder < 61)) {
+                bmr = 0.0407 * vaegt + 2.9;
+            } else if ((alder > 60) && (alder < 71)) {
+                bmr = 0.0429 * vaegt + 2.39;
+            } else if ((alder > 70)) {
+                bmr = 0.0417 * vaegt + 2.41;
+            }
         }
-        else if ((koen == "1") && (alder > 18) && (alder < 31)) {
-            bmr = 0.0669 * vaegt + 2.28;
-        }
-        else if ((koen == "1") && (alder > 30) && (alder < 61)) {
-            bmr = 0.0592 * vaegt + 2.48;
-        }
-        else if ((koen == "1") && (alder > 60) && (alder < 71)) {
-            bmr = 0.0543 * vaegt + 2.37;
-        }
-        else if ((koen == "1") && (alder > 70)) {
-            bmr = 0.0573 * vaegt + 2.01;
-        }
-        else if ((koen == "0") && (alder > 10) && (alder < 19)) {
-            bmr = 0.0465 * vaegt + 3.18;
-        }
-        else if ((koen == "0") && (alder > 18) && (alder < 31)) {
-            bmr = 0.0546 * vaegt + 2.33;
-        }
-        else if ((koen == "0") && (alder > 30) && (alder < 61)) {
-            bmr = 0.0407 * vaegt + 2.9;
-        }
-        else if ((koen == "0") && (alder > 60) && (alder < 71)) {
-            bmr = 0.0429 * vaegt + 2.39;
-        }
-        else if ((koen == "0") && (alder > 70)) {
-            bmr = 0.0417 * vaegt + 2.41;
+        return bmr * 1000;
+    }
+
+    // BMR - Nordiska 2012 - height in cm
+    function getRestingEnergyExpenditureHeight(height) {
+        var height = height / 100;
+        if (isMale()) {
+            if ((alder > 10) && (alder < 19)) {
+                bmr = 0.0651 * vaegt + 1.11 * height + 1.25;
+            } else if ((alder > 18) && (alder < 31)) {
+                bmr = 0.0600 * vaegt + 1.31 * height + 0.473;
+            } else if ((alder > 30) && (alder < 61)) {
+                bmr = 0.0476 * vaegt + 2.26 * height - 0.574;
+            } else if ((alder > 60) && (alder < 71)) {
+                bmr = 0.0748 * weight + 2.26 * height - 1.070;
+            } else if ((alder > 70)) {
+                bmr = 0.0748 * weight + 2.26 * height - 1.070;
+            }
+        } else {
+            if ((alder > 10) && (alder < 19)) {
+                bmr = 0.0393 * weight + 1.04 * height + 1.93;
+            } else if ((alder > 18) && (alder < 31)) {
+                bmr = 0.0433 * weight + 2.57 * height - 1,180;
+            } else if ((alder > 30) && (alder < 61)) {
+                bmr = 0.0342 * weight + 2.10 * height - 0.0486;
+            } else if ((alder > 60) && (alder < 71)) {
+                bmr = 0.0356 * weight + 1.76 * height + 0.0448;
+            } else if ((alder > 70)) {
+                bmr = 0.0356 * weight + 1.76 * height + 0.0448;
+            }
         }
         return bmr * 1000;
     }
@@ -1655,6 +1696,7 @@ motionsplan.REE2012 = function(sex, age, weight, pal, sport) {
 
     var publicAPI = {
         getRestingEnergyExpenditure: getRestingEnergyExpenditure,
+        getRestingEnergyExpenditureHeight: getRestingEnergyExpenditureHeight,
         getTotalEnergyExpenditure: getTotalEnergyExpenditure,
         getPhysicalActivityLevel: getPhysicalActivityLevel
     };
@@ -2256,21 +2298,13 @@ motionsplan.IdealWeight = function(height, sex) {
   }
 
   // Based on Zacho BMI Women 22,5 og Man 24,5  
-  function getZacho() {
+  function getZacho(bodytype) {
     var hgt = height / 100;
     
-    /*
-    var weight_factor = 1 + (((localSliderX-5-buttonXOffset)/282)/6.25)-0.08;
-
-    0.9205673758865248
-    1
-    1.079432624113475
-    */
-    
     if (sex == 'man') {
-      return (hgt * hgt) * 24.5;
+      return (hgt * hgt) * 24.5 * bodytype;
     } 
-    return (hgt * hgt) * 22.5;
+    return (hgt * hgt) * 22.5 * bodytype;
   }
 
   var publicAPI = {
