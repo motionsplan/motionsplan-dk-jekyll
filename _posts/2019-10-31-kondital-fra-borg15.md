@@ -1,7 +1,7 @@
 ---
-title: &title "Borg 15 konditest på cykel (RPE-test)"
+title: &title "Borg 15 konditest på cykel (RPE-test) 🚴🚴‍♀️"
 permalink: /kondital-borg15/
-excerpt: "Borg 15 testen er en submaksimal test på cykel, hvor forsøgspersonens kondital estimeres ud fra en test på en ergometercykel."
+excerpt: "Borg 15-testen er en submaksimal konditest på cykel, hvor forsøgspersonens kondital estimeres ud fra en test på en ergometercykel."
 language: da
 header:
   overlay_image: https://i.ytimg.com/vi/gEQ1M-NKHCA/maxresdefault.jpg
@@ -36,7 +36,7 @@ Fordelen med Borg 15-testen er, at den ikke ikke tager udgangspunkt i en anslåe
 
 {% include figure image_path="https://hjerteforeningen.dk/wp-content/uploads/sites/14/2018/02/borg-skala-dorthe-768x1086.jpg" caption="Borg-skalaen" alt="Borg-skalaen" %}
 
-Jeg har skrevet en mere [udførlig artikel om selve Borg-skalaen, hvor du også kan downloade Borgskalaen](/borg/).
+Jeg har skrevet en mere [udførlig artikel om selve Borg-skalaen, hvor du også kan downloade Borgskalaen som PDF](/borg/).
 
 ## Lav Borg 15-testen
 
