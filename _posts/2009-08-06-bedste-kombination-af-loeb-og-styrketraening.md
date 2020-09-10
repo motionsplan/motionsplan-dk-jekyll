@@ -1,5 +1,5 @@
 ---
-title: &title "Hvad er den bedste kombination af løb og styrketræning?"
+title: &title "Hvad er den bedste kombination af løb og styrketræning? 🏃‍♀🏋️‍♀"
 permalink: /artikel/bedste-kombination-af-loeb-og-styrketraening/
 redirect_from:
   - /artikel/bedste-kombination-af-loeb-og-styrketraening
@@ -17,12 +17,12 @@ category:
   - Kondition
   - Løb
   - Styrketræning
-last_modified_at: 2020-06-22T22:09:36Z
+last_modified_at: 2020-09-09T22:09:36Z
 ---
 
-Jeg kan godt lide at kombinere styrketræning, løbetræning og konditionstræning. Jeg får også ofte spørgsmålet om, hvordan man kan træne styrke og cardio samtidigt, og hvad den bedste kombination er?
+Jeg kan godt lide at kombinere styrketræning, løbetræning og konditionstræning samtidigt. Det kalder man _concurrent training_, kombinationstræning eller samtidig træning. Hvordan kan man træne styrke og cardio samtidigt, og hvad er den bedste kombination?
 
-Først og fremmest handler det naturligvis om dine mål, hvordan du kombinerer styrketræning og løbetræning (udholdenhedstræning). Jeg synes, at det er interessant at starte med at kigge på, hvordan træningstyperne påvirker hinanden?
+Først og fremmest handler det naturligvis om dine mål, hvordan du kombinerer styrketræning og løbetræning (udholdenhedstræning). Derfor er det interessant at starte med at kigge på, hvordan træningstyperne påvirker hinanden?
 
 I den sammenhæng er det nødvendigt at få et par begreber på plads først om styrketræning og konditionstræning.
 
@@ -38,7 +38,7 @@ Hawley (2009) undersøgte de konkurrerende signaler fra styrketræning og aerob 
 
 Træning indebærer, at der er et **signal**, der skaber et **respons**, og kroppen laver en **tilpasning (adaptation)**, hvis den gennemgår de samme signaler flere gange.
 
-Et signal er alle de typer træninger, du kan finde på at lave. Squat, tempoløb, plyometri. På delle niveau er der en opregulering og nedregulering af forskellige mekanismer og enzymer.
+Et signal er alle de typer træninger, du kan finde på at lave. Squat, tempoløb, plyometri. På celleniveau er der en opregulering og nedregulering af forskellige mekanismer og enzymer.
 
 {% include figure image_path="/assets/images/blog/hawley2009.jpg" caption="Kroppens respons på styrketræning og udholdenhedstræning og de afledte tilpasninger. Måske modarbejder styrketræning og udholdenhedstræning hinanden." alt="Kroppens respons på styrketræning og udholdenhedstræning og de afledte tilpasninger. Måske modarbejder styrketræning og udholdenhedstræning hinanden." %}
 
