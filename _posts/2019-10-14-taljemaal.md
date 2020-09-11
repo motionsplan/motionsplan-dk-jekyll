@@ -58,7 +58,7 @@ Hvis du er i tvivl, kan du også mærke dig frem til punktet, som på siden af k
 
 Studier med taljemål har vist, at man kan have forøget risiko for kredsløbssygdomme, hvis ens taljemål er højt.
 
-I denne tabel er der taljemål for kvinder og mænd i forhold til risikoen for livsstilssygdomme.
+Denne tabel er det mest brugte skema for at vurdere taljemål for kvinder og mænd i forhold til risikoen for livsstilssygdomme.
 
 |         | Let forøget risiko | Forøget risiko |
 |---------|--------------------|----------------|
@@ -66,6 +66,15 @@ I denne tabel er der taljemål for kvinder og mænd i forhold til risikoen for l
 | Kvinder | > 80 cm            | > 88 cm        |
 
 Opstillingen er naturligvis meget forenklet, og målet tager således ikke højde for den enkeltes kropsbygning. Fx får man hurtigt et højt taljemål, hvis man er høj.
+
+[Bray (2004)](https://academic.oup.com/ajcn/article/79/3/347/4690117) har foreslået en opdeling med lidt flere kategorier for risici for livsstilssygdomme.
+
+|           | Kvinder   | Mænd        |
+|-----------|-----------|-------------|
+| Meget lav | < 70 cm   | < 80 cm     |
+| Lav       | 70-89 cm  | 80-99 cm    |
+| Høj       | 90-109 cm | 100-120 cm  |
+| Meget høj | > 110 cm  | > 120 cm    |
 
 ### Fordele og ulemper ved taljemålet
 

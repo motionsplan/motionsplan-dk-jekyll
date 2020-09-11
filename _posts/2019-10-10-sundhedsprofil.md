@@ -52,15 +52,15 @@ feature_row_references:
 toc: true
 ---
 
-Sundhed fylder megt i samfundet. Men hvad er sundhed egentlig? Morten Zacho har givet sit bud på, hvordan man kan lave en sundhedsprofil. Testen indeholder en række relativt enkle tests, og du ender med din egen sundhedsprofil.
+Sundhed fylder megt i samfundet. Men hvad er sundhed egentlig? Morten Zacho har givet sit bud på, hvordan man kan lave en sundhedsprofil og sundhedstest. Testen indeholder en række relativt enkle tests, og du ender med din egen sundhedsprofil.
 
-## Lav din egen sundhedsprofil
+## Lav din egen sundhedsprofil og sundhedstest
 
 Sundhedsprofilen viser et øjebliksbillede af din nuværende sundhed og livsstil.
 
 > Motion-online’s Sundhedsprofil er tænkt som et værktøj der kan bruges af alle – både private og professionelle. Vi har derfor lagt vægt på en let tilgængelig og pædagogisk brugerflade samt et evidensbaseret fundament for test og resultatberegning. I denne artikel gives de bagvedliggende principper og referencer.Sundhed kan beskrives på mange forskellige måder. I Motion-online’s sundhedsprofil tages der udgangspunkt i variable, der er relateret til fysisk sundhed, set som muligheden for at leve et langt liv uden sygdomme og med en høj grad af fysisk funktion gennem hele livet.
 
---- <cite>[Motion-online.dk - Sundhedsprofil – Teoretisk Baggrund](https://www.motion-online.dk/sundhedsprofil-teoretisk-baggrund/){:rel="nofollow"}</cite>
+--- <cite>[Motion-online.dk - Sundhedsprofil – Teoretisk Baggrund](http://web.archive.org/web/20160406061608/http://www.motion-online.dk/sundhed_og_vaegt/sundhed-generelt/sundhedsprofil_-_teoretisk_baggrund/){:rel="nofollow"}</cite>
 
 Oprindeligt var sundhedsprofilen udviklet på dansk, men nu findes den kun på engelsk. Så det kan være, at du skal have ordbogen frem.
 {: .notice .notice--info }
@@ -77,7 +77,7 @@ Avanceret sundhedsprofil
 
 ## Hvordan tester jeg fitness?
 
-### Anslå den ud fra hvile- og maxpuls
+### Anslå kondition ud fra hvile- og maxpuls
 
 I sundhedstesten foreslås forskellige måder at teste kredsløbsfitness på. Hvis ikke du har tid til at lave en længerevarende fitnesstest, så kan du _estimere_ din test ud fra din hvile- og max-puls.
 
@@ -87,18 +87,22 @@ I sundhedstesten foreslås forskellige måder at teste kredsløbsfitness på. Hv
 
 Hvis du for nylig har løbet en distance så hurtigt, du kunne, så kan du også anslå din kredsløbsfitness ud fra Jack Daniels formel.
 
-[Anslå kondital fra løb](https://www.omnicalculator.com/sports/vo2-max-runners){: .btn .btn--large .btn--info }
+[Anslå kondital fra løb]({% link _posts/2019-10-31-kondital-fri-loebedistance.md %}){: .btn .btn--large .btn--info }
 
-## Teoretisk baggrund for sundhedsprofilen
+## Teoretisk baggrund for sundhedsprofilen og sundhedstest
 
 > ### BMI
 >
-> BMI er en anerkendt faktor i forhold til at vurdere risiko for en række livsstilssygdomme. Man skal dog have med, at BMI først og fremmest giver mening når man vurderer risiko på populationsbasis. På individbasis vil BMI ofte være vildledende på grund af forskelle i kropsbygning og muskelmasse. Endvidere er et moderat forhøjet BMI kun en begrænset risikofaktor hvis man samtidigt er i god kondition og er fysisk aktiv.
->
+> BMI er en anerkendt faktor i forhold til at vurdere risiko for en række livsstilssygdomme. Man skal dog have med, at BMI først og fremmest giver mening når man vurderer risiko på populationsbasis. På individbasis vil BMI ofte være vildledende på grund af forskelle i kropsbygning og muskelmasse. Endvidere er et moderat forhøjet BMI kun en begrænset risikofaktor, hvis man samtidigt er i god kondition og er fysisk aktiv.
+
+[Test din BMI](/bmi/){: .btn .btn--large .btn--success }
+
 > ### Taljemål
 >
-> Taljemål er et simpelt og relativt pålideligt mål til at sige om der er en sundhedstruende overvægt. Taljemålet vil specifikt inkludere det særligt farlige fedtmasse omkring de indre organer (bugfedt, visceralt fedt). Ulempen er at kropsbygning også her kan give et vildledende resultat. Eksempelvis er det ikke rimeligt at en person på 2 meter skal vurderes efter de samme grænser som en person på 1,60 meter. De sædvanlige grænseværdier der anvendes for taljemål er ret grove i inddelingen. I denne sundhedsprofil anvendes nyere inddeling med flere kategorier (Bray 2004)
->
+> Taljemål er et simpelt og relativt pålideligt mål til at sige om der er en sundhedstruende overvægt. Taljemålet vil specifikt inkludere det særligt farlige fedtmasse omkring de indre organer (bugfedt, visceralt fedt). Ulempen er at kropsbygning også her kan give et vildledende resultat. Eksempelvis er det ikke rimeligt at en person på 2 meter skal vurderes efter de samme grænser som en person på 1,60 meter. De sædvanlige grænseværdier der anvendes for taljemål er ret grove i inddelingen. I denne sundhedsprofil anvendes nyere inddeling med flere kategorier (Bray 2004).
+
+[Test dit taljemål]({% link _posts/2019-10-14-taljemaal.md %}){: .btn .btn--large .btn--success }
+
 > ### Kost
 >
 > De inkluderede parametre er valgt som de væsentligste i forhold til at karakterisere en hhv. sund eller usund kost. Grøntsager, frugt, fisk og fiberrige kulhydrater er anerkendte ingredienser i en sund kost, hvorimod sukker og industrielt forarbejdet fastfood er kostkomponenter med en negativ effekt. Nogen vil måske undre sig over fraværet af spørgsmål om fedtindtag, men dette er bevidst fravalgt, da fedtenergiprocenten i sig selv ikke er en diskutabel risikofaktor, såfremt fedtet kommer fra sunde kilder og personen generelt er i energibalance.
@@ -114,20 +118,24 @@ Hvis du for nylig har løbet en distance så hurtigt, du kunne, så kan du også
 > ### Styrke
 >
 > Muskelstyrken i armene er ikke direkte relateret til ens sundhed på samme måde som f.eks. kost og kondition, men der er alligevel studier der peger på, at hvis man tidligt i livet opretholder en god muskelstyrke, så øger man sandsynligheden for et langt liv. Dertil er en god muskelstyrke især vigtigt når man er kommet lidt op i årene, da den naturlige aldersvækkelse, der kommer hvis man er inaktiv, kan være forbundet med alvorlige funktionelle og dermed helbredsmæssige problemer.
->
+
+[Test din styrke]({% link _posts/2020-09-04-pushup-test.md %}){: .btn .btn--large .btn--success }
+
 > ### Smidighed
 > 
 > Smidighed er nok den mindst vigtige af de anvendte faktorer, men ikke desto mindre, så er god bevægelighed væsentlig for at kunne opretholde en god all-round funktionsevne for kroppen. Selvom sammenhængen er en anelse spekulativ, så er det dog rimeligt at antage en sammenhæng mellem generelt god bevægelighed i kroppens led og evnen til at oprethold en god holdning i både hvile og under aktivitet, hvilket har betydning for opståen af rygproblemer.
->
+
+[Test din smidighed]({% link _posts/2020-09-11-smidighedstest.md %}){: .btn .btn--large .btn--success }
+
 > ### Blodtryk
 >
 > Ca. 1 million danskere har forhøjet blodtryk. Personer med forhøjet blodtryk har en markant øget risiko for en række alvorlige hjerte-kar sygdomme som f.eks. blodpropper og hjertesvigt. Den generelle grænse for ”hypertension” er et blodtryk på over 140/90 mmHg, men man ved at selv blodtryk under denne grænse er associeret med forøget risiko. Generelt peger undersøgelserne på at jo lavere blodtrykket er, desto mindre risiko har man.
 > 
 > ### Samlet scoring
 >
-> Ikke alle elementer tæller lige meget i den samlede score. Det trækker f.eks. meget mere fra at være ryger i forhold til blot at være usmidig. Dertil er det heller ikke alle test der giver en højere samlet score selv om man forbedrer sig. Eksempelvis er det godt for sundheden at have en hvis styrke i overkroppen, men man er ikke nødvendigvis sundere fordi man kan tage virkelig mange armstrækninger. Vægtningen af de forskellige elementer er bl.a. sket ved at kigge på rapporten ” Risikofaktorer og folkesundhed i Danmark”, samt ved at kigge på mere specifikke undersøgelser
+> Ikke alle elementer tæller lige meget i den samlede score. Det trækker f.eks. meget mere fra at være ryger i forhold til blot at være usmidig. Dertil er det heller ikke alle test der giver en højere samlet score selv om man forbedrer sig. Eksempelvis er det godt for sundheden at have en hvis styrke i overkroppen, men man er ikke nødvendigvis sundere fordi man kan tage virkelig mange armstrækninger. Vægtningen af de forskellige elementer er bl.a. sket ved at kigge på rapporten ” Risikofaktorer og folkesundhed i Danmark”, samt ved at kigge på mere specifikke undersøgelser.
 
----<cite>[motion-online.dk](http://web.archive.org/web/20160406061608/http://www.motion-online.dk/sundhed_og_vaegt/sundhed-generelt/sundhedsprofil_-_teoretisk_baggrund/){:rel="nofollow"}</cite>
+--- <cite>[motion-online.dk](http://web.archive.org/web/20160406061608/http://www.motion-online.dk/sundhed_og_vaegt/sundhed-generelt/sundhedsprofil_-_teoretisk_baggrund/){:rel="nofollow"}</cite>
 
 ## Hvad er sundhed?
 

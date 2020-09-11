@@ -35,6 +35,8 @@ Husk at dine resultater er negativt korreleret med kropsvægten. Hvis du er tung
 
 ## Teknik for armstrækningerne
 
+{% include video provider="youtube" id="nUVqaq8yjHw" %}
+
 ### Mænd
 
 - tæerne på fødderne
