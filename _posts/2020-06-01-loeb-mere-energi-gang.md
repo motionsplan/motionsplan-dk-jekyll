@@ -39,11 +39,15 @@ Hvis man stiller spørgsmålet: hvor meget forbrænder jeg ved denne aktivitet, 
 
 For at estimere hvor meget en aktivitet bruger af energi, så kan man bruge enheden _metabolic equivalent for task_ (MET). En MET er det din krop forbrænder under hvile. Gang bruger 3-6 MET alt efter tempoet og løb bruger mere end 6 MET.
 
-| Aktivitet | MET |
-|-|-|
-| Hvile | 1 MET |
-| Gang | 3-6 MET |
-| Løb | >6 MET |
+| Aktivitet     | MET     |
+|---------------|---------|
+| Hvile         | 1 MET   |
+| Gang 4 km/t   | 3 MET   |
+| Gang 5,3 km/t | 4,3 MET |
+| Gang 6,4 km/t | 5,0 MET |
+| Løb 6,4 km/t  | 6 MET   |
+| Løb 6,4 km/t  | 6 MET |
+| Løb 10,8 km/t | 10,5 MET |
 
 Jeg har skrevet et meget grundigere indlæg om [MET med en tabel over virkelig mange aktiviteter, bl.a. også gang og løb]({% link _posts/2020-07-24-met.md %}).
 
@@ -51,15 +55,17 @@ Jeg har skrevet et meget grundigere indlæg om [MET med en tabel over virkelig m
 
 Der er en lineær sammenhæng mellem iltforbruget og ganghastigheder på 3 til 5 km/t, men ved højere hastigheder stiger iltforbruget og gør gang mindre økonomisk. 
 
-Kropsmassen kan bruges til at estimere energiforbruget ved hastigheder mellem 3.2 to 6.4 km/t (McArdle 2000). 
+Kropsmassen kan bruges til at estimere energiforbruget ved hastigheder mellem 3,2 to 6,4 km/t (McArdle 2000). 
 
-Hvis din kropsvægt er 65 kg og du går med en hastighed på 5,63 km/t, så vil du forbrænde omkring 4,6 kcal/min. Hvis du går i en time vil du altså forbrænde 276 kcal.
+Hvis din kropsvægt er 65 kg, og du går med en hastighed på 5,63 km/t, så vil du forbrænde omkring 4,6 kcal/min. Hvis du går i en time, vil du altså forbrænde 276 kcal.
 
-Hvis man går meget hurtigt, så kan man bruge mere energi på at gå end på at løbe. En ganghastighed omkring 8 km / t vil formentlig forbrænde nogenlunde det samme som at løbe, mens man ved 10 km / t formentlig vil forbrænde mere ved at gå.
+## Hvornår kan det bedre betale sig at løbe end at gå?
+
+Hvis man går meget hurtigt, så kan man bruge mere energi på at gå end på at løbe. En ganghastighed omkring 8 km/t vil formentlig forbrænde nogenlunde det samme som at løbe, mens man ved 10 km/t formentlig vil forbrænde mere ved at gå.
 
 Uanset dit træningsniveau så bliver det mere økonomisk set ud fra et energiperspektiv at skifte til løb, når din ganghastighed bliver højere end 8 km/t. Over 8 km/t begynder iltoptagelsen for en gående at være højere end iltoptagelsen for en løber. Ved 10 km/t er den gåendes iltoptagelse 40 ml/kg/min sammenlignet med løberens 35 ml/kg/min (McArdle 2000).
 
-Hvis man går rigtig hurtigt er det ganske enkelt være mere effektivt at løbe. 
+Hvis man går rigtig hurtigt, er det ganske enkelt mere effektivt at løbe. 
 
 ## Hvor mange kalorier forbrænder man ved løb?
 
@@ -67,7 +73,21 @@ Kropsvægt kan også ved løb nogenlunde forudsige energiforbruget, når du løb
 
 Regnestykket for en løber bliver således relativt enkelt. Jeg vejer 80 kg, og jeg bruger altså 80 kcal på at løbe en km.
 
-En liter ilt er det samme som 5 kcal, så jeg bruger 16 liter O<sub>2</sub> per kilometer. 
+Forbrænding af en liter ilt svarer til omkring 5 kcal, så jeg bruger 16 liter O<sub>2</sub> per kilometer.
+
+## Bruger man lige 
+
+Dette er imidlertid en relativt grov afrunding, og den afrunding inkluderer hvilestofskiftet, og derfor kan man ende med at skrive, at man [bruger lige mange kalorier på at gå og løbe en kilometer](https://www.alt.dk/sundhed/forbraending-kalorier-gaa-eller-lob).
+
+Det gør man ikke!
+
+Hvis vi bruger MET-værdierne til at sammenligne energiforbruget ved at gå i forhold til at løbe, så er det tydligt at de stiger, når man går fra gang til løb.
+
+Hvis jeg går med en hastighed på 5,3 km/t, så er MET-værdien 4,3. Her forbrænder jeg med en kropsvægt på 80 kg 344 kcal på en time.
+
+Hvis jeg løber med en hastighed på 10,8 km/t (altså omtrent dobbelt så hurtigt), så er MET-værdien 10,5. Her forbrænder jeg ved en kropsvægt på 80 kg 420 kcal på en halv time.
+
+Jeg når lige langt, men bruger altså mere energi på at løbe end på at gå.
 
 ## Energiforbrug ved forskellige løbe- og ganghastigheder
 
@@ -75,13 +95,13 @@ Jeg har samlet det omtrentlige energiforbrug for 30 minutters arbejde med forske
 
 | Aktivitet | Intensitet | Kalorier / ½ time |
 |-----------|------------|-------------------|
-| Gang      | 4 km / t   | 105               |
-| Gang      | 7 km / t   | 200               |
-| Gang      | 10 km / t  | 370               |
-| Løb       | 9 km / t   | 320               |
-| Løb       | 10 km / t  | 350               |
-| Løb       | 12 km / t  | 430               |
-| Løb       | 16 km / t  | 550               |
+| Gang      | 4 km/t     | 105               |
+| Gang      | 7 km/t     | 200               |
+| Gang      | 10 km/t    | 370               |
+| Løb       | 9 km/t     | 320               |
+| Løb       | 10 km/t    | 350               |
+| Løb       | 12 km/t    | 430               |
+| Løb       | 16 km/t    | 550               |
 
 Ved en ganghastighed over 5 km/t nærmer energiforbruget pr. km sig gradvist energiforbruget for løb. Langt de fleste går ikke hurtigere end 5 km/t ved normal ganghastighed.
 
