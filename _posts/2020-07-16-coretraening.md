@@ -10,6 +10,7 @@ tags:
   - teknik
   - core
   - kropsstamme
+  - træningsøvelse
 category:
   - Styrketræning
   - Teknik

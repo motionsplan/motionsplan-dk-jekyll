@@ -10,6 +10,7 @@ tags:
   - yoga
   - træning
   - meditation
+  - træningsprogram
 category:
   - Yoga
 last_modified_at: 2020-07-08T09:41:09Z

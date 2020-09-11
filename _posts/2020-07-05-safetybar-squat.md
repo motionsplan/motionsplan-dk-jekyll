@@ -10,6 +10,7 @@ category:
   - Styrketræning
 tags:
   - safety bar squat
+  - træningsøvelse
 last_modified_at: 2020-07-05T21:49:14Z
 toc: true
 feature_row:

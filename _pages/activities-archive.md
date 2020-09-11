@@ -18,4 +18,18 @@ Hvis du er på udkig efter [maveøvelser]({% link _pages/exercises-tag-abs.md %}
 
 Hvis ud gerne vil hjælpe med at forbedre beskrivelserne, eller der mangler den helt perfekte øvelsen, så skriv endelig.
 
+## Artikler om træningsøvelser
+
+<div class="feature__wrapper">
+
+{% assign site_posts = site.posts | where: "tags", "træningsøvelse" | sort: "last_modified_at" | reverse %}
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts limit:4 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
 ## Træningsøvelser til træning

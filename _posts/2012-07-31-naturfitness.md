@@ -14,6 +14,7 @@ tags:
   - outdoor fitness
   - naturtræning
   - udendørs træning
+  - træningsprogram
 feature_row_sign:
   - image_path: /assets/images/naturfitness/bettina-reimer.png
     excerpt: Tegningerne er tegnet af Bettina Reimer

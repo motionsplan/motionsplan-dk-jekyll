@@ -10,6 +10,7 @@ tags:
   - styrketræning
   - guide
   - skulder
+  - træningsøvelse
 category:
   - Styrketræning
 last_modified_at: 2015-03-21T19:53:30Z
