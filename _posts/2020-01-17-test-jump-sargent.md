@@ -17,8 +17,6 @@ toc: true
 
 Jeg er ved at lave en artikel om Sargent Jump Test. Hvis du kender noget til testen for hoppehøjde og vil hjælpe med at skrive artiklen, så kontakt mig endelig.
 
-Artiklen er under opbygning, så lige nu er det mest en inspiration til en masse forskellige begreber, der har betydning for eksplosivitet, spring og at hoppe højere.
-
 Hvis du gerne vil hjælpe med at forbedre artiklen, så skriv endelig til lars@vih.dk.
 
 Foreløbig kan du læse mere om [spring, at hoppe højere og eksplosivitet her]({% link _posts/2020-01-16-jumping.md %}).
