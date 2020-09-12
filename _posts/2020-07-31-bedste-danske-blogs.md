@@ -8,7 +8,7 @@ language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1554774853-b3d587d95440?ixlib=rb-1.2.1&auto=format&fit=crop&w=1963&q=80
   teaser: https://images.unsplash.com/photo-1554774853-b3d587d95440?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
-  caption: "Bedste fitness blogs og træningsblogs"
+  caption: "Bedste fitness blogs og træningsblogs fra danske bloggere"
 category:
   - Webclips
 tags:
@@ -55,8 +55,8 @@ feature_row:
     btn_class: "btn--success"
   - image_path: /assets/images/blogs/annabogdanova.jpg
     url: https://www.annabogdanova.dk/blog
-    title: "Anna Bogdanova"
-    alt: "Anna Bogdanova"
+    title: "Anna Bogdanova blog"
+    alt: "Anna Bogdanova blog"
     excerpt: "Anna Bogdanova skriver om langtidsholdbare strategier til styrket fysik, helbred og selvbillede - og hun skriver særligt til kvinder. Hun har en interessant tilgang som er meget forskellig fra mange andre personlige trænere. Anna Bogdanova arbejder med skræddersyede mikro-interventioner og passende doseringer, hvor der er fokus på balance og forebyggelse af stress og smerter. Har skrevet Skyhøj Forbrænding, Veldrejet og Smertefri, og hun advokerer for at en times kvalitetstræning om ugen kan gøre dig stressfri, smertefri, veldrejet og sundere."
     btn_label: "Besøg Anna Bogdanova"
     btn_class: "btn--success"    
@@ -91,7 +91,7 @@ feature_row:
   - image_path: /assets/images/blogs/mkuniverset.jpg
     url: https://mkuniverset.dk/blog/
     title: "Michelle Kristensens MK Univers"
-    alt: "Michelle Kristensens MK-Univers"
+    alt: "Michelle Kristensens MK-Univers Michelle Kristensen blog"
     excerpt: "Michelle Kristensen driver en meget veldesignet blog med indlæg om både kost, opskrifter, sundhed, kostplaner og træning - og hun inkluderer forskellige cases på sin blog. Artiklerne har forskellige gode råd, som du kan implementere i din træning og livsstil allerede i dag."
     btn_label: "Besøg MK Universet"
     btn_class: "btn--success"
@@ -125,7 +125,7 @@ Min opdaterede liste over danske fitness og træningsblogs indeholder følgende:
 - En kort beskrivelse om hvad de enkelte bloggere skriver om
 - Jeg har ikke delt blogs op i blogs rettet mod kvinder og mænd.
 
-Hvis jeg har overset nogle blogs om fitness, træning, motion og sundhed i min research, så skriv endelig i kommentarerne for at hjælpe mig med at udvide listen.
+Hvis jeg har overset nogle blogs om fitness, træning, motion og sundhed af danske bloggere i min research, så skriv endelig i kommentarerne for at hjælpe mig med at udvide listen.
 
 ## {{ page.feature_row.size }} bedste danske fitness og træning blogs
 
@@ -135,7 +135,7 @@ Hvis jeg har overset nogle blogs om fitness, træning, motion og sundhed i min r
 
 ## Sponsorerede fitness og træning blogs med kvalitet
 
-Jeg har også udvalgt et par blogs af høj kvalitet fra firmaer, der er med til at støtte dette site:
+Jeg har også udvalgt et par gode blogs med danske bloggere af høj kvalitet fra firmaer, der er med til at støtte dette site:
 
 {% include feature_row type="right" id="feature_row_sponsored" %}
 
@@ -143,10 +143,10 @@ Jeg har også udvalgt et par blogs af høj kvalitet fra firmaer, der er med til 
 
 ## Hvordan følger jeg med i træningsblogs og fitnessblogs?
 
-For ikke at gå glip af nye skarpe blog indlæg, så har jeg tilføjet alle mine favoritter om træning til min _bloglæser_. Jeg bruger selv [Feedly](http://www.feedly.com), men der findes flere forskellige muligheder for at læse blogs uden at skulle klikke ind på alle hjemmesiderne.
+For ikke at gå glip af nye skarpe blog indlæg, så har jeg tilføjet alle mine favoritblogs om træning til min _bloglæser_. Jeg bruger selv [Feedly](http://www.feedly.com), men der findes flere forskellige muligheder for at læse blogs uden at skulle klikke ind på alle hjemmesiderne.
 
-## Fitness Blogs og Træningsblogs
+## Fitness Blogs og træningsblogs
 
 Det var den foreløbige liste over danske fitnessblogs og træningsblogs.
 
-Hvis jeg har overset nogle blogs om fitness, træning, motion og sundhed i min research, så skriv endelig i kommentarerne for at hjælpe mig med at udvide listen.
+Hvis jeg har overset nogle sunde blogs om fitness, træning, motion og sundhed i min research, så skriv endelig i kommentarerne for at hjælpe mig med at udvide listen.
