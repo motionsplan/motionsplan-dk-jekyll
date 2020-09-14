@@ -44,7 +44,7 @@ De mest udbredte tallerkenmodeller er: Y, T, E og X. Jeg forklarer forskellene i
 
 Fødevarestyrelsen anbefaler Y-modellen til normalbefolkningen, som har et lavt til normalt aktivitetsniveau. Det betyder, at man træner under 1-1½ time om dagen.
 
-{% include figure image_path="https://altomkost.dk/fileadmin/user_upload/altomkost.dk/Publikationsdatabase/Logo_mv/Y-tallerken_boern.JPG" caption="Y-tallerken foreslået af [Fødevarestyrelsen](https://altomkost.dk/tips/til-maaltiderne/y-tallerkenen/)" alt="Y-tallerken-modellen" %}
+{% include figure image_path="https://altomkost.dk/fileadmin/user_upload/altomkost.dk/Publikationsdatabase/Logo_mv/Y-tallerken_boern.JPG" caption="Y-tallerken foreslået af [Fødevarestyrelsen](https://altomkost.dk/raad-og-anbefalinger/hjaelp-til-det-gode-maaltid/)" alt="Y-tallerken-modellen" %}
 
 Tallerkenen skal i Y-modellen bestå af følgende:
 

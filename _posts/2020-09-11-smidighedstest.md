@@ -53,7 +53,7 @@ I denne Youtube video kan du se, hvordan den modificerede 'sit and reach'-test u
 
 ## Har smidighed betydning for sundheden?
 
-En god bevægelighed kan være væsentlig for at kunne opretholde en god all-round funktionsevne for kroppen. Det er formentlig rimeligt at antage, at der er en sammenhæng mellem generelt god bevægelighed i kroppens led og evnen til at [opretholde en god holdning](% link _posts/2020-07-01-ret-ryg.md %}) både i hvile og under fysisk aktivitet.
+En god bevægelighed kan være væsentlig for at kunne opretholde en god all-round funktionsevne for kroppen. Det er formentlig rimeligt at antage, at der er en sammenhæng mellem generelt god bevægelighed i kroppens led og evnen til at [opretholde en god holdning]({% link _posts/2020-07-01-ret-ryg.md %}) både i hvile og under fysisk aktivitet.
 
 Smidighed og bevægelighed kan derfor måske sagtens indgå i en [sundhedsprofil og sundhedstest]({% link _posts/2019-10-10-sundhedsprofil.md %}).
 

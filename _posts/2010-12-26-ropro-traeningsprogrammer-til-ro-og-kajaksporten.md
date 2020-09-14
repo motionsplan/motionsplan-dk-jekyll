@@ -17,13 +17,6 @@ category:
   - Webclips
 last_modified_at: 2020-07-05T21:42:12Z
 feature_row:
-  - image_path: https://apuls.dk/image/cache/catalog/waterrower/a1/a1_studio_03-0-8-2-1500x1500.jpg
-    alt: "WaterRower A1 Studio Romaskine Ask - til Roprogrammer, træningsprogrammer og intervaller til indendørs roning på romaskine"
-    title: "WaterRower A1 Studio Romaskine Ask"
-    excerpt: "WaterRower A1 Home er udført i ask og har en aluminiums skinne, som gør den træning ekstra komfortabel. Denne WaterRower er den billigste af de originale WaterRowers. Mange vælger WaterRower ud fra det smukke og stilrene design, men du får også en romaskine med et naturligt og jævt træk."
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=39091&htmlurl=https://apuls.dk/waterrower-a1-studio-romaskine-ask
-    btn_label: "Tjek pris hos Apuls*"
-    btn_class: "btn--success"
   - image_path: https://www.fotoagent.dk/single_picture/11803/138/mega/Concept_2_model_D_sort(2).jpg
     alt: "Concept 2 - Model D Sort + PM5 - til Roprogrammer, træningsprogrammer og intervaller til indendørs roning på romaskine"
     title: "Concept 2 - Model D Sort + PM5"

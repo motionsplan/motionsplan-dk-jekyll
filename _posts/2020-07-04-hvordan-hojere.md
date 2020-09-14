@@ -117,7 +117,7 @@ Længdevæksten i knoglerne foregår i epifyseskiverne, som ligger tæt på ende
 
 Epifyseskiverne lukkes efter et stykke tid. Typisk stopper kvinder med at vokse tidligere end mænd omkring 18 år. Mænds primære vækst stopper også her, men nogle mænd vokser måske lidt selv i 20’erne.
 
-{% include figure image_path="https://s3.amazonaws.com/tinycards/image/e3bc84498570f7db3f3f2c0b8ed98d17" caption="Længdevæksten i knoglerne foregår i epifyseskiverne, som ligger tæt på enderne af knoglerne." %}
+{% include figure image_path="https://www.researchgate.net/publication/330440169/figure/fig1/AS:715930615173120@1547702568929/Abbildung-14-Endochondrale-Ossifikation-A-Kondensation-von-multipotenten.png" caption="Længdevæksten i knoglerne foregår i epifyseskiverne, som ligger tæt på enderne af knoglerne." %}
 
 Når først epifyseskiverne er lukket, så sker der ikke mere længdevækst i knoglerne. I det følgende kigger vi lidt på, hvordan du kan sikre dig mest vækst, mens du stadig uden kunstige midler kan blive højere.
 

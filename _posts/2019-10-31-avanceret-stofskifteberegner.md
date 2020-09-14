@@ -89,7 +89,7 @@ Hvis du har et rigtig godt bud, så brug endelig kommentarerne.
 
 Denne beregner er delvist baseret på Morten Zachos [energiforbrugberegner](http://health-calc.com/diet/energy-expenditure-advanced).
 
-Morten Zacho skriver, at hans beregner er baseret på Schofields formler for energiforbrug, men i beregneren bruges faktisk formlerne fra _[Nordiska Næringsrekommendationer 1996](({% link _posts/2019-10-31-simpel-stofskifteberegner.md %}))_. Jeg er i tvivl om formlerne fra den reference blot er reviderede Schofield-formler - og hvilken reference de i så fald kommer fra. Skriv endelig i kommentarerne, hvis du ved mere.
+Morten Zacho skriver, at hans beregner er baseret på Schofields formler for energiforbrug, men i beregneren bruges faktisk formlerne fra _[Nordiska Næringsrekommendationer 1996]({% link _posts/2019-10-31-simpel-stofskifteberegner.md %})_. Jeg er i tvivl om formlerne fra den reference blot er reviderede Schofield-formler - og hvilken reference de i så fald kommer fra. Skriv endelig i kommentarerne, hvis du ved mere.
 
 Målet for beregneren af energiforbrug er, at den er pålidelig både for børn, normalvægtige voksne og overvægtige voksne.
 

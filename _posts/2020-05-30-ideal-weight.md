@@ -40,7 +40,7 @@ Formlerne fra Devine (1974), Miller (1983), Hamwi (1964) og Robinson (1983) er h
 
 ## Udregn idealvægt baseret på BMI og kropstype
 
-Morten Zacho har foreslået, at [basere idealvægten på Body Mass Index(BMI)](http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/beregn_din_idealvaegt/){:rel="nofollow"}. Morten Zacho ender med at sige, at det optimale BMI er omkring 22,5 for kvinder og 24,5 for mænd for at opleve det længste liv med færrest sygdomme. Jeg har forklaret rationalet bag i artiklen om [BMI](/bmi/).
+Morten Zacho har foreslået, at [basere idealvægten på Body Mass Index (BMI)](https://web.archive.org/web/20160808221414/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/beregn_din_idealvaegt/){:rel="nofollow"}. Morten Zacho ender med at sige, at det optimale BMI er omkring 22,5 for kvinder og 24,5 for mænd for at opleve det længste liv med færrest sygdomme. Jeg har forklaret rationalet bag i artiklen om [BMI](/bmi/).
 
 Jeg har inkluderet kropsbygning i den nederste del af beregneren.
 
@@ -81,5 +81,5 @@ På mange punkter er det ærgerligt, at idealvægt fylder så meget for mange me
 - Lewis, Cora E., Kathleen M. McTigue, Lora E. Burke, Paul Poirier, Robert H. Eckel, Barbara V. Howard, David B. Allison, Shiriki Kumanyika, og F. Xavier Pi-Sunyer. 2009. “Mortality, Health Outcomes, and Body Mass Index in the Overweight Range: A Science Advisory from the American Heart Association”. Circulation 119 (25): 3263–71. <https://doi.org/10.1161/CIRCULATIONAHA.109.192574>.
 - Peterson, Courtney M, Diana M Thomas, George L Blackburn, og Steven B Heymsfield. 2016. “Universal equation for estimating ideal body weight and body weight at any BMI1”. The American Journal of Clinical Nutrition 103 (5): 1197–1203. <https://doi.org/10.3945/ajcn.115.121178>.
 - Prospective Studies Collaboration, Gary Whitlock, Sarah Lewington, Paul Sherliker, Robert Clarke, Jonathan Emberson, Jim Halsey, Nawab Qizilbash, Rory Collins, og Richard Peto. 2009. “Body-Mass Index and Cause-Specific Mortality in 900 000 Adults: Collaborative Analyses of 57 Prospective Studies”. Lancet (London, England) 373 (9669): 1083–96. <https://doi.org/10.1016/S0140-6736(09)60318-4>.
-- Ruff, C. B. 2000. “Body Mass Prediction from Skeletal Frame Size in Elite Athletes”. American Journal of Physical Anthropology 113 (4): 507–17. <https://doi.org/10.1002/1096-8644(200012)113:4<507::AID-AJPA5>3.0.CO;2-F>.
+- Ruff, C. B. 2000. “Body Mass Prediction from Skeletal Frame Size in Elite Athletes”. American Journal of Physical Anthropology 113 (4): 507–17. <https://pubmed.ncbi.nlm.nih.gov/11102884/>.
 - Wong, Edwin S., Bruce C. M. Wang, Louis P. Garrison, Rafael Alfonso-Cristancho, David R. Flum, David E. Arterburn, og Sean D. Sullivan. 2011. “Examining the BMI-Mortality Relationship Using Fractional Polynomials”. BMC Medical Research Methodology 11 (december): 175. <https://doi.org/10.1186/1471-2288-11-175>.
