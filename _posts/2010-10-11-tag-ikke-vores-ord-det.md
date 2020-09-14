@@ -5,8 +5,8 @@ redirect_from:
   - /artikel/tag-ikke-vores-ord-det
 language: da
 header:
-  overlay_image: /assets/images/blog/tag-ikke-vores-ord-det.jpg
-  teaser: /assets/images/blog/tag-ikke-vores-ord-det.jpg
+  overlay_image: https://images.unsplash.com/photo-1581093588401-fbb62a02f120?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80
+  teaser: https://images.unsplash.com/photo-1581093588401-fbb62a02f120?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
   caption: *title
 tags:
   - videnskab
