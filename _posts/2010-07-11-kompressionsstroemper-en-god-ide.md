@@ -1,5 +1,5 @@
 ---
-    title: "Virker kompressionsstrømper 🧦 til løb 🏃 og cykling 🚴‍♀️?"
+title: "Virker kompressionsstrømper 🧦 til løb 🏃 og cykling 🚴‍♀️?"
 permalink: /artikel/virker-kompressionsstroemper/
 redirect_from:
   - /artikel/kompressionsstroemper-en-god-ide
