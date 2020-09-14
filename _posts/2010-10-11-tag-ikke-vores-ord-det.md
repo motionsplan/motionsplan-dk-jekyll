@@ -1,5 +1,5 @@
 ---
-title: "Tag ikke vores ord for det!"
+title: &title "Hvordan finder jeg og læser en videnskabelig artikel?"
 permalink: /videnskabelig-sogning/
 redirect_from:
   - /artikel/tag-ikke-vores-ord-det
@@ -7,17 +7,25 @@ language: da
 header:
   overlay_image: /assets/images/blog/tag-ikke-vores-ord-det.jpg
   teaser: /assets/images/blog/tag-ikke-vores-ord-det.jpg
+  caption: *title
 tags:
   - videnskab
 category:
   - Webclips
-last_modified_at: 2013-02-13T21:55:25Z
+last_modified_at: 2020-02-13T21:55:25Z
 ---
 
-Der bliver sagt usædvanligt meget om træning og ernæring. Vi forsøger at formidle tingene, så de er til at forstå, men vi forsøger også at finde opbakning i videnskaben. Her kan du læse lidt om, hvordan vi prøver at finde viden.
+Der bliver sagt usædvanligt meget om træning og ernæring. Vi forsøger at formidle tingene, så de er til at forstå, men vi forsøger også at finde opbakning i videnskaben. Her kan du læse lidt om, hvordan vi prøver at finde viden i videnskabelige artikler og fortolker dem.
 
+Der er ikke så meget tilgængelig viden om at [læse og forstå en videnskablig artikel](https://videnskab.dk/kultur-samfund/saadan-laeser-og-forstaar-du-en-videnskabelig-artikel) og [vurderinger af forskningsartikler](https://dsr.dk/sygeplejersken/arkiv/sy-nr-2004-33/laesning-og-vurdering-af-forskningsartikler).
 
-Hvis et emne interesserer os, laver vi en søgning på fx [pubmed.org](http://pubmed.org) ([hvordan søger vi - og hvordan læser vi artiklerne?](https://web.archive.org/web/20160406123230/http://www.motion-online.dk/sundhed_og_vaegt/sundhed_generelt/saadan_soeger_du_selv_videnskabelige_artikler/){:rel="nofollow"}). Hvis artiklen efter at have læst _abstract_ ser spændende ud, læser vi videre, mens vi vurderer følgende:
+## Hvordan finder vi videnskabelige artikler?
+
+Hvis et emne interesserer os, laver vi en søgning på fx [pubmed.org](http://pubmed.org) ([hvordan søger vi - og hvordan læser vi artiklerne?](https://web.archive.org/web/20160406123230/http://www.motion-online.dk/sundhed_og_vaegt/sundhed_generelt/saadan_soeger_du_selv_videnskabelige_artikler/){:rel="nofollow"}). 
+
+Hvis artiklen efter at have læst _abstract_ ser spændende ud, læser vi videre, mens vi vurderer følgende:
+
+## Hvordan vurderer vi de videnskabelige artikler?
 
 Design
 : Har studiet et solidt design? Hvordan måles effekten af det studiet undersøger? Er der en kontrolgruppe? Er grupperne tilfældigt sammensat? Er forsøget blindet? Det mest solide design er dobbeltblindet, randomiseret forsøg med kontrolgruppe.
@@ -32,3 +40,33 @@ Kausal sammenhæng?
 : Bliver det sandsynliggjort at effekten skyldes det undersøgte, eller kan der være andre forklaringer?
 
 Hvilke kriterier kigger I efter, når I forsøger at tilegne jer viden?
+
+## Hvad er korrelation og kausalitet
+
+**Korrelation** betyder, at der er en sammenhæng mellem ændringerne i to størrelser, men det kan være helt tilfældigt.
+
+**Kausalitet** betyder, at der er en årsagssammenhæng. Det betyder at en ting påvirker en anden ting..
+
+Hvis ikke man kan skelne mellem korrelation og kausalitet, kan man hurtigt få fejltolket en statistik:
+
+I lang tid troede man, at sukker var direkte skyld i overvægt, da der indtil for ca. 20 år siden var en stærk korrelation mellem sukkerindtaget og forekomsten af overvægt.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">US added sugar intake vs. obesity prevalence. Sugar intake has decreased more than 15% since 1999. <a href="https://t.co/udhP5ubrR6">pic.twitter.com/udhP5ubrR6</a></p>&mdash; Stephan Guyenet, PhD (@whsource) <a href="https://twitter.com/whsource/status/669638118400749568?ref_src=twsrc%5Etfw">November 25, 2015</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+Man skal virkelig være varsom med at fortolke en korrelation som kausalitet. Tyler Vigen har lavet en side, han kalder [spurious correlations](http://tylervigen.com/).
+
+Her er et par humoristiske eksempler på korrelationer, som næppe er kausale årsagssammenhænge.
+
+{% include figure image_path="https://n1s1t23sxna2acyes3x4cz0h-wpengine.netdna-ssl.com/wp-content/uploads/2014/09/autism-organic2.jpg" caption="Der er en korrelation mellem salget af økologiske madvarer og autisme. Kausalitet? Næppe! - via [sciencebasedmedicine.org](https://sciencebasedmedicine.org/autism-prevalence-unchanged-in-20-years/). " %}
+
+Eller at [risikoen for at blive viklet ind i sit lagen og dø og salget af ost](https://medium.com/@menaka_17260/will-your-bedsheet-kill-you-if-you-consume-cheese-aka-does-correlation-imply-causation-5453c6901b88):
+
+{% include figure image_path="https://miro.medium.com/max/912/0*13a3q6hWpsLBnNtr." caption="Der er en korrelation mellem salget af ost og dødsfald efter at være blevet viklet ind i sit lagen. Kausalitet? Næppe! - via [tylervigen.com](http://www.tylervigen.com/spurious-correlations). " %}
+
+Endelig en af de helt berømte eksempler på korrelationer er [korrelationen mellem druknede og film med Nicolas Cage](https://www.nationalgeographic.com/science/phenomena/2015/09/11/nick-cage-movies-vs-drownings-and-more-strange-but-spurious-correlations/):
+
+{% include figure image_path="http://tylervigen.com/correlation_project/correlation_images/number-people-who-drowned-by-falling-into-a-swimming-pool_number-of-films-niclas-cage-appeared-in.png" caption="Der er en korrelation mellem antallet af druknede i en swimming pool og antallet af film Nicolas Cage har været med i. Kausalitet? Næppe! - via [tylervigen.com](http://tylervigen.com/view_correlation?id=359). " %}
+
+Korrelation bliver ofte forvekslet med kausalitet i medierne og i fitnessmiljøet. Når man laver fejlfortolkninger, så kan det ende med at specifikke næringsstoffer eller fødevarer bliver gjort til uretmæssig syndebuk - tag bare et kig på sukker, kulhydrater og mælkeprodukter. Men det gælder også årsagssammenhænge i forhold til folks vægt og sindstilstand.
+
+Selvom to datasæt og statistikker følges af, så betyder det ikke nødvendigvis at den ene ting forårsager den anden del.
