@@ -48,7 +48,7 @@ Morten Zacho har i 2008 bearbejdet Borg-skalaen, så den er lettere at bruge i p
 
 I praksis er det kun nødvendigt at skelne mellem udvalgte niveauer på skalaen. Borg 15 udfør fx skillelinjen mellem det, de fleste vil opfatte som moderat til hård træning. Typisk er det også det niveau, man typisk prøver at ramme til almindelige motionsaktiviteter.
 
-{% include figure image_path="/assets/images/borg-skala-724x1024.jpg" caption="Borgskala bearbejdet af [Morten Zacho, tidligere motion-online.dk](https://web.archive.org/web/20150316130540/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/borg-skala_paa_den_brugbare_maade/){:rel="nofollow"}" alt="Borgskalaen bearbejdet af Morten Zacho til motion-online.dk - Borg RPE skala og intensitetsskala" %}
+{% include figure image_path="/assets/images/borg-skala-724x1024.jpg" caption="Borgskala bearbejdet af [Morten Zacho, tidligere motion-online.dk](https://web.archive.org/web/20150316130540/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/borg-skala_paa_den_brugbare_maade/){:rel='nofollow'}" alt="Borgskalaen bearbejdet af Morten Zacho til motion-online.dk - Borg RPE skala og intensitetsskala" %}
  
 Morten Zacho har altså tilføjet en lidt bedre forklaring på følelserne. Samtidig har han tilføjet en sundhedseffekt.
 
@@ -84,7 +84,7 @@ Morten Zacho har også lavet følgende version af Borg-skalaen, hvor du kan forn
  
 Intensitetsskalaen er kørt sammen med en RPE-vurdering fra 1-10.
 
-{% include figure image_path="/assets/images/borgskala-udvidet-mol.jpg" caption="Borgskalaen bearbejdet af Morten Zacho, tidligere motion-online.dk" alt="Borgskalaen - Borg intensitetsskala bearbejdet af [Morten Zacho til motion-online.dk](https://web.archive.org/web/20150316130540/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/borg-skala_paa_den_brugbare_maade/){:rel="nofollow"}" %}
+{% include figure image_path="/assets/images/borgskala-udvidet-mol.jpg" caption="Borgskalaen bearbejdet af Morten Zacho, tidligere motion-online.dk" alt="Borgskalaen - Borg intensitetsskala bearbejdet af [Morten Zacho til motion-online.dk](https://web.archive.org/web/20150316130540/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/borg-skala_paa_den_brugbare_maade/){:rel='nofollow'}" %}
 
 Området omkring 4-7 RPE er det typisk for konditionstræning og almen aerob træning. I området fra 8-10 så skal det anaerob system også træde til.
 

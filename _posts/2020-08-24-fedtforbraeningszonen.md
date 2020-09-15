@@ -74,11 +74,11 @@ Fedtforbrændingszonen kan virke relevant i forhold til vægttab. Det vigtigste 
 
 Rationalet bag fedtforbrædingen kan skitseres i følgende grafer, som Morten Zacho har forklaret.
 
-{% include feature_row id="gallery" type="left" caption="x-aksen er træningsintensiteten, hvor 100 svarer til den maximale iltoptagelse. Figurerne er skematiske til illustrationsformål. Kilde: [Morten Zacho](http://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel="nofollow"}" %}
+{% include feature_row id="gallery" type="left" caption="x-aksen er træningsintensiteten, hvor 100 svarer til den maximale iltoptagelse. Figurerne er skematiske til illustrationsformål. Kilde: [Morten Zacho](http://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel='nofollow'}" %}
 
 Men når man kigger på vægttab, så er der også andre forhold at tage hensyn til:
 
-{% include feature_row id="gallery_explain" type="left" caption="x-aksen er træningsintensitet, hvor 100 svarer til den maximale iltoptagelse. Figurerne er skematiske til illustrationsformål. Kilde: [Morten Zacho](http://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel="nofollow"}" %}
+{% include feature_row id="gallery_explain" type="left" caption="x-aksen er træningsintensitet, hvor 100 svarer til den maximale iltoptagelse. Figurerne er skematiske til illustrationsformål. Kilde: [Morten Zacho](http://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel='nofollow'}" %}
 
 Morten Zachos konklusion bliver, at hvis man skal tage sig, så kan det ikke betale sig at holde pulsen nede for at træne i **fedtforbrændingszonen**, hvis man har lyst og evne til at arbejde med en højere intensitet.
 
