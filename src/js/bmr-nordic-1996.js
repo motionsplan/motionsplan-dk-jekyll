@@ -20,37 +20,47 @@ motionsplan.EnergyExpenditure = function(sex, age, weight, pal, sport) {
     sport = sport;
     pal = pal;
 
+    function isMale() {
+        if (koen == "1") {
+            return true;
+        }
+        return false;
+    }
+
     // BMR - Nordiska 1996
     function getBasicMetabolicRate() {
-        if ((koen == "1") && (alder > 10) && (alder < 19)) {
-            bmr = 74 * vaegt + 2750;
-        }
-        else if ((koen == "1") && (alder > 18) && (alder < 31)) {
-            bmr = 64 * vaegt + 2840;
-        }
-        else if ((koen == "1") && (alder > 30) && (alder < 61)) {
-            bmr = 48.5 * vaegt + 3670;
-        }
-        else if ((koen == "1") && (alder > 60) && (alder < 76)) {
-            bmr = 49.9 * vaegt + 2930;
-        }
-        else if ((koen == "1") && (alder > 75)) {
-            bmr = 35 * vaegt + 3430;
-        }
-        else if ((koen == "0") && (alder > 10) && (alder < 19)) {
-            bmr = 56 * vaegt + 2900;
-        }
-        else if ((koen == "0") && (alder > 18) && (alder < 31)) {
-            bmr = 61.5 * vaegt + 2080;
-        }
-        else if ((koen == "0") && (alder > 30) && (alder < 61)) {
-            bmr = 36.4 * vaegt + 3470;
-        }
-        else if ((koen == "0") && (alder > 60) && (alder < 76)) {
-            bmr = 38.6 * vaegt + 2880;
-        }
-        else if ((koen == "0") && (alder > 75)) {
-            bmr = 41 * vaegt + 2610;
+        if (isMale()) {
+            if ((alder > 10) && (alder < 19)) {
+                bmr = 74 * vaegt + 2750;
+            }
+            else if ((alder > 18) && (alder < 31)) {
+                bmr = 64 * vaegt + 2840;
+            }
+            else if ((alder > 30) && (alder < 61)) {
+                bmr = 48.5 * vaegt + 3670;
+            }
+            else if ((alder > 60) && (alder < 76)) {
+                bmr = 49.9 * vaegt + 2930;
+            }
+            else if ((alder > 75)) {
+                bmr = 35 * vaegt + 3430;
+            }
+        } else {
+            if ((alder > 10) && (alder < 19)) {
+                bmr = 56 * vaegt + 2900;
+            }
+            else if ((alder > 18) && (alder < 31)) {
+                bmr = 61.5 * vaegt + 2080;
+            }
+            else if ((alder > 30) && (alder < 61)) {
+                bmr = 36.4 * vaegt + 3470;
+            }
+            else if ((alder > 60) && (alder < 76)) {
+                bmr = 38.6 * vaegt + 2880;
+            }
+            else if ((alder > 75)) {
+                bmr = 41 * vaegt + 2610;
+            }
         }
         return bmr;
     }
