@@ -15,35 +15,35 @@ tags:
   - forbrænding
   - intensitet
 gallery:
-  - image_path: /assets/images/blog/fedt1.gif
+  - image_path: /assets/images/blog/fedtforbraending-fig1.png
     title: "Relativ fedtforbrænding"
     excerpt: "På lave træningsintensiteter kommer en større procentdel af de forbrændte kalorier fra fedt. På de højeste intensiteter forbrænder man stort set kun kulhydrat."
-  - image_path: /assets/images/blog/fedt4.gif
+  - image_path: /assets/images/blog/fedtforbraending-fig4.png
     title: "Samlet kalorieforbrænding"
     excerpt: "Jo højere træningsintensitet, desto flere kalorier forbrænder man pr. minut."
-  - image_path: /assets/images/blog/fedt2.gif
+  - image_path: /assets/images/blog/fedtforbraending-fig2.png
     title: "Fedt forbrændt under træningen"
     excerpt: "Jo højere træningsintensitet, desto flere kalorier forbrænder man pr. minutDen absolutte mængde fedt i gram forbrændt pr. minut kan man beregne ved at kombinere de to ovenstående kurver. Herved kan man se, at ved en relativ intensitet på 60-70 % forbrænder man flest gram fedt pr. træningsminut. Denne observation har givet anledning til udnævnelse af den famøse _fedtforbrændingszone_."
 gallery_explain:
-  - image_path: /assets/images/blog/fedt3.gif
+  - image_path: /assets/images/blog/fedtforbraending-fig3.png
     title: "Fedt forbrændt under træningen"
     excerpt: "Jo højere træningsintensitet, desto flere kalorier forbrænder man pr. minut. Den absolutte mængde fedt i gram forbrændt pr. minut kan man beregne ved at kombinere de to ovenstående kurver. Herved kan man se, at ved en relativ intensitet på 60-70 % forbrænder man flest gram fedt pr. træningsminut. Denne observation har givet anledning til udnævnelse af den famøse _fedtforbrændingszone_."
-  - image_path: /assets/images/blog/fedt3.gif
+  - image_path: /assets/images/blog/fedtforbraending-fig3.png
     title: "Samlet kalorieforbrænding"
     excerpt: "Som også vist ovenfor, så forbrænder man flere kalorier pr. minut jo højere intensiteten er."
-  - image_path: /assets/images/blog/fedt3.gif
+  - image_path: /assets/images/blog/fedtforbraending-fig3.png
     title: "Stofskifte"
     excerpt: "Jo højere træningsintensitet, desto større effekt bliver der på stofskiftet. _Efterbrændingen_ bliver højere."
-  - image_path: /assets/images/blog/fedt3.gif
+  - image_path: /assets/images/blog/fedtforbraending-fig3.png
     title: "Træningseffekt"
     excerpt: "Jo højere træningsintensitet, desto større er træningseffekten - man kommer hurtigere i god form."
-  - image_path: /assets/images/blog/fedt3.gif
+  - image_path: /assets/images/blog/fedtforbraending-fig3.png
     title: "Muskelmasse"
     excerpt: "Jo højere træningsintensitet, desto større er den positive effekt på muskelmassen, hvilket på sigt giver mulighed for at forbrænde mere."
-  - image_path: /assets/images/blog/fedt3.gif
+  - image_path: /assets/images/blog/fedtforbraending-fig3.png
     title: "Efterfølgende fedtforbrænding"
     excerpt: "Jo højere træningsintensitet, desto større er den efterfølgende fedtforbrænding. Kulhydrat man spiser bliver primært brugt til at fylde depoterne op med."
-  - image_path: /assets/images/blog/fedt3.gif
+  - image_path: /assets/images/blog/fedtforbraending-fig3.png
     title: "Effektivitet"
     excerpt: "Jo højere træningsintensitet, desto kortere tid behøver man at bruge på motion for at få resultater."
 ---
@@ -68,7 +68,7 @@ Det er relativt let ud fra den [respiratoriske udvekslingskvotient]({% link _pos
 
 Morten Zacho var den første jeg læste, der skrev [glem fedtforbrændingszonen](http://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel="nofollow"}. Det er vigtigt at holde sig for øje, hvad præmissen for Zachos artikel var.
 
-Morten Zacho skrev om fedtforbrændingszonen i forhold vægttab, og han mente at mange andre ting er langt vigtigere.
+Morten Zacho skrev om fedtforbrændingszonen i forhold vægttab, og han skriver, at mange andre træningsfysiologiske aspekter er er langt vigtigere at tænke på i forhold til vægttab.
 
 Fedtforbrændingszonen kan virke relevant i forhold til vægttab. Det vigtigste i forhold til vægttab er ikke en fedtforbrændingszone, men hvad der sker over hele døgnet.
 

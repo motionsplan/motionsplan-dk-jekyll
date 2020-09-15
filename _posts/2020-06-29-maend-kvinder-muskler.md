@@ -15,14 +15,10 @@ tags:
 last_modified_at: 2020-06-11T08:14:14Z
 toc: true
 gallery:
-  - image_path: /assets/images/blog/male_mri.gif
-    url: /assets/images/blog/male_mri.gif
+  - image_path: https://www.researchgate.net/profile/Toshiyuki_Kurihara/publication/280967218/figure/fig1/AS:278998157414416@1443529753097/Representative-axial-magnetic-resonance-images-of-the-upper-arm-a-and-thigh-b-Left.png
+    url: https://www.researchgate.net/profile/Toshiyuki_Kurihara/publication/280967218/figure/fig1/AS:278998157414416@1443529753097/Representative-axial-magnetic-resonance-images-of-the-upper-arm-a-and-thigh-b-Left.png
     title: "Mandelig muskel MRI"
-    alt: "Mandelig muskel MRI"
-  - image_path: /assets/images/blog/female_mri.gif
-    url: /assets/images/blog/female_mri.gif
-    title: "Kvindelig muskel MRI"
-    alt: "Kvindelig muskel MRI"
+    alt: "Mandelig og kvindelig muskel fra MRI"
 ---
 
 Intuitivt tænker de fleste nok, at der ikke er forskel på mænds og kvinders muskler. Men hvad siger videnskaben egentlig om det spørgsmål?
@@ -73,7 +69,7 @@ Typisk har kvinder imidlertid mere fedt i kroppen, så selvom låret fx er samme
 
 Fx kan du i følgende se tværsnittet af låret på en veltrænet ung kvinde og ung mand, hvor det er tydeligt at fedtet fylder mere for kvinderne end for mænd.
 
-{% include gallery caption="Tværsnit af låret på en veltrænet ung mand vs. tværsnittet af låret på en veltrænet ung kvinde. Kilde: [Motion-online.dk](https://web.archive.org/web/20150403123533/http://www.motion-online.dk/styrketraening/styrke-artikler/er_der_forskel_paa_maend_og_kvinders_muskler/){:rel='nofollow'}" alt="Forskellen på mænds og kvinders muskler" %}
+{% include gallery caption="Tværsnit af låret på en veltrænet ung mand vs. tværsnittet af låret på en veltrænet ung kvinde. Kilde: [Researchgate.net](https://www.researchgate.net/figure/Representative-axial-magnetic-resonance-images-of-the-upper-arm-a-and-thigh-b-Left_fig1_280967218){:rel='nofollow'}" alt="Forskellen på mænds og kvinders muskler" %}
 
 Hvis man skal sammenligne mænd og kvinder, så giver det naturligvis mest mening at beskæftige sig med den relative styrkefremgang i forhold til fedtfrie masse, da der er store genetiske og hormonelle forskelle.
 
