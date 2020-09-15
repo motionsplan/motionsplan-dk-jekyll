@@ -22,47 +22,6 @@ gallery:
     url: /assets/images/fast_muscle.jpg
     title: "Type II: Hurtig, hvid muskelfiber"
     alt: "Type II: Hurtig, hvid muskelfiber"
-biopsi:
-  - image_path: /assets/images/blog/biopsi1.jpg
-    url: /assets/images/blog/biopsi1.jpg
-    title: "De forskellige remedier gøres klar. Her ses bl.a. selve biopsinålen (tykkelse = 5 mm). Og sprøjten der bruges til at lave undertryk inde i biopsinålen."
-    alt: "Remedier gøres klar til biopsi til test af muskelfibertyper. Her ses bl.a. selve biopsinålen (tykkelse = 5 mm). Og sprøjten der bruges til at lave undertryk inde i biopsinålen."
-  - image_path: /assets/images/blog/biopsi2.jpg
-    url: /assets/images/blog/biopsi2.jpg
-    title: "Lægen lægger lidt bedøvelse i huden og i den yderste muskelfascie."
-    alt: "Lægen lægger lidt bedøvelse i huden og i den yderste muskelfascie."
-  - image_path: /assets/images/blog/biopsi3.jpg
-    url: /assets/images/blog/biopsi3.jpg
-    title: "Med en lille skalpel skærer hen et overfladisk snit på ca. 5 mm."
-    alt: "Med en lille skalpel skærer hen et overfladisk snit på ca. 5 mm."
-  - image_path: /assets/images/blog/biopsi4.jpg
-    url: /assets/images/blog/biopsi4.jpg
-    title: "Biopsinålen placeres udfor snittet og hjælperen med suget gør klar."
-    alt: "Biopsinålen placeres udfor snittet og hjælperen med suget gør klar."
-  - image_path: /assets/images/blog/biopsi5.jpg
-    url: /assets/images/blog/biopsi5.jpg
-    title: "Når nålen er godt inde i musklen bliver et lille stykke muskel klippet fra ude i spidsen af nålen."
-    alt: "Når nålen er godt inde i musklen bliver et lille stykke muskel klippet fra ude i spidsen af nålen."
-  - image_path: /assets/images/blog/biopsi6.jpg
-    url: /assets/images/blog/biopsi6.jpg
-    title: "Den lille stump muskel tages ud af spidsen af nålen."
-    alt: "Den lille stump muskel tages ud af spidsen af nålen."
-  - image_path: /assets/images/blog/biopsi7.jpg
-    url: /assets/images/blog/biopsi7.jpg
-    title: "Muskelstykket trimmes for fedt og bindevæv."
-    alt: "Muskelstykket trimmes for fedt og bindevæv."
-  - image_path: /assets/images/blog/biopsi8.jpg
-    url: /assets/images/blog/biopsi8.jpg
-    title: "Muskelstykket monteres på en holder med speciallim, som størkner ved frostgrader."
-    alt: "Muskelstykket monteres på en holder med speciallim, som størkner ved frostgrader."
-  - image_path: /assets/images/blog/biopsi9.jpg
-    url: /assets/images/blog/biopsi9.jpg
-    title: "Biopsien lægges således at fibrene løber parallelt med holderen."
-    alt: "Biopsien lægges således at fibrene løber parallelt med holderen."
-  - image_path: /assets/images/blog/biopsi10.jpg
-    url: /assets/images/blog/biopsi10.jpg
-    title: "Muskelbiopsien fryses ned i isopentan (ca. -160 gr.) der er afkølet i flydende kvælstof. Biopsien gemmes herefter ved -80 gr. indtil den skal analyseres."
-    alt: "Muskelbiopsien fryses ned i isopentan (ca. -160 gr.) der er afkølet i flydende kvælstof. Biopsien gemmes herefter ved -80 gr. indtil den skal analyseres."
 ---
 
 Jeg har de sidste dage researchet en del på muskelfibertyper, og i den forbindelse fandt jeg også ud af, hvordan man kan teste sin muskelfibertypesammensætning.
@@ -158,10 +117,6 @@ Hvordan laver man en muskelbiopsi? **En muskelbiopsi udføres ved at lokalbedøv
 {% include video provider="youtube" id="9RaErjFodnE" %}
 
 Det er helt sikkert ikke behageligt, og du vil føle at du har et trælår i dagene efter muskelbiopsien. Jeg tror kun man laver muskelbiopsier, hvis man er med i forskningsforsøg.
-
-I billeder ser det nogenlunde sådan her ud.
-
-{% include gallery layout="half" id="biopsi" caption="En muskelbiopsi er et indgreb i musklen, og det gør virkelig ondt - [kilde](https://web.archive.org/web/20130605064142/http://www.motion-online.dk/styrketraening/styrke_-_artikler/saadan_tages_en_muskelbiopsi/)" %}
 
 ## Opsamling på test af muskelfibertypesammensætning
 
