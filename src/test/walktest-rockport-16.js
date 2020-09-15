@@ -21,12 +21,12 @@ describe('Rockport walking test', function() {
 
       // min, sec, hr, sex, age, weight
       var hr = motionsplan.RockPortWalkingTest(10, 0, 125, "male", 30, 80);
-      assert.equal(hr.getMaximalOxygenUptakeMOL(), 4.7);
-      assert.equal(hr.getFitnessLevelMOL(), 58.75);
+      assert.equal(hr.getMaximalOxygenUptakeMOL(), 4.70476);
+      assert.equal(hr.getFitnessLevelMOL(), 58.8095);
 
       var hr = motionsplan.RockPortWalkingTest(10, 0, 125, "female", 30, 80);
-      assert.equal(hr.getMaximalOxygenUptakeMOL(), 4.1);
-      assert.equal(hr.getFitnessLevelMOL(), 51.25);
+      assert.equal(hr.getMaximalOxygenUptakeMOL(), 4.109259999999999);
+      assert.equal(hr.getFitnessLevelMOL(), 51.36574999999999);
     });
   });
 });

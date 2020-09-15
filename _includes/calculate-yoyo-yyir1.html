@@ -1,44 +1,5 @@
-<script type="text/javascript">
-    function invalidateData(form, level, shuttles) {
-
-
-        var message = "";
-        var error = false;
-
-        if (parseInt(level) >= 5 && parseInt(level) <= 23) {
-
-        }
-        else {
-            message = message + "invalid level - enter between 5 and 23\n";
-            error = true;
-        }
-
-        if (parseInt(shuttles) >= 0 && parseInt(shuttles) <= 8) {
-
-        }
-        else {
-            error = true;
-            message = message + "invalid shuttle value - enter between 0 and 8";
-        }
-
-
-        if (error) {
-            alert(message);
-            return true;
-        }
-        else {
-
-            return false;
-        }
-    }
-
-
+<script>
     function FigureBEEP(form, level, shuttles) {
-
-        if (invalidateData(form, level, shuttles)) {
-            return;
-        }
-
         var distTOTAL = [0, 0, 0, 0, 0, 40, 40, 40, 40, 80, 80, 120, 200, 320, 480, 800, 1120, 1440, 1760, 2080, 2400, 2720, 3040, 3360];
         var distance = distTOTAL[level] + (shuttles * 40 - 40);
         var calcval = (distance * 0.0084 + 36.4).toFixed(1);
@@ -53,8 +14,6 @@
     }
 
     function condition(normdistance) {
-
-
         var age = parseInt(document.getElementById("ageId").value);
         var ageGroup;
         if (age <= 25) {

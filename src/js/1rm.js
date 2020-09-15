@@ -122,7 +122,7 @@ motionsplan.Estimate1RM = function(weight, repetitions = 5) {
   }
 
   /**
-   * Advanced - originally from motion-online.dk.
+   * Advanced - based on the following references.
    * https://www.motion-online.dk/rm-beregner/
    * https://www.motion-online.dk/rm-beregner-teoretisk-baggrund/
    */
@@ -133,21 +133,24 @@ motionsplan.Estimate1RM = function(weight, repetitions = 5) {
     trained = trained;
     koen = sex;
 
-    if (koen == 1 && trained == 1) {
-      a = -2.1021;
-      b = 102.52;
-    }
-    else if (koen == 1 && trained == 0) {
-      a = -2.6578;
-      b = 102.65;
-    }
-    else if (koen == 0 && trained == 1) {
-      a = -2.1275;
-      b = 101.59;
-    }
-    else if (koen == 0 && trained == 0) {
-      a = -2.6914;
-      b = 102.14;
+    if (isMale(sex)) {
+      if (trained == 1) {
+        a = -2.1021;
+        b = 102.52;
+      }
+      else if (trained == 0) {
+        a = -2.6578;
+        b = 102.65;
+      }
+    } else {
+      if (trained == 1) {
+        a = -2.1275;
+        b = 101.59;
+      }
+      else if (trained == 0) {
+        a = -2.6914;
+        b = 102.14;
+      }
     }
     if (repetitions == 1) {
       repmax = weight;
@@ -161,24 +164,13 @@ motionsplan.Estimate1RM = function(weight, repetitions = 5) {
     }
     return (a*rm+b)*repmax/100;
   }
-
-  /**
-   * From motion-online RM calculator
-   */
-  function getMOLBrzycki(rm = 1)
-  {
-    var a = -2.78, b = 102.78;
-    var repmax;
-    if (repetitions == 1) {
-      repmax = weight;
+  
+  // Helper function for getMOL()
+  function isMale(sex) {
+    if (sex == 1) {
+      return true;
     }
-    else {
-      repmax = weight / (a * repetitions + b) * 100;
-    }
-    if (rm == 1) {
-      return repmax;
-    }
-    return (a*rm+b)*repmax/100;
+    return false;
   }
 
   function getPercentOfRm(rm, percent) {
@@ -198,7 +190,6 @@ motionsplan.Estimate1RM = function(weight, repetitions = 5) {
     getOconnor: getOconnor,
     getWathan: getWathan,
     getMOL: getMOL,
-    getMOLBrzycki: getMOLBrzycki,
     getPercentOfRm: getPercentOfRm,
     getWendler: getWendler
   };

@@ -83,23 +83,23 @@ $(document).ready(function() {
         var reps = Number($("#form-reps").val());
         var weight = Number($("#form-weight").val());
         var trained = Number($("#form-trained").val());
-        var koen = Number($("#form-sex").val());
+        var sex = Number($("#form-sex").val());
         var bodypart = $("#form-bodypart").val();
 
         var r = rm.Estimate1RM(weight, reps);
 
         if (formula == "brzycki") {
-            repmax = r.getMOLBrzycki();
+            repmax = r.getBrzycki();
             $("#rm1").val(repmax.toFixed(decimals));
-            $("#rm2").val(r.getMOLBrzycki(2).toFixed(decimals));
-            $("#rm3").val(r.getMOLBrzycki(3).toFixed(decimals));
-            $("#rm4").val(r.getMOLBrzycki(4).toFixed(decimals));
-            $("#rm5").val(r.getMOLBrzycki(5).toFixed(decimals));
-            $("#rm6").val(r.getMOLBrzycki(6).toFixed(decimals));
-            $("#rm8").val(r.getMOLBrzycki(8).toFixed(decimals));
-            $("#rm10").val(r.getMOLBrzycki(10).toFixed(decimals));
-            $("#rm12").val(r.getMOLBrzycki(12).toFixed(decimals));
-            $("#rm15").val(r.getMOLBrzycki(15).toFixed(decimals));
+            $("#rm2").val(r.getBrzycki(2).toFixed(decimals));
+            $("#rm3").val(r.getBrzycki(3).toFixed(decimals));
+            $("#rm4").val(r.getBrzycki(4).toFixed(decimals));
+            $("#rm5").val(r.getBrzycki(5).toFixed(decimals));
+            $("#rm6").val(r.getBrzycki(6).toFixed(decimals));
+            $("#rm8").val(r.getBrzycki(8).toFixed(decimals));
+            $("#rm10").val(r.geBrzycki(10).toFixed(decimals));
+            $("#rm12").val(r.getBrzycki(12).toFixed(decimals));
+            $("#rm15").val(r.getBrzycki(15).toFixed(decimals));
         } else if (formula == "reynolds") {
             repmax = r.getReynolds();
             $("#rm1").val(repmax.toFixed(decimals));
@@ -197,17 +197,17 @@ $(document).ready(function() {
             $("#rm12").val(r.getWendler(12).toFixed(decimals));
             $("#rm15").val(r.getWendler(15).toFixed(decimals));
         } else {
-            repmax = r.getMOL(trained, koen);
+            repmax = r.getMOL(trained, sex);
             $("#rm1").val(repmax.toFixed(decimals));
-            $("#rm2").val(r.getMOL(trained, koen, 2).toFixed(decimals));
-            $("#rm3").val(r.getMOL(trained, koen, 3).toFixed(decimals));
-            $("#rm4").val(r.getMOL(trained, koen, 4).toFixed(decimals));
-            $("#rm5").val(r.getMOL(trained, koen, 5).toFixed(decimals));
-            $("#rm6").val(r.getMOL(trained, koen, 6).toFixed(decimals));
-            $("#rm8").val(r.getMOL(trained, koen, 8).toFixed(decimals));
-            $("#rm10").val(r.getMOL(trained, koen, 10).toFixed(decimals));
-            $("#rm12").val(r.getMOL(trained, koen, 12).toFixed(decimals));
-            $("#rm15").val(r.getMOL(trained, koen, 15).toFixed(decimals));
+            $("#rm2").val(r.getMOL(trained, sex, 2).toFixed(decimals));
+            $("#rm3").val(r.getMOL(trained, sex, 3).toFixed(decimals));
+            $("#rm4").val(r.getMOL(trained, sex, 4).toFixed(decimals));
+            $("#rm5").val(r.getMOL(trained, sex, 5).toFixed(decimals));
+            $("#rm6").val(r.getMOL(trained, sex, 6).toFixed(decimals));
+            $("#rm8").val(r.getMOL(trained, sex, 8).toFixed(decimals));
+            $("#rm10").val(r.getMOL(trained, sex, 10).toFixed(decimals));
+            $("#rm12").val(r.getMOL(trained, sex, 12).toFixed(decimals));
+            $("#rm15").val(r.getMOL(trained, sex, 15).toFixed(decimals));
         }
 
         $("#p100").val(r.getPercentOfRm(repmax, 100).toFixed(decimals));
@@ -226,20 +226,20 @@ $(document).ready(function() {
     $("#calculator_cooper_mortality").submit(function() {
         console.log("Calculate Cooper");
 
-        var Alder = Number($("#age").val());
-        var Hvilepuls = Number($("#hrrest").val());
-        var Blodtryk = Number($("#bloodpressure").val());
-        var Sukkersyge = Number($("#diabetes").val());
-        var Ryger = Number($("#smoker").val());
-        var Bmi = Number($("#bmi").val());
-        var Kondital = Number($("#kondital").val());
+        var age = Number($("#age").val());
+        var hr_rest = Number($("#hrrest").val());
+        var bloodpressure = Number($("#bloodpressure").val());
+        var diabetes = Number($("#diabetes").val());
+        var smoker = Number($("#smoker").val());
+        var bmi = Number($("#bmi").val());
+        var fitnesslevel = Number($("#kondital").val());
 
         // age, heart rate, blood pressure, diabetes, smoker, bmi, fitness
-        var c = cooper.CooperClinicMortalityRiskIndex(Alder, Hvilepuls, Blodtryk, Sukkersyge, Ryger, Bmi, Kondital);
+        var c = cooper.CooperClinicMortalityRiskIndex(age, hr_rest, bloodpressure, diabetes, smoker, bmi, fitnesslevel);
 
-        $("#Risikopoint").val(c.getRiskPoint());
-        $("#Risiko1").val(c.getAbsoluteRisk());
-        $("#Risiko2").val(c.getRelativeRisk());
+        $("#risk_points").val(c.getRiskPoint());
+        $("#absolute_risk").val(c.getAbsoluteRisk());
+        $("#relative_risk").val(c.getRelativeRisk());
         return false;
     });
     // Udregn fatpercent navy
@@ -275,21 +275,21 @@ $(document).ready(function() {
     $("#calculator_etpunkttest").submit(function() {
         console.log("Etpunkt test");
 
-        var arb = Number($("[name='arb']").val());
-        var koen = Number($("[name='koen']").val());
+        var work = Number($("[name='work']").val());
+        var gender = Number($("[name='gender']").val());
         var puls = Number($("[name='puls']").val());
-        var alder = Number($("[name='alder']").val());
-        var vaegt = Number($("[name='vaegt']").val());
+        var age = Number($("[name='age']").val());
+        var weight = Number($("[name='weight']").val());
 
-        var et = etpunkt.EtPunktTest(koen, alder, vaegt, arb, puls);
+        var et = etpunkt.EtPunktTest(gender, age, weight, work, puls);
 
-        $("[name='Iltoptag']").val(et.getMaximalOxygenUptake());
-        $("[name='Kondital']").val(et.getFitnessLevel());
+        $("[name='vo2max']").val(et.getMaximalOxygenUptake());
+        $("[name='kondital']").val(et.getFitnessLevel());
         return false;
     });
     // Udregn 2punkttest
     $("#calculator_topunkttest").submit(function() {
-        console.log("Etpunkt test");
+        console.log("Topunkt test");
 
         var arb1 = Number($("[name='arb1']").val());
         var arb2 = Number($("[name='arb2']").val());
@@ -438,7 +438,7 @@ $(document).ready(function() {
         $("[name='fatpercent']").val(bf);
         return false;
     });
-    // Calculate Durning
+    // Calculate Slaughter
     $("#calculator_skinfold_slaughter").submit(function() {
         console.log("Calculate Skinfold Slaughter");
 
@@ -452,7 +452,7 @@ $(document).ready(function() {
             bf = 1.21 * (triceps + subscapular) - 0.008 * Math.pow(triceps + subscapular, 2) - 1.7;
         }
         else {
-            bf = 1.33 (triceps + subscapular) - 0.013 * Math.pow(triceps + subscapular, 2) - 2.5;
+            bf = 1.33 * (triceps + subscapular) - 0.013 * Math.pow(triceps + subscapular, 2) - 2.5;
         }
 
         $("[name='fatpercent']").val(bf);
@@ -546,7 +546,7 @@ $(document).ready(function() {
         $("[name='Iltoptag']").val(resultat2);
         return false;
     });
-    // Calculate Walktest 1.6 km
+    // Calculate Wattmax Children
     $("#calculator_fitness_wattmax_children").submit(function() {
         console.log("Calculate Wattmax Children");
 
@@ -669,12 +669,12 @@ $(document).ready(function() {
 
         var Maxvo2 = Number($("[name='Maxvo2']").val());
 
-        var resultat = Math.round((Maxvo2 * 21 / 60 * 0.23 / 5) * Math.pow(10, 0)) / Math.pow(10, 0) * 5
+        var resultat = Math.round((Maxvo2 * 21 / 60 * 0.23 / 5) * Math.pow(10, 0)) / Math.pow(10, 0) * 5;
 
         $("[name='Vmax']").val(resultat);
         return false;
     });
-     // Calculate VMax intervals biking
+    // Calculate VMax intervals biking
     $("#calculator_vmax_bike_intervals").submit(function() {
         console.log("Calculate Vmax for Biking");
 
@@ -694,7 +694,7 @@ $(document).ready(function() {
         $("[name='Pausetid_s']").val(Math.round(((Tid * 0.3) - (Math.floor((Tid * 0.3) / 60) * 60)) / 5 * Math.pow(10, 0)) / Math.pow(10, 0) * 5);
         return false;
     });
-     // Calculate VMax intervals biking
+    // Calculate VMax intervals biking
     $("#calculator_vmax_running_intervals").submit(function() {
         console.log("Calculate Vmax for Running");
 
@@ -714,7 +714,7 @@ $(document).ready(function() {
         $("[name='Pausetid_s']").val(Math.round(((Tid * 0.3) - (Math.floor((Tid * 0.3) / 60) * 60)) / 5 * Math.pow(10, 0)) / Math.pow(10, 0) * 5);
         return false;
     });
-     // Calculate Intensity
+    // Calculate Intensity
     $("#calculator_hr_intensity_hrr").submit(function() {
         console.log("Calculate HR intensity HRR");
 
@@ -740,7 +740,7 @@ $(document).ready(function() {
         $("[name='Ialt2']").val(resultat2);
         return false;
     });
-     // Calculate Intensity
+    // Calculate Intensity
     $("#calculator_hr_intensity_from_max").submit(function() {
         console.log("Calculate HR work intensity from HRmax");
 
