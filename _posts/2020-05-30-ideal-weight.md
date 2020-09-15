@@ -48,13 +48,13 @@ Jeg har inkluderet kropsbygning i den nederste del af beregneren.
 
 > I de fleste undersøgelser øges risikoen kun ganske let selv om BMI-værdien ligger et par BMI-point fra det optimale. Det betyder i praksis, at hvis din reelle vægt ligger indenfor +/- 6 kg af idealvægten, så er det stadigt indenfor det optimale område.
 
---- <cite>[Morten Zacho](http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/beregn_din_idealvaegt/){:rel="nofollow"}</cite>
+--- <cite>[Morten Zacho](https://web.archive.org/web/20160808221414/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/beregn_din_idealvaegt/){:rel="nofollow"}</cite>
 
 ## Hvordan spiller kropsbygning ind på idealvægten?
 
 > Hvis man bare kigger på kropsbygning som forskelle i hvor kraftigt / bredt skelet man er udstyret med, så havde de oprindelige idealvægtstabeller fra 1960'erne en korrektion på plus-minus 10 % af kropsvægten. Kigger man på nyere studier, så ser det ud til, at det er normalt, at forskelle i skeletbredde kan påvirke kropsvægten 6-8 % i hver retning. I beregneren er derfor indbygget en justeringsmulighed på plus-minus 8 %.
 
---- <cite>[Morten Zacho](http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/beregn_din_idealvaegt/){:rel="nofollow"}</cite>
+--- <cite>[Morten Zacho]https://web.archive.org/web/20160808221414/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/beregn_din_idealvaegt/){:rel="nofollow"}</cite>
 
 ## Andre typer målinger af idealvægt
 

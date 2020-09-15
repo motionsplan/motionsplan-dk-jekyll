@@ -20,4 +20,4 @@ last_modified_at: 2010-11-02T13:43:26Z
 
 {{ page.excerpt }}
 
-Læs meget mere om [De fem tibetanere og yogaøvelserne]({% link _posts/2009-07-01-de-fem-tibetanere.md %}) eller [Solhilsen A og B](2020-07-25-solhilsen.md).
+Læs meget mere om [De fem tibetanere og yogaøvelserne]({% link _posts/2009-07-01-de-fem-tibetanere.md %}) eller [Solhilsen A og B]({% link _posts/2020-07-25-solhilsen.md %}).

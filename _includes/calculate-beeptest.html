@@ -1,44 +1,5 @@
-<script type="text/javascript">
-    function invalidateData(form, level, shuttles) {
-
-        var message = "";
-        var error = false;
-
-        if (parseInt(level) >= 5 && parseInt(level) <= 21) {
-
-        }
-        else {
-            message = message + "invalid level - enter between 5 and 21\n";
-            error = true;
-        }
-
-        if (parseInt(shuttles) >= 0 && parseInt(shuttles) <= 16) {
-
-        }
-        else {
-            error = true;
-            message = message + "invalid shuttle value - enter between 0 and 16";
-        }
-
-
-        if (error) {
-            alert(message);
-            return true;
-        }
-        else {
-
-            return false;
-        }
-    }
-
-
+<script>
     function FigureBEEP(form, level, shuttles, version) {
-
-        if (invalidateData(form, level, shuttles)) {
-            return;
-        }
-
-
         var shuttleTOTAL = [0, 7, 8, 8, 8, 9, 9, 10, 10, 11, 11, 11, 12, 12, 13, 13, 13, 14, 14, 15, 15, 16];
         var Fract = shuttles / shuttleTOTAL[level];
         var Score = Number(level) + Fract;

@@ -924,17 +924,17 @@ $(document).ready(function() {
     $("#calculator_borg15").submit(function() {
         console.log("Calculate Borg 15 fitness");
 
-        var borg = Number($("#rpBorg").val());
-        var ald = Number($("#rpAlder").val());
-        var wgt = Number($("#rpVgt").val());
+        var borg = Number($("#borg_watt").val());
+        var ald = Number($("#borg_age").val());
+        var wgt = Number($("#borg_weight").val());
 
         var iltoptag = (1.19 * borg / 9.82 * 60) - (15.84 * ald) + (13.06 * wgt) + 1365;
 
         var maxiltop = Math.round((iltoptag / 1000) * Math.pow(10, 2)) / Math.pow(10, 2)
         var kondi = Math.round((iltoptag / wgt) * Math.pow(10, 1)) / Math.pow(10, 1)
 
-        $("#rpIltop").val(maxiltop);
-        $("#rpKond").val(kondi);
+        $("#borg_iltoptagelse").val(maxiltop);
+        $("#borg_kondital").val(kondi);
         return false;
     });
     // Calculate Wattmax

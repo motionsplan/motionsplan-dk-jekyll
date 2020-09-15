@@ -1,18 +1,18 @@
 <script>
     function convert() {
-        dist = eval(document.con.dist.value);
-        vel = dist / 360;
+        var dist = eval(document.con.dist.value);
+        var vel = dist / 360;
         document.con.speed.value = vel;
 
-        tdist = Math.ceil(dist / 200) * 100;
-        d30 = Math.ceil(dist / 12);
-        r30 = Math.ceil(d30 / 2);
-        d60 = d30 * 2;
-        r60 = r30 * 2;
+        var tdist = Math.ceil(dist / 200) * 100;
+        var d30 = Math.ceil(dist / 12);
+        var r30 = Math.ceil(d30 / 2);
+        var d60 = d30 * 2;
+        var r60 = r30 * 2;
         document.con.ses.value = tdist;
 
-        ttime = tdist / vel;
-        mins = Math.floor(ttime / 60);
+        var ttime = tdist / vel;
+        var mins = Math.floor(ttime / 60);
 
         document.con.mins.value = mins;
         document.con.d30.value = d30;
@@ -22,24 +22,12 @@
         document.con.secs.value = Math.ceil(ttime - (60 * mins));
         document.con.secs400.value = Math.ceil(400 / vel);
     }
-
-    function clearit() {
-        document.con.speed.value = "";
-        document.con.ses.value = "";
-        document.con.mins.value = "";
-        document.con.secs.value = "";
-        document.con.d30.value = "";
-        document.con.secs400.value = "";
-        document.con.r30.value = "";
-        document.con.r60.value = "";
-        document.con.d60.value = "";
-    }
 </script>
 
 <form name="con" id="con" class="calculator">
     <fieldset>
         <legend>Distance løbet på 6 minutters test</legend>
-        <label>Distance (meter) <input name="dist" type="text" size="4" onfocus="clearit()" placeholder="meter"></label>
+        <label>Distance (meter) <input name="dist" type="text" size="4" placeholder="meter"></label>
         <input type="button" name="Button1" value="Beregn" onclick="convert()">
     </fieldset>
     <fieldset class="results">

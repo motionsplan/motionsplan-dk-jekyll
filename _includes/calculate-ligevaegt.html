@@ -3,11 +3,9 @@
         var age = parseInt(form.age.value);
         var weight = parseInt(form.weight.value);
         var height = parseInt(form.height.value); // convert to meters
-        //var workoutPrWeek = parseInt(form.workoutPrWeek.value); // uoverfl&oslash;delig
         var bulkConstant = parseInt(form.bulkConstant.value);
         var sex = form.sexHidden.value;
         var activityConstant = form.activityLevel.options[form.activityLevel.selectedIndex].value / 100;
-        //var sportConstant = form.sportLevel.options[form.sportLevel.selectedIndex].value / 1000; // uoverfl&oslash;delig
 
         if (sex == "male") {
             var basicMeta = 66 + (13.7 * weight) + (5 * height) - (6.8 * age); // basic Metabolism for males	
@@ -17,7 +15,6 @@
             var basicMeta = 655 + (9.6 * weight) + (1.8 * height) - (4.7 * age); // basic Metabolism for female between 19-30 years
         }
 
-        //var vedligehold = parseInt(basicMeta * (activityConstant+workoutPrWeek*sportConstant));
         var vedligehold = parseInt(basicMeta * activityConstant);
         var bulk = vedligehold + bulkConstant;
         var cut = vedligehold - bulkConstant;

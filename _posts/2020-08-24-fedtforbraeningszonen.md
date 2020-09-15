@@ -52,7 +52,7 @@ Fedtforbrændingszonen er et begreb, som man ofte ser i forbindelse med træning
 
 Hvis man gerne vil tabe sig, så kan man godt blive fristet af en såkaldt fedtforbrændingszone. Der er imidlertid andre ting, der er meget vigtigere, hvis formålet med træningen er at tabe vægt. Navnet på fedtforbræningszonen kan således godt være lidt misvisende.
 
-Der er rigtig mange, der [opfordrer til at glemme fedtforbrændingszonen](http://www.motion-online.dk/glem-fedtforbraendingszonen/){:rel="nofollow"} eller afviser [fedtforbrændingszonen som en myte](https://arndalspa.dk/glem-80er-myten-om-fedtforbraending-2/), men det synes jeg simplicerer den bagvedliggende fysiologi. Samtidig skubber det fokus hen på, at træning altid skal være intensiv for at have nogen gavnlig effekt.
+Der er rigtig mange, der [opfordrer til at glemme fedtforbrændingszonen](http://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel="nofollow"} eller afviser [fedtforbrændingszonen som en myte](https://arndalspa.dk/glem-80er-myten-om-fedtforbraending-2/), men det synes jeg simplicerer den bagvedliggende fysiologi. Samtidig skubber det fokus hen på, at træning altid skal være intensiv for at have nogen gavnlig effekt.
 
 Det giver ikke mening at afvise at træne i en zone, hvis man gerne vil have et veludviklet energisystem. Hvis du træner med høj intensitet træner du energisystemet på en måde. Når du træner med lavere intensitet, så træner du energisystemet på en anden måde.
 
@@ -74,11 +74,11 @@ Fedtforbrændingszonen kan virke relevant i forhold til vægttab. Det vigtigste 
 
 Rationalet bag fedtforbrædingen kan skitseres i følgende grafer, som Morten Zacho har forklaret.
 
-{% include feature_row id="gallery" type="left" caption="x-aksen træningsintensitet, hvor 100 svarer til den maximale iltoptagelse. Figurerne er skematiske til illustrationsformål." %}
+{% include feature_row id="gallery" type="left" caption="x-aksen er træningsintensiteten, hvor 100 svarer til den maximale iltoptagelse. Figurerne er skematiske til illustrationsformål. Kilde: [Morten Zacho](http://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel="nofollow"}" %}
 
 Men når man kigger på vægttab, så er der også andre forhold at tage hensyn til:
 
-{% include feature_row id="gallery_explain" type="left" caption="x-aksen træningsintensitet, hvor 100 svarer til den maximale iltoptagelse. Figurerne er skematiske til illustrationsformål." %}
+{% include feature_row id="gallery_explain" type="left" caption="x-aksen er træningsintensitet, hvor 100 svarer til den maximale iltoptagelse. Figurerne er skematiske til illustrationsformål. Kilde: [Morten Zacho](http://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel="nofollow"}" %}
 
 Morten Zachos konklusion bliver, at hvis man skal tage sig, så kan det ikke betale sig at holde pulsen nede for at træne i **fedtforbrændingszonen**, hvis man har lyst og evne til at arbejde med en højere intensitet.
 
@@ -90,7 +90,7 @@ I forhold til vægttab og fedtforbrænding foreslår Morten Zacho, at man arbejd
 > Spørgsmål: Hvis man f.eks har afsat 40 minutter til at motionere i, hvilken intensitet er så den bedste hvis man vil tabe sig?
 > Svar: Den højeste intensitet man kan holde i de 40 minutter!
 
-— <cite>Morten Zacho</cite>
+— <cite>[Morten Zacho](http://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel="nofollow"}</cite>
 
 I forhold til vægttab og man har sat et bestemt tidsrum af til motion og træning, så kan det altså ikke betale sig at blive i **fedtforbrændingszonen** i forhold til træningen.
 
@@ -100,7 +100,7 @@ Vi kan altså ifølge rationalet fra Morten Zacho godt glemme fedtforbrændingsz
 
 ## Fedtforbrændingzonen findes
 
-![](http://pxl.host/ke8mcbdqxowf1dzhdo.png)Det kan godt være, at vi skal glemme fedtforbrændingszonen i forbindelse med vægttab. 
+Det kan godt være, at vi skal glemme fedtforbrændingszonen i forbindelse med vægttab. 
 
 Hvis vi i stedet kigger på fedtforbrændingszonen som bevægelse ved den intensitet, hvor fedtforbrændingen udgør en større del af den samlede forbrænding, så er historien en anden.
 

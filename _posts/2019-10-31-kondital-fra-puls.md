@@ -63,8 +63,6 @@ HR<sub>max</sub> = 208 – 0,7 x alder
 
 Denne formel har vist sig at være mere præcis end den tidligere tommelfingerregel for estimering af maxpuls[^note].
 
-[^note]: [Ny formel til beregning af aldersbestemt maximalpuls](https://www.motion-online.dk/ny-formel-beregning-aldersbestemt-maximalpuls/){:rel="nofollow"}
-
 ## Udregn dit kondital
 
 {% include calculate-vo2-max-hr.html %}
@@ -82,3 +80,5 @@ Uth, Niels, Henrik Sørensen, Kristian Overgaard, og Preben K. Pedersen. 2004. �
 Tanaka, H., K. D. Monahan, og D. R. Seals. 2001. “Age-Predicted Maximal Heart Rate Revisited”. Journal of the American College of Cardiology 37 (1): 153–56. <https://doi.org/10.1016/s0735-1097(00)01054-8>.
 
 ## Noter
+
+[^note]: [Ny formel til beregning af aldersbestemt maximalpuls](https://www.motion-online.dk/ny-formel-beregning-aldersbestemt-maximalpuls/){:rel="nofollow"}

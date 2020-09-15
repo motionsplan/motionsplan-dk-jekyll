@@ -1,11 +1,12 @@
 ---
-title: "Lav en gratis sundhedstest og sundhedsprofil"
+title: &title "Lav en gratis sundhedstest og sundhedsprofil"
 excerpt: "Sundhedsprofilen indeholder en række enkle sundhedstests, og du ender med at få sat tal på din sundhed."
 language: da
 permalink: /sundhedsprofil/
 header:
   overlay_image: https://cdn-dk-mk-me.clio.me/user_upload/HVad_er_sundhed.jpg
   teaser: https://cdn-dk-mk-me.clio.me/user_upload/HVad_er_sundhed.jpg
+  caption: *title
 category:
   - Test
 tags:
@@ -135,7 +136,7 @@ Hvis du for nylig har løbet en distance så hurtigt, du kunne, så kan du også
 >
 > Ikke alle elementer tæller lige meget i den samlede score. Det trækker f.eks. meget mere fra at være ryger i forhold til blot at være usmidig. Dertil er det heller ikke alle test der giver en højere samlet score selv om man forbedrer sig. Eksempelvis er det godt for sundheden at have en hvis styrke i overkroppen, men man er ikke nødvendigvis sundere fordi man kan tage virkelig mange armstrækninger. Vægtningen af de forskellige elementer er bl.a. sket ved at kigge på rapporten ” Risikofaktorer og folkesundhed i Danmark”, samt ved at kigge på mere specifikke undersøgelser.
 
---- <cite>[motion-online.dk](http://web.archive.org/web/20160406061608/http://www.motion-online.dk/sundhed_og_vaegt/sundhed-generelt/sundhedsprofil_-_teoretisk_baggrund/){:rel="nofollow"}</cite>
+--- <cite>Morten Zacho - [motion-online.dk](http://web.archive.org/web/20160406061608/http://www.motion-online.dk/sundhed_og_vaegt/sundhed-generelt/sundhedsprofil_-_teoretisk_baggrund/){:rel="nofollow"}</cite>
 
 ## Hvad er sundhed?
 
