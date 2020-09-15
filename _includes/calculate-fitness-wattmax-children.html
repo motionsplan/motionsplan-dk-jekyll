@@ -2,16 +2,23 @@
     <fieldset>
         <legend>Watt-max-test for børn. Indtast den højeste belastning, der blev nået, samt hvor mange sekunder der blev kørt på denne belastning.</legend>
         <div class="form-group">
-            <label for="">Højeste belastning der blev nået (watt)</label>
-            <input name="Wmax" min="50" max="1000" type="number" placeholder="fx 240" />
+            <label for="wmax">Højeste belastning der blev nået (watt)</label>
+            <input name="wmax" id="wmax" min="50" max="1000" type="number" placeholder="fx 240" />
         </div>
         <div class="form-group">
-            <label for="">Antal sekunder på højeste belastning (sek)</label>
-            <input name="Sek" min="0" max="600" type="number" placeholder="fx 60" />
+            <label for="sec">Antal sekunder på højeste belastning (sek)</label>
+            <input name="sec" id="sec" min="0" max="600" type="number" placeholder="fx 60" />
         </div>
         <div class="form-group">
-            <label for="">Vægt (kg)</label>
-            <input name="Vaegt" type="number" min="20" max="200" placeholder="fx 70" step="0.1" />
+            <label for="weight">Vægt (kg)</label>
+            <input name="weight" id="weight" type="number" min="20" max="200" placeholder="fx 70" step="0.1" />
+        </div>
+        <div class="form-group">
+            <label for="">Watt spring benyttet</label>
+            <select name="watt_jumps">
+                <option value="25" selected="selected">25 watt (standard)</option>
+                <option value="20">20 watt (børn under 30 kg)</option>
+            </select>
         </div>
         <input type="submit" value="Beregn" />
     </fieldset>

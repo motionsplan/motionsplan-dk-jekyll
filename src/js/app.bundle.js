@@ -11,6 +11,7 @@ const fp_navy = require('./fat-pct-navy');
 const fatm = require('./fat-pct-measurements');
 const rm = require('./1rm');
 const etpunkt = require('./etpunkttest');
+const borg15 = require('./borg15');
 const topunkt = require('./topunkttest');
 const bmr = require('./bmr-nordic-1996');
 const ree = require('./bmr-nordic-2012');
@@ -22,10 +23,14 @@ const index23 = require('./fitness-index-23');
 const running = require('./running');
 const running_economy = require('./running-economy');
 const skinfold_durnin = require('./skinfold-durnin');
+const skinfold_pollock = require('./skinfold-pollock');
+const skinfold_lohman = require('./skinfold-lohman');
+const skinfold_slaughter = require('./skinfold-slaughter');
 const rockport = require('../js/walktest-rockport-16.js');
 const fatenergypct = require('../js/fatenergypct.js');
 const whr = require('../js/waist.js');
 const tbw = require('../js/bodywater.js');
+const wattmax = require('../js/wattmax.js');
 require('image-map-resizer');
 
 $(document).ready(function() {
@@ -382,80 +387,58 @@ $(document).ready(function() {
     $("#calculator_skinfold_pollock_men").submit(function() {
         console.log("Calculate Skinfold Pollock Men");
 
-        var bryst_m = Number($("[name='bryst_m']").val());
-        var mave_m = Number($("[name='mave_m']").val());
-        var laar_m = Number($("[name='laar_m']").val());
-        var alder_m = Number($("[name='alder_m']").val());
-        var vaegt_m = Number($("[name='vaegt_m']").val());
+        var breast = Number($("[name='bryst_m']").val());
+        var abdomen = Number($("[name='mave_m']").val());
+        var thigh = Number($("[name='laar_m']").val());
+        var age = Number($("[name='alder_m']").val());
+        var weight = Number($("[name='vaegt_m']").val());
 
-        var fedtsum_m = bryst_m * 1 + mave_m * 1 + laar_m * 1;
-        var density_m = 1.10938 - 0.0008267 * fedtsum_m + 0.0000016 * Math.pow(fedtsum_m, 2) - 0.0002574 * alder_m;
+        var f = skinfold_pollock.SkinfoldPollock(weight, age);
 
-        var resultat1_m = Math.round((495 / density_m - 450) * Math.pow(10, 1)) / Math.pow(10, 1)
-        var resultat2_m = Math.round((vaegt_m - vaegt_m * resultat1_m / 100) * Math.pow(10, 1)) / Math.pow(10, 1)
-
-        $("[name='fedtprocent_m']").val(resultat1_m);
-        $("[name='fedtfri_m']").val(resultat2_m);
+        $("[name='fedtprocent_m']").val(skinfold_pollock.getBodyFatPercentMale(breast, abdomen, thigh));
+        $("[name='fedtfri_m']").val(skinfold_pollock.getBodyFatFreeMass());
         return false;
     });
     // Calculate Durnin
     $("#calculator_skinfold_pollock_women").submit(function() {
         console.log("Calculate Skinfold Pollock Women");
 
-        var triceps_k = Number($("[name='triceps_k']").val());
-        var hoftekam_k = Number($("[name='hoftekam_k']").val());
-        var laar_k = Number($("[name='laar_k']").val());
-        var alder_k = Number($("[name='alder_k']").val());
-        var vaegt_k = Number($("[name='vaegt_k']").val());
+        var triceps = Number($("[name='triceps_k']").val());
+        var hip = Number($("[name='hoftekam_k']").val());
+        var thigh = Number($("[name='laar_k']").val());
+        var age = Number($("[name='alder_k']").val());
+        var weight = Number($("[name='vaegt_k']").val());
 
-        var fedtsum_k = triceps_k * 1 + hoftekam_k * 1 + laar_k * 1;
-        var density_k = 1.0994921 - 0.0009929 * fedtsum_k + 0.0000023 * Math.pow(fedtsum_k, 2) - 0.0001392 * alder_k;
-        var resultat1_k = Math.round((495 / density_k - 450) * Math.pow(10, 1)) / Math.pow(10, 1)
-        var resultat2_k = Math.round((vaegt_k - vaegt_k * resultat1_k / 100) * Math.pow(10, 1)) / Math.pow(10, 1)
+        var f = skinfold_pollock.SkinfoldPollock(weight, age);
 
-        $("[name='fedtprocent_k']").val(resultat1_k);
-        $("[name='fedtfri_k']").val(resultat2_k);
+        $("[name='fedtprocent_k']").val(skinfold_pollock.getBodyFatPercentFemale(triceps, hip, thigh));
+        $("[name='fedtfri_k']").val(skinfold_pollock.getBodyFatFreeMass());
         return false;
     });
     // Calculate Lohman
     $("#calculator_skinfold_lohman").submit(function() {
         console.log("Calculate Skinfold Lohman");
 
-        var bf;
-
         var triceps = Number($("[name='triceps']").val());
-
         var calf = Number($("[name='calf']").val());
-        var koen = Number($("[name='koen']").val());
+        var sex = Number($("[name='koen']").val());
 
-        if (koen == 1) {
-            bf = 0.735 * (triceps + calf) + 1.0;
-        }
-        else {
-            bf = 0.610 * (triceps + calf) + 5.1;
-        }
+        var f = skinfold_lohman.SkinfoldLohman(sex, triceps, calf);
 
-        $("[name='fatpercent']").val(bf);
+        $("[name='fatpercent']").val(skinfold_lohman.getBodyFatPercent());
         return false;
     });
     // Calculate Slaughter
     $("#calculator_skinfold_slaughter").submit(function() {
         console.log("Calculate Skinfold Slaughter");
 
-        var bf;
-
         var triceps = Number($("[name='triceps']").val());
         var subscapular = Number($("[name='subscapular']").val());
-        var koen = Number($("[name='koen']").val());
+        var sex = Number($("[name='koen']").val());
 
-        if (koen == 1) {
-            bf = 1.21 * (triceps + subscapular) - 0.008 * Math.pow(triceps + subscapular, 2) - 1.7;
-        }
-        else {
-            bf = 1.33 * (triceps + subscapular) - 0.013 * Math.pow(triceps + subscapular, 2) - 2.5;
-        }
+        var f = skinfold_slaughter.SkinfoldSlaughter(sex, triceps, subscapular);
 
-        $("[name='fatpercent']").val(bf);
+        $("[name='fatpercent']").val(skinfold_slaughter.getBodyFatpercent());
         return false;
     });
     // Calculate Fat Percent Measurements
@@ -521,44 +504,43 @@ $(document).ready(function() {
     $("#calculator_borg15").submit(function() {
         console.log("Calculate Borg 15 fitness");
 
-        var borg = Number($("#borg_watt").val());
-        var ald = Number($("#borg_age").val());
-        var wgt = Number($("#borg_weight").val());
+        var watt = Number($("#borg_watt").val());
+        var age = Number($("#borg_age").val());
+        var weight = Number($("#borg_weight").val());
 
-        var iltoptag = (1.19 * borg / 9.82 * 60) - (15.84 * ald) + (13.06 * wgt) + 1365;
+        var borg = borg15.Borg15(age, weight, watt);
 
-        var maxiltop = Math.round((iltoptag / 1000) * Math.pow(10, 2)) / Math.pow(10, 2)
-        var kondi = Math.round((iltoptag / wgt) * Math.pow(10, 1)) / Math.pow(10, 1)
-
-        $("#borg_iltoptagelse").val(maxiltop);
-        $("#borg_kondital").val(kondi);
+        $("#borg_iltoptagelse").val(borg.getMaximalOxygenUptake());
+        $("#borg_kondital").val(borg.getFitnessLevel());
         return false;
     });
     // Calculate Wattmax
     $("#calculator_fitness_wattmax").submit(function() {
         console.log("Calculate Wattmax");
-        var Wmax = Number($("[name='Wmax']").val());
-        var Sek = Number($("[name='Sek']").val());
-        var Vaegt = Number($("[name='Vaegt']").val());
-        var resultat = Math.round((0.0117 * (Wmax - 35 + (35 * Sek / 120)) + 0.16) / Vaegt * 1000 * Math.pow(10, 1)) / Math.pow(10, 1)
-        var resultat2 = Math.round((0.0117 * (Wmax - 35 + (35 * Sek / 120)) + 0.16) * Math.pow(10, 2)) / Math.pow(10, 2)
-        $("[name='Kondital']").val(resultat);
-        $("[name='Iltoptag']").val(resultat2);
+        var wmax = Number($("[name='Wmax']").val());
+        var sec = Number($("[name='Sek']").val());
+        var weight = Number($("[name='Vaegt']").val());
+        
+        var watt = wattmax.Wattmax(wmax, sec, weight);
+
+        $("[name='Kondital']").val(watt.getFitnessLevel());
+        $("[name='Iltoptag']").val(watt.getMaximalOxygenUptake());
         return false;
     });
     // Calculate Wattmax Children
     $("#calculator_fitness_wattmax_children").submit(function() {
         console.log("Calculate Wattmax Children");
 
-        var Wmax = Number($("[name='WMax']").val());
-        var Sek = Number($("[name='Sek']").val());
-        var Vaegt = Number($("[name='Vaegt']").val());
+        var wmax = Number($("[name='wmax']").val());
+        var sec = Number($("[name='sec']").val());
+        var weight = Number($("[name='weight']").val());
+        var watt_jumps = Number($("[name='watt_jumps']").val());
+        var age = 15;
+        
+        var watt = wattmax.Wattmax(wmax, sec, weight, age, watt_jumps);
 
-        var resultat = Math.round((13.16 * (Wmax - 25 + (25 * Sek / 180)) + 5 * Vaegt) / Vaegt * Math.pow(10, 1)) / Math.pow(10, 1)
-        var resultat2 = Math.round((13.16 * (Wmax - 25 + (25 * Sek / 180)) + 5 * Vaegt) / 1000 * Math.pow(10, 2)) / Math.pow(10, 2)
-
-        $("[name='Kondital']").val(resultat);
-        $("[name='Iltoptag']").val(resultat2);
+        $("[name='kondital']").val(wattmax.getFitnessLevel());
+        $("[name='vo2max']").val(wattmax.getMaximalOxygenUptake());
         return false;
     });
     // Calculate Walktest 6 min
