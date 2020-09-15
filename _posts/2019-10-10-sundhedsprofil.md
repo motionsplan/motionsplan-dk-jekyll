@@ -80,7 +80,7 @@ Avanceret sundhedsprofil
 
 ### Anslå kondition ud fra hvile- og maxpuls
 
-I sundhedstesten foreslås forskellige måder at teste kredsløbsfitness på. Hvis ikke du har tid til at lave en længerevarende fitnesstest, så kan du _estimere_ din test ud fra din hvile- og max-puls.
+I sundhedstesten foreslås forskellige måder at teste kredsløbsfitness på. Hvis ikke du har tid til at lave en længerevarende fitnesstest, så kan du _estimere_ din test ud fra din hvile- og max-puls. **Husk at det er konditallet, du skal bruge i sundhedsprofilen.**
 
 [Anslå kondital fra puls](/kondital-fra-puls/){: .btn .btn--large .btn--success }
 
@@ -91,6 +91,8 @@ Hvis du for nylig har løbet en distance så hurtigt, du kunne, så kan du også
 [Anslå kondital fra løb]({% link _posts/2019-10-31-kondital-fri-loebedistance.md %}){: .btn .btn--large .btn--info }
 
 ## Teoretisk baggrund for sundhedsprofilen og sundhedstest
+
+I det følgende gennemgår jeg kort [Morten Zachos tanker bag sundhedsprofilen](http://web.archive.org/web/20160406061608/http://www.motion-online.dk/sundhed_og_vaegt/sundhed-generelt/sundhedsprofil_-_teoretisk_baggrund/){:rel="nofollow"}, som den ser ud på [health-calc.com](http://www.health-calc.com/component/sundhedsprofiler/default) og de ting, der er taget med i sundhedsprofilen.
 
 > ### BMI
 >
@@ -136,7 +138,7 @@ Hvis du for nylig har løbet en distance så hurtigt, du kunne, så kan du også
 >
 > Ikke alle elementer tæller lige meget i den samlede score. Det trækker f.eks. meget mere fra at være ryger i forhold til blot at være usmidig. Dertil er det heller ikke alle test der giver en højere samlet score selv om man forbedrer sig. Eksempelvis er det godt for sundheden at have en hvis styrke i overkroppen, men man er ikke nødvendigvis sundere fordi man kan tage virkelig mange armstrækninger. Vægtningen af de forskellige elementer er bl.a. sket ved at kigge på rapporten ” Risikofaktorer og folkesundhed i Danmark”, samt ved at kigge på mere specifikke undersøgelser.
 
---- <cite>Morten Zacho - [motion-online.dk](http://web.archive.org/web/20160406061608/http://www.motion-online.dk/sundhed_og_vaegt/sundhed-generelt/sundhedsprofil_-_teoretisk_baggrund/){:rel="nofollow"}</cite>
+--- <cite> [Morten Zacho](http://web.archive.org/web/20160406061608/http://www.motion-online.dk/sundhed_og_vaegt/sundhed-generelt/sundhedsprofil_-_teoretisk_baggrund/){:rel="nofollow"}</cite>
 
 ## Hvad er sundhed?
 

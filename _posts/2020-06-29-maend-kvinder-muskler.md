@@ -131,7 +131,7 @@ Hvis det er rigtigt, at der er forskel på mænds og kvinders muskler, så kan d
 
 Hvis kvinder er mere udholdende og restituerer hurtigere, så kan kvinder formentlig tage lidt flere gentagelser ved den samme procentvise belastning af 1RM, og måske kan de have kortere pauser i styrketræningen.
 
-Træningsanbefalingerne for kvinder og mænd i forhold til styrketræning er dog stadig de samme. Jeg har tidligere skrevet et indlæg om 
+Træningsanbefalingerne for kvinder og mænd i forhold til styrketræning er dog stadig de samme.
 
 ## Referencer
 

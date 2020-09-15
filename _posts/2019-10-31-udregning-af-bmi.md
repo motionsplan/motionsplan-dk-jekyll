@@ -154,9 +154,9 @@ Derfor foreslår Morten Zacho også en ny tabel for BMI.
 
 | Klassification  | BMI (kg/m<sup>2</sup>) | Note |
 |---------------|------------------------|-|
-| Undervægtig	  | < 20                   | Undervægt er meget usundt. Øg din vægt med sund kost og motion |
-| Normalvægt og overvægt	 	    | 20 - 30                | Ingen grund til vægttab, hvis du motionerer, spiser sundt og ikke har sygdomme |
-| Fedme	        | 30 - 35                | Langvarige og blivende livsstilsændringer vil være sundt. Korte slankekure vil være skidt. |
+| Undervægtig	  | < 20    | Undervægt er meget usundt. Øg din vægt med sund kost og motion |
+| Normalvægt og overvægt  | 20 - 30                | Ingen grund til vægttab, hvis du motionerer, spiser sundt og ikke har sygdomme |
+| Fedme	        | 30 - 35 | Langvarige og blivende livsstilsændringer vil være sundt. Korte slankekure vil være skidt. |
 | Svær fedme    | 35,0 -  | Vægttab vil være godt for din sundhed |
 
 ## Hvad med min muskelmasse og fedtprocent i forhold BMI?
