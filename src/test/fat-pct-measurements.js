@@ -5,7 +5,6 @@ describe('CalculateFatPercentMeasurements', function() {
   describe('getFatMass', function() {
     it('should return the correct number', function() {
 
-      // age, heart rate, blood pressure, diabetes, smoker, bmi, fitness
       var fat = motionsplan.CalculateFatPercentMeasurements();
       assert.equal(fat.getFatPercentMenUnder26(280, 850, 270), 16.791800000000002);
       assert.equal(fat.getFatPercentMenOver26(900, 850, 270), 20.182500000000005);

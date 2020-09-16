@@ -28,12 +28,13 @@ const skinfold_durnin = require('./skinfold-durnin');
 const skinfold_pollock = require('./skinfold-pollock');
 const skinfold_lohman = require('./skinfold-lohman');
 const skinfold_slaughter = require('./skinfold-slaughter');
-const rockport = require('../js/walktest-rockport-16.js');
-const walktest_sixminutes = require('../js/walktest-sixminutes.js');
-const fatenergypct = require('../js/fatenergypct.js');
-const whr = require('../js/waist.js');
-const tbw = require('../js/bodywater.js');
-const wattmax = require('../js/wattmax.js');
+const rockport = require('../js/walktest-rockport-16');
+const walktest_sixminutes = require('../js/walktest-sixminutes');
+const fatenergypct = require('../js/fatenergypct');
+const whr = require('../js/waist');
+const tbw = require('../js/bodywater');
+const wattmax = require('../js/wattmax');
+const hr_intensity = require('../js/hr-intensity');
 require('image-map-resizer');
 
 $(document).ready(function() {
@@ -702,38 +703,41 @@ $(document).ready(function() {
     $("#calculator_hr_intensity_hrr").submit(function() {
         console.log("Calculate HR intensity HRR");
 
-        var Hpuls = Number($("[name='Hpuls']").val());
-        var Mpuls = Number($("[name='Mpuls']").val());
-        var Apuls = Number($("[name='Apuls']").val());
+        var hr_rest = Number($("[name='hr_rest']").val());
+        var max_hr = Number($("[name='hr_max']").val());
+        var hr_work = Number($("[name='hr_work']").val());
 
-        var resultat = (Apuls - Hpuls) / (Mpuls - Hpuls) * 100;
+        var hr = hr_intensity.HRIntensity(max_hr);
+        var result = hr.getHRIntensityFromHeartRateReserve(hr_rest, hr_work);
 
-        $("[name='Ialt']").val(resultat);
+        $("[name='hrr_intensity']").val(result);
         return false;
     });
      // Calculate Intensity
     $("#calculator_hr_intensity_work").submit(function() {
         console.log("Calculate HR work intensity HRR");
 
-        var Hpuls2 = Number($("[name='Hpuls2']").val());
-        var Mpuls2 = Number($("[name='Mpuls2']").val());
-        var Intens2 = Number($("[name='Intens2']").val());
+        var hr_rest = Number($("[name='hr_rest_form2']").val());
+        var hr_max = Number($("[name='hr_max_form2']").val());
+        var hr_intensity = Number($("[name='intensity']").val());
 
-        var resultat2 = Hpuls2 * 1 + Intens2 / 100 * (Mpuls2 - Hpuls2);
+        var hr = hr_intensity.HRIntensity(hr_max);
+        var result = hr.getHRBasedOnIntensityFromHeartRateReserve(hr_rest, hr_intensity);
 
-        $("[name='Ialt2']").val(resultat2);
+        $("[name='hrr_heartrate']").val(result);
         return false;
     });
     // Calculate Intensity
     $("#calculator_hr_intensity_from_max").submit(function() {
         console.log("Calculate HR work intensity from HRmax");
 
-        var Apuls3 = Number($("[name='Apuls3']").val());
-        var Mpuls3 = Number($("[name='Mpuls3']").val());
+        var hr_work = Number($("[name='hr_work_form3']").val());
+        var hr_max = Number($("[name='hr_max_form3']").val());
 
-        var resultat3 = Apuls3 / Mpuls3 * 100;
+        var hr = hr_intensity.HRIntensity(hr_max);
+        var result = hr.getWorkIntensityBasedOnMaxHR(hr_work);
 
-        $("[name='Ialt3']").val(resultat3);
+        $("[name='intensity_form3']").val(result);
         return false;
     });
      // Calculate Wilks

@@ -1,7 +1,6 @@
 let motionsplan = {};
 
 motionsplan.CooperClinicMortalityRiskIndex = function(age, hr, bloodpressure, diabetes, smoker, bmi, fitness) {
-  var age, hr, bloodpressure, diabetes, smoker, bmi, fitness;
 
   age = age;
   hr = hr;
@@ -14,7 +13,7 @@ motionsplan.CooperClinicMortalityRiskIndex = function(age, hr, bloodpressure, di
   function getAgePoint() {
     var point;
     if (age < 44) {
-      point = 0
+      point = 0;
     }
     else if (age < 49) {
       point = 3;
@@ -150,8 +149,7 @@ motionsplan.CooperClinicMortalityRiskIndex = function(age, hr, bloodpressure, di
     else {
       risk2 = risk / 18.1;
     }
-    risk3 = Math.round((risk2) * Math.pow(10, 1)) / Math.pow(10, 1);
-    return risk3;
+    return risk2;
   }
 
   var publicAPI = {
