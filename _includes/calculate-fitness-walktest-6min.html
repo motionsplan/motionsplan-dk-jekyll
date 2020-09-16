@@ -2,6 +2,13 @@
     <fieldset>
         <legend>6 minutters gåtest. Indtast oplysninger.</legend>
         <div class="form-group">
+            <label for="formula">Referenceværdier</label>
+            <select name="formula" id="formula">
+                <option value="false" selected="selected">Kun et forsøg - Enright & Sherril (1998)</option>
+                <option value="true">Gentagne forsøg - Gibbons et al (2001)</option>
+            </select>
+        </div>
+        <div class="form-group">
             <label for="meter">Distance tilbagelagt (meter)</label>
             <input type="number" min="50" max="1200" placeholder="fx 400" name="meter" id="meter">
         </div>

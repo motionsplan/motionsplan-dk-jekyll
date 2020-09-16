@@ -2,22 +2,22 @@
     <fieldset>
         <legend>Udregning af hvilestofskifte og dagligt energibehov baseret på <em>Nordic Nutrition Recommendations 2012</em>.</legend>
         <div class="form-group">
-            <label for="koen">Køn</label>
-            <select name="koen" id="koen">
+            <label for="gender">Køn</label>
+            <select name="gender" id="gender">
                 <option value="1">Mand</option>
                 <option value="0">Kvinde</option>
             </select>
         </div>
         <div class="form-group">
-            <label for="alder">Alder (år)</label>
-            <input type="number" min="10" max="100" placeholder="fx 40" name="alder" id="alder">
+            <label for="age">Alder (år)</label>
+            <input type="number" min="10" max="100" placeholder="fx 40" name="age" id="age">
         </div>
         <div class="form-group">
-            <label for="vaegt">Vægt (kg)</label>
-            <input type="number" min="10" max="200" placeholder="fx 70" name="vaegt" id="vaegt" step="0.1">
+            <label for="weight">Vægt (kg)</label>
+            <input type="number" min="10" max="200" placeholder="fx 70" name="weight" id="weight" step="0.1">
         </div>
         <div class="form-group">
-            <label for="vaegt">Højde (cm) (valgfri)</label>
+            <label for="height">Højde (cm) (valgfri)</label>
             <input type="number" min="100" max="200" placeholder="fx 180" name="height" id="height" step="1">
         </div>
         <fieldset>
@@ -51,16 +51,16 @@
     </fieldset>
     <fieldset class="results">
         <div class="form-group">
-            <label for="PAL">Fysisk aktivitetsniveaufaktor (PAL)</label>
-            <input name="PAL" id="PAL" disabled="disabled">
+            <label for="pal_calc">Fysisk aktivitetsniveaufaktor (PAL)</label>
+            <input name="pal_calc" id="pal_calc" disabled="disabled">
         </div>
         <div class="form-group">
-            <label for="BMR2">Resting Energy Expenditure (REE) (kJ)</label>
-            <input name="BMR2" id="BMR2" disabled="disabled">
+            <label for="bmr">Resting Energy Expenditure (REE) (kJ)</label>
+            <input name="bmr" id="bmr" disabled="disabled">
         </div>
         <div class="form-group">
-            <label for="TEE2">Total energiomsætning (kJ)</label>
-            <input name="TEE2" id="TEE2" disabled="disabled">
+            <label for="tee">Total energiomsætning (kJ)</label>
+            <input name="tee" id="tee" disabled="disabled">
         </div>
     </fieldset>
 </form>

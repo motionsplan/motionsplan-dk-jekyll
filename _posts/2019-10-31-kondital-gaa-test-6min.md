@@ -35,20 +35,18 @@ I **6 minutters gå-test** gælder det om at gå så langt som muligt på 6 minu
 ## Referenceværdier for 6 minutters-gangtesten
 
 Der findes en del forskellige publicerede referenceværdier til 6-minutters gangtesten. Den væsentligste forskel på referenceværdierne er om forsøgspersonerne forud har haft mulighed for at blive tilvænnet til testen. 
-Inspireret af [Morten Zacho](http://web.archive.org/web/20150403145323/http://www.motion-online.dk/konditionstraening/testning/6_min_gaa-test/){:rel="nofollow"} har vi valgt at angive referenceværdierne fra [Enright & Sherill (1998)](https://pubmed.ncbi.nlm.nih.gov/9817683/). Referenceværdierne fra denne reference er baseret på forsøgspersoner, der ikke på forhånd er blevet tilvænnnet til gangtesten. Referenceværdierne gælder for både mænd og kvinder i alderen 40-80 år.
+Inspireret af [Morten Zacho](http://web.archive.org/web/20150403145323/http://www.motion-online.dk/konditionstraening/testning/6_min_gaa-test/){:rel="nofollow"} har vi valgt at angive referenceværdierne fra [Enright & Sherill (1998)](https://pubmed.ncbi.nlm.nih.gov/9817683/). Referenceværdierne fra denne reference er baseret på forsøgspersoner, der **ikke på forhånd er blevet tilvænnnet til gangtesten**. Referenceværdierne gælder for både mænd og kvinder i alderen 40-80 år.
 
 - Men: 6MWD = (7.57 x height cm) - (5.02 x age) - (1.76 x weight kg) - 309 m
 - Women, 6MWD = (2.11 x height cm) - (2.29 x weight kg) - (5.78 x age) + 667 m
 
-Gibbons et al (2001) baerede deres regressionsmodel på raske voksne, hvor de tog det bedste resultat fra flere forsøg.
+Gibbons et al (2001) baerede deres regressionsmodel på raske voksne, hvor de tog det bedste resultat fra flere forsøg. Derfor har jeg også inkluderet referenceværdier for **gentagne forsøg** i beregneren.
 
 Det resulterede i følgende regressionsmodel for gentagne forsøg på 6 minutters testen:
 
 - 6MWD = 868,8 - 2,99 * Age - 74,7 * Gender
 
 Hvor mand = 0; kvinde = 1.
-
-Jeg er ved at finde referenceværdier fra nogle senere studier, som jeg udvider beregneren med, så snart jeg har fundet referencerne.
 
 ## Teoretisk baggrund for gåtesten på 6 minutter
 

@@ -556,11 +556,12 @@ $(document).ready(function() {
         var age = Number($("[name='age']").val());
         var height = Number($("[name='height']").val());
         var weight = Number($("[name='weight']").val());
+        var repeated = $("#formula").val();
         
         var hr = walktest_sixminutes.SixMinutesWalkingTest(sex, age, height, weight, meter);
 
-        $("[name='reference_distance']").val(hr.getReferenceMeter());
-        $("[name='procent']").val(hr.getPercent());
+        $("[name='reference_distance']").val(hr.getReferenceMeter(repeated));
+        $("[name='procent']").val(hr.getPercent(repeated));
         return false;
     });
     // Calculate Walktest 1.6 km
@@ -608,17 +609,17 @@ $(document).ready(function() {
     $("#calculator_bmr").submit(function() {
         console.log("Calculate BMR - 1996");
 
-        var koen = Number($("[name='koen']").val());
-        var alder = Number($("[name='alder']").val());
-        var vaegt = Number($("[name='vaegt']").val());
+        var gender = Number($("[name='gender']").val());
+        var age = Number($("[name='age']").val());
+        var weight = Number($("[name='weight']").val());
         var sport = $("[name='sport']:checked").val();
         var pal = Number($("[name='pal']:checked").val());
 
-        var b = bmr.EnergyExpenditure(koen, alder, vaegt, pal, sport);
+        var b = bmr.EnergyExpenditure(gender, age, weight, pal, sport);
 
-        $("[name='PAL']").val(b.getPhysicalActivityLevel());
-        $("[name='BMR2']").val(b.getBasicMetabolicRate());
-        $("[name='TEE2']").val(b.getTotalEnergyExpenditure());
+        $("[name='pal_calc']").val(b.getPhysicalActivityLevel());
+        $("[name='bmr']").val(b.getBasicMetabolicRate());
+        $("[name='tee']").val(b.getTotalEnergyExpenditure());
         return false;
     });
     // Calculate BMR - Nordic Nutrition 2012
@@ -634,13 +635,13 @@ $(document).ready(function() {
 
         var b = ree.REE2012(koen, alder, vaegt, pal, sport);
 
-        $("[name='PAL']").val(b.getPhysicalActivityLevel());
+        $("[name='pal_calc']").val(b.getPhysicalActivityLevel());
         if (height > 0) {
-            $("[name='BMR2']").val(b.getRestingEnergyExpenditureHeight(height));
-            $("[name='TEE2']").val(b.getRestingEnergyExpenditureHeight(height) * b.getPhysicalActivityLevel());
+            $("[name='bmr']").val(b.getRestingEnergyExpenditureHeight(height));
+            $("[name='tee']").val(b.getRestingEnergyExpenditureHeight(height) * b.getPhysicalActivityLevel());
         } else {
-            $("[name='BMR2']").val(b.getRestingEnergyExpenditure());
-            $("[name='TEE2']").val(b.getTotalEnergyExpenditure());
+            $("[name='bmr']").val(b.getRestingEnergyExpenditure());
+            $("[name='tee']").val(b.getTotalEnergyExpenditure());
         }
         
         return false;
