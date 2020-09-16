@@ -1,11 +1,12 @@
 ---
-title: "Find dit kondital med en vilkårlig løbedistance 🏃"
+title: &title "Find dit kondital med en vilkårlig løbedistance 🏃"
 permalink: /kondital-loeb/
 excerpt: "I denne beregner kan du indtaste en vilkårlig løbedistance og tiden og få et estimeret kondital."
 language: da
 header:
-  overlay_image: https://wpassets.trainingpeaks.com/wp-content/uploads/2018/08/10114352/18227-threshold-fitness-tests-blog-1200x675-run.jpg
-  teaser: https://wpassets.trainingpeaks.com/wp-content/uploads/2018/08/10114352/18227-threshold-fitness-tests-blog-1200x675-run.jpg
+  overlay_image: https://images.unsplash.com/photo-1596358985970-ff88f3ad4cb3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=80
+  teaser: https://images.unsplash.com/photo-1596358985970-ff88f3ad4cb3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  caption: *title
 category:
   - Kondition
 tags:
@@ -17,17 +18,31 @@ last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 ---
 
-Du kan beregne dit kondital ud fra en tur, du har løbet. Du indtaster bare, hvor mange kiloemter du har løbet, og hvor lang tid det tog.
+Du kan beregne dit kondital ud fra en løbetur, du har løbet. Du indtaster bare, hvor mange kilometer du har løbet, og hvor lang tid det tog. Jeg har lavet en beregner, der kan udregne dit kondital på baggrund af din hastighed og din distance.
 
-Tre ting skal dog være opfyldt:
+Flere forudsætninger for din løbetur skal dog være opfyldt for at beregneren virker:
 
 - Du skal være varmet op på forhånd.
-- Du skal have løbet turen så hurtigt som muligt.
-- Ruten skal være næsten flad.
+- Du skal løbet en distance så hurtigt som muligt.
+- Ruten skal være flad.
 - Distancen skal være mellem 1500 meter og 42 km.
+
+## Find dit kondital fra løbetest
 
 {% include calculate-fitness-runningdistance.html %}
 
+## Formler bag beregneren
+
+I beregneren er brugt formler fra Tokmakidis et al (1987) fra Tabel 1.
+
+> For example wi a single performance the average speed is calculated (e.g. a 5 km in 18:30 is ran at an average speed of 16.2 km*h<sup>-1</sup>) and introduced i the 5 km equation using Table 1 to obtain VO<sub>2</sub>max (MET = 3.1747 + 0.9139 * 16.2 km*h<sup>-1</sup> = 18 MET or 63 ml*kg<sup>-1</sup>*min<sup>-1</sup>).
+
+--- <cite>[Tokmakidis et al (1987)](https://pubmed.ncbi.nlm.nih.gov/3444324/)</cite>
+
+## Andre konditionstests
+
+Du kan også bruge en [Cooper Test til at finde dit kondital]({% link _posts/2019-10-31-kondital-cooper.md %}).
+
 ## Reference
 
-- Tokmakidis, S. P., L. Léger, D. Mercier, F. Péronnet, og G. Thibault. 1987. “New Approaches to Predict VO2max and Endurance from Running Performances”. The Journal of Sports Medicine and Physical Fitness 27 (4): 401–9.
+- Tokmakidis, S. P., L. Léger, D. Mercier, F. Péronnet, og G. Thibault. 1987. “New Approaches to Predict VO2max and Endurance from Running Performances”. The Journal of Sports Medicine and Physical Fitness 27 (4): 401–9. <https://pubmed.ncbi.nlm.nih.gov/3444324/>

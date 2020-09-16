@@ -12,7 +12,7 @@ let motionsplan = {};
  * +0.3 Sport eller anden hård fysisk aktivitet i fritiden. (30-60 min. 4-5 gange/uge)
  */
 
-motionsplan.EnergyExpenditure = function(sex, age, weight, pal, sport) {
+motionsplan.EnergyExpenditureSchofield = function(sex, age, weight, pal, sport) {
     var bmr;
     var sex = sex;
     var age = age;
@@ -27,40 +27,46 @@ motionsplan.EnergyExpenditure = function(sex, age, weight, pal, sport) {
         return false;
     }
 
-    // BMR - Nordiska 1996
+    // Værdier baseret på Schofield
     function getBasicMetabolicRate() {
         if (isMale()) {
-            if ((age > 10) && (age < 19)) {
-                bmr = 74 * weight + 2750;
+            if ((age > 0) && (age < 3)) {
+                bmr = 249 * weight - 127;
+            }
+            else if ((age > 2) && (age < 11)) {
+                bmr = 95 * weight + 2110;
+            }
+            else if ((age > 10) && (age < 19)) {
+                bmr = 74 * weight + 2754;
             }
             else if ((age > 18) && (age < 31)) {
-                bmr = 64 * weight + 2840;
+                bmr = 63 * weight + 2896;
             }
             else if ((age > 30) && (age < 61)) {
-                bmr = 48.5 * weight + 3670;
+                bmr = 48 * weight + 3653;
             }
-            else if ((age > 60) && (age < 76)) {
+            else if ((age > 60)) {
                 bmr = 49.9 * weight + 2930;
             }
-            else if ((age > 75)) {
-                bmr = 35 * weight + 3430;
-            }
         } else {
-            if ((age > 10) && (age < 19)) {
-                bmr = 56 * weight + 2900;
+            if ((age > 0) && (age < 3)) {
+                bmr = 244 * weight - 130;
+            }
+            else if ((age > 2) && (age < 11)) {
+                bmr = 85 * weight + 2033;
+            }
+            else if ((age > 10) && (age < 19)) {
+                bmr = 56 * weight + 2898;
             }
             else if ((age > 18) && (age < 31)) {
-                bmr = 61.5 * weight + 2080;
+                bmr = 62 * weight + 2036;
             }
             else if ((age > 30) && (age < 61)) {
-                bmr = 36.4 * weight + 3470;
+                bmr = 34 * weight + 3538;
             }
-            else if ((age > 60) && (age < 76)) {
-                bmr = 38.6 * weight + 2880;
-            }
-            else if ((age > 75)) {
-                bmr = 41 * weight + 2610;
-            }
+            else if ((age > 60)) {
+                bmr = 38 * weight + 2755;
+            }   
         }
         return bmr;
     }
@@ -74,7 +80,6 @@ motionsplan.EnergyExpenditure = function(sex, age, weight, pal, sport) {
     function getPhysicalActivityLevel() {
         var pal_val = pal;
         var pal2 = pal_val * 1;
-        console.log(sport);
         if (String(sport) == "true") {
             pal2 = pal2 + 0.3;
         }

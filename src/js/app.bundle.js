@@ -21,6 +21,7 @@ const wilks = require('wilks-calculator');
 const karvonen = require('./karvonen');
 const index23 = require('./fitness-index-23');
 const running = require('./running');
+const running_distance_vo2 = require('./running-distance-vo2');
 const running_economy = require('./running-economy');
 const index100 = require('./index100');
 const skinfold_durnin = require('./skinfold-durnin');
@@ -780,7 +781,7 @@ $(document).ready(function() {
         min = min + (hours * 60);
         distance = distance / 1000;
 
-        var c = running.Running();
+        var c = running_distance_vo2.RunningDistanceVO2();
 
         $("#kondital").val(c.getEstimatedFitnessLevel(min, sek, distance));
 

@@ -1,13 +1,13 @@
 <form class="calculator" id="calculator_vo2max_distance_test">
     <fieldset>
-        <legend>Kondital fra vilkårlig løbedistance. Indtast de målte værdier</legend>
+        <legend>Beregn kondital fra vilkårlig løbedistance og tid.</legend>
         <div class="form-group">
             <label>Distance (meter)</label>
-            <input type="number" min="400" max="1000000" id="distance" placeholder="Distance i meter">
+            <input type="number" min="1500" max="50000" id="distance" placeholder="Distance i meter">
         </div>
         <div class="form-group">
             <label>Tid (hh:mm:ss)</label>
-            <input type="number" min="0" max="10" id="tid_hours" placeholder="timer" class="input-mini">
+            <input type="number" min="0" max="6" id="tid_hours" placeholder="timer" class="input-mini">
             <input type="number" min="0" max="59" id="tid_min" placeholder="min" class="input-mini">
             <input type="number" min="0" max="59" id="tid_sek" placeholder="sek" class="input-mini">
         </div>
@@ -16,7 +16,7 @@
     <fieldset class="results">
         <div class="form-group">
             <label for="kondital">Kondital (ml/kg/min)</label>
-            <input type="text" id="kondital" placeholder="Beregnes" disabled="disabled">
+            <input type="text" id="kondital" disabled="disabled">
         </div>
     </fieldset>
 </form>

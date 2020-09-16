@@ -128,13 +128,14 @@
         } else {		
             TEE = BMR + weight * ((0.03 * activity_sitting + 0.1 * activity_standing + 0.26 * activity_light * correction1 + 0.5 * activity_moderat * correction2 + 0.88 * activity_intense * correction3));
         }
+        // Corrections based on Morten Zacho done
 
         var vedligehold = basicMeta * activityConstant;
         document.getElementById('pal_gerrior').value = pal_gerrior;
         document.getElementById('activity_sitting').value = activity_sitting;
         document.getElementById('bmr').value = basicMeta + " kJ";
         document.getElementById('equilibrium').value = vedligehold + " kJ";
-        document.getElementById('TEE').value = TEE + " kJ";
+        //document.getElementById('TEE').value = TEE + " kJ";
         return false;
     }
 </script>

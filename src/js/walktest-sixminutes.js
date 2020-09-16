@@ -16,8 +16,8 @@ motionsplan.SixMinutesWalkingTest = function(sex, age, height, weight, meter) {
     return false;
   }
 
-  function getReferenceMeter(repeated = false) {
-    if (repeated == true) {
+  function getReferenceMeter(repeated = "false") {
+    if (repeated == "repeated") {
       return getReferenceMeterGibbons();
     }
     return getReferenceMeterEnright();
@@ -40,7 +40,7 @@ motionsplan.SixMinutesWalkingTest = function(sex, age, height, weight, meter) {
     return (2.11 * height) - (5.78 * age) - (2.29 * weight) + 667;
   }
 
-  function getPercent(repeated = false) {
+  function getPercent(repeated = "false") {
     return (meter / getReferenceMeter(repeated) * 100);
   }
 

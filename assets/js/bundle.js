@@ -415,6 +415,7 @@ const wilks = require('wilks-calculator');
 const karvonen = require('./karvonen');
 const index23 = require('./fitness-index-23');
 const running = require('./running');
+const running_distance_vo2 = require('./running-distance-vo2');
 const running_economy = require('./running-economy');
 const index100 = require('./index100');
 const skinfold_durnin = require('./skinfold-durnin');
@@ -1003,17 +1004,17 @@ $(document).ready(function() {
     $("#calculator_bmr").submit(function() {
         console.log("Calculate BMR - 1996");
 
-        var koen = Number($("[name='koen']").val());
-        var alder = Number($("[name='alder']").val());
-        var vaegt = Number($("[name='vaegt']").val());
+        var gender = Number($("[name='gender']").val());
+        var age = Number($("[name='age']").val());
+        var weight = Number($("[name='weight']").val());
         var sport = $("[name='sport']:checked").val();
         var pal = Number($("[name='pal']:checked").val());
 
-        var b = bmr.EnergyExpenditure(koen, alder, vaegt, pal, sport);
+        var b = bmr.EnergyExpenditure(gender, age, weight, pal, sport);
 
-        $("[name='PAL']").val(b.getPhysicalActivityLevel());
-        $("[name='BMR2']").val(b.getBasicMetabolicRate());
-        $("[name='TEE2']").val(b.getTotalEnergyExpenditure());
+        $("[name='pal_calc']").val(b.getPhysicalActivityLevel());
+        $("[name='bmr']").val(b.getBasicMetabolicRate());
+        $("[name='tee']").val(b.getTotalEnergyExpenditure());
         return false;
     });
     // Calculate BMR - Nordic Nutrition 2012
@@ -1029,13 +1030,13 @@ $(document).ready(function() {
 
         var b = ree.REE2012(koen, alder, vaegt, pal, sport);
 
-        $("[name='PAL']").val(b.getPhysicalActivityLevel());
+        $("[name='pal_calc']").val(b.getPhysicalActivityLevel());
         if (height > 0) {
-            $("[name='BMR2']").val(b.getRestingEnergyExpenditureHeight(height));
-            $("[name='TEE2']").val(b.getRestingEnergyExpenditureHeight(height) * b.getPhysicalActivityLevel());
+            $("[name='bmr']").val(b.getRestingEnergyExpenditureHeight(height));
+            $("[name='tee']").val(b.getRestingEnergyExpenditureHeight(height) * b.getPhysicalActivityLevel());
         } else {
-            $("[name='BMR2']").val(b.getRestingEnergyExpenditure());
-            $("[name='TEE2']").val(b.getTotalEnergyExpenditure());
+            $("[name='bmr']").val(b.getRestingEnergyExpenditure());
+            $("[name='tee']").val(b.getTotalEnergyExpenditure());
         }
         
         return false;
@@ -1174,7 +1175,7 @@ $(document).ready(function() {
         min = min + (hours * 60);
         distance = distance / 1000;
 
-        var c = running.Running();
+        var c = running_distance_vo2.RunningDistanceVO2();
 
         $("#kondital").val(c.getEstimatedFitnessLevel(min, sek, distance));
 
@@ -1443,7 +1444,7 @@ $(document).ready(function() {
 	});
 });
 
-},{"../js/bodywater.js":8,"../js/fatenergypct.js":16,"../js/waist.js":30,"../js/walktest-rockport-16.js":31,"../js/walktest-sixminutes.js":32,"../js/wattmax.js":33,"./1rm":3,"./bmi":5,"./bmr-nordic-1996":6,"./bmr-nordic-2012":7,"./borg15":9,"./cooper":11,"./cooper-running":10,"./etpunkttest":12,"./fat-pct":15,"./fat-pct-measurements":13,"./fat-pct-navy":14,"./fitness-hr":17,"./fitness-index-23":18,"./ideal-weight":19,"./index100":20,"./karvonen":21,"./max-hr":22,"./running":24,"./running-economy":23,"./skinfold-durnin":25,"./skinfold-lohman":26,"./skinfold-pollock":27,"./skinfold-slaughter":28,"./topunkttest":29,"image-map-resizer":1,"wilks-calculator":2}],5:[function(require,module,exports){
+},{"../js/bodywater.js":8,"../js/fatenergypct.js":16,"../js/waist.js":31,"../js/walktest-rockport-16.js":32,"../js/walktest-sixminutes.js":33,"../js/wattmax.js":34,"./1rm":3,"./bmi":5,"./bmr-nordic-1996":6,"./bmr-nordic-2012":7,"./borg15":9,"./cooper":11,"./cooper-running":10,"./etpunkttest":12,"./fat-pct":15,"./fat-pct-measurements":13,"./fat-pct-navy":14,"./fitness-hr":17,"./fitness-index-23":18,"./ideal-weight":19,"./index100":20,"./karvonen":21,"./max-hr":22,"./running":25,"./running-distance-vo2":23,"./running-economy":24,"./skinfold-durnin":26,"./skinfold-lohman":27,"./skinfold-pollock":28,"./skinfold-slaughter":29,"./topunkttest":30,"image-map-resizer":1,"wilks-calculator":2}],5:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.BMI = function(h, w) {
@@ -1488,14 +1489,14 @@ let motionsplan = {};
 
 motionsplan.EnergyExpenditure = function(sex, age, weight, pal, sport) {
     var bmr;
-    var koen = sex;
-    var alder = age;
-    var vaegt = weight;
+    var sex = sex;
+    var age = age;
+    var weight = weight;
     sport = sport;
     pal = pal;
 
     function isMale() {
-        if (koen == "1") {
+        if (sex == "1") {
             return true;
         }
         return false;
@@ -1504,36 +1505,36 @@ motionsplan.EnergyExpenditure = function(sex, age, weight, pal, sport) {
     // BMR - Nordiska 1996
     function getBasicMetabolicRate() {
         if (isMale()) {
-            if ((alder > 10) && (alder < 19)) {
-                bmr = 74 * vaegt + 2750;
+            if ((age > 10) && (age < 19)) {
+                bmr = 74 * weight + 2750;
             }
-            else if ((alder > 18) && (alder < 31)) {
-                bmr = 64 * vaegt + 2840;
+            else if ((age > 18) && (age < 31)) {
+                bmr = 64 * weight + 2840;
             }
-            else if ((alder > 30) && (alder < 61)) {
-                bmr = 48.5 * vaegt + 3670;
+            else if ((age > 30) && (age < 61)) {
+                bmr = 48.5 * weight + 3670;
             }
-            else if ((alder > 60) && (alder < 76)) {
-                bmr = 49.9 * vaegt + 2930;
+            else if ((age > 60) && (age < 76)) {
+                bmr = 49.9 * weight + 2930;
             }
-            else if ((alder > 75)) {
-                bmr = 35 * vaegt + 3430;
+            else if ((age > 75)) {
+                bmr = 35 * weight + 3430;
             }
         } else {
-            if ((alder > 10) && (alder < 19)) {
-                bmr = 56 * vaegt + 2900;
+            if ((age > 10) && (age < 19)) {
+                bmr = 56 * weight + 2900;
             }
-            else if ((alder > 18) && (alder < 31)) {
-                bmr = 61.5 * vaegt + 2080;
+            else if ((age > 18) && (age < 31)) {
+                bmr = 61.5 * weight + 2080;
             }
-            else if ((alder > 30) && (alder < 61)) {
-                bmr = 36.4 * vaegt + 3470;
+            else if ((age > 30) && (age < 61)) {
+                bmr = 36.4 * weight + 3470;
             }
-            else if ((alder > 60) && (alder < 76)) {
-                bmr = 38.6 * vaegt + 2880;
+            else if ((age > 60) && (age < 76)) {
+                bmr = 38.6 * weight + 2880;
             }
-            else if ((alder > 75)) {
-                bmr = 41 * vaegt + 2610;
+            else if ((age > 75)) {
+                bmr = 41 * weight + 2610;
             }
         }
         return bmr;
@@ -1546,9 +1547,8 @@ motionsplan.EnergyExpenditure = function(sex, age, weight, pal, sport) {
 
     // PAL
     function getPhysicalActivityLevel() {
-        var pal2;
         var pal_val = pal;
-        pal2 = pal_val * 1;
+        var pal2 = pal_val * 1;
         console.log(sport);
         if (String(sport) == "true") {
             pal2 = pal2 + 0.3;
@@ -1587,14 +1587,14 @@ let motionsplan = {};
 
 motionsplan.REE2012 = function(sex, age, weight, pal, sport) {
     var bmr;
-    var koen = sex; // Men is 1; women 0
-    var alder = age;
-    var vaegt = weight;
+    var sex = sex; // Men is 1; women 0
+    var age = age;
+    var weight = weight;
     sport = sport;
     pal = pal;
 
     function isMale() {
-        if (koen == "1") {
+        if (sex == "1") {
             return true;
         }
         return false;
@@ -1603,28 +1603,28 @@ motionsplan.REE2012 = function(sex, age, weight, pal, sport) {
     // BMR - Nordiska 2012
     function getRestingEnergyExpenditure() {
         if (isMale()) {
-            if ((alder > 10) && (alder < 19)) {
-                bmr = 0.0769 * vaegt + 2.43;
-            } else if ((alder > 18) && (alder < 31)) {
-                bmr = 0.0669 * vaegt + 2.28;
-            } else if ((alder > 30) && (alder < 61)) {
-                bmr = 0.0592 * vaegt + 2.48;
-            } else if ((alder > 60) && (alder < 71)) {
-                bmr = 0.0543 * vaegt + 2.37;
-            } else if ((alder > 70)) {
-                bmr = 0.0573 * vaegt + 2.01;
+            if ((age > 10) && (age < 19)) {
+                bmr = 0.0769 * weight + 2.43;
+            } else if ((age > 18) && (age < 31)) {
+                bmr = 0.0669 * weight + 2.28;
+            } else if ((age > 30) && (age < 61)) {
+                bmr = 0.0592 * weight + 2.48;
+            } else if ((age > 60) && (age < 71)) {
+                bmr = 0.0543 * weight + 2.37;
+            } else if ((age > 70)) {
+                bmr = 0.0573 * weight + 2.01;
             }
         } else {
-            if ((alder > 10) && (alder < 19)) {
-                bmr = 0.0465 * vaegt + 3.18;
-            } else if ((alder > 18) && (alder < 31)) {
-                bmr = 0.0546 * vaegt + 2.33;
-            } else if ((alder > 30) && (alder < 61)) {
-                bmr = 0.0407 * vaegt + 2.9;
-            } else if ((alder > 60) && (alder < 71)) {
-                bmr = 0.0429 * vaegt + 2.39;
-            } else if ((alder > 70)) {
-                bmr = 0.0417 * vaegt + 2.41;
+            if ((age > 10) && (age < 19)) {
+                bmr = 0.0465 * weight + 3.18;
+            } else if ((age > 18) && (age < 31)) {
+                bmr = 0.0546 * weight + 2.33;
+            } else if ((age > 30) && (age < 61)) {
+                bmr = 0.0407 * weight + 2.9;
+            } else if ((age > 60) && (age < 71)) {
+                bmr = 0.0429 * weight + 2.39;
+            } else if ((age > 70)) {
+                bmr = 0.0417 * weight + 2.41;
             }
         }
         return bmr * 1000;
@@ -1634,27 +1634,27 @@ motionsplan.REE2012 = function(sex, age, weight, pal, sport) {
     function getRestingEnergyExpenditureHeight(height) {
         var height = height / 100;
         if (isMale()) {
-            if ((alder > 10) && (alder < 19)) {
-                bmr = 0.0651 * vaegt + 1.11 * height + 1.25;
-            } else if ((alder > 18) && (alder < 31)) {
-                bmr = 0.0600 * vaegt + 1.31 * height + 0.473;
-            } else if ((alder > 30) && (alder < 61)) {
-                bmr = 0.0476 * vaegt + 2.26 * height - 0.574;
-            } else if ((alder > 60) && (alder < 71)) {
+            if ((age > 10) && (age < 19)) {
+                bmr = 0.0651 * weight + 1.11 * height + 1.25;
+            } else if ((age > 18) && (age < 31)) {
+                bmr = 0.0600 * weight + 1.31 * height + 0.473;
+            } else if ((age > 30) && (age < 61)) {
+                bmr = 0.0476 * weight + 2.26 * height - 0.574;
+            } else if ((age > 60) && (age < 71)) {
                 bmr = 0.0748 * weight + 2.26 * height - 1.070;
-            } else if ((alder > 70)) {
+            } else if ((age > 70)) {
                 bmr = 0.0748 * weight + 2.26 * height - 1.070;
             }
         } else {
-            if ((alder > 10) && (alder < 19)) {
+            if ((age > 10) && (age < 19)) {
                 bmr = 0.0393 * weight + 1.04 * height + 1.93;
-            } else if ((alder > 18) && (alder < 31)) {
+            } else if ((age > 18) && (age < 31)) {
                 bmr = 0.0433 * weight + 2.57 * height - 1,180;
-            } else if ((alder > 30) && (alder < 61)) {
+            } else if ((age > 30) && (age < 61)) {
                 bmr = 0.0342 * weight + 2.10 * height - 0.0486;
-            } else if ((alder > 60) && (alder < 71)) {
+            } else if ((age > 60) && (age < 71)) {
                 bmr = 0.0356 * weight + 1.76 * height + 0.0448;
-            } else if ((alder > 70)) {
+            } else if ((age > 70)) {
                 bmr = 0.0356 * weight + 1.76 * height + 0.0448;
             }
         }
@@ -1668,9 +1668,8 @@ motionsplan.REE2012 = function(sex, age, weight, pal, sport) {
 
     // PAL
     function getPhysicalActivityLevel() {
-        var pal2;
         var pal_val = pal;
-        pal2 = pal_val * 1;
+        var pal2 = pal_val * 1;
         console.log(sport);
         if (String(sport) == "true") {
             pal2 = pal2 + 0.3;
@@ -2404,6 +2403,77 @@ motionsplan.EstimateMaxHr = function(ald) {
 module.exports = motionsplan;
 
 },{}],23:[function(require,module,exports){
+let motionsplan = {};
+
+motionsplan.RunningDistanceVO2 = function() {
+
+    function getKilometersPrHour(m, s, km) {
+        // return (km / (s + (m * 60)) * (60 * 60)); // (m * 60 + s) / (60*60)
+        s = s / (60 * 60);
+        m = m / 60;
+        return (km / (s + m));
+    }
+
+    /*
+    // Zacho reference
+    function getEstimatedFitnessLevel(min, sek, km) {
+        // var KmPerTime2 = getKilometersPrHour(m2, s2, km);
+        var KmPerTime2 = (parseFloat(km) / ((parseInt(sek) + parseInt(min) * 60) / (60 * 60)));
+        return (3.5 * (4.326 + (0.862 * KmPerTime2) - (-1.3264 * Math.log(km) + 2.6934)));
+    }
+    */
+
+    // Based on https://www.researchgate.net/profile/Luc_Leger/publication/19712663_New_approaches_to_predict_VO2max_and_endurance_from_running_performances_The_Journal_of_sports_medicine_and_physical_fitness_27_4_401-409_1988/links/54f5fa880cf27d8ed71d235f/New-approaches-to-predict-VO2max-and-endurance-from-running-performances-The-Journal-of-sports-medicine-and-physical-fitness-27-4-401-409-1988.pdf
+    function getEstimatedFitnessLevel(min, sec, km) {
+        var kmt = getKilometersPrHour(min, sec, km);
+        return 3.5 * getMETBasedOnKmAndKmt(km, kmt);
+    }
+
+    function getMETBasedOnKmAndKmt(km, kmt) {
+        if (km < 1.5) {
+            return 1.2730 + 0.8325 * kmt;
+        }
+        else if (km < 1.6) {
+            return 2.4388 + 0.8343 * kmt;
+        }
+        else if (km < 2) {
+            return 2.5043 + 0.8400 * kmt;
+        }
+        else if (km < 3) {
+            return 0.27297 + 0.8527 * kmt;
+        }
+        else if (km < 5) {
+            return 0.29226 + 0.8900 * kmt;
+        }
+        else if (km < 10) {
+            return 3.1747 + 0.9139 * kmt;
+        }
+        else if (km < 15) {
+            return 4.7226 + 0.8690 * kmt;
+        }
+        else if (km < 20) {
+            return 4.8619 + 0.8872 * kmt;
+        }
+        else if (km < 42.195) {
+            return 4.9574 + 0.8995 * kmt;
+        }
+        else {
+            return 6.9021 + 0.8246 * kmt;
+        }
+    }
+
+    var publicAPI = {
+        getEstimatedFitnessLevel: getEstimatedFitnessLevel,
+        getKilometersPrHour: getKilometersPrHour,
+        getMETBasedOnKmAndKmt: getMETBasedOnKmAndKmt
+    };
+
+    return publicAPI;
+}
+
+module.exports = motionsplan;
+
+},{}],24:[function(require,module,exports){
 let motionsplan = {}
 
 // weight in kg
@@ -2443,7 +2513,7 @@ motionsplan.RunningEconomy= function(weight, oxygenuptake) {
 
 module.exports = motionsplan;
 
-},{}],24:[function(require,module,exports){
+},{}],25:[function(require,module,exports){
 let motionsplan = {};
 
 motionsplan.Running = function() {
@@ -2495,15 +2565,7 @@ motionsplan.Running = function() {
         return (min_out + ":" + sec_out);
     }
 
-    // Based on https://www.researchgate.net/profile/Luc_Leger/publication/19712663_New_approaches_to_predict_VO2max_and_endurance_from_running_performances_The_Journal_of_sports_medicine_and_physical_fitness_27_4_401-409_1988/links/54f5fa880cf27d8ed71d235f/New-approaches-to-predict-VO2max-and-endurance-from-running-performances-The-Journal-of-sports-medicine-and-physical-fitness-27-4-401-409-1988.pdf
-    function getEstimatedFitnessLevel(m2, s2, km) {
-        // var KmPerTime2 = getKilometersPrHour(m2, s2, km);
-        var KmPerTime2 = (parseFloat(km) / ((parseInt(s2) + parseInt(m2) * 60) / (60 * 60))).toFixed(2);
-        return (3.5 * (4.326 + (0.862 * KmPerTime2) - (-1.3264 * Math.log(km) + 2.6934))).toFixed(1);
-    }
-
     var publicAPI = {
-        getEstimatedFitnessLevel: getEstimatedFitnessLevel,
         getKilometersPrHour : getKilometersPrHour,
         getTimePrKilometer : getTimePrKilometer,
         convertKmtToMinPerKm : convertKmtToMinPerKm,
@@ -2515,7 +2577,7 @@ motionsplan.Running = function() {
 
 module.exports = motionsplan;
 
-},{}],25:[function(require,module,exports){
+},{}],26:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.SkinfoldDurnin = function(biceps, triceps, hoftekam, skulder, weight, gender, age = 20) {
@@ -2596,7 +2658,7 @@ motionsplan.SkinfoldDurnin = function(biceps, triceps, hoftekam, skulder, weight
 
 module.exports = motionsplan;
 
-},{}],26:[function(require,module,exports){
+},{}],27:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.SkinfoldLohman = function(sex, triceps, calf) {
@@ -2627,7 +2689,7 @@ motionsplan.SkinfoldLohman = function(sex, triceps, calf) {
 
 module.exports = motionsplan;
 
-},{}],27:[function(require,module,exports){
+},{}],28:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.SkinfoldPollock = function(weight, age) {
@@ -2662,7 +2724,7 @@ motionsplan.SkinfoldPollock = function(weight, age) {
 
 module.exports = motionsplan;
 
-},{}],28:[function(require,module,exports){
+},{}],29:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.SkinfoldSlaughter = function(sex, triceps, subscapular) {
@@ -2693,7 +2755,7 @@ motionsplan.SkinfoldSlaughter = function(sex, triceps, subscapular) {
 
 module.exports = motionsplan;
 
-},{}],29:[function(require,module,exports){
+},{}],30:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.ToPunktTest = function(age, weight, work1, hr1, work2, hr2) {
@@ -2731,7 +2793,7 @@ motionsplan.ToPunktTest = function(age, weight, work1, hr1, work2, hr2) {
 
 module.exports = motionsplan;
 
-},{}],30:[function(require,module,exports){
+},{}],31:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.WaistRatio = function() {
@@ -2754,7 +2816,7 @@ motionsplan.WaistRatio = function() {
 
 module.exports = motionsplan;
 
-},{}],31:[function(require,module,exports){
+},{}],32:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.RockPortWalkingTest = function(min, sec, hr, sex, age, weight) {
@@ -2802,7 +2864,7 @@ motionsplan.RockPortWalkingTest = function(min, sec, hr, sex, age, weight) {
 
 module.exports = motionsplan;
 
-},{}],32:[function(require,module,exports){
+},{}],33:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.SixMinutesWalkingTest = function(sex, age, height, weight, meter) {
@@ -2821,8 +2883,8 @@ motionsplan.SixMinutesWalkingTest = function(sex, age, height, weight, meter) {
     return false;
   }
 
-  function getReferenceMeter(repeated = false) {
-    if (repeated == true) {
+  function getReferenceMeter(repeated = "false") {
+    if (repeated == "repeated") {
       return getReferenceMeterGibbons();
     }
     return getReferenceMeterEnright();
@@ -2845,7 +2907,7 @@ motionsplan.SixMinutesWalkingTest = function(sex, age, height, weight, meter) {
     return (2.11 * height) - (5.78 * age) - (2.29 * weight) + 667;
   }
 
-  function getPercent(repeated = false) {
+  function getPercent(repeated = "false") {
     return (meter / getReferenceMeter(repeated) * 100);
   }
 
@@ -2859,7 +2921,7 @@ motionsplan.SixMinutesWalkingTest = function(sex, age, height, weight, meter) {
 
 module.exports = motionsplan;
 
-},{}],33:[function(require,module,exports){
+},{}],34:[function(require,module,exports){
 let motionsplan = {};
 
 motionsplan.Wattmax = function(wmax, sec, weight, age, watt_jumps = 25) {
