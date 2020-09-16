@@ -1,5 +1,5 @@
 ---
-title: &title "Sprint 8 - intervaltræning der virker"
+title: &title "Sprint 8 - intervaltræning der virker 🏃‍♀️🏃"
 permalink: /artikel/sprint-8-intervaltræning-der-virker/
 language: da
 header:

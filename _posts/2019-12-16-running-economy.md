@@ -1,5 +1,5 @@
 ---
-title: "Beregn din løbeøkonomi: Løbeteknik er en vigtig faktor"
+title: "Beregn din løbeøkonomi: Løbeteknik er en vigtig faktor 🏃"
 permalink: /lobeokonomi/
 excerpt: "En god løbeøkonomi er evnen til at holde høj fart i lang tid ved et minimalt energiforbrug. Vi gennemgår hvordan man beregner løbeøkonomien og dykker lidt ned i løbeteknikken, som er en blandt flere faktorer, der er med  til at bestemme løbeøkonomien?"
 language: da

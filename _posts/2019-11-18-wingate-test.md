@@ -1,5 +1,5 @@
 ---
-title: "Wingate Test - anaerob test"
+title: "Wingate Test - anaerob test 🚴🚴‍♀️"
 permalink: /wingate/
 excerpt: "Wingate 30 sekunders test er en anaerob test til at måle anaerob power og kapacitet."
 language: da

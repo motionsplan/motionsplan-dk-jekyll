@@ -1,5 +1,5 @@
 ---
-title: &title "Åstrands et-punktstest: Konditionstest på cykel"
+title: &title "Åstrands et-punktstest: Konditionstest på cykel 🚴‍♀️"
 permalink: /etpunktstest/
 excerpt: "Åstrands et-punktstest er en submaksimal test på ergometercykel, hvor du måler belastning og puls. Fortrinlig til at måle ændringer i kondition over tid."
 language: da

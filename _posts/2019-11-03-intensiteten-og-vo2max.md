@@ -1,10 +1,11 @@
 ---
-title: "Intensitetens betydning for forbedring af VO2max"
+title: &title "Intensitetens betydning for forbedring af VO2max 💗"
 permalink: /intensitet-vo2max/
 language: da
 header:
   overlay_image: https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/young-woman-jogging-royalty-free-image-936156826-1548705024.jpg
   teaser: https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/young-woman-jogging-royalty-free-image-936156826-1548705024.jpg
+  caption: *title
 category:
   - Kondition
 tags:

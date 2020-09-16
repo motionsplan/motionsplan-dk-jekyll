@@ -1,5 +1,5 @@
 ---
-title: "Energisystemer 101: Aerob og anaerob træning og arbejde"
+title: "Energisystemer 101: Aerob og anaerob træning og arbejde 💗"
 permalink: /energisystemer/
 language: da
 header:

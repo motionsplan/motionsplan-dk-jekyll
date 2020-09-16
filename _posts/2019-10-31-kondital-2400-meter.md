@@ -1,5 +1,5 @@
 ---
-title: "2400-meter løbetest: Find dit kondital med vores beregner"
+title: "2400-meter løbetest: Find dit kondital med vores beregner 🏃"
 permalink: /kondital-2400-meter/
 excerpt: "På 2400 meter løbetesten gælder det om at løbe 2400 meter så hurtigt som muligt, og derfra kan du estimere dit kondital og sammenligne dig med normerne."
 language: da

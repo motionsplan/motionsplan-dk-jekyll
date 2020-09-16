@@ -1,5 +1,5 @@
 ---
-title: "Maksimal styrke: Metoder til maksimal muskelstyrke"
+title: "Maksimal styrke: Metoder til maksimal muskelstyrke 🏋️‍♀️"
 permalink: /maksimal-styrke/
 excerpt: "Maksimal muskelstyrke kan trænes på flere måder. Wave loading og rest pause kan være effektive metoder til at træne maksimal styrke."
 language: da

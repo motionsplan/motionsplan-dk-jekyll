@@ -1,5 +1,5 @@
 ---
-title: "Pulstræning: Udregn intensitet i forhold til puls"
+title: "Pulstræning 💗: Udregn intensitet i forhold til puls "
 permalink: /puls-intensitet/
 redirect_from:
   - puls

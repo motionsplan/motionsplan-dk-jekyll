@@ -1,5 +1,5 @@
 ---
-title: "Hvad får muskler til at vokse, og hvordan skal man træne?"
+title: "Hvad får muskler til at vokse, og hvordan skal man træne? 💪"
 permalink: /hvordan-vokser-muskler/
 excerpt: "Hvad får muskler til at vokse (hypertrofi), og hvordan vokser muskler egentlig? Hvilken træning skal du lave for at få musklerne til blive større?"
 language: da

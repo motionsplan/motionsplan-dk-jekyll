@@ -1,5 +1,5 @@
 ---
-title: "Kondition: Hvad er et godt, højt kondital? [Tabel]"
+title: "Kondition: Hvad er et godt, højt kondital? [Tabel] 💗"
 permalink: /kondital/
 excerpt: "Hvad er et godt, højt kondital? Se dit kondital i en tabel. Hvordan finder du dit kondital? Her er forskellige metoder til udregning og beregnere til kondital."
 language: da
