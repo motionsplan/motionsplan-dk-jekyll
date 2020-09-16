@@ -1,11 +1,12 @@
 ---
-title: "Åstrands et-punktstest: Konditionstest på cykel"
+title: &title "Åstrands et-punktstest: Konditionstest på cykel"
 permalink: /etpunktstest/
 excerpt: "Åstrands et-punktstest er en submaksimal test på ergometercykel, hvor du måler belastning og puls. Fortrinlig til at måle ændringer i kondition over tid."
 language: da
 header:
   overlay_image: https://www.ridehighmagazine.com/wp-content/uploads/2019/04/Fitness-World-%E2%80%93-indoor-cycling-version-2.0_BANNER.jpg
   teaser: https://www.ridehighmagazine.com/wp-content/uploads/2019/04/Fitness-World-%E2%80%93-indoor-cycling-version-2.0_BANNER.jpg
+  caption: *title
 category:
   - Kondition
 tags:
@@ -25,19 +26,15 @@ feature_row:
     btn_class: "btn--success"
 ---
 
-Åstrands et-punktstest er en enkel, submaksimal konditionstest, hvor testpersonen ikke behøver anstrenge sig alt for meget. 
+Åstrands et-punktstest er en enkel, submaksimal konditionstest, hvor forsøgspersonen kun skal arbejde på en submaksimal belastning på en kondicykel. Ud fra pulsen og belastningen kan man med Åstrands Nomogram estimere maxpulsen.
 
 Jeg beskriver i det følgende, hvad Åstrands et-punktstest er, og hvordan testen udføres?
 
-**Åstrands et-punktstest cykeltest er en enkel, submaksimal konditionstest, som kan bruges til at estimere forsøgspersonens kondital baseret på belastningen og pulsen.**
+Hvad er Åstrands etpunktstest? **Åstrands et-punktstest cykeltest er en enkel, submaksimal konditionstest, som kan bruges til at estimere forsøgspersonens kondital baseret på belastningen og pulsen.**
 
-Konditionstesten er let at gennemføre, fordi man kører på en enkelt submaximal belastning.
+Åstrands etpunktstest er let at gennemføre, fordi man kører på en enkelt submaximal belastning.
 
 Hvis du leder efter [Åstrands to-punktstest, så har jeg skrevet om den her]({% link _posts/2019-10-31-kondital-to-punkts-test-cykel.md %}).
-
-## Hvilke usikkerheder er der ved et-punktstesten?
-
-Testens bestemmelse af den maksimale iltoptagelse er behæftet med nogen usikkerhed (som ved alle andre submaksimale tests), men testen er fremragende til at måle ændringer i konditionen over tid. Usikkerheden hører bl.a. sammen med de store individuelle forskelle, der er i folks maksimale puls, selvom de har samme alder.
 
 ## Hvordan udfører du Åstrands etpunktstest?
 
@@ -55,15 +52,19 @@ De anvendte sammenhænge mellem submaksimal puls, arbejdsbelastning, alder, køn
 
 {% include figure image_path="/assets/images/aastrand-nomogram.png" caption="Åstrands nomogram til bestemmelse af maksimal iltoptagelse for etpunktstesten" alt="Åstrands nomogram til bestemmelse af maksimal iltoptagelse for etpunktstesten" %}
 
-Morten Zacho har imidlertid estimeret en formel, som bruges i beregneren ovenfor - og han har også delt et regneark med formlen.
+Morten Zacho har imidlertid estimeret en formel, og han har delt et regneark med formlen. Du kan frit downloade og bruge beregneren til eget brug fra [denne side](http://web.archive.org/web/20150316134300/http://www.motion-online.dk/konditionstraening/testning/et-punkts_test_paa_cykel/){:rel="nofollow"}.
 
-[Download Excel-ark lavet af Morten Zacho](https://web.archive.org/web/20040405164705/http://motion-online.dk/vo2/etpunktstest.xls){: .btn .btn--large .btn--info }
+[Download Excel-ark lavet af Morten Zacho](http://web.archive.org/web/20150316134300/http://www.motion-online.dk/konditionstraening/testning/et-punkts_test_paa_cykel/){:rel="nofollow" .btn .btn--large .btn--info }
 
-## Usikkerheder
+## Hvilke usikkerheder er der ved et-punktstesten?
+
+Alle submaksimale tests er behæftet med en del usikkerhed i forhold til at estimere den maksimale iltoptagelse korrekt. Usikkerheden hører bl.a. sammen med de store individuelle forskelle, der er i folks maksimale puls, selvom de har samme alder.
 
 > Den teoretiske usikkerhed kan eksemplificeres ved at to tredjedele vil får vurderet konditallet korrekt indenfor en 15 % afvigelse. Ca. hver 20. person vil få sit kondital vurderet 30 % forkert.
 
 --- <cite>[Morten Zacho](https://www.motion-online.dk/6-maaling-fysisk-kapacitet-monitorering-traening/){:rel="nofollow"}</cite>
+
+Åstrands etpunktstest kan være fremragende til at måle ændringer i konditionen over tid. Testen kan være pålidelig, fordi du kører med en forudbestemt belastning. Hvis din puls over tid falder, når du kører med samme belastning, er det en indikation for, at du er kommet i bedre form.
 
 ## Referencer
 

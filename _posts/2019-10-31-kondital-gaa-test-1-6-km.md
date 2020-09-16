@@ -19,21 +19,25 @@ last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 ---
 
-**Rockports 1,6 km gåtest er en submaksimal konditionstest, hvor du estimere konditallet ud fra tiden det tager at gennemføre testen og din puls. Testen er oprindeligt udviklet af Kilne Testen er særligt egnede til utrænede, folk i dårlig form, ældre eller overvægtige. Testen er ikke voldsomt anstrengende, og den kræver blot, at man kan gå 1,6 km. Testen er ikke velegnet til at estimere konditallet til yngre veltrænede mennesker.**
+**Rockports 1,6 km gåtest er en submaksimal konditionstest, hvor du estimerer konditallet ud fra tiden det tager at gennemføre testen og din puls ved afslutningen af gangtesten. Testen er oprindeligt udviklet af Kline et al (1987).**
 
-**Vigtigt**: Denne beregner tager udgangspunkt i Kilnes (1987) formel. Der findes andre beregnere på dansk, som har en alternativ formel, som det i min research ikke er lykkes mig at finde ud af hvord det kommer fra.
+Gåtesten er særligt egnet til utrænede, folk i dårlig form, ældre og overvægtige. Testen kræver blot, at du kan gå 1,6 km. 
+
+Testen er ikke velegnet til at estimere konditallet for veltrænede.
+
+**Vigtigt**: Denne beregner tager udgangspunkt i Kline et al (1987) formel. Der findes andre beregnere på dansk, som har en alternativ formel, som det i min research ikke er lykkes mig at finde ud af, hvor de formler kommer fra - eller hvilke formler der er mest pålidelige.
 {: .notice .notice--info }
 
 ## Sådan udfører du gåtesten på 1,6 km
 
 1. Vej dig.
-2. Mål en distance på 1,609 km. Det bedste er at gå på en 400 meter bane, men kan også udføres på løbebånd.
+2. Mål en distance på 1,609 km. Det bedste er at gå på en 400 meter bane eller en anden flad vej, men du kan også udføre testen på løbebånd.
 3. Varm op i 10 minutter.
 4. Gå distancen så hurtigt du kan (dog uden at overanstrenge dig).
 5. Notér tiden og den puls du havde ved afslutningen af de 1,6 km.
 6. Indtast værdierne i nedenstående beregner.
 
-Testen kan enten udføres på et løbebånd eller en opmålt rute, evt. på en 400 meter bane.
+Du kan se testen forklaret i denne Youtube-video.
 
 {% include video provider="youtube" id="tYhltBpAsSo" %}
 
@@ -49,7 +53,7 @@ Testen er relativt god til at monitorere fremgang i dit træningsniveau, så hvi
 
 ## Formel bag Rockports 1,6 km gåtest
 
-Denne formel bliver brugt til at estimere konditallet og er lavet af Kilne (1987).
+Denne formel bliver brugt til at estimere konditallet og er lavet af Kline (1987).
 
 Kondital = 132.853 - (0.169535479 × Weight) - (0.3877 × Age) + (6.315 × Gender) - (3.2649 × Time) - (0.1565 × Heart rate)
 

@@ -1,11 +1,12 @@
 ---
-title: "Find dit kondital ud fra din puls 💗"
+title: &title "Find dit kondital ud fra din puls 💗"
 permalink: /kondital-fra-puls/
 excerpt: "Danske forskere har udviklet en konditionstest, hvor du kun skal bruge din hvilepuls og maxpuls."
 language: da
 header:
   overlay_image: https://cdn1.considerable.com/wp-content/uploads/2019/04/24170055/heart-beat-line-end-of-life-picture.jpg
   teaser: https://cdn1.considerable.com/wp-content/uploads/2019/04/24170055/heart-beat-line-end-of-life-picture.jpg
+  caption: *title
 category:
   - Kondition
   - Beregnere
@@ -48,6 +49,8 @@ Du kan også estimere din hvilepuls ud fra følgende skema:
 | Lav hvilepuls                                            | 50-60          | 
 | Meget lav hvilepuls (typisk meget konditionsstærk atlet) | < 50           |
 
+Jeg har skrevet et andet indlæg, som går i dybden med, [hvad hvilepulsen er og hvordan du måler den]({% link _posts/2020-06-03-hvilepuls.md %}).
+
 ## Måling af maxpulsen
 
 Du kan måle din maksimale puls ved efter grundig opvarmning at lave en række bakkesprints af op til 45 sekunder.
@@ -61,17 +64,21 @@ HR<sub>max</sub> = 208 – 0,7 x alder
 
 {% include calculate-max-hr.html %}
 
-Denne formel har vist sig at være mere præcis end den tidligere tommelfingerregel for estimering af maxpuls[^note].
+Denne formel har vist sig at være mere præcis end den tidligere tommelfingerregel for estimering af maxpuls. Jeg skriver mere om [hvordan du kan måle, beregne og teste maxpulsen]({% link _posts/2020-06-02-max-hr.md %}) i et andet indlæg.
 
-## Udregn dit kondital
+## Udregn dit kondital på baggrund af hvilepuls og maxpuls
 
 {% include calculate-vo2-max-hr.html %}
 
-## Det tekniske
+## Formlen bag beregneren af kondital
 
-Formlen ser sådan her ud.
+[Uth et al (2004)](https://doi.org/10.1007/s00421-003-0988-y) har lavet en formel, hvor du kan estimere dit kondital på baggrund af forholdet mellem din maxpuls og din hvilepuls. Formlen til at estimere konditallet ser sådan her ud.
 
-{% include math formula="Kondital = \frac{maxpuls}{hvilepuls}*15.3" %}
+{% include math formula="kondital = \frac{maxpuls}{hvilepuls}*15.3" %}
+
+For at finde den absolutte iltoptagelse dividerer vi med 1000 ml/l og ganger med vægten i kilo.
+
+{% include math formula="VO_2max = \frac{kondital * bodyweight}{1000}" %}
 
 ## Referencer
 

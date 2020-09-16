@@ -1,11 +1,11 @@
-let motionsplan = {}
+let motionsplan = {};
 
 motionsplan.Wattmax = function(wmax, sec, weight, age, watt_jumps = 25) {
-  var wmax = wmax;
-  var sec = sec;
-  var weight = weight;
-  var age = age;
-  var watt_jumps = watt_jumps; // used for children 25 is default
+  wmax = wmax;
+  sec = sec;
+  weight = weight;
+  age = age;
+  watt_jumps = watt_jumps; // used for children 25 is default
 
   function isChild() {
     if (age < 18) {
@@ -13,14 +13,21 @@ motionsplan.Wattmax = function(wmax, sec, weight, age, watt_jumps = 25) {
     }
     return false;
   }
+  
+  function getMPO() {
+    if (isChild()) {
+      return (wmax - watt_jumps + (watt_jumps * sec / 180));
+    }
+    return (wmax - 35 + (35 * sec / 120));
+  }
 
   function getMaximalOxygenUptake() {
     if (isChild()) {
       // watt_jumps for kids is 25 as standard
-      return (13.16 * (wmax - watt_jumps + (watt_jumps * sec / 180)) + 5 * weight) / 1000;
+      return (13.16 * getMPO() + 5 * weight) / 1000;
     }
     // watt_jumps for adults is 35
-    return (0.0117 * (wmax - 35 + (35 * sec / 120)) + 0.16);
+    return (0.0117 * getMPO() + 0.16);
   }
 
   function getFitnessLevel() {
@@ -32,7 +39,8 @@ motionsplan.Wattmax = function(wmax, sec, weight, age, watt_jumps = 25) {
 
   var publicAPI = {
     getFitnessLevel : getFitnessLevel,
-    getMaximalOxygenUptake : getMaximalOxygenUptake
+    getMaximalOxygenUptake : getMaximalOxygenUptake,
+    getMPO : getMPO
   };
 
   return publicAPI;

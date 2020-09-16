@@ -1,26 +1,22 @@
 let motionsplan = {}
 
-motionsplan.CalculateFitnessFromHr = function(mxpul, hvpul, wgt) {
-  var mxpul, hvpul, wgt;
+motionsplan.CalculateFitnessFromHr = function(hr_max, hr_rest, wgt) {
+  var hr_max, hr_rest, wgt;
 
-  mxpul = mxpul;
-  hvpul = hvpul;
+  hr_max = hr_max;
+  hr_rest = hr_rest;
   wgt = wgt;
 
-  function getMaximalOxygen() {
-    var konditalM = mxpul / hvpul * 15.3;
-    var maxiltop = Math.round(konditalM * wgt / 1000 * Math.pow(10, 2)) / Math.pow(10, 2);
-    return maxiltop;
+  function getMaximalOxygenUptake() {
+    return getFitnessLevel() * wgt / 1000;
   }
 
   function getFitnessLevel() {
-    var konditalM = mxpul / hvpul * 15.3;
-    var kondi = Math.round((konditalM) * Math.pow(10, 1)) / Math.pow(10, 1);
-    return kondi;
+    return hr_max / hr_rest * 15.3;
   }
 
   var publicAPI = {
-    getMaximalOxygen: getMaximalOxygen,
+    getMaximalOxygenUptake: getMaximalOxygenUptake,
     getFitnessLevel: getFitnessLevel
 
   };

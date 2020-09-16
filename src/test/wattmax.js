@@ -9,11 +9,11 @@ describe('Wattmax', function() {
       assert.equal(hr.getMaximalOxygenUptake(), 3.3970000000000002);
     });
   });
-  describe('getVmax()', function() {
+  describe('getWattmax() children', function() {
     it('should return the correct number', function() {
-      var hr = motionsplan.Wattmax(300, 40, 80, 13, 25);
-      assert.equal(hr.getFitnessLevel(), 51.15138888888889);
-      assert.equal(hr.getMaximalOxygenUptake(), 4.092111111111111);
+      var hr = motionsplan.Wattmax(150, 90, 40, 13, 25);
+      assert.equal(hr.getFitnessLevel(), 50.237500000000004);
+      assert.equal(hr.getMaximalOxygenUptake(), 2.0095);
     });
   });
 });

@@ -1,7 +1,7 @@
 ---
 title: "Watt max-test: Find konditallet med watt max testen på cykel"
 permalink: /kondital-wattmax/
-excerpt: "Watt max-testen er en trinvist stigende maksimal test på ergometercykel. Watt-max-testens resultat kan være et præstationsmål i sig selv, men testen giver også et validt estimat af den maksimale iltoptagelse."
+excerpt: "Watt max-testen er en trinvist stigende maksimal test på ergometercykel. Watt-max-testens resultat kan være et præstationsmål i sig selv, men testen giver også et validt estimat af den maksimale iltoptagelse og dit kondital."
 language: da
 header:
   overlay_image: https://prod-wattbike-images.s3.amazonaws.com/images/Wattbike4059_edit-(2)-ecffa30a11c87543.jpg
@@ -29,9 +29,11 @@ feature_row:
 *[RPM]: Rounds Per Minute (omdrejninger pr. minut)
 *[MPO]: Maksimale Power Output
 
-Watt max-testen er en nem og præcis måde at finde dit kondital på. Du skal bruge et præcist cykelergometer og en forsøgsperson, der vil køre til grænsen. Watt max-testen kan estimere den maksimale iltoptagelse og konditallet med en ret høj korrelation til undersøgelser i laboratorium. 
+Watt max-testen er en nem og præcis måde at finde dit kondital på. Du skal bruge et præcist cykelergometer og en forsøgsperson, der vil køre til grænsen. Watt max-testen kan estimere den maksimale iltoptagelse og konditallet med en ret høj korrelation til direkte undersøgelser i laboratorium. 
 
-Watt max-testen er uhyre simpel at gennemføre og kræver blot, at man har adgang til en ergometercykel, der kan vise belastningen i watt. Testen er mindre hård end den lyder, da det kun er de sidste 2-4 minutter der er virkeligt hårde.
+Watt max-testen er enkel at gennemføre. Testen kræver, at du har adgang til en ergometercykel, hvor du kan styre belastningen i watt. De sidste 2-4 minutter af testen er virkeligt hårde.
+
+Hvis du er på udkig efter [Wattmax-testen til børn, så er den beskrevet i et andet indlæg]({% link _posts/2019-10-31-kondital-watt-max-children-test.md %}).
 
 ## Watt max-testens gennemførelse
 
@@ -40,7 +42,7 @@ Watt max-testen er uhyre simpel at gennemføre og kræver blot, at man har adgan
 3. Øg belastningen med 35 watt _hvert andet minut_, indtil du ikke længere kan holde belastningen.
 4. Notér den højeste belastning (watt), og antallet af sekunder du kunne køre på denne belastning.
 
-I det originale studie kørte de med en kadence på 58-62 RPM. Hvis du har en cykel, hvor watt stiger og falder med, hvor hurtigt du træder i pedalerne, behøver du ikke tænke på kadencen. Du kører bare indtil, du ikke kan træde længere.
+I det originale studie kørte de med en kadence på 58-62 RPM. Hvis du har en cykel, hvor watt stiger og falder med, hvor hurtigt du træder i pedalerne, behøver du ikke tænke på kadencen. Du skal bare sørge for at træde de rigtige watt.
 {: .notice .notice--info }
 
 ## Udregn dit kondital fra Watt max-testen
@@ -49,7 +51,9 @@ I det originale studie kørte de med en kadence på 58-62 RPM. Hvis du har en cy
 
 ## Videnskabelig baggrund for Watt max-testen
 
-Testen er udviklet af Lars Bo Andersen fra Institut for Idræt på Københavns Institut. Formlen, der ligger til grund for testen, er fundet ved regressionsanalyse på testresultater fra over 500 forsøgspersoner (både mænd og kvinder).
+Wattmax-testen er udviklet af Andersen (1995). I studiet blev 232 mænd og 303 kvinder i alderen fra 15-28 år testet. Studiet fandt en korelation på r=0,88 mellem _maximal power output_ og VO<sub>2</sub>max.
+
+Det er altså en relativt høj korrelation, hvilket fik Andersen (1995) til at konkludere, at wattmax-testen kan bruges til at estimere den maksimale iltoptagelse.
 
 Energiforbruget ved forskellige arbejdsbelastninger er relativt konsistent mellem forskellige individer, fordi man kan forvente at personer, der træder samme antal watt har samme iltoptagelse. Derfor kan VO<sub>2</sub>-max estimeres ved den højeste arbejdsbelastning, forsøgspersonen kan køre med.
 
@@ -59,7 +63,7 @@ Først finder du det maksimale power output (MPO) på baggrund af antallet af se
 
 {% include math formula="MPO = \frac{T}{120} * 35 + (W - 35)" %}
 
-Derefter finder du den maksimale iltoptagelse i liter pr. minut:
+Derefter finder du den maksimale iltoptagelse i liter pr. minut ud fra den regressionsligning, Andersen (1995) etablerede:
 
 VO<sub>2</sub>max = 0,16 + (0,0117 x MPO) (w)
 
@@ -69,13 +73,12 @@ Og til sidst finder du konditallet som er ml/kg/min:
 
 ## Watt max-test på Wattbike
 
-Du kan køre testen på en Wattbike ved at bruge tabellerne, der omsætter modstanden til watt [Power, Resistance and Cadence Tables for Wattbike](https://support.wattbike.com/hc/da/articles/115001881825-Power-Resistance-and-Cadence-Tables). Dog skal du lige kalibrere om det også passer med, hvad du træder.
+Du kan køre testen på en Wattbike ved at bruge tabellerne, der omsætter modstanden til watt [Power, Resistance and Cadence Tables for Wattbike](https://support.wattbike.com/hc/da/articles/115001881825-Power-Resistance-and-Cadence-Tables). Dog skal du lige kalibrere om det også passer med, hvad du træder. På en Wattbike kan testlederen hele tiden holde øje med, at man træder det korrekte antal watt.
 
-[The Maximal Ramp Test](https://wattbike.com/dk/performance-tests/the-maximal-ramp-test) som er indbygget i Wattbikes ligner dog rigtig meget Watt max-testen, så det kan anbefales bare at bruge den.
+[The Maximal Ramp Test](https://wattbike.com/dk/performance-tests/the-maximal-ramp-test) som er indbygget i Wattbikes ligner også Watt max-testen, så det kan anbefales bare at bruge den, hvis du har adgang til en Wattbike.
 
 {% include feature_row type="left" %}
 
 ## Referencer til Watt max-testen
 
-- [Wattmax test](https://systime.dk/fileadmin/indhold/SupplerendeMaterialer/Idraet_-_teori_og_traening/4_Traeningslaere/watt-max.htm)
 - Andersen, L. B. 1995. “A Maximal Cycle Exercise Protocol to Predict Maximal Oxygen Uptake”. Scandinavian Journal of Medicine & Science in Sports 5 (3): 143–46. <https://doi.org/10.1111/j.1600-0838.1995.tb00027.x>.

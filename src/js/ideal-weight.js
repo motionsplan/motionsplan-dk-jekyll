@@ -37,7 +37,7 @@ motionsplan.IdealWeight = function(height, sex) {
   }
 
   // Based on Zacho BMI Women 22,5 og Man 24,5  
-  function getZacho(bodytype) {
+  function getIdealWeightBasedOnBmiAndBodytype(bodytype) {
     var hgt = height / 100;
     
     if (sex == 'man') {
@@ -51,7 +51,7 @@ motionsplan.IdealWeight = function(height, sex) {
     getDevine : getDevine,
     getMiller : getMiller,
     getRobinson : getRobinson,
-    getZacho : getZacho
+    getIdealWeightBasedOnBmiAndBodytype : getIdealWeightBasedOnBmiAndBodytype
   };
 
   return publicAPI;

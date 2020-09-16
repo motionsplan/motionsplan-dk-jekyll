@@ -7,8 +7,8 @@ describe('CalculateFitnessFromHr', function() {
 
       // age, heart rate, blood pressure, diabetes, smoker, bmi, fitness
       var fitness = motionsplan.CalculateFitnessFromHr(180, 60, 40);
-      assert.equal(fitness.getMaximalOxygen(), 1.84);
-      assert.equal(fitness.getFitnessLevel(), 45.9);
+      assert.equal(fitness.getMaximalOxygenUptake(), 1.8360000000000003);
+      assert.equal(fitness.getFitnessLevel(), 45.900000000000006);
     });
   });
 });

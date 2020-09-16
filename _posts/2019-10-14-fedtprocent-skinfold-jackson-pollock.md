@@ -36,34 +36,37 @@ feature_row_references:
 
 *[ACSM]: American College of Sports Medicine
 
-Jackson & Pollocks 3-punktsmåling er en hudfoldsmåling. 
+Jackson & Pollocks 3-punktsmåling er en hudfoldsmåling, hvor du kan estimere din fedtprocent og fedtfri masse. Metoden anbefales som standard af American College of Sports Medicine (ACSM).
 
-Metoden anbefales som standard af ACSM (American College of Sports Medicine).
+I Jackson og Pollocks trepunktsmåling måles forskellige steder for mænd og kvinder. Jeg gennemgår dem særskilt nedenunder:
 
-Der er en formel for hhv. mænd og kvinder.
+## Fedtprocent for mænd
 
 - **Mænd** skal måle ved bryst, mave og lår.
-- **Kvinder** skal måle ved triceps, hoftekam og lår.
-
-{% include calculate-fatpercent-skinfold-jackson-pollock.html %}
-
-## Videoer
-
-### Mænd
 
 {% include video provider="youtube" id="6KLdyRJIAqk" %}
 
-### Kvinder
+{% include calculate-fatpercent-skinfold-jackson-pollock-male.html %}
+
+## Fedtprocent for kvinder
+
+- **Kvinder** skal måle ved triceps, hoftekam og lår.
 
 {% include video provider="youtube" id="hvC2TDs95xY" %}
 
+{% include calculate-fatpercent-skinfold-jackson-pollock-female.html %}
+
+## Formel til Pollock og Jacksons fedtmåling
+
+Jeg bruger [formlerne som præsenteres på fitties.com](https://fitties.com/fat-caliper-plus/body-fat-calculation-methods/jackson-pollock-3/) i beregneren.
+
 ## Usikkerheder
 
-- Denne formel er bedst egnet til folk med en relativ lav fedtprocent. I nogle tilfælde vil denne formel have en tendens til at undervurdere den reelle fedtprocenten.
+Jackson & Pollocks trepunktsmåling er bedst egnet til folk med en relativ lav fedtprocent. I nogle tilfælde formlen have en tendens til at undervurdere den reelle fedtprocent.
 
-## Noter
+## Noter til Jackson & Pollocks fedtmåling
 
-- Der findes også en udgave, hvor man måler 7 punkter. Men ofte vil 3-punkts- og 7-punktsmålingen give nogenlunde samme resultat, så derfor har vi kun lavet en beregner for 3-punktsmålingen.
+Der findes også en udgave, hvor man måler 7 punkter. Men ofte vil 3-punkts- og 7-punktsmålingen give nogenlunde samme resultat, så derfor har vi kun lavet en beregner for 3-punktsmålingen.
 
 ## Referencer
 
@@ -71,5 +74,7 @@ Der er en formel for hhv. mænd og kvinder.
 
 - Jackson, A. S., og M. L. Pollock. 2004. “Generalized Equations for Predicting Body Density of Men. 1978”. The British Journal of Nutrition 91 (1): 161–68.
 - Siri, W. E. 1956. “The Gross Composition of the Body”. Advances in Biological and Medical Physics 4: 239–80. <https://doi.org/10.1016/b978-1-4832-3110-5.50011-x>.
+
+## Køb en hudfoldsmåler
 
 {% include feature_row type="left" %}

@@ -28,9 +28,9 @@ feature_row:
     btn_class: "btn--success"
 ---
 
-Durnin & Womersley er en 4-punksmåling, som anses for relativt præcis for mennesker mellem 17 og 68 år gammel. Formlen har en tendens til at estimere for høje fedtprocenter hos meget tynde personer (2-3 %).
+Durnin & Womersley er en 4-punktsmåling af hudfolde, som anses for relativt præcis til at estimere fedtprocenten for mennesker mellem 16 og 72 år gammel. Formlen har en tendens til at estimere for høje fedtprocenter hos meget tynde personer (2-3 %).
 
-Den samme formel bruges for både mænd og kvinder. Den oprindelige formel tager højde for alderen, men her har vi valgt at bruge formlen med aldersgruppen mellem 20-29 år, som Team Danmark også bruger på sine testcentre.
+Det er en fordel med Durnin og Womersly-formlen, at vi måler de samme steder for både mænd og kvinder.
 
 ## Beskrivelse af procedure
 
@@ -47,9 +47,11 @@ Der måles på biceps, triceps, skulderbladets spids og hoftekammen. Du kan se n
 - Der tages højde for alderen i formlen, da der typisk vil komme mere fedt omkring de indre organer.
 - Formlen kan overestimere fedtprocenten med 2-3% for meget magre personer.
 
-## Formler
+## Formler til Durnin og Womersley
 
-| age (years) |	equations for males	      | equations for females     |
+I beregneren benytter vi formlerne fra [www.topendsports.com](https://www.topendsports.com/testing/density-durnin-womersley.htm). Hvis du har brug for at lave testen på engelsk, så kan du bruge beregneren fra [healt-calc.com](http://health-calc.com/body-composition/skinfold-d-and-w)
+
+| Alder |	Formler for mænd	      | Formler for kvinder     |
 |-------------|---------------------------|---------------------------|
 | < 17	      | D = 1.1533 - (0.0643 X L)	| D = 1.1369 - (0.0598 X L) |
 | 17-19	      | D = 1.1620 - (0.0630 X L)	| D = 1.1549 - (0.0678 X L) |
@@ -64,9 +66,11 @@ Derefter kan Siri-formlen omsætte densiteten til fedtprocent.
 
 {% include math formula="PBF = \frac{495}{D} - 450" %}
 
-## Referencer
+## Referencer om Durnin og Womersley fedtmåling
 
 - Durnin, J. V., og J. Womersley. 1974. “Body Fat Assessed from Total Body Density and Its Estimation from Skinfold Thickness: Measurements on 481 Men and Women Aged from 16 to 72 Years”. The British Journal of Nutrition 32 (1): 77–97. <https://doi.org/10.1079/bjn19740060>.
 - Siri, W. E. 1956. “The Gross Composition of the Body”. Advances in Biological and Medical Physics 4: 239–80. <https://doi.org/10.1016/b978-1-4832-3110-5.50011-x>.
+
+## Køb en tang til hudfoldsmålinger
 
 {% include feature_row type="left" %}

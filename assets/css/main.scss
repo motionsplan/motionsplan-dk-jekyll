@@ -45,6 +45,9 @@ form.calculator {
             legend, label {
                 color: white !important;
             }
+            p.help-block {
+                color: #eee;
+            }
         }
         
         legend {
@@ -58,7 +61,7 @@ form.calculator {
         @extend .btn;
         @extend .btn--large;
         @extend .btn--success;
-    }    
+    }
 }
 
 #anatomy_muscle {
