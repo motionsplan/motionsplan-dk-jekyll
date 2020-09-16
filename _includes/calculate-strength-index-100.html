@@ -2,19 +2,19 @@
   <fieldset>
     <legend>Beregning af Index100.</legend>
     <div class="form-group">
-      <label>Dit løft (kg)</label>
-      <input type="number" min="20" max="600" name="Loeft" value="80">
+      <label for="lifted">Dit løft (kg)</label>
+      <input type="number" min="20" max="600" name="lifted" id="lifted" placeholder="Fx 80">
     </div>
     <div class="form-group">
-      <label>Din kropsvægt (kg)</label>
-      <input type="number" min="50" max="200" name="Vaegt" value="80">
+      <label for="bodyweight">Din kropsvægt (kg)</label>
+      <input type="number" min="50" max="200" name="bodyweight" id="bodyweight" placeholder="Fx 80">
     </div>
     <input type="submit" value="Beregn">
   </fieldset>
   <fieldset class="results">
     <div class="form-group">
       <label>Dit løft hvis du vejede 100 kg (kg)</label>
-      <input type="text" name="Krop100" disabled="disabled">
+      <input type="text" name="index_100_lift" disabled="disabled">
     </div>
   </fieldset>
 </form>

@@ -6,9 +6,9 @@ describe('Borg15', function() {
     it('should return the correct number', function() {
 
       // gender, age, weight, work, hr
-      var et = motionsplan.Borg15(40, 80, 100);
-      assert.equal(et.getMaximalOxygenUptake(), 2.503287576374745);
-      assert.equal(et.getFitnessLevel(), 31.291094704684316);
+      var et = motionsplan.Borg15(40, 70, 120);
+      assert.equal(et.getMaximalOxygenUptake(), 2.5184606356968215);
+      assert.equal(et.getFitnessLevel(), 35.97800908138316);
     });
   });
 });

@@ -8,11 +8,14 @@
 @import "minimal-mistakes"; // main partials
 
 body.layout--single {
-    .feature__wrapper {
-        h2 {
+    .feature__item--left, .feature__item--right {
+        h2.archive__item-title {
             margin-top: 1em !important;
-            margin-bottom: 0.5em !important;
-            font-size: 1em;
+            margin-bottom: 0em !important;
+            font-size: 0.9em !important;
+        }
+        .archive__item-excerpt p:first {
+            margin-top: 0em !important;
         }
     }
 }
@@ -42,6 +45,9 @@ form.calculator {
             legend, label {
                 color: white !important;
             }
+            p.help-block {
+                color: #eee;
+            }
         }
         
         legend {
@@ -55,7 +61,7 @@ form.calculator {
         @extend .btn;
         @extend .btn--large;
         @extend .btn--success;
-    }    
+    }
 }
 
 #anatomy_muscle {

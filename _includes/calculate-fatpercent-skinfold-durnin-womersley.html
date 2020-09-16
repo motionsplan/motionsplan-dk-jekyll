@@ -1,38 +1,38 @@
-{% include figure image_path="https://miro.medium.com/max/2250/1*dMsWX5cS4CLkKnVAyYPn5A.png" alt="Durnin and Womersley 4-site skinfold test" %}
-{% include figure image_path="https://miro.medium.com/max/2250/1*_FXK5XcWvuWv0g-aZD-6fQ.png" alt="Durnin and Womersley 4-site skinfold test" %}
+{% include figure image_path="https://miro.medium.com/max/2250/1*dMsWX5cS4CLkKnVAyYPn5A.png" caption="Kilde: [www.estimatebodyfat.com](https://www.estimatebodyfat.com/caliper-calculator.html)" alt="Durnin and Womersley 4-site skinfold test" %}
+{% include figure image_path="https://miro.medium.com/max/2250/1*_FXK5XcWvuWv0g-aZD-6fQ.png" caption="Kilde: [www.estimatebodyfat.com](https://www.estimatebodyfat.com/caliper-calculator.html)" alt="Durnin and Womersley 4-site skinfold test" %}
 
 <form class="calculator" id="calculator_skinfold_durnin">
     <fieldset>
-        <legend>Durnin & Womersley 4-site skinfold. Indtast de målte værdier.</legend>
+        <legend>Durnin & Womersley 4-site skinfold måling af fedtprocent. Indtast de målte værdier.</legend>
         <div class="form-group">
             <label for="biceps">Biceps (mm)</label>
-            <input type="number" name="biceps" id="biceps" min="0" max="100" step="0.1">
+            <input type="number" name="biceps" id="biceps" min="0" max="100" step="0.1" placeholder="Biceps (mm)">
         </div>
         <div class="form-group">
             <label for="triceps">Triceps (mm)</label>
-            <input type="number" name="triceps" id="triceps" min="0" max="100" step="0.1">
+            <input type="number" name="triceps" id="triceps" min="0" max="100" step="0.1" placeholder="Triceps (mm)">
         </div>
         <div class="form-group">
             <label for="skulder">Skulderblad - subscapularis (mm)</label>
-            <input type="number" name="skulder" id="skulder" min="0" max="100" step="0.1">
+            <input type="number" name="skulder" id="skulder" min="0" max="100" step="0.1" placeholder="Subscapularis (mm)">
         </div>
         <div class="form-group">
             <label for="hoftekam">Hoftekam - suprailiac (mm)</label>
-            <input type="number" name="hoftekam" id="hoftekam" min="0" max="100" step="0.1">
+            <input type="number" name="hoftekam" id="hoftekam" min="0" max="100" step="0.1" placeholder="Suprailiac (mm)">
         </div>
         <div class="form-group">
             <label for="gender">Køn</label>
-            <select name="koen" id="gender">
+            <select name="gender" id="gender">
                 <option value="male">Mand</option>
                 <option value="female">Kvinde</option>
             </select>
         </div>
         <div class="form-group">
             <label for="vaegt">Vægt (kg)</label>
-            <input type="number" name="vaegt" id="vaegt" min="10" max="200" step="0.1">
+            <input type="number" name="weight" id="weight" min="10" max="200" step="0.1">
         </div>
         <div class="form-group">
-            <label for="vaegt">Alder (år)</label>
+            <label for="age">Alder (år)</label>
             <input type="number" name="age" id="age" min="10" max="100">
         </div>
         <input type="submit" value="Beregn">
@@ -40,11 +40,11 @@
     <fieldset class="results">
         <div class="form-group">
             <label for="fedtprocentDurnin">Fedtprocent (%)</label>
-            <input type="text" name="fedtprocentDurnin" id="fedtprocentDurnin" disabled="disabled">
+            <input type="text" name="fatpercent_durnin" id="fatpercent_durnin" disabled="disabled">
         </div>
         <div class="form-group">
-            <label for="fedtfriDurnin">Fedtfri kropsvægt (kg)</label>
-            <input type="text" name="fedtfriDurnin" id="fedtfriDurnin" disabled="disabled">
+            <label for="fedtfriDurnin">Fedtfri masse (kg)</label>
+            <input type="text" name="ffm_durnin" id="ffm_durnin" disabled="disabled">
         </div>
     </fieldset>
 </form>

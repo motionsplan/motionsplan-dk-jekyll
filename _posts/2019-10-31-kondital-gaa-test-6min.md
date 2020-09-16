@@ -1,7 +1,7 @@
 ---
 title: "6 minutters gå-test: Gangtest til kondital for ældre mennesker 🚶‍♀️"
 permalink: /gaatest-6min/
-excerpt: "6 minutters gå-test er en submaksimal gangtest til at sammenligne den tilbagelagte distance i forhold til andre mennesker for relativt fysisk svage personer."
+excerpt: "6 minutters gå-test er en gangtest, hvor du sammenligner din tilbagelagte distance i forhold til andre mennesker. Gåtesten henvender sig til relativt fysisk svage personer."
 language: da
 header:
   overlay_image: https://www.straitstimes.com/sites/default/files/articles/2017/09/04/20170904_1504497527583_2073451859691958_16_amyama4_zuann.jpg
@@ -17,15 +17,16 @@ last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 ---
 
-I **6 minutters gå-testen** gælder det om at gå så langt som muligt på 6 minutter. Den tilbagelagte distance sammenlignes med referenceværdier for tidligere forsøg. Testen er specielt egnet til svage personer fx patienter eller gamle.
+I **6 minutters gå-test** gælder det om at gå så langt som muligt på 6 minutter. Den tilbagelagte distance sammenlignes med referenceværdier for tidligere forsøg. Testen er specielt egnet til svage personer fx patienter eller gamle.
 
 ## Sådan udfører du gåtesten på 6 minutter
 
 {% include figure image_path="https://www.researchgate.net/profile/Parul_Sharma9/publication/317952000/figure/fig1/AS:509936111190016@1498589651200/6-minutes-walk-test-diagram.png" %}
 
-1. Testens udføres på en 30 meter strækning, der tilbagelægges flere gange. Den kan altså sættes op overalt, fx i en gang eller en hal. Strækningen kan være fra 20 til 50 meter, uden at det påvirker testens resultat.
-2. Testen er ret påvirkelig af, hvor meget testlederen opmunterer testpersonerne. Opmuntring kan betyde op til 30% på testresultatet. "Opmuntringen" skal altså standardiseres, så man siger det samme til alle testpersoner hver gang man tester dem. I de oprindelige forsøg er der anvendt fraserne: "You are doing well", "Keep up the good work" og ikke andet.
-3. Indtast distance og persondata og sammenlign med referenceværdien. Fra ca. 75 % og opefter betragtes som værende indenfor normalområdet. 
+1. 6-minutters gangtesten udføres på en 30 meter strækning, der tilbagelægges flere gange. Du kan sætte testen op overalt, og det påvirker ikke testens resultat selvom strækningen mellem vendepunkterne er mellem 20 - 50 meter i stedet for 30 meter.
+2. Testresultaterne påvirkes en del af, hvor meget opmuntring testpersonerne får undervejs. Morten Zacho skriver, at [opmuntring kan påvirke resultate med op til 30%](http://web.archive.org/web/20150403145323/http://www.motion-online.dk/konditionstraening/testning/6_min_gaa-test/){:rel="nofollow"}. Det er altså vigtigt, at du som testleder standardiserer, hvor meget opmuntring du giver forsøgspersonerne undervejs. Du kan finde inspiration i de oprindelige studier, hvor de bruger sætningerne: "You are doing well", "Keep up the good work" og ikke andet.
+3. Gå så langt som muligt på de 6 minutter og noter den samlede distance.
+4. Indtast resultaterne i nedenstående beregner. Beregneren sammenligner med referenceværdier.
 
 ## Sammenlign dit resultat for 6 minutters gåtest
 
@@ -33,23 +34,33 @@ I **6 minutters gå-testen** gælder det om at gå så langt som muligt på 6 mi
 
 ## Referenceværdier for 6 minutters-gangtesten
 
-Der findes en del forskellige publicerede referenceværdier. Den væsentligste forskel på referenceværdierne er om forsøgspersonerne forud har haft mulighed for at blive tilvænnet til testen. 
+Der findes en del forskellige publicerede referenceværdier til 6-minutters gangtesten. Den væsentligste forskel på referenceværdierne er om forsøgspersonerne forud har haft mulighed for at blive tilvænnet til testen. 
+Inspireret af [Morten Zacho](http://web.archive.org/web/20150403145323/http://www.motion-online.dk/konditionstraening/testning/6_min_gaa-test/){:rel="nofollow"} har vi valgt at angive referenceværdierne fra [Enright & Sherill (1998)](https://pubmed.ncbi.nlm.nih.gov/9817683/). Referenceværdierne fra denne reference er baseret på forsøgspersoner, der **ikke på forhånd er blevet tilvænnnet til gangtesten**. Referenceværdierne gælder for både mænd og kvinder i alderen 40-80 år.
 
-***
+- Men: 6MWD = (7.57 x height cm) - (5.02 x age) - (1.76 x weight kg) - 309 m
+- Women, 6MWD = (2.11 x height cm) - (2.29 x weight kg) - (5.78 x age) + 667 m
 
-Vi har valgt her at angive tallene fra Referenceværdier er fra Enright & Sherill (1998), da disse baserer sig på et stort talmateriale og på forsøgspersoner der ikke er forud tilvænnet til testen. Referenceværdierne gælder for mænd og kvinder i alderen 40-80 år.  NB! Andre referenceværdier, hvor der har været anvendt tilvænning, ligger ca 100 meter højere.
+Gibbons et al (2001) baerede deres regressionsmodel på raske voksne, hvor de tog det bedste resultat fra flere forsøg. Derfor har jeg også inkluderet referenceværdier for **gentagne forsøg** i beregneren.
+
+Det resulterede i følgende regressionsmodel for gentagne forsøg på 6 minutters testen:
+
+- 6MWD = 868,8 - 2,99 * Age - 74,7 * Gender
+
+Hvor mand = 0; kvinde = 1.
 
 ## Teoretisk baggrund for gåtesten på 6 minutter
 
-Denne test har i praksis vist sig at være et godt mål for den almene funktionstilstand hos relativtsvage individer. Testens resultat er ikke bare et mål for kredsløbsfunktionen, men også for bevægeapparatets tilstand som helhed.
+6-minutters gangtesten er let at bruge, og den giver et fornuftig billede af den almene funktionstilstand - både hvad angår kredsløbet, men også bevægeapparatets tilstand - hos relativt svage mennesker.
 
-Desuden har forsøg vist at der er en rimelig god sammenhæng mellem en lav score i denne test og risikoen for diverse inaktivitetsrelaterede sygdomme
+Studier har vist, at testen er ret påvirkelig af tilvænning. Gibbons et al (2001) lavede fx 4 forsøg på testen på en dag og fandt følgende:
 
-Der findes flere forskellige publicerede studier der giver anvendelige referenceværdier. Den væsentligste forskel mellem de gode studier er om der har været forudgående tilvænning til testen.
+> Eighty-six percent had their best 6MWD after the first walk; an average increase of 43 meters was observed from first to best 6MWD.
 
-Forsøgene har vist at testen er ret påvirkelig af tilvænning. Det bedste lader til at være at udføre testen 2 gange og først lade tredie forsøg tælle. Hvis man vælger denne procedure skal man også vælge referenceværdier hvor forsøgpersonerne har været tilvænnet til testen (f.eks. Gibbons et al. 2001).
+--- <cite>[Gibbons et al (2001)](https://pubmed.ncbi.nlm.nih.gov/11314289/)</cite>
 
-Vi har valgt at angive referenceværdier der ikke er baseret på tilvænning, da vi antager at man som regel ikke har tid til at lade allersoner gennemføre testen 3 gange. Desuden er der andre studier der tyder på at denne tilvænnings effekt er yderst begrænset hos visse patientgrupper, f.eks. hjerte- og lungepatienter hvor der sædvanligvis opnås et pålideligt resultat efter første eller andet forsøg.
+Hvis du laver testen med tilvænning, så skal du også sammenligne med referenceværdier, hvor forsøgspersonerne har vænnet sig til testen. Du kan fx finde referenceværdier hos Gibbons et al (2001).
+
+[Morten Zacho](http://web.archive.org/web/20150403145323/http://www.motion-online.dk/konditionstraening/testning/6_min_gaa-test/){:rel="nofollow"} skriver at det bedste formentlig er at lave to tilvænningsforsøg og lade det tredje tælle.
 
 ## Referencer til gangtesten på 6 minutter
 

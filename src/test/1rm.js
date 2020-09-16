@@ -102,29 +102,6 @@ describe('Estimate1RM', function() {
       assert.equal(rm.getMOL(0, 0), 112.76118309033298);
     });
   });
-  describe('getMOLBrycki', function() {
-    it('should return same values', function() {
-      // weigt, reps
-      // I am rounding MOL as it has way more decimals
-      var rm = motionsplan.Estimate1RM(100, 5);
-      assert.equal(rm.getMOLBrzycki().toFixed(1), rm.getBrzycki());
-    });
-    it('should work with rm requests', function() {
-      // weigt, reps
-      var rm = motionsplan.Estimate1RM(100, 5);
-      assert.equal(rm.getMOLBrzycki(), 112.51125112511251);
-      assert.equal(rm.getMOLBrzycki(1), 112.51125112511251);
-      assert.equal(rm.getMOLBrzycki(2), 109.38343834383438);
-      assert.equal(rm.getMOLBrzycki(3), 106.25562556255625);
-      assert.equal(rm.getMOLBrzycki(4), 103.12781278127812);
-      assert.equal(rm.getMOLBrzycki(5), 100);
-      assert.equal(rm.getMOLBrzycki(6), 96.87218721872186);
-      assert.equal(rm.getMOLBrzycki(8), 90.61656165616562);
-      assert.equal(rm.getMOLBrzycki(10), 84.36093609360937);
-      assert.equal(rm.getMOLBrzycki(12), 78.1053105310531);
-      assert.equal(rm.getMOLBrzycki(15), 68.72187218721872);
-    });
-  });
   describe('getMOL', function() {
     it('should work with rm requests', function() {
       // weigt, reps

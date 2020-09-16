@@ -40,9 +40,7 @@ Formlerne fra Devine (1974), Miller (1983), Hamwi (1964) og Robinson (1983) er h
 
 ## Udregn idealvægt baseret på BMI og kropstype
 
-Morten Zacho har foreslået, at [basere idealvægten på Body Mass Index (BMI)](https://web.archive.org/web/20160808221414/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/beregn_din_idealvaegt/){:rel="nofollow"}. Morten Zacho ender med at sige, at det optimale BMI er omkring 22,5 for kvinder og 24,5 for mænd for at opleve det længste liv med færrest sygdomme. Jeg har forklaret rationalet bag i artiklen om [BMI](/bmi/).
-
-Jeg har inkluderet kropsbygning i den nederste del af beregneren.
+Morten Zacho har foreslået, at [basere idealvægten på Body Mass Index (BMI)](https://web.archive.org/web/20160808221414/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/beregn_din_idealvaegt/){:rel="nofollow"}. Morten Zacho konkluderer, at videnskaben understøtter at et optimalt BMI er på omkring 22,5 for kvinder og 24,5 for mænd for at opleve det længste liv med færrest sygdomme. Jeg har forklaret rationalet bag i artiklen om [BMI](/bmi/).
 
 ## Hvor stor er usikkerheden på idealvægt?
 
@@ -52,9 +50,11 @@ Jeg har inkluderet kropsbygning i den nederste del af beregneren.
 
 ## Hvordan spiller kropsbygning ind på idealvægten?
 
-> Hvis man bare kigger på kropsbygning som forskelle i hvor kraftigt / bredt skelet man er udstyret med, så havde de oprindelige idealvægtstabeller fra 1960'erne en korrektion på plus-minus 10 % af kropsvægten. Kigger man på nyere studier, så ser det ud til, at det er normalt, at forskelle i skeletbredde kan påvirke kropsvægten 6-8 % i hver retning. I beregneren er derfor indbygget en justeringsmulighed på plus-minus 8 %.
+> Hvis man bare kigger på kropsbygning som forskelle i hvor kraftigt / bredt skelet man er udstyret med, så havde de oprindelige idealvægtstabeller fra 1960'erne en korrektion på plus-minus 10 % af kropsvægten. Kigger man på nyere studier, så ser det ud til, at det er normalt, at forskelle i skeletbredde kan påvirke kropsvægten 6-8 % i hver retning.
 
---- <cite>[Morten Zacho]https://web.archive.org/web/20160808221414/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/beregn_din_idealvaegt/){:rel="nofollow"}</cite>
+--- <cite>[Morten Zacho](https://web.archive.org/web/20160808221414/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/beregn_din_idealvaegt/){:rel="nofollow"}</cite>
+
+Jeg har derfor inkluderet en mulighed for at vælge din kropstype i beregneren, så idealvægtberegneren tager højde for skeletbredden.
 
 ## Andre typer målinger af idealvægt
 

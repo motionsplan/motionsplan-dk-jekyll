@@ -127,7 +127,7 @@ NB. Hvis du er under 18 år, så kig længere nede på siden for en retfærdig v
 
 Når man kigger på en række forskellige studier i forhold til det optimale BMI i forhold til sundhedsfaktorer, så får man følgende billede.
 
-I de studier hvor man kigger på forskellen mellem mænd og kvinder, så ligger det enten inde for samme optimale område, eller også ligger mændene 2-5 BMI-point højere.
+I de studier hvor man kigger på forskellen mellem mænd og kvinder, så ligger BMI enten inden for samme optimale område, eller også ligger mændene 2-5 BMI-point højere.
 
 | Reference | Studium | Mænd | Kvinder |
 |-|-|-|-|
@@ -138,13 +138,13 @@ I de studier hvor man kigger på forskellen mellem mænd og kvinder, så ligger 
 | [Adams et al (2006)](http://www.ncbi.nlm.nih.gov/pubmed/16926275/) | NEJM | 25,0-27,9 | 23,5-26,4 |
 | [Calle et al (1999)](http://www.ncbi.nlm.nih.gov/pubmed/10511607/) | NEJM | 22,0-26,4 | 20,5-24,9 |
 
-Det meget store studie fra Flegal et al (2013) kommer til at overvurdere fordelen ved overvægt i forhold til BMI, fordi overvægt sammenlignes med normalvægt i området fra 18,5-25. Man ved fra ander undersøgelser, at dødeligheden er markant forhøjet, hvis man har et BMI mellem 18,5-20. Det interval vi normalt inkluderer som normalvægtigt er altså ikke et optimalt BMI.
+Det meget store studie fra Flegal et al (2013) kommer til at overvurdere fordelen ved overvægt i forhold til BMI, fordi overvægt sammenlignes med normalvægt i området fra 18,5-25. Man ved fra ander undersøgelser, at dødeligheden er markant forhøjet, hvis man har et BMI mellem 18,5-20. Det interval vi normalt inkluderer som normalvægtigt er altså ikke et optimalt BMI i forhold til sundhed.
 
-På baggrund af studierne kan man altså sætte den optimale BMI til 22,5 for kvinder og 24,5 for mænd. Når man har den optimale BMI, så kan det bl.a. bruges til at [udregne din idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}).
+På baggrund af studierne [sætter Morten Zacho det optimale BMI til 22,5 for kvinder og 24,5 for mænd](https://web.archive.org/web/20160808221414/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/beregn_din_idealvaegt/){:rel="nofollow"}. Når man har den optimale BMI, så kan det bl.a. bruges til at [udregne din idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}).
 
 Det er væsentligt at påpege, at der er store variationer for den enkelte i forhold til, om man lige nøjagtigt rammer det optimale BMI. Om BMI går et par stykker op eller ned betyder ikke så meget, men i forhold til helbredet og at leve længe, så kan man altså med fordel være tæt på kategorien overvægtig.
 
-På baggrund af dette siger [Morten Zacho at plus-minus seks kilo ikke betyder noget](https://www.dr.dk/levnu/krop/du-skal-veje-mere-end-du-tror).
+På baggrund af dette siger [Morten Zacho, at plus-minus seks kilo ikke betyder noget](https://www.dr.dk/levnu/krop/du-skal-veje-mere-end-du-tror).
 
 > Så der er altså ret stor spændvidde. Vi skal derfor have bredere rammer for, hvad man kan veje og stadig blive betragtet som sund og rask.
 
