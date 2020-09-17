@@ -46,7 +46,7 @@ Taljemålet er særligt relevant, fordi fedtet omkring maven giver øget risiko 
 
 Hvordan måler du taljen? Og hvor måler man taljen?
 
-- Stå i stående afslappet tilstand.
+- Stå afslappet.
 - Sæt målebåndet omkring 2 cm over navlehøjde. 
 
 Hvis du er i tvivl, kan du også mærke dig frem til punktet, som på siden af kroppen ligger mellem hoftebenskammen og det nederste ribben.
@@ -86,9 +86,9 @@ Det kan talje-højde ratioen imidlertid tage højde for, så lad os i det følge
 
 ## Talje-højde-ratio
 
-Efterhånden har talje/højde-ratioen sneget sig ind i litteraturen, fordi det tager højde for personer, som ikke har en gennemsnitlig højde. Når man sætter taljemålet i forhold til højden, har man også et mål man kan bruge på både børn og voksne.
+Efterhånden har talje/højde-ratioen sneget sig ind i litteraturen, fordi det tager højde for personer, som ikke har en gennemsnitlig højde. Når man sætter taljemålet i forhold til højden, har man også et meningsfuldt mål man kan bruge på både børn og voksne.
 
-Når man sætter sit taljemål i forhold til sin højde, så er det forbundet med lavere risiko for livsstilssygdomme, hvis ratioen er under 0,5. Det betyder i praksis, at dit taljemål skal være under halvdelen af din højde i centimeter for at have en nedsat risiko for livsstilssygdomme.
+Når du sætter dit taljemål i forhold til din højde, så er det forbundet med lavere risiko for livsstilssygdomme, hvis ratioen er under 0,5. Det betyder i praksis, at dit taljemål skal være under halvdelen af din højde i centimeter for at have en nedsat risiko for livsstilssygdomme.
 
 | WHR | Klassifikation | Handling |
 |-|-|-|

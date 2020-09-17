@@ -45,7 +45,7 @@ Interesse for at måle din fedtprocent er steget, så jeg har forsøgt at samle 
 
 Jeg beskriver i det følgende, hvorfor måling af din fedtprocent kan være interessant, og hvordan du kan måle den, men hvad er fedtprocenten egentlig?
 
-Hvad er fedtprocenten? **Fedtprocenten er et udtryk for, hvor meget fedt du har i kroppen i forhold i kroppen, som ofte kaldes den fedtfrie masse. Fedtprocenten siger ikke noget om, _hvor_ fedtet sidder. Placeringen og fordelingen af fedtet har stor betydning for sundheden. Derfor er en lav fedtprocent ikke bare lige med en sund krop.**
+Hvad er fedtprocenten? **Fedtprocenten er et udtryk for, hvor høj andel af fedt du har i kroppen i forhold i den fedtfrie masse. Fedtprocenten siger ikke noget om, _hvor_ fedtet sidder. Placeringen og fordelingen af fedtet har stor betydning for sundheden. Derfor er en lav fedtprocent ikke bare lige med en sund krop.**
 
 Men hvorfor er du overhovedet interesseret i at måle din fedtprocent?
 
