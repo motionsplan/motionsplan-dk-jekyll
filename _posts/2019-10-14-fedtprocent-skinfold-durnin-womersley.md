@@ -42,10 +42,14 @@ Der måles på biceps, triceps, skulderbladets spids og hoftekammen. Du kan se n
 
 {% include calculate-fatpercent-skinfold-durnin-womersley.html %}
 
+{% comment %}
+
 ## Usikkerheder i Durnin & Womersley
 
 - Der tages højde for alderen i formlen, da der typisk vil komme mere fedt omkring de indre organer.
 - Formlen kan overestimere fedtprocenten med 2-3% for meget magre personer.
+
+{% endcomment %}
 
 ## Formler til Durnin og Womersley
 
