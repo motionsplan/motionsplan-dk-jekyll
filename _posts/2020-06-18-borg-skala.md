@@ -13,6 +13,14 @@ tags:
   - fysiologi
 last_modified_at: 2020-08-11T08:14:14Z
 toc: true
+feature_row:
+  - image_path: /assets/images/borg-skala-724x1024.jpg
+    url: /assets/pdf/borg-skala-a4-format.pdf
+    title: "Download Borg-skala"
+    excerpt: "Borgskala bearbejdet af [Morten Zacho til motion-online.dk](https://web.archive.org/web/20150316130540/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/borg-skala_paa_den_brugbare_maade/){:rel='nofollow'}. Set fra [hjerteforeningen.dk](https://hjerteforeningen.dk/motion/2018/02/27/intensitet-borgskala-og-puls/)."
+    alt: "Download Borgs intensitetsskala i PDF til løb og træning - Borg -skala"
+    btn_label: "<i class='fas fa-file-pdf'></i> Download Borg skala"
+    btn_class: "btn--danger"
 ---
 
 Jeg bruger ofte Borg-skalaen i min undervisning til at vurdere intensitet i træningen og ved tests. Jeg har researchet lidt på, hvad baggrunden for Borgs skala er, og hvordan skalaen for anstrengelse skal forstås.
@@ -74,7 +82,7 @@ Princippet kaldes på engelsk [Rating of perceived exertion (RPE)](https://en.wi
 
 Til konditionstræning kunne følgende RPE-skala bruges, hvor der også er pulszoner skrevet ind i:
 
-{% include figure image_path="/assets/images/rpe-intensitetsskala.png" caption="Fysiologisk intensitetsskala baseret på Borgskalaen" alt="Fysiologisk intensitetsskala baseret på Borgskalaen - Borg RPE Skala  og intensitetsskala" %}
+{% include figure image_path="/assets/images/rpe-intensitetsskala.png" caption="Fysiologisk intensitetsskala baseret på Borgskalaen set fra [DGI](https://www.dgi.dk/butikken/intensitetsskala-indoor-cycling-137-x-200)." alt="Fysiologisk intensitetsskala baseret på Borgskalaen - Borg RPE Skala  og intensitetsskala" %}
 
 RPE-skalaen er også adapteret til styrketræning. Jeg har skrevet lidt [mere om RPE-skalaen her](/rpe/), hvis du typisk laver styrketræning.
 
@@ -84,19 +92,17 @@ Morten Zacho har også lavet følgende version af Borg-skalaen, hvor du kan forn
  
 Intensitetsskalaen er kørt sammen med en RPE-vurdering fra 1-10.
 
-{% include figure image_path="/assets/images/borgskala-udvidet-mol.jpg" caption="Borgskalaen bearbejdet af Morten Zacho, tidligere motion-online.dk" alt="Borgskalaen - Borg intensitetsskala bearbejdet af [Morten Zacho til motion-online.dk](https://web.archive.org/web/20150316130540/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/borg-skala_paa_den_brugbare_maade/){:rel='nofollow'}" %}
+{% include figure image_path="/assets/images/borgskala-udvidet-mol.jpg" caption="Borgskalaen sat sammen med intensitetsskalaen set fra [Marina Aaagaard](http://marinaaagaardblog.com/2019/09/18/borg-skala-vurdering-af-oplevet-anstrengelse/)." alt="Borgskalaen - Borg intensitetsskala bearbejdet Morten Zacho" %}
 
-Området omkring 4-7 RPE er det typisk for konditionstræning og almen aerob træning. I området fra 8-10 så skal det anaerob system også træde til.
+Området omkring 4-7 RPE er det typisk for konditionstræning og almen aerob træning. I området fra 8-10 så skal det anaerobe system træde mere til.
 
 {% include video provider="youtube" id="gaUfbQ9p9OU" %}
 
 ## Download Borg-skala som PDF
 
-{% include figure image_path="/assets/images/borg-skala-724x1024.jpg" caption="Borgskala bearbejdet af Morten Zacho, tidligere motion-online.dk" alt="Download Borgs intensitetsskala i PDF til løb og træning - Borg -skala" %}
+{% include feature_row type="left" %}
 
-[<i class='fas fa-file-pdf'></i> Download Borg skala](/assets/pdf/borg-skala-a4-format.pdf){: .btn .btn--large .btn--danger }
-
-{% include figure image_path="/assets/images/borg-skala-vandret.jpg" caption="Borgskala i en vandret version. Lavet med udgangspunkt i Morten Zacho, tidligere motion-online.dk" alt="Download Borgs anstrengelsesskala og Borgskalaen i PDF til løb og træning - Borg-skala" %}
+{% include figure image_path="/assets/images/borg-skala-vandret.jpg" caption="Borgskala i en vandret version set fra [www.polio.dk](https://www.polio.dk/service/nyheder/faa-pulsen-op-som-rygmarvsskadet)." alt="Download Borgs anstrengelsesskala og Borgskalaen i PDF til løb og træning - Borg-skala" %}
 
 [<i class='fas fa-file-pdf'></i> Download vandret version](/assets/pdf/borg-skala-vandret.pdf){: .btn .btn--large .btn--danger }
  
