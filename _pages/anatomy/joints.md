@@ -43,6 +43,8 @@ sidebar:
 
 Led kan opdeles i ægte led og uægte led og forskellige ledtyper: ægled, saddelled, hængselled, glideled, drejeled og kugleled. Jeg kigger her på de forskellige defintioner og ledtyper.
 
+{% comment %}
+
 Et led er en forbindelse mellem to eller flere knogler, uanset om der kan være bevægelse i leddet eller ej. I forbindelse med idræt er vi hovedsageligt interesseret i de led, der kan bevæge sig. Mennesket kan bevæge sig på mange forskellige måder, og derfor er der også flere forskellige typer led.
 
 Overordnet kan led opdeles i ægte og uægte led.
@@ -72,11 +74,7 @@ Kroppens led kan inddeles i seks mekaniske typer led.
 
 ## Ledtyper
 
-{% comment %}
-
 {% include feature_row %}
-
-{% endcomment %}
 
 {% include figure image_path="https://s3-us-west-2.amazonaws.com/courses-images/wp-content/uploads/sites/1223/2017/02/08001845/Figure_38_03_04-883x1024.jpg" alt="Skelettet, led og ledtyper: Ægled, drejeled, hængselsled, kugleled, glideled, saddelled" caption="Ledtyper: Ægled, drejeled, hængselsled, kugleled, glideled, saddelled" %}
 
@@ -125,3 +123,5 @@ Bevægelser kan foregå i tre forskellige planer.
 {% for j in joints %}
 - **[{{ j.title }}]({{ j.url }})**. {{ j.excerpt }}
 {% endfor %}
+
+{% endcomment %}

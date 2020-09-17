@@ -18,6 +18,8 @@ sidebar:
 
 Skelettet består af knogler. Jeg beskriver her lidt om anatomi og de forskellige knogler i kroppen. Knoglerne i menneskekroppen findes i forskellige knogletyper. Jeg kommer ind på rørknogler, uregelmæssige knogler, flade knogler og korte knogler. 
 
+{% comment %}
+
 Knoglerne afstiver kroppen og agerer vægtstænger for musklerne. Desuden beskytter knoglerne i menneskekroppen de vigtige organer.
 
 {% include figure image_path="/assets/images/anatomy/skeleton.png" caption="Skelettet består af knogler. Knoglerne afstiver kroppen og agerer vægtstænger for musklerne. Desuden beskytter knoglerne de vigtige organer." alt="Skelettet består af knogler. Knoglerne afstiver kroppen og agerer vægtstænger for musklerne. Desuden beskytter knoglerne de vigtige organer." %}
@@ -73,3 +75,5 @@ Knogler kan opdeles i 4 grupper:
 - Knæskal (Patella)
 - Skinneben (Tibia)
 - Lægben (Fibula)
+
+{% endcomment %}
