@@ -87,7 +87,13 @@ For den almindelige fitnessudøver så kan følgende være muligheder for at få
 
 - **Udregning af fedtprocent**. Der findes nogle formler, hvor du kan udregne din fedtprocent. Formlerne er imidlertid behæftet med stor usikkerhed, og de kan ikke stå alene. Jeg har lavet en [beregner som kan udregne fedtprocenten på baggrund af højde, vægt, alder og køn]({% link _posts/2008-10-30-udregning-af-fedtprocent.md %}).
 
-- **Bestemmelse af fedtprocent med målebånd**. Der findes også en række forslag til, hvordan man kan bestemme fedtprocenten ved at måle sig selv med et målebånd forskellige steder på kroppen. Fælles for alle metoderne er, at der er lige så meget usikkerhed om det faktiske resultat som at udregne fedtprocenten. Jeg har beskrevet [to]({% link _posts/2019-10-14-fedtprocent-maalebaand.md %}) [forskellige]({% link _posts/2019-10-14-fedtprocent-maalebaand-navy.md %}) metoder.
+- **Bestemmelse af fedtprocent med målebånd**. Der findes også en række forslag til, hvordan man kan bestemme fedtprocenten ved at måle sig selv med et målebånd forskellige steder på kroppen. Fælles for alle metoderne er, at der er lige så meget usikkerhed om det faktiske resultat som at udregne fedtprocenten. 
+
+{% comment %}
+
+Jeg har beskrevet [to]({% link _posts/2019-10-14-fedtprocent-maalebaand.md %}) [forskellige]({% link _posts/2019-10-14-fedtprocent-maalebaand-navy.md %}) metoder.
+
+{% endcomment %}
 
 - **Måling af fedtprocent med fedttang**. En fedttang kan være et udmærket værktøj, hvis du har behov for at følge en fremgang. Hvis du øver dig i at bruge en fedttang, så kan du med ret stor sikkerhed reproducere din hudfoldsmåling over tid. Fedttangen giver ikke den præcise fedtprocent, men kan være rimelig pålidelig i forhold til at estimere ændringerne. Jeg har skrevet mere om [måling af fedtprocent og hudfoldstykkelser med fedttang her]({% link _posts/2019-10-14-fedtprocent-skinfold.md %}).
 

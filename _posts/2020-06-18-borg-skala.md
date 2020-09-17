@@ -114,7 +114,7 @@ Området omkring 4-7 RPE er det typisk for konditionstræning og almen aerob tr�
 
 [<i class='fas fa-file-pdf'></i> Download vandret version](/assets/pdf/borg-skala-vandret.pdf){: .btn .btn--large .btn--danger }
 
-{% endcomment }
+{% endcomment %}
 
 ## Hvad kan jeg bruge Borg-skalaen til?
 
