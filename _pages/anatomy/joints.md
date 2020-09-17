@@ -72,7 +72,11 @@ Kroppens led kan inddeles i seks mekaniske typer led.
 
 ## Ledtyper
 
+{% comment %}
+
 {% include feature_row %}
+
+{% endcomment %}
 
 {% include figure image_path="https://s3-us-west-2.amazonaws.com/courses-images/wp-content/uploads/sites/1223/2017/02/08001845/Figure_38_03_04-883x1024.jpg" alt="Skelettet, led og ledtyper: Ægled, drejeled, hængselsled, kugleled, glideled, saddelled" caption="Ledtyper: Ægled, drejeled, hængselsled, kugleled, glideled, saddelled" %}
 
