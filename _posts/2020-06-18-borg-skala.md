@@ -56,9 +56,15 @@ Morten Zacho har i 2008 bearbejdet Borg-skalaen, så den er lettere at bruge i p
 
 I praksis er det kun nødvendigt at skelne mellem udvalgte niveauer på skalaen. Borg 15 udfør fx skillelinjen mellem det, de fleste vil opfatte som moderat til hård træning. Typisk er det også det niveau, man typisk prøver at ramme til almindelige motionsaktiviteter.
 
+{% comment %}
+
 {% include figure image_path="/assets/images/borg-skala-724x1024.jpg" caption="Borgskala bearbejdet af [Morten Zacho, tidligere motion-online.dk](https://web.archive.org/web/20150316130540/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/borg-skala_paa_den_brugbare_maade/){:rel='nofollow'}" alt="Borgskalaen bearbejdet af Morten Zacho til motion-online.dk - Borg RPE skala og intensitetsskala" %}
- 
+
+{% endcomment %}
+
 Morten Zacho har altså tilføjet en lidt bedre forklaring på følelserne. Samtidig har han tilføjet en sundhedseffekt.
+
+[Find Morten Zachos Borgskala her](https://hjerteforeningen.dk/wp-content/uploads/2016/11/borg-skala-a4-format.pdf){: .btn .btn--large .btn--info }
 
 Borgskalaen er noget lettere at bruge end pulszoner, som man ofte ser rundt omkring. Træningseffekten i højre kolonne er det primære formål med træningen. Det er selvfølgelig også sundt at bevæge sig op over Borg 15.
 
@@ -98,6 +104,8 @@ Området omkring 4-7 RPE er det typisk for konditionstræning og almen aerob tr�
 
 {% include video provider="youtube" id="gaUfbQ9p9OU" %}
 
+{% comment %}
+
 ## Download Borg-skala som PDF
 
 {% include feature_row type="left" %}
@@ -105,7 +113,9 @@ Området omkring 4-7 RPE er det typisk for konditionstræning og almen aerob tr�
 {% include figure image_path="/assets/images/borg-skala-vandret.jpg" caption="Borgskala i en vandret version set fra [www.polio.dk](https://www.polio.dk/service/nyheder/faa-pulsen-op-som-rygmarvsskadet)." alt="Download Borgs anstrengelsesskala og Borgskalaen i PDF til løb og træning - Borg-skala" %}
 
 [<i class='fas fa-file-pdf'></i> Download vandret version](/assets/pdf/borg-skala-vandret.pdf){: .btn .btn--large .btn--danger }
- 
+
+{% endcomment }
+
 ## Hvad kan jeg bruge Borg-skalaen til?
 
 Vi bruger ofte skalaen i forbindelse med tests, men jeg bruger den også for at indikere, hvor hårdt arbejdet skal være i en given aktivitet.
