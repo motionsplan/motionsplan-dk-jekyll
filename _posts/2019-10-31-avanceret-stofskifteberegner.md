@@ -85,6 +85,8 @@ Gerrior et al (2006) benytter så PAL-værdien til at udregne en PA-værdi
 
 Hvis du har et rigtig godt bud, så brug endelig kommentarerne.
 
+{% comment %}
+
 ### Energiforbrug korrigeret for vægt og BMI ifølge Morten Zacho
 
 Denne beregner er delvist baseret på Morten Zachos [energiforbrugberegner](http://health-calc.com/diet/energy-expenditure-advanced).
@@ -126,6 +128,8 @@ TEE = BMR + weight * (0.03 * sitting + 0.1 * standing + 0.26 * light * correctio
 Morten Zacho forklarer ikke nogen steder, hvordan han er endt på de korrektioner, eller hvor han har formlen til TEE fra.
 
 Hvis du kender algoritmerne bag udregneren på [health-calc.com](http://health-calc.com/diet/energy-expenditure-advanced), så skriv endelig.
+
+{% endcomment }
 
 ## Omregning af energiforbrug fra MET-værdier
 
