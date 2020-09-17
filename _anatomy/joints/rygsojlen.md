@@ -30,6 +30,8 @@ header:
   overlay_image: https://besimplywell.com/wp-content/uploads/2018/02/xray-back.jpg
 ---
 
+{% comment %}
+
 Udover halebenet og korsbenet består rygsøjlen af 24 hvirvler. Disse kan inddeles i: 7 halshvirvler, 12 brysthvirvler og 5 lændehvirvler.
 
 Set fra siden er rygsøjlen S-formet med 4 krumninger, hvis man medtager halebenet. Det er vigtigt at vide, at halsdelen buer fremad, brystdelen buer bagud og lænden buer fremad (lændesvajet). Disse krumninger er med til at gøre rygsøjlen fjedrende overfor påvirkninger i længderetningen.
@@ -46,3 +48,5 @@ De forskellige bevægelser foregår forskellige steder i rygsøjlen. Vi undlader
 {% endfor %}
 
 {% include figure image_path=page.image caption=page.title alt=page.title %}
+
+{% endcomment %}

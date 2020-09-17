@@ -17,6 +17,8 @@ header:
   overlay_image: https://www.students4bestevidence.net/app/uploads/2018/01/knee-2253047_1920.jpg
 ---
 
+{% comment %}
+
 Knæleddet er kroppens største og mest komplicerede led. Dette er ikke mærkeligt når man tænker på de belastninger leddet udsættes for f.eks. under idrætsudfoldelse. Af samme grund opstår der ofte skader i dette led, og det er derfor vigtigt at kende til dets opbygning.
 
 Knæleddet er nærmest et hængselled, men når knæet er flekteret kan der laves drejebevægelser med underbenet. Ledfladerne dannes af lårbenet og skinnebenet. Knæskallen danner også ledforbindelser til disse to knogler. Knæskallen sidder indskudt i senen fra den firhovede knæstrækker, der fæster på forsiden af skinnebenet.
@@ -35,3 +37,5 @@ Ledkapslen er forstærket af stærke sideledbånd, der imidlertid bliver løsere
 {% endfor %}
 
 {% include figure image_path=page.image caption=page.title alt=page.title %}
+
+{% endcomment %}

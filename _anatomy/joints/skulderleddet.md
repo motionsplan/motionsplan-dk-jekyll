@@ -57,6 +57,8 @@ header:
   overlay_image: https://www.orthopaedicsone.com/download/attachments/34800936/Little+Leaguer%27s+Shoulder_AP.jpg
 ---
 
+{% comment %}
+
 Skulderens utroligt store bevægelsesfrihed skabes gennem flere forskellige led, som man tilsammen kalder for skulderbæltet. Dette består af leddene mellem henholdsvis: overarmsknoglen og skulderbladet, skulderbladet og brystkassen, kravebenet og skulderbladet og leddet mellem kravebenet og brystbenet.
 
 For at kunne forstå skulderens bevægelser er det imidlertid kun nødvendigt at se på to dele, nemlig det egentlige skulderled (mellem overarmsknoglen og skulderbladet) og selve skulderbladets bevægelser. De fleste store bevægelser med armen vil være en kombination af bevægelser i begge disse “led”.
@@ -86,3 +88,5 @@ Skulderbladets bevægelser er som før nævnt en vigtig del af hele skulderens b
 {% include video provider="youtube" id="PPKlGlwxr5s" %}
 
 {% include figure image_path=page.image caption=page.title alt=page.title %}
+
+{% endcomment %}

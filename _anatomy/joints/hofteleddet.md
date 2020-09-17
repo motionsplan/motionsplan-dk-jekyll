@@ -33,6 +33,8 @@ movements:
 image: https://www.orthonow.com/3d-images/Hip-Anatomy.jpg
 ---
 
+{% comment %}
+
 Hofteleddet er et kugleled, der er dannet af en ledskål på hoftebenet og et ledhoved på lårbensknoglen. Leddet er forstærket af kraftige ledbånd, der begrænser stræknings- og udadføringsbevægelser. Bøjning med bøjet knæ er normalt begrænset af lårets møde med maven. Med strakt knæ er det smidigheden af hasemusklerne der er begrænsende.
 
 ## Bevægelser i hofteleddet
@@ -43,3 +45,5 @@ Hofteleddet er et kugleled, der er dannet af en ledskål på hoftebenet og et le
 {% endfor %}
 
 {% include figure image_path=page.image caption=page.title alt=page.title %}
+
+{% endcomment %}
