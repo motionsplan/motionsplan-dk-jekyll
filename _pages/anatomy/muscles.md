@@ -16,6 +16,8 @@ sidebar:
   nav: anatomi
 ---
 
+{% comment %}
+
 De muskler, der skaber bevægelse af kroppen, kaldes for ”den tværstribede skeletmuskulatur”. Denne side handler om skeletmusklerne. Først kan du læse en kort introduktion til, hvad muskler og skeletmuskler er og deres anatomi. Derefter kigger jeg på de forskellige muskelgrupper.
 
 Musklerne er hæftet til knoglerne via sener. Når musklerne gennem nervesystemet får et signal, vil de trække sig sammen og ved hjælp af leddenes bevægelighed skabe bevægelse af skelettets knogler.
@@ -33,6 +35,8 @@ Skeletmusklerne kan opdeles i tre kategorier.
 - **Stabiliserende muskler**. Disse muskler er mindre lednære muskler, som skal stabilisere leddene. Fx findes der små muskler ned langs rygsøjlen.
 - **Åndedrætsmuskler**. Musklerne indgår i åndedrættet og kan være med til at lave bugtryk.
 - **Bevægelsesmuskler**. Muskler som har til opgave at bevæge kroppen og styre bevægelserne.
+
+{% endcomment }
 
 I nedenstående figur er det mest relevante muskler i forhold til træning vist på skelettet. Alle musklerne er relevante for træningen.
 
