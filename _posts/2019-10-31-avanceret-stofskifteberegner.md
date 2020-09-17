@@ -129,7 +129,7 @@ Morten Zacho forklarer ikke nogen steder, hvordan han er endt på de korrektione
 
 Hvis du kender algoritmerne bag udregneren på [health-calc.com](http://health-calc.com/diet/energy-expenditure-advanced), så skriv endelig.
 
-{% endcomment }
+{% endcomment %}
 
 ## Omregning af energiforbrug fra MET-værdier
 
