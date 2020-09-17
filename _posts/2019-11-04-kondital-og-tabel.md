@@ -110,11 +110,15 @@ Du behøver ikke nødvendigvis at få målt din iltoptagelse i et laboratorium. 
 
 Konditallet indgår ofte, når man vil vurdere den enkeltes sundhedstilstand. Problemet med kondital er imidlertid, at vægten indgår som en del af beregningen, og derfor vil stort set ingen overvægtige vil få et godt kondital, selv om de faktisk er i god form.
 
+{% comment %}
+
 ### Kondital ved index 23
 
 En mulighed for bedre at kunne vurdere den overvægtiges kondital i forhold til sundhed er at udregne konditallet ud fra et index. Fx foreslår Morten Zacho at man beregner konditallet som om vedkommende var normalvægtig ift. BMI 23. Dette kondital kaldes _Kondital ved index 23_. Hvis man beskæftiger sig med sundhed og kondition, så bør man nok inddrage denne værdi i tilbagemeldingen til den testede.
 
 {% include calculate-fitness-index-23.html %}
+
+{% endcomment %}
 
 ## Kondital og vægt bør vurderes uafhængigt
 
