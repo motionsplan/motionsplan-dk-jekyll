@@ -60,6 +60,8 @@ I Jackson og Pollocks trepunktsmåling måles forskellige steder for mænd og kv
 
 Jeg bruger [formlerne som præsenteres på fitties.com](https://fitties.com/fat-caliper-plus/body-fat-calculation-methods/jackson-pollock-3/) i beregneren.
 
+{% comment %}
+
 ## Usikkerheder
 
 Jackson & Pollocks trepunktsmåling er bedst egnet til folk med en relativ lav fedtprocent. I nogle tilfælde formlen have en tendens til at undervurdere den reelle fedtprocent.
@@ -67,6 +69,8 @@ Jackson & Pollocks trepunktsmåling er bedst egnet til folk med en relativ lav f
 ## Noter til Jackson & Pollocks fedtmåling
 
 Der findes også en udgave, hvor man måler 7 punkter. Men ofte vil 3-punkts- og 7-punktsmålingen give nogenlunde samme resultat, så derfor har vi kun lavet en beregner for 3-punktsmålingen.
+
+{% endcomment %}
 
 ## Referencer
 
