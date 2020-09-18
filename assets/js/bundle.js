@@ -631,7 +631,7 @@ $(document).ready(function() {
 
         var et = topunkt.ToPunktTest(age, weight, max_hr, work_1, hr_1, work_2, hr_2);
 
-        $("[name='work_max']").val(et.getMaximalWatt());
+        $("[name='work_max']").val(et.getMaximalWork());
         $("[name='vo2max']").val(et.getMaximalOxygenUptake());
         $("[name='kondital']").val(et.getFitnessLevel());
         return false;
