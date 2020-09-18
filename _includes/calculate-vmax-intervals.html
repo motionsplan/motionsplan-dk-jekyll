@@ -8,7 +8,7 @@
 
 {% assign unit = include.unit | default: "km/t" %}
 {% assign module = include.module | default: "running" %}
-<!--
+{% comment %}
 <form class="calculator" id="calculator_vmax_{{ module }}_intervals">
     <fieldset>
         <legend>Beregning af intervaller - indtast V<sub>max</sub> og T<sub>max</sub></legend>
@@ -56,4 +56,4 @@
         </div>
     </fieldset>
 </form>
--->
+{% endcomment %}

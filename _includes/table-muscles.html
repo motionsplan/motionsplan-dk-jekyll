@@ -1,5 +1,5 @@
 {% assign muscles_by_group = site.anatomy | where: "tags", "muskel" | group_by: "group" %}
-<!--
+{% comment %}
 <script>
 function KalorieSearch() {
   // Declare variables
@@ -25,7 +25,7 @@ function KalorieSearch() {
 </script>
 
 <input type="text" id="kalorie_search" onkeyup="KalorieSearch()" placeholder="Søg efter fødevarer...">
--->
+{% endcomment %}
 <table id="muscles">
   <caption>Muskeloversigt: Muskelgrupper og navne på muskler på dansk og latin</caption>
   <thead>
