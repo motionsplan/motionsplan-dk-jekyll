@@ -48,7 +48,7 @@ Du kan beregne dit kondital ved at indtaste værdierne i beregneren nedenunder, 
 
 {% include calculate-topunkttest.html %}
 
-Åstrands topunktstest bliver mest pålidelig, hvis ender med at køre _steady state_ på to pulsværdier, der ikke ligger alt for tæt på hinanden. Fx er 130 slag/min og 160 slag/min en fin spredning på pulsværdierne.
+Åstrands topunktstest bliver mest pålidelig, hvis du ender med at køre _steady state_ på to pulsværdier, der ikke ligger alt for tæt på hinanden. Fx er 130 slag/min og 160 slag/min en fin spredning på pulsværdierne.
 
 ## Beregningerne bag Åstrands topunktstest
 
