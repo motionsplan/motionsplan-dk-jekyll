@@ -5,48 +5,46 @@
         var weight = parseInt(form.weight.value);
         var height = parseInt(form.height.value); // convert to meters
         var sex = form.sexHidden.value;
-        var alder= age;
-        var vaegt = weight;
 
         // Værdier baseret på Schofield
         if (sex == "male") {
-            if ((alder > 0) && (alder < 3)) {
-                bmr = 249 * vaegt - 127;
+            if ((age > 0) && (age < 3)) {
+                bmr = 249 * weight - 127;
             }
-            else if ((alder > 2) && (alder < 11)) {
-                bmr = 95 * vaegt + 2110;
+            else if ((age > 2) && (age < 11)) {
+                bmr = 95 * weight + 2110;
             }
-            else if ((alder > 10) && (alder < 19)) {
-                bmr = 74 * vaegt + 2754;
+            else if ((age > 10) && (age < 19)) {
+                bmr = 74 * weight + 2754;
             }
-            else if ((alder > 18) && (alder < 31)) {
-                bmr = 63 * vaegt + 2896;
+            else if ((age > 18) && (age < 31)) {
+                bmr = 63 * weight + 2896;
             }
-            else if ((alder > 30) && (alder < 61)) {
-                bmr = 48 * vaegt + 3653;
+            else if ((age > 30) && (age < 61)) {
+                bmr = 48 * weight + 3653;
             }
-            else if ((alder > 60)) {
-                bmr = 49.9 * vaegt + 2930;
+            else if ((age > 60)) {
+                bmr = 49.9 * weight + 2930;
             }
         }
         else if (sex == "female") {
-            if ((alder > 0) && (alder < 3)) {
-                bmr = 244 * vaegt - 130;
+            if ((age > 0) && (age < 3)) {
+                bmr = 244 * weight - 130;
             }
-            else if ((alder > 2) && (alder < 11)) {
-                bmr = 85 * vaegt + 2033;
+            else if ((age > 2) && (age < 11)) {
+                bmr = 85 * weight + 2033;
             }
-            else if ((alder > 10) && (alder < 19)) {
-                bmr = 56 * vaegt + 2898;
+            else if ((age > 10) && (age < 19)) {
+                bmr = 56 * weight + 2898;
             }
-            else if ((alder > 18) && (alder < 31)) {
-                bmr = 62 * vaegt + 2036;
+            else if ((age > 18) && (age < 31)) {
+                bmr = 62 * weight + 2036;
             }
-            else if ((alder > 30) && (alder < 61)) {
-                bmr = 34 * vaegt + 3538;
+            else if ((age > 30) && (age < 61)) {
+                bmr = 34 * weight + 3538;
             }
-            else if ((alder > 60)) {
-                bmr = 38 * vaegt + 2755;
+            else if ((age > 60)) {
+                bmr = 38 * weight + 2755;
             }
         }
 
