@@ -103,39 +103,11 @@
         // Using Gerrior PAL calculations as constant
         var activityConstant = pal_gerrior;
 
-        // Corrections proposed by Morten Zacho
-        var bmi = weight / ((height / 100) * (height / 100));
-        var TEE;
-    	var correction1;
-    	var correction2;
-        var correction3;
-        if (bmi > 30) {
-            correction1 = Math.sqrt(30) / Math.sqrt(bmi);
-            correction2 = 30 / bmi;
-            correction3 = 30 / bmi;
-        } else {
-            correction1 = 1;
-            correction2 = 1;
-            correction3 = 1;
-	    }
-
-        var factor = (0.03 * activity_sitting + 0.1 * activity_standing + 0.26 * activity_light * correction1 + 0.5 * activity_moderat * correction2 + 0.88 * activity_intense * correction3);
-
-	    // Correction for children
-        if (weight < 50) {
-            var weight_correction = (1 + 0.5 * (50 - weight) / 50);
-            TEE = BMR + weight * ((0.03 * activity_sitting + 0.1 * activity_standing + 0.26 * activity_light * correction1 + 0.5 * activity_moderat * correction2 + 0.88 * activity_intense * correction3)) * weight_correction;
-        } else {		
-            TEE = BMR + weight * ((0.03 * activity_sitting + 0.1 * activity_standing + 0.26 * activity_light * correction1 + 0.5 * activity_moderat * correction2 + 0.88 * activity_intense * correction3));
-        }
-        // Corrections based on Morten Zacho done
-
         var vedligehold = basicMeta * activityConstant;
         document.getElementById('pal_gerrior').value = pal_gerrior;
         document.getElementById('activity_sitting').value = activity_sitting;
         document.getElementById('bmr').value = basicMeta + " kJ";
         document.getElementById('equilibrium').value = vedligehold + " kJ";
-        //document.getElementById('TEE').value = TEE + " kJ";
         return false;
     }
 </script>
@@ -210,8 +182,7 @@
         </div>
         <div class="form-group">
             <label for="TEE">Energiforbrug - Korrigeret for vægt og BMI (kJ)</label>
-            <!--<input name="TEE" id="TEE" disabled="disabled">-->
-            <p class="help-block">Jeg vil gerne forsøge at lave en beregner, der kan korrigere for alder, vægt og BMI i forhold til nogle af de ideer Morten Zacho præsenterer. Hvis du har en ide til nogle <em>open source</em>-korrektioner, som er baseret på videnskab, så hører jeg meget gerne fra dig.</p>
+            <p class="help-block">Jeg vil gerne forsøge at lave en beregner, der kan korrigere for alder, vægt og BMI i forhold til nogle af de <a href="http://health-calc.com/diet/energy-expenditure-advanced">ideer Morten Zacho præsenterer</a>. Hvis du har en ide til nogle <em>open source</em>-korrektioner, som er baseret på videnskab, så hører jeg meget gerne fra dig.</p>
         </div>
     </fieldset>
 </form>
