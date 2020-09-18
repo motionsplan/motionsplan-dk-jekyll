@@ -1,22 +1,23 @@
 let motionsplan = {}
 
-motionsplan.ToPunktTest = function(age, weight, work1, hr1, work2, hr2) {
+motionsplan.ToPunktTest = function(age, weight, max_hr, work1, hr1, work2, hr2) {
   var work_1 = work1;
   var hr_1 = hr1;
   var work_2 = work2;
   var hr_2 = hr2;
   var age = age;
   var weight = weight;
+  var hr_max = max_hr;
 
-  // TODO: How can we let the user choose this for them selves
-  // Dependency injection of max-hr calculator
-  function getMaximalHeartRate() {
-    return 208 - 0.7 * age;
+  function getMaximalWork() {
+    return ((hr_max - hr_2) * (work_2 - work_1)) / (hr_2 - hr_1) + work_2;
   }
 
   function getMaximalOxygenUptake() {
-    var workmax = ((getMaximalHeartRate() - hr_2) * (work_2 - work_1)) / (hr_2 - hr_1) + work_2 * 1;
-    return (workmax / 0.23 * 60 / 21100 + 0.25);
+    var mechanical_efficiency = 0.23;
+    var oxygen_energy = 21100;
+    var bmr = 0.25;
+    return (getMaximalWork() / mechanical_efficiency * 60 / oxygen_energy + bmr);
   }
   
   function getFitnessLevel() {
@@ -24,6 +25,7 @@ motionsplan.ToPunktTest = function(age, weight, work1, hr1, work2, hr2) {
   }
 
   var publicAPI = {
+    getMaximalWork : getMaximalWork,
     getMaximalOxygenUptake: getMaximalOxygenUptake,
     getFitnessLevel : getFitnessLevel
 

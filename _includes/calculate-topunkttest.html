@@ -1,40 +1,42 @@
-<form class="calculator" id="calculator_closed">
-    <fieldset>
-        <legend>Formular midlertidig lukket</legend>
-        <p>Er ved at blive opdateret.</p>
-    </fieldset>
-</form>
-<!--
 <form class="calculator" id="calculator_topunkttest">
     <fieldset>
         <legend>Topunktstest. Indtast de målte værdier.</legend>
         <div class="form-group">
             <label for="work_1">1. arbejdsbelastning (watt)</label>
-            <input type="number" min="20" max="500" placeholder="fx 100" name="arb1" id="arb1">
+            <input type="number" min="20" max="500" placeholder="fx 100" name="work_1" id="work_1">
         </div>
         <div class="form-group">
             <label for="hr_1">Puls ved 1. arbejdsbelastning (slag / min)</label>
-            <input type="number" min="30" max="250" placeholder="fx 120" name="puls1" id="puls1">
+            <input type="number" min="30" max="250" placeholder="fx 120" name="hr_1" id="hr_1">
         </div>
         <div class="form-group">
             <label for="work_2">2. arbejdsbelastning (watt)</label>
-            <input type="number" min="20" max="500" placeholder="fx 180" name="arb2" id="arb2">
+            <input type="number" min="20" max="500" placeholder="fx 180" name="work_2" id="work_2">
         </div>
         <div class="form-group">
             <label for="hr_2">Puls ved 2. arbejdsbelastning (slag / min)</label>
-            <input type="number" min="20" max="500" placeholder="fx 150" name="puls2" id="puls2">
+            <input type="number" min="20" max="500" placeholder="fx 150" name="hr_2" id="hr_2">
         </div>
         <div class="form-group">
-            <label for="age">Alder (år)</label>
-            <input type="number" min="10" max="100" placeholder="fx 40" name="alder" id="alder">
+            <label for="age">age (år)</label>
+            <input type="number" min="10" max="100" placeholder="fx 40" name="age" id="age">
+        </div>
+        <div class="form-group">
+            <label for="age">Maksimale puls (slag/min)</label>
+            <input type="number" min="30" max="250" placeholder="fx 40" name="max_hr" id="max_hr">
+            <p class="help-inline">Hvis du ikke kender din maksimale puls, så kan du estimere den ud fra din alder med vores <a href="{% link _posts/2020-06-02-max-hr.md %}">beregner</a>.</p>
         </div>
         <div class="form-group">
             <label for="weight">Vægt (kg)</label>
-            <input type="number" min="10" max="200" placeholder="fx 70" name="vaegt" id="vaegt" step="0.1">
+            <input type="number" min="10" max="200" placeholder="fx 70" name="weight" id="weight" step="0.1">
         </div>
         <input type="submit" value="Beregn">
     </fieldset>
     <fieldset class="results">
+        <div class="form-group">
+            <label for="work_max">Maksimale arbejdsbelastning (watt)</label>
+            <input name="work_max" id="work_max" disabled="disabled">
+        </div>
         <div class="form-group">
             <label for="vo2max">Maximal iltoptagelse (l/min)</label>
             <input name="vo2max" id="vo2max" disabled="disabled">
@@ -45,4 +47,3 @@
         </div>
     </fieldset>
 </form>
--->

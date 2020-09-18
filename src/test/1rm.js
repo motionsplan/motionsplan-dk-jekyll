@@ -92,31 +92,4 @@ describe('Estimate1RM', function() {
     });
   });
   */
-  describe('getMol', function() {
-    it('should return the correct number', function() {  
-      var rm = motionsplan.Estimate1RM(100, 5);
-      // trained, gender
-      assert.equal(rm.getMOL(1, 1), 108.68442932523273);
-      assert.equal(rm.getMOL(1, 0), 109.94750006871719);
-      assert.equal(rm.getMOL(0, 1), 111.90564116337104);
-      assert.equal(rm.getMOL(0, 0), 112.76118309033298);
-    });
-  });
-  describe('getMOL', function() {
-    it('should work with rm requests', function() {
-      // weigt, reps
-      var rm = motionsplan.Estimate1RM(100, 5);
-      // man and trained
-      assert.equal(rm.getMOL(1, 1), 108.68442932523273);
-      assert.equal(rm.getMOL(1, 1, 2), 106.85396616653716);
-      assert.equal(rm.getMOL(1, 1, 3), 104.56931077769143);
-      assert.equal(rm.getMOL(1, 1, 4), 102.2846553888457);
-      assert.equal(rm.getMOL(1, 1, 5), 100.00000000000001);
-      assert.equal(rm.getMOL(1, 1, 6), 97.7153446111543);
-      assert.equal(rm.getMOL(1, 1, 8), 93.14603383346284);
-      assert.equal(rm.getMOL(1, 1, 10), 88.57672305577142);
-      assert.equal(rm.getMOL(1, 1, 12), 84.00741227807997);
-      assert.equal(rm.getMOL(1, 1, 15), 77.15344611154282);
-    });
-  });    
 });

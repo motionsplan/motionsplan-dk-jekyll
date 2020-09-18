@@ -286,9 +286,11 @@ $(document).ready(function() {
         var hr_2 = Number($("[name='hr_2']").val());
         var age = Number($("[name='age']").val());
         var weight = Number($("[name='weight']").val());
+        var max_hr = Number($("[name='max_hr']").val());
 
-        var et = topunkt.ToPunktTest(age, weight, work_1, hr_1, work_2, hr_2);
+        var et = topunkt.ToPunktTest(age, weight, max_hr, work_1, hr_1, work_2, hr_2);
 
+        $("[name='work_max']").val(et.getMaximalWatt());
         $("[name='vo2max']").val(et.getMaximalOxygenUptake());
         $("[name='kondital']").val(et.getFitnessLevel());
         return false;
