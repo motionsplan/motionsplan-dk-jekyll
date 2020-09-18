@@ -121,58 +121,6 @@ motionsplan.Estimate1RM = function(weight, repetitions = 5) {
     return 1 / (((rm * .0333) / repmax) + (1 / repmax));
   }
 
-  /**
-   * Advanced - based on the following references.
-   * https://www.motion-online.dk/rm-beregner/
-   * https://www.motion-online.dk/rm-beregner-teoretisk-baggrund/
-   */
-  function getMOL(trained, sex, rm = 1) {
-    var trained, koen;
-    var a, b, repmax;
-    
-    trained = trained;
-    koen = sex;
-
-    if (isMale(sex)) {
-      if (trained == 1) {
-        a = -2.1021;
-        b = 102.52;
-      }
-      else if (trained == 0) {
-        a = -2.6578;
-        b = 102.65;
-      }
-    } else {
-      if (trained == 1) {
-        a = -2.1275;
-        b = 101.59;
-      }
-      else if (trained == 0) {
-        a = -2.6914;
-        b = 102.14;
-      }
-    }
-    if (repetitions == 1) {
-      repmax = weight;
-    }
-    else {
-      repmax = weight / (a * repetitions + b) * 100;
-    }
-
-    if (rm == 1) {
-      return repmax;
-    }
-    return (a*rm+b)*repmax/100;
-  }
-  
-  // Helper function for getMOL()
-  function isMale(sex) {
-    if (sex == 1) {
-      return true;
-    }
-    return false;
-  }
-
   function getPercentOfRm(rm, percent) {
     return rm * percent / 100;
   }
@@ -189,7 +137,6 @@ motionsplan.Estimate1RM = function(weight, repetitions = 5) {
     getMayhew: getMayhew,
     getOconnor: getOconnor,
     getWathan: getWathan,
-    getMOL: getMOL,
     getPercentOfRm: getPercentOfRm,
     getWendler: getWendler
   };

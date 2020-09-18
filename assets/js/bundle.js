@@ -313,58 +313,6 @@ motionsplan.Estimate1RM = function(weight, repetitions = 5) {
     return 1 / (((rm * .0333) / repmax) + (1 / repmax));
   }
 
-  /**
-   * Advanced - based on the following references.
-   * https://www.motion-online.dk/rm-beregner/
-   * https://www.motion-online.dk/rm-beregner-teoretisk-baggrund/
-   */
-  function getMOL(trained, sex, rm = 1) {
-    var trained, koen;
-    var a, b, repmax;
-    
-    trained = trained;
-    koen = sex;
-
-    if (isMale(sex)) {
-      if (trained == 1) {
-        a = -2.1021;
-        b = 102.52;
-      }
-      else if (trained == 0) {
-        a = -2.6578;
-        b = 102.65;
-      }
-    } else {
-      if (trained == 1) {
-        a = -2.1275;
-        b = 101.59;
-      }
-      else if (trained == 0) {
-        a = -2.6914;
-        b = 102.14;
-      }
-    }
-    if (repetitions == 1) {
-      repmax = weight;
-    }
-    else {
-      repmax = weight / (a * repetitions + b) * 100;
-    }
-
-    if (rm == 1) {
-      return repmax;
-    }
-    return (a*rm+b)*repmax/100;
-  }
-  
-  // Helper function for getMOL()
-  function isMale(sex) {
-    if (sex == 1) {
-      return true;
-    }
-    return false;
-  }
-
   function getPercentOfRm(rm, percent) {
     return rm * percent / 100;
   }
@@ -381,7 +329,6 @@ motionsplan.Estimate1RM = function(weight, repetitions = 5) {
     getMayhew: getMayhew,
     getOconnor: getOconnor,
     getWathan: getWathan,
-    getMOL: getMOL,
     getPercentOfRm: getPercentOfRm,
     getWendler: getWendler
   };
@@ -452,17 +399,11 @@ $(document).ready(function() {
     });
 
     $("#form-formula").ready(function() {
-        $(".motiononline").hide();
         $(".reynolds").hide();
         $(".navy-hip").hide();
     });
     // 1RM calculate
     $("#form-formula").change(function() {
-        if ($("#form-formula").val() == 'motiononline') {
-            $(".motiononline").show();
-        } else {
-            $(".motiononline").hide();
-        }
         if ($("#form-formula").val() == 'reynolds') {
             $(".reynolds").show();
         } else {
@@ -485,8 +426,6 @@ $(document).ready(function() {
 
         var reps = Number($("#form-reps").val());
         var weight = Number($("#form-weight").val());
-        var trained = Number($("#form-trained").val());
-        var sex = Number($("#form-sex").val());
         var bodypart = $("#form-bodypart").val();
 
         var r = rm.Estimate1RM(weight, reps);
@@ -599,18 +538,6 @@ $(document).ready(function() {
             $("#rm10").val(r.getWendler(10).toFixed(decimals));
             $("#rm12").val(r.getWendler(12).toFixed(decimals));
             $("#rm15").val(r.getWendler(15).toFixed(decimals));
-        } else {
-            repmax = r.getMOL(trained, sex);
-            $("#rm1").val(repmax.toFixed(decimals));
-            $("#rm2").val(r.getMOL(trained, sex, 2).toFixed(decimals));
-            $("#rm3").val(r.getMOL(trained, sex, 3).toFixed(decimals));
-            $("#rm4").val(r.getMOL(trained, sex, 4).toFixed(decimals));
-            $("#rm5").val(r.getMOL(trained, sex, 5).toFixed(decimals));
-            $("#rm6").val(r.getMOL(trained, sex, 6).toFixed(decimals));
-            $("#rm8").val(r.getMOL(trained, sex, 8).toFixed(decimals));
-            $("#rm10").val(r.getMOL(trained, sex, 10).toFixed(decimals));
-            $("#rm12").val(r.getMOL(trained, sex, 12).toFixed(decimals));
-            $("#rm15").val(r.getMOL(trained, sex, 15).toFixed(decimals));
         }
 
         $("#p100").val(r.getPercentOfRm(repmax, 100).toFixed(decimals));
@@ -694,17 +621,17 @@ $(document).ready(function() {
     $("#calculator_topunkttest").submit(function() {
         console.log("Topunkt test");
 
-        var arb1 = Number($("[name='arb1']").val());
-        var arb2 = Number($("[name='arb2']").val());
-        var puls1 = Number($("[name='puls1']").val());
-        var puls2 = Number($("[name='puls2']").val());
-        var alder = Number($("[name='alder']").val());
-        var vaegt = Number($("[name='vaegt']").val());
+        var work_1 = Number($("[name='work_1']").val());
+        var work_2 = Number($("[name='work_2']").val());
+        var hr_1 = Number($("[name='hr_1']").val());
+        var hr_2 = Number($("[name='hr_2']").val());
+        var age = Number($("[name='age']").val());
+        var weight = Number($("[name='weight']").val());
 
-        var et = topunkt.ToPunktTest(alder, vaegt, arb1, puls1, arb2, puls2);
+        var et = topunkt.ToPunktTest(age, weight, work_1, hr_1, work_2, hr_2);
 
-        $("[name='Iltoptag']").val(et.getMaximalOxygenUptake());
-        $("[name='Kondital']").val(et.getFitnessLevel());
+        $("[name='vo2max']").val(et.getMaximalOxygenUptake());
+        $("[name='kondital']").val(et.getFitnessLevel());
         return false;
     });
     // Calculate Max Heart Rate
@@ -2790,27 +2717,26 @@ module.exports = motionsplan;
 let motionsplan = {}
 
 motionsplan.ToPunktTest = function(age, weight, work1, hr1, work2, hr2) {
-  var arb1 = work1;
-  var puls1 = hr1;
-  var arb2 = work2;
-  var puls2 = hr2;
-  var alder = age;
-  var vaegt = weight;
+  var work_1 = work1;
+  var hr_1 = hr1;
+  var work_2 = work2;
+  var hr_2 = hr2;
+  var age = age;
+  var weight = weight;
 
   // TODO: How can we let the user choose this for them selves
   // Dependency injection of max-hr calculator
   function getMaximalHeartRate() {
-    return 208 - 0.7 * alder;
+    return 208 - 0.7 * age;
   }
 
   function getMaximalOxygenUptake() {
-    var delres;
-    delres = ((getMaximalHeartRate() - puls2) * (arb2 - arb1)) / (puls2 - puls1) + arb2 * 1;
-    return Math.round((delres / 0.23 * 60 / 21100 + 0.25) * Math.pow(10, 2)) / Math.pow(10, 2)
+    var workmax = ((getMaximalHeartRate() - hr_2) * (work_2 - work_1)) / (hr_2 - hr_1) + work_2 * 1;
+    return (workmax / 0.23 * 60 / 21100 + 0.25);
   }
   
   function getFitnessLevel() {
-    return Math.round((getMaximalOxygenUptake() / vaegt * 1000) * Math.pow(10, 1)) / Math.pow(10, 1);
+    return (getMaximalOxygenUptake() / weight * 1000);
   }
 
   var publicAPI = {

@@ -58,17 +58,11 @@ $(document).ready(function() {
     });
 
     $("#form-formula").ready(function() {
-        $(".motiononline").hide();
         $(".reynolds").hide();
         $(".navy-hip").hide();
     });
     // 1RM calculate
     $("#form-formula").change(function() {
-        if ($("#form-formula").val() == 'motiononline') {
-            $(".motiononline").show();
-        } else {
-            $(".motiononline").hide();
-        }
         if ($("#form-formula").val() == 'reynolds') {
             $(".reynolds").show();
         } else {
@@ -91,8 +85,6 @@ $(document).ready(function() {
 
         var reps = Number($("#form-reps").val());
         var weight = Number($("#form-weight").val());
-        var trained = Number($("#form-trained").val());
-        var sex = Number($("#form-sex").val());
         var bodypart = $("#form-bodypart").val();
 
         var r = rm.Estimate1RM(weight, reps);
@@ -205,18 +197,6 @@ $(document).ready(function() {
             $("#rm10").val(r.getWendler(10).toFixed(decimals));
             $("#rm12").val(r.getWendler(12).toFixed(decimals));
             $("#rm15").val(r.getWendler(15).toFixed(decimals));
-        } else {
-            repmax = r.getMOL(trained, sex);
-            $("#rm1").val(repmax.toFixed(decimals));
-            $("#rm2").val(r.getMOL(trained, sex, 2).toFixed(decimals));
-            $("#rm3").val(r.getMOL(trained, sex, 3).toFixed(decimals));
-            $("#rm4").val(r.getMOL(trained, sex, 4).toFixed(decimals));
-            $("#rm5").val(r.getMOL(trained, sex, 5).toFixed(decimals));
-            $("#rm6").val(r.getMOL(trained, sex, 6).toFixed(decimals));
-            $("#rm8").val(r.getMOL(trained, sex, 8).toFixed(decimals));
-            $("#rm10").val(r.getMOL(trained, sex, 10).toFixed(decimals));
-            $("#rm12").val(r.getMOL(trained, sex, 12).toFixed(decimals));
-            $("#rm15").val(r.getMOL(trained, sex, 15).toFixed(decimals));
         }
 
         $("#p100").val(r.getPercentOfRm(repmax, 100).toFixed(decimals));
@@ -300,17 +280,17 @@ $(document).ready(function() {
     $("#calculator_topunkttest").submit(function() {
         console.log("Topunkt test");
 
-        var arb1 = Number($("[name='arb1']").val());
-        var arb2 = Number($("[name='arb2']").val());
-        var puls1 = Number($("[name='puls1']").val());
-        var puls2 = Number($("[name='puls2']").val());
-        var alder = Number($("[name='alder']").val());
-        var vaegt = Number($("[name='vaegt']").val());
+        var work_1 = Number($("[name='work_1']").val());
+        var work_2 = Number($("[name='work_2']").val());
+        var hr_1 = Number($("[name='hr_1']").val());
+        var hr_2 = Number($("[name='hr_2']").val());
+        var age = Number($("[name='age']").val());
+        var weight = Number($("[name='weight']").val());
 
-        var et = topunkt.ToPunktTest(alder, vaegt, arb1, puls1, arb2, puls2);
+        var et = topunkt.ToPunktTest(age, weight, work_1, hr_1, work_2, hr_2);
 
-        $("[name='Iltoptag']").val(et.getMaximalOxygenUptake());
-        $("[name='Kondital']").val(et.getFitnessLevel());
+        $("[name='vo2max']").val(et.getMaximalOxygenUptake());
+        $("[name='kondital']").val(et.getFitnessLevel());
         return false;
     });
     // Calculate Max Heart Rate

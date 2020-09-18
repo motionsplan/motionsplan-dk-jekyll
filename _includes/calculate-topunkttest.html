@@ -9,39 +9,39 @@
     <fieldset>
         <legend>Topunktstest. Indtast de målte værdier.</legend>
         <div class="form-group">
-            <label for="arb1">1. arbejdsbelastning (watt)</label>
+            <label for="work_1">1. arbejdsbelastning (watt)</label>
             <input type="number" min="20" max="500" placeholder="fx 100" name="arb1" id="arb1">
         </div>
         <div class="form-group">
-            <label for="puls1">Puls ved 1. arbejdsbelastning (slag / min)</label>
+            <label for="hr_1">Puls ved 1. arbejdsbelastning (slag / min)</label>
             <input type="number" min="30" max="250" placeholder="fx 120" name="puls1" id="puls1">
         </div>
         <div class="form-group">
-            <label for="arb2">2. arbejdsbelastning (watt)</label>
+            <label for="work_2">2. arbejdsbelastning (watt)</label>
             <input type="number" min="20" max="500" placeholder="fx 180" name="arb2" id="arb2">
         </div>
         <div class="form-group">
-            <label for="puls2">Puls ved 2. arbejdsbelastning (slag / min)</label>
+            <label for="hr_2">Puls ved 2. arbejdsbelastning (slag / min)</label>
             <input type="number" min="20" max="500" placeholder="fx 150" name="puls2" id="puls2">
         </div>
         <div class="form-group">
-            <label for="alder">Alder (år)</label>
+            <label for="age">Alder (år)</label>
             <input type="number" min="10" max="100" placeholder="fx 40" name="alder" id="alder">
         </div>
         <div class="form-group">
-            <label for="vaegt">Vægt (kg)</label>
+            <label for="weight">Vægt (kg)</label>
             <input type="number" min="10" max="200" placeholder="fx 70" name="vaegt" id="vaegt" step="0.1">
         </div>
         <input type="submit" value="Beregn">
     </fieldset>
     <fieldset class="results">
         <div class="form-group">
-            <label for="Iltoptag">Maximal iltoptagelse (l/min)</label>
-            <input name="Iltoptag" id="Iltoptag" disabled="disabled">
+            <label for="vo2max">Maximal iltoptagelse (l/min)</label>
+            <input name="vo2max" id="vo2max" disabled="disabled">
         </div>
         <div class="form-group">
-            <label for="Kondital">Kondital (ml/kg/min)</label>
-            <input name="Kondital" id="Kondital" disabled="disabled">
+            <label for="kondital">Kondital (ml/kg/min)</label>
+            <input name="kondital" id="kondital" disabled="disabled">
         </div>
     </fieldset>
 </form>
