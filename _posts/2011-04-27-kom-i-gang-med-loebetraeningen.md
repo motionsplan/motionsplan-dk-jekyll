@@ -180,7 +180,7 @@ Hvad vil du gerne forbedre i dag?
 
 Hvis du gerne vil træne din udholdenhed, så sørg for at løbe langsomt. Du skal ikke lige give den "gas" de sidste 15 minutter, som mange af os kan få lyst til, fordi det ellers ikke helt "føles som en hård træning".
 
-Hvis du gerne vil flytte din anaerobe tærskel eller maksimale iltoptagelse, så kommer det til at kunne mærkes. Kroppen skal op og arbejde med maksimal intensitet, og det kan mærkes.
+Hvis du gerne vil flytte din **anaerobe tærskel** eller **maksimale iltoptagelse**, så kommer det til at kunne mærkes. Kroppen skal op og arbejde med maksimal intensitet, og det kan mærkes.
 
 Det rykker ikke for alvor noget ved din løbetræning, hvis du bare løber uden at tænke over, hvad du træner.
 

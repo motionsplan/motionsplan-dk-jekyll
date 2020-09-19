@@ -32,9 +32,7 @@ feature_row:
 
 Du kan lave en RM-test for at finde ud af, hvor meget du kan løfte. I en RM-test kan du enten lave et maksimalt løft, hvilket naturligvis er meget præcist. Du kan også lave submaksimale løft med flere gentagelser og bagefter bruge en formel eller en RM-beregner til at hjælpe med at estimere og udregne, hvad du kan løfte en gang.
 
-Men hvad er en RM-beregner egentlig?
-
-**En RM-beregner kan udregne _Repetition Maximum (RM)_. RM-begrebet kan først og fremmest bruges til at estimere, hvad du maksimalt kan løfte en gang ud fra vægten på et submaksimalt løft med flere gentagelser. Ud fra din 1RM kan du derefter estimere forskellige RM-vægte, som fx kan anvendes i træningsprogrammer.**
+Hvad er en RM-beregner? **En RM-beregner kan udregne _Repetition Maximum (RM)_. RM-begrebet kan først og fremmest bruges til at estimere, hvad du maksimalt kan løfte en gang ud fra vægten på et submaksimalt løft med flere gentagelser. Ud fra din 1RM kan du derefter estimere forskellige RM-vægte, som fx kan anvendes i træningsprogrammer.**
 
 Dette indlæg handler primært om at estimere hvad 1RM max er baseret på en RM-beregner.
 
@@ -61,8 +59,6 @@ Der er lavet rigtig mange forskellige studier, der har forsøgt at give sit bud 
 Reynolds (2006) har selv i et metastudium kåret **Reynolds egen formel til at være den mest præcise** (men studiet er baseret på, at man nøjagtigt laver en 5RM-tests).
 
 Jeg kan godt lide at give mulighed for det er lidt mere fleksibelt under udførelsen. Så selvom man går efter en 5RM, så vil en 4RM eller en 6RM også fungere fint i udregningerne, så man ikke behøver at lave et nyt forsøg. Derfor har jeg **regnet baglæns for Reynolds formel, så den bliver mere fleksibel**.
-
-Morten Zacho indikerer med sin tidligere beregner fra motion-online.dk, at køn og træningstilstand også har en effekt, men de parametre findes ikke i andre forskeres formler. Jeg har også inkluderet Motion Onlines RM-beregner som mulighed i den nedenstående beregner.
 
 Lad os først springe til 1RM-beregneren, så kan vi kigge yderligere på forbeholdene efterfølgende.
 
@@ -171,7 +167,6 @@ Husk også at teknikken stadig er vigtig, selvom du gerne vil løfte tungt. Der 
 
 - [Testing 1RM](https://www.scienceforsport.com/1rm-testing/)
 - Reynolds, Jeff M., Toryanno J. Gordon, og Robert Andrew Robergs. “Prediction of one repetition maximum strength from multiple repetition maximum testing and anthropometry.” Journal of strength and conditioning research 20, nr. 3 (2006): 584–92. <https://doi.org/10.1519/R-15304.1>.
-- [Morten Zacho](https://www.motion-online.dk/rm-beregner-teoretisk-baggrund/){:rel="nofollow"}
 - [Jacob Beermann](https://maxer.dk/artikler/maxtest)
 
 {% include feature_row type="left" %}
