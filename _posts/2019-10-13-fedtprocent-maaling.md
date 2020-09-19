@@ -59,6 +59,8 @@ Det er klart, at den optimale fedtprocent i forhold til sundhed ikke nødvendigv
 
 Du kan imidlertid få målt din fedtprocent, hvis du er i tvivl om du er sund nok. Det er både problematisk for din sundhed, hvis du har for lav og for høj fedtprocent. Så som meget andet i livet handler det om en balance.
 
+{% comment %}
+
 Der er følgende sundshedsmæssige udfordringer ved **ikke** at have en passende fedtprocent og kropskomposition.
 
 - Hvis du er **undervægtig**, er der øget risiko for knogleskørhed, næringsmangel, træthed, muskelsvind, lavt blodtryk, svimmelhed og nedsat modstandskraft.
@@ -89,15 +91,21 @@ For den almindelige fitnessudøver så kan følgende være muligheder for at få
 
 - **Bestemmelse af fedtprocent med målebånd**. Der findes også en række forslag til, hvordan man kan bestemme fedtprocenten ved at måle sig selv med et målebånd forskellige steder på kroppen. Fælles for alle metoderne er, at der er lige så meget usikkerhed om det faktiske resultat som at udregne fedtprocenten. 
 
+{% endcomment %}
+
 {% comment %}
 
 Jeg har beskrevet [to]({% link _posts/2019-10-14-fedtprocent-maalebaand.md %}) [forskellige]({% link _posts/2019-10-14-fedtprocent-maalebaand-navy.md %}) metoder.
 
 {% endcomment %}
 
+{% comment %}
+
 - **Måling af fedtprocent med fedttang**. En fedttang kan være et udmærket værktøj, hvis du har behov for at følge en fremgang. Hvis du øver dig i at bruge en fedttang, så kan du med ret stor sikkerhed reproducere din hudfoldsmåling over tid. Fedttangen giver ikke den præcise fedtprocent, men kan være rimelig pålidelig i forhold til at estimere ændringerne. Jeg har skrevet mere om [måling af fedtprocent og hudfoldstykkelser med fedttang her]({% link _posts/2019-10-14-fedtprocent-skinfold.md %}).
 
 - **Måling af fedtprocent med bioimpedans**. Nogle af de nye ret dyre bioimpedansmålere kan give et fornuftigt bud på din fedtprocent. Nu om dage kan du få relativt prisbillige badevægt, der måler fedtprocenten med bioimpedans, men de billige modeller er formentlig for upræcise. Hvis du kan følge alle anvisninger og måle dig under de samme forhold over tid, så kan du måske godt bruge det til at bestemme en ændring. Jeg har skrevet mere om [bioimpedansmålinger her]({% link _posts/2019-10-14-fedtprocent-bioimpedans-inbody-570.md %}).
+
+{% endcomment %}
 
 ## Måling af fedtprocent - og hvad så?
 
