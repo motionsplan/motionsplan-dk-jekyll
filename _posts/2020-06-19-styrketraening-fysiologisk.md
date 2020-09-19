@@ -144,6 +144,8 @@ Styrketræning er den stimulus, der giver anledning til at udløse vækstfaktore
 
 - **Stræk**. Den mekaniske trækbelastning og stræk af muskelcellerne ser ud til at udløse vækstfaktorer.
 
+{% comment %}
+
 Følgende har også været foreslået som udløsere af vækstfaktorer:
 
 - **Affaldsstoffer**. Hvis der kommer affaldsstoffer i musklerne, så kan det måske også være et signal til vækst.
@@ -165,6 +167,8 @@ Per Aagaard (2009) har lavet følgende [liste](http://web.archive.org/web/201106
 - øget fascikellængde. Muskelfibrene pakket sammen i bundter kaldet fascikler. Længden af disse er afgjort af, hvor mange af de såkaldte sarkomerer (de mindste kontraktile enheder i en muskelfibre) der ligger i seriel forlængelse af hinanden. Styrketræning der involverer et stort excentrisk komponent, menes at kunne øge fascikellængden (hvilket potentielt set kan øge modstandsdygtighed overfor fibersprængninger) (Franchi et al. 2016).
 - øget lateral krafttransmission blandt muskelfibrene er også foreslået, således at fibrene bedre evner at overføre kraften mellem hinanden, det omgivende bindevæv og mellem senerne (Erskine et al. 2011).
 - øget specifikt muskel-specifik styrke (muskelstyrke pr. areal). Den egentlige årsag hertil er endnu ikke fastlagt, men udover neurale tilpasninger der kan forklare dette på hel-muskel niveau så kan også lateral krafttransmission være en årsag. Ydermere har studier vist at isolerede muskelfiber også kan øge deres deres kraftkapacitet pr. fiber-areal som følge af styrketræning (Erskine et al. 2011).
+
+{% endcomment %}
 
 Det diskuteres [jævnligt](https://andersnedergaard.dk/kropblog/sarcoplasmisk-vs-myofibrillaer-hypertrofi-endnu-mere-fitness-fail/) om sarcoplasmatisk eller myofibrillær hypertrofi. Men det er en meget længere diskussion., men der forskes fortsat i emnet og [Roberts et al  (2020)](https://www.frontiersin.org/articles/10.3389/fphys.2020.00816/abstract) har lige udgivet et _review_.
 
