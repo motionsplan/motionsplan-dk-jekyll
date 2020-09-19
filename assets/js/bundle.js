@@ -698,14 +698,15 @@ $(document).ready(function() {
 
         var biceps = Number($("[name='biceps']").val());
         var triceps = Number($("[name='triceps']").val());
-        var hoftekam = Number($("[name='hoftekam']").val());
-        var skulder = Number($("[name='skulder']").val());
+        var suprailiac = Number($("[name='suprailiac']").val());
+        var subscapularis = Number($("[name='subscapularis']").val());
         var weight = Number($("[name='weight']").val());
         var sex = $("[name='gender']").val();
         var age = Number($("[name='age']").val());
 
-        var f = skinfold_durnin.SkinfoldDurnin(biceps, triceps, hoftekam, skulder, weight, sex, age);
+        var f = skinfold_durnin.SkinfoldDurnin(biceps, triceps, suprailiac, subscapularis, weight, sex, age);
 
+        $("[name='skinfold_durnin']").val(f.getSkinfoldSum().toFixed(2));
         $("[name='fatpercent_durnin']").val(f.getBodyFatPercent().toFixed(2));
         $("[name='ffm_durnin']").val(f.getFatFreeMass().toFixed(2));
         return false;
@@ -2540,12 +2541,12 @@ module.exports = motionsplan;
 },{}],27:[function(require,module,exports){
 let motionsplan = {}
 
-motionsplan.SkinfoldDurnin = function(biceps, triceps, hoftekam, skulder, weight, gender, age = 20) {
+motionsplan.SkinfoldDurnin = function(biceps, triceps, suprailiac, subscapularis, weight, gender, age = 20) {
 
   biceps = biceps;
   triceps = triceps;
-  hoftekam = hoftekam;
-  skulder = skulder;
+  suprailiac = suprailiac;
+  subscapularis = subscapularis;
   weight = weight;
   gender = gender; // male / female
   age = age;
@@ -2554,14 +2555,14 @@ motionsplan.SkinfoldDurnin = function(biceps, triceps, hoftekam, skulder, weight
     return (495 / getDensity() - 450);
   }
 
-  function getFatSum() {
-    return biceps * 1 + triceps * 1 + hoftekam * 1 + skulder * 1;
+  function getSkinfoldSum() {
+    return biceps + triceps + suprailiac + subscapularis;
   }
 
   function getDensity() {
     var density;
 
-    var fatsum = getFatSum();
+    var fatsum = getSkinfoldSum();
     if (isMale()) {
       if (age < 17) {
         density = 1.1533 - 0.0643 * Math.log10(fatsum);
@@ -2610,7 +2611,7 @@ motionsplan.SkinfoldDurnin = function(biceps, triceps, hoftekam, skulder, weight
     getFatFreeMass: getFatFreeMass,
     getBodyFatPercent: getBodyFatPercent,
     getDensity : getDensity,
-    getFatSum : getFatSum
+    getSkinfoldSum : getSkinfoldSum
   };
 
   return publicAPI;
@@ -2626,11 +2627,15 @@ motionsplan.SkinfoldLohman = function(sex, triceps, calf) {
   var triceps = triceps;
   var calf = calf;
   
+  function getSkinfoldSum() {
+    return (triceps + calf);
+  }
+  
   function getBodyFatPercent() {
     if (isMale()) {
-      return 0.735 * (triceps + calf) + 1.0;
+      return 0.735 * getSkinfoldSum()  + 1.0;
     }
-    return 0.610 * (triceps + calf) + 5.1;
+    return 0.610 * getSkinfoldSum() + 5.1;
   }
   
   function isMale() {
