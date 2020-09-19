@@ -40,7 +40,7 @@ Men lad os kigge på fordelene ved intervalløb:
 - Intervaltræning kan også være med til at øge din anaerobe kapacitet, hvis du arbejder med rigtig høj intensitet.
 - Intervaltræning er også med til at vænne dig til at løbe i et højere tempo, hvor du arbejder med højere skridtfrekvens og længere skridt. Ud over tilvænningen til mere fart, så kan du også forbedre din [løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %}) med intervaller. Jeg har skrevet lidt mere om [løbeøkonomi i et andet indlæg]({% link _posts/2019-12-16-running-economy.md %}).
 
-{% endcomment }
+{% endcomment %}
 
 ## Hvordan får jeg intervaltræning til at være en del af min træning?
 
@@ -143,7 +143,7 @@ Fx kan intervaltræningen være med til at forberede dig til den distance, du ge
 
 Første gang du er ude at løbe, så kan du løbe 400 meter, gå 600 meter, løbe 400 meter osv. Næste gang så løber du lidt længere og går lidt kortere. Efter nogle uger, så kan du måske løbe 1 kilometer, hvorefter du går to minutter. Så løber du 1 kilometer mere. På den måde kan du på forhånd have lavet en træning, der til sidst får dig til at løbe fem kilometer i træk.
 
-{% endcomment }
+{% endcomment %}
 
 ## Mål effekten af din intervaltræning
 
