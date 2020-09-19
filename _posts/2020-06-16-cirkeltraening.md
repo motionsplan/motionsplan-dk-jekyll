@@ -23,6 +23,8 @@ Jeg kan godt lide at organisere min træning som cirkeltræning eller som det he
 
 **Cirkeltræning er en klassisk måde at strukturere din træning på, hvor du på begrænset tid kan opnå stor effekt på både styrke, kondition og sundhed. Cirkeltræning indebærer, at du vælger en række øvelser, som du udfører på skift, hvorefter du starter forfra på cirklen.**
 
+{% comment }
+
 Cirkeltræning bliver mere og mere populært. Faktisk er der en del kæder, fx Loop og Fitness World, der har koncepter, der er baseret på cirkeltræning. Cirkeltræning er nemlig både tidseffektiv, men konceptet er også let at forstå. 
 
 Du kan selv vælge, hvad du propper i et cirkeltræningsprogram. Du kan have styrke-, kondition-, balance-, koordination- og smidighedsøvelser. Du kan bruge redskaber, eller du kan nøjes med din kropsvægt. Der er faktisk ingen begrænsninger for din opfindsomhed, når du skal skrue din cirkeltræning sammen.
@@ -124,6 +126,8 @@ Hvis du foretrækker at designe din egen cirkeltræning, så kan jeg anbefale f�
 
 - **Fokus**. Cirkeltræningsprogrmmer kan ofte godt virke lidt tilfældige. Jeg kan godt lide at have et mål for programmet.
 - **Progression**. Hvis du kører forskellige cirkeltræningsprogrammer i hvert træningspas, så er det sværere at se, hvad progressionen i din træning er - og om du overhovedet går frem i træningen.
+
+{% endcomment }
 
 ## Cirkeltræning som en del af din træning
 

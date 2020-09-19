@@ -21,7 +21,7 @@ Jeg nyder selv at bruge intervaltræning og intervalløb, når jeg forsøger at 
 
 **Intervaltræning styrker dit kredsløb og kondition effektivt, fordi du ved intervalløb er i stand til at løbe med en højere intensitet i din træning. Formålet med intervalttræning er ofte at arbejde med forskellige energisystemer.**
 
-Formålet med intervalttræning kan være flere ting. Når du løber intervaller kan du arbejde med en højere intensitet over længere tid, fordi du har pauserne til at restituere. Du kan også bruge intervallerne til at arbejde med løbeteknik eller det anaerobe energisystem, som har brug for flere pauser til at genoplade.
+Formålet med intervalttræning kan være flere ting. Når du løber intervaller, kan du arbejde med en højere intensitet over længere tid, fordi du har pauserne til at restituere. Du kan også bruge intervallerne til at arbejde med løbeteknik eller det anaerobe energisystem, som har brug for flere pauser til at genoplade.
 
 Hvis du gerne vil blive bedre til at løbe, så skal du have intervaller med i træningen. Det har en del fordele at lave intervalløb.
 
@@ -31,12 +31,16 @@ Intervaltræning kan **føles hårdt** afhængigt af, hvordan de udføres og hvi
 
 Intervaltræning kan også være hårdt ved bentøjet. Hvis du fx laver sprint-intervaller, så vil benene helt sikkert kunne mærkes dagen efter.
 
+{% comment }
+
 Men lad os kigge på fordelene ved intervalløb:
 
 - Du kan sammenlagt løbe flere minutter med høj intensitet, hvis du sammenligner med kontinuerligt løb.
 - Når du løber flere minutter med høj intensitet, så har træningen større effekt på den maksimale iltoptagelse - og derved dit kondital.
 - Intervaltræning kan også være med til at øge din anaerobe kapacitet, hvis du arbejder med rigtig høj intensitet.
 - Intervaltræning er også med til at vænne dig til at løbe i et højere tempo, hvor du arbejder med højere skridtfrekvens og længere skridt. Ud over tilvænningen til mere fart, så kan du også forbedre din [løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %}) med intervaller. Jeg har skrevet lidt mere om [løbeøkonomi i et andet indlæg]({% link _posts/2019-12-16-running-economy.md %}).
+
+{% endcomment }
 
 ## Hvordan får jeg intervaltræning til at være en del af min træning?
 
@@ -57,6 +61,8 @@ Der er en lang række metoder til at lave intervaltræning. Jeg har forsøgt at 
 Jeg kan som udgangspunkt bedst lide at styre intervaller ud fra tid. Det betyder nemlig, at man rammer det rigtige energisystem uanset hvor hurtigt man løber intervallerne.
 
 En meget populær og effektiv måde at flytte sin maksimale iltoptagelse og løbe omkring den anaerobe tærskel er 1000 meter intervaller med 2 minutters pause. Jeg har imidlertid ofte lavet disse intervaller med mine elever, og nogen af dem løber under 4 minutter pr. kilometer og andre løber helt op mod seks minutter pr. kilometer. Så er det sandsynligt at vi træner noget forskelligt.
+
+{% comment }
 
 ## Sammensætningen af intervaller
 
@@ -136,6 +142,8 @@ Hvis du lige er startet med at løbe, så er intervaltræning stadig en rigtig g
 Fx kan intervaltræningen være med til at forberede dig til den distance, du gerne vil løb. Lad os sige, at du har et mål om at løbe fem kilometer, men lige nu ikke kan løbe 1 kilometer.
 
 Første gang du er ude at løbe, så kan du løbe 400 meter, gå 600 meter, løbe 400 meter osv. Næste gang så løber du lidt længere og går lidt kortere. Efter nogle uger, så kan du måske løbe 1 kilometer, hvorefter du går to minutter. Så løber du 1 kilometer mere. På den måde kan du på forhånd have lavet en træning, der til sidst får dig til at løbe fem kilometer i træk.
+
+{% endcomment }
 
 ## Mål effekten af din intervaltræning
 
