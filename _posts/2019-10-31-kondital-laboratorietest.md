@@ -20,6 +20,8 @@ last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 ---
 
+{% comment %}
+
 En nøjagtig direkte test af iltoptagelse kræver, at man har udstyr, der kan måle ilt-, CO<sub>2</sub>-koncentrationer og volumen af ud- og indåndingsluften. Typisk bliver direkte tests af iltoptagelse lavet i et laboratorium, men der er også kommet udstyr, hvor man kan måle det under andre forhold.
 
 Typisk foregår selve arbejdet på løbebånd eller cykelergometer, så man også kender arbejdet forsøgspersonen laver.
@@ -37,6 +39,8 @@ Iltoptagelse = (Liter luft ind x iltprocent i indåndingsluft) – (liter luft u
 ***
 
 Testprotokollen kan variere alt efter hvor veltrænet personen er, men for de fleste tests er princippet, at man gradvist øger belastningen indtil man ikke kan mere.
+
+{% endcomment %}
 
 ## Udstyr til direkte måling af iltoptagelse
 

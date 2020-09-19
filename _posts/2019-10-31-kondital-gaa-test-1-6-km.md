@@ -49,7 +49,7 @@ Du kan se testen forklaret i denne Youtube-video.
 
 Rockports gåtest estimerer konditallet. Hvor præcist den rammer konditallet for den enkelte afhænger af mange faktorer. Weiglein (2011) har vist at testen er valid til at estimere konditallet, når man sammenligner med 1,5 mile (2,414) løbetesten, som bruges af det amerikanske militær. Det betyder i praksis, at den kan sammenlignes med [Coopers 2400 meter test](/kondital-2400-meter/).
 
-Testen er relativt god til at monitorere fremgang i dit træningsniveau, så hvis du laver den, når du starter med at træne - og laver den fx hver anden uge, så kan du se, hvordan det går med træningen.
+Testen er relativt god til at overvåge fremgang i dit træningsniveau. Du kan altså lave testen, når du begynder med at træne, og så kan du følge op med en test fx hver anden uge. På den måde kan du følge med i, hvordan træningen virker for formen.
 
 ## Formel bag Rockports 1,6 km gåtest
 
