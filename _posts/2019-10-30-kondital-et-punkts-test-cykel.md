@@ -64,9 +64,13 @@ Alle submaksimale tests er behæftet med en del usikkerhed i forhold til at esti
 
 --- <cite>[Morten Zacho](https://www.motion-online.dk/6-maaling-fysisk-kapacitet-monitorering-traening/){:rel="nofollow"}</cite>
 
-Åstrands etpunktstest kan være fremragende til at måle ændringer i konditionen over tid. Testen kan være pålidelig, fordi du kører med en forudbestemt belastning. Hvis din puls over tid falder, når du kører med samme belastning, er det en indikation for, at du er kommet i bedre form.
+Åstrands etpunktstest kan være fremragende til at måle ændringer i konditionen over tid. Du hehøver ikke konvertere resultatet til et kondital for at bruge testen til at _tracke_ din træningsfremgang. Testen er pålidelig, fordi du kører med en forudbestemt belastning. Hvis din puls over tid falder, når du kører med samme belastning, er det en indikation for, at du er kommet i bedre form.
 
-## Referencer
+Du kan læse mere om testen fra [Monark](https://sport-medical.monarkexercise.se/professor-astrand-submaximal-cycle-test/), som laver de legendariske Monark-cykler, som er blevet brugt i rigtig mange år i testcentre rundt omkring i verden.
+
+Et alternativ til Etpunktstesten er [Ekblom-Bak-testen](https://www.gih.se/ekblombaktest). Har den test udbredelse i Danmark?
+
+## Referencer til Åstrands Etpunktstest
 
 {% include feature_row type="left" %}
 
