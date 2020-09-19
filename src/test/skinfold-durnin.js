@@ -30,7 +30,7 @@ describe('SkinfoldDurnin', function() {
       // biceps, triceps, hoftekam, skulder, weight, gender, age
       // https://www.thecalculator.co/health/Body-Fat-Skinfold-By-Durnin-And-Womersley-Calculator-1111.html
       var hr = motionsplan.SkinfoldDurnin(18, 20, 22, 32, 89, "female", 30);
-      assert.equal(hr.getFatSum(), 92);
+      assert.equal(hr.getSkinfoldSum(), 92);
       assert.equal(hr.getDensity(), 1.018188609311761);
     });
   });

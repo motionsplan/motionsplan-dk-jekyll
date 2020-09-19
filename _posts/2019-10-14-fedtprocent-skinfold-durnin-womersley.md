@@ -32,9 +32,9 @@ Durnin & Womersley er en 4-punktsmåling af hudfolde, som anses for relativt pr�
 
 Det er en fordel med Durnin og Womersly-formlen, at vi måler de samme steder for både mænd og kvinder.
 
-## Beskrivelse af procedure
+## Beskrivelse af hudfoldsmålinger i Durnin og Womersley
 
-Der måles på biceps, triceps, skulderbladets spids og hoftekammen. Du kan se nærmere instruktioner i videoen nedenunder.
+Der måles på biceps, triceps, ved skulderbladets nederste spids og lige over hoftekammen. Du kan se nærmere instruktioner i videoen nedenunder.
 
 {% include video id="VBJuVfiKrbY" provider="youtube" %}
 

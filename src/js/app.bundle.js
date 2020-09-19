@@ -357,14 +357,15 @@ $(document).ready(function() {
 
         var biceps = Number($("[name='biceps']").val());
         var triceps = Number($("[name='triceps']").val());
-        var hoftekam = Number($("[name='hoftekam']").val());
-        var skulder = Number($("[name='skulder']").val());
+        var suprailiac = Number($("[name='suprailiac']").val());
+        var subscapularis = Number($("[name='subscapularis']").val());
         var weight = Number($("[name='weight']").val());
         var sex = $("[name='gender']").val();
         var age = Number($("[name='age']").val());
 
-        var f = skinfold_durnin.SkinfoldDurnin(biceps, triceps, hoftekam, skulder, weight, sex, age);
+        var f = skinfold_durnin.SkinfoldDurnin(biceps, triceps, suprailiac, subscapularis, weight, sex, age);
 
+        $("[name='skinfold_durnin']").val(f.getSkinfoldSum().toFixed(2));
         $("[name='fatpercent_durnin']").val(f.getBodyFatPercent().toFixed(2));
         $("[name='ffm_durnin']").val(f.getFatFreeMass().toFixed(2));
         return false;

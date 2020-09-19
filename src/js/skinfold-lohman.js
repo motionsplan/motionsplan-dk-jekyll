@@ -5,11 +5,15 @@ motionsplan.SkinfoldLohman = function(sex, triceps, calf) {
   var triceps = triceps;
   var calf = calf;
   
+  function getSkinfoldSum() {
+    return (triceps + calf);
+  }
+  
   function getBodyFatPercent() {
     if (isMale()) {
-      return 0.735 * (triceps + calf) + 1.0;
+      return 0.735 * getSkinfoldSum()  + 1.0;
     }
-    return 0.610 * (triceps + calf) + 5.1;
+    return 0.610 * getSkinfoldSum() + 5.1;
   }
   
   function isMale() {
