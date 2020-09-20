@@ -9,15 +9,6 @@ motionsplan.RunningDistanceVO2 = function() {
         return (km / (s + m));
     }
 
-    /*
-    // Zacho reference
-    function getEstimatedFitnessLevel(min, sek, km) {
-        // var KmPerTime2 = getKilometersPrHour(m2, s2, km);
-        var KmPerTime2 = (parseFloat(km) / ((parseInt(sek) + parseInt(min) * 60) / (60 * 60)));
-        return (3.5 * (4.326 + (0.862 * KmPerTime2) - (-1.3264 * Math.log(km) + 2.6934)));
-    }
-    */
-
     // Based on https://www.researchgate.net/profile/Luc_Leger/publication/19712663_New_approaches_to_predict_VO2max_and_endurance_from_running_performances_The_Journal_of_sports_medicine_and_physical_fitness_27_4_401-409_1988/links/54f5fa880cf27d8ed71d235f/New-approaches-to-predict-VO2max-and-endurance-from-running-performances-The-Journal-of-sports-medicine-and-physical-fitness-27-4-401-409-1988.pdf
     function getEstimatedFitnessLevel(min, sec, km) {
         var kmt = getKilometersPrHour(min, sec, km);

@@ -2,6 +2,7 @@
 
 /* global $ */
 
+const yyir1 = require('./beeptest-yyir1');
 const fitness = require('./fitness-hr');
 const maxhr = require('./max-hr');
 const cooper = require('./cooper');
@@ -773,6 +774,22 @@ $(document).ready(function() {
         var result = hr.getWorkIntensityBasedOnMaxHR(hr_work);
 
         $("[name='intensity_form3']").val(result);
+        return false;
+    });
+     // Calculate Wilks
+    $("#calculator_yyir1").submit(function() {
+        console.log("Calculate YYIR1");
+
+        var gender = $("[name='sex']:checked").val();
+        var level = Number($("[name='level']").val());
+        var shuttles = Number($("[name='shuttles']").val());
+        var age = 10;
+
+        var b = yyir1.YYIR1(level, shuttles);
+
+        $("[name='distance_result']").val(b.getDistance());
+        $("[name='vo2max_result']").val(b.getFitnessLevel());
+        $("[name='status']").val(b.getEvaluation(gender, age));
         return false;
     });
      // Calculate Wilks
