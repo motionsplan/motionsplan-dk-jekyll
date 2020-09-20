@@ -67,89 +67,54 @@ motionsplan.CooperClinicMortalityRiskIndex = function(age, hr, bloodpressure, di
   function getAbsoluteRisk() {
     var risk;
     var point = getRiskPoint();
-    if (point == 0) {
-      risk = 1.8;
+    
+    var point_to_risk = [];
+    point_to_risk[0] = 1.8;
+    point_to_risk[1] = 2.2;
+    point_to_risk[2] = 2.6;
+    point_to_risk[3] = 3.1;
+    point_to_risk[4] = 3.7;
+    point_to_risk[5] = 4.4;
+    point_to_risk[6] = 5.4;
+    point_to_risk[7] = 6.5;
+    point_to_risk[8] = 7.9;
+    point_to_risk[9] = 9.7;
+    point_to_risk[10] = 11.8;
+    point_to_risk[11] = 14;
+    point_to_risk[12] = 16.5;
+    point_to_risk[13] = 20.4;
+    point_to_risk[14] = 23.2;
+    point_to_risk[15] = 28.1;
+    point_to_risk[16] = 32.1;
+    
+    if (point_to_risk[point]) {
+      return point_to_risk[point];
     }
-    else if (point == 1) {
-      risk = 2.2;
-    }
-    else if (point == 2) {
-      risk = 2.6;
-    }
-    else if (point == 3) {
-      risk = 3.1;
-    }
-    else if (point == 4) {
-      risk = 3.7;
-    }
-    else if (point == 5) {
-      risk = 4.4;
-    }
-    else if (point == 6) {
-      risk = 5.4;
-    }
-    else if (point == 7) {
-      risk = 6.5;
-    }
-    else if (point == 8) {
-      risk = 7.9;
-    }
-    else if (point == 9) {
-      risk = 9.7;
-    }
-    else if (point == 10) {
-      risk = 11.8;
-    }
-    else if (point == 11) {
-      risk = 14;
-    }
-    else if (point == 12) {
-      risk = 16.5;
-    }
-    else if (point == 13) {
-      risk = 20.4;
-    }
-    else if (point == 14) {
-      risk = 23.2;
-    }
-    else if (point == 15) {
-      risk = 28.1;
-    }
-    else if (point == 16) {
-      risk = 32.1;
-    }
-    else {
-      risk = 46.7;
-    }
-
-    return risk;
+    
+    return 46.7;
   }
 
   function getRelativeRisk() {
-    var risk2, risk3;
     var risk = getAbsoluteRisk();
     if (age < 34) {
-      risk2 = risk / 2.4;
+      return risk / 2.4;
     }
-    else if (age < 44) {
-      risk2 = risk / 2.6;
+    if (age < 44) {
+      return risk / 2.6;
     }
-    else if (age < 49) {
-      risk2 = risk / 4.6;
+    if (age < 49) {
+      return risk / 4.6;
     }
-    else if (age < 54) {
-      risk2 = risk / 8.2;
+    if (age < 54) {
+      return risk / 8.2;
     }
-    else if (age < 59) {
-      risk2 = risk / 12.6;
+    if (age < 59) {
+      return risk / 12.6;
     }
-    else if (age < 64) {
-      risk2 = risk / 16.1;
+    if (age < 64) {
+      return risk / 16.1;
     }
-    else {
-      risk2 = risk / 18.1;
-    }
-    return risk2;
+    return risk / 18.1;
   }
 
   var publicAPI = {
