@@ -14,6 +14,7 @@ const etpunkt = require('./etpunkttest');
 const borg15 = require('./borg15');
 const topunkt = require('./topunkttest');
 const bmr = require('./bmr-nordic-1996');
+const bmr_benedict_harris = require('./bmr-benedict-harris');
 const ree = require('./bmr-nordic-2012');
 const bmi = require('./bmi');
 const idealweight = require('./ideal-weight');
@@ -391,7 +392,7 @@ $(document).ready(function() {
         console.log("Calculate Skinfold Pollock Women");
 
         var triceps = Number($("[name='triceps_female']").val());
-        var hip = Number($("[name='hoftekam_female']").val());
+        var hip = Number($("[name='supiliac_female']").val());
         var thigh = Number($("[name='thigh_female']").val());
         var age = Number($("[name='age_female']").val());
         var weight = Number($("[name='weight_female']").val());
@@ -607,18 +608,38 @@ $(document).ready(function() {
         $("[name='tee']").val(b.getTotalEnergyExpenditure());
         return false;
     });
+    // Calculate BMR - Benedict Harris
+    $("#calculator_bmr_equilibrium").submit(function() {
+        console.log("Calculate BMR - Benedict Harris");
+
+        var sex = $("[name='sex']:checked").val();
+        var age = Number($("[name='age']").val());
+        var weight = Number($("[name='weight']").val());
+        var height = Number($("[name='height']").val());
+        var bulkConstant = Number($("[name='bulkConstant']").val());
+        var activityConstant = Number($("[name='activityLevel']").val());
+
+        var b = bmr_benedict_harris.BMRBenedictHarris(sex, age, weight, height, activityConstant);
+
+        $("[name='bmr']").val(b.getBasicMetabolicRate() + ' kcal');
+        $("[name='equilibrium']").val(b.getTotalEnergyExpenditure() + ' kcal');
+        $("[name='bulk']").val(b.getBulk(bulkConstant) + ' kcal');
+        $("[name='cut']").val(b.getCut(bulkConstant) + ' kcal');
+        $("[name='protein']").val(b.getProtein() + ' g');
+        return false;
+    });
     // Calculate BMR - Nordic Nutrition 2012
     $("#calculator_nordic_2012").submit(function() {
         console.log("Calculate BMR - 2012");
 
-        var koen = Number($("[name='koen']").val());
-        var alder = Number($("[name='alder']").val());
-        var vaegt = Number($("[name='vaegt']").val());
+        var sex = Number($("[name='gender']").val());
+        var age = Number($("[name='age']").val());
+        var weight = Number($("[name='weight']").val());
         var height = Number($("[name='height']").val());
         var sport = $("[name='sport']:checked").val();
         var pal = Number($("[name='pal']:checked").val());
 
-        var b = ree.REE2012(koen, alder, vaegt, pal, sport);
+        var b = ree.REE2012(sex, age, weight, pal, sport);
 
         $("[name='pal_calc']").val(b.getPhysicalActivityLevel());
         if (height > 0) {

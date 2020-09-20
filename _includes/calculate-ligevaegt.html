@@ -1,3 +1,4 @@
+{% comment %}
 <script>
     function calculate(form) {
         var age = parseInt(form.age.value);
@@ -26,14 +27,14 @@
         return false;
     }
 </script>
-<form class="calculator" id="form1">
+{% endcomment %}
+<form class="calculator" id="calculator_bmr_equilibrium">
     <fieldset>
-        <legend>Simpel udregning af dit ligevægtsindtag.</legend>
+        <legend>Simpel udregning af dit ligevægtsindtag baseret på Benedict-Harris-formlen.</legend>
         <fieldset>
             <legend>Køn</legend>
-            <label for="male" class="radio"><input type="radio" name="sex" value="male" id="male" onclick="this.form.sexHidden.value = 'male';" checked="checked"> Mand</label>
-    		<label for="female" class="radio"><input type="radio" name="sex" value="female" id="female" onclick="this.form.sexHidden.value = 'female';"> Kvinde</label>
-    		<input type="hidden" name="sexHidden" value="male">
+            <label for="male" class="radio"><input type="radio" name="sex" value="male" id="male" checked="checked"> Mand</label>
+    		<label for="female" class="radio"><input type="radio" name="sex" value="female" id="female"> Kvinde</label>
         </fieldset>
         <div class="form-group">
             <label for="age">Alder (år)</label>
@@ -62,34 +63,32 @@
 			</select>
 			</label>
         </fieldset>
-        <input type="submit" value="Beregn" onclick="return calculate(this.form);">
+        <div class="form-group">
+            <label for="bulkConstant">Bulk/Cut værdier baseret på +/- (kcal)</label>
+            <input type="number" value="300" name="bulkConstant" id="bulkConstant">
+        </div> 
+        <input type="submit" value="Beregn">
     </fieldset>
     <fieldset class="results">
-        {% comment %}
         <div class="form-group">
-            <label for="BMR2">Basalstofskifte (BMR) (kJ)</label>
-            <input name="BMR2" id="BMR2" disabled="disabled">
+            <label for="bmr">Basalstofskifte (BMR) (kcal)</label>
+            <input name="bmr" id="bmr" disabled="disabled">
         </div>
-        {% endcomment %}
         <div class="form-group">
-            <label for="equilibrium">Ligevægtsindtag (kJ)</label>
+            <label for="equilibrium">Ligevægtsindtag (kcal)</label>
             <input name="equilibrium" id="equilibrium" disabled="disabled">
         </div>
         <div class="form-group">
-            <label for="bulk">Bulk (kJ)</label>
+            <label for="bulk">Bulk (kcal)</label>
             <input name="bulk" id="bulk" disabled="disabled">
         </div>
         <div class="form-group">
-            <label for="cut">Cut (kJ)</label>
+            <label for="cut">Cut (kcal)</label>
             <input name="cut" id="cut" disabled="disabled">
         </div>
         <div class="form-group">
             <label for="protein">Protein indtag pr. dag (g)</label>
             <input name="protein" id="protein" disabled="disabled">
         </div>
-        <div class="notes">
-            <label for="bulkConstant">Bulk/Cut værdier baseret på +/- (kcal)</label>
-            <input type="text" value="300" onchange="calculate(this.form);" name="bulkConstant" id="bulkConstant">
-        </div> 
     </fieldset>
 </form>
