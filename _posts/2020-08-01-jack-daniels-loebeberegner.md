@@ -66,7 +66,7 @@ De **konkurrencetider** du udregner i beregneren er et udtryk for de bedst mulig
 
 Du kan lære lidt mere om de forskellige løbetempi fra Jack Daniels selv i denne video:
 
-{% include video provider="video" id="bidIUgYg5DQ" %}
+{% include video provider="youtube" id="bidIUgYg5DQ" %}
 
 **Husk**: Du skal kun indtaste tider ind i beregneren, som du rent faktisk har løbet. Hvis du taster tider ind, du godt kunne tænke dig at løbe, så bliver træningstiderne for hurtigere, og du ender med risiko for overbelastning og skader.
 {: .notice .notice--info }
