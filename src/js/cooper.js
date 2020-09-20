@@ -10,30 +10,52 @@ motionsplan.CooperClinicMortalityRiskIndex = function(age, hr, bloodpressure, di
   bmi = bmi;
   fitness = fitness;
 
+  function getBloodpressurePoint() {
+    if (bloodpressure == "over") {
+      return 2;
+    }
+    return 0;
+  }
+
+  function getDiabetesPoint() {
+    if (diabetes == "yes") {
+      return 4;
+    }
+    return 0;
+  }
+
+  function getSmokerPoint() {
+    if (diabetes == "current") {
+      return 4;
+    }
+    
+    if (diabetes == "previous") {
+      return 1;
+    }
+    return 0;
+  }
+  
   function getAgePoint() {
-    var point;
     if (age < 44) {
-      point = 0;
+      return 0;
     }
-    else if (age < 49) {
-      point = 3;
+    if (age < 49) {
+      return 3;
     }
-    else if (age < 54) {
-      point = 6;
+    if (age < 54) {
+      return 6;
     }
-    else if (age < 59) {
-      point = 8;
+    if (age < 59) {
+      return 8;
     }
-    else if (age < 64) {
-      point = 9;
+    if (age < 64) {
+      return 9;
     }
-    else if (age < 69) {
-      point = 10;
+    if (age < 69) {
+      return 10;
     }
     // TODO: How to handle that.
     // test is not originally designed for people older than 70
-
-    return point;
   }
 
   function getHrPoint() {
@@ -60,12 +82,11 @@ motionsplan.CooperClinicMortalityRiskIndex = function(age, hr, bloodpressure, di
   }
 
   function getRiskPoint() {
-    var point = getAgePoint() + getHrPoint() + bloodpressure + diabetes + smoker + getBMIPoint() + getFitnessPoint();
+    var point = getAgePoint() + getHrPoint() + getBloodpressurePoint() + getDiabetesPoint() + getSmokerPoint() + getBMIPoint() + getFitnessPoint();
     return point;
   }
 
   function getAbsoluteRisk() {
-    var risk;
     var point = getRiskPoint();
     
     var point_to_risk = [];
