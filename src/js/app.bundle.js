@@ -6,6 +6,7 @@ const fitness = require('./fitness-hr');
 const maxhr = require('./max-hr');
 const cooper = require('./cooper');
 const cooper_test = require('./cooper-running');
+const riegel = require('./riegel');
 const fat = require('./fat-pct');
 const fp_navy = require('./fat-pct-navy');
 const fatm = require('./fat-pct-measurements');
@@ -650,6 +651,20 @@ $(document).ready(function() {
             $("[name='tee']").val(b.getTotalEnergyExpenditure());
         }
         
+        return false;
+    });
+    // Calculate BMR - Nordic Nutrition 2012
+    $("#calculator_riegels").submit(function() {
+        console.log("Riegels formular");
+
+        var dist = Number($("[name='dist']").val());
+        var hours = Number($("[name='hours']").val());
+        var minutes = Number($("[name='minutes']").val());
+        var seconds = Number($("[name='seconds']").val());
+
+        var b = riegel.Riegel(dist, hours, minutes, seconds);
+
+        $("#results").html(b.getTableWithEndTimes());
         return false;
     });
     // Calculate VMax

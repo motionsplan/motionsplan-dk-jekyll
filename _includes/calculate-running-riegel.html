@@ -1,9 +1,3 @@
-<form class="calculator" id="calculator_closed">
-    <fieldset>
-        <legend>Formular midlertidig lukket</legend>
-        <p>Er ved at blive opdateret.</p>
-    </fieldset>
-</form>
 {% comment %}
 <script>
     function dotReplace(number) {
@@ -36,29 +30,6 @@
         return result;
     }
 
-    function riegels(d1, d2, h, m, s) {
-        var inputsec = parseInt(h * 3600) + parseInt(m * 60) + parseInt(s * 1);
-        var outputsec = Math.round(inputsec * Math.pow((d2 / d1), 1.06));
-        var reshour = Math.floor(outputsec / 3600);
-        var resmin = Math.floor((outputsec - reshour * 3600) / 60);
-        var ressec = Math.floor(outputsec - reshour * 3600 - resmin * 60);
-        var kmtime_min = Math.floor((1000 * outputsec / d2) / 60);
-        var kmtime_sec = Math.floor((1000 * outputsec / d2) - kmtime_min * 60);
-
-        if (reshour < 10) { reshour = '0' + reshour; }
-        if (resmin < 10) { resmin = '0' + resmin; }
-        if (ressec < 10) { ressec = '0' + ressec; }
-        if (kmtime_min < 10) { kmtime_min = '0' + kmtime_min; }
-        if (kmtime_sec < 10) { kmtime_sec = '0' + kmtime_sec; }
-        if (reshour == 0) { reshour = '00'; }
-        if (resmin == 0) { resmin = '00'; }
-        if (ressec == 0) { ressec = '00'; }
-        if (kmtime_min == 0) { kmtime_min = '00'; }
-        if (kmtime_sec == 0) { kmtime_sec = '00'; }
-
-        return reshour + ':' + resmin + ':' + ressec + '</td><td>' + kmtime_min + ':' + kmtime_sec;
-    }
-
     function training(t, d, h, m, s, p1, p2) {
         var inputsec = parseInt(h * 3600) + parseInt(m * 60) + parseInt(s * 1);
         var outputsec1 = Math.round(p1 * inputsec * Math.pow((1000 / d), 1.06));
@@ -87,50 +58,6 @@
         if (ressec2 == 0) { ressec2 = '00'; }
 
         return reshour1 + ':' + resmin1 + ':' + ressec1 + '</td><td>' + reshour2 + ':' + resmin2 + ':' + ressec2;
-    }
-
-    function calc_end_time() {
-        if (!isInt('dist')) {
-            alert('Distancen er sat ukorrekt. Indtast kun hele talværdier og uden bogstaver!');
-        }
-        else if (document.getElementById('dist').value < 1000) {
-            alert('Distancen skal være større end 1000 m!');
-        }
-        else if ((!isInt('hours') && isSet('hours')) || (!isInt('minutes') && isSet('minutes')) || (!isInt('seconds') && isSet('seconds'))) {
-            alert('Tiden er sat forkert. Indtast kun hele talværdier og uden bogstaver!');
-        }
-        else if (!isSet('hours') && !isSet('minutes') && !isSet('seconds')) {
-            alert('Husk at sætte tiden!');
-        }
-        else {
-            var res = '';
-            var calcdist = document.getElementById('dist').value;
-            if (calcdist == '') { calcdist = 0; }
-            var calchour = document.getElementById('hours').value;
-            if (calchour == '') { calchour = 0; }
-            var calcmin = document.getElementById('minutes').value;
-            if (calcmin == '') { calcmin = 0; }
-            var calcsec = document.getElementById('seconds').value;
-            if (calcsec == '') { calcsec = 0; }
-
-            // sluttider
-            res += '<hr />';
-            res += '<h3>Potentielle konkurrencetider</h3>';
-            res += '<table class="padding3" style="width: 250px;">';
-            res += '<tr><td><b>Distance</b></td><td><b>Sluttid</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td><b>Min/km</b></td></tr>';
-            res += '<tr><td>1000m</td><td>' + riegels(calcdist, 1000, calchour, calcmin, calcsec) + '</td></tr>';
-            res += '<tr><td>1500m</td><td>' + riegels(calcdist, 1500, calchour, calcmin, calcsec) + '</td></tr>';
-            res += '<tr><td>3000m</td><td>' + riegels(calcdist, 3000, calchour, calcmin, calcsec) + '</td></tr>';
-            res += '<tr><td>5000m</td><td>' + riegels(calcdist, 5000, calchour, calcmin, calcsec) + '</td></tr>';
-            res += '<tr><td>8000m</td><td>' + riegels(calcdist, 8000, calchour, calcmin, calcsec) + '</td></tr>';
-            res += '<tr><td>10000m</td><td>' + riegels(calcdist, 10000, calchour, calcmin, calcsec) + '</td></tr>';
-            res += '<tr><td>20000m</td><td>' + riegels(calcdist, 20000, calchour, calcmin, calcsec) + '</td></tr>';
-            res += '<tr><td>Â½ marathon</td><td>' + riegels(calcdist, 21097.5, calchour, calcmin, calcsec) + '</td></tr>';
-            res += '<tr><td>Marathon</td><td>' + riegels(calcdist, 42195, calchour, calcmin, calcsec) + '</td></tr>';
-            res += '</table>';
-
-            document.getElementById('results').innerHTML = res;
-        }
     }
 
     function calc_speed() {
@@ -475,34 +402,6 @@
         }
     }
 
-    function calc_bmi() {
-        var weight = document.getElementById('weight').value;
-        var height = document.getElementById('height').value;
-        weight = weight.replace(',', '.');
-        if (isInt('height') && isSet('height') && isSet('weight')) {
-            var bmi = roundNumber(10000 * weight / (height * height), 2);
-            document.getElementById('bmi').innerHTML = bmi;
-            if (bmi < 16) {
-                document.getElementById('condition').innerHTML = 'Meget undervægtig';
-            }
-            else if (bmi < 20) {
-                document.getElementById('condition').innerHTML = 'Undervægtig';
-            }
-            else if (bmi < 25) {
-                document.getElementById('condition').innerHTML = 'Normal vægt';
-            }
-            else if (bmi < 30) {
-                document.getElementById('condition').innerHTML = 'Overvægtig';
-            }
-            else if (bmi < 40) {
-                document.getElementById('condition').innerHTML = 'Meget overvægtig';
-            }
-            else {
-                document.getElementById('condition').innerHTML = 'Ekstrem overvægtig';
-            }
-        }
-    }
-
     function calc_energy() {
         var weight = document.getElementById('weight').value;
         var dist = document.getElementById('dist').value;
@@ -615,23 +514,23 @@
         }
     }
 </script>
-<form class="calculator">
+{% endcomment %}
+<form class="calculator" id="calculator_riegels">
     <fieldset>
-        <legend>Riegels formel. Indtast din seneste konkurrence distance og tid</legend>
+        <legend>Riegels formel. Indtast din seneste konkurrencedistance og tid</legend>
         <div class="form-group">
             <label>Distance (meter)</label>
-            <input id="dist" type="text">
+            <input name="dist" id="dist" type="number" min="1000" max="50000" placeholder="distance (m)">
         </div>
         <div class="form-group">
             <label>Tid</label>
-            <input id="hours" type="text" maxlength="2" class="input-mini" placeholder="timer">
-            <input id="minutes" type="text" maxlength="2" class="input-mini" placeholder="min">
-            <input id="seconds" type="text" maxlength="2" class="input-mini" placeholder="sek">
+            <input name="hours" id="hours" type="number" maxlength="2" min="0" max="10" class="input-mini" placeholder="timer">
+            <input name="minutes" id="minutes" type="number" maxlength="2" min="0" max="60" class="input-mini" placeholder="min">
+            <input name="seconds" id="seconds" type="number" maxlength="2" min="0" max="60" class="input-mini" placeholder="sek">
         </div>
-        <input type="button" value="Beregn" onclick="javascript: calc_end_time();">
+        <input type="submit" value="Beregn">
     </fieldset>
     <fieldset class="results">
-        <span id="results"></span>
+        <div id="results"></div>
     </fieldset>
 </form>
-{% endcomment %}
