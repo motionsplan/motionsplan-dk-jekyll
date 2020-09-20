@@ -347,6 +347,7 @@ const fitness = require('./fitness-hr');
 const maxhr = require('./max-hr');
 const cooper = require('./cooper');
 const cooper_test = require('./cooper-running');
+const running_weightchange = require('./running-weightloss');
 const riegel = require('./riegel');
 const fat = require('./fat-pct');
 const fp_navy = require('./fat-pct-navy');
@@ -1008,6 +1009,21 @@ $(document).ready(function() {
         $("#results").html(b.getTableWithEndTimes());
         return false;
     });
+    // Calculate BMR - Nordic Nutrition 2012
+    $("#calculator_weightloss_running_time").submit(function() {
+        console.log("Running time weight loss");
+
+        var weight = Number($("[name='weight']").val());
+        var weight_change = Number($("[name='change']").val());
+        var hours = Number($("[name='hours']").val());
+        var minutes = Number($("[name='minutes']").val());
+        var seconds = Number($("[name='seconds']").val());
+
+        var b = running_weightchange.RunningWeightLoss(weight, weight_change);
+
+        $("#result").val(b.getEstimatedFinishTime(hours, minutes, seconds));
+        return false;
+    });
     // Calculate VMax
     $("#calculator_vmax_bike_vmax").submit(function() {
         console.log("Calculate Vmax from VO2");
@@ -1414,7 +1430,7 @@ $(document).ready(function() {
 	});
 });
 
-},{"../js/bodywater":9,"../js/fatenergypct":17,"../js/hr-intensity":20,"../js/waist":34,"../js/walktest-rockport-16":35,"../js/walktest-sixminutes":36,"../js/wattmax":37,"./1rm":3,"./bmi":5,"./bmr-benedict-harris":6,"./bmr-nordic-1996":7,"./bmr-nordic-2012":8,"./borg15":10,"./cooper":12,"./cooper-running":11,"./etpunkttest":13,"./fat-pct":16,"./fat-pct-measurements":14,"./fat-pct-navy":15,"./fitness-hr":18,"./fitness-index-23":19,"./ideal-weight":21,"./index100":22,"./karvonen":23,"./max-hr":24,"./riegel":25,"./running":28,"./running-distance-vo2":26,"./running-economy":27,"./skinfold-durnin":29,"./skinfold-lohman":30,"./skinfold-pollock":31,"./skinfold-slaughter":32,"./topunkttest":33,"image-map-resizer":1,"wilks-calculator":2}],5:[function(require,module,exports){
+},{"../js/bodywater":9,"../js/fatenergypct":17,"../js/hr-intensity":20,"../js/waist":35,"../js/walktest-rockport-16":36,"../js/walktest-sixminutes":37,"../js/wattmax":38,"./1rm":3,"./bmi":5,"./bmr-benedict-harris":6,"./bmr-nordic-1996":7,"./bmr-nordic-2012":8,"./borg15":10,"./cooper":12,"./cooper-running":11,"./etpunkttest":13,"./fat-pct":16,"./fat-pct-measurements":14,"./fat-pct-navy":15,"./fitness-hr":18,"./fitness-index-23":19,"./ideal-weight":21,"./index100":22,"./karvonen":23,"./max-hr":24,"./riegel":25,"./running":29,"./running-distance-vo2":26,"./running-economy":27,"./running-weightloss":28,"./skinfold-durnin":30,"./skinfold-lohman":31,"./skinfold-pollock":32,"./skinfold-slaughter":33,"./topunkttest":34,"image-map-resizer":1,"wilks-calculator":2}],5:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.BMI = function(h, w) {
@@ -2649,6 +2665,50 @@ module.exports = motionsplan;
 },{}],28:[function(require,module,exports){
 let motionsplan = {};
 
+motionsplan.RunningWeightLoss = function(weight, loose) {
+  weight = weight;
+  loose = loose;
+  // løbetid * (startvægt - vægttab * 0.8) / startvægt;
+
+  function getEstimatedFinishTime(hours, minutes, seconds) {
+    var h1 = hours;
+    var m1 = minutes;
+    var s1 = seconds;
+
+    if (h1 == '00') { h1 = 0; }
+    if (h1 == '') { h1 = 0; }
+    if (m1 == '00') { m1 = 0; }
+    if (m1 == '') { m1 = 0; }
+    if (s1 == '00') { s1 = 0; }
+    if (s1 == '') { s1 = 0; }
+
+    var time1 = parseInt(h1 * 3600) + parseInt(m1 * 60) + parseInt(s1 * 1);
+    var output1 = time1 * (weight - loose * 0.8) / weight;
+
+    var h_out = Math.floor(output1 / 3600);
+    var m_out = Math.floor((output1 - h_out * 3600) / 60);
+    var s_out = Math.floor(output1 - h_out * 3600 - m_out * 60);
+    if (h_out < 10) { h_out = '0' + h_out; }
+    if (m_out < 10) { m_out = '0' + m_out; }
+    if (s_out < 10) { s_out = '0' + s_out; }
+    if (h_out == 0) { h_out = '00'; }
+    if (m_out == 0) { m_out = '00'; }
+    if (s_out == 0) { s_out = '00'; }
+    return h_out + ':' + m_out + ':' + s_out;
+  }
+
+  var publicAPI = {
+    getEstimatedFinishTime: getEstimatedFinishTime
+  };
+
+  return publicAPI;
+}
+
+module.exports = motionsplan;
+
+},{}],29:[function(require,module,exports){
+let motionsplan = {};
+
 motionsplan.Running = function() {
 
     // Funktion til at beregne kalorieforbrug
@@ -2710,7 +2770,7 @@ motionsplan.Running = function() {
 
 module.exports = motionsplan;
 
-},{}],29:[function(require,module,exports){
+},{}],30:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.SkinfoldDurnin = function(biceps, triceps, suprailiac, subscapularis, weight, gender, age = 20) {
@@ -2791,7 +2851,7 @@ motionsplan.SkinfoldDurnin = function(biceps, triceps, suprailiac, subscapularis
 
 module.exports = motionsplan;
 
-},{}],30:[function(require,module,exports){
+},{}],31:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.SkinfoldLohman = function(sex, triceps, calf) {
@@ -2826,7 +2886,7 @@ motionsplan.SkinfoldLohman = function(sex, triceps, calf) {
 
 module.exports = motionsplan;
 
-},{}],31:[function(require,module,exports){
+},{}],32:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.SkinfoldPollock = function(weight, age) {
@@ -2861,7 +2921,7 @@ motionsplan.SkinfoldPollock = function(weight, age) {
 
 module.exports = motionsplan;
 
-},{}],32:[function(require,module,exports){
+},{}],33:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.SkinfoldSlaughter = function(sex, triceps, subscapular) {
@@ -2892,7 +2952,7 @@ motionsplan.SkinfoldSlaughter = function(sex, triceps, subscapular) {
 
 module.exports = motionsplan;
 
-},{}],33:[function(require,module,exports){
+},{}],34:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.ToPunktTest = function(age, weight, max_hr, work1, hr1, work2, hr2) {
@@ -2931,7 +2991,7 @@ motionsplan.ToPunktTest = function(age, weight, max_hr, work1, hr1, work2, hr2) 
 
 module.exports = motionsplan;
 
-},{}],34:[function(require,module,exports){
+},{}],35:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.WaistRatio = function() {
@@ -2954,7 +3014,7 @@ motionsplan.WaistRatio = function() {
 
 module.exports = motionsplan;
 
-},{}],35:[function(require,module,exports){
+},{}],36:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.RockPortWalkingTest = function(min, sec, hr, sex, age, weight) {
@@ -3002,7 +3062,7 @@ motionsplan.RockPortWalkingTest = function(min, sec, hr, sex, age, weight) {
 
 module.exports = motionsplan;
 
-},{}],36:[function(require,module,exports){
+},{}],37:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.SixMinutesWalkingTest = function(sex, age, height, weight, meter) {
@@ -3059,7 +3119,7 @@ motionsplan.SixMinutesWalkingTest = function(sex, age, height, weight, meter) {
 
 module.exports = motionsplan;
 
-},{}],37:[function(require,module,exports){
+},{}],38:[function(require,module,exports){
 let motionsplan = {};
 
 motionsplan.Wattmax = function(wmax, sec, weight, age, watt_jumps = 25) {

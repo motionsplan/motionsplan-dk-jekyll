@@ -6,6 +6,7 @@ const fitness = require('./fitness-hr');
 const maxhr = require('./max-hr');
 const cooper = require('./cooper');
 const cooper_test = require('./cooper-running');
+const running_weightchange = require('./running-weightloss');
 const riegel = require('./riegel');
 const fat = require('./fat-pct');
 const fp_navy = require('./fat-pct-navy');
@@ -665,6 +666,21 @@ $(document).ready(function() {
         var b = riegel.Riegel(dist, hours, minutes, seconds);
 
         $("#results").html(b.getTableWithEndTimes());
+        return false;
+    });
+    // Calculate BMR - Nordic Nutrition 2012
+    $("#calculator_weightloss_running_time").submit(function() {
+        console.log("Running time weight loss");
+
+        var weight = Number($("[name='weight']").val());
+        var weight_change = Number($("[name='change']").val());
+        var hours = Number($("[name='hours']").val());
+        var minutes = Number($("[name='minutes']").val());
+        var seconds = Number($("[name='seconds']").val());
+
+        var b = running_weightchange.RunningWeightLoss(weight, weight_change);
+
+        $("#result").val(b.getEstimatedFinishTime(hours, minutes, seconds));
         return false;
     });
     // Calculate VMax
