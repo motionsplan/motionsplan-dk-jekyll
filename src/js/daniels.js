@@ -1,17 +1,18 @@
-<form class="calculator" id="calculator_closed">
-    <fieldset>
-        <legend>Formular midlertidig lukket</legend>
-        <p>Er ved at blive opdateret.</p>
-    </fieldset>
-</form>
-{% comment %}
-<script>
-    // comp array sortering
+let motionsplan = {}
+
+motionsplan.RunningJackDaniels = function(distance, hours, minutes, seconds) {
+   distance = distance;
+   hours = hours;
+   minutes = minutes;
+   seconds = seconds;
+   var race_time = hours * 3600 + minutes * 60 + seconds * 1;
+
+   // Competition array sorting
 
     var distances = new Array("1500m", "1mile", "3km", "2miles", "5km", "8km", "5miles", "10km", "15km", "10miles", "20km", "hmarathon", "25km", "30km", "marathon");
     var complength = new Array(1.5, 1.609344, 3, 3.218688, 5, 8, 8.04672, 10, 15, 16.09344, 20, 21.1, 25, 30, 42.2);
 
-    // Konkurrencetider
+    // Competetion times
 
     var comp = new Array();
     comp[85] = new Array("3:23.5", "3:39.6", "7:14.1", "7:48.9", "12:37", "20:50", "20:58", "26:19", "40:17", "43:26", "54:40", "57:50", "1:09:33", "1:24:33", "2:01:10");
@@ -71,7 +72,7 @@
     comp[31] = new Array("8:15", "8:55", "17:27", "18:48", "29:51", "49:10", "49:28", "1:02:03", "1:35:36", "1:43:05", "2:09:50", "2:17:21", "2:44:06", "3:18:22", "4:41:57");
     comp[30] = new Array("8:30", "9:11", "17:56", "19:19", "30:40", "50:32", "50:50", "1:03:46", "1:38:14", "1:45:55", "2:13:21", "2:21:04", "2:48:29", "3:23:37", "4:49:17");
 
-    // train array sortering
+    // Train Array sorting
 
     var zones = new Array("e_km", "e_mile", "mp_km", "mp_mile", "t_400", "t_800", "t_1000", "t_mile", "i_400", "i_1000", "i_1200", "i_mile", "r_200", "r_400", "r_800");
 
@@ -195,6 +196,47 @@
     at[84] = new Array("2", "3", "4", "6", "7", "8", "9", "10", "7");
     at[85] = new Array("2", "3", "4", "6", "7", "8", "9", "9", "6");
 
+    // https://www.alpfitness.com/fitness-calculators/calculate-pace-zones-for-running-with-effective-vo2max/
+    function getVdotRunningForFitness(distance) {
+        var Time = hours * 60 + minutes * 1 + seconds / 60;
+        var Distance = distance;
+        var V02Max = 0.8 + 0.1894393 * Math.exp(-0.012778 * Time) + 0.2989558 * Math.exp(-0.1932605 * Time);
+        return Math.round((-4.6 + 0.182258 * (Distance / Time) + 0.000104 * Math.pow(Distance / Time, 2)) / V02Max * 10) / 10;
+    }
+    
+    /*
+    $scope.PaceM = function(Time, Distance) {
+      return Time * Math.pow(26.21875 / (Distance / 1000), 1.06) / 26.21875 * 60;
+    };
+
+    $scope.PaceT = function(VDOT) {
+      return 1 / (29.54 + 5.000663 * (VDOT * 0.88) - 0.007546 * Math.pow(VDOT * 0.88, 2)) * 1000 * 60;
+    };
+
+    $scope.PaceI = function(VDOT) {
+      return 1 / (29.54 + 5.000663 * (VDOT * 0.98) - 0.007546 * Math.pow(VDOT * 0.98, 2)) * 1000 * 60;
+    };
+
+    $scope.PaceR = function(VDOT) {
+      return 1 / (29.54 + 5.000663 * (VDOT * (1.03 + 0.1 * (VDOT - 30) / 55)) - 0.007546 * Math.pow(VDOT * (1.03 + 0.1 * (VDOT - 30) / 55), 2)) * 1000 * 60;
+    };
+
+    $scope.secondsToTime = function(Seconds) {
+      var Hours = parseInt(Seconds / 3600);
+      Seconds = Seconds - Hours * 3600;
+
+      var Minutes = parseInt(Seconds / 60);
+      Seconds = parseInt(Seconds - Minutes * 60);
+
+      return (Hours > 0 ? Hours + ':' : '') + (Minutes < 10 && Hours > 0 ? '0' : '') + Minutes + ':' + (Seconds < 10 ? '0' : '') + Seconds;
+    };
+
+    */
+
+    function getVdot() {
+      return find_vdot(distance, race_time);
+    }
+
     function calculate_vdot(dist, h, m, s) {
         if (!isSet("race_h")) { document.getElementById("race_h").value = "00"; }
         if (!isSet("race_m")) { document.getElementById("race_m").value = "00"; }
@@ -253,7 +295,7 @@
         var vdot = 0;
         var extratime = 0;
         var dvalue = -1;
-        for (i = 0; i < distances.length; i++) {
+        for (var i = 0; i < distances.length; i++) {
             if (dist == distances[i]) {
                 dvalue = i;
                 break;
@@ -273,12 +315,19 @@
         else {
             alert("Fejl i input værdi!");
         }
+        
+        
+        return vdot;
+        
+        /*
+        
         if (vdot >= 31 || vdot == 0) {
             generate_results(vdot, extratime);
         }
         else {
             alert("Den indtastede tid er enten for langsom eller for hurtig til beregningsmodellen!");
         }
+        */
     }
 
     function generate_results(vdot, extratime) {
@@ -286,7 +335,7 @@
         var comptime = 0;
         var traintime = 0;
         document.getElementById("vdot").value = vdot + roundNumber(extratime, 1);
-        for (i = 0; i < distances.length; i++) {
+        for (var i = 0; i < distances.length; i++) {
             comptime = to_time(to_seconds(comp[vdot][i]) + (to_seconds(comp[vdot][i]) - to_seconds(comp[vdot - 1][i])) * extratime);
             document.getElementById(distances[i]).innerHTML = comptime;
             document.getElementById("speed" + distances[i]).innerHTML = "(" + to_time(to_seconds(comptime) / complength[i]) + " min/km)";
@@ -341,6 +390,13 @@
 
     function isSet(id) {
         return (document.getElementById(id).value != '');
+    }
+
+    function isValidVdot(vdot) {
+      if (vdot > 30 && vdot < 86) {
+        return true;
+      }
+      return false;
     }
 
     function addvdot() {
@@ -427,7 +483,7 @@
         var vdot = 0;
         var extratime = 0;
         var dvalue = -1;
-        for (i = 0; i < distances.length; i++) {
+        for (var i = 0; i < distances.length; i++) {
             if (dist == distances[i]) {
                 dvalue = i;
                 break;
@@ -473,210 +529,13 @@
     function close_vdotbox() {
         document.getElementById('vdotbox').style.display = 'none';
     }
-</script>
 
-<form class="calculator" id="calculator_jack_daniels">
-    <fieldset>
-        <div class="form-group">
-            <label>Distance</label>
-            <select id="racedist">
-                <option value="1500m">1500m</option>
-                <option value="1mile">1 mile</option>
-                <option value="3km">3km</option>
-                <option value="2miles">2 mile</option>
-                <option value="5km" selected="selected">5km</option>
-                <option value="8km">8km</option>
-                <option value="5miles">5 mile</option>
-                <option value="10km">10km</option>
-                <option value="15km">15km</option>
-                <option value="10miles">10 mile</option>
-                <option value="20km">20km</option>
-                <option value="hmarathon">half marathon</option>
-                <option value="25km">25km</option>
-                <option value="30km">30km</option>
-                <option value="marathon">marathon</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label>Tid</label>
-            <input type="text" id="race_h" size="2" class="input-mini" placeholder="timer">
-            <input type="text" id="race_m" size="2" class="input-mini" placeholder="min">
-            <input type="text" id="race_s" size="2" class="input-mini" placeholder="sek">
-        </div>
-        <input type="button" value="Beregn tider" onclick="calculate_vdot()">
-    </fieldset>
-    <fieldset class="results">
-        <div class="form-group">
-            <label>V<sub>DOT</sub>-værdi</label>
-            <input type="text" id="vdot" size="3">
-        </div>
-        <div class="form-group">
-            <input type="button" class="button" value=" + " onclick="javascript: addvdot();">
-            <input type="button" class="button" value=" - " onclick="javascript: subvdot();">
-            <input type="button" class="button" value="Opdater" onclick="javascript: updatevdot();">
-            <p>(Jack Daniels VDOT-værdi beskriver løberens niveau)</p>
-        </div>
-    </fieldset>
-</form>
+  var publicAPI = {
+    getVdot : getVdot,
+    getVdotRunningForFitness : getVdotRunningForFitness
+  };
 
-<h3>Træningstider</h3>
+  return publicAPI;
+}
 
-<p>Benyt følgende tider under træningen. Er der intervaller, hvor tiderne ikke er angivet, skyldes det, at intervallerne ikke anbefales pågældende niveau.</p>
-
-<table class="box" style="width: 100%;">
-    <tr>
-        <td><b>Træning</b></td>
-        <td><b>Distance/tid</b></td>
-        <td><b>Tempo (min/km)</b></td>
-        <td><b>Kategori</b></td>
-    </tr>
-    <tr valign="top">
-        <td><b>Roligt løb</b></td>
-        <td>-</td>
-        <td nowrap="nowrap">
-            <center><span id="e_km"></span><span id="e_mile" style="display: none;"></span></center>
-        </td>
-        <td><a href="#udholdenhedstræning-lsd">Udholdenhed</a></td>
-    </tr>
-    <tr valign="top">
-        <td><b>Marathon pace</b></td>
-        <td>-</td>
-        <td nowrap="nowrap">
-            <center><span id="mp_km"></span><span id="mp_mile" style="display: none;"></span></center>
-        </td>
-        <td></td>
-    </tr>
-    <tr valign="top">
-        <td><b>Tempotur/<br />Tærskelintervaller</b></td>
-        <td nowrap="nowrap">
-            <span style="width: 50px; float: left; display: block;">400m:</span><span id="t_400"></span><br />
-            <span style="width: 50px; float: left; display: block;">800m:</span><span id="t_800"></span><br />
-            <span style="width: 50px; float: left; display: block;">1000m:</span><span id="t_1000"></span><br />
-            <span style="width: 50px; float: left; display: block;">1 mile:</span><span id="t_mile"></span>
-        </td>
-        <td>
-            <center><span id="t_speed"></span></center>
-        </td>
-        <td><a href="#mælkesyretærskeltræning-at">Mælkesyretærskeltræning</a></td>
-    </tr>
-    <tr valign="top">
-        <td><b>Intervaltræning</b></td>
-        <td nowrap="nowrap">
-            <span style="width: 50px; float: left; display: block;">400m:</span><span id="i_400"></span><br />
-            <span style="width: 50px; float: left; display: block;">1000m:</span><span id="i_1000"></span><br />
-            <span style="width: 50px; float: left; display: block;">1200m:</span><span id="i_1200"></span><br />
-            <span style="width: 50px; float: left; display: block;">1 mile:</span><span id="i_mile"></span>
-        </td>
-        <td>
-            <center><span id="i_speed"></span></center>
-        </td>
-        <td><a href="#træning-af-maksimal-iltoptagelse-vo2max">Træning af VO2max</a></td>
-    </tr>
-    <tr valign="top" class="boxcontent">
-        <td><b>Repetitions intervaller</b></td>
-        <td nowrap="nowrap">
-            <span style="width: 50px; float: left; display: block;">200m:</span><span id="r_200"></span><br />
-            <span style="width: 50px; float: left; display: block;">400m:</span><span id="r_400"></span><br />
-            <span style="width: 50px; float: left; display: block;">800m:</span><span id="r_800"></span>
-        </td>
-        <td>
-            <center><span id="r_speed"></span></center>
-        </td>
-        <td><a href="#sprinttræning-og-hastighedsteknik">Hastighedsteknik/sprint</a></td>
-    </tr>
-</table>
-
-<p>Se også <a href="javascript: open_at();">gradueret AT-tempi</a>, hvor tempoet under tempoløb beregnes i forhold til varigheden af tempoløbet - jo længere varighed desto lavere tempo.</p>
-
-<table id="attable" style="display: none; position: absolute; border: 1px #000 solid; background-color: #eee;" class="padding3">
-    <tr>
-        <td><b>Graduerer AT-tempi</b></td>
-        <td style="text-align: right;">[<a href="javascript: close_at();">Luk</a>]</td>
-    </tr>
-    <tr>
-        <td colspan="2" id="atbox" style="border-top: 1px #000 dotted; padding: 3px;">VDOT værdi er endnu ikke beregnet!</td>
-    </tr>
-</table>
-
-<h3>Konkurrencetider</h3>
-
-<p>Tilsvarende konkurrencetider for samme VDOT-værdi</p>
-
-<table style="width: 100%">
-    <tr>
-        <th>1500m:</th>
-        <td><span id="1500m"></span></td>
-        <td><span id="speed1500m"></span></td>
-    </tr>
-    <tr>
-        <td><b>1 mile:</b></td>
-        <td><span id="1mile"></span></td>
-        <td><span id="speed1mile"></span></td>
-    </tr>
-    <tr>
-        <td><b>3km:</b></td>
-        <td><span id="3km"></span></td>
-        <td><span id="speed3km"></span></td>
-    </tr>
-    <tr>
-        <td><b>2 miles:</b></td>
-        <td><span id="2miles"></span></td>
-        <td><span id="speed2miles"></span></td>
-    </tr>
-    <tr>
-        <td><b>5 km</b></td>
-        <td><span id="5km"></span></td>
-        <td><span id="speed5km"></span></td>
-    </tr>
-    <tr>
-        <td><b>8 km</b></td>
-        <td><span id="8km"></span></td>
-        <td><span id="speed8km"></span></td>
-    </tr>
-    <tr>
-        <td><b>5 miles</b></td>
-        <td><span id="5miles"></span></td>
-        <td><span id="speed5miles"></span></td>
-    </tr>
-    <tr>
-        <td><b>10 km</b></td>
-        <td><span id="10km"></span></td>
-        <td><span id="speed10km"></span></td>
-    </tr>
-    <tr>
-        <td><b>15 km</b></td>
-        <td><span id="15km"></span></td>
-        <td><span id="speed15km"></span></td>
-    </tr>
-    <tr>
-        <td><b>10 miles</b></td>
-        <td><span id="10miles"></span></td>
-        <td><span id="speed10miles"></span></td>
-    </tr>
-    <tr>
-        <td><b>20 km</b></td>
-        <td><span id="20km"></span></td>
-        <td><span id="speed20km"></span></td>
-    </tr>
-    <tr>
-        <td><b>&frac12; maraton</b></td>
-        <td><span id="hmarathon"></span></td>
-        <td><span id="speedhmarathon"></span></td>
-    </tr>
-    <tr>
-        <td><b>25 km</b></td>
-        <td><span id="25km"></span></td>
-        <td><span id="speed25km"></span></td>
-    </tr>
-    <tr>
-        <td><b>30 km</b></td>
-        <td><span id="30km"></span></td>
-        <td><span id="speed30km"></span></td>
-    </tr>
-    <tr>
-        <td><b>Maraton</b></td>
-        <td><span id="marathon"></span></td>
-        <td><span id="speedmarathon"></span></td>
-    </tr>
-</table>
-{% endcomment %}
+module.exports = motionsplan;
