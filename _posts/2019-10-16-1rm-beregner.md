@@ -92,28 +92,28 @@ Når forskerne så har lavet en formel på baggrund af resultaterne fra de førs
 
 De fleste studier er blevet lavet på mænd, men Mayhew et al (2008) fandt at deres formel passede fint på kvinder også.
 
-## Populære formler til at udregne 1RM
+## Populære formler til at udregne 1RMmax
 
-Alle disse formler er kun baseret på _gentagelser_ og _vægt_.
+Alle de [følgende formler til at udregne 1RM](https://en.wikipedia.org/wiki/One-repetition_maximum) er baseret på _gentagelser_ og _vægt_.
 
 - **r** er antallet reps eller gentagelser 
 - **w** er den løftede vægt
-
-### Epleys formel
-
-{% include math formula="RM=w\left(1+{\frac {r}{30}}\right)" %}
 
 ### Brzyckis formel til RM
 
 Denne formel kaldes ofte **Brzyckis formel** efter dens skaber Matt Brzycki. Formlen kan skrives på lidt forskellige måder, som det ses her:
 
-{% include math formula="RM=w\cdot {\frac {36}{37-r}}={\frac {w}{{\frac {37}{36}}-{\frac {1}{36}}r}}\approx {\frac {w}{1.0278-0.0278r}}" %}
+{% include math formula="RM=w\cdot{\frac{36}{37-r}}={\frac{w}{{\frac{37}{36}}-{\frac{1}{36}}r}}\approx{\frac{w}{1.0278-0.0278r}}" %}
 
 Epleys og Brzycki formler giver lignende resultater for 10RM, men ved færre end 10RM give Epley et lidt højere tal. Hvis en person fx løfter 100 kg for 10 reps, så vil den estimerede 1RM max være 133 kg. Hvis løfteren kun laver 6 reps, så estimerer Epley 1RM til at være 120 kg, mens Brzycki estimerer 1RM til at være 116 kg.
 
+### Epleys formel
+
+{% include math formula="RM=w\left(1+{\frac{r}{30}}\right)" %}
+
 ### McGlothin
 
-{% include math formula="RM={\frac {100w}{101.3-2.67123r}}" %}
+{% include math formula="RM={\frac{100w}{101.3-2.67123r}}" %}
 
 ### Lombardi
 
@@ -121,7 +121,7 @@ Epleys og Brzycki formler giver lignende resultater for 10RM, men ved færre end
 
 ### Mayhew et al.
 
-{% include math formula="RM={\frac {100w}{52.2+41.9e^{-0.055r}}" %}
+{% include math formula="RM={\frac{100w}{52.2+41.9e^{-0.055r}}" %}
 
 ### O'Conner et al.
 
@@ -129,7 +129,7 @@ Epleys og Brzycki formler giver lignende resultater for 10RM, men ved færre end
 
 ### Wathen
 
-{% include math formula="RM={\frac {100w}{48.8+53.8e^{-0.075r}}}" %}
+{% include math formula="RM={\frac{100w}{48.8+53.8e^{-0.075r}}}" %}
 
 Det er tydeligt, at formlerne vil estimere forskellige RM-vægte forskelligt alt efter, hvor mange gentagelser man tager. Fælles for alle formlerne er, at de er bedst til at forudsige RM-vægte, der ligger tæt på den testede vægt.
 
