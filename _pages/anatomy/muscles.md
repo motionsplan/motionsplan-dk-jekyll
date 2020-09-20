@@ -36,7 +36,7 @@ Skeletmusklerne kan opdeles i tre kategorier.
 - **Åndedrætsmuskler**. Musklerne indgår i åndedrættet og kan være med til at lave bugtryk.
 - **Bevægelsesmuskler**. Muskler som har til opgave at bevæge kroppen og styre bevægelserne.
 
-{% endcomment }
+{% endcomment %}
 
 I nedenstående figur er det mest relevante muskler i forhold til træning vist på skelettet. Alle musklerne er relevante for træningen.
 
