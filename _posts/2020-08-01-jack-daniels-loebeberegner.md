@@ -34,9 +34,9 @@ feature_row:
     btn_class: "btn--danger"
 ---
 
-Jeg har lavet en løbeberegner baseret på Løbesiden, der kan beregne dit træningstempo og konkurrencetider ud fra Jack Daniels Running Formula. Enhver løbeside med respekt for sig selv skal naturligvis have en løbsberegner.
+Her på løbesiden kan du finde en løbeberegner, der kan beregne dit træningstempo og konkurrencetider ud fra Jack Daniels Running Formula. Enhver løbeside med respekt for sig selv skal naturligvis have en løbsberegner.
 
-Den avancerede løbsberegner er baseret på [Jack Daniels Running Formula](https://runsmartproject.com/calculator/), og den kan udregne træningstider til din løbetræning og konkurrencetider. Jack Daniels har beskrevet det i sin bog [Running Formula\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/daniels-running-formula_jack-daniels_9781450431835){:rel="nofollow"}. Tjek prisen på bogen hos [Tales\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/daniels-running-formula_jack-daniels_9781450431835){:rel="nofollow"}.
+Den avancerede løbsberegner er fra [Jack Daniels Running Formula](https://runsmartproject.com/calculator/), og den kan udregne træningstider til din løbetræning og konkurrencetider. Jack Daniels har beskrevet det i sin bog [Running Formula\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/daniels-running-formula_jack-daniels_9781450431835){:rel="nofollow"}. Tjek prisen på bogen hos [Tales\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/daniels-running-formula_jack-daniels_9781450431835){:rel="nofollow"}.
 
 Ved at indtaste aktuelle konkurrencetider ind i løbeberegneren, kan du finde løbetider og hvilken tempo du bør træne efter i forskellige zoner og træningsmetoder.
 
