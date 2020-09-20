@@ -44,7 +44,7 @@ Jack Daniels Running Formula tager udgangspunkt i statistikker over andre løber
 
 ## Om Løbesidens løbsberegner
 
-Løbesidens beregner udregner V<sub>dot</sub>, som er defineret som:
+Løbesidens beregner er baseret på [Jack Daniels Running Formula](https://runsmartproject.com/calculator/), hvor du udregner V<sub>dot</sub>, som er defineret som:
 
 > VDOT is a measure of running ability and is calculated from a race performance based on Jack Daniels Running Formula. The number reflects the V̇O2max of a runner with average Running Economy
 > 
@@ -58,20 +58,24 @@ Formålet med beregneren er dels at udregne træningstider til din løbetræning
 
 De **konkurrencetider** du udregner i beregneren er et udtryk for de bedst muligt tider, du kan løbe.
 
-**Nybegyndere kan have svært ved at konvertere de kortere distancer udregnet i løbeberegneren til maratontider**, da det vanskeligt at løbe optimalt over så lang en distance for nybegyndere. [Løbesiden](https://loebesiden.dk/beregninger/) foreslår at man lægger 10-20 minuttter oven i den udregnede sluttid for de lange distancer, hvis du er bgynder. 
+**Nybegyndere kan have svært ved at konvertere de kortere distancer udregnet i løbeberegneren til maratontider**, da det vanskeligt at løbe optimalt over så lang en distance for nybegyndere. [Løbesiden](https://loebesiden.dk/beregninger/) foreslår at man lægger 10-20 minuttter oven i den udregnede sluttid for de lange distancer, hvis du er begynder. 
 
 **Erfarne løbere** skal også følge et løbeprogram for at kunne løbe op mod konkurrencetiderne fra beregneren.
 
-## Hvordan bruger jeg løbsberegneren?
+## Hvordan bruger jeg løbsberegneren til at udregne tempo?
 
-Du skal kun indtaste tider ind i beregneren, som du rent faktisk har løbet. Hvis du taster tider ind, du godt kunne tænke dig at løbe, så bliver træningstiderne for hurtigere, og du ender med risiko for overbelastning og skader.
+Du kan lære lidt mere om de forskellige løbetempi fra Jack Daniels selv i denne video:
+
+{% include video provider="video" id="bidIUgYg5DQ" %}
+
+**Husk**: Du skal kun indtaste tider ind i beregneren, som du rent faktisk har løbet. Hvis du taster tider ind, du godt kunne tænke dig at løbe, så bliver træningstiderne for hurtigere, og du ender med risiko for overbelastning og skader.
 {: .notice .notice--info }
 
 {% include calculate-jack-daniels.html %}
 
 ## Betragtninger om Jack Daniels løbeberegner
 
-Træningstempoet udregnet ved hjælp af Jack Daniels Running Formula er ofte baseret på konkurrencetempo for fx 5 kilometer.
+Træningstempoet udregnet ved hjælp af Jack Daniels Running Formula er baseret på konkurrencetempo for fx 5 kilometer.
 
 Claus Hechmann påpeger i sin bog [Løb som eliten\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390){:rel="nofollow"}, at udregninger baseret på så korte løb primært tager udgangspunkt i den maksimale iltoptagelse, men ikke tager højde for udholdenheden i tilstrækkelig grad.
 
@@ -113,10 +117,10 @@ Udholdenhed er naturligvis vigtig, når du træner langdistanceløb. Udholdenhed
 
 Grundlæggende forbedrer udholdenhedstræning kredsløbet og og den aerobe kapacitet. Der sker altså nogle [fysiologiske tilpasninger og adaptation er til udholdenhedstræning]({% link _posts/2020-05-31-tilpasning-konditionstraening.md %}).
 
-- Der kommer flere mitochondrier, som bliver mere effektive.
-- Der kommer flere små blodårer (kapilærer) omkring musklerne og ved lungerne
+- Der kommer flere mitochondrier, og de bliver mere effektive
+- Der kommer flere små blodårer (kapillærer) omkring musklerne og ved lungerne
 - Der kommer flere aerobe enzymer
-- Hjertet bliver større, så det kan pumpe mere blod rundt
+- Hjertet bliver større, så det kan pumpe mere blod rundt - slagvolumen stiger altså
 
 ### Udførelse
 
@@ -132,7 +136,7 @@ I starten af turen sparer du sparer du lidt på glykogendepoterne, så du kan fo
 
 Udholdenhedstræning kan fx ligge 1-2 gange om ugen. Selvom du ikke løber så hurtigt, så er det stadig belastende for kroppen, fordi du løber relativt længe. Du kan fx lave et roligt løb eller et restitutionsløb dagen efter.
 
-Udholdenhedstræning kan fx fylde omkring 25-30% af ugens samlede træningsmængde i kilometer. Hvis du træner til maraton kan det måske give god mening, at løbe længere ture der kommer op på omkring 20-30 kilometer.
+Udholdenhedstræning kan fx fylde omkring 25-30% af ugens samlede træningsmængde i kilometer. Hvis du træner til maraton kan det formentlig give god mening at løbe længere løbeture, der kommer op på omkring 20-30 kilometer.
 
 ## Mælkesyretærskeltræning (AT)
 
@@ -140,19 +144,19 @@ Træning af den anaerobe tærskel er en vigtig træningsform for distanceløbere
 
 Hvad er den anaerobe tærkel? **Den anaerobe tærskel eller mælkesyregrænsen er det tidspunkt, hvor musklerne og leveren ikke længere kan nå at nedbryde mælkesyren lige så hurtigt som den skabes som biprodukt af en anaerob forbrænding i mitochondrierne. Når man løber over den anaerobe tærskel, vil man altså langsomt opbygge mere og mere mælkesyre i kroppen.**
 
-Den anaerobe tærskel er der, hvor kroppen gradvist går fra forbrænding med ilt (aerob forbrænding) til en proces, hvor musklerne ikke har ilt til stede.
+Den [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}) er der, hvor kroppen gradvist går fra forbrænding med ilt (aerob forbrænding) til en proces, hvor musklerne ikke har ilt til stede.
 
 Når musklerne skal arbejde uden ilt, kalder vi det en anaerob proces. Under den anaerobe forbrænding i mitochondrierne kommer [mælkesyre]({% link _posts/2020-08-24-maelkesyre.md %}) som et affaldsprodukt.
 
 ### Formål
 
-Hvis du løbetræner, så du kan flytte din anaerobe tærkel vil du altså træne evnen til at løbe med en højere intensitet, men stadig primært bruge det aerobe system, som kan arbejde meget længere end det anaerobe system.
+Hvis du løbetræner, så du kan flytte din anaerobe tærskel, vil du altså træne evnen til at løbe med en højere intensitet, men stadig primært bruge det aerobe system, som kan arbejde meget længere end det anaerobe system.
 
 Hvis du har en [maxpuls]({% link _posts/2020-06-02-max-hr.md %}) på 200 slag/min og formår at flytte din anaerobe tærskel målt som hjerteslag fra 180 slag/min til 185 slag/min, så kan du altså løbe med en højere intensitet, hvilket også alt andet lige vil sige hurtigere med den aerobe forbrænding og uden at ophobe mælkesyre.
 
 ### Udførelse
 
-Din anaerobe tærskel kan du finde ved fx at lave en [Coopertest]({% link _posts/2019-10-31-kondital-cooper.md %}) og finde din gennemsnitspuls på distancen.
+Din anaerobe tærskel kan du finde ved fx at løbe fx 30-60 minutter med maksimal hastighed. Gennemsnitspulsen på distancen vil formentlig være tæt på din anaerobe tærskel.
 
 Når du udfører træning af den anaerobe tærskel skal du ramme en belastning, der ligger omkring din mælkesyretærskel. Den anaerobe tærskel er forskellig fra person til person, men typisk ligger den i pulsbelastningen mellem 70-90% af pulsreserven.
 
