@@ -1,9 +1,3 @@
-<form class="calculator" id="calculator_closed">
-    <fieldset>
-        <legend>Formular midlertidig lukket</legend>
-        <p>Er ved at blive opdateret.</p>
-    </fieldset>
-</form>
 {% comment %}
 <script>
     function FigureBEEP(form, level, shuttles, version) {
@@ -34,10 +28,9 @@
 
     }
 </script>
+{% endcomment %}
 
-<form name="BEEP" id="BEEP" class="calculator">
-    <input name="distVAL" type="hidden">
-    <input name="calcval" type="hidden">
+<form id="calculator_beeptest_yye1" class="calculator">
     <fieldset>
         <legend>Udregn kondital fra YoYo Udholdenhedstest.</legend>
         <fieldset>
@@ -53,13 +46,13 @@
 
         <div class="form-group">
             <label for="level">Niveau opnået i testen (5-21)</label>
-            <input type="number" name="level" max="21" min="5" />
+            <input type="number" name="level" max="21" min="5">
         </div>
         <div class="form-group">
             <label for="shuttles">Antal 20m shuttles (0-16) på niveauet</label>
-            <input type="number" name="shuttles" max="16" min="0" />
+            <input type="number" name="shuttles" max="16" min="0">
         </div>
-        <input type="button" name="calc" value="Beregn" onclick="FigureBEEP(this.form,this.form.level.value,this.form.shuttles.value,this.form.version.value)" />
+        <input type="submit" value="Beregn">
     </fieldset>
     <fieldset class="results">
         <legend>Resultater</legend>
@@ -70,8 +63,7 @@
             <input disabled="disabled" name="totalshuttles_result" id="totalshuttles_result" type="text" placeholder="">
         </label>
         <label>VO<sub>2max</sub> (ml/kg/min)
-            <input disabled="disabled" name="calcval_result" id="calcval_result" type="text" placeholder="">
+            <input disabled="disabled" name="vo2max_result" id="vo2max_result" type="text" placeholder="">
         </label>
     </fieldset>
 </form>
-{% endcomment %}
