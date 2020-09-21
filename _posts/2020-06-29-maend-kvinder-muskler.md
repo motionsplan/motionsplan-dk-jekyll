@@ -5,7 +5,7 @@ language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1434682881908-b43d0467b798?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2106&q=80
   teaser: https://images.unsplash.com/photo-1434682881908-b43d0467b798?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
-  caption: "Forskel på mænd og kvinders muskler"
+  caption: "Er der forskel på mænd og kvinders muskler?"
 category:
   - Viden om
 tags:
@@ -17,11 +17,11 @@ toc: true
 gallery:
   - image_path: https://www.researchgate.net/profile/Toshiyuki_Kurihara/publication/280967218/figure/fig1/AS:278998157414416@1443529753097/Representative-axial-magnetic-resonance-images-of-the-upper-arm-a-and-thigh-b-Left.png
     url: https://www.researchgate.net/profile/Toshiyuki_Kurihara/publication/280967218/figure/fig1/AS:278998157414416@1443529753097/Representative-axial-magnetic-resonance-images-of-the-upper-arm-a-and-thigh-b-Left.png
-    title: "Mandelig muskel MRI"
-    alt: "Mandelig og kvindelig muskel fra MRI"
+    title: "Mandlig og kvindelig muskel MRI"
+    alt: "Mandlig og kvindelig muskel fra MRI"
 ---
 
-Intuitivt tænker de fleste nok, at der ikke er forskel på mænds og kvinders muskler. Men hvad siger videnskaben egentlig om det spørgsmål?
+Intuitivt tænker de fleste nok, at der ikke er forskel på mænds og kvinders muskler, men der er også mange myter om spørgsmålet. Men hvad siger videnskaben egentlig om det spørgsmål?
 
 **Der er forskel på mænds og kvinders muskler. Der er forskel i generne. Mænd har større absolut muskelmasse end kvinder, særligt i overkroppen. Forskellen skyldes bl.a. hormonet testosteron og fibertypesammensætning. Men relativt set kan kvinder forøge både deres muskelstyrke og muskelmasse i nogenlunde samme grad som mænd.**
 
@@ -65,9 +65,9 @@ Janssen et al (1985) konkluderer, at mænd har en større grad af skeletmuskelma
 
 --- <cite>Miller et al 1993</cite>
 
-Typisk har kvinder imidlertid mere fedt i kroppen, så selvom låret fx er samme omkreds, så vil kvindens andel af muskel i låret typisk være mindre.
+Typisk har kvinder imidlertid mere fedt i kroppen, så selvom låret fx er samme omkreds, så er kvindens andel af muskel i låret typisk mindre.
 
-Fx kan du i følgende se tværsnittet af låret på en veltrænet ung kvinde og ung mand, hvor det er tydeligt at fedtet fylder mere for kvinderne end for mænd.
+Fx kan du i følgende se tværsnittet af låret på en veltrænet ung kvinde og ung mand, hvor det er tydeligt at fedtet fylder mere for kvinderne end for mændene.
 
 {% include gallery caption="Tværsnit af låret på en veltrænet ung mand vs. tværsnittet af låret på en veltrænet ung kvinde. Kilde: [Researchgate.net](https://www.researchgate.net/figure/Representative-axial-magnetic-resonance-images-of-the-upper-arm-a-and-thigh-b-Left_fig1_280967218){:rel='nofollow'}" alt="Forskellen på mænds og kvinders muskler" %}
 
@@ -85,9 +85,11 @@ Gentil et al (2016) have unge begyndere til at styrketræne i 10 uger. Efter de 
 
 I starten af et træningsprogram hos utrænede kan musklerne måske respondere på samme måde både for mænd og kvinder.
 
-Kvinder har ikke de samme hormonelle betingelser for muskelvækst som mænd. Testosteron bliver ofte forklaringen på, hvorfor mænd får større muskler. Men det er faktisk ikke korrekt!
+Kvinder har ikke de samme hormonelle betingelser for muskelvækst som mænd. Testosteron bliver ofte brugt som forklaring på, hvorfor mænd får større muskler. Men det er faktisk ikke korrekt!
 
-Mænd har til at starte med mere muskelmasse, men hvis vi kigger på den relative vækst i muskelmasse og tværsnitsareal, så tyder det på, at kvinders muskler har de samme vækstpotentiale som mænd - særligt i begyndelsen af træningen (Roth et al 2001; Walts et al 2008; O’Hagan et al 1995). 
+Mænd har til at starte med mere muskelmasse, fordi de opbygger mere muskelmasse gennem puberteten. Dette skyldes formentlig bl.a. tilstedeværelsen af testosteron.
+
+Men hvis vi kigger på den relative vækst i muskelmasse og tværsnitsareal, så tyder det på, at kvinders muskler har de samme vækstpotentiale som mænd - særligt i begyndelsen af træningen (Roth et al 2001; Walts et al 2008; O’Hagan et al 1995). 
 
 Muskelproteinsyntesen er nødvendig for at få muskelvækst. Desto større muskelproteinsyntesen er over en periode, desto større muskelvækst kan man forvente (Damas et al 2016). Det ser ikke ud til, at der forskel på muskelproteinsyntesen for mænd og kvinder (fx Dreyer 2010).
 
@@ -115,17 +117,21 @@ Hvis andelen af type I-fibre er større hos kvinder, så vil de selvsagt også h
 
 ## Er kvinder dårligere til at bruge deres muskler end mænd?
 
-Hos utrænede finder man ofte at kvinder er dårligere til at aktivere hele muskelmassen. Det betyder, at nervesystemet ikke formår at “tænde” hele muskelmassen. 
+Morten Zacho skriver, at man [utrænede ofte finder, at kvinder er dårligere til at aktivere hele muskelmassen](http://web.archive.org/web/20080227021220/http://www.motion-online.dk/styrketraening/styrke_-_artikler/er_der_forskel_paa_maend_og_kvinders_muskler?/){:rel="nofollow"}. Det betyder, at nervesystemet ikke formår at “tænde” hele muskelmassen. 
 
-Dette kan skyldes dels hormonelle og dels sociale forhold. Mænds højere testosteron-niveau giver dem bedre forudsætninger for en aggressiv adfærd, hvilket kan udmønte sig i en mere komplet aktivering af en given muskelmasse. Dertil vil mange drenge gennem deres opvækst have haft en legeadfærd, der har øvet dem i at bruge deres muskler mere end pigerne.
+Morten Zacho foreslår, at det [kan skyldes både hormonelle og dels sociale forhold](http://web.archive.org/web/20080227021220/http://www.motion-online.dk/styrketraening/styrke_-_artikler/er_der_forskel_paa_maend_og_kvinders_muskler?/){:rel="nofollow"}. 
 
-Hvis man sammenligner kvindelige og mandlige topatleter vil man se, at de er lige gode til at aktivere deres muskler – Det er altså i sidste ende et træningsspørgsmål og dermed et godt argument for at kvinder også skal løfte tunge vægte.
+> Mænds højere testosteron-niveau giver dem bedre forudsætninger for en aggressiv adfærd, hvilket kan udmønte sig i en mere komplet aktivering af en given muskelmasse. Dertil vil mange drenge gennem deres opvækst have haft en legeadfærd, der har øvet dem i at bruge deres muskler mere end pigerne.
+>
+> Hvis man sammenligner kvindelige og mandlige topatleter vil man se, at de er lige gode til at aktivere deres muskler – Det er altså i sidste ende et træningsspørgsmål og dermed et godt argument for at kvinder også skal løfte tunge vægte.
+
+— <cite>[Morten Zacho](http://web.archive.org/web/20080227021220/http://www.motion-online.dk/styrketraening/styrke_-_artikler/er_der_forskel_paa_maend_og_kvinders_muskler?/){:rel="nofollow"}</cite>
 
 ## Skal kvinder og mænd træne forskelligt?
 
 Hvis det er rigtigt, at der er forskel på mænds og kvinders muskler, så kan det give mening, at man manipulerer sæt, gentagelser og intensitet. 
 
-Hvis kvinder er mere udholdende og restituerer hurtigere, så kan kvinder formentlig tage lidt flere gentagelser ved den samme procentvise belastning af 1RM, og måske kan de have kortere pauser i styrketræningen.
+Hvis kvinder er mere udholdende og restituerer hurtigere, så kan kvinder formentlig tage lidt flere gentagelser ved den samme procentvise belastning af 1RM, og måske kan kvinderne have kortere pauser i styrketræningen.
 
 Træningsanbefalingerne for kvinder og mænd i forhold til styrketræning er dog stadig de samme.
 
