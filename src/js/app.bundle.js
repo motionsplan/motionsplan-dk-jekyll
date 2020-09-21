@@ -2,6 +2,7 @@
 
 /* global $ */
 
+const pushup = require('./pushup');
 const yyir1 = require('./beeptest-yyir1');
 const beeptest = require('./beeptest');
 const fitness = require('./fitness-hr');
@@ -806,6 +807,21 @@ $(document).ready(function() {
         $("[name='distance_result']").val(b.getDistance());
         $("[name='vo2max_result']").val(b.getFitnessLevel());
         $("[name='totalshuttles_result']").val(b.getTotalShuttles());
+        return false;
+    });
+     // Pushups
+    $("#calculator_pushups").submit(function() {
+        console.log("Calculate Pushups");
+
+        var gender = $("[name='gender']:checked").val();
+        var age = Number($("[name='age']").val());
+        var repetitions = Number($("[name='repetitions']").val());
+
+        var p = pushup.Pushup(gender, age, repetitions);
+
+        $("[name='population_average']").val(p.getPopulationAverage());
+        $("[name='score']").val(p.getScore());
+        $("[name='rating']").val(p.getRating());
         return false;
     });
      // Calculate Wilks

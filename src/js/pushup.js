@@ -1,74 +1,84 @@
-let motionsplan = {}
+let motionsplan = {};
 
-motionsplan.Pushup = function(age, sex) {
-  var A, StandDev, PercRegress, Zscore, PE;
-  var age = age;
-  var sex = sex;
+motionsplan.Pushup = function(sex, age, repetitions) {
+    var A, StandDev, PercRegress, Zscore, PE;
+    age = age;
+    sex = sex;
+    repetitions;
+    var score;
 
-  function getPopulationAverage() {
-    if (isMale()) {
-      return Math.round(-69.12079872 + 10.96689892 * age - 0.40037146 * Math.pow(age, 2) + 0.00576340 * Math.pow(age, 3) - 0.00002911 * Math.pow(age, 4));
+    function getPopulationAverage() {
+        if (isMale()) {
+            return -69.12079872 + 10.96689892 * age - 0.40037146 * Math.pow(age, 2) + 0.00576340 * Math.pow(age, 3) - 0.00002911 * Math.pow(age, 4);
+        }
+        return -0.00003969 * Math.pow(age, 4) + 0.00710960 * Math.pow(age, 3) - 0.45191034 * Math.pow(age, 2) + 11.56628022 * age - 75.77740372;
     }
-    return Math.round(-0.00003969 * Math.pow(Age, 4) + 0.00710960 * Math.pow(Age, 3) - 0.45191034 * Math.pow(Age, 2) + 11.56628022 * Age - 75.77740372);
-  }
 
-  function isMale() {
-    if (sex == 'Male') {
-      return true;
+    function isMale() {
+        if (sex == 'male') {
+            return true;
+        }
+        return false;
     }
-    return false;
-  }
 
-  function calc(repetitions) {
-        if (S == "Male" && form.Repetitions.value <= getPopulationAverage()) {
-            StandDev = (-33980791 + 3096739.1 * age) / (1 + 40384.763 * age + 3713.2581 * Math.pow(age, 2));
+    function getScore() {
+        if (isMale()) {
+            if (repetitions <= getPopulationAverage()) {
+                StandDev = (-33980791 + 3096739.1 * age) / (1 + 40384.763 * age + 3713.2581 * Math.pow(age, 2));
+            }
+            else if (repetitions > getPopulationAverage()) {
+                StandDev = -56.09510371 + 8.70427042 * age - 0.34822960 * Math.pow(age, 2) + 0.00562839 * Math.pow(age, 3) - 0.00003203 * Math.pow(age, 4);
+            }
         }
-        else if (S == "Male" && form.Repetitions.value > getPopulationAverage()) {
-            StandDev = -56.09510371 + 8.70427042 * age - 0.34822960 * Math.pow(Age, 2) + 0.00562839 * Math.pow(Age, 3) - 0.00003203 * Math.pow(Age, 4);
+        else {
+            if (repetitions <= getPopulationAverage()) {
+                StandDev =
+                    1.0794478 * Math.pow(0.96572202, age) * Math.pow(age, 1.015305);
+            }
+            else if (repetitions > getPopulationAverage()) {
+                StandDev = (5.5414783 + 0.47843206 * age) / (1 - 0.010122299 * age + 0.0009372169 * Math.pow(age, 2));
+            }
         }
-        else if (S == "Female" && form.Repetitions.value <= getPopulationAverage()) {
-            StandDev =
-                1.0794478 * Math.pow(0.96572202, Age) * Math.pow(Age, 1.015305);
-        }
-        else if (S == "Female" && form.Repetitions.value > getPopulationAverage()) {
-            StandDev = (5.5414783 + 0.47843206 * Age) / (1 - 0.010122299 * Age + 0.0009372169 * Math.pow(Age, 2));
-        }
-        Zscore = (form.Repetitions.value - getPopulationAverage()) / StandDev;
+        Zscore = (repetitions - getPopulationAverage()) / StandDev;
         PE = Math.exp(-1.8355027 * (Math.abs(Zscore) - 0.23073201));
-        PercRegress = -0.41682992 * (PE - 1) / (PE + 1) + 0.58953708;
-        
-    function getRating() {    
-        
+        PercRegress = -0.41682992 * (PE - 1) / (PE + 1) + 0.58953708;;
+
         if (Zscore > 0) {
-            form.Score.value = Math.round(PercRegress * 100)
+            score = Math.round(PercRegress * 100);
         }
         if (Zscore <= 0) {
-            form.Score.value = Math.round((1 - PercRegress) * 100)
+            score = Math.round((1 - PercRegress) * 100);
         }
+
+        return score;
+    }
+
+    function getRating() {
+
         if (Zscore >= 1) {
-            form.Rating.value = "Excellent"
+            return "Rigtig godt"; // Excellent
         }
-        else if (Zscore < 1 && Zscore >= 0.5) {
-            form.Rating.value = "Good"
+        if (Zscore < 1 && Zscore >= 0.5) {
+            return "Godt"; // Good
         }
         else if (Zscore < 0.5 && Zscore >= -0.5) {
-            form.Rating.value = "Average"
+            return "Gennemsnitlig"; // Average
         }
         else if (Zscore < -0.5 && Zscore >= -1) {
-            form.Rating.value = "Fair"
+            return "Nogenlunde"; // Fair
         }
         else if (Zscore < -1) {
-            form.Rating.value = "Poor"
+            return "Ikke så godt"; // "Poor"
         }
     }
 
-  var publicAPI = {
-    getBMI : getBMI,
-    getPonderalIndex : getPonderalIndex
+    var publicAPI = {
+        getRating: getRating,
+        getScore: getScore
 
-  };
+    };
 
-  return publicAPI;
+    return publicAPI;
 }
 
 module.exports = motionsplan;

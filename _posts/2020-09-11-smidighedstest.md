@@ -21,7 +21,7 @@ Smidighed og bevægelighed er væsentligt for at opretholde en god all-round fun
 
 ## Hvordan udføres den modificerede 'sit and reach'-test
 
-{% include figure image_path="https://i.ytimg.com/vi/d52r658epCc/maxresdefault.jpg" caption="Modificeret 'sit and reach'-test" alt="Modificeret 'sit and reach'-test" %}
+{% include figure image_path="https://i.ytimg.com/vi/d52r658epCc/maxresdefault.jpg" caption="Modificeret 'sit and reach'-test. [Kilde](https://www.youtube.com/watch?v=d52r658epCc)." alt="Modificeret 'sit and reach'-test" %}
 
 - Læg en tommestok eller lang lineal på gulvet
 - Sæt et tapestykke på tommestokken, så kanten af tapen skærer ved 38 cm
