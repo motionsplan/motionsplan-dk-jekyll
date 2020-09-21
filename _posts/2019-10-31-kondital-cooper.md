@@ -26,9 +26,9 @@ Hvad er en Cooper-test? **12 minutters Cooper-test er en klassisk konditionstest
 
 ## Hvordan laver du en Cooper-test?
 
-- Varm op med løb i mindst 10 minutter
-- Find en flad og enkel rute
-- Løb så langt du kan på 12 minutter
+- Lav en **grundig general opvarmning**, hvor du også løber med det tempo, du forestiller dig at gennemføre Cooper-testen på.
+- Testen er mest pålidelig til at forudsige konditallet, hvis du løber på en **flad rute**.
+- Løb så langt du kan på 12 minutter og **notér distancen**.
 
 ## Udregn dit kondital fra Cooper-testen
 
@@ -40,7 +40,11 @@ Konditallet i Coopertesten afhænger ikke af vægten. Konditallet er VO<sub>2</s
 
 Hvis en person på 100 kg skal løbe samme distance, så kræver det dobbelt så meget energi og dermed en VO<sub>2</sub>max på 5,6 l/min, men da personen jo netop har dobbelt så stor kropsvægt, så ender konditallet med at være det samme.
 
+{% comment %}
+
 {% include figure image_path="https://levaktivt.dk/media/2593/cooper-test-infografik.jpg" caption="Cooper-test: Find dit kondital med Coopers 12 minutters løbetest" alt="Find dit kondital med Cooper-testen" %}
+
+{% endcomment %}
 
 ## Formel til at udregne konditallet fra Coopertesten
 
@@ -48,11 +52,13 @@ Der findes forskellige formler til at udregne konditallet fra Cooper-testen. Her
 
 {% include math formula="VO_2max = \frac{d_{12} - 505}{45}" %}
 
-I beregneren bruger jeg dog denne formel, da senere studier har vist, at den er lidt mere præcis.
+I beregneren bruger jeg dog denne [formel til at beregne konditallet ud fra Cooper-testen](https://www.brianmac.co.uk/gentest.htm), da senere studier har vist, at den er lidt mere præcis.
 
 {% include math formula="VO_2max = \frac{d_{12} - 504,9}{44,73}" %}
 
-Der findes også formler, der inkluderer vægt, køn og alder. Hvis du bruger Cooper-testen til at udregne dit kondital, skal du altså sørge for at bruge den samme formel hver gang.
+Der findes også formler, der inkluderer vægt, køn og alder.
+
+Hvis du bruger Cooper-testen til at udregne dit kondital, skal du sørge for at bruge den samme formel hver gang.
 
 ## Usikkerheder i Cooper-testen
 
@@ -86,4 +92,5 @@ Der findes også formler, der inkluderer vægt, køn og alder. Hvis du bruger Co
 
 ## Referencer til Cooper-test
 
-Cooper, K. H. 1968. [“A Means of Assessing Maximal Oxygen Intake. Correlation between Field and Treadmill Testing”](https://pubmed.ncbi.nlm.nih.gov/5694044/). JAMA 203 (3): 201–4.
+- Cooper, K. H. 1968. [“A Means of Assessing Maximal Oxygen Intake. Correlation between Field and Treadmill Testing”](https://pubmed.ncbi.nlm.nih.gov/5694044/). JAMA 203 (3): 201–4.
+- Grant, S., K. Corbett, A. M. Amjad, J. Wilson, og T. Aitchison. 1995. “A Comparison of Methods of Predicting Maximum Oxygen Uptake.” _British Journal of Sports Medicine_ 29 (3): 147. [https://doi.org/10.1136/bjsm.29.3.147](https://doi.org/10.1136/bjsm.29.3.147).

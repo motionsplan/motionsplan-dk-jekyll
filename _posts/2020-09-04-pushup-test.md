@@ -20,7 +20,7 @@ Denne test af armstrækninger fra "The Canadian Standardized Test of Fitness" vu
 
 ## Instruktioner til armstrækningstesten
 
-1. Sørg for først at varme op - særligt i armene og skuldrene. Lav et par rigtige gentagelser inden testen.
+1. Sørg for først at varme op - særligt i armene og skuldrene. Lav et par rigtige gentagelser af øvelsen inden testen.
 2. Lav så mange armstrækninger som muligt uden pauser med den rigtig teknik og fuldt bevægelsesudslag.
 3. Kvinder laver testen på knæene, mens mændene laver armstrækningerne på fødderne.
 4. Skriv din alder, dit køn og antallet af armstrækninger ind i beregneren.
@@ -41,7 +41,7 @@ Husk at dine resultater er negativt korreleret med kropsvægten. Hvis du er tung
 
 - tæerne på fødderne
 - ben, hofter, ryg og nakke er lige
-- testlederen placerer sin knytnæve under testpersonens bryst (jeg har konstrueret nogle standardiserede plader og kigger efter om der er kontakt)
+- testlederen placerer sin knytnæve under testpersonens bryst (jeg har konstrueret nogle standardiserede plader, som jeg bruger, og kigger efter om der er kontakt mellem pladen og brystkassen)
 - testpersonens bryst skal røre knytnævnen her gang
 
 ### Kvinder

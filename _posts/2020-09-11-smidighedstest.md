@@ -23,11 +23,12 @@ Smidighed og bevægelighed er væsentligt for at opretholde en god all-round fun
 
 {% include figure image_path="https://i.ytimg.com/vi/d52r658epCc/maxresdefault.jpg" caption="Modificeret 'sit and reach'-test. [Kilde](https://www.youtube.com/watch?v=d52r658epCc)." alt="Modificeret 'sit and reach'-test" %}
 
-- Læg en tommestok eller lang lineal på gulvet
-- Sæt et tapestykke på tommestokken, så kanten af tapen skærer ved 38 cm
-- Sæt dig på gulvet med strakte ben og skulderbreddes afstand mellem fødderne. Hælene skal flugte med tapestykket.
-- Læg hænderne oven på hinanden og prøv at nå så langt ud af tommestokken, du kan. Du må ikke 'hugge' og fingrene skal kunne holdes i ro på tommestokken.
-- Prøv 3 gange. Det bedste resultat tæller.
+- Placer en tommestok eller målebånd på gulvet
+- Sæt et tapestykke, så kanten af tapen er ved 38 cm på målebåndet.
+- Sæt dig på gulvet med strakte ben og skulderbreddes afstand mellem fødderne. Hælene skal være ud for tapestykket.
+- Læg hænderne oven på hinanden.
+- Prøv at række så langt frem som muligt. Du må ikke 'hugge' og du skal kunne sidde i stillingen, mens hånderne er i ro på tommestokken.
+- Prøv smidighedstesten tre gange. Notér det bedste resultat.
 
 I denne Youtube video kan du se, hvordan den modificerede 'sit and reach'-test udføres.
 
@@ -53,7 +54,7 @@ I denne Youtube video kan du se, hvordan den modificerede 'sit and reach'-test u
 
 ## Har smidighed betydning for sundheden?
 
-En god bevægelighed kan være væsentlig for at kunne opretholde en god all-round funktionsevne for kroppen. Det er formentlig rimeligt at antage, at der er en sammenhæng mellem generelt god bevægelighed i kroppens led og evnen til at [opretholde en god holdning]({% link _posts/2020-07-01-ret-ryg.md %}) både i hvile og under fysisk aktivitet.
+Det er formentlig rimeligt at antage, at der er en sammenhæng mellem generelt god bevægelighed i kroppens led og evnen til at [opretholde en god holdning]({% link _posts/2020-07-01-ret-ryg.md %}) både i hvile og under fysisk aktivitet, men også for at kunne bevæge sig frit og opretholde en god funktionevne.
 
 Smidighed og bevægelighed kan derfor måske sagtens indgå i en [sundhedsprofil og sundhedstest]({% link _posts/2019-10-10-sundhedsprofil.md %}).
 
