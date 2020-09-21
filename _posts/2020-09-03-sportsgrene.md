@@ -33,13 +33,13 @@ Jeg har samlet en liste over de mest populære sportsgrene i Danmark herunder. I
 
 {% assign sports = site.data.sportsgrene | sort: "Medlem2018" | reverse %}
 
-{% include table-sportsgrene.html column="Medlem2018" sports=sports limit="10" %}
+{% include table-sportsgrene.html column="Medlem2018" sports=sports limit="10" description="hide" %}
 
 Hvis du gerne vil læse mere om, hvor mange der dyrker en bestemt idrætsgren, så kan du se [Danmarks Idræts-Forbunds medlemsliste](https://www.dif.dk/da/politik/vi-er/medlemstal). Her får du også delt medlemstallene oå, så du kan se hvilke sportsgrene der er mest populære for mænd og kvinder, og hvordan det ser ud med børn og ældre.
 
 ## 10 mindst populære idrætsgrene i Danmark
 
-{% assign sports = site.data.sportsgrene | sort: "Medlem2017" %}
+{% assign sports = site.data.sportsgrene | where_exp: "item", "item.Medlem2017 != blank" | sort: "Medlem2017" %}
 
 {% include table-sportsgrene.html column="Medlem2017" sports=sports limit="5" description="hide" %}
 

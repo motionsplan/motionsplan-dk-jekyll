@@ -73,6 +73,7 @@ motionsplan.Pushup = function(sex, age, repetitions) {
     }
 
     var publicAPI = {
+        getPopulationAverage : getPopulationAverage,
         getRating: getRating,
         getScore: getScore
 
