@@ -1,10 +1,10 @@
 ---
-title: "Motion-online.dk virker ikke - brug Motionsplan i stedet!"
+title: "Motion-online.dk virker ikke. Find andre beregnere her!"
 permalink: /motion-online/
 language: da
 header:
   overlay_image: https://www.motion-online.dk/wp-content/uploads/2018/08/Advertorial-motion-online.dk-https_senge-testeren.dk_-https_kondition.dk_-1.jpg
-  caption: Motion-Online.dk er ikke det samme som den har været!
+  caption: Motion-Online.dk virker ikke!
   teaser: https://images.unsplash.com/photo-1522844990619-4951c40f7eda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80https://www.motion-online.dk/wp-content/uploads/2018/08/Advertorial-motion-online.dk-https_senge-testeren.dk_-https_kondition.dk_-1.jpg
 category:
   - Viden om
@@ -41,8 +41,7 @@ Morten Zacho har ikke længere indflydelse på driften og indholdet på siden. D
 
 I gennem mange år har Morten Zacho opbygget en af de største danske sites om træning. Et site som mange bare har referereret til som Motion Online eller forkortet som MOL.
 
-Motion-online.dk **var** fyldt med interessante og velskrevne artikler baseret på videnskab omkring sundhed, kost og træning. Desuden fandtes på Motion Online også et af de 
-største træningsfællesskaber herhjemme i form af MOLs online forum. 
+Motion-online.dk **var** fyldt med interessante og velskrevne artikler baseret på videnskab omkring sundhed, kost og træning. Desuden fandtes på Motion Online også et af de største træningsfællesskaber herhjemme i form af MOLs online forum. 
 
 Det skal Morten Zacho virkelig have et stort cadeau for.
 
@@ -71,7 +70,7 @@ Jeg klikkede hurtigt **afmeld på nyhedsbrevet fra Motion Online**.
 
 Det er ærgerligt at Morten Zachos fantastiske **Motion Online på en dag blev forvandlet til en affiliate pengemaskine**, hvor indholdet helt mistede værdi. Det mest ærgerlige er, at det gamle indhold også blev ubrugeligt. 
 
-**Pludselig virkede beregnerne ikke** og **billederne var broken**.  
+**Pludselig virkede beregnerne ikke** og **billederne fandtes ikke længere**.
 
 Morten Zacho har brugt mange år på at bygge Motion Online op. Heldigvis kan du bruge Motionsplan.dk til at lave de fleste beregnere og inspirationen til at lave et brugbart træningssite er intakt på Motionsplan.dk. 
 
@@ -97,7 +96,7 @@ Her har du en liste over **Motionsplans beregnere som naturligvis bliver opdater
 
 ## Motion Online og kondital
 
-Jeg har søgt lidt på Motion Online og kondital, og det tror jeg, at der er mange, der har gjort. Hvis du er interesseret i at [læse mere om du har et godt kondital]({% link _posts/2019-11-04-kondital-og-tabel.md %}) eller [teste dit kondital]({% link _posts/2019-11-04-kondition-og-test.md %}) så **læs vores guides på Motionsplan som virker**.
+Jeg har søgt lidt på Motion Online og kondital, og det tror jeg, at der er mange, der har gjort. Hvis du er interesseret i at [læse mere om du har et godt kondital]({% link _posts/2019-11-04-kondital-og-tabel.md %}) eller [teste dit kondital]({% link _posts/2019-11-04-kondition-og-test.md %}) så kan du læse mere i følgende guides.
 
 Vi har også skrevet mange andre artikler om kondition og konditionstræning.
 
@@ -127,8 +126,8 @@ Motion-online.dk fik relativt mange besøgende på deres side om Coopertesten. V
 
 ## Motion-Onlines gangtest og gåtest
 
-Motion-online.dk havde en del tests liggende på deres site med beregnere. Jeg har allerede linket til beregnerne, hvor du også kan finde vores gåtest og gangtest. Bl.a. har jeg denne [fine guide til vores 6 minutters gangtest]({% link _posts/2019-10-31-kondital-gaa-test-6min.md %}) og denne [guide til vores 1,6 km gåtest]({% link _posts/2019-10-31-kondital-gaa-test-1-6-km.md %}).
+Motion-online.dk havde en del tests liggende på deres site med beregnere. Jeg har allerede linket til beregnerne, hvor du også kan finde vores gåtest og gangtest. Bl.a. har jeg denne [guide til 6 minutters gangtest]({% link _posts/2019-10-31-kondital-gaa-test-6min.md %}) og denne [guide til Rockports 1,6 km gåtest]({% link _posts/2019-10-31-kondital-gaa-test-1-6-km.md %}).
 
-## R.I.P. Motion Online
+## Motion Onlines forum
 
-Du kan altså bruge Motionsplan.dk til langt de fleste ting, du tidligere brugte Motion-Online.dk til. Vi har dog ikke forum, og jeg kender ikke noget dansk forum, som har de samme kvaliteter, som MOLs forum havde. Vi har heller ruteplanlægger, men der er efterhånden andre muligheder, hvor du kan planlægge dine ruter.
+Jeg kender desværre ikke noget dansk forum, som har de samme kvaliteter, som MOLs forum havde. Vi har heller ruteplanlægger, men der er efterhånden andre muligheder, hvor du kan planlægge dine ruter.
