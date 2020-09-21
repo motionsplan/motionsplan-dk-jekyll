@@ -1,11 +1,11 @@
 ---
-title: "Find dit kondital fra den danske steptest"
+title: &title "Kan man finde sit kondital med Den Danske Steptest? 📥"
 permalink: /kondital-fra-steptest/
-excerpt: "Den danske steptest er en præstationsbegrænset submaksimal test, der estimerer den maksimale iltoptagelse og konditallet"
 language: da
 header:
   overlay_image: https://i.ytimg.com/vi/kPbmoq5V6AA/maxresdefault.jpg
   teaser: https://i.ytimg.com/vi/kPbmoq5V6AA/maxresdefault.jpg
+  caption: *title
 category:
   - Kondition
   - Test
@@ -18,32 +18,72 @@ toc: true
 
 *[MET]: Metabolic equivalent of Task
 
-Danske forskere har udviklet en modificeret steptest. Det er en præstationsbegrænset submaksimal test, hvor man træder op og ned af en forhøjning. Forhøjningen sættes i forhold til folks træningsniveau - og man følger nogle lette instruktioner på skærmen. Testen kan laves overalt, hvor man har en computer.
+Den Danske Steptest er en præstationsbegrænset submaksimal test, der estimerer den maksimale iltoptagelse og konditallet. Jeg kigger lidt på, om testen kan bruges til at finde konditallet?
 
-Når testen er færdig får man en estimeret VO<sub>2</sub>-max, sit kondital (den maksimale iltoptagelse i forhold til ens kropsvægt) og MET-værdien[^note] (som er et mål for hvor meget arbejde man har lavet).
+Hvad er Den Danske Steptest? **Den Danske Steptest er udviklet af danske forskere med Morten Zacho i spidsen. Det er en en tilpasning af de eksisterende steptest, hvor man ikke skal bruge pulsmålinger undervejs. Den Danske Steptest er en præstationsbegrænset submaksimal test, hvor deltagerne træder op og ned af en forhøjning på en bestemt måde i et forudbestemt tempo, som progressivt stiger i løbet af testen.**
 
-[^note]: Du kan [læse mere om MET på Wikipedia](https://en.wikipedia.org/wiki/Metabolic_equivalent_of_task).
+Forhøjningen i Den Danske Steptest er på 20-35 cm og sættes i forhold til folks træningsniveau, hvilket du kan læse mere om i [instruktionerne til testen på steptest.dk](http://steptest.dk/instruktion.php). Her kan du også få testen online, eller downloade testen, så du kan følge nogle lette instruktioner på skærmen. Testen kan laves overalt, hvor man har en computer og en forhøjning.
 
-[Tag selv den danske steptest](http://www.steptest.dk){: .btn--large .btn--info }
+Når testen er færdig får man en estimeret VO<sub>2</sub>-max, sit kondital (den maksimale iltoptagelse i forhold til ens kropsvægt) og [MET-værdien]({% link _posts/2020-07-24-met.md %}) (som er et mål for hvor meget arbejde, du har lavet). Den Danske Steptest er [udviklet af Morten Zacho](http://steptest.dk/). Du kan også finde [steptesten på engelsk](https://www.health-calc.com/fitness-tests/the-danish-step-test).
 
-## Baggrunden for den danske steptest
+[Tag Den Danske Steptest på steptest.dk](http://www.steptest.dk){: .btn .btn--large .btn--info }
 
-Man har valideret testen med en stor gruppe mennesker, hvor man har sammenlignet den med en Watt-max test på cykel. Der fandt man følgende korrelationer.
+## Baggrunden for Den Danske Steptest
 
-> The correlation between VO(2max) (ml/kg/min) estimated by the two tests was moderate to high (men: r = 0.69, p < 0.0001; women: r = 0.77, p < 0.0001). The Danish step test slightly overestimated VO(2max )compared to the watt-max test, more so in women than in men. 
+Den Danske Steptest bruger kun trinhøjden og vægten som input for at lave sine beregninger til at estimere det den maksimale iltoptagelse og konditallet.
+
+Som [baggrund for Den Danske Steptest](http://steptest.dk/baggrund.php) bruger Morten Zacho følgende teoretiske sammenhæng:
+
+{% include math formula="arbejde_{total} = \frac{kropsvaegt * tyngdekraft * stephoejde * stepfrekvens}{nyttevirkning}" %}
+
+[Tyngdekraften 9,816 m/s<sup>2</sup> i Danmark](https://da.wikipedia.org/wiki/Tyngdeacceleration). Det totale arbejde er i sidste ende præstationsbegrænset ved at både koordinationen og kredsløbet kan være den begrænsende faktor.
+
+{% include math formula="VO_2max = \frac{\frac{arbejde_{total}}{O_2energi}}{intensitet_{slut}} + VO_2hvile" %}
+
+Hvilestofskiftet er cirka [0,25 liter O<sub>2</sub> pr. minut](http://www.fys.dk/nfa/03/heftet/menneskekroppen.pdf). Når vi er på vores maksimale ydeevne, så bruger kroppen udelukkende kulhydrat som brændstof, som du kan læse mere om under [den respiratoriske udvekslingskvotient]({% link _posts/2020-08-08-respiratoriske-kvotient.md %]}). Forbrænding af kulhydrat giver os 21,1 kJ pr. liter ilt. Det kaldes også iltens energetiske værdi for kulhydrat. Hvordan testen estimerer slutintensiteten er ikke klart, men hvis du ved det, så brug endelig kommentarerne.
+
+Når man kender den estimerede VO<sub>2</sub>max, så kan man udregne konditallet.
+
+{% include math formula="kondital = \frac{VO_2max}{kropsvaegt}" %}
+
+## Hvor pålidelig er steptesten?
+
+Aadahl et al (2012) har valideret testen med 795 personer, hvor man har sammenlignet den med en [Watt-max test på cykel]({% link _posts/2019-10-31-kondital-watt-max-test.md %}). Der fandt forskerne følgende korrelationer.
+
+> The correlation between VO<sup>2max</sup> (ml/kg/min) estimated by the two tests was moderate to high (men: r = 0.69, p < 0.0001; women: r = 0.77, p < 0.0001). The Danish step test slightly overestimated VO<sub>2max</sub> compared to the watt-max test, more so in women than in men.
+
+--- <cite>[Aadahl et al (2012)](https://journals.sagepub.com/doi/10.1177/2047487312462825)</cite>
 
 Testen har en tendens til at overestimere VO<sub>2</sub>-max sammenlignet med en Watt-max test på cykel.
 
+Senere har Lerche et al (2017) valideret Den Danske Steptest i forhold til direkte måling af maksimal iltoptagelse.
+
+> The validity of the Danish step test was moderate (women: r=.66, and men: r=.56); however, men were systematically underestimated (43% misclassification).
+> ...
+> Thus, self‐rated fitness was found to be a superior method to the Danish step test...
+
+--- <cite>[Lerche et al (2017)](https://onlinelibrary.wiley.com/doi/abs/10.1111/sms.12873)</cite>
+
+Den Danske Steptest har altså en fornuftig korrelation med Watt-max-testen, men validiteten er kun moderat, når forskerne sammenligner med en direkte måling af den maksimale iltoptagelse. Det skyldes sandsynligvis, at korrelationen mellem Watt-max-testen og en direkte måling af iltoptagelse jo heller ikke er perfekt.
+
 ## Hvad betyder MET?
 
-Metabolic Equivalent for Task (MET) er et udtryk for størrelsen af iltforbruget under et givet arbejde.
+[Metabolic Equivalent for Task (MET)]({% link _posts/2020-07-24-met.md %}) er et udtryk for størrelsen af iltforbruget under et givet arbejde.
 
 1 MET svarer til energiomsætningen i hvile, hvor kroppen forbruger 3,5 ml ilt pr. kg kropsvægt pr. minut.
 
-Desto mere intensivt arbejdet bliver, desto højere bliver energiomsætningen.
+Desto mere intensivt arbejdet bliver, desto højere bliver energiomsætningen under arbejdet.
 
-{% include figure image_path="https://www.whyiexercise.com/images/metabolic.equivalent.sports.leisure.jpg" caption="Billede fra [Why Exercise](https://www.whyiexercise.com/metabolic-equivalent.html)" %}
+## Andre steptests
 
-## Referencer
+Der findes en række andre steptests, som du også kan kigge på, hvis du gerne vil estimere konditallet med en let test, der er let at sætte op overalt.
+
+- [Åstrands Steptest](https://netdoktor.dk/interactive/interactivetests/steptest.php)
+- [Harvard Steptest](https://en.wikipedia.org/wiki/Harvard_step_test)
+
+Vi har også lave en [oversigt over andre tests af konditallet]({% link _posts/2019-11-04-kondition-og-test.md %}), eller måske vil du sammenligne dit [kondital med en tabel]({% link _posts/2019-11-04-kondital-og-tabel.md %})?
+
+## Referencer om Den Danske Steptest
 
 - Aadahl, Mette, Morten Zacho, Allan Linneberg, Betina Thuesen, og Torben Jørgensen. 2012. “Comparison of the Danish step test and the watt-max test for estimation of maximal oxygen uptake: The Health2008 study”. European journal of preventive cardiology 20 (september). <https://doi.org/10.1177/2047487312462825>.
+- Lerche, L., A. Olsen, K. E. N. Petersen, A. L. Rostgaard‐Hansen, L. O. Dragsted, N. B. Nordsborg, A. Tjønneland, og J. Halkjær. 2017. “Validity of Physical Activity and Cardiorespiratory Fitness in the Danish Cohort ‘Diet, Cancer and Health-Next Generations’”. Scandinavian Journal of Medicine & Science in Sports 27 (12): 1864–72. https://doi.org/10.1111/sms.12873.
