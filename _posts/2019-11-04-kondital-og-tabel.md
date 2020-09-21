@@ -126,11 +126,11 @@ Det almindelige kondital udregnes ved at dividere VO<sub>2</sub>max med kropsvæ
 
 I forhold til vejledning har vi brug for målinger, der objektivt vurderer kondition og vægt adskilt. Med det normale kondital risikerer vi at vejlede til mere motion, selvom det i virkeligheden er kosten, der skaber udfordringer for den enkelte.
 
-Der er forskellige teoretiske muligheder for at løse dette[^note], men den metode der er lettest at forstå er princippet om _Kondital ved index 23_.
+Morten Zacho foreslår i [Retfærdig vurdering af overvægtiges kondition](http://web.archive.org/web/20090207083616/http://www.motion-online.dk/konditionstraening/testning/retfaerdig_vurdering_af_overvaegtiges_kondition/){:rel="nofollow"} at bruge princippet om _Kondital ved Index 23_.[^note]
 
-[^note]: Morten Zacho beskriver en række forskellige muligheder i [Retfærdig vurdering af overvægtiges kondition](https://www.motion-online.dk/retfaerdig-vurdering-overvaegtiges-kondition/){:rel="nofollow"}. Fx kan man opløfte vægten i en potens lavere end 1, for at den får mindre betydning, eller man normalisere i forhold til fedtfri masse i stedet. Man kan også bruge princeppet om skalering og dividere iltoptagelsen med højden i anden potens.
+[^note]: Morten Zacho foreslår også, at man kan opløfte vægten i en potens lavere end 1, for at den får mindre betydning, eller man normalisere i forhold til fedtfri masse i stedet. Man kan også bruge princeppet om skalering og dividere iltoptagelsen med højden i anden potens.
 
-Princippet i _Kondital ved index 23_ for denne beregner er, at den maksimale iltoptagelse (målt med en test) divideres med den vægt man ville have, hvis man havde et BMI på 23. Dette vægtuafhængige kondital kan man slå op i de tabeller, der bruges for det almindelige kondital, og dermed få en vægtuafhængig vurdering af konditionen i forhold til alder og køn.
+Princippet i _Kondital ved Index 23_ er, at den maksimale iltoptagelse (målt med en test) divideres med den vægt man ville have haft, hvis man havde et BMI på 23. Dette vægtuafhængige kondital kan man slå op i de tabeller, der bruges for det almindelige kondital, og dermed få en vægtuafhængig vurdering af konditionen i forhold til alder og køn.
 
 ## Hvordan udregnes Kondital ved Index 23?
 
@@ -138,10 +138,16 @@ På formel ser det således ud:
 
 {% include math formula="Kondital_{Index23} = \frac{VO_2max (ml/min)}{23 * height (m)^2}" %}
 
-Kondital<sub>Index 23</sub> er altså en beskrivelse af en persons relative kredsløbskapacitet i forhold til det potentiale som den medfødte kropsstørrelse giver. Samtidigt er det en værdi der er nem at forklare for almindelige mennesker: "Dette er det kondital du ville have, såfremt du var normalvægtig"
+Kondital<sub>Index 23</sub> er altså en beskrivelse af en persons relative kredsløbskapacitet i forhold til det potentiale som den medfødte kropsstørrelse giver. Samtidigt skriver Morten Zacho, at det er en værdi, der er let at forklare for almindelige mennesker.
 
-Det har også været foreslået at opløfte kropsvægten med 0,73, når man sammenligner kondital for bedre at tage højde for [løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %}) og give en mere retfærdig sammenligning mellem lette og tunge atleter. Læs fx mere i denne artikel [Effekt af Kropsvægt på den maksimale iltoptagelse](http://www.motion-online.dk/effekt-kropsvaegt-paa-maksimale-iltoptagelse/).
+> "Dette er det kondital du ville have, såfremt du var normalvægtig".
+
+--- <cite>[Morten Zacho](http://web.archive.org/web/20090207083616/http://www.motion-online.dk/konditionstraening/testning/retfaerdig_vurdering_af_overvaegtiges_kondition/){:rel="nofollow"}</cite>
+
+Det har også været foreslået at opløfte kropsvægten med 0,73, når man sammenligner kondital for bedre at tage højde for [løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %}) og give en mere retfærdig sammenligning mellem lette og tunge atleter. Læs fx mere i denne artikel [Effekt af kropsvægt på den maksimale iltoptagelse](http://web.archive.org/web/20090207075933/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/effekt_af_kropsvaegt_paa_den_maksimale_iltoptagelse/){:rel="nofollow"}.
 {: .notice .notice--warning }
+
+{% comment %}
 
 ## Falder konditallet med alderen?
 
@@ -150,6 +156,8 @@ Konditallet falder med alderen. En stor del af faldet skyldes, at aktivitetsnive
 ## Er der forskel på mænd og kvinders kondital?
 
 Da kvinder har en større andel af fedt i kroppen end mænd, så vil kvinders kondital typisk være lavere end mænds.
+
+{% endcomment }
 
 ## Kondital og risiko for sygdomme
 
