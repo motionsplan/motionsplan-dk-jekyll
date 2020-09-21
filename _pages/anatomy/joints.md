@@ -43,6 +43,8 @@ sidebar:
 
 Led kan opdeles i ægte led og uægte led og forskellige ledtyper: ægled, saddelled, hængselled, glideled, drejeled og kugleled. Jeg kigger her på de forskellige defintioner og ledtyper.
 
+Du kan læse mere om [led og ledtyper i Morten Zachos beskrivelse](http://web.archive.org/web/20090130044627/http://www.motion-online.dk/styrketraening/anatomiguide/led_generelt/){:rel="nofollow"}.
+
 {% comment %}
 
 Et led er en forbindelse mellem to eller flere knogler, uanset om der kan være bevægelse i leddet eller ej. I forbindelse med idræt er vi hovedsageligt interesseret i de led, der kan bevæge sig. Mennesket kan bevæge sig på mange forskellige måder, og derfor er der også flere forskellige typer led.
@@ -92,6 +94,8 @@ En symfyse er et uægte led, hvor der udover ledbåndsfibre er indskudt en blød
 
 Hvis knoglerne presses sammen, vil den bløde kerne blive trykket fladere og derved udvide sig mod siderne. Det forhindres imidlertid af ledbåndsfibrene, der ligger hele vejen rundt om kernen, der således kommer til at virke som en stødpude mellem knoglerne. En symfyse er altså både trækstærk (som alle andre typer led) og trykstærk. Det har vi brug for i rygsøjlen, der skal kunne bære stor vægt uden at hvirvlerne støder mod hinanden, så de er alle adskilt af symfyser. Leddet mellem de to skamben er også en symfyse.
 
+{% endcomment %}
+
 ## Bevægelsestyper
 
 Bevægelser kan foregå i tre forskellige planer.
@@ -124,4 +128,3 @@ Bevægelser kan foregå i tre forskellige planer.
 - **[{{ j.title }}]({{ j.url }})**. {{ j.excerpt }}
 {% endfor %}
 
-{% endcomment %}
