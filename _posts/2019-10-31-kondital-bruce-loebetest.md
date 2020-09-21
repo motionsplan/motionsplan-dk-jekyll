@@ -25,23 +25,23 @@ feature_row:
     btn_class: "btn--success"
 ---
 
-Bruce-testen tester dit kondital på løbebånd uden bruge af puls eller andet udstyr. Testen kræver at løbebåndet kan ændre hældning op til 22%. I Danmark er det mest almindelige at teste kondition på ergometercykel, men i USA er det mere almindeligt at anvende løbebåndstest, fx Bruce-testen.
+Bruce-testen tester dit kondital på løbebånd uden bruge af puls eller andet udstyr. Testen kræver et pålideligt løbebånd, som kan håndtere hældninger på op til 22%.
+
+Bruce-løbetest er [meget almindelig i fx USA](http://health-calc.com/fitness-tests/bruce-treadmill-test).
 
 ## Forberedelse til Bruce-testen
 
-Inden testen skal du undersøge, om løbebåndet kan indstilles til alle hældninger og hastigheder, som er nødvendige i protokollen. Nogle steder foreslås det, at man kan klodse løbebåndet op for at opnå de korrekte hældninger. Det vil vi fraråde både for løbebåndets og din egen skyld.
-
-Hvis ikke dit løbebånd kan indstilles til Bruce-testen, så kan du vælge andre [kondtionstests]({% link _posts/2019-11-04-kondition-og-test.md %}).
+Inden testen skal du undersøge, om løbebåndet kan indstilles til alle hældninger og hastigheder, som er nødvendige for at gennemføre testen. Nogle steder foreslås det, at man kan klodse løbebåndet op for at opnå de korrekte hældninger. Hvis ikke du har adgang til et løbebånd, der kan indstilles korrekt til Bruce-testen, så vil jeg i stedet foreslå, at du vælger en af de mange andre [kondtionstests]({% link _posts/2019-11-04-kondition-og-test.md %}).
 
 ## Instruktion af Bruce-testen
 
-Du kan se et eksempel på, hvordan du kan bruge Bruce-testen i videoen nedenunder (vi fraråder at du selv klodser løbebåndet op).
+Du kan se et eksempel på, hvordan du kan bruge Bruce-testen i videoen nedenunder (jeg fraråder at du selv klodser løbebåndet op).
 
 {% include video provider="youtube" id="oryZbKrRGNI" %}
 
-1. Du skal bruge et løbebånd med en pålidelig styring af hastighed og hældning.
-2. Følg de angivne trin i tabellen nedenunder for ændring af hældning og hastighed hvert 3. minut i løbet af Bruce-testen.
-3. Notèr hvor lang tid du kunne følge testen.
+1. Tjek at løbebåndet kan køre med de angivne hastigheder og hældninger.
+2. I tabellen nedenunder kan du se, hvordan hældning og hastighed skal ændres hvert 3. minut i løbet af Bruce-testen.
+3. Følg testen så længe som muligt og notér tiden.
 
 Hvert tredje minut ændres hastighed og hældning efter nedenstående skema:
 
@@ -50,7 +50,7 @@ Hvert tredje minut ændres hastighed og hældning efter nedenstående skema:
 | Hastighed (km/t) | 2,7	  | 4,0	  | 5,5	  | 6,8   | 8,0    | 8,8    | 9,6    |
 | Hældning (%)	   | 10	    | 12	  | 14    | 16    | 18     | 20     | 22     |
 
-Du starter altså med 2,7 km/t og hældning 10%. Efter 3 minutter øger du til 4,0 km/t og hældning 12%.
+Bruce-testen starter altså med 2,7 km/t og hældning 10%. Efter 3 minutter øger du til 4,0 km/t og hældning 12%.
 
 ## Formlerne som bruges i Bruce-testen
 
@@ -60,7 +60,7 @@ Mænd: VO<sub>2</sub>-max = 14.8 – (1.379 * T) + (0.451 * T<sup>2</sup>) – (
 
 Kvinder: VO<sub>2</sub>-max = 4.38 * T – 3.9
 
-Hvor T er er tiden i minutter, man har løbet.
+Hvor T er er tiden i minutter, du har løbet i Bruce-testen.
 
 Skriv endelig i kommentarerne, hvis du har brug for en beregner til Bruce-testen, så laver vi gerne en.
 
