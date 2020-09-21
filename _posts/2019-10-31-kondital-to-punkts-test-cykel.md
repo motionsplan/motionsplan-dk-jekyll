@@ -62,7 +62,7 @@ Værdierne i Åstrands topunktstest kan også skrives ind i følgende formel:
 
 Åstrand & Rohdahl (4. udgave, s. 403) estimerer kroppens mekaniske nyttevirkning til at være 23%. Den mekaniske nyttevirkning er forholdet mellem energiproduktion og varmeproduktion. Det betyder, at når du arbejder på ergometercyklen, så kan vi estimere at 23% af din samlede forbrænding bliver omsat til arbejde på cyklen, mens resten af energien går til varmeproduktion.
 
-Hvilestofskiftet er cirka [0,25 liter O<sub>2</sub> pr. minut](http://www.fys.dk/nfa/03/heftet/menneskekroppen.pdf). Når vi er på vores maksimale ydeevne, så bruger kroppen udelukkende kulhydrat som brændstof, som du kan læse mere om under [den respiratoriske udvekslingskvotient]({% link _posts/2020-08-08-respiratoriske-kvotient.md %]}. Forbrænding af kulhydrat giver os 21,1 kJ pr. liter ilt. Det kaldes også iltens energetiske værdi for kulhydrat.
+Hvilestofskiftet er cirka [0,25 liter O<sub>2</sub> pr. minut](http://www.fys.dk/nfa/03/heftet/menneskekroppen.pdf). Når vi er på vores maksimale ydeevne, så bruger kroppen udelukkende kulhydrat som brændstof, som du kan læse mere om under [den respiratoriske udvekslingskvotient]({% link _posts/2020-08-08-respiratoriske-kvotient.md %}). Forbrænding af kulhydrat giver os 21,1 kJ pr. liter ilt. Det kaldes også iltens energetiske værdi for kulhydrat.
 
 Ud fra disse præmisser så kan den maksimale arbejdsbelastning (work<sub>max</sub>) omregnes til en estimeret iltoptagelse.
 

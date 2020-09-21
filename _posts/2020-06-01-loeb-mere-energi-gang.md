@@ -20,9 +20,15 @@ toc: true
 
 Det er umuligt at finde et godt svar på, om man forbrænder flere kalorier eller kilojoule ved at løbe end ved at gå, så jeg besluttede mig for at lave en ordentlig forklaring.
 
-**Man forbrænder mere ved at løbe end ved at gå. Det gælder ikke bare pr. minut, men det gælder også pr. kilometer. Faktisk forbrænder du næsten dobbelt så meget pr. kilometer og pr. minut er det næste fire gange så meget. Med mindre altså at du går lige så hurtigt som du løber.**
+Da jeg undersøgte emnet nærmere stødte jeg hele tiden på [påstanden](https://vorespuls.dk/gang/artikler/gaa-eller-loeb-du-forbraender-lige-meget), at man forbrænder lige meget uanset om man løber eller går.
 
-Da jeg undersøgte emnet nærmere støder man hele tiden på [påstanden](https://vorespuls.dk/gang/artikler/gaa-eller-loeb-du-forbraender-lige-meget), at man forbrænder lige meget uanset om man løber eller går. Men det beror på to præmisser:
+Morten Zacho skriver imidlertid følgende, da han skriver artiklen [Du forbrænder flere kalorier ved at løbe end ved at gå](http://web.archive.org/web/20150120003941/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/du_forbraender_flere_kalorier_ved_at_loebe_end_ved_at_gaa/){:rel="nofollow"}:
+
+> Ja, det er faktisk rigtigt - ikke bare pr. minut, men også pr. kilometer. Faktisk forbrænder du næsten dobbelt så meget pr. kilometer og pr. minut er det næste fire gange så meget.
+
+--- <cite>[Morten Zacho](http://web.archive.org/web/20150120003941/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/du_forbraender_flere_kalorier_ved_at_loebe_end_ved_at_gaa/){:rel="nofollow"}</cite>
+
+Morten Zacho skriver videre, at fejlslutningen med med, at man skulle forbrænde lige meget beror på følgende præmisser:
 
 - Der laves en meget grov afrunding
 - Hvilestofskiftet tælles med i selve aktiviteten
@@ -31,9 +37,13 @@ Så lad os kigge på, hvordan det i virkeligheden hænger sammen med energiforbr
 
 ## Skal hvilestofskiftet regnes med?
 
-Hvilestofskiftet er den energiomsætning, man altid har. Det betyder naturligvis, at hvilestofskiftet både er der, når vi løber, og når vi går. Selve energiforbruget under aktiviteten skal lægges oven i hvilestofskiftet for at få det samlede energiforbrug.
+Hvilestofskiftet er den energiomsætning, man altid har. Det betyder naturligvis, at hvilestofskiftet både er der, når vi løber, og når vi går. Selve energiforbruget under aktiviteten skal lægges oven i hvilestofskiftet for at få det samlede energiforbrug ved aktiviteten.
 
-Hvis man stiller spørgsmålet: hvor meget forbrænder jeg ved denne aktivitet, så synes jeg, at det er mest rimeligt, at svaret indeholder den ekstra forbrænding, aktiviteten forårsager. Hvileforbrændingen har man jo altid.
+Det får også [Morten Zacho](http://web.archive.org/web/20150120003941/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/du_forbraender_flere_kalorier_ved_at_loebe_end_ved_at_gaa/){:rel="nofollow"} at skrive:
+
+> Hvis vi skal sammenligne forbrændingen ved at gå og løbe, så er det mest rimeligt at svare ud fra hvor meget ekstra man forbrænder ved enten at gøre det ene eller det andet. Hvileforbrændingen ville man jo have haft under alle omstændigheder.
+
+--- <cite>[Morten Zacho](http://web.archive.org/web/20150120003941/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/du_forbraender_flere_kalorier_ved_at_loebe_end_ved_at_gaa/){:rel="nofollow"}</cite>
 
 ## Hvad er energiforbruget ved at gå og løbe?
 
@@ -61,11 +71,11 @@ Hvis din kropsvægt er 65 kg, og du går med en hastighed på 5,63 km/t, så vil
 
 ## Hvornår kan det bedre betale sig at løbe end at gå?
 
-Hvis man går meget hurtigt, så kan man bruge mere energi på at gå end på at løbe. En ganghastighed omkring 8 km/t vil formentlig forbrænde nogenlunde det samme som at løbe, mens man ved 10 km/t formentlig vil forbrænde mere ved at gå.
+Hvis man går meget hurtigt, så kan man bruge mere energi på at gå end på at løbe. Har du en ganghastighed på omkring 8 km/t, vil du formentlig forbrænde nogenlunde det samme som at løbe, mens du ved 10 km/t formentlig vil forbrænde mere ved at gå.
 
 Uanset dit træningsniveau så bliver det mere økonomisk set ud fra et energiperspektiv at skifte til løb, når din ganghastighed bliver højere end 8 km/t. Over 8 km/t begynder iltoptagelsen for en gående at være højere end iltoptagelsen for en løber. Ved 10 km/t er den gåendes iltoptagelse 40 ml/kg/min sammenlignet med løberens 35 ml/kg/min (McArdle 2000).
 
-Hvis man går rigtig hurtigt, er det ganske enkelt mere effektivt at løbe. 
+Hvis du går rigtig hurtigt, er det ganske enkelt mere effektivt at løbe. 
 
 ## Hvor mange kalorier forbrænder man ved løb?
 
@@ -75,23 +85,21 @@ Regnestykket for en løber bliver således relativt enkelt. Jeg vejer 80 kg, og 
 
 Forbrænding af en liter ilt svarer til omkring 5 kcal, så jeg bruger 16 liter O<sub>2</sub> per kilometer.
 
-## Bruger man lige 
+## Bruger man lige meget energi ved løb og gang?
 
-Dette er imidlertid en relativt grov afrunding, og den afrunding inkluderer hvilestofskiftet, og derfor kan man ende med at skrive, at man [bruger lige mange kalorier på at gå og løbe en kilometer](https://www.alt.dk/sundhed/forbraending-kalorier-gaa-eller-lob).
+Når [Alt for Damerne skriver, at man bruger lige mange kalorier på at gå og løbe en kilometer](https://www.alt.dk/sundhed/forbraending-kalorier-gaa-eller-lob), så beror det altså på en grov afrunding, og at de inkluderer hvilestofskiftet i regnestykket.
 
-Det gør man ikke!
-
-Hvis vi bruger MET-værdierne til at sammenligne energiforbruget ved at gå i forhold til at løbe, så er det tydligt at de stiger, når man går fra gang til løb.
+Hvis vi bruger MET-værdierne til at sammenligne energiforbruget ved at gå i forhold til at løbe, så er det tydeligt at MET-værdierne stiger, når man går fra gang til løb.
 
 Hvis jeg går med en hastighed på 5,3 km/t, så er MET-værdien 4,3. Her forbrænder jeg med en kropsvægt på 80 kg 344 kcal på en time.
 
 Hvis jeg løber med en hastighed på 10,8 km/t (altså omtrent dobbelt så hurtigt), så er MET-værdien 10,5. Her forbrænder jeg ved en kropsvægt på 80 kg 420 kcal på en halv time.
 
-Jeg når lige langt, men bruger altså mere energi på at løbe end på at gå.
+Jeg når altså lige langt, men bruger altså mere energi på at løbe end på at gå.
 
 ## Energiforbrug ved forskellige løbe- og ganghastigheder
 
-Jeg har samlet det omtrentlige energiforbrug for 30 minutters arbejde med forskellige intensiteter for en person, der vejer 68 kg i nedenstående tabel. Du kan lægge 10% til for hver 7. kg over og trække 10% fra for 7. kg under tabellens tal (kilde McArdle 2000).
+Jeg har samlet det omtrentlige energiforbrug for 30 minutters arbejde med forskellige intensiteter for en person, der vejer 68 kg i nedenstående tabel. Du kan lægge 10% til for hver 7. kg over og trække 10% fra for 7. kg under tabellens tal (McArdle 2000).
 
 | Aktivitet | Intensitet | Kalorier / ½ time |
 |-----------|------------|-------------------|
@@ -109,7 +117,7 @@ Tallene i tabellen er naturligvis bare det estimerede energiforbrug ved aktivite
 
 ## Hvorfor bruger løb mere energi end gang?
 
-Årsagen til at der er forskel mellem gang og løb er, fordi kroppen har brug for noget mere energi for at løbe, og det her hurtigere brug for energien. 
+Årsagen til at der er forskel mellem gang og løb er, fordi kroppen har brug for noget mere energi for at løbe, og at den hurtigere har brug for energien. 
 
 > “Muscle action that propels you from point A to B requires the utilization of a thing called ATP. Your body stores only a limited amount of ATP (enough for only a few seconds of activity), so it needs to replenish that supply, and it does so by metabolizing your stored fuels (glycogen and fat). The process of making useable energy (ATP) from stored fuel (glycogen and fat) is dependent on how much you need and how quickly you need it.”
 
@@ -141,7 +149,9 @@ Når du træner tager du energi fra dine glykogen og fedtdepoter. Det kræver en
 
 ## Opsamling
 
-Hvis vi kigger på energiforbruget pr. minut i stedet for pr. km, så vil man typisk forbrænde mindst 4 gange så meget ved at løbe. Hvis vi f.eks. sammenligner gang ved 5 km/t og løbe ved 10 km/t, så vil man tilbagelægge det dobbelte antal km på den samme tid. Hvilket skal sammenholdes med at man også har forbrændt ca. det dobbelte pr. km.
+> Hvis vi kigger på energiforbruget pr. minut i stedet for pr. km, så vil man typisk forbrænde mindst 4 gange så meget ved at løbe. Hvis vi f.eks. sammenligner gang ved 5 km/t og løbe ved 10 km/t, så vil man tilbagelægge det dobbelte antal km på den samme tid. Hvilket skal sammenholdes med at man også har forbrændt ca. det dobbelte pr. km.
+
+--- <cite>[Morten Zacho](http://web.archive.org/web/20150120003941/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/du_forbraender_flere_kalorier_ved_at_loebe_end_ved_at_gaa/){:rel="nofollow"}</cite>
 
 ## Referencer
 

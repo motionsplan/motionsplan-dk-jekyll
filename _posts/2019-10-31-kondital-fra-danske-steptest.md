@@ -40,7 +40,7 @@ Som [baggrund for Den Danske Steptest](http://steptest.dk/baggrund.php) bruger M
 
 {% include math formula="VO_2max = \frac{\frac{arbejde_{total}}{O_2energi}}{intensitet_{slut}} + VO_2hvile" %}
 
-Hvilestofskiftet er cirka [0,25 liter O<sub>2</sub> pr. minut](http://www.fys.dk/nfa/03/heftet/menneskekroppen.pdf). Når vi er på vores maksimale ydeevne, så bruger kroppen udelukkende kulhydrat som brændstof, som du kan læse mere om under [den respiratoriske udvekslingskvotient]({% link _posts/2020-08-08-respiratoriske-kvotient.md %]}). Forbrænding af kulhydrat giver os 21,1 kJ pr. liter ilt. Det kaldes også iltens energetiske værdi for kulhydrat. Hvordan testen estimerer slutintensiteten er ikke klart, men hvis du ved det, så brug endelig kommentarerne.
+Hvilestofskiftet er cirka [0,25 liter O<sub>2</sub> pr. minut](http://www.fys.dk/nfa/03/heftet/menneskekroppen.pdf). Når vi er på vores maksimale ydeevne, så bruger kroppen udelukkende kulhydrat som brændstof, som du kan læse mere om under [den respiratoriske udvekslingskvotient]({% link _posts/2020-08-08-respiratoriske-kvotient.md %}). Forbrænding af kulhydrat giver os 21,1 kJ pr. liter ilt. Det kaldes også iltens energetiske værdi for kulhydrat. Hvordan testen estimerer slutintensiteten er ikke klart, men hvis du ved det, så brug endelig kommentarerne.
 
 Når man kender den estimerede VO<sub>2</sub>max, så kan man udregne konditallet.
 

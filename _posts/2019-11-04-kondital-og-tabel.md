@@ -33,11 +33,11 @@ Hvad er konditallet? **Konditallet fortæller, hvor meget ilt kroppen kan transp
 
 For at beregne dit kondital skal du kende din krops **maksimale iltoptagelse** og derefter divididerer du med din kropsvægt.
 
-Jeg har samlet en [forskellige tests og metoder til at finde dit kondital](/kondition-og-test/). Der står også lidt om, hvad man skal være opmærksom på, når man vil måle sit kondital.
+Jeg har samlet en [forskellige tests og metoder til at finde dit kondital](/kondition-og-test/). Der står også lidt om, hvad du skal være opmærksom på, når du vil måle sit kondital.
 
 ## Hvad er et godt kondital?
 
-Svaret på hvad et godt kondital er afhænger naturligvis af, hvem man sammenligner sig med.
+Svaret på hvad et godt kondital er afhænger naturligvis af, hvem du sammenligner dig med.
 
 Et _højt kondital_ er lig med en god kondition. Når du har et højt kondital, så kan du være fysisk aktiv i længere tid og med højere intensitet.
 
@@ -179,6 +179,6 @@ Skriv i kommentarerne, hvis du er klar til at læse, hvordan du forbedrer dit ko
 
 {% include feature_row type="left" %}
 
-- [Retfærdig vurdering af overvægtiges kondition](https://www.motion-online.dk/retfaerdig-vurdering-overvaegtiges-kondition/)
+- Shvartz, E., og R. C. Reibold. 1990. “Aerobic Fitness Norms for Males and Females Aged 6 to 75 Years: A Review”. Aviation, Space, and Environmental Medicine 61 (1): 3–11.
 
 ## Noter til kondition
