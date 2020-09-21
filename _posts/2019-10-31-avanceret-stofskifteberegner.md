@@ -47,7 +47,6 @@ Hvilestofskiftet bliver udregnet ud fra [Schofields formler](https://en.wikipedi
 
 | Age | Equation (kJ/day) | SEE |
 |-|-|-|
-|-
 | < 3 | 249 × W - 127 | 292 |
 | 3–10 | 95 × W + 2110 | 280 |
 | 10–18 | 74 × W + 2754 | 441 |
@@ -138,6 +137,8 @@ Hvis du gerne vil udregne dit energiforbrug mere præcist for forskellige aktivi
 ## Udregn energibehov med andre beregnere
 
 Jeg har lavet en [simpel beregner til stofskiftet]({% link _posts/2019-10-31-simpel-stofskifteberegner.md %}), som er baseret på _Nordiska Næringsrekommendationer 1996_ eller en [beregner af energibehov]({% link _posts/2020-09-01-stofskifte-nordic-2012.md %}) baseret på _Nordic Nutrition Recommandations fra 2012_ og en [beregner til udregning af ligevægtsindtaget]({% link _posts/2019-10-31-ligevaegtsberegner.md %}).
+
+Hvis du gerne vil have en energiberegner på engelsk, så har Morten Zacho lavet denne [energiforbrugberegner](http://health-calc.com/diet/energy-expenditure-advanced).
 
 ## Referencer om udregning af dagligt energiforbrug
 

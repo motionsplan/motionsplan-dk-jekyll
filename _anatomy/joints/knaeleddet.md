@@ -1,6 +1,6 @@
 ---
 title: "Knæleddet"
-excerpt: "Knæleddet er kroppens største og mest komplicerede led. Det danner forbindelse mellem lårbenet (femur),  skinnebenet (tibia) og knæskallen (patella). Knæskallen er  indkapslet i den sene, der går fra lårmusklen ned til skinnebenet."
+#excerpt: "Knæleddet er kroppens største og mest komplicerede led. Det danner forbindelse mellem lårbenet (femur),  skinnebenet (tibia) og knæskallen (patella). Knæskallen er  indkapslet i den sene, der går fra lårmusklen ned til skinnebenet."
 latin:
 tags:
   - led
@@ -29,6 +29,8 @@ Inde i ledhulen findes også korsbåndene. Disse sørger primært for at underbe
 
 Ledkapslen er forstærket af stærke sideledbånd, der imidlertid bliver løsere når knæet bøjes. Kort sagt kan man sige at jo mere knæet er flekteret, jo større belastning udsættes leddet for og jo mere ustabilt bliver det. Man bør derfor undgå langvarige eller store belastninger med en knævinkel der er dybere end 90 grader.
 
+{% endcomment %}
+
 ## Bevægelser i knæleddet
 
 {% for m in page.movements %}
@@ -37,5 +39,3 @@ Ledkapslen er forstærket af stærke sideledbånd, der imidlertid bliver løsere
 {% endfor %}
 
 {% include figure image_path=page.image caption=page.title alt=page.title %}
-
-{% endcomment %}

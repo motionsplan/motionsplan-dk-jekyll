@@ -1,6 +1,6 @@
 ---
 title: "Skulderleddet og skulderbladet (skulderbæltet)"
-excerpt: "Skulderens store bevægelsesfrihed skabes gennem flere led, som man tilsammen kalder for skulderbæltet, som består af skulderleddet og skulderbladet."
+#excerpt: "Skulderens store bevægelsesfrihed skabes gennem flere led, som man tilsammen kalder for skulderbæltet, som består af skulderleddet og skulderbladet."
 latin: Scapula
 tags:
   - led
@@ -83,10 +83,10 @@ Skulderbladets bevægelser er som før nævnt en vigtig del af hele skulderens b
   {{ m.muscles | join: ", " }}
 {% endfor %}
 
+{% endcomment %}
+
 ### Bevægelser i skulderbladet
 
 {% include video provider="youtube" id="PPKlGlwxr5s" %}
 
 {% include figure image_path=page.image caption=page.title alt=page.title %}
-
-{% endcomment %}

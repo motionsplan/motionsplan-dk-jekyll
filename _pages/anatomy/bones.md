@@ -37,13 +37,13 @@ Knoglestilladset fungerer delvist som et lager og forsyningsområde for disse mi
 
 ## Opbygning af knoglerne
 
-Knogler består af organisk materiale og uorganiske salte. Det organiske materiale gør kroppen blod og bøjelig og gør at knoglerne let kan genopbygges. De uorganiske salte giver knoglen evnen til at bevare formen og giver støtte. Med alderen bliver andelen af de kalksaltene højere, hvilket typisk gør knoglerne lidt mere skøre og det bliver sværere at hele.
+Knogler består af organisk materiale og uorganiske salte. Det organiske materiale gør skelettet blødt og bøjeligt og gør at knoglerne let kan genopbygges. De uorganiske salte giver knoglen evnen til at bevare formen og giver støtte. Med alderen bliver andelen af de kalksaltene højere, hvilket typisk gør knoglerne lidt mere skøre, og knoglerne har sværere ved at hele.
 
 {% include figure image_path="https://vignette.wikia.nocookie.net/humanbiologi/images/7/79/0619.jpg/revision/latest?cb=20110618180044&path-prefix=da" caption="Rørknogle som viser forskellen mellem børns og voksnes knogler" alt="Rørknogle som viser forskelle i knogler mellem børn og voksne" %}
 
-Knoglerne er beklædt med en tynd hinde, som kan danne nye knogleceller indvendigt. På den måde kan knoglerne blive tykkere og skader kan heles.
+Knoglerne er beklædt med en tynd benhinde, som kan danne nye knogleceller indvendigt. På den måde kan knoglerne blive tykkere og skader kan heles.
 
-Knoglernes primære funktion er at være tilhæftningsste for musklerne, og aktivitet påvirker knoglernes udformning. Knoglerne vokser i længden i epifyserne, som findes i hver ende af knoglen. Efter puberteten stopper væksten.
+Knoglernes primære funktion er at være tilhæftningssted for musklerne, og aktivitet påvirker knoglernes udformning. Knoglerne vokser i længden i epifyserne, som findes i hver ende af knoglen. Efter puberteten stopper væksten.
 
 ## Knogletyper i menneskekroppen
 
@@ -60,20 +60,20 @@ Knogler kan opdeles i 4 grupper:
 
 ## Knogler i kroppen
 
-- Rygsøjle (Columna vertebralis)
-- Kranie (Cranium)
-- Kraveben (Clavicula)
-- Skulderblad (Scapula)
-- Brystben (Sternum)
-- Overarmsben (Humerus)
-- Ribben (Costa)
-- Hvirvel (vertebra)
-- Albueben (Ulna)
-- Spoleben (Radius)
-- Bækken (Pelvis)
-- Lårben (Femur)
-- Knæskal (Patella)
-- Skinneben (Tibia)
-- Lægben (Fibula)
+- Rygsøjlen (columna vertebralis)
+- Kranium (cranium)
+- Kravebenet (clavicula)
+- Skulderbladene (scapula)
+- Brystbenet (sternum)
+- Overarmsknoglen (humerus)
+- Ribben (costa)
+- Hvirvler i rygsøjlen (vertebrae)
+- Albueben (ulna)
+- Spoleben (radius)
+- Bækken (pelvis)
+- Lårben (femur)
+- Knæskallen (patella)
+- Skinnebenet (tibia)
+- Lægbenet (fibula)
 
 {% endcomment %}
