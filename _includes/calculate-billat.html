@@ -1,66 +1,32 @@
-<form class="calculator" id="calculator_closed">
-    <fieldset>
-        <legend>Formular midlertidig lukket</legend>
-        <p>Er ved at blive opdateret.</p>
-    </fieldset>
-</form>
-{% comment %}
-<script>
-    function convert() {
-        var dist = eval(document.con.dist.value);
-        var vel = dist / 360;
-        document.con.speed.value = vel;
-
-        var tdist = Math.ceil(dist / 200) * 100;
-        var d30 = Math.ceil(dist / 12);
-        var r30 = Math.ceil(d30 / 2);
-        var d60 = d30 * 2;
-        var r60 = r30 * 2;
-        document.con.ses.value = tdist;
-
-        var ttime = tdist / vel;
-        var mins = Math.floor(ttime / 60);
-
-        document.con.mins.value = mins;
-        document.con.d30.value = d30;
-        document.con.r30.value = r30;
-        document.con.d60.value = d60;
-        document.con.r60.value = r60;
-        document.con.secs.value = Math.ceil(ttime - (60 * mins));
-        document.con.secs400.value = Math.ceil(400 / vel);
-    }
-</script>
-
-<form name="con" id="con" class="calculator">
+<form id="calculator_billat" class="calculator">
     <fieldset>
         <legend>Distance løbet på 6 minutters test</legend>
-        <label>Distance (meter) <input name="dist" type="text" size="4" placeholder="meter"></label>
-        <input type="button" name="Button1" value="Beregn" onclick="convert()">
+        <label>Distance (meter) <input name="distance" type="text" placeholder="meter"></label>
+        <input type="submit" value="Beregn">
     </fieldset>
     <fieldset class="results">
-        <label>vVO<sub>2</sub> max (meter/sekund) <input name="speed" type="text" size="4" onfocus="clearit()" placeholder="meter/sekund" disabled="disabled"></label>
+        <label>vVO<sub>2</sub> max (meter/sekund) <input name="speed" id="speed" type="text" disabled="disabled"></label>
     </fieldset>
     <fieldset class="results">
         <legend>30-30 Session - Maksimal intensitet</legend>
-        <label>Arbejdsperiode (meter på 30 sek) <input name="d30" type="text" size="3" disabled="disabled" placeholder="meter"></label>
-        <label>Aktiv restitution (meter på 30 sek) <input name="r30" type="text" size="3" disabled="disabled" placeholder="meter"></label>
+        <label>Arbejdsperiode (meter på 30 sek) <input name="d30" id="d30" type="text" disabled="disabled"></label>
+        <label>Aktiv restitution (meter på 30 sek) <input name="r30" id="r30" type="text" disabled="disabled"></label>
     </fieldset>
     <fieldset class="results">
         <legend>60-60 Session - Maksimal intensitet</legend>
-        <label>Arbejdsperiode (meter på 60 sek) <input name="d60" type="text" size="3" disabled="disabled" placeholder="meter"></label>
-        <label>Aktiv restitution (meter på 60 sek) <input name="r60" type="text" size="3" disabled="disabled" placeholder="meter"></label>
+        <label>Arbejdsperiode (meter på 60 sek) <input name="d60" id="d60" type="text" disabled="disabled"></label>
+        <label>Aktiv restitution (meter på 60 sek) <input name="r60" id="r60" type="text" disabled="disabled"></label>
     </fieldset>
     <fieldset class="results">
         <legend>3-3 session - 5 gentagelser</legend>
-        <label>Distance (meter) <input name="ses" type="text" size="4" placeholder="meter" disabled="disabled"></label>
+        <label>Distance (meter) <input name="session" id="session" type="text" disabled="disabled"></label>
         <div class="form-group">
-        <label>Tid (mm:ss)</label>
-            <input name="mins" type="text" size="2" onfocus="valclear()" class="input-mini" placeholder="mm" disabled="disabled">
-            <input name="secs" type="text" size="2" onfocus="valclear()" class="input-mini" placeholder="ss" disabled="disabled">
+            <label>Tid (mm:ss)</label>
+                <input name="mins" id="mins" type="text" class="input-mini" disabled="disabled">
+                <input name="secs" id="secs" type="text" class="input-mini" disabled="disabled">
         </div>
         <label>Hastighed (sek/400 meter)
-            <input name="secs400" type="text" size="3" onfocus="valclear()" placeholder="sek/400 meter" disabled="disabled">
+            <input name="secs400" id="secs400" type="text" disabled="disabled">
         </label>
     </fieldset>
 </form>
-{% endcomment %}

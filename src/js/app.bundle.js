@@ -2,6 +2,7 @@
 
 /* global $ */
 
+const billat = require('./billat');
 const runwalk = require('./running-walking');
 const pushup = require('./pushup');
 const yyir1 = require('./beeptest-yyir1');
@@ -250,6 +251,25 @@ $(document).ready(function() {
 
         var fp = fp_navy.CalculateFatPercentNavy(sex, height, waist, neck, hip);
         $("#fat_percent_navy").val(fp.getFatPercent());
+        return false;
+    });
+    // Udregn ideal weight
+    $("#calculator_billat").submit(function() {
+        console.log("Billat");
+
+        var distance = Number($("[name='distance']").val());
+
+        var iw = billat.Billat(distance);
+        $("#speed").val(iw.getVelocity());
+        $("#d30").val(iw.getDistance30());
+        $("#r30").val(iw.getRecovery30());
+        $("#d60").val(iw.getDistance60());
+        $("#r60").val(iw.getRecovery60());
+        $("#session").val(iw.getDistance3min());
+        $("#mins").val(iw.getMinutes3min());
+        $("#secs").val(iw.getSeconds3min());
+        $("#secs400").val(iw.getTimePr400Meter3min());
+
         return false;
     });
     // Udregn ideal weight

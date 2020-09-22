@@ -95,4 +95,4 @@ Hvis du gerne vil have en beregner af energibehov på engelsk, så kan du finde 
 
 ## Referencer til hvilestofskifte, stofskifte, energibehov og ligevægtsindtag
 
-- [Nordic Nutrition Reccommandations 2012](https://www.norden.org/da/node/7832)
+- [Nordic Nutrition Recommandations 2012](https://www.norden.org/da/node/7832)

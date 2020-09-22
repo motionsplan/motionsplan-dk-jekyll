@@ -41,7 +41,7 @@ Jeg har ofte forklaret mine elever, hvordan en muskel trækker sig sammen. Jeg h
 
 Hvordan trækker en muskel sig sammen? **Den mest udbredte teori til at forklare, hvorfor en muskel trækker sig sammen er ‘sliding filament’-teorien. Ifølge teorien så kommer der et signal gennem nervetrådene til muskelfiberen, som gør at myosin-filamenterne bruger energi til at vandre på langs af aktin-filamenterne, hvorefter muskelfiberen bliver kortere.**
 
-{% include figure image_path="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Skeletal_muscle.jpg/1280px-Skeletal_muscle.jpg" caption="Opbygningen af en muskel" alt="Hvordan trækker en muskel sig sammen" %}
+{% include figure image_path="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Skeletal_muscle.jpg/1280px-Skeletal_muscle.jpg" caption="Opbygningen af en muskel. Kilde: [Wikipedia](https://en.wikipedia.org/wiki/Muscle_contraction)" alt="Hvordan trækker en muskel sig sammen" %}
 
 ## Hvad får en muskel til at trække sig sammen?
 

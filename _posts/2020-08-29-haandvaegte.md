@@ -1,5 +1,5 @@
 ---
-title: &title "Træningsøvelser med håndvægte: Træning med dumbells"
+title: &title "Træningsøvelser med håndvægte: Træning med dumbbells"
 permalink: /traeningsoevelser-haandvaegte/
 last_modified_at: 2020-08-29T09:41:09Z
 language: da

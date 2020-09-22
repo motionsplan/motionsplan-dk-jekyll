@@ -12,6 +12,13 @@ category:
 tags:
   - begreber
   - forbrænding
+feature_row:
+  - image_path: https://imgcdn.saxo.com/_9788777497162/0x500
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/menneskets-fysiologi_bente-schibye_indbundet_9788777497162
+    title: "Menneskets fysiologi - Bente Schibye (2017)"
+    excerpt: "Lærebogsklassikeren _Menneskets fysiologi_ af Bente Schibye dækker hele menneskets fysiologi, og som noget særligt beskrives fysiologien både i hvile og under fysisk aktivitet."
+    btn_label: "Tjek prisen hos Saxo.dk"
+    btn_class: "btn--info"
 ---
 
 Når vi laver tests med iltmaske på løbebånd, så måler vi den respiratoriske udvekslingskvotient, som også kaldes R eller RER. Derfor forklarer jeg lidt mere om, hvad den respiratoriske udviklingskvotient er i forhold til den metaboliske udvekslingskvotient (RQ).
@@ -42,14 +49,14 @@ Når man laver tests på løbebånd med iltmaske måler man altså den respirato
 
 På en normal kost er RER omkring 0,8 - 0,85 i hvile. Der forbrændes hovedsageligt fedt med værdier fra 0,7 - 0,85, hvor der er 100% fedtforbrænding ved 0,7.
 
-{% include figure image_path="http://turboweb.dk/idr/bilag/pics/RQogintensitet.jpg" caption="RQ i relation til VO<sub>2</sub> i en arbejdsperiode." %}
+{% include figure image_path="http://turboweb.dk/idr/bilag/pics/RQogintensitet.jpg" caption="RQ i relation til VO<sub>2</sub> i en arbejdsperiode. Kilde: Schibye (2017)" %}
 
 Der vil dog altid være en mindre kulhydratforbrænding, så i praksis kommer mennesker ikke ned på 0,7. Når værdien er over 0,85 skifter forbrændingen gradvist over mod kulhydratforbrænding, og hvis man kommer op på 1,0, så er forbrændingen næsten udelukkende kulhydrrater.
 
-{% include figure image_path="http://turboweb.dk/idr/bilag/pics/RQ.jpg" caption="Den respiratoriske kvotient ved forbrænding af fedt og kulhydrat i forskellige blandingsforhold." %}
+{% include figure image_path="http://turboweb.dk/idr/bilag/pics/RQ.jpg" caption="Den respiratoriske kvotient ved forbrænding af fedt og kulhydrat i forskellige blandingsforhold. Kilde: Schibye (2017)" %}
 
 | RQ   | %E fra fedt | %E fra kulhydrat |
-|------|-------------|------------------|
+|------|:-----------:|:----------------:|
 | 0,70 | 100         | 0                |
 | 0,75 | 84          | 16               |
 | 0,80 | 67          | 33               |
@@ -75,3 +82,7 @@ Det er også derfor at _cutoff_ i en maxtest på løbebåndet typisk kræver RER
 Udskillelsen af CO<sub>2</sub> gennem udåndingsluften kan i øvrigt stige efter arbejdet er ophørt, og det vil man ofte se i en laboratorietest.
 
 Vi har lavet en side, der går mere i dybden med [test af iltoptagelse i laboratorium]({% link _posts/2019-10-31-kondital-laboratorietest.md %}).
+
+## Referencer om respiratoriske og metaboliske kvotient
+
+{% include feature_row type="left"%}

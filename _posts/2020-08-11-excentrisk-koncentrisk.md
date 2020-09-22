@@ -33,7 +33,7 @@ Hvad er isometrisk arbejde?
 
 Forskellen på koncentrisk, excentrisk og isometrisk arbejde er også rigtig godt illustreret i denne figur:
 
-{% include figure image_path="https://i.pinimg.com/originals/ea/1a/29/ea1a2992c25aba18c4913fd27e27bc53.jpg" caption="Isometrisk, koncentrisk og excentrisk bevægelse" alt="Isometrisk, koncentrisk og excentrisk bevægelse" %}
+{% include figure image_path="https://i.pinimg.com/originals/ea/1a/29/ea1a2992c25aba18c4913fd27e27bc53.jpg" caption="Isometrisk, koncentrisk og excentrisk bevægelse. Kilde: [www.communitymedical.org](https://www.communitymedical.org/about-us/News/What,-When,-Why-How-of-Isometrics)" alt="Isometrisk, koncentrisk og excentrisk bevægelse" %}
 
 Hvis du foretrækker at få forskellene forklaret på video, så bliver det gennemgået i denne video.
 
