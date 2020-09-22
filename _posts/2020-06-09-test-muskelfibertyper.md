@@ -14,14 +14,10 @@ tags:
 last_modified_at: 2020-06-03T08:14:14Z
 toc: true
 gallery:
-  - image_path: /assets/images/slow_muscle.jpg
-    url: /assets/images/slow_muscle.jpg
-    title: "Type I: Langsom, rød muskelfiber"
-    alt: "Type I: Langsom, rød muskelfiber"
-  - image_path: /assets/images/fast_muscle.jpg
-    url: /assets/images/fast_muscle.jpg
-    title: "Type II: Hurtig, hvid muskelfiber"
-    alt: "Type II: Hurtig, hvid muskelfiber"
+  - image_path: https://aesthetics-fury.com/wp-content/uploads/2020/02/fast-twitch-vs-slow-twitch-muscle-fibers.png
+    url: https://aesthetics-fury.com/wp-content/uploads/2020/02/fast-twitch-vs-slow-twitch-muscle-fibers.png
+    title: "Type I: Langsom, rød muskelfiber og Type II: Hurtig, hvid muskelfiber"
+    alt: "Type I: Langsom, rød muskelfiber og Type II: Hurtig, hvid muskelfiber"
 ---
 
 Jeg har de sidste dage researchet en del på muskelfibertyper, og i den forbindelse fandt jeg også ud af, hvordan man kan teste sin muskelfibertypesammensætning.
@@ -36,7 +32,7 @@ Vi har udholdende type I fibre, eksplosive og nogenlunde udholdende type II A fi
 
 Hvis du gerne vil have en ide om, hvilken fibertypesammensætning du selv har, så kan du tænke tilbage på, hvilke aktiviteter du føler er lettest.
 
-{% include gallery id="gallery" caption="Et tværsnit af en langsom muskel (tv) og en hurtig muskel (th). Hver celle (fiber) er normalt mellem 0,05 og 0,1 mm i diameter." %}
+{% include gallery id="gallery" caption="Et tværsnit af en langsom muskel (tv) og en hurtig muskel (th). Hver celle (fiber) er normalt mellem 0,05 og 0,1 mm i diameter. Kilde: [aesthetics-fury.com](https://aesthetics-fury.com/blog/slow-twitch-vs-fast-twitch-muscle-fibers)." %}
 
 - **Type I dominant.** Hvis du altid har været god til at løbe eller cykle langt, men ikke er så eksplosiv eller sprinter hurtigt eller springer højt, så er du sandsynligvis type I-fiber dominant.
 

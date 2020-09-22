@@ -15,14 +15,10 @@ tags:
 last_modified_at: 2020-06-03T08:14:14Z
 toc: true
 gallery:
-  - image_path: /assets/images/slow_muscle.jpg
-    url: /assets/images/slow_muscle.jpg
-    title: "Slow Twitch: Røde, langsomme muskelfibre"
-    alt: "Langsom muskel - Røde muskelfibre"
-  - image_path: /assets/images/fast_muscle.jpg
-    url: /assets/images/fast_muscle.jpg
-    title: "Fast Twitch: Hvide, hurtige muskelfibre"
-    alt: "Hurtig muskel - Hvide muskelfibre"
+  - image_path: https://aesthetics-fury.com/wp-content/uploads/2020/02/fast-twitch-vs-slow-twitch-muscle-fibers.png
+    url: https://aesthetics-fury.com/wp-content/uploads/2020/02/fast-twitch-vs-slow-twitch-muscle-fibers.png
+    title: "Type I: Langsom, rød muskelfiber og Type II: Hurtig, hvid muskelfiber"
+    alt: "Type I: Langsom, rød muskelfiber og Type II: Hurtig, hvid muskelfiber"
 ---
 
 Jeg har researchet lidt på, hvilke forskellige slags muskelfibre vi mennesker har, og hvad forskellene på de forskellige muskelfibertyper er.
@@ -41,7 +37,7 @@ De fleste mennesker har 40-70 % røde muskelfibre, mens resten er type IIa og II
 
 ## Sammenligning af muskelfibertyper
 
-{% include gallery caption="Et tværsnit af en langsom muskel (tv) og en hurtig muskel (th). Hver muskelcelle (fiber) er normalt mellem 0,05 og 0,1 mm i diameter." %}
+{% include gallery caption="Et tværsnit af en langsom muskel (tv) og en hurtig muskel (th). Hver muskelcelle (fiber) er normalt mellem 0,05 og 0,1 mm i diameter. Kilde: [aesthetics-fury.com](https://aesthetics-fury.com/blog/slow-twitch-vs-fast-twitch-muscle-fibers)." %}
 
 ## Type I --- langsomme oxidative muskelfibre
 

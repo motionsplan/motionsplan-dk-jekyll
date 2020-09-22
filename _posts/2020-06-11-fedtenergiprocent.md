@@ -38,7 +38,7 @@ Jeg foretrækker at bruge kilojoule, når jeg angiver energi i fødevarer.
 
 Det kan sættes ind i følgende formel:
 
-Fedtenergiprocent = ((<gram fedt pr. 100 gram> x 38)/< kilojoule i varen pr. 100 gram>) x 100
+{% include math formula="Fedtenergiprocent = \frac{fedt_{100g} (gram) * 38 kJ}{energi_{samlet} (kJ)} * 100" %}
 
 ## Eksempel på fedtenergiprocent med Mars
 
