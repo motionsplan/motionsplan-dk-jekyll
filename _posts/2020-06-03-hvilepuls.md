@@ -58,7 +58,7 @@ Der sker to tilpasninger i hjertet ved konditionstræning, som har betydning for
 - **Venstre hjertekammer vokser**. Hvis man arbejder med lidt lavere intensitet over lang tid, hvor hjertet kan følge med, så vil hjertet tilpasse sig med at venstre hjertekammer vokser, så det kan fyldes mere op og slagvolumen stiger. 
 - **Hjertemusklen bliver stærkere**. Hvis man arbejder med højere intensiteter, så vil hjertemusklen blive stærkere og vokse i størrelse, så den kan pumpe kraftigere.
 
-{% include figure image_path="https://athleticlab.com/wp-content/uploads/2017/12/ventriculargeo-1024x552.jpg" caption="Venstre hjertekammer vokser i rumfang, hvilket hovedsageligt sker ved lavere intensitet. Hjertemusklen bliver stærkere, når man arbejder med højere intensitet." %}
+{% include figure image_path="https://athleticlab.com/wp-content/uploads/2017/12/ventriculargeo-1024x552.jpg" caption="Venstre hjertekammer vokser i rumfang, hvilket hovedsageligt sker ved lavere intensitet. Hjertemusklen bliver stærkere, når man arbejder med højere intensitet. Kilde: [athleticlab.com](https://athleticlab.com/aerobic-system-development-anaerobic-dominant-sports-michael-bruno/)." %}
 
 Når hjertekammeret bliver større, så kan hjertet fyldes mere op, og når hjertet er stærkere kan hjertet også tømme sig mere pr. hjerteslag. Alt andet lige skal vi bruge den samme mængde blod rundt i systemet i minuttet. Derfor behøver hjertet altså ikke at slå så mange gange, og hvilepulsen falder, fordi du kommer i bedre form.
 
@@ -127,10 +127,10 @@ Der er flere måder at finde frem til din hvilepuls på.
 
 - **Manuelt med stopur.** Du kan let måle din hvilepuls uden at have brug for udstyr. Det er den måde jeg foretrækker selv at måle hvilepulsen på. For at måle pulsen manuelt, så skal du bare finde et sted på kroppen, hvor der er en stor blodåre, der ligger tæt på overfladen. For de fleste kan man let mærke pulsen på håndleddet eller ved halsen. Typisk bruger jeg pege og langefinger til at mærke pulsen.
 
-{% include figure image_path="https://i.insider.com/5eb9c8155f726e305642adb7?width=800&format=jpeg&auto=webp" caption="Du kan enten tage pulsen på håndleddet eller på halsen." %}
+{% include figure image_path="https://i.insider.com/5eb9c8155f726e305642adb7?width=800&format=jpeg&auto=webp" caption="Du kan enten tage pulsen på håndleddet eller på halsen. Kilde: [www.insider.com](https://www.insider.com/what-is-a-good-resting-heart-rate)." %}
 
-1. Læg helt roligt og afslappet
-2. Sæt langefingeren og pegefingeren på din halspulsåre og pres lidt indtil du kan mærke pulsen. 
+1. Lig helt roligt og afslappet
+2. Sæt langefingeren og pegefingeren på din halspulsåre og pres lidt, indtil du kan mærke pulsen. 
 3. Brug et stopur til at tage tid. Du kan fx tælle slagene i 20 sekunder og så gange med tre. Jeg foretrækker at tælle i et helt minut, da en enkelt fejltælling ved kortere intervaller kommer til at betyde mere.
 
 Hvis du vil have det mest præcise bud på, hvad din reelle hvilepuls er, så bør du gøre det nogle dage i træk under de samme forudsætninger. Der kan nemlig også være daglige variationer i hvilepulsen.
