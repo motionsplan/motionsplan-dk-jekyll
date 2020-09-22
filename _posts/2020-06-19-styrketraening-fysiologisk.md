@@ -102,7 +102,9 @@ Den trænede kan altså i forhold til den utrænede:
 - Skyde impulserne hurtigere af sted og sørge for, at de lander på den rigtige adresse og dermed udnyttes optimalt
 - Synkronisere impulserne til optimalt teknisk udførelse af øvelsen eller bevægelsen
 
-Ændringerne i nervesystemet er mest udtalte, når du træner med tungere vægte, fx 1-8 RM. NÅr vægtene er tunge, så skal hjernen sørge for at aktivere en større del af muskelmassen for at accelerere vægten. 
+Ændringerne i nervesystemet er mest udtalte, når du træner med tungere vægte, fx 1-8 RM. Når vægtene er tunge, så skal hjernen sørge for at aktivere en større del af muskelmassen for at accelerere vægten. 
+
+{% comment %}
 
 Per Aagaard (2009) har lavet følgende [liste](http://web.archive.org/web/20110606191439/http://www.motion-online.dk/styrketraening/styrke_-_artikler/optimal_styrketraening_er_tung_styrketraening/){:rel="nofollow"} med neurale tilpasninger til styrketræning:
 
@@ -115,6 +117,8 @@ Per Aagaard (2009) har lavet følgende [liste](http://web.archive.org/web/201106
 - øget motorneuron fyringsfrekvens (Kamen et al. 1998, Van Cutsem et al. 1998)
 - motorneuron fyring: øget forekomst af ‘doublets’ (Van Cutsem et al. 1998)
 - øget fyringsfrekvens (rate coding) og rekruttering af de motoriske enheder kan samlet set øge den såkaldte voluntære aktiveringsgrad af muskulaturen. Dvs. at man evner at aktivere en muskel og dens muskelfibre tættere på den maksimale kraftkapacitet (Folland & Williams 2007).
+
+{% endcomment %}
 
 Hvis du foretrækker at se en video om emnet, så kan du kigge her.
 
@@ -209,6 +213,8 @@ I takt med at man inden for forskningsverdenen har fået mere sofistikerede mål
 
 Derfor er der i senere år opstået hypoteser om, at selvom at tilpasningerne ved styrketræning primært går i retningen af øget muskelstørrelse og -styrke, så kan træningsformen eksempelvis også være med til at vedligeholde en sund mitokondrie-pulje og -funktion, hvilket har stor betydning for muskulaturens sundhed og derved også hele kroppens.
 
+{% comment %}
+
 ## Fysiologiske tilpasninger i forhold til tung styrketræning
 
 Per Aagaard (2009) har [foreslået](http://web.archive.org/web/20110606191439/http://www.motion-online.dk/styrketraening/styrke_-_artikler/optimal_styrketraening_er_tung_styrketraening/){:rel="nofollow"} følgende figur for at vise sammenhængen mellem de dokumenterede fysiologiske forandringer i forhold til opbygningen af træningen og udbyttet af den. 
@@ -216,6 +222,8 @@ Per Aagaard (2009) har [foreslået](http://web.archive.org/web/20110606191439/ht
 {% include figure image_path="/assets/images/blog/fysiologiske-tilpasninger-ovede.svg" caption="Fysiologiske tilpasninger til styrketræning i forhold til intensitet i styrketræningen. Vi mener primært den er retvisende for trænede individer. Baseret på  [Aagaard (2009)](http://web.archive.org/web/20110606191439/http://www.motion-online.dk/styrketraening/styrke_-_artikler/optimal_styrketraening_er_tung_styrketraening/)" %}
 
 Figuren giver en relativt forenklet opfattelse af, hvilket styrketræningsstimulus, der skaber hvilke fysiologiske tilpasninger. Vi mener dog, at det er nødvendigt at skelne mellem utrænede, lettere trænede og trænede i forståelsen, da billedet for tilpasningerne ikke er det samme for de to grupper.
+
+{% endcomment %}
 
 ### Utrænede og lettere trænede
 
