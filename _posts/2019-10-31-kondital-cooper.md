@@ -8,7 +8,7 @@ language: da
 header:
   overlay_image: https://coopertest-online.de/wp-content/uploads/2019/02/Coopertest_Collage_368385_R_K_B_by_Kurt-Michel_pixelio.de_1100px-1.jpg
   teaser: https://coopertest-online.de/wp-content/uploads/2019/02/Coopertest_Collage_368385_R_K_B_by_Kurt-Michel_pixelio.de_1100px-1.jpg
-  caption: Find dit kondital med Cooper-testen
+  caption: Find dit kondital med Cooper-testen. Konditionstest til løb.
 category:
   - Kondition
 tags:
@@ -52,7 +52,7 @@ Der findes forskellige formler til at udregne konditallet fra Cooper-testen. Her
 
 {% include math formula="VO_2max = \frac{d_{12} - 505}{45}" %}
 
-I beregneren bruger jeg dog denne [formel til at beregne konditallet ud fra Cooper-testen](https://www.brianmac.co.uk/gentest.htm), da senere studier har vist, at den er lidt mere præcis.
+I beregneren bruger jeg dog denne [formel til at beregne konditallet ud fra Cooper-testen](https://www.brianmac.co.uk/gentest.htm), da de også er den der bruges om [Cooper test på Wikipedia](https://en.wikipedia.org/wiki/Cooper_test).
 
 {% include math formula="VO_2max = \frac{d_{12} - 504,9}{44,73}" %}
 
@@ -62,7 +62,9 @@ Hvis du bruger Cooper-testen til at udregne dit kondital, skal du sørge for at 
 
 ## Usikkerheder i Cooper-testen
 
-12 minutters Cooper-test er forbundet med nogen usikkerhed. Fx vil folk med ekstrem god løbeøkonomi få overvurderet deres iltoptagelse, og folk med meget dårlig [løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %}) vil få undervurderet deres iltoptagelse.
+12 minutters Cooper test er forbundet med nogen usikkerhed. Fx vil folk med ekstrem god løbeøkonomi få overvurderet deres iltoptagelse, og folk med meget dårlig [løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %}) vil få undervurderet deres iltoptagelse.
+
+McCutcheon et al (1990) fandt med at Cooper testen gave en systematisk underestimering på 4 ml/kg/min for deres forsøgsdetlagere, der havde en gennemsnitsalder på 25 år.
 
 ## Tabel over resultater fra Cooper-test
 
@@ -94,3 +96,6 @@ Hvis du bruger Cooper-testen til at udregne dit kondital, skal du sørge for at 
 
 - Cooper, K. H. 1968. [“A Means of Assessing Maximal Oxygen Intake. Correlation between Field and Treadmill Testing”](https://pubmed.ncbi.nlm.nih.gov/5694044/). JAMA 203 (3): 201–4.
 - Grant, S., K. Corbett, A. M. Amjad, J. Wilson, og T. Aitchison. 1995. “A Comparison of Methods of Predicting Maximum Oxygen Uptake.” _British Journal of Sports Medicine_ 29 (3): 147. [https://doi.org/10.1136/bjsm.29.3.147](https://doi.org/10.1136/bjsm.29.3.147).
+- McCutcheon, M. C., S. A. Sticha, M. D. Giese, og F. J. Nagle. 1990. “A Further Analysis of the 12-Minute Run Prediction of Maximal Aerobic Power”. Research Quarterly for Exercise and Sport 61 (3): 280–83. <https://doi.org/10.1080/02701367.1990.10608692>.
+- Grant, S., K. Corbett, A. M. Amjad, J. Wilson, og T. Aitchison. 1995. “A Comparison of Methods of Predicting Maximum Oxygen Uptake.” British Journal of Sports Medicine 29 (3): 147. <https://doi.org/10.1136/bjsm.29.3.147>.
+- Zwiren, L. D., P. S. Freedson, A. Ward, S. Wilke, og J. M. Rippe. 1991. “Estimation of VO2max: A Comparative Analysis of Five Exercise Tests”. Research Quarterly for Exercise and Sport 62 (1): 73–78. <https://doi.org/10.1080/02701367.1991.10607521>.

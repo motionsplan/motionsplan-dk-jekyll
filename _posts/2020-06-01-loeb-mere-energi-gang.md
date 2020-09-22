@@ -22,42 +22,61 @@ Det er umuligt at finde et godt svar på, om man forbrænder flere kalorier elle
 
 Da jeg undersøgte emnet nærmere stødte jeg hele tiden på [påstanden](https://vorespuls.dk/gang/artikler/gaa-eller-loeb-du-forbraender-lige-meget), at man forbrænder lige meget uanset om man løber eller går.
 
-Morten Zacho skriver imidlertid følgende, da han skriver artiklen [Du forbrænder flere kalorier ved at løbe end ved at gå](http://web.archive.org/web/20150120003941/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/du_forbraender_flere_kalorier_ved_at_loebe_end_ved_at_gaa/){:rel="nofollow"}:
-
-> Ja, det er faktisk rigtigt - ikke bare pr. minut, men også pr. kilometer. Faktisk forbrænder du næsten dobbelt så meget pr. kilometer og pr. minut er det næste fire gange så meget.
-
---- <cite>[Morten Zacho](http://web.archive.org/web/20150120003941/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/du_forbraender_flere_kalorier_ved_at_loebe_end_ved_at_gaa/){:rel="nofollow"}</cite>
-
-Morten Zacho skriver videre, at fejlslutningen med med, at man skulle forbrænde lige meget beror på følgende præmisser:
-
-- Der laves en meget grov afrunding
-- Hvilestofskiftet tælles med i selve aktiviteten
-
 Så lad os kigge på, hvordan det i virkeligheden hænger sammen med energiforbruget og forbrændingen af kalorier, når man går og løber.
 
 ## Skal hvilestofskiftet regnes med?
 
 Hvilestofskiftet er den energiomsætning, man altid har. Det betyder naturligvis, at hvilestofskiftet både er der, når vi løber, og når vi går. Selve energiforbruget under aktiviteten skal lægges oven i hvilestofskiftet for at få det samlede energiforbrug ved aktiviteten.
 
-Det får også [Morten Zacho](http://web.archive.org/web/20150120003941/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/du_forbraender_flere_kalorier_ved_at_loebe_end_ved_at_gaa/){:rel="nofollow"} at skrive:
+Det får [Morten Zacho](http://web.archive.org/web/20150120003941/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/du_forbraender_flere_kalorier_ved_at_loebe_end_ved_at_gaa/){:rel="nofollow"} at skrive:
 
 > Hvis vi skal sammenligne forbrændingen ved at gå og løbe, så er det mest rimeligt at svare ud fra hvor meget ekstra man forbrænder ved enten at gøre det ene eller det andet. Hvileforbrændingen ville man jo have haft under alle omstændigheder.
 
 --- <cite>[Morten Zacho](http://web.archive.org/web/20150120003941/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/du_forbraender_flere_kalorier_ved_at_loebe_end_ved_at_gaa/){:rel="nofollow"}</cite>
 
+Inspireret af [Runtastic](https://www.runtastic.com/blog/en/calories-burned-walking-vs-running/) er de to mest relevante parametre i denne sammenhæng energiforbruget pr. minut og energiforbruget pr. kilometer.
+
+Lad os kigge lidt på i det følgende, hvordan du kan estimere energiforbruget ved gang og løb, når du ikke har adgang til en direkte måling af din iltoptagelse under de to aktiviteter.
+
+## Du forbrænder flere kalorier ved at løbe end ved at gå!
+
+Morten Zacho skriver i artiklen [Du forbrænder flere kalorier ved at løbe end ved at gå](http://web.archive.org/web/20150120003941/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/du_forbraender_flere_kalorier_ved_at_loebe_end_ved_at_gaa/){:rel="nofollow"}:
+
+> Ja, det er faktisk rigtigt - ikke bare pr. minut, men også pr. kilometer. Faktisk forbrænder du næsten dobbelt så meget pr. kilometer og pr. minut er det næste fire gange så meget.
+
+--- <cite>[Morten Zacho](http://web.archive.org/web/20150120003941/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/du_forbraender_flere_kalorier_ved_at_loebe_end_ved_at_gaa/){:rel="nofollow"}</cite>
+
+Så yderpunkterne i diskussionen er altså, at vi forbrænder det samme eller at vi forbrænder op til 2-4 gange så meget ved at løbe i forhold til at gå.
+
+Morten Zacho skriver ikke nøjagtigt, hvilke hastigheder af gang og løb, han sammenligner for at skrive ovenstående. Men lad os kigge lidt på, hvordan man udregner det.
+
+**Spoiler-alert**. Jeg kan ikke finde nogle sammenstillinger af hastigheder for gang og løb, hvor løb forbrænder dobbelt så meget pr. kilometer, men pr. minut ser det ud til, at udsagnet holder.
+{: .notice .notice--info }
+
 ## Hvad er energiforbruget ved at gå og løbe?
 
-For at estimere hvor meget en aktivitet bruger af energi, så kan man bruge enheden _metabolic equivalent for task_ (MET). En MET er det din krop forbrænder under hvile. Gang bruger 3-6 MET alt efter tempoet og løb bruger mere end 6 MET.
+For at estimere hvor meget en aktivitet bruger af energi, så kan man bruge enheden _metabolic equivalent for task_ (MET). 1 MET er det din krop forbrænder under hvile. Gang bruger 3-6 MET alt efter tempoet og løb bruger mere end 6 MET. Undtagelsen er hvis du begynder at gå virkelig hurtigt, og du vil i nedenstående tabel lægge mærke til, at gang og løb med 8 km/t bruger den samme energi, mens du ved en løbehastighed på 6,4 km/t vil bruge mindre energi på at gå.
 
-| Aktivitet     | MET     |
-|---------------|---------|
-| Hvile         | 1 MET   |
-| Gang 4 km/t   | 3 MET   |
-| Gang 5,3 km/t | 4,3 MET |
-| Gang 6,4 km/t | 5,0 MET |
-| Løb 6,4 km/t  | 6 MET   |
-| Løb 6,4 km/t  | 6 MET |
+| Aktivitet     | MET      |
+|---------------|----------|
+| Hvile         | 1 MET    |
+| Gang 4 km/t   | 3 MET    |
+| Gang 4,8 km/t | 3,5 MET  |
+| Gang 5,3 km/t | 4,3 MET  |
+| Gang 6,4 km/t | 5,0 MET  |
+| Gang 8,0 km/t | 8.3 MET  |
+| Løb 6,4 km/t  | 6 MET    |
+| Løb 8,0 km/t  | 8,3 MET  |
 | Løb 10,8 km/t | 10,5 MET |
+| Løb 11,3 km/t | 11 MET   |
+| Løb 14,5 km/t | 12,8 MET |
+| Løb 16,1 km/t | 14,5 MET |
+
+## Udregn energiforbruget ved løb og gang
+
+Lad os sætte det ind i en beregner, så kan du selv regne lidt på de forskellige løbehastigheder og ganghastigheder for at se, hvordan energiforbruget er pr. kilometer og pr. minut.
+
+{% include calculate-run-walk.html %}
 
 Jeg har skrevet et meget grundigere indlæg om [MET med en tabel over virkelig mange aktiviteter, bl.a. også gang og løb]({% link _posts/2020-07-24-met.md %}).
 
@@ -153,15 +172,22 @@ Når du træner tager du energi fra dine glykogen og fedtdepoter. Det kræver en
 
 --- <cite>[Morten Zacho](http://web.archive.org/web/20150120003941/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/du_forbraender_flere_kalorier_ved_at_loebe_end_ved_at_gaa/){:rel="nofollow"}</cite>
 
+Når vi bruger MET til at udregne energiforbruget ved gang og løb, som i beregneren ovenfor, så får jeg følgende tal:
+
+| Aktivitet | kcal / km | kcal / min |
+|-|-|-|
+| Gang 4,8 km/t | 58 | 5 |
+| Løb 9,7 km/t | 81 | 13 |
+| Løb / gang | 1,4 | 2.8 |
+
+Hvis man bruger MET som udgangspunkt for at udregne energiforbruget ved gang og løb, så forbrænder man altså ikke fire gange så meget pr. minut ved de hastigheder.
+
+Du kan selv lege lidt med beregneren, men det sker først med en større forskel mellem at gang-hastighed og løbehastighed, at forskellen bliver så stor.
+
+Hvis vi kigger på udsagnet om, at man pr. kilometer forbrænder dobbelt så meget ved at løbe som ved at gå, så kan jeg ikke finde nogen kombinationer af hastigheder, hvor det sker. Typisk ligger ratioen under 1,5 - og ratioen bliver mindre, desto hurtigere du løber.
+
 ## Referencer
 
-ACSM's Guidelines for exercise testing and prescription. Seventh edition.
-Textbook of work physiology. Åstrand & Rodahl. 3rd ed. McGraw Hill 1986. pp 652-653
-
-McArdle (2000)
-
-Wilkin LD, Cheryl A, Haddock BL. Energy expenditure comparison between walking and running in average fitness individuals. J Strength Cond Res. 2012;26(4):1039‐1044. doi:10.1519/JSC.0b013e31822e592c
-
-Hall, Cameron & Figueroa, Arturo & Fernhall, Bo & Kanaley, Jill. (2004). Energy Expenditure of Walking and Running: Comparison with Prediction Equations. Medicine and science in sports and exercise. 36. 2128-34. 10.1249/01.MSS.0000147584.87788.0E. 
-
-{% include calculate-run-walk.html %}
+- McArdle, William D., og Frank I. Katch. 2010. Essential Exercise Physiology 4th. 4th revised international ed edition. Philadelphia: Lippincott Williams and Wilkins.
+- Wilkin, Linda D., Antoinette Cheryl, og Bryan L. Haddock. 2012. “Energy Expenditure Comparison between Walking and Running in Average Fitness Individuals”. Journal of Strength and Conditioning Research 26 (4): 1039–44. <https://doi.org/10.1519/JSC.0b013e31822e592c>.
+- Hall, Cameron, Arturo Figueroa, Bo Fernhall, og Jill A. Kanaley. 2004. “Energy Expenditure of Walking and Running: Comparison with Prediction Equations”. Medicine and Science in Sports and Exercise 36 (12): 2128–34. <https://doi.org/10.1249/01.mss.0000147584.87788.0e>.

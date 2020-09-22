@@ -1,70 +1,73 @@
-<form class="calculator" id="calculator_closed">
+<form class="calculator" id="calculator_running_walking">
     <fieldset>
-        <legend>Formular midlertidig lukket</legend>
-        <p>Er ved at blive opdateret.</p>
-    </fieldset>
-</form>
-{% comment %}
-<script>
-    function calculate() {
-        var e = document.getElementById("exercise");
-        var cals = e.options[e.selectedIndex].value;
-        var time = document.getElementById("time").value;
-        var weight = document.getElementById("weight").value;
-        //number of calores based on time
-        cals = cals * (time / 30);
-
-        //every 7kg above or below 68k add or subtract 10%
-        var ext = (weight - 68) / 70;
-        cals = cals + (cals * ext);
-
-        document.getElementById("calories").value = nt2dp(cals, 0);
-
-    }
-
-    function valclear() {
-        document.getElementById("calories").value = "";
-    }
-
-    function nt2dp(num, dp) {
-        num = num * 1 + (0.55 / Math.pow(10, dp));
-        if (dp > 0) {
-            dp = dp + 1;
-        }
-        var b = Math.floor(num).toString().length + dp;
-        return num.toString().substr(0, b);
-    }
-</script>
-<form class="calculator">
-    <fieldset>
-        <legend>Energiudregner. Sammenlign gang og løb.</legend>
-        <div class="form-group">
-            <label for="exercise">Aktivitet</label>
-            <select name="exercise" id="exercise">
-                <option value="320" selected="selected">Løb - 9 km/t</option>
-                <option value="350">Løb - 10 km/t</option>
-                <option value="430">Løb - 12 km/t</option>
-                <option value="550">Løb - 16 km/t</option>
-                <option value="105">Gang - 4 km/t</option>
-                <option value="200">Gang - 7 km/t</option>
-                <option value="370">Gang - 10 km/t</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="time">Tid (min)</label>
-            <input name="time" id="time" type="number" onfocus="valclear()" value="30" />
-        </div>
+        <legend>Energiudregner. Sammenlign energiforbruget ved gang og løb.</legend>
         <div class="form-group">
             <label for="weight">Vægt (kg)</label>
-            <input name="weight" id="weight" type="number" onfocus="valclear()" value="68" />
+            <input name="weight" id="weight" type="number" placeholder="fx 68 kg">
         </div>
-        <input type="button" name="Button1" value="Calculate" onclick="calculate()" />
+    </fieldset>
+    <fieldset>
+        <div class="form-group">
+            <label for="walking">Gang</label>
+            <select name="walking" id="walking">
+                <option value="4">Gang - 4,0 km/t</option>
+                <option value="4.8">Gang - 4,8 km/t</option>
+                <option value="5.6">Gang - 5,6 km/t</option>
+                <option value="6.4">Gang - 6,4 km/t</option>
+                <option value="7.2">Gang - 7,2 km/t</option>
+                <option value="8.0">Gang - 8,0 km/t</option>
+            </select>
+        </div>
     </fieldset>
     <fieldset class="results">
+         <legend>Energiforbrug ved gang</legend>
         <div class="form-group">
-            <label for="calories">Energiforbrug (kcal)</label>
-            <input name="calories" id="calories" type="text" onfocus="valclear()" disabled="disabled">
+            <label for="calories_walking_kilometer">Energiforbrug (kcal/kilometer)</label>
+            <input name="calories_walking_kilometer" id="calories_walking_kilometer" type="text" disabled="disabled">
+        </div>
+        <div class="form-group">
+            <label for="calories_walking_minute">Energiforbrug (kcal/minut)</label>
+            <input name="calories_walking_minute" id="calories_walking_minute" type="text" disabled="disabled">
         </div>
     </fieldset>
+    <fieldset>
+        <div class="form-group">
+            <label for="running">Løb</label>
+            <select name="running" id="running">
+                <option value="6.4">Løb - 6,4 km/t</option>
+                <option value="8" selected="selected">Løb - 8 km/t</option>
+                <option value="9.7">Løb - 9,7 km/t</option>
+                <option value="10.8">Løb - 10,8 km/t</option>
+                <option value="11.3">Løb - 11,3 km/t</option>
+                <option value="14.5">Løb - 14,5 km/t</option>
+                <option value="16.1">Løb - 16,1 km/t</option>
+            </select>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <legend>Energiforbrug ved løb</legend>
+        <div class="form-group">
+            <label for="calories_running_kilometer">Energiforbrug (kcal/kilometer)</label>
+            <input name="calories_running_kilometer" id="calories_running_kilometer" type="text" disabled="disabled">
+        </div>
+        <div class="form-group">
+            <label for="calories_running_minute">Energiforbrug (kcal/minut)</label>
+            <input name="calories_running_minute" id="calories_running_minute" type="text" disabled="disabled">
+        </div>
+    </fieldset>
+    <fieldset class="results">
+        <legend>Sammenligning af af løb og gang</legend>
+        <div class="form-group">
+            <label for="ratio_kilometer">Løb i forhold til gang (kilometer)</label>
+            <input name="ratio_kilometer" id="ratio_kilometer" type="text" disabled="disabled">
+        </div>
+        <div class="form-group">
+            <label for="ratio_minute">Løb i forhold til gang (minut)</label>
+            <input name="ratio_minute" id="ratio_minute" type="text" disabled="disabled">
+        </div>
+    </fieldset>
+    <div class="notes">
+        <p>Beregneren er baseret på MET (metabolic equivalents) for fysisk aktivitet, som du kan finde fra <a href="https://sites.google.com/site/compendiumofphysicalactivities/home">Compendium of Physical Activities</a>. Beregningerne tager ikke højde for individuelle forskelle, bevægelsesøkonomi og den evt. efterforbrænding.</p>
+    </div>
 </form>
-{% endcomment %}

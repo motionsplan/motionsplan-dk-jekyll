@@ -2,6 +2,7 @@
 
 /* global $ */
 
+const runwalk = require('./running-walking');
 const pushup = require('./pushup');
 const yyir1 = require('./beeptest-yyir1');
 const beeptest = require('./beeptest');
@@ -264,6 +265,30 @@ $(document).ready(function() {
         $("#idealweight_hamwi").val(iw.getHamwi());
         $("#idealweight_devine").val(iw.getDevine());
         $("#idealweight_bmi_bodytype").val(iw.getIdealWeightBasedOnBmiAndBodytype(Number($("[name='bodytype']").val())));
+        return false;
+    });
+    // Udregn ideal weight
+    $("#calculator_running_walking").submit(function() {
+        console.log("Running Walking");
+
+        var weight = Number($("[name='weight']").val());
+        var running = Number($("[name='running']").val());
+        var walking = Number($("[name='walking']").val());
+        
+        console.log(walking + ' ' + running);
+        
+        var run = runwalk.RunningWalking("running", running, weight);
+        var walk = runwalk.RunningWalking("walking", walking, weight);
+        
+        var ratio_kilometer = run.getCaloriesPrKilometer() / walk.getCaloriesPrKilometer();
+        var ratio_minute = run.getCaloriesPrMinute() / walk.getCaloriesPrMinute();
+
+        $("#calories_walking_kilometer").val(walk.getCaloriesPrKilometer().toFixed(0));
+        $("#calories_walking_minute").val(walk.getCaloriesPrMinute().toFixed(0));
+        $("#calories_running_minute").val(run.getCaloriesPrMinute().toFixed(0));
+        $("#calories_running_kilometer").val(run.getCaloriesPrKilometer().toFixed(0));
+        $("#ratio_kilometer").val(ratio_kilometer.toFixed(1));
+        $("#ratio_minute").val(ratio_minute.toFixed(1));
         return false;
     });
     // Udregn 1punkttest
