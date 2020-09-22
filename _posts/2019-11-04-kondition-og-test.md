@@ -78,13 +78,13 @@ Disse tal bør være repræsentative for almindelige danskere, men bør bare ses
 
 ## Hvilken betydning har konditallet for sundhed og aktivitetsniveau?
 
-Man har i flere store studier set en øget risiko for tidlig død, hvis man har et kondital på under 35 ml/kg/min for mænd og 28 mL/kg/min for kvinder. 
+Man har i flere store studier ifølge [Brian Henneberg](https://www.myprotein.dk/thezone/traening/tjek-dit-kondital/) set en øget risiko for tidlig død, hvis man har et kondital på under 35 ml/kg/min for mænd og 28 ml/kg/min for kvinder. 
 
 Den nedre grænse for hvor man får problemer med at klare sig selv og komme rundt er på omkring 11 ml/kg/min. Det kan sagtens ske for ældre inaktive mennesker, der bliver syge, og hvis man først kommer derned kan det være vanskeligt at genvinde konditionen igen.
 
 Hvis ikke du holder konditionstræningen ved lige, så kan den maksimale iltoptagelse falde med 5-10% for hver 10. år. Hvis du samtidig tager lidt på i vægt bliver din kondition altså mærkbart ringere. 
 
-Hvis du gør noget aktivt, så kan du dog sagtens holde konditionen ved lige. Almindelige personer på +70 år har været i stand til at holde deres kondital oppe på mellem 40-55 mL/kg/min ved at dyrke konditionstræning. 
+Hvis du gør noget aktivt, så kan du dog sagtens holde konditionen ved lige. Almindelige personer på +70 år har været i stand til at holde deres kondital oppe på mellem 40-55 ml/kg/min ved at dyrke konditionstræning. 
 
 Man har lavet studier, hvor forsøgspersonerne har ligget stille i en seng i længere tid. Her så man at konditallet er faldet med 10 ml/kg/min i løbet af bare 3 uger.
 
