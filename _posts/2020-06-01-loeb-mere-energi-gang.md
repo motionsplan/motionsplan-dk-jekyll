@@ -178,7 +178,7 @@ Når vi bruger MET til at udregne energiforbruget ved gang og løb, som i beregn
 |-|-|-|
 | Gang 4,8 km/t | 58 | 5 |
 | Løb 9,7 km/t | 81 | 13 |
-| Løb / gang | 1,4 | 2.8 |
+| Ratio Løb / gang | 1,4 | 2.8 |
 
 Hvis man bruger MET som udgangspunkt for at udregne energiforbruget ved gang og løb, så forbrænder man altså ikke fire gange så meget pr. minut ved de hastigheder.
 
