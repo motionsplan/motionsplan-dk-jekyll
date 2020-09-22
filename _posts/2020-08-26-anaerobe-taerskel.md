@@ -46,6 +46,10 @@ LT2 - Anaerob tærskel
 
 Men der findes [i hvert fald 8 fortolkninger af den anaerob tærskel, som Heuberger et al (2018) diskuterer i deres studium](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6235347/).
 
+Det er væsentligt at nævne, at 4 mmol/l-tærsklen er en gammel observation. Fx fand Myburgh et al (2001), at veltrænede triatleter på et cykelergometer i en time kunne køre med en gennemsnitlig laktatkoncentration på 7,6 mmol/l (5,0 - 12,3 mmol/l). Den anaerobe tærskel findes, men den kan altså ikke præcist sættes i forhold til en bestemt værdi for laktatmålinger i blodet.
+
+Det er interessant, om du kan estimere din egen absolutte laktattærskel, og om den så flytter sig over tid.
+
 ## Hvordan tester jeg min anaerobe tærskel?
 
 Du kan naturligvis få testet din anaerobe tærskel i et laboratorium, hvor du kan få målt laktat jævnligt med professionelt udstyr. Typisk vil man lave testen som en "trappe"-test, hvor man gradvist sætter tempoet op og tager laktatmålinger undervejs. Det kan fx ske sammen med en [submaksimal test af iltoptagelsen]({% link _posts/2019-10-31-kondital-laboratorietest.md %}).
