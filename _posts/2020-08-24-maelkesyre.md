@@ -28,7 +28,7 @@ Andelen af energien der produceres anaerobt stiger, når intensiteten stiger. Hv
 
 Når kroppen kører på anaerob energiomsætning, så producerer musklerne energi fra kroppens hurtigste energikilder, som er ATP og kreatinfosfat og spaltning af glykose. ATP er vores energimolekyle, som vi hele tiden skal genoplade, så kroppen kan fungere. 
 
-{% include figure image_path="https://bioteknologi.systime.dk/fileadmin/_processed_/6/d/csm_875_To_veje_for_pyruvat_da10a08a22.png" caption="Mælkesyre bliver dannet i musklerne ved anaerobt arbejde i musklerne, når glykose spaltes uden ilt til stede. Processen går meget hurtigt, men producerer ikke så meget ATP" alt="Mælkesyre bliver dannet i musklerne ved anaerobt arbejde og træning" %}
+{% include figure image_path="https://bioteknologi.systime.dk/fileadmin/_processed_/6/d/csm_875_To_veje_for_pyruvat_da10a08a22.png" caption="Mælkesyre bliver dannet i musklerne ved anaerobt arbejde i musklerne, når glykose spaltes uden ilt til stede. Processen går meget hurtigt, men producerer ikke så meget ATP. Kilde: [Systime. Bioteknologi](https://bioteknologi.systime.dk/?id=591)." alt="Mælkesyre bliver dannet i musklerne ved anaerobt arbejde og træning" %}
 
 Når vi arbejder uden ilt i længere tid, så er vi afhængige af at spalte glykose for at genoplade ATP. Når vi skal spalte glykose for at skabe ATP, så er ilt ikke nødvendigt. Processen foregår lynhurtigt, men når vi arbejder uden ilt, så kan vi heller ikke arbejde så længe.
 

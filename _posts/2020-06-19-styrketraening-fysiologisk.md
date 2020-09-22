@@ -118,9 +118,9 @@ Per Aagaard (2009) har lavet følgende [liste](http://web.archive.org/web/201106
 - motorneuron fyring: øget forekomst af ‘doublets’ (Van Cutsem et al. 1998)
 - øget fyringsfrekvens (rate coding) og rekruttering af de motoriske enheder kan samlet set øge den såkaldte voluntære aktiveringsgrad af muskulaturen. Dvs. at man evner at aktivere en muskel og dens muskelfibre tættere på den maksimale kraftkapacitet (Folland & Williams 2007).
 
-{% endcomment %}
-
 Hvis du foretrækker at se en video om emnet, så kan du kigge her.
+
+{% endcomment %}
 
 {% include video provider="youtube" id="5TAN-o_7Miw" %}
 
@@ -213,17 +213,13 @@ I takt med at man inden for forskningsverdenen har fået mere sofistikerede mål
 
 Derfor er der i senere år opstået hypoteser om, at selvom at tilpasningerne ved styrketræning primært går i retningen af øget muskelstørrelse og -styrke, så kan træningsformen eksempelvis også være med til at vedligeholde en sund mitokondrie-pulje og -funktion, hvilket har stor betydning for muskulaturens sundhed og derved også hele kroppens.
 
-{% comment %}
-
 ## Fysiologiske tilpasninger i forhold til tung styrketræning
 
 Per Aagaard (2009) har [foreslået](http://web.archive.org/web/20110606191439/http://www.motion-online.dk/styrketraening/styrke_-_artikler/optimal_styrketraening_er_tung_styrketraening/){:rel="nofollow"} følgende figur for at vise sammenhængen mellem de dokumenterede fysiologiske forandringer i forhold til opbygningen af træningen og udbyttet af den. 
 
-{% include figure image_path="/assets/images/blog/fysiologiske-tilpasninger-ovede.svg" caption="Fysiologiske tilpasninger til styrketræning i forhold til intensitet i styrketræningen. Vi mener primært den er retvisende for trænede individer. Baseret på  [Aagaard (2009)](http://web.archive.org/web/20110606191439/http://www.motion-online.dk/styrketraening/styrke_-_artikler/optimal_styrketraening_er_tung_styrketraening/)" %}
+{% include figure image_path="/assets/images/blog/fysiologiske-tilpasninger-ovede.svg" caption="Fysiologiske tilpasninger til styrketræning i forhold til intensitet i styrketræningen. Vi mener primært den er retvisende for trænede individer. Baseret på [Aagaard (2009)](http://web.archive.org/web/20110606191439/http://www.motion-online.dk/styrketraening/styrke_-_artikler/optimal_styrketraening_er_tung_styrketraening/)" %}
 
 Figuren giver en relativt forenklet opfattelse af, hvilket styrketræningsstimulus, der skaber hvilke fysiologiske tilpasninger. Vi mener dog, at det er nødvendigt at skelne mellem utrænede, lettere trænede og trænede i forståelsen, da billedet for tilpasningerne ikke er det samme for de to grupper.
-
-{% endcomment %}
 
 ### Utrænede og lettere trænede
 
@@ -231,7 +227,7 @@ Formentlig kan både **1-8 RM** og **6-8 RM** være nogenlunde lige så effektiv
 
 Derfor foreslår vi følgende model for morfologiske og neurale fysiologiske tilpasninger til styrketræning for utrænede.
 
-{% include figure image_path="/assets/images/blog/fysiologiske-tilpasninger-begyndere.svg" caption="Fysiologiske tilpasninger til styrketræning i forhold til intensitet i styrketræningen primært rettet mod begyndere, hvor alle pilene er lidt tykkere." %}
+{% include figure image_path="/assets/images/blog/fysiologiske-tilpasninger-begyndere.svg" caption="Fysiologiske tilpasninger til styrketræning i forhold til intensitet i styrketræningen primært rettet mod begyndere, hvor alle pilene er lidt tykkere. Tilpasning af Aagaard (2009) til at passe bedre på utrænede og lettere trænede." %}
 
 ### Trænede
 
@@ -241,7 +237,7 @@ Noget af din træning skal laves i dette _rep range_ for at få musklerne til at
 
 Træning udført ønsket om at flytte stangen så hurtigt som muligt med **1-8 RM** giver markante forbedringer på både maksimal-, eksplosiv- og excentrisk- muskelstyrke. En stor del af denne effekt er de neurale tilpasninger.
 
-Den tunge styrketræning kan siges at resultere i:
+Den tunge styrketræning kan siges at resultere i ([Aagaard (2009)](http://web.archive.org/web/20110606191439/http://www.motion-online.dk/styrketraening/styrke_-_artikler/optimal_styrketraening_er_tung_styrketraening/){:rel="nofollow"}):
 
 - øget maksimal muskelkraft og effekt ved både langsomme og hurtige bevægelseshastigheder (Schmidtbleicher & Buehrle 1987, Aagaard et al. 1994)
 - øget maksimal ‘eksplosiv’ muskelstyrke (Schmidtbleicher & Buehrle 1987, Aagaard et al. 1999)
@@ -252,7 +248,7 @@ Den tunge styrketræning er med til at forbedre præstationsevnen og forebygge i
 
 Det er vigtigt at huske på, at _rep ranges_ er en tommelfingerregel i forhold til, hvad man opnår med styrketræning. Billedet er meget mere mudret end man skulle tro, når man læser rundt omkring i styrketræningslitteraturen.
 
-{% include figure image_path="https://myzone-strengtheory.netdna-ssl.com/wp-content/uploads/2016/02/12752057_10153492667389016_1119053659_o.jpg" caption="Der er mange veje til det samme mål i forhold til styrke og hypertrofi - [Nuckols](https://www.strongerbyscience.com/hypertrophy-range-fact-fiction/)" %}
+{% include figure image_path="https://myzone-strengtheory.netdna-ssl.com/wp-content/uploads/2016/02/12752057_10153492667389016_1119053659_o.jpg" caption="Der er mange veje til det samme mål i forhold til styrke og hypertrofi. Kilde: [Greg Nuckols](https://www.strongerbyscience.com/hypertrophy-range-fact-fiction/)" %}
 
 Tidligere har vi skrevet en artikel, der handler om, [hvordan muskler vokser]({% link _posts/2019-10-22-hvordan-vokser-muskler.md %}), som giver nogle praktiske anvisninger på, hvordan du kan træne for muskeltilvækst.
 

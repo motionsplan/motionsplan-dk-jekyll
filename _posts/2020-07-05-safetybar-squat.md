@@ -43,7 +43,7 @@ Det samme sker ikke med safety squat, så det er lettere at lave mange gentagels
 
 ## Hvordan skal en safety bar se ud?
 
-{% include figure image_path="https://p6r9a9v8.stackpathcdn.com/wp-content/uploads/2017/11/IMG_0396-Edited_opt.jpg" caption="Yoke Safety Bar fra EliteFts" alt="Yoke Safety Bar til Squat fra EliteFts" %}
+{% include figure image_path="https://p6r9a9v8.stackpathcdn.com/wp-content/uploads/2017/11/IMG_0396-Edited_opt.jpg" caption="Yoke Safety Bar fra EliteFts. Kilde: [garagegymlab.com](https://garagegymlab.com/5-safety-squat-bar-benefits/)." alt="Yoke Safety Bar til Squat fra EliteFts" %}
 
 Simon fra [supertraining.dk](http://supertraining.dk/) anbefaler safety bars, men han er ikke så vild med [Charles Poliquins version af safety bar squats](http://supertraining.dk/180-charles-poliquin-master-of-bullshit/).
 
@@ -132,7 +132,7 @@ Både [Nikolaj Bach](https://nikolajbach.dk/safety-bar-squats/), [Simon Bigshoot
 
 Her kan du se forskellige måder, safety baren fra EliteFts kan bruges på.
 
-{% include figure image_path="https://www.elitefts.com/wp/wp-content/uploads/2016/04/ssb3.jpg" caption="Yoke Safety Bar fra EliteFts" alt="Yoke Safety Bar til Squat fra EliteFts" %}
+{% include figure image_path="https://www.elitefts.com/wp/wp-content/uploads/2016/04/ssb3.jpg" caption="Yoke Safety Bar fra EliteFts. Kilde: [www.elitefts.com](https://www.elitefts.com/training-logs/safety-squat-bar-box-squats/)." alt="Yoke Safety Bar til Squat fra EliteFts" %}
 
 [Coop](https://www.garagegymreviews.com/the-best-safety-squat-bar) anbefaler imidlertid også denne safety bar fra Titan. Garagegymreviews.com er uden tvivl et _affiliate_ site, men gennemgangen af de forskellige _safety bars_ er virkelig grundig.
 

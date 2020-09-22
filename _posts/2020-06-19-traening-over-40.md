@@ -64,11 +64,11 @@ Vægten blev gradvist øget i løbet af træningsforløbet. I uge 1-4 var vægte
 
 Biceps blev målt i løbet af træningsforløbet. I starten af forsøget var der ikke den store forskel mellem deltagernes bicepsstørrelse, selvom de ældre forsøgspersoner havde en lidt større biceps. 
 
-{% include figure image_path="/assets/images/blog/lowndes-agetrain-1.png" caption="Sammenligning af forsøgspersonernes tværsnitsareal i biceps var cirka det samme." %}
+{% include figure image_path="/assets/images/blog/lowndes-agetrain-1.png" caption="Sammenligning af forsøgspersonernes tværsnitsareal i biceps var cirka det samme. Fra Lowndes et al (2009)." %}
 
 Efter 12 ugers træning var biceps for alle forsøgspersoner blevet større og stærkere. De yngste havde et større styrkeudbytte, men ændringen i tværsnitsarealet på biceps var faktisk nogenlunde den samme i dette studium.
 
-{% include figure image_path="/assets/images/blog/lowndes-agetrain-2.png" caption="Sammenligning efter forsøgspersonernes styrke og tværsnitsareal efter de 12 ugers træningsforløb." %}
+{% include figure image_path="/assets/images/blog/lowndes-agetrain-2.png" caption="Sammenligning efter forsøgspersonernes styrke og tværsnitsareal efter de 12 ugers træningsforløb. Fra Lowndes et al (2009)" %}
 
 Der var en statistisk signifikant forskel i styrkeudbyttet af de 12 ugers træning, men i resten af parametrene var der ikke signifikant forskel. Fx _isometric maximal voluntary contraction_, som er en test af testpersonens evne til at udvikle kraft isometrisk. 
 

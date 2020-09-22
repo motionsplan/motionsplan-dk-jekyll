@@ -72,7 +72,7 @@ Det er rigtig godt at have en viden om alle disse systemer, hvis du skal planlæ
 
 ### Det indre øre
 
-{% include figure image_path="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Blausen_0329_EarAnatomy_InternalEar.png/495px-Blausen_0329_EarAnatomy_InternalEar.png" caption="I det indre øre sidder det vestibulære system, som består af nogle små buegange, der registrerer hovedets stilling og bevægelse" %}
+{% include figure image_path="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Blausen_0329_EarAnatomy_InternalEar.png/495px-Blausen_0329_EarAnatomy_InternalEar.png" caption="I det indre øre sidder det vestibulære system, som består af nogle små buegange, der registrerer hovedets stilling og bevægelse. Kilde: [Wikipedia](https://en.wikipedia.org/wiki/Inner_ear)." %}
 
 ### Synet
 

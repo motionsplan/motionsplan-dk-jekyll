@@ -108,7 +108,7 @@ Team Danmark anbefaler E-tallerkenmodellen til trænende med moderat til højt a
 
 E-tallerkenmodellen sikrer at der er nok kulhydrat, som er afgørende for folk der træner meget, så de har nok energi til optimal præstationsevne, muskelopbygning og restitutionsevne.
 
-{% include figure image_path="/assets/images/blog/teamdanmark-elitetallerken.png" caption="E-tallerkenmodellen har særligt fokus på de kulhydratrige fødevarer" alt="E-tallerken-model: Elitemodel fra Team Danmark" %}
+{% include figure image_path="/assets/images/blog/teamdanmark-elitetallerken.png" caption="E-tallerkenmodellen har særligt fokus på de kulhydratrige fødevarer. Kilde: [Team Danmark](https://umbraco.teamdanmark.dk/media/1601/kost-og-elitesport-2017.pdf?)" alt="E-tallerken-model: Elitemodel fra Team Danmark" %}
 
 Team Danmark kalder deres tallerkenmodel for **Elitemodel**. På dage med over 1½ - 2 timers træning bør fordelingen på tallerkenen til frokost og aften være følgende:
 

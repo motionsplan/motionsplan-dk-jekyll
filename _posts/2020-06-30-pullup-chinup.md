@@ -78,7 +78,7 @@ Der er mange forskellige variationer af grebet i pullups og chinups, men den sid
 
 - **Neutralt greb** vender håndfladerne mod hinanden.
 
-{% include figure image_path="https://3vnqw32fta3x1ysij926ljs3-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/Nov18_WO_Grip_Chart.jpg" caption="Forskellige grebstyper i kropshævninger" alt="Forskellige grebstyper i kropshævninger - chinups, pullups" %}
+{% include figure image_path="https://3vnqw32fta3x1ysij926ljs3-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/Nov18_WO_Grip_Chart.jpg" caption="Forskellige grebstyper i kropshævninger. Kilde: [experiencelife.com](https://experiencelife.com/article/how-to-get-your-first-pull-up/)" alt="Forskellige grebstyper i kropshævninger - chinups, pullups" %}
 
 ## Forskelle i bevægelsen
 
@@ -119,7 +119,7 @@ Nogle mener at chinups er bedre for at træne trapezius, men det eneste der bety
 
 Lad os kigge på det fra et **anatomisk perspektiv**. Den primære funktion af alle tre dele af trapezius er at lave en retraktion af skulderbladet.
 
-{% include figure image_path="https://i.pinimg.com/originals/cc/36/62/cc3662bde440e1f71d3028f6dbfbd923.jpg" caption="Skulderbladets bevægelser på ryggen" alt="Skulderbladets bevægelser på ryggen" %}
+{% include figure image_path="https://i.pinimg.com/originals/cc/36/62/cc3662bde440e1f71d3028f6dbfbd923.jpg" caption="Skulderbladets bevægelser på ryggen. Kilde: [thebackbone.co.uk](https://thebackbone.co.uk/raise-your-hand-if-you-have-shoulder-or-neck-pain/)" alt="Skulderbladets bevægelser på ryggen" %}
 
 Deruodver laver de øverste fibre i trapezius med _elevation_ af skulderbladet og det nederste fibre hjælper med _depression_ af skulderbladet.
 

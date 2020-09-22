@@ -31,7 +31,9 @@ Intervaltræning kan **føles hårdt** afhængigt af, hvordan de udføres og hvi
 
 Intervaltræning kan også være hårdt ved bentøjet. Hvis du fx laver sprint-intervaller, så vil benene helt sikkert kunne mærkes dagen efter.
 
-{% comment }
+{% comment %}
+
+TJEK MOTION-ONLINE
 
 Men lad os kigge på fordelene ved intervalløb:
 
@@ -62,7 +64,7 @@ Jeg kan som udgangspunkt bedst lide at styre intervaller ud fra tid. Det betyder
 
 En meget populær og effektiv måde at flytte sin maksimale iltoptagelse og løbe omkring den anaerobe tærskel er 1000 meter intervaller med 2 minutters pause. Jeg har imidlertid ofte lavet disse intervaller med mine elever, og nogen af dem løber under 4 minutter pr. kilometer og andre løber helt op mod seks minutter pr. kilometer. Så er det sandsynligt at vi træner noget forskelligt.
 
-{% comment }
+{% comment %}
 
 ## Sammensætningen af intervaller
 
