@@ -25,11 +25,13 @@ Vi tænker også i beregneren at vægtændringer hovedsageligt består af fedtv�
 
 I praksis vil der være store individuelle forskelle på, hvordan folk responderer på en vægtændring med [løbeteknik og løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %}).
 
-**Husk** at beregningen kun er vejledende og vil variere fra person til person. Løbesiden estimerer, at at hastigheden øges med 80% i forhold til den potentielle forbedring ved, at konditionen ændrer sig.
+[Løbesiden.dk](https://loebesiden.dk/beregninger/beregn_vaegt/) estimerer, at at hastigheden **øges med 80% i forhold til den potentielle forbedring ved, at konditionen ændrer sig**.
 
-I beregneren nedenunder kan du indtaste din aktuelle vægt og din aktuelle løbetid. Samtidig indtaster du din vægtændring, og så får du et bud på din nye tid. 
+## Beregn et vægttabs effekt på løbetiden
 
-Du indtaster positive tal, hvis der er tale om vægttab, og hvis du forventer at blive tungere, så skriver du negative tal.
+I beregneren nedenunder kan du indtaste din aktuelle vægt og din aktuelle løbetid. Samtidig indtaster du din vægtændring, og så får du et bud på din nye tid. Det kan give et estimat, hvis tiden kun er afhængig af din kondition, som jo har et vægtkomponent.
+
+Du kan i beregneren selv stille, hvor meget du forventer at løbetiden vil ændre sig.
 
 {% include calculate-weightloss-runningtime.html %}
 

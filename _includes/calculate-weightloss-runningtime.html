@@ -476,17 +476,23 @@
     <fieldset>
         <div class="form-group">
             <label>Nuværende vægt (kg)</label>
-            <input name="weight" id="weight" type="number">
+            <input name="weight" id="weight" type="number" min="30" max="200" placeholder="Nuværende vægt i kg">
         </div>
         <div class="form-group">
             <label>Nuværende løbetid</label>
-            <input name="hours" id="hours" type="number" maxlength="2" class="input-mini" placeholder="timer">
-            <input name="minutes" id="minutes" type="number" maxlength="2" class="input-mini" placeholder="min">
-            <input name="seconds" id="seconds" type="number" maxlength="2" class="input-mini" placeholder="sek">
+            <input name="hours" id="hours" type="number" min="0" max="5" class="input-mini" placeholder="timer">
+            <input name="minutes" id="minutes" type="number" min="0" max="59" class="input-mini" placeholder="min">
+            <input name="seconds" id="seconds" type="number" min="0" max="59" class="input-mini" placeholder="sek">
         </div>
         <div class="form-group">
             <label>Vægtændring (kg)</label>
-            <input name="change" id="change" type="number">
+            <input name="change" id="change" type="number" placeholder="Vægtændring i kg">
+            <p class="help-inline">Du indtaster et negativt tal, hvis der er tale om vægttab, og hvis du forventer at blive tungere, så skriver du positive tal.</p>
+        </div>
+        <div class="form-group">
+            <label>Forventet effekt af vægtændring ift. potentiale (%)</label>
+            <input name="change_effect" id="change_effect" type="number" min="0" max="100" value="80">
+            <p class="help-inline">Hvis du forventer at hele potentialet for din vægtændring skal tælle med, så skriver du 100%. Hvis intet skal tælle med, så skriver du 0%.</p>
         </div>
         <input type="submit" value="Beregn">
     </fieldset>

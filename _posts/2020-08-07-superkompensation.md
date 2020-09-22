@@ -26,7 +26,7 @@ Når du træner og restituerer med en afmålt balance, så kan du være heldig a
 
 I superkompensationen forbereder kroppen sig til næste intensive træningsperiode ved at gøre sig ekstra stærk. Kroppen overkompenserer.
 
-{% include figure image_path="https://cdn.bloggersdelight.dk/wp-content/blogs.dir/254233/files/2019/10/superkompensation.jpg" caption="Superkompensationsteorien" %}
+{% include figure image_path="https://cdn.bloggersdelight.dk/wp-content/blogs.dir/254233/files/2019/10/superkompensation.jpg" caption="Superkompensationsteorien. Kilde: [wisemovement.be](http://wisemovement.be/2016/05/17/superkompensation/)." %}
 
 ## Superkompensationsteorien
 
@@ -69,7 +69,7 @@ Når du planlægger din træning, så kan det altså være hensigtsmæssigt at h
 
 Superkompensationsbegrebet er egentlig en del af teorien om _general adaption syndrome_, som Hans Selye først beskrev.
 
-{% include figure image_path="https://sanescohealth.com/wp-content/uploads/2016/05/General-Adaptation-Syndrome-Stages.jpg" %}
+{% include figure image_path="https://sanescohealth.com/wp-content/uploads/2016/05/General-Adaptation-Syndrome-Stages.jpg" caption="Selyes General Adaption Syndrome. Kilde: Meyers: Exploring Psychology. Ninth Edition." %}
 
 ## Opsamling på superkompensation
 

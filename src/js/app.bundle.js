@@ -725,8 +725,9 @@ $(document).ready(function() {
         var hours = Number($("[name='hours']").val());
         var minutes = Number($("[name='minutes']").val());
         var seconds = Number($("[name='seconds']").val());
+        var change_effect = Number($("[name='change_effect']").val());
 
-        var b = running_weightchange.RunningWeightLoss(weight, weight_change);
+        var b = running_weightchange.RunningWeightLoss(weight, weight_change, change_effect / 100);
 
         $("#result").val(b.getEstimatedFinishTime(hours, minutes, seconds));
         return false;

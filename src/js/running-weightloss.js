@@ -1,10 +1,11 @@
 let motionsplan = {};
 
-motionsplan.RunningWeightLoss = function(weight, loose) {
+motionsplan.RunningWeightLoss = function(weight, weight_change, effect = 0.8) {
   weight = weight;
-  loose = loose * -1;
-  // løbetid * (startvægt - vægttab * 0.8) / startvægt;
+  weight_change = weight_change * -1;
+  effect = effect;
 
+  // løbetid * (startvægt - vægttab * 0.8) / startvægt;
   function getEstimatedFinishTime(hours, minutes, seconds) {
     var h1 = hours;
     var m1 = minutes;
@@ -18,7 +19,7 @@ motionsplan.RunningWeightLoss = function(weight, loose) {
     if (s1 == '') { s1 = 0; }
 
     var time1 = parseInt(h1 * 3600) + parseInt(m1 * 60) + parseInt(s1 * 1);
-    var output1 = time1 * (weight - loose * 0.8) / weight;
+    var output1 = time1 * (weight - weight_change * effect) / weight;
 
     var h_out = Math.floor(output1 / 3600);
     var m_out = Math.floor((output1 - h_out * 3600) / 60);
