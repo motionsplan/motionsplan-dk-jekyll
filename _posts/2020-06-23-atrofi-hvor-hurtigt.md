@@ -1,11 +1,11 @@
 ---
-title: "Hvor hurtigt forsvinder muskler, muskelmasse og muskelstyrke?"
+title: &title "Hvor hurtigt forsvinder muskler, muskelmasse og muskelstyrke?"
 permalink: /atrofi-muskelmasse-muskelstyrke/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1519156062512-8e563047dc6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1902&q=80
   teaser: https://images.unsplash.com/photo-1519156062512-8e563047dc6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
-  caption: Photo by Jakob Owens on Unsplash
+  caption: *title
 category:
   - Viden om
 tags:
@@ -89,13 +89,17 @@ Taaffe og Marcus (1997) lod deltagerne styrketræne i 24 uger. Deltagerne fik et
 
 [Løvind et al (2008, ej publiceret)](http://web.archive.org/web/20110606174913/http://www.motion-online.dk/styrketraening/styrke_-_artikler/nye_forskningsresultater:_hypertrofi_og_atrofi_-_saa_hurtigt_gaar_det/){:rel="nofollow"} undersøgte hvor hurtigt detræningsfasen går i forhold til muskelstørrelse og opdelt på muskelfibertyper. 13 utrænede unge mænd udførte først progressiv tung styrketræning tre gange om ugen i tre måneder. Dernæst var der en detræningsperiode på 90 dage.
 
-I hele perioden tog forskerne muskelbiopsier og undersøgte tværsnitsarealet af de enkelt fibre for at se graden af hypertrofi og atrofi i perioden. Gennem træningsperioden var der en forøgelse på tværsnittet på 25% efter tre måneders træning. Hovedparten af væksten var i de hurtige type II-fibre.
+I hele perioden tog forskerne muskelbiopsier og undersøgte tværsnitsarealet af de enkelte fibre for at se graden af hypertrofi og atrofi i perioden. Gennem træningsperioden var der en forøgelse på tværsnittet på 25% efter tre måneders træning. Hovedparten af væksten var i de hurtige type II-fibre.
 
-Allerede efter 10 dages detræning var der signifikant fald i tværsnitsarealet til type II-fibre. Der sker et yderligere markant fald hen mod dag 120, hvorefter det ser ud til at type II-fibrene stabiliserer sig størrelsesmæssigt på et niveau, der nogenlunde svarer til før træningsinterventionen. For type I fibrene glider de også langsomt tilbage til udgangsværdien.
+Allerede efter 10 dages detræning var der signifikant fald i tværsnitsarealet i type II-fibrene. Der sker et yderligere markant fald hen mod dag 120, hvorefter det ser ud til at type II-fibrene stabiliserer sig størrelsesmæssigt på et niveau, der nogenlunde svarer til før træningsinterventionen. For type I fibrene glider de også langsomt tilbage til udgangsværdien.
 
-Et relativt kort ophold (mindre end 14 dage) i styrketræningen vil medføre et betydeligt tab i muskelvolumen, men også at en yderligere pause betyder yderligere tab af muskelvolumen, men ikke i nær så høj grad som det ses i de første uger. Jespersen et al (2011) og McMahon (2014) konkluderer også, at muskeltab vil ske indenfor 2 uger, men Ochi et al (2018) viser, at muskeltab først sker efter 3-6 uger.
+Et relativt kort ophold (mindre end 14 dage) i styrketræningen medfører altså tilsyneladende et betydeligt tab i muskelvolumen, men efter en yderligere pause kommer der yderligere tab af muskelvolumen, men ikke i nær så høj grad som i de første uger. Jespersen et al (2011) og McMahon (2014) konkluderer også, at muskeltab vil ske indenfor 2 uger, men Ochi et al (2018) viser, at muskeltab først sker efter 3-6 uger.
 
-Løvind et al (2008, ej publiceret) konkluderer lidt skarpt, at hvis man holder 14 dages træningsfri, er det sandsynligt, at man lige så godt kan tage 30-45 dage uden at den længere pause forstærker atrofien voldsomt. Nu er der meget der tyder på at et enkelt træningspas med ganske lange intervaller (6-8 dage) sagtens kan hold fiberstørrelsen oppe i en længere periode (flere måneder), inden der igen skal sættes ind med en ny intensiv periode (data fra andre forsøg). 
+Løvind et al (2008, ej publiceret) konkluderer lidt skarpt, at hvis man holder 14 dages træningsfri, er det sandsynligt, at man lige så godt kan tage 30-45 dage uden at den længere pause forstærker atrofien voldsomt.
+
+> Nu er der meget der tyder på at et enkelt træningspas med ganske lange intervaller (6-8 dage) sagtens kan opretholde fiberstørrelsen i en længere periode (flere måneder), inden der igen skal sættes ind med en ny intensiv periode. 
+
+--- <cite>[Løvind et al (2008, ej publiceret)](http://web.archive.org/web/20110606174913/http://www.motion-online.dk/styrketraening/styrke_-_artikler/nye_forskningsresultater:_hypertrofi_og_atrofi_-_saa_hurtigt_gaar_det/){:rel="nofollow"}</cite>
 
 Type II-fibre er altså både de mest vækstvillig, men de er også ivrige efter at skrumpe igen, hvis ikke længere de får et eksternt stimulus. 
 
