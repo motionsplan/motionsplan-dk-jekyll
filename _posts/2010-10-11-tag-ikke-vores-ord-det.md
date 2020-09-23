@@ -3,6 +3,7 @@ title: &title "Hvordan finder jeg og læser en videnskabelig artikel?"
 permalink: /videnskabelig-sogning/
 redirect_from:
   - /artikel/tag-ikke-vores-ord-det
+  - /artikel/hvordan-kan-du-laese-en-videnskabelig-artikel/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1581093588401-fbb62a02f120?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80
@@ -21,9 +22,31 @@ Der er ikke så meget tilgængelig viden om at [læse og forstå en videnskablig
 
 ## Hvordan finder vi videnskabelige artikler?
 
-Hvis et emne interesserer os, laver vi en søgning på fx [pubmed.org](http://pubmed.org) ([hvordan søger vi - og hvordan læser vi artiklerne?](https://web.archive.org/web/20160406123230/http://www.motion-online.dk/sundhed_og_vaegt/sundhed_generelt/saadan_soeger_du_selv_videnskabelige_artikler/){:rel="nofollow"}). 
+Hvis et emne interesserer os, laver vi en søgning på fx [pubmed.org](http://pubmed.org) efter emnet. Vi bruger gerne lidt forskellige søgninger og synonymer. Hvis du er forsker, så skal du kunne dokumentere, hvordan du har lavet søgningen.
 
-Hvis artiklen efter at have læst _abstract_ ser spændende ud, læser vi videre, mens vi vurderer følgende:
+Jeg læser naturligvis titlen og _abstractet_ for at se om artiklen ser spændende ud. Hvis den gør det, så går jeg i gang med at vurdere, hvilke resultater studiet giv - og hvor solidt studiet er opbygget.
+
+Der er virkelig meget viden om træning. Noget er der videnskabeligt belæg på, mens andre ikke helt er blevet undersøgt. Hvis du gerne vil være klogere, så kan det være interessant at dykke ned i de videnskabelige artikler.
+
+## Hvordan er en videnskablig artikel opbygget?
+
+En videnskabelig artikel har næsten altid denne opbygning.
+
+- Titel.
+- Abstract.
+- Introduktion.
+- Metode.
+- Resultater.
+- Diskussion.
+- Konklusion.
+
+## Hvordan læser du en videnskabelig artikel?
+
+- **Titel**. Det første du læser er naturligvis titlen.
+- **Sidste linjer i abstractet**. Jeg skimmer abstractet, men fokuserer lidt mere på de sidste par linjer for at få en fornemmelse af konklusionen i artiklen.
+- **Konklusion**. Derefter springer jeg til det allersidste afsnit i den videnskabelige artikel for at læse lidt mere uddybende om konklusionen. Afsnittet starter næsten altid med "In summary..." eller "In conclusion..."
+- **Abstractet**. Herefter kan du læse hele abstractet lidt mere grundigt for at få et indblik i metoder og resultater.
+- Hvis du stadig synes artiklen og stuidet ser spændendeus, så kan du læse hele artiklen.
 
 ## Hvordan vurderer vi de videnskabelige artikler?
 

@@ -45,33 +45,35 @@ I forbindelse med træning og vægttab kan det være motiverende at følge ændr
 
 En måde at estimere sin fedtprocent på er ved hjælp af en fedttang, som man kan bruge til at lave en hudfoldsmåling med.
 
-{% comment %}
-
 ## Om fedttangen
 
-Målingerne med fedttangen skal naturligvis være til at stole på, så derfor skal fedttangen overholde nogle bestemte standarder mht. hvor hårdt den klemmer, og hvordan enderne af tangen ser ud. En professionel fedttang (_skinfold caliper_) koster flere tusinde kroner, men mange steder på nettet kan man købe [billigere fedttænger der er næsten ligeså gode](https://www.motion-online.dk/test-200-krs-fedttang/){:rel="nofollow"}.
+Målingerne med fedttangen skal naturligvis være til at stole på, så derfor skal:
+
+> en fedttang overholde nogle bestemte standarder mht. hvor hårdt den klemmer, og hvordan enderne af tangen ser ud. En professionel fedttang (_skinfold caliper_) koster flere tusinde kroner, men mange steder på nettet kan man købe billigere fedttænger der er næsten ligeså gode.
 
 --- <cite>[Morten Zacho](http://web.archive.org/web/20110606141757/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/maal_din_fedtprocent_med_en_fedttang_-_valg_af_formel/){:rel="nofollow"}</cite>
 
-{% endcomment %}
+En fedttang eller hudfoldsmåler ser sådan her ud:
 
 {% include feature_row type="left" %}
 
-{% comment %}
-
 ## Generelt om om måling af hudfoldstykkelse med fedttang
 
-Måling med fedttang er relativt udbredt, og alle kan lære at bruge en fedttang. Du måler det eksterne fedt ved med to fingre at samle en hudfold og måle, hvor tyk hudfolden er. Målingerne bliver lagt ind i matematiske formler, som så estimerer fedtprocenten i hele kroppen.
+Måling med fedttang er relativt udbredt, og alle kan lære at bruge en fedttang. At måle fedtprocent med hudfoldstykkelser er imidlertid også grænseoverskridende for den, der bliver målt på.
 
-Man skal få en hjælper til at lave målingerne, og det skal (helst) være den samme person, der laver målingerne hver gang, hvis man skal kunne følge en udvikling i sin kropskomposition. 
+Som professionel skal man virkelig overveje, hvad man gerne vil bruge resultaterne fra hudfoldsmålingen til, og om det er nødvendigt.
 
-Brug tommel- og pegefinger til at trække en hudfold ud. Klem ikke hårdere end nødvendigt. Lav målingen en cm ved siden af fingrene, der har fat i hudfolden. Lav aflæsningen af tangen indenfor 3 sekunder, så tangen ikke når at komprimere huden for meget.
+## Hvordan måler jeg hudfoldstykkelsen?
+
+Du måler det eksterne fedt ved med to fingre at samle en hudfold og med et instrument at måle, hvor tyk hudfolden er. Hudfoldsmålingerne kan lægges ind i matematiske formler, som bruges til at estimere fedtprocenten i hele kroppen.
+
+Du skal helst have en hjælper til at lave målingerne. Hvis du gerne vil have de mest pålidelige målinger, så skal det (helst) være den samme person, der laver målingerne hver gang.
+
+Du skal bruge tommel- og pegefinger til at trække hudfolden ud på de steder de forskellige tests angiver. Når du har fat i hudfolden sætter du hudfoldsmåleren på cirka 1 cm ved siden af fingrene. Nu skal du aflæse tykkelsen af hudfolden på tangen inden et par sekunder, så tangen ikke når at komprimere huden, eller det bliver ubehageligt for personen, der bliver testet.
 
 ## Hvor præcis er måling af fedtprocent med fedttang
 
 En fedttang kan ikke give dig en eksakt måling af din fedtprocent ved at måle hudfoldstykkelserne. Fordelen ved fedttangen er nøjagtigheden fra måling til måling. Hvis du måler hudfoldstykkelsen gentagne gange eller over flere dage i træk, så vil de enkelte målinger være tæt på identiske (hvis vi antager at kropskompositionen og fedtprocenten ikke har ændret sig).
-
-{% endcomment %}
 
 ## Skal jeg estimere fedtprocenten med hudfoldsmålinger?
 
@@ -85,11 +87,7 @@ Hvis du gerne vil tracke din kropskomposition over tid, så giver det formentlig
 
 Der er mange forskellige formler, som kan bruges til _skinfold_-målinger. Vi har valgt de mest brugte ud nedenfor og lavet beregnere og instruktioner til de enkelte metoder.
 
-{% comment %}
-
-Jeg foretrækker selv [Durnin & Womersley 4-punkts måling af fedtprocent](/skinfold-durnin-womersley/), fordi den er ens til mænd og kvinder og fordi formlen er lavet med udgangspunkt i almindelige mennesker.
-
-{% endcomment %}
+Jeg foretrækker selv at bruge [Durnin & Womersley 4-punkts måling af fedtprocent](/skinfold-durnin-womersley/), hvis jeg laver hudfoldsmålinger, fordi formlen er ens for mænd og kvinder, og fordi formlen er lavet med udgangspunkt i almindelige mennesker.
 
 Alle de følgende måder at lave hudfoldsmålinger på kræver en pålidelig fedttang til at lave målinger for at estimere fedtprocenten.
 
