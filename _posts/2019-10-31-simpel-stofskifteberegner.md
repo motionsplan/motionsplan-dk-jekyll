@@ -21,17 +21,24 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://bogreolen.dk/exercise-physiology_bs_9781451193831"
     btn_label: "Læs mere"
     btn_class: "btn--success"
+  - image_path: https://imgcdn.saxo.com/_9788762813762/0x500
+    alt: "Menneskets ernæring"
+    title: "Menneskets ernæring"
+    excerpt: "Den tværfaglige lærebog _Menneskets ernæring_ beskriver sammenhængen mellem de fysiologiske og biologiske processer, der er nødvendige for opretholdelse af liv. "
+    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/menneskets-ernaering_arne-astrup_indbundet_9788762813762"
+    btn_label: "Læs mere"
+    btn_class: "btn--success"
 ---
 
 Jeg har lavet en BMR-beregner, hvor du kan udregne dit stofskifte og dit daglige energiforbrug på baggrund af dit hvilestofskifte og fysiske aktivitetsniveau. Jeg synes det er interessant at udregne, hvad mit basalstofskifte er i forhold min fysiske aktivitet for at se, hvad mit omtrentlige daglige energibehov er.
 
 Hvad er stofskiftet? **Stofskiftet består af 3 hovedkomponenter: hvilestofskiftet (BMR), fødeinduceret termogenese (FIT) og fysisk aktivitet (PAL).**
 
-Hvad er hvilestofskiftet og basalstofskiftet? **Kroppens hvilestofskifte kaldes også basalstofskiftet - eller på engelsk _basal metabolic rate (BMR)_ er normalt den største komponent i kroppens samlede stofskifte. Hvilestofskiftet ser en nogenlunde konstant størrelse. Normalt udgør hvilestofskiftet omkring 50-70% af den totale forbrænding. BMR er, hvad kroppen bruger af energi i fysisk og psykisk hvile.**
+Hvad er hvilestofskiftet og basalstofskiftet? **Kroppens hvilestofskifte kaldes også basalstofskiftet - eller på engelsk _basal metabolic rate (BMR)_. Hvilestofskiftet er den største del i kroppens samlede stofskifte. Hvilestofskiftet er en nogenlunde konstant størrelse. Normalt udgør hvilestofskiftet omkring 50-70% af den totale forbrænding. BMR er, hvad kroppen bruger af energi i fysisk og psykisk hvile.**
 
-Hvad er fødeinduceret termogenese? **FIT er den energi, kroppen bruger i forbindelse med et måltid (indtagelse, absorption, transport, forbrænding og lagring). Det er normalt omkring 10% af den indtagne energi. Energiomsætningen er øget i 3-12 timer afhængigt af måltidets energiindhold og sammensætning.**
+Hvad er fødeinduceret termogenese? **Fødeinduceret termogenese (FIT) er den energi, kroppen bruger i forbindelse med et måltid. Det er normalt omkring 10% af den indtagne energi. Energiomsætningen er øget i 3-12 timer afhængigt af måltidets energiindhold og sammensætning.**
 
-Hvad er fysisk aktivitet (PAL)? **Fysisk aktivitet er den komponent, som varierer mest, både mellem mennesker og individuelt. Det er normalt omkring 20-40% af den totale forbrænding. Niveuet for fysisk aktivitet afhænger af ens aktivitet gennem hele dagen. Ligeledes afhænger energiforbruget brugt på fysisk aktivitet af kropsvægten, da det kræver mere energi at flytte en større vægt.**
+Hvad er fysisk aktivitet (PAL)? **Fysisk aktivitet er den del af stofskiftet, som varierer mest. Den fysiske aktivitet er normalt omkring 20-40% af den totale forbrænding. Niveuuet for fysisk aktivitet afhænger af ens aktivitet gennem hele dagen. Energiforbruget brugt på fysisk aktivitet afhænger også af kropsvægten, da det kræver mere energi at flytte en højere vægt.**
 
 Jeg har lavet en anden [beregner af hvilestofskiftet, som tager udgangspunkt i _Nordic Nutrition Reccommandations 2012_]({% link _posts/2020-09-01-stofskifte-nordic-2012.md %}). Jeg har også lavet en [avanceret beregner af dit daglige energibehov, hvor den fysiske aktivitet bliver angivet lidt mere præcist]({% link _posts/2019-10-31-avanceret-stofskifteberegner.md %}). Endelig har jeg lavet en [beregner af ligevægtsindtaget]({% link _posts/2019-10-31-ligevaegtsberegner.md %}).
 
@@ -82,11 +89,13 @@ Eksempel: en kvinde på 23 år som vejer 62 kg. har derfor et BMR på: BMR = 61,
 
 ## Hvordan måles hvilestofskiftet og basal metabolic rate (BMR)?
 
-Hvilestofskiftet måles normalt efter 12-18 timers faste med personen i hvile og liggende i et tempereret lokale. Rent praktisk foregår dette om morgenen efter mindst 12 timer uden mad og stimulanser og inden nogen nævneværdig fysisk og psykisk aktivitet.
-
-Hård aktivitet dagen inden kan også påvirke BMR, og bør derfor undgås. Dette betegnes EPOC og omtales under ”fysisk aktivitet”.
+Hvilestofskiftet måles ifølge [Allan Stubbe: Stofskiftet](http://www.motion-online.dk/sundhed_og_vaegt/sundhed_generelt/stofskiftet/){:rel="nofollow"} normalt efter 12-18 timers faste med personen i hvile og liggende i et tempereret lokale. Rent praktisk foregår testen om morgenen efter mindst 12 timer uden mad og stimulanser og uden nogen nævneværdig aktivitet - både fysisk og psykisk.
 
 De færreste har adgang til en facilitet, hvor man kan få målt sit basalstofskifte. Derfor kan man i stedet udregne BMR og lave en beregning af sit energiforbrug.
+
+{% comment %}
+
+Hård aktivitet dagen inden kan også påvirke BMR, og bør derfor undgås. Dette betegnes EPOC og omtales under ”fysisk aktivitet”.
 
 ## Hvilke faktorer har betydning for hvilestofskiftet?
 
@@ -122,6 +131,8 @@ Der findes mange tabeller, som estimerer energiforbruget ved forskellige fysiske
 
 Hård fysisk aktivitet medfører, at ens stofskifte er forhøjet 12-24 timer efter aktiviteten. Dette betegnes ”Excess Post-exercise Oxygen Consumption” (EPOC). For at EPOC har nogen betydning i dagens samlede energiomsætning kræves mindst 60-65% VO2max i længere tid.
 
+{% endcomment %}
+
 ### Fysisk aktivitetsniveau i forhold til hvilestofskiftet (PAL)
 
 | Aktivitetsniveau	                                                                                                  | PAL     |
@@ -144,7 +155,7 @@ Jeg har lavet en side, hvor du kan se på [MET-værdier for forskellige fysiske 
 
 Denne udregning af stofskiftet tager udgangspunkt i _Nordiska Næringsrekommendationer 1996_.
 
-I [Menneskets Ernæring](https://www.saxo.com/dk/menneskets-ernaering_arne-astrup_haeftet_9788762813762) af bl.a. Arne Astrup angiver de følgende formler til at udregne basalstofskiftet eller hvilestofskiftet.
+I [Menneskets Ernæring](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/menneskets-ernaering_arne-astrup_haeftet_9788762813762){:rel="nofollow"} af bl.a. Arne Astrup angiver de følgende formler til at udregne basalstofskiftet eller hvilestofskiftet.
 
 - Basalstofskifte (MJ/døgn) = 0,09 * FFM (kg) + 1,55
 
@@ -180,3 +191,4 @@ Jeg har også lavet en [avanceret beregner af dit daglige energibehov, hvor den 
 - Exercise Physiology, McArdle, Katch & Katch, 5th ed
 - WHO Obesity Guidelines, 2000 - Technical Report Series 894
 - Schofield, W. N. 1985. “Predicting Basal Metabolic Rate, New Standards and Review of Previous Work”. Human Nutrition. Clinical Nutrition 39 Suppl 1: 5–41.
+- [Allan Stubbe: Stofskiftet](http://www.motion-online.dk/sundhed_og_vaegt/sundhed_generelt/stofskiftet/){:rel="nofollow"}

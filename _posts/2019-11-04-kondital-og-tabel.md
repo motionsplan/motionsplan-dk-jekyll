@@ -33,7 +33,7 @@ Hvad er konditallet? **Konditallet fortæller, hvor meget ilt kroppen kan transp
 
 For at beregne dit kondital skal du kende din krops **maksimale iltoptagelse** og derefter divididerer du med din kropsvægt.
 
-Jeg har samlet en [forskellige tests og metoder til at finde dit kondital](/kondition-og-test/). Der står også lidt om, hvad du skal være opmærksom på, når du vil måle sit kondital.
+Jeg har samlet en [forskellige tests og metoder til at finde dit kondital]{% link _posts/2019-11-04-kondition-og-test.md %}). Der står også lidt om, hvad du skal være opmærksom på, når du vil måle sit kondital.
 
 ## Hvad er et godt kondital?
 
