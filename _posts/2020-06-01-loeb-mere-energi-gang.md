@@ -98,11 +98,15 @@ Hvis du går rigtig hurtigt, er det ganske enkelt mere effektivt at løbe.
 
 ## Hvor mange kalorier forbrænder man ved løb?
 
+> During horizontal running, the net energy expenditure per kilogram of body mass per kilometer traveleled averages 1 kcal or 1 kcal*kg<sup>-1</sup>*km<sup>-1</sup>.
+
+--- <cite>McArdle (2010)</cite>
+
 Kropsvægt kan også ved løb nogenlunde forudsige energiforbruget, når du løber på en jævn overflade. Du forbrænder omkring din egen vægt i kcal pr. km.
 
 Regnestykket for en løber bliver således relativt enkelt. Jeg vejer 80 kg, og jeg bruger altså 80 kcal på at løbe en km.
 
-Forbrænding af en liter ilt svarer til omkring 5 kcal, så jeg bruger 16 liter O<sub>2</sub> per kilometer.
+Forbrænding af en liter ilt svarer til omkring 5 kcal (McArdle 2010), så jeg bruger 16 liter O<sub>2</sub> per kilometer.
 
 ## Bruger man lige meget energi ved løb og gang?
 
