@@ -8,6 +8,7 @@ describe('Estimate1RM', function() {
       var rm = motionsplan.Estimate1RM(100, 5);
       assert.equal(rm.getBrzycki(), 112.5);
       assert.equal(rm.getBrzycki(2).toFixed(1), 109.4);
+      assert.equal(rm.getBrzycki(10).toFixed(1), 84.4);
     });
   });
   describe('getMayhew', function() {

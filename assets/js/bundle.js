@@ -822,6 +822,7 @@ $(document).ready(function() {
         $("[name='fatpercent']").val(skinfold_slaughter.getBodyFatpercent());
         return false;
     });
+    /*
     // Calculate Fat Percent Measurements
     $("#calculator_fat_percent_mu26").submit(function() {
         console.log("Calculate Fat Percent on Measurements");
@@ -863,6 +864,7 @@ $(document).ready(function() {
         ));
         return false;
     });
+    */
     // Calculate VO2 from HR
     $("#calculate_fitness_level_hr").submit(function() {
         console.log("Calculate VO2 from HR");
