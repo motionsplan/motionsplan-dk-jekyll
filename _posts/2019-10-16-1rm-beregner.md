@@ -133,7 +133,7 @@ Epleys og Brzycki formler giver lignende resultater for 10RM, men ved færre end
 
 Det er tydeligt, at formlerne vil estimere forskellige RM-vægte forskelligt alt efter, hvor mange gentagelser man tager. Fælles for alle formlerne er, at de er bedst til at forudsige RM-vægte, der ligger tæt på den testede vægt.
 
-{% include figure image_path="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/One-repetition_maximum_chart.svg/780px-One-repetition_maximum_chart.svg.png" caption="Sammenligning af de forskellige RM-formler. Det er tydeligt at de begynder at adskille sig meget efter 10 reps. Det er tilrådeligt at holde sig under 10 reps, når du estimerer din 1RM" alt="Sammenligning af formler til udregning og beregning af 1RM" %}
+{% include figure image_path="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/One-repetition_maximum_chart.svg/780px-One-repetition_maximum_chart.svg.png" caption="Sammenligning af de forskellige RM-formler. Det er tydeligt at de begynder at adskille sig meget efter 10 reps. Det er tilrådeligt at holde sig under 10 reps, når du estimerer din 1RM" alt="Sammenligning af formler til udregning og beregning af 1RM. Kilde: [Wikipedia](https://en.wikipedia.org/wiki/One-repetition_maximum)." %}
 
 ## Forbehold med RM-baserede træningsprogrammer
 
