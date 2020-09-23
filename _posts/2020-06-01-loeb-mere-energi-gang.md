@@ -28,7 +28,7 @@ Så lad os kigge på, hvordan det i virkeligheden hænger sammen med energiforbr
 
 Hvilestofskiftet er den energiomsætning, man altid har. Det betyder naturligvis, at hvilestofskiftet både er der, når vi løber, og når vi går. Selve energiforbruget under aktiviteten skal lægges oven i hvilestofskiftet for at få det samlede energiforbrug ved aktiviteten.
 
-Det får [Morten Zacho](http://web.archive.org/web/20150120003941/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/du_forbraender_flere_kalorier_ved_at_loebe_end_ved_at_gaa/){:rel="nofollow"} at skrive:
+Det får [Morten Zacho](http://web.archive.org/web/20150120003941/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/du_forbraender_flere_kalorier_ved_at_loebe_end_ved_at_gaa/){:rel="nofollow"} til at skrive:
 
 > Hvis vi skal sammenligne forbrændingen ved at gå og løbe, så er det mest rimeligt at svare ud fra hvor meget ekstra man forbrænder ved enten at gøre det ene eller det andet. Hvileforbrændingen ville man jo have haft under alle omstændigheder.
 
@@ -152,11 +152,11 @@ Når det er dyrere at løbe, skyldes det primært at løb er karakteriseret ved 
 
 ## Løb har højere efterforbrænding end gang
 
-Løb har også en højere efterforbrænding end gang (eller med et fagord _excess post-exercise oxygen consumption_ (EPOC)). Din krop vil blive ved at forbrænde energi, indtil den er nået helt ned i hvilestatus. 
+Løb har også en højere efterforbrænding end gang (eller med et fagord _excess post-exercise oxygen consumption_ (EPOC)). Din krop vil blive ved at forbrænde energi, indtil den er nået helt ned i hvilestatus efter løbeturen.
 
 Efterforbrændingen for løb kan være helt op til fem minutter længere end ved gang, og hvis intensiteten er rigtig høj, så kan man føle efterforbrændingen længe efter. 
 
-Det sker fordi kroppen kræver energi til at restituere. 
+Det sker, fordi kroppen kræver energi til at restituere. 
 
 > “The greater the intensity and volume, the more calories will be burned after the exercise is completed.” 
 
