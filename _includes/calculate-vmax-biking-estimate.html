@@ -1,25 +1,16 @@
-<form class="calculator" id="calculator_fatpercent_ymca">
-    <fieldset>
-        <legend>Beregning af V<sub>max</sub> baseret på iltoptagelsen.</legend>
-        <p>Jeg har ikke kunnet finde en <em>open source</em> formel, som kan bruges til at lave denne beregner, så jeg leder lige i forskellige ressourcer lige nu.</p>
-        <p>Hvis du vil hjælpe med en formel, så er det meget velkomment.</p>
-    </fieldset>
-</form>
-{% comment %}
 <form class="calculator" id="calculator_vmax_bike_vmax">
     <fieldset>
         <legend>Beregning af V<sub>max</sub></legend>
         <div class="form-group">
-            <label>Maksimal iltoptagelse (ml/min)</label>
-            <input type="number" min="1000" name="Maxvo2" placeholder="Iltoptagelse i ml, fx 4000" step="0.1">
+            <label for="vo2max">Maksimal iltoptagelse (ml/min)</label>
+            <input type="number" min="1000" name="vo2max" id="vo2max" placeholder="Iltoptagelse i ml, fx 4000">
         </div>
         <input type="submit" value="Beregn">
     </fieldset>
     <fieldset class="results">
         <div class="form-group">
-            <label>V<sub>max</sub> (watt)</label>
-            <input type="text" name="Vmax" disabled="disabled">
+            <label for="vmax">V<sub>max</sub> (watt)</label>
+            <input type="text" name="vmax" id="vmax" disabled="disabled">
         </div>
     </fieldset>
 </form>
-{% endcomment %}

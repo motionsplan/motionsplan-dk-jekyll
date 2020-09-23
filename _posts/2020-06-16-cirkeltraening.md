@@ -21,15 +21,11 @@ toc: true
 
 Jeg kan godt lide at organisere min træning som cirkeltræning eller som det hedder på _circuit træning_. Jeg har kigget lidt på, hvad cirkeltræning er, hvordan du kan skrue dit cirkeltræningsprogram sammen, og hvilke øvelser du kan bruge i din cirkeltræning?
 
-**Cirkeltræning er en klassisk måde at strukturere din træning på, hvor du på begrænset tid kan opnå stor effekt på både styrke, kondition og sundhed. Cirkeltræning indebærer, at du vælger en række øvelser, som du udfører på skift, hvorefter du starter forfra på cirklen.**
+Hvad er cirkeltræning? **Cirkeltræning er en effektiv måde at strukturere din træning på. I cirkeltræning vælger du typisk 3-12 øvelser, som du udfører på skift enten efter tid eller antal gentagelser. Når du har færdiggjort en øvelse, går du videre til næste øvelse indtil, du har været hele cirklen rundt. Mange laver cirkeltræning i flere end en runde.**
 
-{% comment %}
+Cirkeltræning bliver mere og mere populært. Faktisk er der en del kæder, fx Loop og Fitness World, der har koncepter, der er baseret på cirkeltræning. Cirkeltræning er nemlig både tidseffektivt og konceptet er også let at forstå.
 
-TJEK MOTION-ONLNE
-
-Cirkeltræning bliver mere og mere populært. Faktisk er der en del kæder, fx Loop og Fitness World, der har koncepter, der er baseret på cirkeltræning. Cirkeltræning er nemlig både tidseffektiv, men konceptet er også let at forstå. 
-
-Du kan selv vælge, hvad du propper i et cirkeltræningsprogram. Du kan have styrke-, kondition-, balance-, koordination- og smidighedsøvelser. Du kan bruge redskaber, eller du kan nøjes med din kropsvægt. Der er faktisk ingen begrænsninger for din opfindsomhed, når du skal skrue din cirkeltræning sammen.
+Du kan selv vælge, hvordan du udformer dit cirkeltræningsprogram. Du kan have styrke-, kondition-, balance-, koordination- og smidighedsøvelser. Du kan bruge redskaber, eller du kan nøjes med din kropsvægt. Der er faktisk ingen begrænsninger for din opfindsomhed, når du skal sammensætte din cirkeltræning.
 
 **Vores øvelseskatalog er perfekt til cirkeltræning**, da PDF-udskriften af alle øvelserne har forberedt et sted, hvor du kan skrive nummer på øvelsen, så man ved, hvilken rækkefølge øvelserne skal laves i.
 {: .notice .notice--info }
@@ -50,15 +46,13 @@ Du gør følgende for at planlægge din cirkeltræning:
 
 Lad os tage et simpelt eksempel på denne fremgangsmåde at planlægge dit cirkeltræningsprogram.
 
-- 30 s arbejde og 15 s pause
-- 6 stationer
-- 4 omgange
+- 30s arbejde og 15s pause
+- 6-8 forskellige øvelser
+- 3-4 omgange
 
-Programmet vil altså tage 18 minutter at gennemføre, hvis ikke jeg holder en ekstra pause midtvejs. 
+Når jeg bruger cirkeltræning i min undervisning, så plejer jeg altid at lade den første runde være en introduktion til programmet, organisationen og øvelserne. På den måde lærer alle øvelserne rigtig godt at kende. På de følgende runder kører jeg i et passende tempo alt efter målet med træningen.
 
-Jeg plejer altid at lade den første runde være en introduktion til programmet, så jeg lærer øvelserne rigtigt at kende. På de følgende runder kører jeg i maksimalt tempo. 
-
-Du skal naturligvis varme op først og nedvarme lidt bagefter, men træningen kan stadig holdes på en relativt kort tid. Jeg kan ofte godt lide at træne lidt længere, men så laver jeg typisk opvarmningen længere, så jeg kan øve mig på noget, jeg gerne vil være bedre til. 
+Du skal naturligvis varme op først og nedvarme bagefter, men den samlede cirkeltræning kan holdes på en relativt kort tid. Jeg kan ofte godt lide at træne lidt længere, men så laver jeg typisk opvarmningen længere, så jeg kan øve mig på noget, jeg gerne vil være bedre til. 
 
 Her på motionsplan.dk kan du finde et hav af [forskellige øvelser]({% link _pages/activities-archive.md %}) lige til at printe ud. Tænk lidt over hvad dit formål er. Hvis det primært er at få pulsen op og arbejde hårdt, så vælg en masse helkropsøvelser, hvor du aktiverer en stor del af din muskelmasse.
 
@@ -76,17 +70,17 @@ Mulighederne er uendelige. Du kan vælge andre kategorier eller du kan vælge fo
 
 ## Intervallerne i cirkeltræningsprogrammet
 
-Ofte er arbejdstiden i et cirkeltræningsprogram dobbelt så lang som pausen. Fx 30/15, 40/20 eller 60/30.
+Ofte er arbejdstiden i et cirkeltræningsprogram ifølge [Morten Zacho](http://web.archive.org/web/20150403151005/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/cirkeltraening/){:rel="nofollow"} dobbelt så lang som pausen. Fx 30/15, 40/20 eller 60/30.
 
 Hvis jeg har høj variation i øvelserne, så kan jeg godt arbejde med mindre pause.
 
-Hvis jeg gerne vil arbejde med andre energisystemer, så kan jeg køre uden pause et stykke tid, men veksle mellem øvelserne, og så holde en pause efter en hel runde. 
+Hvis jeg gerne vil arbejde med andre energisystemer, så kan jeg køre uden pause et stykke tid, men veksle mellem øvelserne, og så holde en pause efter en hel runde.
 
 Du kan også have valgt ekstremt hårde øvelser, hvor arbejdstid og pausetid med fordel kan være i forholdet 1:1.
 
 ## Valg af øvelser til cirkeltræning
 
-Et princip for cirkeltræningen kan være at skifte mellem kredsløbsøvelser og styrkeøvelser, men der er faktisk ingen grænser for, hvordan du kan skrue det sammen.
+Et princip for cirkeltræningen kan være at skifte mellem kredsløbsøvelser og styrkeøvelser, men der er faktisk ingen grænser for, hvordan du kan skrue et cirkeltræningsprogram sammen.
 
 Ud fra min egen erfaring kan det betale sig at afprøve sit eget program, inden man udsætter andre for det. Jeg har sommetider fået lavet et program, der var lige rigeligt hårdt til, at øvelserne kunne laves med kvalitet hele vejen igennem.
 
@@ -102,7 +96,7 @@ Ud fra min egen erfaring kan det betale sig at afprøve sit eget program, inden 
 
 </div>
 
-Men det er faktisk kun fantasien, der sætter grænser for dit øvelsesvalg. Alle øvelserne på sitet er lige til at printe ud og klar til at bruge som beskrivelse til din cirkeltræning.
+Men det er faktisk kun fantasien, der sætter grænser for dit øvelsesvalg. Alle øvelserne lige til at printe ud og klar til at bruge som beskrivelse til din cirkeltræning.
 
 [Se alle øvelser]({% link _pages/activities-archive.md %}){: .btn .btn--large .btn--success }
 
@@ -128,8 +122,6 @@ Hvis du foretrækker at designe din egen cirkeltræning, så kan jeg anbefale f�
 
 - **Fokus**. Cirkeltræningsprogrmmer kan ofte godt virke lidt tilfældige. Jeg kan godt lide at have et mål for programmet.
 - **Progression**. Hvis du kører forskellige cirkeltræningsprogrammer i hvert træningspas, så er det sværere at se, hvad progressionen i din træning er - og om du overhovedet går frem i træningen.
-
-{% endcomment }
 
 ## Cirkeltræning som en del af din træning
 

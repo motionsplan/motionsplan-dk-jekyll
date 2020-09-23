@@ -343,6 +343,8 @@ module.exports = motionsplan;
 
 /* global $ */
 
+const vmax_bike = require('./vmax');
+const vmax_intervals = require('./vmax-intervals');
 const billat = require('./billat');
 const runwalk = require('./running-walking');
 const pushup = require('./pushup');
@@ -1076,52 +1078,52 @@ $(document).ready(function() {
     // Calculate VMax
     $("#calculator_vmax_bike_vmax").submit(function() {
         console.log("Calculate Vmax from VO2");
+        var vo2max = Number($("[name='vo2max']").val());
+        
+        var b = vmax_bike.Vmax(vo2max);
 
-        var Maxvo2 = Number($("[name='Maxvo2']").val());
-
-        var resultat = Math.round((Maxvo2 * 21 / 60 * 0.23 / 5) * Math.pow(10, 0)) / Math.pow(10, 0) * 5;
-
-        $("[name='Vmax']").val(resultat);
+        $("[name='vmax']").val(b.getVmax());
         return false;
     });
     // Calculate VMax intervals biking
-    $("#calculator_vmax_bike_intervals").submit(function() {
+    $("#calculator_vmax_biking_intervals").submit(function() {
         console.log("Calculate Vmax for Biking");
 
-        var Vmax2 = Number($("[name='Vmax2']").val());
-        var Min = Number($("[name='Min']").val());
-        var Sek = Number($("[name='Sek']").val());
+        var vmax = Number($("[name='biking_vmax_program']").val());
+        var tmax_min = Number($("[name='biking_tmax_min']").val());
+        var tmax_sec = Number($("[name='biking_tmax_sec']").val());
+        var warmup_percentage = Number($("[name='biking_warmup_percentage']").val());
+        var tmax_percentage = Number($("[name='biking_tmax_percentage']").val());
+        var vmax_pause_percentage = Number($("[name='biking_vmax_pause_percentage']").val());
+        var tmax_pause_percentage = Number($("[name='biking_tmax_pause_percentage']").val());
 
-        var Tid = Min * 60 + Sek * 1
+        var b = vmax_intervals.VmaxIntervals(vmax, tmax_min, tmax_sec);
 
-        $("[name='Opvarm1']").val(Math.round((Vmax2 * 0.6 / 5) * Math.pow(10, 0)) / Math.pow(10, 0) * 5);
-        $("[name='Opvarm2']").val(Math.round((Vmax2 * 0.75 / 5) * Math.pow(10, 0)) / Math.pow(10, 0) * 5);
-        $("[name='Vmax3']").val(Math.round((Vmax2 * 1 / 5) * Math.pow(10, 0)) / Math.pow(10, 0) * 5);
-        $("[name='Vmaxtid_m']").val(Math.floor((Tid * 0.6) / 60));
-        $("[name='Vmaxtid_s']").val(Math.round(((Tid * 0.6) - (Math.floor((Tid * 0.6) / 60) * 60)) / 5 * Math.pow(10, 0)) / Math.pow(10, 0) * 5);
-        $("[name='Vpause']").val(Math.round((Vmax2 * 0.5 / 5) * Math.pow(10, 0)) / Math.pow(10, 0) * 5);
-        $("[name='Pausetid_m']").val(Math.floor((Tid * 0.3 / 60)));
-        $("[name='Pausetid_s']").val(Math.round(((Tid * 0.3) - (Math.floor((Tid * 0.3) / 60) * 60)) / 5 * Math.pow(10, 0)) / Math.pow(10, 0) * 5);
+        $("[name='biking_warmup_velocity']").val(b.getVelocity(warmup_percentage));
+        $("[name='biking_vmax_program_value']").val(vmax);
+        $("[name='biking_time_program_time']").val(b.getTime(tmax_percentage));
+        $("[name='biking_pause_velocity']").val(b.getVelocity(tmax_pause_percentage));
+        $("[name='biking_time_pause']").val(b.getTime(tmax_pause_percentage));
         return false;
     });
     // Calculate VMax intervals biking
     $("#calculator_vmax_running_intervals").submit(function() {
         console.log("Calculate Vmax for Running");
 
-        var Vmax2 = Number($("[name='Vmax2']").val());
-        var Min = Number($("[name='Min']").val());
-        var Sek = Number($("[name='Sek']").val());
+        var vmax = Number($("[name='running_vmax_program']").val());
+        var tmax_min = Number($("[name='running_tmax_min']").val());
+        var tmax_sec = Number($("[name='running_tmax_sec']").val());
+        var warmup_percentage = Number($("[name='running_warmup_percentage']").val());
+        var tmax_percentage = Number($("[name='running_tmax_percentage']").val());
+        var tmax_pause_percentage = Number($("[name='running_tmax_pause_percentage']").val());
 
-        var Tid = Min * 60 + Sek * 1
+        var b = vmax_intervals.VmaxIntervals(vmax, tmax_min, tmax_sec);
 
-        $("[name='Opvarm1']").val(Math.round((Vmax2 * 0.6 / 5) * Math.pow(10, 1)) / Math.pow(10, 1) * 5);
-        $("[name='Opvarm2']").val(Math.round((Vmax2 * 0.75 / 5) * Math.pow(10, 1)) / Math.pow(10, 1) * 5);
-        $("[name='Vmax3']").val(Math.round((Vmax2 * 1) * Math.pow(10, 1)) / Math.pow(10, 1));
-        $("[name='Vmaxtid_m']").val(Math.floor((Tid * 0.6) / 60));
-        $("[name='Vmaxtid_s']").val(Math.round(((Tid * 0.6) - (Math.floor((Tid * 0.6) / 60) * 60)) / 5 * Math.pow(10, 0)) / Math.pow(10, 0) * 5);
-        $("[name='Vpause']").val(Math.round((Vmax2 * 0.5) * Math.pow(10, 1)) / Math.pow(10, 1));
-        $("[name='Pausetid_m']").val(Math.floor((Tid * 0.3 / 60)));
-        $("[name='Pausetid_s']").val(Math.round(((Tid * 0.3) - (Math.floor((Tid * 0.3) / 60) * 60)) / 5 * Math.pow(10, 0)) / Math.pow(10, 0) * 5);
+        $("[name='running_warmup_velocity']").val(b.getVelocity(warmup_percentage));
+        $("[name='running_vmax_program_value']").val(vmax);
+        $("[name='running_time_program_time']").val(b.getTime(tmax_percentage));
+        $("[name='running_pause_velocity']").val(b.getVelocity(tmax_pause_percentage));
+        $("[name='running_time_pause']").val(b.getTime(tmax_pause_percentage));
         return false;
     });
     // Calculate Intensity
@@ -1525,7 +1527,7 @@ $(document).ready(function() {
 	});
 });
 
-},{"../js/bodywater":12,"../js/fatenergypct":20,"../js/hr-intensity":23,"../js/waist":40,"../js/walktest-rockport-16":41,"../js/walktest-sixminutes":42,"../js/wattmax":43,"./1rm":3,"./beeptest":6,"./beeptest-yyir1":5,"./billat":7,"./bmi":8,"./bmr-benedict-harris":9,"./bmr-nordic-1996":10,"./bmr-nordic-2012":11,"./borg15":13,"./cooper":15,"./cooper-running":14,"./etpunkttest":16,"./fat-pct":19,"./fat-pct-measurements":17,"./fat-pct-navy":18,"./fitness-hr":21,"./fitness-index-23":22,"./ideal-weight":24,"./index100":25,"./karvonen":26,"./max-hr":27,"./pushup":28,"./riegel":29,"./running":34,"./running-distance-vo2":30,"./running-economy":31,"./running-walking":32,"./running-weightloss":33,"./skinfold-durnin":35,"./skinfold-lohman":36,"./skinfold-pollock":37,"./skinfold-slaughter":38,"./topunkttest":39,"image-map-resizer":1,"wilks-calculator":2}],5:[function(require,module,exports){
+},{"../js/bodywater":12,"../js/fatenergypct":20,"../js/hr-intensity":23,"../js/waist":42,"../js/walktest-rockport-16":43,"../js/walktest-sixminutes":44,"../js/wattmax":45,"./1rm":3,"./beeptest":6,"./beeptest-yyir1":5,"./billat":7,"./bmi":8,"./bmr-benedict-harris":9,"./bmr-nordic-1996":10,"./bmr-nordic-2012":11,"./borg15":13,"./cooper":15,"./cooper-running":14,"./etpunkttest":16,"./fat-pct":19,"./fat-pct-measurements":17,"./fat-pct-navy":18,"./fitness-hr":21,"./fitness-index-23":22,"./ideal-weight":24,"./index100":25,"./karvonen":26,"./max-hr":27,"./pushup":28,"./riegel":29,"./running":34,"./running-distance-vo2":30,"./running-economy":31,"./running-walking":32,"./running-weightloss":33,"./skinfold-durnin":35,"./skinfold-lohman":36,"./skinfold-pollock":37,"./skinfold-slaughter":38,"./topunkttest":39,"./vmax":41,"./vmax-intervals":40,"image-map-resizer":1,"wilks-calculator":2}],5:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.YYIR1 = function(level, shuttles) {
@@ -3442,6 +3444,62 @@ module.exports = motionsplan;
 },{}],40:[function(require,module,exports){
 let motionsplan = {}
 
+// vo2max i ml
+motionsplan.VmaxIntervals = function(vmax, tmax_min, tmax_sec) {
+  vmax = vmax;
+  tmax_min = tmax_min;
+  tmax_sec = tmax_sec;
+
+  var tmax = tmax_min * 60 + tmax_sec;
+
+  function getVelocity(percentage = 60) {
+    percentage = percentage / 100;
+    return (vmax * percentage).toFixed(2);
+  }
+
+  function getTime(percentage = 60) {
+    percentage = percentage / 100;
+    var min = Math.floor((tmax * percentage) / 60);
+    var sec = ((tmax * percentage) - (Math.floor((tmax * percentage) / 60) * 60)).toFixed(0);
+    if (sec < 10) {
+      sec = '0' + sec;
+    }
+    return min + ":" + sec;
+  }
+
+  var publicAPI = {
+    getVelocity : getVelocity,
+    getTime : getTime
+  };
+
+  return publicAPI;
+}
+
+module.exports = motionsplan;
+
+},{}],41:[function(require,module,exports){
+let motionsplan = {};
+
+// vo2max i ml
+motionsplan.Vmax = function(vo2max) {
+  vo2max = vo2max;
+
+  function getVmax() {
+    return (vo2max * 21 / 60 * 0.23);
+  }
+
+  var publicAPI = {
+    getVmax : getVmax
+  };
+
+  return publicAPI;
+};
+
+module.exports = motionsplan;
+
+},{}],42:[function(require,module,exports){
+let motionsplan = {}
+
 motionsplan.WaistRatio = function() {
 
   function getWaistHeightRatio(waist, height) {
@@ -3462,7 +3520,7 @@ motionsplan.WaistRatio = function() {
 
 module.exports = motionsplan;
 
-},{}],41:[function(require,module,exports){
+},{}],43:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.RockPortWalkingTest = function(min, sec, hr, sex, age, weight) {
@@ -3510,7 +3568,7 @@ motionsplan.RockPortWalkingTest = function(min, sec, hr, sex, age, weight) {
 
 module.exports = motionsplan;
 
-},{}],42:[function(require,module,exports){
+},{}],44:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.SixMinutesWalkingTest = function(sex, age, height, weight, meter) {
@@ -3567,7 +3625,7 @@ motionsplan.SixMinutesWalkingTest = function(sex, age, height, weight, meter) {
 
 module.exports = motionsplan;
 
-},{}],43:[function(require,module,exports){
+},{}],45:[function(require,module,exports){
 let motionsplan = {};
 
 motionsplan.Wattmax = function(wmax, sec, weight, age, watt_jumps = 25) {

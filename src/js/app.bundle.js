@@ -2,6 +2,8 @@
 
 /* global $ */
 
+const vmax_bike = require('./vmax');
+const vmax_intervals = require('./vmax-intervals');
 const billat = require('./billat');
 const runwalk = require('./running-walking');
 const pushup = require('./pushup');
@@ -479,6 +481,7 @@ $(document).ready(function() {
         $("[name='fatpercent']").val(skinfold_slaughter.getBodyFatpercent());
         return false;
     });
+    /*
     // Calculate Fat Percent Measurements
     $("#calculator_fat_percent_mu26").submit(function() {
         console.log("Calculate Fat Percent on Measurements");
@@ -520,6 +523,7 @@ $(document).ready(function() {
         ));
         return false;
     });
+    */
     // Calculate VO2 from HR
     $("#calculate_fitness_level_hr").submit(function() {
         console.log("Calculate VO2 from HR");
@@ -735,52 +739,52 @@ $(document).ready(function() {
     // Calculate VMax
     $("#calculator_vmax_bike_vmax").submit(function() {
         console.log("Calculate Vmax from VO2");
+        var vo2max = Number($("[name='vo2max']").val());
+        
+        var b = vmax_bike.Vmax(vo2max);
 
-        var Maxvo2 = Number($("[name='Maxvo2']").val());
-
-        var resultat = Math.round((Maxvo2 * 21 / 60 * 0.23 / 5) * Math.pow(10, 0)) / Math.pow(10, 0) * 5;
-
-        $("[name='Vmax']").val(resultat);
+        $("[name='vmax']").val(b.getVmax());
         return false;
     });
     // Calculate VMax intervals biking
-    $("#calculator_vmax_bike_intervals").submit(function() {
+    $("#calculator_vmax_biking_intervals").submit(function() {
         console.log("Calculate Vmax for Biking");
 
-        var Vmax2 = Number($("[name='Vmax2']").val());
-        var Min = Number($("[name='Min']").val());
-        var Sek = Number($("[name='Sek']").val());
+        var vmax = Number($("[name='biking_vmax_program']").val());
+        var tmax_min = Number($("[name='biking_tmax_min']").val());
+        var tmax_sec = Number($("[name='biking_tmax_sec']").val());
+        var warmup_percentage = Number($("[name='biking_warmup_percentage']").val());
+        var tmax_percentage = Number($("[name='biking_tmax_percentage']").val());
+        var vmax_pause_percentage = Number($("[name='biking_vmax_pause_percentage']").val());
+        var tmax_pause_percentage = Number($("[name='biking_tmax_pause_percentage']").val());
 
-        var Tid = Min * 60 + Sek * 1
+        var b = vmax_intervals.VmaxIntervals(vmax, tmax_min, tmax_sec);
 
-        $("[name='Opvarm1']").val(Math.round((Vmax2 * 0.6 / 5) * Math.pow(10, 0)) / Math.pow(10, 0) * 5);
-        $("[name='Opvarm2']").val(Math.round((Vmax2 * 0.75 / 5) * Math.pow(10, 0)) / Math.pow(10, 0) * 5);
-        $("[name='Vmax3']").val(Math.round((Vmax2 * 1 / 5) * Math.pow(10, 0)) / Math.pow(10, 0) * 5);
-        $("[name='Vmaxtid_m']").val(Math.floor((Tid * 0.6) / 60));
-        $("[name='Vmaxtid_s']").val(Math.round(((Tid * 0.6) - (Math.floor((Tid * 0.6) / 60) * 60)) / 5 * Math.pow(10, 0)) / Math.pow(10, 0) * 5);
-        $("[name='Vpause']").val(Math.round((Vmax2 * 0.5 / 5) * Math.pow(10, 0)) / Math.pow(10, 0) * 5);
-        $("[name='Pausetid_m']").val(Math.floor((Tid * 0.3 / 60)));
-        $("[name='Pausetid_s']").val(Math.round(((Tid * 0.3) - (Math.floor((Tid * 0.3) / 60) * 60)) / 5 * Math.pow(10, 0)) / Math.pow(10, 0) * 5);
+        $("[name='biking_warmup_velocity']").val(b.getVelocity(warmup_percentage));
+        $("[name='biking_vmax_program_value']").val(vmax);
+        $("[name='biking_time_program_time']").val(b.getTime(tmax_percentage));
+        $("[name='biking_pause_velocity']").val(b.getVelocity(tmax_pause_percentage));
+        $("[name='biking_time_pause']").val(b.getTime(tmax_pause_percentage));
         return false;
     });
     // Calculate VMax intervals biking
     $("#calculator_vmax_running_intervals").submit(function() {
         console.log("Calculate Vmax for Running");
 
-        var Vmax2 = Number($("[name='Vmax2']").val());
-        var Min = Number($("[name='Min']").val());
-        var Sek = Number($("[name='Sek']").val());
+        var vmax = Number($("[name='running_vmax_program']").val());
+        var tmax_min = Number($("[name='running_tmax_min']").val());
+        var tmax_sec = Number($("[name='running_tmax_sec']").val());
+        var warmup_percentage = Number($("[name='running_warmup_percentage']").val());
+        var tmax_percentage = Number($("[name='running_tmax_percentage']").val());
+        var tmax_pause_percentage = Number($("[name='running_tmax_pause_percentage']").val());
 
-        var Tid = Min * 60 + Sek * 1
+        var b = vmax_intervals.VmaxIntervals(vmax, tmax_min, tmax_sec);
 
-        $("[name='Opvarm1']").val(Math.round((Vmax2 * 0.6 / 5) * Math.pow(10, 1)) / Math.pow(10, 1) * 5);
-        $("[name='Opvarm2']").val(Math.round((Vmax2 * 0.75 / 5) * Math.pow(10, 1)) / Math.pow(10, 1) * 5);
-        $("[name='Vmax3']").val(Math.round((Vmax2 * 1) * Math.pow(10, 1)) / Math.pow(10, 1));
-        $("[name='Vmaxtid_m']").val(Math.floor((Tid * 0.6) / 60));
-        $("[name='Vmaxtid_s']").val(Math.round(((Tid * 0.6) - (Math.floor((Tid * 0.6) / 60) * 60)) / 5 * Math.pow(10, 0)) / Math.pow(10, 0) * 5);
-        $("[name='Vpause']").val(Math.round((Vmax2 * 0.5) * Math.pow(10, 1)) / Math.pow(10, 1));
-        $("[name='Pausetid_m']").val(Math.floor((Tid * 0.3 / 60)));
-        $("[name='Pausetid_s']").val(Math.round(((Tid * 0.3) - (Math.floor((Tid * 0.3) / 60) * 60)) / 5 * Math.pow(10, 0)) / Math.pow(10, 0) * 5);
+        $("[name='running_warmup_velocity']").val(b.getVelocity(warmup_percentage));
+        $("[name='running_vmax_program_value']").val(vmax);
+        $("[name='running_time_program_time']").val(b.getTime(tmax_percentage));
+        $("[name='running_pause_velocity']").val(b.getVelocity(tmax_pause_percentage));
+        $("[name='running_time_pause']").val(b.getTime(tmax_pause_percentage));
         return false;
     });
     // Calculate Intensity

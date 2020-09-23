@@ -1,12 +1,12 @@
 ---
 title: "Watt max-test: Find konditallet med watt max testen på cykel"
 permalink: /kondital-wattmax/
-excerpt: "Watt max-testen er en trinvist stigende maksimal test på ergometercykel. Watt-max-testens resultat kan være et præstationsmål i sig selv, men testen giver også et validt estimat af den maksimale iltoptagelse og dit kondital."
+excerpt: "Watt max-testen er en trinvist stigende maksimal test på ergometercykel. Watt-max-testens kan bruges til at estimere din maksimale iltoptagelse og dit kondital - eller du kan bruge Watt-max-testen som et præstationsmål i sig selv."
 language: da
 header:
   overlay_image: https://prod-wattbike-images.s3.amazonaws.com/images/Wattbike4059_edit-(2)-ecffa30a11c87543.jpg
   teaser: https://prod-wattbike-images.s3.amazonaws.com/images/Wattbike4059_edit-(2)-ecffa30a11c87543.jpg
-  caption: Watt max-testen på cykelergometer
+  caption: Watt max-testen på cykelergometer. Konditionstest på cykel.
 category:
   - Kondition
 tags:

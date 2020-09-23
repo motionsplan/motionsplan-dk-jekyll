@@ -55,7 +55,7 @@ Type IIX (er også tidligere blevet kaldt type IIB) kaldes også _fast twitch_ e
 
 ## Karakteristika for muskelfibertyperne
 
-Den følgende tabel er en bearbejdelse af Honeybourne et al. (1996)
+Den følgende tabel er en bearbejdelse af Honeybourne et al. (1996):
 
 | Forskelle | I | IIA | IIX |
 |-|-|-|-|
@@ -107,7 +107,7 @@ Typisk siger man at type II fibre har lettere ved at vokse (hypertrofi). Hvis de
 
 Andersen og Aagaard (2000) har fundet ud af, at IIX-fibre ikke bare forsvinder ved styrketræning og kommer tilbage ved træningsophør. Type IIX-fibrene kommer tilbage som en _superkompensation_. Det kan man udnytte i træningen.
 
-Hvis du komer fra en stor træningsmængde, så kan du udnytte dette boost. Morten Zacho foreslår, at følgende styrketræningsmodel kan fremprovokere _boostet_ af type IIX-fibre.
+Hvis du komer fra en stor træningsmængde, så kan du udnytte dette boost. Morten Zacho foreslår, at [følgende styrketræningsmodel kan fremprovokere _boostet_ af type IIX-fibre](http://web.archive.org/web/20130605064150/http://www.motion-online.dk/styrketraening/styrke_-_artikler/saadan_faar_du_hurtigere_muskler_-_iix_boosting/).
 
 - **Høj træningsmængde** med tunge løft udført eksplosivt uden at køre til udmattelse. Dette stimulerer primært type II-fibrene. Type IIX bliver lavet om til IIA.
 - **Reducér træningsmængden**. Kun få løft med samme intensitet og eksplosivitet som tidligere. Størrelsen på type II-fibrene vedligeholdes, men træningsreduktionen forårsager at en del af type IIA bliver konverteret til type IIX igen.
@@ -118,9 +118,9 @@ Muskulaturens areal udgøres nu af en større procentdel af type II-fibre, fordi
 
 ## Kend din egen fibertypesammensætning?
 
-Den mest sikre måde at finde ud af, hvordan ens muskelfibertypesammensætning er, er at få lavet en muskelbiopsi. Jeg har beskrevet i et andet indlæg, hvordan man [kan teste din egen muskelfibertypesammensætning på en lavpraktisk måde](/test-muskelfibertyper/).
+Den mest sikre måde at finde ud af, hvordan ens muskelfibertypesammensætning er, er at få lavet en muskelbiopsi. Jeg har beskrevet i et andet indlæg, hvordan du [kan teste din egen muskelfibertypesammensætning på en lavpraktisk måde](/test-muskelfibertyper/).
 
-## Referencer
+## Referencer muskelfibre og muskelfibertyper
 
 - Andersen, J. L., og P. Aagaard. 2000. “Myosin Heavy Chain IIX Overshoot in Human Skeletal Muscle”. _Muscle & Nerve_ 23 (7): 1095–1104. [https://doi.org/10.1002/1097-4598(200007)23:7&lt;1095::aid-mus13&gt;3.0.co;2-o](https://doi.org/10.1002/1097-4598(200007)23:7<1095::aid-mus13>3.0.co;2-o).
 - Baldwin, K. M., A. M. Hooker, og R. E. Herrick. 1978. “Lactate Oxidative Capacity in Different Types of Muscle”. _Biochemical and Biophysical Research Communications_ 83 (1): 151–57. [https://doi.org/10.1016/0006-291X(78)90410-2](https://doi.org/10.1016/0006-291X(78)90410-2).
