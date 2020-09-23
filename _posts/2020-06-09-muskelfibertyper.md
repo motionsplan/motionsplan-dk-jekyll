@@ -57,23 +57,23 @@ Type IIX (er også tidligere blevet kaldt type IIB) kaldes også _fast twitch_ e
 
 Den følgende tabel er en bearbejdelse af Honeybourne et al. (1996):
 
-| Forskelle | I | IIA | IIX |
+| Egenskaber | I | IIA | IIX |
 |-|-|-|-|
+| Hurtighed | Langsom | Hurtig | Meget hurtig |
 | Farve | Rød | Hvid (rosa) | Hvid (lyserød) |
 | Tykkelse | Lille | Mellem | Stor |
+| Størrelsen af motor neuronerne | Små | Store | Meget store |
 | Evne til at vokse | Lille | Mellem | Stor |
-| Hurtighed | Langsom | Hurtig | Meget hurtig |
 | Styrke | Lille | Mellem | Stor |
+| Kraftproduktion | Lav | Høj | Meget høj |
+| Anaerob glykolytisk kapacitet | Lav | Høj | Høj |
 | Udholdenhed | Høj | Middel | Lav |
 | Kapillærer | Mange | Middel | Få |
 | Mitokondrier | Mange | Middel | Få |
 | Myoglobinindhold | Højt | Middel | Lavt |
-| Size of motor neuron | Small | Large | Very Large |
-| Activity Used for | Aerobic | Long-term anaerobic | Short term anaerobic |
-| Force production | Low | High | Very High |
-| Aerobic Oxidative capacity | High | High | Low |
-| Anaerobic Glycolytic capacity | Low | High | High |
-| Major storage fuel | Triglycerides | CP, Glycogen | CP, Glycogen |
+| Aerob oxidativ kapacitet | Høj | Høj | Lav |
+| Bruges til aktivitet | Aerob | Langvarig anaerob | Kortvarig anaerob |
+| Primære brændstof | Fedt | CP, glykogen | CP, glykogen |
 
 ## Fiberfordelingen i skeletmuskulaturen
 
