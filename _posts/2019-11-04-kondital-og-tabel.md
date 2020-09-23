@@ -71,7 +71,7 @@ Nedenstående tabeller gælder for almindelige mennesker i Skandinavien og er s�
 | 50-64	| < 21       | 22-28 | 29-36  | 37-41 | > 42       |
 | 65-	  | < 19       | 20-26 | 27-34  | 35-39 | > 40       | 
 
-Tabellerne er lavet af Per-Olof Åstrand og suppleret med data fra danske børn og unge.
+Tabellerne er lavet af Per-Olof Åstrand og suppleret med data fra danske børn og unge af [Morten Zacho](http://web.archive.org/web/20100222202224/http://www.motion-online.dk/konditionstraening/testning/konditalstabel_-_hvad_er_et_godt_kondital?/){:rel="nofollow"}.
 
 ## Hvad er de højeste kondital der er målt?
 
@@ -87,14 +87,16 @@ Det er interessant, hvor mange nordmænd der er på [listen over de højeste kon
 
 Topidrætsfolk i konditionskrævende idrætsgrene har som regel et kondital over 70. Hvis du forventer at kunne være med i verdenseliten, så bør du vurdere dig selv ud fra nedenstående tabel:
 
-|         | Meget Lavt | Lavt  | Middel | Højt  | Meget Højt |
+|         | Lavt | Middel  | Højt | Meget højt  | Ekstremt Højt |
 |---------|------------|-------|--------|-------|------------|
 | Mænd    | < 60       | 60-70 | 70-80  | 80-90 | > 90       |
 | Kvinder | < 50       | 50-58 | 58-64  | 64-72 | > 72       |
 
+Tabellen er udformet af [Morten Zacho](http://web.archive.org/web/20100222202224/http://www.motion-online.dk/konditionstraening/testning/konditalstabel_-_hvad_er_et_godt_kondital?/){:rel="nofollow"}.
+
 ## Hvordan beregnes dit kondital?
 
-Konditallet udregnes ved at man dividerer den maksimale iltoptagelse (VO<sub>2</sub>max) med kropsvægten. For at opnå et højt kondital gælder det derfor om at træne sin iltoptagelse og holde kropsvægten nede.
+Konditallet udregnes ved at dividere den maksimale iltoptagelse (VO<sub>2</sub>max) med kropsvægten. Du kan altså forbedre dit kondital på to måder: Enten ved at forbedre din maksimale iltoptagelse eller ved at tabe dig.
 
 {% include math formula="kondital = \frac{VO_2max}{weight}" %}
 
@@ -108,46 +110,46 @@ Du behøver ikke nødvendigvis at få målt din iltoptagelse i et laboratorium. 
 
 ## Retfærdig sundhedsmæssig vurdering af overvægtiges kondition
 
-Konditallet indgår ofte, når man vil vurdere den enkeltes sundhedstilstand. Problemet med kondital er imidlertid, at vægten indgår som en del af beregningen, og derfor vil stort set ingen overvægtige vil få et godt kondital, selv om de faktisk er i god form.
+Konditallet indgår ofte, når man vil vurdere den enkeltes sundhed. 
 
-{% comment %}
+> Problemet med konditallet er imidlertid, at vægten indgår som en del af beregningen, og derfor vil stort set ingen overvægtige vil få tildelt et godt kondital, selv om de faktisk er i god form.
 
-### Kondital ved index 23
-
-En mulighed for bedre at kunne vurdere den overvægtiges kondital i forhold til sundhed er at udregne konditallet ud fra et index. Fx foreslår Morten Zacho at man beregner konditallet som om vedkommende var normalvægtig ift. BMI 23. Dette kondital kaldes _Kondital ved index 23_. Hvis man beskæftiger sig med sundhed og kondition, så bør man nok inddrage denne værdi i tilbagemeldingen til den testede.
-
-{% include calculate-fitness-index-23.html %}
-
-{% endcomment %}
-
-## Kondital og vægt bør vurderes uafhængigt
-
-Det almindelige kondital udregnes ved at dividere VO<sub>2</sub>max med kropsvægten. Konditallet siger altså noget om hvor stærk kredsløbsmotoren er i forhold til den krop, der skal flyttes. Det giver rigtig fin mening i forhold til at vurdere præstationsevnen, men det er ikke helt så let i forhold til sundhedstilstanden.
-
-I forhold til vejledning har vi brug for målinger, der objektivt vurderer kondition og vægt adskilt. Med det normale kondital risikerer vi at vejlede til mere motion, selvom det i virkeligheden er kosten, der skaber udfordringer for den enkelte.
+--- <cite>[Morten Zacho](http://web.archive.org/web/20100131082019/http://www.motion-online.dk/konditionstraening/testning/retfaerdig_vurdering_af_overvaegtiges_kondition/){:rel="nofollow"}</cite>
 
 Morten Zacho foreslår i [Retfærdig vurdering af overvægtiges kondition](http://web.archive.org/web/20090207083616/http://www.motion-online.dk/konditionstraening/testning/retfaerdig_vurdering_af_overvaegtiges_kondition/){:rel="nofollow"} at bruge princippet om _Kondital ved Index 23_.[^note]
 
 [^note]: Morten Zacho foreslår også, at man kan opløfte vægten i en potens lavere end 1, for at den får mindre betydning, eller man normalisere i forhold til fedtfri masse i stedet. Man kan også bruge princeppet om skalering og dividere iltoptagelsen med højden i anden potens.
 
+## Kondital og vægt bør vurderes uafhængigt
+
+Det almindelige kondital udregnes ved at dividere VO<sub>2</sub>max med kropsvægten. Konditallet er altså et udtryk for dit kredsløbs maksimale kapacitet i forhold til din krop. Det giver rigtig fin mening i forhold til at vurdere præstationsevnen, men det er ikke helt så let i forhold til din sundhedstilstand.
+
+Derfor foreslår [Morten Zacho](http://web.archive.org/web/20100131082019/http://www.motion-online.dk/konditionstraening/testning/retfaerdig_vurdering_af_overvaegtiges_kondition/){:rel="nofollow"}, at man i forhold til vejledning har brug for målinger, der <q>objektivt vurderer kondition og vægt adskilt</q>. Med det normale kondital risikerer vi at vejlede til mere motion, selvom det i virkeligheden er kosten, der skaber udfordringer for den enkelte.
+
 Princippet i _Kondital ved Index 23_ er, at den maksimale iltoptagelse (målt med en test) divideres med den vægt man ville have haft, hvis man havde et BMI på 23. Dette vægtuafhængige kondital kan man slå op i de tabeller, der bruges for det almindelige kondital, og dermed få en vægtuafhængig vurdering af konditionen i forhold til alder og køn.
 
 ## Hvordan udregnes Kondital ved Index 23?
 
-På formel ser det således ud:
+Da Index 23 er baseret på BMI, så ser formlen således ud:
 
 {% include math formula="Kondital_{Index23} = \frac{VO_2max (ml/min)}{23 * height (m)^2}" %}
 
-Kondital<sub>Index 23</sub> er altså en beskrivelse af en persons relative kredsløbskapacitet i forhold til det potentiale som den medfødte kropsstørrelse giver. Samtidigt skriver Morten Zacho, at det er en værdi, der er let at forklare for almindelige mennesker.
+Kondital<sub>Index 23</sub> er altså en beskrivelse af en persons relative kredsløbskapacitet i forhold til det potentiale kroppen har, hvis man var normalvægtig i forhold til BMI.
+
+Samtidigt skriver Morten Zacho, at Kondital<sub>Index 23</sub> er en værdi, der er let at forklare for almindelige mennesker.
 
 > "Dette er det kondital du ville have, såfremt du var normalvægtig".
 
 --- <cite>[Morten Zacho](http://web.archive.org/web/20090207083616/http://www.motion-online.dk/konditionstraening/testning/retfaerdig_vurdering_af_overvaegtiges_kondition/){:rel="nofollow"}</cite>
 
-Det har også været foreslået at opløfte kropsvægten med 0,73, når man sammenligner kondital for bedre at tage højde for [løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %}) og give en mere retfærdig sammenligning mellem lette og tunge atleter. Læs fx mere i denne artikel [Effekt af kropsvægt på den maksimale iltoptagelse](http://web.archive.org/web/20090207075933/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/effekt_af_kropsvaegt_paa_den_maksimale_iltoptagelse/){:rel="nofollow"}.
+Det har også været foreslået at opløfte kropsvægten med 0,73, når man sammenligner kondital for bedre at tage højde for [løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %}) og give en mere retfærdig sammenligning mellem lette og tunge atleter. Læs fx mere i denne artikel af Morten Zacho [Effekt af kropsvægt på den maksimale iltoptagelse](http://web.archive.org/web/20090207075933/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/effekt_af_kropsvaegt_paa_den_maksimale_iltoptagelse/){:rel="nofollow"}.
 {: .notice .notice--warning }
 
-{% comment %}
+## Beregn kondital ved index 23
+
+En mulighed for bedre at kunne vurdere den overvægtiges kondital i forhold til sundhed er at udregne konditallet ud fra et index. Morten Zacho foreslår som skrevet, at man beregner konditallet som om vedkommende var normalvægtig ift. BMI 23. Dette kondital kaldes _Kondital ved index 23_.
+
+{% include calculate-fitness-index-23.html %}
 
 ## Falder konditallet med alderen?
 
@@ -157,15 +159,13 @@ Konditallet falder med alderen. En stor del af faldet skyldes, at aktivitetsnive
 
 Da kvinder har en større andel af fedt i kroppen end mænd, så vil kvinders kondital typisk være lavere end mænds.
 
-{% endcomment }
-
 ## Kondital og risiko for sygdomme
 
 Konditallet er med til at fortælle om hjerte og kredsløb fungerer optimalt. Konditionsniveauet har vist sig at hænge sammen med den relative risiko for at udvikle livsstilsbetingede sygdomme.
 
 Bente Klarlund og Bengt Saltin har lavet følgende grafik, der viser, hvad den relative risiko for at udvikle sygdomme er sammenholdt med konditallet og alderen.
 
-{% include figure image_path="https://inner-gym.com/wp-content/uploads/2018/09/Graf.jpg" caption="Kilde: Sundhedsstyrelsen, Center for Forebyggelse: Fysisk aktivitet – håndbog om forebyggelse og behandling, 2003. Udarbejdet af Bente Klarlund Pedersen og Bengt Saltin." %}
+{% include figure image_path="https://inner-gym.com/wp-content/uploads/2018/09/Graf.jpg" caption="Kilde: Sundhedsstyrelsen, Center for Forebyggelse: Fysisk aktivitet – håndbog om forebyggelse og behandling, 2003. Udarbejdet af Bente Klarlund Pedersen og Bengt Saltin. [PDF](https://www.sst.dk/-/media/Udgivelser/2006/Publ2006/CFF/Fysisk_aktivitet_psyk/Testmanual_psyk,-d-,pdf.ashx)." %}
 
 ## Hvordan forbedrer jeg mit kondital?
 
@@ -180,5 +180,6 @@ Skriv i kommentarerne, hvis du er klar til at læse, hvordan du forbedrer dit ko
 {% include feature_row type="left" %}
 
 - Shvartz, E., og R. C. Reibold. 1990. “Aerobic Fitness Norms for Males and Females Aged 6 to 75 Years: A Review”. Aviation, Space, and Environmental Medicine 61 (1): 3–11.
+- Astrand, I. 1960. “Aerobic Work Capacity in Men and Women with Special Reference to Age”. Acta Physiologica Scandinavica. Supplementum 49 (169): 1–92. <https://pubmed.ncbi.nlm.nih.gov/13794892/>
 
 ## Noter til kondition

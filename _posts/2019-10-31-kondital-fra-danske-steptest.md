@@ -16,9 +16,9 @@ last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 ---
 
-*[MET]: Metabolic equivalent of Task
-
 Den Danske Steptest er en præstationsbegrænset submaksimal test, der estimerer den maksimale iltoptagelse og konditallet. Jeg kigger lidt på, om testen kan bruges til at finde konditallet?
+
+*[MET]: Metabolic equivalent of Task
 
 Hvad er Den Danske Steptest? **Den Danske Steptest er udviklet af danske forskere med Morten Zacho i spidsen. Det er en en tilpasning af de eksisterende steptest, hvor man ikke skal bruge pulsmålinger undervejs. Den Danske Steptest er en præstationsbegrænset submaksimal test, hvor deltagerne træder op og ned af en forhøjning på en bestemt måde i et forudbestemt tempo, som progressivt stiger i løbet af testen.**
 
