@@ -1,3 +1,5 @@
+name: motionsplan
+
 backend:
   name: github
   repo: motionsplan/motionsplan-dk-jekyll
