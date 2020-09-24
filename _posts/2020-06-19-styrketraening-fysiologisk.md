@@ -44,6 +44,8 @@ Når man styrketræner bliver du stærkere og dine muskler vokser, fordi der ske
 
 Før vi kan kigge på effekten af styrketræning og de fysiologiske tilpasninger, så er det formentlig på sin plads med en **definition af styrketræning**.
 
+{% comment %}
+
 ## Definition af styrketræning
 
 Styrketræning er træning, der gør musklerne stærkere, eller vedligeholder den styrke, man allerede har. Man udsætter musklerne for belastninger, der er højere end de er vant til på en relativt kontrolleret måde.
@@ -64,14 +66,16 @@ Man kan træne styrketræning af forskellige årsager. Grundlæggende har jeg id
 - Styrketræning for at få større muskler og modellere kroppen. Vi kalder den form for træning hypertrofitræning.
 - Styrketræning for at blive mere modstandsdygtig, mere eksplosiv, undgå skader, forbedre præstationen i andre idrætsgrene.
 
+{% endcomment %}
+
 ## Hvilke fysiologiske forandringer er effekten af styrketræning?
 
 I dette indlæg kommer jeg ind på de fysiologiske tilpasninger, der kommer ved at lave styrketræning.
 
 Effekten af styrketræning kan deles op i neurale tilpasninger, morfologiske tilpasninger og metaboliske tilpasninger.
 
-- **Morfologiske adaptationer**: De ting der sker med musklen og muskelfibrene, fx ændringer i størrelse og fibertyper
-- **Neurale adaptationer**: De tilpasninger, der sker i nervesystemet og i signalerne til musklerne.
+- **Morfologiske adaptationer**: Tilpasninger i musklen og muskelfibrene, fx ændringer i størrelse og fibertyper.
+- **Neurale adaptationer**: Tilpasninger i nervesystemet og signalerne til musklerne.
 - **Metaboliske tilpasninger**: De tilpasninger der ser i musklens metaboliske system og energiforsyning.
 
 ## Neurale tilpasninger ved styrketræning
@@ -178,6 +182,8 @@ Det diskuteres [jævnligt](https://andersnedergaard.dk/kropblog/sarcoplasmisk-vs
 
 Hvis du er interesseret i en praktisk tilgang til, [hvordan muskler vokser, så tjek vores tidligere indlæg her]({% link _posts/2019-10-22-hvordan-vokser-muskler.md %}).
 
+{% comment %}
+
 ## Effekt på sener og knogler
 
 Musklerne bliver stærkere ved styrketræning, men musklerne er jo en del af et større system. Musklerne hæfter til knoglerne gennem sener og ligamenter.
@@ -213,6 +219,8 @@ I takt med at man inden for forskningsverdenen har fået mere sofistikerede mål
 
 Derfor er der i senere år opstået hypoteser om, at selvom at tilpasningerne ved styrketræning primært går i retningen af øget muskelstørrelse og -styrke, så kan træningsformen eksempelvis også være med til at vedligeholde en sund mitokondrie-pulje og -funktion, hvilket har stor betydning for muskulaturens sundhed og derved også hele kroppens.
 
+{% endcomment %}
+
 ## Fysiologiske tilpasninger i forhold til tung styrketræning
 
 Per Aagaard (2009) har [foreslået](http://web.archive.org/web/20110606191439/http://www.motion-online.dk/styrketraening/styrke_-_artikler/optimal_styrketraening_er_tung_styrketraening/){:rel="nofollow"} følgende figur for at vise sammenhængen mellem de dokumenterede fysiologiske forandringer i forhold til opbygningen af træningen og udbyttet af den. 
@@ -237,12 +245,16 @@ Noget af din træning skal laves i dette _rep range_ for at få musklerne til at
 
 Træning udført ønsket om at flytte stangen så hurtigt som muligt med **1-8 RM** giver markante forbedringer på både maksimal-, eksplosiv- og excentrisk- muskelstyrke. En stor del af denne effekt er de neurale tilpasninger.
 
+{% comment %}
+
 Den tunge styrketræning kan siges at resultere i ([Aagaard (2009)](http://web.archive.org/web/20110606191439/http://www.motion-online.dk/styrketraening/styrke_-_artikler/optimal_styrketraening_er_tung_styrketraening/){:rel="nofollow"}):
 
 - øget maksimal muskelkraft og effekt ved både langsomme og hurtige bevægelseshastigheder (Schmidtbleicher & Buehrle 1987, Aagaard et al. 1994)
 - øget maksimal ‘eksplosiv’ muskelstyrke (Schmidtbleicher & Buehrle 1987, Aagaard et al. 1999)
 - øget maximal excentrisk muskelstyrke (Colliander & Tesch 1990, Aagaard et al. 1996, 2000)
 - øget kapacitet for muskulært at stabilisere led (Aagaard et al. 1996, 1997, 1998)
+
+{% endcomment %}
 
 Den tunge styrketræning er med til at forbedre præstationsevnen og forebygge idrætsskader, særligt pga. de neurale tilpasninger. For at løfte i dette _rep range_ med maksimal, eksplosiv kraft, kræver det naturligvis noget tilvænning og tekniktræning. 
 
