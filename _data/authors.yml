@@ -18,6 +18,14 @@ lsolesen:
     - label: "Køb mig en kaffe"
       icon: "fas fa-fw fa-mug-hot"
       url: "https://www.buymeacoffee.com/lsolesen"
+jesper.emil.jacobsgaard:
+  name             : "Jesper Emil Jacobsgaard"
+  avatar           : "/assets/images/authors/jesper-emil-jacobsgaard.png"
+  bio              : "Phd-studerende ved Århus Universitet i muskelbiologi. Cand.scient. i idræt. Har arbejdet som fysisk træner i superligaen og på fysiologisk testcenter."
+  links:
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin-square"
+      url: "https://www.linkedin.com/in/jesper-emil-jakobsgaard/"
 mads.davidsen:
   name             : "Mads Davidsen"
   avatar           : "/assets/images/authors/madsdavidsen.png"
