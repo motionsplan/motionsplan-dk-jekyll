@@ -81,7 +81,7 @@ collections:
     view_filters:
       - label: "Jesper"
         field: author
-        pattern: 'jesper.emil.jacobsgaard'
+        pattern: "jesper.emil.jacobsgaard"
   - name: "exercises" # Used in routes, e.g., /admin/collections/blog
     label: "Exercises" # Used in the UI
     folder: "_exercises/" # The path to the folder where the documents are stored
