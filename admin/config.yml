@@ -78,6 +78,10 @@ collections:
           - {label: "Alt", name: "alt", widget: "string"}
           - {label: "Image", name: "image_path", widget: "string"}
           - {label: "Url", name: "url", widget: "string"}          
+    view_filters:
+      - label: "Jesper"
+        field: author
+        pattern: 'jesper.emil.jacobsgaard'
   - name: "exercises" # Used in routes, e.g., /admin/collections/blog
     label: "Exercises" # Used in the UI
     folder: "_exercises/" # The path to the folder where the documents are stored
