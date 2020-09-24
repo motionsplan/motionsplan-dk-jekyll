@@ -150,7 +150,7 @@ Hård fysisk aktivitet medfører, at ens stofskifte er forhøjet 12-24 timer eft
 
 PAL skal ganges med BMR for at estimere ens daglige stofskifte. 
 
-**Eksempel:** Kvinden fra eksempel 1 arbejder på et kontor, hvor de ikke bevæger sig meget (PAL = 1,4-1,5). Hun er dog rimeligt aktiv i fritiden (PAL + 0,3). BMR (5893 Kj) gange med PAL (1,7) = 10018 Kj. Kvindens daglige stofskifte (ligevægtsindtag) vil være ca. 10.000 Kj.
+**Eksempel:** Kvinden fra ovenstående eksempel arbejder på et kontor primært med stillesiddende arbejde (PAL = 1,4-1,5). Hun dyrker sport i fritiden 4-5 gange om ugen (PAL + 0,3). BMR (5119 kJ) gange med PAL (1,7) = 8701 kJ. Kvindens daglige stofskifte (og derved ligevægtsindtag) vil være ca. 8.701 kJ.
 {: .notice .notice--info }
 
 Jeg har lavet en side, hvor du kan se på [MET-værdier for forskellige fysiske aktiviteter]({% link _posts/2020-07-24-met.md %}). MET-værdierne kan bruges til at beregne PAL-værdierne.
