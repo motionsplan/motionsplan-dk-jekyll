@@ -6,7 +6,7 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
   ## api_root: https://api.github.com
   base_url: https://api.netlify.com
-  site_domain: motionsplan.dk
+  ## site_domain: motionsplan.dk
   ## auth_endpoint: auth
   cms_label_prefix: netlify-cms/
 
@@ -56,7 +56,7 @@ collections:
               - {label: "Url", name: "url", widget: "string"}
       - {label: "Category", name: "category", widget: "list", allow_add: true}
       - {label: "Tags", name: "tags", widget: "list", allow_add: true}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown", }
       - label: Feature row
         name: feature_row
         widget: list
