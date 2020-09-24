@@ -33,8 +33,6 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Excerpt", name: "excerpt", widget: "text",  required: false, collapsed: true}
-      - {label: "Permalink", name: "permalink", widget: "string", required: false, collapsed: true}
       - label: Header
         name: header
         widget: object
@@ -54,7 +52,7 @@ collections:
               - {label: "Url", name: "url", widget: "string"}
       - {label: "Category", name: "category", widget: "list", allow_add: true}
       - {label: "Tags", name: "tags", widget: "list", allow_add: true}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown", preview: false }
       - label: Feature row
         name: feature_row
         widget: list
