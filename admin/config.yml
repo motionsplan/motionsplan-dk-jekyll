@@ -4,14 +4,13 @@ backend:
   name: github
   repo: motionsplan/motionsplan-dk-jekyll
   branch: master # Branch to update (optional; defaults to master)
+  api_root: https://api.github.com
+  base_url: https://api.netlify.com
+  site_domain: cms.netlify.com
+  auth_endpoint: auth
+  cms_label_prefix: netlify-cms/
 
 media_folder: "assets/images/uploads" # Media files will be stored in the repo under images/uploads
-
-api_root: https://api.github.com
-base_url: https://api.netlify.com
-site_domain: cms.netlify.com
-auth_endpoint: auth
-cms_label_prefix: netlify-cms/
 
 site_url: https://www.motionsplan.dk
 display_url: https://www.motionsplan.dk
