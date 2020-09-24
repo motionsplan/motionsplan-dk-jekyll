@@ -36,9 +36,13 @@ Med denne beregner kan du udregne dit hvilestofskifte (REE), og dit samlede dagl
 
 {% include calculate-stofskifte-nordic-2012.html %}
 
+{% comment %}
+
 ## Baggrunden for udregning af hvilestofskiftet
 
 Beregningen er behæftet med stor usikkerhed. Værdierne er rettet mod "almindelige" mennesker og ikke meget aktive kredsløbsatleter, fx cykelryttere og triatleter.
+
+{% endcomment %}
 
 ## Formel for udregning af energibehov
 

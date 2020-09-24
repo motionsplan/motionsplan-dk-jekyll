@@ -52,9 +52,13 @@ Resultatet er en gennemsnitsberegning for dit køn, din alder og din vægt.
 
 {% include calculate-metabolic-rate.html %}
 
+{% comment %}
+
 ## Baggrunden for stofskifteberegneren
 
 Beregningen af hvilestofskiftet er behæftet med stor en del usikkerhed. Værdierne er rettet mod "almindelige" mennesker og ikke meget aktive kredsløbsatleter, fx cykelryttere og triatleter, som kan have en noget mere aktiv forbrænding.
+
+{% endcomment %}
 
 ## Tabeller for udregning af hvilestofskiftet
 
@@ -84,7 +88,7 @@ Tabellerne og beregneren af stofskiftet er baseret på værdier fra _Nordiska N�
 
 V er vægt i kg. 
 
-Eksempel: en kvinde på 23 år som vejer 62 kg. har derfor et BMR på: BMR = 61,5 * 62 + 2080 = 5893 kJ dagligt. Hvis du gerne vil have tallet i **kalorier** skal du dele det med 4,2. Jeg har skrevet lidt mere om, hvad [kalorier (cal) og kilokalorier (kcal) er her]({% link _posts/2020-07-09-kalorier.md %}).
+Eksempel: En kvinde på 29 år som vejer 59 kg kan udregne sit hvilestofskifte således: BMR = 61,5 * 59 + 2080 = 5119 kJ dagligt. Hvis du gerne vil have tallet i **kalorier** skal du dele det med 4,2. Jeg har skrevet lidt mere om, hvad [kalorier (cal) og kilokalorier (kcal) er her]({% link _posts/2020-07-09-kalorier.md %}).
 {: .notice .notice--info }
 
 ## Hvordan måles hvilestofskiftet og basal metabolic rate (BMR)?

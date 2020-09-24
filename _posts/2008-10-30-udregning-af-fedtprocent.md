@@ -51,7 +51,7 @@ Fedtprocenten er den relative del af kropsvægten, som udgøres af fedt. Du har 
 
 Formularen benytter sig af flere forskellige udregninger til at estimere fedtprocenten. Formlerne for de enkelte beregninger, kan du se nedenunder.
 
-Baggrunden for beregneren er at BMI på populationsniveau er nogenlunde korreleret med fedtprocent.
+Baggrunden for beregneren er, at BMI på populationsniveau er nogenlunde korreleret med fedtprocent.
 
 ### Heitmann beregning af fedtprocent
 
