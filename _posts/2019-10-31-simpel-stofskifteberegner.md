@@ -148,7 +148,7 @@ Hård fysisk aktivitet medfører, at ens stofskifte er forhøjet 12-24 timer eft
 | Sport eller anden hård fysisk aktivitet i fritiden. (30-60 min. 4-5 gange/uge)	                                    | + 0,3   |
 | Hårdt kropsarbejde eller meget høj fritidsaktivitet.	                                                              | 2,0-2,4 |
 
-PAL skal ganges med BMR for at estimere ens daglige stofskifte. 
+Når du kender hvilestofskiftet (BMR) og faktoren for fysisk aktivitetsniveau (PAL) kan du estimere det daglige energiforbrug eller daglige stofskifte. Det gør du ved at gange hvilestofskiftet med PAL.
 
 **Eksempel:** Kvinden fra ovenstående eksempel arbejder på et kontor primært med stillesiddende arbejde (PAL = 1,4-1,5). Hun dyrker sport i fritiden 4-5 gange om ugen (PAL + 0,3). BMR (5119 kJ) gange med PAL (1,7) = 8701 kJ. Kvindens daglige stofskifte (og derved ligevægtsindtag) vil være ca. 8.701 kJ.
 {: .notice .notice--info }

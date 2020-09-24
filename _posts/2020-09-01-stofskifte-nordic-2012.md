@@ -70,7 +70,7 @@ I forhold til [Nordic Nutrition Reccommandations 2012](https://www.norden.org/da
 
 W er vægt i kg. H er højde i meter.
 
-Eksempel: en mand på 25 år, der vejer 80 kg har et hvilestofskifte på: REE = (0,0669 * 80 kg) + 2,28 = 7,632 MJ/dagligt = 7632 kJ = 1817 kcal. Jeg har skrevet lidt mere om, hvad [kalorier (cal) og kilokalorier (kcal) er her]({% link _posts/2020-07-09-kalorier.md %}).
+Eksempel: en mand på 25 år, der vejer 80 kg har et hvilestofskifte på: REE = (0,0669 * 80 kg) + 2,28 = 7,632 MJ/dagligt = 7.632 kJ = 1.817 kcal. Jeg har skrevet lidt mere om, hvad [kalorier (cal) og kilokalorier (kcal) er her]({% link _posts/2020-07-09-kalorier.md %}).
 {: .notice .notice--info }
 
 ### Fysisk aktivitetsniveau (PAL) og energibehov
@@ -84,9 +84,9 @@ Eksempel: en mand på 25 år, der vejer 80 kg har et hvilestofskifte på: REE = 
 | Sport eller anden hård fysisk aktivitet i fritiden. (30-60 min. 4-5 gange/uge)	                                    | + 0,3   |
 | Hårdt kropsarbejde eller meget høj fritidsaktivitet.	                                                              | 2,0-2,4 |
 
-PAL skal ganges med BMR for at estimere ens daglige stofskifte. 
+Når du kender hvilestofskiftet (BMR) og faktoren for fysisk aktivitetsniveau (PAL) kan du estimere det daglige energiforbrug eller daglige stofskifte. Det gør du ved at gange hvilestofskiftet med PAL.
 
-**Eksempel:** Manden fra eksemplet ovenfor arbejder på et kontor, hvor han ikke bevæger sig meget (PAL = 1,4-1,5). Hun er dog rimeligt aktiv i fritiden (PAL + 0,3). REE (7632 kJ) gange med PAL (1,7) = 12.974 kJ. Mandens samlede daglige stofskifte og energibehov (ligevægtsindtag) er altså cirka 13.000 kJ ifølge denne beregner.
+**Eksempel:** Manden fra eksemplet ovenfor arbejder på et kontor primært med stillesiddende arbejde (PAL = 1,4-1,5). Han dyrker sport og anden hård fysisk aktivitet i fritiden 4-5 gange om ugen (PAL + 0,3). REE (7632 kJ) gange med PAL (1,7) = 12.974 kJ. Mandens samlede daglige stofskifte og energibehov (ligevægtsindtag) er altså cirka 13.000 kJ ifølge disse beregninger.
 {: .notice .notice--info }
 
 ## Flere beregnere til dagligt energibehov
