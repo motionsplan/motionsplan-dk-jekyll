@@ -105,9 +105,9 @@ Hvis vi sætter standarderne for BMI ind i en tabel, ser det sådan ud:
 | Overvægtig     | 25-30                     | 25-30                   |
 | Fed            | 30 og højere              | 30 og højere            |
 
-Nyere tabeller har udvidet fedmeområdet til forskellige klassificeringer, som du kan se i denne tabel. Klassificeringen er lavet af [World Health Organization (WHO)](http://www.euro.who.int/en/health-topics/disease-prevention/nutrition/a-healthy-lifestyle/body-mass-index-bmi).
-
 ### Tabel: Fedmeklassificering ud fra Body Mass Index
+
+[World Health Organization (WHO)](http://www.euro.who.int/en/health-topics/disease-prevention/nutrition/a-healthy-lifestyle/body-mass-index-bmi) har lavet nye tabeller, hvor de har udvidet fedmeområdet med forskellige klassificeringer, som du kan se i denne tabel.
 
 |               | Fedme klassificering | BMI (kg/m<sup>2</sup>) | 
 |---------------|----------------------|------------------------|
@@ -127,7 +127,7 @@ NB. Hvis du er under 18 år, så kig længere nede på siden for en retfærdig v
 
 Når man kigger på en række forskellige studier i forhold til det optimale BMI i forhold til sundhedsfaktorer, så får man følgende billede.
 
-I de studier hvor man kigger på forskellen mellem mænd og kvinder, så ligger BMI enten inden for samme optimale område, eller også ligger mændene 2-5 BMI-point højere.
+I de studier hvor man kigger på forskellen mellem mænd og kvinder, så ligger BMI enten inden for samme optimale område, eller også ligger mændene 2-5 BMI-point højere (jf. [Morten Zacho](https://web.archive.org/web/20160808221414/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/beregn_din_idealvaegt/){:rel="nofollow"}).
 
 | Reference | Studium | Mænd | Kvinder |
 |-|-|-|-|
@@ -138,7 +138,7 @@ I de studier hvor man kigger på forskellen mellem mænd og kvinder, så ligger 
 | [Adams et al (2006)](http://www.ncbi.nlm.nih.gov/pubmed/16926275/) | NEJM | 25,0-27,9 | 23,5-26,4 |
 | [Calle et al (1999)](http://www.ncbi.nlm.nih.gov/pubmed/10511607/) | NEJM | 22,0-26,4 | 20,5-24,9 |
 
-Det meget store studie fra Flegal et al (2013) kommer til at overvurdere fordelen ved overvægt i forhold til BMI, fordi overvægt sammenlignes med normalvægt i området fra 18,5-25. Man ved fra ander undersøgelser, at dødeligheden er markant forhøjet, hvis man har et BMI mellem 18,5-20. Det interval vi normalt inkluderer som normalvægtigt er altså ikke et optimalt BMI i forhold til sundhed.
+Studiet af Flegal et al (2013) kommer til at overvurdere fordelen ved overvægt i forhold til BMI, fordi overvægt sammenlignes med normalvægt i området fra 18,5-25. [Morten Zacho skriver](https://web.archive.org/web/20160808221414/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/beregn_din_idealvaegt/){:rel="nofollow"}, at vi fra andre undersøgelser ved, at dødeligheden er markant forhøjet, hvis man har et BMI mellem 18,5-20. Det interval vi normalt inkluderer som normalvægtigt er altså ikke et optimalt BMI i forhold til sundhed.
 
 På baggrund af studierne [sætter Morten Zacho det optimale BMI til 22,5 for kvinder og 24,5 for mænd](https://web.archive.org/web/20160808221414/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/beregn_din_idealvaegt/){:rel="nofollow"}. Når man har den optimale BMI, så kan det bl.a. bruges til at [udregne din idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}).
 
@@ -150,7 +150,7 @@ På baggrund af dette siger [Morten Zacho, at plus-minus seks kilo ikke betyder 
 
 --- <cite>[Morten Zacho](https://www.dr.dk/levnu/krop/du-skal-veje-mere-end-du-tror)</cite>
 
-Derfor foreslår Morten Zacho også en ny tabel for BMI.
+Derfor foreslår [Morten Zacho](https://www.dr.dk/levnu/krop/du-skal-veje-mere-end-du-tror) også en revideret forståelse af BMI, som skitseres i følgende tabel.
 
 | Klassification  | BMI (kg/m<sup>2</sup>) | Note |
 |---------------|------------------------|-|
