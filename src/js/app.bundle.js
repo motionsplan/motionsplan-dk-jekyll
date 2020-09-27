@@ -228,9 +228,9 @@ $(document).ready(function() {
 
         var age = Number($("#age").val());
         var hr_rest = Number($("#hrrest").val());
-        var bloodpressure = Number($("#bloodpressure").val());
-        var diabetes = Number($("#diabetes").val());
-        var smoker = Number($("#smoker").val());
+        var bloodpressure = $("#bloodpressure").val();
+        var diabetes = $("#diabetes").val();
+        var smoker = $("#smoker").val();
         var bmi = Number($("#bmi").val());
         var fitnesslevel = Number($("#kondital").val());
 
