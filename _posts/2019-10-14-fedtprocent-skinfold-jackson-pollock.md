@@ -1,7 +1,7 @@
 ---
 title: "Jackson & Pollock 3-punktsmåling af fedtprocent (hudfold)"
 permalink: /skinfold-jackson-pollock/
-excerpt: "Jackson & Pollock 3-punktsmåling er bedst egnet til folk med en relativt lav fedtprocent. Formlen har en tendens til at estimere for lave fedtprocenter, men dette er individuelt og afhængigt af hvorledes ens fedtfordeling er."
+excerpt: "Jackson & Pollock trepunktsmåling er en hudfoldsmåling, som kan bruges til at estimere fedtprocent. Formlen egner sig bedst til personer, der ikke har for stort et fedtlag på kroppen."
 language: da
 header:
   overlay_image: https://www.ubershape.com.au/wp-content/uploads/2017/05/35A2528-1024x683.jpg
@@ -34,15 +34,19 @@ feature_row_references:
     btn_class: "btn--success"
 ---
 
+Jackson & Pollocks 3-punktsmåling er en hudfoldsmåling og formel, som du kan bruge til at estimere din fedtprocent og fedtfri masse. Metoden anbefales som standard af American College of Sports Medicine (ACSM).
+
 *[ACSM]: American College of Sports Medicine
 
-Jackson & Pollocks 3-punktsmåling er en hudfoldsmåling, hvor du kan estimere din fedtprocent og fedtfri masse. Metoden anbefales som standard af American College of Sports Medicine (ACSM).
+Jackson og Pollock lavede deres research med de generaliserede formler til at estimere fedtprocenten i 1970'erne. [Nevill et al (2008)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2891061/) skriver, at formlerne er de mest brugte i forskningslitteraturen til at estimere fedtprocent både for mænd (Jackson og Pollock 1978) og for kvinder (Jackson, Pollock og Ward 1980).
+
+Jackson og Pollock har både lavet en formel til måling af 7 punkter og en til 3 punkter. [Baranauskas et al (2015)](https://pubmed.ncbi.nlm.nih.gov/26490540/) har sammenlignet begge formler med en DEXA-scanner. De konkluderer, at der ikke er signifikant forskel mellem målingerne, og derfor er nedenstående beregner baseret på 3-punktsmåling.
 
 I Jackson og Pollocks trepunktsmåling måles forskellige steder for mænd og kvinder. Jeg gennemgår dem særskilt nedenunder:
 
 ## Fedtprocent for mænd
 
-- **Mænd** skal måle ved bryst, mave og lår.
+- **Mænd** skal måle hudfolderne ved bryst, mave og lår. Du kan se mere i følgende video.
 
 {% include video provider="youtube" id="6KLdyRJIAqk" %}
 
@@ -50,7 +54,7 @@ I Jackson og Pollocks trepunktsmåling måles forskellige steder for mænd og kv
 
 ## Fedtprocent for kvinder
 
-- **Kvinder** skal måle ved triceps, hoftekam og lår.
+- **Kvinder** skal lave hudfoldsmålingen ved triceps, hoftekam og lår.
 
 {% include video provider="youtube" id="hvC2TDs95xY" %}
 
@@ -58,25 +62,20 @@ I Jackson og Pollocks trepunktsmåling måles forskellige steder for mænd og kv
 
 ## Formel til Pollock og Jacksons fedtmåling
 
-Jeg bruger [formlerne som præsenteres på fitties.com](https://fitties.com/fat-caliper-plus/body-fat-calculation-methods/jackson-pollock-3/) i beregneren.
+Jeg bruger [formlerne som præsenteres på fitties.com](https://fitties.com/fat-caliper-plus/body-fat-calculation-methods/jackson-pollock-3/) i beregneren. Du kan læse mere om formlerne i Jackson og Pollock (1978) og Jackson et al (1980).
 
-{% comment %}
+## Usikkerheder for Jackson og Pollocks formel
 
-## Usikkerheder
+[Nevill et al (2008)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2891061/) stiller spørgsmålet i deres studium, om Jackson og Pollocks formler stadig kan bruges til at estimere fedtprocenten for overvægtige. De konkluderer, at man skal være varsomme med at bruge formlerne til overvægtige mennesker.
 
-Jackson & Pollocks trepunktsmåling er bedst egnet til folk med en relativ lav fedtprocent. I nogle tilfælde formlen have en tendens til at undervurdere den reelle fedtprocent.
+Nevill et al (2008) rapporterer både om 7-punktsmålingen og 3-punktsmålingen. Hvis man i 7-punktsmålingen har en samlet _sum of skinfolds_ på over 120, så bør man være varsom med at bruge formlerne til at estimere fedtprocenten. De foreslår en alternativ formel.
 
-## Noter til Jackson & Pollocks fedtmåling
-
-Der findes også en udgave, hvor man måler 7 punkter. Men ofte vil 3-punkts- og 7-punktsmålingen give nogenlunde samme resultat, så derfor har vi kun lavet en beregner for 3-punktsmålingen.
-
-{% endcomment %}
-
-## Referencer
+## Referencer til Pollock og Jackson
 
 {% include feature_row id="feature_row_references" type="left" %}
 
-- Jackson, A. S., og M. L. Pollock. 2004. “Generalized Equations for Predicting Body Density of Men. 1978”. The British Journal of Nutrition 91 (1): 161–68.
+- Jackson, A. S., M. L. Pollock, og A. Ward. 1980. “Generalized Equations for Predicting Body Density of Women”. _Medicine and Science in Sports and Exercise_ 12 (3): 175–81. <https://pubmed.ncbi.nlm.nih.gov/7402053/>.
+- Jackson, A. S., og M. L. Pollock. 1978. “Generalized Equations for Predicting Body Density of Men”. _The British Journal of Nutrition_ 40 (3): 497–504. [https://doi.org/10.1079/bjn19780152](https://doi.org/10.1079/bjn19780152).
 - Siri, W. E. 1956. “The Gross Composition of the Body”. Advances in Biological and Medical Physics 4: 239–80. <https://doi.org/10.1016/b978-1-4832-3110-5.50011-x>.
 
 ## Køb en hudfoldsmåler

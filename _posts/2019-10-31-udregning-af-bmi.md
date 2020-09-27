@@ -53,20 +53,20 @@ Men lad os først lige kigge på, hvad BMI er?
 
 [Body Mass Index](https://en.wikipedia.org/wiki/Body_mass_index) blev opfundet i 1832 af den belgiske videnskabsmand Adolphe Quetelet. Han var interesseret i at måle, hvordan det stod til med andelen af overvægtige i de nyligt industrialiserede lande. Quetelet var ikke læge, men var interesseret i en måde at gøre befolkningsgrupper sammenlignelige i forhold højde og vægt. 
  
-BMI kan bruges som et screeningsværktøj. På større populationer har fundet ud af, at BMI kan sige noget under- og overvægt, fordi BMI nogenlunde er korreleret med fedtprocenten. 
-
-BMI fungerer bedst som indikator for voksne mennesker, som har en højde der ligger inden for normalområdet. 
+BMI kan bruges som et screeningsværktøj. På større populationer har fundet ud af, at BMI kan sige noget under- og overvægt, fordi BMI nogenlunde er korreleret med fedtprocenten. Der er imidlertid mange udfordringer med denne fortolkning, som jeg kommer tilbage til i dette indlæg.
 
 Nedenfor har jeg også inddraget tabeller over BMI for børn, som børn kan vurderes efter. 
 
 BMI tager ikke højde for, om din vægt skyldes muskler eller fedt eller din kropsbygning i det hele taget. Fx vil meget muskuløse mennesker vurderes som overvægtige, selvom de har en lav fedtprocent.
 
-**VIGTIGT:** Du kan sagtens have en fuldt tilfredsstillende sundhedsprofil som overvægtig, hvis bare du motionerer og spiser sundt. Sundhedsmæssigt er det langt farligere at have et BMI på 23 og være i dårlig form end at have et BMI på 28 og være i god form.
+**VIGTIGT:** Du skal ikke lade BMI diktere om du har en sund vægt. Selvom du ifølge standardtabellerne for BMI klassificeres som overvægtig, så betyder det meget mere om du motionerer og spiser sundt. Sundhedsmæssigt er det langt farligere at have et BMI på 23 og være i dårlig form end at have et BMI på 28 og være i god form. Faktisk ser det ud til, at den laveste dødelighed i forhold til BMI ligger højere og højere (se bl.a. Afzal et al (2016)).
 
-Du kan læse lidt mere om [retfærdig vurdering af overvægtiges kondition](/kondital/), hvor det foreslås at kondition altid skal vurderes ud fra BMI 23.
+Du kan læse lidt mere om brugen af BMI til en [retfærdig vurdering af overvægtiges kondition](/kondital/), hvor det foreslås at kondition altid skal vurderes ud fra BMI 23.
 {: .notice .notice--warning }
 
-BMI har vist sig at være et godt værktøj til at beskrive forekomsten af overvægt i større befolkningsgrupper. Når man kigger på tilstrækkeligt mange personer på en gang, så forsvinder “afvigerne” og gennemsnitsværdierne er et fornuftigt udtryk for forekomsten af overvægt og fedme i større populationer.
+BMI har vist sig at være et godt værktøj til at beskrive forekomsten af overvægt i større befolkningsgrupper, men det ser ud til, at grænserne ændrer sig med studierne.
+
+Når forskerne kigger på tilstrækkeligt mange personer på en gang, så ser det ud til, at man kan finde relativt klare sammenhænge mellem forekomsten af overvægt og fedme i større populationer. 
 
 ## Formel: Hvordan udregnes BMI?
 
@@ -80,23 +80,23 @@ Eksempelvis vejer jeg selv 80 kg og jeg er 1,81 m høj. Mit BMI er altså:
 
 Ifølge BMI holder jeg mig lige netop inden for normalområdet, men lad os se på, hvordan vi kan fortolke BMI.
  
-## Test: Hvad er et normalt, sundt BMI-tal?
+## Test: Hvad er et normalt BMI-tal?
 
-Disse tabeller for BMI retter sig mod voksne mænd og kvinder i alderen med en højde i normalområdet og fra omkring 20 år og opefter.
+Der findes generelle tabeller for [Body Mass Index (BMI)](https://da.wikipedia.org/wiki/Body_Mass_Index), der retter sig mod voksne mænd og kvinder i alderen med en højde i normalområdet og fra ældre end 18 år og opefter.
 
 Tabellerne opdeler i forskellige grupper alt efter, hvor højt BMI er. Husk at værdierne kun er vejledende, fordi BMI ikke reelt kan tage højde for din kropskomposition. 
 
-For voksne er de generelle kategorier for BMI for voksne (ældre end 19 år og ikke for gravide):
+For voksne er de generelle kategorier for BMI for voksne (ældre end 18 år og ikke for gravide):
 
 - BMI under 18.5 = undervægtig
 - BMI mellem 18.5-24.9 = normalvægtig
 - BMI mellem 25-29.9 = overvægtig
 - BMI mellem 30-39.9 = fedme
 - BMI over 40 = svær fedme
-
-Hvis vi sætter standarderne for BMI ind i en tabel, ser det sådan ud:
-
+- 
 ### Tabel: Normalværdier for Body Mass Index
+
+Hvis vi sætter standarderne for BMI for voksne ind i en tabel, ser det sådan ud. Læg mærke til, at jeg i tabellen har ændret klassificeringen for undervægtige lidt, da det ser ud til at et BMI under 20 allerede er forbundet med sundhedsmæssige konsekvenser.
 
 | Klassifikation | Kvinde (kg/m<sup>2</sup>) | Mand (kg/m<sup>2</sup>) |
 |----------------|---------------------------|-------------------------|
@@ -105,9 +105,9 @@ Hvis vi sætter standarderne for BMI ind i en tabel, ser det sådan ud:
 | Overvægtig     | 25-30                     | 25-30                   |
 | Fed            | 30 og højere              | 30 og højere            |
 
-Nyere tabeller har udvidet fedmeområdet til forskellige klassificeringer, som du kan se i denne tabel. Klassificeringen er lavet af [World Health Organization (WHO)](http://www.euro.who.int/en/health-topics/disease-prevention/nutrition/a-healthy-lifestyle/body-mass-index-bmi).
-
 ### Tabel: Fedmeklassificering ud fra Body Mass Index
+
+[World Health Organization (WHO)](http://www.euro.who.int/en/health-topics/disease-prevention/nutrition/a-healthy-lifestyle/body-mass-index-bmi) har lavet nye tabeller, hvor de har udvidet fedmeområdet med forskellige klassificeringer, som du kan se i denne tabel, som gælder for voksne.
 
 |               | Fedme klassificering | BMI (kg/m<sup>2</sup>) | 
 |---------------|----------------------|------------------------|
@@ -118,31 +118,41 @@ Nyere tabeller har udvidet fedmeområdet til forskellige klassificeringer, som d
 |               | II                   | 35,0 - 39,9            |
 | Ekstrem fedme	| III                  | 40                     |
 
-NB. Hvis du er under 18 år, så kig længere nede på siden for en retfærdig vurdering af dit BMI.
+Hvis du er et barn eller ung under 18 år, så kig længere nede på siden for en retfærdig vurdering af dit BMI.
 {: .notice .notice--warning }
 
 {% include figure image_path="https://bgh.dk/wp-content/uploads/2018/11/det-betyder-bmi-tallene-847x1024.jpg" caption="Hvad er din BMI i forhold til normal?" alt="Tabel: Illustration af skala for hvad normal BMI er." %}
 
-## Hvad er det optimale BMI for mænd og kvinder?
+## Hvad er det optimale og sunde BMI for mænd og kvinder?
 
-Når man kigger på en række forskellige studier i forhold til det optimale BMI i forhold til sundhedsfaktorer, så får man følgende billede.
+Når man kigger på en række forskellige studier i forhold til det optimale BMI i forhold til sundhedsfaktorer, så får man et lidt andet billede end standardtabellerne for BMI.
 
-I de studier hvor man kigger på forskellen mellem mænd og kvinder, så ligger BMI enten inden for samme optimale område, eller også ligger mændene 2-5 BMI-point højere.
+I de studier hvor man kigger på forskellen mellem mænd og kvinder, så ligger BMI enten inden for samme optimale område, eller også ligger mændene 2-5 BMI-point højere (jf. [Morten Zacho](https://web.archive.org/web/20160808221414/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/beregn_din_idealvaegt/){:rel="nofollow"}).
 
-| Reference | Studium | Mænd | Kvinder |
-|-|-|-|-|
-| [Flegal et al (2013)](http://www.ncbi.nlm.nih.gov/pubmed/23280227/) | JAMA 2013 | 25-30 | 25-30 |
-| [Wong et al (2011)](http://www.ncbi.nlm.nih.gov/pubmed/22204699/) | BMC 2011 | 26,4-27,5 | 20,1-24,6 |
-| [Berrington de Gonzalez et al (2010)](http://www.ncbi.nlm.nih.gov/pubmed/21121834/) | NEJM 2010 | 22,5-28,8 | 21,3-26,3 |
-| [Lancet (2009)](http://www.ncbi.nlm.nih.gov/pubmed/19299006/) | Lancet | 22,5-25,0 | 22,5-25,0 |
-| [Adams et al (2006)](http://www.ncbi.nlm.nih.gov/pubmed/16926275/) | NEJM | 25,0-27,9 | 23,5-26,4 |
-| [Calle et al (1999)](http://www.ncbi.nlm.nih.gov/pubmed/10511607/) | NEJM | 22,0-26,4 | 20,5-24,9 |
+| Reference                                                                           | Mænd      | Kvinder   |
+|-------------------------------------------------------------------------------------|-----------|-----------|
+| [Flegal et al (2013)](http://www.ncbi.nlm.nih.gov/pubmed/23280227/)                 | 25-30     | 25-30     |
+| [Wong et al (2011)](http://www.ncbi.nlm.nih.gov/pubmed/22204699/)                   | 26,4-27,5 | 20,1-24,6 |
+| [Berrington de Gonzalez et al (2010)](http://www.ncbi.nlm.nih.gov/pubmed/21121834/) | 22,5-28,8 | 21,3-26,3 |
+| [Lancet (2009)](http://www.ncbi.nlm.nih.gov/pubmed/19299006/)                       | 22,5-25,0 | 22,5-25,0 |
+| [Adams et al (2006)](http://www.ncbi.nlm.nih.gov/pubmed/16926275/)                  | 25,0-27,9 | 23,5-26,4 |
+| [Calle et al (1999)](http://www.ncbi.nlm.nih.gov/pubmed/10511607/)                  | 22,0-26,4 | 20,5-24,9 |
 
-Det meget store studie fra Flegal et al (2013) kommer til at overvurdere fordelen ved overvægt i forhold til BMI, fordi overvægt sammenlignes med normalvægt i området fra 18,5-25. Man ved fra ander undersøgelser, at dødeligheden er markant forhøjet, hvis man har et BMI mellem 18,5-20. Det interval vi normalt inkluderer som normalvægtigt er altså ikke et optimalt BMI i forhold til sundhed.
+Studiet af Flegal et al (2013) kommer til at overvurdere fordelen ved overvægt i forhold til BMI, fordi overvægt sammenlignes med normalvægt i området fra 18,5-25. [Morten Zacho skriver](https://web.archive.org/web/20160808221414/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/beregn_din_idealvaegt/){:rel="nofollow"}, at vi fra andre undersøgelser ved, at dødeligheden er markant forhøjet, hvis man har et BMI mellem 18,5-20. Det interval vi normalt inkluderer som normalvægtigt er altså ikke et optimalt BMI i forhold til sundhed.
 
 På baggrund af studierne [sætter Morten Zacho det optimale BMI til 22,5 for kvinder og 24,5 for mænd](https://web.archive.org/web/20160808221414/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/beregn_din_idealvaegt/){:rel="nofollow"}. Når man har den optimale BMI, så kan det bl.a. bruges til at [udregne din idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}).
 
-Det er væsentligt at påpege, at der er store variationer for den enkelte i forhold til, om man lige nøjagtigt rammer det optimale BMI. Om BMI går et par stykker op eller ned betyder ikke så meget, men i forhold til helbredet og at leve længe, så kan man altså med fordel være tæt på kategorien overvægtig.
+Afzal et al (2016) har sammenlignet tre danske grupper af mennesker, og det ser ud til, at det BMI, der er forbundet med den laveste risiko for at dø er stigende med de tre kohorter. Det er lidt ærgerligt, at studiet har fastholdt klassifikationen med normalvægtige mellem 18.5 - 25.
+
+> Among 3 Danish cohorts, the BMI associated with the lowest all-cause mortality increased by 3.3 from 1976-1978 through 2003-2013. Further investigation is needed to understand the reason for this change and its implications.
+
+— <cite>[Afzal et al (2016)](https://jamanetwork.com/journals/jama/fullarticle/2520627)</cite>
+
+BMI forbundet med den laveste risiko for at dø i Danmark er altså i perioden steget med 3,3 BMI-point i forhold. Forskerne kan ikke helt sige, hvad ændringen skyldes, men det gør det endnu mere klart, at BMI med de nuværende tabeller er et godt mål for under- og overvægt og sammenknytning til sygdomme.
+
+{% include figure image_path="https://cdn.jamanetwork.com/ama/content_public/journal/jama/935276/m_joi160043f1.png?Expires=2147483647&Signature=bUHjLAJRSBNRF01urcInd7r4LD1EYdEtx~SIl36TRXj23srCwllDwHXYesXuBPrn728li-EGLOjNl7PFvdeOyptrvxdRAuc5SMMdOP~GwP0gktqvg8-M3zm8JbhMUOUdcQsvqPKk5Bd69-6VqpsUxWavydMmeWc6CVszvUlcWb6cSAKode9T6Q-p6OoCSncnsy8Eh8ijr5lIwT8~18GoPRlAHp4l6wEESPG-urULoKrtZ0z80NwdvOJFUiWI5F4HuLP4-5Zlh7BClPs1ZZMLTjwRsD5E00gebYYsv6~qilj~fb39znB3sVMKEqhLp1cZviwID1ka7yybj8I8vq~eyQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" caption="Multivariable-Adjusted Hazard Ratios for All-Cause Mortality in the 1976-1978, 1991-1994, and 2003-2013 Cohorts According to Body Mass Index. Kilde: [Afzal et al (2016)](https://jamanetwork.com/journals/jama/fullarticle/2520627)" %}
+
+Det er væsentligt at påpege, at der er store variationer for den enkelte i forhold til, om man lige nøjagtigt rammer det optimale BMI. Om BMI går et par stykker op eller ned betyder ikke så meget, men i forhold til helbredet og at leve længe, så kan man altså med fordel være tæt på kategorien overvægtig ud fra de nuværende klassifikationer.
 
 På baggrund af dette siger [Morten Zacho, at plus-minus seks kilo ikke betyder noget](https://www.dr.dk/levnu/krop/du-skal-veje-mere-end-du-tror).
 
@@ -150,7 +160,7 @@ På baggrund af dette siger [Morten Zacho, at plus-minus seks kilo ikke betyder 
 
 --- <cite>[Morten Zacho](https://www.dr.dk/levnu/krop/du-skal-veje-mere-end-du-tror)</cite>
 
-Derfor foreslår Morten Zacho også en ny tabel for BMI.
+Derfor foreslår [Morten Zacho](https://www.dr.dk/levnu/krop/du-skal-veje-mere-end-du-tror) også en revideret forståelse af BMI, som skitseres i følgende tabel.
 
 | Klassification  | BMI (kg/m<sup>2</sup>) | Note |
 |---------------|------------------------|-|
@@ -184,15 +194,15 @@ Husk at BMI ikke tager højde for kropsbygning og muskelmasse. En vurdering af b
 
 ### BMI for drenge og piger fra 2-5 år
 
-{% include figure image_path="https://bookanaut.com/dk/wp-content/uploads/2016/08/Screen-Shot-2016-12-04-at-09.49.22-e1480843191429.png" caption="BMI værdier for drenge under 2-5 år - [kilde](http://www.who.int/growthref/bmifa_boys_z_5_19_labels.pdf?ua=1)" alt="BMI værdier for drenge under 2-5 år" %}
+{% include figure image_path="https://bookanaut.com/dk/wp-content/uploads/2016/08/Screen-Shot-2016-12-04-at-09.49.22-e1480843191429.png" caption="BMI værdier for drenge under 2-5 år. Kilde: [WHO](http://www.who.int/growthref/bmifa_boys_z_5_19_labels.pdf?ua=1)" alt="BMI værdier for drenge under 2-5 år" %}
 
-{% include figure image_path="https://bookanaut.com/dk/wp-content/uploads/2016/08/Screen-Shot-2016-12-04-at-09.50.20-e1480843450746.png" caption="BMI værdier for piger 2-5 år - [kilde](http://www.who.int/childgrowth/standards/cht_wfh_girls_z_2_5.pdf?ua=1)" alt="BMI værdier for piger 2-5 år" %}
+{% include figure image_path="https://bookanaut.com/dk/wp-content/uploads/2016/08/Screen-Shot-2016-12-04-at-09.50.20-e1480843450746.png" caption="BMI værdier for piger 2-5 år. Kilde: [WHO](http://www.who.int/childgrowth/standards/cht_wfh_girls_z_2_5.pdf?ua=1)" alt="BMI værdier for piger 2-5 år" %}
 
 ### BMI for drenge og piger fra 5-19 år
 
 {% include figure image_path="https://nielstraining.dk/wp-content/uploads/2017/08/BMI-formel-drenge-sundhed-b%C3%B8rn-WHO-sundhed-e1502349412962.png" caption="BMI værdier for drenge 5-19 år - [kilde](http://www.who.int/growthref/bmifa_boys_z_5_19_labels.pdf?ua=1)" alt="BMI værdier for drenge 5-19 år" %}
  
-{% include figure image_path="https://nielstraining.dk/wp-content/uploads/2017/08/BMI-formel-piger-sundhed-b%C3%B8rn-WHO-sundhed-e1502348640326.png" caption="BMI værdier for piger 5-19 år - [kilde](http://www.who.int/growthref/bmifa_girls_z_5_19_labels.pdf?ua=1)" alt="BMI værdier for piger 5-19 år" %}
+{% include figure image_path="https://nielstraining.dk/wp-content/uploads/2017/08/BMI-formel-piger-sundhed-b%C3%B8rn-WHO-sundhed-e1502348640326.png" caption="BMI værdier for piger 5-19 år. Kilde: [WHO](http://www.who.int/growthref/bmifa_girls_z_5_19_labels.pdf?ua=1)" alt="BMI værdier for piger 5-19 år" %}
 
 Bemærk at ovenstående grafer er baseret på børn over hele verden. Som med BMI for voksne, så indrager tallene ikke dit barns bygning.
  
@@ -201,7 +211,7 @@ Bemærk at ovenstående grafer er baseret på børn over hele verden. Som med BM
 Der er en høj sammenhæng mellem BMI og kropsfedt i større populationer. Men selvom to personer har samme BMI, så har de ikke nødvendigvis samme andel af kropsfedt.
 [Politiken](https://politiken.dk/forbrugogliv/sundhedogmotion/art5517450/Disse-tre-kvinder-har-lige-meget-fedt) skriver fx om tre kvinder med meget forskellig kropsbygning og BMI, men de har samme fedtprocent.
 
-{% include figure image_path="https://politiken.dk/migration_catalog/img5175266.jbdmmm/ORIGINALS/original_960/gruppebillede" caption="Disse tre kvinder kategoriseres som hhv. meget overvægtig, normalvægtig og overvægtig ifølge BMI, men de har samme fedtprocent" %}
+{% include figure image_path="https://politiken.dk/migration_catalog/img5175266.jbdmmm/ORIGINALS/original_960/gruppebillede" caption="Disse tre kvinder kategoriseres som hhv. meget overvægtig, normalvægtig og overvægtig ifølge BMI, men de har samme fedtprocent. Kilde: Politiken" %}
 
 Generelt skal der tages disse forbehold ved vurderingen af BMI:
 
@@ -229,10 +239,10 @@ BMI er primært skabt på baggrund af populationer i de vestlige lande, og jeg h
 ## Nyere forskning peger på mindre sundhedsrisiko ved overvægt
 
 BMI klassifikationen er rettet mod under- og overvægtige. Tabellerne giver en klar kategorisering. Men under- og overvægt er kategoriseringer, som er baseret på gennemsnit i befolkningen.
+
 Hvis man kigger på sundhed, så har et [stort dansk studie fra 2016](https://jamanetwork.com/journals/jama/fullarticle/2520627), hvor man har fulgt nogle populationer over 40 år vist, at såkaldt “overvægtige” i forhold til BMI-klassifikationen faktisk lever længere end “normalvægtige”.
 
-Forskere har samlet data ind fra mere end 100.000 voksne i Danmark, og deres konklusion er klar. Overvægt i sig selv er ikke en sundhedsrisiko - måske er det endda en fordel for livslængden.
-Det hele er naturligvis en balance, og man skal nok ikke være klassificeret som “Ekstrem fedme III” med et BMI over 40.
+Forskere har samlet data ind fra mere end 100.000 voksne i Danmark, og deres konklusion er klar. Overvægt i forhold til BMI er i sig selv er ikke en sundhedsrisiko - måske er det endda en fordel for livslængden. Derfor bør tabellerne for BMI formentlig skrives om.
 
 Sundhed og helbred handler om så meget mere end under- og overvægt.
 
