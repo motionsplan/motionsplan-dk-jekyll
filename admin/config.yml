@@ -34,7 +34,7 @@ collections:
     view_filters:
       - label: "Jesper"
         field: author
-        pattern: "jesper.emil.jacobsgaard"
+        pattern: "jesper.emil.jakobsgaard"
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - label: Header
