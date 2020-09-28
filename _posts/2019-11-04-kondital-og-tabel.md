@@ -29,11 +29,11 @@ Konditallet siger meget om, hvordan din krop fungerer. Jeg har skrevet lidt om, 
 
 *[BMI]: Body Mass Index
 
-Hvad er konditallet? **Konditallet fortæller, hvor meget ilt kroppen kan transportere rundt og forbruge i forhold til din vægt. Jo mere ilt kroppen kan optage, desto mere energi kan kroppen producere, hvilket gør, at du kan klare en højere arbejdsintensitet. Vægten spiller også en rolle, fordi det kræver mere energi at flytte en tungere rolle væk. Konditallet måles som ml O<sub>2</sub> pr. min pr. kg kropsvægt.**
+Hvad er konditallet? **Konditallet fortæller, hvor meget ilt kroppen kan transportere rundt og forbruge i forhold til din vægt. Jo mere ilt kroppen kan optage, desto mere energi kan kroppen producere, hvilket gør, at du kan klare en højere arbejdsintensitet. Kropsvægten spiller også en rolle, fordi det kræver mere energi at flytte en tungere krop. Konditallet måles som ml O<sub>2</sub> pr. min pr. kg kropsvægt.**
 
 For at beregne dit kondital skal du kende din krops **maksimale iltoptagelse** og derefter divididerer du med din kropsvægt.
 
-Jeg har samlet en [forskellige tests og metoder til at finde dit kondital]{% link _posts/2019-11-04-kondition-og-test.md %}). Der står også lidt om, hvad du skal være opmærksom på, når du vil måle sit kondital.
+Jeg har samlet en [forskellige tests og metoder til at finde dit kondital]({% link _posts/2019-11-04-kondition-og-test.md %}). Der står også lidt om, hvad du skal være opmærksom på, når du vil måle sit kondital.
 
 ## Hvad er et godt kondital?
 
@@ -110,7 +110,7 @@ Du behøver ikke nødvendigvis at få målt din iltoptagelse i et laboratorium. 
 
 ## Retfærdig sundhedsmæssig vurdering af overvægtiges kondition
 
-Konditallet indgår ofte, når man vil vurdere den enkeltes sundhed. 
+Konditallet indgår ofte, når man vil vurdere den enkeltes sundhed.
 
 > Problemet med konditallet er imidlertid, at vægten indgår som en del af beregningen, og derfor vil stort set ingen overvægtige vil få tildelt et godt kondital, selv om de faktisk er i god form.
 
@@ -126,7 +126,7 @@ Det almindelige kondital udregnes ved at dividere VO<sub>2</sub>max med kropsvæ
 
 Derfor foreslår [Morten Zacho](http://web.archive.org/web/20100131082019/http://www.motion-online.dk/konditionstraening/testning/retfaerdig_vurdering_af_overvaegtiges_kondition/){:rel="nofollow"}, at man i forhold til vejledning har brug for målinger, der <q>objektivt vurderer kondition og vægt adskilt</q>. Med det normale kondital risikerer vi at vejlede til mere motion, selvom det i virkeligheden er kosten, der skaber udfordringer for den enkelte.
 
-Princippet i _Kondital ved Index 23_ er, at den maksimale iltoptagelse (målt med en test) divideres med den vægt man ville have haft, hvis man havde et BMI på 23. Dette vægtuafhængige kondital kan man slå op i de tabeller, der bruges for det almindelige kondital, og dermed få en vægtuafhængig vurdering af konditionen i forhold til alder og køn.
+Princippet i _Kondital ved Index 23_ er, at den maksimale iltoptagelse divideres med den vægt, man ville have haft, hvis man havde et BMI på 23. Dette vægtuafhængige kondital kan man slå op i de tabeller, der bruges for det almindelige kondital, og dermed få en vægtuafhængig vurdering af konditionen i forhold til alder og køn.
 
 ## Hvordan udregnes Kondital ved Index 23?
 
@@ -182,4 +182,4 @@ Skriv i kommentarerne, hvis du er klar til at læse, hvordan du forbedrer dit ko
 - Shvartz, E., og R. C. Reibold. 1990. “Aerobic Fitness Norms for Males and Females Aged 6 to 75 Years: A Review”. Aviation, Space, and Environmental Medicine 61 (1): 3–11.
 - Astrand, I. 1960. “Aerobic Work Capacity in Men and Women with Special Reference to Age”. Acta Physiologica Scandinavica. Supplementum 49 (169): 1–92. <https://pubmed.ncbi.nlm.nih.gov/13794892/>
 
-## Noter til kondition
+## Noter til kondition og kondital

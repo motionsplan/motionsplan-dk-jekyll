@@ -5,7 +5,8 @@ language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1530210124550-912dc1381cb8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
   teaser: https://images.unsplash.com/photo-1530210124550-912dc1381cb8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
-  caption: "Hvad vejer menneskets skelet og vores knogler? Photo by Mathew Schwartz on Unsplash"
+  caption: "Hvad vejer menneskets skelet og vores knogler?"
+  alt: "Photo by Mathew Schwartz on Unsplash"
   overlay_filter: 0.2
 category:
   - Viden om
@@ -69,17 +70,17 @@ Vægten af skelettet topper i 20-30 års alderen. Her har man opnået _peak bone
 
 Hele livet igennem udvikler skelettet sig for at være så stærkt som muligt. Knoglenedbrydende celler fjerner små mængder knoglevæv, mens knogleopbyggende celler genopbygger knoglerne. Hvis man laver vægtbærende aktivitet og har en fornuftig kost, så vil det bygge sig stærkere.
 
-Voksne mænd mister cirka 0,5% knoglemasse om året efter det 20-30 år, mens kvinder mister omkring 1% pr. år. Kvinder kan miste helt op til 6% i årene omkring overgangsalderen.[^note]
+Voksne mænd mister cirka 0,5% knoglemasse om året efter det 20-30 år, mens kvinder mister omkring 1% pr. år. Kvinder kan [miste helt op til 6% i årene omkring overgangsalderen](https://www.osteoporose-f.dk/knoglernes-udvikling/skelettets-udvikling/).
 
 > Tidlig overgangsalder (før 45 år), tobaksrygning, undervægt, manglende motion og mangel på D-vitamin og kalk (calcium) kan også øge knogletabet med alderen. Det samme gælder en række kroniske sygdomme og visse typer af medicin.
 
 --- <cite>[Overlæge, ph.d Pia Eiken](https://www.osteoporose-f.dk/knoglernes-udvikling/skelettets-udvikling/)</cite>
 
-[^note]: [Skelettet](https://www.osteoporose-f.dk/knoglernes-udvikling/skelettets-udvikling/)
-
 ## Hvorfor vejer knoglerne ikke mere?
 
-Nogle har mere kompakte knogler end andre. Man siger at densiteten og knoglemineraltætheden er højere for de mennesker. Typisk er der ikke så stor forskel på knoglestørrelsen mellem mennesker. Det er godt at have kompakt knogler med høj knoglemasse, for så brækker de ikke så let. 
+Nogle har mere kompakte knogler end andre. Man siger at densiteten og knoglemineraltætheden er højere for de mennesker. Typisk er der ikke så stor forskel på knoglestørrelsen mellem mennesker.
+
+Det er godt at have kompakte knogler med høj knoglemasse, for så brækker de ikke så let. 
 
 Knoglernes densitet har intet at gøre med knoglernes omkreds.
 
@@ -129,5 +130,3 @@ Jeg har skrevet lidt flere artikler om [knoglerne og knogletyperne](/knogler/) o
 ## Referencer
 
 - Lindstedt, S. L. and Calder, W. A. III (marts 1981).["Body Size, Physiological Time, and Longevity of Homeothermic Animals"](http://www.jstor.org/stable/2826367)._The Quarterly Review of Biology_.**56**(1): 1-16.
-
-## Noter
