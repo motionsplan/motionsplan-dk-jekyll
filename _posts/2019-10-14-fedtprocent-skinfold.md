@@ -77,7 +77,7 @@ En fedttang kan ikke give dig en eksakt måling af din fedtprocent ved at måle 
 
 ## Skal jeg estimere fedtprocenten med hudfoldsmålinger?
 
-At måle hudfoldstykkelser med fedttang er relativt pålideligt, når du har en pålidelig fedttang. De formler du kan bruge til at estimere fedtprocenten er imidlertid behæftet med relativt store fejlprocenter.
+At måle hudfoldstykkelser med fedttang er relativt pålideligt, når du har en pålidelig fedttang. De formler du kan bruge til at estimere fedtprocenten er imidlertid behæftet med nogen usikkerhed. Hvis du vælger at omregne dine målinger til fedtprocent, så læs grundigt op på hvilken usikkerhed, formlerne er behæftet med.
 
 Hvis du gerne vil tracke din kropskomposition over tid, så giver det formentlig mest mening bare at måle hudfoldstykkelserne uden at konvertere resultatet til en fedtprocent, som du alligevel ikke helt kan regne med.
 
