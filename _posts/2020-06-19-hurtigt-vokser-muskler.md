@@ -5,7 +5,8 @@ language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1552084162-ec07b3f162dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
   teaser: https://images.unsplash.com/photo-1552084162-ec07b3f162dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
-  caption: "Hypertrofi: Hvor hurtigt vokser dine muskler? Photo by Paweł Czerwiński on Unsplash"
+  caption: "Hypertrofi: Hvor hurtigt vokser dine muskler?"
+  alt: "Photo by Paweł Czerwiński on Unsplash"
 category:
   - Viden om
 tags:
@@ -14,28 +15,6 @@ tags:
   - muskler
 last_modified_at: 2020-06-11T08:14:14Z
 toc: true
-feature_row:
-  - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/1000x/9df78eab33525d08d6e5fb8d27136e95/a/n/anatomisk-guide-til-bevaegeapparatet-9788777499104-andrew-biel-gitte-bjerg-fuusager.jpg
-    alt: "Anatomisk Guide til Bevægeapparatet"
-    title: "Anatomisk Guide til Bevægeapparatet"
-    excerpt: "En praktisk guide til lokalisering af muskler, knogler med mere. Før du kan få succes med at undersøge og behandle bevægeapparatet, er du nødt til først at kende dets opbygning og kunne lokalisere de relevante strukturer."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/anatomisk-guide-til-bevaegeapparatet-9788777499104"
-    btn_label: "Læs mere hos Den Intelligente Krop"
-    btn_class: "btn--success"
-  - image_path: https://cdn5.bogreolen.dk/thumbnail/300x0/00002/73191/cover.20160911.jpg
-    alt: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
-    title: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
-    excerpt: "Menneskekroppen - anatomi, fysiologi og sygdomme er et anatomisk atlas til mennesket i det 21. århundrede. Gennem de computergenererede 3d-billeder og fantastiske illustrationer kan man opleve menneskekroppen i hidtil uset detaljegrad og skønhed."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://bogreolen.dk/menneskekroppen_steve-parker_9788756784436"
-    btn_label: "Læs mere hos Bogreolen"
-    btn_class: "btn--success"
-  - image_path: https://imgcdn.saxo.com/_9788762809000/0x500
-    alt: "Bevægeapparatets anatomi"
-    title: "Bevægeapparatets anatomi"
-    excerpt: "Når man skal lære om anatomi er det selvsagt en fordel med gode lærebøger, og her er “Bevægeapparatets anatomi” en absolut klassiker. Bag lærebogen står forfatterne Finn Bojsen Møller, Jan Hejle, Erik Bruun Simonsen, Jørgen Tranum-Jensen. De kombinerer viden om almen anatomi med information om hvordan man forebygger, undersøger, behandler, træner og genoptræner."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/bevaegeapparatets-anatomi_joergen-tranum-jensen_indbundet_9788762809000"
-    btn_label: "Læs mere hos Saxo"
-    btn_class: "btn--success"
 ---
 
 Jeg bliver ofte spurgt om, hvor hurtigt muskler vokser, og hvornår man kan se resultater. Hvor meget muskelmasse kan man egentlig tage på om året med styrketræning?
@@ -116,7 +95,7 @@ De endte med en meget enkelt formel til at estimere dit eget øvre potentiale fo
 FFM<sub>max</sub> = højde (m) x højde (m) x 34  
 Muskelmasse<sub>max</sub> = højde (m) x højde (m) x 17
 
-Så kan jeg hurtigt regne ud, at jeg som 1,81 cm høj i alt kan pakke lige omkring 55 kg muskler. Jeg fik for nylig lavet en InBody-bioimpedans-analyse, som fortæller mig at jeg har 40,1 kg skeletmuskelmasse. Jeg har altså potentiale til at tage 15 kg mere muskel på.
+Så kan jeg hurtigt regne ud, at jeg som 1,81 cm høj i alt kan pakke lige omkring 55 kg muskler. Jeg fik for nylig lavet en [bioimpedans kropskomposition med Body]({% link _posts/2019-10-14-fedtprocent-bioimpedans-inbody-570.md %}), som fortæller mig at jeg har 40,1 kg skeletmuskelmasse. Jeg har altså potentiale til at tage 15 kg mere muskel på.
 
 Jeg vil kalde mig selv letøvet i træning, fordi jeg holder lidt for mange træningspauser, og så er jeg blevet mere end 40. Hvis jeg går i gang nu, så kan jeg måske tage 4-5 kg muskelmasse på, hvis jeg virkelig fokuserer på det på det første år. Det følgende år måske maksimalt 2,5 kg og derefter bliver det bare endnu vanskeligere med under et kg om året. Jeg skal nok aldrig regne med at opfylde mit fulde potentiale ifølge denne model.
 
@@ -138,7 +117,7 @@ Vi har skrevet mere om [hvordan muskler vokser, hvis du er interesseret]({% link
 
 Det er klart lettest at bygge muskelmasse op i starten af ens styrketræningskarriere, og det bliver stadig vanskeligere og vanskeligere. Du kan formentlig bygge helt op til 10 kg muskelmasse på i løbet af det første år, hvis du gør alt rigtigt. Det følgende år er den mængde muskel allerede halveret. Det ser ud til, at responset er klart størst de første 12-18 uger.
 
-Hvis du vil kende nogle af de fysiologiske tilpasninger, der sker ved styrketræning, så tjek [dette indlæg]({% link _posts/2020-06-19-styrketraening-fysiologisk.md %}).
+Jeg har skrevet et andet indlæg om [fysiologiske tilpasninger, der sker ved styrketræning]({% link _posts/2020-06-19-styrketraening-fysiologisk.md %}).
 
 ## Referencer
 

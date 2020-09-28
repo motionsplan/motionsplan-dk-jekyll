@@ -13,28 +13,6 @@ tags:
   - muskler
 last_modified_at: 2020-06-03T08:14:14Z
 toc: true
-feature_row:
-  - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/1000x/9df78eab33525d08d6e5fb8d27136e95/a/n/anatomisk-guide-til-bevaegeapparatet-9788777499104-andrew-biel-gitte-bjerg-fuusager.jpg
-    alt: "Anatomisk Guide til Bevægeapparatet"
-    title: "Anatomisk Guide til Bevægeapparatet"
-    excerpt: "En praktisk guide til lokalisering af muskler, knogler med mere. Før du kan få succes med at undersøge og behandle bevægeapparatet, er du nødt til først at kende dets opbygning og kunne lokalisere de relevante strukturer."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/anatomisk-guide-til-bevaegeapparatet-9788777499104"
-    btn_label: "Læs mere hos Den Intelligente Krop"
-    btn_class: "btn--success"
-  - image_path: https://cdn5.bogreolen.dk/thumbnail/300x0/00002/73191/cover.20160911.jpg
-    alt: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
-    title: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
-    excerpt: "Menneskekroppen - anatomi, fysiologi og sygdomme er et anatomisk atlas til mennesket i det 21. århundrede. Gennem de computergenererede 3d-billeder og fantastiske illustrationer kan man opleve menneskekroppen i hidtil uset detaljegrad og skønhed."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://bogreolen.dk/menneskekroppen_steve-parker_9788756784436"
-    btn_label: "Læs mere hos Bogreolen"
-    btn_class: "btn--success"
-  - image_path: https://imgcdn.saxo.com/_9788762809000/0x500
-    alt: "Bevægeapparatets anatomi"
-    title: "Bevægeapparatets anatomi"
-    excerpt: "Når man skal lære om anatomi er det selvsagt en fordel med gode lærebøger, og her er “Bevægeapparatets anatomi” en absolut klassiker. Bag lærebogen står forfatterne Finn Bojsen Møller, Jan Hejle, Erik Bruun Simonsen, Jørgen Tranum-Jensen. De kombinerer viden om almen anatomi med information om hvordan man forebygger, undersøger, behandler, træner og genoptræner."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/bevaegeapparatets-anatomi_joergen-tranum-jensen_indbundet_9788762809000"
-    btn_label: "Læs mere hos Saxo"
-    btn_class: "btn--success"
 ---
 
 Jeg har ofte forklaret mine elever, hvordan en muskel trækker sig sammen. Jeg har samlet min forklaring på en muskelsammentrækning i dette indlæg. Den mest udbredte forklaring på, hvordan en muskel trækker sig sammen er _sliding filament teorien_.
@@ -47,17 +25,15 @@ Hvordan trækker en muskel sig sammen? **Den mest udbredte teori til at forklare
 
 ## Signal fra nervesystemet starter sammentrækningen
 
-Sammentrækningen i musklen starter med et signal fra nervesystemet. Signalet starter altså i hjernen, hvor de løber gennem nervesystemet og hen til musklen. Når musklen trækker sig sammen, så bevæger dine knogle sig. Og det hele går virkelig hurtigt. 
+Sammentrækningen i musklen starter med et signal fra nervesystemet. Signalet starter altså i hjernen, hvor de løber gennem nervesystemet og hen til musklen. Når musklen trækker sig sammen, så bevæger dine knogler sig. Denne proces går virkelig hurtigt. 
 
 ## Muskelsammentrækning
 
-En muskelsammentrækning ser, når musklerne bliver kortere. Det sker helt bogstaveligt at fibrene bliver kortere. For at forstå hvordan muskelcellerne bliver kortere, så skal du forstå opbygningen af musklerne.
+En muskelsammentrækning sker, når musklerne bliver kortere. Fibrene bliver ganske enkelt kortere. For at forstå hvordan muskelcellerne bliver kortere, så skal du forstå opbygningen af musklerne.
 
 ## Strukturen i muskelfiberen
 
-Hvis man kigger på en muskel helt nede på molekyleniveau, vil man kunne se nogle filamenter der glider ind og ud mellem hinanden. De tykke filamenter består af myosin og de tynde af actin.
-
-Hver muskelfiber består af flere hundrede **myofibriller**. Hver myofibril består af to typer proteiner.
+Hvis man kigger på en muskel på molekyleniveau, vil man kunne se nogle filamenter der glider ind og ud mellem hinanden. Hver muskelfiber består af flere hundrede **myofibriller**. Hver myofibril består af to typer proteiner.
 
 - **Aktin**-filamenter som er de tynde
 - **Myosin**-filamenter som er de tykke
@@ -66,21 +42,21 @@ Aktin-filamenterne samles i de såkaldte **Z-skiver**. Regionen mellem to Z-skiv
 
 Myosin-filamenterne har små strukturer, der kaldes **cross bridges**, som kobler sig på aktin-filamenterne.
 
-Med andre ord så stikker der altså nogle små hoveder ud på de tykke myosin-filamenter. Dsse hoveder kan gribe fat i aktin-filamenterne og lave en nikkebevægelse, hvorefter filamenterne trækkes mod hinanden. 
+Med andre ord så stikker der altså nogle små hoveder ud på de tykke myosin-filamenter. Disse hoveder kan gribe fat i aktin-filamenterne og lave en nikkebevægelse, hvorefter filamenterne trækkes mod hinanden, så muskelfiberen bliver kortere.
 
-En muskel kan altså kun gøre en ting - nemlig at forsøge på at gøre sig kortere. Det kalder vi en **koncentrisk kontraktion**. Det kan godt forekomme at den ydre belastning er større end muskelkraften, hvorved musklen forlænges, men musklen vil faktisk stadig forsøge på at forkorte sig. Hvis musklen bliver længere under en kontraktion, kalder vi det en **excentrisk kontraktion**.
+En muskel kan altså kun gøre en ting - nemlig at forsøge på at gøre sig kortere. Det kalder vi en **koncentrisk kontraktion**. Den ydre belastning kan også være større end muskelkraften, hvorved musklen forlænges, men musklen udvikler stadig kraft. Hvis musklen bliver længere under en kontraktion, kalder vi det en **excentrisk kontraktion**.
 
 ## ‘Sliding Filament’-teorien
 
 Den mest accepterede teori til at forklare, hvordan en muskel trækker sig sammen er den såkaldte **sliding filament theory**. Ifølge teorien så bruger myosinfilamenterne energi fra ATP til at vandre langs aktin-filamenterne med de små _cross bridges_. 
 
-Denne bevægelse af aktin-filamenterne trækker også Z-skiver tættere på hinanden. Derfor bliver sarcomereren kortere.
+Denne bevægelse af aktin-filamenterne trækker også Z-skiverne tættere på hinanden. Derfor bliver sarcomereren kortere.
  
 {% include video provider="youtube" id="7V-zFVnFkWg" %}
 
-Når alle sarcomererne i musklefiberen bliver kortere, så trækker fiberen sig sammen. En muskelfiber kan enten trække sig sammen, eller også trækker den sig slet ikke sammen. 
- 
-Antallet af fibre der trækker sig sammen bestemmer den kraft musklen trækker sig sammen med. Når flere fibre trækker sig sammen på samme tid, så er kraften større.
+Når alle sarcomererne i musklefiberen bliver kortere, så trækker fiberen sig sammen.
+
+Antallet af fibre der trækker sig sammen bestemmer den kraft musklen trækker sig sammen med. Når flere muskelfibre trækker sig sammen på samme tid, så er kraften større.
 
 I denne video kan du se en medlevende forklaring af, hvordan muskler er bygget op og hvorfor de trækker sig sammen.
 
@@ -104,7 +80,7 @@ Myosin er et hoved på en stilk. Hovedet er fleksibelt og det knytter an til act
 
 Muskler kan ikke trække sig sammen alene. De har behov for et _stimulus_ fra en nervecelle, der giver signal til musklen om at trække sig sammen. 
 
-Hvis du fx vil bøje din arm, så sender hjernen et elektrisk signal til nervecellerne, der kaldes **motor neurons** i biceps. Motor neuronerne stimulerer muskelfibrene i biceps til at trække sig sammen. 
+Hvis du fx vil bøje din arm, så sender hjernen et elektrisk signal til nervecellerne, der kaldes **motor neuroner** i armbøjerne, fx biceps. Motor neuronerne stimulerer muskelfibrene i biceps til at trække sig sammen. 
 
 Selv de ufrivillige bevægelser, fx  hjertemusklen, er også styret af nervesystemet.
 

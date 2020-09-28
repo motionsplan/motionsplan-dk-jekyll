@@ -62,11 +62,11 @@ Men hvis det ikke er mælkesyren, der udtrætter musklerne og gør, at jeg ikke 
 
 **Kaliumbalancen** kan være en anden træthedsfaktor. 
 
-Vores krop er opbygget af celler. Der er både væske inden i cellerne og uden for cellerne. I væsken er mineralet kalium. I cellerne er der store mængde opløse kaliumsalte, mens der uden for cellerne ikke under almindelige forhold er ret meget kalium.
+Vores krop er opbygget af celler. Der er både væske inden i cellerne og uden for cellerne. I væsken er mineralet kalium. I cellerne er der store mængder opløste kaliumsalte, mens der uden for cellerne under almindelige forhold ikke er ret meget kalium.
 
-Denne forskel i koncentration af kalium er en forudsætning for, at cellerne kan opfange og behandle de elektriske impulser, som hjernen sender gennem nervebanerne for at give musklerne besked om at bevæeg sig.
+Denne forskel i koncentration af kalium er en forudsætning for, at cellerne kan opfange og behandle de elektriske impulser, som hjernen sender gennem nervebanerne for at give musklerne besked om at trække sig sammen.
 
-Under hårdt intensivt arbejde så afgives der kalium til væsken uden om muskelcellerne. Dermed forskydes den naturlige fordeling af kalium i kroppen. I yderste instans så lammes musklerne, fordi signalerne fra hjernen ikke længere kan opfattes.
+Under hårdt intensivt arbejde afgives der kalium til væsken uden om muskelcellerne. Dermed forskydes den naturlige fordeling af kalium i kroppen. I yderste instans så kan musklerne ikke længere opfatte signalerne fra hjernen pga. forskydningen i kaliumbalancen.
 
 Nogle danske forskere har foreslået, at [mælkesyre er med til at beskytte musklerne mod denne lammelse](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2278832/), mens andre forskere konkluderer, at [mælkesyre ikke beskytter musklerne mod træthed i aktive muskler](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1665519/).
 

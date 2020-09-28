@@ -16,7 +16,7 @@ last_modified_at: 2020-07-17T08:39:32Z
 
 Balancetræning bør være en del af din træning, da træning af balance forebygger skader. Vi har kigget på, hvad balance er for noget, og hvordan du træner din balance mest effektivt?
 
-**Balance er en motorisk færdighed, som kan trænes. Balance omfatter evnen til at opretholde en ligevægtstilstand i kroppen, mens man er stationær eller i bevægelse. Balance handler altså om at kunne stå eller sidde stille eller bevæge sig uden at falde.**
+Hvad er balance? **Balance er en motorisk færdighed, som kan trænes. Balance omfatter evnen til at opretholde en ligevægtstilstand i kroppen, mens man er stationær eller i bevægelse. Balance handler altså om at kunne stå eller sidde stille eller bevæge sig uden at falde.**
 
 I forbindelse med balance, kan man også tale om **postural kontrol**. Postural kontrol er nært forbundet med bevægelse, da enhver bevægelse i kroppen forstyrrer ligevægtstilstanden i kroppen og derved balancen.
 
@@ -26,7 +26,7 @@ Postural kontrol
 
 **Hvad er balancetræning?** Balancetræning er træning, der har til formål at forbedre evnen til at holde eller genfinde balancen og holde kroppen i ro under forskellige betingelser. Balancetræning forbedrer den posturale stabilitet, hvilket omfatter at opreholde en ligevægtstilstand både med og uden bevægelse.
 
-Balancetræning gavner præstationsevnen og forebygger skader. Samtidig er det sjovt at lave, og du kan lave balancetræning på rigtig mange forskellige måder. Balancetræning kan:
+Balancetræning gavner præstationsevnen og forebygger skader. Samtidig er det sjovt at lave, og du kan lave balancetræning på rigtig mange forskellige måder. [Marina Aagaard](http://marinaaagaardblog.com/2015/08/10/balancetraening-3-basis-balanceoevelser-der-goer-dig-staerk-og-stabil/) fastslår, at balancetræning kan:
 
 - Iaves inde og ude
 - med og uden redskaber
