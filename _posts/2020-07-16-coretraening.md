@@ -48,7 +48,7 @@ Der findes flere definitioner af, hvad der hører med til core-musklerne. Jeg ho
 - Diaphrama (åndedrætsmusklen)
 - Bækkenbunden
 
-Disse muskler er hovedansvarlige fo rat bøje, strække og rotere ryggen, men de er ikke mindst ansvarlige for at stabilisere rygsøjlen og modstå de samme bevægelser.
+Disse muskler er hovedansvarlige for at bøje, strække og rotere ryggen, men de er ikke mindst ansvarlige for at stabilisere rygsøjlen og modstå de samme bevægelser.
 
 Alle musklerne er afhængige af hinandens styrke for at kunne fungere optimalt.
 
@@ -58,9 +58,9 @@ Der findes rigtig mange måder at træne din core og kropsstamme på, og det er 
 
 ## Hvorfor lave kropsstammetræning?
 
-Nogen siger, at det ikke er nødvendigt at træne core, hvis bare man træner de store helkropsøvelser som squat og dødløft, fordi den allerede bliver trænet rigeligt der.
+Nogen siger, at det ikke er nødvendigt at træne core, hvis bare man træner de store helkropsøvelser som squat og dødløft, fordi kropsstammen allerede bliver trænet rigeligt i forhold til at stabilisere de store øvelser.
 
-Jeg mener nu stadig, at kropsstammetræning er en vigtig del af styrketræning. Først og fremmest skal kropsstammen naturligvis kunne levere stabilitet, men den skal også bruges i andre sammenhænge end som stabil i bilaterale, compound øvelser.
+Jeg mener nu stadig, at kropsstammetræning er en vigtig del af styrketræning. Først og fremmest skal kropsstammen naturligvis kunne levere stabilitet, men den skal også bruges i andre sammenhænge end som stabilitet i bilaterale, compound øvelser.
 
 Der er også noget, der tyder på at en endnu stærkere kropsstamme kan være med til at forbedre præstationer i fx styrkeløft og vægtløftning endnu mere. Det sker først og fremmest fordi en stærk core, kan give en god stabilitet, så de arbejdende muskler i ben, skuldre og arme kan arbejde mere effektivt.
 

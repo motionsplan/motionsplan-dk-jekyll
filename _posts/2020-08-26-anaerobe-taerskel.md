@@ -22,7 +22,7 @@ tags:
 
 Den anaerobe tærskel eller mælkesyregrænsen er et meget udbredt begreb i konditionstræning og udholdenhedstræning, men der er stadig en del forvirring omkring begrebet anaerob tærskel, og hvordan det kan bruges i praksis? Mindre brugt er den aerobe tærskel, som jeg også berører i dette indlæg.
 
-Hvad er den anaerobe tærskel? **Den anaerobe tærskel er det tidspunkt, hvor kroppen ikke længere kan nå at fjerne mælkesyren (laktat), der produceres ved ved anaerobt arbejde med højere intensiteter.**
+Hvad er den anaerobe tærskel? **Den anaerobe tærskel er det tidspunkt, hvor kroppen ikke længere kan nå at fjerne mælkesyren (laktat), der produceres ved anaerobt arbejde med højere intensiteter.**
 
 ## Aerob og anaerob tærskel ud fra laktat
 
@@ -46,7 +46,9 @@ LT2 - Anaerob tærskel
 
 Men der findes [i hvert fald 8 fortolkninger af den anaerob tærskel, som Heuberger et al (2018) diskuterer i deres studium](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6235347/).
 
-Det er væsentligt at nævne, at 4 mmol/l-tærsklen er en gammel observation. Fx fand Myburgh et al (2001), at veltrænede triatleter på et cykelergometer i en time kunne køre med en gennemsnitlig laktatkoncentration på 7,6 mmol/l (5,0 - 12,3 mmol/l). Den anaerobe tærskel findes, men den kan altså ikke præcist sættes i forhold til en bestemt værdi for laktatmålinger i blodet.
+Det er væsentligt at nævne, at 4 mmol/l-tærsklen er en gammel observation. Fx fandt [Myburgh et al (2001)](https://pubmed.ncbi.nlm.nih.gov/11194102/), at veltrænede triatleter på et cykelergometer i en time kunne køre med en gennemsnitlig laktatkoncentration på 7,6 mmol/l, og at koncentrationen lå i spændet fra 5,0 - 12,3 mmol/l. Laktatkoncentrationen i blodet korrelerede ikke med præstationen i studiet (altså distancen kørt på en time).
+
+Den anaerobe tærskel findes, men den kan altså ikke præcist sættes i forhold til en bestemt værdi for laktatmålinger i blodet.
 
 Det er interessant, om du kan estimere din egen absolutte laktattærskel, og om den så flytter sig over tid.
 
@@ -54,7 +56,7 @@ Det er interessant, om du kan estimere din egen absolutte laktattærskel, og om 
 
 Du kan naturligvis få testet din anaerobe tærskel i et laboratorium, hvor du kan få målt laktat jævnligt med professionelt udstyr. Typisk vil man lave testen som en "trappe"-test, hvor man gradvist sætter tempoet op og tager laktatmålinger undervejs. Det kan fx ske sammen med en [submaksimal test af iltoptagelsen]({% link _posts/2019-10-31-kondital-laboratorietest.md %}).
 
-Du kan også teste den lidt mere lavpraktisk, hvis du gerne vil have en ide om, hvor din **anaerobe tærskel** ligger i forhold til pulsområdet. Her skal du arbejde maksimalt i en periode på omkring 30 minutter - 60 minutter.
+Du kan også teste den lidt mere **lavpraktisk**, hvis du gerne vil have en ide om, hvor din **anaerobe tærskel** ligger i forhold til pulsområdet. Her skal du arbejde maksimalt i en periode på omkring 30 minutter - 60 minutter.
 
 Testen er en _all-out_-test, og derfor anbefales det, at du har en vis træningserfaring, inden du går i gang med at teste den anaerobe tærskel. Hvis du er begynder, så er det alligevel ikke først og fremmest den anaerobe tærskel, der er interessant i træningsprogrammet.
 

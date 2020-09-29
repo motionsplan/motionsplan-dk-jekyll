@@ -40,7 +40,7 @@ Der er mange årsager til, at folk vil styrketræne. Alle årsagerne er lige god
 
 Vi starter med nogle grundlæggende tanker om, hvordan kroppen bliver bedre. Derefter fortsætter vi med mere specifikke råd om programlægning.
 
-**“Standing on the shoulders of giants.”** Dette hæfte er kraftigt inspireret af [Nucklos og Isuf (2015a og 2015b)](https://www.strongerbyscience.com/art-and-science/). Vi bliver også dagligt klogere af at læse tanker fra følgende: [Eric Cressey](https://ericcressey.com/) (performance og balance), [Bret Contreas](https://bretcontreras.com/) (styrketræning og hoftens funktion), [Gray Cook](http://graycook.com/) (functional movement og screening), [Dean Somerset](https://deansomerset.com/) (performance og stabilitet), [Eric Helms](https://3dmusclejourney.com/) (good ideas about what is more important) og [Mike Robertson](https://robertsontrainingsystems.com/).
+**“Standing on the shoulders of giants.”** Denne artikel er kraftigt inspireret af [Nucklos og Isuf (2015a og 2015b)](https://www.strongerbyscience.com/art-and-science/). Vi bliver også dagligt klogere af at læse tanker fra følgende: [Eric Cressey](https://ericcressey.com/) (performance og balance), [Bret Contreas](https://bretcontreras.com/) (styrketræning og hoftens funktion), [Gray Cook](http://graycook.com/) (functional movement og screening), [Dean Somerset](https://deansomerset.com/) (performance og stabilitet), [Eric Helms](https://3dmusclejourney.com/) (good ideas about what is more important) og [Mike Robertson](https://robertsontrainingsystems.com/).
 {: .notice .notice--info }
 
 ## Lav en træningsplan!

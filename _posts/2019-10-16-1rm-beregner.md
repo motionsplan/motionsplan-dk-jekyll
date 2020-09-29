@@ -6,7 +6,8 @@ language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1526401485004-46910ecc8e51?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80
   teaser: https://images.unsplash.com/photo-1526401485004-46910ecc8e51?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
-  caption: RM-beregner til 1RM Max. Photo by Victor Freitas on Unsplash
+  caption: RM-beregner til 1RM Max.
+  alt: Photo by Victor Freitas on Unsplash
   overlay_filter: 0.3
 category:
   - Beregnere

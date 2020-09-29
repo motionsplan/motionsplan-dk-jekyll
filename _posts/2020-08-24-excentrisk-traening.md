@@ -17,7 +17,7 @@ tags:
 
 Jeg har researchet lidt på hvad excentrisk træning er, hvordan man kan bruge excentriske træning, og hvad man får ud af at lægge mere vægt på den excentriske fase i sine løft.
 
-Hvad er excentrisk træning? **Excentrisk træning indeholder øvelser, hvor musklen udvikler kraft samtidig med, at den forlænges. I excentrisk træning skal musklerne altså modstå en udefrakommende belastning, som musklerne skal bremse.**
+Hvad er excentrisk træning? **Excentrisk træning indeholder øvelser, hvor musklen udvikler kraft samtidig med at musklen forlænges. I excentrisk træning skal musklerne modstå en udefrakommende belastning, som musklerne skal bremse.**
 
 Nogle kalder det også **eccentrisk træning**, men det er faktisk en stavefejl, men stammer nok fra, at det på engelsk hedder _eccentric_.
 {: .notice .notice--info }
@@ -28,25 +28,23 @@ Musklerne kan yde mere kraft i den excentriske fase end i den koncentriske fase.
 
 Du kender det måske godt på din egen krop. Du ligger under stangen i bænkpres. Du bliver presset ned i bænken, og du ser skiverne hænge faretruende på hver sin side af stangen.
 
-Du sænker langsomt excentrisk stangen mod brystet i din 7. gentagelse. Du trækker vejret ind. Du har fin kontrol over stangen, og brystmuskulaturen og triceps er klar til at presse stangen op i strakte arme igen.
+Du sænker langsomt excentrisk stangen mod brystet i din sjette gentagelse. Du trækker vejret ind. Du har fin kontrol over stangen, og brystmuskulaturen og triceps er klar til at presse stangen op i strakte arme igen.
 
 Men det er ikke så let. Du havde god kontrol, da du sænkede vægten, men du kan ikke flytte stangen en millimeter, da du vil presse den op igen.
 
-Du er glad for, at der var en spotter, som kunne hjælpe dig. Og alt hvad der var nødvendigt for at få stangen op igen var spotterens to hjælpende fingre på stangen.
+Du er glad for, at der var en spotter, som kunne hjælpe dig. Spotteren skulle bare sætte to hjælpende fingre på stangen, og så kunne du presse stangen op i strakte arme igen og få den _racket_.
 
-Du prøver igen at sænke stangen, og det går rigtig godt. I den excentriske fase af løftet kan du sænke stangene rolig og kontrolleret, men det samme sker i bunden. Du kan ikke flytte den.
+Du prøver igen at sænke stangen, og det går igen rigtig godt. I den excentriske fase af løftet kan du sænke stangene rolig og kontrolleret, men det samme sker i bunden. Du kan ikke flytte stangen overhovedet.
 
 Hvordan kan det være, at det er sådan?
 
 Det skyldes ganske enkelt at musklerne er stærkere i det excentriske arbejde i forhold det koncentriske arbejde. I den koncentriske fase begynder musklerne at udvikle styrke fra 0% og op til 100%, men som du kan se i **force-velocity-kurven** nedenunder, så kan musklerne i den excentriske fase udvikle over 100% af kraft i forhold til den koncentriske fase.
 
-{% include figure image_path="https://upload.wikimedia.org/wikipedia/en/2/22/Muscle_Force_Velocity_relationship.png" caption="Force-velocity og power kurve. Billede: [Wikipedia](https://en.wikipedia.org/wiki/Muscle_contraction)" %}
+{% include figure image_path="https://upload.wikimedia.org/wikipedia/en/2/22/Muscle_Force_Velocity_relationship.png" caption="Force-velocity og power kurve. Billede: [Wikipedia](https://en.wikipedia.org/wiki/Muscle_contraction)." %}
 
 Du har altså lige været i gang med at lave **excentrisk træning** i bænkpres.
 
-Excentrisk træning er træning med excentriske øvelser. Excentrisk bevægelse (sammentrækning) er forlængelse af muskler under kraft i modsat retning – vægt eller modstand, og det er modsat af koncentrisk afkortning af muskler.
-
-Vi kan stort set sige, at excentrisk bevægelse er udspænding af musklerne under kraft.
+Vi kan stort set sige, at excentrisk bevægelse og excentrisk træning er forlængelse af musklerne under kraft.
 
 Sommetider kalder man også den excentriske sammentrækning for **negativt arbejde**, fordi musklen arbejder under forlængelse - eller at man sænker sig langsomt mod tyngdekraften.
 
@@ -56,7 +54,7 @@ For at forstå hvad en excentrisk muskelsammentrækning er, så kan det hjælpe 
 
 En muskel har to myofibriller, der ligger parallelt. De to proteiner hedder actin og myosin. Når musklerne får signal fra hjernen kan actin og myosin lave en _cross bridge_ og knytte sig til hinanden.
 
-På myosin er der en struktur, der ligner et lille golfkøllehoved, som kan lave bevægelse ved at trække i actintrådene. Når hovederne nikker kommer der en koncentrisk kontraktion i musklen. Hvis musklen derimod forlænger sig, så er det en **excentrisk kontraktion**, men her er bevægelsen i myosin-hovederne ikke aktiv, men passiv og reagerer på en udefrakommende kraft.
+På myosin-proteinet er der en struktur, der ligner et lille golfkøllehoved, som kan lave bevægelse ved at trække i actintrådene. Når hovederne nikker kommer der en koncentrisk kontraktion i musklen. Hvis musklen derimod forlænger sig, så er det en **excentrisk kontraktion**. I den excentriske kontraktion er bevægelsen i myosin-hovederne ikke aktiv, men bevægelsen sker passivt som reaktion på en udefrakommende kraft.
 
 Musklerne kan udøve mere kraft i den excentriske retning for at beskytte musklerne mod at muskelfibrene rives over, og det kan du så udnytte i træningen.
 
@@ -72,17 +70,19 @@ Når de samlede studierne, så medførte exentrisk træning en muskelvækst på 
 
 — <cite>[Nikolaj Bach](https://www.bodylab.dk/shop/ny-meta-analyse-stoerre-2598c1.html)</cite>
 
-Der er imidlertid flere udfordringer ved fortolkningen af studiet.
+Nikolaj Bach påpeger imidlertid flere udfordringer ved fortolkningen af studiet.
 
 Man havde kun kontrolleret **antallet af løft** mellem forsøgsgrupperne, men **ikke sørget for, at den totale mængde arbejde i grupperne var ens**. Force-velocity-kurven viser tydeligt, at man kan løfte mere i excentrisk træning, og vi ved at [volumen er vigtig for muskelvækst]({% link _posts/2019-10-22-hvordan-vokser-muskler.md %}). Måske er effekten den større _workload_, som har forårsaget forskellen i den excentriske træning.
 
-Excentrisk træning laver flere mikroskader i musklerne, hvilket man tidligere har troet var med til at skabe muskelvækst. Det er sikke ud til at de små muskelskader i sig selv er en _driver_ bag muskelvækst, men kroppen vil helt sikkert respondere ved at gøre sig stærkere. Hvis musklen er større har den også større potentiale til at holde godt fast under eksterne påvirkninger.
+Excentrisk træning laver flere mikroskader i musklerne, hvilket man tidligere har troet var med til at skabe muskelvækst. Det ser ikke ud til at de små muskelskader i sig selv er en _driver_ bag muskelvækst, men kroppen vil helt sikkert respondere ved at gøre sig stærkere. Hvis musklen er større har den også større potentiale til at holde godt fast under eksterne påvirkninger.
 
 ## Excentrisk træning kan udmatte musklerne
 
 Vi ved at volumen og mekanisk load er vigtige for muskelvækst. Derfor kan excentrisk træning være et værktøj til at lave et større mekanisk load på musklerne i bestemt faser af træningen.
 
-Derfor kan _forced reps_ eller excentrisk træning have sin placering i træningen i forhold til muskelvækst. Du skal imidlertid være meget opmærksom på, at excentrisk træning også indebærer en større risiko for skader, og det kan være vanskeligere at lave en **progressiv træningsopbygning**, hvis du bruger excentrisk træning og _forced reps_. Overvej derfor hvornår det passer ind i din træning.
+Derfor kan _forced reps_ eller excentrisk træning have sin placering i træningen i forhold til muskelvækst. Du skal imidlertid være meget opmærksom på, at excentrisk træning også indebærer en større risiko for skader, og det kan være vanskeligere at lave en **progressiv træningsopbygning**, hvis du bruger excentrisk træning og _forced reps_. 
+
+Overvej derfor hvornår det passer ind i din træning.
 
 ## Excentrisk træning til skadesforebyggelse og genoptræning
 
@@ -108,7 +108,7 @@ Der ser også ud til, at [excentrisk træning er med til at stimulere senens dan
 
 ## Hvordan kan jeg lave excentrisk træning?
 
-Først og fremmest så skal du overveje i hvilke øvelser excentrisk træning giver mening, og hvordan du sørger for sikkerheden i øvelserne.
+Først og fremmest så skal du overveje i hvilke øvelser excentrisk træning giver mening, og hvordan du sørger for sikkerheden i øvelserne?
 
 Excentrisk træning er lettest at lave med en træningsmakker, som kan hjælpe med at få vægtene op i den koncentriske fase og hjælpe med sikkerheden i den excentriske fase. Det kræver altså ofte **assistance** at lave excentrisk træning.
 

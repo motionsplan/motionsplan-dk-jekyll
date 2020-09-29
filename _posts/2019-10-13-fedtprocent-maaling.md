@@ -97,10 +97,6 @@ For den almindelige fitnessudøver så kan følgende være muligheder for at få
 
 Jeg har beskrevet [to]({% link _posts/2019-10-14-fedtprocent-maalebaand.md %}) [forskellige]({% link _posts/2019-10-14-fedtprocent-maalebaand-navy.md %}) metoder.
 
-{% endcomment %}
-
-{% comment %}
-
 - **Måling af fedtprocent med fedttang**. En fedttang kan være et udmærket værktøj, hvis du har behov for at følge en fremgang. Hvis du øver dig i at bruge en fedttang, så kan du med ret stor sikkerhed reproducere din hudfoldsmåling over tid. Fedttangen giver ikke den præcise fedtprocent, men kan være rimelig pålidelig i forhold til at estimere ændringerne. Jeg har skrevet mere om [måling af fedtprocent og hudfoldstykkelser med fedttang her]({% link _posts/2019-10-14-fedtprocent-skinfold.md %}).
 
 - **Måling af fedtprocent med bioimpedans**. Nogle af de nye ret dyre bioimpedansmålere kan give et fornuftigt bud på din fedtprocent. Nu om dage kan du få relativt prisbillige badevægt, der måler fedtprocenten med bioimpedans, men de billige modeller er formentlig for upræcise. Hvis du kan følge alle anvisninger og måle dig under de samme forhold over tid, så kan du måske godt bruge det til at bestemme en ændring. Jeg har skrevet mere om [bioimpedansmålinger her]({% link _posts/2019-10-14-fedtprocent-bioimpedans-inbody-570.md %}).

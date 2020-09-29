@@ -1,11 +1,12 @@
 ---
-title: "Restitutionstid: Hvornår kan jeg træne igen?"
+title: &title "Restitutionstid: Hvornår kan jeg træne igen?"
 permalink: /restitutionstid-og-alder/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1470777639313-60af88918203?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
   teaser: https://images.unsplash.com/photo-1470777639313-60af88918203?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
-  caption: "Photo by Cris Saur on Unsplash"
+  caption: *title
+  alt: "Photo by Cris Saur on Unsplash"
 category:
   - Viden om
 tags:

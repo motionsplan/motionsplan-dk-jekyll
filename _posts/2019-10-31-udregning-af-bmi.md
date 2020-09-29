@@ -1,7 +1,7 @@
 ---
 title: "Udregn BMI: Komplet guide og beregner for voksne og børn"
 permalink: /bmi/
-excerpt: "Body Mass Index (BMI) den mest udbredte formel og test til at udregne om man er normalvægtig, undervægtig eller overvægtig. Beregn selv dit BMI i vores beregner og se skala og tabel for børn og voksne."
+excerpt: "Body Mass Index (BMI) er den mest udbredte formel og test til at udregne om man er normalvægtig, undervægtig eller overvægtig. Beregn selv dit BMI i vores beregner og se skala og tabel for børn og voksne."
 language: da
 header:
   overlay_image: https://helseboost.dk/filer/bmi-1500x960.jpg
@@ -61,7 +61,7 @@ BMI tager ikke højde for, om din vægt skyldes muskler eller fedt eller din kro
 
 **VIGTIGT:** Du skal ikke lade BMI diktere om du har en sund vægt. Selvom du ifølge standardtabellerne for BMI klassificeres som overvægtig, så betyder det meget mere om du motionerer og spiser sundt. Sundhedsmæssigt er det langt farligere at have et BMI på 23 og være i dårlig form end at have et BMI på 28 og være i god form. Faktisk ser det ud til, at den laveste dødelighed i forhold til BMI ligger højere og højere (se bl.a. Afzal et al (2016)).
 
-Du kan læse lidt mere om brugen af BMI til en [retfærdig vurdering af overvægtiges kondition](/kondital/), hvor det foreslås at kondition altid skal vurderes ud fra BMI 23.
+Du kan læse lidt mere om brugen af BMI til en [retfærdig vurdering af overvægtiges kondition](/kondital/), hvor det foreslås af Morten Zacho, at kondition altid skal vurderes ud fra BMI 23.
 {: .notice .notice--warning }
 
 BMI har vist sig at være et godt værktøj til at beskrive forekomsten af overvægt i større befolkningsgrupper, men det ser ud til, at grænserne ændrer sig med studierne.
@@ -210,8 +210,9 @@ Bemærk at ovenstående grafer er baseret på børn over hele verden. Som med BM
 
 Der er en høj sammenhæng mellem BMI og kropsfedt i større populationer. Men selvom to personer har samme BMI, så har de ikke nødvendigvis samme andel af kropsfedt.
 [Politiken](https://politiken.dk/forbrugogliv/sundhedogmotion/art5517450/Disse-tre-kvinder-har-lige-meget-fedt) skriver fx om tre kvinder med meget forskellig kropsbygning og BMI, men de har samme fedtprocent.
-
+{% comment %}
 {% include figure image_path="https://politiken.dk/migration_catalog/img5175266.jbdmmm/ORIGINALS/original_960/gruppebillede" caption="Disse tre kvinder kategoriseres som hhv. meget overvægtig, normalvægtig og overvægtig ifølge BMI, men de har samme fedtprocent. Kilde: Politiken" %}
+{% endcomment %}
 
 Generelt skal der tages disse forbehold ved vurderingen af BMI:
 
@@ -228,12 +229,15 @@ Forskere har også foreslået, at man på baggrund af alder og vægt kan udregne
 - BMI vurderer ikke, hvor farlig din overvægt er. Hvis dit fedt sidder rundt om livet, er det mere farligt frem for, hvis fedtet sad om lårene. Det kan du bruge [taljemål]({% link _posts/2019-10-14-taljemaal.md %}) for at finde ud af.
 - BMI kan ikke fortælle om du har fremgang i træningen. Jeg har skrevet et andet indlæg om, hvorfor man kan [tage på ved træning]({% link _posts/2020-05-25-tager-paa-ved-traening.md %}).
 - BMI er et statistisk værktøj - ikke en diagnose. BMI er udarbejdet i 1800-tallet til at sammenligne forskellige befolkningsgrupper.
+
 Ulempen ved BMI er altså, at det er for simpelt et mål. Du kan let ende i en forkert kategori pga. ovenstående ulemper.
 
 ## BMI på tværs af kulturer
 
 Der er lavet forskellige BMI-tabeller, der tager højde for alderen og kønnet, særligt for børn. 
+
 Jeg har ikke set nogen tabeller, der tager højde for etnicitet. Folk fra forskellige dele af verden er bygget forskellige. Fx er kropsbygningen for asiater og afrikanere forskellig fra europæere. 
+
 BMI er primært skabt på baggrund af populationer i de vestlige lande, og jeg har ikke set studier eller tabeller, som er rettet mod andre etniciteter.
 
 ## Nyere forskning peger på mindre sundhedsrisiko ved overvægt

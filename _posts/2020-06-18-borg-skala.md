@@ -34,19 +34,20 @@ Borgskalaen er udformet af den svenske fysiolog, Gunnar Borg. Borg-skalaen går 
 Derved kommer tallene på skalaen til at svare til et pulsområde, der går fra en hvilepuls på 60 og op til maksimal puls på 200. Det vil nogenlunde svare til en gennemsnitlig maxpuls for 20-årige. 
 
 Rationalet bag Borgskalaen er, at der er overensstemmelse mellem ens selvvurderede følte anstrengelse og den pulsen.
+
 Jeg har skrevet mere om [hvilepulsen](/hvilepuls/) og [maxpulsen](/test-max-puls/) her, hvis du er interesseret.
 
 ## Borgs oprindelige anstrengelsesskala
  
 Borgskalalen kan i sin oprindelige form godt være lidt besværlig at anvende. Den oprindelige Borgskala kan ses her i tabellen:
  
-| 7 | Meget meget let
-| 9 | Meget let
-| 11 | Ret let
-| 13 | Noget anstrengende
-| 15 | Anstrengende 
-| 17 | Meget anstrengende 
-| 19 | Meget, Meget anstrengende
+| 7 | Meget meget let |
+| 9 | Meget let |
+| 11 | Ret let |
+| 13 | Noget anstrengende |
+| 15 | Anstrengende |
+| 17 | Meget anstrengende |
+| 19 | Meget, Meget anstrengende |
  
 Men hvordan føles _Noget anstrengende_ i forhold til _Anstrengende_? 
  
@@ -54,7 +55,7 @@ Men hvordan føles _Noget anstrengende_ i forhold til _Anstrengende_?
  
 Morten Zacho har i 2008 bearbejdet Borg-skalaen, så den er lettere at bruge i praksis. På den måde bliver Borg-skalaen lettere at forstå, når man træner eller bliver testet.
 
-I praksis er det kun nødvendigt at skelne mellem udvalgte niveauer på skalaen. Borg 15 udfør fx skillelinjen mellem det, de fleste vil opfatte som moderat til hård træning. Typisk er det også det niveau, man typisk prøver at ramme til almindelige motionsaktiviteter.
+I praksis er det kun nødvendigt at skelne mellem udvalgte niveauer på skalaen. Borg 15 udgør fx for i de flestes subjektive opfattelse skillelinjen mellem "moderat" og "hård" træning.
 
 {% comment %}
 
@@ -62,17 +63,19 @@ I praksis er det kun nødvendigt at skelne mellem udvalgte niveauer på skalaen.
 
 {% endcomment %}
 
-Morten Zacho har altså tilføjet en lidt bedre forklaring på følelserne. Samtidig har han tilføjet en sundhedseffekt.
+Morten Zacho har i sin version af Borg-skalaen tilføjet en lidt bedre forklaring på følelserne på de enkelte niveauer. Samtidig har Zacho tilføjet, hvilken effekt den det enkelte niveau har på effekten af træningen.
 
-[Find Morten Zachos Borgskala her](https://hjerteforeningen.dk/wp-content/uploads/2016/11/borg-skala-a4-format.pdf){: .btn .btn--large .btn--info }
+[Find Borgskalaen hos hjerteforeningen.dk](https://hjerteforeningen.dk/motion/2018/02/27/intensitet-borgskala-og-puls/){: .btn .btn--large .btn--info }
 
-Borgskalaen er noget lettere at bruge end pulszoner, som man ofte ser rundt omkring. Træningseffekten i højre kolonne er det primære formål med træningen. Det er selvfølgelig også sundt at bevæge sig op over Borg 15.
+Borgskalaen er noget lettere at bruge end pulszoner, som man ofte ser rundt omkring i fitnesscentrene.
+
+Borg-skalaen kan altså bruges som et redskab til at vurdere træningseffekten, når du har styr på de forskellige træningszoner.
 
 ## Opmærksomhedspunkter ved brug af Borg-skalaen
 
-Følelsen af den lokale muskelanstrengelse kan godt påvirke ens opfattelse af den egentlige belastning på hele kredsløbet. Hvis man fx ikke er vant til at cykle, så kan man godt lokalt i lårmusklerne synes det er hårdt uden at hjertet arbejder særlig hårdt. Du skal altså vurdere både kredsløbet, musklerne og åndedrættet.
+Følelsen af den lokale muskelanstrengelse kan godt påvirke ens opfattelse af den egentlige belastning på hele kredsløbet. Hvis man fx ikke er vant til at cykle, så kan man godt lokalt i lårmusklerne synes det er hårdt uden at hjertet arbejder særlig hårdt. Du skal altså vurdere både kredsløbet, musklerne og åndedrættet samlet, når du bruger Borg-skalaen.
 
-Jeg kan godt lide at anvende Borg-skalaen sammen med pulsmåling og forskellige intensiteter. På den måde kan man lære sin krop at kende, og man bliver bedre til at bruge skalaen til at vurdere intensiteten - og i sidste ende altså fornemme om man er i det rigtige træningsområde. 
+Jeg kan godt lide at anvende Borg-skalaen sammen med pulsmåling og forskellige intensiteter. På den måde kan man lære sin krop at kende, og man bliver bedre til at bruge skalaen til at vurdere intensiteten. I sidste ende kan Borg-skalaen altså styrke din egen kropslige fornemmelse af, om man er i det rigtige træningsområde.
 
 For at bruge Borg-skalaen optimalt skal du kende på din egen krop, hvordan alle intensiteter føles. Du kan fx prøve at [teste din maksimale puls](/test-max-puls/) eller prøve en [Watt-max-test](/kondital-wattmax/), så får du en fornemmelse af, hvordan maksimalt anstrengende føles. Du kan også prøve at løbe 30 sekunder _allout_ efterfulgt af halvandet minuts pause og gøre det 4-8 gange.
 

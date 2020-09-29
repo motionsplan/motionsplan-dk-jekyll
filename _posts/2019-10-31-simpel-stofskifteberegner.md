@@ -34,21 +34,23 @@ Jeg har lavet en BMR-beregner, hvor du kan udregne dit stofskifte og dit daglige
 
 Hvad er stofskiftet? **Stofskiftet består af 3 hovedkomponenter: hvilestofskiftet (BMR), fødeinduceret termogenese (FIT) og fysisk aktivitet (PAL).**
 
-Hvad er hvilestofskiftet og basalstofskiftet? **Kroppens hvilestofskifte kaldes også basalstofskiftet - eller på engelsk _basal metabolic rate (BMR)_. Hvilestofskiftet er den største del i kroppens samlede stofskifte. Hvilestofskiftet er en nogenlunde konstant størrelse. Normalt udgør hvilestofskiftet omkring 50-70% af den totale forbrænding. BMR er, hvad kroppen bruger af energi i fysisk og psykisk hvile.**
+Hvad er hvilestofskiftet og basalstofskiftet? **Kroppens hvilestofskifte kaldes også basalstofskiftet - eller på engelsk _basal metabolic rate (BMR)_. Hvilestofskiftet er den største del i kroppens samlede stofskifte. Hvilestofskiftet er den energi, der bruges i hvile både af de fysiske og mentale systemer, og BMR er en nogenlunde konstant størrelse. Normalt udgør hvilestofskiftet omkring 50-70% af den totale forbrænding.**
 
-Hvad er fødeinduceret termogenese? **Fødeinduceret termogenese (FIT) er den energi, kroppen bruger i forbindelse med et måltid. Det er normalt omkring 10% af den indtagne energi. Energiomsætningen er øget i 3-12 timer afhængigt af måltidets energiindhold og sammensætning.**
+Hvad er fødeinduceret termogenese? **Fødeinduceret termogenese (FIT) er den energi, kroppen bruger i forbindelse med et måltid. Det er normalt omkring 10% af den indtagne energi. Energiomsætningen efter et måltid er øget i 3-12 timer afhængigt af måltidets sammensætning.**
 
-Hvad er fysisk aktivitet (PAL)? **Fysisk aktivitet er den del af stofskiftet, som varierer mest. Den fysiske aktivitet er normalt omkring 20-40% af den totale forbrænding. Niveuuet for fysisk aktivitet afhænger af ens aktivitet gennem hele dagen. Energiforbruget brugt på fysisk aktivitet afhænger også af kropsvægten, da det kræver mere energi at flytte en højere vægt.**
+Hvad er fysisk aktivitet (PAL)? **Fysisk aktivitet er den del af stofskiftet, som varierer mest. Den fysiske aktivitet er normalt omkring 20-40% af den totale forbrænding. PAL afhænger af den samlede fysiske aktivitet gennem hele dagen - både træning, men også mindre bevægelser. Energiforbruget brugt på fysisk aktivitet afhænger af kropsvægten, da det kræver mere energi at flytte en højere vægt.**
 
 Jeg har lavet en anden [beregner af hvilestofskiftet, som tager udgangspunkt i _Nordic Nutrition Reccommandations 2012_]({% link _posts/2020-09-01-stofskifte-nordic-2012.md %}). Jeg har også lavet en [avanceret beregner af dit daglige energibehov, hvor den fysiske aktivitet bliver angivet lidt mere præcist]({% link _posts/2019-10-31-avanceret-stofskifteberegner.md %}). Endelig har jeg lavet en [beregner af ligevægtsindtaget]({% link _posts/2019-10-31-ligevaegtsberegner.md %}).
 
 ## Beregn dit stofskifte og basalstofskifte
 
-Hvis ikke du har adgang til en testfacilitet, så kan stofskiftet estimeres med forskellige beregninger. Beregneren tager højde for vægten og dit køn.
+De færreste har adgang til at få målt deres stofskifte direkte, da det kræver en relativt avanceret test, som du kan læse lidt mere om længere nede på siden.
 
-Med denne beregner kan du udregne dit hvilestofskifte, som også ofte kaldes basalstofskiftet, og dit samlede daglige energibehov. Beregneren er ret simpel og angiver dit aktivitetsniveau udfra overordnede kategorier for fysisk aktivitet. 
+Du kan i stedet estimere stofskiftet med forskellige beregninger. 
 
-Resultatet er en gennemsnitsberegning for dit køn, din alder og din vægt.
+Med denne beregner kan du udregne dit hvilestofskifte, som også ofte kaldes basalstofskiftet, og dit samlede daglige energiforbrug. 
+
+Resultatet er en gennemsnitsberegning for, hvor meget energi personer med dit køn, din alder og din vægt bruger på en dag. Der kan være store variationer fra person til person.
 
 {% include calculate-metabolic-rate.html %}
 
@@ -148,6 +150,8 @@ Hård fysisk aktivitet medfører, at ens stofskifte er forhøjet 12-24 timer eft
 | Sport eller anden hård fysisk aktivitet i fritiden. (30-60 min. 4-5 gange/uge)	                                    | + 0,3   |
 | Hårdt kropsarbejde eller meget høj fritidsaktivitet.	                                                              | 2,0-2,4 |
 
+Tabelle er fra _Nordiska Næringsrekommendationer 1996_.
+
 Når du kender hvilestofskiftet (BMR) og faktoren for fysisk aktivitetsniveau (PAL) kan du estimere det daglige energiforbrug eller daglige stofskifte. Det gør du ved at gange hvilestofskiftet med PAL.
 
 **Eksempel:** Kvinden fra ovenstående eksempel arbejder på et kontor primært med stillesiddende arbejde (PAL = 1,4-1,5). Hun dyrker sport i fritiden 4-5 gange om ugen (PAL + 0,3). BMR (5119 kJ) gange med PAL (1,7) = 8701 kJ. Kvindens daglige stofskifte (og derved ligevægtsindtag) vil være ca. 8.701 kJ.
@@ -171,7 +175,7 @@ I beregningen er køn for mand 1, mens den skal være 0 for kvinder.
 
 Begge disse formler kræver til gengæld kendskab til din fedtfrie masse og din fedtmasse. Du kan læse mere om [hvordan du kan bestemme din kropskomposition og fedtfrie masse i et af vores andre indlæg]({% link _posts/2019-10-14-kropskomposition.md %}) eller hvordan du [måler din fedtprocent]({% link _posts/2019-10-13-fedtprocent-maaling.md %}), hvor du også kan finde forskellige beregninger.
 
-Desuden har jeg lavet en anden beregner til at udregne [ligevægtsindtaget på en dag]({% link _posts/2019-10-31-ligevaegtsberegner.md %}), som bruger en helt tredje formel baseret på [udregning af BMI](/bmi/).
+Desuden har jeg lavet en anden beregner til at udregne [ligevægtsindtaget på en dag]({% link _posts/2019-10-31-ligevaegtsberegner.md %}), som bruger en helt anden formel baseret på [udregning af BMI](/bmi/).
 
 ## Mere avanceret udregning af dagligt energiforbrug
 

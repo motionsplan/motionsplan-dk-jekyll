@@ -14,35 +14,13 @@ tags:
   - muskler
 last_modified_at: 2020-06-11T08:14:14Z
 toc: true
-feature_row:
-  - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/1000x/9df78eab33525d08d6e5fb8d27136e95/a/n/anatomisk-guide-til-bevaegeapparatet-9788777499104-andrew-biel-gitte-bjerg-fuusager.jpg
-    alt: "Anatomisk Guide til Bevægeapparatet"
-    title: "Anatomisk Guide til Bevægeapparatet"
-    excerpt: "En praktisk guide til lokalisering af muskler, knogler med mere. Før du kan få succes med at undersøge og behandle bevægeapparatet, er du nødt til først at kende dets opbygning og kunne lokalisere de relevante strukturer."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/anatomisk-guide-til-bevaegeapparatet-9788777499104"
-    btn_label: "Læs mere hos Den Intelligente Krop*"
-    btn_class: "btn--success"
-  - image_path: https://cdn5.bogreolen.dk/thumbnail/300x0/00002/73191/cover.20160911.jpg
-    alt: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
-    title: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
-    excerpt: "Menneskekroppen - anatomi, fysiologi og sygdomme er et anatomisk atlas til mennesket i det 21. århundrede. Gennem de computergenererede 3d-billeder og fantastiske illustrationer kan man opleve menneskekroppen i hidtil uset detaljegrad og skønhed."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://bogreolen.dk/menneskekroppen_steve-parker_9788756784436"
-    btn_label: "Læs mere hos Bogreolen"
-    btn_class: "btn--success"
-  - image_path: https://imgcdn.saxo.com/_9788762809000/0x500
-    alt: "Bevægeapparatets anatomi"
-    title: "Bevægeapparatets anatomi"
-    excerpt: "Når man skal lære om anatomi er det selvsagt en fordel med gode lærebøger, og her er “Bevægeapparatets anatomi” en absolut klassiker. Bag lærebogen står forfatterne Finn Bojsen Møller, Jan Hejle, Erik Bruun Simonsen, Jørgen Tranum-Jensen. De kombinerer viden om almen anatomi med information om hvordan man forebygger, undersøger, behandler, træner og genoptræner."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/bevaegeapparatets-anatomi_joergen-tranum-jensen_indbundet_9788762809000"
-    btn_label: "Læs mere hos Saxo*"
-    btn_class: "btn--success"
 ---
 
 Jeg har haft en længere styrketræningspause, så jeg synes det er interessant at kigge på, hvor hurtigt musklerne forsvinder. Det er naturligvis ikke selve musklerne, der forsvinder, men hvor hurtigt forsvinder muskelmassen, muskelstørrelsen og muskelstyrken?
 
-**Tilsyneladende kan både begyndere og trænede opretholde sin muskelstyrke og muskelmasse i omkring 2-3 uger uden træning, særligt hvis du sørger for ikke at være helt inaktiv i pauserne. De fleste forskningsresultater peger på at muskelstørrelsen først forsvinder før selve muskelstyrken går ned.**
+**Tilsyneladende kan både begyndere og trænede opretholde muskelstyrke og muskelmasse i omkring 2-3 uger uden træning, særligt hvis de sørger for ikke at være helt inaktiv i pauserne. De fleste forskningsresultater peger på, at muskelstørrelsen forsvinder før selve muskelstyrken går ned.**
 
-Styrketræning for musklerne til at vokse (hypertrofi), mens detræning for musklerne til at skrumpe igen (atrofi). Det er interessant at vide, hvor hurtigt musklerne forsvinder igen, når man holder pause fra sin træning.
+Styrketræning får musklerne til at vokse (hypertrofi), mens detræning får musklerne til at skrumpe igen (atrofi). Det er interessant at vide, hvor hurtigt musklerne forsvinder igen, når man holder pause fra sin træning?
 
 Men lad os først kigge lidt på fysiologien bag ved, at muskelmassen forsvinder, når man holder pause fra træningen.
 
@@ -56,8 +34,7 @@ Når dine muskler vokser (hypertrofi), så ved man at der er en lang række væk
 
 Når man holder pause, så aktiverer man naturligvis ikke længere vækstfaktorerne. Men det ser også ud til, at der er signalveje, der ansporer kroppen til at miste muskelmasse. Atrofi kan ske enten som følge af faste, inaktivitet eller sygdomme, og det ser ud til, at muskelnedbrydningen sættes i gang af nogle proteinnedbrydende processer. 
 
-Helt teknisk så aktiverer de proteinnedbrydende kemiske processer en signalvej, der kaldes ‘ubiquitin-proteasome pathway’ (UUP), hvis du vil slå det op og dykke mere ned i de kemiske processer.
-{: .notice .notice--info }
+[Brian Henneberg](https://www.bodylab.dk/shop/den-frygtede-pause-1620c1.html) beskriver fysiologien bag atrofi yderligere i sin artikel, hvor han går mere i dybden med muskelfysiologien og de proteinnedbrydende processer.
 
 > Skal vi gøre det lidt billedligt, for forståelsens skyld, så medfører aktiveringen af UPP, at der bliver sat en slags ’ødelæg mig’ mærkater på muskelproteiner, hvorefter de bliver ført ind i en tøndeformet struktur, og bliver hakket i småstykker og spyttet ud som aminosyrer.
 

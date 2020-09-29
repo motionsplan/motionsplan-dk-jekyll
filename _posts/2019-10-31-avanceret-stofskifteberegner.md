@@ -13,7 +13,7 @@ tags:
   - stofskifte
 last_modified_at: 2020-08-06T23:14:14Z
 toc: true
-excerpt: "I denne beregner kan du udregne dit daglige energiforbrug på baggrund af dit basalstofskifte (BMR) og fysiske aktivitetsniveau. Jeg synes det er interessant at udregne, hvad mit hvilestofskifte er i forhold min fysiske aktivitet for at se, hvad mit omtrentlige daglige energiforbrug er."
+excerpt: "I denne beregner kan du udregne dit daglige energiforbrug på baggrund af dit basalstofskifte (BMR) og fysiske aktivitetsniveau. Det er interessant at udregne en persons hvilestofskifte i forhold det fysiske aktivitetsniveau for at se, hvad mit omtrentlige daglige energiforbrug er."
 feature_row:
   - image_path: /assets/images/pal-schedule.png
     url: https://docs.google.com/document/d/1pWnzxIkn3h_deY7pavw-OnCxhvtSiyFfBZCoyJjj8dY/edit?usp=sharing

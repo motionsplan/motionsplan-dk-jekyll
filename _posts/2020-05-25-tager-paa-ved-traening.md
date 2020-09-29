@@ -1,12 +1,13 @@
 ---
-title: "Hvorfor tager jeg på, når jeg træner? 7 ufarlige fordele!"
+title: &title "Hvorfor tager jeg på, når jeg træner? 7 ufarlige fordele!"
 permalink: /vaegt-stiger-traening/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1569956726914-a9db65466c5b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80
   teaser: https://images.unsplash.com/photo-1569956726914-a9db65466c5b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
   overlay_filter: 0.8
-  caption: "Photo by Jen Theodore on Unsplash"
+  caption: *title
+  alt: "Photo by Jen Theodore on Unsplash"
 category:
   - Viden om
 tags:

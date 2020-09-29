@@ -34,6 +34,8 @@ I denne Youtube video kan du se, hvordan den modificerede 'sit and reach'-test u
 
 {% include video provider="youtube" id="bnEY9j7m178" %}
 
+{% comment %}
+
 ## Kvinder: Skema for resultater i 'sit and reach'-testen
 
 | Alder    | Fremragende  | Middel      | Ikke så godt  |
@@ -45,12 +47,12 @@ I denne Youtube video kan du se, hvordan den modificerede 'sit and reach'-test u
 
 ## Mænd: Tabel for normer i 'sit and reach'-testen
 
-| Alder    | Fremragende  | Middel      | Ikke så godt  |
-|----------|--------------|-------------|---------------|
-| Under 25 | > 50         | 35 - 50     | < 35          |
-| 25-40    | > 47,5       | 32,5 - 47,5 | < 32,5        |
-| 41-55    | > 42,5       | 30 - 42,5   | < 30          |
-| 56+      | > 35         | 22,5 - 35   | < 22,5        |
+| Alder    | Fremragende | Middel      | Ikke så godt |
+|----------|-------------|-------------|--------------|
+| Under 25 | > 50        | 35 - 50     | < 35         |
+| 25-40    | > 47,5      | 32,5 - 47,5 | < 32,5       |
+| 41-55    | > 42,5      | 30 - 42,5   | < 30         |
+| 56+      | > 35        | 22,5 - 35   | < 22,5       |
 
 ## Har smidighed betydning for sundheden?
 
@@ -58,6 +60,14 @@ Det er formentlig rimeligt at antage, at der er en sammenhæng mellem generelt g
 
 Smidighed og bevægelighed kan derfor måske sagtens indgå i en [sundhedsprofil og sundhedstest]({% link _posts/2019-10-10-sundhedsprofil.md %}).
 
+{% endcomment %}
+
 ## Hvordan træner jeg min smidighed?
 
-Der er mange nuancer i at træne din smidighed eller _range of motion_. Jeg har skrevet en dybdegående artikel om, hvad [udstrækning og udspænding]({% link _posts/2020-07-08-udstraekning.md %}) er og forslag til udstrækningsøvelser. I en anden artikel går jeg lidt i dybden med, at [du bliver smidigere af at strække]({% link _posts/2009-02-28-du-bliver-smidigere-af-straekke.md %}) og årsagerne bag det. Smidighed og _range of motion_ er et spørgsmål om at træne det, men det er også et spørgsmål om, hvad kroppen giver dig lov til.
+Der er mange nuancer i at træne din smidighed eller _range of motion_. Jeg har skrevet en dybdegående artikel om, hvad [udstrækning og udspænding]({% link _posts/2020-07-08-udstraekning.md %}) er og forslag til udstrækningsøvelser. I en anden artikel går jeg lidt i dybden med, at [du bliver smidigere af at strække]({% link _posts/2009-02-28-du-bliver-smidigere-af-straekke.md %}) og årsagerne bag det.
+
+Smidighed og _range of motion_ er et spørgsmål om at træne det, men det er også et spørgsmål om, hvad kroppen giver dig lov til.
+
+## Validitet af testen
+
+[Cubarek (2013)](https://www.researchgate.net/publication/277935949_Reliability_of_V_sit-and-reach_test_used_for_flexibility_self-assessment_in_females) fandt at V Sit-and-reach kan bruges til at måle smidighed i haserne og den nedre ryg.
