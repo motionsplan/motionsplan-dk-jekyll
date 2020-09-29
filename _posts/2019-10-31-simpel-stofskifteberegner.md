@@ -19,14 +19,14 @@ feature_row:
     title: "Exercise Physiology - Nutrition, Energy, and Human Performance"
     excerpt: "Skrevet af BS, William D., PhD McArdle, M.Ed, Frank I. Katch, Victor L. Katch."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://bogreolen.dk/exercise-physiology_bs_9781451193831"
-    btn_label: "Læs mere"
+    btn_label: "Læs mere*"
     btn_class: "btn--success"
   - image_path: https://imgcdn.saxo.com/_9788762813762/0x500
     alt: "Menneskets ernæring"
     title: "Menneskets ernæring"
     excerpt: "Den tværfaglige lærebog _Menneskets ernæring_ beskriver sammenhængen mellem de fysiologiske og biologiske processer, der er nødvendige for opretholdelse af liv. "
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/menneskets-ernaering_arne-astrup_indbundet_9788762813762"
-    btn_label: "Læs mere"
+    btn_label: "Læs mere*"
     btn_class: "btn--success"
 ---
 
@@ -34,7 +34,7 @@ Jeg har lavet en BMR-beregner, hvor du kan udregne dit stofskifte og dit daglige
 
 Hvad er stofskiftet? **Stofskiftet består af 3 hovedkomponenter: hvilestofskiftet (BMR), fødeinduceret termogenese (FIT) og fysisk aktivitet (PAL).**
 
-Hvad er hvilestofskiftet og basalstofskiftet? **Kroppens hvilestofskifte kaldes også basalstofskiftet - eller på engelsk _basal metabolic rate (BMR)_. Hvilestofskiftet er den største del i kroppens samlede stofskifte. Hvilestofskiftet er den energi, der bruges i hvile både af de fysiske og mentale systemer, og BMR er en nogenlunde konstant størrelse. Normalt udgør hvilestofskiftet omkring 50-70% af den totale forbrænding.**
+Hvad er hvilestofskiftet og basalstofskiftet? **Kroppens hvilestofskifte kaldes også basalstofskiftet - eller på engelsk _basal metabolic rate (BMR)_. Hvilestofskiftet er den største del af kroppens samlede stofskifte. Hvilestofskiftet er den energi, der bruges i hvile både af de fysiske og mentale systemer, og BMR er en nogenlunde konstant størrelse. Normalt udgør hvilestofskiftet omkring 50-70% af den totale forbrænding.**
 
 Hvad er fødeinduceret termogenese? **Fødeinduceret termogenese (FIT) er den energi, kroppen bruger i forbindelse med et måltid. Det er normalt omkring 10% af den indtagne energi. Energiomsætningen efter et måltid er øget i 3-12 timer afhængigt af måltidets sammensætning.**
 
