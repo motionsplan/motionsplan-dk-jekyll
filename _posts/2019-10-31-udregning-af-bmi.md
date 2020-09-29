@@ -1,7 +1,7 @@
 ---
 title: "Udregn BMI: Komplet guide og beregner for voksne og børn"
 permalink: /bmi/
-excerpt: "Body Mass Index (BMI) den mest udbredte formel og test til at udregne om man er normalvægtig, undervægtig eller overvægtig. Beregn selv dit BMI i vores beregner og se skala og tabel for børn og voksne."
+excerpt: "Body Mass Index (BMI) er den mest udbredte formel og test til at udregne om man er normalvægtig, undervægtig eller overvægtig. Beregn selv dit BMI i vores beregner og se skala og tabel for børn og voksne."
 language: da
 header:
   overlay_image: https://helseboost.dk/filer/bmi-1500x960.jpg
@@ -210,8 +210,9 @@ Bemærk at ovenstående grafer er baseret på børn over hele verden. Som med BM
 
 Der er en høj sammenhæng mellem BMI og kropsfedt i større populationer. Men selvom to personer har samme BMI, så har de ikke nødvendigvis samme andel af kropsfedt.
 [Politiken](https://politiken.dk/forbrugogliv/sundhedogmotion/art5517450/Disse-tre-kvinder-har-lige-meget-fedt) skriver fx om tre kvinder med meget forskellig kropsbygning og BMI, men de har samme fedtprocent.
-
+{% comment %}
 {% include figure image_path="https://politiken.dk/migration_catalog/img5175266.jbdmmm/ORIGINALS/original_960/gruppebillede" caption="Disse tre kvinder kategoriseres som hhv. meget overvægtig, normalvægtig og overvægtig ifølge BMI, men de har samme fedtprocent. Kilde: Politiken" %}
+{% endcomment %}
 
 Generelt skal der tages disse forbehold ved vurderingen af BMI:
 

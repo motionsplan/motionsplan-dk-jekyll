@@ -1,21 +1,27 @@
 ---
-title: "Hvem er stærkest? - beregning på tværs af vægtklasser"
+title: &title "Hvem er stærkest? Sammenligning af styrke på tværs af vægtklasser"
 permalink: /sammenligning-styrke/
 language: da
 header:
   overlay_image: https://c.pxhere.com/photos/af/dd/arm_wrestling_bar_bet_betting_black_and_white_compare_comparison_competition-920992.jpg!d
   teaser: https://c.pxhere.com/photos/af/dd/arm_wrestling_bar_bet_betting_black_and_white_compare_comparison_competition-920992.jpg!d
+  caption: *title
 category:
   - Beregnere
+  - Styrketræning
 tags:
-  - stofskifte
+  - styrketræning
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 ---
 
 Hvis man gerne vil sammenligne styrken af forskellige løftere, så kan man i stedet operere med relativ styrke. Det er imidlertid for enkelt bare at bruge relativ styrke, da sammenhængen mellem løft og kropsvægt ikke er lineær.
 
+{% comment %}
+
 {% include figure image_path="https://web.archive.org/web/20070610031909im_/http://www.motion-online.dk/images/siff_loeft1.gif" %}
+
+{% endcomment %}
 
 Derfor findes der en række forskellige beregningsmodeller, som kan deles op i et par forskellige typer udregninger:
 
@@ -30,7 +36,8 @@ Den mest kendte metode til at sammenligne løftere på tværs af vægtklasser er
 
 ## Dr. Mel Siff
 
-Mel Siff har i _Supertraining_ beskrevet følgende formular til sammenligning på tværs af vægtklasser. 
+Mel Siff har i _Supertraining_ beskrevet følgende formular til sammenligning på tværs af vægtklasser.
+
 T = a - b * bw<sup>(-c)</sup>
 
 hvor T er forventet for en topklasseløfter, og hvor bw er kropsvægt (kg) og `a`, `b` og `c` er numeriske konstanter.
@@ -48,11 +55,13 @@ hvor T er forventet for en topklasseløfter, og hvor bw er kropsvægt (kg) og `a
 
 {% include calculate-strength-siff.html %}
 
+{% comment %}
+
 ## Greg Nuckols Index 
 
 ## Index100
 
-Morten Zacho har udviklet en Index100 beregner. Index100-beregneren omregner dit løft til, hvad det teoretisk set ville være, hvis man vejer 100 kg. Formålet med beregneren er, at den skulle give intuitiv mening for den enkelte løfter. Grundlaget for beregneren er Mel Siffs formler, som har et relativt stor empirisk ballast. 
+Morten Zacho har udviklet en [Index100 beregner](http://web.archive.org/web/20071017053943/http://www.motion-online.dk/styrketraening/styrke_-_artikler/hvem_er_staerkest?_-_beregning_af_index100/){:rel="nofollow"}. Index100-beregneren omregner dit løft til, hvad det teoretisk set ville være, hvis man vejer 100 kg. Formålet med beregneren er, at den skulle give intuitiv mening for den enkelte løfter. Grundlaget for beregneren er Mel Siffs formler, som har et relativt stor empirisk ballast. 
 
 {% include calculate-strength-index-100.html %}
 
@@ -67,6 +76,8 @@ Beregningen kan som sagt bruges på andre løft end styrkeløft, da det er rimel
 
 **Eksempel:** A vejer 90 kg og kan tage 115 kg i bænkpres. B vejer 75 kg og kan tage 100 kg i bænkpres. Hvem er stærkest? A løfter 1,28 kg pr. kg kropsvægt og B løfter 1,33 kg pr. kg kropsvægt. Er B så stærkest? Nej, ifølge Index100-beregningen ville A løfte 120 kg hvis han vejede 100 kg og B ville kun løfte 117 kg. A er altså den stærkeste (efter retfærdig normalisering)
 {: .notice .notice--info }
+
+{% endcomment %}
 
 ## Referencer
 
