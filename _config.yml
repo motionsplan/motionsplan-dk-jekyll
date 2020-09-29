@@ -194,11 +194,21 @@ github: [metadata]
 
 
 # Conversion
-markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
+markdown: CommonMarkGhPages
+
+## Commonmark
+commonmark:
+  options:
+    - SMART
+    - SAFE
+    - FOOTNOTES
+  extensions:
+    - autolink
+    - table
 
 
 # Markdown Processing
