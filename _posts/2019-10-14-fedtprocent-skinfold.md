@@ -1,5 +1,5 @@
 ---
-title: "Mål din fedtprocent med en fedttang (skinfold caliper)"
+title: &title "Mål din fedtprocent med en fedttang (skinfold caliper)"
 permalink: /skinfold/
 redirect_from:
   - /artikel/fedtprocent-skinfold/

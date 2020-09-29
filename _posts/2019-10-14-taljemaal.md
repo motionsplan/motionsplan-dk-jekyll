@@ -58,7 +58,7 @@ Hvis du er i tvivl, kan du også mærke dig frem til punktet, som på siden af k
 
 Studier med taljemål har vist, at man kan have forøget risiko for kredsløbssygdomme, hvis ens taljemål er højt.
 
-Denne tabel er det mest brugte skema for at vurdere taljemål for kvinder og mænd i forhold til risikoen for livsstilssygdomme.
+Denne tabel er det [mest brugte skema og tabel til at vurdere taljemål for kvinder og mænd](https://hjerteforeningen.dk/2013/05/fedt-paa-maven-er-ufedt/) i forhold til risikoen for livsstilssygdomme.
 
 |         | Let forøget risiko | Forøget risiko |
 |---------|--------------------|----------------|
@@ -86,20 +86,20 @@ Det kan talje-højde ratioen imidlertid tage højde for, så lad os i det følge
 
 ## Talje-højde-ratio
 
-Efterhånden har talje/højde-ratioen sneget sig ind i litteraturen, fordi det tager højde for personer, som ikke har en gennemsnitlig højde. Når man sætter taljemålet i forhold til højden, har man også et meningsfuldt mål man kan bruge på både børn og voksne.
+Efterhånden har [talje/højde-ratioen](https://en.wikipedia.org/wiki/Waist-to-height_ratio) sneget sig ind i litteraturen, fordi det tager højde for personer, som ikke har en gennemsnitlig højde. Når man sætter taljemålet i forhold til højden, har man også et meningsfuldt mål man kan bruge på både børn og voksne.
 
 Når du sætter dit taljemål i forhold til din højde, så er det forbundet med lavere risiko for livsstilssygdomme, hvis ratioen er under 0,5. Det betyder i praksis, at dit taljemål skal være under halvdelen af din højde i centimeter for at have en nedsat risiko for livsstilssygdomme.
 
-| WHR | Klassifikation | Handling |
-|-|-|-|
-| under 0.4 | du er måske for tynd | Take care |
-| 0.4 to 0.5 | du er en sund pæreform | Ok |
-| 0.5 to 0.6 | du er en mellemting mellem pære og æble | Consider action |
-| over 0.6 | du er i risikogruppen som en usund æbleform | Take action |
+| WHR        | Klassifikation                              | Handling        |
+|------------|---------------------------------------------|-----------------|
+| under 0.4  | du er måske for tynd                        | Take care       |
+| 0.4 to 0.5 | du er en sund pæreform                      | Ok              |
+| 0.5 to 0.6 | du er en mellemting mellem pære og æble     | Consider action |
+| over 0.6   | du er i risikogruppen som en usund æbleform | Take action     |
 
-Talje-højde-målet er blevet plottet ind i en simpel _Shape Chart_ foreslået af Ashwell (bl.a. 2011).
+Talje-højde-målet er blevet plottet ind i en simpel _Shape Chart_ foreslået af Ashwell (bl.a. 2011). Se også [Ashwell (2014)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4223160/).
 
-{% include figure image_path="https://hcp.nebido.com/sites/g/files/blfpry596/files/2019-07/chart_with_waist_illustrations-909x697.png" caption="I _Ashwell Shape Chart®_ vises det grafisk, om du er i en zone for bekymring i forhold til dit helbred eller ej. [Kilde](https://hcp.nebido.com/hcp/testosterone-therapy/waist-to-height-ratio)." alt="Taljemålet - Talje-højde-ratio Shape Chart fra Ashwell." %}
+{% include figure image_path="https://hcp.nebido.com/sites/g/files/blfpry596/files/2019-07/chart_with_waist_illustrations-909x697.png" caption="I _Ashwell Shape Chart®_ vises det grafisk, om du er i en zone for bekymring i forhold til dit helbred eller ej. Kilde: [Ashwell Shape Chart](https://hcp.nebido.com/hcp/testosterone-therapy/waist-to-height-ratio)." alt="Taljemålet - Talje-højde-ratio Shape Chart fra Ashwell." %}
 
 ## Talje-hofte-ratio
 
@@ -111,9 +111,11 @@ Wikipedia skriver om talje-hofte-ratioen:
 
 — <cite>[Wikipedia](https://da.wikipedia.org/wiki/Talje-hofte_forhold)</cite>
 
-Ratioen mellem taljemålet og hoftemålet er en indikator på sundhed. Relationen kan sige noget om kropsformen, og man skelner ofte mellem pæreformet og æbleformet kropsfacon. WHR kan afspejle den intraabdominale fedme. Ofte er WHR også knyttet sammen tiltrækning på tværs af forskellige kulturer. 
+Ratioen mellem taljemålet og hoftemålet er en indikator på sundhed. Relationen kan sige noget om kropsformen, og man skelner ofte mellem pæreformet og æbleformet kropsfacon.
 
-{% include figure image_path="https://www.hellodoctor.co.za/wp-content/uploads/2013/12/Body-shapes.jpg" caption="Pæreformet og æbleformet" alt="Talje mål og hoftemål kan via talje-hofte-ratioen siger noget om fedtfordelingen" %}
+WHR kan afspejle den intraabdominale fedme. Ofte er WHR også knyttet sammen med fysisk tiltrækning på tværs af forskellige kulturer. 
+
+{% include figure image_path="https://www.hellodoctor.co.za/wp-content/uploads/2013/12/Body-shapes.jpg" caption="Pæreformet og æbleformet" alt="Talje mål og hoftemål kan via talje-hofte-ratioen siger noget om fedtfordelingen. Kilde: [www.hellodoctor.co.za](https://www.hellodoctor.co.za/)" %}
 
 Hvordan måles taljemålet og hoftemålet som bruges til talje-hofte-ratioen, og hvor måler man hoften?
 
@@ -127,9 +129,7 @@ Du kan se mere i denne video om, hvordan man måler taljemålet og hoftemålet:
 
 ### Normalværdier for talje-hofte-målet for mænd og kvinder
 
-Normalværdierne for WHR er følgende.
-
-Hvis du har højere værdier, så kan du være i en forhøjet risikogruppe for livsstilssygdomme.
+Normalværdierne for WHR er ifølge [Wikipedia](https://en.wikipedia.org/wiki/Waist%E2%80%93hip_ratio). Hvis du har højere værdier, så kan du være i en forhøjet risikogruppe for livsstilssygdomme.
 
 |         | WHR     |
 |---------|---------|
