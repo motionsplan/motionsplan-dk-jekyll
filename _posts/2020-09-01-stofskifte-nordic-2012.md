@@ -19,7 +19,7 @@ Jeg har lavet en beregner til at udregne dit daglige energibehov på baggrund af
 
 Hvordan kan jeg udregne mit daglige energibehov? **Du kan udregne dit daglige energibehov ved at bruge anbefalingerne fra Nordic Nutrition Recommendations 2012. Du skal bruge din vægt, og så slår du formlen op i en tabel baseret på din alder. Derefter ganger du med en faktor, der beskriver dit fysiske energiniveau på en dag. Der er en alternativ formel for hvilestofskiftet i samme anbefalinger, hvor du også bruger din højde til at udregne hvilestofskiftet.**
 
-Denne beregner er baseret på [Nordic Nutrition Recommandations 2012](https://www.norden.org/da/node/7832). Her udregner vi _average resting energy expenditure_ (REE), som vi ganger med den del af stofskiftet, der påvirkes af det fysiske aktivitetsniveau, PAL. Det er denne formel, man har valgt at bruge på [Fitness Institutes uddannelse af personlige trænere](https://fitness-institute.dk/).
+Denne beregner er baseret på [Nordic Nutrition Recommendations 2012](https://www.norden.org/da/node/7832). Her udregner vi _average resting energy expenditure_ (REE), som vi ganger med den del af stofskiftet, der påvirkes af det fysiske aktivitetsniveau, PAL. Det er denne formel, man har valgt at bruge på [Fitness Institutes uddannelse af personlige trænere](https://fitness-institute.dk/).
 
 *[REE]: Average Resting Energy Expenditure
 *[BMR]: Kroppens hvilestofskifte (basic metabolic rate)
@@ -46,12 +46,12 @@ Beregningen er behæftet med stor usikkerhed. Værdierne er rettet mod "almindel
 
 ## Formel for udregning af energibehov
 
-<details>
-  <summary>Se formler til Nordic Nutrition Recommandations 2012</summary>
+<details markdown="1">
+  <summary>Se formler til Nordic Nutrition Recommendations 2012</summary>
 
-## Nordic Nutrition Recommandations 2012
+## Nordic Nutrition Recommendations 2012
 
-I forhold til [Nordic Nutrition Recommandations 2012](https://www.norden.org/da/node/7832), så har jeg flyttet lidt rundt på formlerne for REE baseret på vægt og højde. Det har jeg gjort fordi, der står i den oprindelige reference at den sidste formel gælder for alle over 60 år. Og da der ikke stod en form under 19-30-årige forestiller jeg mig, at det er en fejl.
+I forhold til [Nordic Nutrition Recommendations 2012](https://www.norden.org/da/node/7832), så har jeg flyttet lidt rundt på formlerne for REE baseret på vægt og højde. Det har jeg gjort, fordi der står i den oprindelige reference at den sidste formel gælder for alle over 60 år, men da der ikke står en formel under 19-30-årige forestiller jeg mig, at det er en fejl. Skriv endelig i kommentarerne, hvis du ved noget mere om det.
 
 ### Udregning af mænds hvilestofskifte
 
@@ -90,7 +90,7 @@ W er vægt i kg. H er højde i meter.
 | Sport eller anden hård fysisk aktivitet i fritiden. (30-60 min. 4-5 gange/uge)	                                    | + 0,3   |
 | Hårdt kropsarbejde eller meget høj fritidsaktivitet.	                                                              | 2,0-2,4 |
 
-Tabel fra [Nordic Nutrition Reccommandations 2012](https://www.norden.org/da/node/7832).
+Tabel fra [Nordic Nutrition Recommendations 2012](https://www.norden.org/da/node/7832).
 
 Når du kender hvilestofskiftet (BMR) og faktoren for fysisk aktivitetsniveau (PAL) kan du estimere dit daglige energiforbrug eller daglige stofskifte. Det gør du ved at gange hvilestofskiftet med PAL.
 
@@ -107,4 +107,4 @@ Hvis du gerne vil have en beregner af energibehov på engelsk, så kan du finde 
 
 ## Referencer til hvilestofskifte, stofskifte, energibehov og ligevægtsindtag
 
-- [Nordic Nutrition Recommandations 2012](https://www.norden.org/da/node/7832)
+- [Nordic Nutrition Recommendations 2012](https://www.norden.org/da/node/7832)
