@@ -1,6 +1,14 @@
 <form class="calculator" id="calculator_nordic_2012">
     <fieldset>
-        <legend>Udregning af hvilestofskifte og dagligt energibehov baseret på <em>Nordic Nutrition Recommendations 2012</em>.</legend>
+        <legend>Udregning af hvilestofskifte og dagligt energibehov baseret på <em id="bmr_legend">Nordic Nutrition Recommendations 2012</em>.</legend>
+        <div class="form-group">
+            <label for="bmr-formula">Formel for udregning af hvilestofskifte</label>
+            <select name="bmr-formula" id="bmr-formula">
+                <option value="schofield">Schofield Equation 1985</option>
+                <option value="nordic_1996">Nordic Nutrition Recommendations 1996</option>
+                <option value="nordic_2012" selected="selected">Nordic Nutrition Recommendations 2012</option>
+            </select>
+        </div>
         <div class="form-group">
             <label for="gender">Køn</label>
             <select name="gender" id="gender">

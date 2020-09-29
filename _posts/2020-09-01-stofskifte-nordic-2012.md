@@ -46,9 +46,14 @@ Beregningen er behæftet med stor usikkerhed. Værdierne er rettet mod "almindel
 
 ## Formel for udregning af energibehov
 
-### Udregning af mænds hvilestofskifte
+<details>
+  <summary>Se formler til Nordic Nutrition Recommandations 2012</summary>
 
-I forhold til [Nordic Nutrition Reccommandations 2012](https://www.norden.org/da/node/7832), så har jeg flyttet lidt rundt på formlerne for REE baseret på vægt og højde. Det har jeg gjort fordi, der står i den oprindelige reference at den sidste formel gælder for alle over 60 år. Og da der ikke stod en form under 19-30-årige forestiller jeg mig, at det er en fejl.
+## Nordic Nutrition Recommandations 2012
+
+I forhold til [Nordic Nutrition Recommandations 2012](https://www.norden.org/da/node/7832), så har jeg flyttet lidt rundt på formlerne for REE baseret på vægt og højde. Det har jeg gjort fordi, der står i den oprindelige reference at den sidste formel gælder for alle over 60 år. Og da der ikke stod en form under 19-30-årige forestiller jeg mig, at det er en fejl.
+
+### Udregning af mænds hvilestofskifte
 
 | Alder   | REE (MJ/dag) baseret på vægt  | REE (MJ/dag) baseret på vægt og højde |
 |---------|-----------------|---------------------------|
@@ -72,6 +77,7 @@ W er vægt i kg. H er højde i meter.
 
 **Eksempel:** en mand på 25 år, der vejer 80 kg har et hvilestofskifte på: REE = (0,0669 * 80 kg) + 2,28 = 7,632 MJ/dagligt = 7.632 kJ = 1.817 kcal. Jeg har skrevet lidt mere om, hvad [kalorier (cal) og kilokalorier (kcal) er her]({% link _posts/2020-07-09-kalorier.md %}).
 {: .notice .notice--info }
+</details>
 
 ### Fysisk aktivitetsniveau (PAL) og energibehov
 

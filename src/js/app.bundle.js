@@ -2,6 +2,7 @@
 
 /* global $ */
 
+const schofield = require('./bmr-schofield');
 const vmax_bike = require('./vmax');
 const vmax_intervals = require('./vmax-intervals');
 const billat = require('./billat');
@@ -680,27 +681,43 @@ $(document).ready(function() {
         $("[name='cut']").val(b.getCut(bulkConstant) + ' kcal');
         $("[name='protein']").val(b.getProtein() + ' g');
     });
+    $("#bmr-formula").change(function() {
+        $("#bmr_legend").text($("#bmr-formula option:selected").text());
+    });
     // Calculate BMR - Nordic Nutrition 2012
     $("#calculator_nordic_2012").submit(function(e) {
         console.log("Calculate BMR - 2012");
         e.preventDefault();
 
-        var sex = Number($("[name='gender']").val());
+        var formula = $("[name='bmr-formula']").val();
+        var gender = Number($("[name='gender']").val());
         var age = Number($("[name='age']").val());
         var weight = Number($("[name='weight']").val());
         var height = Number($("[name='height']").val());
         var sport = $("[name='sport']:checked").val();
         var pal = Number($("[name='pal']:checked").val());
 
-        var b = ree.REE2012(sex, age, weight, pal, sport);
-
-        $("[name='pal_calc']").val(b.getPhysicalActivityLevel());
-        if (height > 0) {
-            $("[name='bmr']").val(b.getRestingEnergyExpenditureHeight(height));
-            $("[name='tee']").val(b.getRestingEnergyExpenditureHeight(height) * b.getPhysicalActivityLevel());
-        } else {
-            $("[name='bmr']").val(b.getRestingEnergyExpenditure());
+        if (formula == 'nordic_1996') {
+            var b = bmr.EnergyExpenditure(gender, age, weight, pal, sport);
+            $("[name='pal_calc']").val(b.getPhysicalActivityLevel());
+            $("[name='bmr']").val(b.getBasicMetabolicRate());
             $("[name='tee']").val(b.getTotalEnergyExpenditure());
+        } else if (formula == 'schofield') {
+            var b = schofield.EnergyExpenditureSchofield(gender, age, weight, pal, sport);
+            $("[name='pal_calc']").val(b.getPhysicalActivityLevel());
+            $("[name='bmr']").val(b.getBasicMetabolicRate());
+            $("[name='tee']").val(b.getTotalEnergyExpenditure());
+        } else {
+            var b = ree.REE2012(gender, age, weight, pal, sport);
+    
+            $("[name='pal_calc']").val(b.getPhysicalActivityLevel());
+            if (height > 0) {
+                $("[name='bmr']").val(b.getRestingEnergyExpenditureHeight(height));
+                $("[name='tee']").val(b.getRestingEnergyExpenditureHeight(height) * b.getPhysicalActivityLevel());
+            } else {
+                $("[name='bmr']").val(b.getRestingEnergyExpenditure());
+                $("[name='tee']").val(b.getTotalEnergyExpenditure());
+            }
         }
     });
     // Calculate BMR - Nordic Nutrition 2012
