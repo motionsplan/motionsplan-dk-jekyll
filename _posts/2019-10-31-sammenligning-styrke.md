@@ -13,6 +13,13 @@ tags:
   - styrketræning
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
+feature_row:
+  - image_path: https://images-na.ssl-images-amazon.com/images/I/51CveAOo-KL._SX373_BO1,204,203,200_.jpg
+    url: https://www.amazon.com/Supertraining-Yuri-V-Verkhoshansky/dp/8890403810
+    title: "Supertraining af Mel Siff"
+    excerpt: "En klassiker inden for styrketræningslitteratur."
+    btn_label: "Se den på Amazon"
+    btn_class: "btn--warning"
 ---
 
 Hvis man gerne vil sammenligne styrken af forskellige løftere, så kan man i stedet operere med relativ styrke. Det er imidlertid for enkelt bare at bruge relativ styrke, da sammenhængen mellem løft og kropsvægt ikke er lineær.
@@ -30,13 +37,13 @@ Derfor findes der en række forskellige beregningsmodeller, som kan deles op i e
 
 ## Wilks score
 
-Den mest kendte metode til at sammenligne løftere på tværs af vægtklasser er _Wilks score_, som også er den anerkendte metode i styrkeløft i øjeblikket, men der findes også andre beregningsmodeller.
+[Wilks Score](https://en.wikipedia.org/wiki/Wilks_Coefficient) er den mest kendte metode til at sammenligne løftere på tværs af vægtklasser er _Wilks score_, som også er den anerkendte metode i styrkeløft i øjeblikket, men der findes også andre beregningsmodeller.
 
 {% include calculate-strength-wilks.html %}
 
 ## Dr. Mel Siff
 
-Mel Siff har i _Supertraining_ beskrevet følgende formular til sammenligning på tværs af vægtklasser.
+Mel Siff har i _[Supertraining](https://www.amazon.com/Supertraining-Yuri-V-Verkhoshansky/dp/8890403810)_ beskrevet [følgende formular](https://www.benchpresschampion.com/FORMULES/SIFF.htm){:rel="nofollow"} til sammenligning på tværs af vægtklasser.
 
 T = a - b * bw<sup>(-c)</sup>
 
@@ -79,8 +86,18 @@ Beregningen kan som sagt bruges på andre løft end styrkeløft, da det er rimel
 
 {% endcomment %}
 
+## Konklusion
+
+Der er flere forskellige måder at sammenligne styrke på tværs af vægtklasser på. Her har vi præsenteret Wilks Score og Mel Siffs værdier.
+
+Greg Nuckols har også gjort sig [tanker om at sammenligne løftere på tværs af aldersgrupper](https://www.strongerbyscience.com/whos-the-most-impressive-powerlifter/) og Morten Zacho har baseret en [Index100 beregner](http://web.archive.org/web/20071017053943/http://www.motion-online.dk/styrketraening/styrke_-_artikler/hvem_er_staerkest?_-_beregning_af_index100/){:rel="nofollow"} på Mel Siffs arbejde.
+
+I International Powerlifting Federation har man erstattet Wilks Score med en ny formel. Du kan [se og beregne IPF GL formlen hos Dansk Styrkeløft Forbund](https://styrke.dk/?page=ipfglformel).
+
 ## Referencer
 
 - [Evolution of Bodymass Adjustments](http://web.archive.org/web/20050304042306/http://www.sportsci.com/SPORTSCI/JANUARY/evolution_of_bodymass_adjustment.htm)
 - [About relative strength](http://tsampa.org/training/scripts/relative_strength/#about)
 - [Who is the most impressive powerlifter](https://www.strongerbyscience.com/whos-the-most-impressive-powerlifter/)
+
+{% include feature_row type="left" %}

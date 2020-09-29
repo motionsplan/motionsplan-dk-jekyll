@@ -1,11 +1,12 @@
 ---
-title: "Find konditallet for børn ud fra Watt-max testen på cykel"
+title: &title "Find konditallet for børn ud fra Watt-max testen på cykel"
 permalink: /kondital-wattmax-boern/
 excerpt: "Watt-max test for børn er en trinvist stigende maksimaltest på ergometercykel, som du kan bruge til at udregne konditallet."
 language: da
 header:
   overlay_image: https://i.ytimg.com/vi/jQ_Qtu9qSLU/maxresdefault.jpg
   teaser: https://i.ytimg.com/vi/jQ_Qtu9qSLU/maxresdefault.jpg
+  caption: *title
 category:
   - Kondition
 tags:
@@ -22,13 +23,16 @@ toc: true
 
 Wattmax-testen nem og præcis måde at finde kondital for børn på. Testen lader belastningen stige progressivt, så den kræver et pålideligt cykelergometer, hvor du kan aflæse belastningen og et stopur. Du kan estimere din maksimale iltoptagelse ud fra den maksimale belastning, du kan træde på cyklen.
 
-Dette er en modificeret udgave af [Wattmax-testen for voksne](/kondital-wattmax/) udarbejdet af Wedderkopp et al (2004). Du skal bruge et præcist cykelergometer og et barn, der kan køre sig selv til grænsen. Denne test kan estimere den maksimale iltoptagelse og konditallet med en ret høj korrelation til undersøgelser i laboratorium. 
+Dette er en modificeret udgave af [Wattmax-testen for voksne](/kondital-wattmax/) udarbejdet af Wedderkopp et al (2004). Du skal bruge et præcist cykelergometer og et barn, der kan køre sig selv til grænsen. Denne test kan estimere den maksimale iltoptagelse og konditallet med en ret høj korrelation til undersøgelser i laboratorium.
+
+Jeg læste første gang om Wattmax-testen i denne [artikel af Morten Zacho](http://web.archive.org/web/20110606132059/http://www.motion-online.dk/konditionstraening/testning/watt-max_test_for_boern/){:rel="nofollow"}
+{: .notice .notice--info }
 
 ## Instruktion til wattmax-testen for børn
 
-1. Først vejer du dig
-2. Kør 3 minutter på 25 watt
-3. Herefter øges belastningen med 25 watt hvert tredje minut, indtil du ikke længere kan holde til at køre ved den angivne belastning.
+1. Først vejer du dig.
+2. Du starter testen med at køre 3 minutter på 25 watt.
+3. Herefter øges belastningen med 25 watt hvert tredje minut, indtil du ikke længere kan holde til at køre ved den angivne belastning (hvis du vejer under 30 kg, så brug 20 watt i stedet).
 3. Notér den højeste belastning og hvor mange sekunder, du kørte på belastningen. 
 4. Beregn dit kondital i nedenstående beregner.
 
@@ -49,7 +53,6 @@ Wedderkopp et al (2004) anbefaler, at hvis børnene vejer mindre end 30 kg, så 
 Testen bør køres med en kadence på 60-80 RPM.
 
 ## Formler bag Wattmax-testen for børn
-
 
 Først finder du det maksimale power output (MPO) på baggrund af antallet af sekunder på sidste modstand (T) og belastningen på sidste modstand (W) i watt:
 

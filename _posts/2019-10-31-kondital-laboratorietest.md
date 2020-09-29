@@ -1,5 +1,5 @@
 ---
-title: "Direkte måling af iltoptagelse baseret på en laboratorietest"
+title: &title "Direkte måling af iltoptagelse baseret på en laboratorietest"
 permalink: /iltoptagelse-laboratorietest/
 redirect_from:
   - /kondital-laboratorietest/
@@ -8,6 +8,7 @@ language: da
 header:
   overlay_image: https://www.vih.dk/sites/vih/files/2K2A1286%20-%20Kopi.jpg
   teaser: https://www.vih.dk/sites/vih/files/2K2A1286%20-%20Kopi.jpg
+  caption: *title
 category:
   - Kondition
 tags:

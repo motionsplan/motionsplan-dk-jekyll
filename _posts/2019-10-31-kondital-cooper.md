@@ -22,7 +22,7 @@ toc: true
 
 Cooper-testen er en maksimal løbetest, hvor den distance man kan tilbagelægge på 12 minutter er med til at estimere udøverens kondital. Jeg beskriver her, hvad testen er, og hvordan den udføres?
 
-Hvad er en Cooper-test? **12 minutters Cooper-test er en klassisk konditionstest, som blev designet af militærfysiologen Kenneth H. Cooper i 1968. Cooper-testen var oprindeligt beregnet tl at teste de amerikanske soldaters fysiske form. Det gælder om at løbe så langt som muligt på 12 minutter. Testen skal udføres på en flad strækning, fx en 400 m atletikbane. Testens pålidelighed forudsætter, at man kan presse sig selv og, at man kan løbe med nogenlunde jævn hastighed hele vejen igennem.**
+Hvad er en Cooper-test? **12 minutters Cooper-test er en klassisk konditionstest, som blev designet af militærfysiologen Kenneth H. Cooper i 1968. Cooper-testen var oprindeligt beregnet til at teste de amerikanske soldaters fysiske form. Det gælder om at løbe så langt som muligt på 12 minutter. Testens pålidelighed til at udregne konditallet forudsætter, at den løbes på en flad strækning, hvor man kan presse sig selv, og at man kan løbe med nogenlunde jævn hastighed hele vejen igennem testen.**
 
 ## Hvordan laver du en Cooper-test?
 
@@ -52,7 +52,7 @@ Der findes forskellige formler til at udregne konditallet fra Cooper-testen. Her
 
 {% include math formula="VO_2max = \frac{d_{12} - 505}{45}" %}
 
-I beregneren bruger jeg dog denne [formel til at beregne konditallet ud fra Cooper-testen](https://www.brianmac.co.uk/gentest.htm), da de også er den der bruges om [Cooper test på Wikipedia](https://en.wikipedia.org/wiki/Cooper_test).
+I beregneren bruger jeg dog denne [formel til at beregne konditallet ud fra Cooper-testen](https://www.brianmac.co.uk/gentest.htm), da de også er den, der bruges på [Wikipedias side om Cooper testen](https://en.wikipedia.org/wiki/Cooper_test).
 
 {% include math formula="VO_2max = \frac{d_{12} - 504,9}{44,73}" %}
 
@@ -64,9 +64,11 @@ Hvis du bruger Cooper-testen til at udregne dit kondital, skal du sørge for at 
 
 12 minutters Cooper test er forbundet med nogen usikkerhed. Fx vil folk med ekstrem god løbeøkonomi få overvurderet deres iltoptagelse, og folk med meget dårlig [løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %}) vil få undervurderet deres iltoptagelse.
 
-McCutcheon et al (1990) fandt med at Cooper testen gave en systematisk underestimering på 4 ml/kg/min for deres forsøgsdetlagere, der havde en gennemsnitsalder på 25 år.
+McCutcheon et al (1990) fandt med at Cooper testen gave en systematisk underestimering på 4 ml/kg/min for deres forsøgsdeltagere, der havde en gennemsnitsalder på 25 år.
 
 ## Tabel over resultater fra Cooper-test
+
+Her kan du se en tabel over normalværdier for distance for mænd og kvinder på [Cooper-testen](https://da.wikipedia.org/wiki/Coopertest).
 
 ### Mænd
 

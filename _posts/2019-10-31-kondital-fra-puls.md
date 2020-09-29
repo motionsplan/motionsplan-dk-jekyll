@@ -18,7 +18,7 @@ last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 ---
 
-Det kan være besværligt at finde sit kondital, men danske forskere har udviklet en test, hvor det ikke er så besværligt. Testens præmis er, at hvilepulsen falder, når man kommer i bedre form, fordi slagvolumen øges. Med en højere slagvolumen kan hjertet pumpe mere blod rundt i hvert enkelt slag, og derfor behøver det i hvile ikke at slå så mange gange.
+Det kan være besværligt at finde sit kondital, men [Uth et al (2004)](https://doi.org/10.1007/s00421-003-0988-y) har udviklet en test, hvor det ikke er så besværligt. Testens præmis er, at hvilepulsen falder, når man kommer i bedre form, fordi slagvolumen øges. Med en højere slagvolumen kan hjertet pumpe mere blod rundt i hvert enkelt slag, og derfor behøver det i hvile ikke at slå så mange gange.
 
 Testen bygger på en forudsætning om, at desto større afstand der er mellem hvilepulsen og den maksimale puls, desto større sandsynlighed er der for, at testpersonen har en høj maksimal iltoptagelse og derved et højt kondital. Testen forsøger altså at estimere den maksimale iltoptagelse blot ved hjælp af hvilepulsen og maxpulsen.
 
@@ -82,10 +82,5 @@ For at finde den absolutte iltoptagelse dividerer vi med 1000 ml/l og ganger med
 
 ## Referencer
 
-Uth, Niels, Henrik Sørensen, Kristian Overgaard, og Preben K. Pedersen. 2004. “Estimation of VO2max from the Ratio between HRmax and HRrest--the Heart Rate Ratio Method”. European Journal of Applied Physiology 91 (1): 111–15. <https://doi.org/10.1007/s00421-003-0988-y>.
-
-Tanaka, H., K. D. Monahan, og D. R. Seals. 2001. “Age-Predicted Maximal Heart Rate Revisited”. Journal of the American College of Cardiology 37 (1): 153–56. <https://doi.org/10.1016/s0735-1097(00)01054-8>.
-
-## Noter
-
-[^note]: [Ny formel til beregning af aldersbestemt maximalpuls](https://www.motion-online.dk/ny-formel-beregning-aldersbestemt-maximalpuls/){:rel="nofollow"}
+- Uth, Niels, Henrik Sørensen, Kristian Overgaard, og Preben K. Pedersen. 2004. “Estimation of VO2max from the Ratio between HRmax and HRrest--the Heart Rate Ratio Method”. European Journal of Applied Physiology 91 (1): 111–15. <https://doi.org/10.1007/s00421-003-0988-y>.
+- Tanaka, H., K. D. Monahan, og D. R. Seals. 2001. “Age-Predicted Maximal Heart Rate Revisited”. Journal of the American College of Cardiology 37 (1): 153–56. <https://doi.org/10.1016/s0735-1097(00)01054-8>.
