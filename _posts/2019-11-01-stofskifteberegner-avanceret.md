@@ -90,7 +90,7 @@ Hvis du har et rigtig godt bud, så brug endelig kommentarerne.
 
 Denne beregner er delvist baseret på Morten Zachos [energiforbrugberegner](http://health-calc.com/diet/energy-expenditure-advanced).
 
-Morten Zacho skriver, at hans beregner er baseret på Schofields formler for energiforbrug, men i beregneren bruges faktisk formlerne fra _[Nordiska Næringsrekommendationer 1996]({% link _posts/2019-10-31-simpel-stofskifteberegner.md %})_. Jeg er i tvivl om formlerne fra den reference blot er reviderede Schofield-formler - og hvilken reference de i så fald kommer fra. Skriv endelig i kommentarerne, hvis du ved mere.
+Morten Zacho skriver, at hans beregner er baseret på Schofields formler for energiforbrug, men i beregneren bruges faktisk formlerne fra _[Nordiska Næringsrekommendationer 1996]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %})_. Jeg er i tvivl om formlerne fra den reference blot er reviderede Schofield-formler - og hvilken reference de i så fald kommer fra. Skriv endelig i kommentarerne, hvis du ved mere.
 
 Målet for beregneren af energiforbrug er, at den er pålidelig både for børn, normalvægtige voksne og overvægtige voksne.
 
@@ -136,7 +136,7 @@ Hvis du gerne vil udregne dit energiforbrug mere præcist for forskellige aktivi
 
 ## Udregn energibehov med andre beregnere
 
-Jeg har lavet en [simpel beregner til stofskiftet]({% link _posts/2019-10-31-simpel-stofskifteberegner.md %}), som er baseret på _Nordiska Næringsrekommendationer 1996_ eller en [beregner af energibehov]({% link _posts/2020-09-01-stofskifte-nordic-2012.md %}) baseret på _Nordic Nutrition Recommandations fra 2012_ og en [beregner til udregning af ligevægtsindtaget]({% link _posts/2019-10-31-ligevaegtsberegner.md %}).
+Jeg har lavet en [simpel beregner til stofskiftet]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}), som er baseret på _Nordiska Næringsrekommendationer 1996_ eller en [beregner af energibehov]({% link _posts/2019-11-01-stofskifteberegner-nordic-2012.md %}) baseret på _Nordic Nutrition Recommandations fra 2012_ og en [beregner til udregning af ligevægtsindtaget]({% link _posts/2019-11-01-stofskifte-ligevaegtsberegner.md %}).
 
 Hvis du gerne vil have en energiberegner på engelsk, så har Morten Zacho lavet denne [energiforbrugberegner](http://health-calc.com/diet/energy-expenditure-advanced).
 

@@ -12,13 +12,11 @@ let motionsplan = {};
  * +0.3 Sport eller anden hård fysisk aktivitet i fritiden. (30-60 min. 4-5 gange/uge)
  */
 
-motionsplan.EnergyExpenditure = function(sex, age, weight, pal, sport) {
+motionsplan.BMRNordicNutritionRecommendations1996 = function(sex, age, weight) {
     var bmr;
     var sex = sex;
     var age = age;
     var weight = weight;
-    sport = sport;
-    pal = pal;
 
     function isMale() {
         if (sex == "1") {
@@ -65,26 +63,8 @@ motionsplan.EnergyExpenditure = function(sex, age, weight, pal, sport) {
         return bmr;
     }
 
-    // TEE
-    function getTotalEnergyExpenditure() {
-        return getPhysicalActivityLevel() * getBasicMetabolicRate();
-    }
-
-    // PAL
-    function getPhysicalActivityLevel() {
-        var pal_val = pal;
-        var pal2 = pal_val * 1;
-        console.log(sport);
-        if (String(sport) == "true") {
-            pal2 = pal2 + 0.3;
-        }
-        return pal2;
-    }
-
     var publicAPI = {
-        getBasicMetabolicRate: getBasicMetabolicRate,
-        getTotalEnergyExpenditure: getTotalEnergyExpenditure,
-        getPhysicalActivityLevel: getPhysicalActivityLevel
+        getBasicMetabolicRate: getBasicMetabolicRate
     };
 
     return publicAPI;

@@ -14,13 +14,12 @@ let motionsplan = {};
  * +0.3 Sport eller anden hård fysisk aktivitet i fritiden. (30-60 min. 4-5 gange/uge)
  */
 
-motionsplan.REE2012 = function(sex, age, weight, pal, sport) {
+motionsplan.BMRNordicNutritionRecommendations2012 = function(sex, age, weight, height = 0) {
     var bmr;
-    var sex = sex; // Men is 1; women 0
-    var age = age;
-    var weight = weight;
-    sport = sport;
-    pal = pal;
+    sex = sex; // Men is 1; women 0
+    age = age;
+    weight = weight;
+    height = height / 100;
 
     function isMale() {
         if (sex == "1") {
@@ -29,8 +28,16 @@ motionsplan.REE2012 = function(sex, age, weight, pal, sport) {
         return false;
     }
 
-    // BMR - Nordiska 2012
+    function getBasicMetabolicRate() {
+        return getRestingEnergyExpenditure();
+    }
+
+    // BMR - Nordiska 2012 - kJ
     function getRestingEnergyExpenditure() {
+        if (height > 0) {
+            return getRestingEnergyExpenditureHeight();
+        }
+
         if (isMale()) {
             if ((age > 10) && (age < 19)) {
                 bmr = 0.0769 * weight + 2.43;
@@ -59,9 +66,8 @@ motionsplan.REE2012 = function(sex, age, weight, pal, sport) {
         return bmr * 1000;
     }
 
-    // BMR - Nordiska 2012 - height in cm
-    function getRestingEnergyExpenditureHeight(height) {
-        var height = height / 100;
+    // BMR - Nordiska 2012 - based on height
+    function getRestingEnergyExpenditureHeight() {
         if (isMale()) {
             if ((age > 10) && (age < 19)) {
                 bmr = 0.0651 * weight + 1.11 * height + 1.25;
@@ -90,27 +96,9 @@ motionsplan.REE2012 = function(sex, age, weight, pal, sport) {
         return bmr * 1000;
     }
 
-    // TEE
-    function getTotalEnergyExpenditure() {
-        return getPhysicalActivityLevel() * getRestingEnergyExpenditure();
-    }
-
-    // PAL
-    function getPhysicalActivityLevel() {
-        var pal_val = pal;
-        var pal2 = pal_val * 1;
-        console.log(sport);
-        if (String(sport) == "true") {
-            pal2 = pal2 + 0.3;
-        }
-        return pal2;
-    }
-
     var publicAPI = {
-        getRestingEnergyExpenditure: getRestingEnergyExpenditure,
-        getRestingEnergyExpenditureHeight: getRestingEnergyExpenditureHeight,
-        getTotalEnergyExpenditure: getTotalEnergyExpenditure,
-        getPhysicalActivityLevel: getPhysicalActivityLevel
+        getBasicMetabolicRate : getBasicMetabolicRate,
+        getRestingEnergyExpenditure : getRestingEnergyExpenditure
     };
 
     return publicAPI;

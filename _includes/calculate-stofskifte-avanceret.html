@@ -1,3 +1,4 @@
+{% comment %}
 <script>
     function calculate(form) {
         var bmr;
@@ -109,14 +110,15 @@
         return false;
     }
 </script>
-<form class="calculator" id="form1">
+{% endcomment %}
+<form class="calculator" id="calculator_bmr_advanced_pal">
     <fieldset>
         <legend>Avanceret udregning af dit stofskifte, energibehov og ligevægtsindtag baseret på Schofield (1985).</legend>
         <fieldset>
             <legend>Køn</legend>
-            <label for="male" class="radio"><input type="radio" name="sex" value="male" id="male" onclick="this.form.sexHidden.value = 'male';" checked="checked"> Mand</label>
-    		<label for="female" class="radio"><input type="radio" name="sex" value="female" id="female" onclick="this.form.sexHidden.value = 'female';"> Kvinde</label>
-    		<input type="hidden" name="sexHidden" value="male">
+            <label for="male" class="radio"><input type="radio" name="sex" value="male" id="male" onclick="this.form.gender.value = 'male';" checked="checked"> Mand</label>
+    		<label for="female" class="radio"><input type="radio" name="sex" value="female" id="female" onclick="this.form.gender.value = 'female';"> Kvinde</label>
+    		<input type="hidden" name="gender" value="male">
         </fieldset>
         <div class="form-group">
             <label for="age">Alder (år)</label>
@@ -134,27 +136,27 @@
             <legend>Angiv dit daglige fysiske aktivitetsniveau</legend>
         <div class="form-group">
             <label for="height">Intens træning (min) - MET 10</label>
-            <input type="number" min="0" max="1440" placeholder="" name="activity_intense" id="activity_intense" onchange="calculate(this.form);">
+            <input type="number" min="0" max="1440" placeholder="" name="activity_intense" id="activity_intense">
             <p class="help-block">Maksimal aktivitet. Intensiv idræt. Hurtig løb. Hurtig roning.</p>
         </div>
         <div class="form-group">
             <label for="height">Moderat træning (min) - MET 7</label>
-            <input type="number" min="0" max="1440" placeholder="" name="activity_moderat" id="activity_moderat" onchange="calculate(this.form);">
+            <input type="number" min="0" max="1440" placeholder="" name="activity_moderat" id="activity_moderat">
             <p class="help-block">Styrketræning. Hugge brænde. De fleste idrætsgrene. Cykling.</p>
         </div>
         <div class="form-group">
             <label for="height">Let aktivitet (min) - MET 4</label>
-            <input type="number" min="0" max="1440" placeholder="" name="activity_light" id="activity_light" onchange="calculate(this.form);">
+            <input type="number" min="0" max="1440" placeholder="" name="activity_light" id="activity_light">
             <p class="help-block">Husarbejde. Havearbejde. Hurtig gang. Golf.</p>
         </div>
         <div class="form-group">
             <label for="height">Stående og gående (min) - MET 2</label>
-            <input type="number" min="00" max="1440" placeholder="" name="activity_standing" id="activity_standing" onchange="calculate(this.form);">
+            <input type="number" min="00" max="1440" placeholder="" name="activity_standing" id="activity_standing">
             <p class="help-block">Madlavning. Let gang. Indkøb. Shopping.</p>
         </div>
         <div class="form-group">
             <label for="height">Sove (min) - MET 0,9</label>
-            <input type="number" min="0" max="1440" placeholder="" name="activity_sleeping" id="activity_sleeping" onchange="calculate(this.form);">
+            <input type="number" min="0" max="1440" placeholder="" name="activity_sleeping" id="activity_sleeping">
             <p class="help-block">Fra du ligger i sengen til du står op.</p>
         </div>
         <div class="form-group">
@@ -163,7 +165,7 @@
             <p class="help-block">Den resterende tid anslås som siddende.</p>
         </div>
         </fieldset>
-        <input type="submit" value="Beregn" onclick="return calculate(this.form);">
+        <input type="submit" value="Beregn">
     </fieldset>
     <fieldset class="results">
         <div class="form-group">
