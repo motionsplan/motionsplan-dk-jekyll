@@ -1050,7 +1050,7 @@ $(document).ready(function() {
         } else {
             b = ree.BMRNordicNutritionRecommendations2012(gender, age, weight, height);
         }
-        $("[name='bmr']").val(b.getRestingEnergyExpenditure());
+        $("[name='bmr']").val(b.getBasicMetabolicRate());
         
         var tee = tee_pal.TotalEnergyExpenditurePAL(b.getBasicMetabolicRate(), pal, sport);
 
@@ -1886,7 +1886,6 @@ module.exports = motionsplan;
 
 },{}],9:[function(require,module,exports){
 let motionsplan = {};
-
 
 /**
  * PAL-values:

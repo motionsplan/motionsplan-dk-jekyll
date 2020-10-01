@@ -1,5 +1,5 @@
 ---
-title: "Beregn dit hvilestofskifte, energibehov og ligevægtsindtag"
+title: "Beregn dit daglige stofskifte, energiforbrug og energibehov 🔥"
 permalink: /stofskifte/
 language: da
 header:
@@ -13,6 +13,12 @@ tags:
   - stofskifte
 last_modified_at: 2020-08-31T23:14:14Z
 toc: true
+keywords:
+  - beregn dit energiforbrug
+  - beregn energiforbrug
+  - energiforbrug beregner
+  - beregn stofskifte
+  - beregning af energiforbrug
 ---
 
 Jeg har lavet en beregner til at udregne dit daglige energibehov på baggrund af dit hvilestofskifte. Beregneren er baseret på Nordic Nutrition Recommandations fra 2012, og du udregner dit hvilestofskifte og basalstofskifte på baggrund af alder, vægt og højde og sammen med dit fysiske aktivitetsniveau kan vi estimere det omtrentlige daglige energibehov.
@@ -34,7 +40,7 @@ Stofskiftet består af 3 hovedkomponenter: hvilestofskiftet (BMR), fødeinducere
 
 Med denne beregner kan du udregne dit hvilestofskifte (REE), og dit samlede daglige energibehov. Resultatet fra beregneren giver dig et gennemsnit for, hvor meget energi en person med dit køn, din alder, din vægt og din højde bruger på en dag.
 
-{% include calculate-stofskifte-nordic-2012.html %}
+{% include calculate-stofskifte.html %}
 
 {% comment %}
 
@@ -46,124 +52,7 @@ Beregningen er behæftet med stor usikkerhed. Værdierne er rettet mod "almindel
 
 ## Formel for udregning af energibehov
 
-<details markdown="1">
-  <summary>Se formler til Nordic Nutrition Recommendations (2012)</summary>
-
-## Nordic Nutrition Recommendations 2012
-
-I forhold til [Nordic Nutrition Recommendations 2012](https://www.norden.org/da/node/7832), så har jeg flyttet lidt rundt på formlerne for REE baseret på vægt og højde. Det har jeg gjort, fordi der står i den oprindelige reference at den sidste formel gælder for alle over 60 år, men da der ikke står en formel under 19-30-årige forestiller jeg mig, at det er en fejl. Skriv endelig i kommentarerne, hvis du ved noget mere om det.
-
-### Udregning af mænds hvilestofskifte
-
-| Alder   | REE (MJ/dag) baseret på vægt  | REE (MJ/dag) baseret på vægt og højde |
-|---------|-----------------|---------------------------|
-|	11-18	  | 0,0769 W + 2.43 | 0,0651 W + 1,11 H + 1,25  |
-| 19-30	  | 0,0669 W + 2,28 | 0,0600 W + 1,31 H + 0,473 |
-| 31-60	  | 0,0592 W + 2,48 | 0,0476 W + 2,26 H - 0,574 |
-| 61-70	  | 0,0543 W + 2,37 | 0,0748 W + 2,26 H - 1,070 |
-| over 70	| 0,0573 W + 2,01 | 0,0748 W + 2,26 H - 1,070 |
-
-### Udregning af kvinders hvilestofskifte
-
-| Alder   | REE (MJ/dag) baseret på vægt  | REE (MJ/dag) baseret på vægt og højde |
-|---------|-----------------|----------------------------|
-| 11-18	  | 0,0465 W + 3,18 | 0,0393 W + 1,04 H + 1,93   |
-| 19-30	  | 0,0546 W + 2,33 | 0,0433 W + 2,57 H - 1,180  |
-| 31-60	  | 0,0407 W + 2,90 | 0,0342 W + 2,10 H - 0,0486 |
-| 61-70	  | 0,0429 W + 2,39 | 0,0356 W + 1,76 H + 0,0448 | 
-| over 70	| 0,0417 W + 2,41 | 0,0356 W + 1,76 H + 0,0448 |
-
-W er vægt i kg. H er højde i meter.
-
-**Eksempel:** en mand på 25 år, der vejer 80 kg har et hvilestofskifte på: REE = (0,0669 * 80 kg) + 2,28 = 7,632 MJ/dagligt = 7.632 kJ = 1.817 kcal. Jeg har skrevet lidt mere om, hvad [kalorier (cal) og kilokalorier (kcal) er her]({% link _posts/2020-07-09-kalorier.md %}).
-{: .notice .notice--info }
-</details>
-
-<details markdown="1">
-  <summary>Se formler til Nordiska Næringsrekommendationer (1996)</summary>
-
-### Formel til at beregne hvilestofskiftet
-
-#### Mænds hvilestofskifte
-
-| Alder   | BMR (kJ/dag)  |
-|---------|---------------|
-| 11-18	  | 74 V + 2750   |
-| 19-30	  | 64 V + 2840   |
-| 31-60	  | 48,5 V + 3670 |
-| 61-75	  | 49,9 V + 2930 |
-| over 75 | 35 V + 3430   |
-
-#### Kvinders hvilestofskifte
-
-| Alder   | BMR (kJ/dag)  |
-|---------|---------------|
-| 11-18	  | 56 V + 2900   |
-| 19-30	  | 61,5 V + 2080 |
-| 31-60	  | 36,4 V + 3470 |
-| 61-75	  | 38,6 V + 2880 |
-| over 75 | 41 V + 2610   |
-
-V er vægt i kg. 
-
-Eksempel: En kvinde på 29 år som vejer 59 kg kan udregne sit hvilestofskifte således: BMR = 61,5 * 59 + 2080 = 5119 kJ dagligt. Hvis du gerne vil have tallet i **kalorier** skal du dele det med 4,2. Jeg har skrevet lidt mere om, hvad [kalorier (cal) og kilokalorier (kcal) er her]({% link _posts/2020-07-09-kalorier.md %}).
-{: .notice .notice--info }
-</details>
-
-<details markdown="1">
-  <summary>Se formler for Schofield (1985)</summary>
-
-Hvilestofskiftet bliver udregnet ud fra [Schofields formler](https://en.wikipedia.org/wiki/Schofield_equation) (1985) som også bruges af WHO. Læg mærke til, at der er aldersspecifikke formler for børn, hvilket betyder, at beregneren er relativt pålidelig også til at udregne hvilestofskiftet til børn.
-
-### Schofields formler for energibehov for mænd
-
-| Age | Equation (kJ/day) | SEE |
-|-|-|-|
-| < 3 | 249 × W - 127 | 292 |
-| 3–10 | 95 × W + 2110 | 280 |
-| 10–18 | 74 × W + 2754 | 441 |
-| 18–30 | 63 × W + 2896 | 641 |
-| 30–60 | 48 × W + 3653 | 700 |
-| > 60 | 49 × W + 2459 | 686 |
-
-### Schofields formler for energiforbrug for kvinder
-
-| Age | Equation (kJ/day) | SEE |
-|-|-|-|
-| < 3 | 244 × W - 130 | 246 |
-| 3–10 | 85 × W + 2033 | 292 |
-| 10–18 | 56 × W + 2898 | 466 |
-| 18–30 | 62 × W + 2036 | 497 |
-| 30–60 | 34 × W + 3538 | 465 |
-| > 60 | 38 × W + 2755 | 451 |
-</details>
-
-<details markdown="1">
-  <summary>Se formler for Benedict-Harris (1918-1919)</summary>
-
-I denne beregner er [Benedict-Harris formlen](https://en.wikipedia.org/wiki/Harris%E2%80%93Benedict_equation) brugt til at udregne basalstofskiftet, som sammen med det fysiske aktivitetsniveau kan bruges til at udregne ligevægtsindtaget. Benedict-Harris-formlen for basalstofskiftet afhænger af vægten, højden og alderen. Formlen ser sådan her ud.
-
-- Mænd: BMR = 66.5 + ( 13.75 × weight in kg ) + ( 5.003 × height in cm ) – ( 6.755 × age in years )
-- Kvinder: BMR = 655 + ( 9.563 × weight in kg ) + ( 1.850 × height in cm ) – ( 4.676 × age in years )
-</details>
-
-<details markdown="1">
-  <summary>Se formler for Roza og Shizgal (1984)</summary>
-
-[Roza and Shizgal](https://pubmed.ncbi.nlm.nih.gov/6741850/) reviderede formlen i 1984. Den formel forventer jeg senere at integrere i beregneren her. Skriv i kommentarerne, hvis det skal gå lidt hurtigere :) - og hvis du kender den nærmere baggrund for revideringen af Benedict-Harris formel, så brug også endelig kommentarerne, så denne artikel kan blive bedst mulig.
-
-- Mænd: BMR = 88.362 + (13.397 × weight in kg) + (4.799 × height in cm) - (5.677 × age in years)
-- Kvinder: BMR = 447.593 + (9.247 × weight in kg) + (3.098 × height in cm) - (4.330 × age in years)
-</details>
-
-<details markdown="1">
-  <summary>Se formler for Mifflin et al (1990)</summary>
-
-[Mifflin et al (1990)](https://academic.oup.com/ajcn/article-abstract/51/2/241/4695104) reviderede Benedict-Harris-formlen 1990. Skriv i kommentarerne, hvis det skal gå lidt hurtigere :) - og hvis du kender den nærmere baggrund for revideringen af Benedict-Harris formel, så brug også endelig kommentarerne, så denne artikel kan blive bedst mulig.
-
-- Mænd: BMR = (10 × weight in kg) + (6.25 × height in cm) - (5 × age in years) + 5
-- Kvinder: BMR = (10 × weight in kg) + (6.25 × height in cm) - (5 × age in years) - 161
-</details>
+I den avancerede stofskifteberegner ovenfor kan du bruge forskellige formler for hvilestofskiftet og basalstofskiftet. Hvis du vil læse mere om de enkelte formler, så har jeg lavet et indlæg om, hvordan [beregningen af hvilestofskiftet og basalstofskiftet laves]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}).
 
 ### Fysisk aktivitetsniveau (PAL) og energibehov
 

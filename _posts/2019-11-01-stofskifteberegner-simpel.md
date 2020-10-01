@@ -1,11 +1,13 @@
 ---
-title: "Beregn dit stofskifte: Udregn dit daglige energiforbrug? 🔥"
-permalink: /simpel-stofskifte/
+title: &title "BMR-beregner: Beregn dit hvilestofskifte og basalstofskifte 🔥"
+permalink: /bmr-beregner-hvilestofskifte-basalstofskifte/
+redirect_from:
+  - /simpel-stofskifte/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1551337948-0ad8de8568ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1925&q=80
   teaser: https://images.unsplash.com/photo-1551337948-0ad8de8568ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
-  caption: Beregn dit stofskifte, daglige energiforbrug og basalstofskifte med vores BMR-beregner
+  caption: *title
 category:
   - Beregnere
 tags:
@@ -28,6 +30,21 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/menneskets-ernaering_arne-astrup_indbundet_9788762813762"
     btn_label: "Læs mere*"
     btn_class: "btn--success"
+keywords:
+  - bmr beregner
+  - basalstofskifte beregner
+  - basalstofskifte
+  - udregn bmr
+  - beregn bmr
+  - hvilestofskifte
+  - beregn hvilestofskifte
+  - beregn basalstofskifte
+  - udregn basalstofskifte
+  - bmr udregning
+  - udregn hvilestofskifte
+  - basalstofskifte udregning
+  - basalstofskifte hvilestofskifte
+  - udregning af basalstofskifte
 ---
 
 Jeg har lavet en BMR-beregner, hvor du kan udregne dit stofskifte og dit daglige energiforbrug på baggrund af dit hvilestofskifte og fysiske aktivitetsniveau. Jeg synes det er interessant at udregne, hvad mit basalstofskifte er i forhold min fysiske aktivitet for at se, hvad mit omtrentlige daglige energibehov er.
@@ -52,7 +69,7 @@ Med denne beregner kan du udregne dit hvilestofskifte, som også ofte kaldes bas
 
 Resultatet er en gennemsnitsberegning for, hvor meget energi personer med dit køn, din alder og din vægt bruger på en dag. Der kan være store variationer fra person til person.
 
-{% include calculate-metabolic-rate.html %}
+{% include calculate-stofskifte.html %}
 
 {% comment %}
 
@@ -62,9 +79,43 @@ Beregningen af hvilestofskiftet er behæftet med stor en del usikkerhed. Værdie
 
 {% endcomment %}
 
-## Tabeller for udregning af hvilestofskiftet
+## Formler og tabeller for udregning af hvilestofskiftet
 
-Tabellerne og beregneren af stofskiftet er baseret på værdier fra _Nordiska Næringsrekommendationer 1996_.
+<details markdown="1">
+  <summary>Se formler til Nordic Nutrition Recommendations (2012)</summary>
+
+## Nordic Nutrition Recommendations 2012
+
+I forhold til [Nordic Nutrition Recommendations 2012](https://www.norden.org/da/node/7832), så har jeg flyttet lidt rundt på formlerne for REE baseret på vægt og højde. Det har jeg gjort, fordi der står i den oprindelige reference at den sidste formel gælder for alle over 60 år, men da der ikke står en formel under 19-30-årige forestiller jeg mig, at det er en fejl. Skriv endelig i kommentarerne, hvis du ved noget mere om det.
+
+### Udregning af mænds hvilestofskifte
+
+| Alder   | REE (MJ/dag) baseret på vægt  | REE (MJ/dag) baseret på vægt og højde |
+|---------|-----------------|---------------------------|
+|	11-18	  | 0,0769 W + 2.43 | 0,0651 W + 1,11 H + 1,25  |
+| 19-30	  | 0,0669 W + 2,28 | 0,0600 W + 1,31 H + 0,473 |
+| 31-60	  | 0,0592 W + 2,48 | 0,0476 W + 2,26 H - 0,574 |
+| 61-70	  | 0,0543 W + 2,37 | 0,0748 W + 2,26 H - 1,070 |
+| over 70	| 0,0573 W + 2,01 | 0,0748 W + 2,26 H - 1,070 |
+
+### Udregning af kvinders hvilestofskifte
+
+| Alder   | REE (MJ/dag) baseret på vægt  | REE (MJ/dag) baseret på vægt og højde |
+|---------|-----------------|----------------------------|
+| 11-18	  | 0,0465 W + 3,18 | 0,0393 W + 1,04 H + 1,93   |
+| 19-30	  | 0,0546 W + 2,33 | 0,0433 W + 2,57 H - 1,180  |
+| 31-60	  | 0,0407 W + 2,90 | 0,0342 W + 2,10 H - 0,0486 |
+| 61-70	  | 0,0429 W + 2,39 | 0,0356 W + 1,76 H + 0,0448 | 
+| over 70	| 0,0417 W + 2,41 | 0,0356 W + 1,76 H + 0,0448 |
+
+W er vægt i kg. H er højde i meter.
+
+**Eksempel:** en mand på 25 år, der vejer 80 kg har et hvilestofskifte på: REE = (0,0669 * 80 kg) + 2,28 = 7,632 MJ/dagligt = 7.632 kJ = 1.817 kcal. Jeg har skrevet lidt mere om, hvad [kalorier (cal) og kilokalorier (kcal) er her]({% link _posts/2020-07-09-kalorier.md %}).
+{: .notice .notice--info }
+</details>
+
+<details markdown="1">
+  <summary>Se formler til Nordiska Næringsrekommendationer (1996)</summary>
 
 ### Formel til at beregne hvilestofskiftet
 
@@ -92,6 +143,62 @@ V er vægt i kg.
 
 Eksempel: En kvinde på 29 år som vejer 59 kg kan udregne sit hvilestofskifte således: BMR = 61,5 * 59 + 2080 = 5119 kJ dagligt. Hvis du gerne vil have tallet i **kalorier** skal du dele det med 4,2. Jeg har skrevet lidt mere om, hvad [kalorier (cal) og kilokalorier (kcal) er her]({% link _posts/2020-07-09-kalorier.md %}).
 {: .notice .notice--info }
+</details>
+
+<details markdown="1">
+  <summary>Se formler for Schofield (1985)</summary>
+
+Hvilestofskiftet bliver udregnet ud fra [Schofields formler](https://en.wikipedia.org/wiki/Schofield_equation) (1985) som også bruges af WHO. Læg mærke til, at der er aldersspecifikke formler for børn, hvilket betyder, at beregneren er relativt pålidelig også til at udregne hvilestofskiftet til børn.
+
+### Schofields formler for energibehov for mænd
+
+| Age | Equation (kJ/day) | SEE |
+|-|-|-|
+| < 3 | 249 × W - 127 | 292 |
+| 3–10 | 95 × W + 2110 | 280 |
+| 10–18 | 74 × W + 2754 | 441 |
+| 18–30 | 63 × W + 2896 | 641 |
+| 30–60 | 48 × W + 3653 | 700 |
+| > 60 | 49 × W + 2459 | 686 |
+
+### Schofields formler for energiforbrug for kvinder
+
+| Age | Equation (kJ/day) | SEE |
+|-|-|-|
+| < 3 | 244 × W - 130 | 246 |
+| 3–10 | 85 × W + 2033 | 292 |
+| 10–18 | 56 × W + 2898 | 466 |
+| 18–30 | 62 × W + 2036 | 497 |
+| 30–60 | 34 × W + 3538 | 465 |
+| > 60 | 38 × W + 2755 | 451 |
+</details>
+
+<details markdown="1">
+  <summary>Se formler for Benedict-Harris (1918-1919)</summary>
+
+I denne beregner er [Benedict-Harris formlen](https://en.wikipedia.org/wiki/Harris%E2%80%93Benedict_equation) brugt til at udregne basalstofskiftet, som sammen med det fysiske aktivitetsniveau kan bruges til at udregne ligevægtsindtaget. Benedict-Harris-formlen for basalstofskiftet afhænger af vægten, højden og alderen. Formlen ser sådan her ud.
+
+- Mænd: BMR = 66.5 + ( 13.75 × weight in kg ) + ( 5.003 × height in cm ) – ( 6.755 × age in years )
+- Kvinder: BMR = 655 + ( 9.563 × weight in kg ) + ( 1.850 × height in cm ) – ( 4.676 × age in years )
+</details>
+
+<details markdown="1">
+  <summary>Se formler for Roza og Shizgal (1984)</summary>
+
+[Roza and Shizgal](https://pubmed.ncbi.nlm.nih.gov/6741850/) reviderede formlen i 1984. Den formel forventer jeg senere at integrere i beregneren her. Skriv i kommentarerne, hvis det skal gå lidt hurtigere :) - og hvis du kender den nærmere baggrund for revideringen af Benedict-Harris formel, så brug også endelig kommentarerne, så denne artikel kan blive bedst mulig.
+
+- Mænd: BMR = 88.362 + (13.397 × weight in kg) + (4.799 × height in cm) - (5.677 × age in years)
+- Kvinder: BMR = 447.593 + (9.247 × weight in kg) + (3.098 × height in cm) - (4.330 × age in years)
+</details>
+
+<details markdown="1">
+  <summary>Se formler for Mifflin et al (1990)</summary>
+
+[Mifflin et al (1990)](https://academic.oup.com/ajcn/article-abstract/51/2/241/4695104) reviderede Benedict-Harris-formlen 1990. Skriv i kommentarerne, hvis det skal gå lidt hurtigere :) - og hvis du kender den nærmere baggrund for revideringen af Benedict-Harris formel, så brug også endelig kommentarerne, så denne artikel kan blive bedst mulig.
+
+- Mænd: BMR = (10 × weight in kg) + (6.25 × height in cm) - (5 × age in years) + 5
+- Kvinder: BMR = (10 × weight in kg) + (6.25 × height in cm) - (5 × age in years) - 161
+</details>
 
 ## Hvordan måles hvilestofskiftet og basal metabolic rate (BMR)?
 
@@ -150,7 +257,7 @@ Hård fysisk aktivitet medfører, at ens stofskifte er forhøjet 12-24 timer eft
 | Sport eller anden hård fysisk aktivitet i fritiden. (30-60 min. 4-5 gange/uge)	                                    | + 0,3   |
 | Hårdt kropsarbejde eller meget høj fritidsaktivitet.	                                                              | 2,0-2,4 |
 
-Tabelle er fra _Nordiska Næringsrekommendationer 1996_.
+Tabel fra _Nordiska Næringsrekommendationer 1996_.
 
 Når du kender hvilestofskiftet (BMR) og faktoren for fysisk aktivitetsniveau (PAL) kan du estimere det daglige energiforbrug eller daglige stofskifte. Det gør du ved at gange hvilestofskiftet med PAL.
 

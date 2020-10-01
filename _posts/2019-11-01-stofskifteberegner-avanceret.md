@@ -1,5 +1,5 @@
 ---
-title: "Beregn dit hvilestofskifte 🔥 og dit daglige energiforbrug?"
+title: "Beregn dit dit daglige energiforbrug? 🔥"
 permalink: /avanceret-stofskifteberegner/
 language: da
 header:

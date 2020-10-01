@@ -1,5 +1,5 @@
 ---
-title: &title "Beregn dit ligevægtsindtag og energiforbrug til cut og bulk ⚖"
+title: &title "Beregn dit ligevægtsindtag med vores beregner til energiforbrug ⚖"
 permalink: /ligevaegtsindtag/
 language: da
 header:
@@ -13,6 +13,10 @@ tags:
   - ligevægtsindtag
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
+keywords:
+  - ligevægtsindtag
+  - beregn ligevægtsindtag
+  - ligevægtsindtag beregner
 ---
 
 Jeg har lavet en beregner til at udregne dit ligevægtsindtag. Det kan være hjælpsomt at kende dit ligevægtsindtag, så du kan sikre dig de bedste resultater med din træning uanset om træningens formål er at tage på i vægt, eller du gerne vil opnå et vægttab.

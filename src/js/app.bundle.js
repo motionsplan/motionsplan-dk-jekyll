@@ -709,7 +709,7 @@ $(document).ready(function() {
         } else {
             b = ree.BMRNordicNutritionRecommendations2012(gender, age, weight, height);
         }
-        $("[name='bmr']").val(b.getRestingEnergyExpenditure());
+        $("[name='bmr']").val(b.getBasicMetabolicRate());
         
         var tee = tee_pal.TotalEnergyExpenditurePAL(b.getBasicMetabolicRate(), pal, sport);
 

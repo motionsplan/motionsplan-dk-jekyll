@@ -1,6 +1,5 @@
 let motionsplan = {};
 
-
 /**
  * PAL-values:
  * 
