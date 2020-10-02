@@ -19,43 +19,40 @@ keywords:
   - ligevægtsindtag beregner
 ---
 
-Jeg har lavet en beregner til at udregne dit ligevægtsindtag. Det kan være hjælpsomt at kende dit ligevægtsindtag, så du kan sikre dig de bedste resultater med din træning uanset om træningens formål er at tage på i vægt, eller du gerne vil opnå et vægttab.
+Jeg har lavet en beregner til at udregne dit ligevægtsindtag. Det kan være hjælpsomt at kende ligevægtsindtaget, så du kan sikre dig de bedste resultater med din træning uanset om træningens formål er at tage på i vægt, holde vægten eller du gerne vil opnå et vægttab.
 
-Hvad er ligevægtsindtaget? **Ligevægtsindtaget er, når du indtager lige så meget energi gennem kost, som du forbruger i løbet af en dag. Når du indtager energi, der svarer til dit ligevægtsindtag, så er din vægt stabil.**
+Hvad er ligevægtsindtaget? **Ligevægtsindtaget er, når du indtager lige så meget energi gennem kosten, som du forbruger i løbet af en dag. Når du indtager energi, der svarer til dit ligevægtsindtag, så er din vægt stabil, og derfor kalder man det ligevægtsindtaget.**
 
-Hvis du gerne vil finde dit ligevægtsindtag, så skal du bare udfylde skemaet nedenunder. Du får det bedste estimat på dit ligevægtsindtag, hvis du er præcis med dine indtastninger. Du skal imidlertid være opmærksom på, at beregnerne bare giver et bud på ligevægtsindtaget.
+Hvis du gerne vil finde dit ligevægtsindtag, så er der forskellige måder at gøre det på. Da de færreste har adgang til et laboratorium, så estimerer man ofte sit ligevægtsindtag med forskellige udregninger. Der findes mange forskellige måder at udregne ligevægtsindtaget på.
 
-## Beregn dit ligevægtsindtag med Benedict-Harris formel
+Ligevægtsindtaget er et andet ord for dit samlede daglige [energiforbrug og energibehov]({% link _posts/2019-11-01-stofskifteberegner-nordic-2012.md %}). Jeg har skrevet et andet indlæg om [hvilestofskiftet og basalstofskiftet]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}) og et indlæg om hvordan du [udregner dit daglige stofskifte og forbrænding med en mere nøjagtig angivelse af aktivitetsniveauet]({% link _posts/2019-11-01-stofskifteberegner-avanceret.md %}).
 
-Udregneren af ligevægtsindtaget tager udgangspunkt i [Benedict-Harris](https://pubmed.ncbi.nlm.nih.gov/18782481/)-formlen, som nok er den mest brugte formel til ligevægtsindtag.
+Du kan estimere dit ligevægtsindtag i beregneren nedenunder. Du får det bedste estimat på dit ligevægtsindtag, hvis du er omhyggelig med dine indtastninger. Husk også at beregneren bare giver et bud på, hvad dit ligevægtsindtag er baseret på sammenlignelige gennemsnitsværdier i forhold til din højde.
 
-## Hvad kan jeg bruge ligevægtsindtaget til?
+## Beregn dit ligevægtsindtag
 
-Du kan bruge ligevægtsindtaget, hvis du fx laver kostplaner, hvor du skal ramme et bestemt antal kalorier for at ændre din vægt.
+Du kan udregne ligevægtsindtaget i nedenstående beregner.
 
 {% include calculate-ligevaegt.html %}
 
+## Hvad kan jeg bruge ligevægtsindtaget til?
+
+Du kan bruge ligevægtsindtaget, hvis du fx laver kostplaner, hvor du skal ramme et bestemt antal kalorier for at fastholde eller ændre din vægt.
+
 ## Hvordan udregner jeg ligevægtsindtaget?
 
-I denne beregner er [Benedict-Harris formlen](https://en.wikipedia.org/wiki/Harris%E2%80%93Benedict_equation) brugt til at udregne basalstofskiftet, som sammen med det fysiske aktivitetsniveau kan bruges til at udregne ligevægtsindtaget. Benedict-Harris-formlen for basalstofskiftet afhænger af vægten, højden og alderen. Formlen ser sådan her ud.
+## Hvad er mit potentiale for at ændre vægt?
 
-- Mænd: BMR = 66.5 + ( 13.75 × weight in kg ) + ( 5.003 × height in cm ) – ( 6.755 × age in years )
-- Kvinder: BMR = 655 + ( 9.563 × weight in kg ) + ( 1.850 × height in cm ) – ( 4.676 × age in years )
+Lave beregner
+Cut - tabe fedt
+Bulk -- tage muskler på
+Anbefalet protein
 
-[Roza and Shizgal](https://pubmed.ncbi.nlm.nih.gov/6741850/) reviderede formlen i 1984. Den formel forventer jeg senere at integrere i beregneren her. Skriv i kommentarerne, hvis det skal gå lidt hurtigere :) - og hvis du kender den nærmere baggrund for revideringen af Benedict-Harris formel, så brug også endelig kommentarerne, så denne artikel kan blive bedst mulig.
+## Hvilken formel skal jeg vælge til beregning af ligevægtsindtag?
 
-- Mænd: BMR = 88.362 + (13.397 × weight in kg) + (4.799 × height in cm) - (5.677 × age in years)
-- Kvinder: BMR = 447.593 + (9.247 × weight in kg) + (3.098 × height in cm) - (4.330 × age in years)
+## Hvordan vælger jeg aktivitetsniveau?
 
-## Præcision af formler for ligevægtsindtag og hvilestofskifte
-
-Brian Henneberg gennemgår et studie, som [sammenligner præcisionen af formler for hvilestofskiftet](https://www.bodylab.dk/shop/hvilestofskifteformler-2881c1.html). Studiet konkluderer:
-
-> Som det fremgår var næsten alle formlerne signifikant off ift. de resultater man fik når man rent faktisk målte hvilestofskiftet. De fleste formler undervurderede hvilestofskiftet, mens to formler overvurderede stofskiftet (De Lorenzo og Cunningham hos kvinderne).
-> 
-> Hos mændene viste beregningerne at Harris-Benedict var den mest præcise, om end den i gennemsnit vist 284 kcal for lidt. Hos kvinderne var Cunningham den mest præcise med en gennemsnitlig afvigelse på 110 kcal (over det faktiske).
-
---- <cite>[Brian Henneberg](https://www.bodylab.dk/shop/hvilestofskifteformler-2881c1.html)</cite>
+## Præcision af udregninger for ligevægtsindtag
 
 ## Konklusion om ligevægtsindtag
 
@@ -63,4 +60,4 @@ Nu kender du dit omtrentlige ligevægtsindtag. Som du kan se så er den største
 
 ## Andre beregnere til ligevægtsindtag
 
-Udregneren af ligevægtsindtaget tager udgangspunkt i [Benedict-Harris](https://pubmed.ncbi.nlm.nih.gov/18782481/)-formlen, men jeg har også lavet en anden [beregner til at udregne dit stofskifte]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}), som er baseret på formlen fra _Nordiska Næringsrekommendationer 1996_ til at beregne ligevægtsindtaget. Senere er der kommet opdaterede formler til at [beregne af hvilestofskiftet i _Nordic Nutrition Reccommandations 2012_]({% link _posts/2019-11-01-stofskifteberegner-nordic-2012.md %}), og endelig har jeg en [avanceret beregner til energiforbruget med mere præcis aktivitetsregistrering]({% link _posts/2019-11-01-stofskifteberegner-avanceret.md %}).
+Hvis du vil læse mere om at [udregne hvilestofskiftet og basalstofskiftet, kan du besøge vores BMR-beregner]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}). Hvis du vil læse mere om udregning af [samlet dagligt energiforbrug og energibehov]({% link _posts/2019-11-01-stofskifteberegner-nordic-2012.md %}) eller besøge en [avanceret beregner med en mere præcis aktivitetsregistrering]({% link _posts/2019-11-01-stofskifteberegner-avanceret.md %}).

@@ -47,33 +47,40 @@ keywords:
   - udregning af basalstofskifte
 ---
 
-Jeg har lavet en BMR-beregner, hvor du kan udregne dit stofskifte og dit daglige energiforbrug på baggrund af dit hvilestofskifte og fysiske aktivitetsniveau. Jeg synes det er interessant at udregne, hvad mit basalstofskifte er i forhold min fysiske aktivitet for at se, hvad mit omtrentlige daglige energibehov er.
+Jeg har lavet en BMR-beregner, hvor du kan udregne dit dit hvilestofskifte og basalstofskifte. Du kan beregne dit omtrentlige hvilestofskiftet og basalstofskiftet ud fra dit køn, alder, vægt og højde. Vi har samlet en række forskellige formler til at udregne BMR.
 
-Hvad er stofskiftet? **Stofskiftet består af 3 hovedkomponenter: hvilestofskiftet (BMR), fødeinduceret termogenese (FIT) og fysisk aktivitet (PAL).**
+*[BMR]: Basic Metabolic Rate
+*[REE]: Resting Energy Expenditure
+*[PAL]: Physical Activity Level
+*[FIT]: Fødeinduceret termogenese
+*[TEE]: Total Energy Expenditure
+*[kJ]: kilojoule
 
-Hvad er hvilestofskiftet og basalstofskiftet? **Kroppens hvilestofskifte kaldes også basalstofskiftet - eller på engelsk _basal metabolic rate (BMR)_. Hvilestofskiftet er den største del af kroppens samlede stofskifte. Hvilestofskiftet er den energi, der bruges i hvile både af de fysiske og mentale systemer, og BMR er en nogenlunde konstant størrelse. Normalt udgør hvilestofskiftet omkring 50-70% af den totale forbrænding.**
+Stofskiftet består af 3 hovedkomponenter: hvilestofskiftet (BMR), fødeinduceret termogenese (FIT) og fysisk aktivitet (PAL). I dette indlæg koncentrerer vi os om hvilestofskiftet og basalstofskiftet.
 
-Hvad er fødeinduceret termogenese? **Fødeinduceret termogenese (FIT) er den energi, kroppen bruger i forbindelse med et måltid. Det er normalt omkring 10% af den indtagne energi. Energiomsætningen efter et måltid er øget i 3-12 timer afhængigt af måltidets sammensætning.**
+Hvad er hvilestofskiftet og basalstofskiftet? **Kroppens hvilestofskifte kaldes også ofte basalstofskiftet. Hvilestofskiftet er den største del af kroppens samlede stofskifte. Hvilestofskiftet er den energi, der bruges i hvile både af de fysiske og mentale system. Hvilestofskiftet er en nogenlunde konstant størrelse. Normalt udgør hvilestofskiftet omkring 50-70% af den totale forbrænding.**
 
-Hvad er fysisk aktivitet (PAL)? **Fysisk aktivitet er den del af stofskiftet, som varierer mest. Den fysiske aktivitet er normalt omkring 20-40% af den totale forbrænding. PAL afhænger af den samlede fysiske aktivitet gennem hele dagen - både træning, men også mindre bevægelser. Energiforbruget brugt på fysisk aktivitet afhænger af kropsvægten, da det kræver mere energi at flytte en højere vægt.**
+Jeg har lavet en anden beregner, hvor du kan udregne dit [samlede daglige energiforbrug og energibehov]({% link _posts/2019-11-01-stofskifteberegner-nordic-2012.md %}) og en [avanceret beregner af dit daglige stofskifte og forbrænding med et mere præcist fysisk aktivitetsniveau]({% link _posts/2019-11-01-stofskifteberegner-avanceret.md %}). Hvis du vil lære lidt om, hvordan du [beregner dit ligevægtsindtag]({% link _posts/2019-11-01-stofskifte-ligevaegtsberegner.md %}), så har jeg også skrevet om det.
 
-Jeg har lavet en anden [beregner af hvilestofskiftet, som tager udgangspunkt i _Nordic Nutrition Reccommandations 2012_]({% link _posts/2019-11-01-stofskifteberegner-nordic-2012.md %}). Jeg har også lavet en [avanceret beregner af dit daglige energibehov, hvor den fysiske aktivitet bliver angivet lidt mere præcist]({% link _posts/2019-11-01-stofskifteberegner-avanceret.md %}). Endelig har jeg lavet en [beregner af ligevægtsindtaget]({% link _posts/2019-11-01-stofskifte-ligevaegtsberegner.md %}).
+## Er der forskel på hvilestofskiftet og basalstofskiftet?
 
-## Beregn dit stofskifte og basalstofskifte
 
-De færreste har adgang til at få målt deres stofskifte direkte, da det kræver en relativt avanceret test, som du kan læse lidt mere om længere nede på siden.
 
-Du kan i stedet estimere stofskiftet med forskellige beregninger. 
+## Beregn dit hvilestofskifte og basalstofskifte
 
-Med denne beregner kan du udregne dit hvilestofskifte, som også ofte kaldes basalstofskiftet, og dit samlede daglige energiforbrug. 
+De færreste har adgang til at få målt deres hvilestofskifte direkte, da det kræver en relativt avanceret test.
 
-Resultatet er en gennemsnitsberegning for, hvor meget energi personer med dit køn, din alder og din vægt bruger på en dag. Der kan være store variationer fra person til person.
+Du kan i stedet estimere hvilestofskiftet med forskellige beregninger. Med denne BMR-beregner kan du udregne dit hvilestofskifte.
+
+Resultatet er en gennemsnitsberegning for, hvor højt hvilestofskiftet er for personer med dit køn, din alder og din vægt. Der kan være store variationer i basalstofskiftet og hvilestofskiftet fra person til person.
 
 {% include calculate-stofskifte.html %}
 
-{% comment %}
+## Hvilken formel skal jeg vælge i BMR-beregneren?
 
 ## Baggrunden for stofskifteberegneren
+
+{% comment %}
 
 Beregningen af hvilestofskiftet er behæftet med stor en del usikkerhed. Værdierne er rettet mod "almindelige" mennesker og ikke meget aktive kredsløbsatleter, fx cykelryttere og triatleter, som kan have en noget mere aktiv forbrænding.
 
@@ -176,7 +183,9 @@ Hvilestofskiftet bliver udregnet ud fra [Schofields formler](https://en.wikipedi
 <details markdown="1">
   <summary>Se formler for Benedict-Harris (1918-1919)</summary>
 
-I denne beregner er [Benedict-Harris formlen](https://en.wikipedia.org/wiki/Harris%E2%80%93Benedict_equation) brugt til at udregne basalstofskiftet, som sammen med det fysiske aktivitetsniveau kan bruges til at udregne ligevægtsindtaget. Benedict-Harris-formlen for basalstofskiftet afhænger af vægten, højden og alderen. Formlen ser sådan her ud.
+Du kan vælge at bruge [Benedict-Harris formlen](https://en.wikipedia.org/wiki/Harris%E2%80%93Benedict_equation) fra 1918-1919 ti lat udregne basalstofskiftet. Benedict-Harris-formlen for basalstofskiftet afhænger af vægten, højden og alderen.
+
+Formlen til at beregne basalstofskiftet med [Benedict-Harris](https://pubmed.ncbi.nlm.nih.gov/18782481/)-formlen ser sådan her ud.
 
 - Mænd: BMR = 66.5 + ( 13.75 × weight in kg ) + ( 5.003 × height in cm ) – ( 6.755 × age in years )
 - Kvinder: BMR = 655 + ( 9.563 × weight in kg ) + ( 1.850 × height in cm ) – ( 4.676 × age in years )
@@ -185,7 +194,7 @@ I denne beregner er [Benedict-Harris formlen](https://en.wikipedia.org/wiki/Harr
 <details markdown="1">
   <summary>Se formler for Roza og Shizgal (1984)</summary>
 
-[Roza and Shizgal](https://pubmed.ncbi.nlm.nih.gov/6741850/) reviderede formlen i 1984. Den formel forventer jeg senere at integrere i beregneren her. Skriv i kommentarerne, hvis det skal gå lidt hurtigere :) - og hvis du kender den nærmere baggrund for revideringen af Benedict-Harris formel, så brug også endelig kommentarerne, så denne artikel kan blive bedst mulig.
+[Roza and Shizgal](https://pubmed.ncbi.nlm.nih.gov/6741850/) reviderede Benedict-Harris formel i 1984. Den formel forventer jeg senere at integrere i beregneren her. Skriv i kommentarerne, hvis det skal gå lidt hurtigere :) - og hvis du kender den nærmere baggrund for revideringen af Benedict-Harris formel, så brug også endelig kommentarerne, så denne artikel kan blive bedst mulig.
 
 - Mænd: BMR = 88.362 + (13.397 × weight in kg) + (4.799 × height in cm) - (5.677 × age in years)
 - Kvinder: BMR = 447.593 + (9.247 × weight in kg) + (3.098 × height in cm) - (4.330 × age in years)
@@ -194,13 +203,23 @@ I denne beregner er [Benedict-Harris formlen](https://en.wikipedia.org/wiki/Harr
 <details markdown="1">
   <summary>Se formler for Mifflin et al (1990)</summary>
 
-[Mifflin et al (1990)](https://academic.oup.com/ajcn/article-abstract/51/2/241/4695104) reviderede Benedict-Harris-formlen 1990. Skriv i kommentarerne, hvis det skal gå lidt hurtigere :) - og hvis du kender den nærmere baggrund for revideringen af Benedict-Harris formel, så brug også endelig kommentarerne, så denne artikel kan blive bedst mulig.
+[Mifflin et al (1990)](https://academic.oup.com/ajcn/article-abstract/51/2/241/4695104) reviderede Benedict-Harris-formlen 1990.
 
 - Mænd: BMR = (10 × weight in kg) + (6.25 × height in cm) - (5 × age in years) + 5
 - Kvinder: BMR = (10 × weight in kg) + (6.25 × height in cm) - (5 × age in years) - 161
 </details>
 
-## Hvordan måles hvilestofskiftet og basal metabolic rate (BMR)?
+## Præcision af formler til hvilestofskiftet
+
+Brian Henneberg gennemgår et studie, som [sammenligner præcisionen af formler for hvilestofskiftet](https://www.bodylab.dk/shop/hvilestofskifteformler-2881c1.html). Studiet konkluderer:
+
+> Som det fremgår var næsten alle formlerne signifikant off ift. de resultater man fik når man rent faktisk målte hvilestofskiftet. De fleste formler undervurderede hvilestofskiftet, mens to formler overvurderede stofskiftet (De Lorenzo og Cunningham hos kvinderne).
+> 
+> Hos mændene viste beregningerne at Harris-Benedict var den mest præcise, om end den i gennemsnit vist 284 kcal for lidt. Hos kvinderne var Cunningham den mest præcise med en gennemsnitlig afvigelse på 110 kcal (over det faktiske).
+
+--- <cite>[Brian Henneberg](https://www.bodylab.dk/shop/hvilestofskifteformler-2881c1.html)</cite>
+
+## Hvordan måles BMR, hvilestofskiftet og basalstofskiftet?
 
 Hvilestofskiftet måles ifølge [Allan Stubbe: Stofskiftet](http://www.motion-online.dk/sundhed_og_vaegt/sundhed_generelt/stofskiftet/){:rel="nofollow"} normalt efter 12-18 timers faste med personen i hvile og liggende i et tempereret lokale. Rent praktisk foregår testen om morgenen efter mindst 12 timer uden mad og stimulanser og uden nogen nævneværdig aktivitet - både fysisk og psykisk.
 
@@ -246,27 +265,7 @@ Hård fysisk aktivitet medfører, at ens stofskifte er forhøjet 12-24 timer eft
 
 {% endcomment %}
 
-### Fysisk aktivitetsniveau i forhold til hvilestofskiftet (PAL)
-
-| Aktivitetsniveau	                                                                                                  | PAL     |
-|---------------------------------------------------------------------------------------------------------------------|---------|
-| Rullestolsbunden eller sengeliggende.	                                                                              | 1,2     |
-| Stillesiddende arbejde med kun lidt fysisk aktivitet og ingen eller begrænset fysisk aktivitet i fritiden.	        | 1,4-1,5 |
-| Stillesiddende arbejde med et vist behov for fysisk aktivitet og ingen eller begrænset fysisk aktivitet i fritiden.	| 1,6-1,7 |
-| Hovedsageligt stående arbejde.	                                                                                    | 1,8-1,9 |
-| Sport eller anden hård fysisk aktivitet i fritiden. (30-60 min. 4-5 gange/uge)	                                    | + 0,3   |
-| Hårdt kropsarbejde eller meget høj fritidsaktivitet.	                                                              | 2,0-2,4 |
-
-Tabel fra _Nordiska Næringsrekommendationer 1996_.
-
-Når du kender hvilestofskiftet (BMR) og faktoren for fysisk aktivitetsniveau (PAL) kan du estimere det daglige energiforbrug eller daglige stofskifte. Det gør du ved at gange hvilestofskiftet med PAL.
-
-**Eksempel:** Kvinden fra ovenstående eksempel arbejder på et kontor primært med stillesiddende arbejde (PAL = 1,4-1,5). Hun dyrker sport i fritiden 4-5 gange om ugen (PAL + 0,3). BMR (5119 kJ) gange med PAL (1,7) = 8701 kJ. Kvindens daglige stofskifte (og derved ligevægtsindtag) vil være ca. 8.701 kJ.
-{: .notice .notice--info }
-
-Jeg har lavet en side, hvor du kan se på [MET-værdier for forskellige fysiske aktiviteter]({% link _posts/2020-07-24-met.md %}). MET-værdierne kan bruges til at beregne PAL-værdierne.
-
-## Andre måder at udregne stofskiftet på
+## Udregn BMR fra fedtfrie masse
 
 Denne udregning af stofskiftet tager udgangspunkt i _Nordiska Næringsrekommendationer 1996_.
 
@@ -284,19 +283,17 @@ Begge disse formler kræver til gengæld kendskab til din fedtfrie masse og din 
 
 Desuden har jeg lavet en anden beregner til at udregne [ligevægtsindtaget på en dag]({% link _posts/2019-11-01-stofskifte-ligevaegtsberegner.md %}), som bruger en helt anden formel baseret på [udregning af BMI](/bmi/).
 
+## Hvad kan du bruge hvilestofskiftet til?
+
+## Hvad påvirker basalstofskiftet?
+
 ## Mere avanceret udregning af dagligt energiforbrug
 
 Jeg har også lavet en [avanceret beregner af dit daglige energibehov, hvor den fysiske aktivitet bliver angivet lidt mere præcist]({% link _posts/2019-11-01-stofskifteberegner-avanceret.md %}). Hvis du gerne vil have en beregner på engelsk, så kan du finde den på  [health-calc.com](https://www.health-calc.com/diet/energy-expenditure-advanced).
 
 [Avanceret stofskifte beregner]({% link _posts/2019-11-01-stofskifteberegner-avanceret.md %}){: .btn .btn--large .btn--success }
 
-*[BMR]: Kroppens hvilestofskifte (basic metabolic rate)
-*[PAL]: Fysisk aktivitetsniveau (Physical Acitivity Level)
-*[FIT]: Fødevare induceret termogenese
-*[TEE]: Total energiomsætning
-*[kJ]: KiloJoule
-
-## Referencer til stofskiftet
+## Referencer om hvilestofskiftet og basalstofskiftet
 
 {% include feature_row type="left" %}
 

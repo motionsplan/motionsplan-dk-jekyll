@@ -645,24 +645,6 @@ $(document).ready(function() {
 
         $("[name='index_100_lift']").val(idx.getIndex100());
     });
-    // Calculate BMR - Nordic Nutrition 1996
-    $("#calculator_bmr").submit(function(e) {
-        console.log("Calculate BMR - 1996");
-        e.preventDefault();
-
-        var gender = Number($("[name='gender']").val());
-        var age = Number($("[name='age']").val());
-        var weight = Number($("[name='weight']").val());
-        var sport = $("[name='sport']:checked").val();
-        var pal = Number($("[name='pal']:checked").val());
-
-        var b = bmr.BMRNordicNutritionRecommendations1996(gender, age, weight);
-        var tee = tee_pal.TotalEnergyExpenditurePAL(b.getBasicMetabolicRate(), pal, sport);
-
-        $("[name='pal_calc']").val(tee.getPhysicalActivityLevel());
-        $("[name='bmr']").val(b.getBasicMetabolicRate());
-        $("[name='tee']").val(tee.getTotalEnergyExpenditure());
-    });
     // Calculate BMR - Benedict Harris
     $("#calculator_bmr_equilibrium").submit(function(e) {
         console.log("Calculate BMR - Benedict Harris");
@@ -689,12 +671,12 @@ $(document).ready(function() {
         $("#bmr_legend").text($("#bmr-formula option:selected").text());
     });
     // Calculate BMR - Nordic Nutrition 2012
-    $("#calculator_nordic_2012").submit(function(e) {
+    $("#calculator_bmr_pal").submit(function(e) {
         console.log("Calculate BMR - 2012");
         e.preventDefault();
 
         var formula = $("[name='bmr-formula']").val();
-        var gender = Number($("[name='gender']").val());
+        var gender = $("[name='gender']").val();
         var age = Number($("[name='age']").val());
         var weight = Number($("[name='weight']").val());
         var height = Number($("[name='height']").val());
@@ -706,6 +688,8 @@ $(document).ready(function() {
             b = bmr.BMRNordicNutritionRecommendations1996(gender, age, weight);
         } else if (formula == 'schofield') {
             b = schofield.BMRSchofield(gender, age, weight);
+        } else if (formula == 'benedict_harris') {
+            b = bmr_benedict_harris.BMRBenedictHarris(gender, age, weight, height);
         } else {
             b = ree.BMRNordicNutritionRecommendations2012(gender, age, weight, height);
         }

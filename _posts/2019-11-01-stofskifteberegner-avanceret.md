@@ -1,5 +1,5 @@
 ---
-title: "Beregn dit dit daglige energiforbrug? 🔥"
+title: "Beregn dit daglige stofskifte og forbrænding? 🔥"
 permalink: /avanceret-stofskifteberegner/
 language: da
 header:
@@ -25,11 +25,11 @@ feature_row:
 
 I denne beregner kan du udregne dit daglige energiforbrug på baggrund af dit basalstofskifte (BMR) og fysiske aktivitetsniveau. Jeg synes det er interessant at udregne, hvad mit hvilestofskifte er i forhold min fysiske aktivitet for at se, hvad mit omtrentlige daglige energibehov er.
 
-Hvad er det daglige energiforbrug? **Dit daglige energiforbrug består af 3 hovedkomponenter: hvilestofskiftet (BMR), fødeinduceret termogenese (FIT) og fysisk aktivitetsniveau (PAL). Når du har beregnet dit hvilestofskifte ganger man typisk med en PAL-faktor for at finde dit daglige energiforbrug.**
+**Dit daglige energiforbrug består af 3 hovedkomponenter: hvilestofskiftet (BMR), fødeinduceret termogenese (FIT) og fysisk aktivitetsniveau (PAL). Når du har beregnet dit hvilestofskifte ganger man typisk med en PAL-faktor for at finde dit daglige energiforbrug.**
 
-## Beregn dit daglige energiforbrug
+## Beregn dit daglige stofskifte, energiforbrug og forbrænding
 
-Med denne beregner kan du udregne dit hvilestofskifte, som også ofte kaldes basalstofskiftet, og dit samlede daglige energibehov. Resultatet er en gennemsnitsberegning for dit køn, din alder og din vægt.
+Med denne beregner kan du udregne dit samlede daglige energibehov, ftofskifte og forbrænding. Resultatet er baseret på en gennemsnitsberegning for dit køn, din alder og din vægt, men husk der kan være masser af individuelle variationer.
 
 {% include calculate-stofskifte-avanceret.html %}
 
@@ -42,6 +42,8 @@ Din beregning af det daglige energibehov bliver mest præcist, hvis du er lidt o
 ## Baggrund for den avancerede udregning af energiforbrug
 
 Hvilestofskiftet bliver udregnet ud fra [Schofields formler](https://en.wikipedia.org/wiki/Schofield_equation) (1985) som også bruges af WHO. Læg mærke til, at der er aldersspecifikke formler for børn, hvilket betyder, at beregneren er relativt pålidelig også til at udregne hvilestofskiftet til børn.
+
+## Hvilken formel skal jeg vælge?
 
 ### Schofields formler for energibehov for mænd
 
@@ -67,7 +69,7 @@ Hvilestofskiftet bliver udregnet ud fra [Schofields formler](https://en.wikipedi
 
 ### Udregning af fysisk aktivitetsniveau
 
-Jeg har baseret udregningen af det fysiske aktivitetsniveau på baggrund [Gerrior et al (2006)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1784117/). I artiklen viser Gerrior et al (2006), hvordan man let udregner energibehovet med et regneark. Jeg har taget udgangspunkt i dette for at bruge estimerede MET-værdier for aktivitetsniveauet til at udregne PAL.
+Jeg har baseret udregningen af det fysiske aktivitetsniveau på baggrund [Gerrior et al (2006)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1784117/). I artiklen viser Gerrior et al (2006), hvordan man udregner energibehovet med et regneark. Jeg har taget udgangspunkt i dette for at bruge estimerede MET-værdier for aktivitetsniveauet til at udregne PAL.
 
 | Aktivitet | MET | Beskrivelse |
 |-|-|-|
@@ -80,7 +82,7 @@ Jeg har baseret udregningen af det fysiske aktivitetsniveau på baggrund [Gerrio
 
 Jeg er lidt i tvivl om nøjagtigt, hvilke MET-værdier jeg bør bruge for de enkelte kategorier for at udregne PAL mest præcist.
 
-Gerrior et al (2006) benytter så PAL-værdien til at udregne en PA-værdi
+Gerrior et al (2006) benytter så PAL-værdien til at udregne en PA-værdi, men lige nu ganger beregneren direkte med PAL-værdien udregnet ud fra fremgangsmåden hos Gerrior et al (2006).
 
 Hvis du har et rigtig godt bud, så brug endelig kommentarerne.
 
