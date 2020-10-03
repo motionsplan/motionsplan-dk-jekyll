@@ -64,7 +64,11 @@ Jeg har lavet en anden beregner, hvor du kan udregne dit [samlede daglige energi
 
 ## Er der forskel på hvilestofskiftet og basalstofskiftet?
 
+I dette indlæg bruger jeg hvilestofskiftet og basalstofskiftet næsten som synonymer, men det er faktisk to forskellige begreber.
 
+>  RMR has been measured either in the sitting or supine positions, with a minimum of 15 min of rest, sometimes up to an overnight rest. Resting and basal metabolic rate (BMR) are similar and only differ in that BMR is usually measured in the morning, after an overnight fast, no exercise for the previous 24 h, free from emotional stress, familiar with the apparatus, and the subject completely rested.
+
+--- <cite>[McMurray et al (2014)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4535334/)</cite>
 
 ## Beregn dit hvilestofskifte og basalstofskifte
 
@@ -78,13 +82,11 @@ Resultatet er en gennemsnitsberegning for, hvor højt hvilestofskiftet er for pe
 
 ## Hvilken formel skal jeg vælge i BMR-beregneren?
 
-## Baggrunden for stofskifteberegneren
+Der findes en lang række forskellige formler for hvilestofskiftet, basalstofskiftet og BMR. I beregneren er formlerne fra Nordic Nutrition Recommendations (2012), da disse formler også bruges af WHO. Formlerne tager højde for mange befolkningstyper, og der er formler rettet mod alle aldersgrupper.
 
-{% comment %}
+Du skal dog være opmærksom på, at det er vanskeligt at lave universelle formler for alle aldre, kropsbygninger og befolkningsgrupper. Formlerne i denne beregner baserer sig på alder, køn, vægt og højde, men da den fedtfrie masse kan have stor betydning for hvilestofskiftet, så har andre lavet formler baseret på den. Det er imidlertid noget vanskeligere at få den fedtfrie masse estimeret pålideligt.
 
-Beregningen af hvilestofskiftet er behæftet med stor en del usikkerhed. Værdierne er rettet mod "almindelige" mennesker og ikke meget aktive kredsløbsatleter, fx cykelryttere og triatleter, som kan have en noget mere aktiv forbrænding.
-
-{% endcomment %}
+Formlerne i beregneren er baseret på gennemsnitsværdier for almindelige mennesker. Personer, der træner meget eller har en høj fedtfri masse i forhold til deres vægt, kan have et højere hvilestofskifte, mens meget inaktive personer kan have et lavere hvilestofskifte, end beregningerne af BMR viser.
 
 ## Formler og tabeller for udregning af hvilestofskiftet
 
@@ -93,12 +95,19 @@ Beregningen af hvilestofskiftet er behæftet med stor en del usikkerhed. Værdie
 
 ## Nordic Nutrition Recommendations 2012
 
-I forhold til [Nordic Nutrition Recommendations 2012](https://www.norden.org/da/node/7832), så har jeg flyttet lidt rundt på formlerne for REE baseret på vægt og højde. Det har jeg gjort, fordi der står i den oprindelige reference at den sidste formel gælder for alle over 60 år, men da der ikke står en formel under 19-30-årige forestiller jeg mig, at det er en fejl. Skriv endelig i kommentarerne, hvis du ved noget mere om det.
+Formlerne fra Nordic Nutrition Recommendations 2012 er baseret på Henry (2005), som er en revision af Schofield (1985)-formlerne.
+
+Det er også disse formler, der bruges af WHO i deres arbejde med at udregne hvilestofskiftet.
+
+I forhold til [Nordic Nutrition Recommendations 2012](https://www.norden.org/da/node/7832), så har jeg flyttet lidt rundt på formlerne for REE baseret på vægt og højde. Det har jeg gjort, fordi der står i den oprindelige reference at den sidste formel gælder for alle over 60 år, men da der ikke står en formel under 19-30-årige forestiller jeg mig, at det er en fejl.
+{: .notice .notice--info }
 
 ### Udregning af mænds hvilestofskifte
 
 | Alder   | REE (MJ/dag) baseret på vægt  | REE (MJ/dag) baseret på vægt og højde |
 |---------|-----------------|---------------------------|
+|	< 3	  | 0,255 W - 0,141 | 0,118 W + 3,59 H - 1,55  |
+|	3-10	  | 0,0937 W + 2.15 | 0,0632 W + 1,31 H + 1,28  |
 |	11-18	  | 0,0769 W + 2.43 | 0,0651 W + 1,11 H + 1,25  |
 | 19-30	  | 0,0669 W + 2,28 | 0,0600 W + 1,31 H + 0,473 |
 | 31-60	  | 0,0592 W + 2,48 | 0,0476 W + 2,26 H - 0,574 |
@@ -109,6 +118,8 @@ I forhold til [Nordic Nutrition Recommendations 2012](https://www.norden.org/da/
 
 | Alder   | REE (MJ/dag) baseret på vægt  | REE (MJ/dag) baseret på vægt og højde |
 |---------|-----------------|----------------------------|
+| < 3	  | 0,246 W - 0,0965   | 0,127 W + 2,94 H - 1,20 |
+| 3-10	  | 0,0842 W + 2,12   | 0,0666 W + 0,878 H + 1,46 |
 | 11-18	  | 0,0465 W + 3,18 | 0,0393 W + 1,04 H + 1,93   |
 | 19-30	  | 0,0546 W + 2,33 | 0,0433 W + 2,57 H - 1,180  |
 | 31-60	  | 0,0407 W + 2,90 | 0,0342 W + 2,10 H - 0,0486 |
@@ -120,6 +131,9 @@ W er vægt i kg. H er højde i meter.
 **Eksempel:** en mand på 25 år, der vejer 80 kg har et hvilestofskifte på: REE = (0,0669 * 80 kg) + 2,28 = 7,632 MJ/dagligt = 7.632 kJ = 1.817 kcal. Jeg har skrevet lidt mere om, hvad [kalorier (cal) og kilokalorier (kcal) er her]({% link _posts/2020-07-09-kalorier.md %}).
 {: .notice .notice--info }
 </details>
+
+{% comment %}
+{% Jeg har droppet disse, da de er blevet overhalet af 2012 %}
 
 <details markdown="1">
   <summary>Se formler til Nordiska Næringsrekommendationer (1996)</summary>
@@ -151,6 +165,8 @@ V er vægt i kg.
 Eksempel: En kvinde på 29 år som vejer 59 kg kan udregne sit hvilestofskifte således: BMR = 61,5 * 59 + 2080 = 5119 kJ dagligt. Hvis du gerne vil have tallet i **kalorier** skal du dele det med 4,2. Jeg har skrevet lidt mere om, hvad [kalorier (cal) og kilokalorier (kcal) er her]({% link _posts/2020-07-09-kalorier.md %}).
 {: .notice .notice--info }
 </details>
+
+{% endcomment %}
 
 <details markdown="1">
   <summary>Se formler for Schofield (1985)</summary>
@@ -211,6 +227,8 @@ Formlen til at beregne basalstofskiftet med [Benedict-Harris](https://pubmed.ncb
 
 ## Præcision af formler til hvilestofskiftet
 
+Der findes virkelig mange forskellige formler for BMR, hvilestofskift og basalstofskiftet. Der er også mange studier, der har valideret de forskellige formler.
+
 Brian Henneberg gennemgår et studie, som [sammenligner præcisionen af formler for hvilestofskiftet](https://www.bodylab.dk/shop/hvilestofskifteformler-2881c1.html). Studiet konkluderer:
 
 > Som det fremgår var næsten alle formlerne signifikant off ift. de resultater man fik når man rent faktisk målte hvilestofskiftet. De fleste formler undervurderede hvilestofskiftet, mens to formler overvurderede stofskiftet (De Lorenzo og Cunningham hos kvinderne).
@@ -218,6 +236,10 @@ Brian Henneberg gennemgår et studie, som [sammenligner præcisionen af formler 
 > Hos mændene viste beregningerne at Harris-Benedict var den mest præcise, om end den i gennemsnit vist 284 kcal for lidt. Hos kvinderne var Cunningham den mest præcise med en gennemsnitlig afvigelse på 110 kcal (over det faktiske).
 
 --- <cite>[Brian Henneberg](https://www.bodylab.dk/shop/hvilestofskifteformler-2881c1.html)</cite>
+
+Hvis man kigger i andre studier, der tjekker pålideligheden af de forskellige formler, så ender de på andre formler som de mest pålidelige. Ofte handler studierne om, hvordan formlerne underestimerer og overestimerer BMR for særlige grupper. Sabounchi et al (2013) har bl.a. lavet en større sammenligning, hvor de præsenterer en relativt avanceret tabel for forskellige befolkningsgrupper.
+
+Jeg har foreløbigt valgt nogle af de mest brugte formler i beregneren, men tilpasser og udvider beregneren i takt med, at jeg bliver klogere.
 
 ## Hvordan måles BMR, hvilestofskiftet og basalstofskiftet?
 
@@ -297,10 +319,13 @@ Jeg har også lavet en [avanceret beregner af dit daglige energibehov, hvor den 
 
 {% include feature_row type="left" %}
 
-- Nordiska næringsrekommendationer 1996. Nordiska ministerrådet. København, 1996.
-- Waterlow, John C., Nevin S. Scrimshaw, og Beat Schürch. 1996. “Energy and Protein requirements, Proceedings of an IDECG workshop”. Eur J Clin Nutr 50 (februar): 1–197. <http://archive.unu.edu/unupress/food2/UID01E/UID01E00.HTM>.
-- World Health Organisation, Fao, and Unu. Energy and protein requirements. Geneva: WHO, Technical Report Series 724, 1985.
-- Exercise Physiology, McArdle, Katch & Katch, 5th ed
-- WHO Obesity Guidelines, 2000 - Technical Report Series 894
+- Frankenfield, David C. 2013. “Bias and Accuracy of Resting Metabolic Rate Equations in Non-Obese and Obese Adults”. Clinical Nutrition (Edinburgh, Scotland) 32 (6): 976–82. <https://doi.org/10.1016/j.clnu.2013.03.022>.
+- Gerrior, Shirley, WenYen Juan, og Basiotis Peter. 2006. “An Easy Approach to Calculating Estimated Energy Requirements”. Preventing Chronic Disease 3 (4). <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1784117/>.
+- Henry, C. J. K. 2005. “Basal Metabolic Rate Studies in Humans: Measurement and Development of New Equations”. Public Health Nutrition 8 (7A): 1133–52. <https://doi.org/10.1079/phn2005801>.
+- Jagim, Andrew R., Clayton L. Camic, Jacob Kisiolek, Joel Luedke, Jacob Erickson, Margaret T. Jones, og Jonathan M. Oliver. 2018. “Accuracy of Resting Metabolic Rate Prediction Equations in Athletes”. Journal of Strength and Conditioning Research 32 (7): 1875–81. <https://doi.org/10.1519/JSC.0000000000002111>.
+- McMurray, Robert G., Jesus Soares, Carl J. Caspersen, og Thomas McCurdy. 2014. “Examining Variations of Resting Metabolic Rate of Adults: A Public Health Perspective”. Medicine and science in sports and exercise 46 (7): 1352–58. <https://doi.org/10.1249/MSS.0000000000000232>.
+- Sabounchi, Nasim S., Hazhir Rahmandad, og Alice Ammerman. 2013. “Best Fitting Prediction Equations for Basal Metabolic Rate: Informing Obesity Interventions in Diverse Populations”. International journal of obesity (2005) 37 (10): 1364–70. <https://doi.org/10.1038/ijo.2012.218>.
 - Schofield, W. N. 1985. “Predicting Basal Metabolic Rate, New Standards and Review of Previous Work”. Human Nutrition. Clinical Nutrition 39 Suppl 1: 5–41.
-- [Allan Stubbe: Stofskiftet](http://www.motion-online.dk/sundhed_og_vaegt/sundhed_generelt/stofskiftet/){:rel="nofollow"}
+- Tinsley, Grant M., Austin J. Graybeal, og M. Lane Moore. 2019. “Resting Metabolic Rate in Muscular Physique Athletes: Validity of Existing Methods and Development of New Prediction Equations”. Applied Physiology, Nutrition, and Metabolism = Physiologie Appliquee, Nutrition Et Metabolisme 44 (4): 397–406. <https://doi.org/10.1139/apnm-2018-0412>.
+- Waterlow, John C., Nevin S. Scrimshaw, og Beat Schürch. 1996. “Energy and Protein requirements, Proceedings of an IDECG workshop”. Eur J Clin Nutr 50 (februar): 1–197. <http://archive.unu.edu/unupress/food2/UID01E/UID01E00.HTM>.
+- Westerterp, Klaas R. 2013. “Physical activity and physical activity induced energy expenditure in humans: measurement, determinants, and effects”. Frontiers in Physiology 4 (april). <https://doi.org/10.3389/fphys.2013.00090>.

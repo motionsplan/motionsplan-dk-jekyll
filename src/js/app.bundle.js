@@ -684,9 +684,7 @@ $(document).ready(function() {
         var pal = Number($("[name='pal']:checked").val());
 
         var b;
-        if (formula == 'nordic_1996') {
-            b = bmr.BMRNordicNutritionRecommendations1996(gender, age, weight);
-        } else if (formula == 'schofield') {
+        if (formula == 'schofield') {
             b = schofield.BMRSchofield(gender, age, weight);
         } else if (formula == 'benedict_harris') {
             b = bmr_benedict_harris.BMRBenedictHarris(gender, age, weight, height);
