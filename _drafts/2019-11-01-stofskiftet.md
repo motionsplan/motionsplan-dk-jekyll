@@ -1,11 +1,11 @@
 ---
-title: "Beregn dit stofskifte: Udregn dit daglige energiforbrug? 🔥"
-permalink: /simpel-stofskifte/
+title: &title "Stofskifte: Hvad er stofskiftet og forbrændingen? 🔥"
+permalink: /stofskifte-og-forbraending/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1551337948-0ad8de8568ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1925&q=80
   teaser: https://images.unsplash.com/photo-1551337948-0ad8de8568ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
-  caption: Beregn dit stofskifte, daglige energiforbrug og basalstofskifte med vores BMR-beregner
+  caption: *title
 category:
   - Beregnere
 tags:
@@ -19,85 +19,47 @@ feature_row:
     title: "Exercise Physiology - Nutrition, Energy, and Human Performance"
     excerpt: "Skrevet af BS, William D., PhD McArdle, M.Ed, Frank I. Katch, Victor L. Katch."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://bogreolen.dk/exercise-physiology_bs_9781451193831"
-    btn_label: "Læs mere"
+    btn_label: "Læs mere*"
     btn_class: "btn--success"
   - image_path: https://imgcdn.saxo.com/_9788762813762/0x500
     alt: "Menneskets ernæring"
     title: "Menneskets ernæring"
     excerpt: "Den tværfaglige lærebog _Menneskets ernæring_ beskriver sammenhængen mellem de fysiologiske og biologiske processer, der er nødvendige for opretholdelse af liv. "
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/menneskets-ernaering_arne-astrup_indbundet_9788762813762"
-    btn_label: "Læs mere"
+    btn_label: "Læs mere*"
     btn_class: "btn--success"
+keywords:
+  - stofskiftet
+  - hvad er stofskiftet
 ---
 
 Jeg har lavet en BMR-beregner, hvor du kan udregne dit stofskifte og dit daglige energiforbrug på baggrund af dit hvilestofskifte og fysiske aktivitetsniveau. Jeg synes det er interessant at udregne, hvad mit basalstofskifte er i forhold min fysiske aktivitet for at se, hvad mit omtrentlige daglige energibehov er.
 
 Hvad er stofskiftet? **Stofskiftet består af 3 hovedkomponenter: hvilestofskiftet (BMR), fødeinduceret termogenese (FIT) og fysisk aktivitet (PAL).**
 
-Hvad er hvilestofskiftet og basalstofskiftet? **Kroppens hvilestofskifte kaldes også basalstofskiftet - eller på engelsk _basal metabolic rate (BMR)_. Hvilestofskiftet er den største del i kroppens samlede stofskifte. Hvilestofskiftet er den energi, der bruges i hvile både af de fysiske og mentale systemer, og BMR er en nogenlunde konstant størrelse. Normalt udgør hvilestofskiftet omkring 50-70% af den totale forbrænding.**
+Hvad er hvilestofskiftet og basalstofskiftet? **Kroppens hvilestofskifte kaldes også basalstofskiftet - eller på engelsk _basal metabolic rate (BMR)_. Hvilestofskiftet er den største del af kroppens samlede stofskifte. Hvilestofskiftet er den energi, der bruges i hvile både af de fysiske og mentale systemer, og BMR er en nogenlunde konstant størrelse. Normalt udgør hvilestofskiftet omkring 50-70% af den totale forbrænding.**
 
 Hvad er fødeinduceret termogenese? **Fødeinduceret termogenese (FIT) er den energi, kroppen bruger i forbindelse med et måltid. Det er normalt omkring 10% af den indtagne energi. Energiomsætningen efter et måltid er øget i 3-12 timer afhængigt af måltidets sammensætning.**
 
 Hvad er fysisk aktivitet (PAL)? **Fysisk aktivitet er den del af stofskiftet, som varierer mest. Den fysiske aktivitet er normalt omkring 20-40% af den totale forbrænding. PAL afhænger af den samlede fysiske aktivitet gennem hele dagen - både træning, men også mindre bevægelser. Energiforbruget brugt på fysisk aktivitet afhænger af kropsvægten, da det kræver mere energi at flytte en højere vægt.**
 
-Jeg har lavet en anden [beregner af hvilestofskiftet, som tager udgangspunkt i _Nordic Nutrition Reccommandations 2012_]({% link _posts/2020-09-01-stofskifte-nordic-2012.md %}). Jeg har også lavet en [avanceret beregner af dit daglige energibehov, hvor den fysiske aktivitet bliver angivet lidt mere præcist]({% link _posts/2019-10-31-avanceret-stofskifteberegner.md %}). Endelig har jeg lavet en [beregner af ligevægtsindtaget]({% link _posts/2019-10-31-ligevaegtsberegner.md %}).
-
-## Beregn dit stofskifte og basalstofskifte
-
-De færreste har adgang til at få målt deres stofskifte direkte, da det kræver en relativt avanceret test, som du kan læse lidt mere om længere nede på siden.
-
-Du kan i stedet estimere stofskiftet med forskellige beregninger. 
-
-Med denne beregner kan du udregne dit hvilestofskifte, som også ofte kaldes basalstofskiftet, og dit samlede daglige energiforbrug. 
-
-Resultatet er en gennemsnitsberegning for, hvor meget energi personer med dit køn, din alder og din vægt bruger på en dag. Der kan være store variationer fra person til person.
-
-{% include calculate-metabolic-rate.html %}
-
-{% comment %}
-
-## Baggrunden for stofskifteberegneren
-
-Beregningen af hvilestofskiftet er behæftet med stor en del usikkerhed. Værdierne er rettet mod "almindelige" mennesker og ikke meget aktive kredsløbsatleter, fx cykelryttere og triatleter, som kan have en noget mere aktiv forbrænding.
-
-{% endcomment %}
-
-## Tabeller for udregning af hvilestofskiftet
-
-Tabellerne og beregneren af stofskiftet er baseret på værdier fra _Nordiska Næringsrekommendationer 1996_.
-
-### Formel til at beregne hvilestofskiftet
-
-#### Mænds hvilestofskifte
-
-| Alder   | BMR (kJ/dag)  |
-|---------|---------------|
-| 11-18	  | 74 V + 2750   |
-| 19-30	  | 64 V + 2840   |
-| 31-60	  | 48,5 V + 3670 |
-| 61-75	  | 49,9 V + 2930 |
-| over 75 | 35 V + 3430   |
-
-#### Kvinders hvilestofskifte
-
-| Alder   | BMR (kJ/dag)  |
-|---------|---------------|
-| 11-18	  | 56 V + 2900   |
-| 19-30	  | 61,5 V + 2080 |
-| 31-60	  | 36,4 V + 3470 |
-| 61-75	  | 38,6 V + 2880 |
-| over 75 | 41 V + 2610   |
-
-V er vægt i kg. 
-
-Eksempel: En kvinde på 29 år som vejer 59 kg kan udregne sit hvilestofskifte således: BMR = 61,5 * 59 + 2080 = 5119 kJ dagligt. Hvis du gerne vil have tallet i **kalorier** skal du dele det med 4,2. Jeg har skrevet lidt mere om, hvad [kalorier (cal) og kilokalorier (kcal) er her]({% link _posts/2020-07-09-kalorier.md %}).
-{: .notice .notice--info }
+Jeg har lavet en anden [beregner af hvilestofskiftet, som tager udgangspunkt i _Nordic Nutrition Reccommandations 2012_]({% link _posts/2019-11-01-stofskifteberegner-nordic-2012.md %}). Jeg har også lavet en [avanceret beregner af dit daglige energibehov, hvor den fysiske aktivitet bliver angivet lidt mere præcist]({% link _posts/2019-11-01-stofskifteberegner-avanceret.md %}). Endelig har jeg lavet en [beregner af ligevægtsindtaget]({% link _posts/2019-11-01-stofskifte-ligevaegtsberegner.md %}).
 
 ## Hvordan måles hvilestofskiftet og basal metabolic rate (BMR)?
 
 Hvilestofskiftet måles ifølge [Allan Stubbe: Stofskiftet](http://www.motion-online.dk/sundhed_og_vaegt/sundhed_generelt/stofskiftet/){:rel="nofollow"} normalt efter 12-18 timers faste med personen i hvile og liggende i et tempereret lokale. Rent praktisk foregår testen om morgenen efter mindst 12 timer uden mad og stimulanser og uden nogen nævneværdig aktivitet - både fysisk og psykisk.
 
 De færreste har adgang til en facilitet, hvor man kan få målt sit basalstofskifte. Derfor kan man i stedet udregne BMR og lave en beregning af sit energiforbrug.
+
+## Beregn dit stofskifte og forbrænding
+
+Desuden har jeg lavet en anden beregner til at udregne [ligevægtsindtaget på en dag]({% link _posts/2019-11-01-stofskifte-ligevaegtsberegner.md %}), som bruger en helt anden formel baseret på [udregning af BMI](/bmi/).
+
+## Mere avanceret udregning af dagligt energiforbrug
+
+Jeg har også lavet en [avanceret beregner af dit daglige energibehov, hvor den fysiske aktivitet bliver angivet lidt mere præcist]({% link _posts/2019-11-01-stofskifteberegner-avanceret.md %}). Hvis du gerne vil have en beregner på engelsk, så kan du finde den på  [health-calc.com](https://www.health-calc.com/diet/energy-expenditure-advanced).
+
+[Avanceret stofskifte beregner]({% link _posts/2019-11-01-stofskifteberegner-avanceret.md %}){: .btn .btn--large .btn--success }
 
 {% comment %}
 
@@ -175,13 +137,13 @@ I beregningen er køn for mand 1, mens den skal være 0 for kvinder.
 
 Begge disse formler kræver til gengæld kendskab til din fedtfrie masse og din fedtmasse. Du kan læse mere om [hvordan du kan bestemme din kropskomposition og fedtfrie masse i et af vores andre indlæg]({% link _posts/2019-10-14-kropskomposition.md %}) eller hvordan du [måler din fedtprocent]({% link _posts/2019-10-13-fedtprocent-maaling.md %}), hvor du også kan finde forskellige beregninger.
 
-Desuden har jeg lavet en anden beregner til at udregne [ligevægtsindtaget på en dag]({% link _posts/2019-10-31-ligevaegtsberegner.md %}), som bruger en helt anden formel baseret på [udregning af BMI](/bmi/).
+Desuden har jeg lavet en anden beregner til at udregne [ligevægtsindtaget på en dag]({% link _posts/2019-11-01-stofskifte-ligevaegtsberegner.md %}), som bruger en helt anden formel baseret på [udregning af BMI](/bmi/).
 
 ## Mere avanceret udregning af dagligt energiforbrug
 
-Jeg har også lavet en [avanceret beregner af dit daglige energibehov, hvor den fysiske aktivitet bliver angivet lidt mere præcist]({% link _posts/2019-10-31-avanceret-stofskifteberegner.md %}). Hvis du gerne vil have en beregner på engelsk, så kan du finde den på  [health-calc.com](https://www.health-calc.com/diet/energy-expenditure-advanced).
+Jeg har også lavet en [avanceret beregner af dit daglige energibehov, hvor den fysiske aktivitet bliver angivet lidt mere præcist]({% link _posts/2019-11-01-stofskifteberegner-avanceret.md %}). Hvis du gerne vil have en beregner på engelsk, så kan du finde den på  [health-calc.com](https://www.health-calc.com/diet/energy-expenditure-advanced).
 
-[Avanceret stofskifte beregner]({% link _posts/2019-10-31-avanceret-stofskifteberegner.md %}){: .btn .btn--large .btn--success }
+[Avanceret stofskifte beregner]({% link _posts/2019-11-01-stofskifteberegner-avanceret.md %}){: .btn .btn--large .btn--success }
 
 *[BMR]: Kroppens hvilestofskifte (basic metabolic rate)
 *[PAL]: Fysisk aktivitetsniveau (Physical Acitivity Level)

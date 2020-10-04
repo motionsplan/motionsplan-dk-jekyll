@@ -2,6 +2,8 @@
 
 /* global $ */
 
+const tee_pal = require('./bmr-totalenergy-pal');
+const schofield = require('./bmr-schofield');
 const vmax_bike = require('./vmax');
 const vmax_intervals = require('./vmax-intervals');
 const billat = require('./billat');
@@ -22,7 +24,6 @@ const rm = require('./1rm');
 const etpunkt = require('./etpunkttest');
 const borg15 = require('./borg15');
 const topunkt = require('./topunkttest');
-const bmr = require('./bmr-nordic-1996');
 const bmr_benedict_harris = require('./bmr-benedict-harris');
 const ree = require('./bmr-nordic-2012');
 const bmi = require('./bmi');
@@ -643,23 +644,6 @@ $(document).ready(function() {
 
         $("[name='index_100_lift']").val(idx.getIndex100());
     });
-    // Calculate BMR - Nordic Nutrition 1996
-    $("#calculator_bmr").submit(function(e) {
-        console.log("Calculate BMR - 1996");
-        e.preventDefault();
-
-        var gender = Number($("[name='gender']").val());
-        var age = Number($("[name='age']").val());
-        var weight = Number($("[name='weight']").val());
-        var sport = $("[name='sport']:checked").val();
-        var pal = Number($("[name='pal']:checked").val());
-
-        var b = bmr.EnergyExpenditure(gender, age, weight, pal, sport);
-
-        $("[name='pal_calc']").val(b.getPhysicalActivityLevel());
-        $("[name='bmr']").val(b.getBasicMetabolicRate());
-        $("[name='tee']").val(b.getTotalEnergyExpenditure());
-    });
     // Calculate BMR - Benedict Harris
     $("#calculator_bmr_equilibrium").submit(function(e) {
         console.log("Calculate BMR - Benedict Harris");
@@ -672,36 +656,149 @@ $(document).ready(function() {
         var bulkConstant = Number($("[name='bulkConstant']").val());
         var activityConstant = Number($("[name='activityLevel']").val());
 
-        var b = bmr_benedict_harris.BMRBenedictHarris(sex, age, weight, height, activityConstant);
+        var b = bmr_benedict_harris.BMRBenedictHarris(sex, age, weight, height);
+
+        var tee = tee_pal.TotalEnergyExpenditurePAL(b.getBasicMetabolicRate(), activityConstant / 100);
 
         $("[name='bmr']").val(b.getBasicMetabolicRate() + ' kcal');
-        $("[name='equilibrium']").val(b.getTotalEnergyExpenditure() + ' kcal');
-        $("[name='bulk']").val(b.getBulk(bulkConstant) + ' kcal');
-        $("[name='cut']").val(b.getCut(bulkConstant) + ' kcal');
-        $("[name='protein']").val(b.getProtein() + ' g');
+        $("[name='equilibrium']").val(tee.getTotalEnergyExpenditure() + ' kcal');
+        $("[name='bulk']").val(tee.getTotalEnergyExpenditure() + bulkConstant + ' kcal');
+        $("[name='cut']").val(tee.getTotalEnergyExpenditure() - bulkConstant + ' kcal');
+        $("[name='protein']").val(weight * 2 + ' g');
+    });
+    $("#bmr-formula").change(function() {
+        $("#bmr_legend").text($("#bmr-formula option:selected").text());
     });
     // Calculate BMR - Nordic Nutrition 2012
-    $("#calculator_nordic_2012").submit(function(e) {
+    $("#calculator_bmr_pal").submit(function(e) {
         console.log("Calculate BMR - 2012");
         e.preventDefault();
 
-        var sex = Number($("[name='gender']").val());
+        var formula = $("[name='bmr-formula']").val();
+        var gender = $("[name='gender']").val();
         var age = Number($("[name='age']").val());
         var weight = Number($("[name='weight']").val());
         var height = Number($("[name='height']").val());
-        var sport = $("[name='sport']:checked").val();
-        var pal = Number($("[name='pal']:checked").val());
 
-        var b = ree.REE2012(sex, age, weight, pal, sport);
+        var b;
 
-        $("[name='pal_calc']").val(b.getPhysicalActivityLevel());
-        if (height > 0) {
-            $("[name='bmr']").val(b.getRestingEnergyExpenditureHeight(height));
-            $("[name='tee']").val(b.getRestingEnergyExpenditureHeight(height) * b.getPhysicalActivityLevel());
-        } else {
-            $("[name='bmr']").val(b.getRestingEnergyExpenditure());
-            $("[name='tee']").val(b.getTotalEnergyExpenditure());
+        if (height < 1) {
+            formula = "nordic_2012";
         }
+
+        if (formula == 'schofield') {
+            b = schofield.BMRSchofield(gender, age, weight);
+        } else if (formula == 'benedict_harris') {
+            b = bmr_benedict_harris.BMRBenedictHarris(gender, age, weight, height);
+        } else {
+            b = ree.BMRNordicNutritionRecommendations2012(gender, age, weight, height);
+        }
+        $("[name='bmr']").val(b.getBasicMetabolicRate());
+
+        if ($("input[name='pal']").length > 0) {
+            var pal = Number($("[name='pal']:checked").val());
+            var moderate_leisure_activity = Number($("[name='moderate_leisure_activity']").val());
+            var strenuous_leisure_activity = Number($("[name='strenuous_leisure_activity']").val());
+
+            var tee = tee_pal.TotalEnergyExpenditurePAL(b.getBasicMetabolicRate(), pal, moderate_leisure_activity, strenuous_leisure_activity);
+
+            $("[name='pal_calc']").val(tee.getPhysicalActivityLevel());
+            $("[name='tee']").val(tee.getTotalEnergyExpenditure());
+        }
+    });
+    $("#activity_intense, #activity_moderat, #activity_light, #activity_standing, #activity_sleeping").change(function(e) {
+        var min_day = 24 * 60;
+        var activity_intense = document.getElementById('activity_intense').value;
+        var activity_moderat = document.getElementById('activity_moderat').value;
+        var activity_light = document.getElementById('activity_light').value;
+        var activity_standing = document.getElementById('activity_standing').value;
+        var activity_sleeping = document.getElementById('activity_sleeping').value;
+
+        var activity_sitting = min_day - activity_intense - activity_moderat - activity_light - activity_standing - activity_sleeping;
+        $("[name='activity_sitting']").val(activity_sitting);
+    });
+    // Calculate BMR
+    $("#calculator_bmr_advanced_pal").submit(function(e) {
+        console.log("Calculate BMR - Advanced");
+        e.preventDefault();
+
+        var formula = $("[name='bmr-formula']").val();
+        var gender = $("[name='sex']:checked").val();
+        var age = Number($("[name='age']").val());
+        var weight = Number($("[name='weight']").val());
+        var height = Number($("[name='height']").val());
+
+        var b;
+
+        if (formula == 'schofield') {
+            b = schofield.BMRSchofield(gender, age, weight);
+        } else if (formula == 'benedict_harris') {
+            b = bmr_benedict_harris.BMRBenedictHarris(gender, age, weight, height);
+        } else {
+            b = ree.BMRNordicNutritionRecommendations2012(gender, age, weight, height);
+        }
+
+        var basicMeta = b.getBasicMetabolicRate();
+
+        var min_day = 24 * 60;
+        var activity_intense = document.getElementById('activity_intense').value;
+        var activity_moderat = document.getElementById('activity_moderat').value;
+        var activity_light = document.getElementById('activity_light').value;
+        var activity_standing = document.getElementById('activity_standing').value;
+        var activity_sleeping = document.getElementById('activity_sleeping').value;
+
+        var activity_sitting = min_day - activity_intense - activity_moderat - activity_light - activity_standing - activity_sleeping;
+
+        // Estimated MET-values used
+        var met_intense = 10;
+        var met_moderat = 7;
+        var met_light = 4;
+        var met_standing = 2;
+        var met_sleeping = 0.9;
+        var met_sitting = 1.2;
+        
+        /*
+        // My own PAL calculation - there is no weight factor
+        var pal_intense = (met_intense * (activity_intense / 1440));
+        var pal_moderat = (met_moderat * (activity_moderat / 1440));
+        var pal_light = (met_light * (activity_light / 1440));
+        var pal_standing = (met_standing * (activity_standing / 1440));
+        var pal_sleeping = (met_sleeping * (activity_sleeping / 1440));
+        var pal_sitting = (met_sitting * (activity_sitting / 1440));
+
+        var pal = pal_intense + pal_moderat + pal_light + pal_standing + pal_sleeping + pal_sitting;
+        */
+        /*
+        // Calculate MET-energy
+        var met_energy_intense = weight * (met_intense * (activity_intense / 60));
+        var met_energy_moderat = weight * (met_moderat * (activity_moderat / 60));
+        var met_energy_light = weight * (met_light * (activity_light / 60));
+        var met_energy_standing = weight * (met_standing * (activity_standing / 60));
+        var met_energy_sitting = weight * (met_sitting * (activity_sitting / 60));
+        
+        var met_energy = met_energy_intense + met_energy_moderat + met_energy_light + met_energy_standing + met_energy_sitting;
+        */
+
+        // Calculate PAL from Gerrior
+        var bmr_kcal = basicMeta / 4.2; // BMR is in kcal in formula
+        var pal_intense = ((met_intense - 1) * ((1.15 / 0.9) * activity_intense) / 1440) / (bmr_kcal / (0.0175 * 1440 * weight));
+        var pal_moderat = ((met_moderat - 1) * ((1.15 / 0.9) * activity_moderat) / 1440) / (bmr_kcal / (0.0175 * 1440 * weight));
+        var pal_light = ((met_light - 1) * ((1.15 / 0.9) * activity_light) / 1440) / (bmr_kcal / (0.0175 * 1440 * weight));
+        var pal_standing = ((met_standing - 1) * ((1.15 / 0.9) * activity_standing) / 1440) / (bmr_kcal / (0.0175 * 1440 * weight));
+        var pal_sleeping = ((met_sleeping - 1) * ((1.15 / 0.9) * activity_sleeping) / 1440) / (bmr_kcal / (0.0175 * 1440 * weight));
+        var pal_sitting = ((met_sitting - 1) * ((1.15 / 0.9) * activity_sitting) / 1440) / (bmr_kcal / (0.0175 * 1440 * weight));
+        var pal_gerrior = 1.1 + pal_intense + pal_moderat + pal_light + pal_standing + pal_sleeping + pal_sitting;
+
+        // Using Gerrior PAL calculations as constant
+        var activityConstant = pal_gerrior;
+
+        var vedligehold = basicMeta * activityConstant;
+
+        $("[name='pal_gerrior']").val(pal_gerrior);
+        $("[name='activity_sitting']").val(activity_sitting);
+        $("[name='bmr']").val(basicMeta + " kJ");
+        $("[name='equilibrium']").val(vedligehold + " kJ");
+
     });
     // Calculate BMR - Nordic Nutrition 2012
     $("#calculator_riegels").submit(function(e) {

@@ -50,7 +50,7 @@ Jeg har lavet en beregner, der hjælper med at vise, hvor vildt vægttabet er i 
 
 Hvis vi tager Vicky som eksempel og taste tallene ind i beregneren. Hun skulle altså have et dagligt energiunderskud på 7920 kcal for at tabe 0,880 kg om dagen.
 
-For at sætte det i perspektiv, så kan vi lige prøve at udregne Vickys [daglige energiforbrug i vores stofskifteberegner]({% link _posts/2020-09-01-stofskifte-nordic-2012.md %}).
+For at sætte det i perspektiv, så kan vi lige prøve at udregne Vickys [daglige energiforbrug i vores stofskifteberegner]({% link _posts/2019-11-01-stofskifteberegner-nordic-2012.md %}).
 
 Jeg har været flink, så derfor har jeg brugt hendes nye vægt til at udregne energiforbruget. Der står i artiklen, at hun ikke i øjeblikket tager i fitnesscenteret, så jeg har taget udgangspunkt i et almindeligt aktivitetsniveau.
 

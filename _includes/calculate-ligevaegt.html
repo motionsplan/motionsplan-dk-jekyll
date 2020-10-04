@@ -1,94 +1,22 @@
-{% comment %}
-<script>
-    function calculate(form) {
-        var age = parseInt(form.age.value);
-        var weight = parseInt(form.weight.value);
-        var height = parseInt(form.height.value); // convert to meters
-        var bulkConstant = parseInt(form.bulkConstant.value);
-        var sex = form.sexHidden.value;
-        var activityConstant = form.activityLevel.options[form.activityLevel.selectedIndex].value / 100;
-
-        if (sex == "male") {
-            var basicMeta = 66 + (13.7 * weight) + (5 * height) - (6.8 * age); // basic Metabolism for males	
-        }
-
-        if (sex == "female") {
-            var basicMeta = 655 + (9.6 * weight) + (1.8 * height) - (4.7 * age); // basic Metabolism for female between 19-30 years
-        }
-
-        var vedligehold = parseInt(basicMeta * activityConstant);
-        var bulk = vedligehold + bulkConstant;
-        var cut = vedligehold - bulkConstant;
-        var protein = weight * 2;
-        document.getElementById('equilibrium').value = vedligehold + " kcal";
-        document.getElementById('bulk').value = bulk + " kcal";
-        document.getElementById('cut').value = cut + " kcal";
-        document.getElementById('protein').value = protein + "g";
-        return false;
-    }
-</script>
-{% endcomment %}
 <form class="calculator" id="calculator_bmr_equilibrium">
     <fieldset>
-        <legend>Simpel udregning af dit ligevægtsindtag baseret på Benedict-Harris-formlen.</legend>
-        <fieldset>
-            <legend>Køn</legend>
-            <label for="male" class="radio"><input type="radio" name="sex" value="male" id="male" checked="checked"> Mand</label>
-    		<label for="female" class="radio"><input type="radio" name="sex" value="female" id="female"> Kvinde</label>
-        </fieldset>
+        <legend>Udregn sandsynlig vægtændring ved energioverskud og energiunderskud i forhold til ligevægtsindtaget.</legend>
         <div class="form-group">
-            <label for="age">Alder (år)</label>
-            <input type="number" min="10" max="100" placeholder="fx 40" name="age" id="age">
-        </div>
-        <div class="form-group">
-            <label for="weight">Vægt (kg)</label>
-            <input type="number" min="10" max="200" placeholder="fx 70" name="weight" id="weight" step="0.1">
-        </div>
-        <div class="form-group">
-            <label for="height">Højde (cm)</label>
-            <input type="number" min="10" max="240" placeholder="fx 170" name="height" id="height" step="0.1">
-        </div>
-        <fieldset>
-            <legend>Fysisk aktivitetsniveau (PAL)</legend>
-            <label>Aktivitetsniveau
-			<select name="activityLevel"> 
-				<option value="120">Siddende arbejde, ingen eller lidt fritidsaktivitet</option>
-				<option value="130">Stående arbejde, ingen eller lidt fritidsaktivitet</option>
-				<option value="138">Siddende arbejde, let fritidsaktivitet 1-3 x ugentligt</option>
-				<option value="145">Stående arbejde, let fritidsaktivitet 1-3 x ugentligt</option>			
-				<option value="155">Siddende arbejde, moderat/hård aktivitet 3-5 x ugentligt</option>
-				<option value="164">Stående arbejds, moderat/hård aktivitet 3-5 x ugentligt</option>
-				<option value="173">Siddende arbejde, moderat/hård aktivitet 6-7 x ugentligt</option>
-				<option value="190">Stående arbejde, moderat/hård aktivitet 6-7 x ugentligt</option>
-			</select>
-			</label>
-        </fieldset>
-        <div class="form-group">
-            <label for="bulkConstant">Bulk/Cut værdier baseret på +/- (kcal)</label>
-            <input type="number" value="300" name="bulkConstant" id="bulkConstant">
+            <label>Bulk/Cut værdier baseret på +/- (kcal)
+                <input type="number" value="300" name="bulkConstant">
+            </label>
         </div> 
         <input type="submit" value="Beregn">
     </fieldset>
     <fieldset class="results">
         <div class="form-group">
-            <label for="bmr">Basalstofskifte (BMR) (kcal)</label>
-            <input name="bmr" id="bmr" disabled="disabled">
-        </div>
-        <div class="form-group">
-            <label for="equilibrium">Ligevægtsindtag (kcal)</label>
-            <input name="equilibrium" id="equilibrium" disabled="disabled">
-        </div>
-        <div class="form-group">
-            <label for="bulk">Bulk (kcal)</label>
-            <input name="bulk" id="bulk" disabled="disabled">
-        </div>
-        <div class="form-group">
-            <label for="cut">Cut (kcal)</label>
-            <input name="cut" id="cut" disabled="disabled">
+            <label>Maksimal sandsynlig vægtændring (kcal)
+                <input name="bmr" disabled>
+            </label>
         </div>
         <div class="form-group">
             <label for="protein">Protein indtag pr. dag (g)</label>
-            <input name="protein" id="protein" disabled="disabled">
+            <input name="protein" id="protein" disabled>
         </div>
     </fieldset>
 </form>
