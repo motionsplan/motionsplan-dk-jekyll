@@ -14,12 +14,9 @@ let motionsplan = {};
  * +0.3 Sport eller anden hård fysisk aktivitet i fritiden. (30-60 min. 4-5 gange/uge)
  */
 
-motionsplan.TotalEnergyExpenditurePAL = function(bmr, pal, sport) {
+motionsplan.TotalEnergyExpenditurePAL = function(bmr, pal, moderate_leisure_activity, strenuous_leisure_activity) {
     bmr = bmr;
-    pal = pal;
-    if (String(sport) == "true") {
-        pal = pal + 0.3;
-    }
+    pal = pal + moderate_leisure_activity * 0.025 + strenuous_leisure_activity * 0.05;
 
     function getRestingEnergyExpenditure() {
         return bmr;

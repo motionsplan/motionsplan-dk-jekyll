@@ -82,7 +82,7 @@ Resultatet er en gennemsnitsberegning for, hvor højt hvilestofskiftet er for pe
 
 ## Hvilken formel skal jeg vælge i BMR-beregneren?
 
-Der findes en lang række forskellige formler for hvilestofskiftet, basalstofskiftet og BMR. I beregneren er formlerne fra Nordic Nutrition Recommendations (2012), da disse formler også bruges af WHO. Formlerne tager højde for mange befolkningstyper, og der er formler rettet mod alle aldersgrupper.
+Der findes en lang række forskellige formler for hvilestofskiftet, basalstofskiftet og BMR. I beregneren er formlerne fra Nordic Nutrition Recommendations (2012) valgt som standard, da disse formler også bruges af WHO. Formlerne tager højde for mange befolkningstyper, og der er formler rettet mod alle aldersgrupper.
 
 Du skal dog være opmærksom på, at det er vanskeligt at lave universelle formler for alle aldre, kropsbygninger og befolkningsgrupper. Formlerne i denne beregner baserer sig på alder, køn, vægt og højde, men da den fedtfrie masse kan have stor betydning for hvilestofskiftet, så har andre lavet formler baseret på den. Det er imidlertid noget vanskeligere at få den fedtfrie masse estimeret pålideligt.
 

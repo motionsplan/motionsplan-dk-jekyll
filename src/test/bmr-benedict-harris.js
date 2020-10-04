@@ -7,11 +7,11 @@ describe('BMRBenedictHarris', function() {
       // sex, age, weight, pal, sport
       var b = motionsplan.BMRBenedictHarris("male", 32, 80, 181);
 
-      assert.equal(b.getBasicMetabolicRate(), 1849.4);
+      assert.equal(b.getBasicMetabolicRate(), 7737.8896);
 
       var b = motionsplan.BMRBenedictHarris("female", 32, 80, 181);
 
-      assert.equal(b.getBasicMetabolicRate(), 1598.3999999999999);
+      assert.equal(b.getBasicMetabolicRate(), 6687.705599999999);
     });
   });
 });

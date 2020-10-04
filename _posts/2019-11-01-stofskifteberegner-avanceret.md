@@ -33,39 +33,17 @@ Med denne beregner kan du udregne dit samlede daglige energibehov, ftofskifte og
 
 {% include calculate-stofskifte-avanceret.html %}
 
-## Lav præcis aktivitetsregistrering til energiforbruget
+## Lav præcis aktivitetsregistrering til udregning af stofskiftet
 
 Din beregning af det daglige energibehov bliver mest præcist, hvis du er lidt omhyggelig med din aktivitetsregistrering.
 
 {% include feature_row type="left" %}
 
-## Baggrund for den avancerede udregning af energiforbrug
+## Hvilken formel skal jeg vælge til at udregne stofskiftet og forbrændingen?
 
-Hvilestofskiftet bliver udregnet ud fra [Schofields formler](https://en.wikipedia.org/wiki/Schofield_equation) (1985) som også bruges af WHO. Læg mærke til, at der er aldersspecifikke formler for børn, hvilket betyder, at beregneren er relativt pålidelig også til at udregne hvilestofskiftet til børn.
+Der findes en lang række forskellige formler for hvilestofskiftet, basalstofskiftet og BMR. I beregneren er formlerne fra Nordic Nutrition Recommendations (2012) valgt som standard, da disse formler også bruges af WHO. Formlerne tager højde for mange befolkningstyper, og der er formler rettet mod alle aldersgrupper.
 
-## Hvilken formel skal jeg vælge?
-
-### Schofields formler for energibehov for mænd
-
-| Age | Equation (kJ/day) | SEE |
-|-|-|-|
-| < 3 | 249 × W - 127 | 292 |
-| 3–10 | 95 × W + 2110 | 280 |
-| 10–18 | 74 × W + 2754 | 441 |
-| 18–30 | 63 × W + 2896 | 641 |
-| 30–60 | 48 × W + 3653 | 700 |
-| > 60 | 49 × W + 2459 | 686 |
-
-### Schofields formler for energiforbrug for kvinder
-
-| Age | Equation (kJ/day) | SEE |
-|-|-|-|
-| < 3 | 244 × W - 130 | 246 |
-| 3–10 | 85 × W + 2033 | 292 |
-| 10–18 | 56 × W + 2898 | 466 |
-| 18–30 | 62 × W + 2036 | 497 |
-| 30–60 | 34 × W + 3538 | 465 |
-| > 60 | 38 × W + 2755 | 451 |
+Du kan læse mere om de forskellige formler til [hvilestofskifte og basalstofskifte]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}).
 
 ### Udregning af fysisk aktivitetsniveau
 
@@ -138,13 +116,13 @@ Hvis du kender algoritmerne bag udregneren på [health-calc.com](http://health-c
 
 Hvis du gerne vil udregne dit energiforbrug mere præcist for forskellige aktiviter, så har jeg en [liste over MET-værdier og en beregner af energiforbrug for aktiviteter](/met/).
 
-## Udregn energibehov med andre beregnere
+## Udregn stofskifte og forbrænding med andre beregnere
 
-Jeg har lavet en [simpel beregner til stofskiftet]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}), som er baseret på _Nordiska Næringsrekommendationer 1996_ eller en [beregner af energibehov]({% link _posts/2019-11-01-stofskifteberegner-nordic-2012.md %}) baseret på _Nordic Nutrition Recommandations fra 2012_ og en [beregner til udregning af ligevægtsindtaget]({% link _posts/2019-11-01-stofskifte-ligevaegtsberegner.md %}).
+Jeg har lavet en [simpel beregner til hvilestofskiftet og basalstofskiftet]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}) og en [beregner af dit stofskifte, energiforbrug og energibehov]({% link _posts/2019-11-01-stofskifteberegner-nordic-2012.md %}) med en lidt mere generel angivelse af dit daglige fysiske aktivitetsniveau. Endelig kan du tjekke vores [beregner til udregning af ligevægtsindtaget]({% link _posts/2019-11-01-stofskifte-ligevaegtsberegner.md %}).
 
 Hvis du gerne vil have en energiberegner på engelsk, så har Morten Zacho lavet denne [energiforbrugberegner](http://health-calc.com/diet/energy-expenditure-advanced).
 
-## Referencer om udregning af dagligt energiforbrug
+## Referencer om stofskifte og forbrænding
 
 - Schofield, W.N. 1985. Predicting basal metabolic rate, new standards and review of previous work. Hum. Nutr. Clin. Nutr., 39C (suppl. 1): 5-41. <https://pubmed.ncbi.nlm.nih.gov/4044297/>
 - Waterlow, John C., Nevin S. Scrimshaw, og Beat Schürch. 1996. “Energy and Protein requirements, Proceedings of an IDECG workshop”. Eur J Clin Nutr 50 (februar): 1–197. <http://archive.unu.edu/unupress/food2/UID01E/UID01E00.HTM>.

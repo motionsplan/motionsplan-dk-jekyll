@@ -33,7 +33,7 @@ Du kan estimere dit ligevægtsindtag i beregneren nedenunder. Du får det bedste
 
 Du kan udregne ligevægtsindtaget i nedenstående beregner.
 
-{% include calculate-ligevaegt.html %}
+{% include calculate-stofskifte-pal.html %}
 
 ## Hvad kan jeg bruge ligevægtsindtaget til?
 
@@ -43,12 +43,11 @@ Du kan bruge ligevægtsindtaget, hvis du fx laver kostplaner, hvor du skal ramme
 
 ## Hvad er mit potentiale for at ændre vægt?
 
-Lave beregner
-Cut - tabe fedt
-Bulk -- tage muskler på
-Anbefalet protein
-
 ## Hvilken formel skal jeg vælge til beregning af ligevægtsindtag?
+
+Der findes en lang række forskellige formler for hvilestofskiftet, basalstofskiftet og BMR. I beregneren er formlerne fra Nordic Nutrition Recommendations (2012) valgt som standard, da disse formler også bruges af WHO. Formlerne tager højde for mange befolkningstyper, og der er formler rettet mod alle aldersgrupper.
+
+Du kan læse mere om de forskellige formler til [hvilestofskifte og basalstofskifte]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}).
 
 ## Hvordan vælger jeg aktivitetsniveau?
 

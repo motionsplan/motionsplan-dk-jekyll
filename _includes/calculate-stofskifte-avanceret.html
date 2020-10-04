@@ -1,54 +1,67 @@
+{% assign legend = include.legend | default: "Nordic Nutrition Recommendations 2012" %}
 <form class="calculator" id="calculator_bmr_advanced_pal">
     <fieldset>
-        <legend>Avanceret udregning af dit stofskifte, energibehov og ligevægtsindtag baseret på Schofield (1985).</legend>
+        <legend>Avanceret udregning af dit stofskifte, energibehov og ligevægtsindtag baseret på <em id="bmr_legend">{{ legend }}</em>.</legend>
+        <div class="form-group">
+            <label>Formel for udregning af hvilestofskifte
+            <select name="bmr-formula" id="bmr-formula">
+                <option value="benedict_harris">Benedict-Harris 1918-1919</option>
+                <option value="schofield">Schofield Equation 1985</option>
+                <option value="nordic_2012" selected="selected">Nordic Nutrition Recommendations 2012</option>
+            </select>
+            </label>
+        </div>
         <fieldset>
             <legend>Køn</legend>
-            <label for="male" class="radio"><input type="radio" name="sex" value="male" id="male" onclick="this.form.gender.value = 'male';" checked="checked"> Mand</label>
-    		<label for="female" class="radio"><input type="radio" name="sex" value="female" id="female" onclick="this.form.gender.value = 'female';"> Kvinde</label>
-    		<input type="hidden" name="gender" value="male">
+            <label class="radio">
+                <input type="radio" name="sex" value="male" checked="checked"> Mand
+            </label>
+    		<label class="radio">
+    		    <input type="radio" name="sex" value="female"> Kvinde
+    		</label>
         </fieldset>
         <div class="form-group">
             <label for="age">Alder (år)</label>
-            <input type="number" min="10" max="100" placeholder="fx 40" name="age" id="age">
+            <input type="number" min="10" max="100" placeholder="fx 40" name="age" id="age" required>
         </div>
         <div class="form-group">
             <label for="weight">Vægt (kg)</label>
-            <input type="number" min="10" max="200" placeholder="fx 70" name="weight" id="weight" step="0.1">
+            <input type="number" min="10" max="200" placeholder="fx 70" name="weight" id="weight" step="0.1" required>
         </div>
         <div class="form-group">
             <label for="height">Højde (cm)</label>
-            <input type="number" min="10" max="240" placeholder="fx 170" name="height" id="height" step="0.1">
+            <input type="number" min="10" max="240" placeholder="fx 170" name="height" id="height" step="0.1" required>
         </div>
         <fieldset>
             <legend>Angiv dit daglige fysiske aktivitetsniveau</legend>
         <div class="form-group">
             <label for="height">Intens træning (min) - MET 10</label>
-            <input type="number" min="0" max="1440" placeholder="" name="activity_intense" id="activity_intense">
+            <input type="number" min="0" max="1440" name="activity_intense" id="activity_intense">
             <p class="help-block">Maksimal aktivitet. Intensiv idræt. Hurtig løb. Hurtig roning.</p>
         </div>
         <div class="form-group">
             <label for="height">Moderat træning (min) - MET 7</label>
-            <input type="number" min="0" max="1440" placeholder="" name="activity_moderat" id="activity_moderat">
+            <input type="number" min="0" max="1440" name="activity_moderat" id="activity_moderat">
             <p class="help-block">Styrketræning. Hugge brænde. De fleste idrætsgrene. Cykling.</p>
         </div>
         <div class="form-group">
             <label for="height">Let aktivitet (min) - MET 4</label>
-            <input type="number" min="0" max="1440" placeholder="" name="activity_light" id="activity_light">
+            <input type="number" min="0" max="1440" name="activity_light" id="activity_light">
             <p class="help-block">Husarbejde. Havearbejde. Hurtig gang. Golf.</p>
         </div>
         <div class="form-group">
             <label for="height">Stående og gående (min) - MET 2</label>
-            <input type="number" min="00" max="1440" placeholder="" name="activity_standing" id="activity_standing">
+            <input type="number" min="00" max="1440" name="activity_standing" id="activity_standing">
             <p class="help-block">Madlavning. Let gang. Indkøb. Shopping.</p>
         </div>
         <div class="form-group">
             <label for="height">Sove (min) - MET 0,9</label>
-            <input type="number" min="0" max="1440" placeholder="" name="activity_sleeping" id="activity_sleeping">
+            <input type="number" min="0" max="1440" name="activity_sleeping" id="activity_sleeping">
             <p class="help-block">Fra du ligger i sengen til du står op.</p>
         </div>
         <div class="form-group">
             <label for="height">Siddende (min) - MET 1,2</label>
-            <input type="number" min="0" max="1440" value="1440" name="activity_sitting" id="activity_sitting" disabled="disabled">
+            <input type="number" min="0" max="1440" value="1440" name="activity_sitting" id="activity_sitting" disabled>
             <p class="help-block">Den resterende tid anslås som siddende.</p>
         </div>
         </fieldset>
@@ -56,16 +69,16 @@
     </fieldset>
     <fieldset class="results">
         <div class="form-group">
-            <label for="pal_gerrior">Physical Activity Level (PAL)</label>
-            <input name="pal_gerrior" id="pal_gerrior" disabled="disabled">
-        </div>
-        <div class="form-group">
             <label for="bmr">Basalstofskifte og hvilestofskifte (BMR) (kJ)</label>
-            <input name="bmr" id="bmr" disabled="disabled">
+            <input name="bmr" id="bmr" disabled>
         </div>
         <div class="form-group">
-            <label for="equilibrium">Energiforbrug og stofskifte på en dag (kJ)</label>
-            <input name="equilibrium" id="equilibrium" disabled="disabled">
+            <label for="pal_gerrior">Physical Activity Level (PAL)</label>
+            <input name="pal_gerrior" id="pal_gerrior" disabled>
+        </div>
+        <div class="form-group">
+            <label for="equilibrium">Dagligt stofskifte og forbrænding (kJ)</label>
+            <input name="equilibrium" id="equilibrium" disabled>
         </div>
         <div class="form-group">
             <label for="tee">Energiforbrug - Korrigeret for vægt og BMI (kJ)</label>
