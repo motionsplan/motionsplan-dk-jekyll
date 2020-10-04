@@ -729,11 +729,7 @@ $(document).ready(function() {
         var height = Number($("[name='height']").val());
 
         var b;
-        
-        if (height < 1) {
-            formula = "nordic_2012";
-        }
-        
+
         if (formula == 'schofield') {
             b = schofield.BMRSchofield(gender, age, weight);
         } else if (formula == 'benedict_harris') {
