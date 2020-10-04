@@ -399,15 +399,15 @@
         var atstr = '';
         var tspeed = document.getElementById("t_speed").innerHTML;
         var tspeedsecs = to_seconds(tspeed);
-        atstr += '20 min. tempoløb: ' + tspeed + ' min/km&nbsp;&nbsp;&nbsp;(' + roundNumber(20 * 60 / tspeedsecs, 1) + ' km)<br />';
-        atstr += '25 min. tempoløb: ' + to_time(tspeedsecs + parseInt(at[vdot][0] * 1)) + ' min/km&nbsp;&nbsp;&nbsp;(' + roundNumber(25 * 60 / (tspeedsecs + parseInt(at[vdot][0] * 1)), 1) + ' km)<br />';
-        atstr += '30 min. tempoløb: ' + to_time(tspeedsecs + parseInt(at[vdot][1] * 1)) + ' min/km&nbsp;&nbsp;&nbsp;(' + roundNumber(30 * 60 / (tspeedsecs + parseInt(at[vdot][1] * 1)), 1) + ' km)<br />';
-        atstr += '35 min. tempoløb: ' + to_time(tspeedsecs + parseInt(at[vdot][2] * 1)) + ' min/km&nbsp;&nbsp;&nbsp;(' + roundNumber(35 * 60 / (tspeedsecs + parseInt(at[vdot][2] * 1)), 1) + ' km)<br />';
-        atstr += '40 min. tempoløb: ' + to_time(tspeedsecs + parseInt(at[vdot][3] * 1)) + ' min/km&nbsp;&nbsp;&nbsp;(' + roundNumber(40 * 60 / (tspeedsecs + parseInt(at[vdot][3] * 1)), 1) + ' km)<br />';
-        atstr += '45 min. tempoløb: ' + to_time(tspeedsecs + parseInt(at[vdot][4] * 1)) + ' min/km&nbsp;&nbsp;&nbsp;(' + roundNumber(45 * 60 / (tspeedsecs + parseInt(at[vdot][4] * 1)), 1) + ' km)<br />';
-        atstr += '50 min. tempoløb: ' + to_time(tspeedsecs + parseInt(at[vdot][5] * 1)) + ' min/km&nbsp;&nbsp;&nbsp;(' + roundNumber(50 * 60 / (tspeedsecs + parseInt(at[vdot][5] * 1)), 1) + ' km)<br />';
-        atstr += '55 min. tempoløb: ' + to_time(tspeedsecs + parseInt(at[vdot][6] * 1)) + ' min/km&nbsp;&nbsp;&nbsp;(' + roundNumber(55 * 60 / (tspeedsecs + parseInt(at[vdot][6] * 1)), 1) + ' km)<br />';
-        atstr += '60 min. tempoløb: ' + to_time(tspeedsecs + parseInt(at[vdot][7] * 1)) + ' min/km&nbsp;&nbsp;&nbsp;(' + roundNumber(60 * 60 / (tspeedsecs + parseInt(at[vdot][7] * 1)), 1) + ' km)<br />';
+        atstr += '20 min. tempoløb: ' + tspeed + ' min/km&nbsp;&nbsp;&nbsp;(' + roundNumber(20 * 60 / tspeedsecs, 1) + ' km)<br>';
+        atstr += '25 min. tempoløb: ' + to_time(tspeedsecs + parseInt(at[vdot][0] * 1)) + ' min/km&nbsp;&nbsp;&nbsp;(' + roundNumber(25 * 60 / (tspeedsecs + parseInt(at[vdot][0] * 1)), 1) + ' km)<br>';
+        atstr += '30 min. tempoløb: ' + to_time(tspeedsecs + parseInt(at[vdot][1] * 1)) + ' min/km&nbsp;&nbsp;&nbsp;(' + roundNumber(30 * 60 / (tspeedsecs + parseInt(at[vdot][1] * 1)), 1) + ' km)<br>';
+        atstr += '35 min. tempoløb: ' + to_time(tspeedsecs + parseInt(at[vdot][2] * 1)) + ' min/km&nbsp;&nbsp;&nbsp;(' + roundNumber(35 * 60 / (tspeedsecs + parseInt(at[vdot][2] * 1)), 1) + ' km)<br>';
+        atstr += '40 min. tempoløb: ' + to_time(tspeedsecs + parseInt(at[vdot][3] * 1)) + ' min/km&nbsp;&nbsp;&nbsp;(' + roundNumber(40 * 60 / (tspeedsecs + parseInt(at[vdot][3] * 1)), 1) + ' km)<br>';
+        atstr += '45 min. tempoløb: ' + to_time(tspeedsecs + parseInt(at[vdot][4] * 1)) + ' min/km&nbsp;&nbsp;&nbsp;(' + roundNumber(45 * 60 / (tspeedsecs + parseInt(at[vdot][4] * 1)), 1) + ' km)<br>';
+        atstr += '50 min. tempoløb: ' + to_time(tspeedsecs + parseInt(at[vdot][5] * 1)) + ' min/km&nbsp;&nbsp;&nbsp;(' + roundNumber(50 * 60 / (tspeedsecs + parseInt(at[vdot][5] * 1)), 1) + ' km)<br>';
+        atstr += '55 min. tempoløb: ' + to_time(tspeedsecs + parseInt(at[vdot][6] * 1)) + ' min/km&nbsp;&nbsp;&nbsp;(' + roundNumber(55 * 60 / (tspeedsecs + parseInt(at[vdot][6] * 1)), 1) + ' km)<br>';
+        atstr += '60 min. tempoløb: ' + to_time(tspeedsecs + parseInt(at[vdot][7] * 1)) + ' min/km&nbsp;&nbsp;&nbsp;(' + roundNumber(60 * 60 / (tspeedsecs + parseInt(at[vdot][7] * 1)), 1) + ' km)<br>';
         document.getElementById('atbox').innerHTML = atstr;
     }
 
@@ -547,11 +547,11 @@
         <td></td>
     </tr>
     <tr valign="top">
-        <td><b>Tempotur/<br />Tærskelintervaller</b></td>
+        <td><b>Tempotur/<br>Tærskelintervaller</b></td>
         <td nowrap="nowrap">
-            <span style="width: 50px; float: left; display: block;">400m:</span><span id="t_400"></span><br />
-            <span style="width: 50px; float: left; display: block;">800m:</span><span id="t_800"></span><br />
-            <span style="width: 50px; float: left; display: block;">1000m:</span><span id="t_1000"></span><br />
+            <span style="width: 50px; float: left; display: block;">400m:</span><span id="t_400"></span><br>
+            <span style="width: 50px; float: left; display: block;">800m:</span><span id="t_800"></span><br>
+            <span style="width: 50px; float: left; display: block;">1000m:</span><span id="t_1000"></span><br>
             <span style="width: 50px; float: left; display: block;">1 mile:</span><span id="t_mile"></span>
         </td>
         <td>
@@ -562,9 +562,9 @@
     <tr valign="top">
         <td><b>Intervaltræning</b></td>
         <td nowrap="nowrap">
-            <span style="width: 50px; float: left; display: block;">400m:</span><span id="i_400"></span><br />
-            <span style="width: 50px; float: left; display: block;">1000m:</span><span id="i_1000"></span><br />
-            <span style="width: 50px; float: left; display: block;">1200m:</span><span id="i_1200"></span><br />
+            <span style="width: 50px; float: left; display: block;">400m:</span><span id="i_400"></span><br>
+            <span style="width: 50px; float: left; display: block;">1000m:</span><span id="i_1000"></span><br>
+            <span style="width: 50px; float: left; display: block;">1200m:</span><span id="i_1200"></span><br>
             <span style="width: 50px; float: left; display: block;">1 mile:</span><span id="i_mile"></span>
         </td>
         <td>
@@ -575,8 +575,8 @@
     <tr valign="top" class="boxcontent">
         <td><b>Repetitions intervaller</b></td>
         <td nowrap="nowrap">
-            <span style="width: 50px; float: left; display: block;">200m:</span><span id="r_200"></span><br />
-            <span style="width: 50px; float: left; display: block;">400m:</span><span id="r_400"></span><br />
+            <span style="width: 50px; float: left; display: block;">200m:</span><span id="r_200"></span><br>
+            <span style="width: 50px; float: left; display: block;">400m:</span><span id="r_400"></span><br>
             <span style="width: 50px; float: left; display: block;">800m:</span><span id="r_800"></span>
         </td>
         <td>

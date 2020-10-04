@@ -2,12 +2,14 @@
     <fieldset>
         <legend>Udregning af vægttab i kalorieunderskud</legend>
         <div class="form-group">
-            <label for="tee">Dagligt energiforbrug (kcal)</label>
-            <input name="tee" placeholder="3000">
+            <label for="tee">Dagligt energiforbrug (kcal)
+                <input name="tee" placeholder="3000" required>
+            </label>
         </div>
         <div class="form-group">
-            <label for="intake">Dagligt energiindtag (kcal)</label>
-            <input name="intake" placeholder="3000">
+            <label for="intake">Dagligt energiindtag (kcal)
+                <input name="intake" placeholder="3000" required>
+            </label>
         </div>
         <input type="submit" value="Beregn" onclick="return calc(this.form);">
     </fieldset>

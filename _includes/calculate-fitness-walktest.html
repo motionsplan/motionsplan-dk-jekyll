@@ -3,12 +3,12 @@
         <legend>1,6 km gåtest. Indtast værdier.</legend>
         <div class="form-group">
             <label for="">Tiden for at gå 1,6 km</label>
-            <input name="min" type="number" min="5" max="60" placeholder="fx 17" class="input-mini" /> <span class="help-inline">min</span>
-            <input name="sek" type="number" min="0" max="60"  placeholder="fx 20" class="input-mini" /> <span class="help-inline">sek</span>
+            <input name="min" type="number" min="5" max="60" placeholder="fx 17" class="input-mini" required> <span class="help-inline">min</span>
+            <input name="sek" type="number" min="0" max="60"  placeholder="fx 20" class="input-mini" required> <span class="help-inline">sek</span>
         </div>
         <div class="form-group">
             <label for="hr_after">Pulsefter 1,6 km (slag/min)</label>
-            <input name="hr_after" id="hr_after" type="number" min="60" max="200" placeholder="fx 110" />
+            <input name="hr_after" id="hr_after" type="number" min="60" max="200" placeholder="fx 110" required>
         </div>
         <div class="form-group">
             <label for="gender">Køn</label>
@@ -19,24 +19,24 @@
         </div>
         <div class="form-group">
             <label for="age">Alder (år)</label>
-            <input name="age" id="age" type="number" min="10" max="110" placeholder="fx 40" />
+            <input name="age" id="age" type="number" min="10" max="110" placeholder="fx 40" required>
         </div>
         <div class="form-group">
             <label for="weight">Vægt (kg)</label>
-            <input name="weight" id="weight" type="number" min="20" max="200" placeholder="fx 70" step="0.1" />
+            <input name="weight" id="weight" type="number" min="20" max="200" placeholder="fx 70" step="0.1" required>
         </div>
-        <input type="submit" value="Beregn" />
+        <input type="submit" value="Beregn">
     </fieldset>
     <fieldset class="results">
         {% comment %}
         <div class="form-row">
             <label>Iltoptagelse (l/min)</label>
-            <input name="Iltoptag" type="text" disabled />
+            <input name="Iltoptag" type="text" disabled>
         </div>
         {% endcomment %}
         <div class="form-group">
             <label>Kondital (ml/kg/min)</label>
-            <input name="kondital" type="text" disabled />
+            <input name="kondital" type="text" disabled>
         </div>
     </fieldset>
 </form>

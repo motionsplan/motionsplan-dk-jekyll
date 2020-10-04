@@ -5,24 +5,23 @@
         <legend>Beregn MET-timer. Indtast værdierne.</legend>
         <div class="form-group">
             <label for="weight">Vægt (kg)</label>
-            <input name="weight" id="weight" type="number" min="20" max="200" placeholder="Vægt i kg" step="0.1" />
+            <input name="weight" id="weight" type="number" min="20" max="200" placeholder="Vægt i kg" step="0.1" required>
         </div>
-
-    <div class="form-group">
-        <label for="answers">Aktivitet (MET)</label>
-        <input list="answers" name="answer" placeholder="Vælg aktivitet" id="answerInput">
-        <datalist id="answers">
-          {% for row in met_values offset:2 %}
-          <option value="{{ row.MET }}">{{ row.Activity }}</option>
-          {% endfor %}
-        </datalist>
-        <input type="hidden" name="answer" id="answerInput-hidden">
-    </div>
+        <div class="form-group">
+            <label for="answers">Aktivitet (MET)</label>
+            <input list="answers" name="answer" placeholder="Vælg aktivitet" id="answerInput">
+            <datalist id="answers">
+              {% for row in met_values offset:2 %}
+              <option value="{{ row.MET }}">{{ row.Activity }}</option>
+              {% endfor %}
+            </datalist>
+            <input type="hidden" name="answer" id="answerInput-hidden">
+        </div>
         <div class="form-group">
             <label for="time">Tid (timer)</label>
-            <input name="time" id="time" type="number" min="0" max="24" placeholder="Timer" step="0.1" />
+            <input name="time" id="time" type="number" min="0" max="24" placeholder="Timer" step="0.1" required>
         </div>
-    <input type="submit" value="Beregn" onclick="return calculateMET();">
+        <input type="submit" value="Beregn" onclick="return calculateMET();">
     </fieldset>
     <fieldset class="results">
         <div class="form-group">
@@ -34,24 +33,24 @@
 </form>
 
 <script>
-document.querySelector('#answerInput').addEventListener('input', function(e) {
-    var input = e.target,   
-        list = input.getAttribute('list'),
-        options = document.querySelectorAll('#' + list + ' option[value="'+input.value+'"]'),
-        hiddenInput = document.getElementById(input.getAttribute('id') + '-hidden');
+    document.querySelector('#answerInput').addEventListener('input', function(e) {
+        var input = e.target,
+            list = input.getAttribute('list'),
+            options = document.querySelectorAll('#' + list + ' option[value="' + input.value + '"]'),
+            hiddenInput = document.getElementById(input.getAttribute('id') + '-hidden');
 
-    if (options.length > 0) {
-      hiddenInput.value = input.value;
-      input.value = options[0].innerText;
-      }
+        if (options.length > 0) {
+            hiddenInput.value = input.value;
+            input.value = options[0].innerText;
+        }
 
-});
+    });
 
-function calculateMET() {
-    var met = $("#answerInput-hidden").val();
-    var weight = $("#weight").val();
-    var time = $("#time").val();
-    $("#kcal").val(met * weight * time);
-    return false;
-}
+    function calculateMET() {
+        var met = $("#answerInput-hidden").val();
+        var weight = $("#weight").val();
+        var time = $("#time").val();
+        $("#kcal").val(met * weight * time);
+        return false;
+    }
 </script>

@@ -29,7 +29,7 @@
 
 {%- assign seo_description = page.description | default: page.excerpt | default: site.description -%}
 {%- if seo_description -%}
-  {%- assign seo_description = seo_description | markdownify | strip_html | newline_to_br | strip_newlines | replace: '<br />', ' ' | escape_once | strip -%}
+  {%- assign seo_description = seo_description | markdownify | strip_html | newline_to_br | strip_newlines | replace: '<br>', ' ' | escape_once | strip -%}
 {%- endif -%}
 
 {%- assign author = page.author | default: page.authors[0] | default: site.author -%}
@@ -142,7 +142,7 @@
 </script>
 
 {% if site.google_site_verification %}
-  <meta name="google-site-verification" content="{{ site.google_site_verification }}" />
+  <meta name="google-site-verification" content="{{ site.google_site_verification }}">
 {% endif %}
 {% if site.bing_site_verification %}
   <meta name="msvalidate.01" content="{{ site.bing_site_verification }}">

@@ -3,12 +3,12 @@
         <legend>Beregn kondital fra vilkårlig løbedistance og tid.</legend>
         <div class="form-group">
             <label>Distance (meter)</label>
-            <input type="number" min="1500" max="50000" id="distance" placeholder="Distance i meter">
+            <input type="number" min="1500" max="50000" id="distance" placeholder="Distance i meter" required>
         </div>
         <div class="form-group">
             <label>Tid (hh:mm:ss)</label>
             <input type="number" min="0" max="6" id="tid_hours" placeholder="timer" class="input-mini">
-            <input type="number" min="0" max="59" id="tid_min" placeholder="min" class="input-mini">
+            <input type="number" min="0" max="59" id="tid_min" placeholder="min" class="input-mini" required>
             <input type="number" min="0" max="59" id="tid_sek" placeholder="sek" class="input-mini">
         </div>
         <input type="submit" value="Beregn">

@@ -2,12 +2,14 @@
     <fieldset>
         <legend>Udregning af nødvendigt kalorieunderskud</legend>
         <div class="form-group">
-            <label for="lost">Vægttab (kg)</label>
-            <input name="lost" placeholder="4.4">
+            <label>Vægttab (kg)
+                <input name="lost" placeholder="4.4" required>
+            </label>
         </div>
         <div class="form-group">
-            <label for="days">Dage</label>
-            <input name="days" placeholder="5">
+            <label>Dage
+                <input name="days" placeholder="5" required>
+            </label>
         </div>
         <input type="submit" value="Beregn" onclick="return calc(this.form);">
     </fieldset>

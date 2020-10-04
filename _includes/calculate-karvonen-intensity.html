@@ -2,14 +2,16 @@
     <fieldset>
         <legend>Udregn Karvonens intensitetszoner til pulstræning.</legend>
         <div class="form-group">
-            <label>Hvilepuls (HR<sub>rest</sub>)</label>
-            <input id="karvonen_min_hr" min="30" max="100" type="number" />
+            <label>Hvilepuls (HR<sub>rest</sub>)
+                <input id="karvonen_min_hr" min="30" max="100" type="number" required>
+            </label>
         </div>
         <div class="form-group">
-            <label>Maxpuls (HR<sub>max</sub>)</label>
-            <input id="karvonen_max_hr" min="100" max="250" type="number" />
+            <label>Maxpuls (HR<sub>max</sub>)
+                <input id="karvonen_max_hr" min="100" max="250" type="number" required>
+            </label>
         </div>
-        <input type="submit" value="Beregn" />
+        <input type="submit" value="Beregn">
     </fieldset>
 
     <fieldset class="results">
