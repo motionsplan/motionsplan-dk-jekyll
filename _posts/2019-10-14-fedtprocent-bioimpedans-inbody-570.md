@@ -1,9 +1,10 @@
 ---
 title: "Måling af fedtprocent med bioimpedans"
-permalink: /artikel/inbody-570-bioimpedans
+permalink: /artikel/inbody-570-bioimpedans/
 redirect_from:
   - /inbody/
   - /bioimpedans/
+  - /artikel/inbody-570-bioimpedans
 excerpt: "Du kan måle din fedtprocent og kropskomposition med bioimpedans - og de nyere maskiner er relativt reliabile og valide, hvis du følger anvisningerne."
 language: da
 header:

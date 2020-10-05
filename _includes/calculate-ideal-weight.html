@@ -2,16 +2,17 @@
     <fieldset>
         <legend>Udregning af idealvægt. Indtast værdier</legend>
         <div class="form-group">
-            <label for="height">Højde (cm) - minimum 152 cm</label>
-            <input name="height" id="height" type="number" min="152" max="272" placeholder="Højde i cm" step="0.1" required>
+            <label for="height">Højde (cm) - minimum 152 cm
+                <input name="height" type="number" min="152" max="272" placeholder="Højde i cm" step="0.1" required>
+            </label>
         </div>
         <fieldset>
             <legend>Køn 👫</legend>
-            <label for="checkbox-man" class="radio">
-                <input name="sex" type="radio" value="man" id="checkbox-man" selected="selected"> &#9794; Mand
+            <label class="radio">
+                <input name="sex" type="radio" value="man" selected="selected"> &#9794; Mand
             </label>
-            <label for="checkbox-woman" class="radio">
-                <input name="sex" type="radio" value="woman" id="checkbox-woman"> &#9792; Kvinde
+            <label class="radio">
+                <input name="sex" type="radio" value="woman"> &#9792; Kvinde
             </label>
         </fieldset>
         <fieldset>
@@ -26,23 +27,27 @@
     </fieldset>
     <fieldset class="results" disabled>
         <legend>Idealvægt baseret på højde og køn</legend>
-        <label>J. D. Robinson (1983) (kg)
-            <input disabled name="idealweight_robinson" id="idealweight_robinson" type="text">
-        </label>
-        <label>Miller Formula D.R. (1983) (kg)
-            <input disabled name="idealweight_miller" id="idealweight_miller" type="text">
-        </label>
         <label>G. J. Hamwi (1964) (kg)
-            <input disabled name="idealweight_hamwi" id="idealweight_hamwi" type="text">
+            <input disabled name="idealweight_hamwi" type="text">
         </label>
         <label>B. J. Devine (1974) (kg)
-            <input disabled name="idealweight_devine" id="idealweight_devine" type="text">
+            <input disabled name="idealweight_devine" type="text">
+        </label>
+        <label>J. D. Robinson (1983) (kg)
+            <input disabled name="idealweight_robinson" type="text">
+        </label>
+        <label>Miller Formula D.R. (1983) (kg)
+            <input disabled name="idealweight_miller" type="text">
+        </label>
+        <label>Peterson (2016) (kg)
+            <input disabled name="idealweight_devine" type="text">
+            <p class="help-block">Baseret på et <em>target BMI</em> på 22.</p>
         </label>
     </fieldset>
     <fieldset class="results" disabled>
         <legend>Idealvægt baseret på køn, BMI og kropstype</legend>
         <label>Morten Zacho (kg)
-            <input disabled name="idealweight_bmi_bodytype" id="idealweight_bmi_bodytype" type="text" placeholder="">
+            <input disabled name="idealweight_bmi_bodytype" type="text">
             <p class="help-block">Idealvægten baseret på at et optimalt BMI for kvinder er 22,5 og 24,5 for mænd. Idealvægten kan variere med +/- 6 kg i forhold til sundhed, og bredden af skelettet påvirker også idealvægten.</p>
         </label>
     </fieldset>

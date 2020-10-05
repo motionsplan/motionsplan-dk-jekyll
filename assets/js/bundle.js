@@ -624,11 +624,12 @@ $(document).ready(function() {
         var height = Number($("[name='height']").val());
 
         var iw = idealweight.IdealWeight(height, sex);
-        $("#idealweight_robinson").val(iw.getRobinson());
-        $("#idealweight_miller").val(iw.getMiller());
-        $("#idealweight_hamwi").val(iw.getHamwi());
-        $("#idealweight_devine").val(iw.getDevine());
-        $("#idealweight_bmi_bodytype").val(iw.getIdealWeightBasedOnBmiAndBodytype(Number($("[name='bodytype']").val())));
+        $("[name='idealweight_robinson']").val(iw.getRobinson());
+        $("[name='idealweight_miller']").val(iw.getMiller());
+        $("[name='idealweight_hamwi']").val(iw.getHamwi());
+        $("[name='idealweight_devine']").val(iw.getDevine());
+        $("[name='idealweight_peterson']").val(iw.getPeterson());
+        $("[name='idealweight_bmi_bodytype']").val(iw.getIdealWeightBasedOnBmiAndBodytype(Number($("[name='bodytype']").val())));
     });
     // Udregn ideal weight
     $("#calculator_running_walking").submit(function(e) {
@@ -2776,6 +2777,12 @@ motionsplan.IdealWeight = function(height, sex) {
     return 45.5 + 0.91 * h;
   }
 
+  // https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4841935/
+  function getPeterson(target_bmi = 22) {
+    var hgt = height / 100;
+    return (2.2 * target_bmi) + (3.5 * target_bmi * (hgt - 1.5));
+  }
+
   // Based on Zacho BMI Women 22,5 og Man 24,5  
   function getIdealWeightBasedOnBmiAndBodytype(bodytype) {
     var hgt = height / 100;
@@ -2791,6 +2798,7 @@ motionsplan.IdealWeight = function(height, sex) {
     getDevine : getDevine,
     getMiller : getMiller,
     getRobinson : getRobinson,
+    getPeterson : getPeterson,
     getIdealWeightBasedOnBmiAndBodytype : getIdealWeightBasedOnBmiAndBodytype
   };
 

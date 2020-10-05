@@ -40,6 +40,18 @@ Disse formler for idealvægt tager udelukkende udgangspunkt i om du er mand og k
 Formlerne fra Devine (1974), Miller (1983), Hamwi (1964) og Robinson (1983) er henvendt til mennesker, der er højere end 152 cm høje.
 {: .notice .notice--info }
 
+## Petersons universelle formel for idealvægt baseret på BMI
+
+Peterson et al (2016) har forbedret formlen for Devine (1974). Peterson et al (2016) fandt at Devine-formlen underestimerede kropsvægten for dem, der ikke var så høje, mens de overestimerede højden for de højere.
+
+Derfor foreslår Peterson et al (2016) at basere idealvægten på et _target BMI_. Som Devine (1974), så kan formlerne kun bruges for mennesker, der er højere end 152 cm.
+
+***
+
+Ideal Weight (kg) = 2.2 x BMI<sub>target</sub> + 3.5 x BMI<sub>target</sub> x (Height (m) - 1.5 m)
+
+***
+
 ## Udregn idealvægt baseret på BMI og kropstype
 
 Morten Zacho har foreslået, at [basere idealvægten på Body Mass Index (BMI)](https://web.archive.org/web/20160808221414/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/beregn_din_idealvaegt/){:rel="nofollow"}. Morten Zacho konkluderer, at videnskaben understøtter at et optimalt BMI er på omkring 22,5 for kvinder og 24,5 for mænd for at opleve det længste liv med færrest sygdomme. Jeg har forklaret rationalet bag i indlægget om [Body Mass Index (BMI)](/bmi/).

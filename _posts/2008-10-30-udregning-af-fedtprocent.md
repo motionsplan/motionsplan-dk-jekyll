@@ -16,7 +16,6 @@ tags:
   - fedtprocent
   - test
   - kropskomposition
-  - skinfold
 last_modified_at: 2020-02-11T23:14:14Z
 toc: true
 feature_row:
@@ -29,9 +28,9 @@ feature_row:
     btn_class: "btn--success"
 ---
 
-*[BMI]: Body Mass Index
-
 Jeg har lavet en beregner, hvor du kan udregne din fedtprocent på baggrund af din vægt, højde, køn og alder. 
+
+*[BMI]: Body Mass Index
 
 Udregningen er naturligvis forbundet med flere usikkerheder. Beregningen af din fedtprocent er indirekte og inddrager kun din højde og din vægt. Derfor er udregningen unøjagtig, da den ikke har mulighed for at vide, om din vægt skyldes muskler eller fedt.
 
@@ -67,7 +66,7 @@ Heitmann bruger i sin formel køn, BMI og alder.
 
 ### Durnin & Womersley udregning af fedtprocent
 
-Durnin & Womersley bruger i sin formel køn og alder.
+Durnin & Womersley bruger i sin formel BMI og køn.
 
 #### Mænd: Udregn din fedtprocent
 

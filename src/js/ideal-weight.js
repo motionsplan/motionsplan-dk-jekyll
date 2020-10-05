@@ -36,6 +36,12 @@ motionsplan.IdealWeight = function(height, sex) {
     return 45.5 + 0.91 * h;
   }
 
+  // https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4841935/
+  function getPeterson(target_bmi = 22) {
+    var hgt = height / 100;
+    return (2.2 * target_bmi) + (3.5 * target_bmi * (hgt - 1.5));
+  }
+
   // Based on Zacho BMI Women 22,5 og Man 24,5  
   function getIdealWeightBasedOnBmiAndBodytype(bodytype) {
     var hgt = height / 100;
@@ -51,6 +57,7 @@ motionsplan.IdealWeight = function(height, sex) {
     getDevine : getDevine,
     getMiller : getMiller,
     getRobinson : getRobinson,
+    getPeterson : getPeterson,
     getIdealWeightBasedOnBmiAndBodytype : getIdealWeightBasedOnBmiAndBodytype
   };
 
