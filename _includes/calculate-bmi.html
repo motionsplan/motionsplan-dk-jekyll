@@ -2,22 +2,24 @@
     <fieldset>
         <legend>Udregning af BMI. Indtast værdier</legend>
         <div class="form-group">
-            <label for="height">Højde (cm)</label>
-            <input name="height" id="height" type="number" min="50" max="272" placeholder="Højde i cm" step="0.1" required>
+            <label>Højde (cm)
+                <input name="height" type="number" min="50" max="272" placeholder="Højde i cm" step="0.1" required>
+            </label>
         </div>
         <div class="form-group">
-            <label for="weight">Vægt (kg)</label>
-            <input name="weight" id="weight" type="number" min="20" max="200" placeholder="Vægt i kg" step="0.1" required>
+            <label>Vægt (kg)
+                <input name="weight" type="number" min="20" max="200" placeholder="Vægt i kg" step="0.1" required>
+            </label>
         </div>
         <input type="submit" value="Udregn">
     </fieldset>
     <fieldset class="results" disabled>
         <legend>Resultater</legend>
         <label>Body mass index (BMI)
-            <input disabled name="BMI" id="BMI" type="text">
+            <input disabled name="BMI" type="text">
         </label>
         <label>Ponderal Index
-            <input disabled name="PMI" id="PMI" type="text">
+            <input disabled name="PMI" type="text">
         </label>
     </fieldset>
 </form>

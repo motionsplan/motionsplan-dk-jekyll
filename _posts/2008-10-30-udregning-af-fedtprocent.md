@@ -52,6 +52,9 @@ Formularen benytter sig af flere forskellige udregninger til at estimere fedtpro
 
 Baggrunden for beregneren er, at BMI på populationsniveau er nogenlunde korreleret med fedtprocent.
 
+<details markdown="1">
+  <summary>Se formler Heitmann</summary>
+
 ### Heitmann beregning af fedtprocent
 
 Heitmann bruger i sin formel køn, BMI og alder.
@@ -63,6 +66,10 @@ Heitmann bruger i sin formel køn, BMI og alder.
 #### Formel for fedtprocent for kvinder
 
 {% include math formula="PBF = \frac{0.988 * BMI + 0.344 * weight (kg) + 0.094 * age - 30.18}{height (m)^2}" %}
+</details>
+
+<details markdown="1">
+  <summary>Se formler Durnin & Womersley</summary>
 
 ### Durnin & Womersley udregning af fedtprocent
 
@@ -75,12 +82,17 @@ PBF = 1.34 * BMI - 12.47
 #### Kvinder: Udregn din fedtprocent
 
 PBF = 1.37 * BMI - 3.47
+</details>
+
+<details markdown="1">
+  <summary>Se formler Duerenberg et al.</summary>
 
 ### Duerenberg et al. udregning af fedtprocent
 
 PBF = 1.20 * BMI + 0.23 * age - 10.8 * sex - 5.4;
 
 sex: men = 1; female = 0
+</details>
 
 ## Usikkerhed i udregningen af fedtprocent
 
@@ -90,9 +102,9 @@ Udregningen af fedtprocent efter Heitmanns formel har en standardafvigelse på o
 
 Det betyder i praksis, at hvis du har udregnet din fedtprocent til 15%, så er det mest sandsynlige, at den ligger i intervallet fra 11,1% til 18,9%. Det er en ret stor afvigelse.
 
-Fedtprocenten bliver med begge formler udregnet på baggrund af de samme oplysninger, som man udregner BMI på. Derfor er disse beregninger behæftet med de samme usikkerheder som BMI
+Fedtprocenten bliver med begge formler udregnet på baggrund af de samme oplysninger, som man udregner BMI på. Derfor er disse beregninger af fedtprocenten behæftet med de samme usikkerheder som BMI er.
 
-- Tager ikke højde for om vægten skyldes muskler eller fedt eller din kropsbygning i det hele taget.
+Beregningerne tager således ikke højde for, om vægten skyldes muskler eller fedt eller din kropsbygning i det hele taget.
 
 Jeg har skrevet mere om [BMI og lavet en beregner](/bmi/).
 

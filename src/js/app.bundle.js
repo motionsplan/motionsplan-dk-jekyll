@@ -360,18 +360,18 @@ $(document).ready(function() {
 
         $("#max_hr").val(hr.getMaxHr().toFixed(0));
     });
-    // Calculate Fat Percent
+    // Calculate BMI
     $("#calculator_bmi").submit(function(e) {
         console.log("Calculate BMI");
         e.preventDefault();
 
-        var h = Number($("#height").val());
-        var w = Number($("#weight").val());
+        var h = Number($("[name='height']").val());
+        var w = Number($("[name='weight']").val());
 
         var b = bmi.BMI(h, w);
 
-        $("#BMI").val(b.getBMI().toFixed(1));
-        $("#PMI").val(b.getPonderalIndex().toFixed(1));
+        $("[name='BMI']").val(b.getBMI().toFixed(1));
+        $("[name='PMI']").val(b.getPonderalIndex().toFixed(1));
     });
     // Calculate Body Water
     $("#calculator_bodywater").submit(function(e) {
@@ -393,17 +393,17 @@ $(document).ready(function() {
         console.log("Calculate Fat Percent");
         e.preventDefault();
 
-        var a = Number($("#age").val());
-        var h = Number($("#height").val());
-        var w = Number($("#weight").val());
+        var a = Number($("[name='age']").val());
+        var h = Number($("[name='height']").val());
+        var w = Number($("[name='weight']").val());
         var g = $("[name='sex']:checked").val();
 
         var f = fat.CalculateFatPercent(h, w, a, g);
 
-        $("#BMI").val(f.getBMI().toFixed(2));
-        $("#fat_percent_heitmann").val(f.getBodyFatPercentHeitmannBMIEquation().toFixed(2));
-        $("#fat_percent_durnin").val(f.getBodyFatPercentWomersleyDurninBMIEquation().toFixed(2));
-        $("#fat_percent_duerenberg").val(f.getBodyFatPercentDuerenbergBMIEquation().toFixed(2));
+        $("[name='BMI']").val(f.getBMI().toFixed(2));
+        $("[name='fat_percent_heitmann']").val(f.getBodyFatPercentHeitmannBMIEquation().toFixed(2));
+        $("[name='fat_percent_durnin']").val(f.getBodyFatPercentWomersleyDurninBMIEquation().toFixed(2));
+        $("[name='fat_percent_duerenberg']").val(f.getBodyFatPercentDuerenbergBMIEquation().toFixed(2));
     });
     // Calculate Durnin
     $("#calculator_skinfold_durnin").submit(function(e) {

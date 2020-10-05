@@ -52,7 +52,7 @@ Davidson et al (2012) fandt også, at Durnin og Womersleys formler overestimered
 
 ## Formler til Durnin og Womersley
 
-I beregneren benytter vi formlerne fra [www.topendsports.com](https://www.topendsports.com/testing/density-durnin-womersley.htm). Hvis du har brug for at lave testen på engelsk, så kan du bruge beregneren fra [healt-calc.com](http://health-calc.com/body-composition/skinfold-d-and-w)
+I beregneren benytter vi formlerne fra [www.topendsports.com](https://www.topendsports.com/testing/density-durnin-womersley.htm). Hvis du har brug for at lave testen på engelsk, så kan du bruge beregneren fra [health-calc.com](http://health-calc.com/body-composition/skinfold-d-and-w)
 
 | Alder |	Formler for mænd	      | Formler for kvinder     |
 |-------------|---------------------------|---------------------------|
@@ -70,6 +70,16 @@ Læg mærke til at Durnin og Womersley-formlerne tager højde for alderen. Det s
 Derefter kan Siri-formlen omsætte densiteten til fedtprocent.
 
 {% include math formula="PBF = \frac{495}{D} - 450" %}
+
+## Hvorfor får man en densitet med Durnin og Womersley?
+
+Densitet er massen delt med volumen.
+
+Da Durnin og Womersley lavede deres studium var undervandsvejning den mest pålidelige måde at måle fedtprocent på. Rationalet tager udgangspunkt i en tokomponent-model, hvor kroppen består af fedtvæv og fedtfri masse.
+
+Durnin og Womersley har så lavet korrelationsmodeller med densiteten fundet i undervandsvejningerne. Derfor estimerer hudfoldsmålingen faktisk densiteten, som man så bruger Siri-formlen til at omsætte til fedtprocenten.
+
+I den sammenhæng er det også værd at bide mærke i, at [Siri-formlen](https://www.topendsports.com/testing/siri-equation.htm) ikke er den eneste måde at omregne en fedtprocent på baggrund af densiteten.
 
 ## Referencer om Durnin og Womersley fedtmåling
 

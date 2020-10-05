@@ -701,18 +701,18 @@ $(document).ready(function() {
 
         $("#max_hr").val(hr.getMaxHr().toFixed(0));
     });
-    // Calculate Fat Percent
+    // Calculate BMI
     $("#calculator_bmi").submit(function(e) {
         console.log("Calculate BMI");
         e.preventDefault();
 
-        var h = Number($("#height").val());
-        var w = Number($("#weight").val());
+        var h = Number($("[name='height']").val());
+        var w = Number($("[name='weight']").val());
 
         var b = bmi.BMI(h, w);
 
-        $("#BMI").val(b.getBMI().toFixed(1));
-        $("#PMI").val(b.getPonderalIndex().toFixed(1));
+        $("[name='BMI']").val(b.getBMI().toFixed(1));
+        $("[name='PMI']").val(b.getPonderalIndex().toFixed(1));
     });
     // Calculate Body Water
     $("#calculator_bodywater").submit(function(e) {
@@ -734,17 +734,17 @@ $(document).ready(function() {
         console.log("Calculate Fat Percent");
         e.preventDefault();
 
-        var a = Number($("#age").val());
-        var h = Number($("#height").val());
-        var w = Number($("#weight").val());
+        var a = Number($("[name='age']").val());
+        var h = Number($("[name='height']").val());
+        var w = Number($("[name='weight']").val());
         var g = $("[name='sex']:checked").val();
 
         var f = fat.CalculateFatPercent(h, w, a, g);
 
-        $("#BMI").val(f.getBMI().toFixed(2));
-        $("#fat_percent_heitmann").val(f.getBodyFatPercentHeitmannBMIEquation().toFixed(2));
-        $("#fat_percent_durnin").val(f.getBodyFatPercentWomersleyDurninBMIEquation().toFixed(2));
-        $("#fat_percent_duerenberg").val(f.getBodyFatPercentDuerenbergBMIEquation().toFixed(2));
+        $("[name='BMI']").val(f.getBMI().toFixed(2));
+        $("[name='fat_percent_heitmann']").val(f.getBodyFatPercentHeitmannBMIEquation().toFixed(2));
+        $("[name='fat_percent_durnin']").val(f.getBodyFatPercentWomersleyDurninBMIEquation().toFixed(2));
+        $("[name='fat_percent_duerenberg']").val(f.getBodyFatPercentDuerenbergBMIEquation().toFixed(2));
     });
     // Calculate Durnin
     $("#calculator_skinfold_durnin").submit(function(e) {
@@ -3302,6 +3302,7 @@ motionsplan.SkinfoldDurnin = function(biceps, triceps, suprailiac, subscapularis
   gender = gender; // male / female
   age = age;
 
+  // Siri formula
   function getBodyFatPercent() {
     return (495 / getDensity() - 450);
   }
@@ -3317,13 +3318,13 @@ motionsplan.SkinfoldDurnin = function(biceps, triceps, suprailiac, subscapularis
     if (isMale()) {
       if (age < 17) {
         density = 1.1533 - 0.0643 * Math.log10(fatsum);
-      } else if (age < 19) {
+      } else if (age < 20) {
         density = 1.1620 - 0.0630 * Math.log10(fatsum);
-      } else if (age < 29) {
+      } else if (age < 30) {
         density = 1.1631 - 0.0632 * Math.log10(fatsum);
-      } else if (age < 39) {
+      } else if (age < 40) {
         density = 1.1422 - 0.0544 * Math.log10(fatsum);
-      } else if (age < 49) {
+      } else if (age < 50) {
         density = 1.1620 - 0.0700 * Math.log10(fatsum);
       } else {
         density = 1.1715 - 0.0779 * Math.log10(fatsum);
@@ -3332,13 +3333,13 @@ motionsplan.SkinfoldDurnin = function(biceps, triceps, suprailiac, subscapularis
     else {
       if (age < 17) {
         density = 1.1369 - 0.0598 * Math.log10(fatsum);
-      } else if (age < 19) {
+      } else if (age < 20) {
         density = 1.1549 - 0.0678 * Math.log10(fatsum);
-      } else if (age < 29) {
+      } else if (age < 30) {
         density = 1.1599 - 0.0717 * Math.log10(fatsum);
-      } else if (age < 39) {
+      } else if (age < 40) {
         density = 1.1423 - 0.0632 * Math.log10(fatsum);
-      } else if (age < 49) {
+      } else if (age < 50) {
         density = 1.1333 - 0.0612 * Math.log10(fatsum);
       } else {
         density = 1.1339 - 0.0645 * Math.log10(fatsum);
