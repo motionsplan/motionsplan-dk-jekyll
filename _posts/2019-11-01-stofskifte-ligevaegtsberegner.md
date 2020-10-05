@@ -35,23 +35,37 @@ Du kan udregne ligevægtsindtaget i nedenstående beregner.
 
 {% include calculate-stofskifte-pal.html %}
 
+## Hvordan udregner jeg ligevægtsindtaget?
+
+Ligevægtsindtaget er egentlig bare et andet ord for dit daglige energibehov i forhold til dit hvilestofskifte og dit fysiske aktivitetsniveau. Derfor udregnes dit ligevægtsindtag med at gange dit hvilestofskifte med en faktor for dit aktivitetsniveau.
+
+## Præcision af udregninger for ligevægtsindtag
+
+Du skal være opmærksom på, at udregninger af ligevægtsindtaget kun er omtrentlige målinger. Hvis du registrerer din kost over en længere periode, og du holder en stabil vægt og kropskomposition, så kan du finde dit ligevægtsindtag på denne måde.
+
 ## Hvad kan jeg bruge ligevægtsindtaget til?
 
 Du kan bruge ligevægtsindtaget, hvis du fx laver kostplaner, hvor du skal ramme et bestemt antal kalorier for at fastholde eller ændre din vægt.
 
-## Hvordan udregner jeg ligevægtsindtaget?
+## Hvad er mit potentiale for at ændre vægt i cut og bulk?
 
-## Hvad er mit potentiale for at ændre vægt?
+Når du har regnet lidt på dit ligevægtsindtag, så kan du også kigge lidt på dit potentiale for at ændre vægt. Man kalder det også bulk, hvis du med vilje er i kalorieoverskue, og cut hvis du er i kalorieunderskud.
+
+Typisk bulker man, hvis man gerne lettere vil opbygge muskelmasse, og man cutter, når man gerne vil smide noget af fedtet igen.
+
+{% include calculator-weightloss.html %}
+
+Ovenstående beregner tager det udgangspunkt, at man foretrækker at tabe fedtvæv. Forudsætningen bag beregningerne er, at der i 1 kg fedt er 38.000 kJ. Beregneren forudsætter, at hele dit vægttab i energiunderskud vil komme fra fedt, når den kigger på det maksimalt mulige vægttab.
+
+Når du er i energioverskud, så håber du at tage muskelmasse på. Beregnerens udgangspunkt er, at der er 17.000 kJ i 1 kg protein, som kan bruges som byggesten til at tage muskelmasse på, når du er i energioverskud. Det er noget mere vanskeligt at bygge muskelmasse end bare være i kalorieoverskud. Formentlig skal der også regnes med, at du bliver nødt til at træne hårdt for at bygge muskelmasse.
+
+Hvis du har gode ideer til at forbedre beregneren til vægtændringspotentiale, så skriv endelig i kommentarerne.
 
 ## Hvilken formel skal jeg vælge til beregning af ligevægtsindtag?
 
 Der findes en lang række forskellige formler for hvilestofskiftet, basalstofskiftet og BMR. I beregneren er formlerne fra Nordic Nutrition Recommendations (2012) valgt som standard, da disse formler også bruges af WHO. Formlerne tager højde for mange befolkningstyper, og der er formler rettet mod alle aldersgrupper.
 
 Du kan læse mere om de forskellige formler til [hvilestofskifte og basalstofskifte]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}).
-
-## Hvordan vælger jeg aktivitetsniveau?
-
-## Præcision af udregninger for ligevægtsindtag
 
 ## Konklusion om ligevægtsindtag
 

@@ -25,6 +25,7 @@ const etpunkt = require('./etpunkttest');
 const borg15 = require('./borg15');
 const topunkt = require('./topunkttest');
 const bmr_benedict_harris = require('./bmr-benedict-harris');
+const bmr_equilibrium = require('./bmr-ligevaegt');
 const ree = require('./bmr-nordic-2012');
 const bmi = require('./bmi');
 const idealweight = require('./ideal-weight');
@@ -645,27 +646,35 @@ $(document).ready(function() {
 
         $("[name='index_100_lift']").val(idx.getIndex100());
     });
-    // Calculate BMR - Benedict Harris
-    $("#calculator_bmr_equilibrium").submit(function(e) {
-        console.log("Calculate BMR - Benedict Harris");
+    $("#calculator_necessary_energy_deficit").submit(function(e) {
+        console.log("Calculate calculator_necessary_energy_deficit");
         e.preventDefault();
 
-        var sex = $("[name='sex']:checked").val();
-        var age = Number($("[name='age']").val());
-        var weight = Number($("[name='weight']").val());
-        var height = Number($("[name='height']").val());
-        var bulkConstant = Number($("[name='bulkConstant']").val());
-        var activityConstant = Number($("[name='activityLevel']").val());
+        var lost = Number($("[name='lost']").val());
+        var days = Number($("[name='days']").val());
+        var lost_day = lost / days * 1000;
+        var fat = 9; //kcal
+        var diff = lost_day * fat;
+        var weight_loss = lost_day;
 
-        var b = bmr_benedict_harris.BMRBenedictHarris(sex, age, weight, height);
+        $("[name='daily_diff']").val(diff.toFixed(0) + ' kcal');
+        $("[name='daily_weight_loss']").val(weight_loss.toFixed(0) + ' g');
+    });
+    // Calculate BMR - Benedict Harris
+    $("#calculator_change").submit(function(e) {
+        console.log("Calculate Equilibrium");
+        e.preventDefault();
 
-        var tee = tee_pal.TotalEnergyExpenditurePAL(b.getBasicMetabolicRate(), activityConstant / 100);
+        var tee = Number($("#calculator_change [name='tee']").val());
+        var intake = Number($("[name='intake']").val());
 
-        $("[name='bmr']").val(b.getBasicMetabolicRate() + ' kcal');
-        $("[name='equilibrium']").val(tee.getTotalEnergyExpenditure() + ' kcal');
-        $("[name='bulk']").val(tee.getTotalEnergyExpenditure() + bulkConstant + ' kcal');
-        $("[name='cut']").val(tee.getTotalEnergyExpenditure() - bulkConstant + ' kcal');
-        $("[name='protein']").val(weight * 2 + ' g');
+        var b = bmr_equilibrium.BMREquilibrium();
+
+        var balance = b.getBalance(tee, intake);
+
+        $("[name='balance']").val(balance + ' kJ');
+        $("[name='weekly_weightchange']").val((b.getMaximalWeightChange(balance, 7) * 1000).toFixed(0) + ' g');
+        $("[name='monthly_weightchange']").val(b.getMaximalWeightChange(balance, 30).toFixed(2) + ' kg');
     });
     $("#bmr-formula").change(function() {
         $("#bmr_legend").text($("#bmr-formula option:selected").text());
@@ -694,7 +703,7 @@ $(document).ready(function() {
         } else {
             b = ree.BMRNordicNutritionRecommendations2012(gender, age, weight, height);
         }
-        $("[name='bmr']").val(b.getBasicMetabolicRate());
+        $("[name='bmr']").val(b.getBasicMetabolicRate().toFixed(0));
 
         if ($("input[name='pal']").length > 0) {
             var pal = Number($("[name='pal']:checked").val());
@@ -703,8 +712,8 @@ $(document).ready(function() {
 
             var tee = tee_pal.TotalEnergyExpenditurePAL(b.getBasicMetabolicRate(), pal, moderate_leisure_activity, strenuous_leisure_activity);
 
-            $("[name='pal_calc']").val(tee.getPhysicalActivityLevel());
-            $("[name='tee']").val(tee.getTotalEnergyExpenditure());
+            $("[name='pal_calc']").val(tee.getPhysicalActivityLevel().toFixed(2));
+            $("[name='tee']").val(tee.getTotalEnergyExpenditure().toFixed(0));
         }
     });
     $("#activity_intense, #activity_moderat, #activity_light, #activity_standing, #activity_sleeping").change(function(e) {

@@ -1,19 +1,27 @@
 let motionsplan = {};
 
-motionsplan.BMREquilibrium = function(tee, change) {
-    tee = parseInt(tee);
-    change = parseInt(change);
+motionsplan.BMREquilibrium = function() {
+    function getBalance(tee, intake) {
+        return (intake - tee);
+    }
 
-    function getBasicMetabolicRate() {
-        if (sex == "male") {
-            return 66 + (13.7 * weight) + (5 * height) - (6.8 * age);
-        }
+    function getMaximalWeightChange(change, days = 1) {
+        var fat_energy = 38000; // pr. kg
+        var protein_energy = 17000; // pr. kg
+        if (change < 0) {
+            return (change * -1 / fat_energy) * days;
+        } 
+        
+        if (change == 0) {
+            return 0;
+        } 
 
-        return 655 + (9.6 * weight) + (1.8 * height) - (4.7 * age);
+        return (change / protein_energy) * days;
     }
 
     var publicAPI = {
-        getBasicMetabolicRate : getBasicMetabolicRate
+        getMaximalWeightChange : getMaximalWeightChange,
+        getBalance : getBalance
     };
 
     return publicAPI;
