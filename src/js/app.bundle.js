@@ -37,6 +37,7 @@ const running_distance_vo2 = require('./running-distance-vo2');
 const running_economy = require('./running-economy');
 const index100 = require('./index100');
 const skinfold_durnin = require('./skinfold-durnin');
+const skinfold_peterson = require('./skinfold-peterson');
 const skinfold_pollock = require('./skinfold-pollock');
 const skinfold_lohman = require('./skinfold-lohman');
 const skinfold_slaughter = require('./skinfold-slaughter');
@@ -424,6 +425,26 @@ $(document).ready(function() {
         $("[name='skinfold_durnin']").val(f.getSkinfoldSum().toFixed(2));
         $("[name='fatpercent_durnin']").val(f.getBodyFatPercent().toFixed(2));
         $("[name='ffm_durnin']").val(f.getFatFreeMass().toFixed(2));
+    });
+    // Calculate Peterson
+    $("#calculator_skinfold_peterson").submit(function(e) {
+        console.log("Calculate Skinfold Durnin");
+        e.preventDefault();
+
+        var midthigh = Number($("[name='midthigh']").val());
+        var triceps = Number($("[name='triceps']").val());
+        var suprailiac = Number($("[name='suprailiac']").val());
+        var subscapularis = Number($("[name='subscapularis']").val());
+        var weight = Number($("[name='weight']").val());
+        var height = Number($("[name='height']").val());
+        var sex = $("[name='gender']").val();
+        var age = Number($("[name='age']").val());
+
+        var f = skinfold_peterson.SkinfoldPeterson(midthigh, triceps, suprailiac, subscapularis, height, weight, sex, age);
+
+        $("[name='skinfold_peterson']").val(f.getSkinfoldSum().toFixed(2));
+        $("[name='fatpercent_peterson']").val(f.getBodyFatPercent().toFixed(2));
+        $("[name='ffm_peterson']").val(f.getFatFreeMass().toFixed(2));
     });
     // Calculate Pollock
     $("#calculator_skinfold_pollock_men").submit(function(e) {
