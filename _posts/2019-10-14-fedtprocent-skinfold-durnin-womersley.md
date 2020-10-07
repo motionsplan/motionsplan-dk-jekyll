@@ -81,6 +81,16 @@ Durnin og Womersley har så lavet korrelationsmodeller med densiteten fundet i u
 
 I den sammenhæng er det også værd at bide mærke i, at [Siri-formlen](https://www.topendsports.com/testing/siri-equation.htm) ikke er den eneste måde at omregne en fedtprocent på baggrund af densiteten.
 
+## Andre formler til måling af fedtprocent
+
+{% assign site_posts = site.posts | where: "tags", "skinfold" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single-simple.html %}
+  {% endfor %}
+{% endif %}
+
 ## Referencer om Durnin og Womersley fedtmåling
 
 - Durnin, J. V., og J. Womersley. 1974. “Body Fat Assessed from Total Body Density and Its Estimation from Skinfold Thickness: Measurements on 481 Men and Women Aged from 16 to 72 Years”. The British Journal of Nutrition 32 (1): 77–97. <https://doi.org/10.1079/bjn19740060>.

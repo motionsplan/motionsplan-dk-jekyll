@@ -42,6 +42,16 @@ For at estimere fedtprocenten så skal der både for mænd og kvinder måles hud
 
 ## Referencer til Peterson
 
+## Andre formler til måling af fedtprocent
+
+{% assign site_posts = site.posts | where: "tags", "skinfold" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single-simple.html %}
+  {% endfor %}
+{% endif %}
+
 ## Køb en tang til hudfoldsmålinger
 
 {% include feature_row type="left" %}
