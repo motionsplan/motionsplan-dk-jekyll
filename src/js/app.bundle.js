@@ -258,7 +258,7 @@ $(document).ready(function() {
         var fp = fp_navy.CalculateFatPercentNavy(sex, height, waist, neck, hip);
         $("#fat_percent_navy").val(fp.getFatPercent());
     });
-    // Udregn ideal weight
+    // Udregn Billat
     $("#calculator_billat").submit(function(e) {
         console.log("Billat");
         e.preventDefault();
@@ -285,12 +285,12 @@ $(document).ready(function() {
         var height = Number($("[name='height']").val());
 
         var iw = idealweight.IdealWeight(height, sex);
-        $("[name='idealweight_robinson']").val(iw.getRobinson());
-        $("[name='idealweight_miller']").val(iw.getMiller());
-        $("[name='idealweight_hamwi']").val(iw.getHamwi());
-        $("[name='idealweight_devine']").val(iw.getDevine());
-        $("[name='idealweight_peterson']").val(iw.getPeterson());
-        $("[name='idealweight_bmi_bodytype']").val(iw.getIdealWeightBasedOnBmiAndBodytype(Number($("[name='bodytype']").val())));
+        $("[name='idealweight_robinson']").val(iw.getRobinson().toFixed(2));
+        $("[name='idealweight_miller']").val(iw.getMiller().toFixed(2));
+        $("[name='idealweight_hamwi']").val(iw.getHamwi().toFixed(2));
+        $("[name='idealweight_devine']").val(iw.getDevine().toFixed(2));
+        $("[name='idealweight_peterson']").val(iw.getPeterson().toFixed(2));
+        $("[name='idealweight_bmi_bodytype']").val(iw.getIdealWeightBasedOnBmiAndBodytype(Number($("[name='bodytype']").val())).toFixed(2));
     });
     // Udregn ideal weight
     $("#calculator_running_walking").submit(function(e) {
@@ -1152,8 +1152,8 @@ $(document).ready(function() {
 
         var c = whr.WaistRatio();
 
-        $("#whr").val(c.getWaistHipRatio(waist, hip));
-        $("#waistheightratio").val(c.getWaistHeightRatio(waist, height));
+        $("#whr").val(c.getWaistHipRatio(waist, hip).toFixed(2));
+        $("#waistheightratio").val(c.getWaistHeightRatio(waist, height).toFixed(2));
     });
     $("[input='number']").on('input keyup change paste', function() {
         if (this.min) this.value = Math.max(parseInt(this.min), parseInt(this.value));
