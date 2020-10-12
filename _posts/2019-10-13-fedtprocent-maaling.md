@@ -28,7 +28,7 @@ feature_row:
     title: "Tanita DC 360P Kropsanalysevægt"
     excerpt: "Med en Tanita DC 360P kropsanalysevægt er du garanteret præcise og nøjagtige resultater. På blot 15 sekunder er det muligt at få en fuld kropsanalyse og måle din fedtprocent."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/tanita-dc-360p-kropsanalysevaegt/"
-    btn_label: "Tjek pris*s"
+    btn_label: "Tjek pris*"
     btn_class: "btn--success"
   - image_path: https://www.fotoagent.dk/single_picture/11803/138/mega/Tanita_MC780_full(1).jpg
     alt: "Tanita MC 780 P MA"
