@@ -46,7 +46,7 @@ En videnskabelig artikel har næsten altid denne opbygning.
 - **Sidste linjer i abstractet**. Jeg skimmer abstractet, men fokuserer lidt mere på de sidste par linjer for at få en fornemmelse af konklusionen i artiklen.
 - **Konklusion**. Derefter springer jeg til det allersidste afsnit i den videnskabelige artikel for at læse lidt mere uddybende om konklusionen. Afsnittet starter næsten altid med "In summary..." eller "In conclusion..."
 - **Abstractet**. Herefter kan du læse hele abstractet lidt mere grundigt for at få et indblik i metoder og resultater.
-- Hvis du stadig synes artiklen og stuidet ser spændendeus, så kan du læse hele artiklen.
+- Hvis du stadig synes artiklen og studiet ser spændende ud, så kan du læse hele artiklen.
 
 ## Hvordan vurderer vi de videnskabelige artikler?
 
