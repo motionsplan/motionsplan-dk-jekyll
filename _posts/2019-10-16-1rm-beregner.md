@@ -1,12 +1,12 @@
 ---
-title: "RM-beregner: 10 formler til at teste og udregne 1RM max"
+title: &title "RM-beregner: 10 formler til at teste og udregne 1RM max"
 permalink: /rm-beregner/
-excerpt: "Lav din egen RM-test og udregn 1RM max (repetition maximum) i vores avancerede RM-beregner på baggrund af 10 forskeres formler til at udregne 1RM ud fra vægten på dine submaksimale løft."
+excerpt: "Lav din egen RM-test og udregn 1RM max (one repetition maximum) i vores avancerede RM-beregner på baggrund af 10 forskeres formler til at udregne 1RM ud fra vægten på dine submaksimale løft."
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1526401485004-46910ecc8e51?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80
   teaser: https://images.unsplash.com/photo-1526401485004-46910ecc8e51?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
-  caption: RM-beregner til 1RM Max.
+  caption: *title
   alt: Photo by Victor Freitas on Unsplash
   overlay_filter: 0.3
 category:
@@ -15,14 +15,15 @@ category:
 tags:
   - styrketræning
   - beregnere
+  - repetition maximum
 last_modified_at: 2020-05-20T23:14:14Z
 toc: true
 classes: wide
 feature_row:
   - image_path: https://imgcdn.saxo.com/_9788771801835/0x500
-    alt: "Stærk - et procentbaseret program baseret på en 1RM-test og 1RM-beregner"
+    alt: "Stærk - et procentbaseret program ud fra one repetition maximum, 1RM-test og 1RM-beregner"
     title: "Stærk - Jacob Beermann"
-    excerpt: "_Stærk_ giver dig en grundig introduktion til hvordan man styrketræner bedst. Med til bogen et et rigtig godt styrketræningsprogram baseret på en 1RM-test, og her er der brug for en 1RM-beregner. _Stærk_ er meget anbefalelsesværdig og nok den bedste bog, bog jeg har læst om styrketræning."
+    excerpt: "_Stærk_ giver dig en grundig introduktion til hvordan man styrketræner bedst. Med til bogen et et rigtig godt styrketræningsprogram baseret på en RM-test, så her kan bruges en 1RM-beregner til at udregne 1 repetition maximum. _Stærk_ er meget anbefalelsesværdig og nok den bedste bog, bog jeg har læst om styrketræning."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835"
     btn_label: "Tjek prisen på Saxo*"
     btn_class: "btn--success"
@@ -31,7 +32,7 @@ feature_row:
 *[RM]: Repetition Maximum
 *[RPE]: Rate of Perceived Exertion
 
-Du kan lave en RM-test for at finde ud af, hvor meget du kan løfte. I en RM-test kan du enten lave et maksimalt løft, hvilket naturligvis er meget præcist. Du kan også lave submaksimale løft med flere gentagelser og bagefter bruge en formel eller en RM-beregner til at hjælpe med at estimere og udregne, hvad du kan løfte en gang.
+Du kan lave en RM-test for at finde ud af, hvor meget du kan løfte. I en RM-test kan du enten lave et maksimalt løft, hvilket naturligvis er meget præcist. Du kan også lave submaksimale løft med flere gentagelser og bagefter bruge en formel eller en RM-beregner til at estimere og udregne din one repetition maximum (1RM) eller hvad du netop kan løfte en gang.
 
 Hvad er en RM-beregner? **En RM-beregner kan udregne _Repetition Maximum (RM)_. RM-begrebet kan først og fremmest bruges til at estimere, hvad du maksimalt kan løfte en gang ud fra vægten på et submaksimalt løft med flere gentagelser. Ud fra din 1RM kan du derefter estimere forskellige RM-vægte, som fx kan anvendes i træningsprogrammer.**
 
@@ -53,7 +54,7 @@ Inden du går i gang med testen, skal du sørge for at lave en grundig, specifik
 
 Hvis du har brug for flere forsøg, skal du sørge for at holde mindst 3-5 minutters pause mellem forsøgene.
 
-## Baggrunden bag RM-beregneren [Kort]
+## Baggrunden for RM-beregneren
 
 Der er lavet rigtig mange forskellige studier, der har forsøgt at give sit bud på en formel til at estimere 1RM. Den **mest udbredte formel virker til at være Brzyckis formel og Epleys formel**. Jeg har i RM-beregneren nedenunder inkluderet en lang række formler, som du kan se under beregneren.
 
@@ -78,6 +79,10 @@ En RM-beregner kan både underestimere og overestimere den faktuelle 1RM for lø
 
 Der findes en række formler til at beregne 1RM max ud fra submaksimale løft.
 
+## Hvad er RM, 1RM og one repetition maximum?
+
+One repetition maximum kaldes også 1RM er et udtryk for den vægt, man maksimalt kan løfte for en gentagelse i en given øvelse. Det kan være gavnligt at kende sin 1RM eller one repeptition maximum, hvis man bruger procentbaserede træningsprogrammer.
+
 ## Hvordan er formlerne til 1RM-beregneren lavet?
 
 For at lave formlerne til at udregne 1RM, så har forskerne fået en række deltagere til at løfte vægte med forskellige intensiteter.
@@ -93,46 +98,76 @@ Når forskerne så har lavet en formel på baggrund af resultaterne fra de førs
 
 De fleste studier er blevet lavet på mænd, men Mayhew et al (2008) fandt at deres formel passede fint på kvinder også.
 
-## Populære formler til at udregne 1RMmax
+## Populære formler til at udregne 1RM-max
 
 Alle de [følgende formler til at udregne 1RM](https://en.wikipedia.org/wiki/One-repetition_maximum) er baseret på _gentagelser_ og _vægt_.
 
 - **r** er antallet reps eller gentagelser 
 - **w** er den løftede vægt
 
+<details markdown="1">
+  <summary>Se Brzyckis formel til repetition maximum</summary>
+  
 ### Brzyckis formel til RM
 
 Denne formel kaldes ofte **Brzyckis formel** efter dens skaber Matt Brzycki. Formlen kan skrives på lidt forskellige måder, som det ses her:
 
 {% include math formula="RM=w\cdot{\frac{36}{37-r}}={\frac{w}{{\frac{37}{36}}-{\frac{1}{36}}r}}\approx{\frac{w}{1.0278-0.0278r}}" %}
+</details>
 
 Epleys og Brzycki formler giver lignende resultater for 10RM, men ved færre end 10RM give Epley et lidt højere tal. Hvis en person fx løfter 100 kg for 10 reps, så vil den estimerede 1RM max være 133 kg. Hvis løfteren kun laver 6 reps, så estimerer Epley 1RM til at være 120 kg, mens Brzycki estimerer 1RM til at være 116 kg.
+
+<details markdown="1">
+  <summary>Se Epleys formel</summary>
 
 ### Epleys formel
 
 {% include math formula="RM=w\left(1+{\frac{r}{30}}\right)" %}
+</details>
+
+<details markdown="1">
+  <summary>Se McGlothins formel</summary>
 
 ### McGlothin
 
 {% include math formula="RM={\frac{100w}{101.3-2.67123r}}" %}
+</summary>
+
+<details markdown="1">
+  <summary>Se Lombardis formel</summary>
 
 ### Lombardi
 
 {% include math formula="RM=wr^{0.10}" %}
+</details>
+
+<details markdown="1">
+  <summary>Se Mayhews formel</summary>
 
 ### Mayhew et al.
 
 {% include math formula="RM={\frac{100w}{52.2+41.9e^{-0.055r}}" %}
+</details>
+
+<details markdown="1">
+  <summary>Se O'Conners formel til repetition maximum</summary>
 
 ### O'Conner et al.
 
 {% include math formula="RM=w\left(1+{\frac {r}{40}}\right)" %}
+</details>
+
+<details markdown="1">
+  <summary>Se Wathens formel til repetition maximum</summary>
 
 ### Wathen
 
 {% include math formula="RM={\frac{100w}{48.8+53.8e^{-0.075r}}}" %}
+</details>
 
-Det er tydeligt, at formlerne vil estimere forskellige RM-vægte forskelligt alt efter, hvor mange gentagelser man tager. Fælles for alle formlerne er, at de er bedst til at forudsige RM-vægte, der ligger tæt på den testede vægt.
+Formlerne estimerer forskellige RM-vægte. Fælles for alle formlerne er, at de er bedst til at forudsige RM-vægte, der ligger tæt på den testede vægt.
+
+[Wikipedia](https://en.wikipedia.org/wiki/One-repetition_maximum) viser en sammenligning mellem de enkelte formler, og hvordan de vil opføre sig med forskellige vægte og gentagelser.
 
 {% include figure image_path="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/One-repetition_maximum_chart.svg/780px-One-repetition_maximum_chart.svg.png" caption="Sammenligning af de forskellige RM-formler. Det er tydeligt at de begynder at adskille sig meget efter 10 reps. Det er tilrådeligt at holde sig under 10 reps, når du estimerer din 1RM" alt="Sammenligning af formler til udregning og beregning af 1RM. Kilde: [Wikipedia](https://en.wikipedia.org/wiki/One-repetition_maximum)." %}
 
@@ -142,7 +177,7 @@ Hvis du fx gerne vil træne med 5 sæt og 5 reps, så kan man skrive i programme
 
 Derfor kan RM-begrebet bruges til at estimere, hvad man netop kan løfte en gang. Når man udregner sin 1RM, så kan man nemlig konstruere et procentbaseret træningsprogram baseret på det man maksimalt kan løfte. I mange træningsprogrammer starter man lidt mere konservativt ved fx at gange med en faktor (fx 0,9), så programmet ikke starter for hårdt ud.
 
-Stærk med Jacob Beermann, Jim Wendlers 5/3/1, Starting Strength, Texas Method er alle programmer, der forudsætter en viden om din 1RM for at komme i gang med programmet.
+[Stærk med Jacob Beermann]({% link _posts/2019-03-10-staerk-traeningsprogram.md %}), Jim Wendlers 5/3/1, Starting Strength, [Texas Method]({% link _posts/2019-10-24-texas-method.md %}) er alle programmer, der forudsætter en viden om din 1RM for at komme i gang med programmet.
 
 ## RM ud fra _bar speed_
 
@@ -166,8 +201,8 @@ Husk også at teknikken stadig er vigtig, selvom du gerne vil løfte tungt. Der 
 
 ## Referencer for RM-test og RM-formler
 
-- [Testing 1RM](https://www.scienceforsport.com/1rm-testing/)
+- [Science for Sport: Testing 1RM](https://www.scienceforsport.com/1rm-testing/)
 - Reynolds, Jeff M., Toryanno J. Gordon, og Robert Andrew Robergs. “Prediction of one repetition maximum strength from multiple repetition maximum testing and anthropometry.” Journal of strength and conditioning research 20, nr. 3 (2006): 584–92. <https://doi.org/10.1519/R-15304.1>.
-- [Jacob Beermann](https://maxer.dk/artikler/maxtest)
+- [Jacob Beermann om Maxtest](https://maxer.dk/artikler/maxtest)
 
 {% include feature_row type="left" %}
