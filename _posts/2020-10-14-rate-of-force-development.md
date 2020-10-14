@@ -1,0 +1,71 @@
+---
+title: &title "Rate of Force Development (RFD)"
+permalink: /rate-of-force-development/
+language: da
+header:
+  overlay_image: https://images.unsplash.com/photo-1428790067070-0ebf4418d9d8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=80
+  teaser: https://images.unsplash.com/photo-1428790067070-0ebf4418d9d8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  caption: *title
+  alt: "Photo by bantersnaps on Unsplash"
+category:
+  - Eksplosivitet
+tags:
+  - test
+last_modified_at: 2020-10-13T23:14:14Z
+toc: true
+---
+
+Rate of force development (RFD) er et væsentligt parameter i forbindelse med styrketræning, træning af eksplosivitet og sprint. 
+
+Hvad er rate of force development (RFD)? **Rate of force development (RFD) er den hastighed en kraft udvikles med. I forbindelse med styrketræning er RFD et mål for, hvor hurtigt du kan udvikle kraft, og det har stor betydning for, hvor eksplosiv du kan være. Rate of Force development måles i Newton per sekund.**
+
+I rigtig mange idrætsgrene har rate of force development en stor betydning for præstationen. RFD beskriver den hastighed, som en kraft kan udvikles ved. Hvis du forbedrere din RFD, så kan du altså lave hurtigere og mere eksplosive bevægelser. Derfor kan de fleste atleter og sportsudøvere med fordel træne evnen til at udvikle kraft hurtigt.
+
+Du kan se en illustration af en kraftkurve i forbindelse mellem et løft.
+
+{% include figure image_path="https://athleticperformanceacademy.co.uk/wp-content/uploads/2012/10/80_what_i4.gif" caption="Sammenhængen mellem forskellige typer styrke, hvor 'rate of force development' er nummer 3 i figuren. Kilde: [athleticperformanceacademy.co.uk](https://athleticperformanceacademy.co.uk/2014/07/the-difference-between-power-and-rate-of-force-development/)." %}
+
+Typisk defineres RFD som evnen til at udvikle kraft inden for de første 200 ms af en kraftudfoldelse. Du kan se det illustreret i figuren ovenfor som punkt nummer 3.
+
+Når du træner 'rate of force development' handler det altså om at gøre hældningen på kurven stejlere. Når du har en stejlere kurve, kan du altså udvikle kraft hurtigere.
+
+## Hvad betyder rate of force development for præstationen?
+
+Lad os tage et eksempel, der kan være med til at illustrere vigtigheden af _rate of force development_. Hvis vi har to atleter, der er lige stærke. Den ene atlet har imidlertid en højere RFD. Det betyder at denne atlet kan udvikle kraft hurtigere end den anden atlet. Den hurtigere atlet kan altså tage skridtet lidt hurtigere, afvikle skuddet hurtigere eller springe højere.
+
+Den hurtigere atlet kan netop nå at udvikle mere kraft i den tid foden er i kontakt med underlaget i fx sprint og spring, hvilke vil gøre atleten mere eksplosiv og hurtigere.
+
+## Hvad har betydning for rate of force development?
+
+Hvis du gerne vil forbedre din rate of force development, skal du være opmærksom på, at der både er muskulære og neurale har betydning.
+
+En muskel kan have forskellig [muskelfibertypesammensætning]({% link _posts/2020-06-09-muskelfibertyper.md %}). Overordnet har vi de langsomme og udholdende type I fibre og de eksplosive type II fibre. Forskellige mennesker har forskellig sammensætning, så derfor har nogle mennesker en genetisk fordel. Desuden har musklens tværsnitsareal også betydning for potentialet til hurtig kraftudvikling.
+
+I nervesystemet har fyringsfrekvensen af signaler, hvor mange motoriske enheder man kan aktivere og hvor godt synkroniserede de enkelte motoriske enheder er.
+
+## Hvordan træner jeg Rate of Force Development?
+
+Når du vil træne RFD i styrketrænignen skal du fokusere på maksimal kraftudvikling i øvelserne. Du kan træne den RFD på flere forskellige måder.
+
+En typisk måde er er 2-4 sæt med 4-6 reps med en vægt, som ligger tæt på fx [one repetition maximum]({% link _posts/2019-10-16-1rm-beregner.md %}).
+
+[Aagaard et al (2002)](https://pubmed.ncbi.nlm.nih.gov/12235031/) undersøgte effekten af tung styrketræning med et 14 ugers træningsprogram med 38 træningssessioner. Testen blev lavet med en maksimal isometrisk kontraktion i quadriceps femoris.
+
+Træningen var et progressivt styrketræningsprogram relativt tunge vægte fra 3RM til 10RM, og i de sidste 4 uger brugte forskerne primært 4-6RM vægte. De brugte relativt enkle øvelser som hack squats, incline leg press, isolated knee extension,
+hamstring curls og seated calf raises.
+
+Denne måde at træne på øgede _rate of force development_ over de 14 ugers træningsprogram.
+
+{% include figure image_path="/assets/images/blog/aagaard-2002-rateofforcedevelopment.jpg" caption="Gennemsnitlig kurve over kraftudviklingen i forhold til tiden. De 14 ugers tunge styrketræningsprogram resulterede i en signifikant øgning i 'rate of force development', hvilket både blev observeret ved 30 ms, 50 ms og senere ved 100 og 200 ms. Kilde: [Aagaard et al (2002)](https://pubmed.ncbi.nlm.nih.gov/12235031/)." %}
+
+Hvis du gerne vil træne _rate of force development_ i styrketræning, så er det væsentligt at du har fokus på kraftudviklingen, og at du flytter stangen med maksimal intention. For virkelig at fokusere på kraftudviklingen, så kan det betale sig at tage færre reps og fokusere mere på hastigheden, du flytter stangen med.
+
+## Hvordan kan jeg teste Rate of Force Development?
+
+En meget brugt test er en IMTP-test på en kraftplatform. Du trækker i en stang, som er fastgjort, mens kraftplatformen måler den kraft du trækker med.
+
+## Hvad sker der med Rate of Force Development med alderen
+
+[Henning Langberg](http://www.henninglangberg.dk/styrketraening/eksplosiv-muskelstyrke-rfd/) skriver, at det er vanskeligere at træne RFD, når du bliver ældre. Det er imidlertid stadig virkelig vigtigt, at du kan udvikle kraft hurtigt for at undgå at falde og miste balancen. Derfor bør aldre også fokusere på at udvikle kraft hurtigt, når de træner styrketræning.
+
+*[RFD]: Rate of Force Development
