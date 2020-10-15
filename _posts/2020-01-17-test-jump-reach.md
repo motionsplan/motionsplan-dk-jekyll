@@ -54,6 +54,10 @@ Jump & Reach bruges bl.a. i NFL Combine. Denne version foregår uden tilløb, me
 
 Topendsports har samlet en række [hoppehøjder for forskellige personer](https://www.topendsports.com/testing/results/vertical-jump.htm), og de foreslår også [normer for hoppehøjden i Jump & Reach uden tilløb](https://www.topendsports.com/testing/norms/vertical-jump.htm).
 
+Zach LaVine springer her 116 cm i en etbenet jump & reach-test med tilløb.
+
+<iframe src="https://vine.co/v/MDmK2MaeV3P/embed/simple" width="600" height="600" frameborder="0"></iframe><script src="https://platform.vine.co/static/scripts/embed.js"></script>
+
 ## Hjælp med at forbedre artiklen om Jump & Reach
 
 Hvis du kender noget til Jump & Reach-testen og gerne vil hjælpe med at lave en god indføring i hoppetesten, så kontakt mig endelig.
