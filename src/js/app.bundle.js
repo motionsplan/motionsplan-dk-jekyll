@@ -1,7 +1,8 @@
-'use strict'
+'use strict';
 
 /* global $ */
 
+const jump_reach = require('./jumpreach');
 const tee_pal = require('./bmr-totalenergy-pal');
 const schofield = require('./bmr-schofield');
 const vmax_bike = require('./vmax');
@@ -315,6 +316,29 @@ $(document).ready(function() {
         $("#calories_running_kilometer").val(run.getCaloriesPrKilometer().toFixed(0));
         $("#ratio_kilometer").val(ratio_kilometer.toFixed(1));
         $("#ratio_minute").val(ratio_minute.toFixed(1));
+    });
+    $("#calculator_jump_reach_height").submit(function(e) {
+        console.log("Jump Reach test");
+        e.preventDefault();
+
+        let standing_height = Number($("[name='standing_height']").val());
+        let jumping_height = Number($("[name='jumping_height']").val());
+
+        $("[name='jump_reach_height_score']").val(jumping_height - standing_height);
+    });
+    $("#calculator_jump_reach_power").submit(function(e) {
+        console.log("Jump Reach test");
+        e.preventDefault();
+
+        let formula = $("[name='jump-reach-formula']").val();
+        let weight = Number($("[name='body_weight']").val());
+        let height = Number($("[name='height']").val());
+        let jump_reach_height_score = Number($("[name='jump_reach_height_score']").val());
+
+        var et = jump_reach.JumpReach(formula, jump_reach_height_score, weight, height);
+
+        $("[name='average_power']").val(et.getAveragePower());
+        $("[name='peak_power']").val(et.getPeakPower());
     });
     // Udregn 1punkttest
     $("#calculator_etpunkttest").submit(function(e) {

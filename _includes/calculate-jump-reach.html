@@ -1,0 +1,22 @@
+<form class="calculator" id="calculator_jump_reach_height">
+    <fieldset>
+        <legend>Udregning af hoppehøjde fra Jump and Reach-testen</legend>
+        <div class="form-group">
+            <label>Rækkehøjde (cm)
+                <input name="standing_height" type="number" min="150" max="200" placeholder="Rækkehøjde i cm" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Hoppehøjde (kg)
+                <input name="jumping_height" type="number" min="180" max="400" placeholder="Hoppehøjde i kg" step="0.1" required>
+            </label>
+        </div>
+        <input type="submit" value="Udregn">
+    </fieldset>
+    <fieldset class="results" disabled>
+        <legend>Jump and Reach score</legend>
+        <label>Hoppehøjde (cm)
+            <input disabled name="jump_reach_height_score" type="text">
+        </label>
+    </fieldset>
+</form>

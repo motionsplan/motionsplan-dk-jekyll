@@ -38,11 +38,21 @@ Du kan se instruktioner til Jump & Reach-testen i nedenstående video.
 
 {% include video provider="youtube" id="J8qxpUJdxjk" %}
 
-## Hvor bruges Jump & Reach
+## Udregn hoppehøjde
 
-Jump & Reach bruges bl.a. i NFL Combine.
+{% include calculate-jump-reach.html %}
+
+## Udregn power på baggrund af Jump & Reach
+
+{% include calculate-jump-reach-power.html %}
+
+## Hvor bruges Jump & Reach?
+
+Jump & Reach bruges bl.a. i NFL Combine. Denne version foregår uden tilløb, men med fuldt armtræk.
 
 {% include video provider="youtube" id="mKZCqWMQmVI" %}
+
+Topendsports har samlet en række [hoppehøjder for forskellige personer](https://www.topendsports.com/testing/results/vertical-jump.htm), og de foreslår også [normer for hoppehøjden i Jump & Reach uden tilløb](https://www.topendsports.com/testing/norms/vertical-jump.htm).
 
 ## Hjælp med at forbedre artiklen om Jump & Reach
 
