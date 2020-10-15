@@ -45,7 +45,7 @@ Når du køber bogen, får du også et **træningsprogram til styrkeløft** og a
 
 Stærk er en virkelig god bog til at blive klogere af, hvis du gerne vil blive stærk i de tre store løft fra styrkeløft.
 
-{% include feature_row type="left" %}
+{% include gallery id="feature_row" %}
 
 ## Video om Stærk
 
@@ -100,7 +100,7 @@ Når du har skimmet indholdsfortegnelsen til Beermanns Stærk, så får du forme
 
 Der er mange måder at blive stærk på. Jeg har beskrevet et eksempel på [Reactive Training Systems]({% link _posts/2019-10-24-rts-training-intermediate.md %}) og [Texas Method]({% link _posts/2019-10-24-texas-method.md %}), men der er virkelig mange programmer og forslag til at blive stærk.
 
-Jacob Beermann skruer frekvensen op ud fra **specificitetsprincippet**, fordi man bliver bedre til det man træner. Fokus er styrkeløft, og derfor giver det god mening. I Beermanns program træner man squat, bænkpres og dødløft hver gang med forskellige variationer. Programmet findes til 3, 4 eller 5 dage.
+Jacob Beermann skruer frekvensen op ud fra **specificitetsprincippet**, fordi man bliver bedre til det, man træner. Fokus er styrkeløft, og derfor giver det god mening at man hver dag træner de forskellige løft. I Beermanns program træner man squat, bænkpres og dødløft hver gang med forskellige variationer. Programmet findes til 3, 4 eller 5 dage.
 
 **Intensiteten** i programmet er imidlertid skruet lidt ned. Det er gjort bevidst af tre grunde:
 
@@ -158,6 +158,23 @@ Jeg har indtryk af, at mange undrer sig over, at du i uge 5, hvor du begynder at
 Beermanns pointe med det er netop, at man kan fokusere på perfekt teknik, og så længe du sørger for at _intended barspeed_ er høj, så kan du pga. den højfrekvente træning stadig have styrkefremgang, selvom du løfter under din maksimale styrke.
 
 Når du har kørt en cyklus, så kan du egentlig bare starte på programmet igen med nye 5RM-tests.
+
+### Øvelser i programmet
+
+I Stærk bruges naturligvis de tre store styrkeløft; squat, bænkpres og dødløft.
+
+Programmet udnytter [forskellige variationer af squat, bænkpres og dødløft]({% link _posts/2019-11-19-variationer.md %}).
+
+- Squat med tempo 505, hvor den [excentriske og koncentriske]({% link _posts/2020-08-11-excentrisk-koncentrisk.md %}) fase udføres meget langsomt med 5 sekunder.
+- Squat med stop, fx i bunden.
+- Front squat.
+- Bænkpres med smalt og medium greb.
+- Bænkpres med stop.
+- Bænkpres med langsom excentrisk fase.
+- Incline Bænkpres
+- Dødløft med bredt greb.
+- Dødløft på klods.
+- Stivbenet dødløft.
 
 ## Konklusion
 
