@@ -1,12 +1,12 @@
 ---
-title: "Udregn BMI: Komplet guide og beregner for voksne og børn"
+title: "Udregn BMI: Måler og beregner for kvinder, mænd og børn"
 permalink: /bmi/
-excerpt: "Body Mass Index (BMI) er den mest udbredte formel og test til at udregne om man er normalvægtig, undervægtig eller overvægtig. Beregn selv dit BMI i vores beregner og se skala og tabel for børn og voksne."
+excerpt: "Body Mass Index (BMI) er den mest udbredte formel og test til at udregne idealvægt. Beregn selv dit BMI i vores beregner og se skala og tabel for børn og voksne mænd og kvinder."
 language: da
 header:
   overlay_image: https://helseboost.dk/filer/bmi-1500x960.jpg
   teaser: https://helseboost.dk/filer/bmi-1500x960.jpg
-  caption: Udregn BMI med vores beregner, tabel og se formel
+  caption: Udregn BMI med vores beregner og BMI måler, tabel og se formel
 category:
   - Beregnere
   - Test
@@ -17,14 +17,14 @@ tags:
 last_modified_at: 2020-07-06T22:14:14Z
 ---
 
-Jeg sidder og læser et glitrende magasin om sport og helse, og endnu engang ser jeg udregninger om body mass index (BMI) uden at gå i dybden med, hvad det egentlig måler. Derfor satte jeg mig ned for at researche lidt på, hvad BMI er, og hvordan BMI kan bruges for os almindelige mennesker?
+Jeg sidder og læser et glitrende magasin om sport og helse, og endnu engang ser jeg udregninger af body mass index (BMI) uden at artiklen går i dybden med, hvad BMI måler. Derfor satte jeg mig ned for at researche lidt på, hvad BMI er, og hvordan BMI kan bruges for mænd, kvinder, voksne og børn?
 
 *[BMI]: Body Mass Index
 *[IOTF]: The International Obesity Task Force
 
 Hvad er BMI? **Body Mass Index (BMI) er en enkel matematisk formel for sammenhængen mellem personers højde og vægt. Formlen bruges til at vurdere undervægt, normalvægt og overvægt i større befolkningsgrupper, fordi BMI tilsyneladende har en sammenhæng med fedtprocenten. BMI bruges også ofte som test til at indikere under- og overvægt hos enkelte personer, men bør ikke bruges til præcise målinger hos individuelle.**
 
-Vi har lavet en beregner, hvor du få udregnet dit BMI baseret på den originale formel og få en vurdering med det samme. Ud fra beregningen kan du sammenligne dig med _det normale_ og få et bud på, hvad din idealvægt er. 
+Vi har lavet en beregner, hvor du udregne dit BMI baseret på den originale formel og få en vurdering af dit BMI. Ud fra beregningen kan du sammenligne dig med _det normale_ og få et bud på, hvad din idealvægt er.
 
 Fordelen ved BMI er, at det er utrolig let at bruge. Derfor bliver BMI-udregninger også brugt mange steder, men ofte uden nærmere forklaringer af, hvad BMI er. At bruge BMI på individuelt niveau er forbundet med en række forbehold, så husk at læse lidt videre.
 
@@ -32,10 +32,11 @@ Jeg har i dette indlæg forsøgt at svare på følgende spørgsmål:
 
 - Hvad er Body Mass Index (BMI) helt præcist?
 - Hvordan kan du beregne BMI? Hvilken formel bruges til BMI?
-- Hvilke grænseværdier er der for din idealvægt? Hvad er din ideelle kropsvægt ifølge BMI-udregningen?
+- Hvilke grænseværdier er der for idealvægt for voksne og børn og mænd og kvinder?
+- Hvad er din ideelle kropsvægt ifølge BMI-udregningen?
 - Hvilke fordele og ulemper er der ved at beregne BMI?
 
-Men først lad os springe til selve beregneren.
+Men lad os først springe til selve beregneren.
 
 ## Udregn dit BMI i vores enkle beregner
 
@@ -47,7 +48,7 @@ Beregneren udregner også det såkaldte Ponderal Index, som er en variant af BMI
 
 Først og fremmest skal du ikke være bekymret for hvad en tilfældig beregner på nettet kategoriserer dig som. Du kan have en sund kropskomposition selvom dit BMI er for lavt, normalt eller for højt i forhold til regningslinjerne og normerne for BMI.
 
-Du kan se tabellen for BMI længere nede på siden.
+Du kan se tabellen for BMI for mænd, kvinder og børn og voksne længere nede på siden.
 
 Men lad os først lige kigge på, hvad BMI er?
 
@@ -94,7 +95,7 @@ For voksne er de generelle kategorier for BMI for voksne (ældre end 18 år og i
 - BMI mellem 30-39.9 = fedme
 - BMI over 40 = svær fedme
 - 
-### Tabel: Normalværdier for Body Mass Index
+### Tabel: Normalværdier for Body Mass Index for mænd og kvinder
 
 Hvis vi sætter standarderne for BMI for voksne ind i en tabel, ser det sådan ud. Læg mærke til, at jeg i tabellen har ændret klassificeringen for undervægtige lidt, da det ser ud til at et BMI under 20 allerede er forbundet med sundhedsmæssige konsekvenser.
 
@@ -121,11 +122,11 @@ Hvis vi sætter standarderne for BMI for voksne ind i en tabel, ser det sådan u
 Hvis du er et barn eller ung under 18 år, så kig længere nede på siden for en retfærdig vurdering af dit BMI.
 {: .notice .notice--warning }
 
-{% include figure image_path="https://bgh.dk/wp-content/uploads/2018/11/det-betyder-bmi-tallene-847x1024.jpg" caption="Hvad er din BMI i forhold til normal?" alt="Tabel: Illustration af skala for hvad normal BMI er." %}
+{% include figure image_path="https://bgh.dk/wp-content/uploads/2018/11/det-betyder-bmi-tallene-847x1024.jpg" caption="Hvad er din BMI i forhold til normale BMI for mænd, kvinder, børn og voksne?" alt="Tabel: Illustration af skala for hvad normal BMI er for mænd, kvinder, børn og voksne." %}
 
 ## Hvad er det optimale og sunde BMI for mænd og kvinder?
 
-Når man kigger på en række forskellige studier i forhold til det optimale BMI i forhold til sundhedsfaktorer, så får man et lidt andet billede end standardtabellerne for BMI.
+Når man kigger på en række forskellige studier i forhold til det optimale BMI i forhold til sundhedsfaktorer, så får man et lidt andet billede end standardtabellerne for BMI. De fleste tabeller for BMI bruger de samme værdier for mænd og kvinder, men en del studier ser ud til at underbygge, at værdierne godt kunne være forskellige.
 
 I de studier hvor man kigger på forskellen mellem mænd og kvinder, så ligger BMI enten inden for samme optimale område, eller også ligger mændene 2-5 BMI-point højere (jf. [Morten Zacho](https://web.archive.org/web/20160808221414/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/beregn_din_idealvaegt/){:rel="nofollow"}).
 
@@ -206,7 +207,7 @@ Husk at BMI ikke tager højde for kropsbygning og muskelmasse. En vurdering af b
 
 Bemærk at ovenstående grafer er baseret på børn over hele verden. Som med BMI for voksne, så indrager tallene ikke dit barns bygning.
  
-## Kan BMI bruges som indikator på kropsfedt?
+## Kan en BMI-måler bruges som indikator på kropsfedt?
 
 Der er en høj sammenhæng mellem BMI og kropsfedt i større populationer. Men selvom to personer har samme BMI, så har de ikke nødvendigvis samme andel af kropsfedt.
 [Politiken](https://politiken.dk/forbrugogliv/sundhedogmotion/art5517450/Disse-tre-kvinder-har-lige-meget-fedt) skriver fx om tre kvinder med meget forskellig kropsbygning og BMI, men de har samme fedtprocent.
@@ -250,7 +251,7 @@ Forskere har samlet data ind fra mere end 100.000 voksne i Danmark, og deres kon
 
 Sundhed og helbred handler om så meget mere end under- og overvægt.
 
-## Test af BMI kan være misvisende   
+## Test af BMI og BMI skalaen kan være misvisende   
 
 Drop BMI og overvægt som indikator for, om din krop er sund eller ej. Måleenheden kan være direkte misvisende, viser amerikansk forskning fra University of California. Selv om du har et højt BMI, kan du sagtens være fuldstændig sund og rask!
 
@@ -264,7 +265,7 @@ Drop BMI og overvægt som indikator for, om din krop er sund eller ej. Måleenhe
 
 --- <cite>[iform.dk](https://iform.dk/sundhed/forebyggelse/bmi-siger-intet-om-din-sundhed)</cite>
 
-## BMI kan ikke stå alene
+## BMI-skalaen kan ikke stå alene
 
 - BMI er en metode, der gør det muligt for dig at udregne, om du er normal-, under- eller overvægtig ud fra din højde og kropsvægt.
 - Du kan sammenligne dig selv med nogle fastsatte standarder.
@@ -280,7 +281,10 @@ Endelig kan du dykke lidt ned i din samlede kropskomposition for at få en stør
 
 ## Referencer om BMI og Body Mass Index
 
-### Generelle referencer om BMI og tabel
+<details markdown="1">
+  <summary>Se alle referencerne om BMI</summary>
+
+### Generelle referencer om BMI, skala og tabel
 
 - Lee, C. D., A. S. Jackson, og S. N. Blair. 1998. “US Weight Guidelines: Is It Also Important to Consider Cardiorespiratory Fitness?” International Journal of Obesity and Related Metabolic Disorders: Journal of the International Association for the Study of Obesity 22 Suppl 2 (august): S2-7.
 - WHO Consultation on Obesity (1997: Geneva, Switzerland), World Health Organization Division of Noncommunicable Diseases, og Family and Reproductive Health World Health Organization. Programme of Nutrition. 1998. “Obesity: Preventing and Managing the Global Epidemic: Report of a WHO Consultation on Obesity, Geneva, 3-5 June 1997”. <https://apps.who.int/iris/handle/10665/63854>.
@@ -294,3 +298,4 @@ Endelig kan du dykke lidt ned i din samlede kropskomposition for at få en stør
 - Hammer, L. D., H. C. Kraemer, D. M. Wilson, P. L. Ritter, og S. M. Dornbusch. 1991. “Standardized Percentile Curves of Body-Mass Index for Children and Adolescents”. American Journal of Diseases of Children (1960) 145 (3): 259–63. <https://doi.org/10.1001/archpedi.1991.02160030027015>.
 - Pietrobelli, A., M. S. Faith, D. B. Allison, D. Gallagher, G. Chiumello, og S. B. Heymsfield. 1998. “Body Mass Index as a Measure of Adiposity among Children and Adolescents: A Validation Study”. The Journal of Pediatrics 132 (2): 204–10. <https://doi.org/10.1016/s0022-3476(98)70433-0>.
 - The Centers for Disease Control and Prevention (CDC). BMI - Body Mass Index: BMI for Children and Teens.
+</details>

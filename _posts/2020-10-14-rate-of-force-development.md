@@ -45,7 +45,7 @@ I nervesystemet har fyringsfrekvensen af signaler, hvor mange motoriske enheder 
 
 ## Hvordan træner jeg Rate of Force Development?
 
-Når du vil træne RFD i styrketrænignen skal du fokusere på maksimal kraftudvikling i øvelserne. Du kan træne den RFD på flere forskellige måder.
+Når du vil træne RFD i styrketræningen skal du fokusere på maksimal kraftudvikling i øvelserne. Du kan træne den RFD på flere forskellige måder.
 
 En typisk måde er er 2-4 sæt med 4-6 reps med en vægt, som ligger tæt på fx [one repetition maximum]({% link _posts/2019-10-16-1rm-beregner.md %}).
 
