@@ -5,7 +5,7 @@ language: da
 header:
   overlay_image: https://jacobbeermann.dk/wp-content/uploads/jacob_beermann-1.jpg
   teaser: https://jacobbeermann.dk/wp-content/uploads/jacob_beermann-1.jpg
-  title: *title
+  caption: *title
 tags:
   - anmeldelse
   - styrketræningsprogram
