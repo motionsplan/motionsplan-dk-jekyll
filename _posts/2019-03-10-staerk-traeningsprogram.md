@@ -35,7 +35,7 @@ gallery_content:
 
 Jacob Beermann har skrevet bogen "Stærk" som en introduktion til, hvordan du kan blive rigtig stærk. Beermann tager sit udgangspunkt i squat, bænkpres og dødløft, som er disciplinerne i styrkeløft. Bogen er en fremragende introduktion til styrketræning, og du får et 16 ugers gennemarbejdet træningsprogram og adgang til en eksklusiv Facebookgruppe med i købet.
 
-Jacob Beermann som også står bag [maxer.dk](https://wwww.maxer.dk/) har skrevet en rigtig god indføring styrketræning og [styrkeløft]({% link _posts/2019-11-19-regler-styrkeloft.md %}). Du får en rigtig grundig introduktion til, hvordan du kan bygge din styrketræning op, og du får en grundig indføring i de tekniske aspekter af squat, bænkpres og dødløft.
+Jacob Beermann som også står bag [maxer.dk](https://maxer.dk/) har skrevet en rigtig god indføring til styrketræning og [styrkeløft]({% link _posts/2019-11-19-regler-styrkeloft.md %}). Du får en rigtig grundig introduktion til, hvordan du kan bygge din styrketræning op, og du får en grundig indføring i de tekniske aspekter af squat, bænkpres og dødløft. Jacob Beermann driver også podcasten [Stærk & Smertefri, som du kan lytte til her](https://maxer.dk/staerk-smertefri/).
 
 {% include gallery caption="_No brain. No gain._ Dette slogan bruger Jacob Beermann ofte. Træningen bliver ikke bedre, fordi den er hårdere. Planlægning gør træningen smartere. Beermann sælger også budskabet på sine [t-shirts](https://shop.maxer.dk/products/no-brain-no-gain)." %}
 
@@ -178,7 +178,7 @@ Programmet udnytter [forskellige variationer af squat, bænkpres og dødløft]({
 
 ## Konklusion
 
-Jacob Beermann er en af de personlige trænere i Danmark, der er mest gavmild med sin viden. Beermann har bl.a. lavet [maxer.dk](https://www.maxer.dk), som jeg også nævner på listen over de [bedste danske blogs]({% link _posts/2020-07-31-bedste-danske-blogs.md %}), hvor han deler et væld af gratis indhold af virkelig høj kvalitet. Jeg fremhæver også Beermanns Stærk & Smertefri på listen over de [bedste danske podcasts]({% link _posts/2020-08-03-podcasts.md %}) og han har også en af de [bedste, følgeværdige Instagram-profiler]({% link _posts/2020-09-11-bedste-instagram.md %}).
+Jacob Beermann er en af de personlige trænere i Danmark, der er mest gavmild med sin viden. Beermann har bl.a. lavet [maxer.dk](https://maxer.dk), som jeg også nævner på listen over de [bedste danske blogs]({% link _posts/2020-07-31-bedste-danske-blogs.md %}), hvor han deler et væld af gratis indhold af virkelig høj kvalitet. Jeg fremhæver også Beermanns Stærk & Smertefri på listen over de [bedste danske podcasts]({% link _posts/2020-08-03-podcasts.md %}) og han har også en af de [bedste, følgeværdige Instagram-profiler]({% link _posts/2020-09-11-bedste-instagram.md %}).
 
 ## Køb Stærk
 
