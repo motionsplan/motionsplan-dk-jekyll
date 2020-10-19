@@ -45,13 +45,11 @@ Led kan opdeles i ægte led og uægte led og forskellige ledtyper: ægled, sadde
 
 Hvad er et led? **Et led er der hvor to eller flere knogler støder sammen til en forbindelse uanset om, der kan være bevægelse eller ej i leddet. Et leddet holdes knoglerne sammen af en ledkapsel, der er forstærket af ledbånd.**
 
-Du kan læse mere om [led og ledtyper i Morten Zachos beskrivelse](http://web.archive.org/web/20090130044627/http://www.motion-online.dk/styrketraening/anatomiguide/led_generelt/){:rel="nofollow"}.
-
 {% comment %}
 
 I forbindelse med idræt er vi hovedsageligt interesseret i de led, der kan bevæge sig. Mennesket kan bevæge sig på mange forskellige måder, og derfor er der også flere forskellige typer led.
 
-Overordnet kan led opdeles i ægte og uægte led.
+Der er mange forskellige ledtyper i kroppen. Led kan overordnet set opdeles i ægte og uægte led.
 
 Uægte led (ledbånd og symfyser)
 : Uægte led er led uden ledhule. I uægte led kan der kun forekomme små bevægelsesudslag. De uægte led kan noget forenklet opdeles i ledbånd og symfyser.
@@ -84,11 +82,13 @@ Kroppens led kan inddeles i seks mekaniske typer led. Formen på leddene er det,
 
 {% include figure image_path="https://s3-us-west-2.amazonaws.com/courses-images/wp-content/uploads/sites/1223/2017/02/08001845/Figure_38_03_04-883x1024.jpg" alt="Skelettet, led og ledtyper: Ægled, drejeled, hængselsled, kugleled, glideled, saddelled" caption="Ledtyper: Ægled, drejeled, hængselsled, kugleled, glideled, saddelled" %}
 
-{% comment %}
-
 ## Uægte led
 
-Uægte led er led uden ledhule. I uægte led kan der kun forekomme små bevægelsesudslag. De uægte led kan noget forenklet opdeles i ledbånd og symfyser.
+Et uægte led er et led uden ledhule og synovialmembran. I de fleste uægte led er bevægelsesmulighederne små, og i nogle praktisk talt nul, alligevel taler vi om led, fordi det drejer sig om selvstændige forbindelser mellem to eller flere knogler.
+
+{% comment %}
+
+De uægte led kan noget forenklet opdeles i ledbånd og symfyser.
 
 ### Ledbånd
 
@@ -134,3 +134,4 @@ Bevægelser kan foregå i tre forskellige planer.
 - **[{{ j.title }}]({{ j.url }})**. {{ j.excerpt | strip_html | markdownify }}
 {% endfor %}
 
+Du kan læse mere om [led og ledtyper i Morten Zachos beskrivelse](http://web.archive.org/web/20090130044627/http://www.motion-online.dk/styrketraening/anatomiguide/led_generelt/){:rel="nofollow"}.
