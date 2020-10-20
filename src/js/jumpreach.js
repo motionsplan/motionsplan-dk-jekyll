@@ -3,6 +3,7 @@ let motionsplan = {};
 motionsplan.JumpReach = function(formula = "harman", jump_height, body_mass, height = 0) {
   height = height;
   body_mass = body_mass;
+  jump_height = jump_height;
   var average_power = "n/a";
   var peak_power = "n/a";
   var papw = "n/a";

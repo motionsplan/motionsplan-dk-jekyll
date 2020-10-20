@@ -673,7 +673,7 @@ $(document).ready(function() {
 
         let formula = $("[name='jump-reach-formula']").val();
         let weight = Number($("[name='body_weight']").val());
-        let height = Number($("[name='body_height']").val());
+        let height = Number($("[name='height']").val());
         let jump_reach_height_score = Number($("[name='jump_reach_height_score']").val());
 
         var et = jump_reach.JumpReach(formula, jump_reach_height_score, weight, height);
@@ -2921,6 +2921,7 @@ let motionsplan = {};
 motionsplan.JumpReach = function(formula = "harman", jump_height, body_mass, height = 0) {
   height = height;
   body_mass = body_mass;
+  jump_height = jump_height;
   var average_power = "n/a";
   var peak_power = "n/a";
   var papw = "n/a";
