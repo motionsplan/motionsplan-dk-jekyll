@@ -331,11 +331,13 @@ $(document).ready(function() {
         e.preventDefault();
 
         let formula = $("[name='jump-reach-formula']").val();
-        let weight = Number($("[name='body_weight']").val());
-        let height = Number($("[name='body_height']").val());
-        let jump_reach_height_score = Number($("[name='jump_reach_height_score']").val());
+        let body_weight = Number($("[name='body_weight']").val());
+        let body_height = Number($("[name='body_height']").val());
+        let jump_reach_height_score = Number($("#jump_reach_height_score").val());
 
-        var et = jump_reach.JumpReach(formula, jump_reach_height_score, weight, height);
+        console.log(formula + ' ' + body_weight + ' ' + body_height + ' ' + jump_reach_height_score);
+
+        let et = jump_reach.JumpReach(formula, jump_reach_height_score, body_weight, body_height);
 
         $("[name='average_power']").val(et.getAveragePower());
         $("[name='peak_power']").val(et.getPeakPower());

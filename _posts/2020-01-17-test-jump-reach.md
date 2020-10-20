@@ -46,6 +46,52 @@ Du kan se instruktioner til Jump & Reach-testen i nedenstående video.
 
 {% include calculate-jump-reach-power.html %}
 
+## Formler brugt til at udregne power?
+
+Du kan finde formlerne til at udregne power fra hoppehøjder hos []() og i [Sayers et al (1999)](https://journals.lww.com/acsm-msse/Fulltext/1999/04000/Cross_validation_of_three_jump_power_equations.13.aspx).
+
+<details markdown="1">
+  <summary>Se Lewis (1974) formler</summary>
+
+{% include math formula="Power (kg*m*^-1 = \sqrt{4.9} * body mass (kg) * \sqrt{jump-and-reach score (m)}" %}
+
+For at få værdien i watt, så skal Power ganges med 9,81, som er tyngdekraften.
+
+[Sayers et al (1999)](https://journals.lww.com/acsm-msse/Fulltext/1999/04000/Cross_validation_of_three_jump_power_equations.13.aspx) fandet at Peak Power blev underestimeret med 6,7-9,9% alt efter om de brugte data fra et CMJ eller et SJ-jump.
+</details>
+
+<details markdown="1">
+  <summary>Se Harman (1991) formler</summary>
+
+Peak Power (W) = 61.9 * jump height (cm) + 36 * body mass (kg) - 1822
+
+I den oprindelige reference står der **+ 1822**, en i [Sayers et al (1999)](https://journals.lww.com/acsm-msse/Fulltext/1999/04000/Cross_validation_of_three_jump_power_equations.13.aspx) hvor Harman er co-author, står formlen opgivet til **- 1822**, hvilket får værdierne til at passe meget bedre med de andre formler.
+
+[Sayers et al (1999)](https://journals.lww.com/acsm-msse/Fulltext/1999/04000/Cross_validation_of_three_jump_power_equations.13.aspx) fandet at Peak Power blev underestimeret med 6,7-9,9% alt efter om de brugte data fra et CMJ eller et SJ-jump.
+</details>
+
+<details markdown="1">
+  <summary>Se Johnson & Bahmamonde formler</summary>
+
+Peak Power = 78.6 * jump_height + 60.3 * body_mass - 15.3 * height - 1308
+
+Johnson og Bahamonde inkluderer deltagernes højde i formularerne.
+</details>
+
+<details markdown="1">
+  <summary>Se Sayers et al (1999) formler</summary>
+
+[Sayers et al (1999)](https://journals.lww.com/acsm-msse/Fulltext/1999/04000/Cross_validation_of_three_jump_power_equations.13.aspx) gennemgik formlerne fra Lewis (1974) og Harman (1991). 
+
+Ved brug af data fra SJ.
+
+Peak Power = 60.7 * jump_height + 45.3 * body_mass - 2055;
+
+Ved brug fra CMJ.
+
+Peak Power = 51.9 * jump_height + 48.9 * body_mass - 2007;
+</details>
+
 ## Hvor bruges Jump & Reach?
 
 Jump & Reach bruges bl.a. i NFL Combine. Denne version foregår uden tilløb, men med fuldt armtræk.
