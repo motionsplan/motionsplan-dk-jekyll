@@ -48,7 +48,11 @@ Du kan se instruktioner til Jump & Reach-testen i nedenstående video.
 
 ## Formler brugt til at udregne power?
 
-Du kan finde formlerne til at udregne power fra hoppehøjder hos []() og i [Sayers et al (1999)](https://journals.lww.com/acsm-msse/Fulltext/1999/04000/Cross_validation_of_three_jump_power_equations.13.aspx).
+Du kan finde formlerne til at udregne power fra hoppehøjder hos [www.topendsports.com](https://www.topendsports.com/testing/vertical-jump-power.htm) og i [Sayers et al (1999)](https://journals.lww.com/acsm-msse/Fulltext/1999/04000/Cross_validation_of_three_jump_power_equations.13.aspx).
+
+Formlerne er så vidt jeg kan se primært skabt på baggrund af hhv. [squat jumps og countermovement jumps]({% link _posts/2020-01-17-test-jump-cmj.md %}), men de bruges også jævnligt i forbindelse med Jump and Reach-testen.
+
+Den mest brugte formel ser ud til at være Harman (1991), men den nyere formel fra [Sayers et al (1999)](https://journals.lww.com/acsm-msse/Fulltext/1999/04000/Cross_validation_of_three_jump_power_equations.13.aspx), hvor de sammenlignede Lewis (1974), Harman (1991) og lavede deres egne formler fandt de, at **[Sayers et al (1999)](https://journals.lww.com/acsm-msse/Fulltext/1999/04000/Cross_validation_of_three_jump_power_equations.13.aspx) egne formler var de mest præcise til at estimere _peak power_**.
 
 <details markdown="1">
   <summary>Se Lewis (1974) formler</summary>
@@ -81,7 +85,9 @@ Johnson og Bahamonde inkluderer deltagernes højde i formularerne.
 <details markdown="1">
   <summary>Se Sayers et al (1999) formler</summary>
 
-[Sayers et al (1999)](https://journals.lww.com/acsm-msse/Fulltext/1999/04000/Cross_validation_of_three_jump_power_equations.13.aspx) gennemgik formlerne fra Lewis (1974) og Harman (1991). 
+[Sayers et al (1999)](https://journals.lww.com/acsm-msse/Fulltext/1999/04000/Cross_validation_of_three_jump_power_equations.13.aspx) gennemgik formlerne fra Lewis (1974) og Harman (1991).
+
+I studiet fandt de ud af, at man med fordel kan bruge to forskellige formler alt efter om man laver et Squat Jump eller et Counter Movement Jump.
 
 Ved brug af data fra SJ.
 
@@ -120,4 +126,11 @@ Foreløbig kan du læse mere om [spring, at hoppe højere og eksplosivitet her](
 
 ## Referencer
 
+<details markdown="1">
+  <summary>Se referencer til Jump and Reach-testen</summary>
+
 - [Vertec Jump Test](https://www.scienceforsport.com/vertec-jump-test/)
+- Harman, Everett, Michael Rosenstein, Peter Frykman, Richard Rosenstein, og William Kraemer. 1991. “Estimation of Human Power Output from Vertical Jump”. Journal of Strength and Conditioning Research 5 (3): 116–20.
+- Johnson, Doug, og Rafael Bahamonde. 1996. “Power Output Estimate in University Athletes”. Journal of Strength and Conditioning Research 10 (3): 161–66.
+- Sayers, S. P., D. V. Harackiewicz, E. A. Harman, P. N. Frykman, og M. T. Rosenstein. 1999. “Cross-Validation of Three Jump Power Equations”. Medicine and Science in Sports and Exercise 31 (4): 572–77. https://doi.org/10.1097/00005768-199904000-00013.
+</details>
