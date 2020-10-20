@@ -332,7 +332,7 @@ $(document).ready(function() {
 
         let formula = $("[name='jump-reach-formula']").val();
         let weight = Number($("[name='body_weight']").val());
-        let height = Number($("[name='height']").val());
+        let height = Number($("[name='body_height']").val());
         let jump_reach_height_score = Number($("[name='jump_reach_height_score']").val());
 
         var et = jump_reach.JumpReach(formula, jump_reach_height_score, weight, height);
