@@ -76,7 +76,7 @@ Du kan lære lidt mere om reliabilitet og validitet i denne video. Videoen forkl
 
 **Korrelation** betyder, at der er en sammenhæng mellem ændringerne i to størrelser, men det kan være helt tilfældigt.
 
-**Kausalitet** betyder, at der er en årsagssammenhæng. Det betyder at en ting påvirker en anden ting..
+**Kausalitet** betyder, at der er en årsagssammenhæng. Det betyder at en ting påvirker en anden ting.
 
 Hvis ikke man kan skelne mellem korrelation og kausalitet, kan man hurtigt få fejltolket en statistik:
 
