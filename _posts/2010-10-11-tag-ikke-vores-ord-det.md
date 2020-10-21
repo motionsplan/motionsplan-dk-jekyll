@@ -64,6 +64,10 @@ Kausal sammenhæng?
 
 Hvilke kriterier kigger I efter, når I forsøger at tilegne jer viden?
 
+## Videnskabelige evidenshierarki
+
+{% include figure image_path="https://www.researchgate.net/profile/Eric_Bass/publication/257072438/figure/fig1/AS:601614754791432@1520447543566/Evidence-based-medicine-pyramid-The-levels-of-evidence-are-appropriately-represented-by.png" caption="Evidenspyramiden. Kilde: [Golden og Bass (2013)](https://www.researchgate.net/publication/257072438_Validity_of_Meta-analysis_in_Diabetes_Meta-analysis_Is_an_Indispensable_Tool_in_Evidence_Synthesis)." %}
+
 ## Hvad er reliabilitet og validitet?
 
 {% include figure image_path="https://analyseskolen.dk/wp-content/uploads/2019/11/reliabilitet-validitet.jpg" caption="Validitet og reliabilitet. Kilde: [analyseskolen.dk](https://analyseskolen.dk/validitet-og-reliabilitet/)" %}

@@ -1,5 +1,5 @@
 ---
-title: &title "Mål hvor højt du springer med counter movement jump og squat jump"
+title: &title "Mål springhøjde og hoppehøjde med counter movement jump og squat jump"
 permalink: /countermovement-jump-cmj-squat-jump-sj/
 language: da
 header:
