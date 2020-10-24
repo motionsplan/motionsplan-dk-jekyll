@@ -640,17 +640,18 @@ $(document).ready(function() {
         console.log("Calculate Walktest 6 min");
         e.preventDefault();
 
-        var meter = Number($("[name='meter']").val());
-        var sex = Number($("[name='gender']").val());
-        var age = Number($("[name='age']").val());
-        var height = Number($("[name='height']").val());
-        var weight = Number($("[name='weight']").val());
-        var repeated = $("#formula").val();
+        let meter = Number($("[name='meter']").val());
+        let sex = Number($("[name='gender']").val());
+        let age = Number($("[name='age']").val());
+        let height = Number($("[name='height']").val());
+        let weight = Number($("[name='weight']").val());
+        let repeated = $("#formula").val();
         
-        var hr = walktest_sixminutes.SixMinutesWalkingTest(sex, age, height, weight, meter);
+        let hr = walktest_sixminutes.SixMinutesWalkingTest(sex, age, height, weight, meter);
 
         $("[name='reference_distance']").val(hr.getReferenceMeter(repeated));
-        $("[name='procent']").val(hr.getPercent(repeated));
+        $("[name='procent']").val(hr.getPercent(repeated).toFixed(0));
+        $("#walktest_gauge").val(hr.getPercent(repeated));
     });
     // Calculate Walktest 1.6 km
     $("#calculator_walktest_16km").submit(function(e) {

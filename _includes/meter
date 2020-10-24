@@ -1,0 +1,18 @@
+{% assign min = include.min %}
+{% assign max = include.max %}
+{% assign low = include.low %}
+{% assign high = include.high %}
+{% assign optimum = include.optimum %}
+{% assign id = include.id %}
+{% assign scale = include.scale | split: ", " %}
+{% assign title = include.title %}
+{% assign label = include.label %}
+
+<label>{{ label }}
+  <meter min="{{ min }}" max="{{ max }}" low="{{ low }}" high="{{ high }}" optimum="{{ optimum }}" id="{{ id }}" title="{{ title }}"></meter>
+</label>
+<ul class="scale">
+  {% for s in scale %}
+    <li class="scale"><span class="scale">{{ s }}</span></li>
+  {% endfor %}
+</ul>

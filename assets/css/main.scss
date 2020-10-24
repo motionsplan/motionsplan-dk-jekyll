@@ -95,6 +95,41 @@ form.calculator {
     }
 }
 
+meter {
+    width: 100%;
+}
+
+meter::-webkit-meter-bar {
+  height: 25px;
+  background: none;
+  background-color: whitesmoke;
+  box-shadow: 0 5px 5px -5px #333 inset;
+  margin-bottom: 10px;
+}
+
+.scale {
+  display: flex;
+  width: 100%;
+  padding: 0px;
+  justify-content: space-between;
+  list-style: none;
+}
+
+meter::-webkit-meter-optimum-value {
+  background-image: -webkit-linear-gradient(/*90deg, 
+            #8bcf69 20%, 
+            #e6d450 20%,
+            #e6d450 40%,
+            #f28f68 40%,
+            #f28f68 60%,
+            #cf82bf 60%,
+            #cf82bf 80%,
+            #719fd1 80%,
+            #719fd1 100%*/
+  );
+  transition: width 1s;
+}
+
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
   font-family: $calisto;
