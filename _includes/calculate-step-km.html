@@ -1,0 +1,22 @@
+<form class="calculator" id="calculator_step_to_km">
+    <fieldset>
+        <legend>Omregning af skridt til kilometer (km) for gang</legend>
+        <div class="form-group">
+            <label>Antal skridt
+                <input name="steps" id="steps" type="number" min="1" placeholder="Antal skridt" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Skridtlængde (cm)
+                <input name="step_to_km_step_length" id="step_to_km_step_length" type="number" min="40" max="272" placeholder="Skridtlængde i cm" value="79" required>
+            </label>
+        </div>
+        <input type="submit" value="Udregn">
+    </fieldset>
+    <fieldset class="results" disabled>
+        <legend>Skridt til kilometer</legend>
+        <label>Antal kilometer
+            <input name="step_to_km_km" id="step_to_km_km" type="text" disabled>
+        </label>
+    </fieldset>
+</form>

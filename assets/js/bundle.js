@@ -412,6 +412,15 @@ $(document).ready(function() {
         });
     });
 
+    $("#step_length").change(function() {
+        console.log('Ready to calculate');
+        $("table#steps_to_km > tbody > tr").each(function(i, obj) {
+            var steps = $(this).find('td:first').html();
+            var km = steps * ($("#step_length").val()) / 1000 / 100;
+            $(this).find('td').eq(1).html(km.toFixed(2));
+        });
+    });
+
     $("#form-formula").ready(function() {
         $(".reynolds").hide();
         $(".navy-hip").hide();
@@ -599,6 +608,16 @@ $(document).ready(function() {
 
         var fp = fp_navy.CalculateFatPercentNavy(sex, height, waist, neck, hip);
         $("#fat_percent_navy").val(fp.getFatPercent());
+    });
+    $("#calculator_step_to_km").submit(function(e) {
+        console.log("Steps to km");
+        e.preventDefault();
+
+        let steps = Number($("[name='steps']").val());
+        let step_length = Number($("[name='step_to_km_step_length']").val());
+
+        let km = steps * step_length / 100000;
+        $("#step_to_km_km").val(km);
     });
     // Udregn Billat
     $("#calculator_billat").submit(function(e) {
