@@ -1,5 +1,5 @@
 ---
-title: &title "Kalorietabel for grønstager: Tabel med kalorier for grøntsager 🥦"
+title: &title "Kalorietabel for grønstager: Tabel med kalorier i grøntsager 🥦"
 permalink: /kalorietabel-groentsager/
 last_modified_at: 2020-07-29T09:41:09Z
 language: da

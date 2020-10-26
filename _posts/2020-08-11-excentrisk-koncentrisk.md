@@ -13,6 +13,8 @@ category:
 tags:
   - bevægelsesanalyse
   - anatomi
+sidebar:
+  nav: anatomi
 ---
 
 Forskellen på excentrisk, koncentrisk og isometrisk muskelkontraktion forvirrer ofte, når vi laver bevægelsesanalyser. Derfor kigger jeg lidt i det følgende på, hvad de forskellige typer kontraktioner og bevægelser er.

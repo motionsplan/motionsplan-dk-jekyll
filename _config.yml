@@ -288,15 +288,18 @@ collections:
   anatomy:
     output: true
     permalink: /:path/
-  presentations:
+  pages:
     output: true
-    permalink: /p/:path/
+    permalink: /:path/
   exercises:
     output: true
     permalink: /oevelse/:path/
   programs:
     output: true
     permalink: /program/:path/
+  presentations:
+    output: true
+    permalink: /p/:path/
   redirects:
     output: true
     permalink: /go/:path/
@@ -318,6 +321,17 @@ defaults:
       toc: true
       toc_sticky: true
       author: lsolesen
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      comments: true
+      share: true
+      related: true
+      search: true
   # _exercises
   - scope:
       path: ""

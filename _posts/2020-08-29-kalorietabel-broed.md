@@ -1,5 +1,5 @@
 ---
-title: &title "Kalorietabel for brød: Tabel med kalorier for brød 🍞"
+title: &title "Kalorietabel for brød: Tabel med kalorier i brød 🍞"
 permalink: /kalorietabel-broed/
 last_modified_at: 2020-07-29T09:41:09Z
 language: da

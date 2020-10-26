@@ -1,12 +1,12 @@
 ---
-title: "Muskelfibre: Hvilke muskelfibertyper har mennesket?"
+title: "Muskelfibertyper: Røde og hvide muskelfibre. Type I, IIa, IIx"
 permalink: /muskelfibertyper/
 language: da
 header:
   overlay_image: https://upload.wikimedia.org/wikipedia/commons/7/71/Muscle_Tissue_Skeletal_Muscle_Fibers_%2828089113308%29.jpg
   teaser: https://upload.wikimedia.org/wikipedia/commons/7/71/Muscle_Tissue_Skeletal_Muscle_Fibers_%2828089113308%29.jpg
   overlay_filter: 0.4
-  caption: "Muskelfibre: Hurtige og langsomme muskelfibertyper. Billede Wikipedia"
+  caption: "Muskelfibertyper: Langsomme og hurtige muskelfibre. Røde og hvide muskelfibre. Type I, IIa, IIx. Billede fra Wikipedia."
 category:
   - Viden om
 tags:
@@ -21,9 +21,9 @@ gallery:
     alt: "Type I: Langsom, rød muskelfiber og Type II: Hurtig, hvid muskelfiber"
 ---
 
-Jeg har researchet lidt på, hvilke forskellige slags muskelfibre vi mennesker har, og hvad forskellene på de forskellige muskelfibertyper er.
+Hvilke typer muskelfibre har mennesker? Hvad er forskellene på de hurtige og langsomme muskelfibertyper? Hvorfor kaldes det hvide og røde muskelfibre?
 
-Hvilke muskelfibertyper har mennesket? **I menneskets skeletmuskler findes der generelt tre forskellige muskelfibertyper: I, IIA og IIX. Fibertyperne har forskellige egenskaber mht. sammentrækningsevne og energistofskifte. Muskelfibertyperne kaldes ofte _slow twitch_ og _fast twist_, røde eller hvide fibre eller langsomme og hurtige muskelfibre.**
+Hvilke muskelfibertyper har mennesket? **I menneskets skeletmuskler findes der generelt tre forskellige muskelfibertyper: type I, IIA og IIX. Fibertyperne har forskellige egenskaber mht. sammentrækningsevne og energistofskifte. Muskelfibertyperne kaldes ofte _slow twitch_ og _fast twist_ fibre eller røde og hvide muskelfibre eller langsomme og hurtige muskelfibre.**
 
 I vores skeletmuskler findes der forskellige slags muskelfibre, og muskelfibertyperne har en væsentlig betydning for vores præstationsevne . Fordelingen af muskelfibre er primært genetisk bestemt, men træning kan i nogen grad ændre på forholdet mellem fibertyperne.
 
@@ -41,23 +41,23 @@ De fleste mennesker har 40-70 % røde muskelfibre, mens resten er type IIa og II
 
 ## Type I --- langsomme oxidative muskelfibre
 
-Type I fibre kaldes også _slow-twitch_ eller langsomme oxidative fibre. Fibertypen indeholder store mængder myoglobin, som binder ilten, mange mitokondrier og mange kapillærer. Derfor er type I fibre er rødlige.
+Type I fibre kaldes også _slow-twitch_ eller langsomme oxidative fibre. Fibertypen indeholder store mængder myoglobin, som binder ilten, mange mitokondrier og mange kapillærer. Derfor er type I fibre er rødlige, og de kaldes også ofte røde muskelfibre.
 
 Disse karakteristika gør også, at fibrene kan skabe energi gennem de iltholdige processer i lang tid og fibertypen er resistent over for træthed. Til gengæld er processen med at skabe ATP langsommere end type II fibrene, og fibrene kan trække sig langsommere sammen.
 
-## Type IIA --- hurtige oxidative muskelfibre
+## Type IIa --- hurtige oxidative muskelfibre
 
-Type II A fibrene kaldes også _fast twitch_ og er hurtige fibre, der stadig har oxidative kvaliteter. Type II A fibre har en del myoglobin, mitokondrier og kapillærer.
+Type II A fibrene kaldes også _fast twitch_ og er hurtige fibre, der stadig har oxidative kvaliteter. Type IIa muskelfibre har en del myoglobin, mitokondrier og kapillærer. Type IIa fibre er hvidere end type I-muskelfibre. Derfor kaldes type IIa også ofte hvide muskelfibre.
 
-Type II A fibre er også rødlige, har en høj kapacitet for at generere ATP gennem oxidative processer, hvor ATP skabes relativt hurtigt. Type II A trækker sig hurtigt sammen, og de re relativt resistente til træthed.
+Type II A fibre er også rødlige, har en høj kapacitet for at generere ATP gennem oxidative processer, hvor ATP skabes relativt hurtigt. Type IIa trækker sig hurtigt sammen, og de re relativt resistente til træthed.
 
-## Type IIX --- hurtige glykolytiske fibre  
+## Type IIX --- hurtige glykolytiske muskelfibre  
 
-Type IIX (er også tidligere blevet kaldt type IIB) kaldes også _fast twitch_ eller hurtige glykolytiske fibre. De har ikke så meget myoglobin, relativt få mitokondrier og relativt få kapillærer. Til gengæld har fibrene relativt stor mængder glykogen.
+Type IIX (er også tidligere blevet kaldt type IIB) kaldes også _fast twitch_ eller hurtige glykolytiske fibre. De har ikke så meget myoglobin, relativt få mitokondrier og relativt få kapillærer. Til gengæld har type IIx muskelfibrene relativt stor mængder glykogen.
 
 Type IIX fibrene er hvidlige og eksperter i at skabe ATP gennem hurtige anaerobe processer, og muskelfibrene kan trække sig sammen hurtigt. Til gengæld er type IIX fibre ikke så udholdende.
 
-{% include figure image_path="https://www.freelapusa.com/wp-content/uploads/2014/03/muscle-fiber-type.jpg" caption="Muskelfibertypesammensætning og idrætsgrene - [via](https://www.freelapusa.com/steve-magness-on-muscle-fiber-types-tension-tone-and-blood-testing/)" alt="Muskelfibre - og muskelfibertyper i forhold til idrætsgrene" %}
+{% include figure image_path="https://www.freelapusa.com/wp-content/uploads/2014/03/muscle-fiber-type.jpg" caption="Muskelfibertypesammensætning mellem røde og hvide muskelfibre og idrætsgrene. Kilde: [www.freelapusa.com](https://www.freelapusa.com/steve-magness-on-muscle-fiber-types-tension-tone-and-blood-testing/)" alt="Muskelfibre - og muskelfibertyper i forhold til idrætsgrene" %}
 
 ## Karakteristika for muskelfibertyperne
 
@@ -128,9 +128,13 @@ Den mest sikre måde at finde ud af, hvordan ens muskelfibertypesammensætning e
 
 ## Referencer muskelfibre og muskelfibertyper
 
+<details markdown="1">
+  <summary>Se referencer om muskelfibertyper</summary>
+
 - Andersen, J. L., og P. Aagaard. 2000. “Myosin Heavy Chain IIX Overshoot in Human Skeletal Muscle”. _Muscle & Nerve_ 23 (7): 1095–1104. <https://pubmed.ncbi.nlm.nih.gov/10883005/>.
 - Baldwin, K. M., A. M. Hooker, og R. E. Herrick. 1978. “Lactate Oxidative Capacity in Different Types of Muscle”. _Biochemical and Biophysical Research Communications_ 83 (1): 151–57. [https://doi.org/10.1016/0006-291X(78)90410-2](https://doi.org/10.1016/0006-291X(78)90410-2).
 - Bass, A., D. Brdiczka, P. Eyer, S. Hofer, og D. Pette. 1969. “Metabolic Differentiation of Distinct Muscle Types at the Level of Enzymatic Organization”. _European Journal of Biochemistry_ 10 (2): 198–206. [https://doi.org/10.1111/j.1432-1033.1969.tb00674.x](https://doi.org/10.1111/j.1432-1033.1969.tb00674.x).
 - Kelly, Frank J., og David F. Goldspink. 1982. “The differing responses of four muscle types to dexamethasone treatment in the rat”. _Biochemical Journal_ 208 (1): 147–51.
 - Langevin, Helene M., og Peter A. Huijing. 2009. “Communicating About Fascia: History, Pitfalls, and Recommendations”. _International Journal of Therapeutic Massage & Bodywork_ 2 (4): 3–8.
 - Aagaard, P., og J. L. Andersen. 1998. “Correlation between Contractile Strength and Myosin Heavy Chain Isoform Composition in Human Skeletal Muscle”. _Medicine and Science in Sports and Exercise_ 30 (8): 1217–22. [https://doi.org/10.1097/00005768-199808000-00006](https://doi.org/10.1097/00005768-199808000-00006).
+</summary>

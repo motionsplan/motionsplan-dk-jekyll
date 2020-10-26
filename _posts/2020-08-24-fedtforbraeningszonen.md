@@ -1,6 +1,8 @@
 ---
 title: &title "Fedtforbrændingszonen: Alt du behøver at vide [2020] 🔥"
-permalink: /fedtforbraeningszonen/
+permalink: /fedtforbraendingszonen/
+redirect_from:
+  - /fedtforbraeningszonen/
 last_modified_at: 2020-08-24T09:41:09Z
 language: da
 header:
@@ -63,7 +65,7 @@ Når du begynder at træne hårdere, så kommer energien i forbrændingen i høj
 
 Det er relativt let ud fra den [respiratoriske udvekslingskvotient]({% link _posts/2020-08-08-respiratoriske-kvotient.md %}) at finde den relative andel fedt og kulhydrat, men når man oprindeligt talte om en fedtforbrændingszone var rationalet nok, at der var en særlig intensitet, hvor fedtforbrændingen var maksimeret. Et fedtet _sweet spot_.
 
-## Skal vi "glemme" fedtforbrændingszonen
+## Skal vi "glemme" fedtforbrændingszonen?
 
 Morten Zacho var den første jeg læste, der skrev [glem fedtforbrændingszonen](http://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel="nofollow"}. Morten Zacho skrev om fedtforbrændingszonen i forhold vægttab, og han skriver, at mange andre træningsfysiologiske aspekter er er langt vigtigere at tænke på i forhold til vægttab.
 
@@ -97,7 +99,7 @@ Jeg har i et andet indlæg diskuteret [om kontinuerlig træning eller intervaltr
 
 Men hvis du ser på andre sundhedseffekter, fx forbedring af slagvolumen og at træne fedtforbrændingen og den [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}), så kan det være en anden sag.
 
-## Fedtforbrændingzonen findes
+## Fedtforbrændingzonen findes!
 
 Det kan godt være, at vi skal glemme fedtforbrændingszonen i forbindelse med vægttab. 
 
@@ -117,8 +119,12 @@ Men det har stor værdi at træne i at blive bedre til at forbrænde fedt. Hvis 
 
 ## Referencer om fedtforbrændingzonen
 
+<details markdown="1">
+  <summary>Se referencerne om fedtforbrændingszonen</summary>
+
 - Bryner, R. W., R. C. Toffle, I. H. Ullrich, og R. A. Yeater. 1997. “The Effects of Exercise Intensity on Body Composition, Weight Loss, and Dietary Composition in Women”. _Journal of the American College of Nutrition_ 16 (1): 68–73. [https://doi.org/10.1080/07315724.1997.10718651](https://doi.org/10.1080/07315724.1997.10718651).
 - Grediagin, A., M. Cody, J. Rupp, D. Benardot, og R. Shern. 1995. “Exercise Intensity Does Not Effect Body Composition Change in Untrained, Moderately Overfat Women”. _Journal of the American Dietetic Association_ 95 (6): 661–65. [https://doi.org/10.1016/s0002-8223(95)00181-6](https://doi.org/10.1016/s0002-8223(95)00181-6).
 - Kiens, B. 1998. “Training and Fatty Acid Metabolism”. _Advances in Experimental Medicine and Biology_ 441: 229–38. [https://doi.org/10.1007/978-1-4899-1928-1_21](https://doi.org/10.1007/978-1-4899-1928-1_21).
 - Nordesjö, L. O. 1974. “The Effect of Quantitated Training on the Capacity for Short and Prolonged Work”. _Acta Physiologica Scandinavica. Supplementum_ 405: 1–54.
 - Yoshioka, M., E. Doucet, S. St-Pierre, N. Alméras, D. Richard, A. Labrie, J. P. Després, C. Bouchard, og A. Tremblay. 2001. “Impact of High-Intensity Exercise on Energy Expenditure, Lipid Oxidation and Body Fatness”. _International Journal of Obesity and Related Metabolic Disorders: Journal of the International Association for the Study of Obesity_ 25 (3): 332–39. [https://doi.org/10.1038/sj.ijo.0801554](https://doi.org/10.1038/sj.ijo.0801554).
+</details>

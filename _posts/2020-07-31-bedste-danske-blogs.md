@@ -3,7 +3,7 @@ title: "De 11 bedste danske blogs om fitness og træning [2020]"
 permalink: /bedste-fitness-blogs/
 redirect_from:
   - /artikel/vores-favoritter-om-styrketraening
-last_modified_at: 2020-07-24T09:41:09Z
+last_modified_at: 2020-09-24T09:41:09Z
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1554774853-b3d587d95440?ixlib=rb-1.2.1&auto=format&fit=crop&w=1963&q=80
@@ -32,19 +32,19 @@ feature_row:
     excerpt: "Anders Nedergaard skriver selv, at han bedriver knivskarp formidling om ernæring, sundhed og træning med afsæt i sine erfaringer som træner, forsker og passioneret nørd. Han er bl.a. kendt fra Fitness M/K podcasten, men har også en virkelig fin blog med udførlige artikler."
     btn_label: "Besøg Kropblog"
     btn_class: "btn--success"
-  - image_path: /assets/images/blogs/niklasmeier.jpg
-    url: http://niklasmeier.dk/traenings-vlog/
-    title: "Niklas Meier Trænings Vlog"
-    alt: "Niklas Meier Trænings Vlog"
-    excerpt: "Niklas Meier er personlig træner, og han har en ganske udemærket Vlog, hvor han humoristisk med en kop kaffe i hånden forklarer, hvordan træning kan hænge sammen. Desværre bliver bloggen ikke opdateret så ofte."
-    btn_label: "Besøg Niklas Meier"
-    btn_class: "btn--success"
   - image_path: /assets/images/blogs/fiskerperformance.jpg
     url: https://www.fisker-performance.dk/blog
     title: "Fisker Performance"
     alt: "Fisker Performance"
     excerpt: "Fisker Performance har nogle rigtig dygtige trænere. De har samtidig en blog med masser af god information, selvom der kun er et enkelt indlæg fra 2020. Heldigvis er de tidligere blogindlæg stadig af høj kvalitet, hvor de fleste af os kan blive klogere."
     btn_label: "Besøg Fitness Blog"
+    btn_class: "btn--success"
+  - image_path: /assets/images/blogs/niklasmeier.jpg
+    url: http://niklasmeier.dk/traenings-vlog/
+    title: "Niklas Meier Trænings Vlog"
+    alt: "Niklas Meier Trænings Vlog"
+    excerpt: "Niklas Meier er personlig træner, og han har en ganske udemærket Vlog, hvor han humoristisk med en kop kaffe i hånden forklarer, hvordan træning kan hænge sammen. Desværre bliver bloggen ikke opdateret så ofte længere."
+    btn_label: "Besøg Niklas Meier"
     btn_class: "btn--success"
   - image_path: /assets/images/blogs/healthyskinnybitch.jpg
     url: http://healthyskinnybitch.dk/
@@ -113,11 +113,11 @@ feature_row_sponsored:
 classes: wide
 ---
 
-Hvor kan jeg finde en liste over de bedste danske fitness og træningsblogs? Jeg kunne ikke finde en god og opdateret liste med nogle gode fitnessblogs med god og solid viden om træning.
+Jeg har samlet en opdateret liste over de bedste danske fitness blogs og blogs om træning og sundhed? Der er flere danske bloggere, der skriver fitnessblogs og træningsblogs med en solid viden om træning.
 
-Når man søger på Google finder man et hav af blogs om fitness, træning, kost og sundhed, og jeg har vel efterhånden brugt uendelige timer på at læse det fleste, og nogen er helt sikkert bedre end andre. 
+Når man søger på Google, finder man et hav af blogs om fitness, træning, kost og sundhed, og jeg har efterhånden brugt et utal af timer på at læse det fleste blogs, og nogen er helt sikkert bedre end andre. 
 
-Jeg har derfor lavet en oversigt over de bedste danske fitness og træning blogs, så du kan tage en genvej.
+Jeg har derfor lavet en oversigt over de bedste danske fitness og træningblogs, så du kan tage en genvej til blogs af danske bloggere.
 
 Min opdaterede liste over danske fitness og træningsblogs indeholder følgende:
 
@@ -131,15 +131,11 @@ Hvis jeg har overset nogle blogs om fitness, træning, motion og sundhed af dans
 
 {% include feature_row type="left" %}
 
-<div class="hidden">
-
 ## Sponsorerede fitness og træning blogs med kvalitet
 
 Jeg har også udvalgt et par gode blogs med danske bloggere af høj kvalitet fra firmaer, der er med til at støtte dette site:
 
 {% include feature_row type="right" id="feature_row_sponsored" %}
-
-</div>
 
 ## Hvordan følger jeg med i træningsblogs og fitnessblogs?
 

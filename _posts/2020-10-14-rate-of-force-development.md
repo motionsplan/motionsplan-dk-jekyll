@@ -1,5 +1,5 @@
 ---
-title: &title "Rate of Force Development (RFD)"
+title: &title "Hvordan træner jeg Rate of Force Development (RFD)?"
 permalink: /rate-of-force-development/
 language: da
 header:
@@ -15,7 +15,7 @@ last_modified_at: 2020-10-13T23:14:14Z
 toc: true
 ---
 
-Rate of force development (RFD) er et væsentligt parameter i forbindelse med styrketræning, træning af eksplosivitet og sprint. 
+Rate of force development (RFD) er et væsentligt parameter i forbindelse med styrketræning, træning af eksplosivitet og sprint. Her kigger jeg på, hvad RFD er, og hvordan du træner rate of force developement.
 
 Hvad er rate of force development (RFD)? **Rate of force development (RFD) er den hastighed en kraft udvikles med. I forbindelse med styrketræning er RFD et mål for, hvor hurtigt du kan udvikle kraft, og det har stor betydning for, hvor eksplosiv du kan være. Rate of Force development måles i Newton per sekund.**
 
@@ -56,9 +56,11 @@ hamstring curls og seated calf raises.
 
 Denne måde at træne på øgede _rate of force development_ over de 14 ugers træningsprogram.
 
-{% include figure image_path="/assets/images/blog/aagaard-2002-rateofforcedevelopment.jpg" caption="Gennemsnitlig kurve over kraftudviklingen i forhold til tiden. De 14 ugers tunge styrketræningsprogram resulterede i en signifikant øgning i 'rate of force development', hvilket både blev observeret ved 30 ms, 50 ms og senere ved 100 og 200 ms. Kilde: [Aagaard et al (2002)](https://pubmed.ncbi.nlm.nih.gov/12235031/)." %}
+{% include figure image_path="/assets/images/blog/aagaard-2002-rateofforcedevelopment.jpg" caption="Gennemsnitlig kurve over kraftudviklingen i forhold til tiden. De 14 ugers tunge styrketræningsprogram resulterede i en signifikant øgning i 'rate of force development', hvilket både blev observeret ved 30 ms, 50 ms og senere ved 100 og 200 ms. Kilde: [Aagaard et al (2002)](https://pubmed.ncbi.nlm.nih.gov/12235031/)." alt="Rate of Force Development (RFD)" %}
 
 Hvis du gerne vil træne _rate of force development_ i styrketræning, så er det væsentligt at du har fokus på kraftudviklingen, og at du flytter stangen med maksimal intention. For virkelig at fokusere på kraftudviklingen, så kan det betale sig at tage færre reps og fokusere mere på hastigheden, du flytter stangen med.
+
+Jeg er selv blevet ret interesseret i [velocity based training]({% link _posts/2020-07-12-vbt.md %}), hvor du kan måle hastigheden på dine løft og bevægelser. Måske kan det betale sig at træne i forskellige hastighedszoner, så det kan du dykke lidt længere ned i, hvis du læser min artikel om [velocity based training]({% link _posts/2020-07-12-vbt.md %}).
 
 ## Hvordan kan jeg teste Rate of Force Development?
 
