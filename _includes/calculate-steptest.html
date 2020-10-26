@@ -1,0 +1,86 @@
+<script>
+    function number(n) {
+        if (n == "" || n.length < 2 || n.length > 3) {
+            return false;
+        }
+        if (isNaN(n) == 1) { return false; }
+        else {
+            return true;
+        }
+    }
+
+    function go(a) {
+        var w = a.T1.value
+        if (w < 80 || w > 300) {
+            if (w.length < 1) {
+                alert('Du mangler at skrive din puls! \nPrøv igen.');
+            }
+            else {
+                alert(w + ' er ikke en gyldig puls ! \nPrøv igen.');
+            }
+            a.T1.focus();
+            a.T1.select();
+            return false;
+        }
+        if (!number(a.T1.value)) {
+            if (a.T1.value.length < 1) {
+                alert('Du mangler at skrive din puls! \nPrøv igen.');
+            }
+            else {
+                alert(a.T1.value + ' er ikke en gyldig puls ! \nPrøv igen.');
+            }
+            a.T1.focus();
+            a.T1.select();
+            return false;
+        }
+        if (!number(a.T2.value)) {
+            if (a.T2.value.length < 1) { alert('Du mangler at skrive din alder! \nPrøv igen.'); }
+            else { alert(a.T2.value + ' er ikke et gyldigt tal ! \nPrøv igen.'); }
+            a.T2.focus();
+            a.T2.select();
+            return false;
+        }
+        if (!number(a.T4.value)) {
+            if (a.T4.value.length < 1) { alert('Du mangler at skrive din vægt ! \nPrøv igen.'); }
+            else { alert(a.T4.value + ' er ikke en gyldig vægt ! \nPrøv igen.'); }
+            a.T4.focus();
+            a.T4.select();
+            return false;
+        }
+        return true;
+    }
+</script>
+
+<form onsubmit="return go(this); return false;">
+    <table>
+        <tr>
+            <td bgcolor="#003366" width="365" height="7" valign="middle">
+                Skema til indtastning
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Puls pr. minut: <input type="text" name="t1" size="20">
+            </td>
+            <td>
+                Mand eller Kvinde:<br> Kvinde <input type="radio" name="t3" value="kvinde" CHECKED> Mand <input type="radio" name="t3" value="mand">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Alder i hele år:
+                <input type="text" name="t2" size="20">
+                <input type=hidden name="postback" value="true">
+            </td>
+            <td>
+                Vægt i hele kg:
+                <input type="text" name="t4" size="20">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="Udregn">
+            </td>
+        </tr>
+    </table>
+</form>
