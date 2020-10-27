@@ -1,5 +1,5 @@
 ---
-title: "Cykelmaveøvelse"
+title: &title "Cykelmaveøvelse"
 excerpt: "Lig på ryggen. Hænderne bag nakken. Kør skiftevis albuen hen til knæet i modsatte side, mens du cykler med benene."
 instructions: "Lig på ryggen. Hænderne bag nakken. Kør skiftevis albuen hen til knæet i modsatte side, mens du cykler med benene."
 permalink: /oevelse/cykelmaveoevelse/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/cykelmaveoevelse-0.jpg
   teaser: /assets/images/exercises/cykelmaveoevelse-0-320.jpg
+  caption: *title
 tags:
 categories:
 training_type: 
@@ -19,11 +20,11 @@ gallery:
   - url: /assets/images/exercises/cykelmaveoevelse-0.jpg
     image_path: /assets/images/exercises/cykelmaveoevelse-0-320.jpg
     alt: "Cykelmaveøvelse"
-    title: "Cykelmaveøvelse"
+    title: &title "Cykelmaveøvelse"
   - url: /assets/images/exercises/cykelmaveoevelse-1.jpg
     image_path: /assets/images/exercises/cykelmaveoevelse-1-320.jpg
     alt: "Cykelmaveøvelse"
-    title: "Cykelmaveøvelse"
+    title: &title "Cykelmaveøvelse"
 last_modified_at: 2009-06-05T15:50:18Z
 ---
 

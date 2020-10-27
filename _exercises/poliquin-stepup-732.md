@@ -1,5 +1,5 @@
 ---
-title: "Poliquin stepup"
+title: &title "Poliquin stepup"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/poliquin-stepup/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/poliquin-stepup-0.jpg
   teaser: /assets/images/exercises/poliquin-stepup-0-320.jpg
+  caption: *title
 tags:
   - Koordination og balance
   - Balance
@@ -32,11 +33,11 @@ gallery:
   - url: /assets/images/exercises/poliquin-stepup-0.jpg
     image_path: /assets/images/exercises/poliquin-stepup-0-320.jpg
     alt: "Poliquin stepup"
-    title: "Poliquin stepup"
+    title: &title "Poliquin stepup"
   - url: /assets/images/exercises/poliquin-stepup-1.jpg
     image_path: /assets/images/exercises/poliquin-stepup-1-320.jpg
     alt: "Poliquin stepup"
-    title: "Poliquin stepup"
+    title: &title "Poliquin stepup"
 last_modified_at: 2016-10-18T07:39:15Z
 ---
 

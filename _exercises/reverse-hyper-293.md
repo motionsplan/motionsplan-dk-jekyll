@@ -1,5 +1,5 @@
 ---
-title: "Reverse hyper"
+title: &title "Reverse hyper"
 excerpt: "Læg dig til rette på en bænk med benene hængende ud over. Bænken skal være så høj, at du kan have strakte ben, når hoften er bøjet. Start med bøjet hofte og stræk hoften ud. Langsomt tilbage til udgangspunktet."
 instructions: "Læg dig til rette på en bænk med benene hængende ud over. Bænken skal være så høj, at du kan have strakte ben, når hoften er bøjet. Start med bøjet hofte og stræk hoften ud. Langsomt tilbage til udgangspunktet."
 permalink: /oevelse/reverse-hyper/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/reverse-hyper-0.jpg
   teaser: /assets/images/exercises/reverse-hyper-0-320.jpg
+  caption: *title
 tags:
   - hoftedomineret
   - kropsvægt
@@ -25,11 +26,11 @@ gallery:
   - url: /assets/images/exercises/reverse-hyper-0.jpg
     image_path: /assets/images/exercises/reverse-hyper-0-320.jpg
     alt: "Reverse hyper"
-    title: "Reverse hyper"
+    title: &title "Reverse hyper"
   - url: /assets/images/exercises/reverse-hyper-1.jpg
     image_path: /assets/images/exercises/reverse-hyper-1-320.jpg
     alt: "Reverse hyper"
-    title: "Reverse hyper"
+    title: &title "Reverse hyper"
 last_modified_at: 2011-05-01T10:21:12Z
 ---
 

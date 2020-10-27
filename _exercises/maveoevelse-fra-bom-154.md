@@ -1,5 +1,5 @@
 ---
-title: "Maveøvelse fra bom"
+title: &title "Maveøvelse fra bom"
 excerpt: "Hæng i armene i en bom. Forsøg at få benene op og røre bommen."
 instructions: "Hæng i armene i en bom. Forsøg at få benene op og røre bommen."
 permalink: /oevelse/maveoevelse-fra-bom/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/maveoevelse-fra-bom-0.jpg
   teaser: /assets/images/exercises/maveoevelse-fra-bom-0-320.jpg
+  caption: *title
 tags:
   - bar
 categories:
@@ -21,11 +22,11 @@ gallery:
   - url: /assets/images/exercises/maveoevelse-fra-bom-0.jpg
     image_path: /assets/images/exercises/maveoevelse-fra-bom-0-320.jpg
     alt: "Maveøvelse fra bom"
-    title: "Maveøvelse fra bom"
+    title: &title "Maveøvelse fra bom"
   - url: /assets/images/exercises/maveoevelse-fra-bom-1.jpg
     image_path: /assets/images/exercises/maveoevelse-fra-bom-1-320.jpg
     alt: "Maveøvelse fra bom"
-    title: "Maveøvelse fra bom"
+    title: &title "Maveøvelse fra bom"
 last_modified_at: 2014-10-10T21:20:09Z
 ---
 

@@ -20,7 +20,7 @@ motionsplan.JumpReach = function(formula = "harman", jump_height, body_mass, hei
     getHarman();
   }
 
-  function getAveragePower(jump_height) {
+  function getAveragePower() {
     return average_power;
   }
   

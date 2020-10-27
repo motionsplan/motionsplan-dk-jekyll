@@ -1,5 +1,5 @@
 ---
-title: "Planken, superman"
+title: &title "Planken, superman"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/planken-superman/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/planken-superman-0.jpg
   teaser: /assets/images/exercises/planken-superman-0-320.jpg
+  caption: *title
 tags:
   - Kropsstamme
   - Styrketræning
@@ -34,19 +35,19 @@ gallery:
   - url: /assets/images/exercises/planken-superman-0.jpg
     image_path: /assets/images/exercises/planken-superman-0-320.jpg
     alt: "Planken, superman"
-    title: "Planken, superman"
+    title: &title "Planken, superman"
   - url: /assets/images/exercises/planken-superman-1.jpg
     image_path: /assets/images/exercises/planken-superman-1-320.jpg
     alt: "Planken, superman"
-    title: "Planken, superman"
+    title: &title "Planken, superman"
   - url: /assets/images/exercises/planken-superman-2.jpg
     image_path: /assets/images/exercises/planken-superman-2-320.jpg
     alt: "Planken, superman"
-    title: "Planken, superman"
+    title: &title "Planken, superman"
   - url: /assets/images/exercises/planken-superman-3.jpg
     image_path: /assets/images/exercises/planken-superman-3-320.jpg
     alt: "Planken, superman"
-    title: "Planken, superman"
+    title: &title "Planken, superman"
 last_modified_at: 2014-10-12T22:16:03Z
 ---
 

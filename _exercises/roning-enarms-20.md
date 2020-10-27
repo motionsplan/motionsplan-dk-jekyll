@@ -1,5 +1,5 @@
 ---
-title: "One arm rows med håndvægt"
+title: &title "One arm rows med håndvægt"
 instructions: "I one arm rows på bænk holder du en vægt i den ene hånd. Sæt et knæ op på bænken og støt armen på bænken. Ryggen er parallel med jorden. Hold en ret ryg under hele bevægelsen. Start med at vægten bare hænger i armen. Start bevægelsen i i skulderbladet og træk vægten opad. Lav et stort bevægeudslag."
 permalink: /oevelse/roning-enarms/
 redirect_from: /node/20
@@ -8,6 +8,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/roning-enarms-0.jpg
   teaser: /assets/images/exercises/roning-enarms-0-320.jpg
+  caption: *title
 tags:
   - Træk
   - Styrketræning
@@ -40,15 +41,15 @@ gallery:
   - url: /assets/images/exercises/roning-enarms-0.jpg
     image_path: /assets/images/exercises/roning-enarms-0-320.jpg
     alt: "Roning, enarms"
-    title: "Roning, enarms"
+    title: &title "Roning, enarms"
   - url: /assets/images/exercises/roning-enarms-1.jpg
     image_path: /assets/images/exercises/roning-enarms-1-320.jpg
     alt: "Roning, enarms"
-    title: "Roning, enarms"
+    title: &title "Roning, enarms"
   - url: /assets/images/exercises/roning-enarms-2.jpg
     image_path: /assets/images/exercises/roning-enarms-2-320.jpg
     alt: "Roning, enarms"
-    title: "Roning, enarms"
+    title: &title "Roning, enarms"
 video:
   provider: youtube
   id: U7JM0pKMWSA

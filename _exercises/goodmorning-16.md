@@ -1,5 +1,5 @@
 ---
-title: "Good morning"
+title: &title "Good morning"
 excerpt: "Stangen på skuldrene. Hold hovedet oppe og ryggen helt rank. Bøj dig forover, indtil din overkrop er parallel med jorden. Vend tilbage til samme stilling igen."
 instructions: "Stangen på skuldrene. Hold hovedet oppe og ryggen helt rank. Bøj dig forover, indtil din overkrop er parallel med jorden. Vend tilbage til samme stilling igen."
 permalink: /oevelse/goodmorning/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/goodmorning-0.jpg
   teaser: /assets/images/exercises/goodmorning-0-320.jpg
+  caption: *title
 tags:
   - Kropsstamme
   - Styrketræning
@@ -35,11 +36,11 @@ gallery:
   - url: /assets/images/exercises/goodmorning-0.jpg
     image_path: /assets/images/exercises/goodmorning-0-320.jpg
     alt: "Good morning"
-    title: "Good morning"
+    title: &title "Good morning"
   - url: /assets/images/exercises/goodmorning-1.jpg
     image_path: /assets/images/exercises/goodmorning-1-320.jpg
     alt: "Good morning"
-    title: "Good morning"
+    title: &title "Good morning"
 video:
   provider: vimeo
   id: 4705899

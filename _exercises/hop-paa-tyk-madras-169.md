@@ -1,5 +1,5 @@
 ---
-title: "Hop på tyk madras"
+title: &title "Hop på tyk madras"
 excerpt: "Stil dig i en madras og hop så højt du kan ved hvert hop."
 instructions: "Stil dig i en madras og hop så højt du kan ved hvert hop."
 permalink: /oevelse/hop-paa-tyk-madras/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/hop-paa-tyk-madras-0.jpg
   teaser: /assets/images/exercises/hop-paa-tyk-madras-0-320.jpg
+  caption: *title
 tags:
   - Kondition og puls
   - Kondition
@@ -31,7 +32,7 @@ gallery:
   - url: /assets/images/exercises/hop-paa-tyk-madras-0.jpg
     image_path: /assets/images/exercises/hop-paa-tyk-madras-0-320.jpg
     alt: "Hop på tyk madras"
-    title: "Hop på tyk madras"
+    title: &title "Hop på tyk madras"
 last_modified_at: 2014-10-12T19:09:47Z
 ---
 

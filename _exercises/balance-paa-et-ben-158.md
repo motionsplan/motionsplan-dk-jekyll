@@ -1,5 +1,5 @@
 ---
-title: "Balance på et ben"
+title: &title "Balance på et ben"
 excerpt: "Stå på et ben, mens du løfter det andet ben op bagud i en 90 graders vinkel. Det løftede ben må ikke røre det andet ben. Når du har balancen, lukker du øjnene."
 instructions: "Stå på et ben, mens du løfter det andet ben op bagud i en 90 graders vinkel. Det løftede ben må ikke røre det andet ben. Når du har balancen, lukker du øjnene."
 permalink: /oevelse/balance-paa-et-ben/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/balance-paa-et-ben-0.jpg
   teaser: /assets/images/exercises/balance-paa-et-ben-0-320.jpg
+  caption: *title
 tags:
   - kropsvægt
 categories:
@@ -21,7 +22,7 @@ gallery:
   - url: /assets/images/exercises/balance-paa-et-ben-0.jpg
     image_path: /assets/images/exercises/balance-paa-et-ben-0-320.jpg
     alt: "Balance på et ben"
-    title: "Balance på et ben"
+    title: &title "Balance på et ben"
 last_modified_at: 2011-04-16T18:20:32Z
 ---
 

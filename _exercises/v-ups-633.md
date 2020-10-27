@@ -1,5 +1,5 @@
 ---
-title: "V-ups"
+title: &title "V-ups"
 instructions: "I V-ups ligger du på ryggen. Herfra løfter du arme og ben fri fra gulvet. Nu rører du dine fødder med hænderne og sænker dig til udgangspunktet."
 permalink: /oevelse/v-ups/
 redirect_from: /node/633
@@ -8,6 +8,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/v-ups-0.jpg
   teaser: /assets/images/exercises/v-ups-0-320.jpg
+  caption: *title
 tags:
   - Kropsstamme
   - Styrketræning
@@ -30,11 +31,11 @@ gallery:
   - url: /assets/images/exercises/v-ups-0.jpg
     image_path: /assets/images/exercises/v-ups-0-320.jpg
     alt: "V-ups"
-    title: "V-ups"
+    title: &title "V-ups"
   - url: /assets/images/exercises/v-ups-1.jpg
     image_path: /assets/images/exercises/v-ups-1-320.jpg
     alt: "V-ups"
-    title: "V-ups"
+    title: &title "V-ups"
 last_modified_at: 2015-03-21T16:17:45Z
 video:
   provider: youtube

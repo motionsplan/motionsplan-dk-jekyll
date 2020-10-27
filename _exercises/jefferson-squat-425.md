@@ -1,5 +1,5 @@
 ---
-title: "Jefferson squat"
+title: &title "Jefferson squat"
 excerpt: "Hold en vægt mellem benene. Ret ryggen ved at skyde brystet frem og skuldrene tilbage. Gå ned i knæ mens du holder spændet i kropsstammen. Rejs dig. Og gentag."
 instructions: "Hold en vægt mellem benene. Ret ryggen ved at skyde brystet frem og skuldrene tilbage. Gå ned i knæ mens du holder spændet i kropsstammen. Rejs dig. Og gentag."
 permalink: /oevelse/jefferson-squat/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/jefferson-squat-0.jpg
   teaser: /assets/images/exercises/jefferson-squat-0-320.jpg
+  caption: *title
 tags:
   - Ben
   - Styrketræning
@@ -31,19 +32,19 @@ gallery:
   - url: /assets/images/exercises/jefferson-squat-0.jpg
     image_path: /assets/images/exercises/jefferson-squat-0-320.jpg
     alt: "Jefferson squat"
-    title: "Jefferson squat"
+    title: &title "Jefferson squat"
   - url: /assets/images/exercises/jefferson-squat-1.jpg
     image_path: /assets/images/exercises/jefferson-squat-1-320.jpg
     alt: "Jefferson squat"
-    title: "Jefferson squat"
+    title: &title "Jefferson squat"
   - url: /assets/images/exercises/jefferson-squat-2.jpg
     image_path: /assets/images/exercises/jefferson-squat-2-320.jpg
     alt: "Jefferson squat"
-    title: "Jefferson squat"
+    title: &title "Jefferson squat"
   - url: /assets/images/exercises/jefferson-squat-3.jpg
     image_path: /assets/images/exercises/jefferson-squat-3-320.jpg
     alt: "Jefferson squat"
-    title: "Jefferson squat"
+    title: &title "Jefferson squat"
 last_modified_at: 2014-10-12T19:29:26Z
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Mave, benløft"
+title: &title "Mave, benløft"
 excerpt: "Lig på ryggen med benene vinkelret i vejret. Armene ned langs kroppen og håndfladerne mod gulvet. Sænk benene mod gulvet og stop bevægelsen inden fødderne rører gulvet. Bevæg herefter benene tilbage til startpositionen. Gentages. "
 instructions: "Lig på ryggen med benene vinkelret i vejret. Armene ned langs kroppen og håndfladerne mod gulvet. Sænk benene mod gulvet og stop bevægelsen inden fødderne rører gulvet. Bevæg herefter benene tilbage til startpositionen. Gentages. "
 permalink: /oevelse/mave-benloeft/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/mave-benloeft-0.jpg
   teaser: /assets/images/exercises/mave-benloeft-0-320.jpg
+  caption: *title
 tags:
   - Koordination og balance
   - Styrketræning
@@ -31,15 +32,15 @@ gallery:
   - url: /assets/images/exercises/mave-benloeft-0.jpg
     image_path: /assets/images/exercises/mave-benloeft-0-320.jpg
     alt: "Mave, benløft"
-    title: "Mave, benløft"
+    title: &title "Mave, benløft"
   - url: /assets/images/exercises/mave-benloeft-1.jpg
     image_path: /assets/images/exercises/mave-benloeft-1-320.jpg
     alt: "Mave, benløft"
-    title: "Mave, benløft"
+    title: &title "Mave, benløft"
   - url: /assets/images/exercises/mave-benloeft-2.jpg
     image_path: /assets/images/exercises/mave-benloeft-2-320.jpg
     alt: "Mave, benløft"
-    title: "Mave, benløft"
+    title: &title "Mave, benløft"
 last_modified_at: 2014-10-12T22:05:15Z
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Side windmill"
+title: &title "Side windmill"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/side-windmill/

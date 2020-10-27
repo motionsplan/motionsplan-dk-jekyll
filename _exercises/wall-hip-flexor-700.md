@@ -1,5 +1,5 @@
 ---
-title: "Wall Hip Flexor"
+title: &title "Wall Hip Flexor"
 excerpt: "Find en mur. Sæt dig på hug med et knæ på jorden og det andet bøjet. Tag fat i det bagerste ben. Spænd i ballen på det bagerste ben. Vug frem og tilbage, mens du holder den anden hånd på muren. Det vil spænde både i hoftestrækkeren, forlåret og du vil sikkert også arbejde lidt med mobiliteten i modsatte ankel, mens du vugger frem og tilbage."
 instructions: "Find en mur. Sæt dig på hug med et knæ på jorden og det andet bøjet. Tag fat i det bagerste ben. Spænd i ballen på det bagerste ben. Vug frem og tilbage, mens du holder den anden hånd på muren. Det vil spænde både i hoftestrækkeren, forlåret og du vil sikkert også arbejde lidt med mobiliteten i modsatte ankel, mens du vugger frem og tilbage."
 permalink: /oevelse/wall-hip-flexor/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/wall-hip-flexor-0.jpg
   teaser: /assets/images/exercises/wall-hip-flexor-0-320.jpg
+  caption: *title
 tags:
   - Mobilisering
   - Strækøvelser
@@ -31,7 +32,7 @@ gallery:
   - url: /assets/images/exercises/wall-hip-flexor-0.jpg
     image_path: /assets/images/exercises/wall-hip-flexor-0-320.jpg
     alt: "Wall Hip Flexor "
-    title: "Wall Hip Flexor "
+    title: &title "Wall Hip Flexor "
 video:
   provider: youtube
   id: 1zyzP3TPFfA

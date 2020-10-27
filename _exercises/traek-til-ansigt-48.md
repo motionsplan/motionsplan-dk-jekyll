@@ -1,5 +1,5 @@
 ---
-title: "Træk til ansigt"
+title: &title "Træk til ansigt"
 excerpt: "Hold i rebhåndtaget med underhåndsgreb. I god balance trækker du rebet hen mod dit ansigt, mens du holder hovedet og skuldrene i samme position som ved starten."
 instructions: "Hold i rebhåndtaget med underhåndsgreb. I god balance trækker du rebet hen mod dit ansigt, mens du holder hovedet og skuldrene i samme position som ved starten."
 permalink: /oevelse/traek-til-ansigt/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/traek-til-ansigt-0.jpg
   teaser: /assets/images/exercises/traek-til-ansigt-0-320.jpg
+  caption: *title
 tags:
   - Træk
   - Balance
@@ -38,11 +39,11 @@ gallery:
   - url: /assets/images/exercises/traek-til-ansigt-0.jpg
     image_path: /assets/images/exercises/traek-til-ansigt-0-320.jpg
     alt: "Træk til ansigt"
-    title: "Træk til ansigt"
+    title: &title "Træk til ansigt"
   - url: /assets/images/exercises/traek-til-ansigt-1.jpg
     image_path: /assets/images/exercises/traek-til-ansigt-1-320.jpg
     alt: "Træk til ansigt"
-    title: "Træk til ansigt"
+    title: &title "Træk til ansigt"
 video:
   provider: youtube
   id: BAKsEZQmGtE

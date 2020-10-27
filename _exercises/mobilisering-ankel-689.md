@@ -1,5 +1,5 @@
 ---
-title: "Mobilisering ankel"
+title: &title "Mobilisering ankel"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/mobilisering-ankel/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/mobilisering-ankel-0.jpg
   teaser: /assets/images/exercises/mobilisering-ankel-0-320.jpg
+  caption: *title
 tags:
   - Strækøvelser
   - kropsvægt
@@ -24,7 +25,7 @@ gallery:
   - url: /assets/images/exercises/mobilisering-ankel-0.jpg
     image_path: /assets/images/exercises/mobilisering-ankel-0-320.jpg
     alt: "Mobilisering ankel"
-    title: "Mobilisering ankel"
+    title: &title "Mobilisering ankel"
 last_modified_at: 2015-04-10T13:53:13Z
 ---
 

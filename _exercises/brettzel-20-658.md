@@ -1,5 +1,5 @@
 ---
-title: "Brettzel 2.0"
+title: &title "Brettzel 2.0"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/brettzel-20/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/brettzel-20-0.jpg
   teaser: /assets/images/exercises/brettzel-20-0-320.jpg
+  caption: *title
 tags:
   - Strækøvelser
 categories:
@@ -22,11 +23,11 @@ gallery:
   - url: /assets/images/exercises/brettzel-20-0.jpg
     image_path: /assets/images/exercises/brettzel-20-0-320.jpg
     alt: "Brettzel 2.0"
-    title: "Brettzel 2.0"
+    title: &title "Brettzel 2.0"
   - url: /assets/images/exercises/brettzel-20-1.jpg
     image_path: /assets/images/exercises/brettzel-20-1-320.jpg
     alt: "Brettzel 2.0"
-    title: "Brettzel 2.0"
+    title: &title "Brettzel 2.0"
 video:
   provider: youtube
   id: SfGV-65GaPg

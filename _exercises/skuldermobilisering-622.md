@@ -1,5 +1,5 @@
 ---
-title: "Skuldermobilisering"
+title: &title "Skuldermobilisering"
 excerpt: "Tag et elastik (eller kosteskaft) og hold det med dobbelt skulderbredde. Start foran med hænderne foran og før hænderne opad og bagved indtil de er helt bagved kroppen."
 instructions: "Tag et elastik (eller kosteskaft) og hold det med dobbelt skulderbredde. Start foran med hænderne foran og før hænderne opad og bagved indtil de er helt bagved kroppen."
 permalink: /oevelse/skuldermobilisering/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/skuldermobilisering-0.jpg
   teaser: /assets/images/exercises/skuldermobilisering-0-320.jpg
+  caption: *title
 tags:
   - Koordination og balance
   - Mobilisering
@@ -27,15 +28,15 @@ gallery:
   - url: /assets/images/exercises/skuldermobilisering-0.jpg
     image_path: /assets/images/exercises/skuldermobilisering-0-320.jpg
     alt: "Skuldermobilisering"
-    title: "Skuldermobilisering"
+    title: &title "Skuldermobilisering"
   - url: /assets/images/exercises/skuldermobilisering-1.jpg
     image_path: /assets/images/exercises/skuldermobilisering-1-320.jpg
     alt: "Skuldermobilisering"
-    title: "Skuldermobilisering"
+    title: &title "Skuldermobilisering"
   - url: /assets/images/exercises/skuldermobilisering-2.jpg
     image_path: /assets/images/exercises/skuldermobilisering-2-320.jpg
     alt: "Skuldermobilisering"
-    title: "Skuldermobilisering"
+    title: &title "Skuldermobilisering"
 last_modified_at: 2015-03-21T16:14:38Z
 ---
 

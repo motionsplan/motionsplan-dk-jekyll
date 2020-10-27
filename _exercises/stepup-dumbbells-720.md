@@ -1,5 +1,5 @@
 ---
-title: "Stepup with dumbbells"
+title: &title "Stepup with dumbbells"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/stepup-dumbbells/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/stepup-dumbbells-0.jpg
   teaser: /assets/images/exercises/stepup-dumbbells-0-320.jpg
+  caption: *title
 tags:
   - Ben
   - Styrketræning
@@ -32,19 +33,19 @@ gallery:
   - url: /assets/images/exercises/stepup-dumbbells-0.jpg
     image_path: /assets/images/exercises/stepup-dumbbells-0-320.jpg
     alt: "Stepup with dumbbells"
-    title: "Stepup with dumbbells"
+    title: &title "Stepup with dumbbells"
   - url: /assets/images/exercises/stepup-dumbbells-1.jpg
     image_path: /assets/images/exercises/stepup-dumbbells-1-320.jpg
     alt: "Stepup with dumbbells"
-    title: "Stepup with dumbbells"
+    title: &title "Stepup with dumbbells"
   - url: /assets/images/exercises/stepup-dumbbells-2.jpg
     image_path: /assets/images/exercises/stepup-dumbbells-2-320.jpg
     alt: "Stepup with dumbbells"
-    title: "Stepup with dumbbells"
+    title: &title "Stepup with dumbbells"
   - url: /assets/images/exercises/stepup-dumbbells-3.jpg
     image_path: /assets/images/exercises/stepup-dumbbells-3-320.jpg
     alt: "Stepup with dumbbells"
-    title: "Stepup with dumbbells"
+    title: &title "Stepup with dumbbells"
 video:
   provider: youtube
   id: qrgIG8P4te8

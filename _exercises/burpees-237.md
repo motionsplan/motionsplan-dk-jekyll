@@ -1,5 +1,5 @@
 ---
-title: "Burpees"
+title: &title "Burpees"
 excerpt: "Sæt hænderne ned til fødderne. Spring tilbage med fødderne. Lig dig fladt ned på gulvet. Spring igen frem med fødderne, så du står på hele fodsålen. Herfra springer du op i luften og klapper over hovedet og bag ved ørelinjen. Start forfra."
 instructions: "Sæt hænderne ned til fødderne. Spring tilbage med fødderne. Lig dig fladt ned på gulvet. Spring igen frem med fødderne, så du står på hele fodsålen. Herfra springer du op i luften og klapper over hovedet og bag ved ørelinjen. Start forfra."
 permalink: /oevelse/burpees/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/burpees-0.jpg
   teaser: /assets/images/exercises/burpees-0-320.jpg
+  caption: *title
 tags:
   - Kondition og puls
   - Kondition
@@ -31,23 +32,23 @@ gallery:
   - url: /assets/images/exercises/burpees-0.jpg
     image_path: /assets/images/exercises/burpees-0-320.jpg
     alt: "Burpees"
-    title: "Burpees"
+    title: &title "Burpees"
   - url: /assets/images/exercises/burpees-1.jpg
     image_path: /assets/images/exercises/burpees-1-320.jpg
     alt: "Burpees"
-    title: "Burpees"
+    title: &title "Burpees"
   - url: /assets/images/exercises/burpees-2.jpg
     image_path: /assets/images/exercises/burpees-2-320.jpg
     alt: "Burpees"
-    title: "Burpees"
+    title: &title "Burpees"
   - url: /assets/images/exercises/burpees-3.jpg
     image_path: /assets/images/exercises/burpees-3-320.jpg
     alt: "Burpees"
-    title: "Burpees"
+    title: &title "Burpees"
   - url: /assets/images/exercises/burpees-4.jpg
     image_path: /assets/images/exercises/burpees-4-320.jpg
     alt: "Burpees"
-    title: "Burpees"
+    title: &title "Burpees"
 last_modified_at: 2014-10-10T21:05:16Z
 ---
 

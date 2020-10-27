@@ -1,5 +1,5 @@
 ---
-title: "Maveøvelse, lyset"
+title: &title "Maveøvelse, lyset"
 excerpt: "Lig på ryggen på en bænk og hold fast i bænken omking dit hoved. Brug mavemusklerne til at presse benene op i lodret, så vægten er på din øvre ryg. Sænk benene mod vandret, så langt du kan, og hold bækkenet inde under dig."
 instructions: "Lig på ryggen på en bænk og hold fast i bænken omking dit hoved. Brug mavemusklerne til at presse benene op i lodret, så vægten er på din øvre ryg. Sænk benene mod vandret, så langt du kan, og hold bækkenet inde under dig."
 permalink: /oevelse/lyset/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/lyset-0.jpg
   teaser: /assets/images/exercises/lyset-0-320.jpg
+  caption: *title
 tags:
   - kropsstamme
   - bænk
@@ -25,23 +26,23 @@ gallery:
   - url: /assets/images/exercises/lyset-0.jpg
     image_path: /assets/images/exercises/lyset-0-320.jpg
     alt: "Maveøvelse, lyset"
-    title: "Maveøvelse, lyset"
+    title: &title "Maveøvelse, lyset"
   - url: /assets/images/exercises/lyset-1.jpg
     image_path: /assets/images/exercises/lyset-1-320.jpg
     alt: "Maveøvelse, lyset"
-    title: "Maveøvelse, lyset"
+    title: &title "Maveøvelse, lyset"
   - url: /assets/images/exercises/lyset-2.jpg
     image_path: /assets/images/exercises/lyset-2-320.jpg
     alt: "Maveøvelse, lyset"
-    title: "Maveøvelse, lyset"
+    title: &title "Maveøvelse, lyset"
   - url: /assets/images/exercises/lyset-3.jpg
     image_path: /assets/images/exercises/lyset-3-320.jpg
     alt: "Maveøvelse, lyset"
-    title: "Maveøvelse, lyset"
+    title: &title "Maveøvelse, lyset"
   - url: /assets/images/exercises/lyset-4.jpg
     image_path: /assets/images/exercises/lyset-4-320.jpg
     alt: "Maveøvelse, lyset"
-    title: "Maveøvelse, lyset"
+    title: &title "Maveøvelse, lyset"
 video:
   provider: vimeo
   id: 4715093

@@ -1,5 +1,5 @@
 ---
-title: "Slideboard bodysaw pushup"
+title: &title "Slideboard bodysaw pushup"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/slideboard-bodysaw-pushup/

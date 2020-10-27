@@ -1,5 +1,5 @@
 ---
-title: "SMR Læg"
+title: &title "SMR Læg"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/smr-laeg/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/smr-laeg-0.jpg
   teaser: /assets/images/exercises/smr-laeg-0-320.jpg
+  caption: *title
 tags:
   - Self Myofascial Release (SMR)
   - lacrosse bold
@@ -25,7 +26,7 @@ gallery:
   - url: /assets/images/exercises/smr-laeg-0.jpg
     image_path: /assets/images/exercises/smr-laeg-0-320.jpg
     alt: "SMR Læg"
-    title: "SMR Læg"
+    title: &title "SMR Læg"
 last_modified_at: 2015-04-10T13:44:26Z
 ---
 

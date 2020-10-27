@@ -1,5 +1,5 @@
 ---
-title: "Squat and lunge complex"
+title: &title "Squat and lunge complex"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/squat-and-lunge-complex/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/squat-and-lunge-complex-0.jpg
   teaser: /assets/images/exercises/squat-and-lunge-complex-0-320.jpg
+  caption: *title
 tags:
   - Helkropsøvelse
   - Styrketræning
@@ -36,27 +37,27 @@ gallery:
   - url: /assets/images/exercises/squat-and-lunge-complex-0.jpg
     image_path: /assets/images/exercises/squat-and-lunge-complex-0-320.jpg
     alt: "Squat and lunge complex"
-    title: "Squat and lunge complex"
+    title: &title "Squat and lunge complex"
   - url: /assets/images/exercises/squat-and-lunge-complex-1.jpg
     image_path: /assets/images/exercises/squat-and-lunge-complex-1-320.jpg
     alt: "Squat and lunge complex"
-    title: "Squat and lunge complex"
+    title: &title "Squat and lunge complex"
   - url: /assets/images/exercises/squat-and-lunge-complex-2.jpg
     image_path: /assets/images/exercises/squat-and-lunge-complex-2-320.jpg
     alt: "Squat and lunge complex"
-    title: "Squat and lunge complex"
+    title: &title "Squat and lunge complex"
   - url: /assets/images/exercises/squat-and-lunge-complex-3.jpg
     image_path: /assets/images/exercises/squat-and-lunge-complex-3-320.jpg
     alt: "Squat and lunge complex"
-    title: "Squat and lunge complex"
+    title: &title "Squat and lunge complex"
   - url: /assets/images/exercises/squat-and-lunge-complex-4.jpg
     image_path: /assets/images/exercises/squat-and-lunge-complex-4-320.jpg
     alt: "Squat and lunge complex"
-    title: "Squat and lunge complex"
+    title: &title "Squat and lunge complex"
   - url: /assets/images/exercises/squat-and-lunge-complex-5.jpg
     image_path: /assets/images/exercises/squat-and-lunge-complex-5-320.jpg
     alt: "Squat and lunge complex"
-    title: "Squat and lunge complex"
+    title: &title "Squat and lunge complex"
 last_modified_at: 2014-11-15T15:33:59Z
 ---
 

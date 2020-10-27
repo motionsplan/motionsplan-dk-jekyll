@@ -1,5 +1,5 @@
 ---
-title: "Double Under"
+title: &title "Double Under"
 excerpt: "Sjipning hvor rebet føres to gange under fødderne, inden det rører jorden igen. "
 instructions: "Sjipning hvor rebet føres to gange under fødderne, inden det rører jorden igen. "
 permalink: /node/490/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/490-0.jpg
   teaser: /assets/images/exercises/490-0-320.jpg
+  caption: *title
 tags:
   - Kondition og puls
   - crossfit
@@ -22,11 +23,11 @@ gallery:
   - url: /assets/images/exercises/490-0.jpg
     image_path: /assets/images/exercises/490-0-320.jpg
     alt: "Double Under"
-    title: "Double Under"
+    title: &title "Double Under"
   - url: /assets/images/exercises/490-1.jpg
     image_path: /assets/images/exercises/490-1-320.jpg
     alt: "Double Under"
-    title: "Double Under"
+    title: &title "Double Under"
 last_modified_at: 2013-10-03T11:04:10Z
 ---
 

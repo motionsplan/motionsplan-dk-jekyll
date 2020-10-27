@@ -1,5 +1,5 @@
 ---
-title: "Arnold press"
+title: &title "Arnold press"
 instructions: "Start med håndvægtene foran brystet, hvor du holder håndfladerne ind mod brystet. Før albuerne udad, så hænderne kommer til at vende modsat. Stræk armene op over hovedet så langt du kan. På toppen skal håndfladerne også vende fremad."
 permalink: /oevelse/arnold-press/
 redirect_from: /node/57
@@ -22,15 +22,15 @@ gallery:
   - url: /assets/images/exercises/arnold-press-0.jpg
     image_path: /assets/images/exercises/arnold-press-0-320.jpg
     alt: "Arnold press"
-    title: "Arnold press"
+    title: &title "Arnold press"
   - url: /assets/images/exercises/arnold-press-1.jpg
     image_path: /assets/images/exercises/arnold-press-1-320.jpg
     alt: "Arnold press"
-    title: "Arnold press"
+    title: &title "Arnold press"
   - url: /assets/images/exercises/arnold-press-2.jpg
     image_path: /assets/images/exercises/arnold-press-2-320.jpg
     alt: "Arnold press"
-    title: "Arnold press"
+    title: &title "Arnold press"
 video:
   provider: youtube
   id: DvS_zZ6QoHs

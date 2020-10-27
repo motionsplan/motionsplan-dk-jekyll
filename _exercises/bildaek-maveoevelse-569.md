@@ -1,5 +1,5 @@
 ---
-title: "Bildæk, maveøvelse"
+title: &title "Bildæk, maveøvelse"
 instructions: ""
 permalink: /oevelse/bildaek-maveoevelse/
 redirect_from:
@@ -10,6 +10,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/bildaek-maveoevelse-0.jpg
   teaser: /assets/images/exercises/bildaek-maveoevelse-0-320.jpg
+  caption: *title
 tags:
   - Kropsstamme
   - outdoor
@@ -25,15 +26,15 @@ gallery:
   - url: /assets/images/exercises/bildaek-maveoevelse-0.jpg
     image_path: /assets/images/exercises/bildaek-maveoevelse-0-320.jpg
     alt: "Bildæk, maveøvelse"
-    title: "Bildæk, maveøvelse"
+    title: &title "Bildæk, maveøvelse"
   - url: /assets/images/exercises/bildaek-maveoevelse-1.jpg
     image_path: /assets/images/exercises/bildaek-maveoevelse-1-320.jpg
     alt: "Bildæk, maveøvelse"
-    title: "Bildæk, maveøvelse"
+    title: &title "Bildæk, maveøvelse"
   - url: /assets/images/exercises/bildaek-maveoevelse-2.jpg
     image_path: /assets/images/exercises/bildaek-maveoevelse-2-320.jpg
     alt: "Bildæk, maveøvelse"
-    title: "Bildæk, maveøvelse"
+    title: &title "Bildæk, maveøvelse"
 last_modified_at: 2014-10-03T10:18:24Z
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Stir the pot"
+title: &title "Stir the pot"
 excerpt: "Du skal have albuerne på en stor træningsbold og fødderne på jorden. Kroppen skal være strakt. Spænd i mave og baller. Herfra laver du små cirkler med underarmene på bolden. Først den ene vej, så den anden vej."
 instructions: "Du skal have albuerne på en stor træningsbold og fødderne på jorden. Kroppen skal være strakt. Spænd i mave og baller. Herfra laver du små cirkler med underarmene på bolden. Først den ene vej, så den anden vej."
 permalink: /oevelse/stir-pot/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/stir-pot-0.jpg
   teaser: /assets/images/exercises/stir-pot-0-320.jpg
+  caption: *title
 tags:
   - swissball
 categories:
@@ -21,11 +22,11 @@ gallery:
   - url: /assets/images/exercises/stir-pot-0.jpg
     image_path: /assets/images/exercises/stir-pot-0-320.jpg
     alt: "Stir the pot"
-    title: "Stir the pot"
+    title: &title "Stir the pot"
   - url: /assets/images/exercises/stir-pot-1.jpg
     image_path: /assets/images/exercises/stir-pot-1-320.jpg
     alt: "Stir the pot"
-    title: "Stir the pot"
+    title: &title "Stir the pot"
 last_modified_at: 2012-04-17T11:55:12Z
 ---
 

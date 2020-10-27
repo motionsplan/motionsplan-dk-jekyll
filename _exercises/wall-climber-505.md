@@ -1,5 +1,5 @@
 ---
-title: "Wall climber"
+title: &title "Wall climber"
 excerpt: "Fra armstrækningsstand med fødderne på det nederste af væggen, går man længere og længere op ad væggen med fødderne og tættere på væggen med armene. Gå derefter tilbage til udgangsposition."
 instructions: "Fra armstrækningsstand med fødderne på det nederste af væggen, går man længere og længere op ad væggen med fødderne og tættere på væggen med armene. Gå derefter tilbage til udgangsposition."
 permalink: /oevelse/wall-climber/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/wall-climber-0.jpg
   teaser: /assets/images/exercises/wall-climber-0-320.jpg
+  caption: *title
 tags:
 categories:
 training_type: 
@@ -19,15 +20,15 @@ gallery:
   - url: /assets/images/exercises/wall-climber-0.jpg
     image_path: /assets/images/exercises/wall-climber-0-320.jpg
     alt: "Wall climber"
-    title: "Wall climber"
+    title: &title "Wall climber"
   - url: /assets/images/exercises/wall-climber-1.jpg
     image_path: /assets/images/exercises/wall-climber-1-320.jpg
     alt: "Wall climber"
-    title: "Wall climber"
+    title: &title "Wall climber"
   - url: /assets/images/exercises/wall-climber-2.jpg
     image_path: /assets/images/exercises/wall-climber-2-320.jpg
     alt: "Wall climber"
-    title: "Wall climber"
+    title: &title "Wall climber"
 last_modified_at: 2014-10-10T21:21:30Z
 ---
 

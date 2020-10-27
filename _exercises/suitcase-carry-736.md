@@ -1,5 +1,5 @@
 ---
-title: "Suitcase carry"
+title: &title "Suitcase carry"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/suitcase-carry/

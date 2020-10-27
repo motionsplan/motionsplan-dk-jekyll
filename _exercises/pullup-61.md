@@ -1,5 +1,5 @@
 ---
-title: "Pullup, kropshævning med overhåndsgreb"
+title: &title "Pullup, kropshævning med overhåndsgreb"
 excerpt: "Hold fast i stangen med hænderne lidt bredere end skulderbreddde og håndfladerne pegende fremad. Træk dig op indtil du kigger over stangen og sænk dig kontrolleret igen."
 instructions: "Hold fast i stangen med hænderne lidt bredere end skulderbreddde og håndfladerne pegende fremad. Træk dig op indtil du kigger over stangen og sænk dig kontrolleret igen."
 permalink: /oevelse/pullup/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/pullup-0.jpg
   teaser: /assets/images/exercises/pullup-0-320.jpg
+  caption: *title
 tags:
   - bar
   - fitnessinstruktør
@@ -25,11 +26,11 @@ gallery:
   - url: /assets/images/exercises/pullup-0.jpg
     image_path: /assets/images/exercises/pullup-0-320.jpg
     alt: "Pullup, kropshævning med overhåndsgreb"
-    title: "Pullup, kropshævning med overhåndsgreb"
+    title: &title "Pullup, kropshævning med overhåndsgreb"
   - url: /assets/images/exercises/pullup-1.jpg
     image_path: /assets/images/exercises/pullup-1-320.jpg
     alt: "Pullup, kropshævning med overhåndsgreb"
-    title: "Pullup, kropshævning med overhåndsgreb"
+    title: &title "Pullup, kropshævning med overhåndsgreb"
 video:
   provider: youtube
   id: QWQqivQ92dE

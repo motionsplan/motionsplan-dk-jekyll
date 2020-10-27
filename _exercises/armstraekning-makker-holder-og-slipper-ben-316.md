@@ -1,5 +1,5 @@
 ---
-title: "Armstrækning, makker holder og slipper ben"
+title: &title "Armstrækning, makker holder og slipper ben"
 excerpt: "Makkeren holder dine ben ved sin hofte, mens du støtter på armene på jorden. Så begynder du at lave armstrækninger. En gang imellem slipper makkeren et af dine ben, og din opgave er at fastholde spændingen i kroppen."
 instructions: "Makkeren holder dine ben ved sin hofte, mens du støtter på armene på jorden. Så begynder du at lave armstrækninger. En gang imellem slipper makkeren et af dine ben, og din opgave er at fastholde spændingen i kroppen."
 permalink: /oevelse/armstraekning-makker-holder-og-slipper-ben/

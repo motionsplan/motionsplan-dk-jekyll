@@ -1,5 +1,5 @@
 ---
-title: "Udstrækning af triceps"
+title: &title "Udstrækning af triceps"
 instructions: "Stræk triceps ud ved at bøje albuen bag nakken. For større stræk brug modsatte hånd som ekstra pres. Hold fx strækket 30 sek, skift arm."
 permalink: /oevelse/udstraekning-af-triceps/
 redirect_from: /node/174
@@ -8,6 +8,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/udstraekning-af-triceps-0.jpg
   teaser: /assets/images/exercises/udstraekning-af-triceps-0-320.jpg
+  caption: *title
 tags:
   - Strækøvelser
   - Udstrækning
@@ -24,7 +25,7 @@ gallery:
   - url: /assets/images/exercises/udstraekning-af-triceps-0.jpg
     image_path: /assets/images/exercises/udstraekning-af-triceps-0-320.jpg
     alt: "Udstrækning og udspænding af triceps"
-    title: "Udstrækning og udspænding af triceps"
+    title: &title "Udstrækning og udspænding af triceps"
 last_modified_at: 2020-04-12T14:38:21Z
 video:
   provider: youtube

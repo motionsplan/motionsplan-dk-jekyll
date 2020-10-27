@@ -1,5 +1,5 @@
 ---
-title: "Macebell"
+title: &title "Macebell"
 excerpt: "Hold macebell i begge hænder og hold den frem foran dig. Herfra skal du svinge den rundt om hovedet og slutte i samme position, som du startede."
 instructions: "Hold macebell i begge hænder og hold den frem foran dig. Herfra skal du svinge den rundt om hovedet og slutte i samme position, som du startede."
 permalink: /oevelse/macebell/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/macebell-0.jpg
   teaser: /assets/images/exercises/macebell-0-320.jpg
+  caption: *title
 tags:
   - mace bell
 categories:
@@ -21,23 +22,23 @@ gallery:
   - url: /assets/images/exercises/macebell-0.jpg
     image_path: /assets/images/exercises/macebell-0-320.jpg
     alt: "Macebell"
-    title: "Macebell"
+    title: &title "Macebell"
   - url: /assets/images/exercises/macebell-1.jpg
     image_path: /assets/images/exercises/macebell-1-320.jpg
     alt: "Macebell"
-    title: "Macebell"
+    title: &title "Macebell"
   - url: /assets/images/exercises/macebell-2.jpg
     image_path: /assets/images/exercises/macebell-2-320.jpg
     alt: "Macebell"
-    title: "Macebell"
+    title: &title "Macebell"
   - url: /assets/images/exercises/macebell-3.jpg
     image_path: /assets/images/exercises/macebell-3-320.jpg
     alt: "Macebell"
-    title: "Macebell"
+    title: &title "Macebell"
   - url: /assets/images/exercises/macebell-4.jpg
     image_path: /assets/images/exercises/macebell-4-320.jpg
     alt: "Macebell"
-    title: "Macebell"
+    title: &title "Macebell"
 last_modified_at: 2013-05-29T20:43:34Z
 ---
 

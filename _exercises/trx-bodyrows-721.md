@@ -1,5 +1,5 @@
 ---
-title: "TRX Bodyrows"
+title: &title "TRX Bodyrows"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/trx-bodyrows/

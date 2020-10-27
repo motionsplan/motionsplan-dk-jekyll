@@ -1,5 +1,5 @@
 ---
-title: "Armstrækning, Superman"
+title: &title "Armstrækning, Superman"
 excerpt: "Udfør en almindelig armstrækning. Når du har strakte arme, løfter du ben og arm diagonalt, mens du kun støtter på modsatte hånd og fod."
 instructions: "Udfør en almindelig armstrækning. Når du har strakte arme, løfter du ben og arm diagonalt, mens du kun støtter på modsatte hånd og fod."
 permalink: /oevelse/armstraekning-superman/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/armstraekning-superman-0.jpg
   teaser: /assets/images/exercises/armstraekning-superman-0-320.jpg
+  caption: *title
 tags:
   - Pres
   - kropsvægt
@@ -23,15 +24,15 @@ gallery:
   - url: /assets/images/exercises/armstraekning-superman-0.jpg
     image_path: /assets/images/exercises/armstraekning-superman-0-320.jpg
     alt: "Armstrækning, Superman"
-    title: "Armstrækning, Superman"
+    title: &title "Armstrækning, Superman"
   - url: /assets/images/exercises/armstraekning-superman-1.jpg
     image_path: /assets/images/exercises/armstraekning-superman-1-320.jpg
     alt: "Armstrækning, Superman"
-    title: "Armstrækning, Superman"
+    title: &title "Armstrækning, Superman"
   - url: /assets/images/exercises/armstraekning-superman-2.jpg
     image_path: /assets/images/exercises/armstraekning-superman-2-320.jpg
     alt: "Armstrækning, Superman"
-    title: "Armstrækning, Superman"
+    title: &title "Armstrækning, Superman"
 video:
   provider: vimeo
   id: 3944269

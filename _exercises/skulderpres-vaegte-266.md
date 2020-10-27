@@ -1,5 +1,5 @@
 ---
-title: "Skulderpres, vægte"
+title: &title "Skulderpres, vægte"
 excerpt: "Sæt dig på en en skråbænk og start vægtene fra skuldrene. Pres op over hovedet indtil du har strakte arme. Sænk langsomt til udgangspunktet igen."
 instructions: "Sæt dig på en en skråbænk og start vægtene fra skuldrene. Pres op over hovedet indtil du har strakte arme. Sænk langsomt til udgangspunktet igen."
 permalink: /oevelse/skulderpres-vaegte/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/skulderpres-vaegte-0.jpg
   teaser: /assets/images/exercises/skulderpres-vaegte-0-320.jpg
+  caption: *title
 tags:
   - vægtstang
   - håndvægte
@@ -24,15 +25,15 @@ gallery:
   - url: /assets/images/exercises/skulderpres-vaegte-0.jpg
     image_path: /assets/images/exercises/skulderpres-vaegte-0-320.jpg
     alt: "Skulderpres, vægte"
-    title: "Skulderpres, vægte"
+    title: &title "Skulderpres, vægte"
   - url: /assets/images/exercises/skulderpres-vaegte-1.jpg
     image_path: /assets/images/exercises/skulderpres-vaegte-1-320.jpg
     alt: "Skulderpres, vægte"
-    title: "Skulderpres, vægte"
+    title: &title "Skulderpres, vægte"
   - url: /assets/images/exercises/skulderpres-vaegte-2.jpg
     image_path: /assets/images/exercises/skulderpres-vaegte-2-320.jpg
     alt: "Skulderpres, vægte"
-    title: "Skulderpres, vægte"
+    title: &title "Skulderpres, vægte"
 last_modified_at: 2011-04-19T11:37:26Z
 ---
 

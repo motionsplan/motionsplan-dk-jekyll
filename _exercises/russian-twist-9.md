@@ -1,5 +1,5 @@
 ---
-title: "Russian twist"
+title: &title "Russian twist"
 excerpt: "Sid på numsen med bøjede knæ. Læn dig tilbage indtil mavemusklerne begynder at stramme. Med håndfladerne sammen roterer du skiftevis fra den ene side og til den anden side."
 instructions: "Sid på numsen med bøjede knæ. Læn dig tilbage indtil mavemusklerne begynder at stramme. Med håndfladerne sammen roterer du skiftevis fra den ene side og til den anden side."
 permalink: /oevelse/russian-twist/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/russian-twist-0.jpg
   teaser: /assets/images/exercises/russian-twist-0-320.jpg
+  caption: *title
 tags:
   - Kropsstamme
   - Styrketræning
@@ -31,15 +32,15 @@ gallery:
   - url: /assets/images/exercises/russian-twist-0.jpg
     image_path: /assets/images/exercises/russian-twist-0-320.jpg
     alt: "Russian twist"
-    title: "Russian twist"
+    title: &title "Russian twist"
   - url: /assets/images/exercises/russian-twist-1.jpg
     image_path: /assets/images/exercises/russian-twist-1-320.jpg
     alt: "Russian twist"
-    title: "Russian twist"
+    title: &title "Russian twist"
   - url: /assets/images/exercises/russian-twist-2.jpg
     image_path: /assets/images/exercises/russian-twist-2-320.jpg
     alt: "Russian twist"
-    title: "Russian twist"
+    title: &title "Russian twist"
 last_modified_at: 2014-10-13T22:08:53Z
 ---
 

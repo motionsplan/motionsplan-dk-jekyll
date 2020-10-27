@@ -1,5 +1,5 @@
 ---
-title: "Overhead dumbell lockout"
+title: &title "Overhead dumbell lockout"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/overhead-dumbell-lockout/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/overhead-dumbell-lockout-0.jpg
   teaser: /assets/images/exercises/overhead-dumbell-lockout-0-320.jpg
+  caption: *title
 tags:
   - Kropsstamme
   - Balance
@@ -34,7 +35,7 @@ gallery:
   - url: /assets/images/exercises/overhead-dumbell-lockout-0.jpg
     image_path: /assets/images/exercises/overhead-dumbell-lockout-0-320.jpg
     alt: "Overhead dumbell lockout"
-    title: "Overhead dumbell lockout"
+    title: &title "Overhead dumbell lockout"
 last_modified_at: 2015-03-27T13:55:04Z
 ---
 

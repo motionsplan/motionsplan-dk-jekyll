@@ -1,5 +1,5 @@
 ---
-title: "Læg"
+title: &title "Læg"
 excerpt: "Læg"
 instructions: "Læg"
 permalink: /oevelse/laeg/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/laeg-0.jpg
   teaser: /assets/images/exercises/laeg-0-320.jpg
+  caption: *title
 tags:
   - Ben
   - Styrketræning
@@ -29,11 +30,11 @@ gallery:
   - url: /assets/images/exercises/laeg-0.jpg
     image_path: /assets/images/exercises/laeg-0-320.jpg
     alt: "Læg"
-    title: "Læg"
+    title: &title "Læg"
   - url: /assets/images/exercises/laeg-1.jpg
     image_path: /assets/images/exercises/laeg-1-320.jpg
     alt: "Læg"
-    title: "Læg"
+    title: &title "Læg"
 last_modified_at: 2014-10-12T19:19:38Z
 ---
 

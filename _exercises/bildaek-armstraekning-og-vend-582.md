@@ -1,5 +1,5 @@
 ---
-title: "Bildæk, armstrækning og vend"
+title: &title "Bildæk, armstrækning og vend"
 instructions: ""
 permalink: /oevelse/bildaek-armstraekning-og-vend/
 redirect_from:
@@ -10,6 +10,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/bildaek-armstraekning-og-vend-0.jpg
   teaser: /assets/images/exercises/bildaek-armstraekning-og-vend-0-320.jpg
+  caption: *title
 tags:
   - Kropsstamme
   - outdoor
@@ -25,15 +26,15 @@ gallery:
   - url: /assets/images/exercises/bildaek-armstraekning-og-vend-0.jpg
     image_path: /assets/images/exercises/bildaek-armstraekning-og-vend-0-320.jpg
     alt: "Bildæk, armstrækning og vend"
-    title: "Bildæk, armstrækning og vend"
+    title: &title "Bildæk, armstrækning og vend"
   - url: /assets/images/exercises/bildaek-armstraekning-og-vend-1.jpg
     image_path: /assets/images/exercises/bildaek-armstraekning-og-vend-1-320.jpg
     alt: "Bildæk, armstrækning og vend"
-    title: "Bildæk, armstrækning og vend"
+    title: &title "Bildæk, armstrækning og vend"
   - url: /assets/images/exercises/bildaek-armstraekning-og-vend-2.jpg
     image_path: /assets/images/exercises/bildaek-armstraekning-og-vend-2-320.jpg
     alt: "Bildæk, armstrækning og vend"
-    title: "Bildæk, armstrækning og vend"
+    title: &title "Bildæk, armstrækning og vend"
 last_modified_at: 2014-10-03T11:04:19Z
 ---
 

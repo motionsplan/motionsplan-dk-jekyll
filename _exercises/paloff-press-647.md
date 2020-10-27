@@ -1,5 +1,5 @@
 ---
-title: "Paloff Press"
+title: &title "Paloff Press"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/paloff-press/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/paloff-press-0.jpg
   teaser: /assets/images/exercises/paloff-press-0-320.jpg
+  caption: *title
 tags:
   - Kropsstamme
   - Balance
@@ -33,15 +34,15 @@ gallery:
   - url: /assets/images/exercises/paloff-press-0.jpg
     image_path: /assets/images/exercises/paloff-press-0-320.jpg
     alt: "Paloff Press"
-    title: "Paloff Press"
+    title: &title "Paloff Press"
   - url: /assets/images/exercises/paloff-press-1.jpg
     image_path: /assets/images/exercises/paloff-press-1-320.jpg
     alt: "Paloff Press"
-    title: "Paloff Press"
+    title: &title "Paloff Press"
   - url: /assets/images/exercises/paloff-press-2.jpg
     image_path: /assets/images/exercises/paloff-press-2-320.jpg
     alt: "Paloff Press"
-    title: "Paloff Press"
+    title: &title "Paloff Press"
 video:
   provider: youtube
   id: BA-P6E6Faj8
