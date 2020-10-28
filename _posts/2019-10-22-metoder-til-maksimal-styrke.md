@@ -107,7 +107,7 @@ Hvis du kan fuldende en hel wave, kan du starte en ny wave. Hvis du ikke kan gen
 
 ### Wave baseret på RPE
 
-Ved brug af RPE som intensitetsskala[^note] for at vælge sin _wave_ sørger man for at have en _autoreguleret_ træning, hvor man tilføjer et passende antal kilo til stangen i forhold til [RPE](/rpe/).
+Ved brug af RPE som intensitetsskala for at vælge sin _wave_ sørger man for at have en _autoreguleret_ træning, hvor man tilføjer et passende antal kilo til stangen i forhold til [RPE](/rpe/).
 
 {% include figure image_path="https://articles.reactivetrainingsystems.com/wp-content/uploads/2015/11/E1RM-TABLE.png" alt="RPE, reps og procentvise anstrengelse" caption="RPE, reps og procentvise anstrengelse" %}
 
@@ -173,6 +173,10 @@ Jeg har skrevet et andet indlæg om [metoder til maksimal muskeltilvækst og hyp
 
 ## Referencer
 
+<details markdown="1">
+  <summary>Se referencer om metoder til maksimal styrke</summary>
+
 - [Wave ladders for maximal strength](https://www.t-nation.com/training/wave-ladders-for-maximum-strength)
 - [The Truth about Rest Pause Training](https://www.t-nation.com/training/the-truth-about-rest-pause-training)
 - [Rest-Pause Training Methods Explained: Creating Intensity For New Muscle!](https://www.bodybuilding.com/content/rest-pause-training-methods-explained-creating-intensity-for-new-muscle.html)
+</details>
