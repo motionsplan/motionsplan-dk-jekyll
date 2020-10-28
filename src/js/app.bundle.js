@@ -268,6 +268,26 @@ $(document).ready(function() {
         var fp = fp_navy.CalculateFatPercentNavy(sex, height, waist, neck, hip);
         $("#fat_percent_navy").val(fp.getFatPercent());
     });
+    $("#calculator_wave_ladder").submit(function(e) {
+        console.log("Calculate Wave Ladder");
+        e.preventDefault();
+
+        let rm = Number($("[name='wave_ladder_1rm']").val());
+        let intensity = Number($("[name='wave_ladder_intensity']").val());
+        let wave_2_plus = Number($("[name='wave_ladder_2_plus']").val());
+        let wave_3_plus = Number($("[name='wave_ladder_3_plus']").val());
+
+        let weight = rm * intensity / 100;
+        $("#wave_ladder_1_1").val(weight);
+        $("#wave_ladder_1_2").val(weight);
+        $("#wave_ladder_1_3").val(weight);
+        $("#wave_ladder_2_1").val(weight + wave_2_plus);
+        $("#wave_ladder_2_2").val(weight + wave_2_plus);
+        $("#wave_ladder_2_3").val(weight + wave_2_plus);
+        $("#wave_ladder_3_1").val(weight + wave_2_plus + wave_3_plus);
+        $("#wave_ladder_3_2").val(weight + wave_2_plus + wave_3_plus);
+        $("#wave_ladder_3_3").val(weight + wave_2_plus + wave_3_plus);
+    });
     $("#calculator_step_to_km").submit(function(e) {
         console.log("Steps to km");
         e.preventDefault();

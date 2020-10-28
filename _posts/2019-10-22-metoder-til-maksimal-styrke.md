@@ -103,11 +103,11 @@ En traditionel wave har det tunge sæt til sidst i en wave, men du kan også ven
 
 Hvis du kan fuldende en hel wave, kan du starte en ny wave. Hvis du ikke kan gennemføre reps i et sæt, så stopper du øvelsen og _waven_.
 
+{% include calculate-wave-ladder.html %}
+
 ### Wave baseret på RPE
 
-Ved brug af RPE som intensitetsskala[^note] for at vælge sin _wave_ sørger man for at have en _autoreguleret_ træning, hvor man tilføjer et passende antal kilo til stangen.
-
-[^note]: Vi har skrevet mere om [RPE i denne artikel](/rpe/).
+Ved brug af RPE som intensitetsskala[^note] for at vælge sin _wave_ sørger man for at have en _autoreguleret_ træning, hvor man tilføjer et passende antal kilo til stangen i forhold til [RPE](/rpe/).
 
 {% include figure image_path="https://articles.reactivetrainingsystems.com/wp-content/uploads/2015/11/E1RM-TABLE.png" alt="RPE, reps og procentvise anstrengelse" caption="RPE, reps og procentvise anstrengelse" %}
 
