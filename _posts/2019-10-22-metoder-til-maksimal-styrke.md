@@ -1,11 +1,12 @@
 ---
-title: "Maksimal styrke: Metoder til maksimal muskelstyrke 🏋️‍♀️"
+title: &title "Maksimal styrke: Metoder til maksimal muskelstyrke 🏋️‍♀️"
 permalink: /maksimal-styrke/
 excerpt: "Maksimal muskelstyrke kan trænes på flere måder. Wave loading og rest pause kan være effektive metoder til at træne maksimal styrke."
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1534438097545-a2c22c57f2ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
   teaser: https://images.unsplash.com/photo-1534438097545-a2c22c57f2ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80
+  caption: *title
 category:
   - Styrketræning
 tags:
@@ -50,7 +51,7 @@ Formålet med opvarmningen er at optimere løfteteknikken inden arbejdssættene.
 
 Ideen bag waves er at udnytte _post-activation potentiation_ (PAP). Teorien er at en maksimal sammentrækning aktiverer nervesystemet, hvilket øger kapaciteten til at rekruttere muskelfibre, når man løfter eksempelvis tunge 1'ere og 2'ere på over 85% af 1RM. Det skaber en PAP, der kan måles som øget _rate of force development (RFD)_, power og maksimal kraft omkring 7-8 minutter senere. Der er uenighed om, hvor længe effekten varer ved, men nogle studier foreslår, at effekten måske varer i op til 24 timer efter. 
 
-Teoretisk set kan løfteren alts nyde øget kraft i de senere sæt ved at lave maksimale sammentrækninger i de forrige sæt. Derved kan man i de følgende sæt lave flere reps og løfte mere vægt. 
+Teoretisk set kan løfteren altså nyde øget kraft i de senere sæt ved at lave maksimale sammentrækninger i de forrige sæt. Derved kan man i de følgende sæt lave flere reps og løfte mere vægt. 
 
 Alt efter hvor godt PAP fungerer undervejs, så er det ikke sikkert, at RPE går lige så meget op igennem de forskellige waves, som man kunne forvente. Men den sidste wave vil helt sikkert være hård.
 
