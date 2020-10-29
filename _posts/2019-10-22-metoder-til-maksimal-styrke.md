@@ -79,6 +79,8 @@ I en traditionel wave gør det tunge sidste sæt dig klar til de tungere sæt i 
 - 2 reps af 88% af 1RM _+ 2-20 kg (alt efter overskud og øvelse)_
 - 1 rep af 92% af 1RM _+ 2-20 kg (alt efter overskud og øvelse)_
 
+{% include calculate-wave-traditional.html %}
+
 ### Wave ladders
 
 En traditionel wave har det tunge sæt til sidst i en wave, men du kan også vende _waven_ om og lægge det korte sæt først og gradvist øge antallet af gentagelser. _Wave ladders_ er en hybrid mellem to metoder. 

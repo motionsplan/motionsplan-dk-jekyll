@@ -629,6 +629,30 @@ $(document).ready(function() {
         $("#wave_ladder_3_2").val(weight + wave_2_plus + wave_3_plus);
         $("#wave_ladder_3_3").val(weight + wave_2_plus + wave_3_plus);
     });
+    $("#calculator_wave_traditional").submit(function(e) {
+        console.log("Calculate Wave Traditional");
+        e.preventDefault();
+
+        let rm = Number($("[name='wave_traditional_1rm']").val());
+        let intensity_1 = Number($("[name='wave_traditional_intensity_1']").val());
+        let intensity_2 = Number($("[name='wave_traditional_intensity_2']").val());
+        let intensity_3 = Number($("[name='wave_traditional_intensity_3']").val());
+        let wave_2_plus = Number($("[name='wave_traditional_2_plus']").val());
+        let wave_3_plus = Number($("[name='wave_traditional_3_plus']").val());
+
+        let weight_1 = rm * intensity_1 / 100;
+        let weight_2 = rm * intensity_2 / 100;
+        let weight_3 = rm * intensity_3 / 100;
+        $("#wave_traditional_1_1").val(weight_1);
+        $("#wave_traditional_1_2").val(weight_2);
+        $("#wave_traditional_1_3").val(weight_3);
+        $("#wave_traditional_2_1").val(weight_1 + wave_2_plus);
+        $("#wave_traditional_2_2").val(weight_2 + wave_2_plus);
+        $("#wave_traditional_2_3").val(weight_3 + wave_2_plus);
+        $("#wave_traditional_3_1").val(weight_1 + wave_2_plus + wave_3_plus);
+        $("#wave_traditional_3_2").val(weight_2 + wave_2_plus + wave_3_plus);
+        $("#wave_traditional_3_3").val(weight_3 + wave_2_plus + wave_3_plus);
+    });
     $("#calculator_step_to_km").submit(function(e) {
         console.log("Steps to km");
         e.preventDefault();

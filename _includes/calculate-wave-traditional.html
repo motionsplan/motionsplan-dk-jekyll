@@ -1,0 +1,77 @@
+<form class="calculator" id="calculator_wave_traditional">
+    <fieldset>
+        <legend>Udregn traditionel wave for maksimal styrke</legend>
+        <div class="form-group">
+            <label>1RM (One Repetition Maximum)
+                <input type="number" min="0" max="500" name="wave_traditional_1rm" placeholder="1RM i kg" required>
+            </label>
+        </div>
+        <fieldset class="settings">
+            <legend>Intensitet i de forskellige sæt (% af 1RM)</legend>
+            <div class="form-group form-inline">
+                <label>Sæt 1 (%)
+                    <input type="number" min="0" max="100" name="wave_traditional_intensity_1" class="input-small" placeholder="Intensitet ift. max" value="85" required>
+                </label>
+                <label>Sæt 2 (%)
+                    <input type="number" min="0" max="100" name="wave_traditional_intensity_2" class="input-small" placeholder="Intensitet ift. max" value="88" required>
+                </label>
+                <label>Sæt 3 (%)
+                    <input type="number" min="0" max="100" name="wave_traditional_intensity_3" class="input-small" placeholder="Intensitet ift. max" value="92" required>
+                </label>
+            </div>
+        </fieldset>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <legend>1. runde</legend>
+        <div class="form-group form-inline">
+            <label>3 x
+                <input id="wave_traditional_1_1" disabled class="input-small">
+            </label>
+            <label>2 x
+                <input id="wave_traditional_1_2" disabled class="input-small">
+            </label>
+            <label>1 x
+                <input id="wave_traditional_1_3" disabled class="input-small">
+            </label>
+        </div>
+    </fieldset>
+    <fieldset class="results">
+        <legend>2. runde</legend>
+        <div class="form-group form-inline">
+            <label>Tilføj (kg)
+                <input name="wave_traditional_2_plus" type="number" min="0" max="20" value="2.5" step="0.25" class="input-small">
+            </label>
+        </div>
+        <div class="form-group form-inline">
+            <label>3 x
+                <input id="wave_traditional_2_1" disabled class="input-small">
+            </label>
+            <label>2 x
+                <input id="wave_traditional_2_2" disabled class="input-small">
+            </label>
+            <label>1 x
+                <input id="wave_traditional_2_3" disabled class="input-small">
+            </label>
+        </div>
+    </fieldset>
+    <fieldset class="results">
+        <legend>3. runde</legend>
+        <div class="form-group form-inline">
+            <label>Tilføj (kg)
+                <input name="wave_traditional_3_plus" type="number" min="0" max="20" value="2.5" step="0.25" class="input-small">
+            </label>
+        </div>
+        <div class="form-group form-inline">
+            <label>3 x 
+                <input id="wave_traditional_3_1" disabled class="input-small">
+            </label>
+            <label>2 x 
+                <input id="wave_traditional_3_2" disabled class="input-small">
+            </label>
+            <label>1 x 
+                <input id="wave_traditional_3_3" disabled class="input-small">
+            </label>
+        </div>
+    </fieldset>
+</form>
