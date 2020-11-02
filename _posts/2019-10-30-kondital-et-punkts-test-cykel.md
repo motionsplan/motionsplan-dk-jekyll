@@ -14,7 +14,7 @@ tags:
   - cykel
   - submaksimal test
   - indirekte test
-last_modified_at: 2019-03-06T23:14:14Z
+last_modified_at: 2020-08-06T23:14:14Z
 toc: true
 feature_row:
   - image_path: https://books.google.dk/books/content?id=BC9SiAsUPqsC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70NFS4lEU6whWCqlyrgOGErL5OJe7YUn-qJQJ5_NuL_euKqiLC3Uf1qDPx-lSIhDDhVIpgexBiz5cdAiKXbtccrKfOlel8OTdj9EgWhSXwkff-qWaHaQt5WU1MvzRP65Jcjll3V
@@ -26,33 +26,68 @@ feature_row:
     btn_class: "btn--success"
 ---
 
-Åstrands et-punktstest er en konditionstest, hvor forsøgspersonen kun skal arbejde på en submaksimal belastning på en kondicykel. Ud fra pulsen og belastningen kan man med Åstrands Nomogram estimere maxpulsen.
+Åstrands et-punktstest er en submaksimal konditionstest udført på en kondicykel. Åstrands test er baseret på en sammenhæng mellem pulsen og belastningen, og man kan med Åstrands Nomogram eller formler estimere den maksimale iltoptagelse og konditallet.
 
-Jeg beskriver i det følgende, hvad Åstrands et-punktstest er, og hvordan testen udføres?
+Jeg beskriver i det følgende, hvad Åstrands et-punktstest er, og hvordan Åstrands test udføres?
 
-Hvad er Åstrands etpunktstest? **Åstrands et-punktstest cykeltest er en enkel, submaksimal konditionstest, som kan bruges til at estimere forsøgspersonens kondital baseret på belastningen og pulsen.**
+Hvad er Åstrands etpunktstest? **Åstrands et-punktstest er en enkel, submaksimal konditionstest udført på cykel, som pålideligt kan vise belastningen. Åstrands tetst kan bruges til at estimere forsøgspersonens maksimale iltoptagelse og kondital baseret på belastningen, pulsen og kropsvægten.**
 
 Hvis du leder efter [Åstrands to-punktstest, så har jeg skrevet om den her]({% link _posts/2019-10-31-kondital-to-punkts-test-cykel.md %}).
 
 ## Hvordan udfører du Åstrands etpunktstest?
 
-Til Åstrands **et-punktstest** skal du bruge en kondicykel, der kan vise belastningen i watt. Desuden skal du måle din puls, mens du cykler. Du kan overveje at bruge en pulsmåler, da det gør målingen af pulsen noget lettere.
+For at udføre Åstrands **et-punktstest** skal du bruge en kondicykel, der kan vise belastningen i watt eller kgm/min (som fx et Monark cykelergomenter gør). Desuden skal du måle din puls, mens du cykler. Du kan overveje at bruge en pulsmåler, da det gør målingen af pulsen noget lettere.
 
-Du skal køre på en af disse belastninger: 50, 75, 100 eller 150 watt. Vælg en belastning, der gør, at din puls opnår _steady state_ omkring 110-150 slag/min efter omkring 5 minutters cykling. Du skal være moderat forpustet, men det må ikke føles hårdt. Husk at Åstrands etpunktstest er en submaksimal konditionstest.
+Du kan vælge at køre på en af disse belastninger: 50, 75, 100, 150 eller 200 watt.
+
+Du skal cykle med 50-70 RPM, hvis du kører på en cykel med fast mekanisk bremsning (som fx Monark), men du kan mere frit vælge hastighed, hvis du cyklen tilpasser belastningen i forhold til omdrejningshastigheden.
+
+Vælg en belastning, der gør, at din puls opnår _steady state_ omkring 110-170 slag/min efter omkring 6 minutters cykling. Du skal være moderat forpustet, men det må ikke føles hårdt. Husk at Åstrands etpunktstest er en submaksimal konditionstest.
+
+Skriv pulsen ned hvert minut gennem testen. Hvis ikke pulsen er inden for 5 pulsslag pr. minut for minut 5 og 6, så fortsæt i et ekstra minut. Hvis ikke pulsen ligger mellem 110 og 170 så fortsæt et minut mere med en justeret modstand.
+
+## Beregn kondital med Åstrands etpunktstest
 
 {% include calculate-etpunkttest.html %}
 
 ## Baggrund for beregningen i Åstrands etpunktstest
 
-Oprindeligt skulle konditallet findes ved at bruge det [nomogram, Åstrand har udviklet](https://www.sst.dk/-/media/Udgivelser/2006/Publ2006/CFF/Fysisk_aktivitet_psyk/Testmanual_psyk,-d-,pdf.ashx), eller ved at aflæse [konditallet i en tabel fx fra Monarks beskrivelse af Åstrands cykeltest](https://sport-medical.monarkexercise.se/professor-astrand-submaximal-cycle-test/)].
+Generelt kan man sige at jo lavere _steady state_ puls, desto bedre kondition er du i.
 
-De anvendte sammenhænge mellem submaksimal puls, arbejdsbelastning, alder, køn og iltoptagelse er fundet gennem regressionsanalyse på et stort antal forsøgspersoner.
+Oprindeligt skulle konditallet findes ved at bruge det [nomogram, Åstrand har udviklet](https://www.sst.dk/-/media/Udgivelser/2006/Publ2006/CFF/Fysisk_aktivitet_psyk/Testmanual_psyk,-d-,pdf.ashx), eller ved at aflæse [konditallet i en tabel fx fra Monarks beskrivelse af Åstrands cykeltest](https://sport-medical.monarkexercise.se/professor-astrand-submaximal-cycle-test/).
 
-{% include figure image_path="/assets/images/aastrand-nomogram.png" caption="Åstrands nomogram til bestemmelse af maksimal iltoptagelse for etpunktstesten" alt="Åstrands nomogram til bestemmelse af maksimal iltoptagelse for etpunktstesten" %}
+{% include figure image_path="/assets/images/aastrand-nomogram.png" caption="Åstrands nomogram til bestemmelse af maksimal iltoptagelse for etpunktstesten. Se også [en version med alder og kropsvægt](https://www.topendsports.com/testing/tests/astrand.htm)." alt="Åstrands nomogram til bestemmelse af maksimal iltoptagelse for etpunktstesten" %}
 
-Morten Zacho har estimeret en formel, som han har delt et regneark. Du kan frit downloade og bruge beregneren til eget brug fra [denne side](http://web.archive.org/web/20150316134300/http://www.motion-online.dk/konditionstraening/testning/et-punkts_test_paa_cykel/){:rel="nofollow"}.
+Senere er der lavet regressionsanalyser, hvor forskere har givet deres bud på formler, som kan bruges til at udregne iltoptagelsen på baggrund af Åstrands etpunktstest.
 
-[Download Excel-ark lavet af Morten Zacho](http://web.archive.org/web/20150316134300/http://www.motion-online.dk/konditionstraening/testning/et-punkts_test_paa_cykel/){:rel="nofollow" .btn .btn--large .btn--info }
+Morten Zacho har estimeret en formel, som han har delt et regneark. Du kan frit downloade og bruge regnearket til eget brug fra [denne side](http://web.archive.org/web/20150316134300/http://www.motion-online.dk/konditionstraening/testning/et-punkts_test_paa_cykel/){:rel="nofollow"}, men formlen er desværre ikke offentligt tilgængelig.
+
+[Åstrands Etpunktstest på Engelsk](https://www.health-calc.com/fitness-tests/aastrand-test){: .btn .btn--large .btn--info }
+
+I beregneren ovenfor har jeg brugt formlerne fra Buono et al (1989) til at estimere den maksimale iltoptagelse:
+
+- kvinder: VO<sub>2</sub>max = (0.00193 x workload + 0.326) / (0.769 x HRss - 56.1) x 100
+- mænd: VO<sub>2max</sub> = (0.00212 x workload + 0.299) / (0.769 x HRss - 48.5) x 100
+
+## Alderskorrektion
+
+Til Åstrands etpunktstest giver de mest pålidelige resultater, hvis du korrigerer for alder. I beregneren ovenfor korrigerer jeg for alder med følgende formel fra Buono et al (1989).
+
+VO<sub>2</sub> = (0.166 - 0.028 * age) + 0.026 * weight + 0.66 * VO<sub>2</sub>
+
+Der er også lavet en tabel med [korrektionsfaktorerer til alderskorrektion](https://www.topendsports.com/testing/tests/astrand.htm) af resultatet.
+
+| Alder	| Korrektionsfaktor |
+|-|-|
+| 15 | 1.10 |
+| 25 | 1.00 |
+| 35 | 0.87 |
+| 40 | 0.83 |
+| 45 | 0.78 |
+| 50 | 0.75 |
+| 55 | 0.71 |
+| 60 | 0.68 |
+| 65 | 0.65 |
 
 ## Hvilke usikkerheder er der ved et-punktstesten?
 
@@ -66,10 +101,21 @@ Alle submaksimale tests er behæftet med en del usikkerhed i forhold til at esti
 
 Du kan læse mere om testen fra [Monark](https://sport-medical.monarkexercise.se/professor-astrand-submaximal-cycle-test/), som laver de legendariske Monark-cykler, som er blevet brugt i rigtig mange år i testcentre rundt omkring i verden.
 
-Et alternativ til Etpunktstesten er [Ekblom-Bak-testen](https://www.gih.se/ekblombaktest). Har den test udbredelse i Danmark?
+Et alternativ til Etpunktstesten er [Ekblom-Bak-testen](https://www.gih.se/ekblombaktest). Har Ekblom-Bak-testen udbredelse i Danmark?
 
-## Referencer til Åstrands Etpunktstest
+## Referencer til Åstrands etpunktstest
 
 {% include feature_row type="left" %}
+
+<details markdown="1">
+  <summary>Se referencer til Åstrand testen</summary>
+  
+- Åstrand, I. (1960) "Aerobic work capacity in men and women with special reference to age". Acta Physiologica Scandinavica, vol. 49, suppl 169.
+- Astrand PO, Rodahl K. Text Book of Work Physiology: Physiological basis of exercise. New York: McGraw Hill, 1986.
+- Åstrand, P.-O. & Ryhming, I. (1954) "A nomogram for calculation of aerobic capacity (physical fitness) from pulse rate during submaximal work." J Appl Physiol, 7, page 218-221.
+- Buono MJ, Roby JJ, Micale FG, Sallis JF. Predicting maximal oxygen uptake in children: modification of the Astrand-Ryhming test. Pediatric Exercise Science 1989;1:278-283.
+- RE Cink and TR Thomas, Validity of the Astrand-Ryhming nomogram for predicting maximal oxygen intake. British Journal of Sports Medicine, 1981, Vol 15, Issue 3 182-185.
+Legge and Banister, The Astrand-Rhyming nomogram revisited J Appl Physiol.1986; 61: 1203-1209.
+</details>
 
 <img src="/assets/images/aastrand-nomogram.png" data-pin-description="Åstrands Nomogram" style="display:none;">

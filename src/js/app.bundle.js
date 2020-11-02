@@ -2,6 +2,7 @@
 
 /* global $ */
 
+const jog = require('./fitness-jogging');
 const jump_reach = require('./jumpreach');
 const tee_pal = require('./bmr-totalenergy-pal');
 const schofield = require('./bmr-schofield');
@@ -406,20 +407,38 @@ $(document).ready(function() {
         $("[name='peak_power']").val(et.getPeakPower());
     });
     // Udregn 1punkttest
+    $("#calculator_fitness_jog_vo2").submit(function(e) {
+        console.log("Etpunkt test");
+        e.preventDefault();
+
+        var min = Number($("[name='time_min']").val());
+        var sec = Number($("[name='time_sec']").val());
+        let time = min + (sec / 60);
+        var gender = Number($("[name='gender']").val());
+        var hr = Number($("[name='hr']").val());
+        var age = Number($("[name='age']").val());
+        var weight = Number($("[name='weight']").val());
+
+        // sex, age, weight, time, hr
+        var et = jog.VO2MaxJog(gender, age, weight, time, hr);
+
+        $("[name='vo2max']").val(et.getMaximalOxygenUptake().toFixed(2));
+        $("[name='kondital']").val(et.getFitnessLevel().toFixed(2));
+    });
     $("#calculator_etpunkttest").submit(function(e) {
         console.log("Etpunkt test");
         e.preventDefault();
 
         var work = Number($("[name='work']").val());
         var gender = Number($("[name='gender']").val());
-        var puls = Number($("[name='puls']").val());
+        var puls = Number($("[name='hr']").val());
         var age = Number($("[name='age']").val());
         var weight = Number($("[name='weight']").val());
 
-        var et = etpunkt.EtPunktTest(gender, age, weight, work, puls);
+        var et = etpunkt.EtPunktTest(gender, age, weight, puls, work);
 
-        $("[name='vo2max']").val(et.getMaximalOxygenUptake());
-        $("[name='kondital']").val(et.getFitnessLevel());
+        $("[name='vo2max']").val(et.getMaximalOxygenUptake().toFixed(2));
+        $("[name='kondital']").val(et.getFitnessLevel().toFixed(2));
     });
     // Udregn 2punkttest
     $("#calculator_topunkttest").submit(function(e) {
