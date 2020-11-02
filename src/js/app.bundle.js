@@ -423,41 +423,41 @@ $(document).ready(function() {
         var et = jog.VO2MaxJog(gender, age, weight, time, hr);
 
         $("[name='vo2max']").val(et.getMaximalOxygenUptake().toFixed(2));
-        $("[name='kondital']").val(et.getFitnessLevel().toFixed(2));
+        $("[name='kondital']").val(et.getFitnessLevel().toFixed(0));
     });
     $("#calculator_etpunkttest").submit(function(e) {
         console.log("Etpunkt test");
         e.preventDefault();
 
-        var work = Number($("[name='work']").val());
-        var gender = Number($("[name='gender']").val());
-        var puls = Number($("[name='hr']").val());
-        var age = Number($("[name='age']").val());
-        var weight = Number($("[name='weight']").val());
+        let work = Number($("[name='work']").val());
+        let gender = Number($("[name='gender']").val());
+        let puls = Number($("[name='hr']").val());
+        let age = Number($("[name='age']").val());
+        let weight = Number($("[name='weight']").val());
 
-        var et = etpunkt.EtPunktTest(gender, age, weight, puls, work);
+        let et = etpunkt.EtPunktTest(gender, age, weight, puls, work);
 
         $("[name='vo2max']").val(et.getMaximalOxygenUptake().toFixed(2));
-        $("[name='kondital']").val(et.getFitnessLevel().toFixed(2));
+        $("[name='kondital']").val(et.getFitnessLevel().toFixed(0));
     });
     // Udregn 2punkttest
     $("#calculator_topunkttest").submit(function(e) {
         console.log("Topunkt test");
         e.preventDefault();
 
-        var work_1 = Number($("[name='work_1']").val());
-        var work_2 = Number($("[name='work_2']").val());
-        var hr_1 = Number($("[name='hr_1']").val());
-        var hr_2 = Number($("[name='hr_2']").val());
-        var age = Number($("[name='age']").val());
-        var weight = Number($("[name='weight']").val());
-        var max_hr = Number($("[name='max_hr']").val());
+        let work_1 = Number($("[name='work_1']").val());
+        let work_2 = Number($("[name='work_2']").val());
+        let hr_1 = Number($("[name='hr_1']").val());
+        let hr_2 = Number($("[name='hr_2']").val());
+        let age = Number($("[name='age']").val());
+        let weight = Number($("[name='weight']").val());
+        let max_hr = Number($("[name='max_hr']").val());
 
         var et = topunkt.ToPunktTest(age, weight, max_hr, work_1, hr_1, work_2, hr_2);
 
-        $("[name='work_max']").val(et.getMaximalWork());
-        $("[name='vo2max']").val(et.getMaximalOxygenUptake());
-        $("[name='kondital']").val(et.getFitnessLevel());
+        $("[name='work_max']").val(et.getMaximalWork().toFixed(0));
+        $("[name='vo2max']").val(et.getMaximalOxygenUptake().toFixed(2));
+        $("[name='kondital']").val(et.getFitnessLevel().toFixed(0));
     });
     // Calculate Max Heart Rate
     $("#calculator_maxhr").submit(function(e) {
@@ -740,14 +740,14 @@ $(document).ready(function() {
         console.log("Calculate Walktest 1,6 km");
         e.preventDefault();
 
-        var min = Number($("[name='min']").val());
-        var sec = Number($("[name='sec']").val());
-        var hr_after = Number($("[name='hr_after']").val());
-        var gender = $("[name='gender']").val();
-        var age = Number($("[name='age']").val());
-        var weight = Number($("[name='weight']").val());
+        let min = Number($("[name='min']").val());
+        let sec = Number($("[name='sec']").val());
+        let hr_after = Number($("[name='hr_after']").val());
+        let gender = $("[name='gender']").val();
+        let age = Number($("[name='age']").val());
+        let weight = Number($("[name='weight']").val());
 
-         var rp = rockport.RockPortWalkingTest(min, sec, hr_after, gender, age, weight);
+        let rp = rockport.RockPortWalkingTest(min, sec, hr_after, gender, age, weight);
 
         $("[name='kondital']").val(rp.getFitnessLevel());
         $("[name='vo2max']").val(rp.getMaximalOxygenUptake());

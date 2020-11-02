@@ -1,7 +1,7 @@
 ---
-title: "1,6 km gå-test: Find dit kondital med Rockports gangtest 🚶‍"
+title: "1,6 km gåtest: Find dit kondital med Rockports gangtest 🚶‍"
 permalink: /gaatest/
-excerpt: "Rockports 1,6 km gåtest er en submaksimal gangtest til at estimere konditallet ud fra tiden det tager at gennemføre testen. Testen er særligt velegnet for utrænede, folk i dårlig form, ældre og overvægtige."
+excerpt: "Rockports 1,6 km gåtest er en submaksimal gangtest til at estimere konditallet ud fra tiden det tager at gennemføre gangtesten. Gåtesten er særligt velegnet for utrænede, folk i dårlig form, ældre og overvægtige."
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1434119261056-73a0f53c8306?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=80
@@ -19,7 +19,7 @@ last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 ---
 
-**Rockports 1,6 km gåtest er en submaksimal konditionstest, hvor du estimerer konditallet ud fra tiden, det tager at gennemføre testen og din puls ved afslutningen af gangtesten. Testen er oprindeligt udviklet af Kline et al (1987).**
+**Rockports 1,6 km gåtest er en submaksimal konditionstest, hvor du estimerer konditallet ud fra tiden, det tager at gennemføre gangtesten og din puls ved afslutningen af gangtesten. Testen er oprindeligt udviklet af Kline et al (1987).**
 
 Gåtesten er særligt egnet til utrænede, folk i dårlig form, ældre og overvægtige. Testen kræver blot, at du kan gå 1,6 km. 
 
