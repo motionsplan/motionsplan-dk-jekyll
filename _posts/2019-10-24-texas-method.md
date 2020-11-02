@@ -33,7 +33,7 @@ En af fordelene ved Texas Method er, at den i en meso-cyklus (en uge) både tage
 
 Sørg for at læse instruktionerne grundigt, inden du går i gang med at bruge programmet.
 
-[Hent et Google Sheet](https://docs.google.com/spreadsheets/d/1otHqC33cBT2TB9RIRrXXyRLqZ3BN1-RZkIhtQPEe7DQ/edit#gid=0){: .btn .btn--large .btn--success }
+[Hent et Google Sheet](https://docs.google.com/spreadsheets/d/1otHqC33cBT2TB9RIRrXXyRLqZ3BN1-RZkIhtQPEe7DQ/copy#gid=0){: .btn .btn--large .btn--success }
 
 ## Mandag: Volumendag
 
@@ -86,7 +86,7 @@ Texas Method er et meget brugt program. Når vægtene begynder at blive rigtig t
 
 Texas Method kan varieres på mange forskellige måder, så du kan bruge det som et overordnet skabelon for din træning. Hvis du fx vil bruge det specifikt i forhold til _powerlifting_, så skal du nok justere balancen mellem presvarianterne og øge volumen af dødløft.
 
-[Hent et Google Sheet](https://docs.google.com/spreadsheets/d/1otHqC33cBT2TB9RIRrXXyRLqZ3BN1-RZkIhtQPEe7DQ/edit#gid=0){: .btn .btn--large .btn--success }
+[Hent et Google Sheet](https://docs.google.com/spreadsheets/d/1otHqC33cBT2TB9RIRrXXyRLqZ3BN1-RZkIhtQPEe7DQ/copy#gid=0){: .btn .btn--large .btn--success }
 
 ## Referencer
 

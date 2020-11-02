@@ -10,13 +10,14 @@ header:
   teaser: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1960&q=80
   caption: *title
   overlay_filter: 0.2
+  actions:
+    - label: "Se konditionstests"
+      url: /kondition/tests/
 category:
   - Kondition
 tags:
   - kondition
   - kondital
-  - konditionstest
-  - konditest
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 ---
@@ -96,7 +97,7 @@ Man har lavet studier, hvor forsøgspersonerne har ligget stille i en seng i læ
 
 Der er mange måder at måle sin kondition på. Vi har samlet en række konditionstests her på siden:
 
-{% assign site_posts = site.posts | where: "tags", "konditionstest" | sort: "date" %}
+{% assign site_posts = site.posts | where: "tags", "konditionstest" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
@@ -105,6 +106,8 @@ Der er mange måder at måle sin kondition på. Vi har samlet en række konditio
 {% endif %}
 
 ***
+
+[Se alle konditionstests](/kondition/tests/){: .btn .btn--large .btn--info }
 
 ## Validitet af testning af iltoptagelse og kondition
 

@@ -15,6 +15,7 @@ tags:
   - børn
   - maksimal test
   - indirekte test
+  - cykeltest
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 ---

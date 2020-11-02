@@ -16,7 +16,7 @@ toc: true
 excerpt: "I denne beregner kan du udregne dit daglige energiforbrug på baggrund af dit basalstofskifte (BMR) og fysiske aktivitetsniveau. Det er interessant at udregne en persons hvilestofskifte i forhold det fysiske aktivitetsniveau for at se, hvad mit omtrentlige daglige energiforbrug er."
 feature_row:
   - image_path: /assets/images/pal-schedule.png
-    url: https://docs.google.com/document/d/1pWnzxIkn3h_deY7pavw-OnCxhvtSiyFfBZCoyJjj8dY/edit?usp=sharing
+    url: https://docs.google.com/document/d/1pWnzxIkn3h_deY7pavw-OnCxhvtSiyFfBZCoyJjj8dY/copy?usp=sharing
     title: "Skema til registrering af aktivitet"
     excerpt: "Du kan udskrive følgende skema og udfylde det for en typisk dag. Når du har udfyldt skemaet og udregnet, hvor meget aktivitet, du har i de enkelte kategorier, så er du klar til at skrive værdierne ind i beregneren af dit daglige energibehov."
     btn_label: Download skema

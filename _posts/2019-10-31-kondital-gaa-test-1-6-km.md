@@ -47,7 +47,7 @@ Du kan se testen forklaret i denne Youtube-video.
 
 ## Validiteten af Rockports 1,6 km gåtest
 
-Rockports gåtest estimerer konditallet. Hvor præcist den rammer konditallet for den enkelte afhænger af mange faktorer. Weiglein (2011) har vist at testen er valid til at estimere konditallet, når man sammenligner med 1,5 mile (2,414) løbetesten, som bruges af det amerikanske militær. Det betyder i praksis, at den kan sammenlignes med [Coopers 2400 meter test](/kondital-2400-meter/).
+Rockports gåtest estimerer konditallet. Hvor præcist den rammer konditallet for den enkelte afhænger af mange faktorer. Weiglein (2011) har vist at testen er valid til at estimere konditallet, når man sammenligner med 1,5 mile (2.414 meter) løbetesten, som bruges af det amerikanske militær. Det betyder i praksis, at den kan sammenlignes med [Coopers 2400 meter test](/kondital-2400-meter/).
 
 Testen er relativt god til at overvåge fremgang i dit træningsniveau. Du kan altså lave testen, når du begynder med at træne, og så kan du følge op med en test fx hver anden uge. På den måde kan du følge med i, hvordan træningen virker for formen.
 
@@ -71,7 +71,12 @@ Når du har lavet testen, så har du fået et kondital. Jeg har lavet en [tabel,
 
 ## Referencer til 1,6 km gåtest
 
+<details markdown="1">
+  <summary>Se referencer om 1,6 km gåtest</summary>
+
 - Kline, G. M., J. P. Porcari, R. Hintermeister, P. S. Freedson, A. Ward, R. F. McCarron, J. Ross, og J. M. Rippe. 1987. “Estimation of VO2max from a One-Mile Track Walk, Gender, Age, and Body Weight”. Medicine and Science in Sports and Exercise 19 (3): 253–59.
 - Lunt, Heather, Daniel Roiz De Sa, Julia Roiz De Sa, og Adrian Allsopp. 2013. “Validation of One-Mile Walk Equations for the Estimation of Aerobic Fitness in British Military Personnel under the Age of 40 Years”. Military Medicine 178 (7): 753–59. <https://doi.org/10.7205/MILMED-D-12-00369>.
 - Sartor, Francesco, Gianluca Vernillo, Helma M. de Morree, Alberto G. Bonomi, Antonio La Torre, Hans-Peter Kubis, og Arsenio Veicsteinas. 2013. “Estimation of Maximal Oxygen Uptake via Submaximal Exercise Testing in Sports, Clinical, and Home Settings”. Sports Medicine (Auckland, N.Z.) 43 (9): 865–73. <https://doi.org/10.1007/s40279-013-0068-3>.
 - Weiglein, Laura, Jeffery Herrick, Stacie Kirk, og Erik P. Kirk. 2011. “The 1-Mile Walk Test Is a Valid Predictor of VO(2max) and Is a Reliable Alternative Fitness Test to the 1.5-Mile Run in U.S. Air Force Males”. Military Medicine 176 (6): 669–73. <https://doi.org/10.7205/milmed-d-10-00444>.
+
+</details>

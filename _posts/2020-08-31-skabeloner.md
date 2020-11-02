@@ -11,24 +11,24 @@ feature_row_strength:
   - image_path: /assets/images/template/highperformancehandbook.png
     url: https://docs.google.com/document/d/1frH-5jeYzTWrxYBxYCTfQXJpafpHj1PolM_L_0oqw6c/edit?usp=sharing
     title: "Skabelon til 4 ugers styrketræningsprogram"
-    excerpt: "Skabelonen er baseret på High Performance Handbook af Eric Cressey og kan indeholde en fase med fire ugers styrketræningsprogram, hvor de samme øvelser bruges. Mulighed for at skrive sæt, reps, pause, tempo ind på forhånd. Jeg har også lavet en skabelon til [Google Sheets](https://docs.google.com/spreadsheets/d/1UxGo9W2Oe3smOx_m_VTEKyLQCHTmDuB84NEnxBjHy_4/edit?usp=sharing)."
+    excerpt: "Skabelonen er baseret på High Performance Handbook af Eric Cressey og kan indeholde en fase med fire ugers styrketræningsprogram, hvor de samme øvelser bruges. Mulighed for at skrive sæt, reps, pause, tempo ind på forhånd. Jeg har også lavet en skabelon til [Google Sheets](https://docs.google.com/spreadsheets/d/1UxGo9W2Oe3smOx_m_VTEKyLQCHTmDuB84NEnxBjHy_4/copy?usp=sharing)."
     btn_label: "Google Docs"
     btn_class: "btn--success"
   - image_path: /assets/images/template/bulletproofathlete.png
-    url: https://docs.google.com/spreadsheets/d/1Tn6_Ixh1z41LRmOcg_DO8BxSyxR_VGoXWTUCitx0CbQ/edit?usp=sharingHj1PolM_L_0oqw6c/edit?usp=sharing
+    url: https://docs.google.com/spreadsheets/d/1Tn6_Ixh1z41LRmOcg_DO8BxSyxR_VGoXWTUCitx0CbQ/copy?usp=sharingHj1PolM_L_0oqw6c/edit?usp=sharing
     title: "Skabelon til 4 ugers styrketræningsprogram"
     excerpt: "Skabelonen er baseret på Bulletproof Athlete af Mike Robertson og kan indeholde en fase med fire ugers styrketræningsprogram, hvor de samme øvelser bruges. Mulighed for at skrive sæt, reps, pause, tempo ind på forhånd. Indeholder de syv R-faser, som Mike Robertson bruger i sin programmering."
     btn_label: "Google Sheets"
     btn_class: "btn--success"
   - image_path: /assets/images/template/extendedprogram.png
-    url: https://docs.google.com/document/d/1Ns-WgBO2vQj_XjrZ3py7aGcHlUrt-zUAXtRlUS-I6Bw/edit?usp=sharing
+    url: https://docs.google.com/document/d/1Ns-WgBO2vQj_XjrZ3py7aGcHlUrt-zUAXtRlUS-I6Bw/copy?usp=sharing
     title: "Skabelon med grundig øvelsesbeskrivelse"
     excerpt: "Denne skabelon indeholder plads til en grundig øvelsesbeskrivelse og formål - og den fylder som udgangspunkt 2 sider."
     btn_label: "Google Docs"
     btn_class: "btn--success"
 feature_row_program:
   - image_path: /assets/images/template/programchecklist.png
-    url: https://docs.google.com/document/d/1jlR3XKFwPX-vYBoa3Xyks73xWDjgHP5OjuohPH51UdU/edit?usp=sharing
+    url: https://docs.google.com/document/d/1jlR3XKFwPX-vYBoa3Xyks73xWDjgHP5OjuohPH51UdU/copy?usp=sharing
     title: "Skabelon til tjekliste til programlægning"
     excerpt: "Den overordnede programlægning kan med fordel laves som en tjekliste. Det gør planlægningen mere fleksibel, og ved at stille mål for sin træning, så ender det hele ikke i dårlig samvittighed, fordi man ikke har nogen træningsplan."
     btn_label: "Google Docs"

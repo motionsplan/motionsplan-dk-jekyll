@@ -14,6 +14,7 @@ tags:
   - cykel
   - submaksimal test
   - indirekte test
+  - cykeltest
 last_modified_at: 2019-10-31T23:14:14Z
 toc: true
 ---
@@ -35,7 +36,7 @@ Inden du går i gang med at udføre testen, kan det være en god ide at læse gr
 1. Varm op i 2 minutter på kondicyklen uden belastning.
 2. Kør testen med omkring 60 RPM.
 3. Øg herefter belastningen med 15 watt for hvert minut.
-4. I slutningen af hvert minut peger forsøgspersonen på sin subjektive vurdering af anstrengelse på Borg-skalaen. I beregneren bruges formler fra Okura og Tanaka (2001), som er baseret på følgelsen i benene.
+4. I slutningen af hvert minut peger forsøgspersonen på sin subjektive vurdering af anstrengelse på Borg-skalaen. I beregneren bruges formler fra Okura og Tanaka (2001), som er baseret på følelsen i benene (og altså ikke følelsen på selve kredsløbet).
 5. Når personen vurderer belastningen til at være 15 - altså "Anstrengende" - for benene er testen slut.
 6. Du noterer watt, alder og vægt, som du kan indtaste i beregneren nedenunder for at udregne dit kondital.
 
@@ -83,5 +84,9 @@ Borg 15-konditesten er valideret på 154 japanske mænd i alderen 20-64 år. Jeg
 
 ## Reference til Borg 15-cykeltest
 
+<details markdown="1">
+  <summary></summary>
+
 - Okura, T., og K. Tanaka. 2001. “A Unique Method for Predicting Cardiorespiratory Fitness Using Rating of Perceived Exertion”. Journal of Physiological Anthropology and Applied Human Science 20 (5): 255–61. <https://doi.org/10.2114/jpa.20.255>.
 - R, Persinger, Foster C, Gibson M, Fater Dc, og Porcari Jp. 2004. “Consistency of the Talk Test for Exercise Prescription”. Medicine and Science in Sports and Exercise. Med Sci Sports Exerc. september 2004. <https://pubmed.ncbi.nlm.nih.gov/15354048/>.
+</details>

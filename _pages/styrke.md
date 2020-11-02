@@ -18,6 +18,24 @@ sidebar:
 classes: wide
 ---
 
+Jeg har samlet alle artiklerne om styrketræning her på siden. Der er både beregnere til styrketræning og dybdegående artikler om, hvordan du får noget ud af din styrketræning.
+
+## Beregnere til styrketræning
+
+{% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "beregner" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single-simple.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
+## Eric Helms Strength Training Pyramid
+
 Jeg er meget inspireret af [The Muscle & Strength Pyramid](https://muscleandstrengthpyramids.com/), som bl.a. er skrevet af Eric Helms.
 
 Eric Helms opstiller i pyramiden, hvad der er det vigtigste i forhold til styrketræning. Du kan se pyramiden nedenunder.

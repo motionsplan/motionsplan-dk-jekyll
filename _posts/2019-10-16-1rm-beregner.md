@@ -10,11 +10,12 @@ header:
   alt: Photo by Victor Freitas on Unsplash
   overlay_filter: 0.3
 category:
+  - Styrketræning
   - Beregnere
   - Test
 tags:
   - styrketræning
-  - beregnere
+  - beregner
   - repetition maximum
 last_modified_at: 2020-05-20T23:14:14Z
 toc: true

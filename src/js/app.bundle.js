@@ -750,6 +750,7 @@ $(document).ready(function() {
          var rp = rockport.RockPortWalkingTest(min, sec, hr_after, gender, age, weight);
 
         $("[name='kondital']").val(rp.getFitnessLevel());
+        $("[name='vo2max']").val(rp.getMaximalOxygenUptake());
     });
     // Calculate Index 23
     $("#calculator_index23").submit(function(e) {

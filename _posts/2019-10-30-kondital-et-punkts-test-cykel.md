@@ -14,6 +14,7 @@ tags:
   - cykel
   - submaksimal test
   - indirekte test
+  - cykeltest
 last_modified_at: 2020-08-06T23:14:14Z
 toc: true
 feature_row:
@@ -45,6 +46,8 @@ Du skal cykle med 50-70 RPM, hvis du kører på en cykel med fast mekanisk brems
 Vælg en belastning, der gør, at din puls opnår _steady state_ omkring 110-170 slag/min efter omkring 6 minutters cykling. Du skal være moderat forpustet, men det må ikke føles hårdt. Husk at Åstrands etpunktstest er en submaksimal konditionstest.
 
 Skriv pulsen ned hvert minut gennem testen. Hvis ikke pulsen er inden for 5 pulsslag pr. minut for minut 5 og 6, så fortsæt i et ekstra minut. Hvis ikke pulsen ligger mellem 110 og 170 så fortsæt et minut mere med en justeret modstand.
+
+{% include video provider="youtube" id="6KOoejoYP8A" %}
 
 ## Beregn kondital med Åstrands etpunktstest
 
