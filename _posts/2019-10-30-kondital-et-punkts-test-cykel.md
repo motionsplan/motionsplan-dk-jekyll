@@ -41,6 +41,19 @@ For at udføre Åstrands **et-punktstest** skal du bruge en kondicykel, der kan 
 
 Du kan vælge at køre på en af disse belastninger: 50, 75, 100, 150 eller 200 watt.
 
+Som et [forslag så kan du benytte følgende belastninger](https://www.topendsports.com/testing/tests/astrand.htm):
+
+| Belastning | kp/m/min | Watt |
+|-|-|-|
+| Mænd, utrænede | 300-600 | 50-100  | 
+| Mænd, trænede | 600-900 | 100-150 |
+| Kvinder, utrænede | 300-450 | 50-75 |
+| Kvinder, trænede | 450-600 | 75-100 |
+
+1 W = 6.116 kpm/min, plus 8% to correct for frictional losses at the chain and drive
+train.
+{: .notice .notice--info }
+
 Du skal cykle med 50-70 RPM, hvis du kører på en cykel med fast mekanisk bremsning (som fx Monark), men du kan mere frit vælge hastighed, hvis du cyklen tilpasser belastningen i forhold til omdrejningshastigheden.
 
 Vælg en belastning, der gør, at din puls opnår _steady state_ omkring 110-170 slag/min efter omkring 6 minutters cykling. Du skal være moderat forpustet, men det må ikke føles hårdt. Husk at Åstrands etpunktstest er en submaksimal konditionstest.

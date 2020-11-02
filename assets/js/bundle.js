@@ -1090,8 +1090,8 @@ $(document).ready(function() {
 
         let rp = rockport.RockPortWalkingTest(min, sec, hr_after, gender, age, weight);
 
-        $("[name='kondital']").val(rp.getFitnessLevel());
-        $("[name='vo2max']").val(rp.getMaximalOxygenUptake());
+        $("[name='kondital']").val(rp.getFitnessLevel().toFixed(0));
+        $("[name='vo2max']").val(rp.getMaximalOxygenUptake().toFixed(2));
     });
     // Calculate Index 23
     $("#calculator_index23").submit(function(e) {

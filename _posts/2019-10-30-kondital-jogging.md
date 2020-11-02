@@ -24,6 +24,8 @@ George et al (1993) lavede en _1 mile track jog_-test for at estimere den maksim
 
 Hunt et al (2000) validerede senere testen for 13-17 årige. I beregneren bruger jeg Hunt et al (2000) til alle under 18 år, mens George et al (1993) bruges til forsøgspersoner fra 18 år og ældre.
 
+Du skal helst bruge mere en 8 minutter for mænd og 9 minutter for kvinder på at gennemføre distancen. Det var nu ikke noget problem for mig at jogge så langsomt.
+
 Hvis du er på udkig efter [1,6 km gangtesten, så har vi beskrevet den her]({% link _posts/2019-10-31-kondital-gaa-test-1-6-km.md %}).
 
 ## Beregn kondital med jogging test

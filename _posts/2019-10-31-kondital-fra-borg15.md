@@ -1,7 +1,7 @@
 ---
-title: &title "Borg 15 konditest på cykel (RPE-test) 🚴🚴‍♀️"
+title: &title "Borg 15 konditest på cykel 🚴🚴‍♀️"
 permalink: /kondital-borg15/
-excerpt: "Borg 15-testen er en submaksimal konditest på cykel, hvor forsøgspersonens kondital estimeres ud fra en test på en ergometercykel."
+excerpt: "Borg 15-testen eller Graded Cycling Test with Talk Test er en submaksimal konditest på cykel, hvor forsøgspersonens kondital estimeres ud fra en test på en ergometercykel."
 language: da
 header:
   overlay_image: https://i.ytimg.com/vi/gEQ1M-NKHCA/maxresdefault.jpg
@@ -21,7 +21,7 @@ toc: true
 
 I Borg 15-testen cykler forsøgspersonen på cykel med en gradvist højere belastning, indtil vedkommende vurderer arbejdet til at være “Anstrengende” i forhold til Borg-skalaen (15 er anstrengende på Borg-skalaen). Derefter estimeres konditallet ud fra den opnåede belastning på cykeltesten.
 
-Konditionstesten Borg 15 har fået sit navn efter professor Gunnar Borg, som opfandt den.
+Konditionstesten Borg 15 har fået sit navn efter professor Gunnar Borg, som opfandt den. Senere kaldes den også på engelsk for _Graded Cycling Test with Talk Test_.
 
 *[RPE]: Rate of Perceived Exertion
 
@@ -71,6 +71,8 @@ W er workload i kgm·min<sup>-1</sup> (kilogram-force meter/minute). Jeg bruger 
 Morten Zacho vurderer, at [validiteten stiger, når Borg15-testen kobles sammen med en systematisk snakketest](https://www.motion-online.dk/borg-15-test/). Zacho foreslår, at man i slutningen af hvert minut får forsøgspersonen til at læse op af en tekst af ca. 10 sekunders varighed. Når oplæsningen bliver tydeligt og hørbart forstyrret af den øgede vejrtrækning, så er 15 nået på Borg-skalaen.
 
 At en snakketest gør det lettere at finde niveauet for anstrengelse er undersøgt af [Persinger et al (2004)](https://pubmed.ncbi.nlm.nih.gov/15354048/), men det er mig bekendt ikke lavet studier, hvor snakketesten er blevet valideret i forhold til Borg 15-testen.
+
+Jeg er dog ved at undersøge, om der er lavet valideringsstudier af testen under _Graded Cycling Test with Talk Test_.
 
 ## Konklusion på Borg 15-testen
 
