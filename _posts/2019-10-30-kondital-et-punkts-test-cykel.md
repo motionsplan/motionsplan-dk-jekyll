@@ -76,9 +76,9 @@ Oprindeligt skulle konditallet findes ved at bruge det [nomogram, Åstrand har u
 
 Senere er der lavet regressionsanalyser, hvor forskere har givet deres bud på formler, som kan bruges til at udregne iltoptagelsen på baggrund af Åstrands etpunktstest.
 
-Morten Zacho har estimeret en formel, som han har delt et regneark. Du kan frit downloade og bruge regnearket til eget brug fra [denne side](http://web.archive.org/web/20150316134300/http://www.motion-online.dk/konditionstraening/testning/et-punkts_test_paa_cykel/){:rel="nofollow"}, men formlen er desværre ikke offentligt tilgængelig.
+Morten Zacho har estimeret en formel, som han har delt et regneark. Du kan frit downloade og bruge regnearket til eget brug fra [denne beskrivelse af Åstrand testen](http://web.archive.org/web/20150316134300/http://www.motion-online.dk/konditionstraening/testning/et-punkts_test_paa_cykel/){:rel="nofollow"}, men formlen er desværre ikke offentligt tilgængelig.
 
-[Åstrands Etpunktstest på Engelsk](https://www.health-calc.com/fitness-tests/aastrand-test){: .btn .btn--large .btn--info }
+[Åstrands Test på Engelsk](https://www.health-calc.com/fitness-tests/aastrand-test){: .btn .btn--large .btn--info }
 
 I beregneren ovenfor har jeg brugt formlerne fra Buono et al (1989) til at estimere den maksimale iltoptagelse:
 
@@ -91,7 +91,7 @@ Til Åstrands etpunktstest giver de mest pålidelige resultater, hvis du korrige
 
 VO<sub>2</sub> = (0.166 - 0.028 * age) + 0.026 * weight + 0.66 * VO<sub>2</sub>
 
-Der er også lavet en tabel med [korrektionsfaktorerer til alderskorrektion](https://www.topendsports.com/testing/tests/astrand.htm) af resultatet.
+Der er også lavet en tabel med [korrektionsfaktorer til alderskorrektion](https://www.topendsports.com/testing/tests/astrand.htm) af resultatet.
 
 | Alder	| Korrektionsfaktor |
 |-|-|
@@ -111,7 +111,7 @@ Alle submaksimale tests er behæftet med en del usikkerhed i forhold til at esti
 
 > Den teoretiske usikkerhed kan eksemplificeres ved at to tredjedele vil få vurderet konditallet korrekt indenfor en 15 % afvigelse. Ca. hver 20. person vil få sit kondital vurderet 30 % forkert.
 
---- <cite>[Morten Zacho](https://www.motion-online.dk/6-maaling-fysisk-kapacitet-monitorering-traening/){:rel="nofollow"}</cite>
+--- <cite>[Morten Zacho](http://web.archive.org/web/20150316134300/http://www.motion-online.dk/konditionstraening/testning/et-punkts_test_paa_cykel/){:rel="nofollow"}</cite>
 
 Åstrands etpunktstest kan imidlertid sagtens bruges til at måle ændringer i konditionen over tid. Du behøver ikke konvertere resultatet til et kondital for at bruge testen til at _tracke_ din træningsfremgang. Testen er pålidelig, fordi du kører med en forudbestemt belastning. Hvis din puls over tid falder, når du kører med samme belastning, er det en indikation for, at du er kommet i bedre form.
 
