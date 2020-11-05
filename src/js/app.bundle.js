@@ -2,6 +2,7 @@
 
 /* global $ */
 
+const andersen = require('./andersen-test');
 const jog = require('./fitness-jogging');
 const jump_reach = require('./jumpreach');
 const tee_pal = require('./bmr-totalenergy-pal');
@@ -764,6 +765,18 @@ $(document).ready(function() {
         var i = index23.FitnessIndex23(height, weight);
 
         $("#index23").val(i.getIndex23BasedOnFitnessLevel(kondital));
+    });
+    // Calculate Index 23
+    $("#calculator_andersen_test").submit(function(e) {
+        console.log("Calculate Andersen Test");
+        e.preventDefault();
+
+        var distance = Number($("[name='distance']").val());
+        var sex = $("[name='gender']").val();
+
+        var i = andersen.AndersenTest(sex, distance);
+
+        $("[name='kondital']").val(i.getFitnessLevel().toFixed(0));
     });
     // Calculate Index 100
     $("#calculator_index100").submit(function(e) {
