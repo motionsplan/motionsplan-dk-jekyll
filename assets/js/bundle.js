@@ -832,11 +832,12 @@ $(document).ready(function() {
         console.log("Calculate Maximal Heart Rate");
         e.preventDefault();
 
-        let ald = Number($("#age").val());
+        let age = Number($("[name='age']").val());
+        let formula = $("[name='maxhr-formula']").val();
 
-        let hr = maxhr.EstimateMaxHr(ald);
+        let hr = maxhr.EstimateMaxHr(age, formula);
 
-        $("#max_hr").val(hr.getMaxHr().toFixed(0));
+        $("[name='max_hr']").val(hr.getMaxHr().toFixed(0));
     });
     // Calculate BMI
     $("#calculator_bmi").submit(function(e) {
@@ -3300,23 +3301,80 @@ motionsplan.Lung = function(sex, height, age) {
 module.exports = motionsplan;
 
 },{}],34:[function(require,module,exports){
-let motionsplan = {}
+let motionsplan = {};
 
-motionsplan.EstimateMaxHr = function(ald) {
-  var ald;
-
-  ald = ald;
+motionsplan.EstimateMaxHr = function(age, formula = "tanaka") {
 
   function getMaxHr() {
-    return Math.round((208 - 0.7 * ald) * Math.pow(10, 0)) / Math.pow(10, 0);
+    if (formula == "aastrand") {
+      return getAastrand();
+    }
+    if (formula == "arena") {
+      return getArena();
+    }
+    if (formula == "nes") {
+      return getNes();
+    }
+    if (formula == "fox") {
+      return getFox();
+    }
+    if (formula == "fairbarn_female") {
+      return getFairbarnFemale();
+    }
+    if (formula == "fairbarn_male") {
+      return getFairbarnMale();
+    }
+    if (formula == "gellish") {
+      return getGellish();
+    }
+    if (formula == "gulati") {
+      return getGulati();
+    }
+    return getTanaka();
+  }
+  
+  function getTanaka() {
+    return (208 - 0.7 * age);
+  }
+  
+  function getAastrand() {
+    return 216.6 - 0.84 * age;
+  }
+  
+  function getArena() {
+    return 209.3 - 0.72 * age;
+  }
+  
+  function getNes() {
+    return 211 - 0.64 * age;
+  }
+  
+  function getFox() {
+    return (220 - age);
+  }
+  
+  function getFairbarnFemale() {
+    return 201 - 0.63 * age;
+  }
+  
+  function getFairbarnMale() {
+    return 208 - 0.8 * age;
+  }
+  
+  function getGellish() {
+    return (207 - 0.7 * age);
+  }
+  
+  function getGulati() {
+    return 206 - 0.88 * age;
   }
 
-  var publicAPI = {
-    getMaxHr: getMaxHr
+  let publicAPI = {
+    getMaxHr : getMaxHr
   };
 
   return publicAPI;
-}
+};
 
 module.exports = motionsplan;
 

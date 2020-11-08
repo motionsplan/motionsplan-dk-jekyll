@@ -467,11 +467,12 @@ $(document).ready(function() {
         console.log("Calculate Maximal Heart Rate");
         e.preventDefault();
 
-        let ald = Number($("#age").val());
+        let age = Number($("[name='age']").val());
+        let formula = $("[name='maxhr-formula']").val();
 
-        let hr = maxhr.EstimateMaxHr(ald);
+        let hr = maxhr.EstimateMaxHr(age, formula);
 
-        $("#max_hr").val(hr.getMaxHr().toFixed(0));
+        $("[name='max_hr']").val(hr.getMaxHr().toFixed(0));
     });
     // Calculate BMI
     $("#calculator_bmi").submit(function(e) {
