@@ -1,13 +1,12 @@
-let motionsplan = {}
+let motionsplan = {};
 
 motionsplan.SixMinutesWalkingTest = function(sex, age, height, weight, meter) {
-  var meter = meter;
-  var sex = sex;
-  var age  = age;
-  var height = height;
-  var weight = weight;
-  var meter = meter;
-  var result;
+  meter = meter;
+  sex = sex;
+  age  = age;
+  height = height;
+  weight = weight;
+  meter = meter;
   
   function isMale() {
     if (sex == 1) {

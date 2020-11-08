@@ -155,7 +155,7 @@ Hvis du er rask, så bør du allerede inden 3-4 uger efter du starter et trænin
 
 Hvis du allerede er veltrænet, så tager det naturligvis længere tid at flytte din hvilepuls, og der er også grænser for hvor langt den kommer ned. 
 
-<div class="hidden">
+{% comment %}
 ***
 
 ## Er en lav hvilepuls altid godt?
@@ -165,7 +165,9 @@ Hvilepulsen kan også påvirkes af sygdom og alderdom. Hvis du har sygdomme omkr
 Nogle rapporterer også, at skader på hjertet med alderen kan forårsage en lavere hvilepuls.
 
 ***
-</div>
+
+{% endcomment %}
+
 ## Hvad kan du bruge hvilepulsen til?
 
 Ud over at hvilepulsen er en indikator på ens træningsniveau særligt i kredsløbssystemet, så kan du også bruge hvilepulsen til at udregne forskellige træningsparametre.

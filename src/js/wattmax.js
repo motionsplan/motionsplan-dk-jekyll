@@ -37,13 +37,13 @@ motionsplan.Wattmax = function(wmax, sec, weight, age, watt_jumps = 25) {
     return getMaximalOxygenUptake() / weight * 1000;
   }
 
-  var publicAPI = {
+  let publicAPI = {
     getFitnessLevel : getFitnessLevel,
     getMaximalOxygenUptake : getMaximalOxygenUptake,
     getMPO : getMPO
   };
 
   return publicAPI;
-}
+};
 
 module.exports = motionsplan;

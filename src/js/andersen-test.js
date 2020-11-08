@@ -12,7 +12,7 @@ motionsplan.AndersenTest = function(sex, distance) {
     return 18.38 + (0.03301 * distance) - (5.92 * sex);
   }
 
-  var publicAPI = {
+  let publicAPI = {
     getFitnessLevel : getFitnessLevel
   };
 

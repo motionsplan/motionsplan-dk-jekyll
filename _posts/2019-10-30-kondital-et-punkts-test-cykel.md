@@ -70,13 +70,15 @@ Skriv pulsen ned hvert minut gennem testen. Hvis ikke pulsen er inden for 5 puls
 
 Generelt kan man sige at jo lavere _steady state_ puls, desto bedre kondition er du i.
 
-Oprindeligt skulle konditallet findes ved at bruge det [nomogram, Åstrand har udviklet](https://www.sst.dk/-/media/Udgivelser/2006/Publ2006/CFF/Fysisk_aktivitet_psyk/Testmanual_psyk,-d-,pdf.ashx), eller ved at aflæse [konditallet i en tabel fx fra Monarks beskrivelse af Åstrands cykeltest](https://sport-medical.monarkexercise.se/professor-astrand-submaximal-cycle-test/).
+Oprindeligt skulle konditallet findes ved at bruge det [nomogram, Åstrand har udviklet til sine tests](https://www.sst.dk/-/media/Udgivelser/2006/Publ2006/CFF/Fysisk_aktivitet_psyk/Testmanual_psyk,-d-,pdf.ashx), eller ved at aflæse [konditallet i en tabel fx fra Monarks beskrivelse af Åstrands cykeltest](https://sport-medical.monarkexercise.se/professor-astrand-submaximal-cycle-test/).
 
-{% include figure image_path="/assets/images/aastrand-nomogram.png" caption="Åstrands nomogram til bestemmelse af maksimal iltoptagelse for etpunktstesten. Se også [en version med alder og kropsvægt](https://www.topendsports.com/testing/tests/astrand.htm)." alt="Åstrands nomogram til bestemmelse af maksimal iltoptagelse for etpunktstesten" %}
+{% include figure image_path="/assets/images/aastrand-nomogram.png" caption="Åstrands nomogram til bestemmelse af maksimal iltoptagelse for etpunktstesten. Se også [en version med alder og kropsvægt](https://www.topendsports.com/testing/tests/astrand.htm)." alt="Åstrand nomogram til bestemmelse af maksimal iltoptagelse for Åstrand test" %}
 
 Senere er der lavet regressionsanalyser, hvor forskere har givet deres bud på formler, som kan bruges til at udregne iltoptagelsen på baggrund af Åstrands etpunktstest.
 
 Morten Zacho har estimeret en formel, som han har delt et regneark. Du kan frit downloade og bruge regnearket til eget brug fra [denne beskrivelse af Åstrand testen](http://web.archive.org/web/20150316134300/http://www.motion-online.dk/konditionstraening/testning/et-punkts_test_paa_cykel/){:rel="nofollow"}, men formlen er desværre ikke offentligt tilgængelig.
+
+Denne samme formel bruges i nedenstående beregner til Åstrands Etpunktstest, som er på engelsk.
 
 [Åstrands Test på Engelsk](https://www.health-calc.com/fitness-tests/aastrand-test){: .btn .btn--large .btn--info }
 
@@ -85,7 +87,7 @@ I beregneren ovenfor har jeg brugt formlerne fra Buono et al (1989) til at estim
 - kvinder: VO<sub>2</sub>max = (0.00193 x workload + 0.326) / (0.769 x HRss - 56.1) x 100
 - mænd: VO<sub>2max</sub> = (0.00212 x workload + 0.299) / (0.769 x HRss - 48.5) x 100
 
-## Alderskorrektion
+## Alderskorrektion til etpunktstesten
 
 Til Åstrands etpunktstest giver de mest pålidelige resultater, hvis du korrigerer for alder. I beregneren ovenfor korrigerer jeg for alder med følgende formel fra Buono et al (1989).
 

@@ -101,13 +101,12 @@ motionsplan.BMRNordicNutritionRecommendations2012 = function(sex, age, weight, h
         return bmr * 1000;
     }
 
-    var publicAPI = {
+    let publicAPI = {
         getBasicMetabolicRate : getBasicMetabolicRate,
         getRestingEnergyExpenditure : getRestingEnergyExpenditure
     };
 
     return publicAPI;
-
 };
 
 module.exports = motionsplan;

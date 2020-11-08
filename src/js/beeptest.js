@@ -31,14 +31,13 @@ motionsplan.BeepTest = function(level, shuttles, version) {
         return calcval;
     }
 
-    var publicAPI = {
+    let publicAPI = {
         getDistance: getDistance,
         getTotalShuttles: getTotalShuttles,
         getFitnessLevel: getFitnessLevel
-
     };
 
     return publicAPI;
-}
+};
 
 module.exports = motionsplan;

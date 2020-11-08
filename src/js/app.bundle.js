@@ -2,6 +2,8 @@
 
 /* global $ */
 
+const lung = require('./lung');
+const blood = require('./blood');
 const andersen = require('./andersen-test');
 const jog = require('./fitness-jogging');
 const jump_reach = require('./jumpreach');
@@ -59,16 +61,16 @@ $(document).ready(function() {
     $("#step_man").change(function() {
         console.log('Ready to calculate');
         $("table#steps > tbody > tr").each(function(i, obj) {
-            var km = $(this).find('td:first').html();
-            var steps = km * 1000 / ($("#step_man").val() / 100);
+            let km = $(this).find('td:first').html();
+            let steps = km * 1000 / ($("#step_man").val() / 100);
             $(this).find('td').eq(1).html(steps.toFixed(0));
         });
     });
     $("#step_woman").change(function() {
         console.log('Ready to calculate');
         $("table#steps > tbody > tr").each(function(i, obj) {
-            var km = $(this).find('td:first').html();
-            var steps = km * 1000 / ($("#step_woman").val() / 100);
+            let km = $(this).find('td:first').html();
+            let steps = km * 1000 / ($("#step_woman").val() / 100);
             $(this).find('td').eq(2).html(steps.toFixed(0));
         });
     });
@@ -76,8 +78,8 @@ $(document).ready(function() {
     $("#step_length").change(function() {
         console.log('Ready to calculate');
         $("table#steps_to_km > tbody > tr").each(function(i, obj) {
-            var steps = $(this).find('td:first').html();
-            var km = steps * ($("#step_length").val()) / 1000 / 100;
+            let steps = $(this).find('td:first').html();
+            let km = steps * ($("#step_length").val()) / 1000 / 100;
             $(this).find('td').eq(1).html(km.toFixed(2));
         });
     });
@@ -105,15 +107,15 @@ $(document).ready(function() {
         console.log("Calculate 1RM");
         e.preventDefault();
 
-        var repmax;
-        var formula = $("#form-formula").val();
-        var decimals = 1;
+        let repmax;
+        let formula = $("#form-formula").val();
+        let decimals = 1;
 
-        var reps = Number($("#form-reps").val());
-        var weight = Number($("#form-weight").val());
-        var bodypart = $("#form-bodypart").val();
+        let reps = Number($("#form-reps").val());
+        let weight = Number($("#form-weight").val());
+        let bodypart = $("#form-bodypart").val();
 
-        var r = rm.Estimate1RM(weight, reps);
+        let r = rm.Estimate1RM(weight, reps);
 
         if (formula == "brzycki") {
             repmax = r.getBrzycki();
@@ -241,16 +243,16 @@ $(document).ready(function() {
         console.log("Calculate Cooper");
         e.preventDefault();
 
-        var age = Number($("#age").val());
-        var hr_rest = Number($("#hrrest").val());
-        var bloodpressure = $("#bloodpressure").val();
-        var diabetes = $("#diabetes").val();
-        var smoker = $("#smoker").val();
-        var bmi = Number($("#bmi").val());
-        var fitnesslevel = Number($("#kondital").val());
+        let age = Number($("#age").val());
+        let hr_rest = Number($("#hrrest").val());
+        let bloodpressure = $("#bloodpressure").val();
+        let diabetes = $("#diabetes").val();
+        let smoker = $("#smoker").val();
+        let bmi = Number($("#bmi").val());
+        let fitnesslevel = Number($("#kondital").val());
 
         // age, heart rate, blood pressure, diabetes, smoker, bmi, fitness
-        var c = cooper.CooperClinicMortalityRiskIndex(age, hr_rest, bloodpressure, diabetes, smoker, bmi, fitnesslevel);
+        let c = cooper.CooperClinicMortalityRiskIndex(age, hr_rest, bloodpressure, diabetes, smoker, bmi, fitnesslevel);
 
         $("#risk_points").val(c.getRiskPoint());
         $("#absolute_risk").val(c.getAbsoluteRisk());
@@ -261,13 +263,13 @@ $(document).ready(function() {
         console.log("Fat percent navy");
         e.preventDefault();
 
-        var sex = $("[name='sex']:checked").val();
-        var height = Number($("[name='height']").val());
-        var waist = Number($("[name='waist']").val());
-        var neck = Number($("[name='neck']").val());
-        var hip = Number($("[name='hip']").val());
+        let sex = $("[name='sex']:checked").val();
+        let height = Number($("[name='height']").val());
+        let waist = Number($("[name='waist']").val());
+        let neck = Number($("[name='neck']").val());
+        let hip = Number($("[name='hip']").val());
 
-        var fp = fp_navy.CalculateFatPercentNavy(sex, height, waist, neck, hip);
+        let fp = fp_navy.CalculateFatPercentNavy(sex, height, waist, neck, hip);
         $("#fat_percent_navy").val(fp.getFatPercent());
     });
     $("#calculator_wave_ladder").submit(function(e) {
@@ -329,9 +331,9 @@ $(document).ready(function() {
         console.log("Billat");
         e.preventDefault();
 
-        var distance = Number($("[name='distance']").val());
+        let distance = Number($("[name='distance']").val());
 
-        var iw = billat.Billat(distance);
+        let iw = billat.Billat(distance);
         $("#speed").val(iw.getVelocity());
         $("#d30").val(iw.getDistance30());
         $("#r30").val(iw.getRecovery30());
@@ -347,10 +349,10 @@ $(document).ready(function() {
         console.log("Idealweight");
         e.preventDefault();
 
-        var sex = $("[name='sex']:checked").val();
-        var height = Number($("[name='height']").val());
+        let sex = $("[name='sex']:checked").val();
+        let height = Number($("[name='height']").val());
 
-        var iw = idealweight.IdealWeight(height, sex);
+        let iw = idealweight.IdealWeight(height, sex);
         $("[name='idealweight_robinson']").val(iw.getRobinson().toFixed(2));
         $("[name='idealweight_miller']").val(iw.getMiller().toFixed(2));
         $("[name='idealweight_hamwi']").val(iw.getHamwi().toFixed(2));
@@ -363,17 +365,17 @@ $(document).ready(function() {
         console.log("Running Walking");
         e.preventDefault();
 
-        var weight = Number($("[name='weight']").val());
-        var running = Number($("[name='running']").val());
-        var walking = Number($("[name='walking']").val());
+        let weight = Number($("[name='weight']").val());
+        let running = Number($("[name='running']").val());
+        let walking = Number($("[name='walking']").val());
         
         console.log(walking + ' ' + running);
         
-        var run = runwalk.RunningWalking("running", running, weight);
-        var walk = runwalk.RunningWalking("walking", walking, weight);
+        let run = runwalk.RunningWalking("running", running, weight);
+        let walk = runwalk.RunningWalking("walking", walking, weight);
         
-        var ratio_kilometer = run.getCaloriesPrKilometer() / walk.getCaloriesPrKilometer();
-        var ratio_minute = run.getCaloriesPrMinute() / walk.getCaloriesPrMinute();
+        let ratio_kilometer = run.getCaloriesPrKilometer() / walk.getCaloriesPrKilometer();
+        let ratio_minute = run.getCaloriesPrMinute() / walk.getCaloriesPrMinute();
 
         $("#calories_walking_kilometer").val(walk.getCaloriesPrKilometer().toFixed(0));
         $("#calories_walking_minute").val(walk.getCaloriesPrMinute().toFixed(0));
@@ -412,16 +414,16 @@ $(document).ready(function() {
         console.log("Etpunkt test");
         e.preventDefault();
 
-        var min = Number($("[name='time_min']").val());
-        var sec = Number($("[name='time_sec']").val());
+        let min = Number($("[name='time_min']").val());
+        let sec = Number($("[name='time_sec']").val());
         let time = min + (sec / 60);
-        var gender = Number($("[name='gender']").val());
-        var hr = Number($("[name='hr']").val());
-        var age = Number($("[name='age']").val());
-        var weight = Number($("[name='weight']").val());
+        let gender = Number($("[name='gender']").val());
+        let hr = Number($("[name='hr']").val());
+        let age = Number($("[name='age']").val());
+        let weight = Number($("[name='weight']").val());
 
         // sex, age, weight, time, hr
-        var et = jog.VO2MaxJog(gender, age, weight, time, hr);
+        let et = jog.VO2MaxJog(gender, age, weight, time, hr);
 
         $("[name='vo2max']").val(et.getMaximalOxygenUptake().toFixed(2));
         $("[name='kondital']").val(et.getFitnessLevel().toFixed(0));
@@ -454,7 +456,7 @@ $(document).ready(function() {
         let weight = Number($("[name='weight']").val());
         let max_hr = Number($("[name='max_hr']").val());
 
-        var et = topunkt.ToPunktTest(age, weight, max_hr, work_1, hr_1, work_2, hr_2);
+        let et = topunkt.ToPunktTest(age, weight, max_hr, work_1, hr_1, work_2, hr_2);
 
         $("[name='work_max']").val(et.getMaximalWork().toFixed(0));
         $("[name='vo2max']").val(et.getMaximalOxygenUptake().toFixed(2));
@@ -465,9 +467,9 @@ $(document).ready(function() {
         console.log("Calculate Maximal Heart Rate");
         e.preventDefault();
 
-        var ald = Number($("#age").val());
+        let ald = Number($("#age").val());
 
-        var hr = maxhr.EstimateMaxHr(ald);
+        let hr = maxhr.EstimateMaxHr(ald);
 
         $("#max_hr").val(hr.getMaxHr().toFixed(0));
     });
@@ -476,10 +478,10 @@ $(document).ready(function() {
         console.log("Calculate BMI");
         e.preventDefault();
 
-        var h = Number($("[name='height']").val());
-        var w = Number($("[name='weight']").val());
+        let h = Number($("[name='height']").val());
+        let w = Number($("[name='weight']").val());
 
-        var b = bmi.BMI(h, w);
+        let b = bmi.BMI(h, w);
 
         $("[name='BMI']").val(b.getBMI().toFixed(1));
         $("[name='PMI']").val(b.getPonderalIndex().toFixed(1));
@@ -489,12 +491,12 @@ $(document).ready(function() {
         console.log("Calculate Body Water");
         e.preventDefault();
 
-        var a = Number($("#age").val());
-        var h = Number($("#height").val());
-        var w = Number($("#weight").val());
-        var g = $("[name='sex']:checked").val();
+        let a = Number($("#age").val());
+        let h = Number($("#height").val());
+        let w = Number($("#weight").val());
+        let g = $("[name='sex']:checked").val();
 
-        var f = tbw.BodyWater(h, w, a, g);
+        let f = tbw.BodyWater(h, w, a, g);
 
         $("#tbw").val(f.getTotalBodyWater().toFixed(2));
         $("#tbw_pct").val(f.getPercent().toFixed(2));
@@ -504,12 +506,12 @@ $(document).ready(function() {
         console.log("Calculate Fat Percent");
         e.preventDefault();
 
-        var a = Number($("[name='age']").val());
-        var h = Number($("[name='height']").val());
-        var w = Number($("[name='weight']").val());
-        var g = $("[name='sex']:checked").val();
+        let a = Number($("[name='age']").val());
+        let h = Number($("[name='height']").val());
+        let w = Number($("[name='weight']").val());
+        let g = $("[name='sex']:checked").val();
 
-        var f = fat.CalculateFatPercent(h, w, a, g);
+        let f = fat.CalculateFatPercent(h, w, a, g);
 
         $("[name='BMI']").val(f.getBMI().toFixed(2));
         $("[name='fat_percent_heitmann']").val(f.getBodyFatPercentHeitmannBMIEquation().toFixed(2));
@@ -521,15 +523,15 @@ $(document).ready(function() {
         console.log("Calculate Skinfold Durnin");
         e.preventDefault();
 
-        var biceps = Number($("[name='biceps']").val());
-        var triceps = Number($("[name='triceps']").val());
-        var suprailiac = Number($("[name='suprailiac']").val());
-        var subscapularis = Number($("[name='subscapularis']").val());
-        var weight = Number($("[name='weight']").val());
-        var sex = $("[name='gender']").val();
-        var age = Number($("[name='age']").val());
+        let biceps = Number($("[name='biceps']").val());
+        let triceps = Number($("[name='triceps']").val());
+        let suprailiac = Number($("[name='suprailiac']").val());
+        let subscapularis = Number($("[name='subscapularis']").val());
+        let weight = Number($("[name='weight']").val());
+        let sex = $("[name='gender']").val();
+        let age = Number($("[name='age']").val());
 
-        var f = skinfold_durnin.SkinfoldDurnin(biceps, triceps, suprailiac, subscapularis, weight, sex, age);
+        let f = skinfold_durnin.SkinfoldDurnin(biceps, triceps, suprailiac, subscapularis, weight, sex, age);
 
         $("[name='skinfold_durnin']").val(f.getSkinfoldSum().toFixed(2));
         $("[name='fatpercent_durnin']").val(f.getBodyFatPercent().toFixed(2));
@@ -540,16 +542,16 @@ $(document).ready(function() {
         console.log("Calculate Skinfold Durnin");
         e.preventDefault();
 
-        var midthigh = Number($("[name='midthigh']").val());
-        var triceps = Number($("[name='triceps']").val());
-        var suprailiac = Number($("[name='suprailiac']").val());
-        var subscapularis = Number($("[name='subscapularis']").val());
-        var weight = Number($("[name='weight']").val());
-        var height = Number($("[name='height']").val());
-        var sex = $("[name='gender']").val();
-        var age = Number($("[name='age']").val());
+        let midthigh = Number($("[name='midthigh']").val());
+        let triceps = Number($("[name='triceps']").val());
+        let suprailiac = Number($("[name='suprailiac']").val());
+        let subscapularis = Number($("[name='subscapularis']").val());
+        let weight = Number($("[name='weight']").val());
+        let height = Number($("[name='height']").val());
+        let sex = $("[name='gender']").val();
+        let age = Number($("[name='age']").val());
 
-        var f = skinfold_peterson.SkinfoldPeterson(midthigh, triceps, suprailiac, subscapularis, height, weight, sex, age);
+        let f = skinfold_peterson.SkinfoldPeterson(midthigh, triceps, suprailiac, subscapularis, height, weight, sex, age);
 
         $("[name='skinfold_peterson']").val(f.getSkinfoldSum().toFixed(2));
         $("[name='fatpercent_peterson']").val(f.getBodyFatPercent().toFixed(2));
@@ -560,13 +562,13 @@ $(document).ready(function() {
         console.log("Calculate Skinfold Pollock Men");
         e.preventDefault();
 
-        var breast = Number($("[name='chest_male']").val());
-        var abdomen = Number($("[name='abdomen_male']").val());
-        var thigh = Number($("[name='thigh_male']").val());
-        var age = Number($("[name='age_male']").val());
-        var weight = Number($("[name='weight_male']").val());
+        let breast = Number($("[name='chest_male']").val());
+        let abdomen = Number($("[name='abdomen_male']").val());
+        let thigh = Number($("[name='thigh_male']").val());
+        let age = Number($("[name='age_male']").val());
+        let weight = Number($("[name='weight_male']").val());
 
-        var f = skinfold_pollock.SkinfoldPollock(weight, age);
+        let f = skinfold_pollock.SkinfoldPollock(weight, age);
 
         $("[name='fatpercent_male']").val(f.getBodyFatPercentMale(breast, abdomen, thigh));
         $("[name='ffm_male']").val(f.getBodyFatFreeMass());
@@ -576,13 +578,13 @@ $(document).ready(function() {
         console.log("Calculate Skinfold Pollock Women");
         e.preventDefault();
 
-        var triceps = Number($("[name='triceps_female']").val());
-        var hip = Number($("[name='supiliac_female']").val());
-        var thigh = Number($("[name='thigh_female']").val());
-        var age = Number($("[name='age_female']").val());
-        var weight = Number($("[name='weight_female']").val());
+        let triceps = Number($("[name='triceps_female']").val());
+        let hip = Number($("[name='supiliac_female']").val());
+        let thigh = Number($("[name='thigh_female']").val());
+        let age = Number($("[name='age_female']").val());
+        let weight = Number($("[name='weight_female']").val());
 
-        var f = skinfold_pollock.SkinfoldPollock(weight, age);
+        let f = skinfold_pollock.SkinfoldPollock(weight, age);
 
         $("[name='fatpercent_female']").val(f.getBodyFatPercentFemale(triceps, hip, thigh));
         $("[name='ffm_female']").val(f.getBodyFatFreeMass());
@@ -592,11 +594,11 @@ $(document).ready(function() {
         console.log("Calculate Skinfold Lohman");
         e.preventDefault();
 
-        var triceps = Number($("[name='triceps']").val());
-        var calf = Number($("[name='calf']").val());
-        var sex = Number($("[name='gender']").val());
+        let triceps = Number($("[name='triceps']").val());
+        let calf = Number($("[name='calf']").val());
+        let sex = Number($("[name='gender']").val());
 
-        var f = skinfold_lohman.SkinfoldLohman(sex, triceps, calf);
+        let f = skinfold_lohman.SkinfoldLohman(sex, triceps, calf);
 
         $("[name='fatpercent']").val(f.getBodyFatPercent());
     });
@@ -605,11 +607,11 @@ $(document).ready(function() {
         console.log("Calculate Skinfold Slaughter");
         e.preventDefault();
 
-        var triceps = Number($("[name='triceps']").val());
-        var subscapular = Number($("[name='subscapular']").val());
-        var sex = Number($("[name='gender']").val());
+        let triceps = Number($("[name='triceps']").val());
+        let subscapular = Number($("[name='subscapular']").val());
+        let sex = Number($("[name='gender']").val());
 
-        var f = skinfold_slaughter.SkinfoldSlaughter(sex, triceps, subscapular);
+        let f = skinfold_slaughter.SkinfoldSlaughter(sex, triceps, subscapular);
 
         $("[name='fatpercent']").val(f.getBodyFatpercent());
     });
@@ -618,7 +620,7 @@ $(document).ready(function() {
     $("#calculator_fat_percent_mu26").submit(function(e) {
         console.log("Calculate Fat Percent on Measurements");
         e.preventDefault();
-        var f = fatm.CalculateFatPercentMeasurements();
+        let f = fatm.CalculateFatPercentMeasurements();
         $("#fat_mu26").val(f.getFatPercentMenUnder26(
             Number($("[name='Overarm_mu26']").val()),
             Number($("[name='Mave_mu26']").val()),
@@ -628,7 +630,7 @@ $(document).ready(function() {
     $("#calculator_fat_percent_mo26").submit(function(e) {
         console.log("Calculate Fat Percent on Measurements");
         e.preventDefault();
-        var f = fatm.CalculateFatPercentMeasurements();
+        let f = fatm.CalculateFatPercentMeasurements();
         $("#fat_mo26").val(f.getFatPercentMenOver26(
             Number($("[name='Hofter_mo26']").val()),
             Number($("[name='Mave_mo26']").val()),
@@ -638,7 +640,7 @@ $(document).ready(function() {
     $("#calculator_fat_percent_wu26").submit(function(e) {
         console.log("Calculate Fat Percent on Measurements");
         e.preventDefault();
-        var f = fatm.CalculateFatPercentMeasurements();
+        let f = fatm.CalculateFatPercentMeasurements();
         $("#fat_wu26").val(f.getFatPercentWomenUnder26(
             Number($("[name='Laar_wu26']").val()),
             Number($("[name='Mave_wu26']").val()),
@@ -648,7 +650,7 @@ $(document).ready(function() {
     $("#calculator_fat_percent_wo26").submit(function(e) {
         console.log("Calculate Fat Percent on Measurements");
         e.preventDefault();
-        var f = fatm.CalculateFatPercentMeasurements();
+        let f = fatm.CalculateFatPercentMeasurements();
         $("#fat_wo26").val(f.getFatPercentWomenOver26(
             Number($("[name='Laar_wo26']").val()),
             Number($("[name='Mave_wo26']").val()),
@@ -661,14 +663,14 @@ $(document).ready(function() {
         console.log("Calculate VO2 from HR");
         e.preventDefault();
 
-        var hvpul = Number($("#hr_rest").val());
-        var mxpul = Number($("#hr_max").val());
-        var wgt = Number($("#weight").val());
+        let hvpul = Number($("#hr_rest").val());
+        let mxpul = Number($("#hr_max").val());
+        let wgt = Number($("#weight").val());
 
-        var fitnesshr = fitness.CalculateFitnessFromHr(mxpul, hvpul, wgt);
+        let fitnesshr = fitness.CalculateFitnessFromHr(mxpul, hvpul, wgt);
 
-        var maxiltoptagelse = fitnesshr.getMaximalOxygenUptake();
-        var kondital = fitnesshr.getFitnessLevel();
+        let maxiltoptagelse = fitnesshr.getMaximalOxygenUptake();
+        let kondital = fitnesshr.getFitnessLevel();
 
         $("#vo2max").val(maxiltoptagelse);
         $("#kondital").val(kondital);
@@ -678,11 +680,11 @@ $(document).ready(function() {
         console.log("Calculate Borg 15 fitness");
         e.preventDefault();
 
-        var watt = Number($("#borg_watt").val());
-        var age = Number($("#borg_age").val());
-        var weight = Number($("#borg_weight").val());
+        let watt = Number($("#borg_watt").val());
+        let age = Number($("#borg_age").val());
+        let weight = Number($("#borg_weight").val());
 
-        var borg = borg15.Borg15(age, weight, watt);
+        let borg = borg15.Borg15(age, weight, watt);
 
         $("#borg_iltoptagelse").val(borg.getMaximalOxygenUptake());
         $("#borg_kondital").val(borg.getFitnessLevel());
@@ -691,11 +693,11 @@ $(document).ready(function() {
     $("#calculator_fitness_wattmax").submit(function(e) {
         console.log("Calculate Wattmax");
         e.preventDefault();
-        var wmax = Number($("[name='wmax']").val());
-        var sec = Number($("[name='sec']").val());
-        var weight = Number($("[name='weight']").val());
+        let wmax = Number($("[name='wmax']").val());
+        let sec = Number($("[name='sec']").val());
+        let weight = Number($("[name='weight']").val());
         
-        var watt = wattmax.Wattmax(wmax, sec, weight);
+        let watt = wattmax.Wattmax(wmax, sec, weight);
 
         $("[name='kondital']").val(watt.getFitnessLevel());
         $("[name='vo2max']").val(watt.getMaximalOxygenUptake());
@@ -706,13 +708,13 @@ $(document).ready(function() {
         console.log("Calculate Wattmax Children");
         e.preventDefault();
 
-        var wmax = Number($("[name='wmax']").val());
-        var sec = Number($("[name='sec']").val());
-        var weight = Number($("[name='weight']").val());
-        var watt_jumps = Number($("[name='watt_jumps']").val());
-        var age = 15;
+        let wmax = Number($("[name='wmax']").val());
+        let sec = Number($("[name='sec']").val());
+        let weight = Number($("[name='weight']").val());
+        let watt_jumps = Number($("[name='watt_jumps']").val());
+        let age = 15;
         
-        var watt = wattmax.Wattmax(wmax, sec, weight, age, watt_jumps);
+        let watt = wattmax.Wattmax(wmax, sec, weight, age, watt_jumps);
 
         $("[name='kondital']").val(watt.getFitnessLevel());
         $("[name='vo2max']").val(watt.getMaximalOxygenUptake());
@@ -758,11 +760,11 @@ $(document).ready(function() {
         console.log("Calculate Index23");
         e.preventDefault();
 
-        var height = Number($("#height").val());
-        var weight = Number($("#weight").val());
-        var kondital = Number($("#kondital").val());
+        let height = Number($("#height").val());
+        let weight = Number($("#weight").val());
+        let kondital = Number($("#kondital").val());
 
-        var i = index23.FitnessIndex23(height, weight);
+        let i = index23.FitnessIndex23(height, weight);
 
         $("#index23").val(i.getIndex23BasedOnFitnessLevel(kondital));
     });
@@ -771,10 +773,10 @@ $(document).ready(function() {
         console.log("Calculate Andersen Test");
         e.preventDefault();
 
-        var distance = Number($("[name='distance']").val());
-        var sex = $("[name='gender']").val();
+        let distance = Number($("[name='distance']").val());
+        let sex = $("[name='gender']").val();
 
-        var i = andersen.AndersenTest(sex, distance);
+        let i = andersen.AndersenTest(sex, distance);
 
         $("[name='kondital']").val(i.getFitnessLevel().toFixed(0));
     });
@@ -783,10 +785,10 @@ $(document).ready(function() {
         console.log("Calculate Index100");
         e.preventDefault();
 
-        var lifted = Number($("[name='lifted']").val());
-        var bodyweight = Number($("[name='weight']").val());
+        let lifted = Number($("[name='lifted']").val());
+        let bodyweight = Number($("[name='weight']").val());
 
-        var idx = index100.Index100(lifted, bodyweight);
+        let idx = index100.Index100(lifted, bodyweight);
 
         $("[name='index_100_lift']").val(idx.getIndex100());
     });
@@ -794,12 +796,12 @@ $(document).ready(function() {
         console.log("Calculate calculator_necessary_energy_deficit");
         e.preventDefault();
 
-        var lost = Number($("[name='lost']").val());
-        var days = Number($("[name='days']").val());
-        var lost_day = lost / days * 1000;
-        var fat = 9; //kcal
-        var diff = lost_day * fat;
-        var weight_loss = lost_day;
+        let lost = Number($("[name='lost']").val());
+        let days = Number($("[name='days']").val());
+        let lost_day = lost / days * 1000;
+        let fat = 9; //kcal
+        let diff = lost_day * fat;
+        let weight_loss = lost_day;
 
         $("[name='daily_diff']").val(diff.toFixed(0) + ' kcal');
         $("[name='daily_weight_loss']").val(weight_loss.toFixed(0) + ' g');
@@ -809,12 +811,12 @@ $(document).ready(function() {
         console.log("Calculate Equilibrium");
         e.preventDefault();
 
-        var tee = Number($("#calculator_change [name='tee']").val());
-        var intake = Number($("[name='intake']").val());
+        let tee = Number($("#calculator_change [name='tee']").val());
+        let intake = Number($("[name='intake']").val());
 
-        var b = bmr_equilibrium.BMREquilibrium();
+        let b = bmr_equilibrium.BMREquilibrium();
 
-        var balance = b.getBalance(tee, intake);
+        let balance = b.getBalance(tee, intake);
 
         $("[name='balance']").val(balance + ' kJ');
         $("[name='weekly_weightchange']").val((b.getMaximalWeightChange(balance, 7) * 1000).toFixed(0) + ' g');
@@ -828,13 +830,13 @@ $(document).ready(function() {
         console.log("Calculate BMR - 2012");
         e.preventDefault();
 
-        var formula = $("[name='bmr-formula']").val();
-        var gender = $("[name='gender']").val();
-        var age = Number($("[name='age']").val());
-        var weight = Number($("[name='weight']").val());
-        var height = Number($("[name='height']").val());
+        let formula = $("[name='bmr-formula']").val();
+        let gender = $("[name='gender']").val();
+        let age = Number($("[name='age']").val());
+        let weight = Number($("[name='weight']").val());
+        let height = Number($("[name='height']").val());
 
-        var b;
+        let b;
 
         if (height < 1) {
             formula = "nordic_2012";
@@ -850,25 +852,52 @@ $(document).ready(function() {
         $("[name='bmr']").val(b.getBasicMetabolicRate().toFixed(0));
 
         if ($("input[name='pal']").length > 0) {
-            var pal = Number($("[name='pal']:checked").val());
-            var moderate_leisure_activity = Number($("[name='moderate_leisure_activity']").val());
-            var strenuous_leisure_activity = Number($("[name='strenuous_leisure_activity']").val());
+            let pal = Number($("[name='pal']:checked").val());
+            let moderate_leisure_activity = Number($("[name='moderate_leisure_activity']").val());
+            let strenuous_leisure_activity = Number($("[name='strenuous_leisure_activity']").val());
 
-            var tee = tee_pal.TotalEnergyExpenditurePAL(b.getBasicMetabolicRate(), pal, moderate_leisure_activity, strenuous_leisure_activity);
+            let tee = tee_pal.TotalEnergyExpenditurePAL(b.getBasicMetabolicRate(), pal, moderate_leisure_activity, strenuous_leisure_activity);
 
             $("[name='pal_calc']").val(tee.getPhysicalActivityLevel().toFixed(2));
             $("[name='tee']").val(tee.getTotalEnergyExpenditure().toFixed(0));
         }
     });
-    $("#activity_intense, #activity_moderat, #activity_light, #activity_standing, #activity_sleeping").change(function(e) {
-        var min_day = 24 * 60;
-        var activity_intense = document.getElementById('activity_intense').value;
-        var activity_moderat = document.getElementById('activity_moderat').value;
-        var activity_light = document.getElementById('activity_light').value;
-        var activity_standing = document.getElementById('activity_standing').value;
-        var activity_sleeping = document.getElementById('activity_sleeping').value;
+    // Calculate BMR - Nordic Nutrition 2012
+    $("#calculator_blood").submit(function(e) {
+        console.log("Calculate Blood");
+        e.preventDefault();
 
-        var activity_sitting = min_day - activity_intense - activity_moderat - activity_light - activity_standing - activity_sleeping;
+        let formula = $("[name='bloodvolume-formula']").val();
+        let gender = $("[name='gender']").val();
+        let age = Number($("[name='age']").val());
+        let weight = Number($("[name='weight']").val());
+        let height = Number($("[name='height']").val());
+
+        let b = blood.Blood(gender, age, weight, height);
+
+        $("[name='bloodvolume']").val(b.getVolume().toFixed(0));
+    });
+    // Calculate BMR - Nordic Nutrition 2012
+    $("#calculator_lung").submit(function(e) {
+        console.log("Calculate Blood");
+        e.preventDefault();
+        let gender = $("[name='gender']").val();
+        let age = Number($("[name='age']").val());
+        let height = Number($("[name='height']").val());
+
+        let b = lung.Lung(gender, height, age);
+
+        $("[name='vital_capacity']").val(b.getVitalCapacity().toFixed(0));
+    });
+    $("#activity_intense, #activity_moderat, #activity_light, #activity_standing, #activity_sleeping").change(function(e) {
+        let min_day = 24 * 60;
+        let activity_intense = document.getElementById('activity_intense').value;
+        let activity_moderat = document.getElementById('activity_moderat').value;
+        let activity_light = document.getElementById('activity_light').value;
+        let activity_standing = document.getElementById('activity_standing').value;
+        let activity_sleeping = document.getElementById('activity_sleeping').value;
+
+        let activity_sitting = min_day - activity_intense - activity_moderat - activity_light - activity_standing - activity_sleeping;
         $("[name='activity_sitting']").val(activity_sitting);
     });
     // Calculate BMR
@@ -876,13 +905,13 @@ $(document).ready(function() {
         console.log("Calculate BMR - Advanced");
         e.preventDefault();
 
-        var formula = $("[name='bmr-formula']").val();
-        var gender = $("[name='sex']:checked").val();
-        var age = Number($("[name='age']").val());
-        var weight = Number($("[name='weight']").val());
-        var height = Number($("[name='height']").val());
+        let formula = $("[name='bmr-formula']").val();
+        let gender = $("[name='sex']:checked").val();
+        let age = Number($("[name='age']").val());
+        let weight = Number($("[name='weight']").val());
+        let height = Number($("[name='height']").val());
 
-        var b;
+        let b;
 
         if (formula == 'schofield') {
             b = schofield.BMRSchofield(gender, age, weight);
@@ -892,61 +921,61 @@ $(document).ready(function() {
             b = ree.BMRNordicNutritionRecommendations2012(gender, age, weight, height);
         }
 
-        var basicMeta = b.getBasicMetabolicRate();
+        let basicMeta = b.getBasicMetabolicRate();
 
-        var min_day = 24 * 60;
-        var activity_intense = document.getElementById('activity_intense').value;
-        var activity_moderat = document.getElementById('activity_moderat').value;
-        var activity_light = document.getElementById('activity_light').value;
-        var activity_standing = document.getElementById('activity_standing').value;
-        var activity_sleeping = document.getElementById('activity_sleeping').value;
+        let min_day = 24 * 60;
+        let activity_intense = document.getElementById('activity_intense').value;
+        let activity_moderat = document.getElementById('activity_moderat').value;
+        let activity_light = document.getElementById('activity_light').value;
+        let activity_standing = document.getElementById('activity_standing').value;
+        let activity_sleeping = document.getElementById('activity_sleeping').value;
 
-        var activity_sitting = min_day - activity_intense - activity_moderat - activity_light - activity_standing - activity_sleeping;
+        let activity_sitting = min_day - activity_intense - activity_moderat - activity_light - activity_standing - activity_sleeping;
 
         // Estimated MET-values used
-        var met_intense = 10;
-        var met_moderat = 7;
-        var met_light = 4;
-        var met_standing = 2;
-        var met_sleeping = 0.9;
-        var met_sitting = 1.2;
+        let met_intense = 10;
+        let met_moderat = 7;
+        let met_light = 4;
+        let met_standing = 2;
+        let met_sleeping = 0.9;
+        let met_sitting = 1.2;
         
         /*
         // My own PAL calculation - there is no weight factor
-        var pal_intense = (met_intense * (activity_intense / 1440));
-        var pal_moderat = (met_moderat * (activity_moderat / 1440));
-        var pal_light = (met_light * (activity_light / 1440));
-        var pal_standing = (met_standing * (activity_standing / 1440));
-        var pal_sleeping = (met_sleeping * (activity_sleeping / 1440));
-        var pal_sitting = (met_sitting * (activity_sitting / 1440));
+        let pal_intense = (met_intense * (activity_intense / 1440));
+        let pal_moderat = (met_moderat * (activity_moderat / 1440));
+        let pal_light = (met_light * (activity_light / 1440));
+        let pal_standing = (met_standing * (activity_standing / 1440));
+        let pal_sleeping = (met_sleeping * (activity_sleeping / 1440));
+        let pal_sitting = (met_sitting * (activity_sitting / 1440));
 
-        var pal = pal_intense + pal_moderat + pal_light + pal_standing + pal_sleeping + pal_sitting;
+        let pal = pal_intense + pal_moderat + pal_light + pal_standing + pal_sleeping + pal_sitting;
         */
         /*
         // Calculate MET-energy
-        var met_energy_intense = weight * (met_intense * (activity_intense / 60));
-        var met_energy_moderat = weight * (met_moderat * (activity_moderat / 60));
-        var met_energy_light = weight * (met_light * (activity_light / 60));
-        var met_energy_standing = weight * (met_standing * (activity_standing / 60));
-        var met_energy_sitting = weight * (met_sitting * (activity_sitting / 60));
+        let met_energy_intense = weight * (met_intense * (activity_intense / 60));
+        let met_energy_moderat = weight * (met_moderat * (activity_moderat / 60));
+        let met_energy_light = weight * (met_light * (activity_light / 60));
+        let met_energy_standing = weight * (met_standing * (activity_standing / 60));
+        let met_energy_sitting = weight * (met_sitting * (activity_sitting / 60));
         
-        var met_energy = met_energy_intense + met_energy_moderat + met_energy_light + met_energy_standing + met_energy_sitting;
+        let met_energy = met_energy_intense + met_energy_moderat + met_energy_light + met_energy_standing + met_energy_sitting;
         */
 
         // Calculate PAL from Gerrior
-        var bmr_kcal = basicMeta / 4.2; // BMR is in kcal in formula
-        var pal_intense = ((met_intense - 1) * ((1.15 / 0.9) * activity_intense) / 1440) / (bmr_kcal / (0.0175 * 1440 * weight));
-        var pal_moderat = ((met_moderat - 1) * ((1.15 / 0.9) * activity_moderat) / 1440) / (bmr_kcal / (0.0175 * 1440 * weight));
-        var pal_light = ((met_light - 1) * ((1.15 / 0.9) * activity_light) / 1440) / (bmr_kcal / (0.0175 * 1440 * weight));
-        var pal_standing = ((met_standing - 1) * ((1.15 / 0.9) * activity_standing) / 1440) / (bmr_kcal / (0.0175 * 1440 * weight));
-        var pal_sleeping = ((met_sleeping - 1) * ((1.15 / 0.9) * activity_sleeping) / 1440) / (bmr_kcal / (0.0175 * 1440 * weight));
-        var pal_sitting = ((met_sitting - 1) * ((1.15 / 0.9) * activity_sitting) / 1440) / (bmr_kcal / (0.0175 * 1440 * weight));
-        var pal_gerrior = 1.1 + pal_intense + pal_moderat + pal_light + pal_standing + pal_sleeping + pal_sitting;
+        let bmr_kcal = basicMeta / 4.2; // BMR is in kcal in formula
+        let pal_intense = ((met_intense - 1) * ((1.15 / 0.9) * activity_intense) / 1440) / (bmr_kcal / (0.0175 * 1440 * weight));
+        let pal_moderat = ((met_moderat - 1) * ((1.15 / 0.9) * activity_moderat) / 1440) / (bmr_kcal / (0.0175 * 1440 * weight));
+        let pal_light = ((met_light - 1) * ((1.15 / 0.9) * activity_light) / 1440) / (bmr_kcal / (0.0175 * 1440 * weight));
+        let pal_standing = ((met_standing - 1) * ((1.15 / 0.9) * activity_standing) / 1440) / (bmr_kcal / (0.0175 * 1440 * weight));
+        let pal_sleeping = ((met_sleeping - 1) * ((1.15 / 0.9) * activity_sleeping) / 1440) / (bmr_kcal / (0.0175 * 1440 * weight));
+        let pal_sitting = ((met_sitting - 1) * ((1.15 / 0.9) * activity_sitting) / 1440) / (bmr_kcal / (0.0175 * 1440 * weight));
+        let pal_gerrior = 1.1 + pal_intense + pal_moderat + pal_light + pal_standing + pal_sleeping + pal_sitting;
 
         // Using Gerrior PAL calculations as constant
-        var activityConstant = pal_gerrior;
+        let activityConstant = pal_gerrior;
 
-        var vedligehold = basicMeta * activityConstant;
+        let vedligehold = basicMeta * activityConstant;
 
         $("[name='pal_gerrior']").val(pal_gerrior);
         $("[name='activity_sitting']").val(activity_sitting);
@@ -959,12 +988,12 @@ $(document).ready(function() {
         console.log("Riegels formular");
         e.preventDefault();
 
-        var dist = Number($("[name='dist']").val());
-        var hours = Number($("[name='hours']").val());
-        var minutes = Number($("[name='minutes']").val());
-        var seconds = Number($("[name='seconds']").val());
+        let dist = Number($("[name='dist']").val());
+        let hours = Number($("[name='hours']").val());
+        let minutes = Number($("[name='minutes']").val());
+        let seconds = Number($("[name='seconds']").val());
 
-        var b = riegel.Riegel(dist, hours, minutes, seconds);
+        let b = riegel.Riegel(dist, hours, minutes, seconds);
 
         $("#results").html(b.getTableWithEndTimes());
     });
@@ -973,14 +1002,14 @@ $(document).ready(function() {
         console.log("Running time weight loss");
         e.preventDefault();
 
-        var weight = Number($("[name='weight']").val());
-        var weight_change = Number($("[name='change']").val());
-        var hours = Number($("[name='hours']").val());
-        var minutes = Number($("[name='minutes']").val());
-        var seconds = Number($("[name='seconds']").val());
-        var change_effect = Number($("[name='change_effect']").val());
+        let weight = Number($("[name='weight']").val());
+        let weight_change = Number($("[name='change']").val());
+        let hours = Number($("[name='hours']").val());
+        let minutes = Number($("[name='minutes']").val());
+        let seconds = Number($("[name='seconds']").val());
+        let change_effect = Number($("[name='change_effect']").val());
 
-        var b = running_weightchange.RunningWeightLoss(weight, weight_change, change_effect / 100);
+        let b = running_weightchange.RunningWeightLoss(weight, weight_change, change_effect / 100);
 
         $("#result").val(b.getEstimatedFinishTime(hours, minutes, seconds));
     });
@@ -988,9 +1017,9 @@ $(document).ready(function() {
     $("#calculator_vmax_bike_vmax").submit(function(e) {
         console.log("Calculate Vmax from VO2");
         e.preventDefault();
-        var vo2max = Number($("[name='vo2max']").val());
+        let vo2max = Number($("[name='vo2max']").val());
         
-        var b = vmax_bike.Vmax(vo2max);
+        let b = vmax_bike.Vmax(vo2max);
 
         $("[name='vmax']").val(b.getVmax());
     });
@@ -999,15 +1028,15 @@ $(document).ready(function() {
         console.log("Calculate Vmax for Biking");
         e.preventDefault();
 
-        var vmax = Number($("[name='biking_vmax_program']").val());
-        var tmax_min = Number($("[name='biking_tmax_min']").val());
-        var tmax_sec = Number($("[name='biking_tmax_sec']").val());
-        var warmup_percentage = Number($("[name='biking_warmup_percentage']").val());
-        var tmax_percentage = Number($("[name='biking_tmax_percentage']").val());
-        var vmax_pause_percentage = Number($("[name='biking_vmax_pause_percentage']").val());
-        var tmax_pause_percentage = Number($("[name='biking_tmax_pause_percentage']").val());
+        let vmax = Number($("[name='biking_vmax_program']").val());
+        let tmax_min = Number($("[name='biking_tmax_min']").val());
+        let tmax_sec = Number($("[name='biking_tmax_sec']").val());
+        let warmup_percentage = Number($("[name='biking_warmup_percentage']").val());
+        let tmax_percentage = Number($("[name='biking_tmax_percentage']").val());
+        let vmax_pause_percentage = Number($("[name='biking_vmax_pause_percentage']").val());
+        let tmax_pause_percentage = Number($("[name='biking_tmax_pause_percentage']").val());
 
-        var b = vmax_intervals.VmaxIntervals(vmax, tmax_min, tmax_sec);
+        let b = vmax_intervals.VmaxIntervals(vmax, tmax_min, tmax_sec);
 
         $("[name='biking_warmup_velocity']").val(b.getVelocity(warmup_percentage));
         $("[name='biking_vmax_program_value']").val(vmax);
@@ -1020,15 +1049,15 @@ $(document).ready(function() {
         console.log("Calculate Vmax for Running");
         e.preventDefault();
 
-        var vmax = Number($("[name='running_vmax_program']").val());
-        var tmax_min = Number($("[name='running_tmax_min']").val());
-        var tmax_sec = Number($("[name='running_tmax_sec']").val());
-        var warmup_percentage = Number($("[name='running_warmup_percentage']").val());
-        var tmax_percentage = Number($("[name='running_tmax_percentage']").val());
-        var vmax_pause_percentage = Number($("[name='running_vmax_pause_percentage']").val());
-        var tmax_pause_percentage = Number($("[name='running_tmax_pause_percentage']").val());
+        let vmax = Number($("[name='running_vmax_program']").val());
+        let tmax_min = Number($("[name='running_tmax_min']").val());
+        let tmax_sec = Number($("[name='running_tmax_sec']").val());
+        let warmup_percentage = Number($("[name='running_warmup_percentage']").val());
+        let tmax_percentage = Number($("[name='running_tmax_percentage']").val());
+        let vmax_pause_percentage = Number($("[name='running_vmax_pause_percentage']").val());
+        let tmax_pause_percentage = Number($("[name='running_tmax_pause_percentage']").val());
 
-        var b = vmax_intervals.VmaxIntervals(vmax, tmax_min, tmax_sec);
+        let b = vmax_intervals.VmaxIntervals(vmax, tmax_min, tmax_sec);
 
         $("[name='running_warmup_velocity']").val(b.getVelocity(warmup_percentage));
         $("[name='running_vmax_program_value']").val(vmax);
@@ -1042,12 +1071,12 @@ $(document).ready(function() {
         console.log("Calculate HR intensity HRR");
         e.preventDefault();
 
-        var hr_rest = Number($("[name='hr_rest']").val());
-        var max_hr = Number($("[name='hr_max']").val());
-        var hr_work = Number($("[name='hr_work']").val());
+        let hr_rest = Number($("[name='hr_rest']").val());
+        let max_hr = Number($("[name='hr_max']").val());
+        let hr_work = Number($("[name='hr_work']").val());
 
-        var hr = hr_intensity.HRIntensity(max_hr);
-        var result = hr.getHRIntensityFromHeartRateReserve(hr_rest, hr_work);
+        let hr = hr_intensity.HRIntensity(max_hr);
+        let result = hr.getHRIntensityFromHeartRateReserve(hr_rest, hr_work);
 
         $("[name='hrr_intensity']").val(result);
     });
@@ -1056,12 +1085,12 @@ $(document).ready(function() {
         console.log("Calculate HR work intensity HRR");
         e.preventDefault();
 
-        var hr_rest = Number($("[name='hr_rest_form2']").val());
-        var hr_max = Number($("[name='hr_max_form2']").val());
-        var hr_intensity = Number($("[name='intensity']").val());
+        let hr_rest = Number($("[name='hr_rest_form2']").val());
+        let hr_max = Number($("[name='hr_max_form2']").val());
+        let hr_intensity = Number($("[name='intensity']").val());
 
-        var hr = hr_intensity.HRIntensity(hr_max);
-        var result = hr.getHRBasedOnIntensityFromHeartRateReserve(hr_rest, hr_intensity);
+        let hr = hr_intensity.HRIntensity(hr_max);
+        let result = hr.getHRBasedOnIntensityFromHeartRateReserve(hr_rest, hr_intensity);
 
         $("[name='hrr_heartrate']").val(result);
     });
@@ -1070,11 +1099,11 @@ $(document).ready(function() {
         console.log("Calculate HR work intensity from HRmax");
         e.preventDefault();
 
-        var hr_work = Number($("[name='hr_work_form3']").val());
-        var hr_max = Number($("[name='hr_max_form3']").val());
+        let hr_work = Number($("[name='hr_work_form3']").val());
+        let hr_max = Number($("[name='hr_max_form3']").val());
 
-        var hr = hr_intensity.HRIntensity(hr_max);
-        var result = hr.getWorkIntensityBasedOnMaxHR(hr_work);
+        let hr = hr_intensity.HRIntensity(hr_max);
+        let result = hr.getWorkIntensityBasedOnMaxHR(hr_work);
 
         $("[name='intensity_form3']").val(result);
     });
@@ -1083,12 +1112,12 @@ $(document).ready(function() {
         console.log("Calculate YYIR1");
         e.preventDefault();
 
-        var gender = $("[name='sex']:checked").val();
-        var level = Number($("[name='level']").val());
-        var shuttles = Number($("[name='shuttles']").val());
-        var age = 10;
+        let gender = $("[name='sex']:checked").val();
+        let level = Number($("[name='level']").val());
+        let shuttles = Number($("[name='shuttles']").val());
+        let age = 10;
 
-        var b = yyir1.YYIR1(level, shuttles);
+        let b = yyir1.YYIR1(level, shuttles);
 
         $("[name='distance_result']").val(b.getDistance());
         $("[name='vo2max_result']").val(b.getFitnessLevel());
@@ -1099,11 +1128,11 @@ $(document).ready(function() {
         console.log("Calculate YYIR1");
         e.preventDefault();
 
-        var version = $("[name='version']:checked").val();
-        var level = Number($("[name='level']").val());
-        var shuttles = Number($("[name='shuttles']").val());
+        let version = $("[name='version']:checked").val();
+        let level = Number($("[name='level']").val());
+        let shuttles = Number($("[name='shuttles']").val());
 
-        var b = beeptest.BeepTest(level, shuttles, version);
+        let b = beeptest.BeepTest(level, shuttles, version);
 
         $("[name='distance_result']").val(b.getDistance());
         $("[name='vo2max_result']").val(b.getFitnessLevel());
@@ -1114,11 +1143,11 @@ $(document).ready(function() {
         console.log("Calculate Pushups");
         e.preventDefault();
 
-        var gender = $("[name='gender']:checked").val();
-        var age = Number($("[name='age']").val());
-        var repetitions = Number($("[name='repetitions']").val());
+        let gender = $("[name='gender']:checked").val();
+        let age = Number($("[name='age']").val());
+        let repetitions = Number($("[name='repetitions']").val());
 
-        var p = pushup.Pushup(gender, age, repetitions);
+        let p = pushup.Pushup(gender, age, repetitions);
 
         $("[name='population_average']").val(p.getPopulationAverage());
         $("[name='score']").val(p.getScore());
@@ -1129,11 +1158,11 @@ $(document).ready(function() {
         console.log("Calculate Wilks Score");
         e.preventDefault();
 
-        var gender = $("[name='gender']:checked").val();
-        var bodyweight = Number($("[name='bodyweight']").val());
-        var lifted = Number($("[name='lifted']").val());
+        let gender = $("[name='gender']:checked").val();
+        let bodyweight = Number($("[name='bodyweight']").val());
+        let lifted = Number($("[name='lifted']").val());
 
-        var wilksScore = wilks.calculateWilksScore(gender, bodyweight, lifted);
+        let wilksScore = wilks.calculateWilksScore(gender, bodyweight, lifted);
 
         $("[name='wilksscore']").val(wilksScore);
     });
@@ -1142,10 +1171,10 @@ $(document).ready(function() {
         console.log("Calculate Karvonen Intensity Zones");
         e.preventDefault();
 
-        var min_hr = Number($("#karvonen_min_hr").val());
-        var max_hr = Number($("#karvonen_max_hr").val());
+        let min_hr = Number($("#karvonen_min_hr").val());
+        let max_hr = Number($("#karvonen_max_hr").val());
 
-        var k = karvonen.Karvonen(min_hr, max_hr);
+        let k = karvonen.Karvonen(min_hr, max_hr);
 
         $("#karvonen_zone1_a").val(k.getTargetHR(50));
         $("#karvonen_zone1_b").val(k.getTargetHR(60));
@@ -1162,15 +1191,15 @@ $(document).ready(function() {
         console.log("Calculate Distance");
         e.preventDefault();
 
-        var hours = Number($("#tid_hours").val());
-        var min = Number($("#tid_min").val());
-        var sek = Number($("#tid_sek").val());
-        var distance = Number($("#distance").val());
+        let hours = Number($("#tid_hours").val());
+        let min = Number($("#tid_min").val());
+        let sek = Number($("#tid_sek").val());
+        let distance = Number($("#distance").val());
 
         min = min + (hours * 60);
         distance = distance / 1000;
 
-        var c = running_distance_vo2.RunningDistanceVO2();
+        let c = running_distance_vo2.RunningDistanceVO2();
 
         $("#kondital").val(c.getEstimatedFitnessLevel(min, sek, distance));
     });
@@ -1178,11 +1207,11 @@ $(document).ready(function() {
         console.log("Calculate velocity");
         e.preventDefault();
 
-        var min = Number($("[name='min']").val());
-        var sec = Number($("[name='sec']").val());
-        var distance = Number($("[name='distance']").val());
+        let min = Number($("[name='min']").val());
+        let sec = Number($("[name='sec']").val());
+        let distance = Number($("[name='distance']").val());
 
-        var c = running.Running();
+        let c = running.Running();
 
         $("#velocity_kmt").val(c.getKilometersPrHour(min, sec, distance));
         $("#velocity_min_km").val(c.getTimePrKilometer(min, sec, distance));
@@ -1191,9 +1220,9 @@ $(document).ready(function() {
         console.log("Calculate velocity");
         e.preventDefault();
 
-        var kmt = Number($("[name='kmt']").val());
+        let kmt = Number($("[name='kmt']").val());
 
-        var c = running.Running();
+        let c = running.Running();
 
         $("#velocity_convert_minkm").val(c.convertKmtToMinPerKm(kmt));
     });
@@ -1201,10 +1230,10 @@ $(document).ready(function() {
         console.log("Calculate velocity");
         e.preventDefault();
 
-        var min = Number($("[name='min']").val());
-        var sec = Number($("[name='sec']").val());
+        let min = Number($("[name='min']").val());
+        let sec = Number($("[name='sec']").val());
 
-        var c = running.Running();
+        let c = running.Running();
 
         $("#velocity_convert_kmt").val(c.convertMinPerKmToKmt(min, sec));
     });
@@ -1212,11 +1241,11 @@ $(document).ready(function() {
         console.log("Calculate running economy");
         e.preventDefault();
 
-        var weight = Number($("[name='weight']").val());
-        var velocity = Number($("[name='velocity']").val());
-        var oxygenuptake = Number($("[name='oxygenuptake']").val());
+        let weight = Number($("[name='weight']").val());
+        let velocity = Number($("[name='velocity']").val());
+        let oxygenuptake = Number($("[name='oxygenuptake']").val());
 
-        var c = running_economy.RunningEconomy(weight, oxygenuptake);
+        let c = running_economy.RunningEconomy(weight, oxygenuptake);
 
         $("#running_economy").val(c.getRunningEconomy(velocity).toFixed(2));
     });
@@ -1224,10 +1253,10 @@ $(document).ready(function() {
         console.log("Calculate oxygen uptake");
         e.preventDefault();
 
-        var weight = Number($("[name='fitness_weight']").val());
-        var oxygenuptake = Number($("[name='fitness_oxygenuptake']").val());
+        let weight = Number($("[name='fitness_weight']").val());
+        let oxygenuptake = Number($("[name='fitness_oxygenuptake']").val());
 
-        var c = running_economy.RunningEconomy(weight, oxygenuptake);
+        let c = running_economy.RunningEconomy(weight, oxygenuptake);
 
         $("#fitness_level").val(c.getFitnessLevel().toFixed(2));
     });
@@ -1236,10 +1265,10 @@ $(document).ready(function() {
         console.log("Calculate CooperTest 2400");
         e.preventDefault();
 
-        var min = Number($("#tid_min").val());
-        var sek = Number($("#tid_sek").val());
+        let min = Number($("#tid_min").val());
+        let sek = Number($("#tid_sek").val());
 
-        var c = cooper_test.CooperRunning();
+        let c = cooper_test.CooperRunning();
 
         $("#kondital").val(c.getVO22400MeterTest(min, sek));
     });
@@ -1248,9 +1277,9 @@ $(document).ready(function() {
         console.log("Calculate CooperTest");
         e.preventDefault();
 
-        var distance = Number($("#distance").val());
+        let distance = Number($("#distance").val());
 
-        var c = cooper_test.CooperRunning();
+        let c = cooper_test.CooperRunning();
 
         $("#kondital").val(c.getVO212MinTest(distance));
     });
@@ -1258,10 +1287,10 @@ $(document).ready(function() {
         console.log("Calculate Fat Energy Pct");
         e.preventDefault();
 
-        var kj = Number($("#kj").val());
-        var fat = Number($("#fat").val());
+        let kj = Number($("#kj").val());
+        let fat = Number($("#fat").val());
 
-        var c = fatenergypct.FatEnergyPct(kj, fat);
+        let c = fatenergypct.FatEnergyPct(kj, fat);
 
         $("#fat_energy_pct").val(c.getFatEnergyPct());
     });
@@ -1269,11 +1298,11 @@ $(document).ready(function() {
         console.log("Calculate Waist");
         e.preventDefault();
 
-        var hip = Number($("#hip").val());
-        var waist = Number($("#waist").val());
-        var height = Number($("#height").val());
+        let hip = Number($("#hip").val());
+        let waist = Number($("#waist").val());
+        let height = Number($("#height").val());
 
-        var c = whr.WaistRatio();
+        let c = whr.WaistRatio();
 
         $("#whr").val(c.getWaistHipRatio(waist, hip).toFixed(2));
         $("#waistheightratio").val(c.getWaistHeightRatio(waist, height).toFixed(2));
