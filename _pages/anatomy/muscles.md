@@ -30,7 +30,7 @@ Der findes forskellige muskeltyper, men i forbindelse med analyser af bevægelse
 
 Skeletmusklerne kan opdeles i tre kategorier.
 
-- **Stabiliserende muskler**. Disse muskler er mindre lednære muskler, som skal stabilisere leddene. Fx findes der små muskler ned langs rygsøjlen.
+- **Stabiliserende muskler**. Disse muskler er mindre lednære muskler, som skal stabilisere og kontrollere leddene. Fx findes der små muskler ned langs rygsøjlen.
 - **Åndedrætsmuskler**. Musklerne indgår i åndedrættet og kan være med til at lave bugtryk.
 - **Bevægelsesmuskler**. Muskler som har til opgave at bevæge kroppen og styre bevægelserne.
 

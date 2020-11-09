@@ -11,14 +11,6 @@ header:
 tags:
   - anatomi
 feature_row:
-  - image_path: /assets/images/anatomy/aegled.png
-    alt: "Ægled"
-    title: "Ægled"
-    excerpt: "I et ægled foregår bevægelserne som et æg kan bevæge sig i et æggebæger. Den sidste nakkehvirvel inden kraniet er et ægled."
-  - image_path: /assets/images/anatomy/drejeled.png
-    alt: "Drejeled"
-    title: "Drejeled"
-    excerpt: "Et drejeled kan lave en drejning omkring knoglens længderetning. Der er fx et drejeled mellem ulna og radius, som er underarmens knogler."
   - image_path: /assets/images/anatomy/glideled.png
     alt: "Glideled"
     title: "Glideled"
@@ -27,14 +19,22 @@ feature_row:
     alt: "Hængselled"
     title: "Hængselled"
     excerpt: "Et hængselled kan lave en bevægelse som ligner en drejning i et dørhængsel. Albueleddet og knæleddet er fx hængselled."
-  - image_path: /assets/images/anatomy/kugleled.png
-    alt: "Kugleled"
-    title: "Kugleled"
-    excerpt: "Et kugleled er det mest bevægelige led i kroppen. Der er et kugleled i hoften mellem lårbenet og hofteskålen og i skulderleddet."
+  - image_path: /assets/images/anatomy/drejeled.png
+    alt: "Drejeled"
+    title: "Drejeled"
+    excerpt: "Et drejeled kan lave en drejning omkring knoglens længderetning. Der er fx et drejeled mellem ulna og radius, som er underarmens knogler."
   - image_path: /assets/images/anatomy/saddelled.png
     alt: "Saddelled"
     title: "Saddelled"
     excerpt: "Et saddelled kan lave to bevægelser, som går vinkelret på hinanden. Tommelfingerens rodled er fx et saddelled."
+  - image_path: /assets/images/anatomy/aegled.png
+    alt: "Ægled"
+    title: "Ægled"
+    excerpt: "I et ægled foregår bevægelserne som et æg kan bevæge sig i et æggebæger. Den sidste nakkehvirvel inden kraniet er et ægled."
+  - image_path: /assets/images/anatomy/kugleled.png
+    alt: "Kugleled"
+    title: "Kugleled"
+    excerpt: "Et kugleled er det mest bevægelige led i kroppen. Der er et kugleled i hoften mellem lårbenet og hofteskålen og i skulderleddet."
 toc: true
 toc_sticky: true
 sidebar:

@@ -1,5 +1,5 @@
 ---
-title: "Albueleddet"
+title: &title "Albueleddet"
 latin: ""
 tags:
   - led
@@ -20,6 +20,7 @@ movements:
 image: https://ars.els-cdn.com/content/image/1-s2.0-S0021929013003527-gr1.jpg
 header:
   overlay_image: https://i1.wp.com/dontforgetthebubbles.com/wp-content/uploads/2013/11/image1.jpg
+  caption: *title
 ---
 
 Albueleddet er et hængselled, der forbinder overarmen med underarmen og hånden. Albueleddet består af den nederste del af overarmsknoglen og to underarmsknogler, der både gør det muligt at bøje og strække albuen, men også at dreje i hånden og underarmen.
