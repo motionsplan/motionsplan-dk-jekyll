@@ -1,5 +1,5 @@
 ---
-title: "Kondition og kondital: Hvor hurtigt mister du formen?"
+title: &title "Kondition og kondital: Hvor hurtigt mister du formen?"
 permalink: /kondital-hvor-hurtigt/
 redirect_from:
   - /viden%20om/kondital-hvor-hurtigt/
@@ -7,13 +7,14 @@ language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1457449205106-d0aad138e99b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
   teaser: https://images.unsplash.com/photo-1457449205106-d0aad138e99b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  caption: *title
   caption: Photo by Tikkho Maciel on Unsplash
 category:
   - Viden om
 tags:
-  - anatomi
   - fysiologi
   - muskler
+  - kredsløb
 last_modified_at: 2020-06-11T08:14:14Z
 toc: true
 ---

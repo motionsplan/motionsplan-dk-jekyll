@@ -12,6 +12,7 @@ tags:
   - hypertrofi
   - træningsmetoder
   - maksimal muskelvækst
+  - muskler
 last_modified_at: 2020-06-06T23:14:14Z
 toc: true
 ---

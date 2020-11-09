@@ -12,6 +12,7 @@ category:
 tags:
   - hypertrofi
   - træningsmetoder
+  - muskler
 last_modified_at: 2020-05-29T23:14:14Z
 toc: true
 ---

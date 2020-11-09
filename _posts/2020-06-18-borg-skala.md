@@ -8,8 +8,11 @@ header:
   caption: *title
 category:
   - Viden om
+  - Kondition
 tags:
-  - anatomi
+  - konditionstræning
+  - kondition
+  - kredsløb
   - fysiologi
 last_modified_at: 2020-08-11T08:14:14Z
 toc: true
