@@ -59,3 +59,17 @@ Når du laver en bevægelsesanalyse, så skal du besvare følgende spørgsmål:
 - Hvordan arbejder musklerne i bevægelsen? Hvad er den koncentriske og ekscentriske fase? Er der statisk arbejde i bevægelsen?
 
 {% include feature_row type="left" %}
+
+## Artikler om anatomi
+
+<div class="feature__wrapper">
+
+{% assign site_posts = site.posts | where: "tags", "anatomi" | sort: "last_modified_at" | reverse %}
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts limit:16 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>

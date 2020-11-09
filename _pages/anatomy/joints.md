@@ -1,6 +1,6 @@
 ---
 layout: single
-title: &title "Led, ledtyper og bevægelser"
+title: &title "Led, ledtyper og bevægelser 🔧"
 excerpt: "Led kan opdeles i ægte led og uægte led og forskellige ledtyper: ægled, saddelled, hængselled, glideled, drejeled og kugleled."
 permalink: /led/
 author_profile: true
@@ -102,7 +102,7 @@ Hvis knoglerne presses sammen, vil den bløde kerne blive trykket fladere og der
 
 {% endcomment %}
 
-## Bevægelsestyper
+## Bevægelsestyper i leddene
 
 Bevægelser kan foregå i tre forskellige planer.
 
@@ -110,7 +110,7 @@ Bevægelser kan foregå i tre forskellige planer.
 - Sagitale plan.
 - Transversale plan.
 
-{% include figure image_path="https://www.sci-sport.com/theorie/img/lightbox/t201.png" caption="Illustration af sagitale, frontale og transversale plan" alt="Sagitale, frontale og transversale plan" %}
+{% include figure image_path="https://www.sci-sport.com/theorie/img/lightbox/t201.png" caption="Illustration af sagitale, frontale og transversale plan bevægelsesplan" alt="Sagitale, frontale og transversale bevægelsesplan" %}
 
 ### Sagitale plan
 
@@ -129,9 +129,14 @@ Bevægelser kan foregå i tre forskellige planer.
 
 ## Kroppens led
 
-{% assign joints = site.anatomy | where: "tags", "led" %}
-{% for j in joints %}
-- **[{{ j.title }}]({{ j.url }})**. {{ j.excerpt | strip_html | markdownify }}
+{% assign pages = site.anatomy | where: "tags", "led" %}
+{% for p in pages %}
+- **[{{ p.title }}]({{ p.url }})**.
+  {{ p.excerpt | markdownify }}
 {% endfor %}
 
+{% comment %}
+
 Du kan læse mere om [led og ledtyper i Morten Zachos beskrivelse](http://web.archive.org/web/20090130044627/http://www.motion-online.dk/styrketraening/anatomiguide/led_generelt/){:rel="nofollow"}.
+
+{% endcomment %}

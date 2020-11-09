@@ -42,17 +42,9 @@ feature_row:
     btn_class: "btn--success"
 ---
 
-Jeg får ofte spørgsmålet om, hvor mange knogler mennesket har, og hvad knoglerne og skelettet vejer, når jeg underviser i anatomi. Jeg har derfor researchet lidt på, hvor mange knogler skelettet består af, og hvor meget skelettet og knoglerne vejer?
+Jeg får ofte spørgsmålet om, hvad knoglerne og skelettet vejer, når jeg underviser i anatomi. Jeg har derfor researchet lidt på, hvor meget skelettet og knoglerne vejer?
 
-**Menneskets skelet består af 206 knogler, og skelettet og knoglerne udgør omkring 12-20 pct. af kropsvægten. Vægten af skelettet og knoglerne topper i 20-30 års alderen, hvor skelettet indeholder omkring 1200 g kalk. Hvis vi tager en et eksempel med en 80 kg tung person, så vejer knoglerne og skelettet omkring 12-14 kg.**
-
-## Hvad er skelettet og knoglerne?
-
-Skelettets funktion er at være et stativ for mennesket og det giver stabilitet og stivhed i kroppen. Skelettet har tre primære opgaver:
-
-- **Beskyttelse**: Skelettet beskytter de vigtige organer, som fx lungerne, hjertet og nervesystemet.
-- **Bevægelse**: Knoglerne er fæstnet i leddene, og derfor er skelettet udgangspunkt for bevægelser, når musklerne trækker sig sammen. 
-- **Deponering**: Skelettet er depot for kroppens mineraler, og i de store knogler produceres de røde blodceller.
+Hvor meget vejer skelettet? **Menneskets skelet og knogler udgør omkring 12-20 pct. af kropsvægten. Vægten af skelettet og knoglerne topper i 20-30 års alderen, hvor skelettet indeholder omkring 1200 g kalk. Hvis vi tager en et eksempel med en 80 kg tung person, så vejer knoglerne og skelettet omkring 12-14 kg.**
 
 ## Hvornår vejer knoglerne mest?
 
@@ -95,13 +87,15 @@ Knoglernes densitet har intet at gøre med knoglernes omkreds.
 
 ## Hvor mange knogler har et menneske?
 
-Menneskekroppen har som voksen i alt 206 knogler. Knoglerne er bundet sammen til skelettet via led. Alle mennesker har knogler, der ligner hinanden, men størrelsen og længden kan være forskellige. Derfor har vi forskellig kropsbygning. Babyer er født med 300 knogler, som hovedsageligt er lavet af brusk, men nogle af knoglerne vokser efterhånden sammen.
+Menneskekroppen har som voksen i alt 206 knogler. Knoglerne er bundet sammen til skelettet via [led og forskellige ledtyper]({% link _pages/anatomy/joints.md %}). Alle mennesker har flere forskellige [knogletyper]({% link _pages/anatomy/bones.md %}). 
 
-Jeg har skrevet en anden artikel om [knoglerne og knogletyperne](/knogler/).
+Jeg har skrevet et andet indlæg, hvor du kan få uddybet svaret til "[Hvor mange knogler har mennesket?]({% link _posts/2020-05-31-hvor-mange-knogler-har-mennesket.md %})", hvor du også får svaret på, hvor mange knogler en baby har?
 
-## Hvor mange knogler har en baby?
+## Vejer en babys knogler mindre?
 
-Vi er født med omkring 300 forskellige knogler, som dog i begyndelsen hovedsageligt er brusk. Efterhånden som vi vokser, så vokser knoglerne sammen, og som voksen har vi altså kun omkring 206 knogler.
+Babyer er født med 300 knogler, som hovedsageligt er lavet af brusk, men nogle af knoglerne vokser efterhånden sammen.
+
+Spørgsmålet er, om de blødere bruskholdige knogler vejer mere eller mindre end de stivere, forbenede voksenknogler.
 
 ## Hvad er den mindste og letteste knogle i kroppen?
 
@@ -121,7 +115,7 @@ Jeg har ikke kunnet finde den anslåede vægt for ret mange knogler. Hvis du fin
 
 Jeg har skrevet lidt flere artikler om [knoglerne og knogletyperne](/knogler/) og [anatomi](/anatomi/).
 
-{% include pinterest image_path="/assets/images/pinterest/hvad-vejer-skelettet.png" data-pin-media="/assets/images/pinterest/hvad-vejer-skelettet.png" alt="Hvor mange knogler har mennesket og hvad vejer knoglerne og skelettet" caption="Hvor mange knogler har mennesket og hvad vejer knoglerne og skelettet" class="hidden" %}
+{% include pinterest image_path="/assets/images/pinterest/hvad-vejer-skelettet.png" data-pin-media="/assets/images/pinterest/hvad-vejer-skelettet.png" alt="Hvad vejer knoglerne og skelettet" caption="Hvad vejer knoglerne og skelettet" class="hidden" %}
 
 ## Bøger
 

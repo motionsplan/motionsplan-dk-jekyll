@@ -1,0 +1,25 @@
+{% assign bones = site.data.knogler %}
+
+<table class="table">
+  {% for row in bones %}
+    {% if forloop.first %}
+    <thead>
+    <tr>
+      <th>{{ row.Danish }}</th>
+      <th>{{ row.Latin }}</th>
+      <th>{{ row.English }}</th>
+    </tr>
+    </thead>
+    {% endif %}
+    {% if forloop.length == 1 %}
+    <tbody>
+    {% endif %}
+      <tr>
+        <td>{{ row.Danish }}</td>
+        <td>{{ row.Latin }}</td>
+        <td>{{ row.English }}</td>
+      </tr>
+    {% if forloop.last %}
+    {% endif %}
+  {% endfor %}
+</table>

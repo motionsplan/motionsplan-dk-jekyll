@@ -1,6 +1,6 @@
 ---
 layout: single
-title: &title "Skeletmuskler: Muskler, muskelgrupper og muskeloversigt"
+title: &title "Skeletmuskler: Muskler, muskelgrupper og muskeloversigt 💪"
 excerpt: "Skeletmuskler bevæger kroppen. Jeg har lavet en oversigt over muskler, muskelgrupper og muskel anatomi, hvor du kan se navne på kroppens muskler på latin og dansk."
 permalink: /muskler/
 header:
@@ -22,7 +22,7 @@ Musklerne er hæftet til knoglerne via sener. Når musklerne gennem nervesysteme
 
 Musklerne er altså en del af en funktionel enhed sammen med led og knogler. Musklerne på forsiden og bagsiden af et led samarbejder om en bevægelse. Musklen, der udfører bevægelsen kaldes agonisten, mens musklen på den modsatte side kaldes antagonisten. 
 
-Der er således muskulær aktivitet i begge muskler. Agonisten har mest aktivitet til at udføre bevægelsen, men antagonisten er med til at stabilisere leddet, så den er også aktiv. 
+Der er aktivitet i begge muskler. Agonisten har mest aktivitet til at udføre bevægelsen, men antagonisten er med til at stabilisere leddet, så den er også aktiv. 
 
 ## Skeletmusklernes opdeling
 
@@ -52,3 +52,17 @@ I nedenstående figur er det mest relevante muskler i forhold til træning vist 
 ## Muskeloversigt med navne på dansk og latin
 
 {% include table-muscles.html %}
+
+## Artikler om muskler
+
+<div class="feature__wrapper">
+
+{% assign site_posts = site.posts | where: "tags", "muskler" | sort: "last_modified_at" | reverse %}
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts limit:16 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
