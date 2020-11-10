@@ -1,12 +1,83 @@
-<form class="calculator" id="calculator_fatpercent">
+{% comment %}
+
+<table>
+        <tr>
+          <td>Alder (år)</td>
+          <td>Køn</td>
+          <td>Site A</td>
+          <td>Site B</td>
+          <td>Site C</td>
+        </tr>
+        <tr>
+          <td>18 - 26</td>
+          <td>Mand</td>
+          <td>Right Upper Arm</td>
+          <td>Abdomen</td>
+          <td>Right Forearm</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>Kvinde</td>
+          <td>Abdomen</td>
+          <td>Right Thigh</td>
+          <td>Right Forearm</td>
+        </tr>
+        <tr>
+          <td>27 - 50</td>
+          <td>Mand</td>
+          <td>Hips</td>
+          <td>Abdomen</td>
+          <td>Right Forearm</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>Kvinde</td>
+          <td>Abdomen</td>
+          <td>Right Thigh</td>
+          <td>Right Calf</td>
+        </tr>
+      </table>
+
+<form class="calculator" id="calculator_fat_percent_mu26">
     <fieldset>
-        <legend>Fedtprocent ud fra målebånd.</legend>
-        <p>Jeg har ikke kunnet finde en <em>open source</em> formel, som kan bruges til at lave denne beregner.</p>
-        <p>Hvis du vil hjælpe med en formel, så er det meget velkomment.</p>
+        <legend>Brug et målebånd til at måle omkredsen i millimeter på de angivne steder</legend>
+        <div class="form-group">
+            <label>
+                <select name="group">
+                    <option value="">Vælg køn og alder</option>
+                    <option value="men_under_26">Mænd 18-26 år</option>
+                    <option value="men_over_26">Mænd 27-50 år</option>
+                    <option value="women_under_26">Kvinder 18-26 år</option>
+                    <option value="women_over_26">Kvinder 27-50 år</option>
+                </select>
+            </label>
+        </div>
+
+        <div class="form-group">
+            <label>Overarm (strakt arm, mål midt mellem skulder og albue) (mm)</label>
+            <input name="Overarm_mu26" id="Overarm_mu26" type="number" min="100" max="1000" placeholder="Omkreds om overarmen i mm" step="0.1">
+        </div>
+        <div class="form-group">
+            <label for="Mave_mu26">Talje (2 cm over navlen) (mm)</label>
+            <input name="Mave_mu26" id="Mave_mu26" type="number" min="100" max="1000" placeholder="Omkreds om taljen i mm" step="0.1">
+        </div>
+        <div class="form-group">
+            <label for="Underarm_mu26">Underarm (strakt arm, største omkreds) (mm)</label>
+            <input name="Underarm_mu26" id="Underarm_mu26" type="number" min="100" max="1000" placeholder="Omkreds om underarm i mm" step="0.1">
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label for="fat_mu26">Fedtprocent (%)</label>
+            <input name="Fedt_mu26" type="text" id="fat_mu26" disabled>
+        </div>
     </fieldset>
 </form>
 
-{% comment %}
+
+{% endcomment %}
+
 <table width="100%">
     <tbody>
         <tr>
@@ -25,12 +96,14 @@
     <fieldset>
         <legend>Brug et målebånd til at måle omkredsen i millimeter på de angivne steder</legend>
         <div class="form-group">
-            <label for="Overarm_mu26">Overarm (strakt arm, mål midt mellem skulder og albue) (mm)</label>
-            <input name="Overarm_mu26" id="Overarm_mu26" type="number" min="100" max="1000" placeholder="Omkreds om overarmen i mm" step="0.1">
+            <label>Overarm (strakt arm, mål midt mellem skulder og albue) (mm)
+                <input name="Overarm_mu26" id="Overarm_mu26" type="number" min="100" max="1000" placeholder="Omkreds om overarmen i mm" step="0.1">
+            </label>
         </div>
         <div class="form-group">
-            <label for="Mave_mu26">Talje (2 cm over navlen) (mm)</label>
-            <input name="Mave_mu26" id="Mave_mu26" type="number" min="100" max="1000" placeholder="Omkreds om taljen i mm" step="0.1">
+            <label>Talje (2 cm over navlen) (mm)
+                <input name="Mave_mu26" id="Mave_mu26" type="number" min="100" max="1000" placeholder="Omkreds om taljen i mm" step="0.1">
+            </label>
         </div>
         <div class="form-group">
             <label for="Underarm_mu26">Underarm (strakt arm, største omkreds) (mm)</label>
@@ -123,4 +196,3 @@
         </div>
     </fieldset>
 </form>
-{% endcomment %}

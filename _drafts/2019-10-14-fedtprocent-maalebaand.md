@@ -1,14 +1,14 @@
 ---
-title: "Mål din fedtprocent med målebånd"
+title: &title "Mål din fedtprocent med målebånd"
 permalink: /fedtprocent-maalebaand/
 redirect_from:
   - /measure-fp/
-excerpt: "Du kan udregne din fedtprocent på baggrund af enkelte kropsmålinger, der kan laves med et målebånd."
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1530530488105-64664c7213bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80
   caption: Photo by Annie Spratt on Unsplash
   teaser: https://images.unsplash.com/photo-1530530488105-64664c7213bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  caption: *title
 category:
   - Test
 tags:
@@ -28,21 +28,21 @@ feature_row:
     btn_class: "btn--success"
 ---
 
-*[BMI]: Body Mass Index
+Der er mange måder at måle din fedtprocent på. Denne måling af fedtprocent kræver kun et målebånd, og så skal du måle omkredsen forskellige steder på kroppenn.
 
-## Antagelser i testen
+## Måling af fedtprocent med målebånd har følgende antagelser
 
 Testen antager, at der er steder på kroppen, som repræsenterer, hvor meget fedtfri masse en person har (underarm og læg), og andre steder, der indikerer den samlede fedtmasse (mave, overarme, hofter og lår).
 
-Testen har som alle indirekte tests en række begrænsninger. Når man kigger på en større population, så kan den give et rimeligt billede af den gennemsnitlige fedtprocent i gruppen. Når man bruger testen på individniveau, så skal man regne med en relativt stor usikkerhed på 2,5% - 4,0% sammenlignet med fx hudfoldsmålinger med fedttang.
+Formlerne bag måling af fedtprocent med målebånd er lavet af McArdle og Katch (2010), og hvis du vil have en engelsk side om målingerne kan du kigge på [www.brianmac.co.uk](https://www.brianmac.co.uk/fatgirth.htm).
 
-Testen er baseret på en test af utrænede personer med normal bygning. Man skal altså ikke forvente, at den fungerer korrekt på tynde mennesker eller på trænede mennesker, fordi muskler i overarme, baller og lår kan give en overvurdering i testen.
+Alle målinger af fedtprocent er indirekte tests, og derfor har de sine begræsninger. McArdle og Katch (2010) angiver selv, at testen har en relativt stor standardafvigelse på 2,5 - 4 pct. Testen er udarbejdet med baggrund i utrænede med en normal bygning. Testen bliver altså særligt unøjagtig for meget tynde mennesker eller trænede, da størrelsen af musklerne i overarme, baller og lår påvirker resultatet i testen.
 
-Du kan ikke få din præcise fedtprocent med testen, men værktøjet kan vær et fint redskab til at følge din egen vægt over tid.
+Du kan imidlertid bruge værktøjet over tid til at følge dine egne kropsmålinger. Hvis omkredsen bliver mindre, og at du holder samme træningsniveau, så er det sandsynligt, at du taber fedt.
 
-Algoritmen bag testen er afhængig af køn og alder, så derfor skel du bruge den rigtige formular nedenunder.
+McArdle og Katch (2010) algoritme tager højde for køn og alder.
 
-## Udfør testen og beregn fedtprocenten
+## Mål fedtprocenten med målebånd
 
 {% include calculate-fat-percent-measurement.html %}
 
@@ -50,7 +50,11 @@ Algoritmen bag testen er afhængig af køn og alder, så derfor skel du bruge de
 
 {% include feature_row type="left" %}
 
+<details markdown="1">
+  <summary>Referencer til måling af fedtprocent med målebånd</summary>
+
 - McArdle, William D., og Frank I. Katch. 2010. Essential Exercise Physiology 4th. 4th revised international ed edition. Philadelphia: Lippincott Williams and Wilkins.
 - Katch, F. I., og W. D. McArdle. 1973. “Prediction of Body Density from Simple Anthropometric Measurements in College-Age Men and Women”. Human Biology 45 (3): 445–55.
 - Tran, Z. V., og A. Weltman. 1989. “Generalized Equation for Predicting Body Density of Women from Girth Measurements”. Medicine and Science in Sports and Exercise 21 (1): 101–4. <https://doi.org/10.1249/00005768-198902000-00018>.
 - Tran, Z. V., og A. Weltman. 1988. “Predicting Body Composition of Men from Girth Measurements”. Human Biology 60 (1): 167–75.
+</details>

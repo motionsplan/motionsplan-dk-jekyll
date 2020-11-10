@@ -10,11 +10,11 @@ motionsplan.CalculateFatPercentMeasurements = function() {
     return  ((hips * 0.4126 + abdomen * 0.3525 - underarm * 1.182) / 10 - 15.0);
   }
 
-  function getFatPercentWomenUnder26(thigh, abdomen, underarm) {
+  function getFatPercentWomenUnder26(abdomen, thigh, underarm) {
     return ((abdomen * 0.5262 + thigh * 0.8191 - underarm * 1.6972) / 10 - 19.6);
   }
 
-  function getFatPercentWomenOver26(thigh, abdomen, calf) {
+  function getFatPercentWomenOver26(abdomen, thigh, calf) {
     return ((abdomen * 0.4675 + thigh * 0.4868 - calf * 0.5693) / 10 - 18.4);
   }
 

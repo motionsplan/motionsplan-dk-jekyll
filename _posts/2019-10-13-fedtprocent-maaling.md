@@ -1,8 +1,6 @@
 ---
 title: "Hvordan måler jeg min fedtprocent? 7 forskellige metoder [2020]"
 permalink: /maal-fedtprocent/
-redirect_from:
-  - /fedtprocent-maalebaand/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1523901839036-a3030662f220?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80

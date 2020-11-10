@@ -616,49 +616,47 @@ $(document).ready(function() {
 
         $("[name='fatpercent']").val(f.getBodyFatpercent());
     });
-    /*
     // Calculate Fat Percent Measurements
-    $("#calculator_fat_percent_mu26").submit(function(e) {
+    $("#calculator_fat_percent_men_under_26").submit(function(e) {
         console.log("Calculate Fat Percent on Measurements");
         e.preventDefault();
         let f = fatm.CalculateFatPercentMeasurements();
-        $("#fat_mu26").val(f.getFatPercentMenUnder26(
-            Number($("[name='Overarm_mu26']").val()),
-            Number($("[name='Mave_mu26']").val()),
-            Number($("[name='Underarm_mu26']").val())
+        $("#fat_men_under_26").val(f.getFatPercentMenUnder26(
+            Number($("[name='right_upper_arm']").val()),
+            Number($("[name='abdomen']").val()),
+            Number($("[name='right_forearm']").val())
         ));
     });
-    $("#calculator_fat_percent_mo26").submit(function(e) {
+    $("#calculator_fat_percent_men_over_26").submit(function(e) {
         console.log("Calculate Fat Percent on Measurements");
         e.preventDefault();
         let f = fatm.CalculateFatPercentMeasurements();
-        $("#fat_mo26").val(f.getFatPercentMenOver26(
-            Number($("[name='Hofter_mo26']").val()),
-            Number($("[name='Mave_mo26']").val()),
-            Number($("[name='Underarm_mo26']").val())
+        $("#fat_men_over_26").val(f.getFatPercentMenOver26(
+            Number($("[name='hips']").val()),
+            Number($("[name='abdomen']").val()),
+            Number($("[name='right_forearm']").val())
         ));
     });
-    $("#calculator_fat_percent_wu26").submit(function(e) {
+    $("#calculator_fat_percent_women_under_26").submit(function(e) {
         console.log("Calculate Fat Percent on Measurements");
         e.preventDefault();
         let f = fatm.CalculateFatPercentMeasurements();
-        $("#fat_wu26").val(f.getFatPercentWomenUnder26(
-            Number($("[name='Laar_wu26']").val()),
-            Number($("[name='Mave_wu26']").val()),
-            Number($("[name='Underarm_wu26']").val())
+        $("#fat_women_under_26").val(f.getFatPercentWomenUnder26(
+            Number($("[name='abdomen']").val()),
+            Number($("[name='right_thigh']").val()),
+            Number($("[name='right_forearm']").val())
         ));
     });
-    $("#calculator_fat_percent_wo26").submit(function(e) {
+    $("#calculator_fat_percent_women_over_26").submit(function(e) {
         console.log("Calculate Fat Percent on Measurements");
         e.preventDefault();
         let f = fatm.CalculateFatPercentMeasurements();
-        $("#fat_wo26").val(f.getFatPercentWomenOver26(
-            Number($("[name='Laar_wo26']").val()),
-            Number($("[name='Mave_wo26']").val()),
-            Number($("[name='Laeg_wo26']").val())
+        $("#fat_women_over_26").val(f.getFatPercentWomenOver26(
+            Number($("[name='abdomen']").val()),
+            Number($("[name='right_thigh']").val()),
+            Number($("[name='right_calf']").val())
         ));
     });
-    */
     // Calculate VO2 from HR
     $("#calculate_fitness_level_hr").submit(function(e) {
         console.log("Calculate VO2 from HR");
