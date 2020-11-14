@@ -1,13 +1,13 @@
 ---
 layout: single
-title: &title "Anatomi"
+title: &title "Fysiologi"
+excerpt: "Fysiologi er læren om kroppens forskellige organsystemer og deres funktioner i hvile og under fysisk aktivitet. Fysiologien beskæftiger sig med den sunde krop under normale betingelser."
+permalink: /fysiologi/
 system:
   - fitnessinstruktør
-excerpt: "Anatomi er læren om hvordan de forskellige strukturer i kroppen er opbygget, hvordan de forskellige celler er opbygget, hvordan disse igen samler sig til væv, organer og systemer i kroppen."
-permalink: /anatomi/
 header:
-  overlay_image: https://images.unsplash.com/photo-1567607673554-2048def2c6b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
-  teaser: https://images.unsplash.com/photo-1567607673554-2048def2c6b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1559757296-5c84adc6d116?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=80
+  teaser: https://images.unsplash.com/photo-1559757296-5c84adc6d116?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
   caption: *title
   overlay_filter: 0.4
 feature_row:
@@ -39,34 +39,15 @@ sidebar:
 author_profile: true
 ---
 
-Hvis du vil forstå, hvordan træningsøvelser virker, så er det godt at kende kroppens anatomi.
+Hvad er fysiologi? **Fysiologi er læren om kroppens forskellige organsystemer og deres funktioner i hvile og under fysisk aktivitet. Fysiologien beskæftiger sig med den sunde krop under normale betingelser.**
 
-De tre grundelementer i bevægeapparatets anatomi er:
+Hvis du vil forstå, hvordan træning virker i kroppen, så er det godt at dykke ned i kroppens fysiologi.
 
-{% assign pages = site.pages | where: "tags", "anatomi" %}
-{% for p in pages %}
-- **[{{ p.title }}]({{ p.url }})**.
-  {{ p.excerpt | markdownify }}
-{% endfor %}
-
-Hvis man ved, hvordan musklerne sidder fast på knoglerne og hvilke bevægelser det enkelte led kan lave, så kan man analysere træningsøvelser.
-
-## Bevægelsesanalyse og anatomi
-
-Anatomi handler også om at lave bevægelsesanalyser. I en bevægelsesanalyse skal du besvare følgende spørgsmål:
-
-- Hvad er de involverede led?
-- Hvilke bevægelser foregår der i leddet? (bøjning, strækning, rotation)
-- Hvilke muskler arbejder i bevægelsen? (primære og sekundære)
-- Hvordan arbejder musklerne i bevægelsen? Hvad er den [koncentriske og ekscentriske fase]({% link _posts/2020-08-11-excentrisk-koncentrisk.md %})? Er der statisk arbejde i bevægelsen?
-
-Jeg har skrevet et andet indlæg, der handler om [hvordan du laver en bevægelsesanalyse]({% link _posts/2020-08-01-bevaegelsesanalyse.md %}).
-
-## Artikler om anatomi
+## Artikler om fysiologi
 
 <div class="feature__wrapper">
 
-{% assign site_posts = site.posts | where: "tags", "anatomi" | sort: "last_modified_at" | reverse %}
+{% assign site_posts = site.posts | where: "tags", "fysiologi" | sort: "last_modified_at" | reverse %}
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit:16 %}
@@ -76,6 +57,6 @@ Jeg har skrevet et andet indlæg, der handler om [hvordan du laver en bevægelse
 
 </div>
 
-## Anbefalelsesværdige bøger om anatomi
+## Anbefalelsesværdige bøger om fysiologi
 
 {% include feature_row type="left" %}

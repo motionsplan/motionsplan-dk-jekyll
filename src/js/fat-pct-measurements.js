@@ -18,7 +18,7 @@ motionsplan.CalculateFatPercentMeasurements = function() {
     return ((abdomen * 0.4675 + thigh * 0.4868 - calf * 0.5693) / 10 - 18.4);
   }
 
-  var publicAPI = {
+  let publicAPI = {
     getFatPercentMenOver26 : getFatPercentMenOver26,
     getFatPercentMenUnder26 : getFatPercentMenUnder26,
     getFatPercentWomenOver26 : getFatPercentWomenOver26,

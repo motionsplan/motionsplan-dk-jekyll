@@ -3,6 +3,8 @@ layout: category
 permalink: /kondition/
 title: &title "Kondition, konditionstræning og kredsløbstræning"
 author_profile: true
+system:
+  - fitnessinstruktør
 sort_by: title # date (default) title
 sort_order: forward # forward (default), reverse
 taxonomy: Kondition

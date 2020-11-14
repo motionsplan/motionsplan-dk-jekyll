@@ -12,7 +12,6 @@ category:
   - Viden om
 tags:
   - anatomi
-  - fysiologi
   - vægt
   - knogler
   - skelettet

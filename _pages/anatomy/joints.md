@@ -1,7 +1,7 @@
 ---
 layout: single
-title: &title "Led, ledtyper og bevægelser 🔧"
-excerpt: "Led kan opdeles i ægte led og uægte led og forskellige ledtyper: ægled, saddelled, hængselled, glideled, drejeled og kugleled."
+title: &title "Led, ledtyper, bevægelser og bevægelsestyper 🔧"
+excerpt: "Led kan opdeles i ægte led og uægte led og forskellige ledtyper: ægled, saddelled, hængselled, glideled, drejeled og kugleled. Den primære funktion for et led er bevægelser, som kan deles op i forskellige bevægelsestyper."
 permalink: /led/
 author_profile: true
 header:
@@ -41,7 +41,7 @@ sidebar:
   nav: anatomi
 ---
 
-Led kan opdeles i ægte led og uægte led og forskellige ledtyper: ægled, saddelled, hængselled, glideled, drejeled og kugleled. Jeg kigger her på de forskellige defintioner og ledtyper.
+Led kan opdeles i ægte led og uægte led og forskellige ledtyper: ægled, saddelled, hængselled, glideled, drejeled og kugleled. Jeg kigger her på de forskellige defintioner og ledtyper. Den primære funktion for et led er bevægelser, som kan deles op i forskellige bevægelsestyper.
 
 Hvad er et led? **Et led er der hvor to eller flere knogler støder sammen til en forbindelse uanset om, der kan være bevægelse eller ej i leddet. Et leddet holdes knoglerne sammen af en ledkapsel, der er forstærket af ledbånd.**
 

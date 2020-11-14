@@ -1,5 +1,5 @@
 ---
-title: &title "Mål din fedtprocent med målebånd"
+title: &title "Mål din fedtprocent med målebånd 📏"
 permalink: /fedtprocent-maalebaand/
 redirect_from:
   - /measure-fp/
@@ -45,6 +45,10 @@ McArdle og Katch (2010) algoritme tager højde for køn og alder.
 ## Mål fedtprocenten med målebånd
 
 {% include calculate-fat-percent-measurement.html %}
+
+## Konklusion
+
+Formlerne bag måling af fedtprocent med målebånd er lavet af McArdle og Katch (2010), og hvis du vil have en engelsk side om målingerne kan du kigge på [www.brianmac.co.uk](https://www.brianmac.co.uk/fatgirth.htm).
 
 ## Referencer
 

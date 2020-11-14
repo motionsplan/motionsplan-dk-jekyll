@@ -1,11 +1,12 @@
 ---
-title: "Udregn hvor meget vand du har i kroppen med vores beregner?"
+title: &title "Udregn hvor meget vand du har i kroppen med vores beregner? 🚰"
 permalink: /vand-i-kroppen/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1867&q=80
   teaser: https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
-  caption: Photo by Jong Marshes on Unsplash
+  caption: *title
+  alt: Photo by Jong Marshes on Unsplash
 category:
   - Viden om
 tags:
@@ -17,7 +18,7 @@ toc: true
 
 Nu hvor det er så varmt, så kom jeg til at tænke på, hvor meget vand mennesket har i kroppen? Så jeg gik i gang med at researche på, hvor meget vand mennesket har i kroppen.
 
-**Mennesket består i høj grad af vand. Faktisk udgøres mellem 45 og 75 procent af vores vægt af vand. Andelen af vand i mennesket varierer imidlertid med højden, vægten, køn og alder. Væskebalancen er livsvigtig for at vores krop og hjerne fungerer korrekt.**
+Hvor meget vand har mennesket i kroppen? **Mennesket består i høj grad af vand. Faktisk udgøres mellem 45 og 75 procent af vores vægt af vand. Andelen af vand i mennesket varierer imidlertid med højden, vægten, køn og alder. Væskebalancen er livsvigtig for at vores krop og hjerne fungerer korrekt.**
 
 Allerede fra fødslen er mere end halvdelen af kroppens vægt vand. Den gennemsnitlige andel af kropsvægten vil i gennemsnit være over 50% det meste af dit liv, selvom det daler lidt over tid.
 

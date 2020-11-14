@@ -1,6 +1,8 @@
 ---
 layout: category
 title: "Styrketræning"
+system:
+  - fitnessinstruktør
 permalink: /styrke/
 excerpt: "Styrketræning er fællesbetegnelse for en række fysiske øvelser, hvori en udøver styrker sine muskler. Vi har skrevet et hav af artikler om styrketræning."
 header:

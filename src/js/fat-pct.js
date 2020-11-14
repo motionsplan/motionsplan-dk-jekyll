@@ -51,11 +51,14 @@ motionsplan.CalculateFatPercent = function(h, w, a, sex) {
     if (isMale()) {
       sex = 1;
     } else {
-      sex = 1;
+      sex = 0;
+    }
+
+    if (a < 18) {
+      return 1.51 * getBMI() - 0.70 * a - 3.6 * sex + 1.4;
     }
     return 1.20 * getBMI() + 0.23 * a - 10.8 * sex - 5.4;
   }
-
   function isMale() {
     if (sex == 'man') {
       return true; 

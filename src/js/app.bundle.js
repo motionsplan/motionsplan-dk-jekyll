@@ -83,10 +83,8 @@ $(document).ready(function() {
             $(this).find('td').eq(1).html(km.toFixed(2));
         });
     });
-
     $("#form-formula").ready(function() {
         $(".reynolds").hide();
-        $(".navy-hip").hide();
     });
     // 1RM calculate
     $("#form-formula").change(function() {
@@ -94,13 +92,6 @@ $(document).ready(function() {
             $(".reynolds").show();
         } else {
             $(".reynolds").hide();
-        }
-    });
-    $("#calculator_fat_percent_navy").change(function() {
-        if ($("#checkbox-woman").is(":checked")) {
-            $(".navy-hip").show();
-        } else {
-            $(".navy-hip").hide();
         }
     });
     $("#calculator_rm").submit(function(e) {
@@ -258,7 +249,17 @@ $(document).ready(function() {
         $("#absolute_risk").val(c.getAbsoluteRisk());
         $("#relative_risk").val(c.getRelativeRisk());
     });
+    $("#calculator_fat_percent_navy").ready(function() {
+        $(".navy-hip").hide();
+    });
     // Udregn fatpercent navy
+    $("#calculator_fat_percent_navy").change(function() {
+        if ($("#checkbox-woman").is(":checked")) {
+            $(".navy-hip").show();
+        } else {
+            $(".navy-hip").hide();
+        }
+    });
     $("#calculator_fat_percent_navy").submit(function(e) {
         console.log("Fat percent navy");
         e.preventDefault();
@@ -270,7 +271,7 @@ $(document).ready(function() {
         let hip = Number($("[name='hip']").val());
 
         let fp = fp_navy.CalculateFatPercentNavy(sex, height, waist, neck, hip);
-        $("#fat_percent_navy").val(fp.getFatPercent());
+        $("#fat_percent_navy").val(fp.getFatPercent().toFixed(2));
     });
     $("#calculator_wave_ladder").submit(function(e) {
         console.log("Calculate Wave Ladder");
@@ -616,46 +617,61 @@ $(document).ready(function() {
 
         $("[name='fatpercent']").val(f.getBodyFatpercent());
     });
+    $("#calculator_fat_percent_measurement").ready(function() {
+        $("#calculator_fat_percent_men_under_26").hide();
+        $("#calculator_fat_percent_men_over_26").hide();
+        $("#calculator_fat_percent_women_under_26").hide();
+        $("#calculator_fat_percent_women_over_26").hide();
+    });
+    // 1RM calculate
+    $("#calculator_fat_percent_measurement [name='group']").change(function() {
+        let group = $("[name='group']").val();
+        $("#calculator_fat_percent_men_under_26").hide();
+        $("#calculator_fat_percent_men_over_26").hide();
+        $("#calculator_fat_percent_women_under_26").hide();
+        $("#calculator_fat_percent_women_over_26").hide();
+        $("#calculator_fat_percent_" + group).show();
+    });
     // Calculate Fat Percent Measurements
     $("#calculator_fat_percent_men_under_26").submit(function(e) {
         console.log("Calculate Fat Percent on Measurements");
         e.preventDefault();
         let f = fatm.CalculateFatPercentMeasurements();
-        $("#fat_men_under_26").val(f.getFatPercentMenUnder26(
-            Number($("[name='right_upper_arm']").val()),
-            Number($("[name='abdomen']").val()),
-            Number($("[name='right_forearm']").val())
-        ));
+        $("[name='fat_men_under_26']").val(f.getFatPercentMenUnder26(
+            Number($("#calculator_fat_percent_men_under_26 [name='right_upperarm']").val()),
+            Number($("#calculator_fat_percent_men_under_26 [name='abdomen']").val()),
+            Number($("#calculator_fat_percent_men_under_26 [name='right_forearm']").val())
+        ).toFixed(2));
     });
     $("#calculator_fat_percent_men_over_26").submit(function(e) {
         console.log("Calculate Fat Percent on Measurements");
         e.preventDefault();
         let f = fatm.CalculateFatPercentMeasurements();
-        $("#fat_men_over_26").val(f.getFatPercentMenOver26(
-            Number($("[name='hips']").val()),
-            Number($("[name='abdomen']").val()),
-            Number($("[name='right_forearm']").val())
-        ));
+        $("[name='fat_men_over_26']").val(f.getFatPercentMenOver26(
+            Number($("#calculator_fat_percent_men_over_26 [name='hips']").val()),
+            Number($("#calculator_fat_percent_men_over_26 [name='abdomen']").val()),
+            Number($("#calculator_fat_percent_men_over_26 [name='right_forearm']").val())
+        ).toFixed(2));
     });
     $("#calculator_fat_percent_women_under_26").submit(function(e) {
         console.log("Calculate Fat Percent on Measurements");
         e.preventDefault();
         let f = fatm.CalculateFatPercentMeasurements();
-        $("#fat_women_under_26").val(f.getFatPercentWomenUnder26(
-            Number($("[name='abdomen']").val()),
-            Number($("[name='right_thigh']").val()),
-            Number($("[name='right_forearm']").val())
-        ));
+        $("[name='fat_women_under_26']").val(f.getFatPercentWomenUnder26(
+            Number($("#calculator_fat_percent_women_under_26 [name='abdomen']").val()),
+            Number($("#calculator_fat_percent_women_under_26 [name='right_thigh']").val()),
+            Number($("#calculator_fat_percent_women_under_26 [name='right_forearm']").val())
+        ).toFixed(2));
     });
     $("#calculator_fat_percent_women_over_26").submit(function(e) {
         console.log("Calculate Fat Percent on Measurements");
         e.preventDefault();
         let f = fatm.CalculateFatPercentMeasurements();
-        $("#fat_women_over_26").val(f.getFatPercentWomenOver26(
-            Number($("[name='abdomen']").val()),
-            Number($("[name='right_thigh']").val()),
-            Number($("[name='right_calf']").val())
-        ));
+        $("[name='fat_women_over_26']").val(f.getFatPercentWomenOver26(
+            Number($("#calculator_fat_percent_women_over_26 [name='abdomen']").val()),
+            Number($("#calculator_fat_percent_women_over_26 [name='right_thigh']").val()),
+            Number($("#calculator_fat_percent_women_over_26 [name='right_calf']").val())
+        ).toFixed(2));
     });
     // Calculate VO2 from HR
     $("#calculate_fitness_level_hr").submit(function(e) {

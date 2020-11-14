@@ -20,9 +20,12 @@ describe('CalculateFatPercent', function() {
   });
   describe('getFatPercentDuernebergBMIIndexEq', function() {
     it('should return the correct number', function() {
-
       var fat = motionsplan.CalculateFatPercent(180, 80, 40, 'man');
       assert.equal(fat.getBodyFatPercentDuerenbergBMIEquation(), 22.629629629629626);
+    });
+    it('should return the correct number', function() {
+      var fat = motionsplan.CalculateFatPercent(180, 80, 40, 'woman');
+      assert.equal(fat.getBodyFatPercentDuerenbergBMIEquation(), 33.42962962962963);
     });
   });
 });

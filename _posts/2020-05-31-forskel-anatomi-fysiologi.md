@@ -42,7 +42,7 @@ feature_row:
 
 Jeg synes ikke jeg kunne finde en rigtig god forklaring på sammenhængen og forskellen mellem anatomi og fysiologi online, så jeg har prøvet at forklare min forståelse af af, hvordan anatomi og fysiologi hænger sammen, og hvordan de adskiller sig fra hinanden.
 
-**Anatomi og fysiologi er knyttet sammen, men der er forskel på anatomi og fysiologi. Anatomi beskæftiger sig med kroppens strukturer og opbygning, og hvordan cellerne samler sig til væv, organer og systemer. Fysiologien handler om, hvordan de forskellige celler, organer og systemer fungerer og samarbejder for at udføre de livsnødvendige processer.**
+Hvad er forskellen på anatomi og fysiologi? **Anatomi og fysiologi er knyttet sammen, men der er forskel på anatomi og fysiologi. Anatomi beskæftiger sig med kroppens strukturer og opbygning, og hvordan cellerne samler sig til væv, organer og systemer. Fysiologien handler om, hvordan de forskellige celler, organer og systemer fungerer og samarbejder for at udføre de livsnødvendige processer.**
 
 Anatomi og fysiologi hjælper til at forstå den menneskelige krop. Anatomien er ret konkret, da strukturerne i kroppen kan ses, føles og undersøges. Du kan konkret tage fat i det og se det. Fysiologien kan du ikke på samme måde tage at føle på uden at have avancerede måleredskaber. 
 
@@ -60,7 +60,7 @@ Lad os kigge lidt på, hvad der hører til hhv. fysiologi og anatomi?
 
 Mn kan kort definere _fysiologi_ på denne måde:
 
-**Fysiologi er læren om kroppens forskellige organsystemer og deres funktioner i hvile og under fysisk aktivitet. Fysiologien beskæftiger sig med den sunde krop under normale betingelser.**
+Hvad er fysiologi? **Fysiologi er læren om kroppens forskellige organsystemer og deres funktioner i hvile og under fysisk aktivitet. Fysiologien beskæftiger sig med den sunde krop under normale betingelser.**
 
 For at forstå træning og effekten af træningen på kroppen som helhed er det godt at have en grundlæggende forståelse for, hvordan det fysiologiske system er opbygget. 
 
@@ -81,7 +81,7 @@ Hvis du vil læse mere om fysiologi, så har [Saxo et ret stort udbud](https://w
 
 ## Hvad hører til anatomi?
 
-**Anatomi er læren om kroppens opbygning og struktur. Anatomi er altså læren om kroppens knogler, led, muskler og bevægelsestyper, hvordan cellerne er opbygget, og hvordan cellerne udgør vævene, organerne og systemerne i kroppen.**
+Hvad er anatomi? **Anatomi er læren om kroppens opbygning og struktur. Anatomi er altså læren om kroppens knogler, led, muskler og bevægelsestyper, hvordan cellerne er opbygget, og hvordan cellerne udgør vævene, organerne og systemerne i kroppen.**
 
 Du skal vide noget om anatomi som træner for:
 
@@ -91,10 +91,10 @@ Du skal vide noget om anatomi som træner for:
 
 Anatomi omfatter viden om:
 
-- Knogler
-- Led
+- [Knogler]({% link _pages/anatomy/bones.md %})
+- [Led]({% link _pages/anatomy/joints.md %})
 - Bevægelsestyper
-- Muskler
+- [Muskler](({% link _pages/anatomy/muscles.md %}))
 
 Hvis du vil læse mere om anatomi, så har [Saxo nogle rigtig gode titler](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/alle/tags_anatomi){:rel="nofollow"}.
 
@@ -130,5 +130,7 @@ Hvis du gerne vil have et meget detaljeret og professionelt atlas over kroppen, 
 Jeg har skrevet lidt mere om [anatomi](/anatomi/), hvis du vil dykke mere ned i detaljerne.
 
 Jeg kan også varmt anbefale nedenstående bøger, hvis du vil dykke endnu mere ned i det. Jeg foretrækker selv at kunne sidde og blade lidt frem og tilbage i bøgerne for virkelig at forstå anatomien og fysiologien.
+
+## Anbefalelsesværdige bøger om anatomi og fysiologi
 
 {% include feature_row type="left" %}
