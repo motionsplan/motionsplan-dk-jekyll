@@ -31,19 +31,19 @@ Omregn den motion du ikke kan tælle med din skridttæller til skridt i denne om
 Beregneren bruger [omregningsfaktoreren fra aktivitet til skridt herfra](https://globalchallenge.zendesk.com/hc/en-gb/articles/360000440186-What-activities-can-be-converted-).
 
 {% assign met_values = site.data.step-conversion %}
-| Aktivitet | Skridt |
+| Aktivitet | Skridt/min | Skridt/30 min | Skridt/timen |
 |-|-|
 {% for row in met_values offset:2 -%}
-| {{ row.Activity }} | {{ row.Steps }} |
+| {{ row.Activity }} | {{ row.Steps }} | {{ row.Steps | times: 30 }} | {{ row.Steps | times: 60 }} |
 {% endfor %}
 
 ## Hvordan omregner du motion til aktivitet?
 
-Vælg din aktivitet i omregneren, og indtast det antal minutter du har været aktiv. Omregneren kvitterer med det antal skridt du kan notere i stedet for din aktivitet.
+Vælg din aktivitet i omregneren, og indtast det antal minutter du har været aktiv. Omregneren beregner det antal skridt, du kan notere i stedet for din aktivitet i dit skridtregnskab.
 
 ## Baggrunden for omregning
 
-"Omregnede skridt" er typisk relativt store tal. Det skyldes at vi udregner tallene på baggrund af MET-værdier (Metabolic Equivalent of Task), eller med andre ord hvor megen energi en given aktivitet kræver.
+"Omregnede skridt" er typisk relativt store tal. Det skyldes at vi udregner tallene på baggrund af MET-værdier, som er et mål for, hvor megtn energi en given aktivitet kræver.
 
 Det tal du får ud af udregneren svarer således til det antal skridt du ville skulle gå, hvis du skulle forbrænde den samme mængde energi, som den aktivitet du har valgt, i det antal minutter du har indtastet.
 
