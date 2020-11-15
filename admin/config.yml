@@ -8,7 +8,7 @@ backend:
 #  base_url: https://api.netlify.com
 #  site_domain: www.motionsplan.dk
 #  auth_endpoint: auth
-  site_domain: cms.netlify.com
+#  site_domain: cms.netlify.com
   cms_label_prefix: netlify-cms/
 
 media_folder: "assets/images/uploads" # Media files will be stored in the repo under images/uploads
