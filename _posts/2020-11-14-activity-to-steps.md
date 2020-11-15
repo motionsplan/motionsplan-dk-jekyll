@@ -37,14 +37,16 @@ Beregneren bruger [omregningsfaktoreren fra aktivitet til skridt herfra](https:/
 | {{ row.Activity }} | {{ row.Steps }} | {{ row.Steps | times: 30 }} | {{ row.Steps | times: 60 }} |
 {% endfor %}
 
-## Hvordan omregner du motion til aktivitet?
+## Hvordan omregner du aktivitet til skridt?
 
 Vælg din aktivitet i omregneren, og indtast det antal minutter du har været aktiv. Omregneren beregner det antal skridt, du kan notere i stedet for din aktivitet i dit skridtregnskab.
 
-## Baggrunden for omregning
+## Baggrunden for omregning fra motion til skridt
 
 "Omregnede skridt" er typisk relativt store tal. Det skyldes at vi udregner tallene på baggrund af MET-værdier, som er et mål for, hvor megtn energi en given aktivitet kræver.
 
 Det tal du får ud af udregneren svarer således til det antal skridt du ville skulle gå, hvis du skulle forbrænde den samme mængde energi, som den aktivitet du har valgt, i det antal minutter du har indtastet.
 
 Husk at beregneren kun er en estimering af antallet af skridt. Ikke nødvendigvis det faktuelle antal skridt.
+
+Jeg har skrevet en grundig artikel om [Hvor langt er 10.000 skridt og hvor mange skridt er en km?]({% link _posts/2020-11-14-activity-to-steps.md %}).
