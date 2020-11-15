@@ -8,14 +8,18 @@
             <input name="weight" id="weight" type="number" min="20" max="200" placeholder="Vægt i kg" step="0.1" required>
         </div>
         <div class="form-group">
-            <label for="answers">Aktivitet (MET)</label>
+            <label for="answers">MET-værdi for <span id="activity-label">aktivitet</span></label>
             <input list="answers" name="answer" placeholder="Vælg aktivitet" id="answerInput">
             <datalist id="answers">
-              {% for row in met_values offset:2 %}
-              <option value="{{ row.MET }}">{{ row.Activity }}</option>
-              {% endfor %}
+                <select>
+                  {% assign r = 0 %}
+                  {% for row in met_values offset:2 %}
+                  <option data-id="{{ r | plus: 1 }}" value="{{ row.MET }}">{{ row.Activity }}</option>
+                  {% endfor %}
+              </select>
             </datalist>
             <input type="hidden" name="answer" id="answerInput-hidden">
+            <span id=""></span>
         </div>
         <div class="form-group">
             <label for="time">Tid (timer)</label>
@@ -38,12 +42,13 @@
             list = input.getAttribute('list'),
             options = document.querySelectorAll('#' + list + ' option[value="' + input.value + '"]'),
             hiddenInput = document.getElementById(input.getAttribute('id') + '-hidden');
-
+        /*
         if (options.length > 0) {
             hiddenInput.value = input.value;
             input.value = options[0].innerText;
         }
-
+        */
+       document.getElementById('activity-label').innerText = e.getAttribute('data-id').innerText;
     });
 
     function calculateMET() {
