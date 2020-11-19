@@ -367,6 +367,7 @@ module.exports = motionsplan;
 
 /* global $ */
 
+const ybalance = require('./y-balance');
 const lung = require('./lung');
 const blood = require('./blood');
 const andersen = require('./andersen-test');
@@ -450,7 +451,6 @@ $(document).ready(function() {
     });
     $("#form-formula").ready(function() {
         $(".reynolds").hide();
-        $(".navy-hip").hide();
     });
     // 1RM calculate
     $("#form-formula").change(function() {
@@ -615,6 +615,9 @@ $(document).ready(function() {
         $("#absolute_risk").val(c.getAbsoluteRisk());
         $("#relative_risk").val(c.getRelativeRisk());
     });
+    $("#calculator_fat_percent_navy").ready(function() {
+        $(".navy-hip").hide();
+    });
     // Udregn fatpercent navy
     $("#calculator_fat_percent_navy").change(function() {
         if ($("#checkbox-woman").is(":checked")) {
@@ -622,6 +625,20 @@ $(document).ready(function() {
         } else {
             $(".navy-hip").hide();
         }
+    });
+    $("#calculator_ybalance").submit(function(e) {
+        console.log("Y-balance");
+        e.preventDefault();
+
+        let limb_length = Number($("[name='limb_length']").val());
+        let anterior = Number($("[name='anterior']").val());
+        let posterolateral = Number($("[name='posterolateral']").val());
+        let posteromedial = Number($("[name='posteromedial']").val());
+
+        let fp = ybalance.YBalance(anterior, posterolateral, posteromedial);
+        $("[name='absolute_score']").val(fp.getAbsoluteReachDistance().toFixed(0));
+        $("[name='relative_score']").val(fp.getRelativeReachScore(limb_length).toFixed(0));
+        $("[name='composite_score']").val(fp.getCompositeReachScore(limb_length).toFixed(0));
     });
     $("#calculator_fat_percent_navy").submit(function(e) {
         console.log("Fat percent navy");
@@ -634,7 +651,7 @@ $(document).ready(function() {
         let hip = Number($("[name='hip']").val());
 
         let fp = fp_navy.CalculateFatPercentNavy(sex, height, waist, neck, hip);
-        $("#fat_percent_navy").val(fp.getFatPercent());
+        $("#fat_percent_navy").val(fp.getFatPercent().toFixed(2));
     });
     $("#calculator_wave_ladder").submit(function(e) {
         console.log("Calculate Wave Ladder");
@@ -1004,7 +1021,7 @@ $(document).ready(function() {
             Number($("#calculator_fat_percent_men_under_26 [name='right_upperarm']").val()),
             Number($("#calculator_fat_percent_men_under_26 [name='abdomen']").val()),
             Number($("#calculator_fat_percent_men_under_26 [name='right_forearm']").val())
-        ));
+        ).toFixed(2));
     });
     $("#calculator_fat_percent_men_over_26").submit(function(e) {
         console.log("Calculate Fat Percent on Measurements");
@@ -1014,7 +1031,7 @@ $(document).ready(function() {
             Number($("#calculator_fat_percent_men_over_26 [name='hips']").val()),
             Number($("#calculator_fat_percent_men_over_26 [name='abdomen']").val()),
             Number($("#calculator_fat_percent_men_over_26 [name='right_forearm']").val())
-        ));
+        ).toFixed(2));
     });
     $("#calculator_fat_percent_women_under_26").submit(function(e) {
         console.log("Calculate Fat Percent on Measurements");
@@ -1024,7 +1041,7 @@ $(document).ready(function() {
             Number($("#calculator_fat_percent_women_under_26 [name='abdomen']").val()),
             Number($("#calculator_fat_percent_women_under_26 [name='right_thigh']").val()),
             Number($("#calculator_fat_percent_women_under_26 [name='right_forearm']").val())
-        ));
+        ).toFixed(2));
     });
     $("#calculator_fat_percent_women_over_26").submit(function(e) {
         console.log("Calculate Fat Percent on Measurements");
@@ -1034,7 +1051,7 @@ $(document).ready(function() {
             Number($("#calculator_fat_percent_women_over_26 [name='abdomen']").val()),
             Number($("#calculator_fat_percent_women_over_26 [name='right_thigh']").val()),
             Number($("#calculator_fat_percent_women_over_26 [name='right_calf']").val())
-        ));
+        ).toFixed(2));
     });
     // Calculate VO2 from HR
     $("#calculate_fitness_level_hr").submit(function(e) {
@@ -1835,7 +1852,7 @@ $(document).ready(function() {
 	});
 });
 
-},{"../js/bodywater":16,"../js/fatenergypct":24,"../js/hr-intensity":28,"../js/waist":50,"../js/walktest-rockport-16":51,"../js/walktest-sixminutes":52,"../js/wattmax":53,"./1rm":3,"./andersen-test":4,"./beeptest":7,"./beeptest-yyir1":6,"./billat":8,"./blood":9,"./bmi":10,"./bmr-benedict-harris":11,"./bmr-ligevaegt":12,"./bmr-nordic-2012":13,"./bmr-schofield":14,"./bmr-totalenergy-pal":15,"./borg15":17,"./cooper":19,"./cooper-running":18,"./etpunkttest":20,"./fat-pct":23,"./fat-pct-measurements":21,"./fat-pct-navy":22,"./fitness-hr":25,"./fitness-index-23":26,"./fitness-jogging":27,"./ideal-weight":29,"./index100":30,"./jumpreach":31,"./karvonen":32,"./lung":33,"./max-hr":34,"./pushup":35,"./riegel":36,"./running":41,"./running-distance-vo2":37,"./running-economy":38,"./running-walking":39,"./running-weightloss":40,"./skinfold-durnin":42,"./skinfold-lohman":43,"./skinfold-peterson":44,"./skinfold-pollock":45,"./skinfold-slaughter":46,"./topunkttest":47,"./vmax":49,"./vmax-intervals":48,"image-map-resizer":1,"wilks-calculator":2}],6:[function(require,module,exports){
+},{"../js/bodywater":16,"../js/fatenergypct":24,"../js/hr-intensity":28,"../js/waist":50,"../js/walktest-rockport-16":51,"../js/walktest-sixminutes":52,"../js/wattmax":53,"./1rm":3,"./andersen-test":4,"./beeptest":7,"./beeptest-yyir1":6,"./billat":8,"./blood":9,"./bmi":10,"./bmr-benedict-harris":11,"./bmr-ligevaegt":12,"./bmr-nordic-2012":13,"./bmr-schofield":14,"./bmr-totalenergy-pal":15,"./borg15":17,"./cooper":19,"./cooper-running":18,"./etpunkttest":20,"./fat-pct":23,"./fat-pct-measurements":21,"./fat-pct-navy":22,"./fitness-hr":25,"./fitness-index-23":26,"./fitness-jogging":27,"./ideal-weight":29,"./index100":30,"./jumpreach":31,"./karvonen":32,"./lung":33,"./max-hr":34,"./pushup":35,"./riegel":36,"./running":41,"./running-distance-vo2":37,"./running-economy":38,"./running-walking":39,"./running-weightloss":40,"./skinfold-durnin":42,"./skinfold-lohman":43,"./skinfold-peterson":44,"./skinfold-pollock":45,"./skinfold-slaughter":46,"./topunkttest":47,"./vmax":49,"./vmax-intervals":48,"./y-balance":54,"image-map-resizer":1,"wilks-calculator":2}],6:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.YYIR1 = function(level, shuttles) {
@@ -2814,7 +2831,7 @@ motionsplan.CalculateFatPercentMeasurements = function() {
     return ((abdomen * 0.4675 + thigh * 0.4868 - calf * 0.5693) / 10 - 18.4);
   }
 
-  var publicAPI = {
+  let publicAPI = {
     getFatPercentMenOver26 : getFatPercentMenOver26,
     getFatPercentMenUnder26 : getFatPercentMenUnder26,
     getFatPercentWomenOver26 : getFatPercentWomenOver26,
@@ -4300,6 +4317,34 @@ motionsplan.Wattmax = function(wmax, sec, weight, age, watt_jumps = 25) {
     getFitnessLevel : getFitnessLevel,
     getMaximalOxygenUptake : getMaximalOxygenUptake,
     getMPO : getMPO
+  };
+
+  return publicAPI;
+};
+
+module.exports = motionsplan;
+
+},{}],54:[function(require,module,exports){
+let motionsplan = {};
+
+motionsplan.YBalance = function(anterior, posterolateral, posteromedial) {
+  
+  function getAbsoluteReachDistance() {
+    return (anterior + posterolateral + posteromedial) / 3;
+  }
+
+  function getRelativeReachDistance(limb_length) {
+    return getAbsoluteReachDistance() / limb_length * 100;
+  }
+  
+  function getCompositeReachDistance(limb_length) {
+    return (anterior + posterolateral + posteromedial) / (3 * limb_length) * 100;
+  }
+
+  let publicAPI = {
+    getAbsoluteReachDistance : getAbsoluteReachDistance,
+    getRelativeReachScore : getRelativeReachDistance,
+    getCompositeReachScore : getCompositeReachDistance
   };
 
   return publicAPI;

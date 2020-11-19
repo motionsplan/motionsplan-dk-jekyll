@@ -2,6 +2,7 @@
 
 /* global $ */
 
+const ybalance = require('./y-balance');
 const lung = require('./lung');
 const blood = require('./blood');
 const andersen = require('./andersen-test');
@@ -259,6 +260,20 @@ $(document).ready(function() {
         } else {
             $(".navy-hip").hide();
         }
+    });
+    $("#calculator_ybalance").submit(function(e) {
+        console.log("Y-balance");
+        e.preventDefault();
+
+        let limb_length = Number($("[name='limb_length']").val());
+        let anterior = Number($("[name='anterior']").val());
+        let posterolateral = Number($("[name='posterolateral']").val());
+        let posteromedial = Number($("[name='posteromedial']").val());
+
+        let fp = ybalance.YBalance(anterior, posterolateral, posteromedial);
+        $("[name='absolute_score']").val(fp.getAbsoluteReachDistance().toFixed(0));
+        $("[name='relative_score']").val(fp.getRelativeReachScore(limb_length).toFixed(0));
+        $("[name='composite_score']").val(fp.getCompositeReachScore(limb_length).toFixed(0));
     });
     $("#calculator_fat_percent_navy").submit(function(e) {
         console.log("Fat percent navy");
