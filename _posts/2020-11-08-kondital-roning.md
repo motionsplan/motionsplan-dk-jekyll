@@ -1,5 +1,5 @@
 ---
-title: &title "Kondital på romaskine ud fra 2000 meter 🚣 [Beregner]"
+title: &title "Kondital på romaskine ud fra 2000 meter test i roning 🚣"
 permalink: /kondital-roning/
 language: da
 header:
@@ -15,13 +15,37 @@ last_modified_at: 2020-10-13T23:14:14Z
 toc: true
 ---
 
-Du kan finde dit kondital og måle din kondition med en maksimal konditiontest på romaskine. Det er en 2000 meter maksimal test på romaskine.
+Du kan finde dit kondital i roning og måle din kondition med en maksimal konditiontest på romaskine. Det er en 2000 meter maksimal test på et roergometer.
+
+Jeg har fundet to forskellige forslag til, hvordan du kan udregne konditallet ud fra 2000-meter testen på roergomenter.
+
+## Udregning af kondital brugt af Concept2 ud fra tiden
+
+Hos [Concept2](https://www.concept2.com/indoor-rowers/training/calculators/vo2max-calculator) bruger de data fra Fritz Hagerman.
 
 Fritz Hagerman fra Ohio University har lavet formlerne bag testen gennem mange år. Hagerman har udført VO<sub>2</sub>max tests med maske og de samme forsøgspersoner har også lavet en maksimal 2000 meter test på romaskine. Derefter har Hagerman lavet en korrelation mellem de to tests, som benyttes i nedenstående beregner af kondital på baggrund af en test i romaskine.
 
 ## Beregn din kondition og kondital fra maksimal test på romaskine?
 
 [Test dit kondital med Concept2 2000 meter](https://www.concept2.com/indoor-rowers/training/calculators/vo2max-calculator){: .btn .btn--large .btn--success }
+
+## Test i roning ud fra _mean power output_
+
+[Klusiewicz og Faff (2003)](https://www.researchgate.net/publication/47619695_Indirect_methods_of_estimating_maximal_oxygen_uptake_on_the_rowing_ergometer) har lavet andre formler til at teste den maksimale iltoptagelse ud fra 2000-metertesten.
+
+> The most accurate predicted values of VO2max were obtained based on the linear regression of VO2max against the mean power output (WM) in the 2-km test using the following formulas: VO2max (l•min-1) in the males = 1.682+0.0097 WM; VO2max (l•min-1) in the females = 1.631+0.0088 WM.
+
+--- <cite>[Klusiewicz og Faff (2003)](https://www.researchgate.net/publication/47619695_Indirect_methods_of_estimating_maximal_oxygen_uptake_on_the_rowing_ergometer)</cite>
+
+[Klusiewicz og Faff (2003)](https://www.researchgate.net/publication/47619695_Indirect_methods_of_estimating_maximal_oxygen_uptake_on_the_rowing_ergometer) bruger altså _mean power output_ på 2-kilometer testen i roning til at estimere den maksimale iltoptagelse.
+
+## Hvad er dine oplevelser med tests til roning?
+
+Jeg er i gang med at teste formlerne op mod hinanden. I den forbindelse er jeg meget interesseret i at kende jeres erfaringer med tests på roergometere?
+
+## Hvad er en god 2000-meter tid på roergometer?
+
+Du kan finde de danske rekorder for roning på roergometer på [ergometertider.dk](https://ergometertider.dk/). Concept2 har også lavet en liste over [verdensrekorder sat på Concept2-roergometer på 2000-meter distancen](https://www.concept2.com/indoor-rowers/racing/records/world/2000).
 
 {% comment %}
 
