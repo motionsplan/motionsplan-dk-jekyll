@@ -1,30 +1,35 @@
 ---
-title: "Playertek - metrics"
+title: "Playertek: Playr GPS aktivitetstracker til fodbold"
 permalink: /playertek/
-excerpt: "Når du vil være rigtig god, så skal du øve dig meget, men så kan du få brug for variationer for at kunne holde til det. Hvordan kan du arbejde med variationer i løftene?"
 language: da
 header:
-  overlay_image: https://c.pxhere.com/photos/e3/ed/dumbbells_training_silver_sports_force_mussels_body_building-600719.jpg!d
-  teaser: https://c.pxhere.com/photos/e3/ed/dumbbells_training_silver_sports_force_mussels_body_building-600719.jpg!d
+  overlay_image: https://images.daznservices.com/di/library/GOAL/83/c8/peter-staunton-playertek_1buony74u2mt183kh0vsmfjsj.jpg?t=880392160&quality=90
+  teaser: https://images.daznservices.com/di/library/GOAL/83/c8/peter-staunton-playertek_1buony74u2mt183kh0vsmfjsj.jpg?t=880392160&quality=80
+  caption: *title
 category:
-  - Styrketræning
+  - Test
 tags:
-  - variationer
-  - styrkeløft
-  - powerlifting
-last_modified_at: 2019-11-19T23:14:14Z
+  - test
+  - tracking
+last_modified_at: 2020-11-19T23:14:14Z
 toc: true
 feature_row:
-  - image_path: https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg
-    alt: "Squat"
-    excerpt: "Squat"
-  - image_path: https://i.ytimg.com/vi/q3uQE0yugH8/maxresdefault.jpg
-    alt: "Bænkpres"
-    excerpt: "Bænkpres"
-  - image_path: https://i.ytimg.com/vi/GaXr9aZ2FR4/maxresdefault.jpg
-    alt: "Dødløft"
-    excerpt: "Dødløft"
+  - image_path: https://playr.catapultsports.com/wp-content/themes/playr/assets/images/home2/system.png?v1.3
+    url: https://playr.catapultsports.com/eu/
+    alt: "Playertek"
+    title: "Playertek"
+    excerpt: "Playr fra Playertek er den eneste tracker til fodbold, der kombinerer den seneste GPS teknologi og aktivitetstracker, som du kan bruge til at individualisere din træning. Playr er perfekt til alle, der synes det er sjovt at tracke sin træning."
+    btn_class: "btn--info"
+    btn_label: "Køb Playr football gps tracker"
 ---
+
+Playr fra Playertek er en GPS-tracker, aktivitetstracker og accelerometer, som kan bruges til at _tracke_ fodbold og andre idrætsgrene.
+
+{% include feature_row type="left" %}
+
+Playr virker bedst udendørs, hvor den kan få kontakt til GPS-satelitterne. Playr knyttes an til en _smartphone_, hvor du kan måle og følge din træning.
+
+{% comment %}
 
 When starting out -- Distance covered, sprint distance and top speed
 https://medium.com/playertek/frequently-asked-questions-9483b3540ae7
@@ -65,3 +70,5 @@ The power score is an average power output for a player during a game or trainin
 What do the number of impacts tell me as a coach?
 
 Impacts will tell you how many collisions the player has taken over 5g (customizable in player profile). This can be used to determine a possible trend that lead to an injury or as an exertion tool to help understand the load on athletes.
+
+{% endcomment %}
