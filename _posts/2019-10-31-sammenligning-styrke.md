@@ -38,9 +38,15 @@ Derfor findes der en række forskellige beregningsmodeller, som kan deles op i e
 
 ## Wilks score
 
-[Wilks Score](https://en.wikipedia.org/wiki/Wilks_Coefficient) er den mest kendte metode til at sammenligne løftere på tværs af vægtklasser er _Wilks score_, som også er den anerkendte metode i styrkeløft i øjeblikket, men der findes også andre beregningsmodeller.
+[Wilks Score](https://en.wikipedia.org/wiki/Wilks_Coefficient) er den mest kendte metode til at sammenligne løftere på tværs af vægtklasser. _Wilks score_ er for nylig blevet afløst af IPF Points.
 
 {% include calculate-strength-wilks.html %}
+
+## IPF Points
+
+I International Powerlifting Federation har man erstattet Wilks Score med en ny formel. Du kan [se og beregne IPF GL formlen hos Dansk Styrkeløft Forbund](https://styrke.dk/?page=ipfglformel).
+
+{% include calculate-strength-ipf.html %}
 
 ## Dr. Mel Siff
 
@@ -93,12 +99,14 @@ Der er flere forskellige måder at sammenligne styrke på tværs af vægtklasser
 
 Greg Nuckols har også gjort sig [tanker om at sammenligne løftere på tværs af aldersgrupper](https://www.strongerbyscience.com/whos-the-most-impressive-powerlifter/) og Morten Zacho har baseret en [Index100 beregner](http://web.archive.org/web/20071017053943/http://www.motion-online.dk/styrketraening/styrke_-_artikler/hvem_er_staerkest?_-_beregning_af_index100/){:rel="nofollow"} på Mel Siffs arbejde.
 
-I International Powerlifting Federation har man erstattet Wilks Score med en ny formel. Du kan [se og beregne IPF GL formlen hos Dansk Styrkeløft Forbund](https://styrke.dk/?page=ipfglformel).
-
 ## Referencer
+
+<details markdown="1">
+  <summary>Se referencer om sammenligning af styrke</summary>
 
 - [Evolution of Bodymass Adjustments](http://web.archive.org/web/20050304042306/http://www.sportsci.com/SPORTSCI/JANUARY/evolution_of_bodymass_adjustment.htm)
 - [About relative strength](http://tsampa.org/training/scripts/relative_strength/#about)
 - [Who is the most impressive powerlifter](https://www.strongerbyscience.com/whos-the-most-impressive-powerlifter/)
+</details>
 
 {% include feature_row type="left" %}

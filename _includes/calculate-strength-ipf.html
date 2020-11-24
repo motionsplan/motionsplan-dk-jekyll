@@ -1,0 +1,50 @@
+<form class="calculator" id="calculator_ipf">
+    <fieldset>
+        <legend>Udregning IPF-points. Indtast værdier</legend>
+        <fieldset>
+            <legend>Køn</legend>
+            <label class="radio">
+                <input name="ipf_gender" type="radio" value="M" checked> Mand
+            </label>
+            <label class="radio">
+                <input name="ipf_gender" type="radio" value="F"> Kvinde
+            </label>
+        </fieldset>
+        <div class="form-group">
+            <label>Kropsvægt (kg)
+                <input name="ipf_bodyweight" type="number" min="50" max="200" placeholder="Kropsvægt i kg" step="0.1" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Løft (kg)
+                <input name="ipf_lifted" type="number" min="20" max="600" placeholder="Løftet vægt i kg" step="0.1" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Udstyr
+                <select name="ipf_equipment" required>
+                    <option value="Raw">Raw</option>
+                    <option value="Single-ply">Single-ply</option>
+                </select>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Event
+                <select name="ipf_event" required>
+                    <option value="SBD">SBD</option>
+                    <option value="B">Bench</option>
+                </select>
+            </label>
+        </div>
+        <input type="submit" value="Udregn">
+    </fieldset>
+    <fieldset class="results" disabled>
+        <legend>Resultater</legend>
+        <label>IPF Points
+            <input disabled name="ipf_points" type="text">
+        </label>
+        <label>IPF Dots
+            <input disabled name="ipf_dots" type="text">
+        </label>
+    </fieldset>
+</form>

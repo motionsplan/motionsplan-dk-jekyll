@@ -6,6 +6,9 @@ header:
   overlay_image: https://images.unsplash.com/photo-1571019613914-85f342c6a11e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjB8ODczNTc1Nnx8ZW58MHx8fA%3D%3D&auto=format&fit=crop&w=1900&q=60
   teaser: https://images.unsplash.com/photo-1571019613914-85f342c6a11e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjB8ODczNTc1Nnx8ZW58MHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60
   caption: *title
+  actions:
+    - label: "<i class='fas fa-file-excel'></i> Sheet med strukturel balance"
+      url: https://docs.google.com/spreadsheets/d/114bvE2Kuk0259xvXbojDdNjHUBP95348yDPBPN78Lkc/copy?usp=sharing
 category:
   - Test
   - Balance

@@ -8,6 +8,9 @@ header:
   teaser: https://images.unsplash.com/photo-1526401485004-46910ecc8e51?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
   caption: *title
   alt: Photo by Victor Freitas on Unsplash
+  actions:
+    - label: "<i class='fas fa-file-excel'></i> Sheet med 1RM-test"
+      url: https://docs.google.com/spreadsheets/d/1jgy_8ohlwPi3omneYpdEQ3Uj3N2syS0D2-jI1K5gA74/copy?usp=sharing
   overlay_filter: 0.3
 category:
   - Styrketræning

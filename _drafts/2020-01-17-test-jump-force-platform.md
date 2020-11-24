@@ -21,4 +21,4 @@ Artiklen er under opbygning, så lige nu er det mest en inspiration til en masse
 
 Hvis du gerne vil hjælpe med at forbedre artiklen, så skriv endelig til lars@vih.dk.
 
-Foreløbig kan du læse mere om [spring, at hoppe højere og eksplosivitet her]({% link _posts/2020-01-16-jumping.md %}).
+Foreløbig kan du læse mere om [spring, at hoppe højere og eksplosivitet her]({% link _drafts/2020-01-16-jumping.md %}).

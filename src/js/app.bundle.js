@@ -2,6 +2,7 @@
 
 /* global $ */
 
+const ipfpoints = require('./ipf-points');
 const ybalance = require('./y-balance');
 const lung = require('./lung');
 const blood = require('./blood');
@@ -1137,7 +1138,7 @@ $(document).ready(function() {
 
         $("[name='intensity_form3']").val(result);
     });
-     // Calculate Wilks
+     // Calculate YYIR1
     $("#calculator_yyir1").submit(function(e) {
         console.log("Calculate YYIR1");
         e.preventDefault();
@@ -1153,7 +1154,7 @@ $(document).ready(function() {
         $("[name='vo2max_result']").val(b.getFitnessLevel());
         $("[name='status']").val(b.getEvaluation(gender, age));
     });
-     // Calculate Wilks
+     // Calculate YYE1
     $("#calculator_beeptest_yye1").submit(function(e) {
         console.log("Calculate YYIR1");
         e.preventDefault();
@@ -1183,7 +1184,7 @@ $(document).ready(function() {
         $("[name='score']").val(p.getScore());
         $("[name='rating']").val(p.getRating());
     });
-     // Calculate Wilks
+    // Calculate Wilks
     $("#calculator_wilksscore").submit(function(e) {
         console.log("Calculate Wilks Score");
         e.preventDefault();
@@ -1194,7 +1195,23 @@ $(document).ready(function() {
 
         let wilksScore = wilks.calculateWilksScore(gender, bodyweight, lifted);
 
-        $("[name='wilksscore']").val(wilksScore);
+        $("[name='wilksscore']").val(wilksScore.toFixed(1));
+    });
+    // Calculate IPF
+    $("#calculator_ipf").submit(function(e) {
+        console.log("Calculate IPF Score");
+        e.preventDefault();
+
+        let gender = $("[name='ipf_gender']:checked").val();
+        let bodyweight = Number($("[name='ipf_bodyweight']").val());
+        let lifted = Number($("[name='ipf_lifted']").val());
+        let event = $("[name='ipf_event']").val();
+        let equipment = $("[name='ipf_equipment']").val();
+
+        let ipf_points = ipfpoints.IPFPoint(gender, bodyweight, lifted, event, equipment);
+
+        $("[name='ipf_points']").val(ipf_points.getPoints().toFixed(1));
+        $("[name='ipf_dots']").val(ipf_points.getDots().toFixed(1));
     });
      // Calculate Karvonen Intensity
     $("#calculator_karvonen_intensity").submit(function(e) {
