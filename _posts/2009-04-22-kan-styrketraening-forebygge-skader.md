@@ -6,13 +6,13 @@ title: "Forebyggelse af skader: Hvad er mest effektivt til skadesforebyggelse?"
 header:
   overlay_image: /assets/images/blog/kan-styrketraening-forebygge-skader.jpg
   teaser: /assets/images/blog/kan-styrketraening-forebygge-skader.jpg
-  caption: "Forebyggelse af skader: Hvad er mest effektivt?"
+  caption: "Forebyggelse af skader: Hvad er mest effektivt til skadesforebyggelse?"
 language: da
 category:
   - Styrketræning
 tags:
   - styrketræning
-  - skadeforebyggelse
+  - skadesforebyggelse
   - knæskader
   - springtræning
   - balancetræning
