@@ -1,21 +1,21 @@
 ---
-title: &title "Forebyggelse af skader: Hvad er mest effektivt?"
+last_modified_at: 2020-02-13T22:23:01.000Z
+author: martin.madsen
 permalink: /artikel/kan-styrketraening-forebygge-skader/
-language: da
+title: "Forebyggelse af skader: Hvad er mest effektivt til skadesforebyggelse?"
 header:
   overlay_image: /assets/images/blog/kan-styrketraening-forebygge-skader.jpg
   teaser: /assets/images/blog/kan-styrketraening-forebygge-skader.jpg
-  caption: *title
+  caption: "Forebyggelse af skader: Hvad er mest effektivt?"
+language: da
+category:
+  - Styrketræning
 tags:
   - styrketræning
   - skadesforebyggelse
   - knæ
   - springtræning
   - balancetræning
-category:
-  - Styrketræning
-last_modified_at: 2020-02-13T22:23:01Z
-author: martin.madsen
 ---
 
 Antallet af skader bliver flere og flere som antallet af aktive timer stiger. Vi kigger her på, hvordan vi kan forebygge skader og reducere risikoen for at blive skadet gennem styrketræning, balancetræning og springtræning.
@@ -26,7 +26,7 @@ Målet er at forbedre præstationen, men den megen træning har også en negativ
 
 Vi vil i det følgende kigge på hvilke former for træning, der har en skadesforebyggende effekt.
 
-## Balancetræning
+## Balancetræning til at forebygge skader
 
 Balance er et sammenspil mellem forskellige receptorer (mekano- og proprioceptorer), som eksempelvis sidder uden på og inden i led. Disse receptorer sender via nervebaner signaler til hjernen om, hvilken stilling og position eksempelvis et knæled er i.
 
@@ -40,7 +40,7 @@ Plyometri har i flere studier vist at skabe større stabilitet omkring knæledde
 
 Plyometrisk træning har også vist at forbedre styrkebalancen mellem forlår (quadriceps) og baglår (hasemuskulaturen). Dette menes at være beskyttende mod korsbåndsskader ved høje vinkelhastigheder, som opstår ved eksempelvis hop og sprint. Dette betyder, at sportsudøvere bør ligge vægt på at få trænet både quadriceps og hasemuskulaturen (Myklebust 2004, Soderman 2000).
 
-## Styrketræning
+## Styrketræning forebygger skader
 
 Generelt er styrketræning skadesforebyggende, da en større muskelmasse og styrke omkring led vil virke hhv. beskyttende og give større stabilitet. Styrketræningen vil også forbedre evnen til at komme sig efter en skade. Dette skyldes formentligt, at restitutionen i forbindelse med styrketræning og restitutionen efter en skade minder om hinanden. En træningseffekt ved styrketræning er således reparationer af små fiberskader (mikrooverrivninger) i musklen (Fleck & Kreamer 2004).
 
@@ -60,13 +60,18 @@ Bevægelserne omkring skulderen er styret af et komplekst biomekanisk system bes
 
 Dette bør trænes, så muskulaturen kan klare koncentriske og excentriske belastninger. Samtidigt vil en styrkelse af kropstammen også være med til at nedsætte skadesrisikoen i forbindelse med kastebevægelser (Kelly & Terry 2001). Den forebyggende træning kan således bestå af styrketræning, som fokuser på excentrisk styrke, styrkelse af rotator cuff’en samt en øget stabilitet af kropsstammen (Powers 1998, Johnson 1994, Sirota et al 1997). Flere træningsøvelser med elastik har også vist at have en forebyggende effekt på skulderskader i sportsgrene, hvor der kastes meget.
 
-## Afsluttende
+## Afsluttende om skadesforebyggelse
 
 De ovenstående resultater tyder altså på, at supplerende træning som styrke-, balance- og plyometrisk træning kan have en skadesforebyggende effekt. Især de alvorlige skader som overrevet korsbånd synes at kunne undgås i højere grad. Dette er gode nyheder for trænere og sportsudøvere.
 
 I forhold til skader så er restitution en af de helt store syndere, så du kan med fordel læse lidt mere om [restitution]({% link _posts/2009-08-07-restition-hvordan-bliver-jeg-hurtigst-klar-igen.md %}) og [restitutionstid]({% link _posts/2020-05-28-restitutionstid-alder.md %}).
 
-## Litteratur
+Vi har også skrevet et andet indlæg, der giver [forslag til forskellige øvelser til at forebygge skader](/skadesforebyggelse-skadesforebyggende-traening/).
+
+## Litteratur om at forebygge skader
+
+<details markdown="1">
+  <summary>Se referencer om skadesforebyggelse</summary>
 
 - Buchanan, Patricia A., og Vassilios G. Vardaxis. 2003. “Sex-Related and Age-Related Differences in Knee Strength of Basketball Players Ages 11-17 Years”. _Journal of Athletic Training_ 38 (3): 231–37.
 - Chimera, Nicole J., Kathleen A. Swanik, C. Buz Swanik, og Stephen J. Straub. 2004. “Effects of Plyometric Training on Muscle-Activation Strategies and Performance in Female Athletes”. _Journal of Athletic Training_ 39 (1): 24–31.
@@ -85,3 +90,4 @@ I forhold til skader så er restitution en af de helt store syndere, så du kan 
 - Söderman, K., S. Werner, T. Pietilä, B. Engström, og H. Alfredson. 2000. “Balance Board Training: Prevention of Traumatic Injuries of the Lower Extremities in Female Soccer Players? A Prospective Randomized Intervention Study”. _Knee Surgery, Sports Traumatology, Arthroscopy: Official Journal of the ESSKA_ 8 (6): 356–63. [https://doi.org/10.1007/s001670000147](https://doi.org/10.1007/s001670000147).
 - Terry, Glenn C., og Thomas M. Chopp. 2000. “Functional Anatomy of the Shoulder”. _Journal of Athletic Training_ 35 (3): 248–55.
 - Aagaard, P., og A. Thorstensson. 2003. “Neuromuscular Aspects of Exercise: Adaptive Responses Evoked by Strength Training”. _Textbook of Sports Medicine_, 70–106.
+</details>
