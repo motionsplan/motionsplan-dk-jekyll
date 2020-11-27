@@ -17,9 +17,11 @@ tags:
   - styrketræning
   - skadesforebyggelse
 ---
+Hvordan kan man arbejde med skadesforebyggelse? Skadesforebyggende træning kan mindske risikoen for skader, så vi dykker ned i hvilke øvelser, du kan lave for at forebygge skader.
+
 Hvad er skadesforebyggende træning? **Skadeforebyggende træning handler om at lave øvelser i træningen, som du mener kan være med til at reducere risikoen for skader i de efterfølgende aktiviteter. Det kan fx være balancetræning, strukturel muskelbalance og styrketræning.**
 
-Formålet med dette indlæg er, at du selv bliver inspireret til at dykke ned i den skadesforebyggende træning - og hvad der reelt er evidens for virker på forskellige typer skader.
+Formålet med dette indlæg er, at du selv bliver inspireret til at dykke ned i den skadesforebyggende træning - og hvad der reelt er evidens for virker på forskellige typer skader primært for benene.
 
 ## Hvad er skadesforebyggelse?
 
