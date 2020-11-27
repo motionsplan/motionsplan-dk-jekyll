@@ -27,7 +27,7 @@ Vi vil i det følgende kigge på hvilke former for træning, der har en skadesfo
 
 ## Skadesforebygning versus specificitet
 
-Inden man begynder at kaste sig 
+Inden man begynder at kaste sig ud i alle mulige forsøg på at implementere skades . Et eksempel på dette er, at hvis man vil gøre kroppen modstandsdygtig overfor typiske skader associeret med sprint, så skal man træne at sprinte. Skadesforebyggende støtteøvelser har bestemt deres værdi, men de kommer ikke nærheden at, hvis man på en fornuftig måde over tid opbygger en kapacitet i kroppen for eks. at kunne sprinte.
 
 ## Balancetræning til at forebygge skader
 
