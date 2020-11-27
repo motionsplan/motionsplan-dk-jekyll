@@ -1,18 +1,18 @@
 ---
+last_modified_at: 2020-10-13T23:14:14.000Z
+toc: true
+author: jesper.emil.jakobsgaard
+permalink: /skadesforebyggelse-skadesforebyggende-traening/
 title: "Skadesforebyggelse: Hvilke øvelser kan forebygge skader?"
 header:
   overlay_image: https://images.unsplash.com/photo-1550259979-ed79b48d2a30?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=80
   teaser: https://images.unsplash.com/photo-1550259979-ed79b48d2a30?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
   caption: "Skadesforebyggelse: Hvilke øvelser kan forebygge skader?"
+language: da
 category:
   - Træning
   - Skadesforebyggelse
   - Styrketræning
-last_modified_at: 2020-10-13T23:14:14.000Z
-toc: true
-author: jesper.emil.jakobsgaard
-permalink: /skadesforebyggelse-skadesforebyggende-traening/
-language: da
 tags:
   - styrketræning
   - skadesforebyggelse
@@ -43,7 +43,7 @@ Du kan finde mere inspiration til en aktuelle forskning omkring skader, forebygg
 
 > The purpose of this Clinical Commentary is to discuss the physiologic mechanism of eccentric exercise as well as to review the literature regarding the utilization of eccentric training during rehabilitation. A secondary purpose of this commentary is to provide the reader with a framework for the implementation of eccentric training during rehabilitation of tendinopathies, muscle strains, and after ACL reconstruction.
 
-\--- <cite>[Lorenz og Reiman (2011)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3105370/)</cite>
+--- <cite>[Lorenz og Reiman (2011)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3105370/)</cite>
 
 Den artikel er et godt sted at starte, hvis du vil vide mere om de **fysiologiske mekanismer bag effekten af excentrisk træning i forhold til skadesforebyggelse og genoptræning efter skader**.
 
@@ -92,6 +92,8 @@ Lav fx 3 runder af de følgende øvelser:
 {% include video provider="youtube" id="uqTDV6c53us" %}
 
 ### TRX prone knee raise one x 8-10
+
+{% include video provider="youtube" id="8m7Frw9JrdM" %}
 
 ### Wallsits 30-45s
 
