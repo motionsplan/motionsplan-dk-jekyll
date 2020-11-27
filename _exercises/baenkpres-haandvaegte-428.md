@@ -1,5 +1,5 @@
 ---
-title: "Bænkpres, håndvægte"
+title: &title "Bænkpres, håndvægte"
 excerpt: "Lig på en bænk. Håndvægte i hver hånd. Pres lige op."
 instructions: "Lig på en bænk. Håndvægte i hver hånd. Pres lige op."
 permalink: /node/428/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/428-0.jpg
   teaser: /assets/images/exercises/428-0-320.jpg
+  caption: *title
 tags:
   - Pres
   - Styrketræning
@@ -38,11 +39,11 @@ gallery:
   - url: /assets/images/exercises/428-0.jpg
     image_path: /assets/images/exercises/428-0-320.jpg
     alt: "Bænkpres, håndvægte"
-    title: "Bænkpres, håndvægte"
+    title: &title "Bænkpres, håndvægte"
   - url: /assets/images/exercises/428-1.jpg
     image_path: /assets/images/exercises/428-1-320.jpg
     alt: "Bænkpres, håndvægte"
-    title: "Bænkpres, håndvægte"
+    title: &title "Bænkpres, håndvægte"
 last_modified_at: 2014-10-12T19:16:28Z
 ---
 

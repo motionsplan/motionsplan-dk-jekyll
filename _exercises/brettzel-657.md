@@ -1,5 +1,5 @@
 ---
-title: "Brettzel"
+title: &title "Brettzel"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/brettzel/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/brettzel-0.jpg
   teaser: /assets/images/exercises/brettzel-0-320.jpg
+  caption: *title
 tags:
   - Strækøvelser
   - Baller
@@ -27,11 +28,11 @@ gallery:
   - url: /assets/images/exercises/brettzel-0.jpg
     image_path: /assets/images/exercises/brettzel-0-320.jpg
     alt: "Brettzel"
-    title: "Brettzel"
+    title: &title "Brettzel"
   - url: /assets/images/exercises/brettzel-1.jpg
     image_path: /assets/images/exercises/brettzel-1-320.jpg
     alt: "Brettzel"
-    title: "Brettzel"
+    title: &title "Brettzel"
 video:
   provider: youtube
   id: SfGV-65GaPg

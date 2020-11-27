@@ -12,25 +12,25 @@
         </fieldset>
         <div class="form-group">
             <label for="age">Alder (år)</label>
-            <input name="age" id="age" type="number" min="10" max="100" placeholder="Alder i år">
+            <input name="age" id="age" type="number" min="10" max="100" placeholder="Alder i år" required>
         </div>
         <div class="form-group">
             <label for="height">Højde (cm)</label>
-            <input name="height" id="height" type="number" min="100" max="272" placeholder="Højde i cm" step="0.1">
+            <input name="height" id="height" type="number" min="100" max="272" placeholder="Højde i cm" step="0.1" required>
         </div>
         <div class="form-group">
             <label for="weight">Vægt (kg)</label>
-            <input name="weight" id="weight" type="number" min="2" max="200" placeholder="Vægt i kg" step="0.1">
+            <input name="weight" id="weight" type="number" min="2" max="200" placeholder="Vægt i kg" step="0.1" required>
         </div>
         <input type="submit" value="Udregn">
     </fieldset>
     <fieldset class="results">
         <legend>Resultater</legend>
         <label>Vand i kroppen (liter)
-            <input disabled="disabled" name="tbw" id="tbw" type="text" placeholder="">
+            <input disabled name="tbw" id="tbw" type="text">
         </label>
         <label>Vand procent af kropsvægt (%)
-            <input disabled="disabled" name="tbw_pct" id="tbw_pct" type="text" placeholder="">
+            <input disabled name="tbw_pct" id="tbw_pct" type="text">
         </label>
     </fieldset>
 </form>

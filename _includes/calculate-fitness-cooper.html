@@ -2,15 +2,17 @@
     <fieldset>
         <legend>Cooper 12 minutter. Indtast de målte værdier</legend>
         <div class="form-group">
-            <label for="distance">Distance (m)</label>
-            <input type="number" min="500" max="6000" id="distance" placeholder="Distance i m" />
+            <label>Distance (m)
+                <input type="number" min="500" max="6000" id="distance" placeholder="Distance i m" required>
+            </label>
         </div>
-        <input type="submit" value="Beregn" />
+        <input type="submit" value="Beregn">
     </fieldset>
     <fieldset class="results">
         <div class="form-group">
-            <label for="kondital">Kondital (ml/kg/min)</label>
-            <input type="text" id="kondital" placeholder="Beregnes" disabled="disabled" />
+            <label>Kondital (ml/kg/min)
+                <input type="text" id="kondital" disabled>
+            </label>
         </div>
     </fieldset>
 </form>

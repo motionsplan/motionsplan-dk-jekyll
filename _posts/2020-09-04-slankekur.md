@@ -46,15 +46,17 @@ Jeg har lavet en beregner, der hjælper med at vise, hvor vildt vægttabet er i 
 
 {% include calculator-weightloss-calories.html %}
 
+Beregneren til det nødvendige energiunderskud for fedttab er baseret på, at der i 1 kg fedt er 38.000 kJ eller 9.000 kcal.
+
 ## Eksempel på energiunderskud fra slankekur
 
-Hvis vi tager Vicky som eksempel og taste tallene ind i beregneren. Hun skulle altså have et dagligt energiunderskud på 7920 kcal for at tabe 0,880 kg om dagen.
+Hvis vi tager Vicky som eksempel og taste tallene ind i beregneren. Hun skulle altså have et dagligt energiunderskud på 7920 kcal for at tabe 0,880 kg fedt om dagen på sin slankekur.
 
-For at sætte det i perspektiv, så kan vi lige prøve at udregne Vickys [daglige energiforbrug i vores stofskifteberegner]({% link _posts/2020-09-01-stofskifte-nordic-2012.md %}).
+For at sætte det i perspektiv, så kan vi lige prøve at udregne Vickys [daglige energiforbrug i vores stofskifteberegner]({% link _posts/2019-11-01-stofskifteberegner-nordic-2012.md %}).
 
 Jeg har været flink, så derfor har jeg brugt hendes nye vægt til at udregne energiforbruget. Der står i artiklen, at hun ikke i øjeblikket tager i fitnesscenteret, så jeg har taget udgangspunkt i et almindeligt aktivitetsniveau.
 
-Vickys daglige energiforbrug er formentlig omkring 2650 kcal. Det må næsten vise, hvor vanvittige resultateter kuren har haft. Hendes resultat har altså teoretisk set krævet, at hun har et energiunderskud på over dobbelt så meget som hendes daglige energiforbrug.
+Vickys daglige energiforbrug er formentlig omkring 2650 kcal. Det viser, hvor vanvittige resultater slankekuren fra Ude og Hjemme har haft. Vickys resultat har altså teoretisk set krævet, at hun har et energiunderskud på over dobbelt så meget som hendes daglige energiforbrug.
 
 Det kan jo ikke lade sig gøre!
 

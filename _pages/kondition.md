@@ -3,6 +3,8 @@ layout: category
 permalink: /kondition/
 title: &title "Kondition, konditionstræning og kredsløbstræning"
 author_profile: true
+system:
+  - fitnessinstruktør
 sort_by: title # date (default) title
 sort_order: forward # forward (default), reverse
 taxonomy: Kondition
@@ -18,20 +20,27 @@ header:
       url: "/hastighed/"
 classes: wide
 feature_row_feature:
-  - image_path: https://images.unsplash.com/photo-1501820434261-5bb046afcf6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80
+  - image_path: https://images.unsplash.com/photo-1501820434261-5bb046afcf6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
     alt: "Energisystemer 101"
     title: "Energisystemer 101"
     excerpt: "Forstå kroppens energisystemer for at kunne forstå, hvordan du bedst kan lave konditionstræning og få et bedre kredsløb og udholdenhed."
     url: "/energisystemer/"
     btn_label: "Lær om energisystemer"
     btn_class: "btn--danger"
+  - image_path: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+    alt: "Konditionstests"
+    title: "Konditionstests"
+    excerpt: "Vi har samlet alle konditionstests på en side. Der er bl.a. konditests til løb, cykling og gang. Vi har både beskrevet tests til hjemmebrug og i laboratorium."
+    url: "/kondition/tests/"
+    btn_label: "Se alle konditionstests"
+    btn_class: "btn--success"
 feature_row:
   - image_path: https://cnet1.cbsistatic.com/img/Y3vodO8bMPi6qlFLRF3xFcQpLHo=/1092x0/2019/07/26/114f1721-1a71-42bc-b1a4-cb35299bedbc/gettyimages-640493589.jpg
     alt: "Kondition og tests"
     title: "Kondition og tests"
     excerpt: "Hvad er kondital og iltoptagelse, og hvordan måler man det i forbindelse med sin konditionstræning?"
     url: "/kondition-og-test/"
-    btn_label: "Læs om kondital"
+    btn_label: "Læs om kondital, kondition og tests"
     btn_class: "btn--success"
   - image_path: https://images.unsplash.com/photo-1544899489-a083461b088c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
     alt: "Hvad er en god kondition?"

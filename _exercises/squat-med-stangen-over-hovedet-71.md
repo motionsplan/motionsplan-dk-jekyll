@@ -1,5 +1,5 @@
 ---
-title: "Squat, med stangen over hovedet"
+title: &title "Squat, med stangen over hovedet"
 excerpt: "Lav en dyb knæbøjning, mens du holder en vægtstang med strakte arme over hovedet."
 instructions: "Lav en dyb knæbøjning, mens du holder en vægtstang med strakte arme over hovedet."
 permalink: /oevelse/squat-med-stangen-over-hovedet/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/squat-med-stangen-over-hovedet-0.jpg
   teaser: /assets/images/exercises/squat-med-stangen-over-hovedet-0-320.jpg
+  caption: *title
 tags:
 categories:
 training_type: 
@@ -21,23 +22,23 @@ gallery:
   - url: /assets/images/exercises/squat-med-stangen-over-hovedet-0.jpg
     image_path: /assets/images/exercises/squat-med-stangen-over-hovedet-0-320.jpg
     alt: "Squat, med stangen over hovedet"
-    title: "Squat, med stangen over hovedet"
+    title: &title "Squat, med stangen over hovedet"
   - url: /assets/images/exercises/squat-med-stangen-over-hovedet-1.jpg
     image_path: /assets/images/exercises/squat-med-stangen-over-hovedet-1-320.jpg
     alt: "Squat, med stangen over hovedet"
-    title: "Squat, med stangen over hovedet"
+    title: &title "Squat, med stangen over hovedet"
   - url: /assets/images/exercises/squat-med-stangen-over-hovedet-2.jpg
     image_path: /assets/images/exercises/squat-med-stangen-over-hovedet-2-320.jpg
     alt: "Squat, med stangen over hovedet"
-    title: "Squat, med stangen over hovedet"
+    title: &title "Squat, med stangen over hovedet"
   - url: /assets/images/exercises/squat-med-stangen-over-hovedet-3.jpg
     image_path: /assets/images/exercises/squat-med-stangen-over-hovedet-3-320.jpg
     alt: "Squat, med stangen over hovedet"
-    title: "Squat, med stangen over hovedet"
+    title: &title "Squat, med stangen over hovedet"
   - url: /assets/images/exercises/squat-med-stangen-over-hovedet-4.jpg
     image_path: /assets/images/exercises/squat-med-stangen-over-hovedet-4-320.jpg
     alt: "Squat, med stangen over hovedet"
-    title: "Squat, med stangen over hovedet"
+    title: &title "Squat, med stangen over hovedet"
 last_modified_at: 2013-04-21T13:54:31Z
 ---
 

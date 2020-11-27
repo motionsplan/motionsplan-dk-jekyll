@@ -37,7 +37,7 @@ Det gælder om at finde et passende forhold mellem træningstid og intensitet, s
 
 Vi har tidligere [advokeret for at intervaltræning giver en bedre træningseffekt end kontinuerlig træning på mindre tid](/artikel/4-minutters-haard-intervaltraening-bedre-end-en-times-moderat-loeb). Flere steder foreslår man, at [intervaltræning også er overlegent ift. fedtforbrænding](http://www.alun.dk/traening/high-intensity-interval-training.html), men er det korrekt?
 
-**Er intervaltræning mere effektiv end kontinuerlig træning, når man skal tabe sig og lave sin kropskomposition om?** (via [Young](http://www.tmuscle.com/free_online_article_issue/issue_636?s=indexTitle#interval-training-doesn-t-work))
+**Er intervaltræning mere effektiv fedtforbrænding end kontinuerlig træning, når man skal tabe sig og lave sin kropskomposition om?** (via [Young](http://www.tmuscle.com/free_online_article_issue/issue_636?s=indexTitle#interval-training-doesn-t-work))
 
 Studier har vist forbedringer i forbrændingen i mitochondrierne og forøget stofskifte efter aktiviteten, når man laver intervaltræning. Det indikerer et større potentiale for fedtforbrænding efter intervaltræning. Men hvordan ser videnskaben egentlig på dette?
 
@@ -103,15 +103,15 @@ Det tyder altså på, at hård intervaltræning er mere effektivt ift. at tabe f
 
 **Talanian (2007)** undersøgte kvinder, der hver dag i to uger lavede intervaltræning på stationære cykler. Efter de to uger undersøgte Talanian kvindernes præstation på en times kontinuerlig cykling med moderat intensitet. Det viste sig at deres evne til at forbrænde fedt var steget med 36% og deres aerobe kapacitet var 13% bedre. Det er interessant, at intervaltræning er med til at forbedre ens evne til at forbrænde fedt under moderat intensitet. Studiet mangler at gøre nøjagtigt rede for, om de kørte med nøjagtigt samme intensitet (eller om de kørte med lidt lavere intensitet, fordi de var kommet i bedre form, hvilket i så fald ville forklare den bedre fedtforbrænding). Studiet kunne følges op ad et studium, der målte direkte på kropskompositionen.
 
-## Konklusion ift. effektiv fedtforbrænding
+## Konklusion: Hvad er den bedste fedtforbrænding?
 
-Den mest effektive træning til at hjælpe med fedttab er den træning du får lavet. Det kan godt være noget af en _hurdle_ at skulle gå _all out_ på sine træninger, så hvis du foretrækker træning med moderat intensitet, så kan du altså forbrænde meget ved det. 
+Den mest effektive træning til at hjælpe med fedttab er den træning, du får lavet. Det kan godt være noget af en _hurdle_ at skulle gå _all out_ på sine træninger, så hvis du foretrækker træning med moderat intensitet, så kan det være den bedste fedtforbrænding. 
 
-Det kunne være interessant med mere forskning, hvor de sammenligner forskellige træningsprotokoller med både HIIT og LISS i forhold til kropskompositionen over tid. Jeg tror ikke der er nogen tvivl om, at hvis du bruger nogenlunde den samme tid på træningen, så intervaller kunne være med til at øge fedtforbrændingen over tid.
+Det kunne være interessant med mere forskning, hvor de sammenligner forskellige træningsprotokoller med både HIIT og LISS i forhold til kropskompositionen over tid. Jeg tror ikke der er nogen tvivl om, at hvis du bruger nogenlunde den samme tid på træningen, så vil intervaller være mere effektiv fedtforbrænding over tid, men det mest sandsynlige er nok, at du ikke bruger lige så lang tid på træningen.
 
 Uanset hvordan du træner, så gælder det stadig at en [fornuftig diæt kombineret med træning er den mest effektive vej til fedttab](https://www.motion-online.dk/motions-slankekuren/).
 
-Hvis du vil lave den bedste træning for fedtforbrænding, så kan målet nås på mange måder. Det væsentligste i dit træningsprogram for fedtforbrænding er, at du laver træning, som du kontinuerligt gider at lave over tid. Du kan altså både bruge intervalttræning og kontinuerlig træning som midler til en effektiv fedtforbrænding.
+Hvis du vil lave den bedste træning for fedtforbrænding, så kan målet nås på mange måder. Det væsentligste i dit træningsprogram for fedtforbrænding er, at du laver træning, som du kontinuerligt gider at lave over tid. Du kan altså både bruge intervalttræning og kontinuerlig træning som midler til en **effektiv fedtforbrænding**.
 
 Hvis vi isoleret ser på forbrændingen under træningen, så vil forbrændingen blive højere med intervaller, hvis du bruger samme tid på træningen, og intervaller på sigt kunne være med til at flytte din iltoptagelse mere end kontinuerlig træning.
 
@@ -123,13 +123,17 @@ Hvis du kan afse fx en times fedtforbrændende træning, så kan det fx være en
 
 ## Referencer
 
+<details markdown="1">
+  <summary>Se referencer om kontinuerlig træning og intervaltræning i forhold til effektiv fedtforbrænding</summary>
+
 - Børsheim, Elisabet, og Roald Bahr. 2003. “Effect of Exercise Intensity, Duration and Mode on Post-Exercise Oxygen Consumption”. _Sports Medicine (Auckland, N.Z.)_ 33 (14): 1037–60. [https://doi.org/10.2165/00007256-200333140-00002](https://doi.org/10.2165/00007256-200333140-00002).
 - Hazell, Tom, T Dylan Olver, Craig Hamilton, og Peter Lemon. 2012. “Two Minutes of Sprint-Interval Exercise Elicits 24-hr Oxygen Consumption Similar to That of 30 min of Continuous Endurance Exercise”. _International journal of sport nutrition and exercise metabolism_ 22 (juni): 276–83. [https://doi.org/10.1123/ijsnem.22.4.276](https://doi.org/10.1123/ijsnem.22.4.276).
 - LaForgia, J., R. T. Withers, og C. J. Gore. 2006. “Effects of Exercise Intensity and Duration on the Excess Post-Exercise Oxygen Consumption”. _Journal of Sports Sciences_ 24 (12): 1247–64. [https://doi.org/10.1080/02640410600552064](https://doi.org/10.1080/02640410600552064).
-- Laforgia, J., R. T. Withers, N. J. Shipp, og C. J. Gore. 1997. “Comparison of energy expenditure elevations  after submaximal and supramaximal running”. _Journal of Applied Physiology_ 82 (2): 661–66. [https://doi.org/10.1152/jappl.1997.82.2.661](https://doi.org/10.1152/jappl.1997.82.2.661).
+- Laforgia, J., R. T. Withers, N. J. Shipp, og C. J. Gore. 1997. “Comparison of energy expenditure elevations after submaximal and supramaximal running”. _Journal of Applied Physiology_ 82 (2): 661–66. [https://doi.org/10.1152/jappl.1997.82.2.661](https://doi.org/10.1152/jappl.1997.82.2.661).
 - Skelly, Lauren E., Patricia C. Andrews, Jenna B. Gillen, Brian J. Martin, Michael E. Percival, og Martin J. Gibala. 2014. “High-Intensity Interval Exercise Induces 24-h Energy Expenditure Similar to Traditional Endurance Exercise despite Reduced Time Commitment”. _Applied Physiology, Nutrition, and Metabolism = Physiologie Appliquee, Nutrition Et Metabolisme_ 39 (7): 845–48. [https://doi.org/10.1139/apnm-2013-0562](https://doi.org/10.1139/apnm-2013-0562).
 - Tabata, I., K. Nishimura, M. Kouzaki, Y. Hirai, F. Ogita, M. Miyachi, og K. Yamamoto. 1996. “Effects of Moderate-Intensity Endurance and High-Intensity Intermittent Training on Anaerobic Capacity and VO2max”. _Medicine and Science in Sports and Exercise_ 28 (10): 1327–30. [https://doi.org/10.1097/00005768-199610000-00018](https://doi.org/10.1097/00005768-199610000-00018).
 - Talanian, Jason L., Stuart D. R. Galloway, George J. F. Heigenhauser, Arend Bonen, og Lawrence L. Spriet. 2007. “Two Weeks of High-Intensity Aerobic Interval Training Increases the Capacity for Fat Oxidation during Exercise in Women”. _Journal of Applied Physiology (Bethesda, Md.: 1985)_ 102 (4): 1439–47. [https://doi.org/10.1152/japplphysiol.01098.2006](https://doi.org/10.1152/japplphysiol.01098.2006).
 - Trapp, E. G., D. J. Chisholm, J. Freund, og S. H. Boutcher. 2008. “The Effects of High-Intensity Intermittent Exercise Training on Fat Loss and Fasting Insulin Levels of Young Women”. _International Journal of Obesity (2005)_ 32 (4): 684–91. [https://doi.org/10.1038/sj.ijo.0803781](https://doi.org/10.1038/sj.ijo.0803781).
 - Tremblay, A., J. A. Simoneau, og C. Bouchard. 1994. “Impact of Exercise Intensity on Body Fatness and Skeletal Muscle Metabolism”. _Metabolism: Clinical and Experimental_ 43 (7): 814–18. [https://doi.org/10.1016/0026-0495(94)90259-3](https://doi.org/10.1016/0026-0495(94)90259-3).
 - Williams, Cameron B., Jason G. E. Zelt, Laura N. Castellani, Jonathan P. Little, Mary E. Jung, David C. Wright, Michael E. Tschakovsky, og Brendon J. Gurd. 2013. “Changes in Mechanisms Proposed to Mediate Fat Loss Following an Acute Bout of High-Intensity Interval and Endurance Exercise”. _Applied Physiology, Nutrition, and Metabolism = Physiologie Appliquee, Nutrition Et Metabolisme_ 38 (12): 1236–44. [https://doi.org/10.1139/apnm-2013-0101](https://doi.org/10.1139/apnm-2013-0101).
+</summary>

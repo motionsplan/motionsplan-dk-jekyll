@@ -1,5 +1,5 @@
 ---
-title: "Sprint med vægt"
+title: &title "Sprint med vægt"
 excerpt: "Sprint så hurtigt du kan frem og tilbage mellem to markeringer. Du starter med en vægt i hånden. Læg vægten ved markeringen. Sprint tomhændet tilbage. Saml vægten op igen næste gang du kommer forbi."
 instructions: "Sprint så hurtigt du kan frem og tilbage mellem to markeringer. Du starter med en vægt i hånden. Læg vægten ved markeringen. Sprint tomhændet tilbage. Saml vægten op igen næste gang du kommer forbi."
 permalink: /oevelse/sprint/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/sprint-0.jpg
   teaser: /assets/images/exercises/sprint-0-320.jpg
+  caption: *title
 tags:
   - Kondition og puls
   - helkropsøvelse
@@ -29,19 +30,19 @@ gallery:
   - url: /assets/images/exercises/sprint-0.jpg
     image_path: /assets/images/exercises/sprint-0-320.jpg
     alt: "Sprint med vægt"
-    title: "Sprint med vægt"
+    title: &title "Sprint med vægt"
   - url: /assets/images/exercises/sprint-1.jpg
     image_path: /assets/images/exercises/sprint-1-320.jpg
     alt: "Sprint med vægt"
-    title: "Sprint med vægt"
+    title: &title "Sprint med vægt"
   - url: /assets/images/exercises/sprint-2.jpg
     image_path: /assets/images/exercises/sprint-2-320.jpg
     alt: "Sprint med vægt"
-    title: "Sprint med vægt"
+    title: &title "Sprint med vægt"
   - url: /assets/images/exercises/sprint-3.jpg
     image_path: /assets/images/exercises/sprint-3-320.jpg
     alt: "Sprint med vægt"
-    title: "Sprint med vægt"
+    title: &title "Sprint med vægt"
 last_modified_at: 2013-10-03T11:04:45Z
 ---
 

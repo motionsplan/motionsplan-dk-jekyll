@@ -1,5 +1,5 @@
 ---
-title: "Baglår på swissbold"
+title: &title "Baglår på swissbold"
 excerpt: "Start med hælene på bolden og ryggen på gulvet og strakte ben. Fra denne position trækker du bolden ind under dig. Du kan lave øvelsen både med et eller to ben."
 instructions: "Start med hælene på bolden og ryggen på gulvet og strakte ben. Fra denne position trækker du bolden ind under dig. Du kan lave øvelsen både med et eller to ben."
 permalink: /oevelse/baglaar-paa-swissbold/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/baglaar-paa-swissbold-0.jpg
   teaser: /assets/images/exercises/baglaar-paa-swissbold-0-320.jpg
+  caption: *title
 tags:
   - Kropsstamme
 categories:
@@ -21,11 +22,11 @@ gallery:
   - url: /assets/images/exercises/baglaar-paa-swissbold-0.jpg
     image_path: /assets/images/exercises/baglaar-paa-swissbold-0-320.jpg
     alt: "Baglår på swissbold"
-    title: "Baglår på swissbold"
+    title: &title "Baglår på swissbold"
   - url: /assets/images/exercises/baglaar-paa-swissbold-1.jpg
     image_path: /assets/images/exercises/baglaar-paa-swissbold-1-320.jpg
     alt: "Baglår på swissbold"
-    title: "Baglår på swissbold"
+    title: &title "Baglår på swissbold"
 video:
   provider: vimeo
   id: 5016905

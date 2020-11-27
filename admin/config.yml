@@ -4,11 +4,12 @@ backend:
   name: github
   repo: motionsplan/motionsplan-dk-jekyll
   branch: master # Branch to update (optional; defaults to master)
-  ## api_root: https://api.github.com
+  api_root: https://api.github.com
+  site_domain: motionsplan.netlify.app
   base_url: https://api.netlify.com
-  site_domain: motionsplan.dk
-  ## auth_endpoint: auth
+  auth_endpoint: auth
   cms_label_prefix: netlify-cms/
+  open_authoring: true
 
 media_folder: "assets/images/uploads" # Media files will be stored in the repo under images/uploads
 
@@ -17,6 +18,9 @@ display_url: https://www.motionsplan.dk
 logo_url: https://www.motionsplan.dk/android-chrome-192x192.png
 
 show_preview_links: false
+
+editor:
+  preview: false
 
 publish_mode: editorial_workflow
 
@@ -34,7 +38,7 @@ collections:
     view_filters:
       - label: "Jesper"
         field: author
-        pattern: "jesper.emil.jacobsgaard"
+        pattern: "jesper.emil.jakobsgaard"
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - label: Header
@@ -80,7 +84,58 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Alt", name: "alt", widget: "string"}
           - {label: "Image", name: "image_path", widget: "string"}
-          - {label: "Url", name: "url", widget: "string"}          
+          - {label: "Url", name: "url", widget: "string"}
+  - name: "pages" # Used in routes, e.g., /admin/collections/blog
+    label: "Sider" # Used in the UI
+    folder: "_pages/" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - label: Header
+        name: header
+        widget: object
+        collapsed: true
+        required: false
+        fields:
+          - {label: "Overlay Image", name: "overlay_image", widget: "string"}
+          - {label: "Teaser Image", name: "teaser", widget: "string"}
+          - {label: "Caption", name: "caption", widget: "string"}
+          - label: Actions
+            name: actions
+            widget: list
+            collapsed: true
+            required: false
+            fields:
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "Url", name: "url", widget: "string"}
+      - {label: "Category", name: "category", widget: "list", allow_add: true}
+      - {label: "Tags", name: "tags", widget: "list", allow_add: true}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - label: Feature row
+        name: feature_row
+        widget: list
+        collapsed: true
+        required: false
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Image", name: "image_path", widget: "string"}
+          - {label: "Alt", name: "alt", widget: "string"}
+          - {label: "Exerpt", name: "excerpt", widget: "text"}
+          - {label: "Url", name: "url", widget: "string"}
+          - {label: "Btn label", name: "btn_label", widget: "string"}
+          - {label: "Btn class", name: "btn_class", widget: "select", options: ["btn--success", "btn--warning", "btn--danger", "btn--info"], default: "btn--success"}
+      - {label: "Last modified at", name: "last_modified_at", widget: "datetime", format: "YYYY-MM-DDThh:mm:ssZ", dateFormat: "dd-MM-YYYY", timeFormat: "HH:mm", required: false}
+      - label: Gallery
+        name: gallery
+        widget: list
+        collapsed: true
+        required: false
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Alt", name: "alt", widget: "string"}
+          - {label: "Image", name: "image_path", widget: "string"}
+          - {label: "Url", name: "url", widget: "string"}
   - name: "exercises" # Used in routes, e.g., /admin/collections/blog
     label: "Exercises" # Used in the UI
     folder: "_exercises/" # The path to the folder where the documents are stored
@@ -133,6 +188,8 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Latin", name: "latin", widget: "string"}
+      - {label: "Group", name: "group", widget: "select", options: ["Ben", "Hofte", "Ryg", "Skulder", "Arme"], default: "", multiple: true}
+      - {label: "Led", name: "joint", widget: "select", options: ["Fodleddet", "Knæleddet", "Hofteleddet", "Rygsøjlen", "Skulderbladet", "Skulderleddet", "Albueleddet", "Håndleddet"], default: "", multiple: true}
       - {label: "Excerpt", name: "excerpt", widget: "text",  required: false, collapsed: true}
       - {label: "Tags", name: "tags", widget: "list", allow_add: true}
       - label: Function

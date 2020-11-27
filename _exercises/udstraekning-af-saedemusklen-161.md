@@ -1,5 +1,5 @@
 ---
-title: "Udstrækning af sædemusklen"
+title: &title "Udstrækning af sædemusklen"
 excerpt: "Udstrækning af sædemusklen siddende på gulvet."
 instructions: "Udstrækning af sædemusklen siddende på gulvet."
 permalink: /oevelse/udstraekning-af-saedemusklen/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/udstraekning-af-saedemusklen-0.jpg
   teaser: /assets/images/exercises/udstraekning-af-saedemusklen-0-320.jpg
+  caption: *title
 tags:
   - Strækøvelser
   - hoftedomineret
@@ -25,7 +26,7 @@ gallery:
   - url: /assets/images/exercises/udstraekning-af-saedemusklen-0.jpg
     image_path: /assets/images/exercises/udstraekning-af-saedemusklen-0-320.jpg
     alt: "Udstrækning af sædemusklen"
-    title: "Udstrækning af sædemusklen"
+    title: &title "Udstrækning af sædemusklen"
 last_modified_at: 2014-10-12T19:08:51Z
 ---
 

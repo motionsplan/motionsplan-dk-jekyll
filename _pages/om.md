@@ -7,7 +7,7 @@ author_profile: true
 toc: true
 ---
 
-Motionsplan ejes og drives af Lars Olesen (chefudvikler og chefredaktør). Der er tilknyttet en række freelance-journalister til at hjælpe med det redaktionelle stof. Vi:
+Motionsplan ejes og drives af Lars Olesen (chefudvikler og chefredaktør). Der er tilknyttet en række freelance-journalister til at hjælpe med det redaktionelle stof.
 
 Lars Olesen er cand.scient. og har læst Sundhed og Idræt på Syddansk Universitet. Siden da har han undervist i 20 år i bl.a. fitnessinstruktør, test og træning og idræt på Vejle Idrætshøjskole.
 

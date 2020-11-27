@@ -1,5 +1,5 @@
 ---
-title: "Skulderpres, maskine"
+title: &title "Skulderpres, maskine"
 excerpt: "Sæt dig med ryggen mod sædet og tag fat i håndtagene. Løft vægten op i strakte arme og sænk kontrolleret igen."
 instructions: "Sæt dig med ryggen mod sædet og tag fat i håndtagene. Løft vægten op i strakte arme og sænk kontrolleret igen."
 permalink: /oevelse/skulderpres/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/skulderpres-0.jpg
   teaser: /assets/images/exercises/skulderpres-0-320.jpg
+  caption: *title
 tags:
   - maskine
 categories:
@@ -21,15 +22,15 @@ gallery:
   - url: /assets/images/exercises/skulderpres-0.jpg
     image_path: /assets/images/exercises/skulderpres-0-320.jpg
     alt: "Skulderpres, maskine"
-    title: "Skulderpres, maskine"
+    title: &title "Skulderpres, maskine"
   - url: /assets/images/exercises/skulderpres-1.jpg
     image_path: /assets/images/exercises/skulderpres-1-320.jpg
     alt: "Skulderpres, maskine"
-    title: "Skulderpres, maskine"
+    title: &title "Skulderpres, maskine"
   - url: /assets/images/exercises/skulderpres-2.jpg
     image_path: /assets/images/exercises/skulderpres-2-320.jpg
     alt: "Skulderpres, maskine"
-    title: "Skulderpres, maskine"
+    title: &title "Skulderpres, maskine"
 last_modified_at: 2011-04-16T07:08:09Z
 ---
 

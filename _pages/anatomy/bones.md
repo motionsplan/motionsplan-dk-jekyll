@@ -18,18 +18,22 @@ sidebar:
 
 Skelettet består af knogler. Jeg beskriver her lidt om anatomi og de forskellige knogler i kroppen. Knoglerne i menneskekroppen findes i forskellige knogletyper. Jeg kommer ind på rørknogler, uregelmæssige knogler, flade knogler og korte knogler. 
 
-{% comment %}
+## Hvad er skelettet og knoglernes funktion?
 
-Knoglerne afstiver kroppen og agerer vægtstænger for musklerne. Desuden beskytter knoglerne i menneskekroppen de vigtige organer.
-
-{% include figure image_path="/assets/images/anatomy/skeleton.png" caption="Skelettet består af knogler. Knoglerne afstiver kroppen og agerer vægtstænger for musklerne. Desuden beskytter knoglerne de vigtige organer." alt="Skelettet består af knogler. Knoglerne afstiver kroppen og agerer vægtstænger for musklerne. Desuden beskytter knoglerne de vigtige organer." %}
-
-Skelettet består af 206 knogler i kroppen for voksne. Jeg har skrevet et andet indlæg, der besvarer spørgsmålet: "[Hvad vejer skelettet og knoglerne?]({% link _posts/2020-05-31-hvad-vejer-skelettet.md %})".
-
-Knoglerne har to primære funktioner:
+Skelettets og knoglernes funktion er at være et stativ for mennesket. Skelettets knogler giver stabilitet og stivhed i kroppen. Skelettet har tre primære opgaver:
 
 - **Støttesystem** for resten af kroppen.
-- **Beskyttelse af indre organer**. Fx beskytter ribbenene lungerne og hjertet; kraniet beskytter hjernen; rygsøjlen skærmer nervesystemet.
+- **Beskyttelse**: Skelettet beskytter de vigtige organer, som fx lungerne, hjertet, hjernen og nervesystemet.
+- **Bevægelse**: Knoglerne er fæstnet i leddene, og derfor er skelettet udgangspunkt for bevægelser, når musklerne trækker sig sammen. 
+- **Deponering**: Skelettet er depot for kroppens mineraler, og i de store knogler produceres de røde blodceller.
+
+Skelettet består af 206 knogler i kroppen for voksne. Jeg har skrevet et indlæg, der besvarer spørgsmålet "[Hvor mange knogler har mennesket?]({% link _posts/2020-05-31-hvor-mange-knogler-har-mennesket.md %})" og et andet indlæg, der besvarer spørgsmålet: "[Hvad vejer skelettet og knoglerne?]({% link _posts/2020-05-31-hvad-vejer-skelettet.md %})".
+
+Knoglerne afstiver kroppen, og i forbindelse med idræt og træning, så er de interessante, fordi knoglerne er vægtstænger for [musklerne]({% link _pages/anatomy/muscles.md %}). Knoglerne og [leddene]({% link _pages/anatomy/joints.md %}) er altså grundlaget for bevægelse. 
+
+{% include figure image_path="/assets/images/anatomy/skeleton.png" caption="Skelettet består af knogler. Knoglerne er delt op i forskellige knogletyper, fx rørknogler, uregelmæssige knogler, flade knogler og korte knogler." alt="Skelettet består af knogler. Knoglerne er delt op i forskellige knogletyper, fx rørknogler, uregelmæssige knogler, flade knogler og korte knogler." %}
+
+{% comment %}
 
 Knoglevævet er en levende struktur, som består af levende celler i et tæt netværk. Knoglerne består bl.a. af mineralerne kalcium, fosfat og hydroxyapatit.
 
@@ -45,35 +49,35 @@ Knoglerne er beklædt med en tynd benhinde, som kan danne nye knogleceller indve
 
 Knoglernes primære funktion er at være tilhæftningssted for musklerne, og aktivitet påvirker knoglernes udformning. Knoglerne vokser i længden i epifyserne, som findes i hver ende af knoglen. Efter puberteten stopper væksten.
 
+{% endcomment %}
+
 ## Knogletyper i menneskekroppen
 
-Skelettet består af 206 knogler og udgør ca. 14-18% af din kropsvægt. Den længste og tungeste knogle er lårknoglen, der hos en mand på 70 kg vejer ca. 1 kg. Jeg har brugt tid på at researche, [hvad knogler vejer](/hvad-vejer-skelettet/), hvis du har lyst til at dykke mere ned i det emne.
+Skelettet består af 206 knogler og udgør ca. 14-18% af din kropsvægt. Den længste og tungeste knogle er lårknoglen, der hos en mand på 70 kg vejer ca. 1 kg. Jeg har brugt tid på at researche, [hvad knogler vejer](/hvad-vejer-skelettet/), og jeg har også skrevet et mere udførligt indlæg om [hvor mange knogler mennesket har]({% link _posts/2020-05-31-hvor-mange-knogler-har-mennesket.md %}).
 
-Knogler kan opdeles i 4 grupper:
+Knogler kan opdeles i fire forskellige knogletyper:
 
-- **Rørknogler**. Rørknoglernes form gør dem velegnede til at danne arme og ben. Opbygningen i røret giver knoglerne en relativ stor brudstyrke med begrænset vægt. Fx arme, ben, fingre, mellemhåndsknogler.
-- **Flade knogler**. De flade knogler danner kroppens hulrum. Fx skulderblad, ribben, bækkenet.
+- **Rørknogler**. Rørknoglernes form gør dem velegnede til at danne arme, ben og fingre og tæer. Den måde røret er opbygget på, giver rørknoglerne relativ stor brudstyrke med en begrænset vægt. Rørknoglerne findes fx arme, ben, fingre, mellemhåndsknogler.
+- **Flade knogler**. De flade knogler er med til at danne kroppens hulrum. De flade knogler er fx skulderbladene, ribben og bækkenet.
 - **Korte knogler**. De korte knogler er fx håndrodens knogler og fodrodens knogler.
 - **Uregelmæssige knogler**. De uregelmæssige knogler er fx rygsøjlens knogler.
 
 {% include figure image_path="https://vignette.wikia.nocookie.net/humanbiologi/images/e/e4/0607.jpg/revision/latest?cb=20110618173735&path-prefix=da" caption="Knogletyper i menneskekroppen: rørknogler, flade knogler, korte knogler og uregelmæssige knogler" alt="Knogletyper: rørknogler, flade knogler, korte knogler og uregelmæssige knogler" %}
 
-## Knogler i kroppen
+## Oversigt over knogler i kroppen
 
-- Rygsøjlen (columna vertebralis)
-- Kranium (cranium)
-- Kravebenet (clavicula)
-- Skulderbladene (scapula)
-- Brystbenet (sternum)
-- Overarmsknoglen (humerus)
-- Ribben (costa)
-- Hvirvler i rygsøjlen (vertebrae)
-- Albueben (ulna)
-- Spoleben (radius)
-- Bækken (pelvis)
-- Lårben (femur)
-- Knæskallen (patella)
-- Skinnebenet (tibia)
-- Lægbenet (fibula)
+{% include table-bones.html %}
 
-{% endcomment %}
+## Artikler om knogler og knogletyper
+
+<div class="feature__wrapper">
+
+{% assign site_posts = site.posts | where: "tags", "knogler" | sort: "last_modified_at" | reverse %}
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts limit:16 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>

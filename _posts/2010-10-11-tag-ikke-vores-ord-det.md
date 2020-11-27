@@ -46,7 +46,7 @@ En videnskabelig artikel har næsten altid denne opbygning.
 - **Sidste linjer i abstractet**. Jeg skimmer abstractet, men fokuserer lidt mere på de sidste par linjer for at få en fornemmelse af konklusionen i artiklen.
 - **Konklusion**. Derefter springer jeg til det allersidste afsnit i den videnskabelige artikel for at læse lidt mere uddybende om konklusionen. Afsnittet starter næsten altid med "In summary..." eller "In conclusion..."
 - **Abstractet**. Herefter kan du læse hele abstractet lidt mere grundigt for at få et indblik i metoder og resultater.
-- Hvis du stadig synes artiklen og stuidet ser spændendeus, så kan du læse hele artiklen.
+- Hvis du stadig synes artiklen og studiet ser spændende ud, så kan du læse hele artiklen.
 
 ## Hvordan vurderer vi de videnskabelige artikler?
 
@@ -64,11 +64,23 @@ Kausal sammenhæng?
 
 Hvilke kriterier kigger I efter, når I forsøger at tilegne jer viden?
 
+## Videnskabelige evidenshierarki
+
+{% include figure image_path="https://www.researchgate.net/profile/Eric_Bass/publication/257072438/figure/fig1/AS:601614754791432@1520447543566/Evidence-based-medicine-pyramid-The-levels-of-evidence-are-appropriately-represented-by.png" caption="Evidenspyramiden. Kilde: [Golden og Bass (2013)](https://www.researchgate.net/publication/257072438_Validity_of_Meta-analysis_in_Diabetes_Meta-analysis_Is_an_Indispensable_Tool_in_Evidence_Synthesis)." %}
+
+## Hvad er reliabilitet og validitet?
+
+{% include figure image_path="https://analyseskolen.dk/wp-content/uploads/2019/11/reliabilitet-validitet.jpg" caption="Validitet og reliabilitet. Kilde: [analyseskolen.dk](https://analyseskolen.dk/validitet-og-reliabilitet/)" %}
+
+Du kan lære lidt mere om reliabilitet og validitet i denne video. Videoen forklarer det ganske vist ud fra et samfundsvidenskabeligt perspektiv, men begreberne validtet og reliabilitet skal forstås på samme måde.
+
+{% include video provider="youtube" id="12Bi-VOhpxA" %}
+
 ## Hvad er korrelation og kausalitet
 
 **Korrelation** betyder, at der er en sammenhæng mellem ændringerne i to størrelser, men det kan være helt tilfældigt.
 
-**Kausalitet** betyder, at der er en årsagssammenhæng. Det betyder at en ting påvirker en anden ting..
+**Kausalitet** betyder, at der er en årsagssammenhæng. Det betyder at en ting påvirker en anden ting.
 
 Hvis ikke man kan skelne mellem korrelation og kausalitet, kan man hurtigt få fejltolket en statistik:
 
@@ -93,3 +105,22 @@ Endelig en af de helt berømte eksempler på korrelationer er [korrelationen mel
 Korrelation bliver ofte forvekslet med kausalitet i medierne og i fitnessmiljøet. Når man laver fejlfortolkninger, så kan det ende med at specifikke næringsstoffer eller fødevarer bliver gjort til uretmæssig syndebuk - tag bare et kig på sukker, kulhydrater og mælkeprodukter. Men det gælder også årsagssammenhænge i forhold til folks vægt og sindstilstand.
 
 Selvom to datasæt og statistikker følges af, så betyder det ikke nødvendigvis at den ene ting forårsager den anden del.
+
+## Hvad er sammenhængen mellem korrelationskvotienten (r) og r<sup>2</sup>?
+
+R
+: R er korrelationskvotienten mellem fx x og y, og den ligger mellem -1 og 1. Hvis x og y er perfekt korreleret vil den ligge på enten 1 eller -1. Hvis der ikke er nogen sammenhæng mellem x og y vil den ligge på 0. 
+
+Korrelationskvotienten giver kun mening for en simpel linær model. Hvis der er flere uafhængige variable, så kan man bruge R<sup>2</sup>.
+
+R<sup>2</sup>
+: R<sup>2</sup> kaldees også **forklaringsgraden** eller **determinationskoefficientet**. R<sup>2</sup> er ganske enkelt R ganget med sig selv. R<sup>2</sup> kan være mellem 0 og 1. Når den er tættere på 1, så er der en højere korrelation end når den nærmer sig 0.
+
+R<sup>2</sup> er altså mere brugbar end R, da den også kan bruges til multivariate modeller.
+
+Du skal imidlertid være [varsom med at overfortolke R<sup>2</sup>](https://emu.dk//sites/default/files/2019-02/Brugen%20af%20R2%20i%20gymnasiet%20Ekstr%c3%b8m%20Hansen%20Brockhoff%20%202017.pdf). R<sup>2</sup>-værdien må aldrig stå alene. Den skal stå sammen med fx en visualisering af data.
+
+Der findes _ingen_ meningsfulde globae kriterier for acceptable R<sup>2</sup>-værdier på tværs af fagområder, og man skal være meget opmærksom på ikke at misfortolke høje R<sup>2</sup>-værdier som kausalitet.
+
+σ
+: **Spredningen** eller **residualspredningen** kan være med til at kvalificere sammenhængen. **Spredningen udtrykker den gennemsnitlige lodrette afstand til datapunkterne fra modellinjen.

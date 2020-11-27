@@ -1,41 +1,20 @@
 ---
-title: "Træning 40+: Hvordan kan min træning se ud efter de 40 år"
+title: &title "Træning 40+: Hvordan kan min træning se ud efter de 40 år"
 permalink: /traening-40-plus/
 language: da
 header:
   overlay_image: https://images.unsplash.com/flagged/photo-1556895368-9d1eed826c58?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1967&q=80
   teaser: https://images.unsplash.com/flagged/photo-1556895368-9d1eed826c58?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
-  caption: Photo by Taco Fleur on Unsplash
+  alt: Photo by Taco Fleur on Unsplash
+  caption: *title
 category:
   - Viden om
+  - Træning
 tags:
-  - anatomi
   - fysiologi
   - muskler
 last_modified_at: 2020-06-11T08:14:14Z
 toc: true
-feature_row:
-  - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/1000x/9df78eab33525d08d6e5fb8d27136e95/a/n/anatomisk-guide-til-bevaegeapparatet-9788777499104-andrew-biel-gitte-bjerg-fuusager.jpg
-    alt: "Anatomisk Guide til Bevægeapparatet"
-    title: "Anatomisk Guide til Bevægeapparatet"
-    excerpt: "En praktisk guide til lokalisering af muskler, knogler med mere. Før du kan få succes med at undersøge og behandle bevægeapparatet, er du nødt til først at kende dets opbygning og kunne lokalisere de relevante strukturer."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/anatomisk-guide-til-bevaegeapparatet-9788777499104"
-    btn_label: "Læs mere hos Den Intelligente Krop"
-    btn_class: "btn--success"
-  - image_path: https://cdn5.bogreolen.dk/thumbnail/300x0/00002/73191/cover.20160911.jpg
-    alt: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
-    title: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
-    excerpt: "Menneskekroppen - anatomi, fysiologi og sygdomme er et anatomisk atlas til mennesket i det 21. århundrede. Gennem de computergenererede 3d-billeder og fantastiske illustrationer kan man opleve menneskekroppen i hidtil uset detaljegrad og skønhed."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://bogreolen.dk/menneskekroppen_steve-parker_9788756784436"
-    btn_label: "Læs mere hos Bogreolen"
-    btn_class: "btn--success"
-  - image_path: https://imgcdn.saxo.com/_9788762809000/0x500
-    alt: "Bevægeapparatets anatomi"
-    title: "Bevægeapparatets anatomi"
-    excerpt: "Når man skal lære om anatomi er det selvsagt en fordel med gode lærebøger, og her er “Bevægeapparatets anatomi” en absolut klassiker. Bag lærebogen står forfatterne Finn Bojsen Møller, Jan Hejle, Erik Bruun Simonsen, Jørgen Tranum-Jensen. De kombinerer viden om almen anatomi med information om hvordan man forebygger, undersøger, behandler, træner og genoptræner."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/bevaegeapparatets-anatomi_joergen-tranum-jensen_indbundet_9788762809000"
-    btn_label: "Læs mere hos Saxo"
-    btn_class: "btn--success"
 ---
 
 Jeg er blevet over 40 år, og derfor synes jeg det er interessant at dykke lidt ned i, hvordan kroppen har ændret sig, og hvordan jeg bør træne. 
@@ -82,9 +61,11 @@ Du kan godt få større muskler, selvom det er lidt vanskeligere pga. det nedsat
 
 Hvis du gerne vil gennemføre et maraton-løb, så skal du nok fokusere mest på den kardiovaskulære konditionstræning.
 
-Uanset hvad dine mål er, så vil jeg anbefale at man inkluderer både kredsløbstræning og styrketræning. På den måde bliver du en mere fuldendt atlet.
+Uanset hvad dine mål er, så vil jeg anbefale, at man inkluderer både kredsløbstræning og styrketræning. På den måde bliver du en mere fuldendt atlet.
 
 Når du kombinerer kredsløbstræningen og vægttræningen høster du fordele af begge træningsformer. Her har vi beskrevet fordelene ved de forskellige typer træning. Disse fordele er naturligvis ikke unikke fordi du er 40 år, men fordele alle mennesker får ved træningsformerne.
+
+Thomas Jagd har kigget lidt på de [primære fordele ved styrketræning og kredsløbstræning i forhold til at træne, når alderen er ved at indhente en](https://www.bodylab.dk/shop/traening-efter-de-2056c1.html).
 
 ## De primære fordele ved styrketræning
 

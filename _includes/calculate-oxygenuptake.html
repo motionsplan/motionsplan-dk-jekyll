@@ -2,20 +2,23 @@
     <fieldset>
         <legend>Beregning af kondital (ml O<sub>2</sub>/kg/min)</legend>
         <div class="form-group">
-            <label>Vægt (kg)</label>
-            <input type="number" name="fitness_weight" placeholder="kg" step="0.1">
+            <label>Vægt (kg)
+                <input type="number" name="fitness_weight" placeholder="kg" step="0.1" required>
+            </label>
         </div>
         <div class="form-group">
-            <label>Iltoptagelse (l O<sub>2</sub>/min)</label>
-            <input type="number" name="fitness_oxygenuptake" placeholder="l/min" step="0.01">
+            <label>Iltoptagelse (l O<sub>2</sub>/min)
+                <input type="number" name="fitness_oxygenuptake" placeholder="l/min" step="0.01" required>
+            </label>
         </div>
         <input type="submit" value="Beregn">
     </fieldset>
     <fieldset class="results">
         <legend></legend>
         <div class="form-group">
-            <label>Kondital (ml O<sub>2</sub>/kg/min)</label>
-            <input type="text" id="fitness_level" name="fitness_level" disabled="disabled" class="input-small">
+            <label>Kondital (ml O<sub>2</sub>/kg/min)
+                <input type="text" id="fitness_level" name="fitness_level" disabled class="input-small">
+            </label>
         </div>
     </fieldset>
 </form>

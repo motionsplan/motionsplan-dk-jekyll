@@ -47,8 +47,7 @@ Derfor vejer en liter muskel 1,06 kilo, mens en liter fedtvæv vejer 0,9 kg. Man
 | Knogler | 1,850 g / cm<sup>3</sup> | 1,850 kg       |
 | Vand | 1,000 g / cm<sup>3</sup> | 1,00 kg       |
 
-
-Massefylde er forholdet mellem et stofs masse og dets rumfang. Vand har massefylden 997 kg/m<sup>3</sup>. Du har sikkert set, hvordan fedt lægger sig oven på vand, hvis du blander dem sammen. Det er fordi de har lavere massefylde.
+Massefylde er forholdet mellem et stofs masse og dets rumfang. Vand har massefylden 997 kg/m<sup>3</sup>. Du har sikkert set, hvordan fedt lægger sig oven på vand, hvis du blander dem sammen. Det er fordi fedt har lavere massefylde end vand.
 
 ## Hvor meget fylder muskler og fedt?
 

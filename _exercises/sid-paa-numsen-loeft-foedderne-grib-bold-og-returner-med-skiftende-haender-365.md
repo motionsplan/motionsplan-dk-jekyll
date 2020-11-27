@@ -1,5 +1,5 @@
 ---
-title: "Sid på numsen, løft fødderne, grib bold og returner."
+title: &title "Sid på numsen, løft fødderne, grib bold og returner."
 excerpt: " Sid på numsen, løft fødderne fri af gulvet. En makker kaster en bold til dig, som du griber og returnerer. Du kan lave en regel om at du skal gribe bolden skiftevis med højre og venstre hånd. 
 
 Den behøver ikke blive kastet til den hånd der skal gribe den. Der må gerne være krydsbevægelser."

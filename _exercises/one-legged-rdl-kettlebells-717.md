@@ -1,5 +1,5 @@
 ---
-title: "One legged RDL with kettlebells"
+title: &title "One legged RDL with kettlebells"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/one-legged-rdl-kettlebells/

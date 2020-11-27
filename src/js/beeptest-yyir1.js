@@ -67,8 +67,6 @@ motionsplan.YYIR1 = function(level, shuttles) {
             else if (normdistance >= male[6][ageGroup]) {
                 return "Poor";
             }
-
-
         }
         else {
 
@@ -103,12 +101,10 @@ motionsplan.YYIR1 = function(level, shuttles) {
             else if (normdistance >= female[6][ageGroup]) {
                 return "Poor";
             }
-
         }
-
     }
 
-    var publicAPI = {
+    let publicAPI = {
         getDistance: getDistance,
         getEvaluation: getEvaluation,
         getFitnessLevel: getFitnessLevel
@@ -116,6 +112,6 @@ motionsplan.YYIR1 = function(level, shuttles) {
     };
 
     return publicAPI;
-}
+};
 
 module.exports = motionsplan;

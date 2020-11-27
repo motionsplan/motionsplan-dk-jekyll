@@ -1,5 +1,5 @@
 ---
-title: "Prowler"
+title: &title "Prowler"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/prowler/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/prowler-0.jpg
   teaser: /assets/images/exercises/prowler-0-320.jpg
+  caption: *title
 tags:
   - Helkropsøvelse
   - Kondition
@@ -40,11 +41,11 @@ gallery:
   - url: /assets/images/exercises/prowler-0.jpg
     image_path: /assets/images/exercises/prowler-0-320.jpg
     alt: "Prowler"
-    title: "Prowler"
+    title: &title "Prowler"
   - url: /assets/images/exercises/prowler-1.jpg
     image_path: /assets/images/exercises/prowler-1-320.jpg
     alt: "Prowler"
-    title: "Prowler"
+    title: &title "Prowler"
 last_modified_at: 2016-01-11T08:39:24Z
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Watt max-test: Find konditallet med watt max testen på cykel"
 permalink: /kondital-wattmax/
-excerpt: "Watt max-testen er en trinvist stigende maksimal test på ergometercykel. Watt-max-testens kan bruges til at estimere din maksimale iltoptagelse og dit kondital - eller du kan bruge Watt-max-testen som et præstationsmål i sig selv."
+excerpt: "Watt max-testen er en trinvist stigende maksimal test på ergometercykel. Watt-max-testen kan bruges til at estimere din maksimale iltoptagelse og dit kondital - eller du kan bruge Watt-max-testen som et præstationsmål i sig selv."
 language: da
 header:
   overlay_image: https://prod-wattbike-images.s3.amazonaws.com/images/Wattbike4059_edit-(2)-ecffa30a11c87543.jpg
@@ -14,6 +14,7 @@ tags:
   - cykel
   - maksimal test
   - indirekte test
+  - cykeltest
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 feature_row:
@@ -35,6 +36,9 @@ Watt max-testen er enkel at gennemføre. Testen kræver, at du har adgang til en
 
 Hvis du er på udkig efter [Wattmax-testen til børn, så er den beskrevet i et andet indlæg]({% link _posts/2019-10-31-kondital-watt-max-children-test.md %}).
 
+Jeg læste første gang om Wattmax-testen i denne [artikel af Morten Zacho](http://web.archive.org/web/20110606131920/http://www.motion-online.dk/konditionstraening/testning/watt-max_test/){:rel="nofollow"}
+{: .notice .notice--info }
+
 ## Watt max-testens gennemførelse
 
 1. Start med at veje dig.
@@ -55,7 +59,9 @@ Wattmax-testen er udviklet af Andersen (1995). I studiet blev 232 mænd og 303 k
 
 Det er altså en relativt høj korrelation, hvilket fik Andersen (1995) til at konkludere, at wattmax-testen kan bruges til at estimere den maksimale iltoptagelse.
 
-Energiforbruget ved forskellige arbejdsbelastninger er relativt konsistent mellem forskellige individer, fordi man kan forvente at personer, der træder samme antal watt har samme iltoptagelse. Derfor kan VO<sub>2</sub>-max estimeres ved den højeste arbejdsbelastning, forsøgspersonen kan køre med.
+Energiforbruget ved forskellige arbejdsbelastninger er relativt konsistent mellem forskellige individer. Derfor kan man forvente, at personer, der træder samme antal watt har samme nogenlunde samme iltoptagelse.
+
+Derfor kan VO<sub>2</sub>-max estimeres ved den højeste arbejdsbelastning, forsøgspersonen kan køre med.
 
 Testen er baseret på, at gennemførelsen af intervallerne primært er afhængig af aerob energifrigørelse. 
 

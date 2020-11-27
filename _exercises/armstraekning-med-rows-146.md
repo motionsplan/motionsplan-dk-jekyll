@@ -1,5 +1,5 @@
 ---
-title: "Armstrækning, med rows"
+title: &title "Armstrækning, med rows"
 excerpt: "Hold en håndvægt i hver hånd og støt på hænderne og tæerne. Lav en armstrækning. Når du har strakte arme, trækker du en af håndvægtene op fra gulvet. Skift."
 instructions: "Hold en håndvægt i hver hånd og støt på hænderne og tæerne. Lav en armstrækning. Når du har strakte arme, trækker du en af håndvægtene op fra gulvet. Skift."
 permalink: /oevelse/armstraekning-med-rows/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/armstraekning-med-rows-0.jpg
   teaser: /assets/images/exercises/armstraekning-med-rows-0-320.jpg
+  caption: *title
 tags:
   - Pres
   - håndvægte
@@ -23,27 +24,27 @@ gallery:
   - url: /assets/images/exercises/armstraekning-med-rows-0.jpg
     image_path: /assets/images/exercises/armstraekning-med-rows-0-320.jpg
     alt: "Armstrækning, med rows"
-    title: "Armstrækning, med rows"
+    title: &title "Armstrækning, med rows"
   - url: /assets/images/exercises/armstraekning-med-rows-1.jpg
     image_path: /assets/images/exercises/armstraekning-med-rows-1-320.jpg
     alt: "Armstrækning, med rows"
-    title: "Armstrækning, med rows"
+    title: &title "Armstrækning, med rows"
   - url: /assets/images/exercises/armstraekning-med-rows-2.jpg
     image_path: /assets/images/exercises/armstraekning-med-rows-2-320.jpg
     alt: "Armstrækning, med rows"
-    title: "Armstrækning, med rows"
+    title: &title "Armstrækning, med rows"
   - url: /assets/images/exercises/armstraekning-med-rows-3.jpg
     image_path: /assets/images/exercises/armstraekning-med-rows-3-320.jpg
     alt: "Armstrækning, med rows"
-    title: "Armstrækning, med rows"
+    title: &title "Armstrækning, med rows"
   - url: /assets/images/exercises/armstraekning-med-rows-4.jpg
     image_path: /assets/images/exercises/armstraekning-med-rows-4-320.jpg
     alt: "Armstrækning, med rows"
-    title: "Armstrækning, med rows"
+    title: &title "Armstrækning, med rows"
   - url: /assets/images/exercises/armstraekning-med-rows-5.jpg
     image_path: /assets/images/exercises/armstraekning-med-rows-5-320.jpg
     alt: "Armstrækning, med rows"
-    title: "Armstrækning, med rows"
+    title: &title "Armstrækning, med rows"
 last_modified_at: 2013-10-04T13:46:45Z
 ---
 

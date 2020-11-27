@@ -12,6 +12,9 @@ category:
 tags:
   - test
   - armstrækninger
+  - styrketræning
+  - styrketest
+  - beregner
 last_modified_at: 2019-09-03T23:14:14Z
 toc: true
 ---
@@ -31,7 +34,9 @@ Beregneren gælder for 15-69 årige, og den er baseret på beregneren fra [exrx.
 
 {% include calculator-pushup.html %}
 
-Husk at dine resultater er negativt korreleret med kropsvægten. Hvis du er tungere, så kan du formentlig lave færre armstrækninger, men når du sammenligner med gennemsnittet er du måske stærkere, fordi du løfter mere vægt.
+Husk at dine resultater i en test af armstrækninger afhænger af kropsvægten. Tungere personer kan formentlig lave færre armstrækninger, men derfor kan de godt være stærkere end gennemsnittet, fordi de løfter mere vægt.
+
+Armstrækningstesten tester altså relativ styrke.
 
 ## Teknik for armstrækningerne
 
@@ -39,10 +44,10 @@ Husk at dine resultater er negativt korreleret med kropsvægten. Hvis du er tung
 
 ### Mænd
 
-- tæerne på fødderne
+- på tæerne
 - ben, hofter, ryg og nakke er lige
 - testlederen placerer sin knytnæve under testpersonens bryst (jeg har konstrueret nogle standardiserede plader, som jeg bruger, og kigger efter om der er kontakt mellem pladen og brystkassen)
-- testpersonens bryst skal røre knytnævnen her gang
+- testpersonens bryst skal røre punktet hver gang
 
 ### Kvinder
 

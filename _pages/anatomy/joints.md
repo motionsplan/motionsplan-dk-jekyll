@@ -1,7 +1,7 @@
 ---
 layout: single
-title: &title "Led, ledtyper og bevægelser"
-excerpt: "Led kan opdeles i ægte led og uægte led og forskellige ledtyper: ægled, saddelled, hængselled, glideled, drejeled og kugleled."
+title: &title "Led, ledtyper, bevægelser og bevægelsestyper 🔧"
+excerpt: "Led kan opdeles i ægte led og uægte led og forskellige ledtyper: ægled, saddelled, hængselled, glideled, drejeled og kugleled. Den primære funktion for et led er bevægelser, som kan deles op i forskellige bevægelsestyper."
 permalink: /led/
 author_profile: true
 header:
@@ -11,45 +11,45 @@ header:
 tags:
   - anatomi
 feature_row:
-  - image_path: /assets/images/anatomy/aegled.gif
-    alt: "Ægled"
-    title: "Ægled"
-    excerpt: "Ægled: to bevægelser der foregår som et æg i et æggebæger. F.eks. den sidste nakkehvirvel inden kraniet."
-  - image_path: /assets/images/anatomy/drejeled.gif
-    alt: "Drejeled"
-    title: "Drejeled"
-    excerpt: "Drejeled kan lave en drejning omkring knoglens længderetning. F.eks. mellem underarmens knogler."
-  - image_path: /assets/images/anatomy/glideled.gif
+  - image_path: /assets/images/anatomy/glideled.png
     alt: "Glideled"
     title: "Glideled"
-    excerpt: "Glideled kan lave tre bevægelser, hvoraf to er parallelforskydning, og en er vinkelbevægelse. F.eks. mellem ledtappene i ryghvirvlerne."
-  - image_path: /assets/images/anatomy/haengselled.gif
+    excerpt: "Et glideled kan lave to forskellige parallelforskydninger og en vinkelbevægelse. Der er glideled mellem tappene i ryghvirvlerne."
+  - image_path: /assets/images/anatomy/haengselled.png
     alt: "Hængselled"
     title: "Hængselled"
-    excerpt: "Hængselsled kan lave en bevægelse som foregår som en drejning i et dørhængsel. F.eks. albue- og knæled."
-  - image_path: /assets/images/anatomy/kugleled.gif
+    excerpt: "Et hængselled kan lave en bevægelse som ligner en drejning i et dørhængsel. Albueleddet og knæleddet er fx hængselled."
+  - image_path: /assets/images/anatomy/drejeled.png
+    alt: "Drejeled"
+    title: "Drejeled"
+    excerpt: "Et drejeled kan lave en drejning omkring knoglens længderetning. Der er fx et drejeled mellem ulna og radius, som er underarmens knogler."
+  - image_path: /assets/images/anatomy/saddelled.png
+    alt: "Saddelled"
+    title: "Saddelled"
+    excerpt: "Et saddelled kan lave to bevægelser, som går vinkelret på hinanden. Tommelfingerens rodled er fx et saddelled."
+  - image_path: /assets/images/anatomy/aegled.png
+    alt: "Ægled"
+    title: "Ægled"
+    excerpt: "I et ægled foregår bevægelserne som et æg kan bevæge sig i et æggebæger. Den sidste nakkehvirvel inden kraniet er et ægled."
+  - image_path: /assets/images/anatomy/kugleled.png
     alt: "Kugleled"
     title: "Kugleled"
-    excerpt: "Kugleled: det mest bevægelige led i kroppen og findes i hofte- og skulderled."
-  - image_path: /assets/images/anatomy/sadelled.gif
-    alt: "Sadelled"
-    title: "Sadelled"
-    excerpt: "Saddelled kan lave to bevægelser vinkelret på hinanden. F.eks. tommelfingers rodled."
+    excerpt: "Et kugleled er det mest bevægelige led i kroppen. Der er et kugleled i hoften mellem lårbenet og hofteskålen og i skulderleddet."
 toc: true
 toc_sticky: true
 sidebar:
   nav: anatomi
 ---
 
-Led kan opdeles i ægte led og uægte led og forskellige ledtyper: ægled, saddelled, hængselled, glideled, drejeled og kugleled. Jeg kigger her på de forskellige defintioner og ledtyper.
+Led kan opdeles i ægte led og uægte led og forskellige ledtyper: ægled, saddelled, hængselled, glideled, drejeled og kugleled. Jeg kigger her på de forskellige defintioner og ledtyper. Den primære funktion for et led er bevægelser, som kan deles op i forskellige bevægelsestyper.
 
-Du kan læse mere om [led og ledtyper i Morten Zachos beskrivelse](http://web.archive.org/web/20090130044627/http://www.motion-online.dk/styrketraening/anatomiguide/led_generelt/){:rel="nofollow"}.
+Hvad er et led? **Et led er der hvor to eller flere knogler støder sammen til en forbindelse uanset om, der kan være bevægelse eller ej i leddet. Et leddet holdes knoglerne sammen af en ledkapsel, der er forstærket af ledbånd.**
 
 {% comment %}
 
-Et led er en forbindelse mellem to eller flere knogler, uanset om der kan være bevægelse i leddet eller ej. I forbindelse med idræt er vi hovedsageligt interesseret i de led, der kan bevæge sig. Mennesket kan bevæge sig på mange forskellige måder, og derfor er der også flere forskellige typer led.
+I forbindelse med idræt er vi hovedsageligt interesseret i de led, der kan bevæge sig. Mennesket kan bevæge sig på mange forskellige måder, og derfor er der også flere forskellige typer led.
 
-Overordnet kan led opdeles i ægte og uægte led.
+Der er mange forskellige ledtyper i kroppen. Led kan overordnet set opdeles i ægte og uægte led.
 
 Uægte led (ledbånd og symfyser)
 : Uægte led er led uden ledhule. I uægte led kan der kun forekomme små bevægelsesudslag. De uægte led kan noget forenklet opdeles i ledbånd og symfyser.
@@ -68,13 +68,15 @@ Ledbrusken indeholder ikke blodkar, men brusken får næring fra ledvæsken. Nå
 
 Leddene er omgivet af en ledkapsel, som består af bindevæv. Inderst i ledkapslen er en synovialhinde, der udskiller væske, som fylder ledhulen ud og skaber en lille adskillese mellem leddene. Sammen med brusken hjælper ledvæsken til at nedsætte friktionen i leddet. De fleste led er også forstærket med sener og ledbånd og på hver side af leddet er der også muskler, der er med til at stabilisere leddet.
 
-De ægte led kan bevæge sig. Størrelse, retning og størrelse på bevægelsesudslaget afhænger af formen på knoglerne, stramheden i ledkapselen og ledbåndene og smidigheden af musklerne omkring leddet. Det vigtigste parameter er knoglernes form, og derfor kan man (forenklet) opdele kroppens led i forskellige mekaniske typer.
+De ægte led kan bevæge sig. Størrelse, retning og størrelse på bevægelsesudslaget afhænger af formen på knoglerne, stramheden i ledkapslen og ledbåndene og smidigheden af musklerne omkring leddet. Det vigtigste parameter er knoglernes form, og derfor kan man (forenklet) opdele kroppens led i forskellige mekaniske typer.
 
-{% include figure image_path="https://slideplayer.dk/slide/2341220/8/images/18/Ledkapslen.jpg" alt="Opbyging af et kroppens ægte led og ledtyper" caption="Opbygning af et ægte led" %}
+{% include figure image_path="https://slideplayer.dk/slide/2341220/8/images/18/Ledkapslen.jpg" alt="Opbygning af et kroppens ægte led og ledtyper" caption="Opbygning af et ægte led" %}
 
-Kroppens led kan inddeles i seks mekaniske typer led.
+{% endcomment %}
 
 ## Ledtyper
+
+Kroppens led kan inddeles i seks mekaniske typer led. Formen på leddene er det, der har størst betydning for bevægeligheden i leddene.
 
 {% include feature_row %}
 
@@ -82,7 +84,11 @@ Kroppens led kan inddeles i seks mekaniske typer led.
 
 ## Uægte led
 
-Uægte led er led uden ledhule. I uægte led kan der kun forekomme små bevægelsesudslag. De uægte led kan noget forenklet opdeles i ledbånd og symfyser.
+Et uægte led er et led uden ledhule og synovialmembran. I de fleste uægte led er bevægelsesmulighederne små, og i nogle praktisk talt nul, alligevel taler vi om led, fordi det drejer sig om selvstændige forbindelser mellem to eller flere knogler.
+
+{% comment %}
+
+De uægte led kan noget forenklet opdeles i ledbånd og symfyser.
 
 ### Ledbånd
 
@@ -96,7 +102,7 @@ Hvis knoglerne presses sammen, vil den bløde kerne blive trykket fladere og der
 
 {% endcomment %}
 
-## Bevægelsestyper
+## Bevægelsestyper i leddene
 
 Bevægelser kan foregå i tre forskellige planer.
 
@@ -104,7 +110,7 @@ Bevægelser kan foregå i tre forskellige planer.
 - Sagitale plan.
 - Transversale plan.
 
-{% include figure image_path="https://www.sci-sport.com/theorie/img/lightbox/t201.png" caption="Illustration af sagitale, frontale og transversale plan" alt="Sagitale, frontale og transversale plan" %}
+{% include figure image_path="https://www.sci-sport.com/theorie/img/lightbox/t201.png" caption="Illustration af sagitale, frontale og transversale plan bevægelsesplan" alt="Sagitale, frontale og transversale bevægelsesplan" %}
 
 ### Sagitale plan
 
@@ -123,8 +129,14 @@ Bevægelser kan foregå i tre forskellige planer.
 
 ## Kroppens led
 
-{% assign joints = site.anatomy | where: "tags", "led" %}
-{% for j in joints %}
-- **[{{ j.title }}]({{ j.url }})**. {{ j.excerpt }}
+{% assign pages = site.anatomy | where: "tags", "led" %}
+{% for p in pages %}
+- **[{{ p.title }}]({{ p.url }})**.
+  {{ p.excerpt | markdownify }}
 {% endfor %}
 
+{% comment %}
+
+Du kan læse mere om [led og ledtyper i Morten Zachos beskrivelse](http://web.archive.org/web/20090130044627/http://www.motion-online.dk/styrketraening/anatomiguide/led_generelt/){:rel="nofollow"}.
+
+{% endcomment %}

@@ -3,40 +3,43 @@
         <legend>Udregning af fedtprocent. Indtast alder, højde og vægt.</legend>
         <fieldset>
             <legend>Køn</legend>
-            <label for="checkbox-man" class="radio">
-                <input name="sex" type="radio" value="man" id="checkbox-man"> &#9794; Mand
+            <label class="radio">
+                <input name="sex" type="radio" value="man"> &#9794; Mand
             </label>
-            <label for="checkbox-woman" class="radio">
-                <input name="sex" type="radio" value="woman" id="checkbox-woman"> &#9792; Kvinde
+            <label class="radio">
+                <input name="sex" type="radio" value="woman"> &#9792; Kvinde
             </label>
         </fieldset>
         <div class="form-group">
-            <label for="age">Alder (år)</label>
-            <input name="age" id="age" type="number" min="10" max="100" placeholder="Alder i år">
+            <label>Alder (år)
+                <input name="age" type="number" min="10" max="100" placeholder="Alder i år" required>
+            </label>
         </div>
         <div class="form-group">
-            <label for="height">Højde (cm)</label>
-            <input name="height" id="height" type="number" min="100" max="272" placeholder="Højde i cm" step="0.1">
+            <label>Højde (cm)
+                <input name="height" type="number" min="100" max="272" placeholder="Højde i cm" step="0.1" required>
+            </label>
         </div>
         <div class="form-group">
-            <label for="weight">Vægt (kg)</label>
-            <input name="weight" id="weight" type="number" min="30" max="200" placeholder="Vægt i kg" step="0.1">
+            <label>Vægt (kg)
+                <input name="weight" type="number" min="30" max="200" placeholder="Vægt i kg" step="0.1" required>
+            </label>
         </div>
         <input type="submit" value="Udregn">
     </fieldset>
     <fieldset class="results">
-        <legend>Resultater</legend>
+        <legend>Fedtprocent udregnet med forskellige formler</legend>
         <label>Fedtprocent (Heitmann)
-            <input disabled="disabled" name="fedtprocent" id="fat_percent_heitmann" type="text" placeholder="">
+            <input disabled name="fat_percent_heitmann" type="text">
         </label>
-        <label>Fedtprocent (Durnin & Wormersly)
-            <input disabled="disabled" name="fedtprocent" id="fat_percent_durnin" type="text" placeholder="">
+        <label>Fedtprocent (Durnin & Womersley)
+            <input disabled name="fat_percent_durnin" type="text">
         </label>
         <label>Fedtprocent (Duerenberg)
-            <input disabled="disabled" name="fedtprocent" id="fat_percent_duerenberg" type="text" placeholder="">
+            <input disabled name="fat_percent_duerenberg" type="text">
         </label>
         <label>Body mass index (BMI)
-            <input disabled="disabled" name="BMI" id="BMI" type="text" placeholder="Venter på udregning">
+            <input disabled name="BMI" id="BMI" type="text">
         </label>
     </fieldset>
 </form>

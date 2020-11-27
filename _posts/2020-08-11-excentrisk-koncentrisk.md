@@ -13,6 +13,8 @@ category:
 tags:
   - bevægelsesanalyse
   - anatomi
+sidebar:
+  nav: anatomi
 ---
 
 Forskellen på excentrisk, koncentrisk og isometrisk muskelkontraktion forvirrer ofte, når vi laver bevægelsesanalyser. Derfor kigger jeg lidt i det følgende på, hvad de forskellige typer kontraktioner og bevægelser er.
@@ -23,13 +25,13 @@ Nogle kalder det også "eccentriske" bevægelser, men det er faktisk en stavefej
 ## Hvad er koncentrisk, excentrisk og isometrisk arbejde
 
 Hvad er koncentrisk arbejde? 
-: Koncentrisk arbejde er, når sker en sammentrækning af musklen under belastning, fx i bænkpres for bryst og triceps når stangen løftes fra brystet til strakt arm, eller i biceps curl (for biceps) hvor stangen løftes fra strakte arme (i hoftehøjde) til bøjede arme ved kravebenene.
+: Koncentrisk arbejde er, når sker en sammentrækning af musklen under belastning. I bænkpres sker der fx en koncentrisk bevægelse i bryst og triceps, når stangen løftes fra brystet til strakt arm. I biceps curl sker der en koncentrisk bevægelse i armbøjerne, bl.a. biceps, når stangen eller håndvægten løftes fra strakte arme (i hoftehøjde) til bøjede arme.
 
 Hvad er excentrisk arbejde?
-: Excentrisk arbejde er, når der sker en forlængelse af musklen under belastning, dvs. musklen "holder igen" eller bremser en vægt. I eksemplet med bænkpres er den excentriske del, at sænkningen af stangen fra strakte arme ned til brystet og i biceps curl sænkningen af håndvægten (eller stangen).
+: Excentrisk arbejde er, når der sker en forlængelse af musklen under belastning. Musklen bremser altså vægten eller den udefrakommende kraft. I bænkpres er det en excentrisk arbejde i brystmusklen og triceps, når stangen sænkes fra strakte arme ned til brystet, men det i biceps curls er excentrisk arbejde i armbøjerne, når stangen sænkes igen.
 
 Hvad er isometrisk arbejde?
-: Isometrisk arbejde er, når den samme stilling bibeholdes samtidig med at man arbejder imod en vægt. Man kunne forestille sig, at man holder et stop med stangen lige over brystet i bænkpres, hvor musklerne arbejder isometrisk eller man halvvejs i sin biceps curl holder en pause.
+: Isometrisk arbejde er, når den samme stilling bibeholdes samtidig med, at man arbejder imod en vægt eller udefrakommende kraft. Det er fx isometrisk arbejde, hvis man holder et stop med stangen lige over brystet i bænkpres, eller man halvvejs i sin biceps curl holder en pause.
 
 Forskellen på koncentrisk, excentrisk og isometrisk arbejde er også rigtig godt illustreret i denne figur:
 
@@ -51,7 +53,7 @@ Man siger ofte at den excentriske fase skal udføres kontrolleret og relativt la
 
 ## Hvordan virker excentrisk styrketræning?
 
-Langsom, tung styrketræning og excentrisk træning er to typer styrketræning, der bliver anbefalet til seneskader. Desværre ved man ikke nøjagtigt, hvad der virker bedst for at regenerere senevævet.
+Langsom, tung styrketræning og excentrisk træning er to typer styrketræning, der bliver anbefalet til fx seneskader. Desværre ved man ikke nøjagtigt, hvad der virker bedst for at regenerere senevævet.
 
 Der er lavet protokoller, hvor man har lavet tung, langsom styrketræning 2-3 gange om ugen, og der er lavet protokoller, hvor man har lavet excentrisk arbejde 2 gange om dagen.
 

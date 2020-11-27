@@ -1,5 +1,5 @@
 ---
-title: "Crosstrainer"
+title: &title "Crosstrainer"
 excerpt: "Crosstrainer"
 instructions: "Crosstrainer"
 permalink: /oevelse/crosstrainer/

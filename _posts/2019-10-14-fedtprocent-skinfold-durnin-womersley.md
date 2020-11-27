@@ -3,7 +3,7 @@ title: "Durnin & Womersley 4-punktsmåling af fedtprocent (hudfold)"
 permalink: /skinfold-durnin-womersley/
 redirect_from:
   - /durnin/
-excerpt: "Durnin & Womersley 4-punktsmåling er meget anerkendt og anvendelig hudfoldsmåling til bestemmelse af fedtprocent, der kan bruges til de fleste mennesker. Team Danmarks testcentre bruger denne formel. Formlen overestimerer fedtprocenten med 2-3% for meget tynde personer."
+excerpt: "Durnin & Womersley 4-punktsmåling er meget anerkendt hudfoldsmåling til bestemmelse af fedtprocent, der kan bruges til de fleste mennesker. Team Danmarks testcentre bruger denne formel."
 language: da
 header:
   overlay_image: https://www.ubershape.com.au/wp-content/uploads/2017/05/35A2528-1024x683.jpg
@@ -30,11 +30,13 @@ feature_row:
 
 Durnin & Womersley er en 4-punktsmåling af hudfolde, som anses for relativt præcis til at estimere fedtprocenten for mennesker mellem 16 og 72 år gammel. Formlen har en tendens til at estimere for høje fedtprocenter hos meget tynde personer (2-3 %).
 
-Det er en fordel med Durnin og Womersly-formlen, at vi måler de samme steder for både mænd og kvinder.
+Det er en fordel med Durnin og Womersley-formlen, at vi måler de samme steder for både mænd og kvinder. Det gør det lettere for testlederne at blive rigtig gode og præcise til at lave målingerne.
+
+Team Danmarks testcentre bruger Durnin og Womersleys formler.
 
 ## Beskrivelse af hudfoldsmålinger i Durnin og Womersley
 
-Der måles på biceps, triceps, ved skulderbladets nederste spids og lige over hoftekammen. Du kan se nærmere instruktioner i videoen nedenunder.
+For at estimere fedtprocenten så skal der både for mænd og kvinder måles hudfolde på fire steder. Hudfolden skal måles ved biceps, triceps, ved skulderbladets nederste spids og lige over hoftekammen. Du kan se nærmere instruktioner i videoen nedenunder.
 
 {% include video id="VBJuVfiKrbY" provider="youtube" %}
 
@@ -42,18 +44,15 @@ Der måles på biceps, triceps, ved skulderbladets nederste spids og lige over h
 
 {% include calculate-fatpercent-skinfold-durnin-womersley.html %}
 
-{% comment %}
-
 ## Usikkerheder i Durnin & Womersley
 
-- Der tages højde for alderen i formlen, da der typisk vil komme mere fedt omkring de indre organer.
-- Formlen kan overestimere fedtprocenten med 2-3% for meget magre personer.
+[Davidson et al (2012)](https://pubmed.ncbi.nlm.nih.gov/26490540/) sammenlignede Durnin og Womersleys formler med DEXA-scanninger i forhold til forskellige etniske grupper. Studiet viste, at formlerne ikke kunne forudsige fedtprocenten målt med DEXA-scanner ens for alle racer.
 
-{% endcomment %}
+Davidson et al (2012) fandt også, at Durnin og Womersleys formler overestimerede fedtprocenten i alle grupper undtagen _Caucasian men_ og _African American Women_. De foreslår i referencen alternativ måde at bruge målingerne fra Durnin og Womersley.
 
 ## Formler til Durnin og Womersley
 
-I beregneren benytter vi formlerne fra [www.topendsports.com](https://www.topendsports.com/testing/density-durnin-womersley.htm). Hvis du har brug for at lave testen på engelsk, så kan du bruge beregneren fra [healt-calc.com](http://health-calc.com/body-composition/skinfold-d-and-w)
+I beregneren benytter vi formlerne fra [www.topendsports.com](https://www.topendsports.com/testing/density-durnin-womersley.htm). Hvis du har brug for at lave testen på engelsk, så kan du bruge beregneren fra [health-calc.com](http://health-calc.com/body-composition/skinfold-d-and-w)
 
 | Alder |	Formler for mænd	      | Formler for kvinder     |
 |-------------|---------------------------|---------------------------|
@@ -66,9 +65,31 @@ I beregneren benytter vi formlerne fra [www.topendsports.com](https://www.topend
 
 Hvor D = estimeret density af kroppen (g/ml), og L = log af den totale sum af de 4 skinfolds (mm)
 
+Læg mærke til at Durnin og Womersley-formlerne tager højde for alderen. Det skyldes, at ældre mennesker i hovedreglen begynder at deponere mere fedt omkring de indre organer, hvilket naturligvis ikke vil vise sig i en hudfoldsmåling.
+
 Derefter kan Siri-formlen omsætte densiteten til fedtprocent.
 
 {% include math formula="PBF = \frac{495}{D} - 450" %}
+
+## Hvorfor får man en densitet med Durnin og Womersley?
+
+Densitet er massen delt med volumen.
+
+Da Durnin og Womersley lavede deres studium var undervandsvejning den mest pålidelige måde at måle fedtprocent på. Rationalet tager udgangspunkt i en tokomponent-model, hvor kroppen består af fedtvæv og fedtfri masse.
+
+Durnin og Womersley har så lavet korrelationsmodeller med densiteten fundet i undervandsvejningerne. Derfor estimerer hudfoldsmålingen faktisk densiteten, som man så bruger Siri-formlen til at omsætte til fedtprocenten.
+
+I den sammenhæng er det også værd at bide mærke i, at [Siri-formlen](https://www.topendsports.com/testing/siri-equation.htm) ikke er den eneste måde at omregne en fedtprocent på baggrund af densiteten.
+
+## Andre formler til måling af fedtprocent
+
+{% assign site_posts = site.posts | where: "tags", "skinfold" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single-simple.html %}
+  {% endfor %}
+{% endif %}
 
 ## Referencer om Durnin og Womersley fedtmåling
 

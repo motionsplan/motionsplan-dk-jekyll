@@ -17,27 +17,20 @@ tags:
 last_modified_at: 2020-07-04T08:12:14Z
 toc: true
 feature_row:
-  - image_path: https://apuls.dk/image/catalog/Produkter/traeningsudstyr/fitwood/trolleveggen/FitWood_TROLLVEGGEN_chin_bar_pull_up_bar_white_wood_steel_bar_product_image1.jpg
-    alt: "Fitwood Pullupbar"
-    title: "Fitwood Pullupbar"
-    excerpt: "FitWood Trollveggen dørribbe er en multifunktionel chin-up/pull-up bar i lækkert scandinavisk design."
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/fitwood-trollveggen-dorribbe-hvid
-    btn_label: "Pris hos Apuls"
+  - image_path: https://www.optimasport.dk/wp-content/uploads/2017/08/Optima-K8-Recovery-Boot-saet_v1-400x400.jpg
+    alt: "Optima Sport Recovery Boots Ultima K8 – komplet sæt"
+    title: "Optima Sport Recovery Boots Ultima K8 – komplet sæt"
+    excerpt: "Ultima K8 er velegnet til alle programmer. Støvlen giver en mere dybdegående massage, end vores andre støvler, da kamrene er mindre og derfor kan arbejder sig mere ned i muskulaturen."
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55636&htmlurl=https://www.optimasport.dk/produkt/koeb-recovery-boots-og-opnaa-hurtigere-restitution/
+    btn_label: "Pris hos optimasport.dk*"
     btn_class: "btn--success"
-  - image_path: https://apuls.dk/image/catalog/produkter-kina/pull-up-bar-lille/1.jpg
-    alt: "cPro9 Pullupbar"
-    title: "cPro9 Pullupbar"
-    excerpt: "cPro9 Pull Up Bar til dør, som er let monteres i en døråbning. Baren giver dig mange forskellige muligheder for greb."
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/fitwood-trollveggen-dorribbe-hvid
-    btn_label: "Pris hos Apuls"
-    btn_class: "btn--success"
-  - image_path: https://apuls.dk/image/catalog/produkter-kina/gravity-boots/0.jpg
-    alt: "Gravity Boots"
-    title: "Gravity Boots"
-    excerpt: "cPro9 Gravity Boots er ret komfortable, lette at spænde på og lette at få til at hænge på stangen"
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/cpro9-gravity-boots
-    btn_label: "Pris hos Apuls"
-    btn_class: "btn--success"
+  - image_path: https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=72365
+    alt: "Yourboots.dk vakuumbukser og recovery boots"
+    title: "Vakuumbukser og recovery boots"
+    excerpt: "Yourboots.dk har et stort udvalg i vakuumbukser og recovery boots. Der er både versioner, du kan bruge til at rejse eller større setups til hjemmetræning og restitution."
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=72365
+    btn_label: "Pris hos yourboots.dk*"
+    btn_class: "btn--info"
 ---
 
 Recovery boots markedsføres i øjeblikket både til motionister og eliteidrætsudøvere som en måde at forbedre restitutionen på. Recovery boots er en slags kompressionsbukser med luft, som også kaldes: vakuum støvler eller vakuum bukser.
@@ -116,9 +109,15 @@ Jeg har tidligere skrevet om [kompressionsstrømper som tilsyneladende har vist 
 
 Jeg har skrevet et andet indlæg om, [hvordan du hurtigst restituerer fra træning]({% link _posts/2009-08-07-restition-hvordan-bliver-jeg-hurtigst-klar-igen.md %}) eller [hvad restitutionstiden er efter træning]({% link _posts/2020-05-28-restitutionstid-alder.md %}).
 
-Det skal selvfølgelig være dig frit for at købe recovery boots, hvis du synes de er behagelige at have på efter træning, og du får en god fornemmelse i kroppen. Du kan fx tjekke **hvad priserne på _recovery boots_** er hos [yourboots.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=71899&htmlurl=https://yourboots.dk/valg-af-maskine/){:rel="nofollow"} eller hos [www.denintelligentekrop.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38097&htmlurl=https://www.denintelligentekrop.dk/reecover-recovery-boots-pro6-portable-6-kamre?c=6303){:rel="nofollow"}.
+Det skal selvfølgelig være dig frit for at købe recovery boots, hvis du synes de er behagelige at have på efter træning, og du får en god fornemmelse i kroppen. Du kan fx tjekke **hvad priserne på _recovery boots_** er hos [yourboots.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=71899&htmlurl=https://yourboots.dk/valg-af-maskine/){:rel="nofollow"}, hos [www.denintelligentekrop.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38097&htmlurl=https://www.denintelligentekrop.dk/reecover-recovery-boots-pro6-portable-6-kamre?c=6303){:rel="nofollow"} eller hos [optimasport.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55636){:rel="nofollow"}.
+
+## Køb recovery boots og vakuum bukser
+
+{% include feature_row type="left"  %}
 
 ## Referencer
+<details markdown="1">
+  <summary>Se referencer om vakuumbukser og recovery boots</summary>
 
 - Keck, Nathan A., John S. Cuddy, Walter S. Hailes, Charles L. Dumke, og Brent C. Ruby. 2015. “Effects of Commercially Available Pneumatic Compression on Muscle Glycogen Recovery after Exercise”. Journal of Strength and Conditioning Research 29 (2): 379–85. <https://doi.org/10.1519/JSC.0000000000000772>.
 - Kevin Stetter, Emily Hanson. 2013. “An Intermittent Pneumatic Compression Device Reduces Blood Lactate Concentrations More Effectively Than Passive Recovery after Wingate Testing”. Journal of Athletic Enhancement 02 (03). <https://doi.org/10.4172/2324-9080.1000115>.
@@ -128,3 +127,4 @@ Det skal selvfølgelig være dig frit for at købe recovery boots, hvis du synes
 - Morris, Rhys J., og John P. Woodcock. 2010. “Intermittent Pneumatic Compression or Graduated Compression Stockings for Deep Vein Thrombosis Prophylaxis? A Systematic Review of Direct Clinical Comparisons”. Annals of Surgery 251 (3): 393–96. <https://doi.org/10.1097/SLA.0b013e3181b5d61c>.
 - Overmayer, Ryan G., og Matthew W. Driller. 2018. “Pneumatic Compression Fails to Improve Performance Recovery in Trained Cyclists”. International Journal of Sports Physiology and Performance 13 (4): 490–95. <https://doi.org/10.1123/ijspp.2017-0207>.
 - WINKE, MOLLY, og SHELBY WILLIAMSON. 2018. “Comparison of a Pneumatic Compression Device to a Compression Garment During Recovery from DOMS”. International Journal of Exercise Science 11 (3): 375–83.
+</details>

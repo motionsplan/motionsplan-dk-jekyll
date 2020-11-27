@@ -1,5 +1,5 @@
 ---
-title: "Supine bridge and reach"
+title: &title "Supine bridge and reach"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/supine-bridge-and-reach/

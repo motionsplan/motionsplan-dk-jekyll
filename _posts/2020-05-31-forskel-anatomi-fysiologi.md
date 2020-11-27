@@ -14,33 +14,35 @@ tags:
   - fysiologi
 last_modified_at: 2020-05-31T08:14:14Z
 toc: true
+sidebar:
+  nav: anatomi
 feature_row:
   - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/1000x/9df78eab33525d08d6e5fb8d27136e95/a/n/anatomisk-guide-til-bevaegeapparatet-9788777499104-andrew-biel-gitte-bjerg-fuusager.jpg
     alt: "Anatomisk Guide til Bevægeapparatet"
     title: "Anatomisk Guide til Bevægeapparatet"
     excerpt: "En praktisk guide til lokalisering af muskler, knogler med mere. Før du kan få succes med at undersøge og behandle bevægeapparatet, er du nødt til først at kende dets opbygning og kunne lokalisere de relevante strukturer."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/anatomisk-guide-til-bevaegeapparatet-9788777499104"
-    btn_label: "Læs mere hos Den Intelligente Krop"
+    btn_label: "Læs mere hos Den Intelligente Krop*"
     btn_class: "btn--success"
-  - image_path: https://cdn5.bogreolen.dk/thumbnail/300x0/00002/73191/cover.20160911.jpg
+  - image_path: https://cdn6.tales.dk/00002/73191/cover.20160911.jpg
     alt: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
     title: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
     excerpt: "Menneskekroppen - anatomi, fysiologi og sygdomme er et anatomisk atlas til mennesket i det 21. århundrede. Gennem de computergenererede 3d-billeder og fantastiske illustrationer kan man opleve menneskekroppen i hidtil uset detaljegrad og skønhed."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://bogreolen.dk/menneskekroppen_steve-parker_9788756784436"
-    btn_label: "Læs mere hos Bogreolen"
+    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/menneskekroppen-anatomi-fysiologi-og-sygdomme_steve-parker_9788756784436"
+    btn_label: "Læs mere hos Tales*"
     btn_class: "btn--success"
   - image_path: https://imgcdn.saxo.com/_9788762809000/0x500
     alt: "Bevægeapparatets anatomi"
     title: "Bevægeapparatets anatomi"
     excerpt: "Når man skal lære om anatomi er det selvsagt en fordel med gode lærebøger, og her er “Bevægeapparatets anatomi” en absolut klassiker. Bag lærebogen står forfatterne Finn Bojsen Møller, Jan Hejle, Erik Bruun Simonsen, Jørgen Tranum-Jensen. De kombinerer viden om almen anatomi med information om hvordan man forebygger, undersøger, behandler, træner og genoptræner."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/bevaegeapparatets-anatomi_joergen-tranum-jensen_indbundet_9788762809000"
-    btn_label: "Læs mere hos Saxo"
+    btn_label: "Læs mere hos Saxo*"
     btn_class: "btn--success"
 ---
 
 Jeg synes ikke jeg kunne finde en rigtig god forklaring på sammenhængen og forskellen mellem anatomi og fysiologi online, så jeg har prøvet at forklare min forståelse af af, hvordan anatomi og fysiologi hænger sammen, og hvordan de adskiller sig fra hinanden.
 
-**Anatomi og fysiologi er knyttet sammen, men der er forskel på anatomi og fysiologi. Anatomi beskæftiger sig med kroppens strukturer og opbygning, og hvordan cellerne samler sig til væv, organer og systemer. Fysiologien handler om, hvordan de forskellige celler, organer og systemer fungerer og samarbejder for at udføre de livsnødvendige processer.**
+Hvad er forskellen på anatomi og fysiologi? **Anatomi og fysiologi er knyttet sammen, men der er forskel på anatomi og fysiologi. Anatomi beskæftiger sig med kroppens strukturer og opbygning, og hvordan cellerne samler sig til væv, organer og systemer. Fysiologien handler om, hvordan de forskellige celler, organer og systemer fungerer og samarbejder for at udføre de livsnødvendige processer.**
 
 Anatomi og fysiologi hjælper til at forstå den menneskelige krop. Anatomien er ret konkret, da strukturerne i kroppen kan ses, føles og undersøges. Du kan konkret tage fat i det og se det. Fysiologien kan du ikke på samme måde tage at føle på uden at have avancerede måleredskaber. 
 
@@ -58,7 +60,7 @@ Lad os kigge lidt på, hvad der hører til hhv. fysiologi og anatomi?
 
 Mn kan kort definere _fysiologi_ på denne måde:
 
-**Fysiologi er læren om kroppens forskellige organsystemer og deres funktioner i hvile og under fysisk aktivitet. Fysiologien beskæftiger sig med den sunde krop under normale betingelser.**
+Hvad er fysiologi? **Fysiologi er læren om kroppens forskellige organsystemer og deres funktioner i hvile og under fysisk aktivitet. Fysiologien beskæftiger sig med den sunde krop under normale betingelser.**
 
 For at forstå træning og effekten af træningen på kroppen som helhed er det godt at have en grundlæggende forståelse for, hvordan det fysiologiske system er opbygget. 
 
@@ -79,7 +81,7 @@ Hvis du vil læse mere om fysiologi, så har [Saxo et ret stort udbud](https://w
 
 ## Hvad hører til anatomi?
 
-**Anatomi er læren om kroppens opbygning og struktur. Anatomi er altså læren om kroppens knogler, led, muskler og bevægelsestyper, hvordan cellerne er opbygget, og hvordan cellerne udgør vævene, organerne og systemerne i kroppen.**
+Hvad er anatomi? **Anatomi er læren om kroppens opbygning og struktur. Anatomi er altså læren om kroppens knogler, led, muskler og bevægelsestyper, hvordan cellerne er opbygget, og hvordan cellerne udgør vævene, organerne og systemerne i kroppen.**
 
 Du skal vide noget om anatomi som træner for:
 
@@ -89,10 +91,10 @@ Du skal vide noget om anatomi som træner for:
 
 Anatomi omfatter viden om:
 
-- Knogler
-- Led
+- [Knogler]({% link _pages/anatomy/bones.md %})
+- [Led]({% link _pages/anatomy/joints.md %})
 - Bevægelsestyper
-- Muskler
+- [Muskler](({% link _pages/anatomy/muscles.md %}))
 
 Hvis du vil læse mere om anatomi, så har [Saxo nogle rigtig gode titler](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/alle/tags_anatomi){:rel="nofollow"}.
 
@@ -128,5 +130,7 @@ Hvis du gerne vil have et meget detaljeret og professionelt atlas over kroppen, 
 Jeg har skrevet lidt mere om [anatomi](/anatomi/), hvis du vil dykke mere ned i detaljerne.
 
 Jeg kan også varmt anbefale nedenstående bøger, hvis du vil dykke endnu mere ned i det. Jeg foretrækker selv at kunne sidde og blade lidt frem og tilbage i bøgerne for virkelig at forstå anatomien og fysiologien.
+
+## Anbefalelsesværdige bøger om anatomi og fysiologi
 
 {% include feature_row type="left" %}

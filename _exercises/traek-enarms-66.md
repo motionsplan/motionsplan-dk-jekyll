@@ -1,5 +1,5 @@
 ---
-title: "Træk, enarms: One arm snatch"
+title: &title "Træk, enarms: One arm snatch"
 excerpt: "I enarmstræk (eller one arm snatch) tager du fat i vægten på gulvet. Bøj i knæ- og hofteled og hold ryggen ret. Herfra skal du accellere håndvægten, så du kan gribe den i strakt arm over hovedet."
 instructions: "Tag fat i vægten på gulvet. Bøj i knæ- og hofteled og hold ryggen ret. Herfra skal du accellere håndvægten, så du kan gribe den i strakt arm over hovedet."
 permalink: /oevelse/traek-enarms/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/traek-enarms-0.jpg
   teaser: /assets/images/exercises/traek-enarms-0-320.jpg
+  caption: *title
 tags:
   - Helkropsøvelse
   - håndvægte
@@ -25,15 +26,15 @@ gallery:
   - url: /assets/images/exercises/traek-enarms-0.jpg
     image_path: /assets/images/exercises/traek-enarms-0-320.jpg
     alt: "Træk, enarms"
-    title: "Træk, enarms"
+    title: &title "Træk, enarms"
   - url: /assets/images/exercises/traek-enarms-1.jpg
     image_path: /assets/images/exercises/traek-enarms-1-320.jpg
     alt: "Træk, enarms"
-    title: "Træk, enarms"
+    title: &title "Træk, enarms"
   - url: /assets/images/exercises/traek-enarms-2.jpg
     image_path: /assets/images/exercises/traek-enarms-2-320.jpg
     alt: "Træk, enarms"
-    title: "Træk, enarms"
+    title: &title "Træk, enarms"
 video:
   provider: vimeo
   id: 4715429

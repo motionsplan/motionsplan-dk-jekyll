@@ -1,5 +1,5 @@
 ---
-title: "Roning, roergometer"
+title: &title "Roning, roergometer"
 excerpt: "Ro på et roergometer."
 instructions: "Ro på et roergometer."
 permalink: /oevelse/roning-roergometer/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/roning-roergometer-0.jpg
   teaser: /assets/images/exercises/roning-roergometer-0-320.jpg
+  caption: *title
 tags:
   - Kondition
   - roergometer
@@ -23,15 +24,15 @@ gallery:
   - url: /assets/images/exercises/roning-roergometer-0.jpg
     image_path: /assets/images/exercises/roning-roergometer-0-320.jpg
     alt: "Roning, roergometer"
-    title: "Roning, roergometer"
+    title: &title "Roning, roergometer"
   - url: /assets/images/exercises/roning-roergometer-1.jpg
     image_path: /assets/images/exercises/roning-roergometer-1-320.jpg
     alt: "Roning, roergometer"
-    title: "Roning, roergometer"
+    title: &title "Roning, roergometer"
   - url: /assets/images/exercises/roning-roergometer-2.jpg
     image_path: /assets/images/exercises/roning-roergometer-2-320.jpg
     alt: "Roning, roergometer"
-    title: "Roning, roergometer"
+    title: &title "Roning, roergometer"
 last_modified_at: 2014-10-10T21:04:21Z
 ---
 

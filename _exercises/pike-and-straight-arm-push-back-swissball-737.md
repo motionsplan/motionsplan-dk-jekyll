@@ -1,5 +1,5 @@
 ---
-title: "Pike and straight arm push back on swissball"
+title: &title "Pike and straight arm push back on swissball"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/pike-and-straight-arm-push-back-swissball/

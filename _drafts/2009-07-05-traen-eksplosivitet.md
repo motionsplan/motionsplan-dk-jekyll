@@ -1,6 +1,6 @@
 ---
 title: "Træn eksplosivitet"
-permalink: /artikel/traen-eksplosivitet
+permalink: /artikel/traen-eksplosivitet/
 language: da
 header:
   overlay_image: /assets/images/blog/traen-eksplosivitet.jpg

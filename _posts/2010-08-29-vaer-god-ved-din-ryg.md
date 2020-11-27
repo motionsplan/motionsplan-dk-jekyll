@@ -79,7 +79,8 @@ Hvis du ved noget, så host op med din viden i kommentarerne.
 - [McGill, Stuart: Low Back Disorders, Second Edition](http://www.amazon.com/Back-Disorders-Second-Stuart-McGill/dp/0736066926)
 - Hides, J. A., G. A. Jull, og C. A. Richardson. 2001. “Long-Term Effects of Specific Stabilizing Exercises for First-Episode Low Back Pain”. Spine 26 (11): E243-248. <https://doi.org/10.1097/00007632-200106010-00004>.
 
-<div class="hidden">
+{% comment %}
+
 Løfteteknik er ikke altafgørende for din ryg
 
 Videnskaben viser (til nogens overraskelse), at løfteteknik ikke er en altafgørende faktor for lændesmerter og ondt i ryggen. Det betyder ikke, at løfteteknik er ligegyldig, men sammenhængen mellem løfteteknik og rygsmerter er ikke i nærheden af at være så tydelig, som mange tror. Risikoen ved løfteteknik er sandsynligvis blevet overdrevet.
@@ -185,4 +186,4 @@ Kurustien N, Mekhora K, Jalayondeja W, Nanthavanij S. Trunk Muscle Performance a
 Steffens D, Maher CG, Pereira LS, et al. Prevention of Low Back Pain: A Systematic Review and Meta-analysis. JAMA Intern Med. 2016 Jan:1–10. Back belts “do not appear to prevent LBP.”
 Rohlmann A, Bergmann G, Graichen F, Neff G. Braces do not reduce loads on internal spinal fixation devices. Clin Biomech (Bristol, Avon). 1999 Feb;14(2):97–102.
 Flere løftere har i shows løftere omkring 460 kg herunder Eddie Hall, Benedikt Magnusson og Andy Bolton.
-</div>
+{% endcomment %}

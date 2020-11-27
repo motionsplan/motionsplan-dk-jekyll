@@ -1,5 +1,5 @@
 ---
-title: "Lunges hop"
+title: &title "Lunges hop"
 excerpt: "Stå med i bredstående med fødderne i forlængelse af hinanden. Gå ned i knæ og spring. I luften skifter du ben, så du lander med det andet ben forrest. Kan laves med eller uden håndvægte."
 instructions: "Stå med i bredstående med fødderne i forlængelse af hinanden. Gå ned i knæ og spring. I luften skifter du ben, så du lander med det andet ben forrest. Kan laves med eller uden håndvægte."
 permalink: /oevelse/lunges-hop/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/lunges-hop-0.jpg
   teaser: /assets/images/exercises/lunges-hop-0-320.jpg
+  caption: *title
 tags:
   - Kondition og puls
   - Kondition
@@ -37,19 +38,19 @@ gallery:
   - url: /assets/images/exercises/lunges-hop-0.jpg
     image_path: /assets/images/exercises/lunges-hop-0-320.jpg
     alt: "Lunges hop"
-    title: "Lunges hop"
+    title: &title "Lunges hop"
   - url: /assets/images/exercises/lunges-hop-1.jpg
     image_path: /assets/images/exercises/lunges-hop-1-320.jpg
     alt: "Lunges hop"
-    title: "Lunges hop"
+    title: &title "Lunges hop"
   - url: /assets/images/exercises/lunges-hop-2.jpg
     image_path: /assets/images/exercises/lunges-hop-2-320.jpg
     alt: "Lunges hop"
-    title: "Lunges hop"
+    title: &title "Lunges hop"
   - url: /assets/images/exercises/lunges-hop-3.jpg
     image_path: /assets/images/exercises/lunges-hop-3-320.jpg
     alt: "Lunges hop"
-    title: "Lunges hop"
+    title: &title "Lunges hop"
 video:
   provider: vimeo
   id: 4976754

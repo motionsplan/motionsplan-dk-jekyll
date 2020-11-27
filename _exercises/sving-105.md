@@ -1,5 +1,5 @@
 ---
-title: "Swing, enhånds"
+title: &title "Swing, enhånds"
 excerpt: "Hold en håndvægt med begge hænder mellem benene. Bøj i benene, så numsen kommer godt tilbage. Spænd og i mave, ryg og musklerne omkring hoften. Sving vægten fremefter og opad."
 instructions: "Hold en håndvægt med begge hænder mellem benene. Bøj i benene, så numsen kommer godt tilbage. Spænd og i mave, ryg og musklerne omkring hoften. Sving vægten fremefter og opad."
 permalink: /oevelse/sving/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/sving-0.jpg
   teaser: /assets/images/exercises/sving-0-320.jpg
+  caption: *title
 tags:
   - Kondition og puls
   - Styrketræning
@@ -37,19 +38,19 @@ gallery:
   - url: /assets/images/exercises/sving-0.jpg
     image_path: /assets/images/exercises/sving-0-320.jpg
     alt: "Swing, enhånds"
-    title: "Swing, enhånds"
+    title: &title "Swing, enhånds"
   - url: /assets/images/exercises/sving-1.jpg
     image_path: /assets/images/exercises/sving-1-320.jpg
     alt: "Swing, enhånds"
-    title: "Swing, enhånds"
+    title: &title "Swing, enhånds"
   - url: /assets/images/exercises/sving-2.jpg
     image_path: /assets/images/exercises/sving-2-320.jpg
     alt: "Swing, enhånds"
-    title: "Swing, enhånds"
+    title: &title "Swing, enhånds"
   - url: /assets/images/exercises/sving-3.jpg
     image_path: /assets/images/exercises/sving-3-320.jpg
     alt: "Swing, enhånds"
-    title: "Swing, enhånds"
+    title: &title "Swing, enhånds"
 video:
   provider: vimeo
   id: 4976730

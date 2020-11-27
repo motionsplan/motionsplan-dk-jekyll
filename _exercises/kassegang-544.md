@@ -1,5 +1,5 @@
 ---
-title: "Kassegang"
+title: &title "Kassegang"
 excerpt: "Med to kasser skal du tilbagelægge en distance. Du står på den ene kasse og flytter den anden fremad."
 instructions: "Med to kasser skal du tilbagelægge en distance. Du står på den ene kasse og flytter den anden fremad."
 permalink: /oevelse/kassegang/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/kassegang-0.jpg
   teaser: /assets/images/exercises/kassegang-0-320.jpg
+  caption: *title
 tags:
   - Koordination og balance
 categories:
@@ -21,19 +22,19 @@ gallery:
   - url: /assets/images/exercises/kassegang-0.jpg
     image_path: /assets/images/exercises/kassegang-0-320.jpg
     alt: "Kassegang "
-    title: "Kassegang "
+    title: &title "Kassegang "
   - url: /assets/images/exercises/kassegang-1.jpg
     image_path: /assets/images/exercises/kassegang-1-320.jpg
     alt: "Kassegang "
-    title: "Kassegang "
+    title: &title "Kassegang "
   - url: /assets/images/exercises/kassegang-2.jpg
     image_path: /assets/images/exercises/kassegang-2-320.jpg
     alt: "Kassegang "
-    title: "Kassegang "
+    title: &title "Kassegang "
   - url: /assets/images/exercises/kassegang-3.jpg
     image_path: /assets/images/exercises/kassegang-3-320.jpg
     alt: "Kassegang "
-    title: "Kassegang "
+    title: &title "Kassegang "
 last_modified_at: 2013-10-21T08:31:15Z
 ---
 

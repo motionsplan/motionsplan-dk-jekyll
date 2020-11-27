@@ -1,0 +1,33 @@
+<form class="calculator" id="calculator_andersen_test">
+    <fieldset>
+        <legend>Find kondital fra Andersen Test.</legend>
+        <div class="form-group">
+            <label>Distance (meter)
+                <input type="number" min="60" max="3000" name="distance" placeholder="Fx 400">
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Køn
+                <select name="gender">
+                    <option value="male">Mand</option>
+                    <option value="female">Kvinde</option>
+                </select>
+            </label>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Kondital (ml/kg/min)
+                <input name="kondital" disabled>
+            </label>
+        </div>
+        {% comment %}
+        <div class="form-group">
+            <label>Maximal iltoptagelse (l/min)
+                <input name="vo2max" disabled>
+            </label>
+        </div>
+        {% endcomment %}
+    </fieldset>
+</form>

@@ -19,11 +19,11 @@ toc: true
 
 Denne vægttabsberegner kan estimere dit ugentlige og månedlige vægttab baseret på dit kalorieunderskud. Hvis du har et mål om vægttab med din slankekur eller kostplan, så kan du se hvor meget du kan forvente at tabe over en periode.
 
-Alt du skal gøre er at indtaste dit daglige energiforbrug og dit forventede energiindtag. Jeg har lavet en [beregner til at udregne dit daglige energiforbrug]({% link _posts/2019-10-31-avanceret-stofskifteberegner.md %}).
+Alt du skal gøre er at indtaste dit daglige energiforbrug og dit forventede energiindtag. Jeg har lavet en [beregner til at udregne dit daglige energiforbrug]({% link _posts/2019-11-01-stofskifteberegner-avanceret.md %}).
 
 ## Hvordan bruger jeg beregneren?
 
-1. Skriv dit daglige energiforbrug. Brug fx denne beregner til dit [daglige energiforbrug]({% link _posts/2019-10-31-avanceret-stofskifteberegner.md %}).
+1. Skriv dit daglige energiforbrug. Brug fx denne beregner til dit [daglige energiforbrug]({% link _posts/2019-11-01-stofskifteberegner-avanceret.md %}).
 2. Skriv dit forventede daglige indtag af energi, som du planlægger i din kostplan.
 3. Hvis vurderingen fra beregneren siger, at dit vægttab vil blive højt eller ekstremt, så bør du genoverveje den plan, du har lagt.
 

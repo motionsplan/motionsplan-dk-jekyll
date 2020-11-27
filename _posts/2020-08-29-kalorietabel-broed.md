@@ -1,5 +1,5 @@
 ---
-title: &title "Kalorietabel for brød: Tabel med kalorier for brød 🍞"
+title: &title "Kalorietabel for brød: Tabel med kalorier i brød 🍞"
 permalink: /kalorietabel-broed/
 last_modified_at: 2020-07-29T09:41:09Z
 language: da
@@ -26,7 +26,7 @@ Mange vil gerne vide, hvor mange kalorier, der er i brød, så jeg har lavet den
 
 Kalorietabellen indeholder forskellige typer brød. I tabellen kan du finde kalorier for forskellige typer brød. Du kan også se en [komplet kalorietabel]({% link _posts/2020-08-29-kalorietabellen.md %}), [kalorietabel over forskellige frugter]({% link _posts/2020-08-29-kalorietabel-frugt.md %}), [kalorietabel over grøntsager]({% link _posts/2020-08-29-kalorietabel-groentsager.md %}) eller [kalorietabel over forskellige typer kød]({% link _posts/2020-08-29-kalorietabel-koed.md %}).
 
-Jeg har skrevet lidt om, hvad [kalorier, kilokalorier, cal og kcal er i et andet blog indlæg]({% link _posts/2020-07-09-kalorier.md %}). Mange kigger på kalorier i fødevarer sammen med [stofskiftet og ligevægtsindtaget, som jeg har lavet en beregner til]({% link _posts/2019-10-31-simpel-stofskifteberegner.md %}). Jeg har også lavet en oversigt over [MET-værdier]({% link _posts/2020-07-24-met.md %}), hvor du kan finde ud af, hvor meget energi forskellige aktiviteter kræver.
+Jeg har skrevet lidt om, hvad [kalorier, kilokalorier, cal og kcal er i et andet blog indlæg]({% link _posts/2020-07-09-kalorier.md %}). Mange kigger på kalorier i fødevarer sammen med [stofskiftet og ligevægtsindtaget, som jeg har lavet en beregner til]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}). Jeg har også lavet en oversigt over [MET-værdier]({% link _posts/2020-07-24-met.md %}), hvor du kan finde ud af, hvor meget energi forskellige aktiviteter kræver.
 
 ## Kilder til kalorietabellen over brød
 

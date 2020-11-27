@@ -1,5 +1,5 @@
 ---
-title: "Rackpull"
+title: &title "Rackpull"
 instructions: "Start med stangen ved knæene og bøj dig forover uden at bøje alt for meget i knæene. Hold ved stangen i skulderbredde og med modsatrettede hænder. Rejs dig ved at strække i hoften. Træner øverste del af dødløftet."
 permalink: /oevelse/rackpull-0/
 redirect_from: /node/268
@@ -9,6 +9,7 @@ header:
   overlay_image: /assets/images/exercises/rackpull-0-0.jpg
   teaser: /assets/images/exercises/rackpull-0-0-320.jpg
   caption: Rackpull
+  caption: *title
 tags:
   - Styrketræning
   - hoftedomineret
@@ -31,15 +32,15 @@ gallery:
   - url: /assets/images/exercises/rackpull-0-0.jpg
     image_path: /assets/images/exercises/rackpull-0-0-320.jpg
     alt: "Rackpull"
-    title: "Rackpull"
+    title: &title "Rackpull"
   - url: /assets/images/exercises/rackpull-0-1.jpg
     image_path: /assets/images/exercises/rackpull-0-1-320.jpg
     alt: "Rackpull"
-    title: "Rackpull"
+    title: &title "Rackpull"
   - url: /assets/images/exercises/rackpull-0-2.jpg
     image_path: /assets/images/exercises/rackpull-0-2-320.jpg
     alt: "Rackpull"
-    title: "Rackpull"
+    title: &title "Rackpull"
 last_modified_at: 2020-03-18T07:43:39Z
 video:
   provider: youtube

@@ -1,16 +1,18 @@
 ---
-title: "Hvad får muskler til at vokse, og hvordan skal man træne? 💪"
+title: &title "Hvad får muskler til at vokse, og hvordan skal man træne? 💪"
 permalink: /hvordan-vokser-muskler/
 excerpt: "Hvad får muskler til at vokse (hypertrofi), og hvordan vokser muskler egentlig? Hvilken træning skal du lave for at få musklerne til blive større?"
 language: da
 header:
   overlay_image: https://images.askmen.com/1080x540/2016/03/10-044705-best_training_methods_for_muscle_growth.jpg
   teaser: https://images.askmen.com/1080x540/2016/03/10-044705-best_training_methods_for_muscle_growth.jpg
+  caption: *title
 category:
   - Styrketræning
 tags:
   - hypertrofi
   - træningsmetoder
+  - muskler
 last_modified_at: 2020-05-29T23:14:14Z
 toc: true
 ---
@@ -27,7 +29,9 @@ Jeg har researchet lidt på, hvad der får muskler til at vokse, og hvordan musk
 
 **Musklerne vokser fordi de bliver udsat for et ydre stress. Tilsyneladende er den væsentligste _driver_ til muskeltilvækst (hypertrofi) træningsvolumen og den mekaniske spænding i musklerne og muskelfibrene og følsomheden over for strækket og kraften genereret i musklen. Muskelskade er en biprodukt af den mekaniske spænding, men måske ikke i sig selv nødvendig for muskelvækst, selvom nedbrydningen formentlig igangsætter reparationen, der er nødvendig for at få styrken tilbage. Udtrætning af musklen kan være med til at forøge det mekaniske stress i musklen.**
 
-Muskelvækst er en kompliceret størrelse. Hvis musklerne skal vokse kræver det først og fremmest, at kroppen er i **overskud**. Det betyder, at træningen skal være planlagt, så man også når at **restituere**, og at kroppen er i **energioverskud** gennem kosten. Den enkeltes genetik spiller naturligvis også kraftigt ind i evnen til at vokse - og et er klart lettere for mænd end kvinder pga. den hormonelle sammensætning.
+Muskelvækst er en kompliceret størrelse. Hvis musklerne skal vokse kræver det først og fremmest, at kroppen er i **overskud**. Det betyder, at træningen skal være planlagt, så man også når at **restituere**, og det er lettere at opbygge muskler, når man er i **energioverskud** gennem kosten.
+
+Den enkeltes genetik spiller naturligvis også kraftigt ind i evnen til at vokse, men den hormonelle sammensætning kan også spille ind for den enkelte i forhold til hvor let det er at få større muskler. I den forbindelse er der imidlertid [ikke så meget forskel på mænd og kvinders muskler og potentiale for at vokse]({% link _posts/2020-06-29-maend-kvinder-muskler.md %}).
 
 Hvorfor er det interessant at kigge på hypertrofi?
 
@@ -40,13 +44,15 @@ Træningen påvirker ikke bare de enkelte muskler, men kroppen som helhed. Træn
 
 ## Fysiologiske drivere ved muskelvækst
 
-Det er interessant, hvad der sker i kroppen på celleniveau, der får muskelcellerne til at vokse, men det er også ret kompliceret at forklare. Du kan læse mere om [i denne glimrende artikel om fysiologien bag muskelvækst ](https://renaissanceperiodization.com/expert-advice/physiology-of-muscle-hypertrophy)
+Det er interessant, hvad der sker i kroppen på celleniveau, der får muskelcellerne til at vokse, men det er også ret kompliceret at forklare. Det kan du læse mere om [i denne glimrende artikel om fysiologien bag muskelvækst ](https://renaissanceperiodization.com/expert-advice/physiology-of-muscle-hypertrophy)
 
 I korte træk kræver muskelvækst et _stimulus_ og en efterfølgende _genopbygnings- og reparations_-fase.
 
-I forhold til **træning som stimulus** tyder meget på, at den væsentligste _driver_ til hypertrofi er træningsvolumen og den mekaniske spænding i musklerne og -fibrene og følsomheden over for strækket og kraften genereret i musklen (Damas, Libardi og Ugrinowitch 2017; Schoenfeld 2010). Muskelskade er en biprodukt af den mekaniske spænding, men måske ikke i sig selv nødvendig for muskelvækst, selvom nedbrydningen formentlig igangsætter reparationen, der er nødvendig for at få styrken tilbage (Kwon n.d.; Hernandez n.d.; Schoenfeld 2010).
+I forhold til **træning som stimulus** tyder meget på, at den væsentligste _driver_ til hypertrofi er træningsvolumen og den mekaniske spænding i musklerne og -fibrene og følsomheden over for strækket og kraften genereret i musklen (Damas, Libardi og Ugrinowitch 2017; Schoenfeld 2010).
 
-Grundlæggende kan man dog sige at musklen kan gå i gennem disse tre stadier for at få muskelvækst.
+Muskelskade er en biprodukt af den mekaniske spænding, men måske ikke i sig selv nødvendig for muskelvækst, selvom nedbrydningen formentlig igangsætter reparationen, der er nødvendig for at få styrken tilbage (Kwon n.d.; Hernandez n.d.; Schoenfeld 2010).
+
+Grundlæggende kan man dog sige, at musklen kan gå i gennem disse tre stadier for at få muskelvækst.
 
 - **Følsomhed over for spænding.** Det stress træning placerer på muskelfibrene fordi flere kontraktile proteiner linker, signalerne kommer hurtigere fra _motor units_, og strækket på fiberen fra bevægelsen forårsager en øget aktivering af proteinsyntesen gennem nogle komplicerede modeller, som . Det ser også ud til at cellehævelsen måske har effekt på muskelvæksten.
 - **Metabolit ophobning forårsaget af udtrætning.** Ophobning af lactat, hydrogen ioner (sænker pH) og phosphat-molekyler i cellerne kan også være med til at øge aktiveringen af proteinsyntesen gennem andre komplicerede processer.
@@ -153,13 +159,13 @@ Hør Mike Israetel selv forklare begreberne.
 
 ## Ledvinkler og variationer
 
-Hvis man gerne vil have muskler til at vokse, så kan det have betydning at ramme musklerne fra forskellige ledvinkler. F løber triceps over to led, og det lange hoved af triceps kan rammes bedre af nogle øvelser end af andre. Det samme er tilfældet med brystmusklen. 
+Hvis man gerne vil have muskler til at vokse, så kan det have betydning at ramme musklerne fra forskellige ledvinkler. Fx løber triceps over to led, og det lange hoved af triceps kan rammes bedre af nogle øvelser end af andre. Det samme er tilfældet med brystmusklen. 
 
 Det handler altså om, at musklen kan opleve mere eller mindre stræk og mekanisk belastning i forhold til arbejdsvinklerne.
 
 ## Opsamling
 
-At få større muskler handler altså først og fremmest om at skabe mekanisk spænding, at ophobe metabolitter og muskelskade er formentlig et biprodukt, men kan muskelskaderne kan også være vækstsignaler ift. proteinsyntesen.
+At få større muskler handler altså først og fremmest om at skabe mekanisk spænding, at ophobe metabolitter og muskelskade er formentlig et biprodukt, men måske kan muskelskaderne også være vækstsignaler ift. proteinsyntesen.
 
 Formentlig skal rep-range ligge mellem 8-20 og RPE skal ligge omkring 8.5 - 9 i de enkelte sæt. Man kan bruge Mike Israetels tabel til at finde ud af, hvor mange sæt, man skal lave ugentligt.
 

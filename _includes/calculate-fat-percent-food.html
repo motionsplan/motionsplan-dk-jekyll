@@ -3,18 +3,18 @@
         <legend>Udregning af fedtenergiprocent i mad. Indtast værdier</legend>
         <div class="form-group">
             <label for="age">Kilojoule pr. 100 g (kJ)</label>
-            <input name="kj" id="kj" type="number" min="1" max="10000" placeholder="kJ pr. 100 g" step="0.1">
+            <input name="kj" id="kj" type="number" min="1" max="10000" placeholder="kJ pr. 100 g" step="0.1" required>
         </div>
         <div class="form-group">
             <label for="height">Fedt pr. 100 g (g)</label>
-            <input name="fat" id="fat" type="number" min="1" max="100" placeholder="Gram fedt pr. 100 g" step="0.1">
+            <input name="fat" id="fat" type="number" min="1" max="100" placeholder="Gram fedt pr. 100 g" step="0.1" required>
         </div>
         <input type="submit" value="Udregn">
     </fieldset>
     <fieldset class="results">
         <legend>Resultater</legend>
         <label>Fedtenergiprocent (E%)
-            <input disabled="disabled" name="fedtenergiprocent" id="fat_energy_pct" type="text" placeholder="">
+            <input disabled name="fedtenergiprocent" id="fat_energy_pct" type="text">
         </label>
     </fieldset>
 </form>

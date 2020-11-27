@@ -1,5 +1,5 @@
 ---
-title: "Bænkpres, incline"
+title: &title "Bænkpres, incline"
 excerpt: "Liggende på en skrå bænk bruger du enten håndvægte eller en vægtstang. Bevægelsen starter med strakte arme og vægten føres ned indtil albuerne er omkring 90 grader. Tilbage til udgangspunktet."
 instructions: "Liggende på en skrå bænk bruger du enten håndvægte eller en vægtstang. Bevægelsen starter med strakte arme og vægten føres ned indtil albuerne er omkring 90 grader. Tilbage til udgangspunktet."
 permalink: /oevelse/baenkpres-skraa/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/baenkpres-skraa-0.jpg
   teaser: /assets/images/exercises/baenkpres-skraa-0-320.jpg
+  caption: *title
 tags:
   - vægtstang
   - håndvægte
@@ -31,11 +32,11 @@ gallery:
   - url: /assets/images/exercises/baenkpres-skraa-0.jpg
     image_path: /assets/images/exercises/baenkpres-skraa-0-320.jpg
     alt: "Bænkpres, incline"
-    title: "Bænkpres, incline"
+    title: &title "Bænkpres, incline"
   - url: /assets/images/exercises/baenkpres-skraa-1.jpg
     image_path: /assets/images/exercises/baenkpres-skraa-1-320.jpg
     alt: "Bænkpres, incline"
-    title: "Bænkpres, incline"
+    title: &title "Bænkpres, incline"
 video:
   provider: vimeo
   id: 4976755

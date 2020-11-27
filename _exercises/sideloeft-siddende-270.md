@@ -1,5 +1,5 @@
 ---
-title: "Sideløft, siddende"
+title: &title "Sideløft, siddende"
 excerpt: "Siddende foroverbøjet på en bænk føres vægtene med let bøjede arme ud i til siden og opad. Bevægelsen stoppes, når albuer er på højde med skulderne. Vægtene sænkes kontrolleret tilbage til udgangspositionen."
 instructions: "Siddende foroverbøjet på en bænk føres vægtene med let bøjede arme ud i til siden og opad. Bevægelsen stoppes, når albuer er på højde med skulderne. Vægtene sænkes kontrolleret tilbage til udgangspositionen."
 permalink: /oevelse/sideloeft-siddende/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/sideloeft-siddende-0.jpg
   teaser: /assets/images/exercises/sideloeft-siddende-0-320.jpg
+  caption: *title
 tags:
   - Træk
   - Styrketræning
@@ -32,15 +33,15 @@ gallery:
   - url: /assets/images/exercises/sideloeft-siddende-0.jpg
     image_path: /assets/images/exercises/sideloeft-siddende-0-320.jpg
     alt: "Sideløft, siddende"
-    title: "Sideløft, siddende"
+    title: &title "Sideløft, siddende"
   - url: /assets/images/exercises/sideloeft-siddende-1.jpg
     image_path: /assets/images/exercises/sideloeft-siddende-1-320.jpg
     alt: "Sideløft, siddende"
-    title: "Sideløft, siddende"
+    title: &title "Sideløft, siddende"
   - url: /assets/images/exercises/sideloeft-siddende-2.jpg
     image_path: /assets/images/exercises/sideloeft-siddende-2-320.jpg
     alt: "Sideløft, siddende"
-    title: "Sideløft, siddende"
+    title: &title "Sideløft, siddende"
 last_modified_at: 2014-10-12T19:24:09Z
 ---
 

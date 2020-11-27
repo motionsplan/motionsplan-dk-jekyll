@@ -1,5 +1,5 @@
 ---
-title: "SMR skulder"
+title: &title "SMR skulder"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/smr-skulder/

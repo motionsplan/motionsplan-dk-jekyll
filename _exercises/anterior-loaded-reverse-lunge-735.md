@@ -1,5 +1,5 @@
 ---
-title: "Anterior loaded reverse lunge"
+title: &title "Anterior loaded reverse lunge"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/anterior-loaded-reverse-lunge/

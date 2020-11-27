@@ -1,5 +1,5 @@
 ---
-title: "Triceps liggende"
+title: &title "Triceps liggende"
 excerpt: "Liggende på en bænk og sænk armene bag hovedet til vandret."
 instructions: "Liggende på en bænk og sænk armene bag hovedet til vandret."
 permalink: /oevelse/triceps-liggende/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/triceps-liggende-0.jpg
   teaser: /assets/images/exercises/triceps-liggende-0-320.jpg
+  caption: *title
 tags:
   - Træk
   - Styrketræning
@@ -33,15 +34,15 @@ gallery:
   - url: /assets/images/exercises/triceps-liggende-0.jpg
     image_path: /assets/images/exercises/triceps-liggende-0-320.jpg
     alt: "Triceps liggende"
-    title: "Triceps liggende"
+    title: &title "Triceps liggende"
   - url: /assets/images/exercises/triceps-liggende-1.jpg
     image_path: /assets/images/exercises/triceps-liggende-1-320.jpg
     alt: "Triceps liggende"
-    title: "Triceps liggende"
+    title: &title "Triceps liggende"
   - url: /assets/images/exercises/triceps-liggende-2.jpg
     image_path: /assets/images/exercises/triceps-liggende-2-320.jpg
     alt: "Triceps liggende"
-    title: "Triceps liggende"
+    title: &title "Triceps liggende"
 video:
   provider: vimeo
   id: 5016519

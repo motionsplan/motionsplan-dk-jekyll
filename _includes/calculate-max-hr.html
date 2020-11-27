@@ -1,16 +1,33 @@
 <form class="calculator" id="calculator_maxhr">
     <fieldset>
-        <legend>Udregn maxpulsen (HR<sub>max</sub>)</legend>
+        <legend>Udregn maxpulsen (HR<sub>max</sub>) baseret på alderen</legend>
         <div class="form-group">
-            <label for="age">Alder (år)</label>
-            <input type="number" min="0" max="120" id="age" placeholder="Alder i år" />
+            <label>Formel for udregning af maxpulsen
+            <select name="maxhr-formula">
+                <option value="fox">Fox (den mest brugte)</option>
+                <option value="tanaka" selected>Tanaka (2001)</option>
+                <option value="aastrand">Aastrand</option>
+                <option value="arena">Arena</option>
+                <option value="nes">Nes</option>
+                <option value="fairbarn_female">Fairbarn female</option>
+                <option value="fairbarn_male">Fairbarn male</option>
+                <option value="gellish">Gellish</option>
+                <option value="gulati">Gulati</option>
+            </select>
+            </label>
         </div>
-        <input type="submit" value="Beregn" />
+        <div class="form-group">
+            <label>Alder (år)
+                <input type="number" min="0" max="120" name="age" placeholder="Alder i år" required>
+            </label>
+        </div>
+        <input type="submit" value="Beregn">
     </fieldset>
     <fieldset class="results">
         <div class="form-group">
-            <label for="max_hr">Maxpuls (slag/min)</label>
-            <input id="max_hr" disabled="disabled">
+            <label>Maxpuls (slag/min)
+                <input name="max_hr" disabled>
+            </label>
         </div>
     </fieldset>
 </form>

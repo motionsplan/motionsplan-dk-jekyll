@@ -2,16 +2,19 @@
     <fieldset>
         <legend>Beregning af løbeøkonomi</legend>
         <div class="form-group">
-            <label>Vægt (kg)</label>
-            <input type="number" name="weight" placeholder="kg" step="0.01">
+            <label>Vægt (kg)
+                <input type="number" name="weight" placeholder="kg" step="0.01" required>
+            </label>
         </div>
         <div class="form-group">
-            <label>Hastighed (km/t)</label>
-            <input type="number" name="velocity" placeholder="km/t" step="0.01">
+            <label>Hastighed (km/t)
+                <input type="number" name="velocity" placeholder="km/t" step="0.01" required>
+            </label>
         </div>
         <div class="form-group">
-            <label>Iltoptagelse (l O<sub>2</sub>/min)</label>
-            <input type="number" name="oxygenuptake" placeholder="l/min" step="0.01">
+            <label>Iltoptagelse (l O<sub>2</sub>/min)
+                <input type="number" name="oxygenuptake" placeholder="l/min" step="0.01" required>
+            </label>
         </div>
         <input type="submit" value="Beregn">
     </fieldset>
@@ -19,7 +22,7 @@
         <legend></legend>
         <div class="form-group">
             <label>Løbeøkonomi (ml O<sub>2</sub>/kg/km)</label>
-            <input type="text" id="running_economy" name="running_economy" disabled="disabled" class="input-small">
+            <input type="text" id="running_economy" name="running_economy" disabled class="input-small">
         </div>
     </fieldset>
 </form>

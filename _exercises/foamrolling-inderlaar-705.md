@@ -1,5 +1,5 @@
 ---
-title: "Foamrolling inderlår"
+title: &title "Foamrolling inderlår"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/foamrolling-inderlaar/

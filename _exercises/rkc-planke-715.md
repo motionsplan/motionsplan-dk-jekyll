@@ -1,5 +1,5 @@
 ---
-title: "RKC Planke"
+title: &title "RKC Planke"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/rkc-planke/

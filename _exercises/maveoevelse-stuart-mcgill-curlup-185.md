@@ -1,5 +1,5 @@
 ---
-title: "Maveøvelse, Stuart McGill curlup"
+title: &title "Maveøvelse, Stuart McGill curlup"
 excerpt: "Lig på ryggen. Bøj det ene ben. En hånd under ryggen for at sikre, at der er en naturlig kurve i ryggen. Kig opad. Løft brystkassen lige op mod loftet."
 instructions: "Lig på ryggen. Bøj det ene ben. En hånd under ryggen for at sikre, at der er en naturlig kurve i ryggen. Kig opad. Løft brystkassen lige op mod loftet."
 permalink: /oevelse/maveoevelse-stuart-mcgill-curlup/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/maveoevelse-stuart-mcgill-curlup-0.jpg
   teaser: /assets/images/exercises/maveoevelse-stuart-mcgill-curlup-0-320.jpg
+  caption: *title
 tags:
   - kropsstamme
   - kropsvægt
@@ -25,15 +26,15 @@ gallery:
   - url: /assets/images/exercises/maveoevelse-stuart-mcgill-curlup-0.jpg
     image_path: /assets/images/exercises/maveoevelse-stuart-mcgill-curlup-0-320.jpg
     alt: "Maveøvelse, Stuart McGill curlup"
-    title: "Maveøvelse, Stuart McGill curlup"
+    title: &title "Maveøvelse, Stuart McGill curlup"
   - url: /assets/images/exercises/maveoevelse-stuart-mcgill-curlup-1.jpg
     image_path: /assets/images/exercises/maveoevelse-stuart-mcgill-curlup-1-320.jpg
     alt: "Maveøvelse, Stuart McGill curlup"
-    title: "Maveøvelse, Stuart McGill curlup"
+    title: &title "Maveøvelse, Stuart McGill curlup"
   - url: /assets/images/exercises/maveoevelse-stuart-mcgill-curlup-2.jpg
     image_path: /assets/images/exercises/maveoevelse-stuart-mcgill-curlup-2-320.jpg
     alt: "Maveøvelse, Stuart McGill curlup"
-    title: "Maveøvelse, Stuart McGill curlup"
+    title: &title "Maveøvelse, Stuart McGill curlup"
 last_modified_at: 2011-04-16T09:09:12Z
 ---
 

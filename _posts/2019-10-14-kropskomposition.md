@@ -1,5 +1,5 @@
 ---
-title: "Kropskomposition 101 - fedtprocent og fedtfri masse"
+title: &title "Kropskomposition 101 - fedtprocent og fedtfri masse"
 permalink: /kropskomposition/
 redirect_from:
   - /artikel/kropskomposition/
@@ -8,6 +8,7 @@ language: da
 header:
   overlay_image: https://crossfitdnr.com/wp-content/uploads/2019/08/inbody-dnr-570.jpg
   teaser: https://crossfitdnr.com/wp-content/uploads/2019/08/inbody-dnr-570.jpg
+  caption: *title
 category:
   - Ernæring
 tags:
@@ -86,7 +87,7 @@ Hvordan kan man så bestemme kropskompositionen? Her lister vi nogle forskellige
 
 ### Hydrostatisk vejning (vandvejning)
 
-Vandvejning udregner din fedtprocent ved hjælp af din kropsvægt under vandet. Først skal du tømme lungerne for luft, og så dykker du ned under vandet på en særlig vægt. Derefter sammenlignes undervandsvægten med din vægt på land. Sammen med densiteten af vandet i poolen og en række udregner, kan man man finde frem til din krops fedtprocent.
+Vandvejning udregner din fedtprocent ved hjælp af din kropsvægt under vandet. Først skal du tømme lungerne for luft, og så dykker du ned under vandet på en særlig vægt. Derefter sammenlignes undervandsvægten med din vægt på land. Sammen med densiteten af vandet i poolen og en række udregninger, kan man man finde frem til din krops fedtprocent.
 
 Hydrostatisk vejning (vandvejning) er meget præcis, og det har tidligere været 'guldstandarden' for at bestemme fedtprocent. Metoden kan imidlertid ikke bestemme de andre dele af kroppen, såsom muskler, vand og _dry lean mass_. 
 
@@ -96,19 +97,17 @@ Det er ikke så let at få lavet en vandvejning.
 
 ### DEXA-scanning - Dual Energy X-Ray Absorptiometry (DEXA)
 
-DEXA-scanning får du stråler gennem kroppen. Oprindeligt var DEXA skabt til at måle densiteten af knoglerne, men metoden kan også bruges til at måle fedt og muskelmasse. Målingen består i, at man måler på forskellen i strålerne før og efter.
+I DEXA-scanning får du stråler gennem kroppen. Oprindeligt var DEXA skabt til at måle densiteten af knoglerne, men metoden kan også bruges til at måle fedt og muskelmasse. Målingen består i, at man måler på forskellen i strålerne før og efter, at de har været igennem kroppen.
 
-I modsætning til vandvejning kan DEXA-scannere måle de enkelte segmenter, så man kan se, hvor meget fedt man har i ekstremiteterne og i torsoen.
+I modsætning til vandvejning kan DEXA-scannere måle de enkelte segmenter, så man kan se, hvor meget fedt man har i ben og arme og i selve kropsstammen.
 
-DEXA-scanner vil ofte være relativt dyrt at få lavet.
+DEXA-scanner er ofte relativt dyrt at få lavet.
 
 {% include figure image_path="https://cdn.shopify.com/s/files/1/0832/8945/files/1047px-DEXA_scanner_in_use_ALSPAC_grande.jpg?8848881564353978401" caption="DEXA-scanner. Image Credit: [Nick Smith photography](http://www.nicksmithphotography.com/)" alt="DEXA Scanner" %}
 
 ### Hudfoldsmåling (fedttang)
 
-Måling med fedttang er relativt udbredt, og alle kan lære at bruge en fedttang. Du måler det eksterne fedt ved med to fingre at samle hud og måle, hvor tyk hudfolden er. Målingerne bliver taget ind i matematiske formler, som så bestemmer fedtmassen i hele kroppen.
-
-Du skal være opmærksom på, at reproducerbarheden af testen med fedttang ikke er så høj som de andre typer målinger - og at vedkommende, der udfører testen, er øvet.
+Måling med fedttang er relativt udbredt, og alle kan lære at bruge en fedttang. Du måler det eksterne fedt ved med to fingre at samle hud og måle, hvor tyk hudfolden er. Målingerne bliver lagt ind i matematiske formler, som så bestemmer fedtmassen i hele kroppen.
 
 {% include figure image_path="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfozK6s5V4DcMgTzb_xxa_iDhOspJxuNDAl-rIR0myepmBg-5nSg" caption="Skinfold Caliper målinger" alt="Skinfold Caliper målinger" %}
 
@@ -118,9 +117,9 @@ Du skal være opmærksom på, at reproducerbarheden af testen med fedttang ikke 
 
 ### Bioimpedans - Bioelectric Impedance Analysis (BIA)
 
-Ved analyse af kropssammensætning med bioimpedans sættes små elektriske signaler (impedans) gennem kroppen og der måles på modstanden gennem kroppens vand. Modstanden er nemlig forskellig i vævstyper. Det er let at lave en bioimpedans-test selv, hvis du har adgang til udstyret. 
+Ved analyse af kropssammensætning med bioimpedans sættes små elektriske signaler (impedans) gennem kroppen og der måles på modstanden gennem kroppens væv. Modstanden er nemlig forskellig i vævstyper. Det er let at lave en bioimpedans-test selv, hvis du har adgang til udstyret. 
 
-Der er stor forskel i kvaliteten og præcisionen af BIA-apparater - og det er nok tvivlsomt, hvor gode resultaterne er af de apparater, man kan købe til private. På den anden side er der kommet ret præcise, moderne apparater frem, som kan måle hele kroppen direkte og også lave segement-analyse. 
+Der er stor forskel i kvaliteten og præcisionen af BIA-apparater - og det er nok tvivlsomt, hvor gode resultaterne er af de apparater, man kan købe til private. På den anden side er der kommet apparater frem, som kan måle hele kroppen direkte og også lave segement-analyse. Apparaterne fra fx InBody har vist en relativt god korrelation med DEXA-scanninger.
 
 Fordi BIA virker ved at måle på vandet i kroppen, så får man brugbar information også om vandbalancen i kroppen. Samtidig får man information om muskelmasse, _lean body mass_ og fedtprocent.
 

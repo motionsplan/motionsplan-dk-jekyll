@@ -1,5 +1,5 @@
 ---
-title: "Mave, captains chair"
+title: &title "Mave, captains chair"
 excerpt: "Hvil på armstøtterne. Bøj i hoften til benene er vandrette med jorden. Kontrolleret tilbage til udgangspunktet."
 instructions: "Hvil på armstøtterne. Bøj i hoften til benene er vandrette med jorden. Kontrolleret tilbage til udgangspunktet."
 permalink: /oevelse/mave/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/mave-0.jpg
   teaser: /assets/images/exercises/mave-0-320.jpg
+  caption: *title
 tags:
   - kropsstamme
   - maskine
@@ -23,15 +24,15 @@ gallery:
   - url: /assets/images/exercises/mave-0.jpg
     image_path: /assets/images/exercises/mave-0-320.jpg
     alt: "Mave, captains chair"
-    title: "Mave, captains chair"
+    title: &title "Mave, captains chair"
   - url: /assets/images/exercises/mave-1.jpg
     image_path: /assets/images/exercises/mave-1-320.jpg
     alt: "Mave, captains chair"
-    title: "Mave, captains chair"
+    title: &title "Mave, captains chair"
   - url: /assets/images/exercises/mave-2.jpg
     image_path: /assets/images/exercises/mave-2-320.jpg
     alt: "Mave, captains chair"
-    title: "Mave, captains chair"
+    title: &title "Mave, captains chair"
 last_modified_at: 2013-04-21T14:21:02Z
 ---
 

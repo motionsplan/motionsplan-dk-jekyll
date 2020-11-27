@@ -1,126 +1,136 @@
-<form class="calculator" id="calculator_fatpercent">
+<form class="calculator" id="calculator_fat_percent_measurement">
     <fieldset>
-        <legend>Fedtprocent ud fra målebånd.</legend>
-        <p>Jeg har ikke kunnet finde en <em>open source</em> formel, som kan bruges til at lave denne beregner.</p>
-        <p>Hvis du vil hjælpe med en formel, så er det meget velkomment.</p>
+        <legend>Vælg din aldersgruppe</legend>
+        <div class="form-group">
+            <label>
+                <select name="group">
+                    <option value="">Vælg køn og alder</option>
+                    <option value="men_under_26">Mænd 18-26 år</option>
+                    <option value="men_over_26">Mænd 27-50 år</option>
+                    <option value="women_under_26">Kvinder 18-26 år</option>
+                    <option value="women_over_26">Kvinder 27-50 år</option>
+                </select>
+            </label>
+        </div>
     </fieldset>
 </form>
 
-{% comment %}
-<table width="100%">
-    <tbody>
-        <tr>
-            <td bgcolor="#daecef"><a href="#mu26">Mænd 18-26 år</a></td>
-            <td bgcolor="#daecef"><a href="#mo26">Mænd 27-50år</a></td>
-            <td bgcolor="#f0dbf0"><a href="#wu26">Kvinder 18-26 år</a></td>
-            <td bgcolor="#f0dbf0"><a href="#wo26">Kvinder 27-50år</a></td>
-        </tr>
-    </tbody>
-</table>
-
-<hr>
-
-<h3 id="mu26">Mænd 18-26 år</h3>
-<form class="calculator" id="calculator_fat_percent_mu26">
+<form class="calculator" id="calculator_fat_percent_men_under_26">
+    <h3>Mænd 18-26 år</h3>
     <fieldset>
         <legend>Brug et målebånd til at måle omkredsen i millimeter på de angivne steder</legend>
         <div class="form-group">
-            <label for="Overarm_mu26">Overarm (strakt arm, mål midt mellem skulder og albue) (mm)</label>
-            <input name="Overarm_mu26" id="Overarm_mu26" type="number" min="100" max="1000" placeholder="Omkreds om overarmen i mm" step="0.1">
+            <label>Overarm (strakt arm, mål midt mellem skulder og albue) (mm)
+                <input name="right_upperarm" type="number" min="100" max="1000" placeholder="Omkreds om overarmen i mm" step="0.1">
+            </label>
         </div>
         <div class="form-group">
-            <label for="Mave_mu26">Talje (2 cm over navlen) (mm)</label>
-            <input name="Mave_mu26" id="Mave_mu26" type="number" min="100" max="1000" placeholder="Omkreds om taljen i mm" step="0.1">
+            <label>Talje (2 cm over navlen) (mm)
+                <input name="abdomen" type="number" min="100" max="1000" placeholder="Omkreds om taljen i mm" step="0.1">
+            </label>
         </div>
         <div class="form-group">
-            <label for="Underarm_mu26">Underarm (strakt arm, største omkreds) (mm)</label>
-            <input name="Underarm_mu26" id="Underarm_mu26" type="number" min="100" max="1000" placeholder="Omkreds om underarm i mm" step="0.1">
+            <label>Underarm (strakt arm, største omkreds) (mm)
+                <input name="right_forearm" type="number" min="100" max="1000" placeholder="Omkreds om underarm i mm" step="0.1">
+            </label>
         </div>
         <input type="submit" value="Beregn">
     </fieldset>
     <fieldset class="results">
         <div class="form-group">
-            <label for="fat_mu26">Fedtprocent (%)</label>
-            <input name="Fedt_mu26" type="text" id="fat_mu26" disabled="disabled">
+            <label>Fedtprocent (%)
+                <input name="fat_men_under_26" type="text" disabled>
+            </label>
         </div>
     </fieldset>
 </form>
 
-<h3 id="mo26">Mænd 27-50 år</h3>
-<form class="calculator" id="calculator_fat_percent_mo26">
+<form class="calculator" id="calculator_fat_percent_men_over_26">
+    <h3>Mænd 27-50 år</h3>
     <fieldset>
         <legend>Brug et målebånd til at måle omkredsen i millimeter på de angivne steder</legend>
         <div class="form-group">
-            <label for="Hofter_mo26">Hofter (største omkreds ved ballerne) (mm)</label>
-            <input name="Hofter_mo26" id="Hofter_mo26" type="number" min="100" max="1000" placeholder="Omkreds om hoften i mm" step="0.1">
+            <label>Hofter (største omkreds ved ballerne) (mm)
+                <input name="hips" type="number" min="100" max="1000" placeholder="Omkreds om hoften i mm" step="0.1">
+            </label>
         </div>
         <div class="form-group">
-            <label for="Mave_mo26">Talje (2 cm over navlen) (mm)</label>
-            <input name="Mave_mo26" id="Mave_mo26" type="number" min="100" max="1000" placeholder="Omkreds om taljen i mm" step="0.1">
+            <label>Talje (2 cm over navlen) (mm)
+                <input name="abdomen" type="number" min="100" max="1000" placeholder="Omkreds om taljen i mm" step="0.1">
+            </label>
         </div>
         <div class="form-group">
-            <label for="Underarm_mo26">Underarm (strakt arm, største omkreds) (mm)</label>
-            <input name="Underarm_mo26" id="Underarm_mo26" type="number" min="100" max="1000" placeholder="Omkreds om underarm i mm" step="0.1">
+            <label>Underarm (strakt arm, største omkreds) (mm)
+                <input name="right_forearm" type="number" min="100" max="1000" placeholder="Omkreds om underarm i mm" step="0.1">
+            </label>
         </div>
         <input type="submit" value="Beregn">
     </fieldset>
     <fieldset class="results">
         <div class="form-group">
-            <label for="fat_mo26">Fedtprocent (%)</label>
-            <input name="Fedt_mo26" type="text" id="fat_mo26" disabled="disabled">
+            <label>Fedtprocent (%)
+                <input name="fat_men_over_26" type="text" disabled>
+            </label>
         </div>
     </fieldset>
 </form>
 
-<h3 id="wu26">Kvinder 18-26 år</h3>
-<form class="calculator" id="calculator_fat_percent_wu26">
+<form class="calculator" id="calculator_fat_percent_women_under_26">
+    <h3>Kvinder 18-26 år</h3>
     <fieldset>
         <legend>Brug et målebånd til at måle omkredsen i millimeter på de angivne steder</legend>
         <div class="form-group">
-            <label for="Mave_wu26">Talje (2 cm over navlen) (mm)</label>
-            <input name="Mave_wu26" id="Mave_wu26" type="number" min="100" max="1000" placeholder="Omkreds af talje i mm" step="0.1">
+            <label>Talje (2 cm over navlen) (mm)
+                <input name="abdomen" type="number" min="100" max="1000" placeholder="Omkreds af talje i mm" step="0.1">
+            </label>
         </div>
         <div class="form-group">
-            <label for="Laar_wu26">Lår (lige under ballen) (mm)</label>
-            <input name="Laar_wu26" id="Laar_wu26" type="number" min="100" max="1000" placeholder="Omkreds af lår i mm" step="0.1">
+            <label>Lår (lige under ballen) (mm)
+                <input name="right_thigh" type="number" min="100" max="1000" placeholder="Omkreds af lår i mm" step="0.1">
+            </label>
         </div>
-        <div class ="form-group">
-            <label for="Underarm_wu26">Underarm (strakt arm, største omkreds) (mm)</label>
-            <input name="Underarm_wu26" id="Underarm_wu26" type="number" min="100" max="1000" placeholder="Omkreds af underarm i mm" step="0.1">
+        <div class="form-group">
+            <label>Underarm (strakt arm, største omkreds) (mm)
+                <input name="right_forearm" type="number" min="100" max="1000" placeholder="Omkreds af underarm i mm" step="0.1">
+            </label>
         </div>
         <input type="submit" value="Beregn">
     </fieldset>
     <fieldset class="results">
         <div class="form-group">
-            <label for="fat_wu26">Fedtprocent (%)</label>
-            <input name="Fedt_wu26" type="text" id="fat_wu26" disabled="disabled">
+            <label>Fedtprocent (%)
+                <input name="fat_women_under_26" type="text" disabled>
+            </label>
         </div>
     </fieldset>
 </form>
 
-<h3 id="wo26">Kvinder 27-50 år</h3>
-<form class="calculator" id="calculator_fat_percent_wo26">
+<form class="calculator" id="calculator_fat_percent_women_over_26">
+    <h3>Kvinder 27-50 år</h3>
     <fieldset>
         <legend>Brug et målebånd til at måle omkredsen i millimeter på de angivne steder</legend>
         <div class="form-group">
-            <label for="">Talje (2 cm over navlen) (mm)</label>
-            <input name="Mave_wo26" type="number" min="100" max="1000" placeholder="Omkreds af talje i mm" step="0.1">
+            <label>Talje (2 cm over navlen) (mm)
+                <input name="abdomen" type="number" min="100" max="1000" placeholder="Omkreds af talje i mm" step="0.1">
+            </label>
         </div>
         <div class="form-group">
-            <label for="">Lår (lige under ballen) (mm)</label>
-            <input name="Laar_wo26" type="number" min="100" max="1000" placeholder="Omkreds af lår i mm" step="0.1">
+            <label>Lår (lige under ballen) (mm)
+                <input name="right_thigh" type="number" min="100" max="1000" placeholder="Omkreds af lår i mm" step="0.1">
+            </label>
         </div>
         <div class="form-group">
-            <label for="">Læg (strakt ben, største omkreds) (mm)</label>
-            <input name="Laeg_wo26" type="number" min="100" max="1000" placeholder="Omkreds af læg i mm" step="0.1">
+            <label>Læg (strakt ben, største omkreds) (mm)
+                <input name="right_calf" type="number" min="100" max="1000" placeholder="Omkreds af læg i mm" step="0.1">
+            </label>
         </div>
         <input type="submit" value="Beregn">
     </fieldset>
     <fieldset class="results">
         <div class="form-group">
-            <label for="fat_wo26">Fedtprocent (%)</label>
-            <input name="Fedt_wo26" type="text" id="fat_wo26" disabled="disabled">
+            <label>Fedtprocent (%)
+                <input name="fat_women_over_26" type="text" disabled>
+            </label>
         </div>
     </fieldset>
 </form>
-{% endcomment %}

@@ -1,5 +1,5 @@
 ---
-title: "Armstrækning, en arm"
+title: &title "Armstrækning, en arm"
 excerpt: "Hold balancen på fødderne og en arm. Spænd godt op i resten af kroppen. Sænk dig ned på en arm og tilbage til udgangspunktet."
 instructions: "Hold balancen på fødderne og en arm. Spænd godt op i resten af kroppen. Sænk dig ned på en arm og tilbage til udgangspunktet."
 permalink: /oevelse/armstraekning-en-arm/
@@ -9,10 +9,9 @@ language: da
 header:
   overlay_image: /assets/images/exercises/armstraekning-en-arm-0.jpg
   teaser: /assets/images/exercises/armstraekning-en-arm-0-320.jpg
+  caption: *title
 tags:
   - kropsvægt
-  - 
-  - 
 categories:
 training_type: 
 training_focus: 
@@ -25,15 +24,15 @@ gallery:
   - url: /assets/images/exercises/armstraekning-en-arm-0.jpg
     image_path: /assets/images/exercises/armstraekning-en-arm-0-320.jpg
     alt: "Armstrækning, en arm"
-    title: "Armstrækning, en arm"
+    title: &title "Armstrækning, en arm"
   - url: /assets/images/exercises/armstraekning-en-arm-1.jpg
     image_path: /assets/images/exercises/armstraekning-en-arm-1-320.jpg
     alt: "Armstrækning, en arm"
-    title: "Armstrækning, en arm"
+    title: &title "Armstrækning, en arm"
   - url: /assets/images/exercises/armstraekning-en-arm-2.jpg
     image_path: /assets/images/exercises/armstraekning-en-arm-2-320.jpg
     alt: "Armstrækning, en arm"
-    title: "Armstrækning, en arm"
+    title: &title "Armstrækning, en arm"
 last_modified_at: 2013-04-21T17:55:42Z
 ---
 

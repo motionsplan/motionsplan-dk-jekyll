@@ -1,11 +1,12 @@
 ---
-title: "Udregn hvor meget vand du har i kroppen med vores beregner?"
+title: &title "Udregn hvor meget vand du har i kroppen med vores beregner? 🚰"
 permalink: /vand-i-kroppen/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1867&q=80
   teaser: https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
-  caption: Photo by Jong Marshes on Unsplash
+  caption: *title
+  alt: Photo by Jong Marshes on Unsplash
 category:
   - Viden om
 tags:
@@ -13,33 +14,11 @@ tags:
   - fysiologi
 last_modified_at: 2020-06-11T08:14:14Z
 toc: true
-feature_row:
-  - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/1000x/9df78eab33525d08d6e5fb8d27136e95/a/n/anatomisk-guide-til-bevaegeapparatet-9788777499104-andrew-biel-gitte-bjerg-fuusager.jpg
-    alt: "Anatomisk Guide til Bevægeapparatet"
-    title: "Anatomisk Guide til Bevægeapparatet"
-    excerpt: "En praktisk guide til lokalisering af muskler, knogler med mere. Før du kan få succes med at undersøge og behandle bevægeapparatet, er du nødt til først at kende dets opbygning og kunne lokalisere de relevante strukturer."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/anatomisk-guide-til-bevaegeapparatet-9788777499104"
-    btn_label: "Læs mere hos Den Intelligente Krop"
-    btn_class: "btn--success"
-  - image_path: https://cdn5.bogreolen.dk/thumbnail/300x0/00002/73191/cover.20160911.jpg
-    alt: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
-    title: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
-    excerpt: "Menneskekroppen - anatomi, fysiologi og sygdomme er et anatomisk atlas til mennesket i det 21. århundrede. Gennem de computergenererede 3d-billeder og fantastiske illustrationer kan man opleve menneskekroppen i hidtil uset detaljegrad og skønhed."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://bogreolen.dk/menneskekroppen_steve-parker_9788756784436"
-    btn_label: "Læs mere hos Bogreolen"
-    btn_class: "btn--success"
-  - image_path: https://imgcdn.saxo.com/_9788762809000/0x500
-    alt: "Bevægeapparatets anatomi"
-    title: "Bevægeapparatets anatomi"
-    excerpt: "Når man skal lære om anatomi er det selvsagt en fordel med gode lærebøger, og her er “Bevægeapparatets anatomi” en absolut klassiker. Bag lærebogen står forfatterne Finn Bojsen Møller, Jan Hejle, Erik Bruun Simonsen, Jørgen Tranum-Jensen. De kombinerer viden om almen anatomi med information om hvordan man forebygger, undersøger, behandler, træner og genoptræner."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/bevaegeapparatets-anatomi_joergen-tranum-jensen_indbundet_9788762809000"
-    btn_label: "Læs mere hos Saxo"
-    btn_class: "btn--success"
 ---
 
-Nu hvor det er så varmt, så kom jeg til at tænke på, hvor meget vand mennesket har i kroppen? Så jeg gik i gang med at researche det lidt.
+Nu hvor det er så varmt, så kom jeg til at tænke på, hvor meget vand mennesket har i kroppen? Så jeg gik i gang med at researche på, hvor meget vand mennesket har i kroppen.
 
-**Mennesket består i høj grad af vand. Faktisk udgøres mellem 45 og 75 procent af vores vægt af vand. Andelen af vand i mennesket varierer imidlertid med højden, vægten, køn og alder. Væskebalancen er livsvigtig for at vores krop og hjerne fungerer korrekt.**
+Hvor meget vand har mennesket i kroppen? **Mennesket består i høj grad af vand. Faktisk udgøres mellem 45 og 75 procent af vores vægt af vand. Andelen af vand i mennesket varierer imidlertid med højden, vægten, køn og alder. Væskebalancen er livsvigtig for at vores krop og hjerne fungerer korrekt.**
 
 Allerede fra fødslen er mere end halvdelen af kroppens vægt vand. Den gennemsnitlige andel af kropsvægten vil i gennemsnit være over 50% det meste af dit liv, selvom det daler lidt over tid.
 
@@ -51,7 +30,7 @@ I starten af vores liv er knap tre-fjerdedele af vores kropsvægt vand, men den 
 
 Den faldende vandprocent gennem årene er delvist fordi din fedtprocent typisk stiger med alderen. Fedtvæv indeholder mindre vand end den fedtfrie masse. Så din kropskomposition betyder en del for andelen af vand i kroppen.
 
-De følgende tabeller repræsenterer den totale andel vand udgør af din kropsvægt, hvis du er inden for normalområdet.
+De følgende [tabeller baseret på healthline.com over vand i kroppen](https://www.healthline.com/health/body-water-percentage#body-water-charts) repræsenterer den totale andel vand udgør af din kropsvægt, hvis du er inden for normalområdet.
 
 | | Mænd | Kvinder |
 |-|-|-|
@@ -68,16 +47,16 @@ De følgende tabeller repræsenterer den totale andel vand udgør af din kropsv�
 
 ## Hvor er vandet i kroppen?
 
-Men hvor findes al den vand egentlig i kroppen? Den følgende tabel viser, [hvor meget](https://www.usgs.gov/special-topic/water-science-school/science/water-you-water-and-human-body) andelen af vand er i de enkelte organer og væv.
+Men hvor findes al den vand egentlig i kroppen? Den følgende tabel viser, [hvor meget andelen af vand (usgs.gov)](https://www.usgs.gov/special-topic/water-science-school/science/water-you-water-and-human-body) er i de enkelte organer og væv.
 
-| Body part | Water percentage |
-|-|-|
-| hjerne og hjerte | 73% |
-| lunger | 83% |
-| huden | 64% |
-| muskler og nyrer | 79% |
-| bones | 31% |
-|  blod | 90% |
+| Kropsdel         | Vandprocent |
+|------------------|-------------|
+| hjerne og hjerte | 73%         |
+| lunger           | 83%         |
+| huden            | 64%         |
+| muskler og nyrer | 79%         |
+| knogler          | 31%         |
+| blod             | 90%         |
 
 Selvom mange af organerne og vævene virker ret faste i det, så er en stor del altså alligevel vand.
 
@@ -126,7 +105,7 @@ Din krop udskiller væske gennem urinen. Desto mere væske du drikker, desto mer
 
 Hvis du er tørstig, er det rigtig vigtigt at få drukket noget væske, for så er du i underskud.
 
-Hvis det er rigtig varmt, og du drikker meget, så vær opmærksom på også at få nogle salte indenbords, der kan hjælpe med at vandet bliver optaget rigtigt.
+Hvis det er rigtig varmt, og du drikker meget, så vær opmærksom på også at få nogle salte indenbords, der kan hjælpe med at vandet bliver optaget rigtigt, og så du ikke får udvasket de livsvigtige salte.
 
 ## Referencer om vand i kroppen
 

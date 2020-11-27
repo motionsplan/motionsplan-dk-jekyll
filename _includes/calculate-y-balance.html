@@ -1,0 +1,38 @@
+<form class="calculator" id="calculator_ybalance">
+    <fieldset>
+        <legend>Udregning af score til Y-balance</legend>
+        <div class="form-group">
+            <label>Anterior (cm)
+                <input name="anterior" type="number" min="50" max="272" placeholder="cm" step="0.1" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Posterolateral (cm)
+                <input name="posterolateral" type="number" min="20" max="200" placeholder="cm" step="0.1" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Posteromedial (cm)
+                <input name="posteromedial" type="number" min="20" max="200" placeholder="cm" step="0.1" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Benlængde (cm)
+                <input name="limb_length" type="number" min="20" max="200" placeholder="cm" step="0.1" required>
+            </label>
+        </div>
+        <input type="submit" value="Udregn">
+    </fieldset>
+    <fieldset class="results" disabled>
+        <legend>Resultater</legend>
+        <label>Absolut resultat (cm)
+            <input disabled name="absolute_score" type="text">
+        </label>
+        <label>Relative score (%)
+            <input disabled name="relative_score" type="text">
+        </label>
+        <label>Composite score (%)
+            <input disabled name="composite_score" type="text">
+        </label>
+    </fieldset>
+</form>

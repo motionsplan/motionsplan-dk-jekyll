@@ -1,5 +1,5 @@
 ---
-title: "Tall kneeling overhead press"
+title: &title "Tall kneeling overhead press"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/tall-kneeling-overhead-press/

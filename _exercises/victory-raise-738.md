@@ -1,5 +1,5 @@
 ---
-title: "Victory raise"
+title: &title "Victory raise"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/victory-raise/

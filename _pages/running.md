@@ -83,4 +83,19 @@ feature_row:
 
 </div>
 
+## Konditionstests til løb
+
+{% assign site_posts = site.posts | where: "tags", "konditionstest" | where: "tags", "løbetest" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single-simple.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
+
 ## Løbesiden om løbetræning, intervalløb og løbeprogrammer

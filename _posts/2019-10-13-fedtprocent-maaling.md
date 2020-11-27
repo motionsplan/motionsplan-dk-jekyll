@@ -1,8 +1,6 @@
 ---
 title: "Hvordan måler jeg min fedtprocent? 7 forskellige metoder [2020]"
 permalink: /maal-fedtprocent/
-redirect_from:
-  - /fedtprocent-maalebaand/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1523901839036-a3030662f220?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80
@@ -28,7 +26,7 @@ feature_row:
     title: "Tanita DC 360P Kropsanalysevægt"
     excerpt: "Med en Tanita DC 360P kropsanalysevægt er du garanteret præcise og nøjagtige resultater. På blot 15 sekunder er det muligt at få en fuld kropsanalyse og måle din fedtprocent."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/tanita-dc-360p-kropsanalysevaegt/"
-    btn_label: "Tjek pris*s"
+    btn_label: "Tjek pris*"
     btn_class: "btn--success"
   - image_path: https://www.fotoagent.dk/single_picture/11803/138/mega/Tanita_MC780_full(1).jpg
     alt: "Tanita MC 780 P MA"
@@ -96,10 +94,6 @@ For den almindelige fitnessudøver så kan følgende være muligheder for at få
 {% comment %}
 
 Jeg har beskrevet [to]({% link _posts/2019-10-14-fedtprocent-maalebaand.md %}) [forskellige]({% link _posts/2019-10-14-fedtprocent-maalebaand-navy.md %}) metoder.
-
-{% endcomment %}
-
-{% comment %}
 
 - **Måling af fedtprocent med fedttang**. En fedttang kan være et udmærket værktøj, hvis du har behov for at følge en fremgang. Hvis du øver dig i at bruge en fedttang, så kan du med ret stor sikkerhed reproducere din hudfoldsmåling over tid. Fedttangen giver ikke den præcise fedtprocent, men kan være rimelig pålidelig i forhold til at estimere ændringerne. Jeg har skrevet mere om [måling af fedtprocent og hudfoldstykkelser med fedttang her]({% link _posts/2019-10-14-fedtprocent-skinfold.md %}).
 

@@ -1,6 +1,6 @@
 ---
-title: "Skulderleddet og skulderbladet (skulderbæltet)"
-#excerpt: "Skulderens store bevægelsesfrihed skabes gennem flere led, som man tilsammen kalder for skulderbæltet, som består af skulderleddet og skulderbladet."
+title: &title "Skulderleddet og skulderbladet (skulderbæltet)"
+excerpt: "Skulderens store bevægelsesfrihed skabes gennem flere led, som man tilsammen kalder for skulderbæltet, som består af skulderleddet og skulderbladet."
 latin: Scapula
 tags:
   - led
@@ -55,7 +55,10 @@ movements_scapula:
 image: https://static1.squarespace.com/static/5bba6b9caf468381c6d11b6f/5d33107d18cbd7000113d73a/5dad8ba351bf6e19d66acec1/1571863756133/acromion-process.jpg?format=2500w
 header:
   overlay_image: https://www.orthopaedicsone.com/download/attachments/34800936/Little+Leaguer%27s+Shoulder_AP.jpg
+  caption: *title
 ---
+
+{{ page.excerpt }}
 
 {% comment %}
 

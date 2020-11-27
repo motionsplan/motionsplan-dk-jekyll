@@ -1,6 +1,8 @@
 ---
 layout: single
 title: &title "Anatomi"
+system:
+  - fitnessinstruktør
 excerpt: "Anatomi er læren om hvordan de forskellige strukturer i kroppen er opbygget, hvordan de forskellige celler er opbygget, hvordan disse igen samler sig til væv, organer og systemer i kroppen."
 permalink: /anatomi/
 header:
@@ -49,13 +51,31 @@ De tre grundelementer i bevægeapparatets anatomi er:
 
 Hvis man ved, hvordan musklerne sidder fast på knoglerne og hvilke bevægelser det enkelte led kan lave, så kan man analysere træningsøvelser.
 
-## Bevægelsesanalyse
+## Bevægelsesanalyse og anatomi
 
-Når du laver en bevægelsesanalyse, så skal du besvare følgende spørgsmål:
+Anatomi handler også om at lave bevægelsesanalyser. I en bevægelsesanalyse skal du besvare følgende spørgsmål:
 
 - Hvad er de involverede led?
 - Hvilke bevægelser foregår der i leddet? (bøjning, strækning, rotation)
 - Hvilke muskler arbejder i bevægelsen? (primære og sekundære)
-- Hvordan arbejder musklerne i bevægelsen? Hvad er den koncentriske og ekscentriske fase? Er der statisk arbejde i bevægelsen?
+- Hvordan arbejder musklerne i bevægelsen? Hvad er den [koncentriske og ekscentriske fase]({% link _posts/2020-08-11-excentrisk-koncentrisk.md %})? Er der statisk arbejde i bevægelsen?
+
+Jeg har skrevet et andet indlæg, der handler om [hvordan du laver en bevægelsesanalyse]({% link _posts/2020-08-01-bevaegelsesanalyse.md %}).
+
+## Artikler om anatomi
+
+<div class="feature__wrapper">
+
+{% assign site_posts = site.posts | where: "tags", "anatomi" | sort: "last_modified_at" | reverse %}
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts limit:16 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
+## Anbefalelsesværdige bøger om anatomi
 
 {% include feature_row type="left" %}

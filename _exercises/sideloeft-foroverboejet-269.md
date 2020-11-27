@@ -1,5 +1,5 @@
 ---
-title: "Sideløft, foroverbøjet"
+title: &title "Sideløft, foroverbøjet"
 excerpt: "Let foroverbøjet og med let bøjede arme føres vægtene ud i til siden og opad. Bevægelsen stoppes, når albuer er på højde med skulderne. Vægtene sænkes kontrolleret tilbage til udgangspositionen."
 instructions: "Let foroverbøjet og med let bøjede arme føres vægtene ud i til siden og opad. Bevægelsen stoppes, når albuer er på højde med skulderne. Vægtene sænkes kontrolleret tilbage til udgangspositionen."
 permalink: /oevelse/sideloeft-foroverboejet/
@@ -9,18 +9,15 @@ language: da
 header:
   overlay_image: /assets/images/exercises/sideloeft-foroverboejet-0.jpg
   teaser: /assets/images/exercises/sideloeft-foroverboejet-0-320.jpg
+  caption: *title
 tags:
   - håndvægte
-  - 
-  - 
 categories:
 training_type: 
 training_focus: 
 equipment:
   - håndvægte
 muscle_group:
-  - 
-  - 
 alternative_titles:
   - Lateral raise
   - Skuldersideløft
@@ -30,15 +27,15 @@ gallery:
   - url: /assets/images/exercises/sideloeft-foroverboejet-0.jpg
     image_path: /assets/images/exercises/sideloeft-foroverboejet-0-320.jpg
     alt: "Sideløft, foroverbøjet"
-    title: "Sideløft, foroverbøjet"
+    title: &title "Sideløft, foroverbøjet"
   - url: /assets/images/exercises/sideloeft-foroverboejet-1.jpg
     image_path: /assets/images/exercises/sideloeft-foroverboejet-1-320.jpg
     alt: "Sideløft, foroverbøjet"
-    title: "Sideløft, foroverbøjet"
+    title: &title "Sideløft, foroverbøjet"
   - url: /assets/images/exercises/sideloeft-foroverboejet-2.jpg
     image_path: /assets/images/exercises/sideloeft-foroverboejet-2-320.jpg
     alt: "Sideløft, foroverbøjet"
-    title: "Sideløft, foroverbøjet"
+    title: &title "Sideløft, foroverbøjet"
 last_modified_at: 2013-04-21T18:14:07Z
 ---
 

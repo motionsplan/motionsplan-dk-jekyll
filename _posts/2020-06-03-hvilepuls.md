@@ -1,11 +1,12 @@
 ---
-title: "Hvilepuls: Hvad er hvilepulsen og hvordan måles den?"
+title: &title "Hvilepuls: Hvad er hvilepulsen og hvordan måles den?"
 permalink: /hvilepuls/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1579123480439-dcc379da4707?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80
   teaser: https://images.unsplash.com/photo-1579123480439-dcc379da4707?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
-  caption: Photo by Jude Beck on Unsplash
+  caption: *title
+  alt: Photo by Jude Beck on Unsplash
   overlay_filter: 0.2
 category:
   - Viden om
@@ -15,50 +16,28 @@ tags:
   - hvilepuls
 last_modified_at: 2020-06-03T08:14:14Z
 toc: true
-feature_row:
-  - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/1000x/9df78eab33525d08d6e5fb8d27136e95/a/n/anatomisk-guide-til-bevaegeapparatet-9788777499104-andrew-biel-gitte-bjerg-fuusager.jpg
-    alt: "Anatomisk Guide til Bevægeapparatet"
-    title: "Anatomisk Guide til Bevægeapparatet"
-    excerpt: "En praktisk guide til lokalisering af muskler, knogler med mere. Før du kan få succes med at undersøge og behandle bevægeapparatet, er du nødt til først at kende dets opbygning og kunne lokalisere de relevante strukturer."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/anatomisk-guide-til-bevaegeapparatet-9788777499104"
-    btn_label: "Læs mere hos Den Intelligente Krop"
-    btn_class: "btn--success"
-  - image_path: https://cdn5.bogreolen.dk/thumbnail/300x0/00002/73191/cover.20160911.jpg
-    alt: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
-    title: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
-    excerpt: "Menneskekroppen - anatomi, fysiologi og sygdomme er et anatomisk atlas til mennesket i det 21. århundrede. Gennem de computergenererede 3d-billeder og fantastiske illustrationer kan man opleve menneskekroppen i hidtil uset detaljegrad og skønhed."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://bogreolen.dk/menneskekroppen_steve-parker_9788756784436"
-    btn_label: "Læs mere hos Bogreolen"
-    btn_class: "btn--success"
-  - image_path: https://imgcdn.saxo.com/_9788762809000/0x500
-    alt: "Bevægeapparatets anatomi"
-    title: "Bevægeapparatets anatomi"
-    excerpt: "Når man skal lære om anatomi er det selvsagt en fordel med gode lærebøger, og her er “Bevægeapparatets anatomi” en absolut klassiker. Bag lærebogen står forfatterne Finn Bojsen Møller, Jan Hejle, Erik Bruun Simonsen, Jørgen Tranum-Jensen. De kombinerer viden om almen anatomi med information om hvordan man forebygger, undersøger, behandler, træner og genoptræner."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/bevaegeapparatets-anatomi_joergen-tranum-jensen_indbundet_9788762809000"
-    btn_label: "Læs mere hos Saxo"
-    btn_class: "btn--success"
 ---
 
 Din hvilepuls kan være en god indikator på dit helbred og din form. Jeg bruger hvilepulsen som en let måde at følge effekten af min træning.
 
-**Hvilepulsen er det antal hjerteslag der forekommer pr. minut, når din krop er i fuldstændig hvile. Hvilepulsen måles bedst liggende. Det bedste tidspunkt at måle hvilepulsen er om morgenen lige inden du står op. Du kan selv måle hvilepulsen ved at føle den manuelt, med et pulsur eller med et blodtryksapparat.**
+Hvad er hvilepulsen? **Hvilepulsen er det antal hjerteslag der forekommer pr. minut, når din krop er i fuldstændig hvile. Hvilepulsen måles bedst liggende. Det bedste tidspunkt at måle hvilepulsen er om morgenen lige inden, du står op. Du kan selv måle hvilepulsen ved at føle den manuelt, med et pulsur eller med et blodtryksapparat.**
 
-Når hjertet slår og ved sin sammentrækning sender blod rundt i systemet vil der ske en kortvarig udvidelse af din blodåre, fordi der kommer et højere tryk i blodåren. Du kan mærke den udvidelse. Denne mærkbare udvidelse af blodårerne kalder man pulsen. 
+Når hjertet slår og ved sin sammentrækning sender blod rundt i systemet, sker der en kortvarig udvidelse af din blodåre, fordi der kommer et højere tryk i blodåren. Det er den udvidelse, du kan mærke som pulsen. 
 
-Jeg kigger i det følgende på, hvad der påvirker hvilepulsen, og hvordn man måler sin hvilepuls.
+Jeg kigger i det følgende på, hvad der påvirker hvilepulsen, og hvordan man måler sin hvilepuls?
 
 ## Hvad påvirker hvilepulsen?
 
-Hjertet pumper blod rundt i kredsløbet for at leverer iltet og næringsmættet blod ud til de arbejdende muskler og organer. Selv i hvile behøver kroppen en del energi. Hjertet slår i hvile så mange gang som det er nødvendigt for at få blod nok rundt i systemet.
+Hjertet pumper blod rundt i kredsløbet for at levere iltet og næringsmættet blod ud til de arbejdende muskler og organer. Kroppen har også brug for en del energi i hvile, fordi stofskiftet og forbrændingen hele tiden kører. Hjertet slår så mange gange som det er nødvendigt for at få blod nok rundt i systemet til at vedligeholde stofskiftet.
 
-Hjertet bliver hovedsageligt trænet under puls- og konditionstræning. Jeg har skrevet et [grundigt indlæg om de fysiologiske tilpasninger til konditionstræning](/tilpasning-konditionstraening/), hvor jeg beskriver tilpasningerne i hjertet ved konditionstræning.
+Hjertet bliver hovedsageligt trænet under puls-, kredsløbs- og konditionstræning. Jeg har skrevet et [grundigt indlæg om de fysiologiske tilpasninger til konditionstræning](/tilpasning-konditionstraening/), hvor jeg beskriver tilpasningerne i hjertet ved konditionstræning.
 
 Der sker to tilpasninger i hjertet ved konditionstræning, som har betydning for din hvilepuls. 
  
 - **Venstre hjertekammer vokser**. Hvis man arbejder med lidt lavere intensitet over lang tid, hvor hjertet kan følge med, så vil hjertet tilpasse sig med at venstre hjertekammer vokser, så det kan fyldes mere op og slagvolumen stiger. 
-- **Hjertemusklen bliver stærkere**. Hvis man arbejder med højere intensiteter, så vil hjertemusklen blive stærkere og vokse i størrelse, så den kan pumpe kraftigere.
+- **Hjertemusklen bliver stærkere**. Hvis man arbejder med højere intensiteter, så vil hjertemusklen blive stærkere og vokse i størrelse, så det kan pumpe kraftigere.
 
-{% include figure image_path="https://athleticlab.com/wp-content/uploads/2017/12/ventriculargeo-1024x552.jpg" caption="Venstre hjertekammer vokser i rumfang, hvilket hovedsageligt sker ved lavere intensitet. Hjertemusklen bliver stærkere, når man arbejder med højere intensitet. Kilde: [athleticlab.com](https://athleticlab.com/aerobic-system-development-anaerobic-dominant-sports-michael-bruno/)." %}
+{% include figure image_path="https://athleticlab.com/wp-content/uploads/2017/12/ventriculargeo-1024x552.jpg" caption="Venstre hjertekammer vokser i rumfang ved kredsløbstræning. Forøgelsen af slagvolumen kan ske ved både lave og høje intensiteter. Hjertemusklen bliver stærkere, når man arbejder med højere intensitet. Kilde: [athleticlab.com](https://athleticlab.com/aerobic-system-development-anaerobic-dominant-sports-michael-bruno/)." %}
 
 Når hjertekammeret bliver større, så kan hjertet fyldes mere op, og når hjertet er stærkere kan hjertet også tømme sig mere pr. hjerteslag. Alt andet lige skal vi bruge den samme mængde blod rundt i systemet i minuttet. Derfor behøver hjertet altså ikke at slå så mange gange, og hvilepulsen falder, fordi du kommer i bedre form.
 
@@ -66,8 +45,8 @@ Hvis du foretrækker en lidt mere matematisk måde at anskue det på, så kommer
 
 Hjertets pumpefunktion og -kapacitet udgøres af to faktorer:
  
-- **Slagvolumen (SV)** er den mængde blod hjertet kan sende rundt på en sammentrækning - altså på et hjerteslag.
-- **Pulsfrekvens (HR)** er det antal gange hjertet slår i minuttet.
+- **Slagvolumen (SV)** er den mængde blod, hjertet kan sende rundt på en sammentrækning - altså på et hjerteslag.
+- **Pulsfrekvens (HR)** er det antal gange, hjertet slår i minuttet.
  
 Samlet er det et udtryk for, hvor meget blod der kommer rundt i kroppen. 
 
@@ -77,9 +56,9 @@ Det kan sættes på følgende formel:
 
     MV = SV * HR
 
-Hvis minutvolumen skal være konstant og slagvolumen er faldet, så blver det altså tydelgt, at hjertefrekvensen ikke behøver at være så høj.
+Hvis minutvolumen skal være konstant og slagvolumen er faldet, så blver det altså tydeligt, at hjertefrekvensen ikke behøver at være så høj.
 
-Hvis du vil læse om flere [tilpasninger ved konditionstræning, så kan du læse dette grundige indlæg](/tilpasning-konditionstraening/).
+Hvis du vil læse om flere [tilpasninger ved konditionstræning, så kan du læse dette indlæg](/tilpasning-konditionstraening/).
 
 ## Hvad er en normal hvilepuls?
 
@@ -87,11 +66,11 @@ Hvilepulsen ligger typisk i intervallet fra 40 og 100 hos almindelige raske pers
 
 Hvilepulsen varierer meget fra person til person. Hvilepulsen er påvirket af mange faktorer som fx alder, køn, sygdom og stress, og den er også følsom over visse typer medicin.
 
-Hvis vi kigger på raske mennesker, så kan det være et mål med sin træning at sænke sin hvilepuls ved at lave passende udholdenhedstrænng for kredsløbet. Hjertet skal ganske enklt arbejde mindre. Desuden er der en masse afledte sundhedsmæssige konsekvenser af pulstræningen.
-
-Her har jeg samlet nogle retningslinjer:
+Hvis vi kigger på raske mennesker, så kan det være et mål med sin træning at sænke sin hvilepuls ved at lave passende udholdenhedstrænng for kredsløbet. Hjertet skal ganske enkelt arbejde mindre. Desuden er der en masse afledte sundhedsmæssige konsekvenser af pulstræningen.
 
 ## Hvilepuls tabel
+
+Her har jeg samlet nogle [retninglinjer for hvilepulsen](https://bgh.dk/hvilepuls/) i en tabel.
 
 | Kategori | Kvinder | Mænd |
 |-|-|-|
@@ -103,21 +82,23 @@ Her har jeg samlet nogle retningslinjer:
 | Under gennemsnittet | 79-84 | 76-81 |
 | Dårlig |  85+ | 82+ |
 
-Nogle lidt grovere **retningslinjer for hvilepulsen** kan også se sådan her ud ([kilde](https://www.sportshojskolen.dk/vidensbank/pulstr%C3%A6ning---max-pulsen)):
+Nogle lidt grovere **retningslinjer for hvilepulsen** kan også se [sådan her ud](https://www.sportshojskolen.dk/vidensbank/pulstr%C3%A6ning---max-pulsen):
 
 - **Hvilepuls på 80**: Uhyre dårlig kondition – bør forbedres alene set ud fra en fysisk sundhedsmæssig vinkel.
 - **Hvilepuls 70**: Dårlig kondition – bør stadig forbedres, både af sundhedsmæssige og præstationsfremmende hensyn
 - **Hvilepuls 60**: Rimelig kondition – passer fint til fritidsmotionisten, men kan stadig med fordel forbedres
 - **Hvilepuls 50**: Rigtig god kondition – Her ligger ofte den ambitiøse amatørmotionist
-- **Hvilepuls 40*'': Suveræn kondition – Forbeholdt de få; oftest elitefolk.
+- **Hvilepuls 40**: Suveræn kondition – Forbeholdt de få; oftest elitefolk.
 
-Som udgangspunkt er en lav hvilepuls altså at foretrække. Miguel Indurain, tidligere cykelrytter, havde en hvilepuls på 28. Jeg hørte på et tidspunkt, at udfordringen med et så stort hjerte kan være, at man bliver nødt til at fortsætte sin træning for at hjertet forbliver stærkt nok. Det ved jeg ikke om er rigtigt.
+Som udgangspunkt er en lav hvilepuls altså at foretrække. Miguel Indurain, tidligere cykelrytter, havde en hvilepuls på 28. Jeg hørte på et tidspunkt, at udfordringen med et så stort hjerte kan være, at man bliver nødt til at fortsætte sin træning for at hjertet forbliver stærkt nok.
+
+Det ved jeg ikke om er rigtigt. Måske ved du det, så er du velkommen til at bruge kommentarerne.
 
 ## Hvornår skal jeg måle hvilepulsen?
 
-Det er bedst at tage din hvilepuls om morgen, når du lige er vågnet og stadig ligger i sengen. Det er nemlig her din krop er længst nede i hviletilstanden. 
+Det er bedst at måle din hvilepuls om morgen, når du lige er vågnet og stadig ligger i sengen. Det er nemlig her din krop er længst nede i hviletilstand. 
 
-Så snart du står op vil kroppen begynde at have behov for mere energi, og så går stofskiftet op, hvilket betyder at hjertet bliver nødt til at slå lidt fler e gange for at levere ilt og næringsstoffer rundt i systemet.
+Så snart du står op vil kroppen begynde at have behov for mere energi, og så går stofskiftet op, hvilket betyder at hjertet bliver nødt til at slå lidt flere gange for at levere ilt og næringsstoffer rundt i systemet.
 
 ## Sådan måler du din hvilepuls
 
@@ -125,7 +106,7 @@ Der er flere måder at finde frem til din hvilepuls på.
 
 ### Mål hvilepulsen med stopur
 
-- **Manuelt med stopur.** Du kan let måle din hvilepuls uden at have brug for udstyr. Det er den måde jeg foretrækker selv at måle hvilepulsen på. For at måle pulsen manuelt, så skal du bare finde et sted på kroppen, hvor der er en stor blodåre, der ligger tæt på overfladen. For de fleste kan man let mærke pulsen på håndleddet eller ved halsen. Typisk bruger jeg pege og langefinger til at mærke pulsen.
+- **Manuelt med stopur.** Du kan let måle din hvilepuls uden at have brug for udstyr. Det er den måde jeg foretrækker selv at måle hvilepulsen på. For at måle pulsen manuelt, så skal du bare finde et sted på kroppen, hvor der er en stor blodåre, der ligger tæt på overfladen. For de fleste kan man let mærke pulsen på håndleddet eller ved halsen. Typisk bruger jeg pege- og langefingeren til at mærke pulsen.
 
 {% include figure image_path="https://i.insider.com/5eb9c8155f726e305642adb7?width=800&format=jpeg&auto=webp" caption="Du kan enten tage pulsen på håndleddet eller på halsen. Kilde: [www.insider.com](https://www.insider.com/what-is-a-good-resting-heart-rate)." %}
 
@@ -174,7 +155,7 @@ Hvis du er rask, så bør du allerede inden 3-4 uger efter du starter et trænin
 
 Hvis du allerede er veltrænet, så tager det naturligvis længere tid at flytte din hvilepuls, og der er også grænser for hvor langt den kommer ned. 
 
-<div class="hidden">
+{% comment %}
 ***
 
 ## Er en lav hvilepuls altid godt?
@@ -184,7 +165,9 @@ Hvilepulsen kan også påvirkes af sygdom og alderdom. Hvis du har sygdomme omkr
 Nogle rapporterer også, at skader på hjertet med alderen kan forårsage en lavere hvilepuls.
 
 ***
-</div>
+
+{% endcomment %}
+
 ## Hvad kan du bruge hvilepulsen til?
 
 Ud over at hvilepulsen er en indikator på ens træningsniveau særligt i kredsløbssystemet, så kan du også bruge hvilepulsen til at udregne forskellige træningsparametre.

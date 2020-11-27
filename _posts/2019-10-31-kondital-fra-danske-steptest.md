@@ -12,11 +12,12 @@ category:
 tags:
   - konditionstest
   - indirekte test
+  - steptest
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 ---
 
-Den Danske Steptest er en præstationsbegrænset submaksimal test, der estimerer den maksimale iltoptagelse og konditallet. Jeg kigger lidt på, om testen kan bruges til at finde konditallet?
+Den Danske Steptest eller Den Nye Steptest er en præstationsbegrænset submaksimal test, der estimerer den maksimale iltoptagelse og konditallet. Jeg kigger lidt på, om testen kan bruges til at finde konditallet?
 
 *[MET]: Metabolic equivalent of Task
 

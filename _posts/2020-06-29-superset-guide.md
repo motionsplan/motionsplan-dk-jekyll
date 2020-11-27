@@ -92,8 +92,8 @@ Det er vigtigt, når du laver supersæt at kvaliteten i de enkelte øvelser stad
 
 Superset-træning kan bruges af alle, men du skal naturligvis tænke dig om. God fornøjelse med dine supersæt.
 
+{% comment %}
 
-<div class="hidden">
 # Supersæt guide: Super set og alternating set
 
 Superset, super sæt, er en tidseffektiv, intens træningsmetode
@@ -268,4 +268,4 @@ Som i supersæt blander man øvelser, men har pauser, så man bruger mere tid:
 Ikke så tidseffektivt som supersæt og ikke så høj “tæthed” i træningspas.
 Tæthed, density; hvor meget arbejde man udfører per tidsenhed.
 
-</div>
+{% endcomment %}

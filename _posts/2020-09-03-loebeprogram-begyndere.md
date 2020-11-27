@@ -133,4 +133,4 @@ NEEDS COMPLETE REWRITING IF IT SHOULD BE REINTRODUCED
 
 Løbeprogrammet er lige nu under udvikling. Hvis du gerne vil i gang med at løbe, så ville jeg sætte stor pris på, hvis du har mod på at afprøve løbeprogrammet, som tager 16 uger. Hvis du vælger at bruge programmet, så vil jeg tilbyde dig personlig online-vejledning undervejs. Jeg har mange års erfaring med at få folk i bedre form som højskolelærer på Vejle Idrætshøjskole. Men det kræver, at du er villig til at følge programmet.
 
-[Download løbeprogrammet til begyndere](https://docs.google.com/document/d/1goPqka7HO8obvxKe4Zc4qAWks5WSZ4B8ScMledIOFIY/edit?usp=sharing){: .btn .btn--large .btn--info }
+[Download løbeprogrammet til begyndere](https://docs.google.com/document/d/1goPqka7HO8obvxKe4Zc4qAWks5WSZ4B8ScMledIOFIY/copy?usp=sharing){: .btn .btn--large .btn--info }

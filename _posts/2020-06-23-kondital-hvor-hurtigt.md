@@ -1,5 +1,5 @@
 ---
-title: "Kondition og kondital: Hvor hurtigt mister man formen?"
+title: &title "Kondition og kondital: Hvor hurtigt mister du formen?"
 permalink: /kondital-hvor-hurtigt/
 redirect_from:
   - /viden%20om/kondital-hvor-hurtigt/
@@ -7,37 +7,16 @@ language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1457449205106-d0aad138e99b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
   teaser: https://images.unsplash.com/photo-1457449205106-d0aad138e99b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  caption: *title
   caption: Photo by Tikkho Maciel on Unsplash
 category:
   - Viden om
 tags:
-  - anatomi
   - fysiologi
   - muskler
+  - kredsløb
 last_modified_at: 2020-06-11T08:14:14Z
 toc: true
-feature_row:
-  - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/1000x/9df78eab33525d08d6e5fb8d27136e95/a/n/anatomisk-guide-til-bevaegeapparatet-9788777499104-andrew-biel-gitte-bjerg-fuusager.jpg
-    alt: "Anatomisk Guide til Bevægeapparatet"
-    title: "Anatomisk Guide til Bevægeapparatet"
-    excerpt: "En praktisk guide til lokalisering af muskler, knogler med mere. Før du kan få succes med at undersøge og behandle bevægeapparatet, er du nødt til først at kende dets opbygning og kunne lokalisere de relevante strukturer."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/anatomisk-guide-til-bevaegeapparatet-9788777499104"
-    btn_label: "Læs mere hos Den Intelligente Krop"
-    btn_class: "btn--success"
-  - image_path: https://cdn5.bogreolen.dk/thumbnail/300x0/00002/73191/cover.20160911.jpg
-    alt: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
-    title: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
-    excerpt: "Menneskekroppen - anatomi, fysiologi og sygdomme er et anatomisk atlas til mennesket i det 21. århundrede. Gennem de computergenererede 3d-billeder og fantastiske illustrationer kan man opleve menneskekroppen i hidtil uset detaljegrad og skønhed."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://bogreolen.dk/menneskekroppen_steve-parker_9788756784436"
-    btn_label: "Læs mere hos Bogreolen"
-    btn_class: "btn--success"
-  - image_path: https://imgcdn.saxo.com/_9788762809000/0x500
-    alt: "Bevægeapparatets anatomi"
-    title: "Bevægeapparatets anatomi"
-    excerpt: "Når man skal lære om anatomi er det selvsagt en fordel med gode lærebøger, og her er “Bevægeapparatets anatomi” en absolut klassiker. Bag lærebogen står forfatterne Finn Bojsen Møller, Jan Hejle, Erik Bruun Simonsen, Jørgen Tranum-Jensen. De kombinerer viden om almen anatomi med information om hvordan man forebygger, undersøger, behandler, træner og genoptræner."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/bevaegeapparatets-anatomi_joergen-tranum-jensen_indbundet_9788762809000"
-    btn_label: "Læs mere hos Saxo"
-    btn_class: "btn--success"
 ---
 
 Jeg har undersøgt, hvor hurtigt man mister formen, hvis man holder pause fra træningen? Man bruger mange kræfter på at komme i god kondition, men hvor hurtigt falder konditallet egentlig, når man holder ferie fra træningen?
@@ -46,7 +25,7 @@ Jeg har undersøgt, hvor hurtigt man mister formen, hvis man holder pause fra tr
 
 Der er et klassisk studie, der har undersøgt hvad der sker med kroppen, hvis man holder helt pause, som kaldes _Dallas Bed Rest Study_ fra 1966. I tre uger skulle fem mænd på 20 år være sengeliggende.
 
-I gennemsnit startede mændene ud med et kondital på 43, hvilket placerer dem lige på skillelinjen mellem et “lavt” og et “middel” kondital, hvis man kigger på [normalbefolkningen](/kondital/). Efter tre uger uden fysisk aktivitet var deres kondital i gennemsnit faldet til 33, hvilket sætter dem i gruppen “meget lavt”. Det er et fald på 26%.
+I gennemsnit startede mændene ud med et kondital på 43, hvilket placerer dem lige på skillelinjen mellem et “lavt” og et “middel” kondital, hvis man kigger på [kondital for normalbefolkningen](/kondital/). Efter tre uger uden fysisk aktivitet var deres kondital i gennemsnit faldet til 33, hvilket sætter dem i gruppen “meget lavt”. Det er et fald på 26%.
 
 Det særligt interessante ved studiet er, at mændene fra studiet er blevet fulgt over mange år senere. Da de mødtes 30 år senere som 50 årige, så var deres gennemsnitlige kondital 33. Hvis man meget skarpt skal drage en kondition, så kan man på tre ugers inaktivitet lægge 30 år til sin konditionsmæssige alder.
 
@@ -78,9 +57,11 @@ Jeg oplever selv, at fornemmelsen af hvor let det er at løbe kan være forskell
 
 Det er to oplevelser, der trækker i hver sin retning af, hvad der sker med konditionen på kort tid.
 
-At det **bliver lettere** kan formentlig forklares ud fra **superkompensationsmodellen**. Et træningsstimulus sætter gang i en talpasning i kroppen. Efter lidt restitution så overkompenserer kroppen i forhold til det tidligere niveau. Hvis din næste løbetur er i overkompensationsfasen, og derfor vil løbeturen føles længere. Det indikeres også i studiet af Hatle (2014), at tilpasningen til træningen kan være lidt forsinket.
+At det **bliver lettere** kan formentlig forklares ud fra **superkompensationsmodellen**. Et træningsstimulus sætter gang i en tilpasning i kroppen. Efter lidt restitution så overkompenserer kroppen i forhold til det tidligere niveau. Hvis din næste løbetur er i overkompensationsfasen, og derfor vil løbeturen føles lettere. Det indikeres også i studiet af Hatle (2014), at tilpasningen til træningen kan være lidt forsinket.
 
-Kan kan også opleve det modsatte, at det bliver hårdere. Det kan naturligvis have en psykologisk forklaring, men kroppen kan også have lavet tilpasninger. I det ovenstående har vi kigget på, at tilpasningerne formentlig sker ret hurtigt.
+Du kan også opleve det modsatte: at den næste løbetur er hårdere. Det kan naturligvis have en psykologisk forklaring, men kroppen kan også have lavet tilpasninger.
+
+I det ovenstående har vi kigget på, at tilpasningerne formentlig sker ret hurtigt.
 
 En læser på [videnskab.dk](https://videnskab.dk/sporg-videnskaben/hvor-hurtigt-bliver-min-kondition-darligere) løbetræner typisk mandag, tirsdag, torsdag og fredag, men har opdaget, at hvis vedkommende misser en træning, så bliver han mere forpustet og udmattet næste gang på løbebåndet.
 
@@ -103,7 +84,7 @@ Den maksimale iltoptagelse og evnen til at udnytte ilten afhænger af forskellig
 - **Leveringen af ilt til musklerne**. Kredsløbet er naturligvis en virkelig væsentlig faktor i forhold til at optage ilt fra lungerne, pumpe blodet rundt i kroppen og ud til musklerne, hvor ilten skal optages. Den begrænsende faktor for iltoptagelsen skal formentlig findes i hjertets evne til at pumpe blod nok rundt i systemet. Derfor er hjertets størrelse og blodmængden væsentlige fysiologiske adaptationer til træning.
 - **Udnyttelsen af ilten i musklerne**. I musklerne skal vi have ilten fra kapillærerne og over i musklerne, hvor mitokondrierne skal bruge ilten. Derfor er tætheden af kapillærer og densiteten af mitokondrier væsentlige træningsmæssige tilpasninger til træning.
 
-Hvis af disse parametre der har en så hurtig tilpasningsgrad, har jeg endnu ikke fundet svaret på. Hvis du ved det, så brug endelig kommentarerne.
+Hvilken af disse parametre der har en så hurtig tilpasningsgrad, har jeg endnu ikke fundet svaret på. Hvis du ved det, så brug endelig kommentarerne.
 
 Jeg har skrevet endnu mere om de fysiologiske tilpasninger til konditionstræning tidligere, hvis du er interesseret i at gå endnu mere i dybden med de [fysiologiske adaptationer til konditionstræning]({% link _posts/2020-05-31-tilpasning-konditionstraening.md %}).
 

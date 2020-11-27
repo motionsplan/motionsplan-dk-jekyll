@@ -1,5 +1,5 @@
 ---
-title: "Frivend og stød, alternativ genstand"
+title: &title "Frivend og stød, alternativ genstand"
 excerpt: "Du tager genstanden fra jorden og får den først op til brystet, inden du støder den op over hovedet i strakte arme. Sørg for at komme godt ned i knæ, spænd i kropsstammen og bevægelsen op skal være hurtig og eksplosiv."
 instructions: "Du tager genstanden fra jorden og får den først op til brystet, inden du støder den op over hovedet i strakte arme. Sørg for at komme godt ned i knæ, spænd i kropsstammen og bevægelsen op skal være hurtig og eksplosiv."
 permalink: /oevelse/frivend-og-stoed/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/frivend-og-stoed-0.jpg
   teaser: /assets/images/exercises/frivend-og-stoed-0-320.jpg
+  caption: *title
 tags:
   - helkropsøvelse
   - flise
@@ -27,15 +28,15 @@ gallery:
   - url: /assets/images/exercises/frivend-og-stoed-0.jpg
     image_path: /assets/images/exercises/frivend-og-stoed-0-320.jpg
     alt: "Frivend og stød, alternativ genstand"
-    title: "Frivend og stød, alternativ genstand"
+    title: &title "Frivend og stød, alternativ genstand"
   - url: /assets/images/exercises/frivend-og-stoed-1.jpg
     image_path: /assets/images/exercises/frivend-og-stoed-1-320.jpg
     alt: "Frivend og stød, alternativ genstand"
-    title: "Frivend og stød, alternativ genstand"
+    title: &title "Frivend og stød, alternativ genstand"
   - url: /assets/images/exercises/frivend-og-stoed-2.jpg
     image_path: /assets/images/exercises/frivend-og-stoed-2-320.jpg
     alt: "Frivend og stød, alternativ genstand"
-    title: "Frivend og stød, alternativ genstand"
+    title: &title "Frivend og stød, alternativ genstand"
 last_modified_at: 2011-05-02T16:13:09Z
 ---
 

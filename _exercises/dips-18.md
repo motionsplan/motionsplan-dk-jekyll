@@ -1,5 +1,5 @@
 ---
-title: "Dips"
+title: &title "Dips"
 excerpt: "Spring op i stativet. Sænk dig til overarmen cirka er vandret og pres dig op igen."
 instructions: "Spring op i stativet. Sænk dig til overarmen cirka er vandret og pres dig op igen."
 permalink: /oevelse/dips/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/dips-0.jpg
   teaser: /assets/images/exercises/dips-0-320.jpg
+  caption: *title
 tags:
   - Pres
   - Styrketræning
@@ -33,11 +34,11 @@ gallery:
   - url: /assets/images/exercises/dips-0.jpg
     image_path: /assets/images/exercises/dips-0-320.jpg
     alt: "Dips"
-    title: "Dips"
+    title: &title "Dips"
   - url: /assets/images/exercises/dips-1.jpg
     image_path: /assets/images/exercises/dips-1-320.jpg
     alt: "Dips"
-    title: "Dips"
+    title: &title "Dips"
 video:
   provider: youtube
   id: FKc76c5qFHM

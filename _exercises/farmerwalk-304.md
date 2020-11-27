@@ -1,5 +1,5 @@
 ---
-title: "Farmer walk"
+title: &title "Farmer walk"
 instructions: &instructions "I farmer walk starter du med at stå mellem vægtene. Tag vægtene i hver hånd og rejs dig op med ryggen ret og kig fremad. Gå med korte skridt og husk at trække vejret. Gå omkring 15-20 meter."
 excerpt: *instructions
 permalink: /oevelse/farmerwalk/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/farmerwalk-0.jpg
   teaser: /assets/images/exercises/farmerwalk-0-320.jpg
+  caption: *title
 tags:
   - loaded carry
   - carry
@@ -25,7 +26,7 @@ gallery:
   - url: /assets/images/exercises/farmerwalk-0.jpg
     image_path: /assets/images/exercises/farmerwalk-0-320.jpg
     alt: "Farmer walk"
-    title: "Farmer walk"
+    title: &title "Farmer walk"
 video:
   provider: youtube
   id: E0i6N7Ozi7c

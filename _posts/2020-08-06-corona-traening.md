@@ -108,7 +108,7 @@ Hvis du vil i gang med at træne hjemme, så er der nogle ting, du kan være væ
 ### Fordele ved at træne hjemme
 
 - du sparer penge da der er ingen månedlige abonnementsudgifter.
-- du behøver ikke udstyr, og hvis du har lyst til at bruge udstyr, kan det typisk købes billigt, fx hos vores samarbejdspartnere
+- du behøver ikke udstyr, og hvis du har lyst til at bruge udstyr, kan udstyret typisk købes billigt, fx hos vores samarbejdspartnere
 - du sparer transporttid, fordi du kan gøre det derhjemme.
 - du har altid mulighed for at træne, og du har inspiration klar til træningen, hvis du tager på ferie.
 - der er ingen kø til dine foretrukne øvelser.

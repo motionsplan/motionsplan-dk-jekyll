@@ -1,5 +1,5 @@
 ---
-title: "Lunges, dynamisk"
+title: &title "Lunges, dynamisk"
 excerpt: "Træd et skridt frem og gå ned i knæ, indtil det forreste lår er vandret og det andet næsten knæ rører jorden. Bevæg dig dynamisk tilbage til udgangspositionen."
 instructions: "Træd et skridt frem og gå ned i knæ, indtil det forreste lår er vandret og det andet næsten knæ rører jorden. Bevæg dig dynamisk tilbage til udgangspositionen."
 permalink: /oevelse/lunges-dynamisk/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/lunges-dynamisk-0.jpg
   teaser: /assets/images/exercises/lunges-dynamisk-0-320.jpg
+  caption: *title
 tags:
   - knædomineret
   - vægtstang
@@ -25,23 +26,23 @@ gallery:
   - url: /assets/images/exercises/lunges-dynamisk-0.jpg
     image_path: /assets/images/exercises/lunges-dynamisk-0-320.jpg
     alt: "Lunges, dynamisk"
-    title: "Lunges, dynamisk"
+    title: &title "Lunges, dynamisk"
   - url: /assets/images/exercises/lunges-dynamisk-1.jpg
     image_path: /assets/images/exercises/lunges-dynamisk-1-320.jpg
     alt: "Lunges, dynamisk"
-    title: "Lunges, dynamisk"
+    title: &title "Lunges, dynamisk"
   - url: /assets/images/exercises/lunges-dynamisk-2.jpg
     image_path: /assets/images/exercises/lunges-dynamisk-2-320.jpg
     alt: "Lunges, dynamisk"
-    title: "Lunges, dynamisk"
+    title: &title "Lunges, dynamisk"
   - url: /assets/images/exercises/lunges-dynamisk-3.jpg
     image_path: /assets/images/exercises/lunges-dynamisk-3-320.jpg
     alt: "Lunges, dynamisk"
-    title: "Lunges, dynamisk"
+    title: &title "Lunges, dynamisk"
   - url: /assets/images/exercises/lunges-dynamisk-4.jpg
     image_path: /assets/images/exercises/lunges-dynamisk-4-320.jpg
     alt: "Lunges, dynamisk"
-    title: "Lunges, dynamisk"
+    title: &title "Lunges, dynamisk"
 last_modified_at: 2011-08-18T19:08:58Z
 ---
 

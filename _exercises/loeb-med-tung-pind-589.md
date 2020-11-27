@@ -1,5 +1,5 @@
 ---
-title: "Løb, med tung pind"
+title: &title "Løb, med tung pind"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/løb-med-tung-pind/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/loeb-med-tung-pind-0.jpg
   teaser: /assets/images/exercises/loeb-med-tung-pind-0-320.jpg
+  caption: *title
 tags:
   - Kondition og puls
 categories:
@@ -22,15 +23,15 @@ gallery:
   - url: /assets/images/exercises/loeb-med-tung-pind-0.jpg
     image_path: /assets/images/exercises/loeb-med-tung-pind-0-320.jpg
     alt: "Løb, med tung pind"
-    title: "Løb, med tung pind"
+    title: &title "Løb, med tung pind"
   - url: /assets/images/exercises/loeb-med-tung-pind-1.jpg
     image_path: /assets/images/exercises/loeb-med-tung-pind-1-320.jpg
     alt: "Løb, med tung pind"
-    title: "Løb, med tung pind"
+    title: &title "Løb, med tung pind"
   - url: /assets/images/exercises/loeb-med-tung-pind-2.jpg
     image_path: /assets/images/exercises/loeb-med-tung-pind-2-320.jpg
     alt: "Løb, med tung pind"
-    title: "Løb, med tung pind"
+    title: &title "Løb, med tung pind"
 last_modified_at: 2014-10-03T11:11:37Z
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Squat med hop"
+title: &title "Squat med hop"
 excerpt: "Gå kontrolleret ned i knæ. Med så kort pause i benbøjningen laver du et eksplosivt spring."
 instructions: "Gå kontrolleret ned i knæ. Med så kort pause i benbøjningen laver du et eksplosivt spring."
 permalink: /oevelse/squat-med-hop/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/squat-med-hop-0.jpg
   teaser: /assets/images/exercises/squat-med-hop-0-320.jpg
+  caption: *title
 tags:
   - Ben
   - knædomineret
@@ -25,19 +26,19 @@ gallery:
   - url: /assets/images/exercises/squat-med-hop-0.jpg
     image_path: /assets/images/exercises/squat-med-hop-0-320.jpg
     alt: "Squat med hop"
-    title: "Squat med hop"
+    title: &title "Squat med hop"
   - url: /assets/images/exercises/squat-med-hop-1.jpg
     image_path: /assets/images/exercises/squat-med-hop-1-320.jpg
     alt: "Squat med hop"
-    title: "Squat med hop"
+    title: &title "Squat med hop"
   - url: /assets/images/exercises/squat-med-hop-2.jpg
     image_path: /assets/images/exercises/squat-med-hop-2-320.jpg
     alt: "Squat med hop"
-    title: "Squat med hop"
+    title: &title "Squat med hop"
   - url: /assets/images/exercises/squat-med-hop-3.jpg
     image_path: /assets/images/exercises/squat-med-hop-3-320.jpg
     alt: "Squat med hop"
-    title: "Squat med hop"
+    title: &title "Squat med hop"
 video:
   provider: youtube
   id: L-5hLCHyIEk

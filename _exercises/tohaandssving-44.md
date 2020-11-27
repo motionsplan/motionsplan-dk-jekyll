@@ -1,5 +1,5 @@
 ---
-title: "Swing, to hænder"
+title: &title "Swing, to hænder"
 excerpt: "Hold fast i vægten med begge hænder. Bøj forover i hoften med let bøjede knæ og ret ryg, og hold vægten mellem benene. Herfra svinger du vægten fremad og opad ved at strække hofte og knæ samtidig. Armene er i princippet bare snore, der holder vægten fast. Som udgangspunkt skal vægten lidt over vandret."
 instructions: "Hold fast i vægten med begge hænder. Bøj forover i hoften med let bøjede knæ og ret ryg, og hold vægten mellem benene. Herfra svinger du vægten fremad og opad ved at strække hofte og knæ samtidig. Armene er i princippet bare snore, der holder vægten fast. Som udgangspunkt skal vægten lidt over vandret."
 permalink: /oevelse/tohaandssving/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/tohaandssving-0.jpg
   teaser: /assets/images/exercises/tohaandssving-0-320.jpg
+  caption: *title
 tags:
   - Kondition og puls
   - Styrketræning
@@ -31,19 +32,19 @@ gallery:
   - url: /assets/images/exercises/tohaandssving-0.jpg
     image_path: /assets/images/exercises/tohaandssving-0-320.jpg
     alt: "Swing, to hænder"
-    title: "Swing, to hænder"
+    title: &title "Swing, to hænder"
   - url: /assets/images/exercises/tohaandssving-1.jpg
     image_path: /assets/images/exercises/tohaandssving-1-320.jpg
     alt: "Swing, to hænder"
-    title: "Swing, to hænder"
+    title: &title "Swing, to hænder"
   - url: /assets/images/exercises/tohaandssving-2.jpg
     image_path: /assets/images/exercises/tohaandssving-2-320.jpg
     alt: "Swing, to hænder"
-    title: "Swing, to hænder"
+    title: &title "Swing, to hænder"
   - url: /assets/images/exercises/tohaandssving-3.jpg
     image_path: /assets/images/exercises/tohaandssving-3-320.jpg
     alt: "Swing, to hænder"
-    title: "Swing, to hænder"
+    title: &title "Swing, to hænder"
 video:
   provider: youtube
   id: gfQqazHp2DE

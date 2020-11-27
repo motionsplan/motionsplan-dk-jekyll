@@ -3,27 +3,27 @@
         <legend>Borg 15-test. Indtast de målte værdier</legend>
         <div class="form-group">
             <label for="borg_watt">Belastning ved Borg 15 (watt)</label>
-            <input type="number" min="10" max="500" id="borg_watt" name="borg_watt" placeholder="fx 120" />
+            <input type="number" min="10" max="500" id="borg_watt" name="borg_watt" placeholder="fx 120" required>
         </div>
         <div class="form-group">
             <label for="borg_age">Alder (år)</label>
-            <input type="number" min="10" max="100" id="borg_age" name="borg_age" placeholder="fx 40" />
+            <input type="number" min="10" max="100" id="borg_age" name="borg_age" placeholder="fx 40" required>
         </div>
         <div class="form-group">
             <label for="borg_weight">Vægt (kg)</label>
-            <input type="number" min="20" max="200" id="borg_weight" name="borg_weight" placeholder="fx 70" />
+            <input type="number" min="20" max="200" id="borg_weight" name="borg_weight" placeholder="fx 70" required>
         </div>
-        <input type="submit" value="Beregn" />
+        <input type="submit" value="Beregn">
     </fieldset>
     <fieldset class="results">
         <legend>Resultater</legend>
         <div class="form-group">
             <label for="borg_iltoptagelse">Maximal iltoptagelse (l/min)</label>
-            <input id="borg_iltoptagelse" disabled="disabled">
+            <input id="borg_iltoptagelse" disabled>
         </div>
             <div class="form-group">
                 <label for="borg_kondital">Kondital (ml/kg/min)</label>
-                <input id="borg_kondital" disabled="disabled">
+                <input id="borg_kondital" disabled>
             </div>
     </fieldset>
 </form>

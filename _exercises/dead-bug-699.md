@@ -1,5 +1,5 @@
 ---
-title: "Dead bug"
+title: &title "Dead bug"
 excerpt: "Lig på ryggen med armene strakt op i luften og benene bøjet 90 grader. Gør lænden flad. Stram i mavemusklerne. Stræk det ene ben indtil du lige lader hælen ramme jorden. Samtidig strækker du modsatte arm over hovedet. Kropsstammen skal ikke bevæge sig. Udfør øvelsen relativt langsomt. "
 instructions: "Lig på ryggen med armene strakt op i luften og benene bøjet 90 grader. Gør lænden flad. Stram i mavemusklerne. Stræk det ene ben indtil du lige lader hælen ramme jorden. Samtidig strækker du modsatte arm over hovedet. Kropsstammen skal ikke bevæge sig. Udfør øvelsen relativt langsomt. "
 permalink: /oevelse/dead-bug/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/dead-bug-0.jpeg
   teaser: /assets/images/exercises/dead-bug-0-320.jpeg
+  caption: *title
 tags:
   - Kropsstamme
   - Mobilisering
@@ -29,7 +30,7 @@ gallery:
   - url: /assets/images/exercises/dead-bug-0.jpeg
     image_path: /assets/images/exercises/dead-bug-0-320.jpeg
     alt: "Dead bug"
-    title: "Dead bug"
+    title: &title "Dead bug"
 video:
   provider: youtube
   id: rbemelnkHag

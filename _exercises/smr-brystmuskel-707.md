@@ -1,5 +1,5 @@
 ---
-title: "SMR brystmuskel"
+title: &title "SMR brystmuskel"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/smr-brystmuskel/

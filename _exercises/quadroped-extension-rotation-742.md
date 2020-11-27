@@ -1,5 +1,5 @@
 ---
-title: "Quadroped extension rotation"
+title: &title "Quadroped extension rotation"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/quadroped-extension-rotation/

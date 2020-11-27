@@ -1,5 +1,5 @@
 ---
-title: "Chest push medicinbold"
+title: &title "Chest push medicinbold"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/chest-push-medicinbold/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/chest-push-medicinbold-0.jpg
   teaser: /assets/images/exercises/chest-push-medicinbold-0-320.jpg
+  caption: *title
 tags:
   - Pres
   - Styrketræning
@@ -32,23 +33,23 @@ gallery:
   - url: /assets/images/exercises/chest-push-medicinbold-0.jpg
     image_path: /assets/images/exercises/chest-push-medicinbold-0-320.jpg
     alt: "Chest push medicinbold"
-    title: "Chest push medicinbold"
+    title: &title "Chest push medicinbold"
   - url: /assets/images/exercises/chest-push-medicinbold-1.jpg
     image_path: /assets/images/exercises/chest-push-medicinbold-1-320.jpg
     alt: "Chest push medicinbold"
-    title: "Chest push medicinbold"
+    title: &title "Chest push medicinbold"
   - url: /assets/images/exercises/chest-push-medicinbold-2.jpg
     image_path: /assets/images/exercises/chest-push-medicinbold-2-320.jpg
     alt: "Chest push medicinbold"
-    title: "Chest push medicinbold"
+    title: &title "Chest push medicinbold"
   - url: /assets/images/exercises/chest-push-medicinbold-3.jpg
     image_path: /assets/images/exercises/chest-push-medicinbold-3-320.jpg
     alt: "Chest push medicinbold"
-    title: "Chest push medicinbold"
+    title: &title "Chest push medicinbold"
   - url: /assets/images/exercises/chest-push-medicinbold-4.jpg
     image_path: /assets/images/exercises/chest-push-medicinbold-4-320.jpg
     alt: "Chest push medicinbold"
-    title: "Chest push medicinbold"
+    title: &title "Chest push medicinbold"
 last_modified_at: 2014-10-30T10:21:11Z
 ---
 

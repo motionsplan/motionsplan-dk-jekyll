@@ -19,11 +19,13 @@ toc: true
 
 Jeg får ofte spørgsmålet om, hvad min idealvægt er? Altså ikke min idealvægt, men din idealvægt. Der er rigtig mange, der vurderer deres egen sundhed ud fra vægten. Jeg har undersøgt, hvad idealvægt er, og hvordan videnskaben er kommer frem til idealvægt?
 
-Hvad er idealvægt? **Idealvægt er et forsøg på at give et bud på, hvad den ideelle kropsvægt er, som teoretisk set vil give dig det længste liv med færrest sygdomme. Idealvægt er altså et mål for, hvornår du er sund ift. livslængde og helbred. Idealvægten kommer an på din højde, alder, køn og kropsbygning.**
+Hvad er idealvægt? **Idealvægt er et forsøg på at give et bud på, hvilken kropsvægt der teoretisk set vil give dig det længste liv med færrest sygdomme. Idealvægt er altså et mål for, hvornår du er sund ift. livslængde og helbred. Idealvægten udregnes oftest i forhold til din højde, alder, køn og kropsbygning.**
 
 ## Udregn din idealvægt for voksne mænd og kvinder
 
-Den simple beregner af idealvægt tager udgangspunkt i de formler, der ser ud til at blive brugt mest til at udregne idealvægten. Formlerne er fra Robinson (1983), Devine (1974), Miller (1983), Hamwi (1964). Jeg har udvidet den med Morten Zachos bestemmelse af idealvægt.
+Den simple beregner af idealvægt tager udgangspunkt i de formler, der ser ud til at blive brugt mest til at udregne idealvægten. Formlerne er fra Robinson (1983), Devine (1974), Miller (1983), Hamwi (1964).
+
+Jeg har udvidet beregneren med Morten Zachos forslag til bestemmelse af idealvægt ud fra BMI og kropstype, som jeg gennemgår nedenfor.
 
 {% include calculate-ideal-weight.html %}
 
@@ -38,9 +40,21 @@ Disse formler for idealvægt tager udelukkende udgangspunkt i om du er mand og k
 Formlerne fra Devine (1974), Miller (1983), Hamwi (1964) og Robinson (1983) er henvendt til mennesker, der er højere end 152 cm høje.
 {: .notice .notice--info }
 
+## Petersons universelle formel for idealvægt baseret på BMI
+
+Peterson et al (2016) har forbedret formlen for Devine (1974). Peterson et al (2016) fandt at Devine-formlen underestimerede kropsvægten for dem, der ikke var så høje, mens de overestimerede højden for de højere.
+
+Derfor foreslår Peterson et al (2016) at basere idealvægten på et _target BMI_. Som Devine (1974), så kan formlerne kun bruges for mennesker, der er højere end 152 cm.
+
+***
+
+Ideal Weight (kg) = 2.2 x BMI<sub>target</sub> + 3.5 x BMI<sub>target</sub> x (Height (m) - 1.5 m)
+
+***
+
 ## Udregn idealvægt baseret på BMI og kropstype
 
-Morten Zacho har foreslået, at [basere idealvægten på Body Mass Index (BMI)](https://web.archive.org/web/20160808221414/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/beregn_din_idealvaegt/){:rel="nofollow"}. Morten Zacho konkluderer, at videnskaben understøtter at et optimalt BMI er på omkring 22,5 for kvinder og 24,5 for mænd for at opleve det længste liv med færrest sygdomme. Jeg har forklaret rationalet bag i artiklen om [BMI](/bmi/).
+Morten Zacho har foreslået, at [basere idealvægten på Body Mass Index (BMI)](https://web.archive.org/web/20160808221414/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/beregn_din_idealvaegt/){:rel="nofollow"}. Morten Zacho konkluderer, at videnskaben understøtter at et optimalt BMI er på omkring 22,5 for kvinder og 24,5 for mænd for at opleve det længste liv med færrest sygdomme. Jeg har forklaret rationalet bag i indlægget om [Body Mass Index (BMI)](/bmi/).
 
 ## Hvor stor er usikkerheden på idealvægt?
 
@@ -60,13 +74,15 @@ Jeg har derfor inkluderet en mulighed for at vælge din kropstype i beregneren, 
 
 Jeg har skrevet en lang grundig artikel om [Body Mass Index (BMI)](/bmi/), som ofte også bruges til at få en ide om, hvad din idealvægt er.
 
-Men husk at idealvægt ikke er nogen faktuel videnskab, men bare en retningslinje, som ikke tager højde for din kropsbygning, fedtprocent eller kropskomposition.
+Men husk at idealvægt ikke er nogen faktuel videnskab. Begrebet om idealvægt er bare retningslinjer, som ikke tager højde for din kropsbygning, fedtprocent eller kropskomposition.
 
 Hvis du vil lære mere om kropskomposition, så har jeg skrevet et indlæg om [forskellige modeller til at beskrive kropskomposition]({% link _posts/2019-10-14-kropskomposition.md %}).
 
 ## Konklusion om idealvægt
 
-Nyere forskning af [Peterson et al (2016)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4841935/) forsøger at lave en universel formel til at estimere den ideelle kropsvægt og kropsvægt ved ethvert BMI. Det er en fin ressource at dykke ned i, hvis du gerne vil kigge mere på idealvægte. Hvis du har gode ideer til, hvordan jeg implementerer det arbejde i beregneren, så brug endelig kommentarerne.
+Nyere forskning af [Peterson et al (2016)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4841935/) forsøger at lave en universel formel til at estimere den ideelle kropsvægt og kropsvægt ved ethvert BMI. Det er en fin ressource at dykke ned i, hvis du gerne vil kigge mere på idealvægt.
+
+Hvis du har gode ideer til, hvordan jeg implementerer det arbejde i beregneren, så brug endelig kommentarerne.
 
 Idealvægt er i høj grad individuel, hvilket +/- 6 kg også vidner om. Der er mange forskellige måder at udregne idealvægt på. Et er øjnene der kigger på dig i spejlet, og et andet er hvad der er den optimale vægt for at få et langt liv med færrest mulige sygdomme.
 

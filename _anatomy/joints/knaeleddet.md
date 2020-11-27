@@ -1,6 +1,5 @@
 ---
-title: "Knæleddet"
-#excerpt: "Knæleddet er kroppens største og mest komplicerede led. Det danner forbindelse mellem lårbenet (femur),  skinnebenet (tibia) og knæskallen (patella). Knæskallen er  indkapslet i den sene, der går fra lårmusklen ned til skinnebenet."
+title: &title "Knæleddet"
 latin:
 tags:
   - led
@@ -15,11 +14,16 @@ image: https://shop9156.hstatic.dk/upload_dir/pics/Menisk-01.jpg
 header:
   teaser: https://www.students4bestevidence.net/app/uploads/2018/01/knee-2253047_1920.jpg
   overlay_image: https://www.students4bestevidence.net/app/uploads/2018/01/knee-2253047_1920.jpg
+  caption: *title
 ---
+
+Knæleddet er kroppens største og mest komplicerede led. Knæleddet danner forbindelse mellem lårbenet, skinnebenet og knæskallen. Knæleddet stabiliseres af en række stærke sener både indvendigt i knæet og på indersiden og ydersiden af knæet. Knæskallen er indkapslet i en sene, der går fra lårmusklen og ned på skinnebenet.
+
+Du kan læse mere om knæleddet i [knæets anatomi på ondtiknæet.dk](https://ondtiknaet.dk/knaeets-anatomi/).
 
 {% comment %}
 
-Knæleddet er kroppens største og mest komplicerede led. Dette er ikke mærkeligt når man tænker på de belastninger leddet udsættes for f.eks. under idrætsudfoldelse. Af samme grund opstår der ofte skader i dette led, og det er derfor vigtigt at kende til dets opbygning.
+Dette er ikke mærkeligt når man tænker på de belastninger leddet udsættes for f.eks. under idrætsudfoldelse. Af samme grund opstår der ofte skader i dette led, og det er derfor vigtigt at kende til dets opbygning.
 
 Knæleddet er nærmest et hængselled, men når knæet er flekteret kan der laves drejebevægelser med underbenet. Ledfladerne dannes af lårbenet og skinnebenet. Knæskallen danner også ledforbindelser til disse to knogler. Knæskallen sidder indskudt i senen fra den firhovede knæstrækker, der fæster på forsiden af skinnebenet.
 

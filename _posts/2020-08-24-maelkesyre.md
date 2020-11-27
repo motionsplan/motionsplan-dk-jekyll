@@ -30,9 +30,9 @@ Når kroppen kører på anaerob energiomsætning, så producerer musklerne energ
 
 {% include figure image_path="https://bioteknologi.systime.dk/fileadmin/_processed_/6/d/csm_875_To_veje_for_pyruvat_da10a08a22.png" caption="Mælkesyre bliver dannet i musklerne ved anaerobt arbejde i musklerne, når glykose spaltes uden ilt til stede. Processen går meget hurtigt, men producerer ikke så meget ATP. Kilde: [Systime. Bioteknologi](https://bioteknologi.systime.dk/?id=591)." alt="Mælkesyre bliver dannet i musklerne ved anaerobt arbejde og træning" %}
 
-Når vi arbejder uden ilt i længere tid, så er vi afhængige af at spalte glykose for at genoplade ATP. Når vi skal spalte glykose for at skabe ATP, så er ilt ikke nødvendigt. Processen foregår lynhurtigt, men når vi arbejder uden ilt, så kan vi heller ikke arbejde så længe.
+Når vi arbejder uden ilt i længere tid, så er vi afhængige af at spalte glykose for at genoplade ATP. Når vi skal spalte glykose for at skabe ATP, så er ilt ikke nødvendigt. Processen foregår lynhurtigt, men når vi arbejder uden ilt, så kan vi ikke arbejde så længe.
 
-Spaltning af glykose uden ilt kaldes også _glykolysen_. Den proces er ikke så ren, som hvis vi kan forbrænde glykose med ilt. I glykolysen kommer der et biprodukt, laktat, som vi på dansk kalder mælkesyre.
+Spaltning af glykose uden ilt kaldes også _glykolysen_. Processerne under spaltning af kulhydrat i glykolysen giver biproduktet mælkesyre.
 
 På dansk siger vi også ofte, at jeg "syrer til", når vi arbejder rigtig hårdt. Her henviser vi ofte til, at der kommer en ophobning af mælkesyre i musklerne. Når vi arbejder rigtig intensivt, så kommer der en stor produktion af mælkesyre, hvilket giver en forhøjet surhedsgrad i de arbejdende muskler. 
 
@@ -42,9 +42,19 @@ Senere har man fundet ud af, at mælkesyre langt fra er den eneste træthedsfakt
 
 Mælkesyren der skabes i musklerne under træning kan også skabe energi. Det inaktive muskelvæv og hjertet kan bruge mælkesyren som brændstof, når der er ilt til stedet. Desuden optager leveren mælkesyren og bearbejder det, så det igen kan bruges som energi i de arbejdende muskler.
 
+## Hvad er forskellen på laktat og mælkesyre?
+
+Når man taler om mælkesyre, så skal du være opmærksom på forskellen mellem mælkesyre og laktat. På engelsk hedder mælkesyre 'lactic acid' og laktat hedder 'lactate'.
+
+Når mælkesyre dannes i glykoysen fra 'pyruvat', så afgiver den altid en proton / H<sup>+</sup> til omgivelserne. Derfor bliver mælkesyren med det samme til laktat, og det er laktat, man kan måle i blodet.
+
+Du kan lære lidt mere om forskellen på laktat og mælkesyre i denne video.
+
+{% include video provider="youtube" id="v-g8gqfs3Xk" %}
+
 ## Mælkesyrebalance og mælkesyre i musklerne
 
-I hvile har de fleste mennesker omkring 1,5 mmol mælkesyre i blodet. Når vi bevæger os og træner intensivt, så øges niveauet af mælkesyre i musklerne og i blodet.
+I hvile har de fleste mennesker omkring 1,5 mmol laktat i blodet. Når vi bevæger os og træner intensivt, så øges niveauet af mælkesyre i musklerne og laktat i blodet.
 
 Når du laver let til moderat arbejde, så er der ilt nok til stede i musklerne til at lave forbrænding af fedt og kulhydrat i mitochondrierne. Når man arbejder hårdere, hvor pulsen kommer op over 150-170 slag pr. minut, så kan kredsløbet ikke nå at levere nok ilt til musklerne, og derfor produceres noget af energien i det anaerobe energisystem.
 
@@ -54,19 +64,21 @@ Hvad er mælkesyrebalancen? **Mælkesyrebalancen er en kombination af den mængd
 
 Mange anser [stadig mælkesyre for at være hovedårsagen til muskeltræthed](https://aktivtraening.dk/traening/maelkesyre-derfor-syrer-dine-muskler-til), men nyere forskning peger i en anden retning.
 
-Der er ingen tvivl om, at du ved hårdt, intensivt arbejde får højere koncentrationer af mælkesyre i musklerne og i blodet, og at miljøet i musklerne derved forsures.
+Der er ingen tvivl om, at du ved hårdt, intensivt arbejde producerer mere mælkesyre og får højere koncentrationer af laktat i musklerne. Men det er faktisk ikke mælkesyrens skyld, at miljøet i musklerne forsures. Det kan rent biokemisk ikke lade sig gøre, at mælkesyren og laktat er skyld i forsuringen.
 
-Det betyder imidlertid ikke, at musklernes funktion hæmmes af selve mælkesyren. Måske [beskytter mælkesyre i virkeligheden musklerne](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2278832/), og der er sket meget med [forskningen i laktat og mælkesyre gennem tiden](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5192418/). 
+Musklernes funktion hæmmes således ikke af selve mælkesyren. Måske [beskytter mælkesyre i virkeligheden musklerne](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2278832/), og der er sket meget med [forskningen i laktat og mælkesyre gennem tiden](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5192418/).
+
+Forsuringen i musklerne sker formentlig pga. andre processer, fx forskellige kinase-reaktioner.
 
 Men hvis det ikke er mælkesyren, der udtrætter musklerne og gør, at jeg ikke længere kan arbejde, når jeg træner intensivt, hvad er det så?
 
 **Kaliumbalancen** kan være en anden træthedsfaktor. 
 
-Vores krop er opbygget af celler. Der er både væske inden i cellerne og uden for cellerne. I væsken er mineralet kalium. I cellerne er der store mængde opløse kaliumsalte, mens der uden for cellerne ikke under almindelige forhold er ret meget kalium.
+Vores krop er opbygget af celler. Der er både væske inden i cellerne og uden for cellerne. I væsken er mineralet kalium. I cellerne er der store mængder opløste kaliumsalte, mens der uden for cellerne under almindelige forhold ikke er ret meget kalium.
 
-Denne forskel i koncentration af kalium er en forudsætning for, at cellerne kan opfange og behandle de elektriske impulser, som hjernen sender gennem nervebanerne for at give musklerne besked om at bevæeg sig.
+Denne forskel i koncentration af kalium er en forudsætning for, at cellerne kan opfange og behandle de elektriske impulser, som hjernen sender gennem nervebanerne for at give musklerne besked om at trække sig sammen.
 
-Under hårdt intensivt arbejde så afgives der kalium til væsken uden om muskelcellerne. Dermed forskydes den naturlige fordeling af kalium i kroppen. I yderste instans så lammes musklerne, fordi signalerne fra hjernen ikke længere kan opfattes.
+Under hårdt intensivt arbejde afgives der kalium til væsken uden om muskelcellerne. Dermed forskydes den naturlige fordeling af kalium i kroppen. I yderste instans så kan musklerne ikke længere opfatte signalerne fra hjernen pga. forskydningen i kaliumbalancen.
 
 Nogle danske forskere har foreslået, at [mælkesyre er med til at beskytte musklerne mod denne lammelse](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2278832/), mens andre forskere konkluderer, at [mælkesyre ikke beskytter musklerne mod træthed i aktive muskler](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1665519/).
 
@@ -85,9 +97,9 @@ Der er et par problemer med den forklaring.
 - Hvis mælkesyren ikke beskytter aktive muskler mod lammelsen forårsaget af den forskubbede kaliumbalance, så virker det naturligvis ikke. 
 - Mælkesyren fjernes jo igen, når intensiteten sættes ned, og der er det ret tvivlsomt at mælkesyren stadig vil kunne have beskyttende effekt, hvis den findes.
 
-## Hvordan fjernes mælkesyren fra musklerne?
+## Hvordan fjernes mælkesyren og laktat fra musklerne?
 
-Den producerede mælkesyre bliver fjernet på forskellige måder kroppen.
+Den producerede laktat bliver fjernet på forskellige måder kroppen.
 
 - Ved at blive metaboliseret i musklerne
 - Ved at blive omdannet til glykose i leveren
@@ -97,7 +109,7 @@ Den producerede mælkesyre bliver fjernet på forskellige måder kroppen.
 
 **Mælkesyren fjernes i leveren**. Teorien bag leverens evne til at gendanne glykose fra mælkesyre, som bagefter gør blodet i stand til at forsynes musklerne med ny glykose kaldes **cori cyklus**.
 
-Cori cyklus er en cyklus, hvor muskler nedbryder glukose til laktat. Derefter frigives laktat til blodet, og leveren optager laktaten. Laktat bliver derefter omdannet til glucose i leveren, og leveren frigiver glukose til blodet, som musklerne så igen kan optage og bruge til brændstof.
+Cori cyklus er en cyklus, hvor muskler nedbryder glukose til laktat. Derefter frigives laktat til blodet, og leveren optager laktaten. Laktat bliver derefter omdannet til glukose i leveren, og leveren frigiver glukose til blodet, som musklerne så igen kan optage og bruge til brændstof.
 
 **Mælkesyren fjernes i nyrerne.** Her bliver det fjernet.
 

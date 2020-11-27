@@ -1,5 +1,5 @@
 ---
-title: "SMR Fødder"
+title: &title "SMR Fødder"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/smr-foedder/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/smr-foedder-0.jpg
   teaser: /assets/images/exercises/smr-foedder-0-320.jpg
+  caption: *title
 tags:
   - Self Myofascial Release (SMR)
   - lacrosse bold
@@ -24,11 +25,11 @@ gallery:
   - url: /assets/images/exercises/smr-foedder-0.jpg
     image_path: /assets/images/exercises/smr-foedder-0-320.jpg
     alt: "SMR Fødder"
-    title: "SMR Fødder"
+    title: &title "SMR Fødder"
   - url: /assets/images/exercises/smr-foedder-1.jpg
     image_path: /assets/images/exercises/smr-foedder-1-320.jpg
     alt: "SMR Fødder"
-    title: "SMR Fødder"
+    title: &title "SMR Fødder"
 last_modified_at: 2015-04-10T13:49:08Z
 ---
 

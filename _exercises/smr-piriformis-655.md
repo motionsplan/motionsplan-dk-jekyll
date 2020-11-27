@@ -1,5 +1,5 @@
 ---
-title: "SMR piriformis"
+title: &title "SMR piriformis"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/smr-piriformis/
@@ -9,6 +9,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/smr-piriformis-0.jpg
   teaser: /assets/images/exercises/smr-piriformis-0-320.jpg
+  caption: *title
 tags:
   - Self Myofascial Release (SMR)
   - lacrosse bold
@@ -25,7 +26,7 @@ gallery:
   - url: /assets/images/exercises/smr-piriformis-0.jpg
     image_path: /assets/images/exercises/smr-piriformis-0-320.jpg
     alt: "SMR piriformis"
-    title: "SMR piriformis"
+    title: &title "SMR piriformis"
 last_modified_at: 2015-04-10T13:44:48Z
 ---
 

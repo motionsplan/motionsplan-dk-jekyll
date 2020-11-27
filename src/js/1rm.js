@@ -5,7 +5,7 @@ motionsplan.Estimate1RM = function(weight, repetitions = 5) {
   repetitions = repetitions;
 
   function getBrzycki(rm = 1) {
-    var repmax = weight * (36 / (37 - repetitions))
+    var repmax = weight * (36 / (37 - repetitions));
     if (rm == 1) {
       return repmax;
     }
@@ -125,7 +125,7 @@ motionsplan.Estimate1RM = function(weight, repetitions = 5) {
     return rm * percent / 100;
   }
 
-  var publicAPI = {
+  let publicAPI = {
     getBrzycki: getBrzycki,
     // getAbadie: getAbadie,
     getReynolds: getReynolds,
@@ -142,6 +142,6 @@ motionsplan.Estimate1RM = function(weight, repetitions = 5) {
   };
 
   return publicAPI;
-}
+};
 
 module.exports = motionsplan;

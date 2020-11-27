@@ -1,45 +1,33 @@
-<form class="calculator">
+<form class="calculator" id="calculator_change">
     <fieldset>
         <legend>Udregning af vægttab i kalorieunderskud</legend>
         <div class="form-group">
-            <label for="tee">Dagligt energiforbrug (kcal)</label>
-            <input name="tee" placeholder="3000">
+            <label>Dagligt energiforbrug (kJ)
+                <input name="tee" type="number" min="1000" max="30000" placeholder="10000 kJ" required>
+            </label>
         </div>
         <div class="form-group">
-            <label for="intake">Dagligt energiindtag (kcal)</label>
-            <input name="intake" placeholder="3000">
+            <label>Dagligt energiindtag (kcal)
+                <input name="intake" type="number" min="1000" max="30000" placeholder="10000 kJ" required>
+            </label>
         </div>
-        <input type="submit" value="Beregn" onclick="return calc(this.form);">
+        <input type="submit" value="Beregn">
     </fieldset>
     <fieldset class="results">
         <div class="form-group">
-            <label for="balance">Balance (kcal)</label>
-            <input name="balance" aria-readonly="true" readonly="read-only"> 
+            <label>Balance (kJ)
+                <input name="balance" disabled>
+            </label>
         </div>
         <div class="form-group">
-            <label for="daily_weightchange">Daglig vægtændring (g)</label>
-            <input name="daily_weightchange" aria-readonly="true" readonly="read-only"> 
+            <label>Ugentlig vægtændring (g)
+                <input name="weekly_weightchange" disabled>
+            </label>
         </div>
         <div class="form-group">
-            <label for="monthly_weightchange">Månedlig vægtændring (kg)</label>
-            <input name="monthly_weightchange" aria-readonly="true" readonly="read-only"> 
+            <label>Månedlig vægtændring (kg)
+                <input name="monthly_weightchange" disabled>
+            </label>
         </div>
     </fieldset>
 </form>
-
-<script>
-    function calc(form) {
-        var daily = form.intake.value;
-        var tee = form.tee.value;
-
-        var diff = tee - daily;
-        var fat = 9; //kcal
-
-        var lost_daily = diff / fat;
-
-        form.balance.value = diff;
-        form.daily_weightchange.value = lost_daily;
-        form.monthly_weightchange.value = lost_daily * 30 / 1000;
-        return false;
-    }
-</script>

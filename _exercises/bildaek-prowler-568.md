@@ -1,5 +1,5 @@
 ---
-title: "Bildæk, prowler"
+title: &title "Bildæk, prowler"
 instructions: ""
 permalink: /oevelse/bildaek-prowler/
 redirect_from:
@@ -10,6 +10,7 @@ language: da
 header:
   overlay_image: /assets/images/exercises/bildaek-prowler-0.jpg
   teaser: /assets/images/exercises/bildaek-prowler-0-320.jpg
+  caption: *title
 tags:
   - Kondition og puls
   - outdoor
@@ -25,11 +26,11 @@ gallery:
   - url: /assets/images/exercises/bildaek-prowler-0.jpg
     image_path: /assets/images/exercises/bildaek-prowler-0-320.jpg
     alt: "Bildæk, prowler"
-    title: "Bildæk, prowler"
+    title: &title "Bildæk, prowler"
   - url: /assets/images/exercises/bildaek-prowler-1.jpg
     image_path: /assets/images/exercises/bildaek-prowler-1-320.jpg
     alt: "Bildæk, prowler"
-    title: "Bildæk, prowler"
+    title: &title "Bildæk, prowler"
 last_modified_at: 2014-10-03T10:17:29Z
 ---
 

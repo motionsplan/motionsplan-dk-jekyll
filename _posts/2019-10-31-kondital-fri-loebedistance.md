@@ -14,18 +14,21 @@ tags:
   - løb
   - maksimal test
   - indirekte test
+  - løbetest
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 ---
 
-Du kan beregne dit kondital ud fra en løbetur, du har løbet. Du indtaster bare, hvor mange kilometer du har løbet, og hvor lang tid det tog. Jeg har lavet en beregner, der kan udregne dit kondital på baggrund af din hastighed og din distance.
+Du kan beregne dit kondital ud fra en løbetur, du har løbet. Du indtaster bare, hvor mange kilometer du har løbet, og hvor lang tid det tog. I denne beregner kan du udregne dit kondital på baggrund af en løbetest, hvor du registrerer din hastighed og din distance.
 
-Flere forudsætninger for din løbetur skal dog være opfyldt for at beregneren virker:
+Konditionstesten til løb er baseret på Tokmakidis et al (1987). Du skal være opmærksom på, at din løbetest skal være løbet så hurtigt som overhovedet muligt.
 
-- Du skal være varmet op på forhånd.
-- Du skal løbet en distance så hurtigt som muligt.
-- Ruten skal være flad.
-- Distancen skal være mellem 1500 meter og 42 km.
+Du skal derfor opfylde følgende forudsætninger for at kunne bruge udregne dit kondital på baggrund af formlerne fra Tokmakidis et al (1987).
+
+- Du skal starte med en grundig opvarmning, så du kan løbe dit testtempo fra starten af løbeturen.
+- Du skal løbe distancen så hurtigt som overhovedet muligt.
+- Du skal løbe på en nogenlunde flad rute, fx på en løbebane for at få det mest pålidelige resultat, når du udregner konditallet.
+- Distancen skal være mellem 1500 meter og 42 km, da formlen fra Tokmakidis et al (1987) er baseret på disse distancer.
 
 ## Find dit kondital fra løbetest
 

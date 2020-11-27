@@ -4,35 +4,42 @@
     <fieldset>
         <legend>Pollock-Jackson 3-site skinfold. Kvinder. Indtast de målte værdier.</legend>
         <div class="form-group">
-            <label for="triceps_female">Triceps (mm)</label>
-            <input type="text" name="triceps_female" id="triceps_female" min="0" max="150" step="0.1">
+            <label>Triceps (mm)
+                <input type="text" name="triceps_female" min="0" max="150" step="0.1" required>
+            </label>
         </div>
         <div class="form-group">
-            <label for="subiliac_female">Hoftekam (mm)</label>
-            <input type="text" name="supiliac_female" id="subiliac_female" min="0" max="150" step="0.1">
+            <label>Hoftekam (mm)
+                <input type="text" name="supiliac_female" min="0" max="150" step="0.1" required>
+            </label>
         </div>
         <div class="form-group">
-            <label for="thigh_female">Lår (mm)</label>
-            <input type="text" name="thigh_female" id="thigh_female" min="0" max="150" step="0.1">
+            <label>Lår (mm)
+                <input type="text" name="thigh_female" min="0" max="150" step="0.1" required>
+            </label>
         </div>
         <div class="form-group">
-            <label for="age_female">Alder (år)</label>
-            <input type="text" name="age_female" id="age_female" min="10" max="100">
+            <label>Alder (år)
+                <input type="text" name="age_female" min="10" max="100" required>
+            </label>
         </div>
         <div class="form-group">
-            <label for="weight_female">Vægt (kg)</label>
-            <input type="text" name="weight_female" id="weight_female" min="30" max="200" step="0.1">
+            <label>Vægt (kg)
+                <input type="text" name="weight_female" min="30" max="200" step="0.1" required>
+            </label>
         </div>
         <input type="submit" value="Beregn">
     </fieldset>
     <fieldset class="results">
         <div class="form-group">
-            <label for="fatpercent_female">Fedtprocent (%)</label>
-            <input type="text" name="fatpercent_female" id="fatpercent_female" disabled="disabled">
+            <label>Fedtprocent (%)
+                <input type="text" name="fatpercent_female" disabled>
+            </label>
         </div>
         <div class="form-group">
-            <label for="ffm_female">Fedtfri masse (kg)</label>
-            <input type="text" name="ffm_female" id="ffm_female" disabled="disabled">
+            <label for="ffm_female">Fedtfri masse (kg)
+                <input type="text" name="ffm_female" disabled>
+            </label>
         </div>
     </fieldset>
 </form>

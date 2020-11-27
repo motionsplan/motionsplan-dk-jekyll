@@ -1,5 +1,5 @@
 ---
-title: "Hop med armtræk"
+title: &title "Hop med armtræk"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/hop-med-armtraek/

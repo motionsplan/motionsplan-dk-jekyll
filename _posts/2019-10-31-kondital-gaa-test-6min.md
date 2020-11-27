@@ -13,6 +13,7 @@ tags:
   - konditionstest
   - submaksimal test
   - indirekte test
+  - gåtest
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 ---
@@ -34,7 +35,8 @@ I **6 minutters gå-test** gælder det om at gå så langt som muligt på 6 minu
 
 ## Referenceværdier for 6 minutters-gangtesten
 
-Der findes en del forskellige publicerede referenceværdier til 6-minutters gangtesten. Den væsentligste forskel på referenceværdierne er om forsøgspersonerne forud har haft mulighed for at blive tilvænnet til testen. 
+Der findes en del forskellige publicerede referenceværdier til 6-minutters gangtesten. Den væsentligste forskel på referenceværdierne er om forsøgspersonerne forud har haft mulighed for at blive tilvænnet til testen.
+
 Inspireret af [Morten Zacho](http://web.archive.org/web/20150403145323/http://www.motion-online.dk/konditionstraening/testning/6_min_gaa-test/){:rel="nofollow"} har vi valgt at angive referenceværdierne fra [Enright & Sherill (1998)](https://pubmed.ncbi.nlm.nih.gov/9817683/). Referenceværdierne fra denne reference er baseret på forsøgspersoner, der **ikke på forhånd er blevet tilvænnnet til gangtesten**. Referenceværdierne gælder for både mænd og kvinder i alderen 40-80 år.
 
 - Men: 6MWD = (7.57 x height cm) - (5.02 x age) - (1.76 x weight kg) - 309 m
@@ -60,7 +62,7 @@ Studier har vist, at testen er ret påvirkelig af tilvænning. Gibbons et al (20
 
 Hvis du laver testen med tilvænning, så skal du også sammenligne med referenceværdier, hvor forsøgspersonerne har vænnet sig til testen. Du kan fx finde referenceværdier hos Gibbons et al (2001).
 
-[Morten Zacho](http://web.archive.org/web/20150403145323/http://www.motion-online.dk/konditionstraening/testning/6_min_gaa-test/){:rel="nofollow"} skriver at det bedste formentlig er at lave to tilvænningsforsøg og lade det tredje tælle.
+[Morten Zacho](http://web.archive.org/web/20150403145323/http://www.motion-online.dk/konditionstraening/testning/6_min_gaa-test/){:rel="nofollow"} foreslår, at man laver to tilvænningsforsøg og lader det tredje forsøg være tællende, hvis der er tid til det. Hvis du gennemfører testen på denne måde, så sørg for at sammenligne med referenceværdier, hvor forsøgspersonerne har haft tilvænning til gangtesten (fx Gibbons 2001).
 
 ## Referencer til gangtesten på 6 minutter
 

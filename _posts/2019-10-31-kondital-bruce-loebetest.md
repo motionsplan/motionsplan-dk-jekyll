@@ -1,11 +1,12 @@
 ---
-title: "Bruce løbetest: Find din kondition på løbebånd uden pulsmåler"
+title: &title "Bruce løbetest: Find din kondition på løbebånd uden pulsmåler"
 permalink: /bruce-test/
 excerpt: "Bruce-test på løbebånd er en submaksimal test, der kræver et løbebånd med mulighed for at indstille hastighed og hældning."
 language: da
 header:
   overlay_image: https://i.ytimg.com/vi/AQzjKh6E8zU/maxresdefault.jpg
   teaser: https://i.ytimg.com/vi/AQzjKh6E8zU/maxresdefault.jpg
+  caption: *title
 category:
   - Kondition
 tags:
@@ -13,6 +14,7 @@ tags:
   - løbebånd
   - maksimal test
   - indirekte test
+  - løbetest
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 feature_row:
@@ -31,13 +33,17 @@ Bruce-løbetest er [meget almindelig i fx USA](http://health-calc.com/fitness-te
 
 ## Forberedelse til Bruce-testen
 
-Inden testen skal du undersøge, om løbebåndet kan indstilles til alle hældninger og hastigheder, som er nødvendige for at gennemføre testen. Nogle steder foreslås det, at man kan klodse løbebåndet op for at opnå de korrekte hældninger. Hvis ikke du har adgang til et løbebånd, der kan indstilles korrekt til Bruce-testen, så vil jeg i stedet foreslå, at du vælger en af de mange andre [kondtionstests]({% link _posts/2019-11-04-kondition-og-test.md %}).
+Inden udførelsen af Bruce-testen skal du undersøge, om løbebåndet kan indstilles til alle hældninger og hastigheder, som er nødvendige for at gennemføre testen.
 
-## Instruktion af Bruce-testen
+Nogle steder foreslås det, at man kan klodse løbebåndet op for at opnå de korrekte hældninger. Hvis ikke du har adgang til et løbebånd, der kan indstilles korrekt til Bruce-testen, så vil jeg i stedet foreslå, at du vælger en af de mange andre [kondtionstests]({% link _posts/2019-11-04-kondition-og-test.md %}).
+
+## Hvordan laves Bruce-testen?
 
 Du kan se et eksempel på, hvordan du kan bruge Bruce-testen i videoen nedenunder (jeg fraråder at du selv klodser løbebåndet op).
 
 {% include video provider="youtube" id="oryZbKrRGNI" %}
+
+For at udføre [Bruce-testen](https://en.wikipedia.org/wiki/Bruce_protocol) kan du følge disse instruktioner.
 
 1. Tjek at løbebåndet kan køre med de angivne hastigheder og hældninger.
 2. I tabellen nedenunder kan du se, hvordan hældning og hastighed skal ændres hvert 3. minut i løbet af Bruce-testen.
@@ -54,15 +60,17 @@ Bruce-testen starter altså med 2,7 km/t og hældning 10%. Efter 3 minutter øge
 
 ## Formlerne som bruges i Bruce-testen
 
-For at udregne konditallet ud fra resultatet i Bruce-testen, skal du bruge følgende formler, som jeg har fundet på [www.topendsports.com](https://www.topendsports.com/testing/tests/bruce.htm):
+For at udregne konditallet ud fra resultatet i Bruce-testen, skal du bruge en formel. Der findes lidt [forskellige formler alt efter køn og alder](https://en.wikipedia.org/wiki/Bruce_protocol). 
 
-Mænd: VO<sub>2</sub>-max = 14.8 – (1.379 * T) + (0.451 * T<sup>2</sup>) – (0.012 * T<sup>3</sup>)
+Der er en generel formel, der passer til begge køn: 
 
-Kvinder: VO<sub>2</sub>-max = 4.38 * T – 3.9
+VO<sub>2</sub>-max = 14.8 – (1.379 * T) + (0.451 * T<sup>2</sup>) – (0.012 * T<sup>3</sup>)
 
 Hvor T er er tiden i minutter, du har løbet i Bruce-testen.
 
-Skriv endelig i kommentarerne, hvis du har brug for en beregner til Bruce-testen, så laver vi gerne en.
+Men på [www.topendsports.com](https://www.topendsports.com/testing/tests/bruce.htm) kan du også finde formler rettet mod mænd og kvinder i forhold til alder.
+
+Skriv endelig i kommentarerne, hvis du har brug for en online-beregner til Bruce-testen, så laver vi gerne en.
 
 ## Referencer om Bruce Test
 

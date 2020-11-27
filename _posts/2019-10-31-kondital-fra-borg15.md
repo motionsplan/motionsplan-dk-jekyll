@@ -1,7 +1,7 @@
 ---
-title: &title "Borg 15 konditest på cykel (RPE-test) 🚴🚴‍♀️"
+title: &title "Borg 15 konditest på cykel 🚴🚴‍♀️"
 permalink: /kondital-borg15/
-excerpt: "Borg 15-testen er en submaksimal konditest på cykel, hvor forsøgspersonens kondital estimeres ud fra en test på en ergometercykel."
+excerpt: "Borg 15-testen eller Graded Cycling Test with Talk Test er en submaksimal konditest på cykel, hvor forsøgspersonens kondital estimeres ud fra en test på en ergometercykel."
 language: da
 header:
   overlay_image: https://i.ytimg.com/vi/gEQ1M-NKHCA/maxresdefault.jpg
@@ -14,13 +14,14 @@ tags:
   - cykel
   - submaksimal test
   - indirekte test
+  - cykeltest
 last_modified_at: 2019-10-31T23:14:14Z
 toc: true
 ---
 
-I Borg 15-testen cykler forsøgspersonen på cykel til en gradvist højere belastning, indtil vedkommende vurderer arbejdet til at være “Anstrengende” i forhold til Borg-skalaen (15 er anstrengende på Borg-skalaen). Derefter estimeres konditallet ud fra den opnåede belastning på cykeltesten.
+I Borg 15-testen cykler forsøgspersonen på cykel med en gradvist højere belastning, indtil vedkommende vurderer arbejdet til at være “Anstrengende” i forhold til Borg-skalaen (15 er anstrengende på Borg-skalaen). Derefter estimeres konditallet ud fra den opnåede belastning på cykeltesten.
 
-Konditionstesten Borg 15 har fået sit navn efter professor Gunnar Borg, som opfandt den.
+Konditionstesten Borg 15 har fået sit navn efter professor Gunnar Borg, som opfandt den. Senere kaldes den også på engelsk for _Graded Cycling Test with Talk Test_.
 
 *[RPE]: Rate of Perceived Exertion
 
@@ -28,15 +29,15 @@ Fordelen med Borg 15-testen er, at den ikke ikke tager udgangspunkt i en anslåe
 
 Ulempen er selvfølgelig, at testresultatet er afhængigt af testpersonens egen subjektive opfattelse af anstrengelse. For at få det mest pålidelige resultat, skal du formentlig prøve Borg 15-testen nogle gange.
 
-Inden du går i gang med at udføre testen, kan det være en god ide at læse grundigt op på [Borg-skalaen]{% link _posts/2020-06-18-borg-skala.md %}.
+Inden du går i gang med at udføre testen, kan det være en god ide at læse grundigt op på [Borg-skalaen]({% link _posts/2020-06-18-borg-skala.md %}).
 
 ## Gennemførelse af Borg 15-cykeltest
 
 1. Varm op i 2 minutter på kondicyklen uden belastning.
 2. Kør testen med omkring 60 RPM.
 3. Øg herefter belastningen med 15 watt for hvert minut.
-4. I slutningen af hvert minut peger forsøgspersonen på sin subjektive vurdering af anstrengelse på Borg-skalaen.
-5. Når personen vurderer belastningen til at være 15 - altså "Anstrengende" - er testen slut.
+4. I slutningen af hvert minut peger forsøgspersonen på sin subjektive vurdering af anstrengelse på Borg-skalaen. I beregneren bruges formler fra Okura og Tanaka (2001), som er baseret på følelsen i benene (og altså ikke følelsen på selve kredsløbet).
+5. Når personen vurderer belastningen til at være 15 - altså "Anstrengende" - for benene er testen slut.
 6. Du noterer watt, alder og vægt, som du kan indtaste i beregneren nedenunder for at udregne dit kondital.
 
 ## Borg-skalaen
@@ -67,19 +68,27 @@ W er workload i kgm·min<sup>-1</sup> (kilogram-force meter/minute). Jeg bruger 
 
 ## Forbedring af Borg 15-cykeltesten
 
-Morten Zacho vurderer, at [validiteten stiger, når Borg15-testen kobles sammen med en systematisk snakketest](https://www.motion-online.dk/borg-15-test/). Han foreslår, at man i slutningen af hvert minut får forsøgspersonen til at læse op af en tekst af ca. 10 sekunders varighed. Når oplæsningen bliver tydeligt og hørbart forstyrret af den øgede vejrtrækning, så er 15 nået på Borg-skalaen.
+Morten Zacho vurderer, at [validiteten stiger, når Borg15-testen kobles sammen med en systematisk snakketest](https://www.motion-online.dk/borg-15-test/). Zacho foreslår, at man i slutningen af hvert minut får forsøgspersonen til at læse op af en tekst af ca. 10 sekunders varighed. Når oplæsningen bliver tydeligt og hørbart forstyrret af den øgede vejrtrækning, så er 15 nået på Borg-skalaen.
 
 At en snakketest gør det lettere at finde niveauet for anstrengelse er undersøgt af [Persinger et al (2004)](https://pubmed.ncbi.nlm.nih.gov/15354048/), men det er mig bekendt ikke lavet studier, hvor snakketesten er blevet valideret i forhold til Borg 15-testen.
 
-## Noter til Borg 15-testen
+Jeg er dog ved at undersøge, om der er lavet valideringsstudier af testen under _Graded Cycling Test with Talk Test_.
 
-Borg 15 testen er en submaksimal test, og du den går op til omkring 250 watt. For meget veltrænede cyklister er det ret lavt, så derfor er formlen ikke så pålidelig, da de vil have vanskeligt ved at opnå "Anstrengende" på Borg-skalaen.
+## Konklusion på Borg 15-testen
 
-Vurderingen på Borg-skalaen er efter, hvor anstrengende arbejdet føles for benene. Selvom man bruger snakketesten og måske en pulsmåler som ekstra parametre, så skal forsøgspersonen altså kunne adskille belastningen på åndedrættet og benene i testen.
+Borg 15 testen er en submaksimal test, og den går op til omkring 250 watt. For meget veltrænede cyklister er det ret lavt, så derfor er formlen ikke så pålidelig, da de vil have vanskeligt ved at opnå "Anstrengende" på Borg-skalaen.
+
+Okura og Tanaka (2001) fandt den bedste korrelation med VO<sub>2</sub>max med følelsen af, hvor anstrengende arbejdet føles for benene, når de skulle angive arbejdets hårdhed på Borg-skalaen.
+
+Selvom man bruger snakketesten og måske en pulsmåler som ekstra parametre, så skal forsøgspersonen altså kunne adskille belastningen på åndedrættet og benene i testen.
 
 Borg 15-konditesten er valideret på 154 japanske mænd i alderen 20-64 år. Jeg har ikke kunnet finde studier, der validerer testen, med kvinder eller andre befolkningsgrupper.
 
 ## Reference til Borg 15-cykeltest
 
+<details markdown="1">
+  <summary></summary>
+
 - Okura, T., og K. Tanaka. 2001. “A Unique Method for Predicting Cardiorespiratory Fitness Using Rating of Perceived Exertion”. Journal of Physiological Anthropology and Applied Human Science 20 (5): 255–61. <https://doi.org/10.2114/jpa.20.255>.
 - R, Persinger, Foster C, Gibson M, Fater Dc, og Porcari Jp. 2004. “Consistency of the Talk Test for Exercise Prescription”. Medicine and Science in Sports and Exercise. Med Sci Sports Exerc. september 2004. <https://pubmed.ncbi.nlm.nih.gov/15354048/>.
+</details>

@@ -35,35 +35,36 @@
         <legend>Udregn kondital fra YoYo Udholdenhedstest.</legend>
         <fieldset>
             <legend>Testversion</legend>
-            <label for="checkbox-man" class="radio">
+            <label class="radio">
                 <input type="radio" name="version" value="YYE1" checked="checked"> Yo-Yo Endurance Test <strong>Level 1</strong>
 
             </label>
-            <label for="checkbox-woman" class="radio">
+            <label class="radio">
                 <input type="radio" name="version" value="YYE2"> Yo-Yo Endurance Test <strong>Level  2</strong>
             </label>
         </fieldset>
-
         <div class="form-group">
-            <label for="level">Niveau opnået i testen (5-21)</label>
-            <input type="number" name="level" max="21" min="5">
+            <label>Niveau opnået i testen (5-21)
+                <input type="number" name="level" max="21" min="5" required>
+            </label>
         </div>
         <div class="form-group">
-            <label for="shuttles">Antal 20m shuttles (0-16) på niveauet</label>
-            <input type="number" name="shuttles" max="16" min="0">
+            <label>Antal 20m shuttles (0-16) på niveauet
+                <input type="number" name="shuttles" max="16" min="0" required>
+            </label>
         </div>
         <input type="submit" value="Beregn">
     </fieldset>
     <fieldset class="results">
         <legend>Resultater</legend>
         <label>Distance (m)
-            <input disabled="disabled" name="distance_result" id="distance_result" type="text" placeholder="">
+            <input disabled name="distance_result" id="distance_result" type="text">
         </label>
         <label>Antal 20m shuttles
-            <input disabled="disabled" name="totalshuttles_result" id="totalshuttles_result" type="text" placeholder="">
+            <input disabled name="totalshuttles_result" id="totalshuttles_result" type="text">
         </label>
         <label>VO<sub>2max</sub> (ml/kg/min)
-            <input disabled="disabled" name="vo2max_result" id="vo2max_result" type="text" placeholder="">
+            <input disabled name="vo2max_result" id="vo2max_result" type="text">
         </label>
     </fieldset>
 </form>

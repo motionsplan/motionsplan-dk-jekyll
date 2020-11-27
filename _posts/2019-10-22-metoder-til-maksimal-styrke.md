@@ -1,11 +1,12 @@
 ---
-title: "Maksimal styrke: Metoder til maksimal muskelstyrke 🏋️‍♀️"
+title: &title "Maksimal styrke: Metoder til maksimal muskelstyrke 🏋️‍♀️"
 permalink: /maksimal-styrke/
 excerpt: "Maksimal muskelstyrke kan trænes på flere måder. Wave loading og rest pause kan være effektive metoder til at træne maksimal styrke."
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1534438097545-a2c22c57f2ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
   teaser: https://images.unsplash.com/photo-1534438097545-a2c22c57f2ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80
+  caption: *title
 category:
   - Styrketræning
 tags:
@@ -50,7 +51,7 @@ Formålet med opvarmningen er at optimere løfteteknikken inden arbejdssættene.
 
 Ideen bag waves er at udnytte _post-activation potentiation_ (PAP). Teorien er at en maksimal sammentrækning aktiverer nervesystemet, hvilket øger kapaciteten til at rekruttere muskelfibre, når man løfter eksempelvis tunge 1'ere og 2'ere på over 85% af 1RM. Det skaber en PAP, der kan måles som øget _rate of force development (RFD)_, power og maksimal kraft omkring 7-8 minutter senere. Der er uenighed om, hvor længe effekten varer ved, men nogle studier foreslår, at effekten måske varer i op til 24 timer efter. 
 
-Teoretisk set kan løfteren alts nyde øget kraft i de senere sæt ved at lave maksimale sammentrækninger i de forrige sæt. Derved kan man i de følgende sæt lave flere reps og løfte mere vægt. 
+Teoretisk set kan løfteren altså nyde øget kraft i de senere sæt ved at lave maksimale sammentrækninger i de forrige sæt. Derved kan man i de følgende sæt lave flere reps og løfte mere vægt. 
 
 Alt efter hvor godt PAP fungerer undervejs, så er det ikke sikkert, at RPE går lige så meget op igennem de forskellige waves, som man kunne forvente. Men den sidste wave vil helt sikkert være hård.
 
@@ -78,6 +79,8 @@ I en traditionel wave gør det tunge sidste sæt dig klar til de tungere sæt i 
 - 2 reps af 88% af 1RM _+ 2-20 kg (alt efter overskud og øvelse)_
 - 1 rep af 92% af 1RM _+ 2-20 kg (alt efter overskud og øvelse)_
 
+{% include calculate-wave-traditional.html %}
+
 ### Wave ladders
 
 En traditionel wave har det tunge sæt til sidst i en wave, men du kan også vende _waven_ om og lægge det korte sæt først og gradvist øge antallet af gentagelser. _Wave ladders_ er en hybrid mellem to metoder. 
@@ -102,11 +105,11 @@ En traditionel wave har det tunge sæt til sidst i en wave, men du kan også ven
 
 Hvis du kan fuldende en hel wave, kan du starte en ny wave. Hvis du ikke kan gennemføre reps i et sæt, så stopper du øvelsen og _waven_.
 
+{% include calculate-wave-ladder.html %}
+
 ### Wave baseret på RPE
 
-Ved brug af RPE som intensitetsskala[^note] for at vælge sin _wave_ sørger man for at have en _autoreguleret_ træning, hvor man tilføjer et passende antal kilo til stangen.
-
-[^note]: Vi har skrevet mere om [RPE i denne artikel](/rpe/).
+Ved brug af RPE som intensitetsskala for at vælge sin _wave_ sørger man for at have en _autoreguleret_ træning, hvor man tilføjer et passende antal kilo til stangen i forhold til [RPE](/rpe/).
 
 {% include figure image_path="https://articles.reactivetrainingsystems.com/wp-content/uploads/2015/11/E1RM-TABLE.png" alt="RPE, reps og procentvise anstrengelse" caption="RPE, reps og procentvise anstrengelse" %}
 
@@ -172,6 +175,10 @@ Jeg har skrevet et andet indlæg om [metoder til maksimal muskeltilvækst og hyp
 
 ## Referencer
 
+<details markdown="1">
+  <summary>Se referencer om metoder til maksimal styrke</summary>
+
 - [Wave ladders for maximal strength](https://www.t-nation.com/training/wave-ladders-for-maximum-strength)
 - [The Truth about Rest Pause Training](https://www.t-nation.com/training/the-truth-about-rest-pause-training)
 - [Rest-Pause Training Methods Explained: Creating Intensity For New Muscle!](https://www.bodybuilding.com/content/rest-pause-training-methods-explained-creating-intensity-for-new-muscle.html)
+</details>
