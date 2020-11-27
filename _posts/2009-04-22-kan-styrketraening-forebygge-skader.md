@@ -1,8 +1,8 @@
 ---
-title: "Forebyggelse af skader: Hvad er mest effektivt til skadesforebyggelse?"
 last_modified_at: 2020-02-13T22:23:01.000Z
 author: martin.madsen
 permalink: /artikel/kan-styrketraening-forebygge-skader/
+title: "Forebyggelse af skader: Hvad er mest effektivt til skadesforebyggelse?"
 header:
   overlay_image: /assets/images/blog/kan-styrketraening-forebygge-skader.jpg
   teaser: /assets/images/blog/kan-styrketraening-forebygge-skader.jpg
@@ -25,9 +25,9 @@ Målet er at forbedre præstationen, men den megen træning har også en negativ
 
 Vi vil i det følgende kigge på hvilke former for træning, der har en skadesforebyggende effekt.
 
-## Skadesforebygning versus specificitet
+## Skadesforebyggelse versus specificitet
 
-Inden man begynder at kaste sig ud i alle mulige forsøg på at implementere skades . Et eksempel på dette er, at hvis man vil gøre kroppen modstandsdygtig overfor typiske skader associeret med sprint, så skal man træne at sprinte. Skadesforebyggende støtteøvelser har bestemt deres værdi, men de kommer ikke nærheden at, hvis man på en fornuftig måde over tid opbygger en kapacitet i kroppen for eks. at kunne sprinte.
+Inden man begynder at kaste sig ud i alle mulige forsøg på at implementere skadesforebyggelse. Et eksempel på dette er, at hvis man vil gøre kroppen modstandsdygtig overfor typiske skader associeret med sprint, så skal man træne at sprinte. Skadesforebyggende støtteøvelser har bestemt deres værdi, men de kommer ikke nærheden at, hvis man på en fornuftig måde over tid opbygger en kapacitet i kroppen for eks. at kunne sprinte.
 
 ## Balancetræning til at forebygge skader
 
@@ -57,7 +57,7 @@ Denne mindre styrke og en tendens til at være stærkere i quadriceps er i flere
 
 Netop muskelstyrken omkring landinger mv. kan man faktisk træne. Du kan se lidt mere om at få knæene til at tracke samme vej som tæerne i \[vores indlæg om teknik]({% link _posts/2011-08-18-tjek-teknikken-i-din-styrketraening.md %}).
 
-Et studie har samtidig vist, at bremsende (excentrisk) styrketræning for baglåret (se ”\[Nordisk hamstring]({% link _exercises/nordic-hamstring-12.md %})” + \[hamstring curl på swiss bold]({% link _exercises/swiss-ball-curl-728.md %})) kan nedsætte risikoen for fiberskader i baglåret hos fodboldspillere. Fiberskader i baglåret er en hyppig skade i fodbold, når der sprintes over længere afstande (Myklebust 2004).
+Et studie har samtidig vist, at bremsende (excentrisk) styrketræning for baglåret (se ”[Nordisk hamstring]({% link _exercises/nordic-hamstring-12.md %})” og [hamstring curl på swiss bold]({% link _exercises/swiss-ball-curl-728.md %})) kan nedsætte risikoen for fiberskader i baglåret hos fodboldspillere. Fiberskader i baglåret er en hyppig skade i fodbold, når der sprintes over længere afstande (Myklebust 2004).
 
 ### Skulder
 
@@ -97,3 +97,4 @@ Vi har også skrevet et andet indlæg, der giver [forslag til forskellige øvels
 * Söderman, K., S. Werner, T. Pietilä, B. Engström, og H. Alfredson. 2000. “Balance Board Training: Prevention of Traumatic Injuries of the Lower Extremities in Female Soccer Players? A Prospective Randomized Intervention Study”. *Knee Surgery, Sports Traumatology, Arthroscopy: Official Journal of the ESSKA* 8 (6): 356–63. <https://doi.org/10.1007/s001670000147>.
 * Terry, Glenn C., og Thomas M. Chopp. 2000. “Functional Anatomy of the Shoulder”. *Journal of Athletic Training* 35 (3): 248–55.
 * Aagaard, P., og A. Thorstensson. 2003. “Neuromuscular Aspects of Exercise: Adaptive Responses Evoked by Strength Training”. *Textbook of Sports Medicine*, 70–106.
+</details>
