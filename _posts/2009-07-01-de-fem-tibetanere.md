@@ -13,7 +13,7 @@ tags:
   - træningsprogram
 category:
   - Yoga
-last_modified_at: 2020-07-08T09:41:09Z
+last_modified_at: 2020-11-24T09:41:09Z
 feature_row:
   - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/1000x/9df78eab33525d08d6e5fb8d27136e95/d/e/de-fem-tibetanere-1.jpg
     alt: "De 5 tibetanere"
@@ -202,9 +202,9 @@ Du skal i denne øvelse løfte kroppen op på en indånding, og sænke kroppen p
 
 {% include figure image_path="https://post.healthline.com/wp-content/uploads/2019/09/158078-Everything_You_Need_to_Know_About_the_5_Tibetan_Rites-1296x728-Body_Image-Rite_05-1296x728.jpg" caption="Rite 5" %}
 
-For at udføre den femte rite skal du lægge dig på maven. Sæt nu hænderne på underlaget ud fra skulderne. Herefter skal du strække dine arme, så kun dine tæer og hænder rammer underlaget. Bøj nu i hofterne og kør bagdelen op, så din krop former en ”pyramide”. Kør herefter hoften frem igen.
+For at udføre den femte rite skal du ligge på maven. Sæt nu hænderne på underlaget ud fra skuldrene. Herefter skal du strække dine arme, så kun dine tæer og hænder rammer underlaget. Bøj nu i hoften og før bagdelen opad, så din krop former en "pyramide". Før derefter hoften ned mod jorden igen. Skift mellem de to stillinger.
 
-Du tager her en indånding når du kører tilbage, og ånder ud når du kører frem.
+Du tager her en indånding, når du går ned og lungerne har mest plads, mens du puster al luften ud, når du går op i "pyramiden".
 
 ### Udskriv de fem tibetanere
 
