@@ -4,8 +4,8 @@ permalink: /etpunktstest/
 excerpt: "Åstrands et-punktstest er en submaksimal test på ergometercykel, hvor du måler belastning og puls. Fortrinlig til at måle ændringer i kondition over tid."
 language: da
 header:
-  overlay_image: https://www.ridehighmagazine.com/wp-content/uploads/2019/04/Fitness-World-%E2%80%93-indoor-cycling-version-2.0_BANNER.jpg
-  teaser: https://www.ridehighmagazine.com/wp-content/uploads/2019/04/Fitness-World-%E2%80%93-indoor-cycling-version-2.0_BANNER.jpg
+  overlay_image: https://www.healthcheckshop.com/wp-content/uploads/2019/07/12A0041.jpg
+  teaser: https://www.healthcheckshop.com/wp-content/uploads/2019/07/12A0041.jpg
   caption: *title
 category:
   - Kondition

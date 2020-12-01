@@ -1,7 +1,8 @@
 ---
 layout: tag
+toc: true
 permalink: /kondition/tests/
-excerpt: "Oversigt over alle konditionstests, hvor du kan udregne kondital og iltoptagelse med vores beregnere og se om du får et bedre kondital og fremgang i træningen."
+excerpt: "Oversigt over alle konditionstests, hvor du kan udregne kondital og iltoptagelse med vores beregnere til gang, løb, cykling og roning - og se om du får et bedre kondital og fremgang i træningen."
 title: &title "Test din kondition"
 author_profile: true
 sort_by: title # date (default) title
@@ -42,8 +43,6 @@ feature_row_feature:
 
 </div>
 
-***
-
 ## Konditionstests til cykling
 
 {% assign site_posts = site.posts | where: "tags", "konditionstest" | where: "tags", "cykeltest" | where_exp: "post", "post.url != page.url" | sort: "date" %}
@@ -57,8 +56,6 @@ feature_row_feature:
 {% endif %}
 
 </div>
-
-***
 
 ## Konditionstests til gang
 
@@ -74,6 +71,32 @@ feature_row_feature:
 
 </div>
 
-***
+## Submaksimale konditionstests
+
+{% assign site_posts = site.posts | where: "tags", "submaksimal test" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single-simple.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
+## Maksimale konditionstests
+
+{% assign site_posts = site.posts | where: "tags", "maksimal test" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single-simple.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
 
 ## Alle konditionstests - test din aerobe udholdenhed
