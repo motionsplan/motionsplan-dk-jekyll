@@ -6,6 +6,9 @@ header:
   overlay_image: https://www.elitefts.com/wp/wp-content/uploads/2017/03/raw-squat--800x533.jpg
   teaser: https://www.elitefts.com/wp/wp-content/uploads/2017/03/raw-squat--800x533.jpg
   caption: "Regler til styrkeløft og powerlifting"
+  actions:
+    - label: "<i class='fas fa-file-excel'></i> Sheet med forslag til forsøg"
+      url: https://docs.google.com/spreadsheets/d/1kMTZgF90j0krcd7TFsMvhpsI0fCo1fqSwNXHOmJKKYA/copy?usp=sharing
 category:
   - Styrketræning
 tags:
@@ -24,6 +27,14 @@ feature_row:
   - image_path: https://i.ytimg.com/vi/GaXr9aZ2FR4/maxresdefault.jpg
     alt: "Dødløft - poserlifting og styrkeløft regler for dødløft"
     excerpt: "Dødløft"
+feature_row_spreadsheet:
+  - image_path: /assets/images/blog/spreadsheet-calculate-powerlifting-attempts.png
+    alt: "Udregn dine forsøg"
+    title: "Udregn dine forsøg"
+    excerpt: "Du kan bruge dette Google Sheet til at hjælpe med at udregne dine tre forsøg til dit styrkeløftstævne."
+    url: https://docs.google.com/spreadsheets/d/1kMTZgF90j0krcd7TFsMvhpsI0fCo1fqSwNXHOmJKKYA/copy?usp=sharing
+    btn_label: "<i class='fas fa-file-excel'></i> Sheet med forslag til forsøg"
+    btn_class: "btn--success"
 feature_row_books:
   - image_path: https://imgcdn.saxo.com/_9788771801835/0x500
     alt: "Stærk"
@@ -117,6 +128,31 @@ Når du løfter efter de klassiske regler (raw), så gælder følgende generelle
 
 Denne liste for reglerne for udstyr i forhold til klassisk styrkeløft er ikke udtømmende. Læs de officielle regler, så du ikke stiller op i forkert udstyr. Jeg har primært samlet denne liste for at kunne formidle reglerne til styrkeløft, når vi laver uofficielle konkurrencer for folk, der gerne vil prøve styrkeløft første gang.
 
+## Hvordan vælger jeg mine forsøg til styrkeløft?
+
+Når du skal vælge, hvor meget vægt du gerne vil løfte til styrkeløft, så skal du tænke dig godt om. Formålet til et styrkeløftstævne er samlet at **løfte så meget vægt som muligt**.
+
+Matt Gary har ifølge [Liftvault](https://liftvault.com/meet-preparation/powerlifting-attempt-calculator-spreadsheet/) samlet følgende statistik om `Raw`-løftere (altså løftere der løfter uden udstyr).
+
+- 19,1% misser deres første squat, og 67% af dem misser også næste løft.
+- 15% misser deres først bænkpres, og 67% af dem misser også næste løft.
+- 45,6% misser deres tredje squat.
+- 50% misser deres tredje dødløft.
+
+Det kan altså betale sig at tænke over, at man kommer ind i konkurrencen på en god måde.
+
+Tænk derfor over følgende i forhold til at vælge dine forsøg til styrkeløft-mødet. Du skal huske, at det gælder om at **maksimere den totale vægt, du løfter**. 
+
+- Dit **første løft** skal være et sikkert løft. Det kan fx være et løft, du ved du kan løfte tre gange. Formålet med det første løft er at forberede dig til de efterfølgende løft. Det gælder for alle disciplinerne.
+- Dit **andet løft** skal være et løft, du er overbevist om, at du kan løfte. Fornemmelsen fra dette løft skal være en _guide til dit tredje forsøg_.
+- Dit **tredje løft** skal basere sig på fornemmelsen fra det andet løft. Hvis det andet løft går godt, så kan du forsøge dig på en lille PR i sidste forsøg. Hvis du virkelig synes det andet løft er let, så kan du gå for en lidt større PR.
+
+Her er et Google Sheet, der kan hjælpe dig med at lave udregningerne af dine forsøg.
+
+***
+
+{% include feature_row id="feature_row_spreadsheet" type="left" %}
+
 ## Quiz om regler for styrkeløft
 
 {% include flipcard id="quiz" %}
@@ -125,4 +161,6 @@ Denne liste for reglerne for udstyr i forhold til klassisk styrkeløft er ikke u
 
 - [The International Powerlifting Federation. Tekniske Regler 2019](http://filer.styrke.dk/Tekniske_regler_IPF_2019.pdf)
 
-{% include feature_row id="feature_row_books" %}
+## Køb bog om styrkeløft og træning til powerlifting
+
+{% include feature_row id="feature_row_books" type="left" %}
