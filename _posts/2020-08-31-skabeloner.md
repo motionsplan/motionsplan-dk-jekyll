@@ -26,7 +26,7 @@ feature_row_strength:
     excerpt: "Denne skabelon indeholder plads til en grundig øvelsesbeskrivelse og formål - og den fylder som udgangspunkt 2 sider."
     btn_label: "Google Docs"
     btn_class: "btn--success"
-feature_row_program_program:
+feature_row_program:
   - image_path: /assets/images/template/program-period.png
     url: https://docs.google.com/document/d/13KmTFxFFB4RhcZ77q2WgAkht4CJDg6NqZA4HdPvRKvs/copy?usp=sharing
     title: "Skabelon til periodeplanlægning"
@@ -62,7 +62,7 @@ Jeg har lavet en skabelon, hvor du kan planlægge din træningsblok og sørge fo
 
 {% include feature_row id="feature_row_program" type="left" %}
 
-{% include feature_row id="feature_row_checklist" type="left" %}
+{% include feature_row id="feature_row_program_checklist" type="left" %}
 
 ## Skabeloner til styrketræning og styrketræningsprogram
 
