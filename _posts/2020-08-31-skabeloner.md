@@ -62,6 +62,8 @@ Jeg har lavet en skabelon, hvor du kan planlægge din træningsblok og sørge fo
 
 {% include feature_row id="feature_row_program" type="left" %}
 
+{% include feature_row id="feature_row_checklist" type="left" %}
+
 ## Skabeloner til styrketræning og styrketræningsprogram
 
 Jeg har lavet skabeloner til de enkelte styrketræningspas her.
