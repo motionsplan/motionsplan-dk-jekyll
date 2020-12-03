@@ -12,6 +12,9 @@ entries_layout: grid
 header:
   overlay_image: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1960&q=80
   caption: *title
+  actions:
+    - label: "<i class='fas fa-download'></i> Se alle tests"
+      url: "/tests/"
 classes: wide
 feature_row:
   - image_path: https://images.unsplash.com/photo-1501820434261-5bb046afcf6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80

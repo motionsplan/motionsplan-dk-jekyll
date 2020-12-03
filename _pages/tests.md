@@ -13,9 +13,9 @@ header:
   overlay_image: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1960&q=80
   caption: *title
   alt: Photo by Clem Onojeghuo on Unsplash
-#  actions:
-#    - label: "<i class='fas fa-download'></i> Læs mere om kondition"
-#      url: "/kondition/"
+  actions:
+    - label: "<i class='fas fa-download'></i> Alle posts om tracking"
+      url: "/tracking/"
 classes: wide
 feature_row_feature:
   - image_path: https://images.unsplash.com/photo-1501820434261-5bb046afcf6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80
