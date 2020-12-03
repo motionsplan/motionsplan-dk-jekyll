@@ -1,9 +1,10 @@
 ---
-title: "Test din egen fitness og sundhed"
+title: &title "Test din egen fitness og sundhed"
 language: da
 header:
   overlay_image: https://www.healthydietbase.com/wp-content/uploads/2014/10/bigstock-Young-Man-Measuring-His-Body-F-65164720.jpg
   teaser: https://www.healthydietbase.com/wp-content/uploads/2014/10/bigstock-Young-Man-Measuring-His-Body-F-65164720.jpg
+  caption: *title
 category:
   - Test
 tags:

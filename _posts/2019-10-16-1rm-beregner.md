@@ -20,6 +20,7 @@ tags:
   - styrketræning
   - beregner
   - repetition maximum
+  - test
 last_modified_at: 2020-05-20T23:14:14Z
 toc: true
 classes: wide

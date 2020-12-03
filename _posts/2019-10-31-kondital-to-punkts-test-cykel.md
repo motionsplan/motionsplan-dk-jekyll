@@ -14,6 +14,7 @@ tags:
   - submaksimal test
   - indirekte test
   - cykeltest
+  - test
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 feature_row:
