@@ -26,8 +26,21 @@ feature_row_strength:
     excerpt: "Denne skabelon indeholder plads til en grundig øvelsesbeskrivelse og formål - og den fylder som udgangspunkt 2 sider."
     btn_label: "Google Docs"
     btn_class: "btn--success"
-feature_row_program:
-  - image_path: /assets/images/template/programchecklist.png
+feature_row_program_program:
+  - image_path: /assets/images/template/program-period.png
+    url: https://docs.google.com/document/d/13KmTFxFFB4RhcZ77q2WgAkht4CJDg6NqZA4HdPvRKvs/copy?usp=sharing
+    title: "Skabelon til periodeplanlægning"
+    excerpt: "Den overordnede programlægning kan med fordel starte med en overordnet faseopdeling. Det gør det mere enkelt at lave de efterfølgende mere præcise planer for de enkelte uger."
+    btn_label: "Google Docs"
+    btn_class: "btn--success"
+  - image_path: /assets/images/template/program-weekly.png
+    url: https://docs.google.com/document/d/1LhIYGFf7gXeYhpWSgDuH-4G1b7fXHR2aMqPRmqIL3_E/copy?usp=sharing
+    title: "Skabelon til ugeplanlægning"
+    excerpt: "Den mere præcise ugentlige programlægning kan med fordel laves som en ugeplanlægning. Det gør det enkelt at holde et godt overblik."
+    btn_label: "Google Docs"
+    btn_class: "btn--success"
+feature_row_program_checklist:
+  - image_path: /assets/images/template/program-checklist.png
     url: https://docs.google.com/document/d/1jlR3XKFwPX-vYBoa3Xyks73xWDjgHP5OjuohPH51UdU/copy?usp=sharing
     title: "Skabelon til tjekliste til programlægning"
     excerpt: "Den overordnede programlægning kan med fordel laves som en tjekliste. Det gør planlægningen mere fleksibel, og ved at stille mål for sin træning, så ender det hele ikke i dårlig samvittighed, fordi man ikke har nogen træningsplan."
