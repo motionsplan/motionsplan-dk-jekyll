@@ -2,6 +2,7 @@
 
 /* global $ */
 
+const inol = require('./inol');
 const ipfpoints = require('./ipf-points');
 const ybalance = require('./y-balance');
 const lung = require('./lung');
@@ -721,6 +722,17 @@ $(document).ready(function() {
         $("#borg_kondital").val(borg.getFitnessLevel());
     });
     // Calculate Wattmax
+    $("#calculator_inol").submit(function(e) {
+        console.log("Calculate INOL");
+        e.preventDefault();
+        let reps = Number($("[name='reps']").val());
+        let intensity = Number($("[name='intensity']").val());
+
+        let watt = inol.INOL(reps, intensity);
+
+        $("[name='inol']").val(watt.getINOL());
+    });
+    // Calculate Wattmax
     $("#calculator_fitness_wattmax").submit(function(e) {
         console.log("Calculate Wattmax");
         e.preventDefault();
@@ -780,6 +792,8 @@ $(document).ready(function() {
         let gender = $("[name='gender']").val();
         let age = Number($("[name='age']").val());
         let weight = Number($("[name='weight']").val());
+
+        console.log(gender);
 
         let rp = rockport.RockPortWalkingTest(min, sec, hr_after, gender, age, weight);
 

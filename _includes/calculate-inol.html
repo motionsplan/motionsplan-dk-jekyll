@@ -1,0 +1,23 @@
+<form class="calculator" id="calculator_inol">
+    <fieldset>
+        <legend>Udregning af INOL.</legend>
+        <div class="form-group">
+            <label>Gentagelser (reps)
+                <input type="number" min="0" max="100" placeholder="fx 24" name="reps" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Intensitet af 1RM (%)
+                <input type="number" min="0" max="100" placeholder="fx 80" name="intensity" step="1">
+            </label>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>INOL
+                <input name="inol" disabled>
+            </label>
+        </div>
+    </fieldset>
+</form>

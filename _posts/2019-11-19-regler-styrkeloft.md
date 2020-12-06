@@ -147,6 +147,13 @@ Tænk derfor over følgende i forhold til at vælge dine forsøg til styrkeløft
 - Dit **andet løft** skal være et løft, du er overbevist om, at du kan løfte. Fornemmelsen fra dette løft skal være en _guide til dit tredje forsøg_.
 - Dit **tredje løft** skal basere sig på fornemmelsen fra det andet løft. Hvis det andet løft går godt, så kan du forsøge dig på en lille PR i sidste forsøg. Hvis du virkelig synes det andet løft er let, så kan du gå for en lidt større PR.
 
+Jacob Beermann [foreslår en konservativ og aggressiv strategi for dit 1RM-forsøg](https://maxer.dk/artikler/maxtest). Du kan over overveje, om du synes om den strategi til dit styrkeløftstævne også. Beermann anbefaler, at man maksimalt har tre løft, der er over 90% af dit forventede maxløft.
+
+| Strategi | #1 | #2 | #3 |
+|-|-|-|
+| Konservativ | 93% | 97% | 102% |
+| Aggressiv | 95% | 101% | 105% | 
+
 Her er et Google Sheet, der kan hjælpe dig med at lave udregningerne af dine forsøg.
 
 ***

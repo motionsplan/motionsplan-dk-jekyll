@@ -26,7 +26,7 @@ motionsplan.RockPortWalkingTest = function(min, sec, hr, gender, age, weight) {
     return (getFitnessLevel() * weight / 1000);
   }
 
-  var publicAPI = {
+  let publicAPI = {
     getFitnessLevel : getFitnessLevel,
     getMaximalOxygenUptake : getMaximalOxygenUptake
   };

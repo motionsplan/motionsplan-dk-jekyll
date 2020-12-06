@@ -1,7 +1,6 @@
-let motionsplan = {}
+let motionsplan = {};
 
 motionsplan.BMI = function(h, w) {
-  var h, w;
 
   h = h = h / 100;
   w = w;
@@ -14,13 +13,13 @@ motionsplan.BMI = function(h, w) {
     return w / (h * h * h);
   }
 
-  var publicAPI = {
+  let publicAPI = {
     getBMI : getBMI,
     getPonderalIndex : getPonderalIndex
 
   };
 
   return publicAPI;
-}
+};
 
 module.exports = motionsplan;
