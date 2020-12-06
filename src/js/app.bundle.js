@@ -4,6 +4,7 @@
 
 const inol = require('./inol');
 const ipfpoints = require('./ipf-points');
+const mcculloch = require('./ipf-points-mcculloch');
 const ybalance = require('./y-balance');
 const lung = require('./lung');
 const blood = require('./blood');
@@ -1221,11 +1222,21 @@ $(document).ready(function() {
         let lifted = Number($("[name='ipf_lifted']").val());
         let event = $("[name='ipf_event']").val();
         let equipment = $("[name='ipf_equipment']").val();
+        let age = Number($("[name='ipf_age']").val());
 
         let ipf_points = ipfpoints.IPFPoint(gender, bodyweight, lifted, event, equipment);
+        
+        let mc = mcculloch.McCulloch(age);
+        let age_adjusted;
+        if (mc.getCoefficient() != "") {
+            age_adjusted = ipf_points.getPoints() * mc.getCoefficient();
+        } else {
+            age_adjusted = ipf_points.getPoints();
+        }
 
-        $("[name='ipf_points']").val(ipf_points.getPoints().toFixed(1));
-        $("[name='ipf_dots']").val(ipf_points.getDots().toFixed(1));
+        $("[name='ipf_points']").val(ipf_points.getPoints().toFixed(2));
+        // $("[name='ipf_dots']").val(ipf_points.getDots().toFixed(2));
+        $("[name='mcculloch_ipf_points']").val(age_adjusted.toFixed(2));
     });
      // Calculate Karvonen Intensity
     $("#calculator_karvonen_intensity").submit(function(e) {

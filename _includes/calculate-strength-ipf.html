@@ -1,6 +1,6 @@
 <form class="calculator" id="calculator_ipf">
     <fieldset>
-        <legend>Udregning IPF-points. Indtast værdier</legend>
+        <legend>Udregning IPF GL (2020-2023)-points. Indtast værdier</legend>
         <fieldset>
             <legend>Køn</legend>
             <label class="radio">
@@ -10,6 +10,11 @@
                 <input name="ipf_gender" type="radio" value="F"> Kvinde
             </label>
         </fieldset>
+        <div class="form-group">
+            <label>Alder (år)
+                <input name="ipf_age" type="number" min="10" max="120" placeholder="Alder" required>
+            </label>
+        </div>
         <div class="form-group">
             <label>Kropsvægt (kg)
                 <input name="ipf_bodyweight" type="number" min="50" max="200" placeholder="Kropsvægt i kg" step="0.1" required>
@@ -40,11 +45,16 @@
     </fieldset>
     <fieldset class="results" disabled>
         <legend>Resultater</legend>
-        <label>IPF Points
-            <input disabled name="ipf_points" type="text">
-        </label>
+        {% comment %}
         <label>IPF Dots
             <input disabled name="ipf_dots" type="text">
+        </label>
+        {% endcomment %}
+        <label>IPF GL Points
+            <input disabled name="ipf_points" type="text">
+        </label>
+        <label>Aldersjusterede IPF GL Points (McCulloch)
+            <input disabled name="mcculloch_ipf_points" type="text">
         </label>
     </fieldset>
 </form>

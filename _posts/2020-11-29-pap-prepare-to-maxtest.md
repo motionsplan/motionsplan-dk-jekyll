@@ -1,5 +1,5 @@
 ---
-title: &title "Hvordan forbereder du dig til en 1RM-maxtest ⛄"
+title: &title "Hvordan forbereder du dig til en 1RM-maxtest 🏋"
 permalink: /pap-post-activation-potentiation-1rm-maxtest/
 language: da
 author: lsolesen
