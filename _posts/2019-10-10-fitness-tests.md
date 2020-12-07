@@ -1,32 +1,48 @@
 ---
-title: &title "Test din egen fitness og sundhed"
-language: da
+last_modified_at: 2019-03-10T08:39:32.000Z
+toc: true
+title: "Sundhedstest: Test din egen fitness og sundhed"
 header:
   overlay_image: https://www.healthydietbase.com/wp-content/uploads/2014/10/bigstock-Young-Man-Measuring-His-Body-F-65164720.jpg
   teaser: https://www.healthydietbase.com/wp-content/uploads/2014/10/bigstock-Young-Man-Measuring-His-Body-F-65164720.jpg
-  caption: *title
+  caption: Test din egen fitness og sundhed
+feature_row:
+  - image_path: https://imgcdn.saxo.com/_9788799095872/0x500
+    title: Fitness testning - fysisk testning og sundhedstestning i fitnesscentre,
+      skole og hjem
+    alt: Fitness testning - fysisk testning og sundhedstestning i fitnesscentre,
+      skole og hjem
+    excerpt: Populær opslagsbog med allround fysisk testning med nemme  fitness
+      tests, der kan udføres i et fitnesscenter, i en gymnastiksal, sportshal
+      eller i hjemmet. De fleste tests og selvtests kan udføres med kroppen
+      alene eller få, små, billige redskaber. Der forudsættes ikke adgang til
+      specialudstyr. Tre komplette testprogrammer og over 40 fitnesstests samt
+      Fitnessbarometer og Fitness Profil til motivation af fysisk inaktive og
+      fysisk aktive. For personlige trænere, fitness instruktører,
+      fysioterapeuter, idrætsstuderende, idrætsundervisere og supermotionister.
+      Gennemillustreret. 144 sider.
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/fitness-testning_marina-aagaard_haeftet_9788799095872
+    btn_label: Læs mere
+    btn_class: btn--success
+  - image_path: https://imgcdn.saxo.com/_9788799369591/0x500
+    title: Sundhedstjek og formtest - styrk og bevar din motivation med nemme
+      gør-det-selv tests
+    alt: Sundhedstjek og formtest - styrk og bevar din motivation med nemme
+      gør-det-selv tests
+    excerpt: Aktuel populærbog om tjek og forbedring af sundhed, motion og livsstil
+      med motiverende og nemme tests - som set på DR TV. Til selvtests eller med
+      familie og venner. Med inspirerende dataark Fitness Profil og
+      Fitnessbarometer, der giver overblik over sundhedsstatus og fysisk form,
+      og mål-og-plan-skema samt motions-dagbog til planlægning af gode vaner.
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/sundhedstjek-og-formtest_marina-aagaard_haeftet_9788799369591
+    btn_label: Læs mere
+    btn_class: btn--success
+language: da
 category:
   - Test
 tags:
   - test
   - sundhed
-last_modified_at: 2019-03-10T08:39:32Z
-feature_row:
-  - image_path: https://imgcdn.saxo.com/_9788799095872/0x500
-    title: &book_title "Fitness testning - fysisk testning og sundhedstestning i fitnesscentre, skole og hjem"
-    alt: *book_title
-    excerpt: "Populær opslagsbog med allround fysisk testning med nemme  fitness tests, der kan udføres i et fitnesscenter, i en gymnastiksal, sportshal eller i hjemmet. De fleste tests og selvtests kan udføres med kroppen alene eller få, små, billige redskaber. Der forudsættes ikke adgang til specialudstyr. Tre komplette testprogrammer og over 40 fitnesstests samt Fitnessbarometer og Fitness Profil til motivation af fysisk inaktive og fysisk aktive. For personlige trænere, fitness instruktører, fysioterapeuter, idrætsstuderende, idrætsundervisere og supermotionister. Gennemillustreret. 144 sider."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/fitness-testning_marina-aagaard_haeftet_9788799095872"
-    btn_label: "Læs mere"
-    btn_class: "btn--success"
-  - image_path: https://imgcdn.saxo.com/_9788799369591/0x500
-    title: &book_title "Sundhedstjek og formtest - styrk og bevar din motivation med nemme gør-det-selv tests"
-    alt: *book_title
-    excerpt: "Aktuel populærbog om tjek og forbedring af sundhed, motion og livsstil med motiverende og nemme tests - som set på DR TV. Til selvtests eller med familie og venner. Med inspirerende dataark Fitness Profil og Fitnessbarometer, der giver overblik over sundhedsstatus og fysisk form, og mål-og-plan-skema samt motions-dagbog til planlægning af gode vaner."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/sundhedstjek-og-formtest_marina-aagaard_haeftet_9788799369591"
-    btn_label: "Læs mere"
-    btn_class: "btn--success"
-toc: true
 ---
 
 Der er virkelig mange forskellige onlineværktøjer, hvor du kan teste forskellige dele af din sundhed. Vi har skrevet om [sundhedsprofilen](/sundhedsprofil/), men der er også mange andre værktøjer.
