@@ -1,30 +1,32 @@
 ---
-title: &title "Vægttab: Utrolig effektiv slankekur fra Ude og Hjemme [2020]"
+last_modified_at: 2019-09-03T23:14:14.000Z
+toc: true
 permalink: /slankekur/
-language: da
+title: "Vægttab: Effektiv slankekur der virker fra Ude & Hjemme ⚖"
 header:
   overlay_image: https://images.unsplash.com/photo-1557564437-0995702f88fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
   teaser: https://images.unsplash.com/photo-1557564437-0995702f88fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
-  caption: *title
+  caption: "Vægttab: Utrolig effektiv slankekur fra Ude og Hjemme [2020]"
+language: da
 category:
   - Sundhed
   - Vægttab
 tags:
   - vægttab
   - slankekur
-last_modified_at: 2019-09-03T23:14:14Z
-toc: true
 ---
 
-Jeg har lige læst om en helt utrolig slankekur. Faktisk må det være den bedste slankekur i verden. Den har i hvert fald et helt utroligt vægttab på meget kort tid.
+Jeg har lige læst om en utrolig effektiv slankekur. Faktisk må det være den bedste slankekur i verden. Slankekuren har i hvert fald et helt utroligt vægttab på meget kort tid.
 
 Jeg har lige læst [Ude & Hjemme, nr. 33 2020](https://www.udeoghjemme.dk/). Vicky har på 5 dage tabt 4,4 kilo med Lynkuren, og hun føler, at hun har fået et "kick", og hun tillod sig endda på de fem dage at nyde to glas vin.
+
+Det må man sige er en slankekur, der virker! Men er slankekuren nu også så effektiv?
 
 Vicky havde allerede tabt sig en del, så hun troede ikke at _Lynkuren_ ville have en ekstra effekt. Men hun formåede altså at tabe sig 4,4 kilo på fem dage, så hun endte med at veje 70,25 kg.
 
 Vicky vurderer, at det har været let at følge _Lynkuren_, og hun har fået endnu mere blod på tanden for at være på slankekur.
 
-Men Vicky er ikke den eneste, der har utrolige vægttab på slankekure fra Ude & Hjemme. Det er faktisk reglen, at slankekurene giver så gode resultater.
+Men Vicky er ikke den eneste, der har utrolige vægttab på slankekure fra Ude & Hjemme. Det er faktisk reglen, at slankekurene i Ude & Hjemme giver så gode resultater.
 
 Maria har haft et vægttab på [5 kilo på fem dage med kødbolle-slankekuren](https://www.udeoghjemme.dk/slank-og-sund/slank/hurtigt-vaegttab-maria-tabte-5-kilo-paa-fem-dage). Sandra har været på [rugbrødskuren og tabte 3 kilo](https://www.udeoghjemme.dk/slank-og-sund/slank/slankekure/slankekur-jeg-har-faaet-motivationen-tilbage).
 
@@ -42,7 +44,7 @@ Lad os prøve at regne på, hvor stort energiunderskud Vicky skal være i for at
 
 Jeg har lavet en beregner, der hjælper med at vise, hvor vildt vægttabet er i forhold til det krævede energiunderskud.
 
-## Beregn nødvendigt energiunderskud for fedttab
+## Beregn nødvendigt energiunderskud for fedttab på slankekur
 
 {% include calculator-weightloss-calories.html %}
 
@@ -60,7 +62,7 @@ Vickys daglige energiforbrug er formentlig omkring 2650 kcal. Det viser, hvor va
 
 Det kan jo ikke lade sig gøre!
 
-## Hvorfor har slankekuren virket så godt?
+## Hvorfor virker slankekuren så godt?
 
 Der er en lille faktaboks i bladet, hvor jeg tror, at man får det meste af forklaringen på den helt fantastiske resultater fra slankekuren.
 
