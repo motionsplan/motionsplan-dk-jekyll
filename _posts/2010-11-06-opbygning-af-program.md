@@ -3,8 +3,8 @@ title: &title "Hvordan opbygger jeg et styrketræningsprogram?"
 permalink: /artikel/opbygning-af-program/
 language: da
 header:
-  overlay_image: /assets/images/blog/opbygning-af-program.jpg
-  teaser: /assets/images/blog/opbygning-af-program.jpg
+  overlay_image: https://images.unsplash.com/photo-1570440828843-ccc432c6fad7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1947&q=80
+  teaser: https://images.unsplash.com/photo-1570440828843-ccc432c6fad7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
   caption: *title
 category:
   - Styrketræning

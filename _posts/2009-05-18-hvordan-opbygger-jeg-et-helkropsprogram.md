@@ -4,13 +4,14 @@ excerpt: "At opbygge et styrketræningsprogram, der gerne vil træne hele kroppe
 permalink: /artikel/hvordan-opbygger-jeg-et-helkropsprogram/
 language: da
 header:
-  overlay_image: /assets/images/blog/hvordan-opbygger-jeg-et-helkropsprogram.jpg
-  teaser: /assets/images/blog/hvordan-opbygger-jeg-et-helkropsprogram.jpg
+  overlay_image: https://images.unsplash.com/photo-1579364046732-c21c2177730d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80
+  teaser: https://images.unsplash.com/photo-1579364046732-c21c2177730d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
   caption: *title
 tags:
   - styrketræning
   - planlægning
   - træningsplanlægning
+  - programlægning
 category:
   - Styrketræning
 last_modified_at: 2013-04-03T11:44:17Z
@@ -31,7 +32,7 @@ For at opbygge et alsidigt styrkeprogram, der træner hele kroppen, skal du væl
 
 ## Hvor mange gentagelser skal jeg lave?
 
-Hvis du bare vil i almindelig god form, anbefaler vi at du laver 8-12 gentagelser af hver øvelse, og det gentager du 2-4 gange. Man siger at man laver otte gentagelser på fire sæt. Du kan læse mere i artiklen [Hvordan skal jeg dosere min træning?](/artikel/hvordan-skal-jeg-dosere-min-styrketraening)
+Hvis du bare vil i almindelig god form, anbefaler vi at du laver 8-12 gentagelser af hver øvelse, og det gentager du 2-4 gange. Man siger at man laver otte gentagelser på fire sæt. Du kan læse mere i artiklen [Hvordan skal jeg dosere min træning?](/artikel/hvordan-skal-jeg-dosere-min-styrketraening/)
 
 ## Træn hårdt og med omtanke!
 
@@ -41,7 +42,7 @@ Så har du det du behøver for at lave et varieret helkropsprogram. For at få d
 - **Slå en rekord hver gang**. Når du kommer til træning skal du gerne slå en rekord hver gang. Det kan være lidt mere vægt i en øvelse, eller lidt flere gentagelser, eller et ekstra set af en øvelse. På den måde sikrer du dig, at der er konstant fremgang.
 - **Organisér din træning**. Du bestemmer selv hvordan du organiserer din træning. Enten kan gøre en øvelse helt færdig og holde pauser imellem, eller du kan fx lave otte gentagelser af squat og i pausen lave pullups. Du kan læse mere på [Brug tiden effektivt i fitnesscenteret](https://www.motion-online.dk/brug-tiden-effektivt-fitnesscenteret/){:rel="nofollow"} på [motion-online.dk](http://motion-online.dk){:rel="nofollow"}.
 - **Variér din træning**. Du skal sørge for at variere din træning. Brug fx det samme træningsprogram tre uger i træk, og derefter vælger du nogle nye øvelser.
-- Lær noget mere om styrketræning. Læs fx denne [kom i gang guide](/artikel/opbygning-af-program).
+- Lær noget mere om styrketræning. Læs fx denne [kom i gang guide](/artikel/opbygning-af-program/).
 
 ## Referencer
 

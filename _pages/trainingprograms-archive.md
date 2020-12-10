@@ -28,7 +28,7 @@ Jeg synes fullbody, 2-split og 3-split er det mest interessante programmer for l
 
 <div class="feature__wrapper">
 
-{% assign site_posts = site.posts | where: "tags", "træningsprogram" | sort: "last_modified_at" | reverse %}
+{% assign site_posts = site.posts | where: "tags", "træningsprogram" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit:16 %}

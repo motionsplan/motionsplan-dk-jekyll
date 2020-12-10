@@ -15,6 +15,7 @@ tags:
   - progression
   - træningsplanlægning
   - styrketræning
+  - programlægning
 last_modified_at: 2020-12-03T23:14:14Z
 toc: true
 ---
@@ -59,7 +60,6 @@ Dobbelt progression øger an først antallet af gentagelser med en given vægt, 
 Ideen bag dobbelt progression er først at øge vægten, når du kan lave alle gentagelserne med din valgte teknik i et givent _rep range_.
 
 Dobbelt progression virker rigtig godt, men det er ikke fordi det er magisk. Det er fordi du bliver længere tid på en vægt - og laver mere arbejde med over tid, så du får endnu flere tilpasninger i muskulaturen og senevævet ud af den enkelte vægt.
-
 
 ## Triple progression
 
