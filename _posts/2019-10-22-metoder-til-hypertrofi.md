@@ -1,5 +1,5 @@
 ---
-title: "Hypertrofi: Metoder til maksimal muskelvækst! 💪"
+title: "Hypertrofi 💪: Metoder til maksimal muskelvækst! 🌊"
 permalink: /hypertrofi-metoder/
 excerpt: "Hypertrofi og maksimal muskeltilvækst skabes af mekaniske belastning på musklerne gennem regelmæssig styrketræning. Der er flere metoder der kan skabe tilstrækkelig belastning og udtrætning af musklerne."
 language: da
