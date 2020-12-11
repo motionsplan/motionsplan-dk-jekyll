@@ -81,7 +81,7 @@ Eksempelvis vejer jeg selv 80 kg og jeg er 1,81 m høj. Mit BMI er altså:
 
 Ifølge BMI holder jeg mig lige netop inden for normalområdet, men lad os se på, hvordan vi kan fortolke BMI.
  
-## Test: Hvad er et normalt BMI-tal?
+## Test: Hvad er et normalt BMI-tal for mænd og kvinder?
 
 Der findes generelle tabeller for [Body Mass Index (BMI)](https://da.wikipedia.org/wiki/Body_Mass_Index), der retter sig mod voksne mænd og kvinder i alderen med en højde i normalområdet og fra ældre end 18 år og opefter.
 
@@ -94,7 +94,7 @@ For voksne er de generelle kategorier for BMI for voksne (ældre end 18 år og i
 - BMI mellem 25-29.9 = overvægtig
 - BMI mellem 30-39.9 = fedme
 - BMI over 40 = svær fedme
-- 
+
 ### Tabel: Normalværdier for Body Mass Index for mænd og kvinder
 
 Hvis vi sætter standarderne for BMI for voksne ind i en tabel, ser det sådan ud. Læg mærke til, at jeg i tabellen har ændret klassificeringen for undervægtige lidt, da det ser ud til at et BMI under 20 allerede er forbundet med sundhedsmæssige konsekvenser.
@@ -130,7 +130,7 @@ Når man kigger på en række forskellige studier i forhold til det optimale BMI
 
 I de studier hvor man kigger på forskellen mellem mænd og kvinder, så ligger BMI enten inden for samme optimale område, eller også ligger mændene 2-5 BMI-point højere (jf. [Morten Zacho](https://web.archive.org/web/20160808221414/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/beregn_din_idealvaegt/){:rel="nofollow"}).
 
-| Reference                                                                           | Mænd      | Kvinder   |
+| Reference om BMI                                                                    | Mænd      | Kvinder   |
 |-------------------------------------------------------------------------------------|-----------|-----------|
 | [Flegal et al (2013)](http://www.ncbi.nlm.nih.gov/pubmed/23280227/)                 | 25-30     | 25-30     |
 | [Wong et al (2011)](http://www.ncbi.nlm.nih.gov/pubmed/22204699/)                   | 26,4-27,5 | 20,1-24,6 |
@@ -141,9 +141,9 @@ I de studier hvor man kigger på forskellen mellem mænd og kvinder, så ligger 
 
 Studiet af Flegal et al (2013) kommer til at overvurdere fordelen ved overvægt i forhold til BMI, fordi overvægt sammenlignes med normalvægt i området fra 18,5-25. [Morten Zacho skriver](https://web.archive.org/web/20160808221414/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/beregn_din_idealvaegt/){:rel="nofollow"}, at vi fra andre undersøgelser ved, at dødeligheden er markant forhøjet, hvis man har et BMI mellem 18,5-20. Det interval vi normalt inkluderer som normalvægtigt er altså ikke et optimalt BMI i forhold til sundhed.
 
-På baggrund af studierne [sætter Morten Zacho det optimale BMI til 22,5 for kvinder og 24,5 for mænd](https://web.archive.org/web/20160808221414/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/beregn_din_idealvaegt/){:rel="nofollow"}. Når man har den optimale BMI, så kan det bl.a. bruges til at [udregne din idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}).
+På baggrund af studierne [sætter Morten Zacho det optimale BMI til 22,5 for kvinder og 24,5 for mænd](https://web.archive.org/web/20160808221414/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/beregn_din_idealvaegt/){:rel="nofollow"}. Når du kender den optimale BMI, så kan det bl.a. bruges til at [udregne din idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}).
 
-Afzal et al (2016) har sammenlignet tre danske grupper af mennesker, og det ser ud til, at det BMI, der er forbundet med den laveste risiko for at dø er stigende med de tre kohorter. Det er lidt ærgerligt, at studiet har fastholdt klassifikationen med normalvægtige mellem 18.5 - 25.
+Afzal et al (2016) har sammenlignet tre danske grupper af mennesker, og det ser ud til, at det BMI, der er forbundet med den laveste risiko for at dø, er stigende med de tre kohorter. Det er lidt ærgerligt, at studiet har fastholdt klassifikationen med normalvægtige mellem 18.5 - 25.
 
 > Among 3 Danish cohorts, the BMI associated with the lowest all-cause mortality increased by 3.3 from 1976-1978 through 2003-2013. Further investigation is needed to understand the reason for this change and its implications.
 
@@ -155,13 +155,13 @@ BMI forbundet med den laveste risiko for at dø i Danmark er altså i perioden s
 
 Det er væsentligt at påpege, at der er store variationer for den enkelte i forhold til, om man lige nøjagtigt rammer det optimale BMI. Om BMI går et par stykker op eller ned betyder ikke så meget, men i forhold til helbredet og at leve længe, så kan man altså med fordel være tæt på kategorien overvægtig ud fra de nuværende klassifikationer.
 
-På baggrund af dette siger [Morten Zacho, at plus-minus seks kilo ikke betyder noget](https://www.dr.dk/levnu/krop/du-skal-veje-mere-end-du-tror).
+På baggrund af dette siger [Morten Zacho, at plus-minus seks kilo ikke betyder noget](https://www.dr.dk/levnu/krop/du-skal-veje-mere-end-du-tror), selvom BMI svinger.
 
 > Så der er altså ret stor spændvidde. Vi skal derfor have bredere rammer for, hvad man kan veje og stadig blive betragtet som sund og rask.
 
 --- <cite>[Morten Zacho](https://www.dr.dk/levnu/krop/du-skal-veje-mere-end-du-tror)</cite>
 
-Derfor foreslår [Morten Zacho](https://www.dr.dk/levnu/krop/du-skal-veje-mere-end-du-tror) også en revideret forståelse af BMI, som skitseres i følgende tabel.
+Derfor foreslår [Morten Zacho](https://www.dr.dk/levnu/krop/du-skal-veje-mere-end-du-tror) også en revideret forståelse af BMI for mænd og kvinder, som skitseres i følgende tabel over BMI.
 
 | Klassification  | BMI (kg/m<sup>2</sup>) | Note |
 |---------------|------------------------|-|
