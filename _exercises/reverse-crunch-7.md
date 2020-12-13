@@ -30,15 +30,15 @@ gallery:
   - url: /assets/images/exercises/reverse-crunch-0.jpg
     image_path: /assets/images/exercises/reverse-crunch-0-320.jpg
     alt: "Mave, Reverse crunch"
-    title: &title "Mave, Reverse crunch"
+    title: "Mave, Reverse crunch"
   - url: /assets/images/exercises/reverse-crunch-1.jpg
     image_path: /assets/images/exercises/reverse-crunch-1-320.jpg
     alt: "Mave, Reverse crunch"
-    title: &title "Mave, Reverse crunch"
+    title: "Mave, Reverse crunch"
   - url: /assets/images/exercises/reverse-crunch-2.jpg
     image_path: /assets/images/exercises/reverse-crunch-2-320.jpg
     alt: "Mave, Reverse crunch"
-    title: &title "Mave, Reverse crunch"
+    title: "Mave, Reverse crunch"
 last_modified_at: 2016-10-18T07:22:36Z
 ---
 

@@ -35,19 +35,19 @@ gallery:
   - url: /assets/images/exercises/planken-superman-0.jpg
     image_path: /assets/images/exercises/planken-superman-0-320.jpg
     alt: "Planken, superman"
-    title: &title "Planken, superman"
+    title: "Planken, superman"
   - url: /assets/images/exercises/planken-superman-1.jpg
     image_path: /assets/images/exercises/planken-superman-1-320.jpg
     alt: "Planken, superman"
-    title: &title "Planken, superman"
+    title: "Planken, superman"
   - url: /assets/images/exercises/planken-superman-2.jpg
     image_path: /assets/images/exercises/planken-superman-2-320.jpg
     alt: "Planken, superman"
-    title: &title "Planken, superman"
+    title: "Planken, superman"
   - url: /assets/images/exercises/planken-superman-3.jpg
     image_path: /assets/images/exercises/planken-superman-3-320.jpg
     alt: "Planken, superman"
-    title: &title "Planken, superman"
+    title: "Planken, superman"
 last_modified_at: 2014-10-12T22:16:03Z
 ---
 

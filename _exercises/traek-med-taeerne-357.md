@@ -22,7 +22,7 @@ gallery:
   - url: /assets/images/exercises/traek-med-taeerne-0.jpeg
     image_path: /assets/images/exercises/traek-med-taeerne-0-320.jpeg
     alt: "Træk med tæerne"
-    title: &title "Træk med tæerne"
+    title: "Træk med tæerne"
 last_modified_at: 2012-10-31T09:21:59Z
 ---
 

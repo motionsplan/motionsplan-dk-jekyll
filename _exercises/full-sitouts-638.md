@@ -33,19 +33,19 @@ gallery:
   - url: /assets/images/exercises/full-sitouts-0.jpg
     image_path: /assets/images/exercises/full-sitouts-0-320.jpg
     alt: "Full sitouts"
-    title: &title "Full sitouts"
+    title: "Full sitouts"
   - url: /assets/images/exercises/full-sitouts-1.jpg
     image_path: /assets/images/exercises/full-sitouts-1-320.jpg
     alt: "Full sitouts"
-    title: &title "Full sitouts"
+    title: "Full sitouts"
   - url: /assets/images/exercises/full-sitouts-2.jpg
     image_path: /assets/images/exercises/full-sitouts-2-320.jpg
     alt: "Full sitouts"
-    title: &title "Full sitouts"
+    title: "Full sitouts"
   - url: /assets/images/exercises/full-sitouts-3.jpg
     image_path: /assets/images/exercises/full-sitouts-3-320.jpg
     alt: "Full sitouts"
-    title: &title "Full sitouts"
+    title: "Full sitouts"
 last_modified_at: 2015-03-27T13:51:48Z
 ---
 

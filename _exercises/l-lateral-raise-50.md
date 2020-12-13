@@ -24,24 +24,25 @@ gallery:
   - url: /assets/images/exercises/l-lateral-raise-0.jpg
     image_path: /assets/images/exercises/l-lateral-raise-0-320.jpg
     alt: "Rotatormanchetten, lateral raise"
-    title: &title "Rotatormanchetten, lateral raise"
+    title: "Rotatormanchetten, lateral raise"
   - url: /assets/images/exercises/l-lateral-raise-1.jpg
     image_path: /assets/images/exercises/l-lateral-raise-1-320.jpg
     alt: "Rotatormanchetten, lateral raise"
-    title: &title "Rotatormanchetten, lateral raise"
+    title: "Rotatormanchetten, lateral raise"
   - url: /assets/images/exercises/l-lateral-raise-2.jpg
     image_path: /assets/images/exercises/l-lateral-raise-2-320.jpg
     alt: "Rotatormanchetten, lateral raise"
-    title: &title "Rotatormanchetten, lateral raise"
+    title: "Rotatormanchetten, lateral raise"
   - url: /assets/images/exercises/l-lateral-raise-3.jpg
     image_path: /assets/images/exercises/l-lateral-raise-3-320.jpg
     alt: "Rotatormanchetten, lateral raise"
-    title: &title "Rotatormanchetten, lateral raise"
+    title: "Rotatormanchetten, lateral raise"
   - url: /assets/images/exercises/l-lateral-raise-4.jpg
     image_path: /assets/images/exercises/l-lateral-raise-4-320.jpg
     alt: "Rotatormanchetten, lateral raise"
-    title: &title "Rotatormanchetten, lateral raise"
+    title: "Rotatormanchetten, lateral raise"
 last_modified_at: 2011-04-16T07:23:24Z
+key: 20110416072324
 ---
 
 En god øvelse til at træne rotatormanchetten.

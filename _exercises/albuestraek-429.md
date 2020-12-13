@@ -32,11 +32,11 @@ gallery:
   - url: /assets/images/exercises/albuestraek-0.jpg
     image_path: /assets/images/exercises/albuestraek-0-320.jpg
     alt: "Albuestræk"
-    title: &title "Albuestræk"
+    title: "Albuestræk"
   - url: /assets/images/exercises/albuestraek-1.jpg
     image_path: /assets/images/exercises/albuestraek-1-320.jpg
     alt: "Albuestræk"
-    title: &title "Albuestræk"
+    title: "Albuestræk"
 last_modified_at: 2020-04-12T19:30:19Z
 video:
   provider: youtube

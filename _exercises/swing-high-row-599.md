@@ -37,15 +37,15 @@ gallery:
   - url: /assets/images/exercises/swing-high-row-0.jpg
     image_path: /assets/images/exercises/swing-high-row-0-320.jpg
     alt: "Swing, high row"
-    title: &title "Swing, high row"
+    title: "Swing, high row"
   - url: /assets/images/exercises/swing-high-row-1.jpg
     image_path: /assets/images/exercises/swing-high-row-1-320.jpg
     alt: "Swing, high row"
-    title: &title "Swing, high row"
+    title: "Swing, high row"
   - url: /assets/images/exercises/swing-high-row-2.jpg
     image_path: /assets/images/exercises/swing-high-row-2-320.jpg
     alt: "Swing, high row"
-    title: &title "Swing, high row"
+    title: "Swing, high row"
 last_modified_at: 2014-10-12T22:13:07Z
 ---
 

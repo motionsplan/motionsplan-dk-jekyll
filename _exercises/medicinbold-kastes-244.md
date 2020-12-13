@@ -30,15 +30,15 @@ gallery:
   - url: /assets/images/exercises/medicinbold-kastes-0.jpg
     image_path: /assets/images/exercises/medicinbold-kastes-0-320.jpg
     alt: "Medicinbold i væg"
-    title: &title "Medicinbold i væg"
+    title: "Medicinbold i væg"
   - url: /assets/images/exercises/medicinbold-kastes-1.jpg
     image_path: /assets/images/exercises/medicinbold-kastes-1-320.jpg
     alt: "Medicinbold i væg"
-    title: &title "Medicinbold i væg"
+    title: "Medicinbold i væg"
   - url: /assets/images/exercises/medicinbold-kastes-2.jpg
     image_path: /assets/images/exercises/medicinbold-kastes-2-320.jpg
     alt: "Medicinbold i væg"
-    title: &title "Medicinbold i væg"
+    title: "Medicinbold i væg"
 last_modified_at: 2014-10-30T10:14:27Z
 ---
 

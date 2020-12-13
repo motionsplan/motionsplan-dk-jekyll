@@ -24,19 +24,19 @@ gallery:
   - url: /assets/images/exercises/traek-i-rebet-0.jpg
     image_path: /assets/images/exercises/traek-i-rebet-0-320.jpg
     alt: "Roning, træk i reb"
-    title: &title "Roning, træk i reb"
+    title: "Roning, træk i reb"
   - url: /assets/images/exercises/traek-i-rebet-1.jpg
     image_path: /assets/images/exercises/traek-i-rebet-1-320.jpg
     alt: "Roning, træk i reb"
-    title: &title "Roning, træk i reb"
+    title: "Roning, træk i reb"
   - url: /assets/images/exercises/traek-i-rebet-2.jpg
     image_path: /assets/images/exercises/traek-i-rebet-2-320.jpg
     alt: "Roning, træk i reb"
-    title: &title "Roning, træk i reb"
+    title: "Roning, træk i reb"
   - url: /assets/images/exercises/traek-i-rebet-3.jpg
     image_path: /assets/images/exercises/traek-i-rebet-3-320.jpg
     alt: "Roning, træk i reb"
-    title: &title "Roning, træk i reb"
+    title: "Roning, træk i reb"
 last_modified_at: 2011-05-02T16:05:40Z
 ---
 

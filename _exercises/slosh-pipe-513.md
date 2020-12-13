@@ -25,7 +25,7 @@ gallery:
   - url: /assets/images/exercises/slosh-pipe-0.jpg
     image_path: /assets/images/exercises/slosh-pipe-0-320.jpg
     alt: "Slosh Pipe"
-    title: &title "Slosh Pipe"
+    title: "Slosh Pipe"
 last_modified_at: 2013-05-29T20:41:27Z
 ---
 

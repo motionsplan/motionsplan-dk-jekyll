@@ -33,11 +33,11 @@ gallery:
   - url: /assets/images/exercises/pull-aparts-0.jpg
     image_path: /assets/images/exercises/pull-aparts-0-320.jpg
     alt: "Pull aparts"
-    title: &title "Pull aparts"
+    title: "Pull aparts"
   - url: /assets/images/exercises/pull-aparts-1.jpg
     image_path: /assets/images/exercises/pull-aparts-1-320.jpg
     alt: "Pull aparts"
-    title: &title "Pull aparts"
+    title: "Pull aparts"
 last_modified_at: 2015-03-21T21:21:07Z
 ---
 

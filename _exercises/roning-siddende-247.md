@@ -42,11 +42,11 @@ gallery:
   - url: /assets/images/exercises/roning-siddende-0.jpg
     image_path: /assets/images/exercises/roning-siddende-0-320.jpg
     alt: "Roning, siddende"
-    title: &title "Roning, siddende"
+    title: "Roning, siddende"
   - url: /assets/images/exercises/roning-siddende-1.jpg
     image_path: /assets/images/exercises/roning-siddende-1-320.jpg
     alt: "Roning, siddende"
-    title: &title "Roning, siddende"
+    title: "Roning, siddende"
 last_modified_at: 2014-10-12T19:14:30Z
 ---
 

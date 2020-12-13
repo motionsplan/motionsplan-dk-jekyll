@@ -22,19 +22,19 @@ gallery:
   - url: /assets/images/exercises/squat-med-hop-og-landing-paa-et-ben-0.jpg
     image_path: /assets/images/exercises/squat-med-hop-og-landing-paa-et-ben-0-320.jpg
     alt: "Squat, med hop og landing på et ben"
-    title: &title "Squat, med hop og landing på et ben"
+    title: "Squat, med hop og landing på et ben"
   - url: /assets/images/exercises/squat-med-hop-og-landing-paa-et-ben-1.jpg
     image_path: /assets/images/exercises/squat-med-hop-og-landing-paa-et-ben-1-320.jpg
     alt: "Squat, med hop og landing på et ben"
-    title: &title "Squat, med hop og landing på et ben"
+    title: "Squat, med hop og landing på et ben"
   - url: /assets/images/exercises/squat-med-hop-og-landing-paa-et-ben-2.jpg
     image_path: /assets/images/exercises/squat-med-hop-og-landing-paa-et-ben-2-320.jpg
     alt: "Squat, med hop og landing på et ben"
-    title: &title "Squat, med hop og landing på et ben"
+    title: "Squat, med hop og landing på et ben"
   - url: /assets/images/exercises/squat-med-hop-og-landing-paa-et-ben-3.jpg
     image_path: /assets/images/exercises/squat-med-hop-og-landing-paa-et-ben-3-320.jpg
     alt: "Squat, med hop og landing på et ben"
-    title: &title "Squat, med hop og landing på et ben"
+    title: "Squat, med hop og landing på et ben"
 last_modified_at: 2013-10-02T10:15:06Z
 ---
 

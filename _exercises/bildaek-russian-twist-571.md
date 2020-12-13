@@ -27,23 +27,23 @@ gallery:
   - url: /assets/images/exercises/bildaek-russian-twist-0.jpg
     image_path: /assets/images/exercises/bildaek-russian-twist-0-320.jpg
     alt: "Bildæk, russian twist"
-    title: &title "Bildæk, russian twist"
+    title: "Bildæk, russian twist"
   - url: /assets/images/exercises/bildaek-russian-twist-1.jpg
     image_path: /assets/images/exercises/bildaek-russian-twist-1-320.jpg
     alt: "Bildæk, russian twist"
-    title: &title "Bildæk, russian twist"
+    title: "Bildæk, russian twist"
   - url: /assets/images/exercises/bildaek-russian-twist-2.jpg
     image_path: /assets/images/exercises/bildaek-russian-twist-2-320.jpg
     alt: "Bildæk, russian twist"
-    title: &title "Bildæk, russian twist"
+    title: "Bildæk, russian twist"
   - url: /assets/images/exercises/bildaek-russian-twist-3.jpg
     image_path: /assets/images/exercises/bildaek-russian-twist-3-320.jpg
     alt: "Bildæk, russian twist"
-    title: &title "Bildæk, russian twist"
+    title: "Bildæk, russian twist"
   - url: /assets/images/exercises/bildaek-russian-twist-4.jpg
     image_path: /assets/images/exercises/bildaek-russian-twist-4-320.jpg
     alt: "Bildæk, russian twist"
-    title: &title "Bildæk, russian twist"
+    title: "Bildæk, russian twist"
 last_modified_at: 2014-10-03T10:24:38Z
 ---
 

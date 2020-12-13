@@ -26,27 +26,27 @@ gallery:
   - url: /assets/images/exercises/inchworm-0.jpg
     image_path: /assets/images/exercises/inchworm-0-320.jpg
     alt: "Inchworm"
-    title: &title "Inchworm"
+    title: "Inchworm"
   - url: /assets/images/exercises/inchworm-1.jpg
     image_path: /assets/images/exercises/inchworm-1-320.jpg
     alt: "Inchworm"
-    title: &title "Inchworm"
+    title: "Inchworm"
   - url: /assets/images/exercises/inchworm-2.jpg
     image_path: /assets/images/exercises/inchworm-2-320.jpg
     alt: "Inchworm"
-    title: &title "Inchworm"
+    title: "Inchworm"
   - url: /assets/images/exercises/inchworm-3.jpg
     image_path: /assets/images/exercises/inchworm-3-320.jpg
     alt: "Inchworm"
-    title: &title "Inchworm"
+    title: "Inchworm"
   - url: /assets/images/exercises/inchworm-4.jpg
     image_path: /assets/images/exercises/inchworm-4-320.jpg
     alt: "Inchworm"
-    title: &title "Inchworm"
+    title: "Inchworm"
   - url: /assets/images/exercises/inchworm-5.jpg
     image_path: /assets/images/exercises/inchworm-5-320.jpg
     alt: "Inchworm"
-    title: &title "Inchworm"
+    title: "Inchworm"
 last_modified_at: 2013-10-03T14:19:36Z
 ---
 

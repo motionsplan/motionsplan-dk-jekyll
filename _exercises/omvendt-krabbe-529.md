@@ -34,19 +34,19 @@ gallery:
   - url: /assets/images/exercises/omvendt-krabbe-0.jpg
     image_path: /assets/images/exercises/omvendt-krabbe-0-320.jpg
     alt: "Omvendt krabbe"
-    title: &title "Omvendt krabbe"
+    title: "Omvendt krabbe"
   - url: /assets/images/exercises/omvendt-krabbe-1.jpg
     image_path: /assets/images/exercises/omvendt-krabbe-1-320.jpg
     alt: "Omvendt krabbe"
-    title: &title "Omvendt krabbe"
+    title: "Omvendt krabbe"
   - url: /assets/images/exercises/omvendt-krabbe-2.jpg
     image_path: /assets/images/exercises/omvendt-krabbe-2-320.jpg
     alt: "Omvendt krabbe"
-    title: &title "Omvendt krabbe"
+    title: "Omvendt krabbe"
   - url: /assets/images/exercises/omvendt-krabbe-3.jpg
     image_path: /assets/images/exercises/omvendt-krabbe-3-320.jpg
     alt: "Omvendt krabbe"
-    title: &title "Omvendt krabbe"
+    title: "Omvendt krabbe"
 last_modified_at: 2014-10-12T21:40:05Z
 ---
 

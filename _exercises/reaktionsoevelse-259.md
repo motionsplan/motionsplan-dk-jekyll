@@ -25,11 +25,11 @@ gallery:
   - url: /assets/images/exercises/reaktionsoevelse-0.jpg
     image_path: /assets/images/exercises/reaktionsoevelse-0-320.jpg
     alt: "Reaktionsøvelse"
-    title: &title "Reaktionsøvelse"
+    title: "Reaktionsøvelse"
   - url: /assets/images/exercises/reaktionsoevelse-1.jpg
     image_path: /assets/images/exercises/reaktionsoevelse-1-320.jpg
     alt: "Reaktionsøvelse"
-    title: &title "Reaktionsøvelse"
+    title: "Reaktionsøvelse"
 last_modified_at: 2014-10-10T21:05:41Z
 ---
 

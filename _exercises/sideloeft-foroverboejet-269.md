@@ -27,15 +27,15 @@ gallery:
   - url: /assets/images/exercises/sideloeft-foroverboejet-0.jpg
     image_path: /assets/images/exercises/sideloeft-foroverboejet-0-320.jpg
     alt: "Sideløft, foroverbøjet"
-    title: &title "Sideløft, foroverbøjet"
+    title: "Sideløft, foroverbøjet"
   - url: /assets/images/exercises/sideloeft-foroverboejet-1.jpg
     image_path: /assets/images/exercises/sideloeft-foroverboejet-1-320.jpg
     alt: "Sideløft, foroverbøjet"
-    title: &title "Sideløft, foroverbøjet"
+    title: "Sideløft, foroverbøjet"
   - url: /assets/images/exercises/sideloeft-foroverboejet-2.jpg
     image_path: /assets/images/exercises/sideloeft-foroverboejet-2-320.jpg
     alt: "Sideløft, foroverbøjet"
-    title: &title "Sideløft, foroverbøjet"
+    title: "Sideløft, foroverbøjet"
 last_modified_at: 2013-04-21T18:14:07Z
 ---
 

@@ -28,19 +28,19 @@ gallery:
   - url: /assets/images/exercises/side-swings-0.jpg
     image_path: /assets/images/exercises/side-swings-0-320.jpg
     alt: "Side swings"
-    title: &title "Side swings"
+    title: "Side swings"
   - url: /assets/images/exercises/side-swings-1.jpg
     image_path: /assets/images/exercises/side-swings-1-320.jpg
     alt: "Side swings"
-    title: &title "Side swings"
+    title: "Side swings"
   - url: /assets/images/exercises/side-swings-2.jpg
     image_path: /assets/images/exercises/side-swings-2-320.jpg
     alt: "Side swings"
-    title: &title "Side swings"
+    title: "Side swings"
   - url: /assets/images/exercises/side-swings-3.jpg
     image_path: /assets/images/exercises/side-swings-3-320.jpg
     alt: "Side swings"
-    title: &title "Side swings"
+    title: "Side swings"
 last_modified_at: 2011-04-19T11:53:11Z
 ---
 

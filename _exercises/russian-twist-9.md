@@ -32,15 +32,15 @@ gallery:
   - url: /assets/images/exercises/russian-twist-0.jpg
     image_path: /assets/images/exercises/russian-twist-0-320.jpg
     alt: "Russian twist"
-    title: &title "Russian twist"
+    title: "Russian twist"
   - url: /assets/images/exercises/russian-twist-1.jpg
     image_path: /assets/images/exercises/russian-twist-1-320.jpg
     alt: "Russian twist"
-    title: &title "Russian twist"
+    title: "Russian twist"
   - url: /assets/images/exercises/russian-twist-2.jpg
     image_path: /assets/images/exercises/russian-twist-2-320.jpg
     alt: "Russian twist"
-    title: &title "Russian twist"
+    title: "Russian twist"
 last_modified_at: 2014-10-13T22:08:53Z
 ---
 

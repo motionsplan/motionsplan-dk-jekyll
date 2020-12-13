@@ -30,7 +30,7 @@ gallery:
   - url: /assets/images/exercises/dead-bug-0.jpeg
     image_path: /assets/images/exercises/dead-bug-0-320.jpeg
     alt: "Dead bug"
-    title: &title "Dead bug"
+    title: "Dead bug"
 video:
   provider: youtube
   id: rbemelnkHag

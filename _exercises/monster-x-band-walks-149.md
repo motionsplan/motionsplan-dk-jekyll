@@ -28,7 +28,7 @@ gallery:
   - url: /assets/images/exercises/monster-x-band-walks-0.jpg
     image_path: /assets/images/exercises/monster-x-band-walks-0-320.jpg
     alt: "X-band walks, monsterversion"
-    title: &title "X-band walks, monsterversion"
+    title: "X-band walks, monsterversion"
 last_modified_at: 2014-10-10T21:13:34Z
 ---
 

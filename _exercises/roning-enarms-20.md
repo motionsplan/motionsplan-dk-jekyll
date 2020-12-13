@@ -41,15 +41,15 @@ gallery:
   - url: /assets/images/exercises/roning-enarms-0.jpg
     image_path: /assets/images/exercises/roning-enarms-0-320.jpg
     alt: "Roning, enarms"
-    title: &title "Roning, enarms"
+    title: "Roning, enarms"
   - url: /assets/images/exercises/roning-enarms-1.jpg
     image_path: /assets/images/exercises/roning-enarms-1-320.jpg
     alt: "Roning, enarms"
-    title: &title "Roning, enarms"
+    title: "Roning, enarms"
   - url: /assets/images/exercises/roning-enarms-2.jpg
     image_path: /assets/images/exercises/roning-enarms-2-320.jpg
     alt: "Roning, enarms"
-    title: &title "Roning, enarms"
+    title: "Roning, enarms"
 video:
   provider: youtube
   id: U7JM0pKMWSA

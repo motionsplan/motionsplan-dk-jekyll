@@ -33,11 +33,11 @@ gallery:
   - url: /assets/images/exercises/one-arm-overhead-press-0.jpg
     image_path: /assets/images/exercises/one-arm-overhead-press-0-320.jpg
     alt: "One arm overhead press"
-    title: &title "One arm overhead press"
+    title: "One arm overhead press"
   - url: /assets/images/exercises/one-arm-overhead-press-1.jpg
     image_path: /assets/images/exercises/one-arm-overhead-press-1-320.jpg
     alt: "One arm overhead press"
-    title: &title "One arm overhead press"
+    title: "One arm overhead press"
 last_modified_at: 2015-03-21T16:12:59Z
 ---
 

@@ -28,11 +28,11 @@ gallery:
   - url: /assets/images/exercises/reb-faa-det-til-boelge-0.jpg
     image_path: /assets/images/exercises/reb-faa-det-til-boelge-0-320.jpg
     alt: "Tov, få det til at bølge"
-    title: &title "Tov, få det til at bølge"
+    title: "Tov, få det til at bølge"
   - url: /assets/images/exercises/reb-faa-det-til-boelge-1.jpg
     image_path: /assets/images/exercises/reb-faa-det-til-boelge-1-320.jpg
     alt: "Tov, få det til at bølge"
-    title: &title "Tov, få det til at bølge"
+    title: "Tov, få det til at bølge"
 last_modified_at: 2013-10-03T11:05:53Z
 ---
 

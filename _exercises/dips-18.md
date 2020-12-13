@@ -34,11 +34,11 @@ gallery:
   - url: /assets/images/exercises/dips-0.jpg
     image_path: /assets/images/exercises/dips-0-320.jpg
     alt: "Dips"
-    title: &title "Dips"
+    title: "Dips"
   - url: /assets/images/exercises/dips-1.jpg
     image_path: /assets/images/exercises/dips-1-320.jpg
     alt: "Dips"
-    title: &title "Dips"
+    title: "Dips"
 video:
   provider: youtube
   id: FKc76c5qFHM

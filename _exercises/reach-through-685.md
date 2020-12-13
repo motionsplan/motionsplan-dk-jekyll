@@ -29,11 +29,11 @@ gallery:
   - url: /assets/images/exercises/reach-through-0.jpg
     image_path: /assets/images/exercises/reach-through-0-320.jpg
     alt: "Reach through"
-    title: &title "Reach through"
+    title: "Reach through"
   - url: /assets/images/exercises/reach-through-1.jpg
     image_path: /assets/images/exercises/reach-through-1-320.jpg
     alt: "Reach through"
-    title: &title "Reach through"
+    title: "Reach through"
 last_modified_at: 2015-04-10T13:47:22Z
 ---
 

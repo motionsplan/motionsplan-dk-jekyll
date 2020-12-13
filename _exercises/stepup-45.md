@@ -20,27 +20,27 @@ gallery:
   - url: /assets/images/exercises/stepup-0.jpg
     image_path: /assets/images/exercises/stepup-0-320.jpg
     alt: "Stepup med spring"
-    title: &title "Stepup med spring"
+    title: "Stepup med spring"
   - url: /assets/images/exercises/stepup-1.jpg
     image_path: /assets/images/exercises/stepup-1-320.jpg
     alt: "Stepup med spring"
-    title: &title "Stepup med spring"
+    title: "Stepup med spring"
   - url: /assets/images/exercises/stepup-2.jpg
     image_path: /assets/images/exercises/stepup-2-320.jpg
     alt: "Stepup med spring"
-    title: &title "Stepup med spring"
+    title: "Stepup med spring"
   - url: /assets/images/exercises/stepup-3.jpg
     image_path: /assets/images/exercises/stepup-3-320.jpg
     alt: "Stepup med spring"
-    title: &title "Stepup med spring"
+    title: "Stepup med spring"
   - url: /assets/images/exercises/stepup-4.jpg
     image_path: /assets/images/exercises/stepup-4-320.jpg
     alt: "Stepup med spring"
-    title: &title "Stepup med spring"
+    title: "Stepup med spring"
   - url: /assets/images/exercises/stepup-5.jpg
     image_path: /assets/images/exercises/stepup-5-320.jpg
     alt: "Stepup med spring"
-    title: &title "Stepup med spring"
+    title: "Stepup med spring"
 last_modified_at: 2013-04-21T14:01:41Z
 ---
 

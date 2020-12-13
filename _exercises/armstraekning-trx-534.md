@@ -24,11 +24,11 @@ gallery:
   - url: /assets/images/exercises/armstraekning-trx-0.jpg
     image_path: /assets/images/exercises/armstraekning-trx-0-320.jpg
     alt: "Armstrækning TRX "
-    title: &title "Armstrækning TRX "
+    title: "Armstrækning TRX "
   - url: /assets/images/exercises/armstraekning-trx-1.jpg
     image_path: /assets/images/exercises/armstraekning-trx-1-320.jpg
     alt: "Armstrækning TRX "
-    title: &title "Armstrækning TRX "
+    title: "Armstrækning TRX "
 last_modified_at: 2013-10-04T14:13:01Z
 ---
 

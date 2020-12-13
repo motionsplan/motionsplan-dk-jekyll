@@ -36,15 +36,15 @@ gallery:
   - url: /assets/images/exercises/plank-knee-elbow-0.jpg
     image_path: /assets/images/exercises/plank-knee-elbow-0-320.jpg
     alt: "Planken, knee to elbow "
-    title: &title "Planken, knee to elbow "
+    title: "Planken, knee to elbow "
   - url: /assets/images/exercises/plank-knee-elbow-1.jpg
     image_path: /assets/images/exercises/plank-knee-elbow-1-320.jpg
     alt: "Planken, knee to elbow "
-    title: &title "Planken, knee to elbow "
+    title: "Planken, knee to elbow "
   - url: /assets/images/exercises/plank-knee-elbow-2.jpg
     image_path: /assets/images/exercises/plank-knee-elbow-2-320.jpg
     alt: "Planken, knee to elbow "
-    title: &title "Planken, knee to elbow "
+    title: "Planken, knee to elbow "
 last_modified_at: 2014-10-12T22:03:14Z
 ---
 

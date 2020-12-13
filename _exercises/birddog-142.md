@@ -28,15 +28,15 @@ gallery:
   - url: /assets/images/exercises/birddog-0.jpg
     image_path: /assets/images/exercises/birddog-0-320.jpg
     alt: "Bird dog"
-    title: &title "Bird dog"
+    title: "Bird dog"
   - url: /assets/images/exercises/birddog-1.jpg
     image_path: /assets/images/exercises/birddog-1-320.jpg
     alt: "Bird dog"
-    title: &title "Bird dog"
+    title: "Bird dog"
   - url: /assets/images/exercises/birddog-2.jpg
     image_path: /assets/images/exercises/birddog-2-320.jpg
     alt: "Bird dog"
-    title: &title "Bird dog"
+    title: "Bird dog"
 last_modified_at: 2013-10-03T10:07:22Z
 ---
 

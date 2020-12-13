@@ -46,15 +46,16 @@ gallery:
   - url: /assets/images/exercises/roning-foroverboejet-0.jpg
     image_path: /assets/images/exercises/roning-foroverboejet-0-320.jpg
     alt: "Roning, foroverbøjet "
-    title: &title "Roning, foroverbøjet "
+    title: "Roning, foroverbøjet "
   - url: /assets/images/exercises/roning-foroverboejet-1.jpg
     image_path: /assets/images/exercises/roning-foroverboejet-1-320.jpg
     alt: "Roning, foroverbøjet "
-    title: &title "Roning, foroverbøjet "
+    title: "Roning, foroverbøjet "
 video:
   provider: youtube
   id: U7JM0pKMWSA
 last_modified_at: 2020-07-06T16:08:18Z
+key: 20200706160818
 ---
 
 _Bent over rows_ (BOR) er en af de mest udbredte basisøvelser for ryggen. Bent over rows er en horisontal trækøvelse, hvor du træner den brede rygmuskel, øvre del af ryggen, nakken, lænden og biceps alt afhængig af, hvordan du udfører øvelsen.

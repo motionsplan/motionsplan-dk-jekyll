@@ -20,15 +20,15 @@ gallery:
   - url: /assets/images/exercises/baenkpres-decline-0.jpg
     image_path: /assets/images/exercises/baenkpres-decline-0-320.jpg
     alt: "Bænkpres, decline"
-    title: &title "Bænkpres, decline"
+    title: "Bænkpres, decline"
   - url: /assets/images/exercises/baenkpres-decline-1.jpg
     image_path: /assets/images/exercises/baenkpres-decline-1-320.jpg
     alt: "Bænkpres, decline"
-    title: &title "Bænkpres, decline"
+    title: "Bænkpres, decline"
   - url: /assets/images/exercises/baenkpres-decline-2.jpg
     image_path: /assets/images/exercises/baenkpres-decline-2-320.jpg
     alt: "Bænkpres, decline"
-    title: &title "Bænkpres, decline"
+    title: "Bænkpres, decline"
 last_modified_at: 2011-04-19T11:34:17Z
 ---
 

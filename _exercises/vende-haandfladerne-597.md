@@ -32,11 +32,11 @@ gallery:
   - url: /assets/images/exercises/vende-haandfladerne-0.jpg
     image_path: /assets/images/exercises/vende-haandfladerne-0-320.jpg
     alt: "Vende håndfladerne"
-    title: &title "Vende håndfladerne"
+    title: "Vende håndfladerne"
   - url: /assets/images/exercises/vende-haandfladerne-1.jpg
     image_path: /assets/images/exercises/vende-haandfladerne-1-320.jpg
     alt: "Vende håndfladerne"
-    title: &title "Vende håndfladerne"
+    title: "Vende håndfladerne"
 last_modified_at: 2014-10-12T22:08:34Z
 ---
 

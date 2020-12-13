@@ -40,23 +40,23 @@ gallery:
   - url: /assets/images/exercises/gunthers-backextension-0.jpg
     image_path: /assets/images/exercises/gunthers-backextension-0-320.jpg
     alt: "Rygstrækning, Gunthers"
-    title: &title "Rygstrækning, Gunthers"
+    title: "Rygstrækning, Gunthers"
   - url: /assets/images/exercises/gunthers-backextension-1.jpg
     image_path: /assets/images/exercises/gunthers-backextension-1-320.jpg
     alt: "Rygstrækning, Gunthers"
-    title: &title "Rygstrækning, Gunthers"
+    title: "Rygstrækning, Gunthers"
   - url: /assets/images/exercises/gunthers-backextension-2.jpg
     image_path: /assets/images/exercises/gunthers-backextension-2-320.jpg
     alt: "Rygstrækning, Gunthers"
-    title: &title "Rygstrækning, Gunthers"
+    title: "Rygstrækning, Gunthers"
   - url: /assets/images/exercises/gunthers-backextension-3.jpg
     image_path: /assets/images/exercises/gunthers-backextension-3-320.jpg
     alt: "Rygstrækning, Gunthers"
-    title: &title "Rygstrækning, Gunthers"
+    title: "Rygstrækning, Gunthers"
   - url: /assets/images/exercises/gunthers-backextension-4.jpg
     image_path: /assets/images/exercises/gunthers-backextension-4-320.jpg
     alt: "Rygstrækning, Gunthers"
-    title: &title "Rygstrækning, Gunthers"
+    title: "Rygstrækning, Gunthers"
 video:
   provider: vimeo
   id: 4715461

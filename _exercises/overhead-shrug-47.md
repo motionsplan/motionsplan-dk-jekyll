@@ -22,11 +22,11 @@ gallery:
   - url: /assets/images/exercises/overhead-shrug-0.jpg
     image_path: /assets/images/exercises/overhead-shrug-0-320.jpg
     alt: "Shrug, overhead"
-    title: &title "Shrug, overhead"
+    title: "Shrug, overhead"
   - url: /assets/images/exercises/overhead-shrug-1.jpg
     image_path: /assets/images/exercises/overhead-shrug-1-320.jpg
     alt: "Shrug, overhead"
-    title: &title "Shrug, overhead"
+    title: "Shrug, overhead"
 video:
   provider: vimeo
   id: 5016542

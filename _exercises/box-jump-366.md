@@ -25,7 +25,7 @@ gallery:
   - url: /assets/images/exercises/box-jump-0.jpg
     image_path: /assets/images/exercises/box-jump-0-320.jpg
     alt: "Box jump"
-    title: &title "Box jump"
+    title: "Box jump"
 last_modified_at: 2013-11-19T13:18:21Z
 ---
 

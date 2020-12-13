@@ -34,15 +34,15 @@ gallery:
   - url: /assets/images/exercises/romanian-deadlift-0.jpg
     image_path: /assets/images/exercises/romanian-deadlift-0-320.jpg
     alt: "Dødløft, Romanian"
-    title: &title "Dødløft, Romanian"
+    title: "Dødløft, Romanian"
   - url: /assets/images/exercises/romanian-deadlift-1.jpg
     image_path: /assets/images/exercises/romanian-deadlift-1-320.jpg
     alt: "Dødløft, Romanian"
-    title: &title "Dødløft, Romanian"
+    title: "Dødløft, Romanian"
   - url: /assets/images/exercises/romanian-deadlift-2.jpg
     image_path: /assets/images/exercises/romanian-deadlift-2-320.jpg
     alt: "Dødløft, Romanian"
-    title: &title "Dødløft, Romanian"
+    title: "Dødløft, Romanian"
 last_modified_at: 2015-04-10T13:29:44Z
 ---
 

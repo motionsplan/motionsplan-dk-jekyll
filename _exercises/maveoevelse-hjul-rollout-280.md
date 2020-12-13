@@ -26,15 +26,15 @@ gallery:
   - url: /assets/images/exercises/maveoevelse-hjul-rollout-0.jpg
     image_path: /assets/images/exercises/maveoevelse-hjul-rollout-0-320.jpg
     alt: "Maveøvelse, rollout med hjul"
-    title: &title "Maveøvelse, rollout med hjul"
+    title: "Maveøvelse, rollout med hjul"
   - url: /assets/images/exercises/maveoevelse-hjul-rollout-1.jpg
     image_path: /assets/images/exercises/maveoevelse-hjul-rollout-1-320.jpg
     alt: "Maveøvelse, rollout med hjul"
-    title: &title "Maveøvelse, rollout med hjul"
+    title: "Maveøvelse, rollout med hjul"
   - url: /assets/images/exercises/maveoevelse-hjul-rollout-2.jpg
     image_path: /assets/images/exercises/maveoevelse-hjul-rollout-2-320.jpg
     alt: "Maveøvelse, rollout med hjul"
-    title: &title "Maveøvelse, rollout med hjul"
+    title: "Maveøvelse, rollout med hjul"
 last_modified_at: 2011-04-26T23:45:09Z
 ---
 

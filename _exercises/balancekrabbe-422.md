@@ -24,7 +24,7 @@ muscle_group:
 #  - url: /assets/images/exercises/balancekrabbe-0.gif
 #    image_path: /assets/images/exercises/balancekrabbe-0-320.gif
 #    alt: "Balancekrabbe"
-#    title: &title "Balancekrabbe"
+#    title: "Balancekrabbe"
 last_modified_at: 2012-01-12T10:57:38Z
 ---
 

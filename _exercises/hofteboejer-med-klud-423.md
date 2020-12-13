@@ -26,15 +26,15 @@ gallery:
   - url: /assets/images/exercises/hofteboejer-med-klud-0.jpg
     image_path: /assets/images/exercises/hofteboejer-med-klud-0-320.jpg
     alt: "Hoftebøjer med klud"
-    title: &title "Hoftebøjer med klud"
+    title: "Hoftebøjer med klud"
   - url: /assets/images/exercises/hofteboejer-med-klud-1.jpg
     image_path: /assets/images/exercises/hofteboejer-med-klud-1-320.jpg
     alt: "Hoftebøjer med klud"
-    title: &title "Hoftebøjer med klud"
+    title: "Hoftebøjer med klud"
   - url: /assets/images/exercises/hofteboejer-med-klud-2.jpg
     image_path: /assets/images/exercises/hofteboejer-med-klud-2-320.jpg
     alt: "Hoftebøjer med klud"
-    title: &title "Hoftebøjer med klud"
+    title: "Hoftebøjer med klud"
 last_modified_at: 2013-10-02T10:13:54Z
 ---
 

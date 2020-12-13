@@ -20,11 +20,11 @@ gallery:
   - url: /assets/images/exercises/split-squat-0.jpg
     image_path: /assets/images/exercises/split-squat-0-320.jpg
     alt: "Split squat"
-    title: &title "Split squat"
+    title: "Split squat"
   - url: /assets/images/exercises/split-squat-1.jpg
     image_path: /assets/images/exercises/split-squat-1-320.jpg
     alt: "Split squat"
-    title: &title "Split squat"
+    title: "Split squat"
 last_modified_at: 2010-11-02T13:35:07Z
 ---
 

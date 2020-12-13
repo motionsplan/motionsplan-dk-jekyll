@@ -25,7 +25,7 @@ gallery:
   - url: /assets/images/exercises/mobilisering-ankel-0.jpg
     image_path: /assets/images/exercises/mobilisering-ankel-0-320.jpg
     alt: "Mobilisering ankel"
-    title: &title "Mobilisering ankel"
+    title: "Mobilisering ankel"
 last_modified_at: 2015-04-10T13:53:13Z
 ---
 

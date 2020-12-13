@@ -22,19 +22,19 @@ gallery:
   - url: /assets/images/exercises/lunges-baglaens-med-stangen-over-hovedet-0.jpg
     image_path: /assets/images/exercises/lunges-baglaens-med-stangen-over-hovedet-0-320.jpg
     alt: "Lunges, baglæns med stangen over hovedet"
-    title: &title "Lunges, baglæns med stangen over hovedet"
+    title: "Lunges, baglæns med stangen over hovedet"
   - url: /assets/images/exercises/lunges-baglaens-med-stangen-over-hovedet-1.jpg
     image_path: /assets/images/exercises/lunges-baglaens-med-stangen-over-hovedet-1-320.jpg
     alt: "Lunges, baglæns med stangen over hovedet"
-    title: &title "Lunges, baglæns med stangen over hovedet"
+    title: "Lunges, baglæns med stangen over hovedet"
   - url: /assets/images/exercises/lunges-baglaens-med-stangen-over-hovedet-2.jpg
     image_path: /assets/images/exercises/lunges-baglaens-med-stangen-over-hovedet-2-320.jpg
     alt: "Lunges, baglæns med stangen over hovedet"
-    title: &title "Lunges, baglæns med stangen over hovedet"
+    title: "Lunges, baglæns med stangen over hovedet"
   - url: /assets/images/exercises/lunges-baglaens-med-stangen-over-hovedet-3.jpg
     image_path: /assets/images/exercises/lunges-baglaens-med-stangen-over-hovedet-3-320.jpg
     alt: "Lunges, baglæns med stangen over hovedet"
-    title: &title "Lunges, baglæns med stangen over hovedet"
+    title: "Lunges, baglæns med stangen over hovedet"
 last_modified_at: 2013-04-21T14:05:30Z
 ---
 

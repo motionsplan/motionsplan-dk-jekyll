@@ -26,11 +26,11 @@ gallery:
   - url: /assets/images/exercises/touch-toes-0.jpg
     image_path: /assets/images/exercises/touch-toes-0-320.jpg
     alt: "Touch toes"
-    title: &title "Touch toes"
+    title: "Touch toes"
   - url: /assets/images/exercises/touch-toes-1.jpg
     image_path: /assets/images/exercises/touch-toes-1-320.jpg
     alt: "Touch toes"
-    title: &title "Touch toes"
+    title: "Touch toes"
 last_modified_at: 2015-04-10T11:55:28Z
 ---
 

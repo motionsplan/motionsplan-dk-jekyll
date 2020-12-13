@@ -22,11 +22,11 @@ gallery:
   - url: /assets/images/exercises/pull-med-makkere-0.jpg
     image_path: /assets/images/exercises/pull-med-makkere-0-320.jpg
     alt: "Pull up med makkere"
-    title: &title "Pull up med makkere"
+    title: "Pull up med makkere"
   - url: /assets/images/exercises/pull-med-makkere-1.jpg
     image_path: /assets/images/exercises/pull-med-makkere-1-320.jpg
     alt: "Pull up med makkere"
-    title: &title "Pull up med makkere"
+    title: "Pull up med makkere"
 last_modified_at: 2013-10-21T12:52:27Z
 ---
 

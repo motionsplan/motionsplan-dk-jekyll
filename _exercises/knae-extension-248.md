@@ -28,11 +28,11 @@ gallery:
   - url: /assets/images/exercises/knae-extension-0.jpg
     image_path: /assets/images/exercises/knae-extension-0-320.jpg
     alt: "Knæstræk"
-    title: &title "Knæstræk"
+    title: "Knæstræk"
   - url: /assets/images/exercises/knae-extension-1.jpg
     image_path: /assets/images/exercises/knae-extension-1-320.jpg
     alt: "Knæstræk"
-    title: &title "Knæstræk"
+    title: "Knæstræk"
 last_modified_at: 2011-08-18T19:25:48Z
 ---
 

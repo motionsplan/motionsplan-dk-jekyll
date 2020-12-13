@@ -33,15 +33,15 @@ gallery:
   - url: /assets/images/exercises/benpres-0.jpg
     image_path: /assets/images/exercises/benpres-0-320.jpg
     alt: "Benpres"
-    title: &title "Benpres"
+    title: "Benpres"
   - url: /assets/images/exercises/benpres-1.jpg
     image_path: /assets/images/exercises/benpres-1-320.jpg
     alt: "Benpres"
-    title: &title "Benpres"
+    title: "Benpres"
   - url: /assets/images/exercises/benpres-2.jpg
     image_path: /assets/images/exercises/benpres-2-320.jpg
     alt: "Benpres"
-    title: &title "Benpres"
+    title: "Benpres"
 last_modified_at: 2020-06-12T19:12:37Z
 video:
   provider: youtube

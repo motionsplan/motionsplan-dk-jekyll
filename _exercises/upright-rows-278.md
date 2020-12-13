@@ -20,15 +20,15 @@ gallery:
   - url: /assets/images/exercises/upright-rows-0.jpg
     image_path: /assets/images/exercises/upright-rows-0-320.jpg
     alt: "Upright rows"
-    title: &title "Upright rows"
+    title: "Upright rows"
   - url: /assets/images/exercises/upright-rows-1.jpg
     image_path: /assets/images/exercises/upright-rows-1-320.jpg
     alt: "Upright rows"
-    title: &title "Upright rows"
+    title: "Upright rows"
   - url: /assets/images/exercises/upright-rows-2.jpg
     image_path: /assets/images/exercises/upright-rows-2-320.jpg
     alt: "Upright rows"
-    title: &title "Upright rows"
+    title: "Upright rows"
 last_modified_at: 2011-05-06T11:33:07Z
 ---
 

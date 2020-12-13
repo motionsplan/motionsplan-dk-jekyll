@@ -35,7 +35,7 @@ gallery:
   - url: /assets/images/exercises/planken-0.jpg
     image_path: /assets/images/exercises/planken-0-320.jpg
     alt: "Planken"
-    title: &title "Planken"
+    title: "Planken"
 video:
   provider: youtube
   id: obWjBnagrFU

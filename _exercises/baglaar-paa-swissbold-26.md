@@ -22,11 +22,11 @@ gallery:
   - url: /assets/images/exercises/baglaar-paa-swissbold-0.jpg
     image_path: /assets/images/exercises/baglaar-paa-swissbold-0-320.jpg
     alt: "Baglår på swissbold"
-    title: &title "Baglår på swissbold"
+    title: "Baglår på swissbold"
   - url: /assets/images/exercises/baglaar-paa-swissbold-1.jpg
     image_path: /assets/images/exercises/baglaar-paa-swissbold-1-320.jpg
     alt: "Baglår på swissbold"
-    title: &title "Baglår på swissbold"
+    title: "Baglår på swissbold"
 video:
   provider: vimeo
   id: 5016905

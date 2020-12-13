@@ -28,7 +28,7 @@ gallery:
   - url: /assets/images/exercises/walking-spiderman-hip-lift-and-overhead-reach-0.jpg
     image_path: /assets/images/exercises/walking-spiderman-hip-lift-and-overhead-reach-0-320.jpg
     alt: "Walking spiderman with hip lift and overhead reach"
-    title: &title "Walking spiderman with hip lift and overhead reach"
+    title: "Walking spiderman with hip lift and overhead reach"
 video:
   provider: youtube
   id: W50Jsyc80SA

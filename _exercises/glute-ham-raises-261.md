@@ -23,7 +23,7 @@ gallery:
   - url: /assets/images/exercises/glute-ham-raises-0.jpg
     image_path: /assets/images/exercises/glute-ham-raises-0-320.jpg
     alt: "Glute ham raises - Glute ham raise"
-    title: &title "Glute ham raises"
+    title: "Glute ham raises"
 last_modified_at: 2020-04-14T15:02:12Z
 video:
   provider: youtube
@@ -31,7 +31,7 @@ video:
 feature_row:
   - image_path: https://www.fotoagent.dk/single_picture/11803/138/custom1/PM130_19(1).jpg
     url: https://www.fitnessgruppen.dk/peak-fitness-glute/ham-developer/
-    title: &title "Peak: Glute/ham Developer bænk"
+    title: "Peak: Glute/ham Developer bænk"
     alt: "Glute ham raise bænk - glute ham developer (GHD)"
     excerpt: "En bænk til glute-ham skal være høj nok, så man kan bruge det fulde bevægeudslag, og så skal man kunne indstille fodpuderne for at få den rigtige vinkel. En glute-ham developer skal også være meget solid, så den ikke rokker under øvelsen. Desuden skal du kunne indstille afstanden mellem fodstøtten og puderne."
     btn_label: Tjek prisen hos Fitnessgruppen*

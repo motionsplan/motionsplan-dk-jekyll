@@ -28,15 +28,15 @@ gallery:
   - url: /assets/images/exercises/armstraekker-0.jpg
     image_path: /assets/images/exercises/armstraekker-0-320.jpg
     alt: "Armstrækning, på tæerne"
-    title: &title "Armstrækning, på tæerne"
+    title: "Armstrækning, på tæerne"
   - url: /assets/images/exercises/armstraekker-1.jpg
     image_path: /assets/images/exercises/armstraekker-1-320.jpg
     alt: "Armstrækning, på tæerne"
-    title: &title "Armstrækning, på tæerne"
+    title: "Armstrækning, på tæerne"
   - url: /assets/images/exercises/armstraekker-2.jpg
     image_path: /assets/images/exercises/armstraekker-2-320.jpg
     alt: "Armstrækning, på tæerne"
-    title: &title "Armstrækning, på tæerne"
+    title: "Armstrækning, på tæerne"
 last_modified_at: 2012-03-08T08:05:34Z
 ---
 

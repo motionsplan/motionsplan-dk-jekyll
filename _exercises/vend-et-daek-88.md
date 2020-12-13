@@ -26,15 +26,15 @@ gallery:
   - url: /assets/images/exercises/vend-et-daek-0.jpg
     image_path: /assets/images/exercises/vend-et-daek-0-320.jpg
     alt: "Traktordæk, vend et dæk"
-    title: &title "Traktordæk, vend et dæk"
+    title: "Traktordæk, vend et dæk"
   - url: /assets/images/exercises/vend-et-daek-1.jpg
     image_path: /assets/images/exercises/vend-et-daek-1-320.jpg
     alt: "Traktordæk, vend et dæk"
-    title: &title "Traktordæk, vend et dæk"
+    title: "Traktordæk, vend et dæk"
   - url: /assets/images/exercises/vend-et-daek-2.jpg
     image_path: /assets/images/exercises/vend-et-daek-2-320.jpg
     alt: "Traktordæk, vend et dæk"
-    title: &title "Traktordæk, vend et dæk"
+    title: "Traktordæk, vend et dæk"
 last_modified_at: 2011-05-02T15:43:58Z
 ---
 

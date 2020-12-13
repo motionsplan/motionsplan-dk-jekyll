@@ -22,11 +22,11 @@ gallery:
   - url: /assets/images/exercises/stir-pot-0.jpg
     image_path: /assets/images/exercises/stir-pot-0-320.jpg
     alt: "Stir the pot"
-    title: &title "Stir the pot"
+    title: "Stir the pot"
   - url: /assets/images/exercises/stir-pot-1.jpg
     image_path: /assets/images/exercises/stir-pot-1-320.jpg
     alt: "Stir the pot"
-    title: &title "Stir the pot"
+    title: "Stir the pot"
 last_modified_at: 2012-04-17T11:55:12Z
 ---
 

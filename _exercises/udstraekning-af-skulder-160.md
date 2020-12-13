@@ -24,7 +24,7 @@ gallery:
   - url: /assets/images/exercises/udstraekning-af-skulder-0.jpg
     image_path: /assets/images/exercises/udstraekning-af-skulder-0-320.jpg
     alt: "Udstrækning af skulder"
-    title: &title "Udstrækning af skulder"
+    title: "Udstrækning af skulder"
 last_modified_at: 2014-10-12T14:36:00Z
 ---
 

@@ -41,11 +41,11 @@ gallery:
   - url: /assets/images/exercises/prowler-0.jpg
     image_path: /assets/images/exercises/prowler-0-320.jpg
     alt: "Prowler"
-    title: &title "Prowler"
+    title: "Prowler"
   - url: /assets/images/exercises/prowler-1.jpg
     image_path: /assets/images/exercises/prowler-1-320.jpg
     alt: "Prowler"
-    title: &title "Prowler"
+    title: "Prowler"
 last_modified_at: 2016-01-11T08:39:24Z
 ---
 

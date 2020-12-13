@@ -26,23 +26,23 @@ gallery:
   - url: /assets/images/exercises/lyset-0.jpg
     image_path: /assets/images/exercises/lyset-0-320.jpg
     alt: "Maveøvelse, lyset"
-    title: &title "Maveøvelse, lyset"
+    title: "Maveøvelse, lyset"
   - url: /assets/images/exercises/lyset-1.jpg
     image_path: /assets/images/exercises/lyset-1-320.jpg
     alt: "Maveøvelse, lyset"
-    title: &title "Maveøvelse, lyset"
+    title: "Maveøvelse, lyset"
   - url: /assets/images/exercises/lyset-2.jpg
     image_path: /assets/images/exercises/lyset-2-320.jpg
     alt: "Maveøvelse, lyset"
-    title: &title "Maveøvelse, lyset"
+    title: "Maveøvelse, lyset"
   - url: /assets/images/exercises/lyset-3.jpg
     image_path: /assets/images/exercises/lyset-3-320.jpg
     alt: "Maveøvelse, lyset"
-    title: &title "Maveøvelse, lyset"
+    title: "Maveøvelse, lyset"
   - url: /assets/images/exercises/lyset-4.jpg
     image_path: /assets/images/exercises/lyset-4-320.jpg
     alt: "Maveøvelse, lyset"
-    title: &title "Maveøvelse, lyset"
+    title: "Maveøvelse, lyset"
 video:
   provider: vimeo
   id: 4715093

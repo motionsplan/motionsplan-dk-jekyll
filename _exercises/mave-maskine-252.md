@@ -28,15 +28,15 @@ gallery:
   - url: /assets/images/exercises/mave-maskine-0.jpg
     image_path: /assets/images/exercises/mave-maskine-0-320.jpg
     alt: "Mave, maskine"
-    title: &title "Mave, maskine"
+    title: "Mave, maskine"
   - url: /assets/images/exercises/mave-maskine-1.jpg
     image_path: /assets/images/exercises/mave-maskine-1-320.jpg
     alt: "Mave, maskine"
-    title: &title "Mave, maskine"
+    title: "Mave, maskine"
   - url: /assets/images/exercises/mave-maskine-2.jpg
     image_path: /assets/images/exercises/mave-maskine-2-320.jpg
     alt: "Mave, maskine"
-    title: &title "Mave, maskine"
+    title: "Mave, maskine"
 last_modified_at: 2011-04-16T07:09:00Z
 ---
 

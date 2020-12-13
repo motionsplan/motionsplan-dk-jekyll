@@ -32,19 +32,19 @@ gallery:
   - url: /assets/images/exercises/tohaandssving-0.jpg
     image_path: /assets/images/exercises/tohaandssving-0-320.jpg
     alt: "Swing, to hænder"
-    title: &title "Swing, to hænder"
+    title: "Swing, to hænder"
   - url: /assets/images/exercises/tohaandssving-1.jpg
     image_path: /assets/images/exercises/tohaandssving-1-320.jpg
     alt: "Swing, to hænder"
-    title: &title "Swing, to hænder"
+    title: "Swing, to hænder"
   - url: /assets/images/exercises/tohaandssving-2.jpg
     image_path: /assets/images/exercises/tohaandssving-2-320.jpg
     alt: "Swing, to hænder"
-    title: &title "Swing, to hænder"
+    title: "Swing, to hænder"
   - url: /assets/images/exercises/tohaandssving-3.jpg
     image_path: /assets/images/exercises/tohaandssving-3-320.jpg
     alt: "Swing, to hænder"
-    title: &title "Swing, to hænder"
+    title: "Swing, to hænder"
 video:
   provider: youtube
   id: gfQqazHp2DE

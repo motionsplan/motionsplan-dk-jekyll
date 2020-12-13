@@ -24,7 +24,7 @@ muscle_group:
 #  - url: /assets/images/exercises/slalomhop-0.gif
 #    image_path: /assets/images/exercises/slalomhop-0-320.gif
 #    alt: "Slalomhop"
-#    title: &title "Slalomhop"
+#    title: "Slalomhop"
 last_modified_at: 2012-01-12T11:04:22Z
 ---
 

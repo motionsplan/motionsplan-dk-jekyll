@@ -38,15 +38,15 @@ gallery:
   - url: /assets/images/exercises/skuldersideloeft-0.jpg
     image_path: /assets/images/exercises/skuldersideloeft-0-320.jpg
     alt: "Sideløft, skulder"
-    title: &title "Sideløft, skulder"
+    title: "Sideløft, skulder"
   - url: /assets/images/exercises/skuldersideloeft-1.jpg
     image_path: /assets/images/exercises/skuldersideloeft-1-320.jpg
     alt: "Sideløft, skulder"
-    title: &title "Sideløft, skulder"
+    title: "Sideløft, skulder"
   - url: /assets/images/exercises/skuldersideloeft-2.jpg
     image_path: /assets/images/exercises/skuldersideloeft-2-320.jpg
     alt: "Sideløft, skulder"
-    title: &title "Sideløft, skulder"
+    title: "Sideløft, skulder"
 last_modified_at: 2014-10-12T19:23:21Z
 ---
 

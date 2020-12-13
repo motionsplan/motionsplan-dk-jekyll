@@ -22,23 +22,23 @@ gallery:
   - url: /assets/images/exercises/corestabilitet-med-stor-bold-0.jpg
     image_path: /assets/images/exercises/corestabilitet-med-stor-bold-0-320.jpg
     alt: "Mave, rollout, corestabilitet med stor bold"
-    title: &title "Mave, rollout, corestabilitet med stor bold"
+    title: "Mave, rollout, corestabilitet med stor bold"
   - url: /assets/images/exercises/corestabilitet-med-stor-bold-1.jpg
     image_path: /assets/images/exercises/corestabilitet-med-stor-bold-1-320.jpg
     alt: "Mave, rollout, corestabilitet med stor bold"
-    title: &title "Mave, rollout, corestabilitet med stor bold"
+    title: "Mave, rollout, corestabilitet med stor bold"
   - url: /assets/images/exercises/corestabilitet-med-stor-bold-2.jpg
     image_path: /assets/images/exercises/corestabilitet-med-stor-bold-2-320.jpg
     alt: "Mave, rollout, corestabilitet med stor bold"
-    title: &title "Mave, rollout, corestabilitet med stor bold"
+    title: "Mave, rollout, corestabilitet med stor bold"
   - url: /assets/images/exercises/corestabilitet-med-stor-bold-3.jpg
     image_path: /assets/images/exercises/corestabilitet-med-stor-bold-3-320.jpg
     alt: "Mave, rollout, corestabilitet med stor bold"
-    title: &title "Mave, rollout, corestabilitet med stor bold"
+    title: "Mave, rollout, corestabilitet med stor bold"
   - url: /assets/images/exercises/corestabilitet-med-stor-bold-4.jpg
     image_path: /assets/images/exercises/corestabilitet-med-stor-bold-4-320.jpg
     alt: "Mave, rollout, corestabilitet med stor bold"
-    title: &title "Mave, rollout, corestabilitet med stor bold"
+    title: "Mave, rollout, corestabilitet med stor bold"
 video:
   provider: vimeo
   id: 5046212

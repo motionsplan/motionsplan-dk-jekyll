@@ -25,19 +25,19 @@ gallery:
   - url: /assets/images/exercises/bjoernekravl-0.jpg
     image_path: /assets/images/exercises/bjoernekravl-0-320.jpg
     alt: "Bjørnekravl"
-    title: &title "Bjørnekravl"
+    title: "Bjørnekravl"
   - url: /assets/images/exercises/bjoernekravl-1.jpg
     image_path: /assets/images/exercises/bjoernekravl-1-320.jpg
     alt: "Bjørnekravl"
-    title: &title "Bjørnekravl"
+    title: "Bjørnekravl"
   - url: /assets/images/exercises/bjoernekravl-2.jpg
     image_path: /assets/images/exercises/bjoernekravl-2-320.jpg
     alt: "Bjørnekravl"
-    title: &title "Bjørnekravl"
+    title: "Bjørnekravl"
   - url: /assets/images/exercises/bjoernekravl-3.jpg
     image_path: /assets/images/exercises/bjoernekravl-3-320.jpg
     alt: "Bjørnekravl"
-    title: &title "Bjørnekravl"
+    title: "Bjørnekravl"
 last_modified_at: 2013-10-02T10:17:35Z
 ---
 

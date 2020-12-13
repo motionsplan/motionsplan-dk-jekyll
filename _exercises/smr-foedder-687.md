@@ -25,11 +25,11 @@ gallery:
   - url: /assets/images/exercises/smr-foedder-0.jpg
     image_path: /assets/images/exercises/smr-foedder-0-320.jpg
     alt: "SMR Fødder"
-    title: &title "SMR Fødder"
+    title: "SMR Fødder"
   - url: /assets/images/exercises/smr-foedder-1.jpg
     image_path: /assets/images/exercises/smr-foedder-1-320.jpg
     alt: "SMR Fødder"
-    title: &title "SMR Fødder"
+    title: "SMR Fødder"
 last_modified_at: 2015-04-10T13:49:08Z
 ---
 

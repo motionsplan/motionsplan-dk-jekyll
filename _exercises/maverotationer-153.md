@@ -24,15 +24,15 @@ gallery:
   - url: /assets/images/exercises/maverotationer-0.jpg
     image_path: /assets/images/exercises/maverotationer-0-320.jpg
     alt: "Maverotationer"
-    title: &title "Maverotationer"
+    title: "Maverotationer"
   - url: /assets/images/exercises/maverotationer-1.jpg
     image_path: /assets/images/exercises/maverotationer-1-320.jpg
     alt: "Maverotationer"
-    title: &title "Maverotationer"
+    title: "Maverotationer"
   - url: /assets/images/exercises/maverotationer-2.jpg
     image_path: /assets/images/exercises/maverotationer-2-320.jpg
     alt: "Maverotationer"
-    title: &title "Maverotationer"
+    title: "Maverotationer"
 last_modified_at: 2011-04-19T11:52:03Z
 ---
 

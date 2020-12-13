@@ -20,15 +20,15 @@ gallery:
   - url: /assets/images/exercises/maveboejning-loeftede-foedder-0.jpg
     image_path: /assets/images/exercises/maveboejning-loeftede-foedder-0-320.jpg
     alt: "Mavebøjning, løftede fødder"
-    title: &title "Mavebøjning, løftede fødder"
+    title: "Mavebøjning, løftede fødder"
   - url: /assets/images/exercises/maveboejning-loeftede-foedder-1.jpg
     image_path: /assets/images/exercises/maveboejning-loeftede-foedder-1-320.jpg
     alt: "Mavebøjning, løftede fødder"
-    title: &title "Mavebøjning, løftede fødder"
+    title: "Mavebøjning, løftede fødder"
   - url: /assets/images/exercises/maveboejning-loeftede-foedder-2.jpg
     image_path: /assets/images/exercises/maveboejning-loeftede-foedder-2-320.jpg
     alt: "Mavebøjning, løftede fødder"
-    title: &title "Mavebøjning, løftede fødder"
+    title: "Mavebøjning, løftede fødder"
 last_modified_at: 2011-04-19T11:47:02Z
 ---
 

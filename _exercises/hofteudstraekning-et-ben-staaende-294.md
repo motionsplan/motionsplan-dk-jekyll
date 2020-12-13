@@ -27,7 +27,7 @@ gallery:
   - url: /assets/images/exercises/hofteudstraekning-et-ben-staaende-0.jpg
     image_path: /assets/images/exercises/hofteudstraekning-et-ben-staaende-0-320.jpg
     alt: "Hofteudstrækning, et ben stående"
-    title: &title "Hofteudstrækning, et ben stående"
+    title: "Hofteudstrækning, et ben stående"
 last_modified_at: 2013-10-02T20:35:03Z
 ---
 

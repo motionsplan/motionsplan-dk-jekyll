@@ -26,15 +26,15 @@ gallery:
   - url: /assets/images/exercises/499-0.jpg
     image_path: /assets/images/exercises/499-0-320.jpg
     alt: "Maveøvelse, stående roll out med hjul"
-    title: &title "Maveøvelse, stående roll out med hjul"
+    title: "Maveøvelse, stående roll out med hjul"
   - url: /assets/images/exercises/499-1.jpg
     image_path: /assets/images/exercises/499-1-320.jpg
     alt: "Maveøvelse, stående roll out med hjul"
-    title: &title "Maveøvelse, stående roll out med hjul"
+    title: "Maveøvelse, stående roll out med hjul"
   - url: /assets/images/exercises/499-2.jpg
     image_path: /assets/images/exercises/499-2-320.jpg
     alt: "Maveøvelse, stående roll out med hjul"
-    title: &title "Maveøvelse, stående roll out med hjul"
+    title: "Maveøvelse, stående roll out med hjul"
 video:
   provider: youtube
   id: fqSpCahng5c

@@ -24,11 +24,11 @@ gallery:
   - url: /assets/images/exercises/balance-paa-bold-staaende-0.jpg
     image_path: /assets/images/exercises/balance-paa-bold-staaende-0-320.jpg
     alt: "Balance på bold, stående"
-    title: &title "Balance på bold, stående"
+    title: "Balance på bold, stående"
   - url: /assets/images/exercises/balance-paa-bold-staaende-1.jpg
     image_path: /assets/images/exercises/balance-paa-bold-staaende-1-320.jpg
     alt: "Balance på bold, stående"
-    title: &title "Balance på bold, stående"
+    title: "Balance på bold, stående"
 last_modified_at: 2013-04-26T20:01:05Z
 ---
 

@@ -24,11 +24,11 @@ gallery:
   - url: /assets/images/exercises/stifflegged-traek-0.jpg
     image_path: /assets/images/exercises/stifflegged-traek-0-320.jpg
     alt: "Træk, dynamisk med let vægt"
-    title: &title "Træk, dynamisk med let vægt"
+    title: "Træk, dynamisk med let vægt"
   - url: /assets/images/exercises/stifflegged-traek-1.jpg
     image_path: /assets/images/exercises/stifflegged-traek-1-320.jpg
     alt: "Træk, dynamisk med let vægt"
-    title: &title "Træk, dynamisk med let vægt"
+    title: "Træk, dynamisk med let vægt"
 last_modified_at: 2011-04-27T10:38:26Z
 ---
 

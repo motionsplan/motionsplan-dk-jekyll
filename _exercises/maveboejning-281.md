@@ -20,15 +20,15 @@ gallery:
   - url: /assets/images/exercises/maveboejning-0.jpg
     image_path: /assets/images/exercises/maveboejning-0-320.jpg
     alt: "Mavebøjning"
-    title: &title "Mavebøjning"
+    title: "Mavebøjning"
   - url: /assets/images/exercises/maveboejning-1.jpg
     image_path: /assets/images/exercises/maveboejning-1-320.jpg
     alt: "Mavebøjning"
-    title: &title "Mavebøjning"
+    title: "Mavebøjning"
   - url: /assets/images/exercises/maveboejning-2.jpg
     image_path: /assets/images/exercises/maveboejning-2-320.jpg
     alt: "Mavebøjning"
-    title: &title "Mavebøjning"
+    title: "Mavebøjning"
 last_modified_at: 2011-05-26T15:27:48Z
 ---
 

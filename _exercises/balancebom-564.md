@@ -23,11 +23,11 @@ gallery:
   - url: /assets/images/exercises/balancebom-0.jpg
     image_path: /assets/images/exercises/balancebom-0-320.jpg
     alt: "Balancebom"
-    title: &title "Balancebom"
+    title: "Balancebom"
   - url: /assets/images/exercises/balancebom-1.jpg
     image_path: /assets/images/exercises/balancebom-1-320.jpg
     alt: "Balancebom"
-    title: &title "Balancebom"
+    title: "Balancebom"
 last_modified_at: 2014-10-03T10:14:36Z
 ---
 

@@ -36,11 +36,11 @@ gallery:
   - url: /assets/images/exercises/squat-med-vaegtstang-foran-0.jpg
     image_path: /assets/images/exercises/squat-med-vaegtstang-foran-0-320.jpg
     alt: "Squat med vægtstang foran"
-    title: &title "Squat med vægtstang foran"
+    title: "Squat med vægtstang foran"
   - url: /assets/images/exercises/squat-med-vaegtstang-foran-1.jpg
     image_path: /assets/images/exercises/squat-med-vaegtstang-foran-1-320.jpg
     alt: "Squat med vægtstang foran"
-    title: &title "Squat med vægtstang foran"
+    title: "Squat med vægtstang foran"
 video:
   provider: youtube
   id: fmJ8MsVoZ58

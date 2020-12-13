@@ -32,15 +32,15 @@ gallery:
   - url: /assets/images/exercises/rackpull-0-0.jpg
     image_path: /assets/images/exercises/rackpull-0-0-320.jpg
     alt: "Rackpull"
-    title: &title "Rackpull"
+    title: "Rackpull"
   - url: /assets/images/exercises/rackpull-0-1.jpg
     image_path: /assets/images/exercises/rackpull-0-1-320.jpg
     alt: "Rackpull"
-    title: &title "Rackpull"
+    title: "Rackpull"
   - url: /assets/images/exercises/rackpull-0-2.jpg
     image_path: /assets/images/exercises/rackpull-0-2-320.jpg
     alt: "Rackpull"
-    title: &title "Rackpull"
+    title: "Rackpull"
 last_modified_at: 2020-03-18T07:43:39Z
 video:
   provider: youtube

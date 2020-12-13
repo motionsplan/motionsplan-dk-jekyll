@@ -24,15 +24,15 @@ gallery:
   - url: /assets/images/exercises/armstraekning-knaestoette-0.jpg
     image_path: /assets/images/exercises/armstraekning-knaestoette-0-320.jpg
     alt: "Armstrækning, knæstøtte"
-    title: &title "Armstrækning, knæstøtte"
+    title: "Armstrækning, knæstøtte"
   - url: /assets/images/exercises/armstraekning-knaestoette-1.jpg
     image_path: /assets/images/exercises/armstraekning-knaestoette-1-320.jpg
     alt: "Armstrækning, knæstøtte"
-    title: &title "Armstrækning, knæstøtte"
+    title: "Armstrækning, knæstøtte"
   - url: /assets/images/exercises/armstraekning-knaestoette-2.jpg
     image_path: /assets/images/exercises/armstraekning-knaestoette-2-320.jpg
     alt: "Armstrækning, knæstøtte"
-    title: &title "Armstrækning, knæstøtte"
+    title: "Armstrækning, knæstøtte"
 last_modified_at: 2011-08-18T19:38:26Z
 ---
 

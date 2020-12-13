@@ -36,11 +36,11 @@ gallery:
   - url: /assets/images/exercises/goodmorning-0.jpg
     image_path: /assets/images/exercises/goodmorning-0-320.jpg
     alt: "Good morning"
-    title: &title "Good morning"
+    title: "Good morning"
   - url: /assets/images/exercises/goodmorning-1.jpg
     image_path: /assets/images/exercises/goodmorning-1-320.jpg
     alt: "Good morning"
-    title: &title "Good morning"
+    title: "Good morning"
 video:
   provider: vimeo
   id: 4705899

@@ -20,15 +20,15 @@ gallery:
   - url: /assets/images/exercises/wall-climber-0.jpg
     image_path: /assets/images/exercises/wall-climber-0-320.jpg
     alt: "Wall climber"
-    title: &title "Wall climber"
+    title: "Wall climber"
   - url: /assets/images/exercises/wall-climber-1.jpg
     image_path: /assets/images/exercises/wall-climber-1-320.jpg
     alt: "Wall climber"
-    title: &title "Wall climber"
+    title: "Wall climber"
   - url: /assets/images/exercises/wall-climber-2.jpg
     image_path: /assets/images/exercises/wall-climber-2-320.jpg
     alt: "Wall climber"
-    title: &title "Wall climber"
+    title: "Wall climber"
 last_modified_at: 2014-10-10T21:21:30Z
 ---
 

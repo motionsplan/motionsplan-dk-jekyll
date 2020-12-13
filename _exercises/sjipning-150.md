@@ -25,11 +25,11 @@ gallery:
   - url: /assets/images/exercises/sjipning-0.jpg
     image_path: /assets/images/exercises/sjipning-0-320.jpg
     alt: "Sjipning"
-    title: &title "Sjipning"
+    title: "Sjipning"
   - url: /assets/images/exercises/sjipning-1.jpg
     image_path: /assets/images/exercises/sjipning-1-320.jpg
     alt: "Sjipning"
-    title: &title "Sjipning"
+    title: "Sjipning"
 last_modified_at: 2013-10-03T11:03:50Z
 ---
 

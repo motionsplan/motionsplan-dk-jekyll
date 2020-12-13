@@ -33,11 +33,11 @@ gallery:
   - url: /assets/images/exercises/heel-touch-stepup-0.jpg
     image_path: /assets/images/exercises/heel-touch-stepup-0-320.jpg
     alt: "Heel touch from stepup"
-    title: &title "Heel touch from stepup"
+    title: "Heel touch from stepup"
   - url: /assets/images/exercises/heel-touch-stepup-1.jpg
     image_path: /assets/images/exercises/heel-touch-stepup-1-320.jpg
     alt: "Heel touch from stepup"
-    title: &title "Heel touch from stepup"
+    title: "Heel touch from stepup"
 last_modified_at: 2016-10-18T07:35:07Z
 ---
 

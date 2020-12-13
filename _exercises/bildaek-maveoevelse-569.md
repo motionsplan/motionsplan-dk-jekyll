@@ -26,15 +26,15 @@ gallery:
   - url: /assets/images/exercises/bildaek-maveoevelse-0.jpg
     image_path: /assets/images/exercises/bildaek-maveoevelse-0-320.jpg
     alt: "Bildæk, maveøvelse"
-    title: &title "Bildæk, maveøvelse"
+    title: "Bildæk, maveøvelse"
   - url: /assets/images/exercises/bildaek-maveoevelse-1.jpg
     image_path: /assets/images/exercises/bildaek-maveoevelse-1-320.jpg
     alt: "Bildæk, maveøvelse"
-    title: &title "Bildæk, maveøvelse"
+    title: "Bildæk, maveøvelse"
   - url: /assets/images/exercises/bildaek-maveoevelse-2.jpg
     image_path: /assets/images/exercises/bildaek-maveoevelse-2-320.jpg
     alt: "Bildæk, maveøvelse"
-    title: &title "Bildæk, maveøvelse"
+    title: "Bildæk, maveøvelse"
 last_modified_at: 2014-10-03T10:18:24Z
 ---
 

@@ -30,11 +30,11 @@ gallery:
   - url: /assets/images/exercises/lateral-squat-0.jpg
     image_path: /assets/images/exercises/lateral-squat-0-320.jpg
     alt: "Lateral lunge, bodyweight"
-    title: &title "Lateral lunge, bodyweight"
+    title: "Lateral lunge, bodyweight"
   - url: /assets/images/exercises/lateral-squat-1.jpg
     image_path: /assets/images/exercises/lateral-squat-1-320.jpg
     alt: "Lateral lunge, bodyweight"
-    title: &title "Lateral lunge, bodyweight"
+    title: "Lateral lunge, bodyweight"
 last_modified_at: 2015-10-20T11:17:37Z
 ---
 

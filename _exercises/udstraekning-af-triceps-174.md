@@ -25,7 +25,7 @@ gallery:
   - url: /assets/images/exercises/udstraekning-af-triceps-0.jpg
     image_path: /assets/images/exercises/udstraekning-af-triceps-0-320.jpg
     alt: "Udstrækning og udspænding af triceps"
-    title: &title "Udstrækning og udspænding af triceps"
+    title: "Udstrækning og udspænding af triceps"
 last_modified_at: 2020-04-12T14:38:21Z
 video:
   provider: youtube

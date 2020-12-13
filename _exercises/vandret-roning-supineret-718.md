@@ -20,11 +20,11 @@ gallery:
   - url: /assets/images/exercises/vandret-roning-supineret-0.jpg
     image_path: /assets/images/exercises/vandret-roning-supineret-0-320.jpg
     alt: "Vandret roning, supineret"
-    title: &title "Vandret roning, supineret"
+    title: "Vandret roning, supineret"
   - url: /assets/images/exercises/vandret-roning-supineret-1.jpg
     image_path: /assets/images/exercises/vandret-roning-supineret-1-320.jpg
     alt: "Vandret roning, supineret"
-    title: &title "Vandret roning, supineret"
+    title: "Vandret roning, supineret"
 video:
   provider: youtube
   id: 5njR-qC_4yc

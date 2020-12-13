@@ -25,15 +25,15 @@ gallery:
   - url: /assets/images/exercises/muscle-0.jpg
     image_path: /assets/images/exercises/muscle-0-320.jpg
     alt: "Muscle up"
-    title: &title "Muscle up"
+    title: "Muscle up"
   - url: /assets/images/exercises/muscle-1.jpg
     image_path: /assets/images/exercises/muscle-1-320.jpg
     alt: "Muscle up"
-    title: &title "Muscle up"
+    title: "Muscle up"
   - url: /assets/images/exercises/muscle-2.jpg
     image_path: /assets/images/exercises/muscle-2-320.jpg
     alt: "Muscle up"
-    title: &title "Muscle up"
+    title: "Muscle up"
 last_modified_at: 2011-04-19T11:58:59Z
 ---
 

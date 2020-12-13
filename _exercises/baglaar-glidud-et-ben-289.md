@@ -28,15 +28,15 @@ gallery:
   - url: /assets/images/exercises/baglaar-glidud-et-ben-0.jpg
     image_path: /assets/images/exercises/baglaar-glidud-et-ben-0-320.jpg
     alt: "Baglår, glidud et ben"
-    title: &title "Baglår, glidud et ben"
+    title: "Baglår, glidud et ben"
   - url: /assets/images/exercises/baglaar-glidud-et-ben-1.jpg
     image_path: /assets/images/exercises/baglaar-glidud-et-ben-1-320.jpg
     alt: "Baglår, glidud et ben"
-    title: &title "Baglår, glidud et ben"
+    title: "Baglår, glidud et ben"
   - url: /assets/images/exercises/baglaar-glidud-et-ben-2.jpg
     image_path: /assets/images/exercises/baglaar-glidud-et-ben-2-320.jpg
     alt: "Baglår, glidud et ben"
-    title: &title "Baglår, glidud et ben"
+    title: "Baglår, glidud et ben"
 last_modified_at: 2013-10-03T14:22:57Z
 ---
 

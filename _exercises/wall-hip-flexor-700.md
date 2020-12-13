@@ -32,7 +32,7 @@ gallery:
   - url: /assets/images/exercises/wall-hip-flexor-0.jpg
     image_path: /assets/images/exercises/wall-hip-flexor-0-320.jpg
     alt: "Wall Hip Flexor "
-    title: &title "Wall Hip Flexor "
+    title: "Wall Hip Flexor "
 video:
   provider: youtube
   id: 1zyzP3TPFfA

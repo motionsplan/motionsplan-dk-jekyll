@@ -20,11 +20,11 @@ gallery:
   - url: /assets/images/exercises/grebsstyrke-0.jpg
     image_path: /assets/images/exercises/grebsstyrke-0-320.jpg
     alt: "Grebsstyrke"
-    title: &title "Grebsstyrke"
+    title: "Grebsstyrke"
   - url: /assets/images/exercises/grebsstyrke-1.jpg
     image_path: /assets/images/exercises/grebsstyrke-1-320.jpg
     alt: "Grebsstyrke"
-    title: &title "Grebsstyrke"
+    title: "Grebsstyrke"
 last_modified_at: 2013-04-22T20:43:58Z
 ---
 

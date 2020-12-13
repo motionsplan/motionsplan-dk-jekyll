@@ -20,11 +20,11 @@ gallery:
   - url: /assets/images/exercises/cable-cross-0.jpg
     image_path: /assets/images/exercises/cable-cross-0-320.jpg
     alt: "Cable cross"
-    title: &title "Cable cross"
+    title: "Cable cross"
   - url: /assets/images/exercises/cable-cross-1.jpg
     image_path: /assets/images/exercises/cable-cross-1-320.jpg
     alt: "Cable cross"
-    title: &title "Cable cross"
+    title: "Cable cross"
 last_modified_at: 2011-04-14T15:31:25Z
 ---
 

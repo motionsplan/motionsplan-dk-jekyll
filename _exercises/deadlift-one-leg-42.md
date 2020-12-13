@@ -28,19 +28,19 @@ gallery:
   - url: /assets/images/exercises/deadlift-one-leg-0.jpg
     image_path: /assets/images/exercises/deadlift-one-leg-0-320.jpg
     alt: "Dødløft, et ben"
-    title: &title "Dødløft, et ben"
+    title: "Dødløft, et ben"
   - url: /assets/images/exercises/deadlift-one-leg-1.jpg
     image_path: /assets/images/exercises/deadlift-one-leg-1-320.jpg
     alt: "Dødløft, et ben"
-    title: &title "Dødløft, et ben"
+    title: "Dødløft, et ben"
   - url: /assets/images/exercises/deadlift-one-leg-2.jpg
     image_path: /assets/images/exercises/deadlift-one-leg-2-320.jpg
     alt: "Dødløft, et ben"
-    title: &title "Dødløft, et ben"
+    title: "Dødløft, et ben"
   - url: /assets/images/exercises/deadlift-one-leg-3.jpg
     image_path: /assets/images/exercises/deadlift-one-leg-3-320.jpg
     alt: "Dødløft, et ben"
-    title: &title "Dødløft, et ben"
+    title: "Dødløft, et ben"
 video:
   provider: vimeo
   id: 5016851

@@ -34,15 +34,15 @@ gallery:
   - url: /assets/images/exercises/traek-til-nakke-0.jpg
     image_path: /assets/images/exercises/traek-til-nakke-0-320.jpg
     alt: "Træk til nakke"
-    title: &title "Træk til nakke"
+    title: "Træk til nakke"
   - url: /assets/images/exercises/traek-til-nakke-1.jpg
     image_path: /assets/images/exercises/traek-til-nakke-1-320.jpg
     alt: "Træk til nakke"
-    title: &title "Træk til nakke"
+    title: "Træk til nakke"
   - url: /assets/images/exercises/traek-til-nakke-2.jpg
     image_path: /assets/images/exercises/traek-til-nakke-2-320.jpg
     alt: "Træk til nakke"
-    title: &title "Træk til nakke"
+    title: "Træk til nakke"
 video:
   provider: youtube
   id: Zxh8DNcRq50

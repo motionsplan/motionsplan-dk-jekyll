@@ -29,11 +29,11 @@ gallery:
   - url: /assets/images/exercises/bokning-slaa-i-maven-0.jpg
     image_path: /assets/images/exercises/bokning-slaa-i-maven-0-320.jpg
     alt: "Bokning, slå i maven"
-    title: &title "Bokning, slå i maven"
+    title: "Bokning, slå i maven"
   - url: /assets/images/exercises/bokning-slaa-i-maven-1.jpg
     image_path: /assets/images/exercises/bokning-slaa-i-maven-1-320.jpg
     alt: "Bokning, slå i maven"
-    title: &title "Bokning, slå i maven"
+    title: "Bokning, slå i maven"
 last_modified_at: 2015-04-07T11:58:18Z
 ---
 

@@ -33,19 +33,19 @@ gallery:
   - url: /assets/images/exercises/krabbe-skuldermobilisering-0.jpg
     image_path: /assets/images/exercises/krabbe-skuldermobilisering-0-320.jpg
     alt: "Krabbe, skuldermobilisering"
-    title: &title "Krabbe, skuldermobilisering"
+    title: "Krabbe, skuldermobilisering"
   - url: /assets/images/exercises/krabbe-skuldermobilisering-1.jpg
     image_path: /assets/images/exercises/krabbe-skuldermobilisering-1-320.jpg
     alt: "Krabbe, skuldermobilisering"
-    title: &title "Krabbe, skuldermobilisering"
+    title: "Krabbe, skuldermobilisering"
   - url: /assets/images/exercises/krabbe-skuldermobilisering-2.jpg
     image_path: /assets/images/exercises/krabbe-skuldermobilisering-2-320.jpg
     alt: "Krabbe, skuldermobilisering"
-    title: &title "Krabbe, skuldermobilisering"
+    title: "Krabbe, skuldermobilisering"
   - url: /assets/images/exercises/krabbe-skuldermobilisering-3.jpg
     image_path: /assets/images/exercises/krabbe-skuldermobilisering-3-320.jpg
     alt: "Krabbe, skuldermobilisering"
-    title: &title "Krabbe, skuldermobilisering"
+    title: "Krabbe, skuldermobilisering"
 last_modified_at: 2014-10-12T22:23:05Z
 ---
 

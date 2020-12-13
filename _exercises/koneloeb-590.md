@@ -23,7 +23,7 @@ gallery:
   - url: /assets/images/exercises/koneloeb-0.jpg
     image_path: /assets/images/exercises/koneloeb-0-320.jpg
     alt: "Koneløb"
-    title: &title "Koneløb"
+    title: "Koneløb"
 last_modified_at: 2014-10-03T11:19:47Z
 ---
 

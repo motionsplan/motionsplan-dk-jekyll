@@ -36,19 +36,19 @@ gallery:
   - url: /assets/images/exercises/doedloeft-stivbenet-0.jpg
     image_path: /assets/images/exercises/doedloeft-stivbenet-0-320.jpg
     alt: "Dødløft, stivbenet"
-    title: &title "Dødløft, stivbenet"
+    title: "Dødløft, stivbenet"
   - url: /assets/images/exercises/doedloeft-stivbenet-1.jpg
     image_path: /assets/images/exercises/doedloeft-stivbenet-1-320.jpg
     alt: "Dødløft, stivbenet"
-    title: &title "Dødløft, stivbenet"
+    title: "Dødløft, stivbenet"
   - url: /assets/images/exercises/doedloeft-stivbenet-2.jpg
     image_path: /assets/images/exercises/doedloeft-stivbenet-2-320.jpg
     alt: "Dødløft, stivbenet"
-    title: &title "Dødløft, stivbenet"
+    title: "Dødløft, stivbenet"
   - url: /assets/images/exercises/doedloeft-stivbenet-3.jpg
     image_path: /assets/images/exercises/doedloeft-stivbenet-3-320.jpg
     alt: "Dødløft, stivbenet"
-    title: &title "Dødløft, stivbenet"
+    title: "Dødløft, stivbenet"
 last_modified_at: 2015-03-04T20:03:23Z
 ---
 

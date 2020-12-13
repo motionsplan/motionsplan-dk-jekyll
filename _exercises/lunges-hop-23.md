@@ -38,19 +38,19 @@ gallery:
   - url: /assets/images/exercises/lunges-hop-0.jpg
     image_path: /assets/images/exercises/lunges-hop-0-320.jpg
     alt: "Lunges hop"
-    title: &title "Lunges hop"
+    title: "Lunges hop"
   - url: /assets/images/exercises/lunges-hop-1.jpg
     image_path: /assets/images/exercises/lunges-hop-1-320.jpg
     alt: "Lunges hop"
-    title: &title "Lunges hop"
+    title: "Lunges hop"
   - url: /assets/images/exercises/lunges-hop-2.jpg
     image_path: /assets/images/exercises/lunges-hop-2-320.jpg
     alt: "Lunges hop"
-    title: &title "Lunges hop"
+    title: "Lunges hop"
   - url: /assets/images/exercises/lunges-hop-3.jpg
     image_path: /assets/images/exercises/lunges-hop-3-320.jpg
     alt: "Lunges hop"
-    title: &title "Lunges hop"
+    title: "Lunges hop"
 video:
   provider: vimeo
   id: 4976754

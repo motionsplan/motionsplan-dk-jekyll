@@ -33,11 +33,11 @@ gallery:
   - url: /assets/images/exercises/atomic-situp-0.jpg
     image_path: /assets/images/exercises/atomic-situp-0-320.jpg
     alt: "Atomic situp"
-    title: &title "Atomic situp"
+    title: "Atomic situp"
   - url: /assets/images/exercises/atomic-situp-1.jpg
     image_path: /assets/images/exercises/atomic-situp-1-320.jpg
     alt: "Atomic situp"
-    title: &title "Atomic situp"
+    title: "Atomic situp"
 last_modified_at: 2014-10-12T21:39:26Z
 ---
 

@@ -22,7 +22,7 @@ gallery:
   - url: https://images.unsplash.com/photo-1532383192429-7f602da670a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=60
     image_path: https://images.unsplash.com/photo-1532383192429-7f602da670a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=320&q=60
     alt: "Udstrækning af forlår"
-    title: &title "Udstrækning af forlår"
+    title: "Udstrækning af forlår"
 last_modified_at: 2020-05-12T14:37:50Z
 video:
   provider: youtube

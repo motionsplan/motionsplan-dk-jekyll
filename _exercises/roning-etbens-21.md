@@ -35,11 +35,11 @@ gallery:
   - url: /assets/images/exercises/roning-etbens-0.jpg
     image_path: /assets/images/exercises/roning-etbens-0-320.jpg
     alt: "Roning, etbens"
-    title: &title "Roning, etbens"
+    title: "Roning, etbens"
   - url: /assets/images/exercises/roning-etbens-1.jpg
     image_path: /assets/images/exercises/roning-etbens-1-320.jpg
     alt: "Roning, etbens"
-    title: &title "Roning, etbens"
+    title: "Roning, etbens"
 video:
   provider: vimeo
   id: 4715369

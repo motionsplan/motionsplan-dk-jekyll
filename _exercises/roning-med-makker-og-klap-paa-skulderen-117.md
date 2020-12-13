@@ -21,11 +21,11 @@ gallery:
   - url: /assets/images/exercises/roning-med-makker-og-klap-paa-skulderen-0.jpg
     image_path: /assets/images/exercises/roning-med-makker-og-klap-paa-skulderen-0-320.jpg
     alt: "Roning med makker og klap på skulderen"
-    title: &title "Roning med makker og klap på skulderen"
+    title: "Roning med makker og klap på skulderen"
   - url: /assets/images/exercises/roning-med-makker-og-klap-paa-skulderen-1.jpg
     image_path: /assets/images/exercises/roning-med-makker-og-klap-paa-skulderen-1-320.jpg
     alt: "Roning med makker og klap på skulderen"
-    title: &title "Roning med makker og klap på skulderen"
+    title: "Roning med makker og klap på skulderen"
 video:
   provider: vimeo
   id: 5072411

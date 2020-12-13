@@ -24,15 +24,15 @@ gallery:
   - url: /assets/images/exercises/mave-rotation-0.jpg
     image_path: /assets/images/exercises/mave-rotation-0-320.jpg
     alt: "Mave, rotation"
-    title: &title "Mave, rotation"
+    title: "Mave, rotation"
   - url: /assets/images/exercises/mave-rotation-1.jpg
     image_path: /assets/images/exercises/mave-rotation-1-320.jpg
     alt: "Mave, rotation"
-    title: &title "Mave, rotation"
+    title: "Mave, rotation"
   - url: /assets/images/exercises/mave-rotation-2.jpg
     image_path: /assets/images/exercises/mave-rotation-2-320.jpg
     alt: "Mave, rotation"
-    title: &title "Mave, rotation"
+    title: "Mave, rotation"
 last_modified_at: 2011-04-16T07:07:06Z
 ---
 

@@ -39,23 +39,23 @@ gallery:
   - url: /assets/images/exercises/reverse-extension-medicinbold-0.jpg
     image_path: /assets/images/exercises/reverse-extension-medicinbold-0-320.jpg
     alt: "Reverse extension medicinbold"
-    title: &title "Reverse extension medicinbold"
+    title: "Reverse extension medicinbold"
   - url: /assets/images/exercises/reverse-extension-medicinbold-1.jpg
     image_path: /assets/images/exercises/reverse-extension-medicinbold-1-320.jpg
     alt: "Reverse extension medicinbold"
-    title: &title "Reverse extension medicinbold"
+    title: "Reverse extension medicinbold"
   - url: /assets/images/exercises/reverse-extension-medicinbold-2.jpg
     image_path: /assets/images/exercises/reverse-extension-medicinbold-2-320.jpg
     alt: "Reverse extension medicinbold"
-    title: &title "Reverse extension medicinbold"
+    title: "Reverse extension medicinbold"
   - url: /assets/images/exercises/reverse-extension-medicinbold-3.jpg
     image_path: /assets/images/exercises/reverse-extension-medicinbold-3-320.jpg
     alt: "Reverse extension medicinbold"
-    title: &title "Reverse extension medicinbold"
+    title: "Reverse extension medicinbold"
   - url: /assets/images/exercises/reverse-extension-medicinbold-4.jpg
     image_path: /assets/images/exercises/reverse-extension-medicinbold-4-320.jpg
     alt: "Reverse extension medicinbold"
-    title: &title "Reverse extension medicinbold"
+    title: "Reverse extension medicinbold"
 last_modified_at: 2014-10-30T10:16:20Z
 ---
 

@@ -31,11 +31,11 @@ gallery:
   - url: /assets/images/exercises/v-ups-0.jpg
     image_path: /assets/images/exercises/v-ups-0-320.jpg
     alt: "V-ups"
-    title: &title "V-ups"
+    title: "V-ups"
   - url: /assets/images/exercises/v-ups-1.jpg
     image_path: /assets/images/exercises/v-ups-1-320.jpg
     alt: "V-ups"
-    title: &title "V-ups"
+    title: "V-ups"
 last_modified_at: 2015-03-21T16:17:45Z
 video:
   provider: youtube

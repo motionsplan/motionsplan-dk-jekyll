@@ -39,11 +39,11 @@ gallery:
   - url: /assets/images/exercises/traek-til-ansigt-0.jpg
     image_path: /assets/images/exercises/traek-til-ansigt-0-320.jpg
     alt: "Træk til ansigt"
-    title: &title "Træk til ansigt"
+    title: "Træk til ansigt"
   - url: /assets/images/exercises/traek-til-ansigt-1.jpg
     image_path: /assets/images/exercises/traek-til-ansigt-1-320.jpg
     alt: "Træk til ansigt"
-    title: &title "Træk til ansigt"
+    title: "Træk til ansigt"
 video:
   provider: youtube
   id: BAKsEZQmGtE

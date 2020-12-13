@@ -26,7 +26,7 @@ gallery:
   - url: /assets/images/exercises/udstraekning-af-inderlaar-og-lyske-0.jpg
     image_path: /assets/images/exercises/udstraekning-af-inderlaar-og-lyske-0-320.jpg
     alt: "Udstrækning af inderlår og lyske "
-    title: &title "Udstrækning af inderlår og lyske "
+    title: "Udstrækning af inderlår og lyske "
 last_modified_at: 2014-10-12T14:36:53Z
 ---
 

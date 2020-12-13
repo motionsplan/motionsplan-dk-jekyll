@@ -30,11 +30,11 @@ gallery:
   - url: /assets/images/exercises/shrug-0.jpg
     image_path: /assets/images/exercises/shrug-0-320.jpg
     alt: "Shrug"
-    title: &title "Shrug"
+    title: "Shrug"
   - url: /assets/images/exercises/shrug-1.jpg
     image_path: /assets/images/exercises/shrug-1-320.jpg
     alt: "Shrug"
-    title: &title "Shrug"
+    title: "Shrug"
 last_modified_at: 2014-10-12T19:20:39Z
 ---
 

@@ -24,15 +24,15 @@ gallery:
   - url: /assets/images/exercises/armstraekning-superman-0.jpg
     image_path: /assets/images/exercises/armstraekning-superman-0-320.jpg
     alt: "Armstrækning, Superman"
-    title: &title "Armstrækning, Superman"
+    title: "Armstrækning, Superman"
   - url: /assets/images/exercises/armstraekning-superman-1.jpg
     image_path: /assets/images/exercises/armstraekning-superman-1-320.jpg
     alt: "Armstrækning, Superman"
-    title: &title "Armstrækning, Superman"
+    title: "Armstrækning, Superman"
   - url: /assets/images/exercises/armstraekning-superman-2.jpg
     image_path: /assets/images/exercises/armstraekning-superman-2-320.jpg
     alt: "Armstrækning, Superman"
-    title: &title "Armstrækning, Superman"
+    title: "Armstrækning, Superman"
 video:
   provider: vimeo
   id: 3944269

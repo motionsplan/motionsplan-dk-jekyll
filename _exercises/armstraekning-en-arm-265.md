@@ -24,15 +24,15 @@ gallery:
   - url: /assets/images/exercises/armstraekning-en-arm-0.jpg
     image_path: /assets/images/exercises/armstraekning-en-arm-0-320.jpg
     alt: "Armstrækning, en arm"
-    title: &title "Armstrækning, en arm"
+    title: "Armstrækning, en arm"
   - url: /assets/images/exercises/armstraekning-en-arm-1.jpg
     image_path: /assets/images/exercises/armstraekning-en-arm-1-320.jpg
     alt: "Armstrækning, en arm"
-    title: &title "Armstrækning, en arm"
+    title: "Armstrækning, en arm"
   - url: /assets/images/exercises/armstraekning-en-arm-2.jpg
     image_path: /assets/images/exercises/armstraekning-en-arm-2-320.jpg
     alt: "Armstrækning, en arm"
-    title: &title "Armstrækning, en arm"
+    title: "Armstrækning, en arm"
 last_modified_at: 2013-04-21T17:55:42Z
 ---
 

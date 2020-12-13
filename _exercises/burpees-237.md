@@ -32,23 +32,23 @@ gallery:
   - url: /assets/images/exercises/burpees-0.jpg
     image_path: /assets/images/exercises/burpees-0-320.jpg
     alt: "Burpees"
-    title: &title "Burpees"
+    title: "Burpees"
   - url: /assets/images/exercises/burpees-1.jpg
     image_path: /assets/images/exercises/burpees-1-320.jpg
     alt: "Burpees"
-    title: &title "Burpees"
+    title: "Burpees"
   - url: /assets/images/exercises/burpees-2.jpg
     image_path: /assets/images/exercises/burpees-2-320.jpg
     alt: "Burpees"
-    title: &title "Burpees"
+    title: "Burpees"
   - url: /assets/images/exercises/burpees-3.jpg
     image_path: /assets/images/exercises/burpees-3-320.jpg
     alt: "Burpees"
-    title: &title "Burpees"
+    title: "Burpees"
   - url: /assets/images/exercises/burpees-4.jpg
     image_path: /assets/images/exercises/burpees-4-320.jpg
     alt: "Burpees"
-    title: &title "Burpees"
+    title: "Burpees"
 last_modified_at: 2014-10-10T21:05:16Z
 ---
 

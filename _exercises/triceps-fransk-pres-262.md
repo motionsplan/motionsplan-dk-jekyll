@@ -26,15 +26,15 @@ gallery:
   - url: /assets/images/exercises/triceps-fransk-pres-0.jpg
     image_path: /assets/images/exercises/triceps-fransk-pres-0-320.jpg
     alt: "Fransk Pres"
-    title: &title "Fransk Pres"
+    title: "Fransk Pres"
   - url: /assets/images/exercises/triceps-fransk-pres-1.jpg
     image_path: /assets/images/exercises/triceps-fransk-pres-1-320.jpg
     alt: "Fransk Pres"
-    title: &title "Fransk Pres"
+    title: "Fransk Pres"
   - url: /assets/images/exercises/triceps-fransk-pres-2.jpg
     image_path: /assets/images/exercises/triceps-fransk-pres-2-320.jpg
     alt: "Fransk Pres"
-    title: &title "Fransk Pres"
+    title: "Fransk Pres"
 last_modified_at: 2020-06-02T20:36:59Z
 video:
   provider: youtube

@@ -20,7 +20,7 @@ gallery:
   - url: /assets/images/exercises/haandstand-op-ad-mur-0.jpg
     image_path: /assets/images/exercises/haandstand-op-ad-mur-0-320.jpg
     alt: "Håndstand op ad mur"
-    title: &title "Håndstand op ad mur"
+    title: "Håndstand op ad mur"
 last_modified_at: 2011-04-04T21:22:02Z
 ---
 

@@ -26,27 +26,27 @@ gallery:
   - url: /assets/images/exercises/skrogretteren-0.jpg
     image_path: /assets/images/exercises/skrogretteren-0-320.jpg
     alt: "Skrogretteren"
-    title: &title "Skrogretteren"
+    title: "Skrogretteren"
   - url: /assets/images/exercises/skrogretteren-1.jpg
     image_path: /assets/images/exercises/skrogretteren-1-320.jpg
     alt: "Skrogretteren"
-    title: &title "Skrogretteren"
+    title: "Skrogretteren"
   - url: /assets/images/exercises/skrogretteren-2.jpg
     image_path: /assets/images/exercises/skrogretteren-2-320.jpg
     alt: "Skrogretteren"
-    title: &title "Skrogretteren"
+    title: "Skrogretteren"
   - url: /assets/images/exercises/skrogretteren-3.jpg
     image_path: /assets/images/exercises/skrogretteren-3-320.jpg
     alt: "Skrogretteren"
-    title: &title "Skrogretteren"
+    title: "Skrogretteren"
   - url: /assets/images/exercises/skrogretteren-4.jpg
     image_path: /assets/images/exercises/skrogretteren-4-320.jpg
     alt: "Skrogretteren"
-    title: &title "Skrogretteren"
+    title: "Skrogretteren"
   - url: /assets/images/exercises/skrogretteren-5.jpg
     image_path: /assets/images/exercises/skrogretteren-5-320.jpg
     alt: "Skrogretteren"
-    title: &title "Skrogretteren"
+    title: "Skrogretteren"
 last_modified_at: 2016-10-14T08:08:33Z
 ---
 

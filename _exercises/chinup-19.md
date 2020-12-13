@@ -37,11 +37,11 @@ gallery:
   - url: /assets/images/exercises/chinup-0.jpg
     image_path: /assets/images/exercises/chinup-0-320.jpg
     alt: "Chinup, kropshævning med underhåndsgreb"
-    title: &title "Chinup, kropshævning med underhåndsgreb"
+    title: "Chinup, kropshævning med underhåndsgreb"
   - url: /assets/images/exercises/chinup-1.jpg
     image_path: /assets/images/exercises/chinup-1-320.jpg
     alt: "Chinup, kropshævning med underhåndsgreb"
-    title: &title "Chinup, kropshævning med underhåndsgreb"
+    title: "Chinup, kropshævning med underhåndsgreb"
 video:
   provider: youtube
   id: QWQqivQ92dE

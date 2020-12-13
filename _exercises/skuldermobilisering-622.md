@@ -28,15 +28,15 @@ gallery:
   - url: /assets/images/exercises/skuldermobilisering-0.jpg
     image_path: /assets/images/exercises/skuldermobilisering-0-320.jpg
     alt: "Skuldermobilisering"
-    title: &title "Skuldermobilisering"
+    title: "Skuldermobilisering"
   - url: /assets/images/exercises/skuldermobilisering-1.jpg
     image_path: /assets/images/exercises/skuldermobilisering-1-320.jpg
     alt: "Skuldermobilisering"
-    title: &title "Skuldermobilisering"
+    title: "Skuldermobilisering"
   - url: /assets/images/exercises/skuldermobilisering-2.jpg
     image_path: /assets/images/exercises/skuldermobilisering-2-320.jpg
     alt: "Skuldermobilisering"
-    title: &title "Skuldermobilisering"
+    title: "Skuldermobilisering"
 last_modified_at: 2015-03-21T16:14:38Z
 ---
 

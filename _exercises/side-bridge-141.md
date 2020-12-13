@@ -30,7 +30,7 @@ gallery:
   - url: /assets/images/exercises/side-bridge-0.jpg
     image_path: /assets/images/exercises/side-bridge-0-320.jpg
     alt: "Side bridge"
-    title: &title "Side bridge"
+    title: "Side bridge"
 last_modified_at: 2013-10-04T08:31:35Z
 ---
 

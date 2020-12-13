@@ -23,7 +23,7 @@ gallery:
   - url: /assets/images/exercises/brettzel-30-0.jpg
     image_path: /assets/images/exercises/brettzel-30-0-320.jpg
     alt: "Brettzel 3.0"
-    title: &title "Brettzel 3.0"
+    title: "Brettzel 3.0"
 video:
   provider: youtube
   id: v8iXtzDW-eU

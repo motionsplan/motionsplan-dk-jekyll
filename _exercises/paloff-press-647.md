@@ -34,15 +34,15 @@ gallery:
   - url: /assets/images/exercises/paloff-press-0.jpg
     image_path: /assets/images/exercises/paloff-press-0-320.jpg
     alt: "Paloff Press"
-    title: &title "Paloff Press"
+    title: "Paloff Press"
   - url: /assets/images/exercises/paloff-press-1.jpg
     image_path: /assets/images/exercises/paloff-press-1-320.jpg
     alt: "Paloff Press"
-    title: &title "Paloff Press"
+    title: "Paloff Press"
   - url: /assets/images/exercises/paloff-press-2.jpg
     image_path: /assets/images/exercises/paloff-press-2-320.jpg
     alt: "Paloff Press"
-    title: &title "Paloff Press"
+    title: "Paloff Press"
 video:
   provider: youtube
   id: BA-P6E6Faj8

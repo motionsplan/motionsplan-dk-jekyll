@@ -26,23 +26,23 @@ gallery:
   - url: /assets/images/exercises/lunges-dynamisk-0.jpg
     image_path: /assets/images/exercises/lunges-dynamisk-0-320.jpg
     alt: "Lunges, dynamisk"
-    title: &title "Lunges, dynamisk"
+    title: "Lunges, dynamisk"
   - url: /assets/images/exercises/lunges-dynamisk-1.jpg
     image_path: /assets/images/exercises/lunges-dynamisk-1-320.jpg
     alt: "Lunges, dynamisk"
-    title: &title "Lunges, dynamisk"
+    title: "Lunges, dynamisk"
   - url: /assets/images/exercises/lunges-dynamisk-2.jpg
     image_path: /assets/images/exercises/lunges-dynamisk-2-320.jpg
     alt: "Lunges, dynamisk"
-    title: &title "Lunges, dynamisk"
+    title: "Lunges, dynamisk"
   - url: /assets/images/exercises/lunges-dynamisk-3.jpg
     image_path: /assets/images/exercises/lunges-dynamisk-3-320.jpg
     alt: "Lunges, dynamisk"
-    title: &title "Lunges, dynamisk"
+    title: "Lunges, dynamisk"
   - url: /assets/images/exercises/lunges-dynamisk-4.jpg
     image_path: /assets/images/exercises/lunges-dynamisk-4-320.jpg
     alt: "Lunges, dynamisk"
-    title: &title "Lunges, dynamisk"
+    title: "Lunges, dynamisk"
 last_modified_at: 2011-08-18T19:08:58Z
 ---
 

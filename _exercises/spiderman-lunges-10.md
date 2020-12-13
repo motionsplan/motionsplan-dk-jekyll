@@ -31,11 +31,11 @@ gallery:
   - url: /assets/images/exercises/spiderman-lunges-0.jpg
     image_path: /assets/images/exercises/spiderman-lunges-0-320.jpg
     alt: "Spiderman lunges"
-    title: &title "Spiderman lunges"
+    title: "Spiderman lunges"
   - url: /assets/images/exercises/spiderman-lunges-1.jpg
     image_path: /assets/images/exercises/spiderman-lunges-1-320.jpg
     alt: "Spiderman lunges"
-    title: &title "Spiderman lunges"
+    title: "Spiderman lunges"
 video:
   provider: vimeo
   id: 5016538

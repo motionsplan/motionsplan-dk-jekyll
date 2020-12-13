@@ -29,11 +29,11 @@ gallery:
   - url: /assets/images/exercises/biceps-kabeltraek-0.jpg
     image_path: /assets/images/exercises/biceps-kabeltraek-0-320.jpg
     alt: "Biceps, kabeltræk"
-    title: &title "Biceps, kabeltræk"
+    title: "Biceps, kabeltræk"
   - url: /assets/images/exercises/biceps-kabeltraek-1.jpg
     image_path: /assets/images/exercises/biceps-kabeltraek-1-320.jpg
     alt: "Biceps, kabeltræk"
-    title: &title "Biceps, kabeltræk"
+    title: "Biceps, kabeltræk"
 last_modified_at: 2013-10-02T20:23:41Z
 ---
 

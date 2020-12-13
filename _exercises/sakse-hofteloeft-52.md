@@ -34,11 +34,11 @@ gallery:
   - url: /assets/images/exercises/sakse-hofteloeft-0.jpg
     image_path: /assets/images/exercises/sakse-hofteloeft-0-320.jpg
     alt: "Sakse hofteløft"
-    title: &title "Sakse hofteløft"
+    title: "Sakse hofteløft"
   - url: /assets/images/exercises/sakse-hofteloeft-1.jpg
     image_path: /assets/images/exercises/sakse-hofteloeft-1-320.jpg
     alt: "Sakse hofteløft"
-    title: &title "Sakse hofteløft"
+    title: "Sakse hofteløft"
 video:
   provider: vimeo
   id: 5016540

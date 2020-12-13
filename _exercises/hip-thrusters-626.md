@@ -32,15 +32,15 @@ gallery:
   - url: /assets/images/exercises/hip-thrusters-0.jpg
     image_path: /assets/images/exercises/hip-thrusters-0-320.jpg
     alt: "Hip thrusts"
-    title: &title "Hip thrusts"
+    title: "Hip thrusts"
   - url: /assets/images/exercises/hip-thrusters-1.jpg
     image_path: /assets/images/exercises/hip-thrusters-1-320.jpg
     alt: "Hip thrusts"
-    title: &title "Hip thrusts"
+    title: "Hip thrusts"
   - url: /assets/images/exercises/hip-thrusters-2.jpg
     image_path: /assets/images/exercises/hip-thrusters-2-320.jpg
     alt: "Hip thrusts"
-    title: &title "Hip thrusts"
+    title: "Hip thrusts"
 last_modified_at: 2016-10-18T07:15:52Z
 ---
 

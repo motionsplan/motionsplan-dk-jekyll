@@ -26,7 +26,7 @@ gallery:
   - url: /assets/images/exercises/smr-piriformis-0.jpg
     image_path: /assets/images/exercises/smr-piriformis-0-320.jpg
     alt: "SMR piriformis"
-    title: &title "SMR piriformis"
+    title: "SMR piriformis"
 last_modified_at: 2015-04-10T13:44:48Z
 ---
 

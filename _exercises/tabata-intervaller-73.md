@@ -22,7 +22,7 @@ gallery:
   - url: /assets/images/exercises/tabata-intervaller-0.jpg
     image_path: /assets/images/exercises/tabata-intervaller-0-320.jpg
     alt: "Tabata-intervaller"
-    title: &title "Tabata-intervaller"
+    title: "Tabata-intervaller"
 last_modified_at: 2014-10-12T14:31:16Z
 ---
 

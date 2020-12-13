@@ -24,15 +24,15 @@ gallery:
   - url: /assets/images/exercises/svinge-daek-0.jpg
     image_path: /assets/images/exercises/svinge-daek-0-320.jpg
     alt: "Svinge dæk"
-    title: &title "Svinge dæk"
+    title: "Svinge dæk"
   - url: /assets/images/exercises/svinge-daek-1.jpg
     image_path: /assets/images/exercises/svinge-daek-1-320.jpg
     alt: "Svinge dæk"
-    title: &title "Svinge dæk"
+    title: "Svinge dæk"
   - url: /assets/images/exercises/svinge-daek-2.jpg
     image_path: /assets/images/exercises/svinge-daek-2-320.jpg
     alt: "Svinge dæk"
-    title: &title "Svinge dæk"
+    title: "Svinge dæk"
 last_modified_at: 2013-05-30T07:47:45Z
 ---
 

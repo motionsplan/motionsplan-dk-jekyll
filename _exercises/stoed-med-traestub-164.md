@@ -24,15 +24,15 @@ gallery:
   - url: /assets/images/exercises/stoed-med-traestub-0.jpg
     image_path: /assets/images/exercises/stoed-med-traestub-0-320.jpg
     alt: "Stød med træstub"
-    title: &title "Stød med træstub"
+    title: "Stød med træstub"
   - url: /assets/images/exercises/stoed-med-traestub-1.jpg
     image_path: /assets/images/exercises/stoed-med-traestub-1-320.jpg
     alt: "Stød med træstub"
-    title: &title "Stød med træstub"
+    title: "Stød med træstub"
   - url: /assets/images/exercises/stoed-med-traestub-2.jpg
     image_path: /assets/images/exercises/stoed-med-traestub-2-320.jpg
     alt: "Stød med træstub"
-    title: &title "Stød med træstub"
+    title: "Stød med træstub"
 last_modified_at: 2013-05-29T20:45:54Z
 ---
 

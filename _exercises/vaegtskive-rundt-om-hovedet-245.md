@@ -22,19 +22,19 @@ gallery:
   - url: /assets/images/exercises/vaegtskive-rundt-om-hovedet-0.jpg
     image_path: /assets/images/exercises/vaegtskive-rundt-om-hovedet-0-320.jpg
     alt: "Vægtskive rundt om hovedet"
-    title: &title "Vægtskive rundt om hovedet"
+    title: "Vægtskive rundt om hovedet"
   - url: /assets/images/exercises/vaegtskive-rundt-om-hovedet-1.jpg
     image_path: /assets/images/exercises/vaegtskive-rundt-om-hovedet-1-320.jpg
     alt: "Vægtskive rundt om hovedet"
-    title: &title "Vægtskive rundt om hovedet"
+    title: "Vægtskive rundt om hovedet"
   - url: /assets/images/exercises/vaegtskive-rundt-om-hovedet-2.jpg
     image_path: /assets/images/exercises/vaegtskive-rundt-om-hovedet-2-320.jpg
     alt: "Vægtskive rundt om hovedet"
-    title: &title "Vægtskive rundt om hovedet"
+    title: "Vægtskive rundt om hovedet"
   - url: /assets/images/exercises/vaegtskive-rundt-om-hovedet-3.jpg
     image_path: /assets/images/exercises/vaegtskive-rundt-om-hovedet-3-320.jpg
     alt: "Vægtskive rundt om hovedet"
-    title: &title "Vægtskive rundt om hovedet"
+    title: "Vægtskive rundt om hovedet"
 last_modified_at: 2011-04-11T22:33:19Z
 ---
 

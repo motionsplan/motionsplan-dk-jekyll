@@ -22,15 +22,15 @@ gallery:
   - url: /assets/images/exercises/arnold-press-0.jpg
     image_path: /assets/images/exercises/arnold-press-0-320.jpg
     alt: "Arnold press"
-    title: &title "Arnold press"
+    title: "Arnold press"
   - url: /assets/images/exercises/arnold-press-1.jpg
     image_path: /assets/images/exercises/arnold-press-1-320.jpg
     alt: "Arnold press"
-    title: &title "Arnold press"
+    title: "Arnold press"
   - url: /assets/images/exercises/arnold-press-2.jpg
     image_path: /assets/images/exercises/arnold-press-2-320.jpg
     alt: "Arnold press"
-    title: &title "Arnold press"
+    title: "Arnold press"
 video:
   provider: youtube
   id: DvS_zZ6QoHs

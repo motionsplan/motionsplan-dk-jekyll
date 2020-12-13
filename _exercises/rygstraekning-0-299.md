@@ -23,11 +23,11 @@ gallery:
   - url: /assets/images/exercises/rygstraekning-0-0.jpg
     image_path: /assets/images/exercises/rygstraekning-0-0-320.jpg
     alt: "Rygstrækning"
-    title: &title "Rygstrækning"
+    title: "Rygstrækning"
   - url: /assets/images/exercises/rygstraekning-0-1.jpg
     image_path: /assets/images/exercises/rygstraekning-0-1-320.jpg
     alt: "Rygstrækning"
-    title: &title "Rygstrækning"
+    title: "Rygstrækning"
 last_modified_at: 2013-04-26T19:59:08Z
 ---
 

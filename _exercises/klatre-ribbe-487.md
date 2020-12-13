@@ -24,11 +24,11 @@ gallery:
   - url: /assets/images/exercises/487-0.jpg
     image_path: /assets/images/exercises/487-0-320.jpg
     alt: "Klatre op i ribben"
-    title: &title "Klatre op i ribben"
+    title: "Klatre op i ribben"
   - url: /assets/images/exercises/487-1.jpg
     image_path: /assets/images/exercises/487-1-320.jpg
     alt: "Klatre op i ribben"
-    title: &title "Klatre op i ribben"
+    title: "Klatre op i ribben"
 last_modified_at: 2013-10-03T14:23:41Z
 ---
 

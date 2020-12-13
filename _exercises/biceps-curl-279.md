@@ -28,19 +28,19 @@ gallery:
   - url: /assets/images/exercises/biceps-curl-0.jpg
     image_path: /assets/images/exercises/biceps-curl-0-320.jpg
     alt: "Biceps curl"
-    title: &title "Biceps curl"
+    title: "Biceps curl"
   - url: /assets/images/exercises/biceps-curl-1.jpg
     image_path: /assets/images/exercises/biceps-curl-1-320.jpg
     alt: "Biceps curl"
-    title: &title "Biceps curl"
+    title: "Biceps curl"
   - url: /assets/images/exercises/biceps-curl-2.jpg
     image_path: /assets/images/exercises/biceps-curl-2-320.jpg
     alt: "Biceps curl"
-    title: &title "Biceps curl"
+    title: "Biceps curl"
   - url: /assets/images/exercises/biceps-curl-3.jpg
     image_path: /assets/images/exercises/biceps-curl-3-320.jpg
     alt: "Biceps curl"
-    title: &title "Biceps curl"
+    title: "Biceps curl"
 last_modified_at: 2013-04-21T18:13:15Z
 ---
 

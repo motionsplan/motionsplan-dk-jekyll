@@ -34,15 +34,15 @@ gallery:
   - url: /assets/images/exercises/triceps-liggende-0.jpg
     image_path: /assets/images/exercises/triceps-liggende-0-320.jpg
     alt: "Triceps liggende"
-    title: &title "Triceps liggende"
+    title: "Triceps liggende"
   - url: /assets/images/exercises/triceps-liggende-1.jpg
     image_path: /assets/images/exercises/triceps-liggende-1-320.jpg
     alt: "Triceps liggende"
-    title: &title "Triceps liggende"
+    title: "Triceps liggende"
   - url: /assets/images/exercises/triceps-liggende-2.jpg
     image_path: /assets/images/exercises/triceps-liggende-2-320.jpg
     alt: "Triceps liggende"
-    title: &title "Triceps liggende"
+    title: "Triceps liggende"
 video:
   provider: vimeo
   id: 5016519

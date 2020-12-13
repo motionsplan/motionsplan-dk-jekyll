@@ -31,7 +31,7 @@ gallery:
   - url: /assets/images/exercises/waiter-walk-0.jpg
     image_path: /assets/images/exercises/waiter-walk-0-320.jpg
     alt: "Waiter walk"
-    title: &title "Waiter walk"
+    title: "Waiter walk"
 last_modified_at: 2016-10-18T07:30:05Z
 ---
 

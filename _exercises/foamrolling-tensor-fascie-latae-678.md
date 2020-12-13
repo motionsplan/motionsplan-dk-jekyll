@@ -25,7 +25,7 @@ gallery:
   - url: /assets/images/exercises/foamrolling-tensor-fascie-latae-0.jpg
     image_path: /assets/images/exercises/foamrolling-tensor-fascie-latae-0-320.jpg
     alt: "Foamrolling Tensor Fascie Latae"
-    title: &title "Foamrolling Tensor Fascie Latae"
+    title: "Foamrolling Tensor Fascie Latae"
 last_modified_at: 2015-04-10T13:40:41Z
 ---
 

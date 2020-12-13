@@ -31,19 +31,19 @@ gallery:
   - url: /assets/images/exercises/maverulning-med-boksning-0.jpg
     image_path: /assets/images/exercises/maverulning-med-boksning-0-320.jpg
     alt: "Maverulning med boksning"
-    title: &title "Maverulning med boksning"
+    title: "Maverulning med boksning"
   - url: /assets/images/exercises/maverulning-med-boksning-1.jpg
     image_path: /assets/images/exercises/maverulning-med-boksning-1-320.jpg
     alt: "Maverulning med boksning"
-    title: &title "Maverulning med boksning"
+    title: "Maverulning med boksning"
   - url: /assets/images/exercises/maverulning-med-boksning-2.jpg
     image_path: /assets/images/exercises/maverulning-med-boksning-2-320.jpg
     alt: "Maverulning med boksning"
-    title: &title "Maverulning med boksning"
+    title: "Maverulning med boksning"
   - url: /assets/images/exercises/maverulning-med-boksning-3.jpg
     image_path: /assets/images/exercises/maverulning-med-boksning-3-320.jpg
     alt: "Maverulning med boksning"
-    title: &title "Maverulning med boksning"
+    title: "Maverulning med boksning"
 last_modified_at: 2015-04-07T11:57:18Z
 ---
 

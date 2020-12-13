@@ -32,19 +32,19 @@ gallery:
   - url: /assets/images/exercises/diagonal-mave-0.jpg
     image_path: /assets/images/exercises/diagonal-mave-0-320.jpg
     alt: "Mave, diagonal"
-    title: &title "Mave, diagonal"
+    title: "Mave, diagonal"
   - url: /assets/images/exercises/diagonal-mave-1.jpg
     image_path: /assets/images/exercises/diagonal-mave-1-320.jpg
     alt: "Mave, diagonal"
-    title: &title "Mave, diagonal"
+    title: "Mave, diagonal"
   - url: /assets/images/exercises/diagonal-mave-2.jpg
     image_path: /assets/images/exercises/diagonal-mave-2-320.jpg
     alt: "Mave, diagonal"
-    title: &title "Mave, diagonal"
+    title: "Mave, diagonal"
   - url: /assets/images/exercises/diagonal-mave-3.jpg
     image_path: /assets/images/exercises/diagonal-mave-3-320.jpg
     alt: "Mave, diagonal"
-    title: &title "Mave, diagonal"
+    title: "Mave, diagonal"
 last_modified_at: 2014-10-12T22:04:05Z
 ---
 

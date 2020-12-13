@@ -23,11 +23,11 @@ gallery:
   - url: /assets/images/exercises/490-0.jpg
     image_path: /assets/images/exercises/490-0-320.jpg
     alt: "Double Under"
-    title: &title "Double Under"
+    title: "Double Under"
   - url: /assets/images/exercises/490-1.jpg
     image_path: /assets/images/exercises/490-1-320.jpg
     alt: "Double Under"
-    title: &title "Double Under"
+    title: "Double Under"
 last_modified_at: 2013-10-03T11:04:10Z
 ---
 

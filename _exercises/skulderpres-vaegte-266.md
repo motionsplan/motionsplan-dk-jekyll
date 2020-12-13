@@ -25,15 +25,15 @@ gallery:
   - url: /assets/images/exercises/skulderpres-vaegte-0.jpg
     image_path: /assets/images/exercises/skulderpres-vaegte-0-320.jpg
     alt: "Skulderpres, vægte"
-    title: &title "Skulderpres, vægte"
+    title: "Skulderpres, vægte"
   - url: /assets/images/exercises/skulderpres-vaegte-1.jpg
     image_path: /assets/images/exercises/skulderpres-vaegte-1-320.jpg
     alt: "Skulderpres, vægte"
-    title: &title "Skulderpres, vægte"
+    title: "Skulderpres, vægte"
   - url: /assets/images/exercises/skulderpres-vaegte-2.jpg
     image_path: /assets/images/exercises/skulderpres-vaegte-2-320.jpg
     alt: "Skulderpres, vægte"
-    title: &title "Skulderpres, vægte"
+    title: "Skulderpres, vægte"
 last_modified_at: 2011-04-19T11:37:26Z
 ---
 

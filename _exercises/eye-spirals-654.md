@@ -20,7 +20,7 @@ gallery:
   - url: /assets/images/exercises/eye-spirals-0.png
     image_path: /assets/images/exercises/eye-spirals-0-320.png
     alt: "Eye spirals"
-    title: &title "Eye spirals"
+    title: "Eye spirals"
 last_modified_at: 2015-04-03T16:54:08Z
 ---
 

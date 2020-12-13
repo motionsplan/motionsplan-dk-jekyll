@@ -22,19 +22,19 @@ gallery:
   - url: /assets/images/exercises/spring-hen-over-plint-0.jpg
     image_path: /assets/images/exercises/spring-hen-over-plint-0-320.jpg
     alt: "Spring hen over plint"
-    title: &title "Spring hen over plint"
+    title: "Spring hen over plint"
   - url: /assets/images/exercises/spring-hen-over-plint-1.jpg
     image_path: /assets/images/exercises/spring-hen-over-plint-1-320.jpg
     alt: "Spring hen over plint"
-    title: &title "Spring hen over plint"
+    title: "Spring hen over plint"
   - url: /assets/images/exercises/spring-hen-over-plint-2.jpg
     image_path: /assets/images/exercises/spring-hen-over-plint-2-320.jpg
     alt: "Spring hen over plint"
-    title: &title "Spring hen over plint"
+    title: "Spring hen over plint"
   - url: /assets/images/exercises/spring-hen-over-plint-3.jpg
     image_path: /assets/images/exercises/spring-hen-over-plint-3-320.jpg
     alt: "Spring hen over plint"
-    title: &title "Spring hen over plint"
+    title: "Spring hen over plint"
 last_modified_at: 2013-04-09T12:12:01Z
 ---
 

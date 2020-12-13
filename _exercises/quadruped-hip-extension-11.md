@@ -32,11 +32,11 @@ gallery:
   - url: /assets/images/exercises/quadruped-hip-extension-0.jpg
     image_path: /assets/images/exercises/quadruped-hip-extension-0-320.jpg
     alt: "Baller, quadruped hip extension"
-    title: &title "Baller, quadruped hip extension"
+    title: "Baller, quadruped hip extension"
   - url: /assets/images/exercises/quadruped-hip-extension-1.jpg
     image_path: /assets/images/exercises/quadruped-hip-extension-1-320.jpg
     alt: "Baller, quadruped hip extension"
-    title: &title "Baller, quadruped hip extension"
+    title: "Baller, quadruped hip extension"
 last_modified_at: 2014-10-13T22:11:01Z
 ---
 

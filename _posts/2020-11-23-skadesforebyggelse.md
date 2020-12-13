@@ -97,7 +97,7 @@ Lav fx 3 runder af de følgende øvelser:
 
 {% include video provider="youtube" id="8m7Frw9JrdM" %}
 
-### Wallsits 30-45s
+### Wall sits 30-45s
 
 {% include video provider="youtube" id="eZuwDMrfAf4" %}
 

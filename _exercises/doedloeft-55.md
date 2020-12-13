@@ -34,11 +34,11 @@ gallery:
   - url: /assets/images/exercises/doedloeft-0.jpg
     image_path: /assets/images/exercises/doedloeft-0-320.jpg
     alt: "Dødløft"
-    title: &title "Dødløft"
+    title: "Dødløft"
   - url: /assets/images/exercises/doedloeft-1.jpg
     image_path: /assets/images/exercises/doedloeft-1-320.jpg
     alt: "Dødløft"
-    title: &title "Dødløft"
+    title: "Dødløft"
 video:
   provider: youtube
   id: mJ0OSws9qtE

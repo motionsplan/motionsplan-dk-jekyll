@@ -24,15 +24,15 @@ gallery:
   - url: /assets/images/exercises/armstraekning-spiderman-0.jpg
     image_path: /assets/images/exercises/armstraekning-spiderman-0-320.jpg
     alt: "Armstrækning, Spiderman"
-    title: &title "Armstrækning, Spiderman"
+    title: "Armstrækning, Spiderman"
   - url: /assets/images/exercises/armstraekning-spiderman-1.jpg
     image_path: /assets/images/exercises/armstraekning-spiderman-1-320.jpg
     alt: "Armstrækning, Spiderman"
-    title: &title "Armstrækning, Spiderman"
+    title: "Armstrækning, Spiderman"
   - url: /assets/images/exercises/armstraekning-spiderman-2.jpg
     image_path: /assets/images/exercises/armstraekning-spiderman-2-320.jpg
     alt: "Armstrækning, Spiderman"
-    title: &title "Armstrækning, Spiderman"
+    title: "Armstrækning, Spiderman"
 video:
   provider: vimeo
   id: 3945184

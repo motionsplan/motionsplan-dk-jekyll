@@ -23,11 +23,11 @@ gallery:
   - url: /assets/images/exercises/armgang-0.jpg
     image_path: /assets/images/exercises/armgang-0-320.jpg
     alt: "Armgang"
-    title: &title "Armgang"
+    title: "Armgang"
   - url: /assets/images/exercises/armgang-1.jpg
     image_path: /assets/images/exercises/armgang-1-320.jpg
     alt: "Armgang"
-    title: &title "Armgang"
+    title: "Armgang"
 last_modified_at: 2014-10-03T11:08:05Z
 ---
 

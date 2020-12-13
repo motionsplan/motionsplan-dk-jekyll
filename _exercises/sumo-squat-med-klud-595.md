@@ -35,11 +35,11 @@ gallery:
   - url: /assets/images/exercises/sumo-squat-med-klud-0.jpg
     image_path: /assets/images/exercises/sumo-squat-med-klud-0-320.jpg
     alt: "Sumo squat med klud"
-    title: &title "Sumo squat med klud"
+    title: "Sumo squat med klud"
   - url: /assets/images/exercises/sumo-squat-med-klud-1.jpg
     image_path: /assets/images/exercises/sumo-squat-med-klud-1-320.jpg
     alt: "Sumo squat med klud"
-    title: &title "Sumo squat med klud"
+    title: "Sumo squat med klud"
 last_modified_at: 2014-10-12T22:00:12Z
 ---
 

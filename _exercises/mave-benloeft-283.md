@@ -32,15 +32,15 @@ gallery:
   - url: /assets/images/exercises/mave-benloeft-0.jpg
     image_path: /assets/images/exercises/mave-benloeft-0-320.jpg
     alt: "Mave, benløft"
-    title: &title "Mave, benløft"
+    title: "Mave, benløft"
   - url: /assets/images/exercises/mave-benloeft-1.jpg
     image_path: /assets/images/exercises/mave-benloeft-1-320.jpg
     alt: "Mave, benløft"
-    title: &title "Mave, benløft"
+    title: "Mave, benløft"
   - url: /assets/images/exercises/mave-benloeft-2.jpg
     image_path: /assets/images/exercises/mave-benloeft-2-320.jpg
     alt: "Mave, benløft"
-    title: &title "Mave, benløft"
+    title: "Mave, benløft"
 last_modified_at: 2014-10-12T22:05:15Z
 ---
 

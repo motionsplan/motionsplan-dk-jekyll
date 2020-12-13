@@ -30,11 +30,11 @@ gallery:
   - url: /assets/images/exercises/laeg-0.jpg
     image_path: /assets/images/exercises/laeg-0-320.jpg
     alt: "Læg"
-    title: &title "Læg"
+    title: "Læg"
   - url: /assets/images/exercises/laeg-1.jpg
     image_path: /assets/images/exercises/laeg-1-320.jpg
     alt: "Læg"
-    title: &title "Læg"
+    title: "Læg"
 last_modified_at: 2014-10-12T19:19:38Z
 ---
 

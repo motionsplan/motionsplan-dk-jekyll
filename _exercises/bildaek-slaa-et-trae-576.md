@@ -27,15 +27,15 @@ gallery:
   - url: /assets/images/exercises/bildaek-slaa-et-trae-0.jpg
     image_path: /assets/images/exercises/bildaek-slaa-et-trae-0-320.jpg
     alt: "Bildæk, slå et træ"
-    title: &title "Bildæk, slå et træ"
+    title: "Bildæk, slå et træ"
   - url: /assets/images/exercises/bildaek-slaa-et-trae-1.jpg
     image_path: /assets/images/exercises/bildaek-slaa-et-trae-1-320.jpg
     alt: "Bildæk, slå et træ"
-    title: &title "Bildæk, slå et træ"
+    title: "Bildæk, slå et træ"
   - url: /assets/images/exercises/bildaek-slaa-et-trae-2.jpg
     image_path: /assets/images/exercises/bildaek-slaa-et-trae-2-320.jpg
     alt: "Bildæk, slå et træ"
-    title: &title "Bildæk, slå et træ"
+    title: "Bildæk, slå et træ"
 last_modified_at: 2014-10-03T10:33:54Z
 ---
 

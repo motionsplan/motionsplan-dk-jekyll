@@ -22,7 +22,7 @@ gallery:
   - url: /assets/images/exercises/loeb-0.jpg
     image_path: /assets/images/exercises/loeb-0-320.jpg
     alt: "Løb"
-    title: &title "Løb"
+    title: "Løb"
 last_modified_at: 2014-10-12T14:38:54Z
 ---
 

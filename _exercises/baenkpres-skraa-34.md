@@ -32,11 +32,11 @@ gallery:
   - url: /assets/images/exercises/baenkpres-skraa-0.jpg
     image_path: /assets/images/exercises/baenkpres-skraa-0-320.jpg
     alt: "Bænkpres, incline"
-    title: &title "Bænkpres, incline"
+    title: "Bænkpres, incline"
   - url: /assets/images/exercises/baenkpres-skraa-1.jpg
     image_path: /assets/images/exercises/baenkpres-skraa-1-320.jpg
     alt: "Bænkpres, incline"
-    title: &title "Bænkpres, incline"
+    title: "Bænkpres, incline"
 video:
   provider: vimeo
   id: 4976755

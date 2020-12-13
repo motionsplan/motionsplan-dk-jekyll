@@ -40,39 +40,39 @@ gallery:
   - url: /assets/images/exercises/turkish-getup-0.jpg
     image_path: /assets/images/exercises/turkish-getup-0-320.jpg
     alt: "Turkish getup"
-    title: &title "Turkish getup"
+    title: "Turkish getup"
   - url: /assets/images/exercises/turkish-getup-1.jpg
     image_path: /assets/images/exercises/turkish-getup-1-320.jpg
     alt: "Turkish getup"
-    title: &title "Turkish getup"
+    title: "Turkish getup"
   - url: /assets/images/exercises/turkish-getup-2.jpg
     image_path: /assets/images/exercises/turkish-getup-2-320.jpg
     alt: "Turkish getup"
-    title: &title "Turkish getup"
+    title: "Turkish getup"
   - url: /assets/images/exercises/turkish-getup-3.jpg
     image_path: /assets/images/exercises/turkish-getup-3-320.jpg
     alt: "Turkish getup"
-    title: &title "Turkish getup"
+    title: "Turkish getup"
   - url: /assets/images/exercises/turkish-getup-4.jpg
     image_path: /assets/images/exercises/turkish-getup-4-320.jpg
     alt: "Turkish getup"
-    title: &title "Turkish getup"
+    title: "Turkish getup"
   - url: /assets/images/exercises/turkish-getup-5.jpg
     image_path: /assets/images/exercises/turkish-getup-5-320.jpg
     alt: "Turkish getup"
-    title: &title "Turkish getup"
+    title: "Turkish getup"
   - url: /assets/images/exercises/turkish-getup-6.jpg
     image_path: /assets/images/exercises/turkish-getup-6-320.jpg
     alt: "Turkish getup"
-    title: &title "Turkish getup"
+    title: "Turkish getup"
   - url: /assets/images/exercises/turkish-getup-7.jpg
     image_path: /assets/images/exercises/turkish-getup-7-320.jpg
     alt: "Turkish getup"
-    title: &title "Turkish getup"
+    title: "Turkish getup"
   - url: /assets/images/exercises/turkish-getup-8.jpg
     image_path: /assets/images/exercises/turkish-getup-8-320.jpg
     alt: "Turkish getup"
-    title: &title "Turkish getup"
+    title: "Turkish getup"
 video:
   provider: youtube
   id: B4Q9mxjhMy8

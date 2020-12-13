@@ -27,11 +27,11 @@ gallery:
   - url: /assets/images/exercises/bildaek-roning-med-arme-0.jpg
     image_path: /assets/images/exercises/bildaek-roning-med-arme-0-320.jpg
     alt: "Bildæk, roning med arme"
-    title: &title "Bildæk, roning med arme"
+    title: "Bildæk, roning med arme"
   - url: /assets/images/exercises/bildaek-roning-med-arme-1.jpg
     image_path: /assets/images/exercises/bildaek-roning-med-arme-1-320.jpg
     alt: "Bildæk, roning med arme"
-    title: &title "Bildæk, roning med arme"
+    title: "Bildæk, roning med arme"
 last_modified_at: 2014-10-03T10:15:43Z
 ---
 

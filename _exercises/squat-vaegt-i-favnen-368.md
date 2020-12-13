@@ -39,15 +39,15 @@ gallery:
   - url: /assets/images/exercises/squat-vaegt-i-favnen-0.jpg
     image_path: /assets/images/exercises/squat-vaegt-i-favnen-0-320.jpg
     alt: "Squat, vægt i favnen"
-    title: &title "Squat, vægt i favnen"
+    title: "Squat, vægt i favnen"
   - url: /assets/images/exercises/squat-vaegt-i-favnen-1.jpg
     image_path: /assets/images/exercises/squat-vaegt-i-favnen-1-320.jpg
     alt: "Squat, vægt i favnen"
-    title: &title "Squat, vægt i favnen"
+    title: "Squat, vægt i favnen"
   - url: /assets/images/exercises/squat-vaegt-i-favnen-2.jpg
     image_path: /assets/images/exercises/squat-vaegt-i-favnen-2-320.jpg
     alt: "Squat, vægt i favnen"
-    title: &title "Squat, vægt i favnen"
+    title: "Squat, vægt i favnen"
 video:
   provider: youtube
   id: PKmrXTx6jZs

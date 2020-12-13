@@ -30,19 +30,19 @@ gallery:
   - url: /assets/images/exercises/sprint-0.jpg
     image_path: /assets/images/exercises/sprint-0-320.jpg
     alt: "Sprint med vægt"
-    title: &title "Sprint med vægt"
+    title: "Sprint med vægt"
   - url: /assets/images/exercises/sprint-1.jpg
     image_path: /assets/images/exercises/sprint-1-320.jpg
     alt: "Sprint med vægt"
-    title: &title "Sprint med vægt"
+    title: "Sprint med vægt"
   - url: /assets/images/exercises/sprint-2.jpg
     image_path: /assets/images/exercises/sprint-2-320.jpg
     alt: "Sprint med vægt"
-    title: &title "Sprint med vægt"
+    title: "Sprint med vægt"
   - url: /assets/images/exercises/sprint-3.jpg
     image_path: /assets/images/exercises/sprint-3-320.jpg
     alt: "Sprint med vægt"
-    title: &title "Sprint med vægt"
+    title: "Sprint med vægt"
 last_modified_at: 2013-10-03T11:04:45Z
 ---
 

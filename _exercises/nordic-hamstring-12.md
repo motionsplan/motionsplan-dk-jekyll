@@ -35,15 +35,15 @@ gallery:
   - url: /assets/images/exercises/nordic-hamstring-0.jpg
     image_path: /assets/images/exercises/nordic-hamstring-0-320.jpg
     alt: "Baglår, Nordic hamstring"
-    title: &title "Baglår, Nordic hamstring"
+    title: "Baglår, Nordic hamstring"
   - url: /assets/images/exercises/nordic-hamstring-1.jpg
     image_path: /assets/images/exercises/nordic-hamstring-1-320.jpg
     alt: "Baglår, Nordic hamstring"
-    title: &title "Baglår, Nordic hamstring"
+    title: "Baglår, Nordic hamstring"
   - url: /assets/images/exercises/nordic-hamstring-2.jpg
     image_path: /assets/images/exercises/nordic-hamstring-2-320.jpg
     alt: "Baglår, Nordic hamstring"
-    title: &title "Baglår, Nordic hamstring"
+    title: "Baglår, Nordic hamstring"
 last_modified_at: 2020-07-14T18:08:39Z
 video:
   provider: youtube

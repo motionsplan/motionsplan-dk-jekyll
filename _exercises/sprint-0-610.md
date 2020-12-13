@@ -41,7 +41,7 @@ gallery:
   - url: /assets/images/exercises/sprint-0-0.jpg
     image_path: /assets/images/exercises/sprint-0-0-320.jpg
     alt: "Sprint"
-    title: &title "Sprint"
+    title: "Sprint"
 last_modified_at: 2014-10-30T10:32:44Z
 ---
 

@@ -35,19 +35,19 @@ gallery:
   - url: /assets/images/exercises/baenkpres-0.jpg
     image_path: /assets/images/exercises/baenkpres-0-320.jpg
     alt: "Bænkpres"
-    title: &title "Bænkpres"
+    title: "Bænkpres"
   - url: /assets/images/exercises/baenkpres-1.jpg
     image_path: /assets/images/exercises/baenkpres-1-320.jpg
     alt: "Bænkpres"
-    title: &title "Bænkpres"
+    title: "Bænkpres"
   - url: /assets/images/exercises/baenkpres-2.jpg
     image_path: /assets/images/exercises/baenkpres-2-320.jpg
     alt: "Bænkpres"
-    title: &title "Bænkpres"
+    title: "Bænkpres"
   - url: /assets/images/exercises/baenkpres-3.jpg
     image_path: /assets/images/exercises/baenkpres-3-320.jpg
     alt: "Bænkpres"
-    title: &title "Bænkpres"
+    title: "Bænkpres"
 video:
   provider: youtube
   id: tnZ-OmG9PDQ

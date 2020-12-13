@@ -27,11 +27,11 @@ gallery:
   - url: /assets/images/exercises/bildaek-tippe-daek-armstraekning-0.jpg
     image_path: /assets/images/exercises/bildaek-tippe-daek-armstraekning-0-320.jpg
     alt: "Bildæk, tippe dæk armstrækning"
-    title: &title "Bildæk, tippe dæk armstrækning"
+    title: "Bildæk, tippe dæk armstrækning"
   - url: /assets/images/exercises/bildaek-tippe-daek-armstraekning-1.jpg
     image_path: /assets/images/exercises/bildaek-tippe-daek-armstraekning-1-320.jpg
     alt: "Bildæk, tippe dæk armstrækning"
-    title: &title "Bildæk, tippe dæk armstrækning"
+    title: "Bildæk, tippe dæk armstrækning"
 last_modified_at: 2014-10-03T11:04:59Z
 ---
 

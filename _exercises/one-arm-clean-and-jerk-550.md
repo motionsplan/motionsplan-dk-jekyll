@@ -34,27 +34,27 @@ gallery:
   - url: /assets/images/exercises/one-arm-clean-and-jerk-0.jpg
     image_path: /assets/images/exercises/one-arm-clean-and-jerk-0-320.jpg
     alt: "One arm clean and press"
-    title: &title "One arm clean and press"
+    title: "One arm clean and press"
   - url: /assets/images/exercises/one-arm-clean-and-jerk-1.jpg
     image_path: /assets/images/exercises/one-arm-clean-and-jerk-1-320.jpg
     alt: "One arm clean and press"
-    title: &title "One arm clean and press"
+    title: "One arm clean and press"
   - url: /assets/images/exercises/one-arm-clean-and-jerk-2.jpg
     image_path: /assets/images/exercises/one-arm-clean-and-jerk-2-320.jpg
     alt: "One arm clean and press"
-    title: &title "One arm clean and press"
+    title: "One arm clean and press"
   - url: /assets/images/exercises/one-arm-clean-and-jerk-3.jpg
     image_path: /assets/images/exercises/one-arm-clean-and-jerk-3-320.jpg
     alt: "One arm clean and press"
-    title: &title "One arm clean and press"
+    title: "One arm clean and press"
   - url: /assets/images/exercises/one-arm-clean-and-jerk-4.jpg
     image_path: /assets/images/exercises/one-arm-clean-and-jerk-4-320.jpg
     alt: "One arm clean and press"
-    title: &title "One arm clean and press"
+    title: "One arm clean and press"
   - url: /assets/images/exercises/one-arm-clean-and-jerk-5.jpg
     image_path: /assets/images/exercises/one-arm-clean-and-jerk-5-320.jpg
     alt: "One arm clean and press"
-    title: &title "One arm clean and press"
+    title: "One arm clean and press"
 video:
   provider: youtube
   id: D12BggC-RQI

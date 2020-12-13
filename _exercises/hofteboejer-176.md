@@ -28,15 +28,15 @@ gallery:
   - url: /assets/images/exercises/hofteboejer-0.jpg
     image_path: /assets/images/exercises/hofteboejer-0-320.jpg
     alt: "Hoftebøjer hængende"
-    title: &title "Hoftebøjer hængende"
+    title: "Hoftebøjer hængende"
   - url: /assets/images/exercises/hofteboejer-1.jpg
     image_path: /assets/images/exercises/hofteboejer-1-320.jpg
     alt: "Hoftebøjer hængende"
-    title: &title "Hoftebøjer hængende"
+    title: "Hoftebøjer hængende"
   - url: /assets/images/exercises/hofteboejer-2.jpg
     image_path: /assets/images/exercises/hofteboejer-2-320.jpg
     alt: "Hoftebøjer hængende"
-    title: &title "Hoftebøjer hængende"
+    title: "Hoftebøjer hængende"
 last_modified_at: 2013-10-02T20:20:53Z
 ---
 

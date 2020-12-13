@@ -28,15 +28,15 @@ gallery:
   - url: /assets/images/exercises/frivend-og-stoed-0.jpg
     image_path: /assets/images/exercises/frivend-og-stoed-0-320.jpg
     alt: "Frivend og stød, alternativ genstand"
-    title: &title "Frivend og stød, alternativ genstand"
+    title: "Frivend og stød, alternativ genstand"
   - url: /assets/images/exercises/frivend-og-stoed-1.jpg
     image_path: /assets/images/exercises/frivend-og-stoed-1-320.jpg
     alt: "Frivend og stød, alternativ genstand"
-    title: &title "Frivend og stød, alternativ genstand"
+    title: "Frivend og stød, alternativ genstand"
   - url: /assets/images/exercises/frivend-og-stoed-2.jpg
     image_path: /assets/images/exercises/frivend-og-stoed-2-320.jpg
     alt: "Frivend og stød, alternativ genstand"
-    title: &title "Frivend og stød, alternativ genstand"
+    title: "Frivend og stød, alternativ genstand"
 last_modified_at: 2011-05-02T16:13:09Z
 ---
 

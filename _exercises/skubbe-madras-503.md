@@ -22,15 +22,15 @@ gallery:
   - url: /assets/images/exercises/skubbe-madras-0.jpg
     image_path: /assets/images/exercises/skubbe-madras-0-320.jpg
     alt: "Skubbe madras"
-    title: &title "Skubbe madras"
+    title: "Skubbe madras"
   - url: /assets/images/exercises/skubbe-madras-1.jpg
     image_path: /assets/images/exercises/skubbe-madras-1-320.jpg
     alt: "Skubbe madras"
-    title: &title "Skubbe madras"
+    title: "Skubbe madras"
   - url: /assets/images/exercises/skubbe-madras-2.jpg
     image_path: /assets/images/exercises/skubbe-madras-2-320.jpg
     alt: "Skubbe madras"
-    title: &title "Skubbe madras"
+    title: "Skubbe madras"
 last_modified_at: 2013-04-09T12:11:06Z
 ---
 

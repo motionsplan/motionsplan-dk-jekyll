@@ -24,7 +24,7 @@ gallery:
   - url: /assets/images/exercises/x-band-walks-0.jpg
     image_path: /assets/images/exercises/x-band-walks-0-320.jpg
     alt: "X-band walks"
-    title: &title "X-band walks"
+    title: "X-band walks"
 last_modified_at: 2011-04-12T09:58:49Z
 ---
 

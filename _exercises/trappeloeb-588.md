@@ -23,15 +23,15 @@ gallery:
   - url: /assets/images/exercises/trappeloeb-0.jpg
     image_path: /assets/images/exercises/trappeloeb-0-320.jpg
     alt: "Trappeløb"
-    title: &title "Trappeløb"
+    title: "Trappeløb"
   - url: /assets/images/exercises/trappeloeb-1.jpg
     image_path: /assets/images/exercises/trappeloeb-1-320.jpg
     alt: "Trappeløb"
-    title: &title "Trappeløb"
+    title: "Trappeløb"
   - url: /assets/images/exercises/trappeloeb-2.jpg
     image_path: /assets/images/exercises/trappeloeb-2-320.jpg
     alt: "Trappeløb"
-    title: &title "Trappeløb"
+    title: "Trappeløb"
 last_modified_at: 2014-10-03T11:10:56Z
 ---
 

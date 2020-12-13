@@ -22,15 +22,15 @@ gallery:
   - url: /assets/images/exercises/skulder-shrugs-armstraekningsposition-0.jpg
     image_path: /assets/images/exercises/skulder-shrugs-armstraekningsposition-0-320.jpg
     alt: "Skulder shrugs, armstrækningsposition"
-    title: &title "Skulder shrugs, armstrækningsposition"
+    title: "Skulder shrugs, armstrækningsposition"
   - url: /assets/images/exercises/skulder-shrugs-armstraekningsposition-1.jpg
     image_path: /assets/images/exercises/skulder-shrugs-armstraekningsposition-1-320.jpg
     alt: "Skulder shrugs, armstrækningsposition"
-    title: &title "Skulder shrugs, armstrækningsposition"
+    title: "Skulder shrugs, armstrækningsposition"
   - url: /assets/images/exercises/skulder-shrugs-armstraekningsposition-2.jpg
     image_path: /assets/images/exercises/skulder-shrugs-armstraekningsposition-2-320.jpg
     alt: "Skulder shrugs, armstrækningsposition"
-    title: &title "Skulder shrugs, armstrækningsposition"
+    title: "Skulder shrugs, armstrækningsposition"
 last_modified_at: 2011-04-26T02:53:12Z
 ---
 

@@ -22,28 +22,29 @@ gallery:
   - url: /assets/images/exercises/cuban-press-0-0.jpg
     image_path: /assets/images/exercises/cuban-press-0-0-320.jpg
     alt: "Cuban press"
-    title: &title "Cuban press"
+    title: "Cuban press"
   - url: /assets/images/exercises/cuban-press-0-1.jpg
     image_path: /assets/images/exercises/cuban-press-0-1-320.jpg
     alt: "Cuban press"
-    title: &title "Cuban press"
+    title: "Cuban press"
   - url: /assets/images/exercises/cuban-press-0-2.jpg
     image_path: /assets/images/exercises/cuban-press-0-2-320.jpg
     alt: "Cuban press"
-    title: &title "Cuban press"
+    title: "Cuban press"
   - url: /assets/images/exercises/cuban-press-0-3.jpg
     image_path: /assets/images/exercises/cuban-press-0-3-320.jpg
     alt: "Cuban press"
-    title: &title "Cuban press"
+    title: "Cuban press"
   - url: /assets/images/exercises/cuban-press-0-4.jpg
     image_path: /assets/images/exercises/cuban-press-0-4-320.jpg
     alt: "Cuban press"
-    title: &title "Cuban press"
+    title: "Cuban press"
   - url: /assets/images/exercises/cuban-press-0-5.jpg
     image_path: /assets/images/exercises/cuban-press-0-5-320.jpg
     alt: "Cuban press"
-    title: &title "Cuban press"
+    title: "Cuban press"
 last_modified_at: 2011-04-16T07:27:13Z
+key: 20110416072713
 ---
 
 En god øvelse til rotatormanchetten.

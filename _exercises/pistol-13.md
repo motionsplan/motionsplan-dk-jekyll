@@ -37,11 +37,11 @@ gallery:
   - url: /assets/images/exercises/pistol-0.jpg
     image_path: /assets/images/exercises/pistol-0-320.jpg
     alt: "Pistol"
-    title: &title "Pistol"
+    title: "Pistol"
   - url: /assets/images/exercises/pistol-1.jpg
     image_path: /assets/images/exercises/pistol-1-320.jpg
     alt: "Pistol"
-    title: &title "Pistol"
+    title: "Pistol"
 video:
   provider: vimeo
   id: 4976744

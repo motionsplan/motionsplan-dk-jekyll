@@ -26,11 +26,11 @@ gallery:
   - url: /assets/images/exercises/hammer-swings-0.jpg
     image_path: /assets/images/exercises/hammer-swings-0-320.jpg
     alt: "Hammer swings"
-    title: &title "Hammer swings"
+    title: "Hammer swings"
   - url: /assets/images/exercises/hammer-swings-1.jpg
     image_path: /assets/images/exercises/hammer-swings-1-320.jpg
     alt: "Hammer swings"
-    title: &title "Hammer swings"
+    title: "Hammer swings"
 last_modified_at: 2014-10-10T21:22:17Z
 ---
 

@@ -35,15 +35,15 @@ gallery:
   - url: /assets/images/exercises/armstraekning-haenderne-haevet-0.jpg
     image_path: /assets/images/exercises/armstraekning-haenderne-haevet-0-320.jpg
     alt: "Armstrækning, hænderne hævet"
-    title: &title "Armstrækning, hænderne hævet"
+    title: "Armstrækning, hænderne hævet"
   - url: /assets/images/exercises/armstraekning-haenderne-haevet-1.jpg
     image_path: /assets/images/exercises/armstraekning-haenderne-haevet-1-320.jpg
     alt: "Armstrækning, hænderne hævet"
-    title: &title "Armstrækning, hænderne hævet"
+    title: "Armstrækning, hænderne hævet"
   - url: /assets/images/exercises/armstraekning-haenderne-haevet-2.jpg
     image_path: /assets/images/exercises/armstraekning-haenderne-haevet-2-320.jpg
     alt: "Armstrækning, hænderne hævet"
-    title: &title "Armstrækning, hænderne hævet"
+    title: "Armstrækning, hænderne hævet"
 last_modified_at: 2015-04-07T11:53:37Z
 ---
 

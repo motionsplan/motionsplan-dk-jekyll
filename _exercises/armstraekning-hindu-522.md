@@ -30,19 +30,19 @@ gallery:
   - url: /assets/images/exercises/armstraekning-hindu-0.jpg
     image_path: /assets/images/exercises/armstraekning-hindu-0-320.jpg
     alt: "Armstrækning, hindu or yoga"
-    title: &title "Armstrækning, hindu or yoga"
+    title: "Armstrækning, hindu or yoga"
   - url: /assets/images/exercises/armstraekning-hindu-1.jpg
     image_path: /assets/images/exercises/armstraekning-hindu-1-320.jpg
     alt: "Armstrækning, hindu or yoga"
-    title: &title "Armstrækning, hindu or yoga"
+    title: "Armstrækning, hindu or yoga"
   - url: /assets/images/exercises/armstraekning-hindu-2.jpg
     image_path: /assets/images/exercises/armstraekning-hindu-2-320.jpg
     alt: "Armstrækning, hindu or yoga"
-    title: &title "Armstrækning, hindu or yoga"
+    title: "Armstrækning, hindu or yoga"
   - url: /assets/images/exercises/armstraekning-hindu-3.jpg
     image_path: /assets/images/exercises/armstraekning-hindu-3-320.jpg
     alt: "Armstrækning, hindu or yoga"
-    title: &title "Armstrækning, hindu or yoga"
+    title: "Armstrækning, hindu or yoga"
 video:
   provider: youtube
   id: tdraWNVARp8

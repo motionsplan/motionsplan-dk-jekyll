@@ -35,11 +35,11 @@ gallery:
   - url: /assets/images/exercises/military-press-0.jpg
     image_path: /assets/images/exercises/military-press-0-320.jpg
     alt: "Military press, stang"
-    title: &title "Military press, stang"
+    title: "Military press, stang"
   - url: /assets/images/exercises/military-press-1.jpg
     image_path: /assets/images/exercises/military-press-1-320.jpg
     alt: "Military press, stang"
-    title: &title "Military press, stang"
+    title: "Military press, stang"
 video:
   provider: youtube
   id: 0LXk_hiyr2w

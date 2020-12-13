@@ -26,19 +26,19 @@ gallery:
   - url: /assets/images/exercises/frivend-fra-hang-position-0.jpg
     image_path: /assets/images/exercises/frivend-fra-hang-position-0-320.jpg
     alt: "Frivend, fra hang position"
-    title: &title "Frivend, fra hang position"
+    title: "Frivend, fra hang position"
   - url: /assets/images/exercises/frivend-fra-hang-position-1.jpg
     image_path: /assets/images/exercises/frivend-fra-hang-position-1-320.jpg
     alt: "Frivend, fra hang position"
-    title: &title "Frivend, fra hang position"
+    title: "Frivend, fra hang position"
   - url: /assets/images/exercises/frivend-fra-hang-position-2.jpg
     image_path: /assets/images/exercises/frivend-fra-hang-position-2-320.jpg
     alt: "Frivend, fra hang position"
-    title: &title "Frivend, fra hang position"
+    title: "Frivend, fra hang position"
   - url: /assets/images/exercises/frivend-fra-hang-position-3.jpg
     image_path: /assets/images/exercises/frivend-fra-hang-position-3-320.jpg
     alt: "Frivend, fra hang position"
-    title: &title "Frivend, fra hang position"
+    title: "Frivend, fra hang position"
 last_modified_at: 2011-05-01T11:04:59Z
 ---
 

@@ -20,7 +20,7 @@ gallery:
   - url: /assets/images/exercises/udstraekning-af-rygmusklerne-0.jpg
     image_path: /assets/images/exercises/udstraekning-af-rygmusklerne-0-320.jpg
     alt: "Udstrækning af rygmusklerne"
-    title: &title "Udstrækning af rygmusklerne"
+    title: "Udstrækning af rygmusklerne"
 last_modified_at: 2011-04-10T23:39:41Z
 ---
 

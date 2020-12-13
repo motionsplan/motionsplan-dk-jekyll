@@ -27,11 +27,11 @@ gallery:
   - url: /assets/images/exercises/trilleboer-0.jpg
     image_path: /assets/images/exercises/trilleboer-0-320.jpg
     alt: "Trillebør"
-    title: &title "Trillebør"
+    title: "Trillebør"
   - url: /assets/images/exercises/trilleboer-1.jpg
     image_path: /assets/images/exercises/trilleboer-1-320.jpg
     alt: "Trillebør"
-    title: &title "Trillebør"
+    title: "Trillebør"
 last_modified_at: 2013-10-21T12:47:05Z
 ---
 

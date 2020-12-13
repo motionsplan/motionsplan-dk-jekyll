@@ -33,11 +33,11 @@ gallery:
   - url: /assets/images/exercises/poliquin-stepup-0.jpg
     image_path: /assets/images/exercises/poliquin-stepup-0-320.jpg
     alt: "Poliquin stepup"
-    title: &title "Poliquin stepup"
+    title: "Poliquin stepup"
   - url: /assets/images/exercises/poliquin-stepup-1.jpg
     image_path: /assets/images/exercises/poliquin-stepup-1-320.jpg
     alt: "Poliquin stepup"
-    title: &title "Poliquin stepup"
+    title: "Poliquin stepup"
 last_modified_at: 2016-10-18T07:39:15Z
 ---
 

@@ -30,15 +30,15 @@ gallery:
   - url: /assets/images/exercises/curl-.jpg
     image_path: /assets/images/exercises/curl--320.jpg
     alt: "Curl up"
-    title: &title "Curl up"
+    title: "Curl up"
   - url: /assets/images/exercises/curl-1.jpg
     image_path: /assets/images/exercises/curl-1-320.jpg
     alt: "Curl up"
-    title: &title "Curl up"
+    title: "Curl up"
   - url: /assets/images/exercises/curl-2.jpg
     image_path: /assets/images/exercises/curl-2-320.jpg
     alt: "Curl up"
-    title: &title "Curl up"
+    title: "Curl up"
 last_modified_at: 2014-10-13T22:06:59Z
 ---
 

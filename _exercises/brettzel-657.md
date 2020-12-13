@@ -28,11 +28,11 @@ gallery:
   - url: /assets/images/exercises/brettzel-0.jpg
     image_path: /assets/images/exercises/brettzel-0-320.jpg
     alt: "Brettzel"
-    title: &title "Brettzel"
+    title: "Brettzel"
   - url: /assets/images/exercises/brettzel-1.jpg
     image_path: /assets/images/exercises/brettzel-1-320.jpg
     alt: "Brettzel"
-    title: &title "Brettzel"
+    title: "Brettzel"
 video:
   provider: youtube
   id: SfGV-65GaPg

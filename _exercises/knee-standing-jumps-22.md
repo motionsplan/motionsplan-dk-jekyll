@@ -36,27 +36,27 @@ gallery:
   - url: /assets/images/exercises/knee-standing-jumps-0.jpg
     image_path: /assets/images/exercises/knee-standing-jumps-0-320.jpg
     alt: "Hop, fra knæstående"
-    title: &title "Hop, fra knæstående"
+    title: "Hop, fra knæstående"
   - url: /assets/images/exercises/knee-standing-jumps-1.jpg
     image_path: /assets/images/exercises/knee-standing-jumps-1-320.jpg
     alt: "Hop, fra knæstående"
-    title: &title "Hop, fra knæstående"
+    title: "Hop, fra knæstående"
   - url: /assets/images/exercises/knee-standing-jumps-2.jpg
     image_path: /assets/images/exercises/knee-standing-jumps-2-320.jpg
     alt: "Hop, fra knæstående"
-    title: &title "Hop, fra knæstående"
+    title: "Hop, fra knæstående"
   - url: /assets/images/exercises/knee-standing-jumps-3.jpg
     image_path: /assets/images/exercises/knee-standing-jumps-3-320.jpg
     alt: "Hop, fra knæstående"
-    title: &title "Hop, fra knæstående"
+    title: "Hop, fra knæstående"
   - url: /assets/images/exercises/knee-standing-jumps-4.jpg
     image_path: /assets/images/exercises/knee-standing-jumps-4-320.jpg
     alt: "Hop, fra knæstående"
-    title: &title "Hop, fra knæstående"
+    title: "Hop, fra knæstående"
   - url: /assets/images/exercises/knee-standing-jumps-5.jpg
     image_path: /assets/images/exercises/knee-standing-jumps-5-320.jpg
     alt: "Hop, fra knæstående"
-    title: &title "Hop, fra knæstående"
+    title: "Hop, fra knæstående"
 video:
   provider: vimeo
   id: 4976753

@@ -22,23 +22,23 @@ gallery:
   - url: /assets/images/exercises/macebell-0.jpg
     image_path: /assets/images/exercises/macebell-0-320.jpg
     alt: "Macebell"
-    title: &title "Macebell"
+    title: "Macebell"
   - url: /assets/images/exercises/macebell-1.jpg
     image_path: /assets/images/exercises/macebell-1-320.jpg
     alt: "Macebell"
-    title: &title "Macebell"
+    title: "Macebell"
   - url: /assets/images/exercises/macebell-2.jpg
     image_path: /assets/images/exercises/macebell-2-320.jpg
     alt: "Macebell"
-    title: &title "Macebell"
+    title: "Macebell"
   - url: /assets/images/exercises/macebell-3.jpg
     image_path: /assets/images/exercises/macebell-3-320.jpg
     alt: "Macebell"
-    title: &title "Macebell"
+    title: "Macebell"
   - url: /assets/images/exercises/macebell-4.jpg
     image_path: /assets/images/exercises/macebell-4-320.jpg
     alt: "Macebell"
-    title: &title "Macebell"
+    title: "Macebell"
 last_modified_at: 2013-05-29T20:43:34Z
 ---
 

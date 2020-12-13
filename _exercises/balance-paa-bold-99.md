@@ -24,7 +24,7 @@ gallery:
   - url: /assets/images/exercises/balance-paa-bold-0.jpg
     image_path: /assets/images/exercises/balance-paa-bold-0-320.jpg
     alt: "Balance på bold"
-    title: &title "Balance på bold"
+    title: "Balance på bold"
 last_modified_at: 2011-04-18T17:55:55Z
 ---
 

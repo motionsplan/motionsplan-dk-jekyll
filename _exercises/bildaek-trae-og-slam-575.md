@@ -27,23 +27,23 @@ gallery:
   - url: /assets/images/exercises/bildaek-trae-og-slam-0.jpg
     image_path: /assets/images/exercises/bildaek-trae-og-slam-0-320.jpg
     alt: "Bildæk, træ og slam"
-    title: &title "Bildæk, træ og slam"
+    title: "Bildæk, træ og slam"
   - url: /assets/images/exercises/bildaek-trae-og-slam-1.jpg
     image_path: /assets/images/exercises/bildaek-trae-og-slam-1-320.jpg
     alt: "Bildæk, træ og slam"
-    title: &title "Bildæk, træ og slam"
+    title: "Bildæk, træ og slam"
   - url: /assets/images/exercises/bildaek-trae-og-slam-2.jpg
     image_path: /assets/images/exercises/bildaek-trae-og-slam-2-320.jpg
     alt: "Bildæk, træ og slam"
-    title: &title "Bildæk, træ og slam"
+    title: "Bildæk, træ og slam"
   - url: /assets/images/exercises/bildaek-trae-og-slam-3.jpg
     image_path: /assets/images/exercises/bildaek-trae-og-slam-3-320.jpg
     alt: "Bildæk, træ og slam"
-    title: &title "Bildæk, træ og slam"
+    title: "Bildæk, træ og slam"
   - url: /assets/images/exercises/bildaek-trae-og-slam-4.jpg
     image_path: /assets/images/exercises/bildaek-trae-og-slam-4-320.jpg
     alt: "Bildæk, træ og slam"
-    title: &title "Bildæk, træ og slam"
+    title: "Bildæk, træ og slam"
 last_modified_at: 2014-10-03T10:30:12Z
 ---
 

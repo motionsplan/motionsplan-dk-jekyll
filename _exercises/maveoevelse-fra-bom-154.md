@@ -22,11 +22,11 @@ gallery:
   - url: /assets/images/exercises/maveoevelse-fra-bom-0.jpg
     image_path: /assets/images/exercises/maveoevelse-fra-bom-0-320.jpg
     alt: "Maveøvelse fra bom"
-    title: &title "Maveøvelse fra bom"
+    title: "Maveøvelse fra bom"
   - url: /assets/images/exercises/maveoevelse-fra-bom-1.jpg
     image_path: /assets/images/exercises/maveoevelse-fra-bom-1-320.jpg
     alt: "Maveøvelse fra bom"
-    title: &title "Maveøvelse fra bom"
+    title: "Maveøvelse fra bom"
 last_modified_at: 2014-10-10T21:20:09Z
 ---
 

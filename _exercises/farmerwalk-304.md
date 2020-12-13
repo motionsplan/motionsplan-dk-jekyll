@@ -26,7 +26,7 @@ gallery:
   - url: /assets/images/exercises/farmerwalk-0.jpg
     image_path: /assets/images/exercises/farmerwalk-0-320.jpg
     alt: "Farmer walk"
-    title: &title "Farmer walk"
+    title: "Farmer walk"
 video:
   provider: youtube
   id: E0i6N7Ozi7c

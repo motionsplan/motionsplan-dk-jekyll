@@ -28,15 +28,15 @@ gallery:
   - url: /assets/images/exercises/frivend-power-fra-blokke-0.jpg
     image_path: /assets/images/exercises/frivend-power-fra-blokke-0-320.jpg
     alt: "Frivend, power fra blokke"
-    title: &title "Frivend, power fra blokke"
+    title: "Frivend, power fra blokke"
   - url: /assets/images/exercises/frivend-power-fra-blokke-1.jpg
     image_path: /assets/images/exercises/frivend-power-fra-blokke-1-320.jpg
     alt: "Frivend, power fra blokke"
-    title: &title "Frivend, power fra blokke"
+    title: "Frivend, power fra blokke"
   - url: /assets/images/exercises/frivend-power-fra-blokke-2.jpg
     image_path: /assets/images/exercises/frivend-power-fra-blokke-2-320.jpg
     alt: "Frivend, power fra blokke"
-    title: &title "Frivend, power fra blokke"
+    title: "Frivend, power fra blokke"
 last_modified_at: 2014-10-10T21:25:19Z
 ---
 

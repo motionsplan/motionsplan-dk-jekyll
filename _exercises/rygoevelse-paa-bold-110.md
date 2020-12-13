@@ -31,11 +31,11 @@ gallery:
   - url: /assets/images/exercises/rygoevelse-paa-bold-0.jpg
     image_path: /assets/images/exercises/rygoevelse-paa-bold-0-320.jpg
     alt: "Rygøvelse på bold"
-    title: &title "Rygøvelse på bold"
+    title: "Rygøvelse på bold"
   - url: /assets/images/exercises/rygoevelse-paa-bold-1.jpg
     image_path: /assets/images/exercises/rygoevelse-paa-bold-1-320.jpg
     alt: "Rygøvelse på bold"
-    title: &title "Rygøvelse på bold"
+    title: "Rygøvelse på bold"
 video:
   provider: vimeo
   id: 5046213

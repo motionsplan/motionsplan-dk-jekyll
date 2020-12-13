@@ -22,15 +22,15 @@ gallery:
   - url: /assets/images/exercises/sumo-doedloeft-0.jpg
     image_path: /assets/images/exercises/sumo-doedloeft-0-320.jpg
     alt: "Dødløft, sumo"
-    title: &title "Dødløft, sumo"
+    title: "Dødløft, sumo"
   - url: /assets/images/exercises/sumo-doedloeft-1.jpg
     image_path: /assets/images/exercises/sumo-doedloeft-1-320.jpg
     alt: "Dødløft, sumo"
-    title: &title "Dødløft, sumo"
+    title: "Dødløft, sumo"
   - url: /assets/images/exercises/sumo-doedloeft-2.jpg
     image_path: /assets/images/exercises/sumo-doedloeft-2-320.jpg
     alt: "Dødløft, sumo"
-    title: &title "Dødløft, sumo"
+    title: "Dødløft, sumo"
 video:
   provider: youtube
   id: 0g4p0uvnO2k

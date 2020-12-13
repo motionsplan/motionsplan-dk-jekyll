@@ -33,11 +33,11 @@ gallery:
   - url: /assets/images/exercises/knae-fleksion-0.jpg
     image_path: /assets/images/exercises/knae-fleksion-0-320.jpg
     alt: "Knæbøj"
-    title: &title "Knæbøj"
+    title: "Knæbøj"
   - url: /assets/images/exercises/knae-fleksion-1.jpg
     image_path: /assets/images/exercises/knae-fleksion-1-320.jpg
     alt: "Knæbøj"
-    title: &title "Knæbøj"
+    title: "Knæbøj"
 last_modified_at: 2014-10-12T19:18:01Z
 ---
 

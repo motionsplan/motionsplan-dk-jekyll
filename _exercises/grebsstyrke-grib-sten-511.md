@@ -20,15 +20,15 @@ gallery:
   - url: /assets/images/exercises/grebsstyrke-grib-sten-0.jpg
     image_path: /assets/images/exercises/grebsstyrke-grib-sten-0-320.jpg
     alt: "Grebsstyrke, grib sten"
-    title: &title "Grebsstyrke, grib sten"
+    title: "Grebsstyrke, grib sten"
   - url: /assets/images/exercises/grebsstyrke-grib-sten-1.jpg
     image_path: /assets/images/exercises/grebsstyrke-grib-sten-1-320.jpg
     alt: "Grebsstyrke, grib sten"
-    title: &title "Grebsstyrke, grib sten"
+    title: "Grebsstyrke, grib sten"
   - url: /assets/images/exercises/grebsstyrke-grib-sten-2.jpg
     image_path: /assets/images/exercises/grebsstyrke-grib-sten-2-320.jpg
     alt: "Grebsstyrke, grib sten"
-    title: &title "Grebsstyrke, grib sten"
+    title: "Grebsstyrke, grib sten"
 last_modified_at: 2013-04-26T19:54:48Z
 ---
 

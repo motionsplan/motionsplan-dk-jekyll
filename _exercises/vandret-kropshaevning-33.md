@@ -28,11 +28,11 @@ gallery:
   - url: /assets/images/exercises/vandret-kropshaevning-0.jpg
     image_path: /assets/images/exercises/vandret-kropshaevning-0-320.jpg
     alt: "Roning, proneret bodyrow"
-    title: &title "Roning, proneret bodyrow"
+    title: "Roning, proneret bodyrow"
   - url: /assets/images/exercises/vandret-kropshaevning-1.jpg
     image_path: /assets/images/exercises/vandret-kropshaevning-1-320.jpg
     alt: "Roning, proneret bodyrow"
-    title: &title "Roning, proneret bodyrow"
+    title: "Roning, proneret bodyrow"
 video:
   provider: vimeo
   id: 5046240

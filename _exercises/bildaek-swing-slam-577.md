@@ -27,19 +27,19 @@ gallery:
   - url: /assets/images/exercises/bildaek-swing-slam-0.jpg
     image_path: /assets/images/exercises/bildaek-swing-slam-0-320.jpg
     alt: "Bildæk, swing slam"
-    title: &title "Bildæk, swing slam"
+    title: "Bildæk, swing slam"
   - url: /assets/images/exercises/bildaek-swing-slam-1.jpg
     image_path: /assets/images/exercises/bildaek-swing-slam-1-320.jpg
     alt: "Bildæk, swing slam"
-    title: &title "Bildæk, swing slam"
+    title: "Bildæk, swing slam"
   - url: /assets/images/exercises/bildaek-swing-slam-2.jpg
     image_path: /assets/images/exercises/bildaek-swing-slam-2-320.jpg
     alt: "Bildæk, swing slam"
-    title: &title "Bildæk, swing slam"
+    title: "Bildæk, swing slam"
   - url: /assets/images/exercises/bildaek-swing-slam-3.jpg
     image_path: /assets/images/exercises/bildaek-swing-slam-3-320.jpg
     alt: "Bildæk, swing slam"
-    title: &title "Bildæk, swing slam"
+    title: "Bildæk, swing slam"
 last_modified_at: 2014-10-03T10:57:32Z
 ---
 

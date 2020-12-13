@@ -22,19 +22,19 @@ gallery:
   - url: /assets/images/exercises/dips-med-coretraening-0.jpg
     image_path: /assets/images/exercises/dips-med-coretraening-0-320.jpg
     alt: "Dips, med coretræning"
-    title: &title "Dips, med coretræning"
+    title: "Dips, med coretræning"
   - url: /assets/images/exercises/dips-med-coretraening-1.jpg
     image_path: /assets/images/exercises/dips-med-coretraening-1-320.jpg
     alt: "Dips, med coretræning"
-    title: &title "Dips, med coretræning"
+    title: "Dips, med coretræning"
   - url: /assets/images/exercises/dips-med-coretraening-2.jpg
     image_path: /assets/images/exercises/dips-med-coretraening-2-320.jpg
     alt: "Dips, med coretræning"
-    title: &title "Dips, med coretræning"
+    title: "Dips, med coretræning"
   - url: /assets/images/exercises/dips-med-coretraening-3.jpg
     image_path: /assets/images/exercises/dips-med-coretraening-3-320.jpg
     alt: "Dips, med coretræning"
-    title: &title "Dips, med coretræning"
+    title: "Dips, med coretræning"
 last_modified_at: 2011-05-02T16:09:43Z
 ---
 

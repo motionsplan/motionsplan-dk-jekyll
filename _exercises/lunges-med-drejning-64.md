@@ -24,15 +24,15 @@ gallery:
   - url: /assets/images/exercises/lunges-med-drejning-0.jpg
     image_path: /assets/images/exercises/lunges-med-drejning-0-320.jpg
     alt: "Lunges med drejning"
-    title: &title "Lunges med drejning"
+    title: "Lunges med drejning"
   - url: /assets/images/exercises/lunges-med-drejning-1.jpg
     image_path: /assets/images/exercises/lunges-med-drejning-1-320.jpg
     alt: "Lunges med drejning"
-    title: &title "Lunges med drejning"
+    title: "Lunges med drejning"
   - url: /assets/images/exercises/lunges-med-drejning-2.jpg
     image_path: /assets/images/exercises/lunges-med-drejning-2-320.jpg
     alt: "Lunges med drejning"
-    title: &title "Lunges med drejning"
+    title: "Lunges med drejning"
 last_modified_at: 2013-10-04T13:45:13Z
 ---
 

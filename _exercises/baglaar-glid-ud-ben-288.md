@@ -26,15 +26,15 @@ gallery:
   - url: /assets/images/exercises/baglaar-glid-ud-ben-0.jpg
     image_path: /assets/images/exercises/baglaar-glid-ud-ben-0-320.jpg
     alt: "Baglår, glid ud, to ben"
-    title: &title "Baglår, glid ud, to ben"
+    title: "Baglår, glid ud, to ben"
   - url: /assets/images/exercises/baglaar-glid-ud-ben-1.jpg
     image_path: /assets/images/exercises/baglaar-glid-ud-ben-1-320.jpg
     alt: "Baglår, glid ud, to ben"
-    title: &title "Baglår, glid ud, to ben"
+    title: "Baglår, glid ud, to ben"
   - url: /assets/images/exercises/baglaar-glid-ud-ben-2.jpg
     image_path: /assets/images/exercises/baglaar-glid-ud-ben-2-320.jpg
     alt: "Baglår, glid ud, to ben"
-    title: &title "Baglår, glid ud, to ben"
+    title: "Baglår, glid ud, to ben"
 last_modified_at: 2013-10-03T14:22:21Z
 ---
 

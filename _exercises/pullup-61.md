@@ -26,11 +26,11 @@ gallery:
   - url: /assets/images/exercises/pullup-0.jpg
     image_path: /assets/images/exercises/pullup-0-320.jpg
     alt: "Pullup, kropshævning med overhåndsgreb"
-    title: &title "Pullup, kropshævning med overhåndsgreb"
+    title: "Pullup, kropshævning med overhåndsgreb"
   - url: /assets/images/exercises/pullup-1.jpg
     image_path: /assets/images/exercises/pullup-1-320.jpg
     alt: "Pullup, kropshævning med overhåndsgreb"
-    title: &title "Pullup, kropshævning med overhåndsgreb"
+    title: "Pullup, kropshævning med overhåndsgreb"
 video:
   provider: youtube
   id: QWQqivQ92dE

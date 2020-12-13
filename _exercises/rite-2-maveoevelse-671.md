@@ -37,11 +37,11 @@ gallery:
   - url: /assets/images/exercises/rite-2-maveoevelse-0.jpg
     image_path: /assets/images/exercises/rite-2-maveoevelse-0-320.jpg
     alt: "Rite 2: Maveøvelse"
-    title: &title "Rite 2: Maveøvelse"
+    title: "Rite 2: Maveøvelse"
   - url: /assets/images/exercises/rite-2-maveoevelse-1.jpg
     image_path: /assets/images/exercises/rite-2-maveoevelse-1-320.jpg
     alt: "Rite 2: Maveøvelse"
-    title: &title "Rite 2: Maveøvelse"
+    title: "Rite 2: Maveøvelse"
 last_modified_at: 2015-04-10T13:32:45Z
 ---
 

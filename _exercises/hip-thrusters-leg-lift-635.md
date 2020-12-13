@@ -34,11 +34,11 @@ gallery:
   - url: /assets/images/exercises/hip-thrusters-leg-lift-0.jpg
     image_path: /assets/images/exercises/hip-thrusters-leg-lift-0-320.jpg
     alt: "Supine bridge with leg lift"
-    title: &title "Supine bridge with leg lift"
+    title: "Supine bridge with leg lift"
   - url: /assets/images/exercises/hip-thrusters-leg-lift-1.jpg
     image_path: /assets/images/exercises/hip-thrusters-leg-lift-1-320.jpg
     alt: "Supine bridge with leg lift"
-    title: &title "Supine bridge with leg lift"
+    title: "Supine bridge with leg lift"
 last_modified_at: 2016-10-14T11:38:06Z
 ---
 

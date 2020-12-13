@@ -25,6 +25,6 @@ gallery:
   - url: /assets/images/exercises/makkeroevelse-klap-paa-fingre-0.jpg
     image_path: /assets/images/exercises/makkeroevelse-klap-paa-fingre-0-320.jpg
     alt: "Makkerøvelse, klap på fingre"
-    title: &title "Makkerøvelse, klap på fingre"
+    title: "Makkerøvelse, klap på fingre"
 last_modified_at: 2014-10-03T10:16:56Z
 ---

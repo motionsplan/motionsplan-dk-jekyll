@@ -31,11 +31,11 @@ gallery:
   - url: /assets/images/exercises/cable-pushdown-0.jpg
     image_path: /assets/images/exercises/cable-pushdown-0-320.jpg
     alt: "Triceps, kabeltræk"
-    title: &title "Triceps, kabeltræk"
+    title: "Triceps, kabeltræk"
   - url: /assets/images/exercises/cable-pushdown-1.jpg
     image_path: /assets/images/exercises/cable-pushdown-1-320.jpg
     alt: "Triceps, kabeltræk"
-    title: &title "Triceps, kabeltræk"
+    title: "Triceps, kabeltræk"
 last_modified_at: 2012-05-08T09:33:38Z
 ---
 

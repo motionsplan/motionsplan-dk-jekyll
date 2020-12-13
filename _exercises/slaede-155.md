@@ -24,11 +24,11 @@ gallery:
   - url: /assets/images/exercises/slaede-0.jpg
     image_path: /assets/images/exercises/slaede-0-320.jpg
     alt: "Slædetræk"
-    title: &title "Slædetræk"
+    title: "Slædetræk"
   - url: /assets/images/exercises/slaede-1.jpg
     image_path: /assets/images/exercises/slaede-1-320.jpg
     alt: "Slædetræk"
-    title: &title "Slædetræk"
+    title: "Slædetræk"
 last_modified_at: 2013-04-23T18:43:14Z
 ---
 

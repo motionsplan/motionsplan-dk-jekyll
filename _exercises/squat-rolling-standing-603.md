@@ -39,35 +39,35 @@ gallery:
   - url: /assets/images/exercises/squat-rolling-standing-0.jpg
     image_path: /assets/images/exercises/squat-rolling-standing-0-320.jpg
     alt: "Squat, rolling to standing"
-    title: &title "Squat, rolling to standing"
+    title: "Squat, rolling to standing"
   - url: /assets/images/exercises/squat-rolling-standing-1.jpg
     image_path: /assets/images/exercises/squat-rolling-standing-1-320.jpg
     alt: "Squat, rolling to standing"
-    title: &title "Squat, rolling to standing"
+    title: "Squat, rolling to standing"
   - url: /assets/images/exercises/squat-rolling-standing-2.jpg
     image_path: /assets/images/exercises/squat-rolling-standing-2-320.jpg
     alt: "Squat, rolling to standing"
-    title: &title "Squat, rolling to standing"
+    title: "Squat, rolling to standing"
   - url: /assets/images/exercises/squat-rolling-standing-3.jpg
     image_path: /assets/images/exercises/squat-rolling-standing-3-320.jpg
     alt: "Squat, rolling to standing"
-    title: &title "Squat, rolling to standing"
+    title: "Squat, rolling to standing"
   - url: /assets/images/exercises/squat-rolling-standing-4.jpg
     image_path: /assets/images/exercises/squat-rolling-standing-4-320.jpg
     alt: "Squat, rolling to standing"
-    title: &title "Squat, rolling to standing"
+    title: "Squat, rolling to standing"
   - url: /assets/images/exercises/squat-rolling-standing-5.jpg
     image_path: /assets/images/exercises/squat-rolling-standing-5-320.jpg
     alt: "Squat, rolling to standing"
-    title: &title "Squat, rolling to standing"
+    title: "Squat, rolling to standing"
   - url: /assets/images/exercises/squat-rolling-standing-6.jpg
     image_path: /assets/images/exercises/squat-rolling-standing-6-320.jpg
     alt: "Squat, rolling to standing"
-    title: &title "Squat, rolling to standing"
+    title: "Squat, rolling to standing"
   - url: /assets/images/exercises/squat-rolling-standing-7.jpg
     image_path: /assets/images/exercises/squat-rolling-standing-7-320.jpg
     alt: "Squat, rolling to standing"
-    title: &title "Squat, rolling to standing"
+    title: "Squat, rolling to standing"
 last_modified_at: 2014-10-12T22:21:09Z
 ---
 

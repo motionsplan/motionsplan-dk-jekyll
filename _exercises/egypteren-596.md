@@ -29,11 +29,11 @@ gallery:
   - url: /assets/images/exercises/egypteren-0.jpg
     image_path: /assets/images/exercises/egypteren-0-320.jpg
     alt: "Egypteren"
-    title: &title "Egypteren"
+    title: "Egypteren"
   - url: /assets/images/exercises/egypteren-1.jpg
     image_path: /assets/images/exercises/egypteren-1-320.jpg
     alt: "Egypteren"
-    title: &title "Egypteren"
+    title: "Egypteren"
 last_modified_at: 2014-10-12T22:06:25Z
 ---
 

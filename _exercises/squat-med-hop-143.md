@@ -26,19 +26,19 @@ gallery:
   - url: /assets/images/exercises/squat-med-hop-0.jpg
     image_path: /assets/images/exercises/squat-med-hop-0-320.jpg
     alt: "Squat med hop"
-    title: &title "Squat med hop"
+    title: "Squat med hop"
   - url: /assets/images/exercises/squat-med-hop-1.jpg
     image_path: /assets/images/exercises/squat-med-hop-1-320.jpg
     alt: "Squat med hop"
-    title: &title "Squat med hop"
+    title: "Squat med hop"
   - url: /assets/images/exercises/squat-med-hop-2.jpg
     image_path: /assets/images/exercises/squat-med-hop-2-320.jpg
     alt: "Squat med hop"
-    title: &title "Squat med hop"
+    title: "Squat med hop"
   - url: /assets/images/exercises/squat-med-hop-3.jpg
     image_path: /assets/images/exercises/squat-med-hop-3-320.jpg
     alt: "Squat med hop"
-    title: &title "Squat med hop"
+    title: "Squat med hop"
 video:
   provider: youtube
   id: L-5hLCHyIEk

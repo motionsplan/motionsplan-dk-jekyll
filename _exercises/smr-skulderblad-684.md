@@ -25,7 +25,7 @@ gallery:
   - url: /assets/images/exercises/smr-skulderblad-0.jpg
     image_path: /assets/images/exercises/smr-skulderblad-0-320.jpg
     alt: "SMR Skulderblad"
-    title: &title "SMR Skulderblad"
+    title: "SMR Skulderblad"
 last_modified_at: 2015-04-10T13:45:54Z
 ---
 

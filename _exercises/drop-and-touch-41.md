@@ -24,23 +24,23 @@ gallery:
   - url: /assets/images/exercises/drop-and-touch-0.jpg
     image_path: /assets/images/exercises/drop-and-touch-0-320.jpg
     alt: "Drop and touch"
-    title: &title "Drop and touch"
+    title: "Drop and touch"
   - url: /assets/images/exercises/drop-and-touch-1.jpg
     image_path: /assets/images/exercises/drop-and-touch-1-320.jpg
     alt: "Drop and touch"
-    title: &title "Drop and touch"
+    title: "Drop and touch"
   - url: /assets/images/exercises/drop-and-touch-2.jpg
     image_path: /assets/images/exercises/drop-and-touch-2-320.jpg
     alt: "Drop and touch"
-    title: &title "Drop and touch"
+    title: "Drop and touch"
   - url: /assets/images/exercises/drop-and-touch-3.jpg
     image_path: /assets/images/exercises/drop-and-touch-3-320.jpg
     alt: "Drop and touch"
-    title: &title "Drop and touch"
+    title: "Drop and touch"
   - url: /assets/images/exercises/drop-and-touch-4.jpg
     image_path: /assets/images/exercises/drop-and-touch-4-320.jpg
     alt: "Drop and touch"
-    title: &title "Drop and touch"
+    title: "Drop and touch"
 video:
   provider: vimeo
   id: 4715141

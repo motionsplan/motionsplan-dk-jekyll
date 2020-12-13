@@ -30,15 +30,15 @@ gallery:
   - url: /assets/images/exercises/floor-wipers-0.jpg
     image_path: /assets/images/exercises/floor-wipers-0-320.jpg
     alt: "Floor wipers"
-    title: &title "Floor wipers"
+    title: "Floor wipers"
   - url: /assets/images/exercises/floor-wipers-1.jpg
     image_path: /assets/images/exercises/floor-wipers-1-320.jpg
     alt: "Floor wipers"
-    title: &title "Floor wipers"
+    title: "Floor wipers"
   - url: /assets/images/exercises/floor-wipers-2.jpg
     image_path: /assets/images/exercises/floor-wipers-2-320.jpg
     alt: "Floor wipers"
-    title: &title "Floor wipers"
+    title: "Floor wipers"
 last_modified_at: 2014-10-13T22:08:11Z
 ---
 

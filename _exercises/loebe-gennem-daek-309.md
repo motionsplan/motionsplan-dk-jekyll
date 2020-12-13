@@ -20,15 +20,15 @@ gallery:
   - url: /assets/images/exercises/loebe-gennem-daek-0.jpg
     image_path: /assets/images/exercises/loebe-gennem-daek-0-320.jpg
     alt: "Løbe gennem dæk"
-    title: &title "Løbe gennem dæk"
+    title: "Løbe gennem dæk"
   - url: /assets/images/exercises/loebe-gennem-daek-1.jpg
     image_path: /assets/images/exercises/loebe-gennem-daek-1-320.jpg
     alt: "Løbe gennem dæk"
-    title: &title "Løbe gennem dæk"
+    title: "Løbe gennem dæk"
   - url: /assets/images/exercises/loebe-gennem-daek-2.jpg
     image_path: /assets/images/exercises/loebe-gennem-daek-2-320.jpg
     alt: "Løbe gennem dæk"
-    title: &title "Løbe gennem dæk"
+    title: "Løbe gennem dæk"
 last_modified_at: 2013-04-27T16:05:21Z
 ---
 

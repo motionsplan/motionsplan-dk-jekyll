@@ -29,11 +29,11 @@ gallery:
   - url: /assets/images/exercises/squat-med-partner-0.jpg
     image_path: /assets/images/exercises/squat-med-partner-0-320.jpg
     alt: "Squat med makker"
-    title: &title "Squat med makker"
+    title: "Squat med makker"
   - url: /assets/images/exercises/squat-med-partner-1.jpg
     image_path: /assets/images/exercises/squat-med-partner-1-320.jpg
     alt: "Squat med makker"
-    title: &title "Squat med makker"
+    title: "Squat med makker"
 last_modified_at: 2013-10-21T12:45:50Z
 ---
 

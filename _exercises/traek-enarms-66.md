@@ -26,15 +26,15 @@ gallery:
   - url: /assets/images/exercises/traek-enarms-0.jpg
     image_path: /assets/images/exercises/traek-enarms-0-320.jpg
     alt: "Træk, enarms"
-    title: &title "Træk, enarms"
+    title: "Træk, enarms"
   - url: /assets/images/exercises/traek-enarms-1.jpg
     image_path: /assets/images/exercises/traek-enarms-1-320.jpg
     alt: "Træk, enarms"
-    title: &title "Træk, enarms"
+    title: "Træk, enarms"
   - url: /assets/images/exercises/traek-enarms-2.jpg
     image_path: /assets/images/exercises/traek-enarms-2-320.jpg
     alt: "Træk, enarms"
-    title: &title "Træk, enarms"
+    title: "Træk, enarms"
 video:
   provider: vimeo
   id: 4715429

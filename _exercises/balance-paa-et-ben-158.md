@@ -22,7 +22,7 @@ gallery:
   - url: /assets/images/exercises/balance-paa-et-ben-0.jpg
     image_path: /assets/images/exercises/balance-paa-et-ben-0-320.jpg
     alt: "Balance på et ben"
-    title: &title "Balance på et ben"
+    title: "Balance på et ben"
 last_modified_at: 2011-04-16T18:20:32Z
 ---
 

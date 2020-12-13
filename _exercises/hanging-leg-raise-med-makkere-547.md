@@ -22,11 +22,11 @@ gallery:
   - url: /assets/images/exercises/hanging-leg-raise-med-makkere-0.jpg
     image_path: /assets/images/exercises/hanging-leg-raise-med-makkere-0-320.jpg
     alt: "Hanging leg raise med makkere"
-    title: &title "Hanging leg raise med makkere"
+    title: "Hanging leg raise med makkere"
   - url: /assets/images/exercises/hanging-leg-raise-med-makkere-1.jpg
     image_path: /assets/images/exercises/hanging-leg-raise-med-makkere-1-320.jpg
     alt: "Hanging leg raise med makkere"
-    title: &title "Hanging leg raise med makkere"
+    title: "Hanging leg raise med makkere"
 last_modified_at: 2013-10-21T12:51:11Z
 ---
 

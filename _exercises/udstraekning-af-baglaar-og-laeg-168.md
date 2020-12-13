@@ -24,7 +24,7 @@ gallery:
   - url: /assets/images/exercises/udstraekning-af-baglaar-og-laeg-0.jpg
     image_path: /assets/images/exercises/udstraekning-af-baglaar-og-laeg-0-320.jpg
     alt: "udstrækning af baglår og læg "
-    title: &title "udstrækning af baglår og læg "
+    title: "udstrækning af baglår og læg "
 last_modified_at: 2014-10-12T14:37:27Z
 ---
 

@@ -21,23 +21,23 @@ gallery:
   - url: /assets/images/exercises/raatraek-0.jpg
     image_path: /assets/images/exercises/raatraek-0-320.jpg
     alt: "Træk, råtræk"
-    title: &title "Træk, råtræk"
+    title: "Træk, råtræk"
   - url: /assets/images/exercises/raatraek-1.jpg
     image_path: /assets/images/exercises/raatraek-1-320.jpg
     alt: "Træk, råtræk"
-    title: &title "Træk, råtræk"
+    title: "Træk, råtræk"
   - url: /assets/images/exercises/raatraek-2.jpg
     image_path: /assets/images/exercises/raatraek-2-320.jpg
     alt: "Træk, råtræk"
-    title: &title "Træk, råtræk"
+    title: "Træk, råtræk"
   - url: /assets/images/exercises/raatraek-3.jpg
     image_path: /assets/images/exercises/raatraek-3-320.jpg
     alt: "Træk, råtræk"
-    title: &title "Træk, råtræk"
+    title: "Træk, råtræk"
   - url: /assets/images/exercises/raatraek-4.jpg
     image_path: /assets/images/exercises/raatraek-4-320.jpg
     alt: "Træk, råtræk"
-    title: &title "Træk, råtræk"
+    title: "Træk, råtræk"
 video:
   provider: youtube
   id: L6SjuAOjMEk

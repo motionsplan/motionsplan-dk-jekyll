@@ -22,19 +22,19 @@ gallery:
   - url: /assets/images/exercises/hiv-og-traek-0.jpg
     image_path: /assets/images/exercises/hiv-og-traek-0-320.jpg
     alt: "Hiv og træk"
-    title: &title "Hiv og træk"
+    title: "Hiv og træk"
   - url: /assets/images/exercises/hiv-og-traek-1.jpg
     image_path: /assets/images/exercises/hiv-og-traek-1-320.jpg
     alt: "Hiv og træk"
-    title: &title "Hiv og træk"
+    title: "Hiv og træk"
   - url: /assets/images/exercises/hiv-og-traek-2.jpg
     image_path: /assets/images/exercises/hiv-og-traek-2-320.jpg
     alt: "Hiv og træk"
-    title: &title "Hiv og træk"
+    title: "Hiv og træk"
   - url: /assets/images/exercises/hiv-og-traek-3.jpg
     image_path: /assets/images/exercises/hiv-og-traek-3-320.jpg
     alt: "Hiv og træk"
-    title: &title "Hiv og træk"
+    title: "Hiv og træk"
 last_modified_at: 2014-07-20T10:38:37Z
 ---
 

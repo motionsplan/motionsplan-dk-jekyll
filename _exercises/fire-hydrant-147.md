@@ -25,19 +25,19 @@ gallery:
   - url: /assets/images/exercises/fire-hydrant-0.jpg
     image_path: /assets/images/exercises/fire-hydrant-0-320.jpg
     alt: "Fire hydrant"
-    title: &title "Fire hydrant"
+    title: "Fire hydrant"
   - url: /assets/images/exercises/fire-hydrant-1.jpg
     image_path: /assets/images/exercises/fire-hydrant-1-320.jpg
     alt: "Fire hydrant"
-    title: &title "Fire hydrant"
+    title: "Fire hydrant"
   - url: /assets/images/exercises/fire-hydrant-2.jpg
     image_path: /assets/images/exercises/fire-hydrant-2-320.jpg
     alt: "Fire hydrant"
-    title: &title "Fire hydrant"
+    title: "Fire hydrant"
   - url: /assets/images/exercises/fire-hydrant-3.jpg
     image_path: /assets/images/exercises/fire-hydrant-3-320.jpg
     alt: "Fire hydrant"
-    title: &title "Fire hydrant"
+    title: "Fire hydrant"
 last_modified_at: 2013-10-02T10:10:22Z
 ---
 

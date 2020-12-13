@@ -20,15 +20,15 @@ gallery:
   - url: /assets/images/exercises/drop-lunges-0.jpg
     image_path: /assets/images/exercises/drop-lunges-0-320.jpg
     alt: "Drop lunges"
-    title: &title "Drop lunges"
+    title: "Drop lunges"
   - url: /assets/images/exercises/drop-lunges-1.jpg
     image_path: /assets/images/exercises/drop-lunges-1-320.jpg
     alt: "Drop lunges"
-    title: &title "Drop lunges"
+    title: "Drop lunges"
   - url: /assets/images/exercises/drop-lunges-2.jpg
     image_path: /assets/images/exercises/drop-lunges-2-320.jpg
     alt: "Drop lunges"
-    title: &title "Drop lunges"
+    title: "Drop lunges"
 last_modified_at: 2012-09-07T09:23:30Z
 ---
 

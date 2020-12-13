@@ -20,11 +20,11 @@ gallery:
   - url: /assets/images/exercises/kommandokravl-0.jpg
     image_path: /assets/images/exercises/kommandokravl-0-320.jpg
     alt: "Kommandokravl"
-    title: &title "Kommandokravl"
+    title: "Kommandokravl"
   - url: /assets/images/exercises/kommandokravl-1.jpg
     image_path: /assets/images/exercises/kommandokravl-1-320.jpg
     alt: "Kommandokravl"
-    title: &title "Kommandokravl"
+    title: "Kommandokravl"
 last_modified_at: 2011-05-02T16:00:34Z
 ---
 

@@ -24,11 +24,11 @@ gallery:
   - url: /assets/images/exercises/pencil-pushups-0.jpg
     image_path: /assets/images/exercises/pencil-pushups-0-320.jpg
     alt: "Pencil pushups"
-    title: &title "Pencil pushups"
+    title: "Pencil pushups"
   - url: /assets/images/exercises/pencil-pushups-1.jpg
     image_path: /assets/images/exercises/pencil-pushups-1-320.jpg
     alt: "Pencil pushups"
-    title: &title "Pencil pushups"
+    title: "Pencil pushups"
 last_modified_at: 2015-04-10T11:57:39Z
 ---
 

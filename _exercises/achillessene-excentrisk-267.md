@@ -20,23 +20,23 @@ gallery:
   - url: /assets/images/exercises/achillessene-excentrisk-0.jpg
     image_path: /assets/images/exercises/achillessene-excentrisk-0-320.jpg
     alt: "Achillessene, excentrisk"
-    title: &title "Achillessene, excentrisk"
+    title: "Achillessene, excentrisk"
   - url: /assets/images/exercises/achillessene-excentrisk-1.jpg
     image_path: /assets/images/exercises/achillessene-excentrisk-1-320.jpg
     alt: "Achillessene, excentrisk"
-    title: &title "Achillessene, excentrisk"
+    title: "Achillessene, excentrisk"
   - url: /assets/images/exercises/achillessene-excentrisk-2.jpg
     image_path: /assets/images/exercises/achillessene-excentrisk-2-320.jpg
     alt: "Achillessene, excentrisk"
-    title: &title "Achillessene, excentrisk"
+    title: "Achillessene, excentrisk"
   - url: /assets/images/exercises/achillessene-excentrisk-3.jpg
     image_path: /assets/images/exercises/achillessene-excentrisk-3-320.jpg
     alt: "Achillessene, excentrisk"
-    title: &title "Achillessene, excentrisk"
+    title: "Achillessene, excentrisk"
   - url: /assets/images/exercises/achillessene-excentrisk-4.jpg
     image_path: /assets/images/exercises/achillessene-excentrisk-4-320.jpg
     alt: "Achillessene, excentrisk"
-    title: &title "Achillessene, excentrisk"
+    title: "Achillessene, excentrisk"
 last_modified_at: 2011-04-19T11:32:11Z
 ---
 

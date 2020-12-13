@@ -27,27 +27,27 @@ gallery:
   - url: /assets/images/exercises/bildaek-slams-0.jpg
     image_path: /assets/images/exercises/bildaek-slams-0-320.jpg
     alt: "Bildæk, slams"
-    title: &title "Bildæk, slams"
+    title: "Bildæk, slams"
   - url: /assets/images/exercises/bildaek-slams-1.jpg
     image_path: /assets/images/exercises/bildaek-slams-1-320.jpg
     alt: "Bildæk, slams"
-    title: &title "Bildæk, slams"
+    title: "Bildæk, slams"
   - url: /assets/images/exercises/bildaek-slams-2.jpg
     image_path: /assets/images/exercises/bildaek-slams-2-320.jpg
     alt: "Bildæk, slams"
-    title: &title "Bildæk, slams"
+    title: "Bildæk, slams"
   - url: /assets/images/exercises/bildaek-slams-3.jpg
     image_path: /assets/images/exercises/bildaek-slams-3-320.jpg
     alt: "Bildæk, slams"
-    title: &title "Bildæk, slams"
+    title: "Bildæk, slams"
   - url: /assets/images/exercises/bildaek-slams-4.jpg
     image_path: /assets/images/exercises/bildaek-slams-4-320.jpg
     alt: "Bildæk, slams"
-    title: &title "Bildæk, slams"
+    title: "Bildæk, slams"
   - url: /assets/images/exercises/bildaek-slams-5.jpg
     image_path: /assets/images/exercises/bildaek-slams-5-320.jpg
     alt: "Bildæk, slams"
-    title: &title "Bildæk, slams"
+    title: "Bildæk, slams"
 last_modified_at: 2014-10-03T10:27:46Z
 ---
 

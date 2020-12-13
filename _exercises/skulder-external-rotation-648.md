@@ -34,11 +34,11 @@ gallery:
   - url: /assets/images/exercises/skulder-external-rotation-0.jpg
     image_path: /assets/images/exercises/skulder-external-rotation-0-320.jpg
     alt: "Skulder, External rotation"
-    title: &title "Skulder, External rotation"
+    title: "Skulder, External rotation"
   - url: /assets/images/exercises/skulder-external-rotation-1.jpg
     image_path: /assets/images/exercises/skulder-external-rotation-1-320.jpg
     alt: "Skulder, External rotation"
-    title: &title "Skulder, External rotation"
+    title: "Skulder, External rotation"
 last_modified_at: 2015-04-10T13:28:07Z
 ---
 

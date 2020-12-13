@@ -38,19 +38,19 @@ gallery:
   - url: /assets/images/exercises/lunges-stepup-0.jpg
     image_path: /assets/images/exercises/lunges-stepup-0-320.jpg
     alt: "Stepup, lunge"
-    title: &title "Stepup, lunge"
+    title: "Stepup, lunge"
   - url: /assets/images/exercises/lunges-stepup-1.jpg
     image_path: /assets/images/exercises/lunges-stepup-1-320.jpg
     alt: "Stepup, lunge"
-    title: &title "Stepup, lunge"
+    title: "Stepup, lunge"
   - url: /assets/images/exercises/lunges-stepup-2.jpg
     image_path: /assets/images/exercises/lunges-stepup-2-320.jpg
     alt: "Stepup, lunge"
-    title: &title "Stepup, lunge"
+    title: "Stepup, lunge"
   - url: /assets/images/exercises/lunges-stepup-3.jpg
     image_path: /assets/images/exercises/lunges-stepup-3-320.jpg
     alt: "Stepup, lunge"
-    title: &title "Stepup, lunge"
+    title: "Stepup, lunge"
 last_modified_at: 2014-10-12T19:07:34Z
 ---
 

@@ -25,15 +25,15 @@ gallery:
   - url: /assets/images/exercises/tuck-jumps-0.jpg
     image_path: /assets/images/exercises/tuck-jumps-0-320.jpg
     alt: "Tuck jumps"
-    title: &title "Tuck jumps"
+    title: "Tuck jumps"
   - url: /assets/images/exercises/tuck-jumps-1.jpg
     image_path: /assets/images/exercises/tuck-jumps-1-320.jpg
     alt: "Tuck jumps"
-    title: &title "Tuck jumps"
+    title: "Tuck jumps"
   - url: /assets/images/exercises/tuck-jumps-2.jpg
     image_path: /assets/images/exercises/tuck-jumps-2-320.jpg
     alt: "Tuck jumps"
-    title: &title "Tuck jumps"
+    title: "Tuck jumps"
 last_modified_at: 2020-04-03T14:04:35Z
 video:
   id: r7oBejx1PHM

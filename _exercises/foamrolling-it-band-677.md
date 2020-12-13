@@ -25,15 +25,15 @@ gallery:
   - url: /assets/images/exercises/foamrolling-it-band-0.jpg
     image_path: /assets/images/exercises/foamrolling-it-band-0-320.jpg
     alt: "Foamrolling IT-band"
-    title: &title "Foamrolling IT-band"
+    title: "Foamrolling IT-band"
   - url: /assets/images/exercises/foamrolling-it-band-1.jpg
     image_path: /assets/images/exercises/foamrolling-it-band-1-320.jpg
     alt: "Foamrolling IT-band"
-    title: &title "Foamrolling IT-band"
+    title: "Foamrolling IT-band"
   - url: /assets/images/exercises/foamrolling-it-band-2.jpg
     image_path: /assets/images/exercises/foamrolling-it-band-2-320.jpg
     alt: "Foamrolling IT-band"
-    title: &title "Foamrolling IT-band"
+    title: "Foamrolling IT-band"
 last_modified_at: 2015-04-10T13:39:19Z
 ---
 

@@ -33,15 +33,15 @@ gallery:
   - url: /assets/images/exercises/sideloeft-siddende-0.jpg
     image_path: /assets/images/exercises/sideloeft-siddende-0-320.jpg
     alt: "Sideløft, siddende"
-    title: &title "Sideløft, siddende"
+    title: "Sideløft, siddende"
   - url: /assets/images/exercises/sideloeft-siddende-1.jpg
     image_path: /assets/images/exercises/sideloeft-siddende-1-320.jpg
     alt: "Sideløft, siddende"
-    title: &title "Sideløft, siddende"
+    title: "Sideløft, siddende"
   - url: /assets/images/exercises/sideloeft-siddende-2.jpg
     image_path: /assets/images/exercises/sideloeft-siddende-2-320.jpg
     alt: "Sideløft, siddende"
-    title: &title "Sideløft, siddende"
+    title: "Sideløft, siddende"
 last_modified_at: 2014-10-12T19:24:09Z
 ---
 

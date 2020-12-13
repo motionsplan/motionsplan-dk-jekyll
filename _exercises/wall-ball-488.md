@@ -40,15 +40,15 @@ gallery:
   - url: /assets/images/exercises/488-0.jpg
     image_path: /assets/images/exercises/488-0-320.jpg
     alt: "Wall Ball"
-    title: &title "Wall Ball"
+    title: "Wall Ball"
   - url: /assets/images/exercises/488-1.jpg
     image_path: /assets/images/exercises/488-1-320.jpg
     alt: "Wall Ball"
-    title: &title "Wall Ball"
+    title: "Wall Ball"
   - url: /assets/images/exercises/488-2.jpg
     image_path: /assets/images/exercises/488-2-320.jpg
     alt: "Wall Ball"
-    title: &title "Wall Ball"
+    title: "Wall Ball"
 last_modified_at: 2014-10-30T10:12:39Z
 video:
   provider: youtube

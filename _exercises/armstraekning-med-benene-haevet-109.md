@@ -24,11 +24,11 @@ gallery:
   - url: /assets/images/exercises/armstraekning-med-benene-haevet-0.jpg
     image_path: /assets/images/exercises/armstraekning-med-benene-haevet-0-320.jpg
     alt: "Armstrækning, benene hævet"
-    title: &title "Armstrækning, benene hævet"
+    title: "Armstrækning, benene hævet"
   - url: /assets/images/exercises/armstraekning-med-benene-haevet-1.jpg
     image_path: /assets/images/exercises/armstraekning-med-benene-haevet-1-320.jpg
     alt: "Armstrækning, benene hævet"
-    title: &title "Armstrækning, benene hævet"
+    title: "Armstrækning, benene hævet"
 video:
   provider: vimeo
   id: 5046202

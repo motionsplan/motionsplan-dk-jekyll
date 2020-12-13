@@ -20,11 +20,11 @@ gallery:
   - url: /assets/images/exercises/cykelmaveoevelse-0.jpg
     image_path: /assets/images/exercises/cykelmaveoevelse-0-320.jpg
     alt: "Cykelmaveøvelse"
-    title: &title "Cykelmaveøvelse"
+    title: "Cykelmaveøvelse"
   - url: /assets/images/exercises/cykelmaveoevelse-1.jpg
     image_path: /assets/images/exercises/cykelmaveoevelse-1-320.jpg
     alt: "Cykelmaveøvelse"
-    title: &title "Cykelmaveøvelse"
+    title: "Cykelmaveøvelse"
 last_modified_at: 2009-06-05T15:50:18Z
 ---
 
