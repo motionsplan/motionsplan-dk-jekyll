@@ -82,7 +82,70 @@ yogastream:
     url: http://motionsplan.yogastream.dk
     title: "Bliv medlem af Yogastream og lær yoga"
     alt: "Bliv medlem af Yogastream og lær yoga"
+feature_row_running:
+  - image_path: https://www.pulsure.dk/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/g/a/garmin_hrm-run-pulsmaaler_010-10997-12_2.jpg
+    alt: "Garmin HRM-Tri Pulsbælte"
+    title: "Garmin HRM-Run Pulsbælte"
+    excerpt: "Garmins pulsbælte fungerer rigtig fint sammen med EliteHRV-appen til at måle heart rate variability og naturligvis sammen med de forskellige Garmin Produkter, fx det fantastiske FENIX-ur."
+    url: https://track.adtraction.com/t/t?a=1124622406&as=1484571907&t=2&tk=1&url=https://sportmaster.dk/garmin-hrm-run-pulsmalerrem-black-1476604
+    btn_label: "Se prisen*"
+    btn_class: "btn--success"
+  - image_path: https://www.loebeshop.dk/media/catalog/product/cache/1/image/575x/040ec09b1e35df139433887a97daa66f/r/_/r_fenix5x_hr_2003.1.jpg
+    alt: "Garmin FENIX 5S Smartwatch"
+    title: "Garmin FENIX 5S Smartwatch"
+    excerpt: "Garmin Fenix er fantastiske pulsure og aktivitetsure. Garmin har implementeret deres egen form for træningsparathed, som ikke helt er heart rate variability."
+    url: https://track.adtraction.com/t/t?a=1124622406&as=1484571907&t=2&tk=1&url=https://sportmaster.dk/garmin-fenix-5-plus-sapphire-2058971?size=One+Size&gclid=Cj0KCQjwj7v0BRDOARIsAGh37ipamu_nXNAfyMPbgF4aQfhUyRpXvIcMdu7wu2hXPvpD1_bP8i6zo54aAvojEALw_wcB
+    btn_label: "Se prisen*"
+    btn_class: "btn--success"
+  - image_path: https://www.mediasupply.dk/wp-content/uploads/2019/11/088d227c-d03a-42b5-8ae6-3ecfaab4c69d.jpg
+    alt: "Bose Spoundsport Free"
+    title: "Bose Spoundsport Free"
+    excerpt: "Bose Spoundsport Free er hovedtelefoner, der spiller ensartet og klart, uanset om din telefon er i hånden, i lommen, spændt fast på din arm eller sidder oven på løbebåndet … og der er ikke et eneste kabel involveret."
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=77605&htmlurl=https://www.mediasupply.dk/vare/bose-soundsport-free/
+    btn_label: "Se prisen*"
+    btn_class: "btn--success"
+feature_row_compression:
+  - image_path: https://www.billigsport24.dk/media/catalog/product/cache/1/image/17f82f742ffe127f42dca9de82fb58b1/6/1/6150_compression_calf_profcare_neoprene_kinesiological_effect_pl.jpg
+    alt: "Seger kompressionsløbestrømper - kompressionsstrømper der virker"
+    title: "Seger Kompressionsstrømper til Løb"
+    excerpt: "Segers kompressionsløbestrømper giver den optimale blodgennemstrømning i underbenet. Løbestrømper med kompression giver dig mange fordele, når du løber. Til orientering har jeg kun set studier på CEPs løbestrømper med kompression."
+    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=9397&htmlurl=https://www.billigsport24.dk/seger-compression-lobestromper-2-par-326708"
+    btn_label: "Tjek pris*"
+    btn_class: "btn--success"
+  - image_path: https://www.billigsport24.dk/media/catalog/product/w/s/ws50n0_green_herre.jpg
+    alt: "CEP Calf Sleeve - Kompressionsstrømper"
+    title: "CEP Calf Sleeve"
+    excerpt: "Calf sleeve uden fod. Ergonomisk pasform. Microfiber teknologi for den bedste komfort. Antibakterielle og lugtreducerence egenskaber. Mesh ved læggen for bedre ventilation."
+    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=16532&htmlurl=https://www.billigsport24.dk/cep-compression-sleeves-green-mens"
+    btn_label: "Tjek pris*"
+    btn_class: "btn--success"
+feature_row_strength:
+  - image_path: https://reponestrength.com/img/price-device.png
+    url: https://repone-strength.myshopify.com/lars-olesen
+    title: "Repone"
+    excerpt: "RepOne er opfølgeren til Open Barbell. RepOne fungerer ved at spænde en snor på stangen med en lille magnet. Formålet med RepOne er at have et prisleje, hvor den almindelige forbruger kan være med."
+    btn_class: "btn--info"
 ---
+
+På denne side har jeg samlet alle mine anbefalinger og de ting til træning, jeg selv bruger.
+
+## Løbeur, pulsbælte og høretelefoner
+
+Jeg bruger selv Garmin Fenix og Bose SoundSport på alle mine løbeture, hvor jeg enten nyder [musik til træningen]({% link _posts/2013-05-02-musik-til-traeningen.md %}) eller lytter til [gode podcasts fx om fitness og træning]({% link _posts/2020-08-03-podcasts.md %}). Jeg bruger også pulsbæltet til at måle min [heart rate variability]({% link _posts/2019-10-28-hrv.md %}), som jeg synes er en interessant måde at måle min træningsparathed og [restitution]({% link _posts/2009-08-07-restition-hvordan-bliver-jeg-hurtigst-klar-igen.md %}) på.
+
+{% include feature_row type="left" id="feature_row_running" %}
+
+Jeg synes, at jeg har haft god effekt af at løbe med [kompressionsstrømper]({% link _posts/2010-07-11-kompressionsstroemper-en-god-ide.md %}) i forhold til udfordringer, jeg har haft med mine lægmuskler og achillessener.
+
+{% include feature_row type="left" id="feature_row_compression" %}
+
+## Styrketræning
+
+Jeg bruger selv RepOne til at lave [velocity based training]({% link _posts/2020-07-12-vbt.md %}). Jeg synes det er en rigtig interessant måde at måle min træningsintensitet og træningsfremgang på.
+
+{% include feature_row type="left" id="feature_row_strength" %}
+
+## Køb bøger om træning
 
 På [Saxo\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264) kan du finde masser af inspiration til træning og sundhed. Her kommer nogle af mine favoritter. Jeg forsøger at læse mindst en time dagligt om emner, der interesserer mig.
 
