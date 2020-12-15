@@ -22,6 +22,8 @@ Det er vigtigt at bevæge skulderen på mange forskellige måder for at forebygg
 
 Jeg har skrevet mere om [armstrækninger]({% link _posts/2020-07-05-pushups.md %}), [rows]({% link _posts/2020-07-06-rows.md %}) og [pullups og chinups]({% link _posts/2020-06-30-pullup-chinup.md %}), som udfordrer skulderbladet og for- og bagskulder på forskellige måder.
 
+Du kan læse om flere [skulderøvelser og træning af bagskulderen og rotatormanchetten]({% link _posts/2020-12-12-styrk-dine-skuldre.md %}). Du kan også læse mere om selve [skulderleddet]({% link _anatomy/joints/skulderleddet.md %}).
+
 ## Artikler om træning af skulder og skulderøvelser
 
 <div class="feature__wrapper">

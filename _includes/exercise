@@ -1,0 +1,16 @@
+{% assign exercise_key = include.key %}
+
+{% assign posts = site.exercises | where: "key", exercise_key %}
+{% assign post = posts[0] %}
+
+## {{ post.title }}
+
+{% if post.gallery %}
+  {% include gallery images=post.gallery %}
+{% endif %}
+
+{{ post.instructions | markdownify }}
+
+{% if post.video.id %}
+  {% include video provider=post.video.provider id=post.video.id %}
+{% endif %}

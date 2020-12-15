@@ -22,4 +22,18 @@ Bentræning kan foregå både med frie vægte og lave squat og lunges og i benma
 
 Vi har samlet en række simple og effektive benøvelser, som du kan bruge til at styrke benmusklerne, din hofte og dine knæ.
 
+## Artikler om træning af skulder og skulderøvelser
+
+<div class="feature__wrapper">
+
+{% assign site_posts = site.posts | where: "tags", "bentræning" | sort: "title" %}
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single-simple.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
 ## Benøvelser: Øvelser til bentræning

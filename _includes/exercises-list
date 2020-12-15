@@ -1,0 +1,9 @@
+{% if include.id %}
+  {% assign exercises = page[include.id] %}
+{% else %}
+  {% assign exercises = page.exercises %}
+{% endif %}
+
+{% for exercise in exercises %}
+  {% include exercise key=exercise.key %}
+{% endfor %}
