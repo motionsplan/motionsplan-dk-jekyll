@@ -3,8 +3,8 @@ title: "Energisystemer 101: Aerob og anaerob træning og arbejde 💗"
 permalink: /energisystemer/
 language: da
 header:
-  overlay_image: https://s3-ap-southeast-2.amazonaws.com/ad-aspi/2019-09/4.jpg?rcQ9OQeAebglw4Sy7y3RhJVMINnhBUo0
-  teaser: https://s3-ap-southeast-2.amazonaws.com/ad-aspi/2019-09/4.jpg?rcQ9OQeAebglw4Sy7y3RhJVMINnhBUo0
+  overlay_image: https://images.unsplash.com/photo-1495976797530-f33e6580e44b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80
+  teaser: https://images.unsplash.com/photo-1495976797530-f33e6580e44b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
   caption: "Energisystemer 101: Aerob og anaerob træning og arbejde"
 category:
   - Træning
@@ -17,7 +17,7 @@ last_modified_at: 2020-03-06T23:14:14Z
 toc: true
 ---
 
-Man hører ofte om træning af det aerobe og det anaerobe energisystem. Jeg har siddet og researchet lidt på forskellene, og hvordan man træner de to energissystemer?
+Man hører ofte om træning af det aerobe og det anaerobe energisystem. Jeg har siddet og researchet lidt på forskellene, og hvordan man træner det aerobe og anaerobe energissystemer?
 
 Lad os med det samme kigge på, hvad aerob og anaerob betyder?
 
@@ -29,7 +29,7 @@ Anaerob energisystem
 
 ## Energisystemerne skaber energi med aerobe og anaerobe processer
 
-Alle cellerne i din krop har brug for energi for at holde dig i live. Kroppen får sin energi gennem energisystemerne. _Conditioning_ handler om at forbedre energiproduktionen og -forbruget.
+Alle cellerne i din krop har brug for energi for at holde dig i live. Kroppen får sin energi gennem energisystemerne. _Conditioning_ handler om at forbedre energiproduktionen og energiforbruget.
 
 *[AT]: Anaerobic Threshold
 
@@ -130,9 +130,9 @@ Træning med moderat eller lavere intensitet skaber mindre signifikante ændring
 
 For at træne det aerobe system, så kan man følge disse principper:
 
-- Pulsen skal være under den anaerobe tærskel.
+- Pulsen skal være under den [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}).
 - Desto lavere intensiteten er, desto højere skal volumen være.
-- Det aerobe system kan forbedres både gennem _steady state_-træning og intervaller.
+- Det aerobe system kan forbedres både gennem _steady state_-træning og intervaller, fx [intervalløb]({% link _posts/2020-06-15-intervallob.md %}).
 
 Eksempler på træningsmetoder kunne være:
 
@@ -187,7 +187,9 @@ Målet er at forbedre den glykolytiske del af det anaerobe system med [mælkesyr
 
 Der arbejdes 30-40 sekunder med 1-4 minutters pause. Der arbejdes med 2-5 sæt og i 1-2 serier. Kortere pauser for at forbedre kapaciteten og længere pause for at forbedre power.
 
-### High intensity continious training (HICT)
+*[HICT]: High intensity continuous training
+
+### High intensity continuous training (HICT)
 
 {% include video provider="youtube" id="q8zcxiucNkY" %}
 
@@ -199,30 +201,30 @@ I træning er det altid godt at sætte en baseline, som du kan sammenligne dit f
 
 I den **aerobe træning** kan du sætte din baseline med følgende:
 
-- Måle din hvilepuls
-- Bruge Heart Rate Variability (HRV)
-- Lave fx en 2400 meter eller Coopers 12-minutters test
+- Måle din [hvilepuls]({% link _posts/2020-06-03-hvilepuls.md %})
+- Bruge [Heart Rate Variability (HRV)]({% link _posts/2019-10-28-hrv.md %})
+- Måle dit kondital med fx en [2400 meter-test]({% link _posts/2019-10-31-kondital-2400-meter.md %}) eller [Coopers 12-minutters test]({% link _posts/2019-10-31-kondital-cooper.md %})
 - Måle Heart Rate Recovery efter lignende aktiviteter eller pulsen ved en stabil belastning.
 
 En baseline for den **anaerobe træning** kan være:
 
-- Alactic power 3-6 sec
+- Alactic power 3-6 sec, fx [6 sekunders sprint]({% link _posts/2019-11-18-6-sek-sprint.md %})
 - Alactic capacity 6-10 sec
-- Jump tests
-- Lactic power 30-40 sec
+- Jump tests, fx [counter movement jump]({% link _posts/2020-01-17-test-jump-cmj.md %}) eller [jump & reach]({% link _posts/2020-01-17-test-jump-reach.md %})
+- Lactic power 30-40 sec, fx [Wingate 30 sekunders test]({% link _posts/2019-11-18-wingate-test.md %})
 
-Når du har etableret en baseline for dine energisystemer, så kan du fokusere på at lave et program, der vil træne systemerne, så du kan opnå dine mål.
+Når du har etableret en _baseline_ for dine energisystemer, så kan du fokusere på at lave et program, der vil træne systemerne, så du kan opnå dine mål.
 
-Generelle principper for et program:
+Generelle principper for et træningsprogram til energisystemerne:
 
-- Lav en årlig energisystem træningsplan
+- Lav en årlig træningsplan for træning af energisystemerne
 - Brug fx en high-low model til at organisere træningen
 
 Den årlige plan er baseret på, at det kræver forskellige strategier at forbedre energisystemer, og du kan ikke arbejde samtidig på dem alle.
 
 Der er fire kategorier, som du kan dele din træning op i:
 
-1. General udvikling
+1. Generel udvikling
 2. Specifik udvikling
 3. Før-konkurrence
 4. Konkurrence
@@ -252,7 +254,14 @@ Anaerobic Power Reserve
 
 {% include video provider="facebook" id="https://www.facebook.com/8weeksout/videos/10155830804600787" %}
 
-## Referencer
+## Mere om energisystemer
+
+Jeg har skrevet mere om de [fysiologiske tilpasninger til konditionstræning]({% link _posts/2020-05-31-tilpasning-konditionstraening.md %}) og [hvor hurtigt du kan forbedre dit kondital]({% link _posts/2020-06-23-kondital-hvor-hurtigt.md %}). Vi har også skrevet om [HIIT-træning eller højintensive intervaller]({% link _posts/2020-09-22-hiit.md %}).
+
+## Referencer om energisystemer
+
+<details markdown="1">
+  <summary>Se referencer om energisystemer</summary>
 
 - [The Truth About Energy Systems - Day 1](https://www.8weeksout.com/truth-about-energy-systems-day-1/)
 - [The Truth About Energy Systems - Day 2](https://www.8weeksout.com/truth-about-energy-systems-day-2/)
@@ -263,3 +272,4 @@ Anaerobic Power Reserve
 - Weyand, P. G., Lin, J. E., & Bundle, M. W. (2006). Sprint performance-duration relationships are set by the fractional duration of external force application. American journal of physiology. Regulatory, integrative and comparative physiology, 290(3), R758–65. doi:10.1152/ajpregu.00562.2005
 - Mendez-Villanueva, A., Hamer, P., & Bishop, D. (2008). Fatigue in repeated-sprint exercise is related to muscle power factors and reduced neuromuscular activity. European journal of applied physiology, 103(4), 411–9. doi:10.1007/s00421-008-0723-9
 - [DIF: Anaerob Præstationsevne](https://www.dif.dk/-/media/difdk/foreningsliv/udgivelser/pdf/anaerobprstationsevnetoleranceproduktionoghurtighedstrning.pdf)
+</details>

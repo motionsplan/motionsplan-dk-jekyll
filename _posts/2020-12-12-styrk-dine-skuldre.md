@@ -42,7 +42,7 @@ I planlægningen af din skuldertræning og udvælgelsen af skulderøvelser skal 
 - Den midterste (laterale) del
 - Den bagerste (inferiore) del
 
-Skulderen kræver forskellige skulderøvelser for at alle musklerne bliver trænet. De populær skulderøvelser som fx [military press]({% link _exercises/military-press-56.md %}), [bænkpres]({% link _exercises/baenkpres-17.md%}), [floor press]({% link _exercises/floor-press-740.md %}). De primære bevægelsesmuskler i de øvelser er særligt brystmusklen og forreste del af skuldermusklen (ud over [triceps]({% link triceps-brachii.md %})). 
+Skulderen kræver forskellige skulderøvelser for at alle musklerne bliver trænet. De populære skulderøvelser som fx [military press]({% link _exercises/military-press-56.md %}), [bænkpres]({% link _exercises/baenkpres-17.md%}), [floor press]({% link _exercises/floor-press-740.md %}). De primære bevægelsesmuskler i de øvelser er særligt brystmusklen og forreste del af skuldermusklen (ud over [triceps]({% link _anatomy/triceps-brachii.md %})). 
 
 Mange skulderøvelser i skuldertræningen rammer den forreste og midterste del af skulderen. Du skal altså tænke på at bruge noget tid i skuldertræningen på at ramme den bagerste del af skulderen også.
 
