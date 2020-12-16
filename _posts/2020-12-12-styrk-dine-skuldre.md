@@ -80,6 +80,36 @@ Her kan du se gode øvelser til at styrke bagskulderen. Du kan bruge disse eksem
 
 Du kan få inspiration til flere [skulderøvelser]({% link _pages/exercises-tag-skulder.md %}). Du kan også læse mere om selve [skulderleddet]({% link _anatomy/joints/skulderleddet.md %}).
 
+Jeg kan også rigtig godt lide disse øvelser, som [Dan North viser på t-nation.com](https://www.t-nation.com/training/build-muscle-anywhere-anytime).
+
+{% include video provider="youtube" id="edeIzQ4yv84" %}
+
+{% comment %}
+
+Lay on your stomach and extend your arms out into a Y formation with your thumbs turned up to the ceiling, squeezing your shoulder blades together as hard as you can for about 3-5 seconds.
+Pull your elbows back down towards your ribs so your arms are in a W formation and hold again for 3 seconds, squeezing as hard as you can.
+Finally, extend your arms out into a T position with your thumbs still pointed to the ceiling and squeeze as hard as you can for 3 seconds. That's one rep. Do 6-8 of those and you won't need any more.
+Another way to do this exercise would be to hold each position on its own for 30-40 seconds and rest for about 20-30 seconds before going again.
+
+No matter which way you do it, the idea is to contract your upper back muscles and squeeze your shoulder blades together as hard as you can to create an isometric contraction.
+
+{% endcomment %}
+
+{% include video provider="youtube" id="IXzlIQ6Jgq4" %}
+
+{% comment %}
+
+This is the best bang for your buck when it comes to bodyweight exercises for the shoulders and upper back. It can also be a great warm-up for the shoulders while stretching the pecs. It also fires up the small upper back muscles we tend to neglect during heavy rowing exercises.
+
+There's no way you can cheat this move or use momentum to your advantage, something that you often see when people do weighted back exercises like rows and pulldowns.
+
+Start in a prone position by laying on your stomach with your hands behind your lower back (like you're being handcuffed).
+Extend your arms out straight by hinging at the elbow and begin to bring your arms to a Y position. Keep them locked and keep your thumbs turned up toward the ceiling.
+From there, do the same motion coming back, trying to make as big of a circle as you can coming around, and return to your starting position with your hands placed behind your lower back.
+You're then going to retract your shoulder blades. While keeping your hands on your lower back, bring your shoulder blades back down, and repeat this entire motion for 10-15 reps.
+
+{% endcomment %}
+
 {% comment %}
 
 {% include exercise key="20161031212455" title="Victory Raise" %}
