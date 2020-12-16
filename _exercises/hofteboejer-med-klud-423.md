@@ -1,9 +1,7 @@
 ---
 title: &title "Hoftebøjer med klud"
-excerpt: "Støttende på alle hænder og tæer med strakt krop. Vægten frem på armene. Begge fødder placeret på gulvklude. Træk fødderne frem mod hænderne ved at bøje i hoften. Lad derefter fødderne glide tilbage til udgangsposition. Hold kropsspændingen hele vejen til slutposition.
-"
-instructions: "Støttende på alle hænder og tæer med strakt krop. Vægten frem på armene. Begge fødder placeret på gulvklude. Træk fødderne frem mod hænderne ved at bøje i hoften. Lad derefter fødderne glide tilbage til udgangsposition. Hold kropsspændingen hele vejen til slutposition.
-"
+excerpt: "Støttende på alle hænder og tæer med strakt krop. Vægten frem på armene. Begge fødder placeret på gulvklude. Træk fødderne frem mod hænderne ved at bøje i hoften. Lad derefter fødderne glide tilbage til udgangsposition. Hold kropsspændingen hele vejen til slutposition."
+instructions: "Støttende på alle hænder og tæer med strakt krop. Vægten frem på armene. Begge fødder placeret på gulvklude. Træk fødderne frem mod hænderne ved at bøje i hoften. Lad derefter fødderne glide tilbage til udgangsposition. Hold kropsspændingen hele vejen til slutposition."
 permalink: /oevelse/hofteboejer-med-klud/
 redirect_from: /node/423
 id: 423
@@ -36,6 +34,7 @@ gallery:
     alt: "Hoftebøjer med klud"
     title: "Hoftebøjer med klud"
 last_modified_at: 2013-10-02T10:13:54Z
+key: 20131002101354
 ---
 
 Stående på alle fire. Kroppen er strakt. Vægten frem på armene. Begge fødder placeret på gulvklude. Træk fødderne frem som vist på billedet. Lad derefter fødderne glide tilbage til udgangsposition. Hold kropsspændingen hele vejen til slutposition.

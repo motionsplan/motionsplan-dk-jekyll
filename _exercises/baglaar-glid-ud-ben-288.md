@@ -36,6 +36,7 @@ gallery:
     alt: "Baglår, glid ud, to ben"
     title: "Baglår, glid ud, to ben"
 last_modified_at: 2013-10-03T14:22:21Z
+key: 20131003102221
 ---
 
 En rigtig god øvelse med kropsvægt til at træne baglåret.

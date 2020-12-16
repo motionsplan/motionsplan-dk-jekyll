@@ -38,6 +38,7 @@ gallery:
     alt: "Baglår, glidud et ben"
     title: "Baglår, glidud et ben"
 last_modified_at: 2013-10-03T14:22:57Z
+key: 20131003142257
 ---
 
 En rigtig god øvelse til at træne baglåret uden at have brug for redskaber.
