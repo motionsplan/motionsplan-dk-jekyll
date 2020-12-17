@@ -1,0 +1,18 @@
+<form class="calculator" id="calculator_water_intake">
+    <fieldset>
+        <legend>Udregn dit daglige vandindtag</legend>
+        <div class="form-group">
+            <label>Vægt (kg)
+                <input name="weight" type="number" min="20" max="200" placeholder="Vægt i kg" step="0.1" required>
+            </label>
+        </div>
+        <input type="submit" value="Udregn">
+    </fieldset>
+    <fieldset class="results" disabled>
+        <legend>Hvor megeet vand skal du drikke om dagen?</legend>
+        <div class="form-group">
+            <label>Dagligt væskeindtag (ml)</label>
+            <input disabled name="daily_water_intake_lower" type="text" class="input-mini"> - <input disabled name="daily_water_intake_upper" type="text" class="input-mini">
+        </div>
+    </fieldset>
+</form>

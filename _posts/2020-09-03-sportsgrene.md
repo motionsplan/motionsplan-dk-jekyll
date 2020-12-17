@@ -15,7 +15,7 @@ last_modified_at: 2019-09-03T23:14:14Z
 toc: true
 ---
 
-Jeg har samlet en lang liste med forskellige sportsgrene, motionsformer og idrætsgrene, som du kan dyrke i fritiden. Hvis du gerne vil finde en sport, motion og idræt, så kan du finde masser af inspiration på vores liste over sportsgrene.
+Jeg har samlet en lang liste med forskellige sportsgrene, motionsformer og idrætsgrene, som du kan dyrke i fritiden. Hvis du gerne vil finde en sport, motion og idræt, så kan du finde masser af inspiration på vores liste over sportsgrene. Her kan du også se de mest populære idrætsgrene i Danmark.
 
 Søger du inspiration til en aktiv fritid, så har jeg samlet en liste, hvor du kan få inspiration til sport, motion, idræt og træning.
 
@@ -23,11 +23,11 @@ Listen indeholder sportsgrene, som man konkurrerer i til de olympiske lege, folk
 
 Men lad os komme til listen over sportsgrene med det samme!
 
-## Liste over sportsgrene, idræt og motion
+## Liste over sportsgrene, idræt og motion 2020
 
 {% include table-sportsgrene.html %}
 
-## 10 mest populære idrætsgrene i Danmark
+## 10 mest populære idrætsgrene og sportsgrene i Danmark i 2018
 
 Jeg har samlet en liste over de mest populære sportsgrene i Danmark herunder. I den ene kolonne står der, hvor mange aktive medlemmer, der er i foreninger på landsplan. Tallene er fra 2018, så der kan naturligvis godt være sket noget siden. Kilden til medlemstallene er [Danmarks Idræts-Forbunds medlemsliste](https://www.dif.dk/da/politik/vi-er/medlemstal): 
 
@@ -37,11 +37,15 @@ Jeg har samlet en liste over de mest populære sportsgrene i Danmark herunder. I
 
 Hvis du gerne vil læse mere om, hvor mange der dyrker en bestemt idrætsgren, så kan du se [Danmarks Idræts-Forbunds medlemsliste](https://www.dif.dk/da/politik/vi-er/medlemstal). Her får du også delt medlemstallene oå, så du kan se hvilke sportsgrene der er mest populære for mænd og kvinder, og hvordan det ser ud med børn og ældre.
 
-## 10 mindst populære idrætsgrene i Danmark
+Hvis du ved hvad de mest populære idrætsgrene er i Danmark i 2020, så brug endelig kommentarerne, så vi kan få opdateret dette indlæg.
+
+## 10 mindst populære idrætsgrene og sportsgrene i Danmark 2017
 
 {% assign sports = site.data.sportsgrene | where_exp: "item", "item.Medlem2017 != blank" | sort: "Medlem2017" %}
 
 {% include table-sportsgrene.html column="Medlem2017" sports=sports limit="5" description="hide" %}
+
+Hvis du ved hvad de mindst populære idrætsgrene er i Danmark i 2020, så brug endelig kommentarerne, så vi kan få opdateret dette indlæg.
 
 ## Medlemstal i idræt og sportsgrene
 

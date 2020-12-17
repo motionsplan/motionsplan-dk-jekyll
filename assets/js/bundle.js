@@ -367,6 +367,7 @@ module.exports = motionsplan;
 
 /* global $ */
 
+const water = require('./water-intake');
 const inol = require('./inol');
 const ipfpoints = require('./ipf-points');
 const mcculloch = require('./ipf-points-mcculloch');
@@ -870,6 +871,18 @@ $(document).ready(function() {
 
         $("[name='BMI']").val(b.getBMI().toFixed(1));
         $("[name='PMI']").val(b.getPonderalIndex().toFixed(1));
+    });
+    // Calculate water intake
+    $("#calculator_water_intake").submit(function(e) {
+        console.log("Calculate Water Intake");
+        e.preventDefault();
+
+        let w = Number($("[name='weight']").val());
+
+        let b = water.WaterIntake(w);
+
+        $("[name='daily_water_intake_lower']").val(b.getDailyWaterIntake());
+        $("[name='daily_water_intake_upper']").val(b.getDailyWaterIntake("upper"));
     });
     // Calculate Body Water
     $("#calculator_bodywater").submit(function(e) {
@@ -1600,7 +1613,7 @@ $(document).ready(function() {
         }
 
         $("[name='ipf_points']").val(ipf_points.getPoints().toFixed(2));
-        $("[name='ipf_dots']").val(ipf_points.getDots().toFixed(2));
+        // $("[name='ipf_dots']").val(ipf_points.getDots().toFixed(2));
         $("[name='mcculloch_ipf_points']").val(age_adjusted.toFixed(2));
     });
      // Calculate Karvonen Intensity
@@ -1894,7 +1907,7 @@ $(document).ready(function() {
 	});
 });
 
-},{"../js/bodywater":16,"../js/fatenergypct":24,"../js/hr-intensity":28,"../js/waist":53,"../js/walktest-rockport-16":54,"../js/walktest-sixminutes":55,"../js/wattmax":56,"./1rm":3,"./andersen-test":4,"./beeptest":7,"./beeptest-yyir1":6,"./billat":8,"./blood":9,"./bmi":10,"./bmr-benedict-harris":11,"./bmr-ligevaegt":12,"./bmr-nordic-2012":13,"./bmr-schofield":14,"./bmr-totalenergy-pal":15,"./borg15":17,"./cooper":19,"./cooper-running":18,"./etpunkttest":20,"./fat-pct":23,"./fat-pct-measurements":21,"./fat-pct-navy":22,"./fitness-hr":25,"./fitness-index-23":26,"./fitness-jogging":27,"./ideal-weight":29,"./index100":30,"./inol":31,"./ipf-points":33,"./ipf-points-mcculloch":32,"./jumpreach":34,"./karvonen":35,"./lung":36,"./max-hr":37,"./pushup":38,"./riegel":39,"./running":44,"./running-distance-vo2":40,"./running-economy":41,"./running-walking":42,"./running-weightloss":43,"./skinfold-durnin":45,"./skinfold-lohman":46,"./skinfold-peterson":47,"./skinfold-pollock":48,"./skinfold-slaughter":49,"./topunkttest":50,"./vmax":52,"./vmax-intervals":51,"./y-balance":57,"image-map-resizer":1,"wilks-calculator":2}],6:[function(require,module,exports){
+},{"../js/bodywater":16,"../js/fatenergypct":24,"../js/hr-intensity":28,"../js/waist":53,"../js/walktest-rockport-16":54,"../js/walktest-sixminutes":55,"../js/wattmax":57,"./1rm":3,"./andersen-test":4,"./beeptest":7,"./beeptest-yyir1":6,"./billat":8,"./blood":9,"./bmi":10,"./bmr-benedict-harris":11,"./bmr-ligevaegt":12,"./bmr-nordic-2012":13,"./bmr-schofield":14,"./bmr-totalenergy-pal":15,"./borg15":17,"./cooper":19,"./cooper-running":18,"./etpunkttest":20,"./fat-pct":23,"./fat-pct-measurements":21,"./fat-pct-navy":22,"./fitness-hr":25,"./fitness-index-23":26,"./fitness-jogging":27,"./ideal-weight":29,"./index100":30,"./inol":31,"./ipf-points":33,"./ipf-points-mcculloch":32,"./jumpreach":34,"./karvonen":35,"./lung":36,"./max-hr":37,"./pushup":38,"./riegel":39,"./running":44,"./running-distance-vo2":40,"./running-economy":41,"./running-walking":42,"./running-weightloss":43,"./skinfold-durnin":45,"./skinfold-lohman":46,"./skinfold-peterson":47,"./skinfold-pollock":48,"./skinfold-slaughter":49,"./topunkttest":50,"./vmax":52,"./vmax-intervals":51,"./water-intake":56,"./y-balance":58,"image-map-resizer":1,"wilks-calculator":2}],6:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.YYIR1 = function(level, shuttles) {
@@ -4449,6 +4462,31 @@ module.exports = motionsplan;
 },{}],56:[function(require,module,exports){
 let motionsplan = {};
 
+motionsplan.WaterIntake = function(weight) {
+  
+  // upper and lower limit from LetLiv
+  let lower = 30; // ml
+  let upper = 40; // ml
+
+  function getDailyWaterIntake(range = 'lower') {
+    if (range == 'upper') {
+      return weight * upper;
+    }
+    return weight * lower;
+  }
+
+  let publicAPI = {
+    getDailyWaterIntake : getDailyWaterIntake
+  };
+
+  return publicAPI;
+};
+
+module.exports = motionsplan;
+
+},{}],57:[function(require,module,exports){
+let motionsplan = {};
+
 motionsplan.Wattmax = function(wmax, sec, weight, age, watt_jumps = 25) {
   wmax = wmax;
   sec = sec;
@@ -4497,7 +4535,7 @@ motionsplan.Wattmax = function(wmax, sec, weight, age, watt_jumps = 25) {
 
 module.exports = motionsplan;
 
-},{}],57:[function(require,module,exports){
+},{}],58:[function(require,module,exports){
 let motionsplan = {};
 
 motionsplan.YBalance = function(anterior, posterolateral, posteromedial) {

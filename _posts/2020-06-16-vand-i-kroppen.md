@@ -107,6 +107,10 @@ Hvis du er tørstig, er det rigtig vigtigt at få drukket noget væske, for så 
 
 Hvis det er rigtig varmt, og du drikker meget, så vær opmærksom på også at få nogle salte indenbords, der kan hjælpe med at vandet bliver optaget rigtigt, og så du ikke får udvasket de livsvigtige salte.
 
+## Konklusion
+
+Kroppen består altså af en rigtig stor del vand. Jeg har skrevet et andet indlæg, der besvarer spørgsmålet: [Hvor meget vand skal du drikke om dagen?]({% link _posts/2020-12-14-hvor-meget-vand-om-dagen.md %}).
+
 ## Referencer om vand i kroppen
 
 - Lee, Jee Young, Han Sung Ryu, Sung Soo Yoon, Eun Hye Kim, og Seong Woo Yoon. 2019. “Extracellular-to-Intracellular Fluid Volume Ratio as a Prognostic Factor for Survival in Patients With Metastatic Cancer”. Integrative Cancer Therapies 18 (maj). <https://doi.org/10.1177/1534735419847285>.

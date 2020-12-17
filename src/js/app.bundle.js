@@ -2,6 +2,7 @@
 
 /* global $ */
 
+const water = require('./water-intake');
 const inol = require('./inol');
 const ipfpoints = require('./ipf-points');
 const mcculloch = require('./ipf-points-mcculloch');
@@ -505,6 +506,18 @@ $(document).ready(function() {
 
         $("[name='BMI']").val(b.getBMI().toFixed(1));
         $("[name='PMI']").val(b.getPonderalIndex().toFixed(1));
+    });
+    // Calculate water intake
+    $("#calculator_water_intake").submit(function(e) {
+        console.log("Calculate Water Intake");
+        e.preventDefault();
+
+        let w = Number($("[name='weight']").val());
+
+        let b = water.WaterIntake(w);
+
+        $("[name='daily_water_intake_lower']").val(b.getDailyWaterIntake());
+        $("[name='daily_water_intake_upper']").val(b.getDailyWaterIntake("upper"));
     });
     // Calculate Body Water
     $("#calculator_bodywater").submit(function(e) {
