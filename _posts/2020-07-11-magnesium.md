@@ -1,5 +1,5 @@
 ---
-title: "Magnesium: Har du brug for et tilskud? [2020]"
+title: "Magnesium: Har du brug for et tilskud? [2021]"
 permalink: /magnesium/
 language: da
 header:

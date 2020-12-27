@@ -1,5 +1,5 @@
 ---
-title: "Er der forskel på mænds og kvinders muskler? 💪 [2020]"
+title: "Er der forskel på mænds og kvinders muskler? 💪 [2021]"
 permalink: /maend-kvinder-muskler/
 language: da
 header:

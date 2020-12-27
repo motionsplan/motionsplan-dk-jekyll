@@ -1,5 +1,5 @@
 ---
-title: "Naturfitness: 38 øvelser til udendørs træning og fitness [2020]"
+title: "Naturfitness: 38 øvelser til udendørs træning og fitness [2021]"
 permalink: /naturfitness/
 last_modified_at: 2020-06-24T09:41:09Z
 language: da

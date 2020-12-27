@@ -1,11 +1,12 @@
 ---
-title: "Højde: Hvordan bliver jeg højere? [2020]"
+title: &title "Højde: Hvordan bliver jeg højere? [2021]"
 permalink: /hvordan-bliver-jeg-hojere/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1496545087308-51ec893e6bbc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
   teaser: https://images.unsplash.com/photo-1496545087308-51ec893e6bbc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
-  caption: Photo by Jack Sloop on Unsplash
+  caption: *title
+  alt: Photo by Jack Sloop on Unsplash
 category:
   - Viden om
 tags:

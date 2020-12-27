@@ -1,11 +1,12 @@
 ---
-title: "Den bedste musik til yoga, mindfulness og meditation [2020]"
+title: "Den bedste musik til yoga, mindfulness og meditation [2021]"
 permalink: /yoga-musik/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1549576490-b0b4831ef60a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80
   teaser: https://images.unsplash.com/photo-1549576490-b0b4831ef60a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
-  caption: God musik til yoga, meditation og mindfulness. Photo by Anupam Mahapatra on Unsplash
+  caption: God musik til yoga, meditation og mindfulness
+  alt: Photo by Anupam Mahapatra on Unsplash
   overlay_filter: 0.2
 category:
   - Yoga

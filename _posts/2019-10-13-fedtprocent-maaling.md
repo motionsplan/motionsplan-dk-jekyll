@@ -1,5 +1,5 @@
 ---
-title: "Hvordan måler jeg min fedtprocent? 7 forskellige metoder [2020]"
+title: "Hvordan måler jeg min fedtprocent? 7 forskellige metoder [2021]"
 permalink: /maal-fedtprocent/
 language: da
 header:

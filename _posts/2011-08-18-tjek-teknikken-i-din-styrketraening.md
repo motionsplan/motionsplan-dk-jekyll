@@ -1,5 +1,5 @@
 ---
-title: "7 tips til din teknik i din styrketræning [2020]"
+title: "7 tips til din teknik i din styrketræning [2021]"
 permalink: /artikel/tjek-teknikken-i-din-styrketraening/
 language: da
 header:

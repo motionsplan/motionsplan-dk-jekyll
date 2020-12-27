@@ -1,5 +1,5 @@
 ---
-title: "Musik til træning: Find de bedste sange til træningen [2020]"
+title: "Musik til træning: Find de bedste sange til træningen [2021]"
 permalink: /artikel/musik-til-traeningen/
 redirect_from:
   - /artikel/musik-til-træningen

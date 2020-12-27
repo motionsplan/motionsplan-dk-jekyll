@@ -1,5 +1,5 @@
 ---
-title: &title "De bedste Instagram profiler om fitness og træning [2020]"
+title: &title "De bedste Instagram profiler om fitness og træning [2021]"
 permalink: /bedste-fitness-instagram/
 last_modified_at: 2020-07-24T09:41:09Z
 language: da

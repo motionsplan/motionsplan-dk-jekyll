@@ -1,5 +1,5 @@
 ---
-title: &title "Anabolic Window: Hvad er facts om det åbne vindue? [2020]"
+title: &title "Anabolic Window: Hvad er facts om det åbne vindue? [2021]"
 permalink: /artikel/aabne-vindue-og-anabolic-window/
 redirect_from:
   - /artikel/udnyt-det-aabne-vindue-og-restituer-hurtigere
