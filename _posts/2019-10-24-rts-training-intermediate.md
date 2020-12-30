@@ -11,6 +11,7 @@ category:
 tags:
   - program
   - træningsprogram
+  - programanmeldelse
 last_modified_at: 2019-10-24T23:14:14Z
 toc: true
 feature_row:

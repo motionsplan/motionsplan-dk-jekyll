@@ -9,7 +9,7 @@ tags:
   - træningsplanlægning
   - styrketræning
   - styrketræningsprogrammer
-  - programanmeldelser
+  - programanmeldelse
 category:
   - Styrketræning
 last_modified_at: 2020-12-27T22:21:26Z
@@ -25,9 +25,17 @@ Jeg synes, at det kan være godt at afprøve forskellige træningsprogrammer på
 
 Jeg har skrevet en række indlæg, der kan hjælpe dig med den mere basale træningsplanlægning i forhold til styrketræningsprogrammer, hvis du gerne vil klædes lidt bedre på, inden du læser mere om de enkelte træningsprogrammer.
 
-***
-HENTE ARTIKLER
-***
+{% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "træningsplanlægning" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
 
 ## Hvordan bruger man træningsprogrammer?
 
@@ -57,9 +65,19 @@ Hvis du vil prøve træningsprogrammer, kan du altså give dig i kast med nogle 
 
 ## Anmeldelser af træningsprogrammer og styrketræningsprogrammer
 
-***
-HENTE AUTOMATISK
-***
+{% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "programanmeldelse" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
+{% comment %}
 
 Starting Strength
 
@@ -80,3 +98,5 @@ Smolov Jr.
 RTS - Intermediate
 
 Stærk
+
+{% endcomment %}

@@ -11,7 +11,6 @@ category:
   - Styrketræning
 tags:
   - træningsprogram
-  - træningsplanlægning
   - styrketræning
 last_modified_at: 2020-12-03T23:14:14Z
 toc: true

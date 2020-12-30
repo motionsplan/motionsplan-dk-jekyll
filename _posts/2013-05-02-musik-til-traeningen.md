@@ -10,7 +10,6 @@ header:
   caption: "Musik til træningen: Vælg de bedste sange til løb, styrketræning og intervaltræning!"
 tags:
   - gode råd
-  - træningsplanlægning
   - musik
 category:
   - Kondition
