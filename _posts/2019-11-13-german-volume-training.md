@@ -9,7 +9,9 @@ header:
 category:
   - Styrketræning
 tags:
+  - styrketræning
   - program
+  - programanmeldelse
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 ---
@@ -65,10 +67,10 @@ Hackett et al (2018) udvider ovenstående studium med seks uger mere. Desværre 
 - [GVT revisited](https://www.t-nation.com/training/gvt-revisited)
 - [GVT fizzles out](https://www.t-nation.com/training/tip-german-volume-training-fizzles-out)
 
-Amirthalingam, Theban; Mavros, Yorgi; Wilson, Guy C.; Clarke, Jillian L.; Mitchell, Lachlan; Hackett, Daniel A. "Effects of a Modified German Volume Training Program on Muscular Hypertrophy and Strength. " Journal of Strength & Conditioning Research: November 2017, Volume 31, Issue 11, pp. 3109–3119.
+- Amirthalingam, Theban; Mavros, Yorgi; Wilson, Guy C.; Clarke, Jillian L.; Mitchell, Lachlan; Hackett, Daniel A. "Effects of a Modified German Volume Training Program on Muscular Hypertrophy and Strength. " Journal of Strength & Conditioning Research: November 2017, Volume 31, Issue 11, pp. 3109–3119.
 
-Hackett et al. 2018: Effects of a 12-Week Modified German Volume Training Program on Muscle Strength and Hypertrophy - A Pilot study.
+- Hackett et al. 2018: Effects of a 12-Week Modified German Volume Training Program on Muscle Strength and Hypertrophy - A Pilot study.
 
-The Effects of German Volume Training on Lean Muscle Mass and Strength and Power Characteristics in Elite Wild-Water Canoeists
+- The Effects of German Volume Training on Lean Muscle Mass and Strength and Power Characteristics in Elite Wild-Water Canoeists
 
-https://strengthandconditioning.org/index.php?option=com_content&view=article&id=1559&Itemid=512
+- [strengthandconditioning.org](https://strengthandconditioning.org/index.php?option=com_content&view=article&id=1559&Itemid=512)
