@@ -42,6 +42,14 @@ Her samler vi op på de mest populære blog posts i løbet af 2020. Der er nogle
   {% endfor %}
 {% endif %}
 
+{% assign site_posts = site.posts | where: "permalink", "/bmi/" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}
+
 {% assign site_posts = site.posts | where: "permalink", "/hastighed/" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
 
 {% if site_posts.size > 0 %}
@@ -60,6 +68,14 @@ Her samler vi op på de mest populære blog posts i løbet af 2020. Der er nogle
 
 
 {% assign site_posts = site.posts | where: "permalink", "/rm-beregner/" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}
+
+{% assign site_posts = site.posts | where: "permalink", "/tab-fedt-paa-maven/" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
@@ -91,6 +107,8 @@ Her samler vi op på de mest populære blog posts i løbet af 2020. Der er nogle
 
 {% assign site_posts = site.posts | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" %}
 
+<div class="feature__wrapper">
+
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
     {% capture current_year %}{{ post.date | date: "%Y" }}{% endcapture %}
@@ -99,3 +117,5 @@ Her samler vi op på de mest populære blog posts i løbet af 2020. Der er nogle
     {% endif %}
   {% endfor %}
 {% endif %}
+
+</div>
