@@ -95,7 +95,7 @@ Romaskinen er måske den af de fire cardiomaskiner som kræver mest tilvænning.
 
 Hvis du vil sammenligne dig selv med andre roere på roergomenter, så kan du klikke ind på [ergometertider.dk](https://ergometertider.dk/).
 
-Jeg har tidligere skrevet om, hvordan du kan finde dit [kondital fra en 2000-meter test på roergometer](/kondital-roning/) og jeg har delt en række [roprogrammer og intervalprogrammer](/artikel/traeningsprogrammer-intervaller-roning/).
+Jeg har tidligere skrevet om, hvordan du kan finde dit [kondital fra en 2000-meter test på roergometer](/kondital-roning/) og jeg har delt en række [roprogrammer, træningsprogrammer og intervalprogrammer til rotræning](/artikel/traeningsprogrammer-intervaller-roning/).
 
 ## Crosstrainer og ellipsetræner
 
