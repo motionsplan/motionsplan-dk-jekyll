@@ -3,7 +3,7 @@ title: &title "Konditionstest: Test din kondition og kondital med konditests"
 permalink: /test-kondition-konditest-kondital/
 redirect_from:
   - /kondition-og-test/
-excerpt: "Kommer jeg i bedre form og kondition? Udregn dit kondital og iltoptagelse med vores beregnere og se om du får et bedre kondital og fremgang i træningen."
+excerpt: "Kommer jeg i bedre form og kondition? Udregn dit kondital og maksimale iltoptagelse (VO2max) med vores beregnere og se om du får et bedre kondital og fremgang i træningen."
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1960&q=80
@@ -30,7 +30,7 @@ Men lad os dykke ned i, hvordan du tester den **maksimale iltoptagelse** og **ko
 
 ## Hvad er maksimal iltoptagelse og kondital?
 
-Men lad os først definere den maksimale iltoptagelse og konditallet for at se, hvad en test af konditionen tester:
+Men lad os først definere den maksimale iltoptagelse (VO2max) og konditallet for at se, hvad en test af konditionen tester:
 
 Maksimal iltoptagelse (VO<sub>2</sub>max) (l/min)
 : Den maksimale iltoptagelse er et udtryk for hvor meget ilt, du kan optage under maksimalt arbejde. Den maksimale iltoptagelse måles i ml ilt (O<sub>2</sub>) kroppen optager pr. minut.
