@@ -18,6 +18,7 @@ tags:
   - submaksimal test
   - løbetest
   - test
+  - beregner
 last_modified_at: 2020-05-06T23:14:14Z
 toc: true
 ---

@@ -12,6 +12,7 @@ category:
 tags:
   - konditionstræning
   - maksimal iltoptagelse
+  - konditionstest
   - løbetest
   - løb
   - beregner
