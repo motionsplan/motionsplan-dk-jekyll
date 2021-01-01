@@ -1,5 +1,5 @@
 ---
-title: &title "Omregn aktivitet, sport og motion til skridt [Beregner] 🚴‍♀️ ⇒ 🚶‍♀️"
+title: &title "Omregn aktivitet, sport og motion til skridt [Motionsomregner] 🚴‍♀️ ⇒ 🚶‍♀️"
 permalink: /omregn-motion-aktivitet-sport-til-skridt/
 language: da
 header:
@@ -16,11 +16,13 @@ last_modified_at: 2020-10-13T23:14:14Z
 toc: true
 ---
 
-Hvis du gerne vil have svar på hvor mange skridt 10 km cykling svarer til - eller hvor mange skridt du kan skrive i regnskabet for anden motion, sport og aktivitet, så tjek denne beregner.
+Hvis du gerne vil have svar på hvor mange skridt 10 km cykling svarer til - eller hvor mange skridt du kan skrive i regnskabet for anden motion, sport og aktivitet, så tjek vores "tæl skridt beregner" og motionsomregner.
 
 Omregningen af aktivitet, motion og sport til skridt er baseret på MET, så det er kun en tilnærmelse, men hvis du hovedsageligt holder øje med dine skridt, så kan det være en hjælp. Du kan læse mere om at [omregne motion, sport og aktivitet til skridt](https://www.verywellfit.com/pedometer-step-equivalents-for-exercises-and-activities-3435742).
 
 ## Omregn aktivitet, motion og sport til skridt
+
+Du kan omregne anden motion, sport og aktivitet til skridt i vores "Tæl skridt beregner" og motionsomregner.
 
 {% include calculate-activity-to-steps.html %}
 
@@ -28,7 +30,7 @@ Omregn den motion du ikke kan tælle med din skridttæller til skridt i denne om
 
 ## Omregningsfaktor fra motion til skridt
 
-Beregneren bruger [omregningsfaktoreren fra aktivitet til skridt herfra](https://globalchallenge.zendesk.com/hc/en-gb/articles/360000440186-What-activities-can-be-converted-).
+Vores "Tæl skridt-beregner" bruger [omregningsfaktoreren fra aktivitet til skridt fra Global Challenge](https://globalchallenge.zendesk.com/hc/en-gb/articles/360000440186-What-activities-can-be-converted-). Omregningsfaktoren tager udgangspunkt i MET og kan ses i føglende tabel.
 
 {% assign met_values = site.data.step-conversion %}
 | Aktivitet | Skridt/min | Skridt/30 min | Skridt/timen |
@@ -50,3 +52,10 @@ Det tal du får ud af udregneren svarer således til det antal skridt du ville s
 Husk at beregneren kun er en estimering af antallet af skridt. Ikke nødvendigvis det faktuelle antal skridt.
 
 Jeg har skrevet en grundig artikel om [Hvor langt er 10.000 skridt og hvor mange skridt er en km?]({% link _posts/2020-11-14-activity-to-steps.md %}).
+
+## Konklusion på "Tæl skridt beregner"
+
+Hvis du gerne vil blive motiveret af at gå nok skridt om dagen, men laver en masse anden aktivitet, så kan det være sjovt at bruge en "Tæl skridt-beregner". Du skal bare huske, at tallene godt kan blive rigtig høje.
+
+For mig selv, synes jeg det kan være motiverende at [tælle skridt](/artikel/tael-skridt/) for at huske at få nok motion hver dag.
+
