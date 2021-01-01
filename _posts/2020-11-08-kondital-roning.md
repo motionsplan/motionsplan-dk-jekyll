@@ -9,7 +9,7 @@ header:
 category:
   - Kondition
 tags:
-  - konditiontest
+  - konditionstest
   - roning
   - beregner
   - rotest
