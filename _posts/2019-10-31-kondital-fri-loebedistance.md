@@ -1,7 +1,7 @@
 ---
-title: &title "Find dit kondital med en vilkårlig løbedistance 🏃"
-permalink: /kondital-loeb/
-excerpt: "I denne beregner kan du indtaste en vilkårlig løbedistance og tiden og få et estimeret kondital."
+title: &title "Beregn dit kondital ud fra en vilkårlig løbedistance 🏃"
+permalink: /kondital-loeb-distance-tid/
+excerpt: "I denne beregner kan du indtaste en vilkårlig løbedistance og tiden og få estimeret dit kondital."
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1596358985970-ff88f3ad4cb3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=80
@@ -33,19 +33,21 @@ Du skal derfor opfylde følgende forudsætninger for at kunne bruge udregne dit 
 
 ## Find dit kondital fra løbetest
 
+Du kan bruge denne beregner til fx at beregne dit kondital på baggrund af en 5 km test eller andre vilkårlige distancer mellem 1500 meter og 42 km.
+
 {% include calculate-fitness-runningdistance.html %}
 
 ## Formler bag beregneren
 
 I beregneren er brugt formler fra Tokmakidis et al (1987) fra Tabel 1.
 
-> For example wi a single performance the average speed is calculated (e.g. a 5 km in 18:30 is ran at an average speed of 16.2 km*h<sup>-1</sup>) and introduced i the 5 km equation using Table 1 to obtain VO<sub>2</sub>max (MET = 3.1747 + 0.9139 * 16.2 km*h<sup>-1</sup> = 18 MET or 63 ml*kg<sup>-1</sup>*min<sup>-1</sup>).
+> For example with a single performance the average speed is calculated (e.g. a 5 km in 18:30 is ran at an average speed of 16.2 km*h<sup>-1</sup>) and introduced in the 5 km equation using Table 1 to obtain VO<sub>2</sub>max (MET = 3.1747 + 0.9139 * 16.2 km*h<sup>-1</sup> = 18 MET or 63 ml*kg<sup>-1</sup>*min<sup>-1</sup>).
 
 --- <cite>[Tokmakidis et al (1987)](https://pubmed.ncbi.nlm.nih.gov/3444324/)</cite>
 
 ## Andre konditionstests
 
-Du kan også bruge en [Cooper Test til at finde dit kondital]({% link _posts/2019-10-31-kondital-cooper.md %}).
+Du kan også bruge en [Cooper Test til at finde dit kondital]({% link _posts/2019-10-31-kondital-cooper.md %}) eller se alle de andre måder at lave en [beregning af dit kondital](/beregn-kondital/). Tjek også alle de andre [konditionstests](/kondition/tests/).
 
 ## Reference
 
