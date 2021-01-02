@@ -5,8 +5,8 @@ redirect_from:
   - /kondital-loeb/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1596358985970-ff88f3ad4cb3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=80
-  teaser: https://images.unsplash.com/photo-1596358985970-ff88f3ad4cb3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1566709603547-638aba3dbbc0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDd8fGNhbGN1bGF0b3J8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=60
+  teaser: https://images.unsplash.com/photo-1566709603547-638aba3dbbc0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDd8fGNhbGN1bGF0b3J8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60
   caption: *title
 category:
   - Kondition
@@ -19,7 +19,11 @@ toc: true
 
 Du kan beregne dit kondital på mange forskellige måder. Vi har samlet forskellige måder at lave beregning af dit kondital på, så hvis du leder efter en "kondital beregner", så er du kommet til den helt rigtige side.
 
-En måde er at [beregne dit kondital ud fra en vilkårlig distance](/kondital-loeb-distance-tid/), men du kan også beregne dit kondital på baggrund af andre løbetests, på roergometer eller på cyklen. Vi har samlet forskellige måder at udregne konditallet på herunder.
+Du kan også beregne dit kondital på baggrund af løbetests, en tur på roergometer eller efter at have kørt en tur på cyklen.
+
+Vi har samlet forskellige måder at udregne konditallet på herunder.
+
+En måde er at [beregne dit kondital ud fra en vilkårlig distance](/kondital-loeb-distance-tid/), men hvis du helst ikke vil rejse dig fra sofaen for at få svaret, så kan du også ganske enkelt [udregne dit kondital fra din puls](/kondital-fra-puls/).
 
 ## Hvordan beregner jeg mit kondital?
 
@@ -44,6 +48,20 @@ Der er lavet mange forskellige studier, hvor man har målt deltagernes kondital 
 ## Beregning af kondital fra cykling
 
 {% assign site_posts = site.posts | where: "tags", "konditionstest" | where: "tags", "cykeltest" | where: "tags", "beregner" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single-simple.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
+## Beregn dit kondital til romaskine og roergometer
+
+{% assign site_posts = site.posts | where: "tags", "konditionstest" | where: "tags", "rotest" | where: "tags", "beregner" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
 <div class="feature__wrapper">
 
