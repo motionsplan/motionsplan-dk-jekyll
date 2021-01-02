@@ -3,8 +3,8 @@ title: &title "Anaerob træning: Øvelser og træningsprogram 🏃"
 permalink: /anaerob-traening/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1596358985970-ff88f3ad4cb3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=80
-  teaser: https://images.unsplash.com/photo-1596358985970-ff88f3ad4cb3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1553593155-9e0dc045405c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80
+  teaser: https://images.unsplash.com/photo-1553593155-9e0dc045405c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
   caption: *title
 category:
   - Kondition
@@ -71,7 +71,7 @@ Hvad er anaerob effekt?
 
 [Vores Puls](https://vorespuls.dk/loeb/artikler/praestationsevne-faa-den-sidste-fart) foreslår anaerob træning til at give den sidste fart til løbere, men det gælder faktisk alle discipliner, hvor [kondition](/kondition/) også betyder noget.
 
-{% include figure image_path="https://images.unsplash.com/photo-1553593155-9e0dc045405c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" caption="Anaerob træning kan være med til at gøre dig til at gøre dit energisystem mere effektivt. Hvis du er løber, så vil anaerob træning også ofte hjælpe på din [løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %})." %}
+{% include figure image_path="https://images.unsplash.com/photo-1553593155-9e0dc045405c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" caption="Anaerob træning kan være med til at gøre dig til at gøre dit energisystem mere effektivt. Hvis du er løber, så vil anaerob træning også ofte hjælpe på din løbeøkonomi." %}
 
 [Vores Puls](https://vorespuls.dk/loeb/artikler/praestationsevne-faa-den-sidste-fart) skriver at præstationen afhænger af fire parametre:
 
@@ -126,18 +126,21 @@ Du har sikkert også hørt om [Tabata-intervaller]({% link _posts/2009-03-27-4-m
 
 ## Øvelser til anaerob træning
 
+- High Intensity Intervals
+- High Intensity Continious Training
+- Lactic Intervals
+- Alactic Intervals
+- Plyometrisk træning
+- Styrketræning
 
+## Bliver man lettere skadet af anaerob træning
 
-## Løb mindre og undgå skaderne
+Højintensiv træning og anaerob træning kan give skader, hvis ikke du planlægger det ordentligt, fordi den intensive træning er en hård belastning på kroppen.
 
-Højintens træning, og specielt anaerob træning, har ry for at give mange skader.
+Men du skal ikke være bange for at lave anaerob træning. Du skal bare huske principperne om **progressivt overload** og **restitution**, når du planlægger det. Den samlede træningsmængde skal formentlig sænkes lidt, hvis du introducerer anaerob træning.
 
-Det kan der være noget om, men det er ofte fordi løberne glemmer, at den samlede træningsmængde skal være mindre.
+Vores Puls har [5 råd til at undgå skader](https://vorespuls.dk/loeb/artikler/intervaltraening-5-raad-til-at-undgaa-skader) under intervaltræning.
 
-**Bliv klog på højintens træning og skader her:**[Intervaltræning: 5 råd til at undgå skader](https://vorespuls.dk/loeb/artikler/intervaltraening-5-raad-til-at-undgaa-skader)
-
-***
-{% endcomment %}
 ## Andre eksempler på anaerob træning
 
 Hvis du vil læse flere artikler om træning med høj intensitet, hvor det anaerobe system også får lov til at arbejde, så tjek følgende artikler:
