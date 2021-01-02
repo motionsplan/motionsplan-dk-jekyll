@@ -17,6 +17,7 @@ tags:
   - konditionstræning
   - kondition
   - træningsprogram
+  - anaerob træning
 category:
   - Kondition
   - Konditionstræning

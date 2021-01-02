@@ -13,6 +13,8 @@ category:
 tags:
   - intervaltræning
   - intervalløb
+  - anerob træning
+  - aerob træning
 last_modified_at: 2020-06-11T08:14:14Z
 toc: true
 ---

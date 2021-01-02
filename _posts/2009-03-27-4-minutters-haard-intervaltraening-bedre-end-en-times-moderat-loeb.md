@@ -18,6 +18,8 @@ tags:
   - intervaller
   - intervalløb
   - intervaltræning
+  - anaerob træning
+  - aerob træning
 category:
   - Kondition
   - Løb

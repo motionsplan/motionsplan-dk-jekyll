@@ -9,6 +9,8 @@ header:
 tags:
   - anaerob
   - aerob
+  - anaerob træning
+  - kondition
 category:
   - Kondition
   - Løb
