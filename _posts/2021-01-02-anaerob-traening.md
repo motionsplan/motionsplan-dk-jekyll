@@ -16,7 +16,7 @@ last_modified_at: 2021-01-02T10:14:14Z
 toc: true
 ---
 
-Anaerob træning er bør være en del af din træning. Det anaerobe system er en vigtig del af dit energisystem, og det skal også trænes. Jeg kigger på hvad anaerob træning er, viser anaerobe øvelser og foreslår hvordan et anaerobt træningsprogram kan se ud.
+Anaerob træning bør være en del af din træning. Det anaerobe system er en vigtig del af dit energisystem, og det skal også trænes. Jeg kigger på, hvad anaerob træning er, viser anaerobe øvelser og foreslår hvordan et anaerobt træningsprogram kan se ud.
 
 Hvad er anaerob træning? **Anaerob træning forbedrer kroppens evne til at levere energi uden ilt til stede. Anaerob træning træner evnen til at genopbygge ATP enten spalte kreatinfosfat eller ved at spalte glykose, hvor der kommer mælkesyre som biprodukt.**
 
