@@ -1,5 +1,5 @@
 ---
-title: &title "Strukturel balance i forskellige styrketræningsøvelser"
+title: &title "Strukturel balance i forskellige styrketræningsøvelser 💪"
 permalink: /strukturel-balance/
 language: da
 header:
@@ -40,7 +40,7 @@ Peter Roberts lægger vægt på, at ratio mellem de forskellige styrketrænings�
 
 [Charles Poliquin](https://www.t-nation.com/training/achieving-structural-balance) gik oprindeligt meget op i at teste følgende bevægelser for at få et mål for den strukturelle balance i overkroppen.
 
-- close-grip bench press 1RM
+- close-grip bench press [1RM](/rm-beregner/)
 - weighted chin-up 1RM
 - seated dumbbell external rotation 8RM on each side
 - and the bent-over trap-3 raise 8RM on each side

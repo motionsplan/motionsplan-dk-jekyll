@@ -53,7 +53,7 @@ Følgende tabel viser meget klar, at **du bliver smidigere af at strække**. Uan
 
 ## Udstrækning hæmmer (måske) kraftudvikling og styrke
 
-- maksimale kraft og hastigheden for kraftudvikling (rate of force development) (Critchell 2002, Rosenbaum og Hennig 1995) og den excentriske styrke (Bennett 1999), i op til en time efter udspænding.
+- maksimale kraft og hastigheden for kraftudvikling ([rate of force development]({% link _posts/2020-10-14-rate-of-force-development.md %})) (Critchell 2002, Rosenbaum og Hennig 1995) og den excentriske styrke (Bennett 1999), i op til en time efter udspænding.
 
 ## Diskussion om effekten af udspænding
 

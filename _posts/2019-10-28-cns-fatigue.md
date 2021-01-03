@@ -34,15 +34,13 @@ Det er ikke lykkes mig at finde videnskabelig litteratur, der understøtter brug
 
 Det er ret sjovt at lave finger tapping testen og konkurrere i den, men kan vi overhovedet bruge den i forbindelse med træningen.
 
-Lad os forsøge at besvare et grundlæggende spørgsmål først.
-
-1. Hvad er træthed i nervesystemet (CNS-fatigue)?
+Lad os forsøge at besvare et grundlæggende spørgsmål først. "Hvad er træthed i nervesystemet (CNS-fatigue)?"
 
 ## Hvad er træthed i nervesystemet (CNS fatigue)?
 
 Hele præmissen for at en finger tapping test kan være en biomarkør på, om der indsniger sig træthed i nervesystemet er naturligvis, at der kan komme træthed i nevesystemet.
 
-Så lad os kigge lidt på træthed i CNS som en forklaringsmodel i miljøer, der ikke er drives af _bro science_.
+Så lad os kigge lidt på træthed i CNS som en forklaringsmodel i miljøer, der ikke er drives af _bro science_. Rigtig mange steder så kan man læse, at træthed i nervesystemet sniger sig ind, hvis du løfter meget tungt og tæt på din [1RM](/rm-beregner/) ofte. Men er det egentlig rigtigt?
 
 Det mest sandsynlige er, at træthed i nervesystemet akkumulerer i løbet af træningen. Trætheden ser ud til at blive større ved mindre belastninger over lang tid end ved højere belastninger. Endelig ser det ud til, at selv voldsom træthed i nervesystemet er forbigående, og at nervesystemet kan restituere på 20 minutter eller maksimalt et par timer.
 
@@ -60,9 +58,13 @@ Med introduktionen af smartphones er det ret let at lave en finger tapping test,
 
 [<i class="fab fa-android"></i> CNS Tap](https://play.google.com/store/apps/details?id=com.sreyas.cnstapmonitor&hl=da&gl=US){: .btn .btn--large .btn--success } eller [<i class="fab fa-apple"></i> Digital Finger Tapping Test](https://apps.apple.com/us/app/digital-finger-tapping-test/id439751108){: .btn .btn--large .btn--info }
 
-## Referencer
+## Referencer om træthed i nervesystemet
+
+<details markdown="1">
+  <summary>Se referencer om træthed i nervesystemet</summary>
 
 - [Why does Central Nervous System Fatigue happen during strength training](https://medium.com/@SandCResearch/why-does-central-nervous-system-cns-fatigue-happen-during-strength-training-e0af3f5e4989)
 - <https://barbend.com/cns-fatigue/>
 - <https://mennohenselmans.com/cns-fatigue/>
 - <https://simplifaster.com/articles/central-nervous-system-fatigue-effects-speed-power-athletes/>
+</summary>

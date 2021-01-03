@@ -1,16 +1,19 @@
 ---
-title: "Daily Undulating Periodization - DUP"
+title: &title "Daily Undulating Periodization - DUP"
 permalink: /dup/
 excerpt: "I Daily Undulating Periodization vælges basisøvelser, som man gennem ugen arbejder med tre gange med forskelligt antal sæt og gentagelser - for at træne power, styrke og hypertrofi."
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1516481265257-97e5f4bc50d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
   teaser: https://images.unsplash.com/photo-1516481265257-97e5f4bc50d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
-  caption: Photo by Andrew Tanglao on Unsplash
+  caption: *title
+  alt: Photo by Andrew Tanglao on Unsplash
 category:
   - Styrketræning
 tags:
   - program
+  - træningsprogram
+  - programanmeldelse
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 ---
@@ -25,9 +28,11 @@ En forklaring til de tre ord:
 - **Undulating**. Programmeringen igennem ugen bevæger sig som en bælge med forskellige vægte, sæt, reps og intensitet hver gang. 
 - **Periodization**. Målet er at forbedre styrken samtiddig med at trætheden holdes nede. Tanken i DUP er, at kroppen får nok belastning til at gå frem, uden at man støder på et plateau.
 
-## Hvordan?
+## Hvordan laves DUP?
 
-Sæt, gentagelser og intensitet ændrer sig hver dag, fordi vi forsøger at arbejde med forskellige mål for bevægelsen. Der er ikke nogen helt præcis måde sæt og reps behøver at være på, men de skal naturligvis variere fra dag til dag. Et eksempel kunne være sådan her:
+Sæt, gentagelser og intensitet ændrer sig hver dag, fordi vi forsøger at arbejde med forskellige mål for bevægelsen. Der er ikke nogen helt præcis måde sæt og reps behøver at være på, men de skal naturligvis variere fra dag til dag. Programmet tager udgangspunkt i [1RM](/rm-beregner/),, og du kan bruge vores [1RM-beregner](/rm-beregner/) til at hjælpe med at finde de rigtige vægte.
+
+Et eksempel kunne være sådan her:
 
 - **Power**. Vi kører 5-7 sæt med 3 reps med omkring 70% af 1RM. Bevægelsen skal være teknisk korrekt og eksplosiv i den koncentriske fase. Vægten vil føles relativt let.
 - **Strength**. Vi kører 4-5 sæt med 4-5 gentagelser med 80-85% af 1RM.
@@ -43,9 +48,9 @@ Ofte vil man vælge tre store øvelser, og så vil man køre en protokol pr. lø
 
 Du kan også køre suppleringsøvelser, hvis du har brug for en ekstra træning. Her kunne du køre 4-6 øvelser med øvelser, der supplerer dine hovedøvelser.
 
-## Progression
+## Progression i Daily Undulating Periodization
 
-Der er to måder at lave progression på i et DUP-baseret program. Enten kan du sætte ekstra vægt på stangen, ellre du kan øge antallet af sæt eller reps. Det er formentlig muligt at øge med omkring 2,5 kg om ugen i dine styrke og hypertrofi-sæt, hvis du øger vægten. I dine power-sæt skal du især fokusere på den tekniske udførelse og stangens bane, og derfor kan det være bedre at øge antallet af sæt.
+Der er to måder at lave progression på i et DUP-baseret program. Enten kan du sætte ekstra vægt på stangen, eller du kan øge antallet af sæt eller reps. Det er formentlig muligt at øge med omkring 2,5 kg om ugen i dine styrke og hypertrofi-sæt, hvis du øger vægten. I dine power-sæt skal du især fokusere på den tekniske udførelse og stangens bane, og derfor kan det være bedre at øge antallet af sæt.
 
 DUP kan køres i en cyklus på 4-6 uger, og så har du brug for en deload uge, hvor du sænker volumen med op til 50%.
 

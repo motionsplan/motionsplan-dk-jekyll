@@ -77,6 +77,44 @@ Det **andet trin er at ramme antallet af gentagelser** for din dine sæt. Lad os
 
 På **tredje trin har du fortjent at øge vægten**. Når du øger vægten, så bliver du formentlig nødt til at sænke antallet af reps, men nu kan du stille og roligt øge antallet af reps, når du kan.
 
+## Emerging strategies
+
+Reactive Training Systems bruger en rigtig interessant måde at lave progression i deres 'Emerging Strategies'. De beskriver den selv på denne måde.
+
+> In Emerging Strategies, your training is comprised of development blocks that last anywhere from 3-12 weeks.
+>
+> For example:   
+> Week 1: Squat x1 @8 75%x5x5  
+> Week 2: Squat x1 @8 75%x5x5  
+> Week 3: Squat x1 @8 75%x5x5  
+> Week 4: Squat x1 @8 75%x5x5  
+>
+> Let's say that on week 1 you hit 100kg x1 @8 (92%). Your 75% work is based on the newly calculated e1rm (108kg in this example).  
+>
+> This volume is intended to drive progress for the following week.  
+>
+> On week 2, you should assume that the weekly training stimulus was sufficient to drive progress for your Squat x1 @8.  
+> 
+> Meaning that you should be able to perform more than 100kg on week 2.  
+> 
+> However, each lifter responds differently, so the best thing to do is to load 100kg again, and execute that lift to the best of your abilities.  
+>
+> If you made progress, then the RPE of your top set should be less than @8.  
+>
+> So, on week 2 you hit x1 @7. x1 @7 correlates to ~89% which means that you are now 2% stronger on Squat.  
+>
+> You don't need to prove this to yourself though. The back off work will continue to drive progress forward (and should be adjusted as your e1rm has increased).  
+>
+> As such, on week 3 you load up 102 kg for your top single. Follow the same process that you used from weeks 1-2 for weeks 3 - 4.  
+>
+> You might not make progress every week, but if you hit the goal RPE every week then you are putting yourself in the best position for continued progress.  
+>
+> It's not about forcing progress, it's about letting the training data emerge, and allow that data to influence your future training decisions.
+
+— <cite>Reactive Training Systems</cite>
+
+Jeg har bl.a. skrevet om at bruge [Reactive Training systems app som en træningslog]({% link _posts/2019-10-10-rts-app.md %}). Den er gratis og genial.
+
 ## Hvad betyder progressivt overload egentlig?
 
 Progressivt overload er ideen om at få kroppen til at arbejde hårdere. Når du tilføjer mere vægt eller øger antallet af gentagelser arbejder kroppen hårdere, men der er andre måder at skabe en _over load_-effekt på.
@@ -110,7 +148,7 @@ Efter fire uger øger du vægten med 5%, og så kan du starte cyklus forfra, fx 
 
 ### Vælg vægten til fixed weight protocol
 
-Start med omkring 75% af 1RM for 3x5 gentagelser. Du skal gå efter fem gentagelser i hvert sæt med god teknik. 
+Start med omkring 75% af [1RM](/rm-beregner/) for 3x5 gentagelser. Du skal gå efter fem gentagelser i hvert sæt med god teknik. Du kan bruge vores [1RM-beregner](/rm-beregner/) til at finde dit udgangspunkt.
 
 [Christian Thibaudeau](https://www.t-nation.com/workouts/best-way-to-keep-getting-stronger) foreslår 6 gange træning om ugen fordelt på workout A og workout B. Han foreslår at lave to store løft hver gang, fx military press og bænkpres og squat og chest-supported rows. Dertil skal du vælge to assistance-øvelser, hvor du ikke behøver at tænke over progressionsmodellen, men bare sørge for at lave et godt arbejde, fx 3x8-12 reps.
 

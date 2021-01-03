@@ -47,7 +47,7 @@ Det er blevet foreslået, at man kan teste sin muskelfibertypesammensætning med
 
 Pipes (1994) har foreslået følgende protokol for at finde ud af, om man er _slow-twitch_ eller _fast-twitch_ dominant.
 
-1. Først finder du din _one-repetition maximum_ (1RM) for en given øvelse.
+1. Først finder du din [_one-repetition maximum_ (1RM)](/rm-beregner/) for en given øvelse. Du kan få hjælp af vores [1RM-beregner](/rm-beregner/).
 2. Hold pause i 15 minutter.
 3. Dernæst laver du så mange gentagelser, som du kan med **80%** af din 1RM.
 

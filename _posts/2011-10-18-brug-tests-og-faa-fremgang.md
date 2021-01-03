@@ -1,10 +1,11 @@
 ---
-title: "Brug tests i styrketræning og få fremgang"
+title: &title "Brug tests i styrketræning og få fremgang"
 permalink: /artikel/brug-tests-og-faa-fremgang/
 language: da
 header:
   overlay_image: /assets/images/blog/brug-tests-og-faa-fremgang.jpg
   teaser: /assets/images/blog/brug-tests-og-faa-fremgang.jpg
+  caption: *title
 tags:
   - styrketræning
 category:
@@ -27,7 +28,7 @@ feature_row:
     btn_class: "btn--success"
 ---
 
-Du kan bruge tests undervejs i din træning for at sikre dig, at styrketræningsprogrammet passer til dig. Jeg har her undersøgt lidt forskellige måder at lave tests i træningen på.
+Du kan bruge tests undervejs i din træning for at sikre dig, at styrketræningsprogrammet passer til dig. Jeg har her undersøgt lidt forskellige måder at lave tests til styrketræning på.
 
 Der er rigtig mange måder at lave programmer til styrketræning på, men fælles for dem alle er, at hensigten er at blive stærkere. For at få fremgang skal man naturligvis træne, men der skal også være progression i træningen. Du kan bruge tests til at sikre dig, at din træning rent faktisk virker.
 
@@ -42,7 +43,7 @@ Du bliver bedre til det du træner. Hvis du har lavet et program, hvor du har be
 
 ## Lav tests (forsvarligt)
 
-I styrketræning arbejder man med begrebet 1RM (one repetition maximum), som er et udtryk for den vægt, man netop kan løfte en gang. Det kan være forbundet med høj skadesrisiko, at lave tests i 1RM, så man kan også estimere sin maksimale styrke ud fra forskellige beregninger.
+I styrketræning arbejder man med begrebet [1RM (one repetition maximum)](/rm-beregner/), som er et udtryk for den vægt, man netop kan løfte en gang. Det kan være forbundet med høj skadesrisiko, at lave tests i 1RM, så man kan også estimere sin maksimale styrke ud fra forskellige beregninger.
 
 Testen går således ud på, at du skal finde en vægt, du kan løfte 1 - 10 gange. Du behøver ikke på forhånd at vide nøjagtigt hvor mange gange, du kan løfte vægten. Du må blot ikke kunne løfte den flere end 10 gange. Når du har prøvet øvelsen noterer du hvor mange gange, du kunne løfte vægten.
 

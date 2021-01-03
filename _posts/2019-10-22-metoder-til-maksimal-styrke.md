@@ -25,7 +25,7 @@ toc: true
 
 Jeg træner for at forbedre min maksimale muskelstyrke, og jeg har undersøgt, hvilke metoder der er særligt velegnede til at få min styrke til at stige.
 
-**Maksimal muskelstyrke handler om at forbedre teknikken, at kunne aktivere flere muskelfibre, at kunne koordinere musklerne og at være mentalt forberedt. At forbedre den maksimale muskelstyrke kræver først og fremmest forbedringer i nervesystemet, men større muskler hjælper også på styrkepotentialet.**
+Hvad er maksimal muskelstyrke? **Maksimal muskelstyrke handler om at forbedre teknikken, at kunne aktivere flere muskelfibre, at kunne koordinere musklerne og at være mentalt forberedt. At forbedre den maksimale muskelstyrke kræver først og fremmest forbedringer i nervesystemet, men større muskler hjælper også på styrkepotentialet.**
 
 Der er mange måder, løftere kan forøge deres maksimale muskelstyrke, og du kan finde et hav af forskellige programmer, der ser vidt forskellige ud.
 
@@ -49,7 +49,7 @@ Formålet med opvarmningen er at optimere løfteteknikken inden arbejdssættene.
 
 ## Waves for muskelstyrke
 
-Ideen bag waves er at udnytte _post-activation potentiation_ (PAP). Teorien er at en maksimal sammentrækning aktiverer nervesystemet, hvilket øger kapaciteten til at rekruttere muskelfibre, når man løfter eksempelvis tunge 1'ere og 2'ere på over 85% af 1RM. Det skaber en PAP, der kan måles som øget _rate of force development (RFD)_, power og maksimal kraft omkring 7-8 minutter senere. Der er uenighed om, hvor længe effekten varer ved, men nogle studier foreslår, at effekten måske varer i op til 24 timer efter. 
+Ideen bag waves er at udnytte _post-activation potentiation_ (PAP). Teorien er at en maksimal sammentrækning aktiverer nervesystemet, hvilket øger kapaciteten til at rekruttere muskelfibre, når man løfter eksempelvis tunge 1'ere og 2'ere på over 85% af [1RM](/rm-beregner/). Det skaber en PAP, der kan måles som øget _[rate of force development (RFD)]({% link _posts/2020-10-14-rate-of-force-development.md %})_, power og maksimal kraft omkring 7-8 minutter senere. Der er uenighed om, hvor længe effekten varer ved, men nogle studier foreslår, at effekten måske varer i op til 24 timer efter. 
 
 Teoretisk set kan løfteren altså nyde øget kraft i de senere sæt ved at lave maksimale sammentrækninger i de forrige sæt. Derved kan man i de følgende sæt lave flere reps og løfte mere vægt. 
 
@@ -59,7 +59,7 @@ Alt efter hvor godt PAP fungerer undervejs, så er det ikke sikkert, at RPE går
 
 I en traditionel wave gør det tunge sidste sæt dig klar til de tungere sæt i de næste waves. Alle reps skal laves med intentionen om at flytte vægten så hurtigt som muligt i den koncentriske fase. Den maksimale kontraktion fra den første 3'er vil altså teoretisk set give PAP i den første 3'er i næste wave, fordi der jo er gået omkring 7 minutter mellem de to sæt.
 
-2 min pause mellem sæt i det enkelte wave. 2-3 min pause mellem waves. (ca. 20 min varighed pr. wave)
+2 min pause mellem sæt i det enkelte wave. 2-3 min pause mellem waves. (ca. 20 min varighed pr. wave). Du kan bruge vores [RM-beregner](/rm-beregner/) til at finde din 1RM og omtrentlige nødvendige belastning.
 
 #### 1. wave
 

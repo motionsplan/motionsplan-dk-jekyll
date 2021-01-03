@@ -152,7 +152,7 @@ I tabellen nedenfor er der nogle tommelfingerregler for hvor meget volumen, du l
 
 ## Intensitet
 
-Intensiteten måles i forhold til ‘1 repetition maximum’ (1RM), som er den vægt, du netop kan løfte en gang. Hvis du gerne vil løfte med høj intensitet, er du i praksis nødt til at løfte en mindre volumen pr. træning. Ellers vil du hurtigt smadre dig selv helt. 
+Intensiteten måles i forhold til [‘1 repetition maximum’ (1RM)](/rm-beregner/), som er den vægt, du netop kan løfte en gang. Hvis du gerne vil løfte med høj intensitet, er du i praksis nødt til at løfte en mindre volumen pr. træning. Ellers vil du hurtigt smadre dig selv helt. 
 
 For det meste af din træning er omkring 70-80% af din 1RM et fint interval at løfte i. Du kan se i nedenstående tabel, at det svarer til at løfte med omkring 7-12 gentagelser.
 

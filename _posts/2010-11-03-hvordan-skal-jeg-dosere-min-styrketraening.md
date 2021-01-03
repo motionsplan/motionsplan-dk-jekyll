@@ -1,10 +1,11 @@
 ---
-title: "Hvordan skal jeg dosere min styrketræning?"
+title: &title "Hvordan skal jeg dosere min styrketræning?"
 permalink: /artikel/hvordan-skal-jeg-dosere-min-styrketraening/
 language: da
 header:
   overlay_image: /assets/images/blog/hvordan-skal-jeg-dosere-min-styrketraening.jpg
   teaser: /assets/images/blog/hvordan-skal-jeg-dosere-min-styrketraening.jpg
+  caption: *title
 tags:
   - frekvens
   - styrketræning
@@ -17,14 +18,14 @@ Det kommer helt an på, hvad du vil opnå. I et metaanalyse af 140 styrketrænin
 
 Som med al mulig andet træning, skal man huske på, at det er i pauserne, at kroppen bygges op. Desto hårdere man træner, desto længere skal kroppen bruge på at bygge sig selv op igen. Det er bl.a. en af forklaringerne på forskellene mellem de trænede og utrænede, idet trænede kan belaste kroppen hårdere.
 
-Nedenstående tabel viser studiets konklusioner:
+De undersøgte bl.a. hvor høj intensiteten i forhold til [1RM](/rm-beregner/) med fordel kunne være.
 
-Konklusioner fra metaanalyse af 140 styrketræningsstudier (Rhea et al 2003) 
+Konklusioner fra metaanalyse af 140 styrketræningsstudier (Rhea et al 2003) kan ses i nedenstående tabel.
 
 |            | Begynder         | Trænet              |
 |------------|------------------|---------------------|
 | Erfaring   | Mindre end et år | Mere end et år      |
-| Belastning | 60% 1RM          | 80% 1RM             | 
+| Belastning | 60% 1RM          | 80% 1RM             |
 | Sæt        | 4                | 4                   |
 | Pr. uge    | 3                | 2                   |
 | Type       | Helkrop          | Helkrop eller split |

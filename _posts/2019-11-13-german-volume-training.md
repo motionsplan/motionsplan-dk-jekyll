@@ -18,9 +18,9 @@ toc: true
 
 Jeg har undersøgt, hvor godt styrketræningsprogrammet German Volume Training (GVT) for at skabe hypertrofi, når man styrketræner. Samtidig har jeg kigget lidt på baggrunden for German Volume Training (GVT).
 
-**German Volume Training (GVT) er et brutalt styrketræningsprogram med fokus på en høj volumen med 10 sæt x 10 gentagelser i store helkropsøvelser med en vægt der svarer til ~60% af 1RM eller en 20RM. Alle gentagelser skal laves med 401 i tempo. Rationalet bag den høje volumen er for at skabe metabolisk stress og mekanisk spænding i musklerne, der skal skalbe muskelvækst.**
+Hvad er German Volume Training (GVT)? **German Volume Training (GVT) er et brutalt styrketræningsprogram med fokus på en høj volumen med 10 sæt x 10 gentagelser i store helkropsøvelser med en vægt der svarer til ~60% af 1RM eller en 20RM. Alle gentagelser skal laves med 401 i tempo. Rationalet bag den høje volumen er for at skabe metabolisk stress og mekanisk spænding i musklerne, der skal skalbe muskelvækst.**
 
-German Volume Training er et styrketræningsprogram for moderat trænede (for utrænede er en så høj træningsvolumen langt over det optimale), der ønsker muskelhypertrofi. I GVT laver man 10sæt med 10 gentagelser i store basisøvelser med langsomme og kontrollerede bevægelser med stort bevægeudslag. Hemmeligheden er, at musklerne har en lang _time under tension (TUT)_, og at man opnår høj muskeludmattelse.
+German Volume Training er et styrketræningsprogram for moderat trænede (for utrænede er en så høj træningsvolumen langt over det optimale), der ønsker muskelhypertrofi. I GVT laver man 10 sæt med 10 gentagelser i store basisøvelser med langsomme og kontrollerede bevægelser med stort bevægeudslag. Hemmeligheden er, at musklerne har en lang _time under tension (TUT)_, og at man opnår høj muskeludmattelse.
 
 *[GVT]: German Volume Training
 *[TUT]: Time under tension
@@ -30,6 +30,8 @@ German Volume Training er et styrketræningsprogram for moderat trænede (for ut
 Grundstrukturen i programmet er, at det køres over fem dage med et forskelligt fokus hver dag. Der vælges en eller to A-øvelser, som køres efter metoden. Dertil vælges to suppleringsøvelser. Programmet kræver restitution, da det er meget nedbrydende for kroppen.
 
 A-øvelserne køres efter 10 x 10. Tempoet skal være 4020. Det betyder, at du bruger 4 sekunder i den excentriske fase og to sekunder i den koncentriske fase. I fx squat betyder det, at du går ned på 4 sekunder og rejser dig op igen på to sekunder.
+
+Du skal vælge en vægt, som er ~60% af 1RM eller en 20RM. Du kan estimere din [1RM i vores 1RM-beregner](/rm-beregner/).
 
 De første sæt vil føles relativt lette, men du skal have så meget vægt på, at det er meget besværligt at tage de sidste gentagelser i de sidste sæt. Hvis du kan gennemføre alle reps, så sætter du lidt mere vægt på stangen, næste gang du kører programmet. Hvis du ikke kan gennemføre alle reps, så kører du næste gang med samme vægt, men målet om at gennemføre flere reps.
 
@@ -59,7 +61,10 @@ Hackett et al (2018) udvider ovenstående studium med seks uger mere. Desværre 
 
 {% include video provider="youtube" id="iiQK-P_KWLA" %}
 
-## Referencer
+## Referencer om German Volume Training (GVT)
+
+<details markdown="1">
+  <summary>Se referencer om GVT</summary>
 
 - [Programanmeldelse: German Volume Training](https://andersnedergaard.dk/kropblog/programanmeldelse-german-volume-training/)
 - [German Volume Training](https://www.bodybuilding.com/content/german-volume-training-programs.html)
@@ -74,3 +79,4 @@ Hackett et al (2018) udvider ovenstående studium med seks uger mere. Desværre 
 - The Effects of German Volume Training on Lean Muscle Mass and Strength and Power Characteristics in Elite Wild-Water Canoeists
 
 - [strengthandconditioning.org](https://strengthandconditioning.org/index.php?option=com_content&view=article&id=1559&Itemid=512)
+</summary>

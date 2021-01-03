@@ -63,6 +63,11 @@ Men husk at de kroppe du ser på de gode tilbud kan skabes på mange måder - og
 
 Hvis du vil prøve træningsprogrammer, kan du altså give dig i kast med nogle af de meget berømte versioner af forskellige træningsprogrammer.
 
+## Vigtige parametre i et styrketræningsprogram
+
+- **Intensiteten**. Når du kigger på et program, så kan du kigge på intensiteten i de enkelte arbejdssæt. Hvis programmet er procentbaseret, hvor tæt på [1RM]({% link _posts/2019-10-16-1rm-beregner.md %}) de enkelte træningssæt ligger. Vi har lavet en [1RM-beregner]({% link _posts/2019-10-16-1rm-beregner.md %}), hvis du vil læse lidt mere om hvad 1RM er.
+- **INOL**. [INOL betyder Intensity + Number of Lifts](/inol/), og det er en måde at udregne det samlede træningsstimuli for den enkelte træning. Det gør det noget lettere at vurdere, hvor hårdt programmet er på papiret uden at skulle gennemprøve hele programmet. Vi har skrevet mere om [INOL her](/inol/).
+
 ## Anmeldelser af træningsprogrammer og styrketræningsprogrammer
 
 {% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "programanmeldelse" | where_exp: "post", "post.url != page.url" | sort: "date" %}

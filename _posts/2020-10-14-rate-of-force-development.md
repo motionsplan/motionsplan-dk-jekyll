@@ -47,7 +47,7 @@ I nervesystemet har fyringsfrekvensen af signaler, hvor mange motoriske enheder 
 
 Når du vil træne RFD i styrketræningen skal du fokusere på maksimal kraftudvikling i øvelserne. Du kan træne den RFD på flere forskellige måder.
 
-En typisk måde er er 2-4 sæt med 4-6 reps med en vægt, som ligger tæt på fx [one repetition maximum]({% link _posts/2019-10-16-1rm-beregner.md %}).
+En typisk måde er er 2-4 sæt med 4-6 reps med en vægt, som ligger tæt på fx [1RM (one repetition maximum)]({% link _posts/2019-10-16-1rm-beregner.md %}).
 
 [Aagaard et al (2002)](https://pubmed.ncbi.nlm.nih.gov/12235031/) undersøgte effekten af tung styrketræning med et 14 ugers træningsprogram med 38 træningssessioner. Testen blev lavet med en maksimal isometrisk kontraktion i quadriceps femoris.
 

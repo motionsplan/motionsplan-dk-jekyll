@@ -108,7 +108,7 @@ Hvis du foretrækker at se en video om emnet, så kan du kigge her.
 
 For begyndere og lettere trænede, så kan du formentlig udnytte et stort spektrum af _rep ranges_ for at få de neurale fordele. Det afgørende er, at du løfter stangen med _maximal intent_ - altså så hurtigt som du overhovedet kan. Så som begynder og lettere trænet kan du tilegne dig neurale forbedringer fra **1-12 RM**.
 
-For de trænede gælder det, at du skal løfte med høj intensitet. Desto mere trænet, desto tættere skal du på 1RM for at du kan få yderligere neurale tilpasninger, der relaterer sig til maksimal muskelstyrke. Som tommelfingerregel sker hovedparten af de neurale tilpasninger fra **1-8 RM** for trænede.
+For de trænede gælder det, at du skal løfte med høj intensitet. Desto mere trænet, desto tættere skal du på [1RM](/rm-beregner/) for at du kan få yderligere neurale tilpasninger, der relaterer sig til maksimal muskelstyrke. Som tommelfingerregel sker hovedparten af de neurale tilpasninger fra **1-8 RM** for trænede.
 
 ## Morfologiske forandringer ved styrketræning
 

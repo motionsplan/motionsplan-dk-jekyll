@@ -130,7 +130,7 @@ Denne liste for reglerne for udstyr i forhold til klassisk styrkeløft er ikke u
 
 ## Hvordan vælger jeg mine forsøg til styrkeløft?
 
-Når du skal vælge, hvor meget vægt du gerne vil løfte til styrkeløft, så skal du tænke dig godt om. Formålet til et styrkeløftstævne er samlet at **løfte så meget vægt som muligt**.
+Når du skal vælge, hvor meget vægt du gerne vil løfte til styrkeløft, så skal du tænke dig godt om. Formålet til et styrkeløftstævne er samlet at **løfte så meget vægt som muligt**. Allerhelst skal du naturligvis ramme din [1RM](/rm-beregner/) i alle løftene.
 
 Matt Gary har ifølge [Liftvault](https://liftvault.com/meet-preparation/powerlifting-attempt-calculator-spreadsheet/) samlet følgende statistik om `Raw`-løftere (altså løftere der løfter uden udstyr).
 
@@ -150,7 +150,7 @@ Tænk derfor over følgende i forhold til at vælge dine forsøg til styrkeløft
 Jacob Beermann [foreslår en konservativ og aggressiv strategi for dit 1RM-forsøg](https://maxer.dk/artikler/maxtest). Du kan over overveje, om du synes om den strategi til dit styrkeløftstævne også. Beermann anbefaler, at man maksimalt har tre løft, der er over 90% af dit forventede maxløft.
 
 | Strategi | #1 | #2 | #3 |
-|-|-|-|
+|-|-|-|-|
 | Konservativ | 93% | 97% | 102% |
 | Aggressiv | 95% | 101% | 105% | 
 

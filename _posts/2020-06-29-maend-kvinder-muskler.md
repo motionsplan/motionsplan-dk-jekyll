@@ -130,7 +130,7 @@ Morten Zacho foreslår, at det [kan skyldes både hormonelle og dels sociale for
 
 Hvis det er rigtigt, at der er forskel på mænds og kvinders muskler, så kan det give mening, at man manipulerer sæt, gentagelser og intensitet. 
 
-Hvis kvinder er mere udholdende og restituerer hurtigere, så kan kvinder formentlig tage lidt flere gentagelser ved den samme procentvise belastning af 1RM, og måske kan kvinderne have kortere pauser i styrketræningen.
+Hvis kvinder er mere udholdende og restituerer hurtigere, så kan kvinder formentlig tage lidt flere gentagelser ved den samme procentvise belastning af [1RM](/rm-beregner/), og måske kan kvinderne have kortere pauser i styrketræningen.
 
 Træningsanbefalingerne for kvinder og mænd i forhold til styrketræning er dog stadig de samme.
 

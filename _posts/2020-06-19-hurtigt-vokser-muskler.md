@@ -45,7 +45,7 @@ Endelig er målemetoden DXA ikke uden teoretiske udfordringer. Bone et al (2016)
 
 ## Vækstpotentialet i musklerne falder med tiden
 
-Kawakami (1995) fandt i et studie med utrænede mænd, at tværsnitsarealet af triceps steg med 31.7% efter 16 ugers decideret tricepstræning ved 80% af 1RM, 5 sæt á 8 reps, 3 dage om ugen.
+Kawakami (1995) fandt i et studie med utrænede mænd, at tværsnitsarealet af triceps steg med 31.7% efter 16 ugers decideret tricepstræning ved 80% af [1RM](/rm-beregner/), 5 sæt á 8 reps, 3 dage om ugen.
 
 Kraemer et al. (2004) undersøgte kvinder, som trænede 3 gange om ugen i 24 uger, hvor man fandt en vækst i triceps på 0,11% om dagen hos kvinderne.
 
