@@ -44,27 +44,27 @@ gallery:
     title: "Træk til bryst"
 gallery_greb:
   - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/traeningsudstyr/greb?product_id=10295
-    image_path: https://apuls.dk/image/cache/catalog/odin/greb/bt-118/odinbt-118-0-8-2-1500x1500.jpg
-    alt: "Pull down og træk til bryst"
-    title: "Pull down og træk til bryst"
+    image_path: https://apuls.dk/img/900/900/resize/3/5/350200070_1.jpg
+    alt: "Greb til Pull down og træk til bryst"
+    title: "Greb til Pull down og træk til bryst"
   - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/traeningsudstyr/greb/odin-lat-bar-traekstang-kort-greb-skovlgreb-28
-    image_path: https://apuls.dk/image/cache/catalog/odin/greb/lat-111/lat-bar-odin-111-0-8-2-1500x1500.jpg
+    image_path: https://apuls.dk/img/900/900/resize/B/T/BT15628inc_1.jpg
     alt: "Bredt skovlgreb til pulldown og træk til bryst"
     title: "Bredt skovlgreb til pulldown og træk til bryst"
   - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/traeningsudstyr/greb/odin-multi-purpose-v-bar-greb-bloed-gummi-haandtag-let-vinkel
-    image_path: https://apuls.dk/image/cache/catalog/odin/greb/bt-141/IMG_2329-0-8-2-1500x1500.gif
+    image_path: https://apuls.dk/img/900/900/resize/B/T/BT141_1.gif
     alt: "Multi purpose V greb til pull down og træk til bryst"
     title: "Multi purpose V greb til pull down og træk til bryst"
   - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/traeningsudstyr/greb/odin-enhaands-kabelgreb-krom-trapez
-    image_path: https://apuls.dk/image/cache/catalog/odin/greb/bt-127/odinbt-127-1-0-8-2-1500x1500.jpg
+    image_path: https://apuls.dk/img/900/900/resize/B/T/BT127_1.jpg
     alt: "Ethåndshåndtag til Pull down og træk til bryst"
     title: "Ethåndshåndtag til Pull down og træk til bryst"
   - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/traeningsudstyr/greb/odin-seated-row-greb-lille-vinkel
-    image_path: https://apuls.dk/image/cache/catalog/odin/greb/bt-156/IMG_2353-0-8-2-1500x1500.gif
+    image_path: https://apuls.dk/img/900/900/resize/B/T/BT159_1.gif
     alt: "V-håndtag til Pull down og træk til bryst"
     title: "V-håndtag til Pull down og træk til bryst"
   - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/traeningsudstyr/greb/finnlo-multigreb
-    image_path: https://apuls.dk/image/cache/catalog/finnlo/4696/4696-finnlo-multigriff-0-8-2-1500x1500.jpg
+    image_path: https://apuls.dk/img/900/900/resize/4/6/46961_1.jpg
     alt: "Multipurpose Pull down og træk til bryst"
     title: "Multipurpose til Pull down og træk til bryst"
 video:
