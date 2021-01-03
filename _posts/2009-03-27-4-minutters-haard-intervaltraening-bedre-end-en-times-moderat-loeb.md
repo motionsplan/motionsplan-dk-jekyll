@@ -28,9 +28,9 @@ last_modified_at: 2020-04-17T22:42:12Z
 
 Tabata er 4 minutters hård intervaltræning, der er mere effektivt end en times moderat løb. Træning bliver ofte præsenteret som Tabata-intervaller, men langt det meste Tabata-træning bliver ikke lavet efter foreskrifterne, så lad os dykke lidt ned i hvad Tabata-træning er?
 
-**Tabata er intervaltræning  8 x 20 sek. all out-intervaller med 10 sek. pause imellem. Træningen er undersøgt af den japanske forsker Izumi Tabata i 1996 og var oprindeligt rettet mod speedskatere.**
+Hvad er Tabata? **Tabata er intervaltræning  8 x 20 sek. all out-intervaller med 10 sek. pause imellem. Træningen er undersøgt af den japanske forsker Izumi Tabata i 1996 og var oprindeligt rettet mod speedskatere.**
 
-Det er egentlig ikke Izumi Tabata, der har opfundet træningsformen, men han undersøgte i 1996 en træningsform som blev brugt af speedskatere. 
+Det er egentlig ikke Izumi Tabata, der har opfundet træningsformen, men han undersøgte i 1996 en træningsform som blev brugt af speedskatere. Tabata er [anaerob træning]({% link _posts/2021-01-02-anaerob-traening.md %}), som også har en god effekt på det aerobe system. Tabata er [intervaltræning]({% link _posts/2020-06-15-intervallob.md %}).
 
 I dag bliver Tabata-intervallerne flittigt brugt inden for holdtræning, crossfit, men også løbere, roere, cykelmotionister bruger træningen. Langt de fleste laver dog i virkeligheden ikke træning efter Tabatas foreskrifter, selvom de arbejder i 20 sekunder og holder pause i 10 sekunder. Tabataintervaller er nemlig **all out** i arbejdsperioden.
 
@@ -69,9 +69,9 @@ Man skal være opmærksom på at de største forbedringer skete inden for de fø
 
 ## Konklusion om Tabata
 
-Det er tilsyneladende mere effektivt at arbejde med høj intensitet gennem hele træningen. Med Tabatas intervaller kan du nøjes med 14 minutters træning inklusiv opvarmning og nedvarmning og få en bedre effekt en en times træning med moderat intensitet.
+Det er tilsyneladende mere effektivt at arbejde med høj intensitet gennem hele træningen. Med Tabatas intervaller kan du nøjes med 14 minutters træning inklusiv opvarmning og nedvarmning og få en bedre effekt på både det aerobe og anaerobe system en en times træning med moderat intensitet.
 
-Du skal dog være opmærksom på, at du skal følge protokollen før det virker.
+Du skal dog være opmærksom på, at du skal følge protokollen før det virker. Tabata-intervaller er nemlig usædvanligt hårde. Det er ikke nok at udføre Tabata som 20 sekunders arbejde og 10 sekunders pause. Rigtige Tabata-intervaller er med **20 sekunders hårdt intensivt arbejde**.
 
 ## Varier dine Tabata-intervaller
 
@@ -81,7 +81,11 @@ Det er i hvert fald usædvanlig hårdt - både for kroppen, men sandelig også f
 
 — <cite>Izumi Tabata</cite>
 
-Hvis man går op i træning, så er der ingen undskyldning. Man skal prøve Tabata-intervaller, ganske enkelt fordi Tabata-intervaller giver en usædvanlig god effekt. De oprindelige studier er lavet på cykelergometer med inspiration for speedskating-verden, men der er ikke noget i vejen for at være lidt kreativ med Tabata-intervallerne, hvis det kan give dig motivation.
+Hvis man går op i træning, så er der ingen undskyldning. Man skal prøve Tabata-intervaller, ganske enkelt fordi Tabata-intervaller giver en usædvanlig god effekt. De rigtige Tabata-intervaller foregår på et cykelergometer eller løbende.
+
+## Øvelser til Tabata-intervaller
+
+De oprindelige studier er lavet på cykelergometer med inspiration for speedskating-verden, men der er ikke noget i vejen for at være lidt kreativ med Tabata-intervallerne, hvis det kan give dig motivation.
 
 Dog skal man huske på, at det ikke nødvendigvis har helt samme effekt - og der er også alle mulig andre måder at strukturere en træning med høj intensitet.
 

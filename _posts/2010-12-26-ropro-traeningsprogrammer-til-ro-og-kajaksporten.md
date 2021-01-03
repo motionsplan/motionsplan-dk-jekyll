@@ -65,7 +65,7 @@ Hvis du kigger rundt på [ropro.dk](http://ropro.dk) kan du helt sikkert finde e
 
 Siden er en no-bullshit side, hvor du ikke finder videnskabelig baggrund eller forkromede, længerevarende træningsprogrammer. Til gengæld finder du mere end 120 forskellige roprogrammer til voksne og 30 træningsprogrammer til børn, som du kan afprøve på dine enkelte træninger.
 
-Jeg ved, at Krintel elsker følelsen af brændende muskler, så hvis du kører programmerne igennem, så garanterer jeg, at du kommer i bedre form, men også kommer til at finde lidt smerte.
+Jeg ved, at Krintel elsker følelsen af brændende muskler, og en del af programmerne har karakter af [anaerob træning]({% link _posts/2021-01-02-anaerob-traening.md %}), og der er garanti for [mælkesyre]({% link _posts/2020-08-24-maelkesyre.md %}) undervejs. Hvis du kører roprogrammerne igennem, så garanterer jeg, at du kommer i bedre form, men også kommer til at finde lidt smerte.
 
 ## Hvordan skal jeg bruge roprogrammerne?
 
@@ -93,6 +93,8 @@ Hårdheden af de enkelte træningspas bliver bestemt af den intensitet du bruger
 > Du kan jo sagtens ro 30 sekunder med 30 sekunders aktiv hvile, hvor det er utrolig hårdt, men du kan også slappe lidt mere af arbjedsintervallet og på den måde have et langt træningspas, der kører på den måde. Du kan selv lære at styre intensiteten, som du kommer i bedre form.
 
 --- <cite>[Anders Krintel](http://www.ropro.dk)</cite>
+
+Alle intervallerne er konstrueret som [intervaltræning]({% link _posts/2020-06-15-intervallob.md %}), men det er intensiteten og indsatsen i de enkelte intervaller, der bestemmer det samlede udbytte på [energisystemerne]({% link _posts/2019-11-14-energisystemer-101.md %}).
 
 ## Intervaller til roning og rotræning
 

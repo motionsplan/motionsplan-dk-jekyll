@@ -1,11 +1,12 @@
 ---
-title: "Wingate Test - anaerob test 🚴🚴‍♀️"
+title: &title "Wingate Test - anaerob test 🚴🚴‍♀️"
 permalink: /wingate/
 excerpt: "Wingate 30 sekunders test er en anaerob test til at måle anaerob power og kapacitet."
 language: da
 header:
   overlay_image: https://i.ytimg.com/vi/JIastE4pj3U/maxresdefault.jpg
   teaser: https://i.ytimg.com/vi/JIastE4pj3U/maxresdefault.jpg
+  caption: *title
 category:
   - Test
 tags:
@@ -49,11 +50,15 @@ Her kan du umiddelbart aflæse alle værdierne undtagen "Anaerobic Capacity". "A
 
 [Wattbike 30 Second Test](https://support.wattbike.com/hc/da/articles/115002920669-The-30-Second-Test){: .btn .btn--large .btn--warning }
 
+## Konklusion
+
+Du kan også bruge Wingate-testen som [anaerob træning]({% link _posts/2019-11-18-wingate-test.md %}). Du kan fx køre 2-4 gentagelser som [intervaltræning]({% link _posts/2020-06-15-intervallob.md %}).
+
 ## Quiz
 
 {% include flipcard id="quiz" %}
 
-## Referencer
+## Referencer om Wingate testen
 
 - [Wingate Anaerobic Test](https://www.scienceforsport.com/wingate-anaerobic-test/)
 
