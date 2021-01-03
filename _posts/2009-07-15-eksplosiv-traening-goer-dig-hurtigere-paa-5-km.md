@@ -12,6 +12,7 @@ tags:
   - løb
   - løbeøkonomi
   - kondition
+  - intervaltræning
 category:
   - Kondition
   - Løb

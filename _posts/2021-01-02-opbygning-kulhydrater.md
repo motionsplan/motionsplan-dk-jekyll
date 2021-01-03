@@ -1,5 +1,5 @@
 ---
-title: &title "Opbygning af kulhydrater 🏃"
+title: &title "Opbygning af kulhydrater og kostfibre 🥑🍞🍆"
 permalink: /kulhydrater-opbygning/
 language: da
 header:

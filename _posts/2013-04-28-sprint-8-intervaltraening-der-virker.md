@@ -11,6 +11,7 @@ tags:
   - aerob
   - anaerob træning
   - kondition
+  - intervaltræning
 category:
   - Kondition
   - Løb

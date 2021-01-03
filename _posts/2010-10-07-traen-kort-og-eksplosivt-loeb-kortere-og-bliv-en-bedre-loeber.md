@@ -1,13 +1,15 @@
 ---
-title: "Træn kort og eksplosivt - løb kortere og bliv en bedre løber"
+title: &title "Træn kort og eksplosivt - løb kortere og bliv en bedre løber"
 permalink: /artikel/traen-kort-og-eksplosivt-loeb-kortere-og-bliv-en-bedre-loeber/
 language: da
 header:
   overlay_image: /assets/images/blog/traen-kort-og-eksplosivt-loeb-kortere-og-bliv-en-bedre-loeber.jpg
   teaser: /assets/images/blog/traen-kort-og-eksplosivt-loeb-kortere-og-bliv-en-bedre-loeber.jpg
+  caption: &title
 tags:
   - løb
   - kondition
+  - intervaltræning
 category:
   - Løb
 last_modified_at: 2011-04-14T11:04:07Z
