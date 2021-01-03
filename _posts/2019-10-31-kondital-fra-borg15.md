@@ -86,6 +86,8 @@ Selvom man bruger snakketesten og måske en pulsmåler som ekstra parametre, så
 
 Borg 15-konditesten er valideret på 154 japanske mænd i alderen 20-64 år. Jeg har ikke kunnet finde studier, der validerer testen, med kvinder eller andre befolkningsgrupper.
 
+Du kan sammenligne dit [kondital i tabellen for kondital for mænd og kvinder](/kondital/).
+
 ## Reference til Borg 15-cykeltest
 
 <details markdown="1">

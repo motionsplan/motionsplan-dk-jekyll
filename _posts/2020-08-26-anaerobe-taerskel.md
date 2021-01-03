@@ -80,7 +80,7 @@ Når du har lavet din test, så foreslår [Trilab](https://trilab.dk/traeningszo
 - Zone 3: 90-94% af LTHR
 - Zone 4: 95-102% af LTHR
 - Zone 5: 103-106% af LTHR
-- Zone 6: >107% LTHR / max
+- Zone 6: >107% LTHR / [max puls]({% link _posts/2020-06-02-max-hr.md %})
 
 ## Hvordan forbedrer jeg min anaerobe tærskel?
 

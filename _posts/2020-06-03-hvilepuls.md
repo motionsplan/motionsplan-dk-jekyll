@@ -173,6 +173,6 @@ Nogle rapporterer også, at skader på hjertet med alderen kan forårsage en lav
 
 Ud over at hvilepulsen er en indikator på ens træningsniveau særligt i kredsløbssystemet, så kan du også bruge hvilepulsen til at udregne forskellige træningsparametre.
 
-Sammen med max-pulsen kan du [estimere dit kondital ud fra puls med vores enkle beregner](/kondital-fra-puls/).
+Sammen med [max-pulsen]({% link _posts/2020-06-02-max-hr.md %}) kan du [estimere dit kondital ud fra puls med vores enkle beregner](/kondital-fra-puls/).
 
 Jeg har også skrevet mere om, hvordan du kan [udregne dine intensitetszoner fra pulsen](/puls-intensitet/), fordi du ved at kende din max-puls og hvilepuls kender din pulsreserve.

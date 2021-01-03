@@ -1,11 +1,11 @@
 ---
-title: "Talje-hoftemål: Beregn dit taljemål og din talje/hofte-ratio"
+title: "Talje-hoftemål: Mål dit taljemål og beregn talje/hofte-ratio"
 permalink: /taljemaal/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1591384640699-9a85bd036da2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=60
   teaser: https://images.unsplash.com/photo-1591384640699-9a85bd036da2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60
-  caption: "Taljemål, hoftemål og højdemål og talje-hofte-ratioen."
+  caption: "Taljemål, livvidde, hoftemål og højdemål og talje-hofte-ratioen."
 category:
   - Test
 tags:
@@ -18,35 +18,37 @@ last_modified_at: 2020-07-06T23:14:14Z
 toc: true
 ---
 
-Taljemål og hoftemål kan være en let måde at sige noget om fedtfordelingen på din krop. Studier har vist, at der er en sammenhæng mellem taljemål, hoftemål og højden og risiko for livsstilssygdomme. Jeg har researchet hvilke forskellige taljemål og hoftemål, der findes.
+Taljemål, livvidde og hoftemål kan være en let måde at sige noget om fedtfordelingen på din krop. Studier har vist, at der er en sammenhæng mellem taljemål, hoftemål og højden og risiko for livsstilssygdomme. Jeg har researchet hvilke forskellige taljemål og hoftemål, der findes.
 
 *[WHR]: Waist/Hip-ratio
 
 Jeg har fundet frem til tre forskellige taljemål, hvor størrelsen på taljen er med til at sige noget om ens kropsfacon, om man er undervægtig eller overvægtig, og om man er i risiko for at få livsstilssygdomme.
 
-Typer af taljemål og hoftemål:
+Typer af taljemål, mål af livvidde og hoftemål:
 
-- **Taljemål**. Taljemålet kan indikere noget om ens risiko for sygdomme.
+- **Taljemål (mål af livvidde)**. Taljemålet kan indikere noget om ens risiko for sygdomme. Taljemålet kan også kaldes livvidde.
 - **Talje-højde-ratio**. Når man medtager højden, så får man en mere retfærdig vurdering af taljemålet. Det er klart at høje personer sandsynligvis vil have en større talje.
 - **Talje-hofte-ratio**. Talje-hofte-målet kan sige noget om fordelingen af fedt på kroppen - og derved også noget om risikoen for sygdom.
 
 ## Beregner til talje-hofte-ratio og talje-højde-ratio
 
+I denne beregner kan du måle din talje-hofte-ratio og din talje-højde-ratio.
+
 {% include calculate-waist.html %}
 
 ## Mere om de forskellige taljemål
 
-I det følgende beskriver jeg de forskellige taljemål, og hvad de kan bruges til.
+I det følgende beskriver jeg de forskellige taljemål (livvidde), og hvad de kan bruges til.
 
-## Taljemålet
+## Taljemålet (livvvidden)
 
 Taljemålet er et af de enkleste mål for om man er overvægtig. Flere studier viser sammenhæng mellem taljemålet og risikoen for mange livsstilssygdomme, som fx hjertekarsygdomme og diabetes type II.
 
 Taljemålet er særligt relevant, fordi fedtet omkring maven giver øget risiko for sygdomme. I forbindelse med træning er taljemålet også et bedre mål for fedttab end vægt og BMI. Man kan nemlig godt blive tungere af træning, fordi man øger muskelmassen, men hvis man taber fedt, vil taljemålet formentlig falde.
 
-## Hvordan måles taljemålet?
+## Hvordan måles taljemålet (livvidden)?
 
-Hvordan måler du taljen? Og hvor måler man taljen?
+Hvordan måler du taljen (din livvidde)? Og hvor måles taljemål for mænd og kvinder?
 
 - Stå afslappet.
 - Sæt målebåndet omkring 2 cm over navlehøjde. 
@@ -56,7 +58,7 @@ Hvis du er i tvivl, kan du også mærke dig frem til punktet, som på siden af k
 
 {% include video provider="youtube" id="Cytz_9lMl68" %}
 
-### Normalværdier for taljemålet
+### Normalværdier for taljemålet (livvidde) for mænd og kvinder
 
 Studier med taljemål har vist, at man kan have forøget risiko for kredsløbssygdomme, hvis ens taljemål er højt.
 
@@ -69,7 +71,7 @@ Denne tabel er det [mest brugte skema og tabel til at vurdere taljemål for kvin
 
 Opstillingen er naturligvis meget forenklet, og målet tager således ikke højde for den enkeltes kropsbygning. Fx får man hurtigt et højt taljemål, hvis man er høj.
 
-[Bray (2004)](https://academic.oup.com/ajcn/article/79/3/347/4690117) har foreslået en opdeling med lidt flere kategorier for risici for livsstilssygdomme.
+[Bray (2004)](https://academic.oup.com/ajcn/article/79/3/347/4690117) har foreslået en opdeling for taljemålet og livvidden for mænd og kvinder med lidt flere kategorier for risici for livsstilssygdomme.
 
 |           | Kvinder   | Mænd        |
 |-----------|-----------|-------------|
@@ -78,7 +80,7 @@ Opstillingen er naturligvis meget forenklet, og målet tager således ikke højd
 | Høj       | 90-109 cm | 100-120 cm  |
 | Meget høj | > 110 cm  | > 120 cm    |
 
-### Fordele og ulemper ved taljemålet
+### Fordele og ulemper ved taljemålet (livvidde mål)
 
 **Fordelen ved taljemålet** er at det er en let måling at lave, og den kan give en indikation af, hvor fedtet er placeret på kroppen.
 
@@ -119,7 +121,7 @@ WHR kan afspejle den intraabdominale fedme. Ofte er WHR også knyttet sammen med
 
 {% include figure image_path="https://www.hellodoctor.co.za/wp-content/uploads/2013/12/Body-shapes.jpg" caption="Pæreformet og æbleformet" alt="Talje mål og hoftemål kan via talje-hofte-ratioen siger noget om fedtfordelingen. Kilde: [www.hellodoctor.co.za](https://www.hellodoctor.co.za/)" %}
 
-Hvordan måles taljemålet og hoftemålet som bruges til talje-hofte-ratioen, og hvor måler man hoften?
+Hvordan måles taljemålet (livvidden) og hoftemålet som bruges til talje-hofte-ratioen, og hvor måler man hoften?
 
 - Personen skal stå oprejst
 - Mål omkredsen af taljen ved midtpunktet på siden mellem nederste punkt at nederste ribben og øverste punkt af hoftekammen.
@@ -131,7 +133,7 @@ Du kan se mere i denne video om, hvordan man måler taljemålet og hoftemålet:
 
 ### Normalværdier for talje-hofte-målet for mænd og kvinder
 
-Normalværdierne for WHR er ifølge [Wikipedia](https://en.wikipedia.org/wiki/Waist%E2%80%93hip_ratio). Hvis du har højere værdier, så kan du være i en forhøjet risikogruppe for livsstilssygdomme.
+Normalværdierne for talje-hofte-målet (WHR) er ifølge [Wikipedia](https://en.wikipedia.org/wiki/Waist%E2%80%93hip_ratio). Hvis du har højere værdier, så kan du være i en forhøjet risikogruppe for livsstilssygdomme.
 
 |         | WHR     |
 |---------|---------|
@@ -148,7 +150,10 @@ I øjeblikket ser det ud til, at talje/højde-målet er det mest brugte mål i d
 
 ## Referencer til taljemål og hoftemål
 
-### Taljemål
+<details markdown="1">
+  <summary>Se referencer om taljemål, hoftemål og livvidde</summary>
+
+### Taljemål (livvidde)
 
 - Han, T. S., E. M. van Leer, J. C. Seidell, og M. E. Lean. 1995. “Waist Circumference Action Levels in the Identification of Cardiovascular Risk Factors: Prevalence Study in a Random Sample.” BMJ: British Medical Journal 311 (7017): 1401. <https://doi.org/10.1136/bmj.311.7017.1401>.
 - Han, T. S., E. M. van Leer, J. C. Seidell, og M. E. Lean. 1996. “Waist Circumference as a Screening Tool for Cardiovascular Risk Factors: Evaluation of Receiver Operating Characteristics (ROC)”. Obesity Research 4 (6): 533–47. <https://doi.org/10.1002/j.1550-8528.1996.tb00267.x>.
@@ -166,3 +171,4 @@ I øjeblikket ser det ud til, at talje/højde-målet er det mest brugte mål i d
 - [The Relationship Between Waist-Hip Ratio and Fertility](https://www.psychologytoday.com/us/blog/beastly-behavior/201706/the-relationship-between-waist-hip-ratio-and-fertility)
 - Butovskaya, M., A. Sorokowska, M. Karwowski, A. Sabiniewicz, J. Fedenok, D. Dronova, M. Negasheva, E. Selivanova, og P. Sorokowski. 2017. “Waist-to-Hip Ratio, Body-Mass Index, Age and Number of Children in Seven Traditional Societies”. Scientific Reports 7 (1): 1–9. <https://doi.org/10.1038/s41598-017-01916-9>.
 - World Health Organization (WHO). Waist Circumference and Waist-Hip Ratio. Report of a WHO Expert Consultation, 2008 - <https://apps.who.int/iris/bitstream/handle/10665/44583/9789241501491_eng.pdf;jsessionid=F00FF7FB19FE76C81824CD52AF7FD4D4?sequence=1>
+</summary>

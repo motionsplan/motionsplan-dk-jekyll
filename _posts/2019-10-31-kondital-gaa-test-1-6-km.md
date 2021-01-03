@@ -72,7 +72,7 @@ Hvor:
 
 ## Hvor god form er jeg i?
 
-Når du har lavet testen, så har du fået et kondital. Jeg har lavet en [tabel, hvor du kan sammenligne dit kondital med forskellige normer]({% link _posts/2019-11-04-kondital-og-tabel.md %}). Jeg har lavet et andet indlæg, hvor du kan se [flere konditionstests]({% link _posts/2019-11-04-kondition-og-test.md %}).
+Når du har lavet testen, så har du fået et kondital. Jeg har lavet en [tabel, hvor du kan sammenligne dit kondital med forskellige normer for kondital for mænd og kvinder]({% link _posts/2019-11-04-kondital-og-tabel.md %}). Jeg har lavet et andet indlæg, hvor du kan se [flere konditionstests]({% link _posts/2019-11-04-kondition-og-test.md %}).
 
 ## Referencer til 1,6 km gåtest
 

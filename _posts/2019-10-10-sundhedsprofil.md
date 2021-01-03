@@ -80,7 +80,7 @@ Avanceret sundhedsprofil
 
 ### Anslå kondition ud fra hvile- og maxpuls
 
-I sundhedstesten foreslås forskellige måder at teste kredsløbsfitness på. Hvis ikke du har tid til at lave en længerevarende fitnesstest, så kan du _estimere_ din test ud fra din hvile- og max-puls. **Husk at det er konditallet, du skal bruge i sundhedsprofilen.**
+I sundhedstesten foreslås forskellige måder at teste kredsløbsfitness på. Hvis ikke du har tid til at lave en længerevarende fitnesstest, så kan du _estimere_ din test ud fra din hvile- og [max-puls]({% link _posts/2020-06-02-max-hr.md %}). **Husk at det er konditallet, du skal bruge i sundhedsprofilen.**
 
 [Anslå kondital fra puls](/kondital-fra-puls/){: .btn .btn--large .btn--success }
 

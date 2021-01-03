@@ -53,6 +53,8 @@ Her er den [formel fra www.topendsports.com](https://www.topendsports.com/testin
 
 {% include math formula="kondital = \frac{483}{time} + 3,5" %}
 
+Du kan sammenligne dit [kondital i tabellen for kondital for mænd og kvinder](/kondital/).
+
 ## Konklusion om 2400-meter testen
 
 2400-meter testen bruges som en del af [Politiets optagelsesprøve]({% link _posts/2020-08-17-politiets-fysiske-tests.md %}).

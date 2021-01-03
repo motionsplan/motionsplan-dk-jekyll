@@ -83,6 +83,8 @@ For at finde den absolutte iltoptagelse dividerer vi med 1000 ml/l og ganger med
 
 {% include math formula="VO_2max = \frac{kondital * bodyweight}{1000}" %}
 
+Du kan sammenligne dit [kondital i tabellen for kondital for mænd og kvinder](/kondital/).
+
 ## Referencer
 
 - Uth, Niels, Henrik Sørensen, Kristian Overgaard, og Preben K. Pedersen. 2004. “Estimation of VO2max from the Ratio between HRmax and HRrest--the Heart Rate Ratio Method”. European Journal of Applied Physiology 91 (1): 111–15. <https://doi.org/10.1007/s00421-003-0988-y>.

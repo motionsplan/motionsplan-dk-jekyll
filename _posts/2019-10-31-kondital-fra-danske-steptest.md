@@ -83,7 +83,7 @@ Der findes en række andre steptests, som du også kan kigge på, hvis du gerne 
 - [Åstrands Steptest](https://netdoktor.dk/interactive/interactivetests/steptest.php)
 - [Harvard Steptest](https://en.wikipedia.org/wiki/Harvard_step_test)
 
-Vi har også lave en [oversigt over andre tests af konditallet]({% link _posts/2019-11-04-kondition-og-test.md %}), eller måske vil du sammenligne dit [kondital med en tabel]({% link _posts/2019-11-04-kondital-og-tabel.md %})?
+Vi har også lave en [oversigt over andre tests af konditallet]({% link _posts/2019-11-04-kondition-og-test.md %}), eller måske vil du sammenligne dit [kondital med en tabel for mænd og kvinder]({% link _posts/2019-11-04-kondital-og-tabel.md %})?
 
 ## Referencer om Den Danske Steptest
 

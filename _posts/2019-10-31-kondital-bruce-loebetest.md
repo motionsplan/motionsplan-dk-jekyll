@@ -72,6 +72,8 @@ Hvor T er er tiden i minutter, du har løbet i Bruce-testen.
 
 Men på [www.topendsports.com](https://www.topendsports.com/testing/tests/bruce.htm) kan du også finde formler rettet mod mænd og kvinder i forhold til alder.
 
+Du kan sammenligne dit [kondital i tabellen for kondital for mænd og kvinder](/kondital/).
+
 Skriv endelig i kommentarerne, hvis du har brug for en online-beregner til Bruce-testen, så laver vi gerne en.
 
 ## Referencer om Bruce Test

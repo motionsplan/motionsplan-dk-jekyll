@@ -50,6 +50,8 @@ I beregneren er brugt formler fra Tokmakidis et al (1987) fra Tabel 1.
 
 Du kan også bruge en [Cooper Test til at finde dit kondital]({% link _posts/2019-10-31-kondital-cooper.md %}) eller se alle de andre måder at lave en [beregning af dit kondital](/beregn-kondital/). Tjek også alle de andre [konditionstests](/kondition/tests/).
 
+Du kan sammenligne dit [kondital i tabellen for kondital for mænd og kvinder](/kondital/).
+
 ## Reference
 
 - Tokmakidis, S. P., L. Léger, D. Mercier, F. Péronnet, og G. Thibault. 1987. “New Approaches to Predict VO2max and Endurance from Running Performances”. The Journal of Sports Medicine and Physical Fitness 27 (4): 401–9. <https://pubmed.ncbi.nlm.nih.gov/3444324/>

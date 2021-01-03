@@ -90,6 +90,8 @@ I beregneren ovenfor har jeg brugt formlerne fra Buono et al (1989) til at estim
 - kvinder: VO<sub>2</sub>max = (0.00193 x workload + 0.326) / (0.769 x HRss - 56.1) x 100
 - mænd: VO<sub>2max</sub> = (0.00212 x workload + 0.299) / (0.769 x HRss - 48.5) x 100
 
+Du kan sammenligne dit [kondital i tabellen for kondital for mænd og kvinder](/kondital/).
+
 ## Alderskorrektion til etpunktstesten
 
 Til Åstrands etpunktstest giver de mest pålidelige resultater, hvis du korrigerer for alder. I beregneren ovenfor korrigerer jeg for alder med følgende formel fra Buono et al (1989).

@@ -17,7 +17,7 @@ last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 ---
 
-Du kan beregne dit kondital på mange forskellige måder. Vi har samlet forskellige måder at lave beregning af dit kondital på, så hvis du leder efter en "kondital beregner", så er du kommet til den helt rigtige side.
+Du kan beregne dit kondital på mange forskellige måder. Vi har samlet forskellige måder at lave beregning af dit kondital på, så hvis du leder efter en "kondital beregner", så kan du her finde beregnere og metoder til udregning af konditallet.
 
 Du kan også beregne dit kondital på baggrund af løbetests, en tur på roergometer eller efter at have kørt en tur på cyklen.
 

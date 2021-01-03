@@ -1,7 +1,7 @@
 ---
 title: &title "Kondition: Hvad er et godt, højt kondital? [Tabel] 💗"
 permalink: /kondital/
-excerpt: "Hvad er et godt, højt kondital? Se dit kondital i en tabel. Hvordan finder du dit kondital? Her er forskellige metoder til udregning og beregnere til kondital."
+excerpt: "Hvad er et godt, højt kondital og hvordan finder du det? Se kondital for mænd, kvinder og børn i tabel. Find metoder til at teste til kondital."
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1571008887538-b36bb32f4571?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80
@@ -19,13 +19,13 @@ feature_row:
   - image_path: https://books.google.dk/books/content?id=BC9SiAsUPqsC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70NFS4lEU6whWCqlyrgOGErL5OJe7YUn-qJQJ5_NuL_euKqiLC3Uf1qDPx-lSIhDDhVIpgexBiz5cdAiKXbtccrKfOlel8OTdj9EgWhSXwkff-qWaHaQt5WU1MvzRP65Jcjll3V
     alt: "Textbook of Work Physiology"
     title: "Textbook of Work Physiology - Åstrand m.fl."
-    excerpt: "This updated and revised fourth edition of the respected Textbook of Work Physiology combines classical issues in exercise and work physiology with the latest scientific findings. The result is an outstanding professional reference that will be indispensable to advanced students, physiologists, clinicians, physical educators--any professional pursuing study of the body as a working machine."
+    excerpt: "En klassisk bog om arbejdsfysiologi, hvor du kan læse meget mere om kondition og kondital. I bogen finder du også forskellige tabeller over kondital, som du kan sammenligne dig med."
     url: "https://books.google.dk/books/about/Textbook_of_Work_Physiology.html?id=BC9SiAsUPqsC&redir_esc=y"
     btn_label: "Læs mere"
     btn_class: "btn--success"
 ---
 
-Konditallet siger meget om, hvordan din krop fungerer. Jeg har skrevet lidt om, hvad konditallet er, og hvad et godt, højt kondital er.
+Konditallet siger meget om, hvordan din krop fungerer. Jeg har skrevet lidt om, hvad konditallet er, og hvad et godt, højt kondital er for både mænd, kvinder og børn.
 
 *[BMI]: Body Mass Index
 

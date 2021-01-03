@@ -69,7 +69,7 @@ Hvilestofskiftet er cirka [0,25 liter O<sub>2</sub> pr. minut](http://www.fys.dk
 
 Ud fra disse præmisser så kan den maksimale arbejdsbelastning (work<sub>max</sub>) omregnes til en estimeret iltoptagelse.
 
-[Formlen](https://www.viivaa.dk/b/kondital/) ser sådan her ud:
+[Formlen](https://www.viivaa.dk/b/kondital/) til at udregne VO<sub>2</sub>max ser sådan her ud:
 
 {% include math formula="VO_2max = \frac{work_{max}}{0,23} * \frac{60}{21100} + 0,25" %}
 
@@ -78,6 +78,8 @@ Du kan så beregne konditallet ved at gange maksimale iltoptagelse (VO<sub>2</su
 {% include math formula="kondital = \frac{VO_2max (l/min) * 1000 (ml/l)}{bodyweight (kg)}" %}
 
 Hvis du har brug for et regneark til at beregne værdierne i Åstrands topunktstest, så skriv endelig i kommentarerne, så vil jeg gerne lave sådan et.
+
+Du kan sammenligne dit [kondital i tabellen for kondital for mænd og kvinder](/kondital/).
 
 ## Usikkerheder i Åstrands topunktstest?
 

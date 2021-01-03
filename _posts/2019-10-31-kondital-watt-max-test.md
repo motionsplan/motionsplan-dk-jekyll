@@ -79,6 +79,8 @@ Og til sidst finder du konditallet som er ml/kg/min:
 
 {% include math formula="Kondital = \frac{VO_2max * 1000}{weight}" %}
 
+Du kan sammenligne dit [kondital med tabellen for mænd og kvinder](/kondital/).
+
 ## Watt max-test på Wattbike
 
 Du kan køre testen på en Wattbike ved at bruge tabellerne, der omsætter modstanden til watt [Power, Resistance and Cadence Tables for Wattbike](https://support.wattbike.com/hc/da/articles/115001881825-Power-Resistance-and-Cadence-Tables). Dog skal du lige kalibrere om det også passer med, hvad du træder. På en Wattbike kan testlederen hele tiden holde øje med, at man træder det korrekte antal watt.
