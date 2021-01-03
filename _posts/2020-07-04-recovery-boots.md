@@ -24,11 +24,11 @@ feature_row:
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55636&htmlurl=https://www.optimasport.dk/produkt/koeb-recovery-boots-og-opnaa-hurtigere-restitution/
     btn_label: "Pris hos optimasport.dk*"
     btn_class: "btn--success"
-  - image_path: https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=72365
+  - image_path: https://yourboots.dk/wp-content/uploads/2019/06/yourboots_model_ultimate.jpg
     alt: "Yourboots.dk vakuumbukser og recovery boots"
     title: "Vakuumbukser og recovery boots"
     excerpt: "Yourboots.dk har et stort udvalg i vakuumbukser og recovery boots. Der er både versioner, du kan bruge til at rejse eller større setups til hjemmetræning og restitution."
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=72365
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=71899&htmlurl=https://yourboots.dk/en/product/recovery-boots-model-ultimate/
     btn_label: "Pris hos yourboots.dk*"
     btn_class: "btn--info"
 ---
