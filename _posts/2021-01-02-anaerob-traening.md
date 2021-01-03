@@ -9,7 +9,6 @@ header:
 category:
   - Kondition
 tags:
-  - konditionstest
   - anaerob træning
   - energisystemer
 last_modified_at: 2021-01-02T10:14:14Z
