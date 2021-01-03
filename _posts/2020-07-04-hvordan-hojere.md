@@ -15,26 +15,17 @@ tags:
 last_modified_at: 2020-07-04T08:12:14Z
 toc: true
 feature_row:
-  - image_path: https://apuls.dk/image/catalog/Produkter/traeningsudstyr/fitwood/trolleveggen/FitWood_TROLLVEGGEN_chin_bar_pull_up_bar_white_wood_steel_bar_product_image1.jpg
+  - image_path: https://apuls.dk/img/900/900/resize/1/2/1240420_1.jpg
     alt: "Fitwood Pullupbar"
-    title: "Fitwood Pullupbar"
     excerpt: "FitWood Trollveggen dørribbe er en multifunktionel chin-up/pull-up bar i lækkert scandinavisk design."
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/fitwood-trollveggen-dorribbe-hvid
-    btn_label: "Pris hos Apuls"
+    btn_label: "Pris hos Apuls*"
     btn_class: "btn--success"
-  - image_path: https://apuls.dk/image/catalog/produkter-kina/pull-up-bar-lille/1.jpg
+  - image_path: https://apuls.dk/img/900/900/resize/A/p/Apuls0136_1.jpg
     alt: "cPro9 Pullupbar"
-    title: "cPro9 Pullupbar"
     excerpt: "cPro9 Pull Up Bar til dør, som er let monteres i en døråbning. Baren giver dig mange forskellige muligheder for greb."
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/fitwood-trollveggen-dorribbe-hvid
-    btn_label: "Pris hos Apuls"
-    btn_class: "btn--success"
-  - image_path: https://apuls.dk/image/catalog/produkter-kina/gravity-boots/0.jpg
-    alt: "Gravity Boots"
-    title: "Gravity Boots"
-    excerpt: "cPro9 Gravity Boots er ret komfortable, lette at spænde på og lette at få til at hænge på stangen"
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/cpro9-gravity-boots
-    btn_label: "Pris hos Apuls"
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/cpro9-pullup-bar-m-baelte-i-laeder-pakketilbud
+    btn_label: "Pris hos Apuls*"
     btn_class: "btn--success"
 ---
  

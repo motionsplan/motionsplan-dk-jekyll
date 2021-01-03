@@ -1,11 +1,12 @@
 ---
-title: "Hvad er forskellen på anatomi og fysiologi?"
+title: &title "Hvad er forskellen på anatomi og fysiologi?"
 permalink: /forskel-anatomi-fysiologi/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1514672013381-c6d0df1c8b18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=80
   teaser: https://images.unsplash.com/photo-1514672013381-c6d0df1c8b18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
-  caption: "Photo by Jesper Aggergaard on Unsplash"
+  caption: *title
+  alt: "Photo by Jesper Aggergaard on Unsplash"
   overlay_filter: 0.2
 category:
   - Viden om
@@ -94,7 +95,7 @@ Anatomi omfatter viden om:
 - [Knogler]({% link _pages/anatomy/bones.md %})
 - [Led]({% link _pages/anatomy/joints.md %})
 - Bevægelsestyper
-- [Muskler](({% link _pages/anatomy/muscles.md %}))
+- [Muskler]({% link _pages/anatomy/muscles.md %})
 
 Hvis du vil læse mere om anatomi, så har [Saxo nogle rigtig gode titler](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/alle/tags_anatomi){:rel="nofollow"}.
 

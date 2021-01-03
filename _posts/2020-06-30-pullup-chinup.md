@@ -16,23 +16,23 @@ tags:
 last_modified_at: 2020-06-11T08:14:14Z
 toc: true
 feature_row:
-  - image_path: https://apuls.dk/image/catalog/Produkter/traeningsudstyr/fitwood/trolleveggen/FitWood_TROLLVEGGEN_chin_bar_pull_up_bar_white_wood_steel_bar_product_image1.jpg
+  - image_path: https://apuls.dk/img/900/900/resize/1/2/1240420_1.jpg
     alt: "Fitwood Pullupbar"
     excerpt: "FitWood Trollveggen dørribbe er en multifunktionel chin-up/pull-up bar i lækkert scandinavisk design."
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/fitwood-trollveggen-dorribbe-hvid
     btn_label: "Pris hos Apuls*"
     btn_class: "btn--success"
-  - image_path: https://apuls.dk/image/catalog/produkter-kina/pull-up-bar-lille/1.jpg
+  - image_path: https://apuls.dk/img/900/900/resize/A/p/Apuls0136_1.jpg
     alt: "cPro9 Pullupbar"
     excerpt: "cPro9 Pull Up Bar til dør, som er let monteres i en døråbning. Baren giver dig mange forskellige muligheder for greb."
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/fitwood-trollveggen-dorribbe-hvid
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/cpro9-pullup-bar-m-baelte-i-laeder-pakketilbud
     btn_label: "Pris hos Apuls*"
     btn_class: "btn--success"
 ---
 
 Pull ups og chinups er en fast del af min træning, og jeg synes alle bør mestre en kropshævning. Men hvad er forskellen egentlig på chinups og pullups?
 
-**Pull ups er kropshævninger med overhåndsgreb og chinups er kropsæhævninger med underhåndsgreb. Begge øvelser kan laves i forskellige variationer med forskellige bredder af greb. Kropshævninger træner den brede rygmuskel og armbøjerne.**
+Hvad er pullups? **Pull ups er kropshævninger med overhåndsgreb og chinups er kropsæhævninger med underhåndsgreb. Begge øvelser kan laves i forskellige variationer med forskellige bredder af greb. Kropshævninger træner den brede rygmuskel og armbøjerne.**
 
 Kropshævninger et et vigtigt funktionelt bevægelsesmønster, som bør være et element i træning. Typisk skelner man mellem chinpus og pullups i forhold grebet, men du kan også lave kropshævninger med neutralt greb, hvor håndfladerne vender mod hinanden.
 
