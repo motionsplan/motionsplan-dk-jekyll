@@ -14,9 +14,15 @@ toc_sticky: true
 author_profile: true
 sidebar:
   nav: anatomi
+feature_row:
+  - image_path: https://citatplakat.dk/wp-content/uploads/2020/11/Plakat-med-menneskets-skelet-AN10028.png
+    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/skelettet-anatomi-plakat-2/
+    title: Skelettet - Anatomi plakat
 ---
 
-Skelettet består af knogler. Jeg beskriver her lidt om anatomi og de forskellige knogler i kroppen. Knoglerne i menneskekroppen findes i forskellige knogletyper. Jeg kommer ind på rørknogler, uregelmæssige knogler, flade knogler og korte knogler. 
+Skelettet består af knogler. Jeg beskriver her lidt om anatomi og de forskellige knogler i kroppen. Knoglerne i menneskekroppen findes i forskellige knogletyper. Jeg kommer ind på rørknogler, uregelmæssige knogler, flade knogler og korte knogler.
+
+{% include gallery id="feature_row" caption="Se flere [anatomiplakater med skeletter og muskler hos plakaterne.dk](https://www.plakaterne.dk/anatomi-anatomiplakater-muskler-skeletter/)." %}
 
 ## Hvad er skelettet og knoglernes funktion?
 

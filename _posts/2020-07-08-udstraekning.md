@@ -21,21 +21,21 @@ feature_row:
     title: "Facilitated Stretching"
     excerpt: "See inside every stretch as you increase flexibility and improve muscular strength. Expanded, enhanced, and updated, the best-selling Stretching Anatomy returns to show you how to increase range of motion, supplement training, enhance recovery, and maximize efficiency of movement."
     alt: "Stretching Anatomy af Arnold G. Nelson, Jouko J. Kokkonen om anatomi og udstrækning"
-    btn_label: "Tjek prisen hos Tales"
+    btn_label: "Tjek prisen hos Tales*"
     btn_class: "btn--warning"
   - image_path: https://cdn6.tales.dk/00098/14031/cover.1572457859.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/performance-stretching_deborah-ellison_9780880117746
     title: "Performance Stretching"
     excerpt: "Deborah Ellison presents a new way to stretch, one that combines the mechanically sound concept of complete chain exercise for stability, strength and optimal flexibility. It also incorporates proven performance benefits of functional training."
     alt: "Performance Stretching af Deborah Ellison"
-    btn_label: "Tjek prisen hos Tales"
+    btn_label: "Tjek prisen hos Tales*"
     btn_class: "btn--warning"
   - image_path: https://cdn6.tales.dk/00024/08273/cover.1577053163.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/facilitated-stretching_robert-e-mcatee_9781450434317
     title: "Facilitated Stretching"
     excerpt: "A resource for proprioceptive neuromuscular facilitation (PNF) stretching, an effective and easy-to-use method that involves stretching the muscle, contracting it isometrically against resistance and then stretching it again to increase range of motion."
     alt: "Facilitated Stretching om PNF udstrækning"
-    btn_label: "Tjek prisen hos Tales"
+    btn_label: "Tjek prisen hos Tales*"
     btn_class: "btn--warning"
 ---
 

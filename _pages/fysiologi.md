@@ -37,6 +37,19 @@ toc_sticky: true
 sidebar:
   nav: anatomi
 author_profile: true
+gallery:
+  - image_path: https://citatplakat.dk/wp-content/uploads/2020/11/Plakat-om-menneskets-vejrtraekning-AN10030.png
+    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/det-respiratoriske-system-anatomi-plakat/
+    title: Det respiratoriske system - Anatomi plakat
+  - image_path: "https://citatplakat.dk/wp-content/uploads/2020/11/Plakat-om-kroppens-bloda%CC%8Are-AN10013.png"
+    url: "https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/blodkredsloebet-anatomi-plakat/"
+    title: "Blodkredsløbet - Anatomi plakat"
+    vendor: "Citatplakat.dk"
+    category: "Anatomi plakater > Plakater > Plakater til kontoret"
+    price: 129.00
+    old_price: 129.00
+    discounted: false
+    id: "59381"
 ---
 
 Hvad er fysiologi? **Fysiologi er læren om kroppens forskellige organsystemer og deres funktioner i hvile og under fysisk aktivitet. Fysiologien beskæftiger sig med den sunde krop under normale betingelser.**
@@ -56,6 +69,10 @@ Hvis du vil forstå, hvordan træning virker i kroppen, så er det godt at dykke
 {% endif %}
 
 </div>
+
+## Plakater med fysiologi
+
+{% include gallery id="gallery" caption="Se flere [anatomiplakater hos plakaterne.dk](https://www.plakaterne.dk/anatomi-anatomiplakater-muskler-skeletter/)." %}
 
 ## Anbefalelsesværdige bøger om fysiologi
 

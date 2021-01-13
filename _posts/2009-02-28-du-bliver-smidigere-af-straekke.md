@@ -14,6 +14,28 @@ tags:
 category:
   - Yoga
 last_modified_at: 2020-07-07T11:45:14Z
+feature_row:
+  - image_path: https://cdn6.tales.dk/00115/65340/cover.1569373580.jpg
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/stretching-anatomy_arnold-g-nelson_9781492577775
+    title: "Facilitated Stretching"
+    excerpt: "See inside every stretch as you increase flexibility and improve muscular strength. Expanded, enhanced, and updated, the best-selling Stretching Anatomy returns to show you how to increase range of motion, supplement training, enhance recovery, and maximize efficiency of movement."
+    alt: "Stretching Anatomy af Arnold G. Nelson, Jouko J. Kokkonen om anatomi og udstrækning"
+    btn_label: "Tjek prisen hos Tales*"
+    btn_class: "btn--warning"
+  - image_path: https://cdn6.tales.dk/00098/14031/cover.1572457859.jpg
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/performance-stretching_deborah-ellison_9780880117746
+    title: "Performance Stretching"
+    excerpt: "Deborah Ellison presents a new way to stretch, one that combines the mechanically sound concept of complete chain exercise for stability, strength and optimal flexibility. It also incorporates proven performance benefits of functional training."
+    alt: "Performance Stretching af Deborah Ellison"
+    btn_label: "Tjek prisen hos Tales*"
+    btn_class: "btn--warning"
+  - image_path: https://cdn6.tales.dk/00024/08273/cover.1577053163.jpg
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/facilitated-stretching_robert-e-mcatee_9781450434317
+    title: "Facilitated Stretching"
+    excerpt: "A resource for proprioceptive neuromuscular facilitation (PNF) stretching, an effective and easy-to-use method that involves stretching the muscle, contracting it isometrically against resistance and then stretching it again to increase range of motion."
+    alt: "Facilitated Stretching om PNF udstrækning"
+    btn_label: "Tjek prisen hos Tales*"
+    btn_class: "btn--warning"
 ---
 
 **Du bliver smidigere af udstrækning, den maksimale styrke kan være nedsat lige efter udspændingsøvelser og utrænede får tilsyneladende præstationsfremgang efter længerevarende smidighedstræning.**
@@ -81,9 +103,15 @@ Samtidig bliver man **smidigere af udstrækning**, og der er chance for, at tilb
 
 ## Referencer til udspænding og udstrækning
 
+{% include feature_row type="left" %}
+
+<details markdown="1">
+  <summary>Se referencer om udspænding og udstrækning</summary>
+
 - Knudson, Duane V., Peter Magnusson, og Malachy McHugh. 2000. “Current Issues In Flexibility Fitness”. President’s Council on Physcial Fitness and Sports. Research Digest 3 (10). <http://www.presidentschallenge.org/misc/news_research/research_digests/59131a.pdf>.
 - Shrier, I., og K. Gossal. 2000. “Myths and Truths of Stretching: Individualized Recommendations for Healthy Muscles”. The Physician and Sportsmedicine 28 (8): 57–63. <https://doi.org/10.3810/psm.2000.08.1159>.
 - Magnusson, Peter S. (1998): A Biomechanical Evaluation of Human Skeletal Muscle During Stretch, Lægeforeningens Forlag, København
 - Aagaard, Per (2003): "Nyeste viden om nervesystemets tilpasninger til tung styrketræning på motion-online.dk
 - Kokkonen, Joke, Arnold G. Nelson, Carol Eldredge, og Jason B. Winchester. 2007. “Chronic Static Stretching Improves Exercise Performance”. Medicine and Science in Sports and Exercise 39 (10): 1825–31. <https://doi.org/10.1249/mss.0b013e3181238a2b>.
 - Herbert, Rob D, og Michael Gabriel. 2002. “Effects of stretching before and after exercising on muscle soreness and risk of injury: systematic review”. BMJ: British Medical Journal 325 (7362): 468. <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC119442/>.
+</summary>
