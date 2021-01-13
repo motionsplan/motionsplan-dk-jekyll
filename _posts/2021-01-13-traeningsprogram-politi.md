@@ -89,7 +89,7 @@ Til forlårene foreslår vi øvelser som [pistols](/oevelse/pistol/), lunges, ju
 
 ## Eksempler på hjemmetræning i forhold til politiets optagelsesprøve
 
-Programmerne er ugentlige, og du bør køre et program i mindst fire uger, inden du laver et nyt program. Fra træning til træning og fra uge til uge, kan du langsomt øge antallet af sæt og antallet af gentagelser.
+Programmerne er ugentlige, og du bør køre et program i mindst fire uger, inden du laver et nyt program. Fra træning til træning og fra uge til uge, kan du langsomt øge antallet af sæt og antallet af gentagelser. Du kan også bruge [forskellige metoder til at gøre kropsvægtstræningen mere effektiv](/metoder-hjemmetraening-kropsvaegt-mere-effektiv/). Måske kan du endda lade dig inspirere af vores [kropsvægtsøvelser](/artikel/traening-med-kropsvaegt/). God fornøjelse med træningen i hvert fald.
 
 ### Ugentligt begyndertræningsprogram
 
