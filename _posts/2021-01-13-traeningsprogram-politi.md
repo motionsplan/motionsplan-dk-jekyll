@@ -212,3 +212,7 @@ Programmerne er ugentlige, og du bør køre et program i mindst fire uger, inden
 #### Lørdag:
 
 - 50 min roligt jog
+
+## Andre forslag til træningsprogrammer og træningsøvelser
+
+Når du træner til politiets optagelsesprøve, så gælder det om at være i generelt god form. Vi har andre forslag til [styrketræningsprogrammer og træningsprogrammer](/traeningsprogrammer/). Når det skal være med kropsvægt, så kan du også lade dig inspirere af dette benhårde [benprogram, som også er med til at forebygge skader](/skadesforebyggelse-skadesforebyggende-traening/). Hvis du mere er typen, der gerne vil have en god workout, så kan du tjekke nogle af Mette Bjerres [Corona-hjemmetrænings workouts og træningsprogrammer](/hjaemmetraening-corona-workouts/).
