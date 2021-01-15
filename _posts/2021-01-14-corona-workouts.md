@@ -16,38 +16,118 @@ tags:
   - træningsprogram
   - øvelser
 gallery:
-  - image_path: /assets/images/corona/MB_ CW1.png
-    url: /assets/images/corona/MB_ CW1.png
+  - image_path: /assets/images/corona/CW01.png
+    url: /assets/images/corona/CW01.png
     title: "Corona Workout Hjemmetræning Day 1"
     alt: "Corona Workout Hjemmetræning Day 1"
-  - image_path: /assets/images/corona/MB_ CW2.png
-    url: /assets/images/corona/MB_ CW2.png
+  - image_path: /assets/images/corona/CW02.png
+    url: /assets/images/corona/CW02.png
     title: "Corona Workout Hjemmetræning Day 2"
     alt: "Corona Workout Hjemmetræning Day 2"
-  - image_path: /assets/images/corona/MB_ CW3.png
-    url: /assets/images/corona/MB_ CW3.png
-    title: "Corona Workout Hjemmetræning Day 3"
-    alt: "Corona Workout Hjemmetræning Day 3"
-  - image_path: /assets/images/corona/MB_ CW4.png
-    url: /assets/images/corona/MB_ CW4.png
-    title: "Corona Workout Hjemmetræning Day 4"
-    alt: "Corona Workout Hjemmetræning Day 4"
-  - image_path: /assets/images/corona/MB_ CW5.png
-    url: /assets/images/corona/MB_ CW5.png
-    title: "Corona Workout Hjemmetræning Day 5"
-    alt: "Corona Workout Hjemmetræning Day 5"
-  - image_path: /assets/images/corona/MB_ CW6.png
-    url: /assets/images/corona/MB_ CW6.png
-    title: "Corona Workout Hjemmetræning Day 6"
-    alt: "Corona Workout Hjemmetræning Day 6"
-  - image_path: /assets/images/corona/MB_ CW7.png
-    url: /assets/images/corona/MB_ CW7.png
-    title: "Corona Workout Hjemmetræning Day 7"
-    alt: "Corona Workout Hjemmetræning Day 7"
-  - image_path: /assets/images/corona/MB_ CW13.png
-    url: /assets/images/corona/MB_ CW13.png
-    title: "Corona Workout Hjemmetræning Day 13"
-    alt: "Corona Workout Hjemmetræning Day 13"
+  - image_path: /assets/images/corona/CW03.png
+    url: /assets/images/corona/CW03.png
+    title: "Corona Workout Hjemmetræning Day 2"
+    alt: "Corona Workout Hjemmetræning Day 2"
+  - image_path: /assets/images/corona/CW04.png
+    url: /assets/images/corona/CW04.png
+    title: "Corona Workout Hjemmetræning Day 2"
+    alt: "Corona Workout Hjemmetræning Day 2"
+  - image_path: /assets/images/corona/CW05.png
+    url: /assets/images/corona/CW05.png
+    title: "Corona Workout Hjemmetræning Day 2"
+    alt: "Corona Workout Hjemmetræning Day 2"
+  - image_path: /assets/images/corona/CW06.png
+    url: /assets/images/corona/CW06.png
+    title: "Corona Workout Hjemmetræning Day 2"
+    alt: "Corona Workout Hjemmetræning Day 2"
+  - image_path: /assets/images/corona/CW07.png
+    url: /assets/images/corona/CW07.png
+    title: "Corona Workout Hjemmetræning Day 2"
+    alt: "Corona Workout Hjemmetræning Day 2"
+  - image_path: /assets/images/corona/CW08.png
+    url: /assets/images/corona/CW08.png
+    title: "Corona Workout Hjemmetræning Day 2"
+    alt: "Corona Workout Hjemmetræning Day 2"
+  - image_path: /assets/images/corona/CW09.png
+    url: /assets/images/corona/CW09.png
+    title: "Corona Workout Hjemmetræning Day 2"
+    alt: "Corona Workout Hjemmetræning Day 2"
+  - image_path: /assets/images/corona/CW10.png
+    url: /assets/images/corona/CW10.png
+    title: "Corona Workout Hjemmetræning Day 2"
+    alt: "Corona Workout Hjemmetræning Day 2"
+  - image_path: /assets/images/corona/CW11.png
+    url: /assets/images/corona/CW11.png
+    title: "Corona Workout Hjemmetræning Day 2"
+    alt: "Corona Workout Hjemmetræning Day 2"
+  - image_path: /assets/images/corona/CW12.png
+    url: /assets/images/corona/CW12.png
+    title: "Corona Workout Hjemmetræning Day 2"
+    alt: "Corona Workout Hjemmetræning Day 2"
+  - image_path: /assets/images/corona/CW13.png
+    url: /assets/images/corona/CW13.png
+    title: "Corona Workout Hjemmetræning Day 2"
+    alt: "Corona Workout Hjemmetræning Day 2"
+  - image_path: /assets/images/corona/CW14.png
+    url: /assets/images/corona/CW14.png
+    title: "Corona Workout Hjemmetræning Day 2"
+    alt: "Corona Workout Hjemmetræning Day 2"
+  - image_path: /assets/images/corona/CW15.png
+    url: /assets/images/corona/CW15.png
+    title: "Corona Workout Hjemmetræning Day 2"
+    alt: "Corona Workout Hjemmetræning Day 2"
+  - image_path: /assets/images/corona/CW16.png
+    url: /assets/images/corona/CW16.png
+    title: "Corona Workout Hjemmetræning Day 2"
+    alt: "Corona Workout Hjemmetræning Day 2"
+  - image_path: /assets/images/corona/CW17.png
+    url: /assets/images/corona/CW17.png
+    title: "Corona Workout Hjemmetræning Day 2"
+    alt: "Corona Workout Hjemmetræning Day 2"
+  - image_path: /assets/images/corona/CW18.png
+    url: /assets/images/corona/CW18.png
+    title: "Corona Workout Hjemmetræning Day 2"
+    alt: "Corona Workout Hjemmetræning Day 2"
+  - image_path: /assets/images/corona/CW19.png
+    url: /assets/images/corona/CW19.png
+    title: "Corona Workout Hjemmetræning Day 2"
+    alt: "Corona Workout Hjemmetræning Day 2"
+  - image_path: /assets/images/corona/CW20.png
+    url: /assets/images/corona/CW20.png
+    title: "Corona Workout Hjemmetræning Day 2"
+    alt: "Corona Workout Hjemmetræning Day 2"
+  - image_path: /assets/images/corona/CW21.png
+    url: /assets/images/corona/CW21.png
+    title: "Corona Workout Hjemmetræning Day 2"
+    alt: "Corona Workout Hjemmetræning Day 2"
+  - image_path: /assets/images/corona/CW22.png
+    url: /assets/images/corona/CW22.png
+    title: "Corona Workout Hjemmetræning Day 2"
+    alt: "Corona Workout Hjemmetræning Day 2"
+  - image_path: /assets/images/corona/CW23.png
+    url: /assets/images/corona/CW23.png
+    title: "Corona Workout Hjemmetræning Day 2"
+    alt: "Corona Workout Hjemmetræning Day 2"
+  - image_path: /assets/images/corona/CW24.png
+    url: /assets/images/corona/CW24.png
+    title: "Corona Workout Hjemmetræning Day 2"
+    alt: "Corona Workout Hjemmetræning Day 2"
+  - image_path: /assets/images/corona/CW25.png
+    url: /assets/images/corona/CW25.png
+    title: "Corona Workout Hjemmetræning Day 2"
+    alt: "Corona Workout Hjemmetræning Day 2"
+  - image_path: /assets/images/corona/CW26.png
+    url: /assets/images/corona/CW26.png
+    title: "Corona Workout Hjemmetræning Day 2"
+    alt: "Corona Workout Hjemmetræning Day 2"
+  - image_path: /assets/images/corona/CW27.png
+    url: /assets/images/corona/CW27.png
+    title: "Corona Workout Hjemmetræning Day 2"
+    alt: "Corona Workout Hjemmetræning Day 2"
+  - image_path: /assets/images/corona/CW28.png
+    url: /assets/images/corona/CW28.png
+    title: "Corona Workout Hjemmetræning Day 2"
+    alt: "Corona Workout Hjemmetræning Day 2"
 feature_row_ads:
   - image_path: /assets/images/logo/apuls.png
     alt: "Apuls"
@@ -81,66 +161,28 @@ feature_row_ads:
 
 Vi har lavet en række Corona workouts, som du kan bruge til din hjemmetræning under nedlukningen. I alt er der 28 workouts, som du kan bruge de næste 28 dage for at holde formen oppe under lockdown.
 
-De enkelte workouts kan laves uden udstyr. 
+I øjeblikket kan man ikke så let komme i træningscenteret, og på [Vejle Idrætshøjskole](https://www.vih.dk/) kan vi pga. restriktioner i forhold til Corona ikke få elever på skolen. Derfor har Mette Bjerre lavet en række workouts og suppleret af unglærerene, Simon og Michelle, så har du her mulighed for en hel perlerække af Corona workouts, du kan lave som hjemmetræning i Corona Lockdown. De enkelte workouts kan laves uden udstyr, men det er nogle hårde workouts.
 
-***
+## Hvordan laver jeg Corona Workouts?
 
+Mange af de enkelte workouts er på tid, men hvis du kører hver eneste workout _allout_ i de 28 dage, så kan det nok være svært helt at holde til det.
 
-her samlet nogle øvelser til hjemmetræning og et hjemmetræningsprogram, som du kan lave hjemme uden udstyr. Du kan lave de enkelte workouts både indendørs og udendørs. Hjemmetræning kan være en yderst effektiv måde at træne på, og disse øvelser og programmer er meget motiverende.
+Derfor kan du alt efter dagsformen lave nogle af de enkelte workouts i lidt lavere tempo, så du ikke brænder helt ud til sidst.
 
-Mette Bjerre som underviser på [Vejle Idrætshøjskole](https://www.vih.dk) har lavet nedenstående Corona-workouts, som du kan træne hjemme uden udstyr. Mette Bjerre var inspireret af eleverne til at lave en række knaldhårde træningsprogrammer, som du kan bruge i din hjemmetræning.
+## Vis mig Corona Workouts
 
-## Træningsprogram til hjemmetræning
+Her kan du se den komplette liste over Corona Workouts. God træning.
 
-{% include gallery caption="Øvelser til hjemmetræning og et hjemmetræningsprogram lavet af @mette_bjerre fra @vihdk" layout="half" %}
+{% include gallery id="gallery" %}
 
-Mette lavede i alt workouts til 21 dage. Hvis du er interesseret i flere workouts, så skriv endelig i kommentarerne, så skal jeg gøre endnu flere øvelser og træningsprogrammer klar til hjemmesiden.
+## Læs mere om hjemmetræning og kropsvægtstræning
 
-## Øvelser til hjemmetræning
+Hjemmetræning og kropsvægtstræning er oplagt at lave i nedlukningen under Corona. Du kan altså sagtens lave dine egne Corona Workouts. Fx kan du læse mere om [øvelser til hjemmetræning](/hjaemmetraening-corona-workouts/). Vi har skrevet andre artikler, der handler om [træning med kropsvægt]({% link _posts/2009-08-04-traening-med-kropsvaegt.md %}) eller [udendørs træning]({% link _posts/2012-07-31-naturfitness.md %}), hvor der også er masser af inspiration at finde til dine Corona Workouts.
 
-Da Coronaen lukkede Danmark ned, så steg søgningen efter "hjemmetræning" på Google ganske markant.
+## Har jeg brug for udstyr til Corona Workouts?
 
-{% include figure image_path="/assets/images/blog/hjemmetraening.png" caption="Søgning efter hjemmetræning på Google" %}
-
-Rigtig mange sider begyndte at lave træningsprogrammer til hjemmetræning. Sportmaster [lavede en side om hjemmetræning\*](https://track.adtraction.com/t/t?a=1124622406&as=1484571907&t=2&tk=1&url=https://sportmaster.dk/inspiration/hjemmetraening), og selv [Fitness World lavede et træningsprogram uden udstyr](https://www.fitnessworld.com/dk2/fw-online/traeningsprogrammer/7-minutters-traeningsprogram), som du kunne træne derhjemme.
-
-Du kan se et af Fitness Worlds træningsprogrammer, som man kan lave hjemme kun ved hjælp af kropsvægt i denne Youtube-video.
-
-{% include video provider="youtube" id="_cCf5unVIKk" %}
-
-## Fordele og ulemper ved hjemmetræning
-
-Hvis du vil i gang med at træne hjemme, så er der nogle ting, du kan være være opmærksom på. Vi har her [samlet](https://mit-traeningsprogram.dk/hjemmetraening-kom-i-form-derhjemme/) fordele og ulemper ved hjemmetræning - og så kan du lave din egen vurdering af, om det er noget for dig at træne hjemme.
-
-### Fordele ved at træne hjemme
-
-- du sparer penge da der er ingen månedlige abonnementsudgifter.
-- du behøver ikke udstyr, og hvis du har lyst til at bruge udstyr, kan udstyret typisk købes billigt, fx hos vores samarbejdspartnere
-- du sparer transporttid, fordi du kan gøre det derhjemme.
-- du har altid mulighed for at træne, og du har inspiration klar til træningen, hvis du tager på ferie.
-- der er ingen kø til dine foretrukne øvelser.
-
-### Ulemper ved hjemmetræning
-
-- du har måske brug for fantasi for at bevare interessen og motivationen til at fortsætte med din træning derhjemme.
-- du har ikke nogen til at hjælpe med, hvordan man udfører øvelserne og lave en god progression for din træning, så du [undgår skader]({% link _posts/2009-04-22-kan-styrketraening-forebygge-skader.md %}).
-- hvis du ønsker fx vægtstænger eller andet lidt mere avanceret udstyr, så kan det være dyrt.
-- det kan blive kedeligt og demotiverende altid at træne alene.
-- der er mere inspirerende udstyr i et træningscenter.
-- din træning kan mangle det sociale aspekt, som du kan finde i et motionscenter eller når du træner sammen med andre.
-
-## Er hjemmetræning effektivt?
-
-Du kan lave hjemmetræning utrolig effektivt, hvis du finder motivationen til at lave træningen. Hvis du er god til at motivere dig selv, så er det en utrolig fleksibel træningsform.
-
-Andre har brug for selskab for rigtig at blive motiveret, men det kan du også sagtens være ved hjemmetræning. Du kan finde sammen med andre, og I kan enten gøre det online, hvis I skal holde afstand, eller I kan mødes udenfor et sted.
-
-Der kan I fx skiftes til at stå for træningsøvelserne, og på den måde motivere hinanden. Vi har skrevet andre artikler, der handler om [træning med kropsvægt]({% link _posts/2009-08-04-traening-med-kropsvaegt.md %}) eller [udendørs træning]({% link _posts/2012-07-31-naturfitness.md %}), hvor der også er masser af inspiration at finde til hjemmetræning.
-
-## Har jeg brug for udstyr til hjemmetræning?
+I vores Corona workouts har du ikke brug for udstyr. Men du kan naturligvis altid supplere med lidt forskelligt udstyr. Fx synes mange, at en vægtvest er meget fed. Jeg kan godt lide den her [vægtvest fra Kinetik\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67046&htmlurl=https://kinetikshop.dk/products/kinetik-vx1-vaegtvest){:rel="nofollow"}, men du kan læse lidt mere om vægtvest under [træning med kropsvægt]({% link _posts/2009-08-04-traening-med-kropsvaegt.md %}).
 
 Du behøver ikke noget udstyr for at træne hjemme. Måske kan du finde inspiration og motivation i at bruge elastikker, [kettlebells]({% link _posts/2011-04-16-hvordan-traener-man-med-kettlebells.md %}), [TRX og slyngetræning]({% link _posts/2014-04-14-træning-med-slynger-trx-powersling-suspension-training.md %}) eller måske vil du gerne have det helt store udstyr.
-
-Hvis du har brug for udstyr, så kan du tjekke nogle af vores samarbejdspartnere ud. De har gode priser, og du er med til at støtte dette site, hvis du handler hos dem efter at have trykket på vores links.
 
 {% include gallery id="feature_row_ads" layout="half" %}
