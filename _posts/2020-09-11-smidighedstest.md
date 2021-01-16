@@ -15,6 +15,35 @@ tags:
   - test
 last_modified_at: 2020-09-03T23:14:14Z
 toc: true
+feature_row:
+  - image_path: https://cdn6.tales.dk/00115/65340/cover.1569373580.jpg
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/stretching-anatomy_arnold-g-nelson_9781492577775
+    title: "Facilitated Stretching"
+    excerpt: "See inside every stretch as you increase flexibility and improve muscular strength. Expanded, enhanced, and updated, the best-selling Stretching Anatomy returns to show you how to increase range of motion, supplement training, enhance recovery, and maximize efficiency of movement."
+    alt: "Stretching Anatomy af Arnold G. Nelson, Jouko J. Kokkonen om anatomi og udstrækning"
+    btn_label: "Tjek prisen hos Tales*"
+    btn_class: "btn--warning"
+  - image_path: https://cdn6.tales.dk/00098/14031/cover.1572457859.jpg
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/performance-stretching_deborah-ellison_9780880117746
+    title: "Performance Stretching"
+    excerpt: "Deborah Ellison presents a new way to stretch, one that combines the mechanically sound concept of complete chain exercise for stability, strength and optimal flexibility. It also incorporates proven performance benefits of functional training."
+    alt: "Performance Stretching af Deborah Ellison"
+    btn_label: "Tjek prisen hos Tales*"
+    btn_class: "btn--warning"
+  - image_path: https://cdn6.tales.dk/00024/08273/cover.1577053163.jpg
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/facilitated-stretching_robert-e-mcatee_9781450434317
+    title: "Facilitated Stretching"
+    excerpt: "A resource for proprioceptive neuromuscular facilitation (PNF) stretching, an effective and easy-to-use method that involves stretching the muscle, contracting it isometrically against resistance and then stretching it again to increase range of motion."
+    alt: "Facilitated Stretching om PNF udstrækning"
+    btn_label: "Tjek prisen hos Tales*"
+    btn_class: "btn--warning"
+  - image_path: https://cdn6.tales.dk/00003/13089/cover.20160901.jpg
+    alt: "Udstrækning, Træning og anatomi"
+    title: "Udstrækning, Træning og anatomi"
+    excerpt: "Udstrækning, Træning og anatomi henvender sig til sundhedsguruer, fitnesstrænere, studerende i idræt, atleter, trænere, ældre og mange andre, som gerne vil forstå og forbedre deres kondition og fleksibilitet vil få glæde og gavn af denne grundige og omfattende guide. I bogen illustrerer yderst detaljerede anatomiske illustrationer 50 stræk og viser præcis, hvad der sker i kroppen, når du laver et stræk. At du får lov at se hvilke muskler, der er involveret i de forskellige stræk, vil ikke bare skærpe din viden om anatomi, og hvordan kroppen fungerer, men vil også hjælpe dig til at forbedre effektiviteten i din træning."
+    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/udstraekning-traening-og-anatomi_ken-ashwell_9788740609127"
+    btn_label: "Se prisen hos Tales*"
+    btn_class: "btn--success"
 ---
 
 Smidighed og bevægelighed er væsentligt for at opretholde en god all-round funktionsevne for kroppen. Her beskrives den modificerede 'sit and reach'-test og skemaer og tabeller for normer for testen.
@@ -71,3 +100,7 @@ Smidighed og _range of motion_ er et spørgsmål om at træne det, men det er og
 ## Validitet af testen
 
 [Cubarek (2013)](https://www.researchgate.net/publication/277935949_Reliability_of_V_sit-and-reach_test_used_for_flexibility_self-assessment_in_females) fandt at V Sit-and-reach kan bruges til at måle smidighed i haserne og den nedre ryg.
+
+## Bøger om smidighed (reklamelinks)
+
+{% include gallery id="feature_row" %}

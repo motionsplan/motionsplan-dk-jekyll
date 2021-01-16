@@ -16,6 +16,9 @@ equipment:
 muscle_group:
 gallery:
 last_modified_at: 2011-05-22T10:12:41Z
+video:
+  provider: youtube
+  id: 66x0qQiJ-MA
 ---
 
 Det kræver en rimelig styrke at komme i gang med denne øvelse.

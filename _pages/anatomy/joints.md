@@ -39,6 +39,10 @@ toc: true
 toc_sticky: true
 sidebar:
   nav: anatomi
+gallery:
+  - image_path: https://citatplakat.dk/wp-content/uploads/2020/11/Plakat-af-menneskets-skelet-fra-siden-AN10029.png
+    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/skelettet-siden-anatomi-plakat/
+    title: Skelettet fra siden - Anatomi plakat
 ---
 
 Led kan opdeles i ægte led og uægte led og forskellige ledtyper: ægled, saddelled, hængselled, glideled, drejeled og kugleled. Jeg kigger her på de forskellige defintioner og ledtyper. Den primære funktion for et led er bevægelser, som kan deles op i forskellige bevægelsestyper.
@@ -73,6 +77,9 @@ De ægte led kan bevæge sig. Størrelse, retning og størrelse på bevægelsesu
 {% include figure image_path="https://slideplayer.dk/slide/2341220/8/images/18/Ledkapslen.jpg" alt="Opbygning af et kroppens ægte led og ledtyper" caption="Opbygning af et ægte led" %}
 
 {% endcomment %}
+
+{% include gallery id="gallery" caption="Se flere [anatomiplakater med skeletter og muskler hos plakaterne.dk](https://www.plakaterne.dk/anatomi-anatomiplakater-muskler-skeletter/)." %}
+
 
 ## Ledtyper
 

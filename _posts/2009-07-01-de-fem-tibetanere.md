@@ -99,6 +99,10 @@ wallsticker_full:
   - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-is-not-just-a-workout-danish.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-er-ikke-bare-en-traening-wallsticker
     title: Yoga er ikke bare en træning
+feature_row_citatplakat:
+  - image_path: https://citatplakat.dk/wp-content/uploads/2020/11/Yogastillinger-PR10039.png
+    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/yoga-poses-yoga-plakat/
+    title: Yoga poses - Yoga plakat
 ---
 
 De fem tibetanere er fem yogaøvelser beskrevet af Peter Kelder i slutningen af 1930'erne, men øvelserne kan spores tilbage til omkring år 0. De fem tibetanske riter er en rigtig god introduktion til yoga og øvelserne let at implementere i sin egen hverdag. Jeg har kigget lidt på, hvad de fem tibetanere er?
@@ -398,5 +402,7 @@ Vi har et andet indlæg her på sitet, der handler om [Mindfulness meditation]({
 <a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=37797" target="_blank" rel="nofollow noopener"><img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=37797" border="0" alt=""></a>
 
 {% include gallery id="wallsticker_full" %}
+
+{% include gallery id="feature_row_citatplakat" caption="Yogaplakat med yogastillinger. Tjek den hos citatplakat.dk." %}
 
 ## Noter til de 5 tibetanere
