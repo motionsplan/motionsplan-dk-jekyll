@@ -31,6 +31,10 @@ Det særlige er, at vi laver øvelserne udendørs i omgivelser, der inspirerer t
 
 Træstubbe, grene, traktordæk, forhøjninger, reb og fliser er alle glimrende træningsredskaber - og kan let bruges til at lave et træningsprogram, der kommer hele kroppen igennem. Vi vælger helst øvelser, der er funktionelle og øvelser, der kræver bevægelse af flere led.
 
+## Dogmefitness med dæk
+
+{% include video provider="youtube" id="SW_sn8cw8Qw" %}
+
 ## Hvordan kan man organisere dogmefitness?
 
 Man kan organisere det på et utal af måder.
