@@ -2,6 +2,7 @@
 title: &title "Calisthenics: 8 ugers begynderprogram til kropsvægtstræning"
 permalink: /calisthenics-kongen-kropsvaetstraening/
 last_modified_at: 2021-01-18T09:41:09Z
+author: karsten.thor.lund
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1599744331097-8e64155b1383?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2169&q=80
