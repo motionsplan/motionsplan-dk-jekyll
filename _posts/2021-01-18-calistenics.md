@@ -1,6 +1,8 @@
 ---
 title: &title "Calisthenics: 8 ugers begynderprogram til kropsvægtstræning"
-permalink: /calisthenics-kongen-kropsvaetstraening/
+permalink: /calisthenics-begynderprogram-kropsvaetstraening/
+redirect_from:
+  - /calisthenics-kongen-kropsvaetstraening/
 last_modified_at: 2021-01-18T09:41:09Z
 author: karsten.thor.lund
 language: da
@@ -102,34 +104,34 @@ Her er en oversigt over de øvelser du kommer til at møde, og hvornår du komme
 
 ### Uge 1-4
 
- |**1**|**2**|**3**|**4 (deload week)**
-:-----:|:-----:|:-----:|:-----:|:-----:
-Active hang|2 sæt * 5 reps|3 sæt * 5 reps|3 sæt * 5 reps|1 sæt * 5 reps
-Front support|2 sæt * 5 reps|3 sæt * 5 reps|3 sæt * 5 reps|1 sæt * 5 reps
-Banded reach and press|2 sæt * 8 reps|3 sæt * 8 reps|3 sæt * 8 reps|1 sæt * 8 reps
-Eccentrisk + isometrisk dips|3 sæt * 5 reps|4 sæt * 5 reps|5 sæt * 5 reps|2 sæt * 5 reps
-Ecc. Pull up|3 sæt * 5 reps|4 sæt * 5 reps|5 sæt * 5 reps|2 sæt * 5 reps
-Banded pull ups|3 sæt * 6 reps (tempo: 2-1-2)|3 sæt * 8 reps (tempo: 2-1-2)|4 sæt * 6 reps (tempo: 2-1-2)|2 sæt * 8 reps (tempo: 2-1-2)
-Banded dips|3 sæt * 6 reps (tempo: 2-1-2)|3 sæt * 8 reps (tempo: 2-1-2)|4 sæt * 6 reps (tempo: 2-1-2)|2 sæt * 8 reps (tempo: 2-1-2)
+||**1**|**2**|**3**|**4 (deload week)**|
+|:-----:|:-----:|:-----:|:-----:|:-----:|
+|Active hang|2 sæt * 5 reps|3 sæt * 5 reps|3 sæt * 5 reps|1 sæt * 5 reps|
+|Front support|2 sæt * 5 reps|3 sæt * 5 reps|3 sæt * 5 reps|1 sæt * 5 reps|
+|Banded reach and press|2 sæt * 8 reps|3 sæt * 8 reps|3 sæt * 8 reps|1 sæt * 8 reps|
+|Eccentrisk + isometrisk dips|3 sæt * 5 reps|4 sæt * 5 reps|5 sæt * 5 reps|2 sæt * 5 reps|
+|Ecc. Pull up|3 sæt * 5 reps|4 sæt * 5 reps|5 sæt * 5 reps|2 sæt * 5 reps|
+|Banded pull ups|3 sæt * 6 reps (tempo: 2-1-2)|3 sæt * 8 reps (tempo: 2-1-2)|4 sæt * 6 reps (tempo: 2-1-2)|2 sæt * 8 reps (tempo: 2-1-2)|
+|Banded dips|3 sæt * 6 reps (tempo: 2-1-2)|3 sæt * 8 reps (tempo: 2-1-2)|4 sæt * 6 reps (tempo: 2-1-2)|2 sæt * 8 reps (tempo: 2-1-2)|
 
 ### Uge 5-8
 
 Nu møder I det at super sætte. At super sætte 2 øvelser betyder at man i umiddelbar færdiggørelse af sit sæt ved øvelse 1, laver sættet for øvelse 2, før man går tilbage til næste sæt ved øvelse 1 efter 60 sek. pause og fortsætter sådan indtil alle sæt er foretaget for begge øvelser. Husk opvarmningen inden programmets start for god form og en stærk varm krop.
 
- |**5**|**6**|**7**|**8 (deload)**
-:-----:|:-----:|:-----:|:-----:|:-----:
-Horisontal row|2-3 sæt *10 reps (tempo: 2-1-2) supersæt med push up|2-3 sæt *10 reps (tempo: 2-1-2) supersæt med push up|2-3 sæt *10 reps (tempo: 2-1-2) supersæt med push up|1 sæt *10 reps (tempo: 2-1-2) supersæt med push up
-Push up|2-3 sæt *10 reps (tempo: 2-1-2) supersæt med push up|2-3 sæt *10 reps (tempo: 2-1-2) supersæt med push up|2-3 sæt *10 reps (tempo: 2-1-2) supersæt med push up|1 sæt *10 reps (tempo: 2-1-2) supersæt med push up
-Isometrisk pull up|3 sæt *4 reps (7-10 sek. på toppen isometrisk)|4 sæt *4 reps (7-10 sek. på toppen isometrisk)|5 sæt *4 reps (7-10 sek. på toppen isometrisk)|1 sæt *4 reps (7-10 sek. på toppen isometrisk)
-Isometrisk dip|3 sæt *4 reps (7-10 sek. på toppen isometrisk)|4 sæt *4 reps (7-10 sek. på toppen isometrisk)|5 sæt *4 reps (7-10 sek. på toppen isometrisk)|1 sæt *4 reps (7-10 sek. på toppen isometrisk)
-Banded pull up|4 sæt*5 reps (2-1-2) – hold lidt længere pause her (120 sek. min)|4 sæt*5 reps (2-1-2) – (120 sek. min)|6 sæt*3 reps (2-1-2) – (120 sek. min)|1-2 sæt*5 reps (2-1-2) – (120 sek. min)
-Banded dips|4 sæt*5 reps (2-1-2) – (120 sek. min)|4 sæt*5 reps (2-1-2) - (120 sek. min pause)|6 sæt*3 reps (2-1-2) – (120 sek. min)|1-2 sæt*5 reps (2-1-2) – (120 sek. min)
-Active hang - max hold|2-4 sæt for så længe du kan holde den (max 30 sek.)| | | 
-Eccentrisk pull up|3-5 sæt*3-5 reps (tempo: 5 sek. ecc. (5-0-0)| | | 
-Horisontal rows progression| |2-4 sæt*8-12 reps (2-1-2)| | 
-Ring front support + dips| |2-4 sæt* 3-5 reps (excentrisk eller isometrisk hold i 5-7 sek.)| | 
-Feet supported dip| | |2-4 sæt* 8-12 reps (2-1-2)| 
-Full ROM Pull up| | | |Prøv en fri pull up nu (full ROM) - 
+||**5**|**6**|**7**|**8 (deload)**|
+|:-----:|:-----:|:-----:|:-----:|:-----:|
+|Horisontal row|2-3 sæt *10 reps (tempo: 2-1-2) supersæt med push up|2-3 sæt *10 reps (tempo: 2-1-2) supersæt med push up|2-3 sæt *10 reps (tempo: 2-1-2) supersæt med push up|1 sæt *10 reps (tempo: 2-1-2) supersæt med push up|
+|Push up|2-3 sæt *10 reps (tempo: 2-1-2) supersæt med push up|2-3 sæt *10 reps (tempo: 2-1-2) supersæt med push up|2-3 sæt *10 reps (tempo: 2-1-2) supersæt med push up|1 sæt *10 reps (tempo: 2-1-2) supersæt med push up|
+|Isometrisk pull up|3 sæt *4 reps (7-10 sek. på toppen isometrisk)|4 sæt *4 reps (7-10 sek. på toppen isometrisk)|5 sæt *4 reps (7-10 sek. på toppen isometrisk)|1 sæt *4 reps (7-10 sek. på toppen isometrisk)|
+|Isometrisk dip|3 sæt *4 reps (7-10 sek. på toppen isometrisk)|4 sæt *4 reps (7-10 sek. på toppen isometrisk)|5 sæt *4 reps (7-10 sek. på toppen isometrisk)|1 sæt *4 reps (7-10 sek. på toppen isometrisk)|
+|Banded pull up|4 sæt*5 reps (2-1-2) – hold lidt længere pause her (120 sek. min)|4 sæt*5 reps (2-1-2) – (120 sek. min)|6 sæt*3 reps (2-1-2) – (120 sek. min)|1-2 sæt*5 reps (2-1-2) – (120 sek. min)|
+|Banded dips|4 sæt*5 reps (2-1-2) – (120 sek. min)|4 sæt*5 reps (2-1-2) - (120 sek. min pause)|6 sæt*3 reps (2-1-2) – (120 sek. min)|1-2 sæt*5 reps (2-1-2) – (120 sek. min)|
+|Active hang - max hold|2-4 sæt for så længe du kan holde den (max 30 sek.)| | | 
+|Eccentrisk pull up|3-5 sæt*3-5 reps (tempo: 5 sek. ecc. (5-0-0)| | | |
+|Horisontal rows progression| |2-4 sæt*8-12 reps (2-1-2)| | |
+|Ring front support + dips| |2-4 sæt* 3-5 reps (excentrisk eller isometrisk hold i 5-7 sek.)| | 
+|Feet supported dip| | |2-4 sæt* 8-12 reps (2-1-2)| |
+|Full ROM Pull up| | | |Prøv en fri pull up nu (full ROM)|
 
 ## Øvelser til calisthenics begynderprogrammet
 
