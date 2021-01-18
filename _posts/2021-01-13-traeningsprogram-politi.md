@@ -215,4 +215,6 @@ Programmerne er ugentlige, og du bør køre et program i mindst fire uger, inden
 
 ## Andre forslag til træningsprogrammer og træningsøvelser
 
-Når du træner til politiets optagelsesprøve, så gælder det om at være i generelt god form. Vi har andre forslag til [styrketræningsprogrammer og træningsprogrammer](/traeningsprogrammer/). Når det skal være med kropsvægt, så kan du også lade dig inspirere af dette benhårde [benprogram, som også er med til at forebygge skader](/skadesforebyggelse-skadesforebyggende-traening/). Hvis du mere er typen, der gerne vil have en god workout, så kan du tjekke nogle af Mette Bjerres [Corona-hjemmetrænings workouts og træningsprogrammer](/hjaemmetraening-corona-workouts/).
+Når du træner til politiets optagelsesprøve, så gælder det om at være i generelt god form. Du kan bygge din træning op på mange forskellige måder.
+
+Vi har andre forslag til [styrketræningsprogrammer og træningsprogrammer](/traeningsprogrammer/). Når det skal være med kropsvægt, så kan du også lade dig inspirere af dette benhårde [benprogram, som også er med til at forebygge skader](/skadesforebyggelse-skadesforebyggende-traening/). Hvis du mere er typen, der gerne vil have en workout inspiraret af crossfit, så kan du tjekke nogle af Mette Bjerres [workouts til hjemmetræning og træningsprogrammer](/hjaemmetraening-corona-workouts/) eller vores [28 Corona Workouts](/corona-workouts/).
