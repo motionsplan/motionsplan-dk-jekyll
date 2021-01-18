@@ -91,85 +91,87 @@ Til forlårene foreslår vi øvelser som [pistols](/oevelse/pistol/), lunges, ju
 
 Programmerne er ugentlige, og du bør køre et program i mindst fire uger, inden du laver et nyt program. Fra træning til træning og fra uge til uge, kan du langsomt øge antallet af sæt og antallet af gentagelser. Du kan også bruge [forskellige metoder til at gøre kropsvægtstræningen mere effektiv](/metoder-hjemmetraening-kropsvaegt-mere-effektiv/). Måske kan du endda lade dig inspirere af vores [kropsvægtsøvelser](/artikel/traening-med-kropsvaegt/). God fornøjelse med træningen i hvert fald.
 
-### Ugentligt begyndertræningsprogram
+Her har jeg lavet fire forskellige eksempler på træningsprogrammer, du kan lave hjemme uden udstyr, når du gerne vil forberede dig til politiets fysiske optagelsesprøve.
 
-#### Mandag:
+## Begyndere: Ugentligt begyndertræningsprogram
+
+### Mandag
 
 - Armstrækkere med hænder på sofakant - 3 sæt af 10 gentagelser
 - Table rows med fødder på gulvet - 3 sæt af 8 gentagelser
 
-#### Tirsdag: 
+### Tirsdag
 
 - Længdespring: 8 spring med 30 sek hvile
 - Løb 4 intervaller af 250 meter med 45 sek hvile
 
-#### Torsdag:
+### Torsdag
 
 - Lunges - 3 sæt af 12 gentagelser med hvert ben
 - Armstrækkere på knæene - 3 sæt af 5 gentagelser
 
-#### Lørdag:
+### Lørdag
 
 - Jog 20 min kontinuerligt
 
-#### Søndag: 
+### Søndag
 
 - Table rows med fødder på gulvet - 3 sæt af 5 gentagelser langsomt
 - Nordic hamstring curls - 3 sæt af 5 gentagelser
 - Jump squats - 2 sæt af 15 gentagelser
 
-### Ugentligt begyndertræningsprogram til hjemmetræning
+## Begyndere: Ugentligt begyndertræningsprogram til hjemmetræning
 
-#### Mandag:
+### Mandag
 
 - Armstrækkere med hænder på sofakant - 3 sæt af 10 gentagelser
 - Table rows med fødder på gulvet - 3 sæt af 5 gentagelser langsomt
 - Jumping lunges - 3 sæt af 12 gentagelser med hvert ben
 
-#### Onsdag:
+### Onsdag
 
 - Længdespring: 8 spring med 30 sek hvile
 - Løb 4 intervaller af 250 meter med 45 sek hvile
 
-#### Torsdag:
+### Torsdag
 
 - Armstrækkere med hænder på køkkenbordet - 3 sæt af 20 gentagelser
 - Table rows hvor man kun løfter sig halvt op - 3 sæt af 12 gentagelser
 - Nordic hamstring curls - 3 sæt af 5 gentagelser
 - Squat - 2 sæt af 30 gentagelser
 
-#### Lørdag:
+### Lørdag
 
 - Jog 20 min kontinuerligt
 
-### Ugentligt træningsprogram for øvede til hjemmetræning
+## Øvede: Ugentligt træningsprogram for øvede til hjemmetræning
 
-#### Mandag:
+### Mandag
 
 - Armstrækkere - 4 sæt af 15 gentagelser
 - Kropshævninger i en gren - 4 sæt af 4 gentagelser
 - Løb 6 intervaller af 300 meter med 30 sek hvile
 
-#### Tirsdag:
+### Tirsdag
 
 - Længdespring: 10 spring med 45 sek hvile mellem
 - Pistols - 4 sæt af 8 gentagelser på hvert ben
 
-#### Onsdag: 
+### Onsdag
 
 - 30 min kontinuerligt løb
 
-#### Torsdag:
+### Torsdag
 
 - Archer pushups - 4 sæt af 5 gentagelser til hver side
 - Table rows - 5 sæt af 12 gentagelser
 - Hurtighedstest - 4 ture med 2 min hvile imellem
 
-#### Fredag:
+### Fredag
 
 - 50 min roligt jog
 
-#### Lørdag: 
+### Lørdag
 
 - Brede armstrækkere - 3 sæt af 12 gentagelser
 - [Hindu pushups](/oevelse/armstrækning-hindu/) - 3 sæt af 6 gentagelser
@@ -177,39 +179,39 @@ Programmerne er ugentlige, og du bør køre et program i mindst fire uger, inden
 - Nordic hamstring curls - 5 sæt af 6 gentagelser
 - Lunges - 4 sæt af 25 gentagelser til hvert ben
 
-### Ugentlig hjemmetræningsprogram for øvede
+## Øvede: Ugentlig hjemmetræningsprogram for øvede
 
-#### Mandag:
+### Mandag
 
 - Brede armstrækkere - 3 sæt af 12 gentagelser
 - Smalle armstrækkere - 3 sæt af 10 gentagelser
 - Kropshævninger i en gren - 5 sæt af 2 gentagelser langsomt
 - Jumping lunges - 4 sæt af 20 til hvert ben
 
-#### Tirsdag:
+### Tirsdag
 
 - Længdespring: 6 sæt af 2 spring med 60 sek hvile
 - Løb 10 intervaller af 200 meter med 20 sek hvile
 
-#### Onsdag:
+### Onsdag
 
 - Armstrækkere med fødderne på en stol - 5 sæt af 10 gentagelser
 - Kropshævninger i en gren - 4 sæt af 6 gentagelser
 - Pistols - 5 sæt af 10 gentagelser til hvert ben
 
-#### Torsdag: 
+### Torsdag
 
 - Politiprøvens Hurtighedstest: 4 ture med 2 min hvile imellem
 - 30 min kontinuerligt løb
 
-#### Fredag:
+### Fredag
 
 - Armstrækkere med pause i bunden - 4 sæt af 10 gentagelser
 - Table rows - 4 sæt af 15 gentagelser
 - Nordic hamstring curls - 5 sæt af 5 gentagelser
 - Jump squat - 3 sæt af 30 gentagelser
 
-#### Lørdag:
+### Lørdag
 
 - 50 min roligt jog
 
