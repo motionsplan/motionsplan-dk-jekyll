@@ -15,3 +15,12 @@ npm-debug.log
 .jekyll-cache/
 
 _posts/.ztr-directory
+_drafts/.ztr-directory
+_exercises/.ztr-directory
+_pages/.ztr-directory
+_pages/anatomy/.ztr-directory
+_programs/.ztr-directory
+assets/images/.ztr-directory
+assets/images/authors/.ztr-directory
+assets/images/corona/.ztr-directory
+assets/images/workouts/.ztr-directory
