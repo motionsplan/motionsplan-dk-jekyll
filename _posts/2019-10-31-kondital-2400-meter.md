@@ -49,6 +49,7 @@ Følgende klassifikation af 2400 meter testen gælder for [mænd og kvinder i al
 | Good	    | 12:00-10:46	| 15:54-13:31 |
 | Excellent	| 10:45-9:45	| 13:30-12:30 |
 | Superior	| < 9:44	    | < 12:29     |
+
 På [www.whyiexercise.com](https://www.whyiexercise.com/) kan du finde følgende normer for 2400-meter-testen.
 
 {% include gallery id="gallery_whyiexercise" caption="Normer for mænd og kvinder for 2400-meter-testen fra [www.whyiexercise.com](https://www.whyiexercise.com/)" %}
