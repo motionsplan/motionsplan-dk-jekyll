@@ -20,11 +20,18 @@ tags:
   - beregner
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
+gallery_whyiexercise:
+  - image_path: https://www.whyiexercise.com/images/xcooper.test.charts.1.5.miles.men.jpg.pagespeed.ic.ZGsxI3lGkY.jpg
+    url: https://www.whyiexercise.com/images/xcooper.test.charts.1.5.miles.men.jpg.pagespeed.ic.ZGsxI3lGkY.jpg
+    title: "Normer for mænd for 2400 meter testen"
+  - image_path: https://www.whyiexercise.com/images/xcooper.test.chart.1.5.miles.ladies.jpg.pagespeed.ic.kWvEOdyHk9.jpg
+    url: https://www.whyiexercise.com/images/xcooper.test.chart.1.5.miles.ladies.jpg.pagespeed.ic.kWvEOdyHk9.jpg
+    title: "Normer for kvinder for 2400 meter testen"
 ---
 
-2400-meter løbetesten er en del af forskellige optagelsesprøver, fx til politiskolen. Det er en afart af Coopers 12 minutters test, men hvad er 2400-meter-testen egentlig nøjagtigt?
+2400-meter løbetesten er en del af forskellige optagelsesprøver, fx til politiskolen. På 2400 meter-testen gælder det om at løbe 2400 meter så hurtigt som muligt, og derfra kan du estimere dit kondital og sammenligne dig med normerne.
 
-**2400 meter testen er en simpel løbetest for din aerobe kredsløbsmotor, som kun kræver et stopur og en løbebane for at estimere dit kondital. Det er et alternativ til Coopers 12 minutters test. Denne test er en del af politiets optagelsesprøve.**
+Hvad er 2400-meter-testen? **2400 meter testen er en simpel løbetest for din aerobe kredsløbsmotor, som kun kræver et stopur og en løbebane for at estimere dit kondital. Det er et alternativ til Coopers 12 minutters test. Denne test er en del af politiets optagelsesprøve.**
 
 {% include video provider="youtube" id="YldNonx193c" %}
 
@@ -42,6 +49,9 @@ Følgende klassifikation af 2400 meter testen gælder for [mænd og kvinder i al
 | Good	    | 12:00-10:46	| 15:54-13:31 |
 | Excellent	| 10:45-9:45	| 13:30-12:30 |
 | Superior	| < 9:44	    | < 12:29     |
+På [www.whyiexercise.com](https://www.whyiexercise.com/) kan du finde følgende normer for 2400-meter-testen.
+
+{% include gallery id="gallery_whyiexercise" caption="Normer for mænd og kvinder for 2400-meter-testen fra [www.whyiexercise.com](https://www.whyiexercise.com/)" %}
 
 ## Beregner til 2400-meter testen
 
@@ -57,4 +67,4 @@ Du kan sammenligne dit [kondital i tabellen for kondital for mænd og kvinder](/
 
 ## Konklusion om 2400-meter testen
 
-2400-meter testen bruges som en del af [Politiets optagelsesprøve]({% link _posts/2020-08-17-politiets-fysiske-tests.md %}).
+2400-meter testen bruges som en del af [Politiets optagelsesprøve]({% link _posts/2020-08-17-politiets-fysiske-tests.md %}). Sammen med [Cooper-testen](/cooper-test/) vurderes 2400-meter testen af [Daniel Mayorga-Vega (2016)](https://pubmed.ncbi.nlm.nih.gov/26987118/) i deres systematiske meta-analyse af 123 studier og forskellige løbetests til at have den højeste kriterie-validitet.

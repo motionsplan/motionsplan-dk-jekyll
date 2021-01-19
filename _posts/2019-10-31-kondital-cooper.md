@@ -3,7 +3,7 @@ title: "Cooper-test: Find kondital med Coopers 12 minutters løbetest"
 permalink: /cooper-test/
 redirect_from:
   - /kondital-cooper/
-excerpt: "Cooper-testen er en 12 minutters løbetest og en indirekte, maksimal konditionstest. Brug vores beregner og tabeller til at finde dit kondital ud fra den tilbagelagte distance på de 12 minutter."
+excerpt: "Cooper-testen er en 12 minutters løbetest og en indirekte, maksimal konditionstest. Brug vores beregner, skema og tabel til at finde dit kondital ud fra den tilbagelagte distance på de 12 minutter."
 language: da
 header:
   overlay_image: https://coopertest-online.de/wp-content/uploads/2019/02/Coopertest_Collage_368385_R_K_B_by_Kurt-Michel_pixelio.de_1100px-1.jpg
@@ -69,7 +69,9 @@ Du kan sammenligne dit [kondital i tabellen for kondital for mænd og kvinder](/
 
 12 minutters Cooper test er forbundet med nogen usikkerhed. Fx vil folk med ekstrem god løbeøkonomi få overvurderet deres iltoptagelse, og folk med meget dårlig [løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %}) vil få undervurderet deres iltoptagelse.
 
-McCutcheon et al (1990) fandt med at Cooper testen gave en systematisk underestimering på 4 ml/kg/min for deres forsøgsdeltagere, der havde en gennemsnitsalder på 25 år.
+McCutcheon et al (1990) fandt med at Cooper testen gave en systematisk underestimering på 4 ml/kg/min for deres forsøgsdeltagere, der havde en gennemsnitsalder på 25 år. [Penry et al (2011)](https://pubmed.ncbi.nlm.nih.gov/20647946/) vurderer, at _multistage shuttle run_ eller [bip-testen](/bip-test/) kan være mere pålidelig end Cooper-testen for unge, sunde voksne, men overordnet anser de begge tests for at være reliable til at bestemme konditallet.
+
+[Daniel Mayorga-Vega (2016)](https://pubmed.ncbi.nlm.nih.gov/26987118/) konkluderer i deres systematiske meta-analyse af 123 studier og forskellige løbetests, at 12-minutters Cooper-testen (rp = 0,78) og [2400-meter-testen]({% link _posts/2019-10-31-kondital-2400-meter.md %}) (rp = 0,79) havde den højeste kriterie-validitet. Når man ikke adgang til en laboratorie-test, så er Cooper-testen altså et rigtig fint alternativ til at estimere konditallet.
 
 ## Tabel over resultater fra Cooper-test
 
@@ -77,15 +79,15 @@ Her kan du se en tabel over normalværdier for distance for mænd og kvinder, so
 
 ### Cooper-test skema for mænd
 
-**Alder**|**Meget godt**|**Over middel**|**Gennemsnit**|**Under middel**|**Dårligt**
-:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
-13-14|\>2700m|2400-2700m|2200-2399m|2100-2199m|\<2100m
-15-16|\>2800m|2500-2800m|2300-2499m|2200-2299m|\<2200m
-17-19|\>3000m|2700-3000m|2500-2699m|2300-2499m|\<2300m
-20-29|\>2800m|2400-2800m|2200-2399m|1600-2199m|\<1600m
-30-39|\>2700m|2300-2700m|1900-2299m|1500-1999m|\<1500m
-40-49|\>2500m|2100-2500m|1700-2099m|1400-1699m|\<1400m
-\>50|>2400m|2000-2400m|1600-1999m|1300-1599m|\<1300m
+| **Alder** | **Meget godt** | **Over middel** | **Gennemsnit** | **Under middel** | **Dårligt** |
+|:---------:|:--------------:|:---------------:|:--------------:|:----------------:|:-----------:|
+| 13-14     | \>2700m        | 2400-2700m      | 2200-2399m     | 2100-2199m       | <2100m      |
+| 15-16     | \>2800m        | 2500-2800m      | 2300-2499m     | 2200-2299m       | <2200m      |
+| 17-19     | \>3000m        | 2700-3000m      | 2500-2699m     | 2300-2499m       | <2300m      |
+| 20-29     | \>2800m        | 2400-2800m      | 2200-2399m     | 1600-2199m       | <1600m      |
+| 30-39     | \>2700m        | 2300-2700m      | 1900-2299m     | 1500-1999m       | <1500m      |
+| 40-49     | \>2500m        | 2100-2500m      | 1700-2099m     | 1400-1699m       | <1400m      |
+| >50       | >2400m         | 2000-2400m      | 1600-1999m     | 1300-1599m       | <1300m      |
 
 ### Cooper-test skema for kvinder
 
@@ -101,10 +103,10 @@ Her kan du se en tabel over normalværdier for distance for mænd og kvinder, so
 
 ## Cooper-resultater for veltrænede voksne
 
-**Køn**|**Fremragende**|**Godt**|**Gennemsnitlig**|**Dårlig**|**Forfærdelig**
-:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
-Male|> 3700 m|3400 - 3700 m|3100 - 3399 m|2800 - 3099 m|< 2800 m
-Female|> 3000 m|2700 - 3000 m|2400 - 2699 m|2100 - 2399 m|< 2100 m
+| **Køn** | **Fremragende** | **Godt**      | **Gennemsnitlig** | **Dårlig**    | **Forfærdelig** |
+|:-------:|:---------------:|:-------------:|:-----------------:|:-------------:|:---------------:|
+| Male    | > 3700 m        | 3400 - 3700 m | 3100 - 3399 m     | 2800 - 3099 m | < 2800 m        |
+| Female  | > 3000 m        | 2700 - 3000 m | 2400 - 2699 m     | 2100 - 2399 m | < 2100 m        |
 
 {% comment %}
 
@@ -122,15 +124,15 @@ Female|> 3000 m|2700 - 3000 m|2400 - 2699 m|2100 - 2399 m|< 2100 m
 
 ### Cooper-test for kvinder
 
-| Alder | Meget godt | Godt | Nogenlunde | Dårligt | Meget dårligt |
-|-|-|-|-|-|-|
-| 11-14 | 1700+ m | 1400 - 1700 m | 1100 - 1400 m | 800 - 1100 m | op til 1600 m |
-| 15-16 | 2100+ m | 2000 - 2100 m | 1700 - 1999 m | 1600 - 1699 m | op til 1600 m |
-| 17-20 | 2300+ m | 2100 - 2300 m | 1800 - 2099 m | 1700 - 1799 m | op til 1700 m |
-| 21-29 | 2700+ m | 2200 - 2700 m | 1800 - 2199 m | 1500 - 1799 m | op til 1500 m |
-| 30-39 | 2500+ m | 2000 - 2500 m | 1700 - 1999 m | 1400 - 1699 m | op til 1400 m |
-| 40-49 | 2300+ m | 1900 - 2300 m | 1500 - 1899 m | 1200 - 1499 m | op til 1200 m |
-| 50+ | 2200+ m | 1700 - 2200 m | 1400 - 1699 m | 1100 - 1399 m | op til 1100 m |
+| Alder | Meget godt | Godt          | Nogenlunde    | Dårligt       | Meget dårligt |
+|-------|------------|---------------|---------------|---------------|---------------|
+| 11-14 | 1700+ m    | 1400 - 1700 m | 1100 - 1400 m | 800 - 1100 m  | op til 1600 m |
+| 15-16 | 2100+ m    | 2000 - 2100 m | 1700 - 1999 m | 1600 - 1699 m | op til 1600 m |
+| 17-20 | 2300+ m    | 2100 - 2300 m | 1800 - 2099 m | 1700 - 1799 m | op til 1700 m |
+| 21-29 | 2700+ m    | 2200 - 2700 m | 1800 - 2199 m | 1500 - 1799 m | op til 1500 m |
+| 30-39 | 2500+ m    | 2000 - 2500 m | 1700 - 1999 m | 1400 - 1699 m | op til 1400 m |
+| 40-49 | 2300+ m    | 1900 - 2300 m | 1500 - 1899 m | 1200 - 1499 m | op til 1200 m |
+| 50+   | 2200+ m    | 1700 - 2200 m | 1400 - 1699 m | 1100 - 1399 m | op til 1100 m |
 
 {% endcomment %}
 
@@ -144,4 +146,5 @@ Female|> 3000 m|2700 - 3000 m|2400 - 2699 m|2100 - 2399 m|< 2100 m
 - McCutcheon, M. C., S. A. Sticha, M. D. Giese, og F. J. Nagle. 1990. “A Further Analysis of the 12-Minute Run Prediction of Maximal Aerobic Power”. Research Quarterly for Exercise and Sport 61 (3): 280–83. <https://doi.org/10.1080/02701367.1990.10608692>.
 - Grant, S., K. Corbett, A. M. Amjad, J. Wilson, og T. Aitchison. 1995. “A Comparison of Methods of Predicting Maximum Oxygen Uptake.” British Journal of Sports Medicine 29 (3): 147. <https://doi.org/10.1136/bjsm.29.3.147>.
 - Zwiren, L. D., P. S. Freedson, A. Ward, S. Wilke, og J. M. Rippe. 1991. “Estimation of VO2max: A Comparative Analysis of Five Exercise Tests”. Research Quarterly for Exercise and Sport 62 (1): 73–78. <https://doi.org/10.1080/02701367.1991.10607521>.
+- Penry, Wilcox, Yun (2011): "Validity and reliability analysis of Cooper's 12-minute run and the multistage shuttle run in healthy adults", J Strength Cond Res, Mar;25(3):597-605. doi: 10.1519/JSC.0b013e3181cc2423. <https://pubmed.ncbi.nlm.nih.gov/20647946/>
 </details>
