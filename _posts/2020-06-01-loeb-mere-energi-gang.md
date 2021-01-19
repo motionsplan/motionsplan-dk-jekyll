@@ -88,6 +88,8 @@ Kropsmassen kan bruges til at estimere energiforbruget ved hastigheder mellem 3,
 
 Hvis din kropsvægt er 65 kg, og du går med en hastighed på 5,63 km/t, så vil du forbrænde omkring 4,6 kcal/min. Hvis du går i en time, vil du altså forbrænde 276 kcal.
 
+Jeg er i et andet indlæg gået mere i dybden med [kalorieforbrænding under gang og på dine gåture](/forbraending-ved-gaa-gang/).
+
 ## Hvornår kan det bedre betale sig at løbe end at gå?
 
 Hvis man går meget hurtigt, så kan man bruge mere energi på at gå end på at løbe. Har du en ganghastighed på omkring 8 km/t, vil du formentlig forbrænde nogenlunde det samme som at løbe, mens du ved 10 km/t formentlig vil forbrænde mere ved at gå.

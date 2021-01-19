@@ -37,7 +37,7 @@ Det er også vigtigt at gøre sig klart hvad man skal bruge træningen til. Hvis
 
 Træningen behøver ikke nødvendigvis at udføres på landevejen. Man kan med fordel bruge både cross cykel og MTB, hvor man samtidig vil få gavn af de tekniske udfordringer omgivelserne i skoven tilbyder.
 
-Når man træner med meget høj intensitet påvirkes muskel- og sene væv utrolig meget. Det er derfor en god ide at placere dage med hård træning med 2 dages mellemrum så kroppen har mulighed restituere helt. Husk altid at varme grundigt op først, dog ikke så hårdt at det påvirker din friskhed i intervallerne. Desuden er det også vigtigt at placere intervaller i den første halvdel at træningen, hvor man er mest motiveret og energidepoterne er fyldte.
+Når man træner med meget høj intensitet påvirkes muskel- og senevæv utrolig meget. Det er derfor en god ide at placere dage med hård træning med 2 dages mellemrum, så kroppen har mulighed restituere helt. Husk altid at varme grundigt op først, dog ikke så hårdt at det påvirker din friskhed i intervallerne. Desuden er det også vigtigt at placere intervaller i den første halvdel at træningen, hvor man er mest motiveret og energidepoterne er fyldte.
 
 Hvordan sammensætter du din cykeltræning? Kører du også intervaller på cyklen?
 
