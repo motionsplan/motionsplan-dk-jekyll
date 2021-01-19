@@ -1,5 +1,5 @@
 ---
-title: "Playertek: Playr GPS aktivitetstracker til fodbold"
+title: &title "Playertek: Playr GPS aktivitetstracker til fodbold"
 permalink: /playertek/
 language: da
 header:
