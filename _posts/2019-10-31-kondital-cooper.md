@@ -73,7 +73,40 @@ McCutcheon et al (1990) fandt med at Cooper testen gave en systematisk underesti
 
 ## Tabel over resultater fra Cooper-test
 
-Her kan du se en tabel over normalværdier for distance for mænd og kvinder på [Cooper-testen](https://da.wikipedia.org/wiki/Coopertest).
+Her kan du se en tabel over normalværdier for distance for mænd og kvinder, som er normative data taget direkte fra Cooper (1968). Værdierne er lidt anderledes end dem man kan finde på [Wikipedias side for Cooper-testen](https://da.wikipedia.org/wiki/Coopertest).
+
+### Cooper-test skema for mænd
+
+**Alder**|**Meget godt**|**Over middel**|**Gennemsnit**|**Under middel**|**Dårligt**
+:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
+13-14|\>2700m|2400-2700m|2200-2399m|2100-2199m|\<2100m
+15-16|\>2800m|2500-2800m|2300-2499m|2200-2299m|\<2200m
+17-19|\>3000m|2700-3000m|2500-2699m|2300-2499m|\<2300m
+20-29|\>2800m|2400-2800m|2200-2399m|1600-2199m|\<1600m
+30-39|\>2700m|2300-2700m|1900-2299m|1500-1999m|\<1500m
+40-49|\>2500m|2100-2500m|1700-2099m|1400-1699m|\<1400m
+\>50|>2400m|2000-2400m|1600-1999m|1300-1599m|\<1300m
+
+### Cooper-test skema for kvinder
+
+**Alder**|**Meget godt**|**Over middel**|**Gennemsnit**|**Under middel**|**Dårligt**
+:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
+13-14|>2000m|1900-2000m|1600-1899m|1500-1599m|<1500m
+15-16|>2100m|2000-2100m|1700-1999m|1600-1699m|<1600m
+17-20|>2300m|2100-2300m|1800-2099m|1700-1799m|<1700m
+20-29|>2700m|2200-2700m|1800-2199m|1500-1799m|<1500m
+30-39|>2500m|2000-2500m|1700-1999m|1400-1699m|<1400m
+40-49|>2300m|1900-2300m|1500-1899m|1200-1499m|<1200m
+>50|>2200m|1700-2200m|1400-1699m|1100-1399m|<1100m
+
+## Cooper-resultater for veltrænede voksne
+
+**Køn**|**Fremragende**|**Godt**|**Gennemsnitlig**|**Dårlig**|**Forfærdelig**
+:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
+Male|> 3700 m|3400 - 3700 m|3100 - 3399 m|2800 - 3099 m|< 2800 m
+Female|> 3000 m|2700 - 3000 m|2400 - 2699 m|2100 - 2399 m|< 2100 m
+
+{% comment %}
 
 ### Cooper-test for mænd
 
@@ -98,6 +131,8 @@ Her kan du se en tabel over normalværdier for distance for mænd og kvinder på
 | 30-39 | 2500+ m | 2000 - 2500 m | 1700 - 1999 m | 1400 - 1699 m | op til 1400 m |
 | 40-49 | 2300+ m | 1900 - 2300 m | 1500 - 1899 m | 1200 - 1499 m | op til 1200 m |
 | 50+ | 2200+ m | 1700 - 2200 m | 1400 - 1699 m | 1100 - 1399 m | op til 1100 m |
+
+{% endcomment %}
 
 ## Referencer til Cooper-test
 
