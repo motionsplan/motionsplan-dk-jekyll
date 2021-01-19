@@ -1,4 +1,10 @@
-{% assign met_values = site.data.met %}
+{% assign met_type = include.type | default: "" %}
+
+{% if met_type contains "walking" %}
+  {% assign met_values = site.data.met | where_exp: "item", "item.Group contains met_type" | sort: "MET" %}
+{% else %}
+  {% assign met_values = site.data.met %}
+{% endif %}
 
 <form class="calculator">
     <fieldset>

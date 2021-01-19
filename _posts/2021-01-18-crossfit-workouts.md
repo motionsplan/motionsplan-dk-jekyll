@@ -175,3 +175,5 @@ Jeg spurgte crossfitlæreren på Vejle Idrætshøjskole, hvad hendes favorit cro
 3) Burpees
 
 Jeg har skrevet et andet indlæg, der går lidt mere i dybden med [crossfitøvelser](/crossfit-crossfit-oevelser/).
+
+Har du nogle gode Workout of the Days, som du vil dele med os i kommentarerne. Måske endda en tid vi skal slå?
