@@ -65,7 +65,7 @@ Der er flere fysiske fordele ved at gå. Se bare på denne liste over fordele ve
 - Dit kredsløb forbedres, hvis du går rask til. Du skal helst forsøge at få pulsen lidt op for at have de bedste effekter på kredsløbet.
 - Når du er mere aktiv og træner kredsløbet, så forebygges hjerte-kar-sygdomme. Men det kræver, at du får hjertet til at pumpe blodet rundt i kroppen. Det er ikke nok at tælle skridt. Du skal tælle de skridt, hvor kredsløbet arbejder.
 - Gang er en vægtbærende aktivitet. Vægtbærende aktivitet er med til at gøre dine knogler stærkere.
-- Hvis du går meget, så stiger din samlede forbrænding.
+- Hvis du går meget, så stiger din samlede forbrænding. Du kan læse mere om [kalorieforbrændingen ved gang her](/forbraending-ved-gaa-gang/).
 - Din risiko for at udvikle type 2-diabetes falder, når du er aktiv i hverdagen.
 
 ## Psykologiske fordele ved at gå
