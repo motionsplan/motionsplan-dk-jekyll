@@ -19,13 +19,13 @@ last_modified_at: 2020-06-03T08:14:14Z
 toc: true
 ---
 
-Din hvilepuls kan være en god indikator på dit helbred og din form. Jeg bruger hvilepulsen som en let måde at følge effekten af min træning.
+Din hvilepuls kan være en god indikator på dit helbred og din form. Jeg bruger hvilepulsen som en let måde at følge effekten af min træning. Bl.a. kan du vurdere hvad en god hvilepuls er ud fra en tabel.
 
-Hvad er hvilepulsen? **Hvilepulsen er det antal hjerteslag der forekommer pr. minut, når din krop er i fuldstændig hvile. Hvilepulsen måles bedst liggende. Det bedste tidspunkt at måle hvilepulsen er om morgenen lige inden, du står op. Du kan selv måle hvilepulsen ved at føle den manuelt, med et pulsur eller med et blodtryksapparat.**
+Hvad er hvilepulsen? **Hvilepulsen er antallet af hjerteslag pr. minut, når din krop er i fuldstændig hvile. Hvilepulsen måles bedst liggende. Det bedste tidspunkt at måle hvilepulsen er om morgenen lige inden, du står op. Du kan selv måle hvilepulsen ved at føle den manuelt, med et pulsur eller med et blodtryksapparat.**
 
 Når hjertet slår og ved sin sammentrækning sender blod rundt i systemet, sker der en kortvarig udvidelse af din blodåre, fordi der kommer et højere tryk i blodåren. Det er den udvidelse, du kan mærke som pulsen. 
 
-Jeg kigger i det følgende på, hvad der påvirker hvilepulsen, og hvordan man måler sin hvilepuls?
+Jeg kigger i det følgende på, hvad der påvirker hvilepulsen, og hvordan man måler sin hvilepuls? Samtidig kan du se en hvilepuls-tabel, som giver dig et bud på, hvor god form, du er i.
 
 ## Hvad påvirker hvilepulsen?
 
@@ -57,7 +57,7 @@ Det kan sættes på følgende formel:
 
     MV = SV * HR
 
-Hvis minutvolumen skal være konstant og slagvolumen er faldet, så blver det altså tydeligt, at hjertefrekvensen ikke behøver at være så høj.
+Hvis minutvolumen skal være konstant og slagvolumen er faldet, så bliver det altså tydeligt, at hjertefrekvensen ikke behøver at være så høj. Derfor falder hvilepulsen, når du kommer i bedre form.
 
 Hvis du vil læse om flere [tilpasninger ved konditionstræning, så kan du læse dette indlæg](/tilpasning-konditionstraening/).
 
@@ -69,19 +69,19 @@ Hvilepulsen varierer meget fra person til person. Hvilepulsen er påvirket af ma
 
 Hvis vi kigger på raske mennesker, så kan det være et mål med sin træning at sænke sin hvilepuls ved at lave passende udholdenhedstrænng for kredsløbet. Hjertet skal ganske enkelt arbejde mindre. Desuden er der en masse afledte sundhedsmæssige konsekvenser af pulstræningen.
 
-## Hvilepuls tabel
+## Skema og tabel over hvilepuls
 
-Her har jeg samlet nogle [retninglinjer for hvilepulsen](https://bgh.dk/hvilepuls/) i en tabel.
+Her har jeg samlet nogle [retninglinjer for hvilepulsen](https://bgh.dk/hvilepuls/) i en samlet tabel, som kan give en vurdering af din hvilepuls. Skemaet over hvilepuls gælder både for mænd og kvinder.
 
-| Kategori | Kvinder | Mænd |
-|-|-|-|
-| Sportsudøver | 54-60 |  49-56 |
-| Glimrende | 60-64 | 57-61 |
-| God | 65-68 | 62-66 |
-| Over gennemsnittet | 69-73 | 67-70 |
-| Gennemsnitlig | 74-78 | 71-75 |
-| Under gennemsnittet | 79-84 | 76-81 |
-| Dårlig |  85+ | 82+ |
+| Kategori            | Hvilepuls for kvinder | Hvilepuls for mænd |
+|---------------------|-----------------------|--------------------|
+| Sportsudøver        | 54-60                 | 49-56              |
+| Glimrende           | 60-64                 | 57-61              |
+| God                 | 65-68                 | 62-66              |
+| Over gennemsnittet  | 69-73                 | 67-70              |
+| Gennemsnitlig       | 74-78                 | 71-75              |
+| Under gennemsnittet | 79-84                 | 76-81              |
+| Dårlig              | 85+                   | 82+                |
 
 Nogle lidt grovere **retningslinjer for hvilepulsen** kan også se [sådan her ud](https://www.sportshojskolen.dk/vidensbank/pulstr%C3%A6ning---max-pulsen):
 
@@ -91,7 +91,9 @@ Nogle lidt grovere **retningslinjer for hvilepulsen** kan også se [sådan her u
 - **Hvilepuls 50**: Rigtig god kondition – Her ligger ofte den ambitiøse amatørmotionist
 - **Hvilepuls 40**: Suveræn kondition – Forbeholdt de få; oftest elitefolk.
 
-Som udgangspunkt er en lav hvilepuls altså at foretrække. Miguel Indurain, tidligere cykelrytter, havde en hvilepuls på 28. Jeg hørte på et tidspunkt, at udfordringen med et så stort hjerte kan være, at man bliver nødt til at fortsætte sin træning for at hjertet forbliver stærkt nok.
+Som udgangspunkt er en lav hvilepuls altså at foretrække ifølge tabellen.
+
+Miguel Indurain, tidligere cykelrytter, havde efter sigende en hvilepuls på 28. Jeg hørte på et tidspunkt, at udfordringen med et så stort hjerte kan være, at man bliver nødt til at fortsætte sin træning for at hjertet forbliver stærkt nok.
 
 Det ved jeg ikke om er rigtigt. Måske ved du det, så er du velkommen til at bruge kommentarerne.
 
@@ -103,7 +105,7 @@ Så snart du står op vil kroppen begynde at have behov for mere energi, og så 
 
 ## Sådan måler du din hvilepuls
 
-Der er flere måder at finde frem til din hvilepuls på.
+Der er flere måder at finde frem til din hvilepuls på. Du kan enten bruge stopur, pulsur eller blodtryksmåler til at måle din hvilepuls.
 
 ### Mål hvilepulsen med stopur
 
