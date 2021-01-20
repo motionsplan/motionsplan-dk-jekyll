@@ -21,6 +21,14 @@ tags:
   - beregner
 last_modified_at: 2021-01-20T10:14:14Z
 toc: true
+feature_row:
+  - image_path: /assets/images/freebies/cooper.png
+    alt: "Tabel og skema over Cooper-test"
+    title: "Tabel over distancer til udskrivning"
+    excerpt: "Det modificerede skema og tabel over distancer på Cooper-testen kan udskrives herfra, så den er lige til at hænge op på væggen. Tabellen er lavet i Google Docs."
+    url: "https://docs.google.com/document/d/1Y0EJ0drxNTY2qZK2alV5kI6g6zUMnCiKRGL3XR7wElQ/copy?usp=sharing"
+    btn_label: "Se tabel over Cooper-test"
+    btn_class: "btn--info"
 ---
 
 Cooper-testen er en maksimal løbetest, hvor den distance man kan tilbagelægge på 12 minutter er med til at estimere udøverens kondital. Jeg beskriver her, hvad Cooper testen er, og du kan finde tabeller og skemaer til at vurdere dit kondital?
@@ -89,13 +97,21 @@ McCutcheon et al (1990) fandt med at Cooper testen gave en systematisk underesti
 
 ## Tabel over resultater fra Cooper-test
 
-Her kan du se en tabel over normalværdier for distance for mænd og kvinder, som er normative data taget direkte fra Cooper (1968). 
+Her har jeg givet et bud på vurderingskriterier for distancen gennemført på Cooper-testen for mænd og kvinder.
+
+Cooper (1968) lavede selv en tabel over normalværdier for distance på Cooper-testen for mænd og kvinder, hvor du kan vurdere dig selv i forhold til forskellige distancer.
+
 Værdierne fra disse skemaer over Cooper-testen er lidt anderledes end de tabeller, du kan finde på [den danske Wikipedias side for Cooper-testen](https://da.wikipedia.org/wiki/Coopertest). Det ved jeg ikke hvorfor. Hvis du gør, så brug endelig kommentarerne.
 {: notice .notice--info }
 
-Hvis du sammenligner værdierne i tabellerne for Cooper-testen med det kondital, du kan udregne i beregneren, så ender du i forskellige kategorier. Der er stor forskel i vurderingen, om du bruger [tabellen over kondital](/kondital/) eller Coopers skema til at vurdere dit træningsniveau.
+Hvis du sammenligner værdierne i tabellerne fra Cooper (1968) med det kondital, du kan udregne i vores beregner, så ender du i forskellige kategorier. Der er stor forskel i vurderingen, om du bruger [tabellen over kondital](/kondital/) eller Coopers skema til at vurdere dit træningsniveau.
 
 Fx vil en pige, der løber 2100 meter få et kondital på 36 ml/min/kg, hvilket er i den lave ende af 'Middel', mens hun i Coopers egen tabel ligger i kategorien 'Meget godt'. Det er en interessant forskel.
+
+Du kan se de oprindelige skemaer til Cooper-testen her, men læs lidt længere for at få nye modificerede tabeller baseret på tabellerne over kondital for almindelige danske mennesker, der ikke dyrker idræt på konkurrenceplan.
+
+<details markdown="1">
+  <summary><strong>Se Coopers oprindelige skemaer og tabeller over distancer på Coopertesten</strong></summary>
 
 ### Cooper-test skema for mænd
 
@@ -124,6 +140,39 @@ Tabellen for kvinder over Cooper-testen kan også ses hos [BrianMAC Sports Coach
 |30-39|>2500m|2000-2500m|1700-1999m|1400-1699m|<1400m|
 |40-49|>2300m|1900-2300m|1500-1899m|1200-1499m|<1200m|
 |>50|>2200m|1700-2200m|1400-1699m|1100-1399m|<1100m|
+</details>
+
+## Nye skemaer over resultater fra Cooper-testen
+
+Derfor har jeg lavet nogle nye tabeller, som i stedet er baseret på [tabellen over kondital](/kondital/). Jeg har taget formlen fra beregneren, og så har jeg ganske enkelt regnet baglæns til at få distancen, som du skal løbe i Cooper-testen for at få det kondital. Derved bliver kategorierne ens.
+
+### Modificeret tabel for Cooper-test for mænd
+
+Alder|Meget lavt|Lavt|Middel|Højt|Meget højt
+:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
+5-14|< 2249|2249 - 2473|2473 - 2831|2831 - 3055|3055+
+15-19|< 2473|2473 - 2697|2697 - 3055|3055 - 3278|3278+
+20-29|< 2249|2249 - 2473|2473 - 2831|2831 - 3055|3055+
+30-39|< 2070|2070 - 2294|2294 - 2652|2652 - 2831|2831+
+30-49|< 1892|1892 - 2115|2115 - 2473|2473 - 2652|2652+
+50-59|< 2115|1668 - 1936|1936 - 2294|2294 - 2473|2473+
+60-69|< 1489|1489 - 1713|2160 - 2115|2115 - 2294|2294+
+70-|< 1400|1400 - 1623|2070 - 1981|1981 - 2205|2205+
+
+### Modificeret tabel for Cooper-test for kvinder
+
+Alder|Meget lavt|Lavt|Middel|Højt|Meget højt
+:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
+5-14|< 2070|2070 - 2294|2294 - 2652|2294 - 2652|2831+
+15-29|< 1802|1802 - 2070|2070 - 2473|2070 - 2473|2697+
+30-39|< 1757|1757 - 2026|2026 - 2384|2026 - 2384|2652+
+30-49|< 1668|1668 - 1936|1936 - 2339|1936 - 2339|2562+
+50-64|< 1489|1489 - 1802|1802 - 2160|1802 - 2160|2384+
+65-|< 1400|1400 - 1713|1713 - 2070|1713 - 2070|2294+
+
+Tabellerne over resultaterne på Cooper-testen tager udgangspunkt i de mest brugte tabeller for kondital i Danmark.
+
+{% include feature_row type="left" %}
 
 ## Cooper-resultater for veltrænede voksne
 
