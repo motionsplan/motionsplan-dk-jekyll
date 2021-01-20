@@ -23,6 +23,14 @@ feature_row:
     url: "https://books.google.dk/books/about/Textbook_of_Work_Physiology.html?id=BC9SiAsUPqsC&redir_esc=y"
     btn_label: "Læs mere"
     btn_class: "btn--success"
+feature_row_kondital:
+  - image_path: /assets/images/freebies/kondital.png
+    alt: "Tabel og skema over kondital"
+    title: "Tabel over kondital til udskrivning"
+    excerpt: "Skemaet og tabellen over kondital kan udskrives herfra, så den er lige til at hænge op på væggen. Tabellen er lavet i Google Docs."
+    url: "https://docs.google.com/document/d/1Yzzxktbt0Y_8E1fpPENZE1Jt8s6-8jkojvBCI7hpLic/copy?usp=sharing"
+    btn_label: "Se tabel over kondital"
+    btn_class: "btn--info"
 ---
 
 Konditallet siger meget om, hvordan din krop fungerer. Jeg har skrevet lidt om, hvad konditallet er, og hvad et godt, højt kondital er for både mænd, kvinder og børn.
@@ -72,6 +80,8 @@ Nedenstående tabeller gælder for almindelige mennesker i Skandinavien og er s�
 | 65-	  | < 19       | 20-26 | 27-34  | 35-39 | > 40       | 
 
 Tabellerne er lavet af Per-Olof Åstrand og suppleret med data fra danske børn og unge af [Morten Zacho](http://web.archive.org/web/20100222202224/http://www.motion-online.dk/konditionstraening/testning/konditalstabel_-_hvad_er_et_godt_kondital?/){:rel="nofollow"}.
+
+{% include feature_row id="feature_row_kondital" type="left" %}
 
 ## Hvad er de højeste kondital der er målt?
 
@@ -171,15 +181,19 @@ Bente Klarlund og Bengt Saltin har lavet følgende grafik, der viser, hvad den r
 
 Hvis du gerne vil forbedre dit kondital, så kan du finde inspiration under vores afsnit om [kondition og konditionstræning](/kondition/).
 
-Hvis du gerne selv vil teste dit kondital, så tjek alle de [forskellige konditionstests, vi har beskrevet her](/kondition-og-test/).
+Hvis du gerne selv vil teste dit kondital, så tjek alle de [forskellige konditionstests, vi har beskrevet her](/test-kondition-konditest-kondital/).
 
 Skriv i kommentarerne, hvis du er klar til at læse, hvordan du forbedrer dit kondital, så bliver det den næste artikel, vi vil arbejde på.
 
 ## Referencer for kondition og kondital
 
+<details markdown="1">
+  <summary>Se referencer for tabel over kondital</summary>
+
 {% include feature_row type="left" %}
 
 - Shvartz, E., og R. C. Reibold. 1990. “Aerobic Fitness Norms for Males and Females Aged 6 to 75 Years: A Review”. Aviation, Space, and Environmental Medicine 61 (1): 3–11.
 - Astrand, I. 1960. “Aerobic Work Capacity in Men and Women with Special Reference to Age”. Acta Physiologica Scandinavica. Supplementum 49 (169): 1–92. <https://pubmed.ncbi.nlm.nih.gov/13794892/>
+</details>
 
 ## Noter til kondition og kondital

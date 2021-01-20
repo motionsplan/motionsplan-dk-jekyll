@@ -1366,7 +1366,7 @@ $(document).ready(function() {
 
         let c = cooper_test.CooperRunning();
 
-        $("#kondital").val(c.getVO212MinTest(distance));
+        $("#kondital").val(c.getVO212MinTest(distance).toFixed(0));
     });
     $("#calculator_fat_percent_food").submit(function(e) {
         console.log("Calculate Fat Energy Pct");
