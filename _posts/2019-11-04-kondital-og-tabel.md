@@ -181,7 +181,7 @@ Bente Klarlund og Bengt Saltin har lavet følgende grafik, der viser, hvad den r
 
 Hvis du gerne vil forbedre dit kondital, så kan du finde inspiration under vores afsnit om [kondition og konditionstræning](/kondition/).
 
-Hvis du gerne selv vil teste dit kondital, så tjek alle de [forskellige konditionstests, vi har beskrevet her](/kondition-og-test/).
+Hvis du gerne selv vil teste dit kondital, så tjek alle de [forskellige konditionstests, vi har beskrevet her](/test-kondition-konditest-kondital/).
 
 Skriv i kommentarerne, hvis du er klar til at læse, hvordan du forbedrer dit kondital, så bliver det den næste artikel, vi vil arbejde på.
 

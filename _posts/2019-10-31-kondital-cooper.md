@@ -19,11 +19,11 @@ tags:
   - løbetest
   - test
   - beregner
-last_modified_at: 2020-05-06T23:14:14Z
+last_modified_at: 2021-01-20T10:14:14Z
 toc: true
 ---
 
-Cooper-testen er en maksimal løbetest, hvor den distance man kan tilbagelægge på 12 minutter er med til at estimere udøverens kondital. Jeg beskriver her, hvad testen er, og hvordan den udføres?
+Cooper-testen er en maksimal løbetest, hvor den distance man kan tilbagelægge på 12 minutter er med til at estimere udøverens kondital. Jeg beskriver her, hvad Cooper testen er, og du kan finde tabeller og skemaer til at vurdere dit kondital?
 
 Hvad er en Cooper-test? **12 minutters Cooper-test er en klassisk konditionstest, som blev designet af militærfysiologen Kenneth H. Cooper i 1968. Cooper-testen var oprindeligt beregnet til at teste de amerikanske soldaters fysiske form. Det gælder om at løbe så langt som muligt på 12 minutter. Testens pålidelighed til at udregne konditallet forudsætter, at den løbes på en flad strækning, hvor man kan presse sig selv, og at man kan løbe med nogenlunde jævn hastighed hele vejen igennem testen.**
 
@@ -172,6 +172,12 @@ Tabellen for kvinder over Cooper-testen kan også ses hos [BrianMAC Sports Coach
 - Pacing undervejs kan være en udfordring for mange
 - Det kræver fuld motivation for at gå _all out_ i alle 12 minutter
 - Testen løbes bedst på flad og lige vej, og allerhelst på løbebane
+
+## Hvordan forbedrer jeg min tid på Cooper-testen?
+
+Cooper-testen er meget afhængig af din evne til at løbe tæt på din [maksimale iltoptagelse](/intensitet-vo2max/) og at du har en høj [anaerob tærskel](/anaerobe-taerskel/), men resultatet på Cooper-testen afhænger også af din [løbeøkonomi](/lobeokonomi/). Du kan lave et alsidigt løbeprogram, og så skal du nok på sigt forbedre din tid på Cooper-testen, men hvis du for alvor skal have fart på, så skal du altså arbejde både med løbeøkonomi og den maksimale iltoptagelse.
+
+Den maksimale iltoptagelse flytter du bedst med [højintensive intervalløb](/intervallob-intervaltraening/) og [rigtig HIIT-træning](/hiit/). En meget brugt måde at flytte den maksimale iltoptagelse er intervaller af 3-5 minutters varighed med en pause fra 2-3 minutter. Det gentager du 3-6 gange, men læs mere om forskellige måder at flytte den maksimale iltoptagelse under vores forskellige træningsartikler om [løbetræning på løbesiden](/loebesiden/).
 
 ## Konklusion på Cooper-testen
 
