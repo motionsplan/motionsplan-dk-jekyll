@@ -8,9 +8,17 @@ title: Muskler
           <span class="background" style="background-image:url('https://source.unsplash.com/LAEPsbXOhIM/')"></span>
           <div class="wrap">
             <h1 class="text-landing text-shadow"><strong>{{ page.title }}</strong></h1>
+        <p class="text-landing text-shadow text-intro aligncenter">Læs mere på motionsplan.dk</p>
         <figure>
           <img class="aligncenter" src="{{ '/assets/images/qrcodes/webslides-muskler.png' | relative_url }}" alt="{{ m.title }}">
         </figure>
+        <h1 class="aligncenter">
+          <a href="https://www.buymeacoffee.com/lsolesen/">
+          <svg class="fa-coffee">
+            <use xlink:href="#fa-coffee"></use>
+          </svg>
+          </a>
+        </h1>
           </div>
           <footer>
             <div class="wrap">
@@ -63,7 +71,7 @@ title: Muskler
     <div class="grid vertical-align">
       <div class="content-left vertical-align">
         <h2>{{ m.title }}</h2>
-        <h4>{{ m.latin }}</h4>
+        <h4>{{ m.name.latin }}</h4>
         {% if m.excerpt %}
           <p class="text-intro">{{ m.excerpt }}</p>
         {% endif%}
@@ -101,6 +109,22 @@ title: Muskler
       </div>
     </div>
   </div>
+          <footer class="bg-white">
+            <!--.wrap o <nav> = container 1200px -->
+            <div class="wrap">
+              <p>
+                <span class="alignleft"><a href="{{ site.url }}" title="{{ site.name }}"><img src="{{ 'android-chrome-192x192.png' | relative_url }}" alt="{{ site.name }}"></a></span>
+                <span class="alignright">
+                  <a href="#" title="Twitter">
+                    <svg class="fa-twitter">
+                      <use xlink:href="#fa-twitter"></use>
+                    </svg>
+                    @motionsplan
+                  </a>
+                </span>
+              </p>
+            </div>
+          </footer>
 </section>
 <section>
   <div class="wrap">
@@ -108,7 +132,7 @@ title: Muskler
       <div class="content-left vertical-align">
         <h2>{{ m.title }}</h2>
         <ul class="flexblock specs">
-        {% for b in m.function %}
+        {% for b in m.function.da %}
           <li>
             <h2>{{ b.short }}</h2>
             {{ b.extended }}
@@ -121,7 +145,7 @@ title: Muskler
         <figure>
           <img class="aligncenter" src="{{ m.image }}" alt="{{ m.title }}">
         </figure>
-        <p class="aligncenter">{{ m.latin }}</p>
+        <p class="aligncenter">{{ m.name.latin }}</p>
         {% endif %}
       </div>
     </div>
