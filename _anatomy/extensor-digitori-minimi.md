@@ -22,7 +22,7 @@ coords:
   - "555,220,558,220,547,179"
 ---
 
-_{{ page.latin }}_
+_{{ page.name.latin }}_
 
 - **Udspring**: {{ page.origin.da }}
 - **Hæfte**: {{ page.insertion.da }}

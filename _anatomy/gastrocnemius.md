@@ -28,7 +28,7 @@ coords:
   - "170,382,177,397,175,415,167,424,166,411,167,398"
 ---
 
-_{{ page.latin }}_
+_{{ page.name.latin }}_
 
 - **Udspring**: {{ page.origin.da }}
 - **Hæfte**: {{ page.insertion.da }}

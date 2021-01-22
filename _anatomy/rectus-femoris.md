@@ -25,7 +25,7 @@ coords:
 
 "quadriceps," "quads" - the rectus femoris muscle forms part of the quadriceps femoris muscle group, along with vastus lateralis, vastus medialis, and vastus intermedius (vastus intermedius is not shown in the muscle anatomy section since it is located below rectus femoris).
 
-_{{ page.latin }}_
+_{{ page.name.latin }}_
 
 - **Udspring**: {{ page.origin.da }}
 - **Hæfte**: {{ page.insertion.da }}

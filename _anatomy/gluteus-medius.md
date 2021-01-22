@@ -31,7 +31,7 @@ coords:
   - "497,235,491,215,481,216,471,218,486,224"
 ---
 
-_{{ page.latin }}_
+_{{ page.name.latin }}_
 
 - **Udspring**: {{ page.origin.da }}
 - **Hæfte**: {{ page.insertion.da }}

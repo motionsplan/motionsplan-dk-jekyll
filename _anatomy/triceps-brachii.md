@@ -19,11 +19,11 @@ function:
       overarmen bagud.
 origin:
   da: Bagsiden af skulderbladet og overarmsknoglen
-  la: Scapula et humerus
+  latin: Scapula et humerus
   en: Scapula and humerus
 insertion:
   da: Underarmsknoglen
-  la: Ulna et radius
+  latin: Ulna et radius
   en: Ulna and radius
 last_modified_at: 2020-11-15T07:31:16+01:00
 image_focus: /assets/images/anatomy/focus-triceps-brachii.jpg
@@ -45,7 +45,7 @@ Det **mediale hoved** (caput mediale) ligger under de to andre hoveder og udspri
 
 Triceps senen løber hen over albuen posteriort og tilhæfter sig på olecranon på ulna. Da musklen løber ned over albuen vertikalt, laver den ekstension i albuen. Den har ikke nogen tilhæftning på radius, derfor laver den ikke pronation eller supination.
 
-_{{ page.latin }}_
+_{{ page.name.latin }}_
 
 - **Udspring**: {{ page.origin.da }}
 - **Hæfte**: {{ page.insertion.da }}

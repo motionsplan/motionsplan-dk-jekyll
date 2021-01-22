@@ -18,7 +18,7 @@ image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Transversus_abd
 image_focus: 
 ---
 
-_{{ page.latin }}_
+_{{ page.name.latin }}_
 
 - **Udspring**: {{ page.origin.da }}
 - **Hæfte**: {{ page.insertion.da }}

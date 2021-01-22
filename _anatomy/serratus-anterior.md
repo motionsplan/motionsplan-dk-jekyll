@@ -24,7 +24,7 @@ coords:
 
 The serratus anterior is often called the "boxer's muscle" because it is highly developed in professional boxers due to the scapular protraction that occurs during a punching motion.
 
-_{{ page.latin }}_
+_{{ page.name.latin }}_
 
 - **Udspring**: {{ page.origin.da }}
 - **Hæfte**: {{ page.insertion.da }}

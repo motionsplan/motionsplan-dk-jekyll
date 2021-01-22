@@ -1,6 +1,8 @@
 ---
 title: Tohovedede armbøjer
-latin: Biceps Brachii
+name:
+  latin: Biceps Brachii
+  eng: Biceps
 group:
   - Arme
 joint:
@@ -26,11 +28,11 @@ function:
       extended: Biceps er med til at bøje skulderleddet, hvilket vil sige at føre overarmen fremad.
 origin:
   da: Skulderbladet
-  la: Scapula
+  latin: Scapula
   en: Scapula
 insertion:
   da: Begge underarmsknogler
-  la: Ulna et radius
+  latin: Ulna et radius
   en: Ulna and radius
 last_modified_at: 2020-11-15T07:28:29+01:00
 image_focus: /assets/images/anatomy/focus-biceps-brachii.jpg
@@ -42,7 +44,7 @@ coords:
   - 65,167,74,166,85,149,90,135,94,116,77,127,67,138,64,156
 ---
 
-_{{ page.latin }}_
+_{{ page.name.latin }}_
 
 - **Udspring**: {{ page.origin.da }}
 - **Hæfte**: {{ page.insertion.da }}

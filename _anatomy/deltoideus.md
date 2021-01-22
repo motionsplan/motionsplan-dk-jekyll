@@ -33,7 +33,7 @@ coords:
   - "426,97,414,96,404,93,390,103,385,121,385,131,399,121,408,106"
 ---
 
-_{{ page.latin }}_
+_{{ page.name.latin }}_
 
 - **Udspring**: {{ page.origin.da }}
 - **Hæfte**: {{ page.insertion.da }}

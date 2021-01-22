@@ -1,6 +1,7 @@
 ---
 title: "Adductor Hiatus"
-latin: Adductor Hiatus
+name:
+  latin: Adductor Hiatus
 tags:
   - muskel
   - not-in-imagemap
@@ -8,9 +9,13 @@ origin:
   da: 
 insertion: 
   da: 
-function: 
-  - short: Adducts the leg at the hip.
-    extended: ""
+function:
+  da:
+    - short: Adducts the leg at the hip.
+      extended: ""
+  en:
+    - short: Adducts the leg at the hip.
+      extended: ""
 exercises:
   - Stående calf-raise
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Gray433.png/250px-Gray433.png
@@ -18,7 +23,7 @@ image_focus:
 coords:
 ---
 
-_{{ page.latin }}_
+_{{ page.name.latin }}_
 
 - **Udspring**: {{ page.origin.da }}
 - **Hæfte**: {{ page.insertion.da }}

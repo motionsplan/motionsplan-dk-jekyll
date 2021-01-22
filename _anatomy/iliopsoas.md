@@ -18,7 +18,7 @@ image: https://chintamaniyoga.com/wp-content/uploads/2017/02/Screen-Shot-2017-02
 image_focus: 
 ---
 
-_{{ page.latin }}_
+_{{ page.name.latin }}_
 
 - **Udspring**: {{ page.origin.da }}
 - **Hæfte**: {{ page.insertion.da }}

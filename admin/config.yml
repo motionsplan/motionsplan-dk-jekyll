@@ -187,7 +187,12 @@ collections:
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Latin", name: "latin", widget: "string"}
+      - label: "Name"
+        name: "name"
+        widget: "object"
+        fields:
+          - {label: "Latin", name: "latin", widget: "string"}
+          - {label: "English", name: "en", widget: "string"}
       - {label: "Group", name: "group", widget: "select", options: ["Ben", "Hofte", "Ryg", "Skulder", "Arme"], default: "", multiple: true}
       - {label: "Led", name: "joint", widget: "select", options: ["Fodleddet", "Knæleddet", "Hofteleddet", "Rygsøjlen", "Skulderbladet", "Skulderleddet", "Albueleddet", "Håndleddet"], default: "", multiple: true}
       - {label: "Excerpt", name: "excerpt", widget: "text",  required: false, collapsed: true}
@@ -205,7 +210,7 @@ collections:
               - {label: "Short", name: "short", widget: "string"}
               - {label: "Extended", name: "extended", widget: "string"}
           - label: "Latin"
-            name: "la"
+            name: "latin"
             widget: "list"
             fields:
               - {label: "Short", name: "short", widget: "string"}
@@ -223,7 +228,7 @@ collections:
         required: false
         fields:
           - {label: "Danish", name: "da", widget: "string"}
-          - {label: "Latin", name: "la", widget: "string"}
+          - {label: "Latin", name: "latin", widget: "string"}
           - {label: "English", name: "en", widget: "string"}
       - label: Insertion
         name: insertion

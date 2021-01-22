@@ -25,7 +25,7 @@ coords:
 
 "hamstrings" - the semimembranosus muscle forms part of the hamstrings muscle group, along with biceps femoris and semitendinosus.
 
-_{{ page.latin }}_
+_{{ page.name.latin }}_
 
 - **Udspring**: {{ page.origin.da }}
 - **Hæfte**: {{ page.insertion.da }}

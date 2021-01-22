@@ -25,7 +25,7 @@ coords:
 
 "hamstrings" - the biceps femoris muscle forms part of the hamstrings muscle group, along with semimembranosus and semitendinosus.
 
-_{{ page.latin }}_
+_{{ page.name.latin }}_
 
 - **Udspring**: {{ page.origin.da }}
 - **Hæfte**: {{ page.insertion.da }}
