@@ -147,3 +147,7 @@ Bevægelser kan foregå i tre forskellige planer.
 Du kan læse mere om [led og ledtyper i Morten Zachos beskrivelse](http://web.archive.org/web/20090130044627/http://www.motion-online.dk/styrketraening/anatomiguide/led_generelt/){:rel="nofollow"}.
 
 {% endcomment %}
+
+## Muskeloversigt med navne på dansk og latin
+
+{% include table-muscles-joints.html %}

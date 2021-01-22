@@ -14,7 +14,9 @@
 <body>
     <header role="banner">
         <nav role="navigation">
-            <p class="logo"><a style="background: url('/favicon-32x32.png') no-repeat;" href="/" title="Motionsplan">Motionsplan</a></p>
+            <p class="logo">
+                <a style="background: url({{ '/favicon-32x32.png' | relative_url }}) no-repeat;" href="{{ '/' | relative_url }}" title="{{ site.name }}">Motionsplan</a>
+            </p>
             <ul>
                 {% assign footer_links = site.footer.links | where_exp: "item", "item.webslides != '' "%}
                 {% for l in footer_links %}
