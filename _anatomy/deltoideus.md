@@ -1,6 +1,8 @@
 ---
 title: "Skuldermuskel"
 latin: Deltoideus
+category:
+  - Skulder
 tags:
   - imagemap
   - fitnessinstruktør

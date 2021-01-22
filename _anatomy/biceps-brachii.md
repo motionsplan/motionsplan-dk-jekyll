@@ -10,18 +10,20 @@ tags:
   - fitnessinstruktør
   - muskel
 function:
-  - short: Flexes the arm at the elbow.
-    extended: This means that the biceps brachii muscle bends the arm at the elbow
-      joint such that there is a decrease in the angle between the forearm and
-      the upper arm.
-  - short: Supinates the forearm.
-    extended: This is means that the biceps brachii muscle rotates the forearm
-      outward (i.e. if your arms are hanging by your sides it is the action of
-      turning your palms forward, or if you forearms are held horizontally it is
-      the action of turning your palms upward).
-  - short: Bøjning i skulderleddet
-    extended: Biceps er med til at bøje skulderleddet, hvilket vil sige at føre
-      overarmen fremad.
+  da:
+    - short: Flexes the arm at the elbow.
+      extended: This means that the biceps brachii muscle bends the arm at the elbow joint such that there is a decrease in the angle between the forearm and the upper arm.
+    - short: Supinates the forearm.
+      extended: This is means that the biceps brachii muscle rotates the forearm outward (i.e. if your arms are hanging by your sides it is the action of turning your palms forward, or if you forearms are held horizontally it is the action of turning your palms upward).
+    - short: Bøjning i skulderleddet
+      extended: Biceps er med til at bøje skulderleddet, hvilket vil sige at føre overarmen fremad.
+  en:
+    - short: Flexes the arm at the elbow.
+      extended: This means that the biceps brachii muscle bends the arm at the elbow joint such that there is a decrease in the angle between the forearm and the upper arm.
+    - short: Supinates the forearm.
+      extended: This is means that the biceps brachii muscle rotates the forearm outward (i.e. if your arms are hanging by your sides it is the action of turning your palms forward, or if you forearms are held horizontally it is the action of turning your palms upward).
+    - short: Bøjning i skulderleddet
+      extended: Biceps er med til at bøje skulderleddet, hvilket vil sige at føre overarmen fremad.
 origin:
   da: Skulderbladet
   la: Scapula

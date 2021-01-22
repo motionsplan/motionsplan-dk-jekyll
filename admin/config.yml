@@ -181,7 +181,7 @@ collections:
           - {label: "Url", name: "url", widget: "string"}          
       - {label: "Last modified at", name: "last_modified_at", widget: "datetime", format: "YYYY-MM-DDThh:mm:ssZ", dateFormat: "dd-MM-YYYY", timeFormat: "HH:mm", required: false}
   - name: "anatomy" # Used in routes, e.g., /admin/collections/blog
-    label: "Muscles" # Used in the UI
+    label: "Muskler" # Used in the UI
     folder: "_anatomy/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -194,10 +194,28 @@ collections:
       - {label: "Tags", name: "tags", widget: "list", allow_add: true}
       - label: Function
         name: function
-        widget: list
+        widget: object
+        collapsed: false
+        required: false
         fields:
-          - {label: "Short", name: "short", widget: "string"}
-          - {label: "Extended", name: "extended", widget: "string"}
+          - label: "Danish"
+            name: "da"
+            widget: "list"
+            fields:
+              - {label: "Short", name: "short", widget: "string"}
+              - {label: "Extended", name: "extended", widget: "string"}
+          - label: "Latin"
+            name: "la"
+            widget: "list"
+            fields:
+              - {label: "Short", name: "short", widget: "string"}
+              - {label: "Extended", name: "extended", widget: "string"}
+          - label: "English"
+            name: "en"
+            widget: "list"
+            fields:
+              - {label: "Short", name: "short", widget: "string"}
+              - {label: "Extended", name: "extended", widget: "string"}
       - label: Origin
         name: origin
         widget: object
