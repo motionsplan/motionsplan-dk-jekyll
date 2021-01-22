@@ -1,6 +1,7 @@
 ---
 title: "Den mellemste sædemuskel"
-latin: "Gluteus Medius"
+name:
+  latin: "Gluteus Medius"
 tags:
   - imagemap
   - fitnessinstruktør
@@ -9,19 +10,33 @@ origin:
   da: Yderst på øverste kant af hoftebenet
 insertion: 
   da: Øverst på bagsiden af låret
-function: 
-  - short: Abducts the leg at the hip.
-    extended: This means that the gluteus medius muscle moves the upper leg outward to the side away from the vertical midline of the body (i.e. the action of spreading your legs to the side).
-  - short: The anterior (or front) fibers of the gluteus medius muscle medially rotate the upper leg.
-    extended: This means that the anterior fibers of the gluteus medius muscle rotate the upper leg inward around the axis of the bone (i.e. rotate the upper leg toward the vertical midline of the body).
-  - short: The anterior (or front) fibers of the gluteus medius muscle flex the leg at the hip.
-    extended: This means that the anterior fibers of the gluteus medius muscle bend the hip joint such that there is a decrease in the angle between the upper leg and the torso.
-  - short: The posterior (or rear) fibers of the gluteus medius muscle laterally rotate the upper leg.
-    extended: This means that the posterior fibers of the gluteus medius muscle rotate the upper leg outward around the axis of the bone (i.e. rotate the upper leg away from the vertical midline of the body).
-  - short: The posterior (or rear) fibers of the gluteus medius muscle extend the leg at the hip.
-    extended: This means that the posterior fibers of the gluteus medius muscle straighten the hip joint such that there is an increase in the angle between the upper leg and the torso.
-  - short: Stabilizes the hip joint during walking.
-    extended: This means that the gluteus medius muscle keeps the pelvis level when the leg on the opposite side of the body lifts off the ground during walking.
+function:
+  da:
+    - short: Abducts the leg at the hip.
+      extended: This means that the gluteus medius muscle moves the upper leg outward to the side away from the vertical midline of the body (i.e. the action of spreading your legs to the side).
+    - short: The anterior (or front) fibers of the gluteus medius muscle medially rotate the upper leg.
+      extended: This means that the anterior fibers of the gluteus medius muscle rotate the upper leg inward around the axis of the bone (i.e. rotate the upper leg toward the vertical midline of the body).
+    - short: The anterior (or front) fibers of the gluteus medius muscle flex the leg at the hip.
+      extended: This means that the anterior fibers of the gluteus medius muscle bend the hip joint such that there is a decrease in the angle between the upper leg and the torso.
+    - short: The posterior (or rear) fibers of the gluteus medius muscle laterally rotate the upper leg.
+      extended: This means that the posterior fibers of the gluteus medius muscle rotate the upper leg outward around the axis of the bone (i.e. rotate the upper leg away from the vertical midline of the body).
+    - short: The posterior (or rear) fibers of the gluteus medius muscle extend the leg at the hip.
+      extended: This means that the posterior fibers of the gluteus medius muscle straighten the hip joint such that there is an increase in the angle between the upper leg and the torso.
+    - short: Stabilizes the hip joint during walking.
+      extended: This means that the gluteus medius muscle keeps the pelvis level when the leg on the opposite side of the body lifts off the ground during walking.
+  en:
+    - short: Abducts the leg at the hip.
+      extended: This means that the gluteus medius muscle moves the upper leg outward to the side away from the vertical midline of the body (i.e. the action of spreading your legs to the side).
+    - short: The anterior (or front) fibers of the gluteus medius muscle medially rotate the upper leg.
+      extended: This means that the anterior fibers of the gluteus medius muscle rotate the upper leg inward around the axis of the bone (i.e. rotate the upper leg toward the vertical midline of the body).
+    - short: The anterior (or front) fibers of the gluteus medius muscle flex the leg at the hip.
+      extended: This means that the anterior fibers of the gluteus medius muscle bend the hip joint such that there is a decrease in the angle between the upper leg and the torso.
+    - short: The posterior (or rear) fibers of the gluteus medius muscle laterally rotate the upper leg.
+      extended: This means that the posterior fibers of the gluteus medius muscle rotate the upper leg outward around the axis of the bone (i.e. rotate the upper leg away from the vertical midline of the body).
+    - short: The posterior (or rear) fibers of the gluteus medius muscle extend the leg at the hip.
+      extended: This means that the posterior fibers of the gluteus medius muscle straighten the hip joint such that there is an increase in the angle between the upper leg and the torso.
+    - short: Stabilizes the hip joint during walking.
+      extended: This means that the gluteus medius muscle keeps the pelvis level when the leg on the opposite side of the body lifts off the ground during walking.
 exercises:
   - Stående calf-raise
 image: /assets/images/anatomy/gluteus-medius.jpg
@@ -40,7 +55,7 @@ _{{ page.name.latin }}_
 
 ## Funktion
 
-{% for f in page.function %}
+{% for f in page.function.da %}
 - **{{ f.short }}**.
   {{ f.extended | markdownify }}
 {% endfor %}

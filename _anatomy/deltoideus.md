@@ -1,6 +1,7 @@
 ---
 title: "Skuldermuskel"
-latin: Deltoideus
+name:
+  latin: Deltoideus
 category:
   - Skulder
 tags:
@@ -11,17 +12,29 @@ origin:
   da: Øverste del af skulderbladet og kravebenet
 insertion: 
   da: Øverst på ydersiden af overarmsknoglen
-function: 
-  - short: The anterior (or front) fibers of the deltoid muscle flex the arm at the shoulder.
-    extended: This means that the anterior fibers of the deltoid muscle move the upper arm upward to the front.
-  - short: The anterior (or front) fibers of the deltoid muscle medially rotate the upper arm.
-    extended: This means that the anterior fibers of the deltoid muscle rotate the upper arm inward around the axis of the bone (i.e. rotate the upper arm toward the vertical midline of the body).
-  - short: The lateral (or side) fibers of the deltoid muscle abduct the arm at the shoulder.
-    extended: This means that the lateral fibers of the deltoid muscle move the upper arm upward to the side.
-  - short: The posterior (or rear) fibers of the deltoid muscle extend the arm at the shoulder.
-    extended: This means that the posterior fibers of the deltoid muscle move the upper arm downward to the rear.
-  - short: The posterior (or rear) fibers of the deltoid muscle laterally rotate the upper arm.
-    extended: This means that the posterior fibers of the deltoid muscle rotate the upper arm outward around the axis of the bone (i.e. rotate the upper arm away from the vertical midline of the body).
+function:
+  da:
+    - short: The anterior (or front) fibers of the deltoid muscle flex the arm at the shoulder.
+      extended: This means that the anterior fibers of the deltoid muscle move the upper arm upward to the front.
+    - short: The anterior (or front) fibers of the deltoid muscle medially rotate the upper arm.
+      extended: This means that the anterior fibers of the deltoid muscle rotate the upper arm inward around the axis of the bone (i.e. rotate the upper arm toward the vertical midline of the body).
+    - short: The lateral (or side) fibers of the deltoid muscle abduct the arm at the shoulder.
+      extended: This means that the lateral fibers of the deltoid muscle move the upper arm upward to the side.
+    - short: The posterior (or rear) fibers of the deltoid muscle extend the arm at the shoulder.
+      extended: This means that the posterior fibers of the deltoid muscle move the upper arm downward to the rear.
+    - short: The posterior (or rear) fibers of the deltoid muscle laterally rotate the upper arm.
+      extended: This means that the posterior fibers of the deltoid muscle rotate the upper arm outward around the axis of the bone (i.e. rotate the upper arm away from the vertical midline of the body).
+  en:
+    - short: The anterior (or front) fibers of the deltoid muscle flex the arm at the shoulder.
+      extended: This means that the anterior fibers of the deltoid muscle move the upper arm upward to the front.
+    - short: The anterior (or front) fibers of the deltoid muscle medially rotate the upper arm.
+      extended: This means that the anterior fibers of the deltoid muscle rotate the upper arm inward around the axis of the bone (i.e. rotate the upper arm toward the vertical midline of the body).
+    - short: The lateral (or side) fibers of the deltoid muscle abduct the arm at the shoulder.
+      extended: This means that the lateral fibers of the deltoid muscle move the upper arm upward to the side.
+    - short: The posterior (or rear) fibers of the deltoid muscle extend the arm at the shoulder.
+      extended: This means that the posterior fibers of the deltoid muscle move the upper arm downward to the rear.
+    - short: The posterior (or rear) fibers of the deltoid muscle laterally rotate the upper arm.
+      extended: This means that the posterior fibers of the deltoid muscle rotate the upper arm outward around the axis of the bone (i.e. rotate the upper arm away from the vertical midline of the body).
 exercises:
   - Stående calf-raise
 image: /assets/images/anatomy/deltoid.jpg
@@ -42,7 +55,7 @@ _{{ page.name.latin }}_
 
 ## Funktion
 
-{% for f in page.function %}
+{% for f in page.function.da %}
 - **{{ f.short }}**.
   {{ f.extended | markdownify }}
 {% endfor %}

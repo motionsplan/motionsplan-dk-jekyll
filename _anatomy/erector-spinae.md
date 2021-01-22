@@ -1,6 +1,7 @@
 ---
 title: "Rygstrækkere"
-latin: "Erector Spinae"
+name:
+  latin: "Erector Spinae"
 tags:
   - fitnessinstruktør
   - muskel
@@ -10,8 +11,12 @@ origin:
 insertion: 
   da: Løbende på bryst, hals og nakkehvirvlerne og ribben op til kraniet
 function: 
-  - short: Stræk af rygsøjlen
-    extended: ""
+  da:
+    - short: Stræk af rygsøjlen
+      extended: ""
+  en:
+    - short: Stræk af rygsøjlen
+      extended: ""
 exercises:
   - Stående calf-raise
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Gray389_-_Erector_spinae.png/375px-Gray389_-_Erector_spinae.png
@@ -29,7 +34,7 @@ _{{ page.name.latin }}_
 
 ## Funktion
 
-{% for f in page.function %}
+{% for f in page.function.da %}
 - **{{ f.short }}**.
   {{ f.extended | markdownify }}
 {% endfor %}

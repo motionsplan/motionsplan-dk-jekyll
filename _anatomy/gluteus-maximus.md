@@ -1,6 +1,7 @@
 ---
 title: "Den store sædemuskel"
-latin: "Gluteus Maximus"
+name:
+  latin: "Gluteus Maximus"
 tags:
   - imagemap
   - fitnessinstruktør
@@ -9,11 +10,17 @@ origin:
   da: Hofteben og korsben
 insertion: 
   da: Øverst på bagsiden af låret og dens fascie
-function: 
-  - short: Extends the leg at the hip.
-    extended: This means that the gluteus maximus muscle straightens the hip joint such that there is an increase in the angle between the upper leg and the torso.
-  - short: Laterally rotates the upper leg.
-    extended: This means that the gluteus maximus muscle rotates the upper leg outward around the axis of the bone (i.e. it rotates the upper leg away from the vertical midline of the body).
+function:
+  da:
+    - short: Extends the leg at the hip.
+      extended: This means that the gluteus maximus muscle straightens the hip joint such that there is an increase in the angle between the upper leg and the torso.
+    - short: Laterally rotates the upper leg.
+      extended: This means that the gluteus maximus muscle rotates the upper leg outward around the axis of the bone (i.e. it rotates the upper leg away from the vertical midline of the body).
+  en:
+    - short: Extends the leg at the hip.
+      extended: This means that the gluteus maximus muscle straightens the hip joint such that there is an increase in the angle between the upper leg and the torso.
+    - short: Laterally rotates the upper leg.
+      extended: This means that the gluteus maximus muscle rotates the upper leg outward around the axis of the bone (i.e. it rotates the upper leg away from the vertical midline of the body).
 exercises:
   - Stående calf-raise
 image: /assets/images/anatomy/gluteus-maximus.jpg
@@ -31,7 +38,7 @@ _{{ page.name.latin }}_
 
 ## Funktion
 
-{% for f in page.function %}
+{% for f in page.function.da %}
 - **{{ f.short }}**.
   {{ f.extended | markdownify }}
 {% endfor %}

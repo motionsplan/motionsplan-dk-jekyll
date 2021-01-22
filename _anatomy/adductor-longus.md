@@ -1,6 +1,7 @@
 ---
 title: "Den lange indadfører"
-latin: Adductor Longus
+name:
+  latin: Adductor Longus
 tags:
   - imagemap
   - muskel
@@ -41,7 +42,7 @@ _{{ page.name.latin }}_
 
 ## Funktion
 
-{% for f in page.function %}
+{% for f in page.function.da %}
 - **{{ f.short }}**.
   {{ f.extended | markdownify }}
 {% endfor %}

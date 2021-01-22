@@ -1,6 +1,7 @@
 ---
 title: "Extensor Digitori Minimi"
-latin: Extensor Digitori Minimi
+name:
+  latin: Extensor Digitori Minimi
 tags:
   - imagemap
   - muskel
@@ -8,11 +9,17 @@ origin:
   da: Et hoved fra hver side af nederste bageste del af lårbenet.
 insertion: 
   da: i akillessenen og fæster på hælbenet.
-function: 
-  - short: Extends the wrist.
-    extended: This means that the extensor digiti minimi muscle straightens the wrist joint such that the angle between the back of the hand and the back of the forearm decreases (i.e. it moves the back of the hand toward the back of the forearm).
-  - short: Extends digiti minimi (i.e. the little finger).
-    extended: This means that the extensor digiti minimi muscle straightens the little finger.
+function:
+  da:
+    - short: Extends the wrist.
+      extended: This means that the extensor digiti minimi muscle straightens the wrist joint such that the angle between the back of the hand and the back of the forearm decreases (i.e. it moves the back of the hand toward the back of the forearm).
+    - short: Extends digiti minimi (i.e. the little finger).
+      extended: This means that the extensor digiti minimi muscle straightens the little finger.
+  en:
+    - short: Extends the wrist.
+      extended: This means that the extensor digiti minimi muscle straightens the wrist joint such that the angle between the back of the hand and the back of the forearm decreases (i.e. it moves the back of the hand toward the back of the forearm).
+    - short: Extends digiti minimi (i.e. the little finger).
+      extended: This means that the extensor digiti minimi muscle straightens the little finger.
 exercises:
   - Stående calf-raise
 image: /assets/images/anatomy/extensor-digiti-minimi.jpg
@@ -31,7 +38,7 @@ _{{ page.name.latin }}_
 
 ## Funktion
 
-{% for f in page.function %}
+{% for f in page.function.da %}
 - **{{ f.short }}**.
   {{ f.extended | markdownify }}
 {% endfor %}

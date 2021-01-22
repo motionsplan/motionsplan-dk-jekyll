@@ -1,6 +1,7 @@
 ---
 title: "Aconeus"
-latin: Aconeus
+name:
+  latin: Aconeus
 tags:
   - imagemap
   - muskel
@@ -9,8 +10,12 @@ origin:
 insertion: 
   da: Proksimalt på ulnas bagflade
 function: 
-  - short: Extends the arm at the elbow.
-    extended: This means that the anconeus muscle straightens the elbow joint such that there is an increase in the angle between the forearm and the upper arm.
+  da:
+    - short: Extends the arm at the elbow.
+      extended: This means that the anconeus muscle straightens the elbow joint such that there is an increase in the angle between the forearm and the upper arm.
+  en:
+    - short: Extends the arm at the elbow.
+      extended: This means that the anconeus muscle straightens the elbow joint such that there is an increase in the angle between the forearm and the upper arm.
 exercises:
   - Stående calf-raise
 image: /assets/images/anatomy/anconeus.jpg
@@ -29,7 +34,7 @@ _{{ page.name.latin }}_
 
 ## Funktion
 
-{% for f in page.function %}
+{% for f in page.function.da %}
 - **{{ f.short }}**.
   {{ f.extended | markdownify }}
 {% endfor %}

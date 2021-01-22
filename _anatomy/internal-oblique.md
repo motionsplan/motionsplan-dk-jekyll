@@ -1,6 +1,7 @@
 ---
 title: "Indre skrå mavemuskel"
-latin: "Internal Oblique"
+name:
+  latin: "Internal Oblique"
 tags:
   - imagemap
   - fitnessinstruktør
@@ -9,13 +10,21 @@ origin:
   da: Indersiden af hoftekammen
 insertion: 
   da: De tre nederste ribben ogdanner fortil senepladen for den lige bugmuskel sammen med den ydre skrå og den tværgående og mødes med den modsatte sides muskel i den hvide linie.
-function: 
-  - short: Laterally flexes the spine.
-    extended: This means that the internal oblique muscle bends the spine to the side (i.e. it moves the ribcage downward to the side towards the pelvis).
-  - short: Rotates the spine.
-    extended: This means that the internal oblique muscle turns the spine to the side (i.e. it twists the torso).
-  - short: Compresses the abdominal cavity.
-    extended: This means that the internal oblique muscle constricts the organs of the abdominal cavity and can increase intra-abdominal pressure (i.e. such as during a valsalva maneuver).
+function:
+  da:
+    - short: Laterally flexes the spine.
+      extended: This means that the internal oblique muscle bends the spine to the side (i.e. it moves the ribcage downward to the side towards the pelvis).
+    - short: Rotates the spine.
+      extended: This means that the internal oblique muscle turns the spine to the side (i.e. it twists the torso).
+    - short: Compresses the abdominal cavity.
+      extended: This means that the internal oblique muscle constricts the organs of the abdominal cavity and can increase intra-abdominal pressure (i.e. such as during a valsalva maneuver).
+  en:
+    - short: Laterally flexes the spine.
+      extended: This means that the internal oblique muscle bends the spine to the side (i.e. it moves the ribcage downward to the side towards the pelvis).
+    - short: Rotates the spine.
+      extended: This means that the internal oblique muscle turns the spine to the side (i.e. it twists the torso).
+    - short: Compresses the abdominal cavity.
+      extended: This means that the internal oblique muscle constricts the organs of the abdominal cavity and can increase intra-abdominal pressure (i.e. such as during a valsalva maneuver).
 exercises:
   - Stående calf-raise
 image: /assets/images/anatomy/internal-oblique.jpg
@@ -34,7 +43,7 @@ _{{ page.name.latin }}_
 
 ## Funktion
 
-{% for f in page.function %}
+{% for f in page.function.da %}
 - **{{ f.short }}**.
   {{ f.extended | markdownify }}
 {% endfor %}

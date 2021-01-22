@@ -1,6 +1,7 @@
 ---
 title: Brystmuskel
-latin: Pectoralis Major
+name:
+  latin: Pectoralis Major
 origin:
   da: Brystben, kraveben og ribbensbrusk
 insertion:
@@ -10,10 +11,16 @@ tags:
   - fitnessinstruktør
   - muskel
 function:
-  - short: Abducts the arm at the shoulder.
-    extended: This means that the pectoralis major muscle moves the upper arm away from the vertical midline of the body (i.e. the action of raising your arms to the side).
-  - short: Medially rotates the upper arm.
-    extended: This means that the pectoralis major muscle rotates the upper arm inward around the axis of the bone (i.e. it rotates the upper arm toward the vertical midline of the body).
+  da:
+    - short: Abducts the arm at the shoulder.
+      extended: This means that the pectoralis major muscle moves the upper arm away from the vertical midline of the body (i.e. the action of raising your arms to the side).
+    - short: Medially rotates the upper arm.
+      extended: This means that the pectoralis major muscle rotates the upper arm inward around the axis of the bone (i.e. it rotates the upper arm toward the vertical midline of the body).
+  en:
+    - short: Abducts the arm at the shoulder.
+      extended: This means that the pectoralis major muscle moves the upper arm away from the vertical midline of the body (i.e. the action of raising your arms to the side).
+    - short: Medially rotates the upper arm.
+      extended: This means that the pectoralis major muscle rotates the upper arm inward around the axis of the bone (i.e. it rotates the upper arm toward the vertical midline of the body).
 names:
   - chest
   - pecs
@@ -33,7 +40,7 @@ _{{ page.name.latin }}_
 
 ## Funktion
 
-{% for f in page.function %}
+{% for f in page.function.da %}
 - **{{ f.short }}**.
   {{ f.extended | markdownify }}
 {% endfor %}

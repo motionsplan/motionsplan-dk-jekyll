@@ -1,6 +1,7 @@
 ---
 title: Pectineus
-latin: Pectineus
+name:
+  latin: Pectineus
 tags:
   - imagemap
   - muskel
@@ -8,11 +9,17 @@ origin:
   da: Et hoved fra hver side af nederste bageste del af lårbenet.
 insertion: 
   da: i akillessenen og fæster på hælbenet.
-function: 
-  - short: Flexes the leg at the hip.
-    extended: This means that the pectineus muscle bends the hip joint such that there is a decrease in the angle between the upper leg and the torso.
-  - short: Adducts the leg at the hip.
-    extended: This means that the pectineus muscle moves the upper leg toward the vertical midline of the body (i.e. the action of closing your legs together from a spread out position).
+function:
+  da:
+    - short: Flexes the leg at the hip.
+      extended: This means that the pectineus muscle bends the hip joint such that there is a decrease in the angle between the upper leg and the torso.
+    - short: Adducts the leg at the hip.
+      extended: This means that the pectineus muscle moves the upper leg toward the vertical midline of the body (i.e. the action of closing your legs together from a spread out position).
+  en:
+    - short: Flexes the leg at the hip.
+      extended: This means that the pectineus muscle bends the hip joint such that there is a decrease in the angle between the upper leg and the torso.
+    - short: Adducts the leg at the hip.
+      extended: This means that the pectineus muscle moves the upper leg toward the vertical midline of the body (i.e. the action of closing your legs together from a spread out position).
 exercises:
   - Stående calf-raise
 image: /assets/images/anatomy/pectineus.jpg
@@ -31,7 +38,7 @@ _{{ page.name.latin }}_
 
 ## Funktion
 
-{% for f in page.function %}
+{% for f in page.function.da %}
 - **{{ f.short }}**.
   {{ f.extended | markdownify }}
 {% endfor %}

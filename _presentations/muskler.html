@@ -32,12 +32,13 @@ title: Muskler
 {% assign muscles = site.anatomy | where: "tags", "muskel" | group_by: "category" %}
 
 {% for muscle_category in muscles %}
+{{ items_grouped }}
   {% assign category_name = muscle_category.name | default: "Ingen kategori" %}
         <section class="bg-black aligncenter">
           <!-- Overlay/Opacity: [class*="bg-"] > .background.dark or .light -->
           <span class="background" style="background-image:url('https://source.unsplash.com/LAEPsbXOhIM/')"></span>
           <div class="wrap">
-            <h1 class="text-landing text-shadow"><strong>{{ category_name.name }}</strong></h1>
+            <h1 class="text-landing text-shadow"><strong>{{ category_name }}</strong></h1>
           </div>
           <footer>
             <div class="wrap">

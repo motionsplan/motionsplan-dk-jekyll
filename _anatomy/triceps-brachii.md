@@ -1,6 +1,7 @@
 ---
 title: Trehovede armstrækker
-latin: Triceps Brachii
+name:
+  latin: Triceps Brachii
 group:
   - Arme
 joint:
@@ -10,10 +11,15 @@ tags:
   - fitnessinstruktør
   - muskel
 function:
+  da:
   - short: Extends the arm at the elbow.
-    extended: This means that the triceps brachii muscle straightens the elbow joint
-      such that there is an increase in the angle between the forearm and the
-      upper arm.
+    extended: This means that the triceps brachii muscle straightens the elbow joint such that there is an increase in the angle between the forearm and the upper arm.
+  - short: Stræk i skulderleddet
+    extended: Triceps brachii er med til at strække skulderleddet, dvs. føre
+      overarmen bagud.
+  en:
+  - short: Extends the arm at the elbow.
+    extended: This means that the triceps brachii muscle straightens the elbow joint such that there is an increase in the angle between the forearm and the upper arm.
   - short: Stræk i skulderleddet
     extended: Triceps brachii er med til at strække skulderleddet, dvs. føre
       overarmen bagud.
@@ -54,7 +60,7 @@ _{{ page.name.latin }}_
 
 ## Funktion
 
-{% for f in page.function %}
+{% for f in page.function.da %}
 - **{{ f.short }}**.
   {{ f.extended | markdownify }}
 {% endfor %}

@@ -1,6 +1,7 @@
 ---
 title: "Bugpressen"
-latin: "Transversus Abdominis"
+name:
+  latin: "Transversus Abdominis"
 tags:
   - fitnessinstruktør
   - muskel
@@ -9,9 +10,10 @@ origin:
   da: Nederste ribben, hoftebenskammen og lændefascien
 insertion: 
   da: Rectusskeden
-function: 
-  - short: Vigtig stabilisator af rygsøjlen
-    extended: ""
+function:
+  da:
+    - short: Vigtig stabilisator af rygsøjlen
+      extended: ""
 exercises:
   - Stående calf-raise
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Transversus_abdominis.png/375px-Transversus_abdominis.png
@@ -27,7 +29,7 @@ _{{ page.name.latin }}_
 
 ## Funktion
 
-{% for f in page.function %}
+{% for f in page.function.da %}
 - **{{ f.short }}**.
   {{ f.extended | markdownify }}
 {% endfor %}

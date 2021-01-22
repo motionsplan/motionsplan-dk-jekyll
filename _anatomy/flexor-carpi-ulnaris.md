@@ -1,6 +1,7 @@
 ---
 title: "Flexor Carpi Ulnaris"
-latin: "Flexor Carpi Ulnaris"
+name:
+  latin: "Flexor Carpi Ulnaris"
 tags:
   - imagemap
   - muskel
@@ -8,11 +9,17 @@ origin:
   da: Et hoved fra hver side af nederste bageste del af lårbenet.
 insertion: 
   da: i akillessenen og fæster på hælbenet.
-function: 
-  - short: Flexes the wrist.
-    extended: This means that the flexor carpi ulnaris muscle bends the wrist joint such that the angle between the palm of the hand and the front of the forearm decreases (i.e. it moves the palm of the hand toward the front of the forearm).
-  - short: Adducts the hand.
-    extended: This means that the flexor carpi ulnaris muscle bends the wrist sideways such that the little finger side of the hand moves toward the forearm.
+function:
+  da:
+    - short: Flexes the wrist.
+      extended: This means that the flexor carpi ulnaris muscle bends the wrist joint such that the angle between the palm of the hand and the front of the forearm decreases (i.e. it moves the palm of the hand toward the front of the forearm).
+    - short: Adducts the hand.
+      extended: This means that the flexor carpi ulnaris muscle bends the wrist sideways such that the little finger side of the hand moves toward the forearm.
+  en:
+    - short: Flexes the wrist.
+      extended: This means that the flexor carpi ulnaris muscle bends the wrist joint such that the angle between the palm of the hand and the front of the forearm decreases (i.e. it moves the palm of the hand toward the front of the forearm).
+    - short: Adducts the hand.
+      extended: This means that the flexor carpi ulnaris muscle bends the wrist sideways such that the little finger side of the hand moves toward the forearm.
 exercises:
   - Stående calf-raise
 image: /assets/images/anatomy/flexor-carpi-ulnaris.jpg
@@ -33,7 +40,7 @@ _{{ page.name.latin }}_
 
 ## Funktion
 
-{% for f in page.function %}
+{% for f in page.function.da %}
 - **{{ f.short }}**.
   {{ f.extended | markdownify }}
 {% endfor %}

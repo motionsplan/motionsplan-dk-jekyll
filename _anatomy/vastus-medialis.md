@@ -1,6 +1,7 @@
 ---
 title: "Lårmusklens indre hoved"
-latin: "Vastus Medialis"
+name:
+  latin: "Vastus Medialis"
 tags:
   - imagemap
   - fitnessinstruktør
@@ -9,9 +10,13 @@ origin:
   da: Øverst på forsiden af låret
 insertion: 
   da: Samles i en sene øverst på forsiden af skinnebenet
-function: 
-  - short: Extends the leg at the knee.
-    extended: This means that the vastus medialis muscle straightens the leg at the knee joint such that there is an increase in the angle between the lower leg and the upper leg.
+function:
+  da:
+    - short: Extends the leg at the knee.
+      extended: This means that the vastus medialis muscle straightens the leg at the knee joint such that there is an increase in the angle between the lower leg and the upper leg.
+  en:
+    - short: Extends the leg at the knee.
+      extended: This means that the vastus medialis muscle straightens the leg at the knee joint such that there is an increase in the angle between the lower leg and the upper leg.
 exercises:
   - Stående calf-raise
 image: /assets/images/anatomy/vastus-medialis.jpg
@@ -32,7 +37,7 @@ _{{ page.name.latin }}_
 
 ## Funktion
 
-{% for f in page.function %}
+{% for f in page.function.da %}
 - **{{ f.short }}**.
   {{ f.extended | markdownify }}
 {% endfor %}

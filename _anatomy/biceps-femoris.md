@@ -1,6 +1,7 @@
 ---
 title: "Den tohovedede knæbøjer"
-latin: Biceps Femoris
+name:
+  latin: Biceps Femoris
 tags:
   - imagemap
   - fitnessinstruktør
@@ -9,11 +10,17 @@ origin:
   da: Et hoved fra hver side af nederste bageste del af lårbenet.
 insertion: 
   da: i akillessenen og fæster på hælbenet.
-function: 
-  - short: Flexes the leg at the knee.
-    extended: This means that the biceps femoris muscle bends the leg at the knee joint such that there is a decrease in the angle between the lower leg and the upper leg.
-  - short: Extends the leg at the hip.
-    extended: This means that the biceps femoris muscle straightens the hip joint such that there is an increase in the angle between the upper leg and the torso.
+function:
+  da:
+    - short: Flexes the leg at the knee.
+      extended: This means that the biceps femoris muscle bends the leg at the knee joint such that there is a decrease in the angle between the lower leg and the upper leg.
+    - short: Extends the leg at the hip.
+      extended: This means that the biceps femoris muscle straightens the hip joint such that there is an increase in the angle between the upper leg and the torso.
+  en:
+    - short: Flexes the leg at the knee.
+      extended: This means that the biceps femoris muscle bends the leg at the knee joint such that there is a decrease in the angle between the lower leg and the upper leg.
+    - short: Extends the leg at the hip.
+      extended: This means that the biceps femoris muscle straightens the hip joint such that there is an increase in the angle between the upper leg and the torso.
 exercises:
   - Stående calf-raise
 image: /assets/images/anatomy/biceps-femoris.jpg
@@ -34,7 +41,7 @@ _{{ page.name.latin }}_
 
 ## Funktion
 
-{% for f in page.function %}
+{% for f in page.function.da %}
 - **{{ f.short }}**.
   {{ f.extended | markdownify }}
 {% endfor %}
