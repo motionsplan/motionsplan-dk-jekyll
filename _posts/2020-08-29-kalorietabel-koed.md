@@ -26,7 +26,7 @@ Mange vil gerne vide, hvor mange kalorier, der er i oksekød, kylling, svin og a
 
 Kalorietabellen indeholder forskellige kødtyper, som fx oksekød, kylling, svin og andre typer. I tabellen kan du finde kalorier for forskellige typer kød. Du kan også se en [komplet kalorietabel]({% link _posts/2020-08-29-kalorietabellen.md %}) eller en [kalorietabel over forskellige frugter]({% link _posts/2020-08-29-kalorietabel-frugt.md %}), [kalorietabel over forskellige typer grøntsager]({% link _posts/2020-08-29-kalorietabel-groentsager.md %}) eller [kalorietabel over forskellige typer brød]({% link _posts/2020-08-29-kalorietabel-broed.md %}).
 
-Jeg har skrevet lidt om, hvad [kalorier, kilokalorier, cal og kcal er i et andet blog indlæg]({% link _posts/2020-07-09-kalorier.md %}). Mange kigger på kalorier i fødevarer sammen med [stofskiftet og ligevægtsindtaget, som jeg har lavet en beregner til]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}). Jeg har også lavet en oversigt over [MET-værdier]({% link _posts/2020-07-24-met.md %}), hvor du kan finde ud af, hvor meget energi forskellige aktiviteter kræver.
+Jeg har skrevet lidt om, hvad [kalorier, kilokalorier, cal og kcal er i et andet blog indlæg]({% link _posts/2020-07-09-kalorier.md %}). Mange kigger på kalorier i fødevarer sammen med [stofskiftet]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}) og [ligevægtsindtaget, som jeg har lavet en beregner til]({% link _posts/2019-11-01-stofskifte-ligevaegtsberegner.md %}). Jeg har også lavet en oversigt over [MET-værdier]({% link _posts/2020-07-24-met.md %}), hvor du kan finde ud af, hvor meget energi forskellige aktiviteter kræver.
 
 ## Kilder til kalorietabellen over kød
 
