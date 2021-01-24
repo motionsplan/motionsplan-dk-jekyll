@@ -1,6 +1,7 @@
 ---
 title: "Den lille sædemuskel"
-latin: "Gluteus Minimus"
+name:
+  latin: "Gluteus Minimus"
 tags:
   - fitnessinstruktør
   - muskel
@@ -9,13 +10,21 @@ origin:
   da: Yderst på øverste kant af hoftebenet
 insertion: 
   da: Øverst på bagsiden af låret
-function: 
-  - short: Stabilitet i hoften
-    extended: ""
-  - short: Indadrotation i hoften
-    extended: ""
-  - short: Udadrotation i hoften
-    extended: ""
+function:
+  da:
+    - short: Stabilitet i hoften
+      extended: ""
+    - short: Indadrotation i hoften
+      extended: ""
+    - short: Udadrotation i hoften
+      extended: ""
+  en:
+    - short: Stabilitet i hoften
+      extended: ""
+    - short: Indadrotation i hoften
+      extended: ""
+    - short: Udadrotation i hoften
+      extended: ""
 exercises:
   - Stående calf-raise
 image: https://www.yoganatomy.com/wp-content/uploads/2018/05/gluteus-minimus-muscle-1.png
@@ -23,7 +32,7 @@ image_focus:
 
 ---
 
-_{{ page.latin }}_
+_{{ page.name.latin }}_
 
 - **Udspring**: {{ page.origin.da }}
 - **Hæfte**: {{ page.insertion.da }}
@@ -32,7 +41,7 @@ _{{ page.latin }}_
 
 ## Funktion
 
-{% for f in page.function %}
+{% for f in page.function.da %}
 - **{{ f.short }}**.
   {{ f.extended | markdownify }}
 {% endfor %}

@@ -1,6 +1,7 @@
 ---
 title: "Extensor Digitorum"
-latin: Extensor Digitorum
+name:
+  latin: Extensor Digitorum
 tags:
   - muskel
   - imagemap
@@ -8,11 +9,17 @@ origin:
   da: Et hoved fra hver side af nederste bageste del af lårbenet.
 insertion: 
   da: i akillessenen og fæster på hælbenet.
-function: 
-  - short: Extends the wrist.
-    extended: This means that the extensor digitorum muscle straightens the wrist joint such that the angle between the back of the hand and the back of the forearm decreases (i.e. it moves the back of the hand toward the back of the forearm).
-  - short: Extends the fingers.
-    extended: This means that the extensor digitorum muscle straightens the fingers.
+function:
+  da:
+    - short: Extends the wrist.
+      extended: This means that the extensor digitorum muscle straightens the wrist joint such that the angle between the back of the hand and the back of the forearm decreases (i.e. it moves the back of the hand toward the back of the forearm).
+    - short: Extends the fingers.
+      extended: This means that the extensor digitorum muscle straightens the fingers.
+  en:
+    - short: Extends the wrist.
+      extended: This means that the extensor digitorum muscle straightens the wrist joint such that the angle between the back of the hand and the back of the forearm decreases (i.e. it moves the back of the hand toward the back of the forearm).
+    - short: Extends the fingers.
+      extended: This means that the extensor digitorum muscle straightens the fingers.
 exercises:
   - Stående calf-raise
 image: /assets/images/anatomy/extensor-digitorum.jpg
@@ -22,7 +29,7 @@ coords:
   - "563,217,560,219,554,195"
 ---
 
-_{{ page.latin }}_
+_{{ page.name.latin }}_
 
 - **Udspring**: {{ page.origin.da }}
 - **Hæfte**: {{ page.insertion.da }}
@@ -31,7 +38,7 @@ _{{ page.latin }}_
 
 ## Funktion
 
-{% for f in page.function %}
+{% for f in page.function.da %}
 - **{{ f.short }}**.
   {{ f.extended | markdownify }}
 {% endfor %}

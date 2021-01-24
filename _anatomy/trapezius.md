@@ -1,6 +1,7 @@
 ---
 title: "Trapezius"
-latin: "Trapezius"
+name:
+  latin: "Trapezius"
 tags:
   - imagemap
   - muskel
@@ -8,11 +9,17 @@ origin:
   da: Et hoved fra hver side af nederste bageste del af lårbenet.
 insertion: 
   da: i akillessenen og fæster på hælbenet.
-function: 
-  - short: Elevates the scapula.
-    extended: This means that the trapezius muscle lifts the shoulder girdle up (i.e. shrugging your shoulders).
-  - short: Retracts the scapula.
-    extended: This means that the trapezius muscle pulls the scapula, or shoulder blade, rearward such that it approaches the spine.
+function:
+  da:
+    - short: Elevates the scapula.
+      extended: This means that the trapezius muscle lifts the shoulder girdle up (i.e. shrugging your shoulders).
+    - short: Retracts the scapula.
+      extended: This means that the trapezius muscle pulls the scapula, or shoulder blade, rearward such that it approaches the spine.
+  en:
+    - short: Elevates the scapula.
+      extended: This means that the trapezius muscle lifts the shoulder girdle up (i.e. shrugging your shoulders).
+    - short: Retracts the scapula.
+      extended: This means that the trapezius muscle pulls the scapula, or shoulder blade, rearward such that it approaches the spine.
 exercises:
   - Stående calf-raise
 image: /assets/images/anatomy/trapezius.jpg
@@ -23,7 +30,7 @@ coords:
   - "124,88,110,83,127,73"
 ---
 
-_{{ page.latin }}_
+_{{ page.name.latin }}_
 
 - **Udspring**: {{ page.origin.da }}
 - **Hæfte**: {{ page.insertion.da }}
@@ -32,7 +39,7 @@ _{{ page.latin }}_
 
 ## Funktion
 
-{% for f in page.function %}
+{% for f in page.function.da %}
 - **{{ f.short }}**.
   {{ f.extended | markdownify }}
 {% endfor %}

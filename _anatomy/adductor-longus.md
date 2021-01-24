@@ -1,6 +1,7 @@
 ---
 title: "Den lange indadfører"
-latin: Adductor Longus
+name:
+  latin: Adductor Longus
 tags:
   - imagemap
   - muskel
@@ -8,13 +9,21 @@ origin:
   da: Skambenet.
 insertion: 
   da: På indersiden/bagsiden af det midterste af lårbensknoglen.
-function: 
-  - short: Flexes the leg at the hip.
-    extended: This means that the adductor longus muscle bends the hip joint such that there is a decrease in the angle between the upper leg and the torso.
-  - short: Adducts the leg at the hip.
-    extended: This means that the adductor longus muscle moves the upper leg toward the vertical midline of the body (i.e. the action of closing your legs together from a spread out position).
-  - short: Provides some lateral rotation of the upper leg.
-    extended: This means that the adductor longus muscle rotates the upper leg outward around the axis of the bone (i.e. it rotates the upper leg away from the vertical midline of the body).
+function:
+  da:
+    - short: Flexes the leg at the hip.
+      extended: This means that the adductor longus muscle bends the hip joint such that there is a decrease in the angle between the upper leg and the torso.
+    - short: Adducts the leg at the hip.
+      extended: This means that the adductor longus muscle moves the upper leg toward the vertical midline of the body (i.e. the action of closing your legs together from a spread out position).
+    - short: Provides some lateral rotation of the upper leg.
+      extended: This means that the adductor longus muscle rotates the upper leg outward around the axis of the bone (i.e. it rotates the upper leg away from the vertical midline of the body).
+  en:
+    - short: Flexes the leg at the hip.
+      extended: This means that the adductor longus muscle bends the hip joint such that there is a decrease in the angle between the upper leg and the torso.
+    - short: Adducts the leg at the hip.
+      extended: This means that the adductor longus muscle moves the upper leg toward the vertical midline of the body (i.e. the action of closing your legs together from a spread out position).
+    - short: Provides some lateral rotation of the upper leg.
+      extended: This means that the adductor longus muscle rotates the upper leg outward around the axis of the bone (i.e. it rotates the upper leg away from the vertical midline of the body).
 exercises:
   - Stående calf-raise
 image: /assets/images/anatomy/adductor-longus.jpg
@@ -24,7 +33,7 @@ coords:
   - "159,255,165,263,162,272,159,286,157,305,155,295,154,284,154,270"
 ---
 
-_{{ page.latin }}_
+_{{ page.name.latin }}_
 
 - **Udspring**: {{ page.origin.da }}
 - **Hæfte**: {{ page.insertion.da }}
@@ -33,7 +42,7 @@ _{{ page.latin }}_
 
 ## Funktion
 
-{% for f in page.function %}
+{% for f in page.function.da %}
 - **{{ f.short }}**.
   {{ f.extended | markdownify }}
 {% endfor %}

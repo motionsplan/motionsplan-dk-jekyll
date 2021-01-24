@@ -7,9 +7,9 @@ author_profile: true
 toc: true
 ---
 
-Motionsplan ejes og drives af Lars Olesen (chefudvikler og chefredaktør). Der er tilknyttet en række freelance-journalister til at hjælpe med det redaktionelle stof.
+Motionsplan ejes og drives af Lars Olesen (chefredaktør). Der er tilknyttet en række freelance-journalister til at hjælpe med det redaktionelle stof.
 
-Lars Olesen er cand.scient. og har læst Sundhed og Idræt på Syddansk Universitet. Siden da har han undervist i 20 år i bl.a. fitnessinstruktør, test og træning og idræt på Vejle Idrætshøjskole.
+Lars Olesen er cand.scient. og har læst Sundhed og Idræt på Syddansk Universitet. Siden da har han undervist siden 1999 i bl.a. fitnessinstruktør, test og træning og idræt på Vejle Idrætshøjskole.
 
 ## Om motionsplan.dk
 
@@ -24,8 +24,16 @@ Hvis du har nogle spørgsmål er du altid velkommen til at kontakte os på {{ si
 
 Vi bruger billeder fra [Unsplash.com](https://unsplash.com/) og skriver selv alle artiklerne.
 
-## Tal
+## Tal om Motionsplan
 
 - Blogindlæg: {{ site.posts.size }}
 - Øvelser: {{ site.exercises.size }}
 - Træningsprogrammer: {{ site.programs.size }}
+
+## Forfattere
+
+{% assign featured_authors = site.data.authors | where_exp: "item", "item.featured == 'true'" %}
+{% for authors in featured_authors %}
+  {% assign author=authors[1] %}
+  {% include author.html author=author %}
+{% endfor %}

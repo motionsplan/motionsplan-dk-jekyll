@@ -1,6 +1,7 @@
 ---
 title: "Lårmusklens lige hoved"
-latin: "Rectus Femoris"
+name:
+  latin: "Rectus Femoris"
 tags:
   - imagemap
   - fitnessinstruktør
@@ -9,11 +10,17 @@ origin:
   da: Fremspring på hoftebenet
 insertion: 
   da: Samles i en sene øverst på forsiden af skinnebenet
-function: 
-  - short: Extends the leg at the knee.
-    extended: This means that the rectus femoris muscle straightens the leg at the knee joint such that there is an increase in the angle between the lower leg and the upper leg.
-  - short: Performs some minor extension of the leg at the hip.
-    extended: This means that the rectus femoris muscle straightens the hip joint such that there is an increase in the angle between the upper leg and the torso.
+function:
+  da:
+    - short: Extends the leg at the knee.
+      extended: This means that the rectus femoris muscle straightens the leg at the knee joint such that there is an increase in the angle between the lower leg and the upper leg.
+    - short: Performs some minor extension of the leg at the hip.
+      extended: This means that the rectus femoris muscle straightens the hip joint such that there is an increase in the angle between the upper leg and the torso.
+  en:
+    - short: Extends the leg at the knee.
+      extended: This means that the rectus femoris muscle straightens the leg at the knee joint such that there is an increase in the angle between the lower leg and the upper leg.
+    - short: Performs some minor extension of the leg at the hip.
+      extended: This means that the rectus femoris muscle straightens the hip joint such that there is an increase in the angle between the upper leg and the torso.
 exercises:
   - Stående calf-raise
 image: /assets/images/anatomy/rectus-femoris.jpg
@@ -25,7 +32,7 @@ coords:
 
 "quadriceps," "quads" - the rectus femoris muscle forms part of the quadriceps femoris muscle group, along with vastus lateralis, vastus medialis, and vastus intermedius (vastus intermedius is not shown in the muscle anatomy section since it is located below rectus femoris).
 
-_{{ page.latin }}_
+_{{ page.name.latin }}_
 
 - **Udspring**: {{ page.origin.da }}
 - **Hæfte**: {{ page.insertion.da }}
@@ -34,7 +41,7 @@ _{{ page.latin }}_
 
 ## Funktion
 
-{% for f in page.function %}
+{% for f in page.function.da %}
 - **{{ f.short }}**.
   {{ f.extended | markdownify }}
 {% endfor %}

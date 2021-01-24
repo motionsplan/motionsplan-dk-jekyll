@@ -1,6 +1,7 @@
 ---
 title: "Den tohovedede lægmuskel"
-latin: Gastrocnemius
+name:
+  latin: Gastrocnemius
 tags:
   - imagemap
   - fitnessinstruktør
@@ -9,14 +10,22 @@ origin:
   da: Et hoved fra hver side af nederste bageste del af lårbenet.
 insertion: 
   da: i akillessenen og fæster på hælbenet.
-function: 
-  - short: "Plantarfleksion i ankelleddet"
-  - short: Flexes the leg at the knee.
-    extended: This means that the gastrocnemius muscle bends the leg at the knee joint such that there is a decrease in the angle between the lower leg and the upper leg.
-  - short: Plantar flexes the foot.
-    extended: This means that the gastrocnemius muscle extends the ankle such that the angle between the top of the foot and the shin increases.
+function:
+  da:
+    - short: "Plantarfleksion i ankelleddet"
+    - short: Flexes the leg at the knee.
+      extended: This means that the gastrocnemius muscle bends the leg at the knee joint such that there is a decrease in the angle between the lower leg and the upper leg.
+    - short: Plantar flexes the foot.
+      extended: This means that the gastrocnemius muscle extends the ankle such that the angle between the top of the foot and the shin increases.
+  en:
+    - short: "Plantarfleksion i ankelleddet"
+    - short: Flexes the leg at the knee.
+      extended: This means that the gastrocnemius muscle bends the leg at the knee joint such that there is a decrease in the angle between the lower leg and the upper leg.
+    - short: Plantar flexes the foot.
+      extended: This means that the gastrocnemius muscle extends the ankle such that the angle between the top of the foot and the shin increases.
 secondary_function: 
-  - short: "Bøjer i knæleddet"
+  da:
+    - short: "Bøjer i knæleddet"
 exercises:
   - Stående calf-raise
 image: /assets/images/anatomy/gastrocnemius.jpg
@@ -28,7 +37,7 @@ coords:
   - "170,382,177,397,175,415,167,424,166,411,167,398"
 ---
 
-_{{ page.latin }}_
+_{{ page.name.latin }}_
 
 - **Udspring**: {{ page.origin.da }}
 - **Hæfte**: {{ page.insertion.da }}
@@ -37,7 +46,7 @@ _{{ page.latin }}_
 
 ## Funktion
 
-{% for f in page.function %}
+{% for f in page.function.da %}
 - **{{ f.short }}**.
   {{ f.extended | markdownify }}
 {% endfor %}

@@ -1,6 +1,7 @@
 ---
 title: "Hoftebøjeren"
-latin: "Iliopsoas"
+name:
+  latin: "Iliopsoas"
 tags:
   - fitnessinstruktør
   - muskel
@@ -9,16 +10,20 @@ origin:
   da: Lændehvirvel og hoftebenet
 insertion: 
   da: Bagsiden af lårbenet
-function: 
-  - short: Bøjning i hofteleddet
-    extended: ""
+function:
+  da:
+    - short: Bøjning i hofteleddet
+      extended: ""
+  en:
+    - short: Bøjning i hofteleddet
+      extended: ""
 exercises:
   - Stående calf-raise
 image: https://chintamaniyoga.com/wp-content/uploads/2017/02/Screen-Shot-2017-02-04-at-4.55.13-PM-725x675.png
 image_focus: 
 ---
 
-_{{ page.latin }}_
+_{{ page.name.latin }}_
 
 - **Udspring**: {{ page.origin.da }}
 - **Hæfte**: {{ page.insertion.da }}
@@ -27,7 +32,7 @@ _{{ page.latin }}_
 
 ## Funktion
 
-{% for f in page.function %}
+{% for f in page.function.da %}
 - **{{ f.short }}**.
   {{ f.extended | markdownify }}
 {% endfor %}

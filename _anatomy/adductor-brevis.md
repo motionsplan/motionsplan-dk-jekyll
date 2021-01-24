@@ -1,6 +1,7 @@
 ---
 title: "Adductor Brevis"
-latin: Adductor Brevis
+name:
+  latin: Adductor Brevis
 tags:
   - not-in-imagemap
   - muskel
@@ -8,9 +9,13 @@ origin:
   da: 
 insertion: 
   da: 
-function: 
-  - short: Adducts the leg at the hip.
-    extended: ""
+function:
+  da:
+    - short: Adducts the leg at the hip.
+      extended: ""
+  en:
+    - short: Adducts the leg at the hip.
+      extended: ""
 exercises:
   - Stående calf-raise
 image: https://www.getbodysmart.com/wp-content/uploads/2017/09/4-8-550x550.png
@@ -18,7 +23,7 @@ image_focus:
 coords:
 ---
 
-_{{ page.latin }}_
+_{{ page.name.latin }}_
 
 - **Udspring**: {{ page.origin.da }}
 - **Hæfte**: {{ page.insertion.da }}
@@ -29,7 +34,7 @@ _{{ page.latin }}_
 
 ## Funktion
 
-{% for f in page.function %}
+{% for f in page.function.da %}
 - **{{ f.short }}**.
   {{ f.extended | markdownify }}
 {% endfor %}
