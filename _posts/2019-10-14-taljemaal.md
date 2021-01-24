@@ -44,7 +44,7 @@ I det følgende beskriver jeg de forskellige taljemål (livvidde), og hvad de ka
 
 Taljemålet er et af de enkleste mål for om man er overvægtig. Flere studier viser sammenhæng mellem taljemålet og risikoen for mange livsstilssygdomme, som fx hjertekarsygdomme og diabetes type II.
 
-Taljemålet er særligt relevant, fordi fedtet omkring maven giver øget risiko for sygdomme. I forbindelse med træning er taljemålet også et bedre mål for fedttab end vægt og BMI. Man kan nemlig godt blive tungere af træning, fordi man øger muskelmassen, men hvis man taber fedt, vil taljemålet formentlig falde.
+Taljemålet er særligt relevant, fordi fedtet omkring maven giver øget risiko for sygdomme. I forbindelse med træning er taljemålet også et bedre mål for fedttab end vægt og [BMI](/bmi/). Man kan nemlig godt blive tungere af træning, fordi man øger muskelmassen, men hvis man taber fedt, vil taljemålet formentlig falde.
 
 ## Hvordan måles taljemålet (livvidden)?
 
