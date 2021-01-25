@@ -2,6 +2,7 @@
 
 /* global $ */
 
+const how_tall = require('./how-tall');
 const water = require('./water-intake');
 const inol = require('./inol');
 const ipfpoints = require('./ipf-points');
@@ -550,6 +551,18 @@ $(document).ready(function() {
         $("[name='fat_percent_heitmann']").val(f.getBodyFatPercentHeitmannBMIEquation().toFixed(2));
         $("[name='fat_percent_durnin']").val(f.getBodyFatPercentWomersleyDurninBMIEquation().toFixed(2));
         $("[name='fat_percent_duerenberg']").val(f.getBodyFatPercentDuerenbergBMIEquation().toFixed(2));
+    });
+    $("#calculator_how_tall").submit(function(e) {
+        console.log("Calculate How Tall");
+        e.preventDefault();
+
+        let father = Number($("[name='father_height']").val());
+        let mother = Number($("[name='mother_height']").val());
+        let g = $("[name='sex']:checked").val();
+
+        let f = how_tall.HowTall(g, father, mother);
+
+        $("[name='adult_height']").val(f.getHeight().toFixed(0));
     });
     // Calculate Durnin
     $("#calculator_skinfold_durnin").submit(function(e) {
