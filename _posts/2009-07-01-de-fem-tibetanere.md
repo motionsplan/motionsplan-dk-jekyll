@@ -113,7 +113,7 @@ feature_row_citatplakat:
     alt: Yoga poses - Yoga plakat
 ---
 
-De fem tibetanere er fem yogaøvelser beskrevet af Peter Kelder i slutningen af 1930'erne, men øvelserne kan spores tilbage til omkring år 0. De fem tibetanske riter er en rigtig god introduktion til yoga og øvelserne let at implementere i sin egen hverdag. Jeg har kigget lidt på, hvad de fem tibetanere er?
+De fem tibetanere er fem yogaøvelser beskrevet af Peter Kelder i slutningen af 1930'erne, men øvelserne kan spores tilbage til omkring år 0. De fem tibetanske riter er en rigtig god introduktion til yoga og øvelserne let at implementere i sin egen hverdag. Jeg har kigget lidt på, hvad de fem tibetanere er, og hvilken virkning de har på kroppen?
 
 Hvad er de fem tibetanere? **De fem tibetanere er fem yogabaserede øvelser skabt til at give dig en fornyet følelse af energi og vitalitet. De fem tibetanske riter skal laves 21 gange hver, og tager omkring 15 minutter at lave. Øvelserne stammer fra tibetanske munke, men blev bragt til vesten af Oberst Bradford, og Peter Kelder beskrev dem i sin bog: De fem tibetanere.**
 
@@ -259,17 +259,17 @@ Hvis du er til en ret dynamisk gennemgang af øvelserne med markant yogamusik, s
 
 {% include video provider="youtube" id="LWA5WHLdaaA" %}
 
-Hvis du erfaringer med de fem tibetanere eller andre styrke- og smidighedsgørende øvelser, så brug endelig kommentarerne.
+Hvis du har erfaringer med de fem tibetanere eller andre styrke- og smidighedsgørende øvelser, så brug endelig kommentarerne.
 
 Hvis du foretrækker at se øvelserne på DVD, så kan du købe dem her:
 
 {% include feature_row id="feature_row_dvd" type="left" %}
 
-## Hvordan skal jeg trække vejret?
+## Vejrtrækning: Hvordan skal jeg trække vejret?
 
 Vejrtrækningen i de fem tibetanere er en vigtig del af øvelserne. Derfor bør du læse øvelsesbeskrivelserne grundigt, så du ved hvordan du skal trække vejret, mens du udfører de tibetanske riter.
 
-Vejrtrækningen har i det hele taget større betydning, når vi gennemfører øvelser.
+Vejrtrækningen har i det hele taget stor betydning, når du gennemfører øvelser for at få det rigtige udbytte af bevægelserne.
 
 ## Har jeg brug for udstyr til de fem tibetanere?
 
@@ -281,9 +281,9 @@ Jeg anbefaler derfor, at du bruger en yogamåtte, når du laver tibetanerne, men
 
 {% include feature_row id="feature_row_yogamat" type="left" %}
 
-## Hvordan virker de 5 tibetanere?
+## Virkning: Hvordan virker de 5 tibetanere?
 
-Tanken bag de 5 tibetanere er, at gennemførelsen af øvelserne skal stimulere strømmen af naturlig livsenergi gennem kroppen. 
+Tanken bag de 5 tibetanere er, at gennemførelsen af øvelserne skal stimulere strømmen af naturlig livsenergi gennem kroppen. Påstanden er at øvelserne har en gennemgribende virkning på kroppen og kroppens energibalance.
 
 Når du gennemfører riterne bliver de 7 nøgle-chakraer i din krop aktiveret og stimuleret, og på den måde stimuleres alle kirtlerne i det hormonelle system. 
 
@@ -295,9 +295,9 @@ Det hormonelle (endokrine) system har ansvar for hele kroppens generelle funktio
 
 ## Hvilke fordele er der ved de 5 tibetanere?
 
-Det tager kun omkring 10-20 minutter om dagen at lave de fem tibetanere, men der er mange mulige fordele ved at udføre de fem riter.
+Det tager kun omkring 10-20 minutter om dagen at lave de fem tibetanere. Peter Kelder giver mange eksmpler på fordele ved De fem tibetanere: foryngelse, bedre søvn, friskhed og energi, bedre hukommelse og så videre. Det er nogle rigtig gode salgsargumenter for øvelserne.
 
-De 5 tibetanere påstås allerede efter et par ugers træning at kunne:
+De 5 tibetanere påstås allerede efter et par ugers træning at have følgende virkning:
 
 - Sænke aldringsprocessen ved at dreje dit biologiske ur tilbage
 - Øge dit energiniveau
@@ -347,17 +347,19 @@ Hvis du for alvor vil dykke ned i historien, så er der ingen vej uden om at læ
 
 ## Bogen om de fem tibetanere
 
-De fem tibetanere blev for alvor udbredt i den vestlige verden, da Peter Kelder skrev en bog om øvelserne. Bogen blev virkelig populær og senere skrev han en opfølger til den oprindelige bog.
+De fem tibetanere blev for alvor udbredt i den vestlige verden, da Peter Kelder skrev en bog om øvelserne og sine erfaringer med øvelserne. Bogen blev virkelig populær og senere skrev han en opfølger til den oprindelige bog.
 
 {% include feature_row type="left" %}
 
 ## Virker de 5 tibetanere virkelig?
 
-Jeg er lige ved at dykke ned videnskaben i forhold til om der findes videnskabeligt belæg for effekten af de fem tibetanere. Stay tuned. Brug kommentarerne, hvis jeg skal arbejde lidt hurtigere, eller du har nogle indsigter som kunne besvare dette spørgsmål.
+Jeg er lige ved at dykke ned videnskaben i forhold til om der findes videnskabeligt belæg for effekten af de fem tibetanere. Stay tuned. 
+
+Brug kommentarerne, hvis du har erfaringer med de fem tibetanere og har adgang til videnskabelige artikler, der kan underbygge pointerne og besvare spørgsmålet: "Virke de 5 tibetanere?".
 
 ## Hvorfor er der 5 tibetanere?
 
-Jeg har ikke kunnet finde et definitivt svar på, hvorfor det er endt med 5 tibetanere. Det mest sandsynlige er nok, at det er et godt tal. Der er mange der søger på: "de syv tibetanere" eller "de 7 tibetanere øvelser"
+Jeg har ikke kunnet finde et definitivt svar på, hvorfor det er endt med 5 tibetanere. Det mest sandsynlige er nok, at det er et godt tal. Der er mange der søger på: "de syv tibetanere" eller "de 7 tibetanere øvelser". Hvis du ved, hvor for det er endt på 5, så brug rigtig gerne kommentarerne.
 
 ## Hvad er den sjette tibetaner?
 
@@ -403,11 +405,13 @@ Vi har et andet indlæg her på sitet, der handler om [Mindfulness meditation]({
 
 {% include feature_row id="feature_row_dvd" type="left" %}
 
-## Referencer til de fem tibetanere
+## Bog om de fem tibetanere
 
-{% include gallery caption="Peter Kelder har skrevet to bøger om de 5 tibetanere" %}
+{% include gallery caption="Peter Kelder har skrevet to bøger om de 5 tibetanere og hans erfaringer med de fem tibetanere, som du kan købe fra [denintelligentekrop.dk\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-kilden-til-evig-ungdom)" %}
 
 <a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=37797" target="_blank" rel="nofollow noopener"><img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=37797" border="0" alt=""></a>
+
+## Plakat med de fem tibetanere
 
 {% include gallery id="wallsticker_full" %}
 
