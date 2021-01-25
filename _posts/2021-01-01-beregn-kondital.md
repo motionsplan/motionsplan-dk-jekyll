@@ -1,5 +1,5 @@
 ---
-title: &title "Beregning af kondital: Beregn dit kondital i vores beregnere 🏃"
+title: &title "Udregn dit kondital i vores beregnere 💗🥇"
 permalink: /beregn-kondital/
 redirect_from:
   - /kondital-loeb/
