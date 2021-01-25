@@ -54,7 +54,7 @@ Ideal Weight (kg) = 2.2 x BMI<sub>target</sub> + 3.5 x BMI<sub>target</sub> x (H
 
 ## Udregn idealvægt baseret på BMI og kropstype
 
-Morten Zacho har foreslået, at [basere idealvægten på Body Mass Index (BMI)](https://web.archive.org/web/20160808221414/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/beregn_din_idealvaegt/){:rel="nofollow"}. Morten Zacho konkluderer, at videnskaben understøtter at et optimalt BMI er på omkring 22,5 for kvinder og 24,5 for mænd for at opleve det længste liv med færrest sygdomme. Jeg har forklaret rationalet bag i indlægget om [Body Mass Index (BMI)](/bmi/).
+Morten Zacho har foreslået, at [basere idealvægten på Body Mass Index (BMI)](https://web.archive.org/web/20160808221414/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/beregn_din_idealvaegt/){:rel="nofollow"}. Morten Zacho konkluderer, at videnskaben understøtter at et optimalt BMI er på omkring 22,5 for kvinder og 24,5 for mænd for at opleve det længste liv med færrest sygdomme. Jeg har forklaret rationalet bag i indlægget om [Body Mass Index (BMI), som også har en BMI-beregner](/bmi/).
 
 ## Hvor stor er usikkerheden på idealvægt?
 

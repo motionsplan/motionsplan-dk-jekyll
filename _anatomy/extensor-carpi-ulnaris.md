@@ -1,6 +1,7 @@
 ---
 title: "Extensor Carpi Ulnaris"
-latin: Extensor Carpi Ulnaris
+name:
+  latin: Extensor Carpi Ulnaris
 tags:
   - imagemap
   - muskel
@@ -9,10 +10,16 @@ origin:
 insertion: 
   da: i akillessenen og fæster på hælbenet.
 function: 
-  - short: Extends the wrist.
-    extended: This means that the extensor carpi ulnaris muscle straightens the wrist joint such that the angle between the back of the hand and the back of the forearm decreases (i.e. it moves the back of the hand toward the back of the forearm).
-  - short: Adducts the hand.
-    extended: This means that the extensor carpi ulnaris muscle bends the wrist sideways such that the little finger side of the hand moves toward the forearm.
+  da:
+    - short: Extends the wrist.
+      extended: This means that the extensor carpi ulnaris muscle straightens the wrist joint such that the angle between the back of the hand and the back of the forearm decreases (i.e. it moves the back of the hand toward the back of the forearm).
+    - short: Adducts the hand.
+      extended: This means that the extensor carpi ulnaris muscle bends the wrist sideways such that the little finger side of the hand moves toward the forearm.
+  en:
+    - short: Extends the wrist.
+      extended: This means that the extensor carpi ulnaris muscle straightens the wrist joint such that the angle between the back of the hand and the back of the forearm decreases (i.e. it moves the back of the hand toward the back of the forearm).
+    - short: Adducts the hand.
+      extended: This means that the extensor carpi ulnaris muscle bends the wrist sideways such that the little finger side of the hand moves toward the forearm.
 exercises:
   - Stående calf-raise
 image: /assets/images/anatomy/extensor-carpi-ulnaris.jpg
@@ -22,7 +29,7 @@ coords:
   - "545,178,549,216,542,198"
 ---
 
-_{{ page.latin }}_
+_{{ page.name.latin }}_
 
 - **Udspring**: {{ page.origin.da }}
 - **Hæfte**: {{ page.insertion.da }}
@@ -31,7 +38,7 @@ _{{ page.latin }}_
 
 ## Funktion
 
-{% for f in page.function %}
+{% for f in page.function.da %}
 - **{{ f.short }}**.
   {{ f.extended | markdownify }}
 {% endfor %}

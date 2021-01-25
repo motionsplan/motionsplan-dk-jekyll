@@ -1,6 +1,7 @@
 ---
 title: "Brachoradialis"
-latin: Brachioradialis
+name:
+  latin: Brachioradialis
 tags:
   - imagemap
   - muskel
@@ -9,8 +10,12 @@ origin:
 insertion: 
   da: Lateralsiden af ekstremitas distalis radii (processus styloideus radii)
 function: 
-  - short: Flexes the arm at the elbow.
-    extended: This means that the brachioradialis muscle bends the arm at the elbow joint such that there is a decrease in the angle between the forearm and the upper arm.
+  da:
+    - short: Flexes the arm at the elbow.
+      extended: This means that the brachioradialis muscle bends the arm at the elbow joint such that there is a decrease in the angle between the forearm and the upper arm.
+  en:
+    - short: Flexes the arm at the elbow.
+      extended: This means that the brachioradialis muscle bends the arm at the elbow joint such that there is a decrease in the angle between the forearm and the upper arm.
 exercises:
   - Stående calf-raise
 image: /assets/images/anatomy/brachioradialis.jpg
@@ -20,7 +25,7 @@ coords:
   - "232,167,232,177,247,201,251,200,245,178"
 ---
 
-_{{ page.latin }}_
+_{{ page.name.latin }}_
 
 - **Udspring**: {{ page.origin.da }}
 - **Hæfte**: {{ page.insertion.da }}
@@ -29,7 +34,7 @@ _{{ page.latin }}_
 
 ## Funktion
 
-{% for f in page.function %}
+{% for f in page.function.da %}
 - **{{ f.short }}**.
   {{ f.extended | markdownify }}
 {% endfor %}

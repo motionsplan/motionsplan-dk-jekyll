@@ -1,6 +1,7 @@
 ---
 title: "Lårmusklens ydre hoved"
-latin: "Vastus Lateralis"
+name:
+  latin: "Vastus Lateralis"
 tags:
   - imagemap
   - fitnessinstruktør
@@ -9,9 +10,13 @@ origin:
   da: Øverst på forsiden af låret
 insertion: 
   da: Samles i en sene øverst på forsiden af skinnebenet
-function: 
-  - short: Extends the leg at the knee.
-    extended: This means that the vastus lateralis muscle straightens the leg at the knee joint such that there is an increase in the angle between the lower leg and the upper leg.
+function:
+  da:
+    - short: Extends the leg at the knee.
+      extended: This means that the vastus lateralis muscle straightens the leg at the knee joint such that there is an increase in the angle between the lower leg and the upper leg.
+  en:
+    - short: Extends the leg at the knee.
+      extended: This means that the vastus lateralis muscle straightens the leg at the knee joint such that there is an increase in the angle between the lower leg and the upper leg.
 exercises:
   - Stående calf-raise
 image: /assets/images/anatomy/vastus-lateralis.jpg
@@ -23,7 +28,7 @@ coords:
 
 "quadriceps," "quads" - the vastus lateralis muscle forms part of the quadriceps femoris muscle group, along with rectus femoris, vastus medialis, and vastus intermedius (vastus intermedius is not shown in the muscle anatomy section since it is located below rectus femoris).
 
-_{{ page.latin }}_
+_{{ page.name.latin }}_
 
 - **Udspring**: {{ page.origin.da }}
 - **Hæfte**: {{ page.insertion.da }}
@@ -32,7 +37,7 @@ _{{ page.latin }}_
 
 ## Funktion
 
-{% for f in page.function %}
+{% for f in page.function.da %}
 - **{{ f.short }}**.
   {{ f.extended | markdownify }}
 {% endfor %}

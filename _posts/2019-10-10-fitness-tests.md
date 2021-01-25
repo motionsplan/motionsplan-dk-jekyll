@@ -55,7 +55,7 @@ Der er virkelig mange forskellige onlineværktøjer, hvor du kan teste forskelli
 
 ## Omnicalculator
 
-På Omnicalculator finder du en række [sundhedsværtøjer](https://www.omnicalculator.com/health), hvor du kan udregne kropsform, fedtprocent, BMI og meget andet.
+På Omnicalculator finder du en række [sundhedsværtøjer](https://www.omnicalculator.com/health), hvor du kan udregne kropsform, fedtprocent, [BMI](/bmi/) og meget andet.
 
 > Omni Calculator is here to change all that - we are working on a technology that will turn every* calculation-based problem trivial to solve for anyone.
 

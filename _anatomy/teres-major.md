@@ -1,6 +1,7 @@
 ---
 title: "Teres Major"
-latin: "Teres Major"
+name:
+  latin: "Teres Major"
 tags:
   - imagemap
   - muskel
@@ -8,7 +9,11 @@ origin:
   da: Et hoved fra hver side af nederste bageste del af lårbenet.
 insertion: 
   da: i akillessenen og fæster på hælbenet.
-function: 
+function:
+  da:
+  - short: Laterally rotates the upper arm.
+    extended: This means that the teres major muscle rotates the upper arm outward around the axis of the bone (i.e. it rotates the upper arm away from the vertical midline of the body).
+  en:
   - short: Laterally rotates the upper arm.
     extended: This means that the teres major muscle rotates the upper arm outward around the axis of the bone (i.e. it rotates the upper arm away from the vertical midline of the body).
 exercises:
@@ -20,7 +25,7 @@ coords:
   - "485,132,503,129,505,117"
 ---
 
-_{{ page.latin }}_
+_{{ page.name.latin }}_
 
 - **Udspring**: {{ page.origin.da }}
 - **Hæfte**: {{ page.insertion.da }}
@@ -29,7 +34,7 @@ _{{ page.latin }}_
 
 ## Funktion
 
-{% for f in page.function %}
+{% for f in page.function.da %}
 - **{{ f.short }}**.
   {{ f.extended | markdownify }}
 {% endfor %}

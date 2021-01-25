@@ -1,6 +1,7 @@
 ---
 title: "Den slanke indadfører"
-latin: "Gracilis"
+name:
+  latin: "Gracilis"
 tags:
   - imagemap
   - muskel
@@ -8,9 +9,13 @@ origin:
   da: Skambenet.
 insertion: 
   da: Øverst på den inderste skinnebenskondyl.
-function: 
-  - short: Flexes the leg at the knee.
-    extended: This means that the gracilis muscle bends the leg at the knee joint such that there is a decrease in the angle between the lower leg and the upper leg.
+function:
+  da:
+    - short: Flexes the leg at the knee.
+      extended: This means that the gracilis muscle bends the leg at the knee joint such that there is a decrease in the angle between the lower leg and the upper leg.
+  en:
+    - short: Flexes the leg at the knee.
+      extended: This means that the gracilis muscle bends the leg at the knee joint such that there is a decrease in the angle between the lower leg and the upper leg.
 exercises:
   - Stående calf-raise
 image: /assets/images/anatomy/gracilis.jpg
@@ -20,7 +25,7 @@ coords:
   - "153,267,148,273,147,288,157,318,152,288"
 ---
 
-_{{ page.latin }}_
+_{{ page.name.latin }}_
 
 - **Udspring**: {{ page.origin.da }}
 - **Hæfte**: {{ page.insertion.da }}
@@ -29,7 +34,7 @@ _{{ page.latin }}_
 
 ## Funktion
 
-{% for f in page.function %}
+{% for f in page.function.da %}
 - **{{ f.short }}**.
   {{ f.extended | markdownify }}
 {% endfor %}

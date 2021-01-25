@@ -133,6 +133,8 @@ Du indtaster din vægt, din intensitet under gang og tidsforbruget for din gåtu
 
 ## Kalorieberegner for gang
 
+Her kan du udregne hvor meget energi og kalorier, du forbrænder ved at gå.
+
 {% include calculate-met.html type="walking" %}
 
 ## Eksempel fra kalorieberegneren til gang
@@ -157,6 +159,8 @@ For at sætte tingene lidt i perspektiv, så har du altså brug for en del kalor
 - 1 toast = 313 kalorier
 - 100 g chokolade = 545 kalorier
 - 100 g gulerod = 41 kalorier
+
+Hvis du begynder at gå mere, så vil du bruge mere energi på en dag. Det betyder bl.a. at dit [ligevægtsindtag]({% link _posts/2019-11-01-stofskifte-ligevaegtsberegner.md %}) bliver højere, da du bruger mere energi dagligt.
 
 ## Opsamling på kalorieforbrænding for gang
 

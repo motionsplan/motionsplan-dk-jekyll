@@ -1,6 +1,7 @@
 ---
 title: "Flyndermusklen"
-latin: "Soleus"
+name:
+  latin: "Soleus"
 tags:
   - imagemap
   - fitnessinstruktør
@@ -9,9 +10,13 @@ origin:
   da: Øverst på lægbenet og øverste 2/3 af skinnebenet bagpå.
 insertion: 
   da: I akillessenen og fæster på hælbenet.
-function: 
-  - short: Plantar flexes the foot.
-    extended: This means that the soleus muscle extends the ankle such that the angle between the top of the foot and the lower leg increases (i.e. the action of rising up on your toes or the balls of your feet).
+function:
+  da:
+    - short: Plantar flexes the foot.
+      extended: This means that the soleus muscle extends the ankle such that the angle between the top of the foot and the lower leg increases (i.e. the action of rising up on your toes or the balls of your feet).
+  en:
+    - short: Plantar flexes the foot.
+      extended: This means that the soleus muscle extends the ankle such that the angle between the top of the foot and the lower leg increases (i.e. the action of rising up on your toes or the balls of your feet).
 exercises:
   - Stående calf-raise
   - Siddende calf-raise
@@ -24,7 +29,7 @@ coords:
   - "174,465,171,446,168,430,173,427,176,419"
 ---
 
-_{{ page.latin }}_
+_{{ page.name.latin }}_
 
 - **Udspring**: {{ page.origin.da }}
 - **Hæfte**: {{ page.insertion.da }}
@@ -33,7 +38,7 @@ _{{ page.latin }}_
 
 ## Funktion
 
-{% for f in page.function %}
+{% for f in page.function.da %}
 - **{{ f.short }}**.
   {{ f.extended | markdownify }}
 {% endfor %}

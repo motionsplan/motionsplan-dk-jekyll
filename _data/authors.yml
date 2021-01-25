@@ -2,13 +2,11 @@ lsolesen:
   name: "Lars Olesen"
   bio: "Lars Olesen er cand.scient. i Idræt og Sundhed fra Syddansk Universitet. Til daglig lærer på Vejle Idrætshøjskole, hvor han underviser i styrketræning, ernæring og teambuilding - og uddanner fitnessinstruktører for DGI og DIF's Foreningsfitness."
   avatar: "/assets/images/authors/larsolesen.jpg"
+  featured: true
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:lars@vih.dk"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://larsolesen.dk"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/lsolesen"
@@ -26,6 +24,7 @@ jesper.emil.jakobsgaard:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/jesper-emil-jakobsgaard/"
+  featured: true
 jakob.nielsson:
   name             : "Jakob Nielsson"
   avatar           : "/assets/images/authors/jakob-nielsson.jpg"
@@ -34,6 +33,7 @@ jakob.nielsson:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/jakob-nielsson-b28639a8/"
+  featured: true
 karsten.thor.lund:
   name             : "Karsten Thor Lund"
   avatar           : "/assets/images/authors/karsten-thor-lund.png"
@@ -42,6 +42,7 @@ karsten.thor.lund:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/karsten-lund-ba88b75a/"
+  featured: true
 mads.davidsen:
   name             : "Mads Davidsen"
   avatar           : "/assets/images/authors/madsdavidsen.png"
@@ -53,12 +54,19 @@ mads.davidsen:
     - label: "Twitter"
       icon: "fab fa-fw fa-linkedin"
       url: "https://twitter.com/MadsRDavidsen"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://facebook.com/Mads.Davidsen1982"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://dk.linkedin.com/in/mads-davidsen-9007545"
+  featured: true
+martin.madsen:
+  name             : "Martin Madsen"
+  avatar           : "/assets/images/authors/martinmadsen.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Martin Madsen er cand.scient fra Syddansk Universitet i Idræt. Til daglig underviser han fitnessinstruktører og politiaspiranter på Vejle Idrætshøjskole. Desuden er han tilknyttet Team Danmark."
+  links:
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/martin-madsen-51743262/"
+      featured: true
 kathrine.christensen:
   name             : "Kathrine Christensen"
   avatar           : "/assets/images/authors/kathrinechristensen.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
@@ -67,14 +75,7 @@ kathrine.christensen:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://kathrinechristensen.dk/"
-martin.madsen:
-  name             : "Martin Madsen"
-  avatar           : "/assets/images/authors/martinmadsen.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Martin Madsen er cand.scient fra Syddansk Universitet i Idræt. Til daglig underviser han fitnessinstruktører og politiaspiranter på Vejle Idrætshøjskole. Desuden er han tilknyttet Team Danmark."
-  links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://www.vih.dk/"
+  featured: true
 linda.kruse:
   name             : "Linda Kruse"
   avatar           : "/assets/images/authors/lindakruse.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"

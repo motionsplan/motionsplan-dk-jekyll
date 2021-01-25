@@ -30,7 +30,7 @@ Jeg har skrevet [en del om ulemperne ved Body Mass Index (BMI)]({% link _posts/2
 
 {% include calculate-bmi.html %}
 
-I beregnerne udregnes også BMI, som [jeg har skrevet meget mere om her]({% link _posts/2019-10-31-udregning-af-bmi.md %}).
+I beregneren udregnes også [BMI, som jeg har skrevet meget mere om her]({% link _posts/2019-10-31-udregning-af-bmi.md %}).
 
 ### Udregning af Ponderal Index med formel
 

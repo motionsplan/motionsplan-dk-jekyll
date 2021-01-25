@@ -78,31 +78,39 @@ wallsticker_full:
   - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-therapy-danish.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-therapy-wallsticker
     title: Yoga therapy
+    alt: Yoga therapy
   - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-is-a-way-to-freedom-danish.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-is-a-way-to-freedom-wallstick r
     title: Yoga is a way to freedom
+    alt: Yoga is a way to freedom
   - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-is-99-_-practice-danish_3.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-er-99-ovelse-wallsticker
     title: Yoga er 99 % øvelse
+    alt: Yoga er 99 % øvelse
   - image_path: https://www.wallstickerland.dk/media/catalog/product/a/-/a-yoga-instructor-gets-people-to-danish.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/en-yoga-instruktor-far-folk-til-wallsticker
     title: En yoga-instruktør får folk til
   - image_path: https://www.wallstickerland.dk/media/catalog/product/i/-/i-do-yoga-english.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/i-do-yoga-wallsticker
     title: I do yoga
+    alt: I do yoga
   - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-wallsticker
     title: Yoga
+    alt: Yoga
   - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-keeps-punching-me.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-keeps-punching-me-wallsticker
     title: Yoga keeps punching me
+    alt: Yoga keeps punching me
   - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-is-not-just-a-workout-danish.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-er-ikke-bare-en-traening-wallsticker
     title: Yoga er ikke bare en træning
+    alt: Yoga er ikke bare en træning
 feature_row_citatplakat:
   - image_path: https://citatplakat.dk/wp-content/uploads/2020/11/Yogastillinger-PR10039.png
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/yoga-poses-yoga-plakat/
     title: Yoga poses - Yoga plakat
+    alt: Yoga poses - Yoga plakat
 ---
 
 De fem tibetanere er fem yogaøvelser beskrevet af Peter Kelder i slutningen af 1930'erne, men øvelserne kan spores tilbage til omkring år 0. De fem tibetanske riter er en rigtig god introduktion til yoga og øvelserne let at implementere i sin egen hverdag. Jeg har kigget lidt på, hvad de fem tibetanere er, og hvilken virkning de har på kroppen?
@@ -197,13 +205,13 @@ _Det er ikke meningen, at du skal opleve smerte eller ubehag, når du gennemfør
 
 ### Rite 1
 
-{% include figure image_path="https://post.healthline.com/wp-content/uploads/2019/09/158078-Everything_You_Need_to_Know_About_the_5_Tibetan_Rites-1296x728-Body_Image-Rite_01-1296x728.jpg" caption="Rite 1" %}
+{% include figure image_path="https://post.healthline.com/wp-content/uploads/2019/09/158078-Everything_You_Need_to_Know_About_the_5_Tibetan_Rites-1296x728-Body_Image-Rite_01-1296x728.jpg" caption="Rite 1" alt="Rite 1 for de fem tibetanere" %}
 
 I den første rite skal du stå oprejst og strække armene ud til siden. Drej rundt om dig selv i urets retning i det tempo, der passer dig. Træk vejret dybt og langsomt for at undgå at blive svimmel. Denne øvelse er måske den der for de fleste voksne kræver mest tilvænning.
 
 ### Rite 2
 
-{% include figure image_path="https://post.healthline.com/wp-content/uploads/2019/09/158078-Everything_You_Need_to_Know_About_the_5_Tibetan_Rites-1296x728-Body_Image-Rite_02-1296x728.jpg" caption="Rite 2" %}
+{% include figure image_path="https://post.healthline.com/wp-content/uploads/2019/09/158078-Everything_You_Need_to_Know_About_the_5_Tibetan_Rites-1296x728-Body_Image-Rite_02-1296x728.jpg" caption="Rite 2" alt="Rite 2 for de 5 tibetanere" %}
 
 I den anden rite skal du lægge dig fladt på ryggen. Armene skal ligge langs siden og dine håndflader skal vende mod gulvet. Løft nu hovedet op fra gulvet og træk hagen ned mod brystet, mens du løfter dine ben strakte og lodret op. Sænk herefter ben og hoved tilbage igen, så du ender i startpositionen.
 
@@ -213,7 +221,7 @@ Hvis denne øvelse er for hård, kan du med fordele bøje dine ben i stedet for 
 
 ### Rite 3
 
-{% include figure image_path="https://post.healthline.com/wp-content/uploads/2019/09/158078-Everything_You_Need_to_Know_About_the_5_Tibetan_Rites-1296x728-Body_Image-Rite_03-1296x728.jpg" caption="Rite 3" %}
+{% include figure image_path="https://post.healthline.com/wp-content/uploads/2019/09/158078-Everything_You_Need_to_Know_About_the_5_Tibetan_Rites-1296x728-Body_Image-Rite_03-1296x728.jpg" caption="Rite 3" alt="Rite 3 for de fem tibetanere" %}
 
 Den tredje rite er forholdsvis simpel. Sæt dig på knæene, så kun dine tær og knæ rør underlaget. Placer herefter dine hænder på baglåret. Træk nu hagen mod brystet ved at bøje hovedet fremover. Bøj derefter hoved bagover og svaj i din rygrad. Kør efterfølgende op til standardpositionen. 
 
@@ -221,7 +229,7 @@ Træk vejret ind når du bøjer dig bagover, og pust ud når du bøjer dig forov
 
 ### Rite 4
 
-{% include figure image_path="https://post.healthline.com/wp-content/uploads/2019/09/158078-Everything_You_Need_to_Know_About_the_5_Tibetan_Rites-1296x728-Body_Image-Rite_04-1296x728.jpg" caption="Rite 4" %}
+{% include figure image_path="https://post.healthline.com/wp-content/uploads/2019/09/158078-Everything_You_Need_to_Know_About_the_5_Tibetan_Rites-1296x728-Body_Image-Rite_04-1296x728.jpg" caption="Rite 4" alt="Rite 4 for de fem tibetanere" %}
 
 Den fjerde rite sætter du dig på gulvet med strakte ben. Sænk herefter hagen mod brystet. Ryk derefter hovedet så langt tilbage det kan komme, og løft kroppen op i en ”bro”, ved at spænde i alle muskler. Slap herefter af i musklerne og kør din krop tilbage til startpositionen. 
 
@@ -229,7 +237,7 @@ Du skal i denne øvelse løfte kroppen op på en indånding, og sænke kroppen p
 
 ### Rite 5
 
-{% include figure image_path="https://post.healthline.com/wp-content/uploads/2019/09/158078-Everything_You_Need_to_Know_About_the_5_Tibetan_Rites-1296x728-Body_Image-Rite_05-1296x728.jpg" caption="Rite 5" %}
+{% include figure image_path="https://post.healthline.com/wp-content/uploads/2019/09/158078-Everything_You_Need_to_Know_About_the_5_Tibetan_Rites-1296x728-Body_Image-Rite_05-1296x728.jpg" caption="Rite 5" alt="Rite 5 for de fem tibetanere" %}
 
 For at udføre den femte rite skal du ligge på maven. Sæt nu hænderne på underlaget ud fra skuldrene. Herefter skal du strække dine arme, så kun dine tæer og hænder rammer underlaget. Bøj nu i hoften og før bagdelen opad, så din krop former en "pyramide". Før derefter hoften ned mod jorden igen. Skift mellem de to stillinger.
 

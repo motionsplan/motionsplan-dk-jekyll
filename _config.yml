@@ -105,10 +105,10 @@ footer:
       icon: "fab fa-fw fa-twitter-square"
       webslides: "fa-twitter"
       url: "https://twitter.com/motionsplan"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      webslides: "fa-github"
-      url: "https://github.com/motionsplan"
+    - label: "Støt sitet"
+      icon: "fas fa-fw fa-mug-hot"
+      webslides: "fa-coffee"
+      url: "https://www.buymeacoffee.com/lsolesen"
 
 
 # Site Author
@@ -300,6 +300,9 @@ collections:
   presentations:
     output: true
     permalink: /p/:path/
+  methods:
+    output: true
+    permalink: /metode/:path/
   redirects:
     output: true
     permalink: /go/:path/
