@@ -1,16 +1,14 @@
 {% assign bones = site.data.knogler %}
 
 <table class="table">
-  {% for row in bones %}
-    {% if forloop.first %}
     <thead>
     <tr>
-      <th>{{ row.Danish }}</th>
-      <th>{{ row.Latin }}</th>
-      <th>{{ row.English }}</th>
+      <th>Dansk</th>
+      <th>Latin</th>
+      <th>Engelsk</th>
     </tr>
     </thead>
-    {% endif %}
+  {% for row in bones %}
     {% if forloop.length == 1 %}
     <tbody>
     {% endif %}
