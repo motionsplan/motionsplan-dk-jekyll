@@ -42,7 +42,7 @@ Muskler kommer i tre forskellige muskeltyper:
 
 Hvis den glatte muskulatur er med i optællingen, så har vi en umulig opgave. Den glatte muskulatur er organernes muskler, laver arbejdet for det autonome nervesystem, flytter ting rundt i kroppens forskellige rør, rejser hårene og skubber babyer ud. Med andre ord så kan det ikke lade sig gøre at tælle den glatte muskulatur med.
 
-De ikke-viljestyrede muskler mangler det tværstribede mønster. Den kaldes derfor for glat muskulatur.
+De ikke-viljestyrede muskler mangler det tværstribede mønster. Den kaldes derfor for glat muskulatur.
 
 De ikke-viljestyrede muskler, som dem vi har i hjertet og i fordøjelseskanalen, fungerer normalt uden for vores bevidstheds kontrol eller opmærksomhed.
 
@@ -89,6 +89,6 @@ Hvilket antal man kommer frem til afhænger derfor meget af om man udelukkende t
 
 Men hvis du kun tæller skeletmuskulaturen med, så er der omkring 700 muskler. Men det er formentlig kun omkring 100 af de muskler, du nogensinde stifter bekendtskab med.
 
-Jeg har skrevet mere om, hvordan [muskler trækker sig sammen]({% link _posts/2020-06-06-muskelsammentraekning.md %}) og jeg har også lavet en [muskeloversigt]({% link _pages/muscles.md %}), hvor du kan se de mest nødvendige muskler i forhold til træning.
+Jeg har skrevet mere om, hvordan [muskler trækker sig sammen]({% link _posts/2020-06-06-muskelsammentraekning.md %}) og jeg har også lavet en [muskeloversigt]({% link _pages/anatomy/muscles.md %}), hvor du kan se de mest nødvendige muskler i forhold til træning.
 
 Hvis du leder efter, hvor mange [knogle menneskekroppen har]({% link _posts/2020-05-31-hvor-mange-knogler-har-mennesket.md %}), så har jeg også skrevet om det.
