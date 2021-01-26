@@ -1,5 +1,5 @@
 ---
-title: &title "Hvor høj bliver jeg? 🚶🚶‍♀️ [2021]"
+title: &title "Beregner: Hvor høj bliver jeg? 📏 [2021]"
 permalink: /hvor-hoej-bliver-jeg/
 last_modified_at: 2021-01-18T09:41:09Z
 author: lsolesen

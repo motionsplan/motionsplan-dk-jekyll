@@ -421,6 +421,8 @@ Bøgerne går i dybden med teorien om udstrækning, og så kan de give inspirati
 
 Du kan også lede videre her på siden for at finde en masse udstrækningsøvelser. Jeg har bl.a. skrevet et andet indlæg, som går lidt mere i dybden med, [hvordan du bliver smidigere med udstrækning]({% link _posts/2009-02-28-du-bliver-smidigere-af-straekke.md %}). Tjek det ud før din nabo.
 
+Du kan også finde inspiration til udstrækning og udspænding i forskellige yoga-flows. Jeg har beskrevet [De fem tibetanere]({% link _posts/2009-07-01-de-fem-tibetanere.md %}), som kombinerer muskeløvelser med strækøvelser, og [Solhilsen A og B]({% link _posts/2020-07-25-solhilsen.md %}).
+
 ## Forslag til strækøvelser og udstrækningsøvelser
 
 {% assign site_posts = site.exercises | where: "training_type", "Strækøvelser" | sort: "title" %}

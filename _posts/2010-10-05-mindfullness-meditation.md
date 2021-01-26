@@ -105,4 +105,4 @@ Den Intelligente Krop som er vores samarbejdspartner har også [afspændinger ti
 
 <a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=37797" target="_blank" rel="nofollow noopener"><img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=37797" border="0" alt=""></a>
 
-{% include gallery id="wallsticker_full" %}
+{% include gallery id="wallsticker_full" caption="Wallstickers om yoga og mindfulness" %}
