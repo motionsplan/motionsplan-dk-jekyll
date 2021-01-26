@@ -243,7 +243,7 @@ Jeg har foreløbigt valgt nogle af de mest brugte formler i beregneren, men tilp
 
 ## Hvordan måles BMR, hvilestofskiftet og basalstofskiftet?
 
-Hvilestofskiftet måles ifølge [Allan Stubbe: Stofskiftet](http://www.motion-online.dk/sundhed_og_vaegt/sundhed_generelt/stofskiftet/){:rel="nofollow"} normalt efter 12-18 timers faste med personen i hvile og liggende i et tempereret lokale. Rent praktisk foregår testen om morgenen efter mindst 12 timer uden mad og stimulanser og uden nogen nævneværdig aktivitet - både fysisk og psykisk.
+Hvilestofskiftet måles ifølge [Allan Stubbe: Stofskiftet](http://web.archive.org/web/20110606134040/http://www.motion-online.dk/sundhed_og_vaegt/sundhed_generelt/stofskiftet/){:rel="nofollow"} normalt efter 12-18 timers faste med personen i hvile og liggende i et tempereret lokale. Rent praktisk foregår testen om morgenen efter mindst 12 timer uden mad og stimulanser og uden nogen nævneværdig aktivitet - både fysisk og psykisk.
 
 De færreste har adgang til en facilitet, hvor man kan få målt sit basalstofskifte. Derfor kan man i stedet udregne BMR og lave en beregning af sit energiforbrug.
 
