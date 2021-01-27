@@ -114,7 +114,7 @@ Jeg har ikke kunnet finde den anslåede vægt for ret mange knogler. Hvis du fin
 
 Jeg har skrevet lidt flere artikler om [knoglerne og knogletyperne](/knogler/) og [anatomi](/anatomi/).
 
-{% include pinterest image_path="/assets/images/pinterest/hvad-vejer-skelettet.png" data-pin-media="/assets/images/pinterest/hvad-vejer-skelettet.png" alt="Hvad vejer knoglerne og skelettet" caption="Hvad vejer knoglerne og skelettet" class="hidden" %}
+{% include pinterest image_path="/assets/images/pinterest/hvad-vejer-skelettet.png" data-pin-media="/assets/images/pinterest/hvad-vejer-skelettet.png" alt="Hvad vejer knoglerne og skelettet" caption="Hvad vejer knoglerne og skelettet" hidden="true" %}
 
 ## Bøger
 
