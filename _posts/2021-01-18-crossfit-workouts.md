@@ -72,7 +72,7 @@ Hendes foretrukne workouts var følgende:
 
 Hero Workouts er crossfit workouts, som skal hædre nogle personer, som fx kan være faldet i krig. Du kan se en oversigt over en del af Hero workouts her:
 
-<iframe src="https://assets.pinterest.com/ext/embed.html?id=ARwIDHz_FAONnFEh5FKn92HlKdpDdMzNbLmQEa3MtyuozYcJQ__36Ao" height="1086" width="600" frameborder="0" scrolling="no" ></iframe>
+<iframe src="https://assets.pinterest.com/ext/embed.html?id=289285976050705184" height="700" width="600" frameborder="0" scrolling="no" ></iframe>
 
 Hvis Mette Bjerre skulle vælge en favorit blandt Hero Crossfit Workouts, så ville hun vælge Murph, hvor du kun skal bruge en Pullup bar.
 
