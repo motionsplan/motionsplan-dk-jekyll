@@ -44,13 +44,7 @@ I de følgende beregninger for gang kigger vi hovedsageligt på hastigheden og h
 
 {% include figure image_path="https://images.unsplash.com/photo-1607326005396-d82f932c55bc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" caption="Når du kigger på forbrænding af kalorier i forhold til gang, så betyder både din hastighed, landskabet og intensiteten noget." %}
 
-Derfor er det mest rigtige i forhold til at udregne, hvor meget energi man bruger på cyklen, at bruge Watt.
-
-Derfor har jeg også inkluderet MET-værdier for _stationære_ cykler (kondicykler), hvor MET-værdierne er noteret på Watt.
-
-Fordelen ved at bruge Watt er, at det typisk måles i pedalerne, så derfor siger Watt-målingen noget om den faktiske intensitet. Cykelpartner.dk har fx den meget roste [Garmin Vector wattpedal](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=16446&htmlurl=https://www.cykelpartner.dk/pedaler-til-racercykler/garmin-vector-3s---pedaler-med-watt-maaling---enkelt-sensor), hvis du er interesseret i at læse mere om wattpedaler.
-
-Hvis ikke du har adgang til wattmålere, så kan du også med pulsen få en mere præcis vurdering af din intensitet på cyklen.
+Hvis du vil have en mere præcis vurdering af din intensitet under gang, så kan du bruge en pulsmåler.
 
 {% include feature_row type="left" id="puls" %}
 
@@ -121,13 +115,13 @@ Hvor meget du forbrænder ved en given aktivitet hænger nøje sammen med varigh
 
 Om det er bedst at lave [kontinuerlig træning eller intervaltræning](https://www.motionsplan.dk/artikel/er-kontinuerlig-traening-eller-intervaltraening-bedst-for-fedtforbraendningen) afhænger bl.a. også af tidsforbruget i træningen. Du kan faktisk også organisere din gåtur som intervaltræning for at sætte forbrændingen op. Du kan naturligvis ikke forbrænde lige så meget, som du kan ved fx løb eller cykling, hvor du kan køre med meget højere intensitet.
 
-## Kalorieberegner for cykel
+## Kalorieberegner for gang
 
 Hvis du gerne vil beregne hvor mange kalorier, du forbrænder ved forskellige aktiviteter, så tjek vores [kalorierberegner med MET-værdier](/met/).
 
 Her har jeg lavet en enkel version, der kun tager højde for kalorieforbruget ved gang og ved forskellige intensiteter.
 
-Udfyld tallene i beregneren for at beregne hvor mange kalorier du forbrænder under dine daglige cykelture.
+Udfyld tallene i beregneren for at beregne hvor mange kalorier du forbrænder under dine daglige gåture.
 
 Du indtaster din vægt, din intensitet under gang og tidsforbruget for din gåtur, og så finder du ud af, hvor mange kalorier du forbrænder i løbet af gåturen.
 
@@ -152,7 +146,7 @@ Et par eksempler på energiforbruget for en person, der vejer 70 kg og som går 
 | 3 km ~ 45 min    |         182 kcal |        5.468 kcal  |
 | 4 km ~ 60 min    |         243 kcal |        7.290 kcal  |
 
-For at sætte tingene lidt i perspektiv, så har du altså brug for en del kalorier for at cykle. 
+For at sætte tingene lidt i perspektiv, så har du altså brug for en del kalorier for at gå en tur. 
 
 - 1 æble = 51 kalorier
 - 100 g juice er der 54 kalorier
