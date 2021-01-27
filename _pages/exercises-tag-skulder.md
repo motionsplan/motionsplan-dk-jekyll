@@ -32,7 +32,7 @@ Du kan læse om flere [skulderøvelser og træning af bagskulderen og rotatorman
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single-simple.html type="grid" %}
+    {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
 

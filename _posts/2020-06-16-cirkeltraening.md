@@ -90,7 +90,7 @@ Ud fra min egen erfaring kan det betale sig at afprøve sit eget program, inden 
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts limit: 12 %}
-    {% include archive-single-simple.html type="grid" %}
+    {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
 

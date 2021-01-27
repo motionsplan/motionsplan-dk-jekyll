@@ -76,7 +76,7 @@ Nevill et al (2008) rapporterer både om 7-punktsmålingen og 3-punktsmålingen.
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single-simple.html %}
+    {% include archive-single.html %}
   {% endfor %}
 {% endif %}
 
@@ -84,9 +84,13 @@ Nevill et al (2008) rapporterer både om 7-punktsmålingen og 3-punktsmålingen.
 
 {% include feature_row id="feature_row_references" type="left" %}
 
+<details markdown="1">
+  <summary>Se referencer til {{ page.title }}</summary>
+
 - Jackson, A. S., M. L. Pollock, og A. Ward. 1980. “Generalized Equations for Predicting Body Density of Women”. _Medicine and Science in Sports and Exercise_ 12 (3): 175–81. <https://pubmed.ncbi.nlm.nih.gov/7402053/>.
 - Jackson, A. S., og M. L. Pollock. 1978. “Generalized Equations for Predicting Body Density of Men”. _The British Journal of Nutrition_ 40 (3): 497–504. [https://doi.org/10.1079/bjn19780152](https://doi.org/10.1079/bjn19780152).
 - Siri, W. E. 1956. “The Gross Composition of the Body”. Advances in Biological and Medical Physics 4: 239–80. <https://doi.org/10.1016/b978-1-4832-3110-5.50011-x>.
+</details>
 
 ## Køb en hudfoldsmåler
 

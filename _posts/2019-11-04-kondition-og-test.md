@@ -101,7 +101,7 @@ Der er mange måder at måle sin kondition på. Vi har samlet en række konditio
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single-simple.html %}
+    {% include archive-single.html %}
   {% endfor %}
 {% endif %}
 

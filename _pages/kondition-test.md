@@ -37,7 +37,7 @@ feature_row_feature:
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single-simple.html type="grid" %}
+    {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -51,7 +51,7 @@ feature_row_feature:
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single-simple.html type="grid" %}
+    {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -65,7 +65,7 @@ feature_row_feature:
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single-simple.html type="grid" %}
+    {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -79,7 +79,7 @@ feature_row_feature:
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single-simple.html type="grid" %}
+    {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
 
@@ -93,7 +93,7 @@ feature_row_feature:
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single-simple.html type="grid" %}
+    {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
 

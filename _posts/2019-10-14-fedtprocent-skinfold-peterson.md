@@ -58,7 +58,7 @@ For at estimere fedtprocenten så skal der både for mænd og kvinder måles hud
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single-simple.html %}
+    {% include archive-single.html %}
   {% endfor %}
 {% endif %}
 
@@ -68,4 +68,8 @@ For at estimere fedtprocenten så skal der både for mænd og kvinder måles hud
 
 ## Referencer til Peterson (2003)
 
+<details markdown="1">
+  <summary>Se referencer til {{ page.title }}</summary>
+
 - Peterson, Matthew J., Stefan A. Czerwinski, og Roger M. Siervogel. 2003. “Development and Validation of Skinfold-Thickness Prediction Equations with a 4-Compartment Model”. The American Journal of Clinical Nutrition 77 (5): 1186–91. <https://doi.org/10.1093/ajcn/77.5.1186>.
+</details>

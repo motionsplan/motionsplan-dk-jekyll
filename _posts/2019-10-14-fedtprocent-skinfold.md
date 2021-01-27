@@ -95,7 +95,7 @@ Alle de følgende måder at lave hudfoldsmålinger på kræver en pålidelig fed
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single-simple.html %}
+    {% include archive-single.html %}
   {% endfor %}
 {% endif %}
 

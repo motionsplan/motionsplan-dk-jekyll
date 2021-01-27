@@ -3,7 +3,7 @@
 <h2>{{ include.title }}</h2>
 <div class="feature__wrapper">
   {% for post in e %}
-    {% include archive-single-simple.html type="grid" %}
+    {% include archive-single.html type="grid" %}
   {% endfor %}
 </div>
 {% endif %}
