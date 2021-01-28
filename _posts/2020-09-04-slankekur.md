@@ -30,6 +30,8 @@ Men Vicky er ikke den eneste, der har utrolige vægttab på slankekure fra Ude &
 
 Maria har haft et vægttab på [5 kilo på fem dage med kødbolle-slankekuren](https://www.udeoghjemme.dk/slank-og-sund/slank/hurtigt-vaegttab-maria-tabte-5-kilo-paa-fem-dage). Sandra har været på [rugbrødskuren og tabte 3 kilo](https://www.udeoghjemme.dk/slank-og-sund/slank/slankekure/slankekur-jeg-har-faaet-motivationen-tilbage).
 
+{% include pinterest image_path=page.header.overlay_image data-pin-media="https://i.pinimg.com/564x/55/f6/d6/55f6d6bda3f84dbc66eacaf492045cbd.jpg" data-pin-id="579768152025035959" caption=page.title %}
+
 ## Kan man tabe sig på en slankekur og en kostplan?
 
 Der er ingen tvivl om, at man kan tabe sig med kostplaner og slankekure.

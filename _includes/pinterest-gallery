@@ -1,0 +1,60 @@
+{% if include.id %}
+  {% assign gallery = page[include.id] %}
+{% elsif include.images %}
+  {% assign gallery = include.images %}
+{% else %}
+  {% assign gallery = page.gallery %}
+{% endif %}
+
+{% if include.layout %}
+  {% assign gallery_layout = include.layout %}
+{% else %}
+  {% if gallery.size == 2 %}
+    {% assign gallery_layout = 'half' %}
+  {% elsif gallery.size >= 3 %}
+    {% assign gallery_layout = 'third' %}
+  {% else %}
+    {% assign gallery_layout = '' %}
+  {% endif %}
+{% endif %}
+
+{% assign tags = page.tags | uniq | limit: 4 | join: " #" %}
+{% assign excerpt = page.excerpt | markdownify | strip_html | truncate: 400 | append: "#" | append: tags %}
+
+<figure class="{{ gallery_layout }} {{ include.class }}{% if include.hidden == "true" %} hidden{% endif %}">
+  {% for img in gallery %}
+  
+    {% assign image_path = img.image_path %}
+    {% if include.hidden == "true" %}
+      {% assign data_pin_media = img.data-pin-media | default: image_path %}
+      {% assign image_path = "/assets/images/pinterest-hide-mini-image.png" %}
+    {% else %}
+      {% assign data_pin_media = img.data-pin-media %}
+    {% endif %}
+
+    {% assign data_pin_description = include.data-pin-description | default: excerpt %}
+    {% assign data_pin_id = include.data-pin-id %}
+
+    {% if img.url %}
+      <a href="{{ img.url | relative_url }}"
+        {% if img.title %}title="{{ img.title }}"{% endif %}>
+          <img src="{{ img.image_path | relative_url }}"
+               alt="{% if img.alt %}{{ img.alt }}{% endif %}"
+               {% if img.title %}title="{{ img.title }}"{% endif %}
+               {% if data_pin_media %}data-pin-media="{{ data_pin_media | absolute_url }}"{% endif %}
+               {% if data_pin_description %}data-pin-description="{{ data_pin_description }}"{% endif %}
+               {% if data_pin_id %}data-pin-id="{{ data_pin_id }}"{% endif %}>
+      </a>
+    {% else %}
+      <img src="{{ img.image_path | relative_url }}"
+           alt="{% if img.alt %}{{ img.alt }}{% endif %}"
+           {% if img.title %}title="{{ img.title }}"{% endif %}
+           {% if data_pin_media %}data-pin-media="{{ data_pin_media | absolute_url }}"{% endif %}
+           {% if data_pin_description %}data-pin-description="{{ data_pin_description }}"{% endif %}
+           {% if data_pin_id %}data-pin-id="{{ data_pin_id }}"{% endif %}>
+    {% endif %}
+  {% endfor %}
+  {% if include.caption %}
+    <figcaption>{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
+  {% endif %}
+</figure>

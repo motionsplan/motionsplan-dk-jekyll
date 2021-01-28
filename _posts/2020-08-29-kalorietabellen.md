@@ -24,6 +24,8 @@ Når man søger rundt på nettet, så kan man finde rigtig mange kalorietabeller
 
 Hvis du mangler fødevarer i listen med kalorier eller gerne vil have en kalorietabel over en specifik gruppe af fødevarer, så må du endelig skrive i kommentarerne.
 
+{% include pinterest image_path=page.header.overlay_image data-pin-media="https://i.pinimg.com/564x/de/38/8a/de388a319c398ed24e9958b8200d1996.jpg" data-pin-id="579768152024787955" caption=page.title %}
+
 ## Kalorietabel med frugt, kød og brød
 
 Kalorietabellen indeholder de mest gængse fødevarer i Danmark. I tabellen kan du finde både frugt, kød og brød og andre typer fødevarer.
@@ -43,7 +45,7 @@ De primære data i tabellen er tjekket op mod DTU Fødevareinstituttet, som brug
 Der er ingen garanti for, at tallene i kalorietabeller nøjagtigt svarer til den fødevare, du har købt i supermarkedet. Dyrkningssted, dyrkningsmetode, høsttidspunkt, opbevaring, friskhed og andre faktorer betyder nemlig også noget for, hvor mange kalorier der er i den specifikke fødevare. Der er altid variationer fra produkt til produkt. Samtidig er der ofte hundredvis af forskellige sorter indenfor samme fødevare.
 {: .notice .notice--info }
 
-Tal i kalorie- og næringsstoftabeller er altid cirkatal. Derfor skal du også læse denne tabel med kalorier med forbehold. 
+Tal i kalorie- og næringsstoftabeller er altid cirkatal. Derfor skal du også læse denne tabel med kalorier med forbehold.
 
 Alle tallene i kalorietabellen er per 100 gram rå fødevare (spiselig del).
 

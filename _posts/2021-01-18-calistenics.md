@@ -1,7 +1,8 @@
 ---
 title: &title "Calisthenics: 8 ugers begynderprogram til kropsvægtstræning"
-permalink: /calisthenics-begynderprogram-kropsvaetstraening/
+permalink: /calisthenics-begynderprogram-kropsvaegtstraening/
 redirect_from:
+  - /calisthenics-begynderprogram-kropsvaetstraening/
   - /calisthenics-kongen-kropsvaetstraening/
 last_modified_at: 2021-01-18T09:41:09Z
 author: karsten.thor.lund
@@ -20,24 +21,26 @@ tags:
   - træningsprogram
   - øvelser
 gallery:
-  - image_url: https://images.unsplash.com/photo-1592334843880-69bb253e68be?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzk2fHx5b2dhfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60
+  - image_path: https://images.unsplash.com/photo-1592334843880-69bb253e68be?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzk2fHx5b2dhfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60
     url: https://images.unsplash.com/photo-1592334843880-69bb253e68be?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzk2fHx5b2dhfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1800&q=60
     title: Downward dog
-  - image_url: https://images.unsplash.com/photo-1603710488871-d4c531f20515?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTE1fHx5b2dhfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60
+  - image_path: https://images.unsplash.com/photo-1603710488871-d4c531f20515?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTE1fHx5b2dhfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60
     url: https://images.unsplash.com/photo-1603710488871-d4c531f20515?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTE1fHx5b2dhfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1800&q=60
     title: Frog
-  - image_url: https://images.unsplash.com/photo-1604519561858-19594a77b2c2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=80
+  - image_path: https://images.unsplash.com/photo-1604519561858-19594a77b2c2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=80
     url: https://images.unsplash.com/photo-1604519561858-19594a77b2c2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2000&q=80
     title: Worlds greatest stretch
 ---
 
-Jeg har lavet et begynderprogram til Calisthenics, hvor du skal bruge et minimum af udstyr. Calisthenics er træning med egen kropsvægt, og her har du atltså et bud på, hvordan du som begynder kan komme i gang med Calisthenics.
+Jeg har lavet et begynderprogram til Calisthenics, hvor du skal bruge et minimum af udstyr. Calisthenics er træning med egen kropsvægt, og her har du altså et bud på, hvordan du som begynder kan komme i gang med Calisthenics.
 
 Mens Covid-19-virussen hærger over det ganske danske land, og tvinger de lukkede privatiserede fitnesskæder i knæ, tyr flere og flere til at holde krop og form vedlige med hjemmetræning. Markedet og alternativer er mange, og det kan være en jungle at orientere sig i hvad man skal kaste sig ud i. 
 
 Det er svært at vide hvor lang tid der går, før man kan fortsætte sin normale dagsrutine i sit vante træningscenter, så her kommer vi med lidt inspiration til at bruge pausen fra sine vante omgivelser til at lægge sin træningsstil og fokus om, eller til at lære om helkropsforståelse. Velkommen til Calisthenics.
 
-Hvad er Calisthenics? **Calisthenics er træning med kropsvægt, hvor formålet er at få fuld kontrol over sin egen krop ved at lave øvelser med kropsvægt. I calisthenics tænkes kroppen i en helhed.**.
+Hvad er Calisthenics? **Calisthenics er træning med kropsvægt, hvor formålet er at få fuld kontrol over sin egen krop ved at lave øvelser med kropsvægt. I calisthenics tænkes kroppen i en helhed.**
+
+{% include pinterest image_path=page.header.overlay_image data-pin-media="https://i.pinimg.com/564x/00/d2/2c/00d22c7f74ec3864c456a0e7207a8276.jpg" data-pin-id="579768152030230128" caption=page.title %}
 
 ## Cali-hvad-for-noget?
 
@@ -46,10 +49,10 @@ For at forstå begrebet, skal man starte med at bryde det ned. Calisthenics er e
 I Calisthenics snakker vi helhed. At forstå at bruge alle kæder af kroppens stærke muskelkæder, og få dem til at samarbejde med hjerne og derved skabe de tekniske komponenter der skal til. I stedet for at begynde at kippe, cheate, eller tage andre genveje, handler det i stedet om at udvikle kapacitet og konstant prøve at gøre træningen så effektiv og hård som muligt. 
 
 Det handler altså ikke om at tage så mange reps som muligt i armbøjninger eller lægge i planken i 7 min, men handler om at finde redskaber og metoder til at få hele kroppen til at være aktiveret og hjælpe i timingen til helt optimal udførsel. Blandt andet ved god tid i træningen mellem sæt og pas, så hjerne og muskler har god tid til at udvikle et godt samarbejde til aktivering, eller en hård excentrisk negativ fase i armbøjningerne, hvis dine reps bliver for mange. 
-
 ## Helheden i calisthenics
 
-Når vi snakker helhed i den smukke træning, handler det heller ikke kun om muskelkæder og hjerneneuroner i vores program, men ligeledes at tænke elementer af den sunde stærke krop ind i resten af ens daglige virke. Helt fra søvn til mobilitet ved udstræk og kost. 
+Når vi snakker helhed i den smukke træning, handler det heller ikke kun om muskelkæder og hjerneneuroner i vores program, men ligeledes at tænke elementer af den sunde stærke krop ind i resten af ens daglige virke. Helt fra søvn til mobilitet ved udstræk og kost.
+
 Start morgenen med 2 store glas vand. Vores krop består af 60 % vand, og at starte morgen med vand efter 8 timer søvn uden, er en god start til at få den store motor ordentligt i gang.
 
 Brug derefter 3 min. udstræk af kroppen til at få smurt led og lemmer godt, og hjælp til mobilitet, kropsforståelse, og generelt en god varm start på dagen. Det kunne f.eks. være den dynamiske yogaklassiker ”hunden til kobraen”, og en god dyb squat med lige ryg, foden i gulvet og masser af ankeltwist. 3 min er fint. Keep it simple.
@@ -71,6 +74,8 @@ Det næste er **kropsspændingen**. Det arbejder man med i alle øvelser i Calis
 ## Opvarmning til Calisthenics
 
 Som i alt andet sport, er det med stor nødvendighed at man starter med en opvarmning. Her kombinerer vi dynamisk og statisk arbejde med mobilitet.
+
+{% include gallery id="gallery" %}
 
 Opvarmningsprogrammet til begynderprogrammet i Calisthenics bruges **i alle 8 uger**.
 
