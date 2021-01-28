@@ -15,9 +15,9 @@ last_modified_at: 2020-07-11T08:14:14Z
 toc: true
 ---
 
-Tallerkenmodeller kan være en guide til, hvordan du kan spise sundt. Jeg har researchet lidt på, hvilke tallerkenmodeller findes der, og hvad er fordelene og ulemperne ved de forskellige tallerken-modeller.
+Tallerkenmodeller kan være en guide til, hvordan du kan spise sundt. Jeg har researchet lidt på, hvilke tallerkenmodeller findes der, og hvad er fordelene og ulemperne ved tallerkenmodellerne: Y-tallerken, T-tallerken, E-Tallerken og X-Tallerken.
 
-**Tallerkenmodeller er med til at give en enkel rettesnor til, hvordan du kan bygge et sundt måltid op. Der findes i hvert fald en Y-, T-, E- og X-tallerkenmodel.**
+**Tallerkenmodeller er med til at give en enkel rettesnor til, hvordan du kan bygge et sundt måltid op. Der findes i hvert fald en Y-tallerken, T-tallerken, E-tallerken og X-tallerkenmodel.**
 
 Kosten er helt afgørende for dit velvære. Kosten er det brændstof kroppen lever af. Der er imidlertid så meget information om kost og ernæring, og nye fødevarer tilføjes til listen over ekstra sundt mad eller udskammes for alverdens dårligdomme.
 
@@ -31,7 +31,7 @@ De mest udbredte tallerkenmodeller er: Y, T, E og X. Jeg forklarer forskellene i
 
 ## Samlet overblik over tallerkenmodellerne
 
-|                        | Y                                                 | X                                                 | T                                                 | E                                                     |
+|                        | Y-tallerken                                       | X-tallerken                                       | T-tallerken                                       | E-tallerken                                           |
 |------------------------|---------------------------------------------------|---------------------------------------------------|---------------------------------------------------|-------------------------------------------------------|
 | Oprindeligt navn       | Y-tallerken                                       | My Plate                                          | T-tallerken                                       | Elitemodellen                                         |
 | Udarbejdet af          | Fødevarestyrelsen                                 | U.S. Department of Agriculture (USDA)             | Marina Aagaard                                    | Team Danmark                                          |
@@ -52,6 +52,8 @@ Tallerkenen skal i Y-modellen bestå af følgende:
 - 2/5 med grøntsager
 - 1/5 med en god proteinkilde (fugl, fisk, firbenede, æg)
  
+ | Næringsbehov | |
+ |-|-|
 | Kulhydratbehov per dag | Minimum 130 g (hjernens behov). Min. 2-3 g – 5 g / kg |
 | Proteinbehov per dag | 0,7 (Kvinder) – 0,8 (Mænd) g pr. kg kropsvægt |
 | Maximum protein for normalbefolkningen | ca. 1-1,5 g / kg |
@@ -158,7 +160,7 @@ Det kan ikke siges nok: Sørg for at få nok grøntsager. Det kan virkelig betal
  
 ## Generelle anbefalinger om kost
 
-Formålet med tallerkenmodellerne er naturligvis at understøtte en sund kost. I Danmark har vi en række officielle kostråd, som jævnligt er under debat.
+Formålet med **tallerkenmodellerne er naturligvis at understøtte en sund kost**. I Danmark har vi en række officielle kostråd, som jævnligt er under debat.
 
 > “Kostrådene sammenfatter den viden, man har i dag, så for den almindelige forbruger er de den bedste kilde til viden om sund kost. Det er langt bedre end de alternative kostanbefalinger, man finder rundt omkring i ugebladene. Der kan være et efterslæb i forhold til den nyeste forskning, men det skal der være, for man skal være helt sikker, før man justerer de officielle kostråd.”
 
@@ -219,8 +221,18 @@ Den nøjagtige fordeling er individuel og hænger også sammen med fysisk aktivi
 
 Men egentlig behøver du ikke tænke så meget over det. Hvis du følger en af tallerkenmodellerne, så skal du nok ramme fordelingen nogenlunde og derved have en sund og god kost.
 
-## Referencer
+## Konklusion om tallerkenmodellerne
+
+Der findes altså forskellige tallerkenmodeller, som man være med til at understøtte **sund kost**. De har hver især deres fordele og ulemper.
+
+Denne artikel har gennemgået t-tallerken, y-tallerken, e-tallerken og x-tallerken. Bruger du selv en tallerkenmodel som rettesnor for din **egen sunde kost**?
+
+## Referencer om tallerkenmodellen
+
+<details markdown="1">
+  <summary>Referencer om {{ page.title }}</summary>
 
 - Libotte, E., M. Siegrist, og T. Bucher. 2014. “The Influence of Plate Size on Meal Composition. Literature Review and Experiment”. Appetite 82 (november): 91–96. <https://doi.org/10.1016/j.appet.2014.07.010>.
 - Peng, M. 2017. “How does plate size affect estimated satiation and intake for individuals in normal‐weight and overweight groups?” Obesity Science & Practice 3 (3): 282–88. <https://doi.org/10.1002/osp4.119>.
 - Steenhuis, Ingrid, og Maartje Poelman. 2017. “Portion Size: Latest Developments and Interventions”. Current Obesity Reports 6 (1): 10–17. <https://doi.org/10.1007/s13679-017-0239-x>.
+</details>
