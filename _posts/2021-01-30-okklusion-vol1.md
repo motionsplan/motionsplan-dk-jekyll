@@ -156,7 +156,7 @@ Du kan se frem til flere indlæg i denne serie om okklusionstræning, hvor jeg v
 - Okklusionstræning til genoptræning – Fra immobiliseret til ”return-to-play”
 - Okklusionstræning til hjemmetræning – Få mere ud af din træning med kropsvægt
 
-Indtil næste gang – Tak fordi du læste med!
+Indtil næste gang kan du læse mere om [udstyr til okklusionstræning](/udstyr-okklusionstraening-okklusionsudstyr/) eller tjekke okklusionsudstyret fra [Occlude ud her](https://www.occlude.dk/). Tak fordi du læste med!
 
 ## Referencer om okklusionstræning
 
