@@ -27,6 +27,9 @@ paths.imageFilesGlob = paths.imageFiles + paths.imagePattern;
 paths.imageFilesActivitiesOriginals = paths.sourceDir + "/src/images/exercises/originals";
 paths.imageFilesActivitiesDestination = paths.imageFiles + "/exercises/";
 
+paths.imageFilesOccludeOriginals = paths.sourceDir + "/src/images/occlude";
+paths.imageFilesOccludeDestination = paths.imageFiles + "/occlude/";
+
 // 'gulp images:optimize' -- optimize images
 gulp.task("images:optimize", () => {
   return gulp
@@ -89,12 +92,53 @@ gulp.task("images:exercises", () => {
     .pipe(gulp.dest(paths.imageFilesActivitiesDestination))
 });
 
+
+// 'gulp images:feature' -- resize images
+gulp.task("images:occlude", () => {
+
+  return gulp
+    .src([
+      paths.imageFilesOccludeOriginals + paths.imagePattern,
+      "!" + paths.imageFilesOccludeOriginals + "/**/*.{gif,svg}"
+    ])
+    .pipe(
+      responsive(
+        {
+          // resize all images
+          "*.*": [
+            {
+              width: 320,
+              rename: { suffix: "-320" }
+            },
+            {
+              width: 768,
+              rename: { suffix: "-768" }
+            },
+            {
+              width: 1920,
+              rename: { suffix: "" }
+            }
+          ]
+        },
+        {
+          // global configuration for all images
+          errorOnEnlargement: false,
+          withMetadata: false,
+          errorOnUnusedConfig: false
+        }
+      )
+    )
+    .pipe(gulp.dest(paths.imageFilesOccludeDestination))
+});
+
+
 gulp.task(
   "images",
   gulp.series(
     gulp.series(
       "images:exercises",
-      "images:optimize"
+      "images:optimize",
+      "images:occlude"
     )
   )
 );

@@ -189,7 +189,7 @@ Du kan dog godt regne ud, hvor meget du helt præcist forbrænder.Du kan nemt ud
 
 ## **6 gode grunde til at gå en tur lige nu**
 
-* Du får enhøj kalorieforbrænding (se længere nede, hvor meget du faktisk forbrænder ved at gå en tur)
+* Du får enhøj kalorieforbrænding (se længere nede, hvor meget du faktisk forbrænder ved at gå en tur)
 * Det er sundt for både dit fysiske og dit psykiske helbred
 * Du bliver i godt humør
 * Du bliver mindre stresset

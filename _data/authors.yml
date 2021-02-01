@@ -25,6 +25,18 @@ jesper.emil.jakobsgaard:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/jesper-emil-jakobsgaard/"
   featured: true
+andreas.christensen:
+  name             : "Andreas Kjærsgaard Christensen"
+  avatar           : "/assets/images/authors/andreas-christensen.png"
+  bio              : "Siden januar 2017 har jeg været medejer af firmaet Occlude sammen med grundlægger Thomas Cortebeeck. I Occlude udvikler vi medicinsk registreret og pumpestyret okklusionsudstyr til professionel rehabilitering og sport. Vi har afholdt mere end 50 kurser i okklusionstræning på fysioterapiklinikker, hospitaler, uddannelsesinstitutioner og konferencer i ind- og udland."
+  links:
+    - label: "www.occlude.dk"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.occlude.dk"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/andreas-christensen-a1183490/"
+  featured: true
 jakob.nielsson:
   name             : "Jakob Nielsson"
   avatar           : "/assets/images/authors/jakob-nielsson.jpg"
