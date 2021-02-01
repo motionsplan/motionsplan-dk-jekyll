@@ -37,7 +37,7 @@ feature_row_fitnessinstitute:
     excerpt: Okklusions-stropperne er lavet i et elastisk kvalitetsmateriale under hensyntagen til en optimal bredde og tykkelse. Armstropperne er 5 cm brede. Benstropperne er 10 cm brede.
     alt: *title
     btn_label: Se prisen hos kaatsu.dk
-    btn_class: btn--default
+    btn_class: btn--inverse
 feature_row_occlude:
   - image_path: https://www.occlude.dk/wp-content/uploads/2020/02/Occlude-webshop-athlete-xlarge-800x800.jpg
     url: https://www.occlude.dk/vare/occlude-athlete-xl/
@@ -45,7 +45,7 @@ feature_row_occlude:
     excerpt: Occlude leverer pumpebaseret udstyr til okklusion i høj kvalitet. Du kan samtidig få utrolig kompetent vejledning til udstyret. Hvis du køber udstyret til dig selv, så sørg for at få manchetter til både arme og ben, hvis du vil træne begge dele.
     alt: *title
     btn_label: Se prisen hos Occlude
-    btn_class: btn--default
+    btn_class: btn--danger
 ---
 
 Okklusionstræning kræver, at man har det rigtige okklusionsudstyr for at kunne lave okklusionen effektivt. Du skal altså bruge okklusionsbånd for at kunne træne effektivt med okklusionstræning. Vi kigger her på mulighederne for okklusionsbånd.
