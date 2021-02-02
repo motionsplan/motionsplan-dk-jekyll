@@ -137,7 +137,7 @@ Epleys og Brzycki formler giver lignende resultater for 10RM, men ved færre end
 ### McGlothin
 
 {% include math formula="RM={\frac{100w}{101.3-2.67123r}}" %}
-</summary>
+</details>
 
 <details markdown="1">
   <summary>Se Lombardis formel</summary>
