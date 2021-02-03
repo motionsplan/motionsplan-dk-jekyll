@@ -10,8 +10,10 @@ header:
   caption: *title
 category:
   - Test
+  - Kondition
 tags:
   - løbebånd
+  - cardiomaskiner
 feature_row_draxfit:
   - image_path: https://www.fotoagent.dk/single_picture/11803/138/mega/2018_05_Ne__Speedfit_Drax_fit(1).png
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/speedfit-curve-running/
@@ -158,6 +160,10 @@ Det er for dyrt for mig at have stående hjemme, så jeg kigger selv på løbeb�
 {% include product id="feature_row_toorx" type="left" %}
 
 {% include product id="feature_row_odin" type="left" %}
+
+## Konklusion om løbebånd
+
+Der er altså en del ting, du skal kigge efter, når du vælger løbebånd. Jeg har skrevet et andet indlæg med [4 tips til løbebåndet i forhold til udendørs løb](/loebebaand-udendoers-loeb/). Et løbebånd er også oplagt til at bruge til [løbetests og konditionstest](/kondition/tests/), fx [Bruce løbetesten](/bruce-test/). Du kan læse meget mere om løb på [løbesiden](/loebesiden/), og det er let at lave [intervalløb]({% link _posts/2020-06-15-intervallob.md %}).
 
 ## Løbebånd i forskellige prisklasser
 

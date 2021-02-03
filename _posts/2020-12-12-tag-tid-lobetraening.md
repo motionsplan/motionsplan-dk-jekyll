@@ -42,7 +42,9 @@ Jeg tager tid på de fleste løbeture, jeg løber. Det gør jeg for at holde sty
 
 Når du tager tid på din træning, så kan du måle, om du gør fremskridt i din løbetræning. Jeg bruger selv et ur med puls, tid og GPS. På den måde kan jeg både bruge uret til at få en relativ præcis angivelse af min træningsbelastning i min løbetræning.
 
-Det er godt at finde et ur, som kan måle din tid præcist - og som er let at bruge, mens du løber. Jeg er selv motionsløber, men hvis du er eliteløber, så kan sekunder gøre en forskel, når du tager tid på dine løbeture.
+Det er godt at finde et ur, som kan måle din tid præcist - og som er let at bruge, mens du løbe udenforr. Jeg er selv motionsløber, men hvis du er eliteløber, så kan sekunder gøre en forskel, når du tager tid på dine løbeture.
+
+Hvis du mest løber indenfor på [løbebånd](/guide-loebebaand/), så er der ofte et display på løbebåndet, hvor du kan indstille tiden.
 
 ## Hvad skal uret til at tage tid kunne?
 

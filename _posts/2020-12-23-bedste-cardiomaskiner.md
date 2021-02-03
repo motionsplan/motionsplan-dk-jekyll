@@ -83,6 +83,8 @@ De fleste oplever, at det er mindre hårdt for knæene at løbe på løbebånd e
 
 Jeg har skrevet endnu mere [om løbebåndet i forhold udendørs løb](/loebebaand-udendoers-loeb/), og hvis du har et løbebånd og en pulsmåler, så kan du fx også lave en [Bruce-test](/bruce-test/) til at finde din kondition. Du kan også lave en [2400-meter-test](/kondital-2400-meter/) eller [Cooper-test](/cooper-test/) på løbebåndet. Der skal du bare være opmærksom på, at dit udregnede kondital nok bliver lidt højere, da det er lidt lettere at løbe på løbebåndet.
 
+Jeg har skrevet en [guide til at vælge løbebånd](/guide-loebebaand/), som du med fordel kan læse, inden du vælger at investere i dit eget løbebånd.
+
 ## Romaskine
 
 {% include figure image_path="https://images.unsplash.com/photo-1519505907962-0a6cb0167c73?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=800&q=80" caption="Romaskine og roergometer er godt til at træne kondition, forbrænding og styrke" alt="Romaskiner og roergometere er en type cardiomaskine og en af de populære cardiomaskiner" %}
