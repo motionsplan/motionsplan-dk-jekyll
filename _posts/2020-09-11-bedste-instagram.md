@@ -124,7 +124,6 @@ Hvis jeg har overset nogle Instagram-profiler om fitness, træning, motion og su
 
 ## De bedste engelske Instagram-profiler
 
-
 {% include feature_row id="feature_row_english" %}
 
 ## Sundhed, fitness og træning på Instagram
