@@ -29,3 +29,8 @@ assets/images/anatomy/.ztr-directory
 _anatomy/.ztr-directory
 assets/images/anatomy/.ztr-directory
 assets/images/qrcodes/.ztr-directory
+assets/images/occlude/.ztr-directory
+assets/images/pinterest/.ztr-directory
+src/images/.ztr-directory
+src/images/occlude/.ztr-directory
+.bundle/config
