@@ -235,18 +235,22 @@ Jeg udfører også ofte [De fem tibetanere]({% link _posts/2009-07-01-de-fem-tib
 
 ## Udstyr til solhilsen og yoga
 
-Du behøver ikke noget udstyr for at kunne lave solhilsen. Det kan dog være meget rart med en yoga-måtte eller et andet underlag, hvor du kan stå godt fast på. Når du har et skridsikkert underlag, så kan du udføre øvelserne mere kraftfuldt og præcist.
+Du behøver ikke noget yogaudstyr for at kunne lave solhilsen. Det kan dog være meget rart med en yoga-måtte eller et andet underlag, hvor du kan stå godt fast på. Når du har et skridsikkert underlag, så kan du udføre øvelserne mere kraftfuldt og præcist. Jeg har skrevet en [komplet guide til yogaudstyr]({% link _posts/2021-01-20-yoga-udstyr.md %}).
 
 Hvis du sveder meget undervejs, når du laver yoga, så kan mange godt lide at bruge et skridsikkert yoga-håndklæde. Den intelligentekrop.dk har et [relativt billigt yogamåtte-håndklæde fra Equa\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/equa-yoga-handklaede-183-cm){:rel="nofollow"}, hvis du har brug for det.
 
 Hvis du typisk laver en kort afspænding bagefter og har en tendens til at fryse, så ved jeg, at mange er glade for at have et tæppe. Den intelligentekrop.dk har et ret fedt [yogatæppe lavet af genbrugsfibre fra uld\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/uld-yogataeppe-genbrugsfibre-manduka){:rel="nofollow"}.
 
-Hvis du kan lide artiklerne her fra Motionsplan og gerne vil støtte sitet, så kan du overveje at bruge vores partnere til at købe dine yoga-produkter. Så tjener vi lidt kommision, og du får nogle fede produkter.
+Hvis du kan lide artiklerne her fra Motionsplan og gerne vil støtte sitet, så kan du overveje at bruge vores partnere til at købe dine yoga-produkter og yogaudstyr. Så tjener vi lidt kommision, og du får nogle fede produkter.
 
 {% include feature_row id="feature_row_yogamat" type="left" %}
 
 ## Referencer til solhilsen A og B
 
-- Ni, Meng; Mooney, Kiersten; Balachandran, Anoop; Richards, Luca; Harriell, Kysha; Signorile, Joseph F. (2014). "Muscle utilization patterns vary by skill levels of the practitioners across specific yoga poses (asanas)"._Complementary Therapies in Medicine_.**22**(4): 662–669. Doi: [10.1016/j.ctim.2014.06.006](https://doi.org/10.1016%2Fj.ctim.2014.06.006).
+<details markdown="1">
+  <summary>Se referencer om solhilsen A og B</summary>
 
-{% include gallery id="wallsticker_full" %}
+- Ni, Meng; Mooney, Kiersten; Balachandran, Anoop; Richards, Luca; Harriell, Kysha; Signorile, Joseph F. (2014). "Muscle utilization patterns vary by skill levels of the practitioners across specific yoga poses (asanas)"._Complementary Therapies in Medicine_.**22**(4): 662–669. Doi: [10.1016/j.ctim.2014.06.006](https://doi.org/10.1016%2Fj.ctim.2014.06.006).
+</details>
+
+{% include gallery id="wallsticker_full" caption="Du kan finde endnu flere yoga-plakater hos [plakaterne.dk](https://www.plakaterne.dk/yoga-plakater/)." %}
