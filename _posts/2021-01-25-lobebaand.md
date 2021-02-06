@@ -70,6 +70,8 @@ Desuden skal du også kigge på følgende:
 - Hvor stor er løbefladen?
 - Hvad er løbebåndets maksimale brugsvægt?
 
+{% include video provider="youtube" id="etsVw7xb9cv" %}
+
 ## Guide og anmeldelser af løbebånd
 
 Når du søger på Google efter det "bedste løbebånd til hjemmebrug" eller lignende søgninger, så kommer du ind på en del forskellige sites, der laver anmeldelser af løbebånd. Disse sites anbefaler særligt nogle særlige løbebånd, og ofte får de affiliate kommision fra forhandlerne, hvis du vælger at købe. Her på Motionsplan.dk har vi også affiliate links til forhandlerne, så hvis du vælger at købe et løbebånd efter at have klikket dig hen til en forhandler, så tjener vi en lille kommision.
@@ -160,6 +162,14 @@ Det er for dyrt for mig at have stående hjemme, så jeg kigger selv på løbeb�
 {% include product id="feature_row_toorx" type="left" %}
 
 {% include product id="feature_row_odin" type="left" %}
+
+## Hvad vejer et løbebånd?
+
+Gennemsnitligt vejer de mindre og billigere løbebånd mellem 80 og 115 kg, mens de dyrere og større modeller kan veje helt op til 230 kg. Det er godt at vide, hvor tung et løbebånd er, inden du bestiller et løbebånd. Jeg har prøvet at skulle slæbe flere løbebånd op og ned af første sal, og det gør man altså ikke lige sådan alene.
+
+## Kan et løbebånd stå udenfor?
+
+Et løbebånd kan ikke stå udenfor. Du kan selvfølgelig godt sætte det udenfor, men det kan ikke tåle fugt, så det danske vejr vil lynhurtigt begynde at tære på de enkelte maskindele. Det kan du ikke fikse med lidt silikonespray. Det samme gælder ved at sætte løbebåndet i et uisoleret skur, hvor løbebåndet hurtigt vil gå til stille og roligt. 
 
 ## Konklusion om løbebånd
 
