@@ -1,12 +1,13 @@
 ---
 title: "Beregn din løbeøkonomi: Løbeteknik er en vigtig faktor 🏃"
 permalink: /lobeokonomi/
-excerpt: "En god løbeøkonomi er evnen til at holde høj fart i lang tid ved et minimalt energiforbrug. Vi gennemgår hvordan man beregner løbeøkonomien og dykker lidt ned i løbeteknikken, som er en blandt flere faktorer, der er med  til at bestemme løbeøkonomien?"
+excerpt: "En god løbeøkonomi er evnen til at holde høj fart i lang tid ved et minimalt energiforbrug. Du får en definition af løbeøkonomi og at vide, hvorda du beregner løbeøkonomien."
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80
   teaser: https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
-  caption: "Beregn din løbeøkonomi: Løbeteknik er en vigtig faktor. Photo by Fitsum Admasu on Unsplash"
+  caption: "Beregn din løbeøkonomi: Løbeteknik er en vigtig faktor."
+  alt: "Photo by Fitsum Admasu on Unsplash"
 category:
   - Kondition
   - Løb
@@ -26,22 +27,22 @@ feature_row:
   - image_path: https://cdn6.tales.dk/00001/70394/cover.1568203219.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390
     title: "Løb som eliten"
-    excerpt: "Claus Hechmanns bog LØB SOM ELITEN er handler om, hvordan du skal træne for at blive en hurtigere løber og få mest muligt ud af dit potentiale. Bogen indeholder fem specialdesignede 12-ugers programmer til distancerne 5 km, 10 km og helt op til maraton."
+    excerpt: "Claus Hechmanns bog LØB SOM ELITEN er handler om, hvordan du skal træne for at blive en hurtigere løber og få mest muligt ud af dit potentiale og har fine betragninger om løbeøknomomi. Bogen indeholder fem specialdesignede 12-ugers programmer til distancerne 5 km, 10 km og helt op til maraton."
     btn_label: "Tjek prisen hos Tales*"
     btn_class: "btn--danger"
 feature_row_stryd:
   - image_path: https://static.wixstatic.com/media/3c82eb_70f1384f64584b009ccc002dbe0fe482~mv2.jpg/v1/fill/w_630,h_630,al_c,q_85,usm_0.66_1.00_0.01/3c82eb_70f1384f64584b009ccc002dbe0fe482~mv2.webp
     alt: "STRYD Wattmåler - Next Generation"
     title: "STRYD Wattmåler - Next Generation"
-    excerpt: "STRYD – Wattmåler og nu med vindmåler STRYD er en af de mest nyttige og imponerende teknologiske løbegadgets, der er til rådighed på markedet"
+    excerpt: "STRYD er en wattmåler til løberne. Du kan bruge wattmåleren til at arbejde med din løbeøkonomi og afprøve lidt forskellige teknikker for at se, hvordan din kraft og hastighed ændrer sig i forhold til, hvor hårdt arbejdet er."
     url: "https://www.hechmannsport.dk/product-page/stryd-running-power-meter"
     btn_label: "Se prisen*"
     btn_class: "btn--success"
 ---
 
-Hvis du gerne vil løbe hurtigere, kan det betale sig at forbedre din løbeøkonomi. Jeg har derfor researchet lidt på løbeøkonomi, og hvilke faktorer der påvirker din løbeøkonomi.
+Hvis du gerne vil løbe hurtigere, kan det betale sig at forbedre din løbeøkonomi. Jeg har derfor researchet lidt på løbeøkonomi, præsenterer en definition, og dykker ned i hvilke faktorer der påvirker din løbeøkonomi.
 
-Hvad er definitionen af løbeøkonomi? **Løbeøkonomi er et udtryk for løberens evne til at holde høj fart i lang tid med et minimalt energiforbrug. Løbeøkonomien er helt præcist den mængde ilt, du skal bruge på at løbe 1 km pr. kg. kropsvægt. Løbeøkonomien bestemmes af kroppens sammensætningen, kroppens evne til effektiv energiforbrænding og løbeteknik.**
+Hvad er løbeøkonomi? **Løbeøkonomi er et udtryk for løberens evne til at holde høj fart i lang tid med et minimalt energiforbrug. Løbeøkonomien er helt præcist den mængde ilt, du skal bruge på at løbe 1 km pr. kg. kropsvægt. Løbeøkonomien bestemmes af kroppens sammensætningen, kroppens evne til effektiv energiforbrænding og løbeteknik.**
 
 *[GCT]: Ground Contact Time
 *[RE]: Running Economy
@@ -84,7 +85,7 @@ Styrketræning og plyometrisk træning kan også være med til at forbedre væve
 
 ## Hvorfor er det interessant at snakke om løbeøkonomi?
 
-Løbere med en god løbeøkonomi bruger mindre ilt end løbere, der har en dårligere løbeøkonomi, når de løber med de samme hastigheder.
+Løbere med en god løbeøkonomi bruger mindre ilt end løbere, der har en dårligere løbeøkonomi, når de løber med de samme hastigheder. Når ilt er den begrænsende faktor for præstationen under løb, bliver det altså hurtigt klart, at de kan betale sig at arbejde på at forbedre sin løbeøkonomi.
 
 ## Hvordan kan vi måle løbeøkonomien?
  
@@ -167,6 +168,8 @@ FTP = 88% * V<sub>max</sub>
 
 ## Løbeøkonomiens sammenhæng med maksimale iltoptagelse
 
+Der er typisk ikke direkte sammenhæng mellem den maksimale iltoptagelse og løbeøkonomien.
+
 [Shaw et al (2015)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4388468/) konkluderer i deres studium følgende:
 
 > In conclusion, the current investigation demonstrates that only a small to moderate relationship exists between running economy and V̇O<sub>2</sub>max in highly trained distance runners. With >85% of the variance in these parameters unexplained by this relationship, these findings reaffirm that running economy and V̇O<sub>2</sub>max are primarily determined independently.
@@ -175,9 +178,13 @@ FTP = 88% * V<sub>max</sub>
 
 ## Forskel på mænd og kvinders løbeøkonomi
 
+Det er interessant, at Barnes et al (2014) har kigget på forskellen på mænds og kvinders løbeøkonomi. De konkluderer id deres studium.
+
 > At all common test velocities, women were more economical than men.
 
 --- <cite>[Barnes et al (2014)](https://www.researchgate.net/publication/257814408_Lower-Body_Determinants_of_Running_Economy_in_Male_and_Female_Distance_Runners#read)</cite>
+
+Hvad der nøjagtigt gør, at kvinderne var mere økonomiske med ilten end mænd, ved jeg ikke lige nu. Du er meget velkommen til at bruge kommentarerne, hvis du vil gøre os alle klogere.
 
 ## Opsamling på løbeøkonomi
 
@@ -243,7 +250,11 @@ Hvordan arbejder du med din løbeøkonomi?
 
 ## Referencer om løbeøkonomi
 
+<details markdown="1">
+  <summary>Se flere referencer om løbeøkonomi</summary>
+
 - [Barnes KR., Kilding AE. 2015. Running economy: measurement, norms, and determining factors](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4555089/)
+</details>
 
 {% include feature_row id="feature_row" type="left" %}
 
