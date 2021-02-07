@@ -1,5 +1,5 @@
 ---
-title: &title "8 citater om fitness og bodybuilding [2021]"
+title: &title "9 citater om fitness og bodybuilding [2021]"
 permalink: /citater-fitness-bodybuilding/
 last_modified_at: 2020-12-29T09:41:09Z
 language: da
@@ -32,6 +32,8 @@ feature_quotes:
     cite: Bruce Lee
   - quote: "Everybody want to be a 'powerbuilder', but don't nobody want to lift no heavy-ass weights."
     cite: Ronnie Coleman
+  - quote: "In training you listen to your body. In competition, you tell it to shut up."
+    cite: Rich Froning
 ---
 
 Jeg falder ofte over citater om fitness og bodybuidling, og mange af dem er inspirerende og motiverende. Jeg har samlet {{ page.feature_quotes.size }} citater her. Jeg synes et citat kan give motivation til min træning i fitness, og nogle af dem der træner allermest er jo bodybuildere. 

@@ -58,6 +58,8 @@ Jeg har samlet en masse forskellige citater om at kæmpe her på siden, men jeg 
 
 Da jeg kiggede [træningscitater om løb, styrketræning og motivation]({% link _posts/2020-08-03-citater.md %}) igennem, var der faktisk et par stykker, som jeg også har valgt til denne liste.
 
+{% include video provider="youtube" id="Z63w5PefxTQ" %}
+
 ## {{ page.feature_quotes.size }} om at kæmpe
 
 Her er bl.a. citater fra Arnold Schwarzenegger, som var kendt for at træne hårdt og kunne lave resultater med sin træning. Endelig har Michael Jordan også lavet nogle mindeværdige citater om at træne i sin karriere.
