@@ -61,7 +61,7 @@ Da jeg kiggede [træningscitater om løb, styrketræning og motivation]({% link 
 
 Her er bl.a. citater fra Arnold Schwarzenegger, som var kendt for at træne hårdt og kunne lave resultater med sin træning. Endelig har Michael Jordan også lavet nogle mindeværdige citater om at træne i sin karriere.
 
-{% assign quotes = page.feature_quotes_training | sort: "cite" %}
+{% assign quotes = page.feature_quotes | sort: "cite" %}
 
 {% for quote in quotes %}
 > {{ quote.quote | markdownify }}
