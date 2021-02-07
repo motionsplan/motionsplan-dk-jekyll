@@ -7,6 +7,7 @@ header:
   overlay_image: https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2167&q=80
   teaser: https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
   caption: *title
+  overlay_filter: 0.8
 category:
   - Styrketræning
 tags:
@@ -27,7 +28,7 @@ feature_quotes:
     cite: Joel Brown
   - quote: "When I hear somebody sigh, ‘Life is hard,’ I am always tempted to ask, ‘Compared to what?’"
     cite: Sydney Harris
-  - quote: "Du bliver hvad du tænker"
+  - quote: "Du bliver, hvad du tænker"
     cite: Buddha
   - quote: "Udfordringer gør livet interessant og at overkomme dem gør livet meningsfuldt."
     cite: Joshua J. Marine
