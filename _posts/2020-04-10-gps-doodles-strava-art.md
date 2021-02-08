@@ -13,7 +13,7 @@ category:
 tags:
   - gps
   - kunst
-last_modified_at: 2019-11-19T23:14:14Z
+last_modified_at: 2020-04-10T23:14:14Z
 toc: true
 feature_row:
   - image_path: https://www.loebeshop.dk/media/catalog/product/cache/1/image/575x/040ec09b1e35df139433887a97daa66f/r/_/r_fenix5x_hr_2003.1.jpg
@@ -21,7 +21,7 @@ feature_row:
     title: "Garmin FENIX 5S Smartwatch"
     excerpt: "Hvis du er vild med IT og elektronik og kan lide at være opdateret med teknologi uden at gå glip af noget, så køb Smartwatch GARMIN FENIX 5S GPS 10 ATM Sølv Sort til en uovertruffen pris"
     url: https://track.adtraction.com/t/t?a=1124622406&as=1484571907&t=2&tk=1&url=https://sportmaster.dk/garmin-fenix-5-plus-sapphire-2058971?size=One+Size&gclid=Cj0KCQjwj7v0BRDOARIsAGh37ipamu_nXNAfyMPbgF4aQfhUyRpXvIcMdu7wu2hXPvpD1_bP8i6zo54aAvojEALw_wcB
-    btn_label: "Læs mere"
+    btn_label: "Se prisen*"
     btn_class: "btn--success"
 gallery:
   - url: https://i1.wp.com/geoawesomeness.com/wp-content/uploads/2017/08/stephen-lund.jpg?resize=696%2C493&ssl=1
@@ -48,6 +48,13 @@ gallery:
     image_path: //images.weserv.nl/?url=https://i0.wp.com/geoawesomeness.com/wp-content/uploads/2017/08/stephen-lund-5.jpg&w=400&h=267&a=attention&fit=cover
     alt: "GPS Doodles - StravaArt"
     title: "GPS Doodles - StravaArt"
+gallery_mine:
+  - image_path: /assets/images/blog/strava-art-gpsdoodle-1.png
+    url: /assets/images/blog/strava-art-gpsdoodle-1.png
+  - image_path: /assets/images/blog/strava-art-gpsdoodle-2.png
+    url: /assets/images/blog/strava-art-gpsdoodle-1.png
+  - image_path: /assets/images/blog/strava-art-gpsdoodle-3.png
+    url: /assets/images/blog/strava-art-gpsdoodle-1.png
 ---
 
 Hvis du altid har drømt om at lave et hulemaleri, men aldrig rigtig har fundet en rigtig god hule arkæologer vil udgrave om 100.000 år, så kan du forsøge dig med at lave kunst ved hjælp af din GPS. Man kalder det også GPS Doodles, Strava Art, GPS writing eller GPS sketching.
@@ -63,6 +70,10 @@ Stephen Lund er en af de kendte GPS-kunstnere, og han har fortalt lidt om det p�
 ### Vælg en app
 
 Du kan bruge de fleste almindelige GPS-apps til at lave kunst, fx [Strava](https://www.strava.com), [Endomondo](https://www.endomondo.com/), [Runkeeper](https://www.runkeeper.com), [Runtastic](https://www.runtastic.com). Jeg bruger selv Garmin Connect og Strava til min GPS-kunst.
+
+Der er stadig en del at lære, når man kigger på følgende resultater. Det betyder en del, hvor præcis ens GPS er :)
+
+{% gallery id="gallery_mine" caption=page.title %}
 
 ### Lav en plan
 
