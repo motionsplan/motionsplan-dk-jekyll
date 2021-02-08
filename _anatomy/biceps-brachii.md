@@ -1,6 +1,7 @@
 ---
-title: Tohovedede armbøjer
+title: Tohovedede armbøjer (Biceps Brachii)
 name:
+  da: Tohovedede armbøjer
   latin: Biceps Brachii
   eng: Biceps
 group:
@@ -26,7 +27,8 @@ function:
       extended: This is means that the biceps brachii muscle rotates the forearm outward (i.e. if your arms are hanging by your sides it is the action of turning your palms forward, or if you forearms are held horizontally it is the action of turning your palms upward).
     - short: Bøjning i skulderleddet
       extended: Biceps er med til at bøje skulderleddet, hvilket vil sige at føre overarmen fremad.
-antagonist: "Triceps Brachii"
+antagonist:
+  - "Triceps Brachii"
 origin:
   da: Skulderbladet
   latin: Scapula
@@ -61,7 +63,7 @@ _{{ page.name.latin }}_
 
 {% include figure image_path=page.image_focus alt=page.title caption=page.title %}
 
-
+{% comment %}
 antagonist
 muscleAction
 
@@ -99,3 +101,4 @@ muscleAction
     </span>
   </div>
 </div>
+{% endcomment %}
