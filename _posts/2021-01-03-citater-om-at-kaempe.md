@@ -50,6 +50,11 @@ feature_quotes:
     cite: Storm P
   - quote: "Der er en revne i alting. Det er sådan, lyset kommer ind."
     cite: Leonard Cohen
+gallery:
+  - image_path: /assets/images/pinterest/citat-arnold-schwarznegger.png
+    url: /assets/images/pinterest/citat-arnold-schwarznegger.png
+  - image_path: /assets/images/pinterest/citat-winston-churchill.png
+    url: /assets/images/pinterest/citat-winston-churchill.png
 ---
 
 Jeg har set mange gode citater om at kæmpe, og jeg har samlet {{ page.feature_quotes.size }} citater, der kan inspirere dig på din vej. Sommetider kan et citat lige netop være det, der får dig på rette kurs. 
@@ -64,6 +69,8 @@ Da jeg kiggede [træningscitater om løb, styrketræning og motivation]({% link 
 
 Her er bl.a. citater fra Arnold Schwarzenegger, som var kendt for at træne hårdt og kunne lave resultater med sin træning. Endelig har Michael Jordan også lavet nogle mindeværdige citater om at træne i sin karriere.
 
+{% include pinterest-gallery id="gallery" caption=page.title %}
+
 {% assign quotes = page.feature_quotes | sort: "cite" %}
 
 {% for quote in quotes %}
@@ -74,7 +81,7 @@ Her er bl.a. citater fra Arnold Schwarzenegger, som var kendt for at træne hår
 ***
 {% endfor %}
 
-{% include figure image_path="https://www.cdn.alt.dk/4db24728b45440059e5cf4b2520c88f1/21a99527defc4ccf9a4af4d17ea6dd1a_1125.jpg" caption="Når Leonard Cohen siger: 'Der er en revne i alting. Det er sådan, lyset kommer ind', så kommer jeg til huske på, at revnerne i tilværelsen er skabt for lyset kan finde dig." alt="Citater om at kæmpe" %}
+{% include pinterest image_path="https://www.cdn.alt.dk/4db24728b45440059e5cf4b2520c88f1/21a99527defc4ccf9a4af4d17ea6dd1a_1125.jpg" caption="Når Leonard Cohen siger: 'Der er en revne i alting. Det er sådan, lyset kommer ind', så kommer jeg til huske på, at revnerne i tilværelsen er skabt for lyset kan finde dig." alt="Citater om at kæmpe" %}
 
 ## Citater om at kæmpe på Pinterest
 
@@ -96,3 +103,17 @@ Her er også en inspirerende sang sunget af en ung kvinde, som har kæmpet med k
 {% include video provider="youtube" id="Awug_J3Swng" %}
 
 Husk også at tjekke vores [træningscitater om løb, styrketræning og motivation]({% link _posts/2020-08-03-citater.md %}), inden du kæmper videre.
+
+## Flere citater
+
+{% assign site_posts = site.posts | where: "tags", "citater" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>

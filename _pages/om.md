@@ -32,7 +32,7 @@ Vi bruger billeder fra [Unsplash.com](https://unsplash.com/) og skriver selv all
 
 ## Forfattere
 
-{% assign featured_authors = site.data.authors | where_exp: "item", "item.featured == 'true'" %}
+{% assign featured_authors = site.data.authors %}
 {% for authors in featured_authors %}
   {% assign author=authors[1] %}
   {% include author.html author=author %}

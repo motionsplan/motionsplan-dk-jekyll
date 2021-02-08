@@ -24,24 +24,48 @@ feature_quotes:
     cite: Leonard Cohen
   - quote: "Yoga is not a work-out, it is a work-in. And this is the point of spiritual practice. To make us teachable. To open up our hearts and focus our awareness so that we can know what we already know and be who we already are."
     cite: Rolf Gates
-  - quote: "I offer you peace. I offer you love. I offer you friendship. I see your beauty. I hear your need. I feel your feelings. My wisdom flows from the Highest Source. I salute that Source in you. Let us work together for unity and love."
-    cite: Gandhi
   - quote: "You cannot do yoga. Yoga is your natural state. What you can do are yoga poses, which may reveal to you where you are resisting your natural state."
     cite: Sharon Gannon
+  - quote: "Crying is one of the highest devotional songs. One who knows crying, knows spiritual practice. If you can cry with a pure heart, nothing else compares to such a prayer. Crying includes all the principles of Yoga."
+    cite: Kripalvanandji
   - quote: "Sleep is the best meditation."
     cite: Dalai Lama
   - quote: "There will always be people who can do it better than you, but that’s a good thing! Start to see competition as inspiration — without envy."
     cite: Kathryn Budig
+  - quote: "I offer you peace. I offer you love. I offer you friendship. I see your beauty. I hear your need. I feel your feelings. My wisdom flows from the Highest Source. I salute that Source in you. Let us work together for unity and love."
+    cite: Gandhi
   - quote: "May all beings everywhere be happy and free, and may the thoughts, words, and actions of my own life contribute in some way to that happiness and to that freedom for all."
     cite: Lokah Samastah Sukhino Bhavantu
-  - quote: "The attitude of gratitude is the highest yoga. Make an attitude to be in gratitude, you will find the whole Universe will come to you."
+  - quote: "The attitude of gratitude is the highest yoga. Make an attitude to be in gratitude, you will find the whole Universe will come to you."
     cite: Yogi Bhajan
-  - quote: "Crying is one of the highest devotional songs. One who knows crying, knows spiritual practice. If you can cry with a pure heart, nothing else compares to such a prayer. Crying includes all the principles of Yoga."
-    cite: Kripalvanandji
-  - quote: "The rhythm of the body, the melody of the mind and the harmony of the soul create the symphony of life."
+  - quote: "The rhythm of the body, the melody of the mind and the harmony of the soul create the symphony of life."
     cite: B.K.S. Iyengar
   - quote: "Yoga is the practice of quieting the mind."
     cite: Patanjali
+  - quote: "Yoga keeps punching me in the face with how good it is."
+    cite: "Nicky Lobo"
+gallery:
+  - image_path: /assets/images/pinterest/citat-dalai-lama.png
+    url: /assets/images/pinterest/citat-dalai-lama.png
+  - image_path: "https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-keeps-punching-me.jpg"
+    url: "https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-keeps-punching-me-wallsticker"
+    title: "Yoga keeps punching me"
+    vendor: "Wallstickerland"
+    category: "2334"
+    price: 199.00
+    old_price: 
+    discounted: false
+    id: "546"
+gallery_posters:
+  - image_path: "https://citatplakat.dk/wp-content/uploads/2020/11/Fotoplakat-dalai-lama-FO10224.png"
+    url: "https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/design-plakater/dalai-lama-plakat/"
+    title: "Dalai Lama - Plakat"
+    vendor: "Citatplakat.dk"
+    category: "Design plakater > Fotokunst plakater > Historiske billeder > Plakater > Plakater til stuen > Sort hvid plakater"
+    price: 129.00
+    old_price: 129.00
+    discounted: false
+    id: "237915"
 ---
 
 Der findes mange inspirerende citater om yoga, mindfulness og meditation. Jeg har samlet {{ page.feature_quotes.size }} citater, der kan inspirere dig på din spirituelle vej.
@@ -68,9 +92,7 @@ Her er bl.a. citater fra B. K. S. Iyengar, Dalai Lama, Gandhi og Yogi Bhajan.
 ***
 {% endfor %}
 
-{% comment %}
-{% include figure image_path="https://www.cdn.alt.dk/4db24728b45440059e5cf4b2520c88f1/21a99527defc4ccf9a4af4d17ea6dd1a_1125.jpg" caption="Når Leonard Cohen siger: 'Der er en revne i alting. Det er sådan, lyset kommer ind', så kommer jeg til huske på, at revnerne i tilværelsen er skabt for lyset kan finde dig." alt="Citater om at kæmpe" %}
-{% endcomment %}
+{% include pinterest-gallery id="gallery" caption=page.title %}
 
 ## Citater om yoga, mindfulness og meditation på Pinterest
 
@@ -86,3 +108,25 @@ Du kender sikkert også en masse forskellige citater, som du bruger som motivati
 {% include figure image_path="https://www.cdn.alt.dk/99959288abca4422af1727e52177f813/583e68750af645ca9fa2957fad719939_1125.jpg" caption="Joan Crawford: 'Kærlighed er en ild, men om det kommer til at varme dit hjerte eller brænde dit hus ned, kan du aldrig regne ud.'" %}
 
 Husk også at tjekke vores [træningscitater om løb, styrketræning og motivation]({% link _posts/2020-08-03-citater.md %}), inden du drager videre på din søgen.
+
+Husk også at tjekke vores side om [De fem tibetanere](/artikel/de-fem-tibetanere/) og [solhilsen A og B](/artikel/solhilsen-a-b-surya-namaskar/).
+
+## Flere citater
+
+{% assign site_posts = site.posts | where: "tags", "citater" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
+## Plakater med yogo, mindfulness og meditation
+
+{% include gallery id="gallery_posters" caption=page.title %}
+
+Du kan finde endnu flere [plakater med yoga, meditation og mindfulness hos plakaterne.dk](https://www.plakaterne.dk/plakater-yoga-meditation-mindfulness/).

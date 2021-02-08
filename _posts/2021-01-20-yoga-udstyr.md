@@ -47,6 +47,16 @@ wallsticker_full:
   - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-is-not-just-a-workout-danish.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-er-ikke-bare-en-traening-wallsticker
     title: Yoga er ikke bare en træning
+gallery_wallsticker:
+    - image_path: "https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-therapy-danish.jpg"
+      url: "https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-therapy-wallsticker"
+      title: "Yoga therapy"
+      vendor: "Wallstickerland"
+      category: "2334"
+      price: 199.00
+      old_price: 
+      discounted: false
+      id: "523"
 ---
 
 Du kan komme i gang med yoga uden udstyr, men det rigtige yogaudstyr kan gøre fornøjelsen større. Hvilken yogamåtte eller yogablok skal jeg vælge - og har jeg også brug for yogasokker, yogabælte, yogatæppe eller yogatøj?
@@ -84,6 +94,8 @@ Du kan ogås vælge en uldmåtte, som kan være virkelig dejlig at ligge på til
 {% include figure image_path="https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8eW9nYSUyMG1hdHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" caption="En yogamåtte er næste uundværlig, når du skal lave yoga" alt="Yogaudstyr – yogamåtte" %}
 
 Du kan finde rigtig gode yogamåtter hos [Den Intelligente Krop\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/udstyr/traeningsudstyr/traeningsmatter-tasker-taepper){: rel="nofollow" } eller økologiske måtter hos [youryogashop.dk\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=76034&htmlurl=https://youryogashop.dk/oekologisk--miljoevenlig-shop/19-oekologiske-yogamaatter-natur-gummi/){: rel="nofollow" }.
+
+{% include gallery id="gallery_wallsticker" caption="Du kan købe lækre wallstickers til at pynte dit yogarum (reklamelinks)" %}
 
 ## Yogablok
 
