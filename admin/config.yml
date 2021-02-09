@@ -241,3 +241,10 @@ collections:
           - {label: "English", name: "en", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Last modified at", name: "last_modified_at", widget: "datetime", format: "YYYY-MM-DDThh:mm:ssZ", dateFormat: "dd-MM-YYYY", timeFormat: "HH:mm", required: false}
+      - label: "Exercises"
+        name: "exercises"
+        widget: "relation"
+        collection: "exercises"
+        search_fields: ["title"]
+        value_field: "id"
+        display_fields: ["title"]
