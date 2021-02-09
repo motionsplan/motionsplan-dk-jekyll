@@ -1,0 +1,82 @@
+<form class="calculator" id="calculator_hr_intensity_hrr">
+  <fieldset>
+    <legend>Beregning af arbejdspulsens intensitet i procent af <strong>pulsreserven</strong></legend>
+    <div class="form-group">
+      <label>Hvilepuls
+        <input type="number" min="30" max="100" name="hr_rest" required>
+      </label>
+    </div>
+    <div class="form-group">
+      <label>Maxpuls
+        <input type="number" min="120" max="250" name="hr_max" required>
+      </label>
+    </div>
+    <div class="form-group">
+      <label>Arbejdspuls
+        <input type="number" min="60" max="250" name="hr_work" required>
+      </label>
+    </div>
+    <input type="submit" value="Beregn">
+  </fieldset>
+  <fieldset class="results">
+    <div class="form-group">
+      <label>Intensitet (%)
+        <input type="text" name="hrr_intensity" disabled>
+      </label>
+    </div>
+  </fieldset>
+</form>
+
+<form class="calculator" id="calculator_hr_intensity_work">
+  <fieldset>
+    <legend>Beregning af arbejdspuls baseret på <strong>intensitet i procent af pulsreserven</strong></legend>
+    <div class="form-group">
+      <label>Hvilepuls
+        <input type="number" min="30" max="100" name="hr_rest_form2" required>
+      </label>
+    </div>
+    <div class="form-group">
+      <label>Maxpuls
+        <input type="number" min="140" max="250" name="hr_max_form2" required>
+      </label>
+    </div>
+    <div class="form-group">
+      <label>Intensitet (%)
+        <input type="number" min="0" max="100" name="intensity" required>
+      </label>
+    </div>
+    <input type="submit" value="Beregn">
+  </fieldset>
+  <fieldset class="results">
+    <div class="form-group">
+      <label>Arbejdspuls
+        <input type="number" name="hrr_heartrate" disabled>
+      </label>
+    </div>
+  </fieldset>
+</form>
+
+<form class="calculator" id="calculator_hr_intensity_from_max">
+  <fieldset>
+    <legend>Beregning af procentvise intensitet af arbejdspulsen ift. maksimalpulsen.</legend>
+    <div class="form-group">
+      <label>Maxpuls (slag/min)
+        <input type="number" min="140" max="250" name="hr_max_form3" required>
+      </label>
+    </div>
+    <div class="form-group">
+      <label>Arbejdspuls (slag/min)
+        <input type="number" min="60" max="250" name="hr_work_form3" required>
+      </label>
+    </div>
+    <input type="submit" value="Beregn">
+  </fieldset>
+  <fieldset class="results">
+    <div class="form-group">
+      <label>Intensitet (% af maxpuls)
+        <input type="number" name="intensity_form3" disabled>
+      </label>
+    </div>
+  </fieldset>
+  {% include calculator-footer.html %}
+</form>

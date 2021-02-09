@@ -1,4 +1,5 @@
 ---
+layout: single
 title: &title "Knæleddet"
 latin:
 tags:

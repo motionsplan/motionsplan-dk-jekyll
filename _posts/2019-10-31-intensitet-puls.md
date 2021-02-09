@@ -1,9 +1,9 @@
 ---
-title: &title "Pulstræning 💗: Udregn intensitet i forhold til puls "
-permalink: /puls-intensitet/
+title: &title "Pulstræning: Udregn pulszoner ud fra maxpuls og pulsreserve"
+permalink: /pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/
 redirect_from:
-  - puls
-excerpt: "Beregn din træningsintensitet ud fra pulsen eller beregn hvilken puls, du skal bruge til pulstræning ved en bestemt intensitet."
+  - /puls/
+  - /puls-intensitet/
 language: da
 header:
   overlay_image: https://cnet2.cbsistatic.com/img/NBGxxlXmG2cK3Udxf1P1uqZah_Y=/2018/11/28/83f6d88b-8b3b-44ef-a207-7d8f2a98e9a3/why-heart-rate-matters-9224-1.jpg
@@ -22,18 +22,28 @@ last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 ---
 
-Når man skal beregne sin træningsintensitet baseret på pulsen, kan det generelt gøres ved enten at tage udgangspunkt i pulsreserven (HR<sub>reserve</sub>) eller i den maksimale puls (HR<sub>max</sub>):
+Når du vil lave pulstræning, så kan du beregne pulszoner og træningsinstensitet ud fra din maxpuls eller pulsreserve. Når ud har udregnet dine træningszoner, så kan du målrette din træning ud fra pulsen.
+
+Pulstræning hænger sammen med konditionstræning og kredsløbstræning. Det er et værktøj, du kan bruge til at styre træningen af din kondition for at være sikker på, at du rammer det rigtige energisystem i løbet af træningen.
+
+I pulstræning skal du altså først kende **dine pulszoner**, og vide hvad du træner i de forskellige træningszoner. Derefter kan du fx bruge en pulsmåler til at holde styr på, at pulsen rammer den rigtige zone i løbet af din træning.
+
+Når du skal beregne din træningsintensitet baseret på pulsen, kan du generelt gøre det ved enten at tage udgangspunkt i pulsreserven (HR<sub>reserve</sub>) eller i den maksimale puls (HR<sub>max</sub>).
+
+## Definition af hvilepuls, maxpuls og pulsreserve
+
+Først kigger vi på et par forskellige definitioner af hvilepuls, maxpuls og pulsreserve.
 
 Hvilepuls
 : Hvilepulsen er pulsfrekvensen i hvile, når du slapper helt af. En lav hvilepuls kan være et tegn på en god kondition. Hvilepulsen bør måles om morgenen, inden du står op ad sengen.
 
-Maksimale puls
+Max-pulsen eller den maksimale puls
 : Max-pulsen er den absolut højeste pulsværdi, dit hjerte kan præstere. Jeg har skrevet et indlæg om, hvordan [du selv kan måle din max-puls](/test-max-puls/).
 
 Pulsreserven
 : Pulsreserven er forskellen mellem din max-puls og hvilepuls.
 
-Når du kender værdierne af din hvilepuls og max-puls, så kan du begynde at udregne træningsintensiteter til din pulstræning.
+Når du kender værdierne af din hvilepuls og max-puls, så kan du begynde at udregne træningsintensiteter til din pulstræning. Du kan enten basere dine pulszoner udelukkende på din max-puls eller på din pulsreserve.
 
 Lad os som et tilfældigt eksempel sige, at din max-puls er 200 og din hvilepuls er 60.
 
@@ -61,10 +71,33 @@ Når intensiteten beregnes på denne måde, svarer procenttallet til den relativ
 
 {% endcomment %}
 
-{% include calculate-intensity.html %}
+{% include calculate-hr-intensity-pulsreserve.html %}
 
-## Karvonens intensitetsberegninger
+{% include calculate-hr-work-pulsreserve.html %}
 
-Karvonen benytter pulsreserven til at beregne sine [klassiske pulszoner](https://runandbeyond.com/karvonen-heart-rate/).
+{% include calculate-hr-intensity-maxpuls.html %}
+
+## Beregning af Karvonens pulszoner og intensiteter
+
+Karvonen benytter pulsreserven til at beregne sine [klassiske pulszoner](https://runandbeyond.com/karvonen-heart-rate/). Karvonens pulszoner bliver brugt i rigtig mange sammenhænge.
 
 {% include calculate-karvonen-intensity.html %}
+
+Karvonens pulszoner kan være et udemærket udgangspunkt for træningen. Det er ofte Karvonens zoner, der er forprogrammeret ind i forskellige pulsure.
+
+Karvonens træningszoner har helt sikkert også nogle begrænsninger. Jeg kan godt lide særligt at fokusere på tre elementer i konditionstræning:
+
+1. Maksimale iltoptagelse
+2. Anaerobe tærskel og tærskeltræning
+3. Udholdenhed og slagvolumen
+
+Du kan sagtens bruge pulszoner til at hjælpe med at styre træningen, men det er en stor fordel, hvis pulszonerne er individuelt tilpassede. Det kan du formentlig ikke gøre bare med Karvonens pulszoner, som bare er forskellige procenter.
+
+Du bliver altså nødt til at teste, hvad dine **individuelle pulszoner** er. Jeg kunne foreslå tre tests, som kan hjælpe dig med at fastslå væsentlige pulstræningszoner.
+
+## Find pulszonen ved den maksimale iltoptagelse
+
+## Find pulszonen ved den anaerobe tærskel
+
+## Find pulzonen for udholdenhed og slagvolumen
+
