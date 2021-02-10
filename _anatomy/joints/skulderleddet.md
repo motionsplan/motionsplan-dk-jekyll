@@ -1,6 +1,7 @@
 ---
 layout: single
 title: &title "Skulderleddet og skulderbladet (skulderbæltet)"
+permalink: /joints/skulderleddet/
 excerpt: "Skulderens store bevægelsesfrihed skabes gennem flere led, som man tilsammen kalder for skulderbæltet, som består af skulderleddet og skulderbladet."
 latin: Scapula
 tags:

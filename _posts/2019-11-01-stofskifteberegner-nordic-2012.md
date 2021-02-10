@@ -1,5 +1,5 @@
 ---
-title: "Beregn dit daglige stofskifte, energiforbrug og energibehov 🔥"
+title: "Beregn dit daglige stofskifte, energiforbrug og energibehov"
 permalink: /stofskifte/
 language: da
 header:

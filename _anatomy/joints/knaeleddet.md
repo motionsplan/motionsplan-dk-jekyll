@@ -1,6 +1,7 @@
 ---
 layout: single
 title: &title "Knæleddet"
+permalink: /joints/knaeleddet/
 latin:
 tags:
   - led
