@@ -1,11 +1,12 @@
 ---
-title: "Beregn dit daglige stofskifte og forbrænding? 🔥"
-permalink: /avanceret-stofskifteberegner/
+title: "Beregner: Beregn dit daglige stofskifte og forbrænding? 🔥"
+permalink: /beregner/dagligt-stofskifte-og-forbraending/
+redirect_from: /avanceret-stofskifteberegner/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1495976797530-f33e6580e44b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=80
   teaser: https://images.unsplash.com/photo-1495976797530-f33e6580e44b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
-  caption: "Beregn dit stofskifte, daglige energiforbrug og basalstofskifte"
+  caption: "Beregner: Beregn dit stofskifte, daglige energiforbrug og basalstofskifte"
 category:
   - Beregnere
   - Kost
@@ -13,7 +14,7 @@ tags:
   - stofskifte
 last_modified_at: 2020-08-06T23:14:14Z
 toc: true
-excerpt: "I denne beregner kan du udregne dit daglige energiforbrug på baggrund af dit basalstofskifte (BMR) og fysiske aktivitetsniveau. Det er interessant at udregne en persons hvilestofskifte i forhold det fysiske aktivitetsniveau for at se, hvad mit omtrentlige daglige energiforbrug er."
+excerpt: "I denne beregner kan du udregne dit daglige stofskifte og forbrænding. Ved at beregne energiforbruget på baggrund af dit basalstofskifte (BMR) og fysiske aktivitetsniveau, så kan du finde dit omtrentlige daglige energibehov."
 feature_row:
   - image_path: /assets/images/pal-schedule.png
     url: https://docs.google.com/document/d/1pWnzxIkn3h_deY7pavw-OnCxhvtSiyFfBZCoyJjj8dY/copy?usp=sharing
@@ -23,7 +24,7 @@ feature_row:
     btn_class: btn--info
 ---
 
-I denne beregner kan du udregne dit daglige energiforbrug på baggrund af dit basalstofskifte (BMR) og fysiske aktivitetsniveau. Jeg synes det er interessant at udregne, hvad mit hvilestofskifte er i forhold min fysiske aktivitet for at se, hvad mit omtrentlige daglige energibehov er.
+I denne beregner kan du udregne dit daglige stofskifte og forbrænding. Ved at beregne energiforbruget på baggrund af dit basalstofskifte (BMR) og fysiske aktivitetsniveau, så kan du finde dit omtrentlige daglige energibehov.
 
 **Dit daglige energiforbrug består af 3 hovedkomponenter: hvilestofskiftet (BMR), fødeinduceret termogenese (FIT) og fysisk aktivitetsniveau (PAL). Når du har beregnet dit hvilestofskifte ganger man typisk med en PAL-faktor for at finde dit daglige energiforbrug.**
 
@@ -124,5 +125,9 @@ Hvis du gerne vil have en energiberegner på engelsk, så har Morten Zacho lavet
 
 ## Referencer om stofskifte og forbrænding
 
+<details markdown="1">
+  <summary>Se referencer om daglige stofskifte og forbrænding</summary>
+
 - Schofield, W.N. 1985. Predicting basal metabolic rate, new standards and review of previous work. Hum. Nutr. Clin. Nutr., 39C (suppl. 1): 5-41. <https://pubmed.ncbi.nlm.nih.gov/4044297/>
 - Waterlow, John C., Nevin S. Scrimshaw, og Beat Schürch. 1996. “Energy and Protein requirements, Proceedings of an IDECG workshop”. Eur J Clin Nutr 50 (februar): 1–197. <http://archive.unu.edu/unupress/food2/UID01E/UID01E00.HTM>.
+</summary>
