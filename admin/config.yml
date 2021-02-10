@@ -239,7 +239,7 @@ collections:
         required: false
         fields:
           - {label: "Danish", name: "da", widget: "string"}
-          - {label: "Latin", name: "la", widget: "string", required: false}
+          - {label: "Latin", name: "latin", widget: "string", required: false}
           - {label: "English", name: "en", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
       - {label: "Last modified at", name: "last_modified_at", widget: "datetime", format: "YYYY-MM-DDThh:mm:ssZ", dateFormat: "dd-MM-YYYY", timeFormat: "HH:mm", required: false}
