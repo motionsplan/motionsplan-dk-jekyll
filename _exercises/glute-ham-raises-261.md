@@ -110,8 +110,12 @@ Du kan også bruge GHR-bænken til andre formål.
 - **Back extensions** kan lavet med ret stor bevægeudslag, fordi du liger vandret med benene.
 - **GHD Situps** som er en meget brugt øvelse i crossfit.
 
-## Referencer
+## Referencer til glute ham raise
+
+<details markdown="1">
+  <summary>Se flere referencer om glute ham raise (GHR)
 
 - Chiu, Loren Z. F., Anita Yaremko, og Gabriella L. vonGaza. 2017. “Addition of Glute-Ham-Gastroc Raise to a Resistance Training Program: Effect on Jump Propulsion and Landing”. _Journal of Strength and Conditioning Research_ 31 (9): 2562–71. [https://doi.org/10.1519/JSC.0000000000002065](https://doi.org/10.1519/JSC.0000000000002065).
+</summary>
 
-## Noter
+## Noter om Glute Ham Raise (GHR)
