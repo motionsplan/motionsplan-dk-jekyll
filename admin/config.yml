@@ -251,6 +251,7 @@ collections:
         value_field: "id"
         display_fields: ["title"]
         multiple: true
+        required: false
       - label: "Antagonist"
         name: "antagonist"
         widget: "relation"
@@ -259,3 +260,13 @@ collections:
         value_field: "title"
         display_fields: ["title"]
         multiple: true
+        required: false
+      - label: "Synergister"
+        name: "synergist"
+        widget: "relation"
+        collection: "anatomy"
+        search_fields: ["title"]
+        value_field: "title"
+        display_fields: ["title"]
+        multiple: true
+        required: false
