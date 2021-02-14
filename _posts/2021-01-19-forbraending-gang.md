@@ -160,7 +160,7 @@ Hvis du begynder at gå mere, så vil du bruge mere energi på en dag. Det betyd
 
 MET-beregneren medtager primært medtager hastigheden som parameter, når du skal vælge din gangintensitet, så der det altså lidt misvisende. Der er alle mulige rigtig gode grunde til at komme i gang med at gå. En af dem kan være at få din daglige forbrænding sat i vejret. Din kalorieforbrænding bliver ganske enkelt større, når du går mere. Hvis du gerne vil motivere dig selv, så kan du begynde at [tælle dine daglige skridt]({% link _posts/2021-01-01-tael-skridt.md %}).
 
-Hvis du er interesseret i at læse mere om, [hvad du forbrænder ved at cykle, så tjek cykel-ruter.dk](https://www.cykel-ruter.dk/cykling-kalorier/). Hvis du gerne vil lave noget andet end at gå, så kan du [omregne sport og motion til skridt med vores beregner]({% link _posts/2020-11-14-activity-to-steps.md %}).
+Hvis du er interesseret i at læse mere om, [hvor mange kalorier man forbrænder ved cykling, så tjek cykel-ruter.dk](https://www.cykel-ruter.dk/cykling-kalorier/). Hvis du gerne vil lave noget andet end at gå, så kan du [omregne sport og motion til skridt med vores beregner]({% link _posts/2020-11-14-activity-to-steps.md %}).
 
 Jeg har også skrevet om, [hvor langt 10.000 skridt er, og hvor mange skridt du går på en kilometer]({% link _posts/2020-06-25-steps.md %}). Der er faktisk mange, der søger efter "Hvor meget forbrænder jeg ved at gå 10.000 skridt?". Og svaret er: "Det kommer an på...". Hvor hurtigt går du?
 

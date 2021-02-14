@@ -112,7 +112,7 @@ Forbrænding af en liter ilt svarer til omkring 5 kcal (McArdle 2010), så jeg b
 
 ## Bruger man lige meget energi ved løb og gang?
 
-Når [Alt for Damerne skriver, at man bruger lige mange kalorier på at gå og løbe en kilometer](https://www.alt.dk/sundhed/forbraending-kalorier-gaa-eller-lob), så beror det altså på en grov afrunding, og at de inkluderer hvilestofskiftet i regnestykket.
+Når [Alt for Damerne](https://www.alt.dk/sundhed/forbraending-kalorier-gaa-eller-lob) skriver, at man bruger lige mange kalorier på at gå og løbe en kilometer, så beror det altså på en grov afrunding, og at de inkluderer hvilestofskiftet i regnestykket.
 
 Hvis vi bruger MET-værdierne til at sammenligne energiforbruget ved at gå i forhold til at løbe, så er det tydeligt at MET-værdierne stiger, når man går fra gang til løb.
 
@@ -195,6 +195,8 @@ For at besvare spørgsmålet: "Hvor høj er kalorieforbrænding ved gang?" og "H
 Du kan selv lege lidt med beregneren, men det sker først med en større forskel mellem at gang-hastighed og løbehastighed, at forskellen bliver så stor.
 
 Hvis vi kigger på udsagnet om, at man pr. kilometer forbrænder dobbelt så meget ved at løbe som ved at gå, så kan jeg ikke finde nogen kombinationer af hastigheder, hvor det sker. Typisk ligger ratioen under 1,5 - og ratioen bliver mindre, desto hurtigere du løber.
+
+Jeg har lavet en tabel med [MET-værdier]({% link _posts/2020-07-24-met.md %}), og hvis du er interesseret i at læse mere om, [forbrænding ved cykling](https://www.cykel-ruter.dk/cykling-kalorier/), så har jeg skrevet lidt om det emne på cykel-ruter.dk.
 
 ## Referencer om kalorieforbrænding ved gang og løb
 
