@@ -1,6 +1,7 @@
 ---
-title: "Beregn dit daglige stofskifte, energiforbrug og energibehov 🔥"
-permalink: /stofskifte/
+title: "Beregn dit daglige stofskifte, energiforbrug og energibehov"
+permalink: /beregner/stofskifte-energiforbrug-energibehov/
+redirect_from: /stofskifte/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1551337948-0ad8de8568ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=80
@@ -21,7 +22,7 @@ keywords:
   - beregning af energiforbrug
 ---
 
-Jeg har lavet en beregner til at udregne dit daglige energibehov og energiforbrug på baggrund af dit hvilestofskifte og fysiske aktivitesniveau. Når du kender hvilestofskiftet og dit fysiske aktivitetsniveau kan du estimere dit omtrentlige daglige energibehov.
+Jeg har lavet en beregner til at udregne dit daglige energibehov og energiforbrug på baggrund af dit hvilestofskifte og fysiske aktivitesniveau. Når du kender hvilestofskiftet og dit fysiske aktivitetsniveau kan du estimere dit omtrentlige daglige energibehov og stofskifte.
 
 *[REE]: Average Resting Energy Expenditure
 *[BMR]: Basic Metabolic Rate

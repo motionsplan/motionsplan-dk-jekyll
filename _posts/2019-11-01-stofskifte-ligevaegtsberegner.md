@@ -1,6 +1,8 @@
 ---
-title: &title "Beregn dit ligevægtsindtag med vores beregner til energiforbrug ⚖"
-permalink: /ligevaegtsindtag/
+title: &title "Beregn dit ligevægtsindtag med vores ligevægtsberegner ⚖"
+permalink: /beregner/ligevaegtsindtag-med-ligevaegtsberegner/
+redirect_from:
+  - /ligevaegtsindtag/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1582004228576-14e8b1256618?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1868&q=80
@@ -11,6 +13,7 @@ category:
 tags:
   - stofskifte
   - ligevægtsindtag
+  - ligevægtsberegner
 last_modified_at: 2020-12-06T23:14:14Z
 toc: true
 keywords:
@@ -19,7 +22,7 @@ keywords:
   - ligevægtsindtag beregner
 ---
 
-Jeg har lavet en beregner til at udregne dit ligevægtsindtag. Det kan være hjælpsomt at kende ligevægtsindtaget, så du kan sikre dig de bedste resultater med din træning uanset om træningens formål er at tage på i vægt, holde vægten eller du gerne vil opnå et vægttab.
+Jeg har lavet en beregner til at udregne dit ligevægtsindtag. Vores ligevægtsberegner kan hjælpe dig med at sikre dig de bedste resultater med din træning uanset om træningens formål er at tage på i vægt, holde vægten eller du gerne vil opnå et vægttab.
 
 Hvad er ligevægtsindtaget? **Ligevægtsindtaget er, når du indtager lige så meget energi gennem kosten, som du forbruger i løbet af en dag. Når du indtager energi, der svarer til dit ligevægtsindtag, så er din vægt stabil, og derfor kalder man det ligevægtsindtaget.**
 
@@ -29,19 +32,15 @@ Ligevægtsindtaget er et andet ord for dit samlede daglige [energiforbrug og ene
 
 Du kan estimere dit ligevægtsindtag i beregneren nedenunder. Du får det bedste estimat på dit ligevægtsindtag, hvis du er omhyggelig med dine indtastninger. Husk også at beregneren bare giver et bud på, hvad dit ligevægtsindtag er baseret på sammenlignelige gennemsnitsværdier i forhold til din højde.
 
-## Beregn dit ligevægtsindtag med denne beregner
+## Beregn dit ligevægtsindtag med vores beregner
 
-Du kan udregne ligevægtsindtaget i nedenstående beregner.
+Du kan udregne ligevægtsindtaget i vores ligevægtsberegner herunder.
 
 {% include calculate-stofskifte-pal.html %}
 
 ## Hvordan udregner jeg mit ligevægtsindtag?
 
 Ligevægtsindtaget er egentlig bare et andet ord for dit daglige energibehov i forhold til dit hvilestofskifte og dit fysiske aktivitetsniveau. Derfor udregnes dit ligevægtsindtag med at gange dit hvilestofskifte med en faktor for dit aktivitetsniveau.
-
-## Præcision af udregninger for ligevægtsindtag
-
-Du skal være opmærksom på, at udregninger af ligevægtsindtaget kun er omtrentlige målinger. Hvis du registrerer din kost over en længere periode, og du holder en stabil vægt og kropskomposition, så kan du finde dit ligevægtsindtag på denne måde.
 
 ## Hvad kan jeg bruge ligevægtsindtaget til?
 
@@ -53,9 +52,11 @@ Der findes en lang række forskellige formler for hvilestofskiftet, basalstofski
 
 Du kan læse mere om de forskellige formler til [hvilestofskifte og basalstofskifte]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}).
 
-## Er beregneren af ligevægtsindtag præcis?
+## Er en ligevægtsberegner præcis?
 
-Beregneren af ligevægtsindtag skal kun ses som inspiration til at ramme dit omtrentlige ligevægtsindtag. Beregneren kan bruges som et pejlemærke til, hvor mange kalorier, du kan indtage for at fastholde vægten, tage på eller tabe dig.
+Beregneren af ligevægtsindtag skal kun ses som inspiration til at ramme dit omtrentlige ligevægtsindtag. En ligevægtsberegner kan bruges som et pejlemærke til, hvor mange kalorier, du kan indtage for at fastholde vægten, tage på eller tabe dig.
+
+Du skal være opmærksom på, at udregninger af ligevægtsindtaget kun er omtrentlige målinger. Hvis du registrerer din kost over en længere periode, og du holder en stabil vægt og kropskomposition, så kan du finde dit ligevægtsindtag på denne måde.
 
 ## Find dit præcise ligevægtsindtag
 
@@ -65,7 +66,7 @@ Hvis du i beregneren udregner dit ligevægtsindtag til 2500 kalorier, så skal d
 
 Hvis du har tabt dig eller taget på, så skal du gentage eksperimentet enten med færre eller flere kalorier alt efter resultatet på vægten. Det er altså meget tidskrævende at finde sit præcise ligevægtsindtag.
 
-## Gentag udregningen når du vægt ændrer sig
+## Brug ligevægtsberegneren igen når din vægt ændrer sig
 
 Din kropsvægt er med til at afgøre, hvor stort dit ligevægtsindtag er. Derfor bliver du nødt til at genberegne dit ligevægtsindtag, hvis du har en vægtændring. Hvis du taber dig, så falder dit ligevægtsindtag, og du kan for evigt spise mindre, hvis du vil fastholde vægten. Hvis du tager på, så kan du for evigt spise mere, hvis du vil fastholde vægten.
 
@@ -87,7 +88,7 @@ Når du er i energioverskud, så håber du at tage muskelmasse på. Beregnerens 
 
 Hvis du har gode ideer til at forbedre beregneren til vægtændringspotentiale, så skriv endelig i kommentarerne.
 
-## Konklusion om ligevægtsindtag
+## Konklusion om ligevægtsindtag og ligevægtsberegner
 
 Nu kender du dit omtrentlige ligevægtsindtag. Som du kan se så er den største del af ligevægtsindtaget bestemt af din vægt. Det betyder, at hvis du taber vægt, så vil dit ligevægtsindtag gå ned, mens det ved højere vægt vil gå op.
 

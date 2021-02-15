@@ -212,15 +212,17 @@ collections:
           - label: "Latin"
             name: "latin"
             widget: "list"
+            required: false
             fields:
               - {label: "Short", name: "short", widget: "string"}
-              - {label: "Extended", name: "extended", widget: "string"}
+              - {label: "Extended", name: "extended", widget: "string", required: false}
           - label: "English"
             name: "en"
             widget: "list"
+            required: false
             fields:
               - {label: "Short", name: "short", widget: "string"}
-              - {label: "Extended", name: "extended", widget: "string"}
+              - {label: "Extended", name: "extended", widget: "string", required: false}
       - label: Origin
         name: origin
         widget: object
@@ -228,8 +230,8 @@ collections:
         required: false
         fields:
           - {label: "Danish", name: "da", widget: "string"}
-          - {label: "Latin", name: "latin", widget: "string"}
-          - {label: "English", name: "en", widget: "string"}
+          - {label: "Latin", name: "latin", widget: "string", required: false}
+          - {label: "English", name: "en", widget: "string", required: false}
       - label: Insertion
         name: insertion
         widget: object
@@ -237,7 +239,34 @@ collections:
         required: false
         fields:
           - {label: "Danish", name: "da", widget: "string"}
-          - {label: "Latin", name: "la", widget: "string"}
-          - {label: "English", name: "en", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Latin", name: "latin", widget: "string", required: false}
+          - {label: "English", name: "en", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
       - {label: "Last modified at", name: "last_modified_at", widget: "datetime", format: "YYYY-MM-DDThh:mm:ssZ", dateFormat: "dd-MM-YYYY", timeFormat: "HH:mm", required: false}
+      - label: "Exercises"
+        name: "exercises"
+        widget: "relation"
+        collection: "exercises"
+        search_fields: ["title"]
+        value_field: "id"
+        display_fields: ["title"]
+        multiple: true
+        required: false
+      - label: "Antagonist"
+        name: "antagonist"
+        widget: "relation"
+        collection: "anatomy"
+        search_fields: ["title"]
+        value_field: "title"
+        display_fields: ["title"]
+        multiple: true
+        required: false
+      - label: "Synergister"
+        name: "synergist"
+        widget: "relation"
+        collection: "anatomy"
+        search_fields: ["title"]
+        value_field: "title"
+        display_fields: ["title"]
+        multiple: true
+        required: false

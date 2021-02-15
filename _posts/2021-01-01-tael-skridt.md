@@ -1,5 +1,5 @@
 ---
-title: &title "Tæl skridt 2021: Det er motiverende at tælle skridt 🚶‍♀️"
+title: &title "Tæl skridt 2021: Det er motiverende at tælle skridt 🚶‍♀️️"
 permalink: /artikel/tael-skridt/
 language: da
 header:

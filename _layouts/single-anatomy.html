@@ -17,7 +17,7 @@ layout: default
 <div id="main" role="main">
   {% include sidebar.html %}
 
-  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+  <article class="page" itemscope itemtype="http://schema.org/Muscle">
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
@@ -26,7 +26,9 @@ layout: default
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
-          {% if page.title %}<h1 id="page-title" class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+          {% if page.title %}<h1 id="page-title" class="page__title" itemprop="name">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+          {% if page.name.latin %}<h2 itemprop="alternateName">{{ page.name.latin | markdownify | remove: "<p>" | remove: "</p>" }}</h2>{% endif %}
+
           {% if page.read_time %}
             <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
           {% endif %}
@@ -43,7 +45,48 @@ layout: default
             </nav>
           </aside>
         {% endif %}
+        
         {{ content }}
+        
+        <p>
+          <strong>Udspring:</strong> <span itemprop="insertion" itemscope itemtype="http://schema.org/Bone">{{ page.origin.da }}</span><br />
+          <strong>Hæfte:</strong> {{ page.insertion.da }}
+        </p>
+
+        {% include figure image_path=page.image alt=page.title caption=page.title %}
+        
+        <h2 id="function">{{ page.title }} funktion</h2>
+        
+        <ul>
+        {% for f in page.function.da %}
+        <li itemscope name="muscleAction"><strong>{{ f.short }}</strong>. {{ f.extended | markdownify }}
+        </li>
+        {% endfor %}
+        </ul>
+
+        {% if page.antagonist %}
+        <h2 id="antagonist">Antagonist for {{ page.title }}</h2>
+
+        <ul>
+        {% for f in page.antagonist %}
+        <li itemscope itemtype="http://schema.org/Muscle"><span itemprop="name">{{ f }}</span></li>
+        {% endfor %}
+        </ul>
+        {% endif %}
+
+        <h2 id="location">Placering af {{ page.title }}</h2>
+
+        {% if page.location %}
+        <p>
+          <strong>Placering i kroppen:</strong>
+          <span itemprop="bodyLocation">
+            {{ page.location | markdownify }}
+          </span>
+        </p>
+        {% endif %}
+
+        {% include figure image_path=page.image_focus alt=page.title caption=page.title %}
+
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 

@@ -73,7 +73,7 @@ Du kan bruge de fleste almindelige GPS-apps til at lave kunst, fx [Strava](https
 
 Der er stadig en del at lære, når man kigger på følgende resultater. Det betyder en del, hvor præcis ens GPS er :)
 
-{% gallery id="gallery_mine" caption=page.title %}
+{% include gallery id="gallery_mine" caption=page.title %}
 
 ### Lav en plan
 
