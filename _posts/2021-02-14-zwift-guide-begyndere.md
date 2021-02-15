@@ -103,7 +103,13 @@ Hvis du gerne vil opgradere din oplevelse i Zwift, så kan du købe et **_device
 
 Du kan også købe vindmodstand. Du kan købe en **blæser som kan simulere vindmodstand og køle dig ned**. Fx kan du købe en [Wahoo Kickr Headwind\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-kickr-headwind/?source=partner-ads), som justerer den virtuelle vindmodstand, når du kører. Når du sidder i en gruppe vil du kunne mærke, at du ligger og _drafter_, og hvis du kører hurtigere, så vil den blæse mere. Samtidig sikrer blæseren, at du ikke overopheder helt, når du kører.
 
+> Jeg synes, det er rigtig vigtigt, at man har en blæser foran sig, når man kører Zwift. Jeg ved i hvert fald fra mig selv, at jeg ellers let koger over.
+
+— <cite>Martin Mortensen, cykellærer på Vejle Idrætsefterskole</cite>
+
 Du kan også købe et helt Zwift-bundle fra Tacx hos [fribikeshop.dk\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70559&htmlurl=http://www.fribikeshop.dk/Default.aspx?ID=286&ProductID=PROD917).
+
+Der er også mange er vælger at få en måtte under cyklen. En måtte beskytter gulvet mod sved og olie fra cyklen, men den er også med til at gøre kørekomforten bedre, da den støddæmper lidt. Samtidig lyddæmper den også lidt. Wahoo sælger naturligvis også [måtter til at have under cyklen\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-kickr-mat/?source=partner-ads).
 
 Husk at læse lidt videre for at få de bedste tips fra Martin Mortensen, som er cykellærer på Vejle Idrætsefterskole, som virkelig ved alt om Zwift.
 
@@ -125,7 +131,7 @@ Nogle har også montereret deres smartphone på cyklen. Fx kan man bruge det her
 
 De fleste nyere devices og computere kan køre Zwift. Du kan altdi se de aktuelle minimumskrav for at køre Zwift hos [Zwift-support](https://support.zwift.com/en_us/supported-devices-to-run-zwift-H1Cj9QbeB).
 
-## Hvordan opretter jeg Zwift?
+## Hvordan opretter jeg min profil i Zwift?
 
 Så fik du styr på alt udstyret til Zwift. Nu er det tid til at komme i gang med at bruge Zwift. Der er et par trin, som du skal i gang med.
 
@@ -140,7 +146,11 @@ Højden betyder noget i forhold til vindmodstanden. Vægten betyder noget i forh
 
 Det næste trin er at oprette din avatar og give den det rigtige tøj på. Når du lige starter er der ikke så meget _gear_ at vælge imellem, men efterhånden som du kører Zwift flere gange og tjener _drops_, så vil du stige i niveau og du vil få mulighed for at låse op for merer tøj, flere cykler og forskellige hjul.
 
-Du kan i Zwift besøge 'Drop Shop', som er en online markedsplads, hvor du køber forskellige komponeneter med spillet spillets valuta _drops_. Du tjener drops ved at køre mange kilometer.
+Du kan i Zwift besøge 'Drop Shop', som er en online markedsplads, hvor du køber forskellige komponeneter med spillet spillets valuta _drops_. Du tjener drops ved at køre mange kilometer, og det er herligt at Zwift ikke giver mulighed for at betale sig til nyt udstyr i appen ved at betale med rigtige penge.
+
+> Jeg synes det er fedt i Zwift, at man ikke bare kan købe bedre udstyr derinde til sin avatar. Man skal gøre sig fortjent til nyt udstyr ved at køre en del kilometer.
+
+— <cite>Martin Mortensen, cykellærer på Vejle Idrætsefterskole</cite>
 
 Når du har downloadet appen, så er du klar til at køre på Zwift.
 
@@ -223,6 +233,52 @@ Du kan altså kun invitere folk, hvor I følger hinanden på Zwift til et meetup
 ## Hvordan uploader jeg mine Zwift-ture til Strava og Garmin?
 
 Alle dine ture på Zwift gemmes på din computer .fit-format, hvilket betyder at de kan uploades til ethvert træningswebsted, du gerne vil navngive. Du kan sætte Zwift op til automatisk at forbinde med fx din Strava-konto og Garmin Connect. Det fungerer virkelig godt.
+
+## Gode råd om Zwift
+
+Martin Mortensen, som er cykellærer på Vejle Idrætsefterskole, og en vaskeægte ekspert i Zwift har et par gode råd til dig, der gerne vil i gang med Zwift.
+
+> Det er fedt, at man kan sidde hjemme og træne med ens venner. Mange bruger fx Discord til at snakke sammen, mens de kører løb eller træner. Så er det næsten lige som at sidde ved siden af hinanden og cykle. Det kan jeg virkelig godt lide.
+
+— <cite>Martin Mortensen</cite>
+
+Selv varmer Martin Mortensen grundigt op inden de løb, han deltager i. Han kan bruge helt op til 30-45 minutter på opvarmningen inden et vigtigt løb, som han ved bliver hårdt fra starten. Ved de lidt mindre vigtige løb, sætter han sig op 15 minutter før start for at være sikker på, at det hele spiller.
+
+> Jeg bruger også tid på at lære de ruter, vi kører i løb. Når jeg kender ruten, så ved jeg nemlig nøjagtig, hvornår der kommer en bakke, hvor jeg kan slappe af.
+
+— <cite>Martin Mortensen</cite>
+
+Her har jeg samlet de bedste af Martin Mortensens råd i denne liste.
+
+1. **Gør dig klar i god tid.** Du har brug for at alt udstyret spiller og kan snakke sammen. **Husk altid at have et strømkabel i dit device**. Hvis du først ryger af, så er det næsten umuligt at hente de andre igen. Husk også vand og måske et håndklæde. Husk også at varme op til løbene. De starter ofte hårdt. En lille smule forberedelse kan virkelig hjælpe dig senere. Du kan fx lave en pre-Zwift-liste.
+2. **Lær at 'drafte'**. Du skal lære at køre i læ og i gruppe sammen med andre. Det kræver, at du bliver lige bag ved dem. Du vil opdage at det kræver mindre kræfter at køre i læ af de andre, end hvis du selv cykler foran. Det er god Zwift-etikette at skiftes til at tage føringer.
+
+[Zwiftinsider](https://zwiftinsider.com/top-13-tips-for-beginner-zwifters/) har følgende gode råd til dig, der skal i gang med Zwift:
+
+- **Vælg flade ruter for hurtigere at stige hurtigt i niveau**. Når du stiger i niveau, så kan du købe nyt udstyr til din avatar. Rytterne får 20 XP for at køre en kilometer, og du kører naturligvis hurtigere på flad vej. Du kan også tjene XP ved at køre workouts, intervaller og _time trials_.
+
+{% include figure image_path="https://zwiftinsider.com/wp-content/uploads/2019/08/2019-03-20_1617542-1024x551.jpg" caption="Du kan låse op for belønninger undervejs i Zwift" alt="Du kan låse op for belønninger undervejs i Zwift" %}
+
+- **Vælg bjerge for at tjene drops**. Du kan veksle drops til cykler og hjul i Zwift, som din avatar kan køre på. Nogle cykler og dæk kan gøre sådan, at du kører hurtigere eller ser smartere ud. Du tjener flere drops, når bakkerne er over 3% i stigning.
+
+[Bikeradar](https://www.bikeradar.com/advice/fitness-and-training/zwift-tips/) kan tilføje følgende tips til din oplevelse på Zwift.
+
+- **Beskyt dig mod sveden**. Du kommer til at svede meget, og blæseren kan være en god ide. Men du kan også forhindre sved i øjnene ved fx at have et pandebånd eller noget andet. [Cykel-ruter.dk](https://www.cykel-ruter.dk) har skrevet mere om at [undgå sved i øjnene](https://www.motionsplan.dk/undgaa-sved-i-ojnene/). Det kan også være godt at beskytte cyklen mod sveden fx med et [svedcover fra Tacx\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70559&htmlurl=http://www.fribikeshop.dk/Default.aspx?ID=286&ProductID=PROD918). Endelig bør du også beskytte gulvet med en måtte fra både sved og olie fra cyklen, fx [måtten fra Wahoo\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-kickr-mat/?source=partner-ads). Måtten reducerer også lyden, når du kører og støddæmper lidt, så kørekomforten bliver bare bedre. Her hjælper en blæser naturligvis også fx [Wahoo Kickr Headwind\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-kickr-headwind/?source=partner-ads).
+- **Få fat i Bluetooth høretelefoner**. Studier viser, at man præsterer bedre med passende _up-tempo_-musik i ørerne, når du træner. Hvis du har et på høretelefoner, så kan du få passende [musik til træningen]({% link _posts/2013-05-02-musik-til-traeningen.md %}). Jeg bruger selv [Bose Soundsport\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67757&htmlurl=https://www.proshop.dk/Hovedtelefonerheadset/Bose-SoundSport-Free-true-wireless-earphones-with-mic/2804416), som jeg synes spiller rigtig godt. Rigtig mange bruger også [Apple Air Pods\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=24141&htmlurl=https://www.my-phoneshop.dk/apple-airpods-2019.html).
+
+## Svar på almindelige spørgsmål om Zwift
+
+### Hvordan vender jeg om i Zwift?
+
+Hvis du er kommet på en lang tur og gerne vil køre tilbage, så kan du vende om. Det gør du ved at klikke på 'pil ned' på dit keyboar eller holde U-turn-knappen nede på din mobilapp. Du kan også bare stå af cyklen, og klikke på 'end ride', hvis ikke du vil køre mere.
+
+### Hvordan ændrer jeg mit navn til et _group ride_?
+
+I nogle _group rides_ bliver du bedt om at ændre dit navn. Du skal ændre dit navn på _dashboardet_, inden du starter løbet. Du klikker på den lille blyant ved siden af dit navn. Du skal logge ud og ind igen for se din navneændring.
+
+### Hvordan får jeg en lysende 'Tron' cykel?
+
+De lysende neoncykler er en belønning, som du gør dig fortjent til efter 50.000 meters _climbing_ på "Everest Challenge". Når du har fuldført udfordringen låses _Trek Emonda_-cyklen op. Det er ikke let at få cyklen.
 
 ## Køb udstyr til Zwift
 
