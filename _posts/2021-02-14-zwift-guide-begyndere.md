@@ -13,7 +13,7 @@ tags:
   - kondition
   - zwift
   - cykling
-last_modified_at: 2021-01-14T08:14:14Z
+last_modified_at: 2021-02-14T08:14:14Z
 toc: true
 feature_row:
   - image_path: https://www.fotoagent.dk/images/webp/IAcroP5Mt3n2h7o4GNNnj7a4leLTlef-LUl9FaXmijSwM1ILLkg5SoVY2Q6gIRlivlFsa1Ylv0RrievRWUi2pg/single_picture/10678/138/kickr_smart_trainer_v5_1_1.jpg
