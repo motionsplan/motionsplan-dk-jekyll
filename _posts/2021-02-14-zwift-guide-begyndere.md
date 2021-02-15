@@ -19,27 +19,27 @@ feature_row:
   - image_path: https://www.fotoagent.dk/images/webp/IAcroP5Mt3n2h7o4GNNnj7a4leLTlef-LUl9FaXmijSwM1ILLkg5SoVY2Q6gIRlivlFsa1Ylv0RrievRWUi2pg/single_picture/10678/138/kickr_smart_trainer_v5_1_1.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=59734&htmlurl=https://www.cykler.dk/wahoo-kickr.aspx
     title: Wahoo Kickr 5.0 til Zwift
-    exerpt: "Du kan fx køre Zwift på en Wahoo Kickr 5.0. Den kører relativt støjsvagt, og har både effektmåler og kadencemåler. Husk at tjekke om gear kasetten passer til din cykel på den version, du køber."
+    excerpt: "Du kan fx køre Zwift på en Wahoo Kickr 5.0. Den kører relativt støjsvagt, og har både effektmåler og kadencemåler. Husk at tjekke om gear kasetten passer til din cykel på den version, du køber."
     btn_label: "Tjek prisen hos cykler.dk*"
     btn_class: "btn--success"
   - image_path: https://resources.chainbox.io/cykelpartner/public/pim/959f8301-8547-42dc-a159-723d8b30da09/150066_A_default.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=16446&htmlurl=https://www.cykelpartner.dk/hometrainere/wahoo-kickr-climb---simulerer-op--og-nedstigninger
     title: Wahoo Kickr Climb til Zwift
-    exerpt: "En Kickr Climb simulerer op- og nedstigninger, når du kører indendørs cykling. Det kan give dit en rigtig god virtuel oplevelse af, at du kører i virkeligheden, og Kickr Climb kan bruges sammen med Zwift."
+    excerpt: "En Kickr Climb simulerer op- og nedstigninger, når du kører indendørs cykling. Det kan give dit en rigtig god virtuel oplevelse af, at du kører i virkeligheden, og Kickr Climb kan bruges sammen med Zwift."
     btn_label: "Tjek prisen hos cyklerpartner.dk*"
     btn_class: "btn--info"
   - image_path: https://cykelexperten.b-cdn.net/media/b4/9a/0b/1588852583/uploads_2018_10_wahoo-kickr-headwind-e1540299465291.jpeg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-kickr-headwind/?source=partner-ads
     title: Wahoo Kickr Headwind til Zwift
-    exerpt: "Wahoo Kickr Headwind er en blæser, som styres af din hastighed, og den registrerer også i Zwift, om du ligger i læ af andre ryttere. Med Kickr Headwind er du sikker på at have køling nok, når du sveder i Zwift."
+    excerpt: "Wahoo Kickr Headwind er en blæser, som styres af din hastighed, og den registrerer også i Zwift, om du ligger i læ af andre ryttere. Med Kickr Headwind er du sikker på at have køling nok, når du sveder i Zwift."
     btn_label: "Tjek prisen hos cykelexperten.dk*"
     btn_class: "btn--warning"
   - image_path: https://fricdn.dk/Files/Images/FriBikeShop/ProductImages/tacx-flux-2-zwift-bundle.jpg?width=840&height=573&bgcolor=fff&format=jpeg&quality=80&mode=crop
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70559&htmlurl=http://www.fribikeshop.dk/Default.aspx?ID=286&ProductID=PROD917
     title: Tacx Flux 2 Smart Zwift Bundle
-    exerpt: "Kraftfuld, præcis og støjsvag hometrainer med direkte drev-montering. Tacx FLUX 2 Smart virker rigtig godt sammen med Zwift og er lidt billigere end Wahoo Kickr 5.0."
+    excerpt: "Kraftfuld, præcis og støjsvag hometrainer med direkte drev-montering. Tacx FLUX 2 Smart virker rigtig godt sammen med Zwift og er lidt billigere end Wahoo Kickr 5.0."
     btn_label: "Tjek prisen hos fribikeshop.dk*"
-    btn_class: "btn--warning"
+    btn_class: "btn--danger"
 ---
 
 Jeg er lige gået i gang med at køre Zwift, så jeg har skrevet en guide til at komme i gang. Det er en guide til en begynder, som alle de spørgsmål, jeg selv havde, og du får svar fra en af de rigtig dygtige danske Zwift-cykelryttere.
@@ -223,5 +223,7 @@ Du kan altså kun invitere folk, hvor I følger hinanden på Zwift til et meetup
 ## Hvordan uploader jeg mine Zwift-ture til Strava og Garmin?
 
 Alle dine ture på Zwift gemmes på din computer .fit-format, hvilket betyder at de kan uploades til ethvert træningswebsted, du gerne vil navngive. Du kan sætte Zwift op til automatisk at forbinde med fx din Strava-konto og Garmin Connect. Det fungerer virkelig godt.
+
+## Køb udstyr til Zwift
 
 {% include feature_row type="left" %}
