@@ -1,0 +1,49 @@
+---
+layout: webslides
+title: Træningsmetoder
+---
+
+{% assign posts = site.methods %}
+{{ posts.size }}
+{% for m in posts %}
+<section>
+  <div class="wrap">
+    <div class="grid vertical-align">
+      <div class="content-left vertical-align">
+        <h2>{{ m.title }}</h2>
+        {% if m.excerpt %}
+          <p class="text-intro">{{ m.excerpt }}</p>
+        {% endif%}
+      </div>
+      <div class="content-right vertical-align">
+        {% if m.header.overlay_image %}
+        <figure>
+          <img class="aligncenter" src="{{ m.header.overlay_image }}" alt="{{ m.title }}">
+        </figure>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+{% if m.video %}
+<section>
+      <div class="wrap">
+            <div class="content-left">
+              <h3>Responsive Videos</h3>
+              <p>Just copy and paste the code from YouTube to your slide.</p>
+              {{m.video.provider}} {{ m.video.id}}
+            </div>
+            <!-- end .content-left -->
+            <div class="content-left">
+              <!-- <div class="embed"> = Responsive -->
+              <div class="embed">
+                {% include video provider=m.video.provider id=m.video.id %}
+              </div>
+              <!-- end .embed -->
+            </div>
+            <!-- end .content-left -->
+          </div>
+          <!-- .end .wrap -->
+</section>
+{% endif %}
+{% endfor %}

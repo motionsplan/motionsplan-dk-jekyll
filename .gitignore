@@ -13,7 +13,7 @@ composer.lock
 _scripts/*.png
 npm-debug.log
 .jekyll-cache/
-
+jekyll-algolia-record-too-big.log
 _posts/.ztr-directory
 _drafts/.ztr-directory
 _exercises/.ztr-directory
