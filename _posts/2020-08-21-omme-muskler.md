@@ -10,6 +10,9 @@ category:
   - Træning
 tags:
   - muskler
+  - doms
+  - muskelømhed
+  - delayed onset muscle soreness
 last_modified_at: 2021-02-14T08:14:14Z
 toc: true
 ---
