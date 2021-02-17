@@ -132,7 +132,7 @@ De fleste af de store producenter af _smart trainers_, fx Wahoo, Tacx, Elite og 
 
 Zwift kan køres på Windows, iOS, iPhone, iPad eller AppleTV og Google Play. Der er altså ikke mange undskyldninger, hvad angår dit device. Jeg kører mest fra en computer, men hvis du har en større tablet, så er der også rigtig mange, der bruger det. Du kan også i en snæver vending kører på telefonen, men det bliver meget småt i hvert fald for mine øjne.
 
-{% include figure image_path="https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/2/2017/06/zwiftipad.jpg" caption="Typisk setup i Zwift" alt="Typisk setup i Zwift"  %}
+{% include figure image_path="https://i.pinimg.com/originals/62/b1/d6/62b1d69426d4cc6241a0e5d9cf0a3028.jpg" caption="Zwift setup hvor computeren står på et [Wahoo Bike Desk*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67757&htmlurl=https://www.proshop.dk/Sport-Fitness/Wahoo-Fitness-KICKR-Desk/2695504) og med en blæser foran" alt="Typisk setup i Zwift med et Wahoo Bike Desk"  %}
 
 Du skal helst have tabletten eller computeren inden for rækkevidde, da du undervejs godt kan få brug for at interagere lidt med skærmen. Jeg tror klart de fleste bruger en iPad, som de enten stiller på et bord foran, har på en [tablet holder på cyklen\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70559&htmlurl=http://www.fribikeshop.dk/Default.aspx?ID=286&ProductID=100-T2092) eller sat den på computerholder, fx denne [Wahoo Bike Desk\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67757&htmlurl=https://www.proshop.dk/Sport-Fitness/Wahoo-Fitness-KICKR-Desk/2695504).
 
@@ -262,11 +262,13 @@ Selv varmer Martin Mortensen grundigt op inden de løb, han deltager i. Han kan 
 Her har jeg samlet de bedste af Martin Mortensens råd i denne liste.
 
 1. **Gør dig klar i god tid.** Du har brug for at alt udstyret spiller og kan snakke sammen. **Husk altid at have et strømkabel i dit device**. Hvis du først ryger af, så er det næsten umuligt at hente de andre igen. Husk også vand og måske et håndklæde. Husk også at varme op til løbene. De starter ofte hårdt. En lille smule forberedelse kan virkelig hjælpe dig senere. Du kan fx lave en pre-Zwift-liste.
-2. **Lær at 'drafte'**. Du skal lære at køre i læ og i gruppe sammen med andre. Det kræver, at du bliver lige bag ved dem. Du vil opdage at det kræver mindre kræfter at køre i læ af de andre, end hvis du selv cykler foran. Det er god Zwift-etikette at skiftes til at tage føringer.
+2. **Lær at 'drafte'**. Du skal lære at køre i læ og i gruppe sammen med andre. Det kræver, at du bliver lige bag ved dem. Du vil opdage at det kræver mindre kræfter at køre i læ af de andre, end hvis du selv cykler foran. Det er god Zwift-etikette at skiftes til at tage føringer. Det kræver lidt øvelse.
+3. **Kør hurtigt ned ad bakke**. Hvis en bakke har en hældning på -3%, og du kan træde cyklen op på 57 km/t, så kan du stoppe med at træde. Derefter kører cyklen bare af sig selv og holder tempoet.
+4. **Kom ud af startblokken ved løb**. Når du skal køre et løb, så kan det godt betale sig at køre hårdt de første par minutter, så man ikke bliver låst nede bagved og ikke ser, hvordan løbet udspiller sig i front.
 
 [Zwiftinsider](https://zwiftinsider.com/top-13-tips-for-beginner-zwifters/) har følgende gode råd til dig, der skal i gang med Zwift:
 
-- **Vælg flade ruter for hurtigere at stige hurtigt i niveau**. Når du stiger i niveau, så kan du købe nyt udstyr til din avatar. Rytterne får 20 XP for at køre en kilometer, og du kører naturligvis hurtigere på flad vej. Du kan også tjene XP ved at køre workouts, intervaller og _time trials_.
+- **Vælg flade ruter for hurtigere at stige i niveau**. Når du stiger i niveau, så kan du købe nyt udstyr til din avatar. Rytterne får 20 XP for at køre en kilometer, og du kører naturligvis hurtigere på flad vej. Du kan også tjene XP ved at køre workouts, intervaller og _time trials_.
 
 {% include figure image_path="https://zwiftinsider.com/wp-content/uploads/2019/08/2019-03-20_1617542-1024x551.jpg" caption="Du kan låse op for belønninger undervejs i Zwift" alt="Du kan låse op for belønninger undervejs i Zwift" %}
 
