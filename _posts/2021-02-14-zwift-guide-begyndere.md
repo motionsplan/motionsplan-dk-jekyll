@@ -1,5 +1,5 @@
 ---
-title: &title "Zwift: Den komplette guide til begyndere"
+title: &title "Zwift cykling på hometrainer: Komplet guide til begyndere 🚵🚵‍♀️"
 permalink: /komplet-begynderguide-zwift/
 language: da
 header:
@@ -42,9 +42,9 @@ feature_row:
     btn_class: "btn--danger"
 ---
 
-Jeg er lige gået i gang med at køre Zwift, så jeg har skrevet en guide til at komme i gang. Det er en guide til en begynder, som besvarer alle de spørgsmål, jeg selv havde, og du får svar fra en af de rigtig dygtige danske Zwift-cykelryttere.
+Jeg er lige gået i gang med at køre Zwift på hometrainer, så jeg har skrevet en guide til at komme i gang med virtuel cykling. Det er en guide til en begynder, som besvarer alle de spørgsmål, jeg selv havde, og du får svar fra en af de rigtig dygtige danske Zwift-cykelryttere.
 
-Zwift er en meget populær app, når du flytter cykeltræningen indendørs. Det er en inspirerende måde at træne på afstand sammen med andre, når vejret og pandemier ikke tillader træning og cykelløb udenfor. 
+Zwift er en meget populær app, når du flytter cykeltræningen indendørs. Det er en inspirerende måde at træne på afstand sammen med andre, når vejret og pandemier ikke tillader træning og cykelløb udenfor. s
 
 Min motivation for træning på min indendørs cykel har i hvert fald været noget højere de seneste uger efter jeg fik øjnene op for Zwift. Men der er lige nogle ting, du skal vide inden du kan komme i gang med Zwift.
 
@@ -58,7 +58,7 @@ I denne guide kan du få svar på:
 
 Lad os dykke ned i begynderguiden til Zwift.
 
-## Hvad er Zwift?
+## Hvad er Zwift og hvordan kommer jeg i gang?
 
 Zwift er et spil du kan bruge sammen med din _hometrainer_ til cykling eller _watt-måler_ til løb. Zwift er mest kendt for at være en platform for cykelryttere. Zwift giver dig mulighed for at linke din _hometrainer_: op til din computer, iPad, iPhone, Apple TV, Android devide, så du kan køre med andre cykelryttere i et virtuelt miljø. Du kan både træne i Zwift og køre løb mod andre i den virtuelle Zwift-verden.
 
