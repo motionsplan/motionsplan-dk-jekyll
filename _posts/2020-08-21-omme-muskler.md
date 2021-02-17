@@ -72,6 +72,8 @@ Nej. Det er usandsynligt, at ophobning af mælkesyre er årsag til ømme muskler
 
 ### Mikroskader i musklerne kan være årsag til ømhed
 
+Mikroskader i musklerne er den dominerende forklaringsmodel for, hvad der skaber ømhed efter træning.
+
 En anden forklaring på ømhed i musklerne er, at der under fysisk arbejde skabes små **mikroødelæggelser og bristninger i musklerne**.
 
 > Mikroskaderne medfører en lille betændelsesreaktion, en inflammation, som er en normal del af, at musklen heler op.
@@ -92,6 +94,8 @@ Mikroskaderne i musklerne er altså ikke nødvendigvis eneansvarlige for, hvor �
 
 ### Kan calcium være årsagen til muskelømhed?
 
+Calcium kan måske være årsag til muskelømhed, fordi det muligvis spiller en rolle i forbindelse med muskelskade.
+
 Jesper Emil Jakobsgaard, som forsker i muskler og muskelfibre i forbindelse med sit Phd-projekt på Århus Universitet, fortæller, at forskningen ganske enkelt stadig ikke har har fuld klarhed over, hvad der forårsager andendagsømhed.
 
 > Det er også foreslået, at calcium kan spille en rolle i forbindelse med muskelskade og ømhed. Enten fordi det ved mikroskader i muskelcellens infrastruktur skabt af fx excentriske kontraktioner kan infiltrere muskelcellen og sætte gang i proteolyse gennem calcium-signalering.
@@ -100,7 +104,7 @@ Jesper Emil Jakobsgaard, som forsker i muskler og muskelfibre i forbindelse med 
 
 Proteolyse er den kemiske proces, hvor proteiner bliver nedbrudt til aminosyrer gennem en spaltning. Jesper Emil Jakobsgaard fortsætter:
 
-> Eller fordi calcium på egen hånd kan skabe mikroskade gennem samme signaleringsveje som følge af muskelaktivitet der indeholder betydelige mængder af calcium-fluktationer i cellen, hvilket muligvis kan forklare den muskelskade man ser efter okklusionstræning, og som er på fuld højde med tung excentrisk træning.
+> Eller fordi calcium på egen hånd kan skabe mikroskade gennem samme signaleringsveje som følge af muskelaktivitet der indeholder betydelige mængder af calcium-fluktationer i cellen. Dette kan muligvis forklare den indledningsvise muskelskade, man har observeret efter træningspas med okklusionstræning, og som kan være på højde med tung excentrisk træning.
 
 — <cite>Jesper Emil Jakobsgaard</cite>
 
@@ -110,7 +114,7 @@ Men forskerne er faktisk stadig ikke sikre på, om det er tilfældet.
 
 ### Kan muskelømhed forårsages af nervesystemet?
 
-Jesper Emil Jakobsgaard gør også opmærksom på, at forskningen i Delayed Onset Muscle Soreness fortsat udvikler sig. [Sonkodi et al (2020)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7139782/) har fx for nylig fremsat en hypotese, hvor nervesystemet er en af årsagerne til ømheden i musklerne.
+Måske. Jesper Emil Jakobsgaard gør også opmærksom på, at forskningen i Delayed Onset Muscle Soreness fortsat udvikler sig. [Sonkodi et al (2020)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7139782/) har fx for nylig fremsat en hypotese, hvor nervesystemet er en af årsagerne til ømheden i musklerne.
 
 > Men det skulle ikke undre mig, at man om nogle år har fundet ud af, at ømheden nok nærmere stammer fra noget neuralt i et perifære nervesystem - fx kompression af muskelspindler.
 
