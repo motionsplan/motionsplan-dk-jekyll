@@ -1,10 +1,10 @@
 ---
-title: &title "Løbebøger 📚: Bøger om løb du skal have læst 🏃 [2021]"
+title: &title "Løbebøger 📚: 9 bøger om løb du skal have læst 🏃 [2021]"
 permalink: /loebeboeger-boeger-om-loeb/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1583639687726-84d20638bf63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1932&q=80
-  teaser: https://images.unsplash.com/photo-1583639687726-84d20638bf63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1594882645126-14020914d58d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1963&q=80
+  teaser: https://images.unsplash.com/photo-1594882645126-14020914d58d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
   caption: *title
 category:
   - Programlægning
@@ -87,5 +87,7 @@ Denne liste over løbebøger er både inspireret af [Herlev Bibliotek](https://w
 ## Flere løbebøger
 
 Jeg er selv blevet inspireret af løbebøgerne, og jeg håber også du finder noget at blive inspireret af.
+
+Hvis du vil have inspiration til flere løbebøger, så kan du kigge hos nogle af vores samarbejdspartnere. Hvis du gerne vil støtte dette site, så er links reklamelinks. Vi får en lille kommision for hvert salg, men din pris er den samme, hvis du vælger at købe en bog efter at have klikket på vores links.
 
 Det at løbe er ikke det mest naturlige for os mennesker. At løbe er noget særligt. Det finder man rigtigt ud af, når man læser nogle af de anbefalede løbebøger.

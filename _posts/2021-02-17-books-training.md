@@ -1,10 +1,10 @@
 ---
-title: &title "Træningsbøger 📚: 10 bedste bøger om træning 💪 [2021]"
+title: &title "Træningsbøger 📚: 7 bedste bøger om træning 💪 [2021]"
 permalink: /traeningsboeger-boeger-om-traening/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1583639687726-84d20638bf63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1932&q=80
-  teaser: https://images.unsplash.com/photo-1583639687726-84d20638bf63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1534258936925-c58bed479fcb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1989&q=80
+  teaser: https://images.unsplash.com/photo-1534258936925-c58bed479fcb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
   caption: *title
 category:
   - Programlægning
@@ -22,7 +22,7 @@ feature_row:
     excerpt: "Fortællingen om Jens Voigts vej til professionel cykelsport er bemærkelsesværdig. Lige fra hans opvækst i Østtyskland, hvor Tour de France blot var noget, man hørte rygter om, til den sene professionelle debut i 1997 og de mange bedrifter, der fulgte på landevejene i de efterfølgende år."
     btn_class: btn--success
     btn_label: Se prisen hos Tales*
-  - image_path: https://www.gucca.dk/racercykel-traening-bog-p280085
+  - image_path: https://content.gucca.dk/covers/big/r/a/racercykel-traening_280085.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=9399&htmlurl=https://www.gucca.dk/racercykel-traening-bog-p280085
     title: Racercykel træning
     excerpt: "Vil du gerne have en bog om, hvordan du skal sammensætte din træning, kost og øvelser for at optimere din performance, så kan cykelbogen _Racercykel træning_anbefales. I bogen bliver du guidet igennem flere forskellige niveauer af din cykeltræning – ligefra det basale om til det mere avanceret såsom hvordan du fx optimerer din restituering."
@@ -73,5 +73,7 @@ Alle bøgerne om træning har masser af inspiration, som du kan overføre til di
 {% include feature_row type="left" %}
 
 ## Flere bøger om træning 2021
+
+Hvis du vil have inspiration til flere træningsbøger, så kan du kigge hos nogle af vores samarbejdspartnere. Hvis du gerne vil støtte dette site, så er links reklamelinks. Vi får en lille kommision for hvert salg, men din pris er den samme, hvis du vælger at købe en bog efter at have klikket på vores links.
 
 Kender du nogle uundværlige bøger om træning, så skriv endelig i kommentarerne, så jeg kan få forbedret denne liste over træningsbøger.
