@@ -201,6 +201,10 @@ Shane Miller fra GPLama forklarer i denne Youtube video, hvordan du let kan lave
 
 {% include video provider="youtube" id="Apnwg1TAsIU" %}
 
+Hvis du hellere vil hoppe på nogle af de eksisterende workouts, så kan du prøve nogle af disse fede træninger til Zwift.
+
+{% include video provider="youtube" id="zBGEQwUImZ0" %}
+
 ## Kan jeg køre cykelløb på Zwift?
 
 Ja. Du kan køre cykelløb på Zwift. Det hedder _virtual racing_.
