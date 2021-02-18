@@ -1,5 +1,5 @@
 ---
-title: &title "Zwift: Den komplette guide til begyndere"
+title: &title "Zwift cykling på hometrainer: Komplet guide til begyndere 🚵🚵‍♀️"
 permalink: /komplet-begynderguide-zwift/
 language: da
 header:
@@ -13,7 +13,7 @@ tags:
   - kondition
   - zwift
   - cykling
-last_modified_at: 2021-01-14T08:14:14Z
+last_modified_at: 2021-02-14T08:14:14Z
 toc: true
 feature_row:
   - image_path: https://www.fotoagent.dk/images/webp/IAcroP5Mt3n2h7o4GNNnj7a4leLTlef-LUl9FaXmijSwM1ILLkg5SoVY2Q6gIRlivlFsa1Ylv0RrievRWUi2pg/single_picture/10678/138/kickr_smart_trainer_v5_1_1.jpg
@@ -42,22 +42,23 @@ feature_row:
     btn_class: "btn--danger"
 ---
 
-Jeg er lige gået i gang med at køre Zwift, så jeg har skrevet en guide til at komme i gang. Det er en guide til en begynder, som alle de spørgsmål, jeg selv havde, og du får svar fra en af de rigtig dygtige danske Zwift-cykelryttere.
+Jeg er lige gået i gang med at køre Zwift på hometrainer, så jeg har skrevet en guide til at komme i gang med virtuel cykling. Det er en guide til en begynder, som besvarer alle de spørgsmål, jeg selv havde, og du får svar fra en af de rigtig dygtige danske Zwift-cykelryttere.
 
-Zwift er en meget populær app, når du flytter cykeltræningen indendørs. Det er en inspirerende måde at træne på afstand sammen med andre, når vejret og pandemier ikke tillader træning og cykelløb udenfor. 
+Zwift er en meget populær app, når du flytter cykeltræningen indendørs. Det er en inspirerende måde at træne på afstand sammen med andre, når vejret og pandemier ikke tillader træning og cykelløb udenfor.
 
 Min motivation for træning på min indendørs cykel har i hvert fald været noget højere de seneste uger efter jeg fik øjnene op for Zwift. Men der er lige nogle ting, du skal vide inden du kan komme i gang med Zwift.
 
 I denne guide kan du få svar på:
 
 - Hvad er Zwift?
+- Hvad koster et Zwift abonnement?
 - Hvilket udstyr skal du bruge for at køre Zwift?
 - Hvordan kommer du i gang med Zwift?
 - Gode råd fra en rigtig erfaren Zwift-rytter fra A-klassen.
 
 Lad os dykke ned i begynderguiden til Zwift.
 
-## Hvad er Zwift?
+## Hvad er Zwift og hvordan kommer jeg i gang?
 
 Zwift er et spil du kan bruge sammen med din _hometrainer_ til cykling eller _watt-måler_ til løb. Zwift er mest kendt for at være en platform for cykelryttere. Zwift giver dig mulighed for at linke din _hometrainer_: op til din computer, iPad, iPhone, Apple TV, Android devide, så du kan køre med andre cykelryttere i et virtuelt miljø. Du kan både træne i Zwift og køre løb mod andre i den virtuelle Zwift-verden.
 
@@ -73,13 +74,13 @@ Når du kører Zwift, så kan du køre i en række forskellige verdener, hvor de
 
 ## Er Zwift gratis?
 
-Nej. Zwift koster £12 eller $14,99 om måneden. Men du kan altid annullere dit abonnement på Zwift, hvilket er ret genialt. Jeg kommer i hvert fald ikke til at køre Zwift om sommeren, og så er det jo dejlig, at jeg ikke skal smide penge ud af vinduet på det tidspunkt. 
+Nej. Prisen på et Zwift abonnement er £12 eller $14,99 om måneden. Men du kan altid annullere dit abonnement på Zwift og genstarte det på et senere tidspunkt, hvilket er ret genialt. Jeg kommer i hvert fald ikke til at køre Zwift om sommeren, og så er det jo dejlig, at jeg ikke skal smide penge ud af vinduet på det tidspunkt. 
 
 Du behøver ikke forpligte dig med det samme. Der er syv dages gratis prøveperiode, hvor du kan køre 25 kilometer, men jeg ville helt sikkert bare tegne en måneds abonnement, for du når ikke helt at finde ud af, om det er noget for dig på de 25 kilometer, som jo mest svarer til en enkelt tur.
 
 ## Hvilket udstyr har jeg brug for for at cykle på Zwift?
 
-Når du vil bruge Zwift, så skal du bruge udstyr, der kan måle hvor mange watt, du træder eller løber med. De fleste bruger en _hometrainer_ til cykling, hvis du vil cykle derhjemme. Hvis du køber en hometrainer til Zwift, så skal du have din egen cykel også.
+Når du vil bruge Zwift, så skal du bruge udstyr, der kan måle hvor mange watt, du træder eller løber med. De fleste bruger en _hometrainer_ til cykling, hvis du vil cykle derhjemme. Hvis du køber en hjemmetræner til Zwift, så skal du have din egen cykel også.
 
 Zwift har lavet denne glimrende [videoguide](https://support.zwift.com/en_us/what-you-need-to-ride-HJh4YQbxr), der forklarer, hvad du har behov for, hvis du gerne vil cykle på Zwift.
 
@@ -87,11 +88,11 @@ Zwift har lavet denne glimrende [videoguide](https://support.zwift.com/en_us/wha
 
 Jeg cykler selv på en [Wahoo Kickr 5.0\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=59734&htmlurl=https://www.cykler.dk/wahoo-kickr.aspx), som jeg synes er utrolig behagelig at køre på og giver en rigtig god cykeloplevelse og som tidligere professionelle cykelrytter Martin Mortensen også anbefaler. Der er adaptere med, så du kan sætte cykler på med forskellige nav, men du skal huske at tjekke, at den passer til din cykel. Du kan også køre Zwift på en mountainbike.
 
-En hometrainer har typisk indbygget effektmåler og variabel modstand, som kan spille sammen med Zwift. Din hometrainer måler dit arbejde og sender informationerne til Zwift, og på den måde kommer din online figur (avatar) til at cykle i den virtuelle verden.
+En hjemmetræner har typisk indbygget effektmåler og variabel modstand, som kan spille sammen med Zwift. Din hometrainer måler dit arbejde og sender informationerne til Zwift, og på den måde kommer din online figur (avatar) til at cykle i den virtuelle verden.
 
-Den variable modstand på din hometrainer giver dig fornemmelsen for, at du rent faktisk kører rigtigt. Når det går op ad bakke, så øges modstanden, og modstanden sænkes, når du kører ned ad bakke.
+Den variable modstand på din _smart trainer_ giver dig fornemmelsen for, at du rent faktisk kører rigtigt. Når det går op ad bakke, så øges modstanden, og modstanden sænkes, når du kører ned ad bakke.
 
-Du behøver ikke nødvendigvis en dyr hometrainer for at bruge Swift. Systemet fungerer bedst med en hometrainer, der har effektmåler, men du kan også nøjes med en gammel hometrainer, hvor du har hastighedsføler, som kan sende informationer gennem ANT+ eller Bluetooth til dit device. Derfor skal dit device naturligvis også understøtte enten ANT+ eller Bluetooth. Hvis ikke din computer understøtter det, så kan du købe en lille [ANT+ dongle\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-ant-usb-adapter/?source=partner-ads) eller Bluetooth dongle, som du kan sætte i USB-porten på din computer.
+Du behøver ikke nødvendigvis en dyr _hometrainer_ for at bruge Swift. Systemet fungerer bedst med en _smart trainer_, der har effektmåler, men du kan også nøjes med en gammel hjemmetræner, hvor du har hastighedsføler, som kan sende informationer gennem ANT+ eller Bluetooth til dit device. Derfor skal dit device naturligvis også understøtte enten ANT+ eller Bluetooth. Hvis ikke din computer understøtter det, så kan du købe en lille [ANT+ dongle\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-ant-usb-adapter/?source=partner-ads) eller Bluetooth dongle, som du kan sætte i USB-porten på din computer.
 
 I dag har langt de fleste computere Bluetooth, så derfor kan du typisk bruge det til at sende data.
 
@@ -103,7 +104,13 @@ Hvis du gerne vil opgradere din oplevelse i Zwift, så kan du købe et **_device
 
 Du kan også købe vindmodstand. Du kan købe en **blæser som kan simulere vindmodstand og køle dig ned**. Fx kan du købe en [Wahoo Kickr Headwind\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-kickr-headwind/?source=partner-ads), som justerer den virtuelle vindmodstand, når du kører. Når du sidder i en gruppe vil du kunne mærke, at du ligger og _drafter_, og hvis du kører hurtigere, så vil den blæse mere. Samtidig sikrer blæseren, at du ikke overopheder helt, når du kører.
 
+> Jeg synes, det er rigtig vigtigt, at man har en blæser foran sig, når man kører Zwift. Jeg ved i hvert fald fra mig selv, at jeg ellers let koger over.
+
+— <cite>Martin Mortensen, cykellærer på Vejle Idrætsefterskole</cite>
+
 Du kan også købe et helt Zwift-bundle fra Tacx hos [fribikeshop.dk\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70559&htmlurl=http://www.fribikeshop.dk/Default.aspx?ID=286&ProductID=PROD917).
+
+Der er også mange er vælger at få en måtte under cyklen. En måtte beskytter gulvet mod sved og olie fra cyklen, men den er også med til at gøre kørekomforten bedre, da den støddæmper lidt. Samtidig lyddæmper den også lidt. Wahoo sælger naturligvis også [måtter til at have under cyklen\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-kickr-mat/?source=partner-ads).
 
 Husk at læse lidt videre for at få de bedste tips fra Martin Mortensen, som er cykellærer på Vejle Idrætsefterskole, som virkelig ved alt om Zwift.
 
@@ -113,11 +120,19 @@ Husk at læse lidt videre for at få de bedste tips fra Martin Mortensen, som er
 
 Jeg bruger i øjeblikket ikke Zwift til at løbe, men Zwift har lavet en glimrende video, der forklarer, hvad du har brug for, hvis du gerne vil i [gang med at løbe på Zwift](https://support.zwift.com/en_us/what-you-need-to-start-running-B1t16hGDr).
 
+## Hvilken cykel skal jeg vælge til Zwift?
+
+Du kan bruge de fleste cykler med udvendige gear, som kan monteres i din hjemmetræner eller _smart trainer_. Hvis din cykel har 10 eller 11 speed (antallet af tandhjul bagpå cyklen), så kan den formentlig bruges til din hjmmetræner. 
+
+De fleste af de store producenter af _smart trainers_, fx Wahoo, Tacx, Elite og BKool, har smart trainers, der kan benyttes til både racercykler og mountainbikes. I de fleste kan du også bruge racercykler med og uden skivebremser.
+
+**Vigtigt**. Hvis du har skivebremser, skal du huske enten ikke at bruge bremserne, når hjulet er taget af, eller sætte en lille beskytter ind i bremsen.
+
 ## Hvad er computerkravene til Zwift?
 
 Zwift kan køres på Windows, iOS, iPhone, iPad eller AppleTV og Google Play. Der er altså ikke mange undskyldninger, hvad angår dit device. Jeg kører mest fra en computer, men hvis du har en større tablet, så er der også rigtig mange, der bruger det. Du kan også i en snæver vending kører på telefonen, men det bliver meget småt i hvert fald for mine øjne.
 
-{% include figure image_path="https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/2/2017/06/zwiftipad.jpg" caption="Typisk setup i Zwift" alt="Typisk setup i Zwift"  %}
+{% include figure image_path="https://i.pinimg.com/originals/62/b1/d6/62b1d69426d4cc6241a0e5d9cf0a3028.jpg" caption="Zwift setup hvor computeren står på et [Wahoo Bike Desk*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67757&htmlurl=https://www.proshop.dk/Sport-Fitness/Wahoo-Fitness-KICKR-Desk/2695504) og med en blæser foran" alt="Typisk setup i Zwift med et Wahoo Bike Desk"  %}
 
 Du skal helst have tabletten eller computeren inden for rækkevidde, da du undervejs godt kan få brug for at interagere lidt med skærmen. Jeg tror klart de fleste bruger en iPad, som de enten stiller på et bord foran, har på en [tablet holder på cyklen\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70559&htmlurl=http://www.fribikeshop.dk/Default.aspx?ID=286&ProductID=100-T2092) eller sat den på computerholder, fx denne [Wahoo Bike Desk\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67757&htmlurl=https://www.proshop.dk/Sport-Fitness/Wahoo-Fitness-KICKR-Desk/2695504).
 
@@ -125,7 +140,9 @@ Nogle har også montereret deres smartphone på cyklen. Fx kan man bruge det her
 
 De fleste nyere devices og computere kan køre Zwift. Du kan altdi se de aktuelle minimumskrav for at køre Zwift hos [Zwift-support](https://support.zwift.com/en_us/supported-devices-to-run-zwift-H1Cj9QbeB).
 
-## Hvordan opretter jeg Zwift?
+Du skal naturligvis også have en **ordentlig og stabil internetforbindelse** for at køre Zwift.
+
+## Hvordan opretter jeg min profil i Zwift?
 
 Så fik du styr på alt udstyret til Zwift. Nu er det tid til at komme i gang med at bruge Zwift. Der er et par trin, som du skal i gang med.
 
@@ -140,7 +157,11 @@ Højden betyder noget i forhold til vindmodstanden. Vægten betyder noget i forh
 
 Det næste trin er at oprette din avatar og give den det rigtige tøj på. Når du lige starter er der ikke så meget _gear_ at vælge imellem, men efterhånden som du kører Zwift flere gange og tjener _drops_, så vil du stige i niveau og du vil få mulighed for at låse op for merer tøj, flere cykler og forskellige hjul.
 
-Du kan i Zwift besøge 'Drop Shop', som er en online markedsplads, hvor du køber forskellige komponeneter med spillet spillets valuta _drops_. Du tjener drops ved at køre mange kilometer.
+Du kan i Zwift besøge 'Drop Shop', som er en online markedsplads, hvor du køber forskellige komponeneter med spillet spillets valuta _drops_. Du tjener drops ved at køre mange kilometer, og det er herligt at Zwift ikke giver mulighed for at betale sig til nyt udstyr i appen ved at betale med rigtige penge.
+
+> Jeg synes det er fedt i Zwift, at man ikke bare kan købe bedre udstyr derinde til sin avatar. Man skal gøre sig fortjent til nyt udstyr ved at køre en del kilometer.
+
+— <cite>Martin Mortensen, cykellærer på Vejle Idrætsefterskole</cite>
 
 Når du har downloadet appen, så er du klar til at køre på Zwift.
 
@@ -179,6 +200,10 @@ Hvis du træner disse træningsprogrammer med en mere avanceret hometrainer elle
 Shane Miller fra GPLama forklarer i denne Youtube video, hvordan du let kan lave dine egne workouts.
 
 {% include video provider="youtube" id="Apnwg1TAsIU" %}
+
+Hvis du hellere vil hoppe på nogle af de eksisterende workouts, så kan du prøve nogle af disse fede træninger til Zwift.
+
+{% include video provider="youtube" id="zBGEQwUImZ0" %}
 
 ## Kan jeg køre cykelløb på Zwift?
 
@@ -223,6 +248,54 @@ Du kan altså kun invitere folk, hvor I følger hinanden på Zwift til et meetup
 ## Hvordan uploader jeg mine Zwift-ture til Strava og Garmin?
 
 Alle dine ture på Zwift gemmes på din computer .fit-format, hvilket betyder at de kan uploades til ethvert træningswebsted, du gerne vil navngive. Du kan sætte Zwift op til automatisk at forbinde med fx din Strava-konto og Garmin Connect. Det fungerer virkelig godt.
+
+## Gode råd om Zwift
+
+Martin Mortensen, som er cykellærer på Vejle Idrætsefterskole, og en vaskeægte ekspert i Zwift har et par gode råd til dig, der gerne vil i gang med Zwift.
+
+> Det er fedt, at man kan sidde hjemme og træne med ens venner. Mange bruger fx Discord til at snakke sammen, mens de kører løb eller træner. Så er det næsten lige som at sidde ved siden af hinanden og cykle. Det kan jeg virkelig godt lide.
+
+— <cite>Martin Mortensen</cite>
+
+Selv varmer Martin Mortensen grundigt op inden de løb, han deltager i. Han kan bruge helt op til 30-45 minutter på opvarmningen inden et vigtigt løb, som han ved bliver hårdt fra starten. Ved de lidt mindre vigtige løb, sætter han sig op 15 minutter før start for at være sikker på, at det hele spiller.
+
+> Jeg bruger også tid på at lære de ruter, vi kører i løb. Når jeg kender ruten, så ved jeg nemlig nøjagtig, hvornår der kommer en bakke, hvor jeg kan slappe af.
+
+— <cite>Martin Mortensen</cite>
+
+Her har jeg samlet de bedste af Martin Mortensens råd i denne liste.
+
+1. **Gør dig klar i god tid.** Du har brug for at alt udstyret spiller og kan snakke sammen. **Husk altid at have et strømkabel i dit device**. Hvis du først ryger af, så er det næsten umuligt at hente de andre igen. Husk også vand og måske et håndklæde. Husk også at varme op til løbene. De starter ofte hårdt. En lille smule forberedelse kan virkelig hjælpe dig senere. Du kan fx lave en pre-Zwift-liste.
+2. **Lær at 'drafte'**. Du skal lære at køre i læ og i gruppe sammen med andre. Det kræver, at du bliver lige bag ved dem. Du vil opdage at det kræver mindre kræfter at køre i læ af de andre, end hvis du selv cykler foran. Det er god Zwift-etikette at skiftes til at tage føringer. Det kræver lidt øvelse.
+3. **Kør hurtigt ned ad bakke**. Hvis en bakke har en hældning på -3%, og du kan træde cyklen op på 57 km/t, så kan du stoppe med at træde. Derefter kører cyklen bare af sig selv og holder tempoet.
+4. **Kom ud af startblokken ved løb**. Når du skal køre et løb, så kan det godt betale sig at køre hårdt de første par minutter, så man ikke bliver låst nede bagved og ikke ser, hvordan løbet udspiller sig i front.
+
+[Zwiftinsider](https://zwiftinsider.com/top-13-tips-for-beginner-zwifters/) har følgende gode råd til dig, der skal i gang med Zwift:
+
+- **Vælg flade ruter for hurtigere at stige i niveau**. Når du stiger i niveau, så kan du købe nyt udstyr til din avatar. Rytterne får 20 XP for at køre en kilometer, og du kører naturligvis hurtigere på flad vej. Du kan også tjene XP ved at køre workouts, intervaller og _time trials_.
+
+{% include figure image_path="https://zwiftinsider.com/wp-content/uploads/2019/08/2019-03-20_1617542-1024x551.jpg" caption="Du kan låse op for belønninger undervejs i Zwift" alt="Du kan låse op for belønninger undervejs i Zwift" %}
+
+- **Vælg bjerge for at tjene drops**. Du kan veksle drops til cykler og hjul i Zwift, som din avatar kan køre på. Nogle cykler og dæk kan gøre sådan, at du kører hurtigere eller ser smartere ud. Du tjener flere drops, når bakkerne er over 3% i stigning.
+
+[Bikeradar](https://www.bikeradar.com/advice/fitness-and-training/zwift-tips/) kan tilføje følgende tips til din oplevelse på Zwift.
+
+- **Beskyt dig mod sveden**. Du kommer til at svede meget, og blæseren kan være en god ide. Men du kan også [forhindre sved i øjnene](/undgaa-sved-i-ojnene/) ved fx at have et pandebånd eller noget andet. [Cykel-ruter.dk](https://www.cykel-ruter.dk) har skrevet mere om at [undgå sved i øjnene](/undgaa-sved-i-ojnene/). Det kan også være godt at beskytte cyklen mod sveden fx med et [svedcover fra Tacx\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70559&htmlurl=http://www.fribikeshop.dk/Default.aspx?ID=286&ProductID=PROD918). Endelig bør du også beskytte gulvet med en måtte fra både sved og olie fra cyklen, fx [måtten fra Wahoo\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-kickr-mat/?source=partner-ads). Måtten reducerer også lyden, når du kører og støddæmper lidt, så kørekomforten bliver bare bedre. Her hjælper en blæser naturligvis også fx [Wahoo Kickr Headwind\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-kickr-headwind/?source=partner-ads).
+- **Få fat i Bluetooth høretelefoner**. Studier viser, at man præsterer bedre med passende _up-tempo_-musik i ørerne, når du træner. Hvis du har et på høretelefoner, så kan du få passende [musik til træningen]({% link _posts/2013-05-02-musik-til-traeningen.md %}). Jeg bruger selv [Bose Soundsport\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67757&htmlurl=https://www.proshop.dk/Hovedtelefonerheadset/Bose-SoundSport-Free-true-wireless-earphones-with-mic/2804416), som jeg synes spiller rigtig godt. Rigtig mange bruger også [Apple Air Pods\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=24141&htmlurl=https://www.my-phoneshop.dk/apple-airpods-2019.html).
+
+## Svar på almindelige spørgsmål om Zwift
+
+### Hvordan vender jeg om i Zwift?
+
+Hvis du er kommet på en lang tur og gerne vil køre tilbage, så kan du vende om. Det gør du ved at klikke på 'pil ned' på dit keyboar eller holde U-turn-knappen nede på din mobilapp. Du kan også bare stå af cyklen, og klikke på 'end ride', hvis ikke du vil køre mere.
+
+### Hvordan ændrer jeg mit navn til et _group ride_?
+
+I nogle _group rides_ bliver du bedt om at ændre dit navn. Du skal ændre dit navn på _dashboardet_, inden du starter løbet. Du klikker på den lille blyant ved siden af dit navn. Du skal logge ud og ind igen for se din navneændring.
+
+### Hvordan får jeg en lysende 'Tron' cykel?
+
+De lysende neoncykler er en belønning, som du gør dig fortjent til efter 50.000 meters _climbing_ på "Everest Challenge". Når du har fuldført udfordringen låses _Trek Emonda_-cyklen op. Det er ikke let at få cyklen.
 
 ## Køb udstyr til Zwift
 

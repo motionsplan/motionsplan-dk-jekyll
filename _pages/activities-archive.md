@@ -1,13 +1,13 @@
 ---
 layout: collection
+collection: exercises
+entries_layout: grid
 permalink: /traeningsoevelser/
 redirect_from:
   - /exercise-search/
-title: "Træningsøvelser: De bedste øvelser til styrketræning 🏋"
+title: &title "Træningsøvelser: De bedste øvelser til styrketræning 🏋"
 excerpt: "Vi har samlet de bedste træningsøvelser og styrketræningsøvelser. Vi har lavet en grundig forklaring af alle øvelserne, og der er både øvelser til styrketræning, konditionstræning, yoga, udstrækning, mobilitet og cardio."
 comments: false
-collection: exercises
-entries_layout: grid
 classes: wide
 author_profile: true
 gallery:

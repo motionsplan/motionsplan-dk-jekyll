@@ -71,13 +71,13 @@ Lav fx 3-4 runder af følgende øvelser.
 
 ### Sissy Squat x 6-8
 
-{% include video provider="youtube" id="L6qfTLKhjnk" %}
+{% include video provider="youtube" id="n5WeYzi7Dqo" %}
 
 Et alternativ til Sissy Squats kunne være [Spanish Squats](https://medium.com/@Reedswellnessfitnesstraining/exercise-of-the-week-spanish-squat-7073123051f2), der er knap så hårde, men også er med til at isolere muskelarbejdet over knæleddet.
 
 ### Copenhagen Hip adductors x 6-8
 
-{% include video provider="youtube" id="n5WeYzi7Dqo" %}
+{% include video provider="youtube" id="L6qfTLKhjnk" %}
 
 ### Bent Knee Calf Raises x 8-12
 
@@ -85,7 +85,7 @@ Et alternativ til Sissy Squats kunne være [Spanish Squats](https://medium.com/@
 
 Øvelser på et ben kan være med til at overloade kroppen. Calf-raises på ét ben med bøjet knæ er en pragmatisk måde at stimulere *soleus* bare med egen kropsvægt.
 
-### Baglår, hoftebøjer, forlår og baller
+## Baglår, hoftebøjer, forlår og baller
 
 Lav fx 3 runder af de følgende øvelser:
 
