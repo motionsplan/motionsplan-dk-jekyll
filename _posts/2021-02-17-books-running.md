@@ -1,5 +1,5 @@
 ---
-title: &title "Løbebøger 📚: Bøger om løb du skal have læst"
+title: &title "Løbebøger 📚: Bøger om løb du skal have læst 🏃 [2021]"
 permalink: /loebeboeger-boeger-om-loeb/
 language: da
 header:
@@ -33,12 +33,6 @@ feature_row:
     title: "What I Talk About When I Talk About Running"
     excerpt: "Den japanske forfatter Haruki Murakami er dedikeret løber har skrevet en læseværdig fortælling og løbemanual forklædt som en slags erindringer. Eller det vil sige ét af temaerne. For ind imellem Murakamis beskrivelser af træningen skyder der sig lange rækker af betragtninger op om litteratur og løb – og forholdet mellem de to. Bogen er ikke en træningsbog, men et inspirerende besøg i en krøllet løberhjerne."
     btn_label: "Tjek prisen hos Gucca*"
-    btn_class: "btn--danger"
-  - image_path: https://imgcdn.saxo.com/_9780873229593/0x500
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://www.saxo.com/dk/lore-of-running-4th_timothy-noakes_paperback_9780873229593
-    title: "The Lore of Running"
-    excerpt: "Lore of Running gives you incomparable detail on physiology, training, racing, injuries, world-class athletes, and races. Author Tim Noakes blends the expertise of a physician and research scientist with the passion of a dedicated runner to answer the most pressing questions for those who are serious about the sport."
-    btn_label: "Tjek prisen hos Saxo*"
     btn_class: "btn--danger"
   - image_path: https://imgcdn.saxo.com/_9780873229593/0x500
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://www.saxo.com/dk/lore-of-running-4th_timothy-noakes_paperback_9780873229593
