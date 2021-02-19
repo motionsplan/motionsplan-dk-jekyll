@@ -1,19 +1,21 @@
 ---
-title: "Udstrækning: Komplet guide til udspænding og strækøvelser!"
+title: &title "Udstrækning: Guide til udstrækningsøvelser og strækøvelser!"
 permalink: /udstraekning-udspaending/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1562771379-eafdca7a02f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
   teaser: https://images.unsplash.com/photo-1562771379-eafdca7a02f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
-  caption: "Udstrækning og udspænding"
+  caption: *title
   overlay_filter: 0.2
 category:
-  - Styrketræning
+  - Udstrækning
+  - Træning
 tags:
   - udstrækning
   - udspænding
   - smidighed
-last_modified_at: 2020-07-07T07:33:14Z
+  - udstrækningsøvelser
+last_modified_at: 2021-01-07T07:33:14Z
 toc: true
 feature_row:
   - image_path: https://cdn6.tales.dk/00115/65340/cover.1569373580.jpg
@@ -41,9 +43,7 @@ feature_row:
 
 Udstrækning og udspænding bliver brugt i rigtig mange idrætsgrene. Udstrækningsøvelser bliver ofte brugt for at blive smidigere, så de kaldes også ofte smidighedsøvelser. Vi kigger på, hvad der sker i kroppen, når vi strækker ud og hvilket forskellige typer udstrækning, der findes. Endelig giver vi nogle forslag til strækøvelser.
 
-Hvad er udstrækning og udspænding?
-
-**Udstrækning er en aktivitet, man kan lave i træning, hvor man bevidst forsøger at strække musklerne ved at sætte dem i en position, hvor de bliver strukket. Udstrækning kan enten foregå statisk eller dynamisk, og man kan også bruge særlige udstrækningsteknikker, hvor man udnytter sin viden om nervesystemet.** 
+Hvad er udstrækning og udspænding? **Udstrækning er en aktivitet, man kan lave i træning, hvor man bevidst forsøger at strække musklerne ved at sætte dem i en position, hvor de bliver strukket. Udstrækning kan enten foregå statisk eller dynamisk, og man kan også bruge særlige udstrækningsteknikker, hvor man udnytter sin viden om nervesystemet.** 
 
 Udstrækning kan både bruges før og efter træning, og det kan bruges som træning i sig selv
 
@@ -109,7 +109,6 @@ Risikoen for at skader med statiske stræk er minimal, hvis du lytter efter din 
 De statiske stræk kan yderligere deles op i:
 
 - **Aktivt statisk stræk** er stræk hvor musklen strækkes ved hjælp af muskelkraft, men hvor der ikke er bevægelse med. 
-
 - **Passivt statisk stræk** er stræk der foretages med en hjælper, eller ved egen hjælp. Antagonisten er ikke i brug, og der er ingen bevægelse.  
 
 Statiske stræk kan fx udføres med 3-5 sæt, hvor du holder strækket i 30-60 sekunder. Udstrækning er også træning, så det er godt at vænne sig til det, så de første uger starter du med færre sæt, men du kan efterhånden sætte antallet af sæt op, hvis det passer ind i din træning og dine mål.
@@ -266,11 +265,11 @@ Typisk anbefaler man, at du holder en **statisk udstrækningsøvelse** 10-30 sek
 
 Men der er også **dynamiske mobilitetsøvelser**, der kan hjælpe dig til en større bevægelighed. Så længe kroppens led føres ud i yderstillinger regelmæssigt, så vil der ske funktionelle ændringer i det neuromuskulære system, der gør, at du kan komme længere og længere ud i stillingerne.
 
-## Udstrækning og ømhed efter træning
+## Kan udstrækning forhindre ømhed?
 
-Mange strækker ud for at undgå at blive at ømme dagen efter træning. Jeg blev overrasket, da jeg første gang hørte, at det **ikke kan lade sig gøre i videnskabelig forskning at sandsynliggøre, at udstrækning skulle hjælpe på muskelømhed efter træning**.
+Nej. Der er imidlertid **ikke noget i forskningen**, der indikerer, at udstrækning efter træning kan være med til at forebygge den såkaldte andendags-ømhed (DOMS).
 
-Der er imidlertid **ikke noget i forskningen**, der indikerer, at udstrækning efter træning kan være med til at forebygge den såkaldte andendags-ømhed (DOMS).
+Mange strækker ud for at undgå at blive at ømme dagen efter træning. Jeg blev overrasket, da jeg første gang hørte, at det **ikke kan lade sig gøre i videnskabelig forskning at sandsynliggøre, at udstrækning skulle hjælpe på muskelømhed efter træning**. Jeg har skrevet mere om [ømme muskler og muskelømhed efter træning](/omme-muskler-efter-traening/).
 
 *[DOMS]: Delayed Onset Muscle Soreness
 
@@ -319,7 +318,7 @@ Endelig kan stræk være med til at få en krampe til at slappe af.
 
 Teoretisk set er strækøvelser med til at ensrette de kollagene fibre, så selve strukturen bliver stærkere og man får hurtigere den nødvendige stivhed tilbage i musklerne.
 
-## Udstrækning og opvarmning
+## Udstrækningsøvelser og opvarmning
 
 Udstrækning er et glimrende element i opvarmning. Du kan både bruge statiske og dynamiske stræk.
 
@@ -437,7 +436,10 @@ Du kan også finde inspiration til udstrækning og udspænding i forskellige yog
 
 </div>
 
-## Referencer til udstrækning
+## Referencer til udstrækning og udstrækningsøvelser
+
+<details markdown="1">
+  <summary>Se flere referencer {{ page.title }}</summary>
 
 - Shrier, I. (2004). Does Stretching Improve Performance?. Clinical Journal of Sport Medicine, 14(5), pp.267-273.
 - Yuktasir, B. and Kaya, F. (2009). Investigation into the long-term effects of static and PNF stretching exercises on range of motion and jump performance. Journal of Bodywork and Movement Therapies, 13(1), pp.11-21.
@@ -448,3 +450,4 @@ Du kan også finde inspiration til udstrækning og udspænding i forskellige yog
 - Aagaard, Per (2003): "Nyeste viden om nervesystemets tilpasninger til tung styrketræning på motion-online.dk
 - Kokkonen, Joke, Arnold G. Nelson, Carol Eldredge, og Jason B. Winchester. 2007. “Chronic Static Stretching Improves Exercise Performance”. Medicine and Science in Sports and Exercise 39 (10): 1825–31. <https://doi.org/10.1249/mss.0b013e3181238a2b>.
 - Herbert, Rob D, og Michael Gabriel. 2002. “Effects of stretching before and after exercising on muscle soreness and risk of injury: systematic review”. BMJ: British Medical Journal 325 (7362): 468. <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC119442/>.
+</details>
