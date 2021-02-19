@@ -330,6 +330,9 @@ defaults:
       toc: true
       toc_sticky: true
       author: lsolesen
+      sidebar:
+        title: "Populære sider"
+        nav: blog
   # _exercises
   - scope:
       path: ""

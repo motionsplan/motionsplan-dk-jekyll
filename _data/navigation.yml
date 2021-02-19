@@ -18,7 +18,29 @@ main:
     url: /inspiration/
   - title: "Om"
     url: /om/
-
+blog:
+  - title: "Populære søgninger"
+    children:
+      - title: "ligevægtsindtag"
+        url: /beregner/ligevaegtsindtag-med-ligevaegtsberegner/
+      - title: "bmi kvinder"
+        url: /bmi/
+      - title: "bmi mænd"
+        url: /bmi/
+      - title: "bmi børn"
+        url: /bmi/
+      - title: "tæl skridt"
+        url: /artikel/tael-skridt/
+      - title: "kondital"
+        url: /kondital/
+  - title: "Populære tests"
+    children:
+      - title: "cooper test"
+        url: /cooper-test/
+      - title: "bip test"
+        url: /bip-test/
+      - title: "rm beregner"
+        url: /rm-beregner/
 anatomi:
   - title: "Anatomi"
     url: "/anatomi/"
