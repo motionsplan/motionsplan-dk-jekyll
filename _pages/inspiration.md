@@ -147,11 +147,11 @@ Jeg bruger selv RepOne til at lave [velocity based training]({% link _posts/2020
 
 ## Køb bøger om træning
 
-På [Saxo\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264) kan du finde masser af inspiration til træning og sundhed. Her kommer nogle af mine favoritter. Jeg forsøger at læse mindst en time dagligt om emner, der interesserer mig.
+På [Saxo\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264){: rel="sponsored" } kan du finde masser af inspiration til træning og sundhed. Her kommer nogle af mine favoritter. Jeg forsøger at læse mindst en time dagligt om emner, der interesserer mig. Hvis du gerne vil støtte dette site, så kan du fx bruge vores reklamelink til [at købe bøger på Saxo\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264){: rel="sponsored" }
 
 {% include feature_row type="left" %}
 
-[Køb bøger på Saxo\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264){: .btn .btn--large .btn--danger }
+Jeg har samlet nogle flere forslag til [løbebøger](/loebeboeger-boeger-om-loeb/) og [bøger om træning](/traeningsboeger-boeger-om-traening/). Jeg har også skrevet et forslag til [cykelbøger](https://www.cykel-ruter.dk/cykelboeger-bedste-boeger-om-cykling/).
 
 {% include gallery id="yogastream" caption="YogaStream er et online yogaunivers med over 1000 yoga- og meditationsvideoer. Du bliver guidet af dygtige og erfarne instruktører lige når det passer dig. Få den [første måned gratis gennem vores link*](http://motionsplan.yogastream.dk)." %}
 

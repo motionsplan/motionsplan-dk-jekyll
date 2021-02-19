@@ -1,5 +1,5 @@
 ---
-title: &title "Træningsbøger 📚: 7 bedste bøger om træning 💪 [2021]"
+title: &title "Træningsbøger 📚: 9 bedste bøger om træning 💪 [2021]"
 permalink: /traeningsboeger-boeger-om-traening/
 language: da
 header:
@@ -60,9 +60,30 @@ feature_row:
     alt: HIIT - Højintensitets Intervaltræning - træningsprogram - træning
     btn_label: Tjek prisen hos Saxo*
     btn_class: btn--danger
+  - image_path: https://images.bod.com/images/kontrol-og-laering-af-motoriske-faerdigheder-og-verbal-feedback-lars-olesen-9788743011378.jpg/500/500/Kontrol_og_l%C3%A6ring_af_motoriske_f%C3%A6rdigheder_og_verbal_feedback.jpg
+    url: https://www.bod.dk/bogshop/kontrol-og-laering-af-motoriske-faerdigheder-og-verbal-feedback-lars-olesen-9788743011378
+    title: "Kontrol og læring af motoriske færdigheder og verbal feedback"
+    excerpt: "Den her har jeg selv skrevet. Bogen besvarer følgende to spørgsmål: (1) Hvordan kan komplicerede, hurtige færdigheder tænkes at være kontrolleret, og hvordan kan påvirkningen og læringen i dette kontrolsystem tænkes at foregå? (2) Hvordan kan underviseren verbalt give feedback på udøverens præstation af en kompliceret, hurtig færdighed for at skabe den bedst mulige motoriske læring hos udøveren?"
+    alt: Kontrol og læring af motoriske færdigheder og verbal feedback
+    btn_label: Tjek prisen hos Bod*
+    btn_class: btn--danger
+  - image_path: https://images.bod.com/images/kontrol-og-laering-af-motoriske-faerdigheder-og-verbal-feedback-lars-olesen-9788743011378.jpg/500/500/Kontrol_og_l%C3%A6ring_af_motoriske_f%C3%A6rdigheder_og_verbal_feedback.jpg
+    url: https://www.bod.dk/bogshop/kontrol-og-laering-af-motoriske-faerdigheder-og-verbal-feedback-lars-olesen-9788743011378
+    title: "Kontrol og læring af motoriske færdigheder og verbal feedback"
+    excerpt: "Den her har jeg selv skrevet. Bogen besvarer følgende to spørgsmål: (1) Hvordan kan komplicerede, hurtige færdigheder tænkes at være kontrolleret, og hvordan kan påvirkningen og læringen i dette kontrolsystem tænkes at foregå? (2) Hvordan kan underviseren verbalt give feedback på udøverens præstation af en kompliceret, hurtig færdighed for at skabe den bedst mulige motoriske læring hos udøveren?"
+    alt: Kontrol og læring af motoriske færdigheder og verbal feedback
+    btn_label: Tjek prisen hos Bod*
+    btn_class: btn--danger    
+  - image_path: https://imgcdn.saxo.com/_9788711731611/0x500
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/sov-rigtigt_nick-littlehales_epub_9788711724569
+    title: "Sov Rigtigt"
+    excerpt: "Glem alt om det, du troede, du vidste om søvn. Restitution er noget, der kan foregå hele døgnet rundt, ikke kun om natten – restitutionsprocessen er en konstant rytme, som vi alle må lære at følge. Så hvis du vil starte i dag, betyder det lige nu – ikke når du går i seng i aften. - Nick Littlehales"
+    alt: Sov Rigtigt - Nick Littlehales
+    btn_label: Tjek prisen hos Saxo*
+    btn_class: btn--danger    
 ---
 
-Jeg har samlet 10 træningsbøger, som jeg selv er blevet meget inspireret af. Det gode ved bøger om træning er, at du i bøgerne kan få en samlet fremstillingen af, hvordan træning og træningsplanlægning kan se ud.
+Jeg har samlet {{ page.feature_row.size }} træningsbøger, som jeg selv er blevet meget inspireret af. Det gode ved bøger om træning er, at du i bøgerne kan få en samlet fremstillingen af, hvordan træning og træningsplanlægning kan se ud.
 
 Alle bøgerne om træning har masser af inspiration, som du kan overføre til din egen træning og træningsplanlægning eller hvis du er træner for andre.
 
@@ -77,3 +98,5 @@ Alle bøgerne om træning har masser af inspiration, som du kan overføre til di
 Hvis du vil have inspiration til flere træningsbøger, så kan du kigge hos nogle af vores samarbejdspartnere. Hvis du gerne vil støtte dette site, så er links reklamelinks. Vi får en lille kommision for hvert salg, men din pris er den samme, hvis du vælger at købe en bog efter at have klikket på vores links.
 
 Kender du nogle uundværlige bøger om træning, så skriv endelig i kommentarerne, så jeg kan få forbedret denne liste over træningsbøger.
+
+Jeg har samlet nogle flere forslag til [løbebøger](/loebeboeger-boeger-om-loeb/) forslag til [cykelbøger på cykel-ruter.dk](https://www.cykel-ruter.dk/cykelboeger-bedste-boeger-om-cykling/).

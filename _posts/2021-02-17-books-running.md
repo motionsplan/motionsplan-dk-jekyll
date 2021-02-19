@@ -91,3 +91,5 @@ Jeg er selv blevet inspireret af løbebøgerne, og jeg håber også du finder no
 Hvis du vil have inspiration til flere løbebøger, så kan du kigge hos nogle af vores samarbejdspartnere. Hvis du gerne vil støtte dette site, så er links reklamelinks. Vi får en lille kommision for hvert salg, men din pris er den samme, hvis du vælger at købe en bog efter at have klikket på vores links.
 
 Det at løbe er ikke det mest naturlige for os mennesker. At løbe er noget særligt. Det finder man rigtigt ud af, når man læser nogle af de anbefalede løbebøger.
+
+Jeg har samlet nogle flere forslag til [bøger om træning](/traeningsboeger-boeger-om-traening/) og forslag til [cykelbøger på cykel-ruter.dk](https://www.cykel-ruter.dk/cykelboeger-bedste-boeger-om-cykling/).
