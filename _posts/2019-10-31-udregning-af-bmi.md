@@ -1,7 +1,7 @@
 ---
-title: "Udregn BMI: Måler og beregner for kvinder, mænd og børn"
+title: "Udregn BMI: Formel og beregner for kvinder, mænd og børn"
 permalink: /bmi/
-excerpt: "Body Mass Index (BMI) er den mest udbredte formel og test til at udregne idealvægt. Beregn selv dit BMI i vores beregner og se skala og tabel for børn og voksne mænd og kvinder."
+excerpt: "Body Mass Index (BMI) er den mest udbredte formel og test til at udregne idealvægt. Beregn selv dit BMI i vores beregner og se BMI skala og tabel for børn og voksne mænd og kvinder."
 language: da
 header:
   overlay_image: https://helseboost.dk/filer/bmi-1500x960.jpg
@@ -17,7 +17,7 @@ tags:
 last_modified_at: 2020-07-06T22:14:14Z
 ---
 
-Jeg sidder og læser et glitrende magasin om sport og helse, og endnu engang ser jeg udregninger af body mass index (BMI) uden at artiklen går i dybden med, hvad BMI måler. Derfor satte jeg mig ned for at researche lidt på, hvad BMI er, og hvordan BMI kan bruges for mænd, kvinder, voksne og børn?
+Jeg sidder og læser et glitrende magasin om sport og helse, og endnu engang ser jeg udregninger af body mass index (BMI) uden at artiklen går i dybden med, hvad en BMI-formel måler. Derfor satte jeg mig ned for at researche lidt på, hvordan BMI tabeller kan bruges for mænd, kvinder, voksne og børn?
 
 *[BMI]: Body Mass Index
 *[IOTF]: The International Obesity Task Force
@@ -30,11 +30,11 @@ Fordelen ved BMI er, at det er utrolig let at bruge. Derfor bliver BMI-udregning
 
 Jeg har i dette indlæg forsøgt at svare på følgende spørgsmål:
 
-- Hvad er Body Mass Index (BMI) helt præcist?
-- Hvordan kan du beregne BMI? Hvilken formel bruges til BMI?
-- Hvilke grænseværdier er der for idealvægt for voksne og børn og mænd og kvinder?
+- Hvad er Body Mass Index (BMI)?
+- Hvordan beregner man BMI? Hvilken formel bruges til udregning af BMI?
+- Hvilke grænseværdier er der for idealvægt ifølge BMI for voksne og børn og mænd og kvinder?
 - Hvad er din ideelle kropsvægt ifølge BMI-udregningen?
-- Hvilke fordele og ulemper er der ved at beregne BMI?
+- Hvilke fordele og ulemper er der ved at BMI-tabeller?
 
 Men lad os først springe til selve beregneren.
 
