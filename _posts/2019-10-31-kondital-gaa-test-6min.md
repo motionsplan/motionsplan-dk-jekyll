@@ -1,12 +1,12 @@
 ---
-title: "6 minutters gå-test: Gangtest til kondital for ældre mennesker 🚶‍♀️"
+title: &titl "6 minutters gå-test (6MWT): Gangtest for ældre mennesker 🚶‍♀️"
 permalink: /gaatest-6min/
-excerpt: "6 minutters gå-test er en gangtest, hvor du sammenligner din tilbagelagte distance i forhold til andre mennesker. Gåtesten henvender sig til relativt fysisk svage personer."
+excerpt: "6 minutters gå-test (6mwt) er en gangtest, hvor du sammenligner din tilbagelagte distance i forhold til andre mennesker. Gåtesten henvender sig til relativt fysisk svage personer."
 language: da
 header:
   overlay_image: https://www.straitstimes.com/sites/default/files/articles/2017/09/04/20170904_1504497527583_2073451859691958_16_amyama4_zuann.jpg
   teaser: https://www.straitstimes.com/sites/default/files/articles/2017/09/04/20170904_1504497527583_2073451859691958_16_amyama4_zuann.jpg
-  caption: "Gangtest: 6 minutters gåtest"
+  caption: *title
 category:
   - Kondition
 tags:
@@ -20,7 +20,7 @@ last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 ---
 
-I **6 minutters gå-test** gælder det om at gå så langt som muligt på 6 minutter. Den tilbagelagte distance sammenlignes med referenceværdier for tidligere forsøg. Testen er specielt egnet til svage personer fx patienter eller gamle.
+I **6 minutters gå-test (6mwt)** gælder det om at gå så langt som muligt på 6 minutter. Den tilbagelagte distance sammenlignes med referenceværdier for tidligere forsøg. Testen er specielt egnet til svage personer fx patienter eller gamle.
 
 ## Sådan udfører du gåtesten på 6 minutter
 
@@ -35,7 +35,7 @@ I **6 minutters gå-test** gælder det om at gå så langt som muligt på 6 minu
 
 {% include calculate-fitness-walktest-6min.html %}
 
-## Referenceværdier for 6 minutters-gangtesten
+## Referenceværdier for 6 minutters-gangtesten (6mwt)
 
 Der findes en del forskellige publicerede referenceværdier til 6-minutters gangtesten. Den væsentligste forskel på referenceværdierne er om forsøgspersonerne forud har haft mulighed for at blive tilvænnet til testen.
 
@@ -66,7 +66,10 @@ Hvis du laver testen med tilvænning, så skal du også sammenligne med referenc
 
 [Morten Zacho](http://web.archive.org/web/20150403145323/http://www.motion-online.dk/konditionstraening/testning/6_min_gaa-test/){:rel="nofollow"} foreslår, at man laver to tilvænningsforsøg og lader det tredje forsøg være tællende, hvis der er tid til det. Hvis du gennemfører testen på denne måde, så sørg for at sammenligne med referenceværdier, hvor forsøgspersonerne har haft tilvænning til gangtesten (fx Gibbons 2001).
 
-## Referencer til gangtesten på 6 minutter
+## Referencer til gangtesten på 6 minutter (6mwt)
+
+<detail markdown="1">
+  <summary>Se flere referencer om {{ page.title }}</summary>
 
 - Enright, P. L., og D. L. Sherrill. 1998. “Reference Equations for the Six-Minute Walk in Healthy Adults”. American Journal of Respiratory and Critical Care Medicine 158 (5 Pt 1): 1384–87. <https://doi.org/10.1164/ajrccm.158.5.9710086>.
 - Enright, Paul L. 2003. “The Six-Minute Walk Test”. Respiratory Care 48 (8): 783–85.
@@ -74,3 +77,4 @@ Hvis du laver testen med tilvænning, så skal du også sammenligne med referenc
 - Carter, Rick, David B. Holiday, Chiagozie Nwasuruba, James Stocks, Carol Grothues, og Brian Tiep. 2003. “6-Minute Walk Work for Assessment of Functional Capacity in Patients with COPD”. Chest 123 (5): 1408–15. <https://doi.org/10.1378/chest.123.5.1408>.
 - Rostagno, Carlo, Giuseppe Olivo, Marco Comeglio, Vieri Boddi, Michela Banchelli, Giorgio Galanti, og Gian Franco Gensini. 2003. “Prognostic Value of 6-Minute Walk Corridor Test in Patients with Mild to Moderate Heart Failure: Comparison with Other Methods of Functional Evaluation”. European Journal of Heart Failure 5 (3): 247–52. <https://doi.org/10.1016/s1388-9842(02)00244-1>.
 - Gibbons, W. J., N. Fruchter, S. Sloan, og R. D. Levy. 2001. “Reference Values for a Multiple Repetition 6-Minute Walk Test in Healthy Adults Older than 20 Years”. Journal of Cardiopulmonary Rehabilitation 21 (2): 87–93. <https://doi.org/10.1097/00008483-200103000-00005>.
+</details>
