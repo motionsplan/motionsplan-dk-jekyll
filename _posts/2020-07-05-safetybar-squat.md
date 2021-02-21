@@ -27,9 +27,9 @@ gallery:
     title: "Håndtag til at lave armbøjninger, armstrækninger og pushups"
 ---
 
-Jeg er blevet interesseret i safety bar squats, fordi har lidt vrøvl med skulderen. Mange mener at alle træningscentre bør have en god safety bar, men hvad en god safety bar, og hvilke fordele har en safety squat bar?
+Jeg er blevet interesseret i safety bar squats, fordi har lidt vrøvl med skulderen. Mange mener at alle træningscentre bør have en god safety squat stang, men hvad en god safety bar, og hvilke fordele har en safety squat bar?
 
-Hvad er en safety bar, og hvad bruges den til? **En safety squat bar er en vægtstang med polstring på nakken, håndtag man kan holde i, og så er der forskydning i den yderste del af stangen, hvor vægtskiverne sættes på.**
+Hvad er en safety squat bar? **En safety squat bar er en vægtstang med polstring på nakken, håndtag man kan holde i, og så er der forskydning i den yderste del af stangen, hvor vægtskiverne sættes på.**
 
 Polstringen på en safety bar gør, at stangen ligger højere på nakken end en almindelig squat stang, og vinklingen mellem håndtaget og skiverne gør, at tyngdepunktet flyttes længere frem end almindelige _back squats_.
 
@@ -39,7 +39,7 @@ Chris Duffin fra Kabuki Strength [siger, at en safety squat bar gør det meget l
 
 Når du laver front squat vil du efterhånden blive trukket lidt fremefter, særligt hvis du bliver træt i det øverste af ryggen og får problemer med at holde albuerne oppe.
 
-Det samme sker ikke med safety squat, så det er lettere at lave mange gentagelser med en safety bar. Hvis altså stangen er konstrueret rigtigt.
+Det samme sker ikke med safety squat stang, så det er lettere at lave mange gentagelser med en safety bar. Hvis altså stangen er konstrueret rigtigt.
 
 ## Hvordan skal en safety bar se ud?
 
@@ -49,7 +49,7 @@ Simon fra [supertraining.dk](http://supertraining.dk/) anbefaler safety bars, me
 
 Det handler nemlig om, at der skal være de rigtige vinkler i safety baren, så den har den rigtige balance på skuldrene.
 
-En safety bar skal naturligvis være konstrueret på den rigtige måde, hvis man vil have alle fordelene.
+En safety squat stang skal naturligvis være konstrueret på den rigtige måde, hvis man vil have alle fordelene.
 
 > Watson er ingen garanti for kvalitet. Deres Safety Bar fx er en vederstyggelighed. Absurd fejldesign, og de sletter bemærkninger desangående på YT (Youtube, red.).
 
@@ -111,7 +111,7 @@ At Hatfield får æren for opfindelsen er formentlig, fordi han ikke har gjort n
 
 Hatfield mente, at safety bar squats er almindelige squats overlegne, og at de er mere skånsomme over for knæ og lænd. Hvordan det er i virkeligheden afhænger naturligvis af kropsbygning og squat-teknik.
 
-## Hvilken safety bar skal man købe?
+## Hvilken safety squat bar skal man købe?
 
 Det vigtigste for en velfungerende safety bar er vinklingen mellem håndtagene og skiverne. 
 
