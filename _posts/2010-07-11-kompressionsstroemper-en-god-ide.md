@@ -1,7 +1,10 @@
 ---
 title: "Virker kompressionsstrømper 🧦 til løb 🏃 og cykling 🚴‍♀️?"
-permalink: /artikel/virker-kompressionsstroemper/
+seo_title: "Kompressionsstrømper løb og cykling | Effekt og bivirkninger"
+description: "Hvilken effekt er der af kompressionsstrømper på præstation og restitution i forbindelse med cykling og løb - og er der bivirkninger ved kompressionsstrømper?"
+permalink: /kompressionsstroemper-restitution-praestation-bivirkninger/
 redirect_from:
+  - /artikel/virker-kompressionsstroemper/
   - /artikel/kompressionsstroemper-en-god-ide
 excerpt: "Kompressionsstrømper foretrækkes af flere og flere løbere og cykelryttere, men hvad er effekten og virker kompressionsstrømper på præstationsevnen og restitutionen til løb og cykling? Og er der bivirkninger ved at bruge kompressionsstrømper?"
 language: da
@@ -20,7 +23,7 @@ tags:
   - kompressionstøj
   - skinnebensbetændelse
   - kompressionsstrømper
-last_modified_at: 2020-07-02T20:27:57Z
+last_modified_at: 2021-02-02T20:27:57Z
 toc: true
 feature_row:
   - image_path: https://www.billigsport24.dk/media/catalog/product/cache/1/image/17f82f742ffe127f42dca9de82fb58b1/6/1/6150_compression_calf_profcare_neoprene_kinesiological_effect_pl.jpg
@@ -47,13 +50,23 @@ feature_row_bike:
     btn_class: "btn--success"
 ---
 
-Man har i mange år brugt kompressionstøj som behandling af folk med dårligt blodomløb i benene, men nu er kompressionstøj ved at vinde indpas i træningsverden.
+Man har i mange år brugt kompressionstøj som behandling af folk med dårligt blodomløb i benene, men kompressionstøj har også vundet indpas i træningsverden.
 
 Flere og flere trænende håber at shorts, tights, kompressionsstrømper og fuldkropsdragte kan hjælpe på muskelpræstationen, lodret hoppehøjde, muskeltræthed, gentagne sprint præstationer, restitution og nedsat muskelømhed.
 
-Jeg vil i dette indlæg primært koncentrere mig om kompressionsstrømper.
+Jeg vil i dette indlæg primært koncentrere mig om **kompressionsstrømper** og effekten af dem på restitution og præstation - og hvilke bivirkninger der er. 
 
 Hvad er kompressionsstrømper? **Kompressionsstrømper sælges både med og uden dokumenteret medicinsk effekt. Når man taler om kompressionsstrømper til løb og cykling, så har de typisk _ikke_ medicinsk testede med dokumenteret effekt.** 
+
+Du får svar på følgende spørgsmål i indlægget:
+
+- Hvordan virker kompressionsstrømper?
+- Hvad siger videnskaben om effekten af kompressionsstrømper?
+- Hvad skal du tænke over, når du køber kompressionsstrømper?
+- Er der bivirkninger ved kompressionsstrømper?
+- Virker kompressionsstrømper på skader, fx skinnebensbetændelse?
+
+{% include figure image_path=page.header.overlay_image caption=page.title alt="effekt af kompressionsstrømper og bivirkninger" %}
 
 *[DOMS]: Delayed Onset Muscle Soreness
 *[RPE]: Rate of Percieved Excertion
@@ -182,9 +195,14 @@ Hvis du kender mere forskning, så skiv gerne, hvad du ved i kommentarerne. Vi s
 
 Vi glæder os til at se mere forskning om kompressionsstrømper, og hvis du kan gøre os klogere, så brug endelig kommentarerne.
 
+## Køb kompressionsstrømper
+
 {% include feature_row type="left" %}
 
 ## Referencer om kompressionsstrømper
+
+<details markdown="1">
+  <summary>Se referencer om {{ page.title }}</summary>
 
 - Ali, A., M. P. Caine, og B. G. Snow. 2007. “Graduated Compression Stockings: Physiological and Perceptual Responses during and after Exercise”. Journal of Sports Sciences 25 (4): 413–19. <https://doi.org/10.1080/02640410600718376>.
 - Berry, Michael J., og Robert G. Mcmurray. 1987. “Effects of graduated compression stockings on blood lactate following an exhaustive bout of exercise.” American journal of physical medicine.
@@ -202,3 +220,4 @@ Vi glæder os til at se mere forskning om kompressionsstrømper, og hvis du kan 
 - Glanville, Kieran M. de, og Michael J. Hamlin. 2012. “Positive Effect of Lower Body Compression Garments on Subsequent 40-KM Cycling Time Trial Performance”. Journal of Strength and Conditioning Research 26 (2): 480–86. <https://doi.org/10.1519/JSC.0b013e318225ff61>.
 - San Millán, Iñigo, Kristen Bing, Carrie Brill, John C Hill, og Larry E Miller. 2013. “Randomized controlled trial of Micro-Mobile Compression® on lactate clearance and subsequent exercise performance in elite male cyclists”. Open Access Journal of Sports Medicine 4 (oktober): 221–27. <https://doi.org/10.2147/OAJSM.S51956>.
 - Beliard, Samuel, Michel Chauveau, Timothée Moscatiello, François Cros, Fiona Ecarnot, og François Becker. 2015. “Compression Garments and Exercise: No Influence of Pressure Applied”. Journal of Sports Science & Medicine 14 (1): 75–83.
+</details>
