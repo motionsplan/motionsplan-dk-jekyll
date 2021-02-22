@@ -43,6 +43,10 @@ blog:
         url: /maxpuls/
       - title: "balancetræning"
         url: /balance/
+      - title: "armstrækning og armbøjning"
+        url: /armbojninger-eller-armstraekninger-pushups/
+      - title: "pull ups og chin ups"
+        url: /chinup-vs-pullup/
   - title: "Populære tests"
     children:
       - title: "cooper test"
