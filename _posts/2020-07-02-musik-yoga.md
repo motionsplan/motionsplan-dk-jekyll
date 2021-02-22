@@ -1,7 +1,7 @@
 ---
 title: "Den bedste musik til yoga, mindfulness og meditation [2021]"
-seo_title: "Musik til yoga og mindfulness 2021 🎼 5 tips til at vælge"
-description: "Find god musik til yoga, meditation og mindfulness med udgangspunkt i videnskaben og din fornemmelse, så du kan lave din egen playliste til yoga."
+seo_title: "Yogamusik 🎼 5 tips til musik til yoga og mindfulness 2021"
+description: "Find god musik til yoga, meditation og mindfulness med udgangspunkt i videnskaben og din fornemmelse, så du kan lave din egen playliste med yogamusik."
 permalink: /yoga-musik/
 language: da
 header:
@@ -114,7 +114,7 @@ Hvis du laver yoga med børn, så kan det godt være, at du skal bruge lidt ande
 
 {% include video provider="youtube" id="8H6cqdtN0Jo" %}
 
-## God yoga musik skal passe til øvelserne
+## God yogamusik skal passe til øvelserne
 
 For at opsummere, så skal god yogamusik altså passe til øvelserne i din yoga session. De væsentligste råd til at udvælge musikken er følgende:
 
