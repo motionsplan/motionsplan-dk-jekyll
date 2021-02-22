@@ -1,5 +1,5 @@
 ---
-title: &title "Hvor mange knogler har et menneske i kroppen? ⚖"
+title: &title "Hvor mange knogler har et menneske i kroppen? 🦴️"
 permalink: /hvor-mange-knogler-har-mennesket/
 language: da
 header:
@@ -45,7 +45,7 @@ sidebar:
 
 Jeg får ofte spørgsmålet om, hvor mange knogler et menneske har i kroppen, når jeg underviser i anatomi. Jeg har derfor researchet lidt på, hvor mange knogler skelettet består af, og jeg har lavet en liste over, hvad knoglerne i kroppen hedder på dansk, engelsk og latin?
 
-Hvor mange knogler har et menneske i kroppen? **Et menneske har 206 knogler i kroppen, når du er voksen. Babyer er født med 300 knogler, som hovedsageligt er lavet af brusk, men nogle af knoglerne vokser efterhånden sammen.**
+Hvor mange knogler har et menneske i kroppen? **Et voksent menneske har 206 knogler i kroppen. Babyer er født med 300 knogler, som hovedsageligt er lavet af brusk, men nogle af knoglerne vokser efterhånden sammen.**
 
 ## Hvor mange knogler er der i et menneske?
 

@@ -139,6 +139,6 @@ Jeg har opdelt øvelserne i de funktioner, jeg mener kropsstammen skal kunne.
 
 ## Videre med træning af core og kropsstammen
 
-Det var nogle af mine favoritter til at træne coremuskulaturen. Du kan finde mere inspiration til stabilisering af rygsøjlen i mit indlæg om [planken]({% link _exercises/planken-103.md %}) eller hvis du gerne vil lave [ab wheel rollouts]({% link _posts/2013-02-17-abwheel.md %}). Husk også at [unilateral træning]({% link _posts/2010-03-09-unilateral-traening.md %}) er en rigtig god måde at træne core på.
+Det var nogle af mine favoritter til at træne coremuskulaturen. Du kan finde mere inspiration til stabilisering af rygsøjlen i mit indlæg om [planken]({% link _exercises/planken-103.md %}) eller hvis du gerne vil lave [ab wheel rollouts]({% link _exercises/maveoevelse-hjul-rollout-280.md %}). Husk også at [unilateral træning]({% link _posts/2010-03-09-unilateral-traening.md %}) er en rigtig god måde at træne core på.
 
 {% include pa-banner product="ab wheel" %}

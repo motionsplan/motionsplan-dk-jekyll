@@ -22,6 +22,8 @@ Når to løbere med forskellig alder skal sammenligne deres tider, så kan det v
 
 Du kan bruge nedenstående beregner til at sammenligne dine løbetider med de bedste inden for aldersgruppen, men også give en vurdering af, hvordan tiden kan sammenlignes med yngre og ældre løbere.
 
+## Beregn din aldersgraduerede løbetid
+
 Du får med andre ord en aldersgradueret vurdering af din præstation baseret på dine løbetider.
 
 {% include calculate-running-age-graded.html %}

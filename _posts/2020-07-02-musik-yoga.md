@@ -1,5 +1,7 @@
 ---
 title: "Den bedste musik til yoga, mindfulness og meditation [2021]"
+seo_title: "Yogamusik 🎼 5 tips til musik til yoga og mindfulness 2021"
+description: "Find god musik til yoga, meditation og mindfulness med udgangspunkt i videnskaben og din fornemmelse, så du kan lave din egen playliste med yogamusik."
 permalink: /yoga-musik/
 language: da
 header:
@@ -29,7 +31,7 @@ Hvordan vælger man musik til yoga og mindfulness? **God musik til yoga, mindful
 
 Når du skal finde musik, der passer til en aktivitet, så er en af de væsentlige parametre i musikken _beats per minute_. Tempoet i musikken kan enten relateres til dit hjerteslag, eller det kan relateres til dit bevægelsesmønster for at understøtte aktiviteten.
 
-[Mashable](https://mashable.com/2015/04/16/beats-per-minute-daily-routine/) har skrevet et indlæg om at vælge den rette musik til yoga, og de foreslår et tempo mellem 60-100 bpm. Det er relativt langsom musik.
+{% include figure image_path=page.header.overlay_image caption=page.title alt="musik til yoga, meditation og mindfulness" %}
 
 ## Hvad siger videnskaben om musik til yoga og mindfulness?
 
@@ -43,7 +45,7 @@ Jeg har skrevet et andet indlæg om at vælge musik til træningen, hvor jeg skr
 
 --- <cite>[Musik til træningen: Hvordan finder du de bedste sange?](/artikel/musik-til-traeningen/)</cite>
 
-Når musik kan påvirke retitutionsfasen, så er musik til yogo helt sikkert også en god ide. 
+Når musik kan påvirke retitutionsfasen i din træning, så er musik til yoga helt sikkert også en god ide. Musikken kan altså gøre dig mere afslappet under de enkelte [yogaøvelser]({% link _posts/2020-08-30-yogastillinger.md %}).
 
 ## 5 tips til den perfekte playliste til yoga og mindfulness
 
@@ -58,6 +60,8 @@ Her er nogle hjælpsomme tips til at lave den perfekte yoga playliste, som alle 
 Tænk på hvor mange BPM og tempoet af hver sang, og hvilke øvelser sangene skal bruges til.
 
 Start med langsommere sange til opvarmningen og vælg lidt hurtigere musik til solhilsenerne. Sænk tempoet igen til slutningen og de siddende stillinger og Savasana.
+
+[Mashable](https://mashable.com/2015/04/16/beats-per-minute-daily-routine/) har skrevet et indlæg om at vælge den rette musik til yoga, og de foreslår et tempo mellem 60-100 bpm. Det er altså relativt langsom musik, som passer godt til yoga, mindfulness og meditation.
 
 ### 2. Vælg noget forskelligt musik til yoga
 
@@ -110,7 +114,7 @@ Hvis du laver yoga med børn, så kan det godt være, at du skal bruge lidt ande
 
 {% include video provider="youtube" id="8H6cqdtN0Jo" %}
 
-## God yoga musik skal passe til øvelserne
+## God yogamusik skal passe til øvelserne
 
 For at opsummere, så skal god yogamusik altså passe til øvelserne i din yoga session. De væsentligste råd til at udvælge musikken er følgende:
 
@@ -121,6 +125,8 @@ For at opsummere, så skal god yogamusik altså passe til øvelserne i din yoga 
 Jeg har skrevet et andet indlæg, der handler om at [vælge musik til din træning]({% link _posts/2013-05-02-musik-til-traeningen.md %}).
 
 Du skal næsten også lige læse et andet af vores meget populære indlæg, der handler om [yogaøvelserne, De Fem Tibetanere]({% link _posts/2009-07-01-de-fem-tibetanere.md %}) eller [Solhilsen]({% link _posts/2020-07-25-solhilsen.md %}) - eller måske er du interesseret i [Mindful meditation]({% link _posts/2010-10-05-mindfullness-meditation.md %}).
+
+Hvis du er på udkig efter [yogaudstyr, så tjek min guide]({% link _posts/2021-01-20-yoga-udstyr.md %}).
 
 <a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=37797" target="_blank" rel="nofollow noopener"><img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=37797" border="0" alt=""></a>
 

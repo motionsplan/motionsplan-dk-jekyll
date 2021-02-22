@@ -1,5 +1,6 @@
 ---
-title: &title "Beregn dit ligevægtsindtag med vores ligevægtsberegner ⚖"
+title: &title "Beregn dit ligevægtsindtag med vores ligevægtsberegner ⚖️"
+seo_title: "Ligevægtsindtag ⚖️ Beregn og lær mere [Beregner] »"
 permalink: /beregner/ligevaegtsindtag-med-ligevaegtsberegner/
 redirect_from:
   - /ligevaegtsindtag/
@@ -30,11 +31,15 @@ Hvis du gerne vil finde dit ligevægtsindtag, så er der forskellige måder at g
 
 Ligevægtsindtaget er et andet ord for dit samlede daglige [energiforbrug og energibehov]({% link _posts/2019-11-01-stofskifteberegner-nordic-2012.md %}). Jeg har skrevet et andet indlæg om [hvilestofskiftet og basalstofskiftet]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}) og et indlæg om hvordan du [udregner dit daglige stofskifte og forbrænding med en mere nøjagtig angivelse af aktivitetsniveauet]({% link _posts/2019-11-01-stofskifteberegner-avanceret.md %}).
 
-Du kan estimere dit ligevægtsindtag i beregneren nedenunder. Du får det bedste estimat på dit ligevægtsindtag, hvis du er omhyggelig med dine indtastninger. Husk også at beregneren bare giver et bud på, hvad dit ligevægtsindtag er baseret på sammenlignelige gennemsnitsværdier i forhold til din højde.
+I dette indlæg kan du få svar på følgende spørgsmål:
+
+- Hvad er dit ligevægtsindtag?
+- Hvad kan du bruge ligevægtsindtaget til?
+- Er en ligevægtsberegner præcis?
 
 ## Beregn dit ligevægtsindtag med vores beregner
 
-Du kan udregne ligevægtsindtaget i vores ligevægtsberegner herunder.
+Du kan estimere dit ligevægtsindtag i vores ligevægtsberegner nedenunder. Du får det bedste estimat på dit ligevægtsindtag, hvis du er omhyggelig med dine indtastninger. Husk også at beregneren bare giver et bud på, hvad dit ligevægtsindtag er baseret på sammenlignelige gennemsnitsværdier i forhold til din højde.
 
 {% include calculate-stofskifte-pal.html %}
 
