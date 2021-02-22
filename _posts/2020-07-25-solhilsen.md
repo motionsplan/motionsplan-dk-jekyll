@@ -1,5 +1,7 @@
 ---
 title: "Solhilsen A og B: Komplet guide til solhilsen [2021] 🧘"
+seo_title: "Solhilsen A og B 🧘 8 grunde til at lave solhilsen i 2021"
+description: "Lær at lave solhilsen a og b med video og beskrivelser 🙏 Hvilke yogaøvelser der er i solhilsen? 🙏 Hvad er forskellen på A og B? 🙏 Hvad er solhilsen godt for?"
 permalink: /artikel/solhilsen-a-b-surya-namaskar/
 language: da
 header:
@@ -12,7 +14,7 @@ tags:
   - meditation
 category:
   - Yoga
-last_modified_at: 2020-07-24T09:41:09Z
+last_modified_at: 2021-02-20T09:41:09Z
 wallsticker:
   - image_path: https://www.wallstickerland.dk/media/catalog/product/s/u/sun-salutation-danish.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=44221&htmlurl=https://www.wallstickerland.dk/solhilsen-wallsticker
@@ -84,6 +86,15 @@ Yoga solhilsen er en grundlæggende serie af yoga-øvelser, som er kædet sammen
 _Surya_ betyder sol og _Namaskar_ betyder hilsen. Sarya Namaskar er en klassisk yogasekvens, som hylder den livgivende sol og lyset. Solhilsen hylder både det lys, vi kan se og det guddommelige lys, der siges at eksistere i alt levende.
 
 Du behøver ikke at være yoga-udøver for at få noget ud af solhilsen. Den kan bruges som opvarmning til anden træning, eller den kan bruges om morgenen til at få dig selv i gang med dagen.
+
+I dette indlæg får du svar på:
+
+- Hvordan laver du yoga solhilsen A og B?
+- Hvad er solhilsen godt for?
+- Hvordan er vejrtrækningen i solhilsen?
+- 8 grunde til at lave solhilsen?
+
+## Introduktion til solhilsen
 
 Karen fra Hverdagsyoga har lavet en rigtig god introduktion til solhilsen i denne Youtube-video:
 

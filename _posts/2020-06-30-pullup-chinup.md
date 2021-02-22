@@ -1,5 +1,7 @@
 ---
 title: &title "Pull ups vs chin ups: Hvad er forskellen på kropshævninger?"
+seo_title: "Chin ups og pull ups 💪 Alt om forskelle i greb og muskler"
+description: "Chin ups og pull ups er to typer kropshævninger. Få svar på forskelle og ligheder i greb, muskler og bevægelser, når du laver en chinup og en pullup."
 permalink: /chinup-vs-pullup/
 language: da
 header:
@@ -13,7 +15,7 @@ tags:
   - styrketræning
   - muskler
   - skulder
-last_modified_at: 2020-06-11T08:14:14Z
+last_modified_at: 2021-01-11T08:14:14Z
 toc: true
 feature_row:
   - image_path: https://apuls.dk/img/900/900/resize/1/2/1240420_1.jpg
@@ -32,13 +34,20 @@ feature_row:
 
 Pull ups og chinups er en fast del af min træning, og jeg synes alle bør mestre en kropshævning. Men hvad er forskellen egentlig på chinups og pullups?
 
-Hvad er pullups? **Pull ups er kropshævninger med overhåndsgreb og chinups er kropsæhævninger med underhåndsgreb. Begge øvelser kan laves i forskellige variationer med forskellige bredder af greb. Kropshævninger træner den brede rygmuskel og armbøjerne.**
+Hvad er pull ups og chin ups? **Pull ups er kropshævninger med overhåndsgreb og chinups er kropsæhævninger med underhåndsgreb. Begge øvelser kan laves i forskellige variationer med forskellige bredder af greb. Kropshævninger træner den brede rygmuskel og armbøjerne.**
 
 Kropshævninger et et vigtigt funktionelt bevægelsesmønster, som bør være et element i træning. Typisk skelner man mellem chinpus og pullups i forhold grebet, men du kan også lave kropshævninger med neutralt greb, hvor håndfladerne vender mod hinanden.
 
 Kropshævninger er en klassisk træningsøvelse, og med udbredelsen af calisthenics bliver de stadig mere og mere populære.
 
 For langt de fleste er det lettere at lave chinups end pullups, men for begge øvelser er der væsentlige tekniske elementer at være opmærksom på for at få den rette træningseffekt.
+
+Her får du en grundig gennemgang af følgende emner:
+
+- Hvad er en chin up og en pull up?
+- Hvad er forskellen på chinups og pullups?
+- Hvilket greb bruger man i chin ups og pull ups?
+- Hvilke muskler bruger man i chin ups og pull ups?
 
 ## Hvad er en chinup og en pullup?
 
@@ -67,7 +76,7 @@ Men pullups og chinups er ikke det samme. Der er et par forskelle på de to øve
 
 {% include video provider="youtube" id="UfhT0OSUU0w" %}
 
-## Forskelle i greb
+## Forskelle i greb på chin ups og pullups
 
 Den primære forskel mellem pullups og chinup er den type greb, der bliver brugt.
 
@@ -78,9 +87,9 @@ Der er mange forskellige variationer af grebet i pullups og chinups, men den sid
 
 - **Neutralt greb** vender håndfladerne mod hinanden.
 
-{% include figure image_path="https://3vnqw32fta3x1ysij926ljs3-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/Nov18_WO_Grip_Chart.jpg" caption="Forskellige grebstyper i kropshævninger. Kilde: [experiencelife.com](https://experiencelife.com/article/how-to-get-your-first-pull-up/)" alt="Forskellige grebstyper i kropshævninger - chinups, pullups" %}
+{% include figure image_path="https://3vnqw32fta3x1ysij926ljs3-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/Nov18_WO_Grip_Chart.jpg" caption="Forskellige grebstyper i kropshævninger. Kilde: [experiencelife.com](https://experiencelife.com/article/how-to-get-your-first-pull-up/)" alt="grebstyper i kropshævninger - chinups, pullups" %}
 
-## Forskelle i bevægelsen
+## Forskelle i bevægelsen i chinups og pullups
 
 Både chinups og pullups er kropshævninger, som er et vertikalt træk. Begge bevægelser træner primært den brede rygmuskel, trapezius og armbøjerne, men de gør det på lidt forskellige måder.
 
@@ -93,7 +102,7 @@ Chinups er en skulder ekstension, hvor albuerne kommer ned og tilbage fra forsid
 
 Forskellen er ikke så stor, og begge øvelser er rigtig gode. Det betyder bare, at musklerne bliver trænet på en lidt forskellig måde, og det er godt at skifte mellem øvelserne.
 
-## Forskelle i styrke
+## Forskelle i styrke på chin ups og pullups
 
 De _fleste_ vil formentlig være stærkere i chinups, fordi biceps bedst kan hjælpe, når armen er supineret. Så har vi en ekstra muskel.
 
@@ -199,9 +208,14 @@ De resterende forskelle i muskelaktivering var _ikke signifikante_ tendenser, s�
 
 Pullups og chinups ligner hinanden og bruger mange af de samme muskler. Man kan ikke entydigt sige, at en af variationerne er bedre end den anden. Det afhænger af dine mål.
 
+## Køb en pull up og chin up bar
+
 {% include feature_row type="left" %}
 
-## Referencer
+## Referencer og chin ups og pullups
+
+<details markdown="1">
+  <summary>Se referencer om {{ page.title }}</summary>
 
 - Dickie, James A., James A. Faulkner, Matthew J. Barnes, og Sally D. Lark. 2017. “Electromyographic Analysis of Muscle Activation during Pull-up Variations”. Journal of Electromyography and Kinesiology: Official Journal of the International Society of Electrophysiological Kinesiology 32 (februar): 30–36. <https://doi.org/10.1016/j.jelekin.2016.11.004>.
 - Dinunzio, Christopher, Nathaniel Porter, John Van Scoy, Derrick Cordice, og Ryan S. McCulloch. 2019. “Alterations in Kinematics and Muscle Activation Patterns with the Addition of a Kipping Action during a Pull-up Activity”. Sports Biomechanics 18 (6): 622–35. <https://doi.org/10.1080/14763141.2018.1452971>.
@@ -209,3 +223,4 @@ Pullups og chinups ligner hinanden og bruger mange af de samme muskler. Man kan 
 - Snarr, Ronald L., Ashleigh V. Hallmark, Jason C. Casey, og Michael R. Esco. 2017. “Electromyographical Comparison of a Traditional, Suspension Device, and Towel Pull-Up”. Journal of Human Kinetics 58 (1): 5–13. <https://doi.org/10.1515/hukin-2017-0068>.
 - Snyder, Benjamin, og James Leech. 2009. “Voluntary Increase in Latissimus Dorsi Muscle Activity During the Lat Pull-Down Following Expert Instruction”. Journal of Strength and Conditioning Research 23 (8): 2204–9. <https://doi.org/10.1519/JSC.0b013e3181bb7213>.
 - Youdas, James, Collier Amundson, Kyle Cicero, Justin Hahn, David Harezlak, og John Hollman. 2010. “Surface Electromyographic Activation Patterns and Elbow Joint Motion During a Pull-Up, Chin-Up, or Perfect-Pullup™ Rotational Exercise”. Journal of Strength and Conditioning Research 24 (12): 3404–14. <https://doi.org/10.1519/JSC.0b013e3181f1598c>.
+</details>

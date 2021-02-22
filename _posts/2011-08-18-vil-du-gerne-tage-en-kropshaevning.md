@@ -1,11 +1,14 @@
 ---
-title: &title "Kropshævninger: Hvordan lærer jeg at tage en pullup og chinup?"
-permalink: /artikel/vil-du-gerne-tage-en-kropshaevning/
+title: &title "Kropshævninger: Lær at lave en pullup og chinup? 💪"
+seo_title: "Kropshævninger: Lær at lave pullup og chinup [Med program]"
+permalink: /laer-kropshaevning-chinup-pullup-program/
+redirect_from:
+  - /artikel/vil-du-gerne-tage-en-kropshaevning/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1502955717682-d0430000b16d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=80
   teaser: https://images.unsplash.com/photo-1502955717682-d0430000b16d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
-  caption: "Kropshævninger: Hvordan lærer jeg at tage pullups og chinups?"
+  caption: "Kropshævninger: Hvordan lærer jeg at lave pullups og chinups?"
 tags:
   - styrketræning
   - guide
@@ -13,7 +16,7 @@ tags:
   - træningsøvelse
 category:
   - Styrketræning
-last_modified_at: 2020-09-02T22:27:53Z
+last_modified_at: 2021-02-02T22:27:53Z
 ---
 
 Vil du også gerne lære at tage en kropshævning, pullup eller en chinup? Jeg har skrevet en komplet guide og træningsprogram til, hvordan du lærer at tage din første kropshævning, chinup eller pullup, og jeg foreslår et godt træningsprogram.
@@ -24,7 +27,13 @@ Jeg har skrevet en guide til [forskellen på en pullup og en chinup]({% link _po
 
 {% include figure image_path="https://res-5.cloudinary.com/rubberbanditz/image/upload/c_lpad,dpr_1.0,f_auto,q_auto/v1/media/wysiwyg/blog_images/pullupchinup-image1.jpg" caption="Forskel på chinups og pullups fra [Rubberbanditz](https://www.rubberbanditz.com/blog/pull-up-vs-chin-up/)"  %}
 
-Lad os kigge på, hvordan du også kan lære at tage en pullup med et godt træningsprogram. Principperne i fremgangsmåden er den samme uanset, hvilken type kropshævning dit træningsprogram handler om.
+I dette indlæg får du svar på følgende:
+
+- Hvordan lærer jeg at lave kropshævninger, pull up og chin up?
+- Hvordan bruger jeg elastik til pull ups og chin ups?
+- Som en **bonus** får du et træningsprogram til at lære at tage din første pull up og chin up.
+
+Principperne i et træningsprogram for at **lære at tage en pull up og en chin up** er i fremgangsmåden den samme uanset, hvilken type kropshævning dit træningsprogram handler om.
 
 ## Grundlæggende om at træne pullups
 
@@ -42,11 +51,11 @@ Du kan se i videoen ovenfor, hvordan skulderbladene skal bevæge sig, og hvordan
 
 ### Hvordan træner jeg mig op pullups?
 
-Hvordan kan man træne for at lære at tage sin første pullup.
+Du træner op til at lave pullups ved at have tålmodighed og bygge træningen fornuftigt op. Når du gør det, så kan du også træne dig op til at lave din første pullup.
+
+[Niklas Meier](http://niklasmeier.dk/2016/10/14/hvordanfaarjegminfoerstepullup/) forklarer i videoen nedenunder, hvordan man kan lave sin første pullup. Der er også øvelser, som du kan supplere din træning med for at lave din første pullup.
 
 {% include video provider="youtube" id="WPNHzkM_O1g" %}
-
-[Niklas Meier](http://niklasmeier.dk/2016/10/14/hvordanfaarjegminfoerstepullup/) forklarer i videoen ovenfor, hvordan man kan lave sin første pullup. Der er også øvelser, som du kan supplere din træning med for at lave din første pullup.
 
 Husk det følgende når du går i gang med at træne pullups:
 
@@ -208,4 +217,4 @@ Hvis du laver en god plan, så bør du kunne [lave en pullup eller en chinup i l
 </div>
 <!--End mc_embed_signup-->
 
-Jeg har skrevet lidt mere om [forskellen på chinups og pullups her]({% link _posts/2020-06-30-pullup-chinup.md %}).
+Jeg har skrevet lidt mere om [forskellen på chin ups og pull ups her]({% link _posts/2020-06-30-pullup-chinup.md %}).
