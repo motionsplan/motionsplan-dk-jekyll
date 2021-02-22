@@ -5,4 +5,4 @@ permalink: /ads/off/
 author_profile: true
 ---
 
-{% include ads-off.html %}
+{% include ads-toggle.html toggle="1" %}
