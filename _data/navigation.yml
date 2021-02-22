@@ -33,6 +33,16 @@ blog:
         url: /artikel/tael-skridt/
       - title: "kondital"
         url: /kondital/
+      - title: "anaerob træning"
+        url: /anaerob-traening/
+      - title: "interval træning"
+        url: /intervallob-intervaltraening/
+      - title: "hvilepuls"
+        url: /hvilepuls/
+      - title: "maxpuls"
+        url: /maxpuls/
+      - title: "balancetræning"
+        url: /balance/
   - title: "Populære tests"
     children:
       - title: "cooper test"
