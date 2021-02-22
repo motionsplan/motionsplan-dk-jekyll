@@ -1,5 +1,5 @@
 ---
-title: &titl "6 minutters gå-test (6MWT): Gangtest for ældre mennesker 🚶‍♀️"
+title: &title "6 minutters gå-test (6MWT): Gangtest for ældre mennesker 🚶‍♀️"
 permalink: /gaatest-6min/
 excerpt: "6 minutters gå-test (6mwt) er en gangtest, hvor du sammenligner din tilbagelagte distance i forhold til andre mennesker. Gåtesten henvender sig til relativt fysisk svage personer."
 language: da
