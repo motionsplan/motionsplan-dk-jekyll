@@ -26,7 +26,7 @@ toc: true
 
 Wattmax-testen nem og præcis måde at finde kondital for børn på. Testen lader belastningen stige progressivt, så den kræver et pålideligt cykelergometer, hvor du kan aflæse belastningen og et stopur. Du kan estimere din maksimale iltoptagelse ud fra den maksimale belastning, du kan træde på cyklen.
 
-Dette er en modificeret udgave af [Wattmax-testen for voksne](/kondital-wattmax/) udarbejdet af Wedderkopp et al (2004). Du skal bruge et præcist cykelergometer og et barn, der kan køre sig selv til grænsen. Denne test kan estimere den maksimale iltoptagelse og konditallet med en ret høj korrelation til undersøgelser i laboratorium.
+Dette er en modificeret udgave af [Wattmax-testen for voksne](/kondital-wattmax/) udarbejdet af Wedderkopp et al (2004). Du skal bruge et præcist cykelergometer og et barn, der ved hvad det vil sige at køre sig selv til grænsen af sin maksimale ydeevne. Denne test kan estimere den maksimale iltoptagelse og konditallet med en ret høj korrelation i forhold til iltoptagelsesmålinger lavet i et laboratorium.
 
 Jeg læste første gang om Wattmax-testen i denne [artikel af Morten Zacho](http://web.archive.org/web/20110606132059/http://www.motion-online.dk/konditionstraening/testning/watt-max_test_for_boern/){:rel="nofollow"}
 {: .notice .notice--info }
@@ -65,7 +65,11 @@ Derefter finder du den maksimale iltoptagelse i liter pr. minut ud fra denne for
 
 VO<sub>2</sub>max = 13.16 * MPO + 5 * weight
 
-## Reference
+## Andre konditionstests for børn
+
+Hvis du har en større gruppe børn, du gerne vil teste på en gang, så bør du kigge på [Andersen testen](/andersen-test/), som er en let måde at teste flere børn ad gangen med mindre udstyr.
+
+## Reference om Watt-maxtesten for børn
 
 - Wedderkopp, N., K. Froberg, H. S. Hansen, og L. B. Andersen. 2004. “Secular Trends in Physical Fitness and Obesity in Danish 9-Year-Old Girls and Boys: Odense School Child Study and Danish Substudy of the European Youth Heart Study”. Scandinavian Journal of Medicine & Science in Sports 14 (3): 150–55. <https://doi.org/10.1111/j.1600-0838.2004.00365.x>.
 
