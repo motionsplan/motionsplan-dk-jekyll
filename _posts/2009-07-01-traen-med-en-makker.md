@@ -28,7 +28,7 @@ Men hvad er dine erfaringer med at træne med en makker, og hvilke øvelser plej
 
 Du kan se en masse forslag til makkerøvelser herunder.
 
-{% assign site_posts = site.excercises | where: "tags", "makkerøvelser" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+{% assign site_posts = site.exercises | where: "tags", "makkerøvelser" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
 <div class="feature__wrapper">
 
