@@ -1,5 +1,6 @@
 ---
-title: &title "Biohacker: Definition og guide til hvad biohacking er?"
+title: &title "Biohacking: Definition og guide til hvad biohacker er?"
+seo_title: "Biohacking • Bliv biohacker og biohacking træning [Guide] »"
 permalink: /hvad-er-biohacking/
 language: da
 header:
@@ -11,7 +12,7 @@ category:
   - Viden om
 tags:
   - biohacking
-last_modified_at: 2020-06-11T08:14:14Z
+last_modified_at: 2021-01-11T08:14:14Z
 toc: true
 feature_row:
   - image_path: https://imgcdn.saxo.com/_9781512121278/0x500
@@ -113,7 +114,7 @@ Fælles for alle biohackere er, at man forsøger at tilegne sig videnskabelig vi
 
 Lad os kigge på et par af frontløberne, som er villige til at gå lidt til ekstremerne.
  
-## Neil Harbisson kan høre farver
+## Biohacker Neil Harbisson kan høre farver
 
 {% include figure image_path="https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/d06593f2820b67dbb5abfceaa20aa8240d779850_1600x1200.jpg?c=1050%2C550&w=1050" caption="Neil Harbisson fik i 2013 indopereret en antenne i baghovedet, som gør ham i stand til at høre farver" %}
 
@@ -131,7 +132,7 @@ Aaron Traywick sprøjtede som 28-årig en utestet herpesvaccine i benet, som du 
 
 Aaron Traywick blev i 2018 fundet død i en såkaldt en lydisoleret, mørk vandtank, hvor forsøgspersonens sanseindtryk reduceres til et minimum. Han var formentlig ved at eksperimentere i isolationstanken, da han druknede ved et uheld i vandtanken. Han blev fundet med bedøvelsesmidlet ketamin i blodet.
 
-## Teemu Arina skriver A Biohacker Handbook
+## Teemu Arina skriver _A Biohacker Handbook_
 
 {% include figure image_path="https://lounge.fim.com/wp-content/uploads/2018/10/FIM_asiantuntija_Teemu-Arina_3_.jpg" caption="Teemu Arina begynder at biohacke sig selv for at blive rask" %}
 
@@ -160,5 +161,7 @@ Jeg kan altså ikke give en helt præcis definition på, hvornår man er biohack
 [Anders Nedergaard](https://andersnedergaard.dk/fitness-mk/fitness-m-k-253/) har talt med Rasmus Just, som er med i Min Sindssygt Sunde Familie. Det er interessant, hvordan udeforstående dømmer livsstilen uden rigtigt at kende den i detaljer.
 
 Som skrevet har jeg selv eksperimenteret med at måle min HRV, som jeg har [skrevet lidt om i dette indlæg om heart rate variability](/hrv/).
+
+## Køb bøger om biohacking
 
 {% include feature_row type="left" %}

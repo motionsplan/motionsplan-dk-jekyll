@@ -1,5 +1,5 @@
 ---
-title: "Beregner: Beregn dit daglige stofskifte og forbrænding? 🔥"
+title: "BMR Beregner: Beregn daglige stofskifte og forbrænding? 🔥"
 permalink: /beregner/dagligt-stofskifte-og-forbraending/
 redirect_from: /avanceret-stofskifteberegner/
 language: da

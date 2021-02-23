@@ -1,5 +1,5 @@
 ---
-title: &title "Andersen Test: Test kondital for børn [Beregner og Download]"
+title: &title "Andersen Test: Find kondital for børn [Beregner og Download]"
 permalink: /andersen-test/
 language: da
 header:

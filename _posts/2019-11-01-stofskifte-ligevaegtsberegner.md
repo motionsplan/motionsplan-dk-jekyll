@@ -1,6 +1,7 @@
 ---
 title: &title "Beregn dit ligevægtsindtag med vores ligevægtsberegner ⚖️"
-seo_title: "Ligevægtsindtag ⚖️ Beregn og lær mere [Beregner] »"
+seo_title: "Ligevægtsindtag beregner ⚖️ Beregn GRATIS og lær mere [Beregner] »"
+description: "Beregn ligevægtsindtag i fores enkle beregner ⚖️ Udregn GRATIS dit ligevægtsindtag få et estimat på, hvor mange kalorier du skal indtage, fx på en kostplan."
 permalink: /beregner/ligevaegtsindtag-med-ligevaegtsberegner/
 redirect_from:
   - /ligevaegtsindtag/
@@ -25,7 +26,7 @@ keywords:
 
 Jeg har lavet en beregner til at udregne dit ligevægtsindtag. Vores ligevægtsberegner kan hjælpe dig med at sikre dig de bedste resultater med din træning uanset om træningens formål er at tage på i vægt, holde vægten eller du gerne vil opnå et vægttab.
 
-Hvad er ligevægtsindtaget? **Ligevægtsindtaget er, når du indtager lige så meget energi gennem kosten, som du forbruger i løbet af en dag. Når du indtager energi, der svarer til dit ligevægtsindtag, så er din vægt stabil, og derfor kalder man det ligevægtsindtaget.**
+Hvad er ligevægtsindtag? **Ligevægtsindtag er, når du indtager lige så meget energi gennem kosten, som du forbruger i løbet af en dag. Når du indtager energi, der svarer til dit ligevægtsindtag, så er din vægt stabil, og derfor kalder man det ligevægtsindtaget.**
 
 Hvis du gerne vil finde dit ligevægtsindtag, så er der forskellige måder at gøre det på. Da de færreste har adgang til et laboratorium, så estimerer man ofte sit ligevægtsindtag med forskellige udregninger. Der findes mange forskellige måder at udregne ligevægtsindtaget på.
 
@@ -57,7 +58,7 @@ Der findes en lang række forskellige formler for hvilestofskiftet, basalstofski
 
 Du kan læse mere om de forskellige formler til [hvilestofskifte og basalstofskifte]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}).
 
-## Er en ligevægtsberegner præcis?
+## Er en beregner til ligevægtsindtag præcis?
 
 Beregneren af ligevægtsindtag skal kun ses som inspiration til at ramme dit omtrentlige ligevægtsindtag. En ligevægtsberegner kan bruges som et pejlemærke til, hvor mange kalorier, du kan indtage for at fastholde vægten, tage på eller tabe dig.
 
