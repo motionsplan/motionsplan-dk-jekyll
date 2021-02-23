@@ -21,15 +21,9 @@ main:
 blog:
   - title: "Populære søgninger"
     children:
-      - title: "ligevægtsindtag"
-        url: /beregner/ligevaegtsindtag-med-ligevaegtsberegner/
-      - title: "bmi kvinder"
+      - title: "bmi kvinder mænd og børn"
         url: /bmi/
-      - title: "bmi mænd"
-        url: /bmi/
-      - title: "bmi børn"
-        url: /bmi/
-      - title: "tæl skridt"
+      - title: "tæl skridt 2021"
         url: /artikel/tael-skridt/
       - title: "kondital"
         url: /kondital/
@@ -43,10 +37,24 @@ blog:
         url: /maxpuls/
       - title: "balancetræning"
         url: /balance/
+      - title: "borg skala"
+        url: /borg-skala/
+      - title: "hvor mange knogler har et menneske"
+        url: /hvor-mange-knogler-har-mennesket/
+      - title: "muskler i kroppen"
+        url: /muskler/
       - title: "armstrækning og armbøjning"
         url: /armbojninger-eller-armstraekninger-pushups/
       - title: "pull ups og chin ups"
         url: /chinup-vs-pullup/
+      - title: "excentrisk træning"
+        url: /excentrisk-traening/
+      - title: "kompressionsstrømper løb og cykling"
+        url: /kompressionsstroemper-restitution-praestation-bivirkninger/
+      - title: "udstrækningsøvelser"
+        url: /udstraekning-udspaending/
+      - title: "tag tid"
+        url: /tag-tid-paa-loebetraening/
   - title: "Populære tests"
     children:
       - title: "cooper test"
@@ -55,6 +63,16 @@ blog:
         url: /bip-test/
       - title: "rm beregner"
         url: /rm-beregner/
+  - title: "Populære beregnere"
+    children:
+      - title: "bmr beregner"
+        url: /bmr-beregner-hvilestofskifte-basalstofskifte/
+      - title: "hvilestofskifte beregner"
+        url: /bmr-beregner-hvilestofskifte-basalstofskifte/
+      - title: "basalstofskifte beregner"
+        url: /bmr-beregner-hvilestofskifte-basalstofskifte/
+      - title: "ligevægtsindtag beregner"
+        url: /beregner/ligevaegtsindtag-med-ligevaegtsberegner/
 anatomi:
   - title: "Anatomi"
     url: "/anatomi/"
