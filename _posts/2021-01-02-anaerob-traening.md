@@ -1,5 +1,6 @@
 ---
 title: &title "Anaerob træning: Øvelser og træningsprogram 🏃"
+description: "Anaerob træning er en vigtig del af dit energisystem, og det skal også trænes 🏃 Hvad er anaerob træning? 🏃 Anaerobe øvelser 🏃 Anaerobt træningsprogram."
 permalink: /anaerob-traening/
 language: da
 header:
@@ -18,6 +19,16 @@ toc: true
 Anaerob træning bør være en del af din træning. Det anaerobe system er en vigtig del af dit energisystem, og det skal også trænes. Jeg kigger på, hvad anaerob træning er, viser anaerobe øvelser og foreslår hvordan et anaerobt træningsprogram kan se ud.
 
 Hvad er anaerob træning? **Anaerob træning forbedrer kroppens evne til at levere energi uden ilt til stede. Anaerob træning kan være alaktacid og laktacid og træner evnen til at genopbygge ATP enten spalte kreatinfosfat eller ved at spalte glykose, hvor der kommer mælkesyre som biprodukt.**
+
+I dette indlæg kan du få svar på følgende spørgsmål:
+
+- Hvad er anaerob træning?
+- Hvad er laktacid og alaktacid anaerob træning?
+- Hvad er anaerob kapacitet?
+- Hvad er anaerob effekt?
+- Eksempler på anaerob træning
+
+## Hvad er det anaerobe system?
 
 Dansk Idræts-Forbund har skrevet et godt [hæfte om anaerob præstationsevne](https://www.dif.dk/-/media/difdk/foreningsliv/udgivelser/pdf/anaerobprstationsevnetoleranceproduktionoghurtighedstrning.pdf), som jeg virkelig kan anbefale, hvis du gerne vil lære mere om, hvordan det anarobe system virker. Når du forstår systemet er det meget lettere at planlægge anaerob træning.
 
@@ -168,7 +179,7 @@ Anaerob træning kan altså både være laktacid og alaktacid. Det anaerobe syst
 
 ## Andre eksempler på anaerob træning
 
-Hvis du vil læse flere artikler om træning med høj intensitet, hvor det anaerobe system også får lov til at arbejde, så tjek følgende artikler:
+Hvis du vil læse flere artikler om træning med høj intensitet, hvor det anaerobe system også får lov til at arbejde, så tjek følgende eksempler:
 
 {% assign site_posts = site.posts | where: "tags", "anaerob træning" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 

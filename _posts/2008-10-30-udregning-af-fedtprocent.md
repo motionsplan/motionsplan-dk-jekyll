@@ -4,7 +4,7 @@ seo_title: "Fedtprocent • Beregn din fedtprocent ud fra din højde og vægt »
 permalink: /artikel/udregning-af-fedtprocent/
 redirect_from:
   - /udregn-fp/
-excerpt: "Beregn din fedtprocent med en udregning med din højde og vægt i denne simple beregner. Beregneren udregner også dit BMI."
+excerpt: "Beregn din fedtprocent med en udregning med din højde og vægt i denne fedtprocent beregner for mænd og kvinder. Beregneren udregner også dit BMI."
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1522844990619-4951c40f7eda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80
@@ -43,15 +43,19 @@ Hvis du fortsat gerne vil udregne din fedtprocent, så fortsæt til vores enkle 
 
 ## Udregn din fedtprocent
 
+Du kan bruge vores **fedtprocent beregner** til udregning af din fedtprocent.
+
 {% include calculate-fat-percent.html %}
 
-## Beregn din fedtprocent fra højde og vægt
+## Beregn fedtprocent fra højde og vægt
 
 Fedtprocenten er den relative del af kropsvægten, som udgøres af fedt. Du har behov for fedt for at kunne holde varmen 
 
 Formularen benytter sig af flere forskellige udregninger til at estimere fedtprocenten. Formlerne for de enkelte beregninger, kan du se nedenunder.
 
 Baggrunden for beregneren er, at BMI på populationsniveau er nogenlunde korreleret med fedtprocent.
+
+## Formler brugt i vores fedtprocent beregner
 
 <details markdown="1">
   <summary>Se formler Heitmann</summary>
@@ -127,7 +131,7 @@ Hvis du vil have et mere præcist bud på din fedtprocent, så kan du kigge på 
   {% endfor %}
 {% endif %}
 
-## Referencer om BMI og fedtprocentmåling
+## Referencer om vores fedtprocent beregner
 
 <details markdown="1">
   <summary>Se referencer til {{ page.title }}</summary>
