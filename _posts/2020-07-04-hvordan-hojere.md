@@ -18,13 +18,13 @@ feature_row:
   - image_path: https://apuls.dk/img/900/900/resize/1/2/1240420_1.jpg
     alt: "Fitwood Pullupbar"
     excerpt: "FitWood Trollveggen dørribbe er en multifunktionel chin-up/pull-up bar i lækkert scandinavisk design."
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/fitwood-trollveggen-dorribbe-hvid
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=39091&htmlurl=https://apuls.dk/fitwood-trollveggen-dorribbe-hvid
     btn_label: "Pris hos Apuls*"
     btn_class: "btn--success"
   - image_path: https://apuls.dk/img/900/900/resize/A/p/Apuls0136_1.jpg
     alt: "cPro9 Pullupbar"
     excerpt: "cPro9 Pull Up Bar til dør, som er let monteres i en døråbning. Baren giver dig mange forskellige muligheder for greb."
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/cpro9-pullup-bar-m-baelte-i-laeder-pakketilbud
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=39091&htmlurl=https://apuls.dk/cpro9-pullup-bar-m-baelte-i-laeder-pakketilbud
     btn_label: "Pris hos Apuls*"
     btn_class: "btn--success"
 ---

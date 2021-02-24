@@ -76,7 +76,7 @@ Når du kører Zwift, så kan du køre i en række forskellige verdener, hvor de
 
 Nej. Prisen på et Zwift abonnement er £12 eller $14,99 om måneden. Men du kan altid annullere dit abonnement på Zwift og genstarte det på et senere tidspunkt, hvilket er ret genialt. Jeg kommer i hvert fald ikke til at køre Zwift om sommeren, og så er det jo dejlig, at jeg ikke skal smide penge ud af vinduet på det tidspunkt. 
 
-Du behøver ikke forpligte dig med det samme. Der er syv dages gratis prøveperiode, hvor du kan køre 25 kilometer, men jeg ville helt sikkert bare tegne en måneds abonnement, for du når ikke helt at finde ud af, om det er noget for dig på de 25 kilometer, som jo mest svarer til en enkelt tur.
+Du behøver ikke forpligte dig med det samme. Der er syv dages gratis prøveperiode, hvor du kan køre alt hvad du vil. Derefter kan du tegne et abonnement for en måned, som du kan opsige, når du vil.
 
 ## Hvilket udstyr har jeg brug for for at cykle på Zwift?
 

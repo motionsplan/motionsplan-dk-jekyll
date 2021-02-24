@@ -24,7 +24,7 @@ feature_row_draxfit:
     vendor: Fitnessgruppen
 feature_row_apuls:
   - image_path: https://m2.apuls.dk/media/catalog/product/L/H/LHR510_1.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/gymleco-lhr510-curve-lobebaand
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=39091&htmlurl=https://apuls.dk/gymleco-lhr510-curve-lobebaand
     title: Gymleco Curve Løbebånd
     excerpt: "Løbefladen på løbebåndet måler 150 x 43 cm og det kan klare en personvægt på op til 230 kg. Et curve løbebånd som dette Gymleco LHR510 er yderst skånsomt for brugeren. Løbebåndet har en meget længere levetid end traditionelle løbebånd."
     price: 44999
