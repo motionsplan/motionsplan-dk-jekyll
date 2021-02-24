@@ -1,6 +1,6 @@
 ---
 title: "De fem tibetanere 🧘: Komplet guide til de 5 yoga øvelser"
-description: "Lær de 5 tibetanere med video og billeder 🙏 Yogaøvelser der kan laves på 20 minutter 🙏 Giver øvelserne evig ungdom? 🙏 Hvad er de fem tibetanere godt for?"
+description: "Lær de 5 tibetanere med video og billeder 🙏 Yogaøvelser der kan laves på 20 minutter 🙏 Giver øvelserne evig ungdom? 🙏 Komplet guide 🙏 Print øvelserne ud"
 permalink: /artikel/de-fem-tibetanere/
 language: da
 header:
@@ -14,7 +14,7 @@ tags:
   - træningsprogram
 category:
   - Yoga
-last_modified_at: 2020-11-24T09:41:09Z
+last_modified_at: 2021-01-24T09:41:09Z
 feature_row:
   - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/1000x/9df78eab33525d08d6e5fb8d27136e95/d/e/de-fem-tibetanere-1.jpg
     alt: "De 5 tibetanere"

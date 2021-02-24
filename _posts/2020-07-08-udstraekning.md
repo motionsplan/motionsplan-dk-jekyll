@@ -1,5 +1,7 @@
 ---
 title: &title "Udstrækning: Guide til udstrækningsøvelser og strækøvelser!"
+seo_title: "Udstrækning • Alt om udstrækningsøvelser og strækøvelser »"
+description: "Udstrækning og udspænding bruges i mange idrætsgrene ✔️ Se 15+ udstrækningsøvelser for hele kroppen ✔️ 3 myter om strækøvelser ✔️ 3 effekter af udstrækning"
 permalink: /udstraekning-udspaending/
 language: da
 header:
@@ -15,7 +17,7 @@ tags:
   - udspænding
   - smidighed
   - udstrækningsøvelser
-last_modified_at: 2021-01-07T07:33:14Z
+last_modified_at: 2021-02-07T15:33:14Z
 toc: true
 feature_row:
   - image_path: https://cdn6.tales.dk/00115/65340/cover.1569373580.jpg
@@ -53,7 +55,13 @@ Der er mange myter om udstrækning og udstrækningsøvelser, men her får du lig
 
 *[DOMS]: Delayed Onset Muscle Soreness
 
-I det følgende vil jeg forklare, hvad der sker, når man strækker ud. Hvilken effekt har det på kroppen, og hvilke myter er der? Undervejs får du også inspiration til udstrækningsøvelser.
+I dettte indlæg berører jeg følgende:
+
+- Hvilke typer udstrækning findes der? Jeg berører statisk, dynamisk udstrækning og PNF-udstrækning.
+- Hvad sker der, når man strækker ud?
+- Hvilken effekt har udstrækningsøvelser på kroppen?
+- Hvilke myter findes der om strækøvelser?
+- Inspiration til udstrækningsøvelser.
 
 Når du er færdig burde du have en allround forståelse af udstrækning.
 
@@ -422,9 +430,9 @@ Du kan også lede videre her på siden for at finde en masse udstrækningsøvels
 
 Du kan også finde inspiration til udstrækning og udspænding i forskellige yoga-flows. Jeg har beskrevet [De fem tibetanere]({% link _posts/2009-07-01-de-fem-tibetanere.md %}), som kombinerer muskeløvelser med strækøvelser, og [Solhilsen A og B]({% link _posts/2020-07-25-solhilsen.md %}).
 
-## Forslag til strækøvelser og udstrækningsøvelser
-
 {% assign site_posts = site.exercises | where: "training_type", "Strækøvelser" | sort: "title" %}
+
+## {{ site_posts.size }} forslag til strækøvelser og udstrækningsøvelser
 
 <div class="feature__wrapper">
 

@@ -1,5 +1,6 @@
 ---
 title: &title "Kondition: Hvad er et godt, højt kondital? [Tabel] 💗"
+description: "Hvad er et godt, højt kondital? 💗 Se kondital for mænd, kvinder, teenagere og børn i en samlet tabel og skema 💗 Lige til at printe ud!"
 permalink: /kondital/
 excerpt: "Hvad er et godt, højt kondital og hvordan finder du det? Se kondital for mænd, kvinder og børn i tabel. Find metoder til at teste til kondital."
 language: da
