@@ -1,5 +1,6 @@
 ---
 title: &title "Hvad er min hastighed i km/t, m/s eller min/km? [Beregner]"
+description: "Beregn hastighed og løbehastighed i vores beregner ✔ Hvordan udregner man km/t, m/s og min/km ✔ Omregning km/t til min/km ✔ Tabel til udskrift."
 permalink: /hastighed/
 excerpt: "Beregn din hastighed i km/t, m/s eller min/km, så du ved hvor hurtigt du løber eller cykler. Du kan også se en tabel, så du ikke behøver at regne."
 language: da
