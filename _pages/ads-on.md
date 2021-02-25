@@ -4,6 +4,7 @@ title: Motionsplan viser reklamer
 permalink: /ads/on/
 author_profile: true
 ---
+
 Tak fordi du følger med på Motionsplan. Motionsplan.dk er et hobbyprojekt med det formål at give de bedste oplysninger om træning og sundhed. Artiklerne bliver konstant opdateret, så de medtager den nyeste forskning.
 
 Motionsplan finansieres normalt af reklamer for at dække driften af sitet. Normalt kan sitet tjene mellem 100-200 kroner i reklameindtægter om dagen.
