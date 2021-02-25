@@ -6,6 +6,9 @@ author_profile: true
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Added ads pages
 Tak fordi du følger med på Motionsplan. Normalt vises der reklamer på Motionsplan for at dække driften af sitet, men du har lige **aktiveret reklamefri Motionsplan**. Forhåbentlig giver det dig en endnu bedre oplevelse på sitet.
 
 Formålet med Motionsplan er at give de bedste oplysninger om træning og sundhed. Artiklerne bliver konstant opdateret, så de medtager den nyeste forskning.
@@ -20,7 +23,10 @@ Det betyder også meget for mig, hvis du følger Motionsplan.dk på de sociale m
 
 {% include feature_row id="intro" type="center" %}
 
+<<<<<<< HEAD
 {% include ads-toggle.html toggle="0" %}
 =======
+=======
+>>>>>>> Added ads pages
 {% include ads-toggle.html toggle="1" %}
 >>>>>>> More work on ads
