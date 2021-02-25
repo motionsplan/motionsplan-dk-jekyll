@@ -23,4 +23,4 @@ Det betyder også meget for mig, hvis du følger Motionsplan.dk på de sociale m
 
 {% include feature_row id="intro" type="center" %}
 
-{% include ads-toggle.html toggle="0" %}
+{% include ads-toggle.html toggle="1" %}
