@@ -3,6 +3,7 @@ layout: single
 title: Motionsplan er nu reklamefri
 permalink: /ads/off/hioewroijfadsleiwrlva2342j/
 author_profile: true
+sitemap: false
 ---
 
 Tak fordi du følger med på Motionsplan. Normalt vises der reklamer på Motionsplan for at dække driften af sitet, men du har lige **aktiveret reklamefri Motionsplan**. Forhåbentlig giver det dig en endnu bedre oplevelse på sitet.
