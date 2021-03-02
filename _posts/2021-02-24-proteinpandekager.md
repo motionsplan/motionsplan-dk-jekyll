@@ -27,34 +27,6 @@ Disse opskrifter på proteinpandekager er perfekte til dig, der gerne vil lave s
 
 Der er efterhånden nogle opskrifter på **proteinpandekager uden banan**, når du søger på nettet. Men hvilken opskrift er egentlig den bedste opskrift. Jeg har afprøvet 4 forskellige opskrifter.
 
-## Proteinpandekager uden banan med proteinpulver
-
-Denne opskrift på proteinpandekager uden banan indeholder to forskellige slags proteinpulver, men [Maya](https://mayadroem.dk/2013/08/16/laekre-proteinpandekager-uden-banan/) skriver, at du bare kan bruge den smag du har af proteinpulveret.
-
-### Ingredienser (1-2 personer - 6-7 små pandekager)
-
-- 2 æg  
-- 3 spsk havregryn  
-- 2 spsk skyr  
-- 1 spsk Chokolade proteinpulver  
-- 1 spsk Vanille proteinpulver  
-- smør/olie til stegning
-
-Det er havregrynene, der giver dejen lidt tekstur. Du kan også overveje at bruge loppefrøskaller (HUSK), hvis du vil prøve uden havregryn. Men du skal formentlig kun have en spsk HUSK i, hvis de stadig skal ligne pandekager.
-
-Du kan overveje at putte bagepulver i denne opskrift, hvilket kan hjælpe med at gøre pandekagerne endnu mere luftige, men ellers er mælken også med til at gøre pandekagerne luftigere.
-
-### Fremgangsmåde for pandekagerne
-
-- **Først**pisker du æggene.  
-- **Dernæst**tilsætter du havregryn, skyr, og proteinpulveret og pisker lidt mere  
-- **Steg**pandekagerne ved svag varme – jeg lavede 7 små stk.  
-- **Server**med frisk frugt, nødder, bær, skyr eller noget helt andet! 🙂
-
-Du kan fx toppe pandekagerne med banan, blåbær, mandler og vindruer, men du kan også bruge din fantasi.
-
-{% include figure image_path="https://images.unsplash.com/photo-1590137867324-8c99d8c0af01?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80" caption="Proteinpandekager uden banan, men med proteinpulver" alt="proteinpandekager med proteinpulver" %}
-
 ## Proteinpandekager uden banan og uden proteinpulver
 
 Denne lækre opskrift på sundeproteinpandekager kommer fra [madogkaerlighed.dk](https://madogkaerlighed.dk/proteinpandekager/). Det er mættende og proteinrige pandekager, men hvor der ikke er tilsat hverken bananer eller proteinpulver.
@@ -80,30 +52,6 @@ Normalt er banan med til at søde pandekager, så opskrifter på proteinpandekag
 - Opvarm en pande til middelvarme og kom ca. 2-3 store spsk på panden, til hver pandekage
 - Dejen flader selv ud, så vent blot et par minutter og vend pandekagen om
 - Det er ikke nødvendigt med fedtstof på en slip-let pande men det kan sagtens bruges, hvis det ønskes. Pandekagerne kan evt. serveres med min [hindbærpuré](https://madogkaerlighed.dk/hindbaer-pure-2/). Velbekomme!
-
-## Proteinpandekager uden banan med proteinpulver
-
-{% include figure image_path="https://images.unsplash.com/photo-1599232288126-7dbd2127db14?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80" caption="Proteinpandekager uden banan og med proteinpulver" alt="proteinpandekager uden banan og med proteinpulver" %}
-
-[Træningsguiden](https://traeningsguiden.dk/proteinpandekager-uden-banan/) foreslår følgende opskrift på proteinpandekager uden banan. 
-
-### Ingredienser til 3 personer
-
-- 80 g proteinpulver (smagen kommer i flere varianter; oreo, chokolade, banan, mango, jordbær m.fl.)
-- 3 æg
-- 1 æggehvide
-- 150 g havregryn
-- 5 dl minimælk
-- 10 g hørfrø
-- 10 g sesamfrø
-- 10 g loppefrøskaller
-- 
-### Fremgangsmåde
-
-1. **Bland ingredienserne**. Bland alle ingredienserne i en skål og rør dejen godt sammen. Nogle blender ingredienserne for at få en ensartet masse.
-2. **Steg proteinpandekagerne på en pande**. Opvarm en pande til god varme og der puttes en smule fedtstof på panden. Har du investeret i en lækker slip-let pande, kan du naturligvis spare fedtstoffet væk. Når panden er godt varm, puttes proteinpandekagedejen forsigtig på panden, i den størrelse du ønsker. Proteinpandekagerne er færdige, når pandekagerne har en lækker gylden overflade på begge sider.
-
-**Husk**: Proteinpandekager kan nogle gange være en smule tørre, og derfor er det godt at supplere med noget lækker skyr, frugt og bær sammen med et glas friskpresset juice eller kaffe.
 
 ## Sunde proteinpandekager uden banan og mel
 
@@ -140,6 +88,58 @@ Pandekager uden banan og mel – glutenfrie og proteinrige. Sunde og en død læ
 - Fordel dejen med 2 spsk. dej, pr. pandekage på en middelvarme pande, og steg i kokosolie eller smør til de er lettere gyldne.
 - Nyd din stak med friske bær eller sirup. 
 - Velbekomme.
+
+## Proteinpandekager uden banan med proteinpulver
+
+{% include figure image_path="https://images.unsplash.com/photo-1599232288126-7dbd2127db14?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80" caption="Proteinpandekager uden banan og med proteinpulver" alt="proteinpandekager uden banan og med proteinpulver" %}
+
+[Træningsguiden](https://traeningsguiden.dk/proteinpandekager-uden-banan/) foreslår følgende opskrift på proteinpandekager uden banan. 
+
+### Ingredienser til 3 personer
+
+- 80 g proteinpulver (smagen kommer i flere varianter; oreo, chokolade, banan, mango, jordbær m.fl.)
+- 3 æg
+- 1 æggehvide
+- 150 g havregryn
+- 5 dl minimælk
+- 10 g hørfrø
+- 10 g sesamfrø
+- 10 g loppefrøskaller
+- 
+### Fremgangsmåde
+
+1. **Bland ingredienserne**. Bland alle ingredienserne i en skål og rør dejen godt sammen. Nogle blender ingredienserne for at få en ensartet masse.
+2. **Steg proteinpandekagerne på en pande**. Opvarm en pande til god varme og der puttes en smule fedtstof på panden. Har du investeret i en lækker slip-let pande, kan du naturligvis spare fedtstoffet væk. Når panden er godt varm, puttes proteinpandekagedejen forsigtig på panden, i den størrelse du ønsker. Proteinpandekagerne er færdige, når pandekagerne har en lækker gylden overflade på begge sider.
+
+**Husk**: Proteinpandekager kan nogle gange være en smule tørre, og derfor er det godt at supplere med noget lækker skyr, frugt og bær sammen med et glas friskpresset juice eller kaffe.
+
+## Proteinpandekager uden banan med proteinpulver
+
+Denne opskrift på proteinpandekager uden banan indeholder proteinpulver, men du kan bare bruge den smag du har af proteinpulveret.
+
+### Ingredienser (1-2 personer - 6-7 små pandekager)
+
+- 2 æg  
+- 3 spsk havregryn  
+- 2 spsk skyr  
+- 2 spsk proteinpulver  
+- 1 tsk bagepulver  
+- smør eller olie til stegning
+
+Det er havregrynene, der giver dejen lidt tekstur. Du kan også overveje at bruge loppefrøskaller (HUSK), hvis du vil prøve uden havregryn. Men du skal formentlig kun have en spsk HUSK i, hvis de stadig skal ligne pandekager.
+
+Du kan overveje at putte bagepulver i denne opskrift, hvilket kan hjælpe med at gøre pandekagerne endnu mere luftige, men ellers er mælken også med til at gøre pandekagerne luftigere.
+
+### Fremgangsmåde for pandekagerne
+
+- **Først**pisker du æggene.  
+- **Dernæst**tilsætter du havregryn, skyr, og proteinpulveret og pisker lidt mere  
+- **Steg**pandekagerne ved svag varme – jeg lavede 7 små stk.  
+- **Server**med frisk frugt, nødder, bær, skyr eller noget helt andet! 🙂
+
+Du kan fx toppe pandekagerne med banan, blåbær, mandler og vindruer, men du kan også bruge din fantasi.
+
+{% include figure image_path="https://images.unsplash.com/photo-1590137867324-8c99d8c0af01?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80" caption="Proteinpandekager uden banan, men med proteinpulver" alt="proteinpandekager med proteinpulver" %}
 
 ## Hvilken proteinpulver skal jeg bruge til mine proteinpandekager?
 
