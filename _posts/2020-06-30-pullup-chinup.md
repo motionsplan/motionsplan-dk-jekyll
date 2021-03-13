@@ -1,6 +1,6 @@
 ---
 title: &title "Pull ups vs chin ups: Hvad er forskellen på kropshævninger?"
-seo_title: "Chin ups og pull ups 💪 Alt om forskelle i greb og muskler"
+seo_title: "Chin ups og pull ups • Alt om forskelle i greb og muskler »"
 description: "Chin ups og pull ups er to typer kropshævninger. Få svar på forskelle og ligheder i greb, muskler og bevægelser, når du laver en chinup og en pullup."
 permalink: /chinup-vs-pullup/
 language: da
@@ -26,13 +26,13 @@ feature_row:
     btn_class: "btn--success"
   - image_path: https://apuls.dk/img/900/900/resize/A/p/Apuls0136_1.jpg
     alt: "cPro9 Pullupbar"
-    excerpt: "cPro9 Pull Up Bar til dør, som er let monteres i en døråbning. Baren giver dig mange forskellige muligheder for greb."
+    excerpt: "cPro9 Pull Up Bar til dør, som er let monteres i en døråbning. Baren giver dig mange forskellige muligheder for greb til chinups og pullups."
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=39091&htmlurl=https://apuls.dk/cpro9-pullup-bar-m-baelte-i-laeder-pakketilbud
     btn_label: "Pris hos Apuls*"
     btn_class: "btn--success"
 ---
 
-Pull ups og chinups er en fast del af min træning, og jeg synes alle bør mestre en kropshævning. Men hvad er forskellen egentlig på chinups og pullups?
+Pull ups og chin ups er en fast del af min træning, og jeg synes alle bør mestre en kropshævning. Men hvad er forskellen egentlig på chinups og pullups?
 
 Hvad er pull ups og chin ups? **Pull ups er kropshævninger med overhåndsgreb og chinups er kropsæhævninger med underhåndsgreb. Begge øvelser kan laves i forskellige variationer med forskellige bredder af greb. Kropshævninger træner den brede rygmuskel og armbøjerne.**
 
@@ -76,7 +76,7 @@ Men pullups og chinups er ikke det samme. Der er et par forskelle på de to øve
 
 {% include video provider="youtube" id="UfhT0OSUU0w" %}
 
-## Forskelle i greb på chin ups og pullups
+## Forskelle i greb på chin ups og pull ups
 
 Den primære forskel mellem pullups og chinup er den type greb, der bliver brugt.
 
@@ -102,13 +102,13 @@ Chinups er en skulder ekstension, hvor albuerne kommer ned og tilbage fra forsid
 
 Forskellen er ikke så stor, og begge øvelser er rigtig gode. Det betyder bare, at musklerne bliver trænet på en lidt forskellig måde, og det er godt at skifte mellem øvelserne.
 
-## Forskelle i styrke på chin ups og pullups
+## Forskelle i styrke på chin ups og pull ups
 
 De _fleste_ vil formentlig være stærkere i chinups, fordi biceps bedst kan hjælpe, når armen er supineret. Så har vi en ekstra muskel.
 
 Hvis du fx kan lave 10 chinups, så er det meget typisk at du kun kan lave 6-7 pullups, og du vil også opdage i en _pull down_-maskine, at du kan flytte mere vægt, hvis du har et supineret greb.
 
-## Forskelle i muskelinvolvering
+## Forskelle i muskler ved pull ups og chin ups
 
 Begge øvelser træner primært den brede rygmuskel, trapezius og armbøjerne uanset, hvordan du vender og drejer det. Lad os kigge på de mindre forskelle, der trods alt er mellem øvelserne.
 
@@ -164,7 +164,7 @@ Det gælder for alle variationer af pullups og chinups. Typisk kan man lave en l
 
 Både chinups og pullups er virkelg gode øvelser og **de bedste (og sikreste) resultater kommer ved at bruge forskellige greb - og altså både have chinups og pullups i dit træningsprogram**.
 
-## Udfør øvelserne _strict_ for den bedste effekt
+## Udfør chinup og pullup _strict_ for den bedste effekt
 
 Du kan altså træne latissimus, biceps og trapezius med både pull-ups og chin-ups. Hvis du vil have mest ud af øvelserne, så er det faktisk ikke grebet, der er det vigtigste.
 
