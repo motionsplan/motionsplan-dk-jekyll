@@ -16,7 +16,11 @@ toc: true
 
 Jeg kigger i dette indlæg på, hvad den gennemsnitlige skridtlængde er for mænd og kvinder ved løb, og hvilken kadence (løbekadence) folk typisk løber med - altså hvor mange skridt, løbere tager i minuttet.
 
-Du har formentlig tænkt over, hvad din skridtlængde og løbekadence er, når du løber. Din kadence og skridtlængde under løb er med til at bestemme, hvor hurtigt du løber. Men din løbekadence og skridtlænge er naturligvis også en væsentlig del af din [løbeteknik og løbestil]({% link _posts/2020-08-16-loebeteknik.md %}) og kan også være med til at bestemme din [løbeøkononomi]({% link _posts/2019-12-16-running-economy.md %}). Nogle kobler også din kadence sammen med skadesrisikoen.
+Du har formentlig tænkt over, hvad din skridtlængde og løbekadence er, når du løber. Din kadence og skridtlængde under løb er med til at bestemme, hvor hurtigt du løber. Men din løbekadence og skridtlænge er naturligvis også en væsentlig del af din [løbeteknik og løbestil]({% link _posts/2020-08-16-loebeteknik.md %}) og kan også være med til at bestemme din [løbeøkononomi]({% link _posts/2019-12-16-running-economy.md %}). Nogle kobler også din kadence sammen med skadesrisikoen, fx i [Schubert et al (2014)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4000471/).
+
+[Heiderscheit (2011)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3022995/) konkluderer, at forøgelsen af kadencen med 5-10% i forhold til den nuværende kadence kan være med til at skabe mindre belastning på knæ- og hofteled, en mindre forskydning af tyngdepunktet og mindre bremsekraft i forbindelse med landingen. Den øgede kadence sænkede imidlertid også skridtlængden, hvilket potentielt kan gøre din løbehastighed kortere.
+
+Lad os kigge på både løbekadence og skridtlængde, og hvad der er mest betydningsfuldt for at have fornøjelse af løb på den lange bane. Jeg tror, at du skal arbejde allermest med løbekadencen, indtil den er blevet optimal, men døm selv, når du læser videre.
 
 {% include figure image_path=page.header.overlay_image caption=page.title alt="skridtlængde og kadence ved løb og løbekadence" %}
 
