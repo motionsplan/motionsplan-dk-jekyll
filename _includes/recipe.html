@@ -1,0 +1,53 @@
+{% assign recipe = include.recipe %}
+
+<div itemscope itemtype="https://schema.org/Recipe">
+  <span itemprop="name">{{ recipe.title }}</span>
+  {% if recipe.author %}
+  af <span itemprop="author">{{ recipe.author }}</span>,
+  <meta itemprop="datePublished" content="{{ page.last_modified_at | date: "%y-%m-%d" }}">{{ page.last_modified_at | date: date: "%a, %b %d, %y" }}
+  {% endif %}
+  <img itemprop="image" src="{{ recipe.image_path }}" alt="{{ recipe.title | downcase }}" />
+
+  <span itemprop="description">{{ recipe.description | markdownify }}</span>
+
+  <i class="fas fa-clock" aria-hidden="true"></i> Prep Time: <meta itemprop="prepTime" content="{{ recipe.prep_time }}">{{ recipe.prep_time | date: "%H:%M" }}
+  <i class="fas fa-clock" aria-hidden="true"></i> Cook time: <meta itemprop="cookTime" content="{{ recipe.cook_time }}">{{ recipe.cook_time | date: "%H:%M" }}
+  <i class="fas fa-bread-slice" aria-hidden="true"></i> Yield: <span itemprop="yield">{{ recipe.yield }}</span>
+  <i class="fas fa-bread-slice" aria-hidden="true"></i> Servings: <span itemprop="recipeYield">{{ recipe.servings }}</span>
+
+  {% comment %}
+  <div itemprop="nutrition"
+    itemscope itemtype="https://schema.org/NutritionInformation">
+    Nutrition facts:
+    <span itemprop="calories">240 calories</span>,
+    <span itemprop="fatContent">9 grams fat</span>
+  </div>
+  {% endcomment %}
+
+  <h3>Ingredienser</h3>
+  
+  <ul>
+  {% for row in recipe.ingredients %}
+    <li itemprop="recipeIngredient">{{ row | markdownify }}</li>
+  {% endfor %}
+  </ul>
+
+  <h3>Instruktioner</h3>
+  
+  <ul itemprop="recipeInstructions">
+  {% for row in recipe.instructions %}
+    <li>{{ row | markdownify }}</li>
+  {% endfor %}
+  </ul>
+  
+  
+{% comment %}
+  <div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating" class="penci-recipe-rating penci-recipe-review">
+							<span class="penci-rate-text">
+								Rating: 								<span itemprop="ratingValue" class="penci-rate-number">5.0</span>/5
+							</span>
+							<div class="penci_rateyo" id="penci_rateyo" data-allow="1" data-rate="5.0" data-postid="3121" data-people="1" data-total="5"></div>
+							<span class="penci-numbers-rate">( <span class="penci-number-people" itemprop="reviewCount">1</span> voted )</span>
+						</div>
+{% endcomment %}
+</div>
