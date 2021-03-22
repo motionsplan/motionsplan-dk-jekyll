@@ -161,4 +161,4 @@ Derefter kan det være nødvendigt at bruge en lidt mere avanceret programmering
 
 Du kan læse mere på [startingstrength.com](http://startingstrength.com/) og på [Starting Strength Youtube-kanal](https://www.youtube.com/channel/UC5FaqTBy0c1jlRUHKu4SuXQ). Desværre kan jeg ikke umiddelbart finde bogen til salg nogen steder. Hvis du ved, hvor man kan købe bogen, så brug gerne kommentarerne.
 
-{% include gallery id="gallery" caption="Mark Rippetoe har en del mindeværdige citater i Starting Strength. Se flere [citater om styrketræning]({% link _posts/2020-08-03-citater.md %})." %}
+{% include gallery id="gallery" caption="Mark Rippetoe har en del mindeværdige citater i Starting Strength. Se flere [citater om styrketræning](/citater-traening-motivation/)." %}
