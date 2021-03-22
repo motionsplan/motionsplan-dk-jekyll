@@ -14,11 +14,28 @@ tags:
   - opskrift
 last_modified_at: 2021-02-24T23:14:14Z
 toc: true
-galery_bodylab:
+gallery_bodylab:
   - image_path: https://www.bodylab.dk/images/campaigns/2021-02-free-pancake/dk/1080x429.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/frontpage.html
     alt: "Proteinpandekager"
     title: "Proteinpandekager med proteinpulver"
+recipe:
+  image_path: https://images.unsplash.com/photo-1589984947062-bcf4f5277b13?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80
+  yield: "6-7 små pandekager"
+  prep_time: PT0H15M
+  cook_time: PT0H15M
+  ingredients:
+    - 2 æg
+    - 40 g havregryn
+    - 100 g hytteost
+    - ½ tsk vanilljepulver (eller 1 tsk vaniljesukker)
+    - ½ tsk bagepulver
+    - 1-2 tsk flydende honning
+  instructions:
+    - Blend alle ingredienserne sammen til en ensartet masse. Lad dejen stå og trække i 10 minutter
+    - Opvarm en pande til middelvarme og kom ca. 2-3 store spsk dej på panden til hver pandekage
+    - Dejen flader ud. Steg pandekagen et par minutter på hver side.
+    - Hvis du har en slip-let-pande, så er det ikke nødvendigt med fedtstof.
 ---
 
 Her finder du fem lækre og sunde opskrifter på proteinpandekager uden banan. Nogle af opskrifterne er endda også uden proteinpulver.
@@ -53,6 +70,12 @@ Normalt er banan med til at søde pandekager, så opskrifter på proteinpandekag
 - Dejen flader selv ud, så vent blot et par minutter og vend pandekagen om
 - Det er ikke nødvendigt med fedtstof på en slip-let pande men det kan sagtens bruges, hvis det ønskes. Pandekagerne kan evt. serveres med min [hindbærpuré](https://madogkaerlighed.dk/hindbaer-pure-2/). Velbekomme!
 
+***
+
+{% include recipe.html recipe=page.recipe %}
+
+***
+
 ## Sunde proteinpandekager uden banan og mel
 
 {% include figure image_path="https://images.unsplash.com/flagged/photo-1557609786-fd36193db6e5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" caption="Proteinpandekager uden banan og uden proteinpulver" alt="proteinpandekager uden banan og uden proteinpulver" %}
@@ -86,7 +109,7 @@ Pandekager uden banan og mel – glutenfrie og proteinrige. Sunde og en død læ
 - Pisk mælk og honning sammen i en skål, til honningen er opløst. Rør melet i mælken, indtil du har en ensartet masse – gerne lidt flydende.
 - I en anden skål piskes æggehviderne helt stive. Når du kan vende skålen på hovedet, uden det ryger ud, er de klar til brug. Vend æggehviderne forsigtigt i dejen.
 - Fordel dejen med 2 spsk. dej, pr. pandekage på en middelvarme pande, og steg i kokosolie eller smør til de er lettere gyldne.
-- Nyd din stak med friske bær eller sirup. 
+- Nyd din stak med friske bær eller sirup.
 - Velbekomme.
 
 ## Proteinpandekager uden banan med proteinpulver
@@ -132,19 +155,18 @@ Du kan overveje at putte bagepulver i denne opskrift, hvilket kan hjælpe med at
 
 ### Fremgangsmåde for pandekagerne
 
-- **Først**pisker du æggene.  
-- **Dernæst**tilsætter du havregryn, skyr, og proteinpulveret og pisker lidt mere  
-- **Steg**pandekagerne ved svag varme – jeg lavede 7 små stk.  
-- **Server**med frisk frugt, nødder, bær, skyr eller noget helt andet! 🙂
+- Pisk æggene.  
+- Tilsæt havregryn, skyr, og proteinpulveret og pisk lidt mere  
+- Steg pandekagerne ved svag varme
 
 Du kan fx toppe pandekagerne med banan, blåbær, mandler og vindruer, men du kan også bruge din fantasi.
 
 {% include figure image_path="https://images.unsplash.com/photo-1590137867324-8c99d8c0af01?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80" caption="Proteinpandekager uden banan, men med proteinpulver" alt="proteinpandekager med proteinpulver" %}
 
-## Hvilken proteinpulver skal jeg bruge til mine proteinpandekager?
+## Hvilket proteinpulver skal jeg bruge til mine proteinpandekager?
 
 Hvis du vælger en opskrift, hvor du skal bruge proteinpulver i opskriften, så vil du måske gerne have svaret på, hvilket proteinpulver er det bedste til proteinpandekager?
 
-Vores bedste råd er at vælge et mærke af en dansk fabrikant, som står inde for kvaliteten af produktet. Så er det egentlig bare at vælge en smag du godt kan lide. Den kendte danske producent af proteinpulver [Bodylab\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/proteinpulver-84s1.html){: rel="sponsored" } har et stort udvalg af  [proteinpulver\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/proteinpulver-84s1.html){: rel="sponsored" }
+Vores bedste råd er at vælge et mærke af en dansk fabrikant, som står inde for kvaliteten af produktet. Så er det egentlig bare at vælge en smag du godt kan lide. Den kendte danske producent af proteinpulver [Bodylab\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/proteinpulver-84s1.html){: rel="sponsored" } har et stort udvalg af  [proteinpulver\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/proteinpulver-84s1.html){: rel="sponsored" }.
 
 {% include gallery id="gallery_bodylab" caption="Lige nu får du pulver til proteinpandekager med gratis, hvis du shopper på [Bodylab\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/proteinpulver-84s1.html){: rel='sponsored' }" %}
