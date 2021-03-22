@@ -18,7 +18,7 @@ category:
 last_modified_at: 2013-02-13T22:01:30Z
 ---
 
-Der er i hvert fald tre strategier, hvis man gerne vil forbedre sin evne til at tage mange gentagelser. Fx har mange et mål om at kunne tage mange [armstrækninger](http://www.motionsplan.dk/oevelse/armstraekker), [pullups](http://www.motionsplan.dk/oevelse/pullup) eller [vandrette kropshævninger](http://www.motionsplan.dk/oevelse/vandret-kropshaevning).
+Der er i hvert fald tre strategier, hvis man gerne vil forbedre sin evne til at tage mange gentagelser. Fx har mange et mål om at kunne tage mange [armstrækninger](/oevelse/armstraekker/), [pullups](/oevelse/pullup/) eller [vandrette kropshævninger](/oevelse/vandret-kropshaevning/).
 
 - **at blive stærkere.** Det gør du ved at lave styrketræning, hvor du laver relativt få gentagelser (fx 4-10) med en høj belastning - gerne højere end du normalt har på i den bevægelse, du gerne vil kunne tage mange gentagelser af.
 - **at blive mere udholdende.** Du laver så mange gentagelser som muligt til udmattelse med relativ lav vægt

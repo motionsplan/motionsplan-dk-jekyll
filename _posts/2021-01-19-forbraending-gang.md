@@ -42,7 +42,7 @@ Du bruger omkring 3-6 gange dit energiforbrug i hvile på at gå, me energiforbr
 
 Vi skal kigge på begrebet MET for at kunne regne lidt mere præcist på, hvor meget energi vi bruger på en gåtur.
 
-Når vi kigger i [MET-tabellen](https://www.motionsplan.dk/met/) nedenunder er det imidlertid væsentligt, at du er opmærksom på følgende.
+Når vi kigger i [MET-tabellen](/met/) nedenunder er det imidlertid væsentligt, at du er opmærksom på følgende.
 
 Energiforbruget ved aktivitet afhænger af forskellige faktorer:
 
@@ -79,7 +79,7 @@ Når du bruger dine muskler, så starter kroppen med at bruge ekstra ilt for at 
 
 Når du bevæger dig, så har du brug for meget ATP alt efter hvor lang og intenst du bevæger dig. Du har noget ATP, der bare venter i dine muskler, men der er kun til omking 10 sekunders arbejde. Derefter begynder kroppen at lave mere ATP.
 
-Ved korte, intense sprints over lidt længere tidsrum bruger din krop energi fra det [anaerobe energisystem](https://www.motionsplan.dk/energisystemer/), hvor kroppen spalter kulhydrat for hurtigt at kunne få energi. Der kan være behov for det anaerobe energisystem, hvis du går op ad meget stejle bakker.
+Ved korte, intense sprints over lidt længere tidsrum bruger din krop energi fra det [anaerobe energisystem](/energisystemer/), hvor kroppen spalter kulhydrat for hurtigt at kunne få energi. Der kan være behov for det anaerobe energisystem, hvis du går op ad meget stejle bakker.
 
 Ved længerevarende intense gåture får kroppen ATP ved at forbrænde både kulhydrat og fedt. Jo højere intensitet du går med, jo højere vil andelen af kulhydratforbrændingen være. Men den samlede forbrænding er også højere.
 
@@ -87,7 +87,7 @@ En tommelfingerregel er, at jo hurtigere du går og jo stejlere bakkerne er, jo 
 
 Du kan tjekke vores beregner længere ned på siden for at få et bud på, hvor mange kalorier du forbrænder, når du går.
 
-Hvis du er interesseret i at vide mere om kroppens tilpasninger til fx konditionstræning, så tjek Motionsplans indlæg om [fysiologiske forandringer i kroppen ved konditionstræning](https://www.motionsplan.dk/tilpasning-konditionstraening/). Der kan være fine tilpasninger i kredsløbet ved at gå en tur.
+Hvis du er interesseret i at vide mere om kroppens tilpasninger til fx konditionstræning, så tjek vores indlæg om [fysiologiske forandringer i kroppen ved konditionstræning](/tilpasning-konditionstraening/). Der kan være fine tilpasninger i kredsløbet ved at gå en tur.
 
 *[ATP]: Adenosine Triphosphate
 
@@ -122,7 +122,7 @@ Gang er ikke bedre en andre aktiviteter til at forbrænde mange kalorier, men fo
 
 Hvor meget du forbrænder ved en given aktivitet hænger nøje sammen med varigheden og intensiteten. 
 
-Om det er bedst at lave [kontinuerlig træning eller intervaltræning](https://www.motionsplan.dk/artikel/er-kontinuerlig-traening-eller-intervaltraening-bedst-for-fedtforbraendningen) afhænger bl.a. også af tidsforbruget i træningen. Du kan faktisk også organisere din gåtur som intervaltræning for at sætte forbrændingen op. Du kan naturligvis ikke forbrænde lige så meget, som du kan ved fx løb eller cykling, hvor du kan køre med meget højere intensitet.
+Om det er bedst at lave [kontinuerlig træning eller intervaltræning](/artikel/er-kontinuerlig-traening-eller-intervaltraening-bedst-for-fedtforbraendningen) afhænger bl.a. også af tidsforbruget i træningen. Du kan faktisk også organisere din gåtur som intervaltræning for at sætte forbrændingen op. Du kan naturligvis ikke forbrænde lige så meget, som du kan ved fx løb eller cykling, hvor du kan køre med meget højere intensitet.
 
 ## Kalorieberegner for gang
 
@@ -219,7 +219,7 @@ Du kan købe en skridttæller eller downloade en til din telefon, så du kan hol
 
 Hvis du vil have hjælp til at tabe dig og komme i form, så læs videre på Arono.dk. Her finder du en masse artikler og guides, der hjælper dig med kost, motion og den gode balance.
 
-Du kan også hurtigt og let oprette dig som bruger i app’en, og så vil vores smarte system udregne den optimale [kostplan til dig og dit vægttab](https://arono.dk/artikler/kostplan-til-vaegttab/), så du kan opnå et effektivt forløb – alt sammen lige i det tempo, du ønsker det.
+Du kan også hurtigt og let oprette dig som bruger i app’en, og så vil vores smarte system udregne den optimale [kostplan til dig og dit vægttab](https://arono.dk/artikler/kostplan-til-vaegttab/), så du kan opnå et effektivt forløb – alt sammen lige i det tempo, du ønsker det.
 
 
 kalorieforbrænding gang
