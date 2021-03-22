@@ -23,7 +23,7 @@ gallery:
     alt: "Mark Rippetoe Starting Strength Citat"
 ---
 
-Starting Strength er et meget udbredt styrketræningsprogram udformet af Mark Rippetoe. Starting Strenght er både en bog og et styrketræningsprogram.
+Starting Strength er et meget udbredt styrketræningsprogram udformet af Mark Rippetoe. Starting Strength er både en bog og et styrketræningsprogram.
 
 Den første udgave af _Starting Strength_ udkom i 2005, og nu er bogen kommet til tredje udgave. Starting Strength er en fremragende bog om styrketræning, og den gennemgår de enkelte løft meget grundigt i bogen.
 
@@ -133,7 +133,7 @@ Du skal også **hvile nok mellem de enkelte træningspas**. Der er en grund til,
 
 I de første uger af træningsprogrammet, kan du måske øge vægten med 4-5 kg pr. gang på squat, og du kan helt sikkert gøre det i dødløft. Hvis du fortsætter med lige så store vægtspring per gang, så kommer din træning til at stagnere.
 
-Kroppen responderer utrolig hurtigt i starten af et træningsprogram, men efter kort tid må du sætte mindre vægt på per gang. I bænkpres skal du bruge mindre vægtspring. Når du kører starting strenght er det godt at kunne micro-loade stangen fra træning til træning. Hvis dit eget træningscenter ikke har mulighed for at loade med mindre end 2,5 kg per gang, så kan du med fordel købe dine egne små skiver, hvis du vil køre Starting Strength. Du kan fx købe [0,5 kg fractional plates fra A-puls\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/nordic-fighter-fractional-plates-vaegtskiver-500g)
+Kroppen responderer utrolig hurtigt i starten af et træningsprogram, men efter kort tid må du sætte mindre vægt på per gang. I bænkpres skal du bruge mindre vægtspring. Når du kører starting strength er det godt at kunne micro-loade stangen fra træning til træning. Hvis dit eget træningscenter ikke har mulighed for at loade med mindre end 2,5 kg per gang, så kan du med fordel købe dine egne små skiver, hvis du vil køre Starting Strength. Du kan fx købe [0,5 kg fractional plates fra A-puls\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/nordic-fighter-fractional-plates-vaegtskiver-500g)
 
 De fleste beregnere du kan finde til Starting Strength online på nettet tager ikke højde for, at du relativt hurtigt i programmet skal i gang med mindre vægtspring fra træning til træning. Det betyder, at programmet kommer til at se usandsynligt ud, hvis du bare sætter det i værk.
 
@@ -149,7 +149,7 @@ Starting Strength er delt op i en A-træning og en B-træning. Du kører de enke
 
 Du sørger for at lave specifik opvarmning i de enkelte øvelser. Opvarmningssættene er vigtige for at få succes med programmet, men de må ikke udtrætte dig uden arbejdssættene. Opvarmningssættene ligger mellem 2-5 gentagelser.
 
-I Starting Strenght bruges 5 gentagelser per sæt i arbejdssættene. Både på A- og B-dage skal du lave 3 x 5 squats. For bænkpres og military press laver du skiftevis 3 x 5 gentagelser. Dødløft laves 1 x 5 gentagelser. Rippetoe synes at mene, at dødløft udtrætter kroppen mere. Min erfaring er, at man også ofte er lidt træt i kroppen efter squats.
+I Starting Strength bruges 5 gentagelser per sæt i arbejdssættene. Både på A- og B-dage skal du lave 3 x 5 squats. For bænkpres og military press laver du skiftevis 3 x 5 gentagelser. Dødløft laves 1 x 5 gentagelser. Rippetoe synes at mene, at dødløft udtrætter kroppen mere. Min erfaring er, at man også ofte er lidt træt i kroppen efter squats.
 
 Når du introducerer cleans i programmet, så er det i stedet fem sæt med 3 gentagelser.
 
