@@ -69,8 +69,8 @@ Men pullups og chinups er ikke det samme. Der er et par forskelle på de to øve
 |-|-|-|
 | Greb | Underhånd (supineret) | Overhånd (proneret) |
 | Bevægelse | Skulder ekstension | Skulder ekstension og adduktion | 
-| Styrke | Biceps arbejder med | Biceps er arbejder lidt mindre |
-| Muskler | Biceps arbejder lidt mere | Miderste del af trapezus arbejder mere | 
+| Styrke | Biceps arbejder mere | Biceps arbejder lidt mindre |
+| Muskler | Biceps arbejder lidt mere | Midterste del af trapezus arbejder mere | 
 
 [Calisthenicmovement](https://www.youtube.com/channel/UCZIIRX8rkNjVpP-oLMHpeDw) har lavet en fremragende Youtube video, der sammenligner pullups og chinups. I videoen ser de på, hvilke muskler der bruges i forskellige versioner af pullups.
 
@@ -93,9 +93,9 @@ Der er mange forskellige variationer af grebet i pullups og chinups, men den sid
 
 Både chinups og pullups er kropshævninger, som er et vertikalt træk. Begge bevægelser træner primært den brede rygmuskel, trapezius og armbøjerne, men de gør det på lidt forskellige måder.
 
-Pullups er en kombineret adduktion og ekstension i skulderen, hvor albuerne kommer ned og tilbage fra siden.
+Pullups er en kombineret adduktion og alt efter udførelsen kan der være en lille ekstension i skulderen. Albuerne kommer ned fra siden og trækkes måske lidt tilbage. En pullup foregår primært i det [frontale bevægelsesplan]({% link _pages/anatomy/joints.md %}).
 
-Chinups er en skulder ekstension, hvor albuerne kommer ned og tilbage fra forsiden.
+I chinups foregår en estension i skulderen, hvor albuerne kommer ned og tilbage fra forsiden, og en bøjning i albuen. En chinup foregår primært i det [sagitale bevægelsesplan]({% link _pages/anatomy/joints.md %}).
 
 **Bemærk**. Det hedder _chin up_, fordi man typisk siger at hagen skal over stangen, men dette instruktionsmoment kan faktisk gøre at bevægelsen bliver lidt forkert og du ender med at krumme i det øverste af ryggen og stikke hagen op.
 {: .notice .notice--danger }
