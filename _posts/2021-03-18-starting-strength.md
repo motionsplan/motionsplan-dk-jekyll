@@ -14,7 +14,7 @@ tags:
   - træning
   - styrketræning
   - programanmeldelse
-last_modified_at: 2020-01-23T08:14:14Z
+last_modified_at: 2021-03-22T08:14:14Z
 toc: true
 gallery:
   - image_path: /assets/images/pinterest/rippetoe-deadlift.png
@@ -161,4 +161,4 @@ Derefter kan det være nødvendigt at bruge en lidt mere avanceret programmering
 
 Du kan læse mere på [startingstrength.com](http://startingstrength.com/) og på [Starting Strength Youtube-kanal](https://www.youtube.com/channel/UC5FaqTBy0c1jlRUHKu4SuXQ). Desværre kan jeg ikke umiddelbart finde bogen til salg nogen steder. Hvis du ved, hvor man kan købe bogen, så brug gerne kommentarerne.
 
-{% include gallery id="gallery" caption="Mark Rippetoe har en del mindeværdige citater i Starting Strength. Se flere [citater om styrketræning](/citater-traening-motivation/)." %}
+{% include pinterest-gallery id="gallery" caption="Mark Rippetoe har en del mindeværdige citater i Starting Strength. Se flere [citater om styrketræning](/citater-traening-motivation/)." %}
