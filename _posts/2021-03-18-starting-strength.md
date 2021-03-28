@@ -48,6 +48,7 @@ Starting Strength er et dejligt enkelt program. Det starter med fire helkropsøv
 - Dødløft
 - Military Press
 - Clean / Frivend
+- Chinups
 
 Programmet følger en simpel linæer progressionsmodel. Ideen er at begyndere og løftere, der aldrig har prøvet at følge et program med en linæer progression, ikke behøver avanceret programmering i deres træning. De behøver først og fremmest et struktureret styrketræningsprogram.
 
@@ -68,6 +69,8 @@ Jeg har selv brugt Starting Strength mange gange efter fx en træningspause for 
 Mark Rippetoe er meget optaget af hensigtsmæssig løfteteknik for at blive stærk. Bogen har en meget nøjagtig gennemgang af teknik. Formålet med teknikken er at placere ryggen i en passende vinkel for at kunne lave maksimal kraftproduktion.
 
 Jeg har tidligere skrevet, at din [teknik i styrketræning]({% link _posts/2019-08-10-teknik.md %}) skal passe til din kropsbygning. Det mener Mark Rippetoe også. I squat foreslår han, at for de fleste skal stangen placeres længere nede på ryggen end de mange gør i forvejen. Men det kommer helt an på, hvordan din krop er sat sammen.
+
+## Øvelser og beskrivelser til Starting Strength
 
 Mark Rippetoe har lavet nogle rigtig gode videoer om de enkelte løft.
 
@@ -95,6 +98,12 @@ Selvom der ikke dødløftes så meget i Starting Strength, så er det ikke fordi
 
 ## Chinups
 
+Oprindeligt blev [chinups](/chinup-vs-pullup/) introduceret lidt senere i træningsprogrammet, men hans nyeste anbefaling er at smide chinups ind efter omkring uge 3. Det svarer til fase 2 i de nedenstående faser. 
+
+> "Vi skal smide chinups tidligt, så du kan få arme nu. Chinups starter i uge 3."
+
+— <cite>[Mark Rippetoe](https://www.muscleandfitness.com/workout-plan/workouts/workout-routines/4-week-beginners-guide-building-stronger-more-muscular-physique/)</cite>
+
 {% include video provider="youtube" id="9aA0-FbxK9E" %}
 
 ## Power clean
@@ -113,11 +122,45 @@ Mark Rippetoe bruger lidt flere videoer på at forklare, hvordan man laver et po
 
 {% include video provider="youtube" id="xmKTiqE3S0E" %}
 
-Oprindeligt blev [chinups](/chinup-vs-pullup/) introduceret lidt senere i træningsprogrammet, men hans nyeste anbefaling er at smide chinups ind efter omkring uge 3. 
+## Faser i Starting Strength
 
-> "Vi skal smide chinups tidligt, så du kan få arme nu. Chinups starter i uge 3."
+[Mark Rippetoe](https://startingstrength.com/get-started/programs) foreslår tre faser til Starting Strength. 
 
-— <cite>[Mark Rippetoe](https://www.muscleandfitness.com/workout-plan/workouts/workout-routines/4-week-beginners-guide-building-stronger-more-muscular-physique/)</cite>
+### Fase 1 (1-3 uger)
+
+I første fase er de enkelte træninger de samme ud over at military press og bænkpres skifter hver gang. Der er mulighed for at få god fremgang på kort tid her. Husk at holde øje med, hvordan kroppen reagerer undervejs.
+
+| Dag A | Dag B |
+|-|-|
+| Squat 3 x 5 |	Squat 3 x 5 |
+| Bench Press 3 x 5 |	Press 3 x 5 |
+| Deadlift 1 x 5 | Deadlift 1 x 5 |
+
+### Fase 2 (variabel længde)
+
+I fase introduceres power cleans den ene dag i stedet for dødløft. Ideen er, at et er vanskeligt at restitutere fra dødløft, hvis du skal lave den hver gang. Men den eksplosive øvelse - cleans - kan være med til stadig at hjælpe med at få fremgang i dødløft. Hvis du ikke vil arbejde med teknikken i cleans, kan du også bruge speed deadlifts eller eksplosive high pulls.
+
+| Dag A | Dag B |
+|-|-|
+| Squat 3 x 5 | Squat 3 x 5 |
+| Bench Press 3 x 5 | Press 3 x 5 |
+| Deadlift 1 x 5 | Power Clean 5 x 3 |
+
+### Fase 3 (variabel længde)
+
+Her er løfterne ved at være så stærke, at frekvensen af trækkene sænkes mere, og der introduceres chinups. I de senere variationer af Starting Strength, så bliver chinups introduceret tidligere. Det synes jeg også godt, at de kan blive.
+
+Det er også nu micro-loading og fractional loading kan være en fordel. Måske kan squat ikke længere have vægt på hver gang, og du skal overveje, at sænke volumen den ene dag for squat. Nu er du ved at opnå avanaceret begynder stadium.
+
+| Dag A | Dag B |
+|-|-|
+| Squat 3 x 5 | Squat 3 x 5 |
+| Bench Press 3 x 5 | Press 3 x 5 |
+| Deadlift 1 x 5 / Power cleans 5 x 3 | Chin-ups |
+
+Rippetoe anbefaler at lave 3 sæt med AMRAP. Hvis du kan lave mere end 3 x 10 bør de formentlig laves med vægt hver anden gang i programmet. I nyere anbefalinger, så vil Rippetoe introducere chinups tidligere i fase 2 allerede, så vi kan få nogle arme.
+
+Starting Strength er altså ikke bare linære programmering i det uendelige. Når du begynder at vænne dig til vægtene, så kører du gennem faserne.
 
 ## Mark Rippetoes træningstips til Starting Strength
 

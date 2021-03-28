@@ -29,7 +29,8 @@ feature_row:
     btn_class: btn--success
 language: da
 ---
-*Texas Method* er et styrketræningsprogram, der er rettet mod den letøvede løfter. Ofte opfatter man det som en overbygning på begynderprogrammet Starting Strength af Mark Rippetoe. Programmet består af en volumendag om mandagen, en lettere restitutionsdag med variation om onsdagen og en højintensiv dag om fredagen for de store løft.
+
+*Texas Method* er et styrketræningsprogram, der er rettet mod den letøvede løfter. Ofte opfatter man det som en overbygning på [begynderprogrammet Starting Strength af Mark Rippetoe](/starting-strength-styrketraeningsprogram/). Programmet består af en volumendag om mandagen, en lettere restitutionsdag med variation om onsdagen og en højintensiv dag om fredagen for de store løft.
 
 *[AMRAP]: As many reps as possible*
 *[PR]: Personal Record

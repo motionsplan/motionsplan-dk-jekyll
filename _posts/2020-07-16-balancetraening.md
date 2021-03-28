@@ -1,5 +1,7 @@
 ---
-title: &title "Balancetræning 🤸: Effektiv træning af din balance [2021]"
+title: &title "Balancetræning 🤸: Effektiv træning af din balance"
+seo_title: "Balancetræning: Alt om balance og balanceøvelser [2021]"
+description: "Balancetræning bør være en del af din træning. Vi har kigget på, hvad balance er, og hvordan du træner din balance mest effektivt med balanceøvelser?"
 permalink: /balance/
 language: da
 header:
@@ -14,7 +16,7 @@ category:
 last_modified_at: 2021-02-18T08:39:32Z
 ---
 
-Balancetræning bør være en del af din træning, da træning af balance forebygger skader. Vi har kigget på, hvad balance er for noget, og hvordan du træner din balance mest effektivt?
+Balancetræning bør være en del af din træning, da træning af balance forebygger skader. Vi har kigget på, hvad balance er, og hvordan du træner din balance mest effektivt med balanceøvelser?
 
 Hvad er balance? **Balance er en motorisk færdighed, som kan trænes. Balance omfatter evnen til at opretholde en ligevægtstilstand i kroppen, mens man er stationær eller i bevægelse. Balance handler altså om at kunne stå eller sidde stille eller bevæge sig uden at falde.**
 
@@ -110,11 +112,11 @@ Du kan også tage alle de muligheder, der byder sig i løbet af hverdagen for at
 
 ## Hvor kan man træne balancetræning?
 
-Balancetræning er heligvis let at implementere, fordi du er dit eget træningsredskab. Man behøver **ingen redskaber** for at kunne træne balance effektivt og udfordrende.
+Balancetræning er heldigvis let at implementere, fordi du er dit eget træningsredskab. Du behøver **ingen redskaber** for at kunne træne balance effektivt og udfordrende.
 
 Det har været meget populært at introducere redskaber som BOSU-bolde og vippebræt til balancetræningen, og selvom det kan være sjovt at udfordrende at træne på de redskaber, så giver det formentlig ikke nogen effekt i forhold til de situationer, hvor du har brug for din balance i hverdagen eller i din idræt. Når du træner på redskaber, så bliver du bedre til at holde balancen på redskaberne - og får en større bevægelseserfaring - men husk princippet om specificitet.
 
-## Hvem kan træne balancetræning?
+## Hvem kan træne balancetræning og balanceøvelser?
 
 **Balancetræning er for alle**. Det handler om, hvordan du tilrettelægger træningen. Måske skal du starte med at få lidt støtte ved fx at holde i en stol eller læne dig op ad væggen. Efterhånden vil balancen blive bedre, og du kan udnytte nogle af de variationsmuligheder, vi har beskrevet i dette indlæg. Selv dygtige balancekunstnere burde finde udfodringer i de lidt mere avancerede udgaver af balanceøvelserne.
 
@@ -261,7 +263,7 @@ Yoga Tree Pose er en rigtig god balanceøvelse på et ben. Den kan godt være li
 
 **Udgangssstillingen** er at stå på en fod. Gør dig lang, mens du holder hele kroppen i balance. Bøj det frie ben og sæt foden så højt op på standbenets inderlår som muligt. Knæet på det frie ben skal pege udad, så sørg for at åbne op i hoften. Armene strækkes lidge op med håndfladerne mod hinanden. Hold balancen så længe som muligt. Start fx med 20 sekunder, men arbejd op til et minut eller længere. Gentag på det andet ben.
 
-## Balance og stabilitet med modstand (Pertubationstræning)
+## Balanceøvelser og stabilitet med modstand (Pertubationstræning)
 
 [Marina Aagaard](http://marinaaagaardblog.com/2015/05/27/traening-af-balance-og-stabilitet-pertubationstraening/) har skrevet et glimrende indlæg om balancetræning, hvor man skal holde balance i forhold til udefrakommende påvirkninger.
 
@@ -285,7 +287,7 @@ Marina Aagaard foreslår bl.a. følgende balanceøvelser efter pertubationsprinc
 - Stå på balancebræt eller luftpude. En ven træder på luftpuden eller balancebrættet (set el. uset).
 - Sid eller knæl på stor bold. Træner puffer til bolden eller person (set el. uset).
 
-## Opsamling på balance og balancetræning
+## Opsamling på balance, balanceøvelser og balancetræning
 
 Det er bare at komme lidt i gang med balancetræning. Jeg har i dette indlæg defineret, hvad balance og balancetræning er. Desuden har jeg oplistet en lang række øvelser, som kan være med til at træne din posturale kontrol, balance og kropsbeherskelse. 
 
@@ -299,7 +301,7 @@ Hvad er **fordelene** ved balancetræning?
 
 God balancetræning! Brug endelig kommentarerne, hvis du har flere gode forslag til øvelser til at træne balancen.
 
-## Referencer til balance
+## Referencer til balance og balanceøvelser
 
 <details markdown="1">
   <summary>Se flere referencer om {{ page.title }}</summary>
