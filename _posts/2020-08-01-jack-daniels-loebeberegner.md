@@ -73,6 +73,31 @@ Du kan lære lidt mere om de forskellige løbetempi fra Jack Daniels selv i denn
 
 {% include calculate-jack-daniels.html %}
 
+Hvis du har løbet en vilkårlig distance, så kan du gå direkte til [runsmartproject.com/calculator](https://runsmartproject.com/calculator).
+
+## Tabel over løbetempo fra Jack Daniels Løbsberegner
+
+| | | %VO2max | %HR-max | Effekt |
+|-|-|-|-|-|
+| E | Easy Run | 59%-74% | 65-79%  | Forbedrer slagvolumen og nødvendige celleforandringer. Effekten af E-tempo er mere en funktion af tiden i zonen end af intensiteten. |
+| M | Maraton-tempo | 75-84% | 80-90% | Erfaring med maraton-tempoet |
+| T | Tærksel-træning | 83-88% | 88-92% | Forbedrer udholdenheden og evnen til at løbe i højt tempo. Skal føles "behageligt" rare - og i en hastighed, som du kan holde i 45-60 minutter |
+| I | Intervaltræning | 95-100% | 98-100% | Forbedrer den maksimale iltoptagelse. Interval-tempo er hårde, men det er ikke _all out_-løb. Typisk er intervallerne i denne zone fra 3-5 minutter. |
+| R | Repetitions | | | Typisk omkring dit 1500 meter tempo. Skal forbedre din hastighed og løbeøkonomi. Målet er at løbe afslappet samtidig med at du løber hurtigt, så du lærer kroppen at blive mere effektiv ved lavere hastigheder. |
+| | Strides | | | Kontrollerede accelerationer på omkring 80-100 meter (cirka 20 sekunder) for at hjælpe med løbeteknik. 60 sekunders pause mellem hvert stigningsløb. |
+
+Mange taler om en 80/20 plan for løbetræningen. Det betyder, at omkring 80% af træningen skal være _easy run_ med E-tempo, mens 20% af træningen skal være træning med høj intensitet.
+
+{% comment %}
+
+## Training load og Traning Points
+
+Jack Daniels arbejder med begrebet _training points_ som en måde at monitorere _training load_ over tid.
+
+En måde at måle _training load_ i løb på er hvor mange kilometer, du løber om ugen. Training load tilfører og viden om kvalitet og intensitet til overvågningen af træningen.
+
+{% endcomment %}
+
 ## Betragtninger om Jack Daniels løbeberegner
 
 Træningstempoet udregnet ved hjælp af Jack Daniels Running Formula er baseret på konkurrencetempo for fx 5 kilometer.
@@ -142,7 +167,7 @@ Udholdenhedstræning kan fx fylde omkring 25-30% af ugens samlede træningsmæng
 
 Træning af den anaerobe tærskel er en vigtig træningsform for distanceløbere, men hvad er mælkesyretærsklen eller den anaerobe tærskel?
 
-Hvad er den anaerobe tærkel? **Den anaerobe tærskel eller mælkesyregrænsen er det tidspunkt, hvor musklerne og leveren ikke længere kan nå at nedbryde mælkesyren lige så hurtigt som den skabes som biprodukt af en anaerob forbrænding i mitochondrierne. Når man løber over den anaerobe tærskel, vil man altså langsomt opbygge mere og mere mælkesyre i kroppen.**
+Hvad er den anaerobe tærskel? **Den anaerobe tærskel eller mælkesyregrænsen er det tidspunkt, hvor musklerne og leveren ikke længere kan nå at nedbryde mælkesyren lige så hurtigt som den skabes som biprodukt af en anaerob forbrænding i mitochondrierne. Når man løber over den anaerobe tærskel, vil man altså langsomt opbygge mere og mere mælkesyre i kroppen.**
 
 Den [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}) er der, hvor kroppen gradvist går fra forbrænding med ilt (aerob forbrænding) til en proces, hvor musklerne ikke har ilt til stede.
 
