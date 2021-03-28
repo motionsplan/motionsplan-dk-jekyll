@@ -1,7 +1,7 @@
 ---
 title: "Løbesiden: Løbsberegner til træningstempo og konkurrencetider"
 permalink: /loebesiden-jack-daniels-loebeberegner/
-last_modified_at: 2020-07-24T09:41:09Z
+last_modified_at: 2021-03-28T09:41:09Z
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1529795533870-ea8020391255?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
@@ -72,8 +72,6 @@ Du kan lære lidt mere om de forskellige løbetempi fra Jack Daniels selv i denn
 {: .notice .notice--info }
 
 {% include calculate-jack-daniels.html %}
-
-Hvis du har løbet en vilkårlig distance, så kan du gå direkte til [runsmartproject.com/calculator](https://runsmartproject.com/calculator).
 
 ## Tabel over løbetempo fra Jack Daniels Løbsberegner
 
