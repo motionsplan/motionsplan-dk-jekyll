@@ -1314,6 +1314,19 @@ $(document).ready(function() {
         $("#velocity_kmt").val(c.getKilometersPrHour(min, sec, distance));
         $("#velocity_min_km").val(c.getTimePrKilometer(min, sec, distance));
     });
+    $("#calculator_how_far_interval").submit(function(e) {
+        console.log("Calculate velocity");
+        e.preventDefault();
+
+        let min = Number($("[name='min']").val());
+        let sec = Number($("[name='sec']").val());
+        let duration_min = Number($("[name='duration_min']").val());
+        let duration_sec = Number($("[name='duration_sec']").val());
+
+        let c = running.Running();
+
+        $("[name='distance_to_run']").val(c.convertMinPerKmToDistanceForDuration(min, sec, duration_min, duration_sec).toFixed(0));
+    });
     $("#calculator_convert_kmt_minkm_velocity").submit(function(e) {
         console.log("Calculate velocity");
         e.preventDefault();
