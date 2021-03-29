@@ -99,7 +99,7 @@ Mange taler om en 80/20 plan for løbetræningen. Det betyder, at omkring 80% af
 
 Når jeg laver et løbeprogram, så tager jeg udgangspunkt i denne skabelon, som du er velkommen til at bruge også.
 
-{% include feature_row type="template" type="left" %}
+{% include feature_row id="template" type="left" %}
 
 {% comment %}
 
