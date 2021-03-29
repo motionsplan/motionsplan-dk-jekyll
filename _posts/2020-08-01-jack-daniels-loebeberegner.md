@@ -32,6 +32,13 @@ feature_row:
     excerpt: "Claus Hechmanns bog LØB SOM ELITEN er handler om, hvordan du skal træne for at blive en hurtigere løber og få mest muligt ud af dit potentiale. Bogen indeholder fem specialdesignede 12-ugers programmer til distancerne 5 km, 10 km og helt op til maraton."
     btn_label: "Tjek prisen hos Tales*"
     btn_class: "btn--danger"
+template:
+  - image_path: /assets/images/template/jack-daniels.png
+    url: https://docs.google.com/document/d/1LRwLogpMtkM88HQnEa2hjgpkQmOIPIM7TcnZGM-erlQ/copy
+    title: "Løbetræning og løbeprogram skabelon"
+    excerpt: "Skabelon til at lave et løbeprogram, hvor man kan tage udgangspunkt i Jack Daniels Running Formula og løbsberegner."
+    btn_label: "Google Docs*"
+    btn_class: "btn--info"
 ---
 
 Her på løbesiden kan du finde en løbeberegner, der kan beregne dit træningstempo og konkurrencetider ud fra Jack Daniels Running Formula. Enhver løbeside med respekt for sig selv skal naturligvis have en løbsberegner.
@@ -73,6 +80,10 @@ Du kan lære lidt mere om de forskellige løbetempi fra Jack Daniels selv i denn
 
 {% include calculate-jack-daniels.html %}
 
+Jeg har lavet en anden beregner, der hurtigt kan hjælpe dig med at udregne, [hvor langt du skal løbe i dit tidsinterval]({% link _posts/2021-03-28-hvor-langt-pr-interval.md %})?
+
+Jeg har også lavet en beregner, hvor du kan [omregne fra min/km til km/t](/hastighed/).
+
 ## Tabel over løbetempo fra Jack Daniels Løbsberegner
 
 | | | %VO2max | %HR-max | Effekt |
@@ -85,6 +96,10 @@ Du kan lære lidt mere om de forskellige løbetempi fra Jack Daniels selv i denn
 | | Strides | | | Kontrollerede accelerationer på omkring 80-100 meter (cirka 20 sekunder) for at hjælpe med løbeteknik. 60 sekunders pause mellem hvert stigningsløb. |
 
 Mange taler om en 80/20 plan for løbetræningen. Det betyder, at omkring 80% af træningen skal være _easy run_ med E-tempo, mens 20% af træningen skal være træning med høj intensitet.
+
+Når jeg laver et løbeprogram, så tager jeg udgangspunkt i denne skabelon, som du er velkommen til at bruge også.
+
+{% include feature_row type="template" type="left" %}
 
 {% comment %}
 
