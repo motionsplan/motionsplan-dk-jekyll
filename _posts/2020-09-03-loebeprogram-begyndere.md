@@ -15,6 +15,13 @@ tags:
   - løbetræning
 last_modified_at: 2020-09-03T23:14:14Z
 toc: true
+feature_row_program:
+  - image_path: /assets/images/template/lobeprogram-begynder.png
+    url: https://docs.google.com/document/d/1goPqka7HO8obvxKe4Zc4qAWks5WSZ4B8ScMledIOFIY/copy?usp=sharing
+    title: "Løbeprogram til begyndere"
+    excerpt: Forslag til et løbeprogram, hvor du kan komme fra 0 til 5 kilometer som begynder. Vi arbejder os op fra at gå til at kunne løbe længere og længere i fire faser. Programmet er målrettet dig, der gerne vil i gang med at løbe.
+    btn_label: "Download løbeprogrammet til begyndere"
+    btn_class: "btn--info"
 ---
 
 Jeg har lavet et løbeprogram til dig, der ikke er vant til at løbe. Løbeprogrammet er til dig som begynder, der gerne vil i gang med løbetræningen.
@@ -27,7 +34,7 @@ Alt for mange starter for hurtigt ud, fordi de bliver opsat på at løbe et best
 
 Men det er ikke altid løbeprogrammets skyld. Mange begyndere er også utålmodige, når de vil i gang med at løbe. Derfor begynder de at løbe mere end programmet siger eller løbe hurtigere på de enkelte løbetræninger.
 
-Derfor er dette løbeprogram baseret på minutter og ikke kilometer. 
+Derfor er dette løbeprogram baseret på minutter og ikke kilometer.
 
 Jeg har lavet en dybdegående artikel om, som du med fordel kan læse, når du gerne vil i gang med [løbeprogram](/artikel/kom-i-gang-med-loebetraeningen/).
 
@@ -69,6 +76,10 @@ Hvis du gerne vil se om du bliver bedre i løbet af træningsprogrammet, så kan
 - Der bruges **pauser** i programmet. De er der for at hjælpe dig, så der er ingen grund til at springe dem over, før programmet giver mulighed for det.
 - Programmet er relativt enkelt. Det kræver bare et stopur og en portion vedholdenhed.
 - Programmet er periodiseret, så du i de forskellige faser arbejder med lidt forskellige ting.
+
+Du kan se løbeprogrammet her:
+
+{% include feature_row id="feature_row_program" type="left" %}
 
 ## Sådan laver du løbeprogrammet for begyndere
 
