@@ -83,7 +83,6 @@ collections:
           - {label: "Url", name: "url", widget: "string"}
           - {label: "Btn label", name: "btn_label", widget: "string"}
           - {label: "Btn class", name: "btn_class", widget: "select", options: ["btn--success", "btn--warning", "btn--danger", "btn--info"], default: "btn--success"}
-      - {label: "Last modified at", name: "last_modified_at", widget: "datetime", format: "YYYY-MM-DDThh:mm:ssZ", dateFormat: "dd-MM-YYYY", timeFormat: "HH:mm", required: false}
       - label: Gallery
         name: gallery
         widget: list
@@ -94,6 +93,7 @@ collections:
           - {label: "Alt", name: "alt", widget: "string"}
           - {label: "Image", name: "image_path", widget: "string"}
           - {label: "Url", name: "url", widget: "string"}
+      - {label: "Last modified at", name: "last_modified_at", widget: "datetime", format: "YYYY-MM-DDThh:mm:ssZ", dateFormat: "dd-MM-YYYY", timeFormat: "HH:mm", required: false}
   - name: "pages" # Used in routes, e.g., /admin/collections/blog
     label: "Sider" # Used in the UI
     label_singular: "Side"
@@ -116,19 +116,17 @@ collections:
         collapsed: true
         required: false
         fields:
-          - {label: "Overlay Image", name: "overlay_image", widget: "string"}
-          - {label: "Teaser Image", name: "teaser", widget: "string"}
-          - {label: "Caption", name: "caption", widget: "string"}
+          - {label: "Overlay Image", name: "overlay_image", widget: "string", required: false}
+          - {label: "Teaser Image", name: "teaser", widget: "string", required: false}
+          - {label: "Caption", name: "caption", widget: "string", required: false}
           - label: Actions
             name: actions
             widget: list
             collapsed: true
             required: false
             fields:
-              - {label: "Label", name: "label", widget: "string"}
-              - {label: "Url", name: "url", widget: "string"}
-      - {label: "Category", name: "category", widget: "list", allow_add: true}
-      - {label: "Tags", name: "tags", widget: "list", allow_add: true}
+              - {label: "Label", name: "label", widget: "string", required: false}
+              - {label: "Url", name: "url", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - label: Feature row
         name: feature_row
@@ -143,7 +141,6 @@ collections:
           - {label: "Url", name: "url", widget: "string"}
           - {label: "Btn label", name: "btn_label", widget: "string"}
           - {label: "Btn class", name: "btn_class", widget: "select", options: ["btn--success", "btn--warning", "btn--danger", "btn--info"], default: "btn--success"}
-      - {label: "Last modified at", name: "last_modified_at", widget: "datetime", format: "YYYY-MM-DDThh:mm:ssZ", dateFormat: "dd-MM-YYYY", timeFormat: "HH:mm", required: false}
       - label: Gallery
         name: gallery
         widget: list
@@ -154,6 +151,7 @@ collections:
           - {label: "Alt", name: "alt", widget: "string"}
           - {label: "Image", name: "image_path", widget: "string"}
           - {label: "Url", name: "url", widget: "string"}
+      - {label: "Last modified at", name: "last_modified_at", widget: "datetime", format: "YYYY-MM-DDThh:mm:ssZ", dateFormat: "dd-MM-YYYY", timeFormat: "HH:mm", required: false}
   - name: "exercises" # Used in routes, e.g., /admin/collections/blog
     label: "Øvelser" # Used in the UI
     label_singular: "Øvelse"
@@ -280,7 +278,6 @@ collections:
           - {label: "Latin", name: "latin", widget: "string", required: false}
           - {label: "English", name: "en", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
-      - {label: "Last modified at", name: "last_modified_at", widget: "datetime", format: "YYYY-MM-DDThh:mm:ssZ", dateFormat: "dd-MM-YYYY", timeFormat: "HH:mm", required: false}
       - label: "Exercises"
         name: "exercises"
         widget: "relation"
@@ -308,3 +305,4 @@ collections:
         display_fields: ["title"]
         multiple: true
         required: false
+      - {label: "Last modified at", name: "last_modified_at", widget: "datetime", format: "YYYY-MM-DDThh:mm:ssZ", dateFormat: "dd-MM-YYYY", timeFormat: "HH:mm", required: false}
