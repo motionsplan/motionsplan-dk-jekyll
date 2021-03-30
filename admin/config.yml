@@ -39,6 +39,11 @@ collections:
       - label: "Jesper"
         field: author
         pattern: "jesper.emil.jakobsgaard"
+    view_groups:
+      - label: Year
+        field: last_modified_at
+        # groups items based on the value matched by the pattern
+        pattern: \d{4}
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - label: Header
@@ -87,9 +92,15 @@ collections:
           - {label: "Url", name: "url", widget: "string"}
   - name: "pages" # Used in routes, e.g., /admin/collections/blog
     label: "Sider" # Used in the UI
+    label_singular: "Side"
     folder: "_pages/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    view_groups:
+      - label: Year
+        field: last_modified_at
+        # groups items based on the value matched by the pattern
+        pattern: \d{4}
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - label: Header
@@ -137,10 +148,16 @@ collections:
           - {label: "Image", name: "image_path", widget: "string"}
           - {label: "Url", name: "url", widget: "string"}
   - name: "exercises" # Used in routes, e.g., /admin/collections/blog
-    label: "Exercises" # Used in the UI
+    label: "Øvelser" # Used in the UI
+    label_singular: "Øvelse"
     folder: "_exercises/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    view_groups:
+      - label: Year
+        field: last_modified_at
+        # groups items based on the value matched by the pattern
+        pattern: \d{4}
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Excerpt", name: "excerpt", widget: "text",  required: false, collapsed: true}
@@ -182,9 +199,17 @@ collections:
       - {label: "Last modified at", name: "last_modified_at", widget: "datetime", format: "YYYY-MM-DDThh:mm:ssZ", dateFormat: "dd-MM-YYYY", timeFormat: "HH:mm", required: false}
   - name: "anatomy" # Used in routes, e.g., /admin/collections/blog
     label: "Muskler" # Used in the UI
+    label_singular: "Muskel"
     folder: "_anatomy/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    view_groups:
+      - label: Year
+        field: last_modified_at
+        # groups items based on the value matched by the pattern
+        pattern: \d{4}
+      - label: Group
+        field: group
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - label: "Name"
