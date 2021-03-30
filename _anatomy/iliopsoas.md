@@ -1,26 +1,32 @@
 ---
-title: "Hoftebøjeren"
+title: Hoftebøjeren
 name:
-  latin: "Iliopsoas"
+  latin: Iliopsoas
+  en: Iliopsoas
+group:
+  - Hofte
+joint:
+  - Hofteleddet
 tags:
   - fitnessinstruktør
   - muskel
   - not-in-imagemap
-origin: 
-  da: Lændehvirvel og hoftebenet
-insertion: 
-  da: Bagsiden af lårbenet
 function:
   da:
     - short: Bøjning i hofteleddet
-      extended: ""
+      extended: Bøjning i hofteleddet
   en:
     - short: Bøjning i hofteleddet
       extended: ""
+origin:
+  da: Lændehvirvel og hoftebenet
+insertion:
+  da: Bagsiden af lårbenet
+last_modified_at: 2021-03-30T09:30:22+02:00
+image_focus: null
+image: https://chintamaniyoga.com/wp-content/uploads/2017/02/Screen-Shot-2017-02-04-at-4.55.13-PM-725x675.png
 exercises:
   - Stående calf-raise
-image: https://chintamaniyoga.com/wp-content/uploads/2017/02/Screen-Shot-2017-02-04-at-4.55.13-PM-725x675.png
-image_focus: 
 ---
 
 _{{ page.name.latin }}_
