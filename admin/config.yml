@@ -44,6 +44,7 @@ collections:
         field: last_modified_at
         # groups items based on the value matched by the pattern
         pattern: \d{4}
+    preview_path: "{{ permalink }}"
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - label: Header
