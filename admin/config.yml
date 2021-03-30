@@ -48,8 +48,8 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "SEO Title", name: "seo_title", widget: "string", required: false}
-      - {label: "SEO Beskrivelse", name: "description", widget: "text",  required: false, collapsed: true}
-      - {label: "Excerpt", name: "excerpt", widget: "text",  required: false, collapsed: true}
+      - {label: "SEO Beskrivelse", name: "description", widget: "text",  required: false}
+      - {label: "Excerpt", name: "excerpt", widget: "text",  required: false}
       - label: Header
         name: header
         widget: object
@@ -108,8 +108,8 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "SEO Title", name: "seo_title", widget: "string", required: false}
-      - {label: "SEO Beskrivelse", name: "description", widget: "text",  required: false, collapsed: true}
-      - {label: "Excerpt", name: "excerpt", widget: "text",  required: false, collapsed: true}
+      - {label: "SEO Beskrivelse", name: "description", widget: "text",  required: false}
+      - {label: "Excerpt", name: "excerpt", widget: "text",  required: false}
       - label: Header
         name: header
         widget: object
@@ -166,10 +166,10 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "SEO Title", name: "seo_title", widget: "string", required: false}
-      - {label: "SEO Beskrivelse", name: "description", widget: "text",  required: false, collapsed: true}
-      - {label: "Excerpt", name: "excerpt", widget: "text",  required: false, collapsed: true}
-      - {label: "Instructions", name: "instructions", widget: "text",  required: true, collapsed: true}
+      - {label: "SEO Beskrivelse", name: "description", widget: "text",  required: false}
       - {label: "Permalink", name: "permalink", widget: "string", required: false}
+      - {label: "Excerpt", name: "excerpt", widget: "text",  required: false}
+      - {label: "Instructions", name: "instructions", widget: "text",  required: true, collapsed: true}
       - {label: "Category", name: "categories", widget: "list", allow_add: true}
       - {label: "Tags", name: "tags", widget: "list", allow_add: true}
       - {label: "Training type", name: "training_type", widget: "list", allow_add: true}
