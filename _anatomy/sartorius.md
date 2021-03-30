@@ -1,6 +1,7 @@
 ---
 title: "Skræddermusklen"
-group: Ben
+group:
+  - Ben
 name:
   latin: "Sartorius"
 tags:

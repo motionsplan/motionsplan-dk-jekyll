@@ -1,6 +1,7 @@
 ---
 title: "Lårmusklens indre hoved"
-group: Ben
+group:
+  - Ben
 name:
   latin: "Vastus Medialis"
 tags:

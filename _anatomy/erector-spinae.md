@@ -2,6 +2,8 @@
 title: "Rygstrækkere"
 name:
   latin: "Erector Spinae"
+group:
+  - Ryg
 tags:
   - fitnessinstruktør
   - muskel

@@ -1,6 +1,7 @@
 ---
 title: "Den lange indadfører"
-group: Ben
+group:
+  - Ben
 name:
   latin: Adductor Longus
 tags:

@@ -1,5 +1,7 @@
 ---
 title: "Bugpressen"
+group:
+  - Mave
 name:
   latin: "Transversus Abdominis"
 tags:

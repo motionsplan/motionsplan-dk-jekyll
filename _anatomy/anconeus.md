@@ -1,6 +1,7 @@
 ---
 title: "Aconeus"
-group: Ben
+group:
+  - Ben
 name:
   latin: Aconeus
 tags:

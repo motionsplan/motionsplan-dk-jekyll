@@ -1,6 +1,7 @@
 ---
 title: "Lårmusklens lige hoved"
-group: Ben
+group:
+  - Ben
 name:
   latin: "Rectus Femoris"
 tags:

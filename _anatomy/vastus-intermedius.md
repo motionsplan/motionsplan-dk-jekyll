@@ -1,6 +1,7 @@
 ---
 title: "Lårmusklens dybe hoved"
-group: Ben
+group:
+  - Ben
 name:
   latin: "Vastus Intermedius"
 tags:

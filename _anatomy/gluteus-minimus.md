@@ -1,5 +1,7 @@
 ---
 title: "Den lille sædemuskel"
+group:
+  - Hofte
 name:
   latin: "Gluteus Minimus"
 tags:

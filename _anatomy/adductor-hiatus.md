@@ -1,6 +1,7 @@
 ---
 title: "Adductor Hiatus"
-group: Ben
+group:
+  - Ben
 name:
   latin: Adductor Hiatus
 tags:

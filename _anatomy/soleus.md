@@ -1,6 +1,7 @@
 ---
 title: "Flyndermusklen"
-group: Ben
+group:
+  - Ben
 name:
   latin: "Soleus"
 tags:

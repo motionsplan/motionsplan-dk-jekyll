@@ -1,5 +1,7 @@
 ---
 title: "Extensor Carpi Radialis Longus"
+group:
+  - Arme
 name:
   latin: Extensor Carpi Radialis Longus
 tags:

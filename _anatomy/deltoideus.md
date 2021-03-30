@@ -4,6 +4,8 @@ name:
   latin: Deltoideus
 category:
   - Skulder
+group:
+  - Skulder
 tags:
   - imagemap
   - fitnessinstruktør

@@ -1,5 +1,7 @@
 ---
 title: "Indre skrå mavemuskel"
+group:
+  - Mave
 name:
   latin: "Internal Oblique"
 tags:

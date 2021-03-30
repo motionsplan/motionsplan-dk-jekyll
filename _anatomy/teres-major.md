@@ -1,14 +1,16 @@
 ---
 title: "Teres Major"
+group:
+  - Bryst
 name:
   latin: "Teres Major"
 tags:
   - imagemap
   - muskel
 origin: 
-  da: Et hoved fra hver side af nederste bageste del af lårbenet.
+  da: 
 insertion: 
-  da: i akillessenen og fæster på hælbenet.
+  da: 
 function:
   da:
   - short: Laterally rotates the upper arm.

@@ -1,14 +1,16 @@
 ---
 title: "Trapezius"
+group:
+  - Ryg
 name:
   latin: "Trapezius"
 tags:
   - imagemap
   - muskel
 origin: 
-  da: Et hoved fra hver side af nederste bageste del af lårbenet.
+  da: 
 insertion: 
-  da: i akillessenen og fæster på hælbenet.
+  da: 
 function:
   da:
     - short: Elevates the scapula.

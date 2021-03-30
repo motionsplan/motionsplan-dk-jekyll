@@ -1,5 +1,7 @@
 ---
 title: "Extensor Digitori Minimi"
+group:
+  - Arme
 name:
   latin: Extensor Digitori Minimi
 tags:

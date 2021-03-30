@@ -1,5 +1,7 @@
 ---
 title: "Infraspinatus"
+group:
+  - Ben
 name:
   latin: "Infraspinatus"
 tags:

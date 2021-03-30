@@ -1,6 +1,7 @@
 ---
 title: "Den tohovedede lægmuskel"
-group: Ben
+group:
+  - Ben
 name:
   latin: Gastrocnemius
   da: Den tohovedede lægmuskel

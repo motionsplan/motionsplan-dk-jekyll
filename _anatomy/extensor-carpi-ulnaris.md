@@ -1,5 +1,7 @@
 ---
 title: "Extensor Carpi Ulnaris"
+group:
+  - Arme
 name:
   latin: Extensor Carpi Ulnaris
 tags:

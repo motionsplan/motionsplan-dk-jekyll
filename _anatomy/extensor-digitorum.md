@@ -1,5 +1,7 @@
 ---
 title: "Extensor Digitorum"
+group:
+  - Arme
 name:
   latin: Extensor Digitorum
 tags:

@@ -1,5 +1,7 @@
 ---
 title: Brystmuskel
+group:
+  - Bryst
 name:
   latin: Pectoralis Major
 origin:

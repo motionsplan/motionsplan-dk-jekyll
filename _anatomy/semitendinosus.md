@@ -1,6 +1,7 @@
 ---
 title: "Halvtrinde knæbøjer"
-group: Ben
+group:
+  - Ben
 name:
   latin: "Semitendinosus"
 tags:

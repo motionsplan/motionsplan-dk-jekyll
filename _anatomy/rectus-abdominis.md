@@ -1,5 +1,7 @@
 ---
 title: "Lige mavemuskel"
+group:
+  - Mave
 name:
   latin: "Rectus Abdominis"
 tags:

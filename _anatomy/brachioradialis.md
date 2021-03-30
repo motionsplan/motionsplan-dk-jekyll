@@ -1,6 +1,7 @@
 ---
 title: "Brachoradialis"
-group: Arme
+group:
+  - Arme
 name:
   latin: Brachioradialis
 tags:

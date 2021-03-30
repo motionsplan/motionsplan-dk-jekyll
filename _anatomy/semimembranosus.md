@@ -1,6 +1,7 @@
 ---
 title: "Halvsenede knæbøjer"
-group: Ben
+group:
+  - Ben
 name:
   latin: "Semimembranosus"
 tags:

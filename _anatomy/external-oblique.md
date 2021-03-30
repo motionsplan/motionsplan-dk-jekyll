@@ -1,5 +1,7 @@
 ---
 title: "Ydre skrå mavemuskel"
+group:
+  - Mave
 name:
   latin: External Oblique
 tags:

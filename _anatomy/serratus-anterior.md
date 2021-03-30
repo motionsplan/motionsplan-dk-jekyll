@@ -1,14 +1,16 @@
 ---
 title: "Serratus Anterior"
+group:
+  - Skulder
 name:
   latin: "Serratus Anterior"
 tags:
   - imagemap
   - muskel
 origin: 
-  da: Et hoved fra hver side af nederste bageste del af lårbenet.
+  da: 
 insertion: 
-  da: i akillessenen og fæster på hælbenet.
+  da: 
 function:
   da:
     - short: Protracts the scapula.
