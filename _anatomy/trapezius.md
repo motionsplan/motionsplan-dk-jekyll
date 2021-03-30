@@ -22,8 +22,6 @@ function:
       extended: This means that the trapezius muscle lifts the shoulder girdle up (i.e. shrugging your shoulders).
     - short: Retracts the scapula.
       extended: This means that the trapezius muscle pulls the scapula, or shoulder blade, rearward such that it approaches the spine.
-exercises:
-  - Stående calf-raise
 image: /assets/images/anatomy/trapezius.jpg
 image_focus: /assets/images/anatomy/focus-trapezius.jpg
 coords:

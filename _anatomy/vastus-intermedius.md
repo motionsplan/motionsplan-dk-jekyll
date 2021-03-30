@@ -18,10 +18,7 @@ function:
   en:
     - short: Extends the leg at the knee.
       extended: This means that the vastus medialis muscle straightens the leg at the knee joint such that there is an increase in the angle between the lower leg and the upper leg.
-exercises:
-  - Stående calf-raise
 image: https://www.healthguideline.net/wp-content/uploads/2019/07/Quadriceps-2BMuscle-2BStrain.jpg
-image_focus: 
 ---
 
 "quadriceps," "quads" - the vastus intermedius muscle forms part of the quadriceps femoris muscle group, along with rectus femoris, vastus lateralis, and vastus intermedius (vastus intermedius is not shown in the muscle anatomy section since it is located below rectus femoris).

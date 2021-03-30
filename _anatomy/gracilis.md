@@ -18,8 +18,6 @@ function:
   en:
     - short: Flexes the leg at the knee.
       extended: This means that the gracilis muscle bends the leg at the knee joint such that there is a decrease in the angle between the lower leg and the upper leg.
-exercises:
-  - Stående calf-raise
 image: /assets/images/anatomy/gracilis.jpg
 image_focus: /assets/images/anatomy/focus-gracilis.jpg
 coords:

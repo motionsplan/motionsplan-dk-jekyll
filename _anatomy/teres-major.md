@@ -18,8 +18,6 @@ function:
   en:
   - short: Laterally rotates the upper arm.
     extended: This means that the teres major muscle rotates the upper arm outward around the axis of the bone (i.e. it rotates the upper arm away from the vertical midline of the body).
-exercises:
-  - Stående calf-raise
 image: /assets/images/anatomy/teres-major.jpg
 image_focus: /assets/images/anatomy/focus-teres-major.jpg
 coords:

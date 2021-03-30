@@ -32,8 +32,6 @@ insertion:
 last_modified_at: 2020-11-15T07:31:16+01:00
 image_focus: /assets/images/anatomy/focus-triceps-brachii.jpg
 image: /assets/images/anatomy/triceps-brachii.jpg
-exercises:
-  - Stående calf-raise
 coords:
   - 404,127,384,136,378,146,369,164,374,180,386,176,399,156,407,141
   - 510,119,508,137,523,170,533,176,537,162,531,135

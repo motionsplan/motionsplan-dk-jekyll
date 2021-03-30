@@ -27,8 +27,6 @@ function:
       extended: This means that the internal oblique muscle turns the spine to the side (i.e. it twists the torso).
     - short: Compresses the abdominal cavity.
       extended: This means that the internal oblique muscle constricts the organs of the abdominal cavity and can increase intra-abdominal pressure (i.e. such as during a valsalva maneuver).
-exercises:
-  - Stående calf-raise
 image: /assets/images/anatomy/internal-oblique.jpg
 image_focus: /assets/images/anatomy/focus-internal-oblique.jpg
 coords:

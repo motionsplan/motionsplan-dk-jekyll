@@ -29,8 +29,6 @@ function:
 secondary_function: 
   da:
     - short: "Bøjer i knæleddet"
-exercises:
-  - Stående calf-raise
 image: /assets/images/anatomy/gastrocnemius.jpg
 image_focus: /assets/images/anatomy/focus-gastrocnemius.jpg
 coords:

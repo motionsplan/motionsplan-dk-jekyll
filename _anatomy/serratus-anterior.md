@@ -22,8 +22,6 @@ function:
       extended: This means that the serratus anterior muscle pulls the scapula, or shoulder blade, forward and around the ribcage.
     - short: Rotates the scapula upward.
       extended: This means that the serratus anterior muscle turns the scapula, or shoulder blade, such that the bottom of the scapula moves upward and laterally (i.e. outward).
-exercises:
-  - Stående calf-raise
 image: /assets/images/anatomy/serratus-anterior.jpg
 image_focus: /assets/images/anatomy/focus-serratus-anterior.jpg
 coords:

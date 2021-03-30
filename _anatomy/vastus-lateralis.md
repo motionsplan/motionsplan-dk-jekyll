@@ -19,8 +19,6 @@ function:
   en:
     - short: Extends the leg at the knee.
       extended: This means that the vastus lateralis muscle straightens the leg at the knee joint such that there is an increase in the angle between the lower leg and the upper leg.
-exercises:
-  - Stående calf-raise
 image: /assets/images/anatomy/vastus-lateralis.jpg
 image_focus: /assets/images/anatomy/focus-vastus-lateralis.jpg
 coords:

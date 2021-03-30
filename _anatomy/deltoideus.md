@@ -37,8 +37,6 @@ function:
       extended: This means that the posterior fibers of the deltoid muscle move the upper arm downward to the rear.
     - short: The posterior (or rear) fibers of the deltoid muscle laterally rotate the upper arm.
       extended: This means that the posterior fibers of the deltoid muscle rotate the upper arm outward around the axis of the bone (i.e. rotate the upper arm away from the vertical midline of the body).
-exercises:
-  - Stående calf-raise
 image: /assets/images/anatomy/deltoid.jpg
 image_focus: /assets/images/anatomy/focus-deltoid.jpg
 coords:

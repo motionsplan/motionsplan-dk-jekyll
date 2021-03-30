@@ -28,8 +28,6 @@ function:
       extended: This means that the adductor longus muscle moves the upper leg toward the vertical midline of the body (i.e. the action of closing your legs together from a spread out position).
     - short: Provides some lateral rotation of the upper leg.
       extended: This means that the adductor longus muscle rotates the upper leg outward around the axis of the bone (i.e. it rotates the upper leg away from the vertical midline of the body).
-exercises:
-  - Stående calf-raise
 image: /assets/images/anatomy/adductor-magnus.jpg
 image_focus: /assets/images/anatomy/focus-adductor-magnus.jpg
 coords:

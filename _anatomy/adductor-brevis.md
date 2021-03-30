@@ -18,11 +18,7 @@ function:
   en:
     - short: Adducts the leg at the hip.
       extended: ""
-exercises:
-  - Stående calf-raise
 image: https://www.getbodysmart.com/wp-content/uploads/2017/09/4-8-550x550.png
-image_focus: 
-coords:
 ---
 
 _{{ page.name.latin }}_

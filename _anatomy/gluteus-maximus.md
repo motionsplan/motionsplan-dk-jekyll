@@ -23,8 +23,6 @@ function:
       extended: This means that the gluteus maximus muscle straightens the hip joint such that there is an increase in the angle between the upper leg and the torso.
     - short: Laterally rotates the upper leg.
       extended: This means that the gluteus maximus muscle rotates the upper leg outward around the axis of the bone (i.e. it rotates the upper leg away from the vertical midline of the body).
-exercises:
-  - Stående calf-raise
 image: /assets/images/anatomy/gluteus-maximus.jpg
 image_focus: /assets/images/anatomy/focus-gluteus-maximus.jpg
 coords:

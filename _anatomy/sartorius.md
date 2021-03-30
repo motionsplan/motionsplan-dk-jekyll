@@ -26,8 +26,6 @@ function:
       extended: This means that the sartorius muscle bends the leg at the knee joint such that there is a decrease in the angle between the lower leg and the upper leg.
     - short: Laterally rotates the upper leg.
       extended: This means that the sartorius muscle rotates the upper leg outward around the axis of the bone (i.e. it rotates the upper leg away from the vertical midline of the body).
-exercises:
-  - Stående calf-raise
 image: /assets/images/anatomy/sartorius.jpg
 image_focus: /assets/images/anatomy/focus-sartorius.jpg
 coords:
