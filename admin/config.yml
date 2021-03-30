@@ -281,9 +281,9 @@ collections:
         name: "antagonist"
         widget: "relation"
         collection: "anatomy"
-        search_fields: ["title"]
+        search_fields: ["title", "name.latin"]
         value_field: "title"
-        display_fields: ["title"]
+        display_fields: ["title", "name.latin"]
         multiple: true
         required: false
       - label: "Synergister"
