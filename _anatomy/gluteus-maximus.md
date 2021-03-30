@@ -1,5 +1,6 @@
 ---
 title: "Den store sædemuskel"
+group: Ben
 name:
   latin: "Gluteus Maximus"
 tags:

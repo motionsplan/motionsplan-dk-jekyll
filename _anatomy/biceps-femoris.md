@@ -1,5 +1,6 @@
 ---
 title: "Den tohovedede knæbøjer"
+group: Ben
 name:
   latin: Biceps Femoris
 tags:

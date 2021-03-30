@@ -1,5 +1,6 @@
 ---
 title: "Den store indadfører"
+group: Ben
 name:
   latin: Adductor Magnus
 tags:

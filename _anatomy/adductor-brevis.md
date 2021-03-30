@@ -1,5 +1,6 @@
 ---
 title: "Adductor Brevis"
+group: Ben
 name:
   latin: Adductor Brevis
 tags:

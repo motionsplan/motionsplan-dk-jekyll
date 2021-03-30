@@ -4,6 +4,7 @@ instructions: "Anklerne placeres mellem de små puder, og det nederste af låren
 permalink: /oevelse/glute-ham-raises/
 redirect_from: /node/261
 id: 261
+key: 261
 language: da
 header:
   overlay_image: /assets/images/exercises/glute-ham-raises-0.jpg

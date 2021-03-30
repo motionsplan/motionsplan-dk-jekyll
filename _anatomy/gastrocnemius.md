@@ -1,7 +1,9 @@
 ---
 title: "Den tohovedede lægmuskel"
+group: Ben
 name:
   latin: Gastrocnemius
+  da: Den tohovedede lægmuskel
 tags:
   - imagemap
   - fitnessinstruktør

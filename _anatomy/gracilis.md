@@ -1,5 +1,6 @@
 ---
 title: "Den slanke indadfører"
+group: Ben
 name:
   latin: "Gracilis"
 tags:

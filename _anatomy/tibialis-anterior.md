@@ -1,5 +1,6 @@
 ---
 title: "Forreste skinnebensmuskel"
+group: Ben
 name:
   latin: "Tibialis Anterior"
 category:

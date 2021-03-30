@@ -1,5 +1,6 @@
 ---
 title: "Den mellemste sædemuskel"
+group: Ben
 name:
   latin: "Gluteus Medius"
 tags:

@@ -5,6 +5,7 @@ instructions: "Løftet starter oprejst hvor du holder stangen med cirka skuldera
 permalink: /oevelse/romanian-deadlift/
 redirect_from: /node/43
 id: 43
+key: 43
 language: da
 header:
   overlay_image: /assets/images/exercises/romanian-deadlift-0.jpg

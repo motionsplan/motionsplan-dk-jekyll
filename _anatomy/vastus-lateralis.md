@@ -1,5 +1,6 @@
 ---
 title: "Lårmusklens ydre hoved"
+group: Ben
 name:
   latin: "Vastus Lateralis"
 tags:
