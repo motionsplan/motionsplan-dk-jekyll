@@ -5,6 +5,7 @@ instructions: "Hold håndvægtene i strakte arme langs kroppen med håndryggen v
 permalink: /oevelse/biceps-curl/
 redirect_from: /node/279
 id: 279
+key: 279
 language: da
 header:
   overlay_image: /assets/images/exercises/biceps-curl-0.jpg

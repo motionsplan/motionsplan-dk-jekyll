@@ -1,5 +1,6 @@
 ---
 title: "Flexor Carpi Radialis"
+group: Arme
 name:
   latin: Flexor Carpi Radialis
 tags:

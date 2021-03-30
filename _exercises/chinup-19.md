@@ -5,6 +5,7 @@ instructions: "Kropshævning med underhåndsgreb."
 permalink: /oevelse/chinup/
 redirect_from: /node/19
 id: 19
+key: 19
 language: da
 header:
   overlay_image: /assets/images/exercises/chinup-0.jpg

@@ -1,5 +1,6 @@
 ---
 title: "Flexor Carpi Ulnaris"
+group: Arme
 name:
   latin: "Flexor Carpi Ulnaris"
 tags:
