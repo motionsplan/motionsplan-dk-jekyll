@@ -18,7 +18,7 @@ header:
 classes: wide
 feature_row:
   - image_path: https://images.unsplash.com/photo-1501820434261-5bb046afcf6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80
-    alt: Se tests"
+    alt: Se tests
     title: "Tests"
     excerpt: "Virker min træning efter hensigten? Tests kan være en måde at teste, om du bliver bedre over tid. Se alle vores tests."
     url: "/tests/"
@@ -28,4 +28,4 @@ feature_row:
 
 {% include feature_row id="feature_row" type="left" %}
 
-## Alle måde at tracke på
+## Alle måde at tracke og monitorere træning på
