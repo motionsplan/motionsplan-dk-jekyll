@@ -231,7 +231,6 @@ collections:
           - {label: "English", name: "en", widget: "string"}
       - {label: "Group", name: "group", widget: "select", options: ["Ben", "Hofte", "Ryg", "Skulder", "Arme"], default: "", multiple: true}
       - {label: "Led", name: "joint", widget: "select", options: ["Fodleddet", "Knæleddet", "Hofteleddet", "Rygsøjlen", "Skulderbladet", "Skulderleddet", "Albueleddet", "Håndleddet"], default: "", multiple: true}
-      - {label: "Excerpt", name: "excerpt", widget: "text",  required: false, collapsed: true}
       - {label: "Tags", name: "tags", widget: "list", allow_add: true}
       - label: Function
         name: function
