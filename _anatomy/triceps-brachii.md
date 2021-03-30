@@ -1,7 +1,5 @@
 ---
 title: Trehovede armstrækker
-group:
-  - Arme
 name:
   latin: Triceps Brachii
 group:
