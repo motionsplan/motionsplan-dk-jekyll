@@ -233,7 +233,6 @@ collections:
       - {label: "Permalink", name: "permalink", widget: "string", required: false}
       - {label: "SEO Title", name: "seo_title", widget: "string", required: false}
       - {label: "SEO Beskrivelse", name: "description", widget: "text",  required: false}
-      - {label: "Permalink", name: "permalink", widget: "string", required: false}
       - {label: "Excerpt", name: "excerpt", widget: "text",  required: false}
       - {label: "Instructions", name: "instructions", widget: "text",  required: true, collapsed: true}
       - {label: "Category", name: "categories", widget: "list", allow_add: true}
