@@ -224,6 +224,10 @@ collections:
         field: last_modified_at
         # groups items based on the value matched by the pattern
         pattern: \d{4}
+      - label: Kategori
+        field: categories
+      - label: Muskelgruppe
+        field: muscle_group
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Permalink", name: "permalink", widget: "string", required: false}
@@ -280,6 +284,8 @@ collections:
         pattern: \d{4}
       - label: Group
         field: group
+      - label: Joint
+        field: joint
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "SEO Title", name: "seo_title", widget: "string", required: false}
