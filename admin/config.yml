@@ -48,6 +48,7 @@ collections:
     sortable_fields: ['title', 'author', 'last_updated_on', 'commit_date']
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Permalink", name: "permalink", widget: "string", required: false}
       - {label: "SEO Title", name: "seo_title", widget: "string", required: false}
       - {label: "SEO Beskrivelse", name: "description", widget: "text",  required: false}
       - {label: "Excerpt", name: "excerpt", widget: "text",  required: false}
@@ -165,6 +166,7 @@ collections:
     sortable_fields: ['title', 'author', 'last_updated_on', 'commit_date']
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Permalink", name: "permalink", widget: "string", required: false}
       - {label: "SEO Title", name: "seo_title", widget: "string", required: false}
       - {label: "SEO Beskrivelse", name: "description", widget: "text",  required: false}
       - {label: "Excerpt", name: "excerpt", widget: "text",  required: false}
@@ -224,6 +226,7 @@ collections:
         pattern: \d{4}
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Permalink", name: "permalink", widget: "string", required: false}
       - {label: "SEO Title", name: "seo_title", widget: "string", required: false}
       - {label: "SEO Beskrivelse", name: "description", widget: "text",  required: false}
       - {label: "Permalink", name: "permalink", widget: "string", required: false}
