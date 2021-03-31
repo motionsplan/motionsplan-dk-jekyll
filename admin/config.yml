@@ -44,6 +44,7 @@ collections:
         field: last_modified_at
         # groups items based on the value matched by the pattern
         pattern: \d{4}
+    sortable_fields: ['title', 'author', 'last_updated_on', 'commit_date']
     preview_path: "{{ permalink }}"
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
@@ -100,7 +101,7 @@ collections:
     folder: "_drafts/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    preview_path: "{{ permalink }}"
+    sortable_fields: ['title', 'author', 'last_updated_on', 'commit_date']
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "SEO Title", name: "seo_title", widget: "string", required: false}
@@ -161,6 +162,7 @@ collections:
         field: last_modified_at
         # groups items based on the value matched by the pattern
         pattern: \d{4}
+    sortable_fields: ['title', 'author', 'last_updated_on', 'commit_date']
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "SEO Title", name: "seo_title", widget: "string", required: false}
@@ -214,6 +216,7 @@ collections:
     folder: "_exercises/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    sortable_fields: ['title', 'author', 'last_updated_on', 'commit_date']
     view_groups:
       - label: Year
         field: last_modified_at
