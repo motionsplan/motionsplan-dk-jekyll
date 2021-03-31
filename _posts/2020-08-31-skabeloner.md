@@ -75,7 +75,6 @@ feature_row_program_checklist:
 category:
   - Skabelon
 ---
-
 Jeg har lavet en række gratis skabeloner, hvor du kan indskrive dit træningsprogram og styrketræningsprogram. Jeg bruger altid selv en skabelon, fordi jeg synes, at jeg får et bedre overblik over mit styrketræningsprogram og løbeprogram.
 
 Hvis du vil dykke yderligere ned i programlægning, så har jeg skrevet en guide til [programlægning til styrketræning]({% link _posts/2020-08-19-programlaegning.md %}) og en gennemgang af, [hvordan man laver et program til løbetræning]({% link _posts/2011-04-27-kom-i-gang-med-loebetraeningen.md %}).
