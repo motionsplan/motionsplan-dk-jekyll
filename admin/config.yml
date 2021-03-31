@@ -17,7 +17,7 @@ site_url: https://www.motionsplan.dk
 display_url: https://www.motionsplan.dk
 logo_url: https://www.motionsplan.dk/android-chrome-192x192.png
 
-show_preview_links: false
+show_preview_links: true
 
 editor:
   preview: false
@@ -35,6 +35,7 @@ collections:
     folder: "_posts/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    preview_path: "{{ permalink }}"
     view_filters:
       - label: "Jesper"
         field: author
@@ -45,7 +46,6 @@ collections:
         # groups items based on the value matched by the pattern
         pattern: \d{4}
     sortable_fields: ['title', 'author', 'last_updated_on', 'commit_date']
-    preview_path: "{{ permalink }}"
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "SEO Title", name: "seo_title", widget: "string", required: false}
