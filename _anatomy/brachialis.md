@@ -5,7 +5,7 @@ group:
 name:
   latin: Brachialis
 tags:
-  - imagemap
+  - not-in-imagemap
   - muskel
 origin: 
   da: anteriore overflade af humerus, især den distale halvdel af denne knogle
