@@ -94,7 +94,7 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Alt", name: "alt", widget: "string"}
           - {label: "Image", name: "image_path", widget: "string"}
-          - {label: "Url", name: "url", widget: "string"}
+          - {label: "Url", name: "url", widget: "string", required: false}
       - {label: "Last modified at", name: "last_modified_at", widget: "datetime", format: "YYYY-MM-DDThh:mm:ssZ", dateFormat: "dd-MM-YYYY", timeFormat: "HH:mm", required: false}
   - name: "drafts" # Used in routes, e.g., /admin/collections/blog
     label: "Kladder" # Used in the UI
@@ -150,7 +150,7 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Alt", name: "alt", widget: "string"}
           - {label: "Image", name: "image_path", widget: "string"}
-          - {label: "Url", name: "url", widget: "string"}
+          - {label: "Url", name: "url", widget: "string", required: false}
       - {label: "Last modified at", name: "last_modified_at", widget: "datetime", format: "YYYY-MM-DDThh:mm:ssZ", dateFormat: "dd-MM-YYYY", timeFormat: "HH:mm", required: false}
   - name: "pages" # Used in routes, e.g., /admin/collections/blog
     label: "Sider" # Used in the UI
@@ -210,7 +210,7 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Alt", name: "alt", widget: "string"}
           - {label: "Image", name: "image_path", widget: "string"}
-          - {label: "Url", name: "url", widget: "string"}
+          - {label: "Url", name: "url", widget: "string", required: false}
       - {label: "Last modified at", name: "last_modified_at", widget: "datetime", format: "YYYY-MM-DDThh:mm:ssZ", dateFormat: "dd-MM-YYYY", timeFormat: "HH:mm", required: false}
   - name: "exercises" # Used in routes, e.g., /admin/collections/blog
     label: "Øvelser" # Used in the UI

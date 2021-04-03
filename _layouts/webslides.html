@@ -18,12 +18,12 @@
                 <a style="background: url({{ '/favicon-32x32.png' | relative_url }}) no-repeat;" href="{{ '/' | relative_url }}" title="{{ site.name }}">Motionsplan</a>
             </p>
             <ul>
-                {% assign footer_links = site.footer.links | where_exp: "item", "item.webslides != '' "%}
+                {% assign footer_links = site.footer.links | where_exp: "item", "item.webslides != ''" %}
                 {% for l in footer_links %}
                 <li class="{{ l.label | downcase }}">
                     <a rel="external" href="{{ l.url }}" title="{{ l.label }}">
                       <svg class="{{ l.webslides }}">
-                        <use xlink:href="#{{ l.webslides }}"></use>
+                        <use xlink:href="{{ l.webslides }}"></use>
                       </svg>
                       <em>@Motionsplan</em>
                     </a>
@@ -39,10 +39,10 @@
     </main>
     <script src="https://cdn.jsdelivr.net/npm/webslides@1.5.0/static/js/webslides.min.js"></script>
     <script>
-        /* global Webslides */
+        /* global WebSlides */
         window.ws = new WebSlides();
     </script>
-    <script defer src="https://cdn.jsdelivr.net/npm/webslides@1.5.0/static/js/svg-icons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/webslides@1.5.0/static/js/svg-icons.js"></script>
 </body>
 
 </html>

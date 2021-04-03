@@ -93,11 +93,11 @@ footer:
   links:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      webslides: "fa-facebook"
+      webslides: "fa-facebook-official"
       url: "https://facebook.com/motionsplan"
     - label: "Pinterest"
       icon: "fab fa-fw fa-pinterest"
-      webslides: "fa-pinterest"
+      webslides: "fa-pinterest-p"
       url: "https://www.pinterest.dk/motionsplan/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"

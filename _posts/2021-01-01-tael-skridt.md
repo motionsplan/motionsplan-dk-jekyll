@@ -1,7 +1,7 @@
 ---
 title: &title "Tæl skridt 2021 🚶‍♀️🚶‍♀️ Det er motiverende at tælle skridt"
 seo_title: "Tæl skridt 2021 🥇 Vind op til 25.000 kroner 4 gange årligt"
-description: "Tæl skridt og bliv 🚶 Motiveret 🥇 Deltag i en konkurrence 💰 Vind op til 25.000 kroner 💗 Bliv sundere 🚶‍♀️ Nå de 10.000 skridt 🧠 Psykologiske effekter"
+description: "Tæl skridt og bliv ✓ Motiveret ✓ Deltag i en konkurrence ✓ Vind op til 25.000 kroner ✓ Bliv sundere ✓ Nå de 10.000 skridt ✓ Psykologiske effekter"
 permalink: /artikel/tael-skridt/
 language: da
 header:
