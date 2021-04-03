@@ -1,11 +1,11 @@
 ---
-title: "Trapezius"
+title: "Rhomboideus"
 group:
   - Ryg
 name:
-  latin: "Trapezius"
+  latin: "Rhomboideus"
 tags:
-  - imagemap
+  - not-in-imagemap
   - muskel
 origin: 
   da: 
@@ -22,12 +22,6 @@ function:
       extended: This means that the trapezius muscle lifts the shoulder girdle up (i.e. shrugging your shoulders).
     - short: Retracts the scapula.
       extended: This means that the trapezius muscle pulls the scapula, or shoulder blade, rearward such that it approaches the spine.
-image: /assets/images/anatomy/trapezius.jpg
-image_focus: /assets/images/anatomy/focus-trapezius.jpg
-coords:
-  - "464,55,449,56,448,66,439,76,416,94,429,97,437,105,440,129,457,158,475,124,481,95,497,90,475,77,465,67"
-  - "180,87,160,72,163,89"
-  - "124,88,110,83,127,73"
 ---
 
 _{{ page.name.latin }}_

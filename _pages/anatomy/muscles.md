@@ -3,6 +3,7 @@ layout: single
 title: &title "Skeletmuskler: Muskler, muskelgrupper og muskeloversigt 💪"
 excerpt: "Skeletmuskler bevæger kroppen. Jeg har lavet en oversigt over muskler, muskelgrupper og muskel anatomi, hvor du kan se navne på kroppens muskler på latin og dansk."
 permalink: /muskler/
+last_modified_at: 2021-03-28T20:14:14Z
 header:
   overlay_image: https://images.unsplash.com/photo-1539814858141-928517f6afd3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=60
   teaser: https://images.unsplash.com/photo-1539814858141-928517f6afd3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60
@@ -18,13 +19,14 @@ feature_row:
   - image_path: https://citatplakat.dk/wp-content/uploads/2020/11/Plakat-med-menneskets-muskler-AN10023.png
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/muskulatur-anatomi-plakat/
     title: Muskulatur - Anatomi plakat
+    alt: "Muskler i ben, arme, skulder, kropsstamme"
 ---
 
 De muskler, der skaber bevægelse af kroppen, kaldes for ”den tværstribede skeletmuskulatur”. Denne side handler om skeletmusklerne. Først kan du læse en kort introduktion til, hvad muskler og skeletmuskler er og deres anatomi. Derefter kigger jeg på de forskellige muskelgrupper.
 
-Musklerne er hæftet til knoglerne via sener. Når musklerne gennem nervesystemet får et signal, vil de trække sig sammen og ved hjælp af leddenes bevægelighed skabe bevægelse af skelettets knogler.
+Musklerne er hæftet til knoglerne via sener. Når musklerne gennem nervesystemet får et signal, vil de trække sig sammen og ved hjælp af leddenes bevægelighed skabe bevægelse af skelettets knogler. Sammentrækningen foregår gennem [sliding filament teorien]({% link _posts/2020-06-06-muskelsammentraekning.md %}).
 
-Musklerne er altså en del af en funktionel enhed sammen med led og knogler. Musklerne på forsiden og bagsiden af et led samarbejder om en bevægelse. Musklen, der udfører bevægelsen kaldes agonisten, mens musklen på den modsatte side kaldes antagonisten. 
+Musklerne er altså en del af en funktionel enhed sammen med [led](/led/) og [knogler](/knogler/). Musklerne på forsiden og bagsiden af et led samarbejder om en bevægelse. Musklen, der udfører bevægelsen kaldes agonisten, mens musklen på den modsatte side kaldes antagonisten. 
 
 Der er aktivitet i begge muskler. Agonisten har mest aktivitet til at udføre bevægelsen, men antagonisten er med til at stabilisere leddet, så den er også aktiv. 
 
@@ -48,7 +50,7 @@ I nedenstående figur er det mest relevante muskler i forhold til træning vist 
 
 ### Liste over andre muskler
 
-Øvrige vigtige muskler for træning, der ikke vises i skelettet, er:
+Du kan se de øvrige vigtige muskler for træning i figuren ovenfor:
 
 {% assign imagemap = site.anatomy | where: "tags", "not-in-imagemap" %}
 {%- for m in imagemap -%}
@@ -56,6 +58,8 @@ I nedenstående figur er det mest relevante muskler i forhold til træning vist 
 {% endfor %}
 
 ## Muskeloversigt med navne på dansk og latin
+
+I denne tabel over muskler kan du se en oversigt over muskler i ben, arme, skuldre og kropsstammen.
 
 {% include table-muscles.html %}
 

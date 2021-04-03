@@ -1,5 +1,7 @@
 ---
 title: "Den tohovedede knæbøjer"
+group:
+  - Ben
 name:
   latin: Biceps Femoris
 tags:
@@ -21,8 +23,6 @@ function:
       extended: This means that the biceps femoris muscle bends the leg at the knee joint such that there is a decrease in the angle between the lower leg and the upper leg.
     - short: Extends the leg at the hip.
       extended: This means that the biceps femoris muscle straightens the hip joint such that there is an increase in the angle between the upper leg and the torso.
-exercises:
-  - Stående calf-raise
 image: /assets/images/anatomy/biceps-femoris.jpg
 image_focus: /assets/images/anatomy/focus-biceps-femoris.jpg
 coords:

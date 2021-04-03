@@ -29,7 +29,7 @@ teaser                   : # path of fallback teaser image, e.g. "/assets/images
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "disqus" # "staticman_v2" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : false # "disqus" # "staticman_v2" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
     shortname            : "motionsplan-dk"
 staticman:
@@ -93,11 +93,11 @@ footer:
   links:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      webslides: "fa-facebook"
+      webslides: "fa-facebook-official"
       url: "https://facebook.com/motionsplan"
     - label: "Pinterest"
       icon: "fab fa-fw fa-pinterest"
-      webslides: "fa-pinterest"
+      webslides: "fa-pinterest-p"
       url: "https://www.pinterest.dk/motionsplan/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"

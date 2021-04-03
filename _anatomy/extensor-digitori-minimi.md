@@ -1,5 +1,7 @@
 ---
 title: "Extensor Digitori Minimi"
+group:
+  - Arme
 name:
   latin: Extensor Digitori Minimi
 tags:
@@ -20,8 +22,6 @@ function:
       extended: This means that the extensor digiti minimi muscle straightens the wrist joint such that the angle between the back of the hand and the back of the forearm decreases (i.e. it moves the back of the hand toward the back of the forearm).
     - short: Extends digiti minimi (i.e. the little finger).
       extended: This means that the extensor digiti minimi muscle straightens the little finger.
-exercises:
-  - Stående calf-raise
 image: /assets/images/anatomy/extensor-digiti-minimi.jpg
 image_focus: /assets/images/anatomy/focus-extensor-digiti-minimi.jpg
 coords:

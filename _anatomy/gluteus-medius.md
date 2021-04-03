@@ -1,5 +1,7 @@
 ---
 title: "Den mellemste sædemuskel"
+group:
+  - Ben
 name:
   latin: "Gluteus Medius"
 tags:
@@ -37,8 +39,6 @@ function:
       extended: This means that the posterior fibers of the gluteus medius muscle straighten the hip joint such that there is an increase in the angle between the upper leg and the torso.
     - short: Stabilizes the hip joint during walking.
       extended: This means that the gluteus medius muscle keeps the pelvis level when the leg on the opposite side of the body lifts off the ground during walking.
-exercises:
-  - Stående calf-raise
 image: /assets/images/anatomy/gluteus-medius.jpg
 image_focus: /assets/images/anatomy/focus-gluteus-medius.jpg
 coords:

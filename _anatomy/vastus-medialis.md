@@ -1,5 +1,7 @@
 ---
 title: "Lårmusklens indre hoved"
+group:
+  - Ben
 name:
   latin: "Vastus Medialis"
 tags:
@@ -17,8 +19,6 @@ function:
   en:
     - short: Extends the leg at the knee.
       extended: This means that the vastus medialis muscle straightens the leg at the knee joint such that there is an increase in the angle between the lower leg and the upper leg.
-exercises:
-  - Stående calf-raise
 image: /assets/images/anatomy/vastus-medialis.jpg
 image_focus: /assets/images/anatomy/focus-vastus-medialis.jpg
 coords:

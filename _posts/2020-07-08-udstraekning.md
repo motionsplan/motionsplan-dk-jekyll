@@ -1,7 +1,7 @@
 ---
 title: &title "Udstrækning: Guide til udstrækningsøvelser og strækøvelser!"
 seo_title: "Udstrækning • Alt om udstrækningsøvelser og strækøvelser »"
-description: "Udstrækning og udspænding bruges i mange idrætsgrene ✔️ Se 15+ udstrækningsøvelser for hele kroppen ✔️ 3 myter om strækøvelser ✔️ 3 effekter af udstrækning"
+description: "Udstrækning og udspænding bruges i mange idrætsgrene ✓ Se 15+ udstrækningsøvelser for hele kroppen ✓ 3 myter om strækøvelser ✓ 3 effekter af udstrækning"
 permalink: /udstraekning-udspaending/
 language: da
 header:

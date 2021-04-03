@@ -1,7 +1,7 @@
 ---
 title: &title "Hvor mange kalorier forbrænder man ved at gå? 🚶🚶‍♀️"
 seo_title: "Forbrænding gang | Så mange kalorier forbrænder du ved at gå"
-description: "Gang forbrænder energi og kalorier 🚶‍♀️ Hvor meget er din forbrænding ved at gå? 🚶‍♀️ Hvor meget forbrænder du ved at gå 10.000 skridt? 🚶‍♀️"
+description: "Gang forbrænder energi og kalorier ✓️ Hvor meget er din forbrænding ved at gå ✓️ Hvor meget forbrænder du ved at gå 10.000 skridt?"
 permalink: /forbraending-ved-gaa-gang/
 last_modified_at: 2021-01-30T09:41:09Z
 author: lsolesen

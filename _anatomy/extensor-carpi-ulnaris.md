@@ -1,5 +1,7 @@
 ---
 title: "Extensor Carpi Ulnaris"
+group:
+  - Arme
 name:
   latin: Extensor Carpi Ulnaris
 tags:
@@ -20,8 +22,6 @@ function:
       extended: This means that the extensor carpi ulnaris muscle straightens the wrist joint such that the angle between the back of the hand and the back of the forearm decreases (i.e. it moves the back of the hand toward the back of the forearm).
     - short: Adducts the hand.
       extended: This means that the extensor carpi ulnaris muscle bends the wrist sideways such that the little finger side of the hand moves toward the forearm.
-exercises:
-  - Stående calf-raise
 image: /assets/images/anatomy/extensor-carpi-ulnaris.jpg
 image_focus: /assets/images/anatomy/focus-extensor-carpi-ulnaris.jpg
 coords:

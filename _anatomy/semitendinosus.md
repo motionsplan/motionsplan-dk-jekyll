@@ -1,5 +1,7 @@
 ---
 title: "Halvtrinde knæbøjer"
+group:
+  - Ben
 name:
   latin: "Semitendinosus"
 tags:
@@ -21,8 +23,6 @@ function:
       extended: This means that the semitendinosus muscle bends the leg at the knee joint such that there is a decrease in the angle between the lower leg and the upper leg.
     - short: Extends the leg at the hip.
       extended: This means that the semitendinosus muscle straightens the hip joint such that there is an increase in the angle between the upper leg and the torso.
-exercises:
-  - Stående calf-raise
 image: /assets/images/anatomy/semitendinosus.jpg
 image_focus: /assets/images/anatomy/focus-semitendinosus.jpg
 coords:

@@ -1,5 +1,7 @@
 ---
 title: "Bugpressen"
+group:
+  - Mave
 name:
   latin: "Transversus Abdominis"
 tags:
@@ -14,8 +16,6 @@ function:
   da:
     - short: Vigtig stabilisator af rygsøjlen
       extended: ""
-exercises:
-  - Stående calf-raise
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Transversus_abdominis.png/375px-Transversus_abdominis.png
 image_focus: 
 ---

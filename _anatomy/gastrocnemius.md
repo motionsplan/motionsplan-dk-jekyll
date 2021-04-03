@@ -1,7 +1,10 @@
 ---
 title: "Den tohovedede lægmuskel"
+group:
+  - Ben
 name:
   latin: Gastrocnemius
+  da: Den tohovedede lægmuskel
 tags:
   - imagemap
   - fitnessinstruktør
@@ -26,8 +29,6 @@ function:
 secondary_function: 
   da:
     - short: "Bøjer i knæleddet"
-exercises:
-  - Stående calf-raise
 image: /assets/images/anatomy/gastrocnemius.jpg
 image_focus: /assets/images/anatomy/focus-gastrocnemius.jpg
 coords:

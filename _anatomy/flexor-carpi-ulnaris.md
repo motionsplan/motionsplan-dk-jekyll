@@ -1,5 +1,7 @@
 ---
 title: "Flexor Carpi Ulnaris"
+group:
+  - Arme
 name:
   latin: "Flexor Carpi Ulnaris"
 tags:
@@ -20,8 +22,6 @@ function:
       extended: This means that the flexor carpi ulnaris muscle bends the wrist joint such that the angle between the palm of the hand and the front of the forearm decreases (i.e. it moves the palm of the hand toward the front of the forearm).
     - short: Adducts the hand.
       extended: This means that the flexor carpi ulnaris muscle bends the wrist sideways such that the little finger side of the hand moves toward the forearm.
-exercises:
-  - Stående calf-raise
 image: /assets/images/anatomy/flexor-carpi-ulnaris.jpg
 image_focus: /assets/images/anatomy/focus-flexor-carpi-ulnaris.jpg
 coords:

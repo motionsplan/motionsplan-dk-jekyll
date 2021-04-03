@@ -1,5 +1,7 @@
 ---
 title: "Adductor Hiatus"
+group:
+  - Ben
 name:
   latin: Adductor Hiatus
 tags:
@@ -16,11 +18,7 @@ function:
   en:
     - short: Adducts the leg at the hip.
       extended: ""
-exercises:
-  - Stående calf-raise
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Gray433.png/250px-Gray433.png
-image_focus:
-coords:
 ---
 
 _{{ page.name.latin }}_
