@@ -54,13 +54,13 @@ Programmet er opdelt i fire faser:
 - Maksimal iltoptagelse
 - Specifikt
 
-## Hvordan ser jeg fremgang i programmet
+## Hvordan ser jeg fremgang i løbeprogrammet?
 
 Hvis du gerne vil se om du bliver bedre i løbet af træningsprogrammet, så kan du i programmet registrere to ting.
 
-- **Hvor mange kilometer** du løber pr. gang. Men det er vigtigt at sige, at programmet ikke handler om at løbe mange kilometer pr. gang. Det er meget mere vigtigt, at du træner i den rigtige zone. Det nytter ikke, at du gerne vil løbe hurtigt, hvis din puls så ender med at blive for høj i forhold til din træningszone.
-- **Hvor mange pauser**. Mange uger handler det om at holde så få pauser som muligt. Du kan registrere, hvor mange pauser du holder pr. Gang.
-- **Hvor mange minutter du løber**. Programmet er lavet med minutter. Derfor kan du automatisk i programmet se, at du bliver bedre og bedre til at løbe, fordi du kan løbe flere minutter.
+- **Hvor mange kilometer** du løber pr. gang? Men det er vigtigt at sige, at programmet ikke handler om at løbe mange kilometer pr. gang. Det er meget mere vigtigt, at du træner i den rigtige zone. Det nytter ikke, at du gerne vil løbe hurtigt, hvis din puls så ender med at blive for høj i forhold til din træningszone.
+- **Hvor mange pauser** er ud nødt til at holde? Mange uger handler det om at holde så få pauser som muligt. Du kan registrere, hvor mange pauser du holder pr. Gang.
+- **Hvor mange minutter du løber**? Programmet er lavet med minutter. Derfor kan du automatisk i programmet se, at du bliver bedre og bedre til at løbe, fordi du kan løbe flere minutter.
 
 ## Principper i Motionsplans løbeprogram til begyndere
 
