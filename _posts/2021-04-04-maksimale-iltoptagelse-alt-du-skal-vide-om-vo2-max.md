@@ -16,37 +16,37 @@ feature_row:
     title: T
 last_modified_at: 2021-04-04T02:18:34+02:00
 ---
-Beregn VO2 max
-Det kan være nyttigt at kende din VO2 max (din maksimale iltoptagelse) for at sammenligne din form med andre sportsatleter eller se hvor god form du er i forhold til andre sportsgenre.
 
-VO2 max er en universel måde at beregne en persons form.
+Din maksimale er en af elementerne i din kondition. Den maksimale iltoptagelse kalder man også VO<sub>2</sub>max.
 
-Mange andre er også interesserede i andre gratis løbeberegnere.
-Udfordringer med at få beregneren til at virke?
- 
-Beregn VO2 Max
-Distance: 
- km
-Tid: 
- tt:mm:ss eller mm:ss
-Ryd Beregn
- 
-Indholdsfortegnelse (klik på teksterne)
+Hvad er den maksimale iltoptagelse (VO2 max)? **Den maksimale iltoptagelse (VO2 max) er et udtryk for, hvor meget ilt du maksimalt kan optage pr. minut. Iltoptagelsen måles i liter pr. minut.** 
 
-Hvad er VO2 max?
-Hvordan forbedrer jeg min VO2 max?
-Parametre som påvirker VO2 Max
-Hvordan udregner jeg mit kondital ud fra VO2 max?
-Sportsudøvere med verdens højeste VO2 max
-Hvad er VO2 max?
-Det er fakisk ganske ligetil at forklare VO2 max. Her er opbygningen af beregningen:
+Du kan bruge den maksimale iltoptagelse (VO2 max) til at fortælle, hvor god form du er i forhold til andre atleter. For at kunne sammenligne dig med andre, så omregner man den maksimale iltoptagelse til et [kondital](/kondital/). Konditallet er den maksimale iltoptagelse delt med din vægt.
 
-V = Volumen
-O2 = Oxygen
-Max = Maksimalt (den var svær)
-Det er altså den maksimale volumen oxygen du kan optage, også kaldet den maksimale iltoptagelse. Musklerne bruger oxygen som findes i ilt. VO2 måles i milliliter ilt du kan optage i løbet af 1 minut. Det er en fællesenhed. VO2 max er da den maksimale mængde ilt du kan trække ned i lungerne per minut.
+I dette indlæg kigger jeg på følgende spørgsmål:
 
-Hvordan forbedrer jeg min VO2 max?
+- Hvad er VO2 max?
+- Hvordan forbedrer jeg min VO2 max?
+- Hvilke parametre har indvirkning på min VO2 max?
+- Hvordan udregner jeg mit kondital ud fra VO2 max?
+- Hvilke sportsudøvere har verdens højeste VO2 max?
+
+## Hvad er den maksimale iltoptagelse (VO2 max)?
+
+VO2 max er et udtryk for den enkeltes evne til at optage ilt. V står for volumen. O<sub>2</sub> står for Oxygen (ilt), og max står naturligvis for maksimalt.
+
+VO2 max er altså den maksimale volumen ilt, du kan optage i minuttet. Musklerne har brug for ilt for at kunne fungere over længere tid. VO2 max er altså den maksimale mængde ilt, du kan optage på et minut.
+
+## Hvordan måler jeg den maksimale iltoptagelse (VO2 max)?
+
+Du kan enten måle den maksimale iltoptagelse **direkte** i et laboratorium ved at måle på indånding og udåndingsluften.
+
+Du kan også lave **indirekte** målinger baseret på forskellige tests, hvor [Cooper testen](/cooper-test/) og [bip-testen](/bip-test/) er meget populære tests.
+
+Du kan se alle vores [konditionstests her](/test-kondition-konditest-kondital/).
+
+## Hvordan forbedrer jeg min VO2 max?
+
 Træning. Udholdenhedssport. Bakketræning og intervaltræning er blandt de mest effektive metoder til at forbedre din maksimalt iltoptagelse.
 
 Parametre som påvirker VO2 Max
