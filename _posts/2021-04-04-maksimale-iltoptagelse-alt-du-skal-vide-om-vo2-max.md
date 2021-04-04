@@ -6,6 +6,11 @@ header:
   overlay_image: https://images.unsplash.com/photo-1596358985970-ff88f3ad4cb3?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTA2fHxydW5uaW5nfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=60
   teaser: https://images.unsplash.com/photo-1596358985970-ff88f3ad4cb3?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTA2fHxydW5uaW5nfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60
   caption: "Maksimale iltoptagelse: Alt du skal vide om VO2 max"
+category:
+  - Kondition
+tags:
+  - kondition
+  - konditionstræning
 feature_row:
   - btn_class: btn--success
     btn_label: Test
