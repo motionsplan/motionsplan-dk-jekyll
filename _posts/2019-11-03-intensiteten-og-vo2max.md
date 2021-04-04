@@ -68,7 +68,7 @@ Den absolutte VO2 max, som måles i ml ilt/min Den relative VO2 max, som måles 
 
 Gå til alle beregnere Sportsudøvere med verdens højeste VO2 max En af mine favoritsportsudøvere, Killian Journet, er blevet målt til at have verdens højeste maksimale iltoptagelse og et kondital på 92. Prøv at beregn din egen maksimale iltoptagelse og kondital og du vil blive overrasket over hvor enormt det er at have de tal som Killian Journet har. Til sammenligning havde Lance Armstrong et kondital på 84, Miguel Indurain havde et på 88 og Greg Lemond kom lige op i nærheden af 92. Ingen mennesker slår dog hesten, som kan have kondital op i omegnen og over 200.
 
-{% comment %}
+{% endcomment %}
 
 ## Forbedring af VO2 max afhænger af intensiteten 
 
