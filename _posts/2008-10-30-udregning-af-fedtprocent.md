@@ -4,7 +4,7 @@ seo_title: "Fedtprocent • Beregn din fedtprocent ud fra din højde og vægt »
 permalink: /artikel/udregning-af-fedtprocent/
 redirect_from:
   - /udregn-fp/
-excerpt: "Beregn din fedtprocent med en udregning med din højde og vægt i denne fedtprocent beregner for mænd og kvinder. Beregneren udregner også dit BMI."
+excerpt: "Beregn din fedtprocent på baggrund af din højde og vægt i denne fedtprocent beregner for mænd og kvinder."
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1522844990619-4951c40f7eda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80
