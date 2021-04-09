@@ -9,7 +9,8 @@ excerpt: Hvad er et godt, højt kondital og hvordan finder du det? Se kondital
 header:
   overlay_image: https://images.unsplash.com/photo-1571008887538-b36bb32f4571?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80
   teaser: https://images.unsplash.com/photo-1571008887538-b36bb32f4571?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80
-  caption: "Kondition: Hvad er et godt, højt kondital? [Tabel] 💗"
+  caption: Kondital tabel og beregning • Hvad er et godt kondital for mænd,
+    kvinder og børn?
 last_modified_at: 2021-04-09T04:46:02+02:00
 toc: true
 category:
