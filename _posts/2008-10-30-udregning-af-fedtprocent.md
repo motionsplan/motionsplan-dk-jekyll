@@ -1,11 +1,9 @@
 ---
 title: "Beregn din fedtprocent: Enkel udregning med højde og vægt"
-seo_title: "Fedtprocent • Beregn din fedtprocent ud fra din højde og vægt »"
 permalink: /artikel/udregning-af-fedtprocent/
-redirect_from:
-  - /udregn-fp/
-excerpt: "Beregn din fedtprocent med en udregning med din højde og vægt i denne fedtprocent beregner for mænd og kvinder. Beregneren udregner også dit BMI."
-language: da
+seo_title: Fedtprocent • Beregn din fedtprocent ud fra din højde og vægt »
+excerpt: Beregn din fedtprocent med en udregning med din højde og vægt i denne
+  fedtprocent beregner for mænd og kvinder. Beregneren udregner også dit BMI.
 header:
   overlay_image: https://images.unsplash.com/photo-1522844990619-4951c40f7eda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80
   caption: Beregn din fedtprocent ud fra højde og vægt.
@@ -17,18 +15,21 @@ tags:
   - fedtprocent
   - test
   - kropskomposition
-last_modified_at: 2020-02-11T23:14:14Z
-toc: true
 feature_row:
   - image_path: https://cdn6.tales.dk/00039/91685/cover.1589756619.jpg
-    alt: "Exercise Physiology - Nutrition, Energy, and Human Performance"
-    title: "Exercise Physiology - Nutrition, Energy, and Human Performance"
-    excerpt: "Skrevet af BS, William D., PhD McArdle, M.Ed, Frank I. Katch, Victor L. Katch - og indeholder bl.a. formlen til at udregne fedtprocenten."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://bogreolen.dk/exercise-physiology_bs_9781451193831"
-    btn_label: "Læs mere"
-    btn_class: "btn--success"
+    alt: Exercise Physiology - Nutrition, Energy, and Human Performance
+    title: Exercise Physiology - Nutrition, Energy, and Human Performance
+    excerpt: Skrevet af BS, William D., PhD McArdle, M.Ed, Frank I. Katch, Victor L.
+      Katch - og indeholder bl.a. formlen til at udregne fedtprocenten.
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://bogreolen.dk/exercise-physiology_bs_9781451193831
+    btn_label: Læs mere
+    btn_class: btn--success
+last_modified_at: 2020-02-11T23:14:14.000Z
+toc: true
+redirect_from:
+  - /udregn-fp/
+language: da
 ---
-
 Jeg har lavet en beregner, hvor du kan udregne din fedtprocent på baggrund af din vægt, højde, køn og alder. 
 
 *[BMI]: Body Mass Index
@@ -66,11 +67,12 @@ Heitmann bruger i sin formel køn, BMI og alder.
 
 #### Formel for fedtprocent for mænd
 
-{% include math formula="PBF = \frac{0.988 * BMI + 0.242 * weight (kg) + 0.094 * age - 30.18}{weight (kg)}" %}
+{% include math formula="PBF = \frac{0.988  *BMI + 0.242*  weight (kg) + 0.094 * age - 30.18}{weight (kg)}" %}
 
 #### Formel for fedtprocent for kvinder
 
-{% include math formula="PBF = \frac{0.988 * BMI + 0.344 * weight (kg) + 0.094 * age - 30.18}{height (m)^2}" %}
+{% include math formula="PBF = \frac{0.988  *BMI + 0.344*  weight (kg) + 0.094 * age - 30.18}{height (m)^2}" %}
+
 </details>
 
 <details markdown="1">
@@ -87,6 +89,7 @@ PBF = 1.34 * BMI - 12.47
 #### Kvinder: Udregn din fedtprocent
 
 PBF = 1.37 * BMI - 3.47
+
 </details>
 
 <details markdown="1">
@@ -94,9 +97,10 @@ PBF = 1.37 * BMI - 3.47
 
 ### Duerenberg et al. udregning af fedtprocent
 
-PBF = 1.20 * BMI + 0.23 * age - 10.8 * sex - 5.4;
+PBF = 1.20  *BMI + 0.23*  age - 10.8 * sex - 5.4;
 
 sex: men = 1; female = 0
+
 </details>
 
 ## Usikkerhed i udregningen af fedtprocent
@@ -117,7 +121,7 @@ Du kan kombinere udregningen af fedtprocent med en øjemålstest. Så har du for
 
 {% include figure image_path="https://exerciseandwellness.files.wordpress.com/2016/03/body-fat-percentage-men-women.jpg" caption="Øjemålstest af fedtprocenten - [via](https://exerciseandwellness.wordpress.com/2016/03/28/body-fat-percentages/)" alt="Beregn og udregn din fedtprocent med forskellige formler" %}
 
-Hvis du vil tjekke din [fedtprocent i forhold til normerne for mænd og kvinder, så klik her]({% link _posts/2019-10-13-fedtprocent-maaling.md %}).
+Hvis du vil tjekke din \[fedtprocent i forhold til normerne for mænd og kvinder, så klik her]({% link _posts/2019-10-13-fedtprocent-maaling.md %}).
 
 ## Andre typer målinger af kropskomposition
 
@@ -136,9 +140,8 @@ Hvis du vil have et mere præcist bud på din fedtprocent, så kan du kigge på 
 <details markdown="1">
   <summary>Se referencer til {{ page.title }}</summary>
 
-- Loenneke, Jeremy P., Kathryn M. Hirt, Jacob M. Wilson, Jeremy T Barnes, og Thomas J Pujol. 2013. “Predicting Body Composition in College Students Using the Womersley and Durnin Body Mass Index Equation”. Asian Journal of Sports Medicine 4 (2): 153–57. <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3690736/>.
-- Heitmann, B. L. 1990. “Evaluation of Body Fat Estimated from Body Mass Index, Skinfolds and Impedance. A Comparative Study”. European Journal of Clinical Nutrition 44 (11): 831–37.
-- Deurenberg, P., J. A. Weststrate, og J. C. Seidell. 1991. “Body Mass Index as a Measure of Body Fatness: Age- and Sex-Specific Prediction Formulas”. The British Journal of Nutrition 65 (2): 105–14. <https://doi.org/10.1079/bjn19910073>.
-</details>
+* Loenneke, Jeremy P., Kathryn M. Hirt, Jacob M. Wilson, Jeremy T Barnes, og Thomas J Pujol. 2013. “Predicting Body Composition in College Students Using the Womersley and Durnin Body Mass Index Equation”. Asian Journal of Sports Medicine 4 (2): 153–57. <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3690736/>.
+* Heitmann, B. L. 1990. “Evaluation of Body Fat Estimated from Body Mass Index, Skinfolds and Impedance. A Comparative Study”. European Journal of Clinical Nutrition 44 (11): 831–37.
+* Deurenberg, P., J. A. Weststrate, og J. C. Seidell. 1991. “Body Mass Index as a Measure of Body Fatness: Age- and Sex-Specific Prediction Formulas”. The British Journal of Nutrition 65 (2): 105–14. <https://doi.org/10.1079/bjn19910073>.
 
 {% include feature_row type="left" %}
