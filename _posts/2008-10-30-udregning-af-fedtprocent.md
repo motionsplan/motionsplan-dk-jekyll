@@ -34,7 +34,7 @@ Jeg har lavet en beregner, hvor du kan udregne din fedtprocent på baggrund af d
 
 \*\[BMI]: Body Mass Index
 
- Udregningen er naturligvis forbundet med flere usikkerheder. Beregningen af din fedtprocent er indirekte og inddrager kun din højde og din vægt. Derfor er udregningen unøjagtig, da den ikke har mulighed for at vide, om din vægt skyldes muskler eller fedt.
+Udregningen er naturligvis forbundet med flere usikkerheder. Beregningen af din fedtprocent er indirekte og inddrager kun din højde og din vægt. Derfor er udregningen unøjagtig, da den ikke har mulighed for at vide, om din vægt skyldes muskler eller fedt.
 
 Der er mange metoder til at måle kropskomposition, og mange går meget op i at finde ud af, hvad deres fedtprocent er.
 
@@ -50,7 +50,7 @@ Du kan bruge vores **fedtprocent beregner** til udregning af din fedtprocent.
 
 ## Beregn fedtprocent fra højde og vægt
 
-Fedtprocenten er den relative del af kropsvægten, som udgøres af fedt. Du har behov for fedt for at kunne holde varmen 
+Fedtprocenten er den relative del af kropsvægten, som udgøres af fedt. Du har behov for fedt for at kunne holde varmen, og fedt er en central del af mange processer i kroppen.
 
 Formularen benytter sig af flere forskellige udregninger til at estimere fedtprocenten. Formlerne for de enkelte beregninger, kan du se nedenunder.
 
