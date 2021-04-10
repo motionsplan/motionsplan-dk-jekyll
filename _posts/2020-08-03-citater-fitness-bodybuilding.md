@@ -71,7 +71,7 @@ feature_row_schwarznegger_poster:
     id: "232432"
 gallery:
   - image_path: /assets/images/pinterest/citat-dwayne-johnson.png
-    url: /assets/images/pinterest/cita-dwayne-johnson.png
+    url: /assets/images/pinterest/citat-dwayne-johnson.png
   - image_path: /assets/images/pinterest/wendler-accessories.png
     url: /assets/images/pinterest/wendler-accessories.png
   - image_path: /assets/images/pinterest/wendler-get-it-done.png

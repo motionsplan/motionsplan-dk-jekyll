@@ -59,7 +59,9 @@ Hvis du har en dårlig balanceevne, så skyldes det **ofte mangel på træning**
 
 > In order to improve balance, what we’ve seen in research is that you need to spend somewhere between maybe seven and 10 minutes, three times a week, working through these different variations. If you can do that, it will have big benefits for you, not only in safety, as you move through the world, but usually we see great improvements as well in generalized athleticism.
 
-— <cite>[Dr. Eric Cobb](https://zhealtheducation.com/episode-200-quickly-improve-balance-part-1/), Z-health</cite>
+— <cite>[Dr. Eric Cobb](https://zhealtheducation.com/blog/episode-200-quickly-improve-balance-part-1/), Z-health</cite>
+
+Jeg synes selv både [episode 1](https://zhealtheducation.com/blog/episode-200-quickly-improve-balance-part-1/) og [episode 2](https://zhealtheducation.com/blog/episode-201-quickly-improve-balance-part-2/) om, hvordan man hurtigt forbedre sin balance af Eric Cobb fra Z-health er lærerige at kigge på.
 
 ## Balancetræning og specificitet og ustabile underlag
 
