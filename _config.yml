@@ -320,6 +320,10 @@ defaults:
       path: "page"
     values:
       sitemap: false
+  - scope:
+      path: "assets/pdf/**/*.pdf"
+    values:
+      sitemap: false
   # _posts
   - scope:
       path: ""
@@ -408,6 +412,7 @@ defaults:
       share: false
       related: false
       search: false
+      sitemap: false
   # _presentations
   - scope:
       path: ""
