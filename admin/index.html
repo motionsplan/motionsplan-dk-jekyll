@@ -79,6 +79,66 @@
   });
   CMS.registerEditorComponent({
     // Internal id of the component
+    id: "feature_row",
+    // Visible label
+    label: "Feature Row",
+    // Fields the user need to fill out when adding an instance of the component
+    fields: [
+      {name: 'type', label: 'Type', widget: 'select', multiple: false, options: [ "left", "center", "right" ], default: "left"}
+    ],
+    // Pattern to identify a block as being an instance of this component
+    pattern: /^\{% include feature_row type=\"(\S+)\" %\}$/,
+    // Function to extract data elements from the regexp match
+    fromBlock: function(match) {
+      return {
+        type: match[1]
+      };
+    },
+    // Function to create a text block from an instance of this component
+    toBlock: function(obj) {
+      return '{% include feature_row type="' + obj.type + '" %}';
+    },
+    // Preview output for this component. Can either be a string or a React component
+    // (component gives better render performance)
+    toPreview: function(obj) {
+      return (
+        '<p>Feature Row</p>'
+      );
+    }
+  });
+  CMS.registerEditorComponent({
+    // Internal id of the component
+    id: "gallery",
+    // Visible label
+    label: "Gallery",
+    // Fields the user need to fill out when adding an instance of the component
+    fields: [
+      {name: 'caption', label: 'Caption', widget: 'text'},
+      {name: 'layout', label: 'Layout', widget: 'select', multiple: false, options: [ "half", "third", "quarter" ], default: "third"}
+    ],
+    // Pattern to identify a block as being an instance of this component
+    pattern: /^\{% include gallery caption=\"(\S+)\" layout=\"(\S+)\" %\}$/,
+    // Function to extract data elements from the regexp match
+    fromBlock: function(match) {
+      return {
+        caption: match[1],
+        layout: match[2]
+      };
+    },
+    // Function to create a text block from an instance of this component
+    toBlock: function(obj) {
+      return '{% include gallery caption="' + obj.caption + '" layout="' + obj.layout + '" %}';
+    },
+    // Preview output for this component. Can either be a string or a React component
+    // (component gives better render performance)
+    toPreview: function(obj) {
+      return (
+        '<p>Gallery</p>'
+      );
+    }
+  });
+  CMS.registerEditorComponent({
+    // Internal id of the component
     id: "exercise",
     // Visible label
     label: "Exercise",
@@ -118,7 +178,7 @@
       {name: 'alt', label: 'Alt', widget: 'string'}
     ],
     // Pattern to identify a block as being an instance of this component
-    pattern: /^\{% include figure image_path=\"(\S+)\" caption=\"(\S+)\" alt=\"(\S+)\" %\}$/,
+    pattern: /^\{% include figure image\_path=\"(\S+)\" caption=\"(\S+)\" alt=\"(\S+)\" %\}$/,
     // Function to extract data elements from the regexp match
     fromBlock: function(match) {
       return {
