@@ -17,3 +17,4 @@ jekyll-algolia-record-too-big.log
 */.ztr-directory
 .bundle/
 vendor/
+package-lock.json
