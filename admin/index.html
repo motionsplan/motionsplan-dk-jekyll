@@ -28,7 +28,7 @@
       {name: 'id', label: 'Video ID', widget: 'string'}
     ],
     // Pattern to identify a block as being an instance of this component
-    pattern: /^\{% include video provider=\"(\S+)\" video=\"(\S+)\" %\}$/,
+    pattern: /^\{% include video provider=\"(\S+)\" id=\"(\S+)\" %\}$/,
     // Function to extract data elements from the regexp match
     fromBlock: function(match) {
       return {
@@ -84,7 +84,7 @@
     label: "Exercise",
     // Fields the user need to fill out when adding an instance of the component
     fields: [
-      {name: 'key', label: 'Key', widget: 'relation', collection: 'exercises', search_fields: "title", value_field: "key", "display_fields": ["title", "key"]}
+      {name: 'key', label: 'Key', widget: 'relation', collection: 'exercises', search_fields: ["title", "key"], value_field: "key", display_fields: ["title", "key"]}
     ],
     // Pattern to identify a block as being an instance of this component
     pattern: /^\{% include exercise key=\"(\S+)\" %\}$/,
