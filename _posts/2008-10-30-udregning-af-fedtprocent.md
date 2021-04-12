@@ -97,7 +97,7 @@ PBF = 1.37 * BMI - 3.47
 
 ### Duerenberg et al. udregning af fedtprocent
 
-PBF = 1.20  *BMI + 0.23*  age - 10.8 * sex - 5.4;
+PBF = 1.20 * BMI + 0.23 * age - 10.8 * sex - 5.4;
 
 sex: men = 1; female = 0
 
