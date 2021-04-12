@@ -227,8 +227,8 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+paginate: 500 # amount of posts to show
+paginate_path: /page/:num/
 timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
@@ -316,6 +316,14 @@ collections:
 
 # Defaults
 defaults:
+  - scope:
+      path: "page"
+    values:
+      sitemap: false
+  - scope:
+      path: "assets/pdf/**/*.pdf"
+    values:
+      sitemap: false
   # _posts
   - scope:
       path: ""
@@ -404,6 +412,7 @@ defaults:
       share: false
       related: false
       search: false
+      sitemap: false
   # _presentations
   - scope:
       path: ""

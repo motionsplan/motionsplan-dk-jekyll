@@ -29,6 +29,10 @@ if (getCookie('AdsToggle') !== 0) {
 
 {% include head/favicon.html %}
 
+{% if page.sitemap == false or page.robots %}
+  <meta name="robots" content="{{ page.robots | default: "noindex" }}">
+{% endif %}
+
 <script>
 // Check compatibility for the browser we're running this in
 if ("serviceWorker" in navigator) {

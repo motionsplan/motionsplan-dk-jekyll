@@ -83,7 +83,7 @@ url
         </div>
 
         <div>
-          <a href="/assets/pdf/exercises/{{ page.path | replace: "_exercises/", "" | replace: ".md", "" }}.pdf" class="btn btn--danger btn--large"><i class="far fa-file-pdf" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].pdf_label | default: "Download PDF" }}</a>
+          <a href="/assets/pdf/exercises/{{ page.path | replace: "_exercises/", "" | replace: ".md", "" }}.pdf" rel="nofollow" class="btn btn--danger btn--large"><i class="far fa-file-pdf" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].pdf_label | default: "Download PDF" }}</a>
         </div>
         
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}

@@ -37,7 +37,7 @@ Jeg har været på udkig efter et træningsprogram til indendørs roning på rom
 
 Jeg vil gerne i gang med at ro lidt på romaskine for at genvinde lidt af min kondition. Derfor skrev jeg til Anders Krintel, som ved virkelig meget om at ro, og han var så venlig at give mig nogle af de bedste intervalprogrammer fra hans hjemmeside om rotræning.
 
-{% include figure image_path="https://www.tvsyd.dk/files/styles/16_9_medium_2x/public/kaltura/2014/50/efe7144d-f067-4379-90d4-b29f8cd9028c.jpg" caption="Anders Krintel er redaktør af [ropro.dk](http://ropro.dk/). Samtidig har Krintel været dansk mester omkring 40 gange kombineret i kano, kajak og kajakergometer." alt="Anders Krintel har lavet roprogrammer med intervaller til et indendørs træningsprogram til din rotræning og roning med intervaltræning" %}
+{% include figure image_path="https://cdn.syd.bazo.dk/images/d467169d-7c43-4290-9087-64eb76ce87c2/d/16-9/s/1029" caption="Anders Krintel er redaktør af [ropro.dk](http://ropro.dk/). Samtidig har Krintel været dansk mester omkring 40 gange kombineret i kano, kajak og kajakergometer. Anders har kigget på et et indendørs træningsprogram til din rotræning og roning med intervaltræning" alt="Anders Krintel om roprogrammer og intervaller" %}
 
 Formålet med dette indlæg er, at du selv at blive i stand til at udvælge intervaller til dit træningsprogram. Du kan naturligvis også bare ro kontinuerligt på romaskinen, men jeg kan godt lide at bryde min rotræning ned i intervaller.
 
@@ -79,7 +79,7 @@ Anders Krintel fortæller selv, at man langsomt skal vænne sig til at roning p�
 
 Du kan altså bruge en anstrengelsesskala til at styre din intensitet i træningen, så du rammer nogenlunde det, du har forberedt. Anders Krintel foreslår, at hvis du træner 4 x om ugen, så er der tre længere træningspas med lavere intensitet og et rigtig hårdt træningspas.
 
-Det kunne fx se sådan her ud ud fra den en [intensitetsskala](/borg/#rate-of-perceived-exertion-rpe), der går fra 1-10:
+Det kunne fx se sådan her ud ud fra den en [intensitetsskala](/borg/), der går fra 1-10:
 
 | Ugedag | Varighed | RPE |
 |-|-|-|

@@ -174,7 +174,7 @@ Her har jeg lavet fire forskellige eksempler på træningsprogrammer, du kan lav
 ### Lørdag
 
 - Brede armstrækkere - 3 sæt af 12 gentagelser
-- [Hindu pushups](/oevelse/armstrækning-hindu/) - 3 sæt af 6 gentagelser
+- [Hindu pushups](/oevelse/armstraekning-hindu/) - 3 sæt af 6 gentagelser
 - Kropshævninger i en gren - 5 sæt af 3 gentagelser
 - Nordic hamstring curls - 5 sæt af 6 gentagelser
 - Lunges - 4 sæt af 25 gentagelser til hvert ben

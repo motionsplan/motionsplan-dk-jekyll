@@ -32,7 +32,7 @@ language: da
 ---
 Jeg har lavet en beregner, hvor du kan udregne din fedtprocent på baggrund af din vægt, højde, køn og alder. 
 
-\*\[BMI]: Body Mass Index
+*[BMI]: Body Mass Index
 
 Udregningen er naturligvis forbundet med flere usikkerheder. Beregningen af din fedtprocent er indirekte og inddrager kun din højde og din vægt. Derfor er udregningen unøjagtig, da den ikke har mulighed for at vide, om din vægt skyldes muskler eller fedt.
 
@@ -67,11 +67,11 @@ Heitmann bruger i sin formel køn, BMI og alder.
 
 #### Formel for fedtprocent for mænd
 
-{% include math formula="PBF = \frac{0.988  *BMI + 0.242*  weight (kg) + 0.094 * age - 30.18}{weight (kg)}" %}
+{% include math formula="PBF = \frac{0.988 * BMI + 0.242 * weight (kg) + 0.094 * age - 30.18}{weight (kg)}" %}
 
 #### Formel for fedtprocent for kvinder
 
-{% include math formula="PBF = \frac{0.988  *BMI + 0.344*  weight (kg) + 0.094 * age - 30.18}{height (m)^2}" %}
+{% include math formula="PBF = \frac{0.988 * BMI + 0.344 * weight (kg) + 0.094 * age - 30.18}{height (m)^2}" %}
 
 </details>
 
