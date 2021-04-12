@@ -14,7 +14,7 @@ sitemap: false
 <body>
   <!-- Include the script that builds the page and powers Netlify CMS -->
   <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
-<script>
+  <script>
   CMS.registerEditorComponent({
     // Internal id of the component
     id: "youtube",
@@ -38,11 +38,11 @@ sitemap: false
     // (component gives better render performance)
     toPreview: function(obj) {
       return (
-        '<img src="https://www.w3.org/2000/svgimg.youtube.com/vi/' + obj.id + '/maxresdefault.jpg" alt="Youtube Video"/>'
+        '<img src="http://img.youtube.com/vi/' + obj.id + '/maxresdefault.jpg" alt="Youtube Video"/>'
       );
     }
   });
-</script>
+  </script>
 
 </body>
 </html>
