@@ -42,6 +42,68 @@
       );
     }
   });
+  CMS.registerEditorComponent({
+    // Internal id of the component
+    id: "math",
+    // Visible label
+    label: "Math",
+    // Fields the user need to fill out when adding an instance of the component
+    fields: [
+      {name: 'formula', label: 'Formula', widget: 'string'}
+    ],
+    // Pattern to identify a block as being an instance of this component
+    pattern: /^{% include math formula=\"(\S+)\" %}$/,
+    // Function to extract data elements from the regexp match
+    fromBlock: function(match) {
+      return {
+        formula: match[1]
+      };
+    },
+    // Function to create a text block from an instance of this component
+    toBlock: function(obj) {
+      return '{% include math="' + obj.formula + '" %}';
+    },
+    // Preview output for this component. Can either be a string or a React component
+    // (component gives better render performance)
+    toPreview: function(obj) {
+      return (
+        '<img src="https://latex.codecogs.com/svg.latex?' + obj.formula + '" title="' + obj.formula + '" alt="' + obj.formula + '">'
+      );
+    }
+  });
+  CMS.registerEditorComponent({
+    // Internal id of the component
+    id: "figure",
+    // Visible label
+    label: "Figure",
+    // Fields the user need to fill out when adding an instance of the component
+    fields: [
+      {name: 'image_path', label: 'Image Path', widget: 'string'},
+      {name: 'caption', label: 'Caption', widget: 'string'},
+      {name: 'alt', label: 'Alt', widget: 'string'}
+    ],
+    // Pattern to identify a block as being an instance of this component
+    pattern: /^{% include figure image_path=\"(\S+)\" caption=\"(\S+)\" alt=\"(\S+)\" %}$/,
+    // Function to extract data elements from the regexp match
+    fromBlock: function(match) {
+      return {
+        image_path: match[1],
+        caption: match[2],
+        alt: match[3]
+      };
+    },
+    // Function to create a text block from an instance of this component
+    toBlock: function(obj) {
+      return '{% include figure image_path="' + obj.image_path + '" caption="' + obj.caption + '" alt="' + obj.alt + '" %}';
+    },
+    // Preview output for this component. Can either be a string or a React component
+    // (component gives better render performance)
+    toPreview: function(obj) {
+      return (
+        '<figure><img src="' + obj.image_path + '" alt="' + obj.alt + '"><caption>' + obj.caption + '</caption></figure>'
+      );
+    }
+  });
   </script>
 
 </body>
