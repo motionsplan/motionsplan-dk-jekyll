@@ -17,7 +17,10 @@
     // Visible label
     label: "Video",
     // Fields the user need to fill out when adding an instance of the component
-    fields: [{name: 'provider', label: 'Video Provider', widget: 'string'}, {name: 'id', label: 'Video ID', widget: 'string'}],
+    fields: [
+      {name: 'provider', label: 'Video Provider', widget: 'string'},
+      {name: 'id', label: 'Video ID', widget: 'string'}
+    ],
     // Pattern to identify a block as being an instance of this component
     pattern: /^{% include video provider=\"(\S+)\" video=\"(\S+)\" %}$/,
     // Function to extract data elements from the regexp match
