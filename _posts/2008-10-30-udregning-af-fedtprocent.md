@@ -121,7 +121,7 @@ Du kan kombinere udregningen af fedtprocent med en øjemålstest. Så har du for
 
 {% include figure image_path="https://exerciseandwellness.files.wordpress.com/2016/03/body-fat-percentage-men-women.jpg" caption="Øjemålstest af fedtprocenten - [via](https://exerciseandwellness.wordpress.com/2016/03/28/body-fat-percentages/)" alt="Beregn og udregn din fedtprocent med forskellige formler" %}
 
-Hvis du vil tjekke din \[fedtprocent i forhold til normerne for mænd og kvinder, så klik her]({% link _posts/2019-10-13-fedtprocent-maaling.md %}).
+Hvis du vil tjekke din [fedtprocent i forhold til normerne for mænd og kvinder, så klik her]({% link _posts/2019-10-13-fedtprocent-maaling.md %}).
 
 ## Andre typer målinger af kropskomposition
 
