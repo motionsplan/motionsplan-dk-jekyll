@@ -25,8 +25,6 @@ Der er i hvert fald tre strategier, hvis man gerne vil forbedre sin evne til at 
 
 Vi synes du skal få fat i en ven, og så skal I stille jer selv en udfordring. Fx "jeg vil gerne tage 100 armstrækninger" eller "jeg vil gerne tage 10 pullups".
 
-{% include exercise key="273" %}
-
 Så kan I prøve at følge Pavel Tsatsolines "grease the groove"-princip for at opnå målet. Tanken er at man skal lave specifik træning og lave mange gentagelser uden at blive fuldstændig udmattet for at facilitetere nervesystemet, så processerne omkring bevægelsen bliver optimeret.
 
 ## Hvordan faciliteter vi nervesystemet - "grease the groove"?
