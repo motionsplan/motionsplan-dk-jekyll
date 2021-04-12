@@ -61,13 +61,42 @@
     },
     // Function to create a text block from an instance of this component
     toBlock: function(obj) {
-      return '{% include math="' + obj.formula + '" %}';
+      return '{% include math formula="' + obj.formula + '" %}';
     },
     // Preview output for this component. Can either be a string or a React component
     // (component gives better render performance)
     toPreview: function(obj) {
       return (
         '<img src="https://latex.codecogs.com/svg.latex?' + obj.formula + '" title="' + obj.formula + '" alt="' + obj.formula + '">'
+      );
+    }
+  });
+  CMS.registerEditorComponent({
+    // Internal id of the component
+    id: "exercise",
+    // Visible label
+    label: "Exercise",
+    // Fields the user need to fill out when adding an instance of the component
+    fields: [
+      {name: 'key', label: 'Key', widget: 'relation', collection: 'exercises', search_fields: "title", value_field: "key", "display_fields": ["title", "key"]}
+    ],
+    // Pattern to identify a block as being an instance of this component
+    pattern: /^{% include exercise key=\"(\S+)\" %}$/,
+    // Function to extract data elements from the regexp match
+    fromBlock: function(match) {
+      return {
+        key: match[1]
+      };
+    },
+    // Function to create a text block from an instance of this component
+    toBlock: function(obj) {
+      return '{% include exercise key="' + obj.key + '" %}';
+    },
+    // Preview output for this component. Can either be a string or a React component
+    // (component gives better render performance)
+    toPreview: function(obj) {
+      return (
+        '<p>Excercise: ' + obj.key + '</p>'
       );
     }
   });
