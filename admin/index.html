@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Motionsplan: Content Manager v. 1.0.0</title>
+  <title>Motionsplan: Content Manager v. 1.0.1</title>
   <meta name="robots" content="noindex, nofollow">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -24,7 +24,7 @@
     label: "Video",
     // Fields the user need to fill out when adding an instance of the component
     fields: [
-      {name: 'provider', label: 'Video Provider', widget: 'string'},
+      {name: 'provider', label: 'Video Provider', widget: 'select', multiple: false, options: [ "youtube", "vimeo" ], default: "youtube"},
       {name: 'id', label: 'Video ID', widget: 'string'}
     ],
     // Pattern to identify a block as being an instance of this component
@@ -87,7 +87,7 @@
       {name: 'key', label: 'Key', widget: 'relation', collection: 'exercises', search_fields: "title", value_field: "key", "display_fields": ["title", "key"]}
     ],
     // Pattern to identify a block as being an instance of this component
-    pattern: /^{% include exercise key=\"(\S+)\" %}$/,
+    pattern: /^\{% include exercise key=\"(\S+)\" %\}$/,
     // Function to extract data elements from the regexp match
     fromBlock: function(match) {
       return {
@@ -118,7 +118,7 @@
       {name: 'alt', label: 'Alt', widget: 'string'}
     ],
     // Pattern to identify a block as being an instance of this component
-    pattern: /^{% include figure image_path=\"(\S+)\" caption=\"(\S+)\" alt=\"(\S+)\" %}$/,
+    pattern: /^\{% include figure image_path=\"(\S+)\" caption=\"(\S+)\" alt=\"(\S+)\" %\}$/,
     // Function to extract data elements from the regexp match
     fromBlock: function(match) {
       return {
