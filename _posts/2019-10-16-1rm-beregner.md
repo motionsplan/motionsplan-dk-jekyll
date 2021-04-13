@@ -35,7 +35,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835"
     btn_label: "Tjek prisen på Saxo*"
     btn_class: "btn--success"
- - image_path: https://imgcdn.saxo.com/_9788799095872/0x500
+  - image_path: https://imgcdn.saxo.com/_9788799095872/0x500
     title: &book_title "Fitness testning - fysisk testning og sundhedstestning i fitnesscentre, skole og hjem"
     alt: *book_title
     excerpt: "Populær opslagsbog med allround fysisk testning med nemme  fitness tests, der kan udføres i et fitnesscenter, i en gymnastiksal, sportshal eller i hjemmet. De fleste tests og selvtests kan udføres med kroppen alene eller få, små, billige redskaber. Der forudsættes ikke adgang til specialudstyr. Tre komplette testprogrammer og over 40 fitnesstests samt Fitnessbarometer og Fitness Profil til motivation af fysisk inaktive og fysisk aktive. For personlige trænere, fitness instruktører, fysioterapeuter, idrætsstuderende, idrætsundervisere og supermotionister. Gennemillustreret. 144 sider."
