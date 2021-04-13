@@ -144,7 +144,7 @@
     label: "Exercise",
     // Fields the user need to fill out when adding an instance of the component
     fields: [
-      {name: 'key', label: 'Key', widget: 'relation', collection: 'exercises', search_fields: ["title", "key"], value_field: "key", display_fields: ["title", "key"]}
+      {name: 'key', label: 'Key', widget: 'relation', collection: 'exercises', search_fields: ["key", "title"], value_field: "key", display_fields: ["title", "key"]}
     ],
     // Pattern to identify a block as being an instance of this component
     pattern: /^\{% include exercise key=\"(\S+)\" %\}$/,
