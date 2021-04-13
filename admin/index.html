@@ -144,7 +144,7 @@
     label: "Exercise",
     // Fields the user need to fill out when adding an instance of the component
     fields: [
-      {name: 'key', label: 'Key', widget: 'relation', collection: 'exercises', search_fields: ["key", "title"], value_field: "key", display_fields: ["title", "key"]}
+      {name: 'key', label: 'Key', widget: 'relation', collection: 'exercises', search_fields: ["title", "key"], value_field: "key", display_fields: ["title", "key"]}
     ],
     // Pattern to identify a block as being an instance of this component
     pattern: /^\{% include exercise key=\"(\S+)\" %\}$/,
@@ -178,7 +178,7 @@
       {name: 'alt', label: 'Alt', widget: 'string'}
     ],
     // Pattern to identify a block as being an instance of this component
-    pattern: /^\{% include figure image\_path=\"[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)\" caption=\"(\S+)\" alt=\"(\S+)\" %\}$/,
+    pattern: /^\{% include figure image\_path=\"(\S+)\" caption=\"(\S+)\" alt=\"(\S+)\" %\}$/,
     // Function to extract data elements from the regexp match
     fromBlock: function(match) {
       return {
