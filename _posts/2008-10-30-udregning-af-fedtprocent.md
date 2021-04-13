@@ -119,7 +119,7 @@ Jeg har skrevet mere om [BMI og lavet en beregner](/bmi/).
 
 Du kan kombinere udregningen af fedtprocent med en øjemålstest. Så har du formentlig en nogenlunde ide om din fedtprocent ligger inden for et sundt spektrum.
 
-{% include figure image_path="https://exerciseandwellness.files.wordpress.com/2016/03/body-fat-percentage-men-women.jpg" caption="Øjemålstest af fedtprocenten - [via](https://exerciseandwellness.wordpress.com/2016/03/28/body-fat-percentages/)" alt="Beregn og udregn din fedtprocent med forskellige formler" %}
+{% include figure image_path="https://exerciseandwellness.files.wordpress.com/2016/03/body-fat-percentage-men-women.jpg" caption="Øjemålstest af fedtprocenten - [via](https://exerciseandwellness.wordpress.com/2016/03/28/body-fat-percentages/)" alt="beregn din fedtprocent" %}
 
 Hvis du vil tjekke din [fedtprocent i forhold til normerne for mænd og kvinder, så klik her]({% link _posts/2019-10-13-fedtprocent-maaling.md %}).
 
@@ -140,9 +140,10 @@ Hvis du vil have et mere præcist bud på din fedtprocent, så kan du kigge på 
 <details markdown="1">
   <summary>Se referencer til {{ page.title }}</summary>
 
-- Loenneke, Jeremy P., Kathryn M. Hirt, Jacob M. Wilson, Jeremy T Barnes, og Thomas J Pujol. 2013. “Predicting Body Composition in College Students Using the Womersley and Durnin Body Mass Index Equation”. Asian Journal of Sports Medicine 4 (2): 153–57. <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3690736/>.
-- Heitmann, B. L. 1990. “Evaluation of Body Fat Estimated from Body Mass Index, Skinfolds and Impedance. A Comparative Study”. European Journal of Clinical Nutrition 44 (11): 831–37.
-- Deurenberg, P., J. A. Weststrate, og J. C. Seidell. 1991. “Body Mass Index as a Measure of Body Fatness: Age- and Sex-Specific Prediction Formulas”. The British Journal of Nutrition 65 (2): 105–14. <https://doi.org/10.1079/bjn19910073>.
+* Loenneke, Jeremy P., Kathryn M. Hirt, Jacob M. Wilson, Jeremy T Barnes, og Thomas J Pujol. 2013. “Predicting Body Composition in College Students Using the Womersley and Durnin Body Mass Index Equation”. Asian Journal of Sports Medicine 4 (2): 153–57. <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3690736/>.
+* Heitmann, B. L. 1990. “Evaluation of Body Fat Estimated from Body Mass Index, Skinfolds and Impedance. A Comparative Study”. European Journal of Clinical Nutrition 44 (11): 831–37.
+* Deurenberg, P., J. A. Weststrate, og J. C. Seidell. 1991. “Body Mass Index as a Measure of Body Fatness: Age- and Sex-Specific Prediction Formulas”. The British Journal of Nutrition 65 (2): 105–14. <https://doi.org/10.1079/bjn19910073>.
+
 </details>
 
 {% include feature_row type="left" %}
