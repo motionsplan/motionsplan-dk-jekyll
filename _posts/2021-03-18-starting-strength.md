@@ -68,7 +68,7 @@ Jeg har selv brugt Starting Strength mange gange efter fx en træningspause for 
 
 Mark Rippetoe er meget optaget af hensigtsmæssig løfteteknik for at blive stærk. Bogen har en meget nøjagtig gennemgang af teknik. Formålet med teknikken er at placere ryggen i en passende vinkel for at kunne lave maksimal kraftproduktion.
 
-Jeg har tidligere skrevet, at din [teknik i styrketræning]({% link _posts/2019-08-10-teknik.md %}) skal passe til din kropsbygning. Det mener Mark Rippetoe også. I squat foreslår han, at for de fleste skal stangen placeres længere nede på ryggen end de mange gør i forvejen. Men det kommer helt an på, hvordan din krop er sat sammen.
+Jeg har tidligere skrevet, at din [teknik i styrketræning]({% link _posts/2011-08-18-tjek-teknikken-i-din-styrketraening.md %}) skal passe til din kropsbygning. Det mener Mark Rippetoe også. I squat foreslår han, at for de fleste skal stangen placeres længere nede på ryggen end de mange gør i forvejen. Men det kommer helt an på, hvordan din krop er sat sammen.
 
 ## Øvelser og beskrivelser til Starting Strength
 

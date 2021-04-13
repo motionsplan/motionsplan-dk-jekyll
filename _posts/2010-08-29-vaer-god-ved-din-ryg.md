@@ -1,5 +1,6 @@
 ---
-title: &title "Vær god ved din ryg"
+title: &title "Ondt i ryggen: Få fire gode råd til at undgå ondt i lænden!"
+seo_title: 4 gode råd til at undgå ondt i ryggen og lænden
 permalink: /artikel/vaer-god-ved-din-ryg/
 language: da
 header:
@@ -12,7 +13,7 @@ tags:
   - forebyggelse
 category:
   - Styrketræning
-last_modified_at: 2013-02-13T22:03:29Z
+last_modified_at: 2021-04-13T22:03:29Z
 feature_row:
   - image_path: https://imgcdn.saxo.com/_9781450472913/0x500
     alt: "Low Back Disorders - Evidence-Based Prevention and Rehabilitation af Stuart Mcgill"
@@ -35,16 +36,24 @@ Man hører også ofte, at "det er farligt for ryggen", hvis du løfter sådan, e
 
 ## 4 gode råd til at undgå ondt i ryggen
 
-- **Sid varieret**. Du skal skifte stilling ofte, når du sidder. Det gælder både på kontoret, i skolen, i toget og også derhjemme når du er lidt træt.
-- **Bevæg ryggen**. Du skal bevæge ryggen på mange forskellige måder, og det er en god ide at tage nogle pauser i løbet af dagen, hvor du gør det. Drejninger, foroverbøjninger og bagudbøjninger.
-- **Træn ryggen**. Du skal træne ryggen varieret. Du kan finde en masse øvelser her på siden.
-- **Undgå den dumme bevægelse**. Brug hensigtsmæssig løfteteknik, når du løfter. Det er formentlig ikke en god ide at have en krum ryg, samtidig med at du laver en drejning, når du løfter noget, der er tungere end du plejer.
+1. **Sid varieret**. Du skal skifte stilling ofte, når du sidder. Det gælder både på kontoret, i skolen, i toget og også derhjemme når du er lidt træt.
+2. **Bevæg ryggen**. Du skal bevæge ryggen på mange forskellige måder, og det er en god ide at tage nogle pauser i løbet af dagen, hvor du gør det. Drejninger, foroverbøjninger og bagudbøjninger.
+3. **Træn ryggen**. Du skal træne ryggen varieret. Du kan finde en masse øvelser her på siden.
+4. **Undgå den dumme bevægelse**. Brug hensigtsmæssig løfteteknik, når du løfter. Det er formentlig ikke en god ide at have en krum ryg, samtidig med at du laver en drejning, når du løfter noget, der er tungere end du plejer.
+
+## Løfteteknik er ikke afgørende for om du får ondt i ryggen
+
+Selvom vi har skrevet i råd nummer 4, at du skal undgå at lave dumme bevægelser, så er løfteteknik faktisk ikke en afgørende faktor for om du får lændesmerter og undt i ryggen.
+
+Det betyder ikke, at din løfteteknik er ligegyldig, men sammenhængen mellem løfteteknik og rygsmerter er ikke ret tydelig, når man kigger i videnskaben. Risikoen ved forskellige løfteteknikker er formentlig blevet overdrevet. Det skriver Paul Ingraham meget mere om i sin artikel [Lifting technique is not important for your back](https://www.painscience.com/articles/lifting-technique-is-not-important-for-your-back.php).
+
+Du kan fx se verdensklasseatleter løfte med mange forskellige teknikker, og de har i hvert fald en stærk ryg. Se mere under [Teknik i styrketræning]({% link _posts/2011-08-18-tjek-teknikken-i-din-styrketraening.md %}).
 
 ***
 
 Måske skal man med viden fra en af verdens førende rygspecialister, Stuart McGill, præcisere rådet om at træne ryggen til: Træn ryggen så den bliver mere udholdende.
 
-## Ryggen skal være udholdende
+## Undgå ondt i ryggen ved at gøre den udholdende
 
 Noget af det vigtigste for at undgå rygproblemer er ifølge Stuart McGill, at de muskler der stabiliserer ryggen er udholdende. Det er altså væsentligere at den kan holde til mange gentagelser end at den er stærk og kan løfte en stor vægt. Og det er vist sikkert og vist at træning forebygger rygproblemer (Hides et al 2001).
 
@@ -54,17 +63,13 @@ For at træne ryggen foreslår Stuart McGill følgende øvelser:
 - [Side bridge](/oevelse/side-bridge)
 - [Birddog](/oevelse/birddog)
 
-## Test om du er i farezonen
+## Test om du er i farezonen for at få ondt i ryggen
 
 Du kan let lave en test derhjemme for at se om du er i farezonen for at komme til at opleve problemer med ryggen og lænden. [Fixyourownback.com](http://fixyourownback.com) forklarer her Stuart McGills tests:
 
 {% include video provider="youtube" id="MpZUTyG41vY" %}
 
 {% include video provider="youtube" id="crO09PXp4SY" %}
-
-## Præsentation om ryggen
-
-Vi arbejder på en præsentation om ryggen. Du er velkommen til at kommentere både på indhold og opbygning. Se den her:
 
 ## Udbredelse af rygproblemer
 

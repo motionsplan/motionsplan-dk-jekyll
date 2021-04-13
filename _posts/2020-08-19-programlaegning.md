@@ -222,7 +222,7 @@ Hvis du introducerer boxjumps, kan det være en god ide at gå ned af boksen ige
 
 Det er en god ide at have en alsidig bevægelseserfaring med øvelserne kun med kropsvægt, inden du putter ekstra vægt på. Brug tid ved hver øvelse på virkelig at gøre det så godt som muligt med lav vægt, inden du putter vægt på stangen. Men sørg også for at afprøve dig selv med mere vægt en gang imellem for at se, hvor dine svage punkter er.
 
-Du kan læse mere om [teknik i styrketræning, hvor vi ikke opererer med rigtigt og forkert]({% link _posts/2019-08-10-teknik.md %}) og få nogle [tips til din teknik i styrketræning]({% link _posts/2011-08-18-tjek-teknikken-i-din-styrketraening.md %}).
+Du kan læse mere om [tips til din teknik i styrketræning]({% link _posts/2011-08-18-tjek-teknikken-i-din-styrketraening.md %}).
 
 ## Programlægning til styrketræning
 
