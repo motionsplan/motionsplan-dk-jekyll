@@ -18,7 +18,7 @@ last_modified_at: 2020-01-23T08:14:14Z
 toc: true
 ---
 
-Jeg gennemgår her, hvordan man sammensætter et godt styrketræningsprogram til styrketræning. Jeg har gjort mig meget umage for, at denne guide til programlægning dækker alle de grundlæggende træningsprincipper i forbindelse med at lave et styrkeprogram, der passer til den der skal lave det.
+Jeg gennemgår her, hvordan man sammensætter et godt styrketræningsprogram til styrketræning. Jeg har gjort mig meget umage for, at denne guide til programlægning dækker alle de grundlæggende træningsprincipper i forbindelse med at lave et styrkeprogram, der passer til den, der skal lave træningsprogrammet.
 
 Når du laver træningsprogrammer, så er det vigtigt, at du tager udgangspunkt i de målsætninger programmet skal opfylde. Træningsplanen kommer til at se forskellig ud, hvis dit mål er at blive stærkere i forhold til at bygge flere muskler på eller komme i bedre kondition.
 

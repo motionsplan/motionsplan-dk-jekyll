@@ -58,7 +58,7 @@
       {name: 'formula', label: 'Formula', widget: 'string'}
     ],
     // Pattern to identify a block as being an instance of this component
-    pattern: /^\{% include math formula=\"(\S+)\" %\}$/,
+    pattern: /^\{% include math formula=\"(.*)\" %\}$/,
     // Function to extract data elements from the regexp match
     fromBlock: function(match) {
       return {
