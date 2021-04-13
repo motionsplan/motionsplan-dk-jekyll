@@ -200,37 +200,6 @@
       );
     }
   });
-  CMS.registerEditorComponent({
-    // Internal id of the component
-    id: "details",
-    // Visible label
-    label: "Collapsible block",
-    // Fields the user need to fill out when adding an instance of the component
-    fields: [
-      {name: 'summary', label: 'Summary', widget: 'string'},
-      {name: 'content', label: 'Content', widget: 'markdown'}
-    ],
-    // Pattern to identify a block as being an instance of this component
-    pattern: /^<details markdown="1">\n  <summary>(.*)<\/summary>\n((?:.*\r?\n?)*)\n<\/details>$/,
-    // Function to extract data elements from the regexp match
-    fromBlock: function(match) {
-      return {
-        summary: match[1],
-        content: match[2]
-      };
-    },
-    // Function to create a text block from an instance of this component
-    toBlock: function(obj) {
-      return '<details markdown="1">\n\n  <summary>' + obj.summary + '</summary>\n\n' + obj.content + '\n\n</details>';
-    },
-    // Preview output for this component. Can either be a string or a React component
-    // (component gives better render performance)
-    toPreview: function(obj) {
-      return (
-        ''
-      );
-    }
-  });
   </script>
 
 </body>
