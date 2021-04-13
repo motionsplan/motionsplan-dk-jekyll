@@ -150,6 +150,7 @@
     pattern: /^\{% include exercise key=\"(\S+)\" %\}$/,
     // Function to extract data elements from the regexp match
     fromBlock: function(match) {
+      console.log(match);
       return {
         key: match[1]
       };
@@ -178,7 +179,7 @@
       {name: 'alt', label: 'Alt', widget: 'string'}
     ],
     // Pattern to identify a block as being an instance of this component
-    pattern: /^\{% include figure image\_path=\"(\S+)\" caption=\"(\S+)\" alt=\"(\S+)\" %\}$/,
+    pattern: /^\{% include figure image\_path=\"(\S*)\" caption=\"(.*)\" alt=\"(.*)\" %\}$/,
     // Function to extract data elements from the regexp match
     fromBlock: function(match) {
       return {
