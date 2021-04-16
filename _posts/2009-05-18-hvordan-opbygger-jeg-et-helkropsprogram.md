@@ -32,7 +32,7 @@ For at opbygge et alsidigt styrkeprogram, der træner hele kroppen, skal du væl
 
 ## Hvor mange gentagelser skal jeg lave?
 
-Hvis du bare vil i almindelig god form, anbefaler vi at du laver 8-12 gentagelser af hver øvelse, og det gentager du 2-4 gange. Man siger at man laver otte gentagelser på fire sæt. Du kan læse mere i artiklen [Hvordan skal jeg dosere min træning?](/artikel/hvordan-skal-jeg-dosere-min-styrketraening/)
+Hvis du bare vil i almindelig god form, anbefaler vi at du laver 8-12 gentagelser af hver øvelse, og det gentager du 2-4 gange. Man siger at man laver otte gentagelser på fire sæt. Du kan læse mere om, [hvordan du kan dosere din styrketræning?](/traeningsprogram-programlaegning-styrketraening/)
 
 ## Træn hårdt og med omtanke!
 

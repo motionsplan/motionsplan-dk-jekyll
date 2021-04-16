@@ -190,7 +190,7 @@ Det langsomme tempo vil helt sikkert føles alt for langsomt. Du vil hele tiden 
 
 Det hurtige tempo føles derimod ubehageligt. Kroppen og hjernen vil gøre hvad den kan, for at du sætter tempoet ned, men lad dig ikke friste. Du har et mål med træningen. I dag var enten at flytte den anaerobe tærskel eller at forbedre den maksimale iltoptagelse. Det må kroppen og hjernen ganske enkelt vænne sig til.
 
-## Løbtræning skal foregå i minutter
+## Løbetræning skal foregå i minutter
 
 Jeg mener, at alt for mange løbere fokuserer på, hvor mange kilometer, de løber, i stedet for at fokusere på, hvor mange minutter de løber.
 

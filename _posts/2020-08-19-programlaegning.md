@@ -1,5 +1,7 @@
 ---
 title: &title "Træningsprogram til styrketræning: Guide til programlægning"
+redirect_from:
+  - /artikel/hvordan-skal-jeg-dosere-min-styrketraening/
 permalink: /traeningsprogram-programlaegning-styrketraening/
 language: da
 header:
@@ -68,6 +70,24 @@ Det meste træning kan forklares ud fra de tre hovedprincipper. Når man træner
 Træning er en koncentreret påvirkning af kroppen. Hvis man ikke tilrettelægger træningen rigtigt eller træner for meget, så vil træningen ikke opbygge kroppen, men kroppen vil i stedet for føle mere stress og den vil reagere med smerter, skader eller manglende resultater.
 
 Træning skal doseres rigtigt og med omtanke.
+
+## Hvordan skal jeg dosere min styrketræning?
+
+Det kommer helt an på, hvad du vil opnå. I et metaanalyse af 140 styrketræningsstudier sammenlignede man, hvordan utrænede og trænede skulle træne (Rhea et al 2003). I studiet definerede man utrænede som folk der har trænet mindre end et år, og trænede som har trænet mere end et år.
+
+Som med al mulig andet træning, skal man huske på, at det er i pauserne, at kroppen bygges op. Desto hårdere man træner, desto længere skal kroppen bruge på at bygge sig selv op igen. Det er bl.a. en af forklaringerne på forskellene mellem de trænede og utrænede, idet trænede kan belaste kroppen hårdere.
+
+De undersøgte bl.a. hvor høj intensiteten i forhold til [1RM](/rm-beregner/) med fordel kunne være.
+
+Konklusioner fra metaanalyse af 140 styrketræningsstudier ([Rhea et al 2003](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12618576&dopt=Abstract)) kan ses i nedenstående tabel.
+
+|            | Begynder         | Trænet              |
+|------------|------------------|---------------------|
+| Erfaring   | Mindre end et år | Mere end et år      |
+| Belastning | 60% 1RM          | 80% 1RM             |
+| Sæt        | 4                | 4                   |
+| Pr. uge    | 3                | 2                   |
+| Type       | Helkrop          | Helkrop eller split |
 
 ## Kroppens opbygning ultrakort
 
