@@ -107,7 +107,7 @@ Først skal du sørge for at optimere din træning, kost og søvn. Når du har s
 
 Jeg har tidligere skrevet om [kompressionsstrømper som tilsyneladende har vist en bedre effekt på restitution]({% link _posts/2010-07-11-kompressionsstroemper-en-god-ide.md %}), og de er noget billigere at købe med nogenlunde samme påståede effekt.
 
-Jeg har skrevet et andet indlæg om, [hvordan du hurtigst restituerer fra træning]({% link _posts/2009-08-07-restition-hvordan-bliver-jeg-hurtigst-klar-igen.md %}) eller [hvad restitutionstiden er efter træning]({% link _posts/2020-05-28-restitutionstid-alder.md %}).
+Jeg har skrevet et andet indlæg om, [hvad restitutionstiden er, og hvordan du hurtigst restituerer fra træning]({% link _posts/2020-05-28-restitutionstid-alder.md %}).
 
 Det skal selvfølgelig være dig frit for at købe recovery boots, hvis du synes de er behagelige at have på efter træning, og du får en god fornemmelse i kroppen. Du kan fx tjekke **hvad priserne på _recovery boots_** er hos [yourboots.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=71899&htmlurl=https://yourboots.dk/valg-af-maskine/){:rel="nofollow"}, hos [www.denintelligentekrop.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38097&htmlurl=https://www.denintelligentekrop.dk/reecover-recovery-boots-pro6-portable-6-kamre?c=6303){:rel="nofollow"} eller hos [optimasport.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55636){:rel="nofollow"}.
 

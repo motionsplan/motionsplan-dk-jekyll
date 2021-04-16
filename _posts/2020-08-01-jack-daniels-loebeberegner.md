@@ -358,9 +358,9 @@ Roligt løb kan bruges meget i træning, så længe den samlede træningsmængde
 
 ## Restitutionstræning
 
-Når du træner, så har kroppen brug for tid til at bygge sig op igen bagefter. Der er forskellige strategier til at [fremme restitutionen]({% link _posts/2009-08-07-restition-hvordan-bliver-jeg-hurtigst-klar-igen.md %}) og arbejde med [restitutionstiden]({% link _posts/2020-05-28-restitutionstid-alder.md %}).
+Når du træner, så har kroppen brug for tid til at bygge sig op igen bagefter. Der er forskellige strategier til at [fremme restitutionen og restitutionstiden]({% link _posts/2020-05-28-restitutionstid-alder.md %}).
 
-Det kan tilsyneladende betale sig at lave _aktiv_ restitution frem for _passiv_ restitution. Det kan du bruge en langsommere løbetur til, men du kan også vælge [andre former for restitutionstræning]({% link _posts/2009-08-07-restition-hvordan-bliver-jeg-hurtigst-klar-igen.md %}).
+Det kan tilsyneladende betale sig at lave _aktiv_ restitution frem for _passiv_ restitution. Det kan du bruge en langsommere løbetur til, men du kan også vælge [andre former for restitutionstræning]({% link _posts/2020-05-28-restitutionstid-alder.md %}).
 
 Nogle af de ting tænker restitutionstræning kan hjælpe med er at:
 

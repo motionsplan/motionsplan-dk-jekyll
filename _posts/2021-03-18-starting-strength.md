@@ -164,7 +164,7 @@ Starting Strength er altså ikke bare linære programmering i det uendelige. Nå
 
 ## Mark Rippetoes træningstips til Starting Strength
 
-Starting Strength bør starte relativt let ud, men den lineære progression gør efterhånden programmet rigtig hårdt. Derfor er det vigtigt, at du tænker på din [restitution]({% link _posts/2009-08-07-restition-hvordan-bliver-jeg-hurtigst-klar-igen.md %}), din hvile og sørger for at få rigeligt at spise.
+Starting Strength bør starte relativt let ud, men den lineære progression gør efterhånden programmet rigtig hårdt. Derfor er det vigtigt, at du tænker på din [restitution og restitutionstid]({% link _posts/2020-05-28-restitutionstid-alder.md %}), din hvile og sørger for at få rigeligt at spise.
 
 ## 1. Hvil rigeligt
 

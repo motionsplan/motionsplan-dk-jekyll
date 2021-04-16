@@ -69,7 +69,7 @@ Dette bør trænes, så muskulaturen kan klare koncentriske og excentriske belas
 
 De ovenstående resultater tyder altså på, at supplerende træning som styrke-, balance- og plyometrisk træning kan have en skadesforebyggende effekt. Især de alvorlige skader som overrevet korsbånd synes at kunne undgås i højere grad. Dette er gode nyheder for trænere og sportsudøvere.
 
-I forhold til skader så er restitution en af de helt store syndere, så du kan med fordel læse lidt mere om [restitution]({% link _posts/2009-08-07-restition-hvordan-bliver-jeg-hurtigst-klar-igen.md %}) og [restitutionstid]({% link _posts/2020-05-28-restitutionstid-alder.md %}).
+I forhold til skader så er restitution en af de helt store syndere, så du kan med fordel læse lidt mere om [restitution og restitutionstid]({% link _posts/2020-05-28-restitutionstid-alder.md %}).
 
 Vi har også skrevet et andet indlæg, der giver [forslag til forskellige øvelser til at forebygge skader](/skadesforebyggelse-skadesforebyggende-traening/).
 
