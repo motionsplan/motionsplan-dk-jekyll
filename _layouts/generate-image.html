@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang='en' prefix='og: http://ogp.me/ns#'>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>generating {{ page.image_type }} image</title>
+    <link rel='stylesheet' href='/assets/css/generate-image.css'>
+    <script src='/assets/js/generate-image.js'></script>
+  </head>
+
+  <body class='{{ page.image_type }}'>
+    <div id='preview'>
+      <section id='text'>
+        <header>
+          <img id='logo' alt='' src='/assets/images/logo.gif' />
+          <h1 id='site-title'>Motionsplan.dk</h1>
+        </header>
+  
+        <h2 id='post-title'></h2>
+
+        <h3 id='post-excerpt'></h3>
+  
+        <section id='author'>
+          <img id='author-image' alt='' src='' />
+          <p id='author-name'></p>
+        </section>
+      </section>
+
+      <figure id='image'>
+        <img id='post-image' alt='' src='' />
+      </figure>
+    </div>
+  </body>
+
+</html>
