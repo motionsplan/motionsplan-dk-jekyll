@@ -81,7 +81,7 @@ async function takeScreenshot(url) {
 async function generateImage(url, path) {
   const buffer = await takeScreenshot(url)
   // strip slashes off of link
-  const fileName = `./assets/images/generated/${args.type}/${path.replace(/\//g, '')}.png`
+  const fileName = `./src/images/generated/${args.type}/${path.replace(/\//g, '')}.png`
   fs.writeFile(fileName, buffer, (err) => {
     if (err) return console.error(err)
     console.log('file saved to ', fileName)

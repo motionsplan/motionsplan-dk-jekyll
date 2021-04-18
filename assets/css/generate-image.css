@@ -43,8 +43,8 @@ body.og #preview #image {
 }
 
 body.og #preview #image {
-  border-top-left-radius: .5rem;
-  border-bottom-left-radius: .5rem;
+  border-top-left-radius:10% 10%;
+  border-bottom-left-radius:30% 40%;
 }
 
 body.og #post-excerpt {
@@ -64,8 +64,8 @@ body.pinterest #preview #image {
 }
 
 body.pinterest #preview #image {
-  border-bottom-right-radius: .5rem;
-  border-bottom-left-radius: .5rem;
+  border-bottom-right-radius:60% 40%;
+  border-bottom-left-radius:20% 10%;
 }
 
 #text {
