@@ -6,6 +6,7 @@ const puppeteer = require('puppeteer')
 const yaml = require('js-yaml')
 const frontmatter = require('gray-matter')
 var queue = require('queue')
+const { utoa } = require('unicode-encode')
 
 const sizes = {
   // height, width
@@ -56,7 +57,8 @@ const urls = posts.map(post => objectToParams({
     'post-image': post.header.overlay_image || '',
   })
 ).map(params => {
-  const url = `http://127.0.0.1:8080/generate-image/${args.type}?${params}`
+  // use `utoa` to encode emojis/special characters
+  const url = `http://127.0.0.1:8080/generate-image/${args.type}?${utoa(params)}`
   // uncomment this to print the url for debug purposes
   // console.log(url)
   return url
@@ -80,8 +82,14 @@ async function takeScreenshot(url) {
 // take a buffer, save an image
 async function generateImage(url, path) {
   const buffer = await takeScreenshot(url)
-  // strip slashes off of link
-  const fileName = `./src/images/generated/${args.type}/${path.replace(/\//g, '')}.png`
+  // strip leading and trailing slashes off of link
+  const fixedPath = () => {
+    const letters = [...path]
+    if (letters[0] === '/') { delete letters[0] }
+    if (letters[letters.length - 1] === '/') { delete letters[letters.length - 1] }
+    return letters.join('').replace(/\//g, '-')
+  }
+  const fileName = `./src/images/generated/${args.type}/${fixedPath()}.png`
   fs.writeFile(fileName, buffer, (err) => {
     if (err) return console.error(err)
     console.log('file saved to ', fileName)
@@ -95,8 +103,16 @@ taskList.concurrency = 1
 // match up urls and posts, save images with the correct file name
 // push them to the queue
 posts.map(async (post, index) => {
-  taskList.push(() => generateImage(urls[index], post.permalink))
-  // await generateImage(urls[index], post.permalink)
+  if(post.permalink) {
+    // not every page has a set permalink...
+    taskList.push(() => generateImage(urls[index], post.permalink))
+  } else {
+    // ... so follow the `permalink: /:categories/:title/` pattern from _config.yaml
+    const category = post.category[0].toLowerCase()
+    const title = args['path'].match(/\d\d\d\d-\d\d-\d\d-(.*).md/)[1]
+    const permalink = `${category}/${title}`
+    taskList.push(() => generateImage(urls[index], permalink))
+  }
 })
 
 taskList.start(function (err) {

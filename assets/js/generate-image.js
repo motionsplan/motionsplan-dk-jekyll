@@ -1,3 +1,8 @@
+// copy function from node_modules/unicode-encode/index.js so we don't have to compile
+function atou(str) {
+  return decodeURIComponent(escape(atob(str)));
+}
+
 function paramsToObject(paramString) {
   const params = new URLSearchParams(paramString)
   const object = {}
@@ -14,7 +19,9 @@ function replace(id, content, domAttr) {
   }
 }
 
-const data = paramsToObject(window.location.search)
+const urlParams = window.location.search.replace('?', '')
+// use atou to decode data
+const data = paramsToObject(atou(urlParams))
 
 document.addEventListener('DOMContentLoaded', function(){
   Object.entries(data).map(([key, value]) => {
