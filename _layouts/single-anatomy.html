@@ -53,8 +53,10 @@ layout: default
           <strong>Hæfte:</strong> {{ page.insertion.da }}
         </p>
 
+        {% if page.image %}
         {% include figure image_path=page.image alt=page.title caption=page.title %}
-        
+        {% endif %}
+
         <h2 id="function">{{ page.title }} funktion</h2>
         
         <ul>
@@ -75,7 +77,6 @@ layout: default
         {% endif %}
 
         <h2 id="location">Placering af {{ page.title }}</h2>
-
         {% if page.location %}
         <p>
           <strong>Placering i kroppen:</strong>
@@ -85,7 +86,9 @@ layout: default
         </p>
         {% endif %}
 
+        {% if page.image_focus %}
         {% include figure image_path=page.image_focus alt=page.title caption=page.title %}
+        {% endif %}
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
