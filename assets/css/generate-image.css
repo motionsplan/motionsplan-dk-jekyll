@@ -68,6 +68,31 @@ body.pinterest #preview #image {
   border-bottom-left-radius:10% 10%;
 }
 
+body.instagram #preview {
+  height: 1080px;
+  width: 1080px;
+  font-size: 2rem;
+  flex-direction: column-reverse;
+}
+
+body.instagram #preview #text,
+body.instagram #preview #image {
+  flex: 1;
+}
+
+body.instagram #author {
+  display: none;
+}
+
+body.instagram #preview #image {
+  border-bottom-right-radius:60% 40%;
+  border-bottom-left-radius:10% 10%;
+}
+
+body.instagram #post-excerpt {
+  display: none;
+}
+
 #text {
   padding: 2rem;
   display: flex;
