@@ -10,7 +10,8 @@ var queue = require('queue')
 const sizes = {
   // height, width
   og: [630, 1200],
-  pinterest: [1500, 1000]
+  pinterest: [1500, 1000],
+  instagram: [1080, 1080]
 }
 
 // get arguments from npm script
