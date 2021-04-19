@@ -68,6 +68,7 @@ body.pinterest #preview #image {
   border-bottom-left-radius:10% 10%;
 }
 
+<<<<<<< HEAD
 body.instagram footer {
   text-align: center;
   font-weight: bold;
@@ -75,24 +76,40 @@ body.instagram footer {
   background: black;
 }
 
+=======
+>>>>>>> eb6242837d55c8d588a8d118b43e5082f3c0a5eb
 body.instagram #preview {
   height: 1080px;
   width: 1080px;
   font-size: 2rem;
+<<<<<<< HEAD
   flex-direction: column;
+=======
+  flex-direction: column-reverse;
+>>>>>>> eb6242837d55c8d588a8d118b43e5082f3c0a5eb
 }
 
 body.instagram #preview #text,
 body.instagram #preview #image {
+<<<<<<< HEAD
   flex: 0 1 auto;
 }
 
 body.instagram #author, body.instagram header {
+=======
+  flex: 1;
+}
+
+body.instagram #author {
+>>>>>>> eb6242837d55c8d588a8d118b43e5082f3c0a5eb
   display: none;
 }
 
 body.instagram #preview #image {
+<<<<<<< HEAD
   height: 780px;
+=======
+>>>>>>> eb6242837d55c8d588a8d118b43e5082f3c0a5eb
   border-bottom-right-radius:60% 40%;
   border-bottom-left-radius:10% 10%;
 }
@@ -138,7 +155,7 @@ h2#post-title {
   font-size: 2rem;
 }
 
-#author #author-image {
+#author #author-image:not([src='']) {
   padding: 5px;
   border: 1px solid #f2f3f3;
   width: 2em;
