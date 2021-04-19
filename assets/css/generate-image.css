@@ -68,23 +68,31 @@ body.pinterest #preview #image {
   border-bottom-left-radius:10% 10%;
 }
 
+body.instagram footer {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  background: black;
+}
+
 body.instagram #preview {
   height: 1080px;
   width: 1080px;
   font-size: 2rem;
-  flex-direction: column-reverse;
+  flex-direction: column;
 }
 
 body.instagram #preview #text,
 body.instagram #preview #image {
-  flex: 1;
+  flex: 0 1 auto;
 }
 
-body.instagram #author {
+body.instagram #author, body.instagram header {
   display: none;
 }
 
 body.instagram #preview #image {
+  height: 780px;
   border-bottom-right-radius:60% 40%;
   border-bottom-left-radius:10% 10%;
 }
