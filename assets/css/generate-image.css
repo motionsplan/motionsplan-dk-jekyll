@@ -68,7 +68,6 @@ body.pinterest #preview #image {
   border-bottom-left-radius:10% 10%;
 }
 
-
 body.instagram footer {
   text-align: center;
   font-weight: bold;
@@ -80,7 +79,7 @@ body.instagram #preview {
   height: 1080px;
   width: 1080px;
   font-size: 2rem;
-  flex-direction: column;
+  flex-direction: column-reverse;
 }
 
 body.instagram #preview #text,
@@ -88,7 +87,7 @@ body.instagram #preview #image {
   flex: 0 1 auto;
 }
 
-body.instagram #author {
+body.instagram #author, body.instagram header {
   display: none;
 }
 
