@@ -50,10 +50,10 @@ function objectToParams(object) {
 
 // get only data relevant to screenshot
 const urls = posts.map(post => objectToParams({
-    'post-title': post.title || '',
-    'post-excerpt': post.excerpt || post.description || '',
-    'author-name': post.author && authors[post.author].name || '',
-    'author-image': post.author && authors[post.author].avatar || '',
+    'post-title': post.seo_title || post.title || '',
+    'post-excerpt': post.description || post.excerpt || '',
+    'author-name': post.author && authors[post.author].name || authors['lsolesen'].name || '',
+    'author-image': post.author && authors[post.author].avatar || authors['lsolesen'].avatar || '',
     'post-image': post.header.overlay_image || '',
   })
 ).map(params => {
