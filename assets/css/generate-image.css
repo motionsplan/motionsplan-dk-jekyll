@@ -58,6 +58,10 @@ body.pinterest #preview {
   flex-direction: column-reverse;
 }
 
+body.og footer {
+  display: none;
+}
+
 body.pinterest #preview #text,
 body.pinterest #preview #image {
   flex: 1;
@@ -66,6 +70,13 @@ body.pinterest #preview #image {
 body.pinterest #preview #image {
   border-bottom-right-radius:60% 40%;
   border-bottom-left-radius:10% 10%;
+}
+
+body.pinterest footer {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  background: black;
 }
 
 body.instagram footer {
