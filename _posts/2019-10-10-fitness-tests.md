@@ -1,5 +1,6 @@
 ---
 last_modified_at: 2019-03-10T08:39:32.000Z
+permalink: /fitness-tests/
 toc: true
 title: "Sundhedstest: Test din egen fitness og sundhed"
 header:
