@@ -55,7 +55,7 @@ Styrketræning kan ligesom balance- og plyometrisk træning give større stabili
 
 Denne mindre styrke og en tendens til at være stærkere i quadriceps er i flere studier blevet nævnt som mulig årsag til, at piger er mere sårbare overfor knæskader (Rosene et al 2001). Det anbefales derfor, at piger laver styrketræning for at mindske risikoen for skader. En kønsbestemt anatomisk bygning (valgus vinkel) og større kropsmasse omkring hoften betyder samtidigt, at piger ofte har en medial vinkling i knæleddet (kalveknæet). Knæet og dets elementer udsættes således for en stor risiko, når det tynges af kropsvægten ved eksempelvis landinger i mange sportsgrene (Kelly & Terry 2001).
 
-Netop muskelstyrken omkring landinger mv. kan man faktisk træne. Du kan se lidt mere om at få knæene til at tracke samme vej som tæerne i \[vores indlæg om teknik]({% link _posts/2011-08-18-tjek-teknikken-i-din-styrketraening.md %}).
+Netop muskelstyrken omkring landinger mv. kan man faktisk træne. Du kan se lidt mere om at få knæene til at tracke samme vej som tæerne i [vores indlæg om teknik]({% link _posts/2011-08-18-tjek-teknikken-i-din-styrketraening.md %}).
 
 Et studie har samtidig vist, at bremsende (excentrisk) styrketræning for baglåret (se ”[Nordisk hamstring]({% link _exercises/nordic-hamstring-12.md %})” og [hamstring curl på swiss bold]({% link _exercises/swiss-ball-curl-728.md %})) kan nedsætte risikoen for fiberskader i baglåret hos fodboldspillere. Fiberskader i baglåret er en hyppig skade i fodbold, når der sprintes over længere afstande (Myklebust 2004).
 

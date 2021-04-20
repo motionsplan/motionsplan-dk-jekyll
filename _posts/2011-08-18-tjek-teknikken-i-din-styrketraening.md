@@ -90,7 +90,7 @@ Hvis du ikke kan holde ryggen i neutral, kan det måske være en god ide at stop
 
 Man kalder det 'butt wink', hvis bækkenet tilter. I denne grafik kan du se forskellige positioner for ryggen i et squat.
 
-{% include figure image_path="https://www.bodybuilding.com/images/2016/may/beat-butt-wink-squat-big-without-hurting-your-back_01.jpg" caption="Forskellige positioner for ryggen i et squat." %}
+{% include figure image_path="https://www.bodybuilding.com/images/2016/may/beat-butt-wink-squat-big-without-hurting-your-back_01.jpg" caption="Forskellige positioner for ryggen i et squat." alt="ryggen i squat" %}
 
 Du kan lære lidt mere om 'butt wink' her:
 
@@ -100,7 +100,7 @@ Du kan lære lidt mere om 'butt wink' her:
 
 I øvelser hvor du har bevægelse i knæleddet kan det være hensigtsmæssigt at tæerne peger i samme retning som knæleddet. Så hvis tæerne peger lidt ud til siden, skal knæene pege samme vej, hvis der er en bøjning i knæleddet.
 
-{% include figure image_path="https://images.squarespace-cdn.com/content/v1/592944cb86e6c0040d3c3d27/1555302430426-EJWYADZ4LGXFP8H3ALNZ/ke17ZwdGBToddI8pDm48kMLIFZF-RdJnv53QyKb76bcUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYwL8IeDg6_3B-BRuF4nNrNcQkVuAT7tdErd0wQFEGFSnIOtKmEu9df_BfjCL60WfrLG-xhlkhZ5ekCTmQxIej5k6nlT4eezhur4-uY2HaZbiw/Sarah+Front+view+squat+export+final.jpg?format=2500w" caption="Det mest typiske er at knæene falder lidt ind ad, men det kan faktisk lade sig gøre at træne det. Se fx dette __case__ studie [ONI](https://www.oni.co.nz/library/2019/5/14/valgus-knee-case-study-alec)" %}
+{% include figure image_path="https://images.squarespace-cdn.com/content/v1/592944cb86e6c0040d3c3d27/1555302430426-EJWYADZ4LGXFP8H3ALNZ/ke17ZwdGBToddI8pDm48kMLIFZF-RdJnv53QyKb76bcUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYwL8IeDg6_3B-BRuF4nNrNcQkVuAT7tdErd0wQFEGFSnIOtKmEu9df_BfjCL60WfrLG-xhlkhZ5ekCTmQxIej5k6nlT4eezhur4-uY2HaZbiw/Sarah+Front+view+squat+export+final.jpg?format=2500w" caption="Det mest typiske er at knæene falder lidt ind ad, men det kan faktisk lade sig gøre at træne det. Se fx dette __case__ studie [ONI](https://www.oni.co.nz/library/2019/5/14/valgus-knee-case-study-alec)" alt="teknik i styrketræning" %}
 
 ### 5) Stå på hele foden - 'tripod foot'
 
@@ -108,7 +108,7 @@ Dine fødder er din forbindelse til jorden, så ultimativt kommer en del af kraf
 
 Du kan udnytte 'tripod foot', hvor du mærker at du har kontakt med jorden i tre punkter, som i figuren nedenunder.
 
-{% include figure image_path="https://jacktylerperformance.com/wp-content/uploads/2020/01/FOOT-TRIPOD.png" caption="Udnyt 'tripod foot' for at kunne yde den største kraft i øvelser, hvor det er nødvendigt at du har en god balance." %}
+{% include figure image_path="https://jacktylerperformance.com/wp-content/uploads/2020/01/FOOT-TRIPOD.png" caption="Udnyt 'tripod foot' for at kunne yde den største kraft i øvelser, hvor det er nødvendigt at du har en god balance." alt="tripod foot" %}
 
 ### 6) Respekter bevægeligheden i skuldrene
 
@@ -168,7 +168,7 @@ Med andre ord så bliver du bedre til det, du gør.
 
 ## Teknik kan se helt anderledes ud
 
-Alle øvelser og bevægelser kan have sin plads i styrketræningsprogrammet alt efter formålet med øvelserne. Og man kan sagtens arbejde med [forskellige pejlepunkter for teknikken](/artikel/tjek-teknikken-i-din-styrketraening) så længe man ikke bliver dogmatisk.
+Alle øvelser og bevægelser kan have sin plads i styrketræningsprogrammet alt efter formålet med øvelserne. Og man kan sagtens arbejde med forskellige pejlepunkter for teknikken, som beskrevet ovenfor, så længe man ikke bliver dogmatisk.
 
 Jeg hører ofte selv hos unge mennesker nogle af de gamle skrøner om styrketræning:
 
@@ -202,11 +202,11 @@ Lamar Gant dødløfter altså ikke med ret ryg, fordi hans krop passer til anoge
 
 Hvis du squatter med _high bar_, så ser teknikken anderledes ud end _low bar_. Og nogle kropstyper passer bedre til den ene eller anden type squat.
 
-{% include figure image_path="https://www.thepitbloomington.com/wp-content/uploads/2016/08/front-squat.jpg" caption="High Bar vs Low Bar" %}
+{% include figure image_path="https://www.thepitbloomington.com/wp-content/uploads/2016/08/front-squat.jpg" caption="High Bar vs Low Bar" alt="high bar vs low bar" %}
 
 Her er en lille hjemmelavet model, der viser det hele med et elastik.
 
-{% include video provider="facebook" id="https://www.facebook.com/sprintsandheavylifting/videos/1169310333160434/" %}
+{% include video provider="facebook" id="sprintsandheavylifting/videos/1169310333160434/" %}
 
 Det samme gør sig gældende med dødløft. Den relative længde af dine skinneben, lårben, arme og ryg betyder meget for, hvordan det kan være mest optimalt for dig at løfte.
 
