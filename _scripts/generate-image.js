@@ -61,7 +61,7 @@ const urls = posts.map(post => objectToParams({
   // use `utoa` to encode emojis/special characters
   const url = `http://127.0.0.1:8080/generate-image/${args.type}?${utoa(params)}`
   // uncomment this to print the url for debug purposes
-  // console.log(url)
+  //console.log(url)
   return url
 })
 
