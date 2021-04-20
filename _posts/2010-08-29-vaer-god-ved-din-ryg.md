@@ -1,6 +1,7 @@
 ---
 title: &title "Ondt i ryggen: Få fire gode råd til at undgå ondt i lænden!"
 seo_title: 4 gode råd til at undgå ondt i ryggen og lænden
+excerpt: "Ondt i ryggen er en folkesygdom, og der er mange råd til, hvad man skal gøre for at undgå at få ondt i lænden og passe på sin ryg."
 permalink: /artikel/vaer-god-ved-din-ryg/
 language: da
 header:
@@ -13,7 +14,7 @@ tags:
   - forebyggelse
 category:
   - Styrketræning
-last_modified_at: 2021-04-13T22:03:29Z
+last_modified_at: 2020-04-13T22:03:29Z
 feature_row:
   - image_path: https://imgcdn.saxo.com/_9781450472913/0x500
     alt: "Low Back Disorders - Evidence-Based Prevention and Rehabilitation af Stuart Mcgill"
@@ -32,7 +33,7 @@ Man hører ofte råd i forhold til løfteteknik, at man skal "løfte med benene"
 
 Det er formentlig meget mere effektivt at sørge for, at man både løfter med benene, balderne og ryggen.
 
-Man hører også ofte, at "det er farligt for ryggen", hvis du løfter sådan, eller "pas nu på ryggen". Men faktisk ser det **ikke ud til at der er en direkte sammenhæng mellem løfteteknik og rygsmerter**. Risikoen forbundet med [løfteteknik er formentlig blevet overdrevet]().
+Man hører også ofte, at "det er farligt for ryggen", hvis du løfter sådan, eller "pas nu på ryggen". Men faktisk ser det **ikke ud til at der er en direkte sammenhæng mellem løfteteknik og rygsmerter**. Risikoen forbundet med [løfteteknik er formentlig blevet overdrevet](https://www.painscience.com/articles/lifting-technique-is-not-important-for-your-back.php).
 
 ## 4 gode råd til at undgå ondt i ryggen
 
