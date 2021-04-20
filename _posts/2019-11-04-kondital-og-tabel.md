@@ -167,7 +167,7 @@ Samtidigt skriver Morten Zacho, at Kondital<sub>Index 23</sub> er en værdi, der
 
 --- <cite>[Morten Zacho](http://web.archive.org/web/20090207083616/http://www.motion-online.dk/konditionstraening/testning/retfaerdig_vurdering_af_overvaegtiges_kondition/){:rel="nofollow"}</cite>
 
-Det har også været foreslået at opløfte kropsvægten med 0,73, når man sammenligner kondital for bedre at tage højde for [løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %}) og give en mere retfærdig sammenligning mellem lette og tunge atleter. Læs fx mere i denne artikel af Morten Zacho [Effekt af kropsvægt på den maksimale iltoptagelse](http://web.archive.org/web/20090207075933/http://www.motion-online.dk/konditionstraening/kondition*-_artikler/effekt_af_kropsvaegt_paa_den_maksimale_iltoptagelse/){:rel="nofollow"}.
+Det har også været foreslået at opløfte kropsvægten med 0,73, når man sammenligner kondital for bedre at tage højde for [løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %}) og give en mere retfærdig sammenligning mellem lette og tunge atleter. Læs fx mere i denne artikel af Morten Zacho [Effekt af kropsvægt på den maksimale iltoptagelse](http://web.archive.org/web/20130605152402/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/effekt_af_kropsvaegt_paa_den_maksimale_iltoptagelse/){:rel="nofollow"}.
 {: .notice .notice--warning }
 
 ## Kondital beregning ved index 23
