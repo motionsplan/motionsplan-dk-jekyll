@@ -25,7 +25,9 @@ _{{ page.name.latin }}_
 - **Udspring**: {{ page.origin.da }}
 - **Hæfte**: {{ page.insertion.da }}
 
+{% if page.image %}
 {% include figure image_path=page.image alt=page.title caption=page.title %}
+{% endif %}
 
 ## Funktion
 
@@ -34,4 +36,6 @@ _{{ page.name.latin }}_
   {{ f.extended | markdownify }}
 {% endfor %}
 
+{% if page.image_focus %}
 {% include figure image_path=page.image_focus alt=page.title caption=page.title %}
+{% endif %}
