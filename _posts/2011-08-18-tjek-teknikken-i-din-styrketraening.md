@@ -202,7 +202,7 @@ Lamar Gant dødløfter altså ikke med ret ryg, fordi hans krop passer til anoge
 
 Hvis du squatter med _high bar_, så ser teknikken anderledes ud end _low bar_. Og nogle kropstyper passer bedre til den ene eller anden type squat.
 
-{% include figure image_path="https://www.thepitbloomington.com/wp-content/uploads/2016/08/front-squat.jpg" caption="High Bar vs Low Bar" alt="high bar vs low bar" %}
+{% include figure image_path="https://functionalanatomyseminars.files.wordpress.com/2010/07/squat.jpg" caption="High Bar vs Low Bar" alt="high bar vs low bar" %}
 
 Her er en lille hjemmelavet model, der viser det hele med et elastik.
 
