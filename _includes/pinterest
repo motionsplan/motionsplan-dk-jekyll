@@ -1,5 +1,8 @@
 {% assign tags = page.tags | uniq | limit: 4 | join: " #" %}
-{% assign excerpt = page.excerpt | markdownify | strip_html | truncate: 400 | append: "#" | append: tags %}
+{% assign excerpt = page.description | default: page.excerpt %}
+{% assign excerpt = excerpt | markdownify | strip_html | truncate: 400 %}
+{% assign excerpt = excerpt | strip | append: "#" | append: tags %}
+
 {% assign image_path = include.image_path %}
 {% if include.hidden == "true" %}
   {% assign data_pin_media = include.data-pin-media | default: image_path %}
