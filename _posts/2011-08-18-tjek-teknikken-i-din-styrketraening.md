@@ -204,7 +204,7 @@ Hvis du squatter med _high bar_, så ser teknikken anderledes ud end _low bar_. 
 
 {% include figure image_path="https://functionalanatomyseminars.files.wordpress.com/2010/07/squat.jpg" caption="High Bar vs Low Bar" alt="high bar vs low bar" %}
 
-Her er en lille hjemmelavet model, der viser det hele med et elastik.
+Her er en lille hjemmelavet model af hele squat-bevægelsen, der viser dig de forskellige sammenhænge med et elastik og nogle tegnestifter fra [sprintsandheavylifting](https://fb.watch/4_U23867Jn/).
 
 {% include video provider="facebook" id="sprintsandheavylifting/videos/1169310333160434/" %}
 
