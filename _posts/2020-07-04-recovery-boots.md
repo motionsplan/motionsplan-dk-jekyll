@@ -17,7 +17,7 @@ tags:
 last_modified_at: 2020-07-04T08:12:14Z
 toc: true
 feature_row:
-  - image_path: https://www.optimasport.dk/wp-content/uploads/2017/08/Optima-K8-Recovery-Boot-saet_v1-400x400.jpg
+  - image_path: https://cdn.shopify.com/s/files/1/0552/7358/6897/products/Optima-Sport-Recovery-Boots-Battery-saet-8-kamre_2000x.jpg?v=1615362661
     alt: "Optima Sport Recovery Boots Ultima K8 – komplet sæt"
     title: "Optima Sport Recovery Boots Ultima K8 – komplet sæt"
     excerpt: "Ultima K8 er velegnet til alle programmer. Støvlen giver en mere dybdegående massage, end vores andre støvler, da kamrene er mindre og derfor kan arbejder sig mere ned i muskulaturen."
