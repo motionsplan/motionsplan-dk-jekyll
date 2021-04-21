@@ -196,7 +196,7 @@ Lamar Gant har _skoliose_. Jeg har hørt en historie om ham, at lægerne fraråd
 
 Lamar Gant dødløfter altså ikke med ret ryg, fordi hans krop passer til anoget andet.
 
-{% include figure image_path="https://startingstrength.com/contentimg/lamargant1.jpg" caption="Lamar Gants dødløft" alt="Lamar Gant" %}
+{% include figure image_path="/assets/images/blog/lamargant1.jpg" caption="Lamar Gants dødløft" alt="Lamar Gant" %}
 
 ## Teknik er individuel
 
