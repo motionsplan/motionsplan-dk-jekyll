@@ -1,10 +1,10 @@
 ---
-title: &title "Hvordan forbereder du dig til en 1RM-maxtest 🏋"
+title: &title "Hvordan forbereder jeg mig til en 1RM-maxtest med PAP? 🏋"
 permalink: /pap-post-activation-potentiation-1rm-maxtest/
 language: da
 author: lsolesen
 header:
-  overlay_image: https://images.unsplash.com/photo-1532382752999-45b3dc5d4bf2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=190&q=80
+  overlay_image: https://images.unsplash.com/photo-1532382752999-45b3dc5d4bf2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80
   teaser: https://images.unsplash.com/photo-1532382752999-45b3dc5d4bf2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
   caption: *title
 category:
@@ -19,9 +19,11 @@ last_modified_at: 2020-11-13T23:14:14Z
 toc: true
 ---
 
-Hvordan forbereder du dig og varmer op til 1RM-test? Når du skal lave en maxtest, så skal du forberede dig ordentligt. Her kigger vi lidt på, hvad du kan tænke over i dine forberedelser og opvarmning til en maxtest eller eller styrkeløftstævne.
+Hvordan forbereder du dig i opvarmningen til en 1RM-test? Når du skal lave en maxtest, så skal du forberede dig ordentligt og varme grundigt op. Her kigger vi lidt på, hvad du kan tænke over i dine forberedelser og opvarmning til en maxtest eller styrkeløftstævne.
 
 Først og fremmest så skal du ikke lave en maxtest alt for ofte. Det koster nemlig på den efterfølgende træning at lave en maxtest. Maxtesten kan imidlertid være motiverende og være med til at afslutte en træningsblok. Hvis du på forhånd planlægger, hvornår du laver din maxtest, så kan du planlægge, at maxtesten er en del af træningen.
+
+{% include figure image_path=page.header.overlay_image caption=page.title alt="opvarmning til maxløft og 1rm" %}
 
 ## Hvordan skal jeg varme op til mit 1RM-forsøg?
 
@@ -95,6 +97,8 @@ Hvis du gerne vil lave en maxtest eller en 1RM-test, så skal du også have valg
 Du kan også få PAP til at virke til at forbedre springhøjden. Så vidt jeg har forstået, så er det sådan man oprindeligt har brugt PAP. Det kan du læse mere om på [t-nation.com](https://www.t-nation.com/training/tip-a-very-weird-way-to-boost-your-vertical) og [jackedathlet.com](http://jackedathlete.com/instantly-jump-higher-post-activation-potentiation/).
 
 ## Konklusion om forberedelse til maxløft
+
+Jeg har skrevet et andet indlæg, der handler om [reglerne til styrkeløft]({% link _posts/2019-11-19-regler-styrkeloft.md %}), hvor du også kan finde et skema med forslag til din startvægt i konkurrencen.
 
 Hvordan forbereder du dig til en maxtest, styrkeløftkonkurrence og 1RM-test? Brug endelig kommentarerne til at inspirere os andre.
 

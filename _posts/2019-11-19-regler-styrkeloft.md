@@ -166,9 +166,13 @@ Jacob Beermann [foreslår en konservativ og aggressiv strategi for dit 1RM-fors�
 
 Her er et Google Sheet, der kan hjælpe dig med at lave udregningerne af dine forsøg.
 
-***
-
 {% include feature_row id="feature_row_spreadsheet" type="left" %}
+
+## Konklusion
+
+Det var en hurtig gennemgang af reglerne til styrkeløft, så du ikke er helt på bar bund, hvis du skal være med i et styrkeløftstævne.
+
+Jeg har skrevet et andet indlæg, der handler om, hvordan du kan [forberede dig til et maxløft eller en 1RM-maxtest]({% link _posts/2020-11-29-pap-prepare-to-maxtest.md %}).
 
 ## Quiz om regler for styrkeløft
 
