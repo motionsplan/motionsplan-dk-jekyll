@@ -8,6 +8,8 @@
     <title>generating {{ page.image_type }} image</title>
     <link rel='stylesheet' href='/assets/css/generate-image.css'>
     <script src='/assets/js/generate-image.js'></script>
+    <meta name="robots" content="noindex nofollow">
+    {% include head/favicon.html %}
   </head>
 
   <body class='{{ page.image_type }}'>
@@ -28,13 +30,13 @@
         <h3 id='post-excerpt'></h3>
   
         <section id='author'>
-          <img id='author-image' alt='' src='' />
+          <img id='author-image' alt='' src='' data-proofer-ignore>
           <p id='author-name'></p>
         </section>
       </section>
 
       <figure id='image'>
-        <img id='post-image' alt='' src='' />
+        <img id='post-image' alt='' src='' data-proofer-ignore>
       </figure>
 
     </div>
