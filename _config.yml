@@ -307,7 +307,7 @@ collections:
     output: true
     permalink: /p/:path/
   methods:
-    output: true
+    output: false
     permalink: /metode/:path/
   redirects:
     output: true
