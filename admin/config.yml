@@ -37,9 +37,15 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     preview_path: "{{permalink}}"
     view_filters:
-      - label: "Jesper"
+      - label: "Jesper Emil Jakobsgaard"
         field: author
         pattern: "jesper.emil.jakobsgaard"
+      - label: "Jakob Nielsson"
+        field: author
+        pattern: "jakob.nielsson"
+      - label: "Martin Madsen"
+        field: author
+        pattern: "martin.madsen"
     view_groups:
       - label: Year
         field: last_modified_at
