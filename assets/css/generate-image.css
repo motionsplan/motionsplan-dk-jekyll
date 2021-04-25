@@ -40,14 +40,19 @@ body.og #preview {
   flex-direction: row;
 }
 
-body.og #preview #text,
-body.og #preview #image {
+body.og #preview #text {
   width: 50%;
 }
 
 body.og #preview #image {
-  border-top-left-radius:10% 10%;
-  border-bottom-left-radius:30% 40%;
+  margin-left: -10%;
+  width: 60%;
+}
+
+body.og #preview #image {
+  /* border-top-left-radius:10% 10%;
+  border-bottom-left-radius:30% 40%; */
+  clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%);
 }
 
 body.og #post-excerpt {
@@ -70,7 +75,7 @@ body.pinterest #preview #image {
   flex: 1;
 }
 
-body.pinterest #preview #image {
+body.pinterest #preview #image img {
   border-bottom-right-radius:60% 40%;
   border-bottom-left-radius:10% 10%;
 }
