@@ -116,13 +116,15 @@ Herefter, eller samtidig med at man vælger øvelser, da det ofte vil spille sam
 
 Det handler om at lave en progressionsplan for hver øvelse. Uden progressiv overload har hele træningsprogrammet været spild af tid, så det er selvfølgelig en god idé at have tænkt over hvordan man vil opnå det, i stedet for bare at satse på at det sker.
 
-Kroppen adapterer hurtigt til den stimulus, og den træningsmængde, man udsætter den for. Det er en god ting. Det er derfor vi forbedrer os. Men hvis kroppen når at adaptere, og vi ikke ændrer vores træning, så stopper vores fremgang.
+Kroppen adapterer hurtigt til den stimulus og den træningsmængde, man udsætter den for. Det er en god ting. Det er derfor, vi forbedrer os. Men hvis kroppen når at adaptere, og vi ikke ændrer vores træning, så stopper vores fremgang.
 
 Denne situation forsøger vi at imødekomme ved at øge vores stimulus løbende. Det kaldes progressiv overload og er kernen i ethvert godt træningsprogram.
 
 Man kan lave progressiv overload på flere parametre, som vi vil se senere under progressionsplaner, men en af de ting man kan skrue på, som er meget potent, er antal sæt om ugen.
 
-Derfor vil man ofte starte med fx 8 sæt squats om ugen og i løbet af de fx 4 uger ens program varer gradvist stige til fx 11 sæt. Så i forhold til sæt arbejder man ofte inden for et interval i sit træningsprogram. Hvis programmet gik godt og man føler overskud kan man prøve at starte på 9 sæt om ugen og bygge op til 12 sæt i løbet af det næste program.
+Derfor vil man ofte starte med fx 8 sæt squats om ugen og i løbet af de fx 4 uger ens program varer gradvist stige til fx 11 sæt. Så i forhold til sæt arbejder man ofte inden for et interval i sit træningsprogram.
+
+Hvis ens fremgang er gået i stå, men man stadig føler overskud, kan man prøve at starte på 9 sæt om ugen og bygge op til 12 sæt i løbet af det næste program.
 
 Så det næste skridt er at fastlægge en progressionsplan for hver øvelse. Herunder giver jeg nogle eksempler på forskellige slags progressionsplaner. Det er også helt fint med en lidt mere "fleksibel" plan, især til de små øvelser, hvor kun antal sæt er planlagt på forhånd - som forklaret ved eksempel 5. Dette er blot nogle gængse eksempler, men der findes mange flere - fantasien sætter grænser!
 
@@ -221,9 +223,9 @@ I front squat er David ikke særlig stærk på grund af hans små quads, så vi 
 |        | SQ       | Split squats   | FSQ       |                                   |
 |--------|----------|----------------|-----------|-----------------------------------|
 | Uge 1  | 3x6x80   | 2x(15-20)x20   | 3x10x55   | 3+2+3 = 8 sæt i uge 1             |
-| Uge 2  | 3x6x82,5 | 3x(15-20)x20+? | 3x12x55   | 3+3+3 = 9 sæt i uge 2             |
-| Uge 3  | 3x6x85   | 3x(15-20)x20+? | 4x10x57,5 | 3+3+4 = 10 sæt i uge 3            |
-| Uge 4  | 3x6x87,5 | 4x(15-20)x20+? | 4x12x57,5 | 3+4+4 = 11 sæt i uge 4            |
+| Uge 2  | 3x6x82,5 | <nobr>3x(15-20)x20+?</nobr> | 3x12x55   | 3+3+3 = 9 sæt i uge 2             |
+| Uge 3  | 3x6x85   | <nobr>3x(15-20)x20+?</nobr> | 4x10x57,5 | 3+3+4 = 10 sæt i uge 3            |
+| Uge 4  | 3x6x87,5 | <nobr>4x(15-20)x20+?</nobr> | 4x12x57,5 | 3+4+4 = 11 sæt i uge 4            |
 | Deload | 2x5x50   | intet          | 2x10x30   | 2+0+2 = 4 nemme sæt i deload ugen |
 
 David ville også gerne forbedre sit bænkpres (BP). Han var vant til at træne bryst rimelig meget, men hans teknik i BP var ikke så god. Vi vælger at han skal træne bryst tre gange om ugen. To af gangene med almindeligt bænkpres for at han kan få øvet teknikken en masse. Den ene gang tungt og hårdt, den anden gang let og nemt, men med mange sæt, for virkelig at øve teknik.
@@ -238,14 +240,14 @@ I ugens anden bænkpres træning laver vi mange, men ret nemme sæt med få gent
 |--------|---------|--------------|---------|--------|--------|--------|
 | SQ     |         | Split squats |         | FSQ    |        |        |
 | BP1    |         | DB BP        |         | BP2    |        |        |
-|        |         |              |         |        |        | Dips   |
+|        |         |              |         | Dips   |        |        |
 
 |        | BP     | DB BP              | BP2      | Dips                 |
 |--------|--------|--------------------|----------|----------------------|
-| Uge 1  | 3x7x70 | 3x(15-20)x14'ere   | 6x3x65   | 20 gentagelser i alt |
-| Uge 2  | 4x6x75 | 3x(15-20)x14'ere+? | 6x3x67,5 | 23 gentagelser i alt |
-| Uge 3  | 5x5x80 | 4x(15-20)x14'ere+? | 6x2x70   | 26 gentagelser i alt |
-| Uge 4  | 6x4x85 | 4x(15-20)x14'ere+? | 6x2x72,5 | 29 gentagelser i alt |
+| Uge 1  | 3x7x70 | <nobr>3x(15-20)x14'ere</nobr>   | 6x3x65   | 20 gentagelser i alt |
+| Uge 2  | 4x6x75 | <nobr>3x(15-20)x14'ere+?</nobr> | 6x3x67,5 | 23 gentagelser i alt |
+| Uge 3  | 5x5x80 | <nobr>4x(15-20)x14'ere+?</nobr> | 6x2x70   | 26 gentagelser i alt |
+| Uge 4  | 6x4x85 | <nobr>4x(15-20)x14'ere+?</nobr> | 6x2x72,5 | 29 gentagelser i alt |
 | Deload | 2x6x50 | intet              | 4x3x40   | intet                |
 
 David skal stadig lave lidt dødløft (DL) og træning til øvre ryg for at vedligeholde sin styrke og muskelmasse der. Så vi tilføjer DL til onsdagen fordi det er den dag der er mindst belastning for lænden og rygsøjlen indtil videre. Vi kører ikke opad i sæt eller med en særlig aggressiv progression her, fordi det bare er vedligeholdelsestræning.
@@ -263,11 +265,11 @@ Til sidst tilføjer vi face pulls til onsdagens program så der trænes bagskuld
 
 |        | DL        | Face pulls     | Kropshævninger      | Reverse flyes     | Situps               | Rotator cuffs |
 |--------|-----------|----------------|---------------------|-------------------|----------------------|---------------|
-| Uge 1  | 3x7x100   | 3x(15-20)x15   | 4x(10-15)xkropsvægt | 3x(20-30)x4'ere   | 30 gentagelser i alt | 2x(20-30)x2's |
-| Uge 2  | 3x8x100   | 4x(15-20)x15+? | 4x(10-15)xkropsvægt | 3x(20-30)x4'ere+? | 35 gentagelser i alt | 2x(20-30)x2's |
-| Uge 3  | 3x7x102,5 | 5x(15-20)x15+? | 4x(10-15)xkropsvægt | 4x(20-30)x4'ere+? | 40 gentagelser i alt | 3x(20-30)x2's |
-| Uge 4  | 3x8x102,5 | 5x(15-20)x15+? | 4x(10-15)xkropsvægt | 4x(20-30)x4'ere+? | 45 gentagelser i alt | 3x(20-30)x2's |
-| Deload | 1x10x80   | intet          | 2x6xkropsvægt       | intet             | 15 gentagelser i alt | 1x(10-20)x2's |
+| Uge 1  | 3x7x100   | <nobr>3x(15-20)x15</nobr>   | <nobr>4x(10-15)xkropsvægt</nobr> | <nobr>3x(20-30)x4'ere</nobr>   | <nobr>30 gentagelser i alt</nobr> | <nobr>2x(20-30)x2's</nobr> |
+| Uge 2  | 3x8x100   | <nobr>4x(15-20)x15+?</nobr> | <nobr>4x(10-15)xkropsvægt</nobr> | <nobr>3x(20-30)x4'ere+?</nobr> | <nobr>35 gentagelser i alt</nobr> | <nobr>2x(20-30)x2's</nobr> |
+| Uge 3  | 3x7x102,5 | <nobr>5x(15-20)x15+?</nobr> | <nobr>4x(10-15)xkropsvægt</nobr> | <nobr>4x(20-30)x4'ere+?</nobr> | <nobr>40 gentagelser i alt</nobr> | <nobr>3x(20-30)x2's</nobr> |
+| Uge 4  | 3x8x102,5 | <nobr>5x(15-20)x15+?</nobr> | <nobr>4x(10-15)xkropsvægt</nobr> | <nobr>4x(20-30)x4'ere+?</nobr> | <nobr>45 gentagelser i alt</nobr> | <nobr>3x(20-30)x2's</nobr> |
+| Deload | 1x10x80   | intet          | 2x6xkropsvægt       | intet             | 15 gentagelser i alt | <nobr>1x(10-20)x2's</nobr> |
 
 Så var programmet færdigt. Nice, tænkte David. Nogle overskuelige dage, selvom han godt vidste, at han virkelig skulle stramme sig an i de enkelte sæt, særligt i de sidste par uger, for at holde progressionsplanerne i de store øvelser.
 
@@ -285,18 +287,18 @@ Det endelige program og med alle progressionsplanerne samlet endte altså med at
 
 |        | SQ       | Split squats   | FSQ       | BP     | DB BP              | BP2      | Dips                 |
 |--------|----------|----------------|-----------|--------|--------------------|----------|----------------------|
-| Uge 1  | 3x6x80   | 2x(15-20)x20   | 3x10x55   | 3x7x70 | 3x(15-20)x14'ere   | 6x3x65   | 20 gentagelser i alt |
-| Uge 2  | 3x6x82,5 | 3x(15-20)x20+? | 3x12x55   | 4x6x75 | 3x(15-20)x14'ere+? | 6x3x67,5 | 23 gentagelser i alt |
-| Uge 3  | 3x6x85   | 3x(15-20)x20+? | 4x10x57,5 | 5x5x80 | 4x(15-20)x14'ere+? | 6x2x70   | 26 gentagelser i alt |
-| Uge 4  | 3x6x87,5 | 4x(15-20)x20+? | 4x12x57,5 | 6x4x85 | 4x(15-20)x14'ere+? | 6x2x72,5 | 29 gentagelser i alt |
+| Uge 1  | 3x6x80   | <nobr>2x(15-20)x20</nobr>   | 3x10x55   | 3x7x70 | <nobr>3x(15-20)x14'ere</nobr>   | 6x3x65   | <nobr>20 gentagelser i alt</nobr> |
+| Uge 2  | 3x6x82,5 | <nobr>3x(15-20)x20+?</nobr> | 3x12x55   | 4x6x75 | <nobr>3x(15-20)x14'ere+?</nobr> | 6x3x67,5 | <nobr>23 gentagelser i alt</nobr> |
+| Uge 3  | 3x6x85   | <nobr>3x(15-20)x20+?</nobr> | 4x10x57,5 | 5x5x80 | <nobr>4x(15-20)x14'ere+?</nobr> | 6x2x70   | <nobr>26 gentagelser i alt</nobr> |
+| Uge 4  | 3x6x87,5 | <nobr>4x(15-20)x20+?</nobr> | 4x12x57,5 | 6x4x85 | <nobr>4x(15-20)x14'ere+?</nobr> | 6x2x72,5 | <nobr>29 gentagelser i alt</nobr> |
 | Deload | 2x5x50   | intet          | 2x10x30   | 2x6x50 | intet              | 4x3x40   | intet                |
 
 |        | DL        | Face pulls     | Kropshævninger      | Reverse flyes     | Situps               | Rotator cuffs |
 |--------|-----------|----------------|---------------------|-------------------|----------------------|---------------|
-| Uge 1  | 3x7x100   | 3x(15-20)x15   | 4x(10-15)xkropsvægt | 3x(20-30)x4'ere   | 30 gentagelser i alt | 2x(20-30)x2's |
-| Uge 2  | 3x8x100   | 4x(15-20)x15+? | 4x(10-15)xkropsvægt | 3x(20-30)x4'ere+? | 35 gentagelser i alt | 2x(20-30)x2's |
-| Uge 3  | 3x7x102,5 | 5x(15-20)x15+? | 4x(10-15)xkropsvægt | 4x(20-30)x4'ere+? | 40 gentagelser i alt | 3x(20-30)x2's |
-| Uge 4  | 3x8x102,5 | 5x(15-20)x15+? | 4x(10-15)xkropsvægt | 4x(20-30)x4'ere+? | 45 gentagelser i alt | 3x(20-30)x2's |
+| Uge 1  | 3x7x100   | <nobr>3x(15-20)x15</nobr>   | <nobr>4x(10-15)xkropsvægt</nobr> | <nobr>3x(20-30)x4'ere</nobr>   | <nobr>30 gentagelser i alt</nobr> | <nobr>2x(20-30)x2's</nobr> |
+| Uge 2  | 3x8x100   | <nobr>4x(15-20)x15+?</nobr> | <nobr>4x(10-15)xkropsvægt</nobr> | <nobr>3x(20-30)x4'ere+?</nobr> | <nobr>35 gentagelser i alt</nobr> | <nobr>2x(20-30)x2's</nobr> |
+| Uge 3  | 3x7x102,5 | <nobr>5x(15-20)x15+?</nobr> | <nobr>4x(10-15)xkropsvægt</nobr> | <nobr>4x(20-30)x4'ere+?</nobr> | <nobr>40 gentagelser i alt</nobr> | <nobr>3x(20-30)x2's</nobr> |
+| Uge 4  | 3x8x102,5 | <nobr>5x(15-20)x15+?</nobr> | <nobr>4x(10-15)xkropsvægt</nobr> | <nobr>4x(20-30)x4'ere+?</nobr> | <nobr>45 gentagelser i alt</nobr> | <nobr>3x(20-30)x2's</nobr> |
 | Deload | 1x10x80   | intet          | 2x6xkropsvægt       | intet             | 15 gentagelser i alt | 1x(10-20)x2's |
 
 ## Konklusion
