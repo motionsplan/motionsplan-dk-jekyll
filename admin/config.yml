@@ -101,7 +101,7 @@ collections:
           - {label: "Alt", name: "alt", widget: "string"}
           - {label: "Image", name: "image_path", widget: "string"}
           - {label: "Url", name: "url", widget: "string", required: false}
-      - {label: "Last modified at", name: "last_modified_at", widget: "datetime", format: "YYYY-MM-DDThh:mm:ssZ", dateFormat: "dd-MM-YYYY", timeFormat: "HH:mm", required: false}
+      - {label: "Last modified at", name: "last_modified_at", widget: "datetime", format: "YYYY-MM-DDThh:mm:ssZ", dateFormat: "DD-MM-YYYY", timeFormat: "HH:mm", required: false}
   - name: "drafts" # Used in routes, e.g., /admin/collections/blog
     label: "Kladder" # Used in the UI
     label_singular: "Kladde"
@@ -157,7 +157,7 @@ collections:
           - {label: "Alt", name: "alt", widget: "string"}
           - {label: "Image", name: "image_path", widget: "string"}
           - {label: "Url", name: "url", widget: "string", required: false}
-      - {label: "Last modified at", name: "last_modified_at", widget: "datetime", format: "YYYY-MM-DDThh:mm:ssZ", dateFormat: "dd-MM-YYYY", timeFormat: "HH:mm", required: false}
+      - {label: "Last modified at", name: "last_modified_at", widget: "datetime", format: "YYYY-MM-DDThh:mm:ssZ", dateFormat: "DD-MM-YYYY", timeFormat: "HH:mm", required: false}
   - name: "pages" # Used in routes, e.g., /admin/collections/blog
     label: "Sider" # Used in the UI
     label_singular: "Side"
@@ -217,7 +217,7 @@ collections:
           - {label: "Alt", name: "alt", widget: "string"}
           - {label: "Image", name: "image_path", widget: "string"}
           - {label: "Url", name: "url", widget: "string", required: false}
-      - {label: "Last modified at", name: "last_modified_at", widget: "datetime", format: "YYYY-MM-DDThh:mm:ssZ", dateFormat: "dd-MM-YYYY", timeFormat: "HH:mm", required: false}
+      - {label: "Last modified at", name: "last_modified_at", widget: "datetime", format: "YYYY-MM-DDThh:mm:ssZ", dateFormat: "DD-MM-YYYY", timeFormat: "HH:mm", required: false}
   - name: "exercises" # Used in routes, e.g., /admin/collections/blog
     label: "Øvelser" # Used in the UI
     label_singular: "Øvelse"
@@ -274,7 +274,7 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Image", name: "image_path", widget: "string"}
           - {label: "Url", name: "url", widget: "string"}          
-      - {label: "Last modified at", name: "last_modified_at", widget: "datetime", format: "YYYY-MM-DDThh:mm:ssZ", dateFormat: "dd-MM-YYYY", timeFormat: "HH:mm", required: false}
+      - {label: "Last modified at", name: "last_modified_at", widget: "datetime", format: "YYYY-MM-DDThh:mm:ssZ", dateFormat: "DD-MM-YYYY", timeFormat: "HH:mm", required: false}
   - name: "anatomy" # Used in routes, e.g., /admin/collections/blog
     label: "Muskler" # Used in the UI
     label_singular: "Muskel"
@@ -377,7 +377,7 @@ collections:
         display_fields: ["title"]
         multiple: true
         required: false
-      - {label: "Last modified at", name: "last_modified_at", widget: "datetime", format: "YYYY-MM-DDThh:mm:ssZ", dateFormat: "dd-MM-YYYY", timeFormat: "HH:mm", required: false}
+      - {label: "Last modified at", name: "last_modified_at", widget: "datetime", format: "YYYY-MM-DDThh:mm:ssZ", dateFormat: "DD-MM-YYYY", timeFormat: "HH:mm", required: false}
   - label: "Site options"
     name: "settings"
     editor:
@@ -429,7 +429,7 @@ collections:
               - {label: "Url", name: "url", widget: "string", required: false}
               - {label: "Btn label", name: "btn_label", widget: "string", required: false}
               - {label: "Btn class", name: "btn_class", widget: "select", options: ["btn--success", "btn--warning", "btn--danger", "btn--info"], default: "", required: false}
-          - {label: "Last modified at", name: "last_modified_at", widget: "datetime", format: "YYYY-MM-DDThh:mm:ssZ", dateFormat: "dd-MM-YYYY", timeFormat: "HH:mm", required: false}
+          - {label: "Last modified at", name: "last_modified_at", widget: "datetime", format: "YYYY-MM-DDThh:mm:ssZ", dateFormat: "DD-MM-YYYY", timeFormat: "HH:mm", required: false}
           - label: Gallery
             name: gallery
             widget: list
