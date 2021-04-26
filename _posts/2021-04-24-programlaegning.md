@@ -300,7 +300,7 @@ For squat og bænkpres ser træningsprogrammet og progressionen sådan her ud:
 | Uge 4  | 3x6x87,5 | <nobr>4x(15-20)x20+?</nobr> | 4x12x57,5 | 6x4x85 | <nobr>4x(15-20)x14'ere+?</nobr> | 6x2x72,5 | <nobr>29 gentagelser i alt</nobr> |
 | Deload | 2x5x50   | intet                       | 2x10x30   | 2x6x50 | intet                           | 4x3x40   | intet                             |
 
-For dødløft og de forskellige rows ser træningen sådan her ud:
+For dødløft og de resterende øvelser ser træningen sådan her ud:
 
 |        | DL        | Face pulls                  | Kropshævninger                   | Reverse flyes                  | Situps                            | Rotator cuffs              |
 | ------ | --------- | --------------------------- | -------------------------------- | ------------------------------ | --------------------------------- | -------------------------- |
