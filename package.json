@@ -49,7 +49,7 @@
     "draft": "bundle exec jekyll server --port 8080 --incremental --drafts",
     "watch": "watchify src/js/app.bundle.js -o assets/js/bundle.js",
     "build": "browserify src/js/app.bundle.js -g uglifyify -o assets/js/bundle.js",
-    "add-banner": "node banner.js",
+    "add-banner": "node _scripts/banner.js",
     "generate-image": "node _scripts/generate-image.js",
     "og-image": "npm run generate-image -- type:og",
     "og-images": "npm run generate-image -- type:og path:./_posts/",
