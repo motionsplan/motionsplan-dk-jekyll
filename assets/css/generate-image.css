@@ -34,6 +34,8 @@ body {
 }
 
 body.og #preview {
+  box-sizing: border-box;
+  border: 20px orange solid !important;
   height: 630px;
   width: 1200px;
   font-size: 1.25rem;
