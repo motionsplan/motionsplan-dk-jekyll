@@ -16,7 +16,7 @@ tags:
   - programlægning
 category:
   - Styrketræning
-last_modified_at: 2013-04-03T11:44:17Z
+last_modified_at: 2021-04-03T11:44:17Z
 ---
 
 Hvordan laver man et styrketræningsprogram, hvor man træner hele kroppen på et træningspas? Et helkropsprogram er egnet for dig, der gerne vil træne mellem en og tre gange om ugen og vil bruge omkring en time på hver træning.
