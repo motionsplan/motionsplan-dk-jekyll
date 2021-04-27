@@ -1,5 +1,5 @@
 ---
-title: &title "Træningsprogram til styrketræning: Guide til programlægning"
+title: &title "Komplet guide til programlægning i styrketræning"
 seo_title: "Komplet guide til programlægning i styrketræning »"
 redirect_from:
   - /artikel/hvordan-skal-jeg-dosere-min-styrketraening/
@@ -25,7 +25,11 @@ Jeg gennemgår her, hvordan man sammensætter et godt styrketræningsprogram til
 
 Når du laver træningsprogrammer, så er det vigtigt, at du tager udgangspunkt i de målsætninger programmet skal opfylde. Træningsplanen kommer til at se forskellig ud, hvis dit mål er at blive stærkere i forhold til at bygge flere muskler på eller komme i bedre kondition.
 
+Vi har også beskrevet [6 trin til at lave dit eget træningsprogram til styrketræning her]({% link _posts/2021-04-24-programlaegning.md %}) eller [anmeldelser af styrketræningsprogrammer]({% link _posts/2020-12-30-anmeldelse-traeningsprogrammer.md %}).
+
 Her koncentrerer jeg mig primært om programlægning i forhold ti lat lave et godt styrketræningsprogram.
+
+Så lad os dykke ned i det!
 
 ## Hold fokus i dit træningsprogram
 
