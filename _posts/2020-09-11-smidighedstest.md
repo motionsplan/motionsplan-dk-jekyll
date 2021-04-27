@@ -93,7 +93,7 @@ Smidighed og bevægelighed kan derfor måske sagtens indgå i en [sundhedsprofil
 
 ## Hvordan træner jeg min smidighed?
 
-Der er mange nuancer i at træne din smidighed eller _range of motion_. Jeg har skrevet en dybdegående artikel om, hvad [udstrækning og udspænding]({% link _posts/2020-07-08-udstraekning.md %}) er og forslag til udstrækningsøvelser. I en anden artikel går jeg lidt i dybden med, at [du bliver smidigere af at strække]({% link _posts/2009-02-28-du-bliver-smidigere-af-straekke.md %}) og årsagerne bag det.
+Der er mange nuancer i at træne din smidighed eller _range of motion_. Jeg har skrevet en dybdegående artikel om [udstrækning og udspænding og hvordan udstrækningsøvelser virker]({% link _posts/2020-07-08-udstraekning.md %}).
 
 Smidighed og _range of motion_ er et spørgsmål om at træne det, men det er også et spørgsmål om, hvad kroppen giver dig lov til.
 
