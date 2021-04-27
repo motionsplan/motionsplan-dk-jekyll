@@ -18,3 +18,4 @@ jekyll-algolia-record-too-big.log
 .bundle/
 vendor/
 package-lock.json
+build/

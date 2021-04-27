@@ -185,6 +185,7 @@ exclude:
   - /test # ignore Minimal Mistakes /test
   - /vendor
   - /src
+  - /build
   - /node_modules
   - .git
   - .svn

@@ -219,8 +219,6 @@ Derudover anbefaler IForm massage, akupunktur, grundig opvarmning, let træning 
 
 Vi har brug for flere studier til helt at dokumentere en effektiv restitution. Kan I hjælpe?
 
-Jeg har skrevet et indlæg om [restitutionstid]({% link _posts/2020-05-28-restitutionstid-alder.md %}).
-
 <a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=75283" target="_blank" rel="nofollow noopener"> <img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=75283" border="0" alt=""></a>
 
 <div class="feature__wrapper">

@@ -90,7 +90,7 @@ async function generateImage(url, path) {
     if (letters[letters.length - 1] === '/') { delete letters[letters.length - 1] }
     return letters.join('').replace(/\//g, '-')
   }
-  const fileName = `./src/images/generated/${args.type}/${fixedPath()}.png`
+  const fileName = `./build/images/generated/${args.type}/${fixedPath()}.png`
   fs.writeFile(fileName, buffer, (err) => {
     if (err) return console.error(err)
     console.log('file saved to ', fileName)
