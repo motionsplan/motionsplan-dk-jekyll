@@ -89,7 +89,7 @@ Opdater din playliste jævnligt. Mange af os har adgang til alverdens musik genn
 
 ## Forslag til god musik til yoga, meditation og mindfulness
 
-[Kathrine Christensen](https://kathrinechristensen.dk/musik-til-yoga-meditation), som er yogalærer i Vejle og har læst musikvidenskab, foreslår følgende musik til yoga.
+[Kathrine Christensen](https://www.kathrinechristensen.dk/blog/49715-musik-til-yoga-meditation), som er yogalærer i Vejle og har læst musikvidenskab, foreslår følgende musik til yoga.
  
 - **Nils Frahm 'Re'**. Så smukt og enkelt
 
