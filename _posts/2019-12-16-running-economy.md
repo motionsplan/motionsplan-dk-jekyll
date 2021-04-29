@@ -2,7 +2,7 @@
 title: "Beregn din løbeøkonomi: 4 tips til træning af løbeøkonomi 🏃"
 seo_title: "Hvordan forbedrer jeg min løbeøkonomi? 4 tips til træning!"
 description: "Hvad er løbeøkonomi, og hvordan beregner du din løbeøkonomi. Komplet guide til hvordan du forbedrer din løbeøkonomi - og 4 tips til din træning."
-permalink: /lobeokonomi/
+permalink: /lobeokonomi/ 
 redirect_from:
   - /artikel/eksplosiv-traening-goer-dig-hurtigere-paa-5-km/
 excerpt: "En god løbeøkonomi er evnen til at holde høj fart ved et minimalt energiforbrug. Du får en definition af løbeøkonomi, en beregner og tips til, hvordan du forbedrer og træner din løbeøkonomi."

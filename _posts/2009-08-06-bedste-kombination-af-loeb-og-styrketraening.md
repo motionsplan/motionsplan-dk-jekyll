@@ -86,7 +86,7 @@ Chtara et al (2005) undersøgte, om der var forskel på at lave styrketræningen
 
 Konditionstræningen blev udført som intervaltræning med intensiteter mellem 60% og 100%. Styrketræningen blev udført som cirkeltræning med en ratio mellem arbejde og restitution på 30s/30s eller 40s/20s. Styrketræningen var de første 6 uger med fokus på udholdenhed og de sidste uger med fokus på eksplosivitet.
 
-Studiet viser at den gruppe, der trænede konditionstræning efterfulgt af styrketræning, havde de signifikant største forbedringer på deres 4 km løbetid over et 12 ugers træningsprogram. Paavolainen et al (1999) fandt også en positiv effekt af eksplosiv træning på løbetiderne på 5 kilometer, som [jeg har skrevet om her]({% link _posts/2009-07-15-eksplosiv-traening-goer-dig-hurtigere-paa-5-km.md %}). Studiet af Paavolainen nævner ikke om den eksplosive træning og udholdenhedstræningen blev udført samme dag.
+Studiet viser at den gruppe, der trænede konditionstræning efterfulgt af styrketræning, havde de signifikant største forbedringer på deres 4 km løbetid over et 12 ugers træningsprogram. Paavolainen et al (1999) fandt også en positiv effekt af eksplosiv træning på løbetiderne på 5 kilometer, som [jeg har skrevet om her]({% link _posts/2019-12-16-running-economy.md %}). Studiet af Paavolainen nævner ikke om den eksplosive træning og udholdenhedstræningen blev udført samme dag.
 
 ## Styrketræning _før_ konditionstræning har en god effekt på fedtforbrændingen
 
