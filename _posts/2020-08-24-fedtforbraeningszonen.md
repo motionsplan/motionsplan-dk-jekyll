@@ -111,7 +111,7 @@ I nedenstående figur kan man få en fornemmelse for, at fedtforbrændingen topp
 
 {% include figure image_path="https://gym-idraet.dk/app/uploads/2019/09/Fig.-2_837x500_acf_cropped-610x0-c-default_quality-85.jpg" caption="Fedtforbrænding under cykling som funktion af intensitet, somer angivet i % af maksimal iltoptagelse (VO₂–max). De hvide (uden opvarmning) og sorte cirkler (med 10 min progressiv opvarmning) angiver gennemsnitsværdier for en gruppe på 13 moderat til veltrænede motionscykelryttere med VO₂–max – opgivet som kondital – mellem 50-70 ml O₂·min⁻¹·kg⁻¹). Kilde: [Simon Riis: Din fedtforbrændingszone - En sandhed med modifikationer](https://gym-idraet.dk/nyheder-viden/din-fedtforbraendingszone-en-sandhed-med-modifikationer/)" %}
 
-Som jeg har skrevet om i forhold til den [respiratoriske udvekslingskvotient]({% link _posts/2020-08-08-respiratoriske-kvotient.md %}), så er andelen af fedt ved moderate intensiteter omkring 50%, mens den ved højere intensiteter går mere og mere over mod ren kulhydratforbrænding indtil du rammer din maksimale iltoptagelse.
+Som jeg har skrevet om i forhold til den [respiratoriske udvekslingskvotient]({% link _posts/2020-08-08-respiratoriske-kvotient.md %}), så er andelen af fedt ved moderate intensiteter omkring 50%, mens den ved højere intensiteter går mere og mere over mod ren kulhydratforbrænding indtil du rammer din [maksimale iltoptagelse]({% link _posts/2019-11-03-intensiteten-og-vo2max.md %}).
 
 At man absolut set kan forbrænde mere fedt ved at køre med højere intensitet i det samme tidsrum, kan få folk til at negligere fedtforbrændingszonen.
 

@@ -1,9 +1,11 @@
 ---
-title: "Beregn din løbeøkonomi: Løbeteknik er en vigtig faktor 🏃"
+title: "Beregn din løbeøkonomi: 4 tips til træning af løbeøkonomi 🏃"
+seo_title: "Hvordan forbedrer jeg min løbeøkonomi? 4 tips til træning!"
+description: "Hvad er løbeøkonomi, og hvordan beregner du din løbeøkonomi. Komplet guide til hvordan du forbedrer din løbeøkonomi - og 4 tips til din træning."
 permalink: /lobeokonomi/
 redirect_from:
   - /artikel/eksplosiv-traening-goer-dig-hurtigere-paa-5-km/
-excerpt: "En god løbeøkonomi er evnen til at holde høj fart i lang tid ved et minimalt energiforbrug. Du får en definition af løbeøkonomi og at vide, hvorda du beregner løbeøkonomien."
+excerpt: "En god løbeøkonomi er evnen til at holde høj fart ved et minimalt energiforbrug. Du får en definition af løbeøkonomi, en beregner og tips til, hvordan du forbedrer og træner din løbeøkonomi."
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80
@@ -58,7 +60,7 @@ Forbrug af ilt er ofte den mest direkte begrænsende faktor i løb, når vi kigg
 
 Der er tre testbare faktorer, der udgør præstationsevnen, når man løber, og løbeøkonomien er en af dem:
 
-- Den **maksimale iltoptagelse** - VO<sub>2</sub>max - eller vores [kondital]({% link _posts/2019-11-04-kondital-og-tabel.md %}).
+- Den **[maksimale iltoptagelse]({% link _posts/2019-11-03-intensiteten-og-vo2max.md %})** - VO<sub>2</sub>max - eller vores [kondital]({% link _posts/2019-11-04-kondital-og-tabel.md %}).
 - **Løbeøkonomien**
 - Evnen til at **løbe med en så høj procentdel af VO<sub>2</sub>max som muligt** over hele distancen, hvilket også kan fortolkes som udholdenheden eller evnen til at løbe omkring den anaerobe tærskel.
 
@@ -199,7 +201,7 @@ Vi kan konkludere følgende om løbeøkonomi:
 - Der er mange faktorer der spiller ind på løbeøkonomien – og de fleste kan optimeres.
 - Det er svært at lave sikre målinger af forbedringer og det kræver et laboratorium.
 
-## Hvad så med løbeøkonomien og løbeteknikken?
+## Hvordan hænger løbeøkonomi og løbeteknik sammen?
 
 Du kan altså arbejde med løbeøkonomien ved at forbedre din teknik, så kan du altså arbejde med følgende parametre. Der er virkelig meget at hente.
 
@@ -212,7 +214,11 @@ Du kan altså arbejde med løbeøkonomien ved at forbedre din teknik, så kan du
 
 Alle disse punkter hænger sammen med din [løbestil og løbeteknik, som jeg har skrevet et indlæg om her]({% link _posts/2020-08-16-loebeteknik.md %}).
 
-## Træning af løbeøkonomien
+## Hvordan kan jeg forbedre min løbeøkonomi?
+
+Det kan sagtens betale sig at træne sin løbeøkonomi. Her er nogle gode tips til, hvordan du kan forbedre din løbeøkonomi:
+
+### 1) Løb mange kilometer
 
 [Scrimgeour et al (1986)](https://pubmed.ncbi.nlm.nih.gov/3699009/) viste, at løbere, der løb **mere end 100 km** om ugen, havde en markant bedre løbeøkonomi end de løbere, der løb **mindre end 100 km** om ugen.
 
@@ -220,7 +226,7 @@ Men det kan godt være, at du ikke har tålmodighed til at vente flere år, inde
 
 Allan Zachariasen og Jesper Petersen foreslår følgende [træningspas for at forbedre løbeøkonomien](https://www.loebeshop.dk/inspiration/lobeokonomi-bliv-en-hurtigere-lober).
 
-### Løb i konkurrence-tempo
+### 2) Løb i konkurrence-tempo
  
 Løbeøkonomien hænger ofte sammen med det tempo, man har trænet mest i. Derfor skal du løbe en del i det tempo, du forestiller dig at løbe konkurrence i.
 
@@ -233,7 +239,7 @@ Allan Zachariasen og Jesper Petersen foreslår, at man løber i det ønskede kon
 
 Det er lidt anderledes end [Jack Daniels griber det an i sin løbsberegner]({% link _posts/2020-08-01-jack-daniels-loebeberegner.md %}), hvor man udregner træningstempo på baggrund af sit nuværende niveau og ikke et ønsket niveau.
  
-### Sprinttræning
+### 3) Sprinttræning
 
 Superintense træningspas i all-out tempo (også kaldet _sprint træning_) kan også forbedre løbeøkonomien. Det kan fx være:
 
@@ -244,7 +250,7 @@ Der skal løbes _all-out_, og Allan Zachariasen og Jesper Petersen anbefaler, at
 
 Man kan imidlertid også implementere det som bakkesprints, og man kan også løbe på 98% af sin maksimale ydeevne og på den måde mindske risikoen for skader betragteligt. Men denne træningsform kræver meget restitution.
  
-### Eksplosiv spændstighedstræning og styrketræning
+### 4) Eksplosiv spændstighedstræning og styrketræning
 
 Eksplosiv styrketræning i form af plyometrisk træning som hop, hink, bakkehop, trappetræning, trappehop, squat, lunges og lignende kan også være med til at forbedre og fastholde løbeøkonomien.
 

@@ -30,7 +30,7 @@ Styrketræning
 : Formålet med styrketræning kan både være at bygge større muskler (hypertrofi), forbedre evnen til at løfte tungere (styrke) og evnen til at kunne yde mere kraft (power).
 
 Konditionstræning
-: Konditionstræning kan både have til formål at øge den maksimale iltoptagelse, så det samme arbejde bliver lettere, og forbedre udholdenheden, altså evnen til at arbejde i længere tid med den samme intensitet.
+: Konditionstræning kan både have til formål at øge den [maksimale iltoptagelse]({% link _posts/2019-11-03-intensiteten-og-vo2max.md %}), så det samme arbejde bliver lettere, og forbedre udholdenheden, altså evnen til at arbejde i længere tid med den samme intensitet.
 
 ## Hvordan påvirker styrketræning og udholdenhedstræning hinanden?
 
@@ -68,7 +68,7 @@ Styrketræningsgruppen havde efter de 8 ugers træning forbedret deres styrke og
 
 Styrkegruppens program tog i alt 11 minutter at gennemføre pr. gang. Det betyder naturligvis, at den gruppe havde 33 minutters ekstra træning i løbet af ugen. Det kunne have været interessant, hvis de havde justeret for træningsmængde i studiet.
 
-Hoff et all (2002) viste også med ekstremt veltrænede langrendsløbere (kondital ~ 70), at funktionel styrketræning 3 gange om ugen i  alt 45 minutter forbedrede deres udholdenhed med ~20%, maksimale styrke med ~10% og _[rate of force development]({% link _posts/2020-10-14-rate-of-force-development.md %})_ med 50% i forhold til kontrolgruppen, som trænede normalt.
+Hoff et all (2002) viste også med ekstremt veltrænede langrendsløbere ([kondital](/kondital/) ~ 70), at funktionel styrketræning 3 gange om ugen i  alt 45 minutter forbedrede deres udholdenhed med ~20%, maksimale styrke med ~10% og _[rate of force development]({% link _posts/2020-10-14-rate-of-force-development.md %})_ med 50% i forhold til kontrolgruppen, som trænede normalt.
 
 De to grupper trænede ellers deres normale træningsmængde på 10 timer. Styrketræningen bestod af 3 serier af 6 getagelser med omkring 85% af [1RM](/rm-beregner/) i et kabeltræk, der ligner dobbelt stavtag på langrendsski. 
 

@@ -231,7 +231,7 @@ Træningsmængden indenfor AT-træning bør ikke overstige 10% af ugens samlede 
 
 Træning af den maksimale iltoptagelse (VO2max) er en rigtig vigtig del af løbetræningen. Den [maksimale iltoptagelse]({% link _posts/2020-06-23-kondital-hvor-hurtigt.md %}) er et udtryk for kroppens evne til at optage og producere energi under forbrænding med ilt (aerob). 
 
-Der er flere faktorer, der bestemmer den maksimale iltoptagelse, som fx:
+Der er flere faktorer, der bestemmer den [maksimale iltoptagelse]({% link _posts/2019-11-03-intensiteten-og-vo2max.md %}), som fx:
 
 - Hjertets evne til at pumpe blod rundt i minuttet (puls x slagvolumen)
 - Mængden af røde blodlegemer

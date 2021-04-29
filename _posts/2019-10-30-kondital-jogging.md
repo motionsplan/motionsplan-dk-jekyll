@@ -21,7 +21,7 @@ last_modified_at: 2020-08-06T23:14:14Z
 toc: true
 ---
 
-Denne submaksimale jogging-test på 1 mil (1609 meter) kan bruges til at tracke dit kondital over tid. Du skal bruge en nøjagtigt opmålt rute, et stopur og et pulsur.
+Denne submaksimale jogging-test på 1 mil (1609 meter) kan bruges til at tracke dit [kondital](/kondital/) over tid. Du skal bruge en nøjagtigt opmålt rute, et stopur og et pulsur.
 
 George et al (1993) lavede en _1 mile track jog_-test for at estimere den maksimale iltoptagelse for college-studenter. Testen er let at lave, og den kan bruges jævnligt, da det er en submaksimal test. Den oprindelige teste er lavet på sunde college elever, og er formentlig ikke så velegnet til ældre målgrupper.
 
