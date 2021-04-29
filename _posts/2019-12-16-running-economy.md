@@ -1,6 +1,8 @@
 ---
 title: "Beregn din løbeøkonomi: Løbeteknik er en vigtig faktor 🏃"
 permalink: /lobeokonomi/
+redirect_from:
+  - /artikel/eksplosiv-traening-goer-dig-hurtigere-paa-5-km/
 excerpt: "En god løbeøkonomi er evnen til at holde høj fart i lang tid ved et minimalt energiforbrug. Du får en definition af løbeøkonomi og at vide, hvorda du beregner løbeøkonomien."
 language: da
 header:
@@ -14,7 +16,11 @@ category:
 tags:
   - beregnere
   - løbeøkonomi
-last_modified_at: 2020-08-01T23:14:14Z
+  - styrketræning
+  - løb
+  - kondition
+  - intervaltræning
+last_modified_at: 2021-04-29T17:14:14Z
 toc: true
 feature_row:
   - image_path: https://imgcdn.saxo.com/_9781782551096/0x500
@@ -238,9 +244,32 @@ Der skal løbes _all-out_, og Allan Zachariasen og Jesper Petersen anbefaler, at
 
 Man kan imidlertid også implementere det som bakkesprints, og man kan også løbe på 98% af sin maksimale ydeevne og på den måde mindske risikoen for skader betragteligt. Men denne træningsform kræver meget restitution.
  
-### Eksplosiv styrketræning
+### Eksplosiv spændstighedstræning og styrketræning
 
 Eksplosiv styrketræning i form af plyometrisk træning som hop, hink, bakkehop, trappetræning, trappehop, squat, lunges og lignende kan også være med til at forbedre og fastholde løbeøkonomien.
+
+Hvis du træner eksplosiv styrketræning og spændstighed kan du også blive hurtigere på en fem kilometer løbetur, fordi du forbedrer din løbeøkonomi og muskelstyrke.
+
+[Paavolainen et al (1999)](https://doi.org/10.1152/jappl.1999.86.5.1527) undersøgte, hvordan eksplosiv træning påvirker præstationen på løbetiden på 5 kilometer.
+
+To grupper af veltrænede forsøgspersoner trænede med lige stor træningsvolumen i 9 uger. Den ene gruppe fik 32% af sin træning erstattet med eksplosiv styrketræning, mens den anden kun erstattede 3% af sin træning med eksplosiv styrketræning. Gruppen der trænede eksplosiv styrketræning forbedrede sin 5 km løbetid uden at forbedre deres maksimale iltoptagelse.
+
+Den eksplosive træning varede i 15 minutter til 90 minutter og bestod af følgende øvelser:
+
+- Forskellige sprints
+- Forskellige springøvelser
+- Benpres
+- Knæbøjninger i maskine
+
+Alle øvelserne blev udført eksplosivt.
+
+Disse resultater er interessante og viser, at hvis du gerne vil løbe noget hurtigere, så kan det være en god ide at lave noget eksplosiv styrketræning. Træningen var primært karakteriseret ved at være eksplosiv træning eller spændstighedstræning.
+
+Det vil være interessant at se, hvordan resultaterne ville være, hvis sprint- og springøvelserne var blevet suppleret med tung styrketræning for benenes muskler, fx squat og dødløft.
+
+Kender du nogle studier, der kan sige noget om det?
+
+Jeg har skrevet et indlæg om [løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %}), hvor du kan lære endnu mere om begrebet.
 
 ### Flere forslag til at arbejde med løbeøkonomi
 
@@ -254,6 +283,7 @@ Hvordan arbejder du med din løbeøkonomi?
   <summary>Se flere referencer om løbeøkonomi</summary>
 
 - [Barnes KR., Kilding AE. 2015. Running economy: measurement, norms, and determining factors](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4555089/)
+- Paavolainen, Leena, Keijo Häkkinen, Ismo Hämäläinen, Ari Nummela, og Heikki Rusko. 1999. “Explosive-strength training improves 5-km running time  by improving running economy and muscle power”. Journal of Applied Physiology 86 (5): 1527–33. <https://doi.org/10.1152/jappl.1999.86.5.1527>.
 </details>
 
 {% include feature_row id="feature_row" type="left" %}
