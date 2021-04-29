@@ -324,7 +324,7 @@ Du kan udføre intervallerne på forskellige måder:
 - **Stigningsløb**. Hvis du laver 100 meter stigningsløb, så øger du progressivt dit tempo til dit maksimale tempo og holder det tempo de sidste 50 meter. Fordelen ved stigningsløb er, at de er relativt skånsomme.
 - **Maksimalt løb**.  Hvis du gerne vil forbedre din muskelstyrke, så skal du løbe hurtigere fra start.
 
-Studier har vist, at [eksplosiv træning er med til at forbedre løbehastigheden og løbeøkonomien]({% link link _posts/2019-12-16-running-economy.md %}), men du kan også inkludere styrketræning i dit løbeprogram for at forbedre løbehastigheden.
+Studier har vist, at [eksplosiv træning er med til at forbedre løbehastigheden og løbeøkonomien]({% link _posts/2019-12-16-running-economy.md %}), men du kan også inkludere styrketræning i dit løbeprogram for at forbedre løbehastigheden.
 
 ### Hyppighed
 
