@@ -745,8 +745,8 @@ $(document).ready(function() {
 
         let borg = borg15.Borg15(age, weight, watt);
 
-        $("#borg_iltoptagelse").val(borg.getMaximalOxygenUptake());
-        $("#borg_kondital").val(borg.getFitnessLevel());
+        $("#borg_iltoptagelse").val(borg.getMaximalOxygenUptake().toFixed(2));
+        $("#borg_kondital").val(borg.getFitnessLevel().toFixed(0));
     });
     // Calculate Wattmax
     $("#calculator_inol").submit(function(e) {
