@@ -91,7 +91,7 @@ Du kan sammenligne dit [kondital i tabellen for kondital for mænd og kvinder](/
 ## Reference til Borg 15-cykeltest
 
 <details markdown="1">
-  <summary></summary>
+  <summary>Se referencer til Borg15-testen</summary>
 
 - Okura, T., og K. Tanaka. 2001. “A Unique Method for Predicting Cardiorespiratory Fitness Using Rating of Perceived Exertion”. Journal of Physiological Anthropology and Applied Human Science 20 (5): 255–61. <https://doi.org/10.2114/jpa.20.255>.
 - R, Persinger, Foster C, Gibson M, Fater Dc, og Porcari Jp. 2004. “Consistency of the Talk Test for Exercise Prescription”. Medicine and Science in Sports and Exercise. Med Sci Sports Exerc. september 2004. <https://pubmed.ncbi.nlm.nih.gov/15354048/>.

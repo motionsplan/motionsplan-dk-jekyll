@@ -33,6 +33,12 @@ gallery_whyiexercise:
 
 Hvad er 2400-meter-testen? **2400 meter testen er en simpel løbetest for din aerobe kredsløbsmotor, som kun kræver et stopur og en løbebane for at estimere dit kondital. Det er et alternativ til Coopers 12 minutters test. 2400 meter løbetesten er en del af politiets fysiske optagelsesprøve.**
 
+I dette indlæg kan du læse mere om:
+
+- Hvor lang tid tager det at løbe 2400 meter?
+- Finde en beregner til 2400-meter testen, så du kan udregne dit kondital
+- Få en tabel over tider på 2400 meter-testen
+
 {% include video provider="youtube" id="YldNonx193c" %}
 
 Formålet med testen er at gennemføre 2400 meter så hurtigt som muligt.

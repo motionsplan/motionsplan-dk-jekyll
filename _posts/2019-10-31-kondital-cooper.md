@@ -21,7 +21,7 @@ tags:
   - løbetest
   - test
   - beregner
-last_modified_at: 2021-01-20T10:14:14Z
+last_modified_at: 2021-03-20T10:14:14Z
 toc: true
 feature_row:
   - image_path: /assets/images/freebies/cooper.png
@@ -35,7 +35,22 @@ feature_row:
 
 Cooper-testen er en maksimal løbetest, hvor den distance man kan tilbagelægge på 12 minutter er med til at estimere udøverens kondital. Jeg beskriver her, hvad Cooper testen er, og du kan finde tabeller og skemaer til at vurdere dit kondital?
 
-Hvad er en Cooper-test? **12 minutters Cooper-test er en klassisk konditionstest, som blev designet af militærfysiologen Kenneth H. Cooper i 1968. Cooper-testen var oprindeligt beregnet til at teste de amerikanske soldaters fysiske form. Det gælder om at løbe så langt som muligt på 12 minutter. Testens pålidelighed til at udregne konditallet forudsætter, at den løbes på en flad strækning, hvor man kan presse sig selv, og at man kan løbe med nogenlunde jævn hastighed hele vejen igennem testen.**
+Hvad er en Cooper-test? **Cooper-test er en klassisk konditionstest, hvor du skal løbe så langt som muligt på 12 minutter. Cooper-testen blev designet af militærfysiologen Kenneth H. Cooper i 1968.**
+
+ Cooper-testen var oprindeligt beregnet til at teste de amerikanske soldaters fysiske form. Det gælder om at løbe så langt som muligt på 12 minutter.
+ 
+ Testens pålidelighed til at udregne konditallet forudsætter, at den løbes på en flad strækning, hvor man kan presse sig selv, og at man kan løbe med nogenlunde jævn hastighed hele vejen igennem testen.
+
+ I dette indlæg kan du få svar på følgende spørgsmål om Cooper-testen:
+
+ - Hvad er en god Cooper test?
+ - Hvor hurtigt skal man løbe en coopertest?
+ - Hvor mange meter kan man løbe på 12 min?
+ - Hvad er formålet med coopertest?
+ - Hvordan forbedrer man sin coopertest?
+ - Hvem opfandt Coopertesten?
+ - Beregne dit kondital på baggrund af Cooper-testen
+ - Se en tabel og skema over Cooper-testen
 
 ## Hvordan laver du en Cooper-test?
 
