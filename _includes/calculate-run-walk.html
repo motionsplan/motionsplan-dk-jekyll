@@ -2,12 +2,27 @@
     <fieldset>
         <legend>Energiudregner. Sammenlign energiforbruget ved gang og løb.</legend>
         <div class="form-group">
-            <label for="weight">Vægt (kg)</label>
-            <input name="weight" id="weight" type="number" placeholder="fx 68 kg" required>
+            <label>Formel
+                <select name="formula-running-walking" id="formula-running-walking">
+                    <option value="ascm">ASCM formel</option>
+                    <option value="met">MET-værdier</option>
+                </select>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Vægt (kg)
+                <input name="weight" id="weight" type="number" placeholder="fx 68 kg" required>
+            </label>
         </div>
     </fieldset>
     <fieldset>
-        <div class="form-group">
+        <legend>Hastighed for løb og gang</legend>
+        <div class="form-group" class="walk-run-ascm">
+            <label>Hastighed for gang
+                <input type="number" name="walk_velocity" steps="0.1" min="1" max="8">
+            </label>
+        </div>
+        <div class="form-group" class="walk-run-met">
             <label for="walking">Gang</label>
             <select name="walking" id="walking">
                 <option value="4">Gang - 4,0 km/t</option>
@@ -18,20 +33,12 @@
                 <option value="8.0">Gang - 8,0 km/t</option>
             </select>
         </div>
-    </fieldset>
-    <fieldset class="results">
-         <legend>Energiforbrug ved gang</legend>
-        <div class="form-group">
-            <label for="calories_walking_kilometer">Energiforbrug (kcal/kilometer)</label>
-            <input name="calories_walking_kilometer" id="calories_walking_kilometer" type="text" disabled>
+        <div class="form-group" class="walk-run-ascm">
+            <label>Hastighed for løb
+                <input type="number" name="run_velocity" steps="0.1" min="6" max="45">
+            </label>
         </div>
-        <div class="form-group">
-            <label for="calories_walking_minute">Energiforbrug (kcal/minut)</label>
-            <input name="calories_walking_minute" id="calories_walking_minute" type="text" disabled>
-        </div>
-    </fieldset>
-    <fieldset>
-        <div class="form-group">
+        <div class="form-group" class="walk-run-met">
             <label for="running">Løb</label>
             <select name="running" id="running">
                 <option value="6.4">Løb - 6,4 km/t</option>
@@ -46,6 +53,17 @@
         <input type="submit" value="Beregn">
     </fieldset>
     <fieldset class="results">
+        <legend>Energiforbrug ved gang</legend>
+       <div class="form-group">
+           <label for="calories_walking_kilometer">Energiforbrug (kcal/kilometer)</label>
+           <input name="calories_walking_kilometer" id="calories_walking_kilometer" type="text" disabled>
+       </div>
+       <div class="form-group">
+           <label for="calories_walking_minute">Energiforbrug (kcal/minut)</label>
+           <input name="calories_walking_minute" id="calories_walking_minute" type="text" disabled>
+       </div>
+   </fieldset>
+   <fieldset class="results">
         <legend>Energiforbrug ved løb</legend>
         <div class="form-group">
             <label for="calories_running_kilometer">Energiforbrug (kcal/kilometer)</label>

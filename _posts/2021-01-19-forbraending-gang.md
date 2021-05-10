@@ -1,7 +1,7 @@
 ---
 title: &title "Hvor mange kalorier forbrænder man ved at gå? 🚶🚶‍♀️"
-seo_title: "Forbrænding gang | Så mange kalorier forbrænder du ved at gå"
-description: "Gang forbrænder energi og kalorier ✓️ Hvor meget er din forbrænding ved at gå ✓️ Hvor meget forbrænder du ved at gå 10.000 skridt?"
+seo_title: "Forbrænding gang • Så mange kalorier forbrænder du ved at gå »"
+description: "✓️ Hvor meget er din forbrænding ved at gå ✓️ Hvor meget forbrænder du ved at gå 10.000 skridt? Hvor meget forbrænder gang af energi og kalorier?"
 permalink: /forbraending-ved-gaa-gang/
 last_modified_at: 2021-01-30T09:41:09Z
 author: lsolesen
@@ -99,10 +99,10 @@ Lad os tage et hurtigt regneeksempel med viden fra MET-tabellerne.
 
 Jeg vejer 81 kilo. Hvis jeg bruger [beregneren for kalorieforbruget ved forskellige aktiviteter og oversigten over MET-værdier](/met/), så får jeg følgende værdier:
 
-| Aktivitet          | MET    | kcal / timen | kcal/kg/km        |
-|--------------------|--------|--------------|-------------------|
-| Alm. gang 4 km/t  | 3 MET  | 243 kcal     | 0,75 kcal/kg/km |
-| Rask gang 5,6 km/t | 4,3 MET | 348 kcal     | 0,77 kcal/kg/km    |
+| Aktivitet          | MET     | kcal / timen | kcal/kg/km        |
+|--------------------|---------|--------------|-------------------|
+| Alm. gang 4 km/t   | 3 MET   | 243 kcal     | 0,75 kcal/kg/km   |
+| Rask gang 5,6 km/t | 4,3 MET | 348 kcal     | 0,77 kcal/kg/km   |
 
 Helt som ventet så bruger man flere kalorier på at gå 5,6 km/t end 4 km/t, og når jeg omregner til kcal/kg/km så koster mine hurtigere kilometer også mere i energiregnskabet pr. km. Det er ganske vist ikke så meget, men dog lidt.
 
@@ -111,6 +111,10 @@ Derfor er det altså ikke nok bare at lave en "tilfældig" tommelfingerregel på
 **For at udregne hvor mange kalorier, du bruger på din gåtur, så har du brug for at kende intensiteten og varigheden af aktiviteten.**
 
 Du kan naturligvis regne din egen gennemsnitlige kalorieforbrug pr. kilometer, hvis du kender din normale intensitet. Husk blot på, at udregningerne er gennemsnitsudregninger.
+
+## Hvor mange kalorier forbrænder du ved at gå 10.000 skridt?
+
+For at få et rimeligt estimat på, hvad du forbrænder ved at gå 10.000 skridt, så skal du kende din hastighed undervejs. Når du kender din hastighed, så kan du let bruge beregneren til at udregne, hvor mange kalorier du forbrænder på [10.000 skridt]({% link _posts/2020-06-25-steps.md %}).
 
 ## Fedtforbrænding ved at gå
 

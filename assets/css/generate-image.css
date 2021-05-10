@@ -97,6 +97,8 @@ body.instagram footer {
 }
 
 body.instagram #preview {
+  box-sizing: border-box;
+  border: 20px orange solid !important;
   height: 1080px;
   width: 1080px;
   font-size: 2rem;

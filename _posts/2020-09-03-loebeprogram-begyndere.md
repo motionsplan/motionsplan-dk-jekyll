@@ -28,19 +28,19 @@ feature_row_program:
 
 Jeg har lavet et løbeprogram til dig, der er nybegynder og ikke er vant til at løbe. Løbeprogrammet er til begyndere, der gerne vil i gang med løbetræningen.
 
-Programmet varer 16 uger og er meget overskueligt og enkelt.
+Løbeprogrammet varer 16 uger og er meget overskueligt og enkelt.
 
-Programmet tager højde for, at du skal bygge træningen langsomt op og tage højde for træningsprincippet **progressivt overload**, så du får en god oplevelse af at komme i gang med at løbe uden at blive skadet.
+Programmet tager højde for, at du skal bygge træningen langsomt op. Vi bruger altså træningsprincippet **progressivt overload**, så du får en god oplevelse af at komme i gang med at løbe uden at blive skadet.
 
-Alt for mange nybegyndere starter for hurtigt ud, fordi de bliver opsat på at løbe et bestemt antal kilometer. Det betyder, at mange begyndere ender med at blive skadet på grund af deres løbeprogram.
+Alt for mange nybegyndere starter for hurtigt ud med løbetræningen, fordi de bliver opsat på at løbe et bestemt antal kilometer. Det betyder, at mange begyndere ender med at blive skadet på grund af deres løbeprogram.
 
 Men det er ikke altid løbeprogrammets skyld. Mange begyndere er også utålmodige, når de vil i gang med at løbe. Derfor begynder de at løbe mere end programmet siger eller løbe hurtigere på de enkelte løbetræninger.
 
-Derfor er dette løbeprogram baseret på minutter og ikke kilometer. Som begynder handler det om at respektere kroppen. 
+**Derfor er dette løbeprogram til nybegyndere baseret på minutter og ikke kilometer.** Som begynder handler det om at respektere kroppen. 
 
 Derfor starter dette løbeprogram for nybegyndere med en del gang, så du vænner kroppen til den noget større belastning fra løb.
 
-## Tre måder at løbe på i løbeprogrammet
+## Tre måder at løbe på i et løbeprogram
 
 I et løbeprogram kan man med fordel rette sin træning om en af tre zoner:
 
@@ -50,7 +50,7 @@ I et løbeprogram kan man med fordel rette sin træning om en af tre zoner:
 
 Men sådan kan du ikke starte som nybegynder i løb. Du skal stille og roligt vænne kroppen til at løbe.
 
-Derfor starter dette **løbeprogram med en del gang**.
+Derfor starter dette **løbeprogram for begyndere med at du skal gå en del også**.
 
 Hvis du gerne vil i gang med at løbe, så skal du først og fremmest bygge din udholdenhed op for at få en god base. Derfor starter programmet med primært at arbejde med udholdenheden.
 
