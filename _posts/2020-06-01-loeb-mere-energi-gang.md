@@ -106,11 +106,13 @@ Undtagelsen er hvis du begynder at gå virkelig hurtigt. I nedenstående tabel v
 
 I denne beregner kan du sammenligne, hvor mange kalorier man forbrænder i hhv. gang og løb.
 
-Du kan enten vælge formlen fra ACSM eller basere dine udregniner på MET-værdierne.
+Du kan enten vælge formlen fra ACSM eller basere dine udregninger på MET-værdierne.
 
 I beregnere kan du selv regne lidt på de forskellige løbehastigheder og ganghastigheder for at se, hvordan energiforbruget pr. kilometer og pr. minut ændrer sig sammen med hastigheden.
 
 Løb bruger altid mere energi end gang!
+
+## Beregner til at sammenligne kalorier ved løb og gang
 
 {% include calculate-run-walk.html %}
 
