@@ -180,6 +180,8 @@ Jeg har samlet det omtrentlige energiforbrug for 30 minutters arbejde med forske
 | Løb       | 12 km/t    | 430               |
 | Løb       | 16 km/t    | 550               |
 
+Du kan finde værdierne på [www.brianmac.co.uk](https://www.brianmac.co.uk/energyexp.htm), hvor du også kan finde en beregner på engelsk, der tager udgangspunkt i McArdles tabeller.
+
 Ved en ganghastighed over 5 km/t nærmer energiforbruget pr. km sig gradvist energiforbruget for løb. Langt de fleste går ikke hurtigere end 5 km/t ved normal ganghastighed.
 
 Tallene i tabellen er det estimerede energiforbrug ved aktiviteterne. Gang- og løbeøkonomi spiller naturligvis også ind i ligningen for energiforbrug, så derfor kan der være individuelle forskelle.
@@ -213,7 +215,9 @@ Efterforbrændingen for løb kan være helt op til fem minutter længere end ved
 
 --- <cite>[Wilkin et al (2012)](https://pubmed.ncbi.nlm.nih.gov/22446673/)</cite>
 
-Der var altså en efterforbrænding på gang på 91 kilojoule (~22 kcal) og en efterforbrænding på løb på 193 kilojoule (~29 kcal). Efterforbrændingen var altså i alt 2,1 gang så høj ved løb.
+Der var altså en efterforbrænding på gang på 91 kilojoule (~22 kcal) og en efterforbrænding på løb på 193 kilojoule (~46 kcal). Efterforbrændingen var altså i alt 2,1 gang så høj ved løb.
+
+De 24 kalorier i forskel er dog i praksis ikke så meget, men det er også på en ret kort gåtur og løbetur.
 
 Wilkin et al (2012) fandt at efterforbrændingen for gang faldt til hvileniveau 10 minutter efter aktiviteten, mens det tog 15 minutter for løb.
 
