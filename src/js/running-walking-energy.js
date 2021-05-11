@@ -5,6 +5,7 @@ motionsplan.RunningWalkingEnergyExpenditure = function(type, bw, velocity, grade
 
   // velocity is in km/t - change to m/s
   let m_pr_min = velocity / 3.6 * 60;
+  grade = grade / 100;
 
   function getASCMWalking() {
     // formula returns ml/kg/min
@@ -31,8 +32,6 @@ motionsplan.RunningWalkingEnergyExpenditure = function(type, bw, velocity, grade
   }
 
   let publicAPI = {
-    getASCMWalking : getASCMWalking,
-    getASCMRunning : getASCMRunning,
     getCaloriesPrMinute : getCaloriesPrMinute,
     getCaloriesPrKilometer : getCaloriesPrKilometer
   };

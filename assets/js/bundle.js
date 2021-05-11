@@ -473,6 +473,11 @@ $(document).ready(function() {
         $(".run-met").hide();
         $(".met-explanation").hide();
     });
+    $("#calculator_walking_energy").ready(function() {
+        $(".walk-met").hide();
+        $(".met-explanation").hide();
+        $(".walk-pandolf").hide();
+    });
     $("#calculator_running_walking").change(function() {
         if ($("#formula-energy-running").val() == 'met') {
             $(".run-met").show();
@@ -489,6 +494,24 @@ $(document).ready(function() {
         } else {
             $(".walk-met").hide();
             $(".walk-ascm").show();
+        }
+    });
+    $("#calculator_walking_energy").change(function() {
+        if ($("#formula-walking-energy").val() == 'met') {
+            $(".walk-met").show();
+            $(".met-explanation").show();
+            $(".walk-ascm").hide();
+            $(".walk-pandolf").hide();
+        } else if ($("#formula-walking-energy").val() == 'pandolf') {
+            $(".walk-ascm").show();
+            $(".walk-met").hide();
+            $(".met-explanation").hide();
+            $(".walk-pandolf").show();
+        } else {
+            $(".walk-met").hide();
+            $(".walk-ascm").show();
+            $(".met-explanation").hide();
+            $(".walk-pandolf").hide();
         }
     });
     $("#calculator_rm").submit(function(e) {
@@ -821,6 +844,41 @@ $(document).ready(function() {
         $("#calories_running_kilometer").val(run.getCaloriesPrKilometer().toFixed(0));
         $("#ratio_kilometer").val(ratio_kilometer.toFixed(1));
         $("#ratio_minute").val(ratio_minute.toFixed(1));
+    });
+    $("#calculator_walking_energy").submit(function(e) {
+        console.log("Running Walking Energy Expenditure");
+        e.preventDefault();
+
+        let weight = Number($("[name='weight']").val());
+
+        console.log($("#formula-walking-energy").val());
+
+        let walk;
+        let walking;
+
+        if ($("#formula-walking-energy").val() == 'met') {
+            walking = Number($("[name='walking']").val());
+            walk = runwalk.RunningWalking("walking", walking, weight);
+        } else if ($("#formula-walking-energy").val() == 'pandolf') { 
+            walking = Number($("[name='walk_velocity']").val());
+            let grade = Number($("[name='walk_grade']").val());
+            let load = Number($("[name='walk_load']").val());
+            walk = pandolf.RunningWalkingEnergyExpenditurePandolf(weight, walking, grade, load);        
+        } else { 
+            walking = Number($("[name='walk_velocity']").val());
+            let grade = Number($("[name='walk_grade']").val());
+            walk = runwalkenergy.RunningWalkingEnergyExpenditure("walking", weight, grade);
+        }
+
+        console.log(walking);
+
+        let time = $("#time").val() * 60;
+
+        let total = walk.getCaloriesPrMinute() * time;
+
+        $("#calories_walking_kilometer").val(walk.getCaloriesPrKilometer().toFixed(0));
+        $("#calories_walking_minute").val(walk.getCaloriesPrMinute().toFixed(1));
+        $("#calories_walking_total").val(total.toFixed(0));
     });
     $("#calculator_jump_reach_height").submit(function(e) {
         console.log("Jump Reach test");
@@ -3975,6 +4033,7 @@ motionsplan.RunningWalkingEnergyExpenditure = function(type, bw, velocity, grade
 
   // velocity is in km/t - change to m/s
   let m_pr_min = velocity / 3.6 * 60;
+  grade = grade / 100;
 
   function getASCMWalking() {
     // formula returns ml/kg/min
@@ -4001,8 +4060,6 @@ motionsplan.RunningWalkingEnergyExpenditure = function(type, bw, velocity, grade
   }
 
   let publicAPI = {
-    getASCMWalking : getASCMWalking,
-    getASCMRunning : getASCMRunning,
     getCaloriesPrMinute : getCaloriesPrMinute,
     getCaloriesPrKilometer : getCaloriesPrKilometer
   };
@@ -4051,25 +4108,26 @@ module.exports = motionsplan;
 let motionsplan = {};
 
 // grade in decimal form - 5% incline is 0.05
-motionsplan.RunningWalkingEnergyExpenditurePandolf = function(bw, velocity) {
+motionsplan.RunningWalkingEnergyExpenditurePandolf = function(bw, velocity, grade = 0, load = 0) {
 
   // velocity is in km/t - change to m/s
-  let m_pr_min = velocity / 3.6 * 60;
+  let m_pr_sec = velocity / 3.6;
 
   // returns watt - J/s
   function getPandolfUnloadedWalking() {
-    let m_pr_sec = velocity / 3.6;
     return (1.5 * bw + 1.5 * Math.pow(m_pr_sec, 2) * bw);
     // convert to kcal/min
   }
 
-/*
-  function getPandolfWalking(load = 0) {
-    return 1.5 * bw + 2.0 * (bw + load) * Math.pow(bw / load) + n *(bw + load)[1.5V2  0.35VG]
+  function getPandolfLoadedWalking() {
+    let n = 1;
+    return 1.5 * bw + 2 * ((bw + load) * Math.pow(load/bw, 2)) + n * ((bw + load) * (1.5 * Math.pow(m_pr_sec, 2) + (0.35 * m_pr_sec * grade)));
   }
-*/  
 
   function getCaloriesPrMinute() {
+    if (grade > 0 || load > 0) {
+      return 0.01433075379765 * getPandolfLoadedWalking();
+    }
     return 0.01433075379765 * getPandolfUnloadedWalking();
   }
   

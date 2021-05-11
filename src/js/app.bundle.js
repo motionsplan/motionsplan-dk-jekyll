@@ -108,6 +108,11 @@ $(document).ready(function() {
         $(".run-met").hide();
         $(".met-explanation").hide();
     });
+    $("#calculator_walking_energy").ready(function() {
+        $(".walk-met").hide();
+        $(".met-explanation").hide();
+        $(".walk-pandolf").hide();
+    });
     $("#calculator_running_walking").change(function() {
         if ($("#formula-energy-running").val() == 'met') {
             $(".run-met").show();
@@ -124,6 +129,24 @@ $(document).ready(function() {
         } else {
             $(".walk-met").hide();
             $(".walk-ascm").show();
+        }
+    });
+    $("#calculator_walking_energy").change(function() {
+        if ($("#formula-walking-energy").val() == 'met') {
+            $(".walk-met").show();
+            $(".met-explanation").show();
+            $(".walk-ascm").hide();
+            $(".walk-pandolf").hide();
+        } else if ($("#formula-walking-energy").val() == 'pandolf') {
+            $(".walk-ascm").show();
+            $(".walk-met").hide();
+            $(".met-explanation").hide();
+            $(".walk-pandolf").show();
+        } else {
+            $(".walk-met").hide();
+            $(".walk-ascm").show();
+            $(".met-explanation").hide();
+            $(".walk-pandolf").hide();
         }
     });
     $("#calculator_rm").submit(function(e) {
@@ -456,6 +479,41 @@ $(document).ready(function() {
         $("#calories_running_kilometer").val(run.getCaloriesPrKilometer().toFixed(0));
         $("#ratio_kilometer").val(ratio_kilometer.toFixed(1));
         $("#ratio_minute").val(ratio_minute.toFixed(1));
+    });
+    $("#calculator_walking_energy").submit(function(e) {
+        console.log("Running Walking Energy Expenditure");
+        e.preventDefault();
+
+        let weight = Number($("[name='weight']").val());
+
+        console.log($("#formula-walking-energy").val());
+
+        let walk;
+        let walking;
+
+        if ($("#formula-walking-energy").val() == 'met') {
+            walking = Number($("[name='walking']").val());
+            walk = runwalk.RunningWalking("walking", walking, weight);
+        } else if ($("#formula-walking-energy").val() == 'pandolf') { 
+            walking = Number($("[name='walk_velocity']").val());
+            let grade = Number($("[name='walk_grade']").val());
+            let load = Number($("[name='walk_load']").val());
+            walk = pandolf.RunningWalkingEnergyExpenditurePandolf(weight, walking, grade, load);        
+        } else { 
+            walking = Number($("[name='walk_velocity']").val());
+            let grade = Number($("[name='walk_grade']").val());
+            walk = runwalkenergy.RunningWalkingEnergyExpenditure("walking", weight, grade);
+        }
+
+        console.log(walking);
+
+        let time = $("#time").val() * 60;
+
+        let total = walk.getCaloriesPrMinute() * time;
+
+        $("#calories_walking_kilometer").val(walk.getCaloriesPrKilometer().toFixed(0));
+        $("#calories_walking_minute").val(walk.getCaloriesPrMinute().toFixed(1));
+        $("#calories_walking_total").val(total.toFixed(0));
     });
     $("#calculator_jump_reach_height").submit(function(e) {
         console.log("Jump Reach test");
