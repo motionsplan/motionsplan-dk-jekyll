@@ -243,6 +243,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-include-cache
   - jekyll-gzip
+  - jekyll-brotli
 
 
 # mimic GitHub Pages with --safe
