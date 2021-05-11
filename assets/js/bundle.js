@@ -385,6 +385,8 @@ const vmax_intervals = require('./vmax-intervals');
 const billat = require('./billat');
 const runwalk = require('./running-walking');
 const runwalkenergy = require('./running-walking-energy.js');
+const pandolf = require('./running-walking-pandolf.js');
+const leger = require('./running-walking-leger.js');
 const pushup = require('./pushup');
 const yyir1 = require('./beeptest-yyir1');
 const beeptest = require('./beeptest');
@@ -467,15 +469,26 @@ $(document).ready(function() {
         }
     });
     $("#calculator_running_walking").ready(function() {
-        $(".walk-run-met").hide();
+        $(".walk-met").hide();
+        $(".run-met").hide();
+        $(".met-explanation").hide();
     });
     $("#calculator_running_walking").change(function() {
-        if ($("#formula-running-walking").val() == 'met') {
-            $(".walk-run-met").show();
-            $(".walk-run-ascm").hide();
+        if ($("#formula-energy-running").val() == 'met') {
+            $(".run-met").show();
+            $(".met-explanation").show();
+            $(".run-ascm").hide();
         } else {
-            $(".walk-run-met").hide();
-            $(".walk-run-ascm").show();
+            $(".run-met").hide();
+            $(".run-ascm").show();
+        }
+        if ($("#formula-energy-walking").val() == 'met') {
+            $(".walk-met").show();
+            $(".met-explanation").show();
+            $(".walk-ascm").hide();
+        } else {
+            $(".walk-met").hide();
+            $(".walk-ascm").show();
         }
     });
     $("#calculator_rm").submit(function(e) {
@@ -761,49 +774,53 @@ $(document).ready(function() {
     });
     // Udregn ideal weight
     $("#calculator_running_walking").submit(function(e) {
-        console.log("Running Walking");
+        console.log("Running Walking Energy Expenditure");
         e.preventDefault();
 
         let weight = Number($("[name='weight']").val());
 
-        if ($("#formula-running-walking").val() == 'met') {
+        console.log($("#formula-energy-walking").val());
+        console.log($("#formula-energy-running").val());
 
-            let running = Number($("[name='running']").val());
-            let walking = Number($("[name='walking']").val());
-            
-            console.log(walking + ' ' + running);
-            
-            let run = runwalk.RunningWalking("running", running, weight);
-            let walk = runwalk.RunningWalking("walking", walking, weight);
-            
-            let ratio_kilometer = run.getCaloriesPrKilometer() / walk.getCaloriesPrKilometer();
-            let ratio_minute = run.getCaloriesPrMinute() / walk.getCaloriesPrMinute();
+        let walk;
+        let run;
+        let running;
+        let walking;
 
-            $("#calories_walking_kilometer").val(walk.getCaloriesPrKilometer().toFixed(0));
-            $("#calories_walking_minute").val(walk.getCaloriesPrMinute().toFixed(0));
-            $("#calories_running_minute").val(run.getCaloriesPrMinute().toFixed(0));
-            $("#calories_running_kilometer").val(run.getCaloriesPrKilometer().toFixed(0));
-            $("#ratio_kilometer").val(ratio_kilometer.toFixed(1));
-            $("#ratio_minute").val(ratio_minute.toFixed(1));
-        } else {
-            let running = Number($("[name='run_velocity']").val());
-            let walking = Number($("[name='walk_velocity']").val());
-            
-            console.log(weight + '' + walking + ' ' + running);
-
-            let run = runwalkenergy.RunningWalkingEnergyExpenditure("running", weight, running);
-            let walk = runwalkenergy.RunningWalkingEnergyExpenditure("walking", weight, walking);
-
-            let ratio_kilometer = run.getCaloriesPrKilometer() / walk.getCaloriesPrKilometer();
-            let ratio_minute = run.getCaloriesPrMinute() / walk.getCaloriesPrMinute();
-
-            $("#calories_walking_kilometer").val(walk.getCaloriesPrKilometer().toFixed(0));
-            $("#calories_walking_minute").val(walk.getCaloriesPrMinute().toFixed(0));
-            $("#calories_running_minute").val(run.getCaloriesPrMinute().toFixed(0));
-            $("#calories_running_kilometer").val(run.getCaloriesPrKilometer().toFixed(0));
-            $("#ratio_kilometer").val(ratio_kilometer.toFixed(1));
-            $("#ratio_minute").val(ratio_minute.toFixed(1));
+        if ($("#formula-energy-walking").val() == 'met') {
+            walking = Number($("[name='walking']").val());
+            walk = runwalk.RunningWalking("walking", walking, weight);
+        } else if ($("#formula-energy-walking").val() == 'pandolf') { 
+            walking = Number($("[name='walk_velocity']").val());
+            walk = pandolf.RunningWalkingEnergyExpenditurePandolf(weight, walking);        
+        } else { 
+            walking = Number($("[name='walk_velocity']").val());
+            walk = runwalkenergy.RunningWalkingEnergyExpenditure("walking", weight, walking);
         }
+
+        if ($("#formula-energy-running").val() == 'met') {
+            running = Number($("[name='running']").val());
+            run = runwalk.RunningWalking("running", running, weight);
+        } else if ($("#formula-energy-running").val() == 'leger') {
+            running = Number($("[name='run_velocity']").val());
+            run = leger.RunningWalkingEnergyExpenditureLeger(weight, running);
+        } else {
+            running = Number($("[name='run_velocity']").val());
+            run = runwalkenergy.RunningWalkingEnergyExpenditure("running", weight, running);
+        }
+
+        let ratio_kilometer = run.getCaloriesPrKilometer() / walk.getCaloriesPrKilometer();
+        let ratio_minute = run.getCaloriesPrMinute() / walk.getCaloriesPrMinute();
+
+        $("#walking-velocity").text(walking + ' km/t');
+        $("#running-velocity").text(running + ' km/t');
+
+        $("#calories_walking_kilometer").val(walk.getCaloriesPrKilometer().toFixed(0));
+        $("#calories_walking_minute").val(walk.getCaloriesPrMinute().toFixed(0));
+        $("#calories_running_minute").val(run.getCaloriesPrMinute().toFixed(0));
+        $("#calories_running_kilometer").val(run.getCaloriesPrKilometer().toFixed(0));
+        $("#ratio_kilometer").val(ratio_kilometer.toFixed(1));
+        $("#ratio_minute").val(ratio_minute.toFixed(1));
     });
     $("#calculator_jump_reach_height").submit(function(e) {
         console.log("Jump Reach test");
@@ -1968,7 +1985,7 @@ $(document).ready(function() {
 	});
 });
 
-},{"../js/bodywater":16,"../js/fatenergypct":24,"../js/hr-intensity":29,"../js/waist":55,"../js/walktest-rockport-16":56,"../js/walktest-sixminutes":57,"../js/wattmax":59,"./1rm":3,"./andersen-test":4,"./beeptest":7,"./beeptest-yyir1":6,"./billat":8,"./blood":9,"./bmi":10,"./bmr-benedict-harris":11,"./bmr-ligevaegt":12,"./bmr-nordic-2012":13,"./bmr-schofield":14,"./bmr-totalenergy-pal":15,"./borg15":17,"./cooper":19,"./cooper-running":18,"./etpunkttest":20,"./fat-pct":23,"./fat-pct-measurements":21,"./fat-pct-navy":22,"./fitness-hr":25,"./fitness-index-23":26,"./fitness-jogging":27,"./how-tall":28,"./ideal-weight":30,"./index100":31,"./inol":32,"./ipf-points":34,"./ipf-points-mcculloch":33,"./jumpreach":35,"./karvonen":36,"./lung":37,"./max-hr":38,"./pushup":39,"./riegel":40,"./running":46,"./running-distance-vo2":41,"./running-economy":42,"./running-walking":44,"./running-walking-energy.js":43,"./running-weightloss":45,"./skinfold-durnin":47,"./skinfold-lohman":48,"./skinfold-peterson":49,"./skinfold-pollock":50,"./skinfold-slaughter":51,"./topunkttest":52,"./vmax":54,"./vmax-intervals":53,"./water-intake":58,"./y-balance":60,"image-map-resizer":1,"wilks-calculator":2}],6:[function(require,module,exports){
+},{"../js/bodywater":16,"../js/fatenergypct":24,"../js/hr-intensity":29,"../js/waist":57,"../js/walktest-rockport-16":58,"../js/walktest-sixminutes":59,"../js/wattmax":61,"./1rm":3,"./andersen-test":4,"./beeptest":7,"./beeptest-yyir1":6,"./billat":8,"./blood":9,"./bmi":10,"./bmr-benedict-harris":11,"./bmr-ligevaegt":12,"./bmr-nordic-2012":13,"./bmr-schofield":14,"./bmr-totalenergy-pal":15,"./borg15":17,"./cooper":19,"./cooper-running":18,"./etpunkttest":20,"./fat-pct":23,"./fat-pct-measurements":21,"./fat-pct-navy":22,"./fitness-hr":25,"./fitness-index-23":26,"./fitness-jogging":27,"./how-tall":28,"./ideal-weight":30,"./index100":31,"./inol":32,"./ipf-points":34,"./ipf-points-mcculloch":33,"./jumpreach":35,"./karvonen":36,"./lung":37,"./max-hr":38,"./pushup":39,"./riegel":40,"./running":48,"./running-distance-vo2":41,"./running-economy":42,"./running-walking":46,"./running-walking-energy.js":43,"./running-walking-leger.js":44,"./running-walking-pandolf.js":45,"./running-weightloss":47,"./skinfold-durnin":49,"./skinfold-lohman":50,"./skinfold-peterson":51,"./skinfold-pollock":52,"./skinfold-slaughter":53,"./topunkttest":54,"./vmax":56,"./vmax-intervals":55,"./water-intake":60,"./y-balance":62,"image-map-resizer":1,"wilks-calculator":2}],6:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.YYIR1 = function(level, shuttles) {
@@ -3960,25 +3977,15 @@ motionsplan.RunningWalkingEnergyExpenditure = function(type, bw, velocity, grade
   let m_pr_min = velocity / 3.6 * 60;
 
   function getASCMWalking() {
-    // formula returns ml/o2/min
+    // formula returns ml/kg/min
     return (0.1 * m_pr_min) + (1.8 * m_pr_min * grade) + 3.5;
   }
 
   function getASCMRunning() {
-    // formula returns ml/o2/min
+    // formula returns ml/kg/min
     return (0.2 * m_pr_min) + (0.9 * m_pr_min * grade) + 3.5;
   }
 
-  function getLegerRunning() {
-    return 2.209 + 3.1633 * velocity;
-  }
-
-  /*
-  function getPandolfWalking(load = 0) {
-    return 1.5 * bw + 2.0 * (bw + load) * Math.pow(bw / load) + n *(bw + load)[1.5V2  0.35VG]
-  }
-  */
-  
   function getCaloriesPrMinute() {
     // ml/kg/min --> L/min = * bw / 1000
     // L/min --> kcal/min = * 5
@@ -4006,6 +4013,82 @@ motionsplan.RunningWalkingEnergyExpenditure = function(type, bw, velocity, grade
 module.exports = motionsplan;
 
 },{}],44:[function(require,module,exports){
+let motionsplan = {};
+
+// grade in decimal form - 5% incline is 0.05
+motionsplan.RunningWalkingEnergyExpenditureLeger = function(bw, velocity) {
+
+  // velocity is in km/t - change to m/s
+  let m_pr_min = velocity / 3.6 * 60;
+
+  // formula returns ml/kg/min
+  function getLegerRunning() {
+    return 2.209 + 3.1633 * velocity;
+  }
+
+  function getCaloriesPrMinute() {
+    // ml/kg/min --> L/min = * bw / 1000
+    // L/min --> kcal/min = * 5
+    return getLegerRunning() * bw / 1000 * 5;
+  }
+  
+  function getCaloriesPrKilometer() {
+    let min_pr_km = 1 / (velocity / 60);
+    return getCaloriesPrMinute() * min_pr_km;
+  }
+
+  let publicAPI = {
+    getCaloriesPrMinute : getCaloriesPrMinute,
+    getCaloriesPrKilometer : getCaloriesPrKilometer
+  };
+
+  return publicAPI;
+};
+
+module.exports = motionsplan;
+
+},{}],45:[function(require,module,exports){
+let motionsplan = {};
+
+// grade in decimal form - 5% incline is 0.05
+motionsplan.RunningWalkingEnergyExpenditurePandolf = function(bw, velocity) {
+
+  // velocity is in km/t - change to m/s
+  let m_pr_min = velocity / 3.6 * 60;
+
+  // returns watt - J/s
+  function getPandolfUnloadedWalking() {
+    let m_pr_sec = velocity / 3.6;
+    return (1.5 * bw + 1.5 * Math.pow(m_pr_sec, 2) * bw);
+    // convert to kcal/min
+  }
+
+/*
+  function getPandolfWalking(load = 0) {
+    return 1.5 * bw + 2.0 * (bw + load) * Math.pow(bw / load) + n *(bw + load)[1.5V2  0.35VG]
+  }
+*/  
+
+  function getCaloriesPrMinute() {
+    return 0.01433075379765 * getPandolfUnloadedWalking();
+  }
+  
+  function getCaloriesPrKilometer() {
+    let min_pr_km = 1 / (velocity / 60);
+    return getCaloriesPrMinute() * min_pr_km;
+  }
+
+  let publicAPI = {
+    getCaloriesPrMinute : getCaloriesPrMinute,
+    getCaloriesPrKilometer : getCaloriesPrKilometer
+  };
+
+  return publicAPI;
+};
+
+module.exports = motionsplan;
+
+},{}],46:[function(require,module,exports){
 let motionsplan = {};
 
 motionsplan.RunningWalking = function(activity, speed, body_weight) {
@@ -4055,7 +4138,7 @@ motionsplan.RunningWalking = function(activity, speed, body_weight) {
 
 module.exports = motionsplan;
 
-},{}],45:[function(require,module,exports){
+},{}],47:[function(require,module,exports){
 let motionsplan = {};
 
 motionsplan.RunningWeightLoss = function(weight, weight_change, effect = 0.8) {
@@ -4100,7 +4183,7 @@ motionsplan.RunningWeightLoss = function(weight, weight_change, effect = 0.8) {
 
 module.exports = motionsplan;
 
-},{}],46:[function(require,module,exports){
+},{}],48:[function(require,module,exports){
 let motionsplan = {};
 
 motionsplan.Running = function() {
@@ -4170,7 +4253,7 @@ motionsplan.Running = function() {
 
 module.exports = motionsplan;
 
-},{}],47:[function(require,module,exports){
+},{}],49:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.SkinfoldDurnin = function(biceps, triceps, suprailiac, subscapularis, weight, gender, age = 20) {
@@ -4252,7 +4335,7 @@ motionsplan.SkinfoldDurnin = function(biceps, triceps, suprailiac, subscapularis
 
 module.exports = motionsplan;
 
-},{}],48:[function(require,module,exports){
+},{}],50:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.SkinfoldLohman = function(sex, triceps, calf) {
@@ -4287,7 +4370,7 @@ motionsplan.SkinfoldLohman = function(sex, triceps, calf) {
 
 module.exports = motionsplan;
 
-},{}],49:[function(require,module,exports){
+},{}],51:[function(require,module,exports){
 let motionsplan = {}
 
 // https://academic.oup.com/ajcn/article/77/5/1186/4689818
@@ -4338,7 +4421,7 @@ motionsplan.SkinfoldPeterson = function(triceps, subscapularis, suprailiac, midt
 
 module.exports = motionsplan;
 
-},{}],50:[function(require,module,exports){
+},{}],52:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.SkinfoldPollock = function(weight, age) {
@@ -4373,7 +4456,7 @@ motionsplan.SkinfoldPollock = function(weight, age) {
 
 module.exports = motionsplan;
 
-},{}],51:[function(require,module,exports){
+},{}],53:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.SkinfoldSlaughter = function(sex, triceps, subscapular) {
@@ -4404,7 +4487,7 @@ motionsplan.SkinfoldSlaughter = function(sex, triceps, subscapular) {
 
 module.exports = motionsplan;
 
-},{}],52:[function(require,module,exports){
+},{}],54:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.ToPunktTest = function(age, weight, max_hr, work1, hr1, work2, hr2) {
@@ -4443,7 +4526,7 @@ motionsplan.ToPunktTest = function(age, weight, max_hr, work1, hr1, work2, hr2) 
 
 module.exports = motionsplan;
 
-},{}],53:[function(require,module,exports){
+},{}],55:[function(require,module,exports){
 let motionsplan = {}
 
 // vo2max i ml
@@ -4479,7 +4562,7 @@ motionsplan.VmaxIntervals = function(vmax, tmax_min, tmax_sec) {
 
 module.exports = motionsplan;
 
-},{}],54:[function(require,module,exports){
+},{}],56:[function(require,module,exports){
 let motionsplan = {};
 
 // vo2max i ml
@@ -4499,7 +4582,7 @@ motionsplan.Vmax = function(vo2max) {
 
 module.exports = motionsplan;
 
-},{}],55:[function(require,module,exports){
+},{}],57:[function(require,module,exports){
 let motionsplan = {}
 
 motionsplan.WaistRatio = function() {
@@ -4522,7 +4605,7 @@ motionsplan.WaistRatio = function() {
 
 module.exports = motionsplan;
 
-},{}],56:[function(require,module,exports){
+},{}],58:[function(require,module,exports){
 let motionsplan = {};
 
 motionsplan.RockPortWalkingTest = function(min, sec, hr, gender, age, weight) {
@@ -4561,7 +4644,7 @@ motionsplan.RockPortWalkingTest = function(min, sec, hr, gender, age, weight) {
 
 module.exports = motionsplan;
 
-},{}],57:[function(require,module,exports){
+},{}],59:[function(require,module,exports){
 let motionsplan = {};
 
 motionsplan.SixMinutesWalkingTest = function(sex, age, height, weight, meter) {
@@ -4617,7 +4700,7 @@ motionsplan.SixMinutesWalkingTest = function(sex, age, height, weight, meter) {
 
 module.exports = motionsplan;
 
-},{}],58:[function(require,module,exports){
+},{}],60:[function(require,module,exports){
 let motionsplan = {};
 
 motionsplan.WaterIntake = function(weight) {
@@ -4642,7 +4725,7 @@ motionsplan.WaterIntake = function(weight) {
 
 module.exports = motionsplan;
 
-},{}],59:[function(require,module,exports){
+},{}],61:[function(require,module,exports){
 let motionsplan = {};
 
 motionsplan.Wattmax = function(wmax, sec, weight, age, watt_jumps = 25) {
@@ -4693,7 +4776,7 @@ motionsplan.Wattmax = function(wmax, sec, weight, age, watt_jumps = 25) {
 
 module.exports = motionsplan;
 
-},{}],60:[function(require,module,exports){
+},{}],62:[function(require,module,exports){
 let motionsplan = {};
 
 motionsplan.YBalance = function(anterior, posterolateral, posteromedial) {

@@ -20,6 +20,8 @@ const vmax_intervals = require('./vmax-intervals');
 const billat = require('./billat');
 const runwalk = require('./running-walking');
 const runwalkenergy = require('./running-walking-energy.js');
+const pandolf = require('./running-walking-pandolf.js');
+const leger = require('./running-walking-leger.js');
 const pushup = require('./pushup');
 const yyir1 = require('./beeptest-yyir1');
 const beeptest = require('./beeptest');
@@ -102,15 +104,26 @@ $(document).ready(function() {
         }
     });
     $("#calculator_running_walking").ready(function() {
-        $(".walk-run-met").hide();
+        $(".walk-met").hide();
+        $(".run-met").hide();
+        $(".met-explanation").hide();
     });
     $("#calculator_running_walking").change(function() {
-        if ($("#formula-running-walking").val() == 'met') {
-            $(".walk-run-met").show();
-            $(".walk-run-ascm").hide();
+        if ($("#formula-energy-running").val() == 'met') {
+            $(".run-met").show();
+            $(".met-explanation").show();
+            $(".run-ascm").hide();
         } else {
-            $(".walk-run-met").hide();
-            $(".walk-run-ascm").show();
+            $(".run-met").hide();
+            $(".run-ascm").show();
+        }
+        if ($("#formula-energy-walking").val() == 'met') {
+            $(".walk-met").show();
+            $(".met-explanation").show();
+            $(".walk-ascm").hide();
+        } else {
+            $(".walk-met").hide();
+            $(".walk-ascm").show();
         }
     });
     $("#calculator_rm").submit(function(e) {
@@ -396,49 +409,53 @@ $(document).ready(function() {
     });
     // Udregn ideal weight
     $("#calculator_running_walking").submit(function(e) {
-        console.log("Running Walking");
+        console.log("Running Walking Energy Expenditure");
         e.preventDefault();
 
         let weight = Number($("[name='weight']").val());
 
-        if ($("#formula-running-walking").val() == 'met') {
+        console.log($("#formula-energy-walking").val());
+        console.log($("#formula-energy-running").val());
 
-            let running = Number($("[name='running']").val());
-            let walking = Number($("[name='walking']").val());
-            
-            console.log(walking + ' ' + running);
-            
-            let run = runwalk.RunningWalking("running", running, weight);
-            let walk = runwalk.RunningWalking("walking", walking, weight);
-            
-            let ratio_kilometer = run.getCaloriesPrKilometer() / walk.getCaloriesPrKilometer();
-            let ratio_minute = run.getCaloriesPrMinute() / walk.getCaloriesPrMinute();
+        let walk;
+        let run;
+        let running;
+        let walking;
 
-            $("#calories_walking_kilometer").val(walk.getCaloriesPrKilometer().toFixed(0));
-            $("#calories_walking_minute").val(walk.getCaloriesPrMinute().toFixed(0));
-            $("#calories_running_minute").val(run.getCaloriesPrMinute().toFixed(0));
-            $("#calories_running_kilometer").val(run.getCaloriesPrKilometer().toFixed(0));
-            $("#ratio_kilometer").val(ratio_kilometer.toFixed(1));
-            $("#ratio_minute").val(ratio_minute.toFixed(1));
-        } else {
-            let running = Number($("[name='run_velocity']").val());
-            let walking = Number($("[name='walk_velocity']").val());
-            
-            console.log(weight + '' + walking + ' ' + running);
-
-            let run = runwalkenergy.RunningWalkingEnergyExpenditure("running", weight, running);
-            let walk = runwalkenergy.RunningWalkingEnergyExpenditure("walking", weight, walking);
-
-            let ratio_kilometer = run.getCaloriesPrKilometer() / walk.getCaloriesPrKilometer();
-            let ratio_minute = run.getCaloriesPrMinute() / walk.getCaloriesPrMinute();
-
-            $("#calories_walking_kilometer").val(walk.getCaloriesPrKilometer().toFixed(0));
-            $("#calories_walking_minute").val(walk.getCaloriesPrMinute().toFixed(0));
-            $("#calories_running_minute").val(run.getCaloriesPrMinute().toFixed(0));
-            $("#calories_running_kilometer").val(run.getCaloriesPrKilometer().toFixed(0));
-            $("#ratio_kilometer").val(ratio_kilometer.toFixed(1));
-            $("#ratio_minute").val(ratio_minute.toFixed(1));
+        if ($("#formula-energy-walking").val() == 'met') {
+            walking = Number($("[name='walking']").val());
+            walk = runwalk.RunningWalking("walking", walking, weight);
+        } else if ($("#formula-energy-walking").val() == 'pandolf') { 
+            walking = Number($("[name='walk_velocity']").val());
+            walk = pandolf.RunningWalkingEnergyExpenditurePandolf(weight, walking);        
+        } else { 
+            walking = Number($("[name='walk_velocity']").val());
+            walk = runwalkenergy.RunningWalkingEnergyExpenditure("walking", weight, walking);
         }
+
+        if ($("#formula-energy-running").val() == 'met') {
+            running = Number($("[name='running']").val());
+            run = runwalk.RunningWalking("running", running, weight);
+        } else if ($("#formula-energy-running").val() == 'leger') {
+            running = Number($("[name='run_velocity']").val());
+            run = leger.RunningWalkingEnergyExpenditureLeger(weight, running);
+        } else {
+            running = Number($("[name='run_velocity']").val());
+            run = runwalkenergy.RunningWalkingEnergyExpenditure("running", weight, running);
+        }
+
+        let ratio_kilometer = run.getCaloriesPrKilometer() / walk.getCaloriesPrKilometer();
+        let ratio_minute = run.getCaloriesPrMinute() / walk.getCaloriesPrMinute();
+
+        $("#walking-velocity").text(walking + ' km/t');
+        $("#running-velocity").text(running + ' km/t');
+
+        $("#calories_walking_kilometer").val(walk.getCaloriesPrKilometer().toFixed(0));
+        $("#calories_walking_minute").val(walk.getCaloriesPrMinute().toFixed(0));
+        $("#calories_running_minute").val(run.getCaloriesPrMinute().toFixed(0));
+        $("#calories_running_kilometer").val(run.getCaloriesPrKilometer().toFixed(0));
+        $("#ratio_kilometer").val(ratio_kilometer.toFixed(1));
+        $("#ratio_minute").val(ratio_minute.toFixed(1));
     });
     $("#calculator_jump_reach_height").submit(function(e) {
         console.log("Jump Reach test");

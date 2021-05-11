@@ -22,6 +22,8 @@ Det er umuligt at finde et godt svar på, om man forbrænder flere kalorier elle
 
 Da jeg undersøgte emnet nærmere stødte jeg hele tiden på [påstanden](https://vorespuls.dk/gang/artikler/gaa-eller-loeb-du-forbraender-lige-meget), at man forbrænder lige meget uanset om man løber eller går.
 
+Det gør man ikke!
+
 Så lad os kigge på, hvordan det i virkeligheden hænger sammen med energiforbruget og forbrændingen af kalorier, når man går og løber. Lad os besvare spørgsmålene: "Hvor meget forbrænder man ved at gå?" og "Hvor meget forbrænder man ved at løbe?".
 
 ## Skal hvilestofskiftet regnes med?
@@ -60,7 +62,7 @@ Så yderpunkterne i diskussionen er altså følgende:
 - at vi forbrænder det samme eller
 - at vi forbrænder op til 2-4 gange så meget ved at løbe i forhold til at gå.
 
-Morten Zacho skriver ikke nøjagtigt, hvilke hastigheder af gang og løb han sammenligner i forhold til forbrænding for at skrive ovenstående.
+Morten Zacho skriver ikke nøjagtigt, hvilke hastigheder af gang og løb han sammenligner i forhold til forbrænding for at konkludere ovenstående.
 
 Men lad os kigge på, hvordan man udregner forbrændingen ved løb og gang.
 
