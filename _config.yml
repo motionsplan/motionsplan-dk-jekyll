@@ -242,6 +242,7 @@ plugins:
   - jemoji
   - jekyll-redirect-from
   - jekyll-include-cache
+  - jekyll-gzip
 
 
 # mimic GitHub Pages with --safe
