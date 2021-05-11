@@ -257,7 +257,9 @@ For at besvare spørgsmålet: "Hvor høj er kalorieforbrænding ved gang?" og "H
 
 Du kan selv lege lidt med beregneren, men det sker først med en større forskel mellem at gang-hastighed og løbehastighed, at forskellen bliver så stor.
 
-Hvis vi kigger på udsagnet om, at man pr. kilometer forbrænder dobbelt så meget ved at løbe som ved at gå, så kan jeg ikke finde nogen kombinationer af hastigheder, hvor det sker. Typisk ligger ratioen under 1,5 - og ratioen bliver mindre, desto hurtigere du løber.
+Hvis vi kigger på udsagnet om, at man pr. kilometer forbrænder dobbelt så meget ved at løbe som ved at gå, så kan jeg ikke finde nogen kombinationer af hastigheder for løb og gang, hvor det sker. Typisk ligger ratioen under 1,5.
+
+Det kunne være interessant med en model, som mere præcist kan fremskrive energiforbrug over længere distancer (end 1600 meter), ændringerne i løbestil ved forskellige hastigheder og ændringer i substratforbrug og effektivitet i energiomsætningen.
 
 Jeg har lavet en tabel med [MET-værdier]({% link _posts/2020-07-24-met.md %}), og hvis du er interesseret i at læse mere om, [forbrænding ved cykling](https://www.cykel-ruter.dk/cykling-kalorier/), så har jeg skrevet lidt om det emne på cykel-ruter.dk.
 
