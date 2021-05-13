@@ -43,7 +43,6 @@ const bmr_equilibrium = require('./bmr-ligevaegt');
 const ree = require('./bmr-nordic-2012');
 const bmi = require('./bmi');
 const idealweight = require('./ideal-weight');
-const wilks = require('wilks-calculator');
 const karvonen = require('./karvonen');
 const index23 = require('./fitness-index-23');
 const running = require('./running');
@@ -62,6 +61,7 @@ const whr = require('../js/waist');
 const tbw = require('../js/bodywater');
 const wattmax = require('../js/wattmax');
 const hr_intensity = require('../js/hr-intensity');
+const wilks = require('wilks-calculator');
 require('image-map-resizer');
 
 $(document).ready(function() {

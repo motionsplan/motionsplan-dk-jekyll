@@ -1,5 +1,6 @@
 ---
 title: "De fem tibetanere 🧘: Komplet guide til de 5 yoga øvelser"
+seo_title: "De fem tibetanere • Komplet guide til de 5 yoga øvelser »"
 description: "Lær de 5 tibetanere med video og billeder ✓ Yogaøvelser der kan laves på 20 minutter ✓ Giver øvelserne evig ungdom? ✓ Komplet guide ✓ Print øvelserne ud!"
 permalink: /artikel/de-fem-tibetanere/
 language: da
