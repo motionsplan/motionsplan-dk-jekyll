@@ -223,7 +223,7 @@ Her har jeg lavet fire forskellige eksempler på træningsprogrammer, du kan lav
 
 - 50 min roligt jog
 
-## Andre forslag træningsprogrammer til hjemmetræning
+## Andre træningsprogrammer til hjemmetræning
 
 Når du træner til politiets optagelsesprøve, så gælder det om at være i generelt god form. Du kan bygge din træning op på mange forskellige måder.
 
