@@ -63,7 +63,22 @@ const wattmax = require('../js/wattmax');
 const hr_intensity = require('../js/hr-intensity');
 const wilks = require('wilks-calculator');
 require('image-map-resizer');
+// Defer loading of hero images
+$(document).ready(function(){
+    $('div[data-src]').each(function() {
 
+        var lazy = $(this);
+        var src = lazy.attr('data-src');
+        var filter = lazy.attr('data-filter');
+        if (filter) {
+            lazy.css('background-image', filter+', url("'+src+'")');
+        } else {
+            lazy.css('background-image', 'url("'+src+'")');
+        }
+        lazy.removeAttr('data-src');
+        lazy.removeAttr('data-filter');
+    });
+});
 $(document).ready(function() {
     $('map').imageMapResize();
 
