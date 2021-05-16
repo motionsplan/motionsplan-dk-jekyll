@@ -217,7 +217,16 @@ Efterforbrændingen for løb kan være helt op til fem minutter længere end ved
 
 Der var altså en efterforbrænding på gang på 91 kilojoule (~22 kcal) og en efterforbrænding på løb på 193 kilojoule (~46 kcal). Efterforbrændingen var altså i alt 2,1 gang så høj ved løb.
 
-De 24 kalorier i forskel er dog i praksis ikke så meget, men det er også på en ret kort gåtur og løbetur.
+De 24 kalorier i forskel er dog i praksis ikke så meget, men det er også på en ret kort gåtur og løbetur. Samlet i en tabel synes jeg forskellene bliver rimelig klare mellem at gå og løbe.
+
+| | Gang | Løb |
+|-|-|-|
+| Distance | 1600 meter | 1600 meter |
+| Hastighed | 5.16 | 9.6 |
+| Tidsforbrug | 18:36 | 10:00 |
+| Energiforbrug kJ | 372.54 | 471.03 |
+| Efterforbrænding kJ | 91 | 193 |
+| Totalt energiforbrug kJ | 463.34 | 664.00 |
 
 Wilkin et al (2012) fandt at efterforbrændingen for gang faldt til hvileniveau 10 minutter efter aktiviteten, mens det tog 15 minutter for løb.
 
