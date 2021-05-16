@@ -415,6 +415,12 @@ $(document).ready(function() {
         $("#secs400").val(iw.getTimePr400Meter3min());
     });
     // Udregn ideal weight
+    $("[name='peterson_target_bmi']").change(function() {
+        $("#calculator_idealweight").submit();
+    });
+    $("[name='zacho_target_bmi']").change(function() {
+        $("#calculator_idealweight").submit();
+    });
     $("#calculator_idealweight").submit(function(e) {
         console.log("Idealweight");
         e.preventDefault();
@@ -423,12 +429,31 @@ $(document).ready(function() {
         let height = Number($("[name='height']").val());
 
         let iw = idealweight.IdealWeight(height, sex);
-        $("[name='idealweight_robinson']").val(iw.getRobinson().toFixed(2));
-        $("[name='idealweight_miller']").val(iw.getMiller().toFixed(2));
-        $("[name='idealweight_hamwi']").val(iw.getHamwi().toFixed(2));
-        $("[name='idealweight_devine']").val(iw.getDevine().toFixed(2));
-        $("[name='idealweight_peterson']").val(iw.getPeterson().toFixed(2));
-        $("[name='idealweight_bmi_bodytype']").val(iw.getIdealWeightBasedOnBmiAndBodytype(Number($("[name='bodytype']").val())).toFixed(2));
+
+        if ($("[name='zacho_target_bmi']").val() == '') {
+           if (iw.isMale()) {
+                $("[name='zacho_target_bmi']").val(24.5);
+            } else {
+                $("[name='zacho_target_bmi']").val(22.5);
+            }
+        }
+
+        let target_bmi = Number($("[name='peterson_target_bmi']").val());
+        let zacho_bmi = Number($("[name='zacho_target_bmi']").val());
+        let bodytype = Number($("[name='bodytype']").val());
+
+        $("[name='idealweight_robinson']").val(iw.getRobinson().toFixed(1));
+        $("[name='idealweight_miller']").val(iw.getMiller().toFixed(1));
+        $("[name='idealweight_hamwi']").val(iw.getHamwi().toFixed(1));
+        $("[name='idealweight_devine']").val(iw.getDevine().toFixed(1));
+        $("[name='idealweight_peterson']").val(iw.getPeterson(target_bmi).toFixed(1));
+        $("[name='idealweight_zacho']").val(iw.getIdealWeightBasedOnBMI(zacho_bmi).toFixed(1));
+        $("[name='idealweight_robinson_bodytype']").val((iw.getRobinson()*bodytype).toFixed(1));
+        $("[name='idealweight_miller_bodytype']").val((iw.getMiller()*bodytype).toFixed(1));
+        $("[name='idealweight_hamwi_bodytype']").val((iw.getHamwi()*bodytype).toFixed(1));
+        $("[name='idealweight_devine_bodytype']").val((iw.getDevine()*bodytype).toFixed(1));
+        $("[name='idealweight_peterson_bodytype']").val((iw.getPeterson(target_bmi)*bodytype).toFixed(1));
+        $("[name='idealweight_zacho_bodytype']").val((iw.getIdealWeightBasedOnBMI(zacho_bmi)*bodytype).toFixed(1));
     });
     // Udregn ideal weight
     $("#calculator_running_walking").submit(function(e) {

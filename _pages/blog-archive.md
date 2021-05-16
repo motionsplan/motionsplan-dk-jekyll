@@ -7,6 +7,8 @@ excerpt: "Motionsplan.dk blog er for os der træner og gerne vil blive klogere p
 title: Motionsplans blog
 classes: wide
 author_profile: true
+blog:
+  - excerpt: '[Se blogindlæg efter kategori](/blog/){: .btn .btn--large .btn--success }'
 ---
 
 <h2>Seneste opdateringer på Motionsplans blog</h2>
@@ -23,5 +25,4 @@ author_profile: true
 
 </div>
 
-
-Du kan også se [blogindlæggene efter kategori](/categories/).
+{% include feature_row id="blog" type="center" %}

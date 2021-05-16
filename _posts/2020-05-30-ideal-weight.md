@@ -8,7 +8,6 @@ header:
   caption: *title
   overlay_filter: 0.1
 category:
-  - Viden om
   - Beregner
 tags:
   - vægt
@@ -35,9 +34,9 @@ I gennem forskellige studier har der været virkelig mange forskellige bud på, 
 
 Udregning af idealvægt tager typisk udgangspunkt i dit køn og din højde. Devine (1974), Miller (1983), Hamwi (1964) og Robinson (1983) har alle foreslået formler for idealvægten.
 
-Disse formler for idealvægt tager udelukkende udgangspunkt i om du er mand og kvinde og din højde. Formlerne og udregningerne tager altså ikke højde for kropsbygning og muskelmasse.
+Disse formler for idealvægt tager udelukkende udgangspunkt i, om du er mand og kvinde og din højde. Formlerne og udregningerne tager altså ikke højde for kropsbygning og muskelmasse.
 
-Formlerne fra Devine (1974), Miller (1983), Hamwi (1964) og Robinson (1983) er henvendt til mennesker, der er højere end 152 cm høje.
+Formlerne fra Devine (1974), Miller (1983), Hamwi (1964) og Robinson (1983) er beregnet til mennesker, der er højere end 152 cm høje.
 {: .notice .notice--info }
 
 ## Petersons universelle formel for idealvægt baseret på BMI
@@ -45,6 +44,8 @@ Formlerne fra Devine (1974), Miller (1983), Hamwi (1964) og Robinson (1983) er h
 Peterson et al (2016) har forbedret formlen for Devine (1974). Peterson et al (2016) fandt at Devine-formlen underestimerede kropsvægten for dem, der ikke var så høje, mens de overestimerede højden for de højere.
 
 Derfor foreslår Peterson et al (2016) at basere idealvægten på et _target BMI_. Som Devine (1974), så kan formlerne kun bruges for mennesker, der er højere end 152 cm.
+
+Peterson et al (2016) foreslår følgende formel. Med Lemmens (2005) har jeg valgt at bruge en target BMI på 22.
 
 ***
 
@@ -54,11 +55,15 @@ Ideal Weight (kg) = 2.2 x BMI<sub>target</sub> + 3.5 x BMI<sub>target</sub> x (H
 
 ## Udregn idealvægt baseret på BMI og kropstype
 
-Morten Zacho har foreslået, at [basere idealvægten på Body Mass Index (BMI)](https://web.archive.org/web/20160808221414/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/beregn_din_idealvaegt/){:rel="nofollow"}. Morten Zacho konkluderer, at videnskaben understøtter at et optimalt BMI er på omkring 22,5 for kvinder og 24,5 for mænd for at opleve det længste liv med færrest sygdomme. Jeg har forklaret rationalet bag i indlægget om [Body Mass Index (BMI), som også har en BMI-beregner](/bmi/).
+Morten Zacho har også foreslået, at [basere idealvægten på Body Mass Index (BMI)](https://web.archive.org/web/20160808221414/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/beregn_din_idealvaegt/){:rel="nofollow"}.
+
+Morten Zacho konkluderer, at videnskaben understøtter at et optimalt BMI er på omkring 22,5 for kvinder og 24,5 for mænd for at opleve det længste liv med færrest sygdomme. Jeg har forklaret rationalet bag i indlægget om [Body Mass Index (BMI), som også har en BMI-beregner](/bmi/).
+
+Når man skal udregne idealvægten for kvinder, så skal du altså bruge BMI på 22,5 og for mænd et BMI på 24,5 for at finde idealvægten. 
 
 ## Hvor stor er usikkerheden på idealvægt?
 
-> I de fleste undersøgelser øges risikoen kun ganske let selv om BMI-værdien ligger et par BMI-point fra det optimale. Det betyder i praksis, at hvis din reelle vægt ligger indenfor +/- 6 kg af idealvægten, så er det stadigt indenfor det optimale område.
+> I de fleste undersøgelser øges risikoen kun ganske let selv om BMI-værdien ligger et par BMI-point fra det optimale. Det betyder i praksis, at hvis din reelle vægt ligger indenfor +/- 6 kg af idealvægten, så er det stadig indenfor det optimale område.
 
 --- <cite>[Morten Zacho](https://web.archive.org/web/20160808221414/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/beregn_din_idealvaegt/){:rel="nofollow"}</cite>
 
@@ -90,6 +95,9 @@ På mange punkter er det ærgerligt, at idealvægt fylder så meget for mange me
 
 ## Referencer om idealvægt for mænd og kvinder
 
+<details markdown="1">
+  <summary>Se referencer for idealvægt for kvinder og mænd</summary>
+
 - Adams, Kenneth F., Arthur Schatzkin, Tamara B. Harris, Victor Kipnis, Traci Mouw, Rachel Ballard-Barbash, Albert Hollenbeck, og Michael F. Leitzmann. 2006. “Overweight, Obesity, and Mortality in a Large Prospective Cohort of Persons 50 to 71 Years Old”. The New England Journal of Medicine 355 (8): 763–78. <https://doi.org/10.1056/NEJMoa055643>.
 - Berrington de Gonzalez, Amy, Patricia Hartge, James R. Cerhan, Alan J. Flint, Lindsay Hannan, Robert J. MacInnis, Steven C. Moore, m.fl. 2010. “Body-Mass Index and Mortality among 1.46 Million White Adults”. The New England Journal of Medicine 363 (23): 2211–19. <https://doi.org/10.1056/NEJMoa1000367>.
 - Calle, E. E., M. J. Thun, J. M. Petrelli, C. Rodriguez, og C. W. Heath. 1999. “Body-Mass Index and Mortality in a Prospective Cohort of U.S. Adults”. The New England Journal of Medicine 341 (15): 1097–1105. <https://doi.org/10.1056/NEJM199910073411501>.
@@ -99,3 +107,4 @@ På mange punkter er det ærgerligt, at idealvægt fylder så meget for mange me
 - Prospective Studies Collaboration, Gary Whitlock, Sarah Lewington, Paul Sherliker, Robert Clarke, Jonathan Emberson, Jim Halsey, Nawab Qizilbash, Rory Collins, og Richard Peto. 2009. “Body-Mass Index and Cause-Specific Mortality in 900 000 Adults: Collaborative Analyses of 57 Prospective Studies”. Lancet (London, England) 373 (9669): 1083–96. <https://doi.org/10.1016/S0140-6736(09)60318-4>.
 - Ruff, C. B. 2000. “Body Mass Prediction from Skeletal Frame Size in Elite Athletes”. American Journal of Physical Anthropology 113 (4): 507–17. <https://pubmed.ncbi.nlm.nih.gov/11102884/>.
 - Wong, Edwin S., Bruce C. M. Wang, Louis P. Garrison, Rafael Alfonso-Cristancho, David R. Flum, David E. Arterburn, og Sean D. Sullivan. 2011. “Examining the BMI-Mortality Relationship Using Fractional Polynomials”. BMC Medical Research Methodology 11 (december): 175. <https://doi.org/10.1186/1471-2288-11-175>.
+</details>
