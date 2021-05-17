@@ -30,7 +30,7 @@ coords:
   - "105,242,108,259,115,287,116,303,110,321,110,329,103,328,101,318,97,306,95,274"
 ---
 
-"quadriceps," "quads" - the rectus femoris muscle forms part of the quadriceps femoris muscle group, along with vastus lateralis, vastus medialis, and vastus intermedius (vastus intermedius is not shown in the muscle anatomy section since it is located below rectus femoris).
+Denne muskel er en del af den [firehovede knæstrækker - eller quadriceps femoris]({% link _anatomy/quadriceps-femoris.md %}). Den firehovede knæstrækker består af fire muskler. Yderst ligger [vastus lateralis]({% link _anatomy/vastus-lateralis.md %}) og inderst ligger [vastus medialis]({% link _anatomy/vastus-medialis.md %}). Inderst lever [vastus intermedius]({% link _anatomy/vastus-intermedius.md %}) et ret ubemærket liv, fordi [rectus femoris]({% link _anatomy/rectus-femoris.md %}) er forrest på låret og dækker over musklen.
 
 _{{ page.name.latin }}_
 

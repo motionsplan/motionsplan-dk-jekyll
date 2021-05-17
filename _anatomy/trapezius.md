@@ -1,16 +1,17 @@
 ---
-title: "Trapezius"
+title: "Kapppemusklen - Trapezius"
 group:
   - Ryg
 name:
   latin: "Trapezius"
+  da: "Kappemusklen"
 tags:
   - imagemap
   - muskel
-origin: 
-  da: 
-insertion: 
-  da: 
+#origin: 
+#  da: Nakkehvirvlen og nakkebåndet. Desuden torntappene fra 6. halshvirvel til 12. brysthvirvel
+#insertion: 
+#  da: "Øverste del: Yderste del af kravebenet. Midterste del: Skulderhøjden og øverste rand af skulderkammen. Nederste del: Inderste del af skulderkammen."
 function:
   da:
     - short: Elevates the scapula.
@@ -37,11 +38,17 @@ _{{ page.name.latin }}_
 
 {% include figure image_path=page.image alt=page.title caption=page.title %}
 
-## Funktion
+## Funktion for {{ page.title }}
 
 {% for f in page.function.da %}
 - **{{ f.short }}**.
   {{ f.extended | markdownify }}
 {% endfor %}
+
+## Træning af {{ page.title }}
+
+Her er en nem og effektiv øvelse til for trapezius (kappemusklen). Øvelsen er også god til at styrke øvre ryg. Brug en elastik eller evt. en håndvægt til øvelsen.
+
+{% include video provider="youtube" id="AYOTS-L4_Wg" %}
 
 {% include figure image_path=page.image_focus alt=page.title caption=page.title %}
