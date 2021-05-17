@@ -1,7 +1,10 @@
 ---
 title: "Kondition: Hvad er et godt, højt kondital? [Tabel] 💗"
 permalink: /kondital/
-seo_title: Hvad er et godt kondital for mænd, kvinder og børn? [Tabel]
+seo_title: "Kondition: Hvad er et godt, højt kondital? [Tabel]"
+# Kondition: Hvad er et godt, højt kondital? [Tabel] 💗
+# Better than Kondital • Hvad er godt for mænd, kvinder og børn [Tabel] »
+# Better than Hvad er et godt kondital for mænd, kvinder og børn? [Tabel]
 description: Hvad er et godt, højt kondital? ✓ Se kondital for mænd, kvinder,
   teenagere og børn i en samlet tabel og skema ✓ Lige til at printe ud!
 excerpt: Hvad er et godt, højt kondital og hvordan finder du det? Se kondital
