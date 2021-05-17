@@ -51,4 +51,6 @@ Her er en nem og effektiv øvelse til for trapezius (kappemusklen). Øvelsen er 
 
 {% include video provider="youtube" id="AYOTS-L4_Wg" %}
 
-{% include figure image_path=page.image_focus alt=page.title caption=page.title %}
+{% if page.image_focus %}
+  {% include figure image_path=page.image_focus alt=page.title caption=page.title %}
+{% endif %}

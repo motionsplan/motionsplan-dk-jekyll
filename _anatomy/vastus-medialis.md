@@ -43,5 +43,5 @@ _{{ page.name.latin }}_
 {% endfor %}
 
 {% if page.image_focus %}
-{% include figure image_path=page.image_focus alt=page.title caption=page.title %}
+  {% include figure image_path=page.image_focus alt=page.title caption=page.title %}
 {% endif %}
