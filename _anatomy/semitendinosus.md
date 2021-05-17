@@ -4,6 +4,7 @@ group:
   - Ben
 name:
   latin: "Semitendinosus"
+  da: "Halvtrinde knæbøjer"
 tags:
   - imagemap
   - fitnessinstruktør

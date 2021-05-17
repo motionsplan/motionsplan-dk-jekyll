@@ -38,11 +38,15 @@ _{{ page.name.latin }}_
 
 {% include figure image_path=page.image alt=page.title caption=page.title %}
 
-## Funktion
+## Funktion for {{ page.title }}
 
 {% for f in page.function.da %}
 - **{{ f.short }}**.
   {{ f.extended | markdownify }}
 {% endfor %}
+
+## Træning af {{ page.title }}
+
+{% include video provider="youtube" id="gF1BbANYWGs" %}
 
 {% include figure image_path=page.image_focus alt=page.title caption=page.title %}
