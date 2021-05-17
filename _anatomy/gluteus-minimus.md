@@ -4,6 +4,7 @@ group:
   - Hofte
 name:
   latin: "Gluteus Minimus"
+  da: "Den lille sædemuskel"
 tags:
   - fitnessinstruktør
   - muskel

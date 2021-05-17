@@ -2,6 +2,7 @@
 title: "Bred rygmuskel"
 name:
   latin: "Latissimus Dorsi"
+  da: "Bred rygmuskel"
 tags:
   - imagemap
   - fitnessinstruktør

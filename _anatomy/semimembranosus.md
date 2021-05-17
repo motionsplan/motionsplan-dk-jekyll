@@ -4,6 +4,7 @@ group:
   - Ben
 name:
   latin: "Semimembranosus"
+  da: "Halvsenede knæbøjer"
 tags:
   - imagemap
   - fitnessinstruktør

@@ -4,6 +4,7 @@ group:
   - Ben
 name:
   latin: Biceps Femoris
+  da: "Den tohovedede knæbøjer"
 tags:
   - imagemap
   - fitnessinstruktør

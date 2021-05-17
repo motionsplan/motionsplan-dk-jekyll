@@ -4,6 +4,7 @@ group:
   - Ben
 name:
   latin: "Gluteus Maximus"
+  da: "Den store sædemuskel"
 tags:
   - imagemap
   - fitnessinstruktør

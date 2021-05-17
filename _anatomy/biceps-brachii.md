@@ -45,3 +45,19 @@ coords:
   - 193,120,209,132,223,143,230,159,229,170,216,167,202,149
   - 65,167,74,166,85,149,90,135,94,116,77,127,67,138,64,156
 ---
+
+_{{ page.name.latin }}_
+
+- **Udspring**: {{ page.origin.da }}
+- **Hæfte**: {{ page.insertion.da }}
+
+{% include figure image_path=page.image alt=page.title caption=page.title %}
+
+## Funktion for {{ page.title }}
+
+{% for f in page.function.da %}
+- **{{ f.short }}**.
+  {{ f.extended | markdownify }}
+{% endfor %}
+
+{% include figure image_path=page.image_focus alt=page.title caption=page.title %}

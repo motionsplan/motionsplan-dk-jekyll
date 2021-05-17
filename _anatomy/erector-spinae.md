@@ -2,6 +2,7 @@
 title: "Rygstrækkere"
 name:
   latin: "Erector Spinae"
+  da: "Rygstrækkere"
 group:
   - Ryg
 tags:

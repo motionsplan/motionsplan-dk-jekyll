@@ -4,6 +4,7 @@ group:
   - Mave
 name:
   latin: "Rectus Abdominis"
+  da: "Lige mavemuskel"
 tags:
   - imagemap
   - fitnessinstruktør

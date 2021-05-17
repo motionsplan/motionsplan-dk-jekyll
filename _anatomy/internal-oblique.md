@@ -4,6 +4,7 @@ group:
   - Mave
 name:
   latin: "Internal Oblique"
+  da: "Indre skrå mavemsukel"
 tags:
   - imagemap
   - fitnessinstruktør

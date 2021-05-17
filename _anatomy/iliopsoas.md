@@ -2,6 +2,7 @@
 title: "Hoftebøjeren"
 name:
   latin: "Iliopsoas"
+  da: "Hoftebøjeren"
 tags:
   - fitnessinstruktør
   - muskel

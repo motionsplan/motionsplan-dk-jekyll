@@ -2,6 +2,7 @@
 title: "Skuldermuskel"
 name:
   latin: Deltoideus
+  da: "Skuldermuskel"
 category:
   - Skulder
 group:

@@ -4,6 +4,7 @@ group:
   - Ben
 name:
   latin: "Gluteus Medius"
+  da: "Den mellemste sædemuskel"
 tags:
   - imagemap
   - fitnessinstruktør

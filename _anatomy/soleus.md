@@ -4,6 +4,7 @@ group:
   - Ben
 name:
   latin: "Soleus"
+  da: "Flyndermusklen"
 tags:
   - imagemap
   - fitnessinstruktør

@@ -4,6 +4,7 @@ group:
   - Mave
 name:
   latin: External Oblique
+  da: "Ydre skrå mavemuskel"
 tags:
   - imagemap
   - fitnessinstruktør

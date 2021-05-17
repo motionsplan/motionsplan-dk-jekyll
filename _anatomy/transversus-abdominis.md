@@ -4,6 +4,7 @@ group:
   - Mave
 name:
   latin: "Transversus Abdominis"
+  da: Bugpressen
 tags:
   - fitnessinstruktør
   - muskel

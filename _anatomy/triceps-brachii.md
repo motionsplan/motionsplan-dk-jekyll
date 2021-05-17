@@ -1,7 +1,8 @@
 ---
-title: Trehovede armstrækker
+title: Trehovede armstrækker - Triceps
 name:
   latin: Triceps Brachii
+  da: Trehovede armstrækker
 group:
   - Arme
 joint:
