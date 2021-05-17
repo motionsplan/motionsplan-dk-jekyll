@@ -42,7 +42,7 @@ feature_row_books:
 
 Din vejrtrækning kan forbedres gennem åndedrætstræning. Når man lærer at trække vejret optimalt kan det have indflydelse på dit energiniveau, stressniveau og restitution. Det kan helt sikkert betale sig at lave øvelser med åndedrætstræning for langt de fleste mennesker.
 
-Hvad er åndedrætstræning? **Åndedrætstræning er når du gennem fokuseret arbejde med vejrtrækningen træner åndedrættet. Du arbejder både med åndedrætsmusklerne, men også med rytmen i vejrtrækningen for bevidst at prøve at påvirke kroppens funktion.**
+Hvad er åndedrætstræning? **Åndedrætstræning er når du gennem fokuseret arbejde med vejrtrækningen og åndedrætsøvelser træner åndedrættet. Du arbejder både med åndedrætsmusklerne, men også med rytmen i vejrtrækningen for bevidst at prøve at påvirke kroppens funktion.**
 
 I det følgende kan du læse lidt mere om åndedrætstræning og se nogle eksempler på øvelser til åndedrættet.
 
@@ -117,11 +117,15 @@ Denne øvelse til vejrtrækningen skriver [Mindhelper](https://mindhelper.dk/men
 
 {% include video provider="youtube" id="hQRVGn5yuU4" %}
 
+## Lisbeth Lysdals åndedrætsøvelser
+
+Lisbet Lysdal præsenterer tre øvelser, som er med til at give bedre velvære. Hun [skriver](https://liseboegsted.dk/blog/dit-aandedraet-har-betydning-for-kropsligt-velvaere-og-stress-niveau) at <q>Dit åndedræt har betydning for kropsligt velvære og for dit stressniveau</q>.
+
 ## Åndedrætstræning er kommet for at blive
 
 Det er helt sikkert værd at tænke meget mere over åndedrættet i hverdagen. Åndedrætstræning og fokus på vejrtrækningen har altid været en stor del af fx yoga og [mindfulness]({% link _posts/2010-10-05-mindfullness-meditation.md %}), men heldigvis er flere og flere ved at få øjnene op for åndedrættet som en væsentlig del af vores velbefindende, men også vores præstationer.
 
-## Bøger om vejrtrækning og åndedrættet
+## Bøger om vejrtrækning, åndedrætsøvelser og åndedrættet
 
 Jeg har fundet nogle ret gode bøger om åndedrættet og vejrtrækning her.
 
@@ -133,6 +137,6 @@ Dr. Cobb anbefaler en åndedrætstræner til at arbejde med din vejrtrækning. D
 
 {% include feature_row type="left" %}
 
-## Referencer om åndedrætstræning
+## Referencer om åndedrætstræning og åndedrætsøvelser
 
 - [Cobb: Improve Endurance in 7 minutes a day](https://zhealtheducation.com/blog/episode-109-improve-endurance-in-7-minutes-a-day/)
