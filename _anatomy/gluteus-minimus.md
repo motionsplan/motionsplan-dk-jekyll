@@ -1,7 +1,10 @@
 ---
 title: "Den lille sædemuskel"
+group:
+  - Hofte
 name:
   latin: "Gluteus Minimus"
+  da: "Den lille sædemuskel"
 tags:
   - fitnessinstruktør
   - muskel
@@ -25,11 +28,7 @@ function:
       extended: ""
     - short: Udadrotation i hoften
       extended: ""
-exercises:
-  - Stående calf-raise
 image: https://www.yoganatomy.com/wp-content/uploads/2018/05/gluteus-minimus-muscle-1.png
-image_focus: 
-
 ---
 
 _{{ page.name.latin }}_

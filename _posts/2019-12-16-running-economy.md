@@ -1,7 +1,11 @@
 ---
-title: "Beregn din løbeøkonomi: Løbeteknik er en vigtig faktor 🏃"
-permalink: /lobeokonomi/
-excerpt: "En god løbeøkonomi er evnen til at holde høj fart i lang tid ved et minimalt energiforbrug. Du får en definition af løbeøkonomi og at vide, hvorda du beregner løbeøkonomien."
+title: "Beregn din løbeøkonomi: 4 tips til træning af løbeøkonomi 🏃"
+seo_title: "Hvordan forbedrer jeg min løbeøkonomi? 4 tips til træning!"
+description: "Hvad er løbeøkonomi, og hvordan beregner du din løbeøkonomi. Komplet guide til hvordan du forbedrer din løbeøkonomi - og 4 tips til din træning."
+permalink: /lobeokonomi/ 
+redirect_from:
+  - /artikel/eksplosiv-traening-goer-dig-hurtigere-paa-5-km/
+excerpt: "En god løbeøkonomi er evnen til at holde høj fart ved et minimalt energiforbrug. Du får en definition af løbeøkonomi, en beregner og tips til, hvordan du forbedrer og træner din løbeøkonomi."
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80
@@ -14,7 +18,11 @@ category:
 tags:
   - beregnere
   - løbeøkonomi
-last_modified_at: 2020-08-01T23:14:14Z
+  - styrketræning
+  - løb
+  - kondition
+  - intervaltræning
+last_modified_at: 2021-04-29T17:14:14Z
 toc: true
 feature_row:
   - image_path: https://imgcdn.saxo.com/_9781782551096/0x500
@@ -24,7 +32,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/secret-of-running_hans-van-dijk_paperback_9781782551096"
     btn_label: "Se prisen*"
     btn_class: "btn--success"
-  - image_path: https://cdn6.tales.dk/00001/70394/cover.1568203219.jpg
+  - image_path: https://cdn6.tales.dk/00001/70394/cover.1612526420.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390
     title: "Løb som eliten"
     excerpt: "Claus Hechmanns bog LØB SOM ELITEN er handler om, hvordan du skal træne for at blive en hurtigere løber og få mest muligt ud af dit potentiale og har fine betragninger om løbeøknomomi. Bogen indeholder fem specialdesignede 12-ugers programmer til distancerne 5 km, 10 km og helt op til maraton."
@@ -52,7 +60,7 @@ Forbrug af ilt er ofte den mest direkte begrænsende faktor i løb, når vi kigg
 
 Der er tre testbare faktorer, der udgør præstationsevnen, når man løber, og løbeøkonomien er en af dem:
 
-- Den **maksimale iltoptagelse** - VO<sub>2</sub>max - eller vores [kondital]({% link _posts/2019-11-04-kondital-og-tabel.md %}).
+- Den **[maksimale iltoptagelse]({% link _posts/2019-11-03-intensiteten-og-vo2max.md %})** - VO<sub>2</sub>max - eller vores [kondital]({% link _posts/2019-11-04-kondital-og-tabel.md %}).
 - **Løbeøkonomien**
 - Evnen til at **løbe med en så høj procentdel af VO<sub>2</sub>max som muligt** over hele distancen, hvilket også kan fortolkes som udholdenheden eller evnen til at løbe omkring den anaerobe tærskel.
 
@@ -193,7 +201,7 @@ Vi kan konkludere følgende om løbeøkonomi:
 - Der er mange faktorer der spiller ind på løbeøkonomien – og de fleste kan optimeres.
 - Det er svært at lave sikre målinger af forbedringer og det kræver et laboratorium.
 
-## Hvad så med løbeøkonomien og løbeteknikken?
+## Hvordan hænger løbeøkonomi og løbeteknik sammen?
 
 Du kan altså arbejde med løbeøkonomien ved at forbedre din teknik, så kan du altså arbejde med følgende parametre. Der er virkelig meget at hente.
 
@@ -206,7 +214,11 @@ Du kan altså arbejde med løbeøkonomien ved at forbedre din teknik, så kan du
 
 Alle disse punkter hænger sammen med din [løbestil og løbeteknik, som jeg har skrevet et indlæg om her]({% link _posts/2020-08-16-loebeteknik.md %}).
 
-## Træning af løbeøkonomien
+## Hvordan kan jeg forbedre min løbeøkonomi?
+
+Det kan sagtens betale sig at træne sin løbeøkonomi. Her er nogle gode tips til, hvordan du kan forbedre din løbeøkonomi:
+
+### 1) Løb mange kilometer
 
 [Scrimgeour et al (1986)](https://pubmed.ncbi.nlm.nih.gov/3699009/) viste, at løbere, der løb **mere end 100 km** om ugen, havde en markant bedre løbeøkonomi end de løbere, der løb **mindre end 100 km** om ugen.
 
@@ -214,7 +226,7 @@ Men det kan godt være, at du ikke har tålmodighed til at vente flere år, inde
 
 Allan Zachariasen og Jesper Petersen foreslår følgende [træningspas for at forbedre løbeøkonomien](https://www.loebeshop.dk/inspiration/lobeokonomi-bliv-en-hurtigere-lober).
 
-### Løb i konkurrence-tempo
+### 2) Løb i konkurrence-tempo
  
 Løbeøkonomien hænger ofte sammen med det tempo, man har trænet mest i. Derfor skal du løbe en del i det tempo, du forestiller dig at løbe konkurrence i.
 
@@ -227,7 +239,7 @@ Allan Zachariasen og Jesper Petersen foreslår, at man løber i det ønskede kon
 
 Det er lidt anderledes end [Jack Daniels griber det an i sin løbsberegner]({% link _posts/2020-08-01-jack-daniels-loebeberegner.md %}), hvor man udregner træningstempo på baggrund af sit nuværende niveau og ikke et ønsket niveau.
  
-### Sprinttræning
+### 3) Sprinttræning
 
 Superintense træningspas i all-out tempo (også kaldet _sprint træning_) kan også forbedre løbeøkonomien. Det kan fx være:
 
@@ -238,9 +250,32 @@ Der skal løbes _all-out_, og Allan Zachariasen og Jesper Petersen anbefaler, at
 
 Man kan imidlertid også implementere det som bakkesprints, og man kan også løbe på 98% af sin maksimale ydeevne og på den måde mindske risikoen for skader betragteligt. Men denne træningsform kræver meget restitution.
  
-### Eksplosiv styrketræning
+### 4) Eksplosiv spændstighedstræning og styrketræning
 
 Eksplosiv styrketræning i form af plyometrisk træning som hop, hink, bakkehop, trappetræning, trappehop, squat, lunges og lignende kan også være med til at forbedre og fastholde løbeøkonomien.
+
+Hvis du træner eksplosiv styrketræning og spændstighed kan du også blive hurtigere på en fem kilometer løbetur, fordi du forbedrer din løbeøkonomi og muskelstyrke.
+
+[Paavolainen et al (1999)](https://doi.org/10.1152/jappl.1999.86.5.1527) undersøgte, hvordan eksplosiv træning påvirker præstationen på løbetiden på 5 kilometer.
+
+To grupper af veltrænede forsøgspersoner trænede med lige stor træningsvolumen i 9 uger. Den ene gruppe fik 32% af sin træning erstattet med eksplosiv styrketræning, mens den anden kun erstattede 3% af sin træning med eksplosiv styrketræning. Gruppen der trænede eksplosiv styrketræning forbedrede sin 5 km løbetid uden at forbedre deres maksimale iltoptagelse.
+
+Den eksplosive træning varede i 15 minutter til 90 minutter og bestod af følgende øvelser:
+
+- Forskellige sprints
+- Forskellige springøvelser
+- Benpres
+- Knæbøjninger i maskine
+
+Alle øvelserne blev udført eksplosivt.
+
+Disse resultater er interessante og viser, at hvis du gerne vil løbe noget hurtigere, så kan det være en god ide at lave noget eksplosiv styrketræning. Træningen var primært karakteriseret ved at være eksplosiv træning eller spændstighedstræning.
+
+Det vil være interessant at se, hvordan resultaterne ville være, hvis sprint- og springøvelserne var blevet suppleret med tung styrketræning for benenes muskler, fx squat og dødløft.
+
+Kender du nogle studier, der kan sige noget om det?
+
+Jeg har skrevet et indlæg om [løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %}), hvor du kan lære endnu mere om begrebet.
 
 ### Flere forslag til at arbejde med løbeøkonomi
 
@@ -254,6 +289,7 @@ Hvordan arbejder du med din løbeøkonomi?
   <summary>Se flere referencer om løbeøkonomi</summary>
 
 - [Barnes KR., Kilding AE. 2015. Running economy: measurement, norms, and determining factors](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4555089/)
+- Paavolainen, Leena, Keijo Häkkinen, Ismo Hämäläinen, Ari Nummela, og Heikki Rusko. 1999. “Explosive-strength training improves 5-km running time  by improving running economy and muscle power”. Journal of Applied Physiology 86 (5): 1527–33. <https://doi.org/10.1152/jappl.1999.86.5.1527>.
 </details>
 
 {% include feature_row id="feature_row" type="left" %}

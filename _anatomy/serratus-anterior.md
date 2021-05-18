@@ -1,14 +1,16 @@
 ---
 title: "Serratus Anterior"
+group:
+  - Skulder
 name:
   latin: "Serratus Anterior"
 tags:
   - imagemap
   - muskel
 origin: 
-  da: Et hoved fra hver side af nederste bageste del af lårbenet.
+  da: 
 insertion: 
-  da: i akillessenen og fæster på hælbenet.
+  da: 
 function:
   da:
     - short: Protracts the scapula.
@@ -20,8 +22,6 @@ function:
       extended: This means that the serratus anterior muscle pulls the scapula, or shoulder blade, forward and around the ribcage.
     - short: Rotates the scapula upward.
       extended: This means that the serratus anterior muscle turns the scapula, or shoulder blade, such that the bottom of the scapula moves upward and laterally (i.e. outward).
-exercises:
-  - Stående calf-raise
 image: /assets/images/anatomy/serratus-anterior.jpg
 image_focus: /assets/images/anatomy/focus-serratus-anterior.jpg
 coords:
@@ -38,11 +38,15 @@ _{{ page.name.latin }}_
 
 {% include figure image_path=page.image alt=page.title caption=page.title %}
 
-## Funktion
+## Funktion for {{ page.title }}
 
 {% for f in page.function.da %}
 - **{{ f.short }}**.
   {{ f.extended | markdownify }}
 {% endfor %}
+
+## Træning af {{ page.title }}
+
+{% include video provider="youtube" id="gF1BbANYWGs" %}
 
 {% include figure image_path=page.image_focus alt=page.title caption=page.title %}

@@ -1,15 +1,18 @@
 ---
 title: "Lige mavemuskel"
+group:
+  - Mave
 name:
   latin: "Rectus Abdominis"
+  da: "Lige mavemuskel"
 tags:
   - imagemap
   - fitnessinstruktør
   - muskel
 origin: 
-  da: Et hoved fra hver side af nederste bageste del af lårbenet.
+  da: 
 insertion: 
-  da: i akillessenen og fæster på hælbenet.
+  da: 
 function:
   da:
     - short: Flexes the spine.
@@ -23,8 +26,6 @@ function:
       extended: This means that the rectus abdominis muscle constricts the organs of the abdominal cavity and can increase intra-abdominal pressure (i.e. such as during a valsalva maneuver).
 secondary_function: 
   - short: "Bøjer i knæleddet"
-exercises:
-  - Stående calf-raise
 image: /assets/images/anatomy/rectus-abdominis.jpg
 image_focus: /assets/images/anatomy/focus-rectus-abdominis.jpg
 coords:

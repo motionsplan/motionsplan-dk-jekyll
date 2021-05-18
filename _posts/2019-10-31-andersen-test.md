@@ -1,5 +1,5 @@
 ---
-title: &title "Andersen Test: Test kondital for børn"
+title: &title "Andersen Test: Find kondital for børn [Beregner og Download]"
 permalink: /andersen-test/
 language: da
 header:
@@ -17,19 +17,34 @@ tags:
   - løb
   - beregner
   - test
-last_modified_at: 2019-03-06T23:14:14Z
+last_modified_at: 2020-12-06T23:14:14Z
 toc: true
+feature_row:
+  - image_path: /assets/images/freebies/andersen-notering.png
+    url: https://docs.google.com/spreadsheets/d/1DAZYECM3dNR-sH3zxzczyVFmYqHlWR8__MdUSmvqbIY/copy?usp=sharing
+    title: "Noteringsark til Andersen Testen"
+    excerpt: "Der printes et ark til hver elev. Man krydser af for hver 20 meter der er løbet."
+    btn_class: btn--success
+    btn_label: "Lav en kopi i Google Sheet"
+  - image_path: /assets/images/freebies/andersen-sheet.png
+    url: https://docs.google.com/spreadsheets/d/1-X2FCa4TrjKbJivHk1LSAMjFquvGvWIONRexc97ifhM/copy?usp=sharing
+    title: "Beregn kondital fra Andersen Testen"
+    excerpt: "Her kan du hente et ark, hvor du taster alle elevers resultater ind. Arket er kodet til at udregne elevernes kondital."
+    btn_class: btn--success
+    btn_label: "Lav en kopi i Google Sheet"
 ---
 
 Andersen testen er en konditionstest, som er særligt velegnet til børn. Andersens test er let at udføre med mange børn og alle er aktiveret undervejs.
 
-Andersen testen er særlig god til test af børn, og det er også den konditest til børn, der anbefales af [Dansk Skoleidræt](https://skoleidraet.dk/sundhedsundervisning/inspiration-og-materialer/konditest/). Dels fordi den er videnskabeligt valideret, men også fordi den ikke udstiller de mest utrænede børn, da man ikke umiddelbart kan se, hvem der har løbet kortest og længst. 
+Andersen testen er særlig god til test af børn, og det er også den konditest til børn, der anbefales af [Dansk Skoleidræt](https://skoleidraet.dk/sundhedsundervisning/inspiration-og-materialer/konditest/). Testen er videnskabeligt dokumenteret, valideret ([Aadland et al 2014](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4201545/)), og den er samtidig meget nem at udføre. Samtidig udstiller testen de mest utrænede børn, da man ikke umiddelbart kan se, hvem der har løbet kortest og længst, fordi man hele tiden løber frem og tilbage på samme bane.
 
-Andersen Testen er udviklet af professor [Lars Bo Andersen (2008)](https://pubmed.ncbi.nlm.nih.gov/18997644/) og er bl.a. blevet brugt til at teste alle børn i Svendborg-projektet. Testen er videnskabeligt dokumenteret, og den er samtidig meget nem at udføre. Testen udstiller ikke de mest utrænede børn, da man ikke umiddelbart kan se, hvem der løber længst.
+Andersen Testen er udviklet af professor [Lars Bo Andersen (2008)](https://pubmed.ncbi.nlm.nih.gov/18997644/) og er bl.a. blevet brugt til at teste alle børn i Svendborg-projektet. 
 
 Du skal bruge en bane på 20 meter, hvor deltagerne skal løbe imellem. Deltagerne skal løbe i 15 sekunder og holde pause i 15 sekunder. Det kan være en fordel at have noget musik til testen eller en _timer_, så du ikke behøver at tage tid undervejs.
 
 ## Instruktion til Andersens Test
+
+Du kan se Andersen testen i følgende Youtube-video.
 
 {% include video provider="youtube" id="daUeclmmico" %}
 
@@ -45,24 +60,35 @@ Du skal bruge en bane på 20 meter, hvor deltagerne skal løbe imellem. Deltager
 
 {% include calculate-fitness-andersen-test.html %}
 
+## Reliabilitet og validitet for Andersen-testen
+
+[Aadland et al (2014)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4201545/) undersøgte validitet og reliabilitet for 10-årige børn. De fandt testen valid og reliabel på gruppeniveau, men gør opmærksom på, at der naturligvis er individuelle forskelle.
+
+> The Andersen test provided reliable and valid data on a group level. However, a substantial degree of individual variability was found for estimates of VO2peak. Researchers should be aware of the amount of noise in indirect tests that estimate aerobic fitness.
+
+--- <cite>[Aadland et al (2014)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4201545/)</cite>
+
 ## Har jeg et godt kondital?
 
 ### Kondital for piger
 
 | Alder	| Meget lavt | Lavt	| Middel | Højt | Meget højt |
+|-|-|-|-|-|-|
 | 5-14 år | < 34 | 35-39 | 40-47 | 48-51 | > 52 |
 | 15-19 år | < 28 | 29-34 | 35-43 | 44-48 | > 49 |
 
 ### Kondital for drenge
 
 | Alder | Meget lavt | Lavt | Middel | Højt | Meget højt |
+|-|-|-|-|-|-|
 | 5-14 år | < 38 | 38-43 | 44-51 | 52-56 | > 57 |
 | 15-19 år | < 43 | 44-48 | 49-56 | 57-61 | > 62 |
 
+Du kan også være på jagt efter en [tabel over kondital for børn og voksne mænd og kvinder](/kondital/).
+
 ## Test-materiale til Andersens Test
 
-- [Noteringsark](https://docs.google.com/spreadsheets/d/1DAZYECM3dNR-sH3zxzczyVFmYqHlWR8__MdUSmvqbIY/copy?usp=sharing): Der printes et ark til hver elev. Man krydser af for hver 20 meter der er løbet.
-- [Beregn kondital](https://docs.google.com/spreadsheets/d/1-X2FCa4TrjKbJivHk1LSAMjFquvGvWIONRexc97ifhM/copy?usp=sharing): Her kan du hente et ark, hvor du taster alle elevers resultater ind. Arket er kodet til at udregne elevernes kondital. 
+{% include feature_row type="right" %}
 
 Du kan bruge denne video som en timer til at styre tiden undervejs.
 
@@ -73,6 +99,10 @@ Du kan bruge denne video som en timer til at styre tiden undervejs.
 Andersen testen benytter denne formel for at udregne konditallet. Det er den samme formel, vi bruger i beregneren ovenfor.
 
 Kondital = (18,38 + (0,03301 x løbedistance) – (5,92 x dit køn (mand = 0, kvinde = 1)))
+
+## Andre konditionstests til børn
+
+Andersen-testen er en rigtig god konditionstest, når du har en større gruppe børn. Hvis du har brug for en anden præcis konditionstest til børn, så kan du også bruge [Watt-max testen på cykel for børn](/kondital-wattmax-boern/). Denne test kræver imidlertid, at du har adgang til et præcist cykelergometer.
 
 ## Referencer til Andersen Testen
 

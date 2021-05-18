@@ -1,11 +1,12 @@
 ---
-title: "SMART-modellen: Gør din målsætning SMART og nå nye mål!"
+title: &title "SMART-modellen: Gør din målsætning SMART og nå nye mål!"
 permalink: /smart/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1506784983877-45594efa4cbe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1948&q=80
   teaser: https://images.unsplash.com/photo-1506784983877-45594efa4cbe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
-  caption: Photo by Estée Janssens on Unsplash
+  caption: *title
+  alt: Photo by Estée Janssens on Unsplash
   overlay_filter: 0.4
 category:
   - Viden om
@@ -27,6 +28,8 @@ Jeg arbejder selv meget struktureret med målsætning - og jeg har opstillet nog
 At have målene motiverer mig til at få trænet, men jeg er også meget opmærksom på at få opstillet nogle begivenheder, som kan holde mig til ilden. Det kan fx være at opstille nogle tests eller tilmelde mig nogle konkurrencer. 
 
 Målsætninger er med til at give **retning for dit liv** - og når man har opstillet nogle målsætninger, finder man ud af, hvor vigtige de reelt er for en. Jeg kan godt lide at have målsætninger for flere områder af mit liv, men man kan også sagtens nøjes med at opstille målsætninger for ens træning.
+
+ {% include figure image_path=page.header.overlay_image caption=page.title alt="smart målsætning" %}
 
 ## Lav en SMART målsætning
 
@@ -64,7 +67,7 @@ Gå i gang allerede i dag med at identificere dine mål. Afsæt en time og få s
 
 Jeg har lavet en skabelon, du kan bruge til at skrive dine målsætninger ned. Du kan hente den ved at klikke på [kortlink.dk/fmq8](http://kortlink.dk/fmq8)
 
-## Bliv klogere
+## Bliv klogere om SMART målsætning
 
 - Casper Jespersen (2015): [Arbejd SMART for livsstilsændringen, casperjespersen.com](http://casperjespersen.com/2015/01/07/arbejd-smart-for-livsstilsaendringen/)
-- Mads Davidsen (2015): [Write down your goals for 2015 - the way to success](http://madsdavidsen.com/blog/write-down-your-goals-2015-way-success), madsdavidsen.com
+- Mads Davidsen (2015): [Write down your goals for 2015 - the way to success](https://madsdavidsen.com/blog/set-goals-targets-or-not), madsdavidsen.com

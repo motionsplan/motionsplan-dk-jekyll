@@ -2,8 +2,10 @@
 title: &title "Løb, med tung pind"
 excerpt: ""
 instructions: ""
-permalink: /oevelse/løb-med-tung-pind/
-redirect_from: /node/589
+permalink: /oevelse/loeb-med-tung-pind/
+redirect_from:
+  - /node/589
+  - /oevelse/løb-med-tung-pind/
 id: 589
 language: da
 header:

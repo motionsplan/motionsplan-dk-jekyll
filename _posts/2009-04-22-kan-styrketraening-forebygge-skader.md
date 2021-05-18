@@ -49,17 +49,17 @@ Den generelle tilgang er, at styrketræning er skadesforebyggende, da en større
 
 I takt med at man indenfor videnskaben har fået bedre målemetoder, har man også kunne nuancere styrketræningens reelle effekter på fysiologiske parametre associeret med skadesrisici. En veldokumenteret effekt er i denne forbindelse styrketræningsøvelser, der indeholder et fokus på excentrisk muskelarbejde (Al Attar et al 2016). En periode med excentrisk domineret styrketræning for eks. baglårsmuskulaturen, har demonstreret at kunne øge antallet af kontraktile enheder i forlængelse af hinanden i en muskelcelle (hvilket skaber en øget længde af de såkaldte fasickler). Dette gør muskelcellerne, og hele musklen de er en del af, mere modstandsdygtig overfor overrivninger i forbindelse med høj-hastighedskontraktioner (eks. under sprint) (Bourne et al 2018).
 
-### Knæ
+### Knæ og skadesforebyggelse
 
 Styrketræning kan ligesom balance- og plyometrisk træning give større stabilitet omkring knæet gennem øget styrke og styrkebalancen mellem quadriceps og hasemuskulaturen . Styrketræning kan være vigtigt for især unge pigers muligheder for at undgå knæskader. I puberteten har drenge en væsentlig større styrketilvækst end piger (Malina 2004). 
 
 Denne mindre styrke og en tendens til at være stærkere i quadriceps er i flere studier blevet nævnt som mulig årsag til, at piger er mere sårbare overfor knæskader (Rosene et al 2001). Det anbefales derfor, at piger laver styrketræning for at mindske risikoen for skader. En kønsbestemt anatomisk bygning (valgus vinkel) og større kropsmasse omkring hoften betyder samtidigt, at piger ofte har en medial vinkling i knæleddet (kalveknæet). Knæet og dets elementer udsættes således for en stor risiko, når det tynges af kropsvægten ved eksempelvis landinger i mange sportsgrene (Kelly & Terry 2001).
 
-Netop muskelstyrken omkring landinger mv. kan man faktisk træne. Du kan se lidt mere om at få knæene til at tracke samme vej som tæerne i \[vores indlæg om teknik]({% link _posts/2011-08-18-tjek-teknikken-i-din-styrketraening.md %}).
+Netop muskelstyrken omkring landinger mv. kan man faktisk træne. Du kan se lidt mere om at få knæene til at tracke samme vej som tæerne i [vores indlæg om teknik]({% link _posts/2011-08-18-tjek-teknikken-i-din-styrketraening.md %}).
 
 Et studie har samtidig vist, at bremsende (excentrisk) styrketræning for baglåret (se ”[Nordisk hamstring]({% link _exercises/nordic-hamstring-12.md %})” og [hamstring curl på swiss bold]({% link _exercises/swiss-ball-curl-728.md %})) kan nedsætte risikoen for fiberskader i baglåret hos fodboldspillere. Fiberskader i baglåret er en hyppig skade i fodbold, når der sprintes over længere afstande (Myklebust 2004).
 
-### Skulder
+### Skulder og skadesforebyggelse
 
 Bevægelserne omkring skulderen er styret af et komplekst biomekanisk system bestående af knogle, ledbånd og muskelkraft. En eller flere dysfunktioner på disse elementer vil betyde en skadet og ufunktionsdygtig skulder (Kelly & Chopp 2000). Forebyggelse af disse skader kan ske ved styrkelse af muskulaturen omkring skulderen og især af muskulaturen, som styrer rotationen af skulderbladet (rotator cuff). 
 
@@ -69,7 +69,7 @@ Dette bør trænes, så muskulaturen kan klare koncentriske og excentriske belas
 
 De ovenstående resultater tyder altså på, at supplerende træning som styrke-, balance- og plyometrisk træning kan have en skadesforebyggende effekt. Især de alvorlige skader som overrevet korsbånd synes at kunne undgås i højere grad. Dette er gode nyheder for trænere og sportsudøvere.
 
-I forhold til skader så er restitution en af de helt store syndere, så du kan med fordel læse lidt mere om \[restitution]({% link _posts/2009-08-07-restition-hvordan-bliver-jeg-hurtigst-klar-igen.md %}) og \[restitutionstid]({% link _posts/2020-05-28-restitutionstid-alder.md %}).
+I forhold til skader så er restitution en af de helt store syndere, så du kan med fordel læse lidt mere om [restitution og restitutionstid]({% link _posts/2020-05-28-restitutionstid-alder.md %}).
 
 Vi har også skrevet et andet indlæg, der giver [forslag til forskellige øvelser til at forebygge skader](/skadesforebyggelse-skadesforebyggende-traening/).
 

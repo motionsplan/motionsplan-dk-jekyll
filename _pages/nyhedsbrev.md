@@ -6,6 +6,7 @@ excerpt: "Motionsplan udgiver et nyhedsbrev, når der sker noget spændende med 
 author_profile: true
 header:
   overlay_image: https://images.unsplash.com/photo-1535743686920-55e4145369b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80
+sitemap: false
 ---
 
 <!-- Begin Mailchimp Signup Form -->

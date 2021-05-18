@@ -26,6 +26,22 @@ Der står rigtig [mange steder](https://www.letliv.dk/sund-og-skoen/sundhed/saad
 
 Hvis 2 liter vand om dagen er det rigtige daglige væskeindtag, så regulerer kroppen formentlig selv væskeindtaget.
 
+{% comment %}
+
+I dette indlæg kan du læse mere om:
+
+- Hvor mange liter skal et menneske drikke om dagen?
+- Hvor meget skal ældre drikke om dagen?
+- Hvorfor skal man drikke 2 liter vand om dagen?
+- Hvor meget skal man drikke for at dø?
+- Kan det være farligt at drikke for meget vand?
+- Kan man få kvalme af at drikke for meget vand?
+
+- hvad tæller som væske?
+- hvor mange glas vand skal man drikke om dagen?
+
+{% endcomment %}
+
 ## Beregn hvor meget vand skal du drikke om dagen?
 
 Letliv.dk foreslår følgende måde at [beregne hvor meget vand, man bør drikke om dagen](https://www.letliv.dk/sund-og-skoen/sundhed/saadan-beregner-du-dit-vaeskebehov).

@@ -2,6 +2,7 @@
 title: "Bred rygmuskel"
 name:
   latin: "Latissimus Dorsi"
+  da: "Bred rygmuskel"
 tags:
   - imagemap
   - fitnessinstruktør
@@ -28,8 +29,6 @@ function:
 secondary_function:
   da:
     - short: "Bøjer i knæleddet"
-exercises:
-  - Stående calf-raise
 image: /assets/images/anatomy/latissimus-dorsi.jpg
 image_focus: /assets/images/anatomy/focus-latissimus-dorsi.jpg
 coords:

@@ -1,7 +1,7 @@
 ---
-title: &title "Laktat: Hvordan opstår mælkesyre i musklerne ved træning?"
+title: &title "Mælkesyre: Alt du skal vide om mælkesyre, laktat og træning"
 permalink: /maelkesyre-traening/
-last_modified_at: 2020-08-24T09:41:09Z
+last_modified_at: 2021-01-20T09:41:09Z
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1583173451851-dd9ba01f891e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
@@ -21,6 +21,16 @@ tags:
 Jeg oplever ofte, at folk bliver forvirrede over, hvorfor og hvordan mælkesyre opstår i musklerne i forbindelse med træning. Derfor har jeg researchet lidt på mælkesyre i musklerne i forbindelse med træning, og hvorfor kroppen syrer til under træning.
 
 Hvad er mælkesyre? **Mælkesyre er et biologisk nedbrydningsprodukt, som dannes ved mikrobielle gæringsprocesser og ved metabolske processer i kroppen. Mælkesyre fremkommer bl.a. når mennesket spalter glykose for at skabe energi til musklerne i forhold uden ilt.**
+
+I dette indlæg vil du måske blive overrasket over, at **mælkesyre IKKE er årsag til træthed i musklerne**. Derudover kan du læse om følgende:
+
+- Hvad er mælkesyre?
+- Hvordan skabes mælkesyre?
+- Hvorfor syrer dine ben til?
+- Hvad er forskellen på mælkesyre og laktat?
+- Hvordan nedbrydes og fjernes mælkesyre i muskler, lever og nyrer?
+
+## Energiomsætning uden ilt skaber mælkesyre 
 
 Når man laver meget anstrengende arbejde, så skal musklerne producere energi uden brug af ilt. Denne proces kaldes [anaerob energiomsætning]({% link _posts/2019-11-14-energisystemer-101.md %}). Meget anstrengende arbejde kan fx være [intervalløb og intervaltræning]({% link _posts/2020-06-15-intervallob.md %}), 100 meter sprint eller 30-60 sekunders maksimalt arbejde.
 
@@ -119,11 +129,11 @@ Tidligere troede man, at der blev produceret eksponentielt mere og mere mælkesy
 
 Det ser ud til, at [nyrere fortsætter med at fjerne mælkesyre under moderat arbejde](http://www.tandfonline.com/doi/abs/10.1080/02640414.2011.614271), mens leverens evne nedsættes markant, fordi blodgennemstrømningen i leveren nedsættes under hårdt arbejde, fordi musklerne har brug for større blodgennemstrømning.
 
-I træningsfysiologien snakker man om den anaerobe tærskel eller mælkesyretolerancetærsklen som det tidspunkt, hvor kroppen netop kan nå at fjerne den ekstra mælkesyre, der produceres.
+I træningsfysiologien snakker man om den [anaerobe tærskel eller mælkesyretolerancetærsklen]({% link _posts/2020-08-26-anaerobe-taerskel.md %}) som det tidspunkt, hvor kroppen netop kan nå at fjerne den ekstra mælkesyre, der produceres.
 
 Traditionelt har man talt om en mælkesyregrænse på 4 mmol. Den anaerobe tærskel er rigtig interessant, for hvis du kan flytte den opad, så kan du træne og konkurrere med højere intensitet.
 
-Det er imidlertid en del uenighed om, hvad den anaerobe tærskel nøjagtigt er, og hvordan man bedst kan [flytte den anaerobe tærskel, som denne artikel fra Training Peaks fortæller](https://www.trainingpeaks.com/blog/what-is-lactate-and-lactate-threshold/).
+Det er imidlertid en del uenighed om, hvad den anaerobe tærskel nøjagtigt er, og hvordan man bedst kan flytte den anaerobe tærskel, som denne [artikel fra Training Peaks](https://www.trainingpeaks.com/blog/what-is-lactate-and-lactate-threshold/) fortæller.
 
 > Nu har vi fundet ud af, at grunden til, at mængden af mælkesyre stiger eksponentielt ved den mælkesyrekoncentration, ikke er, fordi der pludselig bliver produceret mere mælkesyre – men fordi leveren ikke kan følge med til at fjerne mælkesyre fra blodet hurtigt nok.
 
@@ -139,12 +149,12 @@ Der bliver altså ikke pludseligt produceret mere mælkesyre på den **anaerobe 
 
 Den 'magiske' 4 mmol grænse opstår altså fordi blodgennemstrømningen i leveren er faldet så meget, at leveren ikke længere kan følge med til at eliminere mælkesyren i samme hastighed, som den bliver produceret.
 
-Selvom man ved mere om den anaerobe tærskel, så er der ikke fuldstændig enighed om, [hvordan den anarobe tærskel skal defineres og bruges, som Ghosh (2004) viser i sit litteraturstudium](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3438148/).
+Selvom man ved mere om den anaerobe tærskel, så er der ikke fuldstændig enighed om, hvordan den anarobe tærskel skal defineres og bruges, som [Ghosh (2004) viser i sit litteraturstudium](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3438148/).
 
 ## Bliv bedre til at modstå mælkesyre
 
 Du kan træne din evne til at udholde mælkesyre i kroppen. Jeg er fortaler for, at man træner alle kroppens energisystemer, og glykolytisk arbejde med mælkesyre er en af formerne. Typisk kræver det maksimalt arbejde i 30 sekunder til 2 minutter.
 
-Du kan fx stifte bekendtskab med en [assault bike eller airbike]({% link _posts/2020-08-06-airbikes.md %}) eller en [prowler]({% link _posts/2020-08-07-prowler.md %}), hvor det er let at komme til at arbejde med mælkesyre som biprodukt af træning.
+Du kan fx stifte bekendtskab med en [assault bike eller airbike]({% link _posts/2020-08-06-airbikes.md %}), [rointervaller]({% link _posts/2010-12-26-ropro-traeningsprogrammer-til-ro-og-kajaksporten.md %}) eller en [prowler]({% link _posts/2020-08-07-prowler.md %}), hvor det er let at komme til at arbejde med mælkesyre som biprodukt af træning. Det kan du også i [intervalløb]({% link _posts/2020-06-15-intervallob.md %}) og [anaerob træning]({% link _posts/2021-01-02-anaerob-traening.md %}). Hvis du virkelig vil føle mælkesyre i benene, så kan du også prøve den [anaerobe test Wingate-testen]({% link _posts/2019-11-18-wingate-test.md %}).
 
 Hvis du er interesseret i at læse mere om [kroppens energisystemer og aerob og anaerob energiforsyning]({% link _posts/2019-11-14-energisystemer-101.md %}), så har jeg skrevet en lidt grundigere artikel om det.

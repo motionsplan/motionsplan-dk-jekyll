@@ -18,13 +18,13 @@ feature_row:
   - image_path: https://apuls.dk/img/900/900/resize/1/2/1240420_1.jpg
     alt: "Fitwood Pullupbar"
     excerpt: "FitWood Trollveggen dørribbe er en multifunktionel chin-up/pull-up bar i lækkert scandinavisk design."
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/fitwood-trollveggen-dorribbe-hvid
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=39091&htmlurl=https://apuls.dk/fitwood-trollveggen-dorribbe-hvid
     btn_label: "Pris hos Apuls*"
     btn_class: "btn--success"
   - image_path: https://apuls.dk/img/900/900/resize/A/p/Apuls0136_1.jpg
     alt: "cPro9 Pullupbar"
     excerpt: "cPro9 Pull Up Bar til dør, som er let monteres i en døråbning. Baren giver dig mange forskellige muligheder for greb."
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/cpro9-pullup-bar-m-baelte-i-laeder-pakketilbud
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=39091&htmlurl=https://apuls.dk/cpro9-pullup-bar-m-baelte-i-laeder-pakketilbud
     btn_label: "Pris hos Apuls*"
     btn_class: "btn--success"
 ---
@@ -77,7 +77,7 @@ Hatton (2014) foreslår følgende til at forklare højdeudviklingen over tid for
 
 > The evidence suggests that the most important proximate source of increasing height was the improving disease environment as reflected by the fall in infant mortality. Rising income and education and falling family size had more modest effects.
 
---- <cite>[Hatton (2014)](http://oep.oxfordjournals.org/content/early/2013/08/29/oep.gpt030.full)</cite>
+--- <cite>[Hatton (2014)](https://academic.oup.com/oep/article-abstract/66/2/349/2362600?redirectedFrom=fulltext)</cite>
 
 Hvis du kan supplere med flere datapunkter til opgørelsen over gennemsnitshøjden i Danmark for mænd og kvinder, så skriv endelig i kommentarerne.
 

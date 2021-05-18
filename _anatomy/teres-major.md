@@ -1,14 +1,16 @@
 ---
 title: "Teres Major"
+group:
+  - Bryst
 name:
   latin: "Teres Major"
 tags:
   - imagemap
   - muskel
 origin: 
-  da: Et hoved fra hver side af nederste bageste del af lårbenet.
+  da: 
 insertion: 
-  da: i akillessenen og fæster på hælbenet.
+  da: 
 function:
   da:
   - short: Laterally rotates the upper arm.
@@ -16,8 +18,6 @@ function:
   en:
   - short: Laterally rotates the upper arm.
     extended: This means that the teres major muscle rotates the upper arm outward around the axis of the bone (i.e. it rotates the upper arm away from the vertical midline of the body).
-exercises:
-  - Stående calf-raise
 image: /assets/images/anatomy/teres-major.jpg
 image_focus: /assets/images/anatomy/focus-teres-major.jpg
 coords:

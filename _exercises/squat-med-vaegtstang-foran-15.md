@@ -5,6 +5,7 @@ instructions: "Lav en squat med stangen liggende på brystet. Vægt på hele fod
 permalink: /oevelse/squat-med-vaegtstang-foran/
 redirect_from: /node/15
 id: 15
+key: 15
 language: da
 header:
   overlay_image: /assets/images/exercises/squat-med-vaegtstang-foran-0.jpg

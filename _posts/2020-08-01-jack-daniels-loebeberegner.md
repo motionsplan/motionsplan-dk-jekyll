@@ -1,7 +1,8 @@
 ---
-title: "Løbesiden: Løbsberegner til træningstempo og konkurrencetider"
+title: "Løbsberegner: Beregn træningstempo og konkurrencetider med Jack Daniels Running Formula"
+seo_title: "Løbsberegner • Beregn løbetider for træning og konkurrence »"
 permalink: /loebesiden-jack-daniels-loebeberegner/
-last_modified_at: 2020-07-24T09:41:09Z
+last_modified_at: 2021-03-28T09:41:09Z
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1529795533870-ea8020391255?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
@@ -26,12 +27,19 @@ feature_row:
     excerpt: "Jack Daniels was named the world's best running coach by Runner's World magazine, and his best-selling book, Daniels' Running Formula, shows you why. Whether your race of choice is the 800 meters, the marathon, or anything in between, Daniels' Running Formula, Third Edition, offers a proven recipe for success."
     btn_label: "Tjek prisen hos Tales*"
     btn_class: "btn--info"
-  - image_path: https://cdn6.tales.dk/00001/70394/cover.1568203219.jpg
+  - image_path: https://cdn6.tales.dk/00001/70394/cover.1612526420.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390
     title: "Løb som eliten"
     excerpt: "Claus Hechmanns bog LØB SOM ELITEN er handler om, hvordan du skal træne for at blive en hurtigere løber og få mest muligt ud af dit potentiale. Bogen indeholder fem specialdesignede 12-ugers programmer til distancerne 5 km, 10 km og helt op til maraton."
     btn_label: "Tjek prisen hos Tales*"
     btn_class: "btn--danger"
+template:
+  - image_path: /assets/images/template/jack-daniels.png
+    url: https://docs.google.com/document/d/1LRwLogpMtkM88HQnEa2hjgpkQmOIPIM7TcnZGM-erlQ/copy
+    title: "Løbetræning og løbeprogram skabelon"
+    excerpt: "Skabelon til at lave et løbeprogram, hvor man kan tage udgangspunkt i Jack Daniels Running Formula og løbsberegner."
+    btn_label: "Google Docs*"
+    btn_class: "btn--info"
 ---
 
 Her på løbesiden kan du finde en løbeberegner, der kan beregne dit træningstempo og konkurrencetider ud fra Jack Daniels Running Formula. Enhver løbeside med respekt for sig selv skal naturligvis have en løbsberegner.
@@ -72,6 +80,37 @@ Du kan lære lidt mere om de forskellige løbetempi fra Jack Daniels selv i denn
 {: .notice .notice--info }
 
 {% include calculate-jack-daniels.html %}
+
+Jeg har lavet en anden beregner, der hurtigt kan hjælpe dig med at udregne, [hvor langt du skal løbe i dit tidsinterval]({% link _posts/2021-03-28-hvor-langt-pr-interval.md %})?
+
+Jeg har også lavet en beregner, hvor du kan [omregne fra min/km til km/t](/hastighed/).
+
+## Tabel over løbetempo fra Jack Daniels Løbsberegner
+
+| | | %VO2max | %HR-max | Effekt |
+|-|-|-|-|-|
+| E | Easy Run | 59%-74% | 65-79%  | Forbedrer slagvolumen og nødvendige celleforandringer. Effekten af E-tempo er mere en funktion af tiden i zonen end af intensiteten. |
+| M | Maraton-tempo | 75-84% | 80-90% | Erfaring med maraton-tempoet |
+| T | Tærksel-træning | 83-88% | 88-92% | Forbedrer udholdenheden og evnen til at løbe i højt tempo. Skal føles "behageligt" rare - og i en hastighed, som du kan holde i 45-60 minutter |
+| I | Intervaltræning | 95-100% | 98-100% | Forbedrer den maksimale iltoptagelse. Interval-tempo er hårde, men det er ikke _all out_-løb. Typisk er intervallerne i denne zone fra 3-5 minutter. |
+| R | Repetitions | | | Typisk omkring dit 1500 meter tempo. Skal forbedre din hastighed og løbeøkonomi. Målet er at løbe afslappet samtidig med at du løber hurtigt, så du lærer kroppen at blive mere effektiv ved lavere hastigheder. |
+| | Strides | | | Kontrollerede accelerationer på omkring 80-100 meter (cirka 20 sekunder) for at hjælpe med løbeteknik. 60 sekunders pause mellem hvert stigningsløb. |
+
+Mange taler om en 80/20 plan for løbetræningen. Det betyder, at omkring 80% af træningen skal være _easy run_ med E-tempo, mens 20% af træningen skal være træning med høj intensitet.
+
+Når jeg laver et løbeprogram, så tager jeg udgangspunkt i denne skabelon, som du er velkommen til at bruge også.
+
+{% include feature_row id="template" type="left" %}
+
+{% comment %}
+
+## Training load og Traning Points
+
+Jack Daniels arbejder med begrebet _training points_ som en måde at monitorere _training load_ over tid.
+
+En måde at måle _training load_ i løb på er hvor mange kilometer, du løber om ugen. Training load tilfører og viden om kvalitet og intensitet til overvågningen af træningen.
+
+{% endcomment %}
 
 ## Betragtninger om Jack Daniels løbeberegner
 
@@ -142,7 +181,7 @@ Udholdenhedstræning kan fx fylde omkring 25-30% af ugens samlede træningsmæng
 
 Træning af den anaerobe tærskel er en vigtig træningsform for distanceløbere, men hvad er mælkesyretærsklen eller den anaerobe tærskel?
 
-Hvad er den anaerobe tærkel? **Den anaerobe tærskel eller mælkesyregrænsen er det tidspunkt, hvor musklerne og leveren ikke længere kan nå at nedbryde mælkesyren lige så hurtigt som den skabes som biprodukt af en anaerob forbrænding i mitochondrierne. Når man løber over den anaerobe tærskel, vil man altså langsomt opbygge mere og mere mælkesyre i kroppen.**
+Hvad er den anaerobe tærskel? **Den anaerobe tærskel eller mælkesyregrænsen er det tidspunkt, hvor musklerne og leveren ikke længere kan nå at nedbryde mælkesyren lige så hurtigt som den skabes som biprodukt af en anaerob forbrænding i mitochondrierne. Når man løber over den anaerobe tærskel, vil man altså langsomt opbygge mere og mere mælkesyre i kroppen.**
 
 Den [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}) er der, hvor kroppen gradvist går fra forbrænding med ilt (aerob forbrænding) til en proces, hvor musklerne ikke har ilt til stede.
 
@@ -192,7 +231,7 @@ Træningsmængden indenfor AT-træning bør ikke overstige 10% af ugens samlede 
 
 Træning af den maksimale iltoptagelse (VO2max) er en rigtig vigtig del af løbetræningen. Den [maksimale iltoptagelse]({% link _posts/2020-06-23-kondital-hvor-hurtigt.md %}) er et udtryk for kroppens evne til at optage og producere energi under forbrænding med ilt (aerob). 
 
-Der er flere faktorer, der bestemmer den maksimale iltoptagelse, som fx:
+Der er flere faktorer, der bestemmer den [maksimale iltoptagelse]({% link _posts/2019-11-03-intensiteten-og-vo2max.md %}), som fx:
 
 - Hjertets evne til at pumpe blod rundt i minuttet (puls x slagvolumen)
 - Mængden af røde blodlegemer
@@ -285,7 +324,7 @@ Du kan udføre intervallerne på forskellige måder:
 - **Stigningsløb**. Hvis du laver 100 meter stigningsløb, så øger du progressivt dit tempo til dit maksimale tempo og holder det tempo de sidste 50 meter. Fordelen ved stigningsløb er, at de er relativt skånsomme.
 - **Maksimalt løb**.  Hvis du gerne vil forbedre din muskelstyrke, så skal du løbe hurtigere fra start.
 
-Studier har vist, at [eksplosiv træning er med til at forbedre løbehastigheden]({% link _posts/2009-07-15-eksplosiv-traening-goer-dig-hurtigere-paa-5-km.md %}), men du kan også inkludere styrketræning i dit løbeprogram for at forbedre løbehastigheden.
+Studier har vist, at [eksplosiv træning er med til at forbedre løbehastigheden og løbeøkonomien]({% link _posts/2019-12-16-running-economy.md %}), men du kan også inkludere styrketræning i dit løbeprogram for at forbedre løbehastigheden.
 
 ### Hyppighed
 
@@ -319,9 +358,9 @@ Roligt løb kan bruges meget i træning, så længe den samlede træningsmængde
 
 ## Restitutionstræning
 
-Når du træner, så har kroppen brug for tid til at bygge sig op igen bagefter. Der er forskellige strategier til at [fremme restitutionen]({% link _posts/2009-08-07-restition-hvordan-bliver-jeg-hurtigst-klar-igen.md %}) og arbejde med [restitutionstiden]({% link _posts/2020-05-28-restitutionstid-alder.md %}).
+Når du træner, så har kroppen brug for tid til at bygge sig op igen bagefter. Der er forskellige strategier til at [fremme restitutionen og restitutionstiden]({% link _posts/2020-05-28-restitutionstid-alder.md %}).
 
-Det kan tilsyneladende betale sig at lave _aktiv_ restitution frem for _passiv_ restitution. Det kan du bruge en langsommere løbetur til, men du kan også vælge [andre former for restitutionstræning]({% link _posts/2009-08-07-restition-hvordan-bliver-jeg-hurtigst-klar-igen.md %}).
+Det kan tilsyneladende betale sig at lave _aktiv_ restitution frem for _passiv_ restitution. Det kan du bruge en langsommere løbetur til, men du kan også vælge [andre former for restitutionstræning]({% link _posts/2020-05-28-restitutionstid-alder.md %}).
 
 Nogle af de ting tænker restitutionstræning kan hjælpe med er at:
 

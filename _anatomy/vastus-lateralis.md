@@ -1,5 +1,7 @@
 ---
 title: "Lårmusklens ydre hoved"
+group:
+  - Ben
 name:
   latin: "Vastus Lateralis"
 tags:
@@ -17,8 +19,6 @@ function:
   en:
     - short: Extends the leg at the knee.
       extended: This means that the vastus lateralis muscle straightens the leg at the knee joint such that there is an increase in the angle between the lower leg and the upper leg.
-exercises:
-  - Stående calf-raise
 image: /assets/images/anatomy/vastus-lateralis.jpg
 image_focus: /assets/images/anatomy/focus-vastus-lateralis.jpg
 coords:
@@ -26,7 +26,7 @@ coords:
   - "100,337,100,326,94,310,92,293,94,272,97,257,89,278,89,290,90,313,95,338"
 ---
 
-"quadriceps," "quads" - the vastus lateralis muscle forms part of the quadriceps femoris muscle group, along with rectus femoris, vastus medialis, and vastus intermedius (vastus intermedius is not shown in the muscle anatomy section since it is located below rectus femoris).
+Denne muskel er en del af den [firehovede knæstrækker - eller quadriceps femoris]({% link _anatomy/quadriceps-femoris.md %}). Den firehovede knæstrækker består af fire muskler. Yderst ligger [vastus lateralis]({% link _anatomy/vastus-lateralis.md %}) og inderst ligger [vastus medialis]({% link _anatomy/vastus-medialis.md %}). Inderst lever [vastus intermedius]({% link _anatomy/vastus-intermedius.md %}) et ret ubemærket liv, fordi [rectus femoris]({% link _anatomy/rectus-femoris.md %}) er forrest på låret og dækker over musklen.
 
 _{{ page.name.latin }}_
 
@@ -43,5 +43,5 @@ _{{ page.name.latin }}_
 {% endfor %}
 
 {% if page.image_focus %}
-{% include figure image_path=page.image_focus alt=page.title caption=page.title %}
+  {% include figure image_path=page.image_focus alt=page.title caption=page.title %}
 {% endif %}

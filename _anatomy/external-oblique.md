@@ -1,7 +1,10 @@
 ---
 title: "Ydre skrå mavemuskel"
+group:
+  - Mave
 name:
   latin: External Oblique
+  da: "Ydre skrå mavemuskel"
 tags:
   - imagemap
   - fitnessinstruktør
@@ -25,8 +28,6 @@ function:
       extended: This means that the external oblique muscle turns the spine to the side (i.e. it twists the torso).
     - short: Compresses the abdominal cavity.
       extended: This means that the external oblique muscle constricts the organs of the abdominal cavity and can increase intra-abdominal pressure (i.e. such as during a valsalva maneuver).
-exercises:
-  - Stående calf-raise
 image: /assets/images/anatomy/external-oblique.jpg
 image_focus: /assets/images/anatomy/focus-external-oblique.jpg
 coords:

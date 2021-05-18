@@ -1,5 +1,6 @@
 ---
 title: "8 ting du skal vide om funktionel træning og styrketræning!"
+seo_title: "Funktionel træning og styrketræning • 8 ting du bør vide »"
 excerpt: "Funktionel styrketræning er træning, som forbereder kroppen til en given funktion i hverdagen eller en idræt. Her er alt du behøver at vide."
 permalink: /artikel/funktionel-styrketraening/
 language: da
@@ -15,11 +16,15 @@ last_modified_at: 2020-02-13T22:24:48Z
 author: linda.kruse
 ---
 
-**Funktionel træning er trenden og det blivende indenfor fitness. Hvad er det, og hvorfor kan du drage nytte funktionel træning? Her får du svar på, hvordan du kan optimere din træning, så du hurtigere og lettere får en stærkere, slankere og sundere krop.**
+Funktionel træning er trenden og det blivende indenfor fitness. Hvad er det, og hvorfor kan du drage nytte funktionel træning? Her får du svar på, hvordan du kan optimere din træning, så du hurtigere og lettere får en stærkere, slankere og sundere krop.
 
 Som mennesker og især som idrætsudøvere udfører vi mange forskellige bevægelser. Vi går, jogger, løber, sprinter, hopper, løfter, skubber, trækker, bøjer, roterer, står, starter, stopper og klatrer. Alle de bevægelser involverer glidende, rytmiske bevægelser i [forskellige bevægelsesplaner]({% link _pages/anatomy/joints.md %}).
 
-Funktionel styrketræning er træning, som forbereder kroppen til en given funktion i hverdagen eller en idræt. Kroppen er en funktionel helhed designet til at arbejde som et sammenhængende system, og derfor bør kroppen også trænes sammenhængende i din træning og styrketræning.
+Hvad er funktionel styrketræning? **Funktionel styrketræning er træning, som forbereder kroppen til en given funktion i hverdagen eller en idræt.**
+
+Kroppen er en funktionel helhed designet til at arbejde som et sammenhængende system, og derfor bør kroppen også trænes sammenhængende i din træning og styrketræning.
+
+ {% include figure image_path=page.header.overlay_image caption=page.title alt="funktionel styrketræning og træning" %}
 
 ## Definition af funktionel træning
 

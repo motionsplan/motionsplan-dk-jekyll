@@ -1,32 +1,39 @@
 ---
 title: &title "Populære blog posts på Motionsplan i 2020 🥇"
+permalink: /populaere-posts/
+redirect_from: /webclips/populaere-posts-2020/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1538503529202-7a0e79cbb6f6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80
   teaser: https://images.unsplash.com/photo-1538503529202-7a0e79cbb6f6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
-  title: *title
+  caption: *title
 tags:
   - webclips
 category:
   - Webclips
 last_modified_at: 2020-12-23T18:21:26Z
+popular_posts:
+  - /artikel/de-fem-tibetanere/
+  - /skridt-pr-km-10000/
+  - /bip-test/
+  - /bmi/
+  - /hastighed/
+  - /kondital-loeb/
+  - /rm-beregner/
+  - /tab-fedt-paa-maven/
+  - /kondital/
+  - /artikel/udregning-af-fedtprocent/
 ---
 
 Det har været et godt år på Motionsplan. Vi har skrevet mere end 100 artikler, og vores besøgstal er virkelig gået i vejret.
 
-Her samler vi op på de mest populære blog posts i løbet af 2020. Der er nogle ældre blog posts, men en del af de nye artikler har også fundet vej til top 10 listen.
+Her samler vi op på de mest populære blog posts i løbet af 2020. Der er nogle ældre blog posts, men en del af de nye artikler har også fundet vej til top {{ page.popular_posts.size }} listen.
 
-## De 10 mest populære blog posts i løbet af 2020
+## De {{ page.popular_posts.size }} mest populære blog posts i løbet af 2020
 
-{% assign site_posts = site.posts | where: "permalink", "/artikel/de-fem-tibetanere/" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
+{% for permalink in page.popular_posts %}
 
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-{% assign site_posts = site.posts | where: "permalink", "/skridt-pr-km-10000/" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
+{% assign site_posts = site.posts | where: "permalink", permalink %}
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
@@ -34,71 +41,7 @@ Her samler vi op på de mest populære blog posts i løbet af 2020. Der er nogle
   {% endfor %}
 {% endif %}
 
-{% assign site_posts = site.posts | where: "permalink", "/bip-test/" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-{% assign site_posts = site.posts | where: "permalink", "/bmi/" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-{% assign site_posts = site.posts | where: "permalink", "/hastighed/" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-{% assign site_posts = site.posts | where: "permalink", "/kondital-loeb/" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-{% assign site_posts = site.posts | where: "permalink", "/rm-beregner/" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-{% assign site_posts = site.posts | where: "permalink", "/tab-fedt-paa-maven/" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-{% assign site_posts = site.posts | where: "permalink", "/kondital/" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-{% assign site_posts = site.posts | where: "permalink", "/artikel/udregning-af-fedtprocent/" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
-
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+{% endfor %}
 
 ## Blog posts skrevet i 2020
 

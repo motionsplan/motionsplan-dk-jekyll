@@ -1,17 +1,19 @@
 ---
-title: &title "Biohacker: Definition og guide til hvad biohacking er?"
+title: &title "Biohacking: Definition og begynderguide til at blive biohacker"
+seo_title: "Biohacking • Bliv biohacker med træning [Begynderguide] »"
+description: "Jeg har lavet en begynderguide til biohacking. Mød 5 fascinerende biohackere og få råd til, hvordan du kan planlægge din biohacker træning. Kom i gang nu!"
 permalink: /hvad-er-biohacking/
 language: da
 header:
-  overlay_image: https://scx1.b-cdn.net/csz/news/800/2018/1-thedangersof.jpg
-  teaser: https://scx1.b-cdn.net/csz/news/800/2018/1-thedangersof.jpg
+  overlay_image: https://images.unsplash.com/photo-1573511860302-28c524319d2a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80
+  teaser: https://images.unsplash.com/photo-1573511860302-28c524319d2a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
   overlay_filter: 0.2
   caption: *title
 category:
   - Viden om
 tags:
   - biohacking
-last_modified_at: 2020-06-11T08:14:14Z
+last_modified_at: 2021-04-03T08:14:14Z
 toc: true
 feature_row:
   - image_path: https://imgcdn.saxo.com/_9781512121278/0x500
@@ -32,11 +34,13 @@ feature_row:
 
 Jeg har et stykke tid været interesseret i biohacking. En biohacker måler fx biomarkører i forhold til søvn og restitution og bruger det til at planlægge sin træning. Derfor fik jeg lyst til at dykke ned i, hvad biohacking er?
 
-Hvad er biohacking? **Biohacking betyder, at man hacker et biologisk system eller en biologisk proces. I biohacking skiller man tingene fra hinanden og sætter dem sammen på en ny og bedre måde. Biohacking er en del af en voksende social bevægelse, hvor individer, grupper og foreninger udforsker og forbedrer biologien med udgangspunkt i en gør-det-selv-mentalitet.**
+Hvad er biohacking? **Biohacking betyder, at man hacker et biologisk system eller en biologisk proces. I biohacking skiller man tingene fra hinanden og sætter dem sammen på en ny måde. Biohacking er en del af en voksende social bevægelse, hvor individer, grupper og foreninger udforsker og forsøger at forbedre biologien.**
 
 Det er en meget bred definition af biohacking. Der er mange forskellige indgangsvinkler til biohacking.
 
 Jeg vil prøve at komme forbi forskellige aspekter ved biohacking og præsentere nogle af de mere berømte (og ekstreme) biohackere, for at vise bredden i, hvad biohacking er.
+
+{% include figure image_path=page.header.overlay_image caption=page.description alt="biohacking træning hjernen" %}
 
 ## Hvad er biohacking?
 
@@ -44,7 +48,7 @@ Biohacking er at tage kontrol over din krop, dit sind og dit liv og forsøge at 
 
 Rationalet er, at man med videnskab og empiriske eksperimenter med sig selv som forsøgsperson kan gøre sig selv til en bedre version. Biohackere bruger ofte teknologi til at indsamle data og forsøge at bruge resultaterne til at **få mere energi**, **blive stærkere**, **tænke hurtigere** og ganske enkelt **leve smartere og sundere**.
 
-Du kan se Martin Kremmer fortælle om biohacking i denne video fra Tedx:
+Du kan se Martin Kremmer fortælle om biohacking i denne video fra [Tedx](https://tedxcopenhagen.dk/talks/biohack-your-future):
 
 {% include video provider="youtube" id="ADyCY382lAY" %}
 
@@ -105,7 +109,7 @@ I Min Sindssygt Sunde Familie følger du bl.a. Rasmus Just og hans kone, som kal
 
 På den måde udsendelserne er klippet, så kan tingene godt virke ret ekstreme, men biohacking kan være for alle, når man finder en god måde at gå til opgaven på.
 
-## Eksempler på forskellige biohackere
+## 4 spændende biohackere
 
 Der er naturligvis også frontløbere inden for biohacking. En beskrivelse af dem kan være med til at indikere, hvor bred biohacking-kulturen er.
 
@@ -113,9 +117,9 @@ Fælles for alle biohackere er, at man forsøger at tilegne sig videnskabelig vi
 
 Lad os kigge på et par af frontløberne, som er villige til at gå lidt til ekstremerne.
  
-## Neil Harbisson kan høre farver
+## Biohacker Neil Harbisson kan høre farver
 
-{% include figure image_path="https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/d06593f2820b67dbb5abfceaa20aa8240d779850_1600x1200.jpg?c=1050%2C550&w=1050" caption="Neil Harbisson fik i 2013 indopereret en antenne i baghovedet, som gør ham i stand til at høre farver" %}
+{% include figure image_path="https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/d06593f2820b67dbb5abfceaa20aa8240d779850_1600x1200.jpg?c=1050%2C550&w=1050" caption="Neil Harbisson fik i 2013 indopereret en antenne i baghovedet, som gør ham i stand til at høre farver" alt="neil harbisson antenne biohacking" %}
 
 <div style="max-width:854px"><div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://embed.ted.com/talks/neil_harbisson_i_listen_to_color" width="854" height="480" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
 
@@ -131,9 +135,9 @@ Aaron Traywick sprøjtede som 28-årig en utestet herpesvaccine i benet, som du 
 
 Aaron Traywick blev i 2018 fundet død i en såkaldt en lydisoleret, mørk vandtank, hvor forsøgspersonens sanseindtryk reduceres til et minimum. Han var formentlig ved at eksperimentere i isolationstanken, da han druknede ved et uheld i vandtanken. Han blev fundet med bedøvelsesmidlet ketamin i blodet.
 
-## Teemu Arina skriver A Biohacker Handbook
+## Teemu Arina skriver _A Biohacker Handbook_
 
-{% include figure image_path="https://lounge.fim.com/wp-content/uploads/2018/10/FIM_asiantuntija_Teemu-Arina_3_.jpg" caption="Teemu Arina begynder at biohacke sig selv for at blive rask" %}
+{% include figure image_path="https://lounge.fim.com/wp-content/uploads/2018/10/FIM_asiantuntija_Teemu-Arina_3_.jpg" caption="Teemu Arina begynder at biohacke sig selv for at blive rask" alt="teemu arina biohacker handbook" %}
 
 Teemu Arina gik som 19 årig ned med stress og blev medicineret hårdt mod et mavesår. Teemu valgte at gøre, som mang gør nu om dag. Han søgte på internettet efter en måde at få det bedre på. På den måde er Teemu et godt billede på mange biohackere.
 
@@ -155,10 +159,14 @@ Teemu bruger selv urter, lydterapi og laserteknologi til at optimere sit liv. Og
 
 Biohacking kan altså i teorien gå lige fra rent faktisk at spise 600 gram grøntsager om ugen, måle sine skridt til mere avancerede målemetoder og en adfærd, hvor man prøver at modificere kroppen. 
 
-Jeg kan altså ikke give en helt præcis definition på, hvornår man er biohacker. Det springende punkt er nok, hvornår man selv identificerer sig som biohacker. 
+Jeg kan altså ikke give en helt præcis definition på, hvornår man er biohacker. Det springende punkt er nok, hvornår man selv identificerer sig som biohacker?
 
 [Anders Nedergaard](https://andersnedergaard.dk/fitness-mk/fitness-m-k-253/) har talt med Rasmus Just, som er med i Min Sindssygt Sunde Familie. Det er interessant, hvordan udeforstående dømmer livsstilen uden rigtigt at kende den i detaljer.
 
-Som skrevet har jeg selv eksperimenteret med at måle min HRV, som jeg har [skrevet lidt om i dette indlæg om heart rate variability](/hrv/).
+<a class="spreaker-player" href="https://www.spreaker.com/user/anders_nedergaard/253-biohacking" data-resource="episode_id=29721297" data-theme="light" data-autoplay="false" data-playlist="false" data-cover="https://d3wo5wojvuv7l.cloudfront.net/images.spreaker.com/original/d5e15be562fee05af164e9c2803d11fb.jpg" data-width="100%" data-height="400px">Listen to "#253 Biohacking - Just did it" on Spreaker.</a><script async src="https://widget.spreaker.com/widgets.js"></script>
+
+Som skrevet har jeg selv eksperimenteret med at måle min HRV, som jeg har skrevet lidt om i dette indlæg om [heart rate variability](/hrv/).
+
+## Køb bøger om biohacking
 
 {% include feature_row type="left" %}

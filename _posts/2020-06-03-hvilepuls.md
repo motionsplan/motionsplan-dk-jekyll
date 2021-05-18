@@ -1,5 +1,7 @@
 ---
-title: &title "Hvilepuls: Hvad er hvilepulsen og hvordan måles den?"
+title: &title "Hvilepuls 💓 Hvad er hvilepulsen og hvordan måles den?"
+seo_title: "Hvilepuls • Alt du skal vide for mænd og kvinder [Tabel]"
+description: "Alt om din hvilepuls med tabel ✓ Følg din træning ✓ Hvad er en god hvilepuls? ✓ Tabel med hvilepuls for mænd og kvinder ✓ Hvordan måler man hvilepuls?"
 permalink: /hvilepuls/
 language: da
 header:
@@ -15,17 +17,22 @@ tags:
   - test
   - hvilepuls
   - tracking
-last_modified_at: 2020-06-03T08:14:14Z
+last_modified_at: 2021-02-22T08:14:14Z
 toc: true
 ---
 
 Din hvilepuls kan være en god indikator på dit helbred og din form. Jeg bruger hvilepulsen som en let måde at følge effekten af min træning. Bl.a. kan du vurdere hvad en god hvilepuls er ud fra en tabel.
 
-Hvad er hvilepulsen? **Hvilepulsen er antallet af hjerteslag pr. minut, når din krop er i fuldstændig hvile. Hvilepulsen måles bedst liggende. Det bedste tidspunkt at måle hvilepulsen er om morgenen lige inden, du står op. Du kan selv måle hvilepulsen ved at føle den manuelt, med et pulsur eller med et blodtryksapparat.**
+Hvad er hvilepulsen? **Hvilepulsen er antallet af hjerteslag pr. minut, når din krop er i fuldstændig hvile.**
 
-Når hjertet slår og ved sin sammentrækning sender blod rundt i systemet, sker der en kortvarig udvidelse af din blodåre, fordi der kommer et højere tryk i blodåren. Det er den udvidelse, du kan mærke som pulsen. 
+Når hjertet slår og ved sin sammentrækning sender blod rundt i systemet, sker der en kortvarig udvidelse af din blodåre, fordi der kommer et højere tryk i blodåren. Det er den udvidelse, du kan mærke som **pulsen**.
 
-Jeg kigger i det følgende på, hvad der påvirker hvilepulsen, og hvordan man måler sin hvilepuls? Samtidig kan du se en hvilepuls-tabel, som giver dig et bud på, hvor god form, du er i.
+I dette indlæg får du ud over en **tabel med hvilepuls for mænd og kvinder** svar på følgende spørgsmål:
+
+- hvad der påvirker hvilepulsen?
+- hvordan måler man sin hvilepuls?
+- hvad er en god hvilepuls?
+- hvordan træner man sin hvilepuls?
 
 ## Hvad påvirker hvilepulsen?
 
@@ -38,7 +45,7 @@ Der sker to tilpasninger i hjertet ved konditionstræning, som har betydning for
 - **Venstre hjertekammer vokser**. Hvis man arbejder med lidt lavere intensitet over lang tid, hvor hjertet kan følge med, så vil hjertet tilpasse sig med at venstre hjertekammer vokser, så det kan fyldes mere op og slagvolumen stiger. 
 - **Hjertemusklen bliver stærkere**. Hvis man arbejder med højere intensiteter, så vil hjertemusklen blive stærkere og vokse i størrelse, så det kan pumpe kraftigere.
 
-{% include figure image_path="https://athleticlab.com/wp-content/uploads/2017/12/ventriculargeo-1024x552.jpg" caption="Venstre hjertekammer vokser i rumfang ved kredsløbstræning. Forøgelsen af slagvolumen kan ske ved både lave og høje intensiteter. Hjertemusklen bliver stærkere, når man arbejder med højere intensitet. Kilde: [athleticlab.com](https://athleticlab.com/aerobic-system-development-anaerobic-dominant-sports-michael-bruno/)." %}
+{% include figure image_path="https://athleticlab.com/wp-content/uploads/2017/12/ventriculargeo-1024x552.jpg" caption="Venstre hjertekammer vokser i rumfang ved kredsløbstræning. Forøgelsen af slagvolumen kan ske ved både lave og høje intensiteter. Hjertemusklen bliver stærkere, når man arbejder med højere intensitet. Kilde: [athleticlab.com](https://athleticlab.com/aerobic-system-development-anaerobic-dominant-sports-michael-bruno/)." alt="hvilepuls afhænger af slagvolumen" %}
 
 Når hjertekammeret bliver større, så kan hjertet fyldes mere op, og når hjertet er stærkere kan hjertet også tømme sig mere pr. hjerteslag. Alt andet lige skal vi bruge den samme mængde blod rundt i systemet i minuttet. Derfor behøver hjertet altså ikke at slå så mange gange, og hvilepulsen falder, fordi du kommer i bedre form.
 
@@ -99,9 +106,11 @@ Det ved jeg ikke om er rigtigt. Måske ved du det, så er du velkommen til at br
 
 ## Hvornår skal jeg måle hvilepulsen?
 
-Det er bedst at måle din hvilepuls om morgen, når du lige er vågnet og stadig ligger i sengen. Det er nemlig her din krop er længst nede i hviletilstand. 
+Hvilepulsen måles bedst liggende om morgenen lige inden, du står op. Det er bedst at måle din hvilepuls om morgen, når du lige er vågnet og stadig ligger i sengen. Det er nemlig her din krop er længst nede i hviletilstand.
 
 Så snart du står op vil kroppen begynde at have behov for mere energi, og så går stofskiftet op, hvilket betyder at hjertet bliver nødt til at slå lidt flere gange for at levere ilt og næringsstoffer rundt i systemet.
+
+Du kan selv måle hvilepulsen ved at føle den manuelt, med et pulsur eller med et blodtryksapparat.
 
 ## Sådan måler du din hvilepuls
 
@@ -111,7 +120,7 @@ Der er flere måder at finde frem til din hvilepuls på. Du kan enten bruge stop
 
 - **Manuelt med stopur.** Du kan let måle din hvilepuls uden at have brug for udstyr. Det er den måde jeg foretrækker selv at måle hvilepulsen på. For at måle pulsen manuelt, så skal du bare finde et sted på kroppen, hvor der er en stor blodåre, der ligger tæt på overfladen. For de fleste kan man let mærke pulsen på håndleddet eller ved halsen. Typisk bruger jeg pege- og langefingeren til at mærke pulsen.
 
-{% include figure image_path="https://i.insider.com/5eb9c8155f726e305642adb7?width=800&format=jpeg&auto=webp" caption="Du kan enten tage pulsen på håndleddet eller på halsen. Kilde: [www.insider.com](https://www.insider.com/what-is-a-good-resting-heart-rate)." %}
+{% include figure image_path="https://i.insider.com/5eb9c8155f726e305642adb7?width=800&format=jpeg&auto=webp" caption="Du kan enten tage pulsen på håndleddet eller på halsen. Kilde: [www.insider.com](https://www.insider.com/what-is-a-good-resting-heart-rate)." alt="mål hvilepuls på håndleddet" %}
 
 1. Lig helt roligt og afslappet
 2. Sæt langefingeren og pegefingeren på din halspulsåre og pres lidt, indtil du kan mærke pulsen. 
@@ -125,7 +134,7 @@ Du kan også måle din hvilepuls med følgende redskaber:
 
 - **Pulsur.** Du kan bruge et pulsur. Det er klart mest præcist, hvis du bruger en rem, men nogle nye ure kan også måle det direkte gennem håndleddet. Måling direkte i håndleddet er dog forbundet med større usikkerheder.
 
-Du gør følgende:
+Du gør følgende for at måle din hvilepuls:
 
 1. Læg ur og pulsmålerbæltet ved siden af din seng om aftenen (inden for rækkevidde uden at du skal rejse dig). Jeg vil ikke anbefale at sove med pulsmåleren på. 
 2. Sov dejligt!
@@ -156,20 +165,19 @@ Jeg er selv blevet ret optaget af _heart rate variability_, hvor man ud over en 
 
 Hvis du er rask, så bør du allerede inden 3-4 uger efter du starter et træningsforløb kunne registrere en nedgang i din hvilepuls. Det kræver naturligvis, at træningen belaster kredsløbet, så hjertet forbedrer sin effektivitet.
 
-Hvis du allerede er veltrænet, så tager det naturligvis længere tid at flytte din hvilepuls, og der er også grænser for hvor langt den kommer ned. 
+Hvis du allerede er veltrænet, så tager det naturligvis længere tid at flytte din hvilepuls, og der er også grænser for hvor langt den kommer ned.
 
-{% comment %}
-***
+## Hvordan træner man sin hvilepuls?
+
+Du træner din hvilepuls ved at træne din hjerte. Det er primært slagvolumen, der har betydning for, hvad din hvilepuls er. Derfor skal du lave træning, som kan forøge din hvilepuls. Det kan man primært gøre ved aerob træning.
+
+Hvis du skal forbedre din slagvolumen, så får du i første omgang mest ud af at lave aerob træning med lavere intensitet. Når du træner med lavere intensitet, så har hjertet nemlig tid til at udvide sig mange gange. 
+
+Hvis du vil læse om flere [tilpasninger ved konditionstræning, så kan du læse dette indlæg](/tilpasning-konditionstraening/).
 
 ## Er en lav hvilepuls altid godt?
 
-Hvilepulsen kan også påvirkes af sygdom og alderdom. Hvis du har sygdomme omkring hjertet kan hvilepulsen falde. Fx hvis du har en blodprop i hjertet, hjertefejl eller betændelse i hjertet. Et højt blodtryk, lavt stofskifte, gigtfeber og medicin kan også være med til at sænke hvilepulsen. 
-
-Nogle rapporterer også, at skader på hjertet med alderen kan forårsage en lavere hvilepuls.
-
-***
-
-{% endcomment %}
+Nej. Din hvilepuls kan også påvirkes af sygdom og alderdom. En lav hvilepuls kan være et symptom på sygdomme omkring hjertet kan hvilepulsen falde. En blodprop i hjertet, hjertefejl eller betændelse i hjertet, et højt blodtryk, lavt stofskifte og medicin kan også være med til at sænke hvilepulsen. 
 
 ## Hvad kan du bruge hvilepulsen til?
 

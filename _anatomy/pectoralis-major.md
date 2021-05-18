@@ -1,7 +1,10 @@
 ---
 title: Brystmuskel
+group:
+  - Bryst
 name:
   latin: Pectoralis Major
+  da: Brystmuskel
 origin:
   da: Brystben, kraveben og ribbensbrusk
 insertion:

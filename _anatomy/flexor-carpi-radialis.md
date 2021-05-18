@@ -1,14 +1,16 @@
 ---
 title: "Flexor Carpi Radialis"
+group:
+  - Arme
 name:
   latin: Flexor Carpi Radialis
 tags:
   - imagemap
   - muskel
 origin: 
-  da: Et hoved fra hver side af nederste bageste del af lårbenet.
+  da: 
 insertion: 
-  da: i akillessenen og fæster på hælbenet.
+  da: 
 function:
   da:
     - short: Flexes the wrist.
@@ -20,8 +22,6 @@ function:
       extended: This means that the flexor carpi radialis muscle bends the wrist joint such that the angle between the palm of the hand and the front of the forearm decreases (i.e. it moves the palm of the hand toward the front of the forearm).
     - short: Abducts the hand.
       extended: This means that the flexor carpi radialis muscle bends the wrist sideways such that the thumb side of the hand moves toward the forearm.
-exercises:
-  - Stående calf-raise
 image: /assets/images/anatomy/flexor-carpi-radialis.jpg
 image_focus: /assets/images/anatomy/focus-flexor-carpi-radialis.jpg
 coords:

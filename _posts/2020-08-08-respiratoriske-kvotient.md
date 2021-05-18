@@ -1,7 +1,8 @@
 ---
-title: &title "Den respiratoriske (RER) og metaboliske udvekslingskvotient (RQ) og forbrændingen"
+title: &title "Respiratoriske (RER) og metaboliske udvekslingskvotient (RQ)"
+description: "Den respiratoriske udvekslingskvotient (R eller RER) og metaboliske udvekslingskvotient (RQ) beskriver forholdet mellem fedt og kulhydrat i forbrændingen."
 permalink: /respiratoriske-metaboliske-udvekslingskvotient/
-last_modified_at: 2020-08-17T09:41:09Z
+last_modified_at: 2021-01-17T09:41:09Z
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1555708982-8645ec9ce3cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1989&q=80
@@ -27,13 +28,13 @@ Når vi laver tests med iltmaske på løbebånd, så måler vi den respiratorisk
 *[RER]: Respiratoriske udvekslingskvotient
 *[RQ]: Metaboliske udvekslingskvotient
 
-Hvad er den respiratoriske udviklingskvotient? **Den respiratoriske udvekslingskvotient er den mængde karbondioxid (CO<sub>2</sub>), der udskilles gennem lungerne, divideret med den mængde oxygen (O<sub>2</sub>), der optages i samme tidsrum.**
+Hvad er den respiratoriske udviklingskvotient (RER)? **Den respiratoriske udvekslingskvotient er den mængde karbondioxid (CO<sub>2</sub>), der udskilles gennem lungerne, divideret med den mængde oxygen (O<sub>2</sub>), der optages i samme tidsrum.**
 
 Den [respiratoriske udvekslingskvotient](https://da.wikipedia.org/wiki/Respiratoriske_udvekslings_kvotient) kan give et indblik i, hvilken metabolisme der foregår i kroppen. 
 
 Den metoboliske udvekslingskvotient (RQ) afhænger af, hvilke fødevarer der forbrændes i kroppen. Der kan forbrændes kulhydrat, fedt, protein og alkohol. RQ afspejler, hvilke næringsstoffer der forbrændes. 
 
-Hvad er den metaboliske udviklingskvotient? **Den metaboliske udvekslingskvotient er den mængde karbondioxid (CO<sub>2</sub>), der udskilles fra cellerne, divideret med den mængde oxygen (O<sub>2</sub>), der forbruges i samme tidsrum i forbrændingen i cellerne.**
+Hvad er den metaboliske udviklingskvotient (RQ)? **Den metaboliske udvekslingskvotient er den mængde karbondioxid (CO<sub>2</sub>), der udskilles fra cellerne, divideret med den mængde oxygen (O<sub>2</sub>), der forbruges i samme tidsrum i forbrændingen i cellerne.**
 
 RQ varierer mellem 0,6 og 1,0 og afspejler den øjeblikkelige CO<sub>2</sub>-produktion i vævene delt med det samtidige O<sub>2</sub>-forbrug.
 
@@ -49,11 +50,11 @@ Når man laver tests på løbebånd med iltmaske måler man altså den respirato
 
 På en normal kost er RER omkring 0,8 - 0,85 i hvile. Der forbrændes hovedsageligt fedt med værdier fra 0,7 - 0,85, hvor der er 100% fedtforbrænding ved 0,7.
 
-{% include figure image_path="http://turboweb.dk/idr/bilag/pics/RQogintensitet.jpg" caption="RQ i relation til VO<sub>2</sub> i en arbejdsperiode. Kilde: Schibye (2017)" %}
+{% include figure image_path="http://turboweb.dk/idr/bilag/pics/RQogintensitet.jpg" caption="RQ i relation til VO<sub>2</sub> i en arbejdsperiode. Kilde: Schibye (2017)" alt="Metaboliske udvekslingskvotient (RQ)" %}
 
 Der vil dog altid være en mindre kulhydratforbrænding, så i praksis kommer mennesker ikke ned på 0,7. Når værdien er over 0,85 skifter forbrændingen gradvist over mod kulhydratforbrænding, og hvis man kommer op på 1,0, så er forbrændingen næsten udelukkende kulhydrrater.
 
-{% include figure image_path="http://turboweb.dk/idr/bilag/pics/RQ.jpg" caption="Den respiratoriske kvotient ved forbrænding af fedt og kulhydrat i forskellige blandingsforhold. Kilde: Schibye (2017)" %}
+{% include figure image_path="http://turboweb.dk/idr/bilag/pics/RQ.jpg" caption="Den respiratoriske kvotient ved forbrænding af fedt og kulhydrat i forskellige blandingsforhold. Kilde: Schibye (2017)" alt="Den respiratoriske udvekslingskvotient (RER)" %}
 
 | RQ   | %E fra fedt | %E fra kulhydrat |
 |------|:-----------:|:----------------:|
@@ -69,7 +70,7 @@ Jo hårdere intensitet du træner med, desto højere vil RER-værdien være. RER
 
 RER bruges ofte i forbindelse med fx VO<sub>2</sub>-max-tests som en af indikatorerne på, hvornår deltageren er tæt på at være nær grænserne for kredsløbet og den maksimale iltoptagelse. Hvis RER-værdien kommer over 1,0 og gerne lidt højere, så kan det være et slutpunktskriterium for VO<sub>2</sub>-max-testen.
 
-## Konklusion
+## Konklusion om RER og RQ
 
 RER-værdien er altså forholdet mellem det udskilte CO<sub>2</sub> og den optagede ilt. Så længe du ikke arbejder maksimalt vil RER-værdien kunne bruges til fortælle noget om fordelingen mellem forbrænding af fedt (RQ=0,7) og kulhydrat (RQ=1,0).
 

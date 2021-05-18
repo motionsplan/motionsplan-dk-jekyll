@@ -1,14 +1,17 @@
 ---
-title: "Trapezius"
+title: "Kapppemusklen - Trapezius"
+group:
+  - Ryg
 name:
   latin: "Trapezius"
+  da: "Kappemusklen"
 tags:
   - imagemap
   - muskel
-origin: 
-  da: Et hoved fra hver side af nederste bageste del af lårbenet.
-insertion: 
-  da: i akillessenen og fæster på hælbenet.
+#origin: 
+#  da: Nakkehvirvlen og nakkebåndet. Desuden torntappene fra 6. halshvirvel til 12. brysthvirvel
+#insertion: 
+#  da: "Øverste del: Yderste del af kravebenet. Midterste del: Skulderhøjden og øverste rand af skulderkammen. Nederste del: Inderste del af skulderkammen."
 function:
   da:
     - short: Elevates the scapula.
@@ -20,8 +23,6 @@ function:
       extended: This means that the trapezius muscle lifts the shoulder girdle up (i.e. shrugging your shoulders).
     - short: Retracts the scapula.
       extended: This means that the trapezius muscle pulls the scapula, or shoulder blade, rearward such that it approaches the spine.
-exercises:
-  - Stående calf-raise
 image: /assets/images/anatomy/trapezius.jpg
 image_focus: /assets/images/anatomy/focus-trapezius.jpg
 coords:
@@ -37,11 +38,19 @@ _{{ page.name.latin }}_
 
 {% include figure image_path=page.image alt=page.title caption=page.title %}
 
-## Funktion
+## Funktion for {{ page.title }}
 
 {% for f in page.function.da %}
 - **{{ f.short }}**.
   {{ f.extended | markdownify }}
 {% endfor %}
 
-{% include figure image_path=page.image_focus alt=page.title caption=page.title %}
+## Træning af {{ page.title }}
+
+Her er en nem og effektiv øvelse til for trapezius (kappemusklen). Øvelsen er også god til at styrke øvre ryg. Brug en elastik eller evt. en håndvægt til øvelsen.
+
+{% include video provider="youtube" id="AYOTS-L4_Wg" %}
+
+{% if page.image_focus %}
+  {% include figure image_path=page.image_focus alt=page.title caption=page.title %}
+{% endif %}

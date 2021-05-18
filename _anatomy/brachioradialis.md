@@ -1,7 +1,9 @@
 ---
 title: "Brachoradialis"
+group:
+  - Arme
 name:
-  latin: Brachioradialis
+  latin: Brachoradialis
 tags:
   - imagemap
   - muskel
@@ -16,8 +18,6 @@ function:
   en:
     - short: Flexes the arm at the elbow.
       extended: This means that the brachioradialis muscle bends the arm at the elbow joint such that there is a decrease in the angle between the forearm and the upper arm.
-exercises:
-  - Stående calf-raise
 image: /assets/images/anatomy/brachioradialis.jpg
 image_focus: /assets/images/anatomy/focus-brachioradialis.jpg
 coords:

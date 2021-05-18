@@ -1,0 +1,25 @@
+<form class="calculator" id="calculator_how_far_interval">
+    <fieldset>
+        <legend>Beregn hvor langt du skal løbe på et tidsinterval?</legend>
+        <div class="form-group">
+            <label>Hastighed per kilometer (min:sek)</label>
+            <input type="number" placeholder="min" name="min" min="0" max="5000" class="input-mini"> <span class="help-inline">min</span>
+            <input type="number" placeholder="sec" name="sec" min="0" max="60" class="input-mini"> <span class="help-inline">sek</span>
+        </div>
+        <div class="form-group">
+            <label>Intervallets længde (min:sek)</label>
+            <input type="number" placeholder="min" name="duration_min" min="0" max="59" class="input-mini"> <span class="help-inline">min</span>
+            <input type="number" placeholder="sec" name="duration_sec" min="0" max="59" class="input-mini"> <span class="help-inline">sek</span>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <legend></legend>
+        <div class="form-group">
+            <label>Længde (meter)
+                <input type="text" name="distance_to_run" disabled class="input-small">
+            </label>
+        </div>
+    </fieldset>
+    {% include calculator-footer.html %}
+</form>

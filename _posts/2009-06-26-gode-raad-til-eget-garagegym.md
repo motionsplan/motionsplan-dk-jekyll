@@ -1,10 +1,11 @@
 ---
-title: "Home Gym: Tips og udstyr til dit eget garagegym"
+title: &title "Home Gym: Tips og udstyr til dit eget garagegym"
 permalink: /artikel/gode-raad-til-eget-garagegym/
 language: da
 header:
   overlay_image: /assets/images/blog/gode-raad-til-eget-garagegym.jpg
   teaser: /assets/images/blog/gode-raad-til-eget-garagegym.jpg
+  caption: *title
 tags:
   - garagegym
   - gør-det-selv

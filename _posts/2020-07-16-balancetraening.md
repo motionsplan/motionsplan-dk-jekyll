@@ -1,5 +1,7 @@
 ---
-title: &title "Balancetræning 🤸: Effektiv træning af din balance [2021]"
+title: &title "Balancetræning 🤸: Effektiv træning af din balance"
+seo_title: "Balancetræning • Alt om balance og balanceøvelser [2021] »"
+description: "Balancetræning bør være en del af din træning. Vi har kigget på, hvad balance er, og hvordan du træner din balance mest effektivt med balanceøvelser?"
 permalink: /balance/
 language: da
 header:
@@ -11,18 +13,31 @@ tags:
 category:
   - Viden om
   - Træning
-last_modified_at: 2020-07-17T08:39:32Z
+last_modified_at: 2021-02-18T08:39:32Z
 ---
 
-Balancetræning bør være en del af din træning, da træning af balance forebygger skader. Vi har kigget på, hvad balance er for noget, og hvordan du træner din balance mest effektivt?
+Balancetræning bør være en del af din træning, da træning af balance forebygger skader. Vi har kigget på, hvad balance er, og hvordan du træner din balance mest effektivt med balanceøvelser?
 
 Hvad er balance? **Balance er en motorisk færdighed, som kan trænes. Balance omfatter evnen til at opretholde en ligevægtstilstand i kroppen, mens man er stationær eller i bevægelse. Balance handler altså om at kunne stå eller sidde stille eller bevæge sig uden at falde.**
+
+I dette indlæg får du svar på følgende spørgsmål:
+
+- Hvad er postural kontrol og balancetræning?
+- Hvad består balancesansen af?
+- Hvordan kan du træne balancetræning?
+- Rigtig mange eksempler på øvelser til balancetræning under forskellige forudsætninger.
+
+{% include figure image_path=page.header.overlay_image alt=page.title caption=page.title %}
+
+## Hvad er postural kontrol?
 
 I forbindelse med balance, kan man også tale om **postural kontrol**. Postural kontrol er nært forbundet med bevægelse, da enhver bevægelse i kroppen forstyrrer ligevægtstilstanden i kroppen og derved balancen.
 
 Postural kontrol
 : Nervesystemets evne til at sikre kroppens tyngdepunkt (centre of mass) har sammenhæng med understøttelsesfladen (base of support). Postural kontrol består af postural stabilitet, som er evnen til at opretholde kroppens tyngdepunkt inden for understøttelsesfladen, og postural orientering, som er kroppens evne til at opretholde et hensigtsmæssigt forhold mellem kroppens segmenter og mellem kroppen og omgivelserne under udførelsen af en bevægelse.
 {: .notice .notice--info }
+
+## Hvad er balancetræning?
 
 **Hvad er balancetræning?** Balancetræning er træning, der har til formål at forbedre evnen til at holde eller genfinde balancen og holde kroppen i ro under forskellige betingelser. Balancetræning forbedrer den posturale stabilitet, hvilket omfatter at opreholde en ligevægtstilstand både med og uden bevægelse.
 
@@ -34,7 +49,7 @@ Balancetræning gavner præstationsevnen og forebygger skader. Samtidig er det s
 
 Balancetræning er en af flere typer træning, der er gavnlig for at lave en komplet atlet.
 
-{% include figure image_path="https://www.barbellmedicine.com/wp-content/uploads/2020/01/Screen-Shot-2019-10-30-at-9.36.43-PM-e1578938168537.png" caption="Balancetræning er en af de træningsformer, man bør lave for at blive en komplet atlet. Kilde: [www.barbellmedicine.com](https://www.barbellmedicine.com/blog/resistance-training-for-youth-part-iv/)" %}
+{% include figure image_path="https://www.barbellmedicine.com/wp-content/uploads/2020/01/Screen-Shot-2019-10-30-at-9.36.43-PM-e1578938168537.png" caption="Balancetræning er en af de træningsformer, man bør lave for at blive en komplet atlet. Kilde: [www.barbellmedicine.com](https://www.barbellmedicine.com/blog/resistance-training-for-youth-part-iv/)" alt=page.title %}
 
 Trojian og McKeag (2006) undersøgte 230 unge mennesker. Inden en sæson lavede de en **simpel balancetest** på et ben med det andet ben bøjet. Deltagerne i studiet blev bedt om at lukke øjnene i 10 sekunder. I sæsonen var der 28 ankelskader. Forskerne fandt, at hvis ikke deltagerne kunne holde balancen i de 10 sekunder eller følte sig ude af balance, så var risikoen for ankelskader større.
 
@@ -44,7 +59,9 @@ Hvis du har en dårlig balanceevne, så skyldes det **ofte mangel på træning**
 
 > In order to improve balance, what we’ve seen in research is that you need to spend somewhere between maybe seven and 10 minutes, three times a week, working through these different variations. If you can do that, it will have big benefits for you, not only in safety, as you move through the world, but usually we see great improvements as well in generalized athleticism.
 
-— <cite>[Dr. Eric Cobb](https://zhealtheducation.com/episode-200-quickly-improve-balance-part-1/), Z-health</cite>
+— <cite>[Dr. Eric Cobb](https://zhealtheducation.com/blog/episode-200-quickly-improve-balance-part-1/), Z-health</cite>
+
+Jeg synes selv både [episode 1](https://zhealtheducation.com/blog/episode-200-quickly-improve-balance-part-1/) og [episode 2](https://zhealtheducation.com/blog/episode-201-quickly-improve-balance-part-2/) om, hvordan man hurtigt forbedre sin balance af Eric Cobb fra Z-health er lærerige at kigge på.
 
 ## Balancetræning og specificitet og ustabile underlag
 
@@ -97,11 +114,11 @@ Du kan også tage alle de muligheder, der byder sig i løbet af hverdagen for at
 
 ## Hvor kan man træne balancetræning?
 
-Balancetræning er heligvis let at implementere, fordi du er dit eget træningsredskab. Man behøver **ingen redskaber** for at kunne træne balance effektivt og udfordrende.
+Balancetræning er heldigvis let at implementere, fordi du er dit eget træningsredskab. Du behøver **ingen redskaber** for at kunne træne balance effektivt og udfordrende.
 
 Det har været meget populært at introducere redskaber som BOSU-bolde og vippebræt til balancetræningen, og selvom det kan være sjovt at udfordrende at træne på de redskaber, så giver det formentlig ikke nogen effekt i forhold til de situationer, hvor du har brug for din balance i hverdagen eller i din idræt. Når du træner på redskaber, så bliver du bedre til at holde balancen på redskaberne - og får en større bevægelseserfaring - men husk princippet om specificitet.
 
-## Hvem kan træne balancetræning?
+## Hvem kan træne balancetræning og balanceøvelser?
 
 **Balancetræning er for alle**. Det handler om, hvordan du tilrettelægger træningen. Måske skal du starte med at få lidt støtte ved fx at holde i en stol eller læne dig op ad væggen. Efterhånden vil balancen blive bedre, og du kan udnytte nogle af de variationsmuligheder, vi har beskrevet i dette indlæg. Selv dygtige balancekunstnere burde finde udfodringer i de lidt mere avancerede udgaver af balanceøvelserne.
 
@@ -186,6 +203,10 @@ Du stiller dig først på banen med hænderne i siden. Hænderne skal blive i si
 
 Nu skal du hinke i den rigtige rækkefølge gennem hinkebanen på et ben. Du skal lande præcist på afmærkningen og holde stillingen. For hver landing holder du fem sekunders pause, hvor standfoden holdes helt i ro. Du har to prøveforsøg og det tredje forsøg er tællende. Testen gentages på det modsatte ben.
 
+### Y- balance-test
+
+Y-balancetest er en enkel test til at teste balancen. Det er en forenkling af STAR-balancetesten med de vigtigste retninger at teste balancen i. Du kan læse [mere om Y-balancetesten her]({% link _posts/2020-11-19-y-balance.md %}).
+
 # Kom i gang med balancetræning
 
 Meget balancetræning foregår typisk på et ben, men der er faktisk mange forskellige muligehder. Balancetræning kan foregå på alle kropsdele, fx fødder, hænder, hoved, numse. At arbejde med buegangene i ørerne vil jeg også kalde en balanceøvelse.
@@ -244,7 +265,7 @@ Yoga Tree Pose er en rigtig god balanceøvelse på et ben. Den kan godt være li
 
 **Udgangssstillingen** er at stå på en fod. Gør dig lang, mens du holder hele kroppen i balance. Bøj det frie ben og sæt foden så højt op på standbenets inderlår som muligt. Knæet på det frie ben skal pege udad, så sørg for at åbne op i hoften. Armene strækkes lidge op med håndfladerne mod hinanden. Hold balancen så længe som muligt. Start fx med 20 sekunder, men arbejd op til et minut eller længere. Gentag på det andet ben.
 
-## Balance og stabilitet med modstand (Pertubationstræning)
+## Balanceøvelser og stabilitet med modstand (Pertubationstræning)
 
 [Marina Aagaard](http://marinaaagaardblog.com/2015/05/27/traening-af-balance-og-stabilitet-pertubationstraening/) har skrevet et glimrende indlæg om balancetræning, hvor man skal holde balance i forhold til udefrakommende påvirkninger.
 
@@ -268,9 +289,9 @@ Marina Aagaard foreslår bl.a. følgende balanceøvelser efter pertubationsprinc
 - Stå på balancebræt eller luftpude. En ven træder på luftpuden eller balancebrættet (set el. uset).
 - Sid eller knæl på stor bold. Træner puffer til bolden eller person (set el. uset).
 
-## Opsamling på balance og balancetræning
+## Opsamling på balance, balanceøvelser og balancetræning
 
-Det er bare at komme lidt i gang med balancetræning. Jeg har her forsøgt at opliste 
+Det er bare at komme lidt i gang med balancetræning. Jeg har i dette indlæg defineret, hvad balance og balancetræning er. Desuden har jeg oplistet en lang række øvelser, som kan være med til at træne din posturale kontrol, balance og kropsbeherskelse. 
 
 Hvad er **fordelene** ved balancetræning?
 
@@ -280,7 +301,12 @@ Hvad er **fordelene** ved balancetræning?
 - mange variationsmuligheder og man behøver ikke udstyr
 - kan varieres med sjove redskaber, fx bolde, ruller, vippebræt, luftpuder
 
-## Referencer til balance
+God balancetræning! Brug endelig kommentarerne, hvis du har flere gode forslag til øvelser til at træne balancen.
+
+## Referencer til balance og balanceøvelser
+
+<details markdown="1">
+  <summary>Se flere referencer om {{ page.title }}</summary>
 
 - Ambegaonkar, Jatin, Shane Caswell, Jason Winchester, Yohei Shimokochi, Nelson Cortes, og Amanda Caswell. 2013. “Balance Comparisons Between Female Dancers and Active Nondancers”. _Research quarterly for exercise and sport_ 84 (marts): 24–29. [https://doi.org/10.1080/02701367.2013.762287](https://doi.org/10.1080/02701367.2013.762287).
 - Behm, David G., Thomas Muehlbauer, Armin Kibele, og Urs Granacher. 2015. “Effects of Strength Training Using Unstable Surfaces on Strength, Power and Balance Performance Across the Lifespan: A Systematic Review and Meta-Analysis”. _Sports Medicine (Auckland, N.Z.)_ 45 (12): 1645–69. [https://doi.org/10.1007/s40279-015-0384-x](https://doi.org/10.1007/s40279-015-0384-x).
@@ -290,3 +316,4 @@ Hvad er **fordelene** ved balancetræning?
 - Kiers, Henri, Jaap van Dieën, Henk Dekkers, Harriët Wittink, og Luc Vanhees. 2013. “A Systematic Review of the Relationship between Physical Activities in Sports or Daily Life and Postural Sway in Upright Stance”. _Sports Medicine (Auckland, N.Z.)_ 43 (11): 1171–89. [https://doi.org/10.1007/s40279-013-0082-5](https://doi.org/10.1007/s40279-013-0082-5).
 - Kümmel, Jakob, Andreas Kramer, Louis-Solal Giboin, og Markus Gruber. 2016. “Specificity of Balance Training in Healthy Individuals: A Systematic Review and Meta-Analysis”. _Sports Medicine (Auckland, N.Z.)_ 46 (9): 1261–71. [https://doi.org/10.1007/s40279-016-0515-z](https://doi.org/10.1007/s40279-016-0515-z).
 - Trojian, T. H., og D. B. McKeag. 2006. “Single Leg Balance Test to Identify Risk of Ankle Sprains”. _British Journal of Sports Medicine_ 40 (7): 610–13. [https://doi.org/10.1136/bjsm.2005.024356](https://doi.org/10.1136/bjsm.2005.024356).
+</details>

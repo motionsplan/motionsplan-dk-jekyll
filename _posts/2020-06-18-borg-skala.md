@@ -1,6 +1,10 @@
 ---
-title: &title "Borg-skala 🚴🏃‍♀️: Intensitet- og anstrengelsesskala [PDF]"
-permalink: /borg/
+title: &title "Borg-skala: Intensitet- og anstrengelsesskala [PDF]"
+seo_title: "Borg-skala • Anstrengelses- og Intensitetsskala [Download] »"
+description: "Borg skala er en anstrengelsesskala og intensitetsskala. ✓ Hvad er Borgs skala? ✓ Træning på fornemmelsen ✓ Download Borgskalaen GRATIS!"
+permalink: /borg-skala/
+redirect_from:
+  - /borg/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1486739985386-d4fae04ca6f7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1652&q=80
@@ -14,13 +18,13 @@ tags:
   - kondition
   - kredsløb
   - fysiologi
-last_modified_at: 2020-08-11T08:14:14Z
+last_modified_at: 2021-02-11T08:14:14Z
 toc: true
 feature_row:
   - image_path: /assets/images/borg-skala-724x1024.jpg
     url: /assets/pdf/borg-skala-a4-format.pdf
     title: "Download Borg-skala"
-    excerpt: "Borgskala bearbejdet af [Morten Zacho til motion-online.dk](https://web.archive.org/web/20150316130540/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/borg-skala_paa_den_brugbare_maade/){:rel='nofollow'}. Set fra [hjerteforeningen.dk](https://hjerteforeningen.dk/motion/2018/02/27/intensitet-borgskala-og-puls/)."
+    excerpt: "Borgskala bearbejdet af [Morten Zacho til motion-online.dk](https://web.archive.org/web/20150316130540/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/borg-skala_paa_den_brugbare_maade/){:rel='nofollow'}. Set på [hjerteforeningen.dk](https://hjerteforeningen.dk/motion/2018/02/27/intensitet-borgskala-og-puls/)."
     alt: "Download Borgs intensitetsskala i PDF til løb og træning - Borg -skala"
     btn_label: "<i class='fas fa-file-pdf'></i> Download Borg skala"
     btn_class: "btn--danger"
@@ -29,6 +33,13 @@ feature_row:
 Jeg bruger ofte Borg-skalaen i min undervisning til at vurdere intensitet i træningen og ved tests. Jeg har researchet lidt på, hvad baggrunden for Borgs skala er, og hvordan skalaen for anstrengelse skal forstås.
 
 Hvad er Borg-skala? **Borg-skalaen er et subjektivt værktøj til at vurdere intensitet med. Borg-skalaen er altså en vurdering af oplevet eller følt anstrengelse. Skalaen går fra 6-20, hvor 20 er maksimal anstrengelse. Den oprindelige tanke var, at den afspejler udøverens puls, hvis man sætter et 0 efter den vurderede anstrengelse.** 
+
+I dette indlæg kan du læse mere om:
+
+- Hvad er Borg-skalaen?
+- Hvas skal Borg-skalaen bruges til?
+- GRATIS downloade Borg-skalaen.
+- Finde alternativer til Borg-skalaen.
 
 ## Den oprindelige Borg-skala
  
@@ -58,7 +69,7 @@ Men hvordan føles _Noget anstrengende_ i forhold til _Anstrengende_?
  
 Morten Zacho har i 2008 bearbejdet Borg-skalaen, så den er lettere at bruge i praksis. På den måde bliver Borg-skalaen lettere at forstå, når man træner eller bliver testet.
 
-I praksis er det kun nødvendigt at skelne mellem udvalgte niveauer på skalaen. Borg 15 udgør fx for i de flestes subjektive opfattelse skillelinjen mellem "moderat" og "hård" træning.
+I praksis er det kun nødvendigt at skelne mellem udvalgte niveauer på skalaen. Borg 15 udgør fxi de flestes subjektive opfattelse skillelinjen mellem "moderat" og "hård" træning.
 
 {% comment %}
 
@@ -134,5 +145,11 @@ Hvis du vil teste dig selv med en cykelergometer test, der bygger på Borg-skala
 
 ## Referencer om Borg RPE skala
 
+<details markdown="1">
+  <summary>Se referencer om Borgskalaen</summary>
+
 - Borg, G. 1970. “Perceived Exertion as an Indicator of Somatic Stress”. Scandinavian Journal of Rehabilitation Medicine 2 (2): 92–98.
 - Borg, G. 1990. “Psychophysical Scaling with Applications in Physical Work and the Perception of Exertion.” Scandinavian Journal of Work, Environment & Health 16: 55–58. <https://doi.org/10.5271/sjweh.1815>.
+- Chen MJ, Fan X, Moe ST, [Criterion-related validity of the Borg ratings of perceived exertion scale in healthy individuals: a meta-analysis](https://pubmed.ncbi.nlm.nih.gov/12430990/). J Sports Sci 2002 ;20: 873-899.
+- BRANDON S. POLLOCK, JACOB E. BARKLEY, NICK POTENZINI, RENEE M. DESALVO, STACEY L. BUSER, RONALD OTTERSTETTER, and JUDITH A. JUVANCIC-HELTZEL: [Validity of Borg Ratings of Perceived Exertion During Active Video Game Play](https://core.ac.uk/download/pdf/43643678.pdf)
+</details>

@@ -1,23 +1,28 @@
 ---
-title: "Kan jeg træne på penicillin og antibiotika?"
+title: &title "Kan jeg træne på penicillin og antibiotika?"
 permalink: /antibiotika-traening/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1549477754-350cf45a1772?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80
   teaser: https://images.unsplash.com/photo-1549477754-350cf45a1772?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
-  caption: "Photo by Anastasia Dulgier on Unsplash"
+  caption: *title
+  alt: "Photo by Anastasia Dulgier on Unsplash"
 category:
   - Viden om
 tags:
   - træning
   - antibiotika
-last_modified_at: 2020-05-29T08:14:14Z
+last_modified_at: 2021-01-29T08:14:14Z
 toc: true
 ---
 
 Jeg får ofte spørgsmålet om, man kan træne når man tager penicillin og antibiotika af mine elever på højskolen, så jeg har skrevet en lille guide?
 
-**Du kan godt lave let træning, mens du er på penicillin og antibiotika, men du skal fokusere på rolige aktiviteter, hvor du ikke presser dit kredsløb eller krop. Du tager antibiotika fordi du er syg, og kroppen skal have mulighed for at blive rask. Du kan fx lave blivere yoga, gåture og rolige cykelture, hvor din puls ikke er højere end 120-140 slag / min.**
+Kan jeg træne på penicillin og antibiotika? **Når du er på penicillin og antibiotika, så kan du lave let træning, hvro du fokuserer på rolige aktiviteter, som ikke presser dit kredsløb eller krop.**
+
+ Du tager antibiotika fordi du er syg, og kroppen skal have mulighed for at blive rask. Du kan fx lave blivere yoga, gåture og rolige cykelture, hvor din puls ikke er højere end 120-140 slag / min.
+ 
+ {% include figure image_path=page.header.overlay_image caption=page.title alt="træning når du tager antibiotika og penicillin" %}
 
 ## Hvad er penicillin og antibiotika?
 
@@ -47,7 +52,7 @@ Hvis du gerne vil røre dig, så kan det være en fordel at gå nogle lange ture
 
 Hvor længe et lægemiddel er i kroppen afhænger af halveringstiden for medikamentet. Det skriver man som T½. Typisk siger man at et stof er ude af kroppen efter omkring seks halveringstider. 
 
-Halveringstiden for et lægemiddel er forskellig fra person til person, men du vil finde en cirkaangivelse i indlægssedlen med dit præparat. Typisk vil Penicillin have en halveringstid på op til en time. Det betyder altså at efter du tager den sidste pille, så vil stoffet være ude af kroppen efter omkring 6 timer. 
+Halveringstiden for et lægemiddel er forskellig fra person til person, men du vil finde en cirkaangivelse i indlægssedlen med dit præparat. Typisk vil **Penicillin have en halveringstid på op til en time**. Det betyder altså at efter du tager den sidste pille, så vil stoffet være ude af kroppen efter omkring 6 timer. 
 
 Men husk at det ikke er penicillin, der har gjort, at du ikke kunne træne. Det er den sygdom, du har fået af bakterien, der har gjort dig syg og træt. Så selvom penicillinen er ude af kroppen efter seks timer efter, at du tager den sidste pille, så kan det godt være, at immunforsvaret stadig er på barrikaderne og har behov for energi.
 

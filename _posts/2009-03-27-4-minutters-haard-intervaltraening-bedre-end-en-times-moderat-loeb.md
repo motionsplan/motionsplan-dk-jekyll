@@ -1,5 +1,6 @@
 ---
-title: "Tabata: 4 minutters knaldhård og effektiv intervaltræning"
+title: "Tabata-træning: 4 minutters effektiv intervaltræning"
+description: "Tabata er 4 minutters hård, effektiv intervaltræning. Her får du den rigtige forklaring på hvad 8x 20 sekunders Tabata-intervaller og Tabata-træning er!"
 permalink: /artikel/tabata-traening-intervaller/
 redirect_from:
   - /artikel/4-minutters-h-rd-intervaltr-ning-bedre-end-en-times-moderat-l-b
@@ -23,12 +24,12 @@ tags:
 category:
   - Kondition
   - Løb
-last_modified_at: 2020-04-17T22:42:12Z
+last_modified_at: 2021-01-17T22:42:12Z
 ---
 
-Tabata er 4 minutters hård intervaltræning, der er mere effektivt end en times moderat løb. Træning bliver ofte præsenteret som Tabata-intervaller, men langt det meste Tabata-træning bliver ikke lavet efter foreskrifterne, så lad os dykke lidt ned i hvad Tabata-træning er?
+Tabata er 4 minutters hård intervaltræning, der er mere effektivt end en times moderat løb. Træning bliver ofte præsenteret som Tabata-intervaller, men langt det meste Tabata-træning bliver ikke lavet efter forskrifterne, så lad os dykke lidt ned i hvad Tabata-træning er?
 
-Hvad er Tabata? **Tabata er intervaltræning  8 x 20 sek. all out-intervaller med 10 sek. pause imellem. Træningen er undersøgt af den japanske forsker Izumi Tabata i 1996 og var oprindeligt rettet mod speedskatere.**
+Hvad er Tabata? **Tabata er intervaltræning med 8 x 20 sek _all out_-intervaller med 10 sek pause mellem arbejdsintervallerne. Træningen er undersøgt af den japanske forsker Izumi Tabata i 1996 og var oprindeligt rettet mod speedskatere.**
 
 Det er egentlig ikke Izumi Tabata, der har opfundet træningsformen, men han undersøgte i 1996 en træningsform som blev brugt af speedskatere. Tabata er [anaerob træning]({% link _posts/2021-01-02-anaerob-traening.md %}), som også har en god effekt på det aerobe system. Tabata er [intervaltræning]({% link _posts/2020-06-15-intervallob.md %}).
 
@@ -38,7 +39,7 @@ Tabata-træning bliver markedsført som en meget let måde at komme i form på m
 
 ## Tabatas oprindelige studie
 
-Lad os kigge lidt på Izumi Tabatas oprindelige studie fra 1996.
+Lad os kigge lidt på Izumi Tabatas oprindelige studie fra 1996, som har givet navn til Tabata-intervaller.
 
 **Ved at løbe intervaller i 4 minutter kan trænede med træning fem gange om ugen i seks uger forbedre deres maksimale iltoptagelse med 14% og den anaerobe kapacitet med 28%.**
 
@@ -49,7 +50,7 @@ Tabata (1996) sammenlignede to træningsprotokoller for deres virkning på det a
 
 ## Resultater fra Tabata-studiet
 
-Gruppe 1 forbedrede deres maksimale iltoptagelse fra 53 ml/kg/min til 58 ml/kg/min, mens der ikke var nogen forbedring af deres anaerobe kapacitet. Gruppe 2 forbedrede deres maksimale iltoptagelse med 7 ml/kg/min, mens den anaerobe kapacitet blev forbedret med 28%.
+Gruppe 1 forbedrede deres maksimale iltoptagelse fra 53 ml/kg/min til 58 ml/kg/min, mens der ikke var nogen forbedring af deres anaerobe kapacitet. Gruppe 2 forbedrede deres [maksimale iltoptagelse]({% link _posts/2019-11-03-intensiteten-og-vo2max.md %}) med 7 ml/kg/min, mens den anaerobe kapacitet blev forbedret med 28%.
 
 ## Diskussion af Tabata og intensive intervaller
 
@@ -67,7 +68,7 @@ Desuden kunne det være interessant at sammenligne protokollerne hos Helgerud (2
 
 Man skal være opmærksom på at de største forbedringer skete inden for de første tre uger og derefter aftog forbedringerne. Dette kunne tyde på, at en af forklaringerne på de store forbedringer kan være chokeffekten af træningen.
 
-## Konklusion om Tabata
+## Konklusion om Tabata-træning
 
 Det er tilsyneladende mere effektivt at arbejde med høj intensitet gennem hele træningen. Med Tabatas intervaller kan du nøjes med 14 minutters træning inklusiv opvarmning og nedvarmning og få en bedre effekt på både det aerobe og anaerobe system en en times træning med moderat intensitet.
 
@@ -105,7 +106,11 @@ Her er nogle af vores favoritter - første gang du prøver, så brug ikke for h�
 
 {% include exercises exercises="Swing, to hænder" match="exact" type="left" %}
 
-## Referencer om Tabata-intervaller
+## Referencer om Tabata-intervaller og Tabata-træning
+
+<details markdown="1">
+  <summary>Se referencer om Tabata-intervaller og Tabata-træning</summary>
 
 - Tabata, I., K. Nishimura, M. Kouzaki, Y. Hirai, F. Ogita, M. Miyachi, og K. Yamamoto. 1996. “Effects of Moderate-Intensity Endurance and High-Intensity Intermittent Training on Anaerobic Capacity and VO2max”. Medicine and Science in Sports and Exercise 28 (10): 1327–30. <https://doi.org/10.1097/00005768-199610000-00018>.
 - Helgerud, Jan, Kjetill Høydal, Eivind Wang, Trine Karlsen, Pålr Berg, Marius Bjerkaas, Thomas Simonsen, m.fl. 2007. “Aerobic High-Intensity Intervals Improve VO2max More than Moderate Training”. Medicine and Science in Sports and Exercise 39 (4): 665–71. <https://doi.org/10.1249/mss.0b013e3180304570>.
+</details>

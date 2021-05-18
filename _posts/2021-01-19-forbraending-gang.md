@@ -1,7 +1,9 @@
 ---
-title: &title "Hvor mange kalorier forbrænder man ved at gå? 🚶🚶‍♀️ [2021]"
+title: &title "Hvor mange kalorier forbrænder man ved at gå? 🚶🚶‍♀️"
+seo_title: "Forbrænding gang • Så mange kalorier forbrænder du ved at gå »"
+description: "✓️ Hvor meget er din forbrænding ved at gå ✓️ Hvor meget forbrænder du ved at gå 10.000 skridt? Hvor meget forbrænder gang af energi og kalorier?"
 permalink: /forbraending-ved-gaa-gang/
-last_modified_at: 2021-01-18T09:41:09Z
+last_modified_at: 2021-05-11T09:41:09Z
 author: lsolesen
 language: da
 header:
@@ -13,6 +15,7 @@ category:
 tags:
   - forbrænding
   - gang
+  - kalorier
 ---
 
 Jeg har kigget lidt på, hvor mange kalorier man forbrænder ved at gå? Så hvis du er interesseret i at vide, hvad din kalorieforbrænding og energiforbrug er ved gang, så har du her den ultimative guide.
@@ -23,17 +26,37 @@ Selvom tommelfingerreglen måske kan give et groft estimat på din forbrænding,
 
 For at udregne hvor mange [kalorier](/hvad-er-kalorier/) man bruger, når du går, så handler det også om, hvilken intensitet du går med. Jeg har lavet en beregner, der kan hjælpe dig med at regne ud, hvor mange kalorier, du forbrænder på en gåtur.
 
+Du kan altså få svar på følgende spørgsmål i dette indlæg:
+
+- hvor mange kalorier forbrænder man ved at gå?
+- hvor mange kalorier forbrænder man ved at gå 10.000 skridt?
+- dit kalorieforbrug og kalorieforbrænding ved gang
+
 ## Kalorieforbrænding ved gang
 
 En tommelfingerregel til kalorieforbrug ved gang er altså, at du forbrænder omkring din vægt i kalorier pr. kilometer. 
 
 Du bruger omkring 3-6 gange dit energiforbrug i hvile på at gå, me energiforbruget ved at gå kan variere fra 2-9,5 alt efter intensiteten og typen af gang. For at få din kalorieforbrænding ved gang skal du gange din kropsvægt med tiden og din anstrengelse under din vandretur eller gåtur.
 
+## Hvor mange kalorier forbrænder jeg ved at gå?
+
+{% include calculate-walk-energy.html %}
+
 ## Udregning af forbrænding af kalorier ved gang kræver MET
 
-Vi skal kigge på begrebet MET for at kunne regne lidt mere præcist på, hvor meget energi vi bruger på en gåtur.
+Der er lidt forskellige måder at udregne, hvor mange kalorier du forbruger ved at gå. 
 
-Når vi kigger i [MET-tabellen](https://www.motionsplan.dk/met/) nedenunder er det imidlertid væsentligt, at du er opmærksom på følgende.
+[Hall et al (2004)](https://www.researchgate.net/publication/8157727_Energy_Expenditure_of_Walking_and_Running_Comparison_with_Prediction_Equations) undersøgte i deres studium, hvor pålidelige forskellige formler til at estimere energiforbruget ved gang.
+
+*[ACSM]: The American College of Sports Medicine 
+
+Hall et al (2004) fandt, at det var pålideligt at forudsige energiforbruget ved gang med formler fra ACSM og Pandolfs formel, når man går lige ud uden oppakning.
+
+[Drain et al (2017)](https://pubmed.ncbi.nlm.nih.gov/28919496/) fandt imidlertid at Pandolfs formel underestimerede det faktuelle energiforbrug med oppakning.
+
+Derudover har jeg brugt begrebet MET for at kunne regne lidt mere præcist på, hvor meget energi vi bruger på en gåtur.
+
+Når vi kigger i [MET-tabellen](/met/) nedenunder er det imidlertid væsentligt, at du er opmærksom på følgende.
 
 Energiforbruget ved aktivitet afhænger af forskellige faktorer:
 
@@ -70,7 +93,7 @@ Når du bruger dine muskler, så starter kroppen med at bruge ekstra ilt for at 
 
 Når du bevæger dig, så har du brug for meget ATP alt efter hvor lang og intenst du bevæger dig. Du har noget ATP, der bare venter i dine muskler, men der er kun til omking 10 sekunders arbejde. Derefter begynder kroppen at lave mere ATP.
 
-Ved korte, intense sprints over lidt længere tidsrum bruger din krop energi fra det [anaerobe energisystem](https://www.motionsplan.dk/energisystemer/), hvor kroppen spalter kulhydrat for hurtigt at kunne få energi. Der kan være behov for det anaerobe energisystem, hvis du går op ad meget stejle bakker.
+Ved korte, intense sprints over lidt længere tidsrum bruger din krop energi fra det [anaerobe energisystem](/energisystemer/), hvor kroppen spalter kulhydrat for hurtigt at kunne få energi. Der kan være behov for det anaerobe energisystem, hvis du går op ad meget stejle bakker.
 
 Ved længerevarende intense gåture får kroppen ATP ved at forbrænde både kulhydrat og fedt. Jo højere intensitet du går med, jo højere vil andelen af kulhydratforbrændingen være. Men den samlede forbrænding er også højere.
 
@@ -78,7 +101,7 @@ En tommelfingerregel er, at jo hurtigere du går og jo stejlere bakkerne er, jo 
 
 Du kan tjekke vores beregner længere ned på siden for at få et bud på, hvor mange kalorier du forbrænder, når du går.
 
-Hvis du er interesseret i at vide mere om kroppens tilpasninger til fx konditionstræning, så tjek Motionsplans indlæg om [fysiologiske forandringer i kroppen ved konditionstræning](https://www.motionsplan.dk/tilpasning-konditionstraening/). Der kan være fine tilpasninger i kredsløbet ved at gå en tur.
+Hvis du er interesseret i at vide mere om kroppens tilpasninger til fx konditionstræning, så tjek vores indlæg om [fysiologiske forandringer i kroppen ved konditionstræning](/tilpasning-konditionstraening/). Der kan være fine tilpasninger i kredsløbet ved at gå en tur.
 
 *[ATP]: Adenosine Triphosphate
 
@@ -90,10 +113,10 @@ Lad os tage et hurtigt regneeksempel med viden fra MET-tabellerne.
 
 Jeg vejer 81 kilo. Hvis jeg bruger [beregneren for kalorieforbruget ved forskellige aktiviteter og oversigten over MET-værdier](/met/), så får jeg følgende værdier:
 
-| Aktivitet          | MET    | kcal / timen | kcal/kg/km        |
-|--------------------|--------|--------------|-------------------|
-| Alm. gang 4 km/t  | 3 MET  | 243 kcal     | 0,75 kcal/kg/km |
-| Rask gang 5,6 km/t | 4,3 MET | 348 kcal     | 0,77 kcal/kg/km    |
+| Aktivitet          | MET     | kcal / timen | kcal/kg/km        |
+|--------------------|---------|--------------|-------------------|
+| Alm. gang 4 km/t   | 3 MET   | 243 kcal     | 0,75 kcal/kg/km   |
+| Rask gang 5,6 km/t | 4,3 MET | 348 kcal     | 0,77 kcal/kg/km   |
 
 Helt som ventet så bruger man flere kalorier på at gå 5,6 km/t end 4 km/t, og når jeg omregner til kcal/kg/km så koster mine hurtigere kilometer også mere i energiregnskabet pr. km. Det er ganske vist ikke så meget, men dog lidt.
 
@@ -102,6 +125,10 @@ Derfor er det altså ikke nok bare at lave en "tilfældig" tommelfingerregel på
 **For at udregne hvor mange kalorier, du bruger på din gåtur, så har du brug for at kende intensiteten og varigheden af aktiviteten.**
 
 Du kan naturligvis regne din egen gennemsnitlige kalorieforbrug pr. kilometer, hvis du kender din normale intensitet. Husk blot på, at udregningerne er gennemsnitsudregninger.
+
+## Hvor mange kalorier forbrænder du ved at gå 10.000 skridt?
+
+For at få et rimeligt estimat på, hvad du forbrænder ved at gå 10.000 skridt, så skal du kende din hastighed undervejs. Når du kender din hastighed, så kan du let bruge beregneren til at udregne, hvor mange kalorier du forbrænder på [10.000 skridt]({% link _posts/2020-06-25-steps.md %}).
 
 ## Fedtforbrænding ved at gå
 
@@ -113,7 +140,7 @@ Gang er ikke bedre en andre aktiviteter til at forbrænde mange kalorier, men fo
 
 Hvor meget du forbrænder ved en given aktivitet hænger nøje sammen med varigheden og intensiteten. 
 
-Om det er bedst at lave [kontinuerlig træning eller intervaltræning](https://www.motionsplan.dk/artikel/er-kontinuerlig-traening-eller-intervaltraening-bedst-for-fedtforbraendningen) afhænger bl.a. også af tidsforbruget i træningen. Du kan faktisk også organisere din gåtur som intervaltræning for at sætte forbrændingen op. Du kan naturligvis ikke forbrænde lige så meget, som du kan ved fx løb eller cykling, hvor du kan køre med meget højere intensitet.
+Om det er bedst at lave [kontinuerlig træning eller intervaltræning](/artikel/er-kontinuerlig-traening-eller-intervaltraening-bedst-for-fedtforbraendningen) afhænger bl.a. også af tidsforbruget i træningen. Du kan faktisk også organisere din gåtur som intervaltræning for at sætte forbrændingen op. Du kan naturligvis ikke forbrænde lige så meget, som du kan ved fx løb eller cykling, hvor du kan køre med meget højere intensitet.
 
 ## Kalorieberegner for gang
 
@@ -160,7 +187,7 @@ Hvis du begynder at gå mere, så vil du bruge mere energi på en dag. Det betyd
 
 MET-beregneren medtager primært medtager hastigheden som parameter, når du skal vælge din gangintensitet, så der det altså lidt misvisende. Der er alle mulige rigtig gode grunde til at komme i gang med at gå. En af dem kan være at få din daglige forbrænding sat i vejret. Din kalorieforbrænding bliver ganske enkelt større, når du går mere. Hvis du gerne vil motivere dig selv, så kan du begynde at [tælle dine daglige skridt]({% link _posts/2021-01-01-tael-skridt.md %}).
 
-Hvis du er interesseret i at læse mere om, [hvad du forbrænder ved at cykle, så tjek cykel-ruter.dk](https://www.cykel-ruter.dk/cykling-kalorier/). Hvis du gerne vil lave noget andet end at gå, så kan du [omregne sport og motion til skridt med vores beregner]({% link _posts/2020-11-14-activity-to-steps.md %}).
+Hvis du er interesseret i at læse mere om, [hvor mange kalorier man forbrænder ved cykling, så tjek cykel-ruter.dk](https://www.cykel-ruter.dk/cykling-kalorier/). Hvis du gerne vil lave noget andet end at gå, så kan du [omregne sport og motion til skridt med vores beregner]({% link _posts/2020-11-14-activity-to-steps.md %}).
 
 Jeg har også skrevet om, [hvor langt 10.000 skridt er, og hvor mange skridt du går på en kilometer]({% link _posts/2020-06-25-steps.md %}). Der er faktisk mange, der søger efter "Hvor meget forbrænder jeg ved at gå 10.000 skridt?". Og svaret er: "Det kommer an på...". Hvor hurtigt går du?
 
@@ -210,7 +237,7 @@ Du kan købe en skridttæller eller downloade en til din telefon, så du kan hol
 
 Hvis du vil have hjælp til at tabe dig og komme i form, så læs videre på Arono.dk. Her finder du en masse artikler og guides, der hjælper dig med kost, motion og den gode balance.
 
-Du kan også hurtigt og let oprette dig som bruger i app’en, og så vil vores smarte system udregne den optimale [kostplan til dig og dit vægttab](https://arono.dk/artikler/kostplan-til-vaegttab/), så du kan opnå et effektivt forløb – alt sammen lige i det tempo, du ønsker det.
+Du kan også hurtigt og let oprette dig som bruger i app’en, og så vil vores smarte system udregne den optimale [kostplan til dig og dit vægttab](https://arono.dk/artikler/kostplan-til-vaegttab/), så du kan opnå et effektivt forløb – alt sammen lige i det tempo, du ønsker det.
 
 
 kalorieforbrænding gang

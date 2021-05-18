@@ -1,5 +1,6 @@
 ---
-title: &title "Yoga 🙏: Guide til det rigtige yogaudstyr 🧘🧘‍♂️"
+title: &title "Yogaudstyr 🙏: Guide til det rigtige udstyr til yoga 🧘🧘‍♂️"
+seo_title: "Yogaudstyr • Få 8 forslag til at gøre yoga mere behageligt »"
 permalink: /guide/yoga-udstyr/
 language: da
 header:
@@ -63,9 +64,16 @@ Du kan komme i gang med yoga uden udstyr, men det rigtige yogaudstyr kan gøre f
 
 Der er rigtig mange forhandlere af yogaudstyr på nettet, og udbuddet af yogaudstyr bliver større og større. Jeg har forsøgt at samle en guide til, hvorda du vælger det rigtige yogaudstyr.
 
+Du får svaret på:
+
+- Hvilket yogaudstyr findes der?
+- Vi gennemgår bl.a. yogamåtter, yogablokke, øjenpuder, yogasokker, yogabælte, yogatæppe, yogahåndklæde og yogatøj.
+- Hvilket udstyr er nødvendigt for at dyrke yoga?
+- Hvilket yogaudstyr kan gøre yoga mere behageligt?
+
 ## Hvilket yogaudstyr skal du bruge for at dyrke yoga?
 
-Når du dyrker yoga, så skal du ikke nødvendigvis investere i en masse dyrt yogaudstyr. Men noget udstyr kan gøre din yogapraksis til en større fornøjelse, så du har mulighed for at slappe af i øvelserne og udføre de enkelte yogaøvelser mere hensigtsmæssigt, så de passer til dit nuværende niveau.
+Når du dyrker yoga, så skal du ikke nødvendigvis investere i en masse dyrt yogaudstyr. Men noget udstyr kan gøre din yogapraksis til en større fornøjelse, så du har mulighed for at slappe af i øvelserne og udføre de enkelte [yogaøvelser]({% link _posts/2020-08-30-yogastillinger.md %}) mere hensigtsmæssigt, så de passer til dit nuværende niveau.
 
 Hvis du dyrker yoga i et center, så kan du som regel låne yogaudstyr. Jeg foretrækker dog at bruge yogamåtter og yogatæpper, som andre ikke har svedt på. Når du har dit eget yogaudstyr, så kan du jo også bruge udstyret derhjemme. 
 
@@ -183,7 +191,7 @@ Det kan også være inspirerende at pynte dit yogarum op med wallstickers og pla
 
 Du kan komme i gang med yoga uden udstyr, men jeg vil helt klar anbefale i hvert fald en yogamåtte, og du vil formentlig også blive glad for at hav enogle yogablokke. 
 
-Det tøj du har på, når du dyrker yoga skal naturligvis være rigtig dejligt at bevæge sig i, og det skal ikke hæmme dine bevægelser. Men du behøver ikke investere i nyt tøj for at gå i gang med yoga. Vi har også skrevet en guide til [De Fem Tibetanere]({% link _posts/2009-07-01-de-fem-tibetanere.md %}) og [Solhilsen A og B]({% link _posts/2020-07-25-solhilsen.md %}) - eller [musik til yoga, mindfulness og meditation]({% link _posts/2020-07-02-musik-yoga.md %}).
+Det tøj du har på, når du dyrker yoga skal naturligvis være rigtig dejligt at bevæge sig i, og det skal ikke hæmme dine bevægelser. Men du behøver ikke investere i nyt tøj for at gå i gang med yoga. Vi har også skrevet en guide til [De Fem Tibetanere]({% link _posts/2009-07-01-de-fem-tibetanere.md %}) og [Solhilsen A og B]({% link _posts/2020-07-25-solhilsen.md %}) - eller [musik til yoga, mindfulness og meditation]({% link _posts/2020-07-02-musik-yoga.md %}). Jeg kan også læse mere om [mindfulness meditation]({% link _posts/2010-10-05-mindfullness-meditation.md %}).
 
 Hvis du vælger at købe noget udstyr, og finder noget du kan lide hos vores samarbejdspartnere  [youryogashop.dk\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=76034){: rel="nofollow" },  [www.yogalove.dk\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=37808){: rel="nofollow" } og  [Den Intelligente Krop\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484){: rel="nofollow" }, så brug gerne vores links. Vi tjener en lille kommision for det du vælger at købe, men din pris er den samme. Tjek dem ud! De har nogle ret fede ting.
 

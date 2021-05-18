@@ -1,15 +1,18 @@
 ---
 title: "Den tohovedede lægmuskel"
+group:
+  - Ben
 name:
   latin: Gastrocnemius
+  da: Den tohovedede lægmuskel
 tags:
   - imagemap
   - fitnessinstruktør
   - muskel
 origin: 
-  da: Et hoved fra hver side af nederste bageste del af lårbenet.
+  da: 
 insertion: 
-  da: i akillessenen og fæster på hælbenet.
+  da: 
 function:
   da:
     - short: "Plantarfleksion i ankelleddet"
@@ -26,8 +29,6 @@ function:
 secondary_function: 
   da:
     - short: "Bøjer i knæleddet"
-exercises:
-  - Stående calf-raise
 image: /assets/images/anatomy/gastrocnemius.jpg
 image_focus: /assets/images/anatomy/focus-gastrocnemius.jpg
 coords:

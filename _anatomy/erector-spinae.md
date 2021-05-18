@@ -2,6 +2,9 @@
 title: "Rygstrækkere"
 name:
   latin: "Erector Spinae"
+  da: "Rygstrækkere"
+group:
+  - Ryg
 tags:
   - fitnessinstruktør
   - muskel
@@ -17,10 +20,7 @@ function:
   en:
     - short: Stræk af rygsøjlen
       extended: ""
-exercises:
-  - Stående calf-raise
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Gray389_-_Erector_spinae.png/375px-Gray389_-_Erector_spinae.png
-image_focus: 
 ---
 
 _{{ page.name.latin }}_

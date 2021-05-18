@@ -1,5 +1,7 @@
 ---
 title: "De fem tibetanere 🧘: Komplet guide til de 5 yoga øvelser"
+seo_title: "De fem tibetanere • Komplet guide til de 5 yoga øvelser »"
+description: "Lær de 5 tibetanere med video og billeder ✓ Yogaøvelser der kan laves på 20 minutter ✓ Giver øvelserne evig ungdom? ✓ Komplet guide ✓ Print øvelserne ud!"
 permalink: /artikel/de-fem-tibetanere/
 language: da
 header:
@@ -13,7 +15,7 @@ tags:
   - træningsprogram
 category:
   - Yoga
-last_modified_at: 2020-11-24T09:41:09Z
+last_modified_at: 2021-01-24T09:41:09Z
 feature_row:
   - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/1000x/9df78eab33525d08d6e5fb8d27136e95/d/e/de-fem-tibetanere-1.jpg
     alt: "De 5 tibetanere"
@@ -145,13 +147,15 @@ Baggrunden for de øvelserne i de fem tibetanere, og hvordan de udføres forklar
 
 ## Hvor ofte skal jeg lave de fem tibetanere?
 
-Et af de spørgsmål mange søger efter er: "Hvor ofte skal de fem tibetanere udføres". Det er umuligt at give et endegyldigt svar på, for du skal lave de fem tibetanere, så det fungerer for dig.
+De fem øvelser i _De Fem Tibetanere_ skal gentages 21 gange hver dag. Du kan fx udføre øvelserne, når du står op om morgenen, om eftermiddagen, eller om aftenen, inden du går i seng.
 
-_De Fem Tibetanere_ skal som udgangspunkt laves en gang om dagen. Du kan fx udføre riterne, når du står op om morgenen, om eftermiddagen, eller om aftenen, inden du går i seng. Nogle mennesker sover godt oven på øvelserne, mens andre bliver for friske til at sove.
+Nogle mennesker sover godt oven på øvelserne, mens andre bliver for friske til at sove. Du skal derfor selv finde ud af, hvilken tid på dagen, der passer dig bedst.
 
-Du skal derfor selv finde ud af, hvilken tid på dagen, der passer dig bedst.
+Hvis du ikke kan afse tid til at lave riterne hver dag, så er det bedre at lave dem nogle gange om ugen end slet ikke at lave dem. Vi anbefaler at du prøver dig frem.
 
-Hvis du ikke kan afse tid til at lave riterne hver dag, så er det bedre at lave dem nogle gange om ugen end slet ikke at lave dem. Vi anbefaler at du prøver dig frem. Det er vigtigt, at du tager dig god tid til at lave øvelserne rigtigt og fokusere på vejrtrækningen, så det tager omkring 15 minutter at lave øvelserne.
+Det er vigtigt, at du tager dig god tid til at lave øvelserne rigtigt og fokusere på vejrtrækningen, så det tager omkring 15-20 minutter at lave øvelserne.
+
+Det er umuligt at give et endegyldigt svar på spørgsmålet: "Hvor ofte skal de fem tibetanere udføres?".
 
 Det handler om at få de fem tibetanere til at passe ind, så de gør en forskel i dit liv og dit energiniveau.
 
@@ -173,7 +177,7 @@ Har du udfordringer med en af øvelserne, anbefaler jeg, at du laver så mange d
 
 <a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=37797" target="_blank" rel="nofollow noopener"><img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=37797" border="0" alt=""></a>
 
-## Hvordan udføres de fem tibetanske riter?
+## Hvordan udføres de fem tibetanere?
 
 Jeg beskriver og illustrerer med billeder i dette afsnit, hvordan du skal udføre de fem tibetanere.
 
@@ -191,9 +195,9 @@ Jette Weimar, som også er yogainstruktør, forklarer de fem riter behageligt og
 
 {% include video provider="youtube" id="qDAsEM1VLNk" %}
 
-## Illustreret øvelsesbeskrivelse
+## Illustreret øvelsesbeskrivelse af de 5 tibetanere
 
-Hvis du hellere vil have øvelserne **illustreret** og gennemgået på skrift, så læs videre.
+Hvis du hellere vil have øvelserne **illustreret** og gennemgået på skrift, så gennemgår jeg her hvilke 5 yogaøvelser, du kommer igennem i de 5 tibetanere?
 
 {% include figure image_path="https://www.enlightened-consciousness.com/wp-content/uploads/2019/07/dreamstime_s_130021652.jpg" caption="Illustration af de fem tibetanere" alt="Illustration af de 5 tibetanere - 5 riter - 5 tibetanske øvelser" %}
 
@@ -407,7 +411,7 @@ Vi har et andet indlæg her på sitet, der handler om [Mindfulness meditation]({
 
 ## Bog om de fem tibetanere
 
-{% include gallery caption="Peter Kelder har skrevet to bøger om de 5 tibetanere og hans erfaringer med de fem tibetanere, som du kan købe fra [denintelligentekrop.dk*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-kilden-til-evig-ungdom){: rel='nofollow' }" %}
+{% include gallery id="feature_row" caption="Peter Kelder har skrevet to bøger om de 5 tibetanere og hans erfaringer med de fem tibetanere, som du kan købe fra [denintelligentekrop.dk*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-kilden-til-evig-ungdom){: rel='nofollow' }" %}
 
 <a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=37797" target="_blank" rel="nofollow noopener"><img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=37797" border="0" alt=""></a>
 

@@ -1,14 +1,16 @@
 ---
 title: "Extensor Digitorum"
+group:
+  - Arme
 name:
   latin: Extensor Digitorum
 tags:
   - muskel
   - imagemap
 origin: 
-  da: Et hoved fra hver side af nederste bageste del af lårbenet.
+  da: 
 insertion: 
-  da: i akillessenen og fæster på hælbenet.
+  da: 
 function:
   da:
     - short: Extends the wrist.
@@ -20,8 +22,6 @@ function:
       extended: This means that the extensor digitorum muscle straightens the wrist joint such that the angle between the back of the hand and the back of the forearm decreases (i.e. it moves the back of the hand toward the back of the forearm).
     - short: Extends the fingers.
       extended: This means that the extensor digitorum muscle straightens the fingers.
-exercises:
-  - Stående calf-raise
 image: /assets/images/anatomy/extensor-digitorum.jpg
 image_focus: /assets/images/anatomy/focus-extensor-digitorum.jpg
 coords:

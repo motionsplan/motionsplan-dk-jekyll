@@ -1,5 +1,6 @@
 ---
 title: &title "Anaerob træning: Øvelser og træningsprogram 🏃"
+description: "Anaerob træning er en vigtig del af dit energisystem, og det skal også trænes 🏃 Hvad er anaerob træning? 🏃 Anaerobe øvelser 🏃 Anaerobt træningsprogram."
 permalink: /anaerob-traening/
 language: da
 header:
@@ -17,15 +18,25 @@ toc: true
 
 Anaerob træning bør være en del af din træning. Det anaerobe system er en vigtig del af dit energisystem, og det skal også trænes. Jeg kigger på, hvad anaerob træning er, viser anaerobe øvelser og foreslår hvordan et anaerobt træningsprogram kan se ud.
 
-Hvad er anaerob træning? **Anaerob træning forbedrer kroppens evne til at levere energi uden ilt til stede. Anaerob træning træner evnen til at genopbygge ATP enten spalte kreatinfosfat eller ved at spalte glykose, hvor der kommer mælkesyre som biprodukt.**
+Hvad er anaerob træning? **Anaerob træning forbedrer kroppens evne til at levere energi uden ilt til stede. Anaerob træning kan være alaktacid og laktacid og træner evnen til at genopbygge ATP enten spalte kreatinfosfat eller ved at spalte glykose, hvor der kommer mælkesyre som biprodukt.**
+
+I dette indlæg kan du få svar på følgende spørgsmål:
+
+- Hvad er anaerob træning?
+- Hvad er laktacid og alaktacid anaerob træning?
+- Hvad er anaerob kapacitet?
+- Hvad er anaerob effekt?
+- Eksempler på anaerob træning
+
+## Hvad er det anaerobe system?
 
 Dansk Idræts-Forbund har skrevet et godt [hæfte om anaerob præstationsevne](https://www.dif.dk/-/media/difdk/foreningsliv/udgivelser/pdf/anaerobprstationsevnetoleranceproduktionoghurtighedstrning.pdf), som jeg virkelig kan anbefale, hvis du gerne vil lære mere om, hvordan det anarobe system virker. Når du forstår systemet er det meget lettere at planlægge anaerob træning.
 
 Grundlæggende er dit energisystem delt op i to dele. Det aerobe system kan levere energi så længe, der er nok ilt til stede i musklerne, mens det anaerobe system stadig kan levere ilt, når der ikke er ilt nok til stede. I praksis kører begge systemer samtidigt.
 
-Anaerob træning betyder naturligvis ikke, at du holder vejret, mens du træner. Anaerob træning betyder bare at intensiteten er så høj, at der ikke er ilt nok tilgængeligt i musklerne til at levere energi hurtigt nok.
+**Anaerob træning** betyder naturligvis ikke, at du holder vejret, mens du træner. Anaerob træning betyder bare at intensiteten er så høj, at der ikke er ilt nok tilgængeligt i musklerne til at levere energi hurtigt nok.
 
-I modsætning til aerob træning, der primært retter sig mod at forbedre kredsløbet (hjerte, lunger og blodkredsløbet), så er anaerob træning rettet mod at forbedre musklernes ydeevne under højintenst og maksimalt arbejde. Der er dog overlap mellem energisystemerne, så når du træner aerobt med høj intensitet, så forbedrer du til en vis grad din anaerobe kapacitet, og tilsvarende kan der ske forbedringer i det aerobe system ved at træne anaerobt.
+I **modsætning til aerob træning**, der primært retter sig mod at forbedre kredsløbet (hjerte, lunger og blodkredsløbet), så er anaerob træning rettet mod at forbedre musklernes ydeevne under højintenst og maksimalt arbejde. Der er dog overlap mellem energisystemerne, så når du træner aerobt med høj intensitet, så forbedrer du til en vis grad din anaerobe kapacitet, og tilsvarende kan der ske forbedringer i det aerobe system ved at træne anaerobt.
 
 Du kan læse mere om det [aerobe og anaerobe energisystem i dette indlæg]({% link _posts/2019-11-14-energisystemer-101.md %}).
 
@@ -52,7 +63,7 @@ Spaltningen af kulhydrat kan levere energi længere, men den lokale træthed i m
 
 Mange tror at mælkesyren er årsagen til, at man ikke længere kan arbejde med samme intensitet i mere end 30-45 sekunder, men [mælkesyren beskytter formentlig musklerne]({% link _posts/2020-08-24-maelkesyre.md %}).
 
-## Anaerob forbrænding eller spaltning
+## Anaerob forbrænding eller spaltning?
 
 Mange tror, at det hedder en anaerob forbrænding, men det er faktisk en anaerob spaltning, der sker for at skabe energi (ATP) ud fra hhv. kreatinfosfat eller ved at spalte glykose.
 
@@ -60,27 +71,27 @@ I den aerobe proces, hvor der er ilt til stede, taler man om en aerob forbrændi
 
 ## Anaerob træning - laktacid eller ikke-laktacid
 
-Den anaerobe træning kan opdeles i to hovedgrupper:
+Den anaerobe træning kan opdeles i to hovedgrupper alt efter om der produceres mælkesyre i løbet af træningen:
 
 Ikke-laktacid anaerob træning
-: Ikke laktacid anaerob træning arbejder man maksimalt med kort varighed og har lange pauser mellem de enkelte arbejdsperioder. Derved akkumuleres der ikke mælkesyre i musklerne eller blodet. Denne type træning kendes ogs som hurtighedstræning eller sprinttræning. Det kan fx være korte sprints fra 3-6 sekunder med lange pauser mellem de enkelte sprints. Dette træner atleternes hastighed, men ikke evnen til at lave flere på hinanden følgende sprints.
+: **Ikke laktacid anaerob eller alaktacid træning** arbejder man maksimalt med kort varighed og har lange pauser mellem de enkelte arbejdsperioder. Derved akkumuleres der ikke mælkesyre i musklerne eller blodet. Denne type træning kendes ogs som hurtighedstræning eller sprinttræning. Det kan fx være korte sprints fra 3-6 sekunder med lange pauser mellem de enkelte sprints. Dette træner atleternes hastighed, men ikke evnen til at lave flere på hinanden følgende sprints.
 
 Laktacid anaerob træning
-: I denne type træning akkumuleres laktat i musklerne. Det foregår ved at lave højintense løb med relativt kort pause, så du presser de anaerobe energisystemer. Du træner her musklernes evne til hurtigt at frembringe energi gennem det anaerobe system, men samtidig arbejde effektivt under forhold, hvor musklerne er ved at være trætte. Muskelforsker, [Jesper Løvind Andersen](https://traenerlounge.dbu.dk/form-og-fysik/anaerob-produktionstraening-eller-anaerob-tolerancetraening-hvad-er-bedst-til-fodboldspillere/), gør det klart, at ophobningen af laktat kan være en rettesnor for trætheden i musklerne, men at det ikke i sig selv en begrænsende faktor for musklens ydeevne.
+: I **laktacid anaerob træning** akkumuleres laktat i musklerne. Det foregår ved at lave højintense løb med relativt kort pause, så du presser de anaerobe energisystemer. Du træner her musklernes evne til hurtigt at frembringe energi gennem det anaerobe system, men samtidig arbejde effektivt under forhold, hvor musklerne er ved at være trætte. Muskelforsker, [Jesper Løvind Andersen](https://traenerlounge.dbu.dk/form-og-fysik/anaerob-produktionstraening-eller-anaerob-tolerancetraening-hvad-er-bedst-til-fodboldspillere/), gør det klart, at ophobningen af laktat kan være en rettesnor for trætheden i musklerne, men at det ikke i sig selv en begrænsende faktor for musklens ydeevne.
 
-Den laktacide anaerobe træning opdeler man igen i to forskellige typer. I begge disse former for anaerob træning arbejder med relativt korte nær-maksimale arbejdsperioder, som adskilles af pauser i forskellige længder. Den laktacide anaerobe træning er altså intervalbaseret.
+Den **laktacide anaerobe træning** opdeler man igen i **to forskellige typer**. I begge disse former for anaerob træning arbejder med relativt korte nær-maksimale arbejdsperioder, som adskilles af pauser i forskellige længder. Den laktacide anaerobe træning er altså intervalbaseret.
 
 Anaerob tolerancetræning
-: I anaerob tolerancetræning hæver du laktatniveauet i musklerne ved at lave nogle hårdt arbejde i en periode. Målet er at opretholde et højt laktatniveau over en længere periode. Formålet er at kunne arbejde mere effektivt i perioder, hvor laktatniveauet er forhøjet. I den anaerobe tolerancetræning forsøger man at holde laktatniveauet nogenlunde konstant. Arbejdet vil typisk være 30-100% af maksimal intensitet.
+: I **anaerob tolerancetræning** hæver du laktatniveauet i musklerne ved at lave nogle hårdt arbejde i en periode. Målet er at opretholde et højt laktatniveau over en længere periode. Formålet er at kunne arbejde mere effektivt i perioder, hvor laktatniveauet er forhøjet. I den anaerobe tolerancetræning forsøger man at holde laktatniveauet nogenlunde konstant. Arbejdet vil typisk være 30-100% af maksimal intensitet.
 
 Anaerob produktionstræning
-: I anaerob produktionstræning forsøger man med korte intensive arbejdsperioder at bringe laktatniveauet op på et meget højt niveau for derefter at lade det falde ned igen. Formålet er at forbedre musklernes evne til at producere store energimængder på kort tid, men også evnen til i pauserne at kunne fjerne trætheden og laktaten i musklerne inden næste arbejdsperiode. Arbejdet vil typisk være 60-100% af maksimal intensitet.
+: I **anaerob produktionstræning** forsøger man med korte intensive arbejdsperioder at bringe laktatniveauet op på et meget højt niveau for derefter at lade det falde ned igen. Formålet er at forbedre musklernes evne til at producere store energimængder på kort tid, men også evnen til i pauserne at kunne fjerne trætheden og laktaten i musklerne inden næste arbejdsperiode. Arbejdet vil typisk være 60-100% af maksimal intensitet.
 
 Det er interessant at læse [Mohr og Krustrup (2016)](https://traenerlounge.dbu.dk/media/1243/hukin-2015-0181.pdf) om effekten af hhv. anaerob tolerancetræning og anaerob produktionstræning på fodboldspilleres præstation på hhv. [Yoyo-testen](/yoyo-test/) og _repeated sprint test (RST)_.
 
 ## Anaerob træning, effekt og kapacitet
 
-I anaerob træning skelner man mellem anaerob kapacitet og anaerob effekt.
+I anaerob træning skelner man mellem **anaerob kapacitet** og **anaerob effekt**.
 
 Hvad er anaerob kapacitet?  
 : Anaerob kapacitet er evnen til at arbejde i længere tid hvor en høj del af energien kommer fra det anaerobe system. Den anaerobe kapacitet kan forbedres ved at arbejde i 30-45 sekunder med en pause ratio på 1:2-3. Den anaerobe kapacitet er fx meget vigtig på et 400-800 meter løb, hvis du gerne vil have en god præstation.
@@ -162,9 +173,13 @@ Men du skal ikke være bange for at lave anaerob træning. Du skal bare huske pr
 
 Vores Puls har [5 råd til at undgå skader](https://vorespuls.dk/loeb/artikler/intervaltraening-5-raad-til-at-undgaa-skader) under intervaltræning.
 
+## Konklusion på anaerob træning
+
+Anaerob træning kan altså både være laktacid og alaktacid. Det anaerobe system fungerer ved enten at benytte CrP og ATP til at få leveret energi rigtig hurtigt. Hvis intensiteten er rigtig høj over lidt længere tid, så kan du også spalte glykose med biproduktet mælkesyre i musklerne.
+
 ## Andre eksempler på anaerob træning
 
-Hvis du vil læse flere artikler om træning med høj intensitet, hvor det anaerobe system også får lov til at arbejde, så tjek følgende artikler:
+Hvis du vil læse flere artikler om træning med høj intensitet, hvor det anaerobe system også får lov til at arbejde, så tjek følgende eksempler:
 
 {% assign site_posts = site.posts | where: "tags", "anaerob træning" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 

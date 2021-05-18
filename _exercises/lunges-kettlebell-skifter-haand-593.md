@@ -2,8 +2,10 @@
 title: &title "Lunges, kettlebell skifter hånd"
 excerpt: ""
 instructions: ""
-permalink: /oevelse/lunges-kettlebell-skifter-hånd/
-redirect_from: /node/593
+permalink: /oevelse/lunges-kettlebell-skifter-haand/
+redirect_from:
+  - /node/593
+  - /oevelse/lunges-kettlebell-skifter-hånd/
 id: 593
 language: da
 header:

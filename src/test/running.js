@@ -30,4 +30,11 @@ describe('RunningTest', function() {
       assert.equal(r.convertMinPerKmToKmt(4, 0), 15);
     });
   });
+  describe('convertMinPerKmToKmt', function() {
+    it('should return the correct number', function() {
+      var r = motionsplan.Running();
+      // m2, s2, km
+      assert.equal(r.convertMinPerKmToDistanceForDuration(4, 0, 4, 0), 1000);
+    });
+  });
 });

@@ -1,5 +1,0 @@
----
----
-{% for link in site.data.redirects.redirects %}
-{{ link.redirect_from }} {{ link.redirect_to }}
-{%- endfor -%}

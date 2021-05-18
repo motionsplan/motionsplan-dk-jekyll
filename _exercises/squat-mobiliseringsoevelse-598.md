@@ -2,8 +2,10 @@
 title: &title "Squat, mobiliseringsøvelse"
 excerpt: ""
 instructions: ""
-permalink: /oevelse/squat-mobiliseringsøvelse/
-redirect_from: /node/598
+permalink: /oevelse/squat-mobiliseringsoevelse/
+redirect_from:
+  - /node/598
+  - /oevelse/squat-mobiliseringsøvelse/
 id: 598
 language: da
 header:

@@ -131,7 +131,7 @@ På denne side har jeg samlet alle mine anbefalinger og de ting til træning, je
 
 ## Løbeur, pulsbælte og høretelefoner
 
-Jeg bruger selv Garmin Fenix og Bose SoundSport på alle mine løbeture, hvor jeg enten nyder [musik til træningen]({% link _posts/2013-05-02-musik-til-traeningen.md %}) eller lytter til [gode podcasts fx om fitness og træning]({% link _posts/2020-08-03-podcasts.md %}). Jeg bruger også pulsbæltet til at måle min [heart rate variability]({% link _posts/2019-10-28-hrv.md %}), som jeg synes er en interessant måde at måle min træningsparathed og [restitution]({% link _posts/2009-08-07-restition-hvordan-bliver-jeg-hurtigst-klar-igen.md %}) på.
+Jeg bruger selv Garmin Fenix og Bose SoundSport på alle mine løbeture, hvor jeg enten nyder [musik til træningen]({% link _posts/2013-05-02-musik-til-traeningen.md %}) eller lytter til [gode podcasts fx om fitness og træning]({% link _posts/2020-08-03-podcasts.md %}). Jeg bruger også pulsbæltet til at måle min [heart rate variability]({% link _posts/2019-10-28-hrv.md %}), som jeg synes er en interessant måde at måle min træningsparathed og [restitution og restitutionstid]({% link _posts/2020-05-28-restitutionstid-alder.md %}) på.
 
 {% include feature_row type="left" id="feature_row_running" %}
 
@@ -147,11 +147,11 @@ Jeg bruger selv RepOne til at lave [velocity based training]({% link _posts/2020
 
 ## Køb bøger om træning
 
-På [Saxo\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264) kan du finde masser af inspiration til træning og sundhed. Her kommer nogle af mine favoritter. Jeg forsøger at læse mindst en time dagligt om emner, der interesserer mig.
+På [Saxo\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264){: rel="sponsored" } kan du finde masser af inspiration til træning og sundhed. Her kommer nogle af mine favoritter. Jeg forsøger at læse mindst en time dagligt om emner, der interesserer mig. Hvis du gerne vil støtte dette site, så kan du fx bruge vores reklamelink til [at købe bøger på Saxo\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264){: rel="sponsored" }
 
 {% include feature_row type="left" %}
 
-[Køb bøger på Saxo\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264){: .btn .btn--large .btn--danger }
+Jeg har samlet nogle flere forslag til [løbebøger](/loebeboeger-boeger-om-loeb/) og [bøger om træning](/traeningsboeger-boeger-om-traening/). Jeg har også skrevet et forslag til [cykelbøger](https://www.cykel-ruter.dk/cykelboeger-bedste-boeger-om-cykling/).
 
 {% include gallery id="yogastream" caption="YogaStream er et online yogaunivers med over 1000 yoga- og meditationsvideoer. Du bliver guidet af dygtige og erfarne instruktører lige når det passer dig. Få den [første måned gratis gennem vores link*](http://motionsplan.yogastream.dk)." %}
 

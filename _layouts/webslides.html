@@ -9,6 +9,9 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="all" href="https://cdn.jsdelivr.net/npm/webslides@1.5.0/static/css/webslides.css">
     <link rel="stylesheet" type="text/css" media="all" href="https://cdn.jsdelivr.net/npm/webslides@1.5.0/static/css/svg-icons.css">
+    {% if page.sitemap == false or page.robots %}
+      <meta name="robots" content="{{ page.robots | default: "noindex" }}">
+    {% endif %}
 </head>
 
 <body>
@@ -18,12 +21,12 @@
                 <a style="background: url({{ '/favicon-32x32.png' | relative_url }}) no-repeat;" href="{{ '/' | relative_url }}" title="{{ site.name }}">Motionsplan</a>
             </p>
             <ul>
-                {% assign footer_links = site.footer.links | where_exp: "item", "item.webslides != '' "%}
+                {% assign footer_links = site.footer.links | where_exp: "item", "item.webslides != ''" %}
                 {% for l in footer_links %}
                 <li class="{{ l.label | downcase }}">
                     <a rel="external" href="{{ l.url }}" title="{{ l.label }}">
                       <svg class="{{ l.webslides }}">
-                        <use xlink:href="#{{ l.webslides }}"></use>
+                        <use xlink:href="{{ l.webslides }}"></use>
                       </svg>
                       <em>@Motionsplan</em>
                     </a>
@@ -39,10 +42,10 @@
     </main>
     <script src="https://cdn.jsdelivr.net/npm/webslides@1.5.0/static/js/webslides.min.js"></script>
     <script>
-        /* global Webslides */
+        /* global WebSlides */
         window.ws = new WebSlides();
     </script>
-    <script defer src="https://cdn.jsdelivr.net/npm/webslides@1.5.0/static/js/svg-icons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/webslides@1.5.0/static/js/svg-icons.js"></script>
 </body>
 
 </html>

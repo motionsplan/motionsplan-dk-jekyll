@@ -1,14 +1,16 @@
 ---
 title: "Infraspinatus"
+group:
+  - Arme
 name:
   latin: "Infraspinatus"
 tags:
   - imagemap
   - muskel
 origin: 
-  da: Et hoved fra hver side af nederste bageste del af lårbenet.
+  da: 
 insertion: 
-  da: i akillessenen og fæster på hælbenet.
+  da: 
 function:
   da:
     - short: Laterally rotates the upper arm.
@@ -16,8 +18,6 @@ function:
   en:
     - short: Laterally rotates the upper arm.
       extended: This means that the infraspinatus muscle rotates the upper arm outward around the axis of the bone (i.e. it rotates the upper arm away from the vertical midline of the body).
-exercises:
-  - Stående calf-raise
 image: /assets/images/anatomy/infraspinatus.jpg
 image_focus: /assets/images/anatomy/focus-infraspinatus.jpg
 coords:
@@ -32,11 +32,15 @@ _{{ page.name.latin }}_
 
 {% include figure image_path=page.image alt=page.title caption=page.title %}
 
-## Funktion
+## Funktion for {{ page.title }}
 
 {% for f in page.function.da %}
 - **{{ f.short }}**.
   {{ f.extended | markdownify }}
 {% endfor %}
+
+## Træning af {{ page.title }}
+
+{% include video provider="youtube" id="0yowX4d2aoo" %}
 
 {% include figure image_path=page.image_focus alt=page.title caption=page.title %}
