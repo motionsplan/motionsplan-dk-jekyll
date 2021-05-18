@@ -6,7 +6,6 @@ permalink: /oevelse/glute-ham-raises/
 redirect_from: /node/261
 id: 261
 key: 261
-language: da
 header:
   overlay_image: /assets/images/exercises/glute-ham-raises-0.jpg
   teaser: /assets/images/exercises/glute-ham-raises-0-320.jpg
@@ -20,12 +19,7 @@ training_focus:
 equipment:
   - maskine
 muscle_group: null
-header:
-  overlay_image: /assets/images/exercises/glute-ham-raises-0.jpg
-  teaser: /assets/images/exercises/glute-ham-raises-0-320.jpg
-  caption: "Glute-ham raises: Bedste all-round baglårsøvelse [2020]"
 last_modified_at: 2020-04-14T15:02:12.000Z
-redirect_from: /node/261
 feature_row:
   - image_path: https://www.fotoagent.dk/single_picture/11803/138/custom1/PM130_19(1).jpg
     url: https://www.fitnessgruppen.dk/peak-fitness-glute/ham-developer/
@@ -47,7 +41,6 @@ language: da
 video:
   provider: youtube
   id: tPr69TL_n70
-id: 261
 ---
 
 Glute-ham raises (GHR) er en af de bedste all-round baglårsøvelser og bagkæde-øvelser, der findes, fordi GHD træner hele baglårets funktion i en bevægelse. Glute ham-raises bliver typisk lavet på en særlig bænk, men oprindeligt lavede de sovjetiske atletikfolk øvelsen ved at sætte fødderne ind i en ribbe og støtte lårene mod en gymnastikhest. Jeg har kigget på, hvad glute-ham raises er.
