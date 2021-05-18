@@ -1,12 +1,12 @@
 ---
-title: "Mænd, beregn sandsynlighed for at dø af livsstilssygdomme"
+title: &title "Mænd, beregn sandsynlighed for at dø af livsstilssygdomme"
 permalink: /cooper-mortality/
 excerpt: "The Cooper Clinic Mortality Risk Index for Men kan ud fra simple parametre beregne mænds relative og absolutte risiko for at dø af livsstilssygdomme inden for 15 år."
 language: da
 header:
   overlay_image: https://www.berkeleywellness.com/sites/default/files/field/image/waist-measurement-MF_998_380.webp
   teaser: https://www.berkeleywellness.com/sites/default/files/field/image/waist-measurement-MF_998_380.webp
-  title: *title
+  caption: *title
 category:
   - Beregnere
   - Test
