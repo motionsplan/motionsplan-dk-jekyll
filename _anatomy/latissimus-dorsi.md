@@ -1,8 +1,8 @@
 ---
-title: "Bred rygmuskel"
+title: "Den brede rygmuskel"
 name:
   latin: "Latissimus Dorsi"
-  da: "Bred rygmuskel"
+  da: "Den brede rygmuskel"
 tags:
   - imagemap
   - fitnessinstruktør
@@ -45,7 +45,7 @@ _{{ page.name.latin }}_
 
 {% include figure image_path=page.image alt=page.title caption=page.title %}
 
-## Funktion
+## Funktion for {{ page.title }}
 
 {% for f in page.function.da %}
 - **{{ f.short }}**.
