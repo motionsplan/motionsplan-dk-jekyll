@@ -1,6 +1,7 @@
 ---
 title: &title "13 citater om yoga, meditation og mindfulness"
 permalink: /citater-yoga-meditation-mindfulness/
+excerpt: "Der findes mange inspirerende citater om yoga, mindfulness og meditation. Jeg har samlet en række citater, der kan inspirere dig på din spirituelle vej."
 last_modified_at: 2020-12-29T09:41:09Z
 language: da
 header:

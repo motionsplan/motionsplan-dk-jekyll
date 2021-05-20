@@ -1,6 +1,7 @@
 ---
 title: &title "17 citater om at kæmpe med sig selv, sygdom og kærlighed"
 permalink: /citater-om-at-kaempe/
+excerpt: "Jeg har set mange gode citater om at kæmpe, og jeg har samlet en række citater, der kan inspirere dig på din vej. Sommetider kan et citat lige netop være det, der får dig på rette kurs."
 last_modified_at: 2020-12-29T09:41:09Z
 language: da
 header:
@@ -57,7 +58,7 @@ gallery:
     url: /assets/images/pinterest/citat-winston-churchill.png
 ---
 
-Jeg har set mange gode citater om at kæmpe, og jeg har samlet {{ page.feature_quotes.size }} citater, der kan inspirere dig på din vej. Sommetider kan et citat lige netop være det, der får dig på rette kurs. 
+Jeg har set mange gode citater om at kæmpe, og jeg har samlet {{ page.feature_quotes.size }} citater, der kan inspirere dig på din vej. Sommetider kan et citat lige netop være det, der får dig på rette kurs.
 
 Jeg har samlet en masse forskellige citater om at kæmpe her på siden, men jeg har også oprettet en [Pinterest Opslagstavle med citater](https://pin.it/6VHPDcC). Skynd dig at følge den opslagstavle. Husk også at bruge kommentarerne, hvis du har det perfekte citat, som du gerne vil dele med os andre.
 
