@@ -97,7 +97,7 @@ footer:
       url: "https://facebook.com/motionsplan"
     - label: "Pinterest"
       icon: "fab fa-fw fa-pinterest"
-      webslides: "fa-pinterest-p"
+      webslides: "fa-pinterest"
       url: "https://www.pinterest.dk/motionsplan/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
@@ -310,7 +310,7 @@ collections:
     output: true
     permalink: /p/:path/
   methods:
-    output: false
+    output: true
     permalink: /metode/:path/
   redirects:
     output: true
@@ -387,7 +387,7 @@ defaults:
       comments: true
       share: true
       related: true
-      toc: true
+      toc: false
       toc_sticky: true
       author: lsolesen
       tag_archive_path: /anatomi/tags/

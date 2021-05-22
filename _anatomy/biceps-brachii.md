@@ -39,11 +39,11 @@ insertion:
   latin: Ulna et radius
   en: Ulna and radius
 last_modified_at: 2020-11-15T07:28:29+01:00
-image_focus: /assets/images/anatomy/focus-biceps-brachii.jpg
 image: /assets/images/anatomy/biceps-brachii.jpg
+image_focus: /assets/images/anatomy/focus-biceps-brachii.jpg
 coords:
-  - 193,120,209,132,223,143,230,159,229,170,216,167,202,149
-  - 65,167,74,166,85,149,90,135,94,116,77,127,67,138,64,156
+  - "193,120,209,132,223,143,230,159,229,170,216,167,202,149"
+  - "65,167,74,166,85,149,90,135,94,116,77,127,67,138,64,156"
 ---
 
 _{{ page.name.latin }}_

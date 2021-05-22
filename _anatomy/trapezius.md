@@ -1,5 +1,6 @@
 ---
-title: "Kapppemusklen - Trapezius"
+title: "Kappemusklen - Trapezius"
+excerpt: ""
 group:
   - Ryg
 name:
@@ -31,26 +32,8 @@ coords:
   - "124,88,110,83,127,73"
 ---
 
-_{{ page.name.latin }}_
-
-- **Udspring**: {{ page.origin.da }}
-- **Hæfte**: {{ page.insertion.da }}
-
-{% include figure image_path=page.image alt=page.title caption=page.title %}
-
-## Funktion for {{ page.title }}
-
-{% for f in page.function.da %}
-- **{{ f.short }}**.
-  {{ f.extended | markdownify }}
-{% endfor %}
-
 ## Træning af {{ page.title }}
 
 Her er en nem og effektiv øvelse til for trapezius (kappemusklen). Øvelsen er også god til at styrke øvre ryg. Brug en elastik eller evt. en håndvægt til øvelsen.
 
 {% include video provider="youtube" id="AYOTS-L4_Wg" %}
-
-{% if page.image_focus %}
-  {% include figure image_path=page.image_focus alt=page.title caption=page.title %}
-{% endif %}

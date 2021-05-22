@@ -3,6 +3,9 @@ title: "High Intensity Continuous Training (HICT)"
 tags:
   - conditioning
 rpe: 7-8
+intensity: Max
+time: 5-20 min
+reps: Low speed
 howto:
   - Use maximum resistance
   - Low speed (20-30rpm on a spin bike)
@@ -21,16 +24,21 @@ video:
 
 Both the cadence and resistance of this method engage the fast-twitch muscle fibers over
 longs periods of time.
+
 Increase the exercise resistance to the point where the athlete slows down while still
 activating the fast-twitch fibers. The Keiser bike or VersaClimber work very well for this
 purpose.
+
 The guidelines for High Intensity Continuous Training (HICT) on the Keiser bike are:
+
 • Set the resistance level to about 20
 • Maintain a speed of 25-30rpm
 • Perform 10-20 minutes of total work
 • Keep heart rate below the anaerobic threshold
+
 As the athlete fatigues, focus on coaching proper technique while maintaining a constant
 power output.
+
 The HICT method facilitates recovery in addition to developing fast-twitch fiber endurance.
 The concentric-only nature of the HICT movements incurs less tissue stress than eccentric
 movements. This method also increases blood flow to fast-twitch fibers which often

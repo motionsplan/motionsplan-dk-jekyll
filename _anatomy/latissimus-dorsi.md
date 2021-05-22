@@ -1,5 +1,7 @@
 ---
 title: "Den brede rygmuskel"
+group:
+  - Ryg
 name:
   latin: "Latissimus Dorsi"
   da: "Den brede rygmuskel"
@@ -37,19 +39,3 @@ coords:
   - "410,134,426,138,438,135,451,165,441,182,433,204,420,184,419,168,412,146"
   - "462,162,478,131,488,135,503,134,503,142,495,166,494,182,485,195,481,202"
 ---
-
-_{{ page.name.latin }}_
-
-- **Udspring**: {{ page.origin.da }}
-- **Hæfte**: {{ page.insertion.da }}
-
-{% include figure image_path=page.image alt=page.title caption=page.title %}
-
-## Funktion for {{ page.title }}
-
-{% for f in page.function.da %}
-- **{{ f.short }}**.
-  {{ f.extended | markdownify }}
-{% endfor %}
-
-{% include figure image_path=page.image_focus alt=page.title caption=page.title %}

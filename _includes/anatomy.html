@@ -69,8 +69,8 @@ $(document).ready(function() {
 
 {% for m in imagemap %}
   <div class="{{ m.slug }} anatomy-popup">
-    <p><strong>{{ m.title }}</strong></p>
-    <p>Latin: {{ m.latin }}</p>
+    <p><strong>{{ m.name.da | default: m.title }}</strong></p>
+    <p>Latin: {{ m.name.latin }}</p>
   </div>
 {% endfor %}
 </div>

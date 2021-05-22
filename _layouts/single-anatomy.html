@@ -27,12 +27,12 @@ layout: default
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
           {% if page.title %}<h1 id="page-title" class="page__title" itemprop="name">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
-          {% if page.name.latin %}<h2 itemprop="alternateName">{{ page.name.latin | markdownify | remove: "<p>" | remove: "</p>" }}</h2>{% endif %}
+          <p><a href="https://github.com/{{site.repository}}/edit/master/{{ page.path }}"><i class="fas fa-pencil-alt" aria-hidden="true"></i> Hjælp med at forbedre denne side</a></p>
+          {% if page.name.latin %}<h2 itemprop="alternateName"><em>{{ page.name.latin }}</em></h2>{% endif %}
 
           {% if page.read_time %}
             <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
           {% endif %}
-            <p class="page__meta"><a href="https://github.com/{{site.repository}}/edit/master/{{ page.path }}"><i class="fas fa-pencil-alt" aria-hidden="true"></i> Hjælp med at forbedre denne side</a></p>
         </header>
       {% endunless %}
 
@@ -47,11 +47,16 @@ layout: default
         {% endif %}
         
         {{ content }}
+
+        {% if page.insertion.da %}
+        <h2 id="origin">Udspring og hæfte for {{ page.title }}</h2>
         
         <p>
           <strong>Udspring:</strong> <span itemprop="insertion" itemscope itemtype="http://schema.org/Bone">{{ page.origin.da }}</span><br />
           <strong>Hæfte:</strong> {{ page.insertion.da }}
         </p>
+
+        {% endif %}
 
         {% if page.image %}
         {% include figure image_path=page.image alt=page.title caption=page.title %}
@@ -61,8 +66,7 @@ layout: default
         
         <ul>
         {% for f in page.function.da %}
-        <li itemscope name="muscleAction"><strong>{{ f.short }}</strong>. {{ f.extended | markdownify }}
-        </li>
+        <li itemscope name="muscleAction"><strong>{{ f.short }}</strong>. {{ f.extended | markdownify }}</li>
         {% endfor %}
         </ul>
 
@@ -89,6 +93,11 @@ layout: default
         {% if page.image_focus %}
         {% include figure image_path=page.image_focus alt=page.title caption=page.title %}
         {% endif %}
+
+        {% if page.video.id %}
+          {% include video provider=page.video.provider id=page.video.id %}
+        {% endif %}
+        
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>

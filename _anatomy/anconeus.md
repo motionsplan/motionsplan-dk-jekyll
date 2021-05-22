@@ -1,7 +1,7 @@
 ---
 title: "Aconeus"
 group:
-  - Ben
+  - Arme
 name:
   latin: Aconeus
 tags:
@@ -24,19 +24,3 @@ coords:
   - "365,178,368,175,371,189,368,194"
   - "542,172,545,174,539,191,536,187"
 ---
-
-_{{ page.name.latin }}_
-
-- **Udspring**: {{ page.origin.da }}
-- **Hæfte**: {{ page.insertion.da }}
-
-{% include figure image_path=page.image alt=page.title caption=page.title %}
-
-## Funktion
-
-{% for f in page.function.da %}
-- **{{ f.short }}**.
-  {{ f.extended | markdownify }}
-{% endfor %}
-
-{% include figure image_path=page.image_focus alt=page.title caption=page.title %}

@@ -10,7 +10,7 @@ title: Muskler
             <h1 class="text-landing text-shadow"><strong>{{ page.title }}</strong></h1>
         <p class="text-landing text-shadow text-intro aligncenter">Læs mere på motionsplan.dk</p>
         <figure>
-          <img class="aligncenter" src="{{ '/assets/images/qrcodes/webslides-muskler.png' | relative_url }}" alt="{{ m.title }}">
+          <img class="aligncenter" src="https://chart.googleapis.com/chart?cht=qr&chs=250x250&chl={{ page.url | absolute_url }}?utm_source=webslides&utm_medium=qrcode&utm_campaign=website" alt="{{ m.title }}">
         </figure>
         <h1 class="aligncenter">
           <a href="https://www.buymeacoffee.com/lsolesen/">
@@ -37,80 +37,76 @@ title: Muskler
           </footer>
         </section>
 
-{% assign muscles = site.anatomy | where: "tags", "muskel" | group_by: "category" %}
 
-{% for muscle_category in muscles %}
-{{ items_grouped }}
-  {% assign category_name = muscle_category.name | default: "Ingen kategori" %}
-        <section class="bg-black aligncenter">
-          <!-- Overlay/Opacity: [class*="bg-"] > .background.dark or .light -->
-          <span class="background" style="background-image:url('https://source.unsplash.com/LAEPsbXOhIM/')"></span>
-          <div class="wrap">
-            <h1 class="text-landing text-shadow"><strong>{{ category_name }}</strong></h1>
-          </div>
-          <footer>
-            <div class="wrap">
-              <p>
-                <span class="alignleft"> <a href="#" title="{{ site.name }}">
-                <img src="{{ 'android-chrome-192x192.png' | relative_url }}" alt="{{ site.name }}">
-                </a></span>
-                {% comment %}
-                <span class="alignright">
-                <a href="#" class="badge-ios" title="iOS App">iOS app</a>
-                <a href="#" class="badge-android" title="Android app">Android app</a>
-                </span>
-                {% endcomment %}
-              </p>
-            </div>
-          </footer>
-        </section>
+{% assign muscles_by_group = site.anatomy | where: "tags", "muskel" | group_by: "group" %}
 
-{% for m in muscle_category.items %}
+{% for muscle_group in muscles_by_group %}
+
+<section class="bg-black aligncenter">
+  <!-- Overlay/Opacity: [class*="bg-"] > .background.dark or .light -->
+  <span class="background" style="background-image:url('https://source.unsplash.com/LAEPsbXOhIM/')"></span>
+  <div class="wrap">
+    <h1 class="text-landing text-shadow"><strong>{{ muscle_group.name | default: "Ingen kategori" }}</strong></h1>
+  </div>
+  <footer>
+    <div class="wrap">
+      <p>
+        <span class="alignleft">
+          <a href="#" title="{{ site.name }}">
+        <img src="{{ 'android-chrome-192x192.png' | relative_url }}" alt="{{ site.name }}">
+        </a></span>
+        {% comment %}
+        <span class="alignright">
+        <a href="#" class="badge-ios" title="iOS App">iOS app</a>
+        <a href="#" class="badge-android" title="Android app">Android app</a>
+        </span>
+        {% endcomment %}
+      </p>
+    </div>
+  </footer>
+</section>
+
+
+{% for m in muscle_group.items %}
 <section>
   <div class="wrap">
     <div class="grid vertical-align">
-      <div class="content-left vertical-align">
-        <h2>{{ m.title }}</h2>
+      <div class="content-left">
+        <h2>{{ m.name.da | default: m.title }}</h2>
         <h4>{{ m.name.latin }}</h4>
         {% if m.excerpt %}
-          <p class="text-intro">{{ m.excerpt }}</p>
+          <p class="text-intro">{{ m.excerpt | markdownify }}</p>
         {% endif%}
-        <ul class="flexblock specs">
-        {% if m.origin.da %}
-          <li>
-            <div>
-              <svg class="fa-star-o">
-                <use xlink:href="#fa-star-o"></use>
-              </svg>
-            <h2>Udspring</h2>
-            {{ m.origin.da }}
-            </div>
-          </li>
-        {% endif %}
-        {% if m.insertion.da %}
-          <li>
-             <div>
-              <svg class="fa-star">
-                <use xlink:href="#fa-star"></use>
-              </svg>
-            <h2>Hæfte</h2>
-            {{ m.insertion.da }}
-            </div>
-          </li>
-        {% endif %}
-        </ul>
       </div>
-      <div class="content-right vertical-align">
+      <div class="content-right">
         {% if m.image %}
         <figure>
-          <img class="aligncenter size-30" src="{{ m.image }}" alt="{{ m.title }}">
+          <img class="aligncenter size-70" src="{{ m.image_focus | default: m.image | relative_url }}" alt="{{ m.title }}">
         </figure>
         {% endif %}
       </div>
     </div>
+      <div>
+      <ul class="flexblock features">
+        {% if m.origin.da %}
+          <li>
+            <h2>Udspring</h2>
+            {{ m.origin.da }}
+            
+          </li>
+        {% endif %}
+        {% if m.insertion.da %}
+          <li>
+            <h2>Hæfte</h2>
+            {{ m.insertion.da }}
+          </li>
+        {% endif %}
+        </ul>
+      
+    </div>
   </div>
+  <!--
           <footer class="bg-white">
-            <!--.wrap o <nav> = container 1200px -->
             <div class="wrap">
               <p>
                 <span class="alignleft"><a href="{{ site.url }}" title="{{ site.name }}"><img src="{{ 'android-chrome-192x192.png' | relative_url }}" alt="{{ site.name }}"></a></span>
@@ -125,27 +121,27 @@ title: Muskler
               </p>
             </div>
           </footer>
-</section>
+-->
+        </section>
 <section>
   <div class="wrap">
     <div class="grid vertical-align">
-      <div class="content-left vertical-align">
-        <h2>{{ m.title }}</h2>
+      <div class="content-left">
         <ul class="flexblock specs">
-        {% for b in m.function.da %}
-          <li>
-            <h2>{{ b.short }}</h2>
-            {{ b.extended }}
-          </li>
-        {% endfor %}
-        </ul>
-      </div>
-      <div class="content-right vertical-align">
+          {% for b in m.function.da %}
+            <li>
+              <h2>{{ b.short }}</h2>
+              {{ b.extended }}
+            </li>
+          {% endfor %}
+          </ul>
+        </div>
+      <div class="content-right">
         {% if m.image %}
         <figure>
-          <img class="aligncenter" src="{{ m.image }}" alt="{{ m.title }}">
+          <img class="aligncenter size-60" src="{{ m.image | relative_url }}" alt="{{ m.title }}">
         </figure>
-        <p class="aligncenter">{{ m.name.latin }}</p>
+        <p class="aligncenter">{{ m.name.da | default: m.title }} | {{ m.name.latin }}</p>
         {% endif %}
       </div>
     </div>

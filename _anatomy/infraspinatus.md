@@ -1,5 +1,6 @@
 ---
 title: "Infraspinatus"
+excerpt: ""
 group:
   - Arme
 name:
@@ -25,22 +26,6 @@ coords:
   - "489,97,503,105,484,129,479,128,483,106"
 ---
 
-_{{ page.name.latin }}_
-
-- **Udspring**: {{ page.origin.da }}
-- **Hæfte**: {{ page.insertion.da }}
-
-{% include figure image_path=page.image alt=page.title caption=page.title %}
-
-## Funktion for {{ page.title }}
-
-{% for f in page.function.da %}
-- **{{ f.short }}**.
-  {{ f.extended | markdownify }}
-{% endfor %}
-
 ## Træning af {{ page.title }}
 
 {% include video provider="youtube" id="0yowX4d2aoo" %}
-
-{% include figure image_path=page.image_focus alt=page.title caption=page.title %}

@@ -1,5 +1,6 @@
 ---
 title: "Teres Minor"
+excerpt: ""
 group:
   - Bryst
 name:
@@ -25,26 +26,6 @@ coords:
   - "485,132,503,129,505,117"
 ---
 
-_{{ page.name.latin }}_
-
-- **Udspring**: {{ page.origin.da }}
-- **Hæfte**: {{ page.insertion.da }}
-
-{% if page.image %}
-{% include figure image_path=page.image alt=page.title caption=page.title %}
-{% endif %}
-
-## Funktion for {{ page.title }}
-
-{% for f in page.function.da %}
-- **{{ f.short }}**.
-  {{ f.extended | markdownify }}
-{% endfor %}
-
 ## Træning af {{ page.title }}
 
 {% include video provider="youtube" id="k91SAsiE3wY" %}
-
-{% if page.image_focus %}
-{% include figure image_path=page.image_focus alt=page.title caption=page.title %}
-{% endif %}

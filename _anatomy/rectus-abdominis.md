@@ -31,19 +31,3 @@ image_focus: /assets/images/anatomy/focus-rectus-abdominis.jpg
 coords:
   - "123,147,144,145,165,148,166,200,161,218,153,255,136,256,122,208"
 ---
-
-_{{ page.name.latin }}_
-
-- **Udspring**: {{ page.origin.da }}
-- **Hæfte**: {{ page.insertion.da }}
-
-{% include figure image_path=page.image alt=page.title caption=page.title %}
-
-## Funktion
-
-{% for f in page.function.da %}
-- **{{ f.short }}**.
-  {{ f.extended | markdownify }}
-{% endfor %}
-
-{% include figure image_path=page.image_focus alt=page.title caption=page.title %}
