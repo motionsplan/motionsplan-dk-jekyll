@@ -1,6 +1,8 @@
 ---
 title: "Teres Minor"
 excerpt: ""
+joint:
+  - Skulderleddet
 group:
   - Bryst
 name:

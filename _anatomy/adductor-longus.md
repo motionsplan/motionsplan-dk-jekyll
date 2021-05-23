@@ -2,6 +2,8 @@
 title: "Den lange indadfører"
 group:
   - Ben
+joint:
+  - Hofteleddet
 name:
   latin: Adductor Longus
 tags:

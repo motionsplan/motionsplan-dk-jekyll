@@ -1,5 +1,7 @@
 ---
 title: "Hoftebøjeren"
+joint:
+  - Hofteleddet
 group: 
   - "Hofte"
 name:

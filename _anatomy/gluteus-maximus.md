@@ -1,5 +1,7 @@
 ---
 title: "Den store sædemuskel"
+joint:
+  - Hofteleddet
 group:
   - Ben
 name:

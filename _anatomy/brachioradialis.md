@@ -1,5 +1,7 @@
 ---
 title: "Brachoradialis"
+joint:
+  - Albueleddet
 group:
   - Arme
 name:

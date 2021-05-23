@@ -1,5 +1,7 @@
 ---
 title: "Indre skrå mavemuskel"
+joint:
+  - Rygsøjlen
 group:
   - Mave
 name:

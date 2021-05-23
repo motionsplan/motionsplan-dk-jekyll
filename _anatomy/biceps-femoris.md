@@ -1,5 +1,7 @@
 ---
 title: "Den tohovedede knæbøjer"
+joint:
+  - Knæleddet
 group:
   - Ben
 name:

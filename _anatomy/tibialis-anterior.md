@@ -1,5 +1,7 @@
 ---
 title: "Forreste skinnebensmuskel"
+joint:
+  - Fodleddet
 group:
   - Ben
 name:

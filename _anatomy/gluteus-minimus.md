@@ -1,5 +1,7 @@
 ---
 title: "Den lille sædemuskel"
+joint:
+  - Hofteleddet
 group:
   - Hofte
 name:

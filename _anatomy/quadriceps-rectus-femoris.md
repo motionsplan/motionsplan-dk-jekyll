@@ -1,6 +1,8 @@
 ---
 title: "Lårmusklens lige hoved"
 permalink: /muskler/rectus-femoris/
+joint:
+  - Knæleddet
 group:
   - Ben
 name:

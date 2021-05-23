@@ -1,5 +1,7 @@
 ---
 title: "Brachialis"
+joint:
+  - Albueleddet
 group:
   - Arme
 name:

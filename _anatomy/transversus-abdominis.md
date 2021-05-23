@@ -1,5 +1,7 @@
 ---
 title: "Bugpressen"
+joint:
+  - Rygsøjlen
 group:
   - Mave
 name:

@@ -1,5 +1,7 @@
 ---
 title: "Den mellemste sædemuskel"
+joint:
+  - Hofteleddet
 group:
   - Ben
 name:

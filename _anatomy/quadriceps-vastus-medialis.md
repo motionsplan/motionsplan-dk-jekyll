@@ -1,6 +1,8 @@
 ---
 title: "Lårmusklens indre hoved"
 permalink: /muskler/vastus-medialis/
+joint:
+  - Knæleddet
 group:
   - Ben
 name:

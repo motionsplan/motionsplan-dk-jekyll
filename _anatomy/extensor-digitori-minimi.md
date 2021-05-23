@@ -1,5 +1,7 @@
 ---
 title: "Extensor Digitori Minimi"
+joint:
+  - Håndleddet
 group:
   - Arme
 name:

@@ -1,5 +1,7 @@
 ---
 title: "Den brede rygmuskel"
+joint:
+  - Skulderleddet
 group:
   - Ryg
 name:

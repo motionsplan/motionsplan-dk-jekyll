@@ -2,6 +2,8 @@
 title: "Lige mavemuskel"
 group:
   - Mave
+joint:
+  - Rygsøjlen
 name:
   latin: "Rectus Abdominis"
   da: "Lige mavemuskel"

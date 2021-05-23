@@ -1,6 +1,8 @@
 ---
 title: "Infraspinatus"
 excerpt: ""
+joint:
+  - Skulderleddet
 group:
   - Arme
 name:

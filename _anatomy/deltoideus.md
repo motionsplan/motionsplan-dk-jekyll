@@ -1,9 +1,11 @@
 ---
-title: "Skuldermuskel"
+title: "Skuldermuskel - Deltamuskel - Deltoideus"
+joint:
+  - Skulderleddet
 excerpt: ""
 name:
   latin: Deltoideus
-  da: "Skuldermuskel"
+  da: Deltamusklen
 category:
   - Skulder
 group:

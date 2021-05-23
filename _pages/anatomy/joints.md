@@ -204,6 +204,6 @@ Du kan læse mere om [led og ledtyper i Morten Zachos beskrivelse](http://web.ar
 
 {% endcomment %}
 
-## Muskeloversigt med navne på dansk og latin
+## Muskeloversigt sorteret på led
 
 {% include table-muscles-joints.html %}

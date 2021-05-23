@@ -1,5 +1,7 @@
 ---
 title: "Halvsenede knæbøjer"
+joint:
+  - Knæleddet
 group:
   - Ben
 name:

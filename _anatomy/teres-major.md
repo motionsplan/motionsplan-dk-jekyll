@@ -1,5 +1,7 @@
 ---
 title: "Teres Major"
+joint:
+  - Skulderleddet
 group:
   - Bryst
 name:

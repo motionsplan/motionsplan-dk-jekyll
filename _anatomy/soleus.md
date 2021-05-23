@@ -2,6 +2,8 @@
 title: "Flyndermusklen"
 group:
   - Ben
+joint:
+  - Fodleddet
 name:
   latin: "Soleus"
   da: "Flyndermusklen"

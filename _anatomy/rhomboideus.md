@@ -1,5 +1,7 @@
 ---
 title: "Rhomboideus"
+joint:
+  - Skulderbladet
 group:
   - Ryg
 name:

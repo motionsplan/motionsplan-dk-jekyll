@@ -1,5 +1,7 @@
 ---
 title: "Den store indadfører"
+joint:
+  - Hofteleddet
 group:
   - Ben
 name:

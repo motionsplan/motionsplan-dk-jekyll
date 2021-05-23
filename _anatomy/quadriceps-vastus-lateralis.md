@@ -1,6 +1,8 @@
 ---
 title: "Lårmusklens ydre hoved"
 permalink: /muskler/vastus-lateralis/
+joint:
+  - Knæleddet
 group:
   - Ben
 name:

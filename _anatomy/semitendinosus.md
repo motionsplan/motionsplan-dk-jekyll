@@ -1,5 +1,7 @@
 ---
 title: "Halvtrinde knæbøjer"
+joint:
+  - Knæleddet
 group:
   - Ben
 name:

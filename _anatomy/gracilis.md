@@ -1,5 +1,7 @@
 ---
 title: "Den slanke indadfører"
+joint:
+  - Hofteleddet
 group:
   - Ben
 name:

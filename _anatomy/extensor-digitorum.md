@@ -1,5 +1,7 @@
 ---
 title: "Extensor Digitorum"
+joint:
+  - Håndleddet
 group:
   - Arme
 name:

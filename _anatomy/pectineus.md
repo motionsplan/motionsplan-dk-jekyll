@@ -1,5 +1,7 @@
 ---
 title: Pectineus
+joint:
+  - Hofteleddet
 group:
   - Ben
 name:

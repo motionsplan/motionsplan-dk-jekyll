@@ -1,5 +1,7 @@
 ---
 title: "Extensor Carpi Ulnaris"
+joint:
+  - Håndleddet
 group:
   - Arme
 name:

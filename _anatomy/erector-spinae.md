@@ -1,5 +1,7 @@
 ---
 title: "Rygstrækkere"
+joint:
+  - Rygsøjlen
 name:
   latin: "Erector Spinae"
   da: "Rygstrækkere"

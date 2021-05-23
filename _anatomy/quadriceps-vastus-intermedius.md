@@ -1,6 +1,8 @@
 ---
 title: "Lårmusklens dybe hoved"
 permalink: /muskler/vastus-intermedius/
+joint:
+  - Knæleddet
 group:
   - Ben
 name:

@@ -1,5 +1,7 @@
 ---
 title: "Kappemusklen - Trapezius"
+joint:
+  - Skulderbladet
 excerpt: ""
 group:
   - Ryg

@@ -4,6 +4,8 @@ group:
   - Ben
 name:
   latin: Adductor Brevis
+joint:
+  - Hofteleddet
 tags:
   - not-in-imagemap
   - muskel

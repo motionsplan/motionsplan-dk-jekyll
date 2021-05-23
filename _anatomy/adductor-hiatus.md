@@ -4,6 +4,8 @@ group:
   - Ben
 name:
   latin: Adductor Hiatus
+joint:
+  - Hofteleddet
 tags:
   - muskel
   - not-in-imagemap

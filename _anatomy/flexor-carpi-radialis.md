@@ -1,5 +1,7 @@
 ---
 title: "Flexor Carpi Radialis"
+joint:
+  - Håndleddet
 group:
   - Arme
 name:

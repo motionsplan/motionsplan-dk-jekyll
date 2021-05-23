@@ -1,5 +1,8 @@
 ---
 title: Trehovede armstrækker - Triceps
+joint:
+  - Albueleddet
+  - Skuderleddet
 name:
   latin: Triceps Brachii
   da: Trehovede armstrækker

@@ -1,5 +1,7 @@
 ---
 title: "Extensor Carpi Radialis Longus"
+joint:
+  - Håndleddet
 group:
   - Arme
 name:

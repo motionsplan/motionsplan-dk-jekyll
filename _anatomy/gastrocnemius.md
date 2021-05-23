@@ -1,5 +1,7 @@
 ---
 title: "Den tohovedede lægmuskel"
+joint:
+  - Fodleddet
 group:
   - Ben
 name:

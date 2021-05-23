@@ -2,6 +2,8 @@
 title: "Skræddermusklen"
 group:
   - Ben
+joint:
+  - Hofteleddet
 name:
   latin: "Sartorius"
 tags:

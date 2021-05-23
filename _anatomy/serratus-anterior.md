@@ -1,5 +1,7 @@
 ---
 title: "Serratus Anterior"
+joint:
+  - Skulderbladet
 group:
   - Skulder
 name:

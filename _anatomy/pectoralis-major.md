@@ -1,5 +1,7 @@
 ---
 title: Brystmuskel
+joint:
+  - Skulderleddet
 group:
   - Bryst
 name:

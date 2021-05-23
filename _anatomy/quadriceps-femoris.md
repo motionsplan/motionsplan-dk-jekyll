@@ -1,5 +1,7 @@
 ---
 title: "Firehovedede knæstrækker - Quadriceps femoris"
+joint:
+  - Knæleddet
 group:
   - Ben
 name:
