@@ -17,8 +17,8 @@ insertion:
   da: I akillessenen og fæster på hælbenet.
 function:
   da:
-    - short: Plantar flexes the foot.
-      extended: This means that the soleus muscle extends the ankle such that the angle between the top of the foot and the lower leg increases (i.e. the action of rising up on your toes or the balls of your feet).
+    - short: Plantarfleksion i ankelleddet
+      extended: Soleus strækker anklen (plantar fleksion) så tæerne peger i forlængelse af underbenet. Soleus hjælper med at gå op på tæer.
   en:
     - short: Plantar flexes the foot.
       extended: This means that the soleus muscle extends the ankle such that the angle between the top of the foot and the lower leg increases (i.e. the action of rising up on your toes or the balls of your feet).

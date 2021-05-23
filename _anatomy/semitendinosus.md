@@ -2,6 +2,7 @@
 title: "Halvtrinde knæbøjer"
 joint:
   - Knæleddet
+  - Hofteleddet
 group:
   - Ben
 name:

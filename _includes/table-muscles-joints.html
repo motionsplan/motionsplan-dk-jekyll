@@ -1,4 +1,4 @@
-{% assign muscles_by_group = site.anatomy | where: "tags", "muskel" | group_by: "joint" %}
+{% assign muscles_by_group = site.anatomy | where: "tags", "muskel" | group_by_exp: "item", "item.joint" %}
 {% comment %}
 <script>
 function KalorieSearch() {
