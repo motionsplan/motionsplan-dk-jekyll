@@ -3,7 +3,9 @@ title: "Hoftebøjeren"
 joint:
   - Hofteleddet
 group: 
-  - "Hofte"
+  - Hofte
+functional_group:
+  - Hoftebøjere
 name:
   latin: "Iliopsoas"
   da: "Hoftebøjeren"

@@ -1,9 +1,11 @@
 ---
 title: "Den mellemste sædemuskel"
+functional_group:
+  - Hoftens udadførere
 joint:
   - Hofteleddet
 group:
-  - Ben
+  - Hofte
 name:
   latin: "Gluteus Medius"
   da: "Den mellemste sædemuskel"

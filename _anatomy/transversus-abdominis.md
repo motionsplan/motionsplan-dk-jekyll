@@ -1,5 +1,7 @@
 ---
 title: "Bugpressen"
+functional_group:
+  - Mavemuskler (fleksion)
 joint:
   - Rygsøjlen
 group:

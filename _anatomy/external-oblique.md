@@ -1,5 +1,7 @@
 ---
 title: "Ydre skrå mavemuskel"
+functional_group:
+  - Mavemuskler (fleksion)
 joint:
   - Rygsøjlen
 group:

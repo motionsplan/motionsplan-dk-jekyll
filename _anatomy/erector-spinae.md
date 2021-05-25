@@ -1,5 +1,7 @@
 ---
 title: "Rygstrækkere"
+functional_group:
+  - Rygstrækkere (ekstension)
 joint:
   - Rygsøjlen
 name:

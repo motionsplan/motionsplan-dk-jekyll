@@ -1,5 +1,7 @@
 ---
 title: "Skræddermusklen"
+functional_group:
+  - Hoftebøjere
 group:
   - Ben
 joint:

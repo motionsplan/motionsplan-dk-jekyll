@@ -53,3 +53,7 @@ Bemærk at anatomisk sprogbrug er anderledes end daglig tale. Det man normalt ka
 {% endcomment %}
 
 {% include figure image_path=page.image caption=page.title alt=page.title %}
+
+## Muskler i ankelleddet og fodleddet
+
+{% include anatomy/table-muscles-ancle.html %}

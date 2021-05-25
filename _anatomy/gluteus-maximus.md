@@ -1,9 +1,11 @@
 ---
 title: "Den store sædemuskel"
+functional_group:
+  - Hoftestrækkere
 joint:
   - Hofteleddet
 group:
-  - Ben
+  - Hofte
 name:
   latin: "Gluteus Maximus"
   da: "Den store sædemuskel"

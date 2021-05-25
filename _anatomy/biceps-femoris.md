@@ -2,6 +2,10 @@
 title: "Den tohovedede knæbøjer"
 joint:
   - Knæleddet
+  - Hofteleddet
+functional_group:
+  - Knæbøjere
+  - Hoftestrækkere
 group:
   - Ben
 name:

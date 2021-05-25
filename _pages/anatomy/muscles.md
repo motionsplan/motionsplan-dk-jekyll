@@ -59,7 +59,7 @@ Du kan se de øvrige vigtige muskler for træning i figuren ovenfor:
 
 ## Muskeloversigt med navne på dansk og latin
 
-I denne tabel over muskler kan du se en oversigt over muskler i ben, arme, skuldre og kropsstammen.
+I denne tabel over muskler kan du se en oversigt over muskler i ben, arme, skuldre og kropsstammen. Jeg har også lavet en oversigt over [musklerne sorteret efter led i kroppen]({% link _pages/anatomy/joints.md %}).
 
 {% include table-muscles.html %}
 

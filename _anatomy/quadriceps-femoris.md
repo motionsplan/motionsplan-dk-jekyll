@@ -2,6 +2,8 @@
 title: "Firehovedede knæstrækker - Quadriceps femoris"
 joint:
   - Knæleddet
+functional_group:
+  - Knæstrækkere
 group:
   - Ben
 name:

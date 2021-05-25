@@ -1,5 +1,7 @@
 ---
 title: "Den brede rygmuskel"
+functional_group:
+  - Armens bagudføring
 joint:
   - Skulderleddet
 group:

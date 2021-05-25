@@ -1,18 +1,21 @@
 ---
 title: "Den slanke indadfører"
+functional_group:
+  - Hoftens indadførere
 joint:
   - Hofteleddet
 group:
   - Ben
 name:
   latin: "Gracilis"
+  da: Den slanke indadfører
 tags:
   - imagemap
   - muskel
 origin: 
-  da: Skambenet.
+  da: Skambenet
 insertion: 
-  da: Øverst på den inderste skinnebenskondyl.
+  da: Øverst på den inderste skinnebenskondyl
 function:
   da:
     - short: Flexes the leg at the knee.

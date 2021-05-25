@@ -1,12 +1,14 @@
 ---
-title: Brystmuskel
+title: Den store brystmuskel
+functional_group:
+  - Armens fremadføring
 joint:
   - Skulderleddet
 group:
   - Bryst
 name:
   latin: Pectoralis Major
-  da: Brystmuskel
+  da: Den store brystmuskel
 origin:
   da: Brystben, kraveben og ribbensbrusk
 insertion:

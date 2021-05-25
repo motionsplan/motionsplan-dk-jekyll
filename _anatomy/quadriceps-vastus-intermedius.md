@@ -1,6 +1,8 @@
 ---
 title: "Lårmusklens dybe hoved"
 permalink: /muskler/vastus-intermedius/
+functional_group:
+  - Knæstrækkere
 joint:
   - Knæleddet
 group:

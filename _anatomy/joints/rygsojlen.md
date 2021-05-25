@@ -56,3 +56,6 @@ De forskellige bevægelser foregår forskellige steder i rygsøjlen. Vi undlader
 
 {% include figure image_path=page.image caption=page.title alt=page.title %}
 
+## Muskler omkring rygsøjlen
+
+{% include anatomy/table-muscles-back.html %}

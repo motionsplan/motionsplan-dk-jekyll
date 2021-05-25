@@ -2,6 +2,8 @@
 title: "Den tohovedede lægmuskel"
 joint:
   - Fodleddet
+functional_group:
+  - Fodledsstrækkere (plantarfleksorer)
 group:
   - Ben
 name:

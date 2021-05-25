@@ -1,11 +1,14 @@
 ---
 title: "Brachialis"
+functional_group:
+  - Armbøjere
 joint:
   - Albueleddet
 group:
   - Arme
 name:
   latin: Brachialis
+  da: Den dybe armbøjer
 tags:
   - not-in-imagemap
   - muskel

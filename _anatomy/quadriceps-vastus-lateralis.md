@@ -1,6 +1,8 @@
 ---
 title: "Lårmusklens ydre hoved"
 permalink: /muskler/vastus-lateralis/
+functional_group:
+  - Knæstrækkere
 joint:
   - Knæleddet
 group:

@@ -1,6 +1,8 @@
 ---
 title: "Lårmusklens indre hoved"
 permalink: /muskler/vastus-medialis/
+functional_group:
+  - Knæstrækkere
 joint:
   - Knæleddet
 group:

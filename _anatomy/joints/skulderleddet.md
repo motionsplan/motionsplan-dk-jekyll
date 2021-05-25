@@ -95,3 +95,7 @@ Skulderbladets bevægelser er som før nævnt en vigtig del af hele skulderens b
 {% include video provider="youtube" id="PPKlGlwxr5s" %}
 
 {% include figure image_path=page.image caption=page.title alt=page.title %}
+
+## Muskler i skulderleddet og skulderbladet
+
+{% include anatomy/table-muscles-shoulder.html %}

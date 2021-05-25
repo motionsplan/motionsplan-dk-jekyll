@@ -1,8 +1,12 @@
 ---
 title: "Lårmusklens lige hoved"
 permalink: /muskler/rectus-femoris/
+functional_group:
+  - Knæstrækkere
+  - Hoftebøjere
 joint:
   - Knæleddet
+  - Hofteleddet
 group:
   - Ben
 name:

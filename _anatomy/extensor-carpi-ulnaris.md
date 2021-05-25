@@ -1,5 +1,7 @@
 ---
 title: "Extensor Carpi Ulnaris"
+functional_group:
+  - Håndleddets strækkere (dorsalflektorer) og fingerstrækkerne
 joint:
   - Håndleddet
 group:

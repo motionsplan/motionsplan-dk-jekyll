@@ -1,5 +1,7 @@
 ---
 title: Flexor Carpi Ulnaris
+functional_group:
+  - Håndleddets bøjere (volarflektorer) og fingerbøjerne
 name:
   latin: Flexor Carpi Ulnaris
   en: Flexor Carpi Ulnaris

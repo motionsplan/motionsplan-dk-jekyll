@@ -1,5 +1,8 @@
 ---
 title: "Skuldermuskel - Deltamuskel - Deltoideus"
+functional_group:
+  - Armens udadføring
+  - Armens fremadføring
 joint:
   - Skulderleddet
 excerpt: ""

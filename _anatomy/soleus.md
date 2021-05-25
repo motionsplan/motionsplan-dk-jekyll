@@ -2,6 +2,8 @@
 title: "Flyndermusklen"
 group:
   - Ben
+functional_group:
+  - Fodledsstrækkere (plantarfleksorer)
 joint:
   - Fodleddet
 name:

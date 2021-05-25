@@ -1,11 +1,14 @@
 ---
 title: Pectineus
+functional_group:
+  - Hoftens indadførere
 joint:
   - Hofteleddet
 group:
   - Ben
 name:
   latin: Pectineus
+  da: Kammusklen
 tags:
   - imagemap
   - muskel

@@ -1,5 +1,7 @@
 ---
 title: "Flexor Carpi Radialis"
+functional_group:
+  - Håndleddets bøjere (volarflektorer) og fingerbøjerne
 joint:
   - Håndleddet
 group:

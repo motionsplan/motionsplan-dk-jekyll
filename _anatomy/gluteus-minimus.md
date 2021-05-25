@@ -1,5 +1,7 @@
 ---
 title: "Den lille sædemuskel"
+functional_group:
+  - Hoftens udadførere
 joint:
   - Hofteleddet
 group:

@@ -1,5 +1,7 @@
 ---
 title: "Kappemusklen - Trapezius"
+functional_group:
+  - Skulderbladsadduktorer
 joint:
   - Skulderbladet
 excerpt: ""

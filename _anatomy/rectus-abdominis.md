@@ -1,5 +1,7 @@
 ---
 title: "Lige mavemuskel"
+functional_group:
+  - Mavemuskler (fleksion)
 group:
   - Mave
 joint:

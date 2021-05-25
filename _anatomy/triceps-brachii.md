@@ -1,5 +1,8 @@
 ---
 title: Trehovede armstrækker - Triceps
+functional_group:
+  - Armens bagudføring
+  - Armstrækkere
 joint:
   - Albueleddet
   - Skuderleddet

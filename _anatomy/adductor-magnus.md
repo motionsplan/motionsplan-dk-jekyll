@@ -1,11 +1,15 @@
 ---
 title: "Den store indadfører"
+functional_group:
+  - Hoftestrækkere
+  - Hoftens indadførere
 joint:
   - Hofteleddet
 group:
   - Ben
 name:
   latin: Adductor Magnus
+  da: Den store indadfører
 tags:
   - imagemap
   - muskel

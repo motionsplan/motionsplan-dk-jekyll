@@ -1,11 +1,14 @@
 ---
 title: "Serratus Anterior"
+functional_group:
+  - Skulderbladsabduktorer
 joint:
   - Skulderbladet
 group:
   - Skulder
 name:
   latin: "Serratus Anterior"
+  da: "Den savtakkede brystmuskel"
 tags:
   - imagemap
   - muskel

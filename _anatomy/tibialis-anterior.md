@@ -2,6 +2,8 @@
 title: "Forreste skinnebensmuskel"
 joint:
   - Fodleddet
+functional_group:
+  - Fodledsbøjere (dorsalfleksorer)
 group:
   - Ben
 name:

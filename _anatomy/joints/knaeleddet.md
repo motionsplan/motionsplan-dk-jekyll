@@ -1,6 +1,7 @@
 ---
 layout: single
 title: &title "Knæleddet"
+excerpt: "Knæleddet er kroppens største og mest komplicerede led. Knæleddet danner forbindelse mellem lårbenet, skinnebenet og knæskallen. Knæleddet stabiliseres af en række stærke sener både indvendigt i knæet og på indersiden og ydersiden af knæet. Knæskallen er indkapslet i en sene, der går fra lårmusklen og ned på skinnebenet."
 permalink: /joints/knaeleddet/
 latin:
 tags:
@@ -45,3 +46,7 @@ Ledkapslen er forstærket af stærke sideledbånd, der imidlertid bliver løsere
 {% endfor %}
 
 {% include figure image_path=page.image caption=page.title alt=page.title %}
+
+## Muskler i knæleddet
+
+{% include anatomy/table-muscles-knee.html %}
