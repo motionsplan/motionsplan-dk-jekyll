@@ -19,10 +19,10 @@ tags:
 #  da: "Øverste del: Yderste del af kravebenet. Midterste del: Skulderhøjden og øverste rand af skulderkammen. Nederste del: Inderste del af skulderkammen."
 function:
   da:
-    - short: Elevates the scapula.
-      extended: This means that the trapezius muscle lifts the shoulder girdle up (i.e. shrugging your shoulders).
-    - short: Retracts the scapula.
-      extended: This means that the trapezius muscle pulls the scapula, or shoulder blade, rearward such that it approaches the spine.
+    - short: Elevation af skulderbladet
+      extended: Trapezius er med til at løfte skulderbæltet op, så man kan trække på skuldrene.
+    - short: Retraction i skulderbladet
+      extended: Trapezius er med til at trække skulderbladene tættere på hinanden.
   en:
     - short: Elevates the scapula.
       extended: This means that the trapezius muscle lifts the shoulder girdle up (i.e. shrugging your shoulders).

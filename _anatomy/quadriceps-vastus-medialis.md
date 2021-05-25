@@ -19,8 +19,8 @@ insertion:
   da: Samles i en sene øverst på forsiden af skinnebenet
 function:
   da:
-    - short: Extends the leg at the knee.
-      extended: This means that the vastus medialis muscle straightens the leg at the knee joint such that there is an increase in the angle between the lower leg and the upper leg.
+    - short: Ekstension i knæleddet
+      extended: Vastus medialis er med til at lave en strækning i knæleddet.
   en:
     - short: Extends the leg at the knee.
       extended: This means that the vastus medialis muscle straightens the leg at the knee joint such that there is an increase in the angle between the lower leg and the upper leg.

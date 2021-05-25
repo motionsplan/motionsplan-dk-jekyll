@@ -24,7 +24,7 @@ insertion:
 function:
   da:
     - short: Fleksion i skulderleddet (forreste del)
-      extended: De anteriore fibre af deltoideus mer med til at bevæge armen fremad i skulderleddet.
+      extended: De anteriore fibre af deltoideus er med til at bevæge armen fremad i skulderleddet.
     - short: Indadrotation i skulderledddet (forreste del)
       extended: De anteriore fibre af deltoideus er med til at indadrotere armen i skulderleddet.
     - short: Abduktion i skulderleddet (midterste del)

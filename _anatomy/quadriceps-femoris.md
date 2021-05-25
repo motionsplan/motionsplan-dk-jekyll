@@ -18,8 +18,10 @@ tags:
 #  da: Samles i en sene øverst på forsiden af skinnebenet
 function:
   da:
-    - short: Extends the leg at the knee.
-      extended: This means that the vastus medialis muscle straightens the leg at the knee joint such that there is an increase in the angle between the lower leg and the upper leg.
+    - short: Ekstension i knæet
+      extended: Quadriceps har fire hoveder, som alle er med til at strække knæet.
+    - short: Fleksion i hoften
+      extended: Det lige hoved (rectus femoris) er med til at lave en mindre fleksion i hoften.
   en:
     - short: Extends the leg at the knee.
       extended: This means that the vastus medialis muscle straightens the leg at the knee joint such that there is an increase in the angle between the lower leg and the upper leg.

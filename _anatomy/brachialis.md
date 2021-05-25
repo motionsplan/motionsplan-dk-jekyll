@@ -18,9 +18,9 @@ insertion:
   da: Lateralsiden af ekstremitas distalis radii (processus styloideus radii)
 function: 
   da:
-    - short: Flexes the arm at the elbow.
-      extended: This means that the brachioradialis muscle bends the arm at the elbow joint such that there is a decrease in the angle between the forearm and the upper arm.
+    - short: Fleksion i albuen
+      extended: 
   en:
     - short: Flexes the arm at the elbow.
-      extended: This means that the brachioradialis muscle bends the arm at the elbow joint such that there is a decrease in the angle between the forearm and the upper arm.
+      extended:
 ---

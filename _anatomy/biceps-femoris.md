@@ -21,10 +21,10 @@ insertion:
   da: 
 function:
   da:
-    - short: Flexes the leg at the knee.
-      extended: This means that the biceps femoris muscle bends the leg at the knee joint such that there is a decrease in the angle between the lower leg and the upper leg.
-    - short: Extends the leg at the hip.
-      extended: This means that the biceps femoris muscle straightens the hip joint such that there is an increase in the angle between the upper leg and the torso.
+    - short: Fleksion i knæleddet
+      extended: Biceps femoris deltager i bøjning i knæleddet.
+    - short: Ekstension i hofteleddet
+      extended: Biceps femoris deltager som en del af hasemusklerne i udstrækningen i hofteleddet.
   en:
     - short: Flexes the leg at the knee.
       extended: This means that the biceps femoris muscle bends the leg at the knee joint such that there is a decrease in the angle between the lower leg and the upper leg.
