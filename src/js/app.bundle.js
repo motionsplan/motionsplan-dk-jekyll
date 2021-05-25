@@ -67,6 +67,33 @@ require('image-map-resizer');
 $(document).ready(function() {
     $('map').imageMapResize();
 
+    $("#target_bmi_man").change(function() {
+        console.log('Ready to calculate');
+        $("table#idealweight > tbody > tr").each(function(i, obj) {
+            let height = $(this).find('td:first').html();
+            let target_bmi = Number($("#target_bmi_man").val());
+
+            let iw = idealweight.IdealWeight(height, "man");
+            let weight = iw.getPeterson(target_bmi);
+ 
+            $(this).find('td').eq(1).html(weight.toFixed(0));
+        });
+    });
+
+    $("#target_bmi_woman").change(function() {
+        console.log('Ready to calculate');
+        $("table#idealweight > tbody > tr").each(function(i, obj) {
+            let height = $(this).find('td:first').html();
+            let target_bmi = Number($("#target_bmi_woman").val());
+
+            let iw = idealweight.IdealWeight(height, "woman");
+            let weight = iw.getPeterson(target_bmi);
+ 
+            $(this).find('td').eq(2).html(weight.toFixed(0));
+        });
+    });
+
+
     $("#step_man").change(function() {
         console.log('Ready to calculate');
         $("table#steps > tbody > tr").each(function(i, obj) {

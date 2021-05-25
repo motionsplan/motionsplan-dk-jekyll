@@ -1,0 +1,38 @@
+<table id="idealweight">
+    <caption>Skema med idealvægt for kvinder og mænd beregnet på baggrund af Peterson et al (2016)-formel for idealvægt</caption>
+    <thead>
+        <tr>
+            <th>Højde (cm)</th>
+            <th>Idealvægt for mænd (kg)</th>
+            <th>Idealvægt for kvinder (kg)</th>
+        </tr>
+        <tr>
+            <td>BMI<sub>target</sub></td>
+            <td><input type="number" name="target_bmi_man" id="target_bmi_man" value="24.5" min="15" max="50"></td>
+            <td><input type="number" name="target_bmi_woman" id="target_bmi_woman" value="22.5" min="15" max="50"></td>
+        </tr>
+    </thead>
+    <tbody>
+        {% assign array = "150,155,160,165,170,175,180,185,190,195,200" | split: "," %}
+
+        {% assign target_bmi_man = 24.5 %}
+        {% assign target_bmi_woman = 22.5 %}
+
+        {% for h in array %}
+          {% assign height = h | divided_by: 100.0 %}
+          {% assign calc_2 = height | minus: 1.5 %}
+          {% assign calc_1 = target_bmi_man | times: 2.2 %}
+          {% assign calc_3 = target_bmi_man | times: 3.5 | times: calc_2 %}
+          {% assign man = calc_1 | plus: calc_3 %}
+
+          {% assign calc_1 = target_bmi_woman | times: 2.2 %}
+          {% assign calc_3 = target_bmi_woman | times: 3.5 | times: calc_2 %}
+          {% assign woman = calc_1 | plus: calc_3 %}
+        <tr>
+            <td id="height_{{ h }}">{{ h }}</td>
+            <td id="man_{{ h }}">{{ man | round }}</td>
+            <td id="woman_{{ h }}">{{ woman | round }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

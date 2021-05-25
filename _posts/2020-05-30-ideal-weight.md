@@ -1,5 +1,5 @@
 ---
-title: &title "Udregn din idealvægt med denne enkle beregner"
+title: &title "Udregn idealvægt for mænd og kvinder i vores enkle beregner"
 permalink: /idealvaegt/
 language: da
 header:
@@ -16,7 +16,7 @@ last_modified_at: 2020-05-29T08:14:14Z
 toc: true
 ---
 
-Jeg får ofte spørgsmålet om, hvad min idealvægt er? Altså ikke min idealvægt, men din idealvægt. Der er rigtig mange, der vurderer deres egen sundhed ud fra vægten. Jeg har undersøgt, hvad idealvægt er, og hvordan videnskaben er kommer frem til idealvægt?
+Jeg får ofte spørgsmålet om, hvad min idealvægt er? Altså ikke min idealvægt, men idealvægten for mænd og kvinder. Der er rigtig mange, der vurderer deres egen sundhed ud fra vægten. Jeg har undersøgt, hvad idealvægt, normalvægt og gennemsnitsvægt er, og hvordan videnskaben er kommet frem til idealvægt for mænd og kvinder?
 
 Hvad er idealvægt? **Idealvægt er et forsøg på at give et bud på, hvilken kropsvægt der teoretisk set vil give dig det længste liv med færrest sygdomme. Idealvægt er altså et mål for, hvornår du er sund ift. livslængde og helbred. Idealvægten udregnes oftest i forhold til din højde, alder, køn og kropsbygning.**
 
@@ -24,7 +24,7 @@ Hvad er idealvægt? **Idealvægt er et forsøg på at give et bud på, hvilken k
 
 Den simple beregner af idealvægt tager udgangspunkt i de formler, der ser ud til at blive brugt mest til at udregne idealvægten. Formlerne er fra Robinson (1983), Devine (1974), Miller (1983), Hamwi (1964).
 
-Jeg har udvidet beregneren med Morten Zachos forslag til bestemmelse af idealvægt ud fra BMI og kropstype, som jeg gennemgår nedenfor.
+Jeg har udvidet beregneren med Peterson et al (2016) og Morten Zachos forslag til bestemmelse af idealvægt ud fra BMI og kropstype, som jeg gennemgår nedenfor.
 
 {% include calculate-ideal-weight.html %}
 
@@ -49,9 +49,17 @@ Peterson et al (2016) foreslår følgende formel. Med Lemmens (2005) har jeg val
 
 ***
 
-Ideal Weight (kg) = 2.2 x BMI<sub>target</sub> + 3.5 x BMI<sub>target</sub> x (Height (m) - 1.5 m)
+Idealvægt (kg) = 2.2 x BMI<sub>target</sub> + 3.5 x BMI<sub>target</sub> x (højde (m) - 1.5 m)
 
 ***
+
+## Skema med idealvægt for mænd og kvinder
+
+Jeg har lavet en tabel baseret på Peterson et al (2016) beregning for idealvægt for mænd og kvinder, der baserer sig på et target BMI. Du kan selv udfylde det target BMI, du mener er mest optimalt for kvinder og mænd.
+
+Hvis du gerne vil udregne en idealvægt for dig selv baseret på en specifik højde, så kan du bruge beregneren i stedet.
+
+{% include table-idealweight.html %}
 
 ## Udregn idealvægt baseret på BMI og kropstype
 
@@ -82,6 +90,12 @@ Jeg har skrevet en lang grundig artikel om [Body Mass Index (BMI)](/bmi/), som o
 Men husk at idealvægt ikke er nogen faktuel videnskab. Begrebet om idealvægt er bare retningslinjer, som ikke tager højde for din kropsbygning, fedtprocent eller kropskomposition.
 
 Hvis du vil lære mere om kropskomposition, så har jeg skrevet et indlæg om [forskellige modeller til at beskrive kropskomposition]({% link _posts/2019-10-14-kropskomposition.md %}).
+
+## Hvad er gennemsnitsvægt i forhold til idealvægt?
+
+> Mens overvægtsudviklingen blandt danske mænd og børn ser ud til at være stagneret, er danske kvinder i gennemsnit blevet tungere i løbet af de sidste ti år, og mere end fire ud af ti er nu overvægtige eller svært overvægtige. Dermed er kvinderne ved at indhente de danske mænd, hvor godt hver anden er overvægtig eller svært overvægtig. Den andel af kvinderne, der klassificeres som svært overvægtige, er også steget. Det viser nye tal fra DTU Fødevareinstituttet.
+
+--- <cite>[DTU Fødevareinstitutttet](https://www.food.dtu.dk/nyheder/2015/09/danske-kvinders-vaegt-gaar-fortsat-opad)</cite>
 
 ## Konklusion om idealvægt
 
