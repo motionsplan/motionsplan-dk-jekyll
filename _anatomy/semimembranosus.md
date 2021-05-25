@@ -22,9 +22,9 @@ insertion:
 function:
   da:
     - short: Fleksion i knæet
-      extended: This means that the semimembranosus muscle bends the leg at the knee joint such that there is a decrease in the angle between the lower leg and the upper leg.
+      extended: Semimembranosus er med til at bøje i knæet sammen med de andre hasemuskler.
     - short: Extension i hoften
-      extended: This means that the semimembranosus muscle straightens the hip joint such that there is an increase in the angle between the upper leg and the torso.
+      extended: Semimembranosus er med til at lave en strækning i hoften sammen med gluteus maximus og de andre hasemuskler.
   en:
     - short: Flexes the leg at the knee.
       extended: This means that the semimembranosus muscle bends the leg at the knee joint such that there is a decrease in the angle between the lower leg and the upper leg.

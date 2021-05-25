@@ -19,10 +19,10 @@ insertion:
   da: Inderside af fodrod og mellemfod.
 function:
   da:
-    - short: Dorsiflexes the foot.
-      extended: This means that the tibialis anterior muscle bends the ankle such that the angle between the top of the foot and the lower leg decreases (i.e. bringing your toes toward your knees).
-    - short: Supinates, or inverts, the foot (sekundær)
-      extended: This means that the tibialis anterior muscle bends the ankle inward to the side such that the sole of the foot faces inward.
+    - short: Dorsalfleksion i foden
+      extended: Tibialis anterior bøjer i ankelleddet så tæerne kommer tættere på skinnebenet.
+    - short: Supinerer i foden (sekundær)
+      extended: Tibialis anterior er med til at bøje anklen indad, så fodsålen kommer tættere på midtlinjen af kroppen.
   en:
     - short: Dorsiflexes the foot.
       extended: This means that the tibialis anterior muscle bends the ankle such that the angle between the top of the foot and the lower leg decreases (i.e. bringing your toes toward your knees).

@@ -19,10 +19,10 @@ insertion:
   da: 
 function:
   da:
-    - short: Flexes the spine.
-      extended: This means that the rectus abdominis muscle bends the spine to the front (i.e. it moves the sternum down and forward towards the pelvis).
-    - short: Compresses the abdominal cavity.
-      extended: This means that the rectus abdominis muscle constricts the organs of the abdominal cavity and can increase intra-abdominal pressure (i.e. such as during a valsalva maneuver).
+    - short: Bøjer i rygsøjlen
+      extended: Rectus abdominis bøjer rygsøjlen forover.
+    - short: Komprimerer bughulen
+      extended: Rectus abdominis er med til at forøge det trykket i bughulen.
   en:
     - short: Flexes the spine.
       extended: This means that the rectus abdominis muscle bends the spine to the front (i.e. it moves the sternum down and forward towards the pelvis).
