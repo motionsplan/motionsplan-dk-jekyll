@@ -22,6 +22,6 @@ gallery:
 last_modified_at: 2011-10-31T13:08:58Z
 ---
 
- Stil dig som du skal tage en armstrækning dog med samlede fødder. En makker triller en bold hen til dig som du returnerer med skiftevis højre og venstre hånd.
+Stil dig som du skal tage en armstrækning dog med samlede fødder. En makker triller en bold hen til dig som du returnerer med skiftevis højre og venstre hånd.
 
 Bolden behøver ikke blive spillet til den hånd der skal returnere den igen. Der må gerne være krydsbevægelser i.

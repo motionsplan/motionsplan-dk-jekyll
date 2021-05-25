@@ -22,6 +22,6 @@ gallery:
 last_modified_at: 2011-10-31T13:05:22Z
 ---
 
- Stil dig som om du skal tage en armstrækning med samlede fødder. En makker kaster en bold til dig, som du griber med skiftevis højre og venstre hånd.
+Stil dig som om du skal tage en armstrækning med samlede fødder. En makker kaster en bold til dig, som du griber med skiftevis højre og venstre hånd.
 
 Bolden behøver ikke blive kastet til den hånd der skal gribe. Der må gerne være krydsbevægelser.
