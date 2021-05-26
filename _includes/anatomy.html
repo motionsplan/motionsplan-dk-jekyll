@@ -56,8 +56,8 @@ $(document).ready(function() {
 	<map name="muscle-anatomy-map">
 {% assign imagemap = site.anatomy | where: "tags", "imagemap" %}
 {% for m in imagemap %}
-    {% for c in m.coords  %}
-        <area shape="poly" coords="{{ c }}"
+    {% for c in m.coords %}
+        <area shape="poly" coords="{{ c | split: ',' | join: ',' }}"
             title="{{ m.title }}"
             class="{{ m.slug }}"
             onmouseover="document.muscles.src='{{ m.image_focus }}'" 

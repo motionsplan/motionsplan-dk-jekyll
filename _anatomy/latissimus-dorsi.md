@@ -43,3 +43,13 @@ coords:
   - "410,134,426,138,438,135,451,165,441,182,433,204,420,184,419,168,412,146"
   - "462,162,478,131,488,135,503,134,503,142,495,166,494,182,485,195,481,202"
 ---
+
+Latissimus dorsi er den største muskel i ryggen og bliver også kaldt for ”den brede rygmuskel”, ”lats” eller ”vinger”. 
+
+Latissimus dorsi udspringer midt fra rygsøjlen hele vejen ned til lænden og korsbenet og hæfter øverst på indersiden af overarmen.
+
+Derfor er funktionen for latissimus dorsi også at dreje overarmen indad (indadrotation), føre armen ind til siden (adduktion) og føre armen bagud (extension). Derudover medvirker den også til at sænke skulderbladene ligesom [Kappemusklen og Trapezius]({% link _anatomy/trapezius.md %}).
+
+Den brede rygmuskel er også involveret i stort set alle rygøvelser. Du kan altså træne den brede rygmuskel med [pullups]({% link _posts/2020-06-30-pullup-chinup.md %}), [rows]({% link _posts/2020-07-06-rows.md %}) og dødløft-varianter. Her er min favorit helt sikkert pullups.
+
+{% include exercise key="43" title="Pullup" %}

@@ -19,7 +19,7 @@ author: lsolesen
 
 Jeg har samlet en liste over muskler i din ryg her. Det er godt at vide, hvordan dine rygmuskler virker, hvis du gerne vil træne musklerne i ryggen.
 
-{% include figure image_path=page.header.teaser caption="Du ser sjældent dine rygmuskler, men de er vigtige for at have en god og ret holdning" alt="rygmuskler og muskler i benet" %}
+{% include figure image_path=page.header.teaser caption="Du ser sjældent dine rygmuskler, men de er vigtige for at have en god og ret holdning" alt="rygmuskler og muskler i ryggen" %}
 
 [Pullup og chinups]({% link _posts/2020-06-30-pullup-chinup.md %}) er rigtig gode øvelser til ryggen, ligesom du ikke kan undvære de mange [rows og row-variationer]({% link _posts/2020-07-06-rows.md %}).
 
@@ -36,6 +36,21 @@ Når musklerne i benene er stærke, så vil du også præstere bedre, når du sp
 ## Hvilke muskler har du i dit ben?
 
 Når du træner ben, så er de store muskler den firehovede knæstrækker (quadriceps), sædemusklerne (gluteus maximus og til dels medius), indadførene (adductor magnus, longus og brevis), hasemusklerne (semimembranosus, semitendinosus og biceps femoris), og lægmusklerne (gastrocnemius og soleus).
+
+***
+
+RYGGENS OPBYGNING
+Ryggens muskler kan deles op i to muskelgrupper:
+
+De overfladiske rygmuskler
+De dybe rygmuskler
+De overfladiske rygmuskler er de store rygmuskler som har funktion på skulder og skulderbæltet (kraveben og skulderblad) og er de muskler du kan se på en veltrænet ryg. De overfladiske rygmuskler består af nakkemusklen, den brede rygmuskel og skulderbladetsmuskler.
+
+Ryggens anatomi 
+
+De dybe rygmuskler er muskler som ligger dybere og er dermed ikke er visuel, men som har vigtig funktion på rygsøjlen og ribbene.
+
+I dette indlæg vil vi koncentrere os om de overfladiske rygmuskler, som du direkte kan træne i træk bevægelser og som primært medvirker til en stærk og veltrænet ryg.
 
 {% endcomment %}
 

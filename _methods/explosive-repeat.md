@@ -19,9 +19,7 @@ video:
 ---
 
 The goal of the explosive repeat method is to develop the explosive endurance of the fast-
-twitch fibers. Like many other training methods, explosive repeats provide an opportunity
-
-to train recovery using dynamic energy control.
+twitch fibers. Like many other training methods, explosive repeats provide an opportunity to train recovery using dynamic energy control.
 
 Choose an explosive exercise that makes it easy to measure power output or distance
 covered. The featured exercise is called “double-leg bounds,' and it’s especially beneficial

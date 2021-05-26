@@ -26,3 +26,5 @@ coords:
   - "411,130,430,132,410,119"
   - "485,132,503,129,505,117"
 ---
+
+Teres Major kaldes også for den lille hjælper til [latissimus dorsi]({% link _anatomy/latissimus-dorsi.md %}), da den udspringer fra den nederste del af skulderbladet og hæfter det samme sted som den brede rygmuskel. Dermed har teres major altså samme funktion som latissimus dorsi.
