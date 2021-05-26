@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "Tempo Method"
 tags:
   - conditioning
@@ -29,11 +30,11 @@ the by-products of the fast-twitch fibers.
 
 The keys to the tempo method are:
 
-• Use a weight that is about 40% of the athlete’s 1 rep max
-• Follow a 2-second tempo for the concentric and eccentric phases of the lift
-• Do 8-10 reps
-• Rest for 40-60 seconds between sets
-• Repeat 4-6 sets
+- Use a weight that is about 40% of the athlete’s 1 rep max
+- Follow a 2-second tempo for the concentric and eccentric phases of the lift
+- Do 8-10 reps
+- Rest for 40-60 seconds between sets
+- Repeat 4-6 sets
 
 Say the tempo count out loud for your athletes when they first start using this method so
 that they learn the right pace.
@@ -43,3 +44,7 @@ you see this happen, cue the athletes to maintain the proper tempo.
 
 As the athletes develop greater muscular endurance, you can decrease the rest interval to
 40 seconds.
+
+{% if page.video %}
+  {% include video provider=page.video.provider id=page.video.id %}
+{% endif %}

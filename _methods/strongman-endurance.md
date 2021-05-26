@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "Strongman Endurance"
 tags:
   - conditioning
@@ -20,9 +21,9 @@ endurance, and grip strength.
 
 General guidelines for using Strongman training with your athletes are:
 
-• Use a work period of 60-90 seconds
-• Choose a load that challenging yet manageable for the entire work period
-• End the work period if the athlete is unable to maintain proper posture
+- Use a work period of 60-90 seconds
+- Choose a load that challenging yet manageable for the entire work period
+- End the work period if the athlete is unable to maintain proper posture
 
 There are 3 categories of Strongman endurance exercises:
 
@@ -33,11 +34,11 @@ There are 3 categories of Strongman endurance exercises:
 Plate drills are relatively simple and can be done with low loads, making them a good
 starting point for Strongman endurance training:
 
-• Hold the plate and extend/lock the arms overhead
-• Ensure that wrists, elbows, and shoulders are aligned, the spine is neutral, and hips
+- Hold the plate and extend/lock the arms overhead
+- Ensure that wrists, elbows, and shoulders are aligned, the spine is neutral, and hips
 are aligned with the feet
-• Maintain this posture for 30-60 seconds.
-• Walk backward, forward, and sideways at a moderate pace while maintaining the
+- Maintain this posture for 30-60 seconds.
+- Walk backward, forward, and sideways at a moderate pace while maintaining the
 plate hold with proper posture
 
 As plate drills become easier for your athletes, you can make them more complex by
@@ -56,3 +57,7 @@ development.
 With carries, begin by performing similar walking movements to the safety squat bar walk
 or plate drills. You can then incorporate lunges or multi-directional movements, so long as
 the athletes maintain proper posture.
+
+{% if page.video %}
+  {% include video provider=page.video.provider id=page.video.id %}
+{% endif %}

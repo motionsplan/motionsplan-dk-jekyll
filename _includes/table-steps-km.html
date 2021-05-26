@@ -2,11 +2,13 @@
     <thead>
         <tr>
             <th>Skridt</th>
-            <th>Kilometer</th>
+            <th>Kilometer / Mænd</th>
+            <th>Kilometer / Kvinder</th>
         </tr>
         <tr>
             <td>Skridtlængde (cm)</td>
-            <td><input type="number" name="step_length" id="step_length" value="79" min="1" max="200"></td>
+            <td><input type="number" name="step_length_man" id="step_length_man" value="79" min="1" max="200"></td>
+            <td><input type="number" name="step_length_woman" id="step_length_woman" value="66" min="1" max="200"></td>
         </tr>
     </thead>
     <tbody>
@@ -15,7 +17,8 @@
         {% for steps in array %}
         <tr>
             <td id="steps_{{ steps }}">{{ steps | times: 1000 }}</td>
-            <td id="km_{{ km }}">{{ steps | times: 0.79 }}</td>
+            <td id="km_man_{{ km }}">{{ steps | times: 0.79 }}</td>
+            <td id="km_woman_{{ km }}">{{ steps | times: 0.66 }}</td>
         </tr>
         {% endfor %}
     </tbody>

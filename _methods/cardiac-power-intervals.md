@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "Cardiac Power Intervals"
 tags:
   - conditioning
@@ -33,12 +34,12 @@ technique.
 
 General guidelines for cardiac power intervals are:
 
-• Increase the heart rate to maximum while maintaining proper technique
-• Maintain the maximum heart rate for 20-30 seconds
-• Immediately transition to a front plank or sport-specific movement for 60 seconds
-• Bring the heart rate down to 120-130 bpm as quickly as possible using dynamic
+- Increase the heart rate to maximum while maintaining proper technique
+- Maintain the maximum heart rate for 20-30 seconds
+- Immediately transition to a front plank or sport-specific movement for 60 seconds
+- Bring the heart rate down to 120-130 bpm as quickly as possible using dynamic
 energy control
-• Repeat this process for a total of 2-4 sets
+- Repeat this process for a total of 2-4 sets
 
 You can use sport-specific exercises or sprints, or lower-impact methods such as the
 VerasClimber to perform this method.
@@ -51,3 +52,7 @@ developed in the off-season and early pre-season. It should not be used with beg
 You can gauge changes in fitness with this method by comparing the distance the athlete
 covers from one rep to the next and seeing how this changes each week. As athletes
 improve, the disparity in distance covered from one rep to the next should decrease.
+
+{% if page.video %}
+  {% include video provider=page.video.provider id=page.video.id %}
+{% endif %}

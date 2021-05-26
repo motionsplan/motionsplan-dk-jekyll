@@ -40,7 +40,6 @@ feature_row:
     btn_label: "Se prisen hos Tales*"
     btn_class: "btn--success"
 toc: true
-toc_sticky: true
 sidebar:
   nav: anatomi
 author_profile: true
@@ -122,8 +121,6 @@ Anatomi handler også om at lave bevægelsesanalyser. I en bevægelsesanalyse sk
 Jeg har skrevet et andet indlæg, der handler om [hvordan du laver en bevægelsesanalyse]({% link _posts/2020-08-01-bevaegelsesanalyse.md %}).
 
 ## Kroppens anatomiske opbygning ultrakort
-
-## Kroppens opbygning ultrakort
 
 Kroppen er opbygget af forskellige systemer, der har betydning for træningen.
 

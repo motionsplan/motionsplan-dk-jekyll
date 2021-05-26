@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "Cardiac Output - Udholdenhedsløb"
 tags:
   - conditioning
@@ -30,3 +31,7 @@ Cardiac output skal særligt øge størrelsen af den venstre ventrikel. Denne me
 Du skal typisk mindst lave _cardiac output_ metoden i 30 minutter for at stimulere nok adaptation.
 
 Du kan sagtens lave denne metode med en variation af øvelser med lav intensitet i den samme træning. Fx kan du kombinere cykling, crosstrainer, løb, sjipning, prowler til en lille cirkel.
+
+{% if page.video %}
+  {% include video provider=page.video.provider id=page.video.id %}
+{% endif %}

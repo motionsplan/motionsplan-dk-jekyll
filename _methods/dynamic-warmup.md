@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "Dynamic Warm-Up"
 tags:
   - conditioning
@@ -27,9 +28,9 @@ slowing the pace and breathing while relaxing the face.
 
 Coach the 3 cues for reducing sympathetic input and controlling energy expenditure:
 
-• Posture
-• Pace
-• Face
+- Posture
+- Pace
+- Face
 
 Next, tell the athlete to reduce his/her heart rate to 140bpm while focusing on the 3 cues.
 
@@ -40,3 +41,7 @@ athlete to consciously control energy expenditure at different intensities.
 
 Narrow the heart rate ranges as the athlete’s experience with dynamic energy control
 increases.
+
+{% if page.video %}
+  {% include video provider=page.video.provider id=page.video.id %}
+{% endif %}

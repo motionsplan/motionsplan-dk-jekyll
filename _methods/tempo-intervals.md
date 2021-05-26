@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "Tempo-intervaller"
 tags:
   - conditioning
@@ -32,3 +33,7 @@ Når du bruger metoden, så kan du lave en gentagelse, hvor du kører med maksim
 Imellem de enkelte gentagelser skal du arbejde med at få pulsen så hurtigt ned som muligt.
 
 Tempo-intervallerne blev især brugt af Charlie Francis, som var sprinttræner.
+
+{% if page.video %}
+  {% include video provider=page.video.provider id=page.video.id %}
+{% endif %}
