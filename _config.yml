@@ -341,7 +341,7 @@ defaults:
       share: true
       related: true
       toc: true
-      toc_sticky: true
+      toc_sticky: false
       author: lsolesen
       sidebar:
         title: "Populære sider"
@@ -362,6 +362,18 @@ defaults:
       author: lsolesen
       tag_archive_path: /exercises/tags/
       category_archive_path: /exercises/categories/      
+  # _exercises
+  - scope:
+      path: ""
+      type: methods
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      author: lsolesen
   # _programs
   - scope:
       path: ""
@@ -388,7 +400,7 @@ defaults:
       share: true
       related: true
       toc: false
-      toc_sticky: true
+      toc_sticky: false
       author: lsolesen
       tag_archive_path: /anatomi/tags/
       category_archive_path: /anatomi/categories/

@@ -55,6 +55,7 @@ movements_scapula:
     muscles:
       - Rhombemusklen
 image: https://static1.squarespace.com/static/5bba6b9caf468381c6d11b6f/5d33107d18cbd7000113d73a/5dad8ba351bf6e19d66acec1/1571863756133/acromion-process.jpg?format=2500w
+image_movement: /assets/images/anatomy/movement-shoulder.png
 header:
   overlay_image: https://www.orthopaedicsone.com/download/attachments/34800936/Little+Leaguer%27s+Shoulder_AP.jpg
   caption: *title

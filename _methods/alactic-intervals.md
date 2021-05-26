@@ -25,12 +25,12 @@ aerobic capacity to recover in between alactic bouts.
 
 The basic principles of alactic intervals are:
 
-• Use short work periods around 5 seconds long
-• Generate as much power during the work periods as possible while maintaining
+. Use short work periods around 5 seconds long
+. Generate as much power during the work periods as possible while maintaining
 proper technique
-• Actively recover for 1-2 minutes between work periods
-• Maintain the same level of power output from one work period to the next
-• Perform 10-20 sets, depending on the athlete’s ability to maintain a consistent
+. Actively recover for 1-2 minutes between work periods
+. Maintain the same level of power output from one work period to the next
+. Perform 10-20 sets, depending on the athlete’s ability to maintain a consistent
 power output during work periods
 
 You can measure if this method is improving conditioning over time by looking at two

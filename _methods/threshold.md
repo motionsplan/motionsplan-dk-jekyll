@@ -24,20 +24,15 @@ Vælg en øvelse hvor du kan måle _power output_ eller distancen over tid. Over
 
 Den anaerobe tærskel afhænger af, hvilken position atleten er i. Den letteste måde at bestemme den anaerobe tærskel er at bestemme den anaerobe tærskel er ifølge Joel Jamieson at lave en test med et jævnt tempo på 12 minutter. Den gennemsnitlige puls over de 12 minutter kan være en tilnærmelse af den anaerobe tærskel.
 
-***
+Generelle guidelines for at bruge tærskelmetoden er:
 
-General guidelines for the threshold method are:
+- Løb med en puls omkring den anaerobe tærkskel +/- 5 slag/min i 5-15 minutter
+- Lav så meget kraft som muligt inden for den anaerobe tærskel
+- Brug den samme hastighed eller power output i hele arbejdsperioden
+- Brug en moderat modstand for at få pulsen op i det rigtige range
 
-• Maintain a heart rate between threshold level and 5bpm above threshold level for
-5-10 minutes
-• Produce as much power as possible within the anaerobic threshold range
-• Maintain the same pace throughout the work period
-• Use a moderate resistance to get the HR up to the right range
+Atleter bør kigge både på puls og power output eller hastighed, så de kan lære at kontrollere begge omkring den anaerobe tærskel.
 
-Athletes should watch their heart rate and power output during this method so that they
-can learn to control both.
+I pauserne bør atleterne være opmærksomme på restitution ved at manipulere åndedrættet, kropsstillingen, ansigtsmimik mv.
 
-Following the work period, coach the athlete on how to recover efficiently by manipulating
-breathing, posture, facial expressions, etc.
-
-Record the distance covered and 60-second HR recovery to gauge improvement over time.
+Mål hvor lang distance du løber og 60 sekunders _heart rate recovery (HRR)_ for at se forbedringer over tid for den anaerobe tærskel.

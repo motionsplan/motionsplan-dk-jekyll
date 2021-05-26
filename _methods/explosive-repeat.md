@@ -29,11 +29,11 @@ for sports with an explosive lower body component.
 
 Guidelines for doing explosive repeats are:
 
-• Use work periods of 8-10 seconds (around 10-12 bounds, if doing double-leg
+- Use work periods of 8-10 seconds (around 10-12 bounds, if doing double-leg
 bounds)
-• Cover as much distance as possible with each explosive burst—mark this distance
-• Actively recover for 60 seconds while focusing on dynamic energy control
-• Repeat the explosive work period until the athlete can no longer cover the same
+- Cover as much distance as possible with each explosive burst—mark this distance
+- Actively recover for 60 seconds while focusing on dynamic energy control
+- Repeat the explosive work period until the athlete can no longer cover the same
 distance each time
 
 Clearly establish the target number of repetitions for each athlete and emphasize their

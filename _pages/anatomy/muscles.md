@@ -11,7 +11,6 @@ header:
 tags:
   - anatomi
 toc: true
-toc_sticky: true
 author_profile: true
 sidebar:
   nav: anatomi

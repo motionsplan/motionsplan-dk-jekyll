@@ -36,7 +36,6 @@ feature_row:
     title: "Kugleled"
     excerpt: "Et kugleled er det mest bevægelige led i kroppen. Der er et kugleled i hoften mellem lårbenet og hofteskålen og i skulderleddet."
 toc: true
-toc_sticky: true
 sidebar:
   nav: anatomi
 gallery:
@@ -48,19 +47,17 @@ last_modified_at: 2021-03-24T08:14:14Z
 
 Led kan opdeles i ægte led og uægte led og forskellige ledtyper: ægled, saddelled, hængselled, glideled, drejeled og kugleled. Jeg kigger her på de forskellige defintioner og ledtyper. Den primære funktion for et led er bevægelser, som kan deles op i forskellige bevægelsestyper.
 
-Hvad er et led? **Et led er der hvor to eller flere knogler støder sammen til en forbindelse uanset om, der kan være bevægelse eller ej i leddet. Et leddet holdes knoglerne sammen af en ledkapsel, der er forstærket af ledbånd.**
-
-{% comment %}
-
-I forbindelse med idræt er vi hovedsageligt interesseret i de led, der kan bevæge sig. Mennesket kan bevæge sig på mange forskellige måder, og derfor er der også flere forskellige typer led.
+Hvad er et led? **Et led er der hvor to eller flere knogler støder sammen til en forbindelse uanset om, der kan være bevægelse eller ej i leddet. I leddet holdes knoglerne sammen af en ledkapsel, der er forstærket af ledbånd.**
 
 Der er mange forskellige ledtyper i kroppen. Led kan overordnet set opdeles i ægte og uægte led.
 
-Uægte led (ledbånd og symfyser)
-: Uægte led er led uden ledhule. I uægte led kan der kun forekomme små bevægelsesudslag. De uægte led kan noget forenklet opdeles i ledbånd og symfyser.
+Uægte led (dannet af brusk eller bindevæv)
+: Uægte led er led uden ledhule og synovialmembran. I de flestge uægte led er bevægelsesmulighederne små og typisk praktisk talt nul. De uægte led kan forenklet opdeles i uægte led skabt af brusk eller bindevæv.
 
 Ægte led (hængselsled, drejeled, saddelled, ægled, kugleled og glideled)
-: Et ægte led omsluttes af en ledkapsel, som beskytter leddet. Et ægte led har en ledhule. Et ægte led består af to ledflader typisk med et ledhoved og en ledskål.
+: Et ægte led omsluttes af en ledkapsel og en synovialmembran, som beskytter leddet. Et ægte led har en ledhule. Et ægte led består typisk af to ledflader med et ledhoved og en ledskål.
+
+{% comment %}
 
 ## Ægte led
 
@@ -81,7 +78,7 @@ De ægte led kan bevæge sig. Størrelse, retning og størrelse på bevægelsesu
 
 {% include gallery id="gallery" caption="Se flere [anatomiplakater med skeletter og muskler hos plakaterne.dk](https://www.plakaterne.dk/anatomi-anatomiplakater-muskler-skeletter/)." %}
 
-## Ledtyper
+## Oversigt over ledtyper
 
 Kroppens led kan inddeles i seks mekaniske typer led. Formen på leddene er det, der har størst betydning for bevægeligheden i leddene.
 
@@ -95,13 +92,11 @@ Et uægte led er et led uden ledhule og synovialmembran. I de fleste uægte led 
 
 {% comment %}
 
-De uægte led kan noget forenklet opdeles i ledbånd og symfyser.
-
-### Ledbånd
+### Uægte led holdt sammen af ledbånd
 
 Ledbånd kender vi f.eks fra underbenet og foden, hvor tilstødende knogler holdes sammen af ledbånd.
 
-### Symfyser
+### Uægte led som symfyser
 
 En symfyse er et uægte led, hvor der udover ledbåndsfibre er indskudt en blød kerne. Fibrene gør, at leddets knogler ikke kan trækkes væk fra hinanden, fuldstændigt som ved et ledbånd. Den bløde kerne gør, at leddets knogler heller ikke kan presses sammen, og dette er specielt for symfyser. 
 

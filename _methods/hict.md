@@ -31,10 +31,10 @@ purpose.
 
 The guidelines for High Intensity Continuous Training (HICT) on the Keiser bike are:
 
-• Set the resistance level to about 20
-• Maintain a speed of 25-30rpm
-• Perform 10-20 minutes of total work
-• Keep heart rate below the anaerobic threshold
+- Set the resistance level to about 20
+- Maintain a speed of 25-30rpm
+- Perform 10-20 minutes of total work
+- Keep heart rate below the anaerobic threshold
 
 As the athlete fatigues, focus on coaching proper technique while maintaining a constant
 power output.

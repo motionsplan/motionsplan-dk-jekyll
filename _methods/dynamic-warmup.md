@@ -27,9 +27,9 @@ slowing the pace and breathing while relaxing the face.
 
 Coach the 3 cues for reducing sympathetic input and controlling energy expenditure:
 
-• Posture
-• Pace
-• Face
+- Posture
+- Pace
+- Face
 
 Next, tell the athlete to reduce his/her heart rate to 140bpm while focusing on the 3 cues.
 

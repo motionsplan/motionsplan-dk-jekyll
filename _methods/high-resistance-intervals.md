@@ -27,15 +27,15 @@ twitch muscle fibers. One of the easiest ways to accomplish this is through incl
 
 General guidelines for High Resistance Intervals (HRI) are:
 
-• Set around a 15% incline
-• Cover as much distance as possible over a 5 second work period while maintaining
+- Set around a 15% incline
+- Cover as much distance as possible over a 5 second work period while maintaining
 proper technique
-• Actively recover until HR returns to 130-140bpm, depending on the athlete’s fitness
+- Actively recover until HR returns to 130-140bpm, depending on the athlete’s fitness
 level
-• If the HR does not go above 130-140bpm in the first few reps, actively recover for 60
+- If the HR does not go above 130-140bpm in the first few reps, actively recover for 60
 seconds between work periods
-• Set the total time to 10-20 minutes, depending on the athlete’s fitness level
-• Count the number of reps completed over the total time
+- Set the total time to 10-20 minutes, depending on the athlete’s fitness level
+- Count the number of reps completed over the total time
 
 Focus on HR recovery using dynamic energy control in between work periods.
 Gauge improvements in fast-twitch muscle fiber endurance by monitoring the number of

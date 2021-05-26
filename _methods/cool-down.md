@@ -20,10 +20,10 @@ adjusting posture, breathing, pace, and facial expression.
 After 1-2 minutes, transition to 1-2 minutes of coordinated breathing exercises, such as
 “boxed breathing' or PRI exercises. The simple boxed breathing procedure is:
 
-• 4 second inhale
-• 4 second pause
-• 4 second exhale
-• 4 second pause
+- 4 second inhale
+- 4 second pause
+- 4 second exhale
+- 4 second pause
 
 This breathing procedure can be done face-down with knees tucked or face-up in the fetal
 position.

@@ -29,11 +29,11 @@ the by-products of the fast-twitch fibers.
 
 The keys to the tempo method are:
 
-• Use a weight that is about 40% of the athlete’s 1 rep max
-• Follow a 2-second tempo for the concentric and eccentric phases of the lift
-• Do 8-10 reps
-• Rest for 40-60 seconds between sets
-• Repeat 4-6 sets
+- Use a weight that is about 40% of the athlete’s 1 rep max
+- Follow a 2-second tempo for the concentric and eccentric phases of the lift
+- Do 8-10 reps
+- Rest for 40-60 seconds between sets
+- Repeat 4-6 sets
 
 Say the tempo count out loud for your athletes when they first start using this method so
 that they learn the right pace.
