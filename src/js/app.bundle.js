@@ -111,12 +111,20 @@ $(document).ready(function() {
         });
     });
 
-    $("#step_length").change(function() {
+    $("#step_length_man").change(function() {
         console.log('Ready to calculate');
         $("table#steps_to_km > tbody > tr").each(function(i, obj) {
             let steps = $(this).find('td:first').html();
-            let km = steps * ($("#step_length").val()) / 1000 / 100;
+            let km = steps * ($("#step_length_man").val()) / 1000 / 100;
             $(this).find('td').eq(1).html(km.toFixed(2));
+        });
+    });
+    $("#step_length_woman").change(function() {
+        console.log('Ready to calculate');
+        $("table#steps_to_km > tbody > tr").each(function(i, obj) {
+            let steps = $(this).find('td:first').html();
+            let km = steps * ($("#step_length_woman").val()) / 1000 / 100;
+            $(this).find('td').eq(2).html(km.toFixed(2));
         });
     });
     // 1RM calculate
