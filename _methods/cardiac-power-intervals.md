@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "Cardiac Power Intervals"
 tags:
   - conditioning
@@ -51,3 +52,7 @@ developed in the off-season and early pre-season. It should not be used with beg
 You can gauge changes in fitness with this method by comparing the distance the athlete
 covers from one rep to the next and seeing how this changes each week. As athletes
 improve, the disparity in distance covered from one rep to the next should decrease.
+
+{% if page.video %}
+  {% include video provider=page.video.provider id=page.video.id %}
+{% endif %}

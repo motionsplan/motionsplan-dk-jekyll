@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "Explosive Repeat Method"
 tags:
   - conditioning
@@ -41,3 +42,7 @@ improvement from week-to-week.
 
 As athletes’ fitness improve, they should work up to 10-20 sets of explosive repeats. As you
 get closer to the competitive season, increase the work periods and decrease rest periods.
+
+{% if page.video %}
+  {% include video provider=page.video.provider id=page.video.id %}
+{% endif %}

@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "High Resistance Intervals (HRI)"
 tags:
   - conditioning
@@ -42,3 +43,7 @@ Gauge improvements in fast-twitch muscle fiber endurance by monitoring the numbe
 work periods the athlete can complete it a given time frame. If this number increases, the
 athlete has increased his/her fast-twitch fiber endurance—make sure to point out this
 improvement!
+
+{% if page.video %}
+  {% include video provider=page.video.provider id=page.video.id %}
+{% endif %}

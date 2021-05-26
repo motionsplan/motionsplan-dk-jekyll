@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "The Cool Down"
 tags:
   - conditioning
@@ -39,3 +40,7 @@ If heart rate spikes while foam rolling, the pressure is too great and the sympa
 is re-activating.
 
 Finish the cool down by stretching.
+
+{% if page.video %}
+  {% include video provider=page.video.provider id=page.video.id %}
+{% endif %}

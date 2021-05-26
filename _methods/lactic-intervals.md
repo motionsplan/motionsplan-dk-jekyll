@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "Lactic Intervals"
 tags:
   - conditioning
@@ -42,3 +43,7 @@ interval.
 
 You can help athletes develop core stability under fatigue by transitioning them to a plank
 immediately following their lactic intervals.
+
+{% if page.video %}
+  {% include video provider=page.video.provider id=page.video.id %}
+{% endif %}

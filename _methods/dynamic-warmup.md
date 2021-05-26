@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "Dynamic Warm-Up"
 tags:
   - conditioning
@@ -40,3 +41,7 @@ athlete to consciously control energy expenditure at different intensities.
 
 Narrow the heart rate ranges as the athlete’s experience with dynamic energy control
 increases.
+
+{% if page.video %}
+  {% include video provider=page.video.provider id=page.video.id %}
+{% endif %}

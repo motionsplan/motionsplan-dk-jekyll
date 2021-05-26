@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "Alactic Intervals"
 tags:
   - conditioning
@@ -50,3 +51,7 @@ recovery movements can vary throughout the training session.
 
 As you approach a competitive season, work and rest intervals should more closely mimic
 those of the sport itself.
+
+{% if page.video %}
+  {% include video provider=page.video.provider id=page.video.id %}
+{% endif %}

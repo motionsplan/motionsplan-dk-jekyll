@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "Threshold Method - Tærskelmetode"
 tags:
   - conditioning
@@ -36,3 +37,7 @@ Atleter bør kigge både på puls og power output eller hastighed, så de kan l�
 I pauserne bør atleterne være opmærksomme på restitution ved at manipulere åndedrættet, kropsstillingen, ansigtsmimik mv.
 
 Mål hvor lang distance du løber og 60 sekunders _heart rate recovery (HRR)_ for at se forbedringer over tid for den anaerobe tærskel.
+
+{% if page.video %}
+  {% include video provider=page.video.provider id=page.video.id %}
+{% endif %}

@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "Aerob plyometri"
 tags:
   - conditioning

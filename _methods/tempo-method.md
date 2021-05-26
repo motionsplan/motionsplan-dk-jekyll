@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "Tempo Method"
 tags:
   - conditioning
@@ -43,3 +44,7 @@ you see this happen, cue the athletes to maintain the proper tempo.
 
 As the athletes develop greater muscular endurance, you can decrease the rest interval to
 40 seconds.
+
+{% if page.video %}
+  {% include video provider=page.video.provider id=page.video.id %}
+{% endif %}

@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "High Intensity Continuous Training (HICT)"
 tags:
   - conditioning
@@ -44,3 +45,7 @@ The concentric-only nature of the HICT movements incurs less tissue stress than 
 movements. This method also increases blood flow to fast-twitch fibers which often
 accumulate the most training fatigue; the result is a decrease in recovery time.
 When using HICT for active recovery, adjust the total work time to 5-10 minutes.
+
+{% if page.video %}
+  {% include video provider=page.video.provider id=page.video.id %}
+{% endif %}

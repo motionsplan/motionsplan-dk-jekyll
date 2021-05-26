@@ -122,8 +122,6 @@ Jeg har skrevet et andet indlæg, der handler om [hvordan du laver en bevægelse
 
 ## Kroppens anatomiske opbygning ultrakort
 
-## Kroppens opbygning ultrakort
-
 Kroppen er opbygget af forskellige systemer, der har betydning for træningen.
 
 - **Nervesystemet.** Beskederne til musklerne om at arbejde kommer fra nervesystemet. Musklerne og leddene sender også beskeder tilbage til hjernen om, hvordan tilstanden er rundt omkring i kroppen.
