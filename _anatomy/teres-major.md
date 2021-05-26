@@ -3,7 +3,7 @@ title: "Teres Major"
 joint:
   - Skulderleddet
 group:
-  - Bryst
+  - Ryg
 name:
   latin: "Teres Major"
 tags:

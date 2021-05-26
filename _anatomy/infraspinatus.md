@@ -5,6 +5,7 @@ joint:
   - Skulderleddet
 group:
   - Arme
+  - Ryg
 name:
   latin: "Infraspinatus"
 tags:

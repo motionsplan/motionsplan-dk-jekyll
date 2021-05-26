@@ -68,11 +68,23 @@ Der er følgende sundshedsmæssige udfordringer ved **ikke** at have en passende
 
 Der er altså mange grunde til at have en passende fedtprocent.
 
+{% endcomment %}
+
 ## Hvordan måler man sin fedtprocent? 7 metoder!
 
 Der er mange måder at måle fedtprocent på. De fleste er desværre relativt unøjagtige. Du skal overveje meget nøje, hvilket tal du reelt ender med, når du får målt din fedtprocent, og hvordan du vil bruge dette tal.
 
 Det er sandsynligt, at du kan bruge metoderne over tid til at _tracke_, hvordan det går med din fedtprocent og kropskomposition i det hele taget, men det er usandsynligt, at du kan bruge tallene til at sammenligne med andre.
+
+{% assign site_posts = site.posts | where: "category", "Test" | where: "tags", "kropskomposition" |where_exp: "post", "post.url != page.url" | sort: "date" %}
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}
+
+{% comment %}
 
 De mest nøjagtige målinger af fedtprocent er ikke tilgængelige for almindelige mennesker.
 

@@ -127,7 +127,7 @@ Hvis du vil tjekke din [fedtprocent i forhold til normerne for mænd og kvinder,
 
 Hvis du vil have et mere præcist bud på din fedtprocent, så kan du kigge på vores andre måder at måle fedtprocent på. Men overvej hvorfor du gerne vil have sat tal på din fedtprocent.
 
-{% assign site_posts = site.posts | where: "category", "Test" | where: "tags", "kropskomposition" | sort: "date" %}
+{% assign site_posts = site.posts | where: "category", "Test" | where: "tags", "kropskomposition" |where_exp: "post", "post.url != page.url" | sort: "date" %}
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
@@ -138,7 +138,7 @@ Hvis du vil have et mere præcist bud på din fedtprocent, så kan du kigge på 
 ## Referencer om vores fedtprocent beregner
 
 <details markdown="1">
-  <summary>Se referencer til {{ page.title }}</summary>
+  <summary>Se referencer til fedtprocent beregner</summary>
 
 * Loenneke, Jeremy P., Kathryn M. Hirt, Jacob M. Wilson, Jeremy T Barnes, og Thomas J Pujol. 2013. “Predicting Body Composition in College Students Using the Womersley and Durnin Body Mass Index Equation”. Asian Journal of Sports Medicine 4 (2): 153–57. <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3690736/>.
 * Heitmann, B. L. 1990. “Evaluation of Body Fat Estimated from Body Mass Index, Skinfolds and Impedance. A Comparative Study”. European Journal of Clinical Nutrition 44 (11): 831–37.

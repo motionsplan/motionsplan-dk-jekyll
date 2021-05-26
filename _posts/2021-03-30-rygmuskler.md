@@ -60,7 +60,7 @@ Jeg har samlet musklerne i ryggen på en liste med lidt flere informationer heru
 
 {% assign muscles = site.anatomy | where: "group", "Ryg" %}
 {%- for m in muscles -%}
-- [{{ m.title }} - {{ m.name.latin }}]({{ m.url }})
+- [{{ m.name.da | default: m.title }} - {{ m.name.latin }}]({{ m.url }})
 {% endfor %}
 
 Jeg har lavet en samlet [liste over muskler i kroppen her](/muskler/), hvis du er interesseret i at lære endnu mere om [anatomien i kroppen](/anatomi/).
