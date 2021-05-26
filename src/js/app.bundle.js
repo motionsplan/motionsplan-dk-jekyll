@@ -718,9 +718,10 @@ $(document).ready(function() {
         let f = fat.CalculateFatPercent(h, w, a, g);
 
         $("[name='BMI']").val(f.getBMI().toFixed(2));
-        $("[name='fat_percent_heitmann']").val(f.getBodyFatPercentHeitmannBMIEquation().toFixed(2));
-        $("[name='fat_percent_durnin']").val(f.getBodyFatPercentWomersleyDurninBMIEquation().toFixed(2));
-        $("[name='fat_percent_duerenberg']").val(f.getBodyFatPercentDuerenbergBMIEquation().toFixed(2));
+        $("[name='fat_percent_heitmann']").val(f.getBodyFatPercentHeitmannBMIEquation().toFixed(1));
+        $("[name='fat_percent_durnin']").val(f.getBodyFatPercentWomersleyDurninBMIEquation().toFixed(1));
+        $("[name='fat_percent_duerenberg']").val(f.getBodyFatPercentDuerenbergBMIEquation().toFixed(1));
+        $("[name='fat_percent_gallagher']").val(f.getBodyFatPercentGallagher().toFixed(1));
     });
     $("#calculator_how_tall").submit(function(e) {
         console.log("Calculate How Tall");

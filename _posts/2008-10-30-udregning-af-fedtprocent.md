@@ -24,7 +24,7 @@ feature_row:
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://bogreolen.dk/exercise-physiology_bs_9781451193831
     btn_label: Læs mere
     btn_class: btn--success
-last_modified_at: 2020-02-11T23:14:14.000Z
+last_modified_at: 2021-05-26T23:14:14.000Z
 toc: true
 redirect_from:
   - /udregn-fp/
@@ -42,11 +42,17 @@ De vigtigste parametre for mig er styrke, hurtighed, udholdenhed og springhøjde
 
 Hvis du fortsat gerne vil udregne din fedtprocent, så fortsæt til vores enkle beregner.
 
-## Udregn din fedtprocent
+## Udregn din fedtprocent i vores beregner
 
 Du kan bruge vores **fedtprocent beregner** til udregning af din fedtprocent.
 
 {% include calculate-fat-percent.html %}
+
+## Hvad er en god fedtprocent?
+
+På baggrund af Gallagher et al (2000) fortæller følgende grafik, hvad en god fedtprocent er? Det sunde område for fedtprocenten er relativt bredt, men sundhedsmæssigt og præstationsmæssigt er der ikke nogen grund til at skubbe grænserne.
+
+{% include figure image_path="https://4.bp.blogspot.com/-nOLwVUh5HaQ/XUuHz1AD3PI/AAAAAAAAStE/HWTJneEhKDElIU_yvxsKezZjh6D3Z_frQCLcBGAs/s1600/BodyFatRangeChartLarge.jpg" caption="Fedtprocent for voksne mænd og kvinder baseret på WHO [BMI](/bmi/) guidelines ([Gallagher 2000](https://www.researchgate.net/publication/12354988_Healthy_percentage_body_fat_ranges_An_approach_for_developing_guidelines_based_on_body_mass_index))" alt="Hvordan måler jeg min fedtprocent? Fedtprocent for mænd og kvinder" %}
 
 ## Beregn fedtprocent fra højde og vægt
 
@@ -59,7 +65,24 @@ Baggrunden for beregneren er, at BMI på populationsniveau er nogenlunde korrele
 ## Formler brugt i vores fedtprocent beregner
 
 <details markdown="1">
-  <summary>Se formler Heitmann</summary>
+  <summary>Se formler Durnin & Womersley</summary>
+
+### Durnin & Womersley udregning af fedtprocent
+
+Durnin & Womersley bruger i sin formel BMI og køn.
+
+#### Mænd: Udregn din fedtprocent
+
+Fedtprocent = 1.34 * BMI - 12.47
+
+#### Kvinder: Udregn din fedtprocent
+
+Fedtprocent = 1.37 * BMI - 3.47
+
+</details>
+
+<details markdown="1">
+  <summary>Se formler Heitmann (1990)</summary>
 
 ### Heitmann beregning af fedtprocent
 
@@ -76,30 +99,28 @@ Heitmann bruger i sin formel køn, BMI og alder.
 </details>
 
 <details markdown="1">
-  <summary>Se formler Durnin & Womersley</summary>
+  <summary>Se formler Duerenberg et al. (1991)</summary>
 
-### Durnin & Womersley udregning af fedtprocent
+### Duerenberg et al. udregning af fedtprocent
 
-Durnin & Womersley bruger i sin formel BMI og køn.
+Fedtprocent = 1.20 * BMI + 0.23 * age - 10.8 * sex - 5.4;
 
-#### Mænd: Udregn din fedtprocent
-
-PBF = 1.34 * BMI - 12.47
-
-#### Kvinder: Udregn din fedtprocent
-
-PBF = 1.37 * BMI - 3.47
+sex: men = 1; female = 0
 
 </details>
 
 <details markdown="1">
-  <summary>Se formler Duerenberg et al.</summary>
+  <summary>Se formler Gallagher et al. (2000)</summary>
 
-### Duerenberg et al. udregning af fedtprocent
+[Gallagher et al (2000)](https://www.researchgate.net/publication/12354988_Healthy_percentage_body_fat_ranges_An_approach_for_developing_guidelines_based_on_body_mass_index/link/54bd3be10cf27c8f2814b34f/download) inkluderer køn og alder sammen med BMI i deres formel.
 
-PBF = 1.20 * BMI + 0.23 * age - 10.8 * sex - 5.4;
+Men samtidig bruger Gallagher et al (2000) også etnicitet, da de har fundet ud af, at fedtprocenten og BMI hænger lidt anderledes sammen for asiater og _african americans_. Denne detalje har jeg endnu ikke indkorporeret i beregneren, så den regner bare med folk af europæisk afstamning.
 
-sex: men = 1; female = 0
+### Gallagher et al. udregning af fedtprocent
+
+Fedtprocent = 63.7 - 864 * (1/BMI) - 12.1 * sex + 0.12 * age + (129 * asian * (1/BMI)) - (0.091 * asian * age) - (0.030 * afro * age)
+
+hvor sex = 1 for mænd og 0 er for kvinder, Asian = 1 for asiater afro = 1 for African Americans.
 
 </details>
 

@@ -137,7 +137,7 @@ _Data fra Howley and Franks: Health/Fitness Instructor's Handbook, Human Kinetic
 
 Oversat til en grafik baseret på alder kan det se sådan her ud:
 
-{% include figure image_path="https://4.bp.blogspot.com/-nOLwVUh5HaQ/XUuHz1AD3PI/AAAAAAAAStE/HWTJneEhKDElIU_yvxsKezZjh6D3Z_frQCLcBGAs/s1600/BodyFatRangeChartLarge.jpg" caption="Fedtprocent for voksne mænd og kvinder baseret på WHO [BMI](/bmi/) guidelines" alt="Hvordan måler jeg min fedtprocent? Fedtprocent for mænd og kvinder" %}
+{% include figure image_path="https://4.bp.blogspot.com/-nOLwVUh5HaQ/XUuHz1AD3PI/AAAAAAAAStE/HWTJneEhKDElIU_yvxsKezZjh6D3Z_frQCLcBGAs/s1600/BodyFatRangeChartLarge.jpg" caption="Fedtprocent for voksne mænd og kvinder baseret på WHO [BMI](/bmi/) guidelines ([Gallagher 2000](https://www.researchgate.net/publication/12354988_Healthy_percentage_body_fat_ranges_An_approach_for_developing_guidelines_based_on_body_mass_index))" alt="Hvordan måler jeg min fedtprocent? Fedtprocent for mænd og kvinder" %}
 
 ## Mere om at måle fedtprocent
 
