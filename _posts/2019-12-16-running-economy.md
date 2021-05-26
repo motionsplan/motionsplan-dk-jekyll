@@ -1,6 +1,6 @@
 ---
 title: "Beregn din løbeøkonomi: 4 tips til træning af løbeøkonomi 🏃"
-seo_title: "Hvordan forbedrer jeg min løbeøkonomi? 4 tips til træning!"
+seo_title: "Løbeøkonomi • 4 tips til at løbe mere effektivt [Beregner] »"
 description: "Hvad er løbeøkonomi, og hvordan beregner du din løbeøkonomi. Komplet guide til hvordan du forbedrer din løbeøkonomi - og 4 tips til din træning."
 permalink: /lobeokonomi/ 
 redirect_from:
@@ -199,7 +199,7 @@ Hvad der nøjagtigt gør, at kvinderne var mere økonomiske med ilten end mænd,
 Vi kan konkludere følgende om løbeøkonomi:
 
 - Der er mange faktorer der spiller ind på løbeøkonomien – og de fleste kan optimeres.
-- Det er svært at lave sikre målinger af forbedringer og det kræver et laboratorium.
+- Det er svært at lave sikre målinger af forbedringer af løbeøkonomien og det kræver et laboratorium.
 
 ## Hvordan hænger løbeøkonomi og løbeteknik sammen?
 
@@ -213,6 +213,16 @@ Du kan altså arbejde med løbeøkonomien ved at forbedre din teknik, så kan du
 - Din styrke
 
 Alle disse punkter hænger sammen med din [løbestil og løbeteknik, som jeg har skrevet et indlæg om her]({% link _posts/2020-08-16-loebeteknik.md %}).
+
+## Kan man træne sin løbeøkonomi?
+
+Man ser generelt et nedsat energiforbrug hos trænede løbere i størrelsesordenen 2-7% ([Margaria 1963](https://journals.physiology.org/doi/abs/10.1152/jappl.1963.18.2.367?fbclid=IwAR0bq-ZlRfAqVcH89TMjLpG1_SiDp2_mCR2O_FJt3kFBXrXOLAnsuE64Gqc&journalCode=jappl), [Morgan 1995](https://pubmed.ncbi.nlm.nih.gov/7752868/)). Noget typer på, at din løbeøkonomi bliver bedre, jo mere du løber.
+
+Årsagen til forskellen mellem trænede og utrænede i forhold til løbeøkonomi ligger nok i en mere effektivt energiomsætning og generel koordination for de trænede.
+
+Mere generelt ses et spænd på ca. 20% og løbeøkonomi er i højere grad baseret på individuelle karakteristika end træningsstatus ([Lacour 2015](https://pubmed.ncbi.nlm.nih.gov/25681108/)).
+
+Du kan altså træne din løbeøkonomi, og derfor vil du begynde at bruge mindre energi efterhånden, når du løber.
 
 ## Hvordan kan jeg forbedre min løbeøkonomi?
 

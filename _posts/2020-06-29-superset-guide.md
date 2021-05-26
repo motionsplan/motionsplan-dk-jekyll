@@ -1,5 +1,6 @@
 ---
 title: "Superset: Komplet guide til supersæt"
+seo_title: "Supersæt • Guide til 7 forskellige typer superset »"
 permalink: /guide-superset/
 language: da
 header:
@@ -17,6 +18,8 @@ toc: true
 ---
 
 Supersæt hedder _superset_ på engelsk. Grundlæggende er supersæt, når man kombinerer to øvelser i sin træning med hinanden. Man kan kombinere øvelserne i et superset på mange mader, som jeg vil gennemgå her.
+
+Supersæt kan være en måde at spare tid under træning, så din træning bliver endnu mere effektiv.
 
 ## Hvad er et supersæt (superset)?
 
@@ -89,9 +92,32 @@ En anden mulighed er at bruge [coretræning]({% link _posts/2020-07-16-coretraen
 
 {% include video provider="youtube" id="axgv7H_VQOo" %}
 
+## Compound supersæt
+
+I et compound supersæt træner du to øvelser for samme muskelgruppe uden pause imellem. Et compound supersæt er en old school bodybuilding metode, som skal fremme hypertrofi og sikre maksimal udtrætning af de relaterede muskler.
+
+[Brentato et al (2017)](https://pubmed.ncbi.nlm.nih.gov/27243916/) undersøgte effekten af at køre et compound supersæt sammenlignet med et _staggered supersæt_ med urelaterede øvelser:
+
+- Benpres efterfulgt af _leg extensions_
+- Bænkpres efterfulgt af _pec deck flyes_
+
+De sammenlignede resultaterne med følgende supersæt:
+
+- Benpres efterfulgt af _pec deck flyes_
+- Bænkpres efterfulgt af _leg extensions_
+
+Træningsforsøget varede kun fem dage. Begge grupper havde efter træningen reduceret styrke og _range of motion_, og begge grupper rapporterede, at de oplevede ømhed i musklerne (DOMS).
+
+**Compound supersættet forårsagede imidlertid et meget højere niveau af kreatinkinase (632,4% vs 330,5%), som er en markør for muskelskade og bruges som en indikator for, hvor hård træningen har været, når man sammenlignede træningen med staggered supersæt.**
+
+Du kan altså forårsage mere ødelæggelse i musklerne, når du kører to lignende øvelser lige efter hinanden i supersættet.
+
+## Konklusion på supersæt
+
 Det er vigtigt, når du laver supersæt at kvaliteten i de enkelte øvelser stadig er høj. Tanken med supersæt er at nå mere træning på kortere tid uden at gå på kompromis med kvaliteten i træningen.
 
 Superset-træning kan bruges af alle, men du skal naturligvis tænke dig om. God fornøjelse med dine supersæt.
+
 
 {% comment %}
 
