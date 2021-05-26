@@ -1,12 +1,12 @@
 ---
-title: "Du forbrænder mere ved at løbe end ved at gå. Punktum."
+title: Du forbrænder mere ved at løbe end ved at gå. Punktum.
 permalink: /loeb-mere-energi-gang/
-language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1523321826514-fcd51dbe0c2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=80
   teaser: https://images.unsplash.com/photo-1523321826514-fcd51dbe0c2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
   overlay_filter: 0.2
-  caption: "Forbrænding af kalorier ved at gå og løbe"
+  caption: Forbrænding af kalorier ved at gå og løbe
+language: da
 category:
   - Viden om
   - Kondition
@@ -14,8 +14,8 @@ category:
 tags:
   - sammenligning
   - energiforbrug
-last_modified_at: 2021-05-10T08:14:14Z
 toc: true
+last_modified_at: 2021-05-10T08:14:14Z
 ---
 
 Det er umuligt at finde et godt svar på, om man forbrænder flere kalorier eller kilojoule ved at løbe end ved at gå, så jeg besluttede mig for at kigge på kalorieforbrændingen ved gang og løb for at give et definitivt svar.
@@ -280,4 +280,4 @@ Jeg har lavet en tabel med [MET-værdier]({% link _posts/2020-07-24-met.md %}), 
 - McArdle, William D., og Frank I. Katch. 2010. Essential Exercise Physiology 4th. 4th revised international ed edition. Philadelphia: Lippincott Williams and Wilkins.
 - Wilkin, Linda D., Antoinette Cheryl, og Bryan L. Haddock. 2012. “Energy Expenditure Comparison between Walking and Running in Average Fitness Individuals”. Journal of Strength and Conditioning Research 26 (4): 1039–44. <https://doi.org/10.1519/JSC.0b013e31822e592c>.
 - Hall, Cameron, Arturo Figueroa, Bo Fernhall, og Jill A. Kanaley. 2004. “Energy Expenditure of Walking and Running: Comparison with Prediction Equations”. Medicine and Science in Sports and Exercise 36 (12): 2128–34. <https://doi.org/10.1249/01.mss.0000147584.87788.0e>.
-</summary>
+</details>
