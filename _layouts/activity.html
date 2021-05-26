@@ -82,10 +82,14 @@ url
           {% endif %}
         </div>
 
-        <div>
-          <a href="/assets/pdf/exercises/{{ page.path | replace: "_exercises/", "" | replace: ".md", "" }}.pdf" rel="nofollow" class="btn btn--danger btn--large"><i class="far fa-file-pdf" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].pdf_label | default: "Download PDF" }}</a>
+        {% capture path %}/assets/pdf/exercises/{{ page.path | replace: "_exercises/", "" | replace: ".md", "" }}.pdf{% endcapture %}
+        {% assign file_exists = site.static_files | where: "path", path %}
+
+        {% if file_exists.size != 0 %}
+        <div style="margin-top: 1em;">
+          <a href="{{ path }}" rel="nofollow" class="btn btn--danger btn--large"><i class="far fa-file-pdf" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].pdf_label | default: "Download PDF" }}</a>
         </div>
-        
+        {% endif %}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 

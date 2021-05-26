@@ -50,7 +50,7 @@ Tabata (1996) sammenlignede to træningsprotokoller for deres virkning på det a
 
 ## Resultater fra Tabata-studiet
 
-Gruppe 1 forbedrede deres maksimale iltoptagelse fra 53 ml/kg/min til 58 ml/kg/min, mens der ikke var nogen forbedring af deres anaerobe kapacitet. Gruppe 2 forbedrede deres maksimale iltoptagelse med 7 ml/kg/min, mens den anaerobe kapacitet blev forbedret med 28%.
+Gruppe 1 forbedrede deres maksimale iltoptagelse fra 53 ml/kg/min til 58 ml/kg/min, mens der ikke var nogen forbedring af deres anaerobe kapacitet. Gruppe 2 forbedrede deres [maksimale iltoptagelse]({% link _posts/2019-11-03-intensiteten-og-vo2max.md %}) med 7 ml/kg/min, mens den anaerobe kapacitet blev forbedret med 28%.
 
 ## Diskussion af Tabata og intensive intervaller
 

@@ -4,18 +4,67 @@ title: Træningsmetoder
 ---
 
 {% assign posts = site.methods %}
-{{ posts.size }}
+
 {% for m in posts %}
 <section>
   <div class="wrap">
     <div class="grid vertical-align">
-      <div class="content-left vertical-align">
+      <div class="content-left">
         <h2>{{ m.title }}</h2>
         {% if m.excerpt %}
-          <p class="text-intro">{{ m.excerpt }}</p>
+        <p class="text-intro">{{ m.excerpt }}</p>
         {% endif%}
       </div>
-      <div class="content-right vertical-align">
+      <div class="content-right">
+        <ul class="flexblock features">
+          <li>
+            <div>
+              <svg class="fa-battery-full">
+                <use xlink:href="#fa-battery-full"></use>
+              </svg>
+              <h2>RPE</h2>
+              {{ m.rpe }}
+            </div>
+          </li>
+          <li>
+            <div>
+              <svg class="fa-building-o">
+                <use xlink:href="#fa-building-o"></use>
+              </svg>
+              <h2>Frekvens</h2>
+              {{ m.frequency }}
+            </div>
+          </li>
+        </ul>
+        <ul class="flexblock specs">
+          <li>
+            <div>
+              <svg class="fa-heartbeat">
+                <use xlink:href="#fa-heartbeat"></use>
+              </svg>
+              <h2>Intensitet</h2>
+              {{ m.intensity }}
+            </div>
+          </li>
+          <li>
+            <div>
+              <svg class="fa-clock-o">
+                <use xlink:href="#fa-clock-o"></use>
+              </svg>
+              <h2>Tid</h2>
+              {{ m.time }}
+            </div>
+          </li>
+          <li>
+            <div>
+              <svg class="fa-heartbeat">
+                <use xlink:href="#fa-heartbeat"></use>
+              </svg>
+              <h2>Reps</h2>
+              {{ m.reps }}
+            </div>
+          </li>
+        </ul>
         {% if m.header.overlay_image %}
         <figure>
           <img class="aligncenter" src="{{ m.header.overlay_image }}" alt="{{ m.title }}">
@@ -27,23 +76,48 @@ title: Træningsmetoder
 </section>
 {% if m.video %}
 <section>
-      <div class="wrap">
-            <div class="content-left">
-              <h3>Responsive Videos</h3>
-              <p>Just copy and paste the code from YouTube to your slide.</p>
-              {{m.video.provider}} {{ m.video.id}}
-            </div>
-            <!-- end .content-left -->
-            <div class="content-left">
-              <!-- <div class="embed"> = Responsive -->
-              <div class="embed">
-                {% include video provider=m.video.provider id=m.video.id %}
-              </div>
-              <!-- end .embed -->
-            </div>
-            <!-- end .content-left -->
-          </div>
-          <!-- .end .wrap -->
+  <div class="wrap">
+    <div class="grid vertical-align">
+      <div class="content-left">
+        <h2>{{ m.title }}</h2>
+        <p class="text-intro">{{ m.exercises }}</p>
+      </div>
+      <div class="content-right">
+        <div class="embed">
+          {% include video provider=m.video.provider id=m.video.id %}
+        </div>
+      </div>
+    </div>
+    <ul class="flexblock features">
+      <li>
+        <div>
+          <svg class="fa-heartbeat">
+            <use xlink:href="#fa-heartbeat"></use>
+          </svg>
+          <h2>Intensitet</h2>
+          {{ m.intensity }}
+        </div>
+      </li>
+      <li>
+        <div>
+          <svg class="fa-heartbeat">
+            <use xlink:href="#fa-heartbeat"></use>
+          </svg>
+          <h2>Tid</h2>
+          <p>{{ m.time }}</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <svg class="fa-heartbeat">
+            <use xlink:href="#fa-heartbeat"></use>
+          </svg>
+          <h2>Reps</h2>
+          {{ m.reps }}
+        </div>
+      </li>
+    </ul>
+  </div>
 </section>
 {% endif %}
 {% endfor %}

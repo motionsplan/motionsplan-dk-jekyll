@@ -1,33 +1,8 @@
-{% assign muscles_by_group = site.anatomy | where: "tags", "muskel" | group_by: "joint" %}
-{% comment %}
-<script>
-function KalorieSearch() {
-  // Declare variables
-  var input, filter, table, tr, td, i, txtValue;
-  input = document.getElementById("kalorie_search");
-  filter = input.value.toUpperCase();
-  table = document.getElementById("kalorietabellen");
-  tr = table.getElementsByTagName("tr");
-
-  // Loop through all table rows, and hide those who don't match the search query
-  for (i = 0; i < tr.length; i++) {
-    td = tr[i].getElementsByTagName("td")[0];
-    if (td) {
-      txtValue = td.textContent || td.innerText;
-      if (txtValue.toUpperCase().indexOf(filter) > -1) {
-        tr[i].style.display = "";
-      } else {
-        tr[i].style.display = "none";
-      }
-    }
-  }
-}
-</script>
-
-<input type="text" id="kalorie_search" onkeyup="KalorieSearch()" placeholder="Søg efter fødevarer...">
-{% endcomment %}
+<style>
+  .joint { background-color: darkgoldenrod; color: white; }
+</style>
 <table id="muscles">
-  <caption>Muskeloversigt: Muskelgrupper og navne på muskler på dansk og latin</caption>
+  <caption>Muskeloversigt sorteret på led og muskelgrupper</caption>
   <thead>
   <tr>
     <th>Dansk navn</th>
@@ -35,11 +10,192 @@ function KalorieSearch() {
   </tr>
   </thead>
   <tbody>
-  {% for m in muscles_by_group %}
-    <tr><td colspan="2"><strong>{{ m.name }}</strong></td></tr>
-    {% for post in m.items %}
-    <tr><td><a href="{{ post.url }}">{{ post.title }}</a></td><td>{{ post.name.latin }}</td></tr>
+    {% assign muscles_by_group = site.anatomy | where: "tags", "muskel" | where: "joint", "Fodleddet" %}
+
+    <tr><td colspan="2" class="joint"><strong>Fodleddet</strong></td></tr>
+
+    {% include group-by-array.html collection=muscles_by_group field='functional_group' %}
+
+    {% for joint in group_names %}
+      {% assign items = group_items[forloop.index0] | sort: functional_group %}
+      <tr><td colspan="2"><strong>{{ joint }}</strong></td></tr>
+      {% for post in items %}
+      <tr>
+        <td><a href="{{ post.url }}">{{ post.name.da | default: post.title }}</a></td>
+        <td>{{ post.name.latin }}</td></tr>
+      {% endfor %}
     {% endfor %}
-  {% endfor %}
+
+    <tr><td colspan="2" class="joint"><strong>Knæleddet</strong></td></tr>
+
+    {% assign items = site.anatomy | where: "functional_group", "Knæstrækkere" %}
+
+    <tr><td colspan="2"><strong>Knæstrækkere</strong></td></tr>
+
+    {% for post in items %}
+    <tr>
+      <td><a href="{{ post.url }}">{{ post.name.da | default: post.title }}</a></td>
+      <td>{{ post.name.latin }}</td></tr>
+    {% endfor %}
+
+    {% assign items = site.anatomy | where: "functional_group", "Knæbøjere" %}
+
+    <tr><td colspan="2"><strong>Knæbøjer</strong></td></tr>
+
+    {% for post in items %}
+    <tr>
+      <td><a href="{{ post.url }}">{{ post.name.da | default: post.title }}</a></td>
+      <td>{{ post.name.latin }}</td></tr>
+    {% endfor %}
+
+    <tr><td colspan="2" class="joint"><strong>Hofteleddet</strong></td></tr>
+
+    {% assign items = site.anatomy | where: "functional_group", "Hoftebøjere" %}
+
+    <tr><td colspan="2"><strong>Hoftebøjere</strong></td></tr>
+
+    {% for post in items %}
+    <tr>
+      <td><a href="{{ post.url }}">{{ post.name.da | default: post.title }}</a></td>
+      <td>{{ post.name.latin }}</td></tr>
+    {% endfor %}
+
+
+    {% assign items = site.anatomy | where: "functional_group", "Hoftestrækkere" %}
+
+    <tr><td colspan="2"><strong>Hoftestrækkere</strong></td></tr>
+
+    {% for post in items %}
+    <tr>
+      <td><a href="{{ post.url }}">{{ post.name.da | default: post.title }}</a></td>
+      <td>{{ post.name.latin }}</td></tr>
+    {% endfor %}
+
+    {% assign items = site.anatomy | where: "functional_group", "Hoftens indadførere" %}
+
+    <tr><td colspan="2"><strong>Hoftens indadførere</strong></td></tr>
+
+    {% for post in items %}
+    <tr>
+      <td><a href="{{ post.url }}">{{ post.name.da | default: post.title }}</a></td>
+      <td>{{ post.name.latin }}</td></tr>
+    {% endfor %}
+
+    {% assign items = site.anatomy | where: "functional_group", "Hoftens udadførere" %}
+
+    <tr><td colspan="2"><strong>Hoftens udadførere</strong></td></tr>
+
+    {% for post in items %}
+    <tr>
+      <td><a href="{{ post.url }}">{{ post.name.da | default: post.title }}</a></td>
+      <td>{{ post.name.latin }}</td></tr>
+    {% endfor %}
+
+    {% assign muscles_by_group = site.anatomy | where: "tags", "muskel" | where: "joint", "Rygsøjlen" %}
+
+    <tr><td colspan="2" class="joint"><strong>Rygsøjlen</strong></td></tr>
+
+    {% include group-by-array.html collection=muscles_by_group field='functional_group' %}
+
+    {% for joint in group_names %}
+      {% assign items = group_items[forloop.index0] | sort: functional_group %}
+      <tr><td colspan="2"><strong>{{ joint }}</strong></td></tr>
+      {% for post in items %}
+      <tr>
+        <td><a href="{{ post.url }}">{{ post.name.da | default: post.title }}</a></td>
+        <td>{{ post.name.latin }}</td></tr>
+      {% endfor %}
+    {% endfor %}
+
+    {% assign muscles_by_group = site.anatomy | where: "tags", "muskel" | where: "joint", "Skulderbladet" %}
+
+    <tr><td colspan="2" class="joint"><strong>Skulderbladet</strong></td></tr>
+
+    {% include group-by-array.html collection=muscles_by_group field='functional_group' %}
+
+    {% for joint in group_names %}
+      {% assign items = group_items[forloop.index0] | sort: functional_group %}
+      <tr><td colspan="2"><strong>{{ joint }}</strong></td></tr>
+      {% for post in items %}
+      <tr>
+        <td><a href="{{ post.url }}">{{ post.name.da | default: post.title }}</a></td>
+        <td>{{ post.name.latin }}</td></tr>
+      {% endfor %}
+    {% endfor %}
+
+    {% assign muscles_by_group = site.anatomy | where: "tags", "muskel" | where: "joint", "Skulderleddet" %}
+
+    <tr><td colspan="2" class="joint"><strong>Skulderleddet</strong></td></tr>
+
+    {% assign items = site.anatomy | where: "functional_group", "Armens bagudføring" %}
+
+    <tr><td colspan="2"><strong>Armens bagudføring</strong></td></tr>
+
+    {% for post in items %}
+    <tr>
+      <td><a href="{{ post.url }}">{{ post.name.da | default: post.title }}</a></td>
+      <td>{{ post.name.latin }}</td></tr>
+    {% endfor %}
+
+    {% assign items = site.anatomy | where: "functional_group", "Armens fremadføring" %}
+
+    <tr><td colspan="2"><strong>Armens fremadføring</strong></td></tr>
+
+    {% for post in items %}
+    <tr>
+      <td><a href="{{ post.url }}">{{ post.name.da | default: post.title }}</a></td>
+      <td>{{ post.name.latin }}</td></tr>
+    {% endfor %}
+
+    {% assign items = site.anatomy | where: "functional_group", "Armens udadføring" %}
+
+    <tr><td colspan="2"><strong>Armens udadføring</strong></td></tr>
+
+    {% for post in items %}
+    <tr>
+      <td><a href="{{ post.url }}">{{ post.name.da | default: post.title }}</a></td>
+      <td>{{ post.name.latin }}</td></tr>
+    {% endfor %}
+
+    {% assign muscles_by_group = site.anatomy | where: "tags", "muskel" | where_exp: "item", "item.functional_group contains 'Armbøjere'" | where: "joint", "Albueleddet" %}
+
+    <tr><td colspan="2" class="joint"><strong>Albueleddet</strong></td></tr>
+
+    {% assign items = site.anatomy | where: "functional_group", "Armstrækkere" %}
+
+    <tr><td colspan="2"><strong>Armstrækkere</strong></td></tr>
+
+    {% for post in items %}
+    <tr>
+      <td><a href="{{ post.url }}">{{ post.name.da | default: post.title }}</a></td>
+      <td>{{ post.name.latin }}</td></tr>
+    {% endfor %}
+
+    {% assign items = site.anatomy | where: "functional_group", "Armbøjere" %}
+
+    <tr><td colspan="2"><strong>Armbøjere</strong></td></tr>
+
+    {% for post in items %}
+    <tr>
+      <td><a href="{{ post.url }}">{{ post.name.da | default: post.title }}</a></td>
+      <td>{{ post.name.latin }}</td></tr>
+    {% endfor %}
+
+    {% assign muscles_by_group = site.anatomy | where: "tags", "muskel" | where: "joint", "Håndleddet" %}
+
+    <tr><td colspan="2" class="joint"><strong>Håndleddet</strong></td></tr>
+
+    {% include group-by-array.html collection=muscles_by_group field='functional_group' %}
+
+    {% for joint in group_names %}
+      {% assign items = group_items[forloop.index0] | sort: functional_group %}
+      <tr><td colspan="2"><strong>{{ joint }}</strong></td></tr>
+      {% for post in items %}
+      <tr>
+        <td><a href="{{ post.url }}">{{ post.name.da | default: post.title }}</a></td>
+        <td>{{ post.name.latin }}</td></tr>
+      {% endfor %}
+    {% endfor %}
+
   </tbody>
 </table>

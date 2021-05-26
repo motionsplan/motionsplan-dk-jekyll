@@ -55,7 +55,7 @@ Styrketræning kan ligesom balance- og plyometrisk træning give større stabili
 
 Denne mindre styrke og en tendens til at være stærkere i quadriceps er i flere studier blevet nævnt som mulig årsag til, at piger er mere sårbare overfor knæskader (Rosene et al 2001). Det anbefales derfor, at piger laver styrketræning for at mindske risikoen for skader. En kønsbestemt anatomisk bygning (valgus vinkel) og større kropsmasse omkring hoften betyder samtidigt, at piger ofte har en medial vinkling i knæleddet (kalveknæet). Knæet og dets elementer udsættes således for en stor risiko, når det tynges af kropsvægten ved eksempelvis landinger i mange sportsgrene (Kelly & Terry 2001).
 
-Netop muskelstyrken omkring landinger mv. kan man faktisk træne. Du kan se lidt mere om at få knæene til at tracke samme vej som tæerne i \[vores indlæg om teknik]({% link _posts/2011-08-18-tjek-teknikken-i-din-styrketraening.md %}).
+Netop muskelstyrken omkring landinger mv. kan man faktisk træne. Du kan se lidt mere om at få knæene til at tracke samme vej som tæerne i [vores indlæg om teknik]({% link _posts/2011-08-18-tjek-teknikken-i-din-styrketraening.md %}).
 
 Et studie har samtidig vist, at bremsende (excentrisk) styrketræning for baglåret (se ”[Nordisk hamstring]({% link _exercises/nordic-hamstring-12.md %})” og [hamstring curl på swiss bold]({% link _exercises/swiss-ball-curl-728.md %})) kan nedsætte risikoen for fiberskader i baglåret hos fodboldspillere. Fiberskader i baglåret er en hyppig skade i fodbold, når der sprintes over længere afstande (Myklebust 2004).
 
@@ -69,7 +69,7 @@ Dette bør trænes, så muskulaturen kan klare koncentriske og excentriske belas
 
 De ovenstående resultater tyder altså på, at supplerende træning som styrke-, balance- og plyometrisk træning kan have en skadesforebyggende effekt. Især de alvorlige skader som overrevet korsbånd synes at kunne undgås i højere grad. Dette er gode nyheder for trænere og sportsudøvere.
 
-I forhold til skader så er restitution en af de helt store syndere, så du kan med fordel læse lidt mere om [restitution]({% link _posts/2009-08-07-restition-hvordan-bliver-jeg-hurtigst-klar-igen.md %}) og [restitutionstid]({% link _posts/2020-05-28-restitutionstid-alder.md %}).
+I forhold til skader så er restitution en af de helt store syndere, så du kan med fordel læse lidt mere om [restitution og restitutionstid]({% link _posts/2020-05-28-restitutionstid-alder.md %}).
 
 Vi har også skrevet et andet indlæg, der giver [forslag til forskellige øvelser til at forebygge skader](/skadesforebyggelse-skadesforebyggende-traening/).
 

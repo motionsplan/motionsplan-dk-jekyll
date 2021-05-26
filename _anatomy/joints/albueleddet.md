@@ -40,3 +40,7 @@ Hen over albueleddet går sener og muskler ned til underarmen og fingrene. De st
 {% endfor %}
 
 {% include figure image_path=page.image caption=page.title alt=page.title %}
+
+## Muskler i albueleddet
+
+{% include anatomy/table-muscles-elbow.html %}

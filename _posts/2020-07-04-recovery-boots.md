@@ -17,7 +17,7 @@ tags:
 last_modified_at: 2020-07-04T08:12:14Z
 toc: true
 feature_row:
-  - image_path: https://www.optimasport.dk/wp-content/uploads/2017/08/Optima-K8-Recovery-Boot-saet_v1-400x400.jpg
+  - image_path: https://cdn.shopify.com/s/files/1/0552/7358/6897/products/Optima-Sport-Recovery-Boots-Battery-saet-8-kamre_2000x.jpg?v=1615362661
     alt: "Optima Sport Recovery Boots Ultima K8 – komplet sæt"
     title: "Optima Sport Recovery Boots Ultima K8 – komplet sæt"
     excerpt: "Ultima K8 er velegnet til alle programmer. Støvlen giver en mere dybdegående massage, end vores andre støvler, da kamrene er mindre og derfor kan arbejder sig mere ned i muskulaturen."
@@ -107,7 +107,7 @@ Først skal du sørge for at optimere din træning, kost og søvn. Når du har s
 
 Jeg har tidligere skrevet om [kompressionsstrømper som tilsyneladende har vist en bedre effekt på restitution]({% link _posts/2010-07-11-kompressionsstroemper-en-god-ide.md %}), og de er noget billigere at købe med nogenlunde samme påståede effekt.
 
-Jeg har skrevet et andet indlæg om, [hvordan du hurtigst restituerer fra træning]({% link _posts/2009-08-07-restition-hvordan-bliver-jeg-hurtigst-klar-igen.md %}) eller [hvad restitutionstiden er efter træning]({% link _posts/2020-05-28-restitutionstid-alder.md %}).
+Jeg har skrevet et andet indlæg om, [hvad restitutionstiden er, og hvordan du hurtigst restituerer fra træning]({% link _posts/2020-05-28-restitutionstid-alder.md %}).
 
 Det skal selvfølgelig være dig frit for at købe recovery boots, hvis du synes de er behagelige at have på efter træning, og du får en god fornemmelse i kroppen. Du kan fx tjekke **hvad priserne på _recovery boots_** er hos [yourboots.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=71899&htmlurl=https://yourboots.dk/valg-af-maskine/){:rel="nofollow"}, hos [www.denintelligentekrop.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38097&htmlurl=https://www.denintelligentekrop.dk/reecover-recovery-boots-pro6-portable-6-kamre?c=6303){:rel="nofollow"} eller hos [optimasport.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55636){:rel="nofollow"}.
 

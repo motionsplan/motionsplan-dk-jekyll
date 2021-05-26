@@ -1,16 +1,19 @@
 ---
 title: "Infraspinatus"
+excerpt: ""
+joint:
+  - Skulderleddet
 group:
-  - Ben
+  - Arme
 name:
   latin: "Infraspinatus"
 tags:
   - imagemap
   - muskel
 origin: 
-  da: Et hoved fra hver side af nederste bageste del af lårbenet.
+  da: 
 insertion: 
-  da: i akillessenen og fæster på hælbenet.
+  da: 
 function:
   da:
     - short: Laterally rotates the upper arm.
@@ -25,18 +28,6 @@ coords:
   - "489,97,503,105,484,129,479,128,483,106"
 ---
 
-_{{ page.name.latin }}_
+## Træning af {{ page.title }}
 
-- **Udspring**: {{ page.origin.da }}
-- **Hæfte**: {{ page.insertion.da }}
-
-{% include figure image_path=page.image alt=page.title caption=page.title %}
-
-## Funktion
-
-{% for f in page.function.da %}
-- **{{ f.short }}**.
-  {{ f.extended | markdownify }}
-{% endfor %}
-
-{% include figure image_path=page.image_focus alt=page.title caption=page.title %}
+{% include video provider="youtube" id="0yowX4d2aoo" %}

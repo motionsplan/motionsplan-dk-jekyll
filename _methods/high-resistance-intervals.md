@@ -1,8 +1,12 @@
 ---
-title: "High Resistance Intervals"
+layout: single
+title: "High Resistance Intervals (HRI)"
 tags:
   - conditioning
 rpe: 6-7
+intensity: Max
+time: 5s work followed by rest until HR is 130-140bpm
+reps: 10-20 min total time/session
 howto:
   - Each rep is at maximal intensity
   - 5s work followed by rest until HR is 130-140bpm
@@ -14,24 +18,32 @@ progress:
   - Number of reps
   - Heart rate recovery
 effect: "Improves the aerobic abilities of the fast-twitch muscle fibers so that high power can be maintained longer."
+video:
+  provider: facebook
+  id: 8weeksout/videos/10155741321175787
 ---
 
 This interval method uses high resistance to improve the endurance and recovery of fast-
-twitch muscle fibers. One of the easiest ways to accomplish this is through inclined
+twitch muscle fibers. One of the easiest ways to accomplish this is through inclined running.
 
-running.
 General guidelines for High Resistance Intervals (HRI) are:
-• Set around a 15% incline
-• Cover as much distance as possible over a 5 second work period while maintaining
+
+- Set around a 15% incline
+- Cover as much distance as possible over a 5 second work period while maintaining
 proper technique
-• Actively recover until HR returns to 130-140bpm, depending on the athlete’s fitness
+- Actively recover until HR returns to 130-140bpm, depending on the athlete’s fitness
 level
-• If the HR does not go above 130-140bpm in the first few reps, actively recover for 60
+- If the HR does not go above 130-140bpm in the first few reps, actively recover for 60
 seconds between work periods
-• Set the total time to 10-20 minutes, depending on the athlete’s fitness level
-• Count the number of reps completed over the total time
+- Set the total time to 10-20 minutes, depending on the athlete’s fitness level
+- Count the number of reps completed over the total time
+
 Focus on HR recovery using dynamic energy control in between work periods.
 Gauge improvements in fast-twitch muscle fiber endurance by monitoring the number of
 work periods the athlete can complete it a given time frame. If this number increases, the
 athlete has increased his/her fast-twitch fiber endurance—make sure to point out this
 improvement!
+
+{% if page.video %}
+  {% include video provider=page.video.provider id=page.video.id %}
+{% endif %}

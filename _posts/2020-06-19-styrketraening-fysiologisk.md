@@ -180,7 +180,7 @@ Det er særligt interessant for ældre mennesker, da styrketræning er en sikker
 
 Der er lavet en del studier, der viser at styrketræning forbedrer præstationen i aerobe aktiviteter. En stor del af forklaringen skal findes i, at styrketræningen øger musklernes styrke, hvilket gør den enkelte bevægelse relativt lettere. 
 
-Hoff et al (2002) lavede et forsøg med meget veltrænede langrendsløbere tilføjede fx 45 minutters funktionel styrketræning med 85% af 1RM fordelt på tre træningspas, og de havde en forbedring i udholdenhed på 20% i forhold til kontrolgruppen. Dette skete vel at mærke med den samme maksimale iltoptagelse, hvilket tyder på at bevægelsesøkonomien for langrendsløberne steg. Der er lavet [lignende forsøg med løb]({% link _posts/2009-07-15-eksplosiv-traening-goer-dig-hurtigere-paa-5-km.md %}).
+Hoff et al (2002) lavede et forsøg med meget veltrænede langrendsløbere tilføjede fx 45 minutters funktionel styrketræning med 85% af 1RM fordelt på tre træningspas, og de havde en forbedring i udholdenhed på 20% i forhold til kontrolgruppen. Dette skete vel at mærke med den samme maksimale iltoptagelse, hvilket tyder på at bevægelsesøkonomien for langrendsløberne steg. Der er lavet [lignende forsøg med løb]({% link link _posts/2019-12-16-running-economy.md %}).
 
 Ud over at styrketræning forbedrer præstationen i aerobt betingede aktiviteter, så sker der også metaboliske tilpasninger ved styrketræning. 
 

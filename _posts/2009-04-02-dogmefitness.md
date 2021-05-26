@@ -22,8 +22,6 @@ Danmark er dejligst udenfor. Så smid håndvægtene, træd ned af spinningscykle
 
 I dette indlæg kan du læse lidt om begrebet dogmefitness, som jeg fandt på i forbindelse med fysisk træning på Vejle Idrætshøjskole.
 
-I dette indlæg kan du 
-
 Du kan også læse om:
 
 - [Øvelser til udendørs træning og naturfitness]({% link _posts/2012-07-31-naturfitness.md %})

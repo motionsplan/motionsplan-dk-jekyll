@@ -33,7 +33,6 @@ feature_row:
     btn_label: "Se prisen hos Saxo*"
     btn_class: "btn--success"
 toc: true
-toc_sticky: true
 sidebar:
   nav: anatomi
 author_profile: true

@@ -116,7 +116,7 @@ Hvis andelen af type I-fibre er større hos kvinder, så vil de selvsagt også h
 
 ## Er kvinder dårligere til at bruge deres muskler end mænd?
 
-Morten Zacho skriver, at man [utrænede ofte finder, at kvinder er dårligere til at aktivere hele muskelmassen](http://web.archive.org/web/20080227021220/http://www.motion-online.dk/styrketraening/styrke_-_artikler/er_der_forskel_paa_maend_og_kvinders_muskler?/){:rel="nofollow"}. Det betyder, at nervesystemet ikke formår at “tænde” hele muskelmassen. 
+Morten Zacho skriver, at man hos [utrænede ofte finder, at kvinder er dårligere til at aktivere hele muskelmassen](http://web.archive.org/web/20080227021220/http://www.motion-online.dk/styrketraening/styrke_-_artikler/er_der_forskel_paa_maend_og_kvinders_muskler?/){:rel="nofollow"}. Det betyder, at nervesystemet ikke formår at “tænde” hele muskelmassen. 
 
 Morten Zacho foreslår, at det [kan skyldes både hormonelle og dels sociale forhold](http://web.archive.org/web/20080227021220/http://www.motion-online.dk/styrketraening/styrke_-_artikler/er_der_forskel_paa_maend_og_kvinders_muskler?/){:rel="nofollow"}. 
 
@@ -125,6 +125,16 @@ Morten Zacho foreslår, at det [kan skyldes både hormonelle og dels sociale for
 > Hvis man sammenligner kvindelige og mandlige topatleter vil man se, at de er lige gode til at aktivere deres muskler – Det er altså i sidste ende et træningsspørgsmål og dermed et godt argument for at kvinder også skal løfte tunge vægte.
 
 — <cite>[Morten Zacho](http://web.archive.org/web/20080227021220/http://www.motion-online.dk/styrketraening/styrke_-_artikler/er_der_forskel_paa_maend_og_kvinders_muskler?/){:rel="nofollow"}</cite>
+
+## Er der forskel på kvinder og mænds muskulære tilpasning til udholdenhedstræning?
+
+[Carter et al 2001](https://pubmed.ncbi.nlm.nih.gov/11405241/) konkluderer, at der ingen forskel er mellem kvinders og mænd muskulære adaptation til udholdenhedstræning. I studiet så man dog forskelle i fibertypefordelingen, som kan være med til at forklare, hvorfor det ser ud til, at kvinder kan være bedre til fedtforbrænding end mænd. Kvinderne havde en højere andel af type I-fibre i dette studium end mænden. 
+
+> **Metode**: 8 kvinder og 8 mænd gennemgik et syv uger træningsprogram. Træningen bestod af cykeltræning (60 minutter på 60% af VO2max fire gange om ugen). Den maksimale iltoptagelse (VO2max) blev målt og muskelprøver udtaget og analyseret før og efter træningsperioden.
+>
+> **Resultater**: Den maksimale iltoptagelse blev øget med 22% og 17% for henholdsvis kvinder og mænd - men uden statistisk forskel. De mitokondrielle enzymer blev øget med omtrent 40% hos både mænd og kvinder. Endvidere havde mændene relativt større areal af de hurtige type II muskelfibre og kvinderne havde et relativt større areal af de langsomme type I muskelfibre.
+
+--- <cite>[Morten Zacho](http://web.archive.org/web/20130605160953/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/ingen_forskel_i_effekten_af_udholdenhedstraening_paa_kvinder_og_maends_muskler/){: rel="nofollow" }</cite>
 
 ## Skal kvinder og mænd træne forskelligt?
 
@@ -135,6 +145,9 @@ Hvis kvinder er mere udholdende og restituerer hurtigere, så kan kvinder formen
 Træningsanbefalingerne for kvinder og mænd i forhold til styrketræning er dog stadig de samme.
 
 ## Referencer
+
+<details markdown="1">
+  <summary>Se alle referencer om mænds og kvinders muskler</summary>
 
 - Abe, T, C Kearns, og T Fukunaga. 2003. “Sex differences in whole body skeletal muscle mass measured by magnetic resonance imaging and its distribution in young Japanese adults”. British Journal of Sports Medicine 37 (5): 436–40. <https://doi.org/10.1136/bjsm.37.5.436>.
 - Albert, WJ, AT Wrigley, RB McLean, og GG Sleivert. 2006. “Sex differences in the rate of fatigue development and recovery”. Dynamic Medicine 5 (januar): 2. <https://doi.org/10.1186/1476-5918-5-2>.
@@ -166,5 +179,6 @@ Træningsanbefalingerne for kvinder og mænd i forhold til styrketræning er dog
 - Taekema, Diana G., Carolina H. Y. Ling, Gerard Jan Blauw, Carel G. Meskers, Rudi G. J. Westendorp, Anton J. M. de Craen, og Andrea B. Maier. 2011. “Circulating Levels of IGF1 Are Associated with Muscle Strength in Middle-Aged- and Oldest-Old Women”. European Journal of Endocrinology 164 (2): 189–96. <https://doi.org/10.1530/EJE-10-0703>.
 - Velders, Martina, og Patrick Diel. 2013. “How Sex Hormones Promote Skeletal Muscle Regeneration”. Sports Medicine (Auckland, N.Z.) 43 (11): 1089–1100. <https://doi.org/10.1007/s40279-013-0081-6>.
 - WALTS, CORY T., ERIK D. HANSON, MATTHEW J. DELMONICO, LILI YAO, MIN QI WANG, og BEN F. HURLEY. 2008. “Do Sex or Race Differences Influence Strength Training Effects on Muscle or Fat?” Medicine and science in sports and exercise 40 (4): 669–76. <https://doi.org/10.1249/MSS.0b013e318161aa82>.
+</details>
 
 {% include pinterest image_path="/assets/images/pinterest/forskel-maend-kvinders-muskler.png" data-pin-media="/assets/images/pinterest/forskel-maend-kvinders-muskler.png" class="hidden" %}

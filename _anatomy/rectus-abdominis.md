@@ -1,23 +1,28 @@
 ---
 title: "Lige mavemuskel"
+functional_group:
+  - Mavemuskler (fleksion)
 group:
   - Mave
+joint:
+  - Rygsøjlen
 name:
   latin: "Rectus Abdominis"
+  da: "Lige mavemuskel"
 tags:
   - imagemap
   - fitnessinstruktør
   - muskel
 origin: 
-  da: Et hoved fra hver side af nederste bageste del af lårbenet.
+  da: 
 insertion: 
-  da: i akillessenen og fæster på hælbenet.
+  da: 
 function:
   da:
-    - short: Flexes the spine.
-      extended: This means that the rectus abdominis muscle bends the spine to the front (i.e. it moves the sternum down and forward towards the pelvis).
-    - short: Compresses the abdominal cavity.
-      extended: This means that the rectus abdominis muscle constricts the organs of the abdominal cavity and can increase intra-abdominal pressure (i.e. such as during a valsalva maneuver).
+    - short: Bøjer i rygsøjlen
+      extended: Rectus abdominis bøjer rygsøjlen forover.
+    - short: Komprimerer bughulen
+      extended: Rectus abdominis er med til at forøge det trykket i bughulen.
   en:
     - short: Flexes the spine.
       extended: This means that the rectus abdominis muscle bends the spine to the front (i.e. it moves the sternum down and forward towards the pelvis).
@@ -30,19 +35,3 @@ image_focus: /assets/images/anatomy/focus-rectus-abdominis.jpg
 coords:
   - "123,147,144,145,165,148,166,200,161,218,153,255,136,256,122,208"
 ---
-
-_{{ page.name.latin }}_
-
-- **Udspring**: {{ page.origin.da }}
-- **Hæfte**: {{ page.insertion.da }}
-
-{% include figure image_path=page.image alt=page.title caption=page.title %}
-
-## Funktion
-
-{% for f in page.function.da %}
-- **{{ f.short }}**.
-  {{ f.extended | markdownify }}
-{% endfor %}
-
-{% include figure image_path=page.image_focus alt=page.title caption=page.title %}

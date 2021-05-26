@@ -1,5 +1,5 @@
 ---
-title: &title "Skulder, internal rotation"
+title: &title "Skulder, internal rotation overhånd"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/skulder-internal-rotation/

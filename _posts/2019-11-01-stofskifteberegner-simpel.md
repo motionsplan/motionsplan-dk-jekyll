@@ -78,6 +78,8 @@ Du kan i stedet estimere hvilestofskiftet med forskellige beregninger. Med denne
 
 Resultatet er en gennemsnitsberegning for, hvor højt hvilestofskiftet er for personer med dit køn, din alder og din vægt. Der kan være store variationer i basalstofskiftet og hvilestofskiftet fra person til person.
 
+## BMR beregner
+
 {% include calculate-stofskifte.html %}
 
 ## Hvilken formel skal jeg vælge i BMR-beregneren?
@@ -311,13 +313,16 @@ Desuden har jeg lavet en anden beregner til at udregne [ligevægtsindtaget på e
 
 ## Mere avanceret udregning af dagligt energiforbrug
 
-Jeg har også lavet en [avanceret beregner af dit daglige energibehov, hvor den fysiske aktivitet bliver angivet lidt mere præcist]({% link _posts/2019-11-01-stofskifteberegner-avanceret.md %}). Hvis du gerne vil have en beregner på engelsk, så kan du finde den på  [health-calc.com](https://www.health-calc.com/diet/energy-expenditure-advanced).
+Jeg har også lavet en [avanceret beregner af dit daglige energibehov, hvor den fysiske aktivitet bliver angivet lidt mere præcist]({% link _posts/2019-11-01-stofskifteberegner-avanceret.md %}). Hvis du gerne vil have en beregner på engelsk, så kan du finde en på [health-calc.com](https://www.health-calc.com/diet/energy-expenditure-advanced).
 
 [Avanceret stofskifte beregner]({% link _posts/2019-11-01-stofskifteberegner-avanceret.md %}){: .btn .btn--large .btn--success }
 
 ## Referencer om hvilestofskiftet og basalstofskiftet
 
 {% include feature_row type="left" %}
+
+<details markdown="1">
+  <summary>Se flere referencer bag BMR-beregneren</summary>
 
 - Frankenfield, David C. 2013. “Bias and Accuracy of Resting Metabolic Rate Equations in Non-Obese and Obese Adults”. Clinical Nutrition (Edinburgh, Scotland) 32 (6): 976–82. <https://doi.org/10.1016/j.clnu.2013.03.022>.
 - Gerrior, Shirley, WenYen Juan, og Basiotis Peter. 2006. “An Easy Approach to Calculating Estimated Energy Requirements”. Preventing Chronic Disease 3 (4). <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1784117/>.
@@ -329,3 +334,4 @@ Jeg har også lavet en [avanceret beregner af dit daglige energibehov, hvor den 
 - Tinsley, Grant M., Austin J. Graybeal, og M. Lane Moore. 2019. “Resting Metabolic Rate in Muscular Physique Athletes: Validity of Existing Methods and Development of New Prediction Equations”. Applied Physiology, Nutrition, and Metabolism = Physiologie Appliquee, Nutrition Et Metabolisme 44 (4): 397–406. <https://doi.org/10.1139/apnm-2018-0412>.
 - Waterlow, John C., Nevin S. Scrimshaw, og Beat Schürch. 1996. “Energy and Protein requirements, Proceedings of an IDECG workshop”. Eur J Clin Nutr 50 (februar): 1–197. <http://archive.unu.edu/unupress/food2/UID01E/UID01E00.HTM>.
 - Westerterp, Klaas R. 2013. “Physical activity and physical activity induced energy expenditure in humans: measurement, determinants, and effects”. Frontiers in Physiology 4 (april). <https://doi.org/10.3389/fphys.2013.00090>.
+</details>

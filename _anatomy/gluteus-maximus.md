@@ -1,9 +1,14 @@
 ---
 title: "Den store sædemuskel"
+functional_group:
+  - Hoftestrækkere
+joint:
+  - Hofteleddet
 group:
-  - Ben
+  - Hofte
 name:
   latin: "Gluteus Maximus"
+  da: "Den store sædemuskel"
 tags:
   - imagemap
   - fitnessinstruktør
@@ -28,19 +33,3 @@ image_focus: /assets/images/anatomy/focus-gluteus-maximus.jpg
 coords:
   - "440,220,417,237,415,261,423,279,445,280,457,264,466,281,488,282,497,265,494,237,474,220,457,241"
 ---
-
-_{{ page.name.latin }}_
-
-- **Udspring**: {{ page.origin.da }}
-- **Hæfte**: {{ page.insertion.da }}
-
-{% include figure image_path=page.image alt=page.title caption=page.title %}
-
-## Funktion
-
-{% for f in page.function.da %}
-- **{{ f.short }}**.
-  {{ f.extended | markdownify }}
-{% endfor %}
-
-{% include figure image_path=page.image_focus alt=page.title caption=page.title %}

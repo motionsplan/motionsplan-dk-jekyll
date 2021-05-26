@@ -9,7 +9,6 @@ header:
   teaser: https://images.unsplash.com/photo-1529662795444-4a44b7a29db1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
   caption: *title
 tags:
-  - restitution
   - løb
   - skadesforebyggelse
   - skader
@@ -32,7 +31,7 @@ Studiet viste også, at nybegyndere hyppigere får skader, og hvis man tidligere
 
 Det er ikke løbeskoene, der forebygger skader. [Hverken støddæmpning i sko](https://www.motion-online.dk/daempning-loebesko-forhindrer-ikke-skader/){:rel="nofollow"} eller [løbesko med korrektion forebygger skader](https://politiken.dk/forbrugogliv/motion/art5429312/Stabiliserende-l%C3%B8besko-giver-flere-l%C3%B8beskader) og nogle læger [fraråder endda løbeanalyser](https://politiken.dk/forbrugogliv/motion/art5469708/L%C3%A6ge-Drop-l%C3%B8beb%C3%A5ndstest-og-v%C3%A6lg-selv-dine-sko). 
 
-Træningsmetoden ser altså ud til at være noget af det vigtigste, og her kommer [restitution](/artikel/restition-hvordan-bliver-jeg-hurtigst-klar-igen) naturligvis også ind i billedet.
+Træningsmetoden ser altså ud til at være noget af det vigtigste, og her kommer [restitution og restitutionstid]({% link _posts/2020-05-28-restitutionstid-alder.md %}) naturligvis også ind i billedet.
 
 ## Gode råd om løb og skader
 
@@ -40,6 +39,10 @@ Træningsmetoden ser altså ud til at være noget af det vigtigste, og her komme
 - **Ondt i akillessenen eller svangen** kan tyde på, at du har forceret din træningsintensitet - altså løbet for hurtigt og trænet for hårdt.
 - **Vær opmærksom på gamle skader**. De gør dig mere disponeret for en ny skade.
 - **Er du overvægtig**, skal du gribe træningen lempeligt an. Det kan fx være en god ide at starte sin træning med noget ikke-vægtbærende indtil vægten er kommet lidt ned.
+
+## Konklusion
+
+Du kan lave disse øvelser for at [forebygge skader i benene]({% link _posts/2020-11-23-skadesforebyggelse.md %}).
 
 ## Kilde til løbeskader
 

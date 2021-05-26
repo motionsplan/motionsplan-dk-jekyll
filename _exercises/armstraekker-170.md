@@ -23,8 +23,6 @@ training_focus:
 equipment:
   - kropsvægt
 muscle_group:
-  - 
-  - 
 gallery:
   - url: /assets/images/exercises/armstraekker-0.jpg
     image_path: /assets/images/exercises/armstraekker-0-320.jpg

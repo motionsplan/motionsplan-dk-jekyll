@@ -49,6 +49,10 @@ Jeg er i gang med at teste formlerne op mod hinanden. I den forbindelse er jeg m
 
 Du kan finde de danske rekorder for roning på roergometer på [ergometertider.dk](https://ergometertider.dk/). Concept2 har også lavet en liste over [verdensrekorder sat på Concept2-roergometer på 2000-meter distancen](https://www.concept2.com/indoor-rowers/racing/records/world/2000).
 
+## Konklusion
+
+Hvis du gerne vil forbedre din maksimale iltoptagelse på et roergometer, så kan jeg anbefale at prøve nogle af disse [intervaller og roprogrammer]({% link _posts/2010-12-26-ropro-traeningsprogrammer-til-ro-og-kajaksporten.md %}).
+
 {% comment %}
 
 VO2max stands for maximal oxygen uptake and refers to the amount of oxygen your body is capable of utilizing in one minute. It is a measure of your capacity for aerobic work and can be a predictor of your potential as an endurance athlete. Although there are many factors that affect your VO2max, it is a commonly accepted measure of cardio respiratory fitness.

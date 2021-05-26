@@ -1,6 +1,8 @@
 ---
 title: "Træning med kropsvægt: Forslag til øvelser"
 permalink: /artikel/traening-med-kropsvaegt/
+redirect_from:
+  - /artikel/traening-med-kropsvaegt.
 language: da
 header:
   overlay_image: /assets/images/blog/traening-med-kropsvaegt.jpg

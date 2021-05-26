@@ -1,31 +1,5 @@
 {% assign muscles_by_group = site.anatomy | where: "tags", "muskel" | group_by: "group" %}
-{% comment %}
-<script>
-function KalorieSearch() {
-  // Declare variables
-  var input, filter, table, tr, td, i, txtValue;
-  input = document.getElementById("kalorie_search");
-  filter = input.value.toUpperCase();
-  table = document.getElementById("kalorietabellen");
-  tr = table.getElementsByTagName("tr");
 
-  // Loop through all table rows, and hide those who don't match the search query
-  for (i = 0; i < tr.length; i++) {
-    td = tr[i].getElementsByTagName("td")[0];
-    if (td) {
-      txtValue = td.textContent || td.innerText;
-      if (txtValue.toUpperCase().indexOf(filter) > -1) {
-        tr[i].style.display = "";
-      } else {
-        tr[i].style.display = "none";
-      }
-    }
-  }
-}
-</script>
-
-<input type="text" id="kalorie_search" onkeyup="KalorieSearch()" placeholder="Søg efter fødevarer...">
-{% endcomment %}
 <table id="muscles">
   <caption>Muskeloversigt: Muskelgrupper og navne på muskler på dansk og latin</caption>
   <thead>
@@ -38,7 +12,7 @@ function KalorieSearch() {
   {% for m in muscles_by_group %}
     <tr><td colspan="2"><strong>{{ m.name }}</strong></td></tr>
     {% for post in m.items %}
-    <tr><td><a href="{{ post.url }}">{{ post.title }}</a></td><td>{{ post.name.latin }}</td></tr>
+    <tr><td><a href="{{ post.url }}">{{ post.name.da | default: post.title }}</a></td><td>{{ post.name.latin }}</td></tr>
     {% endfor %}
   {% endfor %}
   </tbody>
