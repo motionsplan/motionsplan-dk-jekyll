@@ -32,9 +32,9 @@ language: da
 ---
 Jeg har lavet en beregner, hvor du kan udregne din fedtprocent på baggrund af din vægt, højde, køn og alder. 
 
-*[BMI]: Body Mass Index
+\*\[BMI]: Body Mass Index
 
-Udregningen er naturligvis forbundet med flere usikkerheder. Beregningen af din fedtprocent er indirekte og inddrager kun din højde og din vægt. Derfor er udregningen unøjagtig, da den ikke har mulighed for at vide, om din vægt skyldes muskler eller fedt.
+Udregningen af din fedtprocent er naturligvis forbundet med flere usikkerheder. Beregningen af din fedtprocent er indirekte og inddrager kun din højde og din vægt. Derfor er udregningen unøjagtig, da den ikke har mulighed for at vide, om din vægt skyldes muskler eller fedt.
 
 Der er mange metoder til at måle kropskomposition, og mange går meget op i at finde ud af, hvad deres fedtprocent er.
 
@@ -97,7 +97,7 @@ PBF = 1.37 * BMI - 3.47
 
 ### Duerenberg et al. udregning af fedtprocent
 
-PBF = 1.20 * BMI + 0.23 * age - 10.8 * sex - 5.4;
+PBF = 1.20  *BMI + 0.23*  age - 10.8 * sex - 5.4;
 
 sex: men = 1; female = 0
 
@@ -121,7 +121,7 @@ Du kan kombinere udregningen af fedtprocent med en øjemålstest. Så har du for
 
 {% include figure image_path="https://exerciseandwellness.files.wordpress.com/2016/03/body-fat-percentage-men-women.jpg" caption="Øjemålstest af fedtprocenten - [via](https://exerciseandwellness.wordpress.com/2016/03/28/body-fat-percentages/)" alt="beregn din fedtprocent" %}
 
-Hvis du vil tjekke din [fedtprocent i forhold til normerne for mænd og kvinder, så klik her]({% link _posts/2019-10-13-fedtprocent-maaling.md %}).
+Hvis du vil tjekke din \[fedtprocent i forhold til normerne for mænd og kvinder, så klik her]({% link _posts/2019-10-13-fedtprocent-maaling.md %}).
 
 ## Andre typer målinger af kropskomposition
 
