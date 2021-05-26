@@ -1,6 +1,7 @@
 ---
 layout: single
 title: &title "Knæleddet"
+excerpt: "Knæleddet er kroppens største led. Knæleddet danner forbindelse mellem lårbenet, skinnebenet og knæskallen. Knæleddet stabiliseres af en række stærke sener og ligamenter både indvendigt i knæet og på indersiden og ydersiden af knæet. Knæskallen er indkapslet i patella-senen, der går fra lårmusklen og ned på skinnebenet."
 permalink: /joints/knaeleddet/
 latin:
 tags:
@@ -13,6 +14,7 @@ movements:
     muscles:
       - Quadriceps
 image: https://shop9156.hstatic.dk/upload_dir/pics/Menisk-01.jpg
+image_movement: /assets/images/anatomy/movement-knee.png
 header:
   teaser: https://www.students4bestevidence.net/app/uploads/2018/01/knee-2253047_1920.jpg
   overlay_image: https://www.students4bestevidence.net/app/uploads/2018/01/knee-2253047_1920.jpg
@@ -45,3 +47,7 @@ Ledkapslen er forstærket af stærke sideledbånd, der imidlertid bliver løsere
 {% endfor %}
 
 {% include figure image_path=page.image caption=page.title alt=page.title %}
+
+## Muskler i knæleddet
+
+{% include anatomy/table-muscles-knee.html %}

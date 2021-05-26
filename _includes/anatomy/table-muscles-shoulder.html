@@ -1,0 +1,63 @@
+<style>
+  .joint { background-color: darkgoldenrod; color: white; }
+</style>
+<table id="muscles">
+  <caption>Muskeloversigt sorteret på led og muskelgrupper</caption>
+  <thead>
+  <tr>
+    <th>Dansk navn</th>
+    <th>Latin</th>
+  </tr>
+  </thead>
+  <tbody>
+    {% assign muscles_by_group = site.anatomy | where: "tags", "muskel" | where: "joint", "Skulderbladet" %}
+
+    <tr><td colspan="2" class="joint"><strong>Skulderbladet</strong></td></tr>
+
+    {% include group-by-array.html collection=muscles_by_group field='functional_group' %}
+
+    {% for joint in group_names %}
+      {% assign items = group_items[forloop.index0] | sort: functional_group %}
+      <tr><td colspan="2"><strong>{{ joint }}</strong></td></tr>
+      {% for post in items %}
+      <tr>
+        <td><a href="{{ post.url }}">{{ post.name.da | default: post.title }}</a></td>
+        <td>{{ post.name.latin }}</td></tr>
+      {% endfor %}
+    {% endfor %}
+
+    {% assign muscles_by_group = site.anatomy | where: "tags", "muskel" | where: "joint", "Skulderleddet" %}
+
+    <tr><td colspan="2" class="joint"><strong>Skulderleddet</strong></td></tr>
+
+    {% assign items = site.anatomy | where: "functional_group", "Armens bagudføring" %}
+
+    <tr><td colspan="2"><strong>Armens bagudføring</strong></td></tr>
+
+    {% for post in items %}
+    <tr>
+      <td><a href="{{ post.url }}">{{ post.name.da | default: post.title }}</a></td>
+      <td>{{ post.name.latin }}</td></tr>
+    {% endfor %}
+
+    {% assign items = site.anatomy | where: "functional_group", "Armens fremadføring" %}
+
+    <tr><td colspan="2"><strong>Armens fremadføring</strong></td></tr>
+
+    {% for post in items %}
+    <tr>
+      <td><a href="{{ post.url }}">{{ post.name.da | default: post.title }}</a></td>
+      <td>{{ post.name.latin }}</td></tr>
+    {% endfor %}
+
+    {% assign items = site.anatomy | where: "functional_group", "Armens udadføring" %}
+
+    <tr><td colspan="2"><strong>Armens udadføring</strong></td></tr>
+
+    {% for post in items %}
+    <tr>
+      <td><a href="{{ post.url }}">{{ post.name.da | default: post.title }}</a></td>
+      <td>{{ post.name.latin }}</td></tr>
+    {% endfor %}
+  </tbody>
+</table>

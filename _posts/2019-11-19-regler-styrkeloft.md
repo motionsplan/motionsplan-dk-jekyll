@@ -88,7 +88,9 @@ I noget så enkelt som at løfte en vægt, så er der alligevel mange regler. He
 
 ### Squat
 
-I squat foregår det sådan her. Godkendt dybde er når hofteleddet er under knæleddet.
+I squat foregår det sådan her. Godkendt dybde er, når folden ved hofteleddet er under knæleddet.
+
+Kommandoerne i squat er:
 
 - **The bar is loaded**. Når man får kommandoen "The bar is loaded", så har man maksimalt et minut til at lave sit forsøg. 
 - **Unrack**. Når du går ud af racket, så sørg for at stå helt oprejst med knæene strakte. 
@@ -99,7 +101,9 @@ I squat foregår det sådan her. Godkendt dybde er når hofteleddet er under kn�
 
 ### Bænkpres
 
-Lig på bænken med flade fødder på jorden. Hovedet, skuldrene og ballerne skal røre bænken.
+Lig på bænken med flade fødder på jorden. Hovedet, skuldrene og ballerne skal røre bænken under hele løftet.
+
+Kommandoerne i bænkpres i en styrkeløft-konkurrence er:
 
 - **“The Bar is Loaded!”**. Derefter har du 1 minut til at lave dit forsøg.
 - Du kan _unracke_ alene eller med en hjælper.
@@ -112,6 +116,12 @@ Lig på bænken med flade fødder på jorden. Hovedet, skuldrene og ballerne ska
 ### Dødløft
 
 Ved løftets afslutning skal løfteren have strakte ben og skuldrene tilbage. Derefter skal vægten sættes tilbage på gulvet under kontrol.
+
+Kommandoerne under dødløft er:
+
+- **Bar is loaded**
+- Når man er klar til at løfte, løfter dommeren sin arm.
+- Når løfteren står oprejst med stangen, sænker dommeren armen og siger **ned**.
 
 {% include video provider="youtube" id="WtPdpWnkYV4" %}
 
@@ -156,9 +166,13 @@ Jacob Beermann [foreslår en konservativ og aggressiv strategi for dit 1RM-fors�
 
 Her er et Google Sheet, der kan hjælpe dig med at lave udregningerne af dine forsøg.
 
-***
-
 {% include feature_row id="feature_row_spreadsheet" type="left" %}
+
+## Konklusion
+
+Det var en hurtig gennemgang af reglerne til styrkeløft, så du ikke er helt på bar bund, hvis du skal være med i et styrkeløftstævne.
+
+Jeg har skrevet et andet indlæg, der handler om, hvordan du kan [forberede dig til et maxløft eller en 1RM-maxtest]({% link _posts/2020-11-29-pap-prepare-to-maxtest.md %}).
 
 ## Quiz om regler for styrkeløft
 

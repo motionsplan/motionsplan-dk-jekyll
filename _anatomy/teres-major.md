@@ -1,5 +1,7 @@
 ---
 title: "Teres Major"
+joint:
+  - Skulderleddet
 group:
   - Bryst
 name:
@@ -24,19 +26,3 @@ coords:
   - "411,130,430,132,410,119"
   - "485,132,503,129,505,117"
 ---
-
-_{{ page.name.latin }}_
-
-- **Udspring**: {{ page.origin.da }}
-- **Hæfte**: {{ page.insertion.da }}
-
-{% include figure image_path=page.image alt=page.title caption=page.title %}
-
-## Funktion
-
-{% for f in page.function.da %}
-- **{{ f.short }}**.
-  {{ f.extended | markdownify }}
-{% endfor %}
-
-{% include figure image_path=page.image_focus alt=page.title caption=page.title %}

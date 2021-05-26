@@ -2,6 +2,7 @@
 title: &title "12 citater om fitness og bodybuilding [2021]"
 permalink: /citater-fitness-bodybuilding/
 last_modified_at: 2020-12-29T09:41:09Z
+excerpt: "Jeg falder ofte over citater om fitness og bodybuidling, og mange af dem er inspirerende og motiverende. Jeg har samlet 12 citater her. Jeg synes et citat kan give motivation til min træning i fitness, og nogle af dem der træner allermest er jo bodybuildere."
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2167&q=80
@@ -71,7 +72,7 @@ feature_row_schwarznegger_poster:
     id: "232432"
 gallery:
   - image_path: /assets/images/pinterest/citat-dwayne-johnson.png
-    url: /assets/images/pinterest/cita-dwayne-johnson.png
+    url: /assets/images/pinterest/citat-dwayne-johnson.png
   - image_path: /assets/images/pinterest/wendler-accessories.png
     url: /assets/images/pinterest/wendler-accessories.png
   - image_path: /assets/images/pinterest/wendler-get-it-done.png
@@ -88,7 +89,7 @@ citatplakat:
     title: Do you even lift bro?
 ---
 
-Jeg falder ofte over citater om fitness og bodybuidling, og mange af dem er inspirerende og motiverende. Jeg har samlet {{ page.feature_quotes.size }} citater her. Jeg synes et citat kan give motivation til min træning i fitness, og nogle af dem der træner allermest er jo bodybuildere. 
+Jeg falder ofte over citater om fitness og bodybuidling, og mange af dem er inspirerende og motiverende. Jeg har samlet {{ page.feature_quotes.size }} citater her. Jeg synes et citat kan give motivation til min træning i fitness, og nogle af dem der træner allermest er jo bodybuildere.
 
 Jeg har samlet en masse forskellige citater om fitness og bodybuilding her på siden, men jeg har også oprettet en [Pinterest Opslagstavle med citater](https://pin.it/6VHPDcC), så skynd dig ind og følge den.
 

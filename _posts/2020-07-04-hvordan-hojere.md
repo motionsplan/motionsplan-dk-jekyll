@@ -77,7 +77,7 @@ Hatton (2014) foreslår følgende til at forklare højdeudviklingen over tid for
 
 > The evidence suggests that the most important proximate source of increasing height was the improving disease environment as reflected by the fall in infant mortality. Rising income and education and falling family size had more modest effects.
 
---- <cite>[Hatton (2014)](http://oep.oxfordjournals.org/content/early/2013/08/29/oep.gpt030.full)</cite>
+--- <cite>[Hatton (2014)](https://academic.oup.com/oep/article-abstract/66/2/349/2362600?redirectedFrom=fulltext)</cite>
 
 Hvis du kan supplere med flere datapunkter til opgørelsen over gennemsnitshøjden i Danmark for mænd og kvinder, så skriv endelig i kommentarerne.
 

@@ -21,13 +21,23 @@ gallery:
     url: /assets/images/pinterest/rippetoe-deadlift.png
     title: "Mark Rippetoe"
     alt: "Mark Rippetoe Starting Strength Citat"
+  - image_path: /assets/images/pinterest/rippetoe-squat.png
+    url: /assets/images/pinterest/rippetoe-squat.png
+    title: "Mark Rippetoe"
+    alt: "Mark Rippetoe Starting Strength Citat"
+  - image_path: /assets/images/pinterest/rippetoe-strong.png
+    url: /assets/images/pinterest/rippetoe-strong.png
+    title: "Mark Rippetoe"
+    alt: "Mark Rippetoe Starting Strength Citat"
 ---
 
-Starting Strength er et meget udbredt styrketræningsprogram udformet af Mark Rippetoe. Starting Strenght er både en bog og et styrketræningsprogram.
+Starting Strength er et meget udbredt styrketræningsprogram udformet af Mark Rippetoe. Starting Strength er både en bog og et styrketræningsprogram.
 
 Den første udgave af _Starting Strength_ udkom i 2005, og nu er bogen kommet til tredje udgave. Starting Strength er en fremragende bog om styrketræning, og den gennemgår de enkelte løft meget grundigt i bogen.
 
 Starting Strength er blevet en populær bog og et populært træningsprogram for både trænere og atleter. Lad os kigge lidt på, hvordan Starting Strength-styrketræningsprogrammet er bygget op, hvordan det fungerer - og Rippetoe giver selv tre væsentlige råd til at gennemføre programmet. 
+
+{% include figure image_path="/assets/images/blog/rippetoe-weak-vs-strong.png" caption="A weak man is not as happy as the same man would be if he were strong. This reality is offensive to some people who would like the intellectual or spiritual to take precedense. It is instructive to see what happens to these very people as their squat strength goes up. Mark Rippetoe" alt="Citat Mark Rippetoe" %}
 
 ## Hvem er Starting Strength for?
 
@@ -68,7 +78,7 @@ Jeg har selv brugt Starting Strength mange gange efter fx en træningspause for 
 
 Mark Rippetoe er meget optaget af hensigtsmæssig løfteteknik for at blive stærk. Bogen har en meget nøjagtig gennemgang af teknik. Formålet med teknikken er at placere ryggen i en passende vinkel for at kunne lave maksimal kraftproduktion.
 
-Jeg har tidligere skrevet, at din [teknik i styrketræning]({% link _posts/2019-08-10-teknik.md %}) skal passe til din kropsbygning. Det mener Mark Rippetoe også. I squat foreslår han, at for de fleste skal stangen placeres længere nede på ryggen end de mange gør i forvejen. Men det kommer helt an på, hvordan din krop er sat sammen.
+Jeg har tidligere skrevet, at din [teknik i styrketræning]({% link _posts/2011-08-18-tjek-teknikken-i-din-styrketraening.md %}) skal passe til din kropsbygning. Det mener Mark Rippetoe også. I squat foreslår han, at for de fleste skal stangen placeres længere nede på ryggen end de mange gør i forvejen. Men det kommer helt an på, hvordan din krop er sat sammen.
 
 ## Øvelser og beskrivelser til Starting Strength
 
@@ -164,7 +174,7 @@ Starting Strength er altså ikke bare linære programmering i det uendelige. Nå
 
 ## Mark Rippetoes træningstips til Starting Strength
 
-Starting Strength bør starte relativt let ud, men den lineære progression gør efterhånden programmet rigtig hårdt. Derfor er det vigtigt, at du tænker på din [restitution]({% link _posts/2009-08-07-restition-hvordan-bliver-jeg-hurtigst-klar-igen.md %}), din hvile og sørger for at få rigeligt at spise.
+Starting Strength bør starte relativt let ud, men den lineære progression gør efterhånden programmet rigtig hårdt. Derfor er det vigtigt, at du tænker på din [restitution og restitutionstid]({% link _posts/2020-05-28-restitutionstid-alder.md %}), din hvile og sørger for at få rigeligt at spise.
 
 ## 1. Hvil rigeligt
 
@@ -176,7 +186,7 @@ Du skal også **hvile nok mellem de enkelte træningspas**. Der er en grund til,
 
 I de første uger af træningsprogrammet, kan du måske øge vægten med 4-5 kg pr. gang på squat, og du kan helt sikkert gøre det i dødløft. Hvis du fortsætter med lige så store vægtspring per gang, så kommer din træning til at stagnere.
 
-Kroppen responderer utrolig hurtigt i starten af et træningsprogram, men efter kort tid må du sætte mindre vægt på per gang. I bænkpres skal du bruge mindre vægtspring. Når du kører starting strenght er det godt at kunne micro-loade stangen fra træning til træning. Hvis dit eget træningscenter ikke har mulighed for at loade med mindre end 2,5 kg per gang, så kan du med fordel købe dine egne små skiver, hvis du vil køre Starting Strength. Du kan fx købe [0,5 kg fractional plates fra A-puls\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/nordic-fighter-fractional-plates-vaegtskiver-500g)
+Kroppen responderer utrolig hurtigt i starten af et træningsprogram, men efter kort tid må du sætte mindre vægt på per gang. I bænkpres skal du bruge mindre vægtspring. Når du kører starting strength er det godt at kunne micro-loade stangen fra træning til træning. Hvis dit eget træningscenter ikke har mulighed for at loade med mindre end 2,5 kg per gang, så kan du med fordel købe dine egne små skiver, hvis du vil køre Starting Strength. Du kan fx købe [0,5 kg fractional plates fra A-puls\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/nordic-fighter-fractional-plates-vaegtskiver-500g)
 
 De fleste beregnere du kan finde til Starting Strength online på nettet tager ikke højde for, at du relativt hurtigt i programmet skal i gang med mindre vægtspring fra træning til træning. Det betyder, at programmet kommer til at se usandsynligt ud, hvis du bare sætter det i værk.
 
@@ -192,7 +202,7 @@ Starting Strength er delt op i en A-træning og en B-træning. Du kører de enke
 
 Du sørger for at lave specifik opvarmning i de enkelte øvelser. Opvarmningssættene er vigtige for at få succes med programmet, men de må ikke udtrætte dig uden arbejdssættene. Opvarmningssættene ligger mellem 2-5 gentagelser.
 
-I Starting Strenght bruges 5 gentagelser per sæt i arbejdssættene. Både på A- og B-dage skal du lave 3 x 5 squats. For bænkpres og military press laver du skiftevis 3 x 5 gentagelser. Dødløft laves 1 x 5 gentagelser. Rippetoe synes at mene, at dødløft udtrætter kroppen mere. Min erfaring er, at man også ofte er lidt træt i kroppen efter squats.
+I Starting Strength bruges 5 gentagelser per sæt i arbejdssættene. Både på A- og B-dage skal du lave 3 x 5 squats. For bænkpres og military press laver du skiftevis 3 x 5 gentagelser. Dødløft laves 1 x 5 gentagelser. Rippetoe synes at mene, at dødløft udtrætter kroppen mere. Min erfaring er, at man også ofte er lidt træt i kroppen efter squats.
 
 Når du introducerer cleans i programmet, så er det i stedet fem sæt med 3 gentagelser.
 

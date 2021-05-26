@@ -44,4 +44,4 @@ gallery:
 last_modified_at: 2012-09-07T09:21:50Z
 ---
 
-Stå med forskudte ben. Den bagerste fod placeres på en bænk eller kasse. (Start med dit svageste ben forrest). Hold håndvægtene med strakte arme og håndfladerne pegende mod kroppen. Sænk din krop, indtil knæene er bøjet til en 90 graders vinkel, alt imens din overkrop er oprejst. Løft dig tilbage til startpositionen og fortsæt til, du har lavet et sæt. Skrift derefter ben.
+Stå med forskudte ben. Den bagerste fod placeres på en bænk eller kasse. (Start med dit svageste ben forrest). Hold håndvægte i hænderne eller kettlebels ved brystet. Sænk kroppen, indtil knæet kommer tæt på gulvet, mens din overkrop er oprejst. Løft dig tilbage til startpositionen og fortsæt til, du har lavet et sæt. Skrift derefter ben.

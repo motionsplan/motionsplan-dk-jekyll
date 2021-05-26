@@ -1,21 +1,16 @@
 ---
-title: Aconeus
-name:
-  latin: Aconeus
-  en: Aconeus
+title: "Anconeus"
 group:
   - Arme
-joint:
-  - Albueleddet
+name:
+  latin: Anconeus
 tags:
   - imagemap
   - muskel
 function:
   da:
-    - short: Extends the arm at the elbow.
-      extended: This means that the anconeus muscle straightens the elbow joint such
-        that there is an increase in the angle between the forearm and the upper
-        arm.
+    - short: Strækning i albuen
+      extended: Anconeus delter i strækning af albuen.
   en:
     - short: Extends the arm at the elbow.
       extended: This means that the anconeus muscle straightens the elbow joint such
@@ -32,19 +27,3 @@ coords:
   - 365,178,368,175,371,189,368,194
   - 542,172,545,174,539,191,536,187
 ---
-
-_{{ page.name.latin }}_
-
-- **Udspring**: {{ page.origin.da }}
-- **Hæfte**: {{ page.insertion.da }}
-
-{% include figure image_path=page.image alt=page.title caption=page.title %}
-
-## Funktion
-
-{% for f in page.function.da %}
-- **{{ f.short }}**.
-  {{ f.extended | markdownify }}
-{% endfor %}
-
-{% include figure image_path=page.image_focus alt=page.title caption=page.title %}

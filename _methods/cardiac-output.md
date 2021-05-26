@@ -1,31 +1,37 @@
 ---
-title: "Cardiac Output"
+layout: single
+title: "Cardiac Output - Udholdenhedsløb"
 tags:
   - conditioning
 rpe: 5-6
+intensity: HR 120-150bpm
+time: 30-90 min
 howto:
   - HR 120-150bpm
   - 30-90 min per session
-exercises: "Any low intensity, low blood pressure exercise: jogging, biking, swimming, jumping rope, etc. etc., will work fine as long as heart rate is in the correct range."
+exercises: "Alle aktiviteter med lav intensitet og relativt lavt blodtryk kan bruges til cardiac output træning. Pulsen holdes i længere tid omkring 120-150 slag/min, som er i snakketempo. Du kan fx jogge, cykle, svømme, sjippetov, cirkeltræning, så længe du holder pulsen i den korrekte pulszone."
 frequency: 1-4 x / week
 progress:
   - Speed/power at different heart rates
-effect: "Improves oxygen supply by increasing how effectively the heart can deliver oxygen and develops the peripheral vascular network."
+effect: "Cardiac output er med til at øge hjertets størrelse (og derved slagvolumen) og udbygge og forbedre det perifære netværk med kapillærer, så ilttilførslen kan foregå endnu mere effektivt."
 video:
   provider: facebook
-  id: 10155781664495787
+  id: 8weeksout/videos/10155781664495787
 ---
 
-The key to the cardiac output method is to keep the heart rate between 130-150bpm. You
-should be able to maintain a conversation at this pace. When you perform this method in a
-seated position, your heart rate is about 10bpm lower than if you were standing. This shifts
-the heart rate range to 120-140bpm.
-This is a range that should be sustainable for long periods of time yet challenging enough
-to stimulate improvements in aerobic fitness. Specifically, the goal of the cardiac output
-method is to increase the size of the left ventricle. This method will also help develop the
-vascular system and improve the endurance of slow-twitch muscle fibers.
-You typically need to do the cardiac output method for at least 30 minutes in order to
-stimulate adaptation.
-This method is a good opportunity for practicing dynamic energy control.
-You can do the cardiac output method with a variety of low-intensity, low-resistance
-exercises within the same session.
+Cardiac output træning skal forbedre udholdenheden. Ved at arbejde med en puls mellem 120-150 slag / min i snakketempo, så kan du forbedre størrelsen af hjertet og de perifære egenskaber med kapillærer og mitochondrier.
+
+Hvis du laver aktiviteten stående, skal du formentlig være i den højere ende af pulsområdet omkring 130-150, mens du ved siddende aktiviteer formentlig skal være fra omkring 120-140 slag / min.
+{: .notice .notice--info }
+
+Når du laver udholdenhedstræning, så skal du holde en intensitet, der gør, at du kan lave aktivitetn over længere tid i det korrekte pulsområde. Det er den måde du stimulerer den aerobe fitness.
+
+Cardiac output skal særligt øge størrelsen af den venstre ventrikel. Denne metode hjælper også med at forbedre det vaskulære system og forbedre udholdenheden i de langsomme muskelfibre - type I fibrene.
+
+Du skal typisk mindst lave _cardiac output_ metoden i 30 minutter for at stimulere nok adaptation.
+
+Du kan sagtens lave denne metode med en variation af øvelser med lav intensitet i den samme træning. Fx kan du kombinere cykling, crosstrainer, løb, sjipning, prowler til en lille cirkel.
+
+{% if page.video %}
+  {% include video provider=page.video.provider id=page.video.id %}
+{% endif %}

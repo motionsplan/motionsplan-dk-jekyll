@@ -162,7 +162,7 @@ Hvis du har løbet meget, men ikke helt ser den fremgang, du gerne vil, så har 
 
 Når du laver løbetræning og laver din træningsplanlægning, så kan du veksle mellem tre forskellige slags løbeture:
 
-- **#1) Den langsomme løbetur i snakketempo.** Når du løber langsomt i snakketempo, som du fx kan vurdere ud fra [Borg-skalaen]({% link _posts/2020-06-18-borg-skala.md %}) eller ud fra dine [pulszoner]({% link _posts/2019-10-31-intensitet-puls.md %}) (for de fleste skal pulsen ligge mellem 120 og 150), så træner du udholdenheden og fedtforbrændingen. Dette tempo kan også bruges som [aktiv restitution]({% link _posts/2009-08-07-restition-hvordan-bliver-jeg-hurtigst-klar-igen.md %}).
+- **#1) Den langsomme løbetur i snakketempo.** Når du løber langsomt i snakketempo, som du fx kan vurdere ud fra [Borg-skalaen]({% link _posts/2020-06-18-borg-skala.md %}) eller ud fra dine [pulszoner]({% link _posts/2019-10-31-intensitet-puls.md %}) (for de fleste skal pulsen ligge mellem 120 og 150), så træner du udholdenheden og fedtforbrændingen. Dette tempo kan også bruges som [aktiv restitution]({% link _posts/2020-05-28-restitutionstid-alder.md %}).
 - **#2) Den hurtige tempotur omkring den anaerobe tærskel**. Dette tempo skal ligge omkring mælkesyregrænsen. Hvis du gerne vil finde, hvilken puls din [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}) ligger på, så svarer det nogenlunde til gennemsnitspulsen af et maksimalt løb på omkring 30 minutter til 60 minutter.
 - **#3) Højintense intervalløb**. Du skal kredsløbets maksimale iltoptagelse ved at arbejde omkring din maksimale ydeevne. Typisk kan du løbe maksimalt 6-10 minutter omkring den maksimale ydeevne, hvis du gerne vil teste, hvor hurtigt du skal løbe for at træne dette.
 
@@ -190,7 +190,7 @@ Det langsomme tempo vil helt sikkert føles alt for langsomt. Du vil hele tiden 
 
 Det hurtige tempo føles derimod ubehageligt. Kroppen og hjernen vil gøre hvad den kan, for at du sætter tempoet ned, men lad dig ikke friste. Du har et mål med træningen. I dag var enten at flytte den anaerobe tærskel eller at forbedre den maksimale iltoptagelse. Det må kroppen og hjernen ganske enkelt vænne sig til.
 
-## Løbtræning skal foregå i minutter
+## Løbetræning skal foregå i minutter
 
 Jeg mener, at alt for mange løbere fokuserer på, hvor mange kilometer, de løber, i stedet for at fokusere på, hvor mange minutter de løber.
 

@@ -1,7 +1,7 @@
 ---
 title: &title "Rite 3: Forlår"
-excerpt: ""
-instructions: ""
+excerpt: "Den tredje rite er forholdsvis simpel. Sæt dig på knæene, så kun dine tær og knæ rør underlaget. Placer herefter dine hænder på baglåret. Træk nu hagen mod brystet ved at bøje hovedet fremover. Bøj derefter hoved bagover og svaj i din rygrad. Kør efterfølgende op til standardpositionen."
+instructions: "Den tredje rite er forholdsvis simpel. Sæt dig på knæene, så kun dine tær og knæ rør underlaget. Placer herefter dine hænder på baglåret. Træk nu hagen mod brystet ved at bøje hovedet fremover. Bøj derefter hoved bagover og svaj i din rygrad. Kør efterfølgende op til standardpositionen."
 permalink: /oevelse/rite-3-forlaar/
 redirect_from: /node/672
 id: 672
@@ -47,4 +47,6 @@ gallery:
 last_modified_at: 2015-04-10T13:33:58Z
 ---
 
+Den tredje rite er forholdsvis simpel. Sæt dig på knæene, så kun dine tær og knæ rør underlaget. Placer herefter dine hænder på baglåret. Træk nu hagen mod brystet ved at bøje hovedet fremover. Bøj derefter hoved bagover og svaj i din rygrad. Kør efterfølgende op til standardpositionen.
 
+Træk vejret ind når du bøjer dig bagover, og pust ud når du bøjer dig forover.

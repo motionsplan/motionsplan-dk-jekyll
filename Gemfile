@@ -10,6 +10,8 @@ group :jekyll_plugins do
     gem 'jekyll-include-cache'
     gem 'jekyll-remote-theme'
     gem 'jekyll-sitemap'
+    gem 'jekyll-gzip'
+    gem 'jekyll-brotli'
 end
 gem 'classifier-reborn'
 gem 'gsl'

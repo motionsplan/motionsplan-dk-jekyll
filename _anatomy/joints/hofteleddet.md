@@ -2,7 +2,7 @@
 layout: single
 title: "Hofteleddet"
 permalink: /joints/hofteleddet/
-#excerpt: "Hofteleddet er et kugleled, der er dannet af en ledskål på hoftebenet og et ledhoved på lårbensknoglen. Leddet er forstærket af kraftige ledbånd, der begrænser stræknings- og udadføringsbevægelser."
+excerpt: "Hofteleddet er et kugleled, der er dannet af en ledskål på hoftebenet og et ledhoved på lårbensknoglen. Leddet er forstærket af kraftige ledbånd, der begrænser stræknings- og udadføringsbevægelser."
 latin: ""
 header:
   teaser: https://upload.wikimedia.org/wikipedia/commons/9/9b/Knochenmetastase_Mamma-Ca_Becken_02.jpg
@@ -47,3 +47,7 @@ En bøjning i hoften er med strakt knæ typisk begrænset af smidigheden i hasem
 {% endfor %}
 
 {% include figure image_path=page.image caption=page.title alt=page.title %}
+
+## Muskler i hofteleddet
+
+{% include anatomy/table-muscles-hip.html %}

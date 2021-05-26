@@ -1,0 +1,56 @@
+<style>
+  .joint { background-color: darkgoldenrod; color: white; }
+</style>
+<table id="muscles">
+  <caption>Muskeloversigt sorteret på led og muskelgrupper</caption>
+  <thead>
+  <tr>
+    <th>Dansk navn</th>
+    <th>Latin</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr><td colspan="2" class="joint"><strong>Hofteleddet</strong></td></tr>
+
+    {% assign items = site.anatomy | where: "functional_group", "Hoftebøjere" %}
+
+    <tr><td colspan="2"><strong>Hoftebøjere</strong></td></tr>
+
+    {% for post in items %}
+    <tr>
+      <td><a href="{{ post.url }}">{{ post.name.da | default: post.title }}</a></td>
+      <td>{{ post.name.latin }}</td></tr>
+    {% endfor %}
+
+
+    {% assign items = site.anatomy | where: "functional_group", "Hoftestrækkere" %}
+
+    <tr><td colspan="2"><strong>Hoftestrækkere</strong></td></tr>
+
+    {% for post in items %}
+    <tr>
+      <td><a href="{{ post.url }}">{{ post.name.da | default: post.title }}</a></td>
+      <td>{{ post.name.latin }}</td></tr>
+    {% endfor %}
+
+    {% assign items = site.anatomy | where: "functional_group", "Hoftens indadførere" %}
+
+    <tr><td colspan="2"><strong>Hoftens indadførere</strong></td></tr>
+
+    {% for post in items %}
+    <tr>
+      <td><a href="{{ post.url }}">{{ post.name.da | default: post.title }}</a></td>
+      <td>{{ post.name.latin }}</td></tr>
+    {% endfor %}
+
+    {% assign items = site.anatomy | where: "functional_group", "Hoftens udadførere" %}
+
+    <tr><td colspan="2"><strong>Hoftens udadførere</strong></td></tr>
+
+    {% for post in items %}
+    <tr>
+      <td><a href="{{ post.url }}">{{ post.name.da | default: post.title }}</a></td>
+      <td>{{ post.name.latin }}</td></tr>
+    {% endfor %}
+  </tbody>
+</table>

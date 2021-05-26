@@ -87,7 +87,7 @@ Der er mange forskellige variationer af grebet i pullups og chinups, men den sid
 
 - **Neutralt greb** vender håndfladerne mod hinanden.
 
-{% include figure image_path="https://3vnqw32fta3x1ysij926ljs3-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/Nov18_WO_Grip_Chart.jpg" caption="Forskellige grebstyper i kropshævninger. Kilde: [experiencelife.com](https://experiencelife.com/article/how-to-get-your-first-pull-up/)" alt="grebstyper i kropshævninger - chinups, pullups" %}
+{% include figure image_path="https://438p81ekhtervo423d6400fn-wpengine.netdna-ssl.com/wp-content/uploads/2021/02/Nov18_WO_Grip_Chart.jpg" caption="Forskellige grebstyper i kropshævninger. Kilde: [experiencelife.com](https://experiencelife.com/article/how-to-get-your-first-pull-up/)" alt="grebstyper i kropshævninger - chinups, pullups" %}
 
 ## Forskelle i bevægelsen i chinups og pullups
 

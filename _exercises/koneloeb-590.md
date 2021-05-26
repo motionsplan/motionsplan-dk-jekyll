@@ -2,8 +2,10 @@
 title: &title "Koneløb"
 excerpt: ""
 instructions: ""
-permalink: /oevelse/koneløb/
-redirect_from: /node/590
+permalink: /oevelse/koneloeb/
+redirect_from:
+  - /oevelse/koneløb/
+  - /node/590
 id: 590
 language: da
 header:

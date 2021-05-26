@@ -1,9 +1,14 @@
 ---
-title: Brystmuskel
+title: Den store brystmuskel
+functional_group:
+  - Armens fremadføring
+joint:
+  - Skulderleddet
 group:
   - Bryst
 name:
   latin: Pectoralis Major
+  da: Den store brystmuskel
 origin:
   da: Brystben, kraveben og ribbensbrusk
 insertion:
@@ -32,19 +37,3 @@ coords:
   - "133,96,118,97,103,102,101,114,104,126,108,138,117,143,139,141,141,121"
   - "155,97,146,120,149,142,167,143,181,136,186,117,183,106,171,98"
 ---
-
-_{{ page.name.latin }}_
-
-- **Udspring**: {{ page.origin.da }}
-- **Hæfte**: {{ page.insertion.da }}
-
-{% include figure image_path=page.image alt=page.title caption=page.title %}
-
-## Funktion
-
-{% for f in page.function.da %}
-- **{{ f.short }}**.
-  {{ f.extended | markdownify }}
-{% endfor %}
-
-{% include figure image_path=page.image_focus alt=page.title caption=page.title %}

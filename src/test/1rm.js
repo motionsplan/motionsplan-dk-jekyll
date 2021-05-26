@@ -69,8 +69,8 @@ describe('Estimate1RM', function() {
       assert.equal(rm.getReynolds5RM("lower"), 123.95759999999999);
       assert.equal(rm.getReynolds5RM("upper"), 113.7698);
 
-      assert.equal(rm.getReynoldsPercent("upper"), 100.10827621965932);
-      assert.equal(rm.getReynoldsPercent("lower"), 100.25630266342827);
+      assert.equal(rm.getReynoldsPercent("upper"), 100.1082762196593);
+      assert.equal(rm.getReynoldsPercent("lower"), 100.25630266342826);
 
       assert.equal(rm.getReynoldsPercent("upper", 5), 87.13996438815076);
       assert.equal(rm.getReynoldsPercent("lower", 5), 85.22435408662034);

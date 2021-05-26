@@ -64,7 +64,7 @@ Jeg leder efter en test, hvor kvinder kan få lov til at tage armstrækninger p�
 
 ## Mere om armstrækninger
 
-Jeg har skrevet mere om [forskellen på armstrækninger og armbøjninger]({% link _posts/2020-07-05-pushups.md %}). Jeg har også skrevet om, [hvordan du tager din første armstrækning]({% link _posts/2011-08-24-hvordan-laerer-jeg-tage-en-armstraekning.md %}), eller [hvordan du lærer at tage mange armstrækninger]({% link _posts/2010-09-04-jeg-vil-tage-mange-armstraekninger.md %}).
+Jeg har skrevet mere om [forskellen på armstrækninger og armbøjninger]({% link _posts/2020-07-05-pushups.md %}). Jeg har også skrevet om, [hvordan du tager din første armstrækning eller træner op til at kunne tage mange armstrækninger]({% link _posts/2011-08-24-hvordan-laerer-jeg-tage-en-armstraekning.md %}).
 
 ## Referencer til armstrækningstest
 

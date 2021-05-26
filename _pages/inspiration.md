@@ -131,7 +131,7 @@ På denne side har jeg samlet alle mine anbefalinger og de ting til træning, je
 
 ## Løbeur, pulsbælte og høretelefoner
 
-Jeg bruger selv Garmin Fenix og Bose SoundSport på alle mine løbeture, hvor jeg enten nyder [musik til træningen]({% link _posts/2013-05-02-musik-til-traeningen.md %}) eller lytter til [gode podcasts fx om fitness og træning]({% link _posts/2020-08-03-podcasts.md %}). Jeg bruger også pulsbæltet til at måle min [heart rate variability]({% link _posts/2019-10-28-hrv.md %}), som jeg synes er en interessant måde at måle min træningsparathed og [restitution]({% link _posts/2009-08-07-restition-hvordan-bliver-jeg-hurtigst-klar-igen.md %}) på.
+Jeg bruger selv Garmin Fenix og Bose SoundSport på alle mine løbeture, hvor jeg enten nyder [musik til træningen]({% link _posts/2013-05-02-musik-til-traeningen.md %}) eller lytter til [gode podcasts fx om fitness og træning]({% link _posts/2020-08-03-podcasts.md %}). Jeg bruger også pulsbæltet til at måle min [heart rate variability]({% link _posts/2019-10-28-hrv.md %}), som jeg synes er en interessant måde at måle min træningsparathed og [restitution og restitutionstid]({% link _posts/2020-05-28-restitutionstid-alder.md %}) på.
 
 {% include feature_row type="left" id="feature_row_running" %}
 

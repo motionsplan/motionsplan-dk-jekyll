@@ -1,5 +1,5 @@
 ---
-title: "Måling af fedtprocent med bioimpedans"
+title: &title "Måling af fedtprocent med bioimpedans (Inbody)"
 permalink: /artikel/inbody-570-bioimpedans/
 redirect_from:
   - /inbody/
@@ -9,7 +9,8 @@ excerpt: "Du kan måle din fedtprocent og kropskomposition med bioimpedans - og 
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1501525547-7b008cf72da5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80
-  caption: Photo by Yannis Papanastasopoulos on Unsplash
+  alt: Photo by Yannis Papanastasopoulos on Unsplash
+  caption: *title
   teaser: https://images.unsplash.com/photo-1501525547-7b008cf72da5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
 category:
   - Test
@@ -99,7 +100,7 @@ Når du har lavet testen, så får du et resultatark udprintet, som ser sådan h
 
 {% include figure image_path="https://inbodydanmark.dk/wp-content/uploads/2014/09/Global_inbody570_results02.jpg" caption="Resultatark fra InBody 570" alt="Resultatark fra InBody 570" %}
 
-På [InBody USA](https://inbodyusa.com/general/result-sheet-interpretation/) har de en god gennemgang af resultatarket, og du kan også se mere i nedenstående video.
+På [InBody USA](https://inbodyusa.com/general/570-result-sheet-interpretation/) har de en god gennemgang af resultatarket, og du kan også se mere i nedenstående video.
 
 {% include video id="-zwAYct6COs" provider="youtube"  %}
 
@@ -109,8 +110,12 @@ På [InBody USA](https://inbodyusa.com/general/result-sheet-interpretation/) har
 
 ## Referencer
 
+<details markdown="1">
+  <summary>Se referencer om Inbody og Bioimpedans</summary>
+
 - Verney, Julien, Lore Metz, Elodie Chaplais, Charlotte Cardenoux, Bruno Pereira, og David Thivel. 2016. “Bioelectrical Impedance Is an Accurate Method to Assess Body Composition in Obese but Not Severely Obese Adolescents”. Nutrition Research (New York, N.Y.) 36 (7): 663–70. <https://doi.org/10.1016/j.nutres.2016.04.003>.
 - Park, Kyeong Seon, Dong-Hwa Lee, JieEun Lee, Yoon Ji Kim, Kyong Yeun Jung, Kyoung Min Kim, Soo Heon Kwak, m.fl. 2016. “Comparison between Two Methods of Bioelectrical Impedance Analyses for Accuracy in Measuring Abdominal Visceral Fat Area”. Journal of Diabetes and Its Complications 30 (2): 343–49. <https://doi.org/10.1016/j.jdiacomp.2015.10.014>.
 - Moon, J. R. 2013. “Body Composition in Athletes and Sports Nutrition: An Examination of the Bioimpedance Analysis Technique”. European Journal of Clinical Nutrition 67 Suppl 1 (januar): S54-59. <https://doi.org/10.1038/ejcn.2012.165>.
 - Faria, Franciane Rocha, Eliane Rodrigues Faria, Roberta Stofeles Cecon, Djalma Adão Barbosa Júnior, Sylvia do Carmo Castro Franceschini, Maria do Carmo Gouveia Peluzio, Andréia Queiroz Ribeiro, Pedro Israel Cabral Lira, Paulo Roberto Cecon, og Silvia Eloiza Priore. 2013. “Body Fat Equations and Electrical Bioimpedance Values in Prediction of Cardiovascular Risk Factors in Eutrophic and Overweight Adolescents”. International Journal of Endocrinology 2013. <https://doi.org/10.1155/2013/501638>.
 - Elia, M. 2013. “Body Composition by Whole-Body Bioelectrical Impedance and Prediction of Clinically Relevant Outcomes: Overvalued or Underused?” European Journal of Clinical Nutrition 67 Suppl 1 (januar): S60-70. <https://doi.org/10.1038/ejcn.2012.166>.
+</details>

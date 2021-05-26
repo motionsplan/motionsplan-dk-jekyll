@@ -40,7 +40,6 @@ feature_row:
     btn_label: "Se prisen hos Tales*"
     btn_class: "btn--success"
 toc: true
-toc_sticky: true
 sidebar:
   nav: anatomi
 author_profile: true
@@ -120,6 +119,15 @@ Anatomi handler også om at lave bevægelsesanalyser. I en bevægelsesanalyse sk
 - Hvordan arbejder musklerne i bevægelsen? Hvad er den [koncentriske og ekscentriske fase]({% link _posts/2020-08-11-excentrisk-koncentrisk.md %})? Er der statisk arbejde i bevægelsen?
 
 Jeg har skrevet et andet indlæg, der handler om [hvordan du laver en bevægelsesanalyse]({% link _posts/2020-08-01-bevaegelsesanalyse.md %}).
+
+## Kroppens anatomiske opbygning ultrakort
+
+Kroppen er opbygget af forskellige systemer, der har betydning for træningen.
+
+- **Nervesystemet.** Beskederne til musklerne om at arbejde kommer fra nervesystemet. Musklerne og leddene sender også beskeder tilbage til hjernen om, hvordan tilstanden er rundt omkring i kroppen.
+- **Kredsløbet.** Blodet løber forbi lungerne og henter ilt og forbi tarmsystemet og henter næringsstoffer, som det så afleverer rundt i kroppen, hvor der er brug for det. Bl.a. har musklerne brug for ilt og næringsstoffer for at kunne lave noget. Blodet tager affaldsstoffer med tilbage.
+- **Skelettet.** Kroppens stillads. Knoglerne i skelettet hænger sammen i led. Ledkapslerne består bl.a. af ledbånd, brusk og ledkapsel.
+- **Musklerne.** Det er musklerne, der bevæger de enkelte led i de forskellige retninger. Musklerne hæfter på knoglerne gennem sener. En muskel kan kun trække sig sammen (koncentrisk arbejde) og holde igen (eccentrisk arbejde) når den møder en ydre modstand.
 
 ## Artikler om anatomi
 

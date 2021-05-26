@@ -1,12 +1,12 @@
 ---
 title: &title "Tæl skridt 2021 🚶‍♀️🚶‍♀️ Det er motiverende at tælle skridt"
-seo_title: "Tæl skridt 2021 🥇 Vind op til 25.000 kroner 4 gange årligt"
-description: "Tæl skridt og bliv 🚶 Motiveret 🥇 Deltag i en konkurrence 💰 Vind op til 25.000 kroner 💗 Bliv sundere 🚶‍♀️ Nå de 10.000 skridt 🧠 Psykologiske effekter"
+seo_title: "Tæl skridt 2021 • Vind op til 25.000 kroner 4 gange årligt »"
+description: "Tæl skridt og bliv ✓ Motiveret ✓ Deltag i en konkurrence ✓ Bliv sundere ✓ Nå de 10.000 skridt ✓ Psykologiske effekter ✓ Vind op til 25.000 kroner"
 permalink: /artikel/tael-skridt/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1496185106368-308ed96f204b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1994&q=80
-  teaser: https://images.unsplash.com/photo-1496185106368-308ed96f204b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1616935487656-1b6b25c1015f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80
+  teaser: https://images.unsplash.com/photo-1616935487656-1b6b25c1015f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
   caption: *title
 tags:
   - skridt

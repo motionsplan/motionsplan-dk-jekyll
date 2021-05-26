@@ -5,7 +5,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-remote_theme:            "mmistakes/minimal-mistakes@4.22.0"
+remote_theme:            "mmistakes/minimal-mistakes@4.23.0"
 minimal_mistakes_skin:   "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 
 ads: true
@@ -93,7 +93,7 @@ footer:
   links:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      webslides: "fa-facebook"
+      webslides: "fa-facebook-official"
       url: "https://facebook.com/motionsplan"
     - label: "Pinterest"
       icon: "fab fa-fw fa-pinterest"
@@ -185,6 +185,7 @@ exclude:
   - /test # ignore Minimal Mistakes /test
   - /vendor
   - /src
+  - /build
   - /node_modules
   - .git
   - .svn
@@ -227,8 +228,8 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+paginate: 500 # amount of posts to show
+paginate_path: /page/:num/
 timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
@@ -241,6 +242,8 @@ plugins:
   - jemoji
   - jekyll-redirect-from
   - jekyll-include-cache
+  - jekyll-gzip
+  - jekyll-brotli
 
 
 # mimic GitHub Pages with --safe
@@ -316,19 +319,29 @@ collections:
 
 # Defaults
 defaults:
+  - scope:
+      path: "page"
+    values:
+      sitemap: false
+  - scope:
+      path: "assets/pdf/**/*.pdf"
+    values:
+      sitemap: false
   # _posts
   - scope:
       path: ""
       type: posts
     values:
       layout: single
+      header:
+        overlay_color: "#F5F5F5"
       author_profile: true
       read_time: true
       comments: true
       share: true
       related: true
       toc: true
-      toc_sticky: true
+      toc_sticky: false
       author: lsolesen
       sidebar:
         title: "Populære sider"
@@ -349,6 +362,18 @@ defaults:
       author: lsolesen
       tag_archive_path: /exercises/tags/
       category_archive_path: /exercises/categories/      
+  # _exercises
+  - scope:
+      path: ""
+      type: methods
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      author: lsolesen
   # _programs
   - scope:
       path: ""
@@ -374,8 +399,8 @@ defaults:
       comments: true
       share: true
       related: true
-      toc: true
-      toc_sticky: true
+      toc: false
+      toc_sticky: false
       author: lsolesen
       tag_archive_path: /anatomi/tags/
       category_archive_path: /anatomi/categories/
@@ -404,6 +429,7 @@ defaults:
       share: false
       related: false
       search: false
+      sitemap: false
   # _presentations
   - scope:
       path: ""

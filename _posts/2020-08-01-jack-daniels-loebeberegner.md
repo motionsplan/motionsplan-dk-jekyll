@@ -19,7 +19,6 @@ tags:
   - løbeside
   - løbe beregner
   - løb
-toc_sticky: false
 feature_row:
   - image_path: https://cdn6.tales.dk/00039/86456/cover.1579497278.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/daniels-running-formula_jack-daniels_9781450431835
@@ -231,7 +230,7 @@ Træningsmængden indenfor AT-træning bør ikke overstige 10% af ugens samlede 
 
 Træning af den maksimale iltoptagelse (VO2max) er en rigtig vigtig del af løbetræningen. Den [maksimale iltoptagelse]({% link _posts/2020-06-23-kondital-hvor-hurtigt.md %}) er et udtryk for kroppens evne til at optage og producere energi under forbrænding med ilt (aerob). 
 
-Der er flere faktorer, der bestemmer den maksimale iltoptagelse, som fx:
+Der er flere faktorer, der bestemmer den [maksimale iltoptagelse]({% link _posts/2019-11-03-intensiteten-og-vo2max.md %}), som fx:
 
 - Hjertets evne til at pumpe blod rundt i minuttet (puls x slagvolumen)
 - Mængden af røde blodlegemer
@@ -324,7 +323,7 @@ Du kan udføre intervallerne på forskellige måder:
 - **Stigningsløb**. Hvis du laver 100 meter stigningsløb, så øger du progressivt dit tempo til dit maksimale tempo og holder det tempo de sidste 50 meter. Fordelen ved stigningsløb er, at de er relativt skånsomme.
 - **Maksimalt løb**.  Hvis du gerne vil forbedre din muskelstyrke, så skal du løbe hurtigere fra start.
 
-Studier har vist, at [eksplosiv træning er med til at forbedre løbehastigheden]({% link _posts/2009-07-15-eksplosiv-traening-goer-dig-hurtigere-paa-5-km.md %}), men du kan også inkludere styrketræning i dit løbeprogram for at forbedre løbehastigheden.
+Studier har vist, at [eksplosiv træning er med til at forbedre løbehastigheden og løbeøkonomien]({% link _posts/2019-12-16-running-economy.md %}), men du kan også inkludere styrketræning i dit løbeprogram for at forbedre løbehastigheden.
 
 ### Hyppighed
 
@@ -358,9 +357,9 @@ Roligt løb kan bruges meget i træning, så længe den samlede træningsmængde
 
 ## Restitutionstræning
 
-Når du træner, så har kroppen brug for tid til at bygge sig op igen bagefter. Der er forskellige strategier til at [fremme restitutionen]({% link _posts/2009-08-07-restition-hvordan-bliver-jeg-hurtigst-klar-igen.md %}) og arbejde med [restitutionstiden]({% link _posts/2020-05-28-restitutionstid-alder.md %}).
+Når du træner, så har kroppen brug for tid til at bygge sig op igen bagefter. Der er forskellige strategier til at [fremme restitutionen og restitutionstiden]({% link _posts/2020-05-28-restitutionstid-alder.md %}).
 
-Det kan tilsyneladende betale sig at lave _aktiv_ restitution frem for _passiv_ restitution. Det kan du bruge en langsommere løbetur til, men du kan også vælge [andre former for restitutionstræning]({% link _posts/2009-08-07-restition-hvordan-bliver-jeg-hurtigst-klar-igen.md %}).
+Det kan tilsyneladende betale sig at lave _aktiv_ restitution frem for _passiv_ restitution. Det kan du bruge en langsommere løbetur til, men du kan også vælge [andre former for restitutionstræning]({% link _posts/2020-05-28-restitutionstid-alder.md %}).
 
 Nogle af de ting tænker restitutionstræning kan hjælpe med er at:
 

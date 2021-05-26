@@ -35,11 +35,17 @@ collections:
     folder: "_posts/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    preview_path: "{{ permalink }}"
+    preview_path: "{{permalink}}"
     view_filters:
-      - label: "Jesper"
+      - label: "Jesper Emil Jakobsgaard"
         field: author
         pattern: "jesper.emil.jakobsgaard"
+      - label: "Jakob Nielsson"
+        field: author
+        pattern: "jakob.nielsson"
+      - label: "Martin Madsen"
+        field: author
+        pattern: "martin.madsen"
     view_groups:
       - label: Year
         field: last_modified_at
@@ -58,9 +64,9 @@ collections:
         collapsed: true
         required: false
         fields:
-          - {label: "Overlay Image", name: "overlay_image", widget: "string"}
-          - {label: "Teaser Image", name: "teaser", widget: "string"}
-          - {label: "Caption", name: "caption", widget: "string"}
+          - {label: "Overlay Image", name: "overlay_image", widget: "string", required: false}
+          - {label: "Teaser Image", name: "teaser", widget: "string", required: false}
+          - {label: "Caption", name: "caption", widget: "string", required: false}
           - label: Actions
             name: actions
             widget: list
@@ -94,8 +100,8 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Alt", name: "alt", widget: "string"}
           - {label: "Image", name: "image_path", widget: "string"}
-          - {label: "Url", name: "url", widget: "string"}
-      - {label: "Last modified at", name: "last_modified_at", widget: "datetime", format: "YYYY-MM-DDThh:mm:ssZ", dateFormat: "dd-MM-YYYY", timeFormat: "HH:mm", required: false}
+          - {label: "Url", name: "url", widget: "string", required: false}
+      - {label: "Last modified at", name: "last_modified_at", widget: "datetime", format: "YYYY-MM-DDThh:mm:ssZ", dateFormat: "DD-MM-YYYY", timeFormat: "HH:mm", required: false}
   - name: "drafts" # Used in routes, e.g., /admin/collections/blog
     label: "Kladder" # Used in the UI
     label_singular: "Kladde"
@@ -140,7 +146,7 @@ collections:
           - {label: "Exerpt", name: "excerpt", widget: "text"}
           - {label: "Url", name: "url", widget: "string"}
           - {label: "Btn label", name: "btn_label", widget: "string"}
-          - {label: "Btn class", name: "btn_class", widget: "select", options: ["btn--success", "btn--warning", "btn--danger", "btn--info"], default: "btn--success"}
+          - {label: "Btn class", name: "btn_class", widget: "select", options: ["btn--success", "btn--warning", "btn--danger", "btn--info"], default: ""}
       - label: Gallery
         name: gallery
         widget: list
@@ -150,8 +156,8 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Alt", name: "alt", widget: "string"}
           - {label: "Image", name: "image_path", widget: "string"}
-          - {label: "Url", name: "url", widget: "string"}
-      - {label: "Last modified at", name: "last_modified_at", widget: "datetime", format: "YYYY-MM-DDThh:mm:ssZ", dateFormat: "dd-MM-YYYY", timeFormat: "HH:mm", required: false}
+          - {label: "Url", name: "url", widget: "string", required: false}
+      - {label: "Last modified at", name: "last_modified_at", widget: "datetime", format: "YYYY-MM-DDThh:mm:ssZ", dateFormat: "DD-MM-YYYY", timeFormat: "HH:mm", required: false}
   - name: "pages" # Used in routes, e.g., /admin/collections/blog
     label: "Sider" # Used in the UI
     label_singular: "Side"
@@ -200,7 +206,7 @@ collections:
           - {label: "Exerpt", name: "excerpt", widget: "text"}
           - {label: "Url", name: "url", widget: "string"}
           - {label: "Btn label", name: "btn_label", widget: "string"}
-          - {label: "Btn class", name: "btn_class", widget: "select", options: ["btn--success", "btn--warning", "btn--danger", "btn--info"], default: "btn--success"}
+          - {label: "Btn class", name: "btn_class", widget: "select", options: ["btn--success", "btn--warning", "btn--danger", "btn--info"], default: ""}
       - label: Gallery
         name: gallery
         widget: list
@@ -210,8 +216,8 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Alt", name: "alt", widget: "string"}
           - {label: "Image", name: "image_path", widget: "string"}
-          - {label: "Url", name: "url", widget: "string"}
-      - {label: "Last modified at", name: "last_modified_at", widget: "datetime", format: "YYYY-MM-DDThh:mm:ssZ", dateFormat: "dd-MM-YYYY", timeFormat: "HH:mm", required: false}
+          - {label: "Url", name: "url", widget: "string", required: false}
+      - {label: "Last modified at", name: "last_modified_at", widget: "datetime", format: "YYYY-MM-DDThh:mm:ssZ", dateFormat: "DD-MM-YYYY", timeFormat: "HH:mm", required: false}
   - name: "exercises" # Used in routes, e.g., /admin/collections/blog
     label: "Øvelser" # Used in the UI
     label_singular: "Øvelse"
@@ -224,12 +230,15 @@ collections:
         field: last_modified_at
         # groups items based on the value matched by the pattern
         pattern: \d{4}
+      - label: Kategori
+        field: categories
+      - label: Muskelgruppe
+        field: muscle_group
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Permalink", name: "permalink", widget: "string", required: false}
       - {label: "SEO Title", name: "seo_title", widget: "string", required: false}
       - {label: "SEO Beskrivelse", name: "description", widget: "text",  required: false}
-      - {label: "Permalink", name: "permalink", widget: "string", required: false}
       - {label: "Excerpt", name: "excerpt", widget: "text",  required: false}
       - {label: "Instructions", name: "instructions", widget: "text",  required: true, collapsed: true}
       - {label: "Category", name: "categories", widget: "list", allow_add: true}
@@ -265,7 +274,7 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Image", name: "image_path", widget: "string"}
           - {label: "Url", name: "url", widget: "string"}          
-      - {label: "Last modified at", name: "last_modified_at", widget: "datetime", format: "YYYY-MM-DDThh:mm:ssZ", dateFormat: "dd-MM-YYYY", timeFormat: "HH:mm", required: false}
+      - {label: "Last modified at", name: "last_modified_at", widget: "datetime", format: "YYYY-MM-DDThh:mm:ssZ", dateFormat: "DD-MM-YYYY", timeFormat: "HH:mm", required: false}
   - name: "anatomy" # Used in routes, e.g., /admin/collections/blog
     label: "Muskler" # Used in the UI
     label_singular: "Muskel"
@@ -280,6 +289,8 @@ collections:
         pattern: \d{4}
       - label: Group
         field: group
+      - label: Joint
+        field: joint
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "SEO Title", name: "seo_title", widget: "string", required: false}
@@ -366,4 +377,90 @@ collections:
         display_fields: ["title"]
         multiple: true
         required: false
-      - {label: "Last modified at", name: "last_modified_at", widget: "datetime", format: "YYYY-MM-DDThh:mm:ssZ", dateFormat: "dd-MM-YYYY", timeFormat: "HH:mm", required: false}
+      - {label: "Last modified at", name: "last_modified_at", widget: "datetime", format: "YYYY-MM-DDThh:mm:ssZ", dateFormat: "DD-MM-YYYY", timeFormat: "HH:mm", required: false}
+  - label: "Site options"
+    name: "settings"
+    editor:
+      preview: false
+    files:
+      - label: "Forsiden"
+        name: "index"
+        file: "index.html"
+        fields: # The fields for each document, usually in front matter
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Layout", name: "layout", widget: "select", options: ["splash"], default: "splash"}
+          - label: Header
+            name: header
+            widget: object
+            collapsed: true
+            required: false
+            fields:
+              - {label: "Image", name: "image", widget: "string", required: false}
+              - {label: "Overlay Image", name: "overlay_image", widget: "string", required: false}
+              - {label: "Teaser Image", name: "teaser", widget: "string", required: false}
+              - {label: "Caption", name: "caption", widget: "string", required: false}
+              - label: Actions
+                name: actions
+                widget: list
+                collapsed: true
+                required: false
+                fields:
+                  - {label: "Label", name: "label", widget: "string", required: false}
+                  - {label: "Url", name: "url", widget: "string", required: false}
+              - label: Video
+                name: video
+                widget: object
+                collapsed: true
+                required: false
+                fields:
+                  - {label: "Provider", name: "provider", widget: "select", options: ["youtube", "google-drive"], default: "", required: false}
+                  - {label: "ID", name: "id", widget: "string", required: false}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - label: Feature row
+            name: feature_row
+            widget: list
+            collapsed: true
+            required: false
+            fields:
+              - {label: "Title", name: "title", widget: "string", required: false}
+              - {label: "Image", name: "image_path", widget: "string", required: false}
+              - {label: "Alt", name: "alt", widget: "string", required: false}
+              - {label: "Exerpt", name: "excerpt", widget: "text", required: false}
+              - {label: "Url", name: "url", widget: "string", required: false}
+              - {label: "Btn label", name: "btn_label", widget: "string", required: false}
+              - {label: "Btn class", name: "btn_class", widget: "select", options: ["btn--success", "btn--warning", "btn--danger", "btn--info"], default: "", required: false}
+          - {label: "Last modified at", name: "last_modified_at", widget: "datetime", format: "YYYY-MM-DDThh:mm:ssZ", dateFormat: "DD-MM-YYYY", timeFormat: "HH:mm", required: false}
+          - label: Gallery
+            name: gallery
+            widget: list
+            collapsed: true
+            required: false
+            fields:
+              - {label: "Title", name: "title", widget: "string", required: false}
+              - {label: "Alt", name: "alt", widget: "string", required: false}
+              - {label: "Image", name: "image_path", widget: "string", required: false}
+              - {label: "Url", name: "url", widget: "string", required: false}
+      - label: "Navigation Menu"
+        name: nav
+        file: "_data/navigation.yml"
+        fields:
+          - label: "Nav Items"
+            label_singular: "Nav Item"
+            name: main
+            widget: list
+            fields:
+              - {label: "Display Text", name: title, widget: string}
+              - {label: URL, name: url, widget: string}
+          - label: "Sidelinks"
+            label_singular: "Sidelink"
+            name: blog
+            widget: list
+            fields:
+              - {label: "Display Text", name: title, widget: string}
+              - {label: "URL", name: url, widget: string, required: false}
+              - label: "Links"
+                name: children
+                widget: list
+                fields:
+                  - {label: "Display Text", name: title, widget: string}
+                  - {label: "URL", name: url, widget: string, required: false}

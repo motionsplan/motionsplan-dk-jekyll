@@ -63,19 +63,21 @@ dialaegt:
 
 Jeg har samlet en lang liste med forskellige sportsgrene, motionsformer og idrætsgrene, som du kan dyrke i fritiden. Hvis du gerne vil finde en sport, motion og idræt, så kan du finde masser af inspiration på vores liste over sportsgrene. Her kan du også se de mest populære idrætsgrene i Danmark.
 
-Søger du inspiration til en aktiv fritid, så har jeg samlet en liste, hvor du kan få inspiration til sport, motion, idræt og træning.
+Søger du inspiration til en aktiv fritid, så har jeg samlet en liste, hvor du kan få inspiration til sport, motion, idræt og træning. Her kan du finde ud af, hvilken sport du gerne vil gå til - eller hvilke forskellige typer sport der er i Danmark.
 
-Listen indeholder sportsgrene, som man konkurrerer i til de olympiske lege, folkelige idrætsgrene, men der er også både mindre kendte idrætsgrene.
+Listen indeholder sportsgrene, som man konkurrerer i til de olympiske lege og folkelige idrætsgrene, men der er også både mindre kendte idrætsgrene.
 
 Men lad os komme til listen over sportsgrene med det samme!
 
 ## Liste over sportsgrene, idræt og motion 2020
 
+Her har jeg samlet en **liste over sportsgrene** og sport man kan gå til i Danmark. I listen kan du finde en liste over boldspil og kontaktsport samt mange andre sjove idrætsgrene.
+
 {% include table-sportsgrene.html %}
 
-## 10 mest populære idrætsgrene og sportsgrene i Danmark i 2018
+## 10 største og mest populære idrætsgrene og sportsgrene i Danmark i 2018
 
-Jeg har samlet en liste over de mest populære sportsgrene i Danmark herunder. I den ene kolonne står der, hvor mange aktive medlemmer, der er i foreninger på landsplan. Tallene er fra 2018, så der kan naturligvis godt være sket noget siden. Kilden til medlemstallene er [Danmarks Idræts-Forbunds medlemsliste](https://www.dif.dk/da/politik/vi-er/medlemstal): 
+Jeg har samlet en liste over de største og mest populære sportsgrene i Danmark herunder. I den ene kolonne står der, hvor mange aktive medlemmer, der er i foreninger på landsplan. Tallene er fra 2018, så der kan naturligvis godt være sket noget siden. Kilden til medlemstallene er [Danmarks Idræts-Forbunds medlemsliste](https://www.dif.dk/da/politik/vi-er/medlemstal): 
 
 {% assign sports = site.data.sportsgrene | sort: "Medlem2018" | reverse %}
 
@@ -121,7 +123,7 @@ Idræt, motion og træning kan ifølge [Marina Aaagaard](http://marinaaagaardblo
 - **Organiseret** i klub, foreninger (eller fitnesscentre); man melder sig til sport eller idræt på faste hold og faste tider; fordelene er instruktion og fællesskab. Eller:
 - **Selvorganiseret**: Man kan designe, sammensætte og arrangere sine egne idrætsaktiviteter og træning og træne når som helst og hvor som helst.
 
-## Sportsgrene du ikke anede eksisterede
+## Sjove sportsgrene du ikke anede eksisterede
 
 Der er naturligvis også en [række sportsgrene og idrætsgrene, du ikke anede eksisterede](https://www.888sport.dk/blog/alt-andet/del-1-anderledes-sportsgrene-som-du-ikke-vidste-eksisterede). Måske vil du starte en forening eller invitere dine venner til lidt [sjove sportsgrene](https://mmm.dk/5-sportsgrene-du-ikke-anede-fandtes.3834.html).
 
@@ -222,5 +224,15 @@ I Danmark var der i 2019 i alt [1,7 millioner medlemmer i DGI](https://www.dgi.d
 - Dansk Firmaidrætsforbund: [DFIF](http://www.firmaidraet.dk/)
 - Dansk Handicap Idræts-Forbund: DHIF
 - For børn (site med forslag til idræt for børn): [Nysport](http://www.nysport.dk/)
+
+## Konklusion
+
+Jeg håber du fandt noget inspiration til, hvilken sport og motion du gerne vil gå til.
+
+Jeg har i hvert fald forsøgt at lave en liste over alle sportsgrene i Danmark. Der kan du finde de største sportsgrene i Danmark, men du kan sikkert også finde sjove sportsgrene, du ikke anede eksiterede.
+
+Hvis du har tilføjelser eller forbedringer til at listen over sportsgrene, så skriv endelig.
+
+## Inspiration til plakater om sport, motion og idræt
 
 {% include gallery id="dialaegt" %}
