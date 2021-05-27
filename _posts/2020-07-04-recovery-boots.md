@@ -111,11 +111,26 @@ Jeg har skrevet et andet indlæg om, [hvad restitutionstiden er, og hvordan du h
 
 Det skal selvfølgelig være dig frit for at købe recovery boots, hvis du synes de er behagelige at have på efter træning, og du får en god fornemmelse i kroppen. Du kan fx tjekke **hvad priserne på _recovery boots_** er hos [yourboots.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=71899&htmlurl=https://yourboots.dk/valg-af-maskine/){:rel="nofollow"}, hos [www.denintelligentekrop.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38097&htmlurl=https://www.denintelligentekrop.dk/reecover-recovery-boots-pro6-portable-6-kamre?c=6303){:rel="nofollow"} eller hos [optimasport.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55636){:rel="nofollow"}.
 
+## Læs flere artikler om restitution
+
+<div class="feature__wrapper">
+
+{% assign site_posts = site.posts | where: "tags", "restitution" | sort: "last_modified_at" | reverse %}
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
 ## Køb recovery boots og vakuum bukser
 
 {% include feature_row type="left"  %}
 
 ## Referencer
+
 <details markdown="1">
   <summary>Se referencer om vakuumbukser og recovery boots</summary>
 

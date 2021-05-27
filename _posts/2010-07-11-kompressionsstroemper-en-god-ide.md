@@ -199,6 +199,20 @@ Vi glæder os til at se mere forskning om kompressionsstrømper, og hvis du kan 
 
 {% include feature_row type="left" %}
 
+## Læs flere artikler om restitution
+
+<div class="feature__wrapper">
+
+{% assign site_posts = site.posts | where: "tags", "restitution" | sort: "last_modified_at" | reverse %}
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
 ## Referencer om kompressionsstrømper
 
 <details markdown="1">

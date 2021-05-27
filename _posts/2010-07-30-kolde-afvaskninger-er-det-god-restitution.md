@@ -82,7 +82,24 @@ Hvis du gerne vil implementere isbade ind i din træning og restitution, så har
 
 Hvilke erfaringer har du med kolde isbade i forhold til din træning?
 
+## Læs flere artikler om restitution
+
+<div class="feature__wrapper">
+
+{% assign site_posts = site.posts | where: "tags", "restitution" | sort: "last_modified_at" | reverse %}
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
 ## Referencer
+
+<details markdown="1">
+  <summary>Se referencer om isbade og kryoterapi</summary>
 
 - Crowe, M. J., D. O’Connor, og D. Rudd. 2007. “Cold Water Recovery Reduces Anaerobic Performance”. International Journal of Sports Medicine 28 (12): 994–98. <https://doi.org/10.1055/s-2007-965118>.
 - Morton, R. Hugh. 2007. “Contrast Water Immersion Hastens Plasma Lactate Decrease after Intense Anaerobic Exercise”. Journal of Science and Medicine in Sport 10 (6): 467–70. <https://doi.org/10.1016/j.jsams.2006.09.004>.
@@ -97,3 +114,4 @@ Hvilke erfaringer har du med kolde isbade i forhold til din træning?
 - Kinugasa, Taisuke, og Andrew E. Kilding. 2009. “A Comparison of Post-Match Recovery Strategies in Youth Soccer Players”. Journal of Strength and Conditioning Research 23 (5): 1402–7. <https://doi.org/10.1519/JSC.0b013e3181a0226a>.
 - Heyman, Elsa, Bas DE Geus, Inge Mertens, og Romain Meeusen. 2009. “Effects of Four Recovery Methods on Repeated Maximal Rock Climbing Performance”. Medicine and Science in Sports and Exercise 41 (6): 1303–10. <https://doi.org/10.1249/MSS.0b013e318195107d>.
 - Jakeman, J. R., R. Macrae, og R. Eston. 2009. “A Single 10-Min Bout of Cold-Water Immersion Therapy after Strenuous Plyometric Exercise Has No Beneficial Effect on Recovery from the Symptoms of Exercise-Induced Muscle Damage”. Ergonomics 52 (4): 456–60. <https://doi.org/10.1080/00140130802707733>.
+</details>
