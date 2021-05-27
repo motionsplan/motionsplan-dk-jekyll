@@ -194,6 +194,14 @@ Det er interessant, at Barnes et al (2014) har kigget på forskellen på mænds 
 
 Hvad der nøjagtigt gør, at kvinderne var mere økonomiske med ilten end mænd, ved jeg ikke lige nu. Du er meget velkommen til at bruge kommentarerne, hvis du vil gøre os alle klogere.
 
+## Hvordan udvikler løbeøkonomien sig med alderen?
+
+Jeg synes det er interessant, at ældre løbere ser ud til at kunne bibeholde løbeøkonomien fra tidligere. [Beck et al (2016)](https://pubmed.ncbi.nlm.nih.gov/26587844/) sammenlignede en gruppe ung og ældre løbere. Det så ud til at de ældre løbere  brugte 2-9% mindre metabolisk energi.
+
+Til gengæld var stivheden i benene 10-20% lavere for de ældre løbere, og i modsætning til de yngre løbere, så dalede stivheden i benene med hastigheden.
+
+Hvorfor løbeøkonomien var den samme for de ældre løbere er jo rigtig spændende at undersøge, når stivheden i benene dalede.
+
 ## Opsamling på løbeøkonomi
 
 Vi kan konkludere følgende om løbeøkonomi:
