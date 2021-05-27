@@ -44,15 +44,15 @@ I dette indlæg kan du læse mere om:
 
 ## Beregn hvor meget vand skal du drikke om dagen?
 
-Letliv.dk foreslår følgende måde at [beregne hvor meget vand, man bør drikke om dagen](https://www.letliv.dk/sund-og-skoen/sundhed/saadan-beregner-du-dit-vaeskebehov).
+Letliv.dk [foreslår](https://www.letliv.dk/sund-og-skoen/sundhed/saadan-beregner-du-dit-vaeskebehov) følgende måde at beregne hvor meget vand, man bør drikke om dagen.
 
-De skriver, at mennesker har behov for 30-40 ml væske pr. kilo legemsvægt. De skriver desværre ikke, hvor de har denne angivelse fra. Men lad os forsøge at putte det ind i en beregner.
+De skriver, at mennesker har behov for 30-40 ml væske pr. kilo legemsvægt om dagen. De skriver desværre ikke, hvor de har denne angivelse fra. Men lad os forsøge at putte det ind i en beregner.
 
 {% include calculate-water-intake.html %}
 
 ## Hvor meget skal jeg drikke om dagen?
 
-Hvad siger videnskaben om dit daglige væskeindtag?
+Hvad siger videnskaben om dit daglige væskeindtag? Det ser ikke ud til, at der er helt overensstemmelse om det. Meinders og Meinders (2010) konkluderer, at tre liter for mænd og 2,2 liter for kvinder er mere end rigeligt.
 
 > The recommended total daily fluid intake of 3,000 ml for men and of 2,200 ml for women is more than adequate. Higher fluid intake does not have any convincing health benefits, except perhaps in preventing (recurrent) kidney stones.
 
@@ -64,6 +64,30 @@ Søren Nielsen, der er professor og chef for Vand og Salt Centret, skriver derim
 
 --- <cite>[Søren Nielsen, professor](https://kontinens.org/myten-meget-man-skal-drikke/)
 
+## Kan man drikke for meget vand?
+
+Samvirke stiller spørgsmålet: [Kan man drikke for meget vand?](https://samvirke.dk/artikler/kan-man-drikke-for-meget-vand)
+
+> Der er nogle processer i nyrerne, der sørger for, at du har det vand og salt i kroppen, du skal have. Hvis du drikker 4-5 liter vand om dagen gennem en længere periode, tager nyrerne skade. Så går der kludder i systemet.
+
+--- <cite>[Erling Bjerregaard Pedersen](https://samvirke.dk/artikler/kan-man-drikke-for-meget-vand), professor ved klinisk institut for medicin på Aarhus Universitet</cite>
+
+## Kan man drikke for lidt vand?
+
+Du kan naturligvis drikke for lidt vand. Det er endnu ikke lykkes mig at finde det absolutte minimumsindtag af væske på en dag, men Meinders og Meinders (2020) giver et bud i deres artikel. Hvis du ved mere om det, så brug endelig kommentarerne.
+
+> Under normal circumstances of diet, exercise and climate the minimal urine output for healthy subjects is about 500 ml/day. Intake of more than 500 ml of fluids per day will result in the excretion of solute-free water.
+
+--- <cite>[Meinders og Meinders (2010)](https://pubmed.ncbi.nlm.nih.gov/20356431/)</cite>
+
+Du skal altså formentlig have mindst en halv liter vand om dagen. Hvis du drikker mindre vand, så drikker du for lidt.
+
+## Hvorfor skal du drikke vand?
+
+> Stofskiftet hos en normalvægtig person producerer 0,5 liter vand om dagen. Men vi udskiller godt 1 liter om dagen gennem vores åndedræt, afføring og sved. Derfor er der behov for at udligne balancen, så vi ikke dehydrerer.
+
+--- <cite>[Erling Bjerregaard Pedersen](https://samvirke.dk/artikler/kan-man-drikke-for-meget-vand), professor ved klinisk institut for medicin på Aarhus Universitet</cite>
+
 ## Hvad tæller med i dit daglige væskeindtag?
 
 Te og kaffe tæller også med i dit daglige væskeregnskab. Mange siger at te og kaffe er vanddrivende, men for at være vanddrivende, så skal de forårsage at mere væske kommer ud af systemet, end der kom ind. Det er så vidt jeg ved ikke tilfældet.
@@ -72,27 +96,15 @@ Te og kaffe tæller også med i dit daglige væskeregnskab. Mange siger at te og
 
 Når du øger dit væskeindtag, så vil du opleve at du skal oftere på toilettet, fordi kroppen ikke er vant til det ekstra væskeindtag. Det udligner sig typisk i løbet af en uges tid. Du skal naturligvis stadig tisse mere, end da du drak mindre, men slet ikke så ofte.
 
-## Kan man drikke for meget vand?
+## Hvor lang tid tager det at optage vand?
 
-Samvirke stiller spørgsmålet: [Kan man drikke for meget vand?](https://samvirke.dk/artikler/kan-man-drikke-for-meget-vand)
+[Vores Puls](https://vorespuls.dk/kost-sundhed/artikler/saa-meget-vaeske-har-du-brug-for) skriver <q>Kroppen kan maksimalt optage ca. 1,2 liter væske pr. time.</q>. Det er faktisk rimelig hurtigt, men da du under intensiv aktivitet i varmt vejr kan tabe væske på 2-3 liter, så kan du faktisk ikke helt opretholde væskebalancen.
 
-> »Der er nogle processer i nyrerne, der sørger for, at du har det vand og salt i kroppen, du skal have. Hvis du drikker 4-5 liter vand om dagen gennem en længere periode, tager nyrerne skade. Så går der kludder i systemet,« siger professoren.
-
---- <cite>[Erling Bjerregaard Pedersen](https://samvirke.dk/artikler/kan-man-drikke-for-meget-vand), professor ved klinisk institut for medicin på Aarhus Universitet</cite>
-
-## Kan man drikke for lidt vand?
-
-Du kan naturligvis drikke for lidt vand. Det er endnu ikke lykkes mig at finde det absolutte minimumsindtag af væske på en dag. Hvis du ved mere om det, så brug endelig kommentarerne.
-
-## Hvorfor skal du drikke vand?
-
-> »Stofskiftet hos en normalvægtig person producerer 0,5 liter vand om dagen. Men vi udskiller godt 1 liter om dagen gennem vores åndedræt, afføring og sved. Derfor er der behov for at udligne balancen, så vi ikke dehydrerer,« forklarer Erling Bjerregaard Pedersen.
-
---- <cite>[Erling Bjerregaard Pedersen](https://samvirke.dk/artikler/kan-man-drikke-for-meget-vand), professor ved klinisk institut for medicin på Aarhus Universitet</cite>
+Hvis du vil besvare spørgsmålet: Hvor lang tid tager det et glas vand at komme igennem kroppen? Et glas er typisk på 1-2 dl. Et glas vand kan altså optages i kroppen på omkring 10 minutter, hvis kroppen kan optage 1,2 liter vand på en time.
 
 ## Hvor meget vand er der i kroppen?
 
-Jeg har skrevet et andet indlæg, hvor du læse mere om, [hvor meget vand ,mennesket har i kroppen]({% link _posts/2020-06-16-vand-i-kroppen.md %}).
+Jeg har skrevet et andet indlæg, hvor du læse mere om, [hvor meget vand, mennesket har i kroppen]({% link _posts/2020-06-16-vand-i-kroppen.md %}).
 
 {% comment %}
 
