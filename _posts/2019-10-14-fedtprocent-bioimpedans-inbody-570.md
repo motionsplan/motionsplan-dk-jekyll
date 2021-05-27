@@ -110,7 +110,7 @@ På [InBody USA](https://inbodyusa.com/general/570-result-sheet-interpretation/)
 
 ## Konklusion
 
-Resultatet fra en Inbody bioimpedansmåler er meget imponerende. Men husk at fortolke resultatet rigtigt. Du skal ikke gå på [slankekur]({% link _posts\2020-09-04-slankekur.md%}) på baggrund af tallene fra en tilfældig maskine.
+Resultatet fra en Inbody bioimpedansmåler er meget imponerende. Men husk at fortolke resultatet rigtigt. Du skal ikke gå på [slankekur]({% link _posts/2020-09-04-slankekur.md%}) på baggrund af tallene fra en tilfældig maskine.
 
 Måske rammer du allerede din [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}), hvor din krop har det godt, du føler overskud, er stærk og hurtig.
 

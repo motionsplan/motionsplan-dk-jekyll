@@ -132,7 +132,7 @@ Udregningen af fedtprocent efter Heitmanns formel har en standardafvigelse på o
 
 Det betyder i praksis, at hvis du har udregnet din fedtprocent til 15%, så er det mest sandsynlige, at den ligger i intervallet fra 11,1% til 18,9%. Det er en ret stor afvigelse.
 
-Fedtprocenten bliver med alle formler udregnet på baggrund af de samme oplysninger, som man udregner BMI med. Derfor er disse beregninger af fedtprocenten behæftet med de samme usikkerheder som BMI er. Du skal altså ikke gå på en [tvivlsom slankekur]({% link _posts\2020-09-04-slankekur.md%}) på baggrund af disse beregninger.
+Fedtprocenten bliver med alle formler udregnet på baggrund af de samme oplysninger, som man udregner BMI med. Derfor er disse beregninger af fedtprocenten behæftet med de samme usikkerheder som BMI er. Du skal altså ikke gå på en [tvivlsom slankekur]({% link _posts/2020-09-04-slankekur.md%}) på baggrund af disse beregninger.
 
 Beregningerne tager således ikke højde for, om vægten skyldes muskler eller fedt eller din kropsbygning i det hele taget.
 

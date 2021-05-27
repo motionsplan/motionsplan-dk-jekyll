@@ -52,7 +52,7 @@ Superkompensation er direkte relateret til kroppens adaptationsevne. I nedenstå
 
 Langsomt vil du du blive stærkere indtil du er oppe på samme niveau som før træningen, men kroppen er ikke helt tilfreds endnu. Den tilpasser sig endnu mere, og du rammer superkompensationsfasen.
 
-{% include figure image_path="https://miro.medium.com/max/2702/0*usKRMQYeTe97f6cE.jpg" caption="Superkompensation foregår når kroppen genopbygger sig til et højere niveau end seneste træning" %}
+{% include figure image_path="https://miro.medium.com/max/2702/0*usKRMQYeTe97f6cE.jpg" caption="Superkompensation foregår når kroppen genopbygger sig til et højere niveau end seneste træning" alt="Superkompensation og teori" %}
 
 Hvis du formår at få restitutionstiden til at passe, så næste træning kan ligge i superkompensationsfasen, så vil du altså langsomt og sikkert kunne opbygge en højere styrke eller bedre kondition. 
 
@@ -139,7 +139,7 @@ Hvad er det egentlig at kroppen skal bruge tid på for at blive klar til en ny t
 
 ## Hvad forbedrer restitutionstiden?
 
-{% include figure image_path="https://ylmsportscience.files.wordpress.com/2015/07/413cf-4r.png?w=619&zoom=2" caption="The 4 R’s of Recovery [via](https://ylmsportscience.com/2015/07/27/the-4-rs-of-recovery-by-ylmsportscience/)" %}
+{% include figure image_path="https://ylmsportscience.files.wordpress.com/2015/07/413cf-4r.png?w=619&zoom=2" caption="The 4 R’s of Recovery [via](https://ylmsportscience.com/2015/07/27/the-4-rs-of-recovery-by-ylmsportscience/)" alt="de 4 R i restitutionsfasen" %}
 
 Hvis du gerne vil træne meget, så vil du gerne forkorte restitutionstiden, så du kan få mest muligt ud af næste træning. Folk prøver rigtig mange forskellige tiltag.
 

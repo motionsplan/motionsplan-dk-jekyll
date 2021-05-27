@@ -45,5 +45,5 @@ Hvis du gerne vil have en [engelsk beregner til estimering af fedtprocent efter 
 
 Jeg har også beskrevet en anden [fedtprocentmåling, som kan laves med målebånd]({% link _posts/2019-10-14-fedtprocent-maalebaand.md %}).
 
-Husk at testen udelukkende estimerer din fedtprocent. Testen er ikke et startskud til en [slankekur]({% link _posts\2020-09-04-slankekur.md%}), fordi du skal opnå en tilfældig [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}) fra en beregner.
+Husk at testen udelukkende estimerer din fedtprocent. Testen er ikke et startskud til en [slankekur]({% link _posts/2020-09-04-slankekur.md%}), fordi du skal opnå en tilfældig [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}) fra en beregner.
 {: .notice .notice--info }

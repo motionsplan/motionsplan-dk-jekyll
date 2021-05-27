@@ -143,6 +143,6 @@ Oversat til en grafik baseret på alder kan det se sådan her ud:
 
 Jeg har skrevet et indlæg om [forskellige måder at anskue kropskomposition på]({% link _posts/2019-10-14-kropskomposition.md %}), som måske kan inspirere til at få et endnu mere nuanceret billede på, hvad fedtprocent er. Der kan du også læse om endnu flere metoder til at måle kropskomposition med.
 
-Når nu det er så vanskeligt nøjagtigt at bestemme den nøjagtige fedtprocent, så skal du altså ikke skynde dig på [slankekur]({% link _posts\2020-09-04-slankekur.md%}) på baggrund af fedtprocentmålinger og fedtprocentberegninger uden at være helt sikker på, at du har en udfording med din fedtprocent.
+Når nu det er så vanskeligt nøjagtigt at bestemme den nøjagtige fedtprocent, så skal du altså ikke skynde dig på [slankekur]({% link _posts/2020-09-04-slankekur.md%}) på baggrund af fedtprocentmålinger og fedtprocentberegninger uden at være helt sikker på, at du har en udfording med din fedtprocent.
 
 Hvis du vil dykke lidt mere ned i emnet om fedtprocent og vægt, så tjek mit omfattende indlæg om [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}), og hvordan man fortolker det.
