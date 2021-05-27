@@ -70,6 +70,13 @@ Jeg bruger [formlerne som præsenteres på fitties.com](https://fitties.com/fat-
 
 Nevill et al (2008) rapporterer både om 7-punktsmålingen og 3-punktsmålingen. Hvis man i 7-punktsmålingen har en samlet _sum of skinfolds_ på over 120, så bør man være varsom med at bruge formlerne til at estimere fedtprocenten. De foreslår en alternativ formel.
 
+## Konklusion
+
+Jeg har skrevet et uddybende indlæg om at [måle skinfolds med fedttang]({% link _posts\2019-10-14-fedtprocent-skinfold.md %}).
+
+Husk at testen udelukkende estimerer din fedtprocent. Testen er ikke et startskud til en [slankekur]({% link _posts\2020-09-04-slankekur.md%}), fordi du skal opnå en tilfældig [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}) fra en beregner.
+{: .notice .notice--info }
+
 ## Andre formler til måling af fedtprocent
 
 {% assign site_posts = site.posts | where: "tags", "skinfold" | where_exp: "post", "post.url != page.url" | sort: "date" %}

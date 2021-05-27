@@ -115,7 +115,7 @@ Måling med fedttang er relativt udbredt, og alle kan lære at bruge en fedttang
 
 {% include video id="VBJuVfiKrbY" provider="youtube" %}
 
-[Læs mere om måling med fedttang](/artikel/fedtprocent-skinfold/){: .btn .btn--large .btn--success }
+[Læs mere om måling med fedttang]({% link _posts\2019-10-14-fedtprocent-skinfold.md %}){: .btn .btn--large .btn--success }
 
 ### Bioimpedans - Bioelectric Impedance Analysis (BIA)
 
@@ -142,6 +142,10 @@ Hvis du gerne vil måle din kropskomposition, så vær opmærksom på hvor _vali
 InBody har lavet en fin video, der hurtigt gennemgår pointerne ift. kropskomposition.
 
 {% include video id="B6jIUOi8puk" provider="youtube" %}
+
+Husk at det er vanskeligt at lave præcise målinger af kropskompositionen. I min optik må du aldrig lade mere eller mindre nøjagtige tests og målinger definere, hvad du synes din [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}) og overveje en [slankekur]({% link _posts\2020-09-04-slankekur.md%}). Bliv stærk, hurtig, udholdende i stedet, og så vil du blive stadig mere tilfreds med din krop.
+{: .notice .notice--info }
+
 
 ## Referencer om kropskomposition
 

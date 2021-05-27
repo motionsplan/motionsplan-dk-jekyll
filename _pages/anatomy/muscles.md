@@ -69,7 +69,7 @@ I denne tabel over muskler kan du se en oversigt over muskler i ben, arme, skuld
 {% assign site_posts = site.posts | where: "tags", "muskler" | sort: "last_modified_at" | reverse %}
 
 {% if site_posts.size > 0 %}
-  {% for post in site_posts limit:16 %}
+  {% for post in site_posts %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}

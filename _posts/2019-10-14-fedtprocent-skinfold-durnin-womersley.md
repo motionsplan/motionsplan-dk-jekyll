@@ -81,6 +81,15 @@ Durnin og Womersley har så lavet korrelationsmodeller med densiteten fundet i u
 
 I den sammenhæng er det også værd at bide mærke i, at [Siri-formlen](https://www.topendsports.com/testing/siri-equation.htm) ikke er den eneste måde at omregne en fedtprocent på baggrund af densiteten.
 
+## Konklusion
+
+En skinfold-test kan være meget brugbar til at følge ændringer i kropskomposition over tid.
+
+Jeg har skrevet et uddybende indlæg om at [måle skinfolds med fedttang]({% link _posts\2019-10-14-fedtprocent-skinfold.md %}).
+
+Husk at testen udelukkende estimerer din fedtprocent. Testen er ikke et startskud til en [slankekur]({% link _posts\2020-09-04-slankekur.md%}), fordi du skal opnå en tilfældig [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}) fra en beregner.
+{: .notice .notice--info }
+
 ## Andre formler til måling af fedtprocent
 
 {% assign site_posts = site.posts | where: "tags", "skinfold" | where_exp: "post", "post.url != page.url" | sort: "date" %}

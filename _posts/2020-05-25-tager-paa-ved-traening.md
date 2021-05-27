@@ -154,7 +154,7 @@ Der er mange årsager til, at vægten kan stige når du begynder at træne. Hår
 
 Du slipper aldrig af med pludselige vægtændringer.
 
-Du skal ikke tage dig af tallet på vægten. Det er godt at du træner. Jeg synes ikke at dit mål skal være at tabe dig. 
+Du skal ikke tage dig af tallet på vægten. Det er godt at du træner. Jeg synes ikke, at dit primære mål skal være at tabe dig for at opnå en tilfældig [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}).
 
 Dit mål kan være at ændre lidt på din kropssammensætning, men der er vægten en dårlig indikator for, hvordan det går.
 

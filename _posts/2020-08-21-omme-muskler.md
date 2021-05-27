@@ -17,7 +17,7 @@ last_modified_at: 2021-02-14T08:14:14Z
 toc: true
 ---
 
-Du kan få ømme muskler efter træning, hvis du belaster din krop mere end du plejer. Jeg har kigget på teorierne for, hvorfor du kan blive øm i kroppen efter fysisk aktivitet.
+Du kan få ømme muskler efter træning, hvis du belaster din krop mere end du plejer. Jeg har kigget på teorierne for, hvorfor du oplever DOMS og kan blive øm i kroppen efter fysisk aktivitet.
 
 Det fleste kender det. Du har trænet mere end du plejer, eller du har lavet nogle nye øvelser, og nu gør det ondt i musklerne. Fænomenet kaldes også **andendagsømhed** eller _Delayed Onset Muscle Soreness_ (DOMS). 
 
@@ -195,7 +195,7 @@ Der er rigtigt at muskelfibrene påvirkes ved træning, men muskelfibrene forsvi
 
 Det er efter al sandsynlighed ikke [mælkesyren]({% link _posts/2020-08-24-maelkesyre.md %}), der gør, at man ikke længere kan arbejde med samme intensitet. Mælkesyren beskytter nok snarere musklerne. Derfor er det også usandsynligt, at mælkesyren gør kroppen øm og stiv dagen efter træning. Men der kan naturligvis med meget intensive aktiviteter og anaerob træning være en tendens til flere mikroskader i musklerne.
 
-## Referencer om ømme muskler
+## Referencer om DOMS og ømme muskler
 
 <details markdown="1">
   <summary>Se flere referencer om DOMS og delayed onset muscle soreness</summary>

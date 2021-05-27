@@ -50,6 +50,9 @@ McArdle og Katch (2010) algoritme tager højde for køn og alder.
 
 Formlerne bag måling af fedtprocent med målebånd er lavet af McArdle og Katch (2010), og hvis du vil have en engelsk side om målingerne kan du kigge på [www.brianmac.co.uk](https://www.brianmac.co.uk/fatgirth.htm).
 
+Husk at testen udelukkende estimerer din fedtprocent. Testen er ikke et startskud til en [slankekur]({% link _posts\2020-09-04-slankekur.md%}), fordi du skal opnå en tilfældig [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}) fra en beregner.
+{: .notice .notice--info }
+
 ## Referencer
 
 {% include feature_row type="left" %}

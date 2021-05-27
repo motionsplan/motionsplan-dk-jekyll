@@ -34,7 +34,7 @@ Jeg har lavet en beregner, hvor du kan udregne din fedtprocent på baggrund af d
 
 *[BMI]: Body Mass Index
 
-Udregningen er naturligvis forbundet med flere usikkerheder. Beregningen af din fedtprocent er indirekte og inddrager kun din højde og din vægt. Derfor er udregningen unøjagtig, da den ikke har mulighed for at vide, om din vægt skyldes muskler eller fedt.
+Udregningen af fedtprocent er naturligvis forbundet med flere usikkerheder. Beregningen af din fedtprocent er indirekte og inddrager kun din højde og din vægt. Derfor er udregningen unøjagtig, da den ikke har mulighed for at vide, om din vægt skyldes muskler eller fedt.
 
 Der er mange metoder til at måle kropskomposition, og mange går meget op i at finde ud af, hvad deres fedtprocent er.
 
@@ -132,11 +132,11 @@ Udregningen af fedtprocent efter Heitmanns formel har en standardafvigelse på o
 
 Det betyder i praksis, at hvis du har udregnet din fedtprocent til 15%, så er det mest sandsynlige, at den ligger i intervallet fra 11,1% til 18,9%. Det er en ret stor afvigelse.
 
-Fedtprocenten bliver med begge formler udregnet på baggrund af de samme oplysninger, som man udregner BMI på. Derfor er disse beregninger af fedtprocenten behæftet med de samme usikkerheder som BMI er.
+Fedtprocenten bliver med alle formler udregnet på baggrund af de samme oplysninger, som man udregner BMI med. Derfor er disse beregninger af fedtprocenten behæftet med de samme usikkerheder som BMI er. Du skal altså ikke gå på en [tvivlsom slankekur]({% link _posts\2020-09-04-slankekur.md%}) på baggrund af disse beregninger.
 
 Beregningerne tager således ikke højde for, om vægten skyldes muskler eller fedt eller din kropsbygning i det hele taget.
 
-Jeg har skrevet mere om [BMI og lavet en beregner](/bmi/).
+Jeg har skrevet mere om [BMI og lavet en beregner](/bmi/), og jeg har også skrevet et omfattende indlæg om [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}).
 
 Du kan kombinere udregningen af fedtprocent med en øjemålstest. Så har du formentlig en nogenlunde ide om din fedtprocent ligger inden for et sundt spektrum.
 
