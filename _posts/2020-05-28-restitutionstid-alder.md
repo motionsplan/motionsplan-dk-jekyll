@@ -233,7 +233,7 @@ Vi har brug for flere studier til helt at dokumentere en effektiv restitution. K
 
 </div>
 
-[![](https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=55589)](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55589){:rel="nofollow"}
+<a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55589" target="_blank" rel="nofollow noopener"><img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=55589" border="0"></a>
 
 <a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55254" target="_blank" rel="nofollow noopener"><img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=55254" border="0"></a>
 
