@@ -1,5 +1,7 @@
 ---
-title: &title "Kryoterapi: Virker et isbad efter træning på restitutionen?"
+title: &title "Kryoterapi: Virker et isbad efter træning på restitution?"
+description: "Jeg har researchet på om isbade og kryoterapi virker på som strategi til at forbedre og fremskynde din restitution. Læs de overraskende fund!"
+excerpt: "For nylig fik jeg anbefalet at spule mine ben med koldt vand efter mine løbeture for at restituere hurtigere. Nu er jeg ikke så vild med koldt vand, så jeg tog ikke min vens ord for det. Jeg gik i stedet for i gang med at researche lidt på isbade og kryoterapi i forhold til restitution."
 permalink: /isbad-og-kryoterapi/
 redirect_from:
   - /artikel/kolde-afvaskninger-er-det-god-restitution
@@ -18,29 +20,29 @@ last_modified_at: 2020-05-28T20:39:39Z
 gallery:
   - image_path: https://yourboots.dk/wp-content/uploads/2019/12/cool-framegrab-2048x871.png
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=71899&htmlurl=https://yourboots.dk/cool/
-    alt: Yourboots Cool
+    alt: Yourboots Cool til kryoterapi
     title: Yourboots Cool
 ---
 
-For nylig fik jeg anbefalet at spule mine ben med koldt vand efter mine løbeture for at restituere hurtigere. Nu er jeg ikke så vild med koldt vand, så jeg tog ikke min vens ord for det.
+For nylig fik jeg anbefalet at spule mine ben med koldt vand efter mine løbeture for at restituere hurtigere. Nu er jeg ikke så vild med koldt vand, så jeg tog ikke min vens ord for det. Jeg gik i stedet for i gang med at researche lidt på isbade og kryoterapi i forhold til restitution.
 
-Jeg gik i stedet for i gang med at researche lidt på emnet. Jeg fandt hurtigt ud af, at det ikke er nok at spule sine ben med vand, men forskningen er i gang med at undersøge **kryoterapi** og **isbade** som to forskellige strategier.
+Jeg fandt hurtigt ud af, at det ikke er nok at spule sine ben med vand, men forskningen er i gang med at undersøge **kryoterapi** og **isbade** som to forskellige strategier til restitution.
 
-Jeg fokuserede derfor mest på at finde ud af, om isbade efter træning virker på restitutionen og effekten af træning?
+Jeg fokuserede derfor mest i min resarch på at finde ud af, om isbade efter træning virker på restitutionen og effekten af træning?
 
 **Isbade efter træning viser i forskningen lidt blandede resultater. Folk der gennemgår isbade oplever mindre ømhed efter træning, men det har ikke kunnet påvises på biologiske markører. Tilsyneladende kan isbade hæmme effekten af styrketræning, men formentlig godt bruges efter udholdenhedstræning.**
 
-Jeg gik på [pubmed.com](http://pubmed.com) ([se guide](/videnskabelig-sogning/)) for at finde noget videnskab, der kunne overbevise mig om, at jeg har brug for afkøling efter træning.
+Jeg gik på [pubmed.com](http://pubmed.com) og lavede en [videnskabelig søgning](/videnskabelig-sogning/) for at finde nogle studier, der kunne overbevise mig om, at jeg har brug for afkøling efter træning.
 
 Det er fortsat ikke klart, hvad de videnskabelige rationale bag at tage et koldt bad er (se metastudium af Bleakley og Davison 2010), men derfor kan vi jo sagtens se på, om det virker.
 
-## Mælkesyre fjernes hurtigere
+## Mælkesyre fjernes hurtigere med et isbad
 
 Det ser ud til at mælkesyren fjernes hurtigere, hvis man tager et kontrast-bad, hvor man først kommer i koldt vand og derefter i varmt vand (Morton 2007), hvilket også er blevet vist for kvindelige klatrere (Heymann 2009). **Denne effekt får man imidlertid også af aktiv nedvarmning af musklerne.**
 
-## Restituerer man hurtigere?
+## Restituerer man hurtigere med et isbad?
 
-Spørgsmålet er så om den hurtigere fjernelse af mælkesyre rent faktisk gør, at man kan præstere bedre senere. Crowe et al (2007) viste ved sprint på cykel med en times restitution, at det kolde bad rent faktisk sænker den anaerobe kapacitet. Hvis man kigger på restitution med et lidt længere tidsperspektiv, så viste Lane og Wenger (2004), at både massage, aktiv nedvarmning og kolde bade var med til at facilitetere restitutionsprocessen i de 24 timer, der var mellem to træningspas med høj intensitet. Det kan dog være at perioden mellem de to træninger var nok i sig selv til at restituere, som foreslået af King and Duffield (2009) efter deres studium.
+Spørgsmålet er så om den hurtigere fjernelse af [mælkesyre]({% link _posts/2020-08-24-maelkesyre.md %}) rent faktisk gør, at man kan præstere bedre senere. Crowe et al (2007) viste ved sprint på cykel med en times restitution, at det kolde bad rent faktisk sænker den anaerobe kapacitet. Hvis man kigger på restitution med et lidt længere tidsperspektiv, så viste Lane og Wenger (2004), at både massage, aktiv nedvarmning og kolde bade var med til at facilitetere restitutionsprocessen i de 24 timer, der var mellem to træningspas med høj intensitet. Det kan dog være at perioden mellem de to træninger var nok i sig selv til at restituere, som foreslået af King and Duffield (2009) efter deres studium.
 
 Når man kigger på restitutionen efter 72 timer var hverken et kontrastbad eller udspænding med til at accellere restitutionen (Robey 2009).
 
