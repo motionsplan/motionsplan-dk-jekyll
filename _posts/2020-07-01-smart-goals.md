@@ -48,11 +48,11 @@ Et typisk princip at arbejde med målsætninger ud fra er SMART-princippet. SMAR
 
 SMART-modellen giver en opskrift på, hvordan du kan lave en holdbar målsætning. Jeg gennemgår her de enkelte punkter og giver nogle håndgribelige eksempler.
 
-**S** – specifikt / hvad vil du opnå?
-**M** – målbart / hvornår er målet opfyldt?
-**A** – attraktivt / hvad er motivationen bag målet? Hvorfor vil du opnå målet?
-**R** – realistisk / har du ressourcerne til at opnå målet?
-**T** – tidsbestemt / hvornår er din deadline?
+- **S** – specifikt / hvad vil du opnå?
+- **M** – målbart / hvornår er målet opfyldt?
+- **A** – attraktivt / hvad er motivationen bag målet? Hvorfor vil du opnå målet?
+- **R** – realistisk / har du ressourcerne til at opnå målet?
+- **T** – tidsbestemt / hvornår er din deadline?
 
 Når man sætter sig et mål, så tager man aktivit stilling til, hvad man egentlig vil opnå. Du kan opstille mål i alle livets faser, men her giver jeg et eksempel på, hvordan du kan bruge SMART-modellen i forhold til idræt.
 
