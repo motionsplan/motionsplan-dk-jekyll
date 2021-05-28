@@ -46,3 +46,12 @@ Alle tallene i kalorietabellen med brød er per 100 gram rå fødevare (spiselig
 {% include table-kalorietabellen.html where="brød" %}
 
 Jeg håber du kan bruge vores tabel til at se, hvad de forskellige typer brød indholder af ernæring og kalorier.
+
+{% comment %}
+
+## Hvor mange kalorier er der i et stykke hvidt brød?
+
+## Hvilket brød har flest kalorier?
+
+## Hvilket brød har færrest kalorier?
+{% endcomment %}

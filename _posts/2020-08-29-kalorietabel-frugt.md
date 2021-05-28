@@ -46,3 +46,11 @@ Alle tallene i kalorietabellen med frugter er per 100 gram rå fødevare (spisel
 {% include table-kalorietabellen.html where="frugt" %}
 
 Jeg håber du kan bruge vores tabel til at se, hvad de forskellige frugter og bær indholder af ernæring og kalorier.
+
+{% comment %}
+## Hvilken frugt indeholder flest kalorier?
+
+## Hvilken frugt indeholder færrest kalorier?
+
+## Hvor meget feder frugt?
+{% endcomment %}
