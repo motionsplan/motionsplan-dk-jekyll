@@ -132,10 +132,10 @@ Du kan overveje at putte bagepulver i denne opskrift, hvilket kan hjælpe med at
 
 ### Fremgangsmåde for pandekagerne
 
-- **Først**pisker du æggene.  
-- **Dernæst**tilsætter du havregryn, skyr, og proteinpulveret og pisker lidt mere  
-- **Steg**pandekagerne ved svag varme – jeg lavede 7 små stk.  
-- **Server**med frisk frugt, nødder, bær, skyr eller noget helt andet! 🙂
+- **Først** pisker du æggene.  
+- **Dernæst** tilsætter du havregryn, skyr, og proteinpulveret og pisker lidt mere  
+- **Steg** pandekagerne ved svag varme – jeg lavede 7 små stk.  
+- **Server** med frisk frugt, nødder, bær, skyr eller noget helt andet! 🙂
 
 Du kan fx toppe pandekagerne med banan, blåbær, mandler og vindruer, men du kan også bruge din fantasi.
 
@@ -148,3 +148,7 @@ Hvis du vælger en opskrift, hvor du skal bruge proteinpulver i opskriften, så 
 Vores bedste råd er at vælge et mærke af en dansk fabrikant, som står inde for kvaliteten af produktet. Så er det egentlig bare at vælge en smag du godt kan lide. Den kendte danske producent af proteinpulver [Bodylab\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/proteinpulver-84s1.html){: rel="sponsored" } har et stort udvalg af  [proteinpulver\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/proteinpulver-84s1.html){: rel="sponsored" }
 
 {% include gallery id="gallery_bodylab" caption="Lige nu får du pulver til proteinpandekager med gratis, hvis du shopper på [Bodylab\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/proteinpulver-84s1.html){: rel='sponsored' }" %}
+
+## Konklusion
+
+Hvis du gerne samlet vil tænke mindre over din kost og have noget sund mad, så kan du overveje at lave en madplan. Jeg har skrevet et indlæg om [madbudget for at undgå luksusfælden og madplaner på ifire.dk](http://www.ifire.dk/madbudget-undgaa-luksusfaelden-med-madplan/).

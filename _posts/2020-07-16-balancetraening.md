@@ -85,6 +85,8 @@ Balanceevnen påvirkes af dine øjne, ører og sanseorganerne i led og muskler. 
 
 Det er rigtig godt at have en viden om alle disse systemer, hvis du skal planlægge balancetræning.
 
+Jeg har skrevet et indlæg om [synstræning for fodboldspillere på legestue.net](https://www.legestue.net/synet/).
+
 ### Det proprioceptive system
 
 ### Det indre øre
