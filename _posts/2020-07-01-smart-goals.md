@@ -225,5 +225,4 @@ Jeg har lavet en skabelon, du kan bruge til at skrive dine målsætninger ned. D
 
 ## Bliv klogere om SMART målsætning
 
-- Casper Jespersen (2015): [Arbejd SMART for livsstilsændringen, casperjespersen.com](http://casperjespersen.com/2015/01/07/arbejd-smart-for-livsstilsaendringen/)
 - Mads Davidsen (2015): [Write down your goals for 2015 - the way to success](https://madsdavidsen.com/blog/set-goals-targets-or-not), madsdavidsen.com
