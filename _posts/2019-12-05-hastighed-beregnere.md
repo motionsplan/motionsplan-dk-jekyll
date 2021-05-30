@@ -80,6 +80,8 @@ I denne tabel kan du, hvad en hastighed betyder i forhold de tider, du kan løbe
 
 {% include table-kmt-minkm.html %}
 
+{% include feature_row %}
+
 ## Formel: Beregning af hastighed i km/t fra distance og tid
 
 Hvis du gerne selv vil beregne hastigheden ud fra distance og tid uden at skulle bruge en beregner, så kan du benytte følgende formel for hastighed.
