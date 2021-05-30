@@ -41,11 +41,13 @@ template:
     btn_class: "btn--info"
 ---
 
-Her på løbesiden kan du finde en løbeberegner, der kan beregne dit træningstempo og konkurrencetider ud fra Jack Daniels Running Formula. Enhver løbeside med respekt for sig selv skal naturligvis have en løbsberegner.
+Her på løbesiden kan du finde en løbsberegner, der kan beregne dit træningstempo og konkurrencetider ud fra Jack Daniels Running Formula. Du kan let udregne din løbehastighed allerede i dag.
+
+Enhver løbeside med respekt for sig selv skal naturligvis have en løbeberegner.
 
 Den avancerede løbsberegner er fra [Jack Daniels Running Formula](https://runsmartproject.com/calculator/), og den kan udregne træningstider til din løbetræning og konkurrencetider. Jack Daniels har beskrevet det i sin bog [Running Formula\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/daniels-running-formula_jack-daniels_9781450431835){:rel="nofollow"}. Tjek prisen på bogen hos [Tales\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/daniels-running-formula_jack-daniels_9781450431835){:rel="nofollow"}.
 
-Ved at indtaste aktuelle konkurrencetider ind i løbeberegneren, kan du finde løbetider og hvilken tempo du bør træne efter i forskellige zoner og træningsmetoder.
+Ved at indtaste aktuelle konkurrencetider ind i løbeberegneren kan du finde dine løbetider for forskellige distancer. Du får også et bud på, hvilket tempo du bør træne efter i forskellige træningszoner og træningsmetoder.
 
 Jack Daniels Running Formula tager udgangspunkt i statistikker over andre løbere og er efterhånden meget udbredt til at udregne træningstempo og konkurrencetider. Inden Jack Daniels lavede sin løbeberegner, så var [Pete Riegels formel til at udregne konkurrencetider til løb]({% link _posts/2020-08-01-riegels-loebeberegner.md %}) meget udbredt, men den er blevet overhalet af Jack Daniels beregninger.
 
@@ -82,7 +84,7 @@ Du kan lære lidt mere om de forskellige løbetempi fra Jack Daniels selv i denn
 
 Jeg har lavet en anden beregner, der hurtigt kan hjælpe dig med at udregne, [hvor langt du skal løbe i dit tidsinterval]({% link _posts/2021-03-28-hvor-langt-pr-interval.md %})?
 
-Jeg har også lavet en beregner, hvor du kan [omregne fra min/km til km/t](/hastighed/).
+Jeg har også lavet en beregner, hvor du kan [omregne dine løbehastighed fra pace i min/km til km/t](/hastighed/).
 
 ## Tabel over løbetempo fra Jack Daniels Løbsberegner
 
@@ -110,6 +112,16 @@ Jack Daniels arbejder med begrebet _training points_ som en måde at monitorere 
 En måde at måle _training load_ i løb på er hvor mange kilometer, du løber om ugen. Training load tilfører og viden om kvalitet og intensitet til overvågningen af træningen.
 
 {% endcomment %}
+
+## Pace tabel over løbehastigheder
+
+I denne pace tabel over løbehastigheder kan du få et hurtigt overblik over, hvad du kan forvente sluttider på forskellige løbedistancer.
+
+Du skal kende din aktuelle bedste tid på enten 5 km, 10 km, halvmaraton eller maraton. Du kan naturligvis ikke helt holde den samme hastighed på 5 km, som du kan på en maraton. Derfor er pace justeret til for de enkelte distancer.
+
+{% include figure image_path="https://www.aarhusmotion.dk/traening/blog/795" caption="Pacetabel fra [Århus Motion](https://www.aarhusmotion.dk/traening/blog/795)" alt="pacetabel og skema over pace" %}
+
+Hvis ingen af tiderne helt passer til din løbehastighed, så kan du altid bruge beregneren til at lave din egen pacetabel.
 
 ## Betragtninger om Jack Daniels løbeberegner
 

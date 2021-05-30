@@ -1482,7 +1482,7 @@ $(document).ready(function() {
 
         let c = running.Running();
 
-        $("#velocity_kmt").val(c.getKilometersPrHour(min, sec, distance));
+        $("#velocity_kmt").val(c.getKilometersPrHour(min, sec, distance).toFixed(2));
         $("#velocity_min_km").val(c.getTimePrKilometer(min, sec, distance));
     });
     $("#calculator_how_far_interval").submit(function(e) {
