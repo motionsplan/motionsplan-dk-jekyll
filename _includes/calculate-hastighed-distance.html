@@ -1,0 +1,23 @@
+<form class="calculator" id="calculator_velocity_distance">
+    <fieldset>
+        <legend>Beregn distance (km) fra hastighed og tid</legend>
+        <div class="form-group">
+            <label>Hastighed (km/t)</label>
+            <input type="number" min="1" max="10000" step="0.01" id="dist_velocity" name="dist_velocity" required class="input-mini">
+        </div>
+        <div class="form-group">
+            <label>Tid (min:sek)</label>
+            <input type="number" required placeholder="min" name="dist_min" min="0" max="5000" class="input-mini"> <span class="help-inline">min</span>
+            <input type="number" placeholder="sec" name="dist_sec" min="0" max="60" class="input-mini"> <span class="help-inline">sek</span>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <legend>Udregning af distance</legend>
+        <div class="form-group">
+            <label>Distance (km)</label>
+            <input type="number" name="dist_distance" id="dist_distance" placeholder="km" step="0.01" disabled>
+        </div>
+    </fieldset>
+    {% include calculator-footer.html %}
+</form>

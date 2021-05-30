@@ -15,7 +15,7 @@ tags:
   - løb
   - cykling
   - beregnere
-last_modified_at: 2021-05-20T12:14:14Z
+last_modified_at: 2021-05-30T12:14:14Z
 toc: true
 feature_row:
   - image_path: /assets/images/freebies/hastighed-og-pace.png
@@ -46,11 +46,19 @@ Typisk kan man i angive hastigheden på to forskellige måder:
 - **hastighed i km/t**. Den hastighed kender du fra sit spedometer i bilen, så den er let at forholde sig til. Typisk er det også den hastighed, man kan indstille på et løbebånd. Jeg synes, at den er lidt vanskeligere at bruge, når man er ude på en løbetur.
 - **pace i min/km**. På løbeture foretrækker jeg at forholde mig til, hvor mange minutter jeg bruger for at løbe en kilometer. Det er let at forholde sig til - særligt hvis man kender den distance, man løber.
 
-## Udregn hastighed fra distance og tid (km/t) i vores beregner
+## Udregn hastighed (km/t) fra distance og tid i vores beregner
 
 I denne beregner kan du beregne din hastighed og gennemsnitshastighed ud fra den tilbagelagte distance og din tid.
 
 {% include calculate-hastighed.html %}
+
+## Udregn distance fra hastighed (km/t) og tid i vores beregner
+
+{% include calculate-hastighed-distance.html %}
+
+## Udregn tid fra hastighed (km/t) og distance i vores beregner
+
+{% include calculate-hastighed-time.html %}
 
 ## Omregn fra km/t til min/km (pace)
 

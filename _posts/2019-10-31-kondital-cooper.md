@@ -21,7 +21,7 @@ tags:
   - løbetest
   - test
   - beregner
-last_modified_at: 2021-03-20T10:14:14Z
+last_modified_at: 2021-05-20T10:14:14Z
 toc: true
 feature_row:
   - image_path: /assets/images/freebies/cooper.png
@@ -112,6 +112,18 @@ McCutcheon et al (1990) fandt med at Cooper testen gave en systematisk underesti
 
 [Daniel Mayorga-Vega (2016)](https://pubmed.ncbi.nlm.nih.gov/26987118/) konkluderer i deres systematiske meta-analyse af 123 studier og forskellige løbetests, at 12-minutters Cooper-testen (rp = 0,78) og [2400-meter-testen]({% link _posts/2019-10-31-kondital-2400-meter.md %}) (rp = 0,79) havde den højeste kriterie-validitet. Når man ikke adgang til en laboratorie-test, så er Cooper-testen altså et rigtig fint alternativ til at estimere konditallet.
 
+## Hvor langt skal jeg løbe på Cooper-testen?
+
+Mange stiller spørgsmålet: "Hvor langt kan man løbe på 12 minutter?" Hvis du løber mindre end 2000 meter, skal du nok træne lidt, og hvis du kan løbe længere end 3000 meter, så er du i ret god form.
+
+Det afhænger naturligvis af din samlede kondition og løbeøkonomi, hvor langt du kan løbe på Cooper-testens 12 minutter. Der findes tabeller, hvor du kan vurdere din løbedistance på Cooper-testen med normalværdier.
+
+Hvis vi tager **verdensrekordholderen på 5 kilometer for mænd**, Joshua Cheptegei, og smider hans tid på 12:35:36 ind i [en formel for hastighed og vores beregner for gennemsnitshastighed]({% link _posts/2019-12-05-hastighed-beregnere.md %}), så løber han altså i 23,84 km/t i gennemsnit. Det svarer til, at han løber 4,8 kilometer på 12 minutter.
+
+Hvis vi tager den **kvindelige verdensrekordholder på 5 kilometer**, Letesenbet Gidey, som har løbet på 14:06:62, så svarer det til en gennemsnitshastighed på 21,25 km/t. På 12 minutter ville hun altså nå at løbe 4,3 kilometer.
+
+Så langt når du nok ikke, men du kan sammenligne dig selv i tabellerne nedenunder.
+
 ## Tabel over resultater fra Cooper-test
 
 Her har jeg givet et bud på vurderingskriterier for distancen gennemført på Cooper-testen for mænd og kvinder.
@@ -121,14 +133,14 @@ Cooper (1968) lavede selv en tabel over normalværdier for distance på Cooper-t
 Værdierne fra disse skemaer over Cooper-testen er lidt anderledes end de tabeller, du kan finde på [den danske Wikipedias side for Cooper-testen](https://da.wikipedia.org/wiki/Coopertest). Det ved jeg ikke hvorfor. Hvis du gør, så brug endelig kommentarerne.
 {: notice .notice--info }
 
-Hvis du sammenligner værdierne i tabellerne fra Cooper (1968) med det kondital, du kan udregne i vores beregner, så ender du i forskellige kategorier. Der er stor forskel i vurderingen, om du bruger [tabellen over kondital](/kondital/) eller Coopers skema til at vurdere dit træningsniveau.
+Hvis du sammenligner værdierne i tabellerne fra Cooper (1968) med det kondital, du kan udregne i vores beregner, så ender du i forskellige kategorier. Der er stor forskel i vurderingen, om du bruger [tabellen over kondital](/kondital/) eller Coopers skema til at vurdere dit konditionsniveau.
 
-Fx vil en pige, der løber 2100 meter få et kondital på 36 ml/min/kg, hvilket er i den lave ende af 'Middel', mens hun i Coopers egen tabel ligger i kategorien 'Meget godt'. Det er en interessant forskel.
+Fx vil en pige, der løber 2100 meter få et kondital på 36 ml/min/kg, hvilket er i den lave ende af 'Middel', mens hun i Coopers egen tabel ligger i kategorien 'Meget godt'. Det er en uforklarlig forskel.
 
 Du kan se de oprindelige skemaer til Cooper-testen her, men læs lidt længere for at få nye modificerede tabeller baseret på tabellerne over kondital for almindelige danske mennesker, der ikke dyrker idræt på konkurrenceplan.
 
 <details markdown="1">
-  <summary><strong>Se Coopers oprindelige skemaer og tabeller over distancer på Coopertesten</strong></summary>
+  <summary>Se Coopers oprindelige skemaer og tabeller over distancer på Coopertesten</summary>
 
 ### Cooper-test skema for mænd
 

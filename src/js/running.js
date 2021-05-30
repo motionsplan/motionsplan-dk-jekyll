@@ -54,12 +54,23 @@ motionsplan.Running = function() {
         return velocity * (duration_minutes + (duration_seconds / 60)) / 60 * 1000;
     }
 
+    function getDistanceFromTimeAndVelocity(min, sec, velocity) {
+        let time = min + (sec / 60);
+        return (velocity * time / 60);
+    }
+
+    function getTimeFromDistanceAndVelocity(distance, velocity) {
+        return (distance * 60) / velocity;
+    }
+
     let publicAPI = {
         getKilometersPrHour : getKilometersPrHour,
         getTimePrKilometer : getTimePrKilometer,
         convertKmtToMinPerKm : convertKmtToMinPerKm,
         convertMinPerKmToKmt : convertMinPerKmToKmt,
-        convertMinPerKmToDistanceForDuration : convertMinPerKmToDistanceForDuration
+        convertMinPerKmToDistanceForDuration : convertMinPerKmToDistanceForDuration,
+        getDistanceFromTimeAndVelocity : getDistanceFromTimeAndVelocity,
+        getTimeFromDistanceAndVelocity : getTimeFromDistanceAndVelocity
     };
 
     return publicAPI;

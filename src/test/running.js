@@ -37,4 +37,16 @@ describe('RunningTest', function() {
       assert.equal(r.convertMinPerKmToDistanceForDuration(4, 0, 4, 0), 1000);
     });
   });
+  describe('getDistanceFromTimeAndVelocity', function() {
+    it('should return the correct number', function() {
+      var r = motionsplan.Running();
+      assert.equal(r.getDistanceFromTimeAndVelocity(5, 0, 12), 1);
+    });
+  });
+  describe('getTimeFromDistanceAndVelocity', function() {
+    it('should return the correct number', function() {
+      var r = motionsplan.Running();
+      assert.equal(r.getTimeFromDistanceAndVelocity(1, 12), 5);
+    });
+  });
 });

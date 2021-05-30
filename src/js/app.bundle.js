@@ -1485,6 +1485,35 @@ $(document).ready(function() {
         $("#velocity_kmt").val(c.getKilometersPrHour(min, sec, distance).toFixed(2));
         $("#velocity_min_km").val(c.getTimePrKilometer(min, sec, distance));
     });
+    $("#calculator_velocity_distance").submit(function(e) {
+        console.log("Calculate distance");
+        e.preventDefault();
+
+        let min = Number($("[name='dist_min']").val());
+        let sec = Number($("[name='dist_sec']").val());
+        let velocity = Number($("[name='dist_velocity']").val());
+
+        let c = running.Running();
+
+        $("#dist_distance").val(c.getDistanceFromTimeAndVelocity(min, sec, velocity).toFixed(1));
+    });
+    $("#calculator_velocity_time").submit(function(e) {
+        console.log("Calculate time");
+        e.preventDefault();
+
+        let distance = Number($("[name='time_distance']").val());
+        let velocity = Number($("[name='time_velocity']").val());
+
+        let c = running.Running();
+
+        let time = c.getTimeFromDistanceAndVelocity(distance, velocity);
+
+        let min = Math.floor(time);
+        let sec = (time - min) * 60;
+
+        $("[name='time_min']").val(min);
+        $("[name='time_sec']").val(sec.toFixed(0));
+    });
     $("#calculator_how_far_interval").submit(function(e) {
         console.log("Calculate velocity");
         e.preventDefault();

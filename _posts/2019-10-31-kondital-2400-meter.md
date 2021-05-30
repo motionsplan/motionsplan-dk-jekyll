@@ -58,9 +58,21 @@ Følgende klassifikation af 2400 meter testen gælder for [mænd og kvinder i al
 
 På [www.whyiexercise.com](https://www.whyiexercise.com/) kan du finde følgende normer for 2400-meter-testen.
 
-{% include gallery id="gallery_whyiexercise" caption="Normer for mænd og kvinder for 2400-meter-testen fra [www.whyiexercise.com](https://www.whyiexercise.com/)" %}
+{% include gallery id="gallery_whyiexercise" caption="Normer for mænd og kvinder for 2400-meter-testen fra [www.whyiexercise.com](https://www.whyiexercise.com/)" alt="2400 meter testen normer" %}
 
-## Beregner til 2400-meter testen
+## Hvor hurtigt kan man løbe 2400 meter?
+
+Hvor hurtigt du kan løbe 2400 meter er meget afhængigt af din maksimale iltoptagelse, løbeøkonomi og evne til at gå allout.
+
+Jeg har fundet verdensrekorderne på 3000 meter og smidt tallene ind i [en formel for hastighed og vores beregner for gennemsnitshastighed]({% link _posts/2019-12-05-hastighed-beregnere.md %}).
+
+Hvis vi kigger på **verdensrekordholderen for mænd på 3000 meter**, Daniel Komen, så har han løbet 3000 meter på 7:20.67. Det svarer til en hastighed på 24,49 km/t. Det svarer til, at Daniel Komen løb 2400 meter på 5 minutter og 53 sekunder.
+
+Tager vi den **kvindelige verdensrekordholder på 3000 meter**, Wang Junxia, så løb hun 3000 meter på 8:06.11, hvilket svarer til 22,22 km/t. Wang Junxia kunne således med samme hastighed løbe 2400 meter på 6:29.
+
+## Beregner til kondital for 2400-meter testen
+
+I nedenstående beregner kan du udregne dit kondital på baggrund af 2400-meter testen.
 
 {% include calculate-fitness-2400-meter.html %}
 
