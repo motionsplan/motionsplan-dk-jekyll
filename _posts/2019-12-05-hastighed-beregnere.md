@@ -74,7 +74,9 @@ Når du løber de planlagte langsommere ture med lav intensitet, så giver det g
 
 Det giver også god mening at vide, hvilken hastighed du skal løbe under dine [intervaller og intervalløb]({% link _posts/2020-06-15-intervallob.md %}). Jeg har lavet en beregner, der kan hjælpe dig med at udregne [hvor langt du skal løbe på et interval]({% link _posts/2021-03-28-hvor-langt-pr-interval.md %}).
 
-## Tabel med km/t, m/s og min/km og andre tider
+## Tabel med km/t, m/s og min/km
+
+I denne tabel kan du, hvad en hastighed betyder i forhold de tider, du kan løbe på 5 km, 10 km, halvmaraton og maraton. Hvis du vil have dine realistiske tider for de distancer baseret på, hvad du kan løbe på andre distancer, så tjek vores [løbsberegner]({% link _posts/2020-08-01-jack-daniels-loebeberegner.md %}).
 
 {% include table-kmt-minkm.html %}
 
