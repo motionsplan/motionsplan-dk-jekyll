@@ -15,7 +15,7 @@ tags:
   - løb
   - cykling
   - beregnere
-last_modified_at: 2019-11-19T23:14:14Z
+last_modified_at: 2021-05-20T12:14:14Z
 toc: true
 feature_row:
   - image_path: /assets/images/freebies/hastighed-og-pace.png
