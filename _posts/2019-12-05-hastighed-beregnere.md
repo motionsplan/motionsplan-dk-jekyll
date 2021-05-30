@@ -80,7 +80,7 @@ I denne tabel kan du, hvad en hastighed betyder i forhold de tider, du kan løbe
 
 {% include table-kmt-minkm.html %}
 
-{% include feature_row %}
+{% include feature_row type="left" %}
 
 ## Formel: Beregning af hastighed i km/t fra distance og tid
 
