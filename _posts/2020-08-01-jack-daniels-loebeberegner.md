@@ -56,7 +56,7 @@ Jack Daniels Running Formula tager udgangspunkt i statistikker over andre løber
 Løbesidens beregner er baseret på [Jack Daniels Running Formula](https://runsmartproject.com/calculator/), hvor du udregner V<sub>dot</sub>, som er defineret som:
 
 > VDOT is a measure of running ability and is calculated from a race performance based on Jack Daniels Running Formula. The number reflects the V̇O2max of a runner with average Running Economy
-> 
+>
 > It is possible for a runner's actual V̇O2max to vary from the VDOT measure; two runners could have the same VDOT and one runner could have a higher V̇O2max with a poorer Running Economy, the other lower V̇O2max with a better Running Economy. For most purposes, VDOT is more useful than V̇O2max as it reflects actual running performance rather than a laboratory measure.
 
 --- <cite>[fellrnr.com](https://fellrnr.com/wiki/VDOT)</cite>
@@ -67,7 +67,7 @@ Formålet med beregneren er dels at udregne træningstider til din løbetræning
 
 De **konkurrencetider** du udregner i beregneren er et udtryk for de bedst muligt tider, du kan løbe.
 
-**Nybegyndere kan have svært ved at konvertere de kortere distancer udregnet i løbeberegneren til maratontider**, da det vanskeligt at løbe optimalt over så lang en distance for nybegyndere. [Løbesiden](https://loebesiden.dk/beregninger/) foreslår at man lægger 10-20 minuttter oven i den udregnede sluttid for de lange distancer, hvis du er begynder. 
+**Nybegyndere kan have svært ved at konvertere de kortere distancer udregnet i løbeberegneren til maratontider**, da det vanskeligt at løbe optimalt over så lang en distance for nybegyndere. [Løbesiden](https://loebesiden.dk/beregninger/) foreslår at man lægger 10-20 minuttter oven i den udregnede sluttid for de lange distancer, hvis du er begynder.
 
 **Erfarne løbere** skal også følge et løbeprogram for at kunne løbe op mod konkurrencetiderne fra beregneren.
 
@@ -119,7 +119,7 @@ I denne pace tabel over løbehastigheder kan du få et hurtigt overblik over, hv
 
 Du skal kende din aktuelle bedste tid på enten 5 km, 10 km, halvmaraton eller maraton. Du kan naturligvis ikke helt holde den samme hastighed på 5 km, som du kan på en maraton. Derfor er pace justeret til for de enkelte distancer.
 
-{% include figure image_path="https://www.aarhusmotion.dk/traening/blog/795" caption="Pacetabel fra [Århus Motion](https://www.aarhusmotion.dk/traening/blog/795)" alt="pacetabel og skema over pace" %}
+{% include figure image_path="https://www.aarhusmotion.dk/images/uploaded/news/Pace_tabel.jpg" caption="Pacetabel fra [Århus Motion](https://www.aarhusmotion.dk/traening/blog/795)" alt="pacetabel og skema over pace" %}
 
 Hvis ingen af tiderne helt passer til din løbehastighed, så kan du altid bruge beregneren til at lave din egen pacetabel.
 
@@ -218,7 +218,7 @@ Lad os kigge lidt på forskellige øvelser, som kan være med til at flytte mæl
 
 ### Tempoløb
 
-Tempoløb er hårdt, men effektivt. Du skal løbe intensivt i relativt lang tid. Et eksempel kan være at løbe et par kilometer som opvarmning, hvorefter du løber 3-8 km i et tempo omkring den anaerobe tærskel. Slut med et par kilometers afjogning. 
+Tempoløb er hårdt, men effektivt. Du skal løbe intensivt i relativt lang tid. Et eksempel kan være at løbe et par kilometer som opvarmning, hvorefter du løber 3-8 km i et tempo omkring den anaerobe tærskel. Slut med et par kilometers afjogning.
 
 Når man laver tempoløb arbejder man også med sin mentale styrke. Husk at løbe omkring mælkesyregrænsen, så du får den rette træningseffekt. Hvis du løber hurtigere end det i perioder, så får du brug for længere restitution.
 
@@ -240,7 +240,7 @@ Træningsmængden indenfor AT-træning bør ikke overstige 10% af ugens samlede 
 
 ## Træning af maksimal iltoptagelse (VO<sub>2</sub>max)
 
-Træning af den maksimale iltoptagelse (VO2max) er en rigtig vigtig del af løbetræningen. Den [maksimale iltoptagelse]({% link _posts/2020-06-23-kondital-hvor-hurtigt.md %}) er et udtryk for kroppens evne til at optage og producere energi under forbrænding med ilt (aerob). 
+Træning af den maksimale iltoptagelse (VO2max) er en rigtig vigtig del af løbetræningen. Den [maksimale iltoptagelse]({% link _posts/2020-06-23-kondital-hvor-hurtigt.md %}) er et udtryk for kroppens evne til at optage og producere energi under forbrænding med ilt (aerob).
 
 Der er flere faktorer, der bestemmer den [maksimale iltoptagelse]({% link _posts/2019-11-03-intensiteten-og-vo2max.md %}), som fx:
 
@@ -276,7 +276,7 @@ Helgerud (2007) fandt en rigtig god effekt af 4 x 4 min med 3 minutters aktiv pa
 
 ### Fartleg
 
-Fartleg er en ustruktureret træningsform præget af skiftende tempo, der ikke på forhånd er planlagt. Der skal med andre ord løbes spontant og impulsivt. 
+Fartleg er en ustruktureret træningsform præget af skiftende tempo, der ikke på forhånd er planlagt. Der skal med andre ord løbes spontant og impulsivt.
 
 Mens du løber planlægger man start- og slutpunkter for, hvornår der skal løbes hurtigt. Typisk bruger man terrænet til at bestemme, hvornår der skal være tempo på, fx løber man hurtigt til næste træ eller lygtepæl, eller også løber man hurtigt op ad bakkerne.
 
@@ -286,13 +286,13 @@ Legemomentet kan ende i for hård træning, der kræver ekstra lang restitutions
 
 ### Bakketræning
 
-Du kan også træne den maksimale iltoptagelse med bakketræning. Du har brug for en bakke, hvor du kan løbe opad i 2-5 minutter i arbejdsperioderne. Vær opmærksom på, at du du ikke kommer til at løbe for hurtigt, da det er let at oparbejde for meget mælkesyre i musklerne, når man løber bakkeintervaller. 
+Du kan også træne den maksimale iltoptagelse med bakketræning. Du har brug for en bakke, hvor du kan løbe opad i 2-5 minutter i arbejdsperioderne. Vær opmærksom på, at du du ikke kommer til at løbe for hurtigt, da det er let at oparbejde for meget mælkesyre i musklerne, når man løber bakkeintervaller.
 
 ### Hyppighed og mængde
 
 Træning af den maksimale iltoptagelse bør kun foretages en gang om ugen, da den er meget belastende for kroppen.
 
-Hvis du bruger for meget tid i denne zone, så vil det sandsynligvis føre til overbelastningsskader. 
+Hvis du bruger for meget tid i denne zone, så vil det sandsynligvis føre til overbelastningsskader.
 
 Indsæt gerne en pausedag efter den hårde træning. Som udgangspunkt må træningsmængden af maksimal iltoptagelse ikke overstige 8% af ugens samlede træningsmængde målt i km.
 
@@ -313,7 +313,7 @@ Når du arbejder med hastighedsteknik, så kan du forbedre løbekadencen og kraf
 
 ### Udførelse
 
-Når du arbejder med sprint- og hastighedstræning, så skal du løbe med høj intensitet. Hvis du træner til længere distancer, så foregår hastighedstræning måske i 400-1500 meters tempo, mens det ved kortere løbedistancer måske foregår ved 100-800 meters tempo. 
+Når du arbejder med sprint- og hastighedstræning, så skal du løbe med høj intensitet. Hvis du træner til længere distancer, så foregår hastighedstræning måske i 400-1500 meters tempo, mens det ved kortere løbedistancer måske foregår ved 100-800 meters tempo.
 
 Når du træner kortere sprints og bakkesprints, så behøver du faktisk ikke at ramme 100%, men kan få rigtig god effekte ved gentagne intervaller der ligger omkring 95-98% af din maksimale hastighed, så længe du sørger for at holde høj kvalitet i løbene.
 
