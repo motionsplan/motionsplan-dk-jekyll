@@ -173,9 +173,7 @@ Start fx med at lave 3 gentagelser af hver øvelse og trap så langsomt op hver 
 
 Find dit eget tempo til hver af øvelserne - det handler ikke om at kunne gøre dem hurtigt, men om at føle dig godt tilpas med øvelserne.
 
-Har du udfordringer med en af øvelserne, anbefaler jeg, at du laver så mange du kan med overskud. Derefter går du videre til den næste tibetaner. Du bliver efterhånden stærkere og stærkere, så du kan lave flere gentagelser. 
-
-<a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=37797" target="_blank" rel="nofollow noopener"><img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=37797" border="0" alt=""></a>
+Har du udfordringer med en af øvelserne, anbefaler jeg, at du laver så mange du kan med overskud. Derefter går du videre til den næste tibetaner. Du bliver efterhånden stærkere og stærkere, så du kan lave flere gentagelser.
 
 ## Hvordan udføres de fem tibetanere?
 
@@ -385,8 +383,6 @@ Hvis det er sket for dig, at du overskydende seksuel energi, så kan du følge b
 
 — <cite>[Wikipedia](https://en.wikipedia.org/wiki/Five_Tibetan_Rites#Sixth_Rite)</cite>
 
-<a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=72081" target="_blank" rel="nofollow noopener"><img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=72081" border="0" alt=""></a>
-
 ## Er de fem tibetanske riter for dig?
 
 Hvis det er rigtigt, at de fem tibetanere normaliserer hormonelle ubalancer i kroppen, så bør alle mennesker jo lave dem.
@@ -412,8 +408,6 @@ Vi har et andet indlæg her på sitet, der handler om [Mindfulness meditation]({
 ## Bog om de fem tibetanere
 
 {% include gallery id="feature_row" caption="Peter Kelder har skrevet to bøger om de 5 tibetanere og hans erfaringer med de fem tibetanere, som du kan købe fra [denintelligentekrop.dk*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-kilden-til-evig-ungdom){: rel='nofollow' }" %}
-
-<a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=37797" target="_blank" rel="nofollow noopener"><img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=37797" border="0" alt=""></a>
 
 ## Plakat med de fem tibetanere
 

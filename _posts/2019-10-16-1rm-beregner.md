@@ -285,5 +285,3 @@ Bruger du en RM-beregner i din træning?
 </details>
 
 {% include feature_row type="left" %}
-
-<a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=24840" target="_blank" rel="nofollow noopener"> <img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=24840" border="0"></a>

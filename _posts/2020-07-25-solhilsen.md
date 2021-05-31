@@ -242,8 +242,6 @@ Jeg udfører også ofte [De fem tibetanere]({% link _posts/2009-07-01-de-fem-tib
 
 {% include gallery id="yogastream" caption="YogaStream er et online yogaunivers med over 1000 yoga- og meditationsvideoer. Du bliver guidet af dygtige og erfarne instruktører lige når det passer dig. Få den [første måned gratis gennem vores link*](http://motionsplan.yogastream.dk)." %}
 
-<a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=37797" target="_blank" rel="nofollow noopener"><img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=37797" border="0" alt=""></a>
-
 ## Udstyr til solhilsen og yoga
 
 Du behøver ikke noget yogaudstyr for at kunne lave solhilsen. Det kan dog være meget rart med en yoga-måtte eller et andet underlag, hvor du kan stå godt fast på. Når du har et skridsikkert underlag, så kan du udføre øvelserne mere kraftfuldt og præcist. Jeg har skrevet en [komplet guide til yogaudstyr]({% link _posts/2021-01-20-yoga-udstyr.md %}).

@@ -219,8 +219,6 @@ Derudover anbefaler IForm massage, akupunktur, grundig opvarmning, let træning 
 
 Vi har brug for flere studier til helt at dokumentere en effektiv restitution. Kan I hjælpe?
 
-<a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=75283" target="_blank" rel="nofollow noopener"> <img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=75283" border="0" alt=""></a>
-
 <div class="feature__wrapper">
 
 {% assign site_posts = site.posts | where: "tags", "restitution" | sort: "last_modified_at" | reverse %}
@@ -232,10 +230,6 @@ Vi har brug for flere studier til helt at dokumentere en effektiv restitution. K
 {% endif %}
 
 </div>
-
-<a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55589" target="_blank" rel="nofollow noopener"><img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=55589" border="0"></a>
-
-<a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55254" target="_blank" rel="nofollow noopener"><img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=55254" border="0"></a>
 
 ## Referencer om restitution og restitutionstid
 

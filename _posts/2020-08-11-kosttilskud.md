@@ -87,8 +87,6 @@ Hvis vi tager en mand, der vejer 80 kg, så skal jeg altså på en dag indtage o
 
 Inden du køber proteinpulver, så kan det altså være en god ide at kigge på, hvordan din kost allerede nu ser ud. Hvis du allerede får nok protein i kosten, så behøver du jo ikke at supplere, og du bør ikke supplere med proteinpulver, fordi du er for doven til at lave rigtig mad.
 
-<a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=75976" target="_blank" rel="nofollow noopener"> <img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=75976" border="0" alt=""></a>
-
 ## Kreatin
 
 **Kreatin monohydrat er det eneste kosttilskud, der har en veldokumenteret effekt på både muskelvækst og styrke.**
@@ -110,8 +108,6 @@ Kreatin monohydrat er imidlertid utrolig billigt i forhold den potentielle posit
 Den **anbefalede dagsdosis af kreatin er 3 g**. Det koster altså kun omkring 100 kroner at dække et tre måneders forbrug af kreatin. Du kan se [priserne på kreatinpulver hos Bodylab\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/bodylab-kreatin-pulver-188p.html){:rel="nofollow"}.
 
 Noget tyder på, at det kan være godt at tage kreatin efter træning sammen med protein og kulhydrat for at få den største effekt (Antonio og Ciccone 2013), men mange starter også dagen med at tage dagsdosis af kreatin. Hvis du er interesseret i at læse mere om kreatin, så har Nikolaj Bach skrevet en [rigtig god indføring om, hvad kreatin er og hvordan det virker?](https://www.bodylab.dk/shop/ofte-stillede-spoergsmaal-1352c1.html) på [Bodylab\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/ofte-stillede-spoergsmaal-1352c1.html){:rel="nofollow"}.
-
-<a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=71672" target="_blank" rel="nofollow noopener"> <img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=71672" border="0" alt=""></a>
 
 ## Koffein
 
@@ -242,8 +238,6 @@ Fisker Performance taler i deres podcast om [Kosttilskud som er spild af penge](
 - Antioxidant-tilskud
 - Multivitamin-tilskud
 
-<a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=75968" target="_blank" rel="nofollow noopener"> <img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=75968" border="0" alt=""></a>
-
 Jeg har tidligere også skrevet om [magnesium som kosttilskud]({% link _posts/2020-07-11-magnesium.md %}), men at magnesium formentlig for de fleste ikke har nogen synderlig effekt med mindre man er i mangel af det.
 
 Det vanskelige i forhold til kosttilskud er: Hvordan ved man, om man er i mangel af et vitamin eller et mineral?
@@ -269,8 +263,6 @@ Derefter skal du huske at starte i bunden af pyramiderne.
 - [EP #18: Kosttilskud som er spild af penge - Fisker Performance](https://www.fisker-performance.dk/podcast/kosttilskud-som-er-spild-af-penge)
 - [EP #21: Kosttilskud med dokumenteret effekt - Fisker ...](https://www.fisker-performance.dk/podcast/kosttilskud-med-dokumenteret-effekt)
 
-<a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=75952" target="_blank" rel="nofollow noopener"> <img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=75952" border="0" alt=""></a>
-
 ### Referencer om protein som kosttilskud
 
 - Jorn Trommelen and Luc J. C. van Loon. Pre-Sleep Protein Ingestion to Improve the Skeletal Muscle Adaptive Response to Exercise Training. Nutrients 2016, 8(12), 763; doi:10.3390/nu8120763
@@ -287,5 +279,3 @@ Derefter skal du huske at starte i bunden af pyramiderne.
 - J Int Soc Sports Nutr. 2017 Jun 13;14:18. doi: 10.1186/s12970-017-0173-z. eCollection 2017. International Society of Sports Nutrition position stand: safety and efficacy of creatine supplementation in exercise, sport, and medicine. Kreider RB1, Kalman DS2, Antonio J3, Ziegenfuss TN4, Wildman R5, Collins R6, Candow DG7, Kleiner SM8, Almada AL9, Lopez HL4,10.
 - Bender A, Klopstock T. Creatine for neuroprotection in neurodegenerative disease: end of story? Amino Acids. 2016;48(8):1929–40.
 - Antonio J, Ciccone V. The effects of pre versus post workout supplementation of creatine monohydrate on body composition and strength. J Int Soc Sports Nutr. 2013 Aug 6;10:36. doi: 10.1186/1550-2783-10-36.
-
-<a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=71672" target="_blank" rel="nofollow noopener"> <img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=71672" border="0" alt=""></a>

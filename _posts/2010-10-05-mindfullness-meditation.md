@@ -75,8 +75,6 @@ Hvis du gerne vil have lidt inspiration til yoga, du kan lave derhjemme, så har
 - **Siddende meditation**: Du sidder på en stol med ret ryg, afslappede skuldre, hænderne på lårene med håndfladerne opad, evt. med en blid kontakt mellem tommeltot og pegefingerens spidser. Denne håndbevægelse er ikke religiøs, men sikrer i stedet du forbliver i kroppen, er jordnær, og ikke flyder væk i tanker, men er til stede lige nu - vågen og opmærksom.
 - **Fokus på åndedrættet**. Håndbevægelsen kan også laves på andre tidspunkter i løbet af dagen, og kan minde dig om at trække vejret uhindret, slippe tankerne (især bekymringerne) og være til stede, lige nu.
 
-<a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=72081" target="_blank" rel="nofollow noopener"><img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=72081" border="0" alt=""></a>
-
 ## Kort guidet meditation til hverdagen
 
 5 minutters kort meditation, som kan bruges i hverdagen til at få en lille øjeblik, hvor man finder ro igen. Meditationen er på dansk og kaldes: "Kom tilstede".
@@ -102,7 +100,5 @@ Hvis du er interesseret i at læse lidt om musik til mindfulness og yoga, så ha
 Den Intelligente Krop som er vores samarbejdspartner har også [afspændinger til yoga og mindfulness meditation\*](https://www.denintelligentekrop.dk/interesse/yoga-og-meditation/yoga-og-meditation-musik-og-lyd-cd).
 
 {% include gallery id="yogastream" caption="YogaStream er et online yogaunivers med over 1000 yoga- og meditationsvideoer. Du bliver guidet af dygtige og erfarne instruktører lige når det passer dig. Få den [første måned gratis gennem vores link*](http://motionsplan.yogastream.dk)." %}
-
-<a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=37797" target="_blank" rel="nofollow noopener"><img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=37797" border="0" alt=""></a>
 
 {% include gallery id="wallsticker_full" caption="Wallstickers om yoga og mindfulness" %}

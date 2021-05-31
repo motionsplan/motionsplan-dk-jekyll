@@ -85,8 +85,6 @@ Hvis du bruger musik til din yoga, mindfulness og meditation, så husk at finde 
 
 Opdater din playliste jævnligt. Mange af os har adgang til alverdens musik gennem et abonnement til fx Spotify. Du kan også søge inspiration ved at søge efter playlister med “yoga music”.
 
-<a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=72081" target="_blank" rel="nofollow noopener"><img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=72081" border="0" alt=""></a>
-
 ## Forslag til god musik til yoga, meditation og mindfulness
 
 [Kathrine Christensen](https://www.kathrinechristensen.dk/blog/49715-musik-til-yoga-meditation), som er yogalærer i Vejle og har læst musikvidenskab, foreslår følgende musik til yoga.
@@ -127,7 +125,5 @@ Jeg har skrevet et andet indlæg, der handler om at [vælge musik til din træni
 Du skal næsten også lige læse et andet af vores meget populære indlæg, der handler om [yogaøvelserne, De Fem Tibetanere]({% link _posts/2009-07-01-de-fem-tibetanere.md %}) eller [Solhilsen]({% link _posts/2020-07-25-solhilsen.md %}) - eller måske er du interesseret i [Mindful meditation]({% link _posts/2010-10-05-mindfullness-meditation.md %}).
 
 Hvis du er på udkig efter [yogaudstyr, så tjek min guide]({% link _posts/2021-01-20-yoga-udstyr.md %}).
-
-<a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=37797" target="_blank" rel="nofollow noopener"><img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=37797" border="0" alt=""></a>
 
 {% include gallery id="yogastream" caption="YogaStream er et online yogaunivers med over 1000 yoga- og meditationsvideoer. Du bliver guidet af dygtige og erfarne instruktører lige når det passer dig. Få den [første måned gratis gennem vores link*](http://motionsplan.yogastream.dk)." %}
