@@ -15,7 +15,6 @@ tags:
 category:
   - Kondition
   - Løb
-  - Webclips
 last_modified_at: 2013-04-28T13:13:06Z
 ---
 

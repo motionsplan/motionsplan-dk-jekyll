@@ -8,7 +8,6 @@ header:
   caption: *title
 tags:
   - styrketræning
-  - webclips
   - unilateral
 category:
   - Styrketræning

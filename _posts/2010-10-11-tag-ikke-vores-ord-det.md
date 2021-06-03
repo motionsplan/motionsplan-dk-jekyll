@@ -12,7 +12,7 @@ header:
 tags:
   - videnskab
 category:
-  - Webclips
+  - Viden om
 last_modified_at: 2020-02-13T21:55:25Z
 ---
 

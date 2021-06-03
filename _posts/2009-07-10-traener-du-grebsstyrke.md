@@ -8,7 +8,6 @@ header:
   teaser: /assets/images/blog/traener-du-grebsstyrke.jpg
   caption: *title
 tags:
-  - webclips
   - grebsstyrke
 category:
   - Styrketræning
