@@ -17,7 +17,7 @@ tags:
   - konditionstest
   - løb
   - indirekte test
-  - submaksimal test
+  - maksimal test
   - løbetest
   - test
   - beregner
@@ -38,7 +38,7 @@ Cooper-testen er en maksimal løbetest, hvor den distance man kan tilbagelægge 
 Hvad er en Cooper-test? **Cooper-test er en klassisk konditionstest, hvor du skal løbe så langt som muligt på 12 minutter. Cooper-testen blev designet af militærfysiologen Kenneth H. Cooper i 1968.**
 
  Cooper-testen var oprindeligt beregnet til at teste de amerikanske soldaters fysiske form. Det gælder om at løbe så langt som muligt på 12 minutter.
- 
+
  Testens pålidelighed til at udregne konditallet forudsætter, at den løbes på en flad strækning, hvor man kan presse sig selv, og at man kan løbe med nogenlunde jævn hastighed hele vejen igennem testen.
 
  I dette indlæg kan du få svar på følgende spørgsmål om Cooper-testen:

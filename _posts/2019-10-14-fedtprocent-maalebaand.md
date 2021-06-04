@@ -28,7 +28,7 @@ feature_row:
     btn_class: "btn--success"
 ---
 
-Der er mange måder at måle din fedtprocent på. Denne måling af fedtprocent kræver kun et målebånd, og så skal du måle omkredsen forskellige steder på kroppenn.
+Der er mange måder at måle din fedtprocent på. Denne måling af fedtprocent kræver kun et målebånd, og så skal du måle omkredsen forskellige steder på kroppen.
 
 ## Måling af fedtprocent med målebånd har følgende antagelser
 
