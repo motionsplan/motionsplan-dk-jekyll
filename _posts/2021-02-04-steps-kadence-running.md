@@ -7,7 +7,7 @@ header:
   teaser: https://images.unsplash.com/photo-1603102859961-64b17d43580d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
   caption: *title
 category:
-  - Løbe
+  - Løb
 tags:
   - løbesiden
 last_modified_at: 2021-03-12T08:14:14Z

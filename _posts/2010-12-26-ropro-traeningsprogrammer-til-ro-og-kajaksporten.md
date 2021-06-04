@@ -9,7 +9,6 @@ header:
   teaser: /assets/images/blog/ropro-traeningsprogrammer-til-ro-og-kajaksporten.jpg
   caption: "Rotræning: Roprogrammer, træningsprogrammer og intervaller til indendørs roning på romaskine."
 tags:
-  - webclips
   - træning
   - roning
   - kajak

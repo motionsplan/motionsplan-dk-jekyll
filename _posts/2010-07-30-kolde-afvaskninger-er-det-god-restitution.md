@@ -15,7 +15,7 @@ tags:
   - isbad
   - kryoterapi
 category:
-  - Webclips
+  - Restitution
 last_modified_at: 2020-05-28T20:39:39Z
 gallery:
   - image_path: https://yourboots.dk/wp-content/uploads/2019/12/cool-framegrab-2048x871.png

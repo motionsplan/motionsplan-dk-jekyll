@@ -9,7 +9,6 @@ header:
   teaser: /assets/images/blog/traening-med-kropsvaegt.jpg
 tags:
   - styrketræning
-  - webclips
   - kropsvægt
 category:
   - Styrketræning
