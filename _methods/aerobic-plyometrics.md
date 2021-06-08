@@ -15,11 +15,11 @@ howto:
   - 3-12 min/sæt, 1-3 sæt total
 exercises: "Aerob plyometri laver du 8-15 eksplosive bevægelser efterfulgt af omkring 30 sekunders pause. Du kører i 3-12 minutter i 1-3 sæt i alt. For underkroppen er hop med samelde ben en god øvelse, mens du med overkroppen kan lave eksplosive arkstrækninger eller rebound med medicinbolde."
 progress:
-  - Jump quality
+  - Bevægelseskvalitet og hoppekvalitet
 effect: "Aerob plyometri forbedrer elasticiteten i vævet og holdbarheden ved gentagne belastninger. Samtidig arbejdes med de aerobe egenskaber i fast-twitch muskelfibrene, så de kan arbejde med et højt power output over længere tid."
 ---
 
-Aerob plyometriske øvelser hjælper med at forbedre elasticiteten og holdbarheden i vævet i underkoppen, hvilket forbedre sener og ligamenternes evne til at håndtere stress over tid. 
+Aerob plyometriske øvelser hjælper med at forbedre elasticiteten og holdbarheden i vævet i underkoppen, hvilket forbedre sener og ligamenternes evne til at håndtere stress over tid.
 
 Aerob plyometri er en god måde at nedsætte risikoen for skader i idrætsgrene, der involverer en del løb.
 
