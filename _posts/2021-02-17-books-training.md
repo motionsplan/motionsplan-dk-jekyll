@@ -66,13 +66,6 @@ feature_row:
     excerpt: "Den her har jeg selv skrevet. Bogen besvarer følgende to spørgsmål: (1) Hvordan kan komplicerede, hurtige færdigheder tænkes at være kontrolleret, og hvordan kan påvirkningen og læringen i dette kontrolsystem tænkes at foregå? (2) Hvordan kan underviseren verbalt give feedback på udøverens præstation af en kompliceret, hurtig færdighed for at skabe den bedst mulige motoriske læring hos udøveren?"
     alt: Kontrol og læring af motoriske færdigheder og verbal feedback
     btn_label: Tjek prisen hos Bod*
-    btn_class: btn--danger
-  - image_path: https://images.bod.com/images/kontrol-og-laering-af-motoriske-faerdigheder-og-verbal-feedback-lars-olesen-9788743011378.jpg/500/500/Kontrol_og_l%C3%A6ring_af_motoriske_f%C3%A6rdigheder_og_verbal_feedback.jpg
-    url: https://www.bod.dk/bogshop/kontrol-og-laering-af-motoriske-faerdigheder-og-verbal-feedback-lars-olesen-9788743011378
-    title: "Kontrol og læring af motoriske færdigheder og verbal feedback"
-    excerpt: "Den her har jeg selv skrevet. Bogen besvarer følgende to spørgsmål: (1) Hvordan kan komplicerede, hurtige færdigheder tænkes at være kontrolleret, og hvordan kan påvirkningen og læringen i dette kontrolsystem tænkes at foregå? (2) Hvordan kan underviseren verbalt give feedback på udøverens præstation af en kompliceret, hurtig færdighed for at skabe den bedst mulige motoriske læring hos udøveren?"
-    alt: Kontrol og læring af motoriske færdigheder og verbal feedback
-    btn_label: Tjek prisen hos Bod*
     btn_class: btn--danger    
   - image_path: https://imgcdn.saxo.com/_9788711731611/0x500
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/sov-rigtigt_nick-littlehales_epub_9788711724569

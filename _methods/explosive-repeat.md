@@ -3,44 +3,42 @@ layout: single
 title: "Explosive Repeat Method"
 tags:
   - conditioning
-effect: "Improves fast twitch aerobic abilities and repetitive power output by developing the rate of lactate oxidation of the slow twitch fibers."
+effect: "Forbedrer de hurtige muskelfibres aerobe egenskaber og evnen til gentagende gange at få et højt power output. Metoden forbedrer også raten af genbrug af laktat i de langsomme slow twitch muskler."
 rpe: 7-8
-time: 8-10 sec work and 60 sec rest per set
+time: 8-10s arbejde og 60s pause pr. sæt
 intensity: High
-reps: 1-3 exercises; 6-10 sets/exercise
+reps: 1-3 øvelser; 6-10 sæt/øvelse
 howto:
-  - Begin with 8-10 sec work and 60 sec rest per set while focusing on dynamic energy control
-  - Cover as much distance as possible with each explosive burst—mark this distance
-  - Use a total of 1-3 exercises; 6-10 sets/exercise
-  - Actively rest 6-8 min between exercises
-exercises: "Upper body: explosive push-ups, bench press, or medicine ball throws. Lower body: variations of squat jumps and split squat jumps with a kettlebell, bar, or dumbbells. Exercises with rapid, elastic rebound (SSC) component are the most effective"
+  - Start med 8-10 s arbejde og 60s pause, hvor du fokuserer på at få åndedrættet og pulsen ned.
+  - Vær så eksplosiv som muligt, og hvis du fx springer, så gennemfør så lang distance som muligt.- Brug 1-3 øvelser; 6-10 sæt/øvelse
+  - Aktiv pause i 6-8 minutter mellem øvelserne
+exercises: "Overkrop: eksplosive armstrækninger, kast med medicinbolde eller bænkpres. Underkrop: variationer af squat jumps og split squat med en kettlebell, vægtstang eller håndvægte. Øvelser med hurtige, elastiske rebounds er mest effektive, så man udnytter stretch shortening cycle."
 video:
   provider: youtube
   id: vXx27qjcktE
 ---
 
-The goal of the explosive repeat method is to develop the explosive endurance of the fast-
-twitch fibers. Like many other training methods, explosive repeats provide an opportunity to train recovery using dynamic energy control.
+Explosive repeat er en metode til at udvikle eksplosiv udholdenhed i de hurtige _fast twitch_-muskelfibre.
 
-Choose an explosive exercise that makes it easy to measure power output or distance
-covered. The featured exercise is called “double-leg bounds,' and it’s especially beneficial
-for sports with an explosive lower body component.
+Explosive repeats er også en rigtig god mulighed for at træne restitution.
 
-Guidelines for doing explosive repeats are:
+Vælg øvelser hvor du kan være maksimalt eksplosiv. Du kan både lave øvelser for underkroppen og overkroppen.
 
-- Use work periods of 8-10 seconds (around 10-12 bounds, if doing double-leg
-bounds)
-- Cover as much distance as possible with each explosive burst—mark this distance
-- Actively recover for 60 seconds while focusing on dynamic energy control
-- Repeat the explosive work period until the athlete can no longer cover the same
-distance each time
-
-Clearly establish the target number of repetitions for each athlete and emphasize their
-improvement from week-to-week.
-
-As athletes’ fitness improve, they should work up to 10-20 sets of explosive repeats. As you
-get closer to the competitive season, increase the work periods and decrease rest periods.
+Der er nogle fine forslag til explosive repeats i denne video:
 
 {% if page.video %}
   {% include video provider=page.video.provider id=page.video.id %}
 {% endif %}
+
+Jeg har også selv brugt fx kettlebell swings.
+
+Retningslinjer for explosive repeats er følgende:
+
+- Brug korte arbejdsperioder på 8-10 sekunder (omkring 10-12 hop, hvis du laver spring på to ben).
+- Hvis du laver explosive repeats, hvor du kan måle distancen, så kan du måle hvor langt du kommer. Alternativt må du bruge din fornemmelse.
+- Restituer i 60 sekunder, mens du fokuserer på at få åndedræt og puls ned.
+- Gentag indtil atleten ikke længere kan tilbagelægge den samme distance hver tid.
+
+Det er godt at holde øje med antal gentagelser og hvor langt man kommer i de enkelte spring fra uge til uge.
+
+Når atleten bliver bedre, så kan de arbejde op til 10-20 sæt af eksplosive repeats. Når du kommer tættere på konkurrenceperioden, så kan du øge arbejdsperioderne og sænke pauseperioderne.
