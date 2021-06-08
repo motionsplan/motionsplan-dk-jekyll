@@ -19,8 +19,8 @@ progress:
   - Heart rate recovery
 effect: "Improves the aerobic abilities of the fast-twitch muscle fibers so that high power can be maintained longer."
 video:
-  provider: facebook
-  id: 8weeksout/videos/10155741321175787
+  provider: youtube
+  id: OtDHzC6KV3A
 ---
 
 This interval method uses high resistance to improve the endurance and recovery of fast-
