@@ -18,6 +18,9 @@ exercises: "Aerob plyometri laver du 8-15 elastiske bevægelser efterfulgt af om
 progress:
   - Bevægelseskvalitet og hoppekvalitet
 effect: "Aerob plyometri forbedrer elasticiteten i vævet og holdbarheden ved gentagne belastninger. Samtidig arbejdes med de aerobe egenskaber i fast-twitch muskelfibrene, så de kan arbejde med et højt power output over længere tid."
+video:
+  provider: youtube
+  id: _P1LcWWpcPg
 ---
 
 {{ page.excerpt }}
@@ -41,4 +44,6 @@ Når atleten oparbejde større elasticitet over tid, så kan du antallet af hæk
 
 Brug metoden oftere, når atleterne kommer tættere på konkurrencesæsonen for at forberede kroppen til træningsmængden.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Aerobic plyometrics can be extremely useful to mitigate large spikes in training load in the transition period between off-season to pre-season. These ⬆️ elasticity and the durability of lower body tissue. Start with 3-5min and increase to 10-12 closer to the competitive season <a href="https://t.co/wbnk9DD2JR">pic.twitter.com/wbnk9DD2JR</a></p>&mdash; Cameron Ringstead (@C_Ringstead) <a href="https://twitter.com/C_Ringstead/status/1231624643666206722?ref_src=twsrc%5Etfw">February 23, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{% if page.video %}
+  {% include video provider=page.video.provider id=page.video.id %}
+{% endif %}

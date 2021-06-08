@@ -18,6 +18,9 @@ frequency: 1-2x uge i 3-4 uger
 progress:
   - Distance, hastighed eller power på den anaerobe tærskel.
 effect: "Flytter den anaerobe tærskel, så det aerobe system kan skabe mere ATP og dermed kan det aerobe system samlet set skabe mere kraft."
+video:
+  provider: youtube
+  id: 0SM5QMf1zvs
 ---
 
 {{ page.excerpt }}

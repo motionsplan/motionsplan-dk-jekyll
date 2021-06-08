@@ -19,6 +19,9 @@ progress:
   - Evnen til at gentage samme disatnce
   - 60s Heart Rate Recovery (HRR)
 effect: "Forbedrer det laktacide systems evne til at levere energi og kroppens tolerance til den anaerobe metabolisme."
+video:
+  provider: youtube
+  id: 0sxhW661eHk
 ---
 
 {{ page.excerpt }}
@@ -36,6 +39,16 @@ De laktacide intervaller udføres på følgende måde:
 - Lav om muligt samme arbejde i alle intervallerne.
 - Aktiv restitution 1-5 minutes, alt efter niveauet på atleten, og om du arbejder med effekt (3-5 minutters pause) eller kapacitet (30s - 2 min)
 - Gentag 2-5, alt efter niveauet på atleten.
+
+Du kan formentlig få en bedre forståelse for ideen bag disse laktacide intervaller:
+
+### Laktacide Power intervals
+
+{% include video provider="youtube" id="irReYhEIK-c" %}
+
+### Laktacide Capacity intervals
+
+{% include video provider=page.video.provider id=page.video.id %}
 
 Glykolytiske intervaller er meget trættende. Prøv at holde en god teknik også selvom det bliver hårdt.
 

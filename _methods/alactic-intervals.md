@@ -20,6 +20,9 @@ progress:
   - Distance eller power output i hver gentagelse
   - Antallet af gentagelser
 effect: "Udvikler det alactacide systems evne til at producere og regenerere ATP ved at forøge antallet af ATP-producerende enzymer."
+video:
+  provider: youtube
+  id: JU48QREqZwY
 ---
 
 {{ page.excerpt }}
