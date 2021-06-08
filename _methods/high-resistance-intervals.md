@@ -5,44 +5,42 @@ tags:
   - conditioning
 rpe: 6-7
 intensity: Max
-time: 5s work followed by rest until HR is 130-140bpm
-reps: 10-20 min total time/session
+time: 5s arbejde efterfulgt af pause indtil pulsen er 130-140bpm
+reps: 10-20 min total tid/session
 howto:
-  - Each rep is at maximal intensity
-  - 5s work followed by rest until HR is 130-140bpm
-  - 10-20 min total time/session
-exercises: "Uphill sprints, sled drags, spin bikes, treadmill (set around 15% incline) or other cardio machines capable of high resistance"
-frequency: 1-2 x / week - 6-8 weeks
+  - Hver gentagelse skal være ved maksimal intensitet
+  - 5s arbejde efterfulgt med pause indtil pulsen er 130-140bpm
+  - 10-20 min total tid/session
+exercises: "Bakkesprints, trække slæder, spinningcykler, løbebånd (med omkring 15% incline) eller andre cardiomaskiner, som kan yde en høj modstand"
+frequency: 1-2x/uge - 6-8 uger
 progress:
-  - Distance covered in each rep
-  - Number of reps
-  - Heart rate recovery
-effect: "Improves the aerobic abilities of the fast-twitch muscle fibers so that high power can be maintained longer."
+  - Distance tilbagelagt på hver gentagelse
+  - Antallet af gentagelser
+  - Heart rate recovery (HRR)
+effect: "Forbedrer de aerobe egenskaber for de hurtige fast-twitch muskelfibre, så et højt power output kan fastholdes i længere tid."
 video:
   provider: youtube
   id: OtDHzC6KV3A
 ---
 
-This interval method uses high resistance to improve the endurance and recovery of fast-
-twitch muscle fibers. One of the easiest ways to accomplish this is through inclined running.
+High Resistance Intervals (HRI) er intervaller med høj modstand for at forbedre udholdenheden og evnen til at restitutere for fast-twitch muskelfibrene.
 
-General guidelines for High Resistance Intervals (HRI) are:
+En af de letteste måder at opnå dette på er ved at løbe op ad bakke enten på et løbebånd eller på en bakke. Jeg har også ofte kørt HRI-intervaller på en kondicykel.
 
-- Set around a 15% incline
-- Cover as much distance as possible over a 5 second work period while maintaining
-proper technique
-- Actively recover until HR returns to 130-140bpm, depending on the athlete’s fitness
-level
-- If the HR does not go above 130-140bpm in the first few reps, actively recover for 60
-seconds between work periods
-- Set the total time to 10-20 minutes, depending on the athlete’s fitness level
-- Count the number of reps completed over the total time
+High Resistance Intervals udføres efter følgende retningslinjer:
 
-Focus on HR recovery using dynamic energy control in between work periods.
-Gauge improvements in fast-twitch muscle fiber endurance by monitoring the number of
-work periods the athlete can complete it a given time frame. If this number increases, the
-athlete has increased his/her fast-twitch fiber endurance—make sure to point out this
-improvement!
+- Sæt løbebåndet på omkring 15% incline eller hav en cykel hvor du hurtigt kan sætte modstanden op og træde den i gang
+- Tilbagelæg så lang distance som muligt på 5s med god teknik
+- Aktiv restitution indtil HR falder til 130-140bpm alt efter atletens fitness niveau
+- Hvis pulsen ikke kommer over 130-140 på de første gentagelser, så restituér i 60 sekunder
+- Sæt den totale tid til omkring 10-20 minutes, alt efter niveauet
+- Tæl antallet af gentagelser du kan gennemføre over tid
+
+Du skal mellem de enkelte arbejdsperioder sørge få åndedrættet og pulsen ned.
+
+For at se om der er fremgang, så kan du måle hvor mange gentagelser atleten kan gennemføre i en specifik tidsperiode. Da starten for næste arbejdsinterval styres af pulsen, kan atleten jo blive bedre til at restitutere mellem de enkelte sæt.
+
+Hvis antallet af gentagelser bliver højere, så er det et vidnesbyrd om, at udholdenheden i atletens hurtige fast-twitch muskelfibre er blevet forbedret.
 
 {% if page.video %}
   {% include video provider=page.video.provider id=page.video.id %}

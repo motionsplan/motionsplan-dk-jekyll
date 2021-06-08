@@ -4,18 +4,18 @@ title: "Threshold Method - Tærskelmetode"
 tags:
   - conditioning
 rpe: 8-9
-intensity: Hold HR ± 5 bpm af ANT
+intensity: HR ± 5 slag ift. ANT
 time: 5-10 min arbejdsperiode x 2-5 reps
 reps: Gennemfør 2-5 reps pr. workout
 howto:
-  - Maintain HR ± 5 bpm of ANT
-  - 5-10 min work periods x 2-5 reps
-  - Maintain power output each rep
-  - Complete 2-5 reps per workout
+  - Hold puls HR ± 5 slag i forhold til anaerobe tærskel
+  - 5-10 min arbejdsperiode x 2-5 gentagelser
+  - Fasthold samme power output i de enkelte gentagelser
+  - Gennemfør 2-5 gentagelser pr. workout
 exercises: "Du skal arbejde omkring din anaerobe tærskel. Derfor kan du bruge alle øvelser, hvor du kender den anaerobe tærskel."
 frequency: 1-2x uge i 3-4 uger
 progress:
-  - Distance covered each rep / speed / power at threshold
+  - Distance, hastighed eller power på den anaerobe tærskel.
 effect: "Flytter den anaerobe tærskel, så det aerobe system kan skabe mere ATP og dermed kan det aerobe system samlet set skabe mere kraft."
 ---
 
