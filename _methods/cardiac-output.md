@@ -1,6 +1,7 @@
 ---
 layout: single
-title: "Cardiac Output - Udholdenhedsløb"
+title: "Cardiac Output"
+excerpt: "Cardiac output træning skal forbedre udholdenheden. Ved at arbejde med en puls mellem 120-150 slag / min i snakketempo, så kan du forbedre størrelsen af hjertet og de perifære egenskaber med kapillærer og mitochondrier."
 tags:
   - conditioning
 rpe: 5-6
@@ -19,7 +20,7 @@ video:
   id: 8weeksout/videos/10155781664495787
 ---
 
-Cardiac output træning skal forbedre udholdenheden. Ved at arbejde med en puls mellem 120-150 slag / min i snakketempo, så kan du forbedre størrelsen af hjertet og de perifære egenskaber med kapillærer og mitochondrier.
+{{ page.excerpt }}
 
 Hvis du laver aktiviteten stående, skal du formentlig være i den højere ende af pulsområdet omkring 130-150, mens du ved siddende aktiviteer formentlig skal være fra omkring 120-140 slag / min.
 {: .notice .notice--info }

@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Alactacide intervaller"
+excerpt: "Alactacide intervaller udføres med 5-10 sekunders arbejde og 1-2 minutters pause med fx 10-20 reps. Vi træner den eksplosive power af det alactacide system samtidig med, at evnen til at restitutere mellem de enkelte intervaller med det aerobe system forbedres."
 tags:
   - conditioning
 rpe: 7-8
@@ -21,7 +22,7 @@ progress:
 effect: "Udvikler det alactacide systems evne til at producere og regenerere ATP ved at forøge antallet af ATP-producerende enzymer."
 ---
 
-Alactacide intervaller eller intense intervaller træner den eksplosive power af det alactacide system samtidig med, at evnen til at restitutere mellem de enkelte intervaller med det aerobe system.
+{{ page.excerpt }}
 
 De basale principper for alactacide intervaller er:
 

@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Lactacide intervaller"
+excerpt: "Lactacide intervaller skal forbedre det laktacide systems evne til at levere energi til højintenst arbejde og forbedre kroppens tolerance til den anaerobe metabolisme. Det sker ved maksimalt arbejde i 30-40 sekunder gentaget 2-5 gange med 1-5 minutters pause."
 tags:
   - conditioning
 rpe: 8-9
@@ -20,7 +21,7 @@ progress:
 effect: "Forbedrer det laktacide systems evne til at levere energi og kroppens tolerance til den anaerobe metabolisme."
 ---
 
-Lactacide intervaller skal forbedre det laktacide systems evne til at levere energi til højintenst arbejde og forbedre kroppens tolerance til den anaerobe metabolisme.
+{{ page.excerpt }}
 
 Ofte skelner man mellem **glykolytiske effekt intervaller** og **glykolytiske kapactitetsintervaller**. Forskellen handler mest om det primære fokus er at forbedre det laktacide systems evne til at levere meget energi, eller om formålet er at træne kroppens evne til at tolerere den anaerobe metabolisme.
 

@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "High Intensity Continuous Training (HICT)"
+excerpt: "I High Intensity Continous Training (HICT) udfordrer både kadencen og modstanden udholdenheden i fast-twitch muskelfibrene med moderat tærskel (type IIa-muskelfibrene). HICT udføres med høj modstand i langsomt tempo i 5-20 minutter."
 tags:
   - conditioning
 rpe: 7-8
@@ -23,7 +24,7 @@ video:
   id: q8zcxiucNkY
 ---
 
-Både kadencen og modstanden på denne metode udfordrer fast-twitch muskelfibrene med moderat tærskel (type IIa-muskelfibrene).
+{{ page.excerpt }}
 
 Hvis du kører HICT på en spinningcykel, så sæt modstanden op, så atleten ikke kan træde rundt med mere end 20-30 rpm.
 

@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Tempo-intervaller"
+excerpt: "Tempo-intervaller kan forbedre hastighed og arbejdskapacitet på træningsdage med lav intensitet. Samtidig forbedrer tempo-intervaller kroppens evne til at restituere fra høj-intensitetstræning og fremskynder genopbygningen uden at forårsage træthed. Tempointervaller er 10-12 sekunders arbejde ved 70% af maksimal intensitet 10-20 gange."
 tags:
   - conditioning
 rpe: 5-6
@@ -22,7 +23,7 @@ video:
   id: 8weeksout/videos/10155692941440787
 ---
 
-Tempo-intervaller kan forbedre hastighed og arbejdskapacitet på træningsdage med lav intensitet. Samtidig forbedrer tempo-intervaller kroppens evne til at restituere fra høj-intensitetstræning og fremskynder genopbygningen uden at forårsage træthed.
+{{ page.excerpt }}
 
 Du skal vælge en intensitet på omkring 70% af atletens maksimale intensitet. Arbejdsperioden er på 10 sekunder, og der er 60 ekunders aktiv pause mellem intervallerne.
 
