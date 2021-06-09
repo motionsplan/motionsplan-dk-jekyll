@@ -37,10 +37,24 @@ title: Træningsmetoder
     </div>
   </footer>
 </section>
-
-
 {% assign posts = site.methods %}
-
+{% comment %}
+<section>
+  <div class="wrap">
+    <div class="grid vertical-align">
+      <ul class="flexblock blink border">
+      {% for m in posts %}
+        <li>
+          <h3>{{ m.title }}</h3>
+          RPE: {{ m.rpe }}
+          Frequency: {{ m.frequency }}
+        </li>
+      {% endfor %}
+    </ul>
+    </div>
+  </div>
+</section>
+{% endcomment %}
 {% for m in posts %}
 <section>
   <div class="wrap">
@@ -48,7 +62,7 @@ title: Træningsmetoder
       <div class="content-left">
         <h2>{{ m.title }}</h2>
         {% if m.excerpt %}
-        <p class="text-intro">{{ m.excerpt }}</p>
+        <p class="text-intro">{{ m.excerpt | markdownify }}</p>
         {% endif%}
       </div>
       <div class="content-right">
@@ -93,8 +107,8 @@ title: Træningsmetoder
           </li>
           <li>
             <div>
-              <svg class="fa-heartbeat">
-                <use xlink:href="#fa-heartbeat"></use>
+              <svg class="fa-undo-alt">
+                <use xlink:href="#fa-undo-alt"></use>
               </svg>
               <h2>Reps</h2>
               {{ m.reps }}
@@ -116,7 +130,7 @@ title: Træningsmetoder
     <div class="grid vertical-align">
       <div class="content-left">
         <h2>{{ m.title }}</h2>
-        <p class="text-intro">{{ m.exercises }}</p>
+        <p class="text-intro">{{ m.exercises | markdownify }}</p>
       </div>
       <div class="content-right">
         <div class="embed">
@@ -136,8 +150,8 @@ title: Træningsmetoder
       </li>
       <li>
         <div>
-          <svg class="fa-heartbeat">
-            <use xlink:href="#fa-heartbeat"></use>
+          <svg class="fa-clock-o">
+            <use xlink:href="#fa-clock-o"></use>
           </svg>
           <h2>Tid</h2>
           <p>{{ m.time }}</p>
@@ -145,8 +159,8 @@ title: Træningsmetoder
       </li>
       <li>
         <div>
-          <svg class="fa-heartbeat">
-            <use xlink:href="#fa-heartbeat"></use>
+          <svg class="fa-undo-alt">
+            <use xlink:href="#fa-undo-alt"></use>
           </svg>
           <h2>Reps</h2>
           {{ m.reps }}

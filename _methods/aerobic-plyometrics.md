@@ -8,7 +8,7 @@ rpe: 6-7
 intensity: Moderat
 time: 8-15 reps; 30 s pause
 reps: 3-12 min/sæt, 1-3 sæt
-frequency: 1-2 x / uge
+frequency: 1-2x / uge
 howto:
   - Hold puls under den anaerobe tærskel
   - Alle gentagelser skal udføres med moderat intensitet
