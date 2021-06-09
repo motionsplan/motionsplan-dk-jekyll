@@ -4,8 +4,8 @@ permalink: /kondital-2400-meter/
 excerpt: "På 2400 meter løbetesten gælder det om at løbe 2400 meter så hurtigt som muligt, og derfra kan du estimere dit kondital og sammenligne dig med normerne."
 language: da
 header:
-  overlay_image: https://www.verywellfit.com/thmb/F9sf5YjPRH3UWHrse3-FoyWArws=/2120x1415/filters:fill(FFDB5D,1)/GettyImages-555000829-5b0215abfa6bcc0036279353.jpg
-  teaser: https://www.verywellfit.com/thmb/F9sf5YjPRH3UWHrse3-FoyWArws=/2120x1415/filters:fill(FFDB5D,1)/GettyImages-555000829-5b0215abfa6bcc0036279353.jpg
+  overlay_image: https://images.unsplash.com/photo-1585855822554-4d21c841708c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2167&q=80
+  teaser: https://images.unsplash.com/photo-1585855822554-4d21c841708c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
   caption: *title
 category:
   - Kondition
@@ -41,11 +41,11 @@ I dette indlæg kan du læse mere om:
 
 {% include video provider="youtube" id="YldNonx193c" %}
 
-Formålet med testen er at gennemføre 2400 meter så hurtigt som muligt.
+Formålet med testen er at gennemføre 2400 meter så hurtigt som muligt. 2400 meter testen er også den test politiet har valgt som løbetest.
 
 ## Normer for 2400 meter konditionstesten
 
-Følgende klassifikation af 2400 meter testen gælder for [mænd og kvinder i alderen 20-29 år](https://www.topendsports.com/testing/tests/2-4-km-run.htm) og er publiceret af [www.topendsports.com](https://www.topendsports.com/testing/tests/2-4-km-run.htm), som angiver at de ikke kender den oprindelige kilde. 
+Følgende klassifikation af 2400 meter testen gælder for [mænd og kvinder i alderen 20-29 år](https://www.topendsports.com/testing/tests/2-4-km-run.htm) og er publiceret af [www.topendsports.com](https://www.topendsports.com/testing/tests/2-4-km-run.htm), som angiver at de ikke kender den oprindelige kilde.
 
 | Rating    | Males       | Females     |
 |-----------|-------------|-------------|
