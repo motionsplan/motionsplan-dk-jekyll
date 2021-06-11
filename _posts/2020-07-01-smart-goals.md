@@ -1,6 +1,6 @@
 ---
 title: &title "SMART-modellen: Gør din målsætning SMART og nå nye mål!"
-seo_title: "SMART-modellen • Nå dine mål med en målsætning [Eksempel] »"
+seo_title: "SMART-modellen - Nå dine mål med en målsætning [Eksempel] »"
 permalink: /smart/
 language: da
 header:

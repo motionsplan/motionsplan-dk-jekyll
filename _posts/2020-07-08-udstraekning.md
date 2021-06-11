@@ -1,6 +1,6 @@
 ---
 title: &title "Udstrækning: Guide til udstrækningsøvelser og strækøvelser!"
-seo_title: "Udstrækning • Alt om udstrækningsøvelser og strækøvelser »"
+seo_title: "Udstrækning - Alt om udstrækningsøvelser og strækøvelser »"
 description: "Udstrækning og udspænding bruges i mange idrætsgrene ✓ Se 15+ udstrækningsøvelser for hele kroppen ✓ 3 myter om strækøvelser ✓ 3 effekter af udstrækning"
 permalink: /udstraekning-udspaending/
 redirect_from:
@@ -47,7 +47,7 @@ feature_row:
 
 Udstrækning og udspænding bliver brugt i rigtig mange idrætsgrene. Udstrækningsøvelser bliver ofte brugt for at blive smidigere, så de kaldes også ofte smidighedsøvelser. Vi kigger på, hvad der sker i kroppen, når vi strækker ud og hvilket forskellige typer udstrækning, der findes. Endelig giver vi nogle forslag til strækøvelser.
 
-Hvad er udstrækning og udspænding? **Udstrækning er en aktivitet, man kan lave i træning, hvor man bevidst forsøger at strække musklerne ved at sætte dem i en position, hvor de bliver strukket. Udstrækning kan enten foregå statisk eller dynamisk, og man kan også bruge særlige udstrækningsteknikker, hvor man udnytter sin viden om nervesystemet.** 
+Hvad er udstrækning og udspænding? **Udstrækning er en aktivitet, man kan lave i træning, hvor man bevidst forsøger at strække musklerne ved at sætte dem i en position, hvor de bliver strukket. Udstrækning kan enten foregå statisk eller dynamisk, og man kan også bruge særlige udstrækningsteknikker, hvor man udnytter sin viden om nervesystemet.**
 
 Udstrækning kan både bruges før og efter træning, og det kan bruges som træning i sig selv
 
@@ -76,7 +76,7 @@ Vi kan overordnet dele udstrækningsøvelser ind i forskellige kategorier i forh
 
 Derudover findes der en særlig metode til den statiske udstrækning, hvor du udnytter kroppens forskellige reflekser.
 
-Alle metoderne har forskellige fordele og ulemper. Som udgangspunkt er ingen af typerne bedre end de andre. Det handler om, hvad dit mål er med øvelserne. Det handler altså om at vide i hvilke situationer, øvelserne skal bruges i forhold til dine mål med øvelserne. 
+Alle metoderne har forskellige fordele og ulemper. Som udgangspunkt er ingen af typerne bedre end de andre. Det handler om, hvad dit mål er med øvelserne. Det handler altså om at vide i hvilke situationer, øvelserne skal bruges i forhold til dine mål med øvelserne.
 
 Jeg har lavet en lille oversigt over de forskellige former for udstrækning her:
 
@@ -90,17 +90,17 @@ Hvordan gør du udstrækningen mest effektiv?
 
 ## Hvordan laver man effektiv udstrækning?
 
-Hvordan du gør udstrækningen mest effektiv handler om en række faktorer. 
+Hvordan du gør udstrækningen mest effektiv handler om en række faktorer.
 
 Hvis du først lige er gået i gang med udstrækning, så vil du formentlig relativt hurtigt få resultater uanset, hvad du gør.
 
-Hvis du tidligere har lavet en del udstrækningsøvelser, så tager det formentlig længere tid, men så kan du måske finde inspiration i den lidt mere avancerede PNF-udstrækningsmetode. 
+Hvis du tidligere har lavet en del udstrækningsøvelser, så tager det formentlig længere tid, men så kan du måske finde inspiration i den lidt mere avancerede PNF-udstrækningsmetode.
 
 Men det kræver en vis indsats og vedholdenhed at få resultater. Og resultaterne kræver at du vedligeholder træningsøvelserne.
 
 I det følgende går jeg lidt mere i dybden med de forskellige typer udstrækning.
 
-## Statiske stræk - statisk udstrækning 
+## Statiske stræk - statisk udstrækning
 
 Statiske stræk er de udstrækningsøvelser du typisk oplever, når der tales om udstrækning.
 
@@ -112,14 +112,14 @@ Du kan også se nogle af mine favorit udstrækningsøvelser til statiske stræk 
 
 {% include video provider="youtube" id="YjhPbP0F2tQ" %}
 
-De statiske stræk egner sig godt til at bruge efter træningen til _cool down_ med det formål at forbedre din smidighed og fleksibilitet og komme "ned i gear" igen efter træningen. 
+De statiske stræk egner sig godt til at bruge efter træningen til _cool down_ med det formål at forbedre din smidighed og fleksibilitet og komme "ned i gear" igen efter træningen.
 
 Risikoen for at skader med statiske stræk er minimal, hvis du lytter efter din krop under underførelsen.
 
 De statiske stræk kan yderligere deles op i:
 
-- **Aktivt statisk stræk** er stræk hvor musklen strækkes ved hjælp af muskelkraft, men hvor der ikke er bevægelse med. 
-- **Passivt statisk stræk** er stræk der foretages med en hjælper, eller ved egen hjælp. Antagonisten er ikke i brug, og der er ingen bevægelse.  
+- **Aktivt statisk stræk** er stræk hvor musklen strækkes ved hjælp af muskelkraft, men hvor der ikke er bevægelse med.
+- **Passivt statisk stræk** er stræk der foretages med en hjælper, eller ved egen hjælp. Antagonisten er ikke i brug, og der er ingen bevægelse.
 
 Statiske stræk kan fx udføres med 3-5 sæt, hvor du holder strækket i 30-60 sekunder. Udstrækning er også træning, så det er godt at vænne sig til det, så de første uger starter du med færre sæt, men du kan efterhånden sætte antallet af sæt op, hvis det passer ind i din træning og dine mål.
 
@@ -131,7 +131,7 @@ Statiske stræk har den **fordel**, at du bruger lang tid i yderpositionerne, s�
 
 ## Dynamiske stræk - dynamisk udstrækning
 
-Når du laver dynamisk udstrækning bevæger du dig mellem forskellige stillinger. Dynamiske stræk er meget velegnede i løbet af opvarmningen for at gøre kroppen klar til den efterfølgende aktivitet. 
+Når du laver dynamisk udstrækning bevæger du dig mellem forskellige stillinger. Dynamiske stræk er meget velegnede i løbet af opvarmningen for at gøre kroppen klar til den efterfølgende aktivitet.
 
 Et eksempel på dette kunne være at svinge benet så højt som muligt frem og tilbage. Det vil give et stræk i baglåret og hoftebøjerne, når det benet nærmer sig yderstillingerne, hvorefter det aftager. Der er også mange dynamiske udstrækningsøvelser, hvor du bevæger dig mellem forskellige øvelser.
 
@@ -141,14 +141,14 @@ Jeg kan også godt lide at lave _mobility flows_ som dynamiske udstrækning her 
 
 {% include video provider="youtube" id="o5_14SfX9Is" %}
 
-Du kan let vælge dynamisk mobilitetsøvelser, som kan overføres til de efterfølgende aktiviteter. Dynamiske øvelser kan også øge kropstemperaturen, smøre leddene og øge pulsen, så de kan godt udgøre en lidt større del af opvarmningen til fx styrketræning, men husk at udstrækning ikke bør være det eneste, man laver i opvarmningen. 
+Du kan let vælge dynamisk mobilitetsøvelser, som kan overføres til de efterfølgende aktiviteter. Dynamiske øvelser kan også øge kropstemperaturen, smøre leddene og øge pulsen, så de kan godt udgøre en lidt større del af opvarmningen til fx styrketræning, men husk at udstrækning ikke bør være det eneste, man laver i opvarmningen.
 
-Dynamiske stræk kan give en øget risiko for skader, hvis de udføres meget hurtigt og ballistisk eller med en hjælper. 
+Dynamiske stræk kan give en øget risiko for skader, hvis de udføres meget hurtigt og ballistisk eller med en hjælper.
 
 Du kan dele de dynamiske stræk op i to underkategorier:
 
 - **Aktivt dynamisk stræk** er stræk, der foretages med muskelkraft og bevægelse, eksempelvis højt spark.
-- **Passivt dynamisk stræk** er stræk, der foretages med en hjælper, eller ved egen hjælp, hvor der stadig er bevægelse, men hvor antagonisten ikke hjælper. 
+- **Passivt dynamisk stræk** er stræk, der foretages med en hjælper, eller ved egen hjælp, hvor der stadig er bevægelse, men hvor antagonisten ikke hjælper.
 
 I dynamiske mobilitetsøvelser skal du bruge det fulde bevægelsesudslag, så du kan øge din dynamiske smidighed. Du kan **fx lave 3-5 sæt af 10-15 gentagelser**. Jeg kan godt lide at have den dynamiske udspænding som en del af mine opvarmningsøvelser eller mellem sættene i mine styrketræningsøvelser. Jeg bruger også ofte dynamiske mobilitetsøvelser som en del af cirkeltræning.
 
@@ -165,7 +165,7 @@ _Proprioceptiv neuromuskulær facilitering (PNF)_ er en udstrækningsform, som e
 ### Myotatiske refleks
 
 **Placering**: muskeltene
-**Funktion**: beskytte musklen mod overrivning. 
+**Funktion**: beskytte musklen mod overrivning.
 
 Muskeltenen registrerer ændringer i musklens længde. Derfor virker ballistisk stræk (huggebevægelser) mod hensigten, idet den myotatiske refleks vil give besked til hjernen om, at musklen skal trække sig sammen.
 
@@ -196,7 +196,7 @@ Det væsentlige i PNF-metoden er at du får aktiveret den _antimyotatiske_ refle
 Der er et par forskellige metoder, du kan udnytte:
 
 - **Hold-Relax**. Hjælperen presser kropsdelen, mens du selv forsøger at holde den i samme position i 6 sekunder. Derefter laver du efter et par sekunders pause 30 sekunders stræk.
-- **Contract-relax**. Du prøver at flytte din kropsdel, mens din hjælper presser aktivt den anden vej. 
+- **Contract-relax**. Du prøver at flytte din kropsdel, mens din hjælper presser aktivt den anden vej.
 
 Der er en varation af PNF, hvor du også spænder i antagonisten til den muskel, du gerne vil strække ud. Når du gør det, så udnytter du også den _reciprokke antagonisthæmning_. Derved har du mulighed for at komme længere ud i yderstillingerne bagefter.
 
@@ -229,7 +229,7 @@ Det er altså mest sandsynligt, at den smidighedsforbedring man oplever over tid
 
 Når man strækker ud, får man faktisk ikke længere muskler. **Tilsyneladende er en øgning i stræktolerancen altså den primære årsag til, at udstrækning virker på smidigheden.**
 
-Når du strækker ud, så stimulerer du i høj grad nervesystemet. Hjernen og nervesystemet registrerer, at musklerne bliver strakt. 
+Når du strækker ud, så stimulerer du i høj grad nervesystemet. Hjernen og nervesystemet registrerer, at musklerne bliver strakt.
 
 I musklerne sidder proprioceptive sanser, der hele tiden fortæller hjernen, hvor meget stræk musklen er under, så den kan beskytte musklerne og senerne, hvis det er nødvendigt.
 
@@ -292,7 +292,7 @@ Til gengæld ser det ud til, at udstrækning kan have positive effekter på præ
 
 ## Udstrækning øger smidigheden og bevægeligheden
 
-Udstrækning er med til at øge din funktionelle smidighed og _range of motion_. 
+Udstrækning er med til at øge din funktionelle smidighed og _range of motion_.
 
 Du kan forbedre din smidighed ved udstrækning på flere forskellige måder. Et forslag kan være at lave udstrækning to-tre gange om ugen. Du vil kunne mærke tydelige resultater allerede efter en uge, og efter 3-4 uger er der virkelig sket noget.
 
@@ -343,7 +343,7 @@ Kokkonen (1997) viste fx, at **utrænede efter et træningsprogram på 10 uger m
 
 Der er ikke noget i den videnskabelige forskning, der tyder på, at udstrækning har en positiv effekt på skadesfrekvensen hos atleter eller virker skadesnedsættende generelt (Garber et al., 2011).
 
-Der er **ikke noget i forskningen der tyder på, at udstrækning** kan forebygge skader. Hvis du gerne vil undgå skader, så er det meget vigtigere at varme op. 
+Der er **ikke noget i forskningen der tyder på, at udstrækning** kan forebygge skader. Hvis du gerne vil undgå skader, så er det meget vigtigere at varme op.
 
 Man kan imidlertid godt **forestille sig teoretisk at udstrækning kan forebygge skader**. Bojsen-Møler skriver, at elementerne i en muskel ikke er helt lige lange. Teoretisk set vil stræk stressrelaxere de strammeste muskelsenestrøg mest, og det vil i de efterfølgende aktiviteter måske fordele trækket mere jævnt over hele muskeltværsnittet. Udstrækning er også med til at øge styrken i muskel-sene-vævet, hvilket også teoretisk set kan være med til at forebygge skader.
 
@@ -365,7 +365,7 @@ Et eksempel på sådan et et kompleks kunne fx være:
 
 {% include video provider="youtube" id="5szfC2oa9tM" %}
 
-I idrætsgrene hvor det gælder om at have bedre smidighed, fx gymnastik eller visse bevægelser i styrketræning, fx squat, så kan udstrækning før øvelserne have en præstationsfremmende effekt. Det kan de, hvis det bliver lettere at komme i de rigtige positioner. 
+I idrætsgrene hvor det gælder om at have bedre smidighed, fx gymnastik eller visse bevægelser i styrketræning, fx squat, så kan udstrækning før øvelserne have en præstationsfremmende effekt. Det kan de, hvis det bliver lettere at komme i de rigtige positioner.
 
 ## Hvor ofte skal jeg strække ud?
 
@@ -373,7 +373,7 @@ Udstrækning kræver ikke samme grad af restitution som styrketræning og kondit
 
 Hvor mange gange om ugen du kan lave udstrækning afhænger naturligvis af den intensitet og volumen, du bruger i din udstrækningstræning. Formentlig vil det være mest effektivt at strække ud hver eneste dag end gemme den samme volumen til at lave al udstrækning på en dag.
 
-Hvis du presser dig selv helt ud i yderstillingerne, så skal du nok tænke lidt over træningsplanlægningen og sprede sessionerne ud over ugen. 
+Hvis du presser dig selv helt ud i yderstillingerne, så skal du nok tænke lidt over træningsplanlægningen og sprede sessionerne ud over ugen.
 
 Som med al anden træning, så sørg for at bygge træningen op. Start med at lave lidt og skru så langsomt op for frekvensen og volumen.
 
@@ -393,9 +393,9 @@ Du kan altså godt lave statiske stræk i opvarmningen også, hvis du godt kan l
 
 Når man vurderer forskningen, skal man også huske på, at studierne foretages på simple øvelser, der ikke umiddelbart kædes sammen med mobilitet og teknik i de efterfølgende øvelser.
 
-Hvis udstrækningsøvelsen gør dig i stand til at bevæge dig bedre og mere effektivt, fordi du lettere kan få kroppen i de rigtige vinkler til fx squat eller håndstand. 
+Hvis udstrækningsøvelsen gør dig i stand til at bevæge dig bedre og mere effektivt, fordi du lettere kan få kroppen i de rigtige vinkler til fx squat eller håndstand.
 
-Det vigtigste er således, at du får lavet udstrækning, som kan gøre dig i stand til at bevæge dig bedre. 
+Det vigtigste er således, at du får lavet udstrækning, som kan gøre dig i stand til at bevæge dig bedre.
 
 Træning og udstrækning skal berige dit liv. Du kan derfor lave udstrækning, når det passer dig bedst.
 
@@ -432,7 +432,7 @@ Lad os lige summere op med nogle anbefalinger i forhold til udstrækning:
 - **Frekvens**: Stræk mindst 3 gange om ugen. Helst dagligt og gerne efter fysisk aktivitet.
 - **Intensitet**: I de **statiske** stræk: Stræk langsomt musklen ud og hold udspændingen, så det ikke er ubehageligt. Det skal dog kunne mærkes.
 - **Tid**: 30 sekunders udspænding er bedre end 15 sekunder, men det tyder ikke på, at 60 sekunder er bedre end 30 sekunder (Shrier). Tilsyneladende er et stræk lige så godt som tre stræk set over længere tid (Shrier). Dog bliver musklen måleligt længere indtil 5 stræk (Magnusson). Stræk derfor mindst en gang – gerne flere gange.
-- **Tænk over**: Stræk efter fysisk aktivitet. Længerevarende udstrækning i opvarmningen kan måske mindske præstationsevnen – dog kan kortere stræk til yderstillinger formentlig være med til at gøre musklerne mere effektive. 
+- **Tænk over**: Stræk efter fysisk aktivitet. Længerevarende udstrækning i opvarmningen kan måske mindske præstationsevnen – dog kan kortere stræk til yderstillinger formentlig være med til at gøre musklerne mere effektive.
 - **Type**: Vælg det type stræk, som passer til dig mål. Hvis du gerne vil være smidigere, skal du nok vælge statisk stræk og PNF-stræk. Hvis du gerne vil løsnes op og bevæge dig bedre, så kan dynamiske stræk være passende.
 - **Tidshorisont**: Bliv ved med at strække. Ellers forsvinder effekten.
 - **Stræk er individuelt**. Forskellige mennesker kan reagere forskelligt på strækøvelser. Der er imidlertid ingen tvivl om, at du bliver smidigere af at strække ud.
@@ -441,7 +441,7 @@ Lad os lige summere op med nogle anbefalinger i forhold til udstrækning:
 
 De fleste strækker enten ud, fordi det giver dem et velvære at føle sig lidt "løsere" eller for decideret at blive smidigere.
 
-Der er mange måder at opnå begge ting. Tænk lidt over principperne om statisk og dynamisk udstrækning, som jeg har forklaret i dette indlæg. 
+Der er mange måder at opnå begge ting. Tænk lidt over principperne om statisk og dynamisk udstrækning, som jeg har forklaret i dette indlæg.
 
 Hvis du gerne vil have gode resultater med din udstrækning, så er det en god ide at lave et målrettet udstrækningsprogram.
 
@@ -475,7 +475,7 @@ Du kan også finde inspiration til udstrækning og udspænding i forskellige yog
 
 Der findes ingen sandheder om udspænding, men forskerne bliver efterhånden klogere. Man har i flere år været relativt sikker på, at man bliver mere smidig af at strække, mens det er under stadig debat hvordan udspænding påvirker præstationen.
 
-Peter Magnusson (1998) viser gennem et metastudium, at **man får en større funktionel smidighed (range of motion) ved at strække ud**, og det er nærmest uanset forsøgsprotokollernes tid, frekvens og varighed. Derimod kunne han ikke påvise, at musklernes passive vævsegenskaber ændrede sig markant. 
+Peter Magnusson (1998) viser gennem et metastudium, at **man får en større funktionel smidighed (range of motion) ved at strække ud**, og det er nærmest uanset forsøgsprotokollernes tid, frekvens og varighed. Derimod kunne han ikke påvise, at musklernes passive vævsegenskaber ændrede sig markant.
 
 Det får Peter Magnussons (1998) til at konkludere, at smertetærsklen eller tolerancen over for strækket øges, så det simpelthen gør mindre ondt, når man kommer ud i yderstillinger. Nervesystemet tilpasser sig altså denne særlige træningsform. Den øgede smidighed skyldes formentlig bindevævet og senernes øgede tolerance for strækket.
 

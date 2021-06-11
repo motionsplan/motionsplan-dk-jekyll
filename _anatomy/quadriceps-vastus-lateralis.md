@@ -1,6 +1,8 @@
 ---
 title: "Lårmusklens ydre hoved"
-permalink: /muskler/vastus-lateralis/
+permalink: /vastus-lateralis/
+redirect_from:
+  - /muskler/vastus-lateralis/
 functional_group:
   - Knæstrækkere
 joint:
@@ -13,9 +15,9 @@ tags:
   - imagemap
   - fitnessinstruktør
   - muskel
-origin: 
+origin:
   da: Øverst på forsiden af låret
-insertion: 
+insertion:
   da: Samles i en sene øverst på forsiden af skinnebenet
 function:
   da:

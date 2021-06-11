@@ -1,6 +1,6 @@
 ---
 title: &title "Armmuskler: Liste og øvelser til muskler i arme"
-seo_title: "Armmuskler • Liste og øvelser til muskler i arme »"
+seo_title: "Armmuskler - Liste og øvelser til muskler i arme »"
 description: "Komplet liste over muskler i dine arme. Forslag til træning af armmusklerne."
 permalink: /muskler/arme/
 language: da
@@ -23,7 +23,7 @@ Jeg har samlet en liste over muskler i dine arme her. Det er godt at vide, hvord
 
 ## Hvorfor træne musklerne i dine arme?
 
-Rigtig mange vil gerne have større muskler i deres arme. Der er mange måder at træne musklerne i armene på, og hvis du træner armene med en god balance, så kan du undgå skader i albuerne, håndleddene og skuldrene. 
+Rigtig mange vil gerne have større muskler i deres arme. Der er mange måder at træne musklerne i armene på, og hvis du træner armene med en god balance, så kan du undgå skader i albuerne, håndleddene og skuldrene.
 
 ## Hvilke muskler har du i dit arme?
 

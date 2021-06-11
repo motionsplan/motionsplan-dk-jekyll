@@ -1,7 +1,7 @@
 ---
 title: "Beregn din fedtprocent: Enkel udregning med højde og vægt"
 permalink: /artikel/udregning-af-fedtprocent/
-seo_title: Fedtprocent • Beregn din fedtprocent ud fra din højde og vægt »
+seo_title: Fedtprocent - Beregn din fedtprocent ud fra din højde og vægt »
 excerpt: Beregn din fedtprocent med en udregning med din højde og vægt i denne
   fedtprocent beregner for mænd og kvinder. Beregneren udregner også dit BMI.
 header:
@@ -30,7 +30,7 @@ redirect_from:
   - /udregn-fp/
 language: da
 ---
-Jeg har lavet en beregner, hvor du kan udregne din fedtprocent på baggrund af din vægt, højde, køn og alder. 
+Jeg har lavet en beregner, hvor du kan udregne din fedtprocent på baggrund af din vægt, højde, køn og alder.
 
 *[BMI]: Body Mass Index
 

@@ -1,8 +1,8 @@
 ---
 title: "Beregn din løbeøkonomi: 4 tips til træning af løbeøkonomi 🏃"
-seo_title: "Løbeøkonomi • 4 tips til at løbe mere effektivt [Beregner] »"
+seo_title: "Løbeøkonomi - 4 tips til at løbe mere effektivt [Beregner] »"
 description: "Hvad er løbeøkonomi, og hvordan beregner du din løbeøkonomi. Komplet guide til hvordan du forbedrer din løbeøkonomi - og 4 tips til din træning."
-permalink: /lobeokonomi/ 
+permalink: /lobeokonomi/
 redirect_from:
   - /artikel/eksplosiv-traening-goer-dig-hurtigere-paa-5-km/
 excerpt: "En god løbeøkonomi er evnen til at holde høj fart ved et minimalt energiforbrug. Du får en definition af løbeøkonomi, en beregner og tips til, hvordan du forbedrer og træner din løbeøkonomi."
@@ -96,9 +96,9 @@ Styrketræning og plyometrisk træning kan også være med til at forbedre væve
 Løbere med en god løbeøkonomi bruger mindre ilt end løbere, der har en dårligere løbeøkonomi, når de løber med de samme hastigheder. Når ilt er den begrænsende faktor for præstationen under løb, bliver det altså hurtigt klart, at de kan betale sig at arbejde på at forbedre sin løbeøkonomi.
 
 ## Hvordan kan vi måle løbeøkonomien?
- 
+
 Løbeøkonomi er den mængde energi det kræver at løbe ved en given (submaximal) løbehastighed og udtrykkes som en submaximal iltoptagelse (VO<sub>2</sub>) ved den fastsatte løbehastighed.
- 
+
 Måling af løbeøkonomien er komplekst og kan være unøjagtig, da målingen er bestemt af forskellige variabler, der måske ikke udelukkende relaterer sig til iltoptagelsen. En måling af løbeøkonomien kan imidlertid give et spændende indblik i den individuelle præstation, og den giver mulighed for at sammenligne med andre løbere.
 
 Løbeøkonomi (RE) er defineret som den mængde ilt, du skal bruge på at løbe 1 km pr. kg. kropsvægt. Løbeøkonomien udtrykkes som ml O<sub>2</sub>/kg/km. Vi bruger kropsvægten som variabel for at kunne sammenligne mellem løbere.
@@ -108,7 +108,7 @@ Løbeøkonomien er altså ikke den sædvanlige energiomkostning, som typisk vil 
 Løbeøkonomien ændrer sig ved forskellige hastigheder.
 
 Iltoptagelsen kan måles i en laboratorietest, hvor du ved forskellige hastigheder i et tilpasset tidsrum skal opnå _steady state_. Typisk verificerer man steady state med en blodlaktatprøve og den respiratoriske udvekslingskvotient, som er forholdet mellem kuldioxid og ilt i en udånding.
- 
+
 På formel ser løbeøkonomien altså sådan her ud:
 
 RE = VO<sub>2</sub> (ml/kg/min) / v (km/min)
@@ -120,22 +120,22 @@ Du kan taste disse værdier ind i følgende beregner og få beregnet din løbeø
 {% include calculate-running-economy.html %}
 
 ## Reliabilitet af målinger af løbeøkonomi?
- 
+
 Et formål med at teste er at kunne følge sin udvikling over tid. Hvis du ønsker at følge din løbeøkonomi, så skal du altså tage højde for de individuelle variable, der kan spille ind på testens resultat:
- 
+
 - Tilvænning til løbebåndet
 - Træningsniveauet og tidligere træningsaktivitet
 - Fodtøjet
 - Tidspunkt for testen
 - Ernæringsstatus
 - Testudstyret og omgivelser
- 
+
 Vær opmærksom på, at du kan reproducere testene, så du får en pålidelig test-retest på din måling af løbeøkonomien.
- 
+
 Hvis du laver ændringer, der påvirker din løbeøkonomi, så skal du være opmærksom på, hvor væsentlig ændringen i virkeligheden er i forhold til måleusikkerhederne.
- 
-[Saunders et. al., 2004](http://www.ncbi.nlm.nih.gov/pubmed/15514515) vurderer, at der er en minimumsgrænse på 2,2% - 2,6% før man kan karakterisere ændringen som _Smallest Worthwhile Change (SWC)_. 
- 
+
+[Saunders et. al., 2004](http://www.ncbi.nlm.nih.gov/pubmed/15514515) vurderer, at der er en minimumsgrænse på 2,2% - 2,6% før man kan karakterisere ændringen som _Smallest Worthwhile Change (SWC)_.
+
 Denne minimumsgrænse blev fundet på tværs af løbere, der løb på tre forskellige løbehastigheder. Hvis du løber på den samme relative løbehastighed, så kan du måske være tilfreds med mindre ændringer.
 
 ## Ulempen ved at bruge iltoptagelsen som mål for løbeøkonomien
@@ -170,7 +170,7 @@ Din V<sub>max</sub> er den hastighed, du kan holde i omkring 10 minutter.
 
 Hvis du løber længere distancer, kan du finde _functional threshold power (FTP)_ nogenlunde svarende til din anaerobe tærskel.
 
-Hastigheden på `FTP` har Dijk (2017) fundet ud af svarer omkring til 88% af hastigheden ved VO<sub>2</sub>-max. 
+Hastigheden på `FTP` har Dijk (2017) fundet ud af svarer omkring til 88% af hastigheden ved VO<sub>2</sub>-max.
 
 FTP = 88% * V<sub>max</sub>
 
@@ -245,7 +245,7 @@ Men det kan godt være, at du ikke har tålmodighed til at vente flere år, inde
 Allan Zachariasen og Jesper Petersen foreslår følgende [træningspas for at forbedre løbeøkonomien](https://www.loebeshop.dk/inspiration/lobeokonomi-bliv-en-hurtigere-lober).
 
 ### 2) Løb i konkurrence-tempo
- 
+
 Løbeøkonomien hænger ofte sammen med det tempo, man har trænet mest i. Derfor skal du løbe en del i det tempo, du forestiller dig at løbe konkurrence i.
 
 Hvis du har en målsætning om at løbe 5 km og 10 km, så kan lange intervaller på 1000 meter til 3000 meter være en god måde at komme op i konkurrencetempo på.
@@ -256,7 +256,7 @@ Hvis du har en målsætning om at løbe 5 km og 10 km, så kan lange intervaller
 Allan Zachariasen og Jesper Petersen foreslår, at man løber i det ønskede konkurrencetempo på intervallerne. Hvis du fx gerne vil løbe en 10 km på 50 minutter, så skal du altså løbe med 5 min/km for at forbedre løbeøkonomien i det ønskede tempo.
 
 Det er lidt anderledes end [Jack Daniels griber det an i sin løbsberegner]({% link _posts/2020-08-01-jack-daniels-loebeberegner.md %}), hvor man udregner træningstempo på baggrund af sit nuværende niveau og ikke et ønsket niveau.
- 
+
 ### 3) Sprinttræning
 
 Superintense træningspas i all-out tempo (også kaldet _sprint træning_) kan også forbedre løbeøkonomien. Det kan fx være:
@@ -267,7 +267,7 @@ Superintense træningspas i all-out tempo (også kaldet _sprint træning_) kan o
 Der skal løbes _all-out_, og Allan Zachariasen og Jesper Petersen anbefaler, at man har en del løberfaring, inden man begiver sig ud i denne træningsform.
 
 Man kan imidlertid også implementere det som bakkesprints, og man kan også løbe på 98% af sin maksimale ydeevne og på den måde mindske risikoen for skader betragteligt. Men denne træningsform kræver meget restitution.
- 
+
 ### 4) Eksplosiv spændstighedstræning og styrketræning
 
 Eksplosiv styrketræning i form af plyometrisk træning som hop, hink, bakkehop, trappetræning, trappehop, squat, lunges og lignende kan også være med til at forbedre og fastholde løbeøkonomien.

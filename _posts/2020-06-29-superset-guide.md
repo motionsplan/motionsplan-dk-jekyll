@@ -1,6 +1,6 @@
 ---
 title: "Superset: Komplet guide til supersæt"
-seo_title: "Supersæt • Guide til 7 forskellige typer superset »"
+seo_title: "Supersæt - Guide til 7 forskellige typer superset »"
 permalink: /guide-superset/
 language: da
 header:
@@ -70,7 +70,7 @@ Du laver altså først et sæt med biceps curls, hvorefter du bruger din triceps
 
 Du kan altså med supersets nå en del mere arbejde for de involverede muskler i din træning, fordi du holder mindre pause.
 
-I supersæt behøver øvelserne ikke nødvendigvis at være styrketræningsøvelser, men det kan også være [udstrækningsøvelser]({% link _posts/2020-07-08-udstraekning.md %}). [Miranda et al](https://www.tandfonline.com/doi/abs/10.1080/15438627.2014.975812) (2015) foreslår fx at stræk af antagonisten i pausen kan forbedre præstationen i de efterfølgende styrketræningssæt.  
+I supersæt behøver øvelserne ikke nødvendigvis at være styrketræningsøvelser, men det kan også være [udstrækningsøvelser]({% link _posts/2020-07-08-udstraekning.md %}). [Miranda et al](https://www.tandfonline.com/doi/abs/10.1080/15438627.2014.975812) (2015) foreslår fx at stræk af antagonisten i pausen kan forbedre præstationen i de efterfølgende styrketræningssæt.
 
 Men supersets er ikke bare agonist og antagonist. Der er mange måder at lave supersæt på.
 

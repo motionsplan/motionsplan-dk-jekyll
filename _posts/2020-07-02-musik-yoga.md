@@ -1,6 +1,6 @@
 ---
 title: "Den bedste musik til yoga, mindfulness og meditation [2021]"
-seo_title: "Yogamusik • 5 tips til musik til yoga og mindfulness 2021 »"
+seo_title: "Yogamusik - 5 tips til musik til yoga og mindfulness 2021 »"
 description: "Find god musik til yoga, meditation og mindfulness med udgangspunkt i videnskaben og din fornemmelse, så du kan lave din egen playliste med yogamusik."
 permalink: /yoga-musik/
 language: da
@@ -24,7 +24,7 @@ yogastream:
     title: "Bliv medlem af Yogastream og lær yoga"
     alt: "Musik og yoga - Bliv medlem af Yogastream og lær yoga"
 ---
- 
+
 Jeg er på udkig efter noget god musik til yoga, meditation og mindfulness. Når det ikke bare skal være stille kan jeg godt lide at have en playliste, som jeg bruger til mindful yoga og mindfulness. Jeg har derfor undersøgt, hvad den bedste yogamusik er?
 
 Hvordan vælger man musik til yoga, meditation og mindfulness? **God musik til yoga, mindfulness og meditation skal have den rigtige rytme og en rigtige stemning. Typisk passer langsommere musik med 60-100 bpm godt til yoga, selvom yoga kan få pulsen helt op til 160 bpm (beats per minute), men stemningen i musikken er også meget afgørende.**
@@ -49,7 +49,7 @@ Når musik kan påvirke retitutionsfasen i din træning, så er musik til yoga h
 
 ## 5 tips til den perfekte playliste til yoga og mindfulness
 
-Der er behøver ikke at være musik til yoga, men hvis du vælger at spille musik, så er der et par ting, det er godt at være opmærksom på. 
+Der er behøver ikke at være musik til yoga, men hvis du vælger at spille musik, så er der et par ting, det er godt at være opmærksom på.
 
 Musikken skal ikke distrahere fra det intense fokus og koncentration, der ofte forbindes med yoga. Formålet med musikken skal være at forbedre oplevelsen, når du laver yoga, mindfulness og meditation.
 
@@ -88,22 +88,22 @@ Opdater din playliste jævnligt. Mange af os har adgang til alverdens musik genn
 ## Forslag til god musik til yoga, meditation og mindfulness
 
 [Kathrine Christensen](https://www.kathrinechristensen.dk/blog/49715-musik-til-yoga-meditation), som er yogalærer i Vejle og har læst musikvidenskab, foreslår følgende musik til yoga.
- 
+
 - **Nils Frahm 'Re'**. Så smukt og enkelt
 
 {% include video provider="youtube" id="ScUP6MKmXpg" %}
 
-- Dansk gruppe **Bliss**. Her sangen **'Kissing'** 
+- Dansk gruppe **Bliss**. Her sangen **'Kissing'**
 
 {% include video provider="youtube" id="YkuvUlA7AcE" %}
 
-Desuden foreslår hun følgende: 
- 
-- **Chopin** --- Waltz No.19 in A minor. 
+Desuden foreslår hun følgende:
+
+- **Chopin** --- Waltz No.19 in A minor.
 - **Deva Premal og Manoses** version af **'Tvameva'** --- lyden fra bambusfløjten går lige i hjertet!
-- **Erik Satie's 'Gnosienne' og 'Gymnopedier'** --- smukt og enkelt- eksempel: 
+- **Erik Satie's 'Gnosienne' og 'Gymnopedier'** --- smukt og enkelt- eksempel:
 - **Soundtrack** til den skønne franske film **'De urørlige'** --- alt fra enkle klaversange af Ludovico Einaudi til Earth, Wind & Fire!
-- **Musicure** af Niels Eje, 9 gode og forskellige cd'ere. 
+- **Musicure** af Niels Eje, 9 gode og forskellige cd'ere.
 - **Mozarts klaverkoncert nr. 23** --- som er stykket som 'skyggetanten' Elisabeth fra Matador vemodigt spiller i første afsnit.
 
 ## Musik til børn og yoga

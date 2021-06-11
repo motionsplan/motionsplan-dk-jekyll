@@ -1,6 +1,6 @@
 ---
 title: &title "Rygmuskler: Liste og øvelser til muskler i ryggen"
-seo_title: "Rygmuskler • Liste og øvelser til muskler i ryggen »"
+seo_title: "Rygmuskler - Liste og øvelser til muskler i ryggen »"
 description: "Komplet liste over muskler i benet. Forslag til træning af benmusklerne."
 permalink: /muskler/ryggen/
 language: da
@@ -46,7 +46,7 @@ De overfladiske rygmuskler
 De dybe rygmuskler
 De overfladiske rygmuskler er de store rygmuskler som har funktion på skulder og skulderbæltet (kraveben og skulderblad) og er de muskler du kan se på en veltrænet ryg. De overfladiske rygmuskler består af nakkemusklen, den brede rygmuskel og skulderbladetsmuskler.
 
-Ryggens anatomi 
+Ryggens anatomi
 
 De dybe rygmuskler er muskler som ligger dybere og er dermed ikke er visuel, men som har vigtig funktion på rygsøjlen og ribbene.
 

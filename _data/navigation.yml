@@ -103,8 +103,6 @@ muscles:
   - title: "Skeletmuskler"
     url: "/muskler/"
     children:
-      - title: Adductor Hiatus
-        url: /adductor-hiatus/
       - title: Adductor Brevis
         url: /adductor-brevis/
       - title: Den lange indadfører
