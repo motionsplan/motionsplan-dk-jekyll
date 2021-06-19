@@ -143,7 +143,7 @@ For at træne det aerobe system, så kan man følge disse principper:
 - Desto lavere intensiteten er, desto højere skal volumen være.
 - Det aerobe system kan forbedres både gennem _steady state_-træning og intervaller, fx [intervalløb]({% link _posts/2020-06-15-intervallob.md %}).
 
-Eksempler på træningsmetoder kunne være:
+Eksempler på træningsmetoder til det aerobe system kunne være:
 
 ### Cardiac Output
 
@@ -166,6 +166,8 @@ Arbejdet er 8-12 sekunder med 70% af den maksimale intensitet med omkring 60 sek
 Målet er at forbedre udholdenheden af _fast twitch_-muskelfibrene. Skal ske med høj modstand, bakke eller vægt. Arbejdsperioden er omkring 5-8 sekunder. Pause indtil hjertet er faldet til omkring 130-160 slag / min. 
 
 {% include video provider="facebook" id="8weeksout/videos/10155741321175787" %}
+
+Jeg har skrevet endnu mere om [aerob træning]({% link _posts/2021-06-19-aerob-traening.md %}).
 
 ## Træning af det anaerobe system
 
@@ -201,6 +203,8 @@ Der arbejdes 30-40 sekunder med 1-4 minutters pause. Der arbejdes med 2-5 sæt o
 ### High intensity continuous training (HICT)
 
 {% include video provider="youtube" id="q8zcxiucNkY" %}
+
+Jeg har skrevet endnu mere om [anaerob træning]({% link _posts/2021-01-02-anaerob-traening.md %}).
 
 ## Programlægning af aerob og anaerob træning
 
