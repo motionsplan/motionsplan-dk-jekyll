@@ -12,10 +12,10 @@ joint:
 tags:
   - not-in-imagemap
   - muskel
-origin: 
-  da: 
-insertion: 
-  da: 
+origin:
+  da:
+insertion:
+  da:
 function:
   da:
     - short: Adduktion i hoften
@@ -23,5 +23,5 @@ function:
   en:
     - short: Adducts the leg at the hip.
       extended: ""
-image: /assets/images/anatomy/adductor-brevis.jpg
+image: https://upload.wikimedia.org/wikipedia/commons/e/e2/Anterior_Hip_Muscles_2.PNG
 ---

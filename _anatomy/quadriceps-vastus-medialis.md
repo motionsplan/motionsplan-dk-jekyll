@@ -1,6 +1,8 @@
 ---
 title: "Lårmusklens indre hoved"
-permalink: /muskler/vastus-medialis/
+permalink: /vastus-medialis/
+redirect_from:
+  - /muskler/vastus-medialis/
 functional_group:
   - Knæstrækkere
 joint:
@@ -13,9 +15,9 @@ tags:
   - imagemap
   - fitnessinstruktør
   - muskel
-origin: 
+origin:
   da: Øverst på forsiden af låret
-insertion: 
+insertion:
   da: Samles i en sene øverst på forsiden af skinnebenet
 function:
   da:

@@ -3,7 +3,7 @@ title: "Kondition: Hvad er et godt, højt kondital? [Tabel] 💗"
 permalink: /kondital/
 seo_title: "Kondition: Hvad er et godt, højt kondital? [Tabel]"
 # Kondition: Hvad er et godt, højt kondital? [Tabel] 💗
-# Better than Kondital • Hvad er godt for mænd, kvinder og børn [Tabel] »
+# Better than Kondital - Hvad er godt for mænd, kvinder og børn [Tabel] »
 # Better than Hvad er et godt kondital for mænd, kvinder og børn? [Tabel]
 description: Hvad er et godt, højt kondital? ✓ Se kondital for mænd, kvinder,
   teenagere og børn i en samlet tabel og skema ✓ Lige til at printe ud!
@@ -12,7 +12,7 @@ excerpt: Hvad er et godt, højt kondital og hvordan finder du det? Se kondital
 header:
   overlay_image: https://images.unsplash.com/photo-1571008887538-b36bb32f4571?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80
   teaser: https://images.unsplash.com/photo-1571008887538-b36bb32f4571?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80
-  caption: Kondital tabel og beregning • Hvad er et godt kondital for mænd,
+  caption: Kondital tabel og beregning - Hvad er et godt kondital for mænd,
     kvinder og børn?
 last_modified_at: 2021-04-09T04:46:02+02:00
 toc: true
@@ -61,7 +61,7 @@ At have et **højt kondital** er lig med en god kondition. Når du har et højt 
 
 Du kan se, hvad et godt kondital er i tabellerne nedenunder.
 
-Nedenstående tabeller gælder for almindelige mennesker i Skandinavien og er såkaldte normaltabeller, hvor man sammenligner sig med andre mennesker. 
+Nedenstående tabeller gælder for almindelige mennesker i Skandinavien og er såkaldte normaltabeller, hvor man sammenligner sig med andre mennesker.
 
 [Test dit kondital](/kondition-og-test/){: .btn .btn--large .btn--info }
 

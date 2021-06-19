@@ -1,6 +1,6 @@
 ---
 title: &title "Tæl skridt 2021 🚶‍♀️🚶‍♀️ Det er motiverende at tælle skridt"
-seo_title: "Tæl skridt 2021 • Vind op til 25.000 kroner 4 gange årligt »"
+seo_title: "Tæl skridt 2021 - Vind op til 25.000 kroner 4 gange årligt »"
 description: "Tæl skridt og bliv ✓ Motiveret ✓ Deltag i en konkurrence ✓ Bliv sundere ✓ Nå de 10.000 skridt ✓ Psykologiske effekter ✓ Vind op til 25.000 kroner"
 permalink: /artikel/tael-skridt/
 language: da
@@ -87,7 +87,7 @@ Tæl Skridt-kampagnerne arrangeres af Dansk Firma Idrætsforbund. Der tælles sk
 
 Du kan være med i Tæl Skridt enten som enkeltperson eller som forening. En Tæl Skrdit-kampagne varer to uger. Der er 4 Tæl Skridt-kampagner pr. år. I 14-dages perioden skal deltagerne hver dag tælle skridt (ved hjælp af skridttæller) og rapportere det opnåede skridtantal til Tæl Skridt-hjemmesiden.
 
-Hvis du laver anden motion, så kan du bruge en [omregningstabel eller Tæl Skridt-beregner](/omregn-motion-aktivitet-sport-til-skridt/)  til at omdanne anden aktivitet til skridt. 
+Hvis du laver anden motion, så kan du bruge en [omregningstabel eller Tæl Skridt-beregner](/omregn-motion-aktivitet-sport-til-skridt/)  til at omdanne anden aktivitet til skridt.
 
 Målet er, at deltagerne i gennemsnit skal gå (mindst) 10.000 skridt pr. dag i løbet af kampagneperioden (man skal naturligvis helst gå meget hele året). Hvis du selv eller holdet opfylder dette krav, så kan man deltage i en konkurrence om kontante pengebeløb.
 

@@ -1,6 +1,6 @@
 ---
 title: &title "Maksimale iltoptagelse: Alt du skal vide om at forbedre VO2 max"
-seo_title: "Maksimale iltoptagelse • Alt du skal vide om VO2 max 2021 »"
+seo_title: "Maksimale iltoptagelse - Alt du skal vide om VO2 max 2021 »"
 permalink: /maksimale-iltoptagelse-vo2max/
 redirect_from:
   - /intensitet-vo2max/
@@ -70,7 +70,7 @@ Gå til alle beregnere Sportsudøvere med verdens højeste VO2 max En af mine fa
 
 {% endcomment %}
 
-## Forbedring af VO2 max afhænger af intensiteten 
+## Forbedring af VO2 max afhænger af intensiteten
 
 Helgerud et al (2007) satte sig for at undersøge, hvilke træningsmetoder der har den mest gavnlige effekt på træning af VO<sub>2</sub>max. Helgerud et al (2007) undersøgte både kortvarig, intens intervaltræning og længerevarende moderat træning.
 
@@ -101,13 +101,13 @@ Derudover viser studiet, at man ikke kan kompensere for en reduceret arbejdsinte
 
 ## Usikkerheder i studiet omkring forbedring af den maksimale iltoptagelse
 
-15x15 intervallerne er i udgangspunkt samme intensitet målt med pulsen som 4x4 intervallerne, men reelt er intensiteten betydeligt højere. 
+15x15 intervallerne er i udgangspunkt samme intensitet målt med pulsen som 4x4 intervallerne, men reelt er intensiteten betydeligt højere.
 
-I **15x15 intervallerne** er der et betydeligt andel af CrP/ATP forbrug i starten af hvert interval, og pulsen falder reelt aldrig ned på et lavt niveau mellem intervallerne, fordi intervallerne i høj grad også har en anaerobt komponent. 
+I **15x15 intervallerne** er der et betydeligt andel af CrP/ATP forbrug i starten af hvert interval, og pulsen falder reelt aldrig ned på et lavt niveau mellem intervallerne, fordi intervallerne i høj grad også har en anaerobt komponent.
 
 I **4x4 intervallerne** falder pulsen betydeligt i pauserne. Reelt bliver den høje belastning i 15x15 altså 24 minutter (selvom arbejdstiden kun er 12 minutter) mod 16 minutter i 4x4 intervallerne.
 
-Måske er samlet totalt arbejde ikke den rette måde at normalisere træningsgrupperne, da intervaltræningen vil stille betydeligt højere krav til restitition undervejs. 
+Måske er samlet totalt arbejde ikke den rette måde at normalisere træningsgrupperne, da intervaltræningen vil stille betydeligt højere krav til restitition undervejs.
 
 Ydermere når Scribbans et al (2016) i en metaanalyse af en række studier en lidt anden konklusion, som vi lige skal have kigget lidt mere på for at kunne give et godt bud på dette emne.
 

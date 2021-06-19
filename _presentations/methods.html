@@ -3,8 +3,58 @@ layout: webslides
 title: Træningsmetoder
 ---
 
-{% assign posts = site.methods %}
 
+<section class="bg-black aligncenter">
+  <!-- Overlay/Opacity: [class*="bg-"] > .background.dark or .light -->
+  <span class="background" style="background-image:url('https://source.unsplash.com/CFrOp9YBhkw/')"></span>
+  <div class="wrap">
+    <h1 class="text-landing text-shadow"><strong>{{ page.title }}</strong></h1>
+<p class="text-landing text-shadow text-intro aligncenter">Læs mere på motionsplan.dk</p>
+<figure>
+  <img class="aligncenter" src="https://chart.googleapis.com/chart?cht=qr&chs=250x250&chl={{ page.url | absolute_url }}?utm_source=webslides&utm_medium=qrcode&utm_campaign=website" alt="{{ m.title }}">
+</figure>
+<h1 class="aligncenter">
+  <a href="https://www.buymeacoffee.com/lsolesen/">
+  <svg class="fa-coffee">
+    <use xlink:href="#fa-coffee"></use>
+  </svg>
+  </a>
+</h1>
+  </div>
+  <footer>
+    <div class="wrap">
+      <p>
+        <span class="alignleft"> <a href="#" title="{{ site.name }}">
+        <img src="{{ 'android-chrome-192x192.png' | relative_url }}" alt="{{ site.name }}">
+        </a></span>
+        {% comment %}
+        <span class="alignright">
+        <a href="#" class="badge-ios" title="iOS App">iOS app</a>
+        <a href="#" class="badge-android" title="Android app">Android app</a>
+        </span>
+        {% endcomment %}
+      </p>
+    </div>
+  </footer>
+</section>
+{% assign posts = site.methods %}
+{% comment %}
+<section>
+  <div class="wrap">
+    <div class="grid vertical-align">
+      <ul class="flexblock blink border">
+      {% for m in posts %}
+        <li>
+          <h3>{{ m.title }}</h3>
+          RPE: {{ m.rpe }}
+          Frequency: {{ m.frequency }}
+        </li>
+      {% endfor %}
+    </ul>
+    </div>
+  </div>
+</section>
+{% endcomment %}
 {% for m in posts %}
 <section>
   <div class="wrap">
@@ -12,7 +62,7 @@ title: Træningsmetoder
       <div class="content-left">
         <h2>{{ m.title }}</h2>
         {% if m.excerpt %}
-        <p class="text-intro">{{ m.excerpt }}</p>
+        <p class="text-intro">{{ m.excerpt | markdownify }}</p>
         {% endif%}
       </div>
       <div class="content-right">
@@ -57,8 +107,8 @@ title: Træningsmetoder
           </li>
           <li>
             <div>
-              <svg class="fa-heartbeat">
-                <use xlink:href="#fa-heartbeat"></use>
+              <svg class="fa-undo-alt">
+                <use xlink:href="#fa-undo-alt"></use>
               </svg>
               <h2>Reps</h2>
               {{ m.reps }}
@@ -80,7 +130,7 @@ title: Træningsmetoder
     <div class="grid vertical-align">
       <div class="content-left">
         <h2>{{ m.title }}</h2>
-        <p class="text-intro">{{ m.exercises }}</p>
+        <p class="text-intro">{{ m.exercises | markdownify }}</p>
       </div>
       <div class="content-right">
         <div class="embed">
@@ -100,8 +150,8 @@ title: Træningsmetoder
       </li>
       <li>
         <div>
-          <svg class="fa-heartbeat">
-            <use xlink:href="#fa-heartbeat"></use>
+          <svg class="fa-clock-o">
+            <use xlink:href="#fa-clock-o"></use>
           </svg>
           <h2>Tid</h2>
           <p>{{ m.time }}</p>
@@ -109,8 +159,8 @@ title: Træningsmetoder
       </li>
       <li>
         <div>
-          <svg class="fa-heartbeat">
-            <use xlink:href="#fa-heartbeat"></use>
+          <svg class="fa-undo-alt">
+            <use xlink:href="#fa-undo-alt"></use>
           </svg>
           <h2>Reps</h2>
           {{ m.reps }}

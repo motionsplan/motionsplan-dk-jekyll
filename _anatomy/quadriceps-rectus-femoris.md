@@ -1,6 +1,8 @@
 ---
 title: "Lårmusklens lige hoved"
-permalink: /muskler/rectus-femoris/
+permalink: /rectus-femoris/
+redirect_from:
+  - /muskler/rectus-femoris/
 functional_group:
   - Knæstrækkere
   - Hoftebøjere
@@ -15,9 +17,9 @@ tags:
   - imagemap
   - fitnessinstruktør
   - muskel
-origin: 
+origin:
   da: Fremspring på hoftebenet
-insertion: 
+insertion:
   da: Samles i en sene øverst på forsiden af skinnebenet
 function:
   da:

@@ -1,6 +1,6 @@
 ---
 title: &title "Løbeprogram for begyndere: Kom i gang med løbetræningen"
-seo_title: "Løbeprogram for nybegyndere • Løbetræning for begyndere »"
+seo_title: "Løbeprogram for nybegyndere - Løbetræning for begyndere »"
 description: "Jeg har lavet et løbeprogram til dig, der er nybegynder og ikke er vant til at løbe. Løbeprogrammet er til begyndere, der gerne vil i gang med løbetræning."
 permalink: /loebeprogram-begyndere/
 language: da
@@ -36,7 +36,7 @@ Alt for mange nybegyndere starter for hurtigt ud med løbetræningen, fordi de b
 
 Men det er ikke altid løbeprogrammets skyld. Mange begyndere er også utålmodige, når de vil i gang med at løbe. Derfor begynder de at løbe mere end programmet siger eller løbe hurtigere på de enkelte løbetræninger.
 
-**Derfor er dette løbeprogram til nybegyndere baseret på minutter og ikke kilometer.** Som begynder handler det om at respektere kroppen. 
+**Derfor er dette løbeprogram til nybegyndere baseret på minutter og ikke kilometer.** Som begynder handler det om at respektere kroppen.
 
 Derfor starter dette løbeprogram for nybegyndere med en del gang, så du vænner kroppen til den noget større belastning fra løb.
 

@@ -1,6 +1,6 @@
 ---
 title: &title "Hvor mange kalorier forbrænder man ved at gå? 🚶🚶‍♀️"
-seo_title: "Forbrænding gang • Så mange kalorier forbrænder du ved at gå »"
+seo_title: "Forbrænding gang - Så mange kalorier forbrænder du ved at gå »"
 description: "✓️ Hvor meget er din forbrænding ved at gå ✓️ Hvor meget forbrænder du ved at gå 10.000 skridt? Hvor meget forbrænder gang af energi og kalorier?"
 permalink: /forbraending-ved-gaa-gang/
 last_modified_at: 2021-05-11T09:41:09Z
@@ -20,7 +20,7 @@ tags:
 
 Jeg har kigget lidt på, hvor mange kalorier man forbrænder ved at gå? Så hvis du er interesseret i at vide, hvad din kalorieforbrænding og energiforbrug er ved gang, så har du her den ultimative guide.
 
-Når du søger rundt omkring på nettet, så står der forskellige måder at udregne, hvad man forbrænder ved at gå. En meget udbredt tommelfingerregel, som [gentages](https://vorespuls.dk/gang/artikler/gaa-eller-loeb-du-forbraender-lige-meget) flere [steder](https://www.alt.dk/sundhed/forbraending-kalorier-gaa-eller-lob) af Bente Klarlund Pedersen og Henrik Duer, er at du uanset om du <q>går, lunter eller spurter, så forbrænder du det antal kalorier, som du vejer i kilo per kilometer</q>. 
+Når du søger rundt omkring på nettet, så står der forskellige måder at udregne, hvad man forbrænder ved at gå. En meget udbredt tommelfingerregel, som [gentages](https://vorespuls.dk/gang/artikler/gaa-eller-loeb-du-forbraender-lige-meget) flere [steder](https://www.alt.dk/sundhed/forbraending-kalorier-gaa-eller-lob) af Bente Klarlund Pedersen og Henrik Duer, er at du uanset om du <q>går, lunter eller spurter, så forbrænder du det antal kalorier, som du vejer i kilo per kilometer</q>.
 
 Selvom tommelfingerreglen måske kan give et groft estimat på din forbrænding, så mener jeg ikke det er et retvisende billede. Din forbrænding ved gang er mindre end ved løb! Det har jeg skrevet mere om i [Du forbrænder mere ved at løbe end ved at gå]({% link _posts/2020-06-01-loeb-mere-energi-gang.md %}).
 
@@ -34,7 +34,7 @@ Du kan altså få svar på følgende spørgsmål i dette indlæg:
 
 ## Kalorieforbrænding ved gang
 
-En tommelfingerregel til kalorieforbrug ved gang er altså, at du forbrænder omkring din vægt i kalorier pr. kilometer. 
+En tommelfingerregel til kalorieforbrug ved gang er altså, at du forbrænder omkring din vægt i kalorier pr. kilometer.
 
 Du bruger omkring 3-6 gange dit energiforbrug i hvile på at gå, me energiforbruget ved at gå kan variere fra 2-9,5 alt efter intensiteten og typen af gang. For at få din kalorieforbrænding ved gang skal du gange din kropsvægt med tiden og din anstrengelse under din vandretur eller gåtur.
 
@@ -44,11 +44,11 @@ Du bruger omkring 3-6 gange dit energiforbrug i hvile på at gå, me energiforbr
 
 ## Udregning af forbrænding af kalorier ved gang kræver MET
 
-Der er lidt forskellige måder at udregne, hvor mange kalorier du forbruger ved at gå. 
+Der er lidt forskellige måder at udregne, hvor mange kalorier du forbruger ved at gå.
 
 [Hall et al (2004)](https://www.researchgate.net/publication/8157727_Energy_Expenditure_of_Walking_and_Running_Comparison_with_Prediction_Equations) undersøgte i deres studium, hvor pålidelige forskellige formler til at estimere energiforbruget ved gang.
 
-*[ACSM]: The American College of Sports Medicine 
+*[ACSM]: The American College of Sports Medicine
 
 Hall et al (2004) fandt, at det var pålideligt at forudsige energiforbruget ved gang med formler fra ACSM og Pandolfs formel, når man går lige ud uden oppakning.
 
@@ -62,7 +62,7 @@ Energiforbruget ved aktivitet afhænger af forskellige faktorer:
 
 - **Intensiteten og hastigheden**. Desto hårdere du arbejder, desto flere kalorier vil du forbrænde i minuttet. Det gør sig også gældende, når du skal kigge på din forbrænding ved gang. Jo hurtigere du går, jo mere energi vil du bruge. På et tidspunkt kan du gå så hurtigt, at du næsten bruger mere energi på at gå end på at løbe.
 - **Hældningen**. Du forbrænder mere, hvis du går op ad bakke, da du skal aktivere mere muskelmasse for at overkomme tyngdekraften.
- 
+
 I de følgende beregninger for gang kigger vi hovedsageligt på hastigheden og hældningen, men det er en relativt grov generalisering.
 
 {% include figure image_path="https://images.unsplash.com/photo-1607326005396-d82f932c55bc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" caption="Når du kigger på forbrænding af kalorier i forhold til gang, så betyder både din hastighed, landskabet og intensiteten noget." %}
@@ -79,7 +79,7 @@ Hvis du vil have en mere præcis vurdering af din intensitet under gang, så kan
 
 Husk at udregningerne og tommelfingerreglerne bare er estimater - altså gennemsnitlige gæt på, hvor mange kalorier der forbrændes ved gang.
 
-Estimaterne er baseret på MET. Forskere har fundet, at en person forbrænder omkring 5 kalorier pr. liter ilt de forbrænder. 
+Estimaterne er baseret på MET. Forskere har fundet, at en person forbrænder omkring 5 kalorier pr. liter ilt de forbrænder.
 
 Når du går med højere intensitet, så stiger iltforbruget. Derfor skal vi både bruge intensiteten og vægten til at udregne, hvor meget en person forbrænder.
 
@@ -97,7 +97,7 @@ Ved korte, intense sprints over lidt længere tidsrum bruger din krop energi fra
 
 Ved længerevarende intense gåture får kroppen ATP ved at forbrænde både kulhydrat og fedt. Jo højere intensitet du går med, jo højere vil andelen af kulhydratforbrændingen være. Men den samlede forbrænding er også højere.
 
-En tommelfingerregel er, at jo hurtigere du går og jo stejlere bakkerne er, jo mere kraft skal du sætte af med i de enkelte skridt. Derfor er den aktiverede muskelmasse større, og desto mere energi bruger du. 
+En tommelfingerregel er, at jo hurtigere du går og jo stejlere bakkerne er, jo mere kraft skal du sætte af med i de enkelte skridt. Derfor er den aktiverede muskelmasse større, og desto mere energi bruger du.
 
 Du kan tjekke vores beregner længere ned på siden for at få et bud på, hvor mange kalorier du forbrænder, når du går.
 
@@ -120,7 +120,7 @@ Jeg vejer 81 kilo. Hvis jeg bruger [beregneren for kalorieforbruget ved forskell
 
 Helt som ventet så bruger man flere kalorier på at gå 5,6 km/t end 4 km/t, og når jeg omregner til kcal/kg/km så koster mine hurtigere kilometer også mere i energiregnskabet pr. km. Det er ganske vist ikke så meget, men dog lidt.
 
-Derfor er det altså ikke nok bare at lave en "tilfældig" tommelfingerregel på energiforbruget pr. kilometer. 
+Derfor er det altså ikke nok bare at lave en "tilfældig" tommelfingerregel på energiforbruget pr. kilometer.
 
 **For at udregne hvor mange kalorier, du bruger på din gåtur, så har du brug for at kende intensiteten og varigheden af aktiviteten.**
 
@@ -138,7 +138,7 @@ Gang er ikke bedre en andre aktiviteter til at forbrænde mange kalorier, men fo
 
 ## Hvordan måler man fedtforbrænding ved gang?
 
-Hvor meget du forbrænder ved en given aktivitet hænger nøje sammen med varigheden og intensiteten. 
+Hvor meget du forbrænder ved en given aktivitet hænger nøje sammen med varigheden og intensiteten.
 
 Om det er bedst at lave [kontinuerlig træning eller intervaltræning](/artikel/er-kontinuerlig-traening-eller-intervaltraening-bedst-for-fedtforbraendningen) afhænger bl.a. også af tidsforbruget i træningen. Du kan faktisk også organisere din gåtur som intervaltræning for at sætte forbrændingen op. Du kan naturligvis ikke forbrænde lige så meget, som du kan ved fx løb eller cykling, hvor du kan køre med meget højere intensitet.
 
@@ -173,7 +173,7 @@ Et par eksempler på energiforbruget for en person, der vejer 70 kg og som går 
 | 3 km ~ 45 min    |         182 kcal |        5.468 kcal  |
 | 4 km ~ 60 min    |         243 kcal |        7.290 kcal  |
 
-For at sætte tingene lidt i perspektiv, så har du altså brug for en del kalorier for at gå en tur. 
+For at sætte tingene lidt i perspektiv, så har du altså brug for en del kalorier for at gå en tur.
 
 - 1 æble = 51 kalorier
 - 100 g juice er der 54 kalorier

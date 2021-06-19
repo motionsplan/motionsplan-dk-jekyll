@@ -1,6 +1,6 @@
 ---
 title: &title "Pause fra konditionstræning: Hvor hurtigt mister man sin form og kondition?"
-seo_title: "Pause fra træning • Så hurtigt mister du form og kondition »"
+seo_title: "Pause fra træning - Så hurtigt mister du form og kondition »"
 permalink: /hvor-hurtigt-mister-form-kondition/
 redirect_from:
   - /kondital-hvor-hurtigt/
@@ -46,7 +46,7 @@ Hatle (2014) undersøgte effekten af træning med høj intensitet på konditalle
 
 {% include figure image_path="/assets/images/blog/hatle2014.png" caption="Effekten på konditionen efter 3 (HF) eller 8 (MF) ugers træning og 9 ugers detræning (Hatle 2014)" alt="effekt på kondition ved detræning" %}
 
-Det interessante i figuren er at effekten af stigningen i VO<sub>2max</sub> er forsinket for højfrekvensgruppen, mens den for gruppen med den moderate træningsmængde topper efter de 8 uger. 
+Det interessante i figuren er at effekten af stigningen i VO<sub>2max</sub> er forsinket for højfrekvensgruppen, mens den for gruppen med den moderate træningsmængde topper efter de 8 uger.
 
 Men studiet er også interessant, fordi det viser, at konditallet for gruppen med moderat frekvens stiger stødt hver eneste uge i de 8 uger. For højkrevensgruppen er der et dyk, men der er også en tendens til, at der er ugentlige tilpasninger i konditallet.
 
@@ -62,7 +62,7 @@ Hvis du står over for at skulle på ferie i nogle uger, hvor du ikke kan få tr
 
 ## Hvor hurtigt bliver min form dårligere?
 
-Jeg oplever selv, at fornemmelsen af hvor let det er at løbe kan være forskellig efter små pauser. Sommetider kan jeg opleve efter en minipause, at det er lettere at løbe, mens jeg andre gange kan opleve at det er hårdere at løbe. 
+Jeg oplever selv, at fornemmelsen af hvor let det er at løbe kan være forskellig efter små pauser. Sommetider kan jeg opleve efter en minipause, at det er lettere at løbe, mens jeg andre gange kan opleve at det er hårdere at løbe.
 
 Det er to oplevelser, der trækker i hver sin retning af, hvad der sker med konditionen på kort tid.
 

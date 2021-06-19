@@ -1,6 +1,6 @@
 ---
 title: "Motion-online.dk virker ikke. Find andre beregnere her!"
-seo_title: Motion-online.dk virker ikke • Find 30+ beregnere her »
+seo_title: Motion-online.dk virker ikke - Find 30+ beregnere her »
 excerpt: "Motion-online.dk eller bare Motion Online var tidligere det bedste og mest kendte træningssite i Danmark. Du kan finde opdaterede beregnere her!"
 permalink: /motion-online/
 language: da
@@ -43,7 +43,7 @@ Morten Zacho har ikke længere indflydelse på driften og indholdet på siden. D
 
 I gennem mange år har Morten Zacho opbygget et af de største danske sites om træning. Et site som mange bare har referereret til som Motion Online eller forkortet som MOL.
 
-Motion-online.dk **var** fyldt med interessante og velskrevne artikler baseret på videnskab omkring sundhed, kost og træning. Desuden fandtes på Motion Online også et af de største træningsfællesskaber herhjemme i form af MOLs online forum. 
+Motion-online.dk **var** fyldt med interessante og velskrevne artikler baseret på videnskab omkring sundhed, kost og træning. Desuden fandtes på Motion Online også et af de største træningsfællesskaber herhjemme i form af MOLs online forum.
 
 Det skal Morten Zacho virkelig have et stort cadeau for.
 
@@ -68,13 +68,13 @@ Så fik vi samlet det meste fejlinformation på et sted.
 
 Jeg klikkede hurtigt **afmeld på nyhedsbrevet fra Motion Online**.
 
-Det er ærgerligt, at det fantastiske **Motion Online på en dag blev forvandlet til en affiliate pengemaskine**, hvor rigtig meget af indholdetmistede værdi. Det mest ærgerlige er, at det gamle indhold også blev ubrugeligt. 
+Det er ærgerligt, at det fantastiske **Motion Online på en dag blev forvandlet til en affiliate pengemaskine**, hvor rigtig meget af indholdetmistede værdi. Det mest ærgerlige er, at det gamle indhold også blev ubrugeligt.
 
 **Pludselig virkede beregnerne ikke** og **billederne fandtes ikke længere i artiklerne**.
 
 Det har taget mange år at bygge Motion Online op, men kun kort tid at pille det ned igen.
 
-Heldigvis kan du bruge Motionsplan.dk til at lave de fleste beregnere og inspirationen til at lave et brugbart træningssite er intakt på Motionsplan.dk. 
+Heldigvis kan du bruge Motionsplan.dk til at lave de fleste beregnere og inspirationen til at lave et brugbart træningssite er intakt på Motionsplan.dk.
 
 ## Motion Onlines beregnere virker ikke
 

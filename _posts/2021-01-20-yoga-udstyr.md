@@ -1,6 +1,6 @@
 ---
 title: &title "Yogaudstyr 🙏: Guide til det rigtige udstyr til yoga 🧘🧘‍♂️"
-seo_title: "Yogaudstyr • Få 8 forslag til at gøre yoga mere behageligt »"
+seo_title: "Yogaudstyr - Få 8 forslag til at gøre yoga mere behageligt »"
 permalink: /guide/yoga-udstyr/
 language: da
 header:
@@ -55,7 +55,7 @@ gallery_wallsticker:
       vendor: "Wallstickerland"
       category: "2334"
       price: 199.00
-      old_price: 
+      old_price:
       discounted: false
       id: "523"
 ---
@@ -75,7 +75,7 @@ Du får svaret på:
 
 Når du dyrker yoga, så skal du ikke nødvendigvis investere i en masse dyrt yogaudstyr. Men noget udstyr kan gøre din yogapraksis til en større fornøjelse, så du har mulighed for at slappe af i øvelserne og udføre de enkelte [yogaøvelser]({% link _posts/2020-08-30-yogastillinger.md %}) mere hensigtsmæssigt, så de passer til dit nuværende niveau.
 
-Hvis du dyrker yoga i et center, så kan du som regel låne yogaudstyr. Jeg foretrækker dog at bruge yogamåtter og yogatæpper, som andre ikke har svedt på. Når du har dit eget yogaudstyr, så kan du jo også bruge udstyret derhjemme. 
+Hvis du dyrker yoga i et center, så kan du som regel låne yogaudstyr. Jeg foretrækker dog at bruge yogamåtter og yogatæpper, som andre ikke har svedt på. Når du har dit eget yogaudstyr, så kan du jo også bruge udstyret derhjemme.
 
 ## Yogamåtte
 
@@ -123,7 +123,7 @@ Der findes både yogablokke i hård skum, bambus og kork, og en yogablok koster 
 
 Derfor kan øjenpuder til yoga være gode, når du skal lave liggende afspændinger og meditationer.
 
-Når du skal købe en øjenpude, så vælg en version hvor der er både en inderpose og en yderpose. Dermed har du den fordel, at det er let at vaske den yderste pose. 
+Når du skal købe en øjenpude, så vælg en version hvor der er både en inderpose og en yderpose. Dermed har du den fordel, at det er let at vaske den yderste pose.
 
 Du kan lavendelolie til øjenpuden, hvilket nogle oplever giver en endnu mere afslappende effekt.
 
@@ -135,7 +135,7 @@ Yoga dyrkes bedst uden sko. Det betyder, at du kan have god kontakt med underlag
 
 Mange fryser imidlertid om tæerne, når de ikke har sko på. Derfor er der mange, der køber et par skridsikre yogastrømper. Så kan du både stå fast, holde varmen og instruktøren kan se, hvad du laver i de forskellige bevægelser.
 
-Første gang du skal have yogasokker på, kan det være lidt mærkeligt. De bedste yogasokker har nemlig tæer, fordi det er vigtigt i yoga at kunne pege tæerne i alle retninger. 
+Første gang du skal have yogasokker på, kan det være lidt mærkeligt. De bedste yogasokker har nemlig tæer, fordi det er vigtigt i yoga at kunne pege tæerne i alle retninger.
 
 Fordelen ved yogasokker er, at der er anti-slip dutter på undersiden af sokkerne. Sokkerne kan også være et antibakterielt og hygiejnisk alternativ til at have bare tæer på din yogamåtte. Samtidig beskytter sokkerne mod vabler mellem tæerne, hvis du har tendens til det.
 
@@ -157,7 +157,7 @@ Du kan bruge et yogatæppe som et ekstra blødt underlag oven på din yogamåtte
 
 Du kan også folde det sammen, så det kan hjælpe dig med at komme højere op i siddende stillinger, så du bedre kan udføre yogaøvelsen, eller du kan rulle yogatæppet sammen, så du kan få lidt støtte i nakken, når du ligger ned på yogamåtten. Jeg har også set flere, der bruger det til at aflaste under knæene, hvis du synes det er ubehageligt at sidde bare på yogamåtten. Den intelligentekrop.dk har et ret fedt [yogatæppe lavet af genbrugsfibre fra uld\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/uld-yogataeppe-genbrugsfibre-manduka){:rel="nofollow"}
 
-Et yogatæppe skal ikke ikke være for tykt eller for varmt. Du kan egentlig bruge alle slags tæpper som et yogatæppe, så længe du synes det er et dejligt tæppe. 
+Et yogatæppe skal ikke ikke være for tykt eller for varmt. Du kan egentlig bruge alle slags tæpper som et yogatæppe, så længe du synes det er et dejligt tæppe.
 
 Tjek udvalget af yogatæpper fra [Den Intelligente Krop\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/udstyr/traeningsudstyr/handklaeder-og-taepper){: rel="nofollow" }.
 
@@ -189,7 +189,7 @@ Det kan også være inspirerende at pynte dit yogarum op med wallstickers og pla
 
 ## Konklusion om yogaudstyr
 
-Du kan komme i gang med yoga uden udstyr, men jeg vil helt klar anbefale i hvert fald en yogamåtte, og du vil formentlig også blive glad for at hav enogle yogablokke. 
+Du kan komme i gang med yoga uden udstyr, men jeg vil helt klar anbefale i hvert fald en yogamåtte, og du vil formentlig også blive glad for at hav enogle yogablokke.
 
 Det tøj du har på, når du dyrker yoga skal naturligvis være rigtig dejligt at bevæge sig i, og det skal ikke hæmme dine bevægelser. Men du behøver ikke investere i nyt tøj for at gå i gang med yoga. Vi har også skrevet en guide til [De Fem Tibetanere]({% link _posts/2009-07-01-de-fem-tibetanere.md %}) og [Solhilsen A og B]({% link _posts/2020-07-25-solhilsen.md %}) - eller [musik til yoga, mindfulness og meditation]({% link _posts/2020-07-02-musik-yoga.md %}). Jeg kan også læse mere om [mindfulness meditation]({% link _posts/2010-10-05-mindfullness-meditation.md %}).
 

@@ -1,6 +1,6 @@
 ---
 title: "8 ting du skal vide om funktionel træning og styrketræning!"
-seo_title: "Funktionel træning og styrketræning • 8 ting du bør vide »"
+seo_title: "Funktionel træning og styrketræning - 8 ting du bør vide »"
 excerpt: "Funktionel styrketræning er træning, som forbereder kroppen til en given funktion i hverdagen eller en idræt. Her er alt du behøver at vide."
 permalink: /artikel/funktionel-styrketraening/
 language: da
@@ -81,7 +81,7 @@ Får du trænet alle de helt basale menneskelige bevægelser? Klatrer du? Kravle
 
 ### 1. Hvad er funktionel træning?
 
-Funktionel træning stammer fra fysioterapien og bygger på filosofien, at kroppen er skabt til at bevæge sig. Funtionel træning går derfor ud på at forbedre de naturlige bevægelsesmønstre. Ofte introducerer man forskellige redskaber som fx kettlebells, reb og sandsække og kalder det funktionel træning. Men redskaberne gør ikke træningen funktionel. Det gør bevægelserne, du laver med redskaberne. 
+Funktionel træning stammer fra fysioterapien og bygger på filosofien, at kroppen er skabt til at bevæge sig. Funtionel træning går derfor ud på at forbedre de naturlige bevægelsesmønstre. Ofte introducerer man forskellige redskaber som fx kettlebells, reb og sandsække og kalder det funktionel træning. Men redskaberne gør ikke træningen funktionel. Det gør bevægelserne, du laver med redskaberne.
 
 ### 2. Hvordan adskiller funktionel styrketræning sig fra almindelig styrketræning?
 
@@ -95,7 +95,7 @@ Målet med funktionel træning er at gøre hele din krop velfungerende og stærk
 
 ### 4. Skal jeg være bange for at få skader af funktionel træning?
 
-Når du vælger mere funktionelle øvelser til din træning, så gælder de samme træningsprincipper som al mulig anden træning. Du skal tænke over progressionen i din træning. Belastningen og intensiteten skal altså bygges langsomt op, og det skal teknikken til træningen også. 
+Når du vælger mere funktionelle øvelser til din træning, så gælder de samme træningsprincipper som al mulig anden træning. Du skal tænke over progressionen i din træning. Belastningen og intensiteten skal altså bygges langsomt op, og det skal teknikken til træningen også.
 
 ### 5. Hvordan kommer jeg i gang med funktionel træning?
 
@@ -107,7 +107,7 @@ Udendørs træning kan lade sig inspirere af _parkour_. Hvis du begynder at kigg
 
 ### 7. Hvad betyder leg for funktionel træning?
 
-Du behøver som sådan ikke at lege for at lave funktionel træning. Fordelen ved at lege er, at du udfordrer kroppen på måder, som ikke er defineret af fastlåste bevægelsesmønstre. Hvis du fx laver en ellers ret funktionel squat, så bevæger du dig meget i et bevægelsesplan. Når du introducerer leg, så kommer der automatisk mere variation i dine bevægelser. 
+Du behøver som sådan ikke at lege for at lave funktionel træning. Fordelen ved at lege er, at du udfordrer kroppen på måder, som ikke er defineret af fastlåste bevægelsesmønstre. Hvis du fx laver en ellers ret funktionel squat, så bevæger du dig meget i et bevægelsesplan. Når du introducerer leg, så kommer der automatisk mere variation i dine bevægelser.
 
 ### 8. Hvordan kan jeg ellers variere min træning?
 
@@ -115,7 +115,7 @@ Funktionel træning kan laves overalt. Du kan bruge forskellige redskaber. Der e
 
 ## Planlægning af funktionel træning
 
-Funktionel træning skal følge de almindelige retningslinjer for god træningsplanlægning. Derfor skal du tilrettelægge med højde for at lave **progressivt overload** i forhold til belastning og sværhedsgrad ved træningen. 
+Funktionel træning skal følge de almindelige retningslinjer for god træningsplanlægning. Derfor skal du tilrettelægge med højde for at lave **progressivt overload** i forhold til belastning og sværhedsgrad ved træningen.
 
 Du skal altså tage hensyn til din nuværende form, og hvis du står for holdtræning i funktionel træning, så sørg for at deltagerne kan vælge forskellige løsningsmuligheder i træningen.
 

@@ -1,6 +1,6 @@
 ---
 title: "De fem tibetanere 🧘: Komplet guide til de 5 yoga øvelser"
-seo_title: "De fem tibetanere • Komplet guide til de 5 yoga øvelser »"
+seo_title: "De fem tibetanere - Komplet guide til de 5 yoga øvelser »"
 description: "Lær de 5 tibetanere med video og billeder ✓ Yogaøvelser der kan laves på 20 minutter ✓ Giver øvelserne evig ungdom? ✓ Komplet guide ✓ Print øvelserne ud!"
 permalink: /artikel/de-fem-tibetanere/
 language: da
@@ -225,7 +225,7 @@ Hvis denne øvelse er for hård, kan du med fordele bøje dine ben i stedet for 
 
 {% include figure image_path="https://post.healthline.com/wp-content/uploads/2019/09/158078-Everything_You_Need_to_Know_About_the_5_Tibetan_Rites-1296x728-Body_Image-Rite_03-1296x728.jpg" caption="Rite 3" alt="Rite 3 for de fem tibetanere" %}
 
-Den tredje rite er forholdsvis simpel. Sæt dig på knæene, så kun dine tær og knæ rør underlaget. Placer herefter dine hænder på baglåret. Træk nu hagen mod brystet ved at bøje hovedet fremover. Bøj derefter hoved bagover og svaj i din rygrad. Kør efterfølgende op til standardpositionen. 
+Den tredje rite er forholdsvis simpel. Sæt dig på knæene, så kun dine tær og knæ rør underlaget. Placer herefter dine hænder på baglåret. Træk nu hagen mod brystet ved at bøje hovedet fremover. Bøj derefter hoved bagover og svaj i din rygrad. Kør efterfølgende op til standardpositionen.
 
 Træk vejret ind når du bøjer dig bagover, og pust ud når du bøjer dig forover.
 
@@ -233,7 +233,7 @@ Træk vejret ind når du bøjer dig bagover, og pust ud når du bøjer dig forov
 
 {% include figure image_path="https://post.healthline.com/wp-content/uploads/2019/09/158078-Everything_You_Need_to_Know_About_the_5_Tibetan_Rites-1296x728-Body_Image-Rite_04-1296x728.jpg" caption="Rite 4" alt="Rite 4 for de fem tibetanere" %}
 
-Den fjerde rite sætter du dig på gulvet med strakte ben. Sænk herefter hagen mod brystet. Ryk derefter hovedet så langt tilbage det kan komme, og løft kroppen op i en ”bro”, ved at spænde i alle muskler. Slap herefter af i musklerne og kør din krop tilbage til startpositionen. 
+Den fjerde rite sætter du dig på gulvet med strakte ben. Sænk herefter hagen mod brystet. Ryk derefter hovedet så langt tilbage det kan komme, og løft kroppen op i en ”bro”, ved at spænde i alle muskler. Slap herefter af i musklerne og kør din krop tilbage til startpositionen.
 
 Du skal i denne øvelse løfte kroppen op på en indånding, og sænke kroppen på en udånding.
 
@@ -287,7 +287,7 @@ Jeg anbefaler derfor, at du bruger en yogamåtte, når du laver tibetanerne, men
 
 Tanken bag de 5 tibetanere er, at gennemførelsen af øvelserne skal stimulere strømmen af naturlig livsenergi gennem kroppen. Påstanden er at øvelserne har en gennemgribende virkning på kroppen og kroppens energibalance.
 
-Når du gennemfører riterne bliver de 7 nøgle-chakraer i din krop aktiveret og stimuleret, og på den måde stimuleres alle kirtlerne i det hormonelle system. 
+Når du gennemfører riterne bliver de 7 nøgle-chakraer i din krop aktiveret og stimuleret, og på den måde stimuleres alle kirtlerne i det hormonelle system.
 
 **Chakra** er et indisk ord, som kan oversættes til ”hvirvlende energihjul”. Chakraerne modtager og regulerer livsenerig og videresender den ud i hele kroppen. Det er vigtigt, at dine chakraer er fri for negativ energi, så de kan være nøglen til gnistrende livskraft.
 
@@ -319,13 +319,13 @@ Hemmeligheden om _ungdommens kilde_ var i mange tusind år forbeholdt de tibetan
 
 Nogle år før sin pension var Oberst Bradford under sin tjeneste i Hans Majestæts diplomatiske korps udstationeret i Indien. Her hørte han første gang om, at tibetanske munke fra fjerne dele af Himalaya skulle kende ungdommens kilde. De indfødte fortalte om mænd, der havde besøgt klosteret, var kommet hjem med genvundet sundhed, styrke, kraft og energi.
 
-Som os alle så blev Oberst Bradford ikke yngre med årene. Ideen om at kunne finde ungdommens kilde inspirerede ham meget. Efter flere måneders overvejelse besluttede den nu pensionerede Oberst Bradford sig for at opspore ungdommens kilde. 
+Som os alle så blev Oberst Bradford ikke yngre med årene. Ideen om at kunne finde ungdommens kilde inspirerede ham meget. Efter flere måneders overvejelse besluttede den nu pensionerede Oberst Bradford sig for at opspore ungdommens kilde.
 
 Han rejste derfor til Himalaya, hvor jagten på den gamle hemmelighed startede. Det var en lang rejse gennem Himalayas dybeste dale, for ingen af de lokale vidste præcist, hvor klosteret lå.
 
 Efter måneders farefuld rejse og søgen fandt obersten endelig frem til klosteret og munkene, som skulle kende hemmeligheden. Obersten blev lukket ind, og han opholdte sig i flere måneder i klosteret, før han vendte hjem igen. Han blev på sit ophold introduceret for de fem tibetanere.
 
-Oberst Bradford beskriver, at han allerede efter blot et par uger i klosteret følte sig yngre. Han behøvede nu kun stok, når han skulle bestige bjergene omkring klosteret, men kunne undvære den i de daglige gøremål. 
+Oberst Bradford beskriver, at han allerede efter blot et par uger i klosteret følte sig yngre. Han behøvede nu kun stok, når han skulle bestige bjergene omkring klosteret, men kunne undvære den i de daglige gøremål.
 
 ### Udbredelsen af de fem tibetanere i vesten
 
@@ -355,7 +355,7 @@ De fem tibetanere blev for alvor udbredt i den vestlige verden, da Peter Kelder 
 
 ## Virker de 5 tibetanere virkelig?
 
-Jeg er lige ved at dykke ned videnskaben i forhold til om der findes videnskabeligt belæg for effekten af de fem tibetanere. Stay tuned. 
+Jeg er lige ved at dykke ned videnskaben i forhold til om der findes videnskabeligt belæg for effekten af de fem tibetanere. Stay tuned.
 
 Brug kommentarerne, hvis du har erfaringer med de fem tibetanere og har adgang til videnskabelige artikler, der kan underbygge pointerne og besvare spørgsmålet: "Virke de 5 tibetanere?".
 
@@ -367,7 +367,7 @@ Jeg har ikke kunnet finde et definitivt svar på, hvorfor det er endt med 5 tibe
 
 I den anden bog om De fem tibetanere beskrives en sjette tibetaner, som jeg ikke har kunnet finde så mange referencer til.
 
-Måske fordi Peter Kelder i bogen skriver om den sjette tibetanske rite: 
+Måske fordi Peter Kelder i bogen skriver om den sjette tibetanske rite:
 
 > **"It should be practiced only when you feel an excess of sexual energy..."**
 
@@ -387,9 +387,9 @@ Hvis det er sket for dig, at du overskydende seksuel energi, så kan du følge b
 
 Hvis det er rigtigt, at de fem tibetanere normaliserer hormonelle ubalancer i kroppen, så bør alle mennesker jo lave dem.
 
-Riterne i de 5 tibetanere vække dine chakraer og stimulerer dem til at rotere hurtigt og ved samme hastighed. Derved kan chakrerne påvirke dit energiniveau og det endokrine, hormonelle system. 
+Riterne i de 5 tibetanere vække dine chakraer og stimulerer dem til at rotere hurtigt og ved samme hastighed. Derved kan chakrerne påvirke dit energiniveau og det endokrine, hormonelle system.
 
-Livsenergien kan kun cirkulere i kroppen, hvis chakraerne fungerer ordentligt og i samme hastighed. 
+Livsenergien kan kun cirkulere i kroppen, hvis chakraerne fungerer ordentligt og i samme hastighed.
 
 Jeg har været glad for at bruge de fem tibetanere som morgenmotion eller ganske enkelt som min træning, hvis jeg ikke har så meget træningsmotivation til længerevarende træning. Jeg bruger også ofte en [Yoga Solhilsen på nogenlunde samme måde]({% link _posts/2020-07-25-solhilsen.md %}).
 
