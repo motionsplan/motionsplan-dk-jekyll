@@ -8,7 +8,7 @@ header:
   teaser: https://images.unsplash.com/photo-1592686092916-672fa9e86866?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
   caption: *title
 category:
-  - Kost
+  - Ernæring
 tags:
   - kalorier
   - energi

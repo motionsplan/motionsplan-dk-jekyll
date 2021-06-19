@@ -9,11 +9,11 @@ header:
   teaser: https://images.unsplash.com/photo-1585218059208-5cfd7659560b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
   caption: *title
 category:
-  - Beregner
+  - Beregnere
 tags:
   - løb
   - cykling
-  - beregnere
+  - beregner
 last_modified_at: 2021-05-30T12:14:14Z
 toc: true
 feature_row:

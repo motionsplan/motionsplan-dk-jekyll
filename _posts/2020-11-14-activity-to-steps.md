@@ -7,7 +7,7 @@ header:
   teaser: https://images.unsplash.com/photo-1453342664588-b702c83fc822?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
   caption: *title
 category:
-  - Beregner
+  - Beregnere
 tags:
   - skridt
   - motion
@@ -58,4 +58,3 @@ Jeg har skrevet en grundig artikel om [Hvor langt er 10.000 skridt og hvor mange
 Hvis du gerne vil blive motiveret af at gå nok skridt om dagen, men laver en masse anden aktivitet, så kan det være sjovt at bruge en "Tæl skridt-beregner". Du skal bare huske, at tallene godt kan blive rigtig høje.
 
 For mig selv, synes jeg det kan være motiverende at [tælle skridt](/artikel/tael-skridt/) for at huske at få nok motion hver dag.
-

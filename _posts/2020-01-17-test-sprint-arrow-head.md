@@ -11,7 +11,7 @@ category:
 tags:
   - eksplosivitet
   - agility
-  - beregnere
+  - beregner
   - løb
   - SPARQ
   - sprinttest

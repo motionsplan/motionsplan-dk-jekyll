@@ -9,7 +9,7 @@ header:
   overlay_filter: 0.2
 category:
   - Viden om
-  - Konditionstræning
+  - Kondition
   - Løb
 tags:
   - kredsløb

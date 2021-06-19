@@ -8,11 +8,12 @@ header:
   teaser: https://www.vih.dk/sites/vih/files/2K2A7536-41%20-%20Kopi.JPG
   caption: *title
 category:
-  - Tests
+  - Test
   - Kondition
 tags:
   - tests
   - optagelsesprøve
+  - politi
 ---
 
 Politiet har en række fysiske tests til optagelsesprøven. Jeg gennemgår her de fysiske krav, du skal kunne bestå for komme igennem politiets optagelsesprøve.

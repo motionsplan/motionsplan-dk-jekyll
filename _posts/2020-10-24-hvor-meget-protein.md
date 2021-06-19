@@ -8,6 +8,7 @@ header:
   caption: *title
 category:
   - Ernæring
+  - Kostilskud
 tags:
   - kost
   - protein

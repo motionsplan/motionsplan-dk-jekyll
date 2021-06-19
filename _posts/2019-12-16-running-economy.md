@@ -16,7 +16,7 @@ category:
   - Kondition
   - Løb
 tags:
-  - beregnere
+  - beregner
   - løbeøkonomi
   - styrketræning
   - løb
