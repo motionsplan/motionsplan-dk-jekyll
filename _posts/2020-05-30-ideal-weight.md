@@ -8,7 +8,7 @@ header:
   caption: *title
   overlay_filter: 0.1
 category:
-  - Beregner
+  - Beregnere
 tags:
   - vægt
   - beregner

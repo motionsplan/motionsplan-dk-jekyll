@@ -9,7 +9,7 @@ header:
   caption: *title
 category:
   - Beregnere
-  - Kost
+  - Ernæring
 tags:
   - stofskifte
 last_modified_at: 2020-08-06T23:14:14Z

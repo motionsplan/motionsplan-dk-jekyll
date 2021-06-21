@@ -236,7 +236,7 @@ Andre hænger også i _gravity boots_, så man kan hænge på hovedet. De fleste
 
 Hvis du fortsat er under 20 år gammel, så er der stor sandsynlighed for, at du vil blive højere. Du kan endda sørge for at du kommer tættest muligt på dit genetiske potentiale ved at fokusere på:
 
-- Kost
+- Kost og Ernæring
 - Søvn
 - Træning
 

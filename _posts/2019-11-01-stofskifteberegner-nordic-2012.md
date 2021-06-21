@@ -9,7 +9,7 @@ header:
   caption: Beregn dit stofskifte, daglige energibehov, ligevægtsindtag og hvilestofskifte
 category:
   - Beregnere
-  - Kost
+  - Ernæring
 tags:
   - stofskifte
 last_modified_at: 2020-08-31T23:14:14Z

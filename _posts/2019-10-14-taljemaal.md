@@ -10,7 +10,7 @@ category:
   - Test
 tags:
   - fedtprocent
-  - beregnere
+  - beregner
   - kropskomposition
   - test
   - tracking

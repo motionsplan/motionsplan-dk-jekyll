@@ -20,7 +20,6 @@ tags:
   - intervaltræning
 category:
   - Kondition
-  - Konditionstræning
 last_modified_at: 2020-07-05T21:42:12Z
 feature_row:
   - image_path: https://www.fotoagent.dk/single_picture/11803/138/mega/Concept_2_model_D_sort(2).jpg

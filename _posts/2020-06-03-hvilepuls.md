@@ -11,8 +11,7 @@ header:
   alt: Photo by Jude Beck on Unsplash
   overlay_filter: 0.2
 category:
-  - Viden om
-  - Konditionstræning
+  - Kondition
 tags:
   - test
   - hvilepuls

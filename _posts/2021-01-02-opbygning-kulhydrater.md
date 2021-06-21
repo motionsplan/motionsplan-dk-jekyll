@@ -8,7 +8,6 @@ header:
   caption: *title
 category:
   - Ernæring
-  - Kost
 tags:
   - kost
   - ernæring

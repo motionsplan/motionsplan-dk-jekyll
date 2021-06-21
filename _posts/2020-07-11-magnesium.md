@@ -8,7 +8,8 @@ header:
   caption: "Magnesium: Har du brug for et tilskud?"
   overlay_filter: 0.4
 category:
-  - Kost
+  - Ernæring
+  - Kosttilskud
 tags:
   - kosttilskud
   - magnesium
@@ -317,4 +318,3 @@ Det mest sandsynlige er, at der ikke er nogen risiko ved at tage lidt ekstra mag
 - Wang, Ru, Cheng Chen, Wei Liu, Tang Zhou, Pengcheng Xun, Ka He, og Peijie Chen. “The Effect of Magnesium Supplementation on Muscle Fitness: A Meta-Analysis and Systematic Review”. _Magnesium Research_ 30, nr. 4 (1. november 2017): 120–32. [https://doi.org/10.1684/mrh.2018.0430](https://doi.org/10.1684/mrh.2018.0430).
 - Zhang, Yijia, Pengcheng Xun, Ru Wang, Lijuan Mao, og Ka He. “Can Magnesium Enhance Exercise Performance?” _Nutrients_ 9, nr. 9 (28. august 2017). [https://doi.org/10.3390/nu9090946](https://doi.org/10.3390/nu9090946).
 - Gröber, Uwe, Tanja Werner, Jürgen Vormann, og Klaus Kisters. “Myth or Reality—Transdermal Magnesium?” Nutrients 9, nr. 8 (28. juli 2017). <https://doi.org/10.3390/nu9080813>.
-
