@@ -33,7 +33,7 @@ Jeg fokuserede derfor mest i min resarch på at finde ud af, om isbade efter tr�
 
 **Isbade efter træning viser i forskningen lidt blandede resultater. Folk der gennemgår isbade oplever mindre ømhed efter træning, men det har ikke kunnet påvises på biologiske markører. Tilsyneladende kan isbade hæmme effekten af styrketræning, men formentlig godt bruges efter udholdenhedstræning.**
 
-Jeg gik på [pubmed.com](http://pubmed.com) og lavede en [videnskabelig søgning](/videnskabelig-sogning/) for at finde nogle studier, der kunne overbevise mig om, at jeg har brug for afkøling efter træning.
+Jeg gik på [pubmed.com](https://pubmed.com) og lavede en [videnskabelig søgning](/videnskabelig-sogning/) for at finde nogle studier, der kunne overbevise mig om, at jeg har brug for afkøling efter træning.
 
 Det er fortsat ikke klart, hvad de videnskabelige rationale bag at tage et koldt bad er (se metastudium af Bleakley og Davison 2010), men derfor kan vi jo sagtens se på, om det virker.
 
