@@ -3,7 +3,7 @@ title: "Udregn BMI: Formel og beregner for kvinder, mænd og børn"
 seo_title: "BMI-beregner - BMI for kvinder, mænd, teenager og børn »"
 # Udregn BMI: Måler og beregner for kvinder, mænd og børn
 # Better than: BMI - Tabel og skema for kvinder, mænd og børn [Beregner] »
-description: "Body Mass Index og BMI tabel og skema for børn, teenager, kvinder og mænd ✓ BMI formel og måler ✓ GRATIS nøjagtig BMI beregner ✓ Forstå Body Mass Index og BMI!"
+description: "BMI tabel og skema for børn, teenagere, kvinder og mænd ✓ Body Mass Index formel og måler ✓ GRATIS nøjagtig beregner ✓ Forstå alle detaljerne i dag!"
 permalink: /bmi/
 excerpt: "Body Mass Index (BMI) er den mest udbredte formel og test til at udregne idealvægt. Beregn selv dit BMI i vores beregner og se BMI skala og tabel for børn og voksne mænd og kvinder."
 language: da
@@ -145,7 +145,7 @@ I de studier hvor man kigger på forskellen mellem mænd og kvinder, så ligger 
 
 Studiet af Flegal et al (2013) kommer til at overvurdere fordelen ved overvægt i forhold til BMI, fordi overvægt sammenlignes med normalvægt i området fra 18,5-25. [Morten Zacho skriver](https://web.archive.org/web/20160808221414/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/beregn_din_idealvaegt/){:rel="nofollow"}, at vi fra andre undersøgelser ved, at dødeligheden er markant forhøjet, hvis man har et BMI mellem 18,5-20. Det interval vi normalt inkluderer som normalvægtigt er altså ikke et optimalt BMI i forhold til sundhed.
 
-På baggrund af studierne [sætter Morten Zacho det optimale BMI til 22,5 for kvinder og 24,5 for mænd](https://web.archive.org/web/20160808221414/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/beregn_din_idealvaegt/){:rel="nofollow"}. Når du kender den optimale BMI, så kan det bl.a. bruges til at [udregne din idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}).
+På baggrund af studierne sætter Morten Zacho det optimale BMI til 22,5 for kvinder og 24,5 for mænd. Når du kender den optimale BMI, så kan det bl.a. bruges til at [udregne din idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}).
 
 Afzal et al (2016) har sammenlignet tre danske grupper af mennesker, og det ser ud til, at det BMI, der er forbundet med den laveste risiko for at dø, er stigende med de tre kohorter. Det er lidt ærgerligt, at studiet har fastholdt klassifikationen med normalvægtige mellem 18.5 - 25.
 
@@ -165,7 +165,7 @@ På baggrund af dette siger [Morten Zacho, at plus-minus seks kilo ikke betyder 
 
 --- <cite>[Morten Zacho](https://www.dr.dk/levnu/krop/du-skal-veje-mere-end-du-tror)</cite>
 
-Derfor foreslår [Morten Zacho](https://www.dr.dk/levnu/krop/du-skal-veje-mere-end-du-tror) også en revideret forståelse af BMI for mænd og kvinder, som skitseres i følgende tabel over BMI.
+Derfor foreslår Morten Zacho også en revideret forståelse af BMI for mænd og kvinder, som skitseres i følgende tabel over BMI.
 
 | Klassification  | BMI (kg/m<sup>2</sup>) | Note |
 |---------------|------------------------|-|
