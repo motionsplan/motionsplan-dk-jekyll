@@ -25,6 +25,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/anatomisk-guide-til-bevaegeapparatet-9788777499104"
     btn_label: "Læs mere hos Den Intelligente Krop*"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
   - image_path: https://cdn6.tales.dk/00002/73191/cover.20160911.jpg
     alt: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
     title: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
@@ -32,6 +33,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/menneskekroppen-anatomi-fysiologi-og-sygdomme_steve-parker_9788756784436"
     btn_label: "Læs mere hos Tales*"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
   - image_path: https://imgcdn.saxo.com/_9788762809000/0x500
     alt: "Bevægeapparatets anatomi"
     title: "Bevægeapparatets anatomi"
@@ -39,13 +41,14 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/bevaegeapparatets-anatomi_joergen-tranum-jensen_indbundet_9788762809000"
     btn_label: "Læs mere hos Saxo*"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 ---
 
 Jeg synes ikke jeg kunne finde en rigtig god forklaring på sammenhængen og forskellen mellem anatomi og fysiologi online, så jeg har prøvet at forklare min forståelse af af, hvordan anatomi og fysiologi hænger sammen, og hvordan de adskiller sig fra hinanden.
 
 Hvad er forskellen på anatomi og fysiologi? **Anatomi og fysiologi er knyttet sammen, men der er forskel på anatomi og fysiologi. Anatomi beskæftiger sig med kroppens strukturer og opbygning, og hvordan cellerne samler sig til væv, organer og systemer. Fysiologien handler om, hvordan de forskellige celler, organer og systemer fungerer og samarbejder for at udføre de livsnødvendige processer.**
 
-Anatomi og fysiologi hjælper til at forstå den menneskelige krop. Anatomien er ret konkret, da strukturerne i kroppen kan ses, føles og undersøges. Du kan konkret tage fat i det og se det. Fysiologien kan du ikke på samme måde tage at føle på uden at have avancerede måleredskaber. 
+Anatomi og fysiologi hjælper til at forstå den menneskelige krop. Anatomien er ret konkret, da strukturerne i kroppen kan ses, føles og undersøges. Du kan konkret tage fat i det og se det. Fysiologien kan du ikke på samme måde tage at føle på uden at have avancerede måleredskaber.
 
 Mens anatomien viser et statisk billede af kroppens arkitektur, så giver fysiologien et billede og forklaring af kroppens dynamiske arbejde.
 
@@ -63,7 +66,7 @@ Mn kan kort definere _fysiologi_ på denne måde:
 
 Hvad er fysiologi? **Fysiologi er læren om kroppens forskellige organsystemer og deres funktioner i hvile og under fysisk aktivitet. Fysiologien beskæftiger sig med den sunde krop under normale betingelser.**
 
-For at forstå træning og effekten af træningen på kroppen som helhed er det godt at have en grundlæggende forståelse for, hvordan det fysiologiske system er opbygget. 
+For at forstå træning og effekten af træningen på kroppen som helhed er det godt at have en grundlæggende forståelse for, hvordan det fysiologiske system er opbygget.
 
 Fysiologien beskæftiger sig bl.a. med følgende systemers opbygning, funktion og påvirkning af træning:
 
@@ -72,13 +75,13 @@ Fysiologien beskæftiger sig bl.a. med følgende systemers opbygning, funktion o
 - kredsløbet (det kardiovaskulære system med hjertet og blodårerne)
 - fordøjelsessystemet
 
-Selvom man kan kigge på systemerne hver for sig, så hænger de også nøje sammen og sørger for kroppens overordnede funktion. 
+Selvom man kan kigge på systemerne hver for sig, så hænger de også nøje sammen og sørger for kroppens overordnede funktion.
 
 At lære _fysiologien_ handler om at forstå de enkelte systemer, og hvordan de enkelte systemer er bygget op af forskellige væv med forskellige funktioner, der tilsammen er med til at få kroppen til at fungere og leve.
- 
+
 Fysiologien behandler mest det cellulære og molekylære niveau. Kroppens egenskaber afhænger af, hvad der sker i de enkelte celler, og cellernes egenskaber afhænger af de kemiske reaktioner i dem.
 
-Hvis du vil læse mere om fysiologi, så har [Saxo et ret stort udbud](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/alle/tags_fysiologi){:rel="nofollow"}.
+Hvis du vil læse mere om fysiologi, så har [Saxo et ret stort udbud](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/alle/tags_fysiologi){: rel='sponsored nofollow noopener' }.
 
 ## Hvad hører til anatomi?
 
@@ -97,20 +100,20 @@ Anatomi omfatter viden om:
 - Bevægelsestyper
 - [Muskler]({% link _pages/anatomy/muscles.md %})
 
-Hvis du vil læse mere om anatomi, så har [Saxo nogle rigtig gode titler](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/alle/tags_anatomi){:rel="nofollow"}.
+Hvis du vil læse mere om anatomi, så har [Saxo nogle rigtig gode titler](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/alle/tags_anatomi){: rel='sponsored nofollow noopener' }.
 
 ## Eksempler på hvad der hører til anatomien og fysiologien
 
-Anatomien beskriver, hvordan organsystemerne i kroppen er opbygget af forskellige typer væv. Der findes fx fire forskellige hovedtyper af væv: 
+Anatomien beskriver, hvordan organsystemerne i kroppen er opbygget af forskellige typer væv. Der findes fx fire forskellige hovedtyper af væv:
 
 - **muskelvæv** - skaber bevægelse eller spænding
 - **nervevæv** - danner elektriske impulser og videresender og modtager impulserne
 - **epithelvæv** - afgrænser de enkelte organer og beskytter, optager og udskiller nødvendige stoffer
 - **bindevæv** - binder de forskellige strukturer i kroppen sammen
 
-Anatomien tager sig af at forklare de enkeltes vævs opbygning. Fysiologien forklarer hvordan de enkelte væv fungerer i praksis. 
+Anatomien tager sig af at forklare de enkeltes vævs opbygning. Fysiologien forklarer hvordan de enkelte væv fungerer i praksis.
 
-Hvis vi fx tager en bevægelse som udgangspunkt for at forstå forskellen på anatomi og fysiologi. 
+Hvis vi fx tager en bevægelse som udgangspunkt for at forstå forskellen på anatomi og fysiologi.
 
 Når jeg bøjer armen, så er det muligt fordi jeg har nogle knogler, der samles i albueleddet, og at der er en muskel, der går hen over albueleddet. Samtidig holdes strukturen sammen af ledbånd og sener i albueleddet og hvor musklerne hæfter. Bevægelsen foregår, fordi musklerne kan få en besked gennem nervesystemet. Alt det forklarer anatomien.
 
@@ -120,9 +123,9 @@ Hvordan selve muskelfibrerne trækker sig sammen, hvad der sker inde i cellerne 
 
 Man kan altså sige, at anatomien iagttager og beskriver man den inaktive krop, mens fysiologien kigger på det aktive, levende menneske.
 
-Hvis man kigger på kroppen som en maskine, så er anatomien maskinens konstruktion, mens fysiologien er maskinens virkemåde. Ligesom en maskine forbruger kroppen brændstof, opbygger og lagrer energi og fremkalder bevægelse. 
+Hvis man kigger på kroppen som en maskine, så er anatomien maskinens konstruktion, mens fysiologien er maskinens virkemåde. Ligesom en maskine forbruger kroppen brændstof, opbygger og lagrer energi og fremkalder bevægelse.
 
-Kroppen er dog meget mere end en maskine. Kroppen er levende. Den vedligeholder sig selv. Sørger for at få brændstof. Udskifter selv de slidte dele. Kroppen tænker, føler og handler. Kroppen er i bevægelse konstant. Kroppen kan vokse og resproducere sig selv. Kroppen er et lille mirakel og en del af disse mirakler kan anskues gennem fysiologiens mikroskop. 
+Kroppen er dog meget mere end en maskine. Kroppen er levende. Den vedligeholder sig selv. Sørger for at få brændstof. Udskifter selv de slidte dele. Kroppen tænker, føler og handler. Kroppen er i bevægelse konstant. Kroppen kan vokse og resproducere sig selv. Kroppen er et lille mirakel og en del af disse mirakler kan anskues gennem fysiologiens mikroskop.
 
 ## Lær endnu mere om anatomi og fysiologi
 

@@ -43,6 +43,7 @@ feature_row_books:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835"
     btn_label: "Tjek prisen hos Saxo*"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 quiz:
   - front: >
       ![Squat](https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg)
@@ -84,7 +85,7 @@ Dansk Styrkeløft Forbund har lavet en glimrende video, der forklarer lidt mere 
 
 ## Regler i styrkeløft (IPF)
 
-I noget så enkelt som at løfte en vægt, så er der alligevel mange regler. Her beskriver vi meget kort de regler, man løfter efter i, International Powerlifting Federation (IPF). 
+I noget så enkelt som at løfte en vægt, så er der alligevel mange regler. Her beskriver vi meget kort de regler, man løfter efter i, International Powerlifting Federation (IPF).
 
 ### Squat
 
@@ -92,8 +93,8 @@ I squat foregår det sådan her. Godkendt dybde er, når folden ved hofteleddet 
 
 Kommandoerne i squat er:
 
-- **The bar is loaded**. Når man får kommandoen "The bar is loaded", så har man maksimalt et minut til at lave sit forsøg. 
-- **Unrack**. Når du går ud af racket, så sørg for at stå helt oprejst med knæene strakte. 
+- **The bar is loaded**. Når man får kommandoen "The bar is loaded", så har man maksimalt et minut til at lave sit forsøg.
+- **Unrack**. Når du går ud af racket, så sørg for at stå helt oprejst med knæene strakte.
 - Vent på **"Squat!"**-kommandoen. Squat ned så hofteleddet er lavere end knæleddet. Rejs dig igen.
 - Vent på **"Rack"**-kommandoen.
 
@@ -151,7 +152,7 @@ Matt Gary har ifølge [Liftvault](https://liftvault.com/meet-preparation/powerli
 
 Det kan altså betale sig at tænke over, at man kommer ind i konkurrencen på en god måde.
 
-Tænk derfor over følgende i forhold til at vælge dine forsøg til styrkeløft-mødet. Du skal huske, at det gælder om at **maksimere den totale vægt, du løfter**. 
+Tænk derfor over følgende i forhold til at vælge dine forsøg til styrkeløft-mødet. Du skal huske, at det gælder om at **maksimere den totale vægt, du løfter**.
 
 - Dit **første løft** skal være et sikkert løft. Det kan fx være et løft, du ved du kan løfte tre gange. Formålet med det første løft er at forberede dig til de efterfølgende løft. Det gælder for alle disciplinerne.
 - Dit **andet løft** skal være et løft, du er overbevist om, at du kan løfte. Fornemmelsen fra dette løft skal være en _guide til dit tredje forsøg_.
@@ -162,7 +163,7 @@ Jacob Beermann [foreslår en konservativ og aggressiv strategi for dit 1RM-fors�
 | Strategi | #1 | #2 | #3 |
 |-|-|-|-|
 | Konservativ | 93% | 97% | 102% |
-| Aggressiv | 95% | 101% | 105% | 
+| Aggressiv | 95% | 101% | 105% |
 
 Her er et Google Sheet, der kan hjælpe dig med at lave udregningerne af dine forsøg.
 

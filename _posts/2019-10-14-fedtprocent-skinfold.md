@@ -26,6 +26,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=20604&htmlurl=https://www.bodyman.dk/shop/accu-measure-fitness-54935p.html"
     btn_label: "Tjek pris*"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
   - image_path: https://www.bodystore.dk/dw/image/v2/BDJH_PRD/on/demandware.static/-/Sites-hsng-master-catalog/default/dweed812b8/Hi-res/h/a/harpenden-skinfold-caliper-baty_1.png?sw=710&sh=710&sm=fit
     alt: "Harpenden Skinfold Caliper"
     title: "Harpenden Skinfold Caliper"
@@ -111,4 +112,3 @@ Husk at testen udelukkende estimerer din fedtprocent. Testen er ikke et startsku
 ## Køb en fedttang
 
 {% include feature_row type="left" %}
-

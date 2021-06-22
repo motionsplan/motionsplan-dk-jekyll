@@ -21,6 +21,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835"
     btn_label: "Tjek prisen hos Saxo*"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 ---
 
 Opvarmning er vigtigt, og du kan bruge den fornuftigt. Det gælder også opvarmning til styrketræning. Formålet med opvarmning er at øge kropstemperaturen, smøre leddene, øge mobiliteten, gøre nervesystemet klar og forbedre ens evne til at bevæge sig.
@@ -100,11 +101,11 @@ Vi kan rigtig godt lide at lave _ramp up_. Hvis du fx har planlagt, at din træn
 
 ### Ramp up
 
-x10 @ RPE 5  
-x8 @ RPE 5,5  
-x6 @ RPE 6  
-x4 @ RPE 7  
-x2 @ RPE 8  
+x10 @ RPE 5
+x8 @ RPE 5,5
+x6 @ RPE 6
+x4 @ RPE 7
+x2 @ RPE 8
 x1 @ RPE 8
 
 Du laver altså en ramp up til en vægt, der er tungere end dit arbejdssæt, men med færre reps. Det er formentlig med til at tænde nervesystemet yderligere gennem post-activation potentiation (PAP).

@@ -22,6 +22,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835"
     btn_label: "Køb bogen*"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 gallery:
   - image_path: https://cdn.shopify.com/s/files/1/0129/4532/products/IMG_8426_1024x1024.jpg?v=1329043769
     url: https://shop.maxer.dk/products/no-brain-no-gain
@@ -54,7 +55,7 @@ Stærk er en virkelig god bog til at blive klogere af, hvis du gerne vil blive s
 
 ## Indholdsfortegnelse til Stærk
 
-Når du har skimmet indholdsfortegnelsen til Beermanns Stærk, så får du formentlig lyst til at [købe bogen\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_indbundet_9788771801835). Bogen og det medfølgende træningsprogram er i hvert fald alle pengene værd.
+Når du har skimmet indholdsfortegnelsen til Beermanns Stærk, så får du formentlig lyst til at [købe bogen](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_indbundet_9788771801835){: rel='sponsored nofollow noopener' }. Bogen og det medfølgende træningsprogram er i hvert fald alle pengene værd.
 
 1. Indledning
 2. Sådan bliver du stærk
@@ -95,7 +96,7 @@ Når du har skimmet indholdsfortegnelsen til Beermanns Stærk, så får du forme
    - Bogens slutning er din start
 7. Træningsprogram
 
-{% include gallery id="gallery_content" caption="Indholdsfortegnelsen til [Stærk\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_indbundet_9788771801835)." %}
+{% include gallery id="gallery_content" caption="Indholdsfortegnelsen til [Stærk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_indbundet_9788771801835){: rel='sponsored nofollow noopener' }." %}
 
 ## Principperne i Stærk styrketræningsprogrammet
 
@@ -113,9 +114,9 @@ Den højfrekvente træning vil være ny for mange, og det kræver tålmodighed a
 
 I programmet er der typisk 5+ sæt i de enkelte løft, hvilket også tager sin tid, når man går i gang med træningen.
 
-Programmet er et **procentbaseret styrketræningsprogram**, hvor du starter med at finde din [1RM-max]({% link _posts/2019-10-16-1rm-beregner.md %}) ud fra en 5RM test. 
+Programmet er et **procentbaseret styrketræningsprogram**, hvor du starter med at finde din [1RM-max]({% link _posts/2019-10-16-1rm-beregner.md %}) ud fra en 5RM test.
 
-[Køb Stærk hos Saxo\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_indbundet_9788771801835){:rel="nofollow" class="btn btn--large btn--danger" } eller hos [Bodyman\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=20604&htmlurl=https://www.bodyman.dk/shop/staerk-jacob-beermann-36182p.html){:rel="nofollow" class="btn btn--large btn--info" }
+[Køb Stærk hos Saxo](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_indbundet_9788771801835){:rel="nofollow noopener sponsored" class="btn btn--large btn--danger" } eller hos [Bodyman](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=20604&htmlurl=https://www.bodyman.dk/shop/staerk-jacob-beermann-36182p.html){:rel="sponsored nofollow noopener" class="btn btn--large btn--info" }
 
 Programmet er delt op i to faser, der hver tager 8 uger:
 

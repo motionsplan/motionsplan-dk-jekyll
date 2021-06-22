@@ -17,48 +17,63 @@ dialaegt:
   - image_path: https://cdn.shopify.com/s/files/1/0234/3845/8944/products/cykelrytteren-klassisk-graa_600x600.jpg?v=1606398625
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70660&htmlurl=https://www.dialaegt.dk/products/cykelrytteren
     title: Cykelrytteren
+    rel: sponsored nofollow noopener
   - image_path: https://cdn.shopify.com/s/files/1/0234/3845/8944/products/svoemmeren-klassisk-graa_7775c8c1-6d79-42d1-89bb-97373d7e6ab1_600x600.jpg?v=1606467992
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70660&htmlurl=https://dialaegt.dk/products/svoemmeren
     title: Svømmeren
+    rel: sponsored nofollow noopener
   - image_path: https://cdn.shopify.com/s/files/1/0234/3845/8944/products/danseren-final-clean_c293e3f6-0d64-4238-b816-e7495243fd86_600x600.jpg?v=1606467839
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70660&htmlurl=https://dialaegt.dk/products/danseren
     title: Danseren
+    rel: sponsored nofollow noopener
   - image_path: https://cdn.shopify.com/s/files/1/0234/3845/8944/products/vinterbaderen-klassisk-graa_3c8c1f09-4a9b-493c-bc99-b512cf957300_600x600.jpg?v=1606467955
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70660&htmlurl=https://dialaegt.dk/products/vinterbaderen
     title: Vinterbaderen
+    rel: sponsored nofollow noopener
   - image_path: https://cdn.shopify.com/s/files/1/0234/3845/8944/products/crossfitteren-klassisk-graa_600x600.jpg?v=1606398627
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70660&htmlurl=https://dialaegt.dk/products/crossfitteren
     title: Crossfitteren
+    rel: sponsored nofollow noopener
   - image_path: https://cdn.shopify.com/s/files/1/0234/3845/8944/products/mountainbikeren-klassisk-graa_15e27e02-8f3c-4a9b-99ab-0b65f6dca9a8_600x600.jpg?v=1606468039
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70660&htmlurl=https://dialaegt.dk/products/mountainbikeren
     title: Mountainbikeren
+    rel: sponsored nofollow noopener
   - image_path: https://cdn.shopify.com/s/files/1/0234/3845/8944/products/triatleten-klassisk-graa_29a8346d-dfd4-4961-9d5b-a47c361e62ec_600x600.jpg?v=1606467966
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70660&htmlurl=https://dialaegt.dk/products/triatleten
     title: Triatleten
+    rel: sponsored nofollow noopener
   - image_path: https://cdn.shopify.com/s/files/1/0234/3845/8944/products/loeberen-klassisk-graa_b347c156-8d54-4a1a-a6a4-70b0fe5f4c21_600x600.jpg?v=1606468050
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70660&htmlurl=https://dialaegt.dk/products/loeberen
     title: Løberen
+    rel: sponsored nofollow noopener
   - image_path: https://cdn.shopify.com/s/files/1/0234/3845/8944/products/yogien-klassisk-graa_75752b7d-0691-4792-90b4-5fb577a08431_600x600.jpg?v=1606467951
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70660&htmlurl=https://dialaegt.dk/products/yogien
     title: Yogien
+    rel: sponsored nofollow noopener
   - image_path: https://cdn.shopify.com/s/files/1/0234/3845/8944/products/rytmegymnasten-klassisk-graa_6dc6acd1-ab1f-42f7-9084-a0e9b270f101_600x600.jpg?v=1606467908
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70660&htmlurl=https://dialaegt.dk/products/rytmegymnasten
     title: Rytmegymnasten
+    rel: sponsored nofollow noopener
   - image_path: https://cdn.shopify.com/s/files/1/0234/3845/8944/products/springgymnasten-klassisk-graa_2feb8f31-4012-4b57-b6cf-713561ed0260_600x600.jpg?v=1606467911
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70660&htmlurl=https://dialaegt.dk/products/springgymnasten
     title: Springgymnasten
+    rel: sponsored nofollow noopener
   - image_path: https://cdn.shopify.com/s/files/1/0234/3845/8944/products/fodboldspilleren-klassisk-graa_a6674243-d05a-46c9-b5c6-1442216e8b3a_600x600.jpg?v=1606468112
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70660&htmlurl=https://dialaegt.dk/products/fodboldspilleren
     title: Fodboldspilleren
+    rel: sponsored nofollow noopener
   - image_path: https://cdn.shopify.com/s/files/1/0234/3845/8944/products/golfspilleren-klassisk-graa_c981cefe-5f24-4b40-a4ab-6ecfdf56a8a8_600x600.jpg?v=1606468098
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70660&htmlurl=https://dialaegt.dk/products/golfspilleren
     title: Golfspilleren
+    rel: sponsored nofollow noopener
   - image_path: https://cdn.shopify.com/s/files/1/0234/3845/8944/products/haandboldspilleren-klassisk-graa_600x600.jpg?v=1606395490
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70660&htmlurl=https://dialaegt.dk/products/haandboldspilleren
     title: Håndboldspilleren
+    rel: sponsored nofollow noopener
   - image_path: https://cdn.shopify.com/s/files/1/0234/3845/8944/products/fifa-spilleren-klassisk-graa_600x600.jpg?v=1606393562
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70660&htmlurl=https://dialaegt.dk/products/fifa-spilleren
     title: Fifa spilleren
+    rel: sponsored nofollow noopener
 ---
 
 Jeg har samlet en lang liste med forskellige sportsgrene, motionsformer og idrætsgrene, som du kan dyrke i fritiden. Hvis du gerne vil finde en sport, motion og idræt, så kan du finde masser af inspiration på vores liste over sportsgrene. Her kan du også se de mest populære idrætsgrene i Danmark.
@@ -77,7 +92,7 @@ Her har jeg samlet en **liste over sportsgrene** og sport man kan gå til i Danm
 
 ## 10 største og mest populære idrætsgrene og sportsgrene i Danmark i 2018
 
-Jeg har samlet en liste over de største og mest populære sportsgrene i Danmark herunder. I den ene kolonne står der, hvor mange aktive medlemmer, der er i foreninger på landsplan. Tallene er fra 2018, så der kan naturligvis godt være sket noget siden. Kilden til medlemstallene er [Danmarks Idræts-Forbunds medlemsliste](https://www.dif.dk/da/politik/vi-er/medlemstal): 
+Jeg har samlet en liste over de største og mest populære sportsgrene i Danmark herunder. I den ene kolonne står der, hvor mange aktive medlemmer, der er i foreninger på landsplan. Tallene er fra 2018, så der kan naturligvis godt være sket noget siden. Kilden til medlemstallene er [Danmarks Idræts-Forbunds medlemsliste](https://www.dif.dk/da/politik/vi-er/medlemstal):
 
 {% assign sports = site.data.sportsgrene | sort: "Medlem2018" | reverse %}
 

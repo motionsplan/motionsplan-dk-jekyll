@@ -23,6 +23,7 @@ feature_row:
     alt: "Bodylab magnesium tilskud til at undgå magnesiummangel bivirkninger"
     btn_label: "Tjek prisen hos Bodylab*"
     btn_class: "btn--info"
+    rel: sponsored nofollow noopener
 ---
 
 Jeg har følt mig træt på det seneste, så derfor er jeg gået i gang med at researche lidt på, hvad magnesium er og hvordan magnesium virker? Kan det betale sig at tage magnesium som tilskud til kosten, eller får man rigeligt gennem de rigtige fødevarer?
@@ -39,17 +40,17 @@ Det kan du læse meget mere om herunder, hvor jeg også konkluderer, at magnesiu
 
 ## Hvad er magnesium?
 
-Magnesium er et livsvigtigt mineral. Magnesium et af de mest almindelige mineraler i kroppen, og du har ca. 24 gram magnesium i kroppen lige nu. Magnesium er fordelt med omkring halvdelen i knoglerne og den anden halvdel fordelt på musklerne og andet blødt væv. 
+Magnesium er et livsvigtigt mineral. Magnesium et af de mest almindelige mineraler i kroppen, og du har ca. 24 gram magnesium i kroppen lige nu. Magnesium er fordelt med omkring halvdelen i knoglerne og den anden halvdel fordelt på musklerne og andet blødt væv.
 
 Magnesium spiller en en vigtig rolle i kroppens stofskifte. Magnesium indgår i en lang række biokemiske processer i kroppen sammen med flere hundrede andre vitaminer, mineraler og enzymer.
 
 Magnesium spiller en vigtig rolle i kroppens stofskifteprocesser, blandt andet via samspillet med flere hundrede forskellige enzymer. Derudover spiller magnesium også en vigtig rolle ved den overførsel af nerveimpulser til musklerne og hjertet, som får dem til at trække sig rytmisk sammen.
 
-Magnesium er altså en nødvendighed for, at kroppens stofskifte fungerer, som den skal, at vi kan bruge vores muskler på normal vis, og at hjertet fungerer normalt. 
+Magnesium er altså en nødvendighed for, at kroppens stofskifte fungerer, som den skal, at vi kan bruge vores muskler på normal vis, og at hjertet fungerer normalt.
 
-Magnesium har en betydning for overførslen af nerveimpulser til muskler og hjertet. 
+Magnesium har en betydning for overførslen af nerveimpulser til muskler og hjertet.
 
-Magnesium er også vigtig for funktionen af hormonet insulin, der bl.a. regulerer sukkerstofskiftet. 
+Magnesium er også vigtig for funktionen af hormonet insulin, der bl.a. regulerer sukkerstofskiftet.
 
 Studier viser, at en kost med et højt indtag af fødevarer, der er rige på magnesium, er vigtig for et normalt blodtryk og et normalt blodsukker, og magnesium giver en lavere risiko for at udvikle hjerte-kar sygdomme.
 
@@ -68,7 +69,7 @@ Magnesium spiller en stor rolle i en lang række af kroppens essentielle funktio
 - Magnesium har en stor rolle i celledelingsprocessen.
 - Bidrager til at mindske træthed og udmattelse.
 
-Magnesiums rolle i forhold til nervesystemets normale funktioner, er at det sørger for at muskler og hjerte kan trække sig sammen og dermed arbejde og pumpe blodet rundt i kroppen.  
+Magnesiums rolle i forhold til nervesystemets normale funktioner, er at det sørger for at muskler og hjerte kan trække sig sammen og dermed arbejde og pumpe blodet rundt i kroppen.
 
 ## Dagligt behov for magnesium
 
@@ -89,9 +90,9 @@ Tilskud udelukkende med magnesium indeholder ofte mellem 150 og 300 mg.
 
 ## Hvor finder jeg magnesium i kosten?
 
-Som du kan se, spiller magnesium en vigtig rolle i rigtigt mange af kroppens funktioner. 
+Som du kan se, spiller magnesium en vigtig rolle i rigtigt mange af kroppens funktioner.
 
-For at spise nok magnesium skal du sørge for at spise varieret og nok af de fødevarer der indeholder mineralet. Vi optager 20-60 procent af det magnesium, vi spiser. 
+For at spise nok magnesium skal du sørge for at spise varieret og nok af de fødevarer der indeholder mineralet. Vi optager 20-60 procent af det magnesium, vi spiser.
 
 Og det er faktisk ikke så svært at få dækket sit magnesiumbehov gennem kosten.
 
@@ -180,7 +181,7 @@ Med minder mangel på magnesium så kan man bare skrue på kosten, mens man i me
 
 Det er meget sjældent at overdosering af magnesium finder sted, fordi den overskydende del udskilles gennem nyrerne og urinen.
 
-Hvis man har en nyresygdom, så kan man dog risikere en overdosering. Magnesium bruges i nogle afføringsmidler til at forårsage en mindre overdosering, fordi en af bivirkningerne ved overdoseringer er diarré. 
+Hvis man har en nyresygdom, så kan man dog risikere en overdosering. Magnesium bruges i nogle afføringsmidler til at forårsage en mindre overdosering, fordi en af bivirkningerne ved overdoseringer er diarré.
 
 I meget alvorlige tilfælde af overdosering af magnesium kan der også forekomme lammelser og muskelforstyrrelser.
 
@@ -190,7 +191,7 @@ Der findes mange typer af magnesium i diverse [kosttilskud]({% link _posts/2020-
 
 De forskellige typer af magnesium adskiller sig primært på, hvor lette de er at optage i kroppen, og hvad prisen er. Typisk ser det ud til, at prisen bliver højere, jo lettere magnesiumtypen er at optage.
 
-- **Magnesium Citrat**. I denne type er magnesium bundet til citronsyre. Det giver en realtiv høj optagelighed og er en af de mest almindelige typer. 
+- **Magnesium Citrat**. I denne type er magnesium bundet til citronsyre. Det giver en realtiv høj optagelighed og er en af de mest almindelige typer.
 - **Magnesium Glycinat, Malat, & Taurat**. Organsisk-bunden magnesium som er dyrere at fremstille, men de har også høj optagelighed i kroppen. Typisk er der noget mindre i kosttilskuddene, men optageligheden er høj.
 - **Magnesium Oxid** har relativt lav optagelighed, og derfor skal kosttilskud med denne type magnesium også indholde større dosis.
 - **Magnesium Chlorid** har også høj optagelighed, fordi den er vandopløselig. Denne type findes ofte i magnesium spray eller som væske i kapsler.
@@ -199,21 +200,21 @@ Hvis du vælger at tage et magnesiumtilskud, skal du altså overveje hvilken typ
 
 ## Hvilke magnesium tilskud skal jeg vælge?
 
-Hvis du beslutter dig for at købe magnesium tilskud, så findes det oftest som piller eller kapsler med pulver i, men du kan også optage det gennem huden (gad godt vide om man kan optage det gennem hænderne, man fx når du bruger magnesium og kalk til at få et bedre greb i styrkerummet). 
+Hvis du beslutter dig for at købe magnesium tilskud, så findes det oftest som piller eller kapsler med pulver i, men du kan også optage det gennem huden (gad godt vide om man kan optage det gennem hænderne, man fx når du bruger magnesium og kalk til at få et bedre greb i styrkerummet).
 
 Mange bruger kosttilskuddet ZMA, fordi det bl.a. markedsføres med at:
 
 > ZMA bidrager til at vedligeholde et normalt testosteronniveau i blodet samt til at mindske træthed og udmattelse.
 
-— <cite>[Bodylab](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=22819&htmlurl=https://www.bodylab.dk/shop/bodylab-zma-120-695p.html){:rel="nofollow"}</cite>
+— <cite>[Bodylab](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=22819&htmlurl=https://www.bodylab.dk/shop/bodylab-zma-120-695p.html){: rel='sponsored nofollow noopener' }</cite>
 
 Og hvem kan ikke godt lide det, når man træner. ZMA står for Zink, Magnesium og B6-vitamin, så ideen er naturligvis at de tre mineraler har nogle positive egenskaber i kroppen. Og når de har det, så hjælper præparatet på netop det.
 
 Men det er jo kun rigtigt, hvis du har mangel på det, eller at det giver mening at have ekstra meget af det i kroppen.
 
-Magnesium er også altid en del af en [multivitaminpille](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=22819&htmlurl=https://www.bodylab.dk/shop/bodymin-252p.html){:rel="nofollow"}, hvis du vælger at tage sådan en.
+Magnesium er også altid en del af en [multivitaminpille](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=22819&htmlurl=https://www.bodylab.dk/shop/bodymin-252p.html){: rel='sponsored nofollow noopener' }, hvis du vælger at tage sådan en.
 
-Efterhånden er flere begyndt at reklamere med at indtage vitaminer og mineraler på spray, og magnesium er ingen undtagelse. Fx reklamerer [helsebixen.dk med en magnesiumoliespray](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=24609&htmlurl=https://www.helsebixen.dk/shop/altiderm-mg12-optima-magnesiumolie.html){:rel="nofollow"}.
+Efterhånden er flere begyndt at reklamere med at indtage vitaminer og mineraler på spray, og magnesium er ingen undtagelse. Fx reklamerer [helsebixen.dk med en magnesiumoliespray](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=24609&htmlurl=https://www.helsebixen.dk/shop/altiderm-mg12-optima-magnesiumolie.html){: rel='sponsored nofollow noopener' }.
 
 Forskningen på området er dog stadig ret ny. Gröber et al (2017) konkluderer fx:
 
@@ -233,11 +234,11 @@ Det giver derimod mening at stille sig selv spørgsmålet: **hvor får jeg det b
 
 Når du kigger efter **det bedste magnesium**, så skal du kigge efter, at der er brugt det organisk-bundne _magnesium bisglycinat_, som har en langt bedre udnyttelsesgrad end fx det langt billigere alternativ _magnesium oxid_. Jeg foreslår, at du køber magnesium fra en dansk forhandler, som du stoler på.
 
-**Magnesium er relativt billigt**, så du kan ikke gå helt galt i byen. Magnesium indgår ofte i en kombination kaldet ZMB. Du kan bl.a. købe [ZMB billigt fra danske Bodylab\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=22819&htmlurl=https://www.bodylab.dk/shop/cms-search.html?Keyword=magnesium){:rel="nofollow"}, som har et god ry. Hvis du gerne vil støtte Motionsplan, så får vi kommision, hvis du køber fra nogle af vores samarbejdspartnere.
+**Magnesium er relativt billigt**, så du kan ikke gå helt galt i byen. Magnesium indgår ofte i en kombination kaldet ZMB. Du kan bl.a. købe [ZMB billigt fra danske Bodylab](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=22819&htmlurl=https://www.bodylab.dk/shop/cms-search.html?Keyword=magnesium){: rel='sponsored nofollow noopener' }, som har et god ry. Hvis du gerne vil støtte Motionsplan, så får vi kommision, hvis du køber fra nogle af vores samarbejdspartnere.
 
 ## Er det sikkert at indtage magnesium?
 
-Du får automatisk magnesium som en vigtig del af din kost, og danskere får i gennemsnit lidt mere end den dagligt anbefalede dosis både for mænd og kvinder. næsten 400 mg dagligt. 
+Du får automatisk magnesium som en vigtig del af din kost, og danskere får i gennemsnit lidt mere end den dagligt anbefalede dosis både for mænd og kvinder. næsten 400 mg dagligt.
 
 Overskydende magnesium udskilles via nyrerne til urinen, så typisk skal man ikke være bekymret for at få en overdosis. Magnesium bruges imidlertid også som et let afføringsmiddel, fordi en overdosering også kan forårsage diarré.
 
@@ -252,9 +253,9 @@ Magneisum kan nemlig påvirke en række lægemidler med enten at svække eller f
 Magnesium danner fx uopløselige forbindelser med tetracyklin, som findes i antibiotika. Det nedsætter optagelsen med op til 50%. Derfor anbefales det at vente tre timer mellem indtagelsen af antibiotika med tetracykliner og magnesium. Antibiotikaen ændrer nemlig indholdet af magnesium i blodet.
 
 Får man receptpligtig medicin eller benytter håndkøbsmedicin i en længere periode anbefales det generelt, at man kontakter sin læge eller forhører sig på apoteket med hensyn til vitaminer og eventuelt vitamintilskud.
-{: .notice .notice--info } 
+{: .notice .notice--info }
 
-Magnesium indgår også i en række lægemidler, fx behandlingen af mavesår (Antacida) eller som et mildt afføringsmiddel, fx [Magnesia, som du kan købe hos Viivaa](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=23009&htmlurl=https://www.viivaa.dk/magnesia-orange-200-1166p.html){:rel="nofollow"}.
+Magnesium indgår også i en række lægemidler, fx behandlingen af mavesår (Antacida) eller som et mildt afføringsmiddel, fx [Magnesia, som du kan købe hos Viivaa](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=23009&htmlurl=https://www.viivaa.dk/magnesia-orange-200-1166p.html){: rel='sponsored nofollow noopener' }.
 
 ## Magnesium og D-vitamin
 
@@ -276,13 +277,13 @@ Djokic et al (2019) fandt i deres studie af folk diagnostiseret med søvnløshed
 
 Magnesium er ud til at have en positiv virkning på evnen til at falde i søvn. Man har også undersøgt magnesiums effekt på _restless leg synddrome_.
 
-Hvis du oplever uro i kroppen om aftenen og har svært ved at falde i søvn, så viser studier altså, at et magnesiumtilskud kan være gavnligt, hvis ikke du kan få det tilstrækkelige magnesium gennem kosten. 
+Hvis du oplever uro i kroppen om aftenen og har svært ved at falde i søvn, så viser studier altså, at et magnesiumtilskud kan være gavnligt, hvis ikke du kan få det tilstrækkelige magnesium gennem kosten.
 
 ## Hvordan ved vi hvor meget magnesium, vi har brug for?
 
 Sandheden er formntlig, at det ved vi heller ikke helt. Fælles for studierne omkring magnesium og effekten af tilskud er, at forskerne har svært ved at bestemme magnesiumniveauerne i kroppen. Vi kan nemlig ikke måle det præcist.
 
-Kroppen regulerer magnesium stramt i kroppen, og der er altid den samme mængde i blodet. Derfor kan vi ikke bare tage en blodprøve til at bestemme kroppens magnesiumniveau. 
+Kroppen regulerer magnesium stramt i kroppen, og der er altid den samme mængde i blodet. Derfor kan vi ikke bare tage en blodprøve til at bestemme kroppens magnesiumniveau.
 
 > »Magnesium er et af de interessante mineraler, fordi vi i øjeblikket anbefaler, at danskere dagligt indtager mellem 300 og 380 milligram af det. Dette er baseret på undersøgelser af, hvor meget der udskilles ved forskellige indtag, hvilket ikke er den bedste metode til at undersøge optag af et mineral i kroppen. Det er dog ofte den eneste metode, vi har for forskellige mineraler, og det gælder også magnesium«.
 
@@ -292,7 +293,7 @@ Derfor er det utrolig vanskeligt nøjagtigt at vide, om den enkelte er i magnesi
 
 ## Har jeg brug for et magnesiumtilskud?
 
-Hvis du har magnesiummangel, så kan der være brug for et magnesiumtilskud. Wang et al (2017) fandt i deres systematiske review af litteraturen, at de ældre og alkoholikere formentlig kan have gavn af et magnesiumtilskud (se også Zhang 2017). 
+Hvis du har magnesiummangel, så kan der være brug for et magnesiumtilskud. Wang et al (2017) fandt i deres systematiske review af litteraturen, at de ældre og alkoholikere formentlig kan have gavn af et magnesiumtilskud (se også Zhang 2017).
 
 Jeg synes det er lidt uklart i det jeg har læst, hvordan man præcist finder ud af, om man selv kunne have en gavnlig effekt af et magnesiumtilskud.
 

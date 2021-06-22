@@ -29,6 +29,7 @@ feature_row:
     alt: "Stretching Anatomy af Arnold G. Nelson, Jouko J. Kokkonen om anatomi og udstrækning"
     btn_label: "Tjek prisen hos Tales*"
     btn_class: "btn--warning"
+    rel: sponsored nofollow noopener
   - image_path: https://cdn6.tales.dk/00098/14031/cover.1572457859.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/performance-stretching_deborah-ellison_9780880117746
     title: "Performance Stretching"
@@ -36,6 +37,7 @@ feature_row:
     alt: "Performance Stretching af Deborah Ellison"
     btn_label: "Tjek prisen hos Tales*"
     btn_class: "btn--warning"
+    rel: sponsored nofollow noopener
   - image_path: https://cdn6.tales.dk/00024/08273/cover.1577053163.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/facilitated-stretching_robert-e-mcatee_9781450434317
     title: "Facilitated Stretching"
@@ -43,6 +45,7 @@ feature_row:
     alt: "Facilitated Stretching om PNF udstrækning"
     btn_label: "Tjek prisen hos Tales*"
     btn_class: "btn--warning"
+    rel: sponsored nofollow noopener
 ---
 
 Udstrækning og udspænding bliver brugt i rigtig mange idrætsgrene. Udstrækningsøvelser bliver ofte brugt for at blive smidigere, så de kaldes også ofte smidighedsøvelser. Vi kigger på, hvad der sker i kroppen, når vi strækker ud og hvilket forskellige typer udstrækning, der findes. Endelig giver vi nogle forslag til strækøvelser.

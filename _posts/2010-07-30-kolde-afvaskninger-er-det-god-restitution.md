@@ -22,6 +22,7 @@ gallery:
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=71899&htmlurl=https://yourboots.dk/cool/
     alt: Yourboots Cool til kryoterapi
     title: Yourboots Cool
+    rel: sponsored nofollow noopener
 ---
 
 For nylig fik jeg anbefalet at spule mine ben med koldt vand efter mine løbeture for at restituere hurtigere. Nu er jeg ikke så vild med koldt vand, så jeg tog ikke min vens ord for det. Jeg gik i stedet for i gang med at researche lidt på isbade og kryoterapi i forhold til restitution.
@@ -78,9 +79,9 @@ Hvis du gerne vil bruge isbade, skal du nok overveje kun at gøre det efter udho
 
 Du skal også huske, at det er vanskeligt at lave et dobbeltblindet, placebo-kontrolleret studie. Man kan godt lave et studie, der sammenligner med en anden type restitutionsaktivitet, men hvis man ender i den kolde balje, så opdager man det i hvert fald.
 
-Hvis du gerne vil implementere isbade ind i din træning og restitution, så har [yourboots.dk lanceret et ret smart produkt med deres Cool sleeve](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=71899&htmlurl=https://yourboots.dk/cool/){:rel="nofollow"}.
+Hvis du gerne vil implementere isbade ind i din træning og restitution, så har [yourboots.dk lanceret et ret smart produkt med deres Cool sleeve](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=71899&htmlurl=https://yourboots.dk/cool/){: rel='sponsored nofollow noopener' }.
 
-{% include gallery caption="Tjek priserne for Cool hos [yourboots.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=71899&htmlurl=https://yourboots.dk/cool/){:rel=\"nofollow\"}" %}
+{% include gallery caption="Tjek priserne for Cool hos [yourboots.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=71899&htmlurl=https://yourboots.dk/cool/){: rel='sponsored nofollow noopener' }" %}
 
 Hvilke erfaringer har du med kolde isbade i forhold til din træning?
 

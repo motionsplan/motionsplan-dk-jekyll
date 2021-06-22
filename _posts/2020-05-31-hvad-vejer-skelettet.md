@@ -25,6 +25,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/anatomisk-guide-til-bevaegeapparatet-9788777499104"
     btn_label: "Se prisen hos Den Intelligente Krop*"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
   - image_path: https://cdn6.tales.dk/00002/73191/cover.20160911.jpg
     alt: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
     title: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
@@ -32,6 +33,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://bogreolen.dk/menneskekroppen_steve-parker_9788756784436"
     btn_label: "Se prisen hos Tales*"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
   - image_path: https://imgcdn.saxo.com/_9788762809000/0x500
     alt: "Bevægeapparatets anatomi"
     title: "Bevægeapparatets anatomi"
@@ -39,6 +41,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/bevaegeapparatets-anatomi_joergen-tranum-jensen_indbundet_9788762809000"
     btn_label: "Se prisen hos Saxo*"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 ---
 
 Jeg får ofte spørgsmålet om, hvad knoglerne og skelettet vejer, når jeg underviser i anatomi. Jeg har derfor researchet lidt på, hvor meget skelettet og knoglerne vejer?
@@ -47,11 +50,11 @@ Hvor meget vejer skelettet? **Menneskets skelet og knogler udgør omkring 12-20 
 
 ## Hvornår vejer knoglerne mest?
 
-Skelettet er levende og udskiftes konstant, og knoglerne påvirkes af din levevis. 
+Skelettet er levende og udskiftes konstant, og knoglerne påvirkes af din levevis.
 
 Et nyfødt barns skelet består primært af brusk og knoglemassen er relativt lille. I alt er kalkindholdet kun omkring 25 gram. Under opvæksten bliver barnets knogler mere og mere stive, fordi kalkindholdet siger i knoglerne.
 
-Knoglerne vokser knoglerne i længde, bredde og tykkelse indtil slutningen af puberteten. Nu er knoglerne blevet mere stive og skulle gerne have fået en høj knoglemasse med et højt kalkindhold. 
+Knoglerne vokser knoglerne i længde, bredde og tykkelse indtil slutningen af puberteten. Nu er knoglerne blevet mere stive og skulle gerne have fået en høj knoglemasse med et højt kalkindhold.
 
 Opbygningen af knoglemassen afhænger af din genetik, hormoner og påvirkes af din levevis. Knogleopbygningen responderer på din kost og indtaget med vitaminer og mineraler og på den vægtbærende belastning, knoglerne udsættes for.
 
@@ -71,7 +74,7 @@ Voksne mænd mister cirka 0,5% knoglemasse om året efter det 20-30 år, mens kv
 
 Nogle har mere kompakte knogler end andre. Man siger at densiteten og knoglemineraltætheden er højere for de mennesker. Typisk er der ikke så stor forskel på knoglestørrelsen mellem mennesker.
 
-Det er godt at have kompakte knogler med høj knoglemasse, for så brækker de ikke så let. 
+Det er godt at have kompakte knogler med høj knoglemasse, for så brækker de ikke så let.
 
 Knoglernes densitet har intet at gøre med knoglernes omkreds.
 
@@ -86,7 +89,7 @@ Knoglernes densitet har intet at gøre med knoglernes omkreds.
 
 ## Hvor mange knogler har et menneske?
 
-Menneskekroppen har som voksen i alt 206 knogler. Knoglerne er bundet sammen til skelettet via [led og forskellige ledtyper]({% link _pages/anatomy/joints.md %}). Alle mennesker har flere forskellige [knogletyper]({% link _pages/anatomy/bones.md %}). 
+Menneskekroppen har som voksen i alt 206 knogler. Knoglerne er bundet sammen til skelettet via [led og forskellige ledtyper]({% link _pages/anatomy/joints.md %}). Alle mennesker har flere forskellige [knogletyper]({% link _pages/anatomy/bones.md %}).
 
 Jeg har skrevet et andet indlæg, hvor du kan få uddybet svaret til "[Hvor mange knogler har mennesket?]({% link _posts/2020-05-31-hvor-mange-knogler-har-mennesket.md %})", hvor du også får svaret på, hvor mange knogler en baby har?
 

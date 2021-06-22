@@ -18,6 +18,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/anatomisk-guide-til-bevaegeapparatet-9788777499104"
     btn_label: "Se prisen hos Den Intelligente Krop*"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
   - image_path: https://cdn6.tales.dk/00002/73191/cover.20160911.jpg
     alt: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
     title: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
@@ -25,6 +26,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://bogreolen.dk/menneskekroppen_steve-parker_9788756784436"
     btn_label: "Se prisen hos Tales*"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
   - image_path: https://imgcdn.saxo.com/_9788762809000/0x500
     alt: "Bevægeapparatets anatomi"
     title: "Bevægeapparatets anatomi"
@@ -32,6 +34,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/bevaegeapparatets-anatomi_joergen-tranum-jensen_indbundet_9788762809000"
     btn_label: "Se prisen hos Saxo*"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
   - image_path: https://cdn6.tales.dk/00002/76435/cover.20160912.jpg
     alt: "Træning og anatomi"
     title: "Træning og anatomi"
@@ -39,6 +42,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/traening-og-anatomi-50-vigtige-oevelser-med-flotte-illustrationer_ken-ashwell_9788778423191"
     btn_label: "Se prisen hos Tales*"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 toc: true
 sidebar:
   nav: anatomi
@@ -47,45 +51,59 @@ feature_row_citatplakat:
   - image_path: https://citatplakat.dk/wp-content/uploads/2020/11/Plakat-om-menneskets-skelet-forfra-og-bagfra-AN10025.png
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/skelettet-anatomi-plakat/
     title: Skelettet 2 - Anatomi plakat
+    rel: sponsored nofollow noopener
   - image_path: https://citatplakat.dk/wp-content/uploads/2020/11/Plakat-om-menneskets-skelet-bagfra-AN10026.png
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/skelettet-bagfra-anatomi-plakat/
     title: Skelettet bagfra - Anatomi plakat
+    rel: sponsored nofollow noopener
   - image_path: https://citatplakat.dk/wp-content/uploads/2020/11/Plakat-om-menneskets-muskulatur-bagfra-AN10031.png
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/muskulatur-3-anatomi-plakat/
     title: Muskulatur bagfra - Anatomi plakat
+    rel: sponsored nofollow noopener
   - image_path: https://citatplakat.dk/wp-content/uploads/2020/11/Plakat-af-menneskets-skelet-fra-siden-AN10029.png
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/skelettet-siden-anatomi-plakat/
     title: Skelettet fra siden - Anatomi plakat
+    rel: sponsored nofollow noopener
   - image_path: https://citatplakat.dk/wp-content/uploads/2020/11/Plakat-om-menneskets-nervesystem-AN10024.png
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/rvesystemet-anatomi-plakat/
     title: Nervesystemet - Anatomi plakat
+    rel: sponsored nofollow noopener
   - image_path: https://citatplakat.dk/wp-content/uploads/2020/11/Plakat-om-menneskets-muskulatur-forfra-AN10032.png
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/muskulatur-forfra-anatomi-plakat/
     title: Muskulatur forfra - Anatomi plakat
+    rel: sponsored nofollow noopener
   - image_path: https://citatplakat.dk/wp-content/uploads/2020/11/Plakat-om-menneskets-vejrtraekning-AN10030.png
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/det-respiratoriske-system-anatomi-plakat/
     title: Det respiratoriske system - Anatomi plakat
+    rel: sponsored nofollow noopener
   - image_path: https://citatplakat.dk/wp-content/uploads/2020/11/Plakat-med-menneskets-skelet-AN10028.png
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/skelettet-anatomi-plakat-2/
     title: Skelettet - Anatomi plakat
+    rel: sponsored nofollow noopener
   - image_path: https://citatplakat.dk/wp-content/uploads/2020/11/Plakat-med-menneskets-muskler-AN10023.png
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/muskulatur-anatomi-plakat/
     title: Muskulatur - Anatomi plakat
+    rel: sponsored nofollow noopener
   - image_path: https://citatplakat.dk/wp-content/uploads/2020/11/Plakat-om-menneskets-skelet-forfra-AN10027.png
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/skelettet-forfra-anatomi-plakat/
     title: Skelettet forfra - Anatomi plakat
+    rel: sponsored nofollow noopener
   - image_path: https://citatplakat.dk/wp-content/uploads/2020/11/Plakat-af-kroppens-muskler-AN10002.png
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/anatomi-plakater/muskel-plakat-anatomi-plakat/
     title: Muskel plakat - Anatomi plakat
+    rel: sponsored nofollow noopener
   - image_path: https://citatplakat.dk/wp-content/uploads/2020/11/Plakat-af-kroppens-skelet-AN10003.png
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/anatomi-plakater/skelet-anatomi-plakat/
     title: Skelet - Anatomi plakat
+    rel: sponsored nofollow noopener
   - image_path: https://citatplakat.dk/wp-content/uploads/2020/11/Plakat-med-amndens-anatomi-AN10001.png
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/anatomi-plakater/kroppens-muskler-anatomi-plakat/
     title: Nervesystemet - Anatomi plakat
+    rel: sponsored nofollow noopener
   - image_path: https://citatplakat.dk/wp-content/uploads/2020/11/Plakat-af-mandens-anatomi-AN10000.png
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/anatomi-plakater/fysiologi-anatomi-plakat/
     title: Fysiologi - Anatomi plakat
+    rel: sponsored nofollow noopener
   - image_path: "https://citatplakat.dk/wp-content/uploads/2020/11/Plakat-om-kroppens-bloda%CC%8Are-AN10013.png"
     url: "https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/blodkredsloebet-anatomi-plakat/"
     title: "Blodkredsløbet - Anatomi plakat"
@@ -95,6 +113,7 @@ feature_row_citatplakat:
     old_price: 129.00
     discounted: false
     id: "59381"
+    rel: sponsored nofollow noopener
 ---
 
 Hvis du vil forstå, hvordan træningsøvelser virker, så er det godt at kende kroppens anatomi.

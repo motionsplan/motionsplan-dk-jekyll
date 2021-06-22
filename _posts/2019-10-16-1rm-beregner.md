@@ -35,6 +35,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835"
     btn_label: "Tjek prisen på Saxo*"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
   - image_path: https://imgcdn.saxo.com/_9788799095872/0x500
     title: &book_title "Fitness testning - fysisk testning og sundhedstestning i fitnesscentre, skole og hjem"
     alt: *book_title
@@ -42,6 +43,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/fitness-testning_marina-aagaard_haeftet_9788799095872"
     btn_label: "Læs mere"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
   - image_path: https://imgcdn.saxo.com/_9788799369591/0x500
     title: &book_title "Sundhedstjek og formtest - styrk og bevar din motivation med nemme gør-det-selv tests"
     alt: *book_title
@@ -49,6 +51,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/sundhedstjek-og-formtest_marina-aagaard_haeftet_9788799369591"
     btn_label: "Læs mere"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 ---
 
 Du kan lave en RM-test for at finde ud af, hvor meget du kan løfte. I en RM-test kan du enten lave et maksimalt løft, hvilket naturligvis er meget præcist.
@@ -57,7 +60,7 @@ Du kan også lave submaksimale løft med flere gentagelser og bagefter bruge en 
 
 Hvad er en RM-beregner? **En RM-beregner kan udregne _Repetition Maximum (RM)_. RM-begrebet kan først og fremmest bruges til at estimere, hvad du maksimalt kan løfte en gang ud fra vægten på et submaksimalt løft med flere gentagelser. Ud fra din 1RM kan du derefter estimere forskellige RM-vægte, som fx kan anvendes i træningsprogrammer.**
 
-Ud fra en maksimal test med fx 5 reps og en given vægt, kan du udregne dit maksimale 1RM-max løft. 
+Ud fra en maksimal test med fx 5 reps og en given vægt, kan du udregne dit maksimale 1RM-max løft.
 
 *[1RM]: One Repetition Maximum
 *[RM]: Repetition Maximum
@@ -109,7 +112,7 @@ Lad os først springe til 1RM-beregneren, så kan vi kigge yderligere på forbeh
 
 ## Fordele ved en RM-beregner
 
-Den submaksimale estimering kan være hurtigere og mere sikker særligt for uerfarne løftere, men metoden er naturligvis ikke fejlfri. 
+Den submaksimale estimering kan være hurtigere og mere sikker særligt for uerfarne løftere, men metoden er naturligvis ikke fejlfri.
 
 En RM-beregner kan både underestimere og overestimere den faktuelle 1RM for løfterne. Der er i hvert fald et par forhold, som man skal tænke på:
 
@@ -128,7 +131,7 @@ For at lave formlerne til at udregne 1RM, så har forskerne fået en række delt
 
 Det varierer lidt mellem studierne, hvordan de nøjagtigt har gjort det. Deltagerne har naturligvis løftet ved forskellige RM-intensiteter, fx 10RM, 5RM, 3RM og 1RM.
 
-I nogle studier har de også målt biometriske værdier som fx armlængde for bænkpres, fedtprocent, brystmål. Formålet med disse mål har formentlig primært været at se, om disse variable kunne spille ind på resultatet. 
+I nogle studier har de også målt biometriske værdier som fx armlængde for bænkpres, fedtprocent, brystmål. Formålet med disse mål har formentlig primært været at se, om disse variable kunne spille ind på resultatet.
 {: .notice .notice--info }
 
 Derefter har forskerene lavet regressionsanlyse på tallen. Typisk har de fundet en sammenhænge som: "højere 5RM også resulterer i en højere 1RM" eller at "folk med kortere arme er stærkere i bænkpres". Regressionanalysen ender så med et at ende ud i en formel.
@@ -145,12 +148,12 @@ Du kan naturligvis bruge vores RM-beregner til at beregne din egen 1RM, men du k
 
 Alle de [følgende formler til at udregne 1RM](https://en.wikipedia.org/wiki/One-repetition_maximum) er baseret på _gentagelser_ og _vægt_.
 
-- **r** er antallet reps eller gentagelser 
+- **r** er antallet reps eller gentagelser
 - **w** er den løftede vægt
 
 <details markdown="1">
   <summary>Se Brzyckis formel til repetition maximum</summary>
-  
+
 ### Brzyckis formel til RM
 
 Denne formel kaldes ofte **Brzyckis formel** efter dens skaber Matt Brzycki. Formlen kan skrives på lidt forskellige måder, som det ses her:
@@ -233,13 +236,13 @@ Det understøtter forskningen også, og det er hele baggrunden bag _velocity bas
 
 ## Test af din _sande_ 1RM
 
-Det er naturligvis godt at teste med submaskimale tests, men sommetider er det også godt at komme tættere på, hvad din rigtige 1RM er. På den måde kommer du tættere på grænsen for, hvad din krop kan. 
+Det er naturligvis godt at teste med submaskimale tests, men sommetider er det også godt at komme tættere på, hvad din rigtige 1RM er. På den måde kommer du tættere på grænsen for, hvad din krop kan.
 
 {% include video provider="youtube" id="HhRDUYmIALU" %}
 
-Hvis du vil teste din max selv, så husk at **have styr på sikkerheden** ved at have _safety pins_ og _spottere_. Det gælder særligt ved bænkpres, hvor der ikke er nogen vej væk. 
+Hvis du vil teste din max selv, så husk at **have styr på sikkerheden** ved at have _safety pins_ og _spottere_. Det gælder særligt ved bænkpres, hvor der ikke er nogen vej væk.
 
-Husk at bygge din test op langsomt og tænke over opvarmningen, før du hopper direkte til et 1RM-forsøg. Husk også pauserne undervejs. Hvis du ikke har løftet max før, så bliver ud overrasket over, hvor længe det tager, inden kroppen er klar til maksimale løft. 
+Husk at bygge din test op langsomt og tænke over opvarmningen, før du hopper direkte til et 1RM-forsøg. Husk også pauserne undervejs. Hvis du ikke har løftet max før, så bliver ud overrasket over, hvor længe det tager, inden kroppen er klar til maksimale løft.
 
 Husk også at teknikken stadig er vigtig, selvom du gerne vil løfte tungt. Der er ikke så meget ved at squats pludselig bliver halve, eller at du ikke får bøjet armene i bænkpres.
 
@@ -280,7 +283,7 @@ Bruger du en RM-beregner i din træning?
 - [Science for Sport: Testing 1RM](https://www.scienceforsport.com/1rm-testing/)
 - Reynolds, Jeff M., Toryanno J. Gordon, og Robert Andrew Robergs. “Prediction of one repetition maximum strength from multiple repetition maximum testing and anthropometry.” Journal of strength and conditioning research 20, nr. 3 (2006): 584–92. <https://doi.org/10.1519/R-15304.1>.
 - [Jacob Beermann om Maxtest](https://maxer.dk/artikler/maxtest)
-- [Test dig i topform](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=20604&htmlurl=https://www.bodyman.dk/shop/cms-test-dig-til-topform.html){:rel="nofollow"}
+- [Test dig i topform](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=20604&htmlurl=https://www.bodyman.dk/shop/cms-test-dig-til-topform.html){: rel='sponsored nofollow noopener' }
 
 </details>
 

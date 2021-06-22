@@ -24,12 +24,14 @@ feature_row:
     excerpt: "Jack Daniels was named the world's best running coach by Runner's World magazine, and his best-selling book, Daniels' Running Formula, shows you why. Whether your race of choice is the 800 meters, the marathon, or anything in between, Daniels' Running Formula, Third Edition, offers a proven recipe for success."
     btn_label: "Tjek prisen hos Tales*"
     btn_class: "btn--danger"
+    rel: sponsored nofollow noopener
   - image_path: https://cdn6.tales.dk/00001/70394/cover.1568203219.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390
     title: "Løb som eliten"
     excerpt: "Claus Hechmanns bog LØB SOM ELITEN er handler om, hvordan du skal træne for at blive en hurtigere løber og få mest muligt ud af dit potentiale. Bogen indeholder fem specialdesignede 12-ugers programmer til distancerne 5 km, 10 km og helt op til maraton."
     btn_label: "Tjek prisen hos Tales*"
     btn_class: "btn--danger"
+    rel: sponsored nofollow noopener
 feature_row_stryd:
   - image_path: https://static.wixstatic.com/media/3c82eb_70f1384f64584b009ccc002dbe0fe482~mv2.jpg/v1/fill/w_630,h_630,al_c,q_85,usm_0.66_1.00_0.01/3c82eb_70f1384f64584b009ccc002dbe0fe482~mv2.webp
     alt: "STRYD Wattmåler - Next Generation"
@@ -92,7 +94,7 @@ Periodisering af et løbeprogram betyder, at løbeprogrammet er inddelt i forske
 
 Et eksempel kan være et løbeprogram, der er inddelt i fire faser:
 
-- **Fase 1**. Du opbygger og **forbereder din krop** på de efterfølgende faser, så du kan holde til træningen uden at blive skadet. 
+- **Fase 1**. Du opbygger og **forbereder din krop** på de efterfølgende faser, så du kan holde til træningen uden at blive skadet.
 - **Fase 2**. Jeg anbefaler i fase to at øge fokus på **udholdenheden** og evnen til at **forbrænde fedt**.
 - **Fase 3**. Vi fokuserer på at **øge styrken** og fokuserer fortsat på at forbedre udholdenheden.
 - **Fase 4**. I denne specifikke fase målretter vi træningen mod den distance, du gerne vil være bedre på. I denne fase er der typisk en del intervaltræning.
@@ -105,7 +107,7 @@ Når du laver en faseopdelt løbetræning, så kan du hele tiden sørge for i de
 
 Samtidig synes jeg, at det er sjovere, når træningen varierer hen over året.
 
-Jeg er alt for ofte selv sprunget over de indledende faser, som forbereder kroppen til at kunne holde til at træne. 
+Jeg er alt for ofte selv sprunget over de indledende faser, som forbereder kroppen til at kunne holde til at træne.
 
 Derfor er jeg også flere gange endt med at blive småskadet.
 
@@ -204,7 +206,7 @@ Pointen er, at folk køber i meget forskelligt tempo, men hvis vi skal arbejde m
 
 — <cite>[Budd Coates](https://www.wedorun.dk/blog/43661-fejlen-som-naesten-alle-nye-loebere), 4-dobbelt olympisk maratondeltager fra USA</cite>
 
-Det er helt sikkert, at begyndere kan have rigtig meget ud af at begynde at tænke i minutter i løbetræningen. 
+Det er helt sikkert, at begyndere kan have rigtig meget ud af at begynde at tænke i minutter i løbetræningen.
 
 Veltrænede løbere kan også sagtens lave deres træningsprogrammer i minutter.
 

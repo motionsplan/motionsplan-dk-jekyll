@@ -18,6 +18,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835"
     btn_label: "Tjek prisen hos Saxo*"
     btn_class: "btn--danger"
+    rel: sponsored nofollow noopener
   - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/1600x/9df78eab33525d08d6e5fb8d27136e95/a/n/anatomisk-guide-til-bevaegeapparatet-9788777499104-andrew-biel-gitte-bjerg-fuusager.jpg
     alt: "Anatomisk Guide til Bevægeapparatet"
     title: "Anatomisk Guide til Bevægeapparatet"
@@ -25,6 +26,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/anatomisk-guide-til-bevaegeapparatet-9788777499104"
     btn_label: "Se prisen hos Den Intelligente Krop*"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
   - image_path: https://cdn6.tales.dk/00002/73191/cover.20160911.jpg
     alt: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
     title: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
@@ -32,6 +34,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://bogreolen.dk/menneskekroppen_steve-parker_9788756784436"
     btn_label: "Se prisen hos Tales*"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 ---
 
 Jeg har samlet alle øvelserne, der bruges i forbindelse med Fitnessinstruktør. Det giver et samlet overblik over træningsøvelserne, som du skal kunne undervise i, når du gerne vil være Fitnessinstruktør.

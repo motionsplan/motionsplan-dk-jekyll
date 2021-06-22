@@ -23,24 +23,28 @@ feature_row:
     excerpt: "Du kan fx køre Zwift på en Wahoo Kickr 5.0. Den kører relativt støjsvagt, og har både effektmåler og kadencemåler. Husk at tjekke om gear kasetten passer til din cykel på den version, du køber."
     btn_label: "Tjek prisen hos cykler.dk*"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
   - image_path: https://resources.chainbox.io/cykelpartner/public/pim/959f8301-8547-42dc-a159-723d8b30da09/150066_A_default.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=16446&htmlurl=https://www.cykelpartner.dk/hometrainere/wahoo-kickr-climb---simulerer-op--og-nedstigninger
     title: Wahoo Kickr Climb til Zwift
     excerpt: "En Kickr Climb simulerer op- og nedstigninger, når du kører indendørs cykling. Det kan give dit en rigtig god virtuel oplevelse af, at du kører i virkeligheden, og Kickr Climb kan bruges sammen med Zwift."
     btn_label: "Tjek prisen hos cyklerpartner.dk*"
     btn_class: "btn--info"
+    rel: sponsored nofollow noopener
   - image_path: https://cykelexperten.b-cdn.net/media/b4/9a/0b/1588852583/uploads_2018_10_wahoo-kickr-headwind-e1540299465291.jpeg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-kickr-headwind/?source=partner-ads
     title: Wahoo Kickr Headwind til Zwift
     excerpt: "Wahoo Kickr Headwind er en blæser, som styres af din hastighed, og den registrerer også i Zwift, om du ligger i læ af andre ryttere. Med Kickr Headwind er du sikker på at have køling nok, når du sveder i Zwift."
     btn_label: "Tjek prisen hos cykelexperten.dk*"
     btn_class: "btn--warning"
+    rel: sponsored nofollow noopener
   - image_path: https://fricdn.dk/Files/Images/FriBikeShop/ProductImages/tacx-flux-2-zwift-bundle.jpg?width=840&height=573&bgcolor=fff&format=jpeg&quality=80&mode=crop
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70559&htmlurl=http://www.fribikeshop.dk/Default.aspx?ID=286&ProductID=PROD917
     title: Tacx Flux 2 Smart Zwift Bundle
     excerpt: "Kraftfuld, præcis og støjsvag hometrainer med direkte drev-montering. Tacx FLUX 2 Smart virker rigtig godt sammen med Zwift og er lidt billigere end Wahoo Kickr 5.0."
     btn_label: "Tjek prisen hos fribikeshop.dk*"
     btn_class: "btn--danger"
+    rel: sponsored nofollow noopener
 ---
 
 Jeg er lige gået i gang med at køre Zwift på hometrainer, så jeg har skrevet en guide til at komme i gang med virtuel cykling. Det er en guide til en begynder, som besvarer alle de spørgsmål, jeg selv havde, og du får svar fra en af de rigtig dygtige danske Zwift-cykelryttere.
@@ -63,7 +67,7 @@ Lad os dykke ned i begynderguiden til Zwift.
 
 Zwift er et spil du kan bruge sammen med din _hometrainer_ til cykling eller _watt-måler_ til løb. Zwift er mest kendt for at være en platform for cykelryttere. Zwift giver dig mulighed for at linke din _hometrainer_: op til din computer, iPad, iPhone, Apple TV, Android devide, så du kan køre med andre cykelryttere i et virtuelt miljø. Du kan både træne i Zwift og køre løb mod andre i den virtuelle Zwift-verden.
 
-Ud over at konkurrere mod andre cykelryttere i Zwift-cykelløb kan du også lægge hele din træning ind i Zwift. Selvom træningsplanlægning altid bør være individuel, er det nu meget motiverende at vide at træningsprogrammerne i Zwift er designet af professionelle trænere, men du kan også sagtens lægge din egen træning ind i Zwift. Du kan fx lave træning baseret på absolutte watt-tal eller som procent af din functional threshold power (FTP). 
+Ud over at konkurrere mod andre cykelryttere i Zwift-cykelløb kan du også lægge hele din træning ind i Zwift. Selvom træningsplanlægning altid bør være individuel, er det nu meget motiverende at vide at træningsprogrammerne i Zwift er designet af professionelle trænere, men du kan også sagtens lægge din egen træning ind i Zwift. Du kan fx lave træning baseret på absolutte watt-tal eller som procent af din functional threshold power (FTP).
 
 I Zwift kan du mødes med andre af dine venner og træne, og du har mulgihed for at køre sammen, selvom du ikke træder helt de samme watt, fx når I laver træning sammen. Det er en ret genial feature ved Zwift.
 
@@ -71,11 +75,11 @@ I Zwift kan du mødes med andre af dine venner og træne, og du har mulgihed for
 
 Zwift er et rigtig godt alternativ til cykling udenfor. Hvis vejret er dårligt, trafikken forfærdelig, du har begrænset tid eller bor langt væk fra andre cykelryttere, du kan træne sammen med. Der er ikke langt til de andre cyklister i Zwift. Jeg ved, at hvis det er koldt og vådt udenfor, så trækker oplevelsen for mig selv på Zwift i hvert fald mere.
 
-Når du kører Zwift, så kan du køre i en række forskellige verdener, hvor der er forskellige ruter. Fx er der Watopia, New York og London, og du kan også finde nogle af de tidligere VM-ruter. Swift kan også fobrinde til Strava, så du har al din træning samlet. 
+Når du kører Zwift, så kan du køre i en række forskellige verdener, hvor der er forskellige ruter. Fx er der Watopia, New York og London, og du kan også finde nogle af de tidligere VM-ruter. Swift kan også fobrinde til Strava, så du har al din træning samlet.
 
 ## Er Zwift gratis?
 
-Nej. Prisen på et Zwift abonnement er £12 eller $14,99 om måneden. Men du kan altid annullere dit abonnement på Zwift og genstarte det på et senere tidspunkt, hvilket er ret genialt. Jeg kommer i hvert fald ikke til at køre Zwift om sommeren, og så er det jo dejlig, at jeg ikke skal smide penge ud af vinduet på det tidspunkt. 
+Nej. Prisen på et Zwift abonnement er £12 eller $14,99 om måneden. Men du kan altid annullere dit abonnement på Zwift og genstarte det på et senere tidspunkt, hvilket er ret genialt. Jeg kommer i hvert fald ikke til at køre Zwift om sommeren, og så er det jo dejlig, at jeg ikke skal smide penge ud af vinduet på det tidspunkt.
 
 Du behøver ikke forpligte dig med det samme. Der er syv dages gratis prøveperiode, hvor du kan køre alt hvad du vil. Derefter kan du tegne et abonnement for en måned, som du kan opsige, når du vil.
 
@@ -87,31 +91,31 @@ Zwift har lavet denne glimrende [videoguide](https://support.zwift.com/en_us/wha
 
 {% include video provider="youtube" id="hQ2uC4n4VoY" %}
 
-Jeg cykler selv på en [Wahoo Kickr 5.0\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=59734&htmlurl=https://www.cykler.dk/wahoo-kickr.aspx), som jeg synes er utrolig behagelig at køre på og giver en rigtig god cykeloplevelse og som tidligere professionelle cykelrytter Martin Mortensen også anbefaler. Der er adaptere med, så du kan sætte cykler på med forskellige nav, men du skal huske at tjekke, at den passer til din cykel. Du kan også køre Zwift på en mountainbike.
+Jeg cykler selv på en [Wahoo Kickr 5.0](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=59734&htmlurl=https://www.cykler.dk/wahoo-kickr.aspx){: rel='sponsored nofollow noopener' }, som jeg synes er utrolig behagelig at køre på og giver en rigtig god cykeloplevelse og som tidligere professionelle cykelrytter Martin Mortensen også anbefaler. Der er adaptere med, så du kan sætte cykler på med forskellige nav, men du skal huske at tjekke, at den passer til din cykel. Du kan også køre Zwift på en mountainbike.
 
 En hjemmetræner har typisk indbygget effektmåler og variabel modstand, som kan spille sammen med Zwift. Din hometrainer måler dit arbejde og sender informationerne til Zwift, og på den måde kommer din online figur (avatar) til at cykle i den virtuelle verden.
 
 Den variable modstand på din _smart trainer_ giver dig fornemmelsen for, at du rent faktisk kører rigtigt. Når det går op ad bakke, så øges modstanden, og modstanden sænkes, når du kører ned ad bakke.
 
-Du behøver ikke nødvendigvis en dyr _hometrainer_ for at bruge Swift. Systemet fungerer bedst med en _smart trainer_, der har effektmåler, men du kan også nøjes med en gammel hjemmetræner, hvor du har hastighedsføler, som kan sende informationer gennem ANT+ eller Bluetooth til dit device. Derfor skal dit device naturligvis også understøtte enten ANT+ eller Bluetooth. Hvis ikke din computer understøtter det, så kan du købe en lille [ANT+ dongle\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-ant-usb-adapter/?source=partner-ads) eller Bluetooth dongle, som du kan sætte i USB-porten på din computer.
+Du behøver ikke nødvendigvis en dyr _hometrainer_ for at bruge Swift. Systemet fungerer bedst med en _smart trainer_, der har effektmåler, men du kan også nøjes med en gammel hjemmetræner, hvor du har hastighedsføler, som kan sende informationer gennem ANT+ eller Bluetooth til dit device. Derfor skal dit device naturligvis også understøtte enten ANT+ eller Bluetooth. Hvis ikke din computer understøtter det, så kan du købe en lille [ANT+ dongle](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-ant-usb-adapter/?source=partner-ads){: rel='sponsored nofollow noopener' } eller Bluetooth dongle, som du kan sætte i USB-porten på din computer.
 
 I dag har langt de fleste computere Bluetooth, så derfor kan du typisk bruge det til at sende data.
 
-Hvis du gerne vil forbedre oplevelsen og _tracke_ om du kommer i bedre form, så kan du med fordel også koble en **pulsmåler** til systemet. Jeg bruger selv en Polar H10, som kan sende både via Bluetooth og ANT+. 
+Hvis du gerne vil forbedre oplevelsen og _tracke_ om du kommer i bedre form, så kan du med fordel også koble en **pulsmåler** til systemet. Jeg bruger selv en Polar H10, som kan sende både via Bluetooth og ANT+.
 
 Men vi er slet ikke færdige endnu i forhold til det udstyr, man kan tilkøbe for at få en _premium_ Zwift-oplevelse.
 
-Hvis du gerne vil opgradere din oplevelse i Zwift, så kan du købe et **_device_, som kan simulere op- og nedstigninger**. Fx kan du sætte [Wahoo Kickr Climb\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=16446&htmlurl=https://www.cykelpartner.dk/hometrainere/wahoo-kickr-climb---simulerer-op--og-nedstigninger) på forhjulet af din cykel. Det betyder, at den hæver forhjulet, når du kører opad, så du ud over den hårdere modstand også kommer til at sidde lidt anderledes på cyklen.
+Hvis du gerne vil opgradere din oplevelse i Zwift, så kan du købe et **_device_, som kan simulere op- og nedstigninger**. Fx kan du sætte [Wahoo Kickr Climb](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=16446&htmlurl=https://www.cykelpartner.dk/hometrainere/wahoo-kickr-climb---simulerer-op--og-nedstigninger){: rel='sponsored nofollow noopener' } på forhjulet af din cykel. Det betyder, at den hæver forhjulet, når du kører opad, så du ud over den hårdere modstand også kommer til at sidde lidt anderledes på cyklen.
 
-Du kan også købe vindmodstand. Du kan købe en **blæser som kan simulere vindmodstand og køle dig ned**. Fx kan du købe en [Wahoo Kickr Headwind\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-kickr-headwind/?source=partner-ads), som justerer den virtuelle vindmodstand, når du kører. Når du sidder i en gruppe vil du kunne mærke, at du ligger og _drafter_, og hvis du kører hurtigere, så vil den blæse mere. Samtidig sikrer blæseren, at du ikke overopheder helt, når du kører.
+Du kan også købe vindmodstand. Du kan købe en **blæser som kan simulere vindmodstand og køle dig ned**. Fx kan du købe en [Wahoo Kickr Headwind](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-kickr-headwind/?source=partner-ads){: rel='sponsored nofollow noopener' }, som justerer den virtuelle vindmodstand, når du kører. Når du sidder i en gruppe vil du kunne mærke, at du ligger og _drafter_, og hvis du kører hurtigere, så vil den blæse mere. Samtidig sikrer blæseren, at du ikke overopheder helt, når du kører.
 
 > Jeg synes, det er rigtig vigtigt, at man har en blæser foran sig, når man kører Zwift. Jeg ved i hvert fald fra mig selv, at jeg ellers let koger over.
 
 — <cite>Martin Mortensen, cykellærer på Vejle Idrætsefterskole</cite>
 
-Du kan også købe et helt Zwift-bundle fra Tacx hos [fribikeshop.dk\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70559&htmlurl=http://www.fribikeshop.dk/Default.aspx?ID=286&ProductID=PROD917).
+Du kan også købe et helt Zwift-bundle fra Tacx hos [fribikeshop.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70559&htmlurl=http://www.fribikeshop.dk/Default.aspx?ID=286&ProductID=PROD917){: rel='sponsored nofollow noopener' }.
 
-Der er også mange er vælger at få en måtte under cyklen. En måtte beskytter gulvet mod sved og olie fra cyklen, men den er også med til at gøre kørekomforten bedre, da den støddæmper lidt. Samtidig lyddæmper den også lidt. Wahoo sælger naturligvis også [måtter til at have under cyklen\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-kickr-mat/?source=partner-ads).
+Der er også mange er vælger at få en måtte under cyklen. En måtte beskytter gulvet mod sved og olie fra cyklen, men den er også med til at gøre kørekomforten bedre, da den støddæmper lidt. Samtidig lyddæmper den også lidt. Wahoo sælger naturligvis også [måtter til at have under cyklen](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-kickr-mat/?source=partner-ads){: rel='sponsored nofollow noopener' }.
 
 Husk at læse lidt videre for at få de bedste tips fra Martin Mortensen, som er cykellærer på Vejle Idrætsefterskole, som virkelig ved alt om Zwift.
 
@@ -123,7 +127,7 @@ Jeg bruger i øjeblikket ikke Zwift til at løbe, men Zwift har lavet en glimren
 
 ## Hvilken cykel skal jeg vælge til Zwift?
 
-Du kan bruge de fleste cykler med udvendige gear, som kan monteres i din hjemmetræner eller _smart trainer_. Hvis din cykel har 10 eller 11 speed (antallet af tandhjul bagpå cyklen), så kan den formentlig bruges til din hjmmetræner. 
+Du kan bruge de fleste cykler med udvendige gear, som kan monteres i din hjemmetræner eller _smart trainer_. Hvis din cykel har 10 eller 11 speed (antallet af tandhjul bagpå cyklen), så kan den formentlig bruges til din hjmmetræner.
 
 De fleste af de store producenter af _smart trainers_, fx Wahoo, Tacx, Elite og BKool, har smart trainers, der kan benyttes til både racercykler og mountainbikes. I de fleste kan du også bruge racercykler med og uden skivebremser.
 
@@ -133,11 +137,11 @@ De fleste af de store producenter af _smart trainers_, fx Wahoo, Tacx, Elite og 
 
 Zwift kan køres på Windows, iOS, iPhone, iPad eller AppleTV og Google Play. Der er altså ikke mange undskyldninger, hvad angår dit device. Jeg kører mest fra en computer, men hvis du har en større tablet, så er der også rigtig mange, der bruger det. Du kan også i en snæver vending kører på telefonen, men det bliver meget småt i hvert fald for mine øjne.
 
-{% include figure image_path="https://i.pinimg.com/originals/62/b1/d6/62b1d69426d4cc6241a0e5d9cf0a3028.jpg" caption="Zwift setup hvor computeren står på et [Wahoo Bike Desk*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67757&htmlurl=https://www.proshop.dk/Sport-Fitness/Wahoo-Fitness-KICKR-Desk/2695504) og med en blæser foran" alt="Typisk setup i Zwift med et Wahoo Bike Desk"  %}
+{% include figure image_path="https://i.pinimg.com/originals/62/b1/d6/62b1d69426d4cc6241a0e5d9cf0a3028.jpg" caption="Zwift setup hvor computeren står på et [Wahoo Bike Desk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67757&htmlurl=https://www.proshop.dk/Sport-Fitness/Wahoo-Fitness-KICKR-Desk/2695504){: rel='sponsored nofollow noopener' } og med en blæser foran" alt="Typisk setup i Zwift med et Wahoo Bike Desk"  %}
 
-Du skal helst have tabletten eller computeren inden for rækkevidde, da du undervejs godt kan få brug for at interagere lidt med skærmen. Jeg tror klart de fleste bruger en iPad, som de enten stiller på et bord foran, har på en [tablet holder på cyklen\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70559&htmlurl=http://www.fribikeshop.dk/Default.aspx?ID=286&ProductID=100-T2092) eller sat den på computerholder, fx denne [Wahoo Bike Desk\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67757&htmlurl=https://www.proshop.dk/Sport-Fitness/Wahoo-Fitness-KICKR-Desk/2695504).
+Du skal helst have tabletten eller computeren inden for rækkevidde, da du undervejs godt kan få brug for at interagere lidt med skærmen. Jeg tror klart de fleste bruger en iPad, som de enten stiller på et bord foran, har på en [tablet holder på cyklen](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70559&htmlurl=http://www.fribikeshop.dk/Default.aspx?ID=286&ProductID=100-T2092) eller sat den på computerholder, fx denne [Wahoo Bike Desk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67757&htmlurl=https://www.proshop.dk/Sport-Fitness/Wahoo-Fitness-KICKR-Desk/2695504){: rel='sponsored nofollow noopener' }.
 
-Nogle har også montereret deres smartphone på cyklen. Fx kan man bruge det her ret [smarte kombinerede smartphone-holder og svedcover fra Tacx\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70559&htmlurl=http://www.fribikeshop.dk/Default.aspx?ID=286&ProductID=PROD918), som også beskytter cyklen mod alt det sved du uundgåeligt vil producere undervejs, når du kæmper dig gennem etaperne på Zwift. Her har du så let adgang til Zwift Companion, som er en uundværlig gratis app, som du også skal bruge, når du bruger Zwift.
+Nogle har også montereret deres smartphone på cyklen. Fx kan man bruge det her ret [smarte kombinerede smartphone-holder og svedcover fra Tacx](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70559&htmlurl=http://www.fribikeshop.dk/Default.aspx?ID=286&ProductID=PROD918){: rel='sponsored nofollow noopener' }, som også beskytter cyklen mod alt det sved du uundgåeligt vil producere undervejs, når du kæmper dig gennem etaperne på Zwift. Her har du så let adgang til Zwift Companion, som er en uundværlig gratis app, som du også skal bruge, når du bruger Zwift.
 
 De fleste nyere devices og computere kan køre Zwift. Du kan altdi se de aktuelle minimumskrav for at køre Zwift hos [Zwift-support](https://support.zwift.com/en_us/supported-devices-to-run-zwift-H1Cj9QbeB).
 
@@ -150,7 +154,7 @@ Så fik du styr på alt udstyret til Zwift. Nu er det tid til at komme i gang me
 1. Først skal du downloade Zwift-appen til dit foretrukne device.
 2. Download også Zwift Companion app'en på din smartphone.
 
-Derefter skal du oprette en konto og udfylde oplysninger om dit køn, højde og vægt. Oplysningerne bliver brugt for at oprette din _avatar_ i Zwift, og så er det med til at give nøjagtige målinger i forhold til din hastighed i spillet. Derfor skal du huske at udfylde de personlige oplysninger korrekt. 
+Derefter skal du oprette en konto og udfylde oplysninger om dit køn, højde og vægt. Oplysningerne bliver brugt for at oprette din _avatar_ i Zwift, og så er det med til at give nøjagtige målinger i forhold til din hastighed i spillet. Derfor skal du huske at udfylde de personlige oplysninger korrekt.
 
 Højden betyder noget i forhold til vindmodstanden. Vægten betyder noget i forhold den vigtigste _metric_ i spillet som er watt/kg. Det er nemlig watt per kilo, der betyder noget for, hvordan du klarer dig i forhold til de andre i spillet - altså din nøjagtige hastighed.
 
@@ -242,7 +246,7 @@ Når du får en mødeinvitation, så har du mulighed for at svare, om du deltage
 
 Du skal sørge for at logge ind i god tid, så du når at blive klar. Du får automatisk besked på startskærmen, når det er ved at være tid til at hoppe ind i mødet.
 
-Når du kører et meetup, så kan du typisk stadig se alle på ruten, men navnene på dine kammerater er fremhævet med grønt på rytterlisten. I meetupet er leaderboardet forberholdt jer, og det er kun jer der konkurerer om trøjerne undervejs. 
+Når du kører et meetup, så kan du typisk stadig se alle på ruten, men navnene på dine kammerater er fremhævet med grønt på rytterlisten. I meetupet er leaderboardet forberholdt jer, og det er kun jer der konkurerer om trøjerne undervejs.
 
 Du kan altså kun invitere folk, hvor I følger hinanden på Zwift til et meetup, og du kan kun invitetere 50. Du kan også kun planlægge 7 dage i forvejen.
 
@@ -281,8 +285,8 @@ Her har jeg samlet de bedste af Martin Mortensens råd i denne liste.
 
 [Bikeradar](https://www.bikeradar.com/advice/fitness-and-training/zwift-tips/) kan tilføje følgende tips til din oplevelse på Zwift.
 
-- **Beskyt dig mod sveden**. Du kommer til at svede meget, og blæseren kan være en god ide. Men du kan også [forhindre sved i øjnene](/undgaa-sved-i-ojnene/) ved fx at have et pandebånd eller noget andet. [Cykel-ruter.dk](https://www.cykel-ruter.dk) har skrevet mere om at [undgå sved i øjnene](/undgaa-sved-i-ojnene/). Det kan også være godt at beskytte cyklen mod sveden fx med et [svedcover fra Tacx\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70559&htmlurl=http://www.fribikeshop.dk/Default.aspx?ID=286&ProductID=PROD918). Endelig bør du også beskytte gulvet med en måtte fra både sved og olie fra cyklen, fx [måtten fra Wahoo\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-kickr-mat/?source=partner-ads). Måtten reducerer også lyden, når du kører og støddæmper lidt, så kørekomforten bliver bare bedre. Her hjælper en blæser naturligvis også fx [Wahoo Kickr Headwind\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-kickr-headwind/?source=partner-ads).
-- **Få fat i Bluetooth høretelefoner**. Studier viser, at man præsterer bedre med passende _up-tempo_-musik i ørerne, når du træner. Hvis du har et på høretelefoner, så kan du få passende [musik til træningen]({% link _posts/2013-05-02-musik-til-traeningen.md %}). Jeg bruger selv [Bose Soundsport\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67757&htmlurl=https://www.proshop.dk/Hovedtelefonerheadset/Bose-SoundSport-Free-true-wireless-earphones-with-mic/2804416), som jeg synes spiller rigtig godt. Rigtig mange bruger også [Apple Air Pods\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=24141&htmlurl=https://www.my-phoneshop.dk/apple-airpods-2019.html).
+- **Beskyt dig mod sveden**. Du kommer til at svede meget, og blæseren kan være en god ide. Men du kan også [forhindre sved i øjnene](/undgaa-sved-i-ojnene/) ved fx at have et pandebånd eller noget andet. [Cykel-ruter.dk](https://www.cykel-ruter.dk) har skrevet mere om at [undgå sved i øjnene](/undgaa-sved-i-ojnene/). Det kan også være godt at beskytte cyklen mod sveden fx med et [svedcover fra Tacx](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70559&htmlurl=http://www.fribikeshop.dk/Default.aspx?ID=286&ProductID=PROD918){: rel='sponsored nofollow noopener' }. Endelig bør du også beskytte gulvet med en måtte fra både sved og olie fra cyklen, fx [måtten fra Wahoo](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-kickr-mat/?source=partner-ads){: rel='sponsored nofollow noopener' }. Måtten reducerer også lyden, når du kører og støddæmper lidt, så kørekomforten bliver bare bedre. Her hjælper en blæser naturligvis også fx [Wahoo Kickr Headwind](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-kickr-headwind/?source=partner-ads){: rel='sponsored nofollow noopener' }.
+- **Få fat i Bluetooth høretelefoner**. Studier viser, at man præsterer bedre med passende _up-tempo_-musik i ørerne, når du træner. Hvis du har et på høretelefoner, så kan du få passende [musik til træningen]({% link _posts/2013-05-02-musik-til-traeningen.md %}). Jeg bruger selv [Bose Soundsport](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67757&htmlurl=https://www.proshop.dk/Hovedtelefonerheadset/Bose-SoundSport-Free-true-wireless-earphones-with-mic/2804416){: rel='sponsored nofollow noopener' }, som jeg synes spiller rigtig godt. Rigtig mange bruger også [Apple Air Pods](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=24141&htmlurl=https://www.my-phoneshop.dk/apple-airpods-2019.html){: rel='sponsored nofollow noopener' }.
 
 ## Svar på almindelige spørgsmål om Zwift
 

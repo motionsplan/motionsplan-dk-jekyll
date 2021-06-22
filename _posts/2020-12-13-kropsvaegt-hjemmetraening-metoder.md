@@ -21,6 +21,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67046&htmlurl=https://kinetikshop.dk/products/kinetik-vx1-vaegtvest"
     btn_label: "Læs mere*"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 ---
 
 Jeg har samlet metoder til at gøre din hjemmetræning mere effektiv. Når du træner hjemme, så træner du ofte uden udstyr eller med begrænset udstyr. Jeg træner ofte selv øvelser med kropsvægt, når jeg træner hjemme, men jeg vælger effektive øvelser, og så bruger jeg forskellige metoder for at gøre træningen endnu mere effektiv.
@@ -123,7 +124,7 @@ Du kan lave sæt, hvor du laver et isometrisk hold flere gange i løbet af sætt
 
 Hold fx den nederste position i en armstrækning i 10 sekunder. Så laver du 5 gentagelser. Derefter holder du igen den samme postion. Lav 5 yderligere reps. Hold igen positionen og lav så mange gentagelser som muligt.
 
-Hvis du kan lave flere end 12 samlede gentagelser, så kan du arbejde med pauserne eller hastigheden i løftet. 
+Hvis du kan lave flere end 12 samlede gentagelser, så kan du arbejde med pauserne eller hastigheden i løftet.
 
 ## Brug tempoet
 
@@ -207,7 +208,7 @@ Remember, rather than doing one rep of an exercise, you'd do half the movement f
 
 Ud over at du kan bruge forskellige metoder, så husk også, at du kan øge sværhedsgraden ved at tilføje vægt til dine kropsvægtsøvelser.
 
-Du kan fx tage en rygsæk på eller bruge en vægtvest. Jeg synes [Kinetik laver en fed vægtvest\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67046&htmlurl=https://kinetikshop.dk/products/kinetik-vx1-vaegtvest).
+Du kan fx tage en rygsæk på eller bruge en vægtvest. Jeg synes [Kinetik laver en fed vægtvest](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67046&htmlurl=https://kinetikshop.dk/products/kinetik-vx1-vaegtvest){: rel='sponsored nofollow noopener' }.
 
 Jeg har skrevet et andet indlæg om [træning med kropsvægt]({% link _posts/2009-08-04-traening-med-kropsvaegt.md %}).
 

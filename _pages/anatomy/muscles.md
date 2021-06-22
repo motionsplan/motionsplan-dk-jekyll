@@ -19,15 +19,16 @@ feature_row:
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/muskulatur-anatomi-plakat/
     title: Muskulatur - Anatomi plakat
     alt: "Muskler i ben, arme, skulder, kropsstamme"
+    rel: sponsored nofollow noopener
 ---
 
 De muskler, der skaber bevægelse af kroppen, kaldes for ”den tværstribede skeletmuskulatur”. Denne side handler om skeletmusklerne. Først kan du læse en kort introduktion til, hvad muskler og skeletmuskler er og deres anatomi. Derefter kigger jeg på de forskellige muskelgrupper.
 
 Musklerne er hæftet til knoglerne via sener. Når musklerne gennem nervesystemet får et signal, vil de trække sig sammen og ved hjælp af leddenes bevægelighed skabe bevægelse af skelettets knogler. Sammentrækningen foregår gennem [sliding filament teorien]({% link _posts/2020-06-06-muskelsammentraekning.md %}).
 
-Musklerne er altså en del af en funktionel enhed sammen med [led](/led/) og [knogler](/knogler/). Musklerne på forsiden og bagsiden af et led samarbejder om en bevægelse. Musklen, der udfører bevægelsen kaldes agonisten, mens musklen på den modsatte side kaldes antagonisten. 
+Musklerne er altså en del af en funktionel enhed sammen med [led](/led/) og [knogler](/knogler/). Musklerne på forsiden og bagsiden af et led samarbejder om en bevægelse. Musklen, der udfører bevægelsen kaldes agonisten, mens musklen på den modsatte side kaldes antagonisten.
 
-Der er aktivitet i begge muskler. Agonisten har mest aktivitet til at udføre bevægelsen, men antagonisten er med til at stabilisere leddet, så den er også aktiv. 
+Der er aktivitet i begge muskler. Agonisten har mest aktivitet til at udføre bevægelsen, men antagonisten er med til at stabilisere leddet, så den er også aktiv.
 
 {% include gallery id="feature_row" caption="Se flere [anatomiplakater med skeletter og muskler hos plakaterne.dk](https://www.plakaterne.dk/anatomi-anatomiplakater-muskler-skeletter/)." %}
 

@@ -27,6 +27,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/acsms-guidelines-for-exercise-testing-and-prescription_american-college-of-sports-medicine_epub_9781469825885?gclid=CjwKCAiA5JnuBRA-EiwA-0ggPdXHFExjFsqJLnGbAfydZFfXbHNc8LCSWFplRzuKmJ9vjX1Z3A8TfRoCzqgQAvD_BwE"
     btn_label: "Læs mere"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 ---
 
 Bruce-testen tester dit kondital på løbebånd uden bruge af puls eller andet udstyr. Testen kræver et pålideligt løbebånd, som kan håndtere hældninger på op til 22%.
@@ -62,9 +63,9 @@ Bruce-testen starter altså med 2,7 km/t og hældning 10%. Efter 3 minutter øge
 
 ## Formlerne som bruges i Bruce-testen
 
-For at udregne konditallet ud fra resultatet i Bruce-testen, skal du bruge en formel. Der findes lidt [forskellige formler alt efter køn og alder](https://en.wikipedia.org/wiki/Bruce_protocol). 
+For at udregne konditallet ud fra resultatet i Bruce-testen, skal du bruge en formel. Der findes lidt [forskellige formler alt efter køn og alder](https://en.wikipedia.org/wiki/Bruce_protocol).
 
-Der er en generel formel, der passer til begge køn: 
+Der er en generel formel, der passer til begge køn:
 
 VO<sub>2</sub>-max = 14.8 – (1.379 * T) + (0.451 * T<sup>2</sup>) – (0.012 * T<sup>3</sup>)
 

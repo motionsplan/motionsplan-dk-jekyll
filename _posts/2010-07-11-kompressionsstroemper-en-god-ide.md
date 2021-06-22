@@ -33,6 +33,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=9397&htmlurl=https://www.billigsport24.dk/seger-compression-lobestromper-2-par-326708"
     btn_label: "Tjek pris*"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
   - image_path: https://www.billigsport24.dk/media/catalog/product/w/s/ws50n0_green_herre.jpg
     alt: "CEP Calf Sleeve - Kompressionsstrømper"
     title: "CEP Calf Sleeve"
@@ -40,6 +41,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=16532&htmlurl=https://www.billigsport24.dk/cep-compression-sleeves-green-mens"
     btn_label: "Tjek pris*"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 feature_row_bike:
   - image_path: https://resources.chainbox.io/cykelpartner/public/pim/d06973ae-ebd1-48f6-bbb6-05f81d87a53d/15100128_A_default.jpg
     alt: "Sensor Compress - Kompressions cykelstrømper"
@@ -48,15 +50,16 @@ feature_row_bike:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=16446&htmlurl=https://www.cykelpartner.dk/sensor-compress---kompressions-cykelstroemper---sortblaa---str-6-8--39-42"
     btn_label: "Tjek pris*"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 ---
 
 Man har i mange år brugt kompressionstøj som behandling af folk med dårligt blodomløb i benene, men kompressionstøj har også vundet indpas i træningsverden.
 
 Flere og flere trænende håber at shorts, tights, kompressionsstrømper og fuldkropsdragte kan hjælpe på muskelpræstationen, lodret hoppehøjde, muskeltræthed, gentagne sprint præstationer, restitution og nedsat muskelømhed.
 
-Jeg vil i dette indlæg primært koncentrere mig om **kompressionsstrømper** og effekten af dem på restitution og præstation - og hvilke bivirkninger der er. 
+Jeg vil i dette indlæg primært koncentrere mig om **kompressionsstrømper** og effekten af dem på restitution og præstation - og hvilke bivirkninger der er.
 
-Hvad er kompressionsstrømper? **Kompressionsstrømper sælges både med og uden dokumenteret medicinsk effekt. Når man taler om kompressionsstrømper til løb og cykling, så har de typisk _ikke_ medicinsk testede med dokumenteret effekt.** 
+Hvad er kompressionsstrømper? **Kompressionsstrømper sælges både med og uden dokumenteret medicinsk effekt. Når man taler om kompressionsstrømper til løb og cykling, så har de typisk _ikke_ medicinsk testede med dokumenteret effekt.**
 
 Du får svar på følgende spørgsmål i indlægget:
 
@@ -144,7 +147,7 @@ CEP, som er en af de store producenter af kompressionsstrømper, har lavet denne
 
 ## Virker kompressionsstrømper på skinnebensbetændelse?
 
-Det er umuligt at give et retvisende svar på om kompressionsstrømper hjælper på skinnebensbetændelse. Der er ikke nogen videnskabelige studier, der har afprøvet strømpernes effekt på skinnebensbetændelse. 
+Det er umuligt at give et retvisende svar på om kompressionsstrømper hjælper på skinnebensbetændelse. Der er ikke nogen videnskabelige studier, der har afprøvet strømpernes effekt på skinnebensbetændelse.
 
 Teoretisk set så er strømperne med til at holde skinnebenene varme allerede i løbet af opvarmningen, hvilket kan have en positiv effekt på følelsen af skinnebensbetændelsen. Samtidig ser det ud til, at strømperne virker på restitutionen, hvilket sandsynligvis kan sikre at du hurtigere bliver klar til næste træningspas.
 
@@ -158,7 +161,7 @@ Hvis man synes, at man har råd til løbestrømper med kompression, ser det ud t
 
 ## Kompresssionsstrømper og cykling
 
-Flere studier har vist god effekt af kompressionsstrømper, når de anvendes under hvile. Argus et al (2013) fandt, at seriøse cykelmotionister kan øge effekten (watt), de kan træde under gentagne sprintpræstationer. 
+Flere studier har vist god effekt af kompressionsstrømper, når de anvendes under hvile. Argus et al (2013) fandt, at seriøse cykelmotionister kan øge effekten (watt), de kan træde under gentagne sprintpræstationer.
 
 de Glanville et al (2012) fandt, at deltagerne i deres studie i gennemsnit skrællede 1,2 % af deres tid på en 40 km tidskørsel med brugen af kompressionsstrømperne under hvile inden præstationen.
 

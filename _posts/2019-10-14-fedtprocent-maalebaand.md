@@ -26,6 +26,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/exercise-physiology_bs_9781451193831"
     btn_label: "Læs mere"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 ---
 
 Der er mange måder at måle din fedtprocent på. Denne måling af fedtprocent kræver kun et målebånd, og så skal du måle omkredsen forskellige steder på kroppen.

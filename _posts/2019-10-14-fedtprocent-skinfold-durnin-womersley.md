@@ -26,6 +26,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=20604&htmlurl=https://www.bodyman.dk/shop/accu-measure-fitness-54935p.html"
     btn_label: "Læs mere"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 ---
 
 Durnin & Womersley er en 4-punktsmåling af hudfolde, som anses for relativt præcis til at estimere fedtprocenten for mennesker mellem 16 og 72 år gammel. Formlen har en tendens til at estimere for høje fedtprocenter hos meget tynde personer (2-3 %).

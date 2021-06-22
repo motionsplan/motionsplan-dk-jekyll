@@ -27,6 +27,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=21411&htmlurl=https://shop.getbig.dk/badevaegt-i-luksuskvalitet"
     btn_label: "Læs mere"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
   - image_path: https://www.fotoagent.dk/single_picture/11803/138/custom1/tanita_dc_360_p_avec_colonne_analyseur_de_masse_co.jpg
     alt: "Tanita DC 360P Kropsanalysevægt"
     title: "Tanita DC 360P Kropsanalysevægt"
@@ -34,6 +35,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/tanita-dc-360p-kropsanalysevaegt/"
     btn_label: "Læs mere"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
   - image_path: https://www.fotoagent.dk/single_picture/11803/138/mega/Tanita_MC780_full(1).jpg
     alt: "Tanita MC 780 P MA"
     title: "Tanita MC 780 P MA"
@@ -41,6 +43,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/tanita-mc-780-p-ma/"
     btn_label: "Læs mere"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 ---
 
 *[PBF]: Percent Body Fat
@@ -55,19 +58,19 @@ Bioimpedans er en let måde at måle fedtprocent og kropssammensætning på. Tek
 
 ## Forudsætninger for bioimpedans fedtprocent-målinger
 
-- Faste i mindst 12 timer 
+- Faste i mindst 12 timer
 - Ingen træning i mindst 12 timer - og helst ikke hård træning dagen før overhovedet
 - Ingen alkoholindtag mindst 24 timer før testning
 
 ## Bioimpedans måling med InBody 570
 
-På [Vejle Idrætshøjskole](http://www.vih.dk/) har vi adgang til en [InBody 570](http://inbodydanmark.dk/produkter/inbody570/), som vi har købt gennem Fitness Institute og [Henrik Duer](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=53070){:rel="nofollow"}. Den korrelerer omkring 0,9 med en DEXA-scanner.
+På [Vejle Idrætshøjskole](http://www.vih.dk/) har vi adgang til en [InBody 570](http://inbodydanmark.dk/produkter/inbody570/), som vi har købt gennem Fitness Institute og [Henrik Duer](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=53070){: rel='sponsored nofollow noopener' }. Den korrelerer omkring 0,9 med en DEXA-scanner.
 
 ### Hvor præcis er InBody 570
 
 > Body fat percentage determined by DXA shares 88% of the variance with MfBIA, leaving 12% variance unexplained. (...)
 >
-> The results of the current study reveal if strict guidelines are adhered to MfBIA is a comparable method for determining body fat percentage when compared to DXA. 
+> The results of the current study reveal if strict guidelines are adhered to MfBIA is a comparable method for determining body fat percentage when compared to DXA.
 
 ---<cite>[Validating InBody® 570 Multi-frequency Bioelectrical Impedance Analyzer versus DXA for Body Fat Percentage Analysis](https://www.researchgate.net/profile/Ryan_Miller37/publication/318348260_Validating_InBody_R_570_Multi-frequency_Bioelectrical_Impedance_Analyzer_versus_DXA_for_Body_Fat_Percentage_Analysis/links/5964e3da458515183cfaaced/Validating-InBody-R-570-Multi-frequency-Bioelectrical-Impedance-Analyzer-versus-DXA-for-Body-Fat-Percentage-Analysis.pdf?origin=publication_detail)</cite>
 

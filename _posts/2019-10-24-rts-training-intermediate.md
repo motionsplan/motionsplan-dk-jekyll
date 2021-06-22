@@ -22,9 +22,10 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835"
     btn_label: "Læs mere"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 ---
 
-Mange programmer er baseret på procenter af 1RM og ordinerer den samme volumen til alle. Mike Tuschscher fra Reactive Training Systems har lavet et eksempel på et program, der autoregulering ved at basere programmet på RPE og _fatigue percents_. 
+Mange programmer er baseret på procenter af 1RM og ordinerer den samme volumen til alle. Mike Tuschscher fra Reactive Training Systems har lavet et eksempel på et program, der autoregulering ved at basere programmet på RPE og _fatigue percents_.
 
 Mike Tusherer og Reactive Training Systems bruger ikke selv længere _fatigue percents_ i deres programmering med deres klienter. De bruger i stedet TRAC systemet, du også kan bruge på deres hjemmeside til at TRAC'e restitutionen. Hvis du ikke har en træner, kan _fatigue percents_ stadig i mine øjne være et udemærket redskab til at lave en _autoreguleret træning_, selvom volumen på denne måde vil svinge lidt op og ned.
 {: .notice .notice--info }
@@ -55,9 +56,9 @@ Efter 2016 programmerer Mike Tuschscher selv med et fast antal af sæt til sine 
 
 ## RPE i stedet for procenter
 
-Formålet med RPE er, at man let kan kommunikere hvor hårdt et sæt var. RPE kan derfor bruges til at fortælle om vi træner i den korrekte intensitetszone i forhold til det, vi har planlagt. Så i stedet for at man får en fast procent baseret på 1RM, men som måske alligevel ikke passer til den enkeltes løfters _readiness_ i dag, så kan man ordinere reps og RPE. 
+Formålet med RPE er, at man let kan kommunikere hvor hårdt et sæt var. RPE kan derfor bruges til at fortælle om vi træner i den korrekte intensitetszone i forhold til det, vi har planlagt. Så i stedet for at man får en fast procent baseret på 1RM, men som måske alligevel ikke passer til den enkeltes løfters _readiness_ i dag, så kan man ordinere reps og RPE.
 
-Normalt vil din 5RM være omkring 85% af din 1RM, og det vil man ofte få at vide, at man skal løfte i dag. I stedet kan man fortælle løfteren, at de skal arbejde sig op til x5@10. Så vil de løftede kilo justere sig ind ift. løfterens nuværende styrke (1 RM kan jo have rykket sig siden sidste måling) og dagens _readiness_ (hvor man kan være frisk eller træt). 
+Normalt vil din 5RM være omkring 85% af din 1RM, og det vil man ofte få at vide, at man skal løfte i dag. I stedet kan man fortælle løfteren, at de skal arbejde sig op til x5@10. Så vil de løftede kilo justere sig ind ift. løfterens nuværende styrke (1 RM kan jo have rykket sig siden sidste måling) og dagens _readiness_ (hvor man kan være frisk eller træt).
 
 Træningen er altså autoreguleret, så dagens vægt er afgjort af, hvad du kan løfte netop på denne dag. Programmet tilpasser sig altså dig i stedet for, at du skal tilpasse dig programmet.
 
@@ -72,9 +73,9 @@ Det kræver selvfølgelig en del øvelse og selvdisciplin at begynde at bruge RP
 
 ## Træthedsprocent (fatigue percents) i stedet for volumen
 
-Når volumen er et redskab til at skabe træthed, og vi ved, at løfteren kan komme med forskellige _readiness_, så kan vi i stedet ordinere en træthedsprocent træningen skal forårsage i den enkelte øvelse. 
+Når volumen er et redskab til at skabe træthed, og vi ved, at løfteren kan komme med forskellige _readiness_, så kan vi i stedet ordinere en træthedsprocent træningen skal forårsage i den enkelte øvelse.
 
-Så hvis vi har planlagt en træning, hvor vi skal køre tunge 5'ere med RPE 9 (x5@9). Så kan vi i stedet for at sige antallet af sæt, at løfteren skal arbejde indtil der er opnået 5% træthed. 
+Så hvis vi har planlagt en træning, hvor vi skal køre tunge 5'ere med RPE 9 (x5@9). Så kan vi i stedet for at sige antallet af sæt, at løfteren skal arbejde indtil der er opnået 5% træthed.
 
 Det kan man gøre på forskellige måder og med forskellige metoder.
 

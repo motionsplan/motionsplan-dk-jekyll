@@ -20,6 +20,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/peak-fitness-12-kg-kettlebell/"
     btn_label: "Tjek prisen*"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
   - image_path: https://www.fotoagent.dk/single_picture/11803/138/custom1/12_kg._Competition_Kettlebell_clipped_rev_1.jpg
     alt: "Peak Fitness Competition Kettlebell"
     title: "Peak Fitness Competition Kettlebell"
@@ -27,6 +28,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/peak-fitness-12-kg-competition-kettlebell/"
     btn_label: "Tjek prisen*"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 toc: true
 ---
 

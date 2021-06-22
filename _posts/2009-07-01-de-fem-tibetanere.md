@@ -24,6 +24,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-bog-1"
     btn_label: "Tjek prisen*"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
   - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/1000x/9df78eab33525d08d6e5fb8d27136e95/d/e/1294-de-fem-tibetanere-bog-2.gif
     alt: "De 5 tibetanere"
     title: "Peter Kelder - de fem tibetanere (bog 2)"
@@ -31,6 +32,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-bog-2"
     btn_label: "Tjek prisen*"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 feature_row_dvd:
   - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/1600x/9df78eab33525d08d6e5fb8d27136e95/1/0/1143-de-fem-tibetanere-kilden-til-evig-ungdom.jpg
     alt: "DVD og video af De 5 tibetanere"
@@ -39,6 +41,7 @@ feature_row_dvd:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-kilden-til-evig-ungdom"
     btn_label: "Tjek prisen*"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 feature_row_yogamat:
   - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/1600x/9df78eab33525d08d6e5fb8d27136e95/m/a/manduka-x-mat-moerkeblaa-03_1.jpg
     alt: "Manduka X Yoga Mat til de 5 tibetanere"
@@ -47,6 +50,7 @@ feature_row_yogamat:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/manduka-x-yoga-mat"
     btn_label: "Tjek prisen*"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 gallery:
   - image_path: https://upload.wikimedia.org/wikipedia/commons/7/77/Five_tibetan_rite_1.gif
     alt: "Rite 1: De 5 tibetanere"
@@ -71,48 +75,59 @@ wallsticker:
     excerpt: "Wallstickerland har en enkel wallsticker med De 5 tibetanere, som er rigtig let at sætte op. Du kan få et gavekort på 100 kroner, hvis du [tilmelder dig her](http://gavekort.wallstickerland.dk/gratis) først."
     btn_label: "Tjek prisen*"
     btn_class: "btn--warning"
+    rel: sponsored nofollow noopener
 yogastream:
   - image_path: https://www.yogastream.dk/images/homepage/forloeb.jpg
     url: http://motionsplan.yogastream.dk
     title: "Bliv medlem af Yogastream og lær yoga"
     alt: "Bliv medlem af Yogastream og lær yoga"
+    rel: sponsored nofollow noopener
 wallsticker_full:
   - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-therapy-danish.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-therapy-wallsticker
     title: Yoga therapy
     alt: Yoga therapy
+    rel: sponsored nofollow noopener
   - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-is-a-way-to-freedom-danish.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-is-a-way-to-freedom-wallstick r
     title: Yoga is a way to freedom
     alt: Yoga is a way to freedom
+    rel: sponsored nofollow noopener
   - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-is-99-_-practice-danish_3.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-er-99-ovelse-wallsticker
     title: Yoga er 99 % øvelse
     alt: Yoga er 99 % øvelse
+    rel: sponsored nofollow noopener
   - image_path: https://www.wallstickerland.dk/media/catalog/product/a/-/a-yoga-instructor-gets-people-to-danish.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/en-yoga-instruktor-far-folk-til-wallsticker
     title: En yoga-instruktør får folk til
+    rel: sponsored nofollow noopener
   - image_path: https://www.wallstickerland.dk/media/catalog/product/i/-/i-do-yoga-english.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/i-do-yoga-wallsticker
     title: I do yoga
     alt: I do yoga
+    rel: sponsored nofollow noopener
   - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-wallsticker
     title: Yoga
     alt: Yoga
+    rel: sponsored nofollow noopener
   - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-keeps-punching-me.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-keeps-punching-me-wallsticker
     title: Yoga keeps punching me
     alt: Yoga keeps punching me
+    rel: sponsored nofollow noopener
   - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-is-not-just-a-workout-danish.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-er-ikke-bare-en-traening-wallsticker
     title: Yoga er ikke bare en træning
     alt: Yoga er ikke bare en træning
+    rel: sponsored nofollow noopener
 feature_row_citatplakat:
   - image_path: https://citatplakat.dk/wp-content/uploads/2020/11/Yogastillinger-PR10039.png
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/yoga-poses-yoga-plakat/
     title: Yoga poses - Yoga plakat
     alt: Yoga poses - Yoga plakat
+    rel: sponsored nofollow noopener
 ---
 
 De fem tibetanere er fem yogaøvelser beskrevet af Peter Kelder i slutningen af 1930'erne, men øvelserne kan spores tilbage til omkring år 0. De fem tibetanske riter er en rigtig god introduktion til yoga og øvelserne let at implementere i sin egen hverdag. Jeg har kigget lidt på, hvad de fem tibetanere er, og hvilken virkning de har på kroppen?
@@ -133,7 +148,7 @@ Du kan nu komme i gang med at udføre de fem tibetanere.
 
 ## Hvad er de fem tibetanere?
 
-Tibetanske munke lavede øvelserne taget fra yoga for at holde sig evigt unge, og det er vi jo nogle stykker, der gerne vil. Derfor var det også herligt, at Oberst Bradford førte disse øvelser til vesten. Han bragte bl.a. øvelserne videre til vennen Peter Kelder, som i slutningen af 1930'erne skrev bogen: [De Fem Tibetanere](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-bog-1){:rel="nofollow"}.
+Tibetanske munke lavede øvelserne taget fra yoga for at holde sig evigt unge, og det er vi jo nogle stykker, der gerne vil. Derfor var det også herligt, at Oberst Bradford førte disse øvelser til vesten. Han bragte bl.a. øvelserne videre til vennen Peter Kelder, som i slutningen af 1930'erne skrev bogen: [De Fem Tibetanere](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-bog-1){: rel="sponsored nofollow noopener" }.
 
 Jeg anbefaler dig helt klart at læse de to bøger, hvis du vil dykke ned i hele historien og baggrunden for, hvorfor de fem tibetanske øvelser er blevet så kendte og populære.
 
@@ -279,7 +294,7 @@ Du behøver ikke noget udstyr for at kunne udføre de fem tibetanere. Jeg plejer
 
 Det synes jeg især er rart til de øvelser, hvor man ligger ned, men det giver også et meget bedre greb, når man fx laver rite 5, som også kaldes _downward dog_.
 
-Jeg anbefaler derfor, at du bruger en yogamåtte, når du laver tibetanerne, men især hvis du også laver anden træning. Så kan det godt betale sig at investere i en yogamåtte af høj kvalitet. På [www.denintelligentekrop.dk\*](https://www.denintelligentekrop.dk/) har de masser af udstyr til yoga, og du kunne starte med at kigge på Manduka X Yoga Mat, som er virkelig lækker. Jeg har også skrevet en [komplet guide til yogaudstyr]({% link _posts/2021-01-20-yoga-udstyr.md %}).
+Jeg anbefaler derfor, at du bruger en yogamåtte, når du laver tibetanerne, men især hvis du også laver anden træning. Så kan det godt betale sig at investere i en yogamåtte af høj kvalitet. På [www.denintelligentekrop.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/){: rel="sponsored nofollow noopener" } har de masser af udstyr til yoga, og du kunne starte med at kigge på Manduka X Yoga Mat, som er virkelig lækker. Jeg har også skrevet en [komplet guide til yogaudstyr]({% link _posts/2021-01-20-yoga-udstyr.md %}).
 
 {% include feature_row id="feature_row_yogamat" type="left" %}
 
@@ -311,7 +326,7 @@ De 5 tibetanere påstås allerede efter et par ugers træning at have følgende 
 
 ## Historien om de fem tibetanere
 
-I de næste par afsnit dykker jeg lidt ned i historien bag de fem tibetanere. De var aldrig blevet så udbredte og populære i vesten, hvis ikke Peter Kelder havde skrevet sin [anbefalelsesværdige bog\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-bog-1){:rel="nofollow"}. Men hvordan fik Peter Kelder øjnene op for De fem tibetanere.
+I de næste par afsnit dykker jeg lidt ned i historien bag de fem tibetanere. De var aldrig blevet så udbredte og populære i vesten, hvis ikke Peter Kelder havde skrevet sin [anbefalelsesværdige bog](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-bog-1){: rel="sponsored nofollow noopener" }. Men hvordan fik Peter Kelder øjnene op for De fem tibetanere.
 
 Hemmeligheden om _ungdommens kilde_ var i mange tusind år forbeholdt de tibetanske munke.
 
@@ -407,7 +422,7 @@ Vi har et andet indlæg her på sitet, der handler om [Mindfulness meditation]({
 
 ## Bog om de fem tibetanere
 
-{% include gallery id="feature_row" caption="Peter Kelder har skrevet to bøger om de 5 tibetanere og hans erfaringer med de fem tibetanere, som du kan købe fra [denintelligentekrop.dk*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-kilden-til-evig-ungdom){: rel='nofollow' }" %}
+{% include gallery id="feature_row" caption="Peter Kelder har skrevet to bøger om de 5 tibetanere og hans erfaringer med de fem tibetanere, som du kan købe fra [denintelligentekrop.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-kilden-til-evig-ungdom){: rel='sponsored nofollow noopener' }" %}
 
 ## Plakat med de fem tibetanere
 

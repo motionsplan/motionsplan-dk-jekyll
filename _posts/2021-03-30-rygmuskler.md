@@ -1,7 +1,7 @@
 ---
 title: &title "Rygmuskler: Liste og øvelser til muskler i ryggen"
 seo_title: "Rygmuskler - Liste og øvelser til muskler i ryggen »"
-description: "Komplet liste over muskler i benet. Forslag til træning af benmusklerne."
+description: "Komplet liste over muskler i ryggen. Forslag til træning af rygmusklerne."
 permalink: /muskler/ryggen/
 language: da
 header:

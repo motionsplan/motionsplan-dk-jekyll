@@ -24,6 +24,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=20604&htmlurl=https://www.bodyman.dk/shop/accu-measure-fitness-54935p.html"
     btn_label: "Læs mere"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 feature_row_references:
   - image_path: https://imgcdn.saxo.com/_9781469825885/0x500
     alt: "ACSM's Guidelines for Exercise Testing and Prescription"
@@ -32,6 +33,7 @@ feature_row_references:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/acsms-guidelines-for-exercise-testing-and-prescription_american-college-of-sports-medicine_epub_9781469825885?gclid=CjwKCAiA5JnuBRA-EiwA-0ggPdXHFExjFsqJLnGbAfydZFfXbHNc8LCSWFplRzuKmJ9vjX1Z3A8TfRoCzqgQAvD_BwE"
     btn_label: "Læs mere"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 ---
 
 Jackson & Pollocks 3-punktsmåling er en hudfoldsmåling og formel, som du kan bruge til at estimere din fedtprocent og fedtfri masse. Metoden anbefales som standard af American College of Sports Medicine (ACSM).

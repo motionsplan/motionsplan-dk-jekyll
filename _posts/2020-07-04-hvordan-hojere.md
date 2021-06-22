@@ -21,14 +21,16 @@ feature_row:
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=39091&htmlurl=https://apuls.dk/fitwood-trollveggen-dorribbe-hvid
     btn_label: "Pris hos Apuls*"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
   - image_path: https://apuls.dk/img/900/900/resize/A/p/Apuls0136_1.jpg
     alt: "cPro9 Pullupbar"
     excerpt: "cPro9 Pull Up Bar til dør, som er let monteres i en døråbning. Baren giver dig mange forskellige muligheder for greb."
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=39091&htmlurl=https://apuls.dk/cpro9-pullup-bar-m-baelte-i-laeder-pakketilbud
     btn_label: "Pris hos Apuls*"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 ---
- 
+
 Jeg fik spørgsmålet den anden dag, om hvordan man kan blive højere? Kan man spise noget særligt for at blive højere? Virker væksthormon på højden? Det har jeg kigget lidt nærmere på i dette indlæg.
 
 **Man kan ikke uden videre blive højere. Ens højde er primært bestemt af ens gener, men man kan sørge for at give sig selv de bedst mulige vækstbetingelser gennem sin barndom og ungdom ved at spise fornuftigt og varieret og træne kroppen, så den potentielle højde i hvert fald ikke bremses.**
@@ -129,13 +131,13 @@ Det er naturligvis vigtigt at skrive, at du formentlig ikke bliver højere, når
 
 ## Madvarer der hjælper på højde
 
-Det allervigtigste i forhold til at realisere sin fulde genetiske højde er at få en sund og varieret kost. 
+Det allervigtigste i forhold til at realisere sin fulde genetiske højde er at få en sund og varieret kost.
 
 Du skal spise nok af makronæringsstofferne; kulhydrat, fedt og protein.
 
 Men du skal også have nok vitaminer og mineraler.
 
-Det gælder især om at få nok mad, for ellers vil kroppen spare på de mest energikrævende processer. At blive højere og bygge muskler er noget af det, kroppen vil være lidt varsom med, hvis der er energiunderskud. 
+Det gælder især om at få nok mad, for ellers vil kroppen spare på de mest energikrævende processer. At blive højere og bygge muskler er noget af det, kroppen vil være lidt varsom med, hvis der er energiunderskud.
 
 Det skader aldrig noget at [fokusere på kosten](https://www.osteoporose-f.dk/knoglernes-udvikling/staerke-knogler-til-boern-og-unge/). Variation, grøntsager og tilstrækkeligt med kulhydrater, fedt og protein i en fornuftig fordeling.
 
@@ -143,7 +145,7 @@ Det skader aldrig noget at [fokusere på kosten](https://www.osteoporose-f.dk/kn
 
 Når du sover godt, så giver du kroppen mulighed for at bygge sig selv op. Jeg oplever med mine børn, at de primært oplever “vokseværk”, når de er lagt i seng.
 
-Det sker formentlig primært fordi væksthormon stiger, når du sover godt. 
+Det sker formentlig primært fordi væksthormon stiger, når du sover godt.
 
 Søvnen er i det hele taget godt for en god, sund udvikling i kroppen. Når du er udhvilet, vil kroppen være i overskud, og en af de ting kroppen vil gøre, når den er i overskud er at vokse i højden.
 
@@ -161,7 +163,7 @@ Forklaringen skal findes i ændringer i skelettet, men først for fremmest er de
 
 Mens vi venter på forskning i [stamceller måske kan give os svaret på at blive højere](https://regenexx.com/blog/skeletal-stem-cells-found-living-in-the-growth-plates-may-one-day-make-us-taller/), og inden vi går over i råd om at blive højere, som vi allesammen kan have gavn af, så kigger vi lige på de lidt mere omfattende og drastiske metoder: Operation og væksthormon.
 
-Der eksperimenteres med operationer, som gør mennesker højere. Fx er Maria Thomsen blevet opereret højere ved at få operereret forlængelsessøm ind i sine skinneben. 
+Der eksperimenteres med operationer, som gør mennesker højere. Fx er Maria Thomsen blevet opereret højere ved at få operereret forlængelsessøm ind i sine skinneben.
 
 > Det har gjort nogle ting nemmere for mig. Når man er lav, kan man jo ikke nå de ting, der er højt i køkkenskabene. Førhen skulle jeg altid bede mine forældre om hjælp eller bruge en skammel for at kunne nå.
 
@@ -191,7 +193,7 @@ Væksthormon er på dopinglisten, fordi det stimulerer muskelopbygningen samtidi
 
 ## Højden falder i løbet af dagen
 
-Som voksen kan du faktisk godt blive lidt højere. Du kan naturligvis ikke blive højere end skelettet giver dig lov til. 
+Som voksen kan du faktisk godt blive lidt højere. Du kan naturligvis ikke blive højere end skelettet giver dig lov til.
 
 Men i løbet af dagen bliver du faktisk lidt mindre. Rob Paul har lavet denne video om udviklingen i sin højde gennem dagen. Angivelserne i videoen er i amerikanske måleenheder, men den illustrerer meget godt højdeudviklingen i løbet af dagen.
 
@@ -226,11 +228,11 @@ Her er et par gode forslag til øvelser:
 
 ## Stræk kroppen ved at hænge fra en stang
 
-At hænge fra en stang er også en oplagt måde til at strække sig. Jeg har sat [en stang op i min døråbning](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/fitwood-trollveggen-dorribbe-hvid){:rel="nofollow"}, som jeg primært bruger til at [træne pullups og chinups]({% link _posts/2020-06-30-pullup-chinup.md %}), men jeg bruger den også ofte bare til at hænge i. Jeg griber jeg bare fat i stangen og hænger så længe jeg kan for at få udspændt ryggen.
+At hænge fra en stang er også en oplagt måde til at strække sig. Jeg har sat [en stang op i min døråbning](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/fitwood-trollveggen-dorribbe-hvid){: rel='sponsored nofollow noopener' }, som jeg primært bruger til at [træne pullups og chinups]({% link _posts/2020-06-30-pullup-chinup.md %}), men jeg bruger den også ofte bare til at hænge i. Jeg griber jeg bare fat i stangen og hænger så længe jeg kan for at få udspændt ryggen.
 
-Jeg har ejet lidt forskellige pullup bars til døråbninger, men man kan helt sikkert købe dem for billige. Jeg synes [den her pull up bar fra Fitwood](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/fitwood-trollveggen-dorribbe-hvid){:rel="nofollow"} har et ret fedt design, den er ret stabil, og den er let at sætte op og pille ned igen. Du kan [tjekke prisen på Fitwood pullup bar hos Apuls](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/fitwood-trollveggen-dorribbe-hvid){:rel="nofollow"}. Jeg har også haft denne [pullupbar fra c9 fra Apuls](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/cpro9-pull-up-bar){:rel="nofollow"}, som er lidt billigere og forskellige grebsmuligheder, når du vil hænge i den.
+Jeg har ejet lidt forskellige pullup bars til døråbninger, men man kan helt sikkert købe dem for billige. Jeg synes [den her pull up bar fra Fitwood](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/fitwood-trollveggen-dorribbe-hvid){: rel='sponsored nofollow noopener' } har et ret fedt design, den er ret stabil, og den er let at sætte op og pille ned igen. Du kan [tjekke prisen på Fitwood pullup bar hos Apuls](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/fitwood-trollveggen-dorribbe-hvid){: rel='sponsored nofollow noopener' }. Jeg har også haft denne [pullupbar fra c9 fra Apuls](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/cpro9-pull-up-bar){: rel='sponsored nofollow noopener' }, som er lidt billigere og forskellige grebsmuligheder, når du vil hænge i den.
 
-Andre hænger også i _gravity boots_, så man kan hænge på hovedet. De fleste _gravity boots_ passer til de fleste runde pullup bars. Jeg er faktisk lidt overrasket over, hvor billige [gravity boots er hos Apuls](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/cpro9-gravity-boots){:rel="nofollow"}.
+Andre hænger også i _gravity boots_, så man kan hænge på hovedet. De fleste _gravity boots_ passer til de fleste runde pullup bars. Jeg er faktisk lidt overrasket over, hvor billige [gravity boots er hos Apuls](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/cpro9-gravity-boots){: rel='sponsored nofollow noopener' }.
 
 ## Konklusion
 

@@ -23,6 +23,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/the-biohacking-manifesto_james-lee_paperback_9781512121278"
     btn_label: "Tjek prisen hos Saxo*"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
   - image_path: https://imgcdn.saxo.com/Image?ImageID=10149040
     alt: "Saxos bøger om Biohacking"
     title: "Saxos bøger om Biohacking"
@@ -30,6 +31,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/products/search?query=biohacking"
     btn_label: "Se prisen hos Saxo*"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 ---
 
 Jeg har et stykke tid været interesseret i biohacking. En biohacker måler fx biomarkører i forhold til søvn og restitution og bruger det til at planlægge sin træning. Derfor fik jeg lyst til at dykke ned i, hvad biohacking er?
