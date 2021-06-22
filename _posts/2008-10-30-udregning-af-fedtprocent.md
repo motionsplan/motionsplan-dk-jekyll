@@ -24,6 +24,7 @@ feature_row:
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://bogreolen.dk/exercise-physiology_bs_9781451193831
     btn_label: Læs mere
     btn_class: btn--success
+    rel: sponsored nofollow noopener
 last_modified_at: 2021-05-26T23:14:14.000Z
 toc: true
 redirect_from:
