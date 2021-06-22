@@ -134,7 +134,7 @@ feature_row_ads:
     title: "Apuls"
     excerpt: "Apuls sælger til interesserede i træning/fitness, men vi har også et stort udvalg indenfor vinter, sport, pleje, vand, wellness, kosttilskud m.v."
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=39091
-    btn_label: "Besøg Apuls*"
+    btn_label: "Besøg Apuls"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
   - image_path: /assets/images/logo/denintelligentekrop.png
@@ -142,7 +142,7 @@ feature_row_ads:
     title: "Den Intelligente Krop"
     excerpt: "Vi er Danmarks førende webshop indenfor ´en sund krop i udvikling´. Vi har langt det meste indenfor træningsudstyr til Pilates, yoga, crossfit osv."
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484
-    btn_label: "Den Intelligente Krop*"
+    btn_label: "Besøg Den Intelligente Krop"
     btn_class: "btn--info"
     rel: sponsored nofollow noopener
   - image_path: /assets/images/logo/getbig.png
@@ -150,7 +150,7 @@ feature_row_ads:
     title: "Getbig.dk"
     excerpt: "Danmarks største forhandlere med produkter indenfor fitnessbranchen. Vi er kendt for gode priser og god kvalitet, og gør både i kosttilskud som proteinpulver, kreatin og weightgainer samt i fitness udstyr ex. kettlebells, håndvægte mv."
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=21411
-    btn_label: "Besøg Getbig.dk*"
+    btn_label: "Besøg Getbig.dk"
     btn_class: "btn--info"
     rel: sponsored nofollow noopener
   - image_path: /assets/images/logo/bodyman.png
@@ -158,7 +158,7 @@ feature_row_ads:
     title: "Bodyman.dk"
     excerpt: "Salg af kosttilskud og fitnesstøj."
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=20604
-    btn_label: "Besøg Bodyman*"
+    btn_label: "Besøg Bodyman"
     btn_class: "btn--info"
     rel: sponsored nofollow noopener
 ---

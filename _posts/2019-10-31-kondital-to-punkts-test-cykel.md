@@ -24,7 +24,7 @@ feature_row:
     title: "Textbook of Work Physiology - Åstrand m.fl."
     excerpt: "Åstrand og Rohdals bog er en klassiker inden for arbejdsfysiologi. Den inkluderer bl.a. Åstrands 2-punktstest, hvor du kan læse en endnu mere udførlig forklaring af testen. Bogen er imidlertid også en rigtig god reference til at forstå kroppen, og der er andre praktiske konditionstests i bogen."
     url: "https://books.google.dk/books/about/Textbook_of_Work_Physiology.html?id=BC9SiAsUPqsC&redir_esc=y"
-    btn_label: "Læs mere*"
+    btn_label: "Se prisen"
     btn_class: "btn--success"
 ---
 

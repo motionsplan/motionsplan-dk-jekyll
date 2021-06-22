@@ -20,7 +20,7 @@ feature_row:
     title: "Stærk - Jacob Beermann"
     excerpt: "Jacob Beermann fortæller i _Stærk_, hvordan du kan gribe styrketræning an i styrkeløft. Du får en god beskrivelse af, hvordan du bygger træning op og udfører de forskellige løft. Med bogen får du også eksklusiv adgang til en Facebookgrupppe, og du får et træningsprogram på 16 uger."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835"
-    btn_label: "Køb bogen*"
+    btn_label: "Køb bogen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
 gallery:

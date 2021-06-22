@@ -31,7 +31,7 @@ feature_row:
     title: "Seger Kompressionsstrømper til Løb"
     excerpt: "Segers kompressionsløbestrømper giver den optimale blodgennemstrømning i underbenet. Løbestrømper med kompression giver dig mange fordele, når du løber. Til orientering har jeg kun set studier på CEPs løbestrømper med kompression."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=9397&htmlurl=https://www.billigsport24.dk/seger-compression-lobestromper-2-par-326708"
-    btn_label: "Tjek pris*"
+    btn_label: "Tjek pris"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
   - image_path: https://www.billigsport24.dk/media/catalog/product/w/s/ws50n0_green_herre.jpg
@@ -39,7 +39,7 @@ feature_row:
     title: "CEP Calf Sleeve"
     excerpt: "Calf sleeve uden fod. Ergonomisk pasform. Microfiber teknologi for den bedste komfort. Antibakterielle og lugtreducerence egenskaber. Mesh ved læggen for bedre ventilation."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=16532&htmlurl=https://www.billigsport24.dk/cep-compression-sleeves-green-mens"
-    btn_label: "Tjek pris*"
+    btn_label: "Tjek pris"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
 feature_row_bike:
@@ -48,7 +48,7 @@ feature_row_bike:
     title: "Sensor Compress - Kompressionsstrømper cykelstrømper der virker"
     excerpt: "Kompressionsstrømperne fra Sensor stimulere blodcirkulationen og får musklernes regeneration til at foregå hurtigere. Cykelstrømperne er udviklet med en anatomisk svang, samt forstærket tå og hælområde. Derudover modvirker de trætte ben og giver foden en bedre støtte."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=16446&htmlurl=https://www.cykelpartner.dk/sensor-compress---kompressions-cykelstroemper---sortblaa---str-6-8--39-42"
-    btn_label: "Tjek pris*"
+    btn_label: "Tjek pris"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
 ---

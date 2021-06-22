@@ -19,7 +19,7 @@ feature_row:
     title: "Stærk - Jacob Beermann"
     excerpt: "Kunne du godt tænke dig at blive rigtigt stærk? Jacob Beermann har med bogen Stærk skrevet en god og grundig introduktion til hvordan man styrketræner bedst, og hvordan man laver opvarmning til styrketræning."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835"
-    btn_label: "Tjek prisen hos Saxo*"
+    btn_label: "Tjek prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
 ---

@@ -20,7 +20,7 @@ feature_row:
     title: "Garmin HRM-Run Pulsbælte"
     excerpt: "Garmins pulsbælte fungerer rigtig fint sammen med EliteHRV-appen til at måle heart rate variability og naturligvis sammen med de forskellige Garmin Produkter, fx det fantastiske FENIX-ur."
     url: https://track.adtraction.com/t/t?a=1124622406&as=1484571907&t=2&tk=1&url=https://sportmaster.dk/garmin-hrm-run-pulsmalerrem-black-1476604
-    btn_label: "Se prisen*"
+    btn_label: "Se prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
   - image_path: https://www.loebeshop.dk/media/catalog/product/cache/1/image/575x/040ec09b1e35df139433887a97daa66f/r/_/r_fenix5x_hr_2003.1.jpg
@@ -28,7 +28,7 @@ feature_row:
     title: "Garmin FENIX 5S Smartwatch"
     excerpt: "Garmin Fenix er fantastiske pulsure og aktivitetsure. Garmin har implementeret deres egen form for træningsparathed, som ikke helt er heart rate variability."
     url: https://track.adtraction.com/t/t?a=1124622406&as=1484571907&t=2&tk=1&url=https://sportmaster.dk/garmin-fenix-5-plus-sapphire-2058971?size=One+Size&gclid=Cj0KCQjwj7v0BRDOARIsAGh37ipamu_nXNAfyMPbgF4aQfhUyRpXvIcMdu7wu2hXPvpD1_bP8i6zo54aAvojEALw_wcB
-    btn_label: "Se prisen*"
+    btn_label: "Se prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
   - image_path: https://www.mediasupply.dk/wp-content/uploads/2019/11/088d227c-d03a-42b5-8ae6-3ecfaab4c69d.jpg
@@ -36,7 +36,7 @@ feature_row:
     title: "Bose Spoundsport Free"
     excerpt: "Bose Spoundsport Free er hovedtelefoner, der spiller ensartet og klart, uanset om din telefon er i hånden, i lommen, spændt fast på din arm eller sidder oven på løbebåndet … og der er ikke et eneste kabel involveret."
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=77605&htmlurl=https://www.mediasupply.dk/vare/bose-soundsport-free/
-    btn_label: "Se prisen*"
+    btn_label: "Se prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
 ---

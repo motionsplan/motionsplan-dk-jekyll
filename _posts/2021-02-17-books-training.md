@@ -40,14 +40,14 @@ feature_row:
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/daniels-running-formula_jack-daniels_9781450431835
     title: "Daniels' Running Formula"
     excerpt: "Jack Daniels was named the world's best running coach by Runner's World magazine, and his best-selling book, Daniels' Running Formula, shows you why. Whether your race of choice is the 800 meters, the marathon, or anything in between, Daniels' Running Formula, Third Edition, offers a proven recipe for success."
-    btn_label: "Tjek prisen hos Tales*"
+    btn_label: "Tjek prisen"
     btn_class: "btn--danger"
     rel: sponsored nofollow noopener
   - image_path: https://cdn6.tales.dk/00001/70394/cover.1612526420.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390
     title: "Løb som eliten"
     excerpt: "Claus Hechmanns bog LØB SOM ELITEN er handler om, hvordan du skal træne for at blive en hurtigere løber og få mest muligt ud af dit potentiale. Bogen indeholder fem specialdesignede 12-ugers programmer til distancerne 5 km, 10 km og helt op til maraton."
-    btn_label: "Tjek prisen hos Tales*"
+    btn_label: "Tjek prisen"
     btn_class: "btn--danger"
     rel: sponsored nofollow noopener
   - image_path: https://imgcdn.saxo.com/_9788771801835/0x500
@@ -55,7 +55,7 @@ feature_row:
     title: "Stærk - Jacob Beermann"
     excerpt: "Jacob Beermann fortæller i _Stærk_, hvordan du kan gribe styrketræning an i styrkeløft. Du får en god beskrivelse af, hvordan du bygger træning op og udfører de forskellige løft. Med bogen får du også eksklusiv adgang til en Facebookgrupppe, og du får et træningsprogram på 16 uger."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835"
-    btn_label: "Køb bogen hos Saxo*"
+    btn_label: "Køb bogen"
     btn_class: "btn--danger"
     rel: sponsored nofollow noopener
   - image_path: https://imgcdn.saxo.com/_9781492552123/0x500

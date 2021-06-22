@@ -23,7 +23,7 @@ feature_row:
     title: "Optima Sport Recovery Boots Ultima K8 – komplet sæt"
     excerpt: "Ultima K8 er velegnet til alle programmer. Støvlen giver en mere dybdegående massage, end vores andre støvler, da kamrene er mindre og derfor kan arbejder sig mere ned i muskulaturen."
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55636&htmlurl=https://www.optimasport.dk/produkt/koeb-recovery-boots-og-opnaa-hurtigere-restitution/
-    btn_label: "Pris hos optimasport.dk*"
+    btn_label: "Køb her"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
   - image_path: https://yourboots.dk/wp-content/uploads/2019/06/yourboots_model_ultimate.jpg
@@ -31,7 +31,7 @@ feature_row:
     title: "Vakuumbukser og recovery boots"
     excerpt: "Yourboots.dk har et stort udvalg i vakuumbukser og recovery boots. Der er både versioner, du kan bruge til at rejse eller større setups til hjemmetræning og restitution."
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=71899&htmlurl=https://yourboots.dk/en/product/recovery-boots-model-ultimate/
-    btn_label: "Pris hos yourboots.dk*"
+    btn_label: "Se prisen"
     btn_class: "btn--info"
     rel: sponsored nofollow noopener
 ---

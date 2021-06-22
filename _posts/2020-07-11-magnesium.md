@@ -21,7 +21,7 @@ feature_row:
     title: "Bodylab ZMA"
     excerpt: "Bodylab ZMA indeholder en kombination af zink, magnesium og B6 vitamin. Bodylab ZMA bruger det organisk-bundne magnesium bisglycinat."
     alt: "Bodylab magnesium tilskud til at undgå magnesiummangel bivirkninger"
-    btn_label: "Tjek prisen hos Bodylab*"
+    btn_label: "Tjek prisen"
     btn_class: "btn--info"
     rel: sponsored nofollow noopener
 ---

@@ -27,7 +27,7 @@ feature_row:
     title: "Concept 2 - Model D Sort + PM5"
     excerpt: "Concept 2 er er en fantastisk romaskine. Du kan lave dine træningsprogrammer til roning og forskellige intervaller, så din rotræning får høj kvalitet og en helt unik træningsoplevelse."
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/concept-2-model-d-sort-pm5/
-    btn_label: "Tjek pris hos Fitnessgruppen*"
+    btn_label: "Tjek pris"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
 ---

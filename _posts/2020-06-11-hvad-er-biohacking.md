@@ -21,7 +21,7 @@ feature_row:
     title: "The Biohacking Manifesto"
     excerpt: "Biohacking is just a fancy word for optimizing your own biological potential, and in the context of this brand new book from James Lee (author of The Methuselah Project) it means achieving this via - - Slowing the process of cellular aging to extend longevity"
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/the-biohacking-manifesto_james-lee_paperback_9781512121278"
-    btn_label: "Tjek prisen hos Saxo*"
+    btn_label: "Tjek prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
   - image_path: https://imgcdn.saxo.com/Image?ImageID=10149040
@@ -29,7 +29,7 @@ feature_row:
     title: "Saxos bøger om Biohacking"
     excerpt: "Der er skrevet en masse bøger om Biohacking efterhånden, og Saxo har flere spændende bøger, bl.a. af John Board."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/products/search?query=biohacking"
-    btn_label: "Se prisen hos Saxo*"
+    btn_label: "Se prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
 ---

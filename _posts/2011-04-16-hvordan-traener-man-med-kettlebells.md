@@ -18,7 +18,7 @@ feature_row:
     title: "Peak Fitness Kettlebell"
     excerpt: "En super lækker kettlebell af støbejern, som er delvist betrukket med et kraftigt lag neopren for at beskytte gulv."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/peak-fitness-12-kg-kettlebell/"
-    btn_label: "Tjek prisen*"
+    btn_label: "Tjek prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
   - image_path: https://www.fotoagent.dk/single_picture/11803/138/custom1/12_kg._Competition_Kettlebell_clipped_rev_1.jpg
@@ -26,7 +26,7 @@ feature_row:
     title: "Peak Fitness Competition Kettlebell"
     excerpt: "Peak Fitness Competition Kettlebells er lavet af stål, og har de internationale farvekoder, hvilket gør det nemt at kende de forskellige kg. fra hinanden. Håndtaget er poleret og giver en god komfort."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/peak-fitness-12-kg-competition-kettlebell/"
-    btn_label: "Tjek prisen*"
+    btn_label: "Tjek prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
 toc: true

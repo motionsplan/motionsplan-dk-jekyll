@@ -51,7 +51,7 @@ feature_row_running_program:
     url: https://docs.google.com/document/d/1LRwLogpMtkM88HQnEa2hjgpkQmOIPIM7TcnZGM-erlQ/copy
     title: "Løbetræning og løbeprogram skabelon"
     excerpt: "Skabelon til at lave et løbeprogram, hvor man kan tage udgangspunkt i Jack Daniels Running Formula og løbsberegner."
-    btn_label: "Google Docs*"
+    btn_label: "Download Google Docs"
     btn_class: "btn--info"
 ---
 

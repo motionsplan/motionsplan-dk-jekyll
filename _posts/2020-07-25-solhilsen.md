@@ -21,7 +21,7 @@ wallsticker:
     title: "Wallsticker med Solhilsen A"
     alt: "Wallsticker med Solhilsen A"
     excerpt: "Wallstickerland har en enkel wallsticker med Solhilsen A, som er rigtig let at sætte op. Du kan få et gavekort på 100 kroner, hvis du [tilmelder dig her](http://gavekort.wallstickerland.dk/gratis) først."
-    btn_label: "Tjek prisen*"
+    btn_label: "Tjek prisen"
     btn_class: "btn--warning"
     rel: sponsored nofollow noopener
 plakat:
@@ -30,7 +30,7 @@ plakat:
     title: "Solhilsen plakat fra Vissevasse"
     alt: "Solhilsen plakat fra Vissevasse"
     excerpt: "Plakat fra Vissevasse med solhilsen. Plakaten illustrere en lille hilsen til solen der står op. Plakaterne er trykt på svensk miljøvenligt papir."
-    btn_label: "Tjek prisen*"
+    btn_label: "Tjek prisen"
     btn_class: "btn--warning"
     rel: sponsored nofollow noopener
 books:
@@ -40,7 +40,7 @@ books:
     alt: "Den lille solhilsen med de store virkninger"
     excerpt: "Solhilsenen er en kendt yogaøvelse, og den er let at udøve, også for mennesker, der måske ikke er vant til at strække kroppens muskler og sener. Den lille solhilsen er nem at lære og kan nemt flettes ind i dagligdagen, fordi den kun kræver få minutter. Inge-Maria Niebuhr har dyrket, fordybet og uddannet sig i yoga siden 1975. Hun er en erfaren yogalærer, der tager udgangspunkt i elevens muligheder og behov."
     btn_class: "btn--danger"
-    btn_label: "Tjek prisen hos Saxo*"
+    btn_label: "Tjek prisen"
     rel: sponsored nofollow noopener
 feature_row_yogamat:
   - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/1600x/9df78eab33525d08d6e5fb8d27136e95/m/a/manduka-x-mat-moerkeblaa-03_1.jpg
@@ -48,7 +48,7 @@ feature_row_yogamat:
     title: "Manduka X Yoga Mat"
     excerpt: "Hvis du laver meget træning og yoga, så kan vi godt anbefale at investere i en yogamåtte af høj kvalitet. Du kan fx kigge på denne Manduka X Yoga Mat."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/manduka-x-yoga-mat"
-    btn_label: "Tjek prisen*"
+    btn_label: "Tjek prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
 yogastream:

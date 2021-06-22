@@ -21,7 +21,7 @@ feature_row:
     title: "Low Back Disorders - Evidence-Based Prevention and Rehabilitation af Stuart Mcgill"
     excerpt: "Low Back Disorders - Evidence-Based Prevention and Rehabilitation af Stuart Mcgill"
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/low-back-disorders_stuart-mcgill_hardback_9781450472913"
-    btn_label: "Tjek prisen*"
+    btn_label: "Tjek prisen"
     btn_class: "btn--success"
 ---
 
