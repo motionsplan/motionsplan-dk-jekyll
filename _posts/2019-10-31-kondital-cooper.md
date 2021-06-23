@@ -66,15 +66,11 @@ Når du har udregnet dit kondital i vores beregner, så kan du få en vurdering 
 
 ## Baggrund for kondital og Cooper-test
 
+Formålet med testen er at se, hvor hurtigt du kan løbe på 12 minutter.
+
 Konditallet i Coopertesten afhænger ikke af vægten. Konditallet er VO<sub>2</sub>-max divideret med kropsvægten. Hvis en person på 50 kg skal løbe 3000 meter på 12 minutter, så kræver det en VO<sub>2</sub>max på 2,8 l/min.
 
 Hvis en person på 100 kg skal løbe samme distance, så kræver det dobbelt så meget energi og dermed en VO<sub>2</sub>max på 5,6 l/min, men da personen jo netop har dobbelt så stor kropsvægt, så ender konditallet med at være det samme.
-
-{% comment %}
-
-{% include figure image_path="https://levaktivt.dk/media/2593/cooper-test-infografik.jpg" caption="Cooper-test: Find dit kondital med Coopers 12 minutters løbetest" alt="Find dit kondital med Cooper-testen" %}
-
-{% endcomment %}
 
 ## Formel til at udregne konditallet fra Coopertesten
 
@@ -116,7 +112,7 @@ McCutcheon et al (1990) fandt med at Cooper testen gave en systematisk underesti
 
 Mange stiller spørgsmålet: "Hvor langt kan man løbe på 12 minutter?" Hvis du løber mindre end 2000 meter, skal du nok træne lidt, og hvis du kan løbe længere end 3000 meter, så er du i ret god form.
 
-Det afhænger naturligvis af din samlede kondition og løbeøkonomi, hvor langt du kan løbe på Cooper-testens 12 minutter. Der findes tabeller, hvor du kan vurdere din løbedistance på Cooper-testen med normalværdier.
+Det afhænger naturligvis af din kondition og løbeøkonomi, hvor hurtigt og hvor langt du kan løbe på Cooper-testens 12 minutter. Der findes tabeller, hvor du kan vurdere din løbedistance på Cooper-testen med normalværdier.
 
 Hvis vi tager **verdensrekordholderen på 5 kilometer for mænd**, Joshua Cheptegei, og smider hans tid på 12:35:36 ind i [en formel for hastighed og vores beregner for gennemsnitshastighed]({% link _posts/2019-12-05-hastighed-beregnere.md %}), så løber han altså i 23,84 km/t i gennemsnit. Det svarer til, at han løber 4,8 kilometer på 12 minutter.
 
@@ -133,7 +129,7 @@ Cooper (1968) lavede selv en tabel over normalværdier for distance på Cooper-t
 Værdierne fra disse skemaer over Cooper-testen er lidt anderledes end de tabeller, du kan finde på [den danske Wikipedias side for Cooper-testen](https://da.wikipedia.org/wiki/Coopertest). Det ved jeg ikke hvorfor. Hvis du gør, så brug endelig kommentarerne.
 {: notice .notice--info }
 
-Hvis du sammenligner værdierne i tabellerne fra Cooper (1968) med det kondital, du kan udregne i vores beregner, så ender du i forskellige kategorier. Der er stor forskel i vurderingen, om du bruger [tabellen over kondital](/kondital/) eller Coopers skema til at vurdere dit konditionsniveau.
+Hvis du sammenligner værdierne i tabellerne fra Cooper (1968) med det kondital, du kan udregne i vores beregner, så ender du i forskellige kategorier. Der er stor forskel i vurderingen, om du bruger [tabellen over kondital](/kondital/) eller Coopers skema til at vurdere dit din kondition.
 
 Fx vil en pige, der løber 2100 meter få et kondital på 36 ml/min/kg, hvilket er i den lave ende af 'Middel', mens hun i Coopers egen tabel ligger i kategorien 'Meget godt'. Det er en uforklarlig forskel.
 
@@ -259,7 +255,7 @@ Den maksimale iltoptagelse flytter du bedst med [højintensive intervalløb](/in
 
 ## Konklusion på Cooper-testen
 
-Cooper-testen er maksimal, indirekte test til at estimere konditallet. Cooper-testen er et rigtig godt alternativ, når du ikke har adgang til et laboratorium, hvor du kan få målt dit kondital med en direkte test. Fordelen ved Cooper-testen er også, at den kan laves overalt og med store grupper ad gangen.
+Cooper-testen er maksimal, indirekte test til at estimere konditallet. Testen er et rigtig godt alternativ, når du ikke har adgang til et laboratorium, hvor du kan få målt dit kondital med en direkte test. Fordelen ved Cooper-testen er også, at den kan laves overalt og med store grupper ad gangen.
 
 Jeg synes ikke de oprindelige tabeller til vurdering af distancen på Cooper-testen er så anvendelige. Det er bedre at udregne dit kondital eller bruge de modificerede tabeller, jeg har lavet ved at regne distancen baseret på [kategorierne for konditallet](/kondital/).
 

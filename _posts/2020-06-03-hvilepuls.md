@@ -77,7 +77,7 @@ Hvis vi kigger på raske mennesker, så kan det være et mål med sin træning a
 
 ## Skema og tabel over hvilepuls
 
-Her har jeg samlet nogle [retninglinjer for hvilepulsen](https://bgh.dk/hvilepuls/) i en samlet tabel. Tabellen kan bruges til at give en vurdering af din hvilepuls, som gælder både for mænd og kvinder.
+Her har jeg samlet nogle [retninglinjer](https://bgh.dk/hvilepuls/) for hvilepulsen i en samlet tabel. Tabellen kan bruges til at give en vurdering af din hvilepuls, som gælder både for mænd og kvinder.
 
 | Kategori            | Hvilepuls for kvinder | Hvilepuls for mænd |
 |---------------------|-----------------------|--------------------|
@@ -113,7 +113,7 @@ Du kan selv måle hvilepulsen på forskellige måder. Du kan føle den manuelt, 
 
 ## Sådan måler du din hvilepuls
 
-Der er flere måder at finde frem til din hvilepuls på. Du kan enten bruge stopur, pulsur eller blodtryksmåler til at måle din hvilepuls.
+Du kan enten bruge stopur, pulsur eller blodtryksmåler til at måle hvilepulsen.
 
 ### Mål hvilepulsen med stopur
 
@@ -126,8 +126,6 @@ Der er flere måder at finde frem til din hvilepuls på. Du kan enten bruge stop
 3. Brug et stopur til at tage tid. Du kan fx tælle slagene i 20 sekunder og så gange med tre. Jeg foretrækker at tælle i et helt minut, da en enkelt fejltælling ved kortere intervaller kommer til at betyde mere.
 
 Hvis du vil have det mest præcise bud på, hvad din reelle hvilepuls er, så bør du gøre det nogle dage i træk under de samme forudsætninger. Der kan nemlig også være daglige variationer.
-
-Du kan også måle din hvilepuls med følgende redskaber:
 
 ### Mål hvilepulsen med pulsur
 
@@ -142,7 +140,7 @@ Du gør følgende for at måle din hvilepuls:
 
 ### Mål hvilepulsen med blodtryksmåler
 
-- **Blodtryksmåler.** Her er vi naturligvis i den lidt dyrere ende, men fordelen er, at du også får dit blodtryk målt. Jeg synes dog godt afklemningen af armen kan være lidt stressende, hvilket potentielt kan øge hvilepulsen.
+- **Blodtryksmåler.** Her er vi naturligvis i den lidt dyrere ende, men fordelen er, at du også får dit blodtryk målt. Jeg synes dog godt afklemningen af armen kan være lidt stressende, hvilket potentielt kan øge pulsen.
 
 Du følger nogenlunde samme fremgangsmåde som ovenfor, men starter først blodtryksmåleren efter, at du har hvilet nogle minutter efter at være vågnet. Det larmer jo lidt, så hvis du deler din seng med nogen, så skal du nok have lavet en aftale på forhånd.
 
@@ -152,7 +150,7 @@ Når du vil etablere en _baseline_ for din hvilepuls, så skal du lave morgenmå
 
 Hvis du fx får følgende målinger: 56, 56, 54, 58, 57, 56, så er gennemsnittet 56, så det er det tal vi tager udgangspunkt i. Men du har også registreret, at hvilepulsen er i et interval fra 54 til 58.
 
-Hvis du så jævnligt laver hvilepulsmålinger for at følge, hvordan det går med dit træningsniveau, så vil en meningsfuld ændring af hvilepulsen altså være, hvis du kan sænke gennemsnittet for målingerne, fordi der er daglige variationer. Dette kræver dog, at du igen laver daglige målinger.
+Hvis du så jævnligt laver hvilepulsmålinger for at følge, hvordan det går med dit træningsniveau, så vil en meningsfuld ændring af pulsen altså være, hvis du kan sænke gennemsnittet for målingerne, fordi der er daglige variationer. Dette kræver dog, at du igen laver daglige målinger.
 
 Hvis du foretrækker bare at tage stikprøver, så vil en meningsfuld ændring være, at dine målinger skal komme under 54.
 
@@ -176,11 +174,11 @@ Hvis du vil læse om flere [tilpasninger ved konditionstræning, så kan du læs
 
 ## Er en lav hvilepuls altid godt?
 
-Nej. Din hvilepuls kan også påvirkes af sygdom og alderdom. En lav hvilepuls kan være et symptom på sygdomme omkring hjertet kan hvilepulsen falde. En blodprop i hjertet, hjertefejl eller betændelse i hjertet, et højt blodtryk, lavt stofskifte og medicin kan også være med til at sænke hvilepulsen.
+Nej. Din hvilepuls kan også påvirkes af sygdom og alderdom. En lav hvilepuls kan være et symptom på sygdomme omkring hjertet. En blodprop i hjertet, hjertefejl eller betændelse i hjertet, et højt blodtryk, lavt stofskifte og medicin kan også være med til at sænke pulsen.
 
 ## Hvad kan du bruge hvilepulsen til?
 
-Ud over at hvilepulsen er en indikator på ens træningsniveau særligt i kredsløbssystemet, så kan du også bruge hvilepulsen til at udregne forskellige træningsparametre.
+Ud over at hvilepulsen er en indikator på ens træningsniveau særligt i kredsløbssystemet, så kan du også bruge pulsen til at udregne forskellige træningsparametre.
 
 Sammen med [max-pulsen]({% link _posts/2020-06-02-max-hr.md %}) kan du [estimere dit kondital ud fra puls med vores enkle beregner](/kondital-fra-puls/).
 

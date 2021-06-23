@@ -48,7 +48,7 @@ I nedenstående figur er det mest relevante muskler i forhold til træning vist 
 
 {% include anatomy.html %}
 
-### Liste over andre muskler
+### Liste over andre muskler i kroppen
 
 Du kan se de øvrige vigtige muskler for træning i figuren ovenfor:
 

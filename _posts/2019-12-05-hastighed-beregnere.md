@@ -33,6 +33,7 @@ Når du har læst hele dette indlæg, så kan du selv besvare følgende spørgsm
 
 - Hvordan udregner jeg min løbehastighed i km i timen?
 - Hvor regner man pace ud i min per kilometer?
+- Hvordan omregner jeg fra km til min/km?
 - Hvad er min gennemsnitsfart, og hvor hurtigt løber jeg i gennemsnit på en given distance?
 - Hvor lang tid tager det at løbe en bestemt distance?
 
@@ -45,7 +46,7 @@ Typisk kan man i angive hastigheden på to forskellige måder:
 - **hastighed i km/t**. Den hastighed kender du fra sit spedometer i bilen, så den er let at forholde sig til. Typisk er det også den hastighed, man kan indstille på et løbebånd. Jeg synes, at den er lidt vanskeligere at bruge, når man er ude på en løbetur.
 - **pace i min/km**. På løbeture foretrækker jeg at forholde mig til, hvor mange minutter jeg bruger for at løbe en kilometer. Det er let at forholde sig til - særligt hvis man kender den distance, man løber.
 
-## Udregn hastighed (km/t) fra distance og tid i vores beregner
+## Beregn hastighed (km/t) fra distance og tid i vores beregner
 
 I denne beregner kan du beregne din hastighed og gennemsnitshastighed ud fra den tilbagelagte distance og din tid.
 
@@ -55,7 +56,7 @@ I denne beregner kan du beregne din hastighed og gennemsnitshastighed ud fra den
 
 {% include calculate-hastighed-distance.html %}
 
-## Udregn tid fra hastighed (km/t) og distance i vores beregner
+## Beregn tid fra hastighed (km/t) og distance i vores beregner
 
 {% include calculate-hastighed-time.html %}
 
@@ -117,7 +118,7 @@ Du vil altså med en løbehastighed på 15 km/t på 15 minutter løbe 3,75 km.
 
 Hvis du kender hastigheden og distancen, men ikke kender den samlede tid det tog dig at løbe eller cykle distancen, så kan du stadig finde ud af, hvor lang tid det tog.
 
-Hvis du har hastigheden i min/km, som man fx ofte får på et GPS-ur, så skal du først lige konvertere tempoet til km/t. 
+Hvis du har hastigheden i min/km, som man fx ofte får på et GPS-ur, så skal du først lige konvertere tempoet til km/t.
 
 {% include math formula="Tid (min) = \frac{Distance (km) * 60 min/t}{hastighed (km/t)}" %}
 

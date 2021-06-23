@@ -1,7 +1,7 @@
 ---
 title: "De fem tibetanere 🧘: Komplet guide til de 5 yoga øvelser"
 seo_title: "De fem tibetanere - Komplet guide til de 5 yoga øvelser »"
-description: "Lær de 5 tibetanere med video og billeder ✓ Yogaøvelser der kan laves på 20 minutter ✓ Giver øvelserne evig ungdom? ✓ Komplet guide ✓ Print øvelserne ud!"
+description: "Lær de 5 tibetanere med video og billeder ✓ Fem yogaøvelser der kan laves på 20 minutter ✓ Giver øvelserne evig ungdom? ✓ Komplet guide ✓ Print øvelserne ud!"
 permalink: /artikel/de-fem-tibetanere/
 language: da
 header:
@@ -18,7 +18,7 @@ category:
 last_modified_at: 2021-01-24T09:41:09Z
 feature_row:
   - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/1000x/9df78eab33525d08d6e5fb8d27136e95/d/e/de-fem-tibetanere-1.jpg
-    alt: "De 5 tibetanere"
+    alt: "Bogen De 5 tibetanere af Peter Kelder"
     title: "Peter Kelder - de fem tibetanere (bog 1)"
     excerpt: "Den gamle hemmelighed om ungdommens kilde. Denne bog om 5 gamle tibetanske kropsøvelser har gået sin sejrsgang over det meste af den vestlige verden. Bogen har indtil nu solgt i over 2 millioner eksemplarer bare i Tyskland og USA. Du lærer her fem enkle øvelser, som giver fornyet livskraft og velvære. Yogaøvelserne er lette at udføre, og du bestemmer selv, hvor megen tid du vil bruge på dem. "
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-bog-1"
@@ -26,7 +26,7 @@ feature_row:
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
   - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/1000x/9df78eab33525d08d6e5fb8d27136e95/d/e/1294-de-fem-tibetanere-bog-2.gif
-    alt: "De 5 tibetanere"
+    alt: "Peter Kelders anden bog om de 5 tibetanere"
     title: "Peter Kelder - de fem tibetanere (bog 2)"
     excerpt: "Den gamle hemmelighed om ungdommens kilde er opfølgeren til bog nr. 1 om De 5 tibetanere. Denne bog er på 302 sider og noget mere omfattende end bog nr. 1. Du bliver blandt andet præsenteret for den sjette tibetaner."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-bog-2"
@@ -44,7 +44,7 @@ feature_row_dvd:
     rel: sponsored nofollow noopener
 feature_row_yogamat:
   - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/1600x/9df78eab33525d08d6e5fb8d27136e95/m/a/manduka-x-mat-moerkeblaa-03_1.jpg
-    alt: "Manduka X Yoga Mat til de 5 tibetanere"
+    alt: "Manduka X Yoga Mat"
     title: "Manduka X Yoga Mat"
     excerpt: "Hvis du laver meget træning og yoga, så kan vi godt anbefale at investere i en yogamåtte af høj kvalitet. Du kan fx kigge på denne Manduka X Yoga Mat."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/manduka-x-yoga-mat"
@@ -53,19 +53,19 @@ feature_row_yogamat:
     rel: sponsored nofollow noopener
 gallery:
   - image_path: https://upload.wikimedia.org/wikipedia/commons/7/77/Five_tibetan_rite_1.gif
-    alt: "Rite 1: De 5 tibetanere"
+    alt: "Rite 1"
     title: "Rite 1: De 5 tibetanere"
   - image_path: https://upload.wikimedia.org/wikipedia/commons/a/a2/Five_tibetan_rite_2.gif
-    alt: "Rite 2: De 5 tibetanere"
+    alt: "Rite 2"
     title: "Rite 2: De 5 tibetanere"
   - image_path: https://upload.wikimedia.org/wikipedia/commons/3/3a/Five_tibetan_rite_3.gif
-    alt: "Rite 3: De 5 tibetanere"
+    alt: "Rite 3
     title: "Rite 3: De 5 tibetanere"
   - image_path: https://upload.wikimedia.org/wikipedia/commons/5/5e/Five_tibetan_rite_4.gif
-    alt: "Rite 4: De 5 tibetanere"
+    alt: "Rite 4"
     title: "Rite 4: De 5 tibetanere"
   - image_path: https://upload.wikimedia.org/wikipedia/commons/3/3d/Five_tibetan_rite_5.gif
-    alt: "Rite 5: De 5 tibetanere"
+    alt: "Rite 5"
     title: "Rite 5: De 5 tibetanere"
 wallsticker:
   - image_path: https://www.wallstickerland.dk/media/catalog/product/t/h/the-5-tibetan-rites-danish.jpg
@@ -212,7 +212,7 @@ Jette Weimar, som også er yogainstruktør, forklarer de fem riter behageligt og
 
 Hvis du hellere vil have øvelserne **illustreret** og gennemgået på skrift, så gennemgår jeg her hvilke 5 yogaøvelser, du kommer igennem i de 5 tibetanere?
 
-{% include figure image_path="https://www.enlightened-consciousness.com/wp-content/uploads/2019/07/dreamstime_s_130021652.jpg" caption="Illustration af de fem tibetanere" alt="Illustration af de 5 tibetanere - 5 riter - 5 tibetanske øvelser" %}
+{% include figure image_path="https://www.enlightened-consciousness.com/wp-content/uploads/2019/07/dreamstime_s_130021652.jpg" caption="Illustration af de fem tibetanere" alt="Illustration af de 5 tibetanske yogaøvelser" %}
 
 Øvelserne i de fem tibetanere bliver kaldt for riter. Jeg har her lavet en kort beskrivelse af de 5 riter.
 
