@@ -157,4 +157,4 @@ Jeg har samlet nogle flere forslag til [løbebøger](/loebeboeger-boeger-om-loeb
 
 ## Samarbejdspartnere (reklamelinks)
 
-{% include feature_row id="feature_row_ads" %}
+{% include feature_row rows=site.data.advertisers %}
