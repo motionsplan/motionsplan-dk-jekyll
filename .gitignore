@@ -12,7 +12,7 @@ composer.phar
 composer.lock
 _scripts/*.png
 npm-debug.log
-.jekyll-cache/
+.jekyll-cache/*
 jekyll-algolia-record-too-big.log
 */.ztr-directory
 .bundle/

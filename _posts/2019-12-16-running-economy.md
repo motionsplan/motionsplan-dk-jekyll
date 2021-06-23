@@ -30,21 +30,23 @@ feature_row:
     title: "Secret of Running - Maximum Performance Gains Through Effective Power Metering and Training"
     excerpt: "How much power does your human engine have? How much power do you need for running in different conditions? How can you optimize your training and racing performance?"
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/secret-of-running_hans-van-dijk_paperback_9781782551096"
-    btn_label: "Se prisen*"
+    btn_label: "Se prisen"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
   - image_path: https://cdn6.tales.dk/00001/70394/cover.1612526420.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390
     title: "Løb som eliten"
     excerpt: "Claus Hechmanns bog LØB SOM ELITEN er handler om, hvordan du skal træne for at blive en hurtigere løber og få mest muligt ud af dit potentiale og har fine betragninger om løbeøknomomi. Bogen indeholder fem specialdesignede 12-ugers programmer til distancerne 5 km, 10 km og helt op til maraton."
-    btn_label: "Tjek prisen hos Tales*"
+    btn_label: "Tjek prisen"
     btn_class: "btn--danger"
+    rel: sponsored nofollow noopener
 feature_row_stryd:
   - image_path: https://static.wixstatic.com/media/3c82eb_70f1384f64584b009ccc002dbe0fe482~mv2.jpg/v1/fill/w_630,h_630,al_c,q_85,usm_0.66_1.00_0.01/3c82eb_70f1384f64584b009ccc002dbe0fe482~mv2.webp
     alt: "STRYD Wattmåler - Next Generation"
     title: "STRYD Wattmåler - Next Generation"
     excerpt: "STRYD er en wattmåler til løberne. Du kan bruge wattmåleren til at arbejde med din løbeøkonomi og afprøve lidt forskellige teknikker for at se, hvordan din kraft og hastighed ændrer sig i forhold til, hvor hårdt arbejdet er."
     url: "https://www.hechmannsport.dk/product-page/stryd-running-power-meter"
-    btn_label: "Se prisen*"
+    btn_label: "Se prisen"
     btn_class: "btn--success"
 ---
 
@@ -140,11 +142,11 @@ Denne minimumsgrænse blev fundet på tværs af løbere, der løb på tre forske
 
 ## Ulempen ved at bruge iltoptagelsen som mål for løbeøkonomien
 
-Claus Hechmann påpeger et problem med at bruge iltoptagelsen som eneste mål for løbeøkonomien. Han skriver i [Løb som eliten\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390){:rel="nofollow"} et eksempel med den tidligere danske løber, Henrik Jørgensen, som fik målt sin iltoptagelse til 59,8 ml/min/kg på maratontempo, mens den efterfølgende var steget til 64 ml/min/kg efter 12 ugers træning. Det fik forskerene til at konkludere, at Henrik Jørgensens løbeøkonomi var blevet forværret:
+Claus Hechmann påpeger et problem med at bruge iltoptagelsen som eneste mål for løbeøkonomien. Han skriver i [Løb som eliten](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390){: rel="nofollow sponsored noopener" } et eksempel med den tidligere danske løber, Henrik Jørgensen, som fik målt sin iltoptagelse til 59,8 ml/min/kg på maratontempo, mens den efterfølgende var steget til 64 ml/min/kg efter 12 ugers træning. Det fik forskerene til at konkludere, at Henrik Jørgensens løbeøkonomi var blevet forværret:
 
 > Efter min mening er der ingen tivvl om, at man havde misforstået fysiologien bag. Man glemte simpelthen at tage højde for, hvordan energiomsætningen finder sted i musklerne -- om det er med fedt eller kulhydrat som substrat. Det er for så vidt rigtigt nok, at en højere iltoptagelse ved en given hastighed (for eksempel maratontempo) altid er et udtryk for en højere energiomsætning. **Men det er ikke rigtigt, at dette nødvendigvis er et udtryk for en dårligere løbeøkonomi.** Tværtimod, for hvis en større procentdel af energien kommer fra fedtforbrænding, kan løbeøkonomien sagtens være forbedret.
 
---- <cite>[Claus Hechmann\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390){:rel="nofollow"}</cite>
+--- <cite>[Claus Hechmann](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390){: rel='sponsored nofollow noopener' }</cite>
 
 Claus Hechmann skriver efterfølgende lidt beklagende om fortolkningen af træningsstudiet, at man i store dele af <q>det danske atletikmiljø ... skiftede fokus fra mængdetræning til højintensitetstræning.</q>
 

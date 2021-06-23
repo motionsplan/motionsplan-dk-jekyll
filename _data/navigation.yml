@@ -19,59 +19,55 @@ main:
   - title: "Om"
     url: /om/
 blog:
-  - title: "Populære søgninger"
+  - title: "Populære sider"
     children:
-      - title: "bmi kvinder mænd og børn"
+      - title: "BMI for kvinder, mænd og børn"
         url: /bmi/
-      - title: "tæl skridt 2021"
+      - title: "Tæl skridt"
         url: /artikel/tael-skridt/
-      - title: "kondital"
+      - title: "Alt om dit kondital"
         url: /kondital/
-      - title: "anaerob træning"
+      - title: "Anaerob træning"
         url: /anaerob-traening/
-      - title: "intervalløb og interval træning"
+      - title: "Intervalløb og interval træning"
         url: /intervallob-intervaltraening/
-      - title: "hvilepuls"
+      - title: "Hvilepuls"
         url: /hvilepuls/
-      - title: "maxpuls"
+      - title: "Maxpuls"
         url: /test-max-puls/
-      - title: "balancetræning"
+      - title: "Balancetræning"
         url: /balance/
-      - title: "borg skala"
+      - title: "Borg skala"
         url: /borg-skala/
-      - title: "hvor mange knogler har et menneske"
+      - title: "Hvor mange knogler har et menneske?"
         url: /hvor-mange-knogler-har-mennesket/
-      - title: "muskler i kroppen"
+      - title: "Alt om muskler i kroppen"
         url: /muskler/
-      - title: "armstrækning og armbøjning"
-        url: /armbojninger-eller-armstraekninger-pushups/
-      - title: "pull ups og chin ups"
-        url: /chinup-vs-pullup/
-      - title: "excentrisk træning"
+      - title: "Excentrisk træning"
         url: /excentrisk-traening/
-      - title: "kompressionsstrømper løb og cykling"
+      - title: "Kompressionsstrømper til løb og cykling"
         url: /kompressionsstroemper-restitution-praestation-bivirkninger/
-      - title: "udstrækningsøvelser"
+  - title: "Populære øvelser"
+    children:
+      - title: "Armstrækninger og armbøjninger"
+        url: /armbojninger-eller-armstraekninger-pushups/
+      - title: "Pull ups og chin ups"
+        url: /chinup-vs-pullup/
+      - title: "Strækøvelser og udstrækningsøvelsre"
         url: /udstraekning-udspaending/
-      - title: "tag tid"
-        url: /tag-tid-paa-loebetraening/
   - title: "Populære tests"
     children:
-      - title: "cooper test"
+      - title: "Cooper test"
         url: /cooper-test/
-      - title: "bip test"
+      - title: "Bip test"
         url: /bip-test/
-      - title: "rm beregner"
+      - title: "RM beregner til styrketræning"
         url: /rm-beregner/
   - title: "Populære beregnere"
     children:
-      - title: "bmr beregner"
+      - title: "BMR og hvilestofskifte beregner"
         url: /bmr-beregner-hvilestofskifte-basalstofskifte/
-      - title: "hvilestofskifte beregner"
-        url: /bmr-beregner-hvilestofskifte-basalstofskifte/
-      - title: "basalstofskifte beregner"
-        url: /bmr-beregner-hvilestofskifte-basalstofskifte/
-      - title: "ligevægtsindtag beregner"
+      - title: "Ligevægtsindtag beregner"
         url: /beregner/ligevaegtsindtag-med-ligevaegtsberegner/
 anatomi:
   - title: "Anatomi"

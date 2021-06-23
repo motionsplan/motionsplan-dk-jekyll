@@ -22,8 +22,9 @@ feature_row:
     title: "Stærk - Jacob Beermann"
     excerpt: "Kunne du godt tænke dig at blive rigtigt stærk? Det kræver den rette hjælp, og den kan du heldigvis få af Jacob Beermann med bogen _Stærk_. Her får du en god og grundig introduktion til hvordan man styrketræner bedst."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835"
-    btn_label: "Tjek prisen hos Saxo*"
+    btn_label: "Tjek prisen"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 ---
 
 Hvad er god teknik i styrketræning, og hvordan kan man formidle den til sine atleter? God teknik er **effektiv** teknik, som **minimerer skadesrisikoen**. Det betyder også, at god teknik til styrketræning er individuel, for vi er alle bygget vidt forskellige.
@@ -50,7 +51,7 @@ Hvis du gerne vil minimere skadesrisikoen er det væsentligste parameter, at du 
 
 Typisk minimerer det skadesrisikoen at være i de neutrale, midtersøgende positioner, men det er ikke sikkert, at det passer til alle. Måske vil nogle med deres kropsbygning have mindre skadesrisiko ved at stå bredere i squat end de fleste andre gør det.
 
-Den vigtigste parameter i forhold til at minimere skadesrisiko er altså træningsdosering. Det handler ikke om at træne hårdest muligt hver eneste gang, men om at tilpasse træningen til dit nuværende niveau. 
+Den vigtigste parameter i forhold til at minimere skadesrisiko er altså træningsdosering. Det handler ikke om at træne hårdest muligt hver eneste gang, men om at tilpasse træningen til dit nuværende niveau.
 
 Hvis du hellere vil se en video, så fortæller Jacob Beerman lidt mere om det i denne video:
 
@@ -104,7 +105,7 @@ I øvelser hvor du har bevægelse i knæleddet kan det være hensigtsmæssigt at
 
 ### 5) Stå på hele foden - 'tripod foot'
 
-Dine fødder er din forbindelse til jorden, så ultimativt kommer en del af kraftoverførslen fra føddernes position. Hvis du laver fx squat og dødløft, så kan det være en god ide at tænke over, hvordan du fordeler vægten på fødderne. 
+Dine fødder er din forbindelse til jorden, så ultimativt kommer en del af kraftoverførslen fra føddernes position. Hvis du laver fx squat og dødløft, så kan det være en god ide at tænke over, hvordan du fordeler vægten på fødderne.
 
 Du kan udnytte 'tripod foot', hvor du mærker at du har kontakt med jorden i tre punkter, som i figuren nedenunder.
 
@@ -126,17 +127,17 @@ Hvis du følger disse meget enkle retningslinjer, er der stor sandsynlighed for,
 
 ## Hvad er god effektiv teknik i styrketræning?
 
-God teknik i styrketræning er altså at lave **effektive bevægelser, hvor skadesrisikoen er minimeret**. Det er ikke farligt at bevæge sig, så man bør ikke arbejde med absolutte mål for rigtigt og forkert i forhold til teknikken. 
+God teknik i styrketræning er altså at lave **effektive bevægelser, hvor skadesrisikoen er minimeret**. Det er ikke farligt at bevæge sig, så man bør ikke arbejde med absolutte mål for rigtigt og forkert i forhold til teknikken.
 
 Det allervigtigste parameter i forhold til at reducere skadesrisikoen er at tænke over træningsdoseringen, men dette indlæg gav også et bud på 7 gode råd til at minimere skadesrisikoen i løftene.
 
-Du skal have fokus på teknikken i din styrketræning for at blive endnu bedre til at bevæge dig og for at lave øvelserne bedre. 
+Du skal have fokus på teknikken i din styrketræning for at blive endnu bedre til at bevæge dig og for at lave øvelserne bedre.
 
 Hvis du **gerne vil løfte så tungt som muligt**, så er det væsentlige, at du får gjort det så effektivt som muligt.
 
 Hvis du fx **gerne vil have større muskler**, og fx have din pullup til at ramme den brede rygmuskel, så er det også vigtigt, at den brede rygmuskel er meget aktiveret i bevægelsen.
 
-Det er en løbende proces at få en god teknik. Der er altid noget, du kan forbedre, og det er også det der gør det udviklende at træne. 
+Det er en løbende proces at få en god teknik. Der er altid noget, du kan forbedre, og det er også det der gør det udviklende at træne.
 
 Husk også at når du øver dig for at blive bedre til noget - fx at bevæge dig i yderpositionerne - så kan du trygt gøre det med lav vægt, når du tænker på træningsdoseringen. **Det er ikke farligt at bevæge sig - og der er ikke noget der bare er rigtig og forkert. Hvis kroppen kan gøre det, så må du gerne gøre det!**
 
@@ -154,13 +155,13 @@ I medier og blandt behandlere hører om ofte om, hvad man skal passe på, eller 
 
 Jeg oplever ofte elever, der aldrig har prøvet at dødløfte, fordi de vil passe på ryggen eller tænker, at de fil få ondt i lænden af det. Andre elever kigger bekymret rundt i lokalet, hvis andre løfter på en måde, som ikke passer ind i deres billede af den ideelle bevægelse.
 
-Men der er ikke en perfekt bevægelse, der passer på alle mennesker. 
+Men der er ikke en perfekt bevægelse, der passer på alle mennesker.
 
 Og hvis nogen har fortalt dig nogle helt specifikke ting om at bevæge sig, eller at du skal passe på med noget, så overvej lige følgende.
 
 > Bevægelser er kun problematiske, når du undgår dem.
 
---- <cite>Michael Thomsen Oren ([fra Stærk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835){:rel="nofollow"})</cite>
+--- <cite>Michael Thomsen Oren ([fra Stærk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835){: rel='sponsored nofollow noopener' })</cite>
 
 Kroppen arbejder efter princippet om specificitet eller SAID-princippet. Når kroppen bliver udsat for en påvirkning eller belastning, så tilpasser den sig, så den bliver bedre til at løse påvirkningen eller belastningen i fremtiden.
 
@@ -172,8 +173,8 @@ Alle øvelser og bevægelser kan have sin plads i styrketræningsprogrammet alt 
 
 Jeg hører ofte selv hos unge mennesker nogle af de gamle skrøner om styrketræning:
 
-> "Knæene må ikke komme ud over tæerne i squat" -- FORKERT  
-> "Kun ned til 90 grader i knæene" -- FORKERT  
+> "Knæene må ikke komme ud over tæerne i squat" -- FORKERT
+> "Kun ned til 90 grader i knæene" -- FORKERT
 > "Træk til nakke er farligt" -- FORKERT
 
 Det er alle udsagn, der er baseret på frygt for at bevæge sig, men vægtløftere har knæene langt ud over tæerne, og de går meget længere ned end 90 grader i knæene. Træk til nakke sætter skuldrene i en position, men hvis man træner sig op til at blive stærk i den position, så kan man sagtens det.
@@ -218,9 +219,9 @@ Her er en lille hjemmelavet model af hele squat-bevægelsen, der viser dig de fo
 
 Det samme gør sig gældende med dødløft. Den relative længde af dine skinneben, lårben, arme og ryg betyder meget for, hvordan det kan være mest optimalt for dig at løfte.
 
-{% include figure image_path="http://trainforskills.pl/wp-content/uploads/2020/02/hip-hinge-768x576.jpg" caption="Hoftens placering i dødløft" alt="Hoftens placering i dødløft" %}
+{% include figure image_path="//trainforskills.pl/wp-content/uploads/2020/02/hip-hinge-768x576.jpg" caption="Hoftens placering i dødløft" alt="Hoftens placering i dødløft" %}
 
-Der er altså mange måder at løfte på og mange måder at bevæge sig på. Det man øver sig på, bliver man bedre til, og det man ikke øver sig på, bliver man dårligere til. 
+Der er altså mange måder at løfte på og mange måder at bevæge sig på. Det man øver sig på, bliver man bedre til, og det man ikke øver sig på, bliver man dårligere til.
 
 Det allervigtigste er, at hvis du gerne vil lære noget, så skal du lave en progression, og så skal kroppen nok langsomt lære det.
 

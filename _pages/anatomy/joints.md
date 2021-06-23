@@ -42,6 +42,7 @@ gallery:
   - image_path: https://citatplakat.dk/wp-content/uploads/2020/11/Plakat-af-menneskets-skelet-fra-siden-AN10029.png
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/skelettet-siden-anatomi-plakat/
     title: Skelettet fra siden - Anatomi plakat
+    rel: sponsored nofollow noopener
 last_modified_at: 2021-03-24T08:14:14Z
 ---
 
@@ -100,7 +101,7 @@ Ledbånd kender vi f.eks fra underbenet og foden, hvor tilstødende knogler hold
 
 ### Uægte led som symfyser
 
-En symfyse er et uægte led, hvor der udover ledbåndsfibre er indskudt en blød kerne. Fibrene gør, at leddets knogler ikke kan trækkes væk fra hinanden, fuldstændigt som ved et ledbånd. Den bløde kerne gør, at leddets knogler heller ikke kan presses sammen, og dette er specielt for symfyser. 
+En symfyse er et uægte led, hvor der udover ledbåndsfibre er indskudt en blød kerne. Fibrene gør, at leddets knogler ikke kan trækkes væk fra hinanden, fuldstændigt som ved et ledbånd. Den bløde kerne gør, at leddets knogler heller ikke kan presses sammen, og dette er specielt for symfyser.
 
 Hvis knoglerne presses sammen, vil den bløde kerne blive trykket fladere og derved udvide sig mod siderne. Det forhindres imidlertid af ledbåndsfibrene, der ligger hele vejen rundt om kernen, der således kommer til at virke som en stødpude mellem knoglerne. En symfyse er altså både trækstærk (som alle andre typer led) og trykstærk. Det har vi brug for i rygsøjlen, der skal kunne bære stor vægt uden at hvirvlerne støder mod hinanden, så de er alle adskilt af symfyser. Leddet mellem de to skamben er også en symfyse.
 
@@ -112,7 +113,7 @@ Der kan foregå bevægelser i leddene på mange forskellige måder. Ledtypen def
 
 {% include figure image_path="https://open.oregonstate.education/app/uploads/sites/48/2019/07/911_Body_MovementsPage-1-865x1024.jpg" caption="Bevægelsestyper og bevægelser i de store led i kroppen. Kilde: [open.oregonstate.education](https://open.oregonstate.education/aandp/chapter/9-5-types-of-body-movements/)" %}
 
-Her kan du se bevægelserne i underame, fingre, fødder og tæer. 
+Her kan du se bevægelserne i underame, fingre, fødder og tæer.
 
 {% include figure image_path="https://open.oregonstate.education/app/uploads/sites/48/2019/07/911_Body_MovementsPage-2-948x1024.jpg" caption="Bevægelsestyper og bevægelser underarme, fingre, fødder og tæer. Kilde: [open.oregonstate.education](https://open.oregonstate.education/aandp/chapter/9-5-types-of-body-movements/)" %}
 
@@ -151,7 +152,7 @@ Bevægelser kan foregå i et eller flere af disse bevægelsesplaner. De forskell
 
 - Udadføring (abduktion)
 - Indadføring (adduktion)
-- Sidebøjning (lateral fleksion) 
+- Sidebøjning (lateral fleksion)
 
 ### Transversale plan
 
@@ -182,9 +183,9 @@ Du har i dette tilfælde en overarm, der roterer omkring den transversale akse.
 
 Lad os prøve at kigge lidt på armstrækninger og bænkpres.
 
-- **Armstrækning**. En [armstrækning - eller en armbøjning]({% link _posts/2020-07-05-pushups.md %}) som den også ofte kaldes kan enten være udført smalt eller bredt. Hvis **armstrækningen er smal**, så foregår bevægelserne i det sagitale plan, fordi der er en bøjning i skulderleddet og en strækning i albueleddet. 
+- **Armstrækning**. En [armstrækning - eller en armbøjning]({% link _posts/2020-07-05-pushups.md %}) som den også ofte kaldes kan enten være udført smalt eller bredt. Hvis **armstrækningen er smal**, så foregår bevægelserne i det sagitale plan, fordi der er en bøjning i skulderleddet og en strækning i albueleddet.
 - Hvis du laver **bred armstrækning**, så foregår der stadig en strækning i albueleddet. Desuden foregår der en indadføring (adduktion) i skulderleddet. Dette er en kombineret bevægelse, som derfor foregår i det transversale plan, fordi armene er hævet. Det betyder, at den kombinerede bevægelse skaber en rotation i bevægelsesplanet, men fordi det er en lukket kæde, så foregår der ikke rotation i selve skulderleddet.
- 
+
 Det samme er tilfældet for **bænkpres**. Den kombinerede bevægelse er altså samlet en bevægelse i det transversale plan, men den er ikke forårsaget af en rotation i skulderleddet. Den er forårsaget af en kombineret bevægelse mellem indadføring og fleksion eller udadføring og ekstension. Du kan fx læse lidt mere på [t-nation.com](https://www.t-nation.com/training/5-things-you-need-to-know-about-every-exercise) eller på [NACM](https://blog.nasm.org/exercise-programming/sagittal-frontal-traverse-planes-explained-with-exercises).
 
 Det er mit bedste bud på en god forklaring af bevægelsesplaner. Du er meget velkommen til at foreslå forbedringer til teksten, hvis du har gode ideer.

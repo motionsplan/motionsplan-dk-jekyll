@@ -21,15 +21,17 @@ feature_row:
     title: "Exercise Physiology - Nutrition, Energy, and Human Performance"
     excerpt: "Skrevet af BS, William D., PhD McArdle, M.Ed, Frank I. Katch, Victor L. Katch."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://bogreolen.dk/exercise-physiology_bs_9781451193831"
-    btn_label: "Læs mere*"
+    btn_label: "Se prisen"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
   - image_path: https://imgcdn.saxo.com/_9788762813762/0x500
     alt: "Menneskets ernæring"
     title: "Menneskets ernæring"
     excerpt: "Den tværfaglige lærebog _Menneskets ernæring_ beskriver sammenhængen mellem de fysiologiske og biologiske processer, der er nødvendige for opretholdelse af liv. "
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/menneskets-ernaering_arne-astrup_indbundet_9788762813762"
-    btn_label: "Læs mere*"
+    btn_label: "Se prisen"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 keywords:
   - bmr beregner
   - basalstofskifte beregner
@@ -125,7 +127,7 @@ I forhold til [Nordic Nutrition Recommendations 2012](https://www.norden.org/da/
 | 11-18	  | 0,0465 W + 3,18 | 0,0393 W + 1,04 H + 1,93   |
 | 19-30	  | 0,0546 W + 2,33 | 0,0433 W + 2,57 H - 1,180  |
 | 31-60	  | 0,0407 W + 2,90 | 0,0342 W + 2,10 H - 0,0486 |
-| 61-70	  | 0,0429 W + 2,39 | 0,0356 W + 1,76 H + 0,0448 | 
+| 61-70	  | 0,0429 W + 2,39 | 0,0356 W + 1,76 H + 0,0448 |
 | over 70	| 0,0417 W + 2,41 | 0,0356 W + 1,76 H + 0,0448 |
 
 W er vægt i kg. H er højde i meter.
@@ -162,7 +164,7 @@ W er vægt i kg. H er højde i meter.
 | 61-75	  | 38,6 V + 2880 |
 | over 75 | 41 V + 2610   |
 
-V er vægt i kg. 
+V er vægt i kg.
 
 Eksempel: En kvinde på 29 år som vejer 59 kg kan udregne sit hvilestofskifte således: BMR = 61,5 * 59 + 2080 = 5119 kJ dagligt. Hvis du gerne vil have tallet i **kalorier** skal du dele det med 4,2. Jeg har skrevet lidt mere om, hvad [kalorier (cal) og kilokalorier (kcal) er her]({% link _posts/2020-07-09-kalorier.md %}).
 {: .notice .notice--info }
@@ -234,7 +236,7 @@ Der findes virkelig mange forskellige formler for BMR, hvilestofskift og basalst
 Brian Henneberg gennemgår et studie, som [sammenligner præcisionen af formler for hvilestofskiftet](https://www.bodylab.dk/shop/hvilestofskifteformler-2881c1.html). Studiet konkluderer:
 
 > Som det fremgår var næsten alle formlerne signifikant off ift. de resultater man fik når man rent faktisk målte hvilestofskiftet. De fleste formler undervurderede hvilestofskiftet, mens to formler overvurderede stofskiftet (De Lorenzo og Cunningham hos kvinderne).
-> 
+>
 > Hos mændene viste beregningerne at Harris-Benedict var den mest præcise, om end den i gennemsnit vist 284 kcal for lidt. Hos kvinderne var Cunningham den mest præcise med en gennemsnitlig afvigelse på 110 kcal (over det faktiske).
 
 --- <cite>[Brian Henneberg](https://www.bodylab.dk/shop/hvilestofskifteformler-2881c1.html)</cite>
@@ -293,7 +295,7 @@ Hård fysisk aktivitet medfører, at ens stofskifte er forhøjet 12-24 timer eft
 
 Denne udregning af stofskiftet tager udgangspunkt i _Nordiska Næringsrekommendationer 1996_.
 
-I [Menneskets Ernæring](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/menneskets-ernaering_arne-astrup_haeftet_9788762813762){:rel="nofollow"} af bl.a. Arne Astrup angiver de følgende formler til at udregne basalstofskiftet eller hvilestofskiftet.
+I [Menneskets Ernæring](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/menneskets-ernaering_arne-astrup_haeftet_9788762813762){: rel='sponsored nofollow noopener' } af bl.a. Arne Astrup angiver de følgende formler til at udregne basalstofskiftet eller hvilestofskiftet.
 
 - Basalstofskifte (MJ/døgn) = 0,09 * FFM (kg) + 1,55
 

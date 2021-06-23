@@ -54,29 +54,33 @@ feature_row_ads:
     title: "Apuls"
     excerpt: "Apuls sælger til interesserede i træning/fitness, men vi har også et stort udvalg indenfor vinter, sport, pleje, vand, wellness, kosttilskud m.v."
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=39091
-    btn_label: "Besøg Apuls*"
+    btn_label: "Besøg Apuls"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
   - image_path: /assets/images/logo/denintelligentekrop.png
     alt: "Den Intelligente Krop"
     title: "Den Intelligente Krop"
     excerpt: "Vi er Danmarks førende webshop indenfor ´en sund krop i udvikling´. Vi har langt det meste indenfor træningsudstyr til Pilates, yoga, crossfit osv."
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484
-    btn_label: "Den Intelligente Krop*"
+    btn_label: "Den Intelligente Krop"
     btn_class: "btn--info"
+    rel: sponsored nofollow noopener
   - image_path: /assets/images/logo/getbig.png
     alt: "Getbig.dk"
     title: "Getbig.dk"
     excerpt: "Danmarks største forhandlere med produkter indenfor fitnessbranchen. Vi er kendt for gode priser og god kvalitet, og gør både i kosttilskud som proteinpulver, kreatin og weightgainer samt i fitness udstyr ex. kettlebells, håndvægte mv."
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=21411
-    btn_label: "Besøg Getbig.dk*"
+    btn_label: "Besøg Getbig.dk"
     btn_class: "btn--info"
+    rel: sponsored nofollow noopener
   - image_path: /assets/images/logo/bodyman.png
     alt: "Bodyman.dk"
     title: "Bodyman.dk"
     excerpt: "Salg af kosttilskud og fitnesstøj."
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=20604
-    btn_label: "Besøg Bodyman*"
+    btn_label: "Besøg Bodyman"
     btn_class: "btn--info"
+    rel: sponsored nofollow noopener
 ---
 
 Vi har her samlet nogle øvelser til hjemmetræning og et hjemmetræningsprogram, som du kan lave hjemme uden udstyr. Du kan lave de enkelte workouts både indendørs og udendørs. Hjemmetræning kan være en yderst effektiv måde at træne på, og disse øvelser og programmer er meget motiverende.
@@ -95,7 +99,7 @@ Da Coronaen lukkede Danmark ned, så steg søgningen efter "hjemmetræning" på 
 
 {% include figure image_path="/assets/images/blog/hjemmetraening.png" caption="Søgning efter hjemmetræning på Google" %}
 
-Rigtig mange sider begyndte at lave træningsprogrammer til hjemmetræning. Sportmaster [lavede en side om hjemmetræning\*](https://track.adtraction.com/t/t?a=1124622406&as=1484571907&t=2&tk=1&url=https://sportmaster.dk/inspiration/hjemmetraening), og selv [Fitness World lavede et træningsprogram uden udstyr](https://www.fitnessworld.com/dk2/fw-online/traeningsprogrammer/7-minutters-traeningsprogram), som du kunne træne derhjemme.
+Rigtig mange sider begyndte at lave træningsprogrammer til hjemmetræning. Sportmaster [lavede en side om hjemmetræning](https://track.adtraction.com/t/t?a=1124622406&as=1484571907&t=2&tk=1&url=https://sportmaster.dk/inspiration/hjemmetraening){: rel="nofollow sponsored noopener" }, og selv [Fitness World lavede et træningsprogram uden udstyr](https://www.fitnessworld.com/dk2/fw-online/traeningsprogrammer/7-minutters-traeningsprogram), som du kunne træne derhjemme.
 
 Du kan se et af Fitness Worlds træningsprogrammer, som man kan lave hjemme kun ved hjælp af kropsvægt i denne Youtube-video.
 

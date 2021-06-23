@@ -12,6 +12,7 @@ author_profile: true
 classes: wide
 sort_by: title # date (default) title
 sort_order: forward # forward (default), reverse
+sitemap: false
 ---
 
 Vi har samlet de bedste træningsøvelser og styrketræningsøvelser. Vi har lavet en grundig forklaring af alle øvelserne, og der er både øvelser til styrketræning, konditionstræning, yoga, udstrækning, mobilitet og cardio.

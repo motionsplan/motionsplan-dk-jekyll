@@ -27,6 +27,7 @@ feature_row:
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835
     btn_label: Læs mere
     btn_class: btn--success
+    rel: sponsored nofollow noopener
 language: da
 ---
 
@@ -72,7 +73,7 @@ Træningen slutter med *chin ups* og arbejde med bagkæden, fx *back extensions*
 
 Fredag er *intensitetsdag*, hvor du bygger oven på mandagens *volumendag* for at slå din tidligere PR eller komme tæt på. Sørg for en ordentlig specifik opvarmning. Sørg for at der er mere vægt på end om mandagen, men at du stadig kan holde en korrekt teknik.
 
-Rippetoe anser dødløft for meget hårdt for kroppen, når man løfter meget tungt. Derfor har han valgt *power clean* eller *power snatch* til fredagen for at arbejde med eksplosivitet og power. Du kan også vælge _eksplosiv dødløft_, hvor fokus er på at flytte stangen hurtigt. 
+Rippetoe anser dødløft for meget hårdt for kroppen, når man løfter meget tungt. Derfor har han valgt *power clean* eller *power snatch* til fredagen for at arbejde med eksplosivitet og power. Du kan også vælge _eksplosiv dødløft_, hvor fokus er på at flytte stangen hurtigt.
 
 > If you want to call yourself a lifter, you need to know how to clean and snatch, even if you don't intend to compete in Olympic weightlifting. After your warm up, do power cleans for 5 sets of 3 reps across, or power snatches for 6 doubles.
 

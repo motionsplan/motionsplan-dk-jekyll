@@ -54,9 +54,10 @@ gallery:
     vendor: "Wallstickerland"
     category: "2334"
     price: 199.00
-    old_price: 
+    old_price:
     discounted: false
     id: "546"
+    rel: sponsored nofollow noopener
 gallery_posters:
   - image_path: "https://citatplakat.dk/wp-content/uploads/2020/11/Fotoplakat-dalai-lama-FO10224.png"
     url: "https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/design-plakater/dalai-lama-plakat/"
@@ -67,6 +68,7 @@ gallery_posters:
     old_price: 129.00
     discounted: false
     id: "237915"
+    rel: sponsored nofollow noopener
 ---
 
 Der findes mange inspirerende citater om yoga, mindfulness og meditation. Jeg har samlet {{ page.feature_quotes.size }} citater, der kan inspirere dig på din spirituelle vej.

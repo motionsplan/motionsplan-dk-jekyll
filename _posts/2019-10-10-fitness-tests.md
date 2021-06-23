@@ -27,6 +27,7 @@ feature_row:
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/fitness-testning_marina-aagaard_haeftet_9788799095872
     btn_label: Læs mere
     btn_class: btn--success
+    rel: sponsored nofollow noopener
   - image_path: https://imgcdn.saxo.com/_9788799369591/0x500
     title: Sundhedstjek og formtest - styrk og bevar din motivation med nemme
       gør-det-selv tests
@@ -40,6 +41,7 @@ feature_row:
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/sundhedstjek-og-formtest_marina-aagaard_haeftet_9788799369591
     btn_label: Læs mere
     btn_class: btn--success
+    rel: sponsored nofollow noopener
 language: da
 category:
   - Test

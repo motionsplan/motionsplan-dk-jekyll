@@ -5,4 +5,5 @@ collection: programs
 title: "Træningsprogrammer efter kategori"
 author_profile: true
 classes: wide
+sitemap: false
 ---

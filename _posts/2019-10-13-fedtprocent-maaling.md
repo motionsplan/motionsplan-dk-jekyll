@@ -20,22 +20,25 @@ feature_row:
     title: "Badevægt med fedtprocent måler"
     excerpt: "Denne badevægt kan måle både vægt, fedtprocent, BMI, væskeandel og knoglemasse. Man kan oprette analyser for 8 personer, og dermed kan hele familien nøjes med denne ene vægt. Denne vægt er formentlig ikke valideret og er langt fra så præcis, som de andre præsenteret i denne artikel."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=21411&htmlurl=https://shop.getbig.dk/badevaegt-i-luksuskvalitet"
-    btn_label: "Tjek pris*"
+    btn_label: "Tjek pris"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
   - image_path: https://www.fotoagent.dk/single_picture/11803/138/custom1/tanita_dc_360_p_avec_colonne_analyseur_de_masse_co.jpg
     alt: "Tanita DC 360P Kropsanalysevægt"
     title: "Tanita DC 360P Kropsanalysevægt"
     excerpt: "Med en Tanita DC 360P kropsanalysevægt er du garanteret præcise og nøjagtige resultater. På blot 15 sekunder er det muligt at få en fuld kropsanalyse og måle din fedtprocent."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/tanita-dc-360p-kropsanalysevaegt/"
-    btn_label: "Tjek pris*"
+    btn_label: "Tjek pris"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
   - image_path: https://www.fotoagent.dk/single_picture/11803/138/mega/Tanita_MC780_full(1).jpg
     alt: "Tanita MC 780 P MA"
     title: "Tanita MC 780 P MA"
     excerpt: "Tanita MC 780 P MA, er en interaktiv maskine til at måle fedtprocent, hvilket gør at vægten er nemt at benytte. Med det todelte display, kan du nemt overskue den målte og beregnede data."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/tanita-mc-780-p-ma/"
-    btn_label: "Tjek pris*"
+    btn_label: "Tjek pris"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 ---
 
 Interesse for at måle din fedtprocent er steget, så jeg har forsøgt at samle op på, hvordan man kan måle sig fedtprocent. Hvilke metoder findes der til at måling af sin fedtprocent?
@@ -100,7 +103,7 @@ For den almindelige fitnessudøver så kan følgende være muligheder for at få
 
 - **Udregning af fedtprocent**. Der findes nogle formler, hvor du kan udregne din fedtprocent. Formlerne er imidlertid behæftet med stor usikkerhed, og de kan ikke stå alene. Jeg har lavet en [beregner som kan udregne fedtprocenten på baggrund af højde, vægt, alder og køn]({% link _posts/2008-10-30-udregning-af-fedtprocent.md %}).
 
-- **Bestemmelse af fedtprocent med målebånd**. Der findes også en række forslag til, hvordan man kan bestemme fedtprocenten ved at måle sig selv med et målebånd forskellige steder på kroppen. Fælles for alle metoderne er, at der er lige så meget usikkerhed om det faktiske resultat som at udregne fedtprocenten. 
+- **Bestemmelse af fedtprocent med målebånd**. Der findes også en række forslag til, hvordan man kan bestemme fedtprocenten ved at måle sig selv med et målebånd forskellige steder på kroppen. Fælles for alle metoderne er, at der er lige så meget usikkerhed om det faktiske resultat som at udregne fedtprocenten.
 
 {% endcomment %}
 

@@ -35,7 +35,7 @@ Starting Strength er et meget udbredt styrketræningsprogram udformet af Mark Ri
 
 Den første udgave af _Starting Strength_ udkom i 2005, og nu er bogen kommet til tredje udgave. Starting Strength er en fremragende bog om styrketræning, og den gennemgår de enkelte løft meget grundigt i bogen.
 
-Starting Strength er blevet en populær bog og et populært træningsprogram for både trænere og atleter. Lad os kigge lidt på, hvordan Starting Strength-styrketræningsprogrammet er bygget op, hvordan det fungerer - og Rippetoe giver selv tre væsentlige råd til at gennemføre programmet. 
+Starting Strength er blevet en populær bog og et populært træningsprogram for både trænere og atleter. Lad os kigge lidt på, hvordan Starting Strength-styrketræningsprogrammet er bygget op, hvordan det fungerer - og Rippetoe giver selv tre væsentlige råd til at gennemføre programmet.
 
 {% include figure image_path="/assets/images/blog/rippetoe-weak-vs-strong.png" caption="A weak man is not as happy as the same man would be if he were strong. This reality is offensive to some people who would like the intellectual or spiritual to take precedense. It is instructive to see what happens to these very people as their squat strength goes up. Mark Rippetoe" alt="Citat Mark Rippetoe" %}
 
@@ -62,7 +62,7 @@ Starting Strength er et dejligt enkelt program. Det starter med fire helkropsøv
 
 Programmet følger en simpel linæer progressionsmodel. Ideen er at begyndere og løftere, der aldrig har prøvet at følge et program med en linæer progression, ikke behøver avanceret programmering i deres træning. De behøver først og fremmest et struktureret styrketræningsprogram.
 
-Når du følger programmet, så skal du til hver træning sætte mere vægt på stangen. Det eneste der varierer i programmet er vægten på stangen. Alt andet er det samme fra gang til gang. 
+Når du følger programmet, så skal du til hver træning sætte mere vægt på stangen. Det eneste der varierer i programmet er vægten på stangen. Alt andet er det samme fra gang til gang.
 
 > “Dette er ikke et program, der er samlet ud af 45 forskellige øvelser, som du roterer for at forvirre dine muskler eller for at forhindre kedsomhed. Det bruger meget få øvelser, der er valgt for deres evne til at øge belastningen hver gang, og det er det, der får dig til at vokse."
 
@@ -74,7 +74,7 @@ Alt for mange tror, at de har brug for noget mere avanceret, men rigtig mange me
 
 Jeg har selv brugt Starting Strength mange gange efter fx en træningspause for at komme tilbage til et godt niveau på en struktureret måde uden at spring for hurtigt op i vægt.
 
-## Teknik er vigtigere end vægt 
+## Teknik er vigtigere end vægt
 
 Mark Rippetoe er meget optaget af hensigtsmæssig løfteteknik for at blive stærk. Bogen har en meget nøjagtig gennemgang af teknik. Formålet med teknikken er at placere ryggen i en passende vinkel for at kunne lave maksimal kraftproduktion.
 
@@ -108,7 +108,7 @@ Selvom der ikke dødløftes så meget i Starting Strength, så er det ikke fordi
 
 ## Chinups
 
-Oprindeligt blev [chinups](/chinup-vs-pullup/) introduceret lidt senere i træningsprogrammet, men hans nyeste anbefaling er at smide chinups ind efter omkring uge 3. Det svarer til fase 2 i de nedenstående faser. 
+Oprindeligt blev [chinups](/chinup-vs-pullup/) introduceret lidt senere i træningsprogrammet, men hans nyeste anbefaling er at smide chinups ind efter omkring uge 3. Det svarer til fase 2 i de nedenstående faser.
 
 > "Vi skal smide chinups tidligt, så du kan få arme nu. Chinups starter i uge 3."
 
@@ -134,7 +134,7 @@ Mark Rippetoe bruger lidt flere videoer på at forklare, hvordan man laver et po
 
 ## Faser i Starting Strength
 
-[Mark Rippetoe](https://startingstrength.com/get-started/programs) foreslår tre faser til Starting Strength. 
+[Mark Rippetoe](https://startingstrength.com/get-started/programs) foreslår tre faser til Starting Strength.
 
 ### Fase 1 (1-3 uger)
 
@@ -186,7 +186,7 @@ Du skal også **hvile nok mellem de enkelte træningspas**. Der er en grund til,
 
 I de første uger af træningsprogrammet, kan du måske øge vægten med 4-5 kg pr. gang på squat, og du kan helt sikkert gøre det i dødløft. Hvis du fortsætter med lige så store vægtspring per gang, så kommer din træning til at stagnere.
 
-Kroppen responderer utrolig hurtigt i starten af et træningsprogram, men efter kort tid må du sætte mindre vægt på per gang. I bænkpres skal du bruge mindre vægtspring. Når du kører starting strength er det godt at kunne micro-loade stangen fra træning til træning. Hvis dit eget træningscenter ikke har mulighed for at loade med mindre end 2,5 kg per gang, så kan du med fordel købe dine egne små skiver, hvis du vil køre Starting Strength. Du kan fx købe [0,5 kg fractional plates fra A-puls\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/nordic-fighter-fractional-plates-vaegtskiver-500g)
+Kroppen responderer utrolig hurtigt i starten af et træningsprogram, men efter kort tid må du sætte mindre vægt på per gang. I bænkpres skal du bruge mindre vægtspring. Når du kører starting strength er det godt at kunne micro-loade stangen fra træning til træning. Hvis dit eget træningscenter ikke har mulighed for at loade med mindre end 2,5 kg per gang, så kan du med fordel købe dine egne små skiver, hvis du vil køre Starting Strength. Du kan fx købe [0,5 kg fractional plates fra A-puls](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/nordic-fighter-fractional-plates-vaegtskiver-500g){: rel='sponsored nofollow noopener' }.
 
 De fleste beregnere du kan finde til Starting Strength online på nettet tager ikke højde for, at du relativt hurtigt i programmet skal i gang med mindre vægtspring fra træning til træning. Det betyder, at programmet kommer til at se usandsynligt ud, hvis du bare sætter det i værk.
 

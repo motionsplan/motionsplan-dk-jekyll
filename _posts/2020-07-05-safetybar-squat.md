@@ -21,6 +21,7 @@ feature_row:
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=32502&htmlurl=http://www.mmashop.dk/index.php?route=product/product&product_id=394
     btn_label: "Tjek pris hos MMAShop"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 gallery:
   - image_path: https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80
     alt: "Håndtag til at lave armbøjninger, armstrækninger og pushups"
@@ -71,16 +72,16 @@ Hvis du vil undersøge specifikationerne for den oprindelige safety squat bar, s
 
 Du kan også bruge safety baren til andre øvelser.
 
-- **Good mornings**. Stangens tyngdepunkt kommer tættere ind på kroppen end med en almindelige squat stang. 
+- **Good mornings**. Stangens tyngdepunkt kommer tættere ind på kroppen end med en almindelige squat stang.
 - **Etbensarbejde**. Safety baren er også anvendlig til lunges, split squats og stepups, fordi den har en god balance på skuldrene. Hvis du har brug for assistance, så kan du altså hjælpe dig selv undervejs ved at gribe fat i racket, når du laver etbensarbejde.
 
 ## Videnskabelig sammenligning med safety bar squats og alm. squats
 
 Der er ikke mange studier med safety bar squats, men der har været et par enkelt de seneste år.
 
-Hecker et al (2018) fandt i deres studium, hvor de sammenlignede back squats og safety bar squats et mindre EMG-signal vastus lateralis og baglårsmusklerne. Det er dog sandsynligt at noget af effekten skyldes, at 
+Hecker et al (2018) fandt i deres studium, hvor de sammenlignede back squats og safety bar squats et mindre EMG-signal vastus lateralis og baglårsmusklerne. Det er dog sandsynligt at noget af effekten skyldes, at
 
-> This means that the difference in total load was only about 6.3%, not 11.3%. However, the mean EMG differences for the hamstrings and the vastus lateralis were 10.2-20.6%, which are larger than would be expected based solely on differences in loading. 
+> This means that the difference in total load was only about 6.3%, not 11.3%. However, the mean EMG differences for the hamstrings and the vastus lateralis were 10.2-20.6%, which are larger than would be expected based solely on differences in loading.
 >
 > (...) So, I wonder if the EMG differences in this study may be partially attributable to differences in comfort and technical proficiency with the two bars.
 
@@ -113,7 +114,7 @@ Hatfield mente, at safety bar squats er almindelige squats overlegne, og at de e
 
 ## Hvilken safety squat bar skal man købe?
 
-Det vigtigste for en velfungerende safety bar er vinklingen mellem håndtagene og skiverne. 
+Det vigtigste for en velfungerende safety bar er vinklingen mellem håndtagene og skiverne.
 
 Når du søger på safety bar kommer der mange versioner frem i mange forskellige prislejer.
 
@@ -126,7 +127,7 @@ Men **hvilke safety bars kan så anbefales**?
 
 Jeg har læst virkelig mange sites og [grundige anbefalinger](https://www.garagegymreviews.com/the-best-safety-squat-bar) rundt omkring på nettet for at finde ud af, hvilken bar jeg selv vil købe.
 
-Både [Nikolaj Bach](https://nikolajbach.dk/safety-bar-squats/), [Simon Bigshooter](https://andersnedergaard.dk/fitness-mk/fitness-m-k-233/) og [Coop fra garagegymreviews.com](https://www.garagegymreviews.com/the-best-safety-squat-bar) anbefaler safety baren fra EliteFts. 
+Både [Nikolaj Bach](https://nikolajbach.dk/safety-bar-squats/), [Simon Bigshooter](https://andersnedergaard.dk/fitness-mk/fitness-m-k-233/) og [Coop fra garagegymreviews.com](https://www.garagegymreviews.com/the-best-safety-squat-bar) anbefaler safety baren fra EliteFts.
 
 - **[EliteFts Yoke Bar](https://www.elitefts.com/elitefts-ss-yoke-bar.html)**. EliteFts var blandt de første, der udviklede en safety bar. Den har først og fremmest det rigtige design, og så er den konstrueret til at håndtere meget vægt over lang tid.
 

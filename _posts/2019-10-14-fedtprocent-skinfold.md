@@ -24,14 +24,15 @@ feature_row:
     title: "Accu-Measure Fitness 3000 Body Fat Caliper"
     excerpt: "Mål din fedtprocent nemt med Accu-Measure Fitness 3000 Body Fat Caliper. Fedttangen bliver brugt af mange amerikanske personlige trænere på grund af dens præcise målinger. Du kan både bruge den hjemme eller have den med på farten."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=20604&htmlurl=https://www.bodyman.dk/shop/accu-measure-fitness-54935p.html"
-    btn_label: "Tjek pris*"
+    btn_label: "Tjek pris"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
   - image_path: https://www.bodystore.dk/dw/image/v2/BDJH_PRD/on/demandware.static/-/Sites-hsng-master-catalog/default/dweed812b8/Hi-res/h/a/harpenden-skinfold-caliper-baty_1.png?sw=710&sh=710&sm=fit
     alt: "Harpenden Skinfold Caliper"
     title: "Harpenden Skinfold Caliper"
     excerpt: "Harpenden Skinfold Caliper - Kvalitetscaliper fra Baty til nem og præcis måling af fedtprocent!"
     url: "https://www.bodystore.dk/harpenden-skinfold-caliper"
-    btn_label: "Tjek pris*"
+    btn_label: "Tjek pris"
     btn_class: "btn--success"
 ---
 
@@ -111,4 +112,3 @@ Husk at testen udelukkende estimerer din fedtprocent. Testen er ikke et startsku
 ## Køb en fedttang
 
 {% include feature_row type="left" %}
-

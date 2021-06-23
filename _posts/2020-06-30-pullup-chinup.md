@@ -22,14 +22,16 @@ feature_row:
     alt: "Fitwood Pullupbar"
     excerpt: "FitWood Trollveggen dørribbe er en multifunktionel chin-up/pull-up bar i lækkert scandinavisk design."
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=39091&htmlurl=https://apuls.dk/fitwood-trollveggen-dorribbe-hvid
-    btn_label: "Pris hos Apuls*"
+    btn_label: "Køb her"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
   - image_path: https://apuls.dk/img/900/900/resize/A/p/Apuls0136_1.jpg
     alt: "cPro9 Pullupbar"
     excerpt: "cPro9 Pull Up Bar til dør, som er let monteres i en døråbning. Baren giver dig mange forskellige muligheder for greb til chinups og pullups."
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=39091&htmlurl=https://apuls.dk/cpro9-pullup-bar-m-baelte-i-laeder-pakketilbud
-    btn_label: "Pris hos Apuls*"
+    btn_label: "Køb her"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 ---
 
 Pull ups og chin ups er en fast del af min træning, og jeg synes alle bør mestre en kropshævning. Men hvad er forskellen egentlig på chinups og pullups?

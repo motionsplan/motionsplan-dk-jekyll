@@ -27,8 +27,9 @@ feature_row:
     title: "Concept 2 - Model D Sort + PM5"
     excerpt: "Concept 2 er er en fantastisk romaskine. Du kan lave dine træningsprogrammer til roning og forskellige intervaller, så din rotræning får høj kvalitet og en helt unik træningsoplevelse."
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/concept-2-model-d-sort-pm5/
-    btn_label: "Tjek pris hos Fitnessgruppen*"
+    btn_label: "Tjek pris"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 ---
 
 Jeg har været på udkig efter et træningsprogram til indendørs roning på romaskine, og heldigvis kender jeg en ekspert i forskellige roprogrammer, intervaller og intervaltræning. Bliv helt klar til din rotræning ved at sammensætte dit eget træningsprogram!
@@ -49,13 +50,13 @@ Dansk Roning har lavet en video med det korrekte rotag i en romaskine. De har la
 
 {% include video provider="youtube" id="cl0FIvFEhRk" %}
 
-Fik du set videoen om teknikken i romaskinen, ellers bør du virkelig lige bruge fem minutter for at få helt styr på din teknik, inden du går videre. 
+Fik du set videoen om teknikken i romaskinen, ellers bør du virkelig lige bruge fem minutter for at få helt styr på din teknik, inden du går videre.
 
 Anders Krintels træningsprogrammer til roning er nemlig ikke for tøsedrenge, så det er godt at være klar.
 
 ## Ropro: roprogrammer til rotræning
 
-Ud over selv at være en rigtig dygtig roer, så har Anders Krintel også lavet en hjemmeside, hvor han har samlet flere hundrede intervalprogrammer. 
+Ud over selv at være en rigtig dygtig roer, så har Anders Krintel også lavet en hjemmeside, hvor han har samlet flere hundrede intervalprogrammer.
 
 Jeg har spurgt om han ville udvælge **de 10 bedste intervalprogrammer til roning på indendørs romaskine**, så jeg kan komme i bedre form.
 
@@ -69,7 +70,7 @@ Jeg ved, at Krintel elsker følelsen af brændende muskler, og en del af program
 
 Anders Krintel fortæller selv, at man langsomt skal vænne sig til at roning på maskine, og at man langsomt bliver bedre og bedre til at styre sin egen intensitet i træningen.
 
-> På romaskine plejer jeg at styre de fleste træningsprogrammer efter intensitet. Man kan godt gøre en masse fancy med pulszoner, men det kan hurtigt blive for indviklet. Jeg plejer at sige, at man skal være træt til sidst. 
+> På romaskine plejer jeg at styre de fleste træningsprogrammer efter intensitet. Man kan godt gøre en masse fancy med pulszoner, men det kan hurtigt blive for indviklet. Jeg plejer at sige, at man skal være træt til sidst.
 >
 > Det er sådan et underligt nederlag, hvis man ikke kan gennemføre træningen, men det er også et antiklimaks, hvis man sidder til sidst og tænker, at det er alt for let.
 
@@ -102,7 +103,7 @@ Alle intervallerne er konstrueret som [intervaltræning]({% link _posts/2020-06-
 - 5 x 150/30
 - 5 x 90/30
 - 5 x 30/30
- 
+
 Tallene er sekunder og 210/30 betyder 210 sekunders arbejde (3,5 min) og 30 sekunders aktiv hvile
 
 Således varer grupperne henholdsvis 20, 15, 10 og 5 minutter.
@@ -116,7 +117,7 @@ Er nem at forlænge eller forkorte ved at fjerne en gruppe i den ene eller anden
 - 6x1
 - 6x3
 - 6x1
- 
+
 Såre simpel: seks gange ét minut, seks gange tre og igen seks gange ét.
 
 Jeg holder bare 1 minuts pause for hver.
@@ -151,14 +152,14 @@ Krintel kan godt lide, når tallene passer sammen. Hans kommentar til dette inte
 
 Hele tiden 1 minutters pause mellem de enkelte intervaller.
 
-{% include figure image_path="https://images.unsplash.com/photo-1519505907962-0a6cb0167c73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" caption="Den mest anerkendte indendørs romaskine er Concept2. Du kan tjekke prisen hos [fitnessgruppen.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/concept-2-model-d-sort-pm5/)" alt="Concept2: Ro programmer med intervaller til et indendørs træningsprogram til roning med intervaltræning og rotræning" %}
+{% include figure image_path="https://images.unsplash.com/photo-1519505907962-0a6cb0167c73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" caption="Den mest anerkendte indendørs romaskine er Concept2. Du kan tjekke prisen hos [fitnessgruppen.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/concept-2-model-d-sort-pm5/){: rel='sponsored nofollow noopener' }" alt="Concept2: Ro programmer med intervaller til et indendørs træningsprogram til roning med intervaltræning og rotræning" %}
 
 ### 90 seconds shuffle
 
 - 15 minutter 60/30
 - 15 minutter 45/45
 - 15 minutter 30/60
- 
+
 Igen passer tallene sammen, så Krintel giver intervallerne skudsmålet: “Tre blokke af ren skønhed”.
 
 ### Del 1000 meter
@@ -166,7 +167,7 @@ Igen passer tallene sammen, så Krintel giver intervallerne skudsmålet: “Tre 
 Læg mærke til at intervallerne her er baseret på distance, og du skal holde øje med displayet for at se, hvor langt du har roet.
 
 - 4x800/200
-- 4x700/300 
+- 4x700/300
 - 4x600/400
 
 I hvert sæt ror du 1000 meter, som du fordeler mellem et hårdere interval, og så ror du det sidste af de 1000 meter som aktiv restitution.
@@ -174,7 +175,7 @@ I hvert sæt ror du 1000 meter, som du fordeler mellem et hårdere interval, og 
 Disse intervaller er lette at forlænge eller forkorte, men du får nok mest brug for at forkorte dem.
 
 ### EMO2M pyramide
- 
+
 1-2 serier x (30 sek – 35 – 40 – 45 – 50 – 55 – 60 – 55 – 50 – 45 – 40 – 35 - 30)
 
 Du starter med at ro hvert andet minut. Først ror du 30 sekunder i tempo, og så laver du aktiv restitution indtil klokken står på 2 minutter. Så ror du 35 sekunder og så fremdeles.
@@ -182,7 +183,7 @@ Du starter med at ro hvert andet minut. Først ror du 30 sekunder i tempo, og s�
 Pauserne i dette interval bliver således kortere og kortere, indtil de bliver længere og længere igen.
 
 Én runde varer i alt 26 minutter.
- 
+
 ### 1000 meter trappe
 
 Igen passer tallene sammen i dette distancebaserede intervalprogram til roning. Krintel kommenterer selv symmetrien i programmet med: “Det er så smukt, at man får en klump i halsen!”
@@ -199,7 +200,7 @@ Igen passer tallene sammen i dette distancebaserede intervalprogram til roning. 
 - 100/200
 
 ### Ultrafiks dobbelt pyramide
- 
+
 - 6 min 30/30
 - 6 min 60/30
 - 6 min 90/30
@@ -207,7 +208,7 @@ Igen passer tallene sammen i dette distancebaserede intervalprogram til roning. 
 - 6 min 90/30
 - 6 min 60/30
 - 6 min 30/30
- 
+
 42 minutters lækkerier til din rotræning!
 
 ## Lav selv et effektivt træningsprogram til din rotræning
@@ -248,7 +249,7 @@ Roere kalder en romaskine for et _ergometer_, og træning på en romaskine for _
 
 De har også [træningsprogrammer til ergometertræning](https://roning.dk/kerneydelser/vaerktoejer/traeningsprogrammer-ergometer/). Træningsprogrammerne er udarbejdet for at hjælpe instruktører, men vi kan alle finde inspiration i de forskellige træningsprogrammer, som findes til både begyndere og øvede.
 
-Træningsprogrammerne til rotræningen varer fra 50-60 minutter. Træningsprogrammerne er lidt mere varierede end Concept2s træningsprogrammer. Ligesom Anders Krintel på [Ropro.dk](http://www.ropro.dk/), så er mange af programmerne organiseret som en form for træningspyramide, hvor kadencen undervejs bygges op og sænkes igen - eller hvor distancerne i de enkelte intervaller skifter. 
+Træningsprogrammerne til rotræningen varer fra 50-60 minutter. Træningsprogrammerne er lidt mere varierede end Concept2s træningsprogrammer. Ligesom Anders Krintel på [Ropro.dk](http://www.ropro.dk/), så er mange af programmerne organiseret som en form for træningspyramide, hvor kadencen undervejs bygges op og sænkes igen - eller hvor distancerne i de enkelte intervaller skifter.
 
 Programmerne på [roning.dk](https://roning.dk/kerneydelser/vaerktoejer/traeningsprogrammer-ergometer/) er skrevet til erfarne roere som instruktører i programmerne. Derfor kan det godt være, at du lige skal læse programmerne nogle gange for at forstå, hvordan de er opbygget, hvis du ikke er så erfaren med træningsprogrammer til rotræning.
 

@@ -27,6 +27,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/exercise-physiology_bs_9781451193831"
     btn_label: "Læs mere"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 ---
 
 US Navy har udarbejdet denne metode til at beregne fedtprocenten på baggrund af nogle enkelte målinger med målebånd.

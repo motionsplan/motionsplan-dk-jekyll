@@ -18,6 +18,7 @@ galery_bodylab:
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/frontpage.html
     alt: "Proteinpandekager"
     title: "Proteinpandekager med proteinpulver"
+    rel: sponsored nofollow noopener
 ---
 
 Her finder du fem lækre og sunde opskrifter på proteinpandekager uden banan. Nogle af opskrifterne er endda også uden proteinpulver.
@@ -69,13 +70,13 @@ Pandekager uden banan og mel – glutenfrie og proteinrige. Sunde og en død læ
 ### Ingredienser (reklamelinks markeret med *)
 
 - 100 g havregryn (evt. glutenfrie)
-- 30 g [mandler*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=24609&htmlurl=https://www.helsebixen.dk/shop/mandler-californiske-9752p.html) (kan erstattes af havregryn)
+- 30 g [mandler](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=24609&htmlurl=https://www.helsebixen.dk/shop/mandler-californiske-9752p.html){: rel='sponsored nofollow noopener' } (kan erstattes af havregryn)
 - 1 spsk flydende akaciehonning
 - 3 dl havredrik eller komælk
 - 3 stk æggehvider
-- ½ tsk [vaniljepulver*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=48722&htmlurl=https://www.netspiren.dk/vanillepulver-okologisk-10-gram.html)
-- 1 spsk [chiafrø*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=24609&htmlurl=https://www.helsebixen.dk/shop/original-chiar-chia-fro-o-500-gr.html) (kan undlades)
-- 1 tsk [bagepulver*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=24609&htmlurl=https://www.helsebixen.dk/shop/bagepulver-gl-fri-7904p.html)
+- ½ tsk [vaniljepulver](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=48722&htmlurl=https://www.netspiren.dk/vanillepulver-okologisk-10-gram.html){: rel='sponsored nofollow noopener' }
+- 1 spsk [chiafrø](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=24609&htmlurl=https://www.helsebixen.dk/shop/original-chiar-chia-fro-o-500-gr.html){: rel='sponsored nofollow noopener' } (kan undlades)
+- 1 tsk [bagepulver](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=24609&htmlurl=https://www.helsebixen.dk/shop/bagepulver-gl-fri-7904p.html){: rel='sponsored nofollow noopener' }
 - et lille nip salt
 - smør til stegning
 
@@ -144,9 +145,9 @@ Du kan fx toppe pandekagerne med banan, blåbær, mandler og vindruer, men du ka
 
 Hvis du vælger en opskrift, hvor du skal bruge proteinpulver i opskriften, så vil du måske gerne have svaret på, hvilket proteinpulver er det bedste til proteinpandekager?
 
-Vores bedste råd er at vælge et mærke af en dansk fabrikant, som står inde for kvaliteten af produktet. Så er det egentlig bare at vælge en smag du godt kan lide. Den kendte danske producent af proteinpulver [Bodylab\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/proteinpulver-84s1.html){: rel="sponsored" } har et stort udvalg af  [proteinpulver\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/proteinpulver-84s1.html){: rel="sponsored" }
+Vores bedste råd er at vælge et mærke af en dansk fabrikant, som står inde for kvaliteten af produktet. Så er det egentlig bare at vælge en smag du godt kan lide. Den kendte danske producent af proteinpulver [Bodylab](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/proteinpulver-84s1.html){: rel='sponsored nofollow noopener' } har et stort udvalg af  [proteinpulver](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/proteinpulver-84s1.html){: rel='sponsored nofollow noopener' }
 
-{% include gallery id="gallery_bodylab" caption="Lige nu får du pulver til proteinpandekager med gratis, hvis du shopper på [Bodylab\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/proteinpulver-84s1.html){: rel='sponsored' }" %}
+{% include gallery id="gallery_bodylab" caption="Lige nu får du pulver til proteinpandekager med gratis, hvis du shopper på [Bodylab](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/proteinpulver-84s1.html){: rel='sponsored nofollow noopener' }" %}
 
 ## Konklusion
 

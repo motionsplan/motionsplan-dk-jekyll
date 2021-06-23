@@ -134,29 +134,33 @@ feature_row_ads:
     title: "Apuls"
     excerpt: "Apuls sælger til interesserede i træning/fitness, men vi har også et stort udvalg indenfor vinter, sport, pleje, vand, wellness, kosttilskud m.v."
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=39091
-    btn_label: "Besøg Apuls*"
+    btn_label: "Besøg Apuls"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
   - image_path: /assets/images/logo/denintelligentekrop.png
     alt: "Den Intelligente Krop"
     title: "Den Intelligente Krop"
     excerpt: "Vi er Danmarks førende webshop indenfor ´en sund krop i udvikling´. Vi har langt det meste indenfor træningsudstyr til Pilates, yoga, crossfit osv."
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484
-    btn_label: "Den Intelligente Krop*"
+    btn_label: "Besøg Den Intelligente Krop"
     btn_class: "btn--info"
+    rel: sponsored nofollow noopener
   - image_path: /assets/images/logo/getbig.png
     alt: "Getbig.dk"
     title: "Getbig.dk"
     excerpt: "Danmarks største forhandlere med produkter indenfor fitnessbranchen. Vi er kendt for gode priser og god kvalitet, og gør både i kosttilskud som proteinpulver, kreatin og weightgainer samt i fitness udstyr ex. kettlebells, håndvægte mv."
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=21411
-    btn_label: "Besøg Getbig.dk*"
+    btn_label: "Besøg Getbig.dk"
     btn_class: "btn--info"
+    rel: sponsored nofollow noopener
   - image_path: /assets/images/logo/bodyman.png
     alt: "Bodyman.dk"
     title: "Bodyman.dk"
     excerpt: "Salg af kosttilskud og fitnesstøj."
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=20604
-    btn_label: "Besøg Bodyman*"
+    btn_label: "Besøg Bodyman"
     btn_class: "btn--info"
+    rel: sponsored nofollow noopener
 ---
 
 Vi har lavet en række Corona workouts, som du kan bruge til din hjemmetræning under nedlukningen. I alt er der 28 workouts, som du kan bruge de næste 28 dage for at holde formen oppe under lockdown.
@@ -181,7 +185,7 @@ Hjemmetræning og kropsvægtstræning er oplagt at lave i nedlukningen under Cor
 
 ## Har jeg brug for udstyr til Corona Workouts?
 
-I vores Corona workouts har du ikke brug for udstyr. Men du kan naturligvis altid supplere med lidt forskelligt udstyr. Fx synes mange, at en vægtvest er meget fed. Jeg kan godt lide den her [vægtvest fra Kinetik\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67046&htmlurl=https://kinetikshop.dk/products/kinetik-vx1-vaegtvest){:rel="nofollow"}, men du kan læse lidt mere om vægtvest under [træning med kropsvægt]({% link _posts/2009-08-04-traening-med-kropsvaegt.md %}).
+I vores Corona workouts har du ikke brug for udstyr. Men du kan naturligvis altid supplere med lidt forskelligt udstyr. Fx synes mange, at en vægtvest er meget fed. Jeg kan godt lide den her [vægtvest fra Kinetik](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67046&htmlurl=https://kinetikshop.dk/products/kinetik-vx1-vaegtvest){: rel='sponsored nofollow noopener' }, men du kan læse lidt mere om vægtvest under [træning med kropsvægt]({% link _posts/2009-08-04-traening-med-kropsvaegt.md %}).
 
 Du behøver ikke noget udstyr for at træne hjemme. Måske kan du finde inspiration og motivation i at bruge elastikker, [kettlebells]({% link _posts/2011-04-16-hvordan-traener-man-med-kettlebells.md %}), [TRX og slyngetræning]({% link _posts/2014-04-14-træning-med-slynger-trx-powersling-suspension-training.md %}) eller måske vil du gerne have det helt store udstyr.
 

@@ -20,6 +20,7 @@ feature_row:
     excerpt: "Lærebogsklassikeren _Menneskets fysiologi_ af Bente Schibye dækker hele menneskets fysiologi, og som noget særligt beskrives fysiologien både i hvile og under fysisk aktivitet."
     btn_label: "Tjek prisen hos Saxo.dk"
     btn_class: "btn--info"
+    rel: sponsored nofollow noopener
 ---
 
 Når vi laver tests med iltmaske på løbebånd, så måler vi den respiratoriske udvekslingskvotient, som også kaldes R eller RER. Derfor forklarer jeg lidt mere om, hvad den respiratoriske udviklingskvotient er i forhold til den metaboliske udvekslingskvotient (RQ).
@@ -30,9 +31,9 @@ Når vi laver tests med iltmaske på løbebånd, så måler vi den respiratorisk
 
 Hvad er den respiratoriske udviklingskvotient (RER)? **Den respiratoriske udvekslingskvotient er den mængde karbondioxid (CO<sub>2</sub>), der udskilles gennem lungerne, divideret med den mængde oxygen (O<sub>2</sub>), der optages i samme tidsrum.**
 
-Den [respiratoriske udvekslingskvotient](https://da.wikipedia.org/wiki/Respiratoriske_udvekslings_kvotient) kan give et indblik i, hvilken metabolisme der foregår i kroppen. 
+Den [respiratoriske udvekslingskvotient](https://da.wikipedia.org/wiki/Respiratoriske_udvekslings_kvotient) kan give et indblik i, hvilken metabolisme der foregår i kroppen.
 
-Den metoboliske udvekslingskvotient (RQ) afhænger af, hvilke fødevarer der forbrændes i kroppen. Der kan forbrændes kulhydrat, fedt, protein og alkohol. RQ afspejler, hvilke næringsstoffer der forbrændes. 
+Den metoboliske udvekslingskvotient (RQ) afhænger af, hvilke fødevarer der forbrændes i kroppen. Der kan forbrændes kulhydrat, fedt, protein og alkohol. RQ afspejler, hvilke næringsstoffer der forbrændes.
 
 Hvad er den metaboliske udviklingskvotient (RQ)? **Den metaboliske udvekslingskvotient er den mængde karbondioxid (CO<sub>2</sub>), der udskilles fra cellerne, divideret med den mængde oxygen (O<sub>2</sub>), der forbruges i samme tidsrum i forbrændingen i cellerne.**
 
@@ -46,7 +47,7 @@ Over længere tid kan man ikke udskille mere (eller mindre) CO<sub>2</sub> end d
 
 ## Metaboliske udvekslingskvotient og næringsstoffer
 
-Når man laver tests på løbebånd med iltmaske måler man altså den respiratoriske udvekslingskvotient i udåndingsluften og forventer, at den nogenlunde afspejler de metaboliske processer i kroppen, så man kan finde forholdet mellem næringsstofferne i kroppen. 
+Når man laver tests på løbebånd med iltmaske måler man altså den respiratoriske udvekslingskvotient i udåndingsluften og forventer, at den nogenlunde afspejler de metaboliske processer i kroppen, så man kan finde forholdet mellem næringsstofferne i kroppen.
 
 På en normal kost er RER omkring 0,8 - 0,85 i hvile. Der forbrændes hovedsageligt fedt med værdier fra 0,7 - 0,85, hvor der er 100% fedtforbrænding ved 0,7.
 
@@ -74,7 +75,7 @@ RER bruges ofte i forbindelse med fx VO<sub>2</sub>-max-tests som en af indikato
 
 RER-værdien er altså forholdet mellem det udskilte CO<sub>2</sub> og den optagede ilt. Så længe du ikke arbejder maksimalt vil RER-værdien kunne bruges til fortælle noget om fordelingen mellem forbrænding af fedt (RQ=0,7) og kulhydrat (RQ=1,0).
 
-Når du nærmer dig din maksimale ydeevne, så vil en del af energien blive produceret anaerobt. 
+Når du nærmer dig din maksimale ydeevne, så vil en del af energien blive produceret anaerobt.
 
 Når det anaerobe arbejde stiger falder pH-værdien i cellerne og i blodet, bl.a. fordi der sker en ophobning af mælkesyre. For at neutralisere den faldende pH-værdi i blodet forsøger kroppen at udskille ekstra CO<sub>2</sub> ved at hyperventilere. Veltrænede personer kan arbejde med en RER-værdi på over 1 i adskillige minutter.
 

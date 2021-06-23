@@ -21,16 +21,18 @@ wallsticker:
     title: "Wallsticker med Solhilsen A"
     alt: "Wallsticker med Solhilsen A"
     excerpt: "Wallstickerland har en enkel wallsticker med Solhilsen A, som er rigtig let at sætte op. Du kan få et gavekort på 100 kroner, hvis du [tilmelder dig her](http://gavekort.wallstickerland.dk/gratis) først."
-    btn_label: "Tjek prisen*"
+    btn_label: "Tjek prisen"
     btn_class: "btn--warning"
+    rel: sponsored nofollow noopener
 plakat:
   - image_path: https://trendyliving.dk/images/Solhilsen.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=47232&htmlurl=https://trendyliving.dk/shop/vissevasse-solhilsen-29714p.html
     title: "Solhilsen plakat fra Vissevasse"
     alt: "Solhilsen plakat fra Vissevasse"
     excerpt: "Plakat fra Vissevasse med solhilsen. Plakaten illustrere en lille hilsen til solen der står op. Plakaterne er trykt på svensk miljøvenligt papir."
-    btn_label: "Tjek prisen*"
+    btn_label: "Tjek prisen"
     btn_class: "btn--warning"
+    rel: sponsored nofollow noopener
 books:
   - image_path: https://imgcdn.saxo.com/_9788771900774
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=57950&htmlurl=https://www.saxo.com/dk/den-lille-solhilsen-med-de-store-virkninger_inge-maria-niebuhr_epub_9788771900774
@@ -38,45 +40,56 @@ books:
     alt: "Den lille solhilsen med de store virkninger"
     excerpt: "Solhilsenen er en kendt yogaøvelse, og den er let at udøve, også for mennesker, der måske ikke er vant til at strække kroppens muskler og sener. Den lille solhilsen er nem at lære og kan nemt flettes ind i dagligdagen, fordi den kun kræver få minutter. Inge-Maria Niebuhr har dyrket, fordybet og uddannet sig i yoga siden 1975. Hun er en erfaren yogalærer, der tager udgangspunkt i elevens muligheder og behov."
     btn_class: "btn--danger"
-    btn_label: "Tjek prisen hos Saxo*"
+    btn_label: "Tjek prisen"
+    rel: sponsored nofollow noopener
 feature_row_yogamat:
   - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/1600x/9df78eab33525d08d6e5fb8d27136e95/m/a/manduka-x-mat-moerkeblaa-03_1.jpg
     alt: "Manduka X Yoga Mat til de 5 tibetanere"
     title: "Manduka X Yoga Mat"
     excerpt: "Hvis du laver meget træning og yoga, så kan vi godt anbefale at investere i en yogamåtte af høj kvalitet. Du kan fx kigge på denne Manduka X Yoga Mat."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/manduka-x-yoga-mat"
-    btn_label: "Tjek prisen*"
+    btn_label: "Tjek prisen"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 yogastream:
   - image_path: https://www.yogastream.dk/images/homepage/forloeb.jpg
     url: http://motionsplan.yogastream.dk
     title: "Bliv medlem af Yogastream og lær yoga"
     alt: "Bliv medlem af Yogastream og lær yoga og solhilsen"
+    rel: sponsored nofollow noopener
 wallsticker_full:
   - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-therapy-danish.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-therapy-wallsticker
     title: Yoga therapy
+    rel: sponsored nofollow noopener
   - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-is-a-way-to-freedom-danish.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-is-a-way-to-freedom-wallstick r
     title: Yoga is a way to freedom
+    rel: sponsored nofollow noopener
   - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-is-99-_-practice-danish_3.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-er-99-ovelse-wallsticker
     title: Yoga er 99 % øvelse
+    rel: sponsored nofollow noopener
   - image_path: https://www.wallstickerland.dk/media/catalog/product/a/-/a-yoga-instructor-gets-people-to-danish.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/en-yoga-instruktor-far-folk-til-wallsticker
     title: En yoga-instruktør får folk til
+    rel: sponsored nofollow noopener
   - image_path: https://www.wallstickerland.dk/media/catalog/product/i/-/i-do-yoga-english.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/i-do-yoga-wallsticker
     title: I do yoga
+    rel: sponsored nofollow noopener
   - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-wallsticker
     title: Yoga
+    rel: sponsored nofollow noopener
   - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-keeps-punching-me.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-keeps-punching-me-wallsticker
     title: Yoga keeps punching me
+    rel: sponsored nofollow noopener
   - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-is-not-just-a-workout-danish.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-er-ikke-bare-en-traening-wallsticker
     title: Yoga er ikke bare en træning
+    rel: sponsored nofollow noopener
 ---
 
 Jeg har lavet yoga solhilsen mange gange, så derfor vil jeg gerne beskrive denne alsidige serie af yoga-øvelser for dig, så du også kan komme i gang med øvelserne. Jeg dykker i det følgende ned i _Surya Namaskar_ (solhilsen) fra Asthanga Vinyasa Yogaen, som findes i en A- og B-version.
@@ -100,7 +113,7 @@ Karen fra Hverdagsyoga har lavet en rigtig god introduktion til solhilsen i denn
 
 {% include video provider="youtube" id="ea-tLA5fYhY" %}
 
-Solhilsnen kan være en dynamisk og fysisk krævende sekvens, hvor du får pulsen op, gang i vejrtrækningen og sved på panden. Men du kan også praktisere solhilsen i et roligt tempo. Solhilsen kan modificeres og varieres, så den passer til netop dig. (Men i det følgende forsøger vi fokusere på sekvenserne fra Ashtanga Vinyasa Yogaen). 
+Solhilsnen kan være en dynamisk og fysisk krævende sekvens, hvor du får pulsen op, gang i vejrtrækningen og sved på panden. Men du kan også praktisere solhilsen i et roligt tempo. Solhilsen kan modificeres og varieres, så den passer til netop dig. (Men i det følgende forsøger vi fokusere på sekvenserne fra Ashtanga Vinyasa Yogaen).
 
 Jeg kan godt lide at lave solhilsen langsomt, så jeg rigtigt kan mærke de forskellige stræk i postionerne. Hvis jeg bruger den som opvarmning, så sætter jeg efterhånden tempoet lidt op og laver flere runder for at få en mere dynamisk træning, hvor pulsen kommer lidt op.
 
@@ -110,7 +123,7 @@ Jeg kan godt lide at lave solhilsen langsomt, så jeg rigtigt kan mærke de fors
 
 --- <cite>S. Ajna</cite>
 
-Du vil opleve at solhilsen både styrker og strækker musklerne samtidig med at den sætter gang i vejrtrækningen og blodcirkulationen. 
+Du vil opleve at solhilsen både styrker og strækker musklerne samtidig med at den sætter gang i vejrtrækningen og blodcirkulationen.
 
 ## Vejrtrækningen i solhilsen
 
@@ -133,7 +146,7 @@ Vejrtrækningen skal foregå gennem næsen og du puster ud gennem munden. Hvis d
 
 Stillingerne i solhilsen A og B er sammensat i sekvenserne i en bestemt rækkefølge. Alle bevægelserne er koordineret med åndedrættet, og efterhånden kan du arbejde med præcision mellem dine bevægelser og dit åndedræt.
 
-_Vinyasa_ betyder egentlig "at plaere noget på en særlig måde". Derfor er det godt at arbejde med at gentage bevægelserne, så de bliver mere og mere naturlige for kroppen. Når bevægelserne langsomt begynder at blive mere frie i en uafbrudt strøm af ind- og udåndinger, så kan du efterhånden få fornemmelsen af at åndedrættet er med til at skabe bevægelserne i kroppen. 
+_Vinyasa_ betyder egentlig "at plaere noget på en særlig måde". Derfor er det godt at arbejde med at gentage bevægelserne, så de bliver mere og mere naturlige for kroppen. Når bevægelserne langsomt begynder at blive mere frie i en uafbrudt strøm af ind- og udåndinger, så kan du efterhånden få fornemmelsen af at åndedrættet er med til at skabe bevægelserne i kroppen.
 
 Når du opnår at bevægelserne "sker af sig selv", så opstår følelsen af at være i "flow". Kan du slippe kontrollen og lade dig optage fuldstændigt i det, der foregår lige nu, så kan du komme ind i en meditativ tilstand med bevægelserne.
 
@@ -161,7 +174,7 @@ Solhilsen udføres lidt forskelligt inden for de forskellig retninger i yoga. Je
 
 ## Solhilsen A (for begyndere)
 
-Solhilsen A tager omkring fem-syv minutter at lave. Hvis du gerne vil lave mere yoga, så kan du lave den et par gange. 
+Solhilsen A tager omkring fem-syv minutter at lave. Hvis du gerne vil lave mere yoga, så kan du lave den et par gange.
 
 I den følgende illustration kan du se en simpel gennemgang af solhilsen A.
 
@@ -191,9 +204,9 @@ Tjek videoen for at se nøjagtigt, hvordan øvelserne udføres.
 
 # Solhilsen B (for let øvede)
 
-Solhilsen B er lidt mere avanceret end version A. Typisk laves denne sekvens af øvelser efter, at du har lavet flere runder af solhilsen A. 
+Solhilsen B er lidt mere avanceret end version A. Typisk laves denne sekvens af øvelser efter, at du har lavet flere runder af solhilsen A.
 
-Solhilsen B har flere af de samme komponenter, som mange andre typer yoga, bl.a. er _warrior pose_ inkluderet i solhilsen B. 
+Solhilsen B har flere af de samme komponenter, som mange andre typer yoga, bl.a. er _warrior pose_ inkluderet i solhilsen B.
 
 Du kan se en illustration af solhilsen B her:
 
@@ -203,19 +216,19 @@ Yogalærer Patrick Beach viser solhilsen B i denne Youtube-video:
 
 {% include video provider="youtube" id="fPLwcSxYyec" %}
 
-Gentag sekvensen 5-10 gange eller måske endnu længere. Det kan være godt at starte med at lave solhilsen 2-3 gange om ugen, men gradvist måske øge det til at gøre det endnu flere gange om ugen. 
+Gentag sekvensen 5-10 gange eller måske endnu længere. Det kan være godt at starte med at lave solhilsen 2-3 gange om ugen, men gradvist måske øge det til at gøre det endnu flere gange om ugen.
 
 Tjek videoen ovenover for at se nøjagigt, hvordan du laver solhilsen B.
 
 ## 8 gode grunde til at lave Solhilsen
 
 1. Solhilsen giver mulighed for at takke solen og lyset for en ny dag fyldt med livsgivende lys og næring.
-2. Solhilsen er en komplet praksis. Stillingerne bevæger, strækker og styrker af kroppens store muskler. 
+2. Solhilsen er en komplet praksis. Stillingerne bevæger, strækker og styrker af kroppens store muskler.
 3. Sekvensen siges at vække energien fra den indre sol, der ligger dvalende i vores navlecenter. Det opvarmer kroppen og dyrker indre ild. Samtidig siges øvelserne at fordele _prana_-energistrømmen gennem hele systemet.
 4. Solhilsen genopliver blodet og skaber bevægelse.
 5. Solhilsen er med til at aktivere og afbalancere _de syv chakraer_.
 6. Solhilsen skaber fordybelse i bevægelserne, hvilket kan være med til at reducere depression, angst og stress, mens du bygger mental fokus, koncentration og dyb vejrtrækning.
-7. Solhilsen forbinder bevægelse med åndedræt – _vinyasa_. Vi oplever hvordan kroppen åbner sig og lukker sig, og hvordan åndedrættet kan være med til at undersøtte disse bevægelser. 
+7. Solhilsen forbinder bevægelse med åndedræt – _vinyasa_. Vi oplever hvordan kroppen åbner sig og lukker sig, og hvordan åndedrættet kan være med til at undersøtte disse bevægelser.
 8. Vi kan opleve hengivenhed, når vi er fuldt opmærksomme og åbner os op for energien og respektfuldt er ydmyge over for den ro bevægelserne kan være med til at give.
 
 ## Hvilke muskler bruger man i solhilsen?
@@ -228,7 +241,7 @@ De målte muskelaktiveringen i 14 muskelgrupper med elektroder på huden. Meng e
 
 Når man har lavet solhilsenerne så mærker man, hvordan vejrtrækningen bliver dybere undervejs, og hvordan kroppen bliver mere bevægelig. Men det er ikke det bedste. Det bedste er fornemmelsen i timerne bagefter, hvor man føler sig klar og afslappet i kroppen.
 
-Hvis du vil have en behagelig guide til solhilsen A på falderebet, så tjek denne Youtube-video: 
+Hvis du vil have en behagelig guide til solhilsen A på falderebet, så tjek denne Youtube-video:
 
 {% include video provider="youtube" id="nkTDCEP_x5w" %}
 
@@ -246,9 +259,9 @@ Jeg udfører også ofte [De fem tibetanere]({% link _posts/2009-07-01-de-fem-tib
 
 Du behøver ikke noget yogaudstyr for at kunne lave solhilsen. Det kan dog være meget rart med en yoga-måtte eller et andet underlag, hvor du kan stå godt fast på. Når du har et skridsikkert underlag, så kan du udføre øvelserne mere kraftfuldt og præcist. Jeg har skrevet en [komplet guide til yogaudstyr]({% link _posts/2021-01-20-yoga-udstyr.md %}).
 
-Hvis du sveder meget undervejs, når du laver yoga, så kan mange godt lide at bruge et skridsikkert yoga-håndklæde. Den intelligentekrop.dk har et [relativt billigt yogamåtte-håndklæde fra Equa\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/equa-yoga-handklaede-183-cm){:rel="nofollow"}, hvis du har brug for det.
+Hvis du sveder meget undervejs, når du laver yoga, så kan mange godt lide at bruge et skridsikkert yoga-håndklæde. Den intelligentekrop.dk har et [relativt billigt yogamåtte-håndklæde fra Equa](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/equa-yoga-handklaede-183-cm){: rel='sponsored nofollow noopener' }, hvis du har brug for det.
 
-Hvis du typisk laver en kort afspænding bagefter og har en tendens til at fryse, så ved jeg, at mange er glade for at have et tæppe. Den intelligentekrop.dk har et ret fedt [yogatæppe lavet af genbrugsfibre fra uld\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/uld-yogataeppe-genbrugsfibre-manduka){:rel="nofollow"}.
+Hvis du typisk laver en kort afspænding bagefter og har en tendens til at fryse, så ved jeg, at mange er glade for at have et tæppe. Den intelligentekrop.dk har et ret fedt [yogatæppe lavet af genbrugsfibre fra uld](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/uld-yogataeppe-genbrugsfibre-manduka){: rel='sponsored nofollow noopener' }.
 
 Hvis du kan lide artiklerne her fra Motionsplan og gerne vil støtte sitet, så kan du overveje at bruge vores partnere til at købe dine yoga-produkter og yogaudstyr. Så tjener vi lidt kommision, og du får nogle fede produkter.
 

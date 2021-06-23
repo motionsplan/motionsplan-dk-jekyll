@@ -1,5 +1,6 @@
 ---
 title: &title "Kalorietabellen: Gratis tabel med kalorier i fødevarer 🥭🥩🥦"
+seo_title: "Kalorietabel: Gratis tabel med kalorier i fødevarer 🥭🥩🥦"
 permalink: /kalorietabellen/
 last_modified_at: 2020-08-29T09:41:09Z
 language: da
