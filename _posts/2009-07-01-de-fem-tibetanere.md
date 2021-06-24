@@ -59,7 +59,7 @@ gallery:
     alt: "Rite 2"
     title: "Rite 2: De 5 tibetanere"
   - image_path: https://upload.wikimedia.org/wikipedia/commons/3/3a/Five_tibetan_rite_3.gif
-    alt: "Rite 3
+    alt: "Rite 3"
     title: "Rite 3: De 5 tibetanere"
   - image_path: https://upload.wikimedia.org/wikipedia/commons/5/5e/Five_tibetan_rite_4.gif
     alt: "Rite 4"
