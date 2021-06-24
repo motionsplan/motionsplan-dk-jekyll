@@ -3,6 +3,8 @@ title: "De fem tibetanere 🧘: Komplet guide til de 5 yoga øvelser"
 seo_title: "De fem tibetanere - Komplet guide til de 5 yoga øvelser »"
 description: "Lær de 5 tibetanere med video og billeder ✓ Fem yogaøvelser der kan laves på 20 minutter ✓ Giver øvelserne evig ungdom? ✓ Komplet guide ✓ Print øvelserne ud!"
 permalink: /artikel/de-fem-tibetanere/
+redirect_from:
+  - /2009-07-01-de-fem-tibetanere/
 language: da
 header:
   overlay_image: /assets/images/blog/de-fem-tibetanere.jpg
@@ -24,7 +26,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-bog-1"
     btn_label: "Tjek prisen"
     btn_class: "btn--success"
-    rel: sponsored nofollow noopener
+    rel: "sponsored nofollow noopener"
   - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/1000x/9df78eab33525d08d6e5fb8d27136e95/d/e/1294-de-fem-tibetanere-bog-2.gif
     alt: "Peter Kelders anden bog om de 5 tibetanere"
     title: "Peter Kelder - de fem tibetanere (bog 2)"
@@ -32,7 +34,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-bog-2"
     btn_label: "Tjek prisen"
     btn_class: "btn--success"
-    rel: sponsored nofollow noopener
+    rel: "sponsored nofollow noopener"
 feature_row_dvd:
   - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/1600x/9df78eab33525d08d6e5fb8d27136e95/1/0/1143-de-fem-tibetanere-kilden-til-evig-ungdom.jpg
     alt: "DVD og video af De 5 tibetanere"
@@ -41,7 +43,7 @@ feature_row_dvd:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-kilden-til-evig-ungdom"
     btn_label: "Tjek prisen"
     btn_class: "btn--success"
-    rel: sponsored nofollow noopener
+    rel: "sponsored nofollow noopener"
 feature_row_yogamat:
   - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/1600x/9df78eab33525d08d6e5fb8d27136e95/m/a/manduka-x-mat-moerkeblaa-03_1.jpg
     alt: "Manduka X Yoga Mat"
@@ -50,7 +52,7 @@ feature_row_yogamat:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/manduka-x-yoga-mat"
     btn_label: "Tjek prisen"
     btn_class: "btn--success"
-    rel: sponsored nofollow noopener
+    rel: "sponsored nofollow noopener"
 gallery:
   - image_path: https://upload.wikimedia.org/wikipedia/commons/7/77/Five_tibetan_rite_1.gif
     alt: "Rite 1"
@@ -75,59 +77,59 @@ wallsticker:
     excerpt: "Wallstickerland har en enkel wallsticker med De 5 tibetanere, som er rigtig let at sætte op. Du kan få et gavekort på 100 kroner, hvis du [tilmelder dig her](http://gavekort.wallstickerland.dk/gratis) først."
     btn_label: "Tjek prisen"
     btn_class: "btn--warning"
-    rel: sponsored nofollow noopener
+    rel: "sponsored nofollow noopener"
 yogastream:
   - image_path: https://www.yogastream.dk/images/homepage/forloeb.jpg
     url: http://motionsplan.yogastream.dk
     title: "Bliv medlem af Yogastream og lær yoga"
     alt: "Bliv medlem af Yogastream og lær yoga"
-    rel: sponsored nofollow noopener
+    rel: "sponsored nofollow noopener"
 wallsticker_full:
   - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-therapy-danish.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-therapy-wallsticker
     title: Yoga therapy
     alt: Yoga therapy
-    rel: sponsored nofollow noopener
+    rel: "sponsored nofollow noopener"
   - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-is-a-way-to-freedom-danish.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-is-a-way-to-freedom-wallstick r
     title: Yoga is a way to freedom
     alt: Yoga is a way to freedom
-    rel: sponsored nofollow noopener
+    rel: "sponsored nofollow noopener"
   - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-is-99-_-practice-danish_3.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-er-99-ovelse-wallsticker
     title: Yoga er 99 % øvelse
     alt: Yoga er 99 % øvelse
-    rel: sponsored nofollow noopener
+    rel: "sponsored nofollow noopener"
   - image_path: https://www.wallstickerland.dk/media/catalog/product/a/-/a-yoga-instructor-gets-people-to-danish.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/en-yoga-instruktor-far-folk-til-wallsticker
     title: En yoga-instruktør får folk til
-    rel: sponsored nofollow noopener
+    rel: "sponsored nofollow noopener"
   - image_path: https://www.wallstickerland.dk/media/catalog/product/i/-/i-do-yoga-english.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/i-do-yoga-wallsticker
     title: I do yoga
     alt: I do yoga
-    rel: sponsored nofollow noopener
+    rel: "sponsored nofollow noopener"
   - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-wallsticker
     title: Yoga
     alt: Yoga
-    rel: sponsored nofollow noopener
+    rel: "sponsored nofollow noopener"
   - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-keeps-punching-me.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-keeps-punching-me-wallsticker
     title: Yoga keeps punching me
     alt: Yoga keeps punching me
-    rel: sponsored nofollow noopener
+    rel: "sponsored nofollow noopener"
   - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-is-not-just-a-workout-danish.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-er-ikke-bare-en-traening-wallsticker
     title: Yoga er ikke bare en træning
     alt: Yoga er ikke bare en træning
-    rel: sponsored nofollow noopener
+    rel: "sponsored nofollow noopener"
 feature_row_citatplakat:
   - image_path: https://citatplakat.dk/wp-content/uploads/2020/11/Yogastillinger-PR10039.png
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/yoga-poses-yoga-plakat/
     title: Yoga poses - Yoga plakat
     alt: Yoga poses - Yoga plakat
-    rel: sponsored nofollow noopener
+    rel: "sponsored nofollow noopener"
 ---
 
 De fem tibetanere er fem yogaøvelser beskrevet af Peter Kelder i slutningen af 1930'erne, men øvelserne kan spores tilbage til omkring år 0. De fem tibetanske riter er en rigtig god introduktion til yoga og øvelserne let at implementere i sin egen hverdag. Jeg har kigget lidt på, hvad de fem tibetanere er, og hvilken virkning de har på kroppen?
