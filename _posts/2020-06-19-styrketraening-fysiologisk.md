@@ -36,7 +36,7 @@ Den nødvendige belastning kan opnås med flere faktorer:
 
 Hvis ikke disse faktorer er til stede, så er det ikke rimeligt at beskrive aktiviteten som styrketræning. 
 
-Denne definition af styrketræning er relativt bred. Den inkluderer okklusionstræning, men har ikke aktiviteter med, som har til formål at træne kredsløbet og den anaerobe kapacitet i musklerne.
+Denne definition af styrketræning er relativt bred. Definitionen inkluderer fx [okklusionstræning]({% link _posts/2021-01-30-okklusion-vol1.md %}), men har ikke aktiviteter med, som har til formål at træne kredsløbet og den anaerobe kapacitet i musklerne.
 
 Man kan træne styrketræning af forskellige årsager. Grundlæggende har jeg identificeret tre årsager:
 

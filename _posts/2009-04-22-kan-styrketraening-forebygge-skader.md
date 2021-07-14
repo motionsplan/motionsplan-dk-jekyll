@@ -47,7 +47,9 @@ Plyometrisk træning har også vist at forbedre styrkebalancen mellem forlår (q
 
 Den generelle tilgang er, at styrketræning er skadesforebyggende, da en større muskelmasse og styrke omkring led vil virke hhv. beskyttende og give større stabilitet. Styrketræningen vil også forbedre evnen til at komme sig efter en skade. Dette skyldes formentligt, at restitutionen i forbindelse med styrketræning og restitutionen efter en skade minder om hinanden. En træningseffekt ved styrketræning er således foreslået at være reparationer af små fiberskader (mikrooverrivninger) i musklen (Fleck & Kreamer 2004).
 
-I takt med at man indenfor videnskaben har fået bedre målemetoder, har man også kunne nuancere styrketræningens reelle effekter på fysiologiske parametre associeret med skadesrisici. En veldokumenteret effekt er i denne forbindelse styrketræningsøvelser, der indeholder et fokus på excentrisk muskelarbejde (Al Attar et al 2016). En periode med excentrisk domineret styrketræning for eks. baglårsmuskulaturen, har demonstreret at kunne øge antallet af kontraktile enheder i forlængelse af hinanden i en muskelcelle (hvilket skaber en øget længde af de såkaldte fasickler). Dette gør muskelcellerne, og hele musklen de er en del af, mere modstandsdygtig overfor overrivninger i forbindelse med høj-hastighedskontraktioner (eks. under sprint) (Bourne et al 2018).
+I takt med at man indenfor videnskaben har fået bedre målemetoder, har man også kunne nuancere styrketræningens reelle effekter på fysiologiske parametre associeret med skadesrisici. En veldokumenteret effekt er i denne forbindelse styrketræningsøvelser, der indeholder et fokus på excentrisk muskelarbejde (Al Attar et al 2016). En periode med [excentrisk domineret styrketræning]({% link _posts/2020-08-24-excentrisk-traening.md %}) fx baglårsmuskulaturen gennem fx [øvelsen Nordic Hamstring]({% link _exercises/nordic-hamstring-12.md %}), har demonstreret at kunne øge antallet af kontraktile enheder i forlængelse af hinanden i en muskelcelle (hvilket skaber en øget længde af de såkaldte fasickler). Dette gør muskelcellerne, og hele musklen de er en del af, mere modstandsdygtig overfor overrivninger i forbindelse med høj-hastighedskontraktioner (fx under sprint) (Bourne et al 2018).
+
+Men det har også vist sig, at [okklusionstræning er effektivt i forbindelse med skader]({% link _posts/2021-01-30-okklusion-vol1.md %}).
 
 ### Knæ og skadesforebyggelse
 
@@ -65,7 +67,7 @@ Bevægelserne omkring skulderen er styret af et komplekst biomekanisk system bes
 
 Dette bør trænes, så muskulaturen kan klare koncentriske og excentriske belastninger. Samtidigt vil en styrkelse af kropstammen også være med til at nedsætte skadesrisikoen i forbindelse med kastebevægelser (Kelly & Terry 2001). Den forebyggende træning kan således bestå af styrketræning, som fokuser på excentrisk styrke, styrkelse af rotator cuff’en samt en øget stabilitet af kropsstammen (Powers 1998, Johnson 1994, Sirota et al 1997). Flere træningsøvelser med elastik har også vist at have en forebyggende effekt på skulderskader i sportsgrene, hvor der kastes meget.
 
-## Afsluttende om skadesforebyggelse
+## Konklusion
 
 De ovenstående resultater tyder altså på, at supplerende træning som styrke-, balance- og plyometrisk træning kan have en skadesforebyggende effekt. Især de alvorlige skader som overrevet korsbånd synes at kunne undgås i højere grad. Dette er gode nyheder for trænere og sportsudøvere.
 

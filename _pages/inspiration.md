@@ -45,14 +45,6 @@ feature_row_ads:
     btn_label: "Den Intelligente Krop"
     btn_class: "btn--info"
     rel: sponsored nofollow noopener
-  - image_path: /assets/images/logo/fitnesstorvet.png
-    alt: "Fitnesstorvet.dk"
-    title: "Fitnesstorvet.dk"
-    excerpt: "Salg af Fitnessudstyr. Stort udvalg af fitnessudstyr af høj kvalitet til gode priser. Førende mærker: Peak Fitness, Kettler, Reebok osv. Høj service og hurtig levering."
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=49758
-    btn_label: "Fitnesstorvet.dk"
-    btn_class: "btn--info"
-    rel: sponsored nofollow noopener
   - image_path: /assets/images/logo/getbig.png
     alt: "Getbig.dk"
     title: "Getbig.dk"
