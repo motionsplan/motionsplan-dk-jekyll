@@ -1,6 +1,6 @@
 ---
 title: "Solhilsen A og B: Komplet guide til solhilsen [2021] 🧘"
-seo_title: "Solhilsen A og B 🧘 8 grunde til at lave solhilsen i 2021"
+seo_title: "Solhilsen A og B • 8 overbevisende grunde til at prøve »"
 description: "Lær at lave solhilsen a og b med video og beskrivelser 🙏 Hvilke yogaøvelser der er i solhilsen? 🙏 Hvad er forskellen på A og B? 🙏 Hvad er solhilsen godt for?"
 permalink: /artikel/solhilsen-a-b-surya-namaskar/
 language: da

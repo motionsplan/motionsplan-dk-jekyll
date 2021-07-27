@@ -1,6 +1,6 @@
 ---
 title: "Virker kompressionsstrømper 🧦 til løb 🏃 og cykling 🚴‍♀️?"
-seo_title: "Kompressionsstrømper løb og cykling | Effekt og bivirkninger"
+seo_title: "Kompressionsstrømper: Effekt og bivirkninger løb og cykling"
 description: "Hvilken effekt er der af kompressionsstrømper på præstation og restitution i forbindelse med cykling og løb - og er der bivirkninger ved kompressionsstrømper?"
 permalink: /kompressionsstroemper-restitution-praestation-bivirkninger/
 redirect_from:

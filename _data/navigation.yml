@@ -1,7 +1,5 @@
 # main links
 main:
-  - title: "Blog"
-    url: /blog/
   - title: "Styrketræning"
     url: /styrke/
   - title: "Kondition"
@@ -10,10 +8,10 @@ main:
     url: /loebesiden/
 #  - title: "Træningslære"
 #    url: /fysiologi/
-#  - title: "Træningslære"
-#    url: /fysiologi/
   - title: "Træningsøvelser"
     url: /traeningsoevelser/
+  - title: "Blog"
+    url: /blog/
   - title: "Inspiration"
     url: /inspiration/
   - title: "Om"
