@@ -18,6 +18,7 @@ tags:
   - kropskomposition
   - udregning
   - formel
+  - featured
 last_modified_at: 2021-01-06T22:14:14Z
 ---
 

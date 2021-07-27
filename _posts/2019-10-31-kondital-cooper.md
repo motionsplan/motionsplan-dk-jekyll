@@ -21,6 +21,7 @@ tags:
   - løbetest
   - test
   - beregner
+  - featured
 last_modified_at: 2021-05-20T10:14:14Z
 toc: true
 feature_row:
