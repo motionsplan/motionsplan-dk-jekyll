@@ -31,6 +31,12 @@ feature_row:
     url: "https://docs.google.com/document/d/1Y0EJ0drxNTY2qZK2alV5kI6g6zUMnCiKRGL3XR7wElQ/copy?usp=sharing"
     btn_label: "Se tabel over Cooper-test"
     btn_class: "btn--info"
+faq:
+  - question: Hvordan beregner man coopertest?
+    answer: Du kan bruge distancen på Coopertesten til at beregne dit kondital. Der findes lidt forskellige formler for konditallet.
+about:
+  name: "Cooper test"
+  url: "https://da.wikipedia.org/wiki/Coopertest"
 ---
 
 Cooper-testen er en maksimal løbetest, hvor den distance man kan tilbagelægge på 12 minutter er med til at estimere udøverens kondital. Jeg beskriver her, hvad Cooper testen er, og du kan finde tabeller og skemaer til at vurdere dit kondital?
