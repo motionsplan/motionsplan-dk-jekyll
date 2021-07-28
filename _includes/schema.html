@@ -4,7 +4,7 @@
       "@context": "https://schema.org",
       {% if site.social.type == "Organization" %}
         "@type": "Organization",
-        "@id": "{{ site.url }}/#organization",
+        "@id": "{{ site.url| absolute_url }}/#organization",
         "legalName": {{ site.name | jsonify }},
         "url": {{ '/' | absolute_url | jsonify }}{% if site.og_image %},
         "logo": {{ site_og_image | jsonify }}{% endif %}{% if site.social.links %},
@@ -31,7 +31,7 @@
         },
         {
           "@type": "ImageObject",
-          "@id": "{{ site.url }}#primaryimage",
+          "@id": "{{ site.url | absolute_url }}/#primaryimage",
           "inLanguage": {{ site.locale | jsonify }},
           "url": {{ default: page.og_image | default: site.og_image | default: site.logo | absolute_url | jsonify }},
           "contentUrl": {{ default: page.og_image | default: site.og_image | default: site.logo | absolute_url | jsonify }}
@@ -45,14 +45,10 @@
     {
         "@context": "https://schema.org",
         "@type": "WebPage",
-        "@id": "{{ site.url | absolute_url }}#webpage",
+        "@id": "{{ page.url | absolute_url }}/#webpage",
         "name": {{ seo_title | jsonify }},
         "url": {{ site.url | absolute-url | jsonify }},
         "description": {{ page.description | default: page.excerpt | strip_newlines | strip | jsonify }},
-        "publisher": {
-            "@type": "Organization",
-            "name": {{ site.name | jsonify }}
-        },
         "isPartOf": { "@type": "WebSite", "@id": "{{ site.url }}/#website" },
         "datePublished": {{ page.date | default: page.last_modified_at | jsonify }},
         "dateModified": {{ page.last_modified_at | default: page.date | jsonify }},
@@ -75,6 +71,7 @@
     {
         "@context": "http://schema.org",
         "@type": "Article",
+        "@id": "{{ page.url | absolute_url }}/#article",
         "inLanguage": {{ site.locale | jsonify }},
         "name": {{ page.title | jsonify }},
         "headline": {{ seo_title | jsonify }},
@@ -120,12 +117,12 @@
 {% endif %}
 
 {% if page.faq %}
-    <script type="application/ld+json">
-        {
-            "@context":"https://schema.org",
-            "@type":"FAQPage",
-            "mainEntity":
-                [{% for item in page.faq %}{"@type":"Question","name":{{ item.question | jsonify }},"acceptedAnswer":{"@type":"Answer","text":{{item.answer | jsonify }}}}{% if forloop.last == false %},{% endif %}{% endfor %}]
-        }
-    </script>
+<script type="application/ld+json">
+    {
+        "@context":"https://schema.org",
+        "@type":"FAQPage",
+        "mainEntity":
+            [{% for item in page.faq %}{"@type":"Question","name":{{ item.question | jsonify }},"acceptedAnswer":{"@type":"Answer","text":{{item.answer | jsonify }}}}{% if forloop.last == false %},{% endif %}{% endfor %}]
+    }
+</script>
 {% endif %}
