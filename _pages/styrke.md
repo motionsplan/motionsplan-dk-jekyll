@@ -11,8 +11,7 @@ header:
   caption: Styrketræning
 author_profile: true
 author: lsolesen
-sidebar:
-  nav: strength
+toc: true
 ---
 
 Jeg har samlet alle artiklerne om styrketræning her på siden. Der er både beregnere til styrketræning og dybdegående artikler om, hvordan du får noget ud af din styrketræning.

@@ -4,10 +4,10 @@ main:
     url: /styrke/
   - title: "Kondition"
     url: /kondition/
-  - title: "Løbesiden"
+  - title: "Løb"
     url: /loebesiden/
-#  - title: "Træningslære"
-#    url: /fysiologi/
+  - title: "Optimer træning"
+    url: /optimer-traening/
   - title: "Træningsøvelser"
     url: /traeningsoevelser/
   - title: "Blog"

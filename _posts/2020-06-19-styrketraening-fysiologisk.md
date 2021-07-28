@@ -12,6 +12,7 @@ tags:
   - anatomi
   - fysiologi
   - muskler
+  - træningslære
 last_modified_at: 2020-06-11T08:14:14Z
 toc: true
 ---
@@ -34,7 +35,7 @@ Den nødvendige belastning kan opnås med flere faktorer:
 2. Øvelser køres til nær udmattelse med intentionen om at skabe metabolisk udtrætning i musklerne.
 3. Eksplosiv udførsel med _maximal intended barspeed_, som sikrer høj rekruttering af muskelfibre mere eller mindre uafhængigt af den eksterne belastning.
 
-Hvis ikke disse faktorer er til stede, så er det ikke rimeligt at beskrive aktiviteten som styrketræning. 
+Hvis ikke disse faktorer er til stede, så er det ikke rimeligt at beskrive aktiviteten som styrketræning.
 
 Denne definition af styrketræning er relativt bred. Definitionen inkluderer fx [okklusionstræning]({% link _posts/2021-01-30-okklusion-vol1.md %}), men har ikke aktiviteter med, som har til formål at træne kredsløbet og den anaerobe kapacitet i musklerne.
 
@@ -58,9 +59,9 @@ Effekten af styrketræning kan deles op i neurale tilpasninger, morfologiske til
 
 ## Neurale tilpasninger ved styrketræning
 
-Når man styrketræner sker der en række neuromuskulære forandringer i kroppen. Der sker en udvikling i hjernens nerveledning til musklerne. 
+Når man styrketræner sker der en række neuromuskulære forandringer i kroppen. Der sker en udvikling i hjernens nerveledning til musklerne.
 
-For at lave en bevægelse skal nervesystemet sende et signal til musklerne om at trække sig sammen. Alle bevægelser starter således i hjernen med et signal til musklerne. 
+For at lave en bevægelse skal nervesystemet sende et signal til musklerne om at trække sig sammen. Alle bevægelser starter således i hjernen med et signal til musklerne.
 
 Hvis samspillet mellem nerverne og musklerne forbedres, får udøveren bedre teknik, større styrke og kan lave bevægelser hurtigere.
 
@@ -84,7 +85,7 @@ Den trænede kan altså i forhold til den utrænede:
 - Skyde impulserne hurtigere af sted og sørge for, at de lander på den rigtige adresse og dermed udnyttes optimalt
 - Synkronisere impulserne til optimalt teknisk udførelse af øvelsen eller bevægelsen
 
-Ændringerne i nervesystemet er mest udtalte, når du træner med tungere vægte, fx 1-8 RM. Når vægtene er tunge, så skal hjernen sørge for at aktivere en større del af muskelmassen for at accelerere vægten. 
+Ændringerne i nervesystemet er mest udtalte, når du træner med tungere vægte, fx 1-8 RM. Når vægtene er tunge, så skal hjernen sørge for at aktivere en større del af muskelmassen for at accelerere vægten.
 
 {% comment %}
 
@@ -112,13 +113,13 @@ For de trænede gælder det, at du skal løfte med høj intensitet. Desto mere t
 
 ## Morfologiske forandringer ved styrketræning
 
-I forhold til **træning som stimulus** tyder meget på, at den væsentligste _driver_ til hypertrofi er træningsvolumen og den mekaniske spænding i musklerne og -fibrene og følsomheden over for strækket og kraften genereret i musklen (Damas, Libardi og Ugrinowitch 2017; Schoenfeld 2010). 
+I forhold til **træning som stimulus** tyder meget på, at den væsentligste _driver_ til hypertrofi er træningsvolumen og den mekaniske spænding i musklerne og -fibrene og følsomheden over for strækket og kraften genereret i musklen (Damas, Libardi og Ugrinowitch 2017; Schoenfeld 2010).
 
 Muskelskade er en biprodukt af den mekaniske spænding, men måske ikke i sig selv nødvendig for muskelvækst, selvom nedbrydningen formentlig igangsætter reparationen, der er nødvendig for at få styrken tilbage (Kwon n.d.; Hernandez n.d.; Schoenfeld 2010).
 
 Der er altså to store årsager til, at musklerne vokser:
 
-- **Høj ekstern belastning**. Enten kan den eksterne belastning være tilpas nok høj til, at vi rekrutterer en betydelig mængde fibre i den arbejdende muskel. 
+- **Høj ekstern belastning**. Enten kan den eksterne belastning være tilpas nok høj til, at vi rekrutterer en betydelig mængde fibre i den arbejdende muskel.
 - **Udtrætning og metabolisk stress**. Eller kan vi løfte en relativ lav vægt mange gange nok til, at musklen udtrættes (metabolisk stress), og musklen tvinges til at rekruttere flere og flere af sine fibre for at kunne opretholde arbejdet. Derfor er metabolisk stress et værktøj til at skabe mekanisk spænding i flest mulige fibre i en given muskel. Udtrætning af musklerne til nær-udmattelse er sandsynligvis et vigtigt parameter - især ved træning med lavere belastning (mindre end 60-70% af 1RM).
 
 Om det lykkes at få musklerne til at vokse afhænger af følgende faktorer:
@@ -141,7 +142,7 @@ Følgende har også været foreslået som udløsere af vækstfaktorer:
 - **Hormoner**. Væksthormon- og testosteron-niveauerne øges akut i forbindelse med styrketræning. Måske er disse også med til at lave vækstfaktorer.
 - **Næringsstoffer**. For at vokse skal musklerne naturligvis bruge aminosyrer. Samtidig skal de bruge ATP fra sukker- og fedtmolekyler, da proteinsyntesen koster energi.
 
-Der er altså en lang række forhold, som er blevet foreslået til at være _trigger_ for vækstfaktorerne. Den vigtigste er imidlertid som nævnt det mekaniske stress på musklerne. 
+Der er altså en lang række forhold, som er blevet foreslået til at være _trigger_ for vækstfaktorerne. Den vigtigste er imidlertid som nævnt det mekaniske stress på musklerne.
 
 Per Aagaard (2009) har lavet følgende [liste](http://web.archive.org/web/20110606191439/http://www.motion-online.dk/styrketraening/styrke_-_artikler/optimal_styrketraening_er_tung_styrketraening/){:rel="nofollow"} med morfologiske forandringer ved styrketræning.
 
@@ -178,13 +179,13 @@ Det er særligt interessant for ældre mennesker, da styrketræning er en sikker
 
 ## Metaboliske tilpasninger
 
-Der er lavet en del studier, der viser at styrketræning forbedrer præstationen i aerobe aktiviteter. En stor del af forklaringen skal findes i, at styrketræningen øger musklernes styrke, hvilket gør den enkelte bevægelse relativt lettere. 
+Der er lavet en del studier, der viser at styrketræning forbedrer præstationen i aerobe aktiviteter. En stor del af forklaringen skal findes i, at styrketræningen øger musklernes styrke, hvilket gør den enkelte bevægelse relativt lettere.
 
 Hoff et al (2002) lavede et forsøg med meget veltrænede langrendsløbere tilføjede fx 45 minutters funktionel styrketræning med 85% af 1RM fordelt på tre træningspas, og de havde en forbedring i udholdenhed på 20% i forhold til kontrolgruppen. Dette skete vel at mærke med den samme maksimale iltoptagelse, hvilket tyder på at bevægelsesøkonomien for langrendsløberne steg. Der er lavet [lignende forsøg med løb]({% link link _posts/2019-12-16-running-economy.md %}).
 
-Ud over at styrketræning forbedrer præstationen i aerobt betingede aktiviteter, så sker der også metaboliske tilpasninger ved styrketræning. 
+Ud over at styrketræning forbedrer præstationen i aerobt betingede aktiviteter, så sker der også metaboliske tilpasninger ved styrketræning.
 
-Traditionelt set har man opstillet styrketræning og udholdenhedstræning som to modpoler indenfor fysisk træning. Dette primært fordi, at de to træningsformer menes at skabe tilpasninger lokalt i muskulaturen, der trækker i hver sin retning. 
+Traditionelt set har man opstillet styrketræning og udholdenhedstræning som to modpoler indenfor fysisk træning. Dette primært fordi, at de to træningsformer menes at skabe tilpasninger lokalt i muskulaturen, der trækker i hver sin retning.
 
 I modsætning til ovenstående morfologiske forandringer som følge af styrketræning, menes udholdenhedstræning primært at stimulere metaboliske forhold omkring og i muskulaturen. Eksempelvis vaskulære tilpasninger såsom et øget og forbedret kapillær-net omkring muskulaturen, samt indre metaboliske tilpasninger som øget effektivitet og indhold af de såkaldte mitokondrier, flere sukker- og fedt-transportører m.m. (Egan & Zierath, 2013).
 
@@ -193,7 +194,7 @@ Ultimativt er disse tilpasninger med til at gøre, at en udholdenhedstrænet mus
 I takt med at man inden for forskningsverdenen har fået mere sofistikerede målemetoder, har studier dog vist, at styrketræning rent faktisk kan skabe metaboliske tilpasninger i den trænende muskulatur:
 
 - Det er demonstreret, at styrketræning kan forbedre mitokondriers funktion og igangsætte protein syntesen af nye mitokondrielle proteiner (Groennebaek & Vissing, 2017).
-- Styrketræning kan også forøge kapillær-nettet omkring muskelfibrene i takt med hypertrofien, for at kunne matche fibrenes øgede volumen (Holloway et al. 2017). 
+- Styrketræning kan også forøge kapillær-nettet omkring muskelfibrene i takt med hypertrofien, for at kunne matche fibrenes øgede volumen (Holloway et al. 2017).
 
 Derfor er der i senere år opstået hypoteser om, at selvom at tilpasningerne ved styrketræning primært går i retningen af øget muskelstørrelse og -styrke, så kan træningsformen eksempelvis også være med til at vedligeholde en sund mitokondrie-pulje og -funktion, hvilket har stor betydning for muskulaturens sundhed og derved også hele kroppens.
 
@@ -201,7 +202,7 @@ Derfor er der i senere år opstået hypoteser om, at selvom at tilpasningerne ve
 
 ## Fysiologiske tilpasninger i forhold til tung styrketræning
 
-Per Aagaard (2009) har [foreslået](http://web.archive.org/web/20110606191439/http://www.motion-online.dk/styrketraening/styrke_-_artikler/optimal_styrketraening_er_tung_styrketraening/){:rel="nofollow"} følgende figur for at vise sammenhængen mellem de dokumenterede fysiologiske forandringer i forhold til opbygningen af træningen og udbyttet af den. 
+Per Aagaard (2009) har [foreslået](http://web.archive.org/web/20110606191439/http://www.motion-online.dk/styrketraening/styrke_-_artikler/optimal_styrketraening_er_tung_styrketraening/){:rel="nofollow"} følgende figur for at vise sammenhængen mellem de dokumenterede fysiologiske forandringer i forhold til opbygningen af træningen og udbyttet af den.
 
 {% include figure image_path="/assets/images/blog/fysiologiske-tilpasninger-ovede.svg" caption="Fysiologiske tilpasninger til styrketræning i forhold til intensitet i styrketræningen. Vi mener primært den er retvisende for trænede individer. Baseret på [Aagaard (2009)](http://web.archive.org/web/20110606191439/http://www.motion-online.dk/styrketraening/styrke_-_artikler/optimal_styrketraening_er_tung_styrketraening/)" %}
 
@@ -217,9 +218,9 @@ Derfor foreslår vi følgende model for morfologiske og neurale fysiologiske til
 
 ### Trænede
 
-Træning med **6-12 RM** giver primært morfologiske adaptationer, som er med til at give en øget maksimal styrke. Effekten på de neurale tilpasninger er fra 6-12 RM begrænset, og derved bliver effekten på eksplosiv muskelstyrke og excentrisk muskelstyrke også begrænset. 
+Træning med **6-12 RM** giver primært morfologiske adaptationer, som er med til at give en øget maksimal styrke. Effekten på de neurale tilpasninger er fra 6-12 RM begrænset, og derved bliver effekten på eksplosiv muskelstyrke og excentrisk muskelstyrke også begrænset.
 
-Noget af din træning skal laves i dette _rep range_ for at få musklerne til at vokse. Når musklerne vokser har de imidlertid også potentiale til at yde mere kraft. Man kan sige at musklens kraftpotentiale bliver højere. 
+Noget af din træning skal laves i dette _rep range_ for at få musklerne til at vokse. Når musklerne vokser har de imidlertid også potentiale til at yde mere kraft. Man kan sige at musklens kraftpotentiale bliver højere.
 
 Træning udført ønsket om at flytte stangen så hurtigt som muligt med **1-8 RM** giver markante forbedringer på både maksimal-, eksplosiv- og excentrisk- muskelstyrke. En stor del af denne effekt er de neurale tilpasninger.
 
@@ -234,7 +235,7 @@ Den tunge styrketræning kan siges at resultere i ([Aagaard (2009)](http://web.a
 
 {% endcomment %}
 
-Den tunge styrketræning er med til at forbedre præstationsevnen og forebygge idrætsskader, særligt pga. de neurale tilpasninger. For at løfte i dette _rep range_ med maksimal, eksplosiv kraft, kræver det naturligvis noget tilvænning og tekniktræning. 
+Den tunge styrketræning er med til at forbedre præstationsevnen og forebygge idrætsskader, særligt pga. de neurale tilpasninger. For at løfte i dette _rep range_ med maksimal, eksplosiv kraft, kræver det naturligvis noget tilvænning og tekniktræning.
 
 Det er vigtigt at huske på, at _rep ranges_ er en tommelfingerregel i forhold til, hvad man opnår med styrketræning. Billedet er meget mere mudret end man skulle tro, når man læser rundt omkring i styrketræningslitteraturen.
 

@@ -17,6 +17,7 @@ tags:
   - fysiologi
   - muskler
   - kredsløb
+  - træningslære
 last_modified_at: 2021-04-04T08:14:14Z
 toc: true
 ---

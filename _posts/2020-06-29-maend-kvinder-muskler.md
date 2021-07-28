@@ -11,6 +11,7 @@ category:
 tags:
   - fysiologi
   - muskler
+  - træningslære
 last_modified_at: 2020-06-11T08:14:14Z
 toc: true
 gallery:

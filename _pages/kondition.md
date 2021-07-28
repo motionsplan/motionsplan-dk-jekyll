@@ -54,6 +54,12 @@ system:
   - fitnessinstruktør
 ---
 
+Konditionstræning kan både have til formål at øge den [maksimale iltoptagelse]({% link _posts/2019-11-03-intensiteten-og-vo2max.md %}), så det samme arbejde bliver lettere, og forbedre udholdenheden, altså evnen til at arbejde i længere tid med den samme intensitet.
+
+Konditionstræning handler om at træne kredsløbet til bedre at kunne arbejde over længere tid.
+
+For at forstå kondition og kredsløbstræning, så er det godt at starte med at forstå kroppens energisystemer.
+
 {% include feature_row id="feature_row_feature" type="left" %}
 
 {% include feature_row %}
