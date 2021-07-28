@@ -51,7 +51,8 @@ Normalt er banan med til at søde pandekager, så opskrifter på proteinpandekag
 - Blend alle ingredienserne til en ensartet masse. Lad dejen stå og trække i 10 minutter
 - Opvarm en pande til middelvarme og kom ca. 2-3 store spsk på panden, til hver pandekage
 - Dejen flader selv ud, så vent blot et par minutter og vend pandekagen om
-- Det er ikke nødvendigt med fedtstof på en slip-let pande men det kan sagtens bruges, hvis det ønskes. Pandekagerne kan evt. serveres med min [hindbærpuré](https://madogkaerlighed.dk/hindbaer-pure-2/). Velbekomme!
+- Brug lidt fedtstof, hvis ikke din pande har en slip-let-overflade
+- Pandekagerne kan serveres med [hindbærpuré](https://madogkaerlighed.dk/hindbaer-pure-2/)
 
 ## Sunde proteinpandekager uden banan og mel
 
@@ -151,4 +152,4 @@ Vores bedste råd er at vælge et mærke af en dansk fabrikant, som står inde f
 
 ## Konklusion
 
-Hvis du gerne samlet vil tænke mindre over din kost og have noget sund mad, så kan du overveje at lave en madplan. Jeg har skrevet et indlæg om [madbudget for at undgå luksusfælden og madplaner på ifire.dk](http://www.ifire.dk/madbudget-undgaa-luksusfaelden-med-madplan/).
+Hvis du gerne samlet vil tænke mindre over din kost og have noget sund mad, så kan du overveje at lave en madplan. Jeg har skrevet et indlæg om [et billigt madbudget og madplaner på ifire.dk](http://www.ifire.dk/madbudget-undgaa-luksusfaelden-med-madplan/).
