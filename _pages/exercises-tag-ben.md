@@ -1,18 +1,13 @@
 ---
-layout: collection-tag
+layout: single
 permalink: /benoevelser/
-collection: exercises
 header:
   overlay_image: https://images.unsplash.com/photo-1434682772747-f16d3ea162c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80
   teaser: https://images.unsplash.com/photo-1434682772747-f16d3ea162c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
   caption: "Benøvelser: De mest effektive styrketræningsøvelser til bentræningen"
-taxonomy: Ben # tag name
-entries_layout: grid # list (default), grid
 title: "Benøvelser: De mest effektive styrketræningsøvelser til bentræningen 🏋"
 author_profile: true
 classes: wide
-sort_by: title # date (default) title
-sort_order: forward # forward (default), reverse
 excerpt: "Bentræning kan foregå på virkelig mange forskellige og effektive måder. Vi har samlet et hav af benøvelser, som du kan bruge i din styrketræning af benene. Bentræning er både for dig, der gerne vil blive mere eksplosiv og dig der vil have større og stærkere ben."
 ---
 
@@ -37,3 +32,15 @@ Vi har samlet en række simple og effektive benøvelser, som du kan bruge til at
 </div>
 
 ## Benøvelser: Øvelser til bentræning
+
+{% assign site_posts = site.exercises | where: "tags", "Ben" | where_exp: "post", "post.url != page.url" | sort: "title" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>

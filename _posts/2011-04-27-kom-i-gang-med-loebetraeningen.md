@@ -25,7 +25,7 @@ feature_row:
     btn_label: "Tjek prisen"
     btn_class: "btn--danger"
     rel: sponsored nofollow noopener
-  - image_path: https://cdn6.tales.dk/00001/70394/cover.1568203219.jpg
+  - image_path: https://cdn6.tales.dk/00001/70394/cover.1622156561.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390
     title: "Løb som eliten"
     excerpt: "Claus Hechmanns bog LØB SOM ELITEN er handler om, hvordan du skal træne for at blive en hurtigere løber og få mest muligt ud af dit potentiale. Bogen indeholder fem specialdesignede 12-ugers programmer til distancerne 5 km, 10 km og helt op til maraton."
@@ -253,6 +253,8 @@ Der er fordele og ulemper ved begge ting.
 - **Puls**. Hvis du styrer træningen ud fra din puls, så kan du i praksis lave din løbetræning overalt og på forskelligt underlag. Du har en objektiv markør i din puls. Det kræver, at du kender din maksimale puls og pulsen for din anaerobe tærskel (som ændrer sig med træningen). Det (vigtige) langsomme løbetempo vil for de fleste passe med mellem 120-150 i pulsslag.
 - **Tempo**. Du kan udregne dit løbetempo ud fra din løbehastighed på dit seneste maksimale løb. Du kan bruge [Jack Daniels løbsberegner til at udregne dit løbetempo]({% link _posts/2020-08-01-jack-daniels-loebeberegner.md %}). Hvis du laver et løbeprogram baseret på beregneren, så er det utrolig vigtigt, at du respekterer det langsomme løb.
 - **Watt**. Hvis du fx har en Stryd Wattmåler, så kan du bruge den til at planlægge træningen. Den har samme fordele som at basere træningen på baggrund af pulsen.
+
+## Køb en watt måler til løb
 
 {% include feature_row id="feature_row_stryd" type="left" %}
 

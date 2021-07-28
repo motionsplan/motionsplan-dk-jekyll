@@ -16,6 +16,9 @@ tags:
   - kost
   - ernæring
 classes: wide
+faq:
+  - question: "Hvor mange kalorier er der i en banan?"
+    answer: "En hel banan indeholder ca. 120 kalorier."
 ---
 
 Jeg har samlet en kalorietabel over alverdens frugt og bær. Tabellen har energi i kalorier og kilojoule, energi, protein, fedt, kulhydrat og kostfibre.

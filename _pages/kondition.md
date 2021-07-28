@@ -1,14 +1,7 @@
 ---
-layout: category
+layout: single
 permalink: /kondition/
 title: &title "Kondition, konditionstræning og kredsløbstræning"
-author_profile: true
-system:
-  - fitnessinstruktør
-sort_by: title # date (default) title
-sort_order: forward # forward (default), reverse
-taxonomy: Kondition
-entries_layout: grid
 excerpt: "Lær mere om kondition, konditionstræning, kredsløbstræning og se eksempler på træning, hvor du kan øge din maksimale iltoptagelse og udholdenhed."
 header:
   overlay_image: https://images.unsplash.com/photo-1457449205106-d0aad138e99b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
@@ -56,6 +49,9 @@ feature_row:
     url: "/lobeokonomi/"
     btn_label: "Lær om løbeøkonomi"
     btn_class: "btn--info"
+author_profile: true
+system:
+  - fitnessinstruktør
 ---
 
 {% include feature_row id="feature_row_feature" type="left" %}
@@ -63,3 +59,15 @@ feature_row:
 {% include feature_row %}
 
 ## Artikler om kondtion, konditionstræning og kredsløbstræning
+
+{% assign site_posts = site.posts | where: "category", "Kondition" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>

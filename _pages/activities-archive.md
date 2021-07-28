@@ -1,7 +1,5 @@
 ---
-layout: collection
-collection: exercises
-entries_layout: grid
+layout: single
 permalink: /traeningsoevelser/
 redirect_from:
   - /exercise-search/
@@ -41,3 +39,15 @@ Hvis ud gerne vil hjælpe med at forbedre beskrivelserne, eller der mangler den 
 </div>
 
 ## Træningsøvelser til træning
+
+<div class="feature__wrapper">
+
+{% assign site_posts = site.exercises | sort: "last_modified_at" | reverse %}
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts limit:4 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>

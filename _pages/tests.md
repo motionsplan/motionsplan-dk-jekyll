@@ -1,14 +1,10 @@
 ---
-layout: tag
+layout: single
 toc: true
 permalink: /tests/
 excerpt: "Oversigt over alle de fysiske og fysiologiske tests til gang, løb, cykling, styrketræning, balance, smidighed og roning"
 title: &title "Alle tests"
 author_profile: true
-sort_by: title # date (default) title
-sort_order: forward # forward (default), reverse
-taxonomy: test
-entries_layout: grid
 header:
   overlay_image: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1960&q=80
   caption: *title
@@ -30,3 +26,15 @@ feature_row_feature:
 {% include feature_row id="feature_row_feature" type="left" %}
 
 ## Alle tests på Motionsplan
+
+{% assign site_posts = site.posts | where: "tags", "test" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>

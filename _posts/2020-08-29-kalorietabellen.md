@@ -17,6 +17,9 @@ tags:
   - kost
   - ernæring
 classes: wide
+faq:
+  - question: "Hvor mange kalorier er der i et æg?"
+    answer: "I et kogt, mellemstort æg på 55 gram er der cirka 75 kalorier fordelt på 6,8 g protein, 0,7 g kulhydrat og 5,1 g fedt."
 ---
 
 Jeg har samlet en kalorietabel, hvor du kan se indholdet af kalorier og næringsstoffer i maden. Kalorietabellen indeholder energi og næringsindhold fra fedt, kulhydrat og protein i rigtig mange fødevarer. Tabellen med kalorier er gjort søgbar.

@@ -1,14 +1,10 @@
 ---
-layout: tag
+layout: single
 toc: true
 permalink: /kondition/tests/
 excerpt: "Oversigt over alle konditionstests, hvor du kan udregne kondital og iltoptagelse med vores beregnere til gang, løb, cykling og roning - og se om du får et bedre kondital og fremgang i træningen."
 title: &title "Test din kondition"
 author_profile: true
-sort_by: title # date (default) title
-sort_order: forward # forward (default), reverse
-taxonomy: konditionstest
-entries_layout: grid
 header:
   overlay_image: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1960&q=80
   caption: *title
@@ -100,3 +96,15 @@ feature_row_feature:
 </div>
 
 ## Alle konditionstests - test din aerobe udholdenhed
+
+{% assign site_posts = site.posts | where: "tags", "konditionstest" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>

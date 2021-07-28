@@ -16,6 +16,9 @@ tags:
   - kost
   - ernæring
 classes: wide
+faq:
+  - question: "Hvor mange kalorier er der i gulerødder?"
+    answer: "1 gulerod på omkring 65 gram indeholder omtrent 25 kalorier fordelt på 0,5 gram protein, 0,3 gram fedt, 4,1 gram kulhydrat og 1,8 gram kostfibre."
 ---
 
 Jeg har samlet en kalorietabel med forskellige typer grøntsager. Tabellen har energi i kalorier og kilojoule, energi, protein, fedt, kulhydrat og kostfibre for forskellige typer grøntsager.
