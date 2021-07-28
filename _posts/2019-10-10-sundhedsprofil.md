@@ -19,6 +19,7 @@ feature_row:
     alt: "Fitness testning - fysisk testning og sundhedstestning i fitnesscentre, skole og hjem"
     excerpt: "Populær opslagsbog med allround fysisk testning med nemme  fitness tests, der kan udføres i et fitnesscenter, i en gymnastiksal, sportshal eller i hjemmet. De fleste tests og selvtests kan udføres med kroppen alene eller få, små, billige redskaber. Der forudsættes ikke adgang til specialudstyr. Tre komplette testprogrammer og over 40 fitnesstests samt Fitnessbarometer og Fitness Profil til motivation af fysisk inaktive og fysisk aktive. For personlige trænere, fitness instruktører, fysioterapeuter, idrætsstuderende, idrætsundervisere og supermotionister. Gennemillustreret. 144 sider."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/fitness-testning_marina-aagaard_haeftet_9788799095872"
+    rel: sponsored nofollow noopener
     btn_label: "Læs mere"
     btn_class: "btn--success"
   - image_path: https://imgcdn.saxo.com/_9788799369591/0x500
@@ -28,6 +29,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/sundhedstjek-og-formtest_marina-aagaard_haeftet_9788799369591"
     btn_label: "Læs mere"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 feature_row_references:
   - image_path: https://cdn6.bogreolen.dk/00045/54433/cover.1581291718.jpg
     title: "Measurement and Evaluation in Human Performance"
@@ -36,6 +38,7 @@ feature_row_references:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://bogreolen.dk/measurement-and-evaluation-in-human-performance_jr_9781450470438"
     btn_label: "Læs mere"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 #  - image_path: https://cdn6.bogreolen.dk/00096/38105/cover.1566436401.jpg
 #    title: "Norms for Fitness, Performance, and Health"
 #    alt: Norms for Fitness, Performance, and Health
@@ -50,6 +53,7 @@ feature_row_references:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/acsms-guidelines-for-exercise-testing-and-prescription_american-college-of-sports-medicine_epub_9781469825885?gclid=CjwKCAiA5JnuBRA-EiwA-0ggPdXHFExjFsqJLnGbAfydZFfXbHNc8LCSWFplRzuKmJ9vjX1Z3A8TfRoCzqgQAvD_BwE"
     btn_label: "Læs mere"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 toc: true
 ---
 
@@ -80,7 +84,7 @@ Avanceret sundhedsprofil
 
 ### Anslå kondition ud fra hvile- og maxpuls
 
-I sundhedstesten foreslås forskellige måder at teste kredsløbsfitness på. Hvis ikke du har tid til at lave en længerevarende fitnesstest, så kan du _estimere_ din test ud fra din hvile- og [max-puls]({% link _posts/2020-06-02-max-hr.md %}). **Husk at det er konditallet, du skal bruge i sundhedsprofilen.**
+I sundhedstesten foreslås forskellige måder at teste kredsløbsfitness på. Hvis ikke du har tid til at lave en længerevarende fitnesstest, så kan du _estimere_ din test ud fra din hvile- og [max-puls]({% link _posts/2020-06-02-max-hr.md %}). **Husk at det er [konditallet](/kondital/), du skal bruge i sundhedsprofilen.**
 
 [Anslå kondital fra puls](/kondital-fra-puls/){: .btn .btn--large .btn--success }
 
@@ -137,7 +141,7 @@ I det følgende gennemgår jeg kort [Morten Zachos tanker bag sundhedsprofilen](
 [Test din styrke]({% link _posts/2020-09-04-pushup-test.md %}){: .btn .btn--large .btn--success }
 
 > ### Smidighed
-> 
+>
 > Smidighed er nok den mindst vigtige af de anvendte faktorer, men ikke desto mindre, så er god bevægelighed væsentlig for at kunne opretholde en god all-round funktionsevne for kroppen. Selvom sammenhængen er en anelse spekulativ, så er det dog rimeligt at antage en sammenhæng mellem generelt god bevægelighed i kroppens led og evnen til at oprethold en god holdning i både hvile og under aktivitet, hvilket har betydning for opståen af rygproblemer.
 
 --- <cite> [Morten Zacho](http://web.archive.org/web/20160406061608/http://www.motion-online.dk/sundhed_og_vaegt/sundhed-generelt/sundhedsprofil_-_teoretisk_baggrund/){:rel="nofollow"}</cite>
@@ -149,7 +153,7 @@ I det følgende gennemgår jeg kort [Morten Zachos tanker bag sundhedsprofilen](
 > ### Blodtryk
 >
 > Ca. 1 million danskere har forhøjet blodtryk. Personer med forhøjet blodtryk har en markant øget risiko for en række alvorlige hjerte-kar sygdomme som f.eks. blodpropper og hjertesvigt. Den generelle grænse for ”hypertension” er et blodtryk på over 140/90 mmHg, men man ved at selv blodtryk under denne grænse er associeret med forøget risiko. Generelt peger undersøgelserne på at jo lavere blodtrykket er, desto mindre risiko har man.
-> 
+>
 > ### Samlet scoring
 >
 > Ikke alle elementer tæller lige meget i den samlede score. Det trækker f.eks. meget mere fra at være ryger i forhold til blot at være usmidig. Dertil er det heller ikke alle test der giver en højere samlet score selv om man forbedrer sig. Eksempelvis er det godt for sundheden at have en hvis styrke i overkroppen, men man er ikke nødvendigvis sundere fordi man kan tage virkelig mange armstrækninger. Vægtningen af de forskellige elementer er bl.a. sket ved at kigge på rapporten ” Risikofaktorer og folkesundhed i Danmark”, samt ved at kigge på mere specifikke undersøgelser.
@@ -164,7 +168,7 @@ Er du enige med de forskellige paramtre, der bliver inddraget i sundhedstesten? 
 
 Men måler testen overhovedet sundhed?
 
-Du kan læse mere om danskernes sundhed generelt på [www.danskernessundhed.dk](http://www.danskernessundhed.dk/). Der er målt forskellige parametre, som forskerne har relateret til sundhed. 
+Du kan læse mere om danskernes sundhed generelt på [www.danskernessundhed.dk](http://www.danskernessundhed.dk/). Der er målt forskellige parametre, som forskerne har relateret til sundhed.
 
 Hvad er din definition af sundhed?
 

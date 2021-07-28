@@ -5,4 +5,5 @@ excerpt: "Kategorier til blogindlæg om styrketræning, konditionstræning, card
 title: "Indlæg efter kategori"
 author_profile: true
 classes: wide
+sitemap: false
 ---

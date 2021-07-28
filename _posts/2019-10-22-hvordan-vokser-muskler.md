@@ -62,9 +62,11 @@ Grundlæggende kan man dog sige, at musklen kan gå i gennem disse tre stadier f
 På muskelcelleniveauet er den _mekaniske spænding_ sandsynligvis den afgørende faktor for, om en muskelcelle vil vokse sig større. En muskelcelle er enten slukket eller tændt; enten rekrutteres den, eller også gør den ikke. En muskelcelle skal være _tændt_ for at opleve en betydelig mekanisk spænding. Det er der groft sagt to strategier til opnå. 
 
 - **Høj ekstern belastning**. Enten kan den eksterne belastning være tilpas nok høj til, at vi rekrutterer en betydelig mængde fibre i den arbejdende muskel. 
-- **Udtrætning og metabolisk stress.** Eller kan vi løfte en relativ lav vægt mange gange nok til, at musklen udtrættes (metabolisk stress), og musklen tvinges til at rekruttere flere og flere af sine fibre for at kunne opretholde arbejdet. Derfor er metabolisk stress et værktøj til at skabe mekanisk spænding i flest mulige fibre i en given muskel. Udtrætning af musklerne til nær-udmattelse er sandsynligvis et vigtigt parameter - især ved træning med lavere belastning (mindre end 60-70% af [1RM](/rm-beregner/)).
+- **Udtrætning og metabolisk stress.** Eller kan vi løfte en relativ lav vægt mange gange nok til, at musklen udtrættes (metabolisk stress), og musklen tvinges til at rekruttere flere og flere af sine fibre for at kunne opretholde arbejdet. Derfor er metabolisk stress et værktøj til at skabe mekanisk spænding i flest mulige fibre i en given muskel. Udtrætning af musklerne til nær-udmattelse er sandsynligvis et vigtigt parameter - især ved træning med lavere belastning (mindre end 60-70% af [1RM-max](/rm-beregner/)).
  
 Træning til udmattelse er formentlig mest relevant ved relativt lave eksterne belastninger (mindre end 60-70% af 1RM), mens høje(re) eksterne belastninger burde være nok til at skabe mekanisk spænding i en tilpas stor mængde af fibre for at lave et signal til muskeltilvækst.
+
+Det er bl.a. udtrætningens rolle i muskelvækst, der er med til at gøre [okklusionstræning så effektivt for muskelvækst]({% link _posts/2021-01-30-okklusion-vol1.md %}).
 
 ## RPE ved hypertrofi træning
 
@@ -149,9 +151,9 @@ Hør Mike Israetel selv forklare begreberne.
 [^biceps]: [Biceps hypertrophy training](https://renaissanceperiodization.com/expert-advice/bicep-training-tips-hypertrophy)
 [^abs]: [Abs hypertrophy training](https://renaissanceperiodization.com/expert-advice/ab-training)
 [^trap]: [Trap hypertrophy training](https://renaissanceperiodization.com/expert-advice/trap-training-tips-hypertrophy)
-[^side-delts]: [Rear and side Delts hypertrophy training](https://renaissanceperiodization.com/expert-advice/rearside-delt-tips-hypertrophy)
+[^side-delts]: [Rear Delts hypertrophy training](https://renaissanceperiodization.com/expert-advice/rear-delt-size-training-tips) and [Side Delts hypertrophy training](https://renaissanceperiodization.com/expert-advice/side-delt-size-training-tips)
 [^front-delts]: [Front Delt hypertrophy training](https://renaissanceperiodization.com/expert-advice/front-delt-training-tips-hypertrophy)
-[^quads]: [Quads hypertrophy training](https://renaissanceperiodization.com/expert-advice/quad-training-tips-hypertrophy)
+[^quads]: [Quads hypertrophy training](https://renaissanceperiodization.com/expert-advice/quad-size-training-tips)
 [^chest]: [Chest hypertrophy training](https://renaissanceperiodization.com/expert-advice/chest-training-tips-hypertrophy)
 [^back]: [Back Training Tips for hypertrophy](https://renaissanceperiodization.com/expert-advice/back-training-tips-hypertrophy)
 [^hamstrings]: [Hamstring Training Tips for Hypertrophy](https://renaissanceperiodization.com/expert-advice/hamstring-training-tips-hyprtrophy)

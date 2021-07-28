@@ -1,36 +1,49 @@
 ---
-title: "Aerobic Plyometrics"
+layout: single
+title: "Aerob plyometri"
+excerpt: "Aerob plyometriske øvelser er gentagne elastiske bevægelser med 8-15 reps med 30 sekunders pause udført 3-12 minutter med 1-3 sæt. Aerobe plyometriske øvelser hjælper med at forbedre elasticiteten og holdbarheden i vævet i underkoppen, hvilket forbedrer sener og ligamenternes evne til at håndtere stress over tid."
 tags:
   - conditioning
 rpe: 6-7
+intensity: Moderat
+time: 8-15 reps; 30 s pause
+reps: 3-12 min/sæt, 1-3 sæt
+frequency: 1-2x / uge
 howto:
-  - Keep HR below ANT
-  - Perform each rep at moderate intensity
-  - 8-15 short, explosive jumps or push-ups/rep, followed by 30s rest
-  - 3-12 min/set, 1-3 sets total
-exercises: "Lower body: double-leg bounds. Upper body: explosive push-ups and medicine ball rebounding"
-frequency: 1-2 x / week
+  - Hold puls under den anaerobe tærskel
+  - Alle gentagelser skal udføres med moderat intensitet
+  - 8-15 korte, eksplosive hop, efterfulgt af 30s pause
+  - 3-12 min/sæt, 1-3 sæt total
+exercises: "Aerob plyometri laver du 8-15 elastiske bevægelser efterfulgt af omkring 30 sekunders pause. Du kører i 3-12 minutter i 1-3 sæt i alt. For underkroppen er hop med samelde ben en god øvelse, mens du med overkroppen kan lave eksplosive arkstrækninger eller rebound med medicinbolde."
 progress:
-  - Jump quality
-effect: "Improve the aerobic ability of the fast-twitch fibers to maintain high power output longer"
+  - Bevægelseskvalitet og hoppekvalitet
+effect: "Aerob plyometri forbedrer elasticiteten i vævet og holdbarheden ved gentagne belastninger. Samtidig arbejdes med de aerobe egenskaber i fast-twitch muskelfibrene, så de kan arbejde med et højt power output over længere tid."
+video:
+  provider: youtube
+  id: _P1LcWWpcPg
 ---
 
-Aerobic plyometrics are a great way to decrease the risk of soft tissue injuries in sports that
-have lots of running.
-Sharp transitions between the off-season, the pre-season, and the competitive season
-often correspond to soft-tissue injuries. This is because lower body training stress is not
-increased gradually enough during these preparatory phases.
-Aerobic plyometrics help improve the elasticity and durability of lower body tissues, which
-increases their ability to handle stress over time.
-General guidelines for the aerobic plyometric method featured in this video are:
-• Use a low-moderate hurdle height
-• Aim for 8-15 sub-maximal jumps in between hurdles
-• Rest 10-30 seconds before repeating the hurdle jumps
-• Perform a short work period of 3-5 minutes and gradually increase to 10-12 minutes
-Look for proper jumping technique and minimal ground contact time between jumps.
-Movements should appear fluid and elastic and the athlete’s upper and lower body should
-remain coordinated. There should be enough rest between sets to avoid fatigue.
-As athletes develop greater elasticity over time, you can increase the number of hurdles
-and the hurdle height. You can also vary the distances between hurdles and the complexity
-of the jumps.
-Use this method more frequently as your athletes get closer to their competitive season.
+{{ page.excerpt }}
+
+Aerob plyometri er en god måde at nedsætte risikoen for skader i idrætsgrene, der involverer en del løb.
+
+Generelle retningslinjer for at lave aerob plyometri.
+
+- Brug relativt lave hække
+- Lav 8-15 submaksimale hop
+- Hold 10-30 sekunders pause før du springer igen
+- Arbejd i 2-5 minutter og forøg gradvist til 10-12 minutter.
+
+Kig effter ordentlig landingsteknik og minimal tid på jorden mellem de enkelte hop.
+
+Bevægelsen skal se flydende og elastisk ud og atletens overkrop og underkrop skal se koordineret ud.
+
+Der skal være nok pause mellem de enkelte spring for at undgå udtrætning.
+
+Når atleten oparbejde større elasticitet over tid, så kan du antallet af hække og højden på hækkene. Du kan også variere distancen mellem hækken for at gøre øvelsen lidt mere kompleks.
+
+Brug metoden oftere, når atleterne kommer tættere på konkurrencesæsonen for at forberede kroppen til træningsmængden.
+
+{% if page.video %}
+  {% include video provider=page.video.provider id=page.video.id %}
+{% endif %}

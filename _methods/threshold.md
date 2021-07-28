@@ -1,39 +1,47 @@
 ---
-title: "Threshold Method"
+layout: single
+title: "Threshold Method - Tærskelmetode"
+excerpt: "Formålet med tærskel-metoden eller _threshold method_ er at forbedre, hvor meget power der kan produceres omkring den anaerobe tærskel og forbedre evnen til at have en god teknik, når man bliver træt. Du arbejder omkring den anaerobe tærskel i 5-10 minutter per arbejdsperiode og laver 2-5 gentagelser."
 tags:
   - conditioning
 rpe: 8-9
+intensity: HR ± 5 slag ift. ANT
+time: 5-10 min arbejdsperiode x 2-5 reps
+reps: Gennemfør 2-5 reps pr. workout
 howto:
-  - Maintain HR ± 5 bpm of ANT
-  - 5-10 min work periods x 2-5 reps
-  - Maintain power output each rep
-  - Complete 2-5 reps per workout
-exercises: "Any cardiovascular exercise where threshold has been determined"
-frequency: 1-2 x week x 3-4 weeks
+  - Hold puls HR ± 5 slag i forhold til anaerobe tærskel
+  - 5-10 min arbejdsperiode x 2-5 gentagelser
+  - Fasthold samme power output i de enkelte gentagelser
+  - Gennemfør 2-5 gentagelser pr. workout
+exercises: "Du skal arbejde omkring din anaerobe tærskel. Derfor kan du bruge alle øvelser, hvor du kender den anaerobe tærskel."
+frequency: 1-2x uge i 3-4 uger
 progress:
-  - Distance covered each rep / speed / power at threshold
-effect: "Increases the aerobic system’s maximum rate of ATP regeneration so more power can be produced aerobically."
+  - Distance, hastighed eller power på den anaerobe tærskel.
+effect: "Flytter den anaerobe tærskel, så det aerobe system kan skabe mere ATP og dermed kan det aerobe system samlet set skabe mere kraft."
+video:
+  provider: youtube
+  id: 0SM5QMf1zvs
 ---
 
-The purpose of this method is to train at or around the anaerobic threshold in order to:
-1. Improve the amount of power generated at threshold
-2. Increase the ability to maintain good posture, range of motion, and technique under
-fatigue
-Choose an exercise that allows you to measure power output or distance covered over
-time. As athletes increase their endurance, they will be able to generate greater power over
-a given time interval.
-The anaerobic threshold changes depending on the position the athlete is in. The easiest
-way for most athletes to determine their anaerobic threshold is to cover as much distance
-as possible at a steady pace 12 minutes. The average heart rate over that 12 minutes will
-provide an estimate of the anaerobic threshold.
-General guidelines for the threshold method are:
-• Maintain a heart rate between threshold level and 5bpm above threshold level for
-5-10 minutes
-• Produce as much power as possible within the anaerobic threshold range
-• Maintain the same pace throughout the work period
-• Use a moderate resistance to get the HR up to the right range
-Athletes should watch their heart rate and power output during this method so that they
-can learn to control both.
-Following the work period, coach the athlete on how to recover efficiently by manipulating
-breathing, posture, facial expressions, etc.
-Record the distance covered and 60-second HR recovery to gauge improvement over time.
+{{ page.excerpt }}
+
+Vælg en øvelse hvor du kan måle _power output_ eller distancen over tid. Over tid så bør atleten kunne producere mere og mere kraft på en given tidsperiode.
+
+Den anaerobe tærskel afhænger af, hvilken position atleten er i. Den letteste måde at bestemme den anaerobe tærskel er at bestemme den anaerobe tærskel er ifølge Joel Jamieson at lave en test med et jævnt tempo på 12 minutter. Den gennemsnitlige puls over de 12 minutter kan være en tilnærmelse af den anaerobe tærskel.
+
+Generelle guidelines for at bruge tærskelmetoden er:
+
+- Løb med en puls omkring den anaerobe tærkskel +/- 5 slag/min i 5-15 minutter
+- Lav så meget kraft som muligt inden for den anaerobe tærskel
+- Brug den samme hastighed eller power output i hele arbejdsperioden
+- Brug en moderat modstand for at få pulsen op i det rigtige range
+
+Atleter bør kigge både på puls og power output eller hastighed, så de kan lære at kontrollere begge omkring den anaerobe tærskel.
+
+I pauserne bør atleterne være opmærksomme på restitution ved at manipulere åndedrættet, kropsstillingen, ansigtsmimik mv.
+
+Mål hvor lang distance du løber og 60 sekunders _heart rate recovery (HRR)_ for at se forbedringer over tid for den anaerobe tærskel.
+
+{% if page.video %}
+  {% include video provider=page.video.provider id=page.video.id %}
+{% endif %}

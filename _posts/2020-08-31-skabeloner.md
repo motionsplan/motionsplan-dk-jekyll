@@ -46,6 +46,13 @@ feature_row_program_checklist:
     excerpt: "Den overordnede programlægning kan med fordel laves som en tjekliste. Det gør planlægningen mere fleksibel, og ved at stille mål for sin træning, så ender det hele ikke i dårlig samvittighed, fordi man ikke har nogen træningsplan."
     btn_label: "Google Docs"
     btn_class: "btn--success"
+feature_row_running_program:
+  - image_path: /assets/images/template/jack-daniels.png
+    url: https://docs.google.com/document/d/1LRwLogpMtkM88HQnEa2hjgpkQmOIPIM7TcnZGM-erlQ/copy
+    title: "Løbetræning og løbeprogram skabelon"
+    excerpt: "Skabelon til at lave et løbeprogram, hvor man kan tage udgangspunkt i Jack Daniels Running Formula og løbsberegner."
+    btn_label: "Download Google Docs"
+    btn_class: "btn--info"
 ---
 
 Jeg har lavet en række gratis skabeloner, hvor du kan indskrive dit træningsprogram og styrketræningsprogram. Jeg bruger altid selv en skabelon, fordi jeg synes, at jeg får et bedre overblik over mit styrketræningsprogram og løbeprogram.
@@ -69,6 +76,12 @@ Jeg har lavet en skabelon, hvor du kan planlægge din træningsblok og sørge fo
 Jeg har lavet skabeloner til de enkelte styrketræningspas her.
 
 {% include feature_row type="left" id="feature_row_strength" %}
+
+## Skabelon til løbetræning og løbeprogram
+
+{% include feature_row type="left" id="feature_row_running_program" %}
+
+Du kan læse mere om [Jack Daniels Løbsberegner her](/loebesiden-jack-daniels-loebeberegner/).
 
 ## Opbygning af dit træningsprogram
 

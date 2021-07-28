@@ -2,8 +2,10 @@
 title: &title "Trappeløb"
 excerpt: ""
 instructions: ""
-permalink: /oevelse/trappeløb/
-redirect_from: /node/588
+permalink: /oevelse/trappeloeb/
+redirect_from:
+  - /node/588
+  - /oevelse/trappeløb/
 id: 588
 language: da
 header:

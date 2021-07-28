@@ -7,6 +7,10 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+[rel~=sponsored]:after {
+  content: "*";
+}
+
 body.layout--single {
     .feature__item--left, .feature__item--right {
         h2.archive__item-title {
@@ -28,7 +32,7 @@ form.calculator {
     fieldset {
         padding: 1em !important;
         background-color: #D8E4F8;
-    
+
         fieldset {
             clear: both !important;
             padding: 0 !important;
@@ -37,11 +41,11 @@ form.calculator {
                 font-weight: normal;
             }
         }
-    
+
         &.results {
             color: white !important;
             background-color: #34557A !important;
-            
+
             legend, label {
                 color: white !important;
             }
@@ -49,7 +53,7 @@ form.calculator {
                 color: #eee;
             }
         }
-        
+
         legend {
 	        font-weight: bold;
             float: left;
@@ -86,7 +90,7 @@ form.calculator {
         background-color: #333;
         padding: 0.5em 1em;
         color: #fff;
-    
+
         p {
             font-size: 0.7em;
             margin: 0;
@@ -116,8 +120,8 @@ meter::-webkit-meter-bar {
 }
 
 meter::-webkit-meter-optimum-value {
-  background-image: -webkit-linear-gradient(/*90deg, 
-            #8bcf69 20%, 
+  background-image: -webkit-linear-gradient(/*90deg,
+            #8bcf69 20%,
             #e6d450 20%,
             #e6d450 40%,
             #f28f68 40%,
@@ -194,7 +198,7 @@ meter::-webkit-meter-optimum-value {
     text-align: center;
     padding-top: 1em;
     padding-bottom: 1em;
-    
+
     a {
         display: block;
     }

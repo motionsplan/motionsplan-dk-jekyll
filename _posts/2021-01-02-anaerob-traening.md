@@ -20,6 +20,8 @@ Anaerob træning bør være en del af din træning. Det anaerobe system er en vi
 
 Hvad er anaerob træning? **Anaerob træning forbedrer kroppens evne til at levere energi uden ilt til stede. Anaerob træning kan være alaktacid og laktacid og træner evnen til at genopbygge ATP enten spalte kreatinfosfat eller ved at spalte glykose, hvor der kommer mælkesyre som biprodukt.**
 
+Jeg har skrevet mere uddybende om, [hvordan det anaerobe og aerobe energisystem hænger sammen her]({% link _posts/2019-11-14-energisystemer-101.md %}). Hvis du ledte efter [aerob træning, så tjek her]({% link _posts/2021-06-19-aerob-traening.md %}).
+
 I dette indlæg kan du få svar på følgende spørgsmål:
 
 - Hvad er anaerob træning?

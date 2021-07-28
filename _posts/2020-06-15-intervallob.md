@@ -15,6 +15,7 @@ tags:
   - intervalløb
   - anerob træning
   - aerob træning
+  - featured
 last_modified_at: 2021-01-03T08:14:14Z
 toc: true
 ---
@@ -54,13 +55,15 @@ Typisk kan du holde til intervaltræning 1-2 gange om ugen. Resten af træningen
 
 ## Hvilke metoder findes der til intervalløb?
 
-Der er en lang række metoder til at lave intervaltræning. Jeg har forsøgt at samle de mest udbredte i et skema, som du kan se nedenunder.
+Der er en lang række metoder til at lave intervaltræning. Jeg har forsøgt at samle de mest udbredte i et skema over intervaller til løb. Du kan se skemaet nedenunder.
 
 Jeg kan som udgangspunkt bedst lide at styre intervaller ud fra tid. Det betyder nemlig, at man kan ramme det rigtige energisystem uanset hvor hurtigt, man løber intervallerne.
 
 En meget populær og effektiv måde at flytte sin maksimale iltoptagelse og løbe omkring den anaerobe tærskel er 1000 meter intervaller med 2 minutters pause. Jeg har imidlertid ofte lavet disse intervaller med mine elever, og nogen af dem løber under 4 minutter pr. kilometer og andre løber helt op mod seks minutter pr. kilometer.
 
-Når eleverne løber med forskellig hastighed, er det sandsynligt at de træner noget forskelligt. De får i hvert fald en forskellig træningsmængde, hvor dem der løber lidt langsommer kommer til at træne længere tid.
+Når eleverne løber med forskellig hastighed, er det sandsynligt at de træner noget forskelligt. De får i hvert fald en forskellig træningsmængde, hvor dem der løber lidt langsommere kommer til at træne længere tid.
+
+Hvis du bruger [Jack Daniels Løbsberegner](/loebesiden-jack-daniels-loebeberegner/), så får du et tempo, du skal holde i intervallerne. Jeg har lavet en beregner, som kan [omregne fra hastighed i min/km](/hastighed/) til, [hvor langt du skal løbe på et tidsinterval her]({% link _posts/2021-03-28-hvor-langt-pr-interval.md %}).
 
 ## Sammensætningen af intervaller
 
@@ -134,17 +137,17 @@ I sidste ende skal du vælge dit intervalprogram ud fra dine mål, og hvilket en
 
 ## Om pauser i intervalløb
 
-- På **de lange intervaller** over 3 minutter, så betyder pausen ikke så meget, da intervallerne er så lange, at du sagtens kan nå at få pulsen højt nok op til at arbejde i det rigtige energisystem. 
+- På **de lange intervaller** over 3 minutter, så betyder pausen ikke så meget, da intervallerne er så lange, at du sagtens kan nå at få pulsen højt nok op til at arbejde i det rigtige energisystem.
 - På **de korte intervaller** skal pausen typisk være kort, så du udnytter den blandede effekt på kredsløbet - både det aerobe og det anaerobe system. Typisk ønsker man ikke, at pulsen falder for langt ned, inden næste interval startes. Der kan være en markant anaerob effekt af denne type træning, fx Tabatas 20 sekunders maksimalt arbejde og 10 sekunders pause.
 - Hvis intervallerne er **korte og pauserne lange**, vil træningen typisk rette sig mod det hurtige anaerobe system, og du arbejder med [anaerob træning]({% link _posts/2021-01-02-anaerob-traening.md %}).
 
 ## Intervaltræning som forberedelse til løbedistance
 
-Hvis du lige er startet med at løbe, så kan intervaltræning stadig være en rigtig god tilføjelse til din træning. 
+Hvis du lige er startet med at løbe, så kan intervaltræning stadig være en rigtig god tilføjelse til din træning.
 
 Intervaltræning kan være med til at forberede dig til den distance, du gerne vil løbe. Hvis du har et mål om at løbe fem kilometer, men lige nu kun kan løbe én kilometer.
 
-Du kan udnytte intervalløb ud fra **princippet om progressivt overload**. Første gang du er ude at løbe, så kan du løbe 400 meter, gå 600 meter, løbe 400 meter osv. Næste gang så løber du lidt længere og går lidt kortere. 
+Du kan udnytte intervalløb ud fra **princippet om progressivt overload**. Første gang du er ude at løbe, så kan du løbe 400 meter, gå 600 meter, løbe 400 meter osv. Næste gang så løber du lidt længere og går lidt kortere.
 
 Efter nogle uger, så kan du måske løbe 1 kilometer, hvorefter du går i to minutter. Så løber du 1 kilometer mere. På den måde kan du på forhånd planlægge en træning, der til sidst får dig til at løbe fem kilometer i træk. Men husk at gå langsomt frem, så får du den bedste oplevelse og undgår at blive skadet undervejs.
 
@@ -152,7 +155,7 @@ Efter nogle uger, så kan du måske løbe 1 kilometer, hvorefter du går i to mi
 
 Jeg foreslår, at du gradvist introducerer en type intervaltræning, som du holder fast i 6-8 uger. Hvis du før og efter sørger for at lave en test, fx med en løbedistance eller en [anden af vores konditionstests]({% link _posts/2019-11-04-kondition-og-test.md %}), så kan du se, om træningen hjælper dig.
 
-## Alle indlæg om intervaltræning
+## Alle indlæg om intervaltræning og intervalløb
 
 {% assign site_posts = site.posts | where: "tags", "intervaltræning" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 

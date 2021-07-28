@@ -1,7 +1,14 @@
 ---
 title: "Flyndermusklen"
+group:
+  - Ben
+functional_group:
+  - Fodledsstrækkere (plantarfleksorer)
+joint:
+  - Fodleddet
 name:
   latin: "Soleus"
+  da: "Flyndermusklen"
 tags:
   - imagemap
   - fitnessinstruktør
@@ -12,8 +19,8 @@ insertion:
   da: I akillessenen og fæster på hælbenet.
 function:
   da:
-    - short: Plantar flexes the foot.
-      extended: This means that the soleus muscle extends the ankle such that the angle between the top of the foot and the lower leg increases (i.e. the action of rising up on your toes or the balls of your feet).
+    - short: Plantarfleksion i ankelleddet
+      extended: Soleus strækker anklen (plantar fleksion) så tæerne peger i forlængelse af underbenet. Soleus hjælper med at gå op på tæer.
   en:
     - short: Plantar flexes the foot.
       extended: This means that the soleus muscle extends the ankle such that the angle between the top of the foot and the lower leg increases (i.e. the action of rising up on your toes or the balls of your feet).
@@ -28,19 +35,3 @@ coords:
   - "112,421,114,426,119,429,117,443,114,463,111,440"
   - "174,465,171,446,168,430,173,427,176,419"
 ---
-
-_{{ page.name.latin }}_
-
-- **Udspring**: {{ page.origin.da }}
-- **Hæfte**: {{ page.insertion.da }}
-
-{% include figure image_path=page.image alt=page.title caption=page.title %}
-
-## Funktion
-
-{% for f in page.function.da %}
-- **{{ f.short }}**.
-  {{ f.extended | markdownify }}
-{% endfor %}
-
-{% include figure image_path=page.image_focus alt=page.title caption=page.title %}

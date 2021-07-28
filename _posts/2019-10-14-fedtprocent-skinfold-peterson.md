@@ -24,6 +24,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=20604&htmlurl=https://www.bodyman.dk/shop/accu-measure-fitness-54935p.html"
     btn_label: "Læs mere"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 ---
 
 Peterson 4-punktsmåling er en nyere hudfoldsmåling til bestemmelse af fedtprocent baseret på 4-komponentmodellen for kropskomposition.
@@ -46,11 +47,16 @@ Se mere i den originale artikel af [Peterson et al (2003)](https://academic.oup.
 
 For at estimere fedtprocenten så skal der både for mænd og kvinder måles hudfolde på fire steder. Hudfolden skal måles ved triceps, ved skulderbladets nederste spids, lige over hoftekammen og midt på låret.
 
-## Udregn din fedtprocent med Peterson et al.
+## Udregn din fedtprocent med Peterson et al.-beregneren
 
 {% include calculate-fatpercent-skinfold-peterson.html %}
 
 ## Usikkerheder i Peterson
+
+Husk at testen udelukkende estimerer din fedtprocent. Testen er ikke et startskud til en [slankekur]({% link _posts/2020-09-04-slankekur.md%}), fordi du skal opnå en tilfældig [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}) fra en beregner.
+{: .notice .notice--info }
+
+Jeg har skrevet et uddybende indlæg om at [måle skinfolds med fedttang]({% link _posts/2019-10-14-fedtprocent-skinfold.md %}).
 
 ## Andre formler til måling af fedtprocent
 

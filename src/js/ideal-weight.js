@@ -1,36 +1,40 @@
 let motionsplan = {}
 
 motionsplan.IdealWeight = function(height, sex) {
-  var h, height, sex;
-
-  height = height;
   // Formulas only works for people over 152
-  h = height - 152;
-  sex = sex;
+  let h = height - 152;
+  // let h = (height * 0.0328084 - 5) * 12; // formula is in inches
+
+  function isMale() {
+    if (sex == 'man') {
+      return true;
+    }
+    return false;
+  }
 
   function getRobinson() {
-    if (sex == 'man') {
+    if (isMale()) {
       return 52 + 0.75 * h;
     } 
     return 49 + 0.67 * h;
   }
 
   function getMiller() {
-    if (sex == 'man') {
+    if (isMale()) {
       return 56.2 + 0.56 * h;
     } 
     return 53.1 + 0.54 * h;
   }
 
   function getHamwi() {
-    if (sex == 'man') {
+    if (isMale()) {
       return 48.0 + 1.06 * h;
     } 
     return 45.5 + 0.87 * h;
   }
 
   function getDevine() {
-    if (sex == 'man') {
+    if (isMale()) {
       return 50.0 + 0.91 * h;
     } 
     return 45.5 + 0.91 * h;
@@ -38,27 +42,33 @@ motionsplan.IdealWeight = function(height, sex) {
 
   // https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4841935/
   function getPeterson(target_bmi = 22) {
-    var hgt = height / 100;
+    let hgt = height / 100;
     return (2.2 * target_bmi) + (3.5 * target_bmi * (hgt - 1.5));
   }
 
   // Based on Zacho BMI Women 22,5 og Man 24,5  
-  function getIdealWeightBasedOnBmiAndBodytype(bodytype) {
-    var hgt = height / 100;
+  function getIdealWeightBasedOnBMI(target_bmi = 0) {
+    let hgt = height / 100;
     
-    if (sex == 'man') {
-      return (hgt * hgt) * 24.5 * bodytype;
-    } 
-    return (hgt * hgt) * 22.5 * bodytype;
+    if (target_bmi == 0) {
+      if (isMale()) {
+        target_bmi = 24.5;
+      } else {
+        target_bmi = 22.5;
+      }
+    }
+
+    return (hgt * hgt) * target_bmi;
   }
 
-  var publicAPI = {
+  let publicAPI = {
     getHamwi : getHamwi,
     getDevine : getDevine,
     getMiller : getMiller,
     getRobinson : getRobinson,
     getPeterson : getPeterson,
-    getIdealWeightBasedOnBmiAndBodytype : getIdealWeightBasedOnBmiAndBodytype
+    getIdealWeightBasedOnBMI : getIdealWeightBasedOnBMI,
+    isMale : isMale
   };
 
   return publicAPI;

@@ -91,7 +91,7 @@ Først skal du vide, at der er forskellige typer okklusionsbånd, som har hver d
 
 ## Hvilket udstyr skal jeg vælge til okklusion?
 
-I det følgende kigger jeg lidt på, hvilket okklusionsudstyr du skal vælge, når du går i gang med okklusionstræning. 
+I det følgende kigger jeg lidt på, hvilket okklusionsudstyr du skal vælge, når du går i gang med okklusionstræning.
 
 Du kan bruge helt almindelige knæbind eller knee wraps. Det vil jeg dog ikke anbefale. For det første er det besværligt at få det viklet rigtigt på. For det andet er det vanskeligt at få den helt rigtige afklemning.
 
@@ -146,35 +146,35 @@ Nogle stropper er elastiske, så modstanden bliver knap så stor under muskelkon
 
 ### Bodylabs occlusion training bands
 
-Bodylab har naturligvis lavet nogle okklusionsbånd. Okklusionsbåndene fra Bodylab er lavet i semielastisk materiale, som er relativt behageligt at have på. 
+Bodylab har naturligvis lavet nogle okklusionsbånd. Okklusionsbåndene fra Bodylab er lavet i semielastisk materiale, som er relativt behageligt at have på.
 
 Bodylab har brugt velcrolukning, hvilket gør det let at justere båndene, men samtidig kan det måske være lidt vanskeligere at finde den samme afklemning hver gang. Du kan dog selv lave en markering på de hvide bånd, hvis du mener at have fundet en passende afklemning.
 
 Bodylabs straps - særligt til benene - er ret smalle, hvilket kan betyde, at de skal strammes ret meget for at opnå en passende afklemning.
 
-Du kan købe en [træningspakke til okklusionstræning hos Bodylab](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/occlusion-training-bands-2550p.html) for omkring 300 kroner.
+Du kan købe en [træningspakke til okklusionstræning hos Bodylab](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/occlusion-training-bands-2550p.html){: rel='sponsored nofollow noopener' } for omkring 300 kroner.
 
 {% include feature_row id="feature_row_bodylab" type="right" %}
 
 ### BfR Professional okklusionsstropper
 
-BfR startede med udelukkende at lave udstyr til okklusionstræning. Båndene til armene er kun 3 cm brede, da [BfR\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=59415&htmlurl=https://bfrpro.com/products/bfr-professional-arms) skriver <q>to avoid annoying the sin or pressing into the working muscles</q>. Når okklusionsstrappen til overkroppen er så smal, så skal den imidlertid strammes ekstra for at give en passende afklemning. Der er nogle små spænder på manchetten til overkroppen, som kan nive lidt i huden, men det kan klares med en t-shirt inden under. 
+BfR startede med udelukkende at lave udstyr til okklusionstræning. Båndene til armene er kun 3 cm brede, da [BfR](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=59415&htmlurl=https://bfrpro.com/products/bfr-professional-arms){: rel='sponsored nofollow noopener' } skriver <q>to avoid annoying the sin or pressing into the working muscles</q>. Når okklusionsstrappen til overkroppen er så smal, så skal den imidlertid strammes ekstra for at give en passende afklemning. Der er nogle små spænder på manchetten til overkroppen, som kan nive lidt i huden, men det kan klares med en t-shirt inden under.
 
 Benmanchetterne er lidt anderledes og minder lidt om knæbind, som skal flere gange rundt om benene.
 
 Selve elastikken er lavet af en blanding af polyester og latex. Du lukker okklusionsbåndet med velcro ligesom Bodylabs.
 
-BFR har også nogle [_straps_ af læder\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=59415&htmlurl=https://bfrpro.com/collections/store/products/more-rep-leather-lifting-strap), som jeg synes er meget fede, hvis du vælger at købe okklusionsstropperne hos BfR Professional.
+BFR har også nogle [_straps_ af læder](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=59415&htmlurl=https://bfrpro.com/collections/store/products/more-rep-leather-lifting-strap){: rel='sponsored nofollow noopener' }, som jeg synes er meget fede, hvis du vælger at købe okklusionsstropperne hos BfR Professional.
 
-Du kan købe en [fuld træningspakke\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=59415&htmlurl=https://bfrpro.com/collections/store/products/complete-pack-2-workout-program) med to stropper til armene og to stropper til benene for under 600 kroner. 
+Du kan købe en [fuld træningspakke](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=59415&htmlurl=https://bfrpro.com/collections/store/products/complete-pack-2-workout-program){: rel='sponsored nofollow noopener' } med to stropper til armene og to stropper til benene for under 600 kroner.
 
 {% include feature_row id="feature_row_bfr" type="right" %}
 
 ### Fitness Institute
 
-Fitness Institute som bl.a. drives af Henrik Duer og uddanner personlige trænere har også lavet nogle okklusionsstraps. Stropperne ser ud til at have en god bredde, når et af kriterierne er at kigge på bredden af stropperne. 
+Fitness Institute som bl.a. drives af Henrik Duer og uddanner personlige trænere har også lavet nogle okklusionsstraps. Stropperne ser ud til at have en god bredde, når et af kriterierne er at kigge på bredden af stropperne.
 
-Okklusionsstropperne fra klarer sig også rigtig godt i Maxers anmeldelse af båndene. Du kan få et [komplet sæt til arm- og bentræning](https://www.kaatsu.dk/webshop.html#!/products/okklusions-stropper-i-s%C3%A6t-til-arme-ben) for omkring 350 kroner.
+Okklusionsstropperne fra klarer sig også rigtig godt i Maxers anmeldelse af båndene. Du kan få et [komplet sæt til arm- og bentræning](https://www.kaatsu.dk/webshop.html#!/products/okklusions-stropper-i-s%C3%A6t-til-arme-ben){: rel='nofollow noopener' } for omkring 350 kroner.
 
 {% include feature_row id="feature_row_fitnessinstitute" type="right" %}
 
@@ -182,9 +182,9 @@ Okklusionsstropperne fra klarer sig også rigtig godt i Maxers anmeldelse af bå
 
 Jacob Beermann konkluderer, at alle de forskellige mærker fungerer udmærket, og at du med alle stropperne kan udføre okklusionstræning på en tilfredsstillende måde.
 
-Uanset hvilken du vælger så skal du huske at tage højde for de risici, der er ved at lave okklusionstræning. Det kan du læse mere om i [begynderguiden til okklusionstræning](//).
+Uanset hvilken du vælger så skal du huske at tage højde for de risici, der er ved at lave okklusionstræning. Det kan du læse mere om [begynderguiden til okklusionstræning]({% link _posts/2021-01-30-okklusion-vol1.md %}).
 
-## Udstyr med manuel pumpe
+## Udstyr med manuel pumpe til okklusionstræning
 
 Hvis du gerne vil lave okklusionstræning, så foretrækker jeg selv pumpebaseret okklusionsudstyr. Der er lidt forskellige leverandører i Danmark.
 
@@ -197,7 +197,7 @@ Deres cuffs er ret smalle (5 cm) så hvis man skal foretage en reel AOP måling 
 
 Jeg har kun erfaring med udstyret fra Occlude, som vi bruger på Vejle Idrætshøjskole. Til gengæld er mine erfaringer rigtig gode. Min oplevelse er, at Occlude er rigtig gode til at fortælle, hvad okklusionstræning kan, og særligt hvad det ikke kan.
 
-Udstyret fra Occlude er udformet konisk, så det har en god pasform rundt omkring armene og benene. Det betyder, at der er brug for et mindre tryk - og i det hele taget virker udstyret til at have rigtig høj kvalitet. 
+Udstyret fra Occlude er udformet konisk, så det har en god pasform rundt omkring armene og benene. Det betyder, at der er brug for et mindre tryk - og i det hele taget virker udstyret til at have rigtig høj kvalitet.
 
 Hvis du skal i gang med okklusionstræning, så kan du måske godt nøjes med okklusionsstropper. Men hvis du skal stå for okklusionstræning for andre, så vil jeg helt sikkert vælge pumpebaseret okklusionsudstyr, så man bedre kan kontrollere det nøjagtige tryk og derved afklemningen.
 
@@ -213,7 +213,7 @@ Du kan naturligvis godt nøjes med en strap, men hvis du gerne vil bruge okklusi
 
 Der er altså flere forskellige muligheder, når du skal vælge udstyr til okklusionstræning. Hvis du vælger ‘praktisk’ okklusionstræning, så vær opmærksom på, at det **ikke** er objektivt muligt at bestemme graden af afklemning.
 
-Derfor vurderes graden af afklemning subjektivt på en perceived tightness scale fra 1-10. Denne metode er videnskabeligt efterprøvet af [Bell et al (2019)](https://pubmed.ncbi.nlm.nih.gov/31553951/) og har vist sig ikke at være pålidelig. 
+Derfor vurderes graden af afklemning subjektivt på en perceived tightness scale fra 1-10. Denne metode er videnskabeligt efterprøvet af [Bell et al (2019)](https://pubmed.ncbi.nlm.nih.gov/31553951/) og har vist sig ikke at være pålidelig.
 
 Særligt hvis du skal lave okklusionstræning for andre, så vil jeg anbefale at bruge udstyr, hvor du kan regulere og individualisere det individuelle arterielle okklusionstryk (AOP). Det gør det muligt at monitorere okklusionstræningen. Der giver det rigtig god mening at bruge pumpebaseret udstyr ([Patterson og Brandner 2018](https://pubmed.ncbi.nlm.nih.gov/28143359/) og [Vanwye et al 2017](https://pubmed.ncbi.nlm.nih.gov/28966705/)).
 

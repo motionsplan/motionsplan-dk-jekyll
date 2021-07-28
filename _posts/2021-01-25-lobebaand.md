@@ -22,6 +22,7 @@ feature_row_draxfit:
     price: 43895
     btn_class: btn--info
     vendor: Fitnessgruppen
+    rel: sponsored nofollow noopener
 feature_row_apuls:
   - image_path: https://m2.apuls.dk/media/catalog/product/L/H/LHR510_1.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=39091&htmlurl=https://apuls.dk/gymleco-lhr510-curve-lobebaand
@@ -30,6 +31,7 @@ feature_row_apuls:
     price: 44999
     btn_class: btn--success
     vendor: Apuls
+    rel: sponsored nofollow noopener
 feature_row_toorx:
   - image_path: https://fitnessshoppen.dk/images/TRX%2045-p.png
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=74937&htmlurl=https://fitnessshoppen.dk/shop/toorx-trx-45-61587p.html
@@ -39,6 +41,7 @@ feature_row_toorx:
     old_price: 7999
     btn_class: btn--danger
     vendor: Fitnessshoppen
+    rel: sponsored nofollow noopener
 feature_row_odin:
   - image_path: https://apuls.dk/img/900/900/resize/Y/K/YKET1601A_1.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/t8-lobebaand
@@ -47,6 +50,7 @@ feature_row_odin:
     price: 14000
     btn_class: btn--success
     vendor: Apuls
+    rel: sponsored nofollow noopener
 ---
 
 Jeg skal købe et nyt løbebånd, og jeg er i gang med at researche, hvilken type løbebånd, jeg skal købe. Jeg har samlet min research til en guide til at købe et løbebånd. Skal løbebåndet have motor, skal det være kurvet og hvad kan man tænke på, inden man investerer i et løbebånd?
@@ -56,7 +60,7 @@ Du skal i hvert fald stille dig selv følgende spørgsmål, inden du overvejer, 
 - Hvor meget plads har jeg til løbebåndet?
 - Hvor højt har jeg til loftet?
 - Hvad skal løbebåndet bruges til - hvad er min erfaring og behov?
- 
+
 Når du kigger på løbebånd, så skal du også tage stilling til følgende:
 
 - Skal det være med eller uden motor?
@@ -84,7 +88,7 @@ Formålet med denne guide er hovedsageligt at vise dig, hvad du skal holde øje 
 
 Når man taler om løbebånd, så er der to særlige typer. Du kan få et **kurvet løbebånd** uden motor, men hvor du selv genererer farten, når du træder ned på båndet. Den anden type er et **motoriseret løbebånd**, hvor du stiller farten på løbebåndets computer. På mange af de motoriserede løbebånd, kan du også stille hældningen, og de har forskellige programmmer.
 
-[Schoenmakers og Reed (2018)](https://www.jsams.org/article/S1440-2440(18)30145-2/fulltext) undersøgte 13 mandlige løbere, der kunne løbe 5 kilometer på under 20 meter. Løberne skulle løbe fire gange over to uger. Første gang var løb på et almindelig motoriseret løbebånd med 1% hældning til udmattelse for at finde maxpuls, hastighed og maksimal iltoptagelse.
+[Schoenmakers og Reed (2018)](https://www.jsams.org/article/S1440-2440(18)30145-2/fulltext) undersøgte 13 mandlige løbere, der kunne løbe 5 kilometer på under 20 meter. Løberne skulle løbe fire gange over to uger. Første gang var løb på et almindelig motoriseret løbebånd med 1% hældning til udmattelse for at finde maxpuls, hastighed og [maksimal iltoptagelse]({% link _posts/2019-11-03-intensiteten-og-vo2max.md %}).
 
 Løbebåndet var sat på 1% hældning, fordi man i studier har fundet, at hældningen på løbebåndet kan simulere iltforbruget, som bruges på at løbe på almindelig landevej ([Jones og Doust 1996](http://www.ncbi.nlm.nih.gov/pubmed/8887211)).
 
@@ -92,7 +96,7 @@ Den anden tur på løbebånd var på et kurvet løbebånd for at vænne sig til 
 
 På de to sidste forsøgsgange skulle de løbe samme protokol på hhv. et motoriseret og et kurvet løbebånd uden motor. På det sidste minut af hvert interval målte forskerne løbernes iltoptagelse, [respiratoriske udvekslingskvotient (RER)]({% link _posts/2020-08-08-respiratoriske-kvotient.md %}) og pulsen, og forskerne spurgte også efter Rate of Perceived Exertion (altså en værdi på intensitetsskalaen, som ligner [Borg-skalaen]({% link _posts/2020-06-18-borg-skala.md %})).
 
-Studiet viste at løberne bruger 30 procent mere energi på den kurvede, ikke-motoriserede løbebånd. 
+Studiet viste at løberne bruger 30 procent mere energi på den kurvede, ikke-motoriserede løbebånd.
 
 > The runners perceived they were working an average of 27 percent harder when they ran on the curved treadmill, and physiologically, their symptoms matched: They consumed an average of 32 percent more oxygen and had 16 percent higher heart rates, 2.5 percent higher running cadence, and 38 percent worse running economy than when they ran at equivalent speeds on the motorized treadmill.
 
@@ -141,7 +145,7 @@ Du skal naturligvis også kigge på, hvor hurtigt løbebåndet kan køre, hvis d
 
 Hvis du skal have løbebåndet stående et sted med lavt til loftet, så skal du huske at tage højde for løbebåndets højde. De fleste løbebånd er i hvert fald 20 centimeter høje (generelt ligger højden mellem 15-23 centimeter). Dertil skal du lægge mindst 5-10 centimeter til højden på de personer, der skal bruge løbebåndet. Du skal huske at du har en svævefase, når du løber, hvor du vil være lidt højere oppe end båndet, men det er også rart ikke at være bekymret for at slå hovedet op i loftet for hvert skridt.
 
-De fleste løbebånd er mellem 160 cm til 200 cm i længden. Nogle løbebånd kan foldes sammen, men det kommer naturligvis stadig til at fylde en del, når det skal opbevares. 
+De fleste løbebånd er mellem 160 cm til 200 cm i længden. Nogle løbebånd kan foldes sammen, men det kommer naturligvis stadig til at fylde en del, når det skal opbevares.
 
 ## Løbefladen på løbebåndet er vigtig
 
@@ -169,7 +173,7 @@ Gennemsnitligt vejer de mindre og billigere løbebånd mellem 80 og 115 kg, mens
 
 ## Kan et løbebånd stå udenfor?
 
-Et løbebånd kan ikke stå udenfor. Du kan selvfølgelig godt sætte det udenfor, men det kan ikke tåle fugt, så det danske vejr vil lynhurtigt begynde at tære på de enkelte maskindele. Det kan du ikke fikse med lidt silikonespray. Det samme gælder ved at sætte løbebåndet i et uisoleret skur, hvor løbebåndet hurtigt vil gå til stille og roligt. 
+Et løbebånd kan ikke stå udenfor. Du kan selvfølgelig godt sætte det udenfor, men det kan ikke tåle fugt, så det danske vejr vil lynhurtigt begynde at tære på de enkelte maskindele. Det kan du ikke fikse med lidt silikonespray. Det samme gælder ved at sætte løbebåndet i et uisoleret skur, hvor løbebåndet hurtigt vil gå til stille og roligt.
 
 ## Konklusion om løbebånd
 

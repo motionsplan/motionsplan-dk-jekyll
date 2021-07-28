@@ -1,5 +1,7 @@
 ---
-title: &title "Balancetræning 🤸: Effektiv træning af din balance [2021]"
+title: &title "Balancetræning 🤸: Effektiv træning af din balance"
+seo_title: "Balancetræning - Alt om balance og balanceøvelser [2021] »"
+description: "Balancetræning bør være en del af din træning. Vi har kigget på, hvad balance er, og hvordan du træner din balance mest effektivt med balanceøvelser?"
 permalink: /balance/
 language: da
 header:
@@ -14,7 +16,7 @@ category:
 last_modified_at: 2021-02-18T08:39:32Z
 ---
 
-Balancetræning bør være en del af din træning, da træning af balance forebygger skader. Vi har kigget på, hvad balance er for noget, og hvordan du træner din balance mest effektivt?
+Balancetræning bør være en del af din træning, da træning af balance forebygger skader. Vi har kigget på, hvad balance er, og hvordan du træner din balance mest effektivt med balanceøvelser?
 
 Hvad er balance? **Balance er en motorisk færdighed, som kan trænes. Balance omfatter evnen til at opretholde en ligevægtstilstand i kroppen, mens man er stationær eller i bevægelse. Balance handler altså om at kunne stå eller sidde stille eller bevæge sig uden at falde.**
 
@@ -57,13 +59,15 @@ Hvis du har en dårlig balanceevne, så skyldes det **ofte mangel på træning**
 
 > In order to improve balance, what we’ve seen in research is that you need to spend somewhere between maybe seven and 10 minutes, three times a week, working through these different variations. If you can do that, it will have big benefits for you, not only in safety, as you move through the world, but usually we see great improvements as well in generalized athleticism.
 
-— <cite>[Dr. Eric Cobb](https://zhealtheducation.com/episode-200-quickly-improve-balance-part-1/), Z-health</cite>
+— <cite>[Dr. Eric Cobb](https://zhealtheducation.com/blog/episode-200-quickly-improve-balance-part-1/), Z-health</cite>
+
+Jeg synes selv både [episode 1](https://zhealtheducation.com/blog/episode-200-quickly-improve-balance-part-1/) og [episode 2](https://zhealtheducation.com/blog/episode-201-quickly-improve-balance-part-2/) om, hvordan man hurtigt forbedre sin balance af Eric Cobb fra Z-health er lærerige at kigge på.
 
 ## Balancetræning og specificitet og ustabile underlag
 
-Hrysomallis (2011) og Kiers et al (2013) fandt i deres _reviews_, at forbedret balance ser ud til at hænge sammen med atletisk præstation og en nedsat risiko for skader, men med balancetræning gælder formentlig også **princippet om specificitet**. 
+Hrysomallis (2011) og Kiers et al (2013) fandt i deres _reviews_, at forbedret balance ser ud til at hænge sammen med atletisk præstation og en nedsat risiko for skader, men med balancetræning gælder formentlig også **princippet om specificitet**.
 
-Kummel et al (2017) lavede et _systematisk review_ og en meta-analyse af rollen for balancetræning i raske, almindelige mennesker. De fandt i studiet, at balancetræning har positiv effekt på de trænede opgaver, men at der ikke nødvendigvis var en _carryover_-effekt til utrænede balanceopgaver. 
+Kummel et al (2017) lavede et _systematisk review_ og en meta-analyse af rollen for balancetræning i raske, almindelige mennesker. De fandt i studiet, at balancetræning har positiv effekt på de trænede opgaver, men at der ikke nødvendigvis var en _carryover_-effekt til utrænede balanceopgaver.
 
 Jeg er opvokset med, at få opgaver på vippebræt eller BOSU-bolde for at skabe et ustabilt underlag, så der vil komme endnu mere aktivitet nervesystemets proprioceptorer. **Men virker træning på ustabile underlag for balancen i andre opgaver?**
 
@@ -80,6 +84,8 @@ Balanceevnen påvirkes af dine øjne, ører og sanseorganerne i led og muskler. 
 - **synet**
 
 Det er rigtig godt at have en viden om alle disse systemer, hvis du skal planlægge balancetræning.
+
+Jeg har skrevet et indlæg om [synstræning for fodboldspillere på legestue.net](https://www.legestue.net/synet/).
 
 ### Det proprioceptive system
 
@@ -110,11 +116,11 @@ Du kan også tage alle de muligheder, der byder sig i løbet af hverdagen for at
 
 ## Hvor kan man træne balancetræning?
 
-Balancetræning er heligvis let at implementere, fordi du er dit eget træningsredskab. Man behøver **ingen redskaber** for at kunne træne balance effektivt og udfordrende.
+Balancetræning er heldigvis let at implementere, fordi du er dit eget træningsredskab. Du behøver **ingen redskaber** for at kunne træne balance effektivt og udfordrende.
 
 Det har været meget populært at introducere redskaber som BOSU-bolde og vippebræt til balancetræningen, og selvom det kan være sjovt at udfordrende at træne på de redskaber, så giver det formentlig ikke nogen effekt i forhold til de situationer, hvor du har brug for din balance i hverdagen eller i din idræt. Når du træner på redskaber, så bliver du bedre til at holde balancen på redskaberne - og får en større bevægelseserfaring - men husk princippet om specificitet.
 
-## Hvem kan træne balancetræning?
+## Hvem kan træne balancetræning og balanceøvelser?
 
 **Balancetræning er for alle**. Det handler om, hvordan du tilrettelægger træningen. Måske skal du starte med at få lidt støtte ved fx at holde i en stol eller læne dig op ad væggen. Efterhånden vil balancen blive bedre, og du kan udnytte nogle af de variationsmuligheder, vi har beskrevet i dette indlæg. Selv dygtige balancekunstnere burde finde udfodringer i de lidt mere avancerede udgaver af balanceøvelserne.
 
@@ -185,7 +191,7 @@ Hvis du vil teste din balance med [Star Excursion Balance Test](https://www.scie
 
 {% include figure image_path="https://www.researchgate.net/profile/Phillip_Gribble/publication/230670854/figure/fig2/AS:667829586112512@1536234389132/Reaching-directions-for-the-Star-Excursion-Balance-Test.png" caption="Der er 8 retninger i stjernemønsteret, og du skal udføre øvelsen på begge ben. Kilde: [Gribble et al (2012)](https://www.researchgate.net/publication/230670854_Using_the_Star_Excursion_Balance_Test_to_Assess_Dynamic_Postural-Control_Deficits_and_Outcomes_in_Lower_Extremity_Injury_A_Literature_and_Systematic_Review)" %}
 
-Din udgangsstilling for testen er med hænderne i siden. Du stiller dig på en fod i midten af stjernemønsteret. Opgaven er at støtte så langt væk fra standbenet som muligt med det andet ben. 
+Din udgangsstilling for testen er med hænderne i siden. Du stiller dig på en fod i midten af stjernemønsteret. Opgaven er at støtte så langt væk fra standbenet som muligt med det andet ben.
 
 Jo længere afstanden er fra midten af stjernen og ud til støttestedet, desto bedre har du klaret testen.
 
@@ -257,11 +263,11 @@ Yoga Tree Pose er en rigtig god balanceøvelse på et ben. Den kan godt være li
 
 {% include video provider="youtube" id="wdln9qWYloU" %}
 
-Øvelsen kræver smidighed i hoften og skuldrene, hvis du skal lave den helt som det er hensigten. Hvis du er rigtig bevægelig, så kan du få det løftede ben helt sammenlukket og udadroteret, men du kan starte med mindre. 
+Øvelsen kræver smidighed i hoften og skuldrene, hvis du skal lave den helt som det er hensigten. Hvis du er rigtig bevægelig, så kan du få det løftede ben helt sammenlukket og udadroteret, men du kan starte med mindre.
 
 **Udgangssstillingen** er at stå på en fod. Gør dig lang, mens du holder hele kroppen i balance. Bøj det frie ben og sæt foden så højt op på standbenets inderlår som muligt. Knæet på det frie ben skal pege udad, så sørg for at åbne op i hoften. Armene strækkes lidge op med håndfladerne mod hinanden. Hold balancen så længe som muligt. Start fx med 20 sekunder, men arbejd op til et minut eller længere. Gentag på det andet ben.
 
-## Balance og stabilitet med modstand (Pertubationstræning)
+## Balanceøvelser og stabilitet med modstand (Pertubationstræning)
 
 [Marina Aagaard](http://marinaaagaardblog.com/2015/05/27/traening-af-balance-og-stabilitet-pertubationstraening/) har skrevet et glimrende indlæg om balancetræning, hvor man skal holde balance i forhold til udefrakommende påvirkninger.
 
@@ -269,7 +275,7 @@ En god balance og stabilitet er evnen til at være stabil i alle stillinger og k
 
 **Pertubationstræning** er en udvidet måde at arbejde med sin balance på. Pertubation betyder noget i retning af at 'bringe i uorden og forstyrre', og ifølge Den Store Danske betyder pertubation 'mindre, forstyrrende effekt i et fysisk system i ligevægt'.
 
-Pertubationstræning er en videreudvikling af andre balanceøvelser, hvor man skal reagere på udefrakommende påvirkninger. En progression i pertubationstræningen kan være, at du efterhånden gør de udefrakommende påvirkninger mere eller mindre overraskende 
+Pertubationstræning er en videreudvikling af andre balanceøvelser, hvor man skal reagere på udefrakommende påvirkninger. En progression i pertubationstræningen kan være, at du efterhånden gør de udefrakommende påvirkninger mere eller mindre overraskende
 
 Sommetider arbejder man med:
 
@@ -285,9 +291,9 @@ Marina Aagaard foreslår bl.a. følgende balanceøvelser efter pertubationsprinc
 - Stå på balancebræt eller luftpude. En ven træder på luftpuden eller balancebrættet (set el. uset).
 - Sid eller knæl på stor bold. Træner puffer til bolden eller person (set el. uset).
 
-## Opsamling på balance og balancetræning
+## Opsamling på balance, balanceøvelser og balancetræning
 
-Det er bare at komme lidt i gang med balancetræning. Jeg har i dette indlæg defineret, hvad balance og balancetræning er. Desuden har jeg oplistet en lang række øvelser, som kan være med til at træne din posturale kontrol, balance og kropsbeherskelse. 
+Det er bare at komme lidt i gang med balancetræning. Jeg har i dette indlæg defineret, hvad balance og balancetræning er. Desuden har jeg oplistet en lang række øvelser, som kan være med til at træne din posturale kontrol, balance og kropsbeherskelse.
 
 Hvad er **fordelene** ved balancetræning?
 
@@ -299,7 +305,7 @@ Hvad er **fordelene** ved balancetræning?
 
 God balancetræning! Brug endelig kommentarerne, hvis du har flere gode forslag til øvelser til at træne balancen.
 
-## Referencer til balance
+## Referencer til balance og balanceøvelser
 
 <details markdown="1">
   <summary>Se flere referencer om {{ page.title }}</summary>

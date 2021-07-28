@@ -20,22 +20,25 @@ feature_row:
     title: "Badevægt med fedtprocent måler"
     excerpt: "Denne badevægt kan måle både vægt, fedtprocent, BMI, væskeandel og knoglemasse. Man kan oprette analyser for 8 personer, og dermed kan hele familien nøjes med denne ene vægt. Denne vægt er formentlig ikke valideret og er langt fra så præcis, som de andre præsenteret i denne artikel."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=21411&htmlurl=https://shop.getbig.dk/badevaegt-i-luksuskvalitet"
-    btn_label: "Tjek pris*"
+    btn_label: "Tjek pris"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
   - image_path: https://www.fotoagent.dk/single_picture/11803/138/custom1/tanita_dc_360_p_avec_colonne_analyseur_de_masse_co.jpg
     alt: "Tanita DC 360P Kropsanalysevægt"
     title: "Tanita DC 360P Kropsanalysevægt"
     excerpt: "Med en Tanita DC 360P kropsanalysevægt er du garanteret præcise og nøjagtige resultater. På blot 15 sekunder er det muligt at få en fuld kropsanalyse og måle din fedtprocent."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/tanita-dc-360p-kropsanalysevaegt/"
-    btn_label: "Tjek pris*"
+    btn_label: "Tjek pris"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
   - image_path: https://www.fotoagent.dk/single_picture/11803/138/mega/Tanita_MC780_full(1).jpg
     alt: "Tanita MC 780 P MA"
     title: "Tanita MC 780 P MA"
     excerpt: "Tanita MC 780 P MA, er en interaktiv maskine til at måle fedtprocent, hvilket gør at vægten er nemt at benytte. Med det todelte display, kan du nemt overskue den målte og beregnede data."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/tanita-mc-780-p-ma/"
-    btn_label: "Tjek pris*"
+    btn_label: "Tjek pris"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 ---
 
 Interesse for at måle din fedtprocent er steget, så jeg har forsøgt at samle op på, hvordan man kan måle sig fedtprocent. Hvilke metoder findes der til at måling af sin fedtprocent?
@@ -68,11 +71,23 @@ Der er følgende sundshedsmæssige udfordringer ved **ikke** at have en passende
 
 Der er altså mange grunde til at have en passende fedtprocent.
 
+{% endcomment %}
+
 ## Hvordan måler man sin fedtprocent? 7 metoder!
 
 Der er mange måder at måle fedtprocent på. De fleste er desværre relativt unøjagtige. Du skal overveje meget nøje, hvilket tal du reelt ender med, når du får målt din fedtprocent, og hvordan du vil bruge dette tal.
 
 Det er sandsynligt, at du kan bruge metoderne over tid til at _tracke_, hvordan det går med din fedtprocent og kropskomposition i det hele taget, men det er usandsynligt, at du kan bruge tallene til at sammenligne med andre.
+
+{% assign site_posts = site.posts | where: "category", "Test" | where: "tags", "kropskomposition" |where_exp: "post", "post.url != page.url" | sort: "date" %}
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}
+
+{% comment %}
 
 De mest nøjagtige målinger af fedtprocent er ikke tilgængelige for almindelige mennesker.
 
@@ -88,7 +103,7 @@ For den almindelige fitnessudøver så kan følgende være muligheder for at få
 
 - **Udregning af fedtprocent**. Der findes nogle formler, hvor du kan udregne din fedtprocent. Formlerne er imidlertid behæftet med stor usikkerhed, og de kan ikke stå alene. Jeg har lavet en [beregner som kan udregne fedtprocenten på baggrund af højde, vægt, alder og køn]({% link _posts/2008-10-30-udregning-af-fedtprocent.md %}).
 
-- **Bestemmelse af fedtprocent med målebånd**. Der findes også en række forslag til, hvordan man kan bestemme fedtprocenten ved at måle sig selv med et målebånd forskellige steder på kroppen. Fælles for alle metoderne er, at der er lige så meget usikkerhed om det faktiske resultat som at udregne fedtprocenten. 
+- **Bestemmelse af fedtprocent med målebånd**. Der findes også en række forslag til, hvordan man kan bestemme fedtprocenten ved at måle sig selv med et målebånd forskellige steder på kroppen. Fælles for alle metoderne er, at der er lige så meget usikkerhed om det faktiske resultat som at udregne fedtprocenten.
 
 {% endcomment %}
 
@@ -125,8 +140,12 @@ _Data fra Howley and Franks: Health/Fitness Instructor's Handbook, Human Kinetic
 
 Oversat til en grafik baseret på alder kan det se sådan her ud:
 
-{% include figure image_path="https://4.bp.blogspot.com/-nOLwVUh5HaQ/XUuHz1AD3PI/AAAAAAAAStE/HWTJneEhKDElIU_yvxsKezZjh6D3Z_frQCLcBGAs/s1600/BodyFatRangeChartLarge.jpg" caption="Fedtprocent for voksne mænd og kvinder baseret på WHO [BMI](/bmi/) guidelines" alt="Hvordan måler jeg min fedtprocent? Fedtprocent for mænd og kvinder" %}
+{% include figure image_path="https://4.bp.blogspot.com/-nOLwVUh5HaQ/XUuHz1AD3PI/AAAAAAAAStE/HWTJneEhKDElIU_yvxsKezZjh6D3Z_frQCLcBGAs/s1600/BodyFatRangeChartLarge.jpg" caption="Fedtprocent for voksne mænd og kvinder baseret på WHO [BMI](/bmi/) guidelines ([Gallagher 2000](https://www.researchgate.net/publication/12354988_Healthy_percentage_body_fat_ranges_An_approach_for_developing_guidelines_based_on_body_mass_index))" alt="Hvordan måler jeg min fedtprocent? Fedtprocent for mænd og kvinder" %}
 
 ## Mere om at måle fedtprocent
 
 Jeg har skrevet et indlæg om [forskellige måder at anskue kropskomposition på]({% link _posts/2019-10-14-kropskomposition.md %}), som måske kan inspirere til at få et endnu mere nuanceret billede på, hvad fedtprocent er. Der kan du også læse om endnu flere metoder til at måle kropskomposition med.
+
+Når nu det er så vanskeligt nøjagtigt at bestemme den nøjagtige fedtprocent, så skal du altså ikke skynde dig på [slankekur]({% link _posts/2020-09-04-slankekur.md%}) på baggrund af fedtprocentmålinger og fedtprocentberegninger uden at være helt sikker på, at du har en udfording med din fedtprocent.
+
+Hvis du vil dykke lidt mere ned i emnet om fedtprocent og vægt, så tjek mit omfattende indlæg om [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}), og hvordan man fortolker det.

@@ -12,6 +12,7 @@ category:
 tags:
   - muskler
   - muskelfibre
+  - træningslære
 last_modified_at: 2020-06-03T08:14:14Z
 toc: true
 gallery:
@@ -33,7 +34,7 @@ Generelt findes der tre muskelfibertyper:
 - **IIA**. Fast Twitch. Hurtige fibre.
 - **IIX** (blev tidligere kaldt IIB). Fast Twitch. Hurtige muskelfibre. Hvide fibre.
 
-De fleste mennesker har 40-70 % røde muskelfibre, mens resten er type IIa og IIx. 
+De fleste mennesker har 40-70 % røde muskelfibre, mens resten er type IIa og IIx.
 
 ## Sammenligning af muskelfibertyper
 
@@ -51,7 +52,7 @@ Type II A fibrene kaldes også _fast twitch_ og er hurtige fibre, der stadig har
 
 Type II A fibre er også rødlige, har en høj kapacitet for at generere ATP gennem oxidative processer, hvor ATP skabes relativt hurtigt. Type IIa trækker sig hurtigt sammen, og de re relativt resistente til træthed.
 
-## Type IIX --- hurtige glykolytiske muskelfibre  
+## Type IIX --- hurtige glykolytiske muskelfibre
 
 Type IIX (er også tidligere blevet kaldt type IIB) kaldes også _fast twitch_ eller hurtige glykolytiske fibre. De har ikke så meget myoglobin, relativt få mitokondrier og relativt få kapillærer. Til gengæld har type IIx muskelfibrene relativt stor mængder glykogen.
 
@@ -83,11 +84,11 @@ Den følgende tabel er en bearbejdelse af Honeybourne et al. (1996):
 
 ## Fiberfordelingen i skeletmuskulaturen
 
-De fleste muskler indeholder alle tre fibertyper, men fordelingen varierer i de  forskelige muskler, men også for forskellige mennesker. 
+De fleste muskler indeholder alle tre fibertyper, men fordelingen varierer i de  forskelige muskler, men også for forskellige mennesker.
 
 De posturale muskler som hele tiden er i aktivitet i nakken, ryggen og benene har en større procentdel af type I fibre. Musklerne i skuldrene og armene har typsk en højere andel af de hurtige fibre, fordi de typisk skal bruges til eksplosive bevægelser i løft eller kast.
 
-Selvom alle muskler indeholder forskellige fibertyper, så er fibertypen i den enkelte _motor unit_ den samme. Nervesystemet kan styre hvilke muskelfibre, der bliver trukket sammen i forhold til det _aktionspotentiale_, der sendes afsted, fordi de enkelte _motor units_ har forskellige tærskelværdier. 
+Selvom alle muskler indeholder forskellige fibertyper, så er fibertypen i den enkelte _motor unit_ den samme. Nervesystemet kan styre hvilke muskelfibre, der bliver trukket sammen i forhold til det _aktionspotentiale_, der sendes afsted, fordi de enkelte _motor units_ har forskellige tærskelværdier.
 
 Hvis du kun har behov for at yde en lille kraft, så aktiveres kun de udholdende langsomme fibre. Hvis du derimod har brug for at yde høj kraft, så bliver type IIA og IIX fibrene også aktiveret.
 
@@ -120,7 +121,7 @@ Hvis du komer fra en stor træningsmængde, så kan du udnytte dette boost. Mort
 
 Muskulaturens areal udgøres nu af en større procentdel af type II-fibre, fordi den type hovedsageligt er vokset med den tunge, eksplosive træning. Og den bratte reduktion af træningsmængden giver os en højere andel af type IIX igen. Hvor lang tid transformationen tager, mangler der fortsat forskning på.
 
-**IIA → I?**. Der forskes stadig i, om type I kan ændres til type II og omvendt. Flertallet af studier tyder på, at man ikke grundlæggende kan ændre på sin fordeling mellem type I og type II fibre. Hvis du er født med en højere andel af type I, så bliver du aldrig en rigtig hurtig sprinter. Hvis du er født med en høj andel af type II, så bliver du aldrig den hurtigste maratonløber. 
+**IIA → I?**. Der forskes stadig i, om type I kan ændres til type II og omvendt. Flertallet af studier tyder på, at man ikke grundlæggende kan ændre på sin fordeling mellem type I og type II fibre. Hvis du er født med en højere andel af type I, så bliver du aldrig en rigtig hurtig sprinter. Hvis du er født med en høj andel af type II, så bliver du aldrig den hurtigste maratonløber.
 
 ## Kend din egen fibertypesammensætning?
 

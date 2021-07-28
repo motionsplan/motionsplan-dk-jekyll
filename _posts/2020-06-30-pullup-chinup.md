@@ -1,6 +1,6 @@
 ---
 title: &title "Pull ups vs chin ups: Hvad er forskellen på kropshævninger?"
-seo_title: "Chin ups og pull ups 💪 Alt om forskelle i greb og muskler"
+seo_title: "Chin ups og pull ups - Alt om forskelle i greb og muskler »"
 description: "Chin ups og pull ups er to typer kropshævninger. Få svar på forskelle og ligheder i greb, muskler og bevægelser, når du laver en chinup og en pullup."
 permalink: /chinup-vs-pullup/
 language: da
@@ -13,8 +13,8 @@ category:
   - Styrketræning
 tags:
   - styrketræning
-  - muskler
   - skulder
+  - styrketræningsøvelser
 last_modified_at: 2021-01-11T08:14:14Z
 toc: true
 feature_row:
@@ -22,17 +22,19 @@ feature_row:
     alt: "Fitwood Pullupbar"
     excerpt: "FitWood Trollveggen dørribbe er en multifunktionel chin-up/pull-up bar i lækkert scandinavisk design."
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=39091&htmlurl=https://apuls.dk/fitwood-trollveggen-dorribbe-hvid
-    btn_label: "Pris hos Apuls*"
+    btn_label: "Køb her"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
   - image_path: https://apuls.dk/img/900/900/resize/A/p/Apuls0136_1.jpg
     alt: "cPro9 Pullupbar"
-    excerpt: "cPro9 Pull Up Bar til dør, som er let monteres i en døråbning. Baren giver dig mange forskellige muligheder for greb."
+    excerpt: "cPro9 Pull Up Bar til dør, som er let monteres i en døråbning. Baren giver dig mange forskellige muligheder for greb til chinups og pullups."
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=39091&htmlurl=https://apuls.dk/cpro9-pullup-bar-m-baelte-i-laeder-pakketilbud
-    btn_label: "Pris hos Apuls*"
+    btn_label: "Køb her"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 ---
 
-Pull ups og chinups er en fast del af min træning, og jeg synes alle bør mestre en kropshævning. Men hvad er forskellen egentlig på chinups og pullups?
+Pull ups og chin ups er en fast del af min træning, og jeg synes alle bør mestre en kropshævning. Men hvad er forskellen egentlig på chinups og pullups?
 
 Hvad er pull ups og chin ups? **Pull ups er kropshævninger med overhåndsgreb og chinups er kropsæhævninger med underhåndsgreb. Begge øvelser kan laves i forskellige variationer med forskellige bredder af greb. Kropshævninger træner den brede rygmuskel og armbøjerne.**
 
@@ -68,15 +70,15 @@ Men pullups og chinups er ikke det samme. Der er et par forskelle på de to øve
 || Chinup | Pullup |
 |-|-|-|
 | Greb | Underhånd (supineret) | Overhånd (proneret) |
-| Bevægelse | Skulder ekstension | Skulder ekstension og adduktion | 
-| Styrke | Biceps arbejder med | Biceps er arbejder lidt mindre |
-| Muskler | Biceps arbejder lidt mere | Miderste del af trapezus arbejder mere | 
+| Bevægelse | Skulder ekstension | Skulder ekstension og adduktion |
+| Styrke | Biceps arbejder mere | Biceps arbejder lidt mindre |
+| Muskler | Biceps arbejder lidt mere | Midterste del af trapezus arbejder mere |
 
 [Calisthenicmovement](https://www.youtube.com/channel/UCZIIRX8rkNjVpP-oLMHpeDw) har lavet en fremragende Youtube video, der sammenligner pullups og chinups. I videoen ser de på, hvilke muskler der bruges i forskellige versioner af pullups.
 
 {% include video provider="youtube" id="UfhT0OSUU0w" %}
 
-## Forskelle i greb på chin ups og pullups
+## Forskelle i greb på chin ups og pull ups
 
 Den primære forskel mellem pullups og chinup er den type greb, der bliver brugt.
 
@@ -87,28 +89,28 @@ Der er mange forskellige variationer af grebet i pullups og chinups, men den sid
 
 - **Neutralt greb** vender håndfladerne mod hinanden.
 
-{% include figure image_path="https://3vnqw32fta3x1ysij926ljs3-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/Nov18_WO_Grip_Chart.jpg" caption="Forskellige grebstyper i kropshævninger. Kilde: [experiencelife.com](https://experiencelife.com/article/how-to-get-your-first-pull-up/)" alt="grebstyper i kropshævninger - chinups, pullups" %}
+{% include figure image_path="https://438p81ekhtervo423d6400fn-wpengine.netdna-ssl.com/wp-content/uploads/2021/02/Nov18_WO_Grip_Chart.jpg" caption="Forskellige grebstyper i kropshævninger. Kilde: [experiencelife.com](https://experiencelife.com/article/how-to-get-your-first-pull-up/)" alt="grebstyper i kropshævninger - chinups, pullups" %}
 
 ## Forskelle i bevægelsen i chinups og pullups
 
 Både chinups og pullups er kropshævninger, som er et vertikalt træk. Begge bevægelser træner primært den brede rygmuskel, trapezius og armbøjerne, men de gør det på lidt forskellige måder.
 
-Pullups er en kombineret adduktion og ekstension i skulderen, hvor albuerne kommer ned og tilbage fra siden.
+Pullups er en kombineret adduktion og alt efter udførelsen kan der være en lille ekstension i skulderen. Albuerne kommer ned fra siden og trækkes måske lidt tilbage. En pullup foregår primært i det [frontale bevægelsesplan]({% link _pages/anatomy/joints.md %}).
 
-Chinups er en skulder ekstension, hvor albuerne kommer ned og tilbage fra forsiden.
+I chinups foregår en estension i skulderen, hvor albuerne kommer ned og tilbage fra forsiden, og en bøjning i albuen. En chinup foregår primært i det [sagitale bevægelsesplan]({% link _pages/anatomy/joints.md %}).
 
 **Bemærk**. Det hedder _chin up_, fordi man typisk siger at hagen skal over stangen, men dette instruktionsmoment kan faktisk gøre at bevægelsen bliver lidt forkert og du ender med at krumme i det øverste af ryggen og stikke hagen op.
 {: .notice .notice--danger }
 
 Forskellen er ikke så stor, og begge øvelser er rigtig gode. Det betyder bare, at musklerne bliver trænet på en lidt forskellig måde, og det er godt at skifte mellem øvelserne.
 
-## Forskelle i styrke på chin ups og pullups
+## Forskelle i styrke på chin ups og pull ups
 
 De _fleste_ vil formentlig være stærkere i chinups, fordi biceps bedst kan hjælpe, når armen er supineret. Så har vi en ekstra muskel.
 
 Hvis du fx kan lave 10 chinups, så er det meget typisk at du kun kan lave 6-7 pullups, og du vil også opdage i en _pull down_-maskine, at du kan flytte mere vægt, hvis du har et supineret greb.
 
-## Forskelle i muskelinvolvering
+## Forskelle i muskler ved pull ups og chin ups
 
 Begge øvelser træner primært den brede rygmuskel, trapezius og armbøjerne uanset, hvordan du vender og drejer det. Lad os kigge på de mindre forskelle, der trods alt er mellem øvelserne.
 
@@ -136,23 +138,23 @@ Dickie et al (2017) fandt at en pullup med proneret greb aktiverede den midterst
 
 ### Pull-Up vs. Chin-Up — Biceps
 
-Begge hoveder i biceps har den samme primære funktion: albuefleksion med supination af underarmen. 
+Begge hoveder i biceps har den samme primære funktion: albuefleksion med supination af underarmen.
 
-Hvis vi kigger anatomisk på det, så foregår chinup med supination. Derfor kan det godt se ud som om, chin ups vil ramme biceps mere. Samtidig er der i en chinup en større _range of motion_  albuen. Der er naturligvis også nogen aktivitet i biceps under pullups. 
- 
+Hvis vi kigger anatomisk på det, så foregår chinup med supination. Derfor kan det godt se ud som om, chin ups vil ramme biceps mere. Samtidig er der i en chinup en større _range of motion_  albuen. Der er naturligvis også nogen aktivitet i biceps under pullups.
+
 ### Pullups vs chinups
 
 Der var ikke synderlig forskel på aktiveringen af latissimus dorsi (Dickie et al 2017), som ellers typisk er den primære grund til at vælge pullups i stedet for chinups.
 
 Til gengæld er der forskel i aktiveringen af trapezius, som er mere aktiv i en proneret kropshævning, hvorfor pullups formentlig giver den mest komplette rygtræning sammenlignet med chinups.
- 
+
 Det er også interessant at brachioradialis var den mest aktive muskel i alle øvelsesvarianter, og du har sikkert også oplevet at kropshævninger er en glimrende øvelse for underarmene.
- 
-Dickie et al (2017) fandt også i deres studium, at musklerne i armen var mest aktive i den koncentriske fase (hvor du løfter dig op), mens ryggens muskler var lige aktive i både den koncentriske og exentriske fase.  
+
+Dickie et al (2017) fandt også i deres studium, at musklerne i armen var mest aktive i den koncentriske fase (hvor du løfter dig op), mens ryggens muskler var lige aktive i både den koncentriske og exentriske fase.
 
 ## Forskelle i sikkerhed og komfort
 
-Alle bevægelser kroppen kan lave, må den lave. Det hele handler om at få belastningen til at passe til det hele bevægeappartet kan holde til. 
+Alle bevægelser kroppen kan lave, må den lave. Det hele handler om at få belastningen til at passe til det hele bevægeappartet kan holde til.
 
 Chinups og pullups er ikke nogen undtagelse for denne regel. Det er faktisk en rigtig god ide at lave små variationer med forskellige greb.
 
@@ -164,7 +166,7 @@ Det gælder for alle variationer af pullups og chinups. Typisk kan man lave en l
 
 Både chinups og pullups er virkelg gode øvelser og **de bedste (og sikreste) resultater kommer ved at bruge forskellige greb - og altså både have chinups og pullups i dit træningsprogram**.
 
-## Udfør øvelserne _strict_ for den bedste effekt
+## Udfør chinup og pullup _strict_ for den bedste effekt
 
 Du kan altså træne latissimus, biceps og trapezius med både pull-ups og chin-ups. Hvis du vil have mest ud af øvelserne, så er det faktisk ikke grebet, der er det vigtigste.
 
@@ -172,9 +174,9 @@ Det vigtigste er, at du får aktiveret musklerne rigtigt og udfører bevægelsen
 
 ## Forbedre muskelaktiveringen i både chin ups og pull ups
 
-Jeg har ikke kunnet finde nogen studier, der har vist effekt af coaching effekt på chinups og pullups i forhold til at aktivere ryggen korrekt. 
+Jeg har ikke kunnet finde nogen studier, der har vist effekt af coaching effekt på chinups og pullups i forhold til at aktivere ryggen korrekt.
 
-Snyder et al (xxx) har imidlertid studeret effekten af _coaching cues_ på muskelaktiveringen i _pull down_ på utrænede. Studiet fandt at aktiveringen af den brede rygmuskel vær væsentlig større efter coachingen end før. 
+Snyder et al (xxx) har imidlertid studeret effekten af _coaching cues_ på muskelaktiveringen i _pull down_ på utrænede. Studiet fandt at aktiveringen af den brede rygmuskel vær væsentlig større efter coachingen end før.
 
 Eksempler på _coaching cues_ til chinups og pullups.
 
@@ -191,7 +193,7 @@ En variation af chinups kaldes Vince Gironda Sternum Chin Up efter en tidlgere b
 {% include video provider="youtube" id="Ik2R8fJP-pA" %}
 
 Sørg for at det **ikke** er hagen der bestemmer, hvordan en chinup eller pullup skal se ud. Du skal ikke “række” efter stangen med hagen for at finde dit toppunkt i bevægelsen.
- 
+
 ## Er chinups elle pullups bedst?
 
 Det påstås ofte, at kropshævninger med overhåndsgreb (pull ups) har den største aktivering på den brede rygmuskel, mens chinups fjerner noget af træningseffekten på ryggen og har mere fokus på biceps. Derfor anbefaler mange, at man laver pullups i stedet for chinups. Men det er alt for forenklet.

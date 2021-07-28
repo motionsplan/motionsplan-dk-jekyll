@@ -1,5 +1,6 @@
 ---
 title: &title "De bedste cardiomaskiner til kondition og fedtforbrænding 🥇"
+permalink: "/bedste-cardiomaskiner/"
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1519505645104-c7be90e0d630?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80
@@ -13,7 +14,6 @@ tags:
   - kredsløbsmaskiner
 category:
   - Kondition
-  - Konditionstræning
 last_modified_at: 2020-12-23T18:21:26Z
 ---
 
@@ -152,4 +152,3 @@ Men når vejret er dårligt, jeg gerne vil høre podcasts undervejs eller have l
 Cardiomaskiner kan være et rigtig fint supplement til din træning. Nogle kan også bruge cardiomaskinerne som deres primære træningsform.
 
 Hvis du vil have mere inspiration til, hvad du kan bruge cardiomaskinerne til, så kan du kigge under [konditionstests](/test-kondition-konditest-kondital/) og [konditionstræning og kredsløbstræning](/kondition/). Det er en god ide først at lave en konditionstest. Så får du et [kondital]({% link _posts/2019-11-04-kondital-og-tabel.md %}), som du kan sammenligne med andre i vores [tabel over kondital]({% link _posts/2019-11-04-kondital-og-tabel.md %}).
-

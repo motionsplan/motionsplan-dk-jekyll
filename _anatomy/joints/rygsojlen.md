@@ -28,6 +28,7 @@ movements:
       - Den ydre skrå bugmuskel
       - Den indre skrå bugmuskel
 image: http://rygsygdom.dk/images/6/69/Columnavertebralis.jpg
+image_movement: /assets/images/anatomy/movement-back.png
 header:
   overlay_image: https://besimplywell.com/wp-content/uploads/2018/02/xray-back.jpg
   caption: *title
@@ -56,3 +57,6 @@ De forskellige bevægelser foregår forskellige steder i rygsøjlen. Vi undlader
 
 {% include figure image_path=page.image caption=page.title alt=page.title %}
 
+## Muskler omkring rygsøjlen
+
+{% include anatomy/table-muscles-back.html %}

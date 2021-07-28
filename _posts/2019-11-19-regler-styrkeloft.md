@@ -41,8 +41,9 @@ feature_row_books:
     title: "Stærk - Jacob Beermann"
     excerpt: "Kunne du godt tænke dig at blive rigtigt stærk til styrkeløft og powerlifting, så har en af Danmarks bedste styrkeløftere Jacob Beermann skrevet bogen _Stærk_. Her får du en god og grundig introduktion til, hvordan man bliver stærk. Med i købet får du et fremragende program målrettet på powerlifting."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835"
-    btn_label: "Tjek prisen hos Saxo*"
+    btn_label: "Tjek prisen"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 quiz:
   - front: >
       ![Squat](https://i.ytimg.com/vi/pSbpl3i3TRI/maxresdefault.jpg)
@@ -84,14 +85,16 @@ Dansk Styrkeløft Forbund har lavet en glimrende video, der forklarer lidt mere 
 
 ## Regler i styrkeløft (IPF)
 
-I noget så enkelt som at løfte en vægt, så er der alligevel mange regler. Her beskriver vi meget kort de regler, man løfter efter i, International Powerlifting Federation (IPF). 
+I noget så enkelt som at løfte en vægt, så er der alligevel mange regler. Her beskriver vi meget kort de regler, man løfter efter i, International Powerlifting Federation (IPF).
 
 ### Squat
 
-I squat foregår det sådan her. Godkendt dybde er når hofteleddet er under knæleddet.
+I squat foregår det sådan her. Godkendt dybde er, når folden ved hofteleddet er under knæleddet.
 
-- **The bar is loaded**. Når man får kommandoen "The bar is loaded", så har man maksimalt et minut til at lave sit forsøg. 
-- **Unrack**. Når du går ud af racket, så sørg for at stå helt oprejst med knæene strakte. 
+Kommandoerne i squat er:
+
+- **The bar is loaded**. Når man får kommandoen "The bar is loaded", så har man maksimalt et minut til at lave sit forsøg.
+- **Unrack**. Når du går ud af racket, så sørg for at stå helt oprejst med knæene strakte.
 - Vent på **"Squat!"**-kommandoen. Squat ned så hofteleddet er lavere end knæleddet. Rejs dig igen.
 - Vent på **"Rack"**-kommandoen.
 
@@ -99,7 +102,9 @@ I squat foregår det sådan her. Godkendt dybde er når hofteleddet er under kn�
 
 ### Bænkpres
 
-Lig på bænken med flade fødder på jorden. Hovedet, skuldrene og ballerne skal røre bænken.
+Lig på bænken med flade fødder på jorden. Hovedet, skuldrene og ballerne skal røre bænken under hele løftet.
+
+Kommandoerne i bænkpres i en styrkeløft-konkurrence er:
 
 - **“The Bar is Loaded!”**. Derefter har du 1 minut til at lave dit forsøg.
 - Du kan _unracke_ alene eller med en hjælper.
@@ -112,6 +117,12 @@ Lig på bænken med flade fødder på jorden. Hovedet, skuldrene og ballerne ska
 ### Dødløft
 
 Ved løftets afslutning skal løfteren have strakte ben og skuldrene tilbage. Derefter skal vægten sættes tilbage på gulvet under kontrol.
+
+Kommandoerne under dødløft er:
+
+- **Bar is loaded**
+- Når man er klar til at løfte, løfter dommeren sin arm.
+- Når løfteren står oprejst med stangen, sænker dommeren armen og siger **ned**.
 
 {% include video provider="youtube" id="WtPdpWnkYV4" %}
 
@@ -141,7 +152,7 @@ Matt Gary har ifølge [Liftvault](https://liftvault.com/meet-preparation/powerli
 
 Det kan altså betale sig at tænke over, at man kommer ind i konkurrencen på en god måde.
 
-Tænk derfor over følgende i forhold til at vælge dine forsøg til styrkeløft-mødet. Du skal huske, at det gælder om at **maksimere den totale vægt, du løfter**. 
+Tænk derfor over følgende i forhold til at vælge dine forsøg til styrkeløft-mødet. Du skal huske, at det gælder om at **maksimere den totale vægt, du løfter**.
 
 - Dit **første løft** skal være et sikkert løft. Det kan fx være et løft, du ved du kan løfte tre gange. Formålet med det første løft er at forberede dig til de efterfølgende løft. Det gælder for alle disciplinerne.
 - Dit **andet løft** skal være et løft, du er overbevist om, at du kan løfte. Fornemmelsen fra dette løft skal være en _guide til dit tredje forsøg_.
@@ -152,13 +163,17 @@ Jacob Beermann [foreslår en konservativ og aggressiv strategi for dit 1RM-fors�
 | Strategi | #1 | #2 | #3 |
 |-|-|-|-|
 | Konservativ | 93% | 97% | 102% |
-| Aggressiv | 95% | 101% | 105% | 
+| Aggressiv | 95% | 101% | 105% |
 
 Her er et Google Sheet, der kan hjælpe dig med at lave udregningerne af dine forsøg.
 
-***
-
 {% include feature_row id="feature_row_spreadsheet" type="left" %}
+
+## Konklusion
+
+Det var en hurtig gennemgang af reglerne til styrkeløft, så du ikke er helt på bar bund, hvis du skal være med i et styrkeløftstævne.
+
+Jeg har skrevet et andet indlæg, der handler om, hvordan du kan [forberede dig til et maxløft eller en 1RM-maxtest]({% link _posts/2020-11-29-pap-prepare-to-maxtest.md %}).
 
 ## Quiz om regler for styrkeløft
 

@@ -1,13 +1,14 @@
 ---
 title: "Træning med kropsvægt: Forslag til øvelser"
 permalink: /artikel/traening-med-kropsvaegt/
+redirect_from:
+  - /artikel/traening-med-kropsvaegt.
 language: da
 header:
   overlay_image: /assets/images/blog/traening-med-kropsvaegt.jpg
   teaser: /assets/images/blog/traening-med-kropsvaegt.jpg
 tags:
   - styrketræning
-  - webclips
   - kropsvægt
 category:
   - Styrketræning
@@ -20,6 +21,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67046&htmlurl=https://kinetikshop.dk/products/kinetik-vx1-vaegtvest"
     btn_label: "Læs mere"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 ---
 
 Træning med kropsvægt har mange fordele. Kropsvægtsøvelser kan være kan være rigtig effektive - og du kan både træne styrke, kondition og balance bare ved brug af din kropsvægt. Du behøver altså ikke vægte eller maskiner for at udfordre kroppens fysik.
@@ -48,7 +50,7 @@ Det er befriende at kunne træne uden at have br. Hvis du har brug for et bevis 
 
 Man skal altid planlægge sin træning ud fra ens mål. Du kan sagtens få masser af udfordring ved kropsvægtøvelser, så længe du varierer dem. Men det kan også være, at du skal supplere din træning med fx maskiner eller frie vægte. Fx kan maskiner være en fordel, hvis man ikke er stærk nok til at udføre øvelserne med kropsvægt, og frie vægte er også fremragende i mange sammenhænge.
 
-Du kan også loade dine kropsvægtsøvelser med en vægtvest for at få endnu mere modstand i øvelserne. Jeg synes den her [vægtvest fra Kinetik](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67046&htmlurl=https://kinetikshop.dk/products/kinetik-vx1-vaegtvest){:rel="nofollow"} er fed og i forhold til kvaliteten er den ikke så dyr.
+Du kan også loade dine kropsvægtsøvelser med en vægtvest for at få endnu mere modstand i øvelserne. Jeg synes den her [vægtvest fra Kinetik](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67046&htmlurl=https://kinetikshop.dk/products/kinetik-vx1-vaegtvest){: rel='sponsored nofollow noopener' } er fed og i forhold til kvaliteten er den ikke så dyr.
 
 {% include feature_row type="left" %}
 

@@ -1,7 +1,7 @@
 ---
 title: &title "Rite 5: Sæl og omvendt V"
-excerpt: ""
-instructions: ""
+excerpt: "For at udføre den femte rite skal du ligge på maven. Sæt nu hænderne på underlaget ud fra skuldrene. Herefter skal du strække dine arme, så kun dine tæer og hænder rammer underlaget. Bøj nu i hoften og før bagdelen opad, så din krop former en pyramide. Før derefter hoften ned mod jorden igen. Skift mellem de to stillinger."
+instructions: "For at udføre den femte rite skal du ligge på maven. Sæt nu hænderne på underlaget ud fra skuldrene. Herefter skal du strække dine arme, så kun dine tæer og hænder rammer underlaget. Bøj nu i hoften og før bagdelen opad, så din krop former en pyramide. Før derefter hoften ned mod jorden igen. Skift mellem de to stillinger."
 permalink: /oevelse/rite-5-sael-og-omvendt-v/
 redirect_from: /node/674
 id: 674
@@ -47,4 +47,6 @@ gallery:
 last_modified_at: 2015-04-10T13:36:17Z
 ---
 
+For at udføre den femte rite skal du ligge på maven. Sæt nu hænderne på underlaget ud fra skuldrene. Herefter skal du strække dine arme, så kun dine tæer og hænder rammer underlaget. Bøj nu i hoften og før bagdelen opad, så din krop former en “pyramide”. Før derefter hoften ned mod jorden igen. Skift mellem de to stillinger.
 
+Du tager her en indånding, når du går ned og lungerne har mest plads, mens du puster al luften ud, når du går op i “pyramiden”.

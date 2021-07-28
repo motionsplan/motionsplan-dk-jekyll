@@ -14,7 +14,7 @@ tags:
   - muskler
 ---
 
-Her finder ud (endelig) svaret på, hvor mange muskler mennesker har i kroppen. Desværre er det ikke så lige til.
+Her finder du (endelig) svaret på, hvor mange muskler mennesker har i kroppen. Desværre er det ikke så lige til at besvare nøjagtigt.
 
 Hvor mange muskler er der i kroppen? **Der er omkring 700 navngivne skeletmuskler i kroppen, men det kommer meget an på, hvordan man tæller. Der er kun 200-300 muskler, som selv massageterapeuter og fysioterapeuter er interesserede i.**
 

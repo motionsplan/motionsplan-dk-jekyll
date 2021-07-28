@@ -8,7 +8,7 @@ header:
   teaser: https://images.unsplash.com/photo-1581283177406-be33dee67044?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
   caption: *title
 category:
-  - Kost
+  - Ernæring
 tags:
   - kalorier
   - energi
@@ -16,6 +16,15 @@ tags:
   - kost
   - ernæring
 classes: wide
+faq:
+  - question: "Hvor mange kalorier er der i gulerødder?"
+    answer: "1 gulerod på omkring 65 gram indeholder omtrent 25 kalorier fordelt på 0,5 gram protein, 0,3 gram fedt, 4,1 gram kulhydrat og 1,8 gram kostfibre."
+  - question: "Hvor mange kalorier er der i en agurk?"
+    answer: "Der er 11 kcal eller 45 kJ i 100 gram agurk."
+  - question: "Hvor mange kalorier er der i blomkål?"
+    answer: "I 100 g blomkål er der 23 kcal og 99 kJ. I alt er der 2 g protein, 4,3 gram kulhydrat og 0,4 gram fedt."
+  - question: "Hvor mange kalorier er der i broccoli?"
+    answer: "3 buketter broccoli vejer 90 gram og indeholder 32 kalorier samt 3,2 gram protein, 0,2 gram fedt, 2,8 gram kulhydrat og 2,9 gram kostfibre. 100 gram broccoli indeholder 35 kcal samt 3,6 gram protein, 0,2 gram fedt, 3,1 gram kulhydrat og 3,2 gram kostfibre."
 ---
 
 Jeg har samlet en kalorietabel med forskellige typer grøntsager. Tabellen har energi i kalorier og kilojoule, energi, protein, fedt, kulhydrat og kostfibre for forskellige typer grøntsager.
@@ -46,3 +55,7 @@ Alle tallene i kalorietabellen med grøntsager er per 100 gram rå fødevare (sp
 {% include table-kalorietabellen.html where="grøntsager" %}
 
 Jeg håber du kan bruge vores tabel til at se, hvad de forskellige typer grøntsager indholder af ernæring og kalorier.
+
+## Ofte stillede spørgsmål
+
+{% include faq.html %}

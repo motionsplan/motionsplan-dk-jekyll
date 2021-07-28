@@ -1,41 +1,50 @@
 ---
+layout: single
 title: "Cardiac Power Intervals"
+excerpt: "I Cardiac Power Intervaller skal du drive din puls op til det maksimale niveau i 20-30 sekunder og holde den der. Cardiac Power Intervals skal forbedre hjertets evne til at trække sig sammen ved den højeste pulsfrekvens og forbedre ilttilgængeligheden ved maksimalt arbejde."
 tags:
   - conditioning
 rpe: 9-10
+intensity: Max
+time: 1-2 min - keep HRmax for 20-30s rep; Pause 3-5 min
+reps: 2-4
 howto:
-  - Maintain max HR for 20-30s/rep
-  - Immediately follow with 60s plank
-  - Bring HR to 120-130bpm w/ Dynamic EC
-  - Repeat 2-4 reps
-exercises: "Any cardiovascular exercise that uses the whole body and drives HR to maximum – low impact exercises preferred. Use any high intensity exercise that maximally elevates the heart rate, such as sprinting or other total body exercises or drills"
-frequency: 1 x / week x 2-3 weeks
+  - Hold din HRmax i 20-30s/gentagelse
+  - Umiddelbart efter lægger du dig i planke i 60s
+  - Få HR ned til 120-130bpm
+  - Gentag 2-4 reps
+exercises: "Alle kredsløbsøvelser hvor du bruger hele kroppen, og hvor du kan få din puls op på maxpulsen kan bruges. Du kan overveje at bruge øvelser med low impact, men du kan også bruge sprint og løb."
+frequency: 1x/uge x 2-3 uger
 progress:
-  - Speed / power at max HR
-  - HRR in 1 minute
-  - Number of reps
-effect: "Help improve oxygen supply at higher intensities and improve the power endurance of cardiac muscle."
+  - Hastighed og power output ved HRmax
+  - HRR i 1 minut
+  - Antallet af gentagelser
+effect: "Forbedrer ilttilgængeligheden ved højere intensiteter og forbedrer udholdenheden af hjertemusklen ved høje intensiteter."
+video:
+  provider: youtube
+  id: 4BAUVbXucmw
 ---
 
-Cardiac power intervals use the highest intensity possible to drive the heart rate up to the
-maximum level. The goal of this method is to develop the contractility of the heart at the
-highest heart rates. Cardiac power intervals allow you to coach technique and skill under
-fatigue since this is an extremely tiring method.
-As athletes’ heart rates rise, reinforce proper mechanics by cuing any lapsing areas of their
-technique.
-General guidelines for cardiac power intervals are:
-• Increase the heart rate to maximum while maintaining proper technique
-• Maintain the maximum heart rate for 20-30 seconds
-• Immediately transition to a front plank or sport-specific movement for 60 seconds
-• Bring the heart rate down to 120-130 bpm as quickly as possible using dynamic
-energy control
-• Repeat this process for a total of 2-4 sets
-You can use sport-specific exercises or sprints, or lower-impact methods such as the
-VerasClimber to perform this method.
-Use the time after the work period to train sport-specific skill/movement or to develop core
-endurance under fatigue.
-This method is best used at the end of the pre-season to build off of the fitness foundation
-developed in the off-season and early pre-season. It should not be used with beginners.
-You can gauge changes in fitness with this method by comparing the distance the athlete
-covers from one rep to the next and seeing how this changes each week. As athletes
-improve, the disparity in distance covered from one rep to the next should decrease.
+{{ page.excerpt }}
+
+Cardiac power intervals giver træneren mulighed for at coache teknik under træthed, da denne metode er utrolig trættende for atleten.
+
+Generelle retningslinjer for cardiac power intervaller:
+
+- Få pulsen op på maxpulsen samtidig med at du fastholder god teknik.
+- Fasthold pulsen på den maksimale puls i omkring 20-30 sekunder. Typisk tager det 1-2 minutter for at have pulsen helt oppe omkring maxpulsen.
+- Lav fx 60 sekunders planke lige efter intervallet er slut.
+- Få pulsen til at falde til omkring 120-130 slag/min så hurtigt som muligt.
+- Lav i alt 2-4 sæt.
+
+Du kan bruge sportsspecifikke bevægelser, sprints eller øvelser med lavere impact, som fx cykel, VersaClimber eller romaskine til at udføre denne metode.
+
+Du kan bruge pauserne til at træne noget sportsspecifikt eller udvikle udholdenhed i core-muskulaturen, fx ved at gå direkte ned i en 60 sekunders planke.
+
+Denne metode er bedst at bruge efter at have opbygget en solid grundform. Det er ikke en metode, der egner sig så godt til begyndere.
+
+Du kan se fremgang med metoden i den distance atleten kan udføre i de enkelte gentagelser. Desto bedre form atleten kommer i, desto tættere bør distancen i de enkelte gentagelser også blive.
+
+{% if page.video %}
+  {% include video provider=page.video.provider id=page.video.id %}
+{% endif %}

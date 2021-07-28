@@ -1,5 +1,6 @@
 ---
 title: "Superkompensation: Hvornår er jeg klar til at træne igen?"
+excerpt: "Jeg bruger ofte superkompensation som argument for, hvordan det er smart at planlægge sin træning. Derfor går jeg i dette indlæg i dybden med superkompensationsteorien."
 permalink: /superkompensation/
 last_modified_at: 2020-07-06T09:41:09Z
 language: da
@@ -16,7 +17,7 @@ tags:
   - superkompensation
 ---
 
-Jeg bruger ofte superkompensation som argument for, hvordan det er smart at planlægge sin træning. Derfor har jeg skrevet lidt mere om superkompensationsteorien her.
+Jeg bruger ofte superkompensation som argument for, hvordan det er smart at planlægge sin træning. Derfor går jeg i dette indlæg i dybden med superkompensationsteorien.
 
 ## Hvad er superkompensation?
 
@@ -59,7 +60,7 @@ Når du udsætter kroppen for en stor belastning, fx gennem intervaltræning ell
 
 Kroppen genopbygger sig selv, så den bliver stærkere og bedre til at imødekomme det næste træningspas. 
 
-Denne genopbygningfase kaldes for [restitution]({% link _posts/2009-08-07-restition-hvordan-bliver-jeg-hurtigst-klar-igen.md %}). Hvor [hurtigt restitutionstiden i denne fase er afhænger af mange ting]({% link _posts/2020-05-28-restitutionstid-alder.md %}). Superkompensationsfasen viser at det er mest hensigtsmæssigt at have gennemgået restitutionsfasen, inden næste træningspas startes.
+Denne genopbygningfase kaldes for [restitutionsfasen]({% link _posts/2020-05-28-restitutionstid-alder.md %}). Hvor hurtigt restitutionstiden i denne fase er afhænger af mange ting. Superkompensationsfasen viser at det er mest hensigtsmæssigt at have gennemgået restitutionsfasen, inden næste træningspas startes.
 
 Kroppen bliver dog ikke ved med at være i superkompensationsfasen. Hvis kroppen ikke får et stimulus igen, så vil man falde tilbage til det gamle træningsniveau og venter man endnu længere, så kommer man i dårligere form.
 
@@ -74,3 +75,17 @@ Superkompensationsbegrebet er egentlig en del af teorien om _general adaption sy
 ## Opsamling på superkompensation
 
 Hvis du er i tvivl om, hvordan du skal oprette en træningsplan, så kan du lave en aftale med en personlig træner.
+
+## Læs flere artikler om restitution
+
+<div class="feature__wrapper">
+
+{% assign site_posts = site.posts | where: "tags", "restitution" | sort: "last_modified_at" | reverse %}
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>

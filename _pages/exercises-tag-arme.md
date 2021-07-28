@@ -1,18 +1,14 @@
 ---
-layout: collection-tag
+layout: single
 permalink: /arme-triceps-biceps/
 collection: exercises
-taxonomy: Arme # tag name
 header:
   overlay_image: https://images.unsplash.com/photo-1552848031-326ec03fe2ec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
   teaser: https://images.unsplash.com/photo-1552848031-326ec03fe2ec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
   caption: "Armøvelser: De mest effektive øvelser til biceps og triceps"
-entries_layout: grid # list (default), grid
 title: "Armøvelser: De mest effektive øvelser til biceps og triceps 🏋"
 author_profile: true
 classes: wide
-sort_by: title # date (default) title
-sort_order: forward # forward (default), reverse
 excerpt: "Vi har samlet det bedste og mest effektive armøvelser på en side her. Der er både øvelser til biceps og triceps, men også øvelser der udfordrer underarmene."
 ---
 
@@ -33,3 +29,15 @@ Vi har samlet de bedste styrkeøvelser til triceps, så du kan optimere din armt
 Du kan træne triceps med både stang, håndvægte, elastik, kettlebell og kropsvægt, fx ved armstrækninger.
 
 ## Armøvelser og træningsøvelser for armene
+
+{% assign site_posts = site.exercises | where: "tags", "Arme" | where_exp: "post", "post.url != page.url" | sort: "title" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>

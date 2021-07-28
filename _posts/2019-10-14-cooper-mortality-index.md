@@ -1,22 +1,23 @@
 ---
-title: "Mænd: Beregn sandsynligheden for din død"
+title: &title "Mænd, beregn sandsynlighed for at dø af livsstilssygdomme"
 permalink: /cooper-mortality/
-excerpt: "The Cooper Clinic Mortality Risk Index for Men kan ud fra simple parametre beregne din relative risiko for at dø af livsstilssygdomme inden for 15 år."
+excerpt: "The Cooper Clinic Mortality Risk Index for Men kan ud fra simple parametre beregne mænds relative og absolutte risiko for at dø af livsstilssygdomme inden for 15 år."
 language: da
 header:
   overlay_image: https://www.berkeleywellness.com/sites/default/files/field/image/waist-measurement-MF_998_380.webp
   teaser: https://www.berkeleywellness.com/sites/default/files/field/image/waist-measurement-MF_998_380.webp
+  caption: *title
 category:
   - Beregnere
   - Test
 tags:
   - mortalitet
   - sundhed
-last_modified_at: 2019-03-06T23:14:14Z
+last_modified_at: 2021-03-06T23:14:14Z
 toc: true
 ---
 
-_The Cooper Clinic_ har udarbejdet et _Mortality Risk Index: Clinical Score Sheet for Men_. Det er altså i al sin enkelhed en måde at tjekke for **mænd**, om deres absolutte og relative risiko for at dø af sygdom inden for de næste 15 år er forhøjet.
+_The Cooper Clinic_ har udarbejdet _Cooper's Mortality Risk Index: Clinical Score Sheet for Men_. Gennem en række spørgsmål kan **mænd** tjekke om deres absolutte og relative risiko for at dø af sygdom inden for de næste 15 år er forhøjet.
 
 Spørgeskemaet er baseret mere end 21.000 deltagere i alderen 20-69 år, som ikke tidligere har haft hjerteproblemer eller kræftsygdomme.
 
@@ -38,9 +39,15 @@ Spørgeskemaet giver en relativ risiko for at dø inden for de næste 15 år sam
 
 ## Beregn risikoen for at dø for mænd
 
+Med _Cooper's Mortality Risk Index: Clinical Score Sheet for Men_ kan mænd beregne deres relative og absolutte risiko for at dø inden for de næste 15 år.
+
 {% include calculate-mortality.html %}
 
+Du bør nok være opmærksom på, at svarene i spørgeskemaet er vejledende og ikke lave alt for mange planer baseret på resultatet.
+
 ## Gennemfør testen på engelsk
+
+Du kan også udføre _Cooper's Mortality Risk Index: Clinical Score Sheet for Men_ på engelsk ved at klikke på nedenstående link.
 
 [Udfør testen på engelsk](http://www.health-calc.com/health/9-mortality-risk){: .btn .btn--success .btn--large }
 

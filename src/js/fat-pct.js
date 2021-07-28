@@ -4,16 +4,28 @@ let motionsplan = {}
  * Also see here
  * https://www.researchgate.net/publication/242017991_Predicting_Body_Composition_in_College_Students_Using_the_Womersley_and_Durnin_Body_Mass_Index_Equation
  */
-motionsplan.CalculateFatPercent = function(h, w, a, sex) {
-  var h, w, sex;
-
+motionsplan.CalculateFatPercent = function(h, w, a, gender) {
   h = h = h / 100;
-  w = w;
-  a = a;
-  sex = sex;
 
   function getBMI() {
     return w / (h * h);
+  }
+
+  function getGallagher(ethniticity = "white") {
+    let age = a;
+    if (isMale()) {
+      sex = 1;
+    } else {
+      sex = 0;
+    }
+    let asian = 0;
+    let afro = 0;
+    if (ethniticity == 'asian') {
+      asian = 1;
+    } else if (ethniticity == "afro") {
+      afro = 1;
+    }
+    return 63.7 - 864 * (1/getBMI()) - 12.1 * sex + 0.12 * age + (129 * asian * (1/getBMI())) - (0.091 * asian * age) - (0.030 * afro * age);
   }
 
   /**
@@ -59,8 +71,9 @@ motionsplan.CalculateFatPercent = function(h, w, a, sex) {
     }
     return 1.20 * getBMI() + 0.23 * a - 10.8 * sex - 5.4;
   }
+
   function isMale() {
-    if (sex == 'man') {
+    if (gender == 'man') {
       return true; 
     }
     return false;
@@ -71,7 +84,8 @@ motionsplan.CalculateFatPercent = function(h, w, a, sex) {
     getFatMass: getFatMass,
     getBodyFatPercentHeitmannBMIEquation: getBodyFatPercentHeitmannBMIEquation,
     getBodyFatPercentWomersleyDurninBMIEquation : getBodyFatPercentWomersleyDurninBMIEquation,
-    getBodyFatPercentDuerenbergBMIEquation : getBodyFatPercentDuerenbergBMIEquation
+    getBodyFatPercentDuerenbergBMIEquation : getBodyFatPercentDuerenbergBMIEquation,
+    getBodyFatPercentGallagher : getGallagher
   };
 
   return publicAPI;

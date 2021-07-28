@@ -1,10 +1,11 @@
 ---
-title: &title "Glute-ham raises: Bedste all-round baglårsøvelse [2020]"
-instructions: "Anklerne placeres mellem de små puder, og det nederste af lårene mod den store pude."
+title: "Glute-ham raises: Bedste all-round baglårsøvelse [2021]"
+instructions: Anklerne placeres mellem de små puder, og det nederste af lårene
+  mod den store pude.
 permalink: /oevelse/glute-ham-raises/
 redirect_from: /node/261
 id: 261
-language: da
+key: 261
 header:
   overlay_image: /assets/images/exercises/glute-ham-raises-0.jpg
   teaser: /assets/images/exercises/glute-ham-raises-0-320.jpg
@@ -12,30 +13,34 @@ header:
 tags:
   - hoftedomineret
   - maskine
-categories:
-training_type: 
-training_focus: 
+training_type: null
+training_focus:
   - hoftedomineret
 equipment:
   - maskine
-muscle_group:
-gallery:
-  - url: /assets/images/exercises/glute-ham-raises-0.jpg
-    image_path: /assets/images/exercises/glute-ham-raises-0-320.jpg
-    alt: "Glute ham raises - Glute ham raise"
-    title: "Glute ham raises"
-last_modified_at: 2020-04-14T15:02:12Z
-video:
-  provider: youtube
-  id: tPr69TL_n70
+muscle_group: null
+last_modified_at: 2020-04-14T15:02:12.000Z
 feature_row:
   - image_path: https://www.fotoagent.dk/single_picture/11803/138/custom1/PM130_19(1).jpg
     url: https://www.fitnessgruppen.dk/peak-fitness-glute/ham-developer/
     title: "Peak: Glute/ham Developer bænk"
-    alt: "Glute ham raise bænk - glute ham developer (GHD)"
-    excerpt: "En bænk til glute-ham skal være høj nok, så man kan bruge det fulde bevægeudslag, og så skal man kunne indstille fodpuderne for at få den rigtige vinkel. En glute-ham developer skal også være meget solid, så den ikke rokker under øvelsen. Desuden skal du kunne indstille afstanden mellem fodstøtten og puderne."
+    alt: Glute ham raise bænk - glute ham developer (GHD)
+    excerpt: En bænk til glute-ham skal være høj nok, så man kan bruge det fulde
+      bevægeudslag, og så skal man kunne indstille fodpuderne for at få den
+      rigtige vinkel. En glute-ham developer skal også være meget solid, så den
+      ikke rokker under øvelsen. Desuden skal du kunne indstille afstanden
+      mellem fodstøtten og puderne.
     btn_label: Tjek prisen hos Fitnessgruppen*
     btn_class: btn--info
+gallery:
+  - url: /assets/images/exercises/glute-ham-raises-0.jpg
+    image_path: /assets/images/exercises/glute-ham-raises-0-320.jpg
+    alt: Glute ham raises - Glute ham raise
+    title: Glute ham raises
+language: da
+video:
+  provider: youtube
+  id: tPr69TL_n70
 ---
 
 Glute-ham raises (GHR) er en af de bedste all-round baglårsøvelser og bagkæde-øvelser, der findes, fordi GHD træner hele baglårets funktion i en bevægelse. Glute ham-raises bliver typisk lavet på en særlig bænk, men oprindeligt lavede de sovjetiske atletikfolk øvelsen ved at sætte fødderne ind i en ribbe og støtte lårene mod en gymnastikhest. Jeg har kigget på, hvad glute-ham raises er.
@@ -105,8 +110,12 @@ Du kan også bruge GHR-bænken til andre formål.
 - **Back extensions** kan lavet med ret stor bevægeudslag, fordi du liger vandret med benene.
 - **GHD Situps** som er en meget brugt øvelse i crossfit.
 
-## Referencer
+## Referencer til glute ham raise
+
+<details markdown="1">
+  <summary>Se flere referencer om glute ham raise (GHR)
 
 - Chiu, Loren Z. F., Anita Yaremko, og Gabriella L. vonGaza. 2017. “Addition of Glute-Ham-Gastroc Raise to a Resistance Training Program: Effect on Jump Propulsion and Landing”. _Journal of Strength and Conditioning Research_ 31 (9): 2562–71. [https://doi.org/10.1519/JSC.0000000000002065](https://doi.org/10.1519/JSC.0000000000002065).
+</summary>
 
-## Noter
+## Noter om Glute Ham Raise (GHR)

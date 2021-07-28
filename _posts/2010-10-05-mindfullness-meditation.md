@@ -22,27 +22,35 @@ wallsticker_full:
   - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-therapy-danish.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-therapy-wallsticker
     title: Yoga therapy
+    rel: sponsored nofollow noopener
   - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-is-a-way-to-freedom-danish.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-is-a-way-to-freedom-wallstick r
     title: Yoga is a way to freedom
+    rel: sponsored nofollow noopener
   - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-is-99-_-practice-danish_3.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-er-99-ovelse-wallsticker
     title: Yoga er 99 % øvelse
+    rel: sponsored nofollow noopener
   - image_path: https://www.wallstickerland.dk/media/catalog/product/a/-/a-yoga-instructor-gets-people-to-danish.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/en-yoga-instruktor-far-folk-til-wallsticker
     title: En yoga-instruktør får folk til
+    rel: sponsored nofollow noopener
   - image_path: https://www.wallstickerland.dk/media/catalog/product/i/-/i-do-yoga-english.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/i-do-yoga-wallsticker
     title: I do yoga
+    rel: sponsored nofollow noopener
   - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-wallsticker
     title: Yoga
+    rel: sponsored nofollow noopener
   - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-keeps-punching-me.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-keeps-punching-me-wallsticker
     title: Yoga keeps punching me
+    rel: sponsored nofollow noopener
   - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-is-not-just-a-workout-danish.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-er-ikke-bare-en-traening-wallsticker
     title: Yoga er ikke bare en træning
+    rel: sponsored nofollow noopener
 ---
 
 Mindfulness meditation kan være et nyttigt værktøj til at opnå øget bevidstgørelse omkring egne værdier og målsætninger. Jeg har samlet øvelser på dansk til at lave din egen mindful meditation i forbindelse med yoga derhjemme. Samtidig beskriver jeg, hvordan jeg forstår mindfulness meditation.
@@ -75,8 +83,6 @@ Hvis du gerne vil have lidt inspiration til yoga, du kan lave derhjemme, så har
 - **Siddende meditation**: Du sidder på en stol med ret ryg, afslappede skuldre, hænderne på lårene med håndfladerne opad, evt. med en blid kontakt mellem tommeltot og pegefingerens spidser. Denne håndbevægelse er ikke religiøs, men sikrer i stedet du forbliver i kroppen, er jordnær, og ikke flyder væk i tanker, men er til stede lige nu - vågen og opmærksom.
 - **Fokus på åndedrættet**. Håndbevægelsen kan også laves på andre tidspunkter i løbet af dagen, og kan minde dig om at trække vejret uhindret, slippe tankerne (især bekymringerne) og være til stede, lige nu.
 
-<a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=72081" target="_blank" rel="nofollow noopener"><img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=72081" border="0" alt=""></a>
-
 ## Kort guidet meditation til hverdagen
 
 5 minutters kort meditation, som kan bruges i hverdagen til at få en lille øjeblik, hvor man finder ro igen. Meditationen er på dansk og kaldes: "Kom tilstede".
@@ -99,10 +105,8 @@ Kathrine Christensen, yogalærer i Vejle, har lavet en guidet meditation til min
 
 Hvis du er interesseret i at læse lidt om musik til mindfulness og yoga, så har jeg skrevet et [andet indlæg med fem tips til at vælge det rigtige musik]({% link _posts/2020-07-02-musik-yoga.md %}). Du skal naturligvis også lige kigge forbi et af vores mest populære indlæg, som handler om [yogaøvelserne De Fem Tibetanere]({% link _posts/2009-07-01-de-fem-tibetanere.md %}) eller [Solhilsen]({% link _posts/2020-07-25-solhilsen.md %}).
 
-Den Intelligente Krop som er vores samarbejdspartner har også [afspændinger til yoga og mindfulness meditation\*](https://www.denintelligentekrop.dk/interesse/yoga-og-meditation/yoga-og-meditation-musik-og-lyd-cd).
+Den Intelligente Krop som er vores samarbejdspartner har også [afspændinger til yoga og mindfulness meditation](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/interesse/yoga-og-meditation/yoga-og-meditation-musik-og-lyd-cd){: rel="nofollow sponsored noopener" }.
 
-{% include gallery id="yogastream" caption="YogaStream er et online yogaunivers med over 1000 yoga- og meditationsvideoer. Du bliver guidet af dygtige og erfarne instruktører lige når det passer dig. Få den [første måned gratis gennem vores link*](http://motionsplan.yogastream.dk)." %}
-
-<a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=37797" target="_blank" rel="nofollow noopener"><img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=37797" border="0" alt=""></a>
+{% include gallery id="yogastream" caption="YogaStream er et online yogaunivers med over 1000 yoga- og meditationsvideoer. Du bliver guidet af dygtige og erfarne instruktører lige når det passer dig. Få den [første måned gratis gennem vores link*](http://motionsplan.yogastream.dk){: rel='nofollow sponsored noopener' }." %}
 
 {% include gallery id="wallsticker_full" caption="Wallstickers om yoga og mindfulness" %}

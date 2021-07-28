@@ -23,22 +23,25 @@ feature_row:
     title: "Anatomisk Guide til Bevægeapparatet"
     excerpt: "En praktisk guide til lokalisering af muskler, skelettet, knogler og led. Du lærer at undersøge bevægeapparatet og kende opbygningen af skelettet og knoglerne og lokalisere de relevante vævsstrukturer."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/anatomisk-guide-til-bevaegeapparatet-9788777499104"
-    btn_label: "Se prisen hos Den Intelligente Krop*"
+    btn_label: "Se prisen"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
   - image_path: https://cdn6.tales.dk/00002/73191/cover.20160911.jpg
     alt: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
     title: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
     excerpt: "Menneskekroppen beskrives med anatomi, fysiologi og sygdomme i et anatomisk atlas med menneskets knogler og skelettet. Gennem de computergenererede 3D-billeder og fantastiske illustrationer af knogler og muskler kan du opleve menneskekroppens anatomi i hidtil uset detaljegrad."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://bogreolen.dk/menneskekroppen_steve-parker_9788756784436"
-    btn_label: "Se prisen hos Tales*"
+    btn_label: "Se prisen"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
   - image_path: https://imgcdn.saxo.com/_9788762809000/0x500
     alt: "Bevægeapparatets anatomi"
     title: "Bevægeapparatets anatomi"
     excerpt: "_Bevægeapparatets anatomi_ er en klassiker, når du skal lære om kroppens anatomi. Bag lærebogen står forfatterne Finn Bojsen Møller, Jan Hejle, Erik Bruun Simonsen, Jørgen Tranum-Jensen. De kombinerer viden om almen anatomi med information om hvordan man forebygger, undersøger, behandler, træner og genoptræner kroppen."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/bevaegeapparatets-anatomi_joergen-tranum-jensen_indbundet_9788762809000"
-    btn_label: "Se prisen hos Saxo*"
+    btn_label: "Se prisen"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 sidebar:
   nav: anatomi
 ---

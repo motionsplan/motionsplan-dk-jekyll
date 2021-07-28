@@ -1,15 +1,22 @@
 ---
 title: "Den tohovedede lægmuskel"
+joint:
+  - Fodleddet
+functional_group:
+  - Fodledsstrækkere (plantarfleksorer)
+group:
+  - Ben
 name:
   latin: Gastrocnemius
+  da: Den tohovedede lægmuskel
 tags:
   - imagemap
   - fitnessinstruktør
   - muskel
 origin: 
-  da: Et hoved fra hver side af nederste bageste del af lårbenet.
+  da: 
 insertion: 
-  da: i akillessenen og fæster på hælbenet.
+  da: 
 function:
   da:
     - short: "Plantarfleksion i ankelleddet"
@@ -26,8 +33,6 @@ function:
 secondary_function: 
   da:
     - short: "Bøjer i knæleddet"
-exercises:
-  - Stående calf-raise
 image: /assets/images/anatomy/gastrocnemius.jpg
 image_focus: /assets/images/anatomy/focus-gastrocnemius.jpg
 coords:
@@ -36,19 +41,3 @@ coords:
   - "117,382,122,399,122,410,121,424,113,418,111,409,111,393"
   - "170,382,177,397,175,415,167,424,166,411,167,398"
 ---
-
-_{{ page.name.latin }}_
-
-- **Udspring**: {{ page.origin.da }}
-- **Hæfte**: {{ page.insertion.da }}
-
-{% include figure image_path=page.image alt=page.title caption=page.title %}
-
-## Funktion
-
-{% for f in page.function.da %}
-- **{{ f.short }}**.
-  {{ f.extended | markdownify }}
-{% endfor %}
-
-{% include figure image_path=page.image_focus alt=page.title caption=page.title %}

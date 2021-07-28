@@ -1,27 +1,33 @@
 ---
-title: "Trapezius"
+title: "Kappemusklen - Trapezius"
+functional_group:
+  - Skulderbladsadduktorer
+joint:
+  - Skulderbladet
+excerpt: ""
+group:
+  - Ryg
 name:
   latin: "Trapezius"
+  da: "Kappemusklen"
 tags:
   - imagemap
   - muskel
-origin: 
-  da: Et hoved fra hver side af nederste bageste del af lårbenet.
-insertion: 
-  da: i akillessenen og fæster på hælbenet.
+#origin: 
+#  da: Nakkehvirvlen og nakkebåndet. Desuden torntappene fra 6. halshvirvel til 12. brysthvirvel
+#insertion: 
+#  da: "Øverste del: Yderste del af kravebenet. Midterste del: Skulderhøjden og øverste rand af skulderkammen. Nederste del: Inderste del af skulderkammen."
 function:
   da:
-    - short: Elevates the scapula.
-      extended: This means that the trapezius muscle lifts the shoulder girdle up (i.e. shrugging your shoulders).
-    - short: Retracts the scapula.
-      extended: This means that the trapezius muscle pulls the scapula, or shoulder blade, rearward such that it approaches the spine.
+    - short: Elevation af skulderbladet
+      extended: Trapezius er med til at løfte skulderbæltet op, så man kan trække på skuldrene.
+    - short: Retraction i skulderbladet
+      extended: Trapezius er med til at trække skulderbladene tættere på hinanden.
   en:
     - short: Elevates the scapula.
       extended: This means that the trapezius muscle lifts the shoulder girdle up (i.e. shrugging your shoulders).
     - short: Retracts the scapula.
       extended: This means that the trapezius muscle pulls the scapula, or shoulder blade, rearward such that it approaches the spine.
-exercises:
-  - Stående calf-raise
 image: /assets/images/anatomy/trapezius.jpg
 image_focus: /assets/images/anatomy/focus-trapezius.jpg
 coords:
@@ -30,18 +36,16 @@ coords:
   - "124,88,110,83,127,73"
 ---
 
-_{{ page.name.latin }}_
+Trapezius kaldes også kappemusklen på dansk. Musklen består af 3 dele: den øverste, midterste og nederste del.
 
-- **Udspring**: {{ page.origin.da }}
-- **Hæfte**: {{ page.insertion.da }}
+Trapezius er en stor trekantet muskel, som dækker størstedelen af din øvre ryg. De 3 dele af Trapezius har pga. forskellig hæfte og udspring forskellige funktioner. Tilsammen kan de 3 dele samle, løfte, sænke og dreje skulderbladene opad. 
 
-{% include figure image_path=page.image alt=page.title caption=page.title %}
+Trapezius trænes i varianter, hvor du enten løfter skulderbladene fx i shrugs, eller øvelser hvor du sænker og samler skulderbladene. Det gør du især i vandrette træk øvelser og [rows]({% link _posts/2020-07-06-rows.md %}).
 
-## Funktion
+## Træning af {{ page.title }}
 
-{% for f in page.function.da %}
-- **{{ f.short }}**.
-  {{ f.extended | markdownify }}
-{% endfor %}
+Du kan altså træne trapezius med rigtig mange rygøvelser. Men man kan helt sikkert bruge bent over rows og dødløftvarianter, fx snatch grip dødløft.
 
-{% include figure image_path=page.image_focus alt=page.title caption=page.title %}
+Her er en nem og effektiv øvelse til at træne trapezius (kappemusklen). Øvelsen er også god til at styrke øvre ryg. Brug en elastik eller evt. en håndvægt til øvelsen.
+
+{% include video provider="youtube" id="AYOTS-L4_Wg" %}

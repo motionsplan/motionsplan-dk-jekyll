@@ -9,11 +9,10 @@ header:
 tags:
   - maveøvelser
   - flad mave
-  - webclips
   - mave
 category:
   - Ernæring
-  - Styrketræning
+  - Træning
 last_modified_at: 2013-02-13T21:39:32Z
 ---
 
@@ -62,7 +61,3 @@ Hvad siger du til denne indgangsvinkel til træningen? Kan du forklare, hvorfor 
 - [21st Century Core training](http://www.t-nation.com/free_online_article/sports_body_training_performance/21st_century_core_training)
 - [The real core exercises](http://www.t-nation.com/free_online_article/sports_body_training_performance/the_real_core_exercise)
 - [The 2008 alphabet of manliness](https://www.t-nation.com/free_online_article/sports_body_training_performance/the_2008_alphabet_of_manliness)
-
-<a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55254" target="_blank" rel="nofollow noopener"> <img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=55254" border="0"></a>
-
-<a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=53063" target="_blank" rel="nofollow noopener"> <img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=53063" border="0"></a>

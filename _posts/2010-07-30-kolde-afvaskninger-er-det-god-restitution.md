@@ -1,5 +1,7 @@
 ---
-title: &title "Kryoterapi: Virker et isbad efter træning på restitutionen?"
+title: &title "Kryoterapi: Virker et isbad efter træning på restitution?"
+description: "Jeg har researchet på om isbade og kryoterapi virker på som strategi til at forbedre og fremskynde din restitution. Læs de overraskende fund!"
+excerpt: "For nylig fik jeg anbefalet at spule mine ben med koldt vand efter mine løbeture for at restituere hurtigere. Nu er jeg ikke så vild med koldt vand, så jeg tog ikke min vens ord for det. Jeg gik i stedet for i gang med at researche lidt på isbade og kryoterapi i forhold til restitution."
 permalink: /isbad-og-kryoterapi/
 redirect_from:
   - /artikel/kolde-afvaskninger-er-det-god-restitution
@@ -13,34 +15,35 @@ tags:
   - isbad
   - kryoterapi
 category:
-  - Webclips
+  - Restitution
 last_modified_at: 2020-05-28T20:39:39Z
 gallery:
   - image_path: https://yourboots.dk/wp-content/uploads/2019/12/cool-framegrab-2048x871.png
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=71899&htmlurl=https://yourboots.dk/cool/
-    alt: Yourboots Cool
+    alt: Yourboots Cool til kryoterapi
     title: Yourboots Cool
+    rel: sponsored nofollow noopener
 ---
 
-For nylig fik jeg anbefalet at spule mine ben med koldt vand efter mine løbeture for at restituere hurtigere. Nu er jeg ikke så vild med koldt vand, så jeg tog ikke min vens ord for det.
+For nylig fik jeg anbefalet at spule mine ben med koldt vand efter mine løbeture for at restituere hurtigere. Nu er jeg ikke så vild med koldt vand, så jeg tog ikke min vens ord for det. Jeg gik i stedet for i gang med at researche lidt på isbade og kryoterapi i forhold til restitution.
 
-Jeg gik i stedet for i gang med at researche lidt på emnet. Jeg fandt hurtigt ud af, at det ikke er nok at spule sine ben med vand, men forskningen er i gang med at undersøge **kryoterapi** og **isbade** som to forskellige strategier.
+Jeg fandt hurtigt ud af, at det ikke er nok at spule sine ben med vand, men forskningen er i gang med at undersøge **kryoterapi** og **isbade** som to forskellige strategier til restitution.
 
-Jeg fokuserede derfor mest på at finde ud af, om isbade efter træning virker på restitutionen og effekten af træning?
+Jeg fokuserede derfor mest i min resarch på at finde ud af, om isbade efter træning virker på restitutionen og effekten af træning?
 
 **Isbade efter træning viser i forskningen lidt blandede resultater. Folk der gennemgår isbade oplever mindre ømhed efter træning, men det har ikke kunnet påvises på biologiske markører. Tilsyneladende kan isbade hæmme effekten af styrketræning, men formentlig godt bruges efter udholdenhedstræning.**
 
-Jeg gik på [pubmed.com](http://pubmed.com) ([se guide](/videnskabelig-sogning/)) for at finde noget videnskab, der kunne overbevise mig om, at jeg har brug for afkøling efter træning.
+Jeg gik på [pubmed.com](https://pubmed.com) og lavede en [videnskabelig søgning](/videnskabelig-sogning/) for at finde nogle studier, der kunne overbevise mig om, at jeg har brug for afkøling efter træning.
 
 Det er fortsat ikke klart, hvad de videnskabelige rationale bag at tage et koldt bad er (se metastudium af Bleakley og Davison 2010), men derfor kan vi jo sagtens se på, om det virker.
 
-## Mælkesyre fjernes hurtigere
+## Mælkesyre fjernes hurtigere med et isbad
 
 Det ser ud til at mælkesyren fjernes hurtigere, hvis man tager et kontrast-bad, hvor man først kommer i koldt vand og derefter i varmt vand (Morton 2007), hvilket også er blevet vist for kvindelige klatrere (Heymann 2009). **Denne effekt får man imidlertid også af aktiv nedvarmning af musklerne.**
 
-## Restituerer man hurtigere?
+## Restituerer man hurtigere med et isbad?
 
-Spørgsmålet er så om den hurtigere fjernelse af mælkesyre rent faktisk gør, at man kan præstere bedre senere. Crowe et al (2007) viste ved sprint på cykel med en times restitution, at det kolde bad rent faktisk sænker den anaerobe kapacitet. Hvis man kigger på restitution med et lidt længere tidsperspektiv, så viste Lane og Wenger (2004), at både massage, aktiv nedvarmning og kolde bade var med til at facilitetere restitutionsprocessen i de 24 timer, der var mellem to træningspas med høj intensitet. Det kan dog være at perioden mellem de to træninger var nok i sig selv til at restituere, som foreslået af King and Duffield (2009) efter deres studium.
+Spørgsmålet er så om den hurtigere fjernelse af [mælkesyre]({% link _posts/2020-08-24-maelkesyre.md %}) rent faktisk gør, at man kan præstere bedre senere. Crowe et al (2007) viste ved sprint på cykel med en times restitution, at det kolde bad rent faktisk sænker den anaerobe kapacitet. Hvis man kigger på restitution med et lidt længere tidsperspektiv, så viste Lane og Wenger (2004), at både massage, aktiv nedvarmning og kolde bade var med til at facilitetere restitutionsprocessen i de 24 timer, der var mellem to træningspas med høj intensitet. Det kan dog være at perioden mellem de to træninger var nok i sig selv til at restituere, som foreslået af King and Duffield (2009) efter deres studium.
 
 Når man kigger på restitutionen efter 72 timer var hverken et kontrastbad eller udspænding med til at accellere restitutionen (Robey 2009).
 
@@ -76,13 +79,30 @@ Hvis du gerne vil bruge isbade, skal du nok overveje kun at gøre det efter udho
 
 Du skal også huske, at det er vanskeligt at lave et dobbeltblindet, placebo-kontrolleret studie. Man kan godt lave et studie, der sammenligner med en anden type restitutionsaktivitet, men hvis man ender i den kolde balje, så opdager man det i hvert fald.
 
-Hvis du gerne vil implementere isbade ind i din træning og restitution, så har [yourboots.dk lanceret et ret smart produkt med deres Cool sleeve](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=71899&htmlurl=https://yourboots.dk/cool/){:rel="nofollow"}.
+Hvis du gerne vil implementere isbade ind i din træning og restitution, så har [yourboots.dk lanceret et ret smart produkt med deres Cool sleeve](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=71899&htmlurl=https://yourboots.dk/cool/){: rel='sponsored nofollow noopener' }.
 
-{% include gallery caption="Tjek priserne for Cool hos [yourboots.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=71899&htmlurl=https://yourboots.dk/cool/){:rel=\"nofollow\"}" %}
+{% include gallery caption="Tjek priserne for Cool hos [yourboots.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=71899&htmlurl=https://yourboots.dk/cool/){: rel='sponsored nofollow noopener' }" %}
 
 Hvilke erfaringer har du med kolde isbade i forhold til din træning?
 
+## Læs flere artikler om restitution
+
+<div class="feature__wrapper">
+
+{% assign site_posts = site.posts | where: "tags", "restitution" | sort: "last_modified_at" | reverse %}
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
 ## Referencer
+
+<details markdown="1">
+  <summary>Se referencer om isbade og kryoterapi</summary>
 
 - Crowe, M. J., D. O’Connor, og D. Rudd. 2007. “Cold Water Recovery Reduces Anaerobic Performance”. International Journal of Sports Medicine 28 (12): 994–98. <https://doi.org/10.1055/s-2007-965118>.
 - Morton, R. Hugh. 2007. “Contrast Water Immersion Hastens Plasma Lactate Decrease after Intense Anaerobic Exercise”. Journal of Science and Medicine in Sport 10 (6): 467–70. <https://doi.org/10.1016/j.jsams.2006.09.004>.
@@ -97,3 +117,4 @@ Hvilke erfaringer har du med kolde isbade i forhold til din træning?
 - Kinugasa, Taisuke, og Andrew E. Kilding. 2009. “A Comparison of Post-Match Recovery Strategies in Youth Soccer Players”. Journal of Strength and Conditioning Research 23 (5): 1402–7. <https://doi.org/10.1519/JSC.0b013e3181a0226a>.
 - Heyman, Elsa, Bas DE Geus, Inge Mertens, og Romain Meeusen. 2009. “Effects of Four Recovery Methods on Repeated Maximal Rock Climbing Performance”. Medicine and Science in Sports and Exercise 41 (6): 1303–10. <https://doi.org/10.1249/MSS.0b013e318195107d>.
 - Jakeman, J. R., R. Macrae, og R. Eston. 2009. “A Single 10-Min Bout of Cold-Water Immersion Therapy after Strenuous Plyometric Exercise Has No Beneficial Effect on Recovery from the Symptoms of Exercise-Induced Muscle Damage”. Ergonomics 52 (4): 456–60. <https://doi.org/10.1080/00140130802707733>.
+</details>

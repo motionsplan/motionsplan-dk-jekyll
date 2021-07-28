@@ -25,6 +25,7 @@ feature_row:
     excerpt: "Relaxator åndedrætstræner er en lille og praktisk 'fløjte' der forbedrer dine vejrtrækningsvaner. Du kan lave åndedrætstræning bare ved at placere den i munden og derved kan du få justérbar modstand på din vejrtrækning."
     btn_label: Se prisen hos Den Intelligente Krop*
     btn_class: btn--success
+    rel: sponsored nofollow noopener
 feature_row_books:
   - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/560x/9df78eab33525d08d6e5fb8d27136e95/r/e/relaxator-aandedraetstraener-1.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38097&htmlurl=https://www.denintelligentekrop.dk/traek-vejret-mere-energi-mindre-stress
@@ -32,17 +33,19 @@ feature_row_books:
     excerpt: "Træk vejret med den danske fridykker Stig Åvall Severinsen kommer bredt omkring brugen af åndedrættet ift. fridykning og hverdagsliv. bogen er skrevet med baggrund i fridykning og yoga - og med Stigs mange års erfaring med professionelt brug af åndedrættet."
     btn_label: Se prisen hos Den Intelligente Krop*
     btn_class: btn--success
+    rel: sponsored nofollow noopener
   - image_path: https://cdn6.tales.dk/00002/22072/cover.20160910.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55158&htmlurl=https://tales.dk/hold-vejret-en-bog-om-fridykning_morten-rosenvold-villadsen_9788799089758
     title: Hold vejret
     excerpt: "Morten Rosenvold Villadsens bog handler om fridykning og om at lære teknikker i forhold til åndedrættet og vejrtrækningn. Lær også om mental og fysisk træning og få det illustreret med fremragende fotos af nogle af verdens bedste undervandsfotografer."
     btn_label: Se prisen hos Tales*
     btn_class: btn--success
+    rel: sponsored nofollow noopener
 ---
 
 Din vejrtrækning kan forbedres gennem åndedrætstræning. Når man lærer at trække vejret optimalt kan det have indflydelse på dit energiniveau, stressniveau og restitution. Det kan helt sikkert betale sig at lave øvelser med åndedrætstræning for langt de fleste mennesker.
 
-Hvad er åndedrætstræning? **Åndedrætstræning er når du gennem fokuseret arbejde med vejrtrækningen træner åndedrættet. Du arbejder både med åndedrætsmusklerne, men også med rytmen i vejrtrækningen for bevidst at prøve at påvirke kroppens funktion.**
+Hvad er åndedrætstræning? **Åndedrætstræning er når du gennem fokuseret arbejde med vejrtrækningen og åndedrætsøvelser træner åndedrættet. Du arbejder både med åndedrætsmusklerne, men også med rytmen i vejrtrækningen for bevidst at prøve at påvirke kroppens funktion.**
 
 I det følgende kan du læse lidt mere om åndedrætstræning og se nogle eksempler på øvelser til åndedrættet.
 
@@ -56,19 +59,19 @@ Cobb skriver, at:
 
 > As I'm gtting tired, some of the first muscles to fatigue in the human body are the muscles of respiration. Now, if you think about us as primarily being a survival driven organism, anything that compromises breathing is going to be a big threat.
 
---- <cite>[Dr. Cobb](https://zhealtheducation.com/episode-109-improve-endurance-in-7-minutes-a-day/)</cite>
+--- <cite>[Dr. Cobb](https://zhealtheducation.com/blog/episode-109-improve-endurance-in-7-minutes-a-day/)</cite>
 
 Så når man fx er ude at løbe og åndedrætsmusklerne udtrætter som noget af det første og ikke effektivt kan understøtte lungernes arbejde, så bliver man træt.
 
 > A lot of the research studies compare the device I’m about to show you, or a device similar to what I’m about to show you, to people doing 90 to 120 minutes of interval work per week, and we see very similar benefits to 7 minutes, versus 90 to 120 minutes.
 
---- <cite>[Dr. Cobb](https://zhealtheducation.com/episode-109-improve-endurance-in-7-minutes-a-day/)</cite>
+--- <cite>[Dr. Cobb](https://zhealtheducation.com/blog/episode-109-improve-endurance-in-7-minutes-a-day/)</cite>
 
-Det er også årsagerne til, at du efterhånden er begyndt at få reklamer for forskellige apparater, der kan være med til at træne dit åndedræt. Fælles for apparaterne som fx Expand-a-Lung, [Relaxator\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38097&htmlurl=https://www.denintelligentekrop.dk/the-relaxator-aandedraetstraener) og Airofit er, at du trækker vejret gennem en modstand. Derved træner du åndedrætsmusklerne.
+Det er også årsagerne til, at du efterhånden er begyndt at få reklamer for forskellige apparater, der kan være med til at træne dit åndedræt. Fælles for apparaterne som fx Expand-a-Lung, [Relaxator](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38097&htmlurl=https://www.denintelligentekrop.dk/the-relaxator-aandedraetstraener){: rel='sponsored nofollow noopener' } og Airofit er, at du trækker vejret gennem en modstand. Derved træner du åndedrætsmusklerne.
 
 {% include video provider="youtube" id="p7FAFY4PsQY" %}
 
-Du kan købe Relaxator hos [Den Intelligente Krop](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38097&htmlurl=https://www.denintelligentekrop.dk/the-relaxator-aandedraetstraener). Den virker på samme måde som det apparat Dr. Cobb viser i videoen, men kan baer købes i en dansk shop. Hvis du køber åndedrætstræneren gennem mit link, så får jeg en lille kommision, men din pris er den samme.
+Du kan købe Relaxator hos [Den Intelligente Krop](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38097&htmlurl=https://www.denintelligentekrop.dk/the-relaxator-aandedraetstraener){: rel='sponsored nofollow noopener' }. Den virker på samme måde som det apparat Dr. Cobb viser i videoen, men kan baer købes i en dansk shop. Hvis du køber åndedrætstræneren gennem mit link, så får jeg en lille kommision, men din pris er den samme.
 
 ## Åndedrættet påvirker det parasympatiske nervesystem
 
@@ -80,8 +83,8 @@ Det **parasympatiske nervesystem** er ansvarlige for alle disse gavnlige effekte
 - Øget aktivitet af de beroligende alfabølger i hjernen
 - Pulsen og blodtrykket falder
 - Åndedrætsfrekvensen falder
-- Øget blodgennemstrømningen i mave-tarm-kanalen, hvilket fremmer fordøjelsen.  
-- Blodtilførslen til organerne øges  
+- Øget blodgennemstrømningen i mave-tarm-kanalen, hvilket fremmer fordøjelsen.
+- Blodtilførslen til organerne øges
 - Kroppens muskler slapper mere af
 - Leveren producere mindre sukker
 
@@ -113,15 +116,19 @@ Du kan se åndedrætsøvelsen beskrevet i denne Youtube-video.
 
 ### Vekselåndedrættet
 
-Denne øvelse til vejrtrækningen skriver [Mindhelper](https://mindhelper.dk/mental-fitness/traek-vejret-dybt/) er en rigtig god øvelse at <q>kende, når du føler dig stresset og urolig</q>. Igen så kræver vekselåndedrættet bare nogle minutter om dagen. 
+Denne øvelse til vejrtrækningen skriver [Mindhelper](https://mindhelper.dk/mental-fitness/traek-vejret-dybt/) er en rigtig god øvelse at <q>kende, når du føler dig stresset og urolig</q>. Igen så kræver vekselåndedrættet bare nogle minutter om dagen.
 
 {% include video provider="youtube" id="hQRVGn5yuU4" %}
+
+## Lisbeth Lysdals åndedrætsøvelser
+
+Lisbet Lysdal præsenterer tre øvelser, som er med til at give bedre velvære. Hun [skriver](https://liseboegsted.dk/blog/dit-aandedraet-har-betydning-for-kropsligt-velvaere-og-stress-niveau) at <q>Dit åndedræt har betydning for kropsligt velvære og for dit stressniveau</q>.
 
 ## Åndedrætstræning er kommet for at blive
 
 Det er helt sikkert værd at tænke meget mere over åndedrættet i hverdagen. Åndedrætstræning og fokus på vejrtrækningen har altid været en stor del af fx yoga og [mindfulness]({% link _posts/2010-10-05-mindfullness-meditation.md %}), men heldigvis er flere og flere ved at få øjnene op for åndedrættet som en væsentlig del af vores velbefindende, men også vores præstationer.
 
-## Bøger om vejrtrækning og åndedrættet
+## Bøger om vejrtrækning, åndedrætsøvelser og åndedrættet
 
 Jeg har fundet nogle ret gode bøger om åndedrættet og vejrtrækning her.
 
@@ -133,6 +140,6 @@ Dr. Cobb anbefaler en åndedrætstræner til at arbejde med din vejrtrækning. D
 
 {% include feature_row type="left" %}
 
-## Referencer om åndedrætstræning
+## Referencer om åndedrætstræning og åndedrætsøvelser
 
-- [Cobb: Improve Endurance in 7 minutes a day](https://zhealtheducation.com/episode-109-improve-endurance-in-7-minutes-a-day/)
+- [Cobb: Improve Endurance in 7 minutes a day](https://zhealtheducation.com/blog/episode-109-improve-endurance-in-7-minutes-a-day/)

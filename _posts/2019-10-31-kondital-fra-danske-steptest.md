@@ -58,7 +58,7 @@ Aadahl et al (2012) har valideret testen med 795 personer, hvor man har sammenli
 
 Testen har en tendens til at overestimere VO<sub>2</sub>-max sammenlignet med en Watt-max test på cykel.
 
-Senere har Lerche et al (2017) valideret Den Danske Steptest i forhold til direkte måling af maksimal iltoptagelse.
+Senere har Lerche et al (2017) valideret Den Danske Steptest i forhold til direkte måling af [maksimal iltoptagelse]({% link _posts/2019-11-03-intensiteten-og-vo2max.md %}).
 
 > The validity of the Danish step test was moderate (women: r=.66, and men: r=.56); however, men were systematically underestimated (43% misclassification).
 > ...

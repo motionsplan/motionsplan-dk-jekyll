@@ -4,8 +4,8 @@ permalink: /kondital-2400-meter/
 excerpt: "På 2400 meter løbetesten gælder det om at løbe 2400 meter så hurtigt som muligt, og derfra kan du estimere dit kondital og sammenligne dig med normerne."
 language: da
 header:
-  overlay_image: https://www.verywellfit.com/thmb/F9sf5YjPRH3UWHrse3-FoyWArws=/2120x1415/filters:fill(FFDB5D,1)/GettyImages-555000829-5b0215abfa6bcc0036279353.jpg
-  teaser: https://www.verywellfit.com/thmb/F9sf5YjPRH3UWHrse3-FoyWArws=/2120x1415/filters:fill(FFDB5D,1)/GettyImages-555000829-5b0215abfa6bcc0036279353.jpg
+  overlay_image: https://images.unsplash.com/photo-1585855822554-4d21c841708c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2167&q=80
+  teaser: https://images.unsplash.com/photo-1585855822554-4d21c841708c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
   caption: *title
 category:
   - Kondition
@@ -33,13 +33,19 @@ gallery_whyiexercise:
 
 Hvad er 2400-meter-testen? **2400 meter testen er en simpel løbetest for din aerobe kredsløbsmotor, som kun kræver et stopur og en løbebane for at estimere dit kondital. Det er et alternativ til Coopers 12 minutters test. 2400 meter løbetesten er en del af politiets fysiske optagelsesprøve.**
 
+I dette indlæg kan du læse mere om:
+
+- Hvor lang tid tager det at løbe 2400 meter?
+- Finde en beregner til 2400-meter testen, så du kan udregne dit kondital
+- Få en tabel over tider på 2400 meter-testen
+
 {% include video provider="youtube" id="YldNonx193c" %}
 
-Formålet med testen er at gennemføre 2400 meter så hurtigt som muligt.
+Formålet med testen er at gennemføre 2400 meter så hurtigt som muligt. 2400 meter testen er også den test politiet har valgt som løbetest.
 
 ## Normer for 2400 meter konditionstesten
 
-Følgende klassifikation af 2400 meter testen gælder for [mænd og kvinder i alderen 20-29 år](https://www.topendsports.com/testing/tests/2-4-km-run.htm) og er publiceret af [www.topendsports.com](https://www.topendsports.com/testing/tests/2-4-km-run.htm), som angiver at de ikke kender den oprindelige kilde. 
+Følgende klassifikation af 2400 meter testen gælder for [mænd og kvinder i alderen 20-29 år](https://www.topendsports.com/testing/tests/2-4-km-run.htm) og er publiceret af [www.topendsports.com](https://www.topendsports.com/testing/tests/2-4-km-run.htm), som angiver at de ikke kender den oprindelige kilde.
 
 | Rating    | Males       | Females     |
 |-----------|-------------|-------------|
@@ -52,9 +58,21 @@ Følgende klassifikation af 2400 meter testen gælder for [mænd og kvinder i al
 
 På [www.whyiexercise.com](https://www.whyiexercise.com/) kan du finde følgende normer for 2400-meter-testen.
 
-{% include gallery id="gallery_whyiexercise" caption="Normer for mænd og kvinder for 2400-meter-testen fra [www.whyiexercise.com](https://www.whyiexercise.com/)" %}
+{% include gallery id="gallery_whyiexercise" caption="Normer for mænd og kvinder for 2400-meter-testen fra [www.whyiexercise.com](https://www.whyiexercise.com/)" alt="2400 meter testen normer" %}
 
-## Beregner til 2400-meter testen
+## Hvor hurtigt kan man løbe 2400 meter?
+
+Hvor hurtigt du kan løbe 2400 meter er meget afhængigt af din maksimale iltoptagelse, løbeøkonomi og evne til at gå allout.
+
+Jeg har fundet verdensrekorderne på 3000 meter og smidt tallene ind i [en formel for hastighed og vores beregner for gennemsnitshastighed]({% link _posts/2019-12-05-hastighed-beregnere.md %}).
+
+Hvis vi kigger på **verdensrekordholderen for mænd på 3000 meter**, Daniel Komen, så har han løbet 3000 meter på 7:20.67. Det svarer til en hastighed på 24,49 km/t. Det svarer til, at Daniel Komen løb 2400 meter på 5 minutter og 53 sekunder.
+
+Tager vi den **kvindelige verdensrekordholder på 3000 meter**, Wang Junxia, så løb hun 3000 meter på 8:06.11, hvilket svarer til 22,22 km/t. Wang Junxia kunne således med samme hastighed løbe 2400 meter på 6:29.
+
+## Beregner til kondital for 2400-meter testen
+
+I nedenstående beregner kan du udregne dit kondital på baggrund af 2400-meter testen.
 
 {% include calculate-fitness-2400-meter.html %}
 

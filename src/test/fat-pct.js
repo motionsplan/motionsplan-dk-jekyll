@@ -28,4 +28,18 @@ describe('CalculateFatPercent', function() {
       assert.equal(fat.getBodyFatPercentDuerenbergBMIEquation(), 33.42962962962963);
     });
   });
+  describe('getGallagher', function() {
+    it('should return the correct number', function() {
+      var fat = motionsplan.CalculateFatPercent(180, 80, 40, 'man');
+      assert.equal(fat.getBodyFatPercentGallagher(), 21.407999999999998);
+      assert.equal(fat.getBodyFatPercentGallagher("afro"), 20.208);
+      assert.equal(fat.getBodyFatPercentGallagher("asian"), 22.992499999999996);
+    });
+    it('should return the correct number', function() {
+      var fat = motionsplan.CalculateFatPercent(180, 80, 40, 'woman');
+      assert.equal(fat.getBodyFatPercentGallagher(), 33.507999999999996);
+      assert.equal(fat.getBodyFatPercentGallagher("asian"), 35.092499999999994);
+      assert.equal(fat.getBodyFatPercentGallagher("afro"), 32.30799999999999);
+    });
+  });
 });

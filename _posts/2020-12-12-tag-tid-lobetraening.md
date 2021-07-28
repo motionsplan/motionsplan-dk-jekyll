@@ -20,22 +20,25 @@ feature_row:
     title: "Garmin HRM-Run Pulsbælte"
     excerpt: "Garmins pulsbælte fungerer rigtig fint sammen med EliteHRV-appen til at måle heart rate variability og naturligvis sammen med de forskellige Garmin Produkter, fx det fantastiske FENIX-ur."
     url: https://track.adtraction.com/t/t?a=1124622406&as=1484571907&t=2&tk=1&url=https://sportmaster.dk/garmin-hrm-run-pulsmalerrem-black-1476604
-    btn_label: "Se prisen*"
+    btn_label: "Se prisen"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
   - image_path: https://www.loebeshop.dk/media/catalog/product/cache/1/image/575x/040ec09b1e35df139433887a97daa66f/r/_/r_fenix5x_hr_2003.1.jpg
     alt: "Garmin FENIX 5S Smartwatch"
     title: "Garmin FENIX 5S Smartwatch"
     excerpt: "Garmin Fenix er fantastiske pulsure og aktivitetsure. Garmin har implementeret deres egen form for træningsparathed, som ikke helt er heart rate variability."
     url: https://track.adtraction.com/t/t?a=1124622406&as=1484571907&t=2&tk=1&url=https://sportmaster.dk/garmin-fenix-5-plus-sapphire-2058971?size=One+Size&gclid=Cj0KCQjwj7v0BRDOARIsAGh37ipamu_nXNAfyMPbgF4aQfhUyRpXvIcMdu7wu2hXPvpD1_bP8i6zo54aAvojEALw_wcB
-    btn_label: "Se prisen*"
+    btn_label: "Se prisen"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
   - image_path: https://www.mediasupply.dk/wp-content/uploads/2019/11/088d227c-d03a-42b5-8ae6-3ecfaab4c69d.jpg
     alt: "Bose Spoundsport Free"
     title: "Bose Spoundsport Free"
     excerpt: "Bose Spoundsport Free er hovedtelefoner, der spiller ensartet og klart, uanset om din telefon er i hånden, i lommen, spændt fast på din arm eller sidder oven på løbebåndet … og der er ikke et eneste kabel involveret."
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=77605&htmlurl=https://www.mediasupply.dk/vare/bose-soundsport-free/
-    btn_label: "Se prisen*"
+    btn_label: "Se prisen"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 ---
 
 Jeg tager tid på de fleste løbeture, jeg løber. Det gør jeg for at holde styr på, hvor lang tid jeg træner og for at se, hvilket tempo jeg løber i. Tag tid på dine løbeture, hvis du vil holde styr på din træning.
@@ -58,7 +61,7 @@ Du kan efterhånden få løbeure i alle mulige prisklasser og med mange forskell
 
 Når du tager tid på din løbetid, så kan du holde øje med, om du forbedrer din løbetid. Hvis du jævnligt løber en fast rute, så kan det være meget motiverende at tage tid på den. Hvis du samtidig måler din puls, så kan du både se om tiden forbedrer sig - eller om den gennemsnitlige puls ved at gennemføre løberuten forbedres.
 
-Hvis du tager tid, og du bruger mindre tid på den samme strækning, så er din hastighed steget. Vi har lavet en beregner, hvor du kan [udregne din hastighed]({% link _posts/2019-12-05-hastighed-beregnere.md %}) eller [omregne fra km/t til min/km]({% link _posts/2019-12-05-hastighed-beregnere.md %}). 
+Hvis du tager tid, og du bruger mindre tid på den samme strækning, så er din hastighed steget. Vi har lavet en beregner, hvor du kan [udregne din hastighed]({% link _posts/2019-12-05-hastighed-beregnere.md %}) eller [omregne fra km/t til min/km]({% link _posts/2019-12-05-hastighed-beregnere.md %}).
 
 Du kan også på løbebane eller med et GPS-ur løbe et bestemt antal minutter, fx en [Cooper-test]({% link _posts/2019-10-31-kondital-cooper.md %}), for at se om du kan komme længere på det samme tidsrum. Du kan også bare bruge den samme løberute, for at se om du kommer længere frem på den samme tid.
 
@@ -76,6 +79,6 @@ Jeg bruger selv et Garmin Fenix med en pulsmåler. Det giver mig et virkelig god
 
 Det jeg nyder mest ved Garmin løbeuret er, at det er let at bruge til at tage tid på min træning og i mine intervaller, samtidig med at jeg får pulsmålingerne og kan arbejde med træning i pulszoner.
 
-De nyeste Garmin-løbeure kan du endda have [musik til din træning]({% link _posts/2013-05-02-musik-til-traeningen.md %}) direkte på løbeuret, så du ikke behøver at have en smartphone med, når du løber. Du behøver bare et Bluetooth headset. Jeg bruger selv [Bose Soundsport\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=77605&htmlurl=https://www.mediasupply.dk/vare/bose-soundsport-free/). De spiller rigtig godt. Jeg havde lidt problemer med det første par, jeg fik, men Bose byttede dem bare, og dette par spiller rigtig godt - og de sidder godt i ørerne.
+De nyeste Garmin-løbeure kan du endda have [musik til din træning]({% link _posts/2013-05-02-musik-til-traeningen.md %}) direkte på løbeuret, så du ikke behøver at have en smartphone med, når du løber. Du behøver bare et Bluetooth headset. Jeg bruger selv [Bose Soundsport](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=77605&htmlurl=https://www.mediasupply.dk/vare/bose-soundsport-free/){: rel='sponsored nofollow noopener' }. De spiller rigtig godt. Jeg havde lidt problemer med det første par, jeg fik, men Bose byttede dem bare, og dette par spiller rigtig godt - og de sidder godt i ørerne.
 
 {% include feature_row type="left" %}

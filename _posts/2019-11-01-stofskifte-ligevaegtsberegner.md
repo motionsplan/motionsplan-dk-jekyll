@@ -1,7 +1,7 @@
 ---
 title: &title "Beregn dit ligevægtsindtag med vores ligevægtsberegner ⚖️"
-seo_title: "Ligevægtsindtag beregner ⚖️ Beregn GRATIS og lær mere [Beregner] »"
-description: "Beregn ligevægtsindtag i fores enkle beregner ⚖️ Udregn GRATIS dit ligevægtsindtag få et estimat på, hvor mange kalorier du skal indtage, fx på en kostplan."
+seo_title: "Hvad er dit ligevægtsindtag? Gratis beregner [2021] »"
+description: "Beregn ligevægtsindtag i fores enkle beregner ✓ Udregn GRATIS dit ligevægtsindtag få et estimat på, hvor mange kalorier du skal indtage, fx på en kostplan."
 permalink: /beregner/ligevaegtsindtag-med-ligevaegtsberegner/
 redirect_from:
   - /ligevaegtsindtag/
@@ -16,6 +16,7 @@ tags:
   - stofskifte
   - ligevægtsindtag
   - ligevægtsberegner
+  - featured
 last_modified_at: 2020-12-06T23:14:14Z
 toc: true
 keywords:

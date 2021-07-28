@@ -1,8 +1,17 @@
 ---
-title: "Skuldermuskel"
+title: "Skuldermuskel - Deltamuskel - Deltoideus"
+functional_group:
+  - Armens udadføring
+  - Armens fremadføring
+joint:
+  - Skulderleddet
+excerpt: ""
 name:
   latin: Deltoideus
+  da: Deltamusklen
 category:
+  - Skulder
+group:
   - Skulder
 tags:
   - imagemap
@@ -14,16 +23,16 @@ insertion:
   da: Øverst på ydersiden af overarmsknoglen
 function:
   da:
-    - short: The anterior (or front) fibers of the deltoid muscle flex the arm at the shoulder.
-      extended: This means that the anterior fibers of the deltoid muscle move the upper arm upward to the front.
-    - short: The anterior (or front) fibers of the deltoid muscle medially rotate the upper arm.
-      extended: This means that the anterior fibers of the deltoid muscle rotate the upper arm inward around the axis of the bone (i.e. rotate the upper arm toward the vertical midline of the body).
-    - short: The lateral (or side) fibers of the deltoid muscle abduct the arm at the shoulder.
-      extended: This means that the lateral fibers of the deltoid muscle move the upper arm upward to the side.
-    - short: The posterior (or rear) fibers of the deltoid muscle extend the arm at the shoulder.
-      extended: This means that the posterior fibers of the deltoid muscle move the upper arm downward to the rear.
-    - short: The posterior (or rear) fibers of the deltoid muscle laterally rotate the upper arm.
-      extended: This means that the posterior fibers of the deltoid muscle rotate the upper arm outward around the axis of the bone (i.e. rotate the upper arm away from the vertical midline of the body).
+    - short: Fleksion i skulderleddet (forreste del)
+      extended: De anteriore fibre af deltoideus er med til at bevæge armen fremad i skulderleddet.
+    - short: Indadrotation i skulderledddet (forreste del)
+      extended: De anteriore fibre af deltoideus er med til at indadrotere armen i skulderleddet.
+    - short: Abduktion i skulderleddet (midterste del)
+      extended: De laterale fibre af deltoideus bevæger armen opad og ud til siden.
+    - short: Ekstension i skulderleddet (bagerste del)
+      extended: De posteriore fibre af deltoideus bevæger armen bagud og opad.
+    - short: Udadrotation i skulderleddet (bagerste del)
+      extended: De posteriore fibre af deltoideus roterer overarmen udad.
   en:
     - short: The anterior (or front) fibers of the deltoid muscle flex the arm at the shoulder.
       extended: This means that the anterior fibers of the deltoid muscle move the upper arm upward to the front.
@@ -35,8 +44,6 @@ function:
       extended: This means that the posterior fibers of the deltoid muscle move the upper arm downward to the rear.
     - short: The posterior (or rear) fibers of the deltoid muscle laterally rotate the upper arm.
       extended: This means that the posterior fibers of the deltoid muscle rotate the upper arm outward around the axis of the bone (i.e. rotate the upper arm away from the vertical midline of the body).
-exercises:
-  - Stående calf-raise
 image: /assets/images/anatomy/deltoid.jpg
 image_focus: /assets/images/anatomy/focus-deltoid.jpg
 coords:
@@ -46,18 +53,6 @@ coords:
   - "426,97,414,96,404,93,390,103,385,121,385,131,399,121,408,106"
 ---
 
-_{{ page.name.latin }}_
+## Træning af {{ page.title }}
 
-- **Udspring**: {{ page.origin.da }}
-- **Hæfte**: {{ page.insertion.da }}
-
-{% include figure image_path=page.image alt=page.title caption=page.title %}
-
-## Funktion
-
-{% for f in page.function.da %}
-- **{{ f.short }}**.
-  {{ f.extended | markdownify }}
-{% endfor %}
-
-{% include figure image_path=page.image_focus alt=page.title caption=page.title %}
+{% include video provider="youtube" id="q8lwFkXMoOo" %}

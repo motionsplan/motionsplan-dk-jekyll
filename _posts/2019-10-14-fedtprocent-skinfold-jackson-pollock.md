@@ -24,6 +24,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=20604&htmlurl=https://www.bodyman.dk/shop/accu-measure-fitness-54935p.html"
     btn_label: "Læs mere"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 feature_row_references:
   - image_path: https://imgcdn.saxo.com/_9781469825885/0x500
     alt: "ACSM's Guidelines for Exercise Testing and Prescription"
@@ -32,6 +33,7 @@ feature_row_references:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/acsms-guidelines-for-exercise-testing-and-prescription_american-college-of-sports-medicine_epub_9781469825885?gclid=CjwKCAiA5JnuBRA-EiwA-0ggPdXHFExjFsqJLnGbAfydZFfXbHNc8LCSWFplRzuKmJ9vjX1Z3A8TfRoCzqgQAvD_BwE"
     btn_label: "Læs mere"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 ---
 
 Jackson & Pollocks 3-punktsmåling er en hudfoldsmåling og formel, som du kan bruge til at estimere din fedtprocent og fedtfri masse. Metoden anbefales som standard af American College of Sports Medicine (ACSM).
@@ -69,6 +71,13 @@ Jeg bruger [formlerne som præsenteres på fitties.com](https://fitties.com/fat-
 [Nevill et al (2008)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2891061/) stiller spørgsmålet i deres studium, om Jackson og Pollocks formler stadig kan bruges til at estimere fedtprocenten for overvægtige. De konkluderer, at man skal være varsomme med at bruge formlerne til overvægtige mennesker.
 
 Nevill et al (2008) rapporterer både om 7-punktsmålingen og 3-punktsmålingen. Hvis man i 7-punktsmålingen har en samlet _sum of skinfolds_ på over 120, så bør man være varsom med at bruge formlerne til at estimere fedtprocenten. De foreslår en alternativ formel.
+
+## Konklusion
+
+Jeg har skrevet et uddybende indlæg om at [måle skinfolds med fedttang]({% link _posts/2019-10-14-fedtprocent-skinfold.md %}).
+
+Husk at testen udelukkende estimerer din fedtprocent. Testen er ikke et startskud til en [slankekur]({% link _posts/2020-09-04-slankekur.md%}), fordi du skal opnå en tilfældig [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}) fra en beregner.
+{: .notice .notice--info }
 
 ## Andre formler til måling af fedtprocent
 

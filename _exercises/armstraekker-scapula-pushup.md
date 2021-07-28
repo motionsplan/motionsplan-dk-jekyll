@@ -1,6 +1,6 @@
 ---
 title: &title "Scapula Pushup"
-excerpt: ""
+excerpt: "Scapula pushups træner aktiv protraktion (primært musklen serratus anterior), og skaber således en mere balanceret muskulatur rundt om skulderbladet."
 instructions: ""
 permalink: /oevelse/scapula-pushup/
 language: da
@@ -39,4 +39,6 @@ video:
 key: 20201213171700
 ---
 
-Scapulae pushups kan jeg lide fordi man laver så meget retraktion hele tiden i styrketræning - trækker skulderbladene sammen - både i bænkpres og pullups, men jo også til SQ og mange andre øvelser. Så denne øvelse træner aktiv protraktion (primært musklen serratus anterior), og skaber således en mere balanceret muskulatur rundt om skulderbladet.
+Scapulae pushups kan jeg lide fordi man laver så meget retraktion hele tiden i styrketræning - trækker skulderbladene sammen - både i bænkpres og pullups, men jo også til SQ og mange andre øvelser.
+
+Scapula pushups træner aktiv protraktion (primært musklen serratus anterior), og skaber således en mere balanceret muskulatur rundt om skulderbladet.

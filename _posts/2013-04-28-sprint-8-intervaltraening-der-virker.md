@@ -1,6 +1,7 @@
 ---
 title: &title "Sprint 8 - intervaltræning der virker 🏃‍♀️🏃"
-permalink: /artikel/sprint-8-intervaltræning-der-virker/
+permalink: /artikel/sprint-8-intervaltraening-der-virker/
+redirect_from: /artikel/sprint-8-intervaltræning-der-virker/
 language: da
 header:
   overlay_image: /assets/images/blog/sprint-8-intervaltraening-der-virker.jpg
@@ -14,7 +15,6 @@ tags:
 category:
   - Kondition
   - Løb
-  - Webclips
 last_modified_at: 2013-04-28T13:13:06Z
 ---
 

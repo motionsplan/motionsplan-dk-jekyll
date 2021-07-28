@@ -1,12 +1,12 @@
 ---
 title: &title "Tæl skridt 2021 🚶‍♀️🚶‍♀️ Det er motiverende at tælle skridt"
-seo_title: "Tæl skridt 2021 🥇 Vind op til 25.000 kroner 4 gange årligt"
-description: "Tæl skridt og bliv 🚶 Motiveret 🥇 Deltag i en konkurrence 💰 Vind op til 25.000 kroner 💗 Bliv sundere 🚶‍♀️ Nå de 10.000 skridt 🧠 Psykologiske effekter"
+seo_title: "Tæl skridt 2021 - Vind op til 25.000 kroner 4 gange årligt »"
+description: "Tæl skridt og bliv ✓ Motiveret ✓ Deltag i en konkurrence ✓ Bliv sundere ✓ Nå de 10.000 skridt ✓ Psykologiske effekter ✓ Vind op til 25.000 kroner"
 permalink: /artikel/tael-skridt/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1496185106368-308ed96f204b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1994&q=80
-  teaser: https://images.unsplash.com/photo-1496185106368-308ed96f204b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1616935487656-1b6b25c1015f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80
+  teaser: https://images.unsplash.com/photo-1616935487656-1b6b25c1015f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
   caption: *title
 tags:
   - skridt
@@ -87,7 +87,7 @@ Tæl Skridt-kampagnerne arrangeres af Dansk Firma Idrætsforbund. Der tælles sk
 
 Du kan være med i Tæl Skridt enten som enkeltperson eller som forening. En Tæl Skrdit-kampagne varer to uger. Der er 4 Tæl Skridt-kampagner pr. år. I 14-dages perioden skal deltagerne hver dag tælle skridt (ved hjælp af skridttæller) og rapportere det opnåede skridtantal til Tæl Skridt-hjemmesiden.
 
-Hvis du laver anden motion, så kan du bruge en [omregningstabel eller Tæl Skridt-beregner](/omregn-motion-aktivitet-sport-til-skridt/)  til at omdanne anden aktivitet til skridt. 
+Hvis du laver anden motion, så kan du bruge en [omregningstabel eller Tæl Skridt-beregner](/omregn-motion-aktivitet-sport-til-skridt/)  til at omdanne anden aktivitet til skridt.
 
 Målet er, at deltagerne i gennemsnit skal gå (mindst) 10.000 skridt pr. dag i løbet af kampagneperioden (man skal naturligvis helst gå meget hele året). Hvis du selv eller holdet opfylder dette krav, så kan man deltage i en konkurrence om kontante pengebeløb.
 
@@ -101,11 +101,11 @@ Hvis du tilmelder dig Tæl Skridt-kampagnen kan du **vinde kontante pengepræmie
 
 ## Skridt ur til at tælle skridt
 
-Der findes mange billige og effektive skridttællere. Rigtig mange aktivitetsure har også efterhånden indbygget skridttæller. Jeg bruger selv et [Garmin Fenix\*](https://track.adtraction.com/t/t?a=1124622406&as=1484571907&t=2&tk=1&url=https://sportmaster.dk/garmin-fenix-5-plus-sapphire-2058971?size=One+Size&gclid=Cj0KCQjwj7v0BRDOARIsAGh37ipamu_nXNAfyMPbgF4aQfhUyRpXvIcMdu7wu2hXPvpD1_bP8i6zo54aAvojEALw_wcB).
+Der findes mange billige og effektive skridttællere. Rigtig mange aktivitetsure har også efterhånden indbygget skridttæller. Jeg bruger selv et [Garmin Fenix](https://track.adtraction.com/t/t?a=1124622406&as=1484571907&t=2&tk=1&url=https://sportmaster.dk/garmin-fenix-5-plus-sapphire-2058971?size=One+Size&gclid=Cj0KCQjwj7v0BRDOARIsAGh37ipamu_nXNAfyMPbgF4aQfhUyRpXvIcMdu7wu2hXPvpD1_bP8i6zo54aAvojEALw_wcB){: rel="nofollow sponsored noopener" }.
 
 Jeg leder lige nu efter de bedste skridture og skridttællere til at tælle skridt. Det er jo vigtigt, at de måler nogenlunde præcist.
 
-Du kan selv starte med at lede efter [skridttællere hos den Intelligentekrop.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/catalogsearch/result/?q=skridtt%C3%A6ller).
+Du kan selv starte med at lede efter [skridttællere hos den Intelligentekrop.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/catalogsearch/result/?q=skridtt%C3%A6ller){: rel='sponsored nofollow noopener' }.
 
 ## Tæl skridt app
 

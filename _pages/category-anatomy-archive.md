@@ -7,4 +7,5 @@ collection: anatomy
 title: "Anatomi efter kategori"
 author_profile: true
 classes: wide
+sitemap: false
 ---

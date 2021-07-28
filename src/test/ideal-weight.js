@@ -11,10 +11,21 @@ describe('IdealWeight', function() {
       assert.equal(hr.getDevine(), 75.48);
       assert.equal(hr.getRobinson(), 73);
       assert.equal(hr.getPeterson(), 71.50000000000001);
-      assert.equal(hr.getIdealWeightBasedOnBmiAndBodytype(1), 79.38000000000001);
+      assert.equal(hr.getIdealWeightBasedOnBMI(), 79.38000000000001);
+    });
+  });
       
+  describe('getIdealWeightBasedOnBMI()', function() {
+    it('should return the correct number', function() {
       var hr = motionsplan.IdealWeight(180, "woman");
-      assert.equal(hr.getIdealWeightBasedOnBmiAndBodytype(1), 72.9);
+      assert.equal(hr.getIdealWeightBasedOnBMI(), 72.9);
+    });
+  });
+      
+  describe('getIsMale()', function() {
+    it('should return the correct number', function() {
+      var hr = motionsplan.IdealWeight(180, "woman");
+      assert.equal(hr.isMale(), false);
     });
   });
 });

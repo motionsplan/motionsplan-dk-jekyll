@@ -143,7 +143,7 @@ For at træne det aerobe system, så kan man følge disse principper:
 - Desto lavere intensiteten er, desto højere skal volumen være.
 - Det aerobe system kan forbedres både gennem _steady state_-træning og intervaller, fx [intervalløb]({% link _posts/2020-06-15-intervallob.md %}).
 
-Eksempler på træningsmetoder kunne være:
+Eksempler på træningsmetoder til det aerobe system kunne være:
 
 ### Cardiac Output
 
@@ -151,7 +151,7 @@ Målet er at forøge størrelsen på hjertets venstre ventrikel og derved øge h
 
 Pulsen bør være i området fra 130-150 slag i minuttet. Aktiviten bør tage fra 30-90 minutter. Det kan både være løb, cykling, roning eller cirkeltræning med jævn puls. 
 
-{% include video provider="facebook" id="https://www.facebook.com/8weeksout/videos/10155781664495787" %}
+{% include video provider="facebook" id="8weeksout/videos/10155781664495787" %}
 
 ### Tempointervaller
 
@@ -159,13 +159,15 @@ Målet er at øge densiteten af kapilærerne ved musklerne og forbedre de _oxida
 
 Arbejdet er 8-12 sekunder med 70% af den maksimale intensitet med omkring 60 sekunders arbejde. Der kan laves 8-22 reps med moderat intensitet.
 
-{% include video provider="facebook" id="https://www.facebook.com/8weeksout/videos/10155692941440787" %}
+{% include video provider="facebook" id="8weeksout/videos/10155692941440787" %}
 
 ### High Resistance Intervals
 
 Målet er at forbedre udholdenheden af _fast twitch_-muskelfibrene. Skal ske med høj modstand, bakke eller vægt. Arbejdsperioden er omkring 5-8 sekunder. Pause indtil hjertet er faldet til omkring 130-160 slag / min. 
 
-{% include video provider="facebook" id="https://www.facebook.com/8weeksout/videos/10155741321175787" %}
+{% include video provider="facebook" id="8weeksout/videos/10155741321175787" %}
+
+Jeg har skrevet endnu mere om [aerob træning]({% link _posts/2021-06-19-aerob-traening.md %}).
 
 ## Træning af det anaerobe system
 
@@ -201,6 +203,8 @@ Der arbejdes 30-40 sekunder med 1-4 minutters pause. Der arbejdes med 2-5 sæt o
 ### High intensity continuous training (HICT)
 
 {% include video provider="youtube" id="q8zcxiucNkY" %}
+
+Jeg har skrevet endnu mere om [anaerob træning]({% link _posts/2021-01-02-anaerob-traening.md %}).
 
 ## Programlægning af aerob og anaerob træning
 
@@ -246,7 +250,7 @@ High-low-princippet betyder, at træningen af energisystemerne enten skal være 
 
 En god baseline at sætte for sin træning kunne være at finde ud af, hvor meget kraft man kan lave både aerobt og anaerobt og derved få en forståelse for sin _anaerobe power reserve_.
 
-{% include video provider="facebook" id="https://www.facebook.com/8weeksout/videos/10155997740030787" %}
+{% include video provider="facebook" id="8weeksout/videos/10155997740030787" %}
 
 Aerobic Power
 : Den aerobe power er den maksimale kraft, der kan produceres med aerob energiomsætning - altså med til tilgængelig. Normalt vil man måle denne som kraften eller hastigheden ved VO<sub>2</sub>max, men den vil også korrelere med laktattærsklen (AT). Dette er en måling af kraft man kan opretholde i en længere periode, og den er også væsentlig i gentagne aktiviteter af kortere varighed.
@@ -263,13 +267,13 @@ På engelsk hedder træning af energisystemerne for 'conditioning'. Der er desv�
 
 Sammenhængen mellem det aerobe og anaerobe system og træningen af det forklares rigtig godt i denne korte video.
 
-{% include video provider="facebook" id="https://www.facebook.com/8weeksout/videos/10153984991045787/" %}
+{% include video provider="facebook" id="8weeksout/videos/10153984991045787/" %}
 
 ## Generel vs. specifik conditioning
 
 Når man træner det aerobe og anaerobe system, så er det godt at skelne mellem generel og specifik conditioning. Energisystemerne kan trænes for sig selv, men de bør også trænes specifikt i forhold til den idrætsgren, du træner mod.
 
-{% include video provider="facebook" id="https://www.facebook.com/8weeksout/videos/10155830804600787" %}
+{% include video provider="facebook" id="8weeksout/videos/10155830804600787" %}
 
 ## Mere om energisystemer
 

@@ -7,4 +7,5 @@ collection: exercises
 title: "Træningsøvelser efter kategori"
 author_profile: true
 classes: wide
+sitemap: false
 ---

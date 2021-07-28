@@ -1,23 +1,27 @@
 ---
 title: "Infraspinatus"
+excerpt: ""
+joint:
+  - Skulderleddet
+group:
+  - Arme
+  - Ryg
 name:
   latin: "Infraspinatus"
 tags:
   - imagemap
   - muskel
 origin: 
-  da: Et hoved fra hver side af nederste bageste del af lårbenet.
+  da: 
 insertion: 
-  da: i akillessenen og fæster på hælbenet.
+  da: 
 function:
   da:
-    - short: Laterally rotates the upper arm.
-      extended: This means that the infraspinatus muscle rotates the upper arm outward around the axis of the bone (i.e. it rotates the upper arm away from the vertical midline of the body).
+    - short: Udadrotation i skulderleddet
+      extended: Infraspinatus roterer overarmen udad.
   en:
     - short: Laterally rotates the upper arm.
       extended: This means that the infraspinatus muscle rotates the upper arm outward around the axis of the bone (i.e. it rotates the upper arm away from the vertical midline of the body).
-exercises:
-  - Stående calf-raise
 image: /assets/images/anatomy/infraspinatus.jpg
 image_focus: /assets/images/anatomy/focus-infraspinatus.jpg
 coords:
@@ -25,18 +29,12 @@ coords:
   - "489,97,503,105,484,129,479,128,483,106"
 ---
 
-_{{ page.name.latin }}_
+Infraspinatus en del af rotatorcuffen som stabiliserer skulderleddet. Samtidig udadroterer infrapinatus armen i skulderleddet og hjælper med at føre armen bagud.
 
-- **Udspring**: {{ page.origin.da }}
-- **Hæfte**: {{ page.insertion.da }}
+## Træning af {{ page.title }}
 
-{% include figure image_path=page.image alt=page.title caption=page.title %}
+Vores favoritøvelse til den bagerste del af rotatorcuffen er Face pulls med 1 sekund stop i toppositionen.
 
-## Funktion
+Du kan imidlertid også bruge denne øvelse til at ramme infraspinatus.
 
-{% for f in page.function.da %}
-- **{{ f.short }}**.
-  {{ f.extended | markdownify }}
-{% endfor %}
-
-{% include figure image_path=page.image_focus alt=page.title caption=page.title %}
+{% include video provider="youtube" id="0yowX4d2aoo" %}

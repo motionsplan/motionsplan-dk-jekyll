@@ -2,6 +2,7 @@
 title: &title "12 citater om fitness og bodybuilding [2021]"
 permalink: /citater-fitness-bodybuilding/
 last_modified_at: 2020-12-29T09:41:09Z
+excerpt: "Jeg falder ofte over citater om fitness og bodybuidling, og mange af dem er inspirerende og motiverende. Jeg har samlet 12 citater her. Jeg synes et citat kan give motivation til min træning i fitness, og nogle af dem der træner allermest er jo bodybuildere."
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2167&q=80
@@ -47,18 +48,20 @@ feature_row:
     vendor: "Wallstickerland"
     category: "2334"
     price: 299.00
-    old_price: 
+    old_price:
     discounted: false
     id: "465"
+    rel: sponsored nofollow noopener
   - image_path: "https://www.wallstickerland.dk/media/catalog/product/w/h/why-i-do-what-i-do---arnold-scharzenegger-1.jpg"
     url: "https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/why-i-do-what-i-do-arnold-scharzenegger-wallsticker"
     title: "Why I Do What I Do - Arnold Scharzenegger"
     vendor: "Wallstickerland"
     category: "2334"
     price: 199.00
-    old_price: 
+    old_price:
     discounted: false
     id: "929"
+    rel: sponsored nofollow noopener
 feature_row_schwarznegger_poster:
   - image_path: "https://citatplakat.dk/wp-content/uploads/2020/11/Fotoplakat-arnold-shwarzenegger-FO10270.png"
     url: "https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/design-plakater/arnold-schwarzenegger-plakat/"
@@ -69,9 +72,10 @@ feature_row_schwarznegger_poster:
     old_price: 129.00
     discounted: false
     id: "232432"
+    rel: sponsored nofollow noopener
 gallery:
   - image_path: /assets/images/pinterest/citat-dwayne-johnson.png
-    url: /assets/images/pinterest/cita-dwayne-johnson.png
+    url: /assets/images/pinterest/citat-dwayne-johnson.png
   - image_path: /assets/images/pinterest/wendler-accessories.png
     url: /assets/images/pinterest/wendler-accessories.png
   - image_path: /assets/images/pinterest/wendler-get-it-done.png
@@ -80,15 +84,18 @@ citatplakat:
   - image_path: https://d3aa3603f5de3f81cb9fdaa5c591a84d5723e3cb.hosting4cdn.com/wp-content/uploads/2020/11/Definition-fitness-ML10014-214x300.png
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=71262&htmlurl=https://citatplakat.dk/plakater/definitionsplakater/fitness-definition-engelsk/
     title: Fitness definition
+    rel: sponsored nofollow noopener
   - image_path: https://d3aa3603f5de3f81cb9fdaa5c591a84d5723e3cb.hosting4cdn.com/wp-content/uploads/2020/11/Plakat-med-tegning-af-vaegt-PA10081-214x300.png
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=71262&htmlurl=https://citatplakat.dk/plakater/haandvaegt-patent-plakat/
     title: Håndvægt
+    rel: sponsored nofollow noopener
   - image_path: https://d3aa3603f5de3f81cb9fdaa5c591a84d5723e3cb.hosting4cdn.com/wp-content/uploads/2020/11/Citat-plakat-staerk-mand-CG16100-595x833.png
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=71262&htmlurl=https://citatplakat.dk/plakater/citatplakater/do-you-even-lift-bro/
     title: Do you even lift bro?
+    rel: sponsored nofollow noopener
 ---
 
-Jeg falder ofte over citater om fitness og bodybuidling, og mange af dem er inspirerende og motiverende. Jeg har samlet {{ page.feature_quotes.size }} citater her. Jeg synes et citat kan give motivation til min træning i fitness, og nogle af dem der træner allermest er jo bodybuildere. 
+Jeg falder ofte over citater om fitness og bodybuidling, og mange af dem er inspirerende og motiverende. Jeg har samlet {{ page.feature_quotes.size }} citater her. Jeg synes et citat kan give motivation til min træning i fitness, og nogle af dem der træner allermest er jo bodybuildere.
 
 Jeg har samlet en masse forskellige citater om fitness og bodybuilding her på siden, men jeg har også oprettet en [Pinterest Opslagstavle med citater](https://pin.it/6VHPDcC), så skynd dig ind og følge den.
 

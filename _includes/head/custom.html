@@ -25,9 +25,12 @@ if (getCookie('AdsToggle') !== 0) {
 }
 </script>
 {% endif %}
-<link rel="manifest" type="application/manifest+json" href="{{ "/manifest.json" | relative_url }}">
 
 {% include head/favicon.html %}
+
+{% if page.sitemap == false or page.robots %}
+  <meta name="robots" content="{{ page.robots | default: "noindex" }}">
+{% endif %}
 
 <script>
 // Check compatibility for the browser we're running this in

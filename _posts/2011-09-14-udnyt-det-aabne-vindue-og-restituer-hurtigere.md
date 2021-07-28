@@ -1,5 +1,6 @@
 ---
 title: &title "Anabolic Window: Hvad er facts om det åbne vindue? [2021]"
+excerpt: "Lige efter træning er kroppen helt klar til at modtage næringsstoffer. Man taler ofte om _det åbne vindue_ eller på engelsk _the anabolic window_. Jeg har researchet lidt på, hvad det åbne vindue egentlig er?"
 permalink: /artikel/aabne-vindue-og-anabolic-window/
 redirect_from:
   - /artikel/udnyt-det-aabne-vindue-og-restituer-hurtigere
@@ -134,7 +135,24 @@ Man skal nok ikke opfatte vinduet så snævert som man har gjort i nogle år. De
 
 Sørg for at få nok protein at spise omkring din træning, og det er også vigtigt at få genopfyldt glykogendepoterne. Hvis du har brug for hurtigt at få genopfyldt glykogendepoterne, så kan det måske betale sig at kigge lidt på det glykæmiske index.
 
+## Læs flere artikler om restitution
+
+<div class="feature__wrapper">
+
+{% assign site_posts = site.posts | where: "tags", "restitution" | sort: "last_modified_at" | reverse %}
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
 ## Referencer om det åbne vindue
+
+<details markdown="1">
+  <summary>Se referencer om det åbne vindue</summary>
 
 - Aragon, Alan Albert, og Brad Jon Schoenfeld. 2013. “Nutrient timing revisited: is there a post-exercise anabolic window?” _Journal of the International Society of Sports Nutrition_ 10 (1): 5. [https://doi.org/10.1186/1550-2783-10-5](https://doi.org/10.1186/1550-2783-10-5).
 - Churchward-Venne, Tyler A, Nicholas A Burd, og Stuart M Phillips. 2012. “Nutritional regulation of muscle protein synthesis with resistance exercise: strategies to enhance anabolism”. _Nutrition & Metabolism_ 9 (maj): 40. [https://doi.org/10.1186/1743-7075-9-40](https://doi.org/10.1186/1743-7075-9-40).
@@ -143,3 +161,4 @@ Sørg for at få nok protein at spise omkring din træning, og det er også vigt
 - Lemon, Peter W. R., John M. Berardi, og Eric E. Noreen. 2002. “The Role of Protein and Amino Acid Supplements in the Athlete’s Diet: Does Type or Timing of Ingestion Matter?” _Current Sports Medicine Reports_ 1 (4): 214–21. [https://doi.org/10.1249/00149619-200208000-00005](https://doi.org/10.1249/00149619-200208000-00005).
 - Schoenfeld, Brad Jon, Alan Albert Aragon, og James W. Krieger. 2013. “The effect of protein timing on muscle strength and hypertrophy: a meta-analysis”. _Journal of the International Society of Sports Nutrition_ 10 (1): 53. [https://doi.org/10.1186/1550-2783-10-53](https://doi.org/10.1186/1550-2783-10-53).
 - Schoenfeld, Brad Jon, Alan Aragon, Colin Wilborn, Stacie L. Urbina, Sara E. Hayward, og James Krieger. 2017. “Pre- versus post-exercise protein intake has similar effects on muscular adaptations”. _PeerJ_ 5 (januar). [https://doi.org/10.7717/peerj.2825](https://doi.org/10.7717/peerj.2825).
+</details>

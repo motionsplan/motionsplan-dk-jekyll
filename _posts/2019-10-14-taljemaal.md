@@ -10,10 +10,11 @@ category:
   - Test
 tags:
   - fedtprocent
-  - beregnere
+  - beregner
   - kropskomposition
   - test
   - tracking
+  - featured
 last_modified_at: 2020-07-06T23:14:14Z
 toc: true
 ---
@@ -51,7 +52,7 @@ Taljemålet er særligt relevant, fordi fedtet omkring maven giver øget risiko 
 Hvordan måler du taljen (din livvidde)? Og hvor måles taljemål for mænd og kvinder?
 
 - Stå afslappet.
-- Sæt målebåndet omkring 2 cm over navlehøjde. 
+- Sæt målebåndet omkring 2 cm over navlehøjde.
 
 Hvis du er i tvivl, kan du også mærke dig frem til punktet, som på siden af kroppen ligger mellem hoftebenskammen og det nederste ribben.
 {: .notice .notice--info }
@@ -86,7 +87,7 @@ Opstillingen er naturligvis meget forenklet, og målet tager således ikke højd
 
 **Ulempen ved taljemålet** er imidlertid, at man godt kan blive i tvivl om, hvor man skal måle. Samtidig tager hofte-taljemålet ikke hensyn til højden. Højere mennesker vil ofte naturligt have en større talje.
 
-Det kan talje-højde ratioen imidlertid tage højde for, så lad os i det følgende kigge lidt på den. 
+Det kan talje-højde ratioen imidlertid tage højde for, så lad os i det følgende kigge lidt på den.
 
 ## Talje-højde-ratio
 
@@ -117,7 +118,7 @@ Wikipedia skriver om talje-hofte-ratioen:
 
 Ratioen mellem taljemålet og hoftemålet er en indikator på sundhed. Relationen kan sige noget om kropsformen, og man skelner ofte mellem pæreformet og æbleformet kropsfacon.
 
-WHR kan afspejle den intraabdominale fedme. Ofte er WHR også knyttet sammen med fysisk tiltrækning på tværs af forskellige kulturer. 
+WHR kan afspejle den intraabdominale fedme. Ofte er WHR også knyttet sammen med fysisk tiltrækning på tværs af forskellige kulturer.
 
 {% include figure image_path="https://www.hellodoctor.co.za/wp-content/uploads/2013/12/Body-shapes.jpg" caption="Pæreformet og æbleformet" alt="Talje mål og hoftemål kan via talje-hofte-ratioen siger noget om fedtfordelingen. Kilde: [www.hellodoctor.co.za](https://www.hellodoctor.co.za/)" %}
 
@@ -147,6 +148,9 @@ Jeg har ikke kunnet finde, hvad hoftemål for kvinder og mænd er i gennemsnit, 
 Et nærliggende spørgsmål når man samlet kigger på de tre forskellige mål er, hvilke resultater der sikrer dig mod livsstilssygdomme. Hvis du ligger over det anbefalede talje/højde-mål, men har et talje/hofte-mål, der får dig inden for skiven igen?
 
 I øjeblikket ser det ud til, at talje/højde-målet er det mest brugte mål i de videnskabelige studier, men for at sikre at mavefedtet ikke skaber en for høj risiko, så kan det formentlig også være værd at tjekke din ratio en gang imellem.
+
+Husk at testene udelukkende estimerer noget om din sundhed. De bør ikke være et startskud til en [slankekur]({% link _posts/2020-09-04-slankekur.md%}), fordi du skal opnå en tilfældig [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}) fra en beregner.
+{: .notice .notice--info }
 
 ## Referencer til taljemål og hoftemål
 

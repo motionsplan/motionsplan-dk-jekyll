@@ -10,7 +10,6 @@ header:
   overlay_image: https://images.unsplash.com/photo-1530210124550-912dc1381cb8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
   caption: *title
 toc: true
-toc_sticky: true
 author_profile: true
 sidebar:
   nav: anatomi
@@ -18,6 +17,7 @@ feature_row:
   - image_path: https://citatplakat.dk/wp-content/uploads/2020/11/Plakat-med-menneskets-skelet-AN10028.png
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/skelettet-anatomi-plakat-2/
     title: Skelettet - Anatomi plakat
+    rel: sponsored nofollow noopener
 ---
 
 Skelettet består af knogler. Jeg beskriver her lidt om anatomi og de forskellige knogler i kroppen. Knoglerne i menneskekroppen findes i forskellige knogletyper. Jeg kommer ind på rørknogler, uregelmæssige knogler, flade knogler og korte knogler.
@@ -30,12 +30,12 @@ Skelettets og knoglernes funktion er at være et stativ for mennesket. Skelettet
 
 - **Støttesystem** for resten af kroppen.
 - **Beskyttelse**: Skelettet beskytter de vigtige organer, som fx lungerne, hjertet, hjernen og nervesystemet.
-- **Bevægelse**: Knoglerne er fæstnet i leddene, og derfor er skelettet udgangspunkt for bevægelser, når musklerne trækker sig sammen. 
+- **Bevægelse**: Knoglerne er fæstnet i leddene, og derfor er skelettet udgangspunkt for bevægelser, når musklerne trækker sig sammen.
 - **Deponering**: Skelettet er depot for kroppens mineraler, og i de store knogler produceres de røde blodceller.
 
 Skelettet består af 206 knogler i kroppen for voksne. Jeg har skrevet et indlæg, der besvarer spørgsmålet "[Hvor mange knogler har mennesket?]({% link _posts/2020-05-31-hvor-mange-knogler-har-mennesket.md %})" og et andet indlæg, der besvarer spørgsmålet: "[Hvad vejer skelettet og knoglerne?]({% link _posts/2020-05-31-hvad-vejer-skelettet.md %})".
 
-Knoglerne afstiver kroppen, og i forbindelse med idræt og træning, så er de interessante, fordi knoglerne er vægtstænger for [musklerne]({% link _pages/anatomy/muscles.md %}). Knoglerne og [leddene]({% link _pages/anatomy/joints.md %}) er altså grundlaget for bevægelse. 
+Knoglerne afstiver kroppen, og i forbindelse med idræt og træning, så er de interessante, fordi knoglerne er vægtstænger for [musklerne]({% link _pages/anatomy/muscles.md %}). Knoglerne og [leddene]({% link _pages/anatomy/joints.md %}) er altså grundlaget for bevægelse.
 
 {% include figure image_path="/assets/images/anatomy/skeleton.png" caption="Skelettet består af knogler. Knoglerne er delt op i forskellige knogletyper, fx rørknogler, uregelmæssige knogler, flade knogler og korte knogler." alt="Skelettet består af knogler. Knoglerne er delt op i forskellige knogletyper, fx rørknogler, uregelmæssige knogler, flade knogler og korte knogler." %}
 

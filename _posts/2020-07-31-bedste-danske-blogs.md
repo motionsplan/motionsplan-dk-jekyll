@@ -59,7 +59,7 @@ feature_row:
     alt: "Anna Bogdanova blog"
     excerpt: "Anna Bogdanova skriver om langtidsholdbare strategier til styrket fysik, helbred og selvbillede - og hun skriver særligt til kvinder. Hun har en interessant tilgang som er meget forskellig fra mange andre personlige trænere. Anna Bogdanova arbejder med skræddersyede mikro-interventioner og passende doseringer, hvor der er fokus på balance og forebyggelse af stress og smerter. Har skrevet Skyhøj Forbrænding, Veldrejet og Smertefri, og hun advokerer for at en times kvalitetstræning om ugen kan gøre dig stressfri, smertefri, veldrejet og sundere."
     btn_label: "Besøg Anna Bogdanova"
-    btn_class: "btn--success"    
+    btn_class: "btn--success"
   - image_path: /assets/images/blogs/casperjespersen.jpg
     url: https://casperjespersen.dk/blog/
     title: "Casper Jespersen"
@@ -101,21 +101,21 @@ feature_row_sponsored:
     title: "Bodylab"
     alt: "Bodylab"
     excerpt: "På Bodylab finder du guides til træning, muskelopbygning og kosttilskud. Deres guides er grundige og kommer vidt omkring emnet. Bodylab vil naturligvis gerne sælge deres produkter, men overordnet set så har deres artikler høj kvalitet skrevet af bl.a. [Brian Henneberg](https://www.bodylab.dk/shop/brian-henneberg-1640c1.html), [Nikolaj Bach](https://www.bodylab.dk/shop/nikolaj-bach-nielsen-1642c1.html) og [Thomas Jagd](https://www.bodylab.dk/shop/thomas-jagd-1647c1.html)."
-    btn_label: "Besøg Bodylab*"
+    btn_label: "Besøg Bodylab"
     btn_class: "btn--success"
   - image_path: /assets/images/blogs/myprotein.jpg
     url: https://www.myprotein.dk/thezone/
     title: "Myprotein - The Zone"
     alt: "Myprotein - The Zone"
     excerpt: "Myprotein er oprindeligt skrevet på engelsk og oversat til dansk, hvilket man godt kan se i nogle af sætningerne. Igen vil de gerne sælge nogle af deres produkter, men bloggen har en stor bredde."
-    btn_label: "Besøg MyProtein*"
+    btn_label: "Besøg MyProtein"
     btn_class: "btn--success"
 classes: wide
 ---
 
 Jeg har samlet en opdateret liste over de bedste danske fitness blogs og blogs om træning og sundhed? Der er flere danske bloggere, der skriver fitnessblogs og træningsblogs med en solid viden om træning.
 
-Når man søger på Google, finder man et hav af blogs om fitness, træning, kost og sundhed, og jeg har efterhånden brugt et utal af timer på at læse det fleste blogs, og nogen er helt sikkert bedre end andre. 
+Når man søger på Google, finder man et hav af blogs om fitness, træning, kost og sundhed, og jeg har efterhånden brugt et utal af timer på at læse det fleste blogs, og nogen er helt sikkert bedre end andre.
 
 Jeg har derfor lavet en oversigt over de bedste danske fitness og træningblogs, så du kan tage en genvej til blogs af danske bloggere.
 

@@ -22,21 +22,23 @@ feature_row:
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/daniels-running-formula_jack-daniels_9781450431835
     title: "Daniels' Running Formula"
     excerpt: "Jack Daniels was named the world's best running coach by Runner's World magazine, and his best-selling book, Daniels' Running Formula, shows you why. Whether your race of choice is the 800 meters, the marathon, or anything in between, Daniels' Running Formula, Third Edition, offers a proven recipe for success."
-    btn_label: "Tjek prisen hos Tales*"
+    btn_label: "Tjek prisen"
     btn_class: "btn--danger"
-  - image_path: https://cdn6.tales.dk/00001/70394/cover.1568203219.jpg
+    rel: sponsored nofollow noopener
+  - image_path: https://cdn6.tales.dk/00001/70394/cover.1622156561.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390
     title: "Løb som eliten"
     excerpt: "Claus Hechmanns bog LØB SOM ELITEN er handler om, hvordan du skal træne for at blive en hurtigere løber og få mest muligt ud af dit potentiale. Bogen indeholder fem specialdesignede 12-ugers programmer til distancerne 5 km, 10 km og helt op til maraton."
-    btn_label: "Tjek prisen hos Tales*"
+    btn_label: "Tjek prisen"
     btn_class: "btn--danger"
+    rel: sponsored nofollow noopener
 feature_row_stryd:
   - image_path: https://static.wixstatic.com/media/3c82eb_70f1384f64584b009ccc002dbe0fe482~mv2.jpg/v1/fill/w_630,h_630,al_c,q_85,usm_0.66_1.00_0.01/3c82eb_70f1384f64584b009ccc002dbe0fe482~mv2.webp
     alt: "STRYD Wattmåler - Next Generation"
     title: "STRYD Wattmåler - Next Generation"
     excerpt: "STRYD – Wattmåler og nu med vindmåler STRYD er en af de mest nyttige og imponerende teknologiske løbegadgets, der er til rådighed på markedet"
     url: "https://www.hechmannsport.dk/product-page/stryd-running-power-meter"
-    btn_label: "Se prisen*"
+    btn_label: "Se prisen"
     btn_class: "btn--success"
 ---
 
@@ -92,7 +94,7 @@ Periodisering af et løbeprogram betyder, at løbeprogrammet er inddelt i forske
 
 Et eksempel kan være et løbeprogram, der er inddelt i fire faser:
 
-- **Fase 1**. Du opbygger og **forbereder din krop** på de efterfølgende faser, så du kan holde til træningen uden at blive skadet. 
+- **Fase 1**. Du opbygger og **forbereder din krop** på de efterfølgende faser, så du kan holde til træningen uden at blive skadet.
 - **Fase 2**. Jeg anbefaler i fase to at øge fokus på **udholdenheden** og evnen til at **forbrænde fedt**.
 - **Fase 3**. Vi fokuserer på at **øge styrken** og fokuserer fortsat på at forbedre udholdenheden.
 - **Fase 4**. I denne specifikke fase målretter vi træningen mod den distance, du gerne vil være bedre på. I denne fase er der typisk en del intervaltræning.
@@ -105,7 +107,7 @@ Når du laver en faseopdelt løbetræning, så kan du hele tiden sørge for i de
 
 Samtidig synes jeg, at det er sjovere, når træningen varierer hen over året.
 
-Jeg er alt for ofte selv sprunget over de indledende faser, som forbereder kroppen til at kunne holde til at træne. 
+Jeg er alt for ofte selv sprunget over de indledende faser, som forbereder kroppen til at kunne holde til at træne.
 
 Derfor er jeg også flere gange endt med at blive småskadet.
 
@@ -162,7 +164,7 @@ Hvis du har løbet meget, men ikke helt ser den fremgang, du gerne vil, så har 
 
 Når du laver løbetræning og laver din træningsplanlægning, så kan du veksle mellem tre forskellige slags løbeture:
 
-- **#1) Den langsomme løbetur i snakketempo.** Når du løber langsomt i snakketempo, som du fx kan vurdere ud fra [Borg-skalaen]({% link _posts/2020-06-18-borg-skala.md %}) eller ud fra dine [pulszoner]({% link _posts/2019-10-31-intensitet-puls.md %}) (for de fleste skal pulsen ligge mellem 120 og 150), så træner du udholdenheden og fedtforbrændingen. Dette tempo kan også bruges som [aktiv restitution]({% link _posts/2009-08-07-restition-hvordan-bliver-jeg-hurtigst-klar-igen.md %}).
+- **#1) Den langsomme løbetur i snakketempo.** Når du løber langsomt i snakketempo, som du fx kan vurdere ud fra [Borg-skalaen]({% link _posts/2020-06-18-borg-skala.md %}) eller ud fra dine [pulszoner]({% link _posts/2019-10-31-intensitet-puls.md %}) (for de fleste skal pulsen ligge mellem 120 og 150), så træner du udholdenheden og fedtforbrændingen. Dette tempo kan også bruges som [aktiv restitution]({% link _posts/2020-05-28-restitutionstid-alder.md %}).
 - **#2) Den hurtige tempotur omkring den anaerobe tærskel**. Dette tempo skal ligge omkring mælkesyregrænsen. Hvis du gerne vil finde, hvilken puls din [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}) ligger på, så svarer det nogenlunde til gennemsnitspulsen af et maksimalt løb på omkring 30 minutter til 60 minutter.
 - **#3) Højintense intervalløb**. Du skal kredsløbets maksimale iltoptagelse ved at arbejde omkring din maksimale ydeevne. Typisk kan du løbe maksimalt 6-10 minutter omkring den maksimale ydeevne, hvis du gerne vil teste, hvor hurtigt du skal løbe for at træne dette.
 
@@ -190,7 +192,7 @@ Det langsomme tempo vil helt sikkert føles alt for langsomt. Du vil hele tiden 
 
 Det hurtige tempo føles derimod ubehageligt. Kroppen og hjernen vil gøre hvad den kan, for at du sætter tempoet ned, men lad dig ikke friste. Du har et mål med træningen. I dag var enten at flytte den anaerobe tærskel eller at forbedre den maksimale iltoptagelse. Det må kroppen og hjernen ganske enkelt vænne sig til.
 
-## Løbtræning skal foregå i minutter
+## Løbetræning skal foregå i minutter
 
 Jeg mener, at alt for mange løbere fokuserer på, hvor mange kilometer, de løber, i stedet for at fokusere på, hvor mange minutter de løber.
 
@@ -204,7 +206,7 @@ Pointen er, at folk køber i meget forskelligt tempo, men hvis vi skal arbejde m
 
 — <cite>[Budd Coates](https://www.wedorun.dk/blog/43661-fejlen-som-naesten-alle-nye-loebere), 4-dobbelt olympisk maratondeltager fra USA</cite>
 
-Det er helt sikkert, at begyndere kan have rigtig meget ud af at begynde at tænke i minutter i løbetræningen. 
+Det er helt sikkert, at begyndere kan have rigtig meget ud af at begynde at tænke i minutter i løbetræningen.
 
 Veltrænede løbere kan også sagtens lave deres træningsprogrammer i minutter.
 
@@ -251,6 +253,8 @@ Der er fordele og ulemper ved begge ting.
 - **Puls**. Hvis du styrer træningen ud fra din puls, så kan du i praksis lave din løbetræning overalt og på forskelligt underlag. Du har en objektiv markør i din puls. Det kræver, at du kender din maksimale puls og pulsen for din anaerobe tærskel (som ændrer sig med træningen). Det (vigtige) langsomme løbetempo vil for de fleste passe med mellem 120-150 i pulsslag.
 - **Tempo**. Du kan udregne dit løbetempo ud fra din løbehastighed på dit seneste maksimale løb. Du kan bruge [Jack Daniels løbsberegner til at udregne dit løbetempo]({% link _posts/2020-08-01-jack-daniels-loebeberegner.md %}). Hvis du laver et løbeprogram baseret på beregneren, så er det utrolig vigtigt, at du respekterer det langsomme løb.
 - **Watt**. Hvis du fx har en Stryd Wattmåler, så kan du bruge den til at planlægge træningen. Den har samme fordele som at basere træningen på baggrund af pulsen.
+
+## Køb en watt måler til løb
 
 {% include feature_row id="feature_row_stryd" type="left" %}
 

@@ -1,7 +1,9 @@
 ---
-title: &title "Kondition og kondital: Hvor hurtigt mister du formen?"
-permalink: /kondital-hvor-hurtigt/
+title: &title "Pause fra konditionstræning: Hvor hurtigt mister man sin form og kondition?"
+seo_title: "Pause fra træning - Så hurtigt mister du form og kondition »"
+permalink: /hvor-hurtigt-mister-form-kondition/
 redirect_from:
+  - /kondital-hvor-hurtigt/
   - /viden%20om/kondital-hvor-hurtigt/
 language: da
 header:
@@ -15,11 +17,19 @@ tags:
   - fysiologi
   - muskler
   - kredsløb
-last_modified_at: 2020-06-11T08:14:14Z
+  - træningslære
+last_modified_at: 2021-04-04T08:14:14Z
 toc: true
 ---
 
 Jeg har undersøgt, hvor hurtigt man mister formen, hvis man holder pause fra træningen? Man bruger mange kræfter på at komme i god kondition, men hvor hurtigt falder konditallet egentlig, når man holder ferie fra træningen?
+
+I dette indlæg kigger jeg på følgende spørgsmål:
+
+- Hvor hurtigt mister man sin form og kondition, når man ikke træner?
+- Hvor meget falder dit kondital, når du holder pause?
+
+{% include figure image_path=page.header.overlay_image caption=page.title alt="træningspause mister form" %}
 
 ## Konditionen falder som helt sengeliggende
 
@@ -35,9 +45,9 @@ Det er imidlertid alt for skarpt sat op. Man mister formentlig noget af sin kond
 
 Hatle (2014) undersøgte effekten af træning med høj intensitet på konditallet (den maksimale iltoptagelse delt med kropsvægten). De sammenlignede frekvensen af træning. Den ene gruppe brugte 8 uger og havde således en moderat frekvens (MF), mens den anden gruppe havde en høj frekvens og brugte kun tre uger på træning (HF). Efter træningen havde de 9 ugers detræning.
 
-{% include figure image_path="/assets/images/blog/hatle2014.png" caption="Effekten på konditionen efter 3 (HF) eller 8 (MF) ugers træning og 9 ugers detræning (Hatle 2014)" %}
+{% include figure image_path="/assets/images/blog/hatle2014.png" caption="Effekten på konditionen efter 3 (HF) eller 8 (MF) ugers træning og 9 ugers detræning (Hatle 2014)" alt="effekt på kondition ved detræning" %}
 
-Det interessante i figuren er at effekten af stigningen i VO<sub>2max</sub> er forsinket for højfrekvensgruppen, mens den for gruppen med den moderate træningsmængde topper efter de 8 uger. 
+Det interessante i figuren er at effekten af stigningen i VO<sub>2max</sub> er forsinket for højfrekvensgruppen, mens den for gruppen med den moderate træningsmængde topper efter de 8 uger.
 
 Men studiet er også interessant, fordi det viser, at konditallet for gruppen med moderat frekvens stiger stødt hver eneste uge i de 8 uger. For højkrevensgruppen er der et dyk, men der er også en tendens til, at der er ugentlige tilpasninger i konditallet.
 
@@ -53,7 +63,7 @@ Hvis du står over for at skulle på ferie i nogle uger, hvor du ikke kan få tr
 
 ## Hvor hurtigt bliver min form dårligere?
 
-Jeg oplever selv, at fornemmelsen af hvor let det er at løbe kan være forskellig efter små pauser. Sommetider kan jeg opleve efter en minipause, at det er lettere at løbe, mens jeg andre gange kan opleve at det er hårdere at løbe. 
+Jeg oplever selv, at fornemmelsen af hvor let det er at løbe kan være forskellig efter små pauser. Sommetider kan jeg opleve efter en minipause, at det er lettere at løbe, mens jeg andre gange kan opleve at det er hårdere at løbe.
 
 Det er to oplevelser, der trækker i hver sin retning af, hvad der sker med konditionen på kort tid.
 
@@ -92,9 +102,13 @@ Jeg har også skrevet om, hvor hurtigt musklemasse og muskelstyrke kan [vokse]({
 
 ## Referencer
 
+<details markdown="1">
+  <summary>Se referencer om {{ page.title }}</summary>
+
 - Hatle, Håvard, Per Kristian Støbakk, Harald Edvard Mølmen, Eivind Brønstad, Arnt Erik Tjønna, Sigurd Steinshamn, Eirik Skogvoll, Ulrik Wisløff, Charlotte Björk Ingul, og Øivind Rognmo. 2014. “Effect of 24 Sessions of High-Intensity Aerobic Interval Training Carried out at Either High or Moderate Frequency, a Randomized Trial”. Redigeret af Conrad P. Earnest. PLoS ONE 9 (2): e88375. <https://doi.org/10.1371/journal.pone.0088375>.
 - Saltin, B., G. Blomqvist, J. H. Mitchell, R. L. Johnson, K. Wildenthal, og C. B. Chapman. 1968. “Response to Exercise after Bed Rest and after Training”. Circulation 38 (5 Suppl): VII1-78.
 - McGavock, Jonathan M., Jeffrey L. Hastings, Peter G. Snell, Darren K. McGuire, Eric L. Pacini, Benjamin D. Levine, og Jere H. Mitchell. 2009. “A Forty-Year Follow-up of the Dallas Bed Rest and Training Study: The Effect of Age on the Cardiovascular Response to Exercise in Men”. The Journals of Gerontology. Series A, Biological Sciences and Medical Sciences 64 (2): 293–99. <https://doi.org/10.1093/gerona/gln025>.
 - McGuire, D. K., B. D. Levine, J. W. Williamson, P. G. Snell, C. G. Blomqvist, B. Saltin, og J. H. Mitchell. 2001. “A 30-Year Follow-up of the Dallas Bedrest and Training Study: II. Effect of Age on Cardiovascular Adaptation to Exercise Training”. Circulation 104 (12): 1358–66.
 - McGuire Darren K., Levine Benjamin D., Williamson Jon W., Snell Peter G., Blomqvist C. Gunnar, Saltin Bengt, og Mitchell Jere H. 2001. “A 30-Year Follow-Up of the Dallas Bed Rest and Training Study”. Circulation 104 (12): 1350–57. <https://doi.org/10.1161/circ.104.12.1350>.
 - Mitchell, Jere H., Benjamin D. Levine, og Darren K. McGuire. 2019. “The Dallas Bed Rest and Training Study: Revisited After 50 Years”. Circulation 140 (16): 1293–95. <https://doi.org/10.1161/CIRCULATIONAHA.119.041046>.
+</details>

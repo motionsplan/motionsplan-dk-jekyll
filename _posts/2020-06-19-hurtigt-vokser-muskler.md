@@ -13,6 +13,7 @@ tags:
   - anatomi
   - fysiologi
   - muskler
+  - træningslære
 last_modified_at: 2020-06-11T08:14:14Z
 toc: true
 ---
@@ -27,7 +28,7 @@ Hvor hurtigt muskler vokser afhænger naturligvis af flere ting. Træner du hår
 
 Ogasawara et al (2012) undersøgte muskelvækst i forbindelse med bænkpres træning. Mandlige nybegyndere trænede bænkpres i 24 uger, hvor der blev trænet 3 gange om ugen.
 
-Studiet viste en vækst i brystmuskulaturen en vækst på 0,054 mm om dagen i gennemsnit og i alt 9 mm på de 24 uger, hvilket i gennemsnit svarer til 0,125 mm for hver af de 72 træningssessioner i træningsprogrammet. 
+Studiet viste en vækst i brystmuskulaturen en vækst på 0,054 mm om dagen i gennemsnit og i alt 9 mm på de 24 uger, hvilket i gennemsnit svarer til 0,125 mm for hver af de 72 træningssessioner i træningsprogrammet.
 
 I samme studie fandt Ogasawara et al (2012) en vækst i triceps på 0,036 mm om dagen i gennemsnit over perioden på 24 uger. Det svarer til at triceps blev 0,1 mm tykkere om ugen og 1,3 cm om året, hvis væksten fortsætter lineært efter 24 uger.
 
@@ -35,11 +36,11 @@ I samme studie fandt Ogasawara et al (2012) en vækst i triceps på 0,036 mm om 
 
 Stock et al (2017) satte utrænede, unge mænd til at træne _biceps curls_ og skulderpres i den ene side af kroppen, så de havde den anden side af kroppen som sammenligningsgrundlag. Træningen var to gange om ugen i fire uger.
 
-Væksten i muskelmasse var på hele 7,4 - 9,9% efter kun 6-8 træningssessioner. Efter træning nummer 7 i studiet havde deltagerne fået 109,3 g muskelmasse fordelt på musklerne fra albuen og opad (biceps, brachialis og forreste del af deltoideus). 
+Væksten i muskelmasse var på hele 7,4 - 9,9% efter kun 6-8 træningssessioner. Efter træning nummer 7 i studiet havde deltagerne fået 109,3 g muskelmasse fordelt på musklerne fra albuen og opad (biceps, brachialis og forreste del af deltoideus).
 
 Efter 8. træning var der føjet yderligere til, så der i alt var 116,1 gram muskler. Det svarer i gennemsnit til 14,5 gram muskel pr. træning bare i armbøjerne og skuldermusklerne. Fremgangen vil naturligvis stagnere over tid.
 
-Studiet har dog en del begrænsninger. Der var kun 13 deltagere. Forsøgspersonernes kost var meget forskellig i forhold til kalorie- og proteinindtag. 
+Studiet har dog en del begrænsninger. Der var kun 13 deltagere. Forsøgspersonernes kost var meget forskellig i forhold til kalorie- og proteinindtag.
 
 Endelig er målemetoden DXA ikke uden teoretiske udfordringer. Bone et al (2016) har vist at mængden af glykogen i musklerne har indflydelse på, hvordan en DEXA-scanner estimerer muskelmassen. Denne effekt skaber også usikkerhed om målingerne af, hvor hurtigt man kan tage muskelmasse på.
 
@@ -49,7 +50,7 @@ Kawakami (1995) fandt i et studie med utrænede mænd, at tværsnitsarealet af t
 
 Kraemer et al. (2004) undersøgte kvinder, som trænede 3 gange om ugen i 24 uger, hvor man fandt en vækst i triceps på 0,11% om dagen hos kvinderne.
 
-Kraemer et al (2004) fandt at stigningen i vækst var størst efter 12 uger (11%) mens den var mindre de sidste 12 uger (6%) for kvinderne. Ligeledes fandt Ogasawara (2013) så også at stigningerne i tværsnitsarealet af triceps og pectoralis major var størst i begyndelsen af træningsforløbet og nogenlunde halveret efter 24 uger. 
+Kraemer et al (2004) fandt at stigningen i vækst var størst efter 12 uger (11%) mens den var mindre de sidste 12 uger (6%) for kvinderne. Ligeledes fandt Ogasawara (2013) så også at stigningerne i tværsnitsarealet af triceps og pectoralis major var størst i begyndelsen af træningsforløbet og nogenlunde halveret efter 24 uger.
 
 Det bliver altså efter noget tid vanskeligere at holde den samme vækstrate i musklerne. Det ved de fleste der træner, men der er også videnskabeligt belæg for det.
 
@@ -59,8 +60,8 @@ Alan Aragon har tidligere anslået følgende sammenhæng mellem træningserfarin
 
 | Træningserfaring | Øget kropsvægt med muskler |
 |-|-|
-| Begyndere | 1-1,5% / mdr | 
-| Trænede | 0,5-1,0% / mdr | 
+| Begyndere | 1-1,5% / mdr |
+| Trænede | 0,5-1,0% / mdr |
 | Meget veltrænede | 0,25-0,5% / mdr |
 
 Lyle McDonald har lavet følgende opstilling af, hvor meget muskelmasse, man kan tage på i løbet af et år og en måned ([kilde](https://www.bodylab.dk/shop/hvor-hurtigt-vokser-muskler-3271c1.html)):
@@ -80,19 +81,19 @@ Det er jeg lige ved at undersøge. Skriv i kommentarerne, hvis jeg skal skynde m
 
 ## Hvor hurtigt forsvinder musklerne igen?
 
-Hvis du stopper med at træne, så vil en del af muskelstørrelsen, muskeltykkelsen og muskelvægten forsvinde igen. 
+Hvis du stopper med at træne, så vil en del af muskelstørrelsen, muskeltykkelsen og muskelvægten forsvinde igen.
 
 Allerede efter en pause på nogle uger vil der ske atrofi i muskelfibrene. Taaffe og Marcus (1997) målte i et forsøg med ældre mænd et øget tværsnitsareal i lårmusklen på 26% efter et 24 ugers træningsprogram. Efter tolv uger pause var tværsnitsarealet imidlertid tilbage til udgangspunktet.
 
 ## Hvad er den øvre grænse for muskelvækst?
 
-Det foregående giver altså en ide om, hvor hurtigt muskler vokser. Abe et al (2018) har stillet sig selv spørgsmålet: “Skeletal Muscle Mass in Human Athletes: What Is the Upper Limit?”, og de fandt frem til, at der formentlig er en øvre grænse, som hænger sammen med højden. 
+Det foregående giver altså en ide om, hvor hurtigt muskler vokser. Abe et al (2018) har stillet sig selv spørgsmålet: “Skeletal Muscle Mass in Human Athletes: What Is the Upper Limit?”, og de fandt frem til, at der formentlig er en øvre grænse, som hænger sammen med højden.
 
 Abe et al (2018) undersøgte 43 atleter, som spillede amerikansk fodbold, 18 styrkeløftere, 28 sumobrydere og 6 kuglestødere. Desværre var der ikke bodybuildere i studiet. Men de fandt en sammenhæng mellem højden og den maksimale fedtfrie masse og muskelmasse atleterne kunne tage på.
 
 De endte med en meget enkelt formel til at estimere dit eget øvre potentiale for fedtfri masse (FFM) og maksimal muskelmasse.
 
-FFM<sub>max</sub> = højde (m) x højde (m) x 34  
+FFM<sub>max</sub> = højde (m) x højde (m) x 34
 Muskelmasse<sub>max</sub> = højde (m) x højde (m) x 17
 
 Så kan jeg hurtigt regne ud, at jeg som 1,81 cm høj i alt kan pakke lige omkring 55 kg muskler. Jeg fik for nylig lavet en [bioimpedans kropskomposition med Body]({% link _posts/2019-10-14-fedtprocent-bioimpedans-inbody-570.md %}), som fortæller mig at jeg har 40,1 kg skeletmuskelmasse. Jeg har altså potentiale til at tage 15 kg mere muskel på.

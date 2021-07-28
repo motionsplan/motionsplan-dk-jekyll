@@ -1,13 +1,9 @@
 ---
-layout: category
+layout: single
 permalink: /eksplosivitet/
 title: &title "Eksplosivitet, sprint og spring"
 excerpt: "Hvordan arbejder man med eksplosivitet? Hvordan sprinter du hurtigere og springer højere?"
 author_profile: true
-sort_by: title # date (default) title
-sort_order: forward # forward (default), reverse
-taxonomy: Eksplosivitet
-entries_layout: grid
 header:
   overlay_image: https://images.unsplash.com/photo-1507853941863-0ed76ec6add4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80
   teaser: https://images.unsplash.com/photo-1507853941863-0ed76ec6add4?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
@@ -73,5 +69,16 @@ feature_row:
 
 </div>
 
-
 ## Artikler om eksplosivitet, sprint og spring
+
+{% assign site_posts = site.posts | where: "caegory", "Eksplosivitet" | where_exp: "post", "post.url != page.url" | sort: "title" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>

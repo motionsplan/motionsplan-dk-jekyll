@@ -5,6 +5,7 @@ instructions: "Start med strakt krop og strakte arme. Sænk dig derefter ned mod
 permalink: /oevelse/armstraekker/
 redirect_from: /node/170
 id: 170
+key: 170
 language: da
 header:
   overlay_image: /assets/images/exercises/armstraekker-0.jpg
@@ -22,8 +23,6 @@ training_focus:
 equipment:
   - kropsvægt
 muscle_group:
-  - 
-  - 
 gallery:
   - url: /assets/images/exercises/armstraekker-0.jpg
     image_path: /assets/images/exercises/armstraekker-0-320.jpg

@@ -8,7 +8,6 @@ header:
   caption: *title
 category:
   - Ernæring
-  - Kost
 tags:
   - kost
   - ernæring
@@ -69,9 +68,9 @@ Der findes ifølge [Netdoktor](https://netdoktor.dk/sundhed/fakta/kostfibre.htm)
 
 ## Fødevarer med mange kostfibre
 
-Kostfibre er ufordøjelige kulhydrater. Kostfibre er godt for tarmens funktion. Når du leder efter produkter med fuldkorn er en af fordelene bl.a., at der er mange kostfibre i. 
+Kostfibre er ufordøjelige kulhydrater. Kostfibre er godt for tarmens funktion. Når du leder efter produkter med fuldkorn er en af fordelene bl.a., at der er mange kostfibre i.
 
-Hvis du gerne vil have fibre i din kost, så kan du fx bruge loppefrøskaller. Du kan fx købe [HUSK Loppefrøskaller\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=28715&htmlurl=https://www.helsebixen.dk/shop/husk-1000-g-631p.html){: rel="nofollow" } hos [Helsebixen\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=28715&htmlurl=https://www.helsebixen.dk/shop/husk-1000-g-631p.html){: rel="nofollow" }.
+Hvis du gerne vil have fibre i din kost, så kan du fx bruge loppefrøskaller. Du kan fx købe [HUSK Loppefrøskaller](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=28715&htmlurl=https://www.helsebixen.dk/shop/husk-1000-g-631p.html){: rel='sponsored nofollow noopener' } hos [Helsebixen](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=28715&htmlurl=https://www.helsebixen.dk/shop/husk-1000-g-631p.html){: rel='sponsored nofollow noopener' }.
 
 [Motion-online.dk](https://www.motion-online.dk/hvad-er-kulhydrater-opbygget-af/){: rel="nofollow" } har lavet følgende tabel over fødevarer med højest indhold af fibre.
 

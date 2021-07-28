@@ -26,6 +26,7 @@ feature_row:
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=20604&htmlurl=https://www.bodyman.dk/shop/accu-measure-fitness-54935p.html"
     btn_label: "Læs mere"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 ---
 
 Durnin & Womersley er en 4-punktsmåling af hudfolde, som anses for relativt præcis til at estimere fedtprocenten for mennesker mellem 16 og 72 år gammel. Formlen har en tendens til at estimere for høje fedtprocenter hos meget tynde personer (2-3 %).
@@ -80,6 +81,15 @@ Da Durnin og Womersley lavede deres studium var undervandsvejning den mest påli
 Durnin og Womersley har så lavet korrelationsmodeller med densiteten fundet i undervandsvejningerne. Derfor estimerer hudfoldsmålingen faktisk densiteten, som man så bruger Siri-formlen til at omsætte til fedtprocenten.
 
 I den sammenhæng er det også værd at bide mærke i, at [Siri-formlen](https://www.topendsports.com/testing/siri-equation.htm) ikke er den eneste måde at omregne en fedtprocent på baggrund af densiteten.
+
+## Konklusion
+
+En skinfold-test kan være meget brugbar til at følge ændringer i kropskomposition over tid.
+
+Jeg har skrevet et uddybende indlæg om at [måle skinfolds med fedttang]({% link _posts/2019-10-14-fedtprocent-skinfold.md %}).
+
+Husk at testen udelukkende estimerer din fedtprocent. Testen er ikke et startskud til en [slankekur]({% link _posts/2020-09-04-slankekur.md%}), fordi du skal opnå en tilfældig [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}) fra en beregner.
+{: .notice .notice--info }
 
 ## Andre formler til måling af fedtprocent
 

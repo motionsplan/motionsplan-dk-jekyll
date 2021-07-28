@@ -1,5 +1,7 @@
 ---
 title: &title "Omregn aktivitet, sport og motion til skridt [Motionsomregner] 🚴‍♀️ ⇒ 🚶‍♀️"
+seo_title: "Omregn aktivitet, sport og motion til skridt [Motionsomregner]"
+description: "Leder du efter en skridtomregner? Her kan du lave en omregning fra motion og sport til antal skridt! Den GRATIS ultimative tæl skridt omregner!"
 permalink: /omregn-motion-aktivitet-sport-til-skridt/
 language: da
 header:
@@ -7,7 +9,7 @@ header:
   teaser: https://images.unsplash.com/photo-1453342664588-b702c83fc822?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
   caption: *title
 category:
-  - Beregner
+  - Beregnere
 tags:
   - skridt
   - motion
@@ -41,7 +43,7 @@ Vores "Tæl skridt-beregner" bruger [omregningsfaktoreren fra aktivitet til skri
 
 ## Hvordan omregner du aktivitet til skridt?
 
-Vælg din aktivitet i omregneren, og indtast det antal minutter du har været aktiv. Omregneren beregner det antal skridt, du kan notere i stedet for din aktivitet i dit skridtregnskab.
+Vælg din aktivitet i omregneren, og indtast det antal minutter du har været aktiv. Så kan du lave en omregning til det antal skridt, du kan notere i stedet for din aktivitet i dit skridtregnskab.
 
 ## Baggrunden for omregning fra motion til skridt
 
@@ -53,9 +55,8 @@ Husk at beregneren kun er en estimering af antallet af skridt. Ikke nødvendigvi
 
 Jeg har skrevet en grundig artikel om [Hvor langt er 10.000 skridt og hvor mange skridt er en km?]({% link _posts/2020-11-14-activity-to-steps.md %}).
 
-## Konklusion på "Tæl skridt beregner"
+## Konklusion på "Tæl skridt omregner"
 
 Hvis du gerne vil blive motiveret af at gå nok skridt om dagen, men laver en masse anden aktivitet, så kan det være sjovt at bruge en "Tæl skridt-beregner". Du skal bare huske, at tallene godt kan blive rigtig høje.
 
 For mig selv, synes jeg det kan være motiverende at [tælle skridt](/artikel/tael-skridt/) for at huske at få nok motion hver dag.
-

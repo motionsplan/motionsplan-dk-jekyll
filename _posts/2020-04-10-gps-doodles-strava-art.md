@@ -21,7 +21,7 @@ feature_row:
     title: "Garmin FENIX 5S Smartwatch"
     excerpt: "Hvis du er vild med IT og elektronik og kan lide at være opdateret med teknologi uden at gå glip af noget, så køb Smartwatch GARMIN FENIX 5S GPS 10 ATM Sølv Sort til en uovertruffen pris"
     url: https://track.adtraction.com/t/t?a=1124622406&as=1484571907&t=2&tk=1&url=https://sportmaster.dk/garmin-fenix-5-plus-sapphire-2058971?size=One+Size&gclid=Cj0KCQjwj7v0BRDOARIsAGh37ipamu_nXNAfyMPbgF4aQfhUyRpXvIcMdu7wu2hXPvpD1_bP8i6zo54aAvojEALw_wcB
-    btn_label: "Se prisen*"
+    btn_label: "Se prisen"
     btn_class: "btn--success"
 gallery:
   - url: https://i1.wp.com/geoawesomeness.com/wp-content/uploads/2017/08/stephen-lund.jpg?resize=696%2C493&ssl=1

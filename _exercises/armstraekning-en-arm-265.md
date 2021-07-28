@@ -18,8 +18,6 @@ training_focus:
 equipment:
   - kropsvægt
 muscle_group:
-  - 
-  - 
 gallery:
   - url: /assets/images/exercises/armstraekning-en-arm-0.jpg
     image_path: /assets/images/exercises/armstraekning-en-arm-0-320.jpg

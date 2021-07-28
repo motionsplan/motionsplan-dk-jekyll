@@ -14,6 +14,7 @@ movements:
       - Gastrocnemius
       - Soleus
 image: https://o.quizlet.com/HY7CmkNNCPOn4PFqIsQReg_b.jpg
+image_movement: /assets/images/anatomy/movement-ancle.png
 header:
   overlay_image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrqNXjmfE7vW6n-dMuY28ulyi3ZgxTkXAV34bp2t25ynDjPexTeg&s
 ---
@@ -53,3 +54,7 @@ Bemærk at anatomisk sprogbrug er anderledes end daglig tale. Det man normalt ka
 {% endcomment %}
 
 {% include figure image_path=page.image caption=page.title alt=page.title %}
+
+## Muskler i ankelleddet og fodleddet
+
+{% include anatomy/table-muscles-ancle.html %}

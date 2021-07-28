@@ -16,7 +16,7 @@ last_modified_at: 2020-12-03T23:14:14Z
 toc: true
 ---
 
-Når du planlægger din skuldertræning, så er det godt at tænke lidt over skulderens opbygning. For at styrke dine skuldre, skal du træne skulderen med flere øvelser. Det kan betale sig at tage højde for rotatormanchetten, når du vælger de mest effektive skulderøvelser. 
+Når du planlægger din skuldertræning, så er det godt at tænke lidt over skulderens opbygning. For at styrke dine skuldre, skal du træne skulderen med flere øvelser. Det kan betale sig at tage højde for rotatormanchetten, når du vælger de mest effektive skulderøvelser.
 
 Hvis du ikke laver en balanceret træning af skuldrene, så kan dine skuldre ofte ende med at skabe problemer i forbindelse med styrketræning. Derfor skal du vælge flere forskellige skulderøvelser til din skuldertræning.
 
@@ -24,11 +24,11 @@ Skulderen er primært et kugleled, som har bevægelsesfrihed i alle bevægelsesp
 
 Bevægelsesfriheden i skulderen og alle de mulige bevægeudslag gør, at musklerne omkring skulderen skal være med til at styre og beskytte leddet.
 
-{% include figure image_path="http://lift-it.dk/wp-content/uploads/2015/03/blog-examprep-092513-1.jpg" caption="Skulderleddets bevægelser i de forskellige bevægelsesplaner. Kilde: [lift-it.dk](http://lift-it.dk/styrk-dine-skuldre/)" %}
+{% include figure image_path="https://lift-it.dk/wp-content/uploads/2015/03/blog-examprep-092513-1.jpg" caption="Skulderleddets bevægelser i de forskellige bevægelsesplaner. Kilde: [lift-it.dk](https://lift-it.dk/styrk-dine-skuldre/)" %}
 
 Skulderleddet består af tre knogler: _humerus_ (overarmsknoglen), _scapula_ (skulderbladet) og clavicula (kravebenet). Skulderleddet er et ret kompliceret led. Scapula er en del af skulderleddet er fx spændt ind til kroppen ved hjælp af muskler, hvilket gør skulderbladet ret bevægeligt. Bevægelsesfriheden i skulderbladet er med til at gøre, at overarmsknoglen kan bevæge sig, men samtidig kan skulderbladet også flytte sig næsten uafhængigt heraf.
 
-{% include figure image_path="http://lift-it.dk/wp-content/uploads/2015/03/ShoulderMvmnt.jpg" caption="Skulderbladets forskellige bevægelser. Kilde: [lift-it.dk](http://lift-it.dk/styrk-dine-skuldre/)" %}
+{% include figure image_path="https://lift-it.dk/wp-content/uploads/2015/03/ShoulderMvmnt.jpg" caption="Skulderbladets forskellige bevægelser. Kilde: [lift-it.dk](https://lift-it.dk/styrk-dine-skuldre/)" %}
 
 Det er derfor lige så vigtigt at styrke musklerne omkring skulderbladet, som det er at styrke musklerne omkring overarmsknoglen. Når man styrker musklerne og skal mærke de små bevægelser, så kan man også få en bedre føling med området på kroppen. Særligt når du kaster meget eller styrketræner meget, så har du brug for at finde ud af, hvordan du kan lave stabilitet i skulderen, så den kan udføre det nødvendige arbejde.
 
@@ -42,7 +42,7 @@ I planlægningen af din skuldertræning og udvælgelsen af skulderøvelser skal 
 - Den midterste (laterale) del
 - Den bagerste (inferiore) del
 
-Skulderen kræver forskellige skulderøvelser for at alle musklerne bliver trænet. De populære skulderøvelser som fx [military press]({% link _exercises/military-press-56.md %}), [bænkpres]({% link _exercises/baenkpres-17.md%}), [floor press]({% link _exercises/floor-press-740.md %}). De primære bevægelsesmuskler i de øvelser er særligt brystmusklen og forreste del af skuldermusklen (ud over [triceps]({% link _anatomy/triceps-brachii.md %})). 
+Skulderen kræver forskellige skulderøvelser for at alle musklerne bliver trænet. De populære skulderøvelser som fx [military press]({% link _exercises/military-press-56.md %}), [bænkpres]({% link _exercises/baenkpres-17.md%}), [floor press]({% link _exercises/floor-press-740.md %}). De primære bevægelsesmuskler i de øvelser er særligt brystmusklen og forreste del af skuldermusklen (ud over [triceps]({% link _anatomy/triceps-brachii.md %})).
 
 Mange skulderøvelser i skuldertræningen rammer den forreste og midterste del af skulderen. Du skal altså tænke på at bruge noget tid i skuldertræningen på at ramme den bagerste del af skulderen også.
 

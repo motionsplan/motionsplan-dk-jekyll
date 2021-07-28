@@ -141,4 +141,4 @@ Et alternativ til Etpunktstesten er [Ekblom-Bak-testen](https://www.gih.se/ekblo
 Legge and Banister, The Astrand-Rhyming nomogram revisited J Appl Physiol.1986; 61: 1203-1209.
 </details>
 
-<img src="/assets/images/aastrand-nomogram.png" data-pin-description="Åstrands Nomogram" style="display:none;">
+{% include pinterest image_path="/assets/images/aastrand-nomogram.png" data-pin-description="Åstrands Nomogram" class="hidden" %}

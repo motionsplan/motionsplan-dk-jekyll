@@ -8,7 +8,6 @@ header:
   teaser: https://images.unsplash.com/photo-1579722822280-a3d601518cc9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
   caption: *title
 category:
-  - Kost
   - Ernæring
   - Kosttilskud
 tags:
@@ -39,7 +38,7 @@ Eric Helms har lavet en rigtig god introduktion til, hvordan man skal gribe sin 
 
 Som du kan se i pyramiden, så er kosttilskud noget du skal supplere med, når du har gjort dig umage for at få styr på alle de underliggende niveauer i kostpyramiden.
 
-Når Helsam lover at hjælpe med [hvilke kosttilskud man bør tage](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=66247&htmlurl=https://www.helsam.dk/artikler/forskelligt/hvilke-kosttilskud-skal-jeg-tage){:rel="nofollow"}, så synes jeg det er lidt ærgerligt, at Helsam bare lister en lang række kosttilskud alfabetisk og fortæller om, hvad de enkelte vitaminer og mineraler kan. Der er ingen hjælp til, hvad man typisk får nok af i kosten.
+Når Helsam lover at hjælpe med [hvilke kosttilskud man bør tage](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=66247&htmlurl=https://www.helsam.dk/artikler/forskelligt/hvilke-kosttilskud-skal-jeg-tage){: rel='sponsored nofollow noopener' }, så synes jeg det er lidt ærgerligt, at Helsam bare lister en lang række kosttilskud alfabetisk og fortæller om, hvad de enkelte vitaminer og mineraler kan. Der er ingen hjælp til, hvad man typisk får nok af i kosten.
 
 ## Hvilke kosttilskud virker?
 
@@ -49,7 +48,7 @@ Fisker Performance foreslår følgende [pyramide over kosttilskud, som virker](h
 
 Jeg har valgt at starte rækkefølgen af kostilskud ud fra ovenstående pyramide, fordi Fisker Performance ikke skal tjene penge på nogle særlige produkter, hvilket gør, at de har kigget på evidensen bag ved de enkelte kosttilskud i stedet for at se på indtjening enten ved direkte salg af kosttilskud eller gennem affiliate salg fra en hjemmeside.
 
-Det ser ud til, at Nikolaj Bach har revideret sin liste over kosttilskud i forhold til en [artikel](https://www.bodylab.dk/shop/kosttilskudshierarkiet-2894c1.html), han har skrevet for [Bodylab\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/kosttilskudshierarkiet-2894c1.html){:rel="nofollow"}, hvor både fiskeolie og Leucin havde fundet vejen ind i top 5.
+Det ser ud til, at Nikolaj Bach har revideret sin liste over kosttilskud i forhold til en [artikel](https://www.bodylab.dk/shop/kosttilskudshierarkiet-2894c1.html), han har skrevet for [Bodylab](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/kosttilskudshierarkiet-2894c1.html){: rel='sponsored nofollow noopener' }, hvor både fiskeolie og Leucin havde fundet vejen ind i top 5.
 
 ## Proteinpulver
 
@@ -65,7 +64,7 @@ De generelle anbefalinger ser nogenlunde sådan her (Morton et al 2017):
 
 | | Proteinbehov pr. kg kropsvægt pr. dag |
 |-|-|
-| Styrketræning og muskelopbygning | 1,6-2,2 gram / kg / dag | 
+| Styrketræning og muskelopbygning | 1,6-2,2 gram / kg / dag |
 
 De generelle anbefalinger undervurderer formentlig behovet for protein for lettere personer, så de kan med fordel ligge i den højere ende af anbefalingerne, mens tungere personer er dækket ind i den lavere ende af intervallet (Macnaughton et al 2017).
 
@@ -87,8 +86,6 @@ Hvis vi tager en mand, der vejer 80 kg, så skal jeg altså på en dag indtage o
 
 Inden du køber proteinpulver, så kan det altså være en god ide at kigge på, hvordan din kost allerede nu ser ud. Hvis du allerede får nok protein i kosten, så behøver du jo ikke at supplere, og du bør ikke supplere med proteinpulver, fordi du er for doven til at lave rigtig mad.
 
-<a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=75976" target="_blank" rel="nofollow noopener"> <img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=75976" border="0" alt=""></a>
-
 ## Kreatin
 
 **Kreatin monohydrat er det eneste kosttilskud, der har en veldokumenteret effekt på både muskelvækst og styrke.**
@@ -101,23 +98,21 @@ Vi skal dog være opmærksom på, at kreatin også er med til at øge den intrac
 
 Når man kigger på studierne om kreatin, så skal man være opmærksom på, at man har brugt den fedtfri masse som markør for muskelvækst. Når man fx bruger en DEXA-scanner til at måle den fedtfrie masse, så vil mængden af vand og glykogen i musklerne påvirke resultatet, som jeg også har skrevet om i mit indlæg om [hypertrofi og hvor hutigt muskler vokser]({% link _posts/2020-06-19-hurtigt-vokser-muskler.md %}) (Bone et al 2016).
 
-Kreatin virker heller ikke for alle. Nogle responderer rigtig godt på kreatin, og så fordeler folk sig hen til de omkring 30% af befolkningen som ikke responderer på kreatin (Buford 2007). 
+Kreatin virker heller ikke for alle. Nogle responderer rigtig godt på kreatin, og så fordeler folk sig hen til de omkring 30% af befolkningen som ikke responderer på kreatin (Buford 2007).
 
 Kreatin er også relativt sikkert at bruge. Studier har givet folk op til 30 gram om dagen, hvilket er 10 x den anbefalede dosis i helt op til fem år uden problemer med nyrerne (Kreider et al 2017; Bender og Klopstock 2016).
 
 Kreatin monohydrat er imidlertid utrolig billigt i forhold den potentielle positive effekt på muskelvæksten og muskelstyrken.
 
-Den **anbefalede dagsdosis af kreatin er 3 g**. Det koster altså kun omkring 100 kroner at dække et tre måneders forbrug af kreatin. Du kan se [priserne på kreatinpulver hos Bodylab\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/bodylab-kreatin-pulver-188p.html){:rel="nofollow"}.
+Den **anbefalede dagsdosis af kreatin er 3 g**. Det koster altså kun omkring 100 kroner at dække et tre måneders forbrug af kreatin. Du kan se [priserne på kreatinpulver hos Bodylab](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/bodylab-kreatin-pulver-188p.html){: rel='sponsored nofollow noopener' }.
 
-Noget tyder på, at det kan være godt at tage kreatin efter træning sammen med protein og kulhydrat for at få den største effekt (Antonio og Ciccone 2013), men mange starter også dagen med at tage dagsdosis af kreatin. Hvis du er interesseret i at læse mere om kreatin, så har Nikolaj Bach skrevet en [rigtig god indføring om, hvad kreatin er og hvordan det virker?](https://www.bodylab.dk/shop/ofte-stillede-spoergsmaal-1352c1.html) på [Bodylab\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/ofte-stillede-spoergsmaal-1352c1.html){:rel="nofollow"}.
-
-<a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=71672" target="_blank" rel="nofollow noopener"> <img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=71672" border="0" alt=""></a>
+Noget tyder på, at det kan være godt at tage kreatin efter træning sammen med protein og kulhydrat for at få den største effekt (Antonio og Ciccone 2013), men mange starter også dagen med at tage dagsdosis af kreatin. Hvis du er interesseret i at læse mere om kreatin, så har Nikolaj Bach skrevet en [rigtig god indføring om, hvad kreatin er og hvordan det virker?](https://www.bodylab.dk/shop/ofte-stillede-spoergsmaal-1352c1.html) på [Bodylab](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/ofte-stillede-spoergsmaal-1352c1.html){: rel='sponsored nofollow noopener' }.
 
 ## Koffein
 
 Den primære effekt af koffein som kosttilskud er en træthedsbekæmpende effekt, som gør, at du kan arbejde hårdere i din træning.
 
-Rasmus Thorup Andersen beskriver [forskellige facts om koffein](https://www.bodylab.dk/shop/forskellige-facts-omkring-2433c1.html) på [Bodylab\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/forskellige-facts-omkring-2433c1.html), hvor han konkluderer, at den mest effektive måde at indtage koffein på er rent.
+Rasmus Thorup Andersen beskriver [forskellige facts om koffein](https://www.bodylab.dk/shop/forskellige-facts-omkring-2433c1.html) på [Bodylab](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/forskellige-facts-omkring-2433c1.html){: rel='sponsored nofollow noopener' }, hvor han konkluderer, at den mest effektive måde at indtage koffein på er rent.
 
 Hvis koffein indtages gennem kaffe eller the, så er der andre stoffer i drikkevarerne, som har effekt på optagelsen af koffein.
 
@@ -129,11 +124,11 @@ Hvis du vil indtage koffein, så skal du prøve dig lidt frem i forhold til hvil
 | Sensitiv over for stimulanser | 25 - 50 mg |
 | Almindelig startdosis | 75 - 100 mg |
 
-Den billigste måde at få koffein på er formentlig som et rent kosttilskud. Du kan se priserne hos [Bodylab\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/koffein-11c1.html){:rel="nofollow"}. En pille koster omkring [50 øre med 100 mg\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/bodylab-caffeine-200-643p.html){:rel="nofollow"}.
+Den billigste måde at få koffein på er formentlig som et rent kosttilskud. Du kan se priserne hos [Bodylab](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/koffein-11c1.html){: rel='sponsored nofollow noopener' }. En pille koster omkring [50 øre med 100 mg](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/bodylab-caffeine-200-643p.html){: rel='sponsored nofollow noopener' }.
 
 En direkte præstationsfremmende evidensbaseret dosis kræver nok mere, men den individuelle tolerance er meget forskellige.
 
-Måske kan 5 mg pr. kilo kropsvægt være en dosis, men du skal ikke starte der, men finde din egen 
+Måske kan 5 mg pr. kilo kropsvægt være en dosis, men du skal ikke starte der, men finde din egen
 
 > Man skal passe på med at bruge koffein som lappeløsning, fordi du ikke får restitueret ordentligt.
 
@@ -200,7 +195,7 @@ Følgende ser ud til i litteraturen at kunne påvirke ens træthed. Hvis du har 
 
 ## Probiotika
 
-Casper Jespersen, personlig træner, kalder [Probiotika for det oversete kosttilskud](https://casperjespersen.dk/probiotika-det-mest-oversete-kosttilskud/). Faktisk ville han vælge Probiotika, hvis han kun skulle vælge mellem 1-2 kosttilskud. Det samme siger Justin Roberts, som er lektor i sport, motion og ernæring fra Anglia Ruskin University. 
+Casper Jespersen, personlig træner, kalder [Probiotika for det oversete kosttilskud](https://casperjespersen.dk/probiotika-det-mest-oversete-kosttilskud/). Faktisk ville han vælge Probiotika, hvis han kun skulle vælge mellem 1-2 kosttilskud. Det samme siger Justin Roberts, som er lektor i sport, motion og ernæring fra Anglia Ruskin University.
 
 > En stor evidensmængde understøtter indtag af probiotikatilskud. Det har gunstige effekter på helbredet, forbedrer [tarmsundheden og immunresponsen og mindsker den mængde kolesterol, der lagres i kroppen](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4045285/).
 
@@ -212,20 +207,20 @@ Et velfungerende miljø i tarmene kan være med til at modvirke: Kronisk træthe
 
 Bakteriebalancen i tarmen kan forskubbes gennem dårlig kost, fysisk inaktivitet eller vedvarende stress.
 
-Probiotika er en måde at understøtte tarmsystemets helbred på. 
+Probiotika er en måde at understøtte tarmsystemets helbred på.
 
-Probiotika er egentlig mælkesyrebakterier. Bakterierne fremkommer i den proces, der kaldes fermentering. Her omdannes lactose (mælkesukker) til mælkesyre. Mælkesyren medvirker til, at de skadelige og sygdomsfremkaldende bakterier, som findes i tarmene, nedkæmpes. Disse bakterier trives nemlig ikke i det sure miljø, som mælkesyrebakterierne skaber. 
+Probiotika er egentlig mælkesyrebakterier. Bakterierne fremkommer i den proces, der kaldes fermentering. Her omdannes lactose (mælkesukker) til mælkesyre. Mælkesyren medvirker til, at de skadelige og sygdomsfremkaldende bakterier, som findes i tarmene, nedkæmpes. Disse bakterier trives nemlig ikke i det sure miljø, som mælkesyrebakterierne skaber.
 
 Probiotika er levende, veldefinerede bakterier, som findes naturligt i kroppen. Men du kan altså også få mælkesyrebakterier gennem kosten, fx fra yoghurt og kefir, men som du altså også kan få som kosttilskud.
 
 Casper Jespersen understreger, at der er [4 vigtige ting at være opmærksom på, hvis du vælger at tage Probiotika](https://casperjespersen.dk/probiotika-det-mest-oversete-kosttilskud/):
 
-- Du skal sikre dig, at **bakteriefloraen er levende ved indtagelse** - og ikke kun ved produktion. Du skal altså købe Probiotika af høj kvalitet. 
+- Du skal sikre dig, at **bakteriefloraen er levende ved indtagelse** - og ikke kun ved produktion. Du skal altså købe Probiotika af høj kvalitet.
 - Det betyder meget, at du indtager et **højt antal af levende bakterier**. Kvantitet er altså vigtigt.
 - Du skal kigge efter **typen af bakterier**. De skal hedde Lactobacillus acidophilus, Lactobacillus rhamnosus, Lactobacillus plantarum, Bifidobacterium bifidum, Bifidobacterium longum, Lactobacillus salivarius.
 - Lav dine egne undersøgelser i litteraturen, så du ved om den probiotika du vælger er effektiv. Typen skal være stærk nok og give den korrekte effekt.
 
-Casper Jespersen anbefaler versionerne fra Udo's Choice®, som hedder hhv. Super8 Plus og Advanced Adult. Du kan købe begge versioner hos [Helsebixen\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=24609&htmlurl=https://www.helsebixen.dk/shop/catalogsearch/result/?q=probiotika){:rel="nofollow"}, hvis du gerne vil tage Probiotika.
+Casper Jespersen anbefaler versionerne fra Udo's Choice®, som hedder hhv. Super8 Plus og Advanced Adult. Du kan købe begge versioner hos [Helsebixen](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=24609&htmlurl=https://www.helsebixen.dk/shop/catalogsearch/result/?q=probiotika){: rel='sponsored nofollow noopener' }, hvis du gerne vil tage Probiotika.
 
 Hvis du ved mere om Probiotika og kan have lyst til at skrive et endnu mere evidensbaseret og dybdegående blogindlæg, så skriv endelig til os.
 
@@ -241,8 +236,6 @@ Fisker Performance taler i deres podcast om [Kosttilskud som er spild af penge](
 - Exogene ketoner
 - Antioxidant-tilskud
 - Multivitamin-tilskud
-
-<a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=75968" target="_blank" rel="nofollow noopener"> <img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=75968" border="0" alt=""></a>
 
 Jeg har tidligere også skrevet om [magnesium som kosttilskud]({% link _posts/2020-07-11-magnesium.md %}), men at magnesium formentlig for de fleste ikke har nogen synderlig effekt med mindre man er i mangel af det.
 
@@ -269,8 +262,6 @@ Derefter skal du huske at starte i bunden af pyramiderne.
 - [EP #18: Kosttilskud som er spild af penge - Fisker Performance](https://www.fisker-performance.dk/podcast/kosttilskud-som-er-spild-af-penge)
 - [EP #21: Kosttilskud med dokumenteret effekt - Fisker ...](https://www.fisker-performance.dk/podcast/kosttilskud-med-dokumenteret-effekt)
 
-<a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=75952" target="_blank" rel="nofollow noopener"> <img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=75952" border="0" alt=""></a>
-
 ### Referencer om protein som kosttilskud
 
 - Jorn Trommelen and Luc J. C. van Loon. Pre-Sleep Protein Ingestion to Improve the Skeletal Muscle Adaptive Response to Exercise Training. Nutrients 2016, 8(12), 763; doi:10.3390/nu8120763
@@ -287,5 +278,3 @@ Derefter skal du huske at starte i bunden af pyramiderne.
 - J Int Soc Sports Nutr. 2017 Jun 13;14:18. doi: 10.1186/s12970-017-0173-z. eCollection 2017. International Society of Sports Nutrition position stand: safety and efficacy of creatine supplementation in exercise, sport, and medicine. Kreider RB1, Kalman DS2, Antonio J3, Ziegenfuss TN4, Wildman R5, Collins R6, Candow DG7, Kleiner SM8, Almada AL9, Lopez HL4,10.
 - Bender A, Klopstock T. Creatine for neuroprotection in neurodegenerative disease: end of story? Amino Acids. 2016;48(8):1929–40.
 - Antonio J, Ciccone V. The effects of pre versus post workout supplementation of creatine monohydrate on body composition and strength. J Int Soc Sports Nutr. 2013 Aug 6;10:36. doi: 10.1186/1550-2783-10-36.
-
-<a href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=71672" target="_blank" rel="nofollow noopener"> <img src="https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=71672" border="0" alt=""></a>

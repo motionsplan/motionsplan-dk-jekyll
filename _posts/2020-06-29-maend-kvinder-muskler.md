@@ -11,6 +11,7 @@ category:
 tags:
   - fysiologi
   - muskler
+  - træningslære
 last_modified_at: 2020-06-11T08:14:14Z
 toc: true
 gallery:
@@ -36,13 +37,13 @@ Det ser imidlertid ud til, at fibertypekompositionen hos mænd og kvinder er for
 
 Selvom procenterne naturligvis ikke er så præcise som denne figur, og der er store variationer individuelt, så ser det ud til, at mænd har en større andel af type II fibre, end kvinder har. Mænd har derfor på muskelfiberniveau større potentiale for at vokse, være stærkere og mere eksplosiv.
 
-Det betyder til gengæld, at kvinder har en større andel af type I-fibre end mænd. Kvinder har derfor et større potentiale for at være udholdende. 
+Det betyder til gengæld, at kvinder har en større andel af type I-fibre end mænd. Kvinder har derfor et større potentiale for at være udholdende.
 
 Flere studier har vist særligt med albuebøjerne og knæekstensorerne, at mænd udtrættes hurtigere end kvinder. Albert et al (2006) har vist at mænd mister mere aktivering af _motor units_. Hunter et al (2004) har vist, at kvinder er mere udholdende end mænd (18 min vs 11 min), selvom kraften de to køn udøver ikke er signifikant forskellig. Hunter og Enoka (2001) fandt at tiden til fatigue var 1.806 sekunder for kvinder og 829 sekunder for mænd i albuebøjerne ved en isometrisk kontraktion.
 
 Udholdenheden ser altså ud til at være længere hos kvinderne, men Fulco et al (1999) har også vist at kvinder restituerer hurtigere end mænd efter ens opgaver. Haizlip et al (2015) foreslår at:
 
-> These differences in muscle performance between men and women may be due to the larger numbers of type-I fibers in women that are characterized by slow oxidative metabolism and thus higher endurance. 
+> These differences in muscle performance between men and women may be due to the larger numbers of type-I fibers in women that are characterized by slow oxidative metabolism and thus higher endurance.
 
 --- <cite>[Haizlip et al (2015)](https://doi.org/10.1152/physiol.00024.2014)</cite>
 
@@ -58,7 +59,7 @@ Miller et al (1993) fandt dog ingen signifikante forskelle i styrke-tværsnitsar
 
 Kvinder har typisk en højere fedtprocent, så derfor vil de have en relativt lavere muskelmasse.
 
-Janssen et al (1985) konkluderer, at mænd har en større grad af skeletmuskelmasse end kvinder, og at forskellen er større i overkroppen. Miller et al (1993) finder følgende i deres studium 
+Janssen et al (1985) konkluderer, at mænd har en større grad af skeletmuskelmasse end kvinder, og at forskellen er større i overkroppen. Miller et al (1993) finder følgende i deres studium
 
 > <q>The women were approximately 52% and 66% as strong as the men in the upper and lower body respectively</q>
 
@@ -78,7 +79,7 @@ Gentil et al (2016) have unge begyndere til at styrketræne i 10 uger. Efter de 
 
 > Studier har vist, at styrkefremgangen varierer blandt kvinder, der udfører styrketræning. Hvis man sætter utrænede mænd og kvinder til at udføre samme styrketræningsprogram, er den absolutte styrkefremgang størst hos mændene. Ser man derimod på den relative styrke som procentuel fremgang, vil kvindernes fremgang være lige så stor som mændenes – hvis ikke større.
 
---- <cite>[Andersen og Vela, Træningsmagasinet](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=20604&htmlurl=https://www.bodyman.dk/shop/cms-kvinderogstyrketraening.html){:rel="nofollow"}</cite>
+--- <cite>[Andersen og Vela, Træningsmagasinet](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=20604&htmlurl=https://www.bodyman.dk/shop/cms-kvinderogstyrketraening.html){: rel='sponsored nofollow noopener' }</cite>
 
 ## Vokser kvinders muskler ligeså meget som mænds?
 
@@ -88,7 +89,7 @@ Kvinder har ikke de samme hormonelle betingelser for muskelvækst som mænd. Tes
 
 Mænd har til at starte med mere muskelmasse, fordi de opbygger mere muskelmasse gennem puberteten. Dette skyldes formentlig bl.a. tilstedeværelsen af testosteron.
 
-Men hvis vi kigger på den relative vækst i muskelmasse og tværsnitsareal, så tyder det på, at kvinders muskler har de samme vækstpotentiale som mænd - særligt i begyndelsen af træningen (Roth et al 2001; Walts et al 2008; O’Hagan et al 1995). 
+Men hvis vi kigger på den relative vækst i muskelmasse og tværsnitsareal, så tyder det på, at kvinders muskler har de samme vækstpotentiale som mænd - særligt i begyndelsen af træningen (Roth et al 2001; Walts et al 2008; O’Hagan et al 1995).
 
 Muskelproteinsyntesen er nødvendig for at få muskelvækst. Desto større muskelproteinsyntesen er over en periode, desto større muskelvækst kan man forvente (Damas et al 2016). Det ser ikke ud til, at der forskel på muskelproteinsyntesen for mænd og kvinder (fx Dreyer 2010).
 
@@ -116,9 +117,9 @@ Hvis andelen af type I-fibre er større hos kvinder, så vil de selvsagt også h
 
 ## Er kvinder dårligere til at bruge deres muskler end mænd?
 
-Morten Zacho skriver, at man [utrænede ofte finder, at kvinder er dårligere til at aktivere hele muskelmassen](http://web.archive.org/web/20080227021220/http://www.motion-online.dk/styrketraening/styrke_-_artikler/er_der_forskel_paa_maend_og_kvinders_muskler?/){:rel="nofollow"}. Det betyder, at nervesystemet ikke formår at “tænde” hele muskelmassen. 
+Morten Zacho skriver, at man hos [utrænede ofte finder, at kvinder er dårligere til at aktivere hele muskelmassen](http://web.archive.org/web/20080227021220/http://www.motion-online.dk/styrketraening/styrke_-_artikler/er_der_forskel_paa_maend_og_kvinders_muskler?/){:rel="nofollow"}. Det betyder, at nervesystemet ikke formår at “tænde” hele muskelmassen.
 
-Morten Zacho foreslår, at det [kan skyldes både hormonelle og dels sociale forhold](http://web.archive.org/web/20080227021220/http://www.motion-online.dk/styrketraening/styrke_-_artikler/er_der_forskel_paa_maend_og_kvinders_muskler?/){:rel="nofollow"}. 
+Morten Zacho foreslår, at det [kan skyldes både hormonelle og dels sociale forhold](http://web.archive.org/web/20080227021220/http://www.motion-online.dk/styrketraening/styrke_-_artikler/er_der_forskel_paa_maend_og_kvinders_muskler?/){:rel="nofollow"}.
 
 > Mænds højere testosteron-niveau giver dem bedre forudsætninger for en aggressiv adfærd, hvilket kan udmønte sig i en mere komplet aktivering af en given muskelmasse. Dertil vil mange drenge gennem deres opvækst have haft en legeadfærd, der har øvet dem i at bruge deres muskler mere end pigerne.
 >
@@ -126,15 +127,28 @@ Morten Zacho foreslår, at det [kan skyldes både hormonelle og dels sociale for
 
 — <cite>[Morten Zacho](http://web.archive.org/web/20080227021220/http://www.motion-online.dk/styrketraening/styrke_-_artikler/er_der_forskel_paa_maend_og_kvinders_muskler?/){:rel="nofollow"}</cite>
 
+## Er der forskel på kvinder og mænds muskulære tilpasning til udholdenhedstræning?
+
+[Carter et al 2001](https://pubmed.ncbi.nlm.nih.gov/11405241/) konkluderer, at der ingen forskel er mellem kvinders og mænd muskulære adaptation til udholdenhedstræning. I studiet så man dog forskelle i fibertypefordelingen, som kan være med til at forklare, hvorfor det ser ud til, at kvinder kan være bedre til fedtforbrænding end mænd. Kvinderne havde en højere andel af type I-fibre i dette studium end mænden.
+
+> **Metode**: 8 kvinder og 8 mænd gennemgik et syv uger træningsprogram. Træningen bestod af cykeltræning (60 minutter på 60% af VO2max fire gange om ugen). Den maksimale iltoptagelse (VO2max) blev målt og muskelprøver udtaget og analyseret før og efter træningsperioden.
+>
+> **Resultater**: Den maksimale iltoptagelse blev øget med 22% og 17% for henholdsvis kvinder og mænd - men uden statistisk forskel. De mitokondrielle enzymer blev øget med omtrent 40% hos både mænd og kvinder. Endvidere havde mændene relativt større areal af de hurtige type II muskelfibre og kvinderne havde et relativt større areal af de langsomme type I muskelfibre.
+
+--- <cite>[Morten Zacho](http://web.archive.org/web/20130605160953/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/ingen_forskel_i_effekten_af_udholdenhedstraening_paa_kvinder_og_maends_muskler/){: rel="nofollow" }</cite>
+
 ## Skal kvinder og mænd træne forskelligt?
 
-Hvis det er rigtigt, at der er forskel på mænds og kvinders muskler, så kan det give mening, at man manipulerer sæt, gentagelser og intensitet. 
+Hvis det er rigtigt, at der er forskel på mænds og kvinders muskler, så kan det give mening, at man manipulerer sæt, gentagelser og intensitet.
 
 Hvis kvinder er mere udholdende og restituerer hurtigere, så kan kvinder formentlig tage lidt flere gentagelser ved den samme procentvise belastning af [1RM](/rm-beregner/), og måske kan kvinderne have kortere pauser i styrketræningen.
 
 Træningsanbefalingerne for kvinder og mænd i forhold til styrketræning er dog stadig de samme.
 
 ## Referencer
+
+<details markdown="1">
+  <summary>Se alle referencer om mænds og kvinders muskler</summary>
 
 - Abe, T, C Kearns, og T Fukunaga. 2003. “Sex differences in whole body skeletal muscle mass measured by magnetic resonance imaging and its distribution in young Japanese adults”. British Journal of Sports Medicine 37 (5): 436–40. <https://doi.org/10.1136/bjsm.37.5.436>.
 - Albert, WJ, AT Wrigley, RB McLean, og GG Sleivert. 2006. “Sex differences in the rate of fatigue development and recovery”. Dynamic Medicine 5 (januar): 2. <https://doi.org/10.1186/1476-5918-5-2>.
@@ -166,5 +180,6 @@ Træningsanbefalingerne for kvinder og mænd i forhold til styrketræning er dog
 - Taekema, Diana G., Carolina H. Y. Ling, Gerard Jan Blauw, Carel G. Meskers, Rudi G. J. Westendorp, Anton J. M. de Craen, og Andrea B. Maier. 2011. “Circulating Levels of IGF1 Are Associated with Muscle Strength in Middle-Aged- and Oldest-Old Women”. European Journal of Endocrinology 164 (2): 189–96. <https://doi.org/10.1530/EJE-10-0703>.
 - Velders, Martina, og Patrick Diel. 2013. “How Sex Hormones Promote Skeletal Muscle Regeneration”. Sports Medicine (Auckland, N.Z.) 43 (11): 1089–1100. <https://doi.org/10.1007/s40279-013-0081-6>.
 - WALTS, CORY T., ERIK D. HANSON, MATTHEW J. DELMONICO, LILI YAO, MIN QI WANG, og BEN F. HURLEY. 2008. “Do Sex or Race Differences Influence Strength Training Effects on Muscle or Fat?” Medicine and science in sports and exercise 40 (4): 669–76. <https://doi.org/10.1249/MSS.0b013e318161aa82>.
+</details>
 
 {% include pinterest image_path="/assets/images/pinterest/forskel-maend-kvinders-muskler.png" data-pin-media="/assets/images/pinterest/forskel-maend-kvinders-muskler.png" class="hidden" %}

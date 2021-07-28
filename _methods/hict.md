@@ -1,38 +1,50 @@
 ---
+layout: single
 title: "High Intensity Continuous Training (HICT)"
+excerpt: "I High Intensity Continous Training (HICT) udfordrer både kadencen og modstanden udholdenheden i fast-twitch muskelfibrene med moderat tærskel (type IIa-muskelfibrene). HICT udføres med høj modstand i langsomt tempo i 5-20 minutter."
 tags:
   - conditioning
 rpe: 7-8
+intensity: Max
+time: 5-20 min
+reps: Lav hastighed
 howto:
-  - Use maximum resistance
-  - Low speed (20-30rpm on a spin bike)
-  - 5-20 min total time
-  - Keep HR below anaerobic threshold
-exercises: "Spin bike, Versaclimber, lunges up a steep hill, bike ride up a steep hill, box step-ups, etc."
-frequency: 1-2 x / week x 6-8 weeks
+  - Brug høj modstand
+  - Lav hastighed (20-30rpm på en spinning cykel)
+  - 5-20 min
+  - Hold HR under den anaerobe tærskel
+exercises: "Spinnincykel, lunges op ad en bakke, cykel op ad bakke, box step-ups med ekstra vægt."
+frequency: 1-2x/uge x 6-8 uger
 progress:
-  - Speed at given HR
-  - Time exercise can be maintained
-effect: "Creates a high level of stimulus to increase oxygen utilization and improve endurance of the moderate threshold fast-twitch muscle fibers."
+  - Hastighed ved en given HR
+  - Tiden hvor du kan holde til øvelsen
+effect: "Skaber et højt stimulus for at forbedre iltudnyttelsen og forbedre udholdenheden af de hurtige fast-twitch fibre med moderat tærskel (Type IIa)."
 video:
   provider: youtube
   id: q8zcxiucNkY
 ---
 
-Both the cadence and resistance of this method engage the fast-twitch muscle fibers over
-longs periods of time.
-Increase the exercise resistance to the point where the athlete slows down while still
-activating the fast-twitch fibers. The Keiser bike or VersaClimber work very well for this
-purpose.
-The guidelines for High Intensity Continuous Training (HICT) on the Keiser bike are:
-• Set the resistance level to about 20
-• Maintain a speed of 25-30rpm
-• Perform 10-20 minutes of total work
-• Keep heart rate below the anaerobic threshold
-As the athlete fatigues, focus on coaching proper technique while maintaining a constant
-power output.
-The HICT method facilitates recovery in addition to developing fast-twitch fiber endurance.
-The concentric-only nature of the HICT movements incurs less tissue stress than eccentric
-movements. This method also increases blood flow to fast-twitch fibers which often
-accumulate the most training fatigue; the result is a decrease in recovery time.
-When using HICT for active recovery, adjust the total work time to 5-10 minutes.
+{{ page.excerpt }}
+
+Hvis du kører HICT på en spinningcykel, så sæt modstanden op, så atleten ikke kan træde rundt med mere end 20-30 rpm.
+
+De generelle **retningslinjer** for High Intensity Continous Training (HICT) på en spinning cykel er følgende.
+
+- Sæt modstanden på op, så du kan træde cyklen rundt, men det er hårdt
+- Fasthold en hastighed på omkring 25-30rpm
+- Kør HICT i omkring 10-20 minutter for totalt arbejde
+- Hold HR under den anaerobe tærskel
+
+Når atleten bliver træt, så kan træneren fokusere på at fastholde et konstant power output.
+
+HICT facilitererer restitution samtidig med at det udvikler udholdenheden i fast-twitch-fibrene.
+
+Da HICT på en cykel primært arbejder koncentrisk, så er der mindre stress på kroppen, end hvis det excentriske komponent var med. Hvis du laver stepups, så er der naturligvis stadig et excentrisk komponent i muskelsammentrækningen.
+
+Metoden forbedrer blodgennemstrømningen til fast-twitch muskelfibrerne, som ofte akkumulerer mest træningstræthed (Joel Jamieson), hvilket kan forbedre restitutionen og måske formindske restitutionstiden.
+
+Når HICT bliver brugt til aktiv restitution, så kan du justere den totale arbejdstid til 5-10 minutter.
+
+{% if page.video %}
+  {% include video provider=page.video.provider id=page.video.id %}
+{% endif %}

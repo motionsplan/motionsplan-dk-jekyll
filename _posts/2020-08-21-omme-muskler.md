@@ -17,7 +17,7 @@ last_modified_at: 2021-02-14T08:14:14Z
 toc: true
 ---
 
-Du kan få ømme muskler efter træning, hvis du belaster din krop mere end du plejer. Jeg har kigget på teorierne for, hvorfor du kan blive øm i kroppen efter fysisk aktivitet.
+Du kan få ømme muskler efter træning, hvis du belaster din krop mere end du plejer. Jeg har kigget på teorierne for, hvorfor du oplever DOMS og kan blive øm i kroppen efter fysisk aktivitet.
 
 Det fleste kender det. Du har trænet mere end du plejer, eller du har lavet nogle nye øvelser, og nu gør det ondt i musklerne. Fænomenet kaldes også **andendagsømhed** eller _Delayed Onset Muscle Soreness_ (DOMS). 
 
@@ -107,9 +107,9 @@ Jesper Emil Jakobsgaard, som forsker i muskler og muskelfibre i forbindelse med 
 
 Proteolyse er den kemiske proces, hvor proteiner bliver nedbrudt til aminosyrer gennem en spaltning. Jesper Emil Jakobsgaard fortsætter:
 
-> Eller fordi calcium på egen hånd kan skabe mikroskade gennem samme signaleringsveje som følge af muskelaktivitet der indeholder betydelige mængder af calcium-fluktationer i cellen. Dette kan muligvis forklare den indledningsvise muskelskade, man har observeret efter træningspas med okklusionstræning, og som kan være på højde med tung excentrisk træning.
+> Eller fordi calcium på egen hånd kan skabe mikroskade gennem samme signaleringsveje som følge af muskelaktivitet der indeholder betydelige mængder af calcium-fluktationer i cellen. Dette kan muligvis forklare den indledningsvise muskelskade, man har observeret efter [træningspas med okklusionstræning]({% link _posts/2021-01-30-okklusion-vol1.md %}), og som kan være på højde med tung excentrisk træning.
 
-— <cite>Jesper Emil Jakobsgaard</cite>
+--- <cite>Jesper Emil Jakobsgaard</cite>
 
 Teorien om calciums rolle i muskelømhed skal altså stadig ses i sammenhæng med teorien om, at muskelskader er med til at skabe ømhed i musklerne.
 
@@ -129,7 +129,7 @@ Du kan få ømme muskler af forskellige øvelser, så snart du arbejder hårdere
 
 Der er imidlertid også nogle øvelser, hvor risikoen for ømme muskler er større end ved andre øvelser.
 
-Hvis du laver øvelser med et stort [excentrisk]({% link _posts/2020-08-11-excentrisk-koncentrisk.md %}) komponent, så bliver mikroskaderne i musklerne typisk lidt større. Det sker formentlig, fordi proteintrådene, som holder fast for at skabe muskelkontraktionen, ender med at blive skadet, fordi kraften er høj. Derfor forårsager [excentrisk træning]({% link _posts/2020-08-24-excentrisk-traening.md %}) flere mikroskader, og for at undgå ømhed foreslår [Cheung et al (2003)](https://pubmed.ncbi.nlm.nih.gov/12617692/), at du indfaser excentrisk træning over 1-2 uger.
+Hvis du laver øvelser med et stort [excentrisk komponent]({% link _posts/2020-08-11-excentrisk-koncentrisk.md %}), så bliver mikroskaderne i musklerne typisk lidt større. Det sker formentlig, fordi proteintrådene, som holder fast for at skabe muskelkontraktionen, ender med at blive skadet, fordi kraften er høj. Derfor forårsager [excentrisk træning]({% link _posts/2020-08-24-excentrisk-traening.md %}) flere mikroskader, og for at undgå ømhed foreslår [Cheung et al (2003)](https://pubmed.ncbi.nlm.nih.gov/12617692/), at du indfaser excentrisk træning over 1-2 uger.
 
 Hvis du laver mange sprintøvelser og spring med landinger, er der et stort excentrisk komponent, fordi du skal bremse bevægelsen nedad. Hvis du aldrig har prøvet at blive øm i musklerne i forbindelse med træning, så kan du prøve at sprinte flere gange efter hinanden på en bakke, der går en lille smule nedad. Så lover jeg dig, at du finder ud af, hvad andendagsømhed er.
 
@@ -195,7 +195,7 @@ Der er rigtigt at muskelfibrene påvirkes ved træning, men muskelfibrene forsvi
 
 Det er efter al sandsynlighed ikke [mælkesyren]({% link _posts/2020-08-24-maelkesyre.md %}), der gør, at man ikke længere kan arbejde med samme intensitet. Mælkesyren beskytter nok snarere musklerne. Derfor er det også usandsynligt, at mælkesyren gør kroppen øm og stiv dagen efter træning. Men der kan naturligvis med meget intensive aktiviteter og anaerob træning være en tendens til flere mikroskader i musklerne.
 
-## Referencer om ømme muskler
+## Referencer om DOMS og ømme muskler
 
 <details markdown="1">
   <summary>Se flere referencer om DOMS og delayed onset muscle soreness</summary>

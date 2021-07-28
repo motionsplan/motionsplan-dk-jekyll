@@ -1,5 +1,8 @@
 ---
-title: &title "Træningsprogram til styrketræning: Guide til programlægning"
+title: &title "Komplet guide til programlægning i styrketræning"
+seo_title: "Komplet guide til programlægning i styrketræning »"
+redirect_from:
+  - /artikel/hvordan-skal-jeg-dosere-min-styrketraening/
 permalink: /traeningsprogram-programlaegning-styrketraening/
 language: da
 header:
@@ -7,9 +10,7 @@ header:
   teaser: https://images.unsplash.com/photo-1526408984842-5f1323d42469?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
   caption: *title
 category:
-  - Programlægning
   - Styrketræning
-  - Viden om
 tags:
   - programlægning
   - træningsprogram
@@ -18,11 +19,15 @@ last_modified_at: 2020-01-23T08:14:14Z
 toc: true
 ---
 
-Jeg gennemgår her, hvordan man sammensætter et godt styrketræningsprogram til styrketræning. Jeg har gjort mig meget umage for, at denne guide til programlægning dækker alle de grundlæggende træningsprincipper i forbindelse med at lave et styrkeprogram, der passer til den der skal lave det.
+Jeg gennemgår her, hvordan man sammensætter et godt styrketræningsprogram til styrketræning. Jeg har gjort mig meget umage for, at denne guide til programlægning dækker alle de grundlæggende træningsprincipper i forbindelse med at lave et styrkeprogram, der passer til den, der skal lave træningsprogrammet.
 
 Når du laver træningsprogrammer, så er det vigtigt, at du tager udgangspunkt i de målsætninger programmet skal opfylde. Træningsplanen kommer til at se forskellig ud, hvis dit mål er at blive stærkere i forhold til at bygge flere muskler på eller komme i bedre kondition.
 
+Vi har også beskrevet [6 trin til at lave dit eget træningsprogram til styrketræning her]({% link _posts/2021-04-24-programlaegning.md %}) eller [anmeldelser af styrketræningsprogrammer]({% link _posts/2020-12-30-anmeldelse-traeningsprogrammer.md %}).
+
 Her koncentrerer jeg mig primært om programlægning i forhold ti lat lave et godt styrketræningsprogram.
+
+Så lad os dykke ned i det!
 
 ## Hold fokus i dit træningsprogram
 
@@ -51,7 +56,7 @@ Hav en **plan**, **skriv planen ned** og **lav noter** om din træning.
 ## Træningslære
 
 - 20% af indsatsen giver 80% af resultaterne
-- Træning og restitution går hånd i hånd. 
+- Træning og [restitution]({% link _posts/2020-05-28-restitutionstid-alder.md %}) går hånd i hånd. 
 - Ingen resultater uden at du har styr på, hvordan restitution virker.
 - Det samlede stress på kroppen afgør, hvor gode resultaterne bliver.
 
@@ -69,28 +74,37 @@ Træning er en koncentreret påvirkning af kroppen. Hvis man ikke tilrettelægge
 
 Træning skal doseres rigtigt og med omtanke.
 
-## Kroppens opbygning ultrakort
+## Hvordan skal jeg dosere min styrketræning?
 
-Kroppen er opbygget af forskellige systemer, der har betydning for træningen.
+Det kommer helt an på, hvad du vil opnå. I et metaanalyse af 140 styrketræningsstudier sammenlignede man, hvordan utrænede og trænede skulle træne (Rhea et al 2003). I studiet definerede man utrænede som folk der har trænet mindre end et år, og trænede som har trænet mere end et år.
 
-- **Nervesystemet.** Beskederne til musklerne om at arbejde kommer fra nervesystemet. Musklerne og leddene sender også beskeder tilbage til hjernen om, hvordan tilstanden er rundt omkring i kroppen.
-- **Kredsløbet.** Blodet løber forbi lungerne og henter ilt og forbi tarmsystemet og henter næringsstoffer, som det så afleverer rundt i kroppen, hvor der er brug for det. Bl.a. har musklerne brug for ilt og næringsstoffer for at kunne lave noget. Blodet tager affaldsstoffer med tilbage.
-- **Skelettet.** Kroppens stillads. Knoglerne i skelettet hænger sammen i led. Ledkapslerne består bl.a. af ledbånd, brusk og ledkapsel.
-- **Musklerne.** Det er musklerne, der bevæger de enkelte led i de forskellige retninger. Musklerne hæfter på knoglerne gennem sener. En muskel kan kun trække sig sammen (koncentrisk arbejde) og holde igen (eccentrisk arbejde) når den møder en ydre modstand.
+Som med al mulig andet træning, skal man huske på, at det er i pauserne, at kroppen bygges op. Desto hårdere man træner, desto længere skal kroppen bruge på at bygge sig selv op igen. Det er bl.a. en af forklaringerne på forskellene mellem de trænede og utrænede, idet trænede kan belaste kroppen hårdere.
+
+De undersøgte bl.a. hvor høj intensiteten i forhold til [1RM](/rm-beregner/) med fordel kunne være.
+
+Konklusioner fra metaanalyse af 140 styrketræningsstudier ([Rhea et al 2003](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=12618576&dopt=Abstract)) kan ses i nedenstående tabel.
+
+|            | Begynder         | Trænet              |
+|------------|------------------|---------------------|
+| Erfaring   | Mindre end et år | Mere end et år      |
+| Belastning | 60% 1RM          | 80% 1RM             |
+| Sæt        | 4                | 4                   |
+| Pr. uge    | 3                | 2                   |
+| Type       | Helkrop          | Helkrop eller split |
 
 ## 20% af indsatsen giver 80% af resultaterne
 
-Sandheden er, at det er mere enkelt for os, der løfter for at blive stærkere og få nogle resultater. Præmissen er at 20% af arbejdet giver dig 80% af resultaterne. De 20% gør dig virkelig god. Og de 20% handler om basisviden.
+Du kan få rigtig meget ud af at gøre gøre din træning enkel. Sandheden er formentlig, at det er 20% af arbejdet, der giver dig 80% af resultaterne. De 20% gør dig virkelig god. Og de 20% handler om basisviden.
 
 De sidste procent fremgang kræver virkelig meget arbejde, men risikoen ved at få råd fra fx sites med folk, der virkelig har trænet længe og optimeret alt i deres liv samtidig med at de spiser alle mulige kosttilskud, kan være at din krop ikke er klar til det, fordi du ikke har bygget basis op. Basis hvor du får 80% af resultaterne.
 
-Det kan illustreres med følgende figur:
+Det kan illustreres med 'The Power Law':
 
-{% include figure image_path="/assets/images/training/powerlaw.svg" caption="Dit træningsprogram bør tage hensyn til, hvad der giver den største effekt" %}
+{% include figure image_path="/assets/images/training/powerlaw.svg" caption="The Power Law fortæller dig, at dit træningsprogram bør tage hensyn til, hvad der giver den største effekt" alt="illustration af the power law" %}
 
 Nedenstående figur illustrerer at så snart du går i gang med at træne, så får du en stor gevinst. Den viser også, at du skal sørge for at give den lidt gas, før der sker noget. Desto mere du træner, desto større effekt får du, indtil du et vist punkt, hvor den blå linje krydser x-aksen - og hvor træningen faktisk begynder at stjæle af din gevinst for den træning.
 
-{% include figure image_path="/assets/images/training/marginal-gain.svg" caption="Din træningsplanlægning skal basere sig på de grundlæggende principper, hvor der er de største marginale _gains_" %}
+{% include figure image_path="/assets/images/training/marginal-gain.svg" caption="Din træningsplanlægning skal basere sig på de grundlæggende principper, hvor der er de største marginale _gains_." alt="marginal gains" %}
 
 Desto mere trænet du er, desto vanskeligere bliver det at få fremgang, men til gengæld kan du holde til mere.
 
@@ -102,21 +116,23 @@ Hvor meget belastning kroppen kan holde til afhænger af mange ting. Fx vil øge
 
 ### General adaption syndrome (GAS)
 
-Teorien er at kroppen smider alle de belastninger kroppen kommer ud for ind i en pulje. Du kan lave et fantastisk træningsprogram, men det nytter ikke noget, hvis du drikker, spiser dårligt, har kæresteproblemer eller er stresset på arbejdet. General Adaption Syndrome (GAS) modellen smider alt i en pulje.
+Teorien er at kroppen smider alle de belastninger kroppen kommer ud for ind i en pulje. Du kan lave et fantastisk træningsprogram, men det nytter ikke noget, hvis du drikker, spiser dårligt, har kæresteproblemer eller er stresset på arbejdet. 
 
-{% include figure image_path="/assets/images/training/gas.svg" caption="General adaption syndrome (GAS)" %}
+Kroppen reagerer ud fra General Adaption Syndrome (GAS) modellen på det samlede stress. Når man har været ramt af fx et stimulus fra træning, så begynder den at genopbygge selv. Denne reaktion er imidlertid afhængig af, hvad det samlede stress på kroppen er.
+
+{% include figure image_path="/assets/images/training/gas.svg" caption="General adaption syndrome (GAS)" alt="general adapaption syndrome model" %}
 
 Hver gang du træner, nedbryder du kroppen (alarm-fasen). Men den er stædig og kæmper tilbage, for den vil være stærk nok til at modstå træningen næste gang (resistance-fasen). Kroppen superkompenserer for genopbygningen i forhold til den tidligere træning. Men du kan risikere at vente for længe, inden du giver kroppen nye udfordringer (exhaustion-fasen).
 
 ### Impuls-respons-modellen (Banister 1982)
 
-Banister har introduceret en anden måde at forstå træning på. I stedet for kun at have en afhængig variabel, så foreslås i denne model to afhængige variable, nemlig fitness og træthed. Din præstation er forskellen mellem træthed og fitness.
+Banister har introduceret en anden måde at forstå træning på. I stedet for kun at have en afhængig variabel, så foreslås i denne model to afhængige variable, nemlig fitness og træthed. Din præstation er spændet mellem træthed og fitness.
 
 I denne forståelse maskerer trætheden, hvor stor fremgangen er for den enkelte. Trætheden kommer før fitness, hvilket betyder, at præstationen går ned. Det svarer til ‘alarm’-fasen i GAS-modellen. Efterhånden forsvinder trætheden, og præstationen går op.
 
-{% include figure image_path="/assets/images/training/bannister.svg" caption="Banisters Impuls-Respons-model" %}
+{% include figure image_path="/assets/images/training/bannister.svg" caption="Banisters Impuls-Respons-model" alt="banisters impuls-respons model" %}
 
-Denne model har konsekvenser for træningsplanlægningen. Der kan godt være noget træthed i kroppen, selvom man er i ‘resistance’-fasen. Og måske kan trætheden være en indikator for, hvornår man skal træne næste gang, så man hver gang kan træne i overkompensation eller [superkompensationsfasen]({% link _posts/2020-08-07-superkompensation.md %}).
+Denne model har konsekvenser for træningsplanlægningen. Der kan godt være noget træthed i kroppen, selvom man er i ‘resistance’-fasen. Og måske kan trætheden være en indikator for, hvornår man skal træne næste gang, så man hver gang kan træne i [superkompensationsfasen]({% link _posts/2020-08-07-superkompensation.md %}), hvor kroppen overkompenserer på stiumulus.
 
 ## Træn specifikt - princippet om exercise Specificity (SAID)
 
@@ -134,7 +150,7 @@ Men husk SAID-princippet om _Specific Adaptation to Imposed Demands_.
 
 Der findes imidlertid også flere andre måder at sørge for, at dit program giver ‘progressive overload’. Du kan se hvordan man opnår progressive overload nedenunder:
 
-{% include figure image_path="/assets/images/training/progressive-overload.svg" caption="Progressive overload" %}
+{% include figure image_path="/assets/images/training/progressive-overload.svg" caption="Progressive overload kan opnås på flere forskellige parametre i styrketræning" alt="progressiv overload" %}
 
 ## Volumen
 
@@ -152,15 +168,15 @@ I tabellen nedenfor er der nogle tommelfingerregler for hvor meget volumen, du l
 
 ## Intensitet
 
-Intensiteten måles i forhold til [‘1 repetition maximum’ (1RM)](/rm-beregner/), som er den vægt, du netop kan løfte en gang. Hvis du gerne vil løfte med høj intensitet, er du i praksis nødt til at løfte en mindre volumen pr. træning. Ellers vil du hurtigt smadre dig selv helt. 
+Intensiteten måles i forhold til [‘1 repetition maximum’ (1RM)]({% link _posts/2019-10-16-1rm-beregner.md %}), som er den vægt, du netop kan løfte en gang. Hvis du gerne vil løfte med høj intensitet, er du i praksis nødt til at løfte en mindre volumen pr. træning. Ellers vil du hurtigt smadre dig selv helt. 
 
 For det meste af din træning er omkring 70-80% af din 1RM et fint interval at løfte i. Du kan se i nedenstående tabel, at det svarer til at løfte med omkring 7-12 gentagelser.
 
 Der findes forskellige måder at [udregne intensiteten og 1RM, og vi har lavet vores egen RM-beregner]({% link _posts/2019-10-16-1rm-beregner.md %}), men tabellen nedenunder er den mest brugte formular.
 
-Desto højere du sætter intensiteten, desto længere skal pauserne være og restitutionen være.
+Desto højere du sætter intensiteten, desto længere skal pauserne være og restitutionstiden være.
 
-{% include figure image_path="/assets/images/training/1rm.png" caption="" %}
+{% include figure image_path="/assets/images/training/1rm.png" caption="Estimeret antal reps ved en procentdel af 1RM" alt="estimeret antal reps procentvis 1rm" %}
 
 ## Adaptationer der gør dig stærkere
 
@@ -222,7 +238,7 @@ Hvis du introducerer boxjumps, kan det være en god ide at gå ned af boksen ige
 
 Det er en god ide at have en alsidig bevægelseserfaring med øvelserne kun med kropsvægt, inden du putter ekstra vægt på. Brug tid ved hver øvelse på virkelig at gøre det så godt som muligt med lav vægt, inden du putter vægt på stangen. Men sørg også for at afprøve dig selv med mere vægt en gang imellem for at se, hvor dine svage punkter er.
 
-Du kan læse mere om [teknik i styrketræning, hvor vi ikke opererer med rigtigt og forkert]({% link _posts/2019-08-10-teknik.md %}) og få nogle [tips til din teknik i styrketræning]({% link _posts/2011-08-18-tjek-teknikken-i-din-styrketraening.md %}).
+Du kan læse mere om [tips til din teknik i styrketræning]({% link _posts/2011-08-18-tjek-teknikken-i-din-styrketraening.md %}).
 
 ## Programlægning til styrketræning
 
@@ -234,7 +250,7 @@ Du kan læse mere om [teknik i styrketræning, hvor vi ikke opererer med rigtigt
 
 ## Hvordan skal jeg styrketræne?
 
-Der er utrolig mange svar på det spørgsmål. Og der er virkelig meget information rundt omkring. Jeg synes først og fremmest, at det skal være enkelt. Og så skal det give resultater. Jeg kan godt lidt at have styr på byggeklodserne, når jeg opbygger et træningsprogram.
+Der er utrolig mange svar på det spørgsmål. Og der er virkelig meget information rundt omkring. Jeg synes først og fremmest, at det skal være enkelt. Og så skal det give resultater. Jeg kan godt lide at have styr på byggeklodserne, når jeg opbygger et træningsprogram.
 
 Jeg går ud fra, at du gerne vil vide mere om træning, så du kan få resultater. Jeg går ikke ud fra, at du træner for at blive verdens stærkeste, for så ved du garanteret alt det du kan læse i det følgende allerede.
 
@@ -342,7 +358,7 @@ De største og mest komplekse øvelser starter træningen. Bentræning bør komm
 
 Det mest almindelige for begyndere er at træne fra 8-15 gentagelser i hvert sæt. Hvis du kan lave flere end 15 gentagelser, kan du smække lidt mere vægt på stangen. Hvis du har besluttet dig for at køre 8 reps, så skal du bruge en vægt, du kan løfte 8-9 gange maksimalt. 
 
-En tommelfingerregel for hvad antallet af gentagelser betyder for dit udbytte:
+En tommelfingerregel for hvad intensiteten betyder for dit udbytte:
 
 {% include figure image_path="/assets/images/training/reps.png" caption="" %}
 
@@ -397,9 +413,9 @@ Og det ser ud til, at det er virkelig effektivt at tænke sin træning på den m
 
 ### Hvor lang tid tager et træningspas?
 
-Et styrketræningspas bør kunne afsluttes på omkring en times tid. Hvis du holder dig til det anbefalede antal sæt (15-25 sæt), så bør det kunne gøres på mindre end en time. 
+Et styrketræningspas kan tage alt fra 45 minutter til et par timer alt efter, hvordan du griber det an. Hvis du holder dig til det anbefalede antal sæt (15-25 sæt), så bør du ikke bruge længere tid på den enkelte træning. 
 
-Opvarmningen bør tage omkring 5-10 minutter, og så kan du afslutte med udstrækning og mobilitet. Træn effektivt med mere intensitet og få bedre resultater.
+Opvarmningen bør tage omkring 10-20 minutter, hvor en del af tiden bruges på dynamisk mobilitet, og så skal du naturligvis altid huske den specifikke opvarmning til de enkelte løft. Jeg har skrevet mere om [opvarmning til styrketræning her]({% link _posts/2019-10-25-opvarmning.md %}).
 
 ## Mål din fremgang
 
@@ -411,11 +427,13 @@ Hver gang du træner, skal du blive stærkere. Du bør skrive ned nøjagtigt hvo
 
 Desuden bør du skrive noter ned, hvis du mærker en stivhed eller ømhed ift. de enkelte øvelser. Disse oplysninger kan være guld værd.
 
-For hver enkelt sæt bør du også skrive ned, hvad din Rate of Perceived Exertion (PRE) er. 6-7 så har du et fint overskud. 8-9 kan du tage en mere rep. 10 var det den absolut sidste rep du kunne tage. Ved at have en god oversigt over dette, sikrer du dig, at du ikke overbelaster dit system. Der er formentlig ikke nogen grund til konstant at træne helt på grænsen.
+For hver enkelt sæt bør du også skrive ned, hvad din Rate of Perceived Exertion (RPE) er. 6-7 så har du et fint overskud. 8-9 kan du tage en mere rep. 10 var det den absolut sidste rep du kunne tage. Ved at have en god oversigt over dette, sikrer du dig, at du ikke overbelaster dit system. Der er formentlig ikke nogen grund til konstant at træne helt på grænsen.
 
 {% include figure image_path="/assets/images/training/rpe.png" caption="" %}
 
-Tænk på at du skal få styrketræningen til at fungere i det lange løb. Kan det fx i din træning bedre betale at lave et ekstra sæt og lidt færre reps med en lavere PRE i hvert sæt, så du ikke bliver helt så udmattet?
+Tænk på at du skal få styrketræningen til at fungere i det lange løb. Kan det fx i din træning bedre betale at lave et ekstra sæt og lidt færre reps med en lavere RPE i hvert sæt, så du ikke bliver helt så udmattet?
+
+Jeg har skrevet mere om [RPE i styrketræning her]({% link _posts/2019-08-10-rpe.md %}).
 
 ## Periodisering
 

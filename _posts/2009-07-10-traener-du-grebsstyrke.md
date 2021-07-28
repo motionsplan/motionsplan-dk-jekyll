@@ -1,24 +1,54 @@
 ---
 title: &title "Grebsstyrke: 4 øvelser til et stærkere greb?"
 permalink: /artikel/traener-du-grebsstyrke/
+description: "Hvis du har dårlig grebsstyrke, når du laver øvelser, hvor grebet spiller en vigtig rolle? Så tjek disse fire øvelser til et stærkere greb!"
 language: da
 header:
   overlay_image: /assets/images/blog/traener-du-grebsstyrke.jpg
   teaser: /assets/images/blog/traener-du-grebsstyrke.jpg
   caption: *title
 tags:
-  - webclips
   - grebsstyrke
 category:
   - Styrketræning
 last_modified_at: 2020-05-07T11:25:36Z
 ---
 
-Grebsstyrke er nødvendigt for at blive rigtig stærk. Du har brug for et stærkt greb, når du laver dødløft og pullups. Få en masse 
+Et stærkt greb er vigtigt, når du løfter vægte. Du skal træne din grebsstyrke, så du kan holde det, du gerne vil løfte. Dit greb er særligt vigtigt i de store rygøvelser.
 
-Vi kiggede lidt rundt på nettet i dag, og vi faldt over følgende ret hardcore video:
+Du kan naturligvis altid bruge løftestropper eller straps, men der er jo ikke så meget ved at være stærk, hvis ikke du selv kan holde det, du skal løfte.
 
-## Øvelser til bedre grebsstyrke
+Derfor er det rigtig godt at arbejde med dit greb og din grebsstyrke. Tjek denne artikel ud, hvor du får øvelser til at forbedre din grebsstyrke. Et stærkere greb vil også gøre kroppen i stand til at kunne løfte mere i sidste ende.
+
+## Hvad vil det sige at have et stærkt greb?
+
+Det giver faktisk ikke direkte sig selv, hvad det vil sige at have et godt greb. Grebsstyrke dækker over flere ting. Vi har i hvert fald identificeret tre forskellige typer af grebsarbejde og grebstræning, du med fordel kan træne.
+
+- Crushing
+- Pinching
+- Static Holds
+- Andre typer greb
+
+## Hvordan får jeg et bedre greb?
+
+Når du træner med vægtstænger, så kan du forbedre dit greb på forskellige måder, som i første omgang ikke handler om at få et stærkere greb.
+
+- **Mixed grip**. Her vender du den ene hånd. Når du vender den ene hånd i låsegrebet, så bliver du stærkere med det samme, fordi stangen ikke roterer ud af hånden i dødløft.
+- **Hook grip**. Dette greb er også utrolig stærkt, men også hårdt for din tommelfinger. Dette greb bruges ofte i vægtløftning, hvor det er meget vigtigt, at dit greb ikke fejler, når du eksplosivt sætter fart i vægtstangen.
+
+Du kan se fordelene og ulemperne med mixed grip og hook grip i følgende Youtube-video.
+
+{% include video provider="youtube" id="gaX0BraSB6g" %}
+
+## Hvilke greb kan du bruge for at styrke din grebsstyrke?
+
+{% include figure image_path="https://images.unsplash.com/photo-1521804906057-1df8fdb718b7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fHdlaWdodGxpZnRpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60" caption="Mixed grip er rigtig effektivt i dødløft. Når du vender den ene hånd, så undgår du at vægtstangen vil rotere ud af dit greb." alt="grebsstyrken forbedres med mixed grip" %}
+
+Grebsstyrke er nødvendigt for at blive rigtig stærk. Du har brug for et stærkt greb, når du laver dødløft og pullups.
+
+Lad os i det følgende kigge på nogle rigtig gode øvelser til at træne dit greb og din grebsstyrke.
+
+## Øvelser til træning af grebsstyrke
 
 {% include video provider="youtube" id="j26rnqGvtMk" %}
 
@@ -28,9 +58,13 @@ Vi kiggede lidt rundt på nettet i dag, og vi faldt over følgende ret hardcore 
 
 {% include video provider="youtube" id="ZCe5ORYsAt4" %}
 
+## Hvordan træner du din grebsstyrke?
+
 Vi er imidlertid interesseret i, om du træner din grebsstyrke - og hvordan du gør det?
 
 {% comment %}
+
+https://images.unsplash.com/photo-1533681475364-326b6803d677?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80
 
 https://www.bodylab.dk/shop/saadan-faar-du-2105c1.html
 
@@ -62,7 +96,7 @@ En anden type grebstræning kaldes ”pinch-gripping”. Det går rent praktisk 
 
 Wrist curls kan være ganske fine til at øge massen i underarmen, men de har ikke den store effekt på grebsstyrken. Hvis man vil supplere sin grebstræning med øvelser, hvor der foregår bevægelse i håndleddet, så er det bedre at lave den klassiske øvelse, hvor man ruller en snor rundt om den stang man holder ved, og derved løfter vægten for enden af snoren. Her får man både underarmsaktivering, samt aktivering af grebet.
 
-![Citat element](https://www.bodylab.dk/images/bodyfeed/citat_element_blaa.jpg)Et stærkt greb spiller en vigtig rolle i forhold til mange øvelser, og i særdeleshed de store rygøvelser
+Et stærkt greb spiller en vigtig rolle i forhold til mange øvelser, og i særdeleshed de store rygøvelser
 
   
 ![Captain of crunch](https://www.bodylab.dk/images/bodyfeed/starkere_greb_2.jpg)

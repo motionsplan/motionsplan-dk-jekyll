@@ -1,0 +1,23 @@
+<form class="calculator" id="calculator_velocity_time">
+    <fieldset>
+        <legend>Beregn tidsforbrug fra hastighed og distance</legend>
+        <div class="form-group">
+            <label>Hastighed (km/t)</label>
+            <input type="text" id="time_velocity" name="time_velocity" required class="input-mini">
+        </div>
+        <div class="form-group">
+            <label>Distance (km)</label>
+            <input type="number" name="time_distance" placeholder="km" step="0.01" required>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <legend>Udregning af tidsforbruget</legend>
+        <div class="form-group">
+            <label>Tid (min:sek)</label>
+            <input type="number" placeholder="min" name="time_min" min="0" max="5000" class="input-mini" disabled> <span class="help-inline">min</span>
+            <input type="number" placeholder="sec" name="time_sec" min="0" max="60" class="input-mini" disabled> <span class="help-inline">sek</span>
+        </div>
+    </fieldset>
+    {% include calculator-footer.html %}
+</form>

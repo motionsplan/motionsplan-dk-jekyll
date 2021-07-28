@@ -96,3 +96,11 @@ linda.kruse:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "http://www.kroptimal.dk/"
+simon.glue:
+  name             : "Simon Glue"
+  avatar           : "https://www.webopskrifter.dk/billeder/simonsorthvid.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Elsker mad, der smager af noget og brænder for at udvikle smarte funktioner, der gør madlavningen lettere."
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.webopskrifter.dk/"

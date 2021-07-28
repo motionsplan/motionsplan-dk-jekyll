@@ -5,6 +5,7 @@ instructions: "Stå på en kantsten med hælene lidt ud over. Stil dig op på t�
 permalink: /oevelse/achillessene-excentrisk/
 redirect_from: /node/267
 id: 267
+key: 267
 language: da
 header:
   overlay_image: /assets/images/exercises/achillessene-excentrisk-0.jpg

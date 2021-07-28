@@ -1,6 +1,6 @@
 ---
 title: &title "Proteinpandekager uden banan - med og uden proteinpulver 🥞"
-seo_title: "Sunde proteinpandekager uden banan • 4 lækre opskrifter »"
+seo_title: "Sunde proteinpandekager uden banan - 4 lækre opskrifter »"
 permalink: /proteinpandekager-uden-banan/
 language: da
 header:
@@ -8,7 +8,6 @@ header:
   teaser: https://images.unsplash.com/photo-1590137865482-78d25881f498?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
   caption: *title
 category:
-  - Kost
   - Ernæring
 tags:
   - opskrift
@@ -19,6 +18,7 @@ gallery_bodylab:
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/frontpage.html
     alt: "Proteinpandekager"
     title: "Proteinpandekager med proteinpulver"
+    rel: sponsored nofollow noopener
 recipe:
   title: Proteinpandekager uden banan og uden proteinpulver
   description: "Denne lækre opskrift på sunde proteinpandekager kommer fra [madogkaerlighed.dk](https://madogkaerlighed.dk/proteinpandekager/). Det er mættende og proteinrige pandekager, men hvor der ikke er tilsat hverken bananer eller proteinpulver.\n\nI stedet kommer det meste protein fra hytteost. Hytteost giver en god konsistens i dejen. Proteinpandekagerne kan gemmes på køl til dagen efter, så du kan forberede en lækker snack, som du også kan nyde på farten.\n\nNormalt er banan med til at søde pandekager, så opskrifter på proteinpandekager uden banan er ikke så søde i sig selv. Hvis du mangler lidt sødme i pandekagerne, så kan du vælge at putte noget oven på, som giver dig lige netop den smag, du gerne vil have. Madogkaerlighed.dk foreslår [nøddecreme](https://madogkaerlighed.dk/noeddecreme) og [jordbærpuré](https://madogkaerlighed.dk/jordbaerpure)."
@@ -93,13 +93,13 @@ Pandekagerne er nemme at lave. Du kan lave 10-12 stykker på under 25 minutter.
 ### Ingredienser (reklamelinks markeret med *)
 
 - 100 g havregryn (evt. glutenfrie)
-- 30 g [mandler*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=24609&htmlurl=https://www.helsebixen.dk/shop/mandler-californiske-9752p.html) (kan erstattes af havregryn)
+- 30 g [mandler](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=24609&htmlurl=https://www.helsebixen.dk/shop/mandler-californiske-9752p.html){: rel='sponsored nofollow noopener' } (kan erstattes af havregryn)
 - 1 spsk flydende akaciehonning
 - 3 dl havredrik eller komælk
 - 3 stk æggehvider
-- ½ tsk [vaniljepulver*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=48722&htmlurl=https://www.netspiren.dk/vanillepulver-okologisk-10-gram.html)
-- 1 spsk [chiafrø*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=24609&htmlurl=https://www.helsebixen.dk/shop/original-chiar-chia-fro-o-500-gr.html) (kan undlades)
-- 1 tsk [bagepulver*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=24609&htmlurl=https://www.helsebixen.dk/shop/bagepulver-gl-fri-7904p.html)
+- ½ tsk [vaniljepulver](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=48722&htmlurl=https://www.netspiren.dk/vanillepulver-okologisk-10-gram.html){: rel='sponsored nofollow noopener' }
+- 1 spsk [chiafrø](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=24609&htmlurl=https://www.helsebixen.dk/shop/original-chiar-chia-fro-o-500-gr.html){: rel='sponsored nofollow noopener' } (kan undlades)
+- 1 tsk [bagepulver](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=24609&htmlurl=https://www.helsebixen.dk/shop/bagepulver-gl-fri-7904p.html){: rel='sponsored nofollow noopener' }
 - et lille nip salt
 - smør til stegning
 
@@ -116,7 +116,7 @@ Pandekagerne er nemme at lave. Du kan lave 10-12 stykker på under 25 minutter.
 
 {% include figure image_path="https://images.unsplash.com/photo-1599232288126-7dbd2127db14?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80" caption="Proteinpandekager uden banan og med proteinpulver" alt="proteinpandekager uden banan og med proteinpulver" %}
 
-[Træningsguiden](https://traeningsguiden.dk/proteinpandekager-uden-banan/) foreslår følgende opskrift på proteinpandekager uden banan. 
+[Træningsguiden](https://traeningsguiden.dk/proteinpandekager-uden-banan/) foreslår følgende opskrift på proteinpandekager uden banan.
 
 ### Ingredienser til 3 personer
 
@@ -142,11 +142,11 @@ Denne opskrift på proteinpandekager uden banan indeholder proteinpulver, men du
 
 ### Ingredienser (1-2 personer - 6-7 små pandekager)
 
-- 2 æg  
-- 3 spsk havregryn  
-- 2 spsk skyr  
-- 2 spsk proteinpulver  
-- 1 tsk bagepulver  
+- 2 æg
+- 3 spsk havregryn
+- 2 spsk skyr
+- 2 spsk proteinpulver
+- 1 tsk bagepulver
 - smør eller olie til stegning
 
 Det er havregrynene, der giver dejen lidt tekstur. Du kan også overveje at bruge loppefrøskaller (HUSK), hvis du vil prøve uden havregryn. Men du skal formentlig kun have en spsk HUSK i, hvis de stadig skal ligne pandekager.
@@ -171,6 +171,10 @@ Du kan fx toppe pandekagerne med banan, blåbær, mandler og vindruer, men du ka
 
 Hvis du vælger en opskrift, hvor du skal bruge proteinpulver i opskriften, så vil du måske gerne have svaret på, hvilket proteinpulver er det bedste til proteinpandekager?
 
-Vores bedste råd er at vælge et mærke af en dansk fabrikant, som står inde for kvaliteten af produktet. Så er det egentlig bare at vælge en smag du godt kan lide. Den kendte danske producent af proteinpulver [Bodylab\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/proteinpulver-84s1.html){: rel="sponsored" } har et stort udvalg af  [proteinpulver\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/proteinpulver-84s1.html){: rel="sponsored" }.
+Vores bedste råd er at vælge et mærke af en dansk fabrikant, som står inde for kvaliteten af produktet. Så er det egentlig bare at vælge en smag du godt kan lide. Den kendte danske producent af proteinpulver [Bodylab](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/proteinpulver-84s1.html){: rel='sponsored nofollow noopener' } har et stort udvalg af  [proteinpulver](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/proteinpulver-84s1.html){: rel='sponsored nofollow noopener' }
 
-{% include gallery id="gallery_bodylab" caption="Lige nu får du pulver til proteinpandekager med gratis, hvis du shopper på [Bodylab\*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/proteinpulver-84s1.html){: rel='sponsored' }" %}
+{% include gallery id="gallery_bodylab" caption="Lige nu får du pulver til proteinpandekager med gratis, hvis du shopper på [Bodylab](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/proteinpulver-84s1.html){: rel='sponsored nofollow noopener' }" %}
+
+## Konklusion
+
+Hvis du gerne samlet vil tænke mindre over din kost og have noget sund mad, så kan du overveje at lave en madplan. Jeg har skrevet et indlæg om [madbudget for at undgå luksusfælden og madplaner på ifire.dk](http://www.ifire.dk/madbudget-undgaa-luksusfaelden-med-madplan/).

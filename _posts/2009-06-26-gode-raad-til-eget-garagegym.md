@@ -10,7 +10,6 @@ tags:
   - garagegym
   - gør-det-selv
 category:
-  - Webclips
   - Træning
 last_modified_at: 2020-02-13T22:20:01Z
 ---

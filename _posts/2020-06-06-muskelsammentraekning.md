@@ -11,6 +11,7 @@ category:
   - Viden om
 tags:
   - muskler
+  - træningslære
 last_modified_at: 2020-06-03T08:14:14Z
 toc: true
 ---
@@ -25,7 +26,7 @@ Hvordan trækker en muskel sig sammen? **Den mest udbredte teori til at forklare
 
 ## Signal fra nervesystemet starter sammentrækningen
 
-Sammentrækningen i musklen starter med et signal fra nervesystemet. Signalet starter altså i hjernen, hvor de løber gennem nervesystemet og hen til musklen. Når musklen trækker sig sammen, så bevæger dine knogler sig. Denne proces går virkelig hurtigt. 
+Sammentrækningen i musklen starter med et signal fra nervesystemet. Signalet starter altså i hjernen, hvor de løber gennem nervesystemet og hen til musklen. Når musklen trækker sig sammen, så bevæger dine knogler sig. Denne proces går virkelig hurtigt.
 
 ## Muskelsammentrækning
 
@@ -48,10 +49,10 @@ En muskel kan altså kun gøre en ting - nemlig at forsøge på at gøre sig kor
 
 ## ‘Sliding Filament’-teorien
 
-Den mest accepterede teori til at forklare, hvordan en muskel trækker sig sammen er den såkaldte **sliding filament theory**. Ifølge teorien så bruger myosinfilamenterne energi fra ATP til at vandre langs aktin-filamenterne med de små _cross bridges_. 
+Den mest accepterede teori til at forklare, hvordan en muskel trækker sig sammen er den såkaldte **sliding filament theory**. Ifølge teorien så bruger myosinfilamenterne energi fra ATP til at vandre langs aktin-filamenterne med de små _cross bridges_.
 
 Denne bevægelse af aktin-filamenterne trækker også Z-skiverne tættere på hinanden. Derfor bliver sarcomereren kortere.
- 
+
 {% include video provider="youtube" id="7V-zFVnFkWg" %}
 
 Når alle sarcomererne i musklefiberen bliver kortere, så trækker fiberen sig sammen.
@@ -78,9 +79,9 @@ Myosin er et hoved på en stilk. Hovedet er fleksibelt og det knytter an til act
 
 ## Muskler og nerver i musklerne
 
-Muskler kan ikke trække sig sammen alene. De har behov for et _stimulus_ fra en nervecelle, der giver signal til musklen om at trække sig sammen. 
+Muskler kan ikke trække sig sammen alene. De har behov for et _stimulus_ fra en nervecelle, der giver signal til musklen om at trække sig sammen.
 
-Hvis du fx vil bøje din arm, så sender hjernen et elektrisk signal til nervecellerne, der kaldes **motor neuroner** i armbøjerne, fx biceps. Motor neuronerne stimulerer muskelfibrene i biceps til at trække sig sammen. 
+Hvis du fx vil bøje din arm, så sender hjernen et elektrisk signal til nervecellerne, der kaldes **motor neuroner** i armbøjerne, fx biceps. Motor neuronerne stimulerer muskelfibrene i biceps til at trække sig sammen.
 
 Selv de ufrivillige bevægelser, fx  hjertemusklen, er også styret af nervesystemet.
 
