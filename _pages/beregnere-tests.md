@@ -24,6 +24,51 @@ feature_row_feature:
     btn_class: "btn--danger"
 ---
 
+{{ page.excerpt }}
+
+Du kan bl.a. prøve vores [beregner til idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}) eller [taljemål og hoftemål]({% link _posts/2019-10-14-taljemaal.md %}).
+
+## BMI beregner
+
+Det er meget populært at udregne sin BMI. Jeg har lavet en [BMI beregner](/bmi/), hvor du kan læse mere om BMI og lave en beregning af dit eget BMI.
+
+## Kalorieberegner og ligevægtsindtag
+
+Rigtig mange er på udkig efter en kalorieberegner, som kan [udregne dit ligevægtsindtag]({% link _posts/2019-11-01-stofskifte-ligevaegtsberegner.md %}). Det er et af de rigtig populære punkter her på siden.
+
+{% comment %}
+
+## Udregn taljemål og idealvægt
+
+bmi beregner beregn bmi bmi udregning
+
+kalorieberegner ligevægtsindtag bmr ligevægtsindtag beregner
+
+idealvægt
+
+taljemål
+
+beregn kalorier i mad
+
+kondital beregning cykling 
+
+{% endcomment %}
+
+## De mest populære beregnere og tests
+
+{% assign site_posts = site.posts | where: "tags", "beregner" | where: "tags", "featured" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts limit: 6 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
+
 ## Alle beregnere på Motionsplan
 
 {% assign site_posts = site.posts | where: "tags", "beregner" | sort: "date" %}
