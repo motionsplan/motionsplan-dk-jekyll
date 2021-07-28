@@ -1,8 +1,13 @@
 {% assign search = include.where %}
 {% assign column = 0 %}
+{% assign limit = include.limit | default: 1000 %}
 
 {% if search == 'brød' %}
   {% assign kalorie_values = site.data.frida-kalorietabel | where_exp: "item", "item.Navn contains search" %}
+{% elsif search == 'frugt_most' %}
+  {% assign kalorie_values = site.data.frida-kalorietabel | where_exp: "item", "item.Gruppe contains 'frugt'" | sort_natural: 'kJ' | reverse %}
+{% elsif search == 'frugt_lowest' %}
+  {% assign kalorie_values = site.data.frida-kalorietabel | where_exp: "item", "item.Gruppe contains 'frugt'" | sort_natural: 'kJ' %}
 {% elsif search %}
   {% assign kalorie_values = site.data.frida-kalorietabel | where_exp: "item", "item.Gruppe contains search" %}
 {% else %}
@@ -36,12 +41,12 @@ function KalorieSearch() {
 <input type="text" id="kalorie_search" onkeyup="KalorieSearch()" placeholder="Søg efter fødevarer...">
 
 <table id="kalorietabellen">
-  {% for row in kalorie_values %}
+  {% for row in kalorie_values limit: limit %}
     {% if forloop.first %}
     <thead>
     <tr>
       <th>Fødevare</th>
-      <th>KJ</th>
+      <th>kJ</th>
       <th>kcal</th>
       <th>Protein (g)</th>
       <th>Kulhydrat (g)</th>
