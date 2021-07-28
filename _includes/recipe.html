@@ -1,20 +1,22 @@
 {% assign recipe = include.recipe %}
 
 <div itemscope itemtype="https://schema.org/Recipe">
-  <span itemprop="name">{{ recipe.title }}</span>
+  <h2 itemprop="name" id="{{ recipe.title | slugify }}">{{ recipe.title }}</h2>
   {% if recipe.author %}
   af <span itemprop="author">{{ recipe.author }}</span>,
   <meta itemprop="datePublished" content="{{ page.last_modified_at | date: "%y-%m-%d" }}">{{ page.last_modified_at | date: date: "%a, %b %d, %y" }}
   {% endif %}
-  <img itemprop="image" src="{{ recipe.image_path }}" alt="{{ recipe.title | downcase }}" />
+  <p>
+    <i class="fas fa-clock" aria-hidden="true"></i> Forberedelsestid: <meta itemprop="prepTime" content="{{ recipe.prep_time }}">{{ recipe.prep_time | date: "%H:%M" }}
+    <i class="fas fa-clock" aria-hidden="true"></i> Tid: <meta itemprop="cookTime" content="{{ recipe.cook_time }}">{{ recipe.cook_time | date: "%H:%M" }}
+  </p>
+  <figure>
+    <img itemprop="image" src="{{ recipe.image_path }}" alt="{{ recipe.title | downcase }}" />
+    <figcaption>{{ recipe.caption | markdownify }}</figcaption>
+  </figure>
 
-  <span itemprop="description">{{ recipe.description | markdownify }}</span>
-
-  <i class="fas fa-clock" aria-hidden="true"></i> Prep Time: <meta itemprop="prepTime" content="{{ recipe.prep_time }}">{{ recipe.prep_time | date: "%H:%M" }}
-  <i class="fas fa-clock" aria-hidden="true"></i> Cook time: <meta itemprop="cookTime" content="{{ recipe.cook_time }}">{{ recipe.cook_time | date: "%H:%M" }}
-  <i class="fas fa-bread-slice" aria-hidden="true"></i> Yield: <span itemprop="yield">{{ recipe.yield }}</span>
-  <i class="fas fa-bread-slice" aria-hidden="true"></i> Servings: <span itemprop="recipeYield">{{ recipe.servings }}</span>
-
+  <div itemprop="description">{{ recipe.description | markdownify }}</div>
+  
   {% comment %}
   <div itemprop="nutrition"
     itemscope itemtype="https://schema.org/NutritionInformation">
@@ -24,22 +26,26 @@
   </div>
   {% endcomment %}
 
-  <h3>Ingredienser</h3>
+  <h3 id="ingredienser--{{ recipe.title | slugify }}">Ingredienser</h3>
   
+  <p>
+    <i class="fas fa-bread-slice" aria-hidden="true"></i> Giver <span itemprop="yield">{{ recipe.yield }}</span>
+    til <span itemprop="recipeYield">{{ recipe.servings }}</span>
+  </p>
+
   <ul>
   {% for row in recipe.ingredients %}
-    <li itemprop="recipeIngredient">{{ row | markdownify }}</li>
+    <li itemprop="recipeIngredient">{{ row | markdownify | remove: '<p>' | remove: '</p>' }}</li>
   {% endfor %}
   </ul>
 
-  <h3>Instruktioner</h3>
+  <h3 id="instruktioner--{{ recipe.title | slugify }}">Sådan gør du</h3>
   
-  <ul itemprop="recipeInstructions">
+  <ol itemscope itemtype="https://schema.org/HowToStep">
   {% for row in recipe.instructions %}
-    <li>{{ row | markdownify }}</li>
+    <li itemprop="recipeInstructions">{{ row | markdownify | remove: '<p>' | remove: '</p>' }}</li>
   {% endfor %}
-  </ul>
-  
+  </ol>
   
 {% comment %}
   <div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating" class="penci-recipe-rating penci-recipe-review">
