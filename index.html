@@ -58,6 +58,20 @@ feature_row_content:
 
 {% include feature_row id="intro" type="center" %}
 
+<h2>Mest populære sider</h2>
+
+<div class="feature__wrapper">
+
+{% assign site_posts = site.posts | where: "tags", "featured" | sort: "last_modified_at" | reverse %}
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts limit:8 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
 <h2>Spritnye indlæg på Motionsplan</h2>
 
 <div class="feature__wrapper">
