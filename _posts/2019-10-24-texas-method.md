@@ -81,7 +81,7 @@ Rippetoe anser dødløft for meget hårdt for kroppen, når man løfter meget tu
 
 Hvis du vil se Mark Rippetoe selv forklare *power cleans*, så se denne video:
 
-{% include video id="wIB_X2N6020" provider="youtube" %}
+{% include video provider="youtube" id="wIB_X2N6020" %}
 
 ## Bemærk med Texas Method styrketræningsprogram
 

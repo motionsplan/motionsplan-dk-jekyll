@@ -39,7 +39,7 @@ Team Danmarks testcentre bruger Durnin og Womersleys formler.
 
 For at estimere fedtprocenten så skal der både for mænd og kvinder måles hudfolde på fire steder. Hudfolden skal måles ved biceps, triceps, ved skulderbladets nederste spids og lige over hoftekammen. Du kan se nærmere instruktioner i videoen nedenunder.
 
-{% include video id="VBJuVfiKrbY" provider="youtube" %}
+{% include video provider="youtube" id="VBJuVfiKrbY" %}
 
 ## Udregn din fedtprocent
 

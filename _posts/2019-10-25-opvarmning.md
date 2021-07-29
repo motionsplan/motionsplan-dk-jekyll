@@ -65,29 +65,29 @@ Ved at have en struktur på opvarmningen, er der større sandsynlighed for, at m
 
 ### Release
 
-{% include video id="XlSkNiNdQfc" provider="youtube" %}
+{% include video provider="youtube" id="XlSkNiNdQfc" %}
 
-{% include video id="SFhjv4MXQT8" provider="youtube" %}
+{% include video provider="youtube" id="SFhjv4MXQT8" %}
 
-{% include video id="Uoazu3aQC0g" provider="youtube" %}
+{% include video provider="youtube" id="Uoazu3aQC0g" %}
 
 ### Reset
 
-{% include video id="vyx5RlUGV3g" provider="youtube" %}
+{% include video provider="youtube" id="vyx5RlUGV3g" %}
 
-{% include video id="xD92cvl_tis" provider="youtube" %}
+{% include video provider="youtube" id="xD92cvl_tis" %}
 
-{% include video id="viyoVBR_J5c" provider="youtube" %}
+{% include video provider="youtube" id="viyoVBR_J5c" %}
 
-{% include video id="rwN5u_psGIc" provider="youtube" %}
+{% include video provider="youtube" id="rwN5u_psGIc" %}
 
 ### Readiness
 
-{% include video id="o5_14SfX9Is" provider="youtube" %}
+{% include video provider="youtube" id="o5_14SfX9Is" %}
 
-{% include video id="8G6nIAgBvEo" provider="youtube" %}
+{% include video provider="youtube" id="8G6nIAgBvEo" %}
 
-{% include video id="kNdy8m_qGEA" provider="youtube" %}
+{% include video provider="youtube" id="kNdy8m_qGEA" %}
 
 ### Reactive
 
