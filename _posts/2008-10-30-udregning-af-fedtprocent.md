@@ -53,7 +53,7 @@ Du kan bruge vores **fedtprocent beregner** til udregning af din fedtprocent.
 
 På baggrund af Gallagher et al (2000) fortæller følgende grafik, hvad en god fedtprocent er? Det sunde område for fedtprocenten er relativt bredt, men sundhedsmæssigt og præstationsmæssigt er der ikke nogen grund til at skubbe grænserne.
 
-{% include figure image_path="https://4.bp.blogspot.com/-nOLwVUh5HaQ/XUuHz1AD3PI/AAAAAAAAStE/HWTJneEhKDElIU_yvxsKezZjh6D3Z_frQCLcBGAs/s1600/BodyFatRangeChartLarge.jpg" caption="Fedtprocent for voksne mænd og kvinder baseret på WHO [BMI](/bmi/) guidelines ([Gallagher 2000](https://www.researchgate.net/publication/12354988_Healthy_percentage_body_fat_ranges_An_approach_for_developing_guidelines_based_on_body_mass_index))" alt="Hvordan måler jeg min fedtprocent? Fedtprocent for mænd og kvinder" %}
+{% include figure image_path="https://4.bp.blogspot.com/-nOLwVUh5HaQ/XUuHz1AD3PI/AAAAAAAAStE/HWTJneEhKDElIU_yvxsKezZjh6D3Z_frQCLcBGAs/s1600/BodyFatRangeChartLarge.jpg" caption="Fedtprocent for voksne mænd og kvinder baseret på WHO BMI guidelines ([Gallagher 2000](https://www.researchgate.net/publication/12354988_Healthy_percentage_body_fat_ranges_An_approach_for_developing_guidelines_based_on_body_mass_index))" alt="Hvordan måler jeg min fedtprocent? Fedtprocent for mænd og kvinder" %}
 
 ## Beregn fedtprocent fra højde og vægt
 
@@ -113,7 +113,7 @@ sex: men = 1; female = 0
 <details markdown="1">
   <summary>Se formler Gallagher et al. (2000)</summary>
 
-[Gallagher et al (2000)](https://www.researchgate.net/publication/12354988_Healthy_percentage_body_fat_ranges_An_approach_for_developing_guidelines_based_on_body_mass_index/link/54bd3be10cf27c8f2814b34f/download) inkluderer køn og alder sammen med BMI i deres formel.
+[Gallagher et al (2000)](https://www.researchgate.net/publication/12354988_Healthy_percentage_body_fat_ranges_An_approach_for_developing_guidelines_based_on_body_mass_index/link/54bd3be10cf27c8f2814b34f/download) inkluderer køn og alder sammen med [BMI i deres formel](/bmi/).
 
 Men samtidig bruger Gallagher et al (2000) også etnicitet, da de har fundet ud af, at fedtprocenten og BMI hænger lidt anderledes sammen for asiater og _african americans_. Denne detalje har jeg endnu ikke indkorporeret i beregneren, så den regner bare med folk af europæisk afstamning.
 

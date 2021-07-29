@@ -87,7 +87,7 @@ Gennemsnittet for for MET-værdierne for gang er mellem 3-6, mens fx meget anstr
 
 Forskellige mennesker har dog forskelligt kalorieforbrug, fordi de har deres egen unikke metabolisme. Så husk at MET-værdierne bare er et estimat.
 
-## Hvad bruger du energien til når du går?
+## Hvad bruger du energien til, når du går?
 
 Når du bruger dine muskler, så starter kroppen med at bruge ekstra ilt for at forbrænde kulhydrat og fedt, så du kan skabe ATP. ATP er kroppens energimolekyle.
 
@@ -151,8 +151,6 @@ Her har jeg lavet en enkel version, der kun tager højde for kalorieforbruget ve
 Udfyld tallene i beregneren for at beregne hvor mange kalorier du forbrænder under dine daglige gåture.
 
 Du indtaster din vægt, din intensitet under gang og tidsforbruget for din gåtur, og så finder du ud af, hvor mange kalorier du forbrænder i løbet af gåturen.
-
-## Kalorieberegner for gang
 
 Her kan du udregne hvor meget energi og kalorier, du forbrænder ved at gå.
 

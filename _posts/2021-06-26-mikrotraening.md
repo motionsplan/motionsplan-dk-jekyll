@@ -18,7 +18,7 @@ I ferier så plejer jeg altid at lave mikrotræning. På den måde kan jeg spare
 
 Først laver jeg en plan for min ferietræning, så jeg ikke ender med at have dårlig samvittighed, fordi jeg ikke får trænet nok.
 
-Derefter forsøger jeg at udnytte alle de muligheder jeg får for at bevæge mig. Fangeleg med ungerne. På legepladsen kan der lige passes nogle pullups ind. Om morgenen kan der være plads til [De Fem Tibetanere]({% link _posts/2009-07-01-de-fem-tibetanere.md %}) eller en [Solhilsen A og B]({% link _posts/2020-07-25-solhilsen.md %}).
+Derefter forsøger jeg at udnytte alle de muligheder jeg får for at bevæge mig. Fangeleg med ungerne. På legepladsen kan der lige passes nogle pullups ind. Om morgenen kan der være plads til [øvelserne fra De 5 Tibetanere]({% link _posts/2009-07-01-de-fem-tibetanere.md %}) eller en [Solhilsen A og B]({% link _posts/2020-07-25-solhilsen.md %}).
 
 ## Hvad er mikrotræning?
 
