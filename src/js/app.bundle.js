@@ -437,7 +437,7 @@ $(document).ready(function() {
 
         let kj = Number($("[name='kj']").val());
 
-        let kcal = kj * 4.1868;
+        let kcal = kj * 4.184;
         $("[name='kcal']").val(kcal.toFixed(0));
     });
     $("#calculator_kcal_kj").submit(function(e) {
@@ -446,7 +446,7 @@ $(document).ready(function() {
 
         let kcal = Number($("[name='kcal']").val());
 
-        let kj = kcal / 4.1868;
+        let kj = kcal / 4.184;
         $("[name='kj']").val(kj.toFixed(0));
     });
     // Udregn Billat

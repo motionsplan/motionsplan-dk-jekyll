@@ -15,30 +15,30 @@ last_modified_at: 2021-07-28T10:14:14Z
 toc: true
 faq:
   - question: "Hvor mange Joule (J) er der i en kalorie (cal)?"
-    answer: "Der går 4,1868 Joule på en kalorie."
+    answer: "Der går 4,184 Joule på en kalorie."
   - question: "Hvor mange kiloJoule (kJ) er der i en kilokalorie (kcal)?"
-    answer: "Der går 4,1868 kiloJoule (kJ) på en kilokalorie (kcal)."
+    answer: "Der går 4,184 kiloJoule (kJ) på en kilokalorie (kcal)."
   - question: "Hvordan regner man kalorier om til kilojoule?"
     answer: "Hvis du vil regne kalorier om til kilojoule, så skal du gange værdien i kalorier med 4,1862 for at få svaret i kilojoule. De fleste bruger bare faktor 4 eller 4,2 for at gøre det lidt lettere."
   - question: "Hvordan regner man kilojoule om til kalorier?"
-    answer: "Hvis du vil regne kilojoule om til kalorier, så skal du dividere værdien i kilojoule med 4,1862 for at få værdien i kalorier. De fleste bruger bare faktor 4 eller 4,2 for at gøre det lidt lettere."
+    answer: "Hvis du vil regne kilojoule om til kalorier, så skal du dividere værdien i kilojoule med 4,184 for at få værdien i kalorier. De fleste bruger bare faktor 4 eller 4,2 for at gøre det lidt lettere."
 ---
 
 Man har ofte bruge for at omregne kJ til kcal (kilojoule til kalorier) eller omvendt fra kcal til kJ (kalorier til kilojoule). Det har jeg lavet en beregner til, som gør det let og automatisk.
 
-Du kan naturligvis også selv lave omregningen, når du kender konstanten der kan omregne mellem joule og kalorier. **1 kalorie svarer til 4,1868 Joule** og **1 kilokalorie (kcal) svarer til 4,1868 kiloJoule**.
+Du kan naturligvis også selv lave omregningen, når du kender konstanten der kan omregne mellem joule og kalorier. **1 kalorie svarer til 4,184 Joule** og **1 kilokalorie (kcal) svarer til 4,184 kiloJoule**.
 
 Vi starter med at gå direkte til beregneren, men læs gerne lidt videre af forklaringerne nedenunder.
 
 ## KJ til kcal beregner
 
-I denne enkle beregner kan du omregne mellem kilojoule og kalorier. Forholdet fra kilojoule til kalorier er 0,239 kcal/kJ. Det betyder, at du skal gange antallet af kJ med 0,239 for at få værdien i kalorier. Du kan også bare dele med de 4,1868 J/cal for at omregne fra kJ til kcal.
+I denne enkle beregner kan du omregne mellem kilojoule og kalorier. Forholdet fra kilojoule til kalorier er 0,239 kcal/kJ. Det betyder, at du skal gange antallet af kJ med 0,239 for at få værdien i kalorier. Du kan også bare dele med de 4,184 J/cal for at omregne fra kJ til kcal.
 
 {% include calculate-kj-kcal.html %}
 
 ## Kcal til kJ omregner
 
-Beregneren omregner fra kalorier til kilojoule. Du skal altså gange antallet af kalorier med 4,1868 J/cal for at få energien udtrykt i kJ. Det er lettest at lave beregningen fra kcal til kJ i en beregner.
+Beregneren omregner fra kalorier til kilojoule. Du skal altså gange antallet af kalorier med 4,184 J/cal for at få energien udtrykt i kJ. Det er lettest at lave beregningen fra kcal til kJ i en beregner.
 
 {% include calculate-kcal-kj.html %}
 
@@ -66,7 +66,7 @@ En Joule er:
 : - den energi man skal bruge på at flytte et objekt 1 meter med en kraft på 1 newton
 : - den energi man skal bruge på at flytte en ladning på 1 Coulomb igennem en spændingsforskel
 
-Der går **4,1868 Joule på en kalorie**. Hvis du skal omregne fra kcal til kJ i hovedet, så kan du bare bruge omregningsfaktor 4 eller 4,2, så rammer du nogenlunde. Hvis du fx skal omregne 3000 kilokalorier til kilojoule, så bliver det altså 12600 kJ eller 12,6 MJ.
+Der går **4,184 Joule på en kalorie**. Hvis du skal omregne fra kcal til kJ i hovedet, så kan du bare bruge omregningsfaktor 4 eller 4,2, så rammer du nogenlunde. Hvis du fx skal omregne 3000 kilokalorier til kilojoule, så bliver det altså 12600 kJ eller 12,6 MJ.
 
 ## Energiindholdet i de forskellige makronæringsstoffer
 
