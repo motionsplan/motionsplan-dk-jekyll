@@ -24,7 +24,9 @@ Når du søger rundt omkring på nettet, så står der forskellige måder at udr
 
 Selvom tommelfingerreglen måske kan give et groft estimat på din forbrænding, så mener jeg ikke det er et retvisende billede. Din forbrænding ved gang er mindre end ved løb! Det har jeg skrevet mere om i [Du forbrænder mere ved at løbe end ved at gå]({% link _posts/2020-06-01-loeb-mere-energi-gang.md %}).
 
-For at udregne hvor mange [kalorier](/hvad-er-kalorier/) man bruger, når du går, så handler det også om, hvilken intensitet du går med. Jeg har lavet en beregner, der kan hjælpe dig med at regne ud, hvor mange kalorier, du forbrænder på en gåtur.
+For at udregne hvor mange [kalorier](/hvad-er-kalorier/) man bruger, når man går, så kan man bruge en [kalorieberegner](/kalorieberegner/). Man skal tage højde for din egen vægt, men også, hvilken intensitet du går med.
+
+Jeg har lavet en beregner, der kan hjælpe dig med at regne ud, hvor mange kalorier, du forbrænder på en gåtur.
 
 Du kan altså få svar på følgende spørgsmål i dette indlæg:
 
