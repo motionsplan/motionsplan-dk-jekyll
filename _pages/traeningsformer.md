@@ -31,7 +31,7 @@ Du kan også læse mere om, [hvordan du kan optimere din træning](/optimer-trae
 
 Styrketræning handler om at blive stærkere, bygge større muskler eller begge dele på samme tid. Vi har skrevet rigtig mange indlæg om styrketræning, styrketræningsprogrammer og øvelser til styrketræning. 
 
-Læs mere om [styrketræning her](/styrke/) eller vores [begynderprogram til calisthenics]({% link _posts/2021-01-18-calistenics.md %}).
+Læs mere om [styrketræning her](/styrke/) eller se vores [begynderprogram til calisthenics]({% link _posts/2021-01-18-calistenics.md %}).
 
 ## Løb
 
@@ -39,7 +39,7 @@ Løb handler om at lære at løbe, blive en hurtigere løber eller kunne løbe l
 
 Læs mere om [løb og løbetræning her](/loebesiden/).
 
-## Cardio
+## Cardio og kondition
 
 Cardio handler om at træne din kondition og dit kredsløb. Du kan bruge mange forskellige måder til at træne på. Vi har forslag til træningsprogrammer og øvelser til din cardiotræning. Du kan også tjekke vores [guide til de bedste cardiomaskiner]({% link _posts/2020-12-23-bedste-cardiomaskiner.md %}).
 

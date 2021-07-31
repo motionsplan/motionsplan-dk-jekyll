@@ -19,6 +19,7 @@ tags:
   - udregning
   - formel
   - featured
+  - beregner
 last_modified_at: 2021-01-06T22:14:14Z
 ---
 

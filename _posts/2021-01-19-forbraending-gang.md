@@ -16,6 +16,7 @@ tags:
   - forbrænding
   - gang
   - kalorier
+  - kalorieberegner
 ---
 
 Jeg har kigget lidt på, hvor mange kalorier man forbrænder ved at gå? Så hvis du er interesseret i at vide, hvad din kalorieforbrænding og energiforbrug er ved gang, så har du her den ultimative guide.

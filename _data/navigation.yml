@@ -8,6 +8,8 @@ main:
     url: /optimer-traening/
   - title: "Krop & Sundhed"
     url: /krop-og-sundhed/
+  - title: "Til fitnessinstruktøren"
+    url: /fitness/
   - title: "Styrketræning"
     url: /styrke/
   - title: "Kondition"

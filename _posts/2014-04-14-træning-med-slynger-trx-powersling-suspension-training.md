@@ -11,6 +11,7 @@ header:
 tags:
   - trx
   - slyngetræning
+  - udstyr
 category:
   - Styrketræning
 last_modified_at: 2019-03-06T23:00:18Z

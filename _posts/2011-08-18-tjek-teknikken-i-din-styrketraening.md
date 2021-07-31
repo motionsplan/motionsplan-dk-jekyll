@@ -13,6 +13,7 @@ header:
 tags:
   - styrketræning
   - teknik
+  - begynder
 category:
   - Styrketræning
 last_modified_at: 2021-04-03T15:06:01Z

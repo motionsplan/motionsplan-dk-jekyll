@@ -13,6 +13,8 @@ category:
 tags:
   - stofskifte
   - hvilestofskifte
+  - kalorieberegner
+  - beregner
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 feature_row:

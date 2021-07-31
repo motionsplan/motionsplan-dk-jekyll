@@ -17,6 +17,8 @@ tags:
   - ligevægtsindtag
   - ligevægtsberegner
   - featured
+  - kalorieberegner
+  - beregner
 last_modified_at: 2020-12-06T23:14:14Z
 toc: true
 keywords:

@@ -12,6 +12,7 @@ category:
 tags:
   - kalorier
   - energi
+  - kalorieberegner
 last_modified_at: 2021-07-29T10:14:14Z
 toc: true
 faq:

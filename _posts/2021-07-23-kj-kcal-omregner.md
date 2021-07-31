@@ -11,6 +11,7 @@ category:
   - Kost
 tags:
   - beregner
+  - kalorieberegner
 last_modified_at: 2021-07-28T10:14:14Z
 toc: true
 faq:

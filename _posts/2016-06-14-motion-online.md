@@ -11,11 +11,7 @@ header:
 category:
   - Viden om
 tags:
-  - bmi
-  - kondition
-  - cirkeltræning
-  - coopertest
-  - gangtest
+  - website
 last_modified_at: 2020-02-11T23:14:14Z
 toc: true
 ---

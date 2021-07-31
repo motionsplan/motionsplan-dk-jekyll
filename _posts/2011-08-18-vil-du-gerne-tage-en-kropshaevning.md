@@ -14,6 +14,7 @@ tags:
   - guide
   - skulder
   - træningsøvelse
+  - begynder
 category:
   - Styrketræning
 last_modified_at: 2021-02-02T22:27:53Z

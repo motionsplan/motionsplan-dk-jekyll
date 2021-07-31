@@ -18,6 +18,7 @@ tags:
   - intensitet
   - beregner
   - puls
+  - beregner
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 ---
@@ -100,4 +101,3 @@ Du bliver altså nødt til at teste, hvad dine **individuelle pulszoner** er. Je
 ## Find pulszonen ved den anaerobe tærskel
 
 ## Find pulzonen for udholdenhed og slagvolumen
-

@@ -12,27 +12,27 @@ author: lsolesen
 sidebar:
   nav: strength
 feature_row_feature:
-  - image_path: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  - image_path: https://images.unsplash.com/photo-1428790067070-0ebf4418d9d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
     alt: "Tests"
     title: "Tests"
-    excerpt: "Det er meget motiverende at lave tests før og efter din træning. Det er en god måde at se på, om der sker noget med din træning, og så ved du om dit træningsprogram er passende."
+    excerpt: "Du kan bruge tests tests før og efter din træning, så du kan se om dit træningsprogram virker."
     url: "/tests/"
-    btn_label: "Se alle tests"
+    btn_label: "Test"
     btn_class: "btn--danger"
   - image_path: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
     alt: "Træning"
     title: "Træning"
-    excerpt: "Din træning fungerer naturligvis kun, hvis du også får lavet noget træning. Vi har samlet en række forskellige træningsformer her, som du kan lade dig inspirere af."
-    url: "/traeningsmetoder/"
-    btn_label: "Se træningsformer"
+    excerpt: "Fremgang kræver naturligvis træning. Vi har samlet viden om forskellige træningsformer til inspiration her."
+    url: "/traeningsformer/"
+    btn_label: "Træn"
     btn_class: "btn--success"
-  - image_path: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  - image_path: https://images.unsplash.com/photo-1501820434261-5bb046afcf6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
     alt: "Tracking"
     title: "Tracking"
-    excerpt: "Det er en god ide at holde styr på din træning med fx en træningslog, så du kan se om din træning går planmæssigt. Der findes flere rigtig gode måder at _tracke_ din træning på uden, at du behøver at skulle levere toppræstationer i tests."
+    excerpt: "Du kan holde styr på din træning med fx en træningslog eller _tracke_ din træning på andre måder."
     url: "/tracking/"
-    btn_label: "Læs om tracking"
-    btn_class: "btn--success"
+    btn_label: "Track"
+    btn_class: "btn--info"
 toc: true
 ---
 

@@ -14,8 +14,11 @@ header:
   alt: "Photo by Cris Saur on Unsplash"
 category:
   - Viden om
+  - Styrketræning
+  - Løb
 tags:
   - restitution
+  - begynder
 last_modified_at: 2020-05-28T08:14:14Z
 toc: true
 ---

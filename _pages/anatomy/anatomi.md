@@ -116,6 +116,8 @@ feature_row_citatplakat:
     rel: sponsored nofollow noopener
 ---
 
+{{ page.excerpt }}
+
 Hvis du vil forstå, hvordan træningsøvelser virker, så er det godt at kende kroppens anatomi.
 
 De tre grundelementer i bevægeapparatets anatomi er:

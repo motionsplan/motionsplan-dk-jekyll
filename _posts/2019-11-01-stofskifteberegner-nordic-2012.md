@@ -12,6 +12,8 @@ category:
   - Ernæring
 tags:
   - stofskifte
+  - kalorieberegner
+  - beregner
 last_modified_at: 2020-08-31T23:14:14Z
 toc: true
 keywords:

@@ -15,6 +15,7 @@ tags:
   - træningsøvelse
   - udholdenhed
   - armstrækning
+  - begynder
 category:
   - Styrketræning
 last_modified_at: 2021-03-21T19:53:30Z

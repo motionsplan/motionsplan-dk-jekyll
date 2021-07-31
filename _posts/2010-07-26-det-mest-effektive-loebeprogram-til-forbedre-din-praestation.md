@@ -9,6 +9,7 @@ header:
 tags:
   - løb
   - kondition
+  - løbeprogram
 category:
   - Kondition
   - Løb

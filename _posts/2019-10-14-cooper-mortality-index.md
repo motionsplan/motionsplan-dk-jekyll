@@ -13,6 +13,7 @@ category:
 tags:
   - mortalitet
   - sundhed
+  - beregner
 last_modified_at: 2021-03-06T23:14:14Z
 toc: true
 ---
