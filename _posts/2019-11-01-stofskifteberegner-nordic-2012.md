@@ -1,12 +1,14 @@
 ---
-title: "Beregn dit daglige stofskifte, energiforbrug og energibehov"
-permalink: /beregner/stofskifte-energiforbrug-energibehov/
-redirect_from: /stofskifte/
+title: "Beregn dit daglige energiforbrug og energibehov [Beregner]"
+permalink: /beregner/dagligt-energiforbrug-energibehov/
+redirect_from:
+  - /beregner/stofskifte-energiforbrug-energibehov/
+  - /stofskifte/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1551337948-0ad8de8568ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=80
   teaser: https://images.unsplash.com/photo-1551337948-0ad8de8568ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
-  caption: Beregn dit stofskifte, daglige energibehov, ligevægtsindtag og hvilestofskifte
+  caption: Beregn dit daglige energibehov og energiforbrug
 category:
   - Beregnere
   - Ernæring
@@ -33,7 +35,7 @@ Jeg har lavet en beregner til at udregne dit daglige energibehov og energiforbru
 *[TEE]: Total Energy Expenditure
 *[kJ]: kilokoule
 
-Hvordan kan jeg udregne mit daglige energibehov? **Du kan udregne dit daglige energibehov ved at estimere dit hvilestofskifte og gange det med en faktor, der beskriver dit fysiske aktivitetsniveau for en dag (PAL).**
+Hvordan kan jeg udregne mit daglige energibehov og energiforbrug? **Du kan udregne dit daglige energibehov ved at estimere dit hvilestofskifte og gange det med en faktor, der beskriver dit fysiske aktivitetsniveau for en dag (PAL).**
 
 Stofskiftet består af 3 hovedkomponenter: hvilestofskiftet (BMR), fødeinduceret termogenese (FIT) og fysisk aktivitet (PAL). Du kan [læse en lidt mere uddybende forklaring af, hvad stofskiftet er]({% link _posts/2019-11-01-stofskifteberegner-avanceret.md %}).
 
@@ -41,9 +43,11 @@ Denne beregner af dit daglige energiforbrug og energibehov kan du vælge mellem 
 
 På [Fitness Institutes uddannelse af personlige trænere](https://fitness-institute.dk/) bruger de formlen fra `Nordic Nutrition Recommendations 2012`.
 
-## Beregn dit energiforbrug og daglige stofskifte
+## Beregn energiforbrug
 
 Med denne beregner kan du udregne dit samlede daglige energibehov. Resultatet fra beregneren giver dig et gennemsnit for, hvor meget energi en person med dit køn, din alder, din vægt og din højde bruger på en dag med dit angivne aktivitetsniveau.
+
+## Energibehov beregner
 
 {% include calculate-stofskifte-pal.html %}
 
@@ -57,7 +61,7 @@ Beregningen er behæftet med stor usikkerhed. Værdierne er rettet mod "almindel
 
 ## Formel for udregning af energibehov
 
-I denne simple stofskifteberegner kan du vælge forskellige formler for hvilestofskiftet og basalstofskiftet. Hvis du vil læse mere om de enkelte formler, så har jeg lavet et indlæg om, hvordan [beregningen af hvilestofskiftet og basalstofskiftet laves]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}).
+I denne simple energibehov beregner kan du vælge forskellige formler for hvilestofskiftet og basalstofskiftet. Hvis du vil læse mere om de enkelte formler, så har jeg lavet et indlæg om, hvordan [beregningen af hvilestofskiftet og basalstofskiftet laves]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}).
 
 ### Fysisk aktivitetsniveau (PAL) og energibehov
 
