@@ -20,6 +20,8 @@ toc: true
 faq:
   - question: "Hvor meget vand skal man drikke om dagen?"
     answer: "Der er uenighed i litteraturen om, hvor meget vand man skal drikke om dagen. For langt de fleste mennesker vil tørsten sørge for, at vi får vand nok. En tommelfingerregel er at du mindst skal have 1-1,5 liter vand om dagen, men mange aktive vil formentlig drikke mere. Hvis du sveder skal du naturligvis også supplere op med vand!"
+  - question: "Kan man drikke for meget vand?"
+    answer: "Ja. Du kan godt drikke for meget vand. Hvis du drikker rigtig meget vand, så skal du være meget opmærksom på indholdet af salte og mineraler i det væske du indtager. Læs meget mere i denne artikel..."
 ---
 
 Det er blevet rigtig populært at drikke rigtig meget vand, men hvor meget vand skal man egentlig drikke om dagen? Vi har kigget på videnskaben og lavet en beregner til at udregne dit daglige væskebehov.

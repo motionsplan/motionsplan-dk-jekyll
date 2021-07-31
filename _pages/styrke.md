@@ -12,6 +12,13 @@ header:
 author_profile: true
 author: lsolesen
 toc: true
+feature_row_strength:
+  - image_path: https://reponestrength.com/img/price-device.png
+    url: https://repone-strength.myshopify.com/lars-olesen
+    title: "Repone"
+    excerpt: "RepOne er opfølgeren til Open Barbell. RepOne fungerer ved at spænde en snor på stangen med en lille magnet. Formålet med RepOne er at have et prisleje, hvor den almindelige forbruger kan være med."
+    btn_class: "btn--info"
+    rel: sponsored nofollow noopener
 ---
 
 Jeg har samlet alle artiklerne om styrketræning her på siden. Der er både beregnere til styrketræning og dybdegående artikler om, hvordan du får noget ud af din styrketræning.
@@ -115,6 +122,10 @@ Vi har skrevet en del om styrketræningsprogrammer. Du kan let finde et **gratis
 {% endif %}
 
 </div>
+
+Jeg bruger selv RepOne til at lave [velocity based training]({% link _posts/2020-07-12-vbt.md %}). Jeg synes det er en rigtig interessant måde at måle min træningsintensitet og træningsfremgang på.
+
+{% include feature_row type="left" id="feature_row_strength" %}
 
 ## Alle indlæg om styrketræning
 

@@ -42,7 +42,14 @@ feature_row_kondital:
       til at hænge op på væggen. Tabellen er lavet i Google Docs.
     url: https://docs.google.com/document/d/1Yzzxktbt0Y_8E1fpPENZE1Jt8s6-8jkojvBCI7hpLic/copy?usp=sharing
     btn_label: Se tabel over kondital
-    btn_class: btn--info
+    btn_class: btn--
+faq:
+  - question: "Hvad er definitionen på et kondital?"
+    answer: "Et kondital er defineret ved din maksimale iltoptagelse delt med din kropsvægt. Det måles i ml O<sub>2</sub> pr. min pr. kg kropsvægt."
+  - question: "Hvordan kan man beregne konditallet?"
+    answer: "Du kan finde dit kondital ved enten direkte tests eller indirekte tests. Du kan lave maksimale tests eller submaksimale tests. Du kan finde mange eksempler på, hvordan du kan lave konditionstests her på siden."
+  - question: "Hvordan forbedrer man konditallet?"
+    answer: "Du kan forbedre konditalet på forskellige måder. Det kræver typisk en maksimal indsats, men du kan finde inspiration her på siden under [kondition, kredsløb og konditionstræning](/kondition/)."
 ---
 Hvad er et godt kondital, og hvordan beregner man det? I denne artikel dykker vi ned i hvad kondital betyder for din sundhed, hvornår det er godt og hvordan man kan forbedre det. Du finder også en nem og overskuelig kondital tabel som du kan bruge til selv at teste din kondition.
 
@@ -203,6 +210,10 @@ Hvis du gerne vil forbedre dit kondital, så kan du finde inspiration under vore
 Hvis du gerne selv vil teste dit kondital, så tjek alle de [forskellige konditionstests, vi har beskrevet her](/test-kondition-konditest-kondital/).
 
 Vi har skrevet mere om, hvordan du [forbedrer din maksimale iltoptagelse i denne artikel](/maksimale-iltoptagelse-vo2max/).
+
+## Ofte stillede spørgsmål om kondital
+
+{% include faq.html %}
 
 ## Referencer for kondition og kondital
 

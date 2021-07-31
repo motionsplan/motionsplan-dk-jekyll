@@ -16,6 +16,9 @@ tags:
   - energiforbrug
 toc: true
 last_modified_at: 2021-05-10T08:14:14Z
+faq:
+  - question: "Hvor mange kalorier forbrænder man ved at gå?"
+    answer: "Hvor meget du forbrænder ved at gå, handler om hvor hurtigt du går. Du kan læse meget mere om [hvor meget du forbrænder ved at gå her](/forbraending-ved-gaa-gang/)."
 ---
 
 Det er umuligt at finde et godt svar på, om man forbrænder flere kalorier eller kilojoule ved at løbe end ved at gå, så jeg besluttede mig for at kigge på kalorieforbrændingen ved gang og løb for at give et definitivt svar.
@@ -270,7 +273,11 @@ Hvis vi kigger på udsagnet om, at man pr. kilometer forbrænder dobbelt så meg
 
 Det kunne være interessant med en model, som mere præcist kan fremskrive energiforbrug over længere distancer (end 1600 meter), ændringerne i løbestil ved forskellige hastigheder og ændringer i substratforbrug og effektivitet i energiomsætningen.
 
-Jeg har lavet en tabel med [MET-værdier]({% link _posts/2020-07-24-met.md %}), og hvis du er interesseret i at læse mere om, [forbrænding ved cykling](https://www.cykel-ruter.dk/cykling-kalorier/), så har jeg skrevet lidt om det emne på cykel-ruter.dk.
+Jeg har lavet en tabel med [MET-værdier]({% link _posts/2020-07-24-met.md %}), og hvis du er interesseret i at læse mere om, [forbrænding ved cykling](https://www.cykel-ruter.dk/cykling-kalorier/), så har jeg skrevet lidt om det emne på [cykel-ruter.dk](https://www.cykel-ruter.dk/).
+
+## Ofte stillede spørgsmål
+
+{% include faq.html %}
 
 ## Referencer om kalorieforbrænding ved gang og løb
 
