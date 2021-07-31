@@ -10,6 +10,7 @@ tags:
   - maveøvelser
   - flad mave
   - mave
+  - mavetræning
 category:
   - Ernæring
   - Træning

@@ -6,6 +6,8 @@ main:
     url: /traeningsformer/
   - title: "Optimer træning"
     url: /optimer-traening/
+  - title: "Krop & Sundhed"
+    url: /krop-og-sundhed/
   - title: "Styrketræning"
     url: /styrke/
   - title: "Kondition"

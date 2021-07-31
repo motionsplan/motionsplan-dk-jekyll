@@ -8,8 +8,6 @@ header:
   caption: *title
 category:
   - Viden om
-tags:
-  - anatomi
   - fysiologi
   - muskler
   - træningslære

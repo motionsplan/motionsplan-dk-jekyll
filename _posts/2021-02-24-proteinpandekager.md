@@ -11,6 +11,7 @@ category:
   - Ernæring
 tags:
   - opskrift
+  - kost
 last_modified_at: 2021-07-24T23:14:14Z
 toc: true
 gallery_bodylab:

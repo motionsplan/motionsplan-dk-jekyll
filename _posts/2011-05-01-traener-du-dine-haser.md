@@ -8,7 +8,8 @@ header:
   caption: *title
 tags:
   - styrketræning
-  - anatomi
+  - skader
+  - skadesforebyggelse
 category:
   - Styrketræning
 last_modified_at: 2020-07-05T21:40:51Z
