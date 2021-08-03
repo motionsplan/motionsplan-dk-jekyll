@@ -1,5 +1,5 @@
 ---
-title: Trehovede armstrækker - Triceps
+title: Trehovede armstrækker - Triceps Brachii
 functional_group:
   - Armens bagudføring
   - Armstrækkere
