@@ -11,8 +11,6 @@ name:
   da: Trehovede armstrækker
 group:
   - Arme
-joint:
-  - Albueleddet
 tags:
   - imagemap
   - fitnessinstruktør
