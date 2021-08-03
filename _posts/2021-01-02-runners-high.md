@@ -1,20 +1,19 @@
 ---
-title: &title "Hvad er Runner's High - og hvordan opnår du følelsen? 🏃"
+last_modified_at: 2021-01-02T10:14:14.000Z
+toc: true
+title: Hvad er Runner's High - og hvordan opnår du følelsen? 🏃
 permalink: /runners-high/
-language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1530655638484-de9ff231551e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTB8fHJ1bm5lcnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=60
   teaser: https://images.unsplash.com/photo-1530655638484-de9ff231551e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTB8fHJ1bm5lcnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60
-  caption: *title
+  caption: Hvad er Runner's High - og hvordan opnår du følelsen? 🏃
+language: da
 category:
   - Kondition
 tags:
   - kondition
   - løb
-last_modified_at: 2021-01-02T10:14:14Z
-toc: true
 ---
-
 Du har sikkert hørt om Runner's High, og måske har du endda selv oplevet det. Der er i hvert fald mange, der søger på "runners high", så jeg gennemgår her, hvad det er og hvordan du opnår det.
 
 Hvad er Runner's High? **Runner's high er en følelse af eufori, som formentlig skabes af et øget niveau af endorfiner i kroppen og af aktivitet i det endocannabinoide system. Runner's high kan skabes af længerevarende fysisk aktivitet, fx løb og cykling.**
@@ -59,7 +58,7 @@ https://www.chicagotribune.com/news/ct-xpm-2003-10-12-0310120504-story.html
 
 [Runners World](https://www.runnersworld.com/training/a20851505/how-to-achieve-a-runners-high/) forklarer, hvordan man kan opnå Runner's High. Runner's High er formentlig en måde at maskere på, at vi har trætte ben, som går helt tilbage til dengang, vi havde brug for masser af energi for at fange vores egen mad.
 
-> The desire to live was possibly their motivation to run and[run fast](https://www.runnersworld.com/training/a20859327/why-cant-i-run-faster/), and the feel-good brain chemicals released when they did so may have helped them achieve the speed and distances required.
+> The desire to live was possibly their motivation to run and run fast, and the feel-good brain chemicals released when they did so may have helped them achieve the speed and distances required.
 
 — <cite>[David A. Raichlen](https://www.runnersworld.com/training/a20851505/how-to-achieve-a-runners-high/), professor på University of Southern California</cite>
 
@@ -69,8 +68,8 @@ Der er forskellige teorier om, hvad der fremprovokerer Runner's High. [Gupta og 
 
 [Runners World](https://www.runnersworld.com/training/a20851505/how-to-achieve-a-runners-high/) kalder det to forskellige triggers, som kan forårsage Runner's High.
 
-- **Endofiner**. Hjernen udskiller endofiner, hvis man bruger tid nok med at motionere. De skaber en lykkefølelse.
-- **Endocannabinoide system**. Endocannabinoider kan betragtes som kroppens selvproducerede cannabis, og kan påvirke en bred vifte af fysiologiske processer som fx appetitreguleringen, smertefølelsen, humøret og hukommelsen.
+* **Endofiner**. Hjernen udskiller endofiner, hvis man bruger tid nok med at motionere. De skaber en lykkefølelse.
+* **Endocannabinoide system**. Endocannabinoider kan betragtes som kroppens selvproducerede cannabis, og kan påvirke en bred vifte af fysiologiske processer som fx appetitreguleringen, smertefølelsen, humøret og hukommelsen.
 
 [Intersport](https://www.intersport.dk/lob-og-traening-med-intersport/runners-high.html) konkluderer, at Runner's High ikke kommer fra endofinerne, men jeg har ikke kunnet finde nogle endegyldige videnskabelige studier, der afviser hypotesen om endorfinerne. Derfor tænker jeg umiddelbart, at det mest sandsynlige er en kombination mellem de to hypoteser.
 
@@ -80,14 +79,14 @@ Hvis du ved noget mere om forskningen om Runner's High, så brug endelig komment
 
 {% include video provider="youtube" id="jKrh2qGotvI" %}
 
-[Atnu.dk] foreslår følgende gode råd for at opnå Runner's High.
+[Atnu.dk](https://www.atnu.dk/hvad-er-runners-high-hvordan-virker-det/) foreslår følgende gode råd for at opnå Runner's High.
 
-- **Giv det tid.** Der er ikke en præcis formel for Runner's High, men det tager mindst 20 til 30 minutters motion inden hjernen udskiller tilstrækkelige mængder neurokemikalier for at udløse Runner's High.
-- **Hold et godt tempo.** Det vanskeligste for at opnå Runner's High er at ramme den rigtige intensitet. Du får kun kroppen til at producere det neurokemiske respons, hvis intensiteten er passende. Hvis du træner for hårdt, så modvirker det fysiske ubehag ved træningen følelsen.
-- **Hold dig i form.** Når du er i form, så kan du lettere træne i længere tid og med den passende anstrengelse for at få følelsen af Runner's High.
+* **Giv det tid.** Der er ikke en præcis formel for Runner's High, men det tager mindst 20 til 30 minutters motion inden hjernen udskiller tilstrækkelige mængder neurokemikalier for at udløse Runner's High.
+* **Hold et godt tempo.** Det vanskeligste for at opnå Runner's High er at ramme den rigtige intensitet. Du får kun kroppen til at producere det neurokemiske respons, hvis intensiteten er passende. Hvis du træner for hårdt, så modvirker det fysiske ubehag ved træningen følelsen.
+* **Hold dig i form.** Når du er i form, så kan du lettere træne i længere tid og med den passende anstrengelse for at få følelsen af Runner's High.
 
 ## Konklusion om Runner's High
 
-Runner's High handler om den gode følelse, man får i kroppen, mens man laver længerevarende motion. Runner's High kan opnås under alle typer motion, hvor der er tilstrækkelig intensitet og gentagne udholdenhedsbaserede øvelser. Du kan formentlig _ikke_ få Runner's High, hvis du laver [intervalløb og intervaltræning]({% link _posts/2020-06-15-intervallob.md %}).
+Runner's High handler om den gode følelse, man får i kroppen, mens man laver længerevarende motion. Runner's High kan opnås under alle typer motion, hvor der er tilstrækkelig intensitet og gentagne udholdenhedsbaserede øvelser. Du kan formentlig *ikke* få Runner's High, hvis du laver [intervalløb og intervaltræning]({% link _posts/2020-06-15-intervallob.md %}).
 
 Runner's High opstår formentlig som en kombination af endorfiner og det endocannabinoide system.
