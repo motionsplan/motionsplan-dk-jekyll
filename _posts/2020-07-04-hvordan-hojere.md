@@ -203,6 +203,8 @@ Man bliver lavere fordi væsken forsvinder lidt ud af af de små støddæmpende 
 
 Denne effekt er formentlig endnu større, hvis du laver styrketræning, hvor du har fx løfter tunge vægte i dødløft og squat.
 
+Effekten af de komprimerede discus i ryggen retter sig naturligvis til næste dag, så du er tilbage til samme højde.
+
 Derfor kan du teoretisk set også i løbet af dagen gøre dig lidt højere ved at lave strækøvelser og hænge i enten _gravity boots_ eller bare hænge i hænderne i en ribbe. På den måde får disci mulighed for at udvide sig selv lidt.
 
 Det er jo et sjovt eksperiment at forsøge at lave. Hvis du prøver, så del endelig din oplevelse i kommentarerne.
