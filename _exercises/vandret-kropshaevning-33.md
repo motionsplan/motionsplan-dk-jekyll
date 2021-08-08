@@ -3,7 +3,7 @@ title: Roning, proneret bodyrow
 permalink: /oevelse/vandret-kropshaevning/
 excerpt: Vandret kropshævning med benene på en bænk.
 instructions: Vandret kropshævning med benene på en bænk.
-categories: null
+categories: []
 tags:
   - kropsvægt
   - fitnessinstruktør
