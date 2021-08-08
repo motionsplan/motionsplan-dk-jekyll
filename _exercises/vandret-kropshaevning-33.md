@@ -39,5 +39,4 @@ video:
   id: 5046240
 id: 33
 ---
-
 Placer benene på en bænk, så kroppen er vandret. Tag ved bommen med skulderbreddes afstand mellem armene. Træk kroppen op til bommen. og sænk den kontrolleret ned igen.
