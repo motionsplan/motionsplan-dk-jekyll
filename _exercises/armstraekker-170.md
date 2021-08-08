@@ -5,7 +5,8 @@ excerpt: Start med strakt krop og strakte arme. Sænk dig derefter ned mod gulve
   og stræk armene igen. Hold kroppen ret gennem hele øvelsen.
 instructions: Start med strakt krop og strakte arme. Sænk dig derefter ned mod
   gulvet og stræk armene igen. Hold kroppen ret gennem hele øvelsen.
-categories: []
+categories:
+  - Pres
 tags:
   - kropsvægt
   - fitnessinstruktør
