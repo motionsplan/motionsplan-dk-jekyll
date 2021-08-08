@@ -24,6 +24,23 @@ Hvis du er på udkig efter [maveøvelser]({% link _pages/exercises-tag-abs.md %}
 
 {% include pinterest-gallery id="gallery" hidden="true"%}
 
+## Nyeste øvelser
+
+Her kan du se de nyeste træningsøvelser.
+
+<div class="feature__wrapper">
+
+{% assign site_posts = site.exercises | where: "tags", "featured" | sort: "last_modified_at" | reverse %}
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts limit: 6 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
+
 ## Maveøvelser, mavetræning og coretræning
 
 Vi har en lang række maveøvelser, som kan hjælpe dig med at få en stærkere og mere udholdende _core_ og kropsstamme. Maveøvelserne kan enten udføres med kropsvægt, håndvægte, elastikker, bolde og hjul. Du kan også læse meget mere om [kropsstammetræning og coretræning i dette indlæg]({% link _posts/2020-07-16-coretraening.md %}) og udfordringerne med [fedttab på maven]({% link _posts/2020-07-07-mavefedt.md %}).
@@ -100,7 +117,7 @@ Vi har i alt samlet {{ site.exercises.size }} træningsøvelser, som du kan brug
 
 <div class="feature__wrapper">
 
-{% assign site_posts = site.exercises | sort: "last_modified_at" | reverse %}
+{% assign site_posts = site.exercises | sort: "title" %}
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}

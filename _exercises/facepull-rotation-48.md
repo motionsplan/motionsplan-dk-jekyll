@@ -1,8 +1,12 @@
 ---
 title: &title "Facepull: Træk til ansigt med rotation"
-excerpt: ""
-instructions: ""
+excerpt: "Hold i rebhåndtaget med underhåndsgreb. I god balance trækker du rebet hen mod dit ansigt, mens du holder hovedet og skuldrene i samme position som ved starten."
+instructions: "Hold i rebhåndtaget med underhåndsgreb. I god balance trækker du rebet hen mod dit ansigt, mens du holder hovedet og skuldrene i samme position som ved starten."
 permalink: /oevelse/facepull-rotation/
+redirect_from:
+  - /oevelse/traek-til-ansigt/
+  - /node/48
+id: 48
 language: da
 header:
   overlay_image: /assets/images/exercises/traek-til-ansigt-0.jpg

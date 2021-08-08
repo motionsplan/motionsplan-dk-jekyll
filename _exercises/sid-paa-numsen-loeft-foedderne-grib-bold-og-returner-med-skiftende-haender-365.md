@@ -10,6 +10,7 @@ tags:
   - kropsstamme
   - måtte
   - bold
+  - mats mejdevi
 categories:
 training_type: 
 training_focus: 

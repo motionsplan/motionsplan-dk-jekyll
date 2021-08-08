@@ -9,6 +9,7 @@ language: da
 tags:
   - kropsstamme
   - måtte
+  - mats mejdevi
 categories:
 training_type: 
 training_focus: 

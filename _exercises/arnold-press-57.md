@@ -12,6 +12,7 @@ header:
 tags:
   - Pres
   - Skuldre
+  - featured
 categories:
   - Pres
 training_type: 

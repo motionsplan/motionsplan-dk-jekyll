@@ -1,6 +1,6 @@
 ---
-title: &title "Knæbøjning, statisk"
-excerpt: "Knæbøjning, statisk"
+title: &title "Wallsit: Knæbøjning, statisk"
+excerpt: "Wallsit: Knæbøjning, statisk"
 instructions: "Knæbøjning, statisk"
 permalink: /oevelse/knaeboejning-statisk/
 redirect_from: /node/301

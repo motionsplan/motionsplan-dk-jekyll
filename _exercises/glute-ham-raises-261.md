@@ -13,6 +13,7 @@ header:
 tags:
   - hoftedomineret
   - maskine
+  - featured
 training_type: null
 training_focus:
   - hoftedomineret

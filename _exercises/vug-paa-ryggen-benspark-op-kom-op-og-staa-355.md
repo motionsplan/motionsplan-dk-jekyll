@@ -9,6 +9,7 @@ language: da
 tags:
   - kropsstamme
   - måtte
+  - mats mejdevi
 categories:
 training_type: 
 training_focus: 
@@ -22,4 +23,4 @@ last_modified_at: 2011-10-31T13:18:40Z
 
 Læg dig på ryggen, og løft ben og overkrop fri af gulvet. Vug frem og tilbage. Først et vug med bøjede ben, derefter et vug, hvor du sparker benene op over hovedet hvorefter du umiddelbart rejser dig op uden brug af hænder.
 
-En øvelse med tre delelementer. Der arbejdes med kropsstamme, ben og balance
+En øvelse med tre delelementer. Der arbejdes med kropsstamme, ben og balance.
