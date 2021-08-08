@@ -15,7 +15,7 @@ tags:
   - Strækøvelser
   - Styrketræning
   - kropsvægt
-categories:
+categories: []
 training_type: 
   - Mobilisering
   - Strækøvelser

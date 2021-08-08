@@ -13,7 +13,7 @@ header:
 tags:
   - hoftedomineret
   - kabeltræk
-categories:
+categories: []
 training_type: 
 training_focus: 
   - hoftedomineret

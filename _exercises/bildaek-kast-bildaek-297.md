@@ -14,7 +14,7 @@ tags:
   - Styrketræning
   - bildæk
   - outdoor
-categories:
+categories: []
 training_type: 
   - Styrketræning
 training_focus: 

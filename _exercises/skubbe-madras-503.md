@@ -12,12 +12,12 @@ header:
   caption: *title
 tags:
   - madras
-categories:
-training_type: 
-training_focus: 
+categories: []
+training_type: [] 
+training_focus: []
 equipment:
   - madras
-muscle_group:
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/skubbe-madras-0.jpg
     image_path: /assets/images/exercises/skubbe-madras-0-320.jpg

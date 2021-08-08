@@ -12,12 +12,12 @@ header:
   caption: *title
 tags:
   - mace bell
-categories:
-training_type: 
-training_focus: 
+categories: []
+training_type: [] 
+training_focus: []
 equipment:
   - mace bell
-muscle_group:
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/macebell-0.jpg
     image_path: /assets/images/exercises/macebell-0-320.jpg

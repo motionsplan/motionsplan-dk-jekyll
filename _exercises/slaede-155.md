@@ -12,9 +12,9 @@ header:
   caption: *title
 tags:
   - slæde
-categories:
-training_type: 
-training_focus: 
+categories: []
+training_type: [] 
+training_focus: []
 equipment:
   - slæde
 muscle_group:

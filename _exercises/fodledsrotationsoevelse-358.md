@@ -9,12 +9,12 @@ language: da
 tags:
   - måtte
   - mats mejdevi
-categories:
-training_type: 
-training_focus: 
+categories: []
+training_type: [] 
+training_focus: []
 equipment:
   - måtte
-muscle_group:
+muscle_group: []
 gallery:
 last_modified_at: 2011-10-31T13:12:48Z
 ---

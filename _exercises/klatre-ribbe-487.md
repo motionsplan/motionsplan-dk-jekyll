@@ -14,8 +14,8 @@ tags:
   - Kondition og puls
 categories:
   - Kondition og puls
-training_type: 
-training_focus: 
+training_type: []
+training_focus: []
 equipment:
 muscle_group:
 alternative_titles:

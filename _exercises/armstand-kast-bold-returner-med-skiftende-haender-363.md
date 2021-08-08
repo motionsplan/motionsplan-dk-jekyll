@@ -11,14 +11,14 @@ tags:
   - måtte
   - bold
   - mats mejdevi
-categories:
+categories: []
 training_type: 
 training_focus: 
   - kropsstamme
 equipment:
   - måtte
   - bold
-muscle_group:
+muscle_group: []
 gallery:
 last_modified_at: 2011-10-31T13:05:22Z
 ---

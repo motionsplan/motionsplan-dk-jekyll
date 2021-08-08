@@ -16,7 +16,7 @@ tags:
   - vægtstang
   - Baller
   - Forlår
-categories:
+categories: []
 training_type: 
   - Styrketræning
 training_focus: 
@@ -50,5 +50,3 @@ gallery:
     title: "Step up, front loaded"
 last_modified_at: 2016-10-18T07:34:01Z
 ---
-
-

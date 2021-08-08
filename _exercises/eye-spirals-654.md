@@ -10,12 +10,12 @@ header:
   overlay_image: /assets/images/exercises/eye-spirals-0.png
   teaser: /assets/images/exercises/eye-spirals-0-320.png
   caption: *title
-tags:
-categories:
-training_type: 
-training_focus: 
-equipment:
-muscle_group:
+tags: []
+categories: []
+training_type: [] 
+training_focus: []
+equipment: []
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/eye-spirals-0.png
     image_path: /assets/images/exercises/eye-spirals-0-320.png
@@ -23,5 +23,3 @@ gallery:
     title: "Eye spirals"
 last_modified_at: 2015-04-03T16:54:08Z
 ---
-
-

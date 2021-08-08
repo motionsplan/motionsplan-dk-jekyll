@@ -12,13 +12,13 @@ header:
   caption: *title
 tags:
   - Strækøvelser
-categories:
+categories: []
 training_type: 
   - Strækøvelser
 training_focus: 
 equipment:
-muscle_group:
-alternative_titles:
+muscle_group: []
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/brettzel-20-0.jpg
     image_path: /assets/images/exercises/brettzel-20-0-320.jpg
@@ -33,5 +33,3 @@ video:
   id: SfGV-65GaPg
 last_modified_at: 2015-04-06T09:58:17Z
 ---
-
-

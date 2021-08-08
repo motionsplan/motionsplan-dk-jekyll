@@ -17,8 +17,8 @@ tags:
   - Forlår
 categories:
   - Helkropsøvelse
-training_type: 
-training_focus: 
+training_type: []
+training_focus: []
 equipment:
   - trx
 muscle_group:
@@ -43,5 +43,3 @@ gallery:
     title: "One-legged squat in TRX"
 last_modified_at: 2015-01-02T09:18:15Z
 ---
-
-

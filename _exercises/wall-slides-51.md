@@ -13,13 +13,13 @@ header:
 tags:
   - kropsvægt
   - mur
-categories:
-training_type: 
-training_focus: 
+categories: []
+training_type: [] 
+training_focus: []
 equipment:
   - kropsvægt
   - mur
-muscle_group:
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/wall-slides-0.jpg
     image_path: /assets/images/exercises/wall-slides-0-320.jpg

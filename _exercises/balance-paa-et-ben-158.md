@@ -12,12 +12,12 @@ header:
   caption: *title
 tags:
   - kropsvægt
-categories:
-training_type: 
-training_focus: 
+categories: []
+training_type: [] 
+training_focus: []
 equipment:
   - kropsvægt
-muscle_group:
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/balance-paa-et-ben-0.jpg
     image_path: /assets/images/exercises/balance-paa-et-ben-0-320.jpg

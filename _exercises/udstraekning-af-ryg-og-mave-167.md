@@ -13,13 +13,13 @@ header:
 tags:
   - Parøvelser
   - Strækøvelser
-categories:
+categories: []
 training_type: 
   - Parøvelser
   - Strækøvelser
 training_focus: 
-equipment:
-muscle_group:
+equipment: []
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/udstraekning-af-ryg-og-mave-0.jpg
     image_path: /assets/images/exercises/udstraekning-af-ryg-og-mave-0-320.jpg

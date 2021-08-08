@@ -15,13 +15,13 @@ tags:
   - vægtstang
   - fitnessinstruktør
   - crossfit
-categories:
+categories: []
 training_type: 
 training_focus: 
   - knædomineret
 equipment:
   - vægtstang
-muscle_group:
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/lunges-dynamisk-0.jpg
     image_path: /assets/images/exercises/lunges-dynamisk-0-320.jpg

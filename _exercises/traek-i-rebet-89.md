@@ -12,9 +12,9 @@ header:
   caption: *title
 tags:
   - tov
-categories:
-training_type: 
-training_focus: 
+categories: []
+training_type: [] 
+training_focus: []
 equipment:
   - tov
 muscle_group:

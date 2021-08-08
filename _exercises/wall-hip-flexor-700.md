@@ -17,7 +17,7 @@ tags:
   - kropsvægt
   - Forlår
   - Hoftebøjere
-categories:
+categories: []
 training_type: 
   - Mobilisering
   - Strækøvelser
@@ -38,5 +38,3 @@ video:
   id: 1zyzP3TPFfA
 last_modified_at: 2016-10-14T11:40:21Z
 ---
-
-

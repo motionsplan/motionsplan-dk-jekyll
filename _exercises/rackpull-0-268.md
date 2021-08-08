@@ -16,7 +16,7 @@ tags:
   - Baglår
   - Baller
   - Ryg
-categories:
+categories: []
 training_type: 
   - Styrketræning
 training_focus: 

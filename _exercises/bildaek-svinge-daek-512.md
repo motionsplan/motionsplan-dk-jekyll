@@ -14,12 +14,12 @@ header:
   caption: *title
 tags:
   - outdoor
-categories:
-training_type: 
-training_focus: 
+categories: []
+training_type: [] 
+training_focus: []
 equipment:
   - bildæk
-muscle_group:
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/svinge-daek-0.jpg
     image_path: /assets/images/exercises/svinge-daek-0-320.jpg

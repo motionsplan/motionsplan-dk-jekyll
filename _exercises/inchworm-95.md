@@ -21,7 +21,7 @@ training_focus:
   - kropsstamme
 equipment:
   - kropsvægt
-muscle_group:
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/inchworm-0.jpg
     image_path: /assets/images/exercises/inchworm-0-320.jpg

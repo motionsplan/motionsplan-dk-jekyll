@@ -13,9 +13,9 @@ header:
 tags:
   - kropsvægt
   - fitnessinstruktør
-categories:
-training_type: 
-training_focus: 
+categories: []
+training_type: [] 
+training_focus: []
 equipment:
 muscle_group:
 alternative_titles:

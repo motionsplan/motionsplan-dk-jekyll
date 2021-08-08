@@ -23,7 +23,7 @@ training_focus:
 equipment:
   - kropsvægt
   - klud
-muscle_group:
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/baglaar-glidud-et-ben-0.jpg
     image_path: /assets/images/exercises/baglaar-glidud-et-ben-0-320.jpg

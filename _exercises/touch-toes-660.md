@@ -14,7 +14,7 @@ tags:
   - Strækøvelser
   - kropsvægt
   - Baglår
-categories:
+categories: []
 training_type: 
   - Strækøvelser
 training_focus: 
@@ -33,5 +33,3 @@ gallery:
     title: "Touch toes"
 last_modified_at: 2015-04-10T11:55:28Z
 ---
-
-

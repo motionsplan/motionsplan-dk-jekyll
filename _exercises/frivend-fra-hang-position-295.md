@@ -13,7 +13,7 @@ header:
 tags:
   - hoftedomineret
   - vægtstang
-categories:
+categories: []
 training_type: 
 training_focus: 
   - hoftedomineret

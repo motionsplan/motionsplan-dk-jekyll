@@ -13,13 +13,13 @@ header:
 tags:
   - kropsstamme
   - swissball
-categories:
+categories: []
 training_type: 
 training_focus: 
   - kropsstamme
 equipment:
   - swissball
-muscle_group:
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/balance-paa-bold-0.jpg
     image_path: /assets/images/exercises/balance-paa-bold-0-320.jpg

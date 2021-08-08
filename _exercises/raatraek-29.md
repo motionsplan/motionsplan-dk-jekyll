@@ -12,11 +12,11 @@ header:
   caption: *title
 tags:
   - crossfit
-categories:
-training_type: 
-training_focus: 
-equipment:
-muscle_group:
+categories: []
+training_type: [] 
+training_focus: []
+equipment: []
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/raatraek-0.jpg
     image_path: /assets/images/exercises/raatraek-0-320.jpg

@@ -8,12 +8,12 @@ id: 314
 language: da
 tags:
   - kropsvægt
-categories:
-training_type: 
-training_focus: 
+categories: []
+training_type: [] 
+training_focus: []
 equipment:
   - kropsvægt
-muscle_group:
+muscle_group: []
 gallery:
 last_modified_at: 2011-05-22T10:12:41Z
 video:

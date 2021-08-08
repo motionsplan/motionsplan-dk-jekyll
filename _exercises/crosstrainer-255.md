@@ -8,12 +8,12 @@ id: 255
 language: da
 tags:
   - Kondition
-categories:
+categories: []
 training_type: 
   - Kondition
 training_focus: 
-equipment:
-muscle_group:
+equipment: []
+muscle_group: []
 gallery:
 last_modified_at: 2014-10-12T14:39:17Z
 ---

@@ -13,13 +13,13 @@ header:
 tags:
   - hoftedomineret
   - vægtstang
-categories:
+categories: []
 training_type: 
 training_focus: 
   - hoftedomineret
 equipment:
   - vægtstang
-muscle_group:
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/stifflegged-traek-0.jpg
     image_path: /assets/images/exercises/stifflegged-traek-0-320.jpg

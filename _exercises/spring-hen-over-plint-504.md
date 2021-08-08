@@ -12,12 +12,12 @@ header:
   caption: *title
 tags:
   - plint
-categories:
-training_type: 
-training_focus: 
+categories: []
+training_type: [] 
+training_focus: []
 equipment:
   - plint
-muscle_group:
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/spring-hen-over-plint-0.jpg
     image_path: /assets/images/exercises/spring-hen-over-plint-0-320.jpg

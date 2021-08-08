@@ -14,7 +14,7 @@ tags:
   - Strækøvelser
   - hoftedomineret
   - Baller
-categories:
+categories: []
 training_type: 
   - Strækøvelser
 training_focus: 

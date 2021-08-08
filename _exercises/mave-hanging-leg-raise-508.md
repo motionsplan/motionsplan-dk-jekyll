@@ -10,13 +10,13 @@ header:
   overlay_image: /assets/images/exercises/mave-hanging-leg-raise-0.jpg
   teaser: /assets/images/exercises/mave-hanging-leg-raise-0-320.jpg
   caption: *title
-tags:
-categories:
-training_type: 
-training_focus: 
+tags: []
+categories: []
+training_type: [] 
+training_focus: []
 equipment:
-muscle_group:
-alternative_titles:
+muscle_group: []
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/mave-hanging-leg-raise-0.jpg
     image_path: /assets/images/exercises/mave-hanging-leg-raise-0-320.jpg

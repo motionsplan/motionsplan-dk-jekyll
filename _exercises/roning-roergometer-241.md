@@ -13,13 +13,13 @@ header:
 tags:
   - Kondition
   - roergometer
-categories:
+categories: []
 training_type: 
   - Kondition
 training_focus: 
 equipment:
   - roergometer
-muscle_group:
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/roning-roergometer-0.jpg
     image_path: /assets/images/exercises/roning-roergometer-0-320.jpg

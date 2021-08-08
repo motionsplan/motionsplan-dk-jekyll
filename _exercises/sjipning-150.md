@@ -16,11 +16,11 @@ tags:
   - cirkeltræning
 categories:
   - Kondition og puls
-training_type: 
-training_focus: 
+training_type: []
+training_focus: []
 equipment:
   - sjippetov
-muscle_group:
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/sjipning-0.jpg
     image_path: /assets/images/exercises/sjipning-0-320.jpg

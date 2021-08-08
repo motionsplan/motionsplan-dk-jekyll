@@ -13,14 +13,14 @@ header:
 tags:
   - Self Myofascial Release (SMR)
   - lacrosse bold
-categories:
+categories: []
 training_type: 
   - Self Myofascial Release (SMR)
 training_focus: 
 equipment:
   - lacrosse bold
-muscle_group:
-alternative_titles:
+muscle_group: []
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/smr-skulderblad-0.jpg
     image_path: /assets/images/exercises/smr-skulderblad-0-320.jpg
@@ -28,5 +28,3 @@ gallery:
     title: "SMR Skulderblad"
 last_modified_at: 2015-04-10T13:45:54Z
 ---
-
-

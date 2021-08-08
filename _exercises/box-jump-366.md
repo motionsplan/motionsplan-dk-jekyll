@@ -16,11 +16,11 @@ tags:
   - crossfit
 categories:
   - Hård styrkeøvelse
-training_type: 
-training_focus: 
+training_type: []
+training_focus: []
 equipment:
   - kasse
-muscle_group:
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/box-jump-0.jpg
     image_path: /assets/images/exercises/box-jump-0-320.jpg

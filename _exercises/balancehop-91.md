@@ -13,13 +13,13 @@ header:
 tags:
   - træstub
   - kropsvægt
-categories:
-training_type: 
-training_focus: 
+categories: []
+training_type: [] 
+training_focus: []
 equipment:
   - træstub
   - kropsvægt
-muscle_group:
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/balancehop-0.jpg
     image_path: /assets/images/exercises/balancehop-0-320.jpg

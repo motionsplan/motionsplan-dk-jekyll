@@ -10,14 +10,14 @@ tags:
   - kropsstamme
   - makker
   - kropsvægt
-categories:
+categories: []
 training_type: 
 training_focus: 
   - kropsstamme
 equipment:
   - makker
   - kropsvægt
-muscle_group:
+muscle_group: []
 gallery:
 last_modified_at: 2011-05-22T10:17:39Z
 ---

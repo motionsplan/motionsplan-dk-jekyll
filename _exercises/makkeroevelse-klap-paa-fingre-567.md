@@ -16,11 +16,11 @@ tags:
   - Kropsstamme
 categories:
   - Kropsstamme
-training_type: 
-training_focus: 
+training_type: []
+training_focus: []
 equipment:
-muscle_group:
-alternative_titles:
+muscle_group: []
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/makkeroevelse-klap-paa-fingre-0.jpg
     image_path: /assets/images/exercises/makkeroevelse-klap-paa-fingre-0-320.jpg

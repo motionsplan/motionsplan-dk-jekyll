@@ -12,11 +12,11 @@ header:
   caption: *title
 tags:
   - makkerøvelse
-categories:
-training_type: 
-training_focus: 
-equipment:
-muscle_group:
+categories: []
+training_type: [] 
+training_focus: []
+equipment: []
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/roning-med-makker-og-klap-paa-skulderen-0.jpg
     image_path: /assets/images/exercises/roning-med-makker-og-klap-paa-skulderen-0-320.jpg

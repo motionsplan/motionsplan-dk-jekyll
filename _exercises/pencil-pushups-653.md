@@ -13,7 +13,7 @@ header:
 tags:
   - Balance
   - Øjne
-categories:
+categories: []
 training_type: 
   - Balance
 training_focus: 
@@ -31,5 +31,3 @@ gallery:
     title: "Pencil pushups"
 last_modified_at: 2015-04-10T11:57:39Z
 ---
-
-

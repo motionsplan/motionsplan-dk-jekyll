@@ -14,7 +14,7 @@ tags:
   - helkropsøvelse
   - flise
   - dunk
-categories:
+categories: []
 training_type: 
 training_focus: 
   - helkropsøvelse

@@ -13,14 +13,14 @@ header:
 tags:
   - Strækøvelser
   - kropsvægt
-categories:
+categories: []
 training_type: 
   - Strækøvelser
 training_focus: 
 equipment:
   - kropsvægt
-muscle_group:
-alternative_titles:
+muscle_group: []
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/mobilisering-ankel-0.jpg
     image_path: /assets/images/exercises/mobilisering-ankel-0-320.jpg
@@ -28,5 +28,3 @@ gallery:
     title: "Mobilisering ankel"
 last_modified_at: 2015-04-10T13:53:13Z
 ---
-
-

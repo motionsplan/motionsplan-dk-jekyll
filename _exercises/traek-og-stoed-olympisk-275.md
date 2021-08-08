@@ -13,7 +13,7 @@ header:
 tags:
   - helkropsøvelse
   - vægtstang
-categories:
+categories: []
 training_type: 
 training_focus: 
   - helkropsøvelse

@@ -14,7 +14,7 @@ tags:
   - Self Myofascial Release (SMR)
   - foamroller
   - Øvre ryg
-categories:
+categories: []
 training_type: 
   - Self Myofascial Release (SMR)
 training_focus: 
@@ -38,5 +38,3 @@ gallery:
     title: "Foamrolling øvre ryg"
 last_modified_at: 2015-04-10T13:42:22Z
 ---
-
-

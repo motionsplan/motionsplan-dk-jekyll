@@ -10,13 +10,13 @@ tags:
   - kropsstamme
   - måtte
   - mats mejdevi
-categories:
+categories: []
 training_type: 
 training_focus: 
   - kropsstamme
 equipment:
   - måtte
-muscle_group:
+muscle_group: []
 gallery:
 last_modified_at: 2011-10-31T13:16:57Z
 ---

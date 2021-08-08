@@ -22,7 +22,7 @@ training_focus:
 equipment:
   - makker
   - kropsvægt
-muscle_group:
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/trilleboer-0.jpg
     image_path: /assets/images/exercises/trilleboer-0-320.jpg

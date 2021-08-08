@@ -14,14 +14,14 @@ tags:
   - Mobilisering
   - helkropsøvelse
   - kropsvægt
-categories:
+categories: []
 training_type: 
   - Mobilisering
 training_focus: 
   - helkropsøvelse
 equipment:
   - kropsvægt
-muscle_group:
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/skrogretteren-0.jpg
     image_path: /assets/images/exercises/skrogretteren-0-320.jpg
@@ -49,5 +49,3 @@ gallery:
     title: "Skrogretteren"
 last_modified_at: 2016-10-14T08:08:33Z
 ---
-
-

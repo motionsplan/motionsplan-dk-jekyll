@@ -6,12 +6,12 @@ permalink: /oevelse/doedloeft-sumo-med-makker/
 redirect_from: /node/120
 id: 120
 language: da
-tags:
-categories:
-training_type: 
-training_focus: 
-equipment:
-muscle_group:
+tags: []
+categories: []
+training_type: [] 
+training_focus: []
+equipment: []
+muscle_group: []
 gallery:
 last_modified_at: 2009-06-09T09:10:01Z
 ---

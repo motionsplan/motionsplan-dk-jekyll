@@ -12,9 +12,9 @@ header:
   caption: *title
 tags:
   - håndvægte
-categories:
-training_type: 
-training_focus: 
+categories: []
+training_type: [] 
+training_focus: []
 equipment:
   - håndvægte
 muscle_group:

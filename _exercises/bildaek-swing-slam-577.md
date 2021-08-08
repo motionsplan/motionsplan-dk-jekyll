@@ -17,12 +17,12 @@ tags:
   - outdoor
 categories:
   - Helkropsøvelse
-training_type: 
-training_focus: 
+training_type: []
+training_focus: []
 equipment:
   - bildæk
-muscle_group:
-alternative_titles:
+muscle_group: []
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/bildaek-swing-slam-0.jpg
     image_path: /assets/images/exercises/bildaek-swing-slam-0-320.jpg
@@ -42,5 +42,3 @@ gallery:
     title: "Bildæk, swing slam"
 last_modified_at: 2014-10-03T10:57:32Z
 ---
-
-

@@ -14,7 +14,7 @@ tags:
   - Self Myofascial Release (SMR)
   - lacrosse bold
   - Lægge
-categories:
+categories: []
 training_type: 
   - Self Myofascial Release (SMR)
 training_focus: 
@@ -29,5 +29,3 @@ gallery:
     title: "SMR Læg"
 last_modified_at: 2015-04-10T13:44:26Z
 ---
-
-

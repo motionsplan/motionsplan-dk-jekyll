@@ -14,14 +14,14 @@ tags:
   - kropsstamme
   - bænk
   - kropsvægt
-categories:
+categories: []
 training_type: 
 training_focus: 
   - kropsstamme
 equipment:
   - bænk
   - kropsvægt
-muscle_group:
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/lyset-0.jpg
     image_path: /assets/images/exercises/lyset-0-320.jpg

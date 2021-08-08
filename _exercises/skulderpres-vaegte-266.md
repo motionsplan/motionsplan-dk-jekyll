@@ -14,13 +14,13 @@ tags:
   - vægtstang
   - håndvægte
   - fitnessinstruktør
-categories:
-training_type: 
-training_focus: 
+categories: []
+training_type: [] 
+training_focus: []
 equipment:
   - vægtstang
   - håndvægte
-muscle_group:
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/skulderpres-vaegte-0.jpg
     image_path: /assets/images/exercises/skulderpres-vaegte-0-320.jpg

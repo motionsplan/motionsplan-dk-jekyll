@@ -13,9 +13,9 @@ header:
 tags:
   - kabeltræk
   - fitnessinstruktør
-categories:
-training_type: 
-training_focus: 
+categories: []
+training_type: [] 
+training_focus: []
 equipment:
   - kabeltræk
 muscle_group:

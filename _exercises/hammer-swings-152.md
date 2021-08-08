@@ -14,14 +14,14 @@ tags:
   - helkropsøvelse
   - hammer
   - traktordæk
-categories:
+categories: []
 training_type: 
 training_focus: 
   - helkropsøvelse
 equipment:
   - hammer
   - traktordæk
-muscle_group:
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/hammer-swings-0.jpg
     image_path: /assets/images/exercises/hammer-swings-0-320.jpg

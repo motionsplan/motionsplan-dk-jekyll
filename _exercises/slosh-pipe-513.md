@@ -14,13 +14,13 @@ tags:
   - kropsstamme
   - slosh pipe
   - outdoor
-categories:
+categories: []
 training_type: 
 training_focus: 
   - kropsstamme
 equipment:
   - slosh pipe
-muscle_group:
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/slosh-pipe-0.jpg
     image_path: /assets/images/exercises/slosh-pipe-0-320.jpg

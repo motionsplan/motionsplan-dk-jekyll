@@ -15,7 +15,7 @@ tags:
   - Baller
   - Forlår
   - Øvre ryg
-categories:
+categories: []
 training_type: 
   - Strækøvelser
 training_focus: 
@@ -38,5 +38,3 @@ video:
   id: SfGV-65GaPg
 last_modified_at: 2015-04-10T13:53:54Z
 ---
-
-

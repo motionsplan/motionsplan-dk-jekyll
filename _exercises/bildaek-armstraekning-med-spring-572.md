@@ -16,12 +16,12 @@ tags:
   - outdoor
 categories:
   - Hård styrkeøvelse
-training_type: 
-training_focus: 
+training_type: []
+training_focus: []
 equipment:
   - bildæk
-muscle_group:
-alternative_titles:
+muscle_group: []
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/bildaek-armstraekning-med-spring-0.jpg
     image_path: /assets/images/exercises/bildaek-armstraekning-med-spring-0-320.jpg
@@ -41,5 +41,3 @@ gallery:
     title: "Bildæk, armstrækning med spring"
 last_modified_at: 2014-10-03T10:25:57Z
 ---
-
-

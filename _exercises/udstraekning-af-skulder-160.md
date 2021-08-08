@@ -13,13 +13,13 @@ header:
 tags:
   - Parøvelser
   - Strækøvelser
-categories:
+categories: []
 training_type: 
   - Parøvelser
   - Strækøvelser
 training_focus: 
-equipment:
-muscle_group:
+equipment: []
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/udstraekning-af-skulder-0.jpg
     image_path: /assets/images/exercises/udstraekning-af-skulder-0-320.jpg

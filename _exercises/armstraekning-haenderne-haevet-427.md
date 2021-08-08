@@ -19,7 +19,7 @@ tags:
   - Arme
   - Bryst
   - fitnessinstruktør
-categories:
+categories: []
 training_type: 
   - Styrketræning
 training_focus: 

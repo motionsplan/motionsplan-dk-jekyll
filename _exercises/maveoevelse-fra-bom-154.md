@@ -12,12 +12,12 @@ header:
   caption: *title
 tags:
   - bar
-categories:
-training_type: 
-training_focus: 
+categories: []
+training_type: [] 
+training_focus: []
 equipment:
   - bar
-muscle_group:
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/maveoevelse-fra-bom-0.jpg
     image_path: /assets/images/exercises/maveoevelse-fra-bom-0-320.jpg

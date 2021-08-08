@@ -21,7 +21,7 @@ training_focus:
   - hoftedomineret
 equipment:
   - klud
-muscle_group:
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/baglaar-glid-ud-ben-0.jpg
     image_path: /assets/images/exercises/baglaar-glid-ud-ben-0-320.jpg

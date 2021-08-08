@@ -14,10 +14,10 @@ tags:
   - Træk
 categories:
   - Træk
-training_type: 
-training_focus: 
-equipment:
-muscle_group:
+training_type: []
+training_focus: []
+equipment: []
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/pull-med-makkere-0.jpg
     image_path: /assets/images/exercises/pull-med-makkere-0-320.jpg
@@ -29,5 +29,3 @@ gallery:
     title: "Pull up med makkere"
 last_modified_at: 2013-10-21T12:52:27Z
 ---
-
-
