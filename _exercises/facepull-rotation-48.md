@@ -1,7 +1,8 @@
 ---
 title: &title "Facepull: Træk til ansigt med rotation"
-excerpt: "Hold i rebhåndtaget med underhåndsgreb. I god balance trækker du rebet hen mod dit ansigt, mens du holder hovedet og skuldrene i samme position som ved starten."
-instructions: "Hold i rebhåndtaget med underhåndsgreb. I god balance trækker du rebet hen mod dit ansigt, mens du holder hovedet og skuldrene i samme position som ved starten."
+seo_title: "Facepulls: Træk til ansigt med rotation"
+excerpt: "Facepulls udføres ed at holde i rebhåndtaget med overhåndsgreb. I god balance trækker du rebet hen mod dine øjenbryn, mens du holder hovedet og skuldrene i samme position som ved starten."
+instructions: "Hold i rebhåndtaget med overhåndsgreb. I god balance trækker du rebet hen mod din egen pande og så langt tilbage som muligt, mens du holder hovedet og skuldrene i samme position som ved starten."
 permalink: /oevelse/facepull-rotation/
 redirect_from:
   - /oevelse/traek-til-ansigt/
@@ -53,4 +54,16 @@ last_modified_at: 2015-04-02T20:40:05Z
 key: 20201213171600
 ---
 
-I et kabeltræk bruger du et rebhåndtag. Med neutralt greb trækker du vægten hen mod din egen næse.
+Facepulls er en rigtig god øvelse til at træne bagskulderen. Du rammer både bagskulderen, det øverste af ryggen og rotatormanchetten i øvelsen.
+
+Facepulls er en god variant til [rows]({% link _posts/2020-07-06-rows.md %}) og [pullups]({% link _posts/2020-06-30-pullup-chinup.md %}).
+
+## Teknikken i facepulls
+
+**{{ page.instructions }}**
+
+I et kabeltræk bruger du et rebhåndtag. Med neutralt greb trækker du vægten hen mod din egen pande.
+
+Fokus i øvelsen er på at samle skulderbladene og lave en kontrolleret rotation. Det kan forbedre bevægelseskvaliteten, hvis du holder en kort pause i starten og slutningen af bevægelsen.
+
+Hold dine albuer oppe undervejs i bevægelsen og stå i en god balance. Hvis vægten er lidt tungere kan det være lettere at holde balancen, hvis du placerer den ene fod foran den anden fod.

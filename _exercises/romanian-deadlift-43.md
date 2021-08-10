@@ -1,5 +1,5 @@
 ---
-title: &title "Dødløft, Romanian"
+title: &title "Dødløft, Romanian (RDL)"
 excerpt: "Rumænsk dødløft starter oprejst, hvor du holder stangen med cirka skulderafstand mellem hænderne. Stå med benene i skulderbredde. Sænk stangen mod gulvet med så strakte ben som muligt og mens du holder ryggen ret. Når du ikke kan komme længere uden at kompensere i ryggen, rejser du dig igen."
 instructions: "Løftet starter oprejst hvor du holder stangen med cirka skulderafstand mellem hænderne. Stå med benene i skulderbredde. Sænk stangen mod gulvet med så strakte ben som muligt og mens du holder ryggen ret. Når du ikke kan komme længere uden at kompensere i ryggen, rejser du dig igen."
 permalink: /oevelse/romanian-deadlift/
@@ -45,6 +45,9 @@ gallery:
     alt: "Dødløft, Romanian"
     title: "Dødløft, Romanian"
 last_modified_at: 2021-04-10T13:29:44Z
+video:
+  provider: youtube
+  id: rNRKoTNIWAM
 ---
 
 I rumænsk dødløft er fokus på at lære det basale bevægelsesmønster hip hinge. Romanian deadlift skal du bevæge dig i hoften som et hængselled. Tænk på at skubbe hoften bagud og holde ryggen ret.
