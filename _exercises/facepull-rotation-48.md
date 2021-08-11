@@ -67,3 +67,77 @@ I et kabeltræk bruger du et rebhåndtag. Med neutralt greb trækker du vægten 
 Fokus i øvelsen er på at samle skulderbladene og lave en kontrolleret rotation. Det kan forbedre bevægelseskvaliteten, hvis du holder en kort pause i starten og slutningen af bevægelsen.
 
 Hold dine albuer oppe undervejs i bevægelsen og stå i en god balance. Hvis vægten er lidt tungere kan det være lettere at holde balancen, hvis du placerer den ene fod foran den anden fod.
+
+{% comment %}
+http://maxer.dk/videoer/forebyggende-traening-facepull
+øvre ryg øvelser
+50
+9
+2
+kr0
+1
+38
+træning af øvre ryg
+20
+8
+1
+kr0
+6
+39
+træning af øvre ryg med elastik
+20
+13
+1
+kr0
+5
+46
+træning øvre ryg
+20
+8
+1
+kr0
+1
+39
+øvelser for øverste del af ryggen
+20
+11
+1
+kr0
+12
+49
+øvelser for øvre ryg og nakke
+20
+12
+1
+kr0
+1
+52
+deller på ryggen
+70
+27
+0
+kr16,77
+7
+38
+elastik træning ryg
+20
+37
+0
+kr14,49
+100
+38
+hold i ryggen øverste del
+70
+50
+0
+kr0
+1
+22
+løft over hovedhøjde
+30
+96
+0
+kr0
+1
+33
+{% endcomment %}

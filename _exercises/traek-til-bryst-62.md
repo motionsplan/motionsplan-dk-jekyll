@@ -142,3 +142,80 @@ Der findes et hav af forskellige greb, du kan bruge til pulldowns. Det mest typi
 - **Knælende pulldown**. Jeg kan godt lide at lave ting knælende enten med begge knæ i jorden eller et knæ op. Du kan altså sagtens træne pulldowns også uden en pulldown maskine.
 
 Et andet alternativ til at træne nogenlunde det samme er også at lave [kropshævninger, pullups og chinups]({% link _posts/2020-06-30-pullup-chinup.md %}) eller andre [variationer af rows]({% link _posts/2020-07-06-rows.md %}).
+
+{% comment %}
+
+http://maxer.dk/videoer/pulldown-traek-til-bryst
+
+lat pulldown
+1,300
+3
+36
+kr2,81
+98
+62
+pull downs
+480
+18
+4
+kr3,90
+3
+72
+one arm pull down
+20
+14
+1
+kr0
+1
+70
+cable pull down
+140
+72
+0
+kr1,56
+1
+86
+cable pull down triceps
+40
+69
+0
+kr0
+3
+65
+lat machine
+40
+93
+0
+kr2,44
+100
+58
+lat pulldown alternative
+50
+60
+0
+kr0
+39
+38
+lat pushdown
+50
+32
+0
+kr0
+1
+56
+latissimus dorsi smerter
+70
+43
+0
+kr0
+1
+31
+lats pull down machine
+70
+87
+0
+kr3,65
+100
+55
+
+{% endcomment %}

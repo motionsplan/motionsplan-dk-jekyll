@@ -146,3 +146,67 @@ Rack pulls kan også laves med håndvægte eller kettlebells, men her bliver væ
 Tip til dig, der er nybegynder: Rackpulls kan være en sjov erfaring at have med dig. Øvelsen er mindre teknisk krævende og du kan mærke hvor meget vægt din krop er i stand til at løfte. Det er nemlig meget mere end de fleste tror.
 
 </div>
+
+
+{% comment %}
+
+http://maxer.dk/videoer/topstyrke-doedloeft-rackpull
+
+rack deadlift
+30
+9
+2
+kr18,21
+49
+48
+er rack
+30
+13
+1
+kr0
+100
+44
+rack træning
+20
+17
+1
+kr11,56
+100
+34
+block pulls
+30
+37
+0
+kr0
+1
+56
+power rack danmark
+20
+69
+0
+kr7,32
+100
+29
+pull faktorer
+70
+80
+0
+kr0
+1
+45
+rygstrækkere
+110
+93
+0
+kr5,38
+100
+37
+tungt tag vægt
+20
+92
+0
+kr0
+3
+23
+
+{% endcomment %}

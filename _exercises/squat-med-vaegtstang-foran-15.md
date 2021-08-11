@@ -57,3 +57,79 @@ Fødderne placeres i skulderbredde eller bredere med tæerne pegene let udad, s�
 Vægten er fordelt ud over hele foden, og hælene holdes hele tiden i gulvet! Det er vigtigt, at lænden holdes fikseret i et naturligt svaj gennem hele bevægelsen (kosteskaft).
 
 Se i øvrigt beskrivelsen under squat med vægtstangen på nakken.
+
+{% comment %}
+http://maxer.dk/videoer/front-squat
+
+front squat
+880
+1
+420
+kr0
+1
+61
+squat front
+880
+1
+420
+kr0
+1
+64
+front squats
+880
+2
+107
+kr0
+1
+64
+barbell front squat
+30
+13
+1
+kr0
+1
+80
+front barbell squat
+30
+10
+1
+kr0
+1
+61
+front squat alternative
+20
+18
+1
+kr0
+1
+46
+front squat barbell
+30
+11
+1
+kr0
+1
+66
+front squat kettlebell
+20
+11
+1
+kr0
+1
+71
+front squat vs back squat
+70
+16
+1
+kr0
+1
+63
+holde stangen
+70
+12
+1
+kr0
+43
+47
+
+{% endcomment %}

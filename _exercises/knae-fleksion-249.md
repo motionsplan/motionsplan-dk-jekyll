@@ -46,3 +46,80 @@ Dette er en isolationsøvelse der retter sig mod baglåret. Hvis du er interesse
 For at lave knæbøj skal du først indstille maskinen, så omdrejningspunktet i maskinen er ud for dit knæled. Sørg for at knæene er fri af pladen, så du ligger behageligt.
 
 Hvis ikke maskinen passer til dig, skal du vælge en af de alternative øvelser.
+
+{% comment %}
+
+http://maxer.dk/videoer/leg-curl
+
+leg curl
+1,000
+1
+351
+kr6,62
+9
+44
+leg curls
+1,000
+2
+107
+kr3,96
+53
+62
+baglår maskine
+20
+1
+7
+kr0
+82
+31
+leg curl uden maskine
+20
+1
+7
+kr0
+64
+27
+prone leg curl
+50
+3
+4
+kr0
+1
+56
+leg curl machine
+70
+9
+2
+kr9,37
+100
+57
+prone leg curls
+50
+7
+2
+kr0
+1
+52
+curls fitness
+20
+13
+1
+kr0
+17
+49
+curling kost
+20
+60
+0
+kr0
+6
+31
+hamstrings muskler
+50
+29
+0
+kr0
+1
+24
+
+{% endcomment %}

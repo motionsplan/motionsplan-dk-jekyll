@@ -120,3 +120,79 @@ Det er fristende for mange at gå ind i en benpresmaskine og sætte virkelig meg
 ## Referencer til benpres og leg extension
 
 - Silva, Eduardo Da, Michel Brentano, Eduardo Cadore, Ana Paula Viola De Almeida, og Luiz Fernando Martins Kruel. “Analysis of Muscle Activation During Different Leg Press Exercises at Submaximum Effort Levels”. _Journal of Strength and Conditioning Research_ 22, nr. 4 (juli 2008): 1059–65. [https://doi.org/10.1519/JSC.0b013e3181739445](https://doi.org/10.1519/JSC.0b013e3181739445).
+
+{% comment %}
+http://maxer.dk/videoer/leg-extension
+
+leg extensions
+1,300
+1
+569
+kr5,87
+96
+56
+leg extension
+1,300
+1
+439
+kr6,65
+52
+63
+leg extensions alternative
+70
+18
+2
+kr0
+1
+41
+extension dansk
+90
+22
+0
+kr0
+1
+43
+extensions trenser
+70
+48
+0
+kr7,11
+100
+19
+leg ben
+30
+23
+0
+kr0
+1
+38
+leg extension alternative
+70
+32
+0
+kr0
+1
+37
+leg extension muscles worked
+20
+74
+0
+kr0
+1
+78
+leg med ærteposer
+30
+85
+0
+kr0,93
+83
+30
+ærteposer leg
+50
+84
+0
+kr3,44
+100
+36
+
+{% endcomment %}

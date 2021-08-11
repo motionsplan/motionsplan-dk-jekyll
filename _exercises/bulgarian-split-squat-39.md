@@ -45,3 +45,80 @@ last_modified_at: 2012-09-07T09:21:50Z
 ---
 
 Stå med forskudte ben. Den bagerste fod placeres på en bænk eller kasse. (Start med dit svageste ben forrest). Hold håndvægte i hænderne eller kettlebels ved brystet. Sænk kroppen, indtil knæet kommer tæt på gulvet, mens din overkrop er oprejst. Løft dig tilbage til startpositionen og fortsæt til, du har lavet et sæt. Skrift derefter ben.
+
+{% comment %}
+
+http://maxer.dk/videoer/bulgarian-split-squat
+
+split squat
+1,000
+1
+464
+kr0
+1
+58
+split squats
+1,000
+3
+21
+kr0
+1
+55
+bulgarian lunges
+40
+1
+11
+kr0
+1
+76
+db bulgarian split squat
+20
+4
+1
+kr0
+1
+69
+db split squat
+40
+8
+1
+kr0
+1
+75
+et bens squat
+30
+10
+1
+kr0
+1
+31
+ffe split squat
+20
+16
+1
+kr0
+1
+78
+split squat vs lunge
+40
+17
+1
+kr0
+1
+41
+squats muskelgrupper
+40
+11
+1
+kr0
+1
+34
+barbell split squat
+20
+43
+0
+kr0
+1
+74
+
+{% endcomment %}

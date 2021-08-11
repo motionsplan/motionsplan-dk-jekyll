@@ -52,3 +52,78 @@ last_modified_at: 2014-10-13T22:13:12Z
 Placer stangen på skuldrene. Fødderne skal stå med en skulderbreddes afstand. Hold hovedet oppe og ryggen helt rank. Bøj dig forover i hofteleddet til din overkrop er næsten vandret. Skub bagdelen bagud og hold ryggen rank. Fra denne stilling rejser du dig op igen. Der skal stort set ikke være bevægelse i hverken knæ eller rygsøjle.
 
 Variationer: Mere eller mindre strakte knæ.
+
+{% comment %}
+http://maxer.dk/videoer/goodmornings
+
+good morning øvelse
+40
+2
+9
+kr0
+1
+56
+good morning or goodmorning
+90
+12
+1
+kr0
+1
+68
+good morning exercise
+210
+70
+0
+kr0
+1
+65
+good morning good morning
+30
+32
+0
+kr0
+1
+63
+good mornings exercise
+210
+66
+0
+kr0
+1
+61
+good mornings kettlebell
+20
+21
+0
+kr0
+1
+62
+goodmorning good morning
+30
+43
+0
+kr0
+1
+73
+goodmorning or good morning
+90
+38
+0
+kr0
+1
+73
+kettlebell good morning
+20
+45
+0
+kr0
+1
+67
+ondt i ballen når jeg rejser mig
+70
+51
+0
+kr3,09
+5
+36
+{% endcomment %}

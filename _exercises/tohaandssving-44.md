@@ -56,3 +56,79 @@ Hold fast i en kettlebell med begge hænder. Hold ryggen ret gennem hele bevæge
 Ved at strække hoften ud svinger kettlebell fremad og opad. Det er hofteudstrækningen, der skal give vægten fart. Sørg for at skyde brystkassen frem og holde ryggen ret.
 
 Armene fungerer mere som et reb, hvor vægten bare hænger.
+
+{% comment %}
+
+http://maxer.dk/videoer/kettlebell-swing
+
+kettlebells swing
+590
+1
+210
+kr0
+1
+42
+kettlebell swing muskelgrupper
+40
+1
+17
+kr0
+3
+42
+kb swings
+110
+3
+7
+kr0
+1
+64
+kettlebell russian swing
+50
+3
+3
+kr0
+1
+56
+american swings
+30
+9
+2
+kr0
+1
+64
+kettlebell swing muskler
+30
+1
+2
+kr0
+1
+33
+brugte kettlebells
+70
+13
+1
+kr4,79
+100
+41
+kb russian swings
+30
+10
+1
+kr0
+1
+57
+kettlebell øvelser arme
+20
+14
+1
+kr0
+69
+41
+russian kettlebell swing
+50
+10
+1
+kr0
+1
+55
+{% endcomment %}

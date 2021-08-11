@@ -85,3 +85,79 @@ Du kan variere bevægelsen i bent over rows på lidt forskellige måder, men her
 Hvis du gerne vil have lidt mere fokus på biceps i øvelsen, så kan du lave variationen **Yates rows**, hvor du trækker med underhåndsgreb (supineret hånd). Når du har et underhåndsgreb, så er biceps i en bedre position til at hjælpe med at bøje armene.
 
 For at få mere fokus på skulderbladets bevægelse og musklerne omkring skulderbladet, så tænk på at samle skulderbladene, mens du løfter vægten og hold dem samlede et sekund inden du sænker vægten igen.
+
+{% comment %}
+
+http://maxer.dk/videoer/rows
+
+rows
+1,600
+1
+652
+kr0,25
+4
+42
+barbell row
+1,000
+8
+60
+kr0
+1
+55
+barbell rows
+1,000
+8
+58
+kr0
+1
+52
+rows øvelse
+110
+1
+53
+kr0
+1
+35
+bent over row
+1,900
+3
+48
+kr0
+1
+57
+bent over barbell rows
+720
+2
+41
+kr0
+1
+55
+rows træning
+50
+1
+23
+kr0
+1
+43
+bend over rows
+1,600
+4
+21
+kr0
+1
+51
+row træning
+50
+1
+19
+kr0
+3
+29
+rows med håndvægte
+40
+1
+17
+kr0
+1
+53
+{% endcomment %}

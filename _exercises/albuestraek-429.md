@@ -50,3 +50,79 @@ Placer håndvægten i den ene hånd og stræk armen opad.
 Man vælger en håndvægt med passende vægt, som man tager i hånden. Herefter strækker man armen over hovedet. Nu bøjes albuen så hånden føres nedad, og håndvægten går mod skulderen. Man skal så langt ned med håndvægten som smidigheden tillader. Herefter strækkes albuen, indtil du tilbage til start positionen.
 
 Hvis du er på udkig efter [fransk pres eller skull crushers, så se her]({% link _exercises/triceps-fransk-pres-262.md %}).
+
+{% comment %}
+
+http://maxer.dk/videoer/triceps-extension
+
+tricep extensions
+720
+1
+309
+kr0
+1
+64
+triceps press
+70
+1
+34
+kr0
+1
+54
+triceps pres
+70
+2
+9
+kr0
+1
+34
+tricep curl
+90
+4
+6
+kr0
+1
+60
+tricep extension
+720
+6
+6
+kr0
+1
+76
+tricep dumbbell extension
+110
+5
+5
+kr0
+1
+64
+triceps curl
+90
+6
+3
+kr0
+1
+69
+triceps exercises
+1,300
+19
+3
+kr0
+1
+73
+triceps curls
+90
+7
+2
+kr0
+1
+68
+dumbbell triceps extensions
+110
+6
+1
+kr0
+1
+73
+{% endcomment %}
