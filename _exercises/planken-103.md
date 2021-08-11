@@ -80,7 +80,7 @@ Når verdensrekorden i øjeblikket er på 8 timer, 1 minuter og 1 sekund, så ha
 
 ## Variationer af planken
 
-<div class="hidden">
+{% comment %}
 
 TAG PLANKEN TIL NÆSTE NIVEAU
 Der er mange måder at gøre planken sværere på - eksempelvis ved at tilføje vægt på ryggen eller skabe noget ustabilitet eksempelvis ved at have underarmene på en bold.
@@ -105,13 +105,13 @@ Dynamisk sideplanke: Du kan lave en sideplanke dynamisk (med bevægelse) på man
 
 Planke til sideplanke: En sidste variation er at kontinuerlig ændre position fra almindelig planke til sideplanke. Begynd med den almindelig planke, men med armene og hænderne pegende ind mod hinanden (ikke lige frem). For at komme op i en sideplanke spænder du op i maven og vender dig til siden indtil du ligger på siden på én albue. Derefter bevæger du dig tilbage til startpositionen, for så at lave sideplanken til den anden side.
 
-</div>
+{% endcomment %}
 
 ***
 
 Derfor kan man kigge på min yndlingsvariation af planken **RKC**-planken.
 
-Planken bør være en intens kontraktion af hele kroppen, som du kan holde i 8-10 sekunder. Med få, veltilrettelagte justeringer kan planken være med til at være fundamentet for at løfte mere - og måske også øge fleksibiliteten i hofterne og skuldrene.
+RKC-planken bør være en intens kontraktion af hele kroppen, som du kan holde i 8-10 sekunder. Med få, veltilrettelagte justeringer kan planken være med til at være fundamentet for at løfte mere - og måske også øge fleksibiliteten i hofterne og skuldrene.
 
 Hvis man håndterer planken som en position, man skal holde så længe som muligt, vil kroppen ofte forsøge at kompensere lidt, så de muskler vi gerne vil træne med planken skånes lidt. Typiske fejl vil være at numsen stritter eller at ryggen krummer.
 

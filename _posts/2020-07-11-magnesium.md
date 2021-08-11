@@ -34,9 +34,9 @@ Men hvorfor er magnesium så vigtigt? Hvad bidrager mineralet egentligt til?
 
 Det kan du læse meget mere om herunder, hvor jeg også konkluderer, at magnesium ikke er det første [kosttilskud, du skal overveje]({% link _posts/2020-08-11-kosttilskud.md %}).
 
-<div class="hidden">
+{% comment %}
 **Nøgleord**: magnesium piller, magnesium tilskud, magnesium bivirkninger, magnesium muskelkramper, magnesium muskelafslappende, hvilkem magnesium virker bedst?
-</div>
+{% endcomment %}
 
 ## Hvad er magnesium?
 
