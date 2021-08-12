@@ -81,7 +81,7 @@ Se vores artikler om træningslære:
 
 Jeg har samlet alle øvelserne, der bruges i forbindelse med Fitnessinstruktør. Det giver et samlet overblik over træningsøvelserne, som du skal kunne undervise i, når du gerne vil være Fitnessinstruktør.
 
-[Se alle øvelserne til fitnessinstruktør](/fitness/oevelse/).
+[Se alle øvelserne til fitnessinstruktør](/fitness/ovelser/).
 
 ## Programlægning
 

@@ -1,6 +1,6 @@
 ---
 title: &title "Rackpull"
-instructions: "Start med stangen ved knæene og bøj dig forover uden at bøje alt for meget i knæene. Hold ved stangen i skulderbredde og med modsatrettede hænder. Rejs dig ved at strække i hoften. Træner øverste del af dødløftet."
+instructions: "Start med stangen ved knæene og bøj dig forover uden at bøje alt for meget i knæene. Hold ved stangen i skulderbredde. Rejs dig ved at strække i hoften. Træner øverste del af dødløftet."
 permalink: /oevelse/rackpull-0/
 redirect_from: /node/268
 id: 268
@@ -46,13 +46,13 @@ video:
   id: 7Lts_ikaLNI
 ---
 
-I rackpull starter stangen ved knæene og du bøjer dig forover uden at bøje alt for meget i knæene. Hold ved stangen i skulderbredde og med modsatrettede hænder. Rejs dig ved at strække i hoften. Træner øverste del af dødløftet.
+I rackpull starter stangen ved knæene og du bøjer dig forover uden at bøje alt for meget i knæene. Hold ved stangen i skulderbredde. Rejs dig ved at strække i hoften. Træner øverste del af dødløftet.
 
 Rack pull træner den øverste fase af dødløft. Stangen starter ved knæene i stedet for på gulvet.
 
 **Fordele** ved rackpulls er, at de styrker ballemusklerne, baglårene, kropsstammen, øvre ryg og grebsstyrken. Rack pulls er særligt god til at opbygge musklerne i den øvre ryg.
 
-<div class="hidden">
+{% comment %}
 
 - **Deadlift Substitute.** If your lower back keeps rounding on Deadlifts, you could do Rack Pulls while working on [hip mobility](http://stronglifts.com/7-dynamic-stretches-to-improve-your-hip-mobility/).
 - **Overload.** Depending on the height at which you start and your sticky point, Rack Pull can let you hande heavier weights than Deadlifts.
@@ -145,7 +145,7 @@ Rack pulls kan også laves med håndvægte eller kettlebells, men her bliver væ
 
 Tip til dig, der er nybegynder: Rackpulls kan være en sjov erfaring at have med dig. Øvelsen er mindre teknisk krævende og du kan mærke hvor meget vægt din krop er i stand til at løfte. Det er nemlig meget mere end de fleste tror.
 
-</div>
+{% endcomment %}
 
 
 {% comment %}
@@ -153,60 +153,12 @@ Tip til dig, der er nybegynder: Rackpulls kan være en sjov erfaring at have med
 http://maxer.dk/videoer/topstyrke-doedloeft-rackpull
 
 rack deadlift
-30
-9
-2
-kr18,21
-49
-48
 er rack
-30
-13
-1
-kr0
-100
-44
 rack træning
-20
-17
-1
-kr11,56
-100
-34
 block pulls
-30
-37
-0
-kr0
-1
-56
 power rack danmark
-20
-69
-0
-kr7,32
-100
-29
 pull faktorer
-70
-80
-0
-kr0
-1
-45
 rygstrækkere
-110
-93
-0
-kr5,38
-100
-37
 tungt tag vægt
-20
-92
-0
-kr0
-3
-23
 
 {% endcomment %}
