@@ -12,12 +12,12 @@ header:
   caption: *title
 tags:
   - vægtstang
-categories:
-training_type: 
-training_focus: 
+categories: []
+training_type: [] 
+training_focus: []
 equipment:
   - vægtstang
-muscle_group:
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/cuban-press-0-0.jpg
     image_path: /assets/images/exercises/cuban-press-0-0-320.jpg

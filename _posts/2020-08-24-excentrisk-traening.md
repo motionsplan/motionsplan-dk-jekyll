@@ -10,9 +10,10 @@ header:
 category:
   - Styrketræning
 tags:
-  - bevægelsesanalyse
-  - anatomi
+  - træning
   - excentrisk træning
+  - styrketræning
+  - skadesforebyggelse
 ---
 
 Jeg har researchet lidt på hvad excentrisk træning er, hvordan man kan bruge excentriske træning, og hvad man får ud af at lægge mere vægt på den excentriske fase i sine løft.

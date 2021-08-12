@@ -12,13 +12,13 @@
 #    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=9397
 #    btn_label: "Besøg BilligSport24*"
 #    btn_class: "btn--danger"
-#  - image_path: /assets/images/logo/bodylab.png
-#    alt: "Bodylab"
-#    title: "Bodylab"
-#    excerpt: "Bodylab er Dks største producent og af sportsprodukter, proteinpulver, kreatin og andre kosttilskud. Via Bodylab.dk handler kunderne direkte med fabrikken udenom fordyrende mellemled."
-#    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522
-#    btn_label: "Besøg Bodylab*"
-#    btn_class: "btn--info"
+- image_path: /assets/images/logo/bodylab.png
+  alt: "Bodylab"
+  title: "Bodylab"
+  excerpt: "Bodylab er Dks største producent og af sportsprodukter, proteinpulver, kreatin og andre kosttilskud. Via Bodylab.dk handler kunderne direkte med fabrikken udenom fordyrende mellemled."
+  url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522
+  btn_label: "Besøg Bodylab*"
+  btn_class: "btn--info"
 - image_path: /assets/images/logo/denintelligentekrop.png
   alt: "Den Intelligente Krop"
   title: "Den Intelligente Krop"

@@ -3,7 +3,7 @@ layout: single
 title: &title "Skeletmuskler: Muskler, muskelgrupper og muskeloversigt 💪"
 excerpt: "Skeletmuskler bevæger kroppen. Jeg har lavet en oversigt over muskler, muskelgrupper og muskel anatomi, hvor du kan se navne på kroppens muskler på latin og dansk."
 permalink: /muskler/
-last_modified_at: 2021-03-28T20:14:14Z
+last_modified_at: 2021-07-28T20:14:14Z
 header:
   overlay_image: https://images.unsplash.com/photo-1539814858141-928517f6afd3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=60
   teaser: https://images.unsplash.com/photo-1539814858141-928517f6afd3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60
@@ -31,6 +31,10 @@ Musklerne er altså en del af en funktionel enhed sammen med [led](/led/) og [kn
 Der er aktivitet i begge muskler. Agonisten har mest aktivitet til at udføre bevægelsen, men antagonisten er med til at stabilisere leddet, så den er også aktiv.
 
 {% include gallery id="feature_row" caption="Se flere [anatomiplakater med skeletter og muskler hos plakaterne.dk](https://www.plakaterne.dk/anatomi-anatomiplakater-muskler-skeletter/)." %}
+
+## Hvad er skeletmuskler?
+
+Skeletmuskler er de muskler, der skaber bevægelse af kroppen. Skeletmusklerne kaldes også for ”den tværstribede skeletmuskulatur”.
 
 ## Skeletmusklernes opdeling
 
@@ -62,6 +66,26 @@ Du kan se de øvrige vigtige muskler for træning i figuren ovenfor:
 I denne tabel over muskler kan du se en oversigt over muskler i ben, arme, skuldre og kropsstammen. Jeg har også lavet en oversigt over [musklerne sorteret efter led i kroppen]({% link _pages/anatomy/joints.md %}).
 
 {% include table-muscles.html %}
+
+## Benmuskler
+
+Jeg har samlet en liste over muskler i dine ben her. Det er godt at vide, hvordan dine benmuskler virker, hvis du gerne vil træne musklerne i benet.
+
+Læs mere om [benmuskler]({% link _posts/2021-03-30-benmuskler.md %}).
+
+## Rygmuskler
+
+Jeg har samlet en liste over muskler i din ryg her. Det er godt at vide, hvordan dine rygmuskler virker, hvis du gerne vil træne musklerne i ryggen.
+
+Nogle af de populære muskler til at træne ryggen er [rygøvelserne pullup og chinups]({% link _posts/2020-06-30-pullup-chinup.md %}) og [de mange rows og variationer]({% link _posts/2020-07-06-rows.md %}).
+
+Læs mere om [rygmusklerne her]({% link _posts/2021-03-30-rygmuskler.md %}).
+
+## Armmuskler
+
+Jeg har samlet en liste over muskler i dine arme her. Det er godt at vide, hvordan dine armmuskler virker, hvis du gerne vil træne musklerne i armene.
+
+Læs mere om [armmuskler]({% link _posts/2021-03-30-armmuskler.md %}).
 
 ## Artikler om muskler
 

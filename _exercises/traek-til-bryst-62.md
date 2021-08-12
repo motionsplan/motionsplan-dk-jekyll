@@ -20,7 +20,7 @@ tags:
   - Skuldre
   - Øvre ryg
   - fitnessinstruktør
-categories:
+categories: []
 training_type: 
   - Styrketræning
 training_focus: 

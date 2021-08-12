@@ -12,12 +12,12 @@ header:
   caption: *title
 tags:
   - clubbell
-categories:
-training_type: 
-training_focus: 
+categories: []
+training_type: [] 
+training_focus: []
 equipment:
   - clubbell
-muscle_group:
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/clubbell-rundt-om-hovedet-til-balance-0.jpg
     image_path: /assets/images/exercises/clubbell-rundt-om-hovedet-til-balance-0-320.jpg

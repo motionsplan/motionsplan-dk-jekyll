@@ -9,6 +9,7 @@ header:
 tags:
   - styrketræning
   - kettlebell
+  - udstyr
 category:
   - Styrketræning
 last_modified_at: 2015-03-09T15:37:15Z

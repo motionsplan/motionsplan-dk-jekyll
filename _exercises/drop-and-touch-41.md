@@ -14,8 +14,8 @@ tags:
   - Koordination og balance
 categories:
   - Koordination og balance
-training_type: 
-training_focus: 
+training_type: []
+training_focus: []
 equipment:
 muscle_group:
 alternative_titles:

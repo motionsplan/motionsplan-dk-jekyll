@@ -12,6 +12,13 @@ header:
 author_profile: true
 author: lsolesen
 toc: true
+feature_row_strength:
+  - image_path: https://reponestrength.com/img/price-device.png
+    url: https://repone-strength.myshopify.com/lars-olesen
+    title: "Repone"
+    excerpt: "RepOne er opfølgeren til Open Barbell. RepOne fungerer ved at spænde en snor på stangen med en lille magnet. Formålet med RepOne er at have et prisleje, hvor den almindelige forbruger kan være med."
+    btn_class: "btn--info"
+    rel: sponsored nofollow noopener
 ---
 
 Jeg har samlet alle artiklerne om styrketræning her på siden. Der er både beregnere til styrketræning og dybdegående artikler om, hvordan du får noget ud af din styrketræning.
@@ -20,11 +27,21 @@ Jeg har samlet alle artiklerne om styrketræning her på siden. Der er både ber
 
 Styrketræning er en fællesbetegnelse for en række fysiske øvelser, som bruges til at styrke udøverens muskler. Formålet med styrketræning kan både være at blive stærkere eller få større muskler.
 
-{% comment %}
-
 ## Styrketræning begynder
 
-{% endcomment %}
+Styrketræning kan være en rigtig god træningsaktivitet. Vi har skrevet en del indlæg, der henvender sig til begyndere i styrketræning.
+
+{% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "begynder" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
 
 ## Styrketræning øvelser
 
@@ -34,15 +51,49 @@ Du kan finde [maveøvelser]({% link _pages/exercises-tag-abs.md %}), [armøvelse
 
 Du kan naturligvis også dykke ned i [oversigten over alle vores træningsøvelser](/traeningsoevelser/).
 
-{% comment %}
-
 ## Styrketræning program og træningsprogram
 
-**gratis træningsprogram til styrketræning**
+Vi har skrevet en del om styrketræningsprogrammer. Du kan let finde et **gratis træningsprogram til styrketræning** her på siden. Tjek også alle [træningsprogrammer](/traeningsprogrammer/).
+
+{% assign site_posts = site.posts | where: "tags", "styrketræning" | where: "tags", "træningsprogram" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
+## Styrketræning programlægning
+
+{% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "programlægning" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
 
 ## Styrketræning for løbere
 
-{% endcomment %}
+{% assign site_posts = site.posts | where: "tags", "styrketræning" | where: "tags", "løb" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
 
 ## Beregnere til styrketræning
 
@@ -57,6 +108,24 @@ Du kan naturligvis også dykke ned i [oversigten over alle vores træningsøvels
 {% endif %}
 
 </div>
+
+## Udstyr til styrketræning
+
+{% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "udstyr" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
+Jeg bruger selv RepOne til at lave [velocity based training]({% link _posts/2020-07-12-vbt.md %}). Jeg synes det er en rigtig interessant måde at måle min træningsintensitet og træningsfremgang på.
+
+{% include feature_row type="left" id="feature_row_strength" %}
 
 ## Alle indlæg om styrketræning
 

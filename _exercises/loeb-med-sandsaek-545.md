@@ -16,10 +16,10 @@ tags:
   - Kondition og puls
 categories:
   - Kondition og puls
-training_type: 
-training_focus: 
-equipment:
-muscle_group:
+training_type: []
+training_focus: []
+equipment: []
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/loeb-med-sandsaek-0.jpg
     image_path: /assets/images/exercises/loeb-med-sandsaek-0-320.jpg

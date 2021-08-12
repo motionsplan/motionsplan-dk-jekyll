@@ -13,7 +13,7 @@ header:
 tags:
   - kropsstamme
   - hjul
-categories:
+categories: []
 training_type: 
 training_focus: 
   - kropsstamme

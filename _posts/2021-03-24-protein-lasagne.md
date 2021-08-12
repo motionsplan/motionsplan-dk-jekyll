@@ -11,6 +11,7 @@ category:
   - Ernæring
 tags:
   - opskrift
+  - kost
 last_modified_at: 2021-03-24T23:14:14Z
 toc: true
 author: simon.glue

@@ -13,7 +13,7 @@ header:
 tags:
   - helkropsøvelse
   - traktordæk
-categories:
+categories: []
 training_type: 
 training_focus: 
   - helkropsøvelse

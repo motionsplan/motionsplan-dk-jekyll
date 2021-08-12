@@ -14,7 +14,7 @@ ads: true
 future: false
 
 # Site Settings
-email                    : "lsolesen@gmail.com"
+email                    : "lars@motionsplan.dk"
 locale                   : "da"
 title                    : "Motionsplan"
 title_separator          : false # '-' # false # ""

@@ -431,6 +431,24 @@ $(document).ready(function() {
         let km = steps * step_length / 100000;
         $("#step_to_km_km").val(km);
     });
+    $("#calculator_kj_kcal").submit(function(e) {
+        console.log("kj to kcal");
+        e.preventDefault();
+
+        let kj = Number($("[name='kj']").val());
+
+        let kcal = kj * 4.184;
+        $("[name='kcal']").val(kcal.toFixed(0));
+    });
+    $("#calculator_kcal_kj").submit(function(e) {
+        console.log("kcal to kj");
+        e.preventDefault();
+
+        let kcal = Number($("[name='kcal']").val());
+
+        let kj = kcal / 4.184;
+        $("[name='kj']").val(kj.toFixed(0));
+    });
     // Udregn Billat
     $("#calculator_billat").submit(function(e) {
         console.log("Billat");

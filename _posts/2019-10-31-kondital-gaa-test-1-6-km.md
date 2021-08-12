@@ -13,6 +13,7 @@ tags:
   - konditionstest
   - gang
   - gåtest
+  - gangtest
   - submaksimal test
   - indirekte test
   - test

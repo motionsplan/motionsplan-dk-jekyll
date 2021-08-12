@@ -12,12 +12,12 @@ header:
   caption: Udstrækning af forlår stående. Photo by Alora Griffiths on Unsplash.
 tags:
   - Strækøvelser
-categories:
+categories: []
 training_type: 
   - Strækøvelser
 training_focus: 
-equipment:
-muscle_group:
+equipment: []
+muscle_group: []
 gallery:
   - url: https://images.unsplash.com/photo-1532383192429-7f602da670a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=60
     image_path: https://images.unsplash.com/photo-1532383192429-7f602da670a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=320&q=60

@@ -12,12 +12,12 @@ header:
   caption: *title
 tags:
   - Kondition
-categories:
+categories: []
 training_type: 
   - Kondition
 training_focus: 
-equipment:
-muscle_group:
+equipment: []
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/loeb-0.jpg
     image_path: /assets/images/exercises/loeb-0-320.jpg

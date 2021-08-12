@@ -15,13 +15,13 @@ tags:
   - fitnessinstruktør
   - kropsvægt
   - crossfit
-categories:
-training_type: 
-training_focus: 
+categories: []
+training_type: [] 
+training_focus: []
 equipment:
   - bar
   - kropsvægt
-muscle_group:
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/pullup-0.jpg
     image_path: /assets/images/exercises/pullup-0-320.jpg

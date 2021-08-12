@@ -15,6 +15,8 @@ tags:
   - løbeprogram
   - træningsprogram
   - løbetræning
+  - begynder
+  - løb
 last_modified_at: 2021-03-29T20:14:14Z
 toc: true
 feature_row_program:

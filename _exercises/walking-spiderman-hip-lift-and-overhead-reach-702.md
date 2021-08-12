@@ -15,7 +15,7 @@ tags:
   - Strækøvelser
   - helkropsøvelse
   - kropsvægt
-categories:
+categories: []
 training_type: 
   - Mobilisering
   - Strækøvelser
@@ -23,7 +23,7 @@ training_focus:
   - helkropsøvelse
 equipment:
   - kropsvægt
-muscle_group:
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/walking-spiderman-hip-lift-and-overhead-reach-0.jpg
     image_path: /assets/images/exercises/walking-spiderman-hip-lift-and-overhead-reach-0-320.jpg
@@ -34,5 +34,3 @@ video:
   id: W50Jsyc80SA
 last_modified_at: 2016-10-14T11:41:54Z
 ---
-
-

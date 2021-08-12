@@ -24,6 +24,7 @@ tags:
   - repetition maximum
   - test
   - træningsplanlægning
+  - beregner
 last_modified_at: 2021-05-12T07:14:14Z
 toc: true
 classes: wide

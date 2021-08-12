@@ -12,6 +12,7 @@ category:
   - Anatomi
 tags:
   - muskler
+  - anatomi
 ---
 
 Her finder du (endelig) svaret på, hvor mange muskler mennesker har i kroppen. Desværre er det ikke så lige til at besvare nøjagtigt.

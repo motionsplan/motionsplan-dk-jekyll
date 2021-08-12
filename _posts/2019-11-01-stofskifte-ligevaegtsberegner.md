@@ -16,12 +16,20 @@ tags:
   - stofskifte
   - ligevægtsindtag
   - ligevægtsberegner
+  - featured
+  - kalorieberegner
+  - beregner
 last_modified_at: 2020-12-06T23:14:14Z
 toc: true
 keywords:
   - ligevægtsindtag
   - beregn ligevægtsindtag
   - ligevægtsindtag beregner
+faq:
+  - question: "Hvad er mit ligevægtsindtag?"
+    answer: "Ligevægtsindtaget er den mængde energi, du skal indtage gennem kosten i løbet af en dag, for at modsvare hvor meget energi du bruger på en dag. Det kan du udregne i en ligevægtsberegner, som den du kan finde her på siden."
+  - question: "Hvordan beregner man sin ligevægtsindtag?"
+    answer: "Du kan bruge forskellige formler til at lave en udregning af dit ligevægtsindtag. Alle formler bygger på generelle antagelser om, hvor meget aktivitetsniveauet betyder for din forbrænding og gennemsnitlige værdier for den enkelte. Du kan lave en udregning her ud fra anbefalingerne fra Nordic Nutrition Recommendations (2012)."
 ---
 
 Jeg har lavet en beregner til at udregne dit ligevægtsindtag. Vores ligevægtsberegner kan hjælpe dig med at sikre dig de bedste resultater med din træning uanset om træningens formål er at tage på i vægt, holde vægten eller du gerne vil opnå et vægttab.
@@ -101,3 +109,7 @@ Nu kender du dit omtrentlige ligevægtsindtag. Som du kan se så er den største
 ## Andre beregnere til ligevægtsindtag
 
 Hvis du vil læse mere om at [udregne hvilestofskiftet og basalstofskiftet, kan du besøge vores BMR-beregner]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}). Hvis du vil læse mere om udregning af [samlet dagligt energiforbrug og energibehov]({% link _posts/2019-11-01-stofskifteberegner-nordic-2012.md %}) eller besøge en [avanceret beregner med en mere præcis aktivitetsregistrering]({% link _posts/2019-11-01-stofskifteberegner-avanceret.md %}).
+
+## Ofte stillede spørgsmål om ligevægtsberegnere
+
+{% include faq.html %}

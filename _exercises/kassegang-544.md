@@ -14,10 +14,10 @@ tags:
   - Koordination og balance
 categories:
   - Koordination og balance
-training_type: 
-training_focus: 
-equipment:
-muscle_group:
+training_type: []
+training_focus: []
+equipment: []
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/kassegang-0.jpg
     image_path: /assets/images/exercises/kassegang-0-320.jpg
@@ -37,5 +37,3 @@ gallery:
     title: "Kassegang "
 last_modified_at: 2013-10-21T08:31:15Z
 ---
-
-

@@ -10,6 +10,7 @@ backend:
   auth_endpoint: auth
   cms_label_prefix: netlify-cms/
   open_authoring: true
+  squash_merges: true
 
 media_folder: "assets/images/uploads" # Media files will be stored in the repo under images/uploads
 
@@ -54,8 +55,8 @@ collections:
     sortable_fields: ['title', 'author', 'last_updated_on', 'commit_date']
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Permalink", name: "permalink", widget: "string", required: false}
       - {label: "SEO Title", name: "seo_title", widget: "string", required: false}
+      - {label: "Permalink", name: "permalink", widget: "string", required: false}
       - {label: "SEO Beskrivelse", name: "description", widget: "text",  required: false}
       - {label: "Excerpt", name: "excerpt", widget: "text",  required: false}
       - label: Header
@@ -172,8 +173,8 @@ collections:
     sortable_fields: ['title', 'author', 'last_updated_on', 'commit_date']
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Permalink", name: "permalink", widget: "string", required: false}
       - {label: "SEO Title", name: "seo_title", widget: "string", required: false}
+      - {label: "Permalink", name: "permalink", widget: "string", required: false}
       - {label: "SEO Beskrivelse", name: "description", widget: "text",  required: false}
       - {label: "Excerpt", name: "excerpt", widget: "text",  required: false}
       - label: Header
@@ -234,10 +235,15 @@ collections:
         field: categories
       - label: Muskelgruppe
         field: muscle_group
+    view_filters:
+      - label: Fitnessinstruktør
+        field: tags
+        # groups items based on the value matched by the pattern
+        pattern: "fitnessinstruktør"
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Permalink", name: "permalink", widget: "string", required: false}
       - {label: "SEO Title", name: "seo_title", widget: "string", required: false}
+      - {label: "Permalink", name: "permalink", widget: "string", required: false}
       - {label: "SEO Beskrivelse", name: "description", widget: "text",  required: false}
       - {label: "Excerpt", name: "excerpt", widget: "text",  required: false}
       - {label: "Instructions", name: "instructions", widget: "text",  required: true, collapsed: true}
@@ -294,6 +300,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "SEO Title", name: "seo_title", widget: "string", required: false}
+      - {label: "Permalink", name: "permalink", widget: "string", required: false}
       - {label: "SEO Beskrivelse", name: "description", widget: "text",  required: false, collapsed: true}
       - {label: "Excerpt", name: "excerpt", widget: "text",  required: false, collapsed: true}
       - label: "Name"

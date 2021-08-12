@@ -20,7 +20,7 @@ tags:
   - vægtskive
   - Core
   - Mave
-categories:
+categories: []
 training_type: 
   - Styrketræning
 training_focus: 
@@ -51,5 +51,3 @@ gallery:
     title: "Russian twist med vægt "
 last_modified_at: 2014-10-12T21:46:35Z
 ---
-
-

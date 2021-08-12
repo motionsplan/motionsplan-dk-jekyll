@@ -9,14 +9,13 @@ language: da
 header:
   overlay_image: /assets/images/exercises/tuck-jumps-0.jpg
   teaser: /assets/images/exercises/tuck-jumps-0-320.jpg
-  caption: Tuck jumps
   caption: *title
 tags:
   - Kondition og puls
 categories:
   - Kondition og puls
-training_type: 
-training_focus: 
+training_type: []
+training_focus: []
 equipment:
 muscle_group:
 alternative_titles:
@@ -39,5 +38,3 @@ video:
   id: r7oBejx1PHM
   provider: youtube
 ---
-
-

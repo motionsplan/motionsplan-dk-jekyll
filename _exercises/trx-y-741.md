@@ -12,7 +12,7 @@ tags:
   - trx
   - Skuldre
   - Øvre ryg
-categories:
+categories: []
 training_type: 
   - Balance
 training_focus: 
@@ -29,5 +29,3 @@ video:
   id: YbqcB5dBBD0
 last_modified_at: 2016-11-01T08:34:31Z
 ---
-
-

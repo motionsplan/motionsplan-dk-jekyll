@@ -51,7 +51,7 @@ Jeg er lige gået i gang med at køre Zwift på hometrainer, så jeg har skrevet
 
 Zwift er en meget populær app, når du flytter cykeltræningen indendørs. Det er en inspirerende måde at træne på afstand sammen med andre, når vejret og pandemier ikke tillader træning og cykelløb udenfor.
 
-Min motivation for træning på min indendørs cykel har i hvert fald været noget højere de seneste uger efter jeg fik øjnene op for Zwift. Men der er lige nogle ting, du skal vide inden du kan komme i gang med Zwift.
+Min motivation for træning på min indendørs cykel har i hvert fald været noget højere de seneste uger efter jeg fik øjnene op for Zwift. Men der er lige nogle ting, du skal vide inden du kan komme i gang med at køre på din hometrainer, mens du følger dig selv og din avatar på skærmen.
 
 I denne guide kan du få svar på:
 
@@ -67,7 +67,7 @@ Lad os dykke ned i begynderguiden til Zwift.
 
 Zwift er et spil du kan bruge sammen med din _hometrainer_ til cykling eller _watt-måler_ til løb. Zwift er mest kendt for at være en platform for cykelryttere. Zwift giver dig mulighed for at linke din _hometrainer_: op til din computer, iPad, iPhone, Apple TV, Android devide, så du kan køre med andre cykelryttere i et virtuelt miljø. Du kan både træne i Zwift og køre løb mod andre i den virtuelle Zwift-verden.
 
-Ud over at konkurrere mod andre cykelryttere i Zwift-cykelløb kan du også lægge hele din træning ind i Zwift. Selvom træningsplanlægning altid bør være individuel, er det nu meget motiverende at vide at træningsprogrammerne i Zwift er designet af professionelle trænere, men du kan også sagtens lægge din egen træning ind i Zwift. Du kan fx lave træning baseret på absolutte watt-tal eller som procent af din functional threshold power (FTP).
+Ud over at konkurrere mod andre cykelryttere i Zwift-cykelløb kan du også lægge hele din træning ind i Zwift. Selvom træningsplanlægning altid bør være individuel, er det nu meget motiverende at vide at træningsprogrammerne i Zwift er designet af professionelle trænere, men du kan også sagtens lægge din egen træning ind i programmet. Du kan fx lave træning baseret på absolutte watt-tal eller som procent af din functional threshold power (FTP).
 
 I Zwift kan du mødes med andre af dine venner og træne, og du har mulgihed for at køre sammen, selvom du ikke træder helt de samme watt, fx når I laver træning sammen. Det er en ret genial feature ved Zwift.
 
@@ -75,7 +75,7 @@ I Zwift kan du mødes med andre af dine venner og træne, og du har mulgihed for
 
 Zwift er et rigtig godt alternativ til cykling udenfor. Hvis vejret er dårligt, trafikken forfærdelig, du har begrænset tid eller bor langt væk fra andre cykelryttere, du kan træne sammen med. Der er ikke langt til de andre cyklister i Zwift. Jeg ved, at hvis det er koldt og vådt udenfor, så trækker oplevelsen for mig selv på Zwift i hvert fald mere.
 
-Når du kører Zwift, så kan du køre i en række forskellige verdener, hvor der er forskellige ruter. Fx er der Watopia, New York og London, og du kan også finde nogle af de tidligere VM-ruter. Swift kan også fobrinde til Strava, så du har al din træning samlet.
+Når du kører Zwift, så kan du køre i en række forskellige verdener, hvor der er forskellige virtuelle cykelruter. Når du nu ikke kan vælge [cykelruter i virkeligheden](https://www.cykel-ruter.dk/cykelruter-danmark/), så er det motiverende at køre i Watopia, New York og London, og du kan også finde nogle af de tidligere VM-ruter. Swift kan også forbinde til Strava, så du har al din træning samlet.
 
 ## Er Zwift gratis?
 

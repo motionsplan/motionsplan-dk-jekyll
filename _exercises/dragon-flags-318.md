@@ -10,14 +10,14 @@ tags:
   - kropsstamme
   - bænk
   - kropsvægt
-categories:
+categories: []
 training_type: 
 training_focus: 
   - kropsstamme
 equipment:
   - bænk
   - kropsvægt
-muscle_group:
+muscle_group: []
 gallery:
 last_modified_at: 2011-06-11T16:35:42Z
 ---

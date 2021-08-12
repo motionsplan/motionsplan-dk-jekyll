@@ -14,13 +14,13 @@ tags:
   - Kondition
   - kropsvægt
   - cirkeltræning
-categories:
+categories: []
 training_type: 
   - Kondition
 training_focus: 
 equipment:
   - kropsvægt
-muscle_group:
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/reaktionsoevelse-0.jpg
     image_path: /assets/images/exercises/reaktionsoevelse-0-320.jpg

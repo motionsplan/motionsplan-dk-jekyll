@@ -18,7 +18,22 @@ tags:
   - kropskomposition
   - udregning
   - formel
+  - featured
+  - beregner
 last_modified_at: 2021-01-06T22:14:14Z
+faq:
+  - question: "Hvad skal kvinders BMI være?"
+    answer: "Voksne kvinder og mænds BMI bliver vurderet efter de samme tabeller. Studier har vist, at et sundt BMI ligger i den højere del af 'normalvægt'. Du kan se BMI-skemaer her på siden."
+  - question: "Hvad skal mænds BMI være?"
+    answer: "Voksne mænd og kvinders BMI bliver vurderet efter de samme skemaer. Nyere studier viser, at et sundt BMI formentlig ligger i den højere ende af normalområdet. Du kan se BMI-tabeller her på siden."
+  - question: "Hvad er normal BMI for børn?"
+    answer: "Børn passer ikke ind i de normale BMI-skemaer. WHO har lavet skemaer, hvor du kan vurdere børns BMI. Du kan se skemaerne her på siden."
+  - question: "Hvad er normal BMI for teenagere?"
+    answer: "Du skal vurdere teenageres BMI ud fra WHO BMI-skemaer. Men husk at børn og teenagere udvikler sig meget forskelligt."
+  - question: "Hvad er normal BMI for 65+ årige?"
+    answer: "En normal BMI for de 65+ årige vurderes efter de samme skemaer som voksne. Du kan se tabeller her på siden."
+  - question: "Hvad er din ideelle kropsvægt ifølge BMI-udregningen?"
+    answer: "Du kan udregne din ideelle kropsvægt på baggrund af BMI. Vi har skrevet meget mere om [idealvægt baseret på BMI her](/idealvaegt/)."
 ---
 
 Jeg sidder og læser et glitrende magasin om sport og helse, og endnu engang ser jeg udregninger af body mass index (BMI) uden at artiklen går i dybden med, hvad en BMI-formel måler. Derfor satte jeg mig ned for at researche lidt på, hvordan BMI tabeller kan bruges for mænd, kvinder, voksne, teenagere og børn?
@@ -282,6 +297,10 @@ Der er mange udfordringer med BMI, selvom det er meget udbredt. Faktisk er der l
 Men for at finde ud af, om du reelt er under- eller overvægtig i forhold til sundhed, så kan et simpelt taljemål formentlig være en bedre indikator. Jeg har skrevet en anden artikel om [forskellige taljemål]({% link _posts/2019-10-14-taljemaal.md %}). Taljemålet kan nemlig sige noget om, hvordan fedtet er placeret på kroppen, hvilket er det der har allerstørst betydning i forhold til sundhed.
 
 Endelig kan du dykke lidt ned i din samlede kropskomposition for at få en større forståelse af det emne. Jeg har skrevet om [forskellige modeller for kropskomposition her]({% link _posts/2019-10-14-kropskomposition.md %}).
+
+## Ofte stillede spørgsmål
+
+{% include faq.html %}
 
 ## Referencer
 

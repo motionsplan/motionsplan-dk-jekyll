@@ -11,6 +11,7 @@ tags:
   - styrketræningsprogram
   - styrkeløft
   - programanmeldelse
+  - begynder
 category:
   - Styrketræning
 last_modified_at: 2019-03-10T08:39:32Z

@@ -14,14 +14,14 @@ tags:
   - hoftedomineret
   - kropsvægt
   - maskine
-categories:
+categories: []
 training_type: 
 training_focus: 
   - hoftedomineret
 equipment:
   - kropsvægt
   - maskine
-muscle_group:
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/reverse-hyper-0.jpg
     image_path: /assets/images/exercises/reverse-hyper-0-320.jpg

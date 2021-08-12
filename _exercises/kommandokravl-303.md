@@ -10,12 +10,12 @@ header:
   overlay_image: /assets/images/exercises/kommandokravl-0.jpg
   teaser: /assets/images/exercises/kommandokravl-0-320.jpg
   caption: *title
-tags:
-categories:
-training_type: 
-training_focus: 
-equipment:
-muscle_group:
+tags: []
+categories: []
+training_type: [] 
+training_focus: []
+equipment: []
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/kommandokravl-0.jpg
     image_path: /assets/images/exercises/kommandokravl-0-320.jpg

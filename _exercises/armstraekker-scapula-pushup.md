@@ -11,9 +11,9 @@ language: da
 tags:
   - kropsvægt
   - fitnessinstruktør
-categories:
-training_type: 
-training_focus: 
+categories: []
+training_type: [] 
+training_focus: []
 equipment:
   - kropsvægt
 muscle_group:

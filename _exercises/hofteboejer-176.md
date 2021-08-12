@@ -14,9 +14,9 @@ tags:
   - bar
   - 
   - 
-categories:
-training_type: 
-training_focus: 
+categories: []
+training_type: [] 
+training_focus: []
 equipment:
   - bar
 muscle_group:

@@ -6,12 +6,12 @@ permalink: /oevelse/dips-med-makker/
 redirect_from: /node/121
 id: 121
 language: da
-tags:
-categories:
-training_type: 
-training_focus: 
-equipment:
-muscle_group:
+tags: []
+categories: []
+training_type: [] 
+training_focus: []
+equipment: []
+muscle_group: []
 gallery:
 video:
   provider: vimeo

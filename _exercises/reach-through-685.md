@@ -15,7 +15,7 @@ tags:
   - Strækøvelser
   - kropsvægt
   - Baglår
-categories:
+categories: []
 training_type: 
   - Mobilisering
   - Strækøvelser
@@ -36,5 +36,3 @@ gallery:
     title: "Reach through"
 last_modified_at: 2015-04-10T13:47:22Z
 ---
-
-

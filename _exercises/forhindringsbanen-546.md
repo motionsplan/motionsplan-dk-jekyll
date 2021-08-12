@@ -10,13 +10,11 @@ tags:
   - Koordination og balance
 categories:
   - Koordination og balance
-training_type: 
-training_focus: 
+training_type: []
+training_focus: []
 equipment:
-muscle_group:
-alternative_titles:
+muscle_group: []
+alternative_titles: []
 gallery:
 last_modified_at: 2013-10-21T12:36:39Z
 ---
-
-

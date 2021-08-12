@@ -14,7 +14,7 @@ tags:
   - knædomineret
   - maskine
   - fitnessinstruktør
-categories:
+categories: []
 training_type: 
 training_focus: 
   - knædomineret

@@ -12,12 +12,13 @@ header:
 tags:
   - Pres
   - Skuldre
+  - featured
 categories:
   - Pres
-training_type: 
-training_focus: 
-equipment:
-muscle_group:
+training_type: []
+training_focus: []
+equipment: []
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/arnold-press-0.jpg
     image_path: /assets/images/exercises/arnold-press-0-320.jpg

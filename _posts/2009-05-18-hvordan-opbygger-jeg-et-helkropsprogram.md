@@ -14,6 +14,7 @@ tags:
   - planlægning
   - træningsplanlægning
   - programlægning
+  - begynder
 category:
   - Styrketræning
 last_modified_at: 2021-04-03T11:44:17Z

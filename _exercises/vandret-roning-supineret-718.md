@@ -10,12 +10,12 @@ header:
   overlay_image: /assets/images/exercises/vandret-roning-supineret-0.jpg
   teaser: /assets/images/exercises/vandret-roning-supineret-0-320.jpg
   caption: *title
-tags:
-categories:
-training_type: 
-training_focus: 
-equipment:
-muscle_group:
+tags: []
+categories: []
+training_type: [] 
+training_focus: []
+equipment: []
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/vandret-roning-supineret-0.jpg
     image_path: /assets/images/exercises/vandret-roning-supineret-0-320.jpg
@@ -30,5 +30,3 @@ video:
   id: 5njR-qC_4yc
 last_modified_at: 2016-10-18T07:19:57Z
 ---
-
-

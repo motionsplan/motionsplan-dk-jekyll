@@ -17,12 +17,12 @@ tags:
   - outdoor
 categories:
   - Kropsstamme
-training_type: 
-training_focus: 
+training_type: []
+training_focus: []
 equipment:
   - bildæk
-muscle_group:
-alternative_titles:
+muscle_group: []
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/bildaek-tippe-daek-armstraekning-0.jpg
     image_path: /assets/images/exercises/bildaek-tippe-daek-armstraekning-0-320.jpg
@@ -34,5 +34,3 @@ gallery:
     title: "Bildæk, tippe dæk armstrækning"
 last_modified_at: 2014-10-03T11:04:59Z
 ---
-
-

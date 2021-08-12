@@ -59,6 +59,34 @@ Hvad er fysiologi? **Fysiologi er læren om kroppens forskellige organsystemer o
 
 Hvis du vil forstå, hvordan træning virker i kroppen, så er det godt at dykke ned i kroppens fysiologi.
 
+Kroppen består af virkelig mange forskellige specialiserede celler. Alle levende organismer styres af overlevelsesmekanismer, som kan beskrives ved disse tre principper.
+
+- Adaptation
+- Energilagring
+- Energibesparelse
+
+## De anaerobe og aerobe energisystem
+
+[Kroppen har to energisystemer](/energisystemer/) til at skabe energi til musklernes bevægelser. Det er godt at sætte sig ind i begge energisystemer. Det er nemlig først når du kender energisystemerne, at du kan planlægge den [aerobe træning]({% link _posts/2021-06-19-aerob-traening.md %}) og [anaerobe træning]({% link _posts/2021-01-02-anaerob-traening.md %}).
+
+{% comment %}
+
+## Nervesystemet
+
+{% endcomment %}
+
+## Kredsløb
+
+Kredsløbet er kroppens transportsystem, der har til opgave at forsyne cellerne med
+ilt og næringsstoffer samt at bortskaffe affaldsstoffer (CO2, træthedsstoffer, urinstof mm.). Kredsløbets funktion er således at sørge for, at alle kroppens celler kan opret-
+holde liv.
+
+{% comment %}
+
+## Musklerne
+
+{% endcomment %}
+
 ## Artikler om fysiologi
 
 <div class="feature__wrapper">

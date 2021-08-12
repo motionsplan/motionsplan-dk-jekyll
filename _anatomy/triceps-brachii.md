@@ -1,5 +1,5 @@
 ---
-title: Trehovede armstrækker - Triceps
+title: Trehovede armstrækker - Triceps Brachii
 functional_group:
   - Armens bagudføring
   - Armstrækkere
@@ -11,8 +11,6 @@ name:
   da: Trehovede armstrækker
 group:
   - Arme
-joint:
-  - Albueleddet
 tags:
   - imagemap
   - fitnessinstruktør

@@ -6,6 +6,7 @@ author_profile: true
 excerpt: &excerpt "Guide til løbetræning. Her på løbesiden kan du finde nyttig viden om løb til 5 km, 10 km, halvmaraton og maraton. Vælg et effektivt løbeprogram. Lær om pulstræning, intervalløb og intervaltræning."
 header:
   overlay_image: https://images.unsplash.com/photo-1581889470536-467bdbe30cd0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1990&q=80
+  teaser: https://images.unsplash.com/photo-1581889470536-467bdbe30cd0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
   caption: "Løbesiden: Alt om løb og løbetræning"
   actions:
     - label: "<i class='fas fa-download'></i> Hvad er min hastighed?"
@@ -35,39 +36,27 @@ feature_row_feature:
     url: "/loebeteknik/"
     btn_label: "Lær om løbeteknik og løbestil"
     btn_class: "btn--info"
-feature_row:
-  - image_path: https://cnet1.cbsistatic.com/img/Y3vodO8bMPi6qlFLRF3xFcQpLHo=/1092x0/2019/07/26/114f1721-1a71-42bc-b1a4-cb35299bedbc/gettyimages-640493589.jpg
-    alt: "Kondition og tests"
-    title: "Kondition og tests"
-    excerpt: "Hvad er kondital og iltoptagelse, og hvordan måler man det?"
-    url: "/kondition-og-test/"
-    btn_label: "Læs om kondital"
-    btn_class: "btn--success"
-  - image_path: https://images.unsplash.com/photo-1544899489-a083461b088c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
-    alt: "Hvad er en god kondition?"
-    title: "Hvad er en god kondition?"
-    excerpt: "Svaret på hvad et godt kondital er afhænger naturligvis af hvem man sammenligner sig med. Her er tabeller gældende for almindelige mennesker i Skandinavien."
-    url: "/kondital/"
-    btn_label: "Se konditionstabel"
-    btn_class: "btn--danger"
-  - image_path: https://images.unsplash.com/photo-1501820434261-5bb046afcf6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80
-    alt: "Energisystemer 101"
-    title: "Energisystemer 101"
-    excerpt: "Hvordan ser kroppens energisystemer ud - noget om aerob og anaerob energisystem."
-    url: "/energisystemer/"
-    btn_label: "Lær om energisystemer"
-    btn_class: "btn--danger"
 ---
 
 {% include feature_row type="center" id="feature_row_excerpt" %}
 
 {% include feature_row id="feature_row_feature" type="left" %}
 
-{% include feature_row %}
+## Løb begyndere
+
+{% assign site_posts = site.posts | where: "category", "Løb" | where: "tags", "begynder" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
 
 {% comment %}
-
-## Løb begyndere
 
 Kom i gang med at løbe
 lær at løbe
@@ -91,7 +80,23 @@ løbeplan
 
 ## Løb hurtigere
 
+{% endcomment %}
+
 ## Intervalløb
+
+{% assign site_posts = site.posts | where: "category", "Løb" | where: "tags", "intervalløb" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
+{% comment %}
 
 10-20-30 løb
 intervaltræning løb
@@ -103,7 +108,23 @@ interval løbeprogram
 opvarmning før løb
 opvarmning løb
 
+{% endcomment %}
+
 ## Løb og styrketræning
+
+{% assign site_posts = site.posts | where: "tags", "styrketræning" | where: "tags", "løb" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
+{% comment %}
 
 styrketræning for løbere
 styrketræning løb
@@ -184,7 +205,7 @@ hiit træning løbebånd
 
 </div>
 
-## Konditionstests til løb
+## Løbetests og kondition
 
 {% assign site_posts = site.posts | where: "tags", "konditionstest" | where: "tags", "løbetest" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 

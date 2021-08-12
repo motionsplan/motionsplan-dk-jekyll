@@ -35,7 +35,7 @@ Du kan i beregneren selv stille, hvor meget du forventer at løbetiden vil ændr
 
 {% include calculate-weightloss-runningtime.html %}
 
-Sedeaud et al (2014) indikerer, at [BMI](/bmi/) kan være en parameter for din præstation på løb.
+Sedeaud et al (2014) indikerer, at [dit BMI](/bmi/) kan være en parameter for din præstation på løb.
 
 ## Bliv klogere BMI og løbetider
 

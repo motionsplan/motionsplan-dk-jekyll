@@ -93,7 +93,7 @@ I squat foregår det sådan her. Godkendt dybde er, når folden ved hofteleddet 
 
 Kommandoerne i squat er:
 
-- **The bar is loaded**. Når man får kommandoen "The bar is loaded", så har man maksimalt et minut til at lave sit forsøg.
+- **Stangen er klar** eller **The bar is loaded**. Når man får kommandoen "Stangen er klar" eller på engelsk "The bar is loaded", så har man maksimalt et minut til at lave sit forsøg.
 - **Unrack**. Når du går ud af racket, så sørg for at stå helt oprejst med knæene strakte.
 - Vent på **"Squat!"**-kommandoen. Squat ned så hofteleddet er lavere end knæleddet. Rejs dig igen.
 - Vent på **"Rack"**-kommandoen.
@@ -106,7 +106,7 @@ Lig på bænken med flade fødder på jorden. Hovedet, skuldrene og ballerne ska
 
 Kommandoerne i bænkpres i en styrkeløft-konkurrence er:
 
-- **“The Bar is Loaded!”**. Derefter har du 1 minut til at lave dit forsøg.
+- **“Stangen er klar”** eller **“The Bar is Loaded!”**. Derefter har du 1 minut til at lave dit forsøg.
 - Du kan _unracke_ alene eller med en hjælper.
 - Vent på **"Start"**-kommandoen inden ud sænker baren, indtil den rører dig et sted på kroppen og ligger komplet stille.
 - Vent på **"Pres"**-kommandoen. Pres vægtstangen op i helt strakte arme.
@@ -120,7 +120,7 @@ Ved løftets afslutning skal løfteren have strakte ben og skuldrene tilbage. De
 
 Kommandoerne under dødløft er:
 
-- **Bar is loaded**
+- **Stangen er klar** eller **Bar is loaded**
 - Når man er klar til at løfte, løfter dommeren sin arm.
 - Når løfteren står oprejst med stangen, sænker dommeren armen og siger **ned**.
 

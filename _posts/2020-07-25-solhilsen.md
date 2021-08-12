@@ -150,7 +150,7 @@ _Vinyasa_ betyder egentlig "at plaere noget på en særlig måde". Derfor er det
 
 Når du opnår at bevægelserne "sker af sig selv", så opstår følelsen af at være i "flow". Kan du slippe kontrollen og lade dig optage fuldstændigt i det, der foregår lige nu, så kan du komme ind i en meditativ tilstand med bevægelserne.
 
-Det er målet for mange, der laver yoga. Jeg dyrker ikke yoga til dagligt, men bruger solhilsener og [De fem tibetanere]({% link _posts/2009-07-01-de-fem-tibetanere.md %}) som en del af min træning. Og **solhilsen giver virkelig velvære**.
+Det er målet for mange, der laver yoga. Jeg dyrker ikke yoga til dagligt, men bruger solhilsener og [De 5 tibetanere]({% link _posts/2009-07-01-de-fem-tibetanere.md %}) som en del af min træning. Og **solhilsen giver virkelig velvære**.
 
 ## Hvornår skal jeg lave solhilsen?
 

@@ -15,6 +15,7 @@ tags:
   - træning
   - meditation
   - træningsprogram
+  - featured
 category:
   - Yoga
 last_modified_at: 2021-01-24T09:41:09Z

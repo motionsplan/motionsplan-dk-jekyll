@@ -15,10 +15,10 @@ tags:
   - crossfit
 categories:
   - Kondition og puls
-training_type: 
-training_focus: 
-equipment:
-muscle_group:
+training_type: []
+training_focus: []
+equipment: []
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/490-0.jpg
     image_path: /assets/images/exercises/490-0-320.jpg

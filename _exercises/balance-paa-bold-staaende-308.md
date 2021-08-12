@@ -13,9 +13,9 @@ header:
 tags:
   - swissball
   - Core
-categories:
-training_type: 
-training_focus: 
+categories: []
+training_type: [] 
+training_focus: []
 equipment:
   - swissball
 muscle_group:

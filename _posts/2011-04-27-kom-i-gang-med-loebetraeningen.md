@@ -13,6 +13,7 @@ tags:
   - løbeprogram
   - løbetræning
   - konditionstræning
+  - begynder
 category:
   - Løb
   - Kondition

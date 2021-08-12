@@ -12,7 +12,7 @@ tags:
   - bar
   - Bryst
   - Skuldre
-categories:
+categories: []
 training_type: 
   - Styrketræning
 training_focus: 
@@ -29,5 +29,3 @@ video:
   id: aM1TYdZaXMk
 last_modified_at: 2016-11-01T08:32:19Z
 ---
-
-

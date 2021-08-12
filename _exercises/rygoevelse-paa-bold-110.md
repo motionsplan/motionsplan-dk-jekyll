@@ -15,7 +15,7 @@ tags:
   - kropsstamme
   - swissball
   - fitnessinstruktør
-categories:
+categories: []
 training_type: 
   - Styrketræning
 training_focus: 

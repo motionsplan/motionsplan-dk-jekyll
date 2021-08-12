@@ -15,7 +15,7 @@ tags:
   - træstub
   - vægtskive
   - sten
-categories:
+categories: []
 training_type: 
 training_focus: 
   - kropsstamme
@@ -23,7 +23,7 @@ equipment:
   - træstub
   - vægtskive
   - sten
-muscle_group:
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/side-swings-0.jpg
     image_path: /assets/images/exercises/side-swings-0-320.jpg

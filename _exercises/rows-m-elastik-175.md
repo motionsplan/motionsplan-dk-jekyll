@@ -8,12 +8,12 @@ id: 175
 language: da
 tags:
   - elastik
-categories:
-training_type: 
-training_focus: 
+categories: []
+training_type: [] 
+training_focus: []
 equipment:
   - elastik
-muscle_group:
+muscle_group: []
 gallery:
 last_modified_at: 2010-03-10T13:58:16Z
 ---

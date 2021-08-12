@@ -16,6 +16,7 @@ tags:
   - forbrænding
   - gang
   - kalorier
+  - kalorieberegner
 ---
 
 Jeg har kigget lidt på, hvor mange kalorier man forbrænder ved at gå? Så hvis du er interesseret i at vide, hvad din kalorieforbrænding og energiforbrug er ved gang, så har du her den ultimative guide.
@@ -24,7 +25,9 @@ Når du søger rundt omkring på nettet, så står der forskellige måder at udr
 
 Selvom tommelfingerreglen måske kan give et groft estimat på din forbrænding, så mener jeg ikke det er et retvisende billede. Din forbrænding ved gang er mindre end ved løb! Det har jeg skrevet mere om i [Du forbrænder mere ved at løbe end ved at gå]({% link _posts/2020-06-01-loeb-mere-energi-gang.md %}).
 
-For at udregne hvor mange [kalorier](/hvad-er-kalorier/) man bruger, når du går, så handler det også om, hvilken intensitet du går med. Jeg har lavet en beregner, der kan hjælpe dig med at regne ud, hvor mange kalorier, du forbrænder på en gåtur.
+For at udregne hvor mange [kalorier](/hvad-er-kalorier/) man bruger, når man går, så kan man bruge en [kalorieberegner](/kalorieberegner/). Man skal tage højde for din egen vægt, men også, hvilken intensitet du går med.
+
+Jeg har lavet en beregner, der kan hjælpe dig med at regne ud, hvor mange kalorier, du forbrænder på en gåtur.
 
 Du kan altså få svar på følgende spørgsmål i dette indlæg:
 
@@ -87,7 +90,7 @@ Gennemsnittet for for MET-værdierne for gang er mellem 3-6, mens fx meget anstr
 
 Forskellige mennesker har dog forskelligt kalorieforbrug, fordi de har deres egen unikke metabolisme. Så husk at MET-værdierne bare er et estimat.
 
-## Hvad bruger du energien til når du går?
+## Hvad bruger du energien til, når du går?
 
 Når du bruger dine muskler, så starter kroppen med at bruge ekstra ilt for at forbrænde kulhydrat og fedt, så du kan skabe ATP. ATP er kroppens energimolekyle.
 
@@ -151,8 +154,6 @@ Her har jeg lavet en enkel version, der kun tager højde for kalorieforbruget ve
 Udfyld tallene i beregneren for at beregne hvor mange kalorier du forbrænder under dine daglige gåture.
 
 Du indtaster din vægt, din intensitet under gang og tidsforbruget for din gåtur, og så finder du ud af, hvor mange kalorier du forbrænder i løbet af gåturen.
-
-## Kalorieberegner for gang
 
 Her kan du udregne hvor meget energi og kalorier, du forbrænder ved at gå.
 

@@ -13,6 +13,7 @@ category:
 tags:
   - mortalitet
   - sundhed
+  - beregner
 last_modified_at: 2021-03-06T23:14:14Z
 toc: true
 ---
@@ -27,7 +28,7 @@ Spørgeskemaet er baseret mere end 21.000 deltagere i alderen 20-69 år, som ikk
 
 Forskerne fandt ud af, at risikoen for at dø stiger med alderen, hvilket nok ikke er så overraskende. 
 
-Spørgeskemaet er desuden baseret på oplysninger om [BMI](/bmi/), [kondital](/kondital/), blodtryk og rygning, og forskerne endte med følgende scoringssystem.
+Spørgeskemaet er desuden baseret på oplysninger om [normalt BMI](/bmi/), [kondital](/kondital/), blodtryk og rygning, og forskerne endte med følgende scoringssystem.
 
 > For the clinical mortality scoring system, the most points were assigned for greater age (e.g., 10 points for 65- to 69-year-olds), followed by diabetes (4 points), current smoking (4 points), severe obesity (3 points), low fitness (2 points), high resting heart rate (2 points), hypertension (2 points), and former smoking (1 point).
 

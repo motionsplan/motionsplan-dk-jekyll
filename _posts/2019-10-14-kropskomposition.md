@@ -113,7 +113,7 @@ Måling med fedttang er relativt udbredt, og alle kan lære at bruge en fedttang
 
 {% include figure image_path="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfozK6s5V4DcMgTzb_xxa_iDhOspJxuNDAl-rIR0myepmBg-5nSg" caption="Skinfold Caliper målinger" alt="Skinfold Caliper målinger" %}
 
-{% include video id="VBJuVfiKrbY" provider="youtube" %}
+{% include video provider="youtube" id="VBJuVfiKrbY" %}
 
 [Læs mere om måling med fedttang]({% link _posts/2019-10-14-fedtprocent-skinfold.md %}){: .btn .btn--large .btn--success }
 
@@ -129,7 +129,7 @@ Fordi BIA virker ved at måle på vandet i kroppen, så får man brugbar informa
 
 ### Målinger og udregninger
 
-Baseret på målinger med målebånd kan du også udregne din fedtprocent. Præcisionen af disse udregninger er behæftet med de samme usikkerheder, som fx [BMI](/bmi/) eller andre lignende mere generelle målinger.
+Baseret på målinger med målebånd kan du også udregne din fedtprocent. Præcisionen af disse udregninger er behæftet med de samme usikkerheder, som fx [en BMI beregner](/bmi/) eller andre lignende mere generelle målinger.
 
 [Udregn din fedtprocent](/artikel/udregning-af-fedtprocent){: .btn .btn--info .btn--large }
 
@@ -141,7 +141,7 @@ Hvis du gerne vil måle din kropskomposition, så vær opmærksom på hvor _vali
 
 InBody har lavet en fin video, der hurtigt gennemgår pointerne ift. kropskomposition.
 
-{% include video id="B6jIUOi8puk" provider="youtube" %}
+{% include video provider="youtube" id="B6jIUOi8puk" %}
 
 Husk at det er vanskeligt at lave præcise målinger af kropskompositionen. I min optik må du aldrig lade mere eller mindre nøjagtige tests og målinger definere, hvad du synes din [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}) skal være og overveje en [slankekur]({% link _posts/2020-09-04-slankekur.md%}). Bliv stærk, hurtig, udholdende i stedet, og så vil du blive stadig mere tilfreds med din krop.
 {: .notice .notice--info }

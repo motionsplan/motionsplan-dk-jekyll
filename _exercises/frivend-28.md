@@ -16,7 +16,7 @@ tags:
   - helkropsøvelse
   - vægtstang
   - crossfit
-categories:
+categories: []
 training_type: 
 training_focus: 
   - knædomineret

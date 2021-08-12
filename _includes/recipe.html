@@ -1,0 +1,59 @@
+{% assign recipe = include.recipe %}
+
+<div itemscope itemtype="https://schema.org/Recipe">
+  <h2 itemprop="name" id="{{ recipe.title | slugify }}">{{ recipe.title }}</h2>
+  {% if recipe.author %}
+  af <span itemprop="author">{{ recipe.author }}</span>,
+  <meta itemprop="datePublished" content="{{ page.last_modified_at | date: "%y-%m-%d" }}">{{ page.last_modified_at | date: date: "%a, %b %d, %y" }}
+  {% endif %}
+  <p>
+    <i class="fas fa-clock" aria-hidden="true"></i> Forberedelsestid: <meta itemprop="prepTime" content="{{ recipe.prep_time }}">{{ recipe.prep_time | date: "%H:%M" }}
+    <i class="fas fa-clock" aria-hidden="true"></i> Tid: <meta itemprop="cookTime" content="{{ recipe.cook_time }}">{{ recipe.cook_time | date: "%H:%M" }}
+  </p>
+  <figure>
+    <img itemprop="image" src="{{ recipe.image_path }}" alt="{{ recipe.title | downcase }}" />
+    <figcaption>{{ recipe.caption | markdownify }}</figcaption>
+  </figure>
+
+  <div itemprop="description">{{ recipe.description | markdownify }}</div>
+  
+  {% comment %}
+  <div itemprop="nutrition"
+    itemscope itemtype="https://schema.org/NutritionInformation">
+    Nutrition facts:
+    <span itemprop="calories">240 calories</span>,
+    <span itemprop="fatContent">9 grams fat</span>
+  </div>
+  {% endcomment %}
+
+  <h3 id="ingredienser--{{ recipe.title | slugify }}">Ingredienser</h3>
+  
+  <p>
+    <i class="fas fa-bread-slice" aria-hidden="true"></i> Giver <span itemprop="yield">{{ recipe.yield }}</span>
+    til <span itemprop="recipeYield">{{ recipe.servings }}</span>
+  </p>
+
+  <ul>
+  {% for row in recipe.ingredients %}
+    <li itemprop="recipeIngredient">{{ row | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+  {% endfor %}
+  </ul>
+
+  <h3 id="instruktioner--{{ recipe.title | slugify }}">Sådan gør du</h3>
+  
+  <ol itemscope itemtype="https://schema.org/HowToStep">
+  {% for row in recipe.instructions %}
+    <li itemprop="recipeInstructions">{{ row | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+  {% endfor %}
+  </ol>
+  
+{% comment %}
+  <div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating" class="penci-recipe-rating penci-recipe-review">
+							<span class="penci-rate-text">
+								Rating: 								<span itemprop="ratingValue" class="penci-rate-number">5.0</span>/5
+							</span>
+							<div class="penci_rateyo" id="penci_rateyo" data-allow="1" data-rate="5.0" data-postid="3121" data-people="1" data-total="5"></div>
+							<span class="penci-numbers-rate">( <span class="penci-number-people" itemprop="reviewCount">1</span> voted )</span>
+						</div>
+{% endcomment %}
+</div>

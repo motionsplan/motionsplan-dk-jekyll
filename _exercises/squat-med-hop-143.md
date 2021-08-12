@@ -21,7 +21,7 @@ training_focus:
   - knædomineret
 equipment:
   - vægtstang
-muscle_group:
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/squat-med-hop-0.jpg
     image_path: /assets/images/exercises/squat-med-hop-0-320.jpg

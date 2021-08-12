@@ -1,9 +1,9 @@
 ---
 title: &title "Komplet guide til programlægning i styrketræning"
 seo_title: "Komplet guide til programlægning i styrketræning »"
+permalink: /traeningsprogram-programlaegning-styrketraening/
 redirect_from:
   - /artikel/hvordan-skal-jeg-dosere-min-styrketraening/
-permalink: /traeningsprogram-programlaegning-styrketraening/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1526408984842-5f1323d42469?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
@@ -15,6 +15,7 @@ tags:
   - programlægning
   - træningsprogram
   - styrketræning
+  - begynder
 last_modified_at: 2020-01-23T08:14:14Z
 toc: true
 ---

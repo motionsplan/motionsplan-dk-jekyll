@@ -13,6 +13,7 @@ category:
 tags:
   - styrketræning
   - okklusion
+  - udstyr
 language: da
 feature_row_bodylab:
   - image_path: https://www.bodylab.dk/images/okklusionsstraps_arms_legs-p.jpg

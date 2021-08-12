@@ -14,9 +14,9 @@ header:
 tags:
   - håndvægte
   - fitnessinstruktør
-categories:
-training_type: 
-training_focus: 
+categories: []
+training_type: [] 
+training_focus: []
 equipment:
   - håndvægte
 muscle_group:

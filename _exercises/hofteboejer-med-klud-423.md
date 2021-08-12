@@ -13,13 +13,13 @@ header:
 tags:
   - kropsstamme
   - klud
-categories:
+categories: []
 training_type: 
 training_focus: 
   - kropsstamme
 equipment:
   - klud
-muscle_group:
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/hofteboejer-med-klud-0.jpg
     image_path: /assets/images/exercises/hofteboejer-med-klud-0-320.jpg

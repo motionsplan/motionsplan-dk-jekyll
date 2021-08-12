@@ -22,6 +22,7 @@ tags:
   - kondition
   - tabel
   - kondital
+  - featured
 feature_row:
   - image_path: https://books.google.dk/books/content?id=BC9SiAsUPqsC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70NFS4lEU6whWCqlyrgOGErL5OJe7YUn-qJQJ5_NuL_euKqiLC3Uf1qDPx-lSIhDDhVIpgexBiz5cdAiKXbtccrKfOlel8OTdj9EgWhSXwkff-qWaHaQt5WU1MvzRP65Jcjll3V
     alt: kondital textbook of work physiology
@@ -41,7 +42,14 @@ feature_row_kondital:
       til at hænge op på væggen. Tabellen er lavet i Google Docs.
     url: https://docs.google.com/document/d/1Yzzxktbt0Y_8E1fpPENZE1Jt8s6-8jkojvBCI7hpLic/copy?usp=sharing
     btn_label: Se tabel over kondital
-    btn_class: btn--info
+    btn_class: btn--
+faq:
+  - question: "Hvad er definitionen på et kondital?"
+    answer: "Et kondital er defineret ved din maksimale iltoptagelse delt med din kropsvægt. Det måles i ml O<sub>2</sub> pr. min pr. kg kropsvægt."
+  - question: "Hvordan kan man beregne konditallet?"
+    answer: "Du kan finde dit kondital ved enten direkte tests eller indirekte tests. Du kan lave maksimale tests eller submaksimale tests. Du kan finde mange eksempler på, hvordan du kan lave konditionstests her på siden."
+  - question: "Hvordan forbedrer man konditallet?"
+    answer: "Du kan forbedre konditalet på forskellige måder. Det kræver typisk en maksimal indsats, men du kan finde inspiration her på siden under [kondition, kredsløb og konditionstræning](/kondition/)."
 ---
 Hvad er et godt kondital, og hvordan beregner man det? I denne artikel dykker vi ned i hvad kondital betyder for din sundhed, hvornår det er godt og hvordan man kan forbedre det. Du finder også en nem og overskuelig kondital tabel som du kan bruge til selv at teste din kondition.
 
@@ -154,7 +162,7 @@ Det almindelige kondital udregnes ved at dividere VO<sub>2</sub>max med kropsvæ
 
 Derfor foreslår [Morten Zacho](http://web.archive.org/web/20100131082019/http://www.motion-online.dk/konditionstraening/testning/retfaerdig_vurdering_af_overvaegtiges_kondition/){:rel="nofollow"}, at man i forhold til vejledning har brug for målinger, der <q>objektivt vurderer kondition og vægt adskilt</q>. Med det normale kondital risikerer vi at vejlede til mere motion, selvom det i virkeligheden er kosten, der skaber udfordringer for den enkelte.
 
-Princippet i *Kondital ved Index 23* er, at den maksimale iltoptagelse divideres med den vægt, man ville have haft, hvis man havde et [BMI](/bmi/) på 23. Dette vægtuafhængige kondital kan man slå op i de tabeller, der bruges for det almindelige kondital, og dermed få en vægtuafhængig vurdering af konditionen i forhold til alder og køn.
+Princippet i *Kondital ved Index 23* er, at den maksimale iltoptagelse divideres med den vægt, man ville have haft, hvis man havde [BMI](/bmi/) på 23. Dette vægtuafhængige kondital kan man slå op i de tabeller, der bruges for det almindelige kondital, og dermed få en vægtuafhængig vurdering af konditionen i forhold til alder og køn.
 
 ## Hvordan udregnes Kondital ved Index 23?
 
@@ -162,7 +170,7 @@ Da Index 23 er baseret på BMI, så ser formlen således ud:
 
 {% include math formula="Kondital_{Index23} = \frac{VO_2max (ml/min)}{23 * height (m)^2}" %}
 
-Kondital<sub>Index 23</sub> er altså en beskrivelse af en persons relative kredsløbskapacitet i forhold til det potentiale kroppen har, hvis man var normalvægtig i forhold til BMI.
+Kondital<sub>Index 23</sub> er altså en beskrivelse af en persons relative kredsløbskapacitet i forhold til det potentiale kroppen har, hvis man var [normalvægtig i forhold til BMI](/bmi/).
 
 Samtidigt skriver Morten Zacho, at Kondital<sub>Index 23</sub> er en værdi, der er let at forklare for almindelige mennesker.
 
@@ -202,6 +210,10 @@ Hvis du gerne vil forbedre dit kondital, så kan du finde inspiration under vore
 Hvis du gerne selv vil teste dit kondital, så tjek alle de [forskellige konditionstests, vi har beskrevet her](/test-kondition-konditest-kondital/).
 
 Vi har skrevet mere om, hvordan du [forbedrer din maksimale iltoptagelse i denne artikel](/maksimale-iltoptagelse-vo2max/).
+
+## Ofte stillede spørgsmål om kondital
+
+{% include faq.html %}
 
 ## Referencer for kondition og kondital
 

@@ -14,13 +14,13 @@ tags:
   - kropsvægt
   - bar
   - crossfit
-categories:
-training_type: 
-training_focus: 
+categories: []
+training_type: [] 
+training_focus: []
 equipment:
   - kropsvægt
   - bar
-muscle_group:
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/muscle-0.jpg
     image_path: /assets/images/exercises/muscle-0-320.jpg

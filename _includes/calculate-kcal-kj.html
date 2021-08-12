@@ -1,0 +1,19 @@
+<form class="calculator" id="calculator_kcal_kj">
+    <fieldset>
+        <legend>Omregner fra kcal til kJ</legend>
+        <div class="form-group">
+            <label>Kilokalorier (kcal)
+                <input type="number" min="0" max="1000000" placeholder="fx 24" name="kcal" required>
+            </label>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>KiloJoule (kJ)
+                <input name="kj" disabled>
+            </label>
+        </div>
+    </fieldset>
+    {% include calculator-footer.html %}
+</form>

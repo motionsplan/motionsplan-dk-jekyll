@@ -23,7 +23,7 @@ training_focus:
 equipment:
   - elastik
   - x-band
-muscle_group:
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/monster-x-band-walks-0.jpg
     image_path: /assets/images/exercises/monster-x-band-walks-0-320.jpg

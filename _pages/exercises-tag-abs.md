@@ -1,7 +1,8 @@
 ---
 layout: single
 permalink: /maveoevelser/
-title: "Maveøvelser: De mest effektive øvelser til maven 🏋"
+title: "Maveøvelser: De mest effektive øvelser til mavetræning 🏋"
+seo_title: "Mavetræning: De meste effektive maveøvelser"
 excerpt: "Vi har samlet alle de effektive maveøvelser her. Vi synes målet med din mavetræning skal være at få en stærk core, men øvelserne er også perfekte og udfordrende, når du arbejder på en flad mave, markeret sixpack eller at stramme op."
 author_profile: true
 classes: wide
@@ -18,6 +19,20 @@ Vi har styrketræningsøvelser for maven med både kropsvægt, håndvægte, elas
 ## Maveøvelser og træningsøvelser til maven
 
 {% assign site_posts = site.exercises | where: "tags", "Mave" | where_exp: "post", "post.url != page.url" | sort: "title" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
+## Flere indlæg om mavetræning
+
+{% assign site_posts = site.posts | where: "tags", "mavetræning" | where_exp: "post", "post.url != page.url" | sort: "title" %}
 
 <div class="feature__wrapper">
 

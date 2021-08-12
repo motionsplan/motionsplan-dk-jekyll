@@ -1,5 +1,5 @@
 ---
-title: "Glute-ham raises: Bedste all-round baglårsøvelse [2021]"
+title: &title "Glute-ham raises: Bedste all-round baglårsøvelse [2021]"
 instructions: Anklerne placeres mellem de små puder, og det nederste af lårene
   mod den store pude.
 permalink: /oevelse/glute-ham-raises/
@@ -13,6 +13,7 @@ header:
 tags:
   - hoftedomineret
   - maskine
+  - featured
 training_type: null
 training_focus:
   - hoftedomineret

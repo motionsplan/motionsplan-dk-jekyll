@@ -12,12 +12,12 @@ header:
   caption: *title
 tags:
   - måtte
-categories:
-training_type: 
-training_focus: 
+categories: []
+training_type: [] 
+training_focus: []
 equipment:
   - måtte
-muscle_group:
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/traek-med-taeerne-0.jpeg
     image_path: /assets/images/exercises/traek-med-taeerne-0-320.jpeg

@@ -10,7 +10,6 @@ header:
 category:
   - Viden om
 tags:
-  - anatomi
   - fysiologi
   - muskler
   - træningslære

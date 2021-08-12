@@ -17,7 +17,7 @@ tags:
   - Core
   - Hoftebøjere
   - Mave
-categories:
+categories: []
 training_type: 
   - Styrketræning
 training_focus: 
@@ -47,5 +47,3 @@ gallery:
     title: "Mave, diagonal"
 last_modified_at: 2014-10-12T22:04:05Z
 ---
-
-

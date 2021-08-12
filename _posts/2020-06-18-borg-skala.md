@@ -17,7 +17,6 @@ tags:
   - konditionstræning
   - kondition
   - kredsløb
-  - fysiologi
 last_modified_at: 2021-02-11T08:14:14Z
 toc: true
 feature_row:

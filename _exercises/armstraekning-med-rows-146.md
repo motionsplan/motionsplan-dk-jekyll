@@ -15,11 +15,11 @@ tags:
   - håndvægte
 categories:
   - Pres
-training_type: 
-training_focus: 
+training_type: []
+training_focus: []
 equipment:
   - håndvægte
-muscle_group:
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/armstraekning-med-rows-0.jpg
     image_path: /assets/images/exercises/armstraekning-med-rows-0-320.jpg

@@ -13,13 +13,13 @@ header:
 tags:
   - kropsstamme
   - elastik
-categories:
+categories: []
 training_type: 
 training_focus: 
   - kropsstamme
 equipment:
   - elastik
-muscle_group:
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/x-band-walks-0.jpg
     image_path: /assets/images/exercises/x-band-walks-0-320.jpg

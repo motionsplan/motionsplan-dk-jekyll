@@ -14,12 +14,12 @@ language: da
 #  caption: *title
 tags:
   - kropsvægt
-categories:
-training_type: 
-training_focus: 
+categories: []
+training_type: [] 
+training_focus: []
 equipment:
   - kropsvægt
-muscle_group:
+muscle_group: []
 gallery:
 #  - url: /assets/images/exercises/180-jump-0.jpg
 #    image_path: /assets/images/exercises/180-jump-0-320.jpg

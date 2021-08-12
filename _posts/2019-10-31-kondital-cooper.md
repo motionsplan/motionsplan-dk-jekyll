@@ -21,6 +21,7 @@ tags:
   - løbetest
   - test
   - beregner
+  - featured
 last_modified_at: 2021-05-20T10:14:14Z
 toc: true
 feature_row:
@@ -31,6 +32,14 @@ feature_row:
     url: "https://docs.google.com/document/d/1Y0EJ0drxNTY2qZK2alV5kI6g6zUMnCiKRGL3XR7wElQ/copy?usp=sharing"
     btn_label: "Se tabel over Cooper-test"
     btn_class: "btn--info"
+faq:
+  - question: Hvordan beregner man Cooper test?
+    answer: Du kan bruge distancen på Cooper testen til at beregne dit kondital. Der findes lidt forskellige formler for konditallet, som du kan se her på siden.
+  - question: Hvad er godt i en Cooper test?
+    answer: "En Cooper test kan bruges til at vurdere dit kondital. Du kan her på siden finde tabeller, som hjælper dig med at vurdere, hvor godt resultatet er. Om dit resultat er godt i Cooper testen handler mest om dit forrige resultat."
+about:
+  name: "Cooper test"
+  url: "https://da.wikipedia.org/wiki/Coopertest"
 ---
 
 Cooper-testen er en maksimal løbetest, hvor den distance man kan tilbagelægge på 12 minutter er med til at estimere udøverens kondital. Jeg beskriver her, hvad Cooper testen er, og du kan finde tabeller og skemaer til at vurdere dit kondital?
@@ -252,6 +261,10 @@ Tabellerne over resultaterne på Cooper-testen tager udgangspunkt i de mest brug
 Cooper-testen er meget afhængig af din evne til at løbe tæt på din [maksimale iltoptagelse](/intensitet-vo2max/) og at du har en høj [anaerob tærskel](/anaerobe-taerskel/), men resultatet på Cooper-testen afhænger også af din [løbeøkonomi](/lobeokonomi/). Du kan lave et alsidigt løbeprogram, og så skal du nok på sigt forbedre din tid på Cooper-testen, men hvis du for alvor skal have fart på, så skal du altså arbejde både med løbeøkonomi og den maksimale iltoptagelse.
 
 Den maksimale iltoptagelse flytter du bedst med [højintensive intervalløb](/intervallob-intervaltraening/) og [rigtig HIIT-træning](/hiit/). En meget brugt måde at flytte den maksimale iltoptagelse er intervaller af 3-5 minutters varighed med en pause fra 2-3 minutter. Det gentager du 3-6 gange, men læs mere om forskellige måder at flytte den maksimale iltoptagelse under vores forskellige træningsartikler om [løbetræning på løbesiden](/loebesiden/).
+
+## Ofte stillede spørgsmål om Cooper testen
+
+{% include faq.html %}
 
 ## Konklusion på Cooper-testen
 

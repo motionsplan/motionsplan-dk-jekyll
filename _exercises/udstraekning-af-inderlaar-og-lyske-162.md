@@ -14,14 +14,14 @@ tags:
   - Parøvelser
   - Strækøvelser
   - kropsvægt
-categories:
+categories: []
 training_type: 
   - Parøvelser
   - Strækøvelser
 training_focus: 
 equipment:
   - kropsvægt
-muscle_group:
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/udstraekning-af-inderlaar-og-lyske-0.jpg
     image_path: /assets/images/exercises/udstraekning-af-inderlaar-og-lyske-0-320.jpg

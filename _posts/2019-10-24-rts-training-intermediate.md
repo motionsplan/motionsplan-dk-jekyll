@@ -153,7 +153,7 @@ Du kan læse en rigtig fin [anmeldelse på powerliftingtowin.com](https://www.po
 
 Se en videoforklaring af programmet her.
 
-{% include video id="Iu27imhNvYw" provider="youtube" %}
+{% include video provider="youtube" id="Iu27imhNvYw" %}
 
 Programmet løber over 9 uger, og der er ikke to uger der er ens. Den første måned arbejder man fire dage om ugen, mens man den sidste måned arbejder tre dage om ugen.
 

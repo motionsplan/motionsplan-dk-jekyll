@@ -14,13 +14,13 @@ tags:
   - kropsstamme
   - kropsvægt
   - cirkeltræning
-categories:
+categories: []
 training_type: 
 training_focus: 
   - kropsstamme
 equipment:
   - kropsvægt
-muscle_group:
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/fire-hydrant-0.jpg
     image_path: /assets/images/exercises/fire-hydrant-0-320.jpg

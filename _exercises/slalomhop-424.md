@@ -13,7 +13,7 @@ language: da
 tags:
   - knædomineret
   - kropsvægt
-categories:
+categories: []
 training_type: 
 training_focus: 
   - knædomineret

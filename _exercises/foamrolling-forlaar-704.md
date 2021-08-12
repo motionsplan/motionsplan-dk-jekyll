@@ -10,7 +10,7 @@ tags:
   - Self Myofascial Release (SMR)
   - foamroller
   - Forlår
-categories:
+categories: []
 training_type: 
   - Self Myofascial Release (SMR)
 training_focus: 
@@ -22,5 +22,3 @@ alternative_titles:
 gallery:
 last_modified_at: 2016-10-14T11:07:32Z
 ---
-
-

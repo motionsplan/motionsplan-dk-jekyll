@@ -21,7 +21,7 @@ tags:
   - Mave
   - Ryg
   - Skuldre
-categories:
+categories: []
 training_type: 
   - Styrketræning
 training_focus: 
@@ -56,5 +56,3 @@ gallery:
     title: "High throw medicinbold"
 last_modified_at: 2014-10-30T10:22:28Z
 ---
-
-

@@ -53,7 +53,7 @@ Jeg har lavet en beregner, der hjælper med at vise, hvor vildt vægttabet er i 
 Beregneren til det nødvendige energiunderskud for fedttab er baseret på, at der i 1 kg fedt er 38.000 kJ eller 9.000 kcal.
 
 ## Eksempel på energiunderskud fra slankekur
-s
+
 Hvis vi tager Vicky som eksempel og taste tallene ind i beregneren. Hun skulle altså have et dagligt energiunderskud på 7920 kcal for at tabe 0,880 kg fedt om dagen på sin slankekur.
 
 For at sætte det i perspektiv, så kan vi lige prøve at udregne Vickys [daglige energiforbrug i vores stofskifteberegner]({% link _posts/2019-11-01-stofskifteberegner-nordic-2012.md %}).
@@ -90,4 +90,3 @@ Med en slankekur skal du i øvrigt altid huske, at når du har tabt dig, så har
 En slankekur handler i sidste ende om dit [ligevægtsindtag]({% link _posts/2019-11-01-stofskifte-ligevaegtsberegner.md %}). Hvis du spiser flere [kalorier]({% link _posts/2020-07-09-kalorier.md %}) end du bruger på en dag, så tager du på i vægt. Hvis du derimod indtager mindre energi end du bruger, så taber du dig i vægt.
 
 Hvis en slankekur skal være effektiv, så skal du både tænke på, hvor meget energi du indtager, men også hvor meget energi du bruger på en dag. Kosten er langt den væsentligste faktor, men du [forbrænder også en del kalorier bare ved at gå]({% link _posts/2021-01-19-forbraending-gang.md %}). Så bare ved at sætte dit daglige energiforbrug op ved at bevæge dig mere, vil have en stor betydning for, om din slankekur over tid kan være effektiv.
-
