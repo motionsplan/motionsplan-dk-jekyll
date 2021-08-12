@@ -195,7 +195,7 @@ Konstantinovs har løftet 426 kg med en kropsvægt på 140 kg.
 
 {% include figure image_path="https://i.pinimg.com/originals/00/2e/9c/002e9cf5c7ec98943d1426efb1e610b2.jpg" caption="Lamar Gant under konkurrence. Gant har pga. sin skoliose et lockout i dødløft, hvor stangen er lidt tættere på jorden end mange andre." alt="Lamar Gant under konkurrence" %}
 
-Et andet eksempel er [Lamar Gant](https://www.hudsonvalleyscoliosis.com/lamar-gant-scoliosis/) som har haft verdensrekorden både i dødløft og i bænkpres for sin vægtklasse. Han løfter med ret krum ryg i dødløft.
+Et andet eksempel er [Lamar Gant](http://web.archive.org/web/20201112015104/https://www.hudsonvalleyscoliosis.com/lamar-gant-scoliosis/){: rel="nofollow noopener" } som har haft verdensrekorden både i dødløft og i bænkpres for sin vægtklasse. Han løfter med ret krum ryg i dødløft.
 
 {% include video provider="youtube" id="FHxTkolCJ0U" %}
 

@@ -24,28 +24,8 @@ feature_row:
     btn_label: "Se prisen"
     btn_class: "btn--success"
 gallery:
-  - url: https://i1.wp.com/geoawesomeness.com/wp-content/uploads/2017/08/stephen-lund.jpg?resize=696%2C493&ssl=1
-    image_path: //images.weserv.nl/?url=https://i1.wp.com/geoawesomeness.com/wp-content/uploads/2017/08/stephen-lund.jpg&w=400&h=267&a=attention&fit=cover
-    alt: "GPS Doodles - StravaArt"
-    title: "GPS Doodles - StravaArt"
-  - url: https://i0.wp.com/geoawesomeness.com/wp-content/uploads/2017/08/stephen-lund-1.jpg?resize=696%2C535&ssl=1
-    image_path: //images.weserv.nl/?url=https://i0.wp.com/geoawesomeness.com/wp-content/uploads/2017/08/stephen-lund-1.jpg&w=400&h=267&a=attention&fit=cover
-    alt: "GPS Doodles - StravaArt"
-    title: "GPS Doodles - StravaArt"
-  - url: https://i1.wp.com/geoawesomeness.com/wp-content/uploads/2017/08/stephen-lund-2.jpg?resize=696%2C385&ssl=1
-    image_path: //images.weserv.nl/?url=https://i1.wp.com/geoawesomeness.com/wp-content/uploads/2017/08/stephen-lund-2.jpg&w=400&h=267&a=attention&fit=cover
-    alt: "GPS Doodles - StravaArt"
-    title: "GPS Doodles - StravaArt"
-  - url: https://i2.wp.com/geoawesomeness.com/wp-content/uploads/2017/08/stephen-lund-3.jpg?resize=696%2C472&ssl=1
-    image_path: //images.weserv.nl/?url=https://i2.wp.com/geoawesomeness.com/wp-content/uploads/2017/08/stephen-lund-3.jpg&w=400&h=267&a=attention&fit=cover
-    alt: "GPS Doodles - StravaArt"
-    title: "GPS Doodles - StravaArt"
-  - url: https://i1.wp.com/geoawesomeness.com/wp-content/uploads/2017/08/stephen-lund-4.jpg?resize=696%2C668&ssl=1
-    image_path: //images.weserv.nl/?url=https://i1.wp.com/geoawesomeness.com/wp-content/uploads/2017/08/stephen-lund-4.jpg&w=400&h=267&a=attention&fit=cover
-    alt: "GPS Doodles - StravaArt"
-    title: "GPS Doodles - StravaArt"
-  - url: https://i0.wp.com/geoawesomeness.com/wp-content/uploads/2017/08/stephen-lund-5.jpg?resize=696%2C561&ssl=1
-    image_path: //images.weserv.nl/?url=https://i0.wp.com/geoawesomeness.com/wp-content/uploads/2017/08/stephen-lund-5.jpg&w=400&h=267&a=attention&fit=cover
+  - url: https://www.facebook.com/GPSdoodles/photos
+    image_path: /assets/images/blog/gpsdoodles.png
     alt: "GPS Doodles - StravaArt"
     title: "GPS Doodles - StravaArt"
 gallery_mine:

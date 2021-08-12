@@ -129,11 +129,11 @@ Jeg har læst virkelig mange sites og [grundige anbefalinger](https://www.garage
 
 Både [Nikolaj Bach](https://nikolajbach.dk/safety-bar-squats/), [Simon Bigshooter](https://andersnedergaard.dk/fitness-mk/fitness-m-k-233/) og [Coop fra garagegymreviews.com](https://www.garagegymreviews.com/the-best-safety-squat-bar) anbefaler safety baren fra EliteFts.
 
-- **[EliteFts Yoke Bar](https://www.elitefts.com/elitefts-ss-yoke-bar.html)**. EliteFts var blandt de første, der udviklede en safety bar. Den har først og fremmest det rigtige design, og så er den konstrueret til at håndtere meget vægt over lang tid.
+- **[EliteFts SS Yoke Bar](https://www.elitefts.com/ss-yoke-bar.html)**. EliteFts var blandt de første, der udviklede en safety bar. Den har først og fremmest det rigtige design, og så er den konstrueret til at håndtere meget vægt over lang tid.
 
 Her kan du se forskellige måder, safety baren fra EliteFts kan bruges på.
 
-{% include figure image_path="https://www.elitefts.com/wp/wp-content/uploads/2016/04/ssb3.jpg" caption="Yoke Safety Bar fra EliteFts. Kilde: [www.elitefts.com](https://www.elitefts.com/training-logs/safety-squat-bar-box-squats/)." alt="Yoke Safety Bar til Squat fra EliteFts" %}
+{% include figure image_path="https://www.elitefts.com/wp/wp-content/uploads/2016/04/ssb3.jpg" caption="Yoke Safety Bar fra EliteFts. Kilde: [www.elitefts.com](https://www.elitefts.com/)." alt="Yoke Safety Bar til Squat fra EliteFts" %}
 
 [Coop](https://www.garagegymreviews.com/the-best-safety-squat-bar) anbefaler imidlertid også denne safety bar fra Titan. Garagegymreviews.com er uden tvivl et _affiliate_ site, men gennemgangen af de forskellige _safety bars_ er virkelig grundig.
 
