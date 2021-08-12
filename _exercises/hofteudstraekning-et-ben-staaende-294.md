@@ -7,9 +7,7 @@ redirect_from: /node/294
 id: 294
 language: da
 header:
-  overlay_image: /assets/images/exercises/hofteudstraekning-et-ben-staaende-0.jpg
   teaser: /assets/images/exercises/hofteudstraekning-et-ben-staaende-0-320.jpg
-  caption: *title
 tags:
   - hoftedomineret
   - kabeltræk

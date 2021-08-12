@@ -7,7 +7,6 @@ redirect_from: /node/640
 id: 640
 language: da
 header:
-  overlay_image: /assets/images/exercises/contalateral-knee-touch-0.jpg
   teaser: /assets/images/exercises/contalateral-knee-touch-0-320.jpg
   caption: *title
 tags:
@@ -48,5 +47,3 @@ gallery:
     title: "Contalateral knee touch"
 last_modified_at: 2015-03-27T13:54:11Z
 ---
-
-

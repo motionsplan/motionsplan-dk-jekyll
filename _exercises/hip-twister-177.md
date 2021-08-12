@@ -7,23 +7,17 @@ redirect_from: /node/177
 id: 177
 language: da
 header:
-  overlay_image: /assets/images/exercises/hip-twister-0.jpg
   teaser: /assets/images/exercises/hip-twister-0-320.jpg
-  caption: *title
 tags:
   - kropsstamme
   - swissball
-  - 
-  - 
 categories: []
 training_type: 
 training_focus: 
   - kropsstamme
 equipment:
   - swissball
-muscle_group:
-  - 
-  - 
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/hip-twister-0.jpg
     image_path: /assets/images/exercises/hip-twister-0-320.jpg

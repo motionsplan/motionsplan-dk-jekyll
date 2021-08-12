@@ -7,9 +7,7 @@ redirect_from: /node/168
 id: 168
 language: da
 header:
-  overlay_image: /assets/images/exercises/udstraekning-af-baglaar-og-laeg-0.jpg
   teaser: /assets/images/exercises/udstraekning-af-baglaar-og-laeg-0-320.jpg
-  caption: *title
 tags:
   - Parøvelser
   - Strækøvelser

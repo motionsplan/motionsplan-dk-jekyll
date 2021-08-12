@@ -7,9 +7,7 @@ redirect_from: /node/508
 id: 508
 language: da
 header:
-  overlay_image: /assets/images/exercises/mave-hanging-leg-raise-0.jpg
   teaser: /assets/images/exercises/mave-hanging-leg-raise-0-320.jpg
-  caption: *title
 tags: []
 categories: []
 training_type: [] 

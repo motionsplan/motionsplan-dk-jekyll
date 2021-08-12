@@ -7,9 +7,7 @@ redirect_from: /node/684
 id: 684
 language: da
 header:
-  overlay_image: /assets/images/exercises/smr-skulderblad-0.jpg
   teaser: /assets/images/exercises/smr-skulderblad-0-320.jpg
-  caption: *title
 tags:
   - Self Myofascial Release (SMR)
   - lacrosse bold

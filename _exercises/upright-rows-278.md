@@ -7,9 +7,7 @@ redirect_from: /node/278
 id: 278
 language: da
 header:
-  overlay_image: /assets/images/exercises/upright-rows-0.jpg
   teaser: /assets/images/exercises/upright-rows-0-320.jpg
-  caption: *title
 tags: []
 categories: []
 training_type: [] 

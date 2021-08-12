@@ -7,9 +7,7 @@ redirect_from: /node/21
 id: 21
 language: da
 header:
-  overlay_image: /assets/images/exercises/roning-etbens-0.jpg
   teaser: /assets/images/exercises/roning-etbens-0-320.jpg
-  caption: *title
 tags:
   - Træk
   - Styrketræning

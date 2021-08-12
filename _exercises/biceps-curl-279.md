@@ -8,7 +8,6 @@ id: 279
 key: 279
 language: da
 header:
-  overlay_image: /assets/images/exercises/biceps-curl-0.jpg
   teaser: /assets/images/exercises/biceps-curl-0-320.jpg
   caption: *title
 tags:

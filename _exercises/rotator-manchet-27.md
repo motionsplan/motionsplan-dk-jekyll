@@ -7,9 +7,7 @@ redirect_from: /node/27
 id: 27
 language: da
 header:
-  overlay_image: /assets/images/exercises/rotator-manchet-0.jpg
   teaser: /assets/images/exercises/rotator-manchet-0-320.jpg
-  caption: *title
 tags: []
 categories: []
 training_type: [] 

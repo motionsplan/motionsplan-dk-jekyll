@@ -7,9 +7,7 @@ redirect_from: /node/262
 id: 262
 language: da
 header:
-  overlay_image: /assets/images/exercises/triceps-fransk-pres-0.jpg
   teaser: /assets/images/exercises/triceps-fransk-pres-0-320.jpg
-  caption: *title
 tags:
   - vægtstang
   - fitnessinstruktør

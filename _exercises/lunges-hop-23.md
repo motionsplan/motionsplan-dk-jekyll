@@ -7,9 +7,7 @@ redirect_from: /node/23
 id: 23
 language: da
 header:
-  overlay_image: /assets/images/exercises/lunges-hop-0.jpg
   teaser: /assets/images/exercises/lunges-hop-0-320.jpg
-  caption: *title
 tags:
   - Kondition og puls
   - Kondition

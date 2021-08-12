@@ -7,9 +7,7 @@ redirect_from: /node/718
 id: 718
 language: da
 header:
-  overlay_image: /assets/images/exercises/vandret-roning-supineret-0.jpg
   teaser: /assets/images/exercises/vandret-roning-supineret-0-320.jpg
-  caption: *title
 tags: []
 categories: []
 training_type: [] 

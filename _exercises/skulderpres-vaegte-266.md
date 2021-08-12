@@ -7,9 +7,7 @@ redirect_from: /node/266
 id: 266
 language: da
 header:
-  overlay_image: /assets/images/exercises/skulderpres-vaegte-0.jpg
   teaser: /assets/images/exercises/skulderpres-vaegte-0-320.jpg
-  caption: *title
 tags:
   - vægtstang
   - håndvægte

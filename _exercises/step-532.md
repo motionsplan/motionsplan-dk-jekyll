@@ -7,9 +7,7 @@ redirect_from: /node/532
 id: 532
 language: da
 header:
-  overlay_image: /assets/images/exercises/step-0.jpg
   teaser: /assets/images/exercises/step-0-320.jpg
-  caption: *title
 tags:
   - Kondition og puls
   - Kondition
@@ -57,5 +55,3 @@ gallery:
     title: "Step, footwork"
 last_modified_at: 2014-10-30T11:39:48Z
 ---
-
-

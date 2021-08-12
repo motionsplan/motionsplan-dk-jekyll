@@ -7,9 +7,7 @@ redirect_from: /node/635
 id: 635
 language: da
 header:
-  overlay_image: /assets/images/exercises/hip-thrusters-leg-lift-0.jpg
   teaser: /assets/images/exercises/hip-thrusters-leg-lift-0-320.jpg
-  caption: *title
 tags:
   - Kropsstamme
   - Styrketræning
@@ -41,5 +39,3 @@ gallery:
     title: "Supine bridge with leg lift"
 last_modified_at: 2016-10-14T11:38:06Z
 ---
-
-

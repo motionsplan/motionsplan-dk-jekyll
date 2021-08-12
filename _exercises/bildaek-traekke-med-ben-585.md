@@ -9,7 +9,6 @@ redirect_from:
 id: 585
 language: da
 header:
-  overlay_image: /assets/images/exercises/bildaek-traekke-med-ben-0.jpg
   teaser: /assets/images/exercises/bildaek-traekke-med-ben-0-320.jpg
   caption: *title
 tags:

@@ -7,9 +7,7 @@ redirect_from: /node/626
 id: 626
 language: da
 header:
-  overlay_image: /assets/images/exercises/hip-thrusters-0.jpg
   teaser: /assets/images/exercises/hip-thrusters-0-320.jpg
-  caption: *title
 tags:
   - Kropsstamme
   - Styrketræning
@@ -43,5 +41,3 @@ gallery:
     title: "Hip thrusts"
 last_modified_at: 2016-10-18T07:15:52Z
 ---
-
-

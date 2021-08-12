@@ -9,9 +9,7 @@ redirect_from:
 id: 593
 language: da
 header:
-  overlay_image: /assets/images/exercises/lunges-kettlebell-skifter-haand-0.jpg
   teaser: /assets/images/exercises/lunges-kettlebell-skifter-haand-0-320.jpg
-  caption: *title
 tags:
   - Kropsstamme
   - Styrketræning
@@ -56,5 +54,3 @@ gallery:
     title: "Lunges, kettlebell skifter hånd"
 last_modified_at: 2014-10-12T21:52:10Z
 ---
-
-

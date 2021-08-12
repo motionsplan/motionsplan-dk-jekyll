@@ -7,9 +7,7 @@ redirect_from: /node/560
 id: 560
 language: da
 header:
-  overlay_image: /assets/images/exercises/prowler-0.jpg
   teaser: /assets/images/exercises/prowler-0-320.jpg
-  caption: *title
 tags:
   - Helkropsøvelse
   - Kondition
@@ -48,5 +46,3 @@ gallery:
     title: "Prowler"
 last_modified_at: 2016-01-11T08:39:24Z
 ---
-
-

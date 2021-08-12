@@ -7,9 +7,7 @@ redirect_from: /node/700
 id: 700
 language: da
 header:
-  overlay_image: /assets/images/exercises/wall-hip-flexor-0.jpg
   teaser: /assets/images/exercises/wall-hip-flexor-0-320.jpg
-  caption: *title
 tags:
   - Mobilisering
   - Strækøvelser

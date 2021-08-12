@@ -7,9 +7,7 @@ redirect_from: /node/64
 id: 64
 language: da
 header:
-  overlay_image: /assets/images/exercises/lunges-med-drejning-0.jpg
   teaser: /assets/images/exercises/lunges-med-drejning-0-320.jpg
-  caption: *title
 tags:
   - Helkropsøvelse
   - vægtskive

@@ -7,9 +7,7 @@ redirect_from: /node/671
 id: 671
 language: da
 header:
-  overlay_image: /assets/images/exercises/rite-2-maveoevelse-0.jpg
   teaser: /assets/images/exercises/rite-2-maveoevelse-0-320.jpg
-  caption: *title
 tags:
   - Koordination og balance
   - Styrketræning

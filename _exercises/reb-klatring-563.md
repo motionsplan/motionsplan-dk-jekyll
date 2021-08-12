@@ -7,9 +7,7 @@ redirect_from: /node/563
 id: 563
 language: da
 header:
-  overlay_image: /assets/images/exercises/reb-klatring-0.jpg
   teaser: /assets/images/exercises/reb-klatring-0-320.jpg
-  caption: *title
 tags:
   - Helkropsøvelse
   - tov

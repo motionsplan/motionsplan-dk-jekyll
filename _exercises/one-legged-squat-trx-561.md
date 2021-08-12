@@ -7,9 +7,7 @@ redirect_from: /node/561
 id: 561
 language: da
 header:
-  overlay_image: /assets/images/exercises/one-legged-squat-trx-0.jpg
   teaser: /assets/images/exercises/one-legged-squat-trx-0-320.jpg
-  caption: *title
 tags:
   - Helkropsøvelse
   - trx

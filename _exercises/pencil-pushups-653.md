@@ -7,9 +7,7 @@ redirect_from: /node/653
 id: 653
 language: da
 header:
-  overlay_image: /assets/images/exercises/pencil-pushups-0.jpg
   teaser: /assets/images/exercises/pencil-pushups-0-320.jpg
-  caption: *title
 tags:
   - Balance
   - Øjne

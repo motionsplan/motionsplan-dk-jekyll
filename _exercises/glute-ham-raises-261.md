@@ -7,9 +7,7 @@ redirect_from: /node/261
 id: 261
 key: 261
 header:
-  overlay_image: /assets/images/exercises/glute-ham-raises-0.jpg
   teaser: /assets/images/exercises/glute-ham-raises-0-320.jpg
-  caption: *title
 tags:
   - hoftedomineret
   - maskine

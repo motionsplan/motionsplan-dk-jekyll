@@ -7,7 +7,6 @@ redirect_from: /node/564
 id: 564
 language: da
 header:
-  overlay_image: /assets/images/exercises/balancebom-0.jpg
   teaser: /assets/images/exercises/balancebom-0-320.jpg
   caption: *title
 tags:

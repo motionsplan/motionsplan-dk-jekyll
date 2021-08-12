@@ -9,12 +9,7 @@ video:
   provider: youtube
   id: Da75bVCfTNo
 #header:
-#  overlay_image: /assets/images/exercises/180-jump-0.jpg
 #  teaser: /assets/images/exercises/180-jump-0-320.jpg
-#  actions:
-#    - label: '<i class="far fa-file-pdf" aria-hidden="true"></i>'
-#      url: "/assets/pdf/exercises/180-jump-30.pdf"
-#  caption: *title
 tags:
 #  - kropsvægt
 categories: []

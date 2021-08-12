@@ -7,9 +7,7 @@ redirect_from: /node/68
 id: 68
 language: da
 header:
-  overlay_image: /assets/images/exercises/lunges-stepup-0.jpg
   teaser: /assets/images/exercises/lunges-stepup-0-320.jpg
-  caption: *title
 tags:
   - Ben
   - Styrketræning

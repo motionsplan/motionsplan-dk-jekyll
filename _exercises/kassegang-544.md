@@ -7,9 +7,7 @@ redirect_from: /node/544
 id: 544
 language: da
 header:
-  overlay_image: /assets/images/exercises/kassegang-0.jpg
   teaser: /assets/images/exercises/kassegang-0-320.jpg
-  caption: *title
 tags:
   - Koordination og balance
 categories:

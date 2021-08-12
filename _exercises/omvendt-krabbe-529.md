@@ -7,9 +7,7 @@ redirect_from: /node/529
 id: 529
 language: da
 header:
-  overlay_image: /assets/images/exercises/omvendt-krabbe-0.jpg
   teaser: /assets/images/exercises/omvendt-krabbe-0-320.jpg
-  caption: *title
 tags:
   - Koordination og balance
   - Styrketræning
@@ -49,5 +47,3 @@ gallery:
     title: "Omvendt krabbe"
 last_modified_at: 2014-10-12T21:40:05Z
 ---
-
-

@@ -7,7 +7,6 @@ redirect_from: /node/90
 id: 90
 language: da
 header:
-  overlay_image: /assets/images/exercises/dips-med-coretraening-0.jpg
   teaser: /assets/images/exercises/dips-med-coretraening-0-320.jpg
   caption: *title
 tags:

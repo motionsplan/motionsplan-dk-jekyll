@@ -7,9 +7,7 @@ redirect_from: /node/651
 id: 651
 language: da
 header:
-  overlay_image: /assets/images/exercises/skulder-internal-rotation-0-0.jpg
   teaser: /assets/images/exercises/skulder-internal-rotation-0-0-320.jpg
-  caption: *title
 tags:
   - Koordination og balance
   - Styrketræning
@@ -37,5 +35,3 @@ gallery:
     title: "Skulder, internal rotation"
 last_modified_at: 2015-04-10T13:26:23Z
 ---
-
-

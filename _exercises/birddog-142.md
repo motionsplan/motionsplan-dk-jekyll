@@ -7,7 +7,6 @@ redirect_from: /node/142
 id: 142
 language: da
 header:
-  overlay_image: /assets/images/exercises/birddog-0.jpg
   teaser: /assets/images/exercises/birddog-0-320.jpg
   caption: *title
 tags:

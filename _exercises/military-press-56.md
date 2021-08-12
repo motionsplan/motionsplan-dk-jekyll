@@ -7,9 +7,7 @@ redirect_from: /node/56
 id: 56
 language: da
 header:
-  overlay_image: /assets/images/exercises/military-press-0.jpg
   teaser: /assets/images/exercises/military-press-0-320.jpg
-  caption: *title
 tags:
   - Hård styrkeøvelse
   - Styrketræning

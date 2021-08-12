@@ -7,9 +7,7 @@ redirect_from: /node/271
 id: 271
 language: da
 header:
-  overlay_image: /assets/images/exercises/laeg-0.jpg
   teaser: /assets/images/exercises/laeg-0-320.jpg
-  caption: *title
 tags:
   - Ben
   - Styrketræning

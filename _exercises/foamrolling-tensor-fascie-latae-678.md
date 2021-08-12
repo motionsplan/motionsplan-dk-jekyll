@@ -7,7 +7,6 @@ redirect_from: /node/678
 id: 678
 language: da
 header:
-  overlay_image: /assets/images/exercises/foamrolling-tensor-fascie-latae-0.jpg
   teaser: /assets/images/exercises/foamrolling-tensor-fascie-latae-0-320.jpg
   caption: *title
 tags:

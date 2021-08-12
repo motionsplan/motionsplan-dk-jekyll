@@ -7,9 +7,7 @@ redirect_from: /node/632
 id: 632
 language: da
 header:
-  overlay_image: /assets/images/exercises/skuldermobilisering-i-0.jpg
   teaser: /assets/images/exercises/skuldermobilisering-i-0-320.jpg
-  caption: *title
 tags:
   - Koordination og balance
   - Mobilisering
@@ -52,5 +50,3 @@ gallery:
     title: "Skuldermobilisering I"
 last_modified_at: 2015-03-21T16:16:26Z
 ---
-
-

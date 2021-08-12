@@ -7,7 +7,6 @@ redirect_from: /node/55
 id: 55
 language: da
 header:
-  overlay_image: /assets/images/exercises/doedloeft-0.jpg
   teaser: /assets/images/exercises/doedloeft-0-320.jpg
   caption: *title
 tags:

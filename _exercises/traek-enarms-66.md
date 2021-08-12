@@ -7,9 +7,7 @@ redirect_from: /node/66
 id: 66
 language: da
 header:
-  overlay_image: /assets/images/exercises/traek-enarms-0.jpg
   teaser: /assets/images/exercises/traek-enarms-0-320.jpg
-  caption: *title
 tags:
   - Helkropsøvelse
   - håndvægte

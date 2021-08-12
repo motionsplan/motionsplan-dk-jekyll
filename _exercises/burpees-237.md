@@ -7,7 +7,6 @@ redirect_from: /node/237
 id: 237
 language: da
 header:
-  overlay_image: /assets/images/exercises/burpees-0.jpg
   teaser: /assets/images/exercises/burpees-0-320.jpg
   caption: *title
 tags:

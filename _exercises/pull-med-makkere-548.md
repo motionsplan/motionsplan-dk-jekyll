@@ -7,9 +7,7 @@ redirect_from: /node/548
 id: 548
 language: da
 header:
-  overlay_image: /assets/images/exercises/pull-med-makkere-0.jpg
   teaser: /assets/images/exercises/pull-med-makkere-0-320.jpg
-  caption: *title
 tags:
   - Træk
 categories:

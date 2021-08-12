@@ -7,21 +7,16 @@ redirect_from: /node/176
 id: 176
 language: da
 header:
-  overlay_image: /assets/images/exercises/hofteboejer-0.jpg
   teaser: /assets/images/exercises/hofteboejer-0-320.jpg
   caption: *title
 tags:
   - bar
-  - 
-  - 
 categories: []
 training_type: [] 
 training_focus: []
 equipment:
   - bar
-muscle_group:
-  - 
-  - 
+muscle_group: []
 alternative_titles:
   - Hoftebøjer i ribbe
 gallery:

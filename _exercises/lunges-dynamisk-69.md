@@ -7,17 +7,15 @@ redirect_from: /node/69
 id: 69
 language: da
 header:
-  overlay_image: /assets/images/exercises/lunges-dynamisk-0.jpg
   teaser: /assets/images/exercises/lunges-dynamisk-0-320.jpg
-  caption: *title
 tags:
   - knædomineret
   - vægtstang
   - fitnessinstruktør
   - crossfit
 categories: []
-training_type: 
-training_focus: 
+training_type:  []
+training_focus:
   - knædomineret
 equipment:
   - vægtstang

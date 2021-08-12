@@ -7,9 +7,7 @@ redirect_from: /node/596
 id: 596
 language: da
 header:
-  overlay_image: /assets/images/exercises/egypteren-0.jpg
   teaser: /assets/images/exercises/egypteren-0-320.jpg
-  caption: *title
 tags:
   - Koordination og balance
   - Mobilisering
@@ -36,5 +34,3 @@ gallery:
     title: "Egypteren"
 last_modified_at: 2014-10-12T22:06:25Z
 ---
-
-

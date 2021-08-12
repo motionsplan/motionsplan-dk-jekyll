@@ -7,9 +7,7 @@ redirect_from: /node/40
 id: 40
 language: da
 header:
-  overlay_image: /assets/images/exercises/sumo-doedloeft-0.jpg
   teaser: /assets/images/exercises/sumo-doedloeft-0-320.jpg
-  caption: *title
 tags:
   - Ben
 categories:

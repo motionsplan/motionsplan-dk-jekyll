@@ -7,9 +7,7 @@ redirect_from: /node/603
 id: 603
 language: da
 header:
-  overlay_image: /assets/images/exercises/squat-rolling-standing-0.jpg
   teaser: /assets/images/exercises/squat-rolling-standing-0-320.jpg
-  caption: *title
 tags:
   - Helkropsøvelse
   - Styrketræning
@@ -70,5 +68,3 @@ gallery:
     title: "Squat, rolling to standing"
 last_modified_at: 2014-10-12T22:21:09Z
 ---
-
-

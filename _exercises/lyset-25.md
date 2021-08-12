@@ -7,9 +7,7 @@ redirect_from: /node/25
 id: 25
 language: da
 header:
-  overlay_image: /assets/images/exercises/lyset-0.jpg
   teaser: /assets/images/exercises/lyset-0-320.jpg
-  caption: *title
 tags:
   - kropsstamme
   - bænk

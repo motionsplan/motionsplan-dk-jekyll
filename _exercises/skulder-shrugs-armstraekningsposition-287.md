@@ -7,9 +7,7 @@ redirect_from: /node/287
 id: 287
 language: da
 header:
-  overlay_image: /assets/images/exercises/skulder-shrugs-armstraekningsposition-0.jpg
   teaser: /assets/images/exercises/skulder-shrugs-armstraekningsposition-0-320.jpg
-  caption: *title
 tags:
   - kropsvægt
 categories: []

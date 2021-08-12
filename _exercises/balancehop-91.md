@@ -7,7 +7,6 @@ redirect_from: /node/91
 id: 91
 language: da
 header:
-  overlay_image: /assets/images/exercises/balancehop-0.jpg
   teaser: /assets/images/exercises/balancehop-0-320.jpg
   caption: *title
 tags:

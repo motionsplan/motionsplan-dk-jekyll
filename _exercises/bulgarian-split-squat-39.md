@@ -7,7 +7,6 @@ redirect_from: /node/39
 id: 39
 language: da
 header:
-  overlay_image: /assets/images/exercises/bulgarian-split-squat-0.jpg
   teaser: /assets/images/exercises/bulgarian-split-squat-0-320.jpg
   caption: *title
 tags: []

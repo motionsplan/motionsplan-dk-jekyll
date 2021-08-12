@@ -9,7 +9,6 @@ redirect_from:
   - /node/727
 id: 733
 header:
-  overlay_image: /assets/images/exercises/bent-arm-waiter-walk-0.jpg
   teaser: /assets/images/exercises/bent-arm-waiter-walk-0-320.jpg
   caption: *title
 language: da
@@ -45,5 +44,3 @@ gallery:
     title: "Bent arm waiter walk"
 last_modified_at: 2016-10-18T07:30:55Z
 ---
-
-

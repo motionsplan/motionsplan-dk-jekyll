@@ -7,9 +7,7 @@ redirect_from: /node/357
 id: 357
 language: da
 header:
-  overlay_image: /assets/images/exercises/traek-med-taeerne-0.jpeg
   teaser: /assets/images/exercises/traek-med-taeerne-0-320.jpeg
-  caption: *title
 tags:
   - måtte
 categories: []

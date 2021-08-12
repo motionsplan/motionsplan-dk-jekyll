@@ -7,9 +7,7 @@ redirect_from: /node/74
 id: 74
 language: da
 header:
-  overlay_image: /assets/images/exercises/lunges-med-en-haandvaegt-over-hovedet-0.jpg
   teaser: /assets/images/exercises/lunges-med-en-haandvaegt-over-hovedet-0-320.jpg
-  caption: *title
 tags:
   - Helkropsøvelse
   - Styrketræning

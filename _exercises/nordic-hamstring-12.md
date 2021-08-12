@@ -6,9 +6,7 @@ redirect_from: /node/12
 id: 12
 language: da
 header:
-  overlay_image: /assets/images/exercises/nordic-hamstring-0.jpg
   teaser: /assets/images/exercises/nordic-hamstring-0-320.jpg
-  caption: *title
 tags:
   - Ben
   - Styrketræning

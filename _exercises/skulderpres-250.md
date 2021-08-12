@@ -7,9 +7,7 @@ redirect_from: /node/250
 id: 250
 language: da
 header:
-  overlay_image: /assets/images/exercises/skulderpres-0.jpg
   teaser: /assets/images/exercises/skulderpres-0-320.jpg
-  caption: *title
 tags:
   - maskine
 categories: []

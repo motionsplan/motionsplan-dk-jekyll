@@ -7,9 +7,7 @@ redirect_from: /node/155
 id: 155
 language: da
 header:
-  overlay_image: /assets/images/exercises/slaede-0.jpg
   teaser: /assets/images/exercises/slaede-0-320.jpg
-  caption: *title
 tags:
   - slæde
 categories: []

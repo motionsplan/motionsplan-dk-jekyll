@@ -9,7 +9,6 @@ redirect_from:
 id: 576
 language: da
 header:
-  overlay_image: /assets/images/exercises/bildaek-slaa-et-trae-0.jpg
   teaser: /assets/images/exercises/bildaek-slaa-et-trae-0-320.jpg
   caption: *title
 tags:

@@ -7,9 +7,7 @@ redirect_from: /node/183
 id: 183
 language: da
 header:
-  overlay_image: /assets/images/exercises/stir-pot-0.jpg
   teaser: /assets/images/exercises/stir-pot-0-320.jpg
-  caption: *title
 tags:
   - swissball
 categories: []

@@ -7,9 +7,7 @@ redirect_from: /node/243
 id: 243
 language: da
 header:
-  overlay_image: /assets/images/exercises/rygstraekning-0.jpg
   teaser: /assets/images/exercises/rygstraekning-0-320.jpg
-  caption: *title
 tags:
   - Kropsstamme
   - Styrketræning

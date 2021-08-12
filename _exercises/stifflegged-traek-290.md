@@ -7,9 +7,7 @@ redirect_from: /node/290
 id: 290
 language: da
 header:
-  overlay_image: /assets/images/exercises/stifflegged-traek-0.jpg
   teaser: /assets/images/exercises/stifflegged-traek-0-320.jpg
-  caption: *title
 tags:
   - hoftedomineret
   - vægtstang

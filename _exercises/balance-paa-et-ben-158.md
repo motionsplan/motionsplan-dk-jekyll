@@ -7,7 +7,6 @@ redirect_from: /node/158
 id: 158
 language: da
 header:
-  overlay_image: /assets/images/exercises/balance-paa-et-ben-0.jpg
   teaser: /assets/images/exercises/balance-paa-et-ben-0-320.jpg
   caption: *title
 tags:

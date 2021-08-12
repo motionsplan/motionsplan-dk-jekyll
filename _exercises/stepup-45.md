@@ -7,9 +7,7 @@ redirect_from: /node/45
 id: 45
 language: da
 header:
-  overlay_image: /assets/images/exercises/stepup-0.jpg
   teaser: /assets/images/exercises/stepup-0-320.jpg
-  caption: *title
 tags: []
 categories: []
 training_type: [] 

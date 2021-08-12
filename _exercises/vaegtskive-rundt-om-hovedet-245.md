@@ -7,9 +7,7 @@ redirect_from: /node/245
 id: 245
 language: da
 header:
-  overlay_image: /assets/images/exercises/vaegtskive-rundt-om-hovedet-0.jpg
   teaser: /assets/images/exercises/vaegtskive-rundt-om-hovedet-0-320.jpg
-  caption: *title
 tags:
   - vægtskive
 categories: []

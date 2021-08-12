@@ -7,7 +7,6 @@ redirect_from: /node/297
 id: 297
 language: da
 header:
-  overlay_image: /assets/images/exercises/kast-bildaek-0.jpg
   teaser: /assets/images/exercises/kast-bildaek-0-320.jpg
   caption: *title
 tags:

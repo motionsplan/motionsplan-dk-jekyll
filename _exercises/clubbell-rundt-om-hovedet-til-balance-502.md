@@ -7,7 +7,6 @@ redirect_from: /node/502
 id: 502
 language: da
 header:
-  overlay_image: /assets/images/exercises/clubbell-rundt-om-hovedet-til-balance-0.jpg
   teaser: /assets/images/exercises/clubbell-rundt-om-hovedet-til-balance-0-320.jpg
   caption: *title
 tags:

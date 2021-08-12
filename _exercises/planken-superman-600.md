@@ -7,9 +7,7 @@ redirect_from: /node/600
 id: 600
 language: da
 header:
-  overlay_image: /assets/images/exercises/planken-superman-0.jpg
   teaser: /assets/images/exercises/planken-superman-0-320.jpg
-  caption: *title
 tags:
   - Kropsstamme
   - Styrketræning
@@ -50,5 +48,3 @@ gallery:
     title: "Planken, superman"
 last_modified_at: 2014-10-12T22:16:03Z
 ---
-
-

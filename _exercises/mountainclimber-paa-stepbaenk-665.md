@@ -7,9 +7,7 @@ redirect_from: /node/665
 id: 665
 language: da
 header:
-  overlay_image: /assets/images/exercises/mountainclimber-paa-stepbaenk-0.jpg
   teaser: /assets/images/exercises/mountainclimber-paa-stepbaenk-0-320.jpg
-  caption: *title
 tags:
   - Kondition og puls
   - Kondition
@@ -44,5 +42,3 @@ gallery:
     title: "Mountainclimber på stepbænk"
 last_modified_at: 2015-04-07T11:51:30Z
 ---
-
-

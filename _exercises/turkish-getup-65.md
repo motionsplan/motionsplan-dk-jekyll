@@ -7,9 +7,7 @@ redirect_from: /node/65
 id: 65
 language: da
 header:
-  overlay_image: /assets/images/exercises/turkish-getup-0.jpg
   teaser: /assets/images/exercises/turkish-getup-0-320.jpg
-  caption: *title
 tags:
   - Helkropsøvelse
   - Styrketræning

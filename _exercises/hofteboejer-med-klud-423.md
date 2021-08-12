@@ -7,9 +7,7 @@ redirect_from: /node/423
 id: 423
 language: da
 header:
-  overlay_image: /assets/images/exercises/hofteboejer-med-klud-0.jpg
   teaser: /assets/images/exercises/hofteboejer-med-klud-0-320.jpg
-  caption: *title
 tags:
   - kropsstamme
   - klud

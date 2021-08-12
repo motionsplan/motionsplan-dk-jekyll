@@ -7,9 +7,7 @@ redirect_from: /node/73
 id: 73
 language: da
 header:
-  overlay_image: /assets/images/exercises/tabata-intervaller-0.jpg
   teaser: /assets/images/exercises/tabata-intervaller-0-320.jpg
-  caption: *title
 tags:
   - Kondition
 categories: []

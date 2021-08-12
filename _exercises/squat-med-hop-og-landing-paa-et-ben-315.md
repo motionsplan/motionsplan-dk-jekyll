@@ -7,9 +7,7 @@ redirect_from: /node/315
 id: 315
 language: da
 header:
-  overlay_image: /assets/images/exercises/squat-med-hop-og-landing-paa-et-ben-0.jpg
   teaser: /assets/images/exercises/squat-med-hop-og-landing-paa-et-ben-0-320.jpg
-  caption: *title
 tags:
   - kropsvægt
 categories: []

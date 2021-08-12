@@ -7,7 +7,6 @@ redirect_from: /node/634
 id: 634
 language: da
 header:
-  overlay_image: /assets/images/exercises/fire-hydrant-straight-legged-0.jpg
   teaser: /assets/images/exercises/fire-hydrant-straight-legged-0-320.jpg
   caption: *title
 tags:
@@ -37,5 +36,3 @@ gallery:
     title: "Fire hydrant - straight legged"
 last_modified_at: 2015-03-21T16:20:14Z
 ---
-
-

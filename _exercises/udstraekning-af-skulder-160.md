@@ -7,9 +7,7 @@ redirect_from: /node/160
 id: 160
 language: da
 header:
-  overlay_image: /assets/images/exercises/udstraekning-af-skulder-0.jpg
   teaser: /assets/images/exercises/udstraekning-af-skulder-0-320.jpg
-  caption: *title
 tags:
   - Parøvelser
   - Strækøvelser

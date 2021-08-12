@@ -7,9 +7,7 @@ redirect_from: /node/729
 id: 729
 language: da
 header:
-  overlay_image: /assets/images/exercises/step-front-loaded-0.jpg
   teaser: /assets/images/exercises/step-front-loaded-0-320.jpg
-  caption: *title
 tags:
   - Styrketræning
   - knædomineret

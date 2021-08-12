@@ -7,7 +7,6 @@ redirect_from: /node/680
 id: 680
 language: da
 header:
-  overlay_image: /assets/images/exercises/foamrolling-oevre-ryg-0.jpg
   teaser: /assets/images/exercises/foamrolling-oevre-ryg-0-320.jpg
   caption: *title
 tags:

@@ -8,9 +8,7 @@ id: 43
 key: 43
 language: da
 header:
-  overlay_image: /assets/images/exercises/romanian-deadlift-0.jpg
   teaser: /assets/images/exercises/romanian-deadlift-0-320.jpg
-  caption: *title
 tags:
   - Hård styrkeøvelse
   - Styrketræning

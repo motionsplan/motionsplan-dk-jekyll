@@ -7,9 +7,7 @@ redirect_from: /node/274
 id: 274
 language: da
 header:
-  overlay_image: /assets/images/exercises/shrug-0.jpg
   teaser: /assets/images/exercises/shrug-0-320.jpg
-  caption: *title
 tags:
   - Træk
   - Styrketræning

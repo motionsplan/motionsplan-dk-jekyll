@@ -7,9 +7,7 @@ redirect_from: /node/654
 id: 654
 language: da
 header:
-  overlay_image: /assets/images/exercises/eye-spirals-0.png
   teaser: /assets/images/exercises/eye-spirals-0-320.png
-  caption: *title
 tags: []
 categories: []
 training_type: [] 

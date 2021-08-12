@@ -7,9 +7,7 @@ redirect_from: /node/54
 id: 54
 language: da
 header:
-  overlay_image: /assets/images/exercises/split-squat-0.jpg
   teaser: /assets/images/exercises/split-squat-0-320.jpg
-  caption: *title
 tags: []
 categories: []
 training_type: [] 

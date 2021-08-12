@@ -7,9 +7,7 @@ redirect_from: /node/511
 id: 511
 language: da
 header:
-  overlay_image: /assets/images/exercises/grebsstyrke-grib-sten-0.jpg
   teaser: /assets/images/exercises/grebsstyrke-grib-sten-0-320.jpg
-  caption: *title
 tags: []
 categories: []
 training_type: [] 

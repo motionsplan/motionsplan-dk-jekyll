@@ -7,7 +7,6 @@ redirect_from: /node/681
 id: 681
 language: da
 header:
-  overlay_image: /assets/images/exercises/foamrolling-nedre-ryg-0.jpg
   teaser: /assets/images/exercises/foamrolling-nedre-ryg-0-320.jpg
   caption: *title
 tags:

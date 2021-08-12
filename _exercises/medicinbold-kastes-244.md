@@ -7,9 +7,7 @@ redirect_from: /node/244
 id: 244
 language: da
 header:
-  overlay_image: /assets/images/exercises/medicinbold-kastes-0.jpg
   teaser: /assets/images/exercises/medicinbold-kastes-0-320.jpg
-  caption: *title
 tags:
   - Kropsstamme
   - Styrketræning

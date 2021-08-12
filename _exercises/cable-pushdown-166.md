@@ -7,7 +7,6 @@ redirect_from: /node/166
 id: 166
 language: da
 header:
-  overlay_image: /assets/images/exercises/cable-pushdown-0.jpg
   teaser: /assets/images/exercises/cable-pushdown-0-320.jpg
   caption: *title
 tags:

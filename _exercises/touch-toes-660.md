@@ -7,9 +7,7 @@ redirect_from: /node/660
 id: 660
 language: da
 header:
-  overlay_image: /assets/images/exercises/touch-toes-0.jpg
   teaser: /assets/images/exercises/touch-toes-0-320.jpg
-  caption: *title
 tags:
   - Strækøvelser
   - kropsvægt

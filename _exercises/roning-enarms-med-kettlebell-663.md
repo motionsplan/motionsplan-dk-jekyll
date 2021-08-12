@@ -7,9 +7,7 @@ redirect_from: /node/663
 id: 663
 language: da
 header:
-  overlay_image: /assets/images/exercises/roning-enarms-med-kettlebell-0.jpg
   teaser: /assets/images/exercises/roning-enarms-med-kettlebell-0-320.jpg
-  caption: *title
 tags:
   - Træk
   - Styrketræning
@@ -45,5 +43,3 @@ gallery:
     title: "Roning, enarms med kettlebell"
 last_modified_at: 2015-04-07T11:47:12Z
 ---
-
-

@@ -7,9 +7,7 @@ redirect_from: /node/172
 id: 172
 language: da
 header:
-  overlay_image: /assets/images/exercises/udstraekning-af-hasemusklen-og-laeg-0.jpg
   teaser: /assets/images/exercises/udstraekning-af-hasemusklen-og-laeg-0-320.jpg
-  caption: *title
 tags:
   - Strækøvelser
 categories: []

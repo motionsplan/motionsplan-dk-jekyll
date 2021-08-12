@@ -7,9 +7,7 @@ redirect_from: /node/310
 id: 310
 language: da
 header:
-  overlay_image: /assets/images/exercises/grebsstyrke-0.jpg
   teaser: /assets/images/exercises/grebsstyrke-0-320.jpg
-  caption: *title
 tags: []
 categories: []
 training_type: [] 

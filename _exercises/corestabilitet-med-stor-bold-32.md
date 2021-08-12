@@ -7,7 +7,6 @@ redirect_from: /node/32
 id: 32
 language: da
 header:
-  overlay_image: /assets/images/exercises/corestabilitet-med-stor-bold-0.jpg
   teaser: /assets/images/exercises/corestabilitet-med-stor-bold-0-320.jpg
   caption: *title
 tags:

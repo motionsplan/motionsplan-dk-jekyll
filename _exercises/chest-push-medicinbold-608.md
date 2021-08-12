@@ -7,7 +7,6 @@ redirect_from: /node/608
 id: 608
 language: da
 header:
-  overlay_image: /assets/images/exercises/chest-push-medicinbold-0.jpg
   teaser: /assets/images/exercises/chest-push-medicinbold-0-320.jpg
   caption: *title
 tags:
@@ -52,5 +51,3 @@ gallery:
     title: "Chest push medicinbold"
 last_modified_at: 2014-10-30T10:21:11Z
 ---
-
-

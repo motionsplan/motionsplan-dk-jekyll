@@ -7,21 +7,17 @@ redirect_from: /node/185
 id: 185
 language: da
 header:
-  overlay_image: /assets/images/exercises/maveoevelse-stuart-mcgill-curlup-0.jpg
   teaser: /assets/images/exercises/maveoevelse-stuart-mcgill-curlup-0-320.jpg
-  caption: *title
 tags:
   - kropsstamme
   - kropsvægt
-  - 
 categories: []
-training_type: 
+training_type: [] 
 training_focus: 
   - kropsstamme
 equipment:
   - kropsvægt
-muscle_group:
-  - 
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/maveoevelse-stuart-mcgill-curlup-0.jpg
     image_path: /assets/images/exercises/maveoevelse-stuart-mcgill-curlup-0-320.jpg

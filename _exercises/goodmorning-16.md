@@ -7,9 +7,7 @@ redirect_from: /node/16
 id: 16
 language: da
 header:
-  overlay_image: /assets/images/exercises/goodmorning-0.jpg
   teaser: /assets/images/exercises/goodmorning-0-320.jpg
-  caption: *title
 tags:
   - Kropsstamme
   - Styrketræning

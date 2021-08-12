@@ -7,7 +7,6 @@ redirect_from: /node/677
 id: 677
 language: da
 header:
-  overlay_image: /assets/images/exercises/foamrolling-it-band-0.jpg
   teaser: /assets/images/exercises/foamrolling-it-band-0-320.jpg
   caption: *title
 tags:

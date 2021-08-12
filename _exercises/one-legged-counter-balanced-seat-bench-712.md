@@ -7,9 +7,7 @@ redirect_from: /node/712
 id: 712
 language: da
 header:
-  overlay_image: /assets/images/exercises/one-legged-counter-balanced-seat-bench-0.jpg
   teaser: /assets/images/exercises/one-legged-counter-balanced-seat-bench-0-320.jpg
-  caption: *title
 tags:
   - Koordination og balance
   - Balance
@@ -48,5 +46,3 @@ video:
   id: aheJi8txzDY
 last_modified_at: 2016-10-18T07:18:12Z
 ---
-
-

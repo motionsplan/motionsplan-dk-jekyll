@@ -7,9 +7,7 @@ redirect_from: /node/348
 id: 348
 language: da
 header:
-  overlay_image: /assets/images/exercises/thrusters-0.jpg
   teaser: /assets/images/exercises/thrusters-0-320.jpg
-  caption: *title
 tags:
   - Helkropsøvelse
   - Styrketræning

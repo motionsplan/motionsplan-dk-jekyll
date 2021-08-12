@@ -7,7 +7,6 @@ redirect_from: /node/147
 id: 147
 language: da
 header:
-  overlay_image: /assets/images/exercises/fire-hydrant-0.jpg
   teaser: /assets/images/exercises/fire-hydrant-0-320.jpg
   caption: *title
 tags:

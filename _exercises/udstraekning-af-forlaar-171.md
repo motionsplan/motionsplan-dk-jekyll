@@ -7,9 +7,7 @@ redirect_from: /node/171
 id: 171
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1532383192429-7f602da670a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=60
   teaser: https://images.unsplash.com/photo-1532383192429-7f602da670a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60
-  caption: Udstrækning af forlår stående. Photo by Alora Griffiths on Unsplash.
 tags:
   - Strækøvelser
 categories: []
@@ -34,6 +32,8 @@ For at strække forlåret stående, kan du tage fat i den ene fod og bøje i kn�
 Bøj let i standbenet for ikke at overstrække knæet. Skyd hoften frem og hold knæene samlet.
 
 Hold strækket i 30 sek og skift ben.
+
+{% include figure image_path="https://images.unsplash.com/photo-1532383192429-7f602da670a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=60" %}
 
 ## Fokuspunkter i udstrækning af forlår
 

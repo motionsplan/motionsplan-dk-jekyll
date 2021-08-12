@@ -7,9 +7,7 @@ redirect_from: /node/37
 id: 37
 language: da
 header:
-  overlay_image: /assets/images/exercises/drop-lunges-0.jpg
   teaser: /assets/images/exercises/drop-lunges-0-320.jpg
-  caption: *title
 tags: []
 categories: []
 training_type: [] 

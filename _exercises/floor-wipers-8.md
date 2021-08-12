@@ -7,7 +7,6 @@ redirect_from: /node/8
 id: 8
 language: da
 header:
-  overlay_image: /assets/images/exercises/floor-wipers-0.jpg
   teaser: /assets/images/exercises/floor-wipers-0-320.jpg
   caption: *title
 tags:

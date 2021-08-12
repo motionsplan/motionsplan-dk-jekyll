@@ -7,9 +7,7 @@ redirect_from: /node/674
 id: 674
 language: da
 header:
-  overlay_image: /assets/images/exercises/rite-5-sael-og-omvendt-v-0.jpg
   teaser: /assets/images/exercises/rite-5-sael-og-omvendt-v-0-320.jpg
-  caption: *title
 tags:
   - Kropsstamme
   - Strækøvelser

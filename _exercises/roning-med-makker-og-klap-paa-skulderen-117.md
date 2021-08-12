@@ -7,9 +7,7 @@ redirect_from: /node/117
 id: 117
 language: da
 header:
-  overlay_image: /assets/images/exercises/roning-med-makker-og-klap-paa-skulderen-0.jpg
   teaser: /assets/images/exercises/roning-med-makker-og-klap-paa-skulderen-0-320.jpg
-  caption: *title
 tags:
   - makkerøvelse
 categories: []

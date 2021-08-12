@@ -7,9 +7,7 @@ redirect_from: /node/104
 id: 104
 language: da
 header:
-  overlay_image: /assets/images/exercises/gunthers-backextension-0.jpg
   teaser: /assets/images/exercises/gunthers-backextension-0-320.jpg
-  caption: *title
 tags:
   - Kropsstamme
   - Styrketræning

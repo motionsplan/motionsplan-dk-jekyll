@@ -7,9 +7,7 @@ redirect_from: /node/249
 id: 249
 language: da
 header:
-  overlay_image: /assets/images/exercises/knae-fleksion-0.jpg
   teaser: /assets/images/exercises/knae-fleksion-0-320.jpg
-  caption: *title
 tags:
   - Ben
   - Styrketræning

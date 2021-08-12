@@ -7,9 +7,7 @@ redirect_from: /node/300
 id: 300
 language: da
 header:
-  overlay_image: /assets/images/exercises/over-og-under-haek-0.jpg
   teaser: /assets/images/exercises/over-og-under-haek-0-320.jpg
-  caption: *title
 tags: []
 categories: []
 training_type: [] 

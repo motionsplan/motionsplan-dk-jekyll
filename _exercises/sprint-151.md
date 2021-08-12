@@ -7,9 +7,7 @@ redirect_from: /node/151
 id: 151
 language: da
 header:
-  overlay_image: /assets/images/exercises/sprint-0.jpg
   teaser: /assets/images/exercises/sprint-0-320.jpg
-  caption: *title
 tags:
   - Kondition og puls
   - helkropsøvelse

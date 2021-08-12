@@ -7,9 +7,7 @@ redirect_from: /node/667
 id: 667
 language: da
 header:
-  overlay_image: /assets/images/exercises/maverulning-med-boksning-0.jpg
   teaser: /assets/images/exercises/maverulning-med-boksning-0-320.jpg
-  caption: *title
 tags:
   - Kropsstamme
   - Styrketræning
@@ -46,5 +44,3 @@ gallery:
     title: "Maverulning med boksning"
 last_modified_at: 2015-04-07T11:57:18Z
 ---
-
-

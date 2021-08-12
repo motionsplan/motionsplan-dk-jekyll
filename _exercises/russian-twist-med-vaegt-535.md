@@ -9,9 +9,7 @@ redirect_from:
 id: 535
 language: da
 header:
-  overlay_image: /assets/images/exercises/russian-twist-med-vaegt-0.jpg
   teaser: /assets/images/exercises/russian-twist-med-vaegt-0-320.jpg
-  caption: *title
 tags:
   - Styrketræning
   - kropsstamme

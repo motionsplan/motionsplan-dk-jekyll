@@ -7,9 +7,7 @@ redirect_from: /node/622
 id: 622
 language: da
 header:
-  overlay_image: /assets/images/exercises/skuldermobilisering-0.jpg
   teaser: /assets/images/exercises/skuldermobilisering-0-320.jpg
-  caption: *title
 tags:
   - Koordination og balance
   - Mobilisering

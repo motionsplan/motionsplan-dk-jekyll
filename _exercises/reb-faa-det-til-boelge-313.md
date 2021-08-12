@@ -7,9 +7,7 @@ redirect_from: /node/313
 id: 313
 language: da
 header:
-  overlay_image: /assets/images/exercises/reb-faa-det-til-boelge-0.jpg
   teaser: /assets/images/exercises/reb-faa-det-til-boelge-0-320.jpg
-  caption: *title
 tags:
   - Koordination og balance
   - kropsstamme

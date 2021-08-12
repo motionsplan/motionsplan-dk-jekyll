@@ -7,9 +7,7 @@ redirect_from: /node/504
 id: 504
 language: da
 header:
-  overlay_image: /assets/images/exercises/spring-hen-over-plint-0.jpg
   teaser: /assets/images/exercises/spring-hen-over-plint-0-320.jpg
-  caption: *title
 tags:
   - plint
 categories: []

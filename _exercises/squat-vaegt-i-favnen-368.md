@@ -7,9 +7,7 @@ redirect_from: /node/368
 id: 368
 language: da
 header:
-  overlay_image: /assets/images/exercises/squat-vaegt-i-favnen-0.jpg
   teaser: /assets/images/exercises/squat-vaegt-i-favnen-0-320.jpg
-  caption: *title
 tags:
   - Ben
   - Styrketræning

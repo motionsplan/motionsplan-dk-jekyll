@@ -7,9 +7,7 @@ redirect_from: /node/167
 id: 167
 language: da
 header:
-  overlay_image: /assets/images/exercises/udstraekning-af-ryg-og-mave-0.jpg
   teaser: /assets/images/exercises/udstraekning-af-ryg-og-mave-0-320.jpg
-  caption: *title
 tags:
   - Parøvelser
   - Strækøvelser

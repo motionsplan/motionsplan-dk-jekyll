@@ -7,7 +7,6 @@ redirect_from: /node/699
 id: 699
 language: da
 header:
-  overlay_image: /assets/images/exercises/dead-bug-0.jpeg
   teaser: /assets/images/exercises/dead-bug-0-320.jpeg
   caption: *title
 tags:
@@ -36,5 +35,3 @@ video:
   id: rbemelnkHag
 last_modified_at: 2016-10-14T12:08:27Z
 ---
-
-

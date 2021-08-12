@@ -7,9 +7,7 @@ redirect_from: /node/283
 id: 283
 language: da
 header:
-  overlay_image: /assets/images/exercises/mave-benloeft-0.jpg
   teaser: /assets/images/exercises/mave-benloeft-0-320.jpg
-  caption: *title
 tags:
   - Koordination og balance
   - Styrketræning
@@ -43,5 +41,3 @@ gallery:
     title: "Mave, benløft"
 last_modified_at: 2014-10-12T22:05:15Z
 ---
-
-

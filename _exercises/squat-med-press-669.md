@@ -7,9 +7,7 @@ redirect_from: /node/669
 id: 669
 language: da
 header:
-  overlay_image: /assets/images/exercises/squat-med-press-0.jpg
   teaser: /assets/images/exercises/squat-med-press-0-320.jpg
-  caption: *title
 tags:
   - Helkropsøvelse
   - Styrketræning
@@ -52,5 +50,3 @@ gallery:
     title: "Squat med press"
 last_modified_at: 2015-04-07T12:00:21Z
 ---
-
-

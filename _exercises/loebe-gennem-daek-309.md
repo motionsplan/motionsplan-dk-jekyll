@@ -7,9 +7,7 @@ redirect_from: /node/309
 id: 309
 language: da
 header:
-  overlay_image: /assets/images/exercises/loebe-gennem-daek-0.jpg
   teaser: /assets/images/exercises/loebe-gennem-daek-0-320.jpg
-  caption: *title
 tags: []
 categories: []
 training_type: [] 

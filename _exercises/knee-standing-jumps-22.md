@@ -7,9 +7,7 @@ redirect_from: /node/22
 id: 22
 language: da
 header:
-  overlay_image: /assets/images/exercises/knee-standing-jumps-0.jpg
   teaser: /assets/images/exercises/knee-standing-jumps-0-320.jpg
-  caption: *title
 tags:
   - Ben
   - Styrketræning

@@ -6,9 +6,7 @@ redirect_from: /node/633
 id: 633
 language: da
 header:
-  overlay_image: /assets/images/exercises/v-ups-0.jpg
   teaser: /assets/images/exercises/v-ups-0-320.jpg
-  caption: *title
 tags:
   - Kropsstamme
   - Styrketræning

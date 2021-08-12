@@ -7,9 +7,7 @@ redirect_from: /node/259
 id: 259
 language: da
 header:
-  overlay_image: /assets/images/exercises/reaktionsoevelse-0.jpg
   teaser: /assets/images/exercises/reaktionsoevelse-0-320.jpg
-  caption: *title
 tags:
   - Kondition
   - kropsvægt

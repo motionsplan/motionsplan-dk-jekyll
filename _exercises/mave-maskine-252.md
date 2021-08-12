@@ -7,9 +7,7 @@ redirect_from: /node/252
 id: 252
 language: da
 header:
-  overlay_image: /assets/images/exercises/mave-maskine-0.jpg
   teaser: /assets/images/exercises/mave-maskine-0-320.jpg
-  caption: *title
 tags:
   - kropsstamme
   - maskine

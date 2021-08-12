@@ -7,9 +7,7 @@ redirect_from: /node/672
 id: 672
 language: da
 header:
-  overlay_image: /assets/images/exercises/rite-3-forlaar-0.jpg
   teaser: /assets/images/exercises/rite-3-forlaar-0-320.jpg
-  caption: *title
 tags:
   - Koordination og balance
   - Styrketræning

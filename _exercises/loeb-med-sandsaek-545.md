@@ -9,9 +9,7 @@ redirect_from:
 id: 545
 language: da
 header:
-  overlay_image: /assets/images/exercises/loeb-med-sandsaek-0.jpg
   teaser: /assets/images/exercises/loeb-med-sandsaek-0-320.jpg
-  caption: *title
 tags:
   - Kondition og puls
 categories:

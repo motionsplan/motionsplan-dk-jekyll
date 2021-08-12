@@ -6,9 +6,7 @@ redirect_from: /node/174
 id: 174
 language: da
 header:
-  overlay_image: /assets/images/exercises/udstraekning-af-triceps-0.jpg
   teaser: /assets/images/exercises/udstraekning-af-triceps-0-320.jpg
-  caption: *title
 tags:
   - Strækøvelser
   - Udstrækning

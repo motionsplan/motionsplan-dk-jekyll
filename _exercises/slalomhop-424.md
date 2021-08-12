@@ -7,9 +7,7 @@ redirect_from: /node/424
 id: 424
 language: da
 #header:
-#  overlay_image: /assets/images/exercises/slalomhop-0.gif
 #  teaser: /assets/images/exercises/slalomhop-0-320.gif
-#  caption: *title
 tags:
   - knædomineret
   - kropsvægt

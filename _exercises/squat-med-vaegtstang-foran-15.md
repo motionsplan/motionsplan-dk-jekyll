@@ -8,9 +8,7 @@ id: 15
 key: 15
 language: da
 header:
-  overlay_image: /assets/images/exercises/squat-med-vaegtstang-foran-0.jpg
   teaser: /assets/images/exercises/squat-med-vaegtstang-foran-0-320.jpg
-  caption: *title
 tags:
   - Ben
   - Styrketræning

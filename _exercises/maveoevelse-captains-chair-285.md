@@ -7,9 +7,7 @@ redirect_from: /node/285
 id: 285
 language: da
 header:
-  overlay_image: /assets/images/exercises/maveoevelse-captains-chair-0.jpg
   teaser: /assets/images/exercises/maveoevelse-captains-chair-0-320.jpg
-  caption: *title
 tags: []
 categories: []
 training_type: [] 

@@ -8,9 +8,7 @@ redirect_from: /node/304
 id: 304
 language: da
 header:
-  overlay_image: /assets/images/exercises/farmerwalk-0.jpg
   teaser: /assets/images/exercises/farmerwalk-0-320.jpg
-  caption: *title
 tags:
   - loaded carry
   - carry

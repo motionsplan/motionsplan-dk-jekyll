@@ -8,9 +8,7 @@ redirect_from:
 id: 488
 language: da
 header:
-  overlay_image: /assets/images/exercises/488-0.jpg
   teaser: /assets/images/exercises/488-0-320.jpg
-  caption: Wall ball
 tags:
   - Helkropsøvelse
   - Kondition

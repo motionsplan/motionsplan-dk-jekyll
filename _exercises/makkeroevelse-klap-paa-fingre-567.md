@@ -9,9 +9,7 @@ redirect_from:
 id: 567
 language: da
 header:
-  overlay_image: /assets/images/exercises/makkeroevelse-klap-paa-fingre-0.jpg
   teaser: /assets/images/exercises/makkeroevelse-klap-paa-fingre-0-320.jpg
-  caption: *title
 tags:
   - Kropsstamme
 categories:

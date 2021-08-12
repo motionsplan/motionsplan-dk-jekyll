@@ -7,7 +7,6 @@ redirect_from: /node/724
 id: 724
 language: da
 header:
-  overlay_image: /assets/images/exercises/bear-squat-0.jpg
   teaser: /assets/images/exercises/bear-squat-0-320.jpg
   caption: *title
 tags:
@@ -50,5 +49,3 @@ gallery:
     title: "Bear squat"
 last_modified_at: 2016-10-18T07:28:10Z
 ---
-
-

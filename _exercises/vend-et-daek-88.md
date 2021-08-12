@@ -7,9 +7,7 @@ redirect_from: /node/88
 id: 88
 language: da
 header:
-  overlay_image: /assets/images/exercises/vend-et-daek-0.jpg
   teaser: /assets/images/exercises/vend-et-daek-0-320.jpg
-  caption: *title
 tags:
   - helkropsøvelse
   - traktordæk

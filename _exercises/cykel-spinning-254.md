@@ -7,7 +7,6 @@ redirect_from: /node/254
 id: 254
 language: da
 header:
-  overlay_image: /assets/images/exercises/cykel-spinning-0.jpg
   teaser: /assets/images/exercises/cykel-spinning-0-320.jpg
   caption: *title
 tags:

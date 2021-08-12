@@ -7,7 +7,6 @@ redirect_from: /node/675
 id: 675
 language: da
 header:
-  overlay_image: /assets/images/exercises/foamrolling-laeg-0.jpg
   teaser: /assets/images/exercises/foamrolling-laeg-0-320.jpg
   caption: *title
 tags:
@@ -36,5 +35,3 @@ gallery:
     title: "Foamrolling læg"
 last_modified_at: 2015-04-10T13:37:34Z
 ---
-
-

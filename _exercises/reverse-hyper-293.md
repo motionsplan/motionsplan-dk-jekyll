@@ -7,15 +7,13 @@ redirect_from: /node/293
 id: 293
 language: da
 header:
-  overlay_image: /assets/images/exercises/reverse-hyper-0.jpg
   teaser: /assets/images/exercises/reverse-hyper-0-320.jpg
-  caption: *title
 tags:
   - hoftedomineret
   - kropsvægt
   - maskine
 categories: []
-training_type: 
+training_type: []
 training_focus: 
   - hoftedomineret
 equipment:

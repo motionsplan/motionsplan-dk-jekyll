@@ -7,9 +7,7 @@ redirect_from: /node/44
 id: 44
 language: da
 header:
-  overlay_image: /assets/images/exercises/tohaandssving-0.jpg
   teaser: /assets/images/exercises/tohaandssving-0-320.jpg
-  caption: *title
 tags:
   - Kondition og puls
   - Styrketræning

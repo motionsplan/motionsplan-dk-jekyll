@@ -7,9 +7,7 @@ redirect_from: /node/162
 id: 162
 language: da
 header:
-  overlay_image: /assets/images/exercises/udstraekning-af-inderlaar-og-lyske-0.jpg
   teaser: /assets/images/exercises/udstraekning-af-inderlaar-og-lyske-0-320.jpg
-  caption: *title
 tags:
   - Parøvelser
   - Strækøvelser

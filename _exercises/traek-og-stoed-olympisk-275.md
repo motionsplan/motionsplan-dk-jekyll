@@ -7,9 +7,7 @@ redirect_from: /node/275
 id: 275
 language: da
 header:
-  overlay_image: /assets/images/exercises/traek-og-stoed-olympisk-0.jpg
   teaser: /assets/images/exercises/traek-og-stoed-olympisk-0-320.jpg
-  caption: *title
 tags:
   - helkropsøvelse
   - vægtstang

@@ -7,7 +7,6 @@ redirect_from: /node/163
 id: 163
 language: da
 header:
-  overlay_image: /assets/images/exercises/dip-paa-stepbaenk-0.jpg
   teaser: /assets/images/exercises/dip-paa-stepbaenk-0-320.jpg
   caption: *title
 tags:

@@ -7,9 +7,7 @@ redirect_from: /node/425
 id: 425
 language: da
 header:
-  overlay_image: /assets/images/exercises/jefferson-squat-0.jpg
   teaser: /assets/images/exercises/jefferson-squat-0-320.jpg
-  caption: *title
 tags:
   - Ben
   - Styrketræning

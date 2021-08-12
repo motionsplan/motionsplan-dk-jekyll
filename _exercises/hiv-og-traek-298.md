@@ -7,9 +7,7 @@ redirect_from: /node/298
 id: 298
 language: da
 header:
-  overlay_image: /assets/images/exercises/hiv-og-traek-0.jpg
   teaser: /assets/images/exercises/hiv-og-traek-0-320.jpg
-  caption: *title
 tags:
   - Helkropsøvelse
 categories:

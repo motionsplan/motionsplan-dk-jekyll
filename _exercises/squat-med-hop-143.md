@@ -7,9 +7,7 @@ redirect_from: /node/143
 id: 143
 language: da
 header:
-  overlay_image: /assets/images/exercises/squat-med-hop-0.jpg
   teaser: /assets/images/exercises/squat-med-hop-0-320.jpg
-  caption: *title
 tags:
   - Ben
   - knædomineret

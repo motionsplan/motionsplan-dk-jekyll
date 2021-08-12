@@ -8,7 +8,6 @@ redirect_from:
 id: 581
 language: da
 header:
-  overlay_image: /assets/images/exercises/bildaek-lunges-ii-0.jpg
   teaser: /assets/images/exercises/bildaek-lunges-ii-0-320.jpg
   caption: *title
 tags:

@@ -7,9 +7,7 @@ redirect_from: /node/52
 id: 52
 language: da
 header:
-  overlay_image: /assets/images/exercises/sakse-hofteloeft-0.jpg
   teaser: /assets/images/exercises/sakse-hofteloeft-0-320.jpg
-  caption: *title
 tags:
   - Kropsstamme
   - Styrketræning

@@ -7,9 +7,7 @@ redirect_from: /node/110
 id: 110
 language: da
 header:
-  overlay_image: /assets/images/exercises/rygoevelse-paa-bold-0.jpg
   teaser: /assets/images/exercises/rygoevelse-paa-bold-0-320.jpg
-  caption: *title
 tags:
   - Styrketræning
   - kropsstamme

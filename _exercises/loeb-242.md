@@ -7,9 +7,7 @@ redirect_from: /node/242
 id: 242
 language: da
 header:
-  overlay_image: /assets/images/exercises/loeb-0.jpg
   teaser: /assets/images/exercises/loeb-0-320.jpg
-  caption: *title
 tags:
   - Kondition
 categories: []

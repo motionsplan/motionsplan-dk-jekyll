@@ -9,7 +9,6 @@ redirect_from:
 id: 583
 language: da
 header:
-  overlay_image: /assets/images/exercises/bildaek-tippe-daek-armstraekning-0.jpg
   teaser: /assets/images/exercises/bildaek-tippe-daek-armstraekning-0-320.jpg
   caption: *title
 tags:

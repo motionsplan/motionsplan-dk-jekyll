@@ -7,9 +7,7 @@ redirect_from: /node/156
 id: 156
 language: da
 header:
-  overlay_image: /assets/images/exercises/frivend-og-stoed-0.jpg
   teaser: /assets/images/exercises/frivend-og-stoed-0-320.jpg
-  caption: *title
 tags:
   - helkropsøvelse
   - flise

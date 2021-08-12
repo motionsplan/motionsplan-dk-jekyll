@@ -7,9 +7,7 @@ redirect_from: /node/24
 id: 24
 language: da
 header:
-  overlay_image: /assets/images/exercises/triceps-liggende-0.jpg
   teaser: /assets/images/exercises/triceps-liggende-0-320.jpg
-  caption: *title
 tags:
   - Træk
   - Styrketræning

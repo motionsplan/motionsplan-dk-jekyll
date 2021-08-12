@@ -7,9 +7,7 @@ redirect_from: /node/281
 id: 281
 language: da
 header:
-  overlay_image: /assets/images/exercises/maveboejning-0.jpg
   teaser: /assets/images/exercises/maveboejning-0-320.jpg
-  caption: *title
 tags: []
 categories: []
 training_type: [] 

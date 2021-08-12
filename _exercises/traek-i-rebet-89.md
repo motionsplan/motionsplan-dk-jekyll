@@ -7,9 +7,7 @@ redirect_from: /node/89
 id: 89
 language: da
 header:
-  overlay_image: /assets/images/exercises/traek-i-rebet-0.jpg
   teaser: /assets/images/exercises/traek-i-rebet-0-320.jpg
-  caption: *title
 tags:
   - tov
 categories: []

@@ -7,9 +7,7 @@ redirect_from: /node/732
 id: 732
 language: da
 header:
-  overlay_image: /assets/images/exercises/poliquin-stepup-0.jpg
   teaser: /assets/images/exercises/poliquin-stepup-0-320.jpg
-  caption: *title
 tags:
   - Koordination og balance
   - Balance
@@ -40,5 +38,3 @@ gallery:
     title: "Poliquin stepup"
 last_modified_at: 2016-10-18T07:39:15Z
 ---
-
-

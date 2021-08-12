@@ -6,7 +6,6 @@ redirect_from: /node/246
 id: 246
 language: da
 header:
-  overlay_image: /assets/images/exercises/benpres-0.jpg
   teaser: /assets/images/exercises/benpres-0-320.jpg
   caption: *title
 tags:

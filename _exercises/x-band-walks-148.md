@@ -7,9 +7,7 @@ redirect_from: /node/148
 id: 148
 language: da
 header:
-  overlay_image: /assets/images/exercises/x-band-walks-0.jpg
   teaser: /assets/images/exercises/x-band-walks-0-320.jpg
-  caption: *title
 tags:
   - kropsstamme
   - elastik

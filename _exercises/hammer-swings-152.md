@@ -7,9 +7,7 @@ redirect_from: /node/152
 id: 152
 language: da
 header:
-  overlay_image: /assets/images/exercises/hammer-swings-0.jpg
   teaser: /assets/images/exercises/hammer-swings-0-320.jpg
-  caption: *title
 tags:
   - helkropsøvelse
   - hammer

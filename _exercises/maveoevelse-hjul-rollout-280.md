@@ -10,21 +10,17 @@ redirect_from:
 id: 280
 language: da
 header:
-  overlay_image: /assets/images/exercises/maveoevelse-hjul-rollout-0.jpg
   teaser: /assets/images/exercises/maveoevelse-hjul-rollout-0-320.jpg
-  caption: *title
 tags:
   - kropsstamme
   - hjul
-  - 
 categories: []
-training_type: 
+training_type: []
 training_focus: 
   - kropsstamme
 equipment:
   - hjul
-muscle_group:
-  - 
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/maveoevelse-hjul-rollout-0.jpg
     image_path: /assets/images/exercises/maveoevelse-hjul-rollout-0-320.jpg

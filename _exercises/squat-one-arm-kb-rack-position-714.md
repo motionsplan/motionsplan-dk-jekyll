@@ -7,9 +7,7 @@ redirect_from: /node/714
 id: 714
 language: da
 header:
-  overlay_image: /assets/images/exercises/squat-one-arm-kb-rack-position-0.jpg
   teaser: /assets/images/exercises/squat-one-arm-kb-rack-position-0-320.jpg
-  caption: *title
 tags:
   - Kropsstamme
   - Balance
@@ -50,5 +48,3 @@ video:
   id: EL0948ij6W8
 last_modified_at: 2016-10-18T07:17:24Z
 ---
-
-

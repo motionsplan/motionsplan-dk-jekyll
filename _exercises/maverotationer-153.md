@@ -7,9 +7,7 @@ redirect_from: /node/153
 id: 153
 language: da
 header:
-  overlay_image: /assets/images/exercises/maverotationer-0.jpg
   teaser: /assets/images/exercises/maverotationer-0-320.jpg
-  caption: *title
 tags:
   - træstub
 categories: []
@@ -17,7 +15,7 @@ training_type: []
 training_focus: []
 equipment:
   - træstub
-muscle_group:
+muscle_group: []
 alternative_titles:
   - ab rotates
 gallery:

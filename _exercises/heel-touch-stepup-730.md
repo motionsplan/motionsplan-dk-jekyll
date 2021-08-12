@@ -7,9 +7,7 @@ redirect_from: /node/730
 id: 730
 language: da
 header:
-  overlay_image: /assets/images/exercises/heel-touch-stepup-0.jpg
   teaser: /assets/images/exercises/heel-touch-stepup-0-320.jpg
-  caption: *title
 tags:
   - Koordination og balance
   - Styrketræning
@@ -40,5 +38,3 @@ gallery:
     title: "Heel touch from stepup"
 last_modified_at: 2016-10-18T07:35:07Z
 ---
-
-
