@@ -18,6 +18,7 @@ tags:
   - Arme
   - fitnessinstruktør
 categories:
+  - Træningsøvelser
   - Bryst
   - Pres
 training_type: 
