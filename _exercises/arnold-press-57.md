@@ -6,7 +6,6 @@ redirect_from: /node/57
 id: 57
 language: da
 header:
-  overlay_image: /assets/images/exercises/arnold-press-0.jpg
   teaser: /assets/images/exercises/arnold-press-0-320.jpg
   caption: "Arnold Press"
 tags:

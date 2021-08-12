@@ -9,7 +9,6 @@ redirect_from:
 id: 522
 language: da
 header:
-  overlay_image: /assets/images/exercises/armstraekning-hindu-0.jpg
   teaser: /assets/images/exercises/armstraekning-hindu-0-320.jpg
   caption: *title
 tags:

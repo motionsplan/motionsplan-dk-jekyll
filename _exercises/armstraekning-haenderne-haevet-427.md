@@ -7,7 +7,6 @@ redirect_from: /node/427
 id: 427
 language: da
 header:
-  overlay_image: /assets/images/exercises/armstraekning-haenderne-haevet-0.jpg
   teaser: /assets/images/exercises/armstraekning-haenderne-haevet-0-320.jpg
   caption: *title
 tags:

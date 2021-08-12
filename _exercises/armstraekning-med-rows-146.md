@@ -7,7 +7,6 @@ redirect_from: /node/146
 id: 146
 language: da
 header:
-  overlay_image: /assets/images/exercises/armstraekning-med-rows-0.jpg
   teaser: /assets/images/exercises/armstraekning-med-rows-0-320.jpg
   caption: *title
 tags:

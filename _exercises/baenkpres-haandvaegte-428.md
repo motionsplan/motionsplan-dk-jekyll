@@ -7,7 +7,6 @@ redirect_from: /node/428
 id: 428
 language: da
 header:
-  overlay_image: /assets/images/exercises/428-0.jpg
   teaser: /assets/images/exercises/428-0-320.jpg
   caption: *title
 tags:

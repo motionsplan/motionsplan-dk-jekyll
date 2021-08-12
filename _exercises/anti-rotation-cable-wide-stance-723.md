@@ -7,7 +7,6 @@ redirect_from: /node/723
 id: 723
 language: da
 header:
-  overlay_image: /assets/images/exercises/anti-rotation-cable-wide-stance-0.jpg
   teaser: /assets/images/exercises/anti-rotation-cable-wide-stance-0-320.jpg
   caption: *title
 tags:
@@ -42,5 +41,3 @@ gallery:
     title: "Anti-rotation in cable, wide stance"
 last_modified_at: 2016-10-18T07:26:45Z
 ---
-
-

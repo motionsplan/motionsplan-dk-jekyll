@@ -9,7 +9,6 @@ redirect_from:
 id: 534
 language: da
 header:
-  overlay_image: /assets/images/exercises/armstraekning-trx-0.jpg
   teaser: /assets/images/exercises/armstraekning-trx-0-320.jpg
   caption: *title
 tags:

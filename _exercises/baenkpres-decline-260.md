@@ -7,7 +7,6 @@ redirect_from: /node/260
 id: 260
 language: da
 header:
-  overlay_image: /assets/images/exercises/baenkpres-decline-0.jpg
   teaser: /assets/images/exercises/baenkpres-decline-0-320.jpg
   caption: *title
 tags: []

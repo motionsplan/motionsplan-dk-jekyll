@@ -7,7 +7,6 @@ redirect_from: /node/26
 id: 26
 language: da
 header:
-  overlay_image: /assets/images/exercises/baglaar-paa-swissbold-0.jpg
   teaser: /assets/images/exercises/baglaar-paa-swissbold-0-320.jpg
   caption: *title
 tags:

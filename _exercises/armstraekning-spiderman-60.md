@@ -7,7 +7,6 @@ redirect_from: /node/60
 id: 60
 language: da
 header:
-  overlay_image: /assets/images/exercises/armstraekning-spiderman-0.jpg
   teaser: /assets/images/exercises/armstraekning-spiderman-0-320.jpg
   caption: *title
 tags:

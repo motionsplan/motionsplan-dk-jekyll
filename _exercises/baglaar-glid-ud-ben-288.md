@@ -7,7 +7,6 @@ redirect_from: /node/288
 id: 288
 language: da
 header:
-  overlay_image: /assets/images/exercises/baglaar-glid-ud-ben-0.jpg
   teaser: /assets/images/exercises/baglaar-glid-ud-ben-0-320.jpg
   caption: *title
 tags:

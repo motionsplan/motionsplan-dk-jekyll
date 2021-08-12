@@ -7,7 +7,6 @@ redirect_from: /node/265
 id: 265
 language: da
 header:
-  overlay_image: /assets/images/exercises/armstraekning-en-arm-0.jpg
   teaser: /assets/images/exercises/armstraekning-en-arm-0-320.jpg
   caption: *title
 tags:

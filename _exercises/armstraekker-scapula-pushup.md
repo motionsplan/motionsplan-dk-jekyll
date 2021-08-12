@@ -5,7 +5,6 @@ instructions: ""
 permalink: /oevelse/scapula-pushup/
 language: da
 #header:
-#  overlay_image: /assets/images/exercises/armstraekker-0.jpg
 #  teaser: /assets/images/exercises/armstraekker-0-320.jpg
 #  caption: *title
 tags:

@@ -8,7 +8,6 @@ id: 53
 key: 53
 language: da
 header:
-  overlay_image: /assets/images/exercises/back-squat-0.jpg
   teaser: /assets/images/exercises/back-squat-0-320.jpg
   caption: *title
 tags:

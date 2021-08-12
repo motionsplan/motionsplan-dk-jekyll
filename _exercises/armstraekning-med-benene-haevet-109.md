@@ -7,7 +7,6 @@ redirect_from: /node/109
 id: 109
 language: da
 header:
-  overlay_image: /assets/images/exercises/armstraekning-med-benene-haevet-0.jpg
   teaser: /assets/images/exercises/armstraekning-med-benene-haevet-0-320.jpg
   caption: *title
 tags:
