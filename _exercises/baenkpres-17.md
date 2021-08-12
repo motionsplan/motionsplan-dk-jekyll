@@ -7,9 +7,7 @@ redirect_from: /node/17
 id: 17
 language: da
 header:
-  overlay_image: /assets/images/exercises/baenkpres-0.jpg
   teaser: /assets/images/exercises/baenkpres-0-320.jpg
-  caption: *title
 tags:
   - Bryst
   - Pres
@@ -20,6 +18,7 @@ tags:
   - Arme
   - fitnessinstruktør
 categories:
+  - Træningsøvelser
   - Bryst
   - Pres
 training_type: 
