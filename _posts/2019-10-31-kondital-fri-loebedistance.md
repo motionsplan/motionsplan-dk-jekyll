@@ -19,6 +19,7 @@ tags:
   - beregner
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
+breadcrumbs: true
 ---
 
 Du kan beregne dit kondital ud fra en løbetur, du har løbet. Du indtaster bare, hvor mange kilometer du har løbet, og hvor lang tid det tog. I denne beregner kan du udregne dit kondital på baggrund af en løbetest, hvor du registrerer din hastighed og din distance.

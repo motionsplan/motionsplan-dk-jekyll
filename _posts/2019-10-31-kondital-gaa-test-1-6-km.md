@@ -21,6 +21,7 @@ tags:
   - beregner
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
+breadcrumbs: true
 ---
 
 **Rockports 1,6 km gåtest er en submaksimal konditionstest, hvor du estimerer konditallet ud fra tiden, det tager at gennemføre gangtesten og din puls ved afslutningen af gangtesten. Testen er oprindeligt udviklet af Kline et al (1987).**

@@ -26,6 +26,7 @@ feature_row_program:
     excerpt: "Forslag til et løbeprogram, hvor du kan komme fra 0 til 5 kilometer som begynder. Vi arbejder os op fra at gå til at kunne løbe længere og længere i fire faser. Programmet er målrettet dig, der gerne vil i gang med at løbe."
     btn_label: "Download løbeprogrammet til begyndere"
     btn_class: "btn--info"
+breadcrumbs: true
 ---
 
 Jeg har lavet et løbeprogram til dig, der er nybegynder og ikke er vant til at løbe. Løbeprogrammet er til begyndere, der gerne vil i gang med løbetræningen.

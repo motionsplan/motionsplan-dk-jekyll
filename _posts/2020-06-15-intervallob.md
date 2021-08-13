@@ -18,6 +18,7 @@ tags:
   - featured
 last_modified_at: 2021-01-03T08:14:14Z
 toc: true
+breadcrumb: true
 ---
 
 Jeg nyder selv at bruge intervaltræning og intervalløb, når jeg forsøger at forbedre min kondition og hastighed. Intervaller er en fast del af mit løbeprogram. Jeg har researchet lidt på, hvad intervalttræning er, hvordan det virker på kroppen, og så har jeg lavet en oversigt over effektive intervalprogrammer.

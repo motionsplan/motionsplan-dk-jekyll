@@ -14,6 +14,7 @@ tags:
   - styrketræning
 last_modified_at: 2020-12-03T23:14:14Z
 toc: true
+breadcrumbs: true
 ---
 
 Gratis træningsprogrammer er under udarbejdelse. Indtil vi er helt færdige med denne side, så kan du finde inspiration her:

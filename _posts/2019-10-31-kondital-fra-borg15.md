@@ -19,6 +19,7 @@ tags:
   - beregner
 last_modified_at: 2019-10-31T23:14:14Z
 toc: true
+breadcrumbs: true
 ---
 
 I Borg 15-testen cykler forsøgspersonen på cykel med en gradvist højere belastning, indtil vedkommende vurderer arbejdet til at være “Anstrengende” i forhold til Borg-skalaen (15 er anstrengende på Borg-skalaen). Derefter estimeres konditallet ud fra den opnåede belastning på cykeltesten.

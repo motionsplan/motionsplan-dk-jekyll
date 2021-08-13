@@ -11,6 +11,8 @@ header:
   caption: *title
 category:
   - Test
+  - Fedtprocent
+breadcrumbs: true
 tags:
   - fedtprocent
   - test

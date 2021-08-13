@@ -13,6 +13,7 @@ tags:
   - kondition
   - beregner
   - vægttab
+breadcrumbs: true
 ---
 
 Din vægt har betydning for, hvor hurtigt du kan løbe. Her er en beregner, der kan give et bud på, hvad en vægtændring betyder for dine løbetider.

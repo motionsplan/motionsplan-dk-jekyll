@@ -12,6 +12,7 @@ category:
 tags:
   - kondition
   - beregner
+breadcrumbs: true
 ---
 
 Riegels formel til at udregne konkurrencetider til løb er af ældre dato, men en enkel måde at udregne løbetider på andre distancer på ud fra aktuelle løbetider.
@@ -24,7 +25,7 @@ Som et alternativ til VDOT-beregning giver Riegels beregning også mulighed for 
 
 ## Hvordan kan Riegels formel bruges til at udregne løbetider?
 
-Pete Riegels udgangspunkt er, at man mister omkring 6% af hastigheden, hver gang man fordobler løbedistancen. Dette præmis er dog ikke uden udfordringer. Udregningen af løbetider bliver formentlig mest præcis, hvis man bruger distancer, der ligger relativt tæt på hinanden. 
+Pete Riegels udgangspunkt er, at man mister omkring 6% af hastigheden, hver gang man fordobler løbedistancen. Dette præmis er dog ikke uden udfordringer. Udregningen af løbetider bliver formentlig mest præcis, hvis man bruger distancer, der ligger relativt tæt på hinanden.
 
 Riegels formel kan give et fingerpeg om, hvilken tid man kan satse på i forhold til mellemtider, når man løber andre distancer.
 

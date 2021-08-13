@@ -20,8 +20,8 @@
         <meta itemprop="position" content="{{ i }}" />
     </li>
     <span class="sep">{{ site.data.ui-text[site.locale].breadcrumb_separator | default: "/" }}</span>
-    {% assign i = i | plus: 1 %}
     {%- for category in page.categories -%}
+      {% assign i = i | plus: 1 %}
       {%- assign crumb = site.data.breadcrumbs[category] -%}
       {%- if crumb -%}
         <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">

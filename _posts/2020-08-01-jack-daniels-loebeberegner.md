@@ -41,6 +41,7 @@ template:
     excerpt: "Skabelon til at lave et løbeprogram, hvor man kan tage udgangspunkt i Jack Daniels Running Formula og løbsberegner."
     btn_label: "Download Google Docs"
     btn_class: "btn--info"
+breadcrumbs: true
 ---
 
 Her på løbesiden kan du finde en løbsberegner, der kan beregne dit træningstempo og konkurrencetider ud fra Jack Daniels Running Formula. Du kan let udregne din løbehastighed allerede i dag.

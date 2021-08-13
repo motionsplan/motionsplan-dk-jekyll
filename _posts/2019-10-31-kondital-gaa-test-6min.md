@@ -19,6 +19,7 @@ tags:
   - beregner
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
+breadcrumbs: true
 ---
 
 I **6 minutters gå-test (6mwt)** gælder det om at gå så langt som muligt på 6 minutter. Den tilbagelagte distance sammenlignes med referenceværdier for tidligere forsøg. Testen er specielt egnet til svage personer fx patienter eller gamle.

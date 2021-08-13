@@ -40,6 +40,7 @@ faq:
 about:
   name: "Cooper test"
   url: "https://da.wikipedia.org/wiki/Coopertest"
+breadcrumbs: true
 ---
 
 Cooper-testen er en maksimal løbetest, hvor den distance man kan tilbagelægge på 12 minutter er med til at estimere udøverens kondital. Jeg beskriver her, hvad Cooper testen er, og du kan finde tabeller og skemaer til at vurdere dit kondital?

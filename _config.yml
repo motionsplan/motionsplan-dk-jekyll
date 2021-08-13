@@ -334,7 +334,7 @@ defaults:
       type: posts
     values:
       layout: single
-      breadcrumbs: false
+      breadcrumbs: true
       header:
         overlay_color: "#F5F5F5"
       author_profile: true

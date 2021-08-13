@@ -14,6 +14,8 @@ header:
   teaser: https://images.unsplash.com/photo-1501525547-7b008cf72da5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
 category:
   - Test
+  - Fedtprocent
+breadcrumbs: true
 tags:
   - fedtprocent
   - bioimpedans

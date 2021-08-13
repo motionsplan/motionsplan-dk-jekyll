@@ -17,6 +17,7 @@ tags:
   - træningslære
 last_modified_at: 2020-05-31T08:14:14Z
 toc: true
+breadcrumbs: true
 ---
 
 Jeg satte satte mig for at prøve at lave en oversigt over, hvilke fysiologiske tilpasninger og adaptationer, der sker i kroppen, når man laver konditionstræning. Hvad er effekten egentlig af kredsløbstræning?

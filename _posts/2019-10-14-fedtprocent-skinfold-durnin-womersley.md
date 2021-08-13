@@ -11,6 +11,8 @@ header:
   caption: "Durnin & Womersley 4-punktsmåling af fedtprocent. [Image credit: Ubershape](https://www.uberhape.com.au/why-i-use-metabolic-analytics-with-my-clients/)"
 category:
   - Test
+  - Fedtprocent
+breadcrumbs: true
 tags:
   - fedtprocent
   - test

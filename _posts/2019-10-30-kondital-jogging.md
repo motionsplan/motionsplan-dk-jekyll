@@ -1,6 +1,7 @@
 ---
 title: &title "️Submaksimal 1609 m  løbetest til at finde VO2max"
 permalink: /submaximal-jogging-test-vo2/
+excerpt: "Denne submaksimale jogging-test på 1 mil (1609 meter) kan bruges til at tracke dit kondital over tid. Du skal bruge en nøjagtigt opmålt rute, et stopur og et pulsur."
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1560281105-d58d81dfc5bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=80
@@ -20,6 +21,7 @@ tags:
   - begynder
 last_modified_at: 2020-08-06T23:14:14Z
 toc: true
+breadcrumbs: true
 ---
 
 Denne submaksimale jogging-test på 1 mil (1609 meter) kan bruges til at tracke dit [kondital](/kondital/) over tid. Du skal bruge en nøjagtigt opmålt rute, et stopur og et pulsur.

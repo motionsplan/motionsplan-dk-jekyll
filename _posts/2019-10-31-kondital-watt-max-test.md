@@ -27,12 +27,13 @@ feature_row:
     url: "https://wattbike.com/dk/product/wattbike"
     btn_label: "Læs mere"
     btn_class: "btn--success"
+breadcrumbs: true
 ---
 
 *[RPM]: Rounds Per Minute (omdrejninger pr. minut)
 *[MPO]: Maksimale Power Output
 
-Watt max-testen er en nem og præcis måde at finde dit kondital på. Du skal bruge et præcist cykelergometer og en forsøgsperson, der vil køre til grænsen. Watt max-testen kan estimere den maksimale iltoptagelse og konditallet med en ret høj korrelation til direkte undersøgelser i laboratorium. 
+Watt max-testen er en nem og præcis måde at finde dit kondital på. Du skal bruge et præcist cykelergometer og en forsøgsperson, der vil køre til grænsen. Watt max-testen kan estimere den maksimale iltoptagelse og konditallet med en ret høj korrelation til direkte undersøgelser i laboratorium.
 
 Watt max-testen er enkel at gennemføre. Testen kræver, at du har adgang til en ergometercykel, hvor du kan styre belastningen i watt. De sidste 2-4 minutter af testen er virkeligt hårde.
 
@@ -65,7 +66,7 @@ Energiforbruget ved forskellige arbejdsbelastninger er relativt konsistent melle
 
 Derfor kan VO<sub>2</sub>-max estimeres ved den højeste arbejdsbelastning, forsøgspersonen kan køre med.
 
-Testen er baseret på, at gennemførelsen af intervallerne primært er afhængig af aerob energifrigørelse. 
+Testen er baseret på, at gennemførelsen af intervallerne primært er afhængig af aerob energifrigørelse.
 
 Først finder du det maksimale power output (MPO) på baggrund af antallet af sekunder på sidste modstand (T) og belastningen på sidste modstand (W) i watt:
 

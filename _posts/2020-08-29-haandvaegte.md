@@ -13,6 +13,8 @@ tags:
   - træningsøvelser
   - håndvægte
 classes: wide
+sidebar:
+  nav: exercises
 ---
 
 Vi har samlet en en masse træningsøvelser med håndvægte. Du kan lave et komplet træningsprogram kun ved brug af styrkeøvelser med håndvægte. Vi har samlet alle de effektive håndvægtsøvelser.

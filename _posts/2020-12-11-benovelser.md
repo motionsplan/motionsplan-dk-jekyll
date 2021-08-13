@@ -29,9 +29,10 @@ exercises:
     title: "Frankenstein Squat"
   - key: 20201212231900
     title: "Cronus Squat"
+breadcrumbs: true
 ---
 
-Her kigger vi på effektive benøvelser, som du ikke ser så ofte i fitnesscentrene. Benøvelserne er uhyre effektive til at supplere din bentræning. Du kan lade dig inspirere til at træne underkroppen på en lidt ny måde. 
+Her kigger vi på effektive benøvelser, som du ikke ser så ofte i fitnesscentrene. Benøvelserne er uhyre effektive til at supplere din bentræning. Du kan lade dig inspirere til at træne underkroppen på en lidt ny måde.
 
 Der er naturligvis ikke noget i vejen med de klassiske øvelser til bentræningen, men det er også godt at få variation i træningen, så du bliver bedre til at bevæge dig. Derfor kan du bruge disse benøvelser, fx som suppleringssæt eller når du ikke lige har adgang til det udstyr, du plejer at have adgang til.
 

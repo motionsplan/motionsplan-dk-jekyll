@@ -15,6 +15,7 @@ tags:
 last_modified_at: 2021-03-28T23:14:14Z
 toc: true
 author: lsolesen
+breadcrumbs: true
 ---
 
 Jeg har lavet en beregner, så du let kan regne ud, hvor langt du skal løbe på de enkelte intervaller, hvis du kender din hastighed.

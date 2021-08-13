@@ -14,6 +14,8 @@ header:
   caption: "Mål din fedtprocent med fedttang. Image credit: [Ubershape](https://www.uberhape.com.au/why-i-use-metabolic-analytics-with-my-clients/)"
 category:
   - Test
+  - Fedtprocent
+breadcrumbs: true
 tags:
   - fedtprocent
 last_modified_at: 2019-03-06T23:14:14Z

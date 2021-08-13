@@ -17,6 +17,7 @@ tags:
   - beregner
 last_modified_at: 2019-09-03T23:14:14Z
 toc: true
+breadcrumbs: true
 ---
 
 Denne test af armstrækninger fra "The Canadian Standardized Test of Fitness" vurderer din overkropsstyrke på baggrund af, hvor mange armstrækninger du kan tage.

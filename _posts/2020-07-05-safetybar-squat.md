@@ -26,6 +26,7 @@ gallery:
   - image_path: https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80
     alt: "Håndtag til at lave armbøjninger, armstrækninger og pushups"
     title: "Håndtag til at lave armbøjninger, armstrækninger og pushups"
+breadcrumbs: true
 ---
 
 Jeg er blevet interesseret i safety bar squats, fordi har lidt vrøvl med skulderen. Mange mener at alle træningscentre bør have en god safety squat stang, men hvad en god safety bar, og hvilke fordele har en safety squat bar?

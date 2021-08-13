@@ -20,6 +20,7 @@ tags:
   - beregner
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
+breadcrumbs: true
 ---
 
 *[RPM]: Rounds Per Minute (omdrejninger pr. minut)
@@ -36,7 +37,7 @@ Jeg læste første gang om Wattmax-testen i denne [artikel af Morten Zacho](http
 1. Først vejer du dig.
 2. Du starter testen med at køre 3 minutter på 25 watt.
 3. Herefter øges belastningen med 25 watt hvert tredje minut, indtil du ikke længere kan holde til at køre ved den angivne belastning (hvis du vejer under 30 kg, så brug 20 watt i stedet).
-3. Notér den højeste belastning og hvor mange sekunder, du kørte på belastningen. 
+3. Notér den højeste belastning og hvor mange sekunder, du kørte på belastningen.
 4. Beregn dit kondital i nedenstående beregner.
 
 ## Beregn kondital for børn
@@ -72,4 +73,3 @@ Hvis du har en større gruppe børn, du gerne vil teste på en gang, så bør du
 ## Reference om Watt-maxtesten for børn
 
 - Wedderkopp, N., K. Froberg, H. S. Hansen, og L. B. Andersen. 2004. “Secular Trends in Physical Fitness and Obesity in Danish 9-Year-Old Girls and Boys: Odense School Child Study and Danish Substudy of the European Youth Heart Study”. Scandinavian Journal of Medicine & Science in Sports 14 (3): 150–55. <https://doi.org/10.1111/j.1600-0838.2004.00365.x>.
-

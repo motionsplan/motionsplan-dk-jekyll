@@ -27,6 +27,7 @@ gallery_whyiexercise:
   - image_path: https://www.whyiexercise.com/images/xcooper.test.chart.1.5.miles.ladies.jpg.pagespeed.ic.kWvEOdyHk9.jpg
     url: https://www.whyiexercise.com/images/xcooper.test.chart.1.5.miles.ladies.jpg.pagespeed.ic.kWvEOdyHk9.jpg
     title: "Normer for kvinder for 2400 meter testen"
+breadcrumbs: true
 ---
 
 2400-meter løbetesten er en del af forskellige optagelsesprøver, fx til politiskolen. På 2400 meter-testen gælder det om at løbe 2400 meter så hurtigt som muligt, og derfra kan du estimere dit kondital og sammenligne dig med normerne.

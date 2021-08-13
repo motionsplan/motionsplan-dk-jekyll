@@ -19,6 +19,7 @@ tags:
   - beregner
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
+breadcrumbs: true
 ---
 
 Det kan være besværligt at finde sit kondital, men [Uth et al (2004)](https://doi.org/10.1007/s00421-003-0988-y) har udviklet en test, hvor det ikke er så besværligt. Testens præmis er, at hvilepulsen falder, når man kommer i bedre form, fordi slagvolumen øges. Med en højere slagvolumen kan hjertet pumpe mere blod rundt i hvert enkelt slag, og derfor behøver det i hvile ikke at slå så mange gange.
@@ -45,11 +46,11 @@ Du kan også estimere din hvilepuls ud fra følgende skema:
 
 |                                                          | slag pr. minut |
 |----------------------------------------------------------|---------------:|
-| Meget høj hvilepuls                                      | > 100          | 
+| Meget høj hvilepuls                                      | > 100          |
 | Lettere forhøjet                                         | 80-100         |
 | Normal hvilepuls                                         | 70-80          |
 | Lidt lavere end normalt                                  | 60-70          |
-| Lav hvilepuls                                            | 50-60          | 
+| Lav hvilepuls                                            | 50-60          |
 | Meget lav hvilepuls (typisk meget konditionsstærk atlet) | < 50           |
 
 Jeg har skrevet et andet indlæg, som går i dybden med, [hvad hvilepulsen er og hvordan du måler den]({% link _posts/2020-06-03-hvilepuls.md %}).
@@ -58,7 +59,7 @@ Jeg har skrevet et andet indlæg, som går i dybden med, [hvad hvilepulsen er og
 
 Du kan måle din maksimale puls ved efter grundig opvarmning at lave en række bakkesprints af op til 45 sekunder.
 
-Vil du teste din maxpuls, gøres det bedst ved at løbe i et jævnt og forholdsvis højt tempo i 2 min, efterfulgt af 20 sek. sprint. Herefter lunter du lige så stille i 30-45 sek, hvorefter du gentager hele proceduren to gange mere. Med et pulsur med bryststrop vil du efter sidste hårde sprint kunne aflæse din maxpuls. 
+Vil du teste din maxpuls, gøres det bedst ved at løbe i et jævnt og forholdsvis højt tempo i 2 min, efterfulgt af 20 sek. sprint. Herefter lunter du lige så stille i 30-45 sek, hvorefter du gentager hele proceduren to gange mere. Med et pulsur med bryststrop vil du efter sidste hårde sprint kunne aflæse din maxpuls.
 {: .notice .notice--success }
 
 Du kan også estimere den ud fra alder, da den maksimale puls typisk falder med alderen. I denne beregner har vi brugt følgende formel:

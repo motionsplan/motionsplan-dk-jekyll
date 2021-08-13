@@ -51,6 +51,7 @@ feature_row_odin:
     btn_class: btn--success
     vendor: Apuls
     rel: sponsored nofollow noopener
+breadcrumbs: true
 ---
 
 Jeg skal købe et nyt løbebånd, og jeg er i gang med at researche, hvilken type løbebånd, jeg skal købe. Jeg har samlet min research til en guide til at købe et løbebånd. Skal løbebåndet have motor, skal det være kurvet og hvad kan man tænke på, inden man investerer i et løbebånd?
