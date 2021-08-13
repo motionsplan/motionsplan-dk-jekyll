@@ -85,7 +85,6 @@ anatomi:
         url: /led/
       - title: "Muskler"
         url: /muskler/
-muscles:
   - title: "Led"
     url: /led/
     children:
@@ -101,9 +100,18 @@ muscles:
         url: /joints/rygsojlen/
       - title: Skulderleddet og -bladet (skulderbæltet)
         url: /joints/skulderleddet/
-
-  - title: "Skeletmuskler"
+  - title: "Muskler"
     url: "/muskler/"
+    children:
+      - title: Benmuskler
+        url: /benmuskler/
+      - title: Armmuskler
+        url: /armmuskler/
+      - title: Rygmuskler
+        url: /rygmuskler/
+muscles:
+  - title: Benmuskler
+    url: /benmuskler/
     children:
       - title: Adductor Brevis
         url: /adductor-brevis/
@@ -111,18 +119,37 @@ muscles:
         url: /adductor-longus/
       - title: Den store indadfører
         url: /adductor-magnus/
-      - title: Aconeus
-        url: /anconeus/
-      - title: Tohovedede armbøjer
-        url: /biceps-brachii/
+      - title: Den slanke indadfører
+        url: /gracilis/
+      - title: Pectineus
+        url: /pectineus/
+      - title: Skræddermusklen
+        url: /sartorius/
+      - title: Halvsenede knæbøjer
+        url: /semimembranosus/
+      - title: Halvtrinde knæbøjer
+        url: /semitendinosus/
       - title: Den tohovedede knæbøjer
         url: /biceps-femoris/
+      - title: Firehovede knæstrækker
+        url: /quadriceps-femoris/
+      - title: Forreste skinnebensmuskel
+        url: /tibialis-anterior/
+      - title: Flyndermusklen
+        url: /soleus/
+      - title: Den tohovedede lægmuskel
+        url: /gastrocnemius/
+  - title: Armmuskler
+    url: /armmuskler/
+    children:
+      - title: Biceps
+        url: /biceps-brachii/
       - title: Brachialis
         url: /brachioradialis/
-      - title: Skuldermuskel
-        url: /deltoideus/
-      - title: Rygstrækkere
-        url: /erector-spinae/
+      - title: Triceps
+        url: /triceps-brachii/
+      - title: Aconeus
+        url: /anconeus/
       - title: Extensor Carpi Radialis Longus
         url: /extensor-carpi-radialis-longus/
       - title: Extensor Carpi Ulnaris
@@ -131,64 +158,64 @@ muscles:
         url: /extensor-digitori-minimi/
       - title: Extensor Digitorum
         url: /extensor-digitorum/
-      - title: Ydre skrå mavemuskel
-        url: /external-oblique/
       - title: Flexor Carpi Radialis
         url: /flexor-carpi-radialis/
       - title: Flexor Carpi Ulnaris
         url: /flexor-carpi-ulnaris/
-      - title: Den tohovedede lægmuskel
-        url: /gastrocnemius/
+  - title: Skuldermuskler
+    children:
+      - title: Skuldermuskel
+        url: /deltoideus/
+      - title: Serratus Anterior
+        url: /serratus-anterior/
+  - title: Rygmuskler
+    url: /rygmuskler/
+    children:
+      - title: Trapezius
+        url: /trapezius/
+      - title: Rygstrækkere
+        url: /erector-spinae/
+      - title: Infraspinatus
+        url: /infraspinatus/
+      - title: Quadratus lumborum
+        url: /quadratus-lumborum/
+      - title: Rhombemusklen
+        url: /rhomboideus/
+      - title: Bred rygmuskel
+        url: /latissimus-dorsi/
+      - title: Teres Major
+        url: /teres-major/
+      - title: Teres Minor
+        url: /teres-minor/
+  - title: Brystmuskler
+    children:
+      - title: Brystmuskel
+        url: /pectoralis-major/
+      - title: Lille brystmuskel
+        url: /pectoralis-minor/
+  - title: Mavemuskler
+    children:
+      - title: Lige mavemuskel
+        url: /rectus-abdominis/
+      - title: Indre skrå mavemuskel
+        url: /internal-oblique/
+      - title: Ydre skrå mavemuskel
+        url: /external-oblique/
+      - title: Bugpressen
+        url: /transversus-abdominis/
+  - title: Hoftemuskler
+    children:
+      - title: Hoftebøjeren
+        url: /iliopsoas/
       - title: Den store sædemuskel
         url: /gluteus-maximus/
       - title: Den mellemste sædemuskel
         url: /gluteus-medius/
       - title: Den lille sædemuskel
         url: /gluteus-minimus/
-      - title: Den slanke indadfører
-        url: /gracilis/
-      - title: Hoftebøjeren
-        url: /iliopsoas/
-      - title: Infraspinatus
-        url: /infraspinatus/
-      - title: Indre skrå mavemuskel
-        url: /internal-oblique/
-      - title: Bred rygmuskel
-        url: /latissimus-dorsi/
-      - title: Pectineus
-        url: /pectineus/
-      - title: Brystmuskel
-        url: /pectoralis-major/
-      - title: Lige mavemuskel
-        url: /rectus-abdominis/
-      - title: Lårmusklens lige hoved
-        url: /rectus-femoris/
-      - title: Skræddermusklen
-        url: /sartorius/
-      - title: Halvsenede knæbøjer
-        url: /semimembranosus/
-      - title: Halvtrinde knæbøjer
-        url: /semitendinosus/
-      - title: Serratus Anterior
-        url: /serratus-anterior/
-      - title: Flyndermusklen
-        url: /soleus/
-      - title: Teres Major
-        url: /teres-major/
-      - title: Forreste skinnebensmuskel
-        url: /tibialis-anterior/
-      - title: Bugpressen
-        url: /transversus-abdominis/
-      - title: Trapezius
-        url: /trapezius/
-      - title: Trehovede armstrækker
-        url: /triceps-brachii/
-      - title: Lårmusklens dybe hoved
-        url: /vastus-intermedius/
-      - title: Lårmusklens ydre hoved
-        url: /vastus-lateralis/
-      - title: Lårmusklens indre hoved
-        url: /vastus-medialis/
+      - title: Tensor Fascia Latae
+        url: /tensor-fascia-latae/
+
 
 strength:
   - title: "Adherence"

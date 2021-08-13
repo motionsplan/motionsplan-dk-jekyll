@@ -9,6 +9,9 @@ title: "Benøvelser: De mest effektive styrketræningsøvelser til bentræningen
 author_profile: true
 classes: wide
 excerpt: "Bentræning kan foregå på virkelig mange forskellige og effektive måder. Vi har samlet et hav af benøvelser, som du kan bruge i din styrketræning af benene. Bentræning er både for dig, der gerne vil blive mere eksplosiv og dig der vil have større og stærkere ben."
+categories:
+  - Træningsøvelser
+breadcrumbs: true
 ---
 
 Bentræning kan foregå på virkelig mange forskellige og effektive måder. Vi har samlet et hav af benøvelser, som du kan bruge i din styrketræning af benene. Bentræning er både for dig, der gerne vil blive mere eksplosiv og dig der vil have større og stærkere ben.

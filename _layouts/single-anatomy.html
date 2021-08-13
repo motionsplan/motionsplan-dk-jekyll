@@ -27,7 +27,9 @@ layout: default
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
           {% if page.title %}<h1 id="page-title" class="page__title" itemprop="name">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
-          <p><a href="https://github.com/{{site.repository}}/edit/master/{{ page.path }}"><i class="fas fa-pencil-alt" aria-hidden="true"></i> Hjælp med at forbedre denne side</a></p>
+          {% assign edit_url = 'https://github.com/{{site.repository}}/edit/master/' | append: page.path | absolute_url %}
+          {% assign edit_url = '/admin/#/collections/anatomy/entries/' | append: page.slug | absolute_url %}
+          <p><a href="{{ edit_url }}" rel="nofollow noopener"><i class="fas fa-pencil-alt" aria-hidden="true"></i> Hjælp med at forbedre denne side</a></p>
           {% if page.name.latin %}<h2 itemprop="alternateName"><em>{{ page.name.latin }}</em></h2>{% endif %}
 
           {% if page.read_time %}
@@ -45,12 +47,12 @@ layout: default
             </nav>
           </aside>
         {% endif %}
-        
+
         {{ content }}
 
         {% if page.insertion.da %}
         <h2 id="origin">Udspring og hæfte for {{ page.title }}</h2>
-        
+
         <p>
           <strong>Udspring:</strong> <span itemprop="insertion" itemscope itemtype="http://schema.org/Bone">{{ page.origin.da }}</span><br />
           <strong>Hæfte:</strong> {{ page.insertion.da }}
@@ -63,7 +65,7 @@ layout: default
         {% endif %}
 
         <h2 id="function">{{ page.title }} funktion</h2>
-        
+
         <ul>
         {% for f in page.function.da %}
         <li itemscope name="muscleAction"><strong>{{ f.short }}</strong>. {{ f.extended | markdownify }}</li>
@@ -80,8 +82,8 @@ layout: default
         </ul>
         {% endif %}
 
-        <h2 id="location">Placering af {{ page.title }}</h2>
         {% if page.location %}
+        <h2 id="location">Placering af {{ page.title }}</h2>
         <p>
           <strong>Placering i kroppen:</strong>
           <span itemprop="bodyLocation">

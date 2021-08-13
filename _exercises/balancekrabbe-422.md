@@ -8,12 +8,12 @@ id: 422
 language: da
 #header:
 #  teaser: /assets/images/exercises/balancekrabbe-0-320.gif
-#tags:
+tags:
   - kropsstamme
   - kropsvægt
 categories: []
-training_type: 
-training_focus: 
+training_type:
+training_focus:
   - kropsstamme
 equipment:
   - kropsvægt
