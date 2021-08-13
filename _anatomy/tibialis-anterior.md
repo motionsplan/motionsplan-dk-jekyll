@@ -9,6 +9,7 @@ group:
 name:
   latin: "Tibialis Anterior"
 category:
+  - Muskler
   - Fodled
 tags:
   - imagemap

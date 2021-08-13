@@ -9,7 +9,8 @@ excerpt: ""
 name:
   latin: Deltoideus
   da: Deltamusklen
-category:
+categories:
+  - Muskler
   - Skulder
 group:
   - Skulder

@@ -10,6 +10,11 @@ header:
   overlay_image: https://images.unsplash.com/photo-1583454156935-ba06aef90b3f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
   teaser: https://images.unsplash.com/photo-1583454156935-ba06aef90b3f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
   caption: "Maveøvelser: De mest effektive øvelser til maven"
+categories:
+  - Træningsøvelser
+breadcrumbs: true
+sidebar:
+  nav: exercises
 ---
 
 Vi har samlet alle de effektive maveøvelser her. Vi synes målet med din mavetræning skal være at få en stærk core, men øvelserne er også perfekte og udfordrende, når du arbejder på en flad mave, markeret sixpack eller at stramme op.

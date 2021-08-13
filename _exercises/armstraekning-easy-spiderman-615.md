@@ -18,10 +18,11 @@ tags:
   - Skuldre
   - cirkeltræning
 categories:
+  - Armstrækninger
   - Pres
-training_type: 
+training_type:
   - Styrketræning
-training_focus: 
+training_focus:
   - skub vandret
 equipment:
   - kropsvægt

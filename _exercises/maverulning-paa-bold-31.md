@@ -12,8 +12,9 @@ tags:
   - swissball
   - Mave
   - fitnessinstruktør
-categories: []
-training_type: [] 
+categories:
+  - Maveøvelser
+training_type: []
 training_focus: []
 equipment:
   - swissball

@@ -10,14 +10,13 @@ header:
   teaser: /assets/images/exercises/armstraekning-med-benene-haevet-0-320.jpg
 tags:
   - kropsvægt
-categories: []
-training_type: [] 
+categories:
+  - Armstrækninger
+training_type: []
 training_focus: []
 equipment:
   - kropsvægt
-muscle_group:
-  - 
-  - 
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/armstraekning-med-benene-haevet-0.jpg
     image_path: /assets/images/exercises/armstraekning-med-benene-haevet-0-320.jpg

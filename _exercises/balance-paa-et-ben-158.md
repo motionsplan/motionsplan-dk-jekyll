@@ -10,8 +10,9 @@ header:
   teaser: /assets/images/exercises/balance-paa-et-ben-0-320.jpg
 tags:
   - kropsvægt
-categories: []
-training_type: [] 
+categories:
+  - Balanceøvelser
+training_type: []
 training_focus: []
 equipment:
   - kropsvægt

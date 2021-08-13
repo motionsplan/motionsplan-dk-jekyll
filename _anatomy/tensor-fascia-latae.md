@@ -11,6 +11,8 @@ name:
   da: Lårfasciens spænder
 tags:
   - muskel
+categories:
+  - Muskler
 origin: 
   da: 
 insertion: 

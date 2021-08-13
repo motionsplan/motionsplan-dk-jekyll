@@ -12,8 +12,9 @@ header:
 tags:
   - håndvægte
   - fitnessinstruktør
-categories: []
-training_type: [] 
+categories:
+  - Armøvelser
+training_type: []
 training_focus: []
 equipment:
   - håndvægte

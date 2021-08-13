@@ -12,6 +12,7 @@ tags:
   - Koordination og balance
 categories:
   - Koordination og balance
+  - Balanceøvelser
 training_type: []
 training_focus: []
 equipment:

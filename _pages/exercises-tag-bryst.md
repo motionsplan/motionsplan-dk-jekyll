@@ -9,6 +9,11 @@ header:
   teaser: https://images.unsplash.com/photo-1534368959876-26bf04f2c947?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
   caption: "Øvelser til brystet: De mest effektive styrketræningsøvelser til brystet"
 excerpt: "Du kommer naturligvis ikke uden om bænkpres og varianter af bænkpres med både vægtstang og håndvægte, når du vil finde øvelser til brystet. Brysttræning og styrketræning af brystet involverer også ofte skulderen og triceps."
+categories:
+  - Træningsøvelser
+breadcrumbs: true
+sidebar:
+  nav: exercises
 ---
 
 Du kommer naturligvis ikke uden om bænkpres og varianter af bænkpres med både vægtstang og håndvægte, når du vil finde øvelser til brystet. Brysttræning og styrketræning af brystet involverer også ofte skulderen og triceps.

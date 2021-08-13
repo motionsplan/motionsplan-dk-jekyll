@@ -14,10 +14,10 @@ tags:
   - foamroller
   - Lægge
 categories:
-  - Koordination og balance
-training_type: 
+  - Foamrolling
+training_type:
   - Self Myofascial Release (SMR)
-training_focus: 
+training_focus:
 equipment:
   - foamroller
 muscle_group:

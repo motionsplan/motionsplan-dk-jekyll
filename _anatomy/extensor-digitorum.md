@@ -11,6 +11,8 @@ name:
 tags:
   - muskel
   - imagemap
+categories:
+  - Muskler
 origin: 
   da: 
 insertion: 

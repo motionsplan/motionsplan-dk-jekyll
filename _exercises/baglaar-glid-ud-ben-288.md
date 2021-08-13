@@ -14,8 +14,9 @@ tags:
   - klud
 categories:
   - Koordination og balance
-training_type: 
-training_focus: 
+  - Baglårsøvelser
+training_type: []
+training_focus:
   - hoftedomineret
 equipment:
   - klud

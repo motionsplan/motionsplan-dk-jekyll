@@ -11,8 +11,9 @@ header:
 tags:
   - træstub
   - kropsvægt
-categories: []
-training_type: [] 
+categories:
+  - Balanceøvelser
+training_type: []
 training_focus: []
 equipment:
   - træstub

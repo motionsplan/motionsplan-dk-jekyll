@@ -12,11 +12,12 @@ tags:
   - Parøvelser
   - Strækøvelser
   - kropsvægt
-categories: []
-training_type: 
+categories:
+  - Strækøvelser
+training_type:
   - Parøvelser
   - Strækøvelser
-training_focus: 
+training_focus: []
 equipment:
   - kropsvægt
 muscle_group: []

@@ -12,6 +12,7 @@ tags:
   - Hård styrkeøvelse
 categories:
   - Hård styrkeøvelse
+  - Armstrækninger
 training_type: []
 training_focus: []
 equipment: []

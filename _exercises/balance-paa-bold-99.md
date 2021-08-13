@@ -11,9 +11,10 @@ header:
 tags:
   - kropsstamme
   - swissball
-categories: []
-training_type: 
-training_focus: 
+categories:
+  - Balanceøvelser
+training_type: []
+training_focus:
   - kropsstamme
 equipment:
   - swissball

@@ -13,8 +13,9 @@ tags:
   - fitnessinstruktør
   - kropsvægt
   - crossfit
-categories: []
-training_type: [] 
+categories:
+  - Kropshævninger
+training_type: []
 training_focus: []
 equipment:
   - bar

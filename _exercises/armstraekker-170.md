@@ -15,8 +15,9 @@ tags:
   - Bryst
   - Arme
   - crossfit
-categories: []
-training_type: [] 
+categories:
+  - Armstrækninger
+training_type: []
 training_focus: []
 equipment:
   - kropsvægt

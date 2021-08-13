@@ -10,8 +10,9 @@ header:
   teaser: /assets/images/exercises/maverotationer-0-320.jpg
 tags:
   - træstub
-categories: []
-training_type: [] 
+categories:
+  - Maveøvelser
+training_type: []
 training_focus: []
 equipment:
   - træstub

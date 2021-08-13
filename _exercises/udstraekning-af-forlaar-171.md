@@ -10,10 +10,11 @@ header:
   teaser: https://images.unsplash.com/photo-1532383192429-7f602da670a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60
 tags:
   - Strækøvelser
-categories: []
-training_type: 
+categories:
   - Strækøvelser
-training_focus: 
+training_type:
+  - Strækøvelser
+training_focus: []
 equipment: []
 muscle_group: []
 gallery:

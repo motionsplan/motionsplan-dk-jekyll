@@ -12,6 +12,8 @@ joint:
 tags:
   - not-in-imagemap
   - muskel
+categories:
+  - Muskler
 origin:
   da:
 insertion:

@@ -16,9 +16,10 @@ tags:
   - Mave
 categories:
   - Kropsstamme
-training_type: 
+  - Maveøvelser
+training_type:
   - Styrketræning
-training_focus: 
+training_focus:
   - kropsstamme
 equipment:
   - kropsvægt

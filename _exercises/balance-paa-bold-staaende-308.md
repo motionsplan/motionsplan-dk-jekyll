@@ -11,8 +11,9 @@ header:
 tags:
   - swissball
   - Core
-categories: []
-training_type: [] 
+categories:
+  - Balanceøvelser
+training_type: []
 training_focus: []
 equipment:
   - swissball
@@ -30,7 +31,7 @@ gallery:
 last_modified_at: 2013-04-26T20:01:05Z
 ---
 
-Start med begge hænder på bolden, hold derefter balancen mens den ene fod og modsatte knæ placeres på bolden. 
+Start med begge hænder på bolden, hold derefter balancen mens den ene fod og modsatte knæ placeres på bolden.
 --------------------------------------------------------------------------------------------------------------
 
 Nu løftes knæet fra bolden og foden fra samme ben placeres på bolden som vist på billede 1.

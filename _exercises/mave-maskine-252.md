@@ -12,14 +12,15 @@ tags:
   - kropsstamme
   - maskine
   - fitnessinstruktør
-categories: []
-training_type: 
-training_focus: 
+categories:
+  - Maveøvelser
+training_type: []
+training_focus:
   - kropsstamme
 equipment:
   - maskine
 muscle_group:
-  - 
+  -
 alternative_titles:
   - mavemaskine
 gallery:

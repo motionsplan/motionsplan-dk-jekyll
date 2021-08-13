@@ -16,9 +16,10 @@ tags:
   - Baglår
 categories:
   - Ben
-training_type: 
+  - Baglårsøvelser
+training_type:
   - Styrketræning
-training_focus: 
+training_focus:
   - hoftedomineret
 equipment:
   - kropsvægt
@@ -74,4 +75,4 @@ Nordic Hamstring har nogle ulemper. I den excentriske fase ser man ofte udøvere
 - [Evidensen bag Nordic Hamstring](https://physioblogandreasbjerregaard.com/2016/12/26/10923/)
 - Dyk, Nicol van, Fearghal P. Behan, og Rod Whiteley. 2019. “Including the Nordic Hamstring Exercise in Injury Prevention Programmes Halves the Rate of Hamstring Injuries: A Systematic Review and Meta-Analysis of 8459 Athletes”. _British Journal of Sports Medicine_ 53 (21): 1362–70. [https://doi.org/10.1136/bjsports-2018-100045](https://doi.org/10.1136/bjsports-2018-100045).
 - [Bret Contreas: Nordic Ham Curl: Stable exercise for athletes](https://bretcontreras.com/nordic-ham-curl-staple-exercise-athletes/)
-- 
+-

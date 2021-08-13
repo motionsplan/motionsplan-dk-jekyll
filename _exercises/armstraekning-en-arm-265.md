@@ -10,8 +10,9 @@ header:
   teaser: /assets/images/exercises/armstraekning-en-arm-0-320.jpg
 tags:
   - kropsvægt
-categories: []
-training_type: [] 
+categories:
+  - Armstrækninger
+training_type: []
 training_focus: []
 equipment:
   - kropsvægt

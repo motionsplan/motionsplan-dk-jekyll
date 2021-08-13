@@ -17,10 +17,11 @@ tags:
   - Arme
   - Bryst
   - fitnessinstruktør
-categories: []
-training_type: 
+categories:
+  - Armstrækninger
+training_type:
   - Styrketræning
-training_focus: 
+training_focus:
   - skub vandret
 equipment:
   - bænk

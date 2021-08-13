@@ -12,10 +12,11 @@ tags:
   - Strækøvelser
   - hoftedomineret
   - Baller
-categories: []
-training_type: 
+categories:
   - Strækøvelser
-training_focus: 
+training_type:
+  - Strækøvelser
+training_focus:
   - hoftedomineret
 equipment:
 muscle_group:

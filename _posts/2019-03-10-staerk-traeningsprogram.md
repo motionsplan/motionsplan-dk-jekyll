@@ -117,7 +117,7 @@ I programmet er der typisk 5+ sæt i de enkelte løft, hvilket også tager sin t
 
 Programmet er et **procentbaseret styrketræningsprogram**, hvor du starter med at finde din [1RM-max]({% link _posts/2019-10-16-1rm-beregner.md %}) ud fra en 5RM test.
 
-[Køb Stærk hos Saxo](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_indbundet_9788771801835){:rel="nofollow noopener sponsored" class="btn btn--large btn--danger" } eller hos [Bodyman](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=20604&htmlurl=https://www.bodyman.dk/shop/staerk-jacob-beermann-36182p.html){:rel="sponsored nofollow noopener" class="btn btn--large btn--info" }
+[Køb Stærk hos Saxo](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_indbundet_9788771801835){:rel="sponsored nofollow noopener" class="btn btn--large btn--danger" } eller hos [Bodyman](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=20604&htmlurl=https://www.bodyman.dk/shop/staerk-jacob-beermann-36182p.html){:rel="sponsored nofollow noopener" class="btn btn--large btn--info" }
 
 Programmet er delt op i to faser, der hver tager 8 uger:
 

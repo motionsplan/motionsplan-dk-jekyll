@@ -13,6 +13,8 @@ tags:
   - imagemap
   - fitnessinstruktør
   - muskel
+categories:
+  - Muskler
 origin: 
   da: Øverst på lægbenet og øverste 2/3 af skinnebenet bagpå.
 insertion: 

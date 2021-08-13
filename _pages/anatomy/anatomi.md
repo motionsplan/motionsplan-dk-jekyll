@@ -46,7 +46,6 @@ feature_row:
 toc: true
 sidebar:
   nav: anatomi
-author_profile: true
 feature_row_citatplakat:
   - image_path: https://citatplakat.dk/wp-content/uploads/2020/11/Plakat-om-menneskets-skelet-forfra-og-bagfra-AN10025.png
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/skelettet-anatomi-plakat/

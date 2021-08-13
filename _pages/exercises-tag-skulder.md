@@ -9,6 +9,11 @@ header:
   teaser: https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1949&q=80
   caption: "Skulder-øvelser: De mest effektive styrketræningsøvelser til skulderen"
 excerpt: "Skuldertræning kan bestå af forskellige skulder øvelser. Vi har samlet det bedste styrketræningsøvelser og skulder-øvelser til træning af din skulder."
+categories:
+  - Træningsøvelser
+breadcrumbs: true
+sidebar:
+  nav: exercises
 ---
 
 Skuldertræning skal tage højde for et kompliceret led, og du kan vælge forskellige øvelser til at træne din skulder. Træning af skulderen laves med øvelser, hvor du løfter armene over hovedet og ud til siden eller presser fremad. Vi har samlet de bedste skulderøvelser til træning af dine skuldermuskler.

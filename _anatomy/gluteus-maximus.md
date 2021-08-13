@@ -13,6 +13,8 @@ tags:
   - imagemap
   - fitnessinstruktør
   - muskel
+categories:
+  - Muskler
 origin: 
   da: Hofteben og korsben
 insertion: 

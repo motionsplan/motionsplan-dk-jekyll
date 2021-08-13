@@ -12,6 +12,7 @@ tags:
   - Pres
   - håndvægte
 categories:
+  - Armstrækninger
   - Pres
 training_type: []
 training_focus: []

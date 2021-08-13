@@ -11,9 +11,10 @@ header:
 tags:
   - kropsstamme
   - kropsvægt
-categories: []
-training_type: 
-training_focus: 
+categories:
+  - Armstrækninger
+training_type: []
+training_focus:
   - kropsstamme
 equipment:
   - kropsvægt

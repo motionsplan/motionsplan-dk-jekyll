@@ -11,7 +11,7 @@ header:
 tags:
   - Kropsstamme
 categories:
-  - Kropsstamme
+  - Baglårsøvelser
 training_type: []
 training_focus: []
 equipment: []

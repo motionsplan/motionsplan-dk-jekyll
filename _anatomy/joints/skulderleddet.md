@@ -6,6 +6,8 @@ excerpt: "Skulderens store bevægelsesfrihed skabes gennem flere led, som man ti
 latin: Scapula
 tags:
   - led
+categories:
+  - Led
 movements:
   - title: Bøjning
     muscles:

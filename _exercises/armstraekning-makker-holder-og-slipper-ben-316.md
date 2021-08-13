@@ -10,9 +10,10 @@ tags:
   - kropsstamme
   - makker
   - kropsvægt
-categories: []
-training_type: 
-training_focus: 
+categories:
+  - Armstrækninger
+training_type:
+training_focus:
   - kropsstamme
 equipment:
   - makker

@@ -10,6 +10,11 @@ title: "Armøvelser: De mest effektive øvelser til biceps og triceps 🏋"
 author_profile: true
 classes: wide
 excerpt: "Vi har samlet det bedste og mest effektive armøvelser på en side her. Der er både øvelser til biceps og triceps, men også øvelser der udfordrer underarmene."
+categories:
+  - Træningsøvelser
+breadcrumbs: true
+sidebar:
+  nav: exercises
 ---
 
 Vi har samlet det bedste og mest effektive armøvelser på en side her. Der er både øvelser til biceps og triceps, men også øvelser der udfordrer underarmene.
@@ -24,7 +29,7 @@ Vi har samlet de mest effektive øvelser for biceps både med stang, håndvægte
 
 Hvis du gerne vil have store arme, så er det især triceps du skal træne. Triceps udgør nemlig 2/3 af overarmen. Triceps indgår både i store flerledsøvelser, eller du kan træne den med isolationsøvelser.
 
-Vi har samlet de bedste styrkeøvelser til triceps, så du kan optimere din armtræning. Husk at triceps er en væsentlig del af mange skub-øvelser som fx bænkpres, men du kan også træne den isoleret med fx fransk pres, triceps pushdown og triceps extensions. 
+Vi har samlet de bedste styrkeøvelser til triceps, så du kan optimere din armtræning. Husk at triceps er en væsentlig del af mange skub-øvelser som fx bænkpres, men du kan også træne den isoleret med fx fransk pres, triceps pushdown og triceps extensions.
 
 Du kan træne triceps med både stang, håndvægte, elastik, kettlebell og kropsvægt, fx ved armstrækninger.
 

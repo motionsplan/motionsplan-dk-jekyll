@@ -15,9 +15,10 @@ tags:
   - Skuldre
 categories:
   - Koordination og balance
-training_type: 
+  - Mobilitet
+training_type:
   - Mobilisering
-training_focus: 
+training_focus:
 equipment:
   - kropsvægt
 muscle_group:

@@ -12,10 +12,11 @@ tags:
   - Self Myofascial Release (SMR)
   - foamroller
   - Øvre ryg
-categories: []
-training_type: 
+categories:
+  - Foamrolling
+training_type:
   - Self Myofascial Release (SMR)
-training_focus: 
+training_focus:
 equipment:
   - foamroller
 muscle_group:

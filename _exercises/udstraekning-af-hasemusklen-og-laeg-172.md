@@ -10,10 +10,11 @@ header:
   teaser: /assets/images/exercises/udstraekning-af-hasemusklen-og-laeg-0-320.jpg
 tags:
   - Strækøvelser
-categories: []
-training_type: 
+categories:
   - Strækøvelser
-training_focus: 
+training_type:
+  - Strækøvelser
+training_focus: []
 equipment: []
 muscle_group: []
 gallery:
