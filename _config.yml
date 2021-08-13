@@ -364,12 +364,13 @@ defaults:
       related: true
       author: lsolesen
       tag_archive_path: /exercises/tags/
-      category_archive_path: /exercises/categories/      
+      category_archive_path: /exercises/categories/
   # _methods
   - scope:
       path: ""
       type: methods
     values:
+      breadcrumbs: false
       layout: single
       author_profile: true
       read_time: true
@@ -383,6 +384,7 @@ defaults:
       type: programs
     values:
       layout: program
+      breadcrumbs: false
       author_profile: true
       read_time: false
       comments: true
@@ -415,6 +417,7 @@ defaults:
       path: ""
       type: pages
     values:
+      breadcrumbs: false
       layout: single
       author_profile: true
       comments: true

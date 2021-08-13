@@ -216,6 +216,31 @@ muscles:
       - title: Tensor Fascia Latae
         url: /tensor-fascia-latae/
 
+exercises:
+  - title: Træningsøvelser
+    url: /traeningsoevelser/
+    children:
+      - title: Armøvelser
+        url: /arme-triceps-biceps/
+      - title: Skulderøvelser
+        url: /skulderoevelser/
+      - title: Rygøvelser
+        url: /rygoevelser/
+      - title: Brystøvelser
+        url: /brystoevelser/
+      - title: Benøvelser
+        url: /benoevelser/
+      - title: Balleøvelser
+        url: /balleoevelser/
+      - title: Balanceøvelser
+        url: /balance/
+      - title: Maveøvelser
+        url: /maveoevelser/
+      - title: Core træning
+        url: /core/
+      - title: Udstrækningsøvelser
+        url: /udstraekning-udspaending/
+
 
 strength:
   - title: "Adherence"

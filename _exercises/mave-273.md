@@ -11,9 +11,10 @@ header:
 tags:
   - kropsstamme
   - maskine
-categories: []
-training_type: 
-training_focus: 
+categories:
+  - Maveøvelser
+training_type:
+training_focus:
   - kropsstamme
 equipment:
   - maskine

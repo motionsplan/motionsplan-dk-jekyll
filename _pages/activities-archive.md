@@ -14,13 +14,15 @@ gallery:
     alt: *title
     title: *title
     data_pin_id: 579768152024756849
+sidebar:
+  nav: exercises
 ---
 
 Vi har samlet de bedste træningsøvelser, udstrækningsøvelser og styrketræningsøvelser. Vi har lavet en grundig forklaring af alle øvelserne, og der er både øvelser til styrketræning, konditionstræning, yoga, udstrækning, mobilitet og cardio.
 
 Hvis du er på udkig efter [maveøvelser]({% link _pages/exercises-tag-abs.md %}), [armøvelser]({% link _pages/exercises-tag-arme.md %}), [benøvelser]({% link _pages/exercises-tag-ben.md %}), [brystøvelser]({% link _pages/exercises-tag-bryst.md %}), [balleøvelser]({% link _pages/exercises-tag-glutes.md %}), [rygøvelser]({% link _pages/exercises-tag-ryg.md %}), [skulderøvelser]({% link _pages/exercises-tag-skulder.md %}), så har vi lavet en selvstændig side om de muskelgrupper. Vi har også skrevet selvstændigt om [balanceøvelser]({% link _posts/2020-07-16-balancetraening.md %}), [coretræning]({% link _posts/2020-07-16-coretraening.md %}) eller [udstrækningsøvelser]({% link _posts/2020-07-08-udstraekning.md %}).
 
-**Hvis ud gerne vil hjælpe med at forbedre beskrivelserne, eller der mangler den helt perfekte øvelsen, så skriv endelig.**
+**Hvis ud gerne vil hjælpe med at forbedre beskrivelserne, eller der mangler den helt perfekte øvelse, så skriv endelig.**
 
 {% include pinterest-gallery id="gallery" hidden="true"%}
 
@@ -67,13 +69,13 @@ Vi har samlet en masse effektive styrketræningsøvelser til brystet både med v
 
 ## Balleøvelser
 
-Dine baller bliver trænet i mange forskellige bevægelser. Vi har samlet alle de bedste og mest effektive baldeøvelser her, som du kan lave både hjemme og i styrketræningscenteret. 
+Dine baller bliver trænet i mange forskellige bevægelser. Vi har samlet alle de bedste og mest effektive baldeøvelser her, som du kan lave både hjemme og i styrketræningscenteret.
 
 [Se alle balleøvelser]({% link _pages/exercises-tag-glutes.md %}).
 
 ## Rygøvelser
 
-Din ryg skal bruges og udfordres med de bedste og mest effektive øvelser i din rygtræning. Jeg synes de bedste rygøvelser er basisøvelser, hvor du kan løfte meget vægt i horisontale træk (som [rows]({% link _posts/2020-07-06-rows.md %}))) og vertikale træk (som [chinup og pullup]({% link _posts/2020-06-30-pullup-chinup.md %})), men husk også at de mange variationer af dødløft er fremragende til at træne ryggen.
+Din ryg skal bruges og udfordres med de bedste og mest effektive øvelser i din rygtræning. Jeg synes de bedste rygøvelser er basisøvelser, hvor du kan løfte meget vægt i horisontale træk (som [rows]({% link _posts/2020-07-06-rows.md %})) og vertikale træk (som [chinup og pullup]({% link _posts/2020-06-30-pullup-chinup.md %})), men husk også at de mange variationer af dødløft er fremragende til at træne ryggen.
 
 [Se alle rygøvelser]({% link _pages/exercises-tag-ryg.md %}).
 

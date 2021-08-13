@@ -7,9 +7,49 @@ Styrketræning:
 
 # Øvelser
 
-Bryst:
+Brystøvelser:
   title: Bryst
   url: /brystoevelser/
+
+Maveøvelser:
+  title: Mave
+  url: /maveoevelser/
+
+Armøvelser:
+  title: Arme
+  url: /arme-triceps-biceps/
+
+Skulderøvelser:
+  title: Skulder
+  url: /skulderoevelser/
+
+Rygøvelser:
+  title: Ryg
+  url: /rygoevelser/
+
+Benøvelser:
+  title: Ben
+  url: /benoevelser/
+
+Balleøvelser:
+  title: Balle
+  url: /balleoevelser/
+
+Balanceøvelser:
+  title: Balance
+  url: /balance/
+
+Udstrækningsøvelser:
+  title: Udstrækningsøvelser
+  url: /udstraekning-udspaending/
+
+Armstrækninger:
+  title: Armstrækninger
+  url: /armbojninger-eller-armstraekninger-pushups/
+
+Kropshævninger:
+  title: Kropshævninger
+  url: /chinup-vs-pullup/
 
 # Anatomi
 
