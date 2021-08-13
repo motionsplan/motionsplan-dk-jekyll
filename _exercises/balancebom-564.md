@@ -8,7 +8,6 @@ id: 564
 language: da
 header:
   teaser: /assets/images/exercises/balancebom-0-320.jpg
-  caption: *title
 tags:
   - Koordination og balance
 categories:

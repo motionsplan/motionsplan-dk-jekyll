@@ -10,7 +10,6 @@ id: 565
 language: da
 header:
   teaser: /assets/images/exercises/bildaek-roning-med-arme-0-320.jpg
-  caption: *title
 tags:
   - Træk
   - outdoor

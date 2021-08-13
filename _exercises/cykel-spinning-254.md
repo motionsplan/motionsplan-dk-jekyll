@@ -8,7 +8,6 @@ id: 254
 language: da
 header:
   teaser: /assets/images/exercises/cykel-spinning-0-320.jpg
-  caption: *title
 tags:
   - Kondition
 categories: []

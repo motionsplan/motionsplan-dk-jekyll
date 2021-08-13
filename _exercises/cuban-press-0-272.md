@@ -8,7 +8,6 @@ id: 272
 language: da
 header:
   teaser: /assets/images/exercises/cuban-press-0-0-320.jpg
-  caption: *title
 tags:
   - vægtstang
 categories: []

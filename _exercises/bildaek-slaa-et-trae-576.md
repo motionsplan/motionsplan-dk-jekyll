@@ -10,7 +10,6 @@ id: 576
 language: da
 header:
   teaser: /assets/images/exercises/bildaek-slaa-et-trae-0-320.jpg
-  caption: *title
 tags:
   - Kropsstamme
   - outdoor

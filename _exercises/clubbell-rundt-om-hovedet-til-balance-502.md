@@ -8,7 +8,6 @@ id: 502
 language: da
 header:
   teaser: /assets/images/exercises/clubbell-rundt-om-hovedet-til-balance-0-320.jpg
-  caption: *title
 tags:
   - clubbell
 categories: []

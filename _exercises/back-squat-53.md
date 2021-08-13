@@ -9,7 +9,6 @@ key: 53
 language: da
 header:
   teaser: /assets/images/exercises/back-squat-0-320.jpg
-  caption: *title
 tags:
   - Ben
   - Styrketræning

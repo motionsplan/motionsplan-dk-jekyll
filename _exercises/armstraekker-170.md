@@ -9,7 +9,6 @@ key: 170
 language: da
 header:
   teaser: /assets/images/exercises/armstraekker-0-320.jpg
-  caption: *title
 tags:
   - kropsvægt
   - fitnessinstruktør

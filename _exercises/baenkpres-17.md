@@ -8,7 +8,6 @@ id: 17
 language: da
 header:
   teaser: /assets/images/exercises/baenkpres-0-320.jpg
-  caption: *title
 tags:
   - Pres
   - Styrketræning

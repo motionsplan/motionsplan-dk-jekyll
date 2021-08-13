@@ -10,7 +10,6 @@ id: 583
 language: da
 header:
   teaser: /assets/images/exercises/bildaek-tippe-daek-armstraekning-0-320.jpg
-  caption: *title
 tags:
   - Kropsstamme
   - outdoor

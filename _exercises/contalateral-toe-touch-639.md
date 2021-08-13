@@ -8,7 +8,6 @@ id: 639
 language: da
 header:
   teaser: /assets/images/exercises/contalateral-toe-touch-0-320.jpg
-  caption: *title
 tags:
   - Kropsstamme
   - Balance

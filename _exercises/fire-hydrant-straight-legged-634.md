@@ -8,7 +8,6 @@ id: 634
 language: da
 header:
   teaser: /assets/images/exercises/fire-hydrant-straight-legged-0-320.jpg
-  caption: *title
 tags:
   - Kropsstamme
   - Styrketræning

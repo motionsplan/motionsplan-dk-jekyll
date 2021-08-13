@@ -8,7 +8,6 @@ id: 428
 language: da
 header:
   teaser: /assets/images/exercises/428-0-320.jpg
-  caption: *title
 tags:
   - Pres
   - Styrketræning

@@ -8,7 +8,6 @@ id: 297
 language: da
 header:
   teaser: /assets/images/exercises/kast-bildaek-0-320.jpg
-  caption: *title
 tags:
   - Styrketræning
   - bildæk

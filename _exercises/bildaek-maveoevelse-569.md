@@ -9,7 +9,6 @@ id: 569
 language: da
 header:
   teaser: /assets/images/exercises/bildaek-maveoevelse-0-320.jpg
-  caption: *title
 tags:
   - Kropsstamme
   - outdoor

@@ -8,7 +8,6 @@ id: 366
 language: da
 header:
   teaser: /assets/images/exercises/box-jump-0-320.jpg
-  caption: *title
 tags:
   - Hård styrkeøvelse
   - kasse

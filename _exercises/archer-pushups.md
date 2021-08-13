@@ -10,8 +10,7 @@ language: da
 #  actions:
 #    - label: '<i class="far fa-file-pdf" aria-hidden="true"></i>'
 #      url: "/assets/pdf/exercises/180-jump-30.pdf"
-#  caption: *title
-tags:
+#tags:
   - kropsvægt
 categories: []
 training_type: [] 

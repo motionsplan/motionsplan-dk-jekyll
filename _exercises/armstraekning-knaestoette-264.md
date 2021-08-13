@@ -8,7 +8,6 @@ id: 264
 language: da
 header:
   teaser: /assets/images/exercises/armstraekning-knaestoette-0-320.jpg
-  caption: *title
 tags:
   - kropsvægt
 categories: []

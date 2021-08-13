@@ -9,7 +9,6 @@ id: 582
 language: da
 header:
   teaser: /assets/images/exercises/bildaek-armstraekning-og-vend-0-320.jpg
-  caption: *title
 tags:
   - Kropsstamme
   - outdoor

@@ -8,7 +8,6 @@ id: 530
 language: da
 header:
   teaser: /assets/images/exercises/atomic-situp-0-320.jpg
-  caption: *title
 tags:
   - Kropsstamme
   - Styrketræning

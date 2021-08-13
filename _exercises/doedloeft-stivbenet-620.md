@@ -8,7 +8,6 @@ id: 620
 language: da
 header:
   teaser: /assets/images/exercises/doedloeft-stivbenet-0-320.jpg
-  caption: *title
 tags:
   - Hård styrkeøvelse
   - Styrketræning

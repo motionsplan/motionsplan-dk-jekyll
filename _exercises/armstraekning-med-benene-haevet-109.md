@@ -8,7 +8,6 @@ id: 109
 language: da
 header:
   teaser: /assets/images/exercises/armstraekning-med-benene-haevet-0-320.jpg
-  caption: *title
 tags:
   - kropsvægt
 categories: []

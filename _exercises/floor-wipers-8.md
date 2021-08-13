@@ -8,7 +8,6 @@ id: 8
 language: da
 header:
   teaser: /assets/images/exercises/floor-wipers-0-320.jpg
-  caption: *title
 tags:
   - Kropsstamme
   - Styrketræning

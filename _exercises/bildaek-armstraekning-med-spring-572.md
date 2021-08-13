@@ -9,7 +9,6 @@ id: 572
 language: da
 header:
   teaser: /assets/images/exercises/bildaek-armstraekning-med-spring-0-320.jpg
-  caption: *title
 tags:
   - Hård styrkeøvelse
   - outdoor

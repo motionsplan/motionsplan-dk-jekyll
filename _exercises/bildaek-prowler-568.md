@@ -9,7 +9,6 @@ id: 568
 language: da
 header:
   teaser: /assets/images/exercises/bildaek-prowler-0-320.jpg
-  caption: *title
 tags:
   - Kondition og puls
   - outdoor

@@ -8,7 +8,6 @@ id: 60
 language: da
 header:
   teaser: /assets/images/exercises/armstraekning-spiderman-0-320.jpg
-  caption: *title
 tags:
   - kropsstamme
   - kropsvægt

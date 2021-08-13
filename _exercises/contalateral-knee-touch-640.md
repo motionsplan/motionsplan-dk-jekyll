@@ -8,7 +8,6 @@ id: 640
 language: da
 header:
   teaser: /assets/images/exercises/contalateral-knee-touch-0-320.jpg
-  caption: *title
 tags:
   - Kropsstamme
   - Balance

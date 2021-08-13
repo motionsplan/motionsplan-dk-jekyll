@@ -8,7 +8,6 @@ id: 260
 language: da
 header:
   teaser: /assets/images/exercises/baenkpres-decline-0-320.jpg
-  caption: *title
 tags: []
 categories: []
 training_type: [] 

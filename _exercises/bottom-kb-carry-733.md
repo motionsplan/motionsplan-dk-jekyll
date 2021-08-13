@@ -10,7 +10,6 @@ redirect_from:
 id: 733
 header:
   teaser: /assets/images/exercises/bent-arm-waiter-walk-0-320.jpg
-  caption: *title
 language: da
 tags:
   - Koordination og balance

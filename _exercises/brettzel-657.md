@@ -8,7 +8,6 @@ id: 657
 language: da
 header:
   teaser: /assets/images/exercises/brettzel-0-320.jpg
-  caption: *title
 tags:
   - Strækøvelser
   - Baller

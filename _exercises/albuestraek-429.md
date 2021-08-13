@@ -10,7 +10,6 @@ id: 429
 language: da
 header:
   teaser: /assets/images/exercises/albuestraek-0-320.jpg
-  caption: *title
 tags:
   - Pres
   - Styrketræning

@@ -10,7 +10,6 @@ id: 578
 language: da
 header:
   teaser: /assets/images/exercises/bildaek-swing-overhead-0-320.jpg
-  caption: *title
 tags:
   - Kropsstamme
   - outdoor

@@ -7,7 +7,6 @@ id: 246
 language: da
 header:
   teaser: /assets/images/exercises/benpres-0-320.jpg
-  caption: *title
 tags:
   - Ben
   - Styrketræning

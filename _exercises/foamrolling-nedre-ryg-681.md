@@ -8,7 +8,6 @@ id: 681
 language: da
 header:
   teaser: /assets/images/exercises/foamrolling-nedre-ryg-0-320.jpg
-  caption: *title
 tags:
   - Self Myofascial Release (SMR)
   - foamroller

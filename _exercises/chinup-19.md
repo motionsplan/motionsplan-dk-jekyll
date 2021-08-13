@@ -9,7 +9,6 @@ key: 19
 language: da
 header:
   teaser: /assets/images/exercises/chinup-0-320.jpg
-  caption: *title
 tags:
   - Træk
   - Styrketræning

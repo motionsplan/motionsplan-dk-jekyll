@@ -8,7 +8,6 @@ id: 99
 language: da
 header:
   teaser: /assets/images/exercises/balance-paa-bold-0-320.jpg
-  caption: *title
 tags:
   - kropsstamme
   - swissball

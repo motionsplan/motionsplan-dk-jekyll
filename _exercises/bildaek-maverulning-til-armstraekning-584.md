@@ -9,7 +9,6 @@ id: 584
 language: da
 header:
   teaser: /assets/images/exercises/bildaek-maverulning-til-armstraekning-0-320.jpg
-  caption: *title
 tags:
   - Helkropsøvelse
   - outdoor

@@ -8,7 +8,6 @@ id: 146
 language: da
 header:
   teaser: /assets/images/exercises/armstraekning-med-rows-0-320.jpg
-  caption: *title
 tags:
   - Pres
   - håndvægte

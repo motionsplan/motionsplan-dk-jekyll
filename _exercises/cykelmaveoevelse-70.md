@@ -8,7 +8,6 @@ id: 70
 language: da
 header:
   teaser: /assets/images/exercises/cykelmaveoevelse-0-320.jpg
-  caption: *title
 tags: []
 categories: []
 training_type: [] 

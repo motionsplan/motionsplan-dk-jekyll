@@ -8,7 +8,6 @@ id: 18
 language: da
 header:
   teaser: /assets/images/exercises/dips-0-320.jpg
-  caption: *title
 tags:
   - Pres
   - Styrketræning

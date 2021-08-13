@@ -9,7 +9,6 @@ id: 579
 language: da
 header:
   teaser: /assets/images/exercises/bildaek-back-throw-0-320.jpg
-  caption: *title
 tags:
   - Helkropsøvelse
   - outdoor

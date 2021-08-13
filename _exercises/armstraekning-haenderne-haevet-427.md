@@ -8,7 +8,6 @@ id: 427
 language: da
 header:
   teaser: /assets/images/exercises/armstraekning-haenderne-haevet-0-320.jpg
-  caption: *title
 tags:
   - Styrketræning
   - skub vandret

@@ -8,7 +8,6 @@ id: 176
 language: da
 header:
   teaser: /assets/images/exercises/hofteboejer-0-320.jpg
-  caption: *title
 tags:
   - bar
 categories: []

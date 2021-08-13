@@ -10,7 +10,6 @@ id: 566
 language: da
 header:
   teaser: /assets/images/exercises/bildaek-skub-med-arme-0-320.jpg
-  caption: *title
 tags:
   - Pres
   - outdoor

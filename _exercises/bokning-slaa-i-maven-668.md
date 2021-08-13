@@ -8,7 +8,6 @@ id: 668
 language: da
 header:
   teaser: /assets/images/exercises/bokning-slaa-i-maven-0-320.jpg
-  caption: *title
 tags:
   - Kondition og puls
   - Kondition

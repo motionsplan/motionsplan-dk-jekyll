@@ -8,7 +8,6 @@ id: 265
 language: da
 header:
   teaser: /assets/images/exercises/armstraekning-en-arm-0-320.jpg
-  caption: *title
 tags:
   - kropsvægt
 categories: []

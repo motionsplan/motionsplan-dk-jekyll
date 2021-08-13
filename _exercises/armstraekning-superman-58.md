@@ -8,7 +8,6 @@ id: 58
 language: da
 header:
   teaser: /assets/images/exercises/armstraekning-superman-0-320.jpg
-  caption: *title
 tags:
   - Pres
   - kropsvægt

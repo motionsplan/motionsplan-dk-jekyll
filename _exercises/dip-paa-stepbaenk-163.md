@@ -8,7 +8,6 @@ id: 163
 language: da
 header:
   teaser: /assets/images/exercises/dip-paa-stepbaenk-0-320.jpg
-  caption: *title
 tags:
   - bænk
   - kropsvægt

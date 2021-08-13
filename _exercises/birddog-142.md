@@ -8,7 +8,6 @@ id: 142
 language: da
 header:
   teaser: /assets/images/exercises/birddog-0-320.jpg
-  caption: *title
 tags:
   - Koordination og balance
   - kropsstamme

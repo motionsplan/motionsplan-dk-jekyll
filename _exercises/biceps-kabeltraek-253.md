@@ -8,7 +8,6 @@ id: 253
 language: da
 header:
   teaser: /assets/images/exercises/biceps-kabeltraek-0-320.jpg
-  caption: *title
 tags:
   - kabeltræk
   - fitnessinstruktør

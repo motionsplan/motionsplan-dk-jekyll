@@ -8,7 +8,6 @@ id: 42
 language: da
 header:
   teaser: /assets/images/exercises/deadlift-one-leg-0-320.jpg
-  caption: *title
 tags:
   - Koordination og balance
   - hoftedomineret

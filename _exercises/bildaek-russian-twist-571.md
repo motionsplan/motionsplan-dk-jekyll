@@ -10,7 +10,6 @@ id: 571
 language: da
 header:
   teaser: /assets/images/exercises/bildaek-russian-twist-0-320.jpg
-  caption: *title
 tags:
   - Kropsstamme
   - outdoor

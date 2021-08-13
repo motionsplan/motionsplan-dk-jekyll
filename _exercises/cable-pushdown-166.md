@@ -8,7 +8,6 @@ id: 166
 language: da
 header:
   teaser: /assets/images/exercises/cable-pushdown-0-320.jpg
-  caption: *title
 tags:
   - kabeltræk
   - fitnessinstruktør

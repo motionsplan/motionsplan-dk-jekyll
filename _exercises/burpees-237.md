@@ -8,7 +8,6 @@ id: 237
 language: da
 header:
   teaser: /assets/images/exercises/burpees-0-320.jpg
-  caption: *title
 tags:
   - Kondition og puls
   - Kondition

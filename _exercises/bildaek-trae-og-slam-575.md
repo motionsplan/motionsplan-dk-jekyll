@@ -10,7 +10,6 @@ id: 575
 language: da
 header:
   teaser: /assets/images/exercises/bildaek-trae-og-slam-0-320.jpg
-  caption: *title
 tags:
   - Kondition og puls
   - outdoor

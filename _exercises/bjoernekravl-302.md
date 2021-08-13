@@ -8,7 +8,6 @@ id: 302
 language: da
 header:
   teaser: /assets/images/exercises/bjoernekravl-0-320.jpg
-  caption: *title
 tags:
   - kropsvægt
 categories: []

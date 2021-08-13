@@ -8,7 +8,6 @@ id: 26
 language: da
 header:
   teaser: /assets/images/exercises/baglaar-paa-swissbold-0-320.jpg
-  caption: *title
 tags:
   - Kropsstamme
 categories:

@@ -10,7 +10,6 @@ id: 574
 language: da
 header:
   teaser: /assets/images/exercises/bildaek-side-slams-0-320.jpg
-  caption: *title
 tags:
   - Kropsstamme
   - outdoor

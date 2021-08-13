@@ -8,7 +8,6 @@ id: 608
 language: da
 header:
   teaser: /assets/images/exercises/chest-push-medicinbold-0-320.jpg
-  caption: *title
 tags:
   - Pres
   - Styrketræning

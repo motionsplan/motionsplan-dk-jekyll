@@ -8,7 +8,6 @@ id: 91
 language: da
 header:
   teaser: /assets/images/exercises/balancehop-0-320.jpg
-  caption: *title
 tags:
   - træstub
   - kropsvægt

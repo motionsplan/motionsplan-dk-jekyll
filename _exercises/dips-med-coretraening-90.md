@@ -8,7 +8,6 @@ id: 90
 language: da
 header:
   teaser: /assets/images/exercises/dips-med-coretraening-0-320.jpg
-  caption: *title
 tags:
   - træstub
 categories: []

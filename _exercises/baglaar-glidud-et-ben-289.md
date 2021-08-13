@@ -8,7 +8,6 @@ id: 289
 language: da
 header:
   teaser: /assets/images/exercises/baglaar-glidud-et-ben-0-320.jpg
-  caption: *title
 tags:
   - Koordination og balance
   - hoftedomineret

@@ -8,7 +8,6 @@ id: 723
 language: da
 header:
   teaser: /assets/images/exercises/anti-rotation-cable-wide-stance-0-320.jpg
-  caption: *title
 tags:
   - Kropsstamme
   - Balance

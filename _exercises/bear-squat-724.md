@@ -8,7 +8,6 @@ id: 724
 language: da
 header:
   teaser: /assets/images/exercises/bear-squat-0-320.jpg
-  caption: *title
 tags:
   - Helkropsøvelse
   - Balance

@@ -8,7 +8,6 @@ id: 55
 language: da
 header:
   teaser: /assets/images/exercises/doedloeft-0-320.jpg
-  caption: *title
 tags:
   - Ben
   - Styrketræning

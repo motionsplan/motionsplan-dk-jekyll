@@ -8,8 +8,7 @@ id: 422
 language: da
 #header:
 #  teaser: /assets/images/exercises/balancekrabbe-0-320.gif
-#  caption: *title
-tags:
+#tags:
   - kropsstamme
   - kropsvægt
 categories: []

@@ -8,7 +8,6 @@ id: 158
 language: da
 header:
   teaser: /assets/images/exercises/balance-paa-et-ben-0-320.jpg
-  caption: *title
 tags:
   - kropsvægt
 categories: []

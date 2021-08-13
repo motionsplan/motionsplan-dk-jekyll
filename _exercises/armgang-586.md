@@ -8,7 +8,6 @@ id: 586
 language: da
 header:
   teaser: /assets/images/exercises/armgang-0-320.jpg
-  caption: *title
 tags:
   - Hård styrkeøvelse
 categories:

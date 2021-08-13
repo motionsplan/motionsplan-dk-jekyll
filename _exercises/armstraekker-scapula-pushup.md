@@ -6,8 +6,7 @@ permalink: /oevelse/scapula-pushup/
 language: da
 #header:
 #  teaser: /assets/images/exercises/armstraekker-0-320.jpg
-#  caption: *title
-tags:
+#tags:
   - kropsvægt
   - fitnessinstruktør
 categories: []

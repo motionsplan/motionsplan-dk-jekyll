@@ -8,7 +8,6 @@ id: 699
 language: da
 header:
   teaser: /assets/images/exercises/dead-bug-0-320.jpeg
-  caption: *title
 tags:
   - Kropsstamme
   - Mobilisering

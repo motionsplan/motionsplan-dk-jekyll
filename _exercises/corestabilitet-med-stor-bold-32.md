@@ -8,7 +8,6 @@ id: 32
 language: da
 header:
   teaser: /assets/images/exercises/corestabilitet-med-stor-bold-0-320.jpg
-  caption: *title
 tags:
   - swissball
 categories: []

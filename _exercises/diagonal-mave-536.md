@@ -8,7 +8,6 @@ id: 536
 language: da
 header:
   teaser: /assets/images/exercises/diagonal-mave-0-320.jpg
-  caption: *title
 tags:
   - Styrketræning
   - kropsstamme

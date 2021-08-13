@@ -8,7 +8,6 @@ id: 676
 language: da
 header:
   teaser: /assets/images/exercises/foamrolling-balle-0-320.jpg
-  caption: *title
 tags:
   - Koordination og balance
   - Self Myofascial Release (SMR)

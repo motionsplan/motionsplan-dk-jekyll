@@ -8,7 +8,6 @@ id: 615
 language: da
 header:
   teaser: /assets/images/exercises/armstraekning-easy-spiderman-0-320.jpg
-  caption: *title
 tags:
   - Pres
   - Styrketræning

@@ -10,7 +10,6 @@ id: 522
 language: da
 header:
   teaser: /assets/images/exercises/armstraekning-hindu-0-320.jpg
-  caption: *title
 tags:
   - Hård styrkeøvelse
   - kropsstamme

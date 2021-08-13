@@ -8,7 +8,6 @@ id: 258
 language: da
 header:
   teaser: /assets/images/exercises/cable-cross-0-320.jpg
-  caption: *title
 tags: []
 categories: []
 training_type: [] 
