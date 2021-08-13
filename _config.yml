@@ -363,6 +363,8 @@ defaults:
       share: true
       related: true
       author: lsolesen
+      sidebar:
+        nav: exercises
       tag_archive_path: /exercises/tags/
       category_archive_path: /exercises/categories/
   # _methods
