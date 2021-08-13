@@ -1,5 +1,5 @@
 ---
-title: &title "Bænkpres, incline"
+title: "Bænkpres, incline"
 excerpt: "Liggende på en skrå bænk på omkring 45 grader bruger du enten håndvægte eller en vægtstang. Bevægelsen starter med strakte arme og vægten føres ned indtil albuerne er omkring 90 grader. Tilbage til udgangspunktet."
 instructions: "Liggende på en skrå bænk på omkring 45 grader bruger du enten håndvægte eller en vægtstang. Bevægelsen starter med strakte arme og vægten føres ned indtil albuerne er omkring 90 grader. Tilbage til udgangspunktet."
 permalink: /oevelse/baenkpres-skraa/

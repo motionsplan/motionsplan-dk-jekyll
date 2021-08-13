@@ -1,5 +1,5 @@
 ---
-title: &title "Armstrækning TRX"
+title: "Armstrækning TRX"
 excerpt: "Start med strakt krop og strakte arme i TRX'en. Sænk dig derefter ned mod gulvet og stræk armene igen. Hold kroppen ret gennem hele øvelsen. "
 instructions: "Start med strakt krop og strakte arme i TRX'en. Sænk dig derefter ned mod gulvet og stræk armene igen. Hold kroppen ret gennem hele øvelsen. "
 permalink: /oevelse/armstraekning-trx/

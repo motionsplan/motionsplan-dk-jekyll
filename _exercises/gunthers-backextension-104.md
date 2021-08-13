@@ -1,5 +1,5 @@
 ---
-title: &title "Rygstrækning, Gunthers"
+title: "Rygstrækning, Gunthers"
 excerpt: "Her kombinerer du en rygøvelse med rows. Lig på en rygbænk med fødderne fastspændt. To håndvægte i hånden. Bøj i hoften. Nu skal du strække hoften og i en flydende bevægelse løfte håndvægtene op med albuerne forrest."
 instructions: "Her kombinerer du en rygøvelse med rows. Lig på en rygbænk med fødderne fastspændt. To håndvægte i hånden. Bøj i hoften. Nu skal du strække hoften og i en flydende bevægelse løfte håndvægtene op med albuerne forrest."
 permalink: /oevelse/gunthers-backextension/

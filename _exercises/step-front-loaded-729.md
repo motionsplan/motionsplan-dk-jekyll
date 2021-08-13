@@ -1,5 +1,5 @@
 ---
-title: &title "Step up, front loaded"
+title: "Step up, front loaded"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/step-front-loaded/

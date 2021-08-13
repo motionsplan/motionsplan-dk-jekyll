@@ -1,5 +1,5 @@
 ---
-title: &title "Bjørnekravl"
+title: "Bjørnekravl"
 excerpt: "Hold kroppen så tæt på jorden som muligt, mens du på alle fire kravler fremad ved at føre knæene ud til siden og op mod armene."
 instructions: "Hold kroppen så tæt på jorden som muligt, mens du på alle fire kravler fremad ved at føre knæene ud til siden og op mod armene."
 permalink: /oevelse/bjoernekravl/

@@ -1,5 +1,5 @@
 ---
-title: &title "Armstrækning, en arm"
+title: "Armstrækning, en arm"
 excerpt: "Hold balancen på fødderne og en arm. Spænd godt op i resten af kroppen. Sænk dig ned på en arm og tilbage til udgangspunktet."
 instructions: "Hold balancen på fødderne og en arm. Spænd godt op i resten af kroppen. Sænk dig ned på en arm og tilbage til udgangspunktet."
 permalink: /oevelse/armstraekning-en-arm/

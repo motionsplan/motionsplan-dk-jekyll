@@ -1,5 +1,5 @@
 ---
-title: &title "Good morning"
+title: "Good morning"
 excerpt: "Stangen på skuldrene. Hold hovedet oppe og ryggen helt rank. Bøj dig forover, indtil din overkrop er parallel med jorden. Vend tilbage til samme stilling igen."
 instructions: "Stangen på skuldrene. Hold hovedet oppe og ryggen helt rank. Bøj dig forover, indtil din overkrop er parallel med jorden. Vend tilbage til samme stilling igen."
 permalink: /oevelse/goodmorning/

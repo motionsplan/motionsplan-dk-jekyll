@@ -1,5 +1,5 @@
 ---
-title: &title "Koneløb"
+title: "Koneløb"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/koneloeb/

@@ -1,5 +1,5 @@
 ---
-title: &title "Side bridge"
+title: "Side bridge"
 excerpt: "Lig på siden. Skub dig op ved at hvile på underarmen og overamen ud til siden. Hold kroppen helt ret. Kig fremad. Hold positionen i 10-20 sekunder. Gentag. Kan også laves på strakt arm."
 instructions: "Lig på siden. Skub dig op ved at hvile på underarmen og overamen ud til siden. Hold kroppen helt ret. Kig fremad. Hold positionen i 10-20 sekunder. Gentag. Kan også laves på strakt arm."
 permalink: /oevelse/side-bridge/

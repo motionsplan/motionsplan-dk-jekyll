@@ -1,5 +1,5 @@
 ---
-title: &title "Sprint"
+title: "Sprint"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/sprint-0/

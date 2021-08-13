@@ -1,5 +1,5 @@
 ---
-title: &title "Bear squat"
+title: "Bear squat"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/bear-squat/

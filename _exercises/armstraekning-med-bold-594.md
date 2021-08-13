@@ -1,5 +1,5 @@
 ---
-title: &title "Armstrækning, med bold"
+title: "Armstrækning, med bold"
 instructions: ""
 permalink: /oevelse/armstraekning-med-bold/
 redirect_from:

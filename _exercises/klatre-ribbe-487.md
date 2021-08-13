@@ -1,5 +1,5 @@
 ---
-title: &title "Klatre op i ribben"
+title: "Klatre op i ribben"
 excerpt: "Kravl så højt op du kan i ribben med fødderne. Du skal også klatre ned."
 instructions: "Kravl så højt op du kan i ribben med fødderne. Du skal også klatre ned."
 permalink: /node/487/

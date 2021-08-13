@@ -1,5 +1,5 @@
 ---
-title: &title "Balancebom"
+title: "Balancebom"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/balancebom/

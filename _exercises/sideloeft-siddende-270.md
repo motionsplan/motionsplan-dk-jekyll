@@ -1,5 +1,5 @@
 ---
-title: &title "Sideløft, siddende"
+title: "Sideløft, siddende"
 excerpt: "Siddende foroverbøjet på en bænk føres vægtene med let bøjede arme ud i til siden og opad. Bevægelsen stoppes, når albuer er på højde med skulderne. Vægtene sænkes kontrolleret tilbage til udgangspositionen."
 instructions: "Siddende foroverbøjet på en bænk føres vægtene med let bøjede arme ud i til siden og opad. Bevægelsen stoppes, når albuer er på højde med skulderne. Vægtene sænkes kontrolleret tilbage til udgangspositionen."
 permalink: /oevelse/sideloeft-siddende/

@@ -1,5 +1,5 @@
 ---
-title: &title "Slædetræk"
+title: "Slædetræk"
 excerpt: "Først sprinter du fremad med en slæde spændt om livet. Derefter trækker du den baglæns tilbage til udgangspunktet."
 instructions: "Først sprinter du fremad med en slæde spændt om livet. Derefter trækker du den baglæns tilbage til udgangspunktet."
 permalink: /oevelse/slaede/

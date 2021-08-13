@@ -1,5 +1,5 @@
 ---
-title: &title "Lunges, baglæns med stangen over hovedet"
+title: "Lunges, baglæns med stangen over hovedet"
 excerpt: "Lunge, hvor benet føres bagud, og vægtstangen holdes over hovedet med strakte arme."
 instructions: "Lunge, hvor benet føres bagud, og vægtstangen holdes over hovedet med strakte arme."
 permalink: /oevelse/lunges-baglaens-med-stangen-over-hovedet/

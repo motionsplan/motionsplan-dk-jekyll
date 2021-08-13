@@ -1,5 +1,5 @@
 ---
-title: &title "Armstrækning, på tæerne"
+title: "Armstrækning, på tæerne"
 excerpt: "Start med strakt krop og strakte arme. Sænk dig derefter ned mod gulvet og stræk armene igen. Hold kroppen ret gennem hele øvelsen."
 instructions: "Start med strakt krop og strakte arme. Sænk dig derefter ned mod gulvet og stræk armene igen. Hold kroppen ret gennem hele øvelsen."
 permalink: /oevelse/armstraekker/

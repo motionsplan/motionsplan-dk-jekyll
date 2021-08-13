@@ -1,5 +1,5 @@
 ---
-title: &title "Skulderpres, vægte"
+title: "Skulderpres, vægte"
 excerpt: "Sæt dig på en en skråbænk og start vægtene fra skuldrene. Pres op over hovedet indtil du har strakte arme. Sænk langsomt til udgangspunktet igen."
 instructions: "Sæt dig på en en skråbænk og start vægtene fra skuldrene. Pres op over hovedet indtil du har strakte arme. Sænk langsomt til udgangspunktet igen."
 permalink: /oevelse/skulderpres-vaegte/

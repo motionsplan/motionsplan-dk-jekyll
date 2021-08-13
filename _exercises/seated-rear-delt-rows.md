@@ -1,5 +1,5 @@
 ---
-title: &title "Seated Rear Delt Rows"
+title: "Seated Rear Delt Rows"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/seated-rear-delt-rows/

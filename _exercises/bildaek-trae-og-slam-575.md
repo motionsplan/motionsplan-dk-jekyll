@@ -1,5 +1,5 @@
 ---
-title: &title "Bildæk, træ og slam"
+title: "Bildæk, træ og slam"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/bildaek-trae-og-slam/

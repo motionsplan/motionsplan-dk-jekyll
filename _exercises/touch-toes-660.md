@@ -1,5 +1,5 @@
 ---
-title: &title "Touch toes"
+title: "Touch toes"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/touch-toes/

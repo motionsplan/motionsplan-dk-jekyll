@@ -1,5 +1,5 @@
 ---
-title: &title "Box jump"
+title: "Box jump"
 excerpt: "Spring fra jorden op på en kasse. Land med det meste af foden på kassen. Inden du springer ned, skal du udvise kontrol. "
 instructions: "Spring fra jorden op på en kasse. Land med det meste af foden på kassen. Inden du springer ned, skal du udvise kontrol. "
 permalink: /oevelse/box-jump/

@@ -1,5 +1,5 @@
 ---
-title: &title "Rygstrækning"
+title: "Rygstrækning"
 excerpt: "Læg ned på maven. Placér hænderne under hagen. Løft overkroppen fri af underlaget uden at løfte fødderne."
 instructions: "Læg ned på maven. Placér hænderne under hagen. Løft overkroppen fri af underlaget uden at løfte fødderne."
 permalink: /oevelse/rygstraekning-0/

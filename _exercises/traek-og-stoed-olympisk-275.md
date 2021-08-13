@@ -1,5 +1,5 @@
 ---
-title: &title "Frivend og stød, olympisk"
+title: "Frivend og stød, olympisk"
 excerpt: "Træk og stød, olympisk"
 instructions: "Træk og stød, olympisk"
 permalink: /oevelse/traek-og-stoed-olympisk/

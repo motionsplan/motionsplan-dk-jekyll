@@ -1,5 +1,5 @@
 ---
-title: &title "Squat, mobiliseringsøvelse"
+title: "Squat, mobiliseringsøvelse"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/squat-mobiliseringsoevelse/

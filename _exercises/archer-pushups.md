@@ -1,5 +1,5 @@
 ---
-title: &title "Archer pushups"
+title: "Archer pushups"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/archer-pushups/

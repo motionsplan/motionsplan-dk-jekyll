@@ -1,5 +1,5 @@
 ---
-title: &title "Trillebør"
+title: "Trillebør"
 excerpt: "Makkeren holder dine ben i hoftehøjde, mens du har hænderne på jorden og strakt krop. Du fungerer nu som en trillebør, som makkeren skubber fremad."
 instructions: "Makkeren holder dine ben i hoftehøjde, mens du har hænderne på jorden og strakt krop. Du fungerer nu som en trillebør, som makkeren skubber fremad."
 permalink: /oevelse/trilleboer/

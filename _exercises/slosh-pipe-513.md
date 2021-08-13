@@ -1,5 +1,5 @@
 ---
-title: &title "Slosh Pipe"
+title: "Slosh Pipe"
 excerpt: "Dette 3 meter lange plastikrør er fyldt med vand, så den samlede vægt cirka er 18 kg. Slosh pipen bæres vandret foran på brystet med albuerne under røret fra et punkt til et andet."
 instructions: "Dette 3 meter lange plastikrør er fyldt med vand, så den samlede vægt cirka er 18 kg. Slosh pipen bæres vandret foran på brystet med albuerne under røret fra et punkt til et andet."
 permalink: /oevelse/slosh-pipe/

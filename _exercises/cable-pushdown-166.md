@@ -1,5 +1,5 @@
 ---
-title: &title "Triceps, kabeltræk"
+title: "Triceps, kabeltræk"
 excerpt: "Stil dig i god balance. Tag fat i håndtaget med bøjede arme. Derfra presser du håndtaget ned mod gulvet indtil armene er strakte. Kontrolleret tilbage til udgangspunktet."
 instructions: "Stil dig i god balance. Tag fat i håndtaget med bøjede arme. Derfra presser du håndtaget ned mod gulvet indtil armene er strakte. Kontrolleret tilbage til udgangspunktet."
 permalink: /oevelse/cable-pushdown/

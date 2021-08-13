@@ -1,5 +1,5 @@
 ---
-title: &title "Mave, hanging leg raise"
+title: "Mave, hanging leg raise"
 excerpt: "Mave, hanging leg raise"
 instructions: "Mave, hanging leg raise"
 permalink: /oevelse/mave-hanging-leg-raise/

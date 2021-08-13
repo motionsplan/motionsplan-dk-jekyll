@@ -1,5 +1,5 @@
 ---
-title: &title "Maveøvelse, rollout med hjul (ab wheel)"
+title: "Maveøvelse, rollout med hjul (ab wheel)"
 excerpt: "Start på knæene med strakt overkrop. Rul langsomt så langt ud du kan og træk derefter hjulet tilbage igen indtil du er oprejst på knæene. Gentag."
 instructions: "Start på knæene med strakt overkrop. Rul langsomt så langt ud du kan og træk derefter hjulet tilbage igen indtil du er oprejst på knæene. Gentag."
 permalink: /oevelse/maveoevelse-hjul-rollout/

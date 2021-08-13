@@ -1,5 +1,5 @@
 ---
-title: &title "Chinese Back Plank"
+title: "Chinese Back Plank"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/chinese-back-plank/

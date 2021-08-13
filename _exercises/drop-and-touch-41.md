@@ -1,5 +1,5 @@
 ---
-title: &title "Drop and touch"
+title: "Drop and touch"
 excerpt: "Fra stående rækker du med den ene hånd frem, mens du fører det andet ben bagud, så du til sidst står i et T."
 instructions: "Fra stående rækker du med den ene hånd frem, mens du fører det andet ben bagud, så du til sidst står i et T."
 permalink: /oevelse/drop-and-touch/

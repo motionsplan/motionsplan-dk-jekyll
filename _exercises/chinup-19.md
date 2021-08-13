@@ -1,5 +1,5 @@
 ---
-title: &title "Chinup, kropshævning med underhåndsgreb"
+title: "Chinup, kropshævning med underhåndsgreb"
 excerpt: "Kropshævning med underhåndsgreb."
 instructions: "Kropshævning med underhåndsgreb."
 permalink: /oevelse/chinup/

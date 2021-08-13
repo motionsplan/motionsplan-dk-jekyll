@@ -1,5 +1,5 @@
 ---
-title: &title "Sots press"
+title: "Sots press"
 excerpt: "Du starter med stangen på skuldrene. Stangen skal hele tiden blive i samme højde, mens du går ned i knæ."
 instructions: "Du starter med stangen på skuldrene. Stangen skal hele tiden blive i samme højde, mens du går ned i knæ."
 permalink: /oevelse/sots-press/

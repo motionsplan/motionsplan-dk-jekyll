@@ -1,5 +1,5 @@
 ---
-title: &title "Bildæk, maveøvelse II"
+title: "Bildæk, maveøvelse II"
 instructions: ""
 permalink: /oevelse/bildaek-maveoevelse-ii/
 redirect_from:

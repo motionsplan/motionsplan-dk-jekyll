@@ -1,5 +1,5 @@
 ---
-title: &title "Hoftebøjer hængende"
+title: "Hoftebøjer hængende"
 excerpt: "Hæng med strakt krop i enten en ribbe eller en barre. Herfra bøjes i hoften indtil fødderne er i vandret."
 instructions: "Hæng med strakt krop i enten en ribbe eller en barre. Herfra bøjes i hoften indtil fødderne er i vandret."
 permalink: /oevelse/hofteboejer/

@@ -1,5 +1,5 @@
 ---
-title: &title "Træk, råtræk"
+title: "Træk, råtræk"
 excerpt: "Vægten skal fra jorden løftes eksplosivt op, så man med en let knæbøjning kan gribe den over hovedet."
 instructions: "Vægten skal fra jorden løftes eksplosivt op, så man med en let knæbøjning kan gribe den over hovedet."
 permalink: /oevelse/raatraek/

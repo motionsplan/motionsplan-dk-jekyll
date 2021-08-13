@@ -1,5 +1,5 @@
 ---
-title: &title "Waiter walk"
+title: "Waiter walk"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/waiter-walk/

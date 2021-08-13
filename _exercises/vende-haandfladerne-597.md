@@ -1,5 +1,5 @@
 ---
-title: &title "Vende håndfladerne"
+title: "Vende håndfladerne"
 excerpt: "Stil dig med armene ud til siden. Den ene håndflade vender opad, mens den anden vender nedad. Kig efter håndfladen, som vender opad. Vend håndfladerne ved at dreje i skuldrene. Skift stille og roligt og mærk efter om der er nogle spring i bevægelsen nogen steder."
 instructions: "Stil dig med armene ud til siden. Den ene håndflade vender opad, mens den anden vender nedad. Kig efter håndfladen, som vender opad. Vend håndfladerne ved at dreje i skuldrene. Skift stille og roligt og mærk efter om der er nogle spring i bevægelsen nogen steder."
 permalink: /oevelse/vende-haandfladerne/

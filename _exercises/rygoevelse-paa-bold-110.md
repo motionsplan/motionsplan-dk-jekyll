@@ -1,5 +1,5 @@
 ---
-title: &title "Rygøvelse på bold"
+title: "Rygøvelse på bold"
 excerpt: "Læg dig på bolden, så benene rører jorden og overkroppen hænger frit. Lad overkroppen falde ned mod gulvet og ret dig derefter op igen, indtil kroppen er lige."
 instructions: "Læg dig på bolden, så benene rører jorden og overkroppen hænger frit. Lad overkroppen falde ned mod gulvet og ret dig derefter op igen, indtil kroppen er lige."
 permalink: /oevelse/rygoevelse-paa-bold/

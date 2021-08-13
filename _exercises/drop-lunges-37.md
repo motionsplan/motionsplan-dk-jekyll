@@ -1,5 +1,5 @@
 ---
-title: &title "Drop lunges"
+title: "Drop lunges"
 excerpt: "Drop lunges, hvor det ene ben føres bag det forreste bøjede ben."
 instructions: "Drop lunges, hvor det ene ben føres bag det forreste bøjede ben."
 permalink: /oevelse/drop-lunges/

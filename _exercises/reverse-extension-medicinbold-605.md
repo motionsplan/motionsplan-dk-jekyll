@@ -1,5 +1,5 @@
 ---
-title: &title "Reverse extension medicinbold"
+title: "Reverse extension medicinbold"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/reverse-extension-medicinbold/

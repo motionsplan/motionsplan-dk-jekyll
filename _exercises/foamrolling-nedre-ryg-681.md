@@ -1,5 +1,5 @@
 ---
-title: &title "Foamrolling nedre ryg"
+title: "Foamrolling nedre ryg"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/foamrolling-nedre-ryg/

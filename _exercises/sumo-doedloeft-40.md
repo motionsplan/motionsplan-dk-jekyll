@@ -1,5 +1,5 @@
 ---
-title: &title "Dødløft, sumo"
+title: "Dødløft, sumo"
 excerpt: "Stå med bredstående og tæerne pegende lidt udad. Tag fat i stangen mellem dine ben. Rejs dig op ved at rette knæene og hoften ud og sænk stangen igen."
 instructions: "Stå med bredstående og tæerne pegende lidt udad. Tag fat i stangen mellem dine ben. Rejs dig op ved at rette knæene og hoften ud og sænk stangen igen."
 permalink: /oevelse/sumo-doedloeft/

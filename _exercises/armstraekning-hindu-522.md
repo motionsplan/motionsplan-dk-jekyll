@@ -1,5 +1,5 @@
 ---
-title: &title "Armstrækning, hindu or yoga"
+title: "Armstrækning, hindu or yoga"
 excerpt: "Stå som et V med hænder og fødder i gulvet. Når hovedet er mellem hænderne strækkes armene helt (shrug). Hælen skal være så tæt på gulvet som muligt. Fra denne stilling dykkes hovedet ned mellem armene og følger gulvet indtil kroppen er strakt. Nu føres hovedet opad, så du kommer til at stå som i en hængebro, mens du holder spændet i maven."
 instructions: "Stå som et V med hænder og fødder i gulvet. Når hovedet er mellem hænderne strækkes armene helt (shrug). Hælen skal være så tæt på gulvet som muligt. Fra denne stilling dykkes hovedet ned mellem armene og følger gulvet indtil kroppen er strakt. Nu føres hovedet opad, så du kommer til at stå som i en hængebro, mens du holder spændet i maven."
 permalink: /oevelse/armstraekning-hindu/

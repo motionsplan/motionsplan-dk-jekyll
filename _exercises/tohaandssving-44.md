@@ -1,5 +1,5 @@
 ---
-title: &title "Swing, to hænder"
+title: "Swing, to hænder"
 excerpt: "Hold fast i vægten med begge hænder. Bøj forover i hoften med let bøjede knæ og ret ryg, og hold vægten mellem benene. Herfra svinger du vægten fremad og opad ved at strække hofte og knæ samtidig. Armene er i princippet bare snore, der holder vægten fast. Som udgangspunkt skal vægten lidt over vandret."
 instructions: "Hold fast i vægten med begge hænder. Bøj forover i hoften med let bøjede knæ og ret ryg, og hold vægten mellem benene. Herfra svinger du vægten fremad og opad ved at strække hofte og knæ samtidig. Armene er i princippet bare snore, der holder vægten fast. Som udgangspunkt skal vægten lidt over vandret."
 permalink: /oevelse/tohaandssving/

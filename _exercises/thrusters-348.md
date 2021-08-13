@@ -1,5 +1,5 @@
 ---
-title: &title "Thrusters"
+title: "Thrusters"
 excerpt: "Hold vægtene i hænderne og lad dem hvile i brysthøjde. Lav en dyb benbøjning. Rejs dig igen. Stræk armene op over hovedet."
 instructions: "Hold vægtene i hænderne og lad dem hvile i brysthøjde. Lav en dyb benbøjning. Rejs dig igen. Stræk armene op over hovedet."
 permalink: /oevelse/thrusters/

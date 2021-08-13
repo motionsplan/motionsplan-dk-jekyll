@@ -1,5 +1,5 @@
 ---
-title: &title "One arm rows med håndvægt"
+title: "One arm rows med håndvægt"
 instructions: "I one arm rows på bænk holder du en vægt i den ene hånd. Sæt et knæ op på bænken og støt armen på bænken. Ryggen er parallel med jorden. Hold en ret ryg under hele bevægelsen. Start med at vægten bare hænger i armen. Start bevægelsen i i skulderbladet og træk vægten opad. Lav et stort bevægeudslag."
 permalink: /oevelse/roning-enarms/
 redirect_from: /node/20

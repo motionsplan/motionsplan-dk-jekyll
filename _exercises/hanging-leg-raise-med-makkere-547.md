@@ -1,5 +1,5 @@
 ---
-title: &title "Hanging leg raise med makkere"
+title: "Hanging leg raise med makkere"
 excerpt: "Makkerne holder en pind imellem sig ud for deres brystkasse og spænder godt op i kroppen. Du hænger dig i pinden. Opgaven er at få fødderne op over pinden."
 instructions: "Makkerne holder en pind imellem sig ud for deres brystkasse og spænder godt op i kroppen. Du hænger dig i pinden. Opgaven er at få fødderne op over pinden."
 permalink: /oevelse/hanging-leg-raise-med-makkere/

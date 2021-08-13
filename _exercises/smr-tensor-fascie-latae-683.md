@@ -1,5 +1,5 @@
 ---
-title: &title "SMR Tensor Fascie Latae"
+title: "SMR Tensor Fascie Latae"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/smr-tensor-fascie-latae/

@@ -1,5 +1,5 @@
 ---
-title: &title "Shrug"
+title: "Shrug"
 excerpt: "Stå med vægtstangen i strakte arme. Uden at bøje armene hæves vægtstangen kun ved bevægelse i skuldrene."
 instructions: "Stå med vægtstangen i strakte arme. Uden at bøje armene hæves vægtstangen kun ved bevægelse i skuldrene."
 permalink: /oevelse/shrug/

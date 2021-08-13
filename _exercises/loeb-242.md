@@ -1,5 +1,5 @@
 ---
-title: &title "Løb"
+title: "Løb"
 excerpt: "Løb"
 instructions: "Løb"
 permalink: /oevelse/loeb/

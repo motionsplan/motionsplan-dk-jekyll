@@ -1,5 +1,5 @@
 ---
-title: &title "One arm clean and press"
+title: "One arm clean and press"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/one-arm-clean-and-jerk/

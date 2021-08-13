@@ -1,5 +1,5 @@
 ---
-title: &title "Armstrækning, Spiderman"
+title: "Armstrækning, Spiderman"
 excerpt: "Armstrækning hvor knæet føres på siden af kroppen og op mod albuen, mens du sænker dig ned mod gulvet, og hvor benet strækkes mens du går op. Skift."
 instructions: "Armstrækning hvor knæet føres på siden af kroppen og op mod albuen, mens du sænker dig ned mod gulvet, og hvor benet strækkes mens du går op. Skift."
 permalink: /oevelse/armstraekning-spiderman/

@@ -1,5 +1,5 @@
 ---
-title: &title "Mave, maskine"
+title: "Mave, maskine"
 excerpt: "Hold i håndtagene og bøj forover ved at stramme mavemusklerne. Kontrolleret tilbage til udgangspunktet."
 instructions: "Hold i håndtagene og bøj forover ved at stramme mavemusklerne. Kontrolleret tilbage til udgangspunktet."
 permalink: /oevelse/mave-maskine/

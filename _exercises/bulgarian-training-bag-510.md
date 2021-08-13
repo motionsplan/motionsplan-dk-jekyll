@@ -1,5 +1,5 @@
 ---
-title: &title "Bulgarian training bag"
+title: "Bulgarian training bag"
 excerpt: "Hold den bulgarske træningssæk i hver sin ende. Sving den skiftevis den ene og anden vej rundt om hovedet."
 instructions: "Hold den bulgarske træningssæk i hver sin ende. Sving den skiftevis den ene og anden vej rundt om hovedet."
 permalink: /oevelse/bulgarian-training-bag/

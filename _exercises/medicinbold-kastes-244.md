@@ -1,5 +1,5 @@
 ---
-title: &title "Medicinbold i væg"
+title: "Medicinbold i væg"
 excerpt: "Kast medicinbolden ind i væggen så hårdt som du kan og grib den igen, inden den rammer jorden."
 instructions: "Kast medicinbolden ind i væggen så hårdt som du kan og grib den igen, inden den rammer jorden."
 permalink: /oevelse/medicinbold-kastes/

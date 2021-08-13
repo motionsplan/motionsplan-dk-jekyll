@@ -1,5 +1,5 @@
 ---
-title: &title "Biceps, kabeltræk"
+title: "Biceps, kabeltræk"
 excerpt: "Stå i god balance og tag fat i håndtaget. Start med strakte arme og bøj dem maksimalt. Sørg for at kroppen ikke hjælper til, men kun armene laver arbejdet."
 instructions: "Stå i god balance og tag fat i håndtaget. Start med strakte arme og bøj dem maksimalt. Sørg for at kroppen ikke hjælper til, men kun armene laver arbejdet."
 permalink: /oevelse/biceps-kabeltraek/

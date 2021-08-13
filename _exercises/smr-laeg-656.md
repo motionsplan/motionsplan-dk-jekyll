@@ -1,5 +1,5 @@
 ---
-title: &title "SMR Læg"
+title: "SMR Læg"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/smr-laeg/

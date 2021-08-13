@@ -1,5 +1,5 @@
 ---
-title: &title "Udstrækning af ryg og mave"
+title: "Udstrækning af ryg og mave"
 excerpt: "Multiøvelser i par."
 instructions: "Multiøvelser i par."
 permalink: /oevelse/udstraekning-af-ryg-og-mave/

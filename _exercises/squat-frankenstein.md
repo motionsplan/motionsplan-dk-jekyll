@@ -1,5 +1,5 @@
 ---
-title: &title "Frankenstein Squat"
+title: "Frankenstein Squat"
 excerpt: ""
 instructions: "Frankenstein Squat kaldes også sommetider for Zombie Squat."
 permalink: /oevelse/frankenstein-squat/

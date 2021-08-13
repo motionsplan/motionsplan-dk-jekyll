@@ -1,5 +1,5 @@
 ---
-title: &title "Dips, med coretræning"
+title: "Dips, med coretræning"
 excerpt: "To sammen. En gør klar til at lave almindelige dips, mens den anden holder benene. En gang imellem slipper den stående benet på den arbejdende. Den arbejdende skal samtidig med at vedkommende laver dips holde benet oppe."
 instructions: "To sammen. En gør klar til at lave almindelige dips, mens den anden holder benene. En gang imellem slipper den stående benet på den arbejdende. Den arbejdende skal samtidig med at vedkommende laver dips holde benet oppe."
 permalink: /oevelse/dips-med-coretraening/

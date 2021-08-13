@@ -1,5 +1,5 @@
 ---
-title: &title "Squat, vægtstangen på nakken"
+title: "Squat, vægtstangen på nakken"
 excerpt: "Fødderne placeres nogenlunde i skulderbredde med tæerne pegende let udad og knæene skal pege ud over tæerne. Herfra går du så langt ned i knæ, som du kan. Rejs dig igen."
 instructions: "Fødderne placeres nogenlunde i skulderbredde med tæerne pegende let udad og knæene skal pege ud over tæerne. Herfra går du så langt ned i knæ, som du kan. Rejs dig igen."
 permalink: /oevelse/back-squat/

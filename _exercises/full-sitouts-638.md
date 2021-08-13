@@ -1,5 +1,5 @@
 ---
-title: &title "Full sitouts"
+title: "Full sitouts"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/full-sitouts/

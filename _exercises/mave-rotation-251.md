@@ -1,5 +1,5 @@
 ---
-title: &title "Mave, rotation"
+title: "Mave, rotation"
 excerpt: "Mave, rotation"
 instructions: "Mave, rotation"
 permalink: /oevelse/mave-rotation/

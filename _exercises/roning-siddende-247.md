@@ -1,5 +1,5 @@
 ---
-title: &title "Roning, siddende"
+title: "Roning, siddende"
 excerpt: "Placér begge fødder på fodpladen. Hold ryggen ret og hoften statisk. Håndgrebet trækkes ind til kroppen. Tilbageførelsen sker bremsende og kontrolleret. "
 instructions: "Placér begge fødder på fodpladen. Hold ryggen ret og hoften statisk. Håndgrebet trækkes ind til kroppen. Tilbageførelsen sker bremsende og kontrolleret. "
 permalink: /oevelse/roning-siddende/

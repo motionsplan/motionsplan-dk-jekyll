@@ -1,5 +1,5 @@
 ---
-title: &title "Squat med makker"
+title: "Squat med makker"
 excerpt: "Gå sammen tre om en planke. To mand holder planken i enderne, mens den sidste stiller sig op på planken og holder balancen. De to der holder planken laver dybe benbøjninger."
 instructions: "Gå sammen tre om en planke. To mand holder planken i enderne, mens den sidste stiller sig op på planken og holder balancen. De to der holder planken laver dybe benbøjninger."
 permalink: /oevelse/squat-med-partner/

@@ -1,5 +1,5 @@
 ---
-title: &title "Tall kneeling one arm press with kettlebell"
+title: "Tall kneeling one arm press with kettlebell"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/tall-kneeling-one-arm-press-kettlebell/
@@ -33,5 +33,3 @@ video:
   id: EAtiai0k_Aw
 last_modified_at: 2016-10-17T21:05:42Z
 ---
-
-

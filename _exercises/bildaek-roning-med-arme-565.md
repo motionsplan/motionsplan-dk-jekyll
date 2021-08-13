@@ -1,5 +1,5 @@
 ---
-title: &title "Bildæk, roning med arme"
+title: "Bildæk, roning med arme"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/bildaek-roning-med-arme/

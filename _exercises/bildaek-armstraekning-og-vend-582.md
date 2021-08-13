@@ -1,5 +1,5 @@
 ---
-title: &title "Bildæk, armstrækning og vend"
+title: "Bildæk, armstrækning og vend"
 instructions: ""
 permalink: /oevelse/bildaek-armstraekning-og-vend/
 redirect_from:

@@ -1,5 +1,5 @@
 ---
-title: &title "Anti-rotation in cable, wide stance"
+title: "Anti-rotation in cable, wide stance"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/anti-rotation-cable-wide-stance/

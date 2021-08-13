@@ -1,5 +1,5 @@
 ---
-title: &title "Maveøvelse, Stuart McGill curlup"
+title: "Maveøvelse, Stuart McGill curlup"
 excerpt: "Lig på ryggen. Bøj det ene ben. En hånd under ryggen for at sikre, at der er en naturlig kurve i ryggen. Kig opad. Løft brystkassen lige op mod loftet."
 instructions: "Lig på ryggen. Bøj det ene ben. En hånd under ryggen for at sikre, at der er en naturlig kurve i ryggen. Kig opad. Løft brystkassen lige op mod loftet."
 permalink: /oevelse/maveoevelse-stuart-mcgill-curlup/

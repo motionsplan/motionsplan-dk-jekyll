@@ -1,5 +1,5 @@
 ---
-title: &title "Curl up"
+title: "Curl up"
 excerpt: "Start rygliggende med hænderne på maven og bøjede knæ. Lad hænderne følge lårene over knæene og ned ad skinnebenene indtil du sidder op."
 instructions: "Start rygliggende med hænderne på maven og bøjede knæ. Lad hænderne følge lårene over knæene og ned ad skinnebenene indtil du sidder op."
 permalink: /oevelse/curl/

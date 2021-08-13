@@ -1,5 +1,5 @@
 ---
-title: &title "Roning, træk i reb"
+title: "Roning, træk i reb"
 excerpt: "To sammen om et stort tov. Den ene agerer modstand i den ene ende, mens den anden skal trække vedkommende til sig."
 instructions: "To sammen om et stort tov. Den ene agerer modstand i den ene ende, mens den anden skal trække vedkommende til sig."
 permalink: /oevelse/traek-i-rebet/

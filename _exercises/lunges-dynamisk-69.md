@@ -1,5 +1,5 @@
 ---
-title: &title "Lunges, dynamisk"
+title: "Lunges, dynamisk"
 excerpt: "Træd et skridt frem og gå ned i knæ, indtil det forreste lår er vandret og det andet næsten knæ rører jorden. Bevæg dig dynamisk tilbage til udgangspositionen."
 instructions: "Træd et skridt frem og gå ned i knæ, indtil det forreste lår er vandret og det andet næsten knæ rører jorden. Bevæg dig dynamisk tilbage til udgangspositionen."
 permalink: /oevelse/lunges-dynamisk/

@@ -1,5 +1,5 @@
 ---
-title: &title "Cykel, spinning"
+title: "Cykel, spinning"
 excerpt: "Cykel, spinning"
 instructions: "Cykel, spinning"
 permalink: /oevelse/cykel-spinning/

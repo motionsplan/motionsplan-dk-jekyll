@@ -1,5 +1,5 @@
 ---
-title: &title "Anterior loaded reverse lunge"
+title: "Anterior loaded reverse lunge"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/anterior-loaded-reverse-lunge/
@@ -31,5 +31,3 @@ video:
   id: gSn3cQl6s88
 last_modified_at: 2016-10-31T09:35:23Z
 ---
-
-

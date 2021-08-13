@@ -1,5 +1,5 @@
 ---
-title: &title "Double Under"
+title: "Double Under"
 excerpt: "Sjipning hvor rebet føres to gange under fødderne, inden det rører jorden igen. "
 instructions: "Sjipning hvor rebet føres to gange under fødderne, inden det rører jorden igen. "
 permalink: /node/490/

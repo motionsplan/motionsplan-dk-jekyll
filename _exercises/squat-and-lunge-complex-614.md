@@ -1,5 +1,5 @@
 ---
-title: &title "Squat and lunge complex"
+title: "Squat and lunge complex"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/squat-and-lunge-complex/

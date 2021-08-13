@@ -1,5 +1,5 @@
 ---
-title: &title "Halo med kettlebell"
+title: "Halo med kettlebell"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/halo-med-kettlebell/

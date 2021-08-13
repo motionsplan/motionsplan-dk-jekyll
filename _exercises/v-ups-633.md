@@ -1,5 +1,5 @@
 ---
-title: &title "V-ups"
+title: "V-ups"
 instructions: "I V-ups ligger du på ryggen. Herfra løfter du arme og ben fri fra gulvet. Nu rører du dine fødder med hænderne og sænker dig til udgangspunktet."
 permalink: /oevelse/v-ups/
 redirect_from: /node/633

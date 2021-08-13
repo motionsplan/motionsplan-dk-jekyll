@@ -1,5 +1,5 @@
 ---
-title: &title "Svinge dæk"
+title: "Svinge dæk"
 excerpt: "Hold et bildæk med begge hænder mellem benene. Bøj i benene, så numsen kommer godt tilbage. Spænd og i mave, ryg og musklerne omkring hoften. Sving dækket fremefter og opad."
 instructions: "Hold et bildæk med begge hænder mellem benene. Bøj i benene, så numsen kommer godt tilbage. Spænd og i mave, ryg og musklerne omkring hoften. Sving dækket fremefter og opad."
 permalink: /oevelse/svinge-daek/

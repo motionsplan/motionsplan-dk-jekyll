@@ -1,5 +1,5 @@
 ---
-title: &title "Hop på tyk madras"
+title: "Hop på tyk madras"
 excerpt: "Stil dig i en madras og hop så højt du kan ved hvert hop."
 instructions: "Stil dig i en madras og hop så højt du kan ved hvert hop."
 permalink: /oevelse/hop-paa-tyk-madras/

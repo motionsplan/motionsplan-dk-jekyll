@@ -1,5 +1,5 @@
 ---
-title: &title "Dips"
+title: "Dips"
 excerpt: "Spring op i stativet. Sænk dig til overarmen cirka er vandret og pres dig op igen."
 instructions: "Spring op i stativet. Sænk dig til overarmen cirka er vandret og pres dig op igen."
 permalink: /oevelse/dips/

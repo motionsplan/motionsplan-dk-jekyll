@@ -1,5 +1,5 @@
 ---
-title: &title "Pistol"
+title: "Pistol"
 excerpt: "Stå på et ben. Løft det andet ben frem foran dig så det ikke rører jorden. Herfra laver du en dyb knæbøjning uden at røre med benet i luften. Rejs dig igen."
 instructions: "Stå på et ben. Løft det andet ben frem foran dig så det ikke rører jorden. Herfra laver du en dyb knæbøjning uden at røre med benet i luften. Rejs dig igen."
 permalink: /oevelse/pistol/

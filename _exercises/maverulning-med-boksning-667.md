@@ -1,5 +1,5 @@
 ---
-title: &title "Maverulning med boksning"
+title: "Maverulning med boksning"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/maverulning-med-boksning/

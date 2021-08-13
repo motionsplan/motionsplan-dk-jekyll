@@ -1,5 +1,5 @@
 ---
-title: &title "Hammer swings"
+title: "Hammer swings"
 excerpt: "Løft hammeren op over hovedet og brug hele kroppen til at banke hammeren hårdt ned i dækket. Skift håndstilling."
 instructions: "Løft hammeren op over hovedet og brug hele kroppen til at banke hammeren hårdt ned i dækket. Skift håndstilling."
 permalink: /oevelse/hammer-swings/

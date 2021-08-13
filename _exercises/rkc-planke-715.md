@@ -1,5 +1,5 @@
 ---
-title: &title "RKC Planke"
+title: "RKC Planke"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/rkc-planke/
@@ -29,5 +29,3 @@ video:
   id: zmybubRi1TU
 last_modified_at: 2016-10-17T21:09:12Z
 ---
-
-

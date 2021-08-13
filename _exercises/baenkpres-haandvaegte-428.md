@@ -1,5 +1,5 @@
 ---
-title: &title "Bænkpres, håndvægte"
+title: "Bænkpres, håndvægte"
 excerpt: "Lig på en bænk. Håndvægte i hver hånd. Pres lige op."
 instructions: "Lig på en bænk. Håndvægte i hver hånd. Pres lige op."
 permalink: /node/428/

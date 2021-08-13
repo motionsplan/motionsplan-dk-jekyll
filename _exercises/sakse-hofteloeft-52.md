@@ -1,5 +1,5 @@
 ---
-title: &title "Sakse hofteløft"
+title: "Sakse hofteløft"
 excerpt: "Lig på ryggen på gulvet. Hælen af den ene fod er på en bænk, mens det andet ben er bøjet lidt. Løft nu hoften op med loftet."
 instructions: "Lig på ryggen på gulvet. Hælen af den ene fod er på en bænk, mens det andet ben er bøjet lidt. Løft nu hoften op med loftet."
 permalink: /oevelse/sakse-hofteloeft/

@@ -1,5 +1,5 @@
 ---
-title: &title "Foamrolling balle"
+title: "Foamrolling balle"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/foamrolling-balle/

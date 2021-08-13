@@ -1,5 +1,5 @@
 ---
-title: &title "Hip thrusts"
+title: "Hip thrusts"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/hip-thrusters/

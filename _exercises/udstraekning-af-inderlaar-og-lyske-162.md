@@ -1,5 +1,5 @@
 ---
-title: &title "Udstrækning af inderlår og lyske"
+title: "Udstrækning af inderlår og lyske"
 excerpt: "Udstrækning af indadførerne som parøvelse."
 instructions: "Udstrækning af indadførerne som parøvelse."
 permalink: /oevelse/udstraekning-af-inderlaar-og-lyske/

@@ -1,5 +1,5 @@
 ---
-title: &title "Alternating swiss ball step offs"
+title: "Alternating swiss ball step offs"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/alternating-swiss-ball-step-offs/

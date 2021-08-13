@@ -1,5 +1,5 @@
 ---
-title: &title "Dead bug"
+title: "Dead bug"
 excerpt: "Lig på ryggen med armene strakt op i luften og benene bøjet 90 grader. Gør lænden flad. Stram i mavemusklerne. Stræk det ene ben indtil du lige lader hælen ramme jorden. Samtidig strækker du modsatte arm over hovedet. Kropsstammen skal ikke bevæge sig. Udfør øvelsen relativt langsomt. "
 instructions: "Lig på ryggen med armene strakt op i luften og benene bøjet 90 grader. Gør lænden flad. Stram i mavemusklerne. Stræk det ene ben indtil du lige lader hælen ramme jorden. Samtidig strækker du modsatte arm over hovedet. Kropsstammen skal ikke bevæge sig. Udfør øvelsen relativt langsomt. "
 permalink: /oevelse/dead-bug/

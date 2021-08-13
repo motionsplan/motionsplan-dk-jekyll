@@ -1,5 +1,5 @@
 ---
-title: &title "Pullup, kropshævning med overhåndsgreb"
+title: "Pullup, kropshævning med overhåndsgreb"
 excerpt: "Hold fast i stangen med hænderne lidt bredere end skulderbreddde og håndfladerne pegende fremad. Træk dig op indtil du kigger over stangen og sænk dig kontrolleret igen."
 instructions: "Hold fast i stangen med hænderne lidt bredere end skulderbreddde og håndfladerne pegende fremad. Træk dig op indtil du kigger over stangen og sænk dig kontrolleret igen."
 permalink: /oevelse/pullup/

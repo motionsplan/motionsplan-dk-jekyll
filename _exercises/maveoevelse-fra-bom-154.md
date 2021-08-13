@@ -1,5 +1,5 @@
 ---
-title: &title "Maveøvelse fra bom"
+title: "Maveøvelse fra bom"
 excerpt: "Hæng i armene i en bom. Forsøg at få benene op og røre bommen."
 instructions: "Hæng i armene i en bom. Forsøg at få benene op og røre bommen."
 permalink: /oevelse/maveoevelse-fra-bom/

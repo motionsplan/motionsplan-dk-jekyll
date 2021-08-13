@@ -1,5 +1,5 @@
 ---
-title: &title "Kassegang"
+title: "Kassegang"
 excerpt: "Med to kasser skal du tilbagelægge en distance. Du står på den ene kasse og flytter den anden fremad."
 instructions: "Med to kasser skal du tilbagelægge en distance. Du står på den ene kasse og flytter den anden fremad."
 permalink: /oevelse/kassegang/

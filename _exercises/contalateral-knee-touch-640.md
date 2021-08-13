@@ -1,5 +1,5 @@
 ---
-title: &title "Contalateral knee touch"
+title: "Contalateral knee touch"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/contalateral-knee-touch/

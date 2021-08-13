@@ -1,5 +1,5 @@
 ---
-title: &title "Pallof Press"
+title: "Pallof Press"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/pallof-press/

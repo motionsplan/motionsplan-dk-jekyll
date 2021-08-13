@@ -1,5 +1,5 @@
 ---
-title: &title "Mave, Reverse crunch"
+title: "Mave, Reverse crunch"
 excerpt: "Lig på ryggen og hold fast med armene. Før derefter knæene op mod skuldrene."
 instructions: "Lig på ryggen og hold fast med armene. Før derefter knæene op mod skuldrene."
 permalink: /oevelse/reverse-crunch/

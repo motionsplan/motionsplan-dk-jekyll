@@ -1,5 +1,5 @@
 ---
-title: &title "Lateral lunge, bodyweight"
+title: "Lateral lunge, bodyweight"
 excerpt: "LLunge til siden."
 instructions: "LLunge til siden."
 permalink: /oevelse/lateral-squat/

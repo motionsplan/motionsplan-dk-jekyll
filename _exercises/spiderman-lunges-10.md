@@ -1,5 +1,5 @@
 ---
-title: &title "Spiderman lunges"
+title: "Spiderman lunges"
 excerpt: "Hvil på fødderne og på håndfladerne som til en armstrækning. Før skiftevis fødderne op til den hånden i samme side."
 instructions: "Hvil på fødderne og på håndfladerne som til en armstrækning. Før skiftevis fødderne op til den hånden i samme side."
 permalink: /oevelse/spiderman-lunges/

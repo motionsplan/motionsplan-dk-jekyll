@@ -1,5 +1,5 @@
 ---
-title: &title "Skrå mavemuskler - Hip twister"
+title: "Skrå mavemuskler - Hip twister"
 excerpt: "De skrå mavemuskler "
 instructions: "De skrå mavemuskler "
 permalink: /oevelse/hip-twister/

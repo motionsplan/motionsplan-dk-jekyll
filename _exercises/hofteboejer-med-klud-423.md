@@ -1,5 +1,5 @@
 ---
-title: &title "Hoftebøjer med klud"
+title: "Hoftebøjer med klud"
 excerpt: "Støttende på alle hænder og tæer med strakt krop. Vægten frem på armene. Begge fødder placeret på gulvklude. Træk fødderne frem mod hænderne ved at bøje i hoften. Lad derefter fødderne glide tilbage til udgangsposition. Hold kropsspændingen hele vejen til slutposition."
 instructions: "Støttende på alle hænder og tæer med strakt krop. Vægten frem på armene. Begge fødder placeret på gulvklude. Træk fødderne frem mod hænderne ved at bøje i hoften. Lad derefter fødderne glide tilbage til udgangsposition. Hold kropsspændingen hele vejen til slutposition."
 permalink: /oevelse/hofteboejer-med-klud/

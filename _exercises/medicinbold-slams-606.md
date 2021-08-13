@@ -1,5 +1,5 @@
 ---
-title: &title "Medicinbold slams"
+title: "Medicinbold slams"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/medicinbold-slams/

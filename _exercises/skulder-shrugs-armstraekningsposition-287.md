@@ -1,5 +1,5 @@
 ---
-title: &title "Skulder shrugs, armstrækningsposition"
+title: "Skulder shrugs, armstrækningsposition"
 excerpt: "Start hvilende på hænder og tæer med helt strakt krop (armstrækningsposition) og skub helt op i skuldrene. Fasthold positionen men fald ned i skuldrene, så skulderbladene kommer tættere på hinanden."
 instructions: "Start hvilende på hænder og tæer med helt strakt krop (armstrækningsposition) og skub helt op i skuldrene. Fasthold positionen men fald ned i skuldrene, så skulderbladene kommer tættere på hinanden."
 permalink: /oevelse/skulder-shrugs-armstraekningsposition/

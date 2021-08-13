@@ -1,5 +1,5 @@
 ---
-title: &title "Triceps liggende"
+title: "Triceps liggende"
 excerpt: "Liggende på en bænk og sænk armene bag hovedet til vandret."
 instructions: "Liggende på en bænk og sænk armene bag hovedet til vandret."
 permalink: /oevelse/triceps-liggende/

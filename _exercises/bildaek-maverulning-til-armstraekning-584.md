@@ -1,5 +1,5 @@
 ---
-title: &title "Bildæk, maverulning til armstrækning"
+title: "Bildæk, maverulning til armstrækning"
 instructions: ""
 permalink: /oevelse/bildaek-maverulning-til-armstraekning/
 redirect_from:

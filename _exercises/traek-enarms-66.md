@@ -1,5 +1,5 @@
 ---
-title: &title "Træk, enarms: One arm snatch"
+title: "Træk, enarms: One arm snatch"
 excerpt: "I enarmstræk (eller one arm snatch) tager du fat i vægten på gulvet. Bøj i knæ- og hofteled og hold ryggen ret. Herfra skal du accellere håndvægten, så du kan gribe den i strakt arm over hovedet."
 instructions: "Tag fat i vægten på gulvet. Bøj i knæ- og hofteled og hold ryggen ret. Herfra skal du accellere håndvægten, så du kan gribe den i strakt arm over hovedet."
 permalink: /oevelse/traek-enarms/

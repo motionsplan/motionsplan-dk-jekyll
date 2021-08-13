@@ -1,5 +1,5 @@
 ---
-title: &title "Sjipning"
+title: "Sjipning"
 excerpt: "Du sjipper i den afsatte tid. Hold hænderne nogenlunde tæt til hoften og sørg for at sjippetovet primært svinges i håndleddene."
 instructions: "Du sjipper i den afsatte tid. Hold hænderne nogenlunde tæt til hoften og sørg for at sjippetovet primært svinges i håndleddene."
 permalink: /oevelse/sjipning/

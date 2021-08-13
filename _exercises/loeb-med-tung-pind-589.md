@@ -1,5 +1,5 @@
 ---
-title: &title "Løb, med tung pind"
+title: "Løb, med tung pind"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/loeb-med-tung-pind/

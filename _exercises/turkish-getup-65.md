@@ -1,5 +1,5 @@
 ---
-title: &title "Turkish getup"
+title: "Turkish getup"
 excerpt: "Lig på ryggen. Hold en vægt i strakt arm. Herfra skal du rejse dig op, mens du holder vægten over hovedet i strakt arm hele tiden. Læg dig ned igen."
 instructions: "Lig på ryggen. Hold en vægt i strakt arm. Herfra skal du rejse dig op, mens du holder vægten over hovedet i strakt arm hele tiden. Læg dig ned igen."
 permalink: /oevelse/turkish-getup/

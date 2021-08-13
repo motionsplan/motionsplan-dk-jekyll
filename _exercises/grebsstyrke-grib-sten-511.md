@@ -1,5 +1,5 @@
 ---
-title: &title "Grebsstyrke, grib sten"
+title: "Grebsstyrke, grib sten"
 excerpt: "En tung genstand holdes i hånden med fingerspidserne nedad. Giv slip på genstanden og grib den med den anden hånd stadig med fingerspidserne nedad."
 instructions: "En tung genstand holdes i hånden med fingerspidserne nedad. Giv slip på genstanden og grib den med den anden hånd stadig med fingerspidserne nedad."
 permalink: /oevelse/grebsstyrke-grib-sten/

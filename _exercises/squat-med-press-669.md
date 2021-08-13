@@ -1,5 +1,5 @@
 ---
-title: &title "Squat med press"
+title: "Squat med press"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/squat-med-press/

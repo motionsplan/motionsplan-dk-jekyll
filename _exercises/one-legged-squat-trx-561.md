@@ -1,5 +1,5 @@
 ---
-title: &title "One-legged squat in TRX"
+title: "One-legged squat in TRX"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/one-legged-squat-trx/

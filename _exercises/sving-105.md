@@ -1,5 +1,5 @@
 ---
-title: &title "Swing, enhånds"
+title: "Swing, enhånds"
 excerpt: "Hold en håndvægt med begge hænder mellem benene. Bøj i benene, så numsen kommer godt tilbage. Spænd og i mave, ryg og musklerne omkring hoften. Sving vægten fremefter og opad."
 instructions: "Hold en håndvægt med begge hænder mellem benene. Bøj i benene, så numsen kommer godt tilbage. Spænd og i mave, ryg og musklerne omkring hoften. Sving vægten fremefter og opad."
 permalink: /oevelse/sving/

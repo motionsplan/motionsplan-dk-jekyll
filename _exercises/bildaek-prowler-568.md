@@ -1,5 +1,5 @@
 ---
-title: &title "Bildæk, prowler"
+title: "Bildæk, prowler"
 instructions: ""
 permalink: /oevelse/bildaek-prowler/
 redirect_from:

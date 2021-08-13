@@ -1,5 +1,5 @@
 ---
-title: &title "Skubbe madras"
+title: "Skubbe madras"
 excerpt: "En madras skubbes hen over gulvet."
 instructions: "En madras skubbes hen over gulvet."
 permalink: /oevelse/skubbe-madras/

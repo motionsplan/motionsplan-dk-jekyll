@@ -1,5 +1,5 @@
 ---
-title: &title "One legged counter balanced seat on bench"
+title: "One legged counter balanced seat on bench"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/one-legged-counter-balanced-seat-bench/

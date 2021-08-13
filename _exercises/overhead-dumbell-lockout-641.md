@@ -1,5 +1,5 @@
 ---
-title: &title "Overhead dumbell lockout"
+title: "Overhead dumbell lockout"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/overhead-dumbell-lockout/

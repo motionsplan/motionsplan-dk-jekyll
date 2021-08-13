@@ -1,5 +1,5 @@
 ---
-title: &title "Balance på bold"
+title: "Balance på bold"
 excerpt: "Prøv at holde balancen siddende på knæene på en stor træningsbold."
 instructions: "Prøv at holde balancen siddende på knæene på en stor træningsbold."
 permalink: /oevelse/balance-paa-bold/

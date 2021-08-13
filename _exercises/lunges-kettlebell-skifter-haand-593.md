@@ -1,5 +1,5 @@
 ---
-title: &title "Lunges, kettlebell skifter hånd"
+title: "Lunges, kettlebell skifter hånd"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/lunges-kettlebell-skifter-haand/

@@ -1,5 +1,5 @@
 ---
-title: &title "Bildæk, lunges"
+title: "Bildæk, lunges"
 instructions: ""
 permalink: /oevelse/bildaek-lunges/
 redirect_from:

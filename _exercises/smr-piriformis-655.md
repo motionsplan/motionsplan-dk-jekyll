@@ -1,5 +1,5 @@
 ---
-title: &title "SMR piriformis"
+title: "SMR piriformis"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/smr-piriformis/

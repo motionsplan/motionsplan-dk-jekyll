@@ -1,5 +1,5 @@
 ---
-title: &title "Fire hydrant - straight legged"
+title: "Fire hydrant - straight legged"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/fire-hydrant-straight-legged/

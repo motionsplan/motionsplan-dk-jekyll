@@ -1,5 +1,5 @@
 ---
-title: &title "Peterson stepup"
+title: "Peterson stepup"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/peterson-stepup/

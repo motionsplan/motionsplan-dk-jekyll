@@ -1,5 +1,5 @@
 ---
-title: &title "Step out with high lift in cable"
+title: "Step out with high lift in cable"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/step-out-high-lift-cable/

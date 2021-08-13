@@ -1,5 +1,5 @@
 ---
-title: &title "Skuldermobilisering"
+title: "Skuldermobilisering"
 excerpt: "Tag et elastik (eller kosteskaft) og hold det med dobbelt skulderbredde. Start foran med hænderne foran og før hænderne opad og bagved indtil de er helt bagved kroppen."
 instructions: "Tag et elastik (eller kosteskaft) og hold det med dobbelt skulderbredde. Start foran med hænderne foran og før hænderne opad og bagved indtil de er helt bagved kroppen."
 permalink: /oevelse/skuldermobilisering/

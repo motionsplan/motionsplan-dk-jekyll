@@ -1,5 +1,5 @@
 ---
-title: &title "Dødløft"
+title: "Dødløft"
 excerpt: "Stangen er placeret på gulvet. Tag fat i stangen med hænderne i skulderbredde. Rejs dig ved at skyde hoften frem, mens stangen bare hænger i armene."
 instructions: "Stangen er placeret på gulvet. Tag fat i stangen med hænderne i skulderbredde. Rejs dig ved at skyde hoften frem, mens stangen bare hænger i armene."
 permalink: /oevelse/doedloeft/

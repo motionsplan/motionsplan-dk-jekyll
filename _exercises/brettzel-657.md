@@ -1,5 +1,5 @@
 ---
-title: &title "Brettzel"
+title: "Brettzel"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/brettzel/

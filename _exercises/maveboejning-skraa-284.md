@@ -1,5 +1,5 @@
 ---
-title: &title "Mavebøjning, skrå"
+title: "Mavebøjning, skrå"
 excerpt: "Mavebøjning, skrå"
 instructions: "Mavebøjning, skrå"
 permalink: /oevelse/maveboejning-skraa/

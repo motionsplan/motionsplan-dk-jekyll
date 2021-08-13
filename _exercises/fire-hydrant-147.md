@@ -1,5 +1,5 @@
 ---
-title: &title "Fire hydrant"
+title: "Fire hydrant"
 excerpt: "Støt på hænder og knæ og tæer. Løft langsomt det ene knæ ud til siden, indtil underbenet er parallelt med jorden. Sænk det langsomt igen."
 instructions: "Støt på hænder og knæ og tæer. Løft langsomt det ene knæ ud til siden, indtil underbenet er parallelt med jorden. Sænk det langsomt igen."
 permalink: /oevelse/fire-hydrant/

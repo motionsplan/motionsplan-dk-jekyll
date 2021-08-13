@@ -1,5 +1,5 @@
 ---
-title: &title "Stir the pot"
+title: "Stir the pot"
 excerpt: "Du skal have albuerne på en stor træningsbold og fødderne på jorden. Kroppen skal være strakt. Spænd i mave og baller. Herfra laver du små cirkler med underarmene på bolden. Først den ene vej, så den anden vej."
 instructions: "Du skal have albuerne på en stor træningsbold og fødderne på jorden. Kroppen skal være strakt. Spænd i mave og baller. Herfra laver du små cirkler med underarmene på bolden. Først den ene vej, så den anden vej."
 permalink: /oevelse/stir-pot/

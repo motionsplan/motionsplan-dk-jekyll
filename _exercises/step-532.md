@@ -1,5 +1,5 @@
 ---
-title: &title "Step, footwork"
+title: "Step, footwork"
 excerpt: "Start stående på tværs af steppen. Løb ned og op ad steppen. Venstre fod på venstre side af steppen, og højre fod på højre side af steppen. "
 instructions: "Start stående på tværs af steppen. Løb ned og op ad steppen. Venstre fod på venstre side af steppen, og højre fod på højre side af steppen. "
 permalink: /oevelse/step/

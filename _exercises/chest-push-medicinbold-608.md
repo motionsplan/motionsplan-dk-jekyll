@@ -1,5 +1,5 @@
 ---
-title: &title "Chest push medicinbold"
+title: "Chest push medicinbold"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/chest-push-medicinbold/

@@ -1,5 +1,5 @@
 ---
-title: &title "Walking lunges"
+title: "Walking lunges"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/walking-lunges/

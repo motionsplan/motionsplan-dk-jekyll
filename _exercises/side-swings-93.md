@@ -1,5 +1,5 @@
 ---
-title: &title "Side swings"
+title: "Side swings"
 excerpt: "Hold en vægt i begge hænder ude til siden. Sving den op over hovedet og sænk den til den anden side. Gentag øvelsen."
 instructions: "Hold en vægt i begge hænder ude til siden. Sving den op over hovedet og sænk den til den anden side. Gentag øvelsen."
 permalink: /oevelse/side-swings/

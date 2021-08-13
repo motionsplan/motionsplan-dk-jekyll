@@ -1,5 +1,5 @@
 ---
-title: &title "Maveøvelse, stående roll out med hjul"
+title: "Maveøvelse, stående roll out med hjul"
 excerpt: "Sæt hjulet på gulvet lige foran dine fødder. Med så strakte ben som muligt kører du fremad indtil kroppen er strakt med hænderne over hovedet. Træk hjulet hen mod fødderne igen."
 instructions: "Sæt hjulet på gulvet lige foran dine fødder. Med så strakte ben som muligt kører du fremad indtil kroppen er strakt med hænderne over hovedet. Træk hjulet hen mod fødderne igen."
 permalink: /node/499/

@@ -1,5 +1,5 @@
 ---
-title: &title "Inchworm"
+title: "Inchworm"
 excerpt: "Stående bøjer du dig forover indtil du har hænderne på jorden. Gå fremad med hænderne, mens fødderne bliver stående. Gå så langt frem som muligt, og derefter går du tilbage igen indtil du står op."
 instructions: "Stående bøjer du dig forover indtil du har hænderne på jorden. Gå fremad med hænderne, mens fødderne bliver stående. Gå så langt frem som muligt, og derefter går du tilbage igen indtil du står op."
 permalink: /oevelse/inchworm/

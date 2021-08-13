@@ -1,5 +1,5 @@
 ---
-title: &title "Burpees"
+title: "Burpees"
 excerpt: "Sæt hænderne ned til fødderne. Spring tilbage med fødderne. Lig dig fladt ned på gulvet. Spring igen frem med fødderne, så du står på hele fodsålen. Herfra springer du op i luften og klapper over hovedet og bag ved ørelinjen. Start forfra."
 instructions: "Sæt hænderne ned til fødderne. Spring tilbage med fødderne. Lig dig fladt ned på gulvet. Spring igen frem med fødderne, så du står på hele fodsålen. Herfra springer du op i luften og klapper over hovedet og bag ved ørelinjen. Start forfra."
 permalink: /oevelse/burpees/

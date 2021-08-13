@@ -1,5 +1,5 @@
 ---
-title: &title "Heel touch from stepup"
+title: "Heel touch from stepup"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/heel-touch-stepup/

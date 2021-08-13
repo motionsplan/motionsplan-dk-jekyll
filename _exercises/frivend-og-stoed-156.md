@@ -1,5 +1,5 @@
 ---
-title: &title "Frivend og stød, alternativ genstand"
+title: "Frivend og stød, alternativ genstand"
 excerpt: "Du tager genstanden fra jorden og får den først op til brystet, inden du støder den op over hovedet i strakte arme. Sørg for at komme godt ned i knæ, spænd i kropsstammen og bevægelsen op skal være hurtig og eksplosiv."
 instructions: "Du tager genstanden fra jorden og får den først op til brystet, inden du støder den op over hovedet i strakte arme. Sørg for at komme godt ned i knæ, spænd i kropsstammen og bevægelsen op skal være hurtig og eksplosiv."
 permalink: /oevelse/frivend-og-stoed/

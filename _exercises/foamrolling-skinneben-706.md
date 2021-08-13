@@ -1,5 +1,5 @@
 ---
-title: &title "Foamrolling skinneben"
+title: "Foamrolling skinneben"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/foamrolling-skinneben/

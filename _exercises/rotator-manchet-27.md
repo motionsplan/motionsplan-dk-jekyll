@@ -1,5 +1,5 @@
 ---
-title: &title "Rotator manchet"
+title: "Rotator manchet"
 excerpt: "Rotator manchet"
 instructions: "Rotator manchet"
 permalink: /oevelse/rotator-manchet/

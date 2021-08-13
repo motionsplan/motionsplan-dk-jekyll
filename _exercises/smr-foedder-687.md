@@ -1,5 +1,5 @@
 ---
-title: &title "SMR Fødder"
+title: "SMR Fødder"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/smr-foedder/

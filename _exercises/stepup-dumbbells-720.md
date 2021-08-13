@@ -1,5 +1,5 @@
 ---
-title: &title "Stepup with dumbbells"
+title: "Stepup with dumbbells"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/stepup-dumbbells/

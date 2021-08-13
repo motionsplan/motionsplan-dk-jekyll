@@ -1,5 +1,5 @@
 ---
-title: &title "Wallsit: Knæbøjning, statisk"
+title: "Wallsit: Knæbøjning, statisk"
 excerpt: "Wallsit: Knæbøjning, statisk"
 instructions: "Knæbøjning, statisk"
 permalink: /oevelse/knaeboejning-statisk/

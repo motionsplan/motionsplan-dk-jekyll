@@ -1,5 +1,5 @@
 ---
-title: &title "Skulderpres, maskine"
+title: "Skulderpres, maskine"
 excerpt: "Sæt dig med ryggen mod sædet og tag fat i håndtagene. Løft vægten op i strakte arme og sænk kontrolleret igen."
 instructions: "Sæt dig med ryggen mod sædet og tag fat i håndtagene. Løft vægten op i strakte arme og sænk kontrolleret igen."
 permalink: /oevelse/skulderpres/

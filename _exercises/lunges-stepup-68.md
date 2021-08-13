@@ -1,5 +1,5 @@
 ---
-title: &title "Stepup, lunge"
+title: "Stepup, lunge"
 excerpt: "Stå foran bænken med skulderbreddes afstand mellem fødderne. Træd op på bænken uden at sætte af på det bagerste ben. Træd langsomt ned igen og gentag med det andet ben."
 instructions: "Stå foran bænken med skulderbreddes afstand mellem fødderne. Træd op på bænken uden at sætte af på det bagerste ben. Træd langsomt ned igen og gentag med det andet ben."
 permalink: /oevelse/lunges-stepup/

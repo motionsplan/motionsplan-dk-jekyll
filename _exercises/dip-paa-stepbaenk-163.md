@@ -1,5 +1,5 @@
 ---
-title: &title "Dips med bænk"
+title: "Dips med bænk"
 excerpt: "En tricepsøvelse, hvor kropsvægten bruges som belastning."
 instructions: "En tricepsøvelse, hvor kropsvægten bruges som belastning."
 permalink: /oevelse/dip-paa-stepbaenk/

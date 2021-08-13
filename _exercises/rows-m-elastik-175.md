@@ -1,5 +1,5 @@
 ---
-title: &title "Rows m. elastik"
+title: "Rows m. elastik"
 excerpt: "En funktionel ryg- og bicepsøvelse med elastik."
 instructions: "En funktionel ryg- og bicepsøvelse med elastik."
 permalink: /oevelse/rows-m-elastik/

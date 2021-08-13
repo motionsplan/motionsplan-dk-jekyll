@@ -1,5 +1,5 @@
 ---
-title: &title "X-band walks, monsterversion"
+title: "X-band walks, monsterversion"
 excerpt: "Opstilling magen til x-band walks. Men i stedet for at gå sidelæns går man nu frem med nogenlunde strakte ben og sørger for at benene kommer udad."
 instructions: "Opstilling magen til x-band walks. Men i stedet for at gå sidelæns går man nu frem med nogenlunde strakte ben og sørger for at benene kommer udad."
 permalink: /oevelse/monster-x-band-walks/

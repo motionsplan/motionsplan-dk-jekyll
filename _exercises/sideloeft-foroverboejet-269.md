@@ -1,5 +1,5 @@
 ---
-title: &title "Sideløft, foroverbøjet"
+title: "Sideløft, foroverbøjet"
 excerpt: "Let foroverbøjet og med let bøjede arme føres vægtene ud i til siden og opad. Bevægelsen stoppes, når albuer er på højde med skulderne. Vægtene sænkes kontrolleret tilbage til udgangspositionen."
 instructions: "Let foroverbøjet og med let bøjede arme føres vægtene ud i til siden og opad. Bevægelsen stoppes, når albuer er på højde med skulderne. Vægtene sænkes kontrolleret tilbage til udgangspositionen."
 permalink: /oevelse/sideloeft-foroverboejet/

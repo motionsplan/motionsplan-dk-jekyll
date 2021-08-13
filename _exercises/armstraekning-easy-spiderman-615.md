@@ -1,5 +1,5 @@
 ---
-title: &title "Armstrækning, easy spiderman"
+title: "Armstrækning, easy spiderman"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/armstraekning-easy-spiderman/

@@ -1,5 +1,5 @@
 ---
-title: &title "Hop, fra knæstående"
+title: "Hop, fra knæstående"
 excerpt: "Sid på knæene med strakt hofte. Fra denne position skal du uden at støtte med hænderne komme op og stå på fødderne og fra den dybe knæbøjning springer du så højt du kan."
 instructions: "Sid på knæene med strakt hofte. Fra denne position skal du uden at støtte med hænderne komme op og stå på fødderne og fra den dybe knæbøjning springer du så højt du kan."
 permalink: /oevelse/knee-standing-jumps/

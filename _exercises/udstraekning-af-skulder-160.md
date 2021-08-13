@@ -1,5 +1,5 @@
 ---
-title: &title "Udstrækning af skulder"
+title: "Udstrækning af skulder"
 excerpt: "Udstrækning af skulder. Man er sammen i par og trækker skulderbladene fra hinanden. "
 instructions: "Udstrækning af skulder. Man er sammen i par og trækker skulderbladene fra hinanden. "
 permalink: /oevelse/udstraekning-af-skulder/

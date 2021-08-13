@@ -1,5 +1,5 @@
 ---
-title: &title "Cable cross"
+title: "Cable cross"
 excerpt: "Cable cross"
 instructions: "Cable cross"
 permalink: /oevelse/cable-cross/

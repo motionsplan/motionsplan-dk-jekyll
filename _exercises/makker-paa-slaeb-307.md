@@ -1,5 +1,5 @@
 ---
-title: &title "Makker på slæb"
+title: "Makker på slæb"
 excerpt: "Tag et reb om maven. Lad en makker holde fast i det. Nu skal du sprinte fremad."
 instructions: "Tag et reb om maven. Lad en makker holde fast i det. Nu skal du sprinte fremad."
 permalink: /oevelse/makker-paa-slaeb/

@@ -1,5 +1,5 @@
 ---
-title: &title "Stepup med spring"
+title: "Stepup med spring"
 excerpt: "Stepup er, hvor du træder op på en bænk."
 instructions: "Stepup er, hvor du træder op på en bænk."
 permalink: /oevelse/stepup/

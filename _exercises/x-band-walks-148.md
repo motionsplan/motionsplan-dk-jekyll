@@ -1,5 +1,5 @@
 ---
-title: &title "X-band walks"
+title: "X-band walks"
 excerpt: "Stil dig på elastikken så der er cirka 20 cm mellem fødderne. Hold elastikken i hænderne, sådan at det former et X foran dine ben. Stå rank med skulderne nede. Gå sidelæns."
 instructions: "Stil dig på elastikken så der er cirka 20 cm mellem fødderne. Hold elastikken i hænderne, sådan at det former et X foran dine ben. Stå rank med skulderne nede. Gå sidelæns."
 permalink: /oevelse/x-band-walks/

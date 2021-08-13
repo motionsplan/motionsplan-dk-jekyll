@@ -1,5 +1,5 @@
 ---
-title: &title "Armstrækning, med rows"
+title: "Armstrækning, med rows"
 excerpt: "Hold en håndvægt i hver hånd og støt på hænderne og tæerne. Lav en armstrækning. Når du har strakte arme, trækker du en af håndvægtene op fra gulvet. Skift."
 instructions: "Hold en håndvægt i hver hånd og støt på hænderne og tæerne. Lav en armstrækning. Når du har strakte arme, trækker du en af håndvægtene op fra gulvet. Skift."
 permalink: /oevelse/armstraekning-med-rows/

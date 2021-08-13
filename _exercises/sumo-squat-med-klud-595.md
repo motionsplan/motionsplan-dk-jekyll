@@ -1,5 +1,5 @@
 ---
-title: &title "Sumo squat med klud"
+title: "Sumo squat med klud"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/sumo-squat-med-klud/

@@ -1,5 +1,5 @@
 ---
-title: &title "Planken, mountain climber"
+title: "Planken, mountain climber"
 instructions: ""
 permalink: /oevelse/planken-mountain-climber/
 redirect_from: /node/601

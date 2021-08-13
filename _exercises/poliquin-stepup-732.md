@@ -1,5 +1,5 @@
 ---
-title: &title "Poliquin stepup"
+title: "Poliquin stepup"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/poliquin-stepup/

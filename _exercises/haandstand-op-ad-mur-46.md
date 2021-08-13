@@ -1,5 +1,5 @@
 ---
-title: &title "Håndstand op ad mur"
+title: "Håndstand op ad mur"
 excerpt: "Lav en håndstand op ad en mur."
 instructions: "Lav en håndstand op ad en mur."
 permalink: /oevelse/haandstand-op-ad-mur/

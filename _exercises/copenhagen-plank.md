@@ -1,5 +1,5 @@
 ---
-title: &title "Copenhagen Plank"
+title: "Copenhagen Plank"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/copenhagen-plank/

@@ -1,5 +1,5 @@
 ---
-title: &title "Udstrækning af sædemusklen"
+title: "Udstrækning af sædemusklen"
 excerpt: "Udstrækning af sædemusklen siddende på gulvet."
 instructions: "Udstrækning af sædemusklen siddende på gulvet."
 permalink: /oevelse/udstraekning-af-saedemusklen/

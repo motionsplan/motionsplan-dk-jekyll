@@ -1,5 +1,5 @@
 ---
-title: &title "Maverotationer"
+title: "Maverotationer"
 excerpt: "Hold en træstub ud i strakte arme foran dig. Sving den kraftigt fra side til side, mens du går fremad. Vægten skal svinges den vej, hvor benet er fremme."
 instructions: "Hold en træstub ud i strakte arme foran dig. Sving den kraftigt fra side til side, mens du går fremad. Vægten skal svinges den vej, hvor benet er fremme."
 permalink: /oevelse/maverotationer/

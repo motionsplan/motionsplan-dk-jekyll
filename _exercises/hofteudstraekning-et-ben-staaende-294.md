@@ -1,5 +1,5 @@
 ---
-title: &title "Hofteudstrækning, et ben stående"
+title: "Hofteudstrækning, et ben stående"
 excerpt: "Stå med front mod kabeltrækket og hold fast med begge hænder om stativet. Vægten er spændt om anklen. Med god balance strækker du et strakt ben kontrolleret bagud. Kontrolleret tilbage til udgangspunktet."
 instructions: "Stå med front mod kabeltrækket og hold fast med begge hænder om stativet. Vægten er spændt om anklen. Med god balance strækker du et strakt ben kontrolleret bagud. Kontrolleret tilbage til udgangspunktet."
 permalink: /oevelse/hofteudstraekning-et-ben-staaende/

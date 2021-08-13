@@ -1,5 +1,5 @@
 ---
-title: &title "Bildæk, back throw"
+title: "Bildæk, back throw"
 instructions: ""
 permalink: /oevelse/bildaek-back-throw/
 redirect_from:

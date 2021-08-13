@@ -1,5 +1,5 @@
 ---
-title: &title "Planken, knee to elbow"
+title: "Planken, knee to elbow"
 excerpt: "Stil dig som du skulle lave en armstrækning. Spænd op i core. Træk skiftevis højre knæ til højre albue og venstre knæ til venstre albue. "
 instructions: "Stil dig som du skulle lave en armstrækning. Spænd op i core. Træk skiftevis højre knæ til højre albue og venstre knæ til venstre albue. "
 permalink: /oevelse/plank-knee-elbow/

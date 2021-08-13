@@ -1,5 +1,5 @@
 ---
-title: &title "Squat, rolling to standing"
+title: "Squat, rolling to standing"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/squat-rolling-standing/

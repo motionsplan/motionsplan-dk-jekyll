@@ -1,5 +1,5 @@
 ---
-title: &title "Udstrækning af rygmusklerne"
+title: "Udstrækning af rygmusklerne"
 excerpt: "udstrækning af rygmusklerne. Parøvelse.  "
 instructions: "udstrækning af rygmusklerne. Parøvelse.  "
 permalink: /oevelse/udstraekning-af-rygmusklerne/

@@ -1,5 +1,5 @@
 ---
-title: &title "Scapula Pushup"
+title: "Scapula Pushup"
 excerpt: "Scapula pushups træner aktiv protraktion (primært musklen serratus anterior), og skaber således en mere balanceret muskulatur rundt om skulderbladet."
 instructions: ""
 permalink: /oevelse/scapula-pushup/

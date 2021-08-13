@@ -1,5 +1,5 @@
 ---
-title: &title "Mountainclimber på stepbænk"
+title: "Mountainclimber på stepbænk"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/mountainclimber-paa-stepbaenk/

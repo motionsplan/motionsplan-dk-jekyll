@@ -1,5 +1,5 @@
 ---
-title: &title "Roning, enarms med kettlebell"
+title: "Roning, enarms med kettlebell"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/roning-enarms-med-kettlebell/

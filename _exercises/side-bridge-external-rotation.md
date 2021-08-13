@@ -1,5 +1,5 @@
 ---
-title: &title "Side bridge, external rotation"
+title: "Side bridge, external rotation"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/side-bridge-external-rotation/

@@ -1,5 +1,5 @@
 ---
-title: &title "One arm overhead press"
+title: "One arm overhead press"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/one-arm-overhead-press/

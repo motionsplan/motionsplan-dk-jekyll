@@ -1,5 +1,5 @@
 ---
-title: &title "Seated External Rotation Dumbbell"
+title: "Seated External Rotation Dumbbell"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/seated-external-rotation/

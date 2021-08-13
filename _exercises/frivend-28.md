@@ -1,5 +1,5 @@
 ---
-title: &title "Frivend, olympisk"
+title: "Frivend, olympisk"
 excerpt: "Vægten skal fra jorden med en eksplosiv bevægelse løftes op, så den kommer til at hvile på brystkassen."
 instructions: "Vægten skal fra jorden med en eksplosiv bevægelse løftes op, så den kommer til at hvile på brystkassen."
 permalink: /oevelse/frivend/

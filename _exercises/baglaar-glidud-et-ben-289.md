@@ -1,5 +1,5 @@
 ---
-title: &title "Baglår, glidud et ben"
+title: "Baglår, glidud et ben"
 excerpt: "Lig på ryggen. Skyd hoften op og stræk det ene ben. Med en klud under den anden fod lader du fødderne glide udad indtil kroppen er så ret som muligt. Træk dig tilbage til udgangspunktet."
 instructions: "Lig på ryggen. Skyd hoften op og stræk det ene ben. Med en klud under den anden fod lader du fødderne glide udad indtil kroppen er så ret som muligt. Træk dig tilbage til udgangspunktet."
 permalink: /oevelse/baglaar-glidud-et-ben/

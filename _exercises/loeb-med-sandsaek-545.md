@@ -1,5 +1,5 @@
 ---
-title: &title "Løb med sandsæk"
+title: "Løb med sandsæk"
 excerpt: "Løb en forudbestemt distance med en vægt (fx en sandsæk) på skulderen."
 instructions: "Løb en forudbestemt distance med en vægt (fx en sandsæk) på skulderen."
 permalink: /oevelse/loeb-med-sandsaek/

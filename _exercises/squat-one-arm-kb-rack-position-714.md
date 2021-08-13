@@ -1,5 +1,5 @@
 ---
-title: &title "Squat with one arm kb in rack position"
+title: "Squat with one arm kb in rack position"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/squat-one-arm-kb-rack-position/

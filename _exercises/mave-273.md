@@ -1,5 +1,5 @@
 ---
-title: &title "Mave, captains chair"
+title: "Mave, captains chair"
 excerpt: "Hvil på armstøtterne. Bøj i hoften til benene er vandrette med jorden. Kontrolleret tilbage til udgangspunktet."
 instructions: "Hvil på armstøtterne. Bøj i hoften til benene er vandrette med jorden. Kontrolleret tilbage til udgangspunktet."
 permalink: /oevelse/mave/

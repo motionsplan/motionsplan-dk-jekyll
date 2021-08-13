@@ -1,5 +1,5 @@
 ---
-title: &title "Skuldermobilisering I"
+title: "Skuldermobilisering I"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/skuldermobilisering-i/

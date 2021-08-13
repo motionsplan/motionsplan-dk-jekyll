@@ -1,5 +1,5 @@
 ---
-title: &title "Hiv og træk"
+title: "Hiv og træk"
 excerpt: "Træk vægten op ad, indtil den når op til toppen. Sænk den stille og roligt ned igen. GIV IKKE SLIP."
 instructions: "Træk vægten op ad, indtil den når op til toppen. Sænk den stille og roligt ned igen. GIV IKKE SLIP."
 permalink: /oevelse/hiv-og-traek/

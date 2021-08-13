@@ -1,5 +1,5 @@
 ---
-title: &title "Egypteren"
+title: "Egypteren"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/egypteren/

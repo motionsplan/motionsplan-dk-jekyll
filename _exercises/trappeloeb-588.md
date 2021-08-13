@@ -1,5 +1,5 @@
 ---
-title: &title "Trappeløb"
+title: "Trappeløb"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/trappeloeb/

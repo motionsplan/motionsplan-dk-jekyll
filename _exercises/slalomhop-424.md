@@ -1,5 +1,5 @@
 ---
-title: &title "Slalomhop"
+title: "Slalomhop"
 excerpt: "Stå med samlede ben. Hop til højre ved at sætte af på venstre ben og løfte højre samtidig. Du lander på højre ben og bøjer let ned i knæet for at give efter. Bliv stående på højre ben i 1-2 sek. Hop så tilbage til venstre ben med afsæt med højre ben. Gentag øvelsen 10-15 gange for hvert ben. "
 instructions: "Stå med samlede ben. Hop til højre ved at sætte af på venstre ben og løfte højre samtidig. Du lander på højre ben og bøjer let ned i knæet for at give efter. Bliv stående på højre ben i 1-2 sek. Hop så tilbage til venstre ben med afsæt med højre ben. Gentag øvelsen 10-15 gange for hvert ben. "
 permalink: /oevelse/slalomhop/

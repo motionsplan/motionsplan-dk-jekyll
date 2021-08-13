@@ -1,5 +1,5 @@
 ---
-title: &title "Lunges med drejning"
+title: "Lunges med drejning"
 excerpt: "Hold en vægt i strakte arme i skulderhøjde. Tag et skridt fremad, mens du fører vægtskiven ud på siden af det knæ, du har længst fremme. Skub fra og før vægtskiven tilbage til udgangsstillingen "
 instructions: "Hold en vægt i strakte arme i skulderhøjde. Tag et skridt fremad, mens du fører vægtskiven ud på siden af det knæ, du har længst fremme. Skub fra og før vægtskiven tilbage til udgangsstillingen "
 permalink: /oevelse/lunges-med-drejning/

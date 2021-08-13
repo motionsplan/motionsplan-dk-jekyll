@@ -1,5 +1,5 @@
 ---
-title: &title "Squat, rolling pistols"
+title: "Squat, rolling pistols"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/squat-rolling-pistols/

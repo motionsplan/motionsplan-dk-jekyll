@@ -1,5 +1,5 @@
 ---
-title: &title "Forhindringsbanen"
+title: "Forhindringsbanen"
 excerpt: "Du skal gennem forhindringsbanen så hurtigt som muligt. Du skal selv bygge forhindringsbanen uden hjælp fra andre. Hvis først du har lagt en forhindring, må du ikke flytte den igen."
 instructions: "Du skal gennem forhindringsbanen så hurtigt som muligt. Du skal selv bygge forhindringsbanen uden hjælp fra andre. Hvis først du har lagt en forhindring, må du ikke flytte den igen."
 permalink: /oevelse/forhindringsbanen/

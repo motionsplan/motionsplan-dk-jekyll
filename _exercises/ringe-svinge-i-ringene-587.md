@@ -1,5 +1,5 @@
 ---
-title: &title "Ringe, svinge i ringene"
+title: "Ringe, svinge i ringene"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/ringe-svinge-i-ringene/

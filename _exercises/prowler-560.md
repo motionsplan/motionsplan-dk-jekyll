@@ -1,5 +1,5 @@
 ---
-title: &title "Prowler"
+title: "Prowler"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/prowler/

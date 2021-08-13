@@ -1,5 +1,5 @@
 ---
-title: &title "Knæstræk"
+title: "Knæstræk"
 excerpt: "Indstil maskinen. Stræk knæene uden at overstrække. "
 instructions: "Indstil maskinen. Stræk knæene uden at overstrække. "
 permalink: /oevelse/knae-extension/

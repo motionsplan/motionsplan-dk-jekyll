@@ -1,5 +1,5 @@
 ---
-title: &title "udstrækning af hasemusklen og læg"
+title: "udstrækning af hasemusklen og læg"
 excerpt: "til udstrækning af hasemusklen og læg"
 instructions: "til udstrækning af hasemusklen og læg"
 permalink: /oevelse/udstraekning-af-hasemusklen-og-laeg/

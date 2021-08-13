@@ -1,5 +1,5 @@
 ---
-title: &title "Sprællemand på stepbænk"
+title: "Sprællemand på stepbænk"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/spraellemand-paa-stepbaenk/

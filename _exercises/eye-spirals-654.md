@@ -1,5 +1,5 @@
 ---
-title: &title "Eye spirals"
+title: "Eye spirals"
 excerpt: "Kig lige ud. Hold en blyant ude i siden af dit synsfelt, mens du bliver ved med at kigge ligeud. Før langsomt blyanten rundt i en cirkel, mens du følger blyanten med øjnene uden at flytte hovedet. Start med små cirkler - og lav dem større, når du bliver bedre til øvelsen."
 instructions: "Kig lige ud. Hold en blyant ude i siden af dit synsfelt, mens du bliver ved med at kigge ligeud. Før langsomt blyanten rundt i en cirkel, mens du følger blyanten med øjnene uden at flytte hovedet. Start med små cirkler - og lav dem større, når du bliver bedre til øvelsen."
 permalink: /oevelse/eye-spirals/

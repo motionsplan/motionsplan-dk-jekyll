@@ -1,5 +1,5 @@
 ---
-title: &title "Supine bridge with leg lift"
+title: "Supine bridge with leg lift"
 excerpt: "Lig på ryggen med hælene bøjet ind under dig. Skub hoften op ved at spænde i ballerne. Stræk det ene ben, så lårene stadig følger hinanden. Sørg for at holde spændet i ballerne og holde hoften helt stabil og hoften oppe. Stræk derefter det andet ben. Sænk hoften igen. Det var en gentagelse."
 instructions: "Lig på ryggen med hælene bøjet ind under dig. Skub hoften op ved at spænde i ballerne. Stræk det ene ben, så lårene stadig følger hinanden. Sørg for at holde spændet i ballerne og holde hoften helt stabil og hoften oppe. Stræk derefter det andet ben. Sænk hoften igen. Det var en gentagelse."
 permalink: /oevelse/hip-thrusters-leg-lift/

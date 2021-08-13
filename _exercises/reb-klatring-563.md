@@ -1,5 +1,5 @@
 ---
-title: &title "Reb, klatring"
+title: "Reb, klatring"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/reb-klatring/

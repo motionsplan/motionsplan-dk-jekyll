@@ -1,5 +1,5 @@
 ---
-title: &title "Varm the"
+title: "Varm the"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/varm/

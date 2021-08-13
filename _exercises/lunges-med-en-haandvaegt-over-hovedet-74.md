@@ -1,5 +1,5 @@
 ---
-title: &title "Lunges, med en håndvægt over hovedet"
+title: "Lunges, med en håndvægt over hovedet"
 excerpt: "Hold en håndvægt i strakt arm over hovedet. Med vægten i hånden laver du gående lunges."
 instructions: "Hold en håndvægt i strakt arm over hovedet. Med vægten i hånden laver du gående lunges."
 permalink: /oevelse/lunges-med-en-haandvaegt-over-hovedet/

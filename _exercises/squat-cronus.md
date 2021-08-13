@@ -1,5 +1,5 @@
 ---
-title: &title "Cronus Squat"
+title: "Cronus Squat"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/cronus-squat/

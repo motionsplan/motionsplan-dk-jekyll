@@ -1,5 +1,5 @@
 ---
-title: &title "Squat, vægt i favnen"
+title: "Squat, vægt i favnen"
 excerpt: "Hold en vægt ved brystet, fx en kettlebell. Lav en dyb benbøjning. Hold ryggen ret. Sørg for at knæene går samme vej som tæerne. Stå på flad fod gennem hele bevægelsen."
 instructions: "Hold en vægt ved brystet, fx en kettlebell. Lav en dyb benbøjning. Hold ryggen ret. Sørg for at knæene går samme vej som tæerne. Stå på flad fod gennem hele bevægelsen."
 permalink: /oevelse/squat-vaegt-i-favnen/

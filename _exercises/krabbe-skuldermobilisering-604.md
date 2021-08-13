@@ -1,5 +1,5 @@
 ---
-title: &title "Krabbe, skuldermobilisering"
+title: "Krabbe, skuldermobilisering"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/krabbe-skuldermobilisering/

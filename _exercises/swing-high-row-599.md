@@ -1,5 +1,5 @@
 ---
-title: &title "Swing, high row"
+title: "Swing, high row"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/swing-high-row/

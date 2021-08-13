@@ -1,5 +1,5 @@
 ---
-title: &title "Russian twist"
+title: "Russian twist"
 excerpt: "Sid på numsen med bøjede knæ. Læn dig tilbage indtil mavemusklerne begynder at stramme. Med håndfladerne sammen roterer du skiftevis fra den ene side og til den anden side."
 instructions: "Sid på numsen med bøjede knæ. Læn dig tilbage indtil mavemusklerne begynder at stramme. Med håndfladerne sammen roterer du skiftevis fra den ene side og til den anden side."
 permalink: /oevelse/russian-twist/

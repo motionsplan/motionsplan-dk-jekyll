@@ -1,5 +1,5 @@
 ---
-title: &title "Kommandokravl"
+title: "Kommandokravl"
 excerpt: "Kommandokravl"
 instructions: "Kommandokravl"
 permalink: /oevelse/kommandokravl/

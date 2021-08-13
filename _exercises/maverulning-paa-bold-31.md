@@ -1,5 +1,5 @@
 ---
-title: &title "Maverulning på bold"
+title: "Maverulning på bold"
 excerpt: "Liggende på en stor bold i lænden og armene bag nakken laver du almindelige maverulninger."
 instructions: "Liggende på en stor bold i lænden og armene bag nakken laver du almindelige maverulninger."
 permalink: /oevelse/maverulning-paa-bold/

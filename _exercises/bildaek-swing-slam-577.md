@@ -1,5 +1,5 @@
 ---
-title: &title "Bildæk, swing slam"
+title: "Bildæk, swing slam"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/bildaek-swing-slam/

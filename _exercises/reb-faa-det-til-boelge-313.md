@@ -1,5 +1,5 @@
 ---
-title: &title "Tov, få det til at bølge"
+title: "Tov, få det til at bølge"
 excerpt: "Tag fat i enden af et kraftigt reb. Med store kraftige bevægelser, får du rebet til at bølge."
 instructions: "Tag fat i enden af et kraftigt reb. Med store kraftige bevægelser, får du rebet til at bølge."
 permalink: /oevelse/reb-faa-det-til-boelge/

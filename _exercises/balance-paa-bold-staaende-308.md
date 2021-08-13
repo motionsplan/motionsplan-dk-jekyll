@@ -1,5 +1,5 @@
 ---
-title: &title "Balance på bold, stående"
+title: "Balance på bold, stående"
 excerpt: "På en stor træningsbold, skal du forsøge at komme op og stå og holde balancen."
 instructions: "På en stor træningsbold, skal du forsøge at komme op og stå og holde balancen."
 permalink: /oevelse/balance-paa-bold-staaende/

@@ -1,5 +1,5 @@
 ---
-title: &title "Squat med vægtstang foran"
+title: "Squat med vægtstang foran"
 excerpt: "Lav en squat med stangen liggende på brystet. Vægt på hele foden. Hold ryggen ret. Gå så langt ned i knæ som du kan."
 instructions: "Lav en squat med stangen liggende på brystet. Vægt på hele foden. Hold ryggen ret. Gå så langt ned i knæ som du kan."
 permalink: /oevelse/squat-med-vaegtstang-foran/

@@ -1,5 +1,5 @@
 ---
-title: &title "Grebsstyrke"
+title: "Grebsstyrke"
 excerpt: "Grib fat om stangen med strakte arme. Ved at roterer stangen inden i hænderne ruller man snoren omkring stangen. Minimér bevægelsen i håndleddet."
 instructions: "Grib fat om stangen med strakte arme. Ved at roterer stangen inden i hænderne ruller man snoren omkring stangen. Minimér bevægelsen i håndleddet."
 permalink: /oevelse/grebsstyrke/

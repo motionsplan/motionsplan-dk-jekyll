@@ -1,5 +1,5 @@
 ---
-title: &title "Squat med hop"
+title: "Squat med hop"
 excerpt: "Gå kontrolleret ned i knæ. Med så kort pause i benbøjningen laver du et eksplosivt spring."
 instructions: "Gå kontrolleret ned i knæ. Med så kort pause i benbøjningen laver du et eksplosivt spring."
 permalink: /oevelse/squat-med-hop/

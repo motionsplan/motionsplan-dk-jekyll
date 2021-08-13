@@ -1,5 +1,5 @@
 ---
-title: &title "Mobilisering ankel"
+title: "Mobilisering ankel"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/mobilisering-ankel/

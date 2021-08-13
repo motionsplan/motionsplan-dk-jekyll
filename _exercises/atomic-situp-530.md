@@ -1,5 +1,5 @@
 ---
-title: &title "Atomic situp"
+title: "Atomic situp"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/atomic-situp/

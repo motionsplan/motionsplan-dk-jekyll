@@ -1,5 +1,5 @@
 ---
-title: &title "Armgang"
+title: "Armgang"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/armgang/

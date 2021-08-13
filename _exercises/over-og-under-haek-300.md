@@ -1,5 +1,5 @@
 ---
-title: &title "Over og under hæk"
+title: "Over og under hæk"
 excerpt: "Hop over den første hæk og kravl under den næste hæk på skift."
 instructions: "Hop over den første hæk og kravl under den næste hæk på skift."
 permalink: /oevelse/over-og-under-haek/

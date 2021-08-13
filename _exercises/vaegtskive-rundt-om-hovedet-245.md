@@ -1,5 +1,5 @@
 ---
-title: &title "Vægtskive rundt om hovedet"
+title: "Vægtskive rundt om hovedet"
 excerpt: "Hold vægtskiven foran hovedet med bøjede arme. Før vægtskiven rundt om hovedet, så den er nogenlunde lodret hele tiden, samtidig med at den holdes så tæt på kroppen som muligt."
 instructions: "Hold vægtskiven foran hovedet med bøjede arme. Før vægtskiven rundt om hovedet, så den er nogenlunde lodret hele tiden, samtidig med at den holdes så tæt på kroppen som muligt."
 permalink: /oevelse/vaegtskive-rundt-om-hovedet/

@@ -1,5 +1,5 @@
 ---
-title: &title "Muscle up"
+title: "Muscle up"
 excerpt: "Hæng i en bar med overhåndsgreb. Herfra trækker du dig selv så højt op, at du kan afslutte med at stemme dig op, så du har strakte arme og hovedet over baren."
 instructions: "Hæng i en bar med overhåndsgreb. Herfra trækker du dig selv så højt op, at du kan afslutte med at stemme dig op, så du har strakte arme og hovedet over baren."
 permalink: /oevelse/muscle/

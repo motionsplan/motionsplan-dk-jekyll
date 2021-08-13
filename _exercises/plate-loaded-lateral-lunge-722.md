@@ -1,5 +1,5 @@
 ---
-title: &title "Plate loaded lateral lunge"
+title: "Plate loaded lateral lunge"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/plate-loaded-lateral-lunge/

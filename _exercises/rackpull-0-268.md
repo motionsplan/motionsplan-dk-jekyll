@@ -1,5 +1,5 @@
 ---
-title: &title "Rackpull"
+title: "Rackpull"
 instructions: "Start med stangen ved knæene og bøj dig forover uden at bøje alt for meget i knæene. Hold ved stangen i skulderbredde og med modsatrettede hænder. Rejs dig ved at strække i hoften. Træner øverste del af dødløftet."
 permalink: /oevelse/rackpull-0/
 redirect_from: /node/268

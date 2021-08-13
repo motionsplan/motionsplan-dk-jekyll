@@ -1,5 +1,5 @@
 ---
-title: &title "Træk med tæerne"
+title: "Træk med tæerne"
 excerpt: "Stil dig på en madras uden sko på. Du skal komme frem ved kun at trække dig frem med tæerne. Hvor hurtigt kan du egentlig gøre det?"
 instructions: "Stil dig på en madras uden sko på. Du skal komme frem ved kun at trække dig frem med tæerne. Hvor hurtigt kan du egentlig gøre det?"
 permalink: /oevelse/traek-med-taeerne/

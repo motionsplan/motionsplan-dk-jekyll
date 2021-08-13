@@ -1,5 +1,5 @@
 ---
-title: &title "Bokning, slå i maven"
+title: "Bokning, slå i maven"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/bokning-slaa-i-maven/

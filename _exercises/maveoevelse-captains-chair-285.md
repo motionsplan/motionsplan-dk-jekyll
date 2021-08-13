@@ -1,5 +1,5 @@
 ---
-title: &title "Maveøvelse, captains chair på stol"
+title: "Maveøvelse, captains chair på stol"
 excerpt: "Maveøvelse, captains chair"
 instructions: "Maveøvelse, captains chair"
 permalink: /oevelse/maveoevelse-captains-chair/

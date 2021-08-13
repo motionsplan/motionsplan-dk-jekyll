@@ -1,5 +1,5 @@
 ---
-title: &title "Sprint med vægt"
+title: "Sprint med vægt"
 excerpt: "Sprint så hurtigt du kan frem og tilbage mellem to markeringer. Du starter med en vægt i hånden. Læg vægten ved markeringen. Sprint tomhændet tilbage. Saml vægten op igen næste gang du kommer forbi."
 instructions: "Sprint så hurtigt du kan frem og tilbage mellem to markeringer. Du starter med en vægt i hånden. Læg vægten ved markeringen. Sprint tomhændet tilbage. Saml vægten op igen næste gang du kommer forbi."
 permalink: /oevelse/sprint/

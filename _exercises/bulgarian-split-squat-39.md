@@ -1,5 +1,5 @@
 ---
-title: &title "Bulgarian split squat"
+title: "Bulgarian split squat"
 excerpt: "Squat med forskudte ben, hvor det bagerste ben er på en bænk. Evt. med håndvægte i hænderne."
 instructions: "Squat med forskudte ben, hvor det bagerste ben er på en bænk. Evt. med håndvægte i hænderne."
 permalink: /oevelse/bulgarian-split-squat/

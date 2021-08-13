@@ -1,5 +1,5 @@
 ---
-title: &title "Mavebøjning, løftede fødder"
+title: "Mavebøjning, løftede fødder"
 excerpt: "Mavebøjning, løftede fødder"
 instructions: "Mavebøjning, løftede fødder"
 permalink: /oevelse/maveboejning-loeftede-foedder/

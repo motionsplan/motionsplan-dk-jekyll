@@ -1,5 +1,5 @@
 ---
-title: &title "Cuban press"
+title: "Cuban press"
 excerpt: "Hold vægtstangen i strakte arme. Før den op langs kroppen ved at føre albuerne udad indtil albuen er lige så højt oppe som skuldrene. Roter i overarmen så vægtenstangen kommer op til panden. Løft armene op over hovedet."
 instructions: "Hold vægtstangen i strakte arme. Før den op langs kroppen ved at føre albuerne udad indtil albuen er lige så højt oppe som skuldrene. Roter i overarmen så vægtenstangen kommer op til panden. Løft armene op over hovedet."
 permalink: /oevelse/cuban-press-0/

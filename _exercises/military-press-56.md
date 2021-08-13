@@ -1,5 +1,5 @@
 ---
-title: &title "Military press, stang"
+title: "Military press, stang"
 excerpt: "Start med vægten på brystet. Herfra stemmes vægtstangen op til strakte arme."
 instructions: "Start med vægten på brystet. Herfra stemmes vægtstangen op til strakte arme."
 permalink: /oevelse/military-press/

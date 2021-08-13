@@ -1,5 +1,5 @@
 ---
-title: &title "Reaktionsøvelse"
+title: "Reaktionsøvelse"
 excerpt: "Lig på maven og kom om på ryggen og tilbage igen ved at føre benene gennem armene."
 instructions: "Lig på maven og kom om på ryggen og tilbage igen ved at føre benene gennem armene."
 permalink: /oevelse/reaktionsoevelse/

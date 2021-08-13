@@ -1,5 +1,5 @@
 ---
-title: &title "Foamrolling IT-band"
+title: "Foamrolling IT-band"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/foamrolling-it-band/

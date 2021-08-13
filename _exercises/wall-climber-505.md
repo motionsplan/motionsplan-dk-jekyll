@@ -1,5 +1,5 @@
 ---
-title: &title "Wall climber"
+title: "Wall climber"
 excerpt: "Fra armstrækningsstand med fødderne på det nederste af væggen, går man længere og længere op ad væggen med fødderne og tættere på væggen med armene. Gå derefter tilbage til udgangsposition."
 instructions: "Fra armstrækningsstand med fødderne på det nederste af væggen, går man længere og længere op ad væggen med fødderne og tættere på væggen med armene. Gå derefter tilbage til udgangsposition."
 permalink: /oevelse/wall-climber/

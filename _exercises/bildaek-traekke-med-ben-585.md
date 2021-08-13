@@ -1,5 +1,5 @@
 ---
-title: &title "Bildæk, trække med ben"
+title: "Bildæk, trække med ben"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/bildaek-traekke-med-ben/

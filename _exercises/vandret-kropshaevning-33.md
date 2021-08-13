@@ -1,5 +1,5 @@
 ---
-title: &title "Roning, proneret bodyrow"
+title: "Roning, proneret bodyrow"
 excerpt: "Vandret kropshævning med benene på en bænk."
 instructions: "Vandret kropshævning med benene på en bænk."
 permalink: /oevelse/vandret-kropshaevning/

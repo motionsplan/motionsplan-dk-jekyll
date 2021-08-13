@@ -1,5 +1,5 @@
 ---
-title: &title "Cable Supine Reverse Fly"
+title: "Cable Supine Reverse Fly"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/cable-supine-reverse-fly/

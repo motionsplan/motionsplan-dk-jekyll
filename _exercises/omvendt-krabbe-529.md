@@ -1,5 +1,5 @@
 ---
-title: &title "Omvendt krabbe"
+title: "Omvendt krabbe"
 excerpt: "Øvelsen laves fra liggende strakt stilling til et diagonalt kryds hånd til fod. Hele kroppen løftes fra gulvet. Kan laves ved at gentage bevægelsen på samme diagonal eller ved skift af diagonal."
 instructions: "Øvelsen laves fra liggende strakt stilling til et diagonalt kryds hånd til fod. Hele kroppen løftes fra gulvet. Kan laves ved at gentage bevægelsen på samme diagonal eller ved skift af diagonal."
 permalink: /oevelse/omvendt-krabbe/

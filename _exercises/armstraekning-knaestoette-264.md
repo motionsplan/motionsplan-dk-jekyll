@@ -1,5 +1,5 @@
 ---
-title: &title "Armstrækning, knæstøtte"
+title: "Armstrækning, knæstøtte"
 excerpt: "Støt på hænder og knæ. Hold kroppen helt ret. Lav en armstrækning."
 instructions: "Støt på hænder og knæ. Hold kroppen helt ret. Lav en armstrækning."
 permalink: /oevelse/armstraekning-knaestoette/

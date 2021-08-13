@@ -1,5 +1,5 @@
 ---
-title: &title "Rite 1: Drej rundt"
+title: "Rite 1: Drej rundt"
 excerpt: "I den første rite skal du stå oprejst og strække armene ud til siden. Drej rundt om dig selv i urets retning i det tempo, der passer dig. Træk vejret dybt og langsomt for at undgå at blive svimmel. Denne øvelse er måske den der for de fleste voksne kræver mest tilvænning."
 instructions: "I den første rite skal du stå oprejst og strække armene ud til siden. Drej rundt om dig selv i urets retning i det tempo, der passer dig. Træk vejret dybt og langsomt for at undgå at blive svimmel. Denne øvelse er måske den der for de fleste voksne kræver mest tilvænning."
 permalink: /oevelse/rite-1-drej-rundt/

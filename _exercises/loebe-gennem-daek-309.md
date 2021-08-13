@@ -1,5 +1,5 @@
 ---
-title: &title "Løbe gennem dæk"
+title: "Løbe gennem dæk"
 excerpt: "Løb gennem bildækkene med så hurtige skridt som muligt."
 instructions: "Løb gennem bildækkene med så hurtige skridt som muligt."
 permalink: /oevelse/loebe-gennem-daek/

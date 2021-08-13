@@ -1,5 +1,5 @@
 ---
-title: &title "Roning, roergometer"
+title: "Roning, roergometer"
 excerpt: "Ro på et roergometer."
 instructions: "Ro på et roergometer."
 permalink: /oevelse/roning-roergometer/

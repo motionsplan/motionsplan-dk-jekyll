@@ -1,5 +1,5 @@
 ---
-title: &title "Bildæk, skub med arme"
+title: "Bildæk, skub med arme"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/bildaek-skub-med-arme/

@@ -1,5 +1,5 @@
 ---
-title: &title "Pull aparts"
+title: "Pull aparts"
 excerpt: "Hold fast i elastikken med tommelfingrene opad. Træk elastikket fra hinanden med strakte arme, mens du lader tommelfingrene pege bagud."
 instructions: "Hold fast i elastikken med tommelfingrene opad. Træk elastikket fra hinanden med strakte arme, mens du lader tommelfingrene pege bagud."
 permalink: /oevelse/pull-aparts/

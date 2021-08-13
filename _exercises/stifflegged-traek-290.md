@@ -1,5 +1,5 @@
 ---
-title: &title "Træk, dynamisk med let vægt"
+title: "Træk, dynamisk med let vægt"
 excerpt: "Med så strakte ben som muligt trækker du vægtstangen op over hovedet i en bevægelse. Stangen skal accelleres ved udstrækningen i hoften. Ret ryg."
 instructions: "Med så strakte ben som muligt trækker du vægtstangen op over hovedet i en bevægelse. Stangen skal accelleres ved udstrækningen i hoften. Ret ryg."
 permalink: /oevelse/stifflegged-traek/

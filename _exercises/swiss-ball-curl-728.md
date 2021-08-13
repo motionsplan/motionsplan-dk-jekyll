@@ -1,5 +1,5 @@
 ---
-title: &title "Swiss ball hamstring curl"
+title: "Swiss ball hamstring curl"
 excerpt: *title
 instructions: *title
 permalink: /oevelse/swiss-ball-curl/

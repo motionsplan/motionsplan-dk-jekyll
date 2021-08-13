@@ -1,5 +1,5 @@
 ---
-title: &title "Spring hen over plint"
+title: "Spring hen over plint"
 excerpt: "Spring frem og tilbage over en høj plint. Det er frivlligt hvordan du forcerer plinten."
 instructions: "Spring frem og tilbage over en høj plint. Det er frivlligt hvordan du forcerer plinten."
 permalink: /oevelse/spring-hen-over-plint/

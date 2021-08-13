@@ -1,5 +1,5 @@
 ---
-title: &title "Tabata-intervaller"
+title: "Tabata-intervaller"
 excerpt: "20 sekunders arbejde med 170% VO2max efterfulgt af 10 sekunders pause. Gentag 6-8 gange. I alt 4 minutters træning."
 instructions: "20 sekunders arbejde med 170% VO2max efterfulgt af 10 sekunders pause. Gentag 6-8 gange. I alt 4 minutters træning."
 permalink: /oevelse/tabata-intervaller/

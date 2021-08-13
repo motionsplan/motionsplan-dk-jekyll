@@ -1,5 +1,5 @@
 ---
-title: &title "Udstrækning af forlår"
+title: "Udstrækning af forlår"
 excerpt: "Udstrækning af forlåret - eller den store firehovedede knæstrækker (quadriceps) kan gøres stående ved at bøje det ene ben bag ved dig og holde fast i foden med en hånd. Skub hoften frem og hold knæene samlet."
 instructions: "Bøj dit ene ben, så det rammer dig bag i. Hold foden fast med en hånd. Skub begge hofter fremad og hold knæene samlet. Mærk strækket på forsiden af låret."
 permalink: /oevelse/udstraekning-af-forlaar/

@@ -1,5 +1,5 @@
 ---
-title: &title "Dødløft, et ben"
+title: "Dødløft, et ben"
 excerpt: "Stå med en hændvægt i hver hånd. Mens du balancerer på et ben, læner du dig forover samtidig med at det andet ben føres bagud, indtil du står i et T. Rejs dig igen."
 instructions: "Stå med en hændvægt i hver hånd. Mens du balancerer på et ben, læner du dig forover samtidig med at det andet ben føres bagud, indtil du står i et T. Rejs dig igen."
 permalink: /oevelse/deadlift-one-leg/

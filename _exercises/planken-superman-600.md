@@ -1,5 +1,5 @@
 ---
-title: &title "Planken, superman"
+title: "Planken, superman"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/planken-superman/

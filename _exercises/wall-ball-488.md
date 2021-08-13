@@ -1,5 +1,5 @@
 ---
-title: &title "Wall Ball"
+title: "Wall Ball"
 instructions: "I wall ball skal du støde en medicinbold fra brystet med begge hænder op over et punkt på væggen. Når du griber den igen går du ned i en squat og sender bolden afsted igen."
 permalink: /oevelse/wall-ball/
 redirect_from:
