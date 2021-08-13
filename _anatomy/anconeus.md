@@ -7,6 +7,8 @@ name:
 tags:
   - imagemap
   - muskel
+categories:
+  - Muskler
 origin: 
   da: Epicondylus lateralis
 insertion: 

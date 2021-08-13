@@ -15,6 +15,8 @@ tags:
   - imagemap
   - fitnessinstruktør
   - muskel
+categories:
+  - Muskler
 origin: 
   da: 
 insertion: 

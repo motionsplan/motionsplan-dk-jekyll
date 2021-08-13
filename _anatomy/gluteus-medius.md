@@ -13,6 +13,8 @@ tags:
   - imagemap
   - fitnessinstruktør
   - muskel
+categories:
+  - Muskler
 origin: 
   da: Yderst på øverste kant af hoftebenet
 insertion: 

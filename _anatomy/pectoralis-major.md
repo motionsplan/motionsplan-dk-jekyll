@@ -17,6 +17,8 @@ tags:
   - imagemap
   - fitnessinstruktør
   - muskel
+categories:
+  - Muskler
 function:
   da:
     - short: Abducts the arm at the shoulder.

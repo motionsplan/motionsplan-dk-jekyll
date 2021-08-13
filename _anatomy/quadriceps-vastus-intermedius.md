@@ -14,6 +14,8 @@ name:
 tags:
   - fitnessinstruktør
   - muskel
+categories:
+  - Muskler
 origin:
   da: Øverst på forsiden af låret
 insertion:

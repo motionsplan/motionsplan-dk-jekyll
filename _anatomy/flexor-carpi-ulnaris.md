@@ -12,6 +12,8 @@ joint:
 tags:
   - imagemap
   - muskel
+categories:
+  - Muskler
 function:
   da:
     - short: Flexes the wrist.

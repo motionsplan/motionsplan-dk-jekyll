@@ -10,6 +10,8 @@ name:
 tags:
   - imagemap
   - muskel
+categories:
+  - Muskler
 origin: 
   da: anteriore overflade af humerus, især den distale halvdel af denne knogle
 insertion: 

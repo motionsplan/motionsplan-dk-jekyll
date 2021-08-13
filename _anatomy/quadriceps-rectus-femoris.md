@@ -17,6 +17,8 @@ tags:
   - imagemap
   - fitnessinstruktør
   - muskel
+categories:
+  - Muskler
 origin:
   da: Fremspring på hoftebenet
 insertion:

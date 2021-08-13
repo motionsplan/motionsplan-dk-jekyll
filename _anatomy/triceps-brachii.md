@@ -15,6 +15,8 @@ tags:
   - imagemap
   - fitnessinstruktør
   - muskel
+categories:
+  - Muskler
 function:
   da:
   - short: Ekstension i albueleddet
