@@ -13,6 +13,8 @@ tags:
   - imagemap
   - fitnessinstruktør
   - muskel
+categories:
+  - Muskler
 origin: 
   da: Ydersiden af nederste 8 ribben
 insertion: 

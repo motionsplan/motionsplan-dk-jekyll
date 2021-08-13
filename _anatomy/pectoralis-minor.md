@@ -11,4 +11,6 @@ name:
   da: Den lille brystmuskel
 tags:
   - muskel
+categories:
+  - Muskler
 ---

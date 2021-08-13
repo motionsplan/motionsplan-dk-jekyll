@@ -13,6 +13,8 @@ tags:
   - imagemap
   - fitnessinstruktør
   - muskel
+categories:
+  - Muskler
 origin: 
   da: Hoftebenskammen, lændehvirvler og de nederste brysthvirvler
 insertion: 

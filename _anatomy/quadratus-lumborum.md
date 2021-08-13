@@ -11,6 +11,8 @@ name:
   da: 	Den firkantede lændemuskel
 tags:
   - muskel
+categories:
+  - Muskler
 origin: 
   da: 
 insertion: 

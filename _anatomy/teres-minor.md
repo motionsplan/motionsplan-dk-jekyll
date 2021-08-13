@@ -9,6 +9,8 @@ name:
   latin: "Teres Minor"
 tags:
   - muskel
+categories:
+  - Muskler
 origin: 
   da: 
 insertion: 

@@ -4,6 +4,21 @@ Træningsøvelser:
 Styrketræning:
   title: Styrketræning
   url: /styrke/
+
+# Øvelser
+
 Bryst:
   title: Bryst
   url: /brystoevelser/
+
+# Anatomi
+
+Muskler:
+  title: Muskler
+  url: /muskler/
+Led:
+  title: Led
+  url: /led/
+Mavemuskler:
+  title: Mave
+  url: /mavemuskler/

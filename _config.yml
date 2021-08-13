@@ -26,7 +26,7 @@ baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "motionsplan/motionsplan-dk-jekyll" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 logo                     : "/assets/images/logo.gif" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : false # "disqus" # "staticman_v2" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
@@ -334,6 +334,7 @@ defaults:
       type: posts
     values:
       layout: single
+      breadcrumbs: false
       header:
         overlay_color: "#F5F5F5"
       author_profile: true
@@ -364,7 +365,7 @@ defaults:
       author: lsolesen
       tag_archive_path: /exercises/tags/
       category_archive_path: /exercises/categories/      
-  # _exercises
+  # _methods
   - scope:
       path: ""
       type: methods
@@ -396,7 +397,8 @@ defaults:
       type: anatomy
     values:
       layout: single-anatomy
-      author_profile: true
+      breadcrumbs: true
+      author_profile: false
       read_time: false
       comments: true
       share: true

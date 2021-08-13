@@ -12,6 +12,8 @@ name:
 tags:
   - imagemap
   - muskel
+categories:
+  - Muskler
 origin: 
   da: Skambenet
 insertion: 

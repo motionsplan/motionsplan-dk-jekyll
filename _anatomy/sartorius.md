@@ -11,6 +11,8 @@ name:
 tags:
   - imagemap
   - muskel
+categories:
+  - Muskler
 origin: 
   da: forreste øverste hoftebensfremspring
 insertion: 

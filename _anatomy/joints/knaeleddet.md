@@ -6,6 +6,8 @@ permalink: /joints/knaeleddet/
 latin:
 tags:
   - led
+categories:
+  - Led
 movements:
   - title: Bøjning
     muscles:

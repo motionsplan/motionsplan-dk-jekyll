@@ -9,6 +9,8 @@ group:
 name:
   latin: "Transversus Abdominis"
   da: Bugpressen
+categories:
+  - Muskler
 tags:
   - fitnessinstruktør
   - muskel
@@ -22,5 +24,5 @@ function:
     - short: Vigtig stabilisator af rygsøjlen
       extended: ""
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Transversus_abdominis.png/375px-Transversus_abdominis.png
-image_focus: 
+breadcrumbs: true
 ---

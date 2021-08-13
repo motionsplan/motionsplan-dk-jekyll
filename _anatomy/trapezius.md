@@ -13,6 +13,8 @@ name:
 tags:
   - imagemap
   - muskel
+categories:
+  - Muskler
 #origin: 
 #  da: Nakkehvirvlen og nakkebåndet. Desuden torntappene fra 6. halshvirvel til 12. brysthvirvel
 #insertion: 
