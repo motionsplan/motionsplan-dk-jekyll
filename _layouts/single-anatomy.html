@@ -8,15 +8,13 @@ layout: default
   {% include page__hero_video.html %}
 {% endif %}
 
-{% if page.url != "/" and site.breadcrumbs or page.breadcrumbs %}
+{% if page.url != "/" and site.breadcrumbs and page.breadcrumbs != false %}
   {% unless paginator %}
     {% include breadcrumbs.html %}
   {% endunless %}
 {% endif %}
 
 <div id="main" role="main">
-  {{ page.breadcrumbs }}
-
   {% include sidebar.html %}
 
   <article class="page" itemscope itemtype="http://schema.org/Muscle">
