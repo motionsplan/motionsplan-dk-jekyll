@@ -9,11 +9,14 @@ header:
 author_profile: true
 classes: wide
 excerpt: "Du kan træne ryggen ved rygøvelserne dødløft, rows og pullups, men der er mange andre styrketræningsøvelser for ryggen. Ryggen er stærk og skal trænes på mange måder."
+categories:
+  - Træningsøvelser
+breadcrumbs: true
 ---
 
 Du kan træne ryggen ved rygøvelserne dødløft, rows og pullups, men der er mange andre styrketræningsøvelser for ryggen. Ryggen er stærk og skal trænes på mange måder.
 
-Din ryg skal bruges og udfordres med de bedste og mest effektive øvelser i din rygtræning. 
+Din ryg skal bruges og udfordres med de bedste og mest effektive øvelser i din rygtræning.
 
 Jeg synes de bedste rygøvelser er basisøvelser, hvor du kan løfte meget vægt i horisontale træk (som [rows]({% link _posts/2020-07-06-rows.md %}))) og vertikale træk (som [chinup og pullup]({% link _posts/2020-06-30-pullup-chinup.md %})), men husk også at de mange variationer af dødløft er fremragende til at træne ryggen.
 

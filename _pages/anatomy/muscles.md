@@ -8,10 +8,11 @@ header:
   overlay_image: https://images.unsplash.com/photo-1539814858141-928517f6afd3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=60
   teaser: https://images.unsplash.com/photo-1539814858141-928517f6afd3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60
   caption: *title
+categories:
+  - Anatomi
 tags:
   - anatomi
 toc: true
-author_profile: true
 sidebar:
   nav: anatomi
 feature_row:

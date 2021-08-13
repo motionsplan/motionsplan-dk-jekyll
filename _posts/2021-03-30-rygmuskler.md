@@ -16,6 +16,9 @@ tags:
 last_modified_at: 2021-01-28T23:14:14Z
 toc: true
 author: lsolesen
+sidebar:
+  nav: muscles
+breadcrumbs: true
 ---
 
 Jeg har samlet en liste over muskler i din ryg her. Det er godt at vide, hvordan dine rygmuskler virker, hvis du gerne vil træne musklerne i ryggen.
