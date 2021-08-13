@@ -1,5 +1,5 @@
 ---
-title: &title "Facepull: Træk til ansigt med rotation"
+title: "Facepull: Træk til ansigt med rotation"
 seo_title: "Facepulls: Træk til ansigt med rotation"
 excerpt: "Facepulls udføres ed at holde i rebhåndtaget med overhåndsgreb. I god balance trækker du rebet hen mod dine øjenbryn, mens du holder hovedet og skuldrene i samme position som ved starten."
 instructions: "Hold i rebhåndtaget med overhåndsgreb. I god balance trækker du rebet hen mod din egen pande og så langt tilbage som muligt, mens du holder hovedet og skuldrene i samme position som ved starten."
@@ -10,9 +10,7 @@ redirect_from:
 id: 48
 language: da
 header:
-  overlay_image: /assets/images/exercises/traek-til-ansigt-0.jpg
   teaser: /assets/images/exercises/traek-til-ansigt-0-320.jpg
-  caption: *title
 tags:
   - Træk
   - Balance

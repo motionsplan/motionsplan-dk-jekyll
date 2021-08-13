@@ -1,5 +1,5 @@
 ---
-title: &title "Shrug"
+title: "Shrug"
 excerpt: "Stå med vægtstangen i strakte arme. Uden at bøje armene hæves vægtstangen kun ved bevægelse i skuldrene."
 instructions: "Stå med vægtstangen i strakte arme. Uden at bøje armene hæves vægtstangen kun ved bevægelse i skuldrene."
 permalink: /oevelse/shrug/
@@ -7,9 +7,7 @@ redirect_from: /node/274
 id: 274
 language: da
 header:
-  overlay_image: /assets/images/exercises/shrug-0.jpg
   teaser: /assets/images/exercises/shrug-0-320.jpg
-  caption: *title
 tags:
   - Træk
   - Styrketræning

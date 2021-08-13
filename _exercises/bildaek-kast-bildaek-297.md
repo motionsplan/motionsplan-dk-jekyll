@@ -1,5 +1,5 @@
 ---
-title: &title "Kast, bildæk"
+title: "Kast, bildæk"
 excerpt: "Tag fat i bildækket med begge hænder og slyng det så langt du kan. Brug hele kroppen."
 instructions: "Tag fat i bildækket med begge hænder og slyng det så langt du kan. Brug hele kroppen."
 permalink: /oevelse/kast-bildaek/
@@ -7,9 +7,7 @@ redirect_from: /node/297
 id: 297
 language: da
 header:
-  overlay_image: /assets/images/exercises/kast-bildaek-0.jpg
   teaser: /assets/images/exercises/kast-bildaek-0-320.jpg
-  caption: *title
 tags:
   - Styrketræning
   - bildæk

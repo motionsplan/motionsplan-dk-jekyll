@@ -1,5 +1,5 @@
 ---
-title: &title "Armstrækning, easy spiderman"
+title: "Armstrækning, easy spiderman"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/armstraekning-easy-spiderman/
@@ -7,9 +7,7 @@ redirect_from: /node/615
 id: 615
 language: da
 header:
-  overlay_image: /assets/images/exercises/armstraekning-easy-spiderman-0.jpg
   teaser: /assets/images/exercises/armstraekning-easy-spiderman-0-320.jpg
-  caption: *title
 tags:
   - Pres
   - Styrketræning
@@ -51,5 +49,3 @@ gallery:
     title: "Armstrækning, easy spiderman"
 last_modified_at: 2014-11-15T15:36:19Z
 ---
-
-

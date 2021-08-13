@@ -1,5 +1,5 @@
 ---
-title: &title "Sprint"
+title: "Sprint"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/sprint-0/
@@ -7,9 +7,7 @@ redirect_from: /node/610
 id: 610
 language: da
 header:
-  overlay_image: /assets/images/exercises/sprint-0-0.jpg
   teaser: /assets/images/exercises/sprint-0-0-320.jpg
-  caption: *title
 tags:
   - Hård styrkeøvelse
   - Kondition
@@ -44,5 +42,3 @@ gallery:
     title: "Sprint"
 last_modified_at: 2014-10-30T10:32:44Z
 ---
-
-

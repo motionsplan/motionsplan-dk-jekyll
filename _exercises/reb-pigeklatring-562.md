@@ -1,5 +1,5 @@
 ---
-title: &title "Reb, pigeklatring"
+title: "Reb, pigeklatring"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/reb-pigeklatring/
@@ -7,9 +7,7 @@ redirect_from: /node/562
 id: 562
 language: da
 header:
-  overlay_image: /assets/images/exercises/reb-pigeklatring-0.jpg
   teaser: /assets/images/exercises/reb-pigeklatring-0-320.jpg
-  caption: *title
 tags:
   - Hård styrkeøvelse
   - tov

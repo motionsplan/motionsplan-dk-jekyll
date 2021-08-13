@@ -1,5 +1,5 @@
 ---
-title: &title "SMR biceps"
+title: "SMR biceps"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/smr-biceps/

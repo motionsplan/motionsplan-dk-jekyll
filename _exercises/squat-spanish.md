@@ -1,5 +1,5 @@
 ---
-title: &title "Spanish Squat"
+title: "Spanish Squat"
 excerpt: ""
 instructions: "Et alternativ til Sissy Squats kunne være [Spanish Squats](https://medium.com/@Reedswellnessfitnesstraining/exercise-of-the-week-spanish-squat-7073123051f2), der er knap så hårde, men også er med til at isolere muskelarbejdet over knæleddet."
 permalink: /oevelse/spanish-squat/
@@ -9,12 +9,7 @@ video:
   provider: youtube
   id: T5_7AegfGtg
 #header:
-#  overlay_image: /assets/images/exercises/180-jump-0.jpg
 #  teaser: /assets/images/exercises/180-jump-0-320.jpg
-#  actions:
-#    - label: '<i class="far fa-file-pdf" aria-hidden="true"></i>'
-#      url: "/assets/pdf/exercises/180-jump-30.pdf"
-#  caption: *title
 tags:
 #  - kropsvægt
 categories: []

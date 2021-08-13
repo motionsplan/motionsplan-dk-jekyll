@@ -1,5 +1,5 @@
 ---
-title: &title "Lunges med drejning"
+title: "Lunges med drejning"
 excerpt: "Hold en vægt i strakte arme i skulderhøjde. Tag et skridt fremad, mens du fører vægtskiven ud på siden af det knæ, du har længst fremme. Skub fra og før vægtskiven tilbage til udgangsstillingen "
 instructions: "Hold en vægt i strakte arme i skulderhøjde. Tag et skridt fremad, mens du fører vægtskiven ud på siden af det knæ, du har længst fremme. Skub fra og før vægtskiven tilbage til udgangsstillingen "
 permalink: /oevelse/lunges-med-drejning/
@@ -7,9 +7,7 @@ redirect_from: /node/64
 id: 64
 language: da
 header:
-  overlay_image: /assets/images/exercises/lunges-med-drejning-0.jpg
   teaser: /assets/images/exercises/lunges-med-drejning-0-320.jpg
-  caption: *title
 tags:
   - Helkropsøvelse
   - vægtskive

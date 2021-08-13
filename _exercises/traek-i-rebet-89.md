@@ -1,5 +1,5 @@
 ---
-title: &title "Roning, træk i reb"
+title: "Roning, træk i reb"
 excerpt: "To sammen om et stort tov. Den ene agerer modstand i den ene ende, mens den anden skal trække vedkommende til sig."
 instructions: "To sammen om et stort tov. Den ene agerer modstand i den ene ende, mens den anden skal trække vedkommende til sig."
 permalink: /oevelse/traek-i-rebet/
@@ -7,9 +7,7 @@ redirect_from: /node/89
 id: 89
 language: da
 header:
-  overlay_image: /assets/images/exercises/traek-i-rebet-0.jpg
   teaser: /assets/images/exercises/traek-i-rebet-0-320.jpg
-  caption: *title
 tags:
   - tov
 categories: []

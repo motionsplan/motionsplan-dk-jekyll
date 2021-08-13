@@ -1,5 +1,5 @@
 ---
-title: &title "Vandret roning, supineret"
+title: "Vandret roning, supineret"
 excerpt: "Hold i stangen med håndfladerne opad (supineret). Med helt lige krop trækker du dig selv opad. Hold gerne 1 sekunds pause i toppen."
 instructions: "Hold i stangen med håndfladerne opad (supineret). Med helt lige krop trækker du dig selv opad. Hold gerne 1 sekunds pause i toppen."
 permalink: /oevelse/vandret-roning-supineret/
@@ -7,9 +7,7 @@ redirect_from: /node/718
 id: 718
 language: da
 header:
-  overlay_image: /assets/images/exercises/vandret-roning-supineret-0.jpg
   teaser: /assets/images/exercises/vandret-roning-supineret-0-320.jpg
-  caption: *title
 tags: []
 categories: []
 training_type: [] 

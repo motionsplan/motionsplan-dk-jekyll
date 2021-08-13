@@ -1,5 +1,5 @@
 ---
-title: &title "Step out with high lift in cable"
+title: "Step out with high lift in cable"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/step-out-high-lift-cable/
@@ -7,9 +7,7 @@ redirect_from: /node/725
 id: 725
 language: da
 header:
-  overlay_image: /assets/images/exercises/step-out-high-lift-cable-0.jpg
   teaser: /assets/images/exercises/step-out-high-lift-cable-0-320.jpg
-  caption: *title
 tags:
   - Kropsstamme
   - Balance
@@ -42,5 +40,3 @@ gallery:
     title: "Step out with high lift in cable"
 last_modified_at: 2016-10-18T07:29:17Z
 ---
-
-

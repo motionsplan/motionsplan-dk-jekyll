@@ -1,5 +1,5 @@
 ---
-title: &title "Baller, quadruped hip extension"
+title: "Baller, quadruped hip extension"
 excerpt: "Støt på knæ og hænder. Det ene ben løftes med bøjet knæ. Stræk hoften så meget du kan og hold stillingen i fem sekunder. Slap af. Gentag."
 instructions: "Støt på knæ og hænder. Det ene ben løftes med bøjet knæ. Stræk hoften så meget du kan og hold stillingen i fem sekunder. Slap af. Gentag."
 permalink: /oevelse/quadruped-hip-extension/
@@ -7,9 +7,7 @@ redirect_from: /node/11
 id: 11
 language: da
 header:
-  overlay_image: /assets/images/exercises/quadruped-hip-extension-0.jpg
   teaser: /assets/images/exercises/quadruped-hip-extension-0-320.jpg
-  caption: *title
 tags:
   - Koordination og balance
   - Styrketræning

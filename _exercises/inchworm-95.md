@@ -1,5 +1,5 @@
 ---
-title: &title "Inchworm"
+title: "Inchworm"
 excerpt: "Stående bøjer du dig forover indtil du har hænderne på jorden. Gå fremad med hænderne, mens fødderne bliver stående. Gå så langt frem som muligt, og derefter går du tilbage igen indtil du står op."
 instructions: "Stående bøjer du dig forover indtil du har hænderne på jorden. Gå fremad med hænderne, mens fødderne bliver stående. Gå så langt frem som muligt, og derefter går du tilbage igen indtil du står op."
 permalink: /oevelse/inchworm/
@@ -7,9 +7,7 @@ redirect_from: /node/95
 id: 95
 language: da
 header:
-  overlay_image: /assets/images/exercises/inchworm-0.jpg
   teaser: /assets/images/exercises/inchworm-0-320.jpg
-  caption: *title
 tags:
   - Koordination og balance
   - kropsstamme

@@ -1,5 +1,5 @@
 ---
-title: &title "Stød med træstub"
+title: "Stød med træstub"
 excerpt: "Stød en træstub så langt du kan. Gentag med den anden arm."
 instructions: "Stød en træstub så langt du kan. Gentag med den anden arm."
 permalink: /oevelse/stoed-med-traestub/
@@ -7,9 +7,7 @@ redirect_from: /node/164
 id: 164
 language: da
 header:
-  overlay_image: /assets/images/exercises/stoed-med-traestub-0.jpg
   teaser: /assets/images/exercises/stoed-med-traestub-0-320.jpg
-  caption: *title
 tags:
   - træstub
 categories: []

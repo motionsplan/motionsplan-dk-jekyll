@@ -1,5 +1,5 @@
 ---
-title: &title "Mave, Reverse crunch"
+title: "Mave, Reverse crunch"
 excerpt: "Lig på ryggen og hold fast med armene. Før derefter knæene op mod skuldrene."
 instructions: "Lig på ryggen og hold fast med armene. Før derefter knæene op mod skuldrene."
 permalink: /oevelse/reverse-crunch/
@@ -7,9 +7,7 @@ redirect_from: /node/7
 id: 7
 language: da
 header:
-  overlay_image: /assets/images/exercises/reverse-crunch-0.jpg
   teaser: /assets/images/exercises/reverse-crunch-0-320.jpg
-  caption: *title
 tags:
   - Kropsstamme
   - Styrketræning

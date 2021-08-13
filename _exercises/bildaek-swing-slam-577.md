@@ -1,5 +1,5 @@
 ---
-title: &title "Bildæk, swing slam"
+title: "Bildæk, swing slam"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/bildaek-swing-slam/
@@ -9,9 +9,7 @@ redirect_from:
 id: 577
 language: da
 header:
-  overlay_image: /assets/images/exercises/bildaek-swing-slam-0.jpg
   teaser: /assets/images/exercises/bildaek-swing-slam-0-320.jpg
-  caption: *title
 tags:
   - Helkropsøvelse
   - outdoor

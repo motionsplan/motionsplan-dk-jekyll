@@ -1,5 +1,5 @@
 ---
-title: &title "Træk til nakke"
+title: "Træk til nakke"
 excerpt: "Vi anbefaler træk til bryst i stedet. Hvis du insisterer på denne, så sæt dig i maskinen og juster puderne til benene. Træk stangen ned bag nakken og langsomt til udgangspunktet igen."
 instructions: "Vi anbefaler træk til bryst i stedet. Hvis du insisterer på denne, så sæt dig i maskinen og juster puderne til benene. Træk stangen ned bag nakken og langsomt til udgangspunktet igen."
 permalink: /oevelse/traek-til-nakke/
@@ -7,9 +7,7 @@ redirect_from: /node/286
 id: 286
 language: da
 header:
-  overlay_image: /assets/images/exercises/traek-til-nakke-0.jpg
   teaser: /assets/images/exercises/traek-til-nakke-0-320.jpg
-  caption: *title
 tags:
   - Træk
   - Styrketræning

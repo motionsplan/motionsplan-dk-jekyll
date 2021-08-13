@@ -1,5 +1,5 @@
 ---
-title: &title "Bænkpres"
+title: "Bænkpres"
 excerpt: "Liggende på en bænk og skub vandret."
 instructions: "Liggende på en bænk og skub vandret."
 permalink: /oevelse/baenkpres/

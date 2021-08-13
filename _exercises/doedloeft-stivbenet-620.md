@@ -1,5 +1,5 @@
 ---
-title: &title "Dødløft, stivbenet"
+title: "Dødløft, stivbenet"
 excerpt: "Grib stangen fra gulvet med cirka skulderafstand mellem hænderne. Stå med benene i skulderbredde. Med så strakte ben som muligt, hæver du stangen, mens du sørger for at ryggen er ret. Sæt vægten på jorden langsomt og stadig med så strakte ben som muligt."
 instructions: "Grib stangen fra gulvet med cirka skulderafstand mellem hænderne. Stå med benene i skulderbredde. Med så strakte ben som muligt, hæver du stangen, mens du sørger for at ryggen er ret. Sæt vægten på jorden langsomt og stadig med så strakte ben som muligt."
 permalink: /oevelse/doedloeft-stivbenet/
@@ -7,9 +7,7 @@ redirect_from: /node/620
 id: 620
 language: da
 header:
-  overlay_image: /assets/images/exercises/doedloeft-stivbenet-0.jpg
   teaser: /assets/images/exercises/doedloeft-stivbenet-0-320.jpg
-  caption: *title
 tags:
   - Hård styrkeøvelse
   - Styrketræning

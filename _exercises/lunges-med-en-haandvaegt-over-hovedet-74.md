@@ -1,5 +1,5 @@
 ---
-title: &title "Lunges, med en håndvægt over hovedet"
+title: "Lunges, med en håndvægt over hovedet"
 excerpt: "Hold en håndvægt i strakt arm over hovedet. Med vægten i hånden laver du gående lunges."
 instructions: "Hold en håndvægt i strakt arm over hovedet. Med vægten i hånden laver du gående lunges."
 permalink: /oevelse/lunges-med-en-haandvaegt-over-hovedet/
@@ -7,9 +7,7 @@ redirect_from: /node/74
 id: 74
 language: da
 header:
-  overlay_image: /assets/images/exercises/lunges-med-en-haandvaegt-over-hovedet-0.jpg
   teaser: /assets/images/exercises/lunges-med-en-haandvaegt-over-hovedet-0-320.jpg
-  caption: *title
 tags:
   - Helkropsøvelse
   - Styrketræning

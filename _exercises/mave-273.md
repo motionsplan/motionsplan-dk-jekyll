@@ -1,5 +1,5 @@
 ---
-title: &title "Mave, captains chair"
+title: "Mave, captains chair"
 excerpt: "Hvil på armstøtterne. Bøj i hoften til benene er vandrette med jorden. Kontrolleret tilbage til udgangspunktet."
 instructions: "Hvil på armstøtterne. Bøj i hoften til benene er vandrette med jorden. Kontrolleret tilbage til udgangspunktet."
 permalink: /oevelse/mave/
@@ -7,9 +7,7 @@ redirect_from: /node/273
 id: 273
 language: da
 header:
-  overlay_image: /assets/images/exercises/mave-0.jpg
   teaser: /assets/images/exercises/mave-0-320.jpg
-  caption: *title
 tags:
   - kropsstamme
   - maskine

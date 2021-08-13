@@ -1,5 +1,5 @@
 ---
-title: &title "Armstrækning, Spiderman"
+title: "Armstrækning, Spiderman"
 excerpt: "Armstrækning hvor knæet føres på siden af kroppen og op mod albuen, mens du sænker dig ned mod gulvet, og hvor benet strækkes mens du går op. Skift."
 instructions: "Armstrækning hvor knæet føres på siden af kroppen og op mod albuen, mens du sænker dig ned mod gulvet, og hvor benet strækkes mens du går op. Skift."
 permalink: /oevelse/armstraekning-spiderman/
@@ -7,9 +7,7 @@ redirect_from: /node/60
 id: 60
 language: da
 header:
-  overlay_image: /assets/images/exercises/armstraekning-spiderman-0.jpg
   teaser: /assets/images/exercises/armstraekning-spiderman-0-320.jpg
-  caption: *title
 tags:
   - kropsstamme
   - kropsvægt

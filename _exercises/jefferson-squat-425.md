@@ -1,5 +1,5 @@
 ---
-title: &title "Jefferson squat"
+title: "Jefferson squat"
 excerpt: "Hold en vægt mellem benene. Ret ryggen ved at skyde brystet frem og skuldrene tilbage. Gå ned i knæ mens du holder spændet i kropsstammen. Rejs dig. Og gentag."
 instructions: "Hold en vægt mellem benene. Ret ryggen ved at skyde brystet frem og skuldrene tilbage. Gå ned i knæ mens du holder spændet i kropsstammen. Rejs dig. Og gentag."
 permalink: /oevelse/jefferson-squat/
@@ -7,9 +7,7 @@ redirect_from: /node/425
 id: 425
 language: da
 header:
-  overlay_image: /assets/images/exercises/jefferson-squat-0.jpg
   teaser: /assets/images/exercises/jefferson-squat-0-320.jpg
-  caption: *title
 tags:
   - Ben
   - Styrketræning

@@ -1,5 +1,5 @@
 ---
-title: &title "Kommandokravl"
+title: "Kommandokravl"
 excerpt: "Kommandokravl"
 instructions: "Kommandokravl"
 permalink: /oevelse/kommandokravl/
@@ -7,9 +7,7 @@ redirect_from: /node/303
 id: 303
 language: da
 header:
-  overlay_image: /assets/images/exercises/kommandokravl-0.jpg
   teaser: /assets/images/exercises/kommandokravl-0-320.jpg
-  caption: *title
 tags: []
 categories: []
 training_type: [] 

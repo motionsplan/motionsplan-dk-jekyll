@@ -1,5 +1,5 @@
 ---
-title: &title "Bildæk, prowler"
+title: "Bildæk, prowler"
 instructions: ""
 permalink: /oevelse/bildaek-prowler/
 redirect_from:
@@ -8,9 +8,7 @@ redirect_from:
 id: 568
 language: da
 header:
-  overlay_image: /assets/images/exercises/bildaek-prowler-0.jpg
   teaser: /assets/images/exercises/bildaek-prowler-0-320.jpg
-  caption: *title
 tags:
   - Kondition og puls
   - outdoor

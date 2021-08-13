@@ -1,5 +1,5 @@
 ---
-title: &title "Mave, rollout, corestabilitet med stor bold"
+title: "Mave, rollout, corestabilitet med stor bold"
 excerpt: "Siddende på knæene med hænderne på bolden begynder du langsomt at skubbe bolden længere og længere væk, indtil den er så langt væk som du kan. Træk den derefter mod dig selv igen."
 instructions: "Siddende på knæene med hænderne på bolden begynder du langsomt at skubbe bolden længere og længere væk, indtil den er så langt væk som du kan. Træk den derefter mod dig selv igen."
 permalink: /oevelse/corestabilitet-med-stor-bold/
@@ -7,9 +7,7 @@ redirect_from: /node/32
 id: 32
 language: da
 header:
-  overlay_image: /assets/images/exercises/corestabilitet-med-stor-bold-0.jpg
   teaser: /assets/images/exercises/corestabilitet-med-stor-bold-0-320.jpg
-  caption: *title
 tags:
   - swissball
 categories: []

@@ -1,5 +1,5 @@
 ---
-title: &title "Bird dog"
+title: "Bird dog"
 excerpt: "Start med at hvile på knæ og arme. Løft den ene arm og modsatte fod indtil begge er parallelle med gulvet. Lav bevægelsen uden at vride i hoften. Sænk igen. Gentag med modsatte arm og ben."
 instructions: "Start med at hvile på knæ og arme. Løft den ene arm og modsatte fod indtil begge er parallelle med gulvet. Lav bevægelsen uden at vride i hoften. Sænk igen. Gentag med modsatte arm og ben."
 permalink: /oevelse/birddog/
@@ -7,9 +7,7 @@ redirect_from: /node/142
 id: 142
 language: da
 header:
-  overlay_image: /assets/images/exercises/birddog-0.jpg
   teaser: /assets/images/exercises/birddog-0-320.jpg
-  caption: *title
 tags:
   - Koordination og balance
   - kropsstamme

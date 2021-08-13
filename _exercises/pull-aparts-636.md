@@ -1,5 +1,5 @@
 ---
-title: &title "Pull aparts"
+title: "Pull aparts"
 excerpt: "Hold fast i elastikken med tommelfingrene opad. Træk elastikket fra hinanden med strakte arme, mens du lader tommelfingrene pege bagud."
 instructions: "Hold fast i elastikken med tommelfingrene opad. Træk elastikket fra hinanden med strakte arme, mens du lader tommelfingrene pege bagud."
 permalink: /oevelse/pull-aparts/
@@ -7,9 +7,7 @@ redirect_from: /node/636
 id: 636
 language: da
 header:
-  overlay_image: /assets/images/exercises/pull-aparts-0.jpg
   teaser: /assets/images/exercises/pull-aparts-0-320.jpg
-  caption: *title
 tags:
   - Koordination og balance
   - Styrketræning
@@ -40,5 +38,3 @@ gallery:
     title: "Pull aparts"
 last_modified_at: 2015-03-21T21:21:07Z
 ---
-
-

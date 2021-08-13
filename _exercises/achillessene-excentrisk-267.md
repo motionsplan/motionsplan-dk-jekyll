@@ -1,5 +1,5 @@
 ---
-title: &title "Achillessene, excentrisk"
+title: "Achillessene, excentrisk"
 excerpt: "Stå på en kantsten med hælene lidt ud over. Stil dig op på tæerne, og derefter sænker du dig ned på den ene fod. Gentag for den anden fod."
 instructions: "Stå på en kantsten med hælene lidt ud over. Stil dig op på tæerne, og derefter sænker du dig ned på den ene fod. Gentag for den anden fod."
 permalink: /oevelse/achillessene-excentrisk/
@@ -8,9 +8,7 @@ id: 267
 key: 267
 language: da
 header:
-  overlay_image: /assets/images/exercises/achillessene-excentrisk-0.jpg
   teaser: /assets/images/exercises/achillessene-excentrisk-0-320.jpg
-  caption: *title
 tags: []
 categories: []
 training_type: [] 

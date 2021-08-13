@@ -1,5 +1,5 @@
 ---
-title: &title "Dødløft"
+title: "Dødløft"
 excerpt: "Stangen er placeret på gulvet. Tag fat i stangen med hænderne i skulderbredde. Rejs dig ved at skyde hoften frem, mens stangen bare hænger i armene."
 instructions: "Stangen er placeret på gulvet. Tag fat i stangen med hænderne i skulderbredde. Rejs dig ved at skyde hoften frem, mens stangen bare hænger i armene."
 permalink: /oevelse/doedloeft/
@@ -7,9 +7,7 @@ redirect_from: /node/55
 id: 55
 language: da
 header:
-  overlay_image: /assets/images/exercises/doedloeft-0.jpg
   teaser: /assets/images/exercises/doedloeft-0-320.jpg
-  caption: *title
 tags:
   - Ben
   - Styrketræning

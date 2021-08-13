@@ -1,5 +1,5 @@
 ---
-title: &title "Foamrolling IT-band"
+title: "Foamrolling IT-band"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/foamrolling-it-band/
@@ -7,9 +7,7 @@ redirect_from: /node/677
 id: 677
 language: da
 header:
-  overlay_image: /assets/images/exercises/foamrolling-it-band-0.jpg
   teaser: /assets/images/exercises/foamrolling-it-band-0-320.jpg
-  caption: *title
 tags:
   - Self Myofascial Release (SMR)
   - foamroller

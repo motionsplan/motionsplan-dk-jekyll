@@ -1,5 +1,5 @@
 ---
-title: &title "Rygstrækning"
+title: "Rygstrækning"
 excerpt: "Læg ned på maven. Placér hænderne under hagen. Løft overkroppen fri af underlaget uden at løfte fødderne."
 instructions: "Læg ned på maven. Placér hænderne under hagen. Løft overkroppen fri af underlaget uden at løfte fødderne."
 permalink: /oevelse/rygstraekning-0/
@@ -7,9 +7,7 @@ redirect_from: /node/299
 id: 299
 language: da
 header:
-  overlay_image: /assets/images/exercises/rygstraekning-0-0.jpg
   teaser: /assets/images/exercises/rygstraekning-0-0-320.jpg
-  caption: *title
 tags:
   - fitnessinstruktør
 categories: []

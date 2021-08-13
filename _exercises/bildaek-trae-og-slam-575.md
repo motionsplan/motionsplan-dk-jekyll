@@ -1,5 +1,5 @@
 ---
-title: &title "Bildæk, træ og slam"
+title: "Bildæk, træ og slam"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/bildaek-trae-og-slam/
@@ -9,9 +9,7 @@ redirect_from:
 id: 575
 language: da
 header:
-  overlay_image: /assets/images/exercises/bildaek-trae-og-slam-0.jpg
   teaser: /assets/images/exercises/bildaek-trae-og-slam-0-320.jpg
-  caption: *title
 tags:
   - Kondition og puls
   - outdoor

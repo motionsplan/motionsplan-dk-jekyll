@@ -1,5 +1,5 @@
 ---
-title: &title "Bildæk, roning med arme"
+title: "Bildæk, roning med arme"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/bildaek-roning-med-arme/
@@ -9,9 +9,7 @@ redirect_from:
 id: 565
 language: da
 header:
-  overlay_image: /assets/images/exercises/bildaek-roning-med-arme-0.jpg
   teaser: /assets/images/exercises/bildaek-roning-med-arme-0-320.jpg
-  caption: *title
 tags:
   - Træk
   - outdoor

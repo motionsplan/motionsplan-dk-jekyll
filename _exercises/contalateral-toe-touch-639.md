@@ -1,5 +1,5 @@
 ---
-title: &title "Contalateral toe touch"
+title: "Contalateral toe touch"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/contalateral-toe-touch/
@@ -7,9 +7,7 @@ redirect_from: /node/639
 id: 639
 language: da
 header:
-  overlay_image: /assets/images/exercises/contalateral-toe-touch-0.jpg
   teaser: /assets/images/exercises/contalateral-toe-touch-0-320.jpg
-  caption: *title
 tags:
   - Kropsstamme
   - Balance
@@ -50,5 +48,3 @@ gallery:
     title: "Contalateral toe touch"
 last_modified_at: 2015-03-27T13:53:03Z
 ---
-
-

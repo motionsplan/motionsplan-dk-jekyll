@@ -1,5 +1,5 @@
 ---
-title: &title "Roning med makker og klap på skulderen"
+title: "Roning med makker og klap på skulderen"
 excerpt: "Den arbejdende ligger sig på ryggen, mens makkeren står oprejst ved siden af og tager fat i hans arm. Makkeren skal sørge for at stramme op i kropsstammen. Den liggende skal trække sig op og klappe den anden på skulderen."
 instructions: "Den arbejdende ligger sig på ryggen, mens makkeren står oprejst ved siden af og tager fat i hans arm. Makkeren skal sørge for at stramme op i kropsstammen. Den liggende skal trække sig op og klappe den anden på skulderen."
 permalink: /oevelse/roning-med-makker-og-klap-paa-skulderen/
@@ -7,9 +7,7 @@ redirect_from: /node/117
 id: 117
 language: da
 header:
-  overlay_image: /assets/images/exercises/roning-med-makker-og-klap-paa-skulderen-0.jpg
   teaser: /assets/images/exercises/roning-med-makker-og-klap-paa-skulderen-0-320.jpg
-  caption: *title
 tags:
   - makkerøvelse
 categories: []

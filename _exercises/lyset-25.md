@@ -1,5 +1,5 @@
 ---
-title: &title "Maveøvelse, lyset"
+title: "Maveøvelse, lyset"
 excerpt: "Lig på ryggen på en bænk og hold fast i bænken omking dit hoved. Brug mavemusklerne til at presse benene op i lodret, så vægten er på din øvre ryg. Sænk benene mod vandret, så langt du kan, og hold bækkenet inde under dig."
 instructions: "Lig på ryggen på en bænk og hold fast i bænken omking dit hoved. Brug mavemusklerne til at presse benene op i lodret, så vægten er på din øvre ryg. Sænk benene mod vandret, så langt du kan, og hold bækkenet inde under dig."
 permalink: /oevelse/lyset/
@@ -7,9 +7,7 @@ redirect_from: /node/25
 id: 25
 language: da
 header:
-  overlay_image: /assets/images/exercises/lyset-0.jpg
   teaser: /assets/images/exercises/lyset-0-320.jpg
-  caption: *title
 tags:
   - kropsstamme
   - bænk

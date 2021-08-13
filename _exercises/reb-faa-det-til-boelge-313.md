@@ -1,5 +1,5 @@
 ---
-title: &title "Tov, få det til at bølge"
+title: "Tov, få det til at bølge"
 excerpt: "Tag fat i enden af et kraftigt reb. Med store kraftige bevægelser, får du rebet til at bølge."
 instructions: "Tag fat i enden af et kraftigt reb. Med store kraftige bevægelser, får du rebet til at bølge."
 permalink: /oevelse/reb-faa-det-til-boelge/
@@ -7,9 +7,7 @@ redirect_from: /node/313
 id: 313
 language: da
 header:
-  overlay_image: /assets/images/exercises/reb-faa-det-til-boelge-0.jpg
   teaser: /assets/images/exercises/reb-faa-det-til-boelge-0-320.jpg
-  caption: *title
 tags:
   - Koordination og balance
   - kropsstamme

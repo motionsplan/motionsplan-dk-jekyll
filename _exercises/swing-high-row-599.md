@@ -1,5 +1,5 @@
 ---
-title: &title "Swing, high row"
+title: "Swing, high row"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/swing-high-row/
@@ -7,9 +7,7 @@ redirect_from: /node/599
 id: 599
 language: da
 header:
-  overlay_image: /assets/images/exercises/swing-high-row-0.jpg
   teaser: /assets/images/exercises/swing-high-row-0-320.jpg
-  caption: *title
 tags:
   - Helkropsøvelse
   - Styrketræning
@@ -48,5 +46,3 @@ gallery:
     title: "Swing, high row"
 last_modified_at: 2014-10-12T22:13:07Z
 ---
-
-

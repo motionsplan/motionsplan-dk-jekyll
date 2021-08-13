@@ -1,5 +1,5 @@
 ---
-title: &title "Floor wipers"
+title: "Floor wipers"
 excerpt: "Lig på ryggen med en vægtstang i strakte arme. Før skiftevis benene op til den ene og den anden side. Sørg for at holde lænden i gulvet, når benene er strakt ligefrem."
 instructions: "Lig på ryggen med en vægtstang i strakte arme. Før skiftevis benene op til den ene og den anden side. Sørg for at holde lænden i gulvet, når benene er strakt ligefrem."
 permalink: /oevelse/floor-wipers/
@@ -7,9 +7,7 @@ redirect_from: /node/8
 id: 8
 language: da
 header:
-  overlay_image: /assets/images/exercises/floor-wipers-0.jpg
   teaser: /assets/images/exercises/floor-wipers-0-320.jpg
-  caption: *title
 tags:
   - Kropsstamme
   - Styrketræning

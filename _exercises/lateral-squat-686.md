@@ -1,5 +1,5 @@
 ---
-title: &title "Lateral lunge, bodyweight"
+title: "Lateral lunge, bodyweight"
 excerpt: "LLunge til siden."
 instructions: "LLunge til siden."
 permalink: /oevelse/lateral-squat/
@@ -7,9 +7,7 @@ redirect_from: /node/686
 id: 686
 language: da
 header:
-  overlay_image: /assets/images/exercises/lateral-squat-0.jpg
   teaser: /assets/images/exercises/lateral-squat-0-320.jpg
-  caption: *title
 tags:
   - Mobilisering
   - Strækøvelser

@@ -1,5 +1,5 @@
 ---
-title: &title "Mavebøjning, løftede fødder"
+title: "Mavebøjning, løftede fødder"
 excerpt: "Mavebøjning, løftede fødder"
 instructions: "Mavebøjning, løftede fødder"
 permalink: /oevelse/maveboejning-loeftede-foedder/
@@ -7,9 +7,7 @@ redirect_from: /node/282
 id: 282
 language: da
 header:
-  overlay_image: /assets/images/exercises/maveboejning-loeftede-foedder-0.jpg
   teaser: /assets/images/exercises/maveboejning-loeftede-foedder-0-320.jpg
-  caption: *title
 tags: []
 categories: []
 training_type: [] 

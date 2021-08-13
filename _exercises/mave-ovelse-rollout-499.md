@@ -1,5 +1,5 @@
 ---
-title: &title "Maveøvelse, stående roll out med hjul"
+title: "Maveøvelse, stående roll out med hjul"
 excerpt: "Sæt hjulet på gulvet lige foran dine fødder. Med så strakte ben som muligt kører du fremad indtil kroppen er strakt med hænderne over hovedet. Træk hjulet hen mod fødderne igen."
 instructions: "Sæt hjulet på gulvet lige foran dine fødder. Med så strakte ben som muligt kører du fremad indtil kroppen er strakt med hænderne over hovedet. Træk hjulet hen mod fødderne igen."
 permalink: /node/499/
@@ -7,19 +7,17 @@ redirect_from: /node/499
 id: 499
 language: da
 header:
-  overlay_image: /assets/images/exercises/499-0.jpg
   teaser: /assets/images/exercises/499-0-320.jpg
-  caption: *title
 tags:
   - kropsstamme
   - hjul
 categories: []
-training_type: 
+training_type: []
 training_focus: 
   - kropsstamme
 equipment:
   - hjul
-muscle_group:
+muscle_group: []
 alternative_titles:
   - Standing ab wheel rollout
 gallery:

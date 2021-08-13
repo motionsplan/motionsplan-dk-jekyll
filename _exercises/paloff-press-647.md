@@ -1,5 +1,5 @@
 ---
-title: &title "Pallof Press"
+title: "Pallof Press"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/pallof-press/
@@ -9,9 +9,7 @@ redirect_from:
 id: 647
 language: da
 header:
-  overlay_image: /assets/images/exercises/paloff-press-0.jpg
   teaser: /assets/images/exercises/paloff-press-0-320.jpg
-  caption: *title
 tags:
   - Kropsstamme
   - Balance

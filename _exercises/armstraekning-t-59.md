@@ -1,5 +1,5 @@
 ---
-title: &title "Armstrækning, T"
+title: "Armstrækning, T"
 excerpt: "Lav en armstrækning. Når du har strakte arme, løfter du den ene arm op, så du står som et T og overkroppen er vinkelret på gulvet."
 instructions: "Lav en armstrækning. Når du har strakte arme, løfter du den ene arm op, så du står som et T og overkroppen er vinkelret på gulvet."
 permalink: /oevelse/armstraekning-t/
@@ -7,9 +7,7 @@ redirect_from: /node/59
 id: 59
 language: da
 header:
-  overlay_image: /assets/images/exercises/armstraekning-t-0.jpg
   teaser: /assets/images/exercises/armstraekning-t-0-320.jpg
-  caption: *title
 tags:
   - Hård styrkeøvelse
 categories:

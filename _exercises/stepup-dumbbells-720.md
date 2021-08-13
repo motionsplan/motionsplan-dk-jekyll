@@ -1,5 +1,5 @@
 ---
-title: &title "Stepup with dumbbells"
+title: "Stepup with dumbbells"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/stepup-dumbbells/
@@ -7,9 +7,7 @@ redirect_from: /node/720
 id: 720
 language: da
 header:
-  overlay_image: /assets/images/exercises/stepup-dumbbells-0.jpg
   teaser: /assets/images/exercises/stepup-dumbbells-0-320.jpg
-  caption: *title
 tags:
   - Ben
   - Styrketræning
@@ -51,5 +49,3 @@ video:
   id: qrgIG8P4te8
 last_modified_at: 2016-10-18T07:21:18Z
 ---
-
-

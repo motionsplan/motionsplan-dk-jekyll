@@ -1,5 +1,5 @@
 ---
-title: &title "Russian twist med vægt"
+title: "Russian twist med vægt"
 excerpt: "Sid på numsen med bøjede knæ, mens en vægt holdes i favnen med begge hænder. Læn dig tilbage indtil mavemusklerne begynder at stramme. Drej nu overkroppen og vægten skiftevis fra side til side, når overkroppen roterereres,  strækkes benene - uden de har kontakt med underlaget. "
 instructions: "Sid på numsen med bøjede knæ, mens en vægt holdes i favnen med begge hænder. Læn dig tilbage indtil mavemusklerne begynder at stramme. Drej nu overkroppen og vægten skiftevis fra side til side, når overkroppen roterereres,  strækkes benene - uden de har kontakt med underlaget. "
 permalink: /oevelse/russian-twist-med-vaegt/
@@ -9,9 +9,7 @@ redirect_from:
 id: 535
 language: da
 header:
-  overlay_image: /assets/images/exercises/russian-twist-med-vaegt-0.jpg
   teaser: /assets/images/exercises/russian-twist-med-vaegt-0-320.jpg
-  caption: *title
 tags:
   - Styrketræning
   - kropsstamme

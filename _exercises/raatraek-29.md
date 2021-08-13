@@ -1,5 +1,5 @@
 ---
-title: &title "Træk, råtræk"
+title: "Træk, råtræk"
 excerpt: "Vægten skal fra jorden løftes eksplosivt op, så man med en let knæbøjning kan gribe den over hovedet."
 instructions: "Vægten skal fra jorden løftes eksplosivt op, så man med en let knæbøjning kan gribe den over hovedet."
 permalink: /oevelse/raatraek/
@@ -7,9 +7,7 @@ redirect_from: /node/29
 id: 29
 language: da
 header:
-  overlay_image: /assets/images/exercises/raatraek-0.jpg
   teaser: /assets/images/exercises/raatraek-0-320.jpg
-  caption: *title
 tags:
   - crossfit
 categories: []

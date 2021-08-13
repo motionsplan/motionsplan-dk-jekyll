@@ -1,5 +1,5 @@
 ---
-title: &title "Floor press"
+title: "Floor press"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/floor-press/

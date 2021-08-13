@@ -1,5 +1,5 @@
 ---
-title: &title "Armgang"
+title: "Armgang"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/armgang/
@@ -7,9 +7,7 @@ redirect_from: /node/586
 id: 586
 language: da
 header:
-  overlay_image: /assets/images/exercises/armgang-0.jpg
   teaser: /assets/images/exercises/armgang-0-320.jpg
-  caption: *title
 tags:
   - Hård styrkeøvelse
 categories:

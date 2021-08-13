@@ -1,5 +1,5 @@
 ---
-title: &title "Reverse extension medicinbold"
+title: "Reverse extension medicinbold"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/reverse-extension-medicinbold/
@@ -7,9 +7,7 @@ redirect_from: /node/605
 id: 605
 language: da
 header:
-  overlay_image: /assets/images/exercises/reverse-extension-medicinbold-0.jpg
   teaser: /assets/images/exercises/reverse-extension-medicinbold-0-320.jpg
-  caption: *title
 tags:
   - Helkropsøvelse
   - Styrketræning
@@ -58,5 +56,3 @@ gallery:
     title: "Reverse extension medicinbold"
 last_modified_at: 2014-10-30T10:16:20Z
 ---
-
-

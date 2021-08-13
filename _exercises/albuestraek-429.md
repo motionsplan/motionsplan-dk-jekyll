@@ -1,5 +1,5 @@
 ---
-title: &title "Triceps extension: Albuestræk stående med håndvægt"
+title: "Triceps extension: Albuestræk stående med håndvægt"
 excerpt: "Triceps extension laves ved at tage en håndvægt i strakt arm over hovedet. Før håndvægten mod skulderen. Stræk armen igen."
 instructions: "Tag en håndvægt i strakt arm over hovedet. Før håndvægten mod skulderen. Stræk armen igen."
 permalink: /oevelse/triceps-extension/
@@ -9,9 +9,7 @@ redirect_from:
 id: 429
 language: da
 header:
-  overlay_image: /assets/images/exercises/albuestraek-0.jpg
   teaser: /assets/images/exercises/albuestraek-0-320.jpg
-  caption: *title
 tags:
   - Pres
   - Styrketræning

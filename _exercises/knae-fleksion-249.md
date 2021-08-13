@@ -1,5 +1,5 @@
 ---
-title: &title "Leg curl: Knæbøj"
+title: "Leg curl: Knæbøj"
 excerpt: "Indstil maskinen. Start med strakte ben (den at overstrække) og bøj benene så langt du kan. Hold igen, når du går tilbage til udgangspunktet."
 instructions: "Indstil maskinen. Start med strakte ben (den at overstrække) og bøj benene så langt du kan. Hold igen, når du går tilbage til udgangspunktet."
 permalink: /oevelse/knae-fleksion/
@@ -7,9 +7,7 @@ redirect_from: /node/249
 id: 249
 language: da
 header:
-  overlay_image: /assets/images/exercises/knae-fleksion-0.jpg
   teaser: /assets/images/exercises/knae-fleksion-0-320.jpg
-  caption: *title
 tags:
   - Ben
   - Styrketræning

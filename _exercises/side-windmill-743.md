@@ -1,5 +1,5 @@
 ---
-title: &title "Side windmill"
+title: "Side windmill"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/side-windmill/
@@ -29,5 +29,3 @@ video:
   id: ITSmgn_BQgY
 last_modified_at: 2016-11-01T08:43:03Z
 ---
-
-

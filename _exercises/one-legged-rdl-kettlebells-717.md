@@ -1,5 +1,5 @@
 ---
-title: &title "One legged RDL with kettlebells"
+title: "One legged RDL with kettlebells"
 instructions: "Stå på ét ben, og hold en håndvægt i den modsatte hånd. Ret ryggen. Læn dig frem, samtidig med at du bøjer i hoften og lidt i knæet på standbenet. Det andet ben skal strækkes bagud for at stabilisere balancen. Rejs dig op igen."
 permalink: /oevelse/one-legged-rdl-kettlebells/
 redirect_from: /node/717

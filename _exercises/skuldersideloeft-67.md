@@ -1,5 +1,5 @@
 ---
-title: &title "Sideløft, skulder"
+title: "Sideløft, skulder"
 excerpt: "Med let bøjede arme føres vægtene ud i til siden og opad. Fortsæt gerne bevægelsen, indtil vægtene møder hinanden over hovedet. Vægtene sænkes kontrolleret tilbage til udgangspositionen."
 instructions: "Med let bøjede arme føres vægtene ud i til siden og opad. Fortsæt gerne bevægelsen, indtil vægtene møder hinanden over hovedet. Vægtene sænkes kontrolleret tilbage til udgangspositionen."
 permalink: /oevelse/skuldersideloeft/
@@ -7,9 +7,7 @@ redirect_from: /node/67
 id: 67
 language: da
 header:
-  overlay_image: /assets/images/exercises/skuldersideloeft-0.jpg
   teaser: /assets/images/exercises/skuldersideloeft-0-320.jpg
-  caption: *title
 tags:
   - Træk
   - Styrketræning

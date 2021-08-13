@@ -1,5 +1,5 @@
 ---
-title: &title "Makker på slæb"
+title: "Makker på slæb"
 excerpt: "Tag et reb om maven. Lad en makker holde fast i det. Nu skal du sprinte fremad."
 instructions: "Tag et reb om maven. Lad en makker holde fast i det. Nu skal du sprinte fremad."
 permalink: /oevelse/makker-paa-slaeb/
@@ -7,9 +7,7 @@ redirect_from: /node/307
 id: 307
 language: da
 header:
-  overlay_image: /assets/images/exercises/makker-paa-slaeb-0.jpg
   teaser: /assets/images/exercises/makker-paa-slaeb-0-320.jpg
-  caption: *title
 tags: []
 categories: []
 training_type: [] 

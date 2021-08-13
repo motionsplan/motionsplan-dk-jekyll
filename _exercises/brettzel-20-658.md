@@ -1,5 +1,5 @@
 ---
-title: &title "Brettzel 2.0"
+title: "Brettzel 2.0"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/brettzel-20/
@@ -7,9 +7,7 @@ redirect_from: /node/658
 id: 658
 language: da
 header:
-  overlay_image: /assets/images/exercises/brettzel-20-0.jpg
   teaser: /assets/images/exercises/brettzel-20-0-320.jpg
-  caption: *title
 tags:
   - Strækøvelser
 categories: []

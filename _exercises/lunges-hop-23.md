@@ -1,5 +1,5 @@
 ---
-title: &title "Lunges hop"
+title: "Lunges hop"
 excerpt: "Stå med i bredstående med fødderne i forlængelse af hinanden. Gå ned i knæ og spring. I luften skifter du ben, så du lander med det andet ben forrest. Kan laves med eller uden håndvægte."
 instructions: "Stå med i bredstående med fødderne i forlængelse af hinanden. Gå ned i knæ og spring. I luften skifter du ben, så du lander med det andet ben forrest. Kan laves med eller uden håndvægte."
 permalink: /oevelse/lunges-hop/
@@ -7,9 +7,7 @@ redirect_from: /node/23
 id: 23
 language: da
 header:
-  overlay_image: /assets/images/exercises/lunges-hop-0.jpg
   teaser: /assets/images/exercises/lunges-hop-0-320.jpg
-  caption: *title
 tags:
   - Kondition og puls
   - Kondition

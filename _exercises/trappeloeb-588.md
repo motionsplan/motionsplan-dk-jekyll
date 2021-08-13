@@ -1,5 +1,5 @@
 ---
-title: &title "Trappeløb"
+title: "Trappeløb"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/trappeloeb/
@@ -9,9 +9,7 @@ redirect_from:
 id: 588
 language: da
 header:
-  overlay_image: /assets/images/exercises/trappeloeb-0.jpg
   teaser: /assets/images/exercises/trappeloeb-0-320.jpg
-  caption: *title
 tags:
   - Kondition og puls
 categories:

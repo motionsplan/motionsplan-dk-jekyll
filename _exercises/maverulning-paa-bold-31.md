@@ -1,5 +1,5 @@
 ---
-title: &title "Maverulning på bold"
+title: "Maverulning på bold"
 excerpt: "Liggende på en stor bold i lænden og armene bag nakken laver du almindelige maverulninger."
 instructions: "Liggende på en stor bold i lænden og armene bag nakken laver du almindelige maverulninger."
 permalink: /oevelse/maverulning-paa-bold/
@@ -7,9 +7,7 @@ redirect_from: /node/31
 id: 31
 language: da
 header:
-  overlay_image: /assets/images/exercises/maverulning-paa-bold-0.jpg
   teaser: /assets/images/exercises/maverulning-paa-bold-0-320.jpg
-  caption: *title
 tags:
   - swissball
   - Mave

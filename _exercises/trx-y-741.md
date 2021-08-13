@@ -1,5 +1,5 @@
 ---
-title: &title "TRX Y"
+title: "TRX Y"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/trx-y/

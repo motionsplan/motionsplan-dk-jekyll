@@ -1,5 +1,5 @@
 ---
-title: &title "Armstrækning, benene hævet"
+title: "Armstrækning, benene hævet"
 excerpt: "Placer fødderne på en bænk i en højde så din krop er vandret når du har strakte arme med hænderne i gulvet. Sænk dig derefter ned til gulvet og op igen. Hold kroppen helt strakt gennem hele øvelsen."
 instructions: "Placer fødderne på en bænk i en højde så din krop er vandret når du har strakte arme med hænderne i gulvet. Sænk dig derefter ned til gulvet og op igen. Hold kroppen helt strakt gennem hele øvelsen."
 permalink: /oevelse/armstraekning-med-benene-haevet/
@@ -7,9 +7,7 @@ redirect_from: /node/109
 id: 109
 language: da
 header:
-  overlay_image: /assets/images/exercises/armstraekning-med-benene-haevet-0.jpg
   teaser: /assets/images/exercises/armstraekning-med-benene-haevet-0-320.jpg
-  caption: *title
 tags:
   - kropsvægt
 categories: []

@@ -1,5 +1,5 @@
 ---
-title: &title "Trillebør"
+title: "Trillebør"
 excerpt: "Makkeren holder dine ben i hoftehøjde, mens du har hænderne på jorden og strakt krop. Du fungerer nu som en trillebør, som makkeren skubber fremad."
 instructions: "Makkeren holder dine ben i hoftehøjde, mens du har hænderne på jorden og strakt krop. Du fungerer nu som en trillebør, som makkeren skubber fremad."
 permalink: /oevelse/trilleboer/
@@ -7,9 +7,7 @@ redirect_from: /node/317
 id: 317
 language: da
 header:
-  overlay_image: /assets/images/exercises/trilleboer-0.jpg
   teaser: /assets/images/exercises/trilleboer-0-320.jpg
-  caption: *title
 tags:
   - kropsstamme
   - makker

@@ -1,5 +1,5 @@
 ---
-title: &title "Dips med makker"
+title: "Dips med makker"
 excerpt: "Parvis. Den ene støtter på armene og benene og skyder hoften op i vejret. Benene er rimeligt spredte. Den anden sætter armene på knæene og begynder at lave dips."
 instructions: "Parvis. Den ene støtter på armene og benene og skyder hoften op i vejret. Benene er rimeligt spredte. Den anden sætter armene på knæene og begynder at lave dips."
 permalink: /oevelse/dips-med-makker/

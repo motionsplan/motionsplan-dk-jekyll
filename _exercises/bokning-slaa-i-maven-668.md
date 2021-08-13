@@ -1,5 +1,5 @@
 ---
-title: &title "Bokning, slå i maven"
+title: "Bokning, slå i maven"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/bokning-slaa-i-maven/
@@ -7,9 +7,7 @@ redirect_from: /node/668
 id: 668
 language: da
 header:
-  overlay_image: /assets/images/exercises/bokning-slaa-i-maven-0.jpg
   teaser: /assets/images/exercises/bokning-slaa-i-maven-0-320.jpg
-  caption: *title
 tags:
   - Kondition og puls
   - Kondition
@@ -36,5 +34,3 @@ gallery:
     title: "Bokning, slå i maven"
 last_modified_at: 2015-04-07T11:58:18Z
 ---
-
-

@@ -1,5 +1,5 @@
 ---
-title: &title "Pulldown: Træk til bryst"
+title: "Pulldown: Træk til bryst"
 instructions: "Sæt dig i pulldown maskinen med neutral ryg og naturligt lændesvaj. Grib stangen med dit ønskede greb. Træk stangen ned til brystet. Kontrolleret tilbage til udgangspositionen."
 permalink: /oevelse/pulldown-traek-til-bryst/
 redirect_from:
@@ -9,9 +9,7 @@ redirect_from:
 id: 62
 language: da
 header:
-  overlay_image: /assets/images/exercises/traek-til-bryst-0.jpg
   teaser: /assets/images/exercises/traek-til-bryst-0-320.jpg
-  caption: *title
 tags:
   - Styrketræning
   - træk lodret

@@ -1,5 +1,5 @@
 ---
-title: &title "Halo med kettlebell"
+title: "Halo med kettlebell"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/halo-med-kettlebell/
@@ -7,9 +7,7 @@ redirect_from: /node/666
 id: 666
 language: da
 header:
-  overlay_image: /assets/images/exercises/halo-med-kettlebell-0.jpg
   teaser: /assets/images/exercises/halo-med-kettlebell-0-320.jpg
-  caption: *title
 tags:
   - Koordination og balance
   - Styrketræning
@@ -52,5 +50,3 @@ gallery:
     title: "Halo med kettlebell"
 last_modified_at: 2015-04-07T11:55:38Z
 ---
-
-

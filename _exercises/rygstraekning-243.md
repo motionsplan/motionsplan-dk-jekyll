@@ -1,5 +1,5 @@
 ---
-title: &title "Rygstrækning på skrå bænk"
+title: "Rygstrækning på skrå bænk"
 excerpt: "Lig på bænken, så du uhindret kan bøje i hoften. Bøj i hoften og hold igen indtil kroppen hænger næsten lodret ned. Bevæg dig tilbage til udgangspunktet. "
 instructions: "Lig på bænken, så du uhindret kan bøje i hoften. Bøj i hoften og hold igen indtil kroppen hænger næsten lodret ned. Bevæg dig tilbage til udgangspunktet. "
 permalink: /oevelse/rygstraekning/
@@ -7,9 +7,7 @@ redirect_from: /node/243
 id: 243
 language: da
 header:
-  overlay_image: /assets/images/exercises/rygstraekning-0.jpg
   teaser: /assets/images/exercises/rygstraekning-0-320.jpg
-  caption: *title
 tags:
   - Kropsstamme
   - Styrketræning

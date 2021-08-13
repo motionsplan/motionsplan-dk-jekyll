@@ -1,5 +1,5 @@
 ---
-title: &title "Fodledsrotationsøvelse"
+title: "Fodledsrotationsøvelse"
 excerpt: " Du stiller dig med fødderne parallelt, hvorefter du samler foreste del af fødderne. Efterfølgende samles hælene. Så fjernes den foreste del af fødderne igen fra hinanden, og hælene føres ud, så fødderne står parallelt. "
 instructions: " Du stiller dig med fødderne parallelt, hvorefter du samler foreste del af fødderne. Efterfølgende samles hælene. Så fjernes den foreste del af fødderne igen fra hinanden, og hælene føres ud, så fødderne står parallelt. "
 permalink: /oevelse/fodledsrotationsoevelse/

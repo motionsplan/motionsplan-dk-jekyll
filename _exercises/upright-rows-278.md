@@ -1,5 +1,5 @@
 ---
-title: &title "Upright rows"
+title: "Upright rows"
 excerpt: "Stå i god balance med stangen hængende i armene. Herfra hiver du stangen op til hagen. Stangen skal være så tæt på kroppen som muligt hele tiden."
 instructions: "Stå i god balance med stangen hængende i armene. Herfra hiver du stangen op til hagen. Stangen skal være så tæt på kroppen som muligt hele tiden."
 permalink: /oevelse/upright-rows/
@@ -7,9 +7,7 @@ redirect_from: /node/278
 id: 278
 language: da
 header:
-  overlay_image: /assets/images/exercises/upright-rows-0.jpg
   teaser: /assets/images/exercises/upright-rows-0-320.jpg
-  caption: *title
 tags: []
 categories: []
 training_type: [] 

@@ -1,5 +1,5 @@
 ---
-title: &title "Pull up med makkere"
+title: "Pull up med makkere"
 excerpt: "To personer holder en pind imellem sig ud for brystkassen. Hold albuerne tæt sammen, så er det lettest at holde. Den tredje person hænger sig i pinden og laver kropshævninger."
 instructions: "To personer holder en pind imellem sig ud for brystkassen. Hold albuerne tæt sammen, så er det lettest at holde. Den tredje person hænger sig i pinden og laver kropshævninger."
 permalink: /oevelse/pull-med-makkere/
@@ -7,9 +7,7 @@ redirect_from: /node/548
 id: 548
 language: da
 header:
-  overlay_image: /assets/images/exercises/pull-med-makkere-0.jpg
   teaser: /assets/images/exercises/pull-med-makkere-0-320.jpg
-  caption: *title
 tags:
   - Træk
 categories:

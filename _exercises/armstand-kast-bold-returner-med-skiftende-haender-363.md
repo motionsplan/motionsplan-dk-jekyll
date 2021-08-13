@@ -1,5 +1,5 @@
 ---
-title: &title "Armstand, grib bold, returner bolden."
+title: "Armstand, grib bold, returner bolden."
 excerpt: "Stil dig i udgangsposition til armstand. Få en makker til at kaste en bold til dig, som du griber og returnerer. Som en udvidelse kan du returnere bolden med skiftevis højre og venstre hånd. Bolden skal ikke kastes til den hånd den skal gribes med. Det vil være fint med krydsbevægelser. Fx gribe ind foran kroppen."
 instructions: "Stil dig i udgangsposition til armstand. Få en makker til at kaste en bold til dig, som du griber og returnerer. Som en udvidelse kan du returnere bolden med skiftevis højre og venstre hånd. Bolden skal ikke kastes til den hånd den skal gribes med. Det vil være fint med krydsbevægelser. Fx gribe ind foran kroppen."
 permalink: /oevelse/armstand-kast-bold-returner-med-skiftende-haender/
