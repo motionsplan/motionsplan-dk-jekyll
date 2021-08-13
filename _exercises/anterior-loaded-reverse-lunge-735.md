@@ -1,7 +1,7 @@
 ---
 title: "Anterior loaded reverse lunge"
-excerpt: ""
-instructions: ""
+excerpt: "Hav en vægtstang i front rack greb. Herfra træder du skiftevis et skridt tilbage på hvert ben."
+instructions: "Hav en vægtstang i front rack greb. Herfra træder du skiftevis et skridt tilbage på hvert ben."
 permalink: /oevelse/anterior-loaded-reverse-lunge/
 redirect_from: /node/735
 id: 735

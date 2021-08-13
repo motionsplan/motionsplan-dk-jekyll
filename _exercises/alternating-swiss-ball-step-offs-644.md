@@ -1,7 +1,7 @@
 ---
 title: "Alternating swiss ball step offs"
-excerpt: ""
-instructions: ""
+excerpt: "Hav begge fødder på en stor træningsbold, mens armene støtter på jorden. Skiftevis tager du et strakt ben ud til siden af bolden, mens du holder kroppen strakt."
+instructions: "Hav begge fødder på en stor træningsbold, mens armene støtter på jorden. Skiftevis tager du et strakt ben ud til siden af bolden, mens du holder kroppen strakt."
 permalink: /oevelse/alternating-swiss-ball-step-offs/
 redirect_from: /node/644
 id: 644

@@ -14,7 +14,7 @@ categories:
   - Hård styrkeøvelse
 training_type: []
 training_focus: []
-equipment:
+equipment: []
 muscle_group: []
 alternative_titles: []
 gallery:
