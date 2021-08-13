@@ -41,7 +41,7 @@ Armstrækning er en god øvelse for bryst, triceps og kropsstammen. Der er mange
 
 Hænderne placeres i gulvet ud for brystbenet og skuldrene er sænkede. Vi anbefaler at du bruger den afstand mellem hænderne, som du ville bruge, hvis du skulle skubbe noget.
 
-**Respektér skuldrenes bevægelighed.** Inden du begynder armstrækninger, kan det være en god ide at tjekke, hvor bevægelig du er i skulerleddet. De fleste ville kunne få brystet og næsen tæt på gulvet samtidig.
+**Respektér skuldrenes bevægelighed.** Inden du begynder armstrækninger, kan det være en god ide at tjekke, hvor bevægelig du er i skulderleddet. De fleste ville kunne få brystet og næsen tæt på gulvet samtidig.
 
 **Arbejd i fuldt bevægeudslag.** Sørg for at komme så tæt på gulvet som muligt, og stræk armene helt, når du går op igen. Skulderbladene skal arbejde på siden af brystkassen, og ved at gå helt op aktiverer du musklerne, der er ansvarlige for at holde skulderbladet inde også aktiveres.
 
