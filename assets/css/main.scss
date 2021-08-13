@@ -308,4 +308,28 @@ meter::-webkit-meter-optimum-value {
       margin-left: gutter(1 of 12);
     }
   }
+    
+    output {
+        line-height: normal;
+        vertical-align: baseline;
+        *vertical-align: middle;
+        box-sizing: border-box;
+        font-family: $sans-serif;
+        display: inline-block;
+        width: 100%;
+        padding: 0.25em;
+        margin-bottom: 0.5em;
+        color: $text-color;
+        background-color: $background-color;
+        border: $border-color;
+        border-radius: $border-radius;
+        box-shadow: $box-shadow;
+        height: 1.8em;
+    }
+    
+    label {
+        output {
+            display: block;
+        }
+    }
 }
