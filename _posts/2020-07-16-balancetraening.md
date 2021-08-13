@@ -14,6 +14,8 @@ category:
   - Viden om
   - Træning
 last_modified_at: 2021-02-18T08:39:32Z
+sidebar:
+  nav: exercises
 ---
 
 Balancetræning bør være en del af din træning, da træning af balance forebygger skader. Vi har kigget på, hvad balance er, og hvordan du træner din balance mest effektivt med balanceøvelser?

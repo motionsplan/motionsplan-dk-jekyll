@@ -12,6 +12,8 @@ excerpt: "Dine baller bliver trænet i mange forskellige bevægelser. Du træner
 categories:
   - Træningsøvelser
 breadcrumbs: true
+sidebar:
+  nav: exercises
 ---
 
 Dine baller bliver trænet i mange forskellige bevægelser. Du træner ballerne mest effektivt ved at lave en udstrækning af hoften og en udadrotation i hoften.

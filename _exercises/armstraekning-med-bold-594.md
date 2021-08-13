@@ -21,10 +21,11 @@ tags:
   - Core
   - Mave
 categories:
+  - Armstrækninger
   - Pres
-training_type: 
+training_type:
   - Styrketræning
-training_focus: 
+training_focus:
   - skub vandret
   - kropsstamme
 equipment:

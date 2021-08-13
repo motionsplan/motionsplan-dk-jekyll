@@ -13,11 +13,12 @@ tags:
   - Strækøvelser
   - kropsvægt
   - Baglår
-categories: []
-training_type: 
+categories:
+  - Mobilitet
+training_type:
   - Mobilisering
   - Strækøvelser
-training_focus: 
+training_focus: []
 equipment:
   - kropsvægt
 muscle_group:

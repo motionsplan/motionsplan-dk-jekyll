@@ -11,7 +11,8 @@ language: da
 tags:
   - kropsstamme
   - kropsvægt
-categories: []
+categories:
+  - Kropsstammen
 training_type:
 training_focus:
   - kropsstamme

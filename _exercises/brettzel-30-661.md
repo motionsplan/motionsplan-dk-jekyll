@@ -10,10 +10,11 @@ header:
   teaser: /assets/images/exercises/brettzel-30-0-320.jpg
 tags:
   - Strækøvelser
-categories: []
-training_type: 
+categories:
+  - Mobilitet
+training_type:
   - Strækøvelser
-training_focus: 
+training_focus:
 equipment:
 muscle_group: []
 alternative_titles: []

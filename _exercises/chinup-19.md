@@ -20,9 +20,11 @@ tags:
   - cirkeltræning
 categories:
   - Træk
-training_type: 
+  - Armøvelser
+  - Kropshævninger
+training_type:
   - Styrketræning
-training_focus: 
+training_focus:
   - træk lodret
 equipment:
   - bar

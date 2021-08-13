@@ -9,8 +9,9 @@ language: da
 header:
   teaser: /assets/images/exercises/udstraekning-af-rygmusklerne-0-320.jpg
 tags: []
-categories: []
-training_type: [] 
+categories:
+  - Strækøvelser
+training_type: []
 training_focus: []
 equipment: []
 muscle_group: []

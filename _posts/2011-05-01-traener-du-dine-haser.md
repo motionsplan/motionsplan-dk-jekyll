@@ -20,15 +20,17 @@ gallery:
   - image_path: /assets/images/hip_extensors.jpg
     alt: Musklerne på baglåret er med til at strække hoften
     title: Musklerne på baglåret er med til at strække hoften
+sidebar:
+  nav: exercises
 ---
 
-Rigtig mange glemmer træningen af deres baglår. Jeg har samlet nogle øvelser til træning af baglåret og haserne, som er med til at mindske risikoen for skader (fx fibersprængninger) og øge dit præstationspotentiale. 
+Rigtig mange glemmer træningen af deres baglår. Jeg har samlet nogle øvelser til træning af baglåret og haserne, som er med til at mindske risikoen for skader (fx fibersprængninger) og øge dit præstationspotentiale.
 
 Træner du dit baglår og dine haser? Det tror jeg nok du går, så næste gang du går i styrkerummet starter træningen af haserne.
 
 ## Tager dit program til baglåret højde for anatomien?
 
-Ofte bliver baglåret ikke trænet tilstrækkeligt, og ofte heller ikke på den måde baglårsmusklen bruges. 
+Ofte bliver baglåret ikke trænet tilstrækkeligt, og ofte heller ikke på den måde baglårsmusklen bruges.
 
 Lad os dykke lidt ned i anatomien i baglåret.
 
@@ -46,7 +48,7 @@ Det er vigtigt at forstå, at musklerne i baglåret har flere funktioner - og at
 
 ## Hvordan bør jeg så træne baglåret?
 
-De anatomiske observationer har naturligvis betydning for, hvordan du bør træne baglårene. 
+De anatomiske observationer har naturligvis betydning for, hvordan du bør træne baglårene.
 
 Vi vil sørge for at træne både evnen til at lave hofteudstrækning og til at bøje knæet. Vi kunne dele  træningen op i to træningspas. Når du laver træningspassene, skal du være opmærksom på følgende:
 
@@ -116,7 +118,7 @@ Du kan naturligvis bruge øvelserne ovenfor, men lad os også dykke lidt ned i v
 
 Horst et al (2015) har fundet ud af, at _Nordic Hamstring_-øvelsen er en rigtig god måde at forebygge baglårsskader for fodboldspillere, men det ikke reducerede alvorligheden af skaden.
 
-_Nordic Hamstring_ træner imidlertid kun den knæflekterende del af baglårsmusklerne. Derfor er det vigtigt, at du også vælger nogle af de andre øvelser til baglåret for at fokusere på hofteudstrækket for at få en komplet træning af baglårene. 
+_Nordic Hamstring_ træner imidlertid kun den knæflekterende del af baglårsmusklerne. Derfor er det vigtigt, at du også vælger nogle af de andre øvelser til baglåret for at fokusere på hofteudstrækket for at få en komplet træning af baglårene.
 
 Tsaklis et al (2015) undersøgte forskellige øvelser i forhold til intensitet og aktivering af baglårsmusklerne. De undersøgte lunge, dødløft, swings, øvelser med TRX, Nordic hamstring, øvelser med fitball og en slidebevægelse.
 

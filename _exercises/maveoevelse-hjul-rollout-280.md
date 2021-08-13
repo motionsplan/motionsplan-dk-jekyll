@@ -14,9 +14,10 @@ header:
 tags:
   - kropsstamme
   - hjul
-categories: []
+categories:
+  - Maveøvelser
 training_type: []
-training_focus: 
+training_focus:
   - kropsstamme
 equipment:
   - hjul

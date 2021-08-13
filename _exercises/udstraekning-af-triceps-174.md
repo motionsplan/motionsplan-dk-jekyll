@@ -13,9 +13,9 @@ tags:
 categories:
   - Strækøvelser
   - Udstrækning
-training_type: 
+training_type:
   - Strækøvelser
-training_focus: 
+training_focus:
 equipment:
 muscle_group:
   - Triceps

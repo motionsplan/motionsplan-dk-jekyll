@@ -13,6 +13,8 @@ header:
 categories:
   - Træningsøvelser
 breadcrumbs: true
+sidebar:
+  nav: exercises
 ---
 
 Vi har samlet alle de effektive maveøvelser her. Vi synes målet med din mavetræning skal være at få en stærk core, men øvelserne er også perfekte og udfordrende, når du arbejder på en flad mave, markeret sixpack eller at stramme op.

@@ -9,14 +9,15 @@ language: da
 tags:
   - Self Myofascial Release (SMR)
   - foamroller
-categories: []
-training_type: 
+categories:
+  - Foamrolling
+training_type:
   - Self Myofascial Release (SMR)
-training_focus: 
+training_focus: []
 equipment:
   - foamroller
 muscle_group: []
 alternative_titles: []
-gallery:
+gallery: []
 last_modified_at: 2016-10-14T11:09:54Z
 ---

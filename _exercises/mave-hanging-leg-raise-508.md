@@ -9,10 +9,11 @@ language: da
 header:
   teaser: /assets/images/exercises/mave-hanging-leg-raise-0-320.jpg
 tags: []
-categories: []
-training_type: [] 
+categories:
+  - Maveøvelser
+training_type: []
 training_focus: []
-equipment:
+equipment: []
 muscle_group: []
 alternative_titles: []
 gallery:

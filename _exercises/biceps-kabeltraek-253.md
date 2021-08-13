@@ -11,15 +11,13 @@ header:
 tags:
   - kabeltræk
   - fitnessinstruktør
-categories: []
-training_type: [] 
+categories:
+  - Armøvelser
+training_type: []
 training_focus: []
 equipment:
   - kabeltræk
-muscle_group:
-  - 
-  - 
-  - 
+muscle_group: []
 alternative_titles:
   - Albuebøj i kabel
   - albuebøj

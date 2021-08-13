@@ -12,6 +12,8 @@ excerpt: "Du kommer naturligvis ikke uden om bænkpres og varianter af bænkpres
 categories:
   - Træningsøvelser
 breadcrumbs: true
+sidebar:
+  nav: exercises
 ---
 
 Du kommer naturligvis ikke uden om bænkpres og varianter af bænkpres med både vægtstang og håndvægte, når du vil finde øvelser til brystet. Brysttræning og styrketræning af brystet involverer også ofte skulderen og triceps.

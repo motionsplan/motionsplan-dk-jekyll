@@ -9,8 +9,9 @@ language: da
 header:
   teaser: /assets/images/exercises/maveboejning-0-320.jpg
 tags: []
-categories: []
-training_type: [] 
+categories:
+  - Maveøvelser
+training_type: []
 training_focus: []
 equipment: []
 muscle_group: []

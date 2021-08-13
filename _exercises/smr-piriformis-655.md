@@ -12,10 +12,11 @@ tags:
   - Self Myofascial Release (SMR)
   - lacrosse bold
   - Baller
-categories: []
-training_type: 
+categories:
+  - SMR
+training_type:
   - Self Myofascial Release (SMR)
-training_focus: 
+training_focus:
 equipment:
   - lacrosse bold
 muscle_group:

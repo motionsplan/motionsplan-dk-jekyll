@@ -12,6 +12,8 @@ excerpt: "Du kan træne ryggen ved rygøvelserne dødløft, rows og pullups, men
 categories:
   - Træningsøvelser
 breadcrumbs: true
+sidebar:
+  nav: exercises
 ---
 
 Du kan træne ryggen ved rygøvelserne dødløft, rows og pullups, men der er mange andre styrketræningsøvelser for ryggen. Ryggen er stærk og skal trænes på mange måder.

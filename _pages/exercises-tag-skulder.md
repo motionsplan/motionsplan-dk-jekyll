@@ -12,6 +12,8 @@ excerpt: "Skuldertræning kan bestå af forskellige skulder øvelser. Vi har sam
 categories:
   - Træningsøvelser
 breadcrumbs: true
+sidebar:
+  nav: exercises
 ---
 
 Skuldertræning skal tage højde for et kompliceret led, og du kan vælge forskellige øvelser til at træne din skulder. Træning af skulderen laves med øvelser, hvor du løfter armene over hovedet og ud til siden eller presser fremad. Vi har samlet de bedste skulderøvelser til træning af dine skuldermuskler.

@@ -13,7 +13,7 @@ tags:
   - maskine
 categories:
   - Maveøvelser
-training_type:
+training_type: []
 training_focus:
   - kropsstamme
 equipment:

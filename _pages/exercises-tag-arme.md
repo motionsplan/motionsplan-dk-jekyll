@@ -13,6 +13,8 @@ excerpt: "Vi har samlet det bedste og mest effektive armøvelser på en side her
 categories:
   - Træningsøvelser
 breadcrumbs: true
+sidebar:
+  nav: exercises
 ---
 
 Vi har samlet det bedste og mest effektive armøvelser på en side her. Der er både øvelser til biceps og triceps, men også øvelser der udfordrer underarmene.

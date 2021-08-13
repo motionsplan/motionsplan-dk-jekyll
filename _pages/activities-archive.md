@@ -99,6 +99,12 @@ Udstrækning og udspænding bliver brugt i rigtig mange idrætsgrene. Udstrækni
 
 [Læs mere om strækøvelser og smidighedstræning]({% link _posts/2020-07-08-udstraekning.md %})
 
+## Foamrolling og lacrossbolde
+
+Foamrolling med en foam roller har til formål at løsne spændte og ømme muskler. Du kan også bruge en lacrossebold til at løsne trigger points. Når du afspænder musklerne ved at bearbejde dine trigger points, så kan du ofte opleve at bevæge dig mere frigjort.
+
+[Læs mere om foamrolling og self-myofacial release](/foamrolling-foamroller-lacrossebolde/).
+
 ## Artikler om træningsøvelser
 
 <div class="feature__wrapper">

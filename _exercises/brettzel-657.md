@@ -13,10 +13,11 @@ tags:
   - Baller
   - Forlår
   - Øvre ryg
-categories: []
-training_type: 
+categories:
+  - Mobilitet
+training_type:
   - Strækøvelser
-training_focus: 
+training_focus:
 equipment:
 muscle_group:
   - Baller

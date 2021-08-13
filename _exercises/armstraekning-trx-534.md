@@ -15,6 +15,7 @@ tags:
   - trx
 categories:
   - Pres
+  - Armstrækninger
 training_type: []
 training_focus: []
 equipment:

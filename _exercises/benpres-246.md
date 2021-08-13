@@ -16,9 +16,10 @@ tags:
   - fitnessinstruktør
 categories:
   - Ben
-training_type: 
+  - Benøvelser
+training_type:
   - Styrketræning
-training_focus: 
+training_focus:
   - knædomineret
 equipment:
   - maskine
@@ -62,7 +63,7 @@ feature_row:
     btn_class: btn--success
 ---
 
-Benpres hedder også leg extension eller leg press på engelsk. Benpres foregår i maskine og er ikke så teknisk krævende. Derfor giver benpres mulighed for at udføre tung bentræning eller køre med en høj udmattelsesgrad under relativt sikre forhold. 
+Benpres hedder også leg extension eller leg press på engelsk. Benpres foregår i maskine og er ikke så teknisk krævende. Derfor giver benpres mulighed for at udføre tung bentræning eller køre med en høj udmattelsesgrad under relativt sikre forhold.
 
 Benpres kan også bruges som et godt alternativ til dig, der måske ikke kan udføre almindelige squat eller lunges. En af fordelene ved benpres er, at den ikke stiller høje krav til maven og ryggen til at stabilisere, så det bliver primært benene, der er den begrænsende faktor.
 
@@ -76,7 +77,7 @@ Der findes mange forskellige benpres-maskiner. I videoen kan du se instruktion i
 
 ## Indstilling af benpresmaskinen
 
-Selvom benpres er en relativt simpel øvelse at udføre, så skal du stadig være opmærksom på din teknik og indstilling af maskinen. 
+Selvom benpres er en relativt simpel øvelse at udføre, så skal du stadig være opmærksom på din teknik og indstilling af maskinen.
 
 Benpres-maskinen skal justeres så den passer til dig. Det gøres forskelligt på forskellige maskiner, så spørg der hvor du træner. Du skal tænke på følgende:
 
@@ -92,15 +93,15 @@ Det kan være en god ide at nedskrive indstillingerne på dit træningsprogram, 
 
 Placer fødderne symmetrisk på fodpladen og kør til du har strakt ben. Hold en ret ryg gennem hele bevægelsen og tjek at dit bækken bliver på samme sted. Hvis vinklen i dit bækken ændres lidt undervejs i bevægelsen, er maskinen indstillet forkert.
 
-## Hvilke muskler bruger du i benpres? 
+## Hvilke muskler bruger du i benpres?
 
 Hvilke muskler du træner afhænger naturligvis også af, hvilken maskine, du benytter, og hvordan du benytter den.
 
 Ved at ændre placeringen af fødderne på fodpladen kan belastningsgraden af de enkelte muskelgrupper varieres.
 
 - **Fødderne højt på pladen**. Har du fødderne højt oppe på pladen i benpres, så fokuserer øvelsen mere på baller og baglår, da bevægelsen er lidt mere hofteekstension end knæekstension.
-- **Fødderne lavt på pladen**. Fokus er mere på forlårene, når du har fødderne længere nede på pladen, da du kan arbejde med større knæfleksion og derved større _range of motion_ for knæene i bevægelsen. 
-- En **bred fodstilling** giver øget belastning på hofteledsadduktorerne. 
+- **Fødderne lavt på pladen**. Fokus er mere på forlårene, når du har fødderne længere nede på pladen, da du kan arbejde med større knæfleksion og derved større _range of motion_ for knæene i bevægelsen.
+- En **bred fodstilling** giver øget belastning på hofteledsadduktorerne.
 
 Hvis du sammenligner bevægelsen biomekaniske med fx squat, så er bevægeudslaget i hoften mindre. Det betyder, at hoftenudstrækkerne ikke trænes så meget ved benpres. Typisk vil du sidde i en stilling, hvor du har en bøjet hofte. Det samme gælder i øvrigt indersiden af lårene og den stabiliserende muskulatur omkring lysken.
 
@@ -113,7 +114,7 @@ Silva et al (2008) har undersøgt aktiveringen i lårmusklerne i forskellige ben
 
 Med benpres gælder det samme som alle andre øvelser. Dosering er det vigtigste, og antallet af gentagelser skal passe sammen med belastningen.
 
-Det er fristende for mange at gå ind i en benpresmaskine og sætte virkelig meget vægt på for at se, hvad de kan klare. Men det er smartere at bygge træningen stille og roligt op. 
+Det er fristende for mange at gå ind i en benpresmaskine og sætte virkelig meget vægt på for at se, hvad de kan klare. Men det er smartere at bygge træningen stille og roligt op.
 
 ## Referencer til benpres og leg extension
 

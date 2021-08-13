@@ -46,6 +46,8 @@ feature_row:
     btn_label: "Tjek prisen"
     btn_class: "btn--warning"
     rel: sponsored nofollow noopener
+sidebar:
+  nav: exercises
 ---
 
 Udstrækning og udspænding bliver brugt i rigtig mange idrætsgrene. Udstrækningsøvelser bliver ofte brugt for at blive smidigere, så de kaldes også ofte smidighedsøvelser. Vi kigger på, hvad der sker i kroppen, når vi strækker ud og hvilket forskellige typer udstrækning, der findes. Endelig giver vi nogle forslag til strækøvelser.

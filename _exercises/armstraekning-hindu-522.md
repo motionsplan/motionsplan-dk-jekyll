@@ -16,8 +16,9 @@ tags:
   - kropsvægt
 categories:
   - Hård styrkeøvelse
-training_type: 
-training_focus: 
+  - Armstrækninger
+training_type:
+training_focus:
   - kropsstamme
 equipment:
   - kropsvægt

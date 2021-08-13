@@ -31,6 +31,10 @@ Benøvelser:
   title: Ben
   url: /benoevelser/
 
+Baglårsøvelser:
+  title: Baglår
+  url: /artikel/traener-du-dine-haser/
+
 Balleøvelser:
   title: Balle
   url: /balleoevelser/
@@ -39,8 +43,12 @@ Balanceøvelser:
   title: Balance
   url: /balance/
 
-Udstrækningsøvelser:
-  title: Udstrækningsøvelser
+Strækøvelser:
+  title: Strækøvelser
+  url: /udstraekning-udspaending/
+
+Mobilitet:
+  title: Mobilitet
   url: /udstraekning-udspaending/
 
 Armstrækninger:
@@ -50,6 +58,15 @@ Armstrækninger:
 Kropshævninger:
   title: Kropshævninger
   url: /chinup-vs-pullup/
+
+Foamrolling:
+  title: Foamrolling
+  url: /foamrolling-foamroller-lacrossebolde/
+
+SMR:
+  title: SMR
+  url: /foamrolling-foamroller-lacrossebolde/
+
 
 # Anatomi
 

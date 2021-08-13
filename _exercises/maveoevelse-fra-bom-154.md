@@ -10,8 +10,9 @@ header:
   teaser: /assets/images/exercises/maveoevelse-fra-bom-0-320.jpg
 tags:
   - bar
-categories: []
-training_type: [] 
+categories:
+  - Maveøvelser
+training_type: []
 training_focus: []
 equipment:
   - bar
