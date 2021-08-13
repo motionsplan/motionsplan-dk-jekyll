@@ -1,7 +1,9 @@
 ---
 layout: single
 title: Motionsplan er nu reklamefri
-permalink: /ads/off/hioewroijfadsleiwrlva2342j/
+permalink: /ads/off/
+redirect_from:
+  - /ads/off/hioewroijfadsleiwrlva2342j/
 author_profile: true
 sitemap: false
 ---
