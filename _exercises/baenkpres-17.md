@@ -20,6 +20,7 @@ tags:
 categories:
   - Træningsøvelser
   - Brystøvelser
+  - Bryst
   - Pres
 training_type:
   - Styrketræning
