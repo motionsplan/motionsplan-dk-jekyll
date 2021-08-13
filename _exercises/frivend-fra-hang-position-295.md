@@ -1,5 +1,5 @@
 ---
-title: &title "Frivend, fra hang position"
+title: "Frivend, fra hang position"
 excerpt: "Start med vægten let foroverbøjet. Fra denne position skal du med en eksplosiv udstrækning i hoften sætte fart i vægtstangen, så du kan gå under vægten og gribe den på brystkassen med albuerne pegende frem. "
 instructions: "Start med vægten let foroverbøjet. Fra denne position skal du med en eksplosiv udstrækning i hoften sætte fart i vægtstangen, så du kan gå under vægten og gribe den på brystkassen med albuerne pegende frem. "
 permalink: /oevelse/frivend-fra-hang-position/
@@ -7,9 +7,7 @@ redirect_from: /node/295
 id: 295
 language: da
 header:
-  overlay_image: /assets/images/exercises/frivend-fra-hang-position-0.jpg
   teaser: /assets/images/exercises/frivend-fra-hang-position-0-320.jpg
-  caption: *title
 tags:
   - hoftedomineret
   - vægtstang

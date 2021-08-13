@@ -1,5 +1,5 @@
 ---
-title: &title "Bent over rows"
+title: "Bent over rows"
 seo_title: "Bent over rows (BOR) | Træningsøvelse"
 instructions: "I bent over rows står man i en let bredstående stilling med fødderne og foroverbøjet. Grib fat i stangen med enten med overhåndsgreb eller underhåndsgreb. Hældningen i overkroppen er lige omkring vandret. Træk vægtstangen op mod navlen eller brystet. Forestil dig at du klemmer noget sammen mellem skulderbladene samtidig med, at du trækker vægten op mod maven. Forestil dig at vægten trække lige op og ned."
 permalink: /oevelse/bent-over-rows-bor/
@@ -9,9 +9,7 @@ redirect_from:
 id: 63
 language: da
 header:
-  overlay_image: /assets/images/exercises/roning-foroverboejet-0.jpg
   teaser: /assets/images/exercises/roning-foroverboejet-0-320.jpg
-  caption: *title
 tags:
   - Træk
   - Styrketræning

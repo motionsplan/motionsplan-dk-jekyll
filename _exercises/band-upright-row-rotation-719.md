@@ -1,5 +1,5 @@
 ---
-title: &title "Band Upright Row to Rotation"
+title: "Band Upright Row to Rotation"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/band-upright-row-rotation/

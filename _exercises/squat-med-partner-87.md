@@ -1,5 +1,5 @@
 ---
-title: &title "Squat med makker"
+title: "Squat med makker"
 excerpt: "Gå sammen tre om en planke. To mand holder planken i enderne, mens den sidste stiller sig op på planken og holder balancen. De to der holder planken laver dybe benbøjninger."
 instructions: "Gå sammen tre om en planke. To mand holder planken i enderne, mens den sidste stiller sig op på planken og holder balancen. De to der holder planken laver dybe benbøjninger."
 permalink: /oevelse/squat-med-partner/
@@ -7,9 +7,7 @@ redirect_from: /node/87
 id: 87
 language: da
 header:
-  overlay_image: /assets/images/exercises/squat-med-partner-0.jpg
   teaser: /assets/images/exercises/squat-med-partner-0-320.jpg
-  caption: *title
 tags:
   - Ben
   - knædomineret

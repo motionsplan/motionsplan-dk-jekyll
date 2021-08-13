@@ -1,5 +1,5 @@
 ---
-title: &title "Medicinbold slams"
+title: "Medicinbold slams"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/medicinbold-slams/
@@ -7,9 +7,7 @@ redirect_from: /node/606
 id: 606
 language: da
 header:
-  overlay_image: /assets/images/exercises/medicinbold-slams-0.jpg
   teaser: /assets/images/exercises/medicinbold-slams-0-320.jpg
-  caption: *title
 tags:
   - Træk
   - Styrketræning
@@ -52,5 +50,3 @@ gallery:
     title: "Medicinbold slams"
 last_modified_at: 2014-10-30T10:18:20Z
 ---
-
-

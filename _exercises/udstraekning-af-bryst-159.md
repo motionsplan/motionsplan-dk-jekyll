@@ -1,5 +1,5 @@
 ---
-title: &title "Udstrækning af bryst"
+title: "Udstrækning af bryst"
 excerpt: "Udstrækning af brystmusklen. En parøvelse."
 instructions: "Udstrækning af brystmusklen. En parøvelse."
 permalink: /oevelse/udstraekning-af-bryst/
@@ -7,9 +7,7 @@ redirect_from: /node/159
 id: 159
 language: da
 header:
-  overlay_image: /assets/images/exercises/udstraekning-af-bryst-0.jpg
   teaser: /assets/images/exercises/udstraekning-af-bryst-0-320.jpg
-  caption: *title
 tags:
   - Parøvelser
   - Strækøvelser

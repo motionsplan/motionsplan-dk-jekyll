@@ -1,5 +1,5 @@
 ---
-title: &title "Fire hydrant"
+title: "Fire hydrant"
 excerpt: "Støt på hænder og knæ og tæer. Løft langsomt det ene knæ ud til siden, indtil underbenet er parallelt med jorden. Sænk det langsomt igen."
 instructions: "Støt på hænder og knæ og tæer. Løft langsomt det ene knæ ud til siden, indtil underbenet er parallelt med jorden. Sænk det langsomt igen."
 permalink: /oevelse/fire-hydrant/
@@ -7,9 +7,7 @@ redirect_from: /node/147
 id: 147
 language: da
 header:
-  overlay_image: /assets/images/exercises/fire-hydrant-0.jpg
   teaser: /assets/images/exercises/fire-hydrant-0-320.jpg
-  caption: *title
 tags:
   - kropsstamme
   - kropsvægt

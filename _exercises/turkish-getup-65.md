@@ -1,5 +1,5 @@
 ---
-title: &title "Turkish getup"
+title: "Turkish getup"
 excerpt: "Lig på ryggen. Hold en vægt i strakt arm. Herfra skal du rejse dig op, mens du holder vægten over hovedet i strakt arm hele tiden. Læg dig ned igen."
 instructions: "Lig på ryggen. Hold en vægt i strakt arm. Herfra skal du rejse dig op, mens du holder vægten over hovedet i strakt arm hele tiden. Læg dig ned igen."
 permalink: /oevelse/turkish-getup/
@@ -7,9 +7,7 @@ redirect_from: /node/65
 id: 65
 language: da
 header:
-  overlay_image: /assets/images/exercises/turkish-getup-0.jpg
   teaser: /assets/images/exercises/turkish-getup-0-320.jpg
-  caption: *title
 tags:
   - Helkropsøvelse
   - Styrketræning

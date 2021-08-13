@@ -1,5 +1,5 @@
 ---
-title: &title "Copenhagen Plank"
+title: "Copenhagen Plank"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/copenhagen-plank/
@@ -9,13 +9,11 @@ video:
   provider: youtube
   id: n5WeYzi7Dqo
 #header:
-#  overlay_image: /assets/images/exercises/180-jump-0.jpg
 #  teaser: /assets/images/exercises/180-jump-0-320.jpg
 #  actions:
 #    - label: '<i class="far fa-file-pdf" aria-hidden="true"></i>'
 #      url: "/assets/pdf/exercises/180-jump-30.pdf"
-#  caption: *title
-tags:
+#tags:
 #  - kropsvægt
 categories: []
 training_type: [] 

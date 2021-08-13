@@ -1,5 +1,5 @@
 ---
-title: &title "Drop and touch"
+title: "Drop and touch"
 excerpt: "Fra stående rækker du med den ene hånd frem, mens du fører det andet ben bagud, så du til sidst står i et T."
 instructions: "Fra stående rækker du med den ene hånd frem, mens du fører det andet ben bagud, så du til sidst står i et T."
 permalink: /oevelse/drop-and-touch/
@@ -7,9 +7,7 @@ redirect_from: /node/41
 id: 41
 language: da
 header:
-  overlay_image: /assets/images/exercises/drop-and-touch-0.jpg
   teaser: /assets/images/exercises/drop-and-touch-0-320.jpg
-  caption: *title
 tags:
   - Koordination og balance
 categories:

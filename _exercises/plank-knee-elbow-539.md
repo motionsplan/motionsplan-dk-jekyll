@@ -1,5 +1,5 @@
 ---
-title: &title "Planken, knee to elbow"
+title: "Planken, knee to elbow"
 excerpt: "Stil dig som du skulle lave en armstrækning. Spænd op i core. Træk skiftevis højre knæ til højre albue og venstre knæ til venstre albue. "
 instructions: "Stil dig som du skulle lave en armstrækning. Spænd op i core. Træk skiftevis højre knæ til højre albue og venstre knæ til venstre albue. "
 permalink: /oevelse/plank-knee-elbow/
@@ -7,9 +7,7 @@ redirect_from: /node/539
 id: 539
 language: da
 header:
-  overlay_image: /assets/images/exercises/plank-knee-elbow-0.jpg
   teaser: /assets/images/exercises/plank-knee-elbow-0-320.jpg
-  caption: *title
 tags:
   - Kropsstamme
   - Styrketræning
@@ -47,5 +45,3 @@ gallery:
     title: "Planken, knee to elbow "
 last_modified_at: 2014-10-12T22:03:14Z
 ---
-
-

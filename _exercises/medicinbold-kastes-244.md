@@ -1,5 +1,5 @@
 ---
-title: &title "Medicinbold i væg"
+title: "Medicinbold i væg"
 excerpt: "Kast medicinbolden ind i væggen så hårdt som du kan og grib den igen, inden den rammer jorden."
 instructions: "Kast medicinbolden ind i væggen så hårdt som du kan og grib den igen, inden den rammer jorden."
 permalink: /oevelse/medicinbold-kastes/
@@ -7,9 +7,7 @@ redirect_from: /node/244
 id: 244
 language: da
 header:
-  overlay_image: /assets/images/exercises/medicinbold-kastes-0.jpg
   teaser: /assets/images/exercises/medicinbold-kastes-0-320.jpg
-  caption: *title
 tags:
   - Kropsstamme
   - Styrketræning

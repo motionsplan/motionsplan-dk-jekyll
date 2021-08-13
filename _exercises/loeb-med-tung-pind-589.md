@@ -1,5 +1,5 @@
 ---
-title: &title "Løb, med tung pind"
+title: "Løb, med tung pind"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/loeb-med-tung-pind/
@@ -9,9 +9,7 @@ redirect_from:
 id: 589
 language: da
 header:
-  overlay_image: /assets/images/exercises/loeb-med-tung-pind-0.jpg
   teaser: /assets/images/exercises/loeb-med-tung-pind-0-320.jpg
-  caption: *title
 tags:
   - Kondition og puls
 categories:

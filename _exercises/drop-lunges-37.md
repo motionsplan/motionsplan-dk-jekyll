@@ -1,5 +1,5 @@
 ---
-title: &title "Drop lunges"
+title: "Drop lunges"
 excerpt: "Drop lunges, hvor det ene ben føres bag det forreste bøjede ben."
 instructions: "Drop lunges, hvor det ene ben føres bag det forreste bøjede ben."
 permalink: /oevelse/drop-lunges/
@@ -7,9 +7,7 @@ redirect_from: /node/37
 id: 37
 language: da
 header:
-  overlay_image: /assets/images/exercises/drop-lunges-0.jpg
   teaser: /assets/images/exercises/drop-lunges-0-320.jpg
-  caption: *title
 tags: []
 categories: []
 training_type: [] 

@@ -1,5 +1,5 @@
 ---
-title: &title "Brettzel"
+title: "Brettzel"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/brettzel/
@@ -7,9 +7,7 @@ redirect_from: /node/657
 id: 657
 language: da
 header:
-  overlay_image: /assets/images/exercises/brettzel-0.jpg
   teaser: /assets/images/exercises/brettzel-0-320.jpg
-  caption: *title
 tags:
   - Strækøvelser
   - Baller

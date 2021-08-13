@@ -1,5 +1,5 @@
 ---
-title: &title "Planken: Få skudsikre mavemuskler med den perfekte planke"
+title: "Planken: Få skudsikre mavemuskler med den perfekte planke"
 instructions: "I planken skal du ligge hvilende på underarmene og håndfladerne på gulvet. Skub dig op, så du kun rører gulvet med underarmene og tæerne. Hold kroppen ret. Hold stillingen i det planlagte tidsrum."
 permalink: /oevelse/planken/
 redirect_from:
@@ -7,9 +7,7 @@ redirect_from:
 id: 103
 language: da
 header:
-  overlay_image: /assets/images/exercises/planken-0.jpg
   teaser: /assets/images/exercises/planken-0-320.jpg
-  caption: *title
 tags:
   - Kropsstamme
   - Styrketræning

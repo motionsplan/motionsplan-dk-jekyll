@@ -1,5 +1,5 @@
 ---
-title: &title "Rotatormanchetten, lateral raise"
+title: "Rotatormanchetten, lateral raise"
 excerpt: "Løft vægten sidelæns op med 90 grader bøjede arme til de er på højde med skuldrene. Herfra roterer du i overarmen så underarmene bliver lodrette, men overarmen bliver på samme sted. Sænk langsomt ned, hvor du laver de to trin baglæns."
 instructions: "Løft vægten sidelæns op med 90 grader bøjede arme til de er på højde med skuldrene. Herfra roterer du i overarmen så underarmene bliver lodrette, men overarmen bliver på samme sted. Sænk langsomt ned, hvor du laver de to trin baglæns."
 permalink: /oevelse/l-lateral-raise/
@@ -7,9 +7,7 @@ redirect_from: /node/50
 id: 50
 language: da
 header:
-  overlay_image: /assets/images/exercises/l-lateral-raise-0.jpg
   teaser: /assets/images/exercises/l-lateral-raise-0-320.jpg
-  caption: *title
 tags:
   - håndvægte
 categories: []

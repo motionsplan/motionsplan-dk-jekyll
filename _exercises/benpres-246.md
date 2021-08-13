@@ -1,14 +1,12 @@
 ---
-title: &title "Benpres"
+title: "Benpres"
 instructions: "I benpres skal du først justere maskinen, så den passer til dig. Du skal kunne holde hele foden i under hele bevægelsen. Stræk benene og bøj langsomt benene igen."
 permalink: /oevelse/benpres/
 redirect_from: /node/246
 id: 246
 language: da
 header:
-  overlay_image: /assets/images/exercises/benpres-0.jpg
   teaser: /assets/images/exercises/benpres-0-320.jpg
-  caption: *title
 tags:
   - Ben
   - Styrketræning

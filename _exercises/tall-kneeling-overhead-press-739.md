@@ -1,5 +1,5 @@
 ---
-title: &title "Tall kneeling overhead press"
+title: "Tall kneeling overhead press"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/tall-kneeling-overhead-press/
@@ -29,5 +29,3 @@ video:
   id: EAtiai0k_Aw
 last_modified_at: 2016-11-01T08:26:52Z
 ---
-
-

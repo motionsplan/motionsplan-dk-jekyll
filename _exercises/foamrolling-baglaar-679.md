@@ -1,5 +1,5 @@
 ---
-title: &title "Foamrolling baglår"
+title: "Foamrolling baglår"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/foamrolling-baglaar/
@@ -7,9 +7,7 @@ redirect_from: /node/679
 id: 679
 language: da
 header:
-  overlay_image: /assets/images/exercises/foamrolling-baglaar-0.jpg
   teaser: /assets/images/exercises/foamrolling-baglaar-0-320.jpg
-  caption: *title
 tags:
   - Self Myofascial Release (SMR)
   - foamroller

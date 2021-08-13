@@ -1,5 +1,5 @@
 ---
-title: &title "Full sitouts"
+title: "Full sitouts"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/full-sitouts/
@@ -7,9 +7,7 @@ redirect_from: /node/638
 id: 638
 language: da
 header:
-  overlay_image: /assets/images/exercises/full-sitouts-0.jpg
   teaser: /assets/images/exercises/full-sitouts-0-320.jpg
-  caption: *title
 tags:
   - Koordination og balance
   - Balance
@@ -48,5 +46,3 @@ gallery:
     title: "Full sitouts"
 last_modified_at: 2015-03-27T13:51:48Z
 ---
-
-

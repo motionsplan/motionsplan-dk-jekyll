@@ -1,5 +1,5 @@
 ---
-title: &title "Koneløb"
+title: "Koneløb"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/koneloeb/
@@ -9,9 +9,7 @@ redirect_from:
 id: 590
 language: da
 header:
-  overlay_image: /assets/images/exercises/koneloeb-0.jpg
   teaser: /assets/images/exercises/koneloeb-0-320.jpg
-  caption: *title
 tags:
   - Kondition og puls
 categories:

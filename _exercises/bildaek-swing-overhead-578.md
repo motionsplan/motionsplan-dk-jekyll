@@ -1,5 +1,5 @@
 ---
-title: &title "Bildæk, swing overhead"
+title: "Bildæk, swing overhead"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/bildaek-swing-overhead/
@@ -9,9 +9,7 @@ redirect_from:
 id: 578
 language: da
 header:
-  overlay_image: /assets/images/exercises/bildaek-swing-overhead-0.jpg
   teaser: /assets/images/exercises/bildaek-swing-overhead-0-320.jpg
-  caption: *title
 tags:
   - Kropsstamme
   - outdoor

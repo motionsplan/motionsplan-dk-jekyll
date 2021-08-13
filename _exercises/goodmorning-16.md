@@ -1,5 +1,5 @@
 ---
-title: &title "Good morning"
+title: "Good morning"
 excerpt: "Stangen på skuldrene. Hold hovedet oppe og ryggen helt rank. Bøj dig forover, indtil din overkrop er parallel med jorden. Vend tilbage til samme stilling igen."
 instructions: "Stangen på skuldrene. Hold hovedet oppe og ryggen helt rank. Bøj dig forover, indtil din overkrop er parallel med jorden. Vend tilbage til samme stilling igen."
 permalink: /oevelse/goodmorning/
@@ -7,9 +7,7 @@ redirect_from: /node/16
 id: 16
 language: da
 header:
-  overlay_image: /assets/images/exercises/goodmorning-0.jpg
   teaser: /assets/images/exercises/goodmorning-0-320.jpg
-  caption: *title
 tags:
   - Kropsstamme
   - Styrketræning

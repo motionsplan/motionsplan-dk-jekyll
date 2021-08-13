@@ -1,5 +1,5 @@
 ---
-title: &title "Skubbe madras"
+title: "Skubbe madras"
 excerpt: "En madras skubbes hen over gulvet."
 instructions: "En madras skubbes hen over gulvet."
 permalink: /oevelse/skubbe-madras/
@@ -7,9 +7,7 @@ redirect_from: /node/503
 id: 503
 language: da
 header:
-  overlay_image: /assets/images/exercises/skubbe-madras-0.jpg
   teaser: /assets/images/exercises/skubbe-madras-0-320.jpg
-  caption: *title
 tags:
   - madras
 categories: []

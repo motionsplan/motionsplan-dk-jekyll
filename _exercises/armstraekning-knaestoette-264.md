@@ -1,5 +1,5 @@
 ---
-title: &title "Armstrækning, knæstøtte"
+title: "Armstrækning, knæstøtte"
 excerpt: "Støt på hænder og knæ. Hold kroppen helt ret. Lav en armstrækning."
 instructions: "Støt på hænder og knæ. Hold kroppen helt ret. Lav en armstrækning."
 permalink: /oevelse/armstraekning-knaestoette/
@@ -7,9 +7,7 @@ redirect_from: /node/264
 id: 264
 language: da
 header:
-  overlay_image: /assets/images/exercises/armstraekning-knaestoette-0.jpg
   teaser: /assets/images/exercises/armstraekning-knaestoette-0-320.jpg
-  caption: *title
 tags:
   - kropsvægt
 categories: []

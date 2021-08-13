@@ -1,5 +1,5 @@
 ---
-title: &title "Mave, rotation"
+title: "Mave, rotation"
 excerpt: "Mave, rotation"
 instructions: "Mave, rotation"
 permalink: /oevelse/mave-rotation/
@@ -7,14 +7,12 @@ redirect_from: /node/251
 id: 251
 language: da
 header:
-  overlay_image: /assets/images/exercises/mave-rotation-0.jpg
   teaser: /assets/images/exercises/mave-rotation-0-320.jpg
-  caption: *title
 tags:
   - kropsstamme
   - maskine
 categories: []
-training_type: 
+training_type: []
 training_focus: 
   - kropsstamme
 equipment:

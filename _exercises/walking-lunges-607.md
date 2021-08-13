@@ -1,5 +1,5 @@
 ---
-title: &title "Walking lunges"
+title: "Walking lunges"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/walking-lunges/
@@ -7,9 +7,7 @@ redirect_from: /node/607
 id: 607
 language: da
 header:
-  overlay_image: /assets/images/exercises/walking-lunges-0.jpg
   teaser: /assets/images/exercises/walking-lunges-0-320.jpg
-  caption: *title
 tags:
   - Ben
   - Styrketræning
@@ -48,5 +46,3 @@ gallery:
     title: "Walking lunges"
 last_modified_at: 2014-10-30T10:19:29Z
 ---
-
-

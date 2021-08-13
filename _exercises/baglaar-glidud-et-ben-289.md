@@ -1,5 +1,5 @@
 ---
-title: &title "Baglår, glidud et ben"
+title: "Baglår, glidud et ben"
 excerpt: "Lig på ryggen. Skyd hoften op og stræk det ene ben. Med en klud under den anden fod lader du fødderne glide udad indtil kroppen er så ret som muligt. Træk dig tilbage til udgangspunktet."
 instructions: "Lig på ryggen. Skyd hoften op og stræk det ene ben. Med en klud under den anden fod lader du fødderne glide udad indtil kroppen er så ret som muligt. Træk dig tilbage til udgangspunktet."
 permalink: /oevelse/baglaar-glidud-et-ben/
@@ -7,9 +7,7 @@ redirect_from: /node/289
 id: 289
 language: da
 header:
-  overlay_image: /assets/images/exercises/baglaar-glidud-et-ben-0.jpg
   teaser: /assets/images/exercises/baglaar-glidud-et-ben-0-320.jpg
-  caption: *title
 tags:
   - Koordination og balance
   - hoftedomineret

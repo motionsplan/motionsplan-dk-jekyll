@@ -1,5 +1,5 @@
 ---
-title: &title "Side swings"
+title: "Side swings"
 excerpt: "Hold en vægt i begge hænder ude til siden. Sving den op over hovedet og sænk den til den anden side. Gentag øvelsen."
 instructions: "Hold en vægt i begge hænder ude til siden. Sving den op over hovedet og sænk den til den anden side. Gentag øvelsen."
 permalink: /oevelse/side-swings/
@@ -7,9 +7,7 @@ redirect_from: /node/93
 id: 93
 language: da
 header:
-  overlay_image: /assets/images/exercises/side-swings-0.jpg
   teaser: /assets/images/exercises/side-swings-0-320.jpg
-  caption: *title
 tags:
   - kropsstamme
   - træstub

@@ -1,5 +1,5 @@
 ---
-title: &title "Frivend og stød, olympisk"
+title: "Frivend og stød, olympisk"
 excerpt: "Træk og stød, olympisk"
 instructions: "Træk og stød, olympisk"
 permalink: /oevelse/traek-og-stoed-olympisk/
@@ -7,9 +7,7 @@ redirect_from: /node/275
 id: 275
 language: da
 header:
-  overlay_image: /assets/images/exercises/traek-og-stoed-olympisk-0.jpg
   teaser: /assets/images/exercises/traek-og-stoed-olympisk-0-320.jpg
-  caption: *title
 tags:
   - helkropsøvelse
   - vægtstang

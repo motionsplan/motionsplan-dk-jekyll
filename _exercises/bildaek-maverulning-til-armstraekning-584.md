@@ -1,5 +1,5 @@
 ---
-title: &title "Bildæk, maverulning til armstrækning"
+title: "Bildæk, maverulning til armstrækning"
 instructions: ""
 permalink: /oevelse/bildaek-maverulning-til-armstraekning/
 redirect_from:
@@ -8,9 +8,7 @@ redirect_from:
 id: 584
 language: da
 header:
-  overlay_image: /assets/images/exercises/bildaek-maverulning-til-armstraekning-0.jpg
   teaser: /assets/images/exercises/bildaek-maverulning-til-armstraekning-0-320.jpg
-  caption: *title
 tags:
   - Helkropsøvelse
   - outdoor

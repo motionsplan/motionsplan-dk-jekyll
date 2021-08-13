@@ -1,5 +1,5 @@
 ---
-title: &title "Roning, proneret bodyrow"
+title: "Roning, proneret bodyrow"
 excerpt: "Vandret kropshævning med benene på en bænk."
 instructions: "Vandret kropshævning med benene på en bænk."
 permalink: /oevelse/vandret-kropshaevning/
@@ -7,9 +7,7 @@ redirect_from: /node/33
 id: 33
 language: da
 header:
-  overlay_image: /assets/images/exercises/vandret-kropshaevning-0.jpg
   teaser: /assets/images/exercises/vandret-kropshaevning-0-320.jpg
-  caption: *title
 tags:
   - kropsvægt
   - fitnessinstruktør

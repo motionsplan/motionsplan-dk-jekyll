@@ -1,5 +1,5 @@
 ---
-title: &title "Slideboard bodysaw pushup"
+title: "Slideboard bodysaw pushup"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/slideboard-bodysaw-pushup/
@@ -35,5 +35,3 @@ video:
   id: HFNeMCsSfD0
 last_modified_at: 2016-10-17T21:01:23Z
 ---
-
-

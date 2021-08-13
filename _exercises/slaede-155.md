@@ -1,5 +1,5 @@
 ---
-title: &title "Slædetræk"
+title: "Slædetræk"
 excerpt: "Først sprinter du fremad med en slæde spændt om livet. Derefter trækker du den baglæns tilbage til udgangspunktet."
 instructions: "Først sprinter du fremad med en slæde spændt om livet. Derefter trækker du den baglæns tilbage til udgangspunktet."
 permalink: /oevelse/slaede/
@@ -7,9 +7,7 @@ redirect_from: /node/155
 id: 155
 language: da
 header:
-  overlay_image: /assets/images/exercises/slaede-0.jpg
   teaser: /assets/images/exercises/slaede-0-320.jpg
-  caption: *title
 tags:
   - slæde
 categories: []

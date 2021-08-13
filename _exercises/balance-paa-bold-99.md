@@ -1,5 +1,5 @@
 ---
-title: &title "Balance på bold"
+title: "Balance på bold"
 excerpt: "Prøv at holde balancen siddende på knæene på en stor træningsbold."
 instructions: "Prøv at holde balancen siddende på knæene på en stor træningsbold."
 permalink: /oevelse/balance-paa-bold/
@@ -7,9 +7,7 @@ redirect_from: /node/99
 id: 99
 language: da
 header:
-  overlay_image: /assets/images/exercises/balance-paa-bold-0.jpg
   teaser: /assets/images/exercises/balance-paa-bold-0-320.jpg
-  caption: *title
 tags:
   - kropsstamme
   - swissball

@@ -1,5 +1,5 @@
 ---
-title: &title "Skrogretteren"
+title: "Skrogretteren"
 excerpt: "Gå ned i en dyb squat. Saml albuerne og hænderne foran kroppen. Når du rejser dig op lader du armene søge opad, mens du holder albuerne så tæt sammen som muligt og slutter med en stor cirkel med armene."
 instructions: "Gå ned i en dyb squat. Saml albuerne og hænderne foran kroppen. Når du rejser dig op lader du armene søge opad, mens du holder albuerne så tæt sammen som muligt og slutter med en stor cirkel med armene."
 permalink: /oevelse/skrogretteren/
@@ -7,9 +7,7 @@ redirect_from: /node/531
 id: 531
 language: da
 header:
-  overlay_image: /assets/images/exercises/skrogretteren-0.jpg
   teaser: /assets/images/exercises/skrogretteren-0-320.jpg
-  caption: *title
 tags:
   - Mobilisering
   - helkropsøvelse

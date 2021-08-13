@@ -1,5 +1,5 @@
 ---
-title: &title "Alternating swiss ball step offs"
+title: "Alternating swiss ball step offs"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/alternating-swiss-ball-step-offs/
@@ -7,9 +7,7 @@ redirect_from: /node/644
 id: 644
 language: da
 header:
-  overlay_image: /assets/images/exercises/alternating-swiss-ball-step-offs-0.jpg
   teaser: /assets/images/exercises/alternating-swiss-ball-step-offs-0-320.jpg
-  caption: *title
 tags:
   - Kropsstamme
   - Balance
@@ -48,5 +46,3 @@ gallery:
     title: "Alternating swiss ball step offs"
 last_modified_at: 2015-03-27T17:30:46Z
 ---
-
-

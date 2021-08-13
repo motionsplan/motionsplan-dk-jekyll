@@ -1,5 +1,5 @@
 ---
-title: &title "Clubbell - rundt om hovedet til balance"
+title: "Clubbell - rundt om hovedet til balance"
 excerpt: "En clubbell svinges rundt om hovedet og gribes i balance med håndtaget nedad foran."
 instructions: "En clubbell svinges rundt om hovedet og gribes i balance med håndtaget nedad foran."
 permalink: /oevelse/clubbell-rundt-om-hovedet-til-balance/
@@ -7,9 +7,7 @@ redirect_from: /node/502
 id: 502
 language: da
 header:
-  overlay_image: /assets/images/exercises/clubbell-rundt-om-hovedet-til-balance-0.jpg
   teaser: /assets/images/exercises/clubbell-rundt-om-hovedet-til-balance-0-320.jpg
-  caption: *title
 tags:
   - clubbell
 categories: []

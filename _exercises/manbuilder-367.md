@@ -1,5 +1,5 @@
 ---
-title: &title "Manbuilder"
+title: "Manbuilder"
 excerpt: "På to håndvægte laves en armstrækning. Derefter trækkes vægtene på skift op i som rows. Spring ind imellem vægtene. Rejs dig op. Få vægtene op til skuldrene. Pres dem op over hovedet. Start forfra."
 instructions: "På to håndvægte laves en armstrækning. Derefter trækkes vægtene på skift op i som rows. Spring ind imellem vægtene. Rejs dig op. Få vægtene op til skuldrene. Pres dem op over hovedet. Start forfra."
 permalink: /oevelse/manbuilder/
@@ -7,9 +7,7 @@ redirect_from: /node/367
 id: 367
 language: da
 header:
-  overlay_image: /assets/images/exercises/manbuilder-0.jpg
   teaser: /assets/images/exercises/manbuilder-0-320.jpg
-  caption: *title
 tags:
   - Helkropsøvelse
   - kropsstamme

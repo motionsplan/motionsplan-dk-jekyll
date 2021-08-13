@@ -1,5 +1,5 @@
 ---
-title: &title "Lunges, dynamisk"
+title: "Lunges, dynamisk"
 excerpt: "Træd et skridt frem og gå ned i knæ, indtil det forreste lår er vandret og det andet næsten knæ rører jorden. Bevæg dig dynamisk tilbage til udgangspositionen."
 instructions: "Træd et skridt frem og gå ned i knæ, indtil det forreste lår er vandret og det andet næsten knæ rører jorden. Bevæg dig dynamisk tilbage til udgangspositionen."
 permalink: /oevelse/lunges-dynamisk/
@@ -7,17 +7,15 @@ redirect_from: /node/69
 id: 69
 language: da
 header:
-  overlay_image: /assets/images/exercises/lunges-dynamisk-0.jpg
   teaser: /assets/images/exercises/lunges-dynamisk-0-320.jpg
-  caption: *title
 tags:
   - knædomineret
   - vægtstang
   - fitnessinstruktør
   - crossfit
 categories: []
-training_type: 
-training_focus: 
+training_type:  []
+training_focus:
   - knædomineret
 equipment:
   - vægtstang

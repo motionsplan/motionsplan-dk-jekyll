@@ -1,5 +1,5 @@
 ---
-title: &title "Squat, med stangen over hovedet"
+title: "Squat, med stangen over hovedet"
 excerpt: "Lav en dyb knæbøjning, mens du holder en vægtstang med strakte arme over hovedet."
 instructions: "Lav en dyb knæbøjning, mens du holder en vægtstang med strakte arme over hovedet."
 permalink: /oevelse/squat-med-stangen-over-hovedet/
@@ -7,9 +7,7 @@ redirect_from: /node/71
 id: 71
 language: da
 header:
-  overlay_image: /assets/images/exercises/squat-med-stangen-over-hovedet-0.jpg
   teaser: /assets/images/exercises/squat-med-stangen-over-hovedet-0-320.jpg
-  caption: *title
 tags: []
 categories: []
 training_type: [] 

@@ -1,5 +1,5 @@
 ---
-title: &title "Wall Ball"
+title: "Wall Ball"
 instructions: "I wall ball skal du støde en medicinbold fra brystet med begge hænder op over et punkt på væggen. Når du griber den igen går du ned i en squat og sender bolden afsted igen."
 permalink: /oevelse/wall-ball/
 redirect_from:
@@ -8,9 +8,7 @@ redirect_from:
 id: 488
 language: da
 header:
-  overlay_image: /assets/images/exercises/488-0.jpg
   teaser: /assets/images/exercises/488-0-320.jpg
-  caption: Wall ball
 tags:
   - Helkropsøvelse
   - Kondition

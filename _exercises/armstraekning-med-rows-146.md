@@ -1,5 +1,5 @@
 ---
-title: &title "Armstrækning, med rows"
+title: "Armstrækning, med rows"
 excerpt: "Hold en håndvægt i hver hånd og støt på hænderne og tæerne. Lav en armstrækning. Når du har strakte arme, trækker du en af håndvægtene op fra gulvet. Skift."
 instructions: "Hold en håndvægt i hver hånd og støt på hænderne og tæerne. Lav en armstrækning. Når du har strakte arme, trækker du en af håndvægtene op fra gulvet. Skift."
 permalink: /oevelse/armstraekning-med-rows/
@@ -7,9 +7,7 @@ redirect_from: /node/146
 id: 146
 language: da
 header:
-  overlay_image: /assets/images/exercises/armstraekning-med-rows-0.jpg
   teaser: /assets/images/exercises/armstraekning-med-rows-0-320.jpg
-  caption: *title
 tags:
   - Pres
   - håndvægte

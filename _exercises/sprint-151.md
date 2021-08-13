@@ -1,5 +1,5 @@
 ---
-title: &title "Sprint med vægt"
+title: "Sprint med vægt"
 excerpt: "Sprint så hurtigt du kan frem og tilbage mellem to markeringer. Du starter med en vægt i hånden. Læg vægten ved markeringen. Sprint tomhændet tilbage. Saml vægten op igen næste gang du kommer forbi."
 instructions: "Sprint så hurtigt du kan frem og tilbage mellem to markeringer. Du starter med en vægt i hånden. Læg vægten ved markeringen. Sprint tomhændet tilbage. Saml vægten op igen næste gang du kommer forbi."
 permalink: /oevelse/sprint/
@@ -7,9 +7,7 @@ redirect_from: /node/151
 id: 151
 language: da
 header:
-  overlay_image: /assets/images/exercises/sprint-0.jpg
   teaser: /assets/images/exercises/sprint-0-320.jpg
-  caption: *title
 tags:
   - Kondition og puls
   - helkropsøvelse

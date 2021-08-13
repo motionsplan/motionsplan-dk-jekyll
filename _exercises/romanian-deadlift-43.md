@@ -1,5 +1,5 @@
 ---
-title: &title "Dødløft, Romanian (RDL)"
+title: "Dødløft, Romanian (RDL)"
 excerpt: "Rumænsk dødløft starter oprejst, hvor du holder stangen med cirka skulderafstand mellem hænderne. Stå med benene i skulderbredde. Sænk stangen mod gulvet med så strakte ben som muligt og mens du holder ryggen ret. Når du ikke kan komme længere uden at kompensere i ryggen, rejser du dig igen."
 instructions: "Løftet starter oprejst hvor du holder stangen med cirka skulderafstand mellem hænderne. Stå med benene i skulderbredde. Sænk stangen mod gulvet med så strakte ben som muligt og mens du holder ryggen ret. Når du ikke kan komme længere uden at kompensere i ryggen, rejser du dig igen."
 permalink: /oevelse/romanian-deadlift/
@@ -8,9 +8,7 @@ id: 43
 key: 43
 language: da
 header:
-  overlay_image: /assets/images/exercises/romanian-deadlift-0.jpg
   teaser: /assets/images/exercises/romanian-deadlift-0-320.jpg
-  caption: *title
 tags:
   - Hård styrkeøvelse
   - Styrketræning

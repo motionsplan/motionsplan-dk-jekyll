@@ -1,5 +1,5 @@
 ---
-title: &title "Mave, diagonal"
+title: "Mave, diagonal"
 excerpt: "Lig på ryggen med begge ben og hænderne strakt i vejret. Sænk venstre ben mod jorden og venstre arm i samme retning, så arm og ben er parallelle. Højre arm føres bagover og ben ligeledes. Venstre ben og højre arm er nu diagonale. Tilbage til udgangspositionen. Gentages nu med modsatte arm og ben  "
 instructions: "Lig på ryggen med begge ben og hænderne strakt i vejret. Sænk venstre ben mod jorden og venstre arm i samme retning, så arm og ben er parallelle. Højre arm føres bagover og ben ligeledes. Venstre ben og højre arm er nu diagonale. Tilbage til udgangspositionen. Gentages nu med modsatte arm og ben  "
 permalink: /oevelse/diagonal-mave/
@@ -7,9 +7,7 @@ redirect_from: /node/536
 id: 536
 language: da
 header:
-  overlay_image: /assets/images/exercises/diagonal-mave-0.jpg
   teaser: /assets/images/exercises/diagonal-mave-0-320.jpg
-  caption: *title
 tags:
   - Styrketræning
   - kropsstamme

@@ -1,5 +1,5 @@
 ---
-title: &title "Bildæk, armstrækning med spring"
+title: "Bildæk, armstrækning med spring"
 instructions: ""
 permalink: /oevelse/bildaek-armstraekning-med-spring/
 redirect_from:
@@ -8,9 +8,7 @@ redirect_from:
 id: 572
 language: da
 header:
-  overlay_image: /assets/images/exercises/bildaek-armstraekning-med-spring-0.jpg
   teaser: /assets/images/exercises/bildaek-armstraekning-med-spring-0-320.jpg
-  caption: *title
 tags:
   - Hård styrkeøvelse
   - outdoor

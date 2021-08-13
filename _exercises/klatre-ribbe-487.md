@@ -1,5 +1,5 @@
 ---
-title: &title "Klatre op i ribben"
+title: "Klatre op i ribben"
 excerpt: "Kravl så højt op du kan i ribben med fødderne. Du skal også klatre ned."
 instructions: "Kravl så højt op du kan i ribben med fødderne. Du skal også klatre ned."
 permalink: /node/487/
@@ -7,9 +7,7 @@ redirect_from: /node/487
 id: 487
 language: da
 header:
-  overlay_image: /assets/images/exercises/487-0.jpg
   teaser: /assets/images/exercises/487-0-320.jpg
-  caption: *title
 tags:
   - Kondition og puls
 categories:

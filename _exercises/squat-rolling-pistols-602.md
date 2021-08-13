@@ -1,5 +1,5 @@
 ---
-title: &title "Squat, rolling pistols"
+title: "Squat, rolling pistols"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/squat-rolling-pistols/
@@ -7,9 +7,7 @@ redirect_from: /node/602
 id: 602
 language: da
 header:
-  overlay_image: /assets/images/exercises/squat-rolling-pistols-0.jpg
   teaser: /assets/images/exercises/squat-rolling-pistols-0-320.jpg
-  caption: *title
 tags:
   - Helkropsøvelse
   - Styrketræning
@@ -60,5 +58,3 @@ gallery:
     title: "Squat, rolling pistols"
 last_modified_at: 2014-10-12T22:19:15Z
 ---
-
-

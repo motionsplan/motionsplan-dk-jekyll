@@ -1,5 +1,5 @@
 ---
-title: &title "Fransk Pres: Skull crushers for effektiv triceps træning"
+title: "Fransk Pres: Skull crushers for effektiv triceps træning"
 excerpt: "Fransk pres er en isolationsøvelse for triceps. Fransk pres laves vandret på en bænk eller på gulvet med en vægtstang eller håndvægte. Øvelsen kaldes også skull crushers i en variation."
 instructions: "Liggende på en bænk starter du med stangen strakt over hovedet. Dernæst føres stangen ned bag hovedet eller mod panden, mens dine albuer bliver i nogenlunde samme position."
 permalink: /oevelse/triceps-fransk-pres/
@@ -7,9 +7,7 @@ redirect_from: /node/262
 id: 262
 language: da
 header:
-  overlay_image: /assets/images/exercises/triceps-fransk-pres-0.jpg
   teaser: /assets/images/exercises/triceps-fransk-pres-0-320.jpg
-  caption: *title
 tags:
   - vægtstang
   - fitnessinstruktør

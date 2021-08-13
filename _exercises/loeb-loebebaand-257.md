@@ -1,5 +1,5 @@
 ---
-title: &title "Løb, løbebånd"
+title: "Løb, løbebånd"
 excerpt: "Løb, løbebånd"
 instructions: "Løb, løbebånd"
 permalink: /oevelse/loeb-loebebaand/

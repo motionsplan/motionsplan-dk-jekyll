@@ -1,5 +1,5 @@
 ---
-title: &title "Reach through"
+title: "Reach through"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/reach-through/
@@ -7,9 +7,7 @@ redirect_from: /node/685
 id: 685
 language: da
 header:
-  overlay_image: /assets/images/exercises/reach-through-0.jpg
   teaser: /assets/images/exercises/reach-through-0-320.jpg
-  caption: *title
 tags:
   - Mobilisering
   - Strækøvelser

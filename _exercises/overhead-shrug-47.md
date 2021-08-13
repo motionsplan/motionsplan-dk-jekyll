@@ -1,5 +1,5 @@
 ---
-title: &title "Shrug, overhead"
+title: "Shrug, overhead"
 excerpt: "Hold vægtstangen i strakte arme, mens du holder skuldrene nede. Før vægtstangen højere op ved at køre skuldrene helt op til ørerne."
 instructions: "Hold vægtstangen i strakte arme, mens du holder skuldrene nede. Før vægtstangen højere op ved at køre skuldrene helt op til ørerne."
 permalink: /oevelse/overhead-shrug/
@@ -7,9 +7,7 @@ redirect_from: /node/47
 id: 47
 language: da
 header:
-  overlay_image: /assets/images/exercises/overhead-shrug-0.jpg
   teaser: /assets/images/exercises/overhead-shrug-0-320.jpg
-  caption: *title
 tags:
   - vægtstang
 categories: []

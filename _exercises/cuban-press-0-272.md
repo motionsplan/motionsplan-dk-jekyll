@@ -1,5 +1,5 @@
 ---
-title: &title "Cuban press"
+title: "Cuban press"
 excerpt: "Hold vægtstangen i strakte arme. Før den op langs kroppen ved at føre albuerne udad indtil albuen er lige så højt oppe som skuldrene. Roter i overarmen så vægtenstangen kommer op til panden. Løft armene op over hovedet."
 instructions: "Hold vægtstangen i strakte arme. Før den op langs kroppen ved at føre albuerne udad indtil albuen er lige så højt oppe som skuldrene. Roter i overarmen så vægtenstangen kommer op til panden. Løft armene op over hovedet."
 permalink: /oevelse/cuban-press-0/
@@ -7,9 +7,7 @@ redirect_from: /node/272
 id: 272
 language: da
 header:
-  overlay_image: /assets/images/exercises/cuban-press-0-0.jpg
   teaser: /assets/images/exercises/cuban-press-0-0-320.jpg
-  caption: *title
 tags:
   - vægtstang
 categories: []

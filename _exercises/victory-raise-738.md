@@ -1,5 +1,5 @@
 ---
-title: &title "Victory raise"
+title: "Victory raise"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/victory-raise/
@@ -30,5 +30,3 @@ video:
 last_modified_at: 2016-10-31T21:24:55Z
 key: 20161031212455
 ---
-
-

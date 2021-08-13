@@ -1,5 +1,5 @@
 ---
-title: &title "Løb med sandsæk"
+title: "Løb med sandsæk"
 excerpt: "Løb en forudbestemt distance med en vægt (fx en sandsæk) på skulderen."
 instructions: "Løb en forudbestemt distance med en vægt (fx en sandsæk) på skulderen."
 permalink: /oevelse/loeb-med-sandsaek/
@@ -9,9 +9,7 @@ redirect_from:
 id: 545
 language: da
 header:
-  overlay_image: /assets/images/exercises/loeb-med-sandsaek-0.jpg
   teaser: /assets/images/exercises/loeb-med-sandsaek-0-320.jpg
-  caption: *title
 tags:
   - Kondition og puls
 categories:

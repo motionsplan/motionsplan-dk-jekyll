@@ -1,5 +1,5 @@
 ---
-title: &title "Wallsit: Knæbøjning, statisk"
+title: "Wallsit: Knæbøjning, statisk"
 excerpt: "Wallsit: Knæbøjning, statisk"
 instructions: "Knæbøjning, statisk"
 permalink: /oevelse/knaeboejning-statisk/
@@ -7,9 +7,7 @@ redirect_from: /node/301
 id: 301
 language: da
 header:
-  overlay_image: /assets/images/exercises/knaeboejning-statisk-0.jpg
   teaser: /assets/images/exercises/knaeboejning-statisk-0-320.jpg
-  caption: *title
 tags: []
 categories: []
 training_type: [] 

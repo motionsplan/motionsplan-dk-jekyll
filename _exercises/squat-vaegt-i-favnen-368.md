@@ -1,5 +1,5 @@
 ---
-title: &title "Squat, vægt i favnen"
+title: "Squat, vægt i favnen"
 excerpt: "Hold en vægt ved brystet, fx en kettlebell. Lav en dyb benbøjning. Hold ryggen ret. Sørg for at knæene går samme vej som tæerne. Stå på flad fod gennem hele bevægelsen."
 instructions: "Hold en vægt ved brystet, fx en kettlebell. Lav en dyb benbøjning. Hold ryggen ret. Sørg for at knæene går samme vej som tæerne. Stå på flad fod gennem hele bevægelsen."
 permalink: /oevelse/squat-vaegt-i-favnen/
@@ -7,9 +7,7 @@ redirect_from: /node/368
 id: 368
 language: da
 header:
-  overlay_image: /assets/images/exercises/squat-vaegt-i-favnen-0.jpg
   teaser: /assets/images/exercises/squat-vaegt-i-favnen-0-320.jpg
-  caption: *title
 tags:
   - Ben
   - Styrketræning

@@ -1,5 +1,5 @@
 ---
-title: &title "Split squat"
+title: "Split squat"
 excerpt: "Stangen placeres bag nakken som ved squat. Tag et langt skridt fremad. Bøj ned i knæene, så det bagerste knæ rører jorden. Rejs dig igen."
 instructions: "Stangen placeres bag nakken som ved squat. Tag et langt skridt fremad. Bøj ned i knæene, så det bagerste knæ rører jorden. Rejs dig igen."
 permalink: /oevelse/split-squat/
@@ -7,9 +7,7 @@ redirect_from: /node/54
 id: 54
 language: da
 header:
-  overlay_image: /assets/images/exercises/split-squat-0.jpg
   teaser: /assets/images/exercises/split-squat-0-320.jpg
-  caption: *title
 tags: []
 categories: []
 training_type: [] 

@@ -1,5 +1,5 @@
 ---
-title: &title "Rite 3: Forlår"
+title: "Rite 3: Forlår"
 excerpt: "Den tredje rite er forholdsvis simpel. Sæt dig på knæene, så kun dine tær og knæ rør underlaget. Placer herefter dine hænder på baglåret. Træk nu hagen mod brystet ved at bøje hovedet fremover. Bøj derefter hoved bagover og svaj i din rygrad. Kør efterfølgende op til standardpositionen."
 instructions: "Den tredje rite er forholdsvis simpel. Sæt dig på knæene, så kun dine tær og knæ rør underlaget. Placer herefter dine hænder på baglåret. Træk nu hagen mod brystet ved at bøje hovedet fremover. Bøj derefter hoved bagover og svaj i din rygrad. Kør efterfølgende op til standardpositionen."
 permalink: /oevelse/rite-3-forlaar/
@@ -7,9 +7,7 @@ redirect_from: /node/672
 id: 672
 language: da
 header:
-  overlay_image: /assets/images/exercises/rite-3-forlaar-0.jpg
   teaser: /assets/images/exercises/rite-3-forlaar-0-320.jpg
-  caption: *title
 tags:
   - Koordination og balance
   - Styrketræning

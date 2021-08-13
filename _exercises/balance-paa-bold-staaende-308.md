@@ -1,5 +1,5 @@
 ---
-title: &title "Balance på bold, stående"
+title: "Balance på bold, stående"
 excerpt: "På en stor træningsbold, skal du forsøge at komme op og stå og holde balancen."
 instructions: "På en stor træningsbold, skal du forsøge at komme op og stå og holde balancen."
 permalink: /oevelse/balance-paa-bold-staaende/
@@ -7,9 +7,7 @@ redirect_from: /node/308
 id: 308
 language: da
 header:
-  overlay_image: /assets/images/exercises/balance-paa-bold-staaende-0.jpg
   teaser: /assets/images/exercises/balance-paa-bold-staaende-0-320.jpg
-  caption: *title
 tags:
   - swissball
   - Core

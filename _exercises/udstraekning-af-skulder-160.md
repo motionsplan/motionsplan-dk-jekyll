@@ -1,5 +1,5 @@
 ---
-title: &title "Udstrækning af skulder"
+title: "Udstrækning af skulder"
 excerpt: "Udstrækning af skulder. Man er sammen i par og trækker skulderbladene fra hinanden. "
 instructions: "Udstrækning af skulder. Man er sammen i par og trækker skulderbladene fra hinanden. "
 permalink: /oevelse/udstraekning-af-skulder/
@@ -7,9 +7,7 @@ redirect_from: /node/160
 id: 160
 language: da
 header:
-  overlay_image: /assets/images/exercises/udstraekning-af-skulder-0.jpg
   teaser: /assets/images/exercises/udstraekning-af-skulder-0-320.jpg
-  caption: *title
 tags:
   - Parøvelser
   - Strækøvelser

@@ -1,14 +1,12 @@
 ---
-title: &title "Planken, mountain climber"
+title: "Planken, mountain climber"
 instructions: ""
 permalink: /oevelse/planken-mountain-climber/
 redirect_from: /node/601
 id: 601
 language: da
 header:
-  overlay_image: /assets/images/exercises/planken-mountain-climber-0.jpg
   teaser: /assets/images/exercises/planken-mountain-climber-0-320.jpg
-  caption: *title
 tags:
   - Kropsstamme
   - Styrketræning

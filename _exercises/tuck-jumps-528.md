@@ -1,5 +1,5 @@
 ---
-title: &title "Tuck jumps"
+title: "Tuck jumps"
 excerpt: "I tuck jumps springer du ved at sætte af på begge ben, mens du trækker knæene op mod brystkassen, og markerer at du griber fat om knæene."
 instructions: "Spring med afsæt på begge ben, mens du trækker knæene op mod brystkassen, og markerer at du griber fat om knæene."
 permalink: /oevelse/tuck-jumps/
@@ -7,9 +7,7 @@ redirect_from: /node/528
 id: 528
 language: da
 header:
-  overlay_image: /assets/images/exercises/tuck-jumps-0.jpg
   teaser: /assets/images/exercises/tuck-jumps-0-320.jpg
-  caption: *title
 tags:
   - Kondition og puls
 categories:

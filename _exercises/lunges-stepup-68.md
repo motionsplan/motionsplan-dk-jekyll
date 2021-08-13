@@ -1,5 +1,5 @@
 ---
-title: &title "Stepup, lunge"
+title: "Stepup, lunge"
 excerpt: "Stå foran bænken med skulderbreddes afstand mellem fødderne. Træd op på bænken uden at sætte af på det bagerste ben. Træd langsomt ned igen og gentag med det andet ben."
 instructions: "Stå foran bænken med skulderbreddes afstand mellem fødderne. Træd op på bænken uden at sætte af på det bagerste ben. Træd langsomt ned igen og gentag med det andet ben."
 permalink: /oevelse/lunges-stepup/
@@ -7,9 +7,7 @@ redirect_from: /node/68
 id: 68
 language: da
 header:
-  overlay_image: /assets/images/exercises/lunges-stepup-0.jpg
   teaser: /assets/images/exercises/lunges-stepup-0-320.jpg
-  caption: *title
 tags:
   - Ben
   - Styrketræning

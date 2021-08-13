@@ -1,5 +1,5 @@
 ---
-title: &title "Farmer walk: Komplet guide til farmers walk"
+title: "Farmer walk: Komplet guide til farmers walk"
 seo_title: "Farmers Walk • 4 overbevisende grunde for at gå farmer walks »"
 instructions: &instructions "I farmer walk starter du med at stå mellem vægtene. Tag vægtene i hver hånd og rejs dig op med ryggen ret og kig fremad. Gå med korte skridt og husk at trække vejret. Gå omkring 15-20 meter."
 excerpt: *instructions
@@ -8,9 +8,7 @@ redirect_from: /node/304
 id: 304
 language: da
 header:
-  overlay_image: /assets/images/exercises/farmerwalk-0.jpg
   teaser: /assets/images/exercises/farmerwalk-0-320.jpg
-  caption: *title
 tags:
   - loaded carry
   - carry

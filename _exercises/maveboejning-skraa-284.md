@@ -1,5 +1,5 @@
 ---
-title: &title "Mavebøjning, skrå"
+title: "Mavebøjning, skrå"
 excerpt: "Mavebøjning, skrå"
 instructions: "Mavebøjning, skrå"
 permalink: /oevelse/maveboejning-skraa/
@@ -7,9 +7,7 @@ redirect_from: /node/284
 id: 284
 language: da
 header:
-  overlay_image: /assets/images/exercises/maveboejning-skraa-0.jpg
   teaser: /assets/images/exercises/maveboejning-skraa-0-320.jpg
-  caption: *title
 tags: []
 categories: []
 training_type: [] 

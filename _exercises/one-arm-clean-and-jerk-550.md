@@ -1,5 +1,5 @@
 ---
-title: &title "One arm clean and press"
+title: "One arm clean and press"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/one-arm-clean-and-jerk/
@@ -7,9 +7,7 @@ redirect_from: /node/550
 id: 550
 language: da
 header:
-  overlay_image: /assets/images/exercises/one-arm-clean-and-jerk-0.jpg
   teaser: /assets/images/exercises/one-arm-clean-and-jerk-0-320.jpg
-  caption: *title
 tags:
   - Helkropsøvelse
   - Styrketræning
@@ -60,5 +58,3 @@ video:
   id: D12BggC-RQI
 last_modified_at: 2015-03-09T15:26:47Z
 ---
-
-

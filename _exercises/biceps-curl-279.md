@@ -1,5 +1,5 @@
 ---
-title: &title "Biceps curl"
+title: "Biceps curl"
 excerpt: "Hold håndvægtene i strakte arme langs kroppen med håndryggen væk fra kroppen. Før vægten op mod skulderen, mens du laver en rotation i underarmen."
 instructions: "Hold håndvægtene i strakte arme langs kroppen med håndryggen væk fra kroppen. Før vægten op mod skulderen, mens du laver en rotation i underarmen."
 permalink: /oevelse/biceps-curl/
@@ -8,9 +8,7 @@ id: 279
 key: 279
 language: da
 header:
-  overlay_image: /assets/images/exercises/biceps-curl-0.jpg
   teaser: /assets/images/exercises/biceps-curl-0-320.jpg
-  caption: *title
 tags:
   - håndvægte
   - fitnessinstruktør

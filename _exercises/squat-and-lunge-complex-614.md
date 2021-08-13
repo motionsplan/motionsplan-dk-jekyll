@@ -1,5 +1,5 @@
 ---
-title: &title "Squat and lunge complex"
+title: "Squat and lunge complex"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/squat-and-lunge-complex/
@@ -7,9 +7,7 @@ redirect_from: /node/614
 id: 614
 language: da
 header:
-  overlay_image: /assets/images/exercises/squat-and-lunge-complex-0.jpg
   teaser: /assets/images/exercises/squat-and-lunge-complex-0-320.jpg
-  caption: *title
 tags:
   - Helkropsøvelse
   - Styrketræning
@@ -60,5 +58,3 @@ gallery:
     title: "Squat and lunge complex"
 last_modified_at: 2014-11-15T15:33:59Z
 ---
-
-

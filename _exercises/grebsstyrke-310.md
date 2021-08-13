@@ -1,5 +1,5 @@
 ---
-title: &title "Grebsstyrke"
+title: "Grebsstyrke"
 excerpt: "Grib fat om stangen med strakte arme. Ved at roterer stangen inden i hænderne ruller man snoren omkring stangen. Minimér bevægelsen i håndleddet."
 instructions: "Grib fat om stangen med strakte arme. Ved at roterer stangen inden i hænderne ruller man snoren omkring stangen. Minimér bevægelsen i håndleddet."
 permalink: /oevelse/grebsstyrke/
@@ -7,9 +7,7 @@ redirect_from: /node/310
 id: 310
 language: da
 header:
-  overlay_image: /assets/images/exercises/grebsstyrke-0.jpg
   teaser: /assets/images/exercises/grebsstyrke-0-320.jpg
-  caption: *title
 tags: []
 categories: []
 training_type: [] 

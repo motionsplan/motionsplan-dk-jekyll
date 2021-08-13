@@ -1,5 +1,5 @@
 ---
-title: &title "Skulder, internal rotation overhånd"
+title: "Skulder, internal rotation overhånd"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/skulder-internal-rotation/
@@ -7,9 +7,7 @@ redirect_from: /node/650
 id: 650
 language: da
 header:
-  overlay_image: /assets/images/exercises/skulder-internal-rotation-0.jpg
   teaser: /assets/images/exercises/skulder-internal-rotation-0-320.jpg
-  caption: *title
 tags:
   - Koordination og balance
   - Balance
@@ -39,5 +37,3 @@ gallery:
     title: "Skulder, internal rotation"
 last_modified_at: 2015-04-10T13:27:17Z
 ---
-
-

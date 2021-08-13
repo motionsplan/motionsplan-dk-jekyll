@@ -1,5 +1,5 @@
 ---
-title: &title "Squat, med hop og landing på et ben"
+title: "Squat, med hop og landing på et ben"
 excerpt: "Lav en dyb squat. Derfra skal du springe så højt du kan ud mod den ene side, hvor du lander på det yderste ben og finder balancen."
 instructions: "Lav en dyb squat. Derfra skal du springe så højt du kan ud mod den ene side, hvor du lander på det yderste ben og finder balancen."
 permalink: /oevelse/squat-med-hop-og-landing-paa-et-ben/
@@ -7,9 +7,7 @@ redirect_from: /node/315
 id: 315
 language: da
 header:
-  overlay_image: /assets/images/exercises/squat-med-hop-og-landing-paa-et-ben-0.jpg
   teaser: /assets/images/exercises/squat-med-hop-og-landing-paa-et-ben-0-320.jpg
-  caption: *title
 tags:
   - kropsvægt
 categories: []

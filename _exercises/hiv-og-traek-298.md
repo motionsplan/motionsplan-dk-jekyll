@@ -1,5 +1,5 @@
 ---
-title: &title "Hiv og træk"
+title: "Hiv og træk"
 excerpt: "Træk vægten op ad, indtil den når op til toppen. Sænk den stille og roligt ned igen. GIV IKKE SLIP."
 instructions: "Træk vægten op ad, indtil den når op til toppen. Sænk den stille og roligt ned igen. GIV IKKE SLIP."
 permalink: /oevelse/hiv-og-traek/
@@ -7,9 +7,7 @@ redirect_from: /node/298
 id: 298
 language: da
 header:
-  overlay_image: /assets/images/exercises/hiv-og-traek-0.jpg
   teaser: /assets/images/exercises/hiv-og-traek-0-320.jpg
-  caption: *title
 tags:
   - Helkropsøvelse
 categories:

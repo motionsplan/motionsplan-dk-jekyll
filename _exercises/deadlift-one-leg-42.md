@@ -1,5 +1,5 @@
 ---
-title: &title "Dødløft, et ben"
+title: "Dødløft, et ben"
 excerpt: "Stå med en hændvægt i hver hånd. Mens du balancerer på et ben, læner du dig forover samtidig med at det andet ben føres bagud, indtil du står i et T. Rejs dig igen."
 instructions: "Stå med en hændvægt i hver hånd. Mens du balancerer på et ben, læner du dig forover samtidig med at det andet ben føres bagud, indtil du står i et T. Rejs dig igen."
 permalink: /oevelse/deadlift-one-leg/
@@ -7,9 +7,7 @@ redirect_from: /node/42
 id: 42
 language: da
 header:
-  overlay_image: /assets/images/exercises/deadlift-one-leg-0.jpg
   teaser: /assets/images/exercises/deadlift-one-leg-0-320.jpg
-  caption: *title
 tags:
   - Koordination og balance
   - hoftedomineret

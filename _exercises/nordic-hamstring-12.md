@@ -1,14 +1,12 @@
 ---
-title: &title "Nordic hamstring: Undgå skader i baglåret og præster bedre!"
+title: "Nordic hamstring: Undgå skader i baglåret og præster bedre!"
 instructions: "I Nordic Hamstring sidder du på knæene med fikserede underben. Læn dig langsomt fremover med strakt hofte. Tag fra med armene og skub dig tilbage igen, så du kan bruge haserne til at trække dig selv op igen."
 permalink: /oevelse/nordic-hamstring/
 redirect_from: /node/12
 id: 12
 language: da
 header:
-  overlay_image: /assets/images/exercises/nordic-hamstring-0.jpg
   teaser: /assets/images/exercises/nordic-hamstring-0-320.jpg
-  caption: *title
 tags:
   - Ben
   - Styrketræning

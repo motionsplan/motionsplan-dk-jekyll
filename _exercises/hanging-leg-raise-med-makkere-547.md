@@ -1,5 +1,5 @@
 ---
-title: &title "Hanging leg raise med makkere"
+title: "Hanging leg raise med makkere"
 excerpt: "Makkerne holder en pind imellem sig ud for deres brystkasse og spænder godt op i kroppen. Du hænger dig i pinden. Opgaven er at få fødderne op over pinden."
 instructions: "Makkerne holder en pind imellem sig ud for deres brystkasse og spænder godt op i kroppen. Du hænger dig i pinden. Opgaven er at få fødderne op over pinden."
 permalink: /oevelse/hanging-leg-raise-med-makkere/
@@ -7,9 +7,7 @@ redirect_from: /node/547
 id: 547
 language: da
 header:
-  overlay_image: /assets/images/exercises/hanging-leg-raise-med-makkere-0.jpg
   teaser: /assets/images/exercises/hanging-leg-raise-med-makkere-0-320.jpg
-  caption: *title
 tags:
   - Kropsstamme
 categories:

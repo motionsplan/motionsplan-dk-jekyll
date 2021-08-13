@@ -1,5 +1,5 @@
 ---
-title: &title "Pike and straight arm push back on swissball"
+title: "Pike and straight arm push back on swissball"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/pike-and-straight-arm-push-back-swissball/
@@ -29,5 +29,3 @@ video:
   id: o-8jNoh_ojA
 last_modified_at: 2016-10-31T12:34:12Z
 ---
-
-

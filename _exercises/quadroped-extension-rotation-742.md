@@ -1,5 +1,5 @@
 ---
-title: &title "Quadroped extension rotation"
+title: "Quadroped extension rotation"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/quadroped-extension-rotation/
@@ -29,5 +29,3 @@ video:
   id: kph4CuBsZ3Y
 last_modified_at: 2016-11-01T08:40:02Z
 ---
-
-

@@ -1,5 +1,5 @@
 ---
-title: &title "Balancekrabbe"
+title: "Balancekrabbe"
 excerpt: "Stil dig i _krabbestilling_. Løft nu højre ben og venstre arm op i luften og balancér på venstre ben og højre arm. Hold balancen i 5 sek. og skift arm/ben."
 instructions: " Stil dig i _krabbestilling_. Løft nu højre ben og venstre arm op i luften og balancér på venstre ben og højre arm. Hold balancen i 5 sek. og skift arm/ben."
 permalink: /oevelse/balancekrabbe/
@@ -7,10 +7,8 @@ redirect_from: /node/422
 id: 422
 language: da
 #header:
-#  overlay_image: /assets/images/exercises/balancekrabbe-0.gif
 #  teaser: /assets/images/exercises/balancekrabbe-0-320.gif
-#  caption: *title
-tags:
+#tags:
   - kropsstamme
   - kropsvægt
 categories: []

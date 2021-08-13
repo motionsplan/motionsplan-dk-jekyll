@@ -1,5 +1,5 @@
 ---
-title: &title "Sjipning"
+title: "Sjipning"
 excerpt: "Du sjipper i den afsatte tid. Hold hænderne nogenlunde tæt til hoften og sørg for at sjippetovet primært svinges i håndleddene."
 instructions: "Du sjipper i den afsatte tid. Hold hænderne nogenlunde tæt til hoften og sørg for at sjippetovet primært svinges i håndleddene."
 permalink: /oevelse/sjipning/
@@ -7,9 +7,7 @@ redirect_from: /node/150
 id: 150
 language: da
 header:
-  overlay_image: /assets/images/exercises/sjipning-0.jpg
   teaser: /assets/images/exercises/sjipning-0-320.jpg
-  caption: *title
 tags:
   - Kondition og puls
   - sjippetov

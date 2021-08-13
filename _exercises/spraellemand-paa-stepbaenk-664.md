@@ -1,5 +1,5 @@
 ---
-title: &title "Sprællemand på stepbænk"
+title: "Sprællemand på stepbænk"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/spraellemand-paa-stepbaenk/
@@ -7,9 +7,7 @@ redirect_from: /node/664
 id: 664
 language: da
 header:
-  overlay_image: /assets/images/exercises/spraellemand-paa-stepbaenk-0.jpg
   teaser: /assets/images/exercises/spraellemand-paa-stepbaenk-0-320.jpg
-  caption: *title
 tags:
   - Kondition og puls
   - Kondition
@@ -46,5 +44,3 @@ gallery:
     title: "Sprællemand på stepbænk"
 last_modified_at: 2015-04-07T11:48:45Z
 ---
-
-

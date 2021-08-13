@@ -1,5 +1,5 @@
 ---
-title: &title "Varm the"
+title: "Varm the"
 excerpt: ""
 instructions: ""
 permalink: /oevelse/varm/
@@ -7,9 +7,7 @@ redirect_from: /node/592
 id: 592
 language: da
 header:
-  overlay_image: /assets/images/exercises/varm-0.jpg
   teaser: /assets/images/exercises/varm-0-320.jpg
-  caption: *title
 tags:
   - Koordination og balance
   - Mobilisering
@@ -58,5 +56,3 @@ gallery:
     title: "Varm the"
 last_modified_at: 2014-10-12T21:34:51Z
 ---
-
-
