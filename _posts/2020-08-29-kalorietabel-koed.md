@@ -1,5 +1,5 @@
 ---
-title: &title "Kalorietabel for kød: Tabel med kalorier i oksekød, kylling, svin 🥩"
+title: &title "Tabel med kalorier i kød, oksekød, kylling, svin 🥩"
 permalink: /kalorietabel-koed/
 last_modified_at: 2020-07-29T09:41:09Z
 language: da

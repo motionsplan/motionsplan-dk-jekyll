@@ -1,5 +1,6 @@
 ---
-title: &title "Kalorietabel for grønstager: Tabel med kalorier i grøntsager 🥦"
+title: &title "Tabel med kalorier i grøntsager 🥦"
+seo_title: "Hvor mange kalorier er der i grøntsager? 🥦"
 permalink: /kalorietabel-groentsager/
 last_modified_at: 2020-07-29T09:41:09Z
 language: da

@@ -1,5 +1,6 @@
 ---
-title: &title "Kalorietabel for alkohol: Tabel med kalorier i vin, øl og spiritus 🍺🍷"
+title: &title "Kalorier i alkohol, vin, øl og spiritus 🍺🍷"
+seo_title: "Hvor mange kalorier er der i alkohol, vin, øl og spiritus?"
 permalink: /kalorietabel-alkohol/
 last_modified_at: 2021-07-28T09:41:09Z
 language: da

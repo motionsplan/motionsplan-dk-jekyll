@@ -3,6 +3,7 @@ last_modified_at: 2020-02-13T22:23:01.000Z
 author: martin.madsen
 permalink: /artikel/kan-styrketraening-forebygge-skader/
 title: "Forebyggelse af skader: Hvad er mest effektivt til skadesforebyggelse?"
+seo_title: "Hvordan forebygger du skader mest effektivt?"
 header:
   overlay_image: /assets/images/blog/kan-styrketraening-forebygge-skader.jpg
   teaser: /assets/images/blog/kan-styrketraening-forebygge-skader.jpg

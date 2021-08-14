@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /brystoevelser/
-title: "Øvelser til brystet: De mest effektive styrketræningsøvelser til brystet 🏋"
+title: "Øvelser til brystet: Effektive styrketræningsøvelser til brystet 🏋"
 author_profile: true
 classes: wide
 header:

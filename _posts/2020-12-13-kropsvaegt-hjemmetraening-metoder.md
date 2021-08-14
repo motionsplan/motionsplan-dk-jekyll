@@ -1,5 +1,6 @@
 ---
 title: &title "Gør træning hjemme med kropsvægt og hjemmetræning mere effektivt 💪"
+seo_title: "Gør træning med kropsvægt og hjemmetræning mere effektivt 💪"
 permalink: /metoder-hjemmetraening-kropsvaegt-mere-effektiv/
 language: da
 author: lsolesen

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Fitnessinstruktør: Øvelser og træningsøvelser til fitnessinstruktør"
+title: "Øvelser og træningsøvelser til fitnessinstruktør"
 permalink: /fitness/ovelser/
 author_profile: true
 system:

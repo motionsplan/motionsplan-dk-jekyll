@@ -1,5 +1,6 @@
 ---
 title: &title "Hjemmetræning: Træningsprogram til politiets optagelsesprøve 🏃💪👮👮‍♀️"
+seo_title: "Træningsprogram til politiets optagelsesprøve 🏃💪👮👮‍♀️"
 permalink: /politi-traeningsprogram/
 language: da
 header:

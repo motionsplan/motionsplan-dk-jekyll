@@ -1,5 +1,5 @@
 ---
-title: &title "Effektiv intervaltræning til cykling med spurter og mælkesyre 🚴🚴‍♀️"
+title: &title "Cykeltrænning: Effektiv intervaltræning til cykling 🚴🚴‍♀️"
 permalink: /intervaltraening-cykling/
 language: da
 header:

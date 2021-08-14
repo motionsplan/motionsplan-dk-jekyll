@@ -1,5 +1,5 @@
 ---
-title: &title "Kalorietabel for frugt: Gratis tabel med kalorier i frugt og bær 🥭"
+title: &title "Gratis tabel med kalorier i frugt og bær 🥭"
 permalink: /kalorietabel-frugt/
 last_modified_at: 2020-07-29T09:41:09Z
 language: da
