@@ -1,5 +1,6 @@
 ---
 title: "Teres Major"
+seo_title: "Teres Major | Muskler"
 joint:
   - Skulderleddet
 group:

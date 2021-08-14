@@ -1,5 +1,6 @@
 ---
-title: "Kappemusklen - Trapezius"
+title: "Kappemusklen"
+seo_title: "Kappemusklen | Trapezius | Muskler"
 functional_group:
   - Skulderbladsadduktorer
 joint:

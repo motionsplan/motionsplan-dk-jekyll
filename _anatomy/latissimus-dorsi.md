@@ -1,5 +1,6 @@
 ---
 title: "Den brede rygmuskel"
+seo_title: "Den brede rygmuskel | Latissimus Dorsi | Muskler"
 functional_group:
   - Armens bagudføring
 joint:

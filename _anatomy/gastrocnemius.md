@@ -1,5 +1,6 @@
 ---
 title: "Den tohovedede lægmuskel"
+seo_title: "Den tohovedede lægmuskel | Gastrocnemius | Muskler"
 joint:
   - Fodleddet
 functional_group:

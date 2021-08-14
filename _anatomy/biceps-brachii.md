@@ -1,5 +1,6 @@
 ---
 title: Tohovedede armbøjer (Biceps Brachii)
+seo_title: Tohovedede armbøjer | Biceps Brachii | Muskler
 functional_group:
   - Armens fremadføring
   - Armbøjere

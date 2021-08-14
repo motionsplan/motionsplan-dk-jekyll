@@ -1,5 +1,6 @@
 ---
 title: "Flexor Carpi Radialis"
+seo_title: "Flexor Carpi Radialis | Muskler"
 functional_group:
   - Håndleddets bøjere (volarflektorer) og fingerbøjerne
 joint:

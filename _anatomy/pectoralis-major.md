@@ -1,5 +1,6 @@
 ---
 title: Den store brystmuskel
+seo_title: "Den store brystmuskel | Pectoralis Major | Muskler"
 functional_group:
   - Armens fremadføring
 joint:

@@ -1,5 +1,6 @@
 ---
 title: "Quadratus lumborum"
+seo_title: "Den firkantede lændemuskel | Quadratus lumborum | Muskler"
 functional_group:
   - Rygstrækkere (ekstension)
 joint:
@@ -8,7 +9,7 @@ group:
   - Ryg
 name:
   latin: Quadratus lumborum
-  da: 	Den firkantede lændemuskel
+  da: Den firkantede lændemuskel
 tags:
   - muskel
 categories:

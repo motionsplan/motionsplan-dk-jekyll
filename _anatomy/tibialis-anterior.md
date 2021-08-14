@@ -1,5 +1,6 @@
 ---
 title: "Forreste skinnebensmuskel"
+seo_title: "Forreste skinnebensmuskel | Tibialis Anterior | Muskler"
 joint:
   - Fodleddet
 functional_group:

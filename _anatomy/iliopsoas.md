@@ -1,5 +1,6 @@
 ---
 title: "Hoftebøjeren"
+seo_title: "Hoftebøjeren | Ilopsoas | Muskler"
 joint:
   - Hofteleddet
 group: 

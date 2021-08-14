@@ -1,5 +1,6 @@
 ---
 title: "Lårmusklens ydre hoved"
+seo_title: "Lårmusklens ydre hoved | Vastus Lateralis | Muskler"
 permalink: /vastus-lateralis/
 redirect_from:
   - /muskler/vastus-lateralis/

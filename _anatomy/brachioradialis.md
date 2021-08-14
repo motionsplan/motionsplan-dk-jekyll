@@ -1,5 +1,6 @@
 ---
 title: "Brachioradialis"
+title: "Brachioradialis | Muskler"
 joint:
   - Albueleddet
 group:

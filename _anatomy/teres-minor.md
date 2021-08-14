@@ -1,5 +1,6 @@
 ---
 title: "Teres Minor"
+seo_title: "Teres Minor | Muskler"
 excerpt: ""
 joint:
   - Skulderleddet

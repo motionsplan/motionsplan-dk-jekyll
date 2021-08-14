@@ -1,5 +1,6 @@
 ---
 title: "Den lille sædemuskel"
+seo_title: "Den lille sædemuskel | Gluteus Minimus | Muskler"
 functional_group:
   - Hoftens udadførere
 joint:

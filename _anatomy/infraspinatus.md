@@ -1,6 +1,7 @@
 ---
 title: "Infraspinatus"
-excerpt: ""
+seo_title: "Infraspinatus | Muskler"
+excerpt: "Infraspinatus en del af rotatorcuffen som stabiliserer skulderleddet. Samtidig udadroterer infrapinatus armen i skulderleddet og hjælper med at føre armen bagud."
 joint:
   - Skulderleddet
 group:

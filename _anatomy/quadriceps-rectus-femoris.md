@@ -1,5 +1,6 @@
 ---
 title: "Lårmusklens lige hoved"
+seo_title: "Lårmusklens lige hoved | Rectus Femoris | Muskler"
 permalink: /rectus-femoris/
 redirect_from:
   - /muskler/rectus-femoris/

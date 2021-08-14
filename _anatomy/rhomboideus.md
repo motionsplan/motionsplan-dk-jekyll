@@ -1,5 +1,6 @@
 ---
 title: "Rhomboideus"
+seo_title: "Rhombemusklen | Rhomboideus | Muskler"
 functional_group:
   - Skulderbladsadduktorer
 joint:

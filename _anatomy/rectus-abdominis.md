@@ -1,5 +1,6 @@
 ---
 title: "Lige mavemuskel"
+seo_title: "Lige mavemuskel | Rectus Abdominis | Muskler"
 functional_group:
   - Mavemuskler (fleksion)
 group:

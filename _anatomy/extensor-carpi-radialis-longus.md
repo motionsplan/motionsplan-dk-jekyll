@@ -1,5 +1,6 @@
 ---
 title: "Extensor Carpi Radialis Longus"
+seo_title: "Extensor Carpi Radialis Longus | Muskler"
 functional_group:
   - Håndleddets strækkere (dorsalflektorer) og fingerstrækkerne
 joint:

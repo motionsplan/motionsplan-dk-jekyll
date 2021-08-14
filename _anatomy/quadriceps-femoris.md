@@ -1,5 +1,6 @@
 ---
-title: "Firehovedede knæstrækker - Quadriceps femoris"
+title: "Firehovedede knæstrækker"
+seo_title: "Firehovedede knæstrækker | Quadriceps femoris | Muskler"
 joint:
   - Knæleddet
 functional_group:

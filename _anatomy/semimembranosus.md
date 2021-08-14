@@ -1,5 +1,6 @@
 ---
 title: "Halvsenede knæbøjer"
+seo_title: "Halvsenede knæbøjer | Semimembranosus | Muskler"
 joint:
   - Knæleddet
   - Hofteleddet

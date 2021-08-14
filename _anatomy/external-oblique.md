@@ -1,5 +1,6 @@
 ---
 title: "Ydre skrå mavemuskel"
+seo_title: "Ydre skrå mavemuskel | Muskler"
 functional_group:
   - Mavemuskler (fleksion)
 joint:

@@ -1,6 +1,7 @@
 ---
 title: "Serratus Anterior"
-excerpt: ""
+seo_title: "Den savtakkede brystmuskel | Serratus Anterior | Muskler"
+excerpt: "Serratus anterior bliver også kaldt boksermusklen, fordi den er meget udviklet hos boksere, da skulderbladet laver en protraction under slagbevægelsen."
 functional_group:
   - Skulderbladsabduktorer
 joint:
@@ -37,7 +38,7 @@ coords:
   - "173,150,181,154,180,160,184,163,183,145"
 ---
 
-Serratus anterioer bliver også kaldt boksermusklen, fordi den er meget udviklet hos boksere, da skulderbladet laver en protraction under slagbevægelsen. 
+Serratus anterior bliver også kaldt boksermusklen, fordi den er meget udviklet hos boksere, da skulderbladet laver en protraction under slagbevægelsen. 
 
 {% include figure image_path="https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs12178-020-09672-6/MediaObjects/12178_2020_9672_Fig2_HTML.png" caption="Bevægelser i skulderbladet" %}
 

@@ -1,5 +1,6 @@
 ---
 title: "Indre skrå mavemuskel"
+seo_title: "Indre skrå mavemuskel | Internal Oblique | Muskler"
 functional_group:
   - Mavemuskler (fleksion)
 joint:

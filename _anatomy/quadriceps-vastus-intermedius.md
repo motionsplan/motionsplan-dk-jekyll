@@ -1,5 +1,6 @@
 ---
 title: "Lårmusklens dybe hoved"
+seo_title: "Lårmusklens dybe hoved | Vastus Intermedius | Muskler"
 permalink: /vastus-intermedius/
 redirect_from:
   - /muskler/vastus-intermedius/

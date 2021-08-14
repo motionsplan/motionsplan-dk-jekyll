@@ -1,5 +1,6 @@
 ---
 title: "Extensor Digitorum"
+seo_title: "Extensor Digitorum | Muskler"
 functional_group:
   - Håndleddets strækkere (dorsalflektorer) og fingerstrækkerne
 joint:

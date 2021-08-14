@@ -1,5 +1,6 @@
 ---
 title: "Anconeus"
+seo_title: "Anconeus | Muskler"
 group:
   - Arme
 name:

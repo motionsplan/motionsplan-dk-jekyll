@@ -1,5 +1,6 @@
 ---
 title: "Den store sædemuskel"
+seo_title: "Den store sædemuskel | Gluteus Maximus | Muskler"
 functional_group:
   - Hoftestrækkere
 joint:

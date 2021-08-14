@@ -1,5 +1,6 @@
 ---
 title: "Den tohovedede knæbøjer"
+seo_title: "Den tohovedede knæbøjer | Biceps Femoris | Muskler"
 joint:
   - Knæleddet
   - Hofteleddet

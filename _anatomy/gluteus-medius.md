@@ -1,5 +1,6 @@
 ---
 title: "Den mellemste sædemuskel"
+seo_title: "Den mellemste sædemuskel | Gluteus Medius | Muskler"
 functional_group:
   - Hoftens udadførere
 joint:

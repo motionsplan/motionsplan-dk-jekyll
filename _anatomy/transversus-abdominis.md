@@ -1,5 +1,6 @@
 ---
 title: "Bugpressen"
+seo_title: "Bugpressen | Transversus Abdominis | Muskler"
 functional_group:
   - Mavemuskler (fleksion)
 joint:

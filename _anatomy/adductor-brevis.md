@@ -1,5 +1,6 @@
 ---
 title: "Adductor Brevis"
+seo_title: "Den korte indadfører | Adductor Brevis | Muskler"
 functional_group:
   - Hoftens indadførere
 group:

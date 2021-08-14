@@ -1,5 +1,6 @@
 ---
 title: "Extensor Digitori Minimi"
+seo_title: "Extensor Digitori Minimi | Muskler"
 functional_group:
   - Håndleddets strækkere (dorsalflektorer) og fingerstrækkerne
 joint:

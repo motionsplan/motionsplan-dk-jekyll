@@ -1,5 +1,6 @@
 ---
 title: Flexor Carpi Ulnaris
+seo_title: "Flexor Carpi Ulnaris | Muskler"
 functional_group:
   - Håndleddets bøjere (volarflektorer) og fingerbøjerne
 name:

@@ -1,5 +1,6 @@
 ---
 title: "Halvtrinde knæbøjer"
+seo_title: "Halvtrinde knæbøjer | Semitendinosus | Muskler"
 joint:
   - Knæleddet
   - Hofteleddet

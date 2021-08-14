@@ -1,5 +1,6 @@
 ---
-title: "Skuldermuskel - Deltamuskel - Deltoideus"
+title: "Skuldermuskel"
+seo_title: "Skuldermuskel | Deltoideus | Deltamuskel"
 functional_group:
   - Armens udadføring
   - Armens fremadføring

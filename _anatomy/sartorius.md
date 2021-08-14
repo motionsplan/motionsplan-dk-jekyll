@@ -1,5 +1,6 @@
 ---
 title: "Skræddermusklen"
+seo_title: "Skræddermusklen | Sartorius | Muskler"
 functional_group:
   - Hoftebøjere
 group:

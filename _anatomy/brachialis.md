@@ -1,5 +1,6 @@
 ---
 title: "Brachialis"
+seo_title: "Den dybe armbøjer | Brachialis | Muskler"
 functional_group:
   - Armbøjere
 joint:

@@ -1,5 +1,6 @@
 ---
 title: Pectineus
+seo_title: "Kammusklen | Pectineus | Muskler"
 functional_group:
   - Hoftens indadførere
 joint:

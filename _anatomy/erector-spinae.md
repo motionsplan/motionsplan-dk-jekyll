@@ -1,5 +1,6 @@
 ---
 title: "Rygstrækkere"
+seo_title: "Rygstrækkere | Erector Spinae | Muskler"
 functional_group:
   - Rygstrækkere (ekstension)
 joint:

@@ -1,5 +1,6 @@
 ---
 title: "Tensor Fascia Latae"
+seo_title: "Lårfasciens spænder | Tensor Fascia Latae | Muskel"
 functional_group:
   - Hoftebøjere
 joint:

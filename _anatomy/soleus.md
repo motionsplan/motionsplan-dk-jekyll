@@ -1,5 +1,6 @@
 ---
 title: "Flyndermusklen"
+seo_title: "Flyndermusklen | Soleus | Lægmuskel"
 group:
   - Ben
 functional_group:

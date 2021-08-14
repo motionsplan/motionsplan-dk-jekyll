@@ -1,5 +1,6 @@
 ---
 title: "Den slanke indadfører"
+seo_title: "Den slanke indadfører | Gracilis | Muskler"
 functional_group:
   - Hoftens indadførere
 joint:
