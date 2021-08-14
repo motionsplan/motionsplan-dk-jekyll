@@ -8,10 +8,10 @@ header:
   caption: *title
 category:
   - Træning
+  - Inspiration
 tags:
-  - programlægning
-  - træningsprogram
-  - træning
+  - inspiration
+  - bøger
 last_modified_at: 2020-01-23T08:14:14Z
 toc: true
 feature_row:
