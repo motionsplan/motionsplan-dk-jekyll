@@ -1,8 +1,10 @@
 ---
 title: &title "Hvordan opbygger jeg et helkropsprogram til styrketræning?"
-excerpt: "Guide til at opbygge et helkropsprogram til styrketræning, der træner hele kroppen hver gang. Komplet med forslag til enkle helkropsprogrammer."
+seo_title: "Fullbody: Hvordan opbygger jeg et helkropsprogram?"
+excerpt: "Guide til at opbygge et helkropsprogram til styrketræning, der træner hele kroppen hver gang. Komplet med forslag til fullbody-program."
 permalink: /artikel/hvordan-opbygger-jeg-et-helkropsprogram/
 redirect_from:
+  - /gratis-helkropsprogram/
   - /artikel/verdens-korteste-styrkeprogram/
 language: da
 header:
@@ -15,12 +17,13 @@ tags:
   - træningsplanlægning
   - programlægning
   - begynder
+  - fullbody
 category:
   - Styrketræning
 last_modified_at: 2021-04-03T11:44:17Z
 ---
 
-Hvordan laver man et styrketræningsprogram, hvor man træner hele kroppen på et træningspas? Et helkropsprogram er egnet for dig, der gerne vil træne mellem en og tre gange om ugen og vil bruge omkring en time på hver træning.
+Hvordan laver man et fullbody-program, hvor man træner hele kroppen på et træningspas? Et helkropsprogram er egnet for dig, der gerne vil træne mellem en og tre gange om ugen og vil bruge omkring en time på hver træning.
 
 Hvis du interesseret i at gå endnu mere i dybden med at **lave dit eget styrketræningsprogram**, så kan du tjekke [6 trin til at lave dit eget træningsprogram til styrketræning]({% link _posts/2021-04-24-programlaegning.md %}) eller vores [komplette guide til styrketræning og programlægning]({% link _posts/2020-08-19-programlaegning.md %}). Jeg har også lavet en række [anmeldelser af styrketræningsprogrammer her]({% link _posts/2020-12-30-anmeldelse-traeningsprogrammer.md %})
 
@@ -43,7 +46,7 @@ Hvis du vælger en eller to komplekse øvelse fra hver gruppe af øvelser, sikre
 
 Hvis du bare vil i almindelig god form, anbefaler vi at du laver 8-12 gentagelser af hver øvelse, og det gentager du 2-4 gange. Man siger at man laver otte gentagelser på fire sæt. Du kan læse mere om, [hvordan du kan dosere din styrketræning?](/traeningsprogram-programlaegning-styrketraening/)
 
-## Træn hårdt og med omtanke!
+## Hvordan skal jeg træne i et fullbodyprogram?
 
 Så har du det du behøver for at lave et varieret helkropsprogram. For at få de bedste resultater er der stadig mere at lære.
 
@@ -51,7 +54,7 @@ Så har du det du behøver for at lave et varieret helkropsprogram. For at få d
 - **Slå en rekord hver gang**. Når du kommer til træning skal du gerne slå en rekord hver gang. Det kan være lidt mere vægt i en øvelse, eller lidt flere gentagelser, eller et ekstra set af en øvelse. På den måde sikrer du dig, at der er konstant fremgang.
 - **Organisér din træning**. Du bestemmer selv hvordan du organiserer din træning. Enten kan gøre en øvelse helt færdig og holde pauser imellem, eller du kan fx lave otte gentagelser af squat og i pausen lave pullups. Du kan læse mere på motion-online.dk i artiklen [Brug tiden effektivt i fitnesscenteret](https://www.motion-online.dk/brug-tiden-effektivt-fitnesscenteret/){:rel="nofollow"}.
 - **Variér din træning**. Du skal sørge for at variere din træning. Brug fx det samme træningsprogram tre uger i træk, og derefter vælger du nogle nye øvelser.
-- **Lær noget mere om styrketræning**. Læs fx denne [komplette begynderguide til at lave et styrketræning til styrketræning]({% link _posts/2020-08-19-programlaegning.md %}) eller [6 trin til at lave dit eget træningsprogram til styrketræning]({% link _posts/2021-04-24-programlaegning.md %}).
+- **Lær noget mere om styrketræning**. Læs fx denne [komplette begynderguide til programlægning til styrketræning]({% link _posts/2020-08-19-programlaegning.md %}) eller [6 trin til at lave dit eget træningsprogram til styrketræning]({% link _posts/2021-04-24-programlaegning.md %}).
 
 ## Verdens mest effektive helkropsprogram til styrketræning
 
@@ -59,6 +62,28 @@ Vil du også gerne have maksimalt udbytte af færrest mulige øvelser? Ofte afs�
 
 - **Normale version**. Se [det kompakte helkropsprogram](/node/435/) med øvelser alle kan magte i en eller anden udformning. Det kan sagtens være, at man skal have makkerhjælp eller vælge en alternativ øvelse.
 - **Avancerede udgave**. Se [det avancerede helkropsprogram](/node/434/) med virkelig avancerede øvelser, der stiller ekstremt store krav til både teknik, koordination og styrke.
+
+## Eksempler på et fuldkropsprogram
+
+Rigtig mange af de [klassiske træningsprogrammer]({% link _pages/trainingprograms-archive.md %}) er fuldkropsprogrammer. Her kan du se et udsnit af de fuldkropsprogrammer, jeg har beskrevet.
+
+{% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "fullbody" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
+{% comment %}
+
+## Ofte stillede spørgsmål om fullbody-programmer
+
+{% endcomment %}
 
 ## Referencer om helkropsprogram
 

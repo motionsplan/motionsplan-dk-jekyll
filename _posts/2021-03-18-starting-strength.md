@@ -14,6 +14,7 @@ tags:
   - træning
   - styrketræning
   - programanmeldelse
+  - fullbody
 last_modified_at: 2021-03-22T08:14:14Z
 toc: true
 gallery:

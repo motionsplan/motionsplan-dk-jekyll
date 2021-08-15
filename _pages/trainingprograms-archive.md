@@ -67,3 +67,17 @@ Tag udgangspunkt i et af de mange effektive programmer her og tilpas dem til din
 {% endif %}
 
 </div>
+
+## Artikler om programlægning og træningsplanlægning
+
+<div class="feature__wrapper">
+
+{% assign articles = site.posts | where: "tags", "programlægning" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" %}
+
+{% if articles.size > 0 %}
+  {% for post in articles %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
