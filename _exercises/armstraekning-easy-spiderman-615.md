@@ -1,7 +1,7 @@
 ---
 title: "Armstrækning, easy spiderman"
-excerpt: ""
-instructions: ""
+excerpt: "Lav en almindelig armstrækning. På vejen ned fører du knæet op mod armhulen uden at ændre andet i din kropsposition. På vej op igen fører du benet tilbage. Næste rep bruger du det andet ben."
+instructions: "Lav en almindelig armstrækning. På vejen ned fører du knæet op mod armhulen uden at ændre andet i din kropsposition. På vej op igen fører du benet tilbage. Næste rep bruger du det andet ben."
 permalink: /oevelse/armstraekning-easy-spiderman/
 redirect_from: /node/615
 id: 615

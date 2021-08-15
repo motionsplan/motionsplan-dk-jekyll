@@ -18,9 +18,7 @@ training_focus: []
 equipment:
   - vægtstang
   - håndvægte
-muscle_group:
-  - 
-  - 
+muscle_group: []
 alternative_titles:
   - Skrå bænkpres
   - Skrå bænk
