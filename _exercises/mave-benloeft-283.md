@@ -42,3 +42,7 @@ gallery:
     title: "Mave, benløft"
 last_modified_at: 2014-10-12T22:05:15Z
 ---
+
+{{ page.excerpt }}
+
+Tjek [flere øvelser til styrketræning af maven]({% link _pages/exercises-tag-abs.md %}).

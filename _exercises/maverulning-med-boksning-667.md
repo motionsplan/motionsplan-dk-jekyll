@@ -1,7 +1,7 @@
 ---
 title: "Maverulning med boksning"
-excerpt: ""
-instructions: ""
+excerpt: "Lig på ryggen med benene bøjede. Lav en maverulning. På vej op laver du boksebevægelser."
+instructions: "Lig på ryggen med benene bøjede. Lav en maverulning. På vej op laver du boksebevægelser."
 permalink: /oevelse/maverulning-med-boksning/
 redirect_from: /node/667
 id: 667
@@ -45,3 +45,7 @@ gallery:
     title: "Maverulning med boksning"
 last_modified_at: 2015-04-07T11:57:18Z
 ---
+
+{{ page.excerpt }}
+
+Tjek [flere øvelser til styrketræning af maven]({% link _pages/exercises-tag-abs.md %}).

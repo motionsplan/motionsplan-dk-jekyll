@@ -167,7 +167,7 @@ Målet er at forbedre udholdenheden af _fast twitch_-muskelfibrene. Skal ske med
 
 {% include video provider="facebook" id="8weeksout/videos/10155741321175787" %}
 
-Jeg har skrevet endnu mere om [aerob træning]({% link _posts/2021-06-19-aerob-traening.md %}).
+Jeg har skrevet endnu mere om [hvad aerob træning er her]({% link _posts/2021-06-19-aerob-traening.md %}).
 
 ## Træning af det anaerobe system
 
@@ -204,7 +204,7 @@ Der arbejdes 30-40 sekunder med 1-4 minutters pause. Der arbejdes med 2-5 sæt o
 
 {% include video provider="youtube" id="q8zcxiucNkY" %}
 
-Jeg har skrevet endnu mere om [anaerob træning]({% link _posts/2021-01-02-anaerob-traening.md %}).
+Jeg har skrevet endnu [mere om anaerob træning]({% link _posts/2021-01-02-anaerob-traening.md %}).
 
 ## Programlægning af aerob og anaerob træning
 

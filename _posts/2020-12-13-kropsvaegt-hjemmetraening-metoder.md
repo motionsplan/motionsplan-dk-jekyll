@@ -27,6 +27,8 @@ feature_row:
 
 Jeg har samlet metoder til at gøre din hjemmetræning mere effektiv. Når du træner hjemme, så træner du ofte uden udstyr eller med begrænset udstyr. Jeg træner ofte selv øvelser med kropsvægt, når jeg træner hjemme, men jeg vælger effektive øvelser, og så bruger jeg forskellige metoder for at gøre træningen endnu mere effektiv.
 
+Metoderne kan også også bruges i styrketræningsrummet, men er også særdeles effektive, når du kaster dig ud i [hjemmetræning]({% link _posts/2020-08-06-hjemmetraening.md %}).
+
 {% comment %}
 
 ## Ram hele kroppen med hjemmetræningen
@@ -193,7 +195,7 @@ Eller pullup variationen med 7-7-7
 
 {% endcomment %}
 
-Dan North [foreslår ud over unilaterale øvelser og isometriske og excentriske metoder også at bruge halvanden gentqgelser](https://www.t-nation.com/training/build-muscle-anywhere-anytime), når man skal gøre træningen hårdere. Simon Bigshooter fra supertraining.dk er også [stor fan af halvanden chinups](http://supertraining.dk/255-superoevelse-one-and-a-half-rep-chin-ups/).
+[Dan North foreslår](https://www.t-nation.com/training/build-muscle-anywhere-anytime) ud over unilaterale øvelser og isometriske og excentriske metoder også at bruge halvanden gentagelser, når man skal gøre træningen hårdere. Simon Bigshooter fra supertraining.dk er også [stor fan af halvanden chinups](http://supertraining.dk/255-superoevelse-one-and-a-half-rep-chin-ups/).
 
 {% comment %}
 
