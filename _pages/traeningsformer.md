@@ -43,7 +43,7 @@ Læs mere om [løb og løbetræning her](/loebesiden/).
 
 Cardio handler om at træne din kondition og dit kredsløb. Du kan bruge mange forskellige måder til at træne på. Vi har forslag til træningsprogrammer og øvelser til din cardiotræning. Du kan også tjekke vores [guide til de bedste cardiomaskiner]({% link _posts/2020-12-23-bedste-cardiomaskiner.md %}).
 
-Læs mere om [cardio og konditionstræning](/kondition/).
+Læs mere om [cardio træning](/cardio-traening-workout/) og [konditionstræning](/kondition/).
 
 ## Yoga og mindfulness
 
