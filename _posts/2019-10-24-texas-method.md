@@ -7,8 +7,8 @@ toc: true
 permalink: /texas-method/
 title: "Texas Method: Styrketræningsprogram til letøvede"
 header:
-  overlay_image: https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/553202146-1553267207.png?crop=1xw:0.75xh;center,top&resize=980:*
-  teaser: https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/553202146-1553267207.png?crop=1xw:0.75xh;center,top&resize=980:*
+  overlay_image: hhttps://images.unsplash.com/photo-1550977616-efc580084ac5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80
+  teaser: https://images.unsplash.com/photo-1550977616-efc580084ac5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
   caption: "*title"
 category:
   - Styrketræning
@@ -38,6 +38,8 @@ language: da
 *[PR]: Personal Record
 
 En af fordelene ved Texas Method er, at den i en meso-cyklus (en uge) både tager højde for volumen, restituion og intensitet. Samtidig per pointen i programmet, at belastningen skal stige fra uge til uge, så der er lineær progression på ugebasis.
+
+Husk at Texax Method bare er et af forskellige programmer. Vi har samlet [flere gratis træningsprogrammer]({% link _pages/trainingprograms-archive.md %}), som du kan lade dig inspirere af.
 
 Sørg for at læse instruktionerne grundigt, inden du går i gang med at bruge programmet.
 

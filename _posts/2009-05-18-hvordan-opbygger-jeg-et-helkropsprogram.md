@@ -1,5 +1,5 @@
 ---
-title: &title "Hvordan opbygger jeg et helkropsprogram til styrketræning?"
+title: &title "Fullbody: Helkropsprogram til styrketræning"
 seo_title: "Fullbody: Hvordan opbygger jeg et helkropsprogram?"
 excerpt: "Guide til at opbygge et helkropsprogram til styrketræning, der træner hele kroppen hver gang. Komplet med forslag til fullbody-program."
 permalink: /artikel/hvordan-opbygger-jeg-et-helkropsprogram/
@@ -18,6 +18,7 @@ tags:
   - programlægning
   - begynder
   - fullbody
+  - træningsprogram
 category:
   - Styrketræning
 last_modified_at: 2021-04-03T11:44:17Z
@@ -63,9 +64,9 @@ Vil du også gerne have maksimalt udbytte af færrest mulige øvelser? Ofte afs�
 - **Normale version**. Se [det kompakte helkropsprogram](/node/435/) med øvelser alle kan magte i en eller anden udformning. Det kan sagtens være, at man skal have makkerhjælp eller vælge en alternativ øvelse.
 - **Avancerede udgave**. Se [det avancerede helkropsprogram](/node/434/) med virkelig avancerede øvelser, der stiller ekstremt store krav til både teknik, koordination og styrke.
 
-## Eksempler på et fuldkropsprogram
+## Eksempler på et fuldkropsprogrammer
 
-Rigtig mange af de [klassiske træningsprogrammer]({% link _pages/trainingprograms-archive.md %}) er fuldkropsprogrammer. Her kan du se et udsnit af de fuldkropsprogrammer, jeg har beskrevet.
+Rigtig mange af de [klassiske træningsprogrammer]({% link _pages/trainingprograms-archive.md %}) er fuldkropsprogrammer. Her kan du se et udsnit af de helkropsprogrammer, jeg har beskrevet.
 
 {% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "fullbody" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 

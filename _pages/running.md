@@ -219,7 +219,7 @@ hiit træning løbebånd
 
 </div>
 
-## Løbesiden om løbetræning, intervalløb og løbeprogrammer
+## Løbesiden om løbetræning og intervalløb
 
 {% assign site_posts = site.posts | where: "category", "Løb" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
@@ -227,6 +227,20 @@ hiit træning løbebånd
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
+## Løbeprogrammer
+
+<div class="feature__wrapper">
+
+{% assign site_posts = site.posts | where: "category", "Løb" | where: "tags", "løbeprogram" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts limit:16 %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
