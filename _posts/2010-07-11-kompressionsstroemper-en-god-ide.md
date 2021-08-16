@@ -13,9 +13,8 @@ header:
   teaser: /assets/images/blog/kompressionsstroemper-en-god-ide.jpg
   caption: "Virker kompressionsstrømper på restitution og præstation til cykling og løb?"
 category:
-  - Kondition
   - Løb
-  - Viden om
+  - Restitution
 tags:
   - løb
   - restitution

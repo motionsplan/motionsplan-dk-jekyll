@@ -8,7 +8,7 @@ header:
   teaser: https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/normatec-livingroom-boots-overhear-1574756535.jpg
   caption: Er recovery boots effektiv restitution?
 category:
-  - Viden om
+  - Restitution
 tags:
   - restitution
   - recovery boots

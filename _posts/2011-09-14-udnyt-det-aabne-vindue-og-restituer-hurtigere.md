@@ -11,9 +11,7 @@ header:
   caption: *title
 category:
   - Ernæring
-  - Kondition
-  - Løb
-  - Styrketræning
+  - Restitution
 tags:
   - træning
   - ernæring
