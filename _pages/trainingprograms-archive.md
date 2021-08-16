@@ -30,7 +30,7 @@ Disse effektive styrketræningsprogrammer kan hjælpe dig uanset om dit mål er 
 
 Hvis du vil have nogen effekt af styrketræning, så bør du vælge et program, hvor du træner de enkelte muskelgrupper mindst to gange om ugen for at optimere effekten af træningsprogrammet.
 
-Det kan du gøre gennem fullbody, 2-split og 3-split, som er de mest interessante og brugbare programmer for langt de fleste
+Det kan du gøre gennem [fullbody]({% link _posts/2009-05-18-hvordan-opbygger-jeg-et-helkropsprogram.md %}), [2-split]({% link _posts/2021-08-16-styrke-2-split-push-pull.md %}) og [3-split]({% link _posts/2021-08-16-styrke-3-split.md %}), som er de mest interessante og brugbare programmer for langt de fleste
 mennesker.
 
 Du kan også finde avancerede bodybuildingsprogrammer med 4-split eller 5-split, hvis du træner rigtig meget, har ufattelig meget erfaring og vil have noget variation.

@@ -2,8 +2,8 @@
 title: &title "Sådan vælger du træningsprogram til styrketræning?"
 permalink: /vaelg-traeningsprogram/
 header:
-  overlay_image: https://images.unsplash.com/photo-1517963628607-235ccdd5476c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=80
-  teaser: https://images.unsplash.com/photo-1517963628607-235ccdd5476c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1605296867424-35fc25c9212a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80
+  teaser: https://images.unsplash.com/photo-1605296867424-35fc25c9212a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
   caption: *title
 category:
   - Styrketræning
@@ -82,8 +82,8 @@ Husk at de fleste kan have bedre effekt af et mere enkelt program end et mere ko
 
 - [2-split program træk og pres]({% link _posts/2021-08-16-styrke-2-split-push-pull.md %})
 - [2-split træningsprogram med overkrop og underkrop]({% link _posts/2021-08-16-styrke-2-split-push-pull.md %})
+- [3-split træningsprogram]({% link _posts/2021-08-16-styrke-3-split.md %})
 {% comment %}
-- 3-split træningsprogram
 - 4-split træningsprogram
 - 5-split træningsprogram
 {% endcomment %}

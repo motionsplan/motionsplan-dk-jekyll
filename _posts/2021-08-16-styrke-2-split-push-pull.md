@@ -36,9 +36,34 @@ De to mest klassiske måder at lave et to-split på er:
 
 Begge dele kan fungere rigtig godt som et 2-split-program.
 
-{% comment %}
+Et splitprogram er for de mere rutinerede, som vil 4 gange om ugen eller flere. Det kan gøre det lettere at optimere træningen og begrænse træningstiden de enkelte dage. Splitprogrammet kræver hensigtsmæssig planlægning, så det har en god sammensætning af de muskelgrupper, der skal trænes. 
+
+Splitprogrammer er karakteriseret ved:
+
+- At være delt op i underprogrammer
+- Henvender sig primært til rutinerede motionister, der træner 4 gange eller flere
+- Indeholder typisk flere øvelser for de enkelte muskelgrupper
+- Der kan være fokus på både basisløft, flerledsøvelser og isolationsøvelser
+
+Her kigger vi på forskellige eksempler på 2-splitprogrammer, men det kan sammensættes på mange forskellige måder. Programmer er individuelle og kan ikke generaliseres, men de fleste kan alligevel få en rigtig god fremgang på disse programmer.
+
 ## Klassisk push-pull 2-split
-{% endcomment %}
+
+Her er et eksempel på et helt klassisk push-pull split-program. Det er beregnet til 4 ugentlige træninger. I et 2-split med to forskellige træninger er det en rigtig god ide at få din pausedag, når du har kørt begge splits.
+
+En uge kunne fx se sådan her ud:
+
+- Mandag: Træk A: ben, ryg og biceps
+- Tirsdag: Pres B: bryst, skulder og triceps
+- Onsdag: hviledag
+- Torsdag: Træk A: ben, ryg og biceps
+- Fredag: Pres B: bryst, skulder og triceps
+- Lørdag: hviledag
+- Søndag: hviledag
+
+Hvis du gerne vil træne flere gange om ugen, så kan du godt gøre det ud fra samme skabelon. Du skal sænke volumen i de enkelte træninger, så du er klar til næste træning. Sørg stadig for at have mindst en fridag i ugen.
+
+Du kan også prøve et [3-split-program]({% link _posts/2021-08-16-styrke-3-split.md %}), men yderligere split vil nok være for omfattende for langt de fleste. Det er virkelig avanceret bodybuilding og kræver mange års erfaring.
 
 ## Modificeret Hatfield 2-split til træk/pres
 
