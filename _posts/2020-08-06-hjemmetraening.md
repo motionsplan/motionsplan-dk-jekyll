@@ -1,7 +1,9 @@
 ---
 title: "Hjemmetræning: Øvelser og træningsprogram til træning hjemme"
-permalink: /hjaemmetraening-corona-workouts/
-last_modified_at: 2020-08-06T09:41:09Z
+permalink: /hjemmetraening-traeningsprogram/
+redirect_from:
+  - /hjaemmetraening-corona-workouts/
+last_modified_at: 2021-08-06T09:41:09Z
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1514512364185-4c2b0985be01?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80
@@ -83,15 +85,20 @@ feature_row_ads:
     rel: sponsored nofollow noopener
 ---
 
-Vi har her samlet nogle øvelser til hjemmetræning og et hjemmetræningsprogram, som du kan lave hjemme uden udstyr. Du kan lave de enkelte workouts både indendørs og udendørs. Hjemmetræning kan være en yderst effektiv måde at træne på, og disse øvelser og programmer er meget motiverende.
+Her på siden kan du få inspiration til din hjemmetræning. Vi har her samlet en lang række øvelser til hjemmetræning og et hjemmetræningsprogram, som du kan lave hjemme uden udstyr.
+Du kan lave de enkelte workouts både indendørs og udendørs.
 
-Mette Bjerre som underviser på [Vejle Idrætshøjskole](https://www.vih.dk) har lavet nedenstående Corona-workouts, som du kan træne hjemme uden udstyr. Mette Bjerre var inspireret af eleverne til at lave en række knaldhårde træningsprogrammer, som du kan bruge i din hjemmetræning.
+Hjemmetræning kan være en yderst effektiv måde at træne på, og disse øvelser og programmer er meget motiverende.
 
-## Træningsprogram til hjemmetræning
+Vi dykker først ned i en masse forskellige forslag til, hvordan du kan organisere din træning derhjemme, og så kigger vi på fordele og ulemper for hjemmetræningen.
 
-{% include gallery caption="Øvelser til hjemmetræning og et hjemmetræningsprogram lavet af @mette_bjerre fra @vihdk" layout="half" %}
+## Hvad er hjemmetræning?
 
-Mette lavede i alt workouts til 21 dage. Hvis du er interesseret i flere workouts, så skriv endelig i kommentarerne, så skal jeg gøre endnu flere øvelser og træningsprogrammer klar til hjemmesiden.
+Hjemmetræning kan dække over mange forskellige typer træning. Du kan både lave styrketræning, cardio, yoga, løb og cykling hjemme.
+
+Pointen med hjemmetræning er, at det er tilpasset lige netop til dig og din hverdag. Du behøver ikke have et fitnessabonnement eller adgang til dit lokale træningscenter. Du kan træne præcis når du har lyst, tid og overskud.
+
+Hjemmetræning er altså en god måde at holde dig aktiv på, hvis du kan finde den rette inspiration. Det kan du heldigvis få hjælp til her på siden.
 
 ## Øvelser til hjemmetræning
 
@@ -104,6 +111,40 @@ Rigtig mange sider begyndte at lave træningsprogrammer til hjemmetræning. Spor
 Du kan se et af Fitness Worlds træningsprogrammer, som man kan lave hjemme kun ved hjælp af kropsvægt i denne Youtube-video.
 
 {% include video provider="youtube" id="_cCf5unVIKk" %}
+
+## Styrketræning hjemme
+
+Det er relativt let at lave et styrketræningsprogram til hjemme. Først vælger du nogle kropsvægtsbaserede øvelser, som du kan skalere op og ned i forhold til hvor hårde de er.
+
+Vi har fx en artikel med nogle fremragende [benøvelser med kropsvægt]({% link _posts/2020-11-23-skadesforebyggelse.md %}).
+
+Du kan bruge [disse metoder til at gøre kropsvægtsøvelser mere effektive]({% link _posts/2020-12-13-kropsvaegt-hjemmetraening-metoder.md %}).
+
+## Træn hjemme med klude og sliders
+
+Træning med sliders eller klude kan være rigtig effektivt til at give mere modstand i din træning. Jeg bruger ofte klude og sliders, når jeg skal lave nogle øvelser kun med kropsvægt. Det kan virkelig give en god effekt.
+
+Læs mere om [hjemmetræning med klude og sliders]({% link _posts/2020-12-13-hjemmetraening-med-klude.md %}).
+
+## TRX hjemmetræning
+
+Hvis man hænger en snor op med to håndtag, kalder man det 'suspension' træning. Træningsformen kaldes også slyngetræning, træning med slynger, TRX og Powersling.
+TRX er helt oplagt til hjemmetræning, fordi den er let at sætte op og kan være med til at give en alsidig træning.
+
+Vi har samlet nogle [TRX-øvelser]({% link _posts/2014-04-14-træning-med-slynger-trx-powersling-suspension-training.md %})
+
+## Yoga hjemmetræning
+
+Det er oplagt at træne yoga hjemme på stuegulvet. Der findes en masse forskellige forslag til, hvordan du kan komme i gang med yoga. Hvis du vil se om det er noget for dig, så tjek vores forskellige [yogaøvelser og yogastillinger]({% link _posts/2020-08-30-yogastillinger.md %}).
+
+Du kan fx prøve [yogaserien De fem Tibetanere]({% link _posts/2009-07-01-de-fem-tibetanere.md %}) eller en af de [kendte solhilsner]({% link _posts/2020-07-25-solhilsen.md %})
+
+## Corona Workouts til hjemmetræning
+
+Mette Bjerre som underviser på [Vejle Idrætshøjskole](https://www.vih.dk) har lavet nedenstående Corona-workouts, som du kan træne hjemme uden udstyr. Mette Bjerre var inspireret af eleverne til at lave en række knaldhårde [crossfit-inspirerede workouts]({% link _posts/2021-01-18-crossfit-workouts.md %}), som du kan bruge i din hjemmetræning.
+Her er inspiration til nogle [Corona workouts]({% link _posts/2021-01-14-corona-workouts.md %}).
+{% include gallery caption="Øvelser til hjemmetræning og et hjemmetræningsprogram lavet af @mette_bjerre fra @vihdk" layout="half" %}
+Mette og de andre lærere lavede i alt workouts til 28 dage, så der er nok at tage fat på.
 
 ## Fordele og ulemper ved hjemmetræning
 

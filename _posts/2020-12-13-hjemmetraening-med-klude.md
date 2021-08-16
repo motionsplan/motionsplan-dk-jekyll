@@ -19,7 +19,9 @@ Træning med sliders eller klude kan være rigtig effektivt til at give mere mod
 
 Jeg har lavet mine egne sliders af et lille stykke tæppe, som jeg fik foræret af det lokale tæppefirma, men du kan også bruge en klud eller noget andet, som kan bevæge sig hen over dit gulv.
 
-Jeg har her forsøgt at samle nogle gode øvelser, hvor klude og sliders i træningen giver rigtig god mening.
+Jeg har her samlet nogle gode øvelser, hvor klude og sliders i træningen giver rigtig god mening.
+
+Klude er særdeles velegnede til, hvis du er ved at planlægge et [træningsprogram til hjemmetræning]({% link _posts/2020-08-06-hjemmetraening.md %}).
 
 ## Øvelser til træning med klude og sliders
 
