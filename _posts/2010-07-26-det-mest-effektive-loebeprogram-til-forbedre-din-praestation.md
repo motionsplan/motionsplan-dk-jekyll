@@ -65,7 +65,7 @@ De fleste løber 5 km på mellem 17 minutter og 30 minutter. Typisk er dette tid
 
 ### Intensiteten
 
-De fleste vil kunne løbe 5 kilometer i et tempo, der ligger omkring den [anaerobe tærskel]({% link _posts/2019-11-14-energisystemer-101.md %}). Træning med denne intensitet kan være med til at flytte den [maksimale iltoptagelse]({% link _posts/2019-11-04-kondital-og-tabel.md %}) og [forbedre løbeøkonomien]({% link _posts/2019-12-16-running-economy.md %}).
+De fleste vil kunne løbe 5 kilometer i et tempo, der ligger omkring den [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}). Træning med denne intensitet kan være med til at flytte den [maksimale iltoptagelse]({% link _posts/2019-11-04-kondital-og-tabel.md %}) og [forbedre løbeøkonomien]({% link _posts/2019-12-16-running-economy.md %}).
 
 ## Retningslinjer for det effektive løbeprogram
 

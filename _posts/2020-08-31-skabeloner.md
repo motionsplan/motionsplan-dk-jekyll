@@ -73,7 +73,7 @@ Jeg har lavet en skabelon, hvor du kan planlægge din træningsblok og sørge fo
 
 ## Skabeloner til styrketræning og styrketræningsprogram
 
-Jeg har lavet skabeloner til de enkelte styrketræningspas her.
+Jeg har lavet skabeloner til de enkelte styrketræningspas her. Vi har skrevet en række forslag til [gratis træningsprogram til styrketræning](/traeningsprogrammer/), som du kan lade dig inspirere af.
 
 {% include feature_row type="left" id="feature_row_strength" %}
 
