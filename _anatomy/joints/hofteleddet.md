@@ -10,7 +10,7 @@ header:
 type: Kugleled
 categories:
   - Led
-movements: 
+movements:
   - title: Bøjning
     muscles:
       - Iliopsoas
@@ -35,6 +35,9 @@ movements:
       - Gluteus Minimus
       - Adductors
 image: https://www.orthonow.com/3d-images/Hip-Anatomy.jpg
+toc: true
+sidebar:
+  nav: anatomi
 ---
 
 Hofteleddet er et kugleled. Hofteleddet dannes af en ledskål på hoftebenet og et kugleformet ledhoved på lårbensknoglen. Hofteleddet er forstærket af kraftige ledbånd.
@@ -53,3 +56,5 @@ En bøjning i hoften er med strakt knæ typisk begrænset af smidigheden i hasem
 ## Muskler i hofteleddet
 
 {% include anatomy/table-muscles-hip.html %}
+
+Se [alle muskler delt op efter led](/led/).

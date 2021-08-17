@@ -34,6 +34,9 @@ image_movement: /assets/images/anatomy/movement-back.png
 header:
   overlay_image: https://besimplywell.com/wp-content/uploads/2018/02/xray-back.jpg
   caption: *title
+toc: true
+sidebar:
+  nav: anatomi
 ---
 
 {{ page.excerpt }}
@@ -62,3 +65,5 @@ De forskellige bevægelser foregår forskellige steder i rygsøjlen. Vi undlader
 ## Muskler omkring rygsøjlen
 
 {% include anatomy/table-muscles-back.html %}
+
+Se [alle muskler delt op efter led](/led/).

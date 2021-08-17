@@ -19,6 +19,7 @@ feature_row:
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/skelettet-anatomi-plakat-2/
     title: Skelettet - Anatomi plakat
     rel: sponsored nofollow noopener
+breadcrumbs: true
 ---
 
 Skelettet består af knogler. Jeg beskriver her lidt om anatomi og de forskellige knogler i kroppen. Knoglerne i menneskekroppen findes i forskellige knogletyper. Jeg kommer ind på rørknogler, uregelmæssige knogler, flade knogler og korte knogler.

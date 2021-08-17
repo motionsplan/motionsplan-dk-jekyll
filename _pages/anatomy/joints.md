@@ -45,6 +45,7 @@ gallery:
     title: Skelettet fra siden - Anatomi plakat
     rel: sponsored nofollow noopener
 last_modified_at: 2021-03-24T08:14:14Z
+breadcrumbs: true
 ---
 
 Led kan opdeles i ægte led og uægte led og forskellige ledtyper: ægled, saddelled, hængselled, glideled, drejeled og kugleled. Jeg kigger her på de forskellige defintioner og ledtyper. Den primære funktion for et led er bevægelser, som kan deles op i forskellige bevægelsestyper.

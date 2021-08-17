@@ -3,7 +3,7 @@ layout: single
 title: "Ankelleddet og fodleddet"
 permalink: /joints/ankelleddet-og-fodleddet/
 excerpt: "Ankelleddet er et hængselled. Skinneben og lægben danner nedadtil en gaffelformet ledskål til et hængselsled. De to knogler er holdt sammen af kraftige ledbånd. I de øvrige fodrodsknogler kan der foregå mindre bevægelser. Dette led kaldes fodleddet."
-latin: 
+latin:
 categories:
   - Led
 tags:
@@ -19,15 +19,18 @@ image: https://o.quizlet.com/HY7CmkNNCPOn4PFqIsQReg_b.jpg
 image_movement: /assets/images/anatomy/movement-ancle.png
 header:
   overlay_image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrqNXjmfE7vW6n-dMuY28ulyi3ZgxTkXAV34bp2t25ynDjPexTeg&s
+toc: true
+sidebar:
+  nav: anatomi
 ---
 
-**Ankelleddet** er et hængselled mellem skinnebenet og lægbenet. 
+**Ankelleddet** er et hængselled mellem skinnebenet og lægbenet.
 
 Du kan læse mere om [ankelleddet og fodleddet her](http://web.archive.org/web/20090528100757/http://www.motion-online.dk/styrketraening/anatomiliste/ankelleddet_og_foden/){:rel="nofollow"}.
 
 {% comment %}
 
-Skinneben og lægben danner nedadtil en gaffelformet ledskål. De to knogler er holdt sammen af kraftige ledbånd. 
+Skinneben og lægben danner nedadtil en gaffelformet ledskål. De to knogler er holdt sammen af kraftige ledbånd.
 
 “Gaflen” går ned over rullebenet, der er kileformet, det vil sige smalt bagtil og bredt fortil.
 
@@ -60,3 +63,5 @@ Bemærk at anatomisk sprogbrug er anderledes end daglig tale. Det man normalt ka
 ## Muskler i ankelleddet og fodleddet
 
 {% include anatomy/table-muscles-ancle.html %}
+
+Se [alle muskler delt op efter led](/led/).

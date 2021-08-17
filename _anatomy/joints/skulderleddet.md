@@ -61,6 +61,9 @@ image_movement: /assets/images/anatomy/movement-shoulder.png
 header:
   overlay_image: https://www.orthopaedicsone.com/download/attachments/34800936/Little+Leaguer%27s+Shoulder_AP.jpg
   caption: *title
+toc: true
+sidebar:
+  nav: anatomi
 ---
 
 {{ page.excerpt }}
@@ -108,3 +111,5 @@ Skulderbladets bevægelser er som før nævnt en vigtig del af hele skulderens b
 ## Muskler i skulderleddet og skulderbladet
 
 {% include anatomy/table-muscles-shoulder.html %}
+
+Se [alle muskler delt op efter led](/led/).

@@ -21,6 +21,7 @@ feature_row:
     title: Muskulatur - Anatomi plakat
     alt: "Muskler i ben, arme, skulder, kropsstamme"
     rel: sponsored nofollow noopener
+breadcrumbs: true
 ---
 
 De muskler, der skaber bevægelse af kroppen, kaldes for ”den tværstribede skeletmuskulatur”. Denne side handler om skeletmusklerne. Først kan du læse en kort introduktion til, hvad muskler og skeletmuskler er og deres anatomi. Derefter kigger jeg på de forskellige muskelgrupper.
