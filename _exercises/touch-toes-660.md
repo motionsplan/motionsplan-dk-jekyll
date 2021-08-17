@@ -1,6 +1,5 @@
 ---
 title: "Touch toes"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/touch-toes/
 redirect_from: /node/660

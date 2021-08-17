@@ -34,7 +34,7 @@ muscle_group:
   - Baglår
   - Baller
   - Skuldre
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/rite-4-table-pose-0.jpg
     image_path: /assets/images/exercises/rite-4-table-pose-0-320.jpg

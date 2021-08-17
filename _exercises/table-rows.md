@@ -1,6 +1,5 @@
 ---
 title: "Table rows"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/table-rows/
 id: 20210113114500

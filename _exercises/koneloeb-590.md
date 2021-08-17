@@ -1,6 +1,5 @@
 ---
 title: "Koneløb"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/koneloeb/
 redirect_from:

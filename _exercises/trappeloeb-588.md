@@ -1,6 +1,5 @@
 ---
 title: "Trappeløb"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/trappeloeb/
 redirect_from:

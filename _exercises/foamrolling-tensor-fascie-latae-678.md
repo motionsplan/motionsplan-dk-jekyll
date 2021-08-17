@@ -1,6 +1,5 @@
 ---
 title: "Foamrolling Tensor Fascie Latae"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/foamrolling-tensor-fascie-latae/
 redirect_from: /node/678

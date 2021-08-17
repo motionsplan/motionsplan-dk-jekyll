@@ -1,6 +1,5 @@
 ---
 title: "Sumo squat med klud"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/sumo-squat-med-klud/
 redirect_from: /node/595
@@ -28,7 +27,7 @@ muscle_group:
   - Baller
   - Core
   - Forlår
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/sumo-squat-med-klud-0.jpg
     image_path: /assets/images/exercises/sumo-squat-med-klud-0-320.jpg

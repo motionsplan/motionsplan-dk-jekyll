@@ -1,6 +1,5 @@
 ---
 title: "One arm clean and press"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/one-arm-clean-and-jerk/
 redirect_from: /node/550

@@ -1,6 +1,5 @@
 ---
 title: "Squat, rolling pistols"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/squat-rolling-pistols/
 redirect_from: /node/602
@@ -30,7 +29,7 @@ muscle_group:
   - Baller
   - Core
   - Forlår
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/squat-rolling-pistols-0.jpg
     image_path: /assets/images/exercises/squat-rolling-pistols-0-320.jpg

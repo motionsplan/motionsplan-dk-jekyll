@@ -1,6 +1,5 @@
 ---
 title: "Egypteren"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/egypteren/
 redirect_from: /node/596
@@ -23,7 +22,7 @@ equipment:
   - kropsvægt
 muscle_group:
   - Skuldre
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/egypteren-0.jpg
     image_path: /assets/images/exercises/egypteren-0-320.jpg

@@ -1,6 +1,5 @@
 ---
 title: "Fire hydrant - straight legged"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/fire-hydrant-straight-legged/
 redirect_from: /node/634

@@ -1,6 +1,5 @@
 ---
 title: "Reb, klatring"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/reb-klatring/
 redirect_from: /node/563

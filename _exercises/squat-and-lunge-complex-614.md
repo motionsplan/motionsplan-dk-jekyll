@@ -1,6 +1,5 @@
 ---
 title: "Squat and lunge complex"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/squat-and-lunge-complex/
 redirect_from: /node/614
@@ -30,7 +29,7 @@ muscle_group:
   - Baller
   - Forlår
   - Lægge
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/squat-and-lunge-complex-0.jpg
     image_path: /assets/images/exercises/squat-and-lunge-complex-0-320.jpg

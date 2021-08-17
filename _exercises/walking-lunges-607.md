@@ -1,6 +1,5 @@
 ---
 title: "Walking lunges"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/walking-lunges/
 redirect_from: /node/607
@@ -26,7 +25,7 @@ equipment:
 muscle_group:
   - Baller
   - Forlår
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/walking-lunges-0.jpg
     image_path: /assets/images/exercises/walking-lunges-0-320.jpg

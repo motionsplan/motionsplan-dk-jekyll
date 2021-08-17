@@ -1,6 +1,5 @@
 ---
 title: "Squat med press"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/squat-med-press/
 redirect_from: /node/669
@@ -30,7 +29,7 @@ muscle_group:
   - Baller
   - Forlår
   - Skuldre
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/squat-med-press-0.jpg
     image_path: /assets/images/exercises/squat-med-press-0-320.jpg

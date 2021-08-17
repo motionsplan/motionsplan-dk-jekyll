@@ -1,6 +1,5 @@
 ---
 title: "One arm overhead press"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/one-arm-overhead-press/
 redirect_from: /node/631
@@ -26,7 +25,7 @@ equipment:
 muscle_group:
   - Arme
   - Skuldre
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/one-arm-overhead-press-0.jpg
     image_path: /assets/images/exercises/one-arm-overhead-press-0-320.jpg

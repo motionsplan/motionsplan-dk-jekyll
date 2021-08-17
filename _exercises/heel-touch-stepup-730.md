@@ -1,6 +1,5 @@
 ---
 title: "Heel touch from stepup"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/heel-touch-stepup/
 redirect_from: /node/730
@@ -26,7 +25,7 @@ equipment:
 muscle_group:
   - Baller
   - Forlår
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/heel-touch-stepup-0.jpg
     image_path: /assets/images/exercises/heel-touch-stepup-0-320.jpg

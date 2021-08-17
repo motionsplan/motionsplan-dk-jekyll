@@ -1,6 +1,5 @@
 ---
 title: "Skuldermobilisering I"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/skuldermobilisering-i/
 redirect_from: /node/632
@@ -26,7 +25,7 @@ muscle_group:
   - Arme
   - Skuldre
   - Øvre ryg
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/skuldermobilisering-i-0.jpg
     image_path: /assets/images/exercises/skuldermobilisering-i-0-320.jpg

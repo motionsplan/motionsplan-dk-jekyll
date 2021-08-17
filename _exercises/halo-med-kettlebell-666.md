@@ -1,6 +1,5 @@
 ---
 title: "Halo med kettlebell"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/halo-med-kettlebell/
 redirect_from: /node/666
@@ -26,7 +25,7 @@ muscle_group:
   - Arme
   - Mave
   - Skuldre
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/halo-med-kettlebell-0.jpg
     image_path: /assets/images/exercises/halo-med-kettlebell-0-320.jpg

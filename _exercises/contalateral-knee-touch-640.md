@@ -1,6 +1,5 @@
 ---
 title: "Contalateral knee touch"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/contalateral-knee-touch/
 redirect_from: /node/640
@@ -26,7 +25,7 @@ equipment:
 muscle_group:
   - Core
   - Mave
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/contalateral-knee-touch-0.jpg
     image_path: /assets/images/exercises/contalateral-knee-touch-0-320.jpg

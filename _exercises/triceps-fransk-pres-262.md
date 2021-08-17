@@ -12,7 +12,7 @@ tags:
   - vægtstang
   - fitnessinstruktør
 categories: []
-training_type: [] 
+training_type: []
 training_focus: []
 equipment:
   - vægtstang
@@ -51,7 +51,7 @@ Læg dig ned på en flad bænk eller på gulvet. Hold stangen i hænderne. Begyn
 
 Et vigtigt fokuspunkt er at holde albuerne stabile, når du laver presset, så du rammer triceps bedst muligt.
 
-Først og fremmest er det vigtigt at du holder albuerne stabile og inde, når du kører øvelsen. Jeg bruger et greb, der er lidt smallere end skulderbredde, men du kan prøve lidt forskellige variationer. 
+Først og fremmest er det vigtigt at du holder albuerne stabile og inde, når du kører øvelsen. Jeg bruger et greb, der er lidt smallere end skulderbredde, men du kan prøve lidt forskellige variationer.
 
 Fransk pres egner sig ikke til at køre vanvittigt tungt, men bruges ofte i forbindelse med udtrætning af triceps i forbindelse med hypertrofitræning. Du kan sagtens køre fransk pres som et supersæt.
 

@@ -1,6 +1,5 @@
 ---
 title: "Suitcase carry"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/suitcase-carry/
 redirect_from: /node/736

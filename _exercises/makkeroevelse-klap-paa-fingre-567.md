@@ -1,6 +1,5 @@
 ---
 title: "Makkerøvelse, klap på fingre"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/makkeroevelse-klap-paa-fingre/
 redirect_from:

@@ -1,6 +1,5 @@
 ---
 title: "SMR Skulderblad"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/smr-skulderblad/
 redirect_from: /node/684

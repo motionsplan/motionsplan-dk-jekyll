@@ -1,6 +1,5 @@
 ---
 title: "SMR Tensor Fascie Latae"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/smr-tensor-fascie-latae/
 redirect_from: /node/683

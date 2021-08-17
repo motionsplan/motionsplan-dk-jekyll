@@ -1,6 +1,5 @@
 ---
 title: "Squat with one arm kb in rack position"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/squat-one-arm-kb-rack-position/
 redirect_from: /node/714

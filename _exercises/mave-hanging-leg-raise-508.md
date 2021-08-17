@@ -1,7 +1,6 @@
 ---
 title: "Mave, hanging leg raise"
-excerpt: "Mave, hanging leg raise"
-instructions: "Mave, hanging leg raise"
+instructions: ""
 permalink: /oevelse/mave-hanging-leg-raise/
 redirect_from: /node/508
 id: 508

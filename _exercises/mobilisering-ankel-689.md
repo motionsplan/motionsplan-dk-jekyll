@@ -1,6 +1,5 @@
 ---
 title: "Mobilisering ankel"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/mobilisering-ankel/
 redirect_from: /node/689

@@ -1,6 +1,5 @@
 ---
 title: "Bildæk, tippe dæk armstrækning"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/bildaek-tippe-daek-armstraekning/
 redirect_from:

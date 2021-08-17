@@ -1,6 +1,5 @@
 ---
 title: "Poliquin stepup"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/poliquin-stepup/
 redirect_from: /node/732
@@ -26,7 +25,7 @@ equipment:
   - Step
 muscle_group:
   - Forlår
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/poliquin-stepup-0.jpg
     image_path: /assets/images/exercises/poliquin-stepup-0-320.jpg

@@ -1,7 +1,6 @@
 ---
 title: "Rotator manchet"
-excerpt: "Rotator manchet"
-instructions: "Rotator manchet"
+instructions: ""
 permalink: /oevelse/rotator-manchet/
 redirect_from: /node/27
 id: 27

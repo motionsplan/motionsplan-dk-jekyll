@@ -1,6 +1,5 @@
 ---
 title: "One-legged squat in TRX"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/one-legged-squat-trx/
 redirect_from: /node/561

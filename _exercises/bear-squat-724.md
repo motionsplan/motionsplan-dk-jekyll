@@ -1,6 +1,5 @@
 ---
 title: "Bear squat"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/bear-squat/
 redirect_from: /node/724
@@ -32,7 +31,7 @@ muscle_group:
   - Core
   - Forlår
   - Mave
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/bear-squat-0.jpg
     image_path: /assets/images/exercises/bear-squat-0-320.jpg

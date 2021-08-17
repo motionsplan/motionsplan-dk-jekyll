@@ -1,7 +1,6 @@
 ---
 title: "Mavebøjning"
-excerpt: "Mavebøjning"
-instructions: "Mavebøjning"
+instructions: ""
 permalink: /oevelse/maveboejning/
 redirect_from: /node/281
 id: 281

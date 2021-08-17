@@ -1,6 +1,5 @@
 ---
 title: "Slideboard bodysaw pushup"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/slideboard-bodysaw-pushup/
 redirect_from: /node/711
@@ -28,7 +27,7 @@ equipment:
 muscle_group:
   - Arme
   - Bryst
-alternative_titles:
+alternative_titles: []
 gallery:
 video:
   provider: youtube

@@ -22,11 +22,11 @@ tags:
   - Øvre ryg
 categories:
   - Træk
-training_type: 
+training_type:
   - Balance
   - Mobilisering
   - Styrketræning
-training_focus: 
+training_focus:
   - træk vandret
 equipment:
   - kabeltræk

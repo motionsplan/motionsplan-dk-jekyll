@@ -19,9 +19,9 @@ tags:
   - fitnessinstruktør
 categories:
   - Pres
-training_type: 
+training_type:
   - Styrketræning
-training_focus: 
+training_focus:
   - skub vandret
 equipment:
   - bænk

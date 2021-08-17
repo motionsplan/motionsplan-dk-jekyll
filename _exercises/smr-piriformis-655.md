@@ -1,6 +1,5 @@
 ---
 title: "SMR piriformis"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/smr-piriformis/
 redirect_from: /node/655

@@ -1,6 +1,5 @@
 ---
 title: "Medicinbold slams"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/medicinbold-slams/
 redirect_from: /node/606
@@ -30,7 +29,7 @@ equipment:
 muscle_group:
   - Core
   - Mave
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/medicinbold-slams-0.jpg
     image_path: /assets/images/exercises/medicinbold-slams-0-320.jpg

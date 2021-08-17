@@ -1,6 +1,5 @@
 ---
 title: "Krabbe, skuldermobilisering"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/krabbe-skuldermobilisering/
 redirect_from: /node/604
@@ -26,7 +25,7 @@ equipment:
 muscle_group:
   - Baller
   - Skuldre
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/krabbe-skuldermobilisering-0.jpg
     image_path: /assets/images/exercises/krabbe-skuldermobilisering-0-320.jpg

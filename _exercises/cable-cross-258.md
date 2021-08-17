@@ -1,7 +1,6 @@
 ---
 title: "Cable cross"
-excerpt: "Cable cross"
-instructions: "Cable cross"
+instructions: ""
 permalink: /oevelse/cable-cross/
 redirect_from: /node/258
 id: 258

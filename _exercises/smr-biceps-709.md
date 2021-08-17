@@ -1,6 +1,5 @@
 ---
 title: "SMR biceps"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/smr-biceps/
 redirect_from: /node/709

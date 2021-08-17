@@ -1,6 +1,5 @@
 ---
 title: "Victory raise"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/victory-raise/
 redirect_from: /node/738
@@ -22,7 +21,7 @@ equipment:
   - håndvægte
 muscle_group:
   - Skuldre
-alternative_titles:
+alternative_titles: []
 gallery:
 video:
   provider: youtube

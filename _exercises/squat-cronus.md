@@ -1,6 +1,5 @@
 ---
 title: "Cronus Squat"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/cronus-squat/
 key: 20201212231900

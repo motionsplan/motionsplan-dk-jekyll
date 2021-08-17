@@ -356,7 +356,7 @@ defaults:
       breadcrumbs: true
       layout: activity
       header:
-        teaser: //via.placeholder.com/400x300
+        teaser: /assets/images/default-exercises-teaser.png
       author_profile: true
       read_time: false
       comments: true

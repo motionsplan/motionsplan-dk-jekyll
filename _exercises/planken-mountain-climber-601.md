@@ -27,7 +27,7 @@ muscle_group:
   - Core
   - Hoftebøjere
   - Mave
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/planken-mountain-climber-0.jpg
     image_path: /assets/images/exercises/planken-mountain-climber-0-320.jpg

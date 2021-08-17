@@ -1,6 +1,5 @@
 ---
 title: "Spanish Squat"
-excerpt: ""
 instructions: "Et alternativ til Sissy Squats kunne være [Spanish Squats](https://medium.com/@Reedswellnessfitnesstraining/exercise-of-the-week-spanish-squat-7073123051f2), der er knap så hårde, men også er med til at isolere muskelarbejdet over knæleddet."
 permalink: /oevelse/spanish-squat/
 key: 20201212205400

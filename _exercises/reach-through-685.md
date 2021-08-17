@@ -1,6 +1,5 @@
 ---
 title: "Reach through"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/reach-through/
 redirect_from: /node/685
@@ -23,7 +22,7 @@ equipment:
   - kropsvægt
 muscle_group:
   - Baglår
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/reach-through-0.jpg
     image_path: /assets/images/exercises/reach-through-0-320.jpg

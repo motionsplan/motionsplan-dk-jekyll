@@ -1,6 +1,5 @@
 ---
 title: "Step up, front loaded"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/step-front-loaded/
 redirect_from: /node/729
@@ -24,7 +23,7 @@ equipment:
 muscle_group:
   - Baller
   - Forlår
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/step-front-loaded-0.jpg
     image_path: /assets/images/exercises/step-front-loaded-0-320.jpg

@@ -1,6 +1,5 @@
 ---
 title: "Bildæk, træ og slam"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/bildaek-trae-og-slam/
 redirect_from:

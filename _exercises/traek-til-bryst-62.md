@@ -19,9 +19,9 @@ tags:
   - Øvre ryg
   - fitnessinstruktør
 categories: []
-training_type: 
+training_type:
   - Styrketræning
-training_focus: 
+training_focus:
   - træk lodret
 equipment:
   - maskine
@@ -133,9 +133,9 @@ Der findes et hav af forskellige greb, du kan bruge til pulldowns. Det mest typi
 
 {% include gallery id="gallery_greb" caption="[Apuls](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187) har en lang række greb til pulldown" %}
 
-- **Smalt underhåndsgreb**. Minder om chinups og har mere fokus på biceps end hvis du holder med et overhåndsgreb, som mere ligner pullups. 
-- **Smalt neutralt greb**. Minder om chinups med neutralt greb. Håndfladerne vender mod hinanden. Du kan bruge et todelt håndtag eller et V-håndtag. 
-- **Medium neutralt greb**. Hvis du har adgang til et kabelhåndtag, som giver dig mulighed for at holde et lidt bredere neutralt greb, så har du en stærk position, hvor du også kan flytte noget vægt. 
+- **Smalt underhåndsgreb**. Minder om chinups og har mere fokus på biceps end hvis du holder med et overhåndsgreb, som mere ligner pullups.
+- **Smalt neutralt greb**. Minder om chinups med neutralt greb. Håndfladerne vender mod hinanden. Du kan bruge et todelt håndtag eller et V-håndtag.
+- **Medium neutralt greb**. Hvis du har adgang til et kabelhåndtag, som giver dig mulighed for at holde et lidt bredere neutralt greb, så har du en stærk position, hvor du også kan flytte noget vægt.
 - **Pulldown med en arm**. Det kan være godt at arbejde med en arm ad gangen for at arbejde med balance i styrken.
 - **Knælende pulldown**. Jeg kan godt lide at lave ting knælende enten med begge knæ i jorden eller et knæ op. Du kan altså sagtens træne pulldowns også uden en pulldown maskine.
 

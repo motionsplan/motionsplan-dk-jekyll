@@ -1,6 +1,5 @@
 ---
 title: "Foamrolling inderlår"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/foamrolling-inderlaar/
 redirect_from: /node/705
@@ -19,7 +18,7 @@ equipment:
   - foamroller
 muscle_group:
   - Forlår
-alternative_titles:
+alternative_titles: []
 gallery:
 last_modified_at: 2016-10-14T11:08:11Z
 ---

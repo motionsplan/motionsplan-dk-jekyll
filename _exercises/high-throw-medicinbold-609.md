@@ -1,6 +1,5 @@
 ---
 title: "High throw medicinbold"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/high-throw-medicinbold/
 redirect_from: /node/609
@@ -34,7 +33,7 @@ muscle_group:
   - Mave
   - Ryg
   - Skuldre
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/high-throw-medicinbold-0.jpg
     image_path: /assets/images/exercises/high-throw-medicinbold-0-320.jpg

@@ -1,6 +1,5 @@
 ---
 title: "Hip thrusts"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/hip-thrusters/
 redirect_from: /node/626

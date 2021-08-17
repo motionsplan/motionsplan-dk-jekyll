@@ -1,6 +1,5 @@
 ---
 title: "Bildæk, slams"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/bildaek-slams/
 redirect_from:

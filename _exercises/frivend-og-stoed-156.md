@@ -13,8 +13,8 @@ tags:
   - flise
   - dunk
 categories: []
-training_type: 
-training_focus: 
+training_type:
+training_focus:
   - helkropsøvelse
 equipment:
   - flise

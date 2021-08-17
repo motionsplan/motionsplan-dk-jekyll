@@ -1,6 +1,5 @@
 ---
 title: "Varm the"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/varm/
 redirect_from: /node/592
@@ -28,7 +27,7 @@ muscle_group:
   - Arme
   - Skuldre
   - Øvre ryg
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/varm-0.jpg
     image_path: /assets/images/exercises/varm-0-320.jpg

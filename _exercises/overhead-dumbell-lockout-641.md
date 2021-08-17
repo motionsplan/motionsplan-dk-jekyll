@@ -1,6 +1,5 @@
 ---
 title: "Overhead dumbell lockout"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/overhead-dumbell-lockout/
 redirect_from: /node/641
@@ -28,7 +27,7 @@ muscle_group:
   - Core
   - Mave
   - Skuldre
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/overhead-dumbell-lockout-0.jpg
     image_path: /assets/images/exercises/overhead-dumbell-lockout-0-320.jpg

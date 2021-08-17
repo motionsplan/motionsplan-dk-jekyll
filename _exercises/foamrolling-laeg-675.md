@@ -1,6 +1,5 @@
 ---
 title: "Foamrolling læg"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/foamrolling-laeg/
 redirect_from: /node/675
@@ -22,7 +21,7 @@ equipment:
   - foamroller
 muscle_group:
   - Lægge
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/foamrolling-laeg-0.jpg
     image_path: /assets/images/exercises/foamrolling-laeg-0-320.jpg

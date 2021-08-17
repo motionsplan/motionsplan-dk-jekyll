@@ -1,6 +1,5 @@
 ---
 title: "Mountainclimber på stepbænk"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/mountainclimber-paa-stepbaenk/
 redirect_from: /node/665
@@ -30,7 +29,7 @@ muscle_group:
   - Hoftebøjere
   - Lægge
   - Mave
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/mountainclimber-paa-stepbaenk-0.jpg
     image_path: /assets/images/exercises/mountainclimber-paa-stepbaenk-0-320.jpg

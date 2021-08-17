@@ -1,6 +1,5 @@
 ---
 title: "Waiter walk"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/waiter-walk/
 redirect_from: /node/726
@@ -24,7 +23,7 @@ equipment:
   - kettlebell
 muscle_group:
   - Skuldre
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/waiter-walk-0.jpg
     image_path: /assets/images/exercises/waiter-walk-0-320.jpg

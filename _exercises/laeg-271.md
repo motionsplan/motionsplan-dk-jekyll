@@ -1,7 +1,6 @@
 ---
 title: "Læg"
-excerpt: "Læg"
-instructions: "Læg"
+instructions: ""
 permalink: /oevelse/laeg/
 redirect_from: /node/271
 id: 271

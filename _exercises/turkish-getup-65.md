@@ -20,9 +20,9 @@ tags:
   - Skuldre
 categories:
   - Helkropsøvelse
-training_type: 
+training_type:
   - Styrketræning
-training_focus: 
+training_focus:
   - helkropsøvelse
 equipment:
   - håndvægte

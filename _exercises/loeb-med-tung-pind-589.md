@@ -1,6 +1,5 @@
 ---
 title: "Løb, med tung pind"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/loeb-med-tung-pind/
 redirect_from:

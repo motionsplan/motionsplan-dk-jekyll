@@ -1,7 +1,6 @@
 ---
 title: "Lateral lunge, bodyweight"
-excerpt: "LLunge til siden."
-instructions: "LLunge til siden."
+instructions: ""
 permalink: /oevelse/lateral-squat/
 redirect_from: /node/686
 id: 686

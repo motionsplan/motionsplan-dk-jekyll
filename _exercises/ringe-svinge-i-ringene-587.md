@@ -1,6 +1,5 @@
 ---
 title: "Ringe, svinge i ringene"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/ringe-svinge-i-ringene/
 redirect_from: /node/587

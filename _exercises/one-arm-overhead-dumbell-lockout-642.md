@@ -1,6 +1,5 @@
 ---
 title: "One arm overhead dumbell lockout"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/one-arm-overhead-dumbell-lockout/
 redirect_from: /node/642
@@ -28,7 +27,7 @@ muscle_group:
   - Core
   - Mave
   - Skuldre
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/one-arm-overhead-dumbell-lockout-0.jpg
     image_path: /assets/images/exercises/one-arm-overhead-dumbell-lockout-0-320.jpg

@@ -1,6 +1,5 @@
 ---
 title: "Sprællemand på stepbænk"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/spraellemand-paa-stepbaenk/
 redirect_from: /node/664
@@ -32,7 +31,7 @@ muscle_group:
   - Baller
   - Forlår
   - Lægge
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/spraellemand-paa-stepbaenk-0.jpg
     image_path: /assets/images/exercises/spraellemand-paa-stepbaenk-0-320.jpg

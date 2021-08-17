@@ -1,6 +1,5 @@
 ---
 title: "TRX Y"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/trx-y/
 redirect_from: /node/741
@@ -22,7 +21,7 @@ equipment:
 muscle_group:
   - Skuldre
   - Øvre ryg
-alternative_titles:
+alternative_titles: []
 gallery:
 video:
   provider: youtube

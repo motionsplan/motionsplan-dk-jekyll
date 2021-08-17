@@ -1,6 +1,5 @@
 ---
 title: "Foamrolling balle"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/foamrolling-balle/
 redirect_from: /node/676
@@ -22,7 +21,7 @@ equipment:
   - foamroller
 muscle_group:
   - Baller
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/foamrolling-balle-0.jpg
     image_path: /assets/images/exercises/foamrolling-balle-0-320.jpg

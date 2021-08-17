@@ -1,7 +1,6 @@
 ---
 title: "Mavebøjning, løftede fødder"
-excerpt: "Mavebøjning, løftede fødder"
-instructions: "Mavebøjning, løftede fødder"
+instructions: ""
 permalink: /oevelse/maveboejning-loeftede-foedder/
 redirect_from: /node/282
 id: 282

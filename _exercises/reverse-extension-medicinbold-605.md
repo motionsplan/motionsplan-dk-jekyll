@@ -1,6 +1,5 @@
 ---
 title: "Reverse extension medicinbold"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/reverse-extension-medicinbold/
 redirect_from: /node/605
@@ -32,7 +31,7 @@ muscle_group:
   - Baglår
   - Baller
   - Core
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/reverse-extension-medicinbold-0.jpg
     image_path: /assets/images/exercises/reverse-extension-medicinbold-0-320.jpg

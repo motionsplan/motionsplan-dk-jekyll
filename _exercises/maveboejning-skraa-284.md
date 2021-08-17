@@ -1,7 +1,6 @@
 ---
 title: "Mavebøjning, skrå"
-excerpt: "Mavebøjning, skrå"
-instructions: "Mavebøjning, skrå"
+instructions: ""
 permalink: /oevelse/maveboejning-skraa/
 redirect_from: /node/284
 id: 284

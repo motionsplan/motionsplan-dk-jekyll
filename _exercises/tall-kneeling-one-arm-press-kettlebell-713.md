@@ -1,6 +1,5 @@
 ---
 title: "Tall kneeling one arm press with kettlebell"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/tall-kneeling-one-arm-press-kettlebell/
 redirect_from: /node/713
@@ -26,7 +25,7 @@ muscle_group:
   - Arme
   - Bryst
   - Skuldre
-alternative_titles:
+alternative_titles: []
 gallery:
 video:
   provider: youtube

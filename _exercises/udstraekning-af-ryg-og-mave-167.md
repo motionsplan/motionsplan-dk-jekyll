@@ -1,7 +1,6 @@
 ---
 title: "Udstrækning af ryg og mave"
-excerpt: "Multiøvelser i par."
-instructions: "Multiøvelser i par."
+instructions: ""
 permalink: /oevelse/udstraekning-af-ryg-og-mave/
 redirect_from: /node/167
 id: 167

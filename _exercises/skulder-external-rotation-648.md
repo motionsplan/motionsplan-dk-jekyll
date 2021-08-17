@@ -1,6 +1,5 @@
 ---
 title: "Skulder, external rotation from pullback"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/skulder-external-rotation/
 redirect_from: /node/648

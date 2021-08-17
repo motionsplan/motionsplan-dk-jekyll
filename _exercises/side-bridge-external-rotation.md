@@ -1,6 +1,5 @@
 ---
 title: "Side bridge, external rotation"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/side-bridge-external-rotation/
 language: da

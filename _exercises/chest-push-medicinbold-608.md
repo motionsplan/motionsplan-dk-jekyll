@@ -1,6 +1,5 @@
 ---
 title: "Chest push medicinbold"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/chest-push-medicinbold/
 redirect_from: /node/608
@@ -26,7 +25,7 @@ equipment:
 muscle_group:
   - Arme
   - Bryst
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/chest-push-medicinbold-0.jpg
     image_path: /assets/images/exercises/chest-push-medicinbold-0-320.jpg

@@ -1,6 +1,5 @@
 ---
 title: "Foamrolling skinneben"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/foamrolling-skinneben/
 redirect_from: /node/706

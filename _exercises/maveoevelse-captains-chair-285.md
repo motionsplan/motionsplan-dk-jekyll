@@ -1,7 +1,6 @@
 ---
 title: "Maveøvelse, captains chair på stol"
-excerpt: "Maveøvelse, captains chair"
-instructions: "Maveøvelse, captains chair"
+instructions: ""
 permalink: /oevelse/maveoevelse-captains-chair/
 redirect_from: /node/285
 id: 285

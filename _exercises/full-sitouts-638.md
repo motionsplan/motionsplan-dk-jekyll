@@ -1,6 +1,5 @@
 ---
 title: "Full sitouts"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/full-sitouts/
 redirect_from: /node/638
@@ -26,7 +25,7 @@ equipment:
 muscle_group:
   - Core
   - Mave
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/full-sitouts-0.jpg
     image_path: /assets/images/exercises/full-sitouts-0-320.jpg

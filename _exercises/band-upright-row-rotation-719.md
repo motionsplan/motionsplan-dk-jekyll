@@ -1,6 +1,5 @@
 ---
 title: "Band Upright Row to Rotation"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/band-upright-row-rotation/
 redirect_from: /node/719

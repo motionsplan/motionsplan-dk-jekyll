@@ -1,6 +1,5 @@
 ---
 title: "Skulder, internal rotation overhånd"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/skulder-internal-rotation/
 redirect_from: /node/650

@@ -1,6 +1,5 @@
 ---
 title: "Sprint"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/sprint-0/
 redirect_from: /node/610
@@ -34,7 +33,7 @@ muscle_group:
   - Forlår
   - Hoftebøjere
   - Lægge
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/sprint-0-0.jpg
     image_path: /assets/images/exercises/sprint-0-0-320.jpg

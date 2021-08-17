@@ -1,6 +1,5 @@
 ---
 title: "Squat, mobiliseringsøvelse"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/squat-mobiliseringsoevelse/
 redirect_from:
@@ -30,7 +29,7 @@ muscle_group:
   - Baller
   - Forlår
   - Øvre ryg
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/squat-mobiliseringsoevelse-0.jpg
     image_path: /assets/images/exercises/squat-mobiliseringsoevelse-0-320.jpg

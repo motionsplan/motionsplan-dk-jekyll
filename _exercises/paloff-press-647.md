@@ -1,6 +1,5 @@
 ---
 title: "Pallof Press"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/pallof-press/
 redirect_from:

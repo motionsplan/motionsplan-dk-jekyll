@@ -13,8 +13,8 @@ tags:
   - kasse
   - vægtstang
 categories: []
-training_type: 
-training_focus: 
+training_type:
+training_focus:
   - hoftedomineret
 equipment:
   - kasse

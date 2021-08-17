@@ -1,7 +1,6 @@
 ---
 title: "Frivend og stød, olympisk"
-excerpt: "Træk og stød, olympisk"
-instructions: "Træk og stød, olympisk"
+instructions: ""
 permalink: /oevelse/traek-og-stoed-olympisk/
 redirect_from: /node/275
 id: 275
@@ -12,7 +11,7 @@ tags:
   - helkropsøvelse
   - vægtstang
 categories: []
-training_type:
+training_type: []
 training_focus:
   - helkropsøvelse
 equipment:

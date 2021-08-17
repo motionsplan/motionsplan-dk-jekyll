@@ -1,6 +1,5 @@
 ---
 title: "Quadroped extension rotation"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/quadroped-extension-rotation/
 redirect_from: /node/742
@@ -22,7 +21,7 @@ equipment:
   - kropsvægt
 muscle_group:
   - Øvre ryg
-alternative_titles:
+alternative_titles: []
 gallery:
 video:
   provider: youtube

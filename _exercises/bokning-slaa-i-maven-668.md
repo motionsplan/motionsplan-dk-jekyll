@@ -21,7 +21,7 @@ equipment:
 muscle_group:
   - Arme
   - Mave
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/bokning-slaa-i-maven-0.jpg
     image_path: /assets/images/exercises/bokning-slaa-i-maven-0-320.jpg

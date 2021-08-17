@@ -1,6 +1,5 @@
 ---
 title: "SMR Fødder"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/smr-foedder/
 redirect_from: /node/687

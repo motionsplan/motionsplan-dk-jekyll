@@ -1,6 +1,5 @@
 ---
 title: "Bildæk, trække med ben"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/bildaek-traekke-med-ben/
 redirect_from:

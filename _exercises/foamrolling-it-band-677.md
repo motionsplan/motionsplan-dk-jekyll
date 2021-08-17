@@ -1,6 +1,5 @@
 ---
 title: "Foamrolling IT-band"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/foamrolling-it-band/
 redirect_from: /node/677

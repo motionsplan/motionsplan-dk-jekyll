@@ -32,7 +32,7 @@ muscle_group:
   - Baglår
   - Core
   - Mave
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/rite-5-sael-og-omvendt-v-0.jpg
     image_path: /assets/images/exercises/rite-5-sael-og-omvendt-v-0-320.jpg

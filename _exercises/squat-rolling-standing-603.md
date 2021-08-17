@@ -1,6 +1,5 @@
 ---
 title: "Squat, rolling to standing"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/squat-rolling-standing/
 redirect_from: /node/603
@@ -32,7 +31,7 @@ muscle_group:
   - Baller
   - Core
   - Forlår
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/squat-rolling-standing-0.jpg
     image_path: /assets/images/exercises/squat-rolling-standing-0-320.jpg

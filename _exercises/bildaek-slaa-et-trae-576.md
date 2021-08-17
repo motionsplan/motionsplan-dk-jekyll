@@ -1,6 +1,5 @@
 ---
 title: "Bildæk, slå et træ"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/bildaek-slaa-et-trae/
 redirect_from:

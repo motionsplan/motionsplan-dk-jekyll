@@ -1,6 +1,5 @@
 ---
 title: "Bildæk, russian twist"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/bildaek-russian-twist/
 redirect_from:

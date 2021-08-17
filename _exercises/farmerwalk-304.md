@@ -15,7 +15,7 @@ tags:
   - crossfit
   - featured
 categories: []
-training_type: [] 
+training_type: []
 training_focus: []
 equipment: []
 muscle_group: []

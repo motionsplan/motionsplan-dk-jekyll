@@ -1,6 +1,5 @@
 ---
 title: "Foamrolling nedre ryg"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/foamrolling-nedre-ryg/
 redirect_from: /node/681

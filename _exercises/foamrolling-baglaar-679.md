@@ -1,6 +1,5 @@
 ---
 title: "Foamrolling baglår"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/foamrolling-baglaar/
 redirect_from: /node/679

@@ -1,6 +1,5 @@
 ---
 title: "Peterson stepup"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/peterson-stepup/
 redirect_from: /node/731

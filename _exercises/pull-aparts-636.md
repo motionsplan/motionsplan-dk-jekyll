@@ -26,7 +26,7 @@ equipment:
 muscle_group:
   - Skuldre
   - Øvre ryg
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/pull-aparts-0.jpg
     image_path: /assets/images/exercises/pull-aparts-0-320.jpg

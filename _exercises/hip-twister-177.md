@@ -1,7 +1,6 @@
 ---
 title: "Skrå mavemuskler - Hip twister"
-excerpt: "De skrå mavemuskler "
-instructions: "De skrå mavemuskler "
+instructions: ""
 permalink: /oevelse/hip-twister/
 redirect_from: /node/177
 id: 177

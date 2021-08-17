@@ -1,6 +1,5 @@
 ---
 title: "Planken, superman"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/planken-superman/
 redirect_from: /node/600
@@ -28,7 +27,7 @@ muscle_group:
   - Baller
   - Core
   - Mave
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/planken-superman-0.jpg
     image_path: /assets/images/exercises/planken-superman-0-320.jpg

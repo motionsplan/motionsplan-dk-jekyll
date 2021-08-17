@@ -1,6 +1,5 @@
 ---
 title: "Pike and straight arm push back on swissball"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/pike-and-straight-arm-push-back-swissball/
 redirect_from: /node/737
@@ -22,7 +21,7 @@ equipment:
   - swissball
 muscle_group:
   - Mave
-alternative_titles:
+alternative_titles: []
 gallery:
 video:
   provider: youtube

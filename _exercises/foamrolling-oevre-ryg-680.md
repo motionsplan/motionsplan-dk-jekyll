@@ -1,6 +1,5 @@
 ---
 title: "Foamrolling øvre ryg"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/foamrolling-oevre-ryg/
 redirect_from: /node/680
@@ -21,7 +20,7 @@ equipment:
   - foamroller
 muscle_group:
   - Øvre ryg
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/foamrolling-oevre-ryg-0.jpg
     image_path: /assets/images/exercises/foamrolling-oevre-ryg-0-320.jpg

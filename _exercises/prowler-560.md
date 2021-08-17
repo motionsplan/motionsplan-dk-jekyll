@@ -1,6 +1,5 @@
 ---
 title: "Prowler"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/prowler/
 redirect_from: /node/560

@@ -1,7 +1,6 @@
 ---
 title: "Løb"
-excerpt: "Løb"
-instructions: "Løb"
+instructions: ""
 permalink: /oevelse/loeb/
 redirect_from: /node/242
 id: 242
@@ -10,10 +9,11 @@ header:
   teaser: /assets/images/exercises/loeb-0-320.jpg
 tags:
   - Kondition
-categories: []
+categories:
+  - Løb
 training_type:
   - Kondition
-training_focus:
+training_focus: []
 equipment: []
 muscle_group: []
 gallery:

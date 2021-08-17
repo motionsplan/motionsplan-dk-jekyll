@@ -1,6 +1,5 @@
 ---
 title: "Bottom up KB carry"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/bottom-kb-carry/
 redirect_from:

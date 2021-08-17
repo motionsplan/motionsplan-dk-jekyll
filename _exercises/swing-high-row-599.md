@@ -1,6 +1,5 @@
 ---
 title: "Swing, high row"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/swing-high-row/
 redirect_from: /node/599

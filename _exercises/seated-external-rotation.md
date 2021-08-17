@@ -1,6 +1,5 @@
 ---
 title: "Seated External Rotation Dumbbell"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/seated-external-rotation/
 key: 20201213172700

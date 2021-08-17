@@ -1,6 +1,5 @@
 ---
 title: "Roning, enarms med kettlebell"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/roning-enarms-med-kettlebell/
 redirect_from: /node/663
@@ -27,7 +26,7 @@ equipment:
 muscle_group:
   - Arme
   - Øvre ryg
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/roning-enarms-med-kettlebell-0.jpg
     image_path: /assets/images/exercises/roning-enarms-med-kettlebell-0-320.jpg

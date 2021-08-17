@@ -1,6 +1,5 @@
 ---
 title: "Lunges, kettlebell skifter hånd"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/lunges-kettlebell-skifter-haand/
 redirect_from:
@@ -30,7 +29,7 @@ muscle_group:
   - Baller
   - Core
   - Forlår
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/lunges-kettlebell-skifter-haand-0.jpg
     image_path: /assets/images/exercises/lunges-kettlebell-skifter-haand-0-320.jpg

@@ -1,6 +1,5 @@
 ---
 title: "TRX Bodyrows"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/trx-bodyrows/
 redirect_from: /node/721

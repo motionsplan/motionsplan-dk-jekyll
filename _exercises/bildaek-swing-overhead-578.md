@@ -1,6 +1,5 @@
 ---
 title: "Bildæk, swing overhead"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/bildaek-swing-overhead/
 redirect_from:

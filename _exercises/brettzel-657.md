@@ -1,6 +1,5 @@
 ---
 title: "Brettzel"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/brettzel/
 redirect_from: /node/657

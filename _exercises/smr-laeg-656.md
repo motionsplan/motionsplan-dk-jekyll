@@ -1,6 +1,5 @@
 ---
 title: "SMR Læg"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/smr-laeg/
 redirect_from: /node/656

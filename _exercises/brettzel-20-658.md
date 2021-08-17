@@ -1,6 +1,5 @@
 ---
 title: "Brettzel 2.0"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/brettzel-20/
 redirect_from: /node/658

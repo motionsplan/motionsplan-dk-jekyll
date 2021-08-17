@@ -25,7 +25,7 @@ equipment:
   - kropsvægt
 muscle_group:
   - Mave
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/maverulning-med-boksning-0.jpg
     image_path: /assets/images/exercises/maverulning-med-boksning-0-320.jpg

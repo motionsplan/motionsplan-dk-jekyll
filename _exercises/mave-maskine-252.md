@@ -19,8 +19,7 @@ training_focus:
   - kropsstamme
 equipment:
   - maskine
-muscle_group:
-  -
+muscle_group: []
 alternative_titles:
   - mavemaskine
 gallery:

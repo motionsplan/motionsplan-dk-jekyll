@@ -1,6 +1,5 @@
 ---
 title: "Balancebom"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/balancebom/
 redirect_from: /node/564

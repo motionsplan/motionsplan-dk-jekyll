@@ -28,7 +28,7 @@ equipment:
 muscle_group:
   - Core
   - Forlår
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/rite-3-forlaar-0.jpg
     image_path: /assets/images/exercises/rite-3-forlaar-0-320.jpg

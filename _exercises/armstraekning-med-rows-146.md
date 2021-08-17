@@ -50,6 +50,8 @@ gallery:
 last_modified_at: 2013-10-04T13:46:45Z
 ---
 
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}
+
 Du støtter på to håndvægte og gør klar til armstrækning. Sørg for at spænde godt op i mave, ryg og balder og hold kroppen helt ret. Lave en armstrækning, hvor brystkassen kommer så tæt på gulvet som muligt. Stræk armene igen.
 
 Når du har strakte arme trækker du den ene håndvægt op, så albuen går tæt forbi siden af kroppen og håndvægten kommer nogenlunde op på højde med maven på niveau med navlen.

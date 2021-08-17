@@ -1,6 +1,5 @@
 ---
 title: "SMR skulder"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/smr-skulder/
 redirect_from: /node/708

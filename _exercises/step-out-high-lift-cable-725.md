@@ -1,6 +1,5 @@
 ---
 title: "Step out with high lift in cable"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/step-out-high-lift-cable/
 redirect_from: /node/725
@@ -28,7 +27,7 @@ equipment:
 muscle_group:
   - Core
   - Mave
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/step-out-high-lift-cable-0.jpg
     image_path: /assets/images/exercises/step-out-high-lift-cable-0-320.jpg

@@ -1,6 +1,5 @@
 ---
 title: "Tall kneeling overhead press"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/tall-kneeling-overhead-press/
 redirect_from: /node/739

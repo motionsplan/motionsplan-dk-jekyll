@@ -1,7 +1,6 @@
 ---
 title: "Mave, rotation"
-excerpt: "Mave, rotation"
-instructions: "Mave, rotation"
+instructions: ""
 permalink: /oevelse/mave-rotation/
 redirect_from: /node/251
 id: 251

@@ -1,7 +1,6 @@
 ---
 title: "Kommandokravl"
-excerpt: "Kommandokravl"
-instructions: "Kommandokravl"
+instructions: ""
 permalink: /oevelse/kommandokravl/
 redirect_from: /node/303
 id: 303

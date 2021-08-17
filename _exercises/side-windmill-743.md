@@ -1,6 +1,5 @@
 ---
 title: "Side windmill"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/side-windmill/
 redirect_from: /node/743
@@ -22,7 +21,7 @@ equipment:
   - kettlebell
 muscle_group:
   - Mave
-alternative_titles:
+alternative_titles: []
 gallery:
 video:
   provider: youtube

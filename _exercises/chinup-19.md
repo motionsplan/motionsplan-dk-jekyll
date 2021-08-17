@@ -1,7 +1,6 @@
 ---
 title: "Chinup, kropshævning med underhåndsgreb"
-excerpt: "Kropshævning med underhåndsgreb."
-instructions: "Kropshævning med underhåndsgreb."
+instructions: ""
 permalink: /oevelse/chinup/
 redirect_from: /node/19
 id: 19

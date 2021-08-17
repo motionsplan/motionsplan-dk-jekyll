@@ -1,6 +1,5 @@
 ---
 title: "Seated Rear Delt Rows"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/seated-rear-delt-rows/
 id: 30

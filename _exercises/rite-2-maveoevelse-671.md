@@ -30,7 +30,7 @@ muscle_group:
   - Core
   - Hoftebøjere
   - Mave
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/rite-2-maveoevelse-0.jpg
     image_path: /assets/images/exercises/rite-2-maveoevelse-0-320.jpg

@@ -1,6 +1,5 @@
 ---
 title: "Stepup with dumbbells"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/stepup-dumbbells/
 redirect_from: /node/720

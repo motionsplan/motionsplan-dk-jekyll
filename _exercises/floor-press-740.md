@@ -1,6 +1,5 @@
 ---
 title: "Floor press"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/floor-press/
 redirect_from: /node/740
@@ -22,7 +21,7 @@ equipment:
 muscle_group:
   - Bryst
   - Skuldre
-alternative_titles:
+alternative_titles: []
 gallery:
 video:
   provider: youtube

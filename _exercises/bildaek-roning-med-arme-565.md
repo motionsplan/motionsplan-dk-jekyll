@@ -1,6 +1,5 @@
 ---
 title: "Bildæk, roning med arme"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/bildaek-roning-med-arme/
 redirect_from:

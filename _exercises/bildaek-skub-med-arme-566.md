@@ -1,6 +1,5 @@
 ---
 title: "Bildæk, skub med arme"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/bildaek-skub-med-arme/
 redirect_from:
