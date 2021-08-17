@@ -4,6 +4,7 @@ toc: true
 permalink: /kondition/tests/
 excerpt: "Oversigt over alle konditionstests, hvor du kan udregne kondital og iltoptagelse med vores beregnere til gang, løb, cykling og roning - og se om du får et bedre kondital og fremgang i træningen."
 title: &title "Test din kondition"
+seo_title: "Konditionstests: Test din kondition i gang, løb, cykling og roning"
 author_profile: true
 header:
   overlay_image: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1960&q=80

@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Optimer træningen"
+seo_title: "Optimer træningen | Motionsplan"
 permalink: /optimer-traening/
 excerpt: "Træning handler først og fremmest om at nyde det. Men derfor kan man jo godt arbejde med at optimere træningen også. Her har vi samlet en række emner, som kan være med til at optimere din træning."
 header:

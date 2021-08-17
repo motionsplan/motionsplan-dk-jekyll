@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Øvelser og træningsøvelser til fitnessinstruktør"
+excerpt: "Jeg har samlet alle øvelserne, der bruges i forbindelse med Fitnessinstruktør. Det giver et samlet overblik over træningsøvelserne, som du skal kunne undervise i, når du gerne vil være Fitnessinstruktør."
 permalink: /fitness/ovelser/
 author_profile: true
 system:

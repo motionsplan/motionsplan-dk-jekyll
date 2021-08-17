@@ -1,6 +1,7 @@
 ---
 layout: single
 title: &title "Fysiologi"
+seo_title: "Fysiologi: Kroppens funktioner i hvile og arbejde"
 excerpt: "Fysiologi er læren om kroppens forskellige organsystemer og deres funktioner i hvile og under fysisk aktivitet. Fysiologien beskæftiger sig med den sunde krop under normale betingelser."
 permalink: /fysiologi/
 system:

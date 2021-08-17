@@ -1,6 +1,7 @@
 ---
 layout: single
 title: &title "Anatomi"
+seo_title: "Anatomi: Alt om kroppens systemer | Motionsplan"
 system:
   - fitnessinstruktør
 excerpt: "Anatomi er læren om hvordan de forskellige strukturer i kroppen er opbygget, hvordan de forskellige celler er opbygget, hvordan disse igen samler sig til væv, organer og systemer i kroppen."

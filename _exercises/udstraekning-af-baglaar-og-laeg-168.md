@@ -1,5 +1,6 @@
 ---
 title: "Udstrækning af baglår og læg"
+seo_title: "Udstrækning af baglår og læg | Udstrækningsøvelse"
 excerpt: "Udstrækning af baglår og læg. sammen parvis. "
 instructions: "Udstrækning af baglår og læg. sammen parvis. "
 permalink: /oevelse/udstraekning-af-baglaar-og-laeg/

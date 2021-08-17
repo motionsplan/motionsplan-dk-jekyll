@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Styrketræning"
+seo_title: "Styrketræning: Alt om styrke og træning | Motionsplan"
 system:
   - fitnessinstruktør
 permalink: /styrke/

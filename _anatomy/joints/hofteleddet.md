@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Hofteleddet"
+seo_title: "Hofteleddet: Hoftens opbygning og anatomi"
 permalink: /joints/hofteleddet/
 excerpt: "Hofteleddet er et kugleled, der er dannet af en ledskål på hoftebenet og et ledhoved på lårbensknoglen. Leddet er forstærket af kraftige ledbånd, der begrænser stræknings- og udadføringsbevægelser."
 latin: ""

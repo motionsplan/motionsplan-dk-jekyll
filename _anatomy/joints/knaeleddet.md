@@ -1,6 +1,7 @@
 ---
 layout: single
 title: &title "Knæleddet"
+seo_title: "Knæleddet: Knæets opbygning og anatomi"
 excerpt: "Knæleddet er kroppens største led. Knæleddet danner forbindelse mellem lårbenet, skinnebenet og knæskallen. Knæleddet stabiliseres af en række stærke sener og ligamenter både indvendigt i knæet og på indersiden og ydersiden af knæet. Knæskallen er indkapslet i patella-senen, der går fra lårmusklen og ned på skinnebenet."
 permalink: /joints/knaeleddet/
 latin:

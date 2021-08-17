@@ -4,6 +4,7 @@ toc: true
 permalink: /beregnere-tests/
 excerpt: "Vi har lavet en lang række beregnere og tests, som du kan bruge i forbindelse med din træning. Se den samlede liste her. "
 title: &title "Beregnere & Tests"
+seo_title: "Beregnere & Tests til træning | Motionsplan"
 author_profile: true
 header:
   overlay_image: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1960&q=80

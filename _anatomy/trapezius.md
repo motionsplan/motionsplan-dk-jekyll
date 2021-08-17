@@ -5,7 +5,6 @@ functional_group:
   - Skulderbladsadduktorer
 joint:
   - Skulderbladet
-excerpt: ""
 group:
   - Ryg
 name:

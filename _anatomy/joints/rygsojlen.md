@@ -1,6 +1,7 @@
 ---
 layout: single
 title: &title "Ryggen"
+seo_title: "Ryggen: Rygsøjlens anatomi og opbygning"
 permalink: /joints/rygsojlen/
 excerpt: "Din rygsøjle går fra halebenet og op til kraniet. Den består af 24 knoglehvirvler: 7 halshvirvler, 12 brysthvirvler og 5 lændehvirvler."
 tags:

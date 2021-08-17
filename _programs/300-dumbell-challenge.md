@@ -1,6 +1,6 @@
 ---
 title: "300 Dumbell Challenge"
-excerpt: "12 øvelser og du skal lave 25 gentagelser af hver øvelse - i alt 300 gentagelser. Du skal gennemføre programmet så hurtigt som muligt. Du skal færdiggøre en øvelse før du går videre til den næste, men det er i orden at holde pause under udførelsen af den enkelte øvelse. "
+excerpt: "12 øvelser med håndvægt. Du skal lave 25 gentagelser af hver øvelse - i alt 300 gentagelser. Du skal gennemføre programmet så hurtigt som muligt. Du skal færdiggøre en øvelse før du går videre til den næste, men det er i orden at holde pause under udførelsen af den enkelte øvelse. "
 permalink: /node/432/
 redirect_from:
   - /exerciseprogram/show/79

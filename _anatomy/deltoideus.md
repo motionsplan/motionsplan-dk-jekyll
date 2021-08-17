@@ -6,7 +6,6 @@ functional_group:
   - Armens fremadføring
 joint:
   - Skulderleddet
-excerpt: ""
 name:
   latin: Deltoideus
   da: Deltamusklen

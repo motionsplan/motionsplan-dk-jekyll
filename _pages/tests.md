@@ -4,6 +4,7 @@ toc: true
 permalink: /tests/
 excerpt: "Oversigt over alle de fysiske og fysiologiske tests til gang, løb, cykling, styrketræning, balance, smidighed og roning"
 title: &title "Alle tests"
+seo_title: "Fysiske og fysiologiske tests | Motionsplan"
 author_profile: true
 header:
   overlay_image: https://images.unsplash.com/photo-1428790067070-0ebf4418d9d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80

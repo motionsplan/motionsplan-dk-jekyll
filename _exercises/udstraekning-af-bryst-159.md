@@ -1,5 +1,6 @@
 ---
 title: "Udstrækning af bryst"
+seo_title: "Udstrækning af bryst | Udstrækningsøvelse"
 excerpt: "Udstrækning af brystmusklen. En parøvelse."
 instructions: "Udstrækning af brystmusklen. En parøvelse."
 permalink: /oevelse/udstraekning-af-bryst/
