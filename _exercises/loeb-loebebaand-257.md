@@ -12,10 +12,10 @@ categories:
   - Cardiomaskiner
 training_type:
   - Kondition
-training_focus:
+training_focus: []
 equipment: []
 muscle_group: []
-gallery:
+gallery: []
 last_modified_at: 2014-10-12T14:39:46Z
 ---
 

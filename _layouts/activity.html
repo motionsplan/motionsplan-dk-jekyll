@@ -35,6 +35,9 @@ url
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
           {% if page.title %}<h1 id="page-title" class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+          {% assign edit_url = 'https://github.com/{{site.repository}}/edit/master/' | append: page.path | absolute_url %}
+          {% assign edit_url = '/admin/#/collections/exercises/entries/' | append: page.slug | absolute_url %}
+          <p><a href="{{ edit_url }}" rel="nofollow noopener"><i class="fas fa-pencil-alt" aria-hidden="true"></i> Hjælp med at forbedre denne side</a></p>
           {% if page.read_time %}
             <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
           {% endif %}
