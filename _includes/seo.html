@@ -5,11 +5,19 @@
 {%- assign seo_url = seo_url | default: site.github.url -%}
 
 {%- unless site.title_separator == false -%}
-  {%- assign title_separator = site.title_separator | default: '-' | replace: '|', '&#124;' -%}
+  {% assign title_separator = site.title_separator | default: '-' %}
   {%- assign append_title = " " | append: title_separator | append: " " | append: site.title -%}
 {%- endunless -%}
 
-{%- assign seo_title = page.seo_title | default: page.title | default: site.title -%}
+{%- if page.title -%}
+  {%- assign page_title = page.title | default: site.title | replace: '|', '&#124;' -%}
+{%- endif -%}
+
+{%- if page_title -%}
+  {%- assign page_title = page_title | markdownify | strip_html | strip_newlines | escape_once -%}
+{%- endif -%}
+
+{%- assign seo_title = page.seo_title | replace: '|', '&#124;' | default: page_title -%}
 
 {%- if seo_title -%}
   {%- assign seo_title = seo_title | append: append_title -%}
@@ -67,7 +75,7 @@
   {%- assign og_type = "website" -%}
 {%- endif -%}
 
-<title>{{ seo_title | default: site.title }}{% if paginator %}{% unless paginator.page == 1 %} {{ title_separator }} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}{% endif %}</title>
+<title>{{ seo_title | default: page_title }}{% if paginator %}{% unless paginator.page == 1 %} {{ title_separator }} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}{% endif %}</title>
 <meta name="description" content="{{ seo_description }}">
 
 {% if author.name %}
@@ -77,7 +85,7 @@
 <meta property="og:type" content="{{ og_type }}">
 <meta property="og:locale" content="{{ site.locale | replace: "-", "_" | default: "en_US" }}">
 <meta property="og:site_name" content="{{ site.title }}">
-<meta property="og:title" content="{{ seo_title | markdownify | strip_html | strip_newlines | escape_once }}">
+<meta property="og:title" content="{{ seo_title | default: page_title }}">
 <meta property="og:url" content="{{ canonical_url }}">
 
 {% if seo_description %}

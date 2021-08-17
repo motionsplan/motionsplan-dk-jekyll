@@ -31,4 +31,6 @@ function:
 image: https://www.healthguideline.net/wp-content/uploads/2019/07/Quadriceps-2BMuscle-2BStrain.jpg
 ---
 
+{{ page.name.da | capitalize }} hedder på latin *{{ page.name.latin | downcase }}*. Musklen laver {% for f in page.function.da %}{% if forloop.last == true and page.function.da.size > 1 %} og {% endif %}{{ f.short | downcase  }}{% if forloop.last == false and page.function.da.size > 1 %}, {% endif %}{% endfor %}. Musklen er en del af {{ page.functional_group | join: ", " | downcase }}.
+
 Lårmusklens dybe hoved (vastus intermedius) er en del af den [firehovede knæstrækker (quadriceps femoris)]({% link _anatomy/quadriceps-femoris.md %}). Inderst lever [vastus intermedius]({% link _anatomy/quadriceps-vastus-intermedius.md %}) et ret ubemærket liv, fordi [rectus femoris]({% link _anatomy/quadriceps-rectus-femoris.md %}) er forrest på låret og dækker over musklen.

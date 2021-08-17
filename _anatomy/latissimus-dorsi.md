@@ -16,9 +16,9 @@ tags:
   - muskel
 categories:
   - Muskler
-origin: 
+origin:
   da: Hoftebenskammen, lændehvirvler og de nederste brysthvirvler
-insertion: 
+insertion:
   da: Øverst foran på overarmsknoglen, og på den nederste del af skulderbladet
 function:
   da:
@@ -47,7 +47,9 @@ coords:
   - "462,162,478,131,488,135,503,134,503,142,495,166,494,182,485,195,481,202"
 ---
 
-Latissimus dorsi er den største muskel i ryggen og bliver også kaldt for ”den brede rygmuskel”, ”lats” eller ”vinger”. 
+{{ page.name.da | capitalize }} hedder på latin *{{ page.name.latin | downcase }}*. Musklen laver {% for f in page.function.da %}{% if forloop.last == true and page.function.da.size > 1 %} og {% endif %}{{ f.short | downcase  }}{% if forloop.last == false and page.function.da.size > 1 %}, {% endif %}{% endfor %}. Musklen er en del af {{ page.functional_group | join: ", " | downcase }}.
+
+Latissimus dorsi er den største muskel i ryggen og bliver også kaldt for ”den brede rygmuskel”, ”lats” eller ”vinger”.
 
 Latissimus dorsi udspringer midt fra rygsøjlen hele vejen ned til lænden og korsbenet og hæfter øverst på indersiden af overarmen.
 

@@ -17,9 +17,9 @@ tags:
   - Mave
 categories:
   - Kropsstamme
-training_type: 
+training_type:
   - Balance
-training_focus: 
+training_focus:
   - kropsstamme
 equipment:
   - kropsvægt
@@ -46,3 +46,5 @@ gallery:
     title: "Contalateral knee touch"
 last_modified_at: 2015-03-27T13:54:11Z
 ---
+
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}

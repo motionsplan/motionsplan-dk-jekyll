@@ -16,9 +16,9 @@ tags:
   - fitnessinstruktør
   - muskel
   - not-in-imagemap
-origin: 
+origin:
   da: Nederste ribben, hoftebenskammen og lændefascien
-insertion: 
+insertion:
   da: Rectusskeden
 function:
   da:
@@ -27,3 +27,5 @@ function:
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Transversus_abdominis.png/375px-Transversus_abdominis.png
 breadcrumbs: true
 ---
+
+{{ page.name.da | capitalize }} hedder på latin *{{ page.name.latin | downcase }}*. Musklen laver {% for f in page.function.da %}{% if forloop.last == true and page.function.da.size > 1 %} og {% endif %}{{ f.short | downcase  }}{% if forloop.last == false and page.function.da.size > 1 %}, {% endif %}{% endfor %}. Musklen er en del af {{ page.functional_group | join: ", " | downcase }}.

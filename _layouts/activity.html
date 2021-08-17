@@ -53,6 +53,8 @@ url
 
         {{ page.excerpt }}
 
+        <hr>
+
         {% if page.video %}
           {% include video provider=page.video.provider id=page.video.id %}
         {% endif %}
@@ -66,7 +68,7 @@ url
         {% if page.alternative_titles.size > 0 %}
           <p><strong>Alternative navne</strong>: {{ page.alternative_titles | join: ", " }}</p>
         {% endif %}
-        
+
         <div>
           {% if page.muscle_group and page.muscle_group != "" and page.muscle_group.size > 0 %}
             <strong>Muskelgruppe</strong>: {{ page.muscle_group | join: ", " }}<br />

@@ -20,9 +20,9 @@ tags:
   - cirkeltræning
 categories:
   - Ben
-training_type: 
+training_type:
   - Styrketræning
-training_focus: 
+training_focus:
   - knædomineret
 equipment:
   - håndvægte
@@ -51,5 +51,6 @@ video:
   id: PKmrXTx6jZs
 last_modified_at: 2014-10-13T19:29:15Z
 ---
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}
 
 Goblet squat udfordrer din evne til at holde overkroppen mere lodret, når du laver en squat. Sørg for at holde ryggen ret ved at skyde brystkassen fremefter, selvom du holder vægten i favnen.

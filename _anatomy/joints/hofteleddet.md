@@ -23,6 +23,7 @@ movements:
     muscles:
       - Gluteus Medius
       - Gluteus Minimus
+      - Tensor Fascie Latae
   - title: Indadføring
     muscles:
       - Adductors
@@ -46,7 +47,7 @@ En bøjning i hoften er med strakt knæ typisk begrænset af smidigheden i hasem
 
 ## Bevægelser i hofteleddet
 
-{% for m in page.movements %}
+{% for m in page.movements -%}
 - **{{ m.title }}**.
   {{ m.muscles | join: ", " }}
 {% endfor %}

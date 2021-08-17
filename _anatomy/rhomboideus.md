@@ -15,16 +15,18 @@ tags:
   - muskel
 categories:
   - Muskler
-origin: 
-  da: 
-insertion: 
-  da: 
+origin:
+  da:
+insertion:
+  da:
 function:
   da:
   en:
 ---
 
-Rhomboideus eller Rhombemusklen består af to muskler, som sidder midt mellem skulderbladene. Rhomboideus er to tykke bånd, der samler skulderbladene. Rhomboideus funktion er at trække skulderbladende sammen ligesom den midterste del af [kappemusklen trapezius]({% link _anatomy/trapezius.md %}). 
+{{ page.name.da | capitalize }} hedder på latin *{{ page.name.latin | downcase }}*. Musklen laver {% for f in page.function.da %}{% if forloop.last == true and page.function.da.size > 1 %} og {% endif %}{{ f.short | downcase  }}{% if forloop.last == false and page.function.da.size > 1 %}, {% endif %}{% endfor %}. Musklen er en del af {{ page.functional_group | join: ", " | downcase }}.
+
+Rhomboideus eller Rhombemusklen består af to muskler, som sidder midt mellem skulderbladene. Rhomboideus er to tykke bånd, der samler skulderbladene. Rhomboideus funktion er at trække skulderbladende sammen ligesom den midterste del af [kappemusklen trapezius]({% link _anatomy/trapezius.md %}).
 
 ## Træning af {{ page.title }}
 

@@ -16,9 +16,9 @@ tags:
   - muskel
 categories:
   - Muskler
-origin: 
+origin:
   da: Indersiden af hoftekammen
-insertion: 
+insertion:
   da: De tre nederste ribben ogdanner fortil senepladen for den lige bugmuskel sammen med den ydre skrå og den tværgående og mødes med den modsatte sides muskel i den hvide linie.
 function:
   da:
@@ -41,3 +41,5 @@ coords:
   - "426,200,431,209,418,210"
   - "489,199,498,212,484,209"
 ---
+
+{{ page.name.da | capitalize }} hedder på latin *{{ page.name.latin | downcase }}*. Musklen laver {% for f in page.function.da %}{% if forloop.last == true and page.function.da.size > 1 %} og {% endif %}{{ f.short | downcase  }}{% if forloop.last == false and page.function.da.size > 1 %}, {% endif %}{% endfor %}. Musklen er en del af {{ page.functional_group | join: ", " | downcase }}.

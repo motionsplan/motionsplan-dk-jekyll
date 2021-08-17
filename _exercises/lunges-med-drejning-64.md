@@ -34,4 +34,6 @@ gallery:
 last_modified_at: 2013-10-04T13:45:13Z
 ---
 
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}
+
 Hold en vægt i strakte arme i skulderhøjde. Tag et langt skridt fremad, mens du fører vægtskiven ud på siden af det knæ, du har længst fremme. Skub fra igen og før vægtskiven tilbage til udgangsstilling

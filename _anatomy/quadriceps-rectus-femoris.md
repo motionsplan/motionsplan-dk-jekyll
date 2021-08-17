@@ -42,4 +42,6 @@ coords:
   - "105,242,108,259,115,287,116,303,110,321,110,329,103,328,101,318,97,306,95,274"
 ---
 
+{{ page.name.da | capitalize }} hedder på latin *{{ page.name.latin | downcase }}*. Musklen laver {% for f in page.function.da %}{% if forloop.last == true and page.function.da.size > 1 %} og {% endif %}{{ f.short | downcase  }}{% if forloop.last == false and page.function.da.size > 1 %}, {% endif %}{% endfor %}. Musklen er en del af {{ page.functional_group | join: ", " | downcase }}.
+
 Rectus Femoris er en del af den [firehovede knæstrækker (quadriceps femoris)]({% link _anatomy/quadriceps-femoris.md %}).

@@ -15,9 +15,9 @@ category:
 tags:
   - imagemap
   - muskel
-origin: 
+origin:
   da: Øverst på skinnebenets yderside.
-insertion: 
+insertion:
   da: Inderside af fodrod og mellemfod.
 function:
   da:
@@ -36,3 +36,5 @@ coords:
   - "96,372,100,384,101,402,104,435,100,435,94,406,94,390"
   - "191,370,193,384,192,398,191,411,186,434,183,433,185,411,188,392"
 ---
+
+{{ page.name.da | capitalize }} hedder på latin *{{ page.name.latin | downcase }}*. Musklen laver {% for f in page.function.da %}{% if forloop.last == true and page.function.da.size > 1 %} og {% endif %}{{ f.short | downcase  }}{% if forloop.last == false and page.function.da.size > 1 %}, {% endif %}{% endfor %}. Musklen er en del af {{ page.functional_group | join: ", " | downcase }}.

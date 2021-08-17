@@ -15,10 +15,10 @@ tags:
   - muskel
 categories:
   - Muskler
-origin: 
-  da: 
-insertion: 
-  da: 
+origin:
+  da:
+insertion:
+  da:
 function:
   da:
     - short: Flexes the leg at the hip.
@@ -36,3 +36,5 @@ coords:
   - "170,252,165,244,162,249,167,258"
   - "123,247,126,252,120,260,117,255"
 ---
+
+{{ page.name.da | capitalize }} hedder på latin *{{ page.name.latin | downcase }}*. Musklen laver {% for f in page.function.da %}{% if forloop.last == true and page.function.da.size > 1 %} og {% endif %}{{ f.short | downcase  }}{% if forloop.last == false and page.function.da.size > 1 %}, {% endif %}{% endfor %}. Musklen er en del af {{ page.functional_group | join: ", " | downcase }}.

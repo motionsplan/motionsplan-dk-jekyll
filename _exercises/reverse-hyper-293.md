@@ -14,7 +14,7 @@ tags:
   - maskine
 categories: []
 training_type: []
-training_focus: 
+training_focus:
   - hoftedomineret
 equipment:
   - kropsvægt
@@ -31,5 +31,7 @@ gallery:
     title: "Reverse hyper"
 last_modified_at: 2011-05-01T10:21:12Z
 ---
+
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}
 
 Øvelsen kan også laves i maskine. Hvis du vil have mere kraft på den excentriske fase, kan du bruge 2/1-teknikken, hvor du løfter med to ben, men kommer tilbage til udgangspunktet kun med et ben.

@@ -16,9 +16,9 @@ tags:
   - muskel
 categories:
   - Muskler
-#origin: 
+#origin:
 #  da: Nakkehvirvlen og nakkebåndet. Desuden torntappene fra 6. halshvirvel til 12. brysthvirvel
-#insertion: 
+#insertion:
 #  da: "Øverste del: Yderste del af kravebenet. Midterste del: Skulderhøjden og øverste rand af skulderkammen. Nederste del: Inderste del af skulderkammen."
 function:
   da:
@@ -39,9 +39,11 @@ coords:
   - "124,88,110,83,127,73"
 ---
 
+{{ page.name.da | capitalize }} hedder på latin *{{ page.name.latin | downcase }}*. Musklen laver {% for f in page.function.da %}{% if forloop.last == true and page.function.da.size > 1 %} og {% endif %}{{ f.short | downcase  }}{% if forloop.last == false and page.function.da.size > 1 %}, {% endif %}{% endfor %}. Musklen er en del af {{ page.functional_group | join: ", " | downcase }}.
+
 Trapezius kaldes også kappemusklen på dansk. Musklen består af 3 dele: den øverste, midterste og nederste del.
 
-Trapezius er en stor trekantet muskel, som dækker størstedelen af din øvre ryg. De 3 dele af Trapezius har pga. forskellig hæfte og udspring forskellige funktioner. Tilsammen kan de 3 dele samle, løfte, sænke og dreje skulderbladene opad. 
+Trapezius er en stor trekantet muskel, som dækker størstedelen af din øvre ryg. De 3 dele af Trapezius har pga. forskellig hæfte og udspring forskellige funktioner. Tilsammen kan de 3 dele samle, løfte, sænke og dreje skulderbladene opad.
 
 Trapezius trænes i varianter, hvor du enten løfter skulderbladene fx i shrugs, eller øvelser hvor du sænker og samler skulderbladene. Det gør du især i vandrette træk øvelser og [rows]({% link _posts/2020-07-06-rows.md %}).
 

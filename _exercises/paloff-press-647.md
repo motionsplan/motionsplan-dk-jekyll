@@ -20,10 +20,10 @@ tags:
   - Mave
 categories:
   - Kropsstamme
-training_type: 
+training_type:
   - Balance
   - Styrketræning
-training_focus: 
+training_focus:
   - kropsstamme
 equipment:
   - elastik
@@ -48,6 +48,8 @@ video:
   id: BA-P6E6Faj8
 last_modified_at: 2015-04-10T11:53:58Z
 ---
+
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}
 
 Tag fat i håndtaget (eller den ene ende af elastikken) i begge hænder og hold det mod brystet. Stå eller knæl ved siden af kabelmaskinen med fødderne i hoftebredde fra hinanden. Gå derefter væk, så kablet bliver stramt. Spænd i maven og tryk håndtaget ud med begge hænder, så dine arme er forlænget foran brystet. Hold denne position, modstå træk i kablet og lad ikke din torso rotere mod maskinen i fem til ti sekunder. Før derefter håndtaget tilbage til brystet.
 

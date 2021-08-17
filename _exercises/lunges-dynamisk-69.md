@@ -44,6 +44,8 @@ gallery:
 last_modified_at: 2011-08-18T19:08:58Z
 ---
 
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}
+
 Stangen placeres bag nakken som ved squat. Stå med fødderne i en skulderbreddes afstand. Spænd godt op omkring kropsstammen og hold en ret ryg (kosteskaft). Træd frem med den ene fod og gå ned i knæ indtil du næsten rører jorden med det andet knæ. For at forbedre balancen, kan du tænke på, at fødderne skal følge en togskinne, så du fortsat har en relativ bred fodstilling i yderpositionen.
 
 Herfra skubber fra med det forreste ben, så du kommer tilbage til udgangspositionen. Skift herefter ben.

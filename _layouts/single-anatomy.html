@@ -26,12 +26,10 @@ layout: default
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
-          {% if page.title %}<h1 id="page-title" class="page__title" itemprop="name">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+          {% if page.title %}<h1 id="page-title" class="page__title" itemprop="name">{{ page.name.da | default: page.title | markdownify | remove: "<p>" | remove: "</p>" }}{% if page.name.latin %} (<span itemprop="alternateName">{{ page.name.latin }}</span>){% endif%}</h1>{% endif %}
           {% assign edit_url = 'https://github.com/{{site.repository}}/edit/master/' | append: page.path | absolute_url %}
           {% assign edit_url = '/admin/#/collections/anatomy/entries/' | append: page.slug | absolute_url %}
           <p><a href="{{ edit_url }}" rel="nofollow noopener"><i class="fas fa-pencil-alt" aria-hidden="true"></i> Hjælp med at forbedre denne side</a></p>
-          {% if page.name.latin %}<h2 itemprop="alternateName"><em>{{ page.name.latin }}</em></h2>{% endif %}
-
           {% if page.read_time %}
             <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
           {% endif %}

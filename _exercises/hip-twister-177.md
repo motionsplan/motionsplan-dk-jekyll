@@ -12,8 +12,8 @@ tags:
   - kropsstamme
   - swissball
 categories: []
-training_type: 
-training_focus: 
+training_type:
+training_focus:
   - kropsstamme
 equipment:
   - swissball
@@ -33,5 +33,7 @@ gallery:
     title: "Skrå mavemuskler - Hip twister"
 last_modified_at: 2011-04-19T11:50:31Z
 ---
+
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}
 
 Læg dig ned på gulvet, sæt bolden mellem fødderne. Løft bolden op i strakte ben og roter skiftevis fra side til side.
