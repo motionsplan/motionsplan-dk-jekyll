@@ -9,7 +9,7 @@ key: 20210818081100
 toc: true
 language: da
 header:
-  teaser: /assets/images/exercises/back-squat-0-320.jpg
+  teaser: https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
 tags:
   - Ben
   - Styrketræning
@@ -33,19 +33,7 @@ muscle_group:
 alternative_titles:
   - back squat
   - backsquat
-gallery:
-  - url: /assets/images/exercises/back-squat-0.jpg
-    image_path: /assets/images/exercises/back-squat-0-320.jpg
-    alt: "Squat, vægtstangen på nakken"
-    title: "Squat, vægtstangen på nakken"
-  - url: /assets/images/exercises/back-squat-1.jpg
-    image_path: /assets/images/exercises/back-squat-1-320.jpg
-    alt: "Squat, vægtstangen på nakken"
-    title: "Squat, vægtstangen på nakken"
-  - url: /assets/images/exercises/back-squat-2.jpg
-    image_path: /assets/images/exercises/back-squat-2-320.jpg
-    alt: "Squat, vægtstangen på nakken"
-    title: "Squat, vægtstangen på nakken"
+gallery: []
 video:
   provider: youtube
   id: bBSKbcIVoew
@@ -138,6 +126,13 @@ Et godt *cue* kan være at tænke foden som en 'tripod foot'. Mærk at du har ko
 ## Etbenssquat
 
 En god måde at lave varianter på er ved at lave etbenssquat. Der er nogle gode variationer, som gør, at du kan belaste dit ben rigtig meget uden at skulle bruge høje vægte. Jeg kan særlig godt lide [Bulgarian Split Squats]({% link _exercises/squat-bulgarian-split-39.md %}), men der er mange gode variationer. Du kan også kigge lidt på [forskellige lunges variationer]({% link _exercises/lunges.md %}).
+
+{% include figure image_path="https://images.unsplash.com/photo-1572432332292-6ec3392bee00?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8c3F1YXR8ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" caption="[Pistol squat](/oevelse/pistol-squat/) er en rigtig hård variation af squat" alt="pistol squat" %}
+
+En anden variation er **split squat** hvor du står med et langt skridt. Det ser nogenlunde sådan her ud:
+
+{% include figure image_path="https://images.unsplash.com/flagged/photo-1566063900259-8ee0cb283b3b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80
+" caption="Split squat" alt="split squat" %}
 
 ## Variationer af squat
 

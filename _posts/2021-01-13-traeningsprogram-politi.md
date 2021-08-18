@@ -94,7 +94,7 @@ Der er ingen klassisk styrketræningsøvelse til benene til politiets optagelses
 
 Øver du dig på hurtighedstesten og længdespringet, anbefaler vi at gøre dette som det første i træningspasset, mens du er frisk og kan være maksimalt eksplosive, og så kan styrketræningsøvelserne og/eller løb laves bagefter.
 
-Til forlårene foreslår vi øvelser som [pistols](/oevelse/pistol/), lunges, jumping lunges, squats, jump squats mm. Til baglårene og bagkæden generelt er der færre muligheder uden vægte, men [nordic hamstring curls](/oevelse/nordic-hamstring/), hvor du enten har fødderne under et tungt møbel eller får en person til at holde dine fødder, er en glimrende øvelse om man har udstyr eller ej.	
+Til forlårene foreslår vi øvelser som [pistol squats](/oevelse/pistol-squat/), [lunges](/lunges/), jumping lunges, [squats](/squat/), jump squats mm. Til baglårene og bagkæden generelt er der færre muligheder uden vægte, men [nordic hamstring curls](/oevelse/nordic-hamstring/), hvor du enten har fødderne under et tungt møbel eller får en person til at holde dine fødder, er en glimrende øvelse om man har udstyr eller ej.	
 
 ## Eksempler på hjemmetræning i forhold til politiets optagelsesprøve
 

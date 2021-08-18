@@ -2,8 +2,10 @@
 title: "Pistol"
 excerpt: "Stå på et ben. Løft det andet ben frem foran dig så det ikke rører jorden. Herfra laver du en dyb knæbøjning uden at røre med benet i luften. Rejs dig igen."
 instructions: "Stå på et ben. Løft det andet ben frem foran dig så det ikke rører jorden. Herfra laver du en dyb knæbøjning uden at røre med benet i luften. Rejs dig igen."
-permalink: /oevelse/pistol/
-redirect_from: /node/13
+permalink: /oevelse/pistol-squat/
+redirect_from:
+  - /node/13
+  - /oevelse/pistol/
 id: 13
 language: da
 header:
@@ -19,6 +21,7 @@ tags:
   - crossfit
 categories:
   - Hård styrkeøvelse
+  - Squat
 training_type:
   - Styrketræning
 training_focus:

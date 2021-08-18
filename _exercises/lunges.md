@@ -8,7 +8,7 @@ id: 20210818093400
 key: 20210818093400
 language: da
 header:
-  teaser: /assets/images/exercises/lunges-dynamisk-0-320.jpg
+  teaser: https://images.unsplash.com/photo-1593234270607-66cc705a0aaa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
 tags:
   - knædomineret
   - vægtstang
@@ -21,27 +21,7 @@ training_focus:
 equipment:
   - vægtstang
 muscle_group: []
-gallery:
-  - url: /assets/images/exercises/lunges-dynamisk-0.jpg
-    image_path: /assets/images/exercises/lunges-dynamisk-0-320.jpg
-    alt: "Lunges, dynamisk"
-    title: "Lunges, dynamisk"
-  - url: /assets/images/exercises/lunges-dynamisk-1.jpg
-    image_path: /assets/images/exercises/lunges-dynamisk-1-320.jpg
-    alt: "Lunges, dynamisk"
-    title: "Lunges, dynamisk"
-  - url: /assets/images/exercises/lunges-dynamisk-2.jpg
-    image_path: /assets/images/exercises/lunges-dynamisk-2-320.jpg
-    alt: "Lunges, dynamisk"
-    title: "Lunges, dynamisk"
-  - url: /assets/images/exercises/lunges-dynamisk-3.jpg
-    image_path: /assets/images/exercises/lunges-dynamisk-3-320.jpg
-    alt: "Lunges, dynamisk"
-    title: "Lunges, dynamisk"
-  - url: /assets/images/exercises/lunges-dynamisk-4.jpg
-    image_path: /assets/images/exercises/lunges-dynamisk-4-320.jpg
-    alt: "Lunges, dynamisk"
-    title: "Lunges, dynamisk"
+gallery: []
 last_modified_at: 2021-08-18T19:08:58Z
 video:
   provider: youtube

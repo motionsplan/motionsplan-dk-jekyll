@@ -11,7 +11,7 @@ redirect_from: /node/55
 id: 55
 language: da
 header:
-  teaser: /assets/images/exercises/doedloeft-0-320.jpg
+  teaser: https://images.unsplash.com/photo-1521804906057-1df8fdb718b7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
 tags:
   - Ben
   - Styrketræning
@@ -41,6 +41,13 @@ gallery:
     image_path: /assets/images/exercises/doedloeft-1-320.jpg
     alt: "Dødløft"
     title: "Dødløft"
+gallery_grip:
+  - url: https://images.unsplash.com/photo-1606657830879-00d70555b1b6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGRlYWRsaWZ0fGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60
+    image_path: https://images.unsplash.com/photo-1606657830879-00d70555b1b6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGRlYWRsaWZ0fGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60
+    title: "Overhåndsgreb"
+  - url: https://images.unsplash.com/photo-1517964706594-8bf49837d8dc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGRlYWRsaWZ0fGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60
+    image_path: https://images.unsplash.com/photo-1517964706594-8bf49837d8dc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGRlYWRsaWZ0fGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60
+    title: "Mixed grip"
 video:
   provider: youtube
   id: mJ0OSws9qtE
@@ -152,3 +159,5 @@ Din kropsbygning betyder noget i forhold til, hvilken dødløft-variant du skal 
 ## Hvordan skal grebet være i dødløft?
 
 Grebet i dødløft afhænger af den version af dødløft, du laver. Rigtig mange spørger om [grebet i konventionel dødløft]({% link _exercises/doedloeft-konventionel-55.md %}), hvor jeg har skrevet mere om grebet.
+
+{% include gallery id="gallery_grip" caption="Grebet i dødløft kan se forskelligt ud. Her kan du se overhåndsgreb og *mixed grip*. Man kan også bruge et *hook greb*." layout="half" %}

@@ -6,7 +6,6 @@ redirect_from:
 title: &title "Træningsøvelser: De bedste øvelser til styrketræning 🏋"
 excerpt: "Vi har samlet de bedste træningsøvelser og styrketræningsøvelser. Vi har lavet en grundig forklaring af alle øvelserne, og der er både øvelser til styrketræning, konditionstræning, yoga, udstrækning, mobilitet og cardio."
 comments: false
-classes: wide
 author_profile: true
 gallery:
   - image_path: https://i.pinimg.com/564x/3f/17/84/3f17845a79b4552c5fbbcbd584d1c36a.jpg
@@ -26,7 +25,7 @@ Hvis du er på udkig efter [maveøvelser]({% link _pages/exercises-tag-abs.md %}
 
 {% include pinterest-gallery id="gallery" hidden="true"%}
 
-## Nyeste øvelser
+## Seneste opdaterede øvelser
 
 Her kan du se de nyeste træningsøvelser.
 
@@ -35,13 +34,12 @@ Her kan du se de nyeste træningsøvelser.
 {% assign site_posts = site.exercises | where: "tags", "featured" | sort: "last_modified_at" | reverse %}
 
 {% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 6 %}
+  {% for post in site_posts limit: 8 %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
 
 </div>
-
 
 ## Maveøvelser, mavetræning og coretræning
 

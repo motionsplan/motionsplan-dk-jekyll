@@ -104,11 +104,11 @@ anatomi:
     url: "/muskler/"
     children:
       - title: Benmuskler
-        url: /benmuskler/
+        url: /muskler/ben/
       - title: Armmuskler
-        url: /armmuskler/
+        url: /muskler/arme/
       - title: Rygmuskler
-        url: /rygmuskler/
+        url: /muskler/ryg/
 muscles:
   - title: Benmuskler
     url: /benmuskler/
