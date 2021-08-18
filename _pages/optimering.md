@@ -10,8 +10,6 @@ header:
   caption: Optimering af træningen
 author_profile: true
 author: lsolesen
-sidebar:
-  nav: strength
 feature_row_feature:
   - image_path: https://images.unsplash.com/photo-1428790067070-0ebf4418d9d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
     alt: "Tests"

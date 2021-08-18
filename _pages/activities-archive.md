@@ -15,6 +15,7 @@ gallery:
     data_pin_id: 579768152024756849
 sidebar:
   nav: exercises
+toc: true
 ---
 
 Vi har samlet de bedste træningsøvelser, udstrækningsøvelser og styrketræningsøvelser. Vi har lavet en grundig forklaring af alle øvelserne, og der er både øvelser til styrketræning, konditionstræning, yoga, udstrækning, mobilitet og cardio.
