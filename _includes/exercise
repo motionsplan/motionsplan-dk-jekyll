@@ -3,9 +3,11 @@
 {% assign posts = site.exercises | where: "key", exercise_key %}
 {% assign post = posts[0] %}
 
-<h2>{{ post.title }}</h2>
+{% assign title = include.title | default: post.title %}
 
-{% if post.gallery %}
+<h2 id="{{ title | slugify }}">{{ title }}</h2>
+
+{% if post.gallery.size > 0 %}
   {% include gallery images=post.gallery %}
 {% endif %}
 

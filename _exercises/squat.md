@@ -156,4 +156,4 @@ Her kan du se de mange forskellige variationer af squat. De mest brugte er som n
 
 ## Konklusion
 
-Squat er virkelig effektive [benøvelser og bentræning]({% link _posts/2020-12-11-benovelser.md %}). De fleste vil kunne finde en eller anden måde, hvor de kan lave squat på. Husk at alle ikke behøver at lave rigtig tung back squats. Det kan være rigtig godt at variere bentræningen med fx [lunges](/lunges/) eller [dødløft](/doedloeft/).
+Squat er virkelig effektive [benøvelser og bentræning]({% link _pages/exercises-tag-ben.md %}). De fleste vil kunne finde en eller anden måde, hvor de kan lave squat på. Husk at alle ikke behøver at lave rigtig tung back squats. Det kan være rigtig godt at variere bentræningen med fx [lunges](/lunges/) eller [dødløft](/doedloeft/).

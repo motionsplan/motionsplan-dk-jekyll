@@ -12,12 +12,7 @@ tags:
   - knædomineret
   - kropsstamme
   - Medicinbold
-  - Arme
-  - Baller
-  - Forlår
-  - Mave
-  - Ryg
-  - Skuldre
+  - Helkropsøvelse
 categories: []
 training_type:
   - Styrketræning
@@ -27,12 +22,7 @@ training_focus:
 equipment:
   - Medicinbold
 muscle_group:
-  - Arme
-  - Baller
-  - Forlår
-  - Mave
-  - Ryg
-  - Skuldre
+  - Helkropsøvelse
 alternative_titles: []
 gallery:
   - url: /assets/images/exercises/high-throw-medicinbold-0.jpg

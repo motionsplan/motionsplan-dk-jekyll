@@ -1,6 +1,6 @@
 ---
-title: "Facepull: Træk til ansigt med rotation"
-seo_title: "Facepulls: Træk til ansigt med rotation"
+title: "Facepull"
+seo_title: "Facepulls: Træk til ansigt for sunde skuldre"
 excerpt: "Facepulls udføres ed at holde i rebhåndtaget med overhåndsgreb. I god balance trækker du rebet hen mod dine øjenbryn, mens du holder hovedet og skuldrene i samme position som ved starten."
 instructions: "Hold i rebhåndtaget med overhåndsgreb. I god balance trækker du rebet hen mod din egen pande og så langt tilbage som muligt, mens du holder hovedet og skuldrene i samme position som ved starten."
 permalink: /oevelse/facepull-rotation/
@@ -39,15 +39,15 @@ alternative_titles:
 gallery:
   - url: /assets/images/exercises/traek-til-ansigt-0.jpg
     image_path: /assets/images/exercises/traek-til-ansigt-0-320.jpg
-    alt: "Træk til ansigt"
-    title: "Træk til ansigt"
+    alt: "Træk til ansigt - Face pull"
+    title: "Træk til ansigt - Facepull"
   - url: /assets/images/exercises/traek-til-ansigt-1.jpg
     image_path: /assets/images/exercises/traek-til-ansigt-1-320.jpg
-    alt: "Træk til ansigt"
-    title: "Træk til ansigt"
+    alt: "Træk til ansigt - Face pull"
+    title: "Træk til ansigt - Facepull"
 video:
   provider: youtube
-  id: HLrmqQf0oIA
+  id: BAKsEZQmGtE
 last_modified_at: 2015-04-02T20:40:05Z
 key: 20201213171600
 ---

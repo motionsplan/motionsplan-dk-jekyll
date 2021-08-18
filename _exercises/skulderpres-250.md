@@ -5,6 +5,7 @@ instructions: "Sæt dig med ryggen mod sædet og tag fat i håndtagene. Løft v�
 permalink: /oevelse/skulderpres/
 redirect_from: /node/250
 id: 250
+key: 20210818223900
 language: da
 header:
   teaser: /assets/images/exercises/skulderpres-0-320.jpg

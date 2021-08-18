@@ -5,6 +5,7 @@ instructions: "Liggende på en bænk og skub vandret."
 permalink: /oevelse/baenkpres/
 redirect_from: /node/17
 id: 17
+key: 20210818224100
 language: da
 header:
   teaser: /assets/images/exercises/baenkpres-0-320.jpg
