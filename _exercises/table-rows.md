@@ -20,7 +20,6 @@ gallery:
 #    alt: "Spring, 180  jump"
 #    title: "Spring, 180  jump"
 last_modified_at: 2010-11-02T13:43:26Z
-classes: wide
 video:
   provider: youtube
   id: FKKZRwBJDxE

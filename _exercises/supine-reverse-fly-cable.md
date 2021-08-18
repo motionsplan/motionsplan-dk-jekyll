@@ -20,7 +20,6 @@ muscle_group:
 #    title: "Spring, 180  jump"
 last_modified_at: 2010-11-02T13:43:26Z
 key: 20201213202400
-classes: wide
 video:
   provider: youtube
   id: jusf1mNempU

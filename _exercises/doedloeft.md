@@ -136,7 +136,7 @@ Du kan også lave dødløft på et ben. Jeg er særligt glad for at bruge [etben
 
 ## Variationer af dødløft
 
-Der findes flere forskellige variationer af dødløft. Her kan du se en liste over de almindelige, men også nogle lidt anderledes udgaver.
+Der findes flere forskellige variationer af dødløft. Her kan du se en liste over de almindelige, men også nogle lidt anderledes udgaver. Du kan fx også kigge på [rack pull]({% link _exercises/rackpull-0-268.md %}), hvor du arbejder med en kortere *range of motion*.
 
 {% assign site_posts = site.exercises | where: "categories", "Dødløft" | where_exp: "post", "post.url != page.url" | sort: "title" %}
 

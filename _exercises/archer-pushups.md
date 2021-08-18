@@ -8,7 +8,8 @@ language: da
 #  teaser: /assets/images/exercises/180-jump-0-320.jpg
 tags:
   - kropsvægt
-categories: []
+categories:
+  - Armstrækninger
 training_type: []
 training_focus: []
 equipment:
@@ -20,7 +21,6 @@ muscle_group: []
 #    alt: "Spring, 180  jump"
 #    title: "Spring, 180  jump"
 last_modified_at: 2020-11-02T13:43:26Z
-classes: wide
 video:
   provider: youtube
   id: A0r8ploEnZY

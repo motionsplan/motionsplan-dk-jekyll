@@ -18,7 +18,6 @@ equipment: []
 muscle_group: []
 gallery: []
 last_modified_at: 2020-11-02T13:43:26Z
-classes: wide
 ---
 
 {{ page.instructions }}
