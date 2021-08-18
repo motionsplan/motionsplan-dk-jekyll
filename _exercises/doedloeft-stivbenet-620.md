@@ -18,6 +18,7 @@ tags:
   - Ryg
 categories:
   - Hård styrkeøvelse
+  - Dødløft
 training_type:
   - Styrketræning
 training_focus:

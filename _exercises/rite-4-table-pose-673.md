@@ -21,6 +21,7 @@ tags:
   - Skuldre
 categories:
   - Kropsstamme
+  - De fem tibetanere
 training_type:
   - Mobilisering
   - Strækøvelser

@@ -18,6 +18,7 @@ tags:
   - Forlår
 categories:
   - Koordination og balance
+  - De fem tibetanere
 training_type:
   - Styrketræning
   - Yoga

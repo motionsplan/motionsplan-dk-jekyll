@@ -12,6 +12,7 @@ tags:
   - Ben
 categories:
   - Ben
+  - Dødløft
 training_type: []
 training_focus: []
 equipment: []

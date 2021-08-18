@@ -14,6 +14,7 @@ tags:
   - håndvægte
 categories:
   - Koordination og balance
+  - Dødløft
 training_type:
 training_focus:
   - hoftedomineret

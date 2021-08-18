@@ -7,12 +7,13 @@ redirect_from: /node/120
 id: 120
 language: da
 tags: []
-categories: []
+categories:
+  - Dødløft
 training_type: []
 training_focus: []
 equipment: []
 muscle_group: []
-gallery:
+gallery: []
 last_modified_at: 2009-06-09T09:10:01Z
 ---
 

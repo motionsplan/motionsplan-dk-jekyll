@@ -6,6 +6,7 @@ instructions: "Fødderne placeres nogenlunde i skulderbredde med tæerne pegende
 permalink: /squat/
 id: 20210818081100
 key: 20210818081100
+toc: true
 language: da
 header:
   teaser: /assets/images/exercises/back-squat-0-320.jpg
@@ -17,7 +18,7 @@ tags:
   - Baller
   - Forlår
   - fitnessinstruktør
-  - crossfit
+  - featured
 categories:
   - Ben
 training_type:
@@ -154,6 +155,10 @@ Her kan du se de mange forskellige variationer af squat. De mest brugte er som n
 
 </div>
 
+## Ofte stillede spørgsmål om squat
+
+{% include faq.html %}
+
 ## Konklusion
 
-Squat er virkelig effektive [benøvelser og bentræning]({% link _posts/2020-12-11-benovelser.md %}). De fleste vil kunne finde en eller anden måde, hvor de kan lave squat på. Husk at alle ikke behøver at lave rigtig tung back squats.
+Squat er virkelig effektive [benøvelser og bentræning]({% link _posts/2020-12-11-benovelser.md %}). De fleste vil kunne finde en eller anden måde, hvor de kan lave squat på. Husk at alle ikke behøver at lave rigtig tung back squats. Det kan være rigtig godt at variere bentræningen med fx [lunges](/lunges/) eller [dødløft](/doedloeft/).

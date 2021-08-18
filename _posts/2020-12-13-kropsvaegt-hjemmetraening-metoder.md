@@ -143,7 +143,7 @@ Darden 30-10-30 er virkelig en hård øvelse, og du udfører den sådan her, fx 
 - Lav øjeblikkeligt derefter **10 almindelige gentagelser**, hvor du stadig kontrollerer den excentriske fase, fx med 2 sekunder.
 - Slut med **30 sekunders excentrisk fase** umiddelbart efter den 10. gentagelse.
 
-Hvis det er for let at bruge denne metode på _body weight squats_, så kan du prøve at lave flere gentagelser eller lave en squat-variation på et ben, fx [Bulgarian Split Squats]({% link _exercises/bulgarian-split-squat-39.md %}).
+Hvis det er for let at bruge denne metode på _body weight squats_, så kan du prøve at lave flere gentagelser eller lave en squat-variation på et ben, fx [Bulgarian Split Squats]({% link _exercises/squat-bulgarian-split-39.md %}).
 
 {% comment %}
 

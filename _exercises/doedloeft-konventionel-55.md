@@ -1,8 +1,8 @@
 ---
-title: "Dødløft"
+title: "Konventionel dødløft"
 excerpt: "Stangen er placeret på gulvet. Tag fat i stangen med hænderne i skulderbredde. Rejs dig ved at skyde hoften frem, mens stangen bare hænger i armene."
 instructions: "Stangen er placeret på gulvet. Tag fat i stangen med hænderne i skulderbredde. Rejs dig ved at skyde hoften frem, mens stangen bare hænger i armene."
-permalink: /oevelse/doedloeft/
+permalink: /oevelse/konventionel-doedloeft/
 redirect_from: /node/55
 id: 55
 language: da
@@ -19,9 +19,10 @@ tags:
   - crossfit
 categories:
   - Ben
-training_type: 
+  - Dødløft
+training_type:
   - Styrketræning
-training_focus: 
+training_focus:
   - hoftedomineret
 equipment:
   - vægtstang

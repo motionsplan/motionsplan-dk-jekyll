@@ -20,6 +20,7 @@ tags:
   - Mave
 categories:
   - Kropsstamme
+  - De fem tibetanere
 training_type:
   - Strækøvelser
   - Styrketræning

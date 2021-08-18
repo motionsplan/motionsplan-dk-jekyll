@@ -79,7 +79,7 @@ Du starter bevægelsen i glute-ham-raises med ballemusklerne og den del af bagl�
 
 Det er en stor fordel, at musklerne ikke arbejder isolerede, men arbejder synergistisk, så den intermuskulære koordination også forbedres.
 
-I en sammenligning af [leg curl]({% link _exercises/knae-fleksion-249.md %}), [good morning]({% link _exercises/goodmorning-16.md %}), [Romanian Deadlift]({% link _exercises/romanian-deadlift-43.md %}) og glute ham raise fandt McAllister et al (2014), at baglårsmusklerne var mest aktive i RDL og glute ham raise.
+I en sammenligning af [leg curl]({% link _exercises/knae-fleksion-249.md %}), [good morning]({% link _exercises/goodmorning-16.md %}), [Romanian Deadlift]({% link _exercises/doedloeft-romanian-43.md %}) og glute ham raise fandt McAllister et al (2014), at baglårsmusklerne var mest aktive i RDL og glute ham raise.
 
 ## Hvad hjælper glute ham raise på?
 

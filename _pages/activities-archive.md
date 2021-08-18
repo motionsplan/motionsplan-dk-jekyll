@@ -57,7 +57,7 @@ Læs mere om [armøvelser til triceps, biceps og underarmene her]({% link _pages
 
 ## Benøvelser
 
-Bentræning kan foregå med virkelig mange forskellige øvelser. Bentræning kan foregå både med frie vægte og lave squat og lunges og i benmaskine som benpres og leg extensions. Du kan finde øvelser med vægtstang, håndvægte, kettlebells og [Safety Squat Bar]({% link _posts/2020-07-05-safetybar-squat.md %}).
+Bentræning kan foregå med virkelig mange forskellige øvelser. Bentræning kan foregå både med frie vægte og lave [squat](/squat/) og [lunges](/lunges/) og i benmaskine som benpres og leg extensions. Du kan finde øvelser med vægtstang, håndvægte, kettlebells og [Safety Squat Bar]({% link _posts/2020-07-05-safetybar-squat.md %}). [Dødløft](/doedloeft/) er også en af de gode benøvelser.
 
 [Tjek alle benøvelser]({% link _pages/exercises-tag-ben.md %}).
 

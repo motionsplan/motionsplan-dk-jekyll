@@ -16,6 +16,7 @@ tags:
   - kropsvægt
 categories:
   - Koordination og balance
+  - De fem tibetanere
 training_type:
   - Balance
   - Yoga
