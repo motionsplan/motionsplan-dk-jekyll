@@ -17,6 +17,7 @@ tags:
   - rows
 categories:
   - Træk
+  - Rows
 training_type:
   - Styrketræning
 training_focus:

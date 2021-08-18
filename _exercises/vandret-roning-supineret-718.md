@@ -9,7 +9,8 @@ language: da
 header:
   teaser: /assets/images/exercises/vandret-roning-supineret-0-320.jpg
 tags: []
-categories: []
+categories:
+  - Rows
 training_type: []
 training_focus: []
 equipment: []

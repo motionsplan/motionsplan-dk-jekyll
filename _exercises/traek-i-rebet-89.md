@@ -10,7 +10,8 @@ header:
   teaser: /assets/images/exercises/traek-i-rebet-0-320.jpg
 tags:
   - tov
-categories: []
+categories:
+  - Rows
 training_type: []
 training_focus: []
 equipment:

@@ -11,7 +11,8 @@ header:
 tags:
   - kropsvægt
   - fitnessinstruktør
-categories: []
+categories:
+  - Rows
 training_type: []
 training_focus: []
 equipment:

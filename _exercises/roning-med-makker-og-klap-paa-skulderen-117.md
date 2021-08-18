@@ -10,7 +10,8 @@ header:
   teaser: /assets/images/exercises/roning-med-makker-og-klap-paa-skulderen-0-320.jpg
 tags:
   - makkerøvelse
-categories: []
+categories:
+  - Rows
 training_type: []
 training_focus: []
 equipment: []
