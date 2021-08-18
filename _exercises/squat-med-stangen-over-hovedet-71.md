@@ -9,11 +9,12 @@ language: da
 header:
   teaser: /assets/images/exercises/squat-med-stangen-over-hovedet-0-320.jpg
 tags: []
-categories: []
+categories:
+  - Squat
 training_type: []
 training_focus: []
-equipment:
-muscle_group:
+equipment: []
+muscle_group: []
 alternative_titles:
   - overhead squat
 gallery:

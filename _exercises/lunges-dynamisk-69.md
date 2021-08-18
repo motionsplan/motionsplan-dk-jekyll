@@ -13,7 +13,8 @@ tags:
   - vægtstang
   - fitnessinstruktør
   - crossfit
-categories: []
+categories:
+  - Lunges
 training_type:  []
 training_focus:
   - knædomineret

@@ -9,19 +9,14 @@ video:
   id: kiYCOO_o0yw
 #header:
 #  teaser: /assets/images/exercises/180-jump-0-320.jpg
-tags:
-#  - kropsvægt
-categories: []
+tags: []
+categories:
+  - Squat
 training_type: []
 training_focus: []
-equipment:
-#  - kropsvægt
+equipment: []
 muscle_group: []
-gallery:
-#  - url: /assets/images/exercises/180-jump-0.jpg
-#    image_path: /assets/images/exercises/180-jump-0-320.jpg
-#    alt: "Spring, 180  jump "
-#    title: "Spring, 180  jump "
+gallery: []
 last_modified_at: 2020-11-02T13:43:26Z
 classes: wide
 ---

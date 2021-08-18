@@ -18,6 +18,7 @@ tags:
   - Lægge
 categories:
   - Helkropsøvelse
+  - Squat
 training_type:
   - Styrketræning
 training_focus:

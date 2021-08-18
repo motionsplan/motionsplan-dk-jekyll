@@ -17,6 +17,7 @@ tags:
   - Forlår
 categories:
   - Kondition og puls
+  - Lunges
 training_type:
   - Kondition
 training_focus:

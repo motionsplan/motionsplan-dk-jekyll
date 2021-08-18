@@ -20,6 +20,7 @@ tags:
   - Forlår
 categories:
   - Ben
+  - Lunges
 training_type:
   - Styrketræning
 training_focus:

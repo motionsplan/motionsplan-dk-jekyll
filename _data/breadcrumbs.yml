@@ -19,6 +19,7 @@ Kropskomposition:
 Restitution:
   title: Restitution
   url: /restitutionstid-og-alder/
+
 # Øvelser
 
 Brystøvelser:
@@ -72,6 +73,14 @@ Armstrækninger:
 Kropshævninger:
   title: Kropshævninger
   url: /chinup-vs-pullup/
+
+Squat:
+  title: Squat
+  url: /squat/
+
+Lunges:
+  title: Lunges
+  url: /lunges/
 
 Foamrolling:
   title: Foamrolling

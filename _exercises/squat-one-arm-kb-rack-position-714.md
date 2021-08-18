@@ -18,6 +18,7 @@ tags:
   - Mave
 categories:
   - Kropsstamme
+  - Squat
 training_type:
   - Balance
   - Styrketræning

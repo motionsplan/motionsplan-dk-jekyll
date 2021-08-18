@@ -19,6 +19,7 @@ tags:
   - Øvre ryg
 categories:
   - Ben
+  - Squat
 training_type:
   - Mobilisering
 training_focus:

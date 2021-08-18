@@ -10,7 +10,8 @@ header:
   teaser: /assets/images/exercises/squat-med-hop-og-landing-paa-et-ben-0-320.jpg
 tags:
   - kropsvægt
-categories: []
+categories:
+  - Squat
 training_type: []
 training_focus: []
 equipment:

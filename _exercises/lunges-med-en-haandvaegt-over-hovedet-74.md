@@ -20,6 +20,7 @@ tags:
   - Forlår
 categories:
   - Helkropsøvelse
+  - Lunges
 training_type:
   - Styrketræning
 training_focus:

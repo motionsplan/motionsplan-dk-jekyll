@@ -13,6 +13,7 @@ tags:
   - vægtskive
 categories:
   - Helkropsøvelse
+  - Lunges
 training_type: []
 training_focus: []
 equipment:

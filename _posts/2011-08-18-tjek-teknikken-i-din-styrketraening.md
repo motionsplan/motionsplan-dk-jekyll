@@ -102,7 +102,7 @@ Du kan lære lidt mere om 'butt wink' her:
 
 I øvelser hvor du har bevægelse i knæleddet kan det være hensigtsmæssigt at tæerne peger i samme retning som knæleddet. Så hvis tæerne peger lidt ud til siden, skal knæene pege samme vej, hvis der er en bøjning i knæleddet.
 
-{% include figure image_path="https://images.squarespace-cdn.com/content/v1/592944cb86e6c0040d3c3d27/1555302430426-EJWYADZ4LGXFP8H3ALNZ/ke17ZwdGBToddI8pDm48kMLIFZF-RdJnv53QyKb76bcUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYwL8IeDg6_3B-BRuF4nNrNcQkVuAT7tdErd0wQFEGFSnIOtKmEu9df_BfjCL60WfrLG-xhlkhZ5ekCTmQxIej5k6nlT4eezhur4-uY2HaZbiw/Sarah+Front+view+squat+export+final.jpg?format=2500w" caption="Det mest typiske er at knæene falder lidt ind ad, men det kan faktisk lade sig gøre at træne det. Se fx dette __case__ studie [ONI](https://www.oni.co.nz/library/2019/5/14/valgus-knee-case-study-alec)" alt="teknik i styrketræning" %}
+{% include figure image_path="https://images.squarespace-cdn.com/content/v1/592944cb86e6c0040d3c3d27/1555302430426-EJWYADZ4LGXFP8H3ALNZ/ke17ZwdGBToddI8pDm48kMLIFZF-RdJnv53QyKb76bcUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYwL8IeDg6_3B-BRuF4nNrNcQkVuAT7tdErd0wQFEGFSnIOtKmEu9df_BfjCL60WfrLG-xhlkhZ5ekCTmQxIej5k6nlT4eezhur4-uY2HaZbiw/Sarah+Front+view+squat+export+final.jpg?format=2500w" caption="Det mest typiske er at knæene falder lidt ind ad, men det kan faktisk lade sig gøre at træne det. Se fx dette *case* studie [ONI](https://www.oni.co.nz/library/2019/5/14/valgus-knee-case-study-alec)" alt="teknik i styrketræning" %}
 
 ### 5) Stå på hele foden - 'tripod foot'
 
@@ -110,7 +110,7 @@ Dine fødder er din forbindelse til jorden, så ultimativt kommer en del af kraf
 
 Du kan udnytte 'tripod foot', hvor du mærker at du har kontakt med jorden i tre punkter, som i figuren nedenunder.
 
-{% include figure image_path="https://jacktylerperformance.com/wp-content/uploads/2020/01/FOOT-TRIPOD.png" caption="Udnyt 'tripod foot' for at kunne yde den største kraft i øvelser, hvor det er nødvendigt at du har en god balance." alt="tripod foot" %}
+{% include figure image_path="https://jacktylerperformance.com/wp-content/uploads/2020/01/FOOT-TRIPOD.png" caption="Udnyt 'tripod foot' for at kunne yde den største kraft i øvelser, hvor det er nødvendigt at du har en god balance. Kilde: [jacktylerperformance.com](https://jacktylerperformance.com/the-foot-tripod-how-you-can-immediately-squat-more/)." alt="tripod foot teknik styrketræning" %}
 
 ### 6) Respekter bevægeligheden i skuldrene
 

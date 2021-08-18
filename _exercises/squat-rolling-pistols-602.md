@@ -18,6 +18,7 @@ tags:
   - Forlår
 categories:
   - Helkropsøvelse
+  - Squat
 training_type:
   - Styrketræning
 training_focus:

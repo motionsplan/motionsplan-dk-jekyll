@@ -9,7 +9,8 @@ language: da
 header:
   teaser: /assets/images/exercises/lunges-baglaens-med-stangen-over-hovedet-0-320.jpg
 tags: []
-categories: []
+categories:
+  - Lunges
 training_type: []
 training_focus: []
 equipment:

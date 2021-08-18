@@ -20,6 +20,7 @@ tags:
   - crossfit
 categories:
   - Ben
+  - Squat
 training_type:
   - Styrketræning
 training_focus:

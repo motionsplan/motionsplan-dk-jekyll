@@ -14,7 +14,8 @@ tags:
   - planke
 categories:
   - Ben
-training_type:
+  - Squat
+training_type: []
 training_focus:
   - knædomineret
 equipment:

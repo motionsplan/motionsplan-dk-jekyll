@@ -19,6 +19,7 @@ tags:
   - Forlår
 categories:
   - Kropsstamme
+  - Lunges
 training_type:
   - Styrketræning
 training_focus:
