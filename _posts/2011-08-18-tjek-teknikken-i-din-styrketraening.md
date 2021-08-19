@@ -54,7 +54,7 @@ Typisk minimerer det skadesrisikoen at være i de neutrale, midtersøgende posit
 
 Den vigtigste parameter i forhold til at minimere skadesrisiko er altså træningsdosering. Det handler ikke om at træne hårdest muligt hver eneste gang, men om at tilpasse træningen til dit nuværende niveau.
 
-Hvis du hellere vil se en video, så fortæller Jacob Beerman lidt mere om det i denne video:
+Hvis du hellere vil se en video, så fortæller Jacob Beermann lidt mere om det i denne video:
 
 {% include video provider="youtube" id="YTyKc2BNKrw" %}
 

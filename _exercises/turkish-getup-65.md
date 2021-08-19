@@ -1,13 +1,14 @@
 ---
 title: "Turkish getup"
-excerpt: "Lig på ryggen. Hold en vægt i strakt arm. Herfra skal du rejse dig op, mens du holder vægten over hovedet i strakt arm hele tiden. Læg dig ned igen."
+seo_title: "Turkish getups: Old school helkropsøvelse"
+excerpt: "I turkish getups skal du rejse dig med en vægt i strakt arm over hovedet. Øvelsen træner hele kroppen, core-stabilitet og skulderstabilitet."
 instructions: "Lig på ryggen. Hold en vægt i strakt arm. Herfra skal du rejse dig op, mens du holder vægten over hovedet i strakt arm hele tiden. Læg dig ned igen."
 permalink: /oevelse/turkish-getup/
 redirect_from: /node/65
 id: 65
 language: da
 header:
-  teaser: /assets/images/exercises/turkish-getup-0-320.jpg
+  teaser: https://images.unsplash.com/photo-1601422407692-ec4eeec1d9b3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGV4ZXJjaXNlJTIwcHJvZ3JhbXxlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60
 tags:
   - Helkropsøvelse
   - Styrketræning
