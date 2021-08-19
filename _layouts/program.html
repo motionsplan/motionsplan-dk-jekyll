@@ -48,11 +48,19 @@ layout: default
 
         {{ page.excerpt }}
 
-        <hr />
+        <hr>
 
-        {% if page.exercises.size > 0 %}
-          {% include exercises exercises=page.exercises match="exact" type="left" input_type="array" %}
+        {% if page.blocks.size > 0%}
+          {% for b in page.blocks %}
+            <h4>{{ b.title }}</h4>
+            {% if b.exercises.size > 0 %}
+            {{ b.exercises }}
+              {% include exercises exercises=b.exercises match="exact" type="left" input_type="array" %}
+            {% endif %}
+          {% endfor %}
         {% endif %}
+        
+        <hr>
         
         {{ content }}
 

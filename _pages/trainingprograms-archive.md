@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 layout: single
 title: "Træningsprogrammer: fullbody og splitprogrammer til styrketræning"
 permalink: /traeningsprogrammer/
@@ -82,3 +83,17 @@ Tag udgangspunkt i et af de mange effektive programmer her og tilpas dem til din
 Hvis du er i tvivl om, hvilket styrketræningsprogram, der er det bedste for dig, så får du hjælp her på siden. Vi hjælper dig med at vælge et gratis træningsprogram til fitness, som du kan bruge både i dit fitnesscenter eller hjemme.
 
 {% include faq.html %}
+=======
+layout: collection
+title: "Træningsprogrammer"
+permalink: /traeningsprogrammer/
+excerpt: "Træningsprogrammer fra Motionsplan"
+author_profile: true
+author: lsolesen
+comments: false
+collection: programs
+entries_layout: grid
+classes: wide
+group_by: categories
+---
+>>>>>>> 1e82b2124029a1d026c4d4106a5e0cb806b7be11
