@@ -15,6 +15,11 @@ categories:
 breadcrumbs: true
 sidebar:
   nav: exercises
+faq:
+  - question: "Hvad er den bedste skulderøvelse?"
+    answer: "De mest effektive øvelser til at træne skulderens muskler er military press, skulderpres, arnold press, lateral raise og bent over rows. Du kan ikke ramme alle tre dele af skuldermusklen med en øvelse, så husk også at fokusere på den midterste del og bagskulderen. Du kan se alle øvelserne her på siden."
+  - question: "Hvad hedder skulderen og skuldermusklen på latin?"
+    answer: "Din skuldermuskel hedder deltoideus på latin. Den er delt op i tre dele. Den forreste del kaldes også den anteriore del og deltoideus pars clavicularis. Den midterste del eller laterale del kaldes også deltoideus acromialis. Den bagerste del eller posteriore del kaldes også detoideus pars spinalis. Du kan læse mere om [skuldermusklen deltoideus her](/deltoideus/). Den primære funktion for skuldermusklen er abduktion og fleksion i skulderleddet."
 ---
 
 Skuldertræning skal tage højde for et kompliceret led, og du kan vælge forskellige øvelser til at træne din skulder. Træning af skulderen laves med øvelser, hvor du løfter armene over hovedet og ud til siden eller presser fremad. Vi har samlet de bedste skulderøvelser til træning af dine skuldermuskler.
@@ -88,3 +93,9 @@ Se et par øvelser til rotatormanchetten i denne video:
 {% endif %}
 
 </div>
+
+## Ofte stillede spørgsmål om skuldertræning
+
+Der er rigtig mange skulder øvelser, som du kan vælge mellem i din skuldertræning. Her får du svar på nogle af de ofte stillede spørgsmål om skuldertræning og skulderøvelser.
+
+{% include faq.html %}

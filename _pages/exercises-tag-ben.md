@@ -32,6 +32,11 @@ exercises:
     title: "Frankenstein Squat"
   - key: 20201212231900
     title: "Cronus Squat"
+faq:
+  - question: "Hvilke benøvelser giver den bedste bentræning?"
+    answer: "Du kan lave bentræning med mange forskellige øvelser. Men husk at inkludere squat, lunges, dødløft, bulgarian split squat og glute ham raises. Så får du en allround bentræning. Du kan læse om alle de store benøvelser her på siden."
+  - question: "Kan man lave bentræning med dårligt knæ?"
+    answer: "Ja. Hvis du har dårligt knæ, så skal du bare sørge for at vælge de rigtige varianter. Det kan være, at du skal gå efter nogle lidt mere isolerede øvelser eller forbedre din teknik i de store basisøvelser. Med skader i knæet, så er det vigtigt, at du tænker over den rette dosering og at optimere dit bevægelsesmønster. Det hjælper ikke noget at lade være med at træne knæet. Der er masser af forslag til gode benøvelser for knæene her på siden."
 ---
 
 Bentræning kan foregå på virkelig mange forskellige og effektive måder. Vi har samlet et hav af benøvelser, som du kan bruge i din styrketræning af benene. Bentræning er både for dig, der gerne vil blive mere eksplosiv og dig der vil have større og stærkere ben.
@@ -79,6 +84,10 @@ Der er naturligvis ikke noget i vejen med de klassiske øvelser til bentræninge
 ## Øvelser til bentræning og underkropstræning
 
 {% include exercises-list %}
+
+## Ofte stillede spørgsmål om benøvelser
+
+{% include faq.html %}
 
 ## Konklusion om bentræning
 
