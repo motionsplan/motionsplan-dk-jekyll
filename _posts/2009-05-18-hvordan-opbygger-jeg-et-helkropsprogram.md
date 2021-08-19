@@ -26,7 +26,15 @@ last_modified_at: 2021-08-03T11:44:17Z
 
 Hvordan laver man et fullbody-program, hvor man træner hele kroppen på et træningspas? Et helkropsprogram er egnet for dig, der gerne vil træne mellem en og tre gange om ugen og vil bruge omkring en time til to timer på hver træning. Men du kan sagtens udnytte ideerne fra et fuldkropsprogram også, hvis du vil træne 4 gange om ugen.
 
-Hvis du interesseret i at gå endnu mere i dybden med at **lave dit eget styrketræningsprogram**, så kan du tjekke [6 trin til at lave dit eget træningsprogram til styrketræning]({% link _posts/2021-04-24-programlaegning.md %}) eller vores [komplette guide til styrketræning og programlægning]({% link _posts/2020-08-19-programlaegning.md %}). Jeg har også lavet en række [anmeldelser af styrketræningsprogrammer her]({% link _posts/2020-12-30-anmeldelse-traeningsprogrammer.md %})
+Hvis du interesseret i at gå endnu mere i dybden med at **lave dit eget styrketræningsprogram**, så kan du tjekke [6 trin til at lave dit eget træningsprogram til styrketræning]({% link _posts/2021-04-24-programlaegning.md %}) eller vores [komplette guide til styrketræning og programlægning]({% link _posts/2020-08-19-programlaegning.md %}). Jeg har også lavet en række [anmeldelser af styrketræningsprogrammer her]({% link _posts/2020-12-30-anmeldelse-traeningsprogrammer.md %}).
+
+I dette indlæg får du svar på:
+
+- Hvilke øvelser kan jeg bruge i mit program?
+- Hvordan kan min ugentlige træning se ud?
+- Hvor mange sæt og gentagelser skal jeg tage?
+
+Hvis du gerne vil træne 4 gange eller flere om ugen, så kan du overveje at kigge på et [2-splitprogram]({% link _posts/2021-08-16-styrke-2-split-push-pull.md %}), og hvis du træner 6 gange om ugen, så kan et [3-splitprogram]({% link _posts/2021-08-16-styrke-3-split.md %}) måske være en overvejelse værd.
 
 ## Hvilke øvelser skal jeg vælge i et helkropsprogram?
 
