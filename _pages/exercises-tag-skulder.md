@@ -2,7 +2,7 @@
 layout: single
 permalink: /skulderoevelser/
 title: "Skulderøvelser: De mest effektive træningsøvelser til skulderen 🏋"
-seo_title: "Skulderøvelser: Effektive træningsøvelser til skulderen 🏋"
+seo_title: "Skulder øvelser: 10+ effektive træningsøvelser til skulderen"
 author_profile: true
 toc: true
 header:
