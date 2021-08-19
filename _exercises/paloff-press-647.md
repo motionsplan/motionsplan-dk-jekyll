@@ -6,6 +6,7 @@ redirect_from:
   - /node/647
   - /oevelse/paloff-press/
 id: 647
+key: 20210819204400
 language: da
 header:
   teaser: /assets/images/exercises/paloff-press-0-320.jpg

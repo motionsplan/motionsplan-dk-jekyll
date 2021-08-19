@@ -6,6 +6,7 @@ instructions: "Lig på ryggen. Hold en vægt i strakt arm. Herfra skal du rejse 
 permalink: /oevelse/turkish-getup/
 redirect_from: /node/65
 id: 65
+key: 20210819204700
 language: da
 header:
   teaser: https://images.unsplash.com/photo-1601422407692-ec4eeec1d9b3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGV4ZXJjaXNlJTIwcHJvZ3JhbXxlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60
