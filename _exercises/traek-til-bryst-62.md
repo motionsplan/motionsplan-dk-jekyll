@@ -1,5 +1,6 @@
 ---
 title: "Pulldown: Træk til bryst"
+excerpt: "Pulldown er flerledsøvelse, som er i kategorien for vertikale trækøvelser. Pulldown træner primært den brede rygmuskel (latissimus dorsi), men den øvre del af ryggen (trapezius) og armbøjerne (bl.a. biceps) bliver også trænet."
 instructions: "Sæt dig i pulldown maskinen med neutral ryg og naturligt lændesvaj. Grib stangen med dit ønskede greb. Træk stangen ned til brystet. Kontrolleret tilbage til udgangspositionen."
 permalink: /oevelse/pulldown-traek-til-bryst/
 redirect_from:
@@ -7,6 +8,7 @@ redirect_from:
   - /oevelse/traek-til-bryst/
   - /node/62
 id: 62
+key: 20210819092600
 language: da
 header:
   teaser: /assets/images/exercises/traek-til-bryst-0-320.jpg

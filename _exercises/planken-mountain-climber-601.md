@@ -15,6 +15,7 @@ tags:
   - Core
   - Hoftebøjere
   - Mave
+  - planken
 categories:
   - Kropsstamme
 training_type:

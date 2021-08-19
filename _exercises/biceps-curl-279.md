@@ -12,6 +12,7 @@ header:
 tags:
   - håndvægte
   - fitnessinstruktør
+  - biceps
 categories:
   - Armøvelser
 training_type: []

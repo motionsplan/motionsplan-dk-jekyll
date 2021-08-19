@@ -1,10 +1,11 @@
 ---
-title: "Roning, proneret bodyrow"
-excerpt: "Vandret kropshævning med benene på en bænk."
-instructions: "Vandret kropshævning med benene på en bænk."
+title: "Bodyrows: Kropshævninger vandret"
+seo_title: "Bodyrows: Vandrette kropshævninger for øvre ryg."
+instructions: "Placer benene på en bænk, så kroppen er vandret. Tag ved bommen med skulderbreddes afstand mellem armene. Træk kroppen op til bommen. og sænk den kontrolleret ned igen."
 permalink: /oevelse/vandret-kropshaevning/
 redirect_from: /node/33
 id: 33
+key: 20210819093100
 language: da
 header:
   teaser: /assets/images/exercises/vandret-kropshaevning-0-320.jpg

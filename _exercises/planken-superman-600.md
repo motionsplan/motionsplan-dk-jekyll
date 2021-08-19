@@ -15,6 +15,7 @@ tags:
   - Baller
   - Core
   - Mave
+  - planken
 categories:
   - Kropsstamme
 training_type:

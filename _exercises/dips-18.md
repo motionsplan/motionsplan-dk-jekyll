@@ -17,6 +17,7 @@ tags:
   - Bryst
   - fitnessinstruktør
   - crossfit
+  - triceps
 categories:
   - Pres
 training_type:

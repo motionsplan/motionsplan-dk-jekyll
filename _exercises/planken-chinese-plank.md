@@ -7,6 +7,7 @@ language: da
 #  teaser: /assets/images/exercises/180-jump-0-320.jpg
 tags:
   - kropsvægt
+  - planken
 categories: []
 training_type: []
 training_focus: []

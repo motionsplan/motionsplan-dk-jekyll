@@ -220,6 +220,20 @@ exercises:
   - title: Træningsøvelser
     url: /traeningsoevelser/
     children:
+      - title: "Squat"
+        url: /squat/
+      - title: "Lunges"
+        url: /lunges/
+      - title: "Dødløft"
+        url: /doedloeft/
+      - title: "Bænkpres"
+        url: /oevelse/baenkpres/
+      - title: "Pullup og chinup"
+        url: /oevelse/baenkpres/
+      - title: "Armstrækninger"
+        url: /armbojninger-eller-armstraekninger-pushups/
+  - title: Efter muskelgrupper
+    children:
       - title: Armøvelser
         url: /arme-triceps-biceps/
       - title: Skulderøvelser
@@ -238,6 +252,13 @@ exercises:
         url: /maveoevelser/
       - title: Core træning
         url: /core/
+  - title: Efter træningsformer
+    url: /traeningsformer/
+    children:
+      - title: Crossfit øvelser
+        url: /crossfit-crossfit-oevelser/
+      - title: Yoga øvelser
+        url: /yogastillinger-yogaovelser/
       - title: Udstrækningsøvelser
         url: /udstraekning-udspaending/
       - title: Foamrolling og SMR

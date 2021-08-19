@@ -14,7 +14,8 @@ tags:
   - vægtstang
   - fitnessinstruktør
   - featured
-categories: []
+categories:
+  - Træningsøvelser
 training_type:  []
 training_focus:
   - knædomineret

@@ -6,8 +6,9 @@ redirect_from: /node/717
 id: 717
 language: da
 tags: []
-categories: []
-training_type: [] 
+categories:
+  - Dødløft
+training_type: []
 training_focus: []
 equipment:
 muscle_group: []
