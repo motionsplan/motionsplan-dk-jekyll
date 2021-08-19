@@ -40,13 +40,6 @@
   url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=20604
   btn_label: "Besøg Bodyman*"
   btn_class: "btn--info"
-#  - image_path: https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
-#    alt: "KINETIK"
-#    title: "KINETIK"
-#    excerpt: "KINETIK Vægtvest VX1 er et nyt og top professionelt produkt på det danske fitness marked! Optimerer al form for træning! #crossfit #calisthenics #bodybuilding"
-#    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67046
-#    btn_label: "Besøg KINETIK*"
-#    btn_class: "btn--info"
 - image_path: /assets/images/logo/highonlife.png
   alt: "High On Life"
   title: "High On Life"
