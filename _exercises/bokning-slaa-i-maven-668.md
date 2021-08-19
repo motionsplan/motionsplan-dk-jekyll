@@ -10,14 +10,13 @@ header:
 tags:
   - Kondition og puls
   - Kondition
-  - Arme
-  - Mave
 categories:
   - Kondition og puls
 training_type:
   - Kondition
-training_focus:
+training_focus: []
 equipment:
+  - boksehandsker
 muscle_group:
   - Arme
   - Mave

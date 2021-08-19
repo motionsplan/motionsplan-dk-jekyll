@@ -5,6 +5,7 @@ instructions: "Hold fast i stangen med hænderne lidt bredere end skulderbreddde
 permalink: /oevelse/pullup/
 redirect_from: /node/61
 id: 61
+key: 20210819092800
 language: da
 header:
   teaser: /assets/images/exercises/pullup-0-320.jpg

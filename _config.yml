@@ -357,7 +357,7 @@ defaults:
       layout: activity
       header:
         teaser: /assets/images/default-exercises-teaser.png
-      author_profile: true
+      author_profile: false
       read_time: false
       comments: true
       share: true

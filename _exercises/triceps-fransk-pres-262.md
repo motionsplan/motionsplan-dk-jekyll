@@ -11,6 +11,7 @@ header:
 tags:
   - vægtstang
   - fitnessinstruktør
+  - triceps
 categories: []
 training_type: []
 training_focus: []
@@ -55,7 +56,7 @@ Først og fremmest er det vigtigt at du holder albuerne stabile og inde, når du
 
 Fransk pres egner sig ikke til at køre vanvittigt tungt, men bruges ofte i forbindelse med udtrætning af triceps i forbindelse med hypertrofitræning. Du kan sagtens køre fransk pres som et supersæt.
 
-Hvis du er på udkig efter, så har vi skrevet om den her [triceps extension]({% link _exercises/albuestraek-429.md %}).
+Hvis du er på udkig efter, så har vi skrevet om den her [triceps extension]({% link _exercises/triceps-extension-albuestraek-429.md %}).
 
 ## Hvad er forskellen på frank pres og skull crushers
 

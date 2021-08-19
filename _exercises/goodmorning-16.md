@@ -5,6 +5,7 @@ instructions: "Stangen på skuldrene. Hold hovedet oppe og ryggen helt rank. Bø
 permalink: /oevelse/goodmorning/
 redirect_from: /node/16
 id: 16
+key: 20210819093210
 language: da
 header:
   teaser: /assets/images/exercises/goodmorning-0-320.jpg

@@ -8,7 +8,8 @@ toc: true
 redirect_from:
   - /oevelse/doedloeft/
 redirect_from: /node/55
-id: 55
+id: 20210819091800
+key: 20210819091800
 language: da
 header:
   teaser: https://images.unsplash.com/photo-1521804906057-1df8fdb718b7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
@@ -50,7 +51,7 @@ gallery_grip:
     title: "Mixed grip"
 video:
   provider: youtube
-  id: mJ0OSws9qtE
+  id: 91TMWH1AYAM
 last_modified_at: 2021-03-21T16:06:44Z
 ---
 

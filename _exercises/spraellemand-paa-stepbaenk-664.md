@@ -13,7 +13,6 @@ tags:
   - helkropsøvelse
   - bænk
   - Step
-  - Arme
   - Baller
   - Forlår
   - Lægge
@@ -27,7 +26,6 @@ equipment:
   - bænk
   - Step
 muscle_group:
-  - Arme
   - Baller
   - Forlår
   - Lægge

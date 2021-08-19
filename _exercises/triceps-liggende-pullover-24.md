@@ -1,5 +1,6 @@
 ---
-title: "Triceps liggende"
+title: "Pullover triceps liggende"
+seo_title: "Pullover: Træn triceps liggende på en bænk"
 excerpt: "Liggende på en bænk og sænk armene bag hovedet til vandret."
 instructions: "Liggende på en bænk og sænk armene bag hovedet til vandret."
 permalink: /oevelse/triceps-liggende/
@@ -16,6 +17,7 @@ tags:
   - Arme
   - Bryst
   - Skuldre
+  - triceps
 categories:
   - Træk
 training_type:

@@ -40,7 +40,7 @@ gallery:
     title: "Dødløft"
 video:
   provider: youtube
-  id: mJ0OSws9qtE
+  id: 91TMWH1AYAM
 last_modified_at: 2015-03-21T16:06:44Z
 ---
 

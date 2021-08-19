@@ -4,6 +4,7 @@ instructions: "I one arm rows på bænk holder du en vægt i den ene hånd. Sæt
 permalink: /oevelse/roning-enarms/
 redirect_from: /node/20
 id: 20
+key: 20210819092000
 language: da
 header:
   teaser: /assets/images/exercises/roning-enarms-0-320.jpg
@@ -51,7 +52,7 @@ gallery:
     title: "Roning, enarms"
 video:
   provider: youtube
-  id: U7JM0pKMWSA
+  id: ZQz_DYcsl0g
 last_modified_at: 2020-07-02T19:21:43Z
 ---
 {{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}

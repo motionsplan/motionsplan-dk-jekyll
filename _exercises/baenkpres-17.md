@@ -18,6 +18,7 @@ tags:
   - vægtstang
   - Arme
   - fitnessinstruktør
+  - triceps
 categories:
   - Træningsøvelser
   - Brystøvelser

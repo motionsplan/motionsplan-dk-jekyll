@@ -13,6 +13,8 @@ blog:
   - excerpt: '[Læs resten af artiklerne](/blog/){: .btn .btn--large .btn--success }'
 tests:
   - excerpt: '[Se alle Tests & Beregnere](/beregnere-tests){: .btn .btn--large .btn--success }'
+exercises:
+  - excerpt: '[Se alle træningsøvelser](/traeningsoevelser){: .btn .btn--large .btn--success }'
 beregnere:
   - image_path: https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
     alt: "Beregnere & Tests"
@@ -148,6 +150,22 @@ diverse:
 <h2>Træningsformer</h2>
 
 {% include feature_row id="traeningsformer" %}
+
+<h2>Seneste opdaterede træningsøvelser</h2>
+
+<div class="feature__wrapper">
+
+{% assign site_posts = site.exercises | where: "tags", "featured" | sort: "last_modified_at" | reverse %}
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts limit: 8 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
+{% include feature_row id="exercises" type="center" %}
 
 <h2>Genveje</h2>
 
