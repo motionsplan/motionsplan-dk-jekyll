@@ -15,6 +15,11 @@ categories:
 breadcrumbs: true
 sidebar:
   nav: exercises
+faq:
+  - question: "Hvad er et godt træningsprogram for mave?"
+    answer: "I et træningsprogram kan du vælge 1-3 varianter af maveøvelser, hvor du sørger for at arbejde med både rotationer og anti-rotation, men også stabilisering af maven. Det er en god ide at huske at træne relativt hårdt. Som med al styrketræning, så kan det også være fint at træne med færre reps i et mavetræningsprogram."
+  - question: "Hvilke maveøvelser giver sixpack?"
+    answer: "Der er ingen maveøvelser, der i sig giver dig sixpack. At få en markeret mave kræver mere muskelmasse og en lavere fedtprocent. Jeg har skrevet mere om, hvad der skal til for at få en flad mave her."
 ---
 
 Vi har samlet alle de effektive maveøvelser her. Vi synes målet med din mavetræning skal være at få en stærk core, men øvelserne er også perfekte og udfordrende, når du arbejder på en flad mave, markeret sixpack eller at stramme op.
@@ -52,3 +57,7 @@ Rigtig mange er interesseret i, hvordan de kan lave styrketræning for maven. He
 {% endif %}
 
 </div>
+
+## Ofte stillede spørgsmål om mavetræning
+
+{% include faq.html %}
