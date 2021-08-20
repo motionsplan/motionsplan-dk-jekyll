@@ -6,15 +6,13 @@ header:
   overlay_image: /assets/images/blog/dogmefitness.jpg
   teaser: /assets/images/blog/dogmefitness.jpg
   caption: *title
-tags:
-  - dogmefitness
-  - styrketræning
-  - udholdenhed
-  - konditionstræning
-  - træning
 category:
   - Kondition
   - Styrketræning
+tags:
+  - styrketræning
+  - konditionstræning
+  - træning
 last_modified_at: 2020-02-13T22:23:21Z
 ---
 
