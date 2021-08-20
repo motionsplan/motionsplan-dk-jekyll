@@ -45,7 +45,7 @@ tags:
   - featured
   - beregner
 ---
-Jeg sidder og læser et glitrende magasin om sport og helse, og endnu engang ser jeg udregninger af body mass index (BMI) uden at artiklen går i dybden med, hvad en BMI-formel måler. Derfor satte jeg mig ned for at researche lidt på, hvordan BMI tabeller kan bruges for mænd, kvinder, voksne, teenagere og børn? 
+Jeg sidder og læser et glitrende magasin om sport og helse, og endnu engang ser jeg udregninger af body mass index (BMI) uden at artiklen går i dybden med, hvad en BMI-formel måler. Derfor satte jeg mig ned for at researche lidt på, hvordan BMI tabeller kan bruges for mænd, kvinder, voksne, teenagere og børn?
 
 \*\[BMI]: Body Mass Index
 
