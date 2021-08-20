@@ -47,8 +47,8 @@ tags:
 ---
 Jeg sidder og læser et glitrende magasin om sport og helse, og endnu engang ser jeg udregninger af body mass index (BMI) uden at artiklen går i dybden med, hvad en BMI-formel måler. Derfor satte jeg mig ned for at researche lidt på, hvordan BMI tabeller kan bruges for mænd, kvinder, voksne, teenagere og børn?
 
-*[BMI]: Body Mass Index
-*[IOTF]: The International Obesity Task Force
+*\[BMI]: Body Mass Index*
+\[IOTF]: The International Obesity Task Force
 
 Hvad er BMI? **Body Mass Index (BMI) er en enkel matematisk formel for sammenhængen mellem personers højde og vægt. Formlen bruges til at vurdere undervægt, normalvægt og overvægt i større befolkningsgrupper, fordi BMI tilsyneladende har en sammenhæng med fedtprocenten. BMI bruges også ofte som test til at indikere under- og overvægt hos enkelte personer, men bør ikke bruges til præcise målinger hos individuelle.**
 
@@ -80,7 +80,7 @@ Du kan se tabellen for BMI for mænd, kvinder og børn og voksne længere nede p
 
 Men lad os først lige kigge på, hvad BMI er?
 
-[Body Mass Index](https://en.wikipedia.org/wiki/Body_mass_index) blev opfundet i 1832 af den belgiske videnskabsmand Adolphe Quetelet. Han var interesseret i at måle, hvordan det stod til med andelen af overvægtige i de nyligt industrialiserede lande. Quetelet var ikke læge, men var interesseret i en måde at gøre befolkningsgrupper sammenlignelige i forhold højde og vægt.
+[Body Mass Index](https://en.wikipedia.org/wiki/Body_mass_index) blev første gang lanceret i 1832 af den belgiske videnskabsmand Adolphe Quetelet. Han var interesseret i at måle, hvordan det stod til med andelen af overvægtige i de nyligt industrialiserede lande. Quetelet var ikke læge, men var interesseret i en måde at gøre befolkningsgrupper sammenlignelige i forhold højde og vægt.
 
 BMI kan bruges som et screeningsværktøj. På større populationer har fundet ud af, at BMI kan sige noget under- og overvægt, fordi BMI nogenlunde er korreleret med fedtprocenten. Der er imidlertid mange udfordringer med denne fortolkning, som jeg kommer tilbage til i dette indlæg.
 
