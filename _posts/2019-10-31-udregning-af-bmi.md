@@ -54,7 +54,7 @@ Hvad er BMI? **Body Mass Index (BMI) er en enkel matematisk formel for sammenhæ
 
 Vi har lavet en beregner, hvor du udregne dit BMI baseret på den originale formel og få en vurdering af dit BMI. Ud fra beregningen kan du sammenligne dig med *det normale* og få et bud på, hvad din idealvægt er.
 
-Fordelen ved BMI er, at det er utrolig let at bruge. Derfor bliver BMI-udregninger også brugt mange steder, men ofte uden nærmere forklaringer af, hvad BMI er. At bruge BMI på individuelt niveau er forbundet med en række forbehold, så husk at læse lidt videre.
+Fordelen ved BMI er, at det er utrolig let at bruge. Derfor bliver BMI-udregninger også brugt mange steder, men ofte uden nærmere forklaringer af, hvad BMI er? At bruge BMI på individuelt niveau er forbundet med en række forbehold, så husk at læse lidt videre.
 
 Jeg har i dette indlæg forsøgt at svare på følgende spørgsmål:
 
