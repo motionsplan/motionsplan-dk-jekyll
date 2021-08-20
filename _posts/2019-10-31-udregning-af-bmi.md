@@ -1,16 +1,40 @@
 ---
 title: "Udregn BMI: Formel og beregner for kvinder, mænd og børn"
-seo_title: "BMI-beregner - BMI for kvinder, mænd, teenager og børn »"
-# Udregn BMI: Måler og beregner for kvinder, mænd og børn
-# Better than: BMI - Tabel og skema for kvinder, mænd og børn [Beregner] »
-description: "BMI tabel og skema for børn, teenagere, kvinder og mænd ✓ Body Mass Index formel og måler ✓ GRATIS nøjagtig beregner ✓ Forstå alle detaljerne i dag!"
+seo_title: BMI-beregner - BMI for kvinder, mænd, teenager og børn »
 permalink: /bmi/
-excerpt: "Body Mass Index (BMI) er den mest udbredte formel og test til at udregne idealvægt. Beregn dit BMI i vores beregner og se BMI skala og tabel for børn og voksne mænd og kvinder."
-language: da
+description: BMI tabel og skema for børn, teenagere, kvinder og mænd ✓ Body Mass
+  Index formel og måler ✓ GRATIS nøjagtig beregner ✓ Forstå alle detaljerne i
+  dag!
+excerpt: Body Mass Index (BMI) er den mest udbredte formel og test til at
+  udregne idealvægt. Beregn dit BMI i vores beregner og se BMI skala og tabel
+  for børn og voksne mænd og kvinder.
 header:
   overlay_image: https://helseboost.dk/filer/bmi-1500x960.jpg
   teaser: https://helseboost.dk/filer/bmi-1500x960.jpg
   caption: Udregn BMI med vores beregner og BMI måler, tabel og se formel
+last_modified_at: 2021-01-06T22:14:14.000Z
+faq:
+  - question: Hvad skal kvinders BMI være?
+    answer: Voksne kvinder og mænds BMI bliver vurderet efter de samme tabeller.
+      Studier har vist, at et sundt BMI ligger i den højere del af 'normalvægt'.
+      Du kan se BMI-skemaer her på siden.
+  - question: Hvad skal mænds BMI være?
+    answer: Voksne mænd og kvinders BMI bliver vurderet efter de samme skemaer.
+      Nyere studier viser, at et sundt BMI formentlig ligger i den højere ende
+      af normalområdet. Du kan se BMI-tabeller her på siden.
+  - question: Hvad er normal BMI for børn?
+    answer: Børn passer ikke ind i de normale BMI-skemaer. WHO har lavet skemaer,
+      hvor du kan vurdere børns BMI. Du kan se skemaerne her på siden.
+  - question: Hvad er normal BMI for teenagere?
+    answer: Du skal vurdere teenageres BMI ud fra WHO BMI-skemaer. Men husk at børn
+      og teenagere udvikler sig meget forskelligt.
+  - question: Hvad er normal BMI for 65+ årige?
+    answer: En normal BMI for de 65+ årige vurderes efter de samme skemaer som
+      voksne. Du kan se tabeller her på siden.
+  - question: Hvad er din ideelle kropsvægt ifølge BMI-udregningen?
+    answer: Du kan udregne din ideelle kropsvægt på baggrund af BMI. Vi har skrevet
+      meget mere om [idealvægt baseret på BMI her](/idealvaegt/).
+language: da
 category:
   - Beregnere
   - Test
@@ -20,40 +44,25 @@ tags:
   - formel
   - featured
   - beregner
-last_modified_at: 2021-01-06T22:14:14Z
-faq:
-  - question: "Hvad skal kvinders BMI være?"
-    answer: "Voksne kvinder og mænds BMI bliver vurderet efter de samme tabeller. Studier har vist, at et sundt BMI ligger i den højere del af 'normalvægt'. Du kan se BMI-skemaer her på siden."
-  - question: "Hvad skal mænds BMI være?"
-    answer: "Voksne mænd og kvinders BMI bliver vurderet efter de samme skemaer. Nyere studier viser, at et sundt BMI formentlig ligger i den højere ende af normalområdet. Du kan se BMI-tabeller her på siden."
-  - question: "Hvad er normal BMI for børn?"
-    answer: "Børn passer ikke ind i de normale BMI-skemaer. WHO har lavet skemaer, hvor du kan vurdere børns BMI. Du kan se skemaerne her på siden."
-  - question: "Hvad er normal BMI for teenagere?"
-    answer: "Du skal vurdere teenageres BMI ud fra WHO BMI-skemaer. Men husk at børn og teenagere udvikler sig meget forskelligt."
-  - question: "Hvad er normal BMI for 65+ årige?"
-    answer: "En normal BMI for de 65+ årige vurderes efter de samme skemaer som voksne. Du kan se tabeller her på siden."
-  - question: "Hvad er din ideelle kropsvægt ifølge BMI-udregningen?"
-    answer: "Du kan udregne din ideelle kropsvægt på baggrund af BMI. Vi har skrevet meget mere om [idealvægt baseret på BMI her](/idealvaegt/)."
 ---
-
 Jeg sidder og læser et glitrende magasin om sport og helse, og endnu engang ser jeg udregninger af body mass index (BMI) uden at artiklen går i dybden med, hvad en BMI-formel måler. Derfor satte jeg mig ned for at researche lidt på, hvordan BMI tabeller kan bruges for mænd, kvinder, voksne, teenagere og børn?
 
-*[BMI]: Body Mass Index
-*[IOTF]: The International Obesity Task Force
+*\*\[BMI]: Body Mass Index
+\**\[IOTF]: The International Obesity Task Force
 
 Hvad er BMI? **Body Mass Index (BMI) er en enkel matematisk formel for sammenhængen mellem personers højde og vægt. Formlen bruges til at vurdere undervægt, normalvægt og overvægt i større befolkningsgrupper, fordi BMI tilsyneladende har en sammenhæng med fedtprocenten. BMI bruges også ofte som test til at indikere under- og overvægt hos enkelte personer, men bør ikke bruges til præcise målinger hos individuelle.**
 
-Vi har lavet en beregner, hvor du udregne dit BMI baseret på den originale formel og få en vurdering af dit BMI. Ud fra beregningen kan du sammenligne dig med _det normale_ og få et bud på, hvad din idealvægt er.
+Vi har lavet en beregner, hvor du udregne dit BMI baseret på den originale formel og få en vurdering af dit BMI. Ud fra beregningen kan du sammenligne dig med *det normale* og få et bud på, hvad din idealvægt er.
 
 Fordelen ved BMI er, at det er utrolig let at bruge. Derfor bliver BMI-udregninger også brugt mange steder, men ofte uden nærmere forklaringer af, hvad BMI er. At bruge BMI på individuelt niveau er forbundet med en række forbehold, så husk at læse lidt videre.
 
 Jeg har i dette indlæg forsøgt at svare på følgende spørgsmål:
 
-- Hvad er Body Mass Index (BMI)?
-- Hvordan beregner man BMI? Hvilken formel bruges til udregning af BMI?
-- Hvilke grænseværdier er der for idealvægt ifølge BMI for voksne, teenagere og børn og mænd og kvinder?
-- Hvad er din ideelle kropsvægt ifølge BMI-udregningen?
-- Hvilke fordele og ulemper er der ved at BMI-tabeller?
+* Hvad er Body Mass Index (BMI)?
+* Hvordan beregner man BMI? Hvilken formel bruges til udregning af BMI?
+* Hvilke grænseværdier er der for idealvægt ifølge BMI for voksne, teenagere og børn og mænd og kvinder?
+* Hvad er din ideelle kropsvægt ifølge BMI-udregningen?
+* Hvilke fordele og ulemper er der ved at BMI-tabeller?
 
 Men lad os først springe til selve beregneren.
 
@@ -61,7 +70,7 @@ Men lad os først springe til selve beregneren.
 
 {% include calculate-bmi.html %}
 
-Beregneren udregner også det såkaldte Ponderal Index, som er en variant af BMI. Jeg har skrevet et [indlæg om Ponderal Index her]({% link _posts/2019-10-31-udregning-af-ponderal-index.md %}).
+Beregneren udregner også det såkaldte Ponderal Index, som er en variant af BMI. Jeg har skrevet et \[indlæg om Ponderal Index her]({% link _posts/2019-10-31-udregning-af-ponderal-index.md %}).
 
 ## Hvad er Body Mass Index (BMI)?
 
@@ -108,18 +117,18 @@ Tabellerne opdeler i forskellige grupper alt efter, hvor højt BMI er. Husk at v
 
 For voksne er de generelle kategorier for BMI for voksne (ældre end 18 år og ikke for gravide):
 
-- BMI under 18.5 = undervægtig
-- BMI mellem 18.5-24.9 = normalvægtig
-- BMI mellem 25-29.9 = overvægtig
-- BMI mellem 30-39.9 = fedme
-- BMI over 40 = svær fedme
+* BMI under 18.5 = undervægtig
+* BMI mellem 18.5-24.9 = normalvægtig
+* BMI mellem 25-29.9 = overvægtig
+* BMI mellem 30-39.9 = fedme
+* BMI over 40 = svær fedme
 
 ### Tabel: Normalværdier for Body Mass Index for mænd og kvinder
 
 Hvis vi sætter standarderne for BMI for voksne ind i en tabel, ser det sådan ud. Læg mærke til, at jeg i tabellen har ændret klassificeringen for undervægtige lidt, da det ser ud til at et BMI under 20 allerede er forbundet med sundhedsmæssige konsekvenser.
 
 | Klassifikation | Kvinde (kg/m<sup>2</sup>) | Mand (kg/m<sup>2</sup>) |
-|----------------|---------------------------|-------------------------|
+| -------------- | ------------------------- | ----------------------- |
 | Undervægtig    | Under 20                  | Under 20                |
 | Normal         | 20-25                     | 20-25                   |
 | Overvægtig     | 25-30                     | 25-30                   |
@@ -130,13 +139,13 @@ Hvis vi sætter standarderne for BMI for voksne ind i en tabel, ser det sådan u
 [World Health Organization (WHO)](http://www.euro.who.int/en/health-topics/disease-prevention/nutrition/a-healthy-lifestyle/body-mass-index-bmi) har lavet nye tabeller, hvor de har udvidet fedmeområdet med forskellige klassificeringer, som du kan se i denne tabel, som gælder for voksne.
 
 |               | Fedme klassificering | BMI (kg/m<sup>2</sup>) |
-|---------------|----------------------|------------------------|
-| Undervægtig	  |                      | < 18.5                 |
-| Normal	 	    |                      | 18,5 - 24,9            |
-| Overvægtig	  |                      | 25,0 - 29,9            |
+| ------------- | -------------------- | ---------------------- |
+| Undervægtig   |                      | < 18.5                 |
+| Normal        |                      | 18,5 - 24,9            |
+| Overvægtig    |                      | 25,0 - 29,9            |
 | Fedme         | I                    | 30,0 - 34,9            |
 |               | II                   | 35,0 - 39,9            |
-| Ekstrem fedme	| III                  | 40                     |
+| Ekstrem fedme | III                  | 40                     |
 
 Hvis du er et barn eller ung under 18 år, så kig længere nede på siden for en retfærdig vurdering af dit BMI.
 {: .notice .notice--warning }
@@ -150,7 +159,7 @@ Når man kigger på en række forskellige studier i forhold til det optimale BMI
 I de studier hvor man kigger på forskellen mellem mænd og kvinder, så ligger BMI enten inden for samme optimale område, eller også ligger mændene 2-5 BMI-point højere (jf. [Morten Zacho](https://web.archive.org/web/20160808221414/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/beregn_din_idealvaegt/){:rel="nofollow"}).
 
 | Reference om BMI                                                                    | Mænd      | Kvinder   |
-|-------------------------------------------------------------------------------------|-----------|-----------|
+| ----------------------------------------------------------------------------------- | --------- | --------- |
 | [Flegal et al (2013)](http://www.ncbi.nlm.nih.gov/pubmed/23280227/)                 | 25-30     | 25-30     |
 | [Wong et al (2011)](http://www.ncbi.nlm.nih.gov/pubmed/22204699/)                   | 26,4-27,5 | 20,1-24,6 |
 | [Berrington de Gonzalez et al (2010)](http://www.ncbi.nlm.nih.gov/pubmed/21121834/) | 22,5-28,8 | 21,3-26,3 |
@@ -160,7 +169,7 @@ I de studier hvor man kigger på forskellen mellem mænd og kvinder, så ligger 
 
 Studiet af Flegal et al (2013) kommer til at overvurdere fordelen ved overvægt i forhold til BMI, fordi overvægt sammenlignes med normalvægt i området fra 18,5-25. [Morten Zacho skriver](https://web.archive.org/web/20160808221414/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/beregn_din_idealvaegt/){:rel="nofollow"}, at vi fra andre undersøgelser ved, at dødeligheden er markant forhøjet, hvis man har et BMI mellem 18,5-20. Det interval vi normalt inkluderer som normalvægtigt er altså ikke et optimalt BMI i forhold til sundhed.
 
-På baggrund af studierne sætter Morten Zacho det optimale BMI til 22,5 for kvinder og 24,5 for mænd. Når du kender den optimale BMI, så kan det bl.a. bruges til at [udregne din idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}).
+På baggrund af studierne sætter Morten Zacho det optimale BMI til 22,5 for kvinder og 24,5 for mænd. Når du kender den optimale BMI, så kan det bl.a. bruges til at \[udregne din idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}).
 
 Afzal et al (2016) har sammenlignet tre danske grupper af mennesker, og det ser ud til, at det BMI, der er forbundet med den laveste risiko for at dø, er stigende med de tre kohorter. Det er lidt ærgerligt, at studiet har fastholdt klassifikationen med normalvægtige mellem 18.5 - 25.
 
@@ -178,16 +187,16 @@ På baggrund af dette siger [Morten Zacho, at plus-minus seks kilo ikke betyder 
 
 > Så der er altså ret stor spændvidde. Vi skal derfor have bredere rammer for, hvad man kan veje og stadig blive betragtet som sund og rask.
 
---- <cite>[Morten Zacho](https://www.dr.dk/levnu/krop/du-skal-veje-mere-end-du-tror)</cite>
+\--- <cite>[Morten Zacho](https://www.dr.dk/levnu/krop/du-skal-veje-mere-end-du-tror)</cite>
 
 Derfor foreslår Morten Zacho også en revideret forståelse af BMI for mænd og kvinder, som skitseres i følgende tabel over BMI.
 
-| Klassification  | BMI (kg/m<sup>2</sup>) | Note |
-|---------------|------------------------|-|
-| Undervægtig	  | < 20    | Undervægt er meget usundt. Øg din vægt med sund kost og motion |
-| Normalvægt og overvægt  | 20 - 30                | Ingen grund til vægttab, hvis du motionerer, spiser sundt og ikke har sygdomme |
-| Fedme	        | 30 - 35 | Langvarige og blivende livsstilsændringer vil være sundt. Korte slankekure vil være skidt. |
-| Svær fedme    | 35,0 -  | Vægttab vil være godt for din sundhed |
+| Klassification         | BMI (kg/m<sup>2</sup>) | Note                                                                                       |
+| ---------------------- | ---------------------- | ------------------------------------------------------------------------------------------ |
+| Undervægtig            | < 20                   | Undervægt er meget usundt. Øg din vægt med sund kost og motion                             |
+| Normalvægt og overvægt | 20 - 30                | Ingen grund til vægttab, hvis du motionerer, spiser sundt og ikke har sygdomme             |
+| Fedme                  | 30 - 35                | Langvarige og blivende livsstilsændringer vil være sundt. Korte slankekure vil være skidt. |
+| Svær fedme             | 35,0 -                 | Vægttab vil være godt for din sundhed                                                      |
 
 ## Hvad med min muskelmasse og fedtprocent i forhold BMI?
 
@@ -195,9 +204,9 @@ BMI forsøger at give en indikation af, om du er undervægtig eller overvægtig.
 
 Hvis man har for lidt eller meget fedt, så kan det have sundhedsmæssige konsekvenser. BMI giver imidlertid ikke et præcist svar på det.
 
-Duerenberg et al (1991) har foreslået formler til at bestemme fedtprocenten ud fra BMI. Jeg har medtaget Duerenbergs formel i [min beregner til at udregne fedtprocent ud fra højde og vægt]({% link _posts/2008-10-30-udregning-af-fedtprocent.md %}).
+Duerenberg et al (1991) har foreslået formler til at bestemme fedtprocenten ud fra BMI. Jeg har medtaget Duerenbergs formel i \[min beregner til at udregne fedtprocent ud fra højde og vægt]({% link _posts/2008-10-30-udregning-af-fedtprocent.md %}).
 
-Jeg har skrevet andre indlæg om, hvordan du kan [måle din fedtprocent]({% link _posts/2019-10-13-fedtprocent-maaling.md %}) eller hvordan du kan [forstå og måle kropskomposition]({% link _posts/2019-10-14-kropskomposition.md %}). Så hvis du vil have styr på din muskelmasse eller fedtprocent, så skal du altså i gang med flere undersøgelser.
+Jeg har skrevet andre indlæg om, hvordan du kan \[måle din fedtprocent]({% link _posts/2019-10-13-fedtprocent-maaling.md %}) eller hvordan du kan \[forstå og måle kropskomposition]({% link _posts/2019-10-14-kropskomposition.md %}). Så hvis du vil have styr på din muskelmasse eller fedtprocent, så skal du altså i gang med flere undersøgelser.
 
 ## BMI for børn og teenagere
 
@@ -206,7 +215,7 @@ BMI udregnes på samme måde for børn og teenagere. Men da der sker mange foran
 Du skal altså beregne dit BMI i beregneren ovenfor, men vurdere dit BMI efter disse normer, som både tager højde for din alder og dit køn.
 Som barn er det nogle andre standardværdier, du skal måle dig efter.
 
-Selvom BMI ofte har været brugt til at angive grænseværdier for fedme, så skal man også være opmærksom på undervægt (Cole 2007), hvor både drenge og piger kan have overtaget idealer fra modeverden. Betegnelserne kan være _under normal_ (thinness grade 1), _undervægtig_ (thinness grade 2) og _meget undervægtig_ (thinness grade 3), og det kan ses i graferne nedenunder.
+Selvom BMI ofte har været brugt til at angive grænseværdier for fedme, så skal man også være opmærksom på undervægt (Cole 2007), hvor både drenge og piger kan have overtaget idealer fra modeverden. Betegnelserne kan være *under normal* (thinness grade 1), *undervægtig* (thinness grade 2) og *meget undervægtig* (thinness grade 3), og det kan ses i graferne nedenunder.
 
 Nedenfor er de grænseværdier for børn, der anbefales af IOTF og som generelt også anbefales af autoriteter i Danmark. BMI-grænseværdier for børn og unge under 18 varierer med alderen, og derfor er nedenstående grafer lavet. Grænseværdierne er lavet således, at de flugter med de anvendte værdier for voksne ved alderen 18 år.
 
@@ -236,19 +245,19 @@ Der er en høj sammenhæng mellem BMI og kropsfedt i større populationer. Men s
 
 Generelt skal der tages disse forbehold ved vurderingen af BMI:
 
-- Ved samme BMI har kvinder en tendens til at have mere kropsfedt end mænd.
-- Ved samme BMI har ældre i gennemsnit en tendens til at have mere kropsfedt end yngre voksne.
-- Ved samme BMI har atleter mindre kropsfedt end ikke-atleter.
+* Ved samme BMI har kvinder en tendens til at have mere kropsfedt end mænd.
+* Ved samme BMI har ældre i gennemsnit en tendens til at have mere kropsfedt end yngre voksne.
+* Ved samme BMI har atleter mindre kropsfedt end ikke-atleter.
 
-Forskere har også foreslået, at man på baggrund af alder og vægt kan udregne sin fedtprocent. Vi har også lavet en [beregner til beregne fedtprocenten]({% link _posts/2008-10-30-udregning-af-fedtprocent.md %}).
+Forskere har også foreslået, at man på baggrund af alder og vægt kan udregne sin fedtprocent. Vi har også lavet en \[beregner til beregne fedtprocenten]({% link _posts/2008-10-30-udregning-af-fedtprocent.md %}).
 
 ## Ulemper ved BMI?
 
-- BMI tager kun højde for din vægt og højde. To personer kan sagtens have den samme højde og vægt uden at have den samme kropsbygning. Den ene kan have en høj muskelmasse eller motionere meget mere end den anden.
-- Din vægt er langt fra det eneste, der indikerer, om du er sund. Dine gener, livsstil, hjertefunktion, aktivitetsniveau er formentlig langt vigtigere end, hvad vægten siger.
-- BMI vurderer ikke, hvor farlig din overvægt er. Hvis dit fedt sidder rundt om livet, er det mere farligt frem for, hvis fedtet sad om lårene. Det kan du bruge [taljemål]({% link _posts/2019-10-14-taljemaal.md %}) for at finde ud af.
-- BMI kan ikke fortælle om du har fremgang i træningen. Jeg har skrevet et andet indlæg om, hvorfor man kan [tage på ved træning]({% link _posts/2020-05-25-tager-paa-ved-traening.md %}).
-- BMI er et statistisk værktøj - ikke en diagnose. BMI er udarbejdet i 1800-tallet til at sammenligne forskellige befolkningsgrupper.
+* BMI tager kun højde for din vægt og højde. To personer kan sagtens have den samme højde og vægt uden at have den samme kropsbygning. Den ene kan have en høj muskelmasse eller motionere meget mere end den anden.
+* Din vægt er langt fra det eneste, der indikerer, om du er sund. Dine gener, livsstil, hjertefunktion, aktivitetsniveau er formentlig langt vigtigere end, hvad vægten siger.
+* BMI vurderer ikke, hvor farlig din overvægt er. Hvis dit fedt sidder rundt om livet, er det mere farligt frem for, hvis fedtet sad om lårene. Det kan du bruge \[taljemål]({% link _posts/2019-10-14-taljemaal.md %}) for at finde ud af.
+* BMI kan ikke fortælle om du har fremgang i træningen. Jeg har skrevet et andet indlæg om, hvorfor man kan \[tage på ved træning]({% link _posts/2020-05-25-tager-paa-ved-traening.md %}).
+* BMI er et statistisk værktøj - ikke en diagnose. BMI er udarbejdet i 1800-tallet til at sammenligne forskellige befolkningsgrupper.
 
 Ulempen ved BMI er altså, at det er for simpelt et mål. Du kan let ende i en forkert kategori pga. ovenstående ulemper.
 
@@ -280,23 +289,23 @@ Drop BMI og overvægt som indikator for, om din krop er sund eller ej. Måleenhe
 >
 > Ernæringsekspert Martin Kreutzer er enig i, at BMI ikke er meget værd. I stedet mener han, at man skal have fat i sit målebånd.
 >
-> - Jeg vil klart anbefale, at man i stedet bruger sit taljemål som indikator for ens sundhed. Ligger det over 88 cm for kvinder og 102 cm for mænd, så indikerer det en helbredsskadelig fedtophobning i maveregionen, hvilket øger risikoen for sygdomsfremkaldende inflammation i kroppen, siger Martin Kreutzer.
+> > Jeg vil klart anbefale, at man i stedet bruger sit taljemål som indikator for ens sundhed. Ligger det over 88 cm for kvinder og 102 cm for mænd, så indikerer det en helbredsskadelig fedtophobning i maveregionen, hvilket øger risikoen for sygdomsfremkaldende inflammation i kroppen, siger Martin Kreutzer.
 
---- <cite>[iform.dk](https://iform.dk/sundhed/forebyggelse/bmi-siger-intet-om-din-sundhed)</cite>
+\--- <cite>[iform.dk](https://iform.dk/sundhed/forebyggelse/bmi-siger-intet-om-din-sundhed)</cite>
 
 ## BMI-skalaen kan ikke stå alene
 
-- BMI er en metode, der gør det muligt for dig at udregne, om du er normal-, under- eller overvægtig ud fra din højde og kropsvægt.
-- Du kan sammenligne dig selv med nogle fastsatte standarder.
-- BMI er for simpel og ikke retvisende nok til at sige noget om kropskomposition og fedtprocent.
-- Jeg ville være meget varsom med at bruge BMI som udgangspunkt for en snak om sundhed med den enkelte.
-- Det er meget vigtigere, at man har sunde kostvaner og motionerer. Ikke for at tabe sig, men for at få en glad og stærk krop.
+* BMI er en metode, der gør det muligt for dig at udregne, om du er normal-, under- eller overvægtig ud fra din højde og kropsvægt.
+* Du kan sammenligne dig selv med nogle fastsatte standarder.
+* BMI er for simpel og ikke retvisende nok til at sige noget om kropskomposition og fedtprocent.
+* Jeg ville være meget varsom med at bruge BMI som udgangspunkt for en snak om sundhed med den enkelte.
+* Det er meget vigtigere, at man har sunde kostvaner og motionerer. Ikke for at tabe sig, men for at få en glad og stærk krop.
 
-Der er mange udfordringer med BMI, selvom det er meget udbredt. Faktisk er der lavet et lignende mål, der hedder [Ponderal Index]({% link _posts/2019-10-31-udregning-af-ponderal-index.md %}), som burde give en bedre vurdering i forhold til højde.
+Der er mange udfordringer med BMI, selvom det er meget udbredt. Faktisk er der lavet et lignende mål, der hedder \[Ponderal Index]({% link _posts/2019-10-31-udregning-af-ponderal-index.md %}), som burde give en bedre vurdering i forhold til højde.
 
-Men for at finde ud af, om du reelt er under- eller overvægtig i forhold til sundhed, så kan et simpelt taljemål formentlig være en bedre indikator. Jeg har skrevet en anden artikel om [forskellige taljemål]({% link _posts/2019-10-14-taljemaal.md %}). Taljemålet kan nemlig sige noget om, hvordan fedtet er placeret på kroppen, hvilket er det der har allerstørst betydning i forhold til sundhed.
+Men for at finde ud af, om du reelt er under- eller overvægtig i forhold til sundhed, så kan et simpelt taljemål formentlig være en bedre indikator. Jeg har skrevet en anden artikel om \[forskellige taljemål]({% link _posts/2019-10-14-taljemaal.md %}). Taljemålet kan nemlig sige noget om, hvordan fedtet er placeret på kroppen, hvilket er det der har allerstørst betydning i forhold til sundhed.
 
-Endelig kan du dykke lidt ned i din samlede kropskomposition for at få en større forståelse af det emne. Jeg har skrevet om [forskellige modeller for kropskomposition her]({% link _posts/2019-10-14-kropskomposition.md %}).
+Endelig kan du dykke lidt ned i din samlede kropskomposition for at få en større forståelse af det emne. Jeg har skrevet om \[forskellige modeller for kropskomposition her]({% link _posts/2019-10-14-kropskomposition.md %}).
 
 ## Ofte stillede spørgsmål
 
@@ -309,16 +318,15 @@ Endelig kan du dykke lidt ned i din samlede kropskomposition for at få en stør
 
 ### Generelle referencer om BMI, skala og tabel
 
-- Lee, C. D., A. S. Jackson, og S. N. Blair. 1998. “US Weight Guidelines: Is It Also Important to Consider Cardiorespiratory Fitness?” International Journal of Obesity and Related Metabolic Disorders: Journal of the International Association for the Study of Obesity 22 Suppl 2 (august): S2-7.
-- WHO Consultation on Obesity (1997: Geneva, Switzerland), World Health Organization Division of Noncommunicable Diseases, og Family and Reproductive Health World Health Organization. Programme of Nutrition. 1998. “Obesity: Preventing and Managing the Global Epidemic: Report of a WHO Consultation on Obesity, Geneva, 3-5 June 1997”. <https://apps.who.int/iris/handle/10665/63854>.
-- Quetelet, Adolphe. 1835. Sur l’homme et le développement de ses facultés: ou, Essai de physique sociale. Paris: Bachelier, imprimeur-libraire, quai des Augustins, no 55. <http://archive.org/details/surlhommeetled00quet>.
+* Lee, C. D., A. S. Jackson, og S. N. Blair. 1998. “US Weight Guidelines: Is It Also Important to Consider Cardiorespiratory Fitness?” International Journal of Obesity and Related Metabolic Disorders: Journal of the International Association for the Study of Obesity 22 Suppl 2 (august): S2-7.
+* WHO Consultation on Obesity (1997: Geneva, Switzerland), World Health Organization Division of Noncommunicable Diseases, og Family and Reproductive Health World Health Organization. Programme of Nutrition. 1998. “Obesity: Preventing and Managing the Global Epidemic: Report of a WHO Consultation on Obesity, Geneva, 3-5 June 1997”. <https://apps.who.int/iris/handle/10665/63854>.
+* Quetelet, Adolphe. 1835. Sur l’homme et le développement de ses facultés: ou, Essai de physique sociale. Paris: Bachelier, imprimeur-libraire, quai des Augustins, no 55. <http://archive.org/details/surlhommeetled00quet>.
 
 ### BMI og børn
 
-- Cole, Tim J., Katherine M. Flegal, Dasha Nicholls, og Alan A. Jackson. 2007. “Body Mass Index Cut Offs to Define Thinness in Children and Adolescents: International Survey”. BMJ (Clinical Research Ed.) 335 (7612): 194. <https://doi.org/10.1136/bmj.39238.399444.55>.
-- Due P, Heitmann BL & Sørensen TIA. Adipositasepidemien i Danmark. Ugeskr Læger 2006;168(2):129
-- Cole TJ, Bellizi MC, Flegal KM et al. Establishing a standard definition for child overweight and obesity worldwide: international survey. BMJ 2000; 320:240-3.
-- Hammer, L. D., H. C. Kraemer, D. M. Wilson, P. L. Ritter, og S. M. Dornbusch. 1991. “Standardized Percentile Curves of Body-Mass Index for Children and Adolescents”. American Journal of Diseases of Children (1960) 145 (3): 259–63. <https://doi.org/10.1001/archpedi.1991.02160030027015>.
-- Pietrobelli, A., M. S. Faith, D. B. Allison, D. Gallagher, G. Chiumello, og S. B. Heymsfield. 1998. “Body Mass Index as a Measure of Adiposity among Children and Adolescents: A Validation Study”. The Journal of Pediatrics 132 (2): 204–10. <https://doi.org/10.1016/s0022-3476(98)70433-0>.
-- The Centers for Disease Control and Prevention (CDC). BMI - Body Mass Index: BMI for Children and Teens.
-</details>
+* Cole, Tim J., Katherine M. Flegal, Dasha Nicholls, og Alan A. Jackson. 2007. “Body Mass Index Cut Offs to Define Thinness in Children and Adolescents: International Survey”. BMJ (Clinical Research Ed.) 335 (7612): 194. <https://doi.org/10.1136/bmj.39238.399444.55>.
+* Due P, Heitmann BL & Sørensen TIA. Adipositasepidemien i Danmark. Ugeskr Læger 2006;168(2):129
+* Cole TJ, Bellizi MC, Flegal KM et al. Establishing a standard definition for child overweight and obesity worldwide: international survey. BMJ 2000; 320:240-3.
+* Hammer, L. D., H. C. Kraemer, D. M. Wilson, P. L. Ritter, og S. M. Dornbusch. 1991. “Standardized Percentile Curves of Body-Mass Index for Children and Adolescents”. American Journal of Diseases of Children (1960) 145 (3): 259–63. <https://doi.org/10.1001/archpedi.1991.02160030027015>.
+* Pietrobelli, A., M. S. Faith, D. B. Allison, D. Gallagher, G. Chiumello, og S. B. Heymsfield. 1998. “Body Mass Index as a Measure of Adiposity among Children and Adolescents: A Validation Study”. The Journal of Pediatrics 132 (2): 204–10. <https://doi.org/10.1016/s0022-3476(98)70433-0>.
+* The Centers for Disease Control and Prevention (CDC). BMI - Body Mass Index: BMI for Children and Teens.
