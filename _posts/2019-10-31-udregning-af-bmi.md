@@ -49,8 +49,6 @@ Jeg sidder og læser et glitrende magasin om sport og helse, og endnu engang ser
 
 *[BMI]: Body Mass Index
 
-
-
 *[IOTF]: The International Obesity Task Force
 
 *\[BMI]: Body Mass Index*
