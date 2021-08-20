@@ -49,8 +49,6 @@ Jeg sidder og læser et glitrende magasin om sport og helse, og endnu engang ser
 
 *[BMI]: Body Mass Index
 
-\*\[BMI]: Body Mass Index
-
 Hvad er BMI? **Body Mass Index (BMI) er en enkel matematisk formel for sammenhængen mellem personers højde og vægt. Formlen bruges til at vurdere undervægt, normalvægt og overvægt i større befolkningsgrupper, fordi BMI tilsyneladende har en sammenhæng med fedtprocenten. BMI bruges også ofte som test til at indikere under- og overvægt hos enkelte personer, men bør ikke bruges til præcise målinger hos enkeltindivider.**
 
 Vi har lavet en beregner, hvor du udregne dit BMI baseret på den originale formel og få en vurdering af dit BMI. Ud fra beregningen kan du sammenligne dig med *det normale* og få et bud på, hvad din idealvægt er.
