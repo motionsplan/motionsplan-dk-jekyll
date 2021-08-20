@@ -47,8 +47,8 @@ tags:
 ---
 Jeg sidder og læser et glitrende magasin om sport og helse, og endnu engang ser jeg udregninger af body mass index (BMI) uden at artiklen går i dybden med, hvad en BMI-formel måler. Derfor satte jeg mig ned for at researche lidt på, hvordan BMI tabeller kan bruges for mænd, kvinder, voksne, teenagere og børn?
 
-*[BMI]: Body Mass Index
-*[IOTF]: The International Obesity Task Force
+*\[BMI]: Body Mass Index*
+\[IOTF]: The International Obesity Task Force
 
 Hvad er BMI? **Body Mass Index (BMI) er en enkel matematisk formel for sammenhængen mellem personers højde og vægt. Formlen bruges til at vurdere undervægt, normalvægt og overvægt i større befolkningsgrupper, fordi BMI tilsyneladende har en sammenhæng med fedtprocenten. BMI bruges også ofte som test til at indikere under- og overvægt hos enkelte personer, men bør ikke bruges til præcise målinger hos individuelle.**
 
@@ -84,7 +84,7 @@ Men lad os først lige kigge på, hvad BMI er?
 
 BMI kan bruges som et screeningsværktøj. På større populationer har fundet ud af, at BMI kan sige noget under- og overvægt, fordi BMI nogenlunde er korreleret med fedtprocenten. Der er imidlertid mange udfordringer med denne fortolkning, som jeg kommer tilbage til i dette indlæg.
 
-Nedenfor har jeg også inddraget tabeller over BMI for børn, som børn kan vurderes efter.
+Nedenfor har jeg også inkluderet tabeller over BMI for børn, som børn kan vurderes efter.
 
 BMI tager ikke højde for, om din vægt skyldes muskler eller fedt eller din kropsbygning i det hele taget. Fx vil meget muskuløse mennesker vurderes som overvægtige, selvom de har en lav fedtprocent.
 
