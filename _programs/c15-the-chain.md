@@ -3,7 +3,7 @@ title: "#15 The chain --- 6 x AMRAP"
 subtitle: "I'll have what she's having."
 excerpt: "Workout for Corona Day 15 på Vejle Idrætshøjskole"
 author: metbje
-permalink: /workout/c15
+permalink: /workout/c15/
 language: da
 categories:
   - Helkropsprogram
