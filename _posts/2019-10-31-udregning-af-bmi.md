@@ -49,8 +49,8 @@ Jeg sidder og læser et glitrende magasin om sport og helse, og endnu engang ser
 
 *[BMI]: Body Mass Index
 
-*\[BMI]: Body Mass Index*
-\[IOTF]: The International Obesity Task Force
+*[BMI]: Body Mass Index
+*[IOTF]: The International Obesity Task Force
 
 Hvad er BMI? **Body Mass Index (BMI) er en enkel matematisk formel for sammenhængen mellem personers højde og vægt. Formlen bruges til at vurdere undervægt, normalvægt og overvægt i større befolkningsgrupper, fordi BMI tilsyneladende har en sammenhæng med fedtprocenten. BMI bruges også ofte som test til at indikere under- og overvægt hos enkelte personer, men bør ikke bruges til præcise målinger hos individuelle.**
 
