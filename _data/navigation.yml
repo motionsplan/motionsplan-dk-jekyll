@@ -103,12 +103,14 @@ anatomi:
   - title: "Muskler"
     url: "/muskler/"
     children:
-      - title: Benmuskler
-        url: /muskler/ben/
       - title: Armmuskler
         url: /muskler/arme/
       - title: Rygmuskler
         url: /muskler/ryg/
+      - title: Maveøvelser
+        url: /muskler/mave/
+      - title: Benmuskler
+        url: /muskler/ben/
 muscles:
   - title: Benmuskler
     url: /benmuskler/
@@ -250,8 +252,20 @@ exercises:
         url: /balance/
       - title: Maveøvelser
         url: /maveoevelser/
+  - title: Efter funktion
+    children:
+      - title: Knædominante øvelser
+        url: /knaedominante-oevelser/
+      - title: Hoftedominante øvelser
+        url: /hoftedominante-oevelser/
+      - title: Pres
+        url: /presoevelser/
+      - title: Træk
+        url: /traekoevelser/
       - title: Core træning
         url: /core/
+      - title: Loaded carries
+        url: /loaded-carries/
   - title: Efter træningsformer
     url: /traeningsformer/
     children:
@@ -263,14 +277,3 @@ exercises:
         url: /udstraekning-udspaending/
       - title: Foamrolling og SMR
         url: /foamrolling-foamroller-lacrossebolde/
-
-strength:
-  - title: "Adherence"
-  - title: "Volume, intensity, freequency"
-    url: "/artikel/hvordan-skal-jeg-dosere-min-styrketraening"
-  - title: "Progression"
-  - title: "Exercise selection"
-    url: "/artikel/opbygning-af-program"
-  - title: "Rest Periods"
-  - title: "Tempo"
-    url: "/artikel/foelg-tempoet-naar-du-loefter"

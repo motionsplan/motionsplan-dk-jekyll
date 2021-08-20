@@ -6,7 +6,8 @@ redirect_from: /node/736
 id: 736
 language: da
 tags: []
-categories: []
+categories:
+  - Loaded carry
 training_type: []
 training_focus: []
 equipment:

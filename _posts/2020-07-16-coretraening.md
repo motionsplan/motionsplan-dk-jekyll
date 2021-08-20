@@ -15,6 +15,8 @@ category:
   - Styrketræning
   - Teknik
 last_modified_at: 2020-07-13T08:39:32Z
+sidebar:
+  nav: exercises
 ---
 
 Det er vigtigt, at fokusere på sin kropsstamme (sin core) og musklerne omkring rygsøjlen, maven, lænden og hoften for at være stærk og kunne bevæge sig hensigtsmæssigt. Jeg har researchet lidt på, hvad der skal til for at lave god træning af sin core og kropsstamme.
@@ -30,7 +32,7 @@ Core-træning er så meget mere end at træne [planken]({% link _exercises/plank
 
 ## Hvad er core-træning?
 
-Din **core** hedder på dansk kropsstammen eller kropskorsettet. Din core består af alle de stabiliserende muskler, der ligger omkring din mave og ryg. 
+Din **core** hedder på dansk kropsstammen eller kropskorsettet. Din core består af alle de stabiliserende muskler, der ligger omkring din mave og ryg.
 
 Det er vigtigt, at du træner din vejrtrækningsmuskel (diaphragma) i toppen af din core og ned til bækkenbundsmusklerne, som udgør den nederste del af kropsstammen.
 
@@ -44,7 +46,7 @@ Der findes flere definitioner af, hvad der hører med til core-musklerne. Jeg ho
 - Transversus abdominis
 - Obliqus externus og internus (de skrå mavemuskler)
 - Quadratus lomborum
-- Erector spinae og de små stabiliserende muskler i rygsøjlen 
+- Erector spinae og de små stabiliserende muskler i rygsøjlen
 - Diaphrama (åndedrætsmusklen)
 - Bækkenbunden
 

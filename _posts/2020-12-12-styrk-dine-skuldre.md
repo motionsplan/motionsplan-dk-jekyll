@@ -78,7 +78,7 @@ Her kan du se gode øvelser til at styrke bagskulderen. Du kan bruge disse eksem
 
 ## Konklusion om skuldertræning
 
-Du kan få inspiration til flere [skulderøvelser]({% link _pages/exercises-tag-skulder.md %}). Du kan også læse mere om selve [skulderleddet]({% link _anatomy/joints/skulderleddet.md %}).
+Du kan få inspiration til flere [skulderøvelser]({% link _pages/exercises-tag-skulder.md %}). Du kan også læse mere om selve [skulderleddet]({% link _pages/anatomy/skulderleddet.md %}).
 
 Jeg kan også rigtig godt lide disse øvelser, som [Dan North viser på t-nation.com](https://www.t-nation.com/training/build-muscle-anywhere-anytime).
 

@@ -9,8 +9,9 @@ language: da
 header:
   teaser: /assets/images/exercises/baenkpres-decline-0-320.jpg
 tags: []
-categories: []
-training_type: [] 
+categories:
+  - Bænkpres
+training_type: []
 training_focus: []
 equipment: []
 muscle_group: []

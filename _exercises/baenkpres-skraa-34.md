@@ -12,7 +12,8 @@ tags:
   - vægtstang
   - håndvægte
   - fitnessinstruktør
-categories: []
+categories:
+  - Bænkpres
 training_type: []
 training_focus: []
 equipment:

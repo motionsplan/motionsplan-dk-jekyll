@@ -8,6 +8,7 @@ header:
   caption: *title
 category:
   - Styrketræning
+  - Træningsprogrammer
 tags:
   - program
   - træningsprogram
@@ -36,7 +37,7 @@ De to mest klassiske måder at lave et to-split på er:
 
 Begge dele kan fungere rigtig godt som et 2-split-program.
 
-Et splitprogram er for de mere rutinerede, som vil 4 gange om ugen eller flere. Det kan gøre det lettere at optimere træningen og begrænse træningstiden de enkelte dage. Splitprogrammet kræver hensigtsmæssig planlægning, så det har en god sammensætning af de muskelgrupper, der skal trænes. 
+Et splitprogram er for de mere rutinerede, som vil 4 gange om ugen eller flere. Det kan gøre det lettere at optimere træningen og begrænse træningstiden de enkelte dage. Splitprogrammet kræver hensigtsmæssig planlægning, så det har en god sammensætning af de muskelgrupper, der skal trænes.
 
 Splitprogrammer er karakteriseret ved:
 

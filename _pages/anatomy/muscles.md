@@ -83,6 +83,12 @@ Nogle af de populære muskler til at træne ryggen er [rygøvelserne pullup og c
 
 Læs mere om [rygmusklerne her]({% link _posts/2021-03-30-rygmuskler.md %}).
 
+## Mavemuskler
+
+Jeg har samlet en liste over muskler i dine mavemuskler. Det er godt at vide, hvordan dine mavemuskler virker, hvis du gerne vil træne muskler i maven bedst muligt.
+
+Læs mere om [mavemuskler]({% link _posts/2021-03-30-mavemuskler.md %}).
+
 ## Armmuskler
 
 Jeg har samlet en liste over muskler i dine arme her. Det er godt at vide, hvordan dine armmuskler virker, hvis du gerne vil træne musklerne i armene.

@@ -44,7 +44,7 @@ For at opbygge et alsidigt styrkeprogram, der træner hele kroppen, skal du væl
 
 Find øvelser der aktiverer de store muskler i benene og omkring hoften. Disse øvelser udfordrer især musklerne på lårets forside. Det kan være en god ide at nogle af øvelserne foregår på et ben for at udfordre balancen også.
 
-Fx [squat](/squat/) og [lunges](/lunges/) - [Se flere knædominerede øvelser](/exercises/tags/#knædomineret).
+Fx [squat](/squat/) og [lunges](/lunges/) - [Se flere knædominerede øvelser]({% link _pages/exercises-tag-knee-dominant.md %}).
 
 {% include figure image_path="https://29ac6x1pv8o430jmwj3it7oo-wpengine.netdna-ssl.com/wp-content/uploads/sites/69/2019/11/Squat-kontinuum.png" caption="Om en øvelse er hoftedominant eller knædominant er et kontinuum. Kilde: [crossfys.dk](https://crossfys.dk/staerkere-ben-trods-smerter/)" %}
 
@@ -52,35 +52,32 @@ Fx [squat](/squat/) og [lunges](/lunges/) - [Se flere knædominerede øvelser](/
 
 Find hoftedominante øvelser der især udfordrer musklerne omkring baglår og hofte og nederste ryg.
 
-Fx [dødløft](/doedloeft) og [rumænsk dødløft]({% link _exercises/doedloeft-romanian-43.md %}) - [s flere hoftedominante øvelser](/exercises/tags/#hoftedomineret).
+Fx [dødløft](/doedloeft) og [rumænsk dødløft]({% link _exercises/doedloeft-romanian-43.md %}) - [se flere hoftedominante øvelser]({% link _pages/exercises-tag-hip-dominant.md %}).
 
 ### Presøvelser for arme og bryst
 
 Find øvelser hvor du starter med hænderne tæt på kroppen og skubber en modstand væk fra dig. Du ksla gøre det både lodret og vandret. Det betyder at du skal vælge to øvelser i denne gruppe.
 
-Fx [armstrækning]({% link _posts/2020-07-05-pushups.md %}), [dips](/oevelse/dips/) og [arnold press](/oevelse/arnold-press/) - [Se flere presøvelser](/exercises/tags/#skub-vandret).
+Fx [armstrækning]({% link _posts/2020-07-05-pushups.md %}), [dips](/oevelse/dips/) og [arnold press](/oevelse/arnold-press/) - [Se flere presøvelser]({% link _pages/exercises-tag-press.md %}).
 
 ### Træk for arme og øvre ryg
 
 Find øvelser hvor du starter med hænderne væk fra kroppen og trækker en modstand til dig. Du skal gøre det både lodret og vandret. Det betyder at du skal vælge to øvelser i denne gruppe.
 
-Fx [pullups](/oevelse/pullup) og [rows](/oevelse/roning-foroverboejet/) - [Se flere trækøvelser](/exercises/tags/#træk-vandret).
+Fx [pullups](/oevelse/pullup) og [rows](/oevelse/roning-foroverboejet/) - [Se flere trækøvelser]({% link _pages/exercises-tag-pull.md %}).
 
-### Rotation for kropsstammen
+### Træning af kropsstammen og core
 
-Find øvelser hvor du roterer i din overkrop, mens du holder hoften stille. Disse øvelsers formål er bl.a. at gøre din krop stærk nok til at standse rotationer igen.
+- **Rotation**. Find øvelser hvor du roterer i din overkrop, mens du holder hoften stille. Disse øvelsers formål er bl.a. at gøre din krop stærk nok til at standse rotationer igen. Fx [russian twist](/oevelse/russian-twist/) og [cykelmaveøvelse](/oevelse/cykelmaveoevelse/).
+- **Stabilitet for kropsstammen**. Find øvelser hvor du bruger den lige mavemuskel, rygmusklerne og musklerne omkring hoften til at stabilisere rygsøjlen og hoften. Fx [inch worm](/oevelse/inchworm/).
 
-Fx [russian twist](/oevelse/russian-twist/) og [cykelmaveøvelse](/oevelse/cykelmaveoevelse/) - [Øvelser](/exercises/tags/#core).
-
-### Stabilitet for kropsstammen
-
-Find øvelser hvor du bruger den lige mavemuskel, rygmusklerne og musklerne omkring hoften til at stabilisere rygsøjlen og hoften.
-
-Fx [inch worm](/oevelse/inchworm/).
+Se flere [coreøvelser](/core/).
 
 ### Loaded carries
 
 Jeg holder selv meget af *loaded carries*. De er med til at skabe en god stabilitet i kroppen, samtidig med at du lærer at håndtere vægt, mens du flytter kroppen. En meget brugt øvelse er [farmer walk]({% link _exercises/farmerwalk-304.md %}).
+
+Se flere [øvelser til loaded carries](/loaded-carries/).
 
 ## Hvor mange øvelser skal jeg vælge?
 

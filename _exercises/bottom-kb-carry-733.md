@@ -21,6 +21,7 @@ tags:
 categories:
   - Kropsstamme
   - Koordination og balance
+  - Loaded carries
 training_type:
   - Balance
   - Styrketræning

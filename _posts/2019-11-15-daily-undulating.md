@@ -10,10 +10,12 @@ header:
   alt: Photo by Andrew Tanglao on Unsplash
 category:
   - Styrketræning
+  - Træningsprogrammer
 tags:
   - program
   - træningsprogram
   - programanmeldelse
+  - fullbody
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 ---
@@ -25,7 +27,7 @@ Daily Undulating Periodization (DUP) er en metode til at programmere sin trænin
 En forklaring til de tre ord:
 
 - **Daily**. I hver træning udfører du de samme hovedøvelser. Øvelserne er store, flerledsøvelser, som fx squat, dødløft, bænkpres eller military press.
-- **Undulating**. Programmeringen igennem ugen bevæger sig som en bælge med forskellige vægte, sæt, reps og intensitet hver gang. 
+- **Undulating**. Programmeringen igennem ugen bevæger sig som en bælge med forskellige vægte, sæt, reps og intensitet hver gang.
 - **Periodization**. Målet er at forbedre styrken samtiddig med at trætheden holdes nede. Tanken i DUP er, at kroppen får nok belastning til at gå frem, uden at man støder på et plateau.
 
 ## Hvordan laves DUP?
@@ -42,7 +44,7 @@ Ofte vil man vælge tre store øvelser, og så vil man køre en protokol pr. lø
 
 |            | Mandag  | Tirsdag | Onsdag  | Torsdag | Fredag   | Lørdag  | Søndag |
 |------------|---------|---------|---------|---------|----------|---------|--------|
-| Power      | Bænk    | Fri     | Squat   | Fri     | Dødløft  | Sup/fri | Fri    |  
+| Power      | Bænk    | Fri     | Squat   | Fri     | Dødløft  | Sup/fri | Fri    |
 | Strength   | Dødløft |         | Bænk    |         | Squat    |         |        |
 | Hypertrofi | Squat   |         | Dødløft |         | Bænk     |         |        |
 

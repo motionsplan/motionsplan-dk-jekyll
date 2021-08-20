@@ -5,6 +5,8 @@ permalink: /traeningsprogrammer/
 excerpt: "Find et effektivt og gratis træningsprogram til styrketræning, der passer perfekt til dine behov. Få dit eget program. Vi har både klassiske styrketræningsprogrammer, fx fullbody, splitprogrammer, 2-splitprogram og 3-splitprogram."
 comments: false
 toc: true
+categories:
+  - Styrketræning
 header:
   overlay_image: https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
   teaser: https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80
@@ -16,6 +18,7 @@ faq:
     answer: "Mænd og kvinder skal træne ud fra de samme principper. Det afgørende i valget af træningsprogram er, at du tilpasser det din målsætning, dine forudsætninger og din kropsbygning. Både kvinder og mænd kan altså sagtens tage udgangspunkt i et af de effektive træningsprogrammer på denne side."
   - question: "Hvad er et godt træningsprogram til styrketræning?"
     answer: "Et godt styrketræningsprogram fokuserer på basisøvelser, som udføres med god bevægelseskvalitet og tilpas hårdt i forhold til dine mål. De fleste vil få mere ud af at træne med 1-3 gentagelser i overskud end til failure. En ugentlige volumen 6-20 sæt for den enkelte muskelgruppe vil være passende. De bedste træningsprogrammer har også en plan for, hvordan man fra uge til uge kan lave [progression og progressivt overload](/progressionsmodeller-progressivt-overload/)."
+breadcrumbs: true
 ---
 
 Find et gratis træningsprogram til styrketræning mellem vores klassiske styrketræningsprogrammer. Sørg for at programmet passer netop til dine behov.
@@ -35,12 +38,16 @@ mennesker.
 
 Du kan også finde avancerede bodybuildingsprogrammer med 4-split eller 5-split, hvis du træner rigtig meget, har ufattelig meget erfaring og vil have noget variation.
 
+Jeg har skrevet en guide til, [hvordan du vælger et træningsprogram til styrketræning]({% link _posts/2021-08-16-saadan-vaelger-program.md %}).
+
+## Fullbody-programmer
+
 <div class="feature__wrapper">
 
 {% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "træningsprogram" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
 
 {% if site_posts.size > 0 %}
-  {% for post in site_posts limit:16 %}
+  {% for post in site_posts %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
@@ -56,7 +63,7 @@ Tag udgangspunkt i et af de mange effektive programmer her og tilpas dem til din
 {% assign site_posts = site.programs | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
 
 {% if site_posts.size > 0 %}
-  {% for post in site_posts limit:16 %}
+  {% for post in site_posts %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}

@@ -19,6 +19,7 @@ tags:
   - fitnessinstruktør
 categories:
   - Pres
+  - Bænkpres
 training_type:
   - Styrketræning
 training_focus:

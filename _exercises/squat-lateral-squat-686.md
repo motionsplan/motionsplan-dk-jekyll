@@ -12,7 +12,8 @@ tags:
   - Strækøvelser
   - Styrketræning
   - kropsvægt
-categories: []
+categories:
+  - Squat
 training_type:
   - Mobilisering
   - Strækøvelser

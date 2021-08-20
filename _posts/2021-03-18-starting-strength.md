@@ -8,8 +8,8 @@ header:
   caption: *title
 category:
   - Styrketræning
+  - Træningsprogrammer
 tags:
-  - programlægning
   - træningsprogram
   - træning
   - styrketræning

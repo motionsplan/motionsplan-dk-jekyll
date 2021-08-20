@@ -1,6 +1,6 @@
 ---
 title: &title "Rygmuskler: Liste og øvelser til muskler i ryggen"
-seo_title: "Rygmuskler - Liste og øvelser til muskler i ryggen »"
+seo_title: "Rygmuskler - Sådan træner du dine muskler i ryggen »"
 description: "Komplet liste over muskler i ryggen. Forslag til træning af rygmusklerne."
 permalink: /muskler/ryggen/
 language: da
@@ -27,6 +27,8 @@ Jeg har samlet en liste over muskler i din ryg her. Det er godt at vide, hvordan
 
 [Pullup og chinups]({% link _posts/2020-06-30-pullup-chinup.md %}) er rigtig gode øvelser til ryggen, ligesom du ikke kan undvære de mange [rows og row-variationer]({% link _posts/2020-07-06-rows.md %}).
 
+Jeg har lavet en liste over [gode øvelser til ryggen]({% link _pages/exercises-tag-ryg.md %}).
+
 {% comment %}
 
 ## Hvorfor træne musklerne i ryggen?
@@ -37,7 +39,7 @@ Hvis musklerne omkring knæet - på både forsiden og bagsiden - er stærke, så
 
 Når musklerne i benene er stærke, så vil du også præstere bedre, når du springer, løber og sprinter.
 
-## Hvilke muskler har du i dit ben?
+## Hvilke muskler har du i dit ryg?
 
 Når du træner ben, så er de store muskler den firehovede knæstrækker (quadriceps), sædemusklerne (gluteus maximus og til dels medius), indadførene (adductor magnus, longus og brevis), hasemusklerne (semimembranosus, semitendinosus og biceps femoris), og lægmusklerne (gastrocnemius og soleus).
 

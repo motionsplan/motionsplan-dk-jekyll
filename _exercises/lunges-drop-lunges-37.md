@@ -9,7 +9,8 @@ language: da
 header:
   teaser: /assets/images/exercises/drop-lunges-0-320.jpg
 tags: []
-categories: []
+categories:
+  - Lunges
 training_type: []
 training_focus: []
 equipment: []
