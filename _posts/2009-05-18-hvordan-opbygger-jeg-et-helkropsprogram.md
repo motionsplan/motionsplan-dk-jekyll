@@ -40,7 +40,7 @@ Hvis du gerne vil træne 4 gange eller flere om ugen, så kan du overveje at kig
 
 For at opbygge et alsidigt styrkeprogram, der træner hele kroppen, skal du vælge styrkeøvelser fra følgende forskellige grupper af øvelser:
 
-### Knædomineret
+### Knædominerede øvelser
 
 Find øvelser der aktiverer de store muskler i benene og omkring hoften. Disse øvelser udfordrer især musklerne på lårets forside. Det kan være en god ide at nogle af øvelserne foregår på et ben for at udfordre balancen også.
 

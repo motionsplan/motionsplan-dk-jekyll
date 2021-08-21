@@ -1,14 +1,15 @@
 ---
 layout: single
 permalink: /hoftedominante-oevelser/
-title: &title "Hoftedominante øvelser: Træn din bagside med hoftedominerede øvelser"
+title: &title "Hoftedominante øvelser: Træn din bagside med hængelsbevægelser"
+seo_title: "Hoftedominante øvelser: Træn bagside med hængselsbevægelser"
 author_profile: true
 classes: wide
 header:
   overlay_image: https://images.unsplash.com/photo-1584863231364-2edc166de576?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80
   teaser: https://images.unsplash.com/photo-1584863231364-2edc166de576?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
   caption: *title
-excerpt: "Din bagside kan trænes med hoftedominerede øvelser. Her kigger vi på de bedste variationer af øvelser."
+excerpt: "Din bagside kan trænes med hoftedominante øvelser. Her kigger vi på de bedste variationer af øvelser til bagkæden. Denne type kaldes også _hinge_ eller hængelsbevægelser."
 categories:
   - Træningsøvelser
 breadcrumbs: true
@@ -18,15 +19,19 @@ sidebar:
 
 {{ page.excerpt }}
 
-Dine baller bliver trænet i mange forskellige bevægelser. Du træner ballerne mest effektivt ved at lave en udstrækning af hoften og en udadrotation i hoften.
+Din bagkæde bliver trænet i mange forskellige bevægelser. Vi har lavet en anden oversigt med en [oversigt over alle benøvelser]({% link _pages/exercises-tag-ben.md %}).
 
-Balleøvelserne glute bridge og hip thrusters er populære og effektive, men hvis dit mål er faste baller, så kommer du heller ikke uden om squat og lunges.
+## Hængselsbevægelsen og _hinge_
 
-Vi har samlet alle de bedste og mest effektive baldeøvelser her, som du kan lave både hjemme og i styrketræningscenteret.
+De hoftedominante øvelser er en hængselsbevægelse i hofteleddet. Det er et grundlæggende bevægelsesmønster, som er rigtig godt at træne.
 
-På engelsk kaldes ballerne for 'glutes', og det kan være godt at dykke lidt ned i anatomien for ballerne for at finde ud af, hvordan du sammensætter det bedste træningsprogram til dine baller og lærer at vælge det bedste balleøvelser.
+På engelsk kalder man bevægelsen for en _hinge_-bevægelse. Når man træner underkoppen, så opererer man med et kontinuum for, hvornår en øvelse karakteriseres som hoftedomineret frem for knædomineret.
+
+{% include figure image_path="https://29ac6x1pv8o430jmwj3it7oo-wpengine.netdna-ssl.com/wp-content/uploads/sites/69/2019/11/Squat-kontinuum.png" caption="Om en øvelse er hoftedominant eller knædominant er et kontinuum. Kilde: [crossfys.dk](https://crossfys.dk/staerkere-ben-trods-smerter/)" %}
 
 ## Hoftedominerede øveler
+
+Vi har samlet alle de bedste og mest effektive øvelser til at træne hoften i hængselsbevægelsen her, som du kan lave både hjemme og i styrketræningscenteret.
 
 {% assign site_posts = site.exercises | where: "tags", "Baller" | where_exp: "post", "post.url != page.url" | sort: "title" %}
 

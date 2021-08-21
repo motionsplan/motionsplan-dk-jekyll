@@ -113,7 +113,7 @@ anatomi:
         url: /muskler/ben/
 muscles:
   - title: Benmuskler
-    url: /benmuskler/
+    url: /muskler/ben/
     children:
       - title: Adductor Brevis
         url: /adductor-brevis/
@@ -142,7 +142,7 @@ muscles:
       - title: Den tohovedede lægmuskel
         url: /gastrocnemius/
   - title: Armmuskler
-    url: /armmuskler/
+    url: /muskler/arme/
     children:
       - title: Biceps
         url: /biceps-brachii/
@@ -171,7 +171,7 @@ muscles:
       - title: Serratus Anterior
         url: /serratus-anterior/
   - title: Rygmuskler
-    url: /rygmuskler/
+    url: /muskler/ryg/
     children:
       - title: Trapezius
         url: /trapezius/
@@ -196,6 +196,7 @@ muscles:
       - title: Lille brystmuskel
         url: /pectoralis-minor/
   - title: Mavemuskler
+    url: /muskler/mave/
     children:
       - title: Lige mavemuskel
         url: /rectus-abdominis/

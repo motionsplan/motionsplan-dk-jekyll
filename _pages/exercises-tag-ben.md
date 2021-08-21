@@ -45,6 +45,12 @@ Bentræning kan foregå både med frie vægte og lave squat og lunges og i benma
 
 Vi har samlet en række simple og effektive benøvelser, som du kan bruge til at styrke benmusklerne, din hofte og dine knæ.
 
+## Funktionel opdeling af benøvelserne
+
+Typisk opdeler man øvelserne til underkoppen i enten [knædominante øvelser]({% link _pages/exercises-tag-knee-dominant.md %}) eller [hoftedominante øvelser]({% link _pages/exercises-tag-hip-dominant.md %}). Det kan illustreres meget godt på dette kontinuum, hvornår en øvelse kan siges at tilhøre den ene eller anden kategori.
+
+{% include figure image_path="https://29ac6x1pv8o430jmwj3it7oo-wpengine.netdna-ssl.com/wp-content/uploads/sites/69/2019/11/Squat-kontinuum.png" caption="Om en øvelse er hoftedominant eller knædominant er et kontinuum. Kilde: [crossfys.dk](https://crossfys.dk/staerkere-ben-trods-smerter/)" %}
+
 ## Artikler om træning af bentræning
 
 <div class="feature__wrapper">

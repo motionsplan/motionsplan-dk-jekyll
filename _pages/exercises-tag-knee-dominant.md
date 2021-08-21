@@ -37,13 +37,21 @@ faq:
     answer: "Ja. Hvis du har dårligt knæ, så skal du bare sørge for at vælge de rigtige varianter. Det kan være, at du skal gå efter nogle lidt mere isolerede øvelser eller forbedre din teknik i de store basisøvelser. Med skader i knæet, så er det vigtigt, at du tænker over den rette dosering og at optimere dit bevægelsesmønster. Det hjælper ikke noget at lade være med at træne knæet. Der er masser af forslag til gode benøvelser for knæene her på siden."
 ---
 
-Bentræning kan foregå på virkelig mange forskellige og effektive måder. Vi har samlet et hav af knædominante øvelser, som du kan bruge i din styrketræning af benene. Bentræning er både for dig, der gerne vil blive mere eksplosiv og dig der vil have større og stærkere ben.
+Bentræning kan foregå på virkelig mange forskellige og effektive måder. Vi har samlet et hav af knædominante øvelser, som du kan bruge i din styrketræning af benene. De knædominante øvelser træner særligt forsiden af benene.
 
 Bentræning kan foregå både med frie vægte og lave squat og lunges og i benmaskine som benpres og leg extensions. Du kan bruge vægtstang, håndvægte, kettlebells og [Safety Bar Squats]({% link _posts/2020-07-05-safetybar-squat.md %}).
 
-Vi har samlet en række simple og effektive benøvelser, som du kan bruge til at styrke benmusklerne, din hofte og dine knæ.
+Når man træner underkoppen, så opererer man med et kontinuum for, hvornår en øvelse karakteriseres som hoftedomineret frem for knædomineret.
+
+{% include figure image_path="https://29ac6x1pv8o430jmwj3it7oo-wpengine.netdna-ssl.com/wp-content/uploads/sites/69/2019/11/Squat-kontinuum.png" caption="Om en øvelse er hoftedominant eller knædominant er et kontinuum. Kilde: [crossfys.dk](https://crossfys.dk/staerkere-ben-trods-smerter/)" %}
+
+Det betyder også, at der er mere eller mindre aktivering af musklerne i de forskellige variationer.
+
+Vi har lavet en anden oversigt med en [oversigt over alle benøvelser]({% link _pages/exercises-tag-ben.md %}).
 
 ## Knædominerede øvelser
+
+Vi har samlet en række simple og effektive knædominerede øvelser, som du kan bruge til at styrke benmusklerne, din hofte og dine knæ.
 
 {% assign site_posts = site.exercises | where: "tags", "Ben" | where_exp: "post", "post.url != page.url" | sort: "title" %}
 
