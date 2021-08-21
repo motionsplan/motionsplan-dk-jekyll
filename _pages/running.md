@@ -36,6 +36,8 @@ feature_row_feature:
     url: "/loebeteknik/"
     btn_label: "Lær om løbeteknik og løbestil"
     btn_class: "btn--info"
+sidebar:
+  nav: trainingtypes
 ---
 
 {% include feature_row type="center" id="feature_row_excerpt" %}

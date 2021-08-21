@@ -218,7 +218,22 @@ muscles:
         url: /gluteus-minimus/
       - title: Tensor Fascia Latae
         url: /tensor-fascia-latae/
-
+trainingtypes:
+  - title: Træningsformer
+    url: /traeningsformer/
+    children:
+      - title: "Styrketræning"
+        url: /styrke/
+      - title: "Kondition"
+        url: /kondition/
+      - title: "Cardio"
+        url: /cardio/
+      - title: "Løb"
+        url: /loebesiden/
+      - title: "Yoga"
+        url: /yoga/
+      - title: "Til fitnessinstruktøren"
+        url: /fitness/
 exercises:
   - title: Træningsøvelser
     url: /traeningsoevelser/

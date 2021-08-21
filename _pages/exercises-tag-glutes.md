@@ -2,6 +2,7 @@
 layout: single
 permalink: /balleoevelser/
 title: "Balleøvelser: De mest effektive styrkeøvelser til ballerne 🏋"
+seo_title: "Baldeøvelser: Effektive træningsøvelser for balderne"
 author_profile: true
 classes: wide
 header:

@@ -52,6 +52,8 @@ feature_row:
 author_profile: true
 system:
   - fitnessinstruktør
+sidebar:
+  nav: trainingtypes
 ---
 
 Konditionstræning kan både have til formål at øge den [maksimale iltoptagelse]({% link _posts/2019-11-03-intensiteten-og-vo2max.md %}), så det samme arbejde bliver lettere, og forbedre udholdenheden, altså evnen til at arbejde i længere tid med den samme intensitet.

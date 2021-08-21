@@ -18,9 +18,11 @@ header:
       url: "/traeningsoevelser/"
     - label: "<i class='fas fa-download'></i> Træningsprogrammer"
       url: "/traeningsprogrammer/"
-author_profile: true
+author_profile: false
 author: lsolesen
 toc: true
+sidebar:
+  nav: trainingtypes
 ---
 
 {{ page.excerpt }}
@@ -47,7 +49,7 @@ Læs mere om [cardio træning](/cardio-traening-workout/) og [konditionstræning
 
 ## Yoga og mindfulness
 
-Vi har skrevet flere indlæg om yoga og mindfulness. Tjek dem her:
+Vi har skrevet flere indlæg om [yoga og mindfulness](/yoga/). Tjek dem her:
 
 {% assign site_posts = site.posts | where: "tags", "yoga" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
@@ -67,7 +69,7 @@ Når du gerne vil træne forskellige muskelgrupper, så skal du vælge passende 
 
 Vi har her på sitet samlet de [bedste træningsøvelser](/traeningsoevelser/), [strækøvelser]({% link _posts/2020-07-08-udstraekning.md %}), [balanceøvelser]({% link _posts/2020-07-16-balancetraening.md %}), [træning af core og kropsstammen]({% link _posts/2020-07-16-coretraening.md %}) og styrketræningsøvelser. Vi har lavet en grundig forklaring af alle øvelserne, og der er både øvelser til styrketræning, konditionstræning, yoga, udstrækning, mobilitet og cardio.
 
-Du kan også tjekke vores dedikerede sider til [øvelser til maven]({% link _pages/exercises-tag-abs.md %}), [armøvelser]({% link _pages/exercises-tag-arme.md %}), [benøvelser]({% link _pages/exercises-tag-ben.md %}), [øvelser til brystet]({% link _pages/exercises-tag-bryst.md %}), [balleøvelser]({% link _pages/exercises-tag-glutes.md %}), [rygøvelser]({% link _pages/exercises-tag-ryg.md %}) eller [skulderøvelser]({% link _pages/exercises-tag-skulder.md %}).
+Du kan også tjekke vores dedikerede sider til [øvelser til maven]({% link _pages/exercises-tag-abs.md %}), [armøvelser]({% link _pages/exercises-tag-arme.md %}), [benøvelser]({% link _pages/exercises-tag-ben.md %}), [øvelser til brystet]({% link _pages/exercises-tag-bryst.md %}), [baldeøvelser]({% link _pages/exercises-tag-glutes.md %}), [rygøvelser]({% link _pages/exercises-tag-ryg.md %}) eller [skulderøvelser]({% link _pages/exercises-tag-skulder.md %}).
 
 Nogle af vores meget populære guides til træning af muskelgrupper er vores [guide til chinups og pullups]({% link _posts/2020-06-30-pullup-chinup.md %}) og [armstrækninger og armbøjninger]({% link _posts/2020-07-05-pushups.md %}).
 
