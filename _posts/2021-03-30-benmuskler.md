@@ -3,6 +3,8 @@ title: &title "Benmuskler: Liste og øvelser til muskler i benet"
 seo_title: "Benmuskler - Liste og øvelser til muskler i benet »"
 description: "Komplet liste over muskler i benet. Forslag til træning af benmusklerne."
 permalink: /muskler/ben/
+redirect_from:
+  - /benmuskler/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1434608519344-49d77a699e1d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1900&q=80

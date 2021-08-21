@@ -3,6 +3,9 @@ title: &title "Rygmuskler: Liste og øvelser til muskler i ryggen"
 seo_title: "Rygmuskler - Sådan træner du dine muskler i ryggen »"
 description: "Komplet liste over muskler i ryggen. Forslag til træning af rygmusklerne."
 permalink: /muskler/ryggen/
+redirect_from:
+  - /rygmuskler/
+  - /muskler/ryg/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1600677396360-9c4e8e46e7d4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1949&q=80

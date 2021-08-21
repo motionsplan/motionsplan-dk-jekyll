@@ -106,7 +106,7 @@ anatomi:
       - title: Armmuskler
         url: /muskler/arme/
       - title: Rygmuskler
-        url: /muskler/ryg/
+        url: /muskler/ryggen/
       - title: Maveøvelser
         url: /muskler/mave/
       - title: Benmuskler
@@ -171,7 +171,7 @@ muscles:
       - title: Serratus Anterior
         url: /serratus-anterior/
   - title: Rygmuskler
-    url: /muskler/ryg/
+    url: /muskler/ryggen/
     children:
       - title: Trapezius
         url: /trapezius/
