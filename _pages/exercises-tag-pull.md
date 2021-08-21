@@ -17,45 +17,41 @@ sidebar:
   nav: exercises
 ---
 
-Trækøvelser gør ryggen og lænden stærkere og mere udholdende. Øvelser til ryggen bør være en del af din styrketræning, så derfor har vi samlet mere om gode trækøvelser både med og uden vægte.
+Trækøvelser træner ryggen og armene. Vi samlet mere om gode trækøvelser både med og uden vægte, så du kan få trænet det øverste af din ryg og dine arme på en god måde.
 
-Der er mange styrketræningsøvelser for ryggen. Ryggen er stærk og skal trænes på mange måder. Din ryg skal bruges og udfordres med de bedste og mest effektive øvelser i din rygtræning.
+I et godt træningsprogrm skal der både være nogle [presøvelser]({% include _pages/exercises-tag-press.md %}) og nogle trækøvelser.
 
-Jeg synes de bedste trækøvelser er basisøvelser, hvor du kan løfte meget vægt i horisontale træk (som [rows]({% link _posts/2020-07-06-rows.md %}))) og vertikale træk (som [chinup og pullup]({% link _posts/2020-06-30-pullup-chinup.md %})), men husk også at de mange variationer af [dødløft](/doedloeft/) er fremragende til at træne ryggen.
+Trækøvelser opdeles typisk i vandrette træk og lodrette træk. [Rows]({% link _posts/2020-07-06-rows.md %}) er i gruppen horisontale træk og [chinup og pullup]({% link _posts/2020-06-30-pullup-chinup.md %}) er et eksempel på vertikale eller lodrette trækøvelser.
 
-## Ondt i ryggen
-
-Ifølge [Rigshospitalet](https://www.rigshospitalet.dk/afdelinger-og-klinikker/hovedorto/videncenter-for-reumatologi-og-rygsygdomme/for-patienter-og-paaroerende/rygsygdomme/Sider/fakta-om-ryggen-og-rygsmerter.aspx) kommer 80% af danskere til på et tidspunkt at opleve at have ondt i ryggen. Du kan forebygge problemer med ryggen ved at ræne ryggen. Det er overhovedet ikke farligt at træne ryggen, men i virkeligheden bare en rigtig god ide.
-
-## Trækøvelser for øvre og nedre ryg
+## Trækøvelser for øvre ryg og armene
 
 Ryggen er delt op i øvre ryg og nedre ryg. Når du vælger øvelser, så skal du både træne lænden, men også den øvre ryg. Derfor er det en god ide med et alsidigt program. Heldigvis findes der nogle store *basisøvelser*, så du kan ramme rigtig mange af rygmusklerne på samme tid.
 
 En ting er at træne rygmusklerne, men du har også brug for stærke og udholdende mavemuskler for at have et godt muskelkorset omkring din [rygsøjle]({% link _pages/anatomy/rygsojlen.md %}). Her har samlet en masse gode [maveøvelser til din mavetræning]({% link _pages/exercises-tag-abs.md %}).
 
-## 7 gode trækøvelser til træktræning
+## De bedste trækøvelser til træktræning
 
-{% include exercise key="20210819091800" title="1) Dødløft" %}
-
-Dødløft er en rigtig god øvelse til din rygtræning. Det er en basisøvelse, som rammer rigtig mange muskelgrupper, men de hjælper dig også med at lære at spænde op omkring din rygsøjle. Øvelsen findes i mange varianter, fx [konventionel dødløft]({% link _exercises/doedloeft-konventionel-55.md %}), [sumo dødløft]({% link _exercises/doedloeft-sumo-40.md %}), [stivbenet dødløft]({% link _exercises/doedloeft-stivbenet-620.md %}), trækfat dødløft og [rumænsk dødløft]({% link _exercises/doedloeft-romanian-43.md %}). Dødløft er ikke farligt. Du skal bare sørge for at dosere rigtigt og prioritere din teknik.
-
-{% include exercise key="20210819092000" title="2) Rows" %}
+{% include exercise key="20210819092000" title="1) Rows" %}
 
 Rows er en helt central del af din træning. Når du gerne vil træne den øvre ryg, så er det en god ide at bruge flere forskellige varianter. Jeg har samlet en artikel over [rows](/rows/) her. Nogle af de mest kendte er [bent over barbell rows]({% link _exercises/roning-foroverboejet-63.md %}). Alt efter hvordan du laver din teknik, så kan du ramme ryggen på forskellig måde med dine rows.
 
-{% include exercise key="20210819092600" title="3) Pulldown" %}
+{% include exercise key="20210819092600" title="2) Pulldown" %}
 
-{% include exercise key="20210819092800" title="4) Pullup og chinups" %}
+{% include exercise key="20210819092800" title="3) Pullup og chinups" %}
 
 [Pullups og chinups](/chinup-vs-pullup/) er nogle rigtig gode øvelser til at træne ryggen. Jeg har skrevet mere om, [hvordan du kommer i gang med kropshævninger](/laer-kropshaevning-chinup-pullup-program/) her.
 
-{% include exercise key="20210819093100" title="5) Bodyrows" %}
+{% include exercise key="20210819093100" title="4) Bodyrows" %}
 
-{% include exercise key="20210819093200" title="6) Planken" %}
+## Trækøvelser uden udstyr
 
-{% include exercise key="20210819093210" title="7) Good morning" %}
+Trækøvelser er nogle af de øvelser, som er sværest at finde på gode variationer uden udstyr.
 
-## Trækøvelser
+I denne video kan du få lidt inspiration til at træne træk uden udstyr:
+
+{% include video provider="youtube" id="X-tsHJCdKz8" %}
+
+## Oversigt over alle trækøvelser
 
 {% assign site_posts = site.exercises | where: "tags", "Træk" | where_exp: "post", "post.url != page.url" | sort: "title" %}
 
