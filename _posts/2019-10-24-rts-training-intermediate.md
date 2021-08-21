@@ -162,7 +162,7 @@ Se en videoforklaring af programmet her.
 
 Programmet løber over 9 uger, og der er ikke to uger der er ens. Den første måned arbejder man fire dage om ugen, mens man den sidste måned arbejder tre dage om ugen.
 
-{% include figure image_path="https://www.powerliftingtowin.com/wp-content/uploads/2014/06/RTS-Generalized--Program.jpg" caption="RTS Generalized Intermediate Program fra [PowerliftingToWin](https://www.powerliftingtowin.com/rts-generalized-intermediate-program/)" alt="RTS Generalized Intermediate Program" %}
+{% include figure image_path="https://www.powerliftingtowin.com/wp-content/uploads/2014/06/RTS-Generalized-Intermediate-Program.jpg" caption="RTS Generalized Intermediate Program fra [PowerliftingToWin](https://www.powerliftingtowin.com/rts-generalized-intermediate-program/)" alt="RTS Generalized Intermediate Program" %}
 
 Programmet er et godt eksempel på brugen af _fatigue percents_ og kompleks programmering.
 

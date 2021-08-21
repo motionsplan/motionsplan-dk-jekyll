@@ -25,7 +25,7 @@ Jeg synes de bedste rygøvelser er basisøvelser, hvor du kan løfte meget vægt
 
 ## Ondt i ryggen
 
-Ifølge [Rigshospitalet](https://www.rigshospitalet.dk/afdelinger-og-klinikker/hovedorto/videncenter-for-reumatologi-og-rygsygdomme/for-patienter-og-paaroerende/rygsygdomme/Sider/fakta-om-ryggen-og-rygsmerter.aspx) kommer 80% af danskere til på et tidspunkt at opleve at have ondt i ryggen. Du kan forebygge problemer med ryggen ved at ræne ryggen. Det er overhovedet ikke farligt at træne ryggen, men i virkeligheden bare en rigtig god ide.
+Ifølge [Rigshospitalet](https://www.rigshospitalet.dk/afdelinger-og-klinikker/hovedorto/rygkirurgi-led-og-bindevaevssygdomme/for-patienter-og-paaroerende/rygsygdomme/Sider/fakta-om-ryggen-og-rygsmerter.aspx) kommer 80% af danskere til på et tidspunkt at opleve at have ondt i ryggen. Du kan forebygge problemer med ryggen ved at ræne ryggen. Det er overhovedet ikke farligt at træne ryggen, men i virkeligheden bare en rigtig god ide.
 
 ## Rygøvelser for øvre og nedre ryg
 
