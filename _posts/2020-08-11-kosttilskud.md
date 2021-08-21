@@ -24,8 +24,6 @@ Bodylab skriver om [de bedste kosttilskud til træning](https://www.bodylab.dk/s
 
 Men det bliver hurtigt vanskeligt at navigere i denne jungle af anbefalinger af kosttilskud, når det er producenterne selv, der sælger dem. Derfor kigger man måske efter andre kilder, og Igoform.dk [nævner de 5 af de bedste kosttilskud for begyndere](https://igodform.dk/5-af-de-bedste-kosttilskud-for-begyndere-det-har-aldrig-vaeret-lettere-at-vaelge/) og Sublab lader som om de har en videnskabelig laboratoriumtilgang til analysen af kosttilskud og [foreslår de 8 bedste kosttilskud til træning](https://suplab.dk/).
 
-Anders Nedergaard har været med til at opstarte [Candidlab](https://candidlab.com/da/), som rent faktisk har haft den ambition at efterprøve kosttilskud videnskabeligt, men det ser ud til, at det er gået lidt i stå igen.
-
 _Husk også at Motionsplan har affiliate links, og der er også affiliate links i denne blogpost. Jeg er imidlertid også nærrig, så jeg gider kun købe det, der rent faktisk virker._
 
 ## Hvornår har jeg brug for kosttilskud?

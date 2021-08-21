@@ -60,5 +60,5 @@ Hvad siger du til denne indgangsvinkel til træningen? Kan du forklare, hvorfor 
 - [Anterior core traning](http://www.t-nation.com/free_online_article/sports_body_training_performance/anterior_core_training)
 - [Core training for smart folks](http://www.t-nation.com/free_online_article/sports_body_training_performance/core_training_for_smart_folks)
 - [21st Century Core training](http://www.t-nation.com/free_online_article/sports_body_training_performance/21st_century_core_training)
-- [The real core exercises](http://www.t-nation.com/free_online_article/sports_body_training_performance/the_real_core_exercise)
-- [The 2008 alphabet of manliness](https://www.t-nation.com/free_online_article/sports_body_training_performance/the_2008_alphabet_of_manliness)
+- [The real core exercises](https://www.t-nation.com/training/the-real-core-exercise/)
+- [The 2008 alphabet of manliness](https://www.t-nation.com/training/the-2008-alphabet-of-manliness/)
