@@ -71,6 +71,18 @@ Det er altid en god ide at have en eller anden form for træningsprogram, når d
 
 Tjek mere på vores side om [træningsprogrammer](/traeningsprogrammer/).
 
+{% assign site_posts = site.posts | where: "tags", "træningsprogram" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts limit: 6 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
 ## Træningsøvelser
 
 Du skal vælge passende træningsøvelser til din træning, så du træner det, du gerne vil blive bedre til.

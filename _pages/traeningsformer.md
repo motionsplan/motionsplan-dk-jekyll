@@ -35,11 +35,35 @@ Styrketræning handler om at blive stærkere, bygge større muskler eller begge 
 
 Læs mere om [styrketræning her](/styrke/) eller se vores [begynderprogram til calisthenics]({% link _posts/2021-01-18-calistenics.md %}).
 
+{% assign site_posts = site.posts | where: "category", "Styrketræning" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts limit: 3 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
 ## Løb
 
 Løb handler om at lære at løbe, blive en hurtigere løber eller kunne løbe længere. Vi hjælper dig i gang med træningsprogrammer og løbeøvelser.
 
 Læs mere om [løb og løbetræning her](/loebesiden/).
+
+{% assign site_posts = site.posts | where: "category", "Løb" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts limit: 3 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
 
 ## Cardio og kondition
 
@@ -47,16 +71,28 @@ Cardio handler om at træne din kondition og dit kredsløb. Du kan bruge mange f
 
 Læs mere om [cardio træning](/cardio-traening-workout/) og [konditionstræning](/kondition/).
 
-## Yoga og mindfulness
-
-Vi har skrevet flere indlæg om [yoga og mindfulness](/yoga/). Tjek dem her:
-
-{% assign site_posts = site.posts | where: "tags", "yoga" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+{% assign site_posts = site.posts | where: "category", "Kondition" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
 
 <div class="feature__wrapper">
 
 {% if site_posts.size > 0 %}
-  {% for post in site_posts %}
+  {% for post in site_posts limit: 3 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
+## Yoga og mindfulness
+
+Vi har skrevet flere indlæg om [yoga og mindfulness](/yoga/). Tjek dem her:
+
+{% assign site_posts = site.posts | where: "category", "Yoga" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts limit: 3 %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
@@ -73,4 +109,4 @@ Du kan også tjekke vores dedikerede sider til [øvelser til maven]({% link _pag
 
 Nogle af vores meget populære guides til træning af muskelgrupper er vores [guide til chinups og pullups]({% link _posts/2020-06-30-pullup-chinup.md %}) og [armstrækninger og armbøjninger]({% link _posts/2020-07-05-pushups.md %}).
 
-Under alle omsændigheder bør du dykke ned i [alle vores træningsøvelser til inspiration](/traeningsoevelser/).
+Under alle omstændigheder bør du til inspiration dykke ned i [alle vores træningsøvelser](/traeningsoevelser/).
