@@ -1,6 +1,6 @@
 ---
 title: "Opvarmning til styrketræning: Øvelser du kan bruge i dag!"
-permalink: /opvarmning/
+permalink: /opvarmning-styrketraening/
 excerpt: "Opvarmning til styrketræning kan kan struktureres gennem en række faser, fx generel, dynamisk, specifik og en forberedelse af nervesystemet."
 language: da
 header:
@@ -27,14 +27,16 @@ feature_row:
 
 Opvarmning er vigtigt, og du kan bruge den fornuftigt. Det gælder også opvarmning til styrketræning. Formålet med opvarmning er at øge kropstemperaturen, smøre leddene, øge mobiliteten, gøre nervesystemet klar og forbedre ens evne til at bevæge sig.
 
-Opvarmning skal tage højde for den efterfølgende aktivitet, og sådan er det også i styrketræning. For at tage opvarmningen seriøst nok, så er det en god ide at have nogle faser, som du sætter dig for at skulle igennem i din opvarmning.
+Opvarmning skal tage højde for den efterfølgende aktivitet, og sådan er det også i styrketræning. For at tage opvarmningen seriøst nok, så er det en god ide at have nogle faser, som du sætter dig for at skulle igennem, når du starter din træning.
+
+Jeg har skrevet et [uddybende indlæg om opvarmning her](/opvarmning/).
 
 ## Opvarmning til styrketræning
 
 Opvarmning går typisk gennem tre faser:
 
 General opvarmning
-: Formålet i denne fase er at øge hjerterytmen, få blodet til at flyde hurtigere, smøre ledene. Der er mange måder, du kan gøre det på.
+: Formålet i denne fase er at øge hjerterytmen, få blodet til at flyde hurtigere, smøre leddene. Der er mange måder, du kan gøre det på.
 
 Specifik opvarmning
 : Her skal du ramme nogle af de bevægelser, du skal lave i den efterfølgende træning. Fx nogle goblet squats, hvis du skal squatte bagefter. Armstrækninger på bænkdag osv. Her kan du også tænke på at arbejde med de begrænsninger eller udfordringer, du har ift. specifikke øvelser.
@@ -56,7 +58,7 @@ R3 --- Readiness
 : Her gør vi os klar gennem dynamisk opvarmning, hvor vi fysiologisk også skal blive klar til træningen. Vi smører ledene, gør nervesystemet klar og forbedre bevægeligheden. Vi forbereder folk til at træne.
 
 R4 --- Reactive
-: Vi arbejder med ekplosivitet og fyrer for alvor op for nervesystemet.
+: Vi arbejder med eksplosivitet og fyrer for alvor op for nervesystemet.
 
 Jeg synes det er nogle gode faser at komme igennem, og i de enkelte faser kan du så tænke både generelle elementer og specifikke elementer ind.
 
@@ -102,18 +104,18 @@ Vi kan rigtig godt lide at lave _ramp up_. Hvis du fx har planlagt, at din træn
 
 ### Ramp up
 
-x10 @ RPE 5
-x8 @ RPE 5,5
-x6 @ RPE 6
-x4 @ RPE 7
-x2 @ RPE 8
-x1 @ RPE 8
+- x10 @ RPE 5
+- x8 @ RPE 5,5
+- x6 @ RPE 6
+- x4 @ RPE 7
+- x2 @ RPE 8
+- x1 @ RPE 8
 
 Du laver altså en ramp up til en vægt, der er tungere end dit arbejdssæt, men med færre reps. Det er formentlig med til at tænde nervesystemet yderligere gennem post-activation potentiation (PAP).
 
 ### Arbejdssæt
 
-5x5 @ RPE 8
+- 5x5 @ RPE 8
 
 ## Afslutning på opvarmning til styrketræning
 

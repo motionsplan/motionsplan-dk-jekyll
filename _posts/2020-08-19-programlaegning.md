@@ -415,7 +415,7 @@ Og det ser ud til, at det er virkelig effektivt at tænke sin træning på den m
 
 Et styrketræningspas kan tage alt fra 45 minutter til et par timer alt efter, hvordan du griber det an. Hvis du holder dig til det anbefalede antal sæt (15-25 sæt), så bør du ikke bruge længere tid på den enkelte træning.
 
-Opvarmningen bør tage omkring 10-20 minutter, hvor en del af tiden bruges på dynamisk mobilitet, og så skal du naturligvis altid huske den specifikke opvarmning til de enkelte løft. Jeg har skrevet mere om [opvarmning til styrketræning her]({% link _posts/2019-10-25-opvarmning.md %}).
+Opvarmningen bør tage omkring 10-20 minutter, hvor en del af tiden bruges på dynamisk mobilitet, og så skal du naturligvis altid huske den specifikke opvarmning til de enkelte løft. Jeg har skrevet mere om [opvarmning til styrketræning her]({% link _posts/2019-10-25-opvarmning-styrketraening.md %}).
 
 ## Mål din fremgang
 

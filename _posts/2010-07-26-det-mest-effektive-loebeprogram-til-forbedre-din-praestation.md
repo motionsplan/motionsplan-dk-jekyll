@@ -71,7 +71,7 @@ De fleste vil kunne løbe 5 kilometer i et tempo, der ligger omkring den [anaero
 
 Hvis du vælger at bruge det effektive løbeprogram, så er der dog lige et par retningslinjer, du med fordel kan følge:
 
-- Lav en grundig [opvarmning]({% link _posts/2019-10-25-opvarmning.md %}) først.
+- Lav en grundig [opvarmning](/opvarmning/) først.
 - Lær din krops signaler at kende. Start lidt langsommere end du har lyst til på den første kilometer.
 - Løb de sidste fire kilometer i et konstant tempo.
 - Løb de sidste fire kilometer med et så højt tempo som muligt.
