@@ -102,7 +102,7 @@ Ved at have en struktur på opvarmningen, er der større sandsynlighed for, at m
 
 ## Eksempler på opvarmningsøvelser
 
-{% include video provider=”youtube” id=”tFHkPPN3oPc” %}
+{% include video provider="youtube" id="tFHkPPN3oPc" %}
 
 ## Referencer til opvarmning
 
