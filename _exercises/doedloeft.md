@@ -7,7 +7,7 @@ permalink: /doedloeft/
 toc: true
 redirect_from:
   - /oevelse/doedloeft/
-redirect_from: /node/55
+  - /node/55
 id: 20210819091800
 key: 20210819091800
 language: da
