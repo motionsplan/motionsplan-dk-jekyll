@@ -71,14 +71,37 @@ Kropstemperaturen skal helst øges til omkring 39°C, som er den mest effektive 
 
 Opvarmning kan med fordel følge disse tre faser:
 
-General opvarmning
-: Formålet i denne fase er at øge hjerterytmen, få blodet til at flyde hurtigere, smøre ledene. Der er mange måder, du kan gøre det på.
+### 1. Generel opvarmning
 
-Specifik opvarmning
-: Her skal du ramme nogle af de bevægelser, du skal lave i den efterfølgende træning. Fx nogle goblet squats, hvis du skal squatte bagefter. Armstrækninger på bænkdag osv. Her kan du også tænke på at arbejde med de begrænsninger eller udfordringer, du har ift. specifikke øvelser.
+Formålet i denne fase er at øge hjerterytmen, få blodet til at flyde hurtigere, smøre ledene. Der er mange måder, du kan gøre det på.
 
-CNS-priming
-: Her skal du gøre nervesystemet helt klar til den efterfølgende træning. Det gør du med nogle eksplosive og plyometriske øvelser. Typisk laver man sæt af 3-5 reps med 60-90 sekunders pause imellem, fx i en cirkel.
+### 2. Specifik opvarmning
+
+Her skal du ramme nogle af de bevægelser, du skal lave i den efterfølgende træning. Fx nogle goblet squats, hvis du skal squatte bagefter. Armstrækninger på bænkdag osv. Her kan du også tænke på at arbejde med de begrænsninger eller udfordringer, du har ift. specifikke øvelser.
+
+### 3. CNS-priming
+
+Her skal du gøre nervesystemet helt klar til den efterfølgende træning. Det gør du med nogle eksplosive og plyometriske øvelser. Typisk laver man sæt af 3-5 reps med 60-90 sekunders pause imellem, fx i en cirkel.
+
+## Derfor er det vigtigt at varme op
+
+Opvarmning har som skrevet mange positive virkninger på kroppen. Når du skal i gang med træning og sport, så kan du forvente følgende fordele.
+
+### 1. Nedsat skadesrisiko
+
+De fysiologiske effekter af opvarmningen er med til at nedsætte skadesrisikoen. Det sker fordi den øgede kropstemperatur gør at alle processerne i kroppen forløber mere effektivt. Fx forbedres nervesystemets evne til at sende og modtage signaler med helt op til 10%. Når nervesystemet fungerer bedre, så får du også bedre kontrol over kroppen. Samtidig fungerer musklerne og leddene bedre, og alle har formentlig oplevet at kroppens mobilitet er forbedret efter opvarmning. 
+
+### 2. Præstationen øges i træning og kamp
+
+De forbedrede fysiologiske og psykologiske effekter af opvarmningen er også med til at forbedre præstationen i den efterfølgende træning og kamp. Kroppen er simpelthen mere effektiv, og det kommer dig til gode.
+
+### 3. Forbedrer mobilitet og stabilitet
+
+Mobilitet og stabilitet forbedres som følge af den fysiologiske virkning på kroppen. Det gør at du bedre kan komme ud i yderpositioner og bevæge dig mere frit. Opvarmningen gør det fx lettere at komme ned i bundpositionen i squat eller nå bolden ude i hjørnet i badminton. Når du kan bevæge dig mere frit, så øges effekten af træningen.
+
+### 4. Øger hormonproduktionen
+
+Under opvarmningen øges produktionen af hormoner, som regulerer energibalancen. Du kan derfor udnytte kroppens energidepoter mere effektivt. Når du kan bruge energien mere effektivt, så kan du arbejde med højere intensitet og i længere tid.
 
 ## Forslag til struktur i opvarmningen
 
@@ -91,7 +114,7 @@ R2 — Reset
 : Her prøver vi at forbedre vores ledposition, fx med posturale øvelser med vejrtrækning, udspændingsøvelser eller andet, hvor vi kan få kroppen i en bedre position til at træne.
 
 R3 — Readiness
-: Her gør vi os klar gennem dynamisk opvarmning, hvor vi fysiologisk også skal blive klar til træningen. Vi smører leddene, gør nervesystemet klar og forbedre bevægeligheden. Vi forbereder folk til at træne.
+: Her gør vi os klar gennem dynamisk opvarmning, hvor vi fysiologisk også skal blive klar til træningen. Vi smører leddene, gør nervesystemet klar og forbedre bevægeligheden. Vi forbereder folk til at træne. Det kan både være dynamisk mobilitet eller større bevægelser, der sætter kredsløbet i gang. I denne fase skal der lidt sved på panden.
 
 R4 — Reactive
 : Vi arbejder med eksplosivitet og fyrer for alvor op for nervesystemet.
@@ -102,7 +125,35 @@ Ved at have en struktur på opvarmningen, er der større sandsynlighed for, at m
 
 ## Eksempler på opvarmningsøvelser
 
+[Fysiq](https://fysiq.dk/opvarmning-foer-traening-og-sport/) deler faserne i opvarmningen op lidt anderledes, men de har i denne video nogle meget gode forslag til opvarmningsøvelser.
+
 {% include video provider="youtube" id="tFHkPPN3oPc" %}
+
+## Eksempel på opvarmningsprogram
+
+Med udgangspunkt i R7-faserne fra Bulletproof Athlete så kunne et forslag til et generelt opvarmningsprogram, som kan bruges til træning og sport se sådan her ud.
+
+### R1 --- Release
+
+I denne fase bruger jeg ofte [foamrolling eller SMR]({% link _posts/2020-04-16-smr.md %}).
+
+### R2 --- Reset
+
+[Åndedrætsøvelser og vejrtrækningsøvelser]({% link _posts/2020-04-30-forbedr-din-udholdenhed-aandedraet.md %}), som gør dig klar til træningen. Det kunne også være specifikke øvelser, som forbedrer din evne til at komme i den rigtige position.
+
+### R3 --- Readiness
+
+I en god generel opvarmning så kan det være godt at lave noget bevægelse, hvor du **tilbagelægger en distance**. Det kan fx være forskellige bevægelser, mens du enten går eller løber. Du kan også lave øvelser på stedet, fx sprællemænd og andre hoppeformer.
+
+Jeg kan også godt lide at bruge øvelser til **dynamisk mobilitet**, fx øvelser med forskellige rotationer. Du kan se et bredt udsnit af øvelserne under [opvarmning til styrketræning]({% link _posts/2019-10-25-opvarmning-styrketraening.md %}).
+
+### R4 --- Reactive
+
+I denne fase skal du arbejde med eksplosive bevægelser. Det kan enten være forskellige sprintformer. Du kan også bruge spring og kast med fx medicinbold i denne fase.
+
+## Konklusion
+
+Opvarmning til træning og sport børe være en integreret del af din samlede træning. Du kan arbejde med mange gode elementer. Særligt opbygningen med generel opvarmning gående mod specifik opvarmning og med et eksplosivt element er rigtig god at holde sig for øje.
 
 ## Referencer til opvarmning
 
