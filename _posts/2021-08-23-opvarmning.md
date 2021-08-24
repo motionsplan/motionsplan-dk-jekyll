@@ -14,6 +14,11 @@ tags:
   - begynder
 last_modified_at: 2021-08-22T23:14:14Z
 toc: true
+faq:
+  - question: Hvad er en god opvarmning?
+    answer: En god opvarmning sørger for at have både en generel opvarmning, hvor du får varmet hele kroppen op. Der er også en specifik del, som gør dig helt klar til den aktivitet du skal lave efterfølgende. Endelig er der en eksplosiv del, der virkelig aktivererer nervesystemet. Tjek indlægget for en udbybning af alle punkterne.
+  - question: "Hvorfor skal man varme op?"
+    answer: Du skal varme op for at gøre dig klar til den efterfølgende aktivitet. Du hæver din kropstemperatur, så alle processerne i kroppen bliver mere effektiv. De mindsker risikoen for skader, men forbedrer også din præstation i den efterfølgende træning og sport.
 ---
 
 Opvarmning er vigtig for dine resultater af træning og din præstationsevne i sport og idræt. Lær her alle effekterne af opvarmning, og hvordan du varmer optimalt op.
@@ -150,6 +155,10 @@ Jeg kan også godt lide at bruge øvelser til **dynamisk mobilitet**, fx øvelse
 ### R4 --- Reactive
 
 I denne fase skal du arbejde med eksplosive bevægelser. Det kan enten være forskellige sprintformer. Du kan også bruge spring og kast med fx medicinbold i denne fase.
+
+## Ofte stillede spørgsmål om opvarmning
+
+{% include faq.html %}
 
 ## Konklusion
 
