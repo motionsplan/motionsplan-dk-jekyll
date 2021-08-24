@@ -153,7 +153,7 @@ I denne fase skal du arbejde med eksplosive bevægelser. Det kan enten være for
 
 ## Konklusion
 
-Opvarmning til træning og sport børe være en integreret del af din samlede træning. Du kan arbejde med mange gode elementer. Særligt opbygningen med generel opvarmning gående mod specifik opvarmning og med et eksplosivt element er rigtig god at holde sig for øje.
+Opvarmning til træning og sport bør være en integreret del af din samlede træning. Du kan arbejde med mange gode elementer. Særligt opbygningen med generel opvarmning gående mod specifik opvarmning og med et eksplosivt element er rigtig god at holde sig for øje.
 
 ## Referencer til opvarmning
 
