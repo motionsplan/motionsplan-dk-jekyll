@@ -227,11 +227,11 @@ Når man laver tempoløb arbejder man også med sin mentale styrke. Husk at løb
 
 ### Tærskel-intervaller
 
-Tærskel intervaller er ekstra lange intervaller på omkrign 6-8 minutter. Det kan fx være 4 x 8 minutters intervaller med 2 minutters pause. Tærskelintervallerne er lidt mere overskuelige end tempoløbene. Pausen bør højest være 2 minutter.
+Tærskel intervaller er ekstra lange intervaller på omkring 6-8 minutter. Det kan fx være 4 x 8 minutters intervaller med 2 minutters pause. Tærskelintervallerne er lidt mere overskuelige end tempoløbene. Pausen bør højest være 2 minutter.
 
 ### Tærskel-bakkeløb
 
-Tærskel-bakkeløb ligner tærskelintervaller. Du har imidlertid brug for at finde nogle bakker på 1000-1500 meters længde. Du løber roligt ned af bakken, mens du løber intensivt op ad bakken. Det er formentlig passende at løbe 4 omgange, hvilket giver omkrign 20-25 minutters intensiv træning.
+Tærskel-bakkeløb ligner tærskelintervaller. Du har imidlertid brug for at finde nogle bakker på 1000-1500 meters længde. Du løber roligt ned af bakken, mens du løber intensivt op ad bakken. Det er formentlig passende at løbe 4 omgange, hvilket giver omkring 20-25 minutters intensiv træning.
 
 ### Hyppighed og mængde
 
