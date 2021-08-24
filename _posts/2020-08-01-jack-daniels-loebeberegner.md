@@ -95,7 +95,7 @@ Jeg har også lavet en beregner, hvor du kan [omregne dine løbehastighed fra pa
 |-|-|-|-|-|
 | E | Easy Run | 59%-74% | 65-79%  | Forbedrer slagvolumen og nødvendige celleforandringer. Effekten af E-tempo er mere en funktion af tiden i zonen end af intensiteten. |
 | M | Maraton-tempo | 75-84% | 80-90% | Erfaring med maraton-tempoet |
-| T | Tærksel-træning | 83-88% | 88-92% | Forbedrer udholdenheden og evnen til at løbe i højt tempo. Skal føles "behageligt" rare - og i en hastighed, som du kan holde i 45-60 minutter |
+| T | Tærskel-træning | 83-88% | 88-92% | Forbedrer udholdenheden og evnen til at løbe i højt tempo. Skal føles "behageligt" rare - og i en hastighed, som du kan holde i 45-60 minutter |
 | I | Intervaltræning | 95-100% | 98-100% | Forbedrer den maksimale iltoptagelse. Interval-tempo er hårde, men det er ikke _all out_-løb. Typisk er intervallerne i denne zone fra 3-5 minutter. |
 | R | Repetitions | | | Typisk omkring dit 1500 meter tempo. Skal forbedre din hastighed og løbeøkonomi. Målet er at løbe afslappet samtidig med at du løber hurtigt, så du lærer kroppen at blive mere effektiv ved lavere hastigheder. |
 | | Strides | | | Kontrollerede accelerationer på omkring 80-100 meter (cirka 20 sekunder) for at hjælpe med løbeteknik. 60 sekunders pause mellem hvert stigningsløb. |
