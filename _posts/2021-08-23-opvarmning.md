@@ -1,7 +1,7 @@
 ---
 title: "Opvarmning før træning og sport"
 permalink: /opvarmning/
-excerpt: "Opvarmning før træning, idræt og sport har mange fordele. Her leder vi dig gennem de forskellige faser, så du kan præstere bedre og undgå skader."
+excerpt: "Opvarmning før træning, idræt og sport har mange fordele. Her leder vi dig gennem de forskellige faser i dit opvarmningsprogram, så du kan præstere bedre og undgå skader."
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1608138278545-366680accc66?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80
@@ -21,7 +21,7 @@ faq:
     answer: Du skal varme op for at gøre dig klar til den efterfølgende aktivitet. Du hæver din kropstemperatur, så alle processerne i kroppen bliver mere effektiv. De mindsker risikoen for skader, men forbedrer også din præstation i den efterfølgende træning og sport.
 ---
 
-Opvarmning er vigtig for dine resultater af træning og din præstationsevne i sport og idræt. Lær her alle effekterne af opvarmning, og hvordan du varmer optimalt op.
+Opvarmning er vigtig for dine resultater af træning og din præstationsevne i sport og idræt. Lær her alle effekterne af dit opvarmningsprogram, og hvordan du varmer optimalt op.
 
 Opvarmning skal gøre dig klar til den efterfølgende aktivitet. Du bør mindst varme op i 10-15 minutter, så du stille og roligt kommer i gang med din sport og idræt.
 
@@ -29,7 +29,7 @@ Men det er også en del af din træning, du skal prioritere højt. Det gælder b
  
 Her dykker vi ned, hvorfor opvarmningen er vigtig, og du får eksempler på, hvordan du kan varme op til idræt og sport.
 
-Vi har skrevet en mere specifik beskrivelse af [opvarmning til styrketræning](/opvarmning-styrketraening/). 
+Vi har skrevet en mere specifik beskrivelse af [opvarmning til styrketræning](/opvarmning-styrketraening/) og [opvarmning til løb](/opvarmning-loeb/).
 
 Men lad os først dykke ned i, hvorfor du skal varme op? Og hvorfor du formentlig skal bruge lidt længere tid på de indledende manøvrer til træningen, end du gør lige nu.
 
