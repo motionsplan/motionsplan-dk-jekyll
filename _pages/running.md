@@ -150,8 +150,6 @@ løbeguide
 
 løb 10 km begynder
 
-
-
 løbetræning opstart
 løbeøvelser
 boost dit løb
@@ -186,20 +184,6 @@ hiit træning løbebånd
 
 {% endcomment %}
 
-## Beregnere til løb
-
-{% assign site_posts = site.posts | where: "category", "Løb" | where: "tags", "beregner" | sort: "date" %}
-
-<div class="feature__wrapper">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
-
 ## Løbetests og kondition
 
 {% assign site_posts = site.posts | where: "tags", "konditionstest" | where: "tags", "løbetest" | where_exp: "post", "post.url != page.url" | sort: "date" %}
@@ -214,9 +198,13 @@ hiit træning løbebånd
 
 </div>
 
-## Løbesiden om løbetræning og intervalløb
+## Løbeprogrammer
 
-{% assign site_posts = site.posts | where: "category", "Løb" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+{% comment %}
+
+## Beregnere til løb
+
+{% assign site_posts = site.posts | where: "category", "Løb" | where: "tags", "beregner" | sort: "date" %}
 
 <div class="feature__wrapper">
 
@@ -228,9 +216,6 @@ hiit træning løbebånd
 
 </div>
 
-## Løbeprogrammer
-
-{% comment %}
 ## Løbeprogram
 
 Løbeprogram begyndere
@@ -248,6 +233,20 @@ løb 5 km på 25 min
 <div class="feature__wrapper">
 
 {% assign site_posts = site.posts | where: "category", "Løb" | where: "tags", "løbeprogram" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
+## Alle indlæg på løbesiden om løbetræning
+
+{% assign site_posts = site.posts | where: "category", "Løb" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+
+<div class="feature__wrapper">
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
