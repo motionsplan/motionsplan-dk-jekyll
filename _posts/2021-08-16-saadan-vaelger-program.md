@@ -10,6 +10,7 @@ category:
 tags:
   - program
   - træningsprogram
+  - begynder
 last_modified_at: 2021-08-16T10:14:14Z
 toc: true
 ---
@@ -38,7 +39,7 @@ Jeg kan rigtig godt selv lide fullbody splitprogrammer, hvor der er variation i 
 
 [Fullbody træningsprogram]({% link _posts/2009-05-18-hvordan-opbygger-jeg-et-helkropsprogram.md %}){: .btn .btn--large .btn--success }
 
-## 4-6 UGENTLIGE TRÆNINGER
+## 4-6 ugentlige træninger
 
 Hvis du gerne vil træne ofte, så er der endnu flere muligheder. Du kan sagtens med 4 ugentlige træninger stadig bruge et fullbody program hver gang. Fx er [Jakob Beermans Stærk-program]({% link _posts/2019-03-10-staerk-traeningsprogram.md %}) lavet op til 5 ugentlige træninger.
 
@@ -124,5 +125,9 @@ Langt de fleste får en god effekt af at sørge for at vælge et enkelt program 
 
 ## Referencer
 
+<details markdown="1">
+  <summary>Se referencer om styrketræningsprogrammer</summary>
+
 - Schoenfeld, B. J., Ogborn, D., & Krieger, J. W. (2016). Effects of resistance training frequency on measures of muscle hypertrophy: a systematic review and meta-analysis. Sports Medicine, 46(11), 1689-1697.
 - Ochi, E., Maruo, M., Tsuchiya, Y., Ishii, N., Miura, K., & Sasaki, K. (2018). Higher training frequency is important for gaining muscular strength under volume-matched training. Frontiers in Physiology, 9.
+</details>
