@@ -27,7 +27,7 @@ feature_row:
     btn_label: "Tjek prisen"
     btn_class: "btn--info"
     rel: sponsored nofollow noopener
-  - image_path: https://cdn6.tales.dk/00001/70394/cover.1612526420.jpg
+  - image_path: https://cdn6.tales.dk/00001/70394/cover.1622156561.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390
     title: "Løb som eliten"
     excerpt: "Claus Hechmanns bog LØB SOM ELITEN er handler om, hvordan du skal træne for at blive en hurtigere løber og få mest muligt ud af dit potentiale. Bogen indeholder fem specialdesignede 12-ugers programmer til distancerne 5 km, 10 km og helt op til maraton."
@@ -151,8 +151,6 @@ Grundlæggende kan man i løb lave træningszoner ud fra følgende faktorer.
 Ved at tænke løbetræningen ind i forskellige træningskategorier, kan man tage højde for [kroppens forskellige energisystemer]({% link _posts/2019-11-14-energisystemer-101.md %}), som er nødvendige for effekten af løbetræningen.
 
 Det kan være meget [effektivt at løbe fem kilometer med høj intensitet tre gange om ugen]({% link _posts/2010-07-26-det-mest-effektive-loebeprogram-til-forbedre-din-praestation.md %}), men på sigt kan du få endnu bedre resultater af dit løbeprogram ved at variere det tempo, du løber i. Når du varierer træningen, bliver den forhåbentlig også mere inspirerende.
-
-{% include feature_row type="left" %}
 
 ## Træningskategorier til løbsberegneren
 
@@ -402,5 +400,11 @@ Jeg synes godt det kan være lidt vanskeligt at bruge hastighederne, når jeg l�
 Jeg bliver også sommetider for ivrig og kommer til at løbe hurtigere på de lidt løbetider, som har til formål at sætte løbetempoet for en træning med lavere intensitet.
 
 I disse tilfælde kan jeg også godt lide at planlægge min løbetræning på baggrund af min [puls og pulszonerne]({% link _posts/2019-10-31-intensitet-puls.md %}).
+
+## Konklusion
+
+Du kan læse en [kritik af Jack Daniels udregninger her](http://jaredmcqueen.com/jackdanielsflaw.html).
+
+## Gode bøger om løbetræning
 
 {% include gallery id="feature_row" caption="Du kan købe bøgerne hos [Tales](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214){: rel='sponsored nofollow noopener' } eller hos [Saxo](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264){: rel='sponsored nofollow noopener' }." %}

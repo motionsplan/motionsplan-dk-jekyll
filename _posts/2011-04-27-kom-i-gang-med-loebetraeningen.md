@@ -221,7 +221,7 @@ Derfor bør du i dit løbeprogram angive din træningsplan som minutter.
 
 ## Hvordan laver jeg et godt løbeprogram?
 
-I min forståelse for at lave et godt løbeprogram, så har jeg været inspireret af Jack Daniels og Claus Heckmann.
+I min forståelse for at lave et godt løbeprogram, så har jeg været inspireret af Jack Daniels og Claus Hechmann.
 
 Når du skal lave et godt løbeprogram, så skal du altså tage højde for følgende.
 

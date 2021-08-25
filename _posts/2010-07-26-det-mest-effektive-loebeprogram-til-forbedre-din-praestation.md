@@ -20,13 +20,11 @@ Vi er i øjeblikket i færd med at undersøge, hvordan man kan lave et effektivt
 
 Med de få studier vi har set indtil nu, så står det helt klart at ens maksimale iltoptagelse ikke kan stå alene ift. at vurdere, hvor dygtig en løber man er. Det afgørende er hvor hurtigt man kan kan løbe, hvilket således også tager højde for [løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %}), aerob og anaerob kapacitet og naturligvis også iltoptagelsen.
 
-{% comment %}
-
 Vi kigger på, bl.a.:
 
-- [**Vmax-træning**](/vmax/). En hård træningsmetode til at komme til at arbejde tæt på sin maksimale løbekapacitet og forbedre den.
-- [**Jack Daniels formular til løb**](http://www.simpsonassociatesinc.com/runningmath1.htm). Han udregner V<sub>DOT</sub>, som ud over iltoptagelsen tager højde for ens løbeøkonomi. Den er udgangspunkt for udregningerne på [loebesiden.dk](https://loebesiden.dk/beregninger/). Du kan læse en [kritik af Jack Daniels udregninger her](http://jaredmcqueen.com/jackdanielsflaw.html).
-- [**vVO<sub>2</sub>-max**](https://www.brianmac.co.uk/vvo2max.htm). En ret enkel måde at finde det tempo, der ligger tæt på ens maksimale formåen.
+- **[Vmax-træning](/vmax/)**. En hård træningsmetode til at komme til at arbejde tæt på sin maksimale løbekapacitet og forbedre den.
+- **[Jack Daniels formular til løb]({% link _posts/2020-08-01-jack-daniels-loebeberegner.md %})**. Han udregner V<sub>DOT</sub>, som ud over iltoptagelsen tager højde for ens løbeøkonomi. Den er udgangspunkt for udregningerne i vores [løbsberegner]({% link _posts/2020-08-01-jack-daniels-loebeberegner.md %}).
+- **[vVO<sub>2</sub>-max]({% link _posts/2020-08-08-billat.md %})**. En ret enkel måde at finde det tempo, der ligger tæt på ens maksimale formåen.
 
 Vi har tidligere beskæftiget os med, at intensiteten af ens træning har stor betydning for ens præstationsmæssige udbytte. Noget tyder på at:
 
@@ -49,7 +47,7 @@ Det mest enkle og effektive træningsprogram, man kan forestille sig er utrolig 
 
 **5 km 3 gange om ugen i de højest mulige tempo.**
 
-Det behøver faktisk ikke at være mere kompliceret. Utalle undersøgelser understøtter effektiviteten af dette løbeprogram.
+Det behøver faktisk ikke at være mere kompliceret.
 
 ## Hvorfor er det et effektivt løbeprogram?
 
@@ -71,16 +69,13 @@ De fleste vil kunne løbe 5 kilometer i et tempo, der ligger omkring den [anaero
 
 Hvis du vælger at bruge det effektive løbeprogram, så er der dog lige et par retningslinjer, du med fordel kan følge:
 
-- Lav en grundig [opvarmning](/opvarmning/) først.
-- Lær din krops signaler at kende. Start lidt langsommere end du har lyst til på den første kilometer.
-- Løb de sidste fire kilometer i et konstant tempo.
-- Løb de sidste fire kilometer med et så højt tempo som muligt.
+- Lav en [grundig opvarmning](/opvarming/) først. Tjek vores [specifikke løbeopvarmning]({% link _posts/2021-08-23-opvarmning-loeb.md %}).
+- Start lidt langsommere end du har lyst til på den første kilometer.
+- Løb de sidste fire kilometer i et konstant tempo. Tempoet skal være så højt som muligt.
 
-Det er altså et meget effektivt løbeprogram. Du bruger 3 gange 20-30 minutter om ugen på programmet, og du får et virkelig stort udbytte. Løbeprogrammet er altså virkelig effektivt, når du kigger på forholdet mellem indsats og udbytte.
+Det er et meget effektivt løbeprogram. Du bruger 3 gange 30-40 minutter om ugen på programmet inklusive opvarmning og udbyttet er virkelig stort. Løbeprogrammet er altså virkelig effektivt, når du kigger på forholdet mellem indsats og udbytte.
 
 Med programmet er der heller ingen grund til avancerede skemaer, fordi opskriften er så enkel.
-
-{% endcomment %}
 
 ## Konklusion
 

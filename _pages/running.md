@@ -71,15 +71,6 @@ løbetræning for begynder
 løbetræningsprogram
 starte med at løbe
 
-## Løbeprogram
-
-Løbeprogram 5 km
-Lær at løbe 5 km
-Løbeprogram begyndere
-begynder løbeprogram
-løbe hver dag
-løbeplan
-
 ## Løb hurtigere
 
 {% endcomment %}
@@ -156,14 +147,16 @@ pandelampe løb
 ***
 
 løbeguide
-løbetræning 5 km
+
+løb 10 km begynder
+
+
+
 løbetræning opstart
 løbeøvelser
 boost dit løb
 bliv en bedre løber
 langdistanceløb
-løb 10 km begynder
-løb 5 km på 25 min
 løbeprogrammer
 løberknæ udstrækning
 løbetempo
@@ -237,12 +230,27 @@ hiit træning løbebånd
 
 ## Løbeprogrammer
 
+{% comment %}
+## Løbeprogram
+
+Løbeprogram begyndere
+begynder løbeprogram
+
+Løbeprogram 5 km
+Lær at løbe 5 km
+
+løbe hver dag
+løbeplan
+løbetræning 5 km
+løb 5 km på 25 min
+{% endcomment %}
+
 <div class="feature__wrapper">
 
 {% assign site_posts = site.posts | where: "category", "Løb" | where: "tags", "løbeprogram" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
 
 {% if site_posts.size > 0 %}
-  {% for post in site_posts limit:16 %}
+  {% for post in site_posts %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
