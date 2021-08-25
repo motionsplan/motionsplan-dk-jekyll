@@ -13,12 +13,14 @@ tags:
 category:
   - Kondition
   - Løb
-last_modified_at: 2013-02-13T22:06:29Z
+last_modified_at: 2021-02-13T22:06:29Z
 ---
 
-Vi er i øjeblikket i færd med at undersøge, hvordan man kan lave et effektivt løbeprogram og strukturere sin løbetræning på for at blive en bedre løber. Hvis man gerne vil lave et effektivt løbeprogram skal man tage højde for iltoptagelsen, løbeøkonomien og udholdenheden.
+Her kan du læse mere om, hvordan man kan lave et effektivt løbeprogram og strukturerer sin løbetræning for at blive en bedre løber. Hvis man gerne vil lave et effektivt løbeprogram skal man tage højde for iltoptagelsen, løbeøkonomien og udholdenheden.
 
-Med de få studier vi har set indtil nu, så står det helt klart at ens maksimale iltoptagelse ikke kan stå alene ift. at vurdere, hvor dygtig en løber man er. Det afgørende er hvor hurtigt man kan kan løbe, hvilket således også tager højde for [løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %}), aerob og anaerob kapacitet og naturligvis også iltoptagelsen.
+For at blive en bedre løber, så skal du træne både den maksimale iltoptagelse, den anaerobe tærskel og din udholdenhed. Men dit træningsprogram skal også udfordre din [løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %}) og løbeøkonomi. Derfor kan løbetræning være relativt kompleks.
+
+***
 
 Vi kigger på, bl.a.:
 
@@ -29,7 +31,7 @@ Vi kigger på, bl.a.:
 Vi har tidligere beskæftiget os med, at intensiteten af ens træning har stor betydning for ens præstationsmæssige udbytte. Noget tyder på at:
 
 - [4 minutters hård intervaltræning var mere effektivt end en times kontinuerlig løb](/artikel/4-minutters-haard-intervaltraening-bedre-end-en-times-moderat-loeb). Djævelsk hårdt, men tilsyneladende effektivt.
-- [Intensiteten har betydning for forbedring af VO<sub>2</sub>max](/intensitet-vo2max/). 4 x 4 minutters løb på 90-95% af maksimale iltoptagelse var mere effektivt end 24 minutter på 85% af VO2max. Men det var tilsyneladende også mere effektivt end 45 x 15 sekunders gentagelser på 90-95% af V02max.
+- [Intensiteten har betydning for forbedring af VO<sub>2</sub>max](/intensitet-vo2max/). 4 x 4 minutters løb på 90-95% af maksimale iltoptagelse var mere effektivt end 24 minutter på 85% af VO<sub>2</sub>max. Men det var tilsyneladende også mere effektivt end 45 x 15 sekunders gentagelser på 90-95% af VO<sub>2</sub>max.
 
 Det kunne jo være interessant at få sammenlignet nogle af de meget populære trænings- og undersøgelsesprotokoller.
 
@@ -43,7 +45,7 @@ Når du løber med høj intensitet i træningen, så får du både effekt på de
 
 Du kan udnytte [intervaltræning til løb]({% link _posts/2020-06-15-intervallob.md %}), hvis du gerne vil have [dit kondital til at stige]({% link _posts/2020-06-23-kondital-hvor-hurtigt.md %}), men du kan faktisk også gøre det meget enkelt ved at finde en gylden mellemvej mellem løbetræning med lav intensitet og løbetræning med høj intensitet.
 
-Det mest enkle og effektive træningsprogram, man kan forestille sig er utrolig effektivt. Her er det effektive løbeprogram (via [motion-online.dk](http://web.archive.org/web/20110606134040/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/det_mest_effektive_loebeprogram!/){:rel="nofollow"}):
+Det mest enkle og effektive løbetræningsprogram, man kan forestille sig er utrolig effektivt. [Motion-online.dk](http://web.archive.org/web/20110606134040/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/det_mest_effektive_loebeprogram!/){:rel="nofollow"} foreslår dette er det effektive løbeprogram:
 
 **5 km 3 gange om ugen i de højest mulige tempo.**
 
@@ -53,17 +55,9 @@ Det behøver faktisk ikke at være mere kompliceret.
 
 Der er flere grunde til, at dette program både er enkelt og et godt løbeprogram.
 
-### Træningsfrekvens
-
-2 træninger om ugen er bedre end 1 træning. 3 træninger om ugen er bedre end 2 træninger. 4 træninger om ugen er kun lidt bedre end 3 træninger.
-
-### Træningsmængde
-
-De fleste løber 5 km på mellem 17 minutter og 30 minutter. Typisk er dette tidsrum nok til, at kroppen kan nå at tilpasse sig træningen. Det er altså tilstrækkelig træningsmængde til at kunne få kroppen til at respondere på træningen.
-
-### Intensiteten
-
-De fleste vil kunne løbe 5 kilometer i et tempo, der ligger omkring den [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}). Træning med denne intensitet kan være med til at flytte den [maksimale iltoptagelse]({% link _posts/2019-11-04-kondital-og-tabel.md %}) og [forbedre løbeøkonomien]({% link _posts/2019-12-16-running-economy.md %}).
+- **Træningsfrekvens**. 2 træninger om ugen er bedre end 1 træning. 3 træninger om ugen er bedre end 2 træninger. 4 træninger om ugen er kun lidt bedre end 3 træninger.
+- **Træningsmængde**. De fleste løber 5 km på mellem 17 minutter og 30 minutter. Typisk er dette tidsrum nok til, at kroppen kan nå at tilpasse sig træningen. Det er altså tilstrækkelig træningsmængde til at kunne få kroppen til at respondere på træningen.
+- **Intensiteten**. De fleste vil kunne løbe 5 kilometer i et tempo, der ligger omkring den [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}). Træning med denne intensitet kan være med til at flytte den [maksimale iltoptagelse]({% link _posts/2019-11-04-kondital-og-tabel.md %}) og [forbedre løbeøkonomien]({% link _posts/2019-12-16-running-economy.md %}).
 
 ## Retningslinjer for det effektive løbeprogram
 
@@ -85,9 +79,9 @@ Du kan lave programmet i en måned og reteste for at se, om ikke også programme
 
 Hvis du gerne vil opbygge din træning på en lidt anden måde, så kan du også følge denne formular, hvor du stadig træner tre gange om ugen:
 
-1. [Intervalløb]({% link _posts/2020-06-15-intervallob.md %})
-2. Tempotur - fx 5 kilometer efter disse retningslinjer
-3. En lidt længere tur med lidt lavere intensitet
+- **Dag 1**: [Intervalløb]({% link _posts/2020-06-15-intervallob.md %})
+- **Dag 2**: Tempotur - fx 5 kilometer efter disse retningslinjer
+- **Dag 3**: En lidt længere tur med lidt lavere intensitet
 
 Det er også en effektiv formular for et løbeprogram, men så begynder du også at bruge lidt mere tid på det.
 
