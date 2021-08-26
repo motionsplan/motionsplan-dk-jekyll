@@ -86,6 +86,10 @@ Men lad os dykke ned i løbeprogrammet til 5 kilometer med det samme her. Progra
 - **Fase 3**. Vi fokuserer på at **forbedre udholdenheden** og den **anaerobe tærskel**.
 - **Fase 4**. I denne specifikke fase målretter vi træningen mod at blive endnu hurtigere på 5 km og skubbe til den maksimale iltoptagelse.
 
+Når du læser et træningsprogram, så husk at det skal passe ind i din hverdag. Dette program er et generelt program, som du naturligvis kan have behov for at justere til, så det passer til dig.
+
+[Skriv til {{ site.email }} og få tilsendt program](mailto:{{ site.email }}){: .btn .btn--large .btn--success }
+
 ## Ofte stillede spørgsmål om 5 km
 
 {% include faq.html %}

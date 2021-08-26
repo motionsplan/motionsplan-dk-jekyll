@@ -32,6 +32,11 @@ Målet for en løbeplan er ofte forskellige distancer. Her får du et overblik o
 
 ## Løbetræning halvmarathon
 
+[Løberen](https://www.loberen.dk/Halvmaraton) har et godt eksempel på, hvordan du forbereder dig til halvmaraton.
+
+[Få halvmaraton løbeprogram](https://www.loberen.dk/Halvmaraton){: .btn .btn--large .btn--warning }
+
+{% comment %}
 ## Halvmaraton træningsprogram
 
 ## Halvmarathon træningsprogram 8 uger
@@ -41,3 +46,4 @@ Målet for en løbeplan er ofte forskellige distancer. Her får du et overblik o
 ## Halvmaraton løbeprogrammer
 
 ## Restitution efter halvmarathon
+{% endcomment %}

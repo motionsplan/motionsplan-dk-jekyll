@@ -37,3 +37,7 @@ På listen herunder kan du finde et begynder løbeprogram.
 {% endif %}
 
 ## 10 km løbetræningsprogram
+
+[Løberen](https://www.loberen.dk/sites/default/files/10_km_paa_12_uger.pdf) har et forslag til et 12 ugers træningsprogram, som kan gøre dig klar til at løbe 10 km.
+
+[Få løbeprogram 10 km](https://www.loberen.dk/sites/default/files/10_km_paa_12_uger.pdf){: .btn .btn--large .btn--warning }

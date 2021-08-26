@@ -3,7 +3,7 @@ layout: single
 permalink: /loebesiden/
 title: "Løbesiden: Alt om løb, løbetræning og løbeprogrammer"
 author_profile: true
-excerpt: &excerpt "Guide til løbetræning. Her på løbesiden kan du finde nyttig viden om løb til 5 km, 10 km, halvmaraton og maraton. Vælg et effektivt løbeprogram. Lær om pulstræning, intervalløb og intervaltræning."
+excerpt: "Guide til løbetræning. Her på løbesiden kan du finde nyttig viden om løb til 5 km, 10 km, halvmaraton og maraton. Vælg et effektivt løbeprogram. Lær om pulstræning, intervalløb og intervaltræning."
 header:
   overlay_image: https://images.unsplash.com/photo-1581889470536-467bdbe30cd0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1990&q=80
   teaser: https://images.unsplash.com/photo-1581889470536-467bdbe30cd0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
@@ -11,9 +11,11 @@ header:
   actions:
     - label: "<i class='fas fa-download'></i> Hvad er min hastighed?"
       url: "/hastighed/"
+    - label: "<i class='fas fa-download'></i> Løbeprogrammer"
+      url: "/loebeprogrammer/"
 classes: wide
 feature_row_excerpt:
-  - excerpt: *excerpt
+  - excerpt: "Guide til løbetræning. Her på løbesiden kan du finde nyttig viden om løb til [5 km](/loebeprogram-5km/), [10 km](/loebeprogram-10km/), [halvmaraton](/loebeprogram-halvmaraton/) og [maraton](/loebeprogram-maraton/). Vælg et effektivt [løbeprogram](/loebeprogrammer/). Lær om pulstræning, intervalløb og intervaltræning."
 feature_row_feature:
   - image_path: https://images.unsplash.com/photo-1529795533870-ea8020391255?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
     alt: "Løbesidens Løbsberegner"
