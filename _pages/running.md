@@ -3,7 +3,7 @@ layout: single
 permalink: /loebesiden/
 title: "Løbesiden: Alt om løb, løbetræning og løbeprogrammer"
 author_profile: true
-excerpt: &excerpt "Guide til løbetræning. Her på løbesiden kan du finde nyttig viden om løb til 5 km, 10 km, halvmaraton og maraton. Vælg et effektivt løbeprogram. Lær om pulstræning, intervalløb og intervaltræning."
+excerpt: "Guide til løbetræning. Her på løbesiden kan du finde nyttig viden om løb til 5 km, 10 km, halvmaraton og maraton. Vælg et effektivt løbeprogram. Lær om pulstræning, intervalløb og intervaltræning."
 header:
   overlay_image: https://images.unsplash.com/photo-1581889470536-467bdbe30cd0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1990&q=80
   teaser: https://images.unsplash.com/photo-1581889470536-467bdbe30cd0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
@@ -11,9 +11,11 @@ header:
   actions:
     - label: "<i class='fas fa-download'></i> Hvad er min hastighed?"
       url: "/hastighed/"
+    - label: "<i class='fas fa-download'></i> Løbeprogrammer"
+      url: "/loebeprogrammer/"
 classes: wide
 feature_row_excerpt:
-  - excerpt: *excerpt
+  - excerpt: "Guide til løbetræning. Her på løbesiden kan du finde nyttig viden om løb til [5 km](/loebeprogram-5km/), [10 km](/loebeprogram-10km/), [halvmaraton](/loebeprogram-halvmaraton/) og [maraton](/loebeprogram-maraton/). Vælg et effektivt [løbeprogram](/loebeprogrammer/). Lær om pulstræning, intervalløb og intervaltræning."
 feature_row_feature:
   - image_path: https://images.unsplash.com/photo-1529795533870-ea8020391255?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
     alt: "Løbesidens Løbsberegner"
@@ -70,15 +72,6 @@ løbetræning begynder
 løbetræning for begynder
 løbetræningsprogram
 starte med at løbe
-
-## Løbeprogram
-
-Løbeprogram 5 km
-Lær at løbe 5 km
-Løbeprogram begyndere
-begynder løbeprogram
-løbe hver dag
-løbeplan
 
 ## Løb hurtigere
 
@@ -156,14 +149,14 @@ pandelampe løb
 ***
 
 løbeguide
-løbetræning 5 km
+
+løb 10 km begynder
+
 løbetræning opstart
 løbeøvelser
 boost dit løb
 bliv en bedre løber
 langdistanceløb
-løb 10 km begynder
-løb 5 km på 25 min
 løbeprogrammer
 løberknæ udstrækning
 løbetempo
@@ -193,20 +186,6 @@ hiit træning løbebånd
 
 {% endcomment %}
 
-## Beregnere til løb
-
-{% assign site_posts = site.posts | where: "category", "Løb" | where: "tags", "beregner" | sort: "date" %}
-
-<div class="feature__wrapper">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
-
 ## Løbetests og kondition
 
 {% assign site_posts = site.posts | where: "tags", "konditionstest" | where: "tags", "løbetest" | where_exp: "post", "post.url != page.url" | sort: "date" %}
@@ -221,9 +200,13 @@ hiit træning løbebånd
 
 </div>
 
-## Løbesiden om løbetræning og intervalløb
+## Løbeprogrammer
 
-{% assign site_posts = site.posts | where: "category", "Løb" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+{% comment %}
+
+## Beregnere til løb
+
+{% assign site_posts = site.posts | where: "category", "Løb" | where: "tags", "beregner" | sort: "date" %}
 
 <div class="feature__wrapper">
 
@@ -235,14 +218,40 @@ hiit træning løbebånd
 
 </div>
 
-## Løbeprogrammer
+## Løbeprogram
+
+Løbeprogram begyndere
+begynder løbeprogram
+
+Løbeprogram 5 km
+Lær at løbe 5 km
+
+løbe hver dag
+løbeplan
+løbetræning 5 km
+løb 5 km på 25 min
+{% endcomment %}
 
 <div class="feature__wrapper">
 
 {% assign site_posts = site.posts | where: "category", "Løb" | where: "tags", "løbeprogram" | where_exp: "post", "post.url != page.url" | sort: "last_modified_at" | reverse %}
 
 {% if site_posts.size > 0 %}
-  {% for post in site_posts limit:16 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
+## Alle indlæg på løbesiden om løbetræning
+
+{% assign site_posts = site.posts | where: "category", "Løb" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
