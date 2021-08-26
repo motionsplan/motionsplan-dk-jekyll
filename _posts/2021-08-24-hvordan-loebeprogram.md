@@ -78,7 +78,7 @@ Når du træner udholdenhedstræning, så skal intensiteten være med en pulsbel
 
 Hvis man fx bruger [Borg-skalaen]({% link _posts/2020-06-18-borg-skala.md %}), så skal tempoet med andre ord være i "snakketempo". Du skal finde et behageligt tempo, hvor du kan føre en samtale undervejs i længere sætninger. Tempoet er 30-60 sekunder/km langsommere end det såkaldte maratontempo.
 
-Når du træner udholdenhedstræning vil det typisk være en tur på 1-2 timer. DU kan opbygge turen, så du starter lidt langsommere på omkring 60% pulsbelastning og bygger op mod 80% i slutningen.
+Når du træner udholdenhedstræning vil det typisk være en tur på 1-2 timer. Du kan opbygge turen, så du starter lidt langsommere på omkring 60% pulsbelastning og bygger op mod 80% i slutningen.
 
 I starten af turen sparer du sparer du lidt på glykogendepoterne, så du kan fortsætte træningen i længere tid. Efterhånden tømmer du med stigende intensitet glykogendepoterne og forbedrer din evne til at forbrænde fedt.
 
@@ -186,7 +186,7 @@ Legemomentet kan ende i for hård træning, der kræver ekstra lang restitutions
 
 ### Bakketræning
 
-Du kan også træne den maksimale iltoptagelse med bakketræning. Du har brug for en bakke, hvor du kan løbe opad i 2-5 minutter i arbejdsperioderne. Vær opmærksom på, at du du ikke kommer til at løbe for hurtigt, da det er let at oparbejde for meget mælkesyre i musklerne, når man løber bakkeintervaller.
+Du kan også træne den maksimale iltoptagelse med bakketræning. Du har brug for en bakke, hvor du kan løbe opad i 2-5 minutter i arbejdsperioderne. Vær opmærksom på, at du ikke kommer til at løbe for hurtigt, da det er let at oparbejde for meget mælkesyre i musklerne, når man løber bakkeintervaller.
 
 ### Hyppighed og mængde
 
@@ -215,16 +215,16 @@ Når du arbejder med hastighedsteknik, så kan du forbedre løbekadencen og kraf
 
 Når du arbejder med sprint- og hastighedstræning, så skal du løbe med høj intensitet. Hvis du træner til længere distancer, så foregår hastighedstræning måske i 400-1500 meters tempo, mens det ved kortere løbedistancer måske foregår ved 100-800 meters tempo.
 
-Når du træner kortere sprints og bakkesprints, så behøver du faktisk ikke at ramme 100%, men kan få rigtig god effekte ved gentagne intervaller der ligger omkring 95-98% af din maksimale hastighed, så længe du sørger for at holde høj kvalitet i løbene.
+Når du træner kortere sprints og bakkesprints, så behøver du faktisk ikke at ramme 100%, men kan få rigtig god effekt ved gentagne intervaller der ligger omkring 95-98% af din maksimale hastighed, så længe du sørger for at holde høj kvalitet i løbene.
 
 Du kan bruge bakker til at sætte mere eller mindre fokus på forskellige aspekter ved din hurtighedstræning:
 
 - **Bakke med svag hældning nedad**. Det er rigtig hårdt for kroppen at løbe hurtigt nedad, men hvis du er trænet op til det, så kan du arbejde med højere kadence og skridtlængde, hvilket kan være med til at gøre kroppen klar til at løbe med højere hastigheder. Du skal imidlertid virkelig være opmærksom på, at det kan give relativt alvorligt DOMS.
 - **Bakke opad**. Du kan træne bakkesprints, hvor træningen får karakter af styrketræning, så du bliver nødt til at rekruttere flere muskelfibre. Fordelen ved at løbe opad bakke er også, at det du reducerer den exentriske komponent af træningen, hvilket betyder, at du bedre kan restituere fra træningen igen.
 
-Typisk tilrettelægger du hastighedstræning i intervaller med kort varighed, hvor du skifter mellem arbejde og hvile. Typisk løber du ikke længere end 50-200 meter i arbejdsperioderne, mens du fx løber samme distance i langsomt tempo. Du kan variere længden af pausen alt efter det nøjagtige formål.
+Typisk tilrettelægger du hastighedstræning i intervaller med kort varighed, hvor du skifter mellem arbejde og hvile. Arbejdsperioderne vil være omkring 50-200 meter, mens du fx løber samme distance i langsomt tempo i pauserne. Du kan variere længden af pausen alt efter det nøjagtige formål.
 
-Antallet af intervaller vil typisk ligge mellem 6-12 gentagelser.
+Antallet af intervaller kan være mellem 6-12 gentagelser.
 
 Når du laver hastighedstræning, så kan du også bruge pulsmåleren til at være med til at bestemme længden af pausen. Du kan have et mål om, at pulsen skal nå under fx 120 slag/min inden næste interval løbes, så du ikke risikerer at holde for korte pauser og derved ikke få det optimale udbytte ud af træningen.
 
@@ -233,13 +233,13 @@ Husk at varme grundigt op, når du inkluderer sprinttræning i dit træningsprog
 Du kan udføre intervallerne på forskellige måder:
 
 - **Stigningsløb**. Hvis du laver 100 meter stigningsløb, så øger du progressivt dit tempo til dit maksimale tempo og holder det tempo de sidste 50 meter. Fordelen ved stigningsløb er, at de er relativt skånsomme.
-- **Maksimalt løb**.  Hvis du gerne vil forbedre din muskelstyrke, så skal du løbe hurtigere fra start.
+- **Maksimalt løb**.  Hvis du gerne vil forbedre din muskelstyrke, så kan du løbe hurtigere fra start, så du får accelerationen med.
 
 Studier har vist, at [eksplosiv træning er med til at forbedre løbehastigheden og løbeøkonomien]({% link _posts/2019-12-16-running-economy.md %}), men du kan også inkludere styrketræning i dit løbeprogram for at forbedre løbehastigheden.
 
 ### Hyppighed
 
-Sprint- og hastighedstræning bør formentlig kun udføres en gang om ugen, og der skal være mulighed for en roligere dag de følgende dage for at restituere bedst muligt.
+Sprint- og hastighedstræning bør formentlig kun udføres en gang om ugen, og der skal være mulighed for en roligere dag efterfølgende, så du kan restituere bedst muligt.
 
 Træningen med sprinttræning kan udgøre omkring 1% af ugens samlede træningsmængde i kilometer.
 
@@ -273,7 +273,7 @@ Når du træner, så har kroppen brug for tid til at bygge sig op igen bagefter.
 
 Det kan tilsyneladende betale sig at lave _aktiv_ restitution frem for _passiv_ restitution. Det kan du bruge en langsommere løbetur til, men du kan også vælge [andre former for restitutionstræning]({% link _posts/2020-05-28-restitutionstid-alder.md %}).
 
-Nogle af de ting tænker restitutionstræning kan hjælpe med er at:
+Nogle af de ting restitutionstræning kan hjælpe med er at:
 
 - Øge blodgennemstrømningen i musklerne, så affaldsstoffer fjernes og der tilføres stoffer, så vævet kan bygge sig selv op.
 - Enzymproduktionen og andre processer kører hurtigere, når kroppen aktiveres.

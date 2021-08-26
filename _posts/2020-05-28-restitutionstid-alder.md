@@ -52,7 +52,7 @@ Hvis du rammer din næste træning, når kroppen lige netop har bygget sig stær
 
 Superkompensation er direkte relateret til kroppens adaptationsevne. I nedenstående figur kan vi tage muskelstyrke som et eksempel. Du går i vægtlokalet og træningen bryder dig langsomt men sikkert ned. Så går du ud af vægtlokalet, og så begynder restitutionsfasen.
 
-Langsomt vil du du blive stærkere indtil du er oppe på samme niveau som før træningen, men kroppen er ikke helt tilfreds endnu. Den tilpasser sig endnu mere, og du rammer superkompensationsfasen.
+Langsomt vil du blive stærkere indtil du er oppe på samme niveau som før træningen, men kroppen er ikke helt tilfreds endnu. Den tilpasser sig endnu mere, og du rammer superkompensationsfasen.
 
 {% include figure image_path="https://miro.medium.com/max/2702/0*usKRMQYeTe97f6cE.jpg" caption="Superkompensation foregår når kroppen genopbygger sig til et højere niveau end seneste træning" alt="Superkompensation og teori" %}
 
