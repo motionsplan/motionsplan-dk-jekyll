@@ -102,7 +102,7 @@ Jeg har også lavet en beregner, hvor du kan [omregne dine løbehastighed fra pa
 
 Mange taler om en 80/20 plan for løbetræningen. Det betyder, at omkring 80% af træningen skal være _easy run_ med E-tempo, mens 20% af træningen skal være træning med høj intensitet. Vi har skrevet meget mere om, [hvordan man laver et løbetræningsprogram]({% link _posts/2021-08-24-hvordan-loebeprogram.md %}), som du kan lade dig inspirere af til sammensætningen af din træning.
 
-Når jeg laver et løbeprogram, så tager jeg udgangspunkt i denne skabelon, som du er velkommen til at bruge også.
+Når jeg laver et løbeprogram, så tager jeg udgangspunkt i denne skabelon, som du er velkommen til at bruge også. Vi har skrevet meget mere om, [hvordan man laver et løbetræningsprogram]({% link _posts/2021-08-24-hvordan-loebeprogram.md %}), som du kan lade dig inspirere af til sammensætningen af din træning.
 
 {% include feature_row id="template" type="left" %}
 
