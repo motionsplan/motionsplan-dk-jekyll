@@ -52,6 +52,8 @@ Lad os som et tilfældigt eksempel sige, at din max-puls er 200 og din hvilepuls
 
 Ofte tager man bare intensiteten som arbejdspulsen i forhold til max-pulsen. Denne metode giver naturligvis den udfordring, at intensiteten i hvile bliver beregnet til ca. 25-35%. I dette eksempel er hvilepulsen jo 60.
 
+{% include calculate-hr-intensity-maxpuls.html %}
+
 Bruger du kun max-pulsen, regner du i princippet ud en træningszone, der går fra 0 slag i minuttet til 200 slag i minuttet. Der er ikke så mange mennesker, der har en hvilepuls på 0. Derfor opererer man også med begrebet _pulsreserven_.
 
 ## Intensitet i forhold til pulsreserven
@@ -75,8 +77,6 @@ Når intensiteten beregnes på denne måde, svarer procenttallet til den relativ
 {% include calculate-hr-intensity-pulsreserve.html %}
 
 {% include calculate-hr-work-pulsreserve.html %}
-
-{% include calculate-hr-intensity-maxpuls.html %}
 
 ## Beregning af Karvonens pulszoner og intensiteter
 
