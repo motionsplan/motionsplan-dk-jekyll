@@ -100,7 +100,7 @@ Jeg har også lavet en beregner, hvor du kan [omregne dine løbehastighed fra pa
 | R | Repetitions | | | Typisk omkring dit 1500 meter tempo. Skal forbedre din hastighed og løbeøkonomi. Målet er at løbe afslappet samtidig med at du løber hurtigt, så du lærer kroppen at blive mere effektiv ved lavere hastigheder. |
 | | Strides | | | Kontrollerede accelerationer på omkring 80-100 meter (cirka 20 sekunder) for at hjælpe med løbeteknik. 60 sekunders pause mellem hvert stigningsløb. |
 
-Mange taler om en 80/20 plan for løbetræningen. Det betyder, at omkring 80% af træningen skal være _easy run_ med E-tempo, mens 20% af træningen skal være træning med høj intensitet.
+Mange taler om en 80/20 plan for løbetræningen. Det betyder, at omkring 80% af træningen skal være _easy run_ med E-tempo, mens 20% af træningen skal være træning med høj intensitet. Vi har skrevet meget mere om, [hvordan man laver et løbetræningsprogram]({% link _posts/2021-08-24-hvordan-loebeprogram.md %}), som du kan lade dig inspirere af til sammensætningen af din træning.
 
 Når jeg laver et løbeprogram, så tager jeg udgangspunkt i denne skabelon, som du er velkommen til at bruge også.
 
