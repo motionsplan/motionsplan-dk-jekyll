@@ -9,6 +9,7 @@ header:
   caption: *title
 category:
   - Løb
+  - Løbeprogrammer
 tags:
   - løbeprogram
   - træningsprogram
