@@ -9,6 +9,7 @@ header:
   caption: Watt max-testen på cykelergometer. Konditionstest på cykel.
 category:
   - Kondition
+  - Cykling
 tags:
   - konditionstest
   - cykel

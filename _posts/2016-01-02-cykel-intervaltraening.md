@@ -8,6 +8,7 @@ header:
   caption: *title
 category:
   - Kondition
+  - Cykling
 tags:
   - konditionstræning
   - cykling

@@ -83,6 +83,24 @@ Læs mere om [cardio træning](/cardio-traening-workout/) og [konditionstræning
 
 </div>
 
+## Cykling
+
+Cykling bliver mere og mere populært. Vi har samlet masser indhold om cykling og tests, som du kan bruge, hvis cykling er din primære træningsform.
+
+Læs mere om [cykling og cykeltræning her](/cykling/).
+
+{% assign site_posts = site.posts | where: "category", "Cykling" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts limit: 3 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
 ## Yoga og mindfulness
 
 Vi har skrevet flere indlæg om [yoga og mindfulness](/yoga/). Tjek dem her:

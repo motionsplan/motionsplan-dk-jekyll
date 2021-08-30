@@ -230,6 +230,8 @@ trainingtypes:
         url: /cardio/
       - title: "Løb"
         url: /loebesiden/
+      - title: "Cykling"
+        url: /cykling/
       - title: "Yoga"
         url: /yoga/
       - title: "Til fitnessinstruktøren"

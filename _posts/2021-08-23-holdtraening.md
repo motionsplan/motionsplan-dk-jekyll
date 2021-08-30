@@ -59,7 +59,7 @@ Lad os dykke ned i nogle af hovedoverskrifterne fra afsnittet.
 
 ### 1. Holdtræning skal altid gøres sejere end det er
 
-Når holdtræningsformatet skal sælget, så bliver det ofte gjort sejere end det i virkeligheden er. Det bliver solgt som noget andet end det i virkeligheden er. For at gøre det salgbart, så ender man med at ændre på formen, så det kan blive medrivende.
+Når holdtræningsformatet skal sælges, så bliver det ofte gjort sejere end det i virkeligheden er. Det bliver solgt som noget andet end det i virkeligheden er. For at gøre det salgbart, så ender man med at ændre på formen, så det kan blive medrivende.
 
 Holdtræningen bliver således pakket ind i koncepter. En hurtig søgning på de store fitnesskæders tilbud om holdtræning afslører udfordringerne.
 
