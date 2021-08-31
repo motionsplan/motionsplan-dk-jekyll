@@ -22,6 +22,10 @@ tags:
   - løb
 last_modified_at: 2021-03-06T23:14:14Z
 toc: true
+garmin_lactate:
+  - image_path: /assets/images/blog/garmin-setup-lactate-1.jpg
+  - image_path: /assets/images/blog/garmin-setup-lactate-2.jpg
+  - image_path: /assets/images/blog/garmin-setup-lactate-3.jpg
 ---
 
 Når du vil lave pulstræning, så kan du beregne pulszoner og træningsinstensitet ud fra din maxpuls eller pulsreserve. Når ud har udregnet dine træningszoner, så kan du målrette din træning ud fra pulsen.
@@ -61,6 +65,22 @@ Karvonens pulszoner kan være et udemærket udgangspunkt for træningen. Det er 
 
 HR<sub>TARGET</sub> = [(HR<sub>MAX</sub> - HR<sub>REST</sub>) * intensitet%] + HR<sub>REST</sub>
 
+## Jack Daniels pulszoner ift. maksimale puls
+
+Jack Daniels baserer sine træningsprogrammer på hastigheder. Du kan udregne hans foreslåede løbehastigheder i de forskellige zoner i [Jack Daniels løbeberegner]({% link _posts/2020-08-01-jack-daniels-loebeberegner.md %}). De enkelte zoner er imidlertid også forbundet med pulsværdier, som er sat i forhold til den maksimale puls.
+
+| | | %VO2max | %HR-max | Effekt |
+|-|-|-|-|-|
+| E | Easy Run | 59%-74% | 65-79%  | Forbedrer slagvolumen og nødvendige celleforandringer. Effekten af E-tempo er mere en funktion af tiden i zonen end af intensiteten. |
+| M | Maraton-tempo | 75-84% | 80-90% | Erfaring med maraton-tempoet |
+| T | Tærskel-træning | 83-88% | 88-92% | Forbedrer udholdenheden og evnen til at løbe i højt tempo. Skal føles "behageligt" rare - og i en hastighed, som du kan holde i 45-60 minutter |
+| I | Intervaltræning | 95-100% | 98-100% | Forbedrer den maksimale iltoptagelse. Interval-tempo er hårde, men det er ikke _all out_-løb. Typisk er intervallerne i denne zone fra 3-5 minutter. |
+| R | Repetitions | | | Typisk omkring dit 1500 meter tempo. Skal forbedre din hastighed og løbeøkonomi. Målet er at løbe afslappet samtidig med at du løber hurtigt, så du lærer kroppen at blive mere effektiv ved lavere hastigheder. |
+
+Det lader til pulszonerne her er sat så de rammer øvede løbere. Typisk er den anaerobe tærskel lidt lavere for begyndere.
+
+## Find dine egne pulszoner med tests
+
 Karvonens træningszoner har helt sikkert også nogle begrænsninger. Jeg kan godt lide særligt at fokusere på tre elementer i konditionstræning:
 
 1. Maksimale iltoptagelse
@@ -73,6 +93,14 @@ Du bliver altså nødt til at teste, hvad dine **individuelle pulszoner** er. Je
 
 ## Find pulszonen ved den maksimale iltoptagelse
 
+Man kan løbe omkring den maksimale iltoptagelse i maksimalt omkring 6 minutter.
+
 ## Find pulszonen ved den anaerobe tærskel
 
+Det er relativt enkelt at lave en test af den anaerobe tærskel, hvis du har af de moderne pulsure. Her er et eksempel fra et Garmin Fenix ur.
+
+{% include gallery id="garmin_lactate" caption="Der er en test af den anaerobe tærskel direkte på dit Garmin-ur." %}
+
 ## Find pulzonen for udholdenhed og slagvolumen
+
+Joel Jamieson foreslår, at man løber med en puls fra 120-150 i det han kalder _cardiac output_-træning.
