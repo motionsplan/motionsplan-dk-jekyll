@@ -1,5 +1,6 @@
 ---
 title: &title "Borg 15 konditest på cykel 🚴🚴‍♀️"
+seo_title: "Borg 15 konditest på cykel"
 permalink: /kondital-borg15/
 excerpt: "Borg 15-testen eller Graded Cycling Test with Talk Test er en submaksimal konditest på cykel, hvor forsøgspersonens kondital estimeres ud fra en test på en ergometercykel."
 language: da
@@ -51,7 +52,7 @@ Inden du går i gang med at udføre testen, kan det være en god ide at læse gr
 
 {% endcomment %}
 
-Jeg har skrevet en mere [udførlig artikel om selve Borg-skalaen, hvor du også kan downloade Borgskalaen som PDF](/borg/).
+Jeg har skrevet en mere udførlig artikel om selve [Borg-skalaen, hvor du også kan downloade Borg skala som PDF](/borg/).
 
 ## Beregn kondital fra Borg 15-testen
 
@@ -59,19 +60,19 @@ Jeg har skrevet en mere [udførlig artikel om selve Borg-skalaen, hvor du også 
 
 ## Formlerne bag Borg 15-testen
 
-Jeg har fundet [formlen til beregneren i Okura og Tanaka (2001)](https://doi.org/10.2114/jpa.20.255). Formlen for at udregne VO<sub>2</sub>max med Borg 15-testen ser sådan her ud:
+Jeg har fundet formlen til beregneren i [Okura og Tanaka (2001)](https://doi.org/10.2114/jpa.20.255). Formlen for at udregne VO<sub>2</sub>max med Borg 15-testen ser sådan her ud:
 
 ***
 
-VO<sup>2</sup>max = 1.19 * W<sub>Borg 15</sub> - 15.84 * age + 13.06 * weight + 1365
+VO<sub>2</sub>max = 1.19 * W<sub>Borg 15</sub> - 15.84 * age + 13.06 * weight + 1365
 
 ***
 
-W er workload i kgm·min<sup>-1</sup> (kilogram-force meter/minute). Jeg bruger typisk watt-målinger, og dem er beregneren lavet på baggrund af. For at konvertere kgm·min<sup>-1</sup> deler du med [tyngdekraften som i Danmark er 9,816 m/s<sup>2</sup>](https://da.wikipedia.org/wiki/Tyngdeacceleration) og ganger med 60 sekunder.
+W er workload i kgm·min<sup>-1</sup> (kilogram-force meter/minute). Jeg bruger typisk watt-målinger, og dem er beregneren lavet på baggrund af. For at konvertere kgm·min<sup>-1</sup> deler du med tyngdekraften som i Danmark er 9,816 m/s<sup>2</sup> i følge [Wikipedia](https://da.wikipedia.org/wiki/Tyngdeacceleration) og ganger med 60 sekunder.
 
 ## Forbedring af Borg 15-cykeltesten
 
-Morten Zacho vurderer, at [validiteten stiger, når Borg15-testen kobles sammen med en systematisk snakketest](https://www.motion-online.dk/borg-15-test/). Zacho foreslår, at man i slutningen af hvert minut får forsøgspersonen til at læse op af en tekst af ca. 10 sekunders varighed. Når oplæsningen bliver tydeligt og hørbart forstyrret af den øgede vejrtrækning, så er 15 nået på Borg-skalaen.
+[Morten Zacho vurderer](https://www.motion-online.dk/borg-15-test/), at validiteten stiger, når Borg15-testen kobles sammen med en systematisk snakketest. Zacho foreslår, at man i slutningen af hvert minut får forsøgspersonen til at læse op af en tekst af ca. 10 sekunders varighed. Når oplæsningen bliver tydeligt og hørbart forstyrret af den øgede vejrtrækning, så er 15 nået på Borg-skalaen.
 
 At en snakketest gør det lettere at finde niveauet for anstrengelse er undersøgt af [Persinger et al (2004)](https://pubmed.ncbi.nlm.nih.gov/15354048/), men det er mig bekendt ikke lavet studier, hvor snakketesten er blevet valideret i forhold til Borg 15-testen.
 

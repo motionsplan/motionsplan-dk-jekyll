@@ -12,8 +12,9 @@ motionsplan.Karvonen = function(minHr, maxHr) {
     return Math.round(getHeartRateReserve() * intensity / 100 + minHr);
   }
 
-  var publicAPI = {
-    getTargetHR: getTargetHR
+  let publicAPI = {
+    getTargetHR: getTargetHR,
+    getHeartRateReserve : getHeartRateReserve
   };
 
   return publicAPI;

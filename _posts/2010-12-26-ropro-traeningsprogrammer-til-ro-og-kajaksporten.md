@@ -78,7 +78,7 @@ Anders Krintel fortæller selv, at man langsomt skal vænne sig til at roning p�
 
 Du kan altså bruge en anstrengelsesskala til at styre din intensitet i træningen, så du rammer nogenlunde det, du har forberedt. Anders Krintel foreslår, at hvis du træner 4 x om ugen, så er der tre længere træningspas med lavere intensitet og et rigtig hårdt træningspas.
 
-Det kunne fx se sådan her ud ud fra den en [intensitetsskala](/borg/), der går fra 1-10:
+Det kunne fx se sådan her ud ud fra den en [intensitetsskala](/borg-skala/), der går fra 1-10:
 
 | Ugedag | Varighed | RPE |
 |-|-|-|

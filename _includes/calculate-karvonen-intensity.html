@@ -1,6 +1,6 @@
 <form class="calculator" id="calculator_karvonen_intensity">
     <fieldset>
-        <legend>Udregn Karvonens intensitetszoner til pulstræning.</legend>
+        <legend>Karvonens pulszoner ud fra heart rate reserve (HRR)</legend>
         <div class="form-group">
             <label>Hvilepuls (HR<sub>rest</sub>)
                 <input id="karvonen_min_hr" min="30" max="100" type="number" required>
@@ -9,6 +9,11 @@
         <div class="form-group">
             <label>Maxpuls (HR<sub>max</sub>)
                 <input id="karvonen_max_hr" min="100" max="250" type="number" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Heart Rate Reserve (HRR)
+                <input id="karvonen_hrr" type="number" disabled value="Udregnes">
             </label>
         </div>
         <input type="submit" value="Beregn">

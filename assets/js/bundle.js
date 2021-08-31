@@ -440,7 +440,7 @@ $(document).ready(function() {
 
             let iw = idealweight.IdealWeight(height, "man");
             let weight = iw.getPeterson(target_bmi);
- 
+
             $(this).find('td').eq(1).html(weight.toFixed(0));
         });
     });
@@ -453,7 +453,7 @@ $(document).ready(function() {
 
             let iw = idealweight.IdealWeight(height, "woman");
             let weight = iw.getPeterson(target_bmi);
- 
+
             $(this).find('td').eq(2).html(weight.toFixed(0));
         });
     });
@@ -802,7 +802,7 @@ $(document).ready(function() {
 
         let kj = Number($("[name='kj']").val());
 
-        let kcal = kj * 4.1868;
+        let kcal = kj * 4.184;
         $("[name='kcal']").val(kcal.toFixed(0));
     });
     $("#calculator_kcal_kj").submit(function(e) {
@@ -811,7 +811,7 @@ $(document).ready(function() {
 
         let kcal = Number($("[name='kcal']").val());
 
-        let kj = kcal / 4.1868;
+        let kj = kcal / 4.184;
         $("[name='kj']").val(kj.toFixed(0));
     });
     // Udregn Billat
@@ -891,10 +891,10 @@ $(document).ready(function() {
         if ($("#formula-energy-walking").val() == 'met') {
             walking = Number($("[name='walking']").val());
             walk = runwalk.RunningWalking("walking", walking, weight);
-        } else if ($("#formula-energy-walking").val() == 'pandolf') { 
+        } else if ($("#formula-energy-walking").val() == 'pandolf') {
             walking = Number($("[name='walk_velocity']").val());
-            walk = pandolf.RunningWalkingEnergyExpenditurePandolf(weight, walking);        
-        } else { 
+            walk = pandolf.RunningWalkingEnergyExpenditurePandolf(weight, walking);
+        } else {
             walking = Number($("[name='walk_velocity']").val());
             walk = runwalkenergy.RunningWalkingEnergyExpenditure("walking", weight, walking);
         }
@@ -937,12 +937,12 @@ $(document).ready(function() {
         if ($("#formula-walking-energy").val() == 'met') {
             walking = Number($("[name='walking']").val());
             walk = runwalk.RunningWalking("walking", walking, weight);
-        } else if ($("#formula-walking-energy").val() == 'pandolf') { 
+        } else if ($("#formula-walking-energy").val() == 'pandolf') {
             walking = Number($("[name='walk_velocity']").val());
             let grade = Number($("[name='walk_grade']").val());
             let load = Number($("[name='walk_load']").val());
-            walk = pandolf.RunningWalkingEnergyExpenditurePandolf(weight, walking, grade, load);        
-        } else { 
+            walk = pandolf.RunningWalkingEnergyExpenditurePandolf(weight, walking, grade, load);
+        } else {
             walking = Number($("[name='walk_velocity']").val());
             let grade = Number($("[name='walk_grade']").val());
             walk = runwalkenergy.RunningWalkingEnergyExpenditure("walking", weight, grade);
@@ -1320,7 +1320,7 @@ $(document).ready(function() {
         let wmax = Number($("[name='wmax']").val());
         let sec = Number($("[name='sec']").val());
         let weight = Number($("[name='weight']").val());
-        
+
         let watt = wattmax.Wattmax(wmax, sec, weight);
 
         $("[name='kondital']").val(watt.getFitnessLevel());
@@ -1337,7 +1337,7 @@ $(document).ready(function() {
         let weight = Number($("[name='weight']").val());
         let watt_jumps = Number($("[name='watt_jumps']").val());
         let age = 15;
-        
+
         let watt = wattmax.Wattmax(wmax, sec, weight, age, watt_jumps);
 
         $("[name='kondital']").val(watt.getFitnessLevel());
@@ -1355,7 +1355,7 @@ $(document).ready(function() {
         let height = Number($("[name='height']").val());
         let weight = Number($("[name='weight']").val());
         let repeated = $("#formula").val();
-        
+
         let hr = walktest_sixminutes.SixMinutesWalkingTest(sex, age, height, weight, meter);
 
         $("[name='reference_distance']").val(hr.getReferenceMeter(repeated));
@@ -1565,7 +1565,7 @@ $(document).ready(function() {
         let met_standing = 2;
         let met_sleeping = 0.9;
         let met_sitting = 1.2;
-        
+
         /*
         // My own PAL calculation - there is no weight factor
         let pal_intense = (met_intense * (activity_intense / 1440));
@@ -1584,7 +1584,7 @@ $(document).ready(function() {
         let met_energy_light = weight * (met_light * (activity_light / 60));
         let met_energy_standing = weight * (met_standing * (activity_standing / 60));
         let met_energy_sitting = weight * (met_sitting * (activity_sitting / 60));
-        
+
         let met_energy = met_energy_intense + met_energy_moderat + met_energy_light + met_energy_standing + met_energy_sitting;
         */
 
@@ -1644,7 +1644,7 @@ $(document).ready(function() {
         console.log("Calculate Vmax from VO2");
         e.preventDefault();
         let vo2max = Number($("[name='vo2max']").val());
-        
+
         let b = vmax_bike.Vmax(vo2max);
 
         $("[name='vmax']").val(b.getVmax());
@@ -1704,7 +1704,7 @@ $(document).ready(function() {
         let hr = hr_intensity.HRIntensity(max_hr);
         let result = hr.getHRIntensityFromHeartRateReserve(hr_rest, hr_work);
 
-        $("[name='hrr_intensity']").val(result);
+        $("[name='hrr_intensity']").val(result.toFixed(0));
     });
      // Calculate Intensity
     $("#calculator_hr_intensity_work").submit(function(e) {
@@ -1718,7 +1718,7 @@ $(document).ready(function() {
         let hr = hr_intensity.HRIntensity(hr_max);
         let result = hr.getHRBasedOnIntensityFromHeartRateReserve(hr_rest, hr_intensity);
 
-        $("[name='hrr_heartrate']").val(result);
+        $("[name='hrr_heartrate']").val(result.toFixed(0));
     });
     // Calculate Intensity
     $("#calculator_hr_intensity_from_max").submit(function(e) {
@@ -1731,7 +1731,7 @@ $(document).ready(function() {
         let hr = hr_intensity.HRIntensity(hr_max);
         let result = hr.getWorkIntensityBasedOnMaxHR(hr_work);
 
-        $("[name='intensity_form3']").val(result);
+        $("[name='intensity_form3']").val(result.toFixed(0));
     });
      // Calculate YYIR1
     $("#calculator_yyir1").submit(function(e) {
@@ -1805,7 +1805,7 @@ $(document).ready(function() {
         let age = Number($("[name='ipf_age']").val());
 
         let ipf_points = ipfpoints.IPFPoint(gender, bodyweight, lifted, event, equipment);
-        
+
         let mc = mcculloch.McCulloch(age);
         let age_adjusted;
         if (mc.getCoefficient() != "") {
@@ -1827,6 +1827,7 @@ $(document).ready(function() {
         let max_hr = Number($("#karvonen_max_hr").val());
 
         let k = karvonen.Karvonen(min_hr, max_hr);
+        let hrr = max_hr - min_hr;
 
         $("#karvonen_zone1_a").val(k.getTargetHR(50));
         $("#karvonen_zone1_b").val(k.getTargetHR(60));
@@ -1838,6 +1839,7 @@ $(document).ready(function() {
         $("#karvonen_zone4_b").val(k.getTargetHR(90));
         $("#karvonen_zone5_a").val(k.getTargetHR(90));
         $("#karvonen_zone5_b").val(max_hr);
+        $("#karvonen_hrr").val(hrr);
     });
     $("#calculator_vo2max_distance_test").submit(function(e) {
         console.log("Calculate Distance");
@@ -3783,8 +3785,9 @@ motionsplan.Karvonen = function(minHr, maxHr) {
     return Math.round(getHeartRateReserve() * intensity / 100 + minHr);
   }
 
-  var publicAPI = {
-    getTargetHR: getTargetHR
+  let publicAPI = {
+    getTargetHR: getTargetHR,
+    getHeartRateReserve : getHeartRateReserve
   };
 
   return publicAPI;

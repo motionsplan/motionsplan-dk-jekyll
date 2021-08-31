@@ -31,7 +31,7 @@ Når du stiller dig op på en kredsløbsmaskine, så er det ofte med det formål
 
 Et mål er at **få en bedre kondition**. [Kondition](/kondition/) er kroppens evne til at optage og bruge ilt. En bedre kondition er snævert set defineret som kroppens maksimale iltoptagelse pr. minut pr. kilo kropsvægt. Hvis du vil flytte den maksimale iltoptagelse, skal du træne hårdt og omkring din maksimale ydeevne. Typisk foregår det med intervaller fra 3-5 minutters varighed gentaget 3-8 gange.
 
-Et andet mål er at **forbedre hjertets evne til at pumpe blod rundt**. Vi vil gerne forbedre hjertets kapacitet og slagvolumen. Den mest ligefremme måde at træne dette på er ved at træne med relativt lav intensitet omkring snakkegrænsen på [Borgskalaen](/borg/). Pulsen vil ligge omkring 130-150.
+Et andet mål er at **forbedre hjertets evne til at pumpe blod rundt**. Vi vil gerne forbedre hjertets kapacitet og slagvolumen. Den mest ligefremme måde at træne dette på er ved at træne med relativt lav intensitet omkring snakkegrænsen på [Borg skalaen](/borg-skala/). Pulsen vil ligge omkring 130-150.
 
 Et tredje mål kan være at **forbedre arbejdet ved den anaerobe tærskel**. Det gøres typisk ved at arbejde længere med så høj intensitet, som du kan holde uden at ophobe ekstra mælkesyre. Hvis du fx bruger hastighed, watt eller puls, så kan du finde din arbejdskapacitet ved den [anaerobe tærskel](/anaerobe-taerskel/) ved fx at køre med så høj og jævn intensitet som muligt i 30-45 minutter.
 
@@ -69,9 +69,9 @@ Marina Aagaard har også [vurderet de fire populære cardiomaskiner](http://mari
 
 {% include figure image_path="https://images.unsplash.com/photo-1578763363228-6e8428de69b2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" caption="Løbebåndet er godt til at træne kondition og forbrænding" alt="Løbebånd er en type cardiomaskine og en af de populære cardiomaskiner" %}
 
-Løbebåndet er rigtig godt at træne sin kondition på. Du kan let lave intervaller, hvor du kan arbejde meget præcist omkring din maksimale iltoptagelse eller anaerobe tærskel. Zacho vurderer da også løbebåndet som værende bedst til at træne kondition af de fire cardiomaskiner. 
+Løbebåndet er rigtig godt at træne sin kondition på. Du kan let lave intervaller, hvor du kan arbejde meget præcist omkring din maksimale iltoptagelse eller anaerobe tærskel. Zacho vurderer da også løbebåndet som værende bedst til at træne kondition af de fire cardiomaskiner.
 
-Løbebåndet er let at gå i gang med. På de fleste løbebånd kan du skrue på hastigheden og hældningen. Det kræver dog noget tilvænning at løbe på løbebåndet, så du skal ikke starte for hurtigt. De fleste, der prøver et løbebånd første gang bliver overraskede over, hvordan båndet bevæger sig. 
+Løbebåndet er let at gå i gang med. På de fleste løbebånd kan du skrue på hastigheden og hældningen. Det kræver dog noget tilvænning at løbe på løbebåndet, så du skal ikke starte for hurtigt. De fleste, der prøver et løbebånd første gang bliver overraskede over, hvordan båndet bevæger sig.
 
 På løbebåndet er det bånder, der flytter sig under fødderne, så du skal bare følge med båndet for ikke at blive kørt bagud. Det betyder imidlertid også, at energiforbruget på løbebånd er lidt mindre end udendørs løb, da du ikke på samme måde skal have fremdrift i dit afsæt. På et almindeligt løbebånd bliver din bagkæde derfor ikke lige så aktiveret, som når du løber på landevejen.
 
@@ -107,7 +107,7 @@ Det kan være en fordel, hvis du har problemer med at løbe. Crosstraineren kan 
 
 Du kan selv vælge, om du griber fat i de bevægelige håndtag, som giver lidt modstand for armene, eller du tager fat i de faste håndtag.
 
-Når du første gang prøver en crosstrainer, så virker det ret unaturligt at følge crosstrainerens rytme, men man vænner sig hurtigt til det. Til gengæld synes jeg det er svært at få en rigtig høj intensitet på crosstraineren. Crosstraineren er mest velegnet til at arbejde over længere tid med lavere intensitet, men der kan den også give en fornuftig træning. 
+Når du første gang prøver en crosstrainer, så virker det ret unaturligt at følge crosstrainerens rytme, men man vænner sig hurtigt til det. Til gengæld synes jeg det er svært at få en rigtig høj intensitet på crosstraineren. Crosstraineren er mest velegnet til at arbejde over længere tid med lavere intensitet, men der kan den også give en fornuftig træning.
 
 ## Motionscykel og kondicykel
 
@@ -127,7 +127,7 @@ Hvis du har en kondicykel, der pålideligt kan vise arbejdsbelastningen i watt, 
 
 ## Andre cardiomaskiner
 
-Der findes imidlertid også andre cardiomaskiner end de fire meget populære cardiomaskiner. 
+Der findes imidlertid også andre cardiomaskiner end de fire meget populære cardiomaskiner.
 
 - Versaclimber
 - Skimaskine
@@ -135,7 +135,7 @@ Der findes imidlertid også andre cardiomaskiner end de fire meget populære car
 
 ## Hvordan skal jeg træne på cardiomaskiner?
 
-Mit primære mål med træning er for det meste bare generelt at forbedre mit kredsløb. Jeg vil gerne have et velfungerende kredsløb, og det betyder ikke så meget for mig, hvordan jeg får det. 
+Mit primære mål med træning er for det meste bare generelt at forbedre mit kredsløb. Jeg vil gerne have et velfungerende kredsløb, og det betyder ikke så meget for mig, hvordan jeg får det.
 
 Hvis jeg er i en periode af mit træningsliv, hvor det hovedsageligt handler om generelt at forbedre mit kredsløb, så kan jeg godt lide at skifte mellem kredsløbsmaskinerne. Jeg har heldigvis relativt let adgang til en række forskellige cardiomaskiner. På det punkt følger jeg Morten Zachos råd:
 
