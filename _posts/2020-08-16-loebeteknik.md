@@ -15,6 +15,7 @@ tags:
   - løbstil
   - løbetræning
   - løbeteknik
+  - løb
 breadcrumbs: true
 ---
 
@@ -101,20 +102,20 @@ Barnes (2016) konkluderer, at det er muligt at lave _retraining_ af løbeteknikk
 
 ### Løft hovedet og hold det højt
 
-Når du løber så kan det betale sig at holde sig høj. Forestil dig at nogen trækker opad i dit hoved. Det kan gøre din kropsposition bedre, og luftvejene får optimale betingelser for at en god vejrtrækning. 
+Når du løber så kan det betale sig at holde sig høj. Forestil dig at nogen trækker opad i dit hoved. Det kan gøre din kropsposition bedre, og luftvejene får optimale betingelser for at en god vejrtrækning.
 
 ### Armene og armsvinget
 
-Dine arme og armbevægelser har også betydning for din løbeøkonomi. 
+Dine arme og armbevægelser har også betydning for din løbeøkonomi.
 
 {% comment %}
 
 FIXME
 Undersøgelser har vist, at med et optimeret armsving bruger man op til 5 pct. ilt mindre end med et forkert armsving.
-Ved at analysere kroppens bevægelsesmønster har forskerne fundet frem til fire grundregler for, hvordan armene bør indgå i løbebevægelsen. 
+Ved at analysere kroppens bevægelsesmønster har forskerne fundet frem til fire grundregler for, hvordan armene bør indgå i løbebevægelsen.
 {% endcomment %}
 
-Under løb er armenes primære funktion at stabilisere kroppen, så kraften og bevægelsen fortrinsvis rettes fremad. 
+Under løb er armenes primære funktion at stabilisere kroppen, så kraften og bevægelsen fortrinsvis rettes fremad.
 
 Du kan prøve disse fire grundregler for dit armsving, så du kan forbedre din løbeteknik.
 

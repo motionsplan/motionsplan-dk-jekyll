@@ -14,6 +14,7 @@ category:
 tags:
   - sammenligning
   - energiforbrug
+  - løb
 toc: true
 last_modified_at: 2021-05-10T08:14:14Z
 faq:

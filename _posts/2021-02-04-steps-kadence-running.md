@@ -9,7 +9,7 @@ header:
 category:
   - Løb
 tags:
-  - løbesiden
+  - løb
 last_modified_at: 2021-03-12T08:14:14Z
 toc: true
 ---
@@ -80,7 +80,7 @@ Der findes et utal af metronomer til både Android og IOS. Jeg synes Soundbrenne
 
 Det er også derfor, at det betyder noget, hvilket [musik du vælger til din løbetræning]({% link _posts/2013-05-02-musik-til-traeningen.md %}). Hvis du vælger musik med en for langsom rytme, så kan du risikere at sætte din løbekadence ned.
 
-Nyere løbeure måler også løbekadencen for dig, men typisk kan de ikke hjælpe dig med at holde den undervejs. 
+Nyere løbeure måler også løbekadencen for dig, men typisk kan de ikke hjælpe dig med at holde den undervejs.
 
 ## Hvad er den gennemsnitlige skridtlængde i løb?
 
@@ -107,7 +107,7 @@ Det er altså lidt misvisende, når [Aktiv Træning](https://aktivtraening.dk/tr
 
 Der var 18 centimeter forskel pr. skridt i den gennemsnitlige skridtlængde under løb for mandlige eliteløbere og amatører på 400-meterdistancen. Det betød faktisk, at eliteløberne tog 5 procent færre skridt for at nå i mål.
 
-Hvis du som 5- og 10-km-løber også kan tage lidt længere skridt, men holde den samme hurtige kadence og lande på en fornuftig og energiøkonomisk måde for hvert skridt, så er det naturligvis en stor fordel. 
+Hvis du som 5- og 10-km-løber også kan tage lidt længere skridt, men holde den samme hurtige kadence og lande på en fornuftig og energiøkonomisk måde for hvert skridt, så er det naturligvis en stor fordel.
 
 ## Sådan øger du din skridtlængde
 
@@ -125,7 +125,7 @@ Det fik forskerne til at konkludere at maksimal styrketræning kan forbedre løb
 
 *[MAS]: Maximal Aerobic Speed
 
-[Fernandes et al (2016)](https://pubmed.ncbi.nlm.nih.gov/26694507/) konkluderer i deres systematiske review, at det plyometrisk træning og styrketræning med mindre intensitet også kan være gavnligt for løbeøknomien, og [Esteve-Lanao et al (2008)](https://pubmed.ncbi.nlm.nih.gov/18545191/) konkluderer, at styrketræning kan være med til at fastholde skridtlængden, når mellemdistanceløberne bliver trætte i løbet af de kortere løbedistancer. 
+[Fernandes et al (2016)](https://pubmed.ncbi.nlm.nih.gov/26694507/) konkluderer i deres systematiske review, at det plyometrisk træning og styrketræning med mindre intensitet også kan være gavnligt for løbeøknomien, og [Esteve-Lanao et al (2008)](https://pubmed.ncbi.nlm.nih.gov/18545191/) konkluderer, at styrketræning kan være med til at fastholde skridtlængden, når mellemdistanceløberne bliver trætte i løbet af de kortere løbedistancer.
 
 Det er dog ikke sikkert, at styrketræning virker for alle målgrupper. Fx fandt [Ferrauti et al (2010)](https://pubmed.ncbi.nlm.nih.gov/20885197/), at maraton-motionister ikke havde gavnlig effekt på løbeøkonomien efter et 8-ugers træningsforløb med styrketræning, selvom benstyrken blev signifikant forbedret undervejs. Forskerne foreslår, at interventionsperioden var for kort, eller der ikke var nok deltagere med i studiet. Det kan imidlertid også være, fordi styrken i benene ikke var næste skridt til at forbedre disse løberes løbeøkonomi, men en teknikændring var nødvendig først.
 
@@ -137,7 +137,7 @@ Bakkesprints er med til at øge din styrke og gøre de enkelte skridt mere kraft
 
 ### Løbeteknik
 
-Der findes et hav af løbetekniske øvelser, som kan være med til at forbedre din skridtlængde. 
+Der findes et hav af løbetekniske øvelser, som kan være med til at forbedre din skridtlængde.
 
 Løbecoach, Peter Liljensten, viser et par enkelte eksempler i denne Youtube-video:
 
@@ -149,7 +149,7 @@ Løbecoach, Thomas Vidø, foreslår at bruge KAPA-systemet til at arbejde med l�
 
 ## Opsamling på løbekadence og skridtlængde ved løb
 
-Det er desværre umuligt at sige noget kvalificeret om den gennemsnitlige skridtlængde ved løb. Det er helt op til den længden af benene på den enkelte løber, erfaringsniveauet, løbehastigheden og løbedistancen. 
+Det er desværre umuligt at sige noget kvalificeret om den gennemsnitlige skridtlængde ved løb. Det er helt op til den længden af benene på den enkelte løber, erfaringsniveauet, løbehastigheden og løbedistancen.
 
 Til gengæld ser det ud til, at du gerne må arbejde med din løbekadence, så den i hvert fald kommer op over 165-170 og måske endda gerne helt op til 180 skridt per minut.
 

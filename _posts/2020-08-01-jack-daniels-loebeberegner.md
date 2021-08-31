@@ -13,10 +13,7 @@ category:
 tags:
   - kondition
   - beregner
-  - løbesiden
-  - loebesiden
   - løbsberegner
-  - løbeside
   - løbe beregner
   - løb
 feature_row:
@@ -149,6 +146,20 @@ I disse tilfælde kan jeg også godt lide at planlægge min løbetræning på ba
 ## Konklusion
 
 Du kan læse en [kritik af Jack Daniels udregninger her](http://jaredmcqueen.com/jackdanielsflaw.html).
+
+## Andre løbeberegnere
+
+{% assign site_posts = site.posts | where: "category", "Løb" | where: "tags", "beregner" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
 
 ## Gode bøger om løbetræning
 

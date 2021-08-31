@@ -12,6 +12,7 @@ category:
 tags:
   - løbetræning
   - konditionstræning
+  - løb
 last_modified_at: 2020-12-03T23:14:14Z
 toc: true
 feature_row:

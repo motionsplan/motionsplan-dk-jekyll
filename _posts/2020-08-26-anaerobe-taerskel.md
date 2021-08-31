@@ -18,6 +18,7 @@ tags:
   - anaerob
   - laktat
   - mælkesyre
+  - løb
 ---
 
 Den anaerobe tærskel eller mælkesyregrænsen er et meget udbredt begreb i konditionstræning og udholdenhedstræning, men der er stadig en del forvirring omkring begrebet anaerob tærskel, og hvordan det kan bruges i praksis? Mindre brugt er den aerobe tærskel, som jeg også berører i dette indlæg.

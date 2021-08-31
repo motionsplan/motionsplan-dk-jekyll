@@ -13,6 +13,7 @@ tags:
   - kondition
   - beregner
   - vægttab
+  - løb
 breadcrumbs: true
 ---
 

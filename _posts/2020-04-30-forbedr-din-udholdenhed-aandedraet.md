@@ -16,6 +16,7 @@ tags:
   - åndedræt
   - vejrtrækning
   - åndedrætstræning
+  - løb
 last_modified_at: 2021-01-06T08:14:14Z
 toc: true
 feature_row:

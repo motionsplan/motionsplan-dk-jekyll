@@ -15,7 +15,7 @@ header:
       url: "/loebeprogrammer/"
 classes: wide
 feature_row_excerpt:
-  - excerpt: "Guide til løbetræning. Her på løbesiden kan du finde nyttig viden om løb til [5 km](/loebeprogram-5km/), [10 km](/loebeprogram-10km/), [halvmaraton](/loebeprogram-halvmaraton/) og [maraton](/loebeprogram-maraton/). Vælg et effektivt [løbeprogram](/loebeprogrammer/). Lær om pulstræning, intervalløb og intervaltræning."
+  - excerpt: "Guide til løbetræning. Her på løbesiden kan du finde nyttig viden om løb til [5 km](/loebeprogram-5km/), [10 km](/loebeprogram-10km/), [halvmaraton](/loebeprogram-halvmaraton/) og [maraton](/loebeprogram-maraton/). Vælg et effektivt [løbeprogram](/loebeprogrammer/). Lær om [pulstræning](/pulstraening/), [intervalløb og intervaltræning](/intervallob-intervaltraening/)."
 feature_row_feature:
   - image_path: https://images.unsplash.com/photo-1529795533870-ea8020391255?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
     alt: "Løbesidens Løbsberegner"
@@ -25,9 +25,9 @@ feature_row_feature:
     btn_label: "Brug løbsberegneren"
     btn_class: "btn--info"
   - image_path: https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
-    alt: "Løbeøkonomi og løbeteknik"
-    title: "Løbeøkonomi og løbeteknik"
-    excerpt: "En god løbeøkonomi er evnen til at holde høj fart i lang tid ved et minimalt energiforbrug, men hvordan beregner man det egentlig?"
+    alt: "Løbeøkonomi"
+    title: "Løbeøkonomi"
+    excerpt: "En god løbeøkonomi er evnen til at holde høj fart i lang tid ved et minimalt energiforbrug, men hvordan beregner man løbeøkonomien?"
     url: "/lobeokonomi/"
     btn_label: "Lær om løbeøkonomi"
     btn_class: "btn--info"
@@ -188,7 +188,7 @@ hiit træning løbebånd
 
 ## Løbetests og kondition
 
-{% assign site_posts = site.posts | where: "tags", "konditionstest" | where: "tags", "løbetest" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+{% assign site_posts = site.posts | where: "tags", "løbetest" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
 <div class="feature__wrapper">
 
@@ -246,7 +246,7 @@ løb 5 km på 25 min
 
 ## Alle indlæg på løbesiden om løbetræning
 
-{% assign site_posts = site.posts | where: "category", "Løb" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+{% assign site_posts = site.posts | where: "tags", "løb" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
 <div class="feature__wrapper">
 

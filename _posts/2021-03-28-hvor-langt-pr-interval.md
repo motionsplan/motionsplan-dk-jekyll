@@ -12,6 +12,7 @@ tags:
   - beregner
   - løbetræning
   - intervalløb
+  - løb
 last_modified_at: 2021-03-28T23:14:14Z
 toc: true
 author: lsolesen

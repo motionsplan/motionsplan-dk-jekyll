@@ -12,6 +12,7 @@ tags:
   - aerob
   - anaerob træning
   - kondition
+  - løb
 category:
   - Kondition
   - Løb

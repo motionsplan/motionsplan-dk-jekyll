@@ -15,6 +15,7 @@ tags:
   - kredsløb
   - fysiologi
   - træningslære
+  - løb
 last_modified_at: 2020-05-31T08:14:14Z
 toc: true
 breadcrumbs: true

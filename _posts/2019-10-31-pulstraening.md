@@ -4,8 +4,8 @@ excerpt: "I pulstræning bruger du pulsen til at styre din træningsintensitet. 
 permalink: /pulstraening/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1523475585621-bc60c6d75c2a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80
-  teaser: https://images.unsplash.com/photo-1523475585621-bc60c6d75c2a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1601976864636-403ab1eea224?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80
+  teaser: https://images.unsplash.com/photo-1601976864636-403ab1eea224?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
   caption: *title
 category:
   - Kondition
@@ -16,6 +16,7 @@ tags:
   - intensitet
   - puls
   - beregner
+  - løb
 last_modified_at: 2021-03-06T23:14:14Z
 toc: true
 ---
@@ -106,11 +107,11 @@ Når du laver pulstræning så er det altså vigtigt at vide, hvilket intensitet
 
 Hvis vi baserer udregningen på den **relative arbejdsintensitet i forhold til pulsreserven** ser det sådan her ud:
 
-AP(60%) = 0,6x(200-50) + 50 = 140 bpm
+AP(60%) = 0,6 x (200-50) + 50 = 140 bpm
 
 Hvis vi derimod baserer eksemplet i forhold til **maxpulsen** får vi følgende resultat.
 
-AP(60%) = 0,6x200 = 120 bpm
+AP(60%) = 0,6 x 200 = 120 bpm
 
 Der er unægtelig lidt forskal på at ramme den ene eller ande puls i pulstræningen.
 

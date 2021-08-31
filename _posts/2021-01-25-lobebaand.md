@@ -11,7 +11,9 @@ header:
 category:
   - Test
   - Kondition
+  - Løb
 tags:
+  - løb
   - løbebånd
   - cardiomaskiner
 feature_row_draxfit:

@@ -14,6 +14,7 @@ tags:
   - kondition
   - beregner
   - alder
+  - løb
 ---
 
 Når man bliver ældre, så kan det være rart med en beregner, som kan finde ud af, hvor gode ens løbetider er i forhold til ens alder. Beregneren kan altså beregne din præstation og niveau ud fra din køn og alder, så du kan sammenligne dine løbetider med andre.

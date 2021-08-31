@@ -14,6 +14,7 @@ tags:
   - løbeprogram
   - træningsprogram
   - halvmaraton
+  - løb
 last_modified_at: 2021-08-22T23:14:14Z
 toc: true
 ---

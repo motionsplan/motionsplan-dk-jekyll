@@ -12,6 +12,7 @@ category:
 tags:
   - kondition
   - beregner
+  - løb
 breadcrumbs: true
 ---
 
