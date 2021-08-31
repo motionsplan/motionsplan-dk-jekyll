@@ -32,7 +32,7 @@ feature_row:
     alt: "Kondition og tests"
     title: "Kondition og tests"
     excerpt: "Hvad er kondital og iltoptagelse, og hvordan måler man det i forbindelse med sin konditionstræning?"
-    url: "/kondition-og-test/"
+    url: "/test-kondition-konditest-kondital/"
     btn_label: "Læs om kondital, kondition og tests"
     btn_class: "btn--success"
   - image_path: https://images.unsplash.com/photo-1544899489-a083461b088c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80

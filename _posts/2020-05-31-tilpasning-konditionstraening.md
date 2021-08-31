@@ -148,7 +148,7 @@ Jeg synes denne video forklarer tilpasningerne ved konditionstræning på en god
 
 {% include video provider="youtube" id="k0nziaiGxSU" %}
 
-Jeg har skrevet en grundig artikel om, [hvordan du tester dit kondital med og uden udstyr](/kondition-og-test/), og jeg har også skrevet om, [hvad et godt kondital er](/kondital/). Her kan du sammenligne dit kondital med normer og eliteatleter.
+Jeg har skrevet en grundig artikel om, [hvordan du tester dit kondital med og uden udstyr](/test-kondition-konditest-kondital/), og jeg har også skrevet om, [hvad et godt kondital er](/kondital/). Her kan du sammenligne dit kondital med normer og eliteatleter.
 
 Vi har også skrevet et indlæg, der handler om [fysiologiske tilpasninger til styrketræning]({% link _posts/2020-06-19-styrketraening-fysiologisk.md %}).
 

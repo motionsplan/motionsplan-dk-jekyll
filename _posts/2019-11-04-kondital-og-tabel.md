@@ -71,7 +71,7 @@ Du kan se, hvad et godt kondital er i tabellerne nedenunder.
 
 Nedenstående tabeller gælder for almindelige mennesker i Skandinavien og er såkaldte normaltabeller, hvor man sammenligner sig med andre mennesker.
 
-[Test dit kondital](/kondition-og-test/){: .btn .btn--large .btn--info }
+[Test dit kondital](/test-kondition-konditest-kondital/){: .btn .btn--large .btn--info }
 
 ## Kondital tabel for mænd (normalbefolkning)
 
@@ -134,7 +134,7 @@ Jeg har samlet en [forskellige tests og metoder til at finde dit kondital]({% li
 
 ## Hvordan måler man kondital?
 
-Hvis du vil finde dit eget kondital, så tjek [vores forskellige tests til at finde dit kondital](/kondition-og-test/).
+Hvis du vil finde dit eget kondital, så tjek [vores forskellige tests til at finde dit kondital](/test-kondition-konditest-kondital/).
 
 Nogle af de populære er bl.a. [Coopertest](/cooper-test/) og [bip test](/bip-test/).
 
@@ -142,7 +142,7 @@ Nogle af de populære er bl.a. [Coopertest](/cooper-test/) og [bip test](/bip-te
 
 Når du kender dit kondital, så kan du bruge det til at *tracke* din træning. Konditallet er en rigtig god indikator for din generelle sundhed. Risikoen for livsstilssygdomme er mindre, når du har et højt kondital.
 
-Du behøver ikke nødvendigvis at få målt din iltoptagelse i et laboratorium. Du kan sagtens bruge nogle af de [indirekte tests, vi har beskrevet](/kondition-og-test/).
+Du behøver ikke nødvendigvis at få målt din iltoptagelse i et laboratorium. Du kan sagtens bruge nogle af de [indirekte tests, vi har beskrevet](/test-kondition-konditest-kondital/).
 
 ## Retfærdig sundhedsmæssig vurdering af overvægtiges kondition
 

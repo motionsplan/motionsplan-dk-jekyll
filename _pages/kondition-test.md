@@ -19,7 +19,7 @@ feature_row_feature:
     alt: "Om kondition og tests"
     title: "Om kondition og tests"
     excerpt: "Kommer jeg i bedre form og kondition? Udregn dit kondital og iltoptagelse med vores beregnere og se om du får et bedre kondital og fremgang i træningen."
-    url: "/kondition-og-test/"
+    url: "/test-kondition-konditest-kondital/"
     btn_label: "Lær om  konditionstests"
     btn_class: "btn--danger"
 ---
