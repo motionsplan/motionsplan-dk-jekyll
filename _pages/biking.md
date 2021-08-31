@@ -13,6 +13,7 @@ header:
       url: "/hastighed/"
 sidebar:
   nav: trainingtypes
+toc: true
 ---
 
 {{ page.excerpt }}
