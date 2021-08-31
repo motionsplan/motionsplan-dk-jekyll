@@ -1,13 +1,13 @@
 ---
 layout: single
 permalink: /cykling/
-title: "Alt om cykling og cykeltests"
+title: &title "Alt om cykling og cykeltests"
 author_profile: true
 excerpt: "Guide til cykling og træning. Her på siden kan du finde nyttig viden om cykling og cykeltests."
 header:
-  overlay_image: https://images.unsplash.com/photo-1581889470536-467bdbe30cd0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1990&q=80
-  teaser: https://images.unsplash.com/photo-1581889470536-467bdbe30cd0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
-  caption: "Løbesiden: Alt om løb og løbetræning"
+  overlay_image: https://images.unsplash.com/photo-1535913064547-c24f85802447?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80
+  teaser: https://images.unsplash.com/photo-1535913064547-c24f85802447?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
+  caption: *title
   actions:
     - label: "<i class='fas fa-download'></i> Hvad er min hastighed?"
       url: "/hastighed/"

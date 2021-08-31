@@ -1,6 +1,7 @@
 ---
 title: "Løbsberegner: Beregn træningstempo og konkurrencetider med Jack Daniels Running Formula"
 seo_title: "Løbsberegner - Beregn løbetider for træning og konkurrence »"
+excerpt: "Her på løbesiden kan du finde en løbsberegner, der kan beregne dit træningstempo og konkurrencetider ud fra Jack Daniels Running Formula. Du kan let udregne din løbehastighed allerede i dag."
 permalink: /loebesiden-jack-daniels-loebeberegner/
 last_modified_at: 2021-03-28T09:41:09Z
 language: da
