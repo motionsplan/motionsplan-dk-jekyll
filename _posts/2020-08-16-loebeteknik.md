@@ -98,6 +98,10 @@ Det er imidlertid tydeligt, hvad en øget kadence gør i forhold til kraftpåvir
 
 Barnes (2016) konkluderer, at det er muligt at lave _retraining_ af løbeteknikken og på den måde ændre forekomsten af løberknæ, plantar fascitis og løberelaterede lægsmerter. Barton konkluderer også, at ændring af løbeteknik kan have en gavnlig effekt på ikke-skadede løbere for at forbedre deres præstationer.
 
+Her er nogle forslag fra Claus Hechmann:
+
+{% include video provider="youtube" id="Q3YzNlRxGaE" %}
+
 ## Andre tips til din løbeteknik
 
 ### Løft hovedet og hold det højt
