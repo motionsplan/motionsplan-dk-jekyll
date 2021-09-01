@@ -27,7 +27,6 @@ tags:
   - beregner
 last_modified_at: 2021-05-12T07:14:14Z
 toc: true
-classes: wide
 feature_row:
   - image_path: https://imgcdn.saxo.com/_9788771801835/0x500
     alt: "Stærk - et procentbaseret program ud fra one repetition maximum, 1RM-test og 1RM-beregner"
@@ -233,7 +232,7 @@ Mark Rippetoe skriver i den legendariske _Starting Strength_, at man kan bruge s
 
 Husk dog stadig, at der kan være meget forskel på, hvordan folk løfter. Nogle styrkeløftere kan løfte deres maksimale løft med høj hastighed, hvor det udefra ser ud som om, at det næsten var et opvarmningsløft.
 
-Det understøtter forskningen også, og det er hele baggrunden bag _velocity based training_, som jeg [beskriver i denne artikel](/vbt/). Der er efterhånden kommet en del hjælpemidler til at måle hastigheden på stangen, og det kan faktisk bruges direkte til at estimere 1RM. Du bør virkelig tjekke artiklen ud, hvis du vil have endnu mere præcise bud på din 1RM, men også få fordelene af at kunne lave autoreguleret træning.
+Det understøtter forskningen. Jeg skriver mere om, hvordan du kan bruge _[velocity based training](/vbt/)_. Der er efterhånden kommet en del hjælpemidler til at måle hastigheden på stangen, og det kan faktisk bruges direkte til at estimere 1RM. Du bør virkelig tjekke artiklen ud, hvis du vil have endnu mere præcise bud på din 1RM, men også få fordelene af at kunne lave autoreguleret træning.
 
 ## Test af din _sande_ 1RM
 
@@ -287,5 +286,7 @@ Bruger du en RM-beregner i din træning?
 - [Test dig i topform](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=20604&htmlurl=https://www.bodyman.dk/shop/cms-test-dig-til-topform.html){: rel='sponsored nofollow noopener' }
 
 </details>
+
+## Bøger om styrketræning
 
 {% include feature_row type="left" %}

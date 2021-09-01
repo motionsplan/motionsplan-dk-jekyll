@@ -15,7 +15,6 @@ tags:
   - fødevarer
   - kost
   - ernæring
-classes: wide
 ---
 
 Jeg har samlet en kalorietabel med forskellige typer kød. Tabellen har energi i kalorier og kilojoule, energi, protein, fedt, kulhydrat og kostfibre for oksekød, kylling, svin og andre typer kød.

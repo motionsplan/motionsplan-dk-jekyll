@@ -16,7 +16,6 @@ tags:
   - fødevarer
   - kost
   - ernæring
-classes: wide
 faq:
   - question: "Hvor mange kalorier er der i mad?"
     answer: "Mængden af energi i mad kommer an på mængder, typer og tilberedning. Derfor kan du bruge vores søgbare kalorietabel til at finde mængden af kalorier i mad."

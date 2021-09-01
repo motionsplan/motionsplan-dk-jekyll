@@ -15,7 +15,6 @@ tags:
   - fødevarer
   - kost
   - ernæring
-classes: wide
 faq:
   - question: "Hvilken frugt indeholder færrest kalorier?"
     answer: "100 gram netmelon indeholder kun 99 kJ eller 23 kalorier."

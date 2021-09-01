@@ -175,7 +175,6 @@ feature_row_stretching:
     title: "u13. Ryg"
     alt: "Udendørs træning - u13. Ryg"
     excerpt: "Tag fat med begge hænder og lad dig hænge fra en gren eller stang. Slap af. Mærk strækket i overkroppen."
-classes: wide
 ---
 
 Vi har rigtig mange muligheder for at lave udendørs træning og fitness i Danmark. Vi kan både bruge skovene, parkerne, men også byerne til at lave outdoor fitness.

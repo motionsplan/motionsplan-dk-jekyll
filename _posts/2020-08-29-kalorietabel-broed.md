@@ -15,7 +15,6 @@ tags:
   - fødevarer
   - kost
   - ernæring
-classes: wide
 ---
 
 Jeg har samlet en kalorietabel med forskellige typer brød. Tabellen har energi i kalorier og kilojoule, energi, protein, fedt, kulhydrat og kostfibre for forskellige typer brød.

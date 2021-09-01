@@ -319,6 +319,21 @@ $(document).ready(function() {
         $("#p50").val(r.getPercentOfRm(repmax, 50).toFixed(decimals));
         $("#p40").val(r.getPercentOfRm(repmax, 40).toFixed(decimals));
     });
+    $("#calculator_ftp").submit(function(e) {
+        console.log("Calculate FTP");
+        e.preventDefault();
+
+        let ftp = Number($("#ftp").val());
+
+        $("#ftp_value").val(ftp);
+
+        $("#ftp_recovery").val('<' + (ftp * 0.56).toFixed(0));
+        $("#ftp_endurance").val((ftp * 0.56).toFixed(0) + '-' + (ftp * 0.76).toFixed(0));
+        $("#ftp_tempo").val((ftp * 0.76).toFixed(0) + '-' + (ftp * 0.91).toFixed(0));
+        $("#ftp_ftp").val((ftp * 0.91).toFixed(0) + '-' +(ftp * 1.06).toFixed(0));
+        $("#ftp_vo2").val((ftp * 1.06).toFixed(0) + '-' + (ftp * 1.21).toFixed(0));
+        $("#ftp_anaerob").val((ftp * 1.21).toFixed(0) + '-' + (ftp * 1.50).toFixed(0));
+    });
     // Mortality calculation
     $("#calculator_cooper_mortality").submit(function(e) {
         console.log("Calculate Cooper");

@@ -12,7 +12,6 @@ category:
 tags:
   - træningsøvelser
   - håndvægte
-classes: wide
 sidebar:
   nav: exercises
 ---

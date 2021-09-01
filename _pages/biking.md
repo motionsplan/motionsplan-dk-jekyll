@@ -32,7 +32,7 @@ toc: true
 
 </div>
 
-## Cykeltests og kondition
+## Cykeltests
 
 {% assign site_posts = site.posts | where: "tags", "cykeltest" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
