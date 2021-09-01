@@ -42,7 +42,7 @@ feature_row_kondital:
       til at hænge op på væggen. Tabellen er lavet i Google Docs.
     url: https://docs.google.com/document/d/1Yzzxktbt0Y_8E1fpPENZE1Jt8s6-8jkojvBCI7hpLic/copy?usp=sharing
     btn_label: Se tabel over kondital
-    btn_class: btn--
+    btn_class: btn--success
 faq:
   - question: "Hvad er definitionen på et kondital?"
     answer: "Et kondital er defineret ved din maksimale iltoptagelse delt med din kropsvægt. Det måles i ml O<sub>2</sub> pr. min pr. kg kropsvægt."
@@ -76,7 +76,7 @@ Nedenstående tabeller gælder for almindelige mennesker i Skandinavien og er s�
 ## Kondital tabel for mænd (normalbefolkning)
 
 | Alder | Meget Lavt | Lavt  | Middel | Højt  | Meget højt |
-| ----- | ---------- | ----- | ------ | ----- | ---------- |
+|:-----:|:----------:|:-----:|:------:|:-----:|:----------:|
 | 5-14  | < 38       | 39-43 | 44-51  | 52-56 | \> 57      |
 | 15-19 | < 43       | 44-48 | 49-56  | 57-61 | \> 62      |
 | 20-29 | < 38       | 39-43 | 44-51  | 52-56 | \> 57      |
@@ -89,7 +89,7 @@ Nedenstående tabeller gælder for almindelige mennesker i Skandinavien og er s�
 ## Kondital tabel for kvinder (normalbefolkning)
 
 | Alder | Meget Lavt | Lavt  | Middel | Højt  | Meget Højt |
-| ----- | ---------- | ----- | ------ | ----- | ---------- |
+|:-----:|:----------:|:-----:|:------:|:-----:|:----------:|
 | 5-14  | < 34       | 35-39 | 40-47  | 48-51 | \> 52      |
 | 15-29 | < 28       | 29-34 | 35-43  | 44-48 | \> 49      |
 | 30-39 | < 27       | 28-33 | 34-41  | 42-47 | \> 48      |
@@ -116,7 +116,7 @@ Det er interessant, hvor mange nordmænd der er på [listen over de højeste kon
 Topidrætsfolk i konditionskrævende idrætsgrene har som regel et kondital over 70. Hvis du forventer at kunne være med i verdenseliten, så bør du vurdere dig selv ud fra nedenstående tabel:
 
 |         | Lavt | Middel | Højt  | Meget højt | Ekstremt Højt |
-| ------- | ---- | ------ | ----- | ---------- | ------------- |
+| ------- |:----:|:------:|:-----:|:----------:|:-------------:|
 | Mænd    | < 60 | 60-70  | 70-80 | 80-90      | \> 90         |
 | Kvinder | < 50 | 50-58  | 58-64 | 64-72      | \> 72         |
 
@@ -224,5 +224,6 @@ Vi har skrevet mere om, hvordan du [forbedrer din maksimale iltoptagelse i denne
 
 * Shvartz, E., og R. C. Reibold. 1990. “Aerobic Fitness Norms for Males and Females Aged 6 to 75 Years: A Review”. Aviation, Space, and Environmental Medicine 61 (1): 3–11.
 * Astrand, I. 1960. “Aerobic Work Capacity in Men and Women with Special Reference to Age”. Acta Physiologica Scandinavica. Supplementum 49 (169): 1–92. <https://pubmed.ncbi.nlm.nih.gov/13794892/>
+</details>
 
 ## Noter til kondition og kondital

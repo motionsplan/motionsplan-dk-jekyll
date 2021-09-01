@@ -97,7 +97,11 @@ Man kan løbe omkring den maksimale iltoptagelse i maksimalt omkring 6 minutter.
 
 ## Find pulszonen ved den anaerobe tærskel
 
-Det er relativt enkelt at lave en test af den anaerobe tærskel, hvis du har af de moderne pulsure. Her er et eksempel fra et Garmin Fenix ur.
+[McGehee et al (2005)](https://pubmed.ncbi.nlm.nih.gov/16095403/) har sammenlignet forskellige relativt enkle metoder til at bestemme den anaerobe tærskel. De sammenlignede VDOT, 3200 meter, 30 minutter og Conconi-test.
+
+VDOT og 30 minutters tidstagning var valide til at bestemme hastigheden ved den anaerobe tærskel. 30 minutters testen kunne også bruges til at bestemme pulsen ved den anaerobe tærskel. Samlet konkluderer McGehee et al (2005) at 30 minutters testen er den bedste felttest til at bestemme den anaerobe tærskel.
+
+På de moderne pulsure er det også relativt enkelt at lave en test af den anaerobe tærskelHer er et eksempel fra et Garmin Fenix ur.
 
 {% include gallery id="garmin_lactate" caption="Der er en test af den anaerobe tærskel direkte på dit Garmin-ur." %}
 
