@@ -1,11 +1,11 @@
 ---
-title: &title "Træningszoner"
+title: &title "Træningszoner: Find din intensitet i træning"
 permalink: /traeningszoner/
-excerpt: "Her gennemgår vi forskellige træningszoner, du kan bruge i dit træningsprogram."
+excerpt: "I forbindelse med konditionstræning kan det være hjælpsomt at arbejde med forskellige træningszoner. Her præsenterer vi nogle træningszoner, der er baseret på intensitet. De enkelte træningszoner har hvert deres formål, så du får også retningslinjer for, hvordan du træner de enkelte energisystemer. På denne måde kan du få meget ud af din træning."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1572278116640-337bc3c3b8ae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1916&q=80
-  teaser: https://images.unsplash.com/photo-1572278116640-337bc3c3b8ae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1505676731599-081a7a67766a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80
+  teaser: https://images.unsplash.com/photo-1505676731599-081a7a67766a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
   caption: *title
 category:
   - Træning
@@ -16,45 +16,124 @@ last_modified_at: 2021-08-22T23:14:14Z
 toc: true
 ---
 
-{{ page.excerpt }}
+I forbindelse med konditionstræning kan det være hjælpsomt at arbejde med forskellige træningszoner. Her præsenterer vi nogle træningszoner, der er baseret på intensitet. De enkelte træningszoner har hvert deres formål, så du får også retningslinjer for, hvordan du træner de enkelte energisystemer. På denne måde kan du få meget ud af din træning.
 
+Først kigger vi på de forskellige træningszoner, og du får en beskrivelse af træningszonerne. Efterfølgende kigger vi på, hvordan du kan måle intensiteten i de enkelte træningszoner.
 
-I forbindelse med træning, hvadenten man er triatlet, løber, mountain-bike rytter eller lignende, er det væsentligt at have en intensitets-indikator, således at man ved, hvor hårdt man træner. Ligeledes er det væsentligt at kende baggrunden og formålet med træningen i de enkelte træningszoner, således at man får mest muligt ud af sin træning.
+## Træningszoner
 
-Denne artikel kommer rundt omkring de forskellige muligheder der er til at styre træningsintensitet;
+Vi er især inspireret af Andrew Coggans 7 træningszoner til at beskrive træning. [Andrew Coggan](https://trainingpeaks.com/blog/power-training-levels/) opererer med syv forskellige træningszoner, som kan være gode guidelines for at kategorisere din træning.
 
-BORG-skala.
-Pulszoner (cykel, løb)
-Pace-zoner (svømning, løb)
-Watt-zoner / power-zoner (cykel)
+| Zone | Beskrivelse Energisystem |
+|-|-|-|
+| 1 | Restitution | Aerob |
+| 2 | Udholdenhed | Aerob |
+| 3 | Tempo | Hovedsageligt aerob |
+| 4 | Anaerob tærskel | Aerob og anaerob |
+| 5 | VO<sub>2</sub>max | Aerob og anaerob |
+| 6 | Anaerob kapacitet | Hovedsageligt anaerob |
+| 7 | Neuromuskulær power | Anaerob |
 
-Teori – træningszoner
-Træningszoner, pulszoner
+{% include figure image_path="https://images.squarespace-cdn.com/content/v1/5bbda853f4755a7a8c5cd44e/1588140394874-8A66I4NY44N0QIR814XB/Screenshot+2020-04-29+at+07.54.56.png?format=1500w" caption="Kilde: [endurancebikeandrun.com](https://endurancebikeandrun.com/blog/2020/4/29/how-to-use-heartrate-to-train-for-endurance-cyling)" %}
 
-Fysiologiske laktat-test er den mest præcise metode, omend det kan være en bekostelig erfære.
-Ved lav intensitet vil energi skabes via aerobe (primær) og anaerobe (sekundær) processor. Dette betyder, at der altid vil være laktat i blodet. Ved en højere belastning, kan energikravet ikke alene honoreres fra det aerobe system, hvorfor det anaerob-system må bidrage. Når dette sker, vil der ske en øget produktion af laktat i blodet – dette knæk på laktat-kurven kaldes den “aerobe tærskel”.
+For at forstå sammenhængen mellem zonerne, så er der et par begreber, der kan være nyttige at kende.
 
-For at forstå baggrunden for nedenstående metoder, er det vigtigt, at kende begrebet lactate threshold(LT)/tærksel eller anaerob tærskel/syregrænsen (kært barn har mange navne). Lactate threshold (LT) eller anaerobe tærskel er et teoretisk punkt, og altså det punkt, hvor reduktionen = produktionen af laktat. LT er med andre ord den højeste intensitet (puls, pace, watt), før produktionen af laktat bliver større end reduktionen, hvilket vil medfører en ophobning af laktat – dette vil ses som et yderligere knæk på laktat-kurven.
+Aerobe tærskel
+: Den aerobe tærskel er når kroppens aerobe system ikke kan honorere energikravet. Derfor begynder det anaerobe system at bidrag. Derved kan der måles højere koncentration af laktat i blodet. Knækket på kurven kalder man den *aerobe tærskel*.
 
-Billedet indikerer “aerob tærskel”, “anaerob tærskel”, “maksimal iltoptagelse (VO2max)” samt placeringen af de 6 træningszoner, som beskrevet senere.
+Anaerobe tærskel eller laktatktærsklen
+: Den anaerobe tærskel er når kroppen lige nøjagtigt kan nå at fjerne lige så meget mælkesyre, som der produceres. Den anaerobe tærskel er altså det punkt lige før produktionen af mælkesyre bliver større end den del der fjernes. Derfor kan der måles stigende koncentrationer af laktat i musklerne. Dette knaæk på kurven kaldes den *anaerobe tærskel*. Du kan læse mere om den [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}). Vi har også skrevet et indlæg, hvor vi [præciserer forskellen på mælkesyre og laktat]({% link _posts/2020-08-24-maelkesyre.md %}).
 
-Den anaerobe tærskel (LT) kan trænes, og man er derfor jævnligt nødt til at foretage nye test til bestemmelse af ens LT – afhængig af ens træning og træningsfremgang er det anbefalelsesværdigt, at foretage ny test hver 8-12 uge.
+Disse to punkter er indtegnet på følgende illustration sammen med de forskellige zoner. I zone 7 ophobes der ikke nødvendigvis mælkesyre i musklerne, så den er ikke indtegnet på grafen.
 
 {% include figure image_path="https://i1.wp.com/trilab.dk/wp-content/uploads/2012/11/Sk%C3%A6rmbillede-2016-01-13-kl.-21.20.50.png?resize=1024%2C664&ssl=1" caption="Kilde: [trilab.dk](https://trilab.dk/traeningszoner/)" %}
 
+Det kan også illustreres på følgende måde:
+
+{% include figure image_path="https://theathleteblog.com/wp-content/uploads/2019/02/Lactate-graph-1024x627.png" caption="Kilde: [theathleteblog.com](https://theathleteblog.com/heart-rate-training-zones/)" %}
+
+Både den aerobe tærskel og den anaerobe tærskel kan trænes, så derfor skal man jævnligt lave nye tests, hvis du baserer din træning på disse.
+
+Men her kigger vi lidt på at beskrive de enkelte træningszoner.
+
+## Oversigt over træningszonerne
+
+Her har vi samlet en oversigt over de enkelte træningszoner. Du behøver ikke tænke så meget over de enkelte forkortelser. De skal først bruges, når du har valgt en måde at regne de enkelte zoner ud.
+
 <div markdown="1" class="full">
 
-| Zone | Betegnelse | %LTHR | %HRR | %HR<sub>max</sub> | FTPa |  FTP | Borg | Beskrivelse |
-| - | - | - | - | - | - | - | - | - |
-| 1 | Aktiv restitution | \< 81% | 64% | 60-72% | \>124% | \<55% | \< 13 | Meget let, og bruges til starten af opvarmning, nedvarmning og/eller aktiv restitution. Nogle, oftest uerfarne atleter har bedre af, at holde helt fri i stedet for at køre aktiv restitution |
-| 2 | Udholdenhed | 81-89% | 64-72% | 72-82% | 124-115% | 56-75% | 13 | Det meste af træningen skal foregå i denne zone, hvilket oftest kan være svært, da men ikke føler man træner. Målet med træningen i denne zone er, at opbygge et solidt fundament ved at forbedre de langsomme “slow-twitch” muskelfibres evne til at arbejde i længere tid, hvorved der sker en række perifere adaptationer (forstørrelse og flere mitochondrier, flere kapillærer, øget enzym aktivitet og bedre forbrænding af kulhydrat og fedt). Træning i denne zone skal være længerevarende, LSD (long slow distance). Længerevarende konkurrencer (IRONMAN, halv ironman, marathon) køres oftest i denne zone sammen med zone 3 – alt afhængig af erfaring og form. |
-| 3 | Aerob kapacitet | 90-94% | 72-80% | 82-87% | 115-106% | 76-90% FTP | 14-15 | I denne zone aktiveres flere hurtige “fast-twitch” muskelfibre, hvorfor man primært går over til kulhydrat forbrænding. Træning i denne zone medfører en række centrale adaptationer (øget slag- og blodvolumen). Længerevarende konkurrencer (halv ironman, marathon) køres oftest i denne zone, træning i denne zone foregår på alle tider af året. |
-| 4 | Lactate threshold / anaerob tærskel (LT) | 94-102% | 80-90% | 88-92% | 106-98% | 91-105% | 16 | Træning i denne zone forbedre musklernes evne til at udvaske og tolerere laktat, hvormed ens LTHR forbedres. Træning af den anaerobe tærskel (LT) kan gøres ved intervaller (5-15 min) eller tempo ture/enkeltstarter (20-40 min). |
-| 5 | VO<sub>2</sub>max | 103-106%+ | 90-100% | 93-100% | 98-90% | 106-120% FTP | \>17-18 | Man skal være påpasselig med store mængder træning i denne zone, da restitutionstiden efterfølgende oftest er lang – dette kan på sigt medfører overtræning. VO2 max eller power træning er typisk korte, men meget intense intervaller (2-8 min) – disse typer træninger kræver lang restitutionstid. Puls er oftest et meget dårligt måleredskab i denne sammenhæng, da intervallerne kan være så korte, at pulsen ikke når at reagere og stabilisere sig ved denne belastning. |
-| 6 | Power / neuromuskulær power / sprint | \>107%+ | 100% | 100% af max puls | \<90% FTPa | \>121% FTP | 19-20 | Træning af power / neuromuskulær power er maksimal fart/watt på kort tid (sprint). Typisk intervaller af få sekunders varighed med lang restitutionstid mellem intervaller. |
+| Zone | Betegnelse | %LTHR | %HRR | %HR<sub>max</sub> | FTPa |  FTP | Borg | RPE | Varighed kont. | Varighed int. |
+| - | - | - | - | - | - | - | - | - | - | - |
+| 1 | Restitution | \< 81% | 64% | 60-72% | \>124% | \<55% | \< 13 | 1-2 | 30-90 min | N/A |
+| 2 | Udholdenhed | 81-89% | 64-72% | 72-82% | 124-115% | 56-75% | 13 | 2-3 | 60-300 min | N/A |
+| 3 | Tempo (aerob kapacitet) | 90-94% | 72-80% | 82-87% | 115-106% | 76-90% FTP | 3-4 | 14-15 | 60-180 min | N/A |
+| 4 | Anaerob Tærskel | 94-100% | 80-90% | 88-92% | 106-98% | 91-105% | 16 | N/A | 5-6 | 10-30 min |
+| 5 | VO<sub>2</sub>max | 100-102%+ | 90-100% | 93-100% | 98-90% | 106-120% FTP | \>17-18 | 7-8 | N/A | 3-8 min |
+| 6 | Anaerob kapacitet | \>103-106%+ | 100% | 100% af max puls | \<90% FTPa | \>121-150% FTP | 19-20 | 8-9 | N/A | 30 sek - 3 min |
+| 7 | Power og sprint | \>106%+ | 100% | 100% af max puls | \<90% FTPa | \>151% FTP | 19-20 | 10 | N/A | \< 15 sek |
 
 </div>
 
+{% comment %}
+
+## 1. Restitution
+
+Zone 1 er virkelig let træning, men det er stadig en vigtig træningszone. Du skal ramme denne zone på lette dage efter hårde træningsture eller løb og zonen mellem intervaller. Hæv ikke intensiteten på dine restitutionsture. At bruge mere tid i zone 1 vil forbedre kvaliteten af ​​dine træninger med høj intensitet.
+
+Meget let, og bruges til starten af opvarmning, nedvarmning og/eller aktiv restitution. Nogle, oftest uerfarne atleter har bedre af, at holde helt fri i stedet for at køre aktiv restitution.
+
+## 2. Udholdenhed
+
+I denne fase opbygger og vedligeholder du udholdenhed. At forbedre denne fase gør dig bedre til at forbrænde fedt, og nettet af kapilærer i musklerne forbedres. Forbedrer slagvolumen og nødvendige celleforandringer. Effekten af E-tempo er mere en funktion af tiden i zonen end af intensiteten.
+
+Det meste af træningen skal foregå i denne zone, hvilket oftest kan være svært, da men ikke føler man træner. Målet med træningen i denne zone er, at opbygge et solidt fundament ved at forbedre de langsomme “slow-twitch” muskelfibres evne til at arbejde i længere tid, hvorved der sker en række perifere adaptationer (forstørrelse og flere mitochondrier, flere kapillærer, øget enzym aktivitet og bedre forbrænding af kulhydrat og fedt). Træning i denne zone skal være længerevarende, LSD (long slow distance). Længerevarende konkurrencer (IRONMAN, halv ironman, marathon) køres oftest i denne zone sammen med zone 3 – alt afhængig af erfaring og form.
+
+## 3. Tempo
+
+Zone 3 er er hurtige tempoture. Zonen giver erfaring med fx maraton-tempo. I denne zone aktiveres flere hurtige “fast-twitch” muskelfibre, hvorfor man primært går over til kulhydrat forbrænding. Træning i denne zone medfører en række centrale adaptationer (øget slag- og blodvolumen). Længerevarende konkurrencer (halv ironman, marathon) køres oftest i denne zone, træning i denne zone foregår på alle tider af året.
+
+## 4. Laktattærskel
+
+Zone 4 kører lige rundt om din anaerobe tærskel. Lad os være klare; du bør ikke træne kontinuerligt i zone 4. Mælkesyretærskeltræning er baseret på intervaller på 10-30 minutter ad gangen. Tærsklen gavner alle fordi du træner dig selv op til at kunne arbejde med en højere intensitet.
+
+Træning i denne zone forbedre musklernes evne til at udvaske og tolerere laktat, hvormed ens LTHR forbedres. Træning af den anaerobe tærskel (LT) kan gøres ved intervaller (5-15 min) eller tempo ture/enkeltstarter (20-40 min).
+
+Forbedrer udholdenheden og evnen til at løbe i højt tempo. Skal føles "behageligt" rare - og i en hastighed, som du kan holde i 45-60 minutter
+
+## 5. VO<sub>2</sub>max
+
+Zone 5 er en meget intens træningszone, der går over din anaerobe træskel. Typisk bruger man intervaller fra 3-8 minutter.
+
+Man skal være påpasselig med store mængder træning i denne zone, da restitutionstiden efterfølgende oftest er lang – dette kan på sigt medfører overtræning. VO2 max eller power træning er typisk korte, men meget intense intervaller (2-8 min) – disse typer træninger kræver lang restitutionstid. Puls er oftest et meget dårligt måleredskab i denne sammenhæng, da intervallerne kan være så korte, at pulsen ikke når at reagere og stabilisere sig ved denne belastning.
+
+Forbedrer den maksimale iltoptagelse. Interval-tempo er hårde, men det er ikke _all out_-løb. Typisk er intervallerne i denne zone fra 3-5 minutter.
+
+## 6. Anaerob kapacitet
+
+Anaerob kapacitetstræning består af korte, men meget høje intensitetsintervaller, der varer mindre end 3 minutter. Det er her, pulsmåleren vil stoppe med at være nyttig, da den simpelthen ikke kan følge med.
+
+## 7. Neuromuskulær kraft
+
+Zone 7 er også kendt som sprintzonen. Det er her, du træner dit neuromuskulære system til at fyre disse muskelfibre af hurtigere. For at sige det enkelt; det er her, du går så hårdt som du kan i et par sekunder ad gangen som spring eller stående starter.
+
+Træning af power / neuromuskulær power er maksimal fart/watt på kort tid (sprint). Typisk intervaller af få sekunders varighed med lang restitutionstid mellem intervaller.
+
+{% endcomment %}
+
+## Hvordan styrer jeg intensitet i min træning?
+
+Dine træningszoner kan styres på flere forskellige måder.
+
+- **Puls**. Du skal bruge en pulsmåler og kan [udregne pulszoner til træning her]({% link _posts/2019-10-31-hrzones-puls.md %}). Pulszonerne kan fx udregnes i forhold til [hvilepulsen]({% link _posts/2020-06-03-hvilepuls.md %}), [max pulsen]({% link _posts/2020-06-02-max-hr.md %}) og pulsen ved den anaerob tærskel. Du kan kun bruge pulsen i zone 1-5, da du ikke kan få meningsfulde svar i zone 6 og 7.
+- **Hastighed og pace**. Du kan udregne hvilke tider, du skal løbe med i [løbsberegneren fra Jack Daniels](/loebesiden-jack-daniels-loebeberegner/). Det kræver enten en løbebane eller andre opmålte distancer eller et GPS-ur at træne på denne måde.
+- **Watt**. Du har brug for særligt udstyr for at bruge Watt. Det har jeg skrevet lidt om under i forhold til løb i indlægget om [løbeøkonomi og løbeteknik]({% link _posts/2019-12-16-running-economy.md %}). Men du kan også bruge en watt-måler på cykel. Jeg har skrevet mere om [functional threshold pwoer]({% link _posts/2021-08-29-ftp.md %}).
+- **Fornemmelsen i kroppen**. Du kan også bruge [Borg-skalaen](/borg-skala/) til at få en fornemmelse af, hvor hård den enkelte træning er. Hvis du ved, hvilken type energisystem, så kan du finde ud af, hvor hårdt det skal føles på Borg-skalaen.
+
+Ved at tænke træningen ind i forskellige træningszoner, kan man tage højde for [kroppens forskellige energisystemer]({% link _posts/2019-11-14-energisystemer-101.md %}), som er nødvendige for effekten af træningen.
+
+## Konklusion
+
+Træningszoner er et rigtig godt redskab til at kategorisere din træning. Du skal sørge for at ramme alle zonerne i løbet af din træning. Vi har skrevet mere om, [hvordan du laver et løbeprogram her]({% link _posts/2021-08-24-hvordan-loebeprogram.md %}). Jeg kan rigtig godt lide at programmere træning ud fra tid i stedet for distance. Derved kan både de hurtigere og langsommere løbere følge samme fremgangsmåde.
 
 {% comment %}
 

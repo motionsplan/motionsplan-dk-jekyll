@@ -70,7 +70,7 @@ Om du skal vælge pulzoner baseret på maxpuls eller på baggrund af pulsreserve
 | 4 | Anaerob tærskel | Aerob og anaerob |
 | 5 | VO<sub>2</sub>max | Aerob og anaerob |
 | 6 | Anaerob kapacitet | Hovedsageligt anaerob |
-| 7 | Neuromuskulær power | Anarob |
+| 7 | Neuromuskulær power | Anaerob |
 
 ## Beregning af pulszoner ud fra pulsreserven
 
