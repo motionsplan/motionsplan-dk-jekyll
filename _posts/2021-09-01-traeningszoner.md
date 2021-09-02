@@ -34,6 +34,8 @@ Vi er især inspireret af Andrew Coggans 7 træningszoner til at beskrive træni
 | 6 | Anaerob kapacitet | Hovedsageligt anaerob |
 | 7 | Neuromuskulær power | Anaerob |
 
+Du kan læse en sammenfatning af de enkelte zoner fra denne grafik.
+
 {% include figure image_path="https://images.squarespace-cdn.com/content/v1/5bbda853f4755a7a8c5cd44e/1588140394874-8A66I4NY44N0QIR814XB/Screenshot+2020-04-29+at+07.54.56.png?format=1500w" caption="Kilde: [endurancebikeandrun.com](https://endurancebikeandrun.com/blog/2020/4/29/how-to-use-heartrate-to-train-for-endurance-cyling)" %}
 
 For at forstå sammenhængen mellem zonerne, så er der et par begreber, der kan være nyttige at kende.
@@ -159,8 +161,8 @@ Her er nogle forskellige bud på, hvordan de forskellige zoner kan måles på fo
 | 4 | Anaerob Tærskel | 94-100% | 80-90% | 88-92% | 106-98% | 91-105% | 16 | N/A | 5-6 | 10-30 min |
 >>>>>>> Added training zones
 | 5 | VO<sub>2</sub>max | 100-102%+ | 90-100% | 93-100% | 98-90% | 106-120% FTP | \>17-18 | 7-8 | N/A | 3-8 min |
-| 6 | Anaerob kapacitet | \>103-106%+ | 100% | 100% af max puls | \<90% FTPa | \>121-150% FTP | 19-20 | 8-9 | N/A | 30 sek - 3 min |
-| 7 | Power og sprint | \>106%+ | 100% | 100% af max puls | \<90% FTPa | \>151% FTP | 19-20 | 10 | N/A | \< 15 sek |
+| 6 | Anaerob kapacitet | N/A | N/A | N/A | \<90% FTPa | \>121-150% FTP | 19-20 | 8-9 | N/A | 30 sek - 3 min |
+| 7 | Power og sprint | N/A | N/A | N/A | \<90% FTPa | \>151% FTP | 19-20 | 10 | N/A | \< 15 sek |
 
 </div>
 
