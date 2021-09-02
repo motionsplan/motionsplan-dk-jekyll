@@ -34,6 +34,8 @@ Vi er især inspireret af Andrew Coggans 7 træningszoner til at beskrive træni
 | 6 | Anaerob kapacitet | Hovedsageligt anaerob |
 | 7 | Neuromuskulær power | Anaerob |
 
+Du kan læse en sammenfatning af de enkelte zoner fra denne grafik.
+
 {% include figure image_path="https://images.squarespace-cdn.com/content/v1/5bbda853f4755a7a8c5cd44e/1588140394874-8A66I4NY44N0QIR814XB/Screenshot+2020-04-29+at+07.54.56.png?format=1500w" caption="Kilde: [endurancebikeandrun.com](https://endurancebikeandrun.com/blog/2020/4/29/how-to-use-heartrate-to-train-for-endurance-cyling)" %}
 
 For at forstå sammenhængen mellem zonerne, så er der et par begreber, der kan være nyttige at kende.
@@ -42,7 +44,7 @@ Aerobe tærskel
 : Den aerobe tærskel er når kroppens aerobe system ikke kan honorere energikravet. Derfor begynder det anaerobe system at bidrag. Derved kan der måles højere koncentration af laktat i blodet. Knækket på kurven kalder man den *aerobe tærskel*.
 
 Anaerobe tærskel eller laktatktærsklen
-: Den anaerobe tærskel er svarende til den højeste intensitet, som kroppen kan bibeholde i længere tid. AT er den øverste grænse for en delvis ligevægt i forholdet mellem bortskaffelse og ophobning af træthedstoffer. Der vil være en gradvis ophobning af træthedsstoffer, og på et tidspunkt vil intensiteten ikke længere kunne opretholdes. Derfor kan der måles stigende koncentrationer af laktat i musklerne. Dette knaæk på kurven kaldes den *anaerobe tærskel*. Du kan læse mere om den [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}). Vi har også skrevet et indlæg, hvor vi [præciserer forskellen på mælkesyre og laktat]({% link _posts/2020-08-24-maelkesyre.md %}).
+: Den anaerobe tærskel er når kroppen lige nøjagtigt kan nå at fjerne lige så meget mælkesyre, som der produceres. Den anaerobe tærskel er altså det punkt lige før produktionen af mælkesyre bliver større end den del der fjernes. Derfor kan der måles stigende koncentrationer af laktat i musklerne. Dette knaæk på kurven kaldes den *anaerobe tærskel*. Du kan læse mere om den [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}). Vi har også skrevet et indlæg, hvor vi [præciserer forskellen på mælkesyre og laktat]({% link _posts/2020-08-24-maelkesyre.md %}).
 
 Disse to punkter er indtegnet på følgende illustration sammen med de forskellige zoner. I zone 7 ophobes der ikke nødvendigvis mælkesyre i musklerne, så den er ikke indtegnet på grafen.
 
@@ -144,11 +146,11 @@ Her er nogle forskellige bud på, hvordan de forskellige zoner kan måles på fo
 | - | - | - | - | - | - | - | - | - | - | - |
 | 1 | Restitution | \< 81% | 64% | 60-72% | \>124% | \<55% | \< 13 | 1-2 | 30-90 min | N/A |
 | 2 | Udholdenhed | 81-89% | 64-72% | 72-82% | 124-115% | 56-75% | 13 | 2-3 | 60-300 min | N/A |
-| 3 | Tempo (aerob kapacitet) | 90-94% | 72-80% | 82-87% | 115-106% | 76-90% FTP | 14-15 | 3-4 |60-180 min | N/A |
+| 3 | Tempo (aerob kapacitet) | 90-94% | 72-80% | 82-87% | 115-106% | 76-90% FTP | 14-15 | 3-4 | 60-180 min | N/A |
 | 4 | Anaerob Tærskel | 94-100% | 80-90% | 88-92% | 106-98% | 91-105% | 16 | 5-6 | N/A | 10-30 min |
 | 5 | VO<sub>2</sub>max | 100-102%+ | 90-100% | 93-100% | 98-90% | 106-120% FTP | \>17-18 | 7-8 | N/A | 3-8 min |
-| 6 | Anaerob kapacitet | \>103-106%+ | 100% | 100% af max puls | \<90% FTPa | \>121-150% FTP | 19-20 | 8-9 | N/A | 30 sek - 3 min |
-| 7 | Power og sprint | \>106%+ | 100% | 100% af max puls | \<90% FTPa | \>151% FTP | 19-20 | 10 | N/A | \< 15 sek |
+| 6 | Anaerob kapacitet | N/A | N/A | N/A | \<90% FTPa | \>121-150% FTP | 19-20 | 8-9 | N/A | 30 sek - 3 min |
+| 7 | Power og sprint | N/A | N/A | N/A | \<90% FTPa | \>151% FTP | 19-20 | 10 | N/A | \< 15 sek |
 
 </div>
 

@@ -1,6 +1,7 @@
 ---
-title: &title "Udregn pulszoner ud fra maxpuls og pulsreserve [Beregner]"
-excerpt: "Når du vil lave pulstræning, så kan du beregne pulszoner og træningsinstensitet ud fra din maxpuls eller pulsreserve. Når ud har udregnet dine træningszoner, så kan du målrette din træning ud fra pulsen."
+title: &title "Udregn pulszoner: Fra maxpuls, laktattærskel eller pulsreserve [Beregner]"
+seo_title: "Find dine pulszoner med vores beregner"
+excerpt: "Når du vil lave pulstræning, så kan du beregne pulszoner og træningsinstensitet ud fra din maxpuls, laktattærksel eller pulsreserve. Når ud har udregnet dine træningszoner, så kan du målrette din træning ud fra pulsen."
 permalink: /pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/
 redirect_from:
   - /puls/
@@ -60,7 +61,7 @@ Om du skal vælge pulzoner baseret på maxpuls eller på baggrund af pulsreserve
 
 ## Forskellige træningszoner
 
-[Andrew Coggan](https://blog.flocycling.com/training-performance/how-are-heart-rate-and-power-used-for-training/) opererer med syv forskellige træningszoner, som kan være gode guidelines for at kategorisere din træning.
+Andrew Coggan opererer med [syv forskellige træningszoner]({% link _posts/2021-09-01-traeningszoner.md %}), som kan være gode guidelines for at kategorisere din træning.
 
 | Zone | Beskrivelse Energisystem |
 |-|-|-|
@@ -90,31 +91,27 @@ HR<sub>TARGET</sub> = [(HR<sub>MAX</sub> - HR<sub>REST</sub>) * intensitet%] + H
 
 ## Jack Daniels pulszoner ift. maksimale puls
 
-Jack Daniels baserer sine træningsprogrammer på hastigheder. Du kan udregne hans foreslåede løbehastigheder i de forskellige zoner i [Jack Daniels løbeberegner]({% link _posts/2020-08-01-jack-daniels-loebeberegner.md %}). De enkelte zoner er imidlertid også forbundet med pulsværdier, som er sat i forhold til den maksimale puls.
+Jack Daniels baserer sine træningsprogrammer på hastigheder. Du kan udregne hans foreslåede løbehastigheder i de forskellige zoner i [Jack Daniels løbeberegner]({% link _posts/2020-08-01-jack-daniels-loebeberegner.md %}).
 
-| | | %VO2max | %HR-max | Effekt |
-|-|-|-|-|-|
-| E | Easy Run | 59%-74% | 65-79%  | Forbedrer slagvolumen og nødvendige celleforandringer. Effekten af E-tempo er mere en funktion af tiden i zonen end af intensiteten. |
-| M | Maraton-tempo | 75-84% | 80-90% | Erfaring med maraton-tempoet |
-| T | Tærskel-træning | 83-88% | 88-92% | Forbedrer udholdenheden og evnen til at løbe i højt tempo. Skal føles "behageligt" rare - og i en hastighed, som du kan holde i 45-60 minutter |
-| I | Intervaltræning | 95-100% | 98-100% | Forbedrer den maksimale iltoptagelse. Interval-tempo er hårde, men det er ikke _all out_-løb. Typisk er intervallerne i denne zone fra 3-5 minutter. |
-| R | Repetitions | | | Typisk omkring dit 1500 meter tempo. Skal forbedre din hastighed og løbeøkonomi. Målet er at løbe afslappet samtidig med at du løber hurtigt, så du lærer kroppen at blive mere effektiv ved lavere hastigheder. |
+De enkelte løbeformer for Jack Daniels er imidlertid også forbundet med pulsværdier, som er sat i forhold til hans løbeformer og den maksimale puls. Dem har vi forsøgt at tilpasse til denne beregner. Hvis du kender nogle bedre standarder for intensitet i forhold til maxpuls, så skriv endelig.
 
-Det lader til pulszonerne her er sat så de rammer øvede løbere. Typisk er den anaerobe tærskel lidt lavere for begyndere.
+Måske rammer pulszonerne her bedst de øvede løbere. Typisk er den anaerobe tærskel lidt lavere for begyndere.
 
 {% include calculate-hrzones-maxhr.html %}
 
 ## Find dine egne pulszoner med tests
 
-Karvonens træningszoner har helt sikkert også nogle begrænsninger. Jeg kan godt lide særligt at fokusere på tre elementer i konditionstræning:
+Generelle træningszoner kan helt sikkert have nogle begrænsninger. Jeg kan godt lide særligt at fokusere på tre elementer i konditionstræning:
 
-1. Maksimale iltoptagelse
-2. Anaerobe tærskel og tærskeltræning
-3. Udholdenhed og slagvolumen
+1. Maksimale iltoptagelse (zone 5)
+2. Anaerobe tærskel og tærskeltræning (zone 4)
+3. Udholdenhed og slagvolumen (zone 2)
 
-Du kan sagtens bruge pulszoner til at hjælpe med at styre træningen, men det er en stor fordel, hvis pulszonerne er individuelt tilpassede. Det kan du formentlig ikke gøre bare med Karvonens pulszoner, som bare er forskellige procenter.
+Du kan sagtens bruge pulszoner til at hjælpe med at styre træningen, men det er en stor fordel, hvis pulszonerne er individuelt tilpassede.
 
-Du bliver altså nødt til at teste, hvad dine **individuelle pulszoner** er. Jeg kunne foreslå tre tests, som kan hjælpe dig med at fastslå væsentlige pulstræningszoner.
+Du kan lave dine egne **individuelle pulszoner** ved at teste dine pulszoner. Du kan naturligvis lade dig teste i et fysiologisk testcenter, hvor det kan ske relativt præcist.
+
+Hvis du ikke helt har penge til det, så kan du lave dine **tilpassede pulstræningszoner** med tre forskellige tests.
 
 ## Find pulszonen ved den maksimale iltoptagelse
 
@@ -133,3 +130,5 @@ På de moderne pulsure er det også relativt enkelt at lave en test af den anaer
 ## Find pulzonen for udholdenhed og slagvolumen
 
 Joel Jamieson foreslår, at man løber med en puls fra 120-150 i det han kalder _cardiac output_-træning.
+
+[Andre](https://missadventurepants.com/blog/lactate-test-aerobic-threshold) foreslår, at man tester sin aerobe tærskel ved at trække vejret gennem næsen. Når du når et tempo, hvor du ikke længere kan få ilt nok ved kune at trække vejret gennem næsen, så er du omkring din aerobe tærskel.
