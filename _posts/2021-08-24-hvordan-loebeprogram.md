@@ -31,7 +31,7 @@ Først skal du naturligvis have kigget på dit mål for træningen. Det er forsk
 Grundlæggende kan man i løb lave træningszoner ud fra følgende faktorer.
 
 - **Hastighed**. Du kan udregne hvilke tider, du skal løbe med i [løbsberegneren fra Jack Daniels](/loebesiden-jack-daniels-loebeberegner/). Det kræver enten en løbebane eller andre opmålte distancer eller et GPS-ur at træne på denne måde.
-- **Puls**. Du skal bruge en pulsmåler og kan [udregne pulszoner til træning her]({% link _posts/2019-10-31-intensitet-puls.md %}). Pulszonerne kan fx udregnes i forhold til [hvilepulsen]({% link _posts/2020-06-03-hvilepuls.md %}) og [max pulsen]({% link _posts/2020-06-02-max-hr.md %}).
+- **Puls**. Du skal bruge en pulsmåler og kan [udregne pulszoner til træning her]({% link _posts/2019-10-31-hrzones-puls.md %}). Pulszonerne kan fx udregnes i forhold til [hvilepulsen]({% link _posts/2020-06-03-hvilepuls.md %}) og [max pulsen]({% link _posts/2020-06-02-max-hr.md %}).
 - **Watt**. Du har brug for særligt udstyr for at bruge Watt. Det har jeg skrevet lidt om under [løbeøkonomi og løbeteknik]({% link _posts/2019-12-16-running-economy.md %}).
 - **Fornemmelsen i kroppen**. Du kan også bruge [Borg-skalaen](/borg-skala/) til at få en fornemmelse af, hvor hård den enkelte træning er. Hvis du ved, hvilken type energisystem, så kan du finde ud af, hvor hårdt det skal føles på borgskalaen.
 
@@ -153,7 +153,7 @@ Når du forbedrer din maksimale iltoptagelse, så vil du også alt andet lige [f
 
 ### Udførelse
 
-Når du vil træne din maksimale iltoptagelse, så er det hårdt, og du skal arbejde med høj intensitet. Typisk vil pulsfrekvensen være omkring 95% af din _[heart rate reserve]({% link _posts/2019-10-31-intensitet-puls.md %})_ (HRR).
+Når du vil træne din maksimale iltoptagelse, så er det hårdt, og du skal arbejde med høj intensitet. Typisk vil pulsfrekvensen være omkring 95% af din _[heart rate reserve]({% link _posts/2019-10-31-hrzones-puls.md %})_ (HRR).
 
 *[HRR]: Heart Rate Reserve
 
@@ -285,7 +285,7 @@ Når du bruger restitutionstræning i dit løbeprogram, skal du altså være opm
 
 ### Udførelse
 
-Restitutionsløb er et roligt løb, hvor du arbejder med en intensitet som svarer til omkring 50-60% af din [pulsreserve]({% link _posts/2019-10-31-intensitet-puls.md %}). Du kan løbe et restitutionsløb fra 20 minutter til 60 minutter alt efter din nuværende form.
+Restitutionsløb er et roligt løb, hvor du arbejder med en intensitet som svarer til omkring 50-60% af din [pulsreserve]({% link _posts/2019-10-31-hrzones-puls.md %}). Du kan løbe et restitutionsløb fra 20 minutter til 60 minutter alt efter din nuværende form.
 
 ### Hyppighed og mængde
 
