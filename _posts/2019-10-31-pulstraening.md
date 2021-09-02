@@ -135,7 +135,7 @@ AP(60%) = 0,6 x 200 = 120 bpm
 
 Der er unægtelig lidt forskal på at ramme den ene eller ande puls i pulstræningen.
 
-Pulszonerne får også stor betydning for, hvor vellykket din træning kan blive. Derfor har du brug for, at du har fået lavet pulszonerne rigtigt. Vi har lavet en grundig gennemgang af [pulszoner og en beregner]({% link _posts/2019-10-31-intensitet-puls.md %}) til at finde dine pulszoner. Der er også forslag til, hvordan du kan lave nogle lidt mere præcise tests af de enkelte pulszoner i stedet for bare at basere dem på generelle procenter.
+Pulszonerne får også stor betydning for, hvor vellykket din træning kan blive. Derfor har du brug for, at du har fået lavet pulszonerne rigtigt. Vi har lavet en grundig gennemgang af [pulszoner og en beregner]({% link _posts/2019-10-31-hrzones-puls.md %}) til at finde dine pulszoner. Der er også forslag til, hvordan du kan lave nogle lidt mere præcise tests af de enkelte pulszoner i stedet for bare at basere dem på generelle procenter.
 
 ## Pulstræning i praksis
 
@@ -163,7 +163,7 @@ På Garmin uret kan du relativt let opstille dine egne zoner til pulstræning. D
 
 {% include gallery id="garmin_setup" caption="Sådan sætter du zonerne op til pulstræing i Garmin Connect på din telefon." %}
 
-Hvilke procenter du vil have til de forskellige zoner er op til din træningsfilosofi. Du kan læse lidt flere forslag til [opstilling i vores artikel om pulszoner]({% link _posts/2019-10-31-intensitet-puls.md %}).
+Hvilke procenter du vil have til de forskellige zoner er op til din træningsfilosofi. Du kan læse lidt flere forslag til [opstilling i vores artikel om pulszoner]({% link _posts/2019-10-31-hrzones-puls.md %}).
 
 ## Konklusion
 
