@@ -52,7 +52,7 @@ Inden du går i gang med at udføre testen, kan det være en god ide at læse gr
 
 {% endcomment %}
 
-Jeg har skrevet en mere udførlig artikel om selve [Borg-skalaen, hvor du også kan downloade Borg skala som PDF](/borg/).
+Jeg har skrevet en mere udførlig artikel om selve [Borg-skalaen, hvor du også kan downloade Borg skala som PDF](/borg-skala/).
 
 ## Beregn kondital fra Borg 15-testen
 

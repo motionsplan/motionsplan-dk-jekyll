@@ -1469,7 +1469,7 @@ $(document).ready(function() {
         $("[name='mcculloch_ipf_points']").val(age_adjusted.toFixed(2));
     });
      // Calculate Karvonen Intensity
-    $("#calculator_karvonen_intensity").submit(function(e) {
+    $("#calculator_hrzones_karvonen").submit(function(e) {
         console.log("Calculate Karvonen Intensity Zones");
         e.preventDefault();
 
@@ -1490,6 +1490,39 @@ $(document).ready(function() {
         $("#karvonen_zone5_a").val(k.getTargetHR(90));
         $("#karvonen_zone5_b").val(max_hr);
         $("#karvonen_hrr").val(hrr);
+    });
+    $("#calculator_hrzones_friel").submit(function(e) {
+        console.log("Calculate Friel Intensity Zones");
+        e.preventDefault();
+
+        let lthr = Number($("#friel_lthr").val());
+
+        $("#friel_zone1_b").val((0.75 * lthr).toFixed(0));
+        $("#friel_zone2_a").val((0.75 * lthr).toFixed(0));
+        $("#friel_zone2_b").val((0.85 * lthr).toFixed(0));
+        $("#friel_zone3_a").val((0.85 * lthr).toFixed(0));
+        $("#friel_zone3_b").val((0.95 * lthr).toFixed(0));
+        $("#friel_zone4_a").val((0.95 * lthr).toFixed(0));
+        $("#friel_zone4_b").val((1.02 * lthr).toFixed(0));
+        $("#friel_zone5_a").val((1.02 * lthr).toFixed(0));
+        $("#friel_zone5_b").val('Maxpuls');
+    });
+    $("#calculator_hrzones_maxhr").submit(function(e) {
+        console.log("Calculate Maxhr Intensity Zones");
+        e.preventDefault();
+
+        let maxhr = Number($("#maxhr_max_hr").val());
+
+        $("#maxhr_zone1_a").val((0.65 * maxhr).toFixed(0));
+        $("#maxhr_zone1_b").val((0.70 * maxhr).toFixed(0));
+        $("#maxhr_zone2_a").val((0.70 * maxhr).toFixed(0));
+        $("#maxhr_zone2_b").val((0.80 * maxhr).toFixed(0));
+        $("#maxhr_zone3_a").val((0.80 * maxhr).toFixed(0));
+        $("#maxhr_zone3_b").val((0.90 * maxhr).toFixed(0));
+        $("#maxhr_zone4_a").val((0.88 * maxhr).toFixed(0));
+        $("#maxhr_zone4_b").val((0.94 * maxhr).toFixed(0));
+        $("#maxhr_zone5_a").val((0.94 * maxhr).toFixed(0));
+        $("#maxhr_zone5_b").val(maxhr);
     });
     $("#calculator_vo2max_distance_test").submit(function(e) {
         console.log("Calculate Distance");

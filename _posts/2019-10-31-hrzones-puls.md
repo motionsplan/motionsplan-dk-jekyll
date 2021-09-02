@@ -34,7 +34,7 @@ Pulstræning hænger sammen med konditionstræning og kredsløbstræning. Det er
 
 I [pulstræning]({% link _posts/2019-10-31-pulstraening.md %}) skal du altså først kende **dine pulszoner**, og vide hvad du træner i de forskellige træningszoner. Derefter kan du fx bruge en pulsmåler til at holde styr på, at pulsen rammer den rigtige zone i løbet af din træning.
 
-Når du skal beregne dine pulszoner, kan du generelt gøre det ved enten at tage udgangspunkt i pulsreserven (HR<sub>reserve</sub>) eller i den maksimale puls (HR<sub>max</sub>).
+Når du skal beregne dine pulszoner, kan du generelt gøre det ved enten at tage udgangspunkt i pulsreserven (HR<sub>reserve</sub>), pulsen ved den anaerobe tærskel (LTHR) eller i den maksimale puls (HR<sub>max</sub>).
 
 Lad os først lige få definitionerne på plads.
 
@@ -48,6 +48,9 @@ Hvilepuls
 Max-pulsen
 : Max-pulsen er den absolut højeste pulsværdi, dit hjerte kan præstere. Jeg har skrevet et indlæg om, [hvordan du selv kan måle din max-puls](/test-max-puls/).
 
+Pulsen ved den anaerobe tærskel (AT)
+: Pulsen ved den anaerobe tærskel er meget brugt til at lave pulszoner ud fra.
+
 Pulsreserven
 : Pulsreserven er forskellen mellem din max-puls og hvilepuls.
 
@@ -55,15 +58,35 @@ Når du kender værdierne af din hvilepuls og max-puls, så kan du begynde at ud
 
 Om du skal vælge pulzoner baseret på maxpuls eller på baggrund af pulsreserven er lidt op til dig selv. Du kan læse mere om fordele og ulemper under vores artikel om [pulstræning]({% link _posts/2019-10-31-pulstraening.md %}).
 
-## Beregning af Karvonens pulszoner og intensiteter
+## Forskellige træningszoner
 
-Karvonen benytter pulsreserven til at beregne sine [klassiske pulszoner](https://runandbeyond.com/karvonen-heart-rate/). Karvonens pulszoner bliver brugt i rigtig mange sammenhænge.
+[Andrew Coggan](https://blog.flocycling.com/training-performance/how-are-heart-rate-and-power-used-for-training/) opererer med syv forskellige træningszoner, som kan være gode guidelines for at kategorisere din træning.
 
-{% include calculate-karvonen-intensity.html %}
+| Zone | Beskrivelse Energisystem |
+|-|-|-|
+| 1 | Restitution | Aerob |
+| 2 | Udholdenhed | Aerob |
+| 3 | Tempo | Hovedsageligt aerob |
+| 4 | Anaerob tærskel | Aerob og anaerob |
+| 5 | VO<sub>2</sub>max | Aerob og anaerob |
+| 6 | Anaerob kapacitet | Hovedsageligt anaerob |
+| 7 | Neuromuskulær power | Anarob |
+
+## Beregning af pulszoner ud fra pulsreserven
+
+Karvonen benytter pulsreserven til at beregne sine [klassiske pulszoner](https://runandbeyond.com/karvonen-heart-rate/). Karvonens pulszoner bliver brugt i rigtig mange sammenhænge. Her har vi omskrevet navnene på de enkelte zoner til Coggans terminologi.
+
+{% include calculate-hrzones-karvonen.html %}
 
 Karvonens pulszoner kan være et udemærket udgangspunkt for træningen. Det er ofte Karvonens zoner, der er forprogrammeret ind i forskellige pulsure. Formlen bag Karvonens pulszoner er følgende:
 
 HR<sub>TARGET</sub> = [(HR<sub>MAX</sub> - HR<sub>REST</sub>) * intensitet%] + HR<sub>REST</sub>
+
+## Pulszoner beregner ud fra den anaerobe tærskel
+
+[Joe Friel](https://trainingbible.com/joesblog/2009/11/quick-guide-to-setting-zones.html) baserer sine pulszoner på pulsen ved den anaerobe tærskel (LTHR). Han har i alt 7 zoner, men her har vi reduceret zonerne til at modsvare de vejledende træningszoner fra Coggan, som vi har skitseret ovenfor. Coggan benytter nogle lidt [andre pulsværdier](https://blog.flocycling.com/training-performance/how-are-heart-rate-and-power-used-for-training/), men vi har god erfaring med at bruge Friels pulszoner.
+
+{% include calculate-hrzones-friel.html %}
 
 ## Jack Daniels pulszoner ift. maksimale puls
 
@@ -78,6 +101,8 @@ Jack Daniels baserer sine træningsprogrammer på hastigheder. Du kan udregne ha
 | R | Repetitions | | | Typisk omkring dit 1500 meter tempo. Skal forbedre din hastighed og løbeøkonomi. Målet er at løbe afslappet samtidig med at du løber hurtigt, så du lærer kroppen at blive mere effektiv ved lavere hastigheder. |
 
 Det lader til pulszonerne her er sat så de rammer øvede løbere. Typisk er den anaerobe tærskel lidt lavere for begyndere.
+
+{% include calculate-hrzones-maxhr.html %}
 
 ## Find dine egne pulszoner med tests
 
