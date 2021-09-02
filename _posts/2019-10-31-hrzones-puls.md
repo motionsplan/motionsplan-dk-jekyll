@@ -115,7 +115,7 @@ Hvis du ikke helt har penge til det, så kan du lave dine **tilpassede pulstræn
 
 ## Find pulszonen ved den maksimale iltoptagelse
 
-Man kan løbe omkring den maksimale iltoptagelse i maksimalt omkring 6 minutter.
+Man kan løbe omkring den maksimale iltoptagelse i maksimalt omkring 6 minutter. Det er netop den test, du skal udregne [Billat intervaller]({% link _posts/2020-08-08-billat.md %}) ud fra.
 
 ## Find pulszonen ved den anaerobe tærskel
 
@@ -127,7 +127,7 @@ På de moderne pulsure er det også relativt enkelt at lave en test af den anaer
 
 {% include gallery id="garmin_lactate" caption="Der er en test af den anaerobe tærskel direkte på dit Garmin-ur." %}
 
-## Find pulzonen for udholdenhed og slagvolumen
+## Find pulzonen for udholdenhed
 
 Joel Jamieson foreslår, at man løber med en puls fra 120-150 i det han kalder _cardiac output_-træning.
 
