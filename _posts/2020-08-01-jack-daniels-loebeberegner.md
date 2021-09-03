@@ -1,14 +1,14 @@
 ---
 title: "Løbsberegner: Beregn træningstempo og konkurrencetider med Jack Daniels Running Formula"
 seo_title: "Løbsberegner - Beregn løbetider for træning og konkurrence »"
-excerpt: "Her på løbesiden kan du finde en løbsberegner, der kan beregne dit træningstempo og konkurrencetider ud fra Jack Daniels Running Formula. Du kan let udregne din løbehastighed allerede i dag."
+excerpt: "I denne løbsberegner kan du beregne dit træningstempo og konkurrencetider ud fra Jack Daniels Running Formula. Udregn din løbehastighed og løbepace allerede nu baseret på en aktuel løbetid."
 permalink: /loebesiden-jack-daniels-loebeberegner/
-last_modified_at: 2021-03-28T09:41:09Z
+last_modified_at: 2021-08-28T09:41:09Z
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1529795533870-ea8020391255?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
   teaser: https://images.unsplash.com/photo-1529795533870-ea8020391255?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
-  caption: "Løbesiden: Jack Daniels løbsberegner og løbeberegner til udregning af træningstempo og konkurrencetider"
+  caption: "Jack Daniels løbeberegner kan udregne træningstempo og konkurrencetider"
 category:
   - Løb
 tags:
@@ -21,7 +21,7 @@ feature_row:
   - image_path: https://cdn6.tales.dk/00039/86456/cover.1579497278.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/daniels-running-formula_jack-daniels_9781450431835
     title: "Daniels' Running Formula"
-    excerpt: "Jack Daniels was named the world's best running coach by Runner's World magazine, and his best-selling book, Daniels' Running Formula, shows you why. Whether your race of choice is the 800 meters, the marathon, or anything in between, Daniels' Running Formula, Third Edition, offers a proven recipe for success."
+    excerpt: "Jack Daniels er en af de toneangivende løbetrænere i verden. Han har udviklet Daniels' Running Formula, hvor du via dine konkurrencetider kan udregne dine løbetider til træning og konkurrence. Læs alle detaljerne i hans bog."
     btn_label: "Tjek prisen"
     btn_class: "btn--info"
     rel: sponsored nofollow noopener
@@ -42,7 +42,7 @@ template:
 breadcrumbs: true
 ---
 
-Her på løbesiden kan du finde en løbsberegner, der kan beregne dit træningstempo og konkurrencetider ud fra Jack Daniels Running Formula. Du kan let udregne din løbehastighed allerede i dag.
+I denne løbsberegner kan du beregne dit træningstempo og konkurrencetider ud fra Jack Daniels Running Formula. Du skal bare bruge en aktuel løbetid, så kan du udregne din løbehastighed og dit løbepace, så du ved hvor hurtigt du skal løbe til træning for at blive bedre.
 
 Enhver løbeside med respekt for sig selv skal naturligvis have en løbeberegner.
 
@@ -89,16 +89,33 @@ Jeg har også lavet en beregner, hvor du kan [omregne dine løbehastighed fra pa
 
 ## Tabel over løbetempo fra Jack Daniels Løbsberegner
 
-| | | %VO2max | %HR-max | Effekt |
-|-|-|-|-|-|
-| E | Easy Run | 59%-74% | 65-79%  | Forbedrer slagvolumen og nødvendige celleforandringer. Effekten af E-tempo er mere en funktion af tiden i zonen end af intensiteten. |
-| M | Maraton-tempo | 75-84% | 80-90% | Erfaring med maraton-tempoet |
-| T | Tærskel-træning | 83-88% | 88-92% | Forbedrer udholdenheden og evnen til at løbe i højt tempo. Skal føles "behageligt" rare - og i en hastighed, som du kan holde i 45-60 minutter |
-| I | Intervaltræning | 95-100% | 98-100% | Forbedrer den maksimale iltoptagelse. Interval-tempo er hårde, men det er ikke _all out_-løb. Typisk er intervallerne i denne zone fra 3-5 minutter. |
-| R | Repetitions | | | Typisk omkring dit 1500 meter tempo. Skal forbedre din hastighed og løbeøkonomi. Målet er at løbe afslappet samtidig med at du løber hurtigt, så du lærer kroppen at blive mere effektiv ved lavere hastigheder. |
-| | Strides | | | Kontrollerede accelerationer på omkring 80-100 meter (cirka 20 sekunder) for at hjælpe med løbeteknik. 60 sekunders pause mellem hvert stigningsløb. |
+<div class="full" markdown="1">
 
-Mange taler om en 80/20 plan for løbetræningen. Det betyder, at omkring 80% af træningen skal være _easy run_ med E-tempo, mens 20% af træningen skal være træning med høj intensitet. Vi har skrevet meget mere om, [hvordan man laver et løbetræningsprogram]({% link _posts/2021-08-24-hvordan-loebeprogram.md %}), som du kan lade dig inspirere af til sammensætningen af din træning.
+| | | %VO2max | %HR<sub>max</sub> | Effekt | Ugentlig træning |
+|-|-|-|-|-|-|
+| E | Easy Run | 59%-74% | 65-79%  | Forbedrer slagvolumen og nødvendige celleforandringer omkring musklerne. Effekten af E-tempo er mere en funktion af tiden i zonen end af intensiteten. | 1 lang tur om ugen. Resterende del af træningen skal også være i denne zone |
+| M | Maraton-tempo | 75-84% | 80-90% | Erfaring med maraton-tempoet | Max 25 % |
+| T | Tærskel | 83-88% | 88-92% | Forbedrer udholdenheden og evnen til at løbe i højt tempo. Skal føles komfortable hårde - og i en hastighed, som du kan holde i 45-60 minutter | Max 10%. 30 minutter om ugen |
+| I | Intervaller | 95-100% | 98-100% | Forbedrer den maksimale iltoptagelse. Interval-tempo er hårde, men det er ikke _all out_-løb. Typisk er intervallerne i denne zone fra 3-5 minutter. | Max 8% |
+| R | Repetitions | | | Typisk omkring dit 1500 meter tempo. Skal forbedre din hastighed og løbeøkonomi. Målet er at løbe afslappet samtidig med at du løber hurtigt, så du lærer kroppen at blive mere effektiv ved lavere hastigheder. | Max 5% |
+
+</div>
+
+Ud over de enkelte løbezoner, så bruger Jack Daniels også **strides** eller **stigningsløb**, som er kontrollerede accelerationer på omkring 80-100 meter (cirka 20 sekunder) for at hjælpe med løbeteknik. 60 sekunders pause mellem hvert stigningsløb.
+
+## Hvor meget træning i hver zone?
+
+Jack Daniels har angivet nogenlunde hvor meget træning, der skal være i hver enkelt zone ifølge hans filosofi. Han advokerer for, at man træner alle zonerne, men har en god basis i de lettere zoner.
+
+## Andre fremgangsmåder
+
+Vi har andre steder omtalt forskellige træningszoner, som kan være et godt udgangspunkt for at forstå træning.
+
+[Coggans træningszoner](/traeningszoner/) ligner i nogen grad Jack Daniels zoner alt efter, hvordan de bliver fortolket.
+
+En anden træningsfilosofi er **polarized træning**. I en 80/20 plan for løbetræningen skal omkring 80% af træningen være i de lettere zoner, mens 20% af træningen skal ligge i den høje zone. Her lægger man kun en smule af træningen omkring den anaerobe tærskel. 
+
+Vi har skrevet meget mere om, [hvordan man laver et løbetræningsprogram]({% link _posts/2021-08-24-hvordan-loebeprogram.md %}), som du kan lade dig inspirere af til sammensætningen af din træning.
 
 Når jeg laver et løbeprogram, så tager jeg udgangspunkt i denne skabelon, som du er velkommen til at bruge også. Vi har skrevet meget mere om, [hvordan man laver et løbetræningsprogram]({% link _posts/2021-08-24-hvordan-loebeprogram.md %}), som du kan lade dig inspirere af til sammensætningen af din træning.
 
@@ -130,9 +147,11 @@ Træningstempoet udregnet ved hjælp af Jack Daniels Running Formula er baseret 
 
 Claus Hechmann påpeger i sin bog [Løb som eliten](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390){: rel='sponsored nofollow noopener' }, at udregninger baseret på så korte løb primært tager udgangspunkt i den maksimale iltoptagelse, men ikke tager højde for udholdenheden i tilstrækkelig grad.
 
-Det betyder i praksis for løbere, som ikke har en så god udholdenhed (altså evne til at bruge fedtforbrænding ved forskellige hastigheder), vil ende hastigheder i de langsommere løb, som ikke tilgodeser forbedring af fedtforbrændingen i tilstrækkeligt omfang.
+Det betyder i praksis for løbere, som ikke har en så god udholdenhed (altså evne til at bruge fedtforbrænding ved forskellige hastigheder), vil ende med hastigheder i de langsommere løb, som ikke tilgodeser forbedring af fedtforbrændingen i tilstrækkeligt omfang.
 
 Hechmann foreslår i sin virkelig gode og grundige bog en 10 minutters test og en 60 minutters test for at få indblik i tempoet ved den maksimale iltoptagelse og tempoet ved den anaerobe tærskel. Du kan [tjekke prisen på Hechmanns bog hos Tales.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390){: rel='sponsored nofollow noopener' }.
+
+Når du har lavet det to tests, så kan du få Hechmanns bud på hastigheder i hans træningszoner ved at bruge løbeberegneren på [www.hechmannsport.dk](https://www.hechmannsport.dk/beregneren).
 
 Jeg har skrevet lidt mere om i det følgende, hvordan du kan bruge oplysningerne fra løbsberegneren til at planlægge din egen træning.
 
@@ -146,7 +165,7 @@ I disse tilfælde kan jeg også godt lide at planlægge min løbetræning på ba
 
 ## Konklusion
 
-Du kan læse en [kritik af Jack Daniels udregninger her](http://jaredmcqueen.com/jackdanielsflaw.html).
+Du kan læse en kritik af Jack Daniels udregninger på [jaredmcqueen.com](http://jaredmcqueen.com/jackdanielsflaw.html).
 
 ## Andre løbeberegnere
 
