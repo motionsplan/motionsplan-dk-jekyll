@@ -99,6 +99,10 @@ Måske rammer pulszonerne her bedst de øvede løbere. Typisk er den anaerobe t�
 
 {% include calculate-hrzones-maxhr.html %}
 
+En anden angivelse af de forskellige zoner i forhold til HR<sub>max</sub> kan ses i denne grafik.
+
+{% include figure image_path="https://vic.tri-alliance.com/wp-content/uploads/sites/3/2018/02/Training-Zones-Descriptions-1038x1467.jpg" caption="Kilde: [vic.tri-alliance.com](https://vic.tri-alliance.com/know-training-zones/)." %}
+
 ## Find dine egne pulszoner med tests
 
 Generelle træningszoner kan helt sikkert have nogle begrænsninger. Jeg kan godt lide særligt at fokusere på tre elementer i konditionstræning:
