@@ -20,7 +20,7 @@ I forbindelse med konditionstræning kan det være hjælpsomt at arbejde med for
 
 Først kigger vi på de forskellige træningszoner, og du får en beskrivelse af træningszonerne. Efterfølgende kigger vi på, hvordan du kan måle intensiteten i de enkelte træningszoner.
 
-## Træningszoner
+## Coggans træningszoner
 
 Vi er især inspireret af Andrew Coggans 7 træningszoner til at beskrive træning. [Andrew Coggan](https://trainingpeaks.com/blog/power-training-levels/) opererer med syv forskellige træningszoner, som kan være gode guidelines for at kategorisere din træning.
 
@@ -38,12 +38,12 @@ Du kan læse en sammenfatning af de enkelte zoner fra denne grafik.
 
 {% include figure image_path="https://images.squarespace-cdn.com/content/v1/5bbda853f4755a7a8c5cd44e/1588140394874-8A66I4NY44N0QIR814XB/Screenshot+2020-04-29+at+07.54.56.png?format=1500w" caption="Kilde: [endurancebikeandrun.com](https://endurancebikeandrun.com/blog/2020/4/29/how-to-use-heartrate-to-train-for-endurance-cyling)" %}
 
-For at forstå sammenhængen mellem zonerne, så er der et par begreber, der kan være nyttige at kende.
+For at forstå sammenhængen mellem zonerne, så er der et par nyttige begreber.
 
-Aerobe tærskel
+Aerobe tærskel (LT1)
 : Den aerobe tærskel er når kroppens aerobe system ikke kan honorere energikravet. Derfor begynder det anaerobe system at bidrag. Derved kan der måles højere koncentration af laktat i blodet. Knækket på kurven kalder man den *aerobe tærskel*.
 
-Anaerobe tærskel eller laktatktærsklen
+Anaerobe tærskel eller laktatktærsklen (LT2)
 : Den anaerobe tærskel er når kroppen lige nøjagtigt kan nå at fjerne lige så meget mælkesyre, som der produceres. Den anaerobe tærskel er altså det punkt lige før produktionen af mælkesyre bliver større end den del der fjernes. Derfor kan der måles stigende koncentrationer af laktat i musklerne. Dette knaæk på kurven kaldes den *anaerobe tærskel*. Du kan læse mere om den [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}). Vi har også skrevet et indlæg, hvor vi [præciserer forskellen på mælkesyre og laktat]({% link _posts/2020-08-24-maelkesyre.md %}).
 
 Disse to punkter er indtegnet på følgende illustration sammen med de forskellige zoner. I zone 7 ophobes der ikke nødvendigvis mælkesyre i musklerne, så den er ikke indtegnet på grafen.
@@ -56,7 +56,25 @@ Det kan også illustreres på følgende måde:
 
 Både den aerobe tærskel og den anaerobe tærskel kan trænes, så derfor skal man jævnligt lave nye tests, hvis du baserer din træning på disse.
 
-Men her kigger vi lidt på at beskrive de enkelte træningszoner.
+## Polarized træning i forhold til træningszonerne
+
+En anden enkel måde at forstå træningszoner på er ud fra en figur baseret på *polarized træningszoner*. Her er zonerne baseret på den aerobe tærskel (LT1) og den anaerobe tærskel (LT2).
+
+{% include figure image_path="/assets/images/blog/coggan-traeningszoner-vs-polarized-zones.png" caption="Sammenligning af de syv træningszoner og *polarized træning*. Kilde: [baronbiosys.com](https://baronbiosys.com/sweet-spot-threshold-and-polarized-training-by-the-numbers/)" %}
+
+I den polariserede træning er det kun relativ lidt træning, der skal foregå i tærskelzonen. Til gengæld er 80% af arbejdet i zone 1 (lav intensitet under LT1) og 20% i zone 3 (høj intensitet over LT2).
+
+Træningsfilosofien i den polariserede træning står i kontrast til ideen om **sweet spot**. Nogle trænere advokerer for, at træning lige mellem zone 3 (tempo) og zone 4 (tærskel) er den rigtige intensitet til at give det størst mulige udbytte på den kortest mulige tid, hvor kroppen samtidig kan restituere.
+
+[Seiler (2010)](https://pubmed.ncbi.nlm.nih.gov/20861519/) diskuterer polariseret træning og *sweet spot* træning. [Cheung](https://pezcyclingnews.com/toolbox/cycling-polarized-training-stephen-seiler/) diskuterer de to fremgangsmåder her.
+
+> It is argued that SST doesn’t provide the training value and in fact can compromise your training.  It is termed the black hole of training where athletes make the mistake of training too hard during easy sessions and training too easy during hard sessions.
+
+--- <cite> [baronbiosys.com](https://baronbiosys.com/sweet-spot-threshold-and-polarized-training-by-the-numbers/)</cite>
+
+Du kan se Joe Friel diskutere de to træningstyper i denne Youtube-video:
+
+{% include video provider="youtube" id="azuM56dXl6I" %}
 
 ## Oversigt over træningszonerne
 
@@ -67,13 +85,15 @@ Her har vi samlet en oversigt over de enkelte træningszoner med deres fysiologi
 | Zone | Formål            | Fysiologisk virkning                                                                                               | Hvordan gavner det dig?                                                                                                                    |
 |---------------|--------------------|-----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 | 1        | Restitution    | Øger blodgennemstrømningen af musklerne, fjerner affaldsstoffer og tilfører næringsstoffer                        | Fremskynder restitutionen og derfor respons til træningen |
-| 2        | Udholdenhed    | Øger forbrændingen af fedt og evnen til at bruge ilt, producere kraft og øger effektivteten. Øger cykeløkonomien. | Mere effektiv brug af energi. Kan producere mere kraft med den samme anstrengelse. Arbejde på teknik.                  |
-| 3        | Tempo          | Forbedre forbrændingen af kulhydrater. Giver *fast twitch*-muskelfibrene nogle karakteristika fra *slow-twitch*-fibrene | Forbedret evne til at fastholde kraften over tid.                                                                          |
-| 4        | Anaerob tærskel  | Forbedrer forbrændingen af kulhydrater. Forbedrer den anaerobe tærskel. Ændrer nogle *fast twitch*-fibre til *slow-twitch* | Forbedret evne til at fastholde kraften over tid. Værdifuldt når man kommer tættere på konkurrencer. Hvis man bruger for meget tid i denne zone, kan træningen gå i stå. |
+| 2        | Udholdenhed    | Øger forbrændingen af fedt og evnen til at bruge ilt, producere kraft og øger effektivteten. Øger bevægelsesøkonomien. | Mere effektiv brug af energi. Kan producere mere kraft med den samme anstrengelse. Arbejde på teknik.                  |
+| 3        | Tempo          | Forbedrer forbrændingen af kulhydrater. Giver *fast twitch*-muskelfibrene nogle karakteristika fra *slow-twitch*-fibrene | Forbedret evne til at fastholde kraften over tid.                                                                          |
+| 4        | Anaerob tærskel  | Forbedrer forbrændingen af kulhydrater. Forbedrer den anaerobe tærskel. Ændrer nogle *FT IIx*-fibre til *FT IIa* | Forbedret evne til at fastholde kraften over tid. Værdifuldt når man kommer tættere på konkurrencer. |
 | 5        | VO<sub>2</sub>max | Udvikler kredsløbet og VO<sub>2</sub>max. Forbedrer den anaerobe energiproduktion og forbrændingen af affaldsprodukterne | Forbedret evne til at køre hurtigt og forøget modstand mod træthed på kort sigt.                 |
-| 6        | Anaerob kapacitet | Forbedret muskelstyrke og *power*. Udvikler det kardiovaskulære system og VO<sub>2</sub>max. Forbedrer tærsklen. | Sprint-hastighed. Evne til at accelere væk fra en gruppe og tolerere hårdt arbejde, fx op ad bakke  |
+| 6        | Anaerob kapacitet | Forbedret muskelstyrke og *power*. Udvikler det kardiovaskulære system og VO<sub>2</sub>max. Forbedrer tærsklen. | Sprint-hastighed. Evne til at accelere væk fra en gruppe og tolerere hårdt arbejde, fx op ad bakke |
 
 </div>
+
+I det følgende prøver vi at beskrive de enkelte træningzoner med de karakteristika de har.
 
 ## 1. Restitution
 
@@ -93,6 +113,8 @@ Du vil altså få grundlæggende forbedringer i udholdenheden og energiomsætnin
 
 Effekten af træning i denne zone er mere en funktion af tiden i zonen end af intensiteten.
 
+{% include figure image_path="https://www.trainerroad.com/blog/wp-content/uploads/2021/06/cycling-power-zones-endurance-1536x616.jpg" caption="60 minutters træning et stykke under tærsklen rammer zone 2. Kilde: [www.trainerroad.com](https://www.trainerroad.com/blog/cycling-power-zones-training-zones-explained/)" %}
+
 ## 3. Tempo
 
 Zone 3 er er hurtige tempoture. Zonen giver erfaring med fx maraton-tempo. I denne zone aktiveres flere af de hurtige "fast-twitch" muskelfibre, og andelen af kulhydrat i forbrændingen stiger. Træning i denne zone kan være med til at skabe tilpasninger centralt i hjertet med øget slagvolumen og blodvolumen. Længerevarende konkurrencer, fx maraton, gennemføres ofte i denne zone.
@@ -106,6 +128,8 @@ Zone 4 ligger omkring din anaerobe tærskel. Træning zone 4 forbedrer den musku
 Mælkesyretærskeltræning er typisk baseret på intervaller på 5-30 minutter ad gangen, men du kan også arbejde kontinuerligt og arbejde med høj intensitet i 20-40 minutter.
 
 Træning omkring laktattærsklen er også med til at forbedre **modstandsdygtigheden**. Modstandsdygtigheden er et udtryk for, hvor høj procent af VO<sub>2</sub>max man er i stand til at løbe med på den anaerobe tærskel. Det er særligt her eliteløbere adskiller sig fra os andre. De kan nemlig løbe med rigtig høj intensitet i forhold til deres maksimale iltoptagelse uden at opbygge ekstra træthedsstoffer i musklerne.
+
+{% include figure image_path="https://www.trainerroad.com/blog/wp-content/uploads/2021/06/cycling-power-zones-threshold-1536x616.jpg" caption="4x9 minutter intervaller på FTP med 4 minutters pause er et eksempel på træning i zone 4. Kilde: [www.trainerroad.com](https://www.trainerroad.com/blog/cycling-power-zones-training-zones-explained/)" %}
 
 ## 5. VO<sub>2</sub>max
 
