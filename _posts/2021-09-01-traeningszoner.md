@@ -60,7 +60,7 @@ Men her kigger vi lidt på at beskrive de enkelte træningszoner.
 
 ## Oversigt over træningszonerne
 
-Her har vi samlet en oversigt over de enkelte træningszoner. Du behøver ikke tænke så meget over de enkelte forkortelser. De skal først bruges, når du har valgt en måde at regne de enkelte zoner ud.
+Her har vi samlet en oversigt over de enkelte træningszoner med deres fysiologiske virkning og hvad det gavner dig i din konditionstræning.
 
 <div class="full" markdown="1">
 
@@ -95,7 +95,7 @@ Effekten af træning i denne zone er mere en funktion af tiden i zonen end af in
 
 ## 3. Tempo
 
-Zone 3 er er hurtige tempoture. Zonen giver erfaring med fx maraton-tempo. I denne zone aktiveres flere af de hurtige "fast-twitch" muskelfibre, og andelen af kulhydrat i forbrændingen stiger. Træning i denne zone kan være med til at skabe tilpasninger centralt i hjertet med øget slagvolumen og blodvolumen. Længerevarende konkurrencer, fx maraton, gennemføres ofte i denne zone. 
+Zone 3 er er hurtige tempoture. Zonen giver erfaring med fx maraton-tempo. I denne zone aktiveres flere af de hurtige "fast-twitch" muskelfibre, og andelen af kulhydrat i forbrændingen stiger. Træning i denne zone kan være med til at skabe tilpasninger centralt i hjertet med øget slagvolumen og blodvolumen. Længerevarende konkurrencer, fx maraton, gennemføres ofte i denne zone.
 
 Formålet er at træne tempokapaciteten og bygge bro mellem udholdenhedstræning og den højintense træning. Det er imidlertid en zone, hvor du skal dosere træningen. Du vil formentlig få mere ud af at træne i zone 2 i forhold til de centrale og perifære tilpasninger, men samtidig kunne restituere hurtigere. Eller gå efter at flytte de maksimale parametre i zone 4 og 5.
 
@@ -138,11 +138,11 @@ Dine træningszoner kan styres på flere forskellige måder.
 
 Ved at tænke træningen ind i forskellige træningszoner, kan man tage højde for [kroppens forskellige energisystemer]({% link _posts/2019-11-14-energisystemer-101.md %}), som er nødvendige for effekten af træningen.
 
-Her er nogle forskellige bud på, hvordan de forskellige zoner kan måles på forskellige måder.
+Her er nogle forskellige bud på, hvordan de forskellige zoner kan måles på forskellige måder. Du behøver ikke tænke så meget over de enkelte forkortelser. De skal først bruges, når du har valgt en måde at regne de enkelte zoner ud.
 
 <div markdown="1" class="full">
 
-| Zone | Betegnelse | %LTHR | %HRR | %HR<sub>max</sub> | FTPa |  FTP | Borg | RPE | Varighed kont. | Varighed int. |
+| Zone | Betegnelse | %LTHR | %HRR | %HR<sub>max</sub> | FTPa | FTP | Borg | RPE | Varighed kont. | Varighed int. |
 | - | - | - | - | - | - | - | - | - | - | - |
 | 1 | Restitution | \< 81% | 64% | 60-72% | \>124% | \<55% | \< 13 | 1-2 | 30-90 min | N/A |
 | 2 | Udholdenhed | 81-89% | 64-72% | 72-82% | 124-115% | 56-75% | 13 | 2-3 | 60-300 min | N/A |
