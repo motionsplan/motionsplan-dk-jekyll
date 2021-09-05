@@ -67,6 +67,16 @@ Det har været svært at finde en samlet liste, så hvis du kender flere landsst
 | {{ song.title }} | {{ song.year }} | {{ song.event }} | {{ song.artist }} |
 {%- endfor %}
 
+## Alle landsstævnesange
+
+{% for song in page.ioc_songs %}
+### {{ song.title }} ({{ song.year }}), {{ song.artist }}, {{ song.event }}
+
+{{ song.description | markdownify }}
+
+{% include video provider=song.video.provider id=song.video.id %}
+{% endfor %}
+
 ## Sang til Landsstævne 2022
 
 En landsstævnesang skal kunne holde i mange år, men den skal også kunne beskrive fællesskabet og idrætten.
