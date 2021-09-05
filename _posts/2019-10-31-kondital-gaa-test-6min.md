@@ -1,5 +1,6 @@
 ---
 title: &title "6 minutters gå-test (6MWT): Gangtest for ældre mennesker 🚶‍♀️"
+seo_title: "6 minutters gå-test (6MWT): Gangtest for ældre mennesker"
 permalink: /gaatest-6min/
 excerpt: "6 minutters gå-test (6mwt) er en gangtest, hvor du sammenligner din tilbagelagte distance i forhold til andre mennesker. Gåtesten henvender sig til relativt fysisk svage personer."
 language: da
@@ -70,7 +71,7 @@ Hvis du laver testen med tilvænning, så skal du også sammenligne med referenc
 
 ## Referencer til gangtesten på 6 minutter (6mwt)
 
-<detail markdown="1">
+<details markdown="1">
   <summary>Se flere referencer om {{ page.title }}</summary>
 
 - Enright, P. L., og D. L. Sherrill. 1998. “Reference Equations for the Six-Minute Walk in Healthy Adults”. American Journal of Respiratory and Critical Care Medicine 158 (5 Pt 1): 1384–87. <https://doi.org/10.1164/ajrccm.158.5.9710086>.
