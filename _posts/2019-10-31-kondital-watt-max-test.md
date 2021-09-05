@@ -24,9 +24,9 @@ feature_row:
   - image_path: https://local-wattbike-images.s3.amazonaws.com/images/product__wattbike@3x.jpg
     alt: "Wattbike Pro er perfekt til at lave Watt max test på"
     title: "Wattbike Pro eller trainer"
-    excerpt: "Uanset om du er på begynderniveau eller er eliteudøver, er Wattbike Pro og Trainer udviklet til at forbedre din performance."
+    excerpt: "Uanset om du er på begynderniveau eller er eliteudøver, er Wattbike Pro og Trainer en rigtig god indendørs cykel til din vintertræning."
     url: "https://wattbike.com/dk/product/wattbike"
-    btn_label: "Læs mere"
+    btn_label: "Besøg Wattbike"
     btn_class: "btn--success"
 breadcrumbs: true
 ---
