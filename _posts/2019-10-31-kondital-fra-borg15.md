@@ -76,7 +76,7 @@ W er workload i kgm·min<sup>-1</sup> (kilogram-force meter/minute). Jeg bruger 
 
 At en snakketest gør det lettere at finde niveauet for anstrengelse er undersøgt af [Persinger et al (2004)](https://pubmed.ncbi.nlm.nih.gov/15354048/), men det er mig bekendt ikke lavet studier, hvor snakketesten er blevet valideret i forhold til Borg 15-testen.
 
-Jeg er dog ved at undersøge, om der er lavet valideringsstudier af testen under _Graded Cycling Test with Talk Test_.
+Jeg er ved at undersøge, om der er lavet valideringsstudier af testen under søgningen _Graded Cycling Test with Talk Test_.
 
 ## Konklusion på Borg 15-testen
 
