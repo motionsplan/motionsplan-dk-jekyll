@@ -1,8 +1,8 @@
 ---
-title: &title "6 minutters gå-test (6MWT): Gangtest for ældre mennesker 🚶‍♀️"
-seo_title: "6 minutters gå-test (6MWT): Gangtest for ældre mennesker"
+title: &title "6 minutters gangtest (6MWT) for ældre mennesker 🚶‍♀️"
+seo_title: "6 minutters gangtest (6MWT) for ældre mennesker"
 permalink: /gaatest-6min/
-excerpt: "6 minutters gå-test (6mwt) er en gangtest, hvor du sammenligner din tilbagelagte distance i forhold til andre mennesker. Gåtesten henvender sig til relativt fysisk svage personer."
+excerpt: "6 minutters gangtest (6MWT) er en gangtest, hvor du sammenligner din tilbagelagte distance i forhold til andre mennesker i samme aldersgruppe som dig selv. Gangtesten henvender sig til relativt fysisk svage personer."
 language: da
 header:
   overlay_image: https://www.straitstimes.com/sites/default/files/articles/2017/09/04/20170904_1504497527583_2073451859691958_16_amyama4_zuann.jpg
@@ -23,9 +23,11 @@ toc: true
 breadcrumbs: true
 ---
 
-I **6 minutters gå-test (6mwt)** gælder det om at gå så langt som muligt på 6 minutter. Den tilbagelagte distance sammenlignes med referenceværdier for tidligere forsøg. Testen er specielt egnet til svage personer fx patienter eller gamle.
+I **6 minutters gangtest (6MWT)** gælder det om at gå så langt som muligt på 6 minutter. Den tilbagelagte distance sammenlignes med referenceværdier for tidligere forsøg.
 
-## Sådan udfører du gåtesten på 6 minutter
+Testen er specielt egnet til svage personer fx patienter eller gamle, som ikke er særlig godt gående. Hvis du ikke du er i den kategori, så kan du overveje at bruge [1,6 km gåtest i stedet]({% link _posts/2019-10-31-kondital-gaa-test-1-6-km.md %}).
+
+## Sådan udfører du gangtesten på 6 minutter
 
 {% include figure image_path="https://www.researchgate.net/profile/Parul_Sharma9/publication/317952000/figure/fig1/AS:509936111190016@1498589651200/6-minutes-walk-test-diagram.png" %}
 
@@ -34,7 +36,7 @@ I **6 minutters gå-test (6mwt)** gælder det om at gå så langt som muligt på
 3. Gå så langt som muligt på de 6 minutter og noter den samlede distance.
 4. Indtast resultaterne i nedenstående beregner. Beregneren sammenligner med referenceværdier.
 
-## Sammenlign dit resultat for 6 minutters gåtest
+## Sammenlign dit resultat for 6 minutters gangtest
 
 {% include calculate-fitness-walktest-6min.html %}
 

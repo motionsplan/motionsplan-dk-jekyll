@@ -1,5 +1,6 @@
 ---
-title: &title "Kan man finde sit kondital med Den Danske Steptest? 📥"
+title: &title "Den Danske Steptest 📥"
+seo_title: "Den Danske Steptest: Find dit kondital"
 permalink: /kondital-fra-steptest/
 language: da
 header:
@@ -25,7 +26,7 @@ Den Danske Steptest eller Den Nye Steptest er en præstationsbegrænset submaksi
 
 Hvad er Den Danske Steptest? **Den Danske Steptest er udviklet af danske forskere med Morten Zacho i spidsen. Det er en en tilpasning af de eksisterende steptest, hvor man ikke skal bruge pulsmålinger undervejs. Den Danske Steptest er en præstationsbegrænset submaksimal test, hvor deltagerne træder op og ned af en forhøjning på en bestemt måde i et forudbestemt tempo, som progressivt stiger i løbet af testen.**
 
-Forhøjningen i Den Danske Steptest er på 20-35 cm og sættes i forhold til folks træningsniveau, hvilket du kan læse mere om i [instruktionerne til testen på exercise.dk](https://exercise.dk/kondition/43-den-danske-steptest). Her kan du også få testen online, eller downloade testen, så du kan følge nogle lette instruktioner på skærmen. Testen kan laves overalt, hvor man har en computer og en forhøjning.
+Forhøjningen i Den Danske Steptest er på 20-35 cm og sættes i forhold til folks træningsniveau, hvilket du kan læse mere om i instruktionerne til testen på [exercise.dk](https://exercise.dk/kondition/43-den-danske-steptest). Her kan du også få testen online eller downloade testen. Testen kan laves overalt, hvor man har en computer og en forhøjning.
 
 Når testen er færdig får man en estimeret VO<sub>2</sub>-max, sit kondital (den maksimale iltoptagelse i forhold til ens kropsvægt) og [MET-værdien]({% link _posts/2020-07-24-met.md %}) (som er et mål for hvor meget arbejde, du har lavet). Den Danske Steptest er [udviklet af Morten Zacho](https://exercise.dk/kondition/43-den-danske-steptest). Du kan også finde [steptesten på engelsk](https://www.health-calc.com/fitness-tests/the-danish-step-test).
 
@@ -35,11 +36,11 @@ Når testen er færdig får man en estimeret VO<sub>2</sub>-max, sit kondital (d
 
 Den Danske Steptest bruger kun trinhøjden og vægten som input for at lave sine beregninger til at estimere det den maksimale iltoptagelse og konditallet.
 
-Som [baggrund for Den Danske Steptest](https://exercise.dk/kondition/43-den-danske-steptest) bruger Morten Zacho følgende teoretiske sammenhæng:
+Som baggrund for Den Danske Steptest bruger [Morten Zacho](https://exercise.dk/kondition/43-den-danske-steptest) følgende teoretiske sammenhæng:
 
 {% include math formula="arbejde_{total} = \frac{kropsvaegt * tyngdekraft * stephoejde * stepfrekvens}{nyttevirkning}" %}
 
-[Tyngdekraften 9,816 m/s<sup>2</sup> i Danmark](https://da.wikipedia.org/wiki/Tyngdeacceleration). Det totale arbejde er i sidste ende præstationsbegrænset ved at både koordinationen og kredsløbet kan være den begrænsende faktor.
+Tyngdekraften er ifølge [Wikipedia](https://da.wikipedia.org/wiki/Tyngdeacceleration) 9,816 m/s<sup>2</sup> i Danmark. Det totale arbejde er i sidste ende præstationsbegrænset ved at både koordinationen og kredsløbet kan være den begrænsende faktor.
 
 {% include math formula="VO_2max = \frac{\frac{arbejde_{total}}{O_2energi}}{intensitet_{slut}} + VO_2hvile" %}
 
@@ -53,7 +54,7 @@ Når man kender den estimerede VO<sub>2</sub>max, så kan man udregne konditalle
 
 Aadahl et al (2012) har valideret testen med 795 personer, hvor man har sammenlignet den med en [Watt-max test på cykel]({% link _posts/2019-10-31-kondital-watt-max-test.md %}). Der fandt forskerne følgende korrelationer.
 
-> The correlation between VO<sup>2max</sup> (ml/kg/min) estimated by the two tests was moderate to high (men: r = 0.69, p < 0.0001; women: r = 0.77, p < 0.0001). The Danish step test slightly overestimated VO<sub>2max</sub> compared to the watt-max test, more so in women than in men.
+> The correlation between VO<sub>2</sub>max (ml/kg/min) estimated by the two tests was moderate to high (men: r = 0.69, p < 0.0001; women: r = 0.77, p < 0.0001). The Danish step test slightly overestimated VO<sub>2</sub>max compared to the watt-max test, more so in women than in men.
 
 --- <cite>[Aadahl et al (2012)](https://journals.sagepub.com/doi/10.1177/2047487312462825)</cite>
 
@@ -93,4 +94,4 @@ Vi har også lave en [oversigt over andre tests af konditallet]({% link _posts/2
 
 - Aadahl, Mette, Morten Zacho, Allan Linneberg, Betina Thuesen, og Torben Jørgensen. 2012. “Comparison of the Danish step test and the watt-max test for estimation of maximal oxygen uptake: The Health2008 study”. European journal of preventive cardiology 20 (september). <https://doi.org/10.1177/2047487312462825>.
 - Lerche, L., A. Olsen, K. E. N. Petersen, A. L. Rostgaard‐Hansen, L. O. Dragsted, N. B. Nordsborg, A. Tjønneland, og J. Halkjær. 2017. “Validity of Physical Activity and Cardiorespiratory Fitness in the Danish Cohort ‘Diet, Cancer and Health-Next Generations’”. Scandinavian Journal of Medicine & Science in Sports 27 (12): 1864–72. <https://doi.org/10.1111/sms.12873>.
-</summary>
+</details>
