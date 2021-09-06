@@ -16,7 +16,7 @@ danish_songs:
   - title: Mildere end før
     artist: Vicki og Emil Gemmer Schultz
     year: 2022
-    event: Landsstævne 2022
+    event: Landsstævne Svendborg 2022
     description: "'Mildere end før' er titlen på den nye sang til landsstævne 2022. Sangen er ifølge [DGI](https://www.dgi.dk/landsstaevne/om-landsstaevnet/landsstaevnesangen-2022) skrevet af Vicki og Emil Gemmer Schultz fra Kerteminde og Emils far Lars. Sangen vandt DGI’s og Efterskoleforeningens konkurrence om at skrive en ny landsstævnesang af de 102 indsendte sange."
     video:
       provider: youtube
@@ -24,7 +24,7 @@ danish_songs:
   - title: Øjeblikket
     artist: Mette Poulsen
     year: 2017
-    event: Landsstævne 2017
+    event: Landsstævne Aalborg 2017
     description: ""
     video:
       provider: youtube
@@ -32,7 +32,7 @@ danish_songs:
   - title: Livsuret
     artist: Jakob Sveistrup, Mette Uhrnfeldt
     year: 2013
-    event: Landsstævne 2013
+    event: Landsstævne Esbjerg 2013
     description: ""
     video:
       provider: youtube
@@ -40,11 +40,35 @@ danish_songs:
   - title: Gi' os lyset tilbage
     artist: Rasmus Skov Borring
     year: 2009
-    event: Landsstævne 2009
+    event: Landsstævne Holbæk 2009
     description: ""
     video:
       provider: youtube
       id: bnSs6op_Z60
+  - title: Ren fysik & kærlighed
+    artist: Dodo and the Dodo’s
+    year: 2009
+    event: Landsstævne Holbæk 2009
+    description: "Sangen beskriver oplevelsen af fællesskabet i fællesskaberne og uforglemmelige øjeblikke – dét som DGI og DDS’ Landsstævner handler om. "
+    video:
+      provider: youtube
+      id: sGxRtFhaEvA
+  - title: Det Danmark jeg kender
+    artist: Peter A.G. og Gnags
+    year: 2006
+    event: Landsstævne Haderslev 2006
+    description: "Lidt utraditionelle rytmer i sangen ”Det Danmark jeg kender”. Sangen handler om, hvordan fortid og traditioner er vigtige forudsætninger for at kunne se fremad. Se teksten på [dgi.dk](https://www.dgi.dk/landsstaevner/landsstaevner-gennem-tiden/2006-haderslev/landsstaevnesang-2006-det-danmark-jeg-kender)."
+    video:
+      provider: youtube
+      id: xAADzgWDSpw
+  - title: Stævnemøde
+    artist: Louise Støjberg og Ordentlige Folk
+    year: 2006
+    event: Landsstævne Bornholm 2002
+    description: "Sangen beskriver Bornholms smukke natur og indfanger mange af de forventninger, glæder og oplevelser et landsstævne byder på. Se teksten på [dgi.dk](https://www.dgi.dk/landsstaevner/landsstaevner-gennem-tiden/2002-bornholm/landsstaevnesang-2002-staevnemoede)."
+    video:
+      provider: youtube
+      id: xAADzgWDSpw
 ---
 
 Jeg har samlet de officielle landsstævnesange her. Jeg har ikke kunnet finde andre lister, så jeg har lavet en samlet oversigt her over sange til DGI's Landsstævne.
@@ -69,7 +93,7 @@ Det har været svært at finde en samlet liste, så hvis du kender flere landsst
 
 ## Alle landsstævnesange
 
-{% for song in page.ioc_songs %}
+{% for song in page.danish_songs %}
 ### {{ song.title }} ({{ song.year }}), {{ song.artist }}, {{ song.event }}
 
 {{ song.description | markdownify }}
