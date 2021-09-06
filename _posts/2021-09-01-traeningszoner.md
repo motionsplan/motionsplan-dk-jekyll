@@ -157,7 +157,7 @@ Dine træningszoner kan styres på flere forskellige måder.
 
 - **Puls**. Du skal bruge en pulsmåler og kan [udregne pulszoner til træning her]({% link _posts/2019-10-31-hrzones-puls.md %}). Pulszonerne kan fx udregnes i forhold til [hvilepulsen]({% link _posts/2020-06-03-hvilepuls.md %}), [max pulsen]({% link _posts/2020-06-02-max-hr.md %}) og pulsen ved den anaerob tærskel. Du kan kun bruge pulsen i zone 1-5, da du ikke kan få meningsfulde svar i zone 6 og 7.
 - **Hastighed og pace**. Du kan udregne hvilke tider, du skal løbe med i [løbsberegneren fra Jack Daniels](/loebesiden-jack-daniels-loebeberegner/). Det kræver enten en løbebane eller andre opmålte distancer eller et GPS-ur at træne på denne måde.
-- **Watt**. Du har brug for særligt udstyr for at bruge Watt. Det har jeg skrevet lidt om under i forhold til løb i indlægget om [løbeøkonomi og løbeteknik]({% link _posts/2019-12-16-running-economy.md %}). Men du kan også bruge en watt-måler på cykel. Jeg har skrevet mere om [functional threshold pwoer]({% link _posts/2021-08-29-ftp.md %}).
+- **Watt**. Du har brug for særligt udstyr for at bruge Watt. Det har jeg skrevet lidt om under i forhold til løb i indlægget om [løbeøkonomi og løbeteknik]({% link _posts/2019-12-16-running-economy.md %}). Men du kan også bruge en watt-måler på cykel. Jeg har skrevet mere om [functional threshold pwoer]({% link _posts/2021-08-29-ftp-power.md %}).
 - **Fornemmelsen i kroppen**. Du kan også bruge [Borg-skalaen](/borg-skala/) til at få en fornemmelse af, hvor hård den enkelte træning er. Hvis du ved, hvilken type energisystem, så kan du finde ud af, hvor hårdt det skal føles på Borg-skalaen.
 
 Ved at tænke træningen ind i forskellige træningszoner, kan man tage højde for [kroppens forskellige energisystemer]({% link _posts/2019-11-14-energisystemer-101.md %}), som er nødvendige for effekten af træningen.
@@ -178,7 +178,7 @@ Her er nogle forskellige bud på, hvordan de forskellige zoner kan måles på fo
 
 </div>
 
-Jeg har skrevet en side, hvor du kan få hjælp til at [udregne dine egne pulszoner]({% link _posts/2019-10-31-hrzones-puls.md %}) eller udregne [dine zoner ud fra FTP]({% link _posts/2021-08-29-ftp.md %}).
+Jeg har skrevet en side, hvor du kan få hjælp til at [udregne dine egne pulszoner]({% link _posts/2019-10-31-hrzones-puls.md %}) eller udregne [dine intensitetszoner ud fra FTP]({% link _posts/2021-08-29-ftp-power.md %}).
 
 ## Konklusion
 

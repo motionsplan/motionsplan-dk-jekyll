@@ -325,7 +325,7 @@ $(document).ready(function() {
 
         let ftp = Number($("#ftp").val());
 
-        $("#ftp_value").val(ftp);
+        $("#ftp_value").text(ftp);
 
         $("#ftp_recovery").val('<' + (ftp * 0.56).toFixed(0));
         $("#ftp_endurance").val((ftp * 0.56).toFixed(0) + '-' + (ftp * 0.76).toFixed(0));
@@ -333,6 +333,21 @@ $(document).ready(function() {
         $("#ftp_ftp").val((ftp * 0.91).toFixed(0) + '-' +(ftp * 1.06).toFixed(0));
         $("#ftp_vo2").val((ftp * 1.06).toFixed(0) + '-' + (ftp * 1.21).toFixed(0));
         $("#ftp_anaerob").val((ftp * 1.21).toFixed(0) + '-' + (ftp * 1.50).toFixed(0));
+    });
+    $("#calculator_ftpa").submit(function(e) {
+        console.log("Calculate FTPa");
+        e.preventDefault();
+
+        let ftp = Number($("#ftpa").val());
+
+        $("#ftpa_value").text(ftp);
+
+        $("#ftpa_recovery").val('<' + (ftp * 1.29).toFixed(0));
+        $("#ftpa_endurance").val((ftp * 1.14).toFixed(0) + '-' + (ftp * 1.29).toFixed(0));
+        $("#ftpa_tempo").val((ftp * 1.06).toFixed(0) + '-' + (ftp * 1.14).toFixed(0));
+        $("#ftpa_ftp").val((ftp * 1.01).toFixed(0) + '-' +(ftp * 1.05).toFixed(0));
+        $("#ftpa_vo2").val((ftp * 0.97).toFixed(0) + '-' + (ftp * 1.01).toFixed(0));
+        $("#ftpa_anaerob").val((ftp * 0.90).toFixed(0) + '-' + (ftp * 0.97).toFixed(0));
     });
     // Mortality calculation
     $("#calculator_cooper_mortality").submit(function(e) {
