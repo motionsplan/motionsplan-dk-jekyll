@@ -1,7 +1,7 @@
 ---
 title: &title "Træningszoner: Find din intensitet i træning"
 permalink: /traeningszoner/
-excerpt: "I forbindelse med konditionstræning kan det være hjælpsomt at arbejde med forskellige træningszoner. Her præsenterer vi nogle træningszoner, der er baseret på intensitet. De enkelte træningszoner har hvert deres formål, så du får også retningslinjer for, hvordan du træner de enkelte energisystemer. På denne måde kan du få meget ud af din træning."
+excerpt: "I forbindelse med konditionstræning kan det være hjælpsomt at arbejde med forskellige træningszoner. Her præsenterer vi nogle træningszoner, der er baseret på intensitet. De enkelte intensitetszoner har hvert deres formål, så du får også retningslinjer for, hvordan du træner de enkelte energisystemer. På denne måde kan du få meget ud af din træning."
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1505676731599-081a7a67766a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80
