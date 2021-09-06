@@ -41,7 +41,7 @@ danish_songs:
     artist: Rasmus Skov Borring
     year: 2009
     event: Landsstævne Holbæk 2009
-    description: ""
+    description: "Efterskolernes Landsstævnesnag 2009 er skrevet af Ramsu Skov Borring og Per Krois Kjærsgaard. Se mere i [Højskolesangbogen](https://hojskolesangbogen.dk/om-sangbogen/historier-om-sangene/e-g/gi-os-lyset-tilbage)."
     video:
       provider: youtube
       id: bnSs6op_Z60
@@ -49,7 +49,7 @@ danish_songs:
     artist: Dodo and the Dodo’s
     year: 2009
     event: Landsstævne Holbæk 2009
-    description: "Sangen beskriver oplevelsen af fællesskabet i fællesskaberne og uforglemmelige øjeblikke – dét som DGI og DDS’ Landsstævner handler om. "
+    description: "Den officielle sang til DGIs landsstævne. Sangen beskriver oplevelsen af fællesskabet i fællesskaberne og uforglemmelige øjeblikke – dét som DGI og DDS’ Landsstævner handler om. "
     video:
       provider: youtube
       id: sGxRtFhaEvA
@@ -60,7 +60,7 @@ danish_songs:
     description: "Lidt utraditionelle rytmer i sangen ”Det Danmark jeg kender”. Sangen handler om, hvordan fortid og traditioner er vigtige forudsætninger for at kunne se fremad. Se teksten på [dgi.dk](https://www.dgi.dk/landsstaevner/landsstaevner-gennem-tiden/2006-haderslev/landsstaevnesang-2006-det-danmark-jeg-kender)."
     video:
       provider: youtube
-      id: xAADzgWDSpw
+      id: FE_k5HvDNV0
   - title: Stævnemøde
     artist: Louise Støjberg og Ordentlige Folk
     year: 2006
@@ -68,7 +68,7 @@ danish_songs:
     description: "Sangen beskriver Bornholms smukke natur og indfanger mange af de forventninger, glæder og oplevelser et landsstævne byder på. Se teksten på [dgi.dk](https://www.dgi.dk/landsstaevner/landsstaevner-gennem-tiden/2002-bornholm/landsstaevnesang-2002-staevnemoede)."
     video:
       provider: youtube
-      id: xAADzgWDSpw
+      id: ZCDisd6G5WQ
 ---
 
 Jeg har samlet de officielle landsstævnesange her. Jeg har ikke kunnet finde andre lister, så jeg har lavet en samlet oversigt her over sange til DGI's Landsstævne.
