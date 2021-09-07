@@ -27,13 +27,13 @@ Hvad er den anaerobe tærskel? **Den anaerobe tærskel er det tidspunkt, hvor kr
 
 ## Aerob og anaerob tærskel ud fra laktat
 
-Der er stor forskel fra person til person, hvornår man opnår den anaerobe tærskel. Den utrænede kan løbe med meget mindre intensitet i forhold den maksimale ydeevne.
+Der er stor forskel fra person til person, hvornår man opnår den anaerobe tærskel. Den utrænede støder på tærsklen hurtigere end den trænede. De kan med andre ord træne med mindre intensitet i forhold den maksimale ydeevne inden de opbygger træthedsstoffer i musklerne.
 
 [Musklerne producerer mælkesyre]({% link _posts/2020-08-24-maelkesyre.md %}) propertionelt med arbejdets intensitet, men når koncentrationen af mælkesyre i blodet når omkring 4 mmol, så kan særligt leveren ikke længere følge med til at fjerne mælkesyren.
 
-Derfor har man typisk kaldt denne grænse for den **anaerobe tærskel**. Det er altså ikke fordi arbejdet pludselig springer over på det anaerobe system.
+Derfor har man typisk kaldt denne grænse for den **anaerobe tærskel**. Det er altså ikke fordi arbejdet pludselig springer over på det anaerobe system på et bestemt punkt.
 
-Men der findes også en anden forståelse af den anaerobe tærskel, hvor man bruger mælkesyreophobningen til at skelne mellem den **aerobe tærskel og den anaerobe tærskel**.
+Mælkesyreophobningen bruges til at skelne mellem den **aerobe tærskel og den anaerobe tærskel**.
 
 Den er beskrevet som LT1 og LT2:
 
@@ -57,31 +57,26 @@ Det er interessant, om du kan estimere din egen absolutte laktattærskel, og om 
 
 Du kan naturligvis få testet din anaerobe tærskel i et laboratorium, hvor du kan få målt laktat jævnligt med professionelt udstyr. Typisk vil man lave testen som en "trappe"-test, hvor man gradvist sætter tempoet op og tager laktatmålinger undervejs. Det kan fx ske sammen med en [submaksimal test af iltoptagelsen]({% link _posts/2019-10-31-kondital-laboratorietest.md %}).
 
-Du kan også teste den lidt mere **lavpraktisk**, hvis du gerne vil have en ide om, hvor din **anaerobe tærskel** ligger i forhold til pulsområdet. Her skal du arbejde maksimalt i en periode på omkring 30 minutter - 60 minutter.
+Du kan også teste den lidt mere **lavpraktisk**, hvis du gerne vil have en ide om, hvor din **anaerobe tærskel** ligger i forhold til din puls og hastighed. Her skal du arbejde maksimalt i en periode på omkring 30 minutter - 60 minutter.
 
-Testen er en _all-out_-test, og derfor anbefales det, at du har en vis træningserfaring, inden du går i gang med at teste den anaerobe tærskel. Hvis du er begynder, så er det alligevel ikke først og fremmest den anaerobe tærskel, der er interessant i træningsprogrammet.
+Testen er en _all-out_-test, og derfor anbefales det, at du har en vis træningserfaring, inden du går i gang med testaen. Hvis du er begynder, så er det alligevel ikke først og fremmest den anaerobe tærskel, der er interessant i træningsprogrammet.
 
-Gennemsnitspulsen i din arbejdstid kan fortolkes som den anaerobe tærskel, men det kræver, at du har arbejdet så hårdt du kunne i hele perioden.
+Gennemsnitspulsen i arbejdstiden i testen kan fortolkes som den anaerobe tærskel, men det kræver, at du har arbejdet så hårdt du kunne i hele perioden.
 
-- **Løb**. Varm grundigt op i 15-20 minutter med stigende intensitet. Derefter løbet 30 minutter _all-out_ gerne på løbebane eller et andet sted, hvor du ikke risikerer at blive forstyrret undervejs.
+- **Løb**. Varm grundigt op i 15-20 minutter med stigende intensitet. Derefter løbet 30 minutter _all-out_ gerne på løbebane eller et andet sted, hvor du ikke risikerer at blive forstyrret undervejs. Fordelen er også at du her får en ret præcis distance, og bakker ikke forstyrrer testresultatet.
 - **Cykling**. Det er en god ide at lave testen på en hjemmetræner eller en Wattbike, da det er lettest at kontrollere intensiteten her. Start med 15-20 minutters grundig opvarmning med stigende intenstitet. Kør i alt en halv time med høj intensitet, men brug gennemsnitspulsen fra de sidste 20 minutter.
 
 Hvis du bruger pulsen som rettesnor for dine træningszoner, så skal du huske at pulsen er meget specifik i forhold til, om du laver et [roprogram på en romaskine]({% link _posts/2010-12-26-ropro-traeningsprogrammer-til-ro-og-kajaksporten.md %}), løber eller cykler.
 
 ## Pulszoner på baggrund af _lactate threshold heart rate (LTHR)_?
 
-Hvis du selv tester din anaerobe tærskel med en pulsmåler, så ender du med at få en gennemsnitspuls, der bliver din LTHR, som er den højeste intensitet du kan løbe med før produktionen af laktat overstiger, hvor eget mælkesyre der kan fjernes fra musklerne.
+Hvis du selv tester din anaerobe tærskel med en pulsmåler, så ender du med at få en gennemsnitspuls, der bliver din LTHR, som er den højeste intensitet du kan løbe med før produktionen af laktat overstiger, hvor meget mælkesyre der kan fjernes fra musklerne.
 
 Den anaerobe tærskel er trænerbar, og derfor bliver du jævnligt nødt til at teste din LTHR igen, hvis du bruger pulsen til at bestemme din intensitet.
 
-Når du har lavet din test, så foreslår [Trilab](https://trilab.dk/traeningszoner/) følgende træningszoner baseret på LTHR. (Husk dog at det er vigtigt at genteste jævnligt, da LTHR vil flytte sig, hvis det lykkes at forbedre den anaerobe tærskel):
+Når du har lavet din test, så kan du sætte dine [træningszoner](/traeningszoner/) ud fra din LTHR. (Husk dog at det er vigtigt at genteste jævnligt, da LTHR vil flytte sig, hvis det lykkes at forbedre den anaerobe tærskel). Vi har skrevet mere om at sætte dine [pulszoner på forskellige måder]({% link _posts/2019-10-31-hrzones-puls.md %}). Her kan du dog se de foreslåede pulszoner.
 
-- Zone 1: <85% af LTHR
-- Zone 2: 86-89% af LTHR
-- Zone 3: 90-94% af LTHR
-- Zone 4: 95-102% af LTHR
-- Zone 5: 103-106% af LTHR
-- Zone 6: >107% LTHR / [max puls]({% link _posts/2020-06-02-max-hr.md %})
+{% include calculate-hrzones-lthr.html %}
 
 ## Hvordan forbedrer jeg min anaerobe tærskel?
 
