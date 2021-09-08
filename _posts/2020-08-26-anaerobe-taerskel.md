@@ -45,7 +45,7 @@ LT2 - Anaerob tærskel
 
 {% include figure image_path="https://training4endurance.co.uk/wp-content/uploads/2020/03/lactate-threshold-cycling-test.jpg" caption="Den aerobe og anaerobe tærskel - LT1 og LT2. Kilde: [training4endurance.co.uk](https://training4endurance.co.uk/physiology-of-endurance/lactate-threshold/)" %}
 
-Men der findes [i hvert fald 8 fortolkninger af den anaerob tærskel, som Heuberger et al (2018) diskuterer i deres studium](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6235347/).
+Men der findes i hvert fald 8 fortolkninger af den anaerob tærskel, som [Heuberger et al (2018)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6235347/) diskuterer i deres studium.
 
 Det er væsentligt at nævne, at 4 mmol/l-tærsklen er en gammel observation. Fx fandt [Myburgh et al (2001)](https://pubmed.ncbi.nlm.nih.gov/11194102/), at veltrænede triatleter på et cykelergometer i en time kunne køre med en gennemsnitlig laktatkoncentration på 7,6 mmol/l, og at koncentrationen lå i spændet fra 5,0 - 12,3 mmol/l. Laktatkoncentrationen i blodet korrelerede ikke med præstationen i studiet (altså distancen kørt på en time).
 
