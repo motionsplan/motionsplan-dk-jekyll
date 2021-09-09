@@ -35,13 +35,13 @@ Derfor har man typisk kaldt denne grænse for den **anaerobe tærskel**. Det er 
 
 Mælkesyreophobningen bruges til at skelne mellem den **aerobe tærskel og den anaerobe tærskel**.
 
-Den er beskrevet som LT1 og LT2:
+Tærsklerne kan være beskrevet som LT1 og LT2:
 
 LT1 - Aerobe tærskel
-: LT1 er defineret som den intensitet, hvor laktat i blodet begynder at stige over hvileniveauet. Der er altid mælkesyre i blodet, men denne grænse antyder, hvornår praktisk talt hele forbrændingen i kroppen er aerob. Typisk sætter man denne grænse til 2,0 - 2,2 mmol/l - og man kan løbe med denne intensitet over lang tid.
+: LT1 er defineret som den intensitet, hvor laktat i blodet begynder at stige over hvileniveauet. Der er altid mælkesyre i blodet på omkring 1 mmol/l. På den aerobe tærskel er det meste af forbrændingen aerob. Typisk sætter man LT1 til en grænse på omkring 2,0 - 2,2 mmol/l. Du kan arbejde rigtig længe omkring denne tærskel.
 
 LT2 - Anaerob tærskel
-: LT2 er på det tidspunkt, hvor der kommer en stigning i koncentrationen af laktat i blodet, når man sætter intensiteteen op. På dette punkt kan kroppen - og særligt leveren - ikke længere bortskaffe den mælkesyre, der produceres i musklerne. Typisk ligger denne værdi mellem 2,5-5,5 mmol/l, men traditionelt har man sagt ved 4,0 mmol/l.
+: LT2 er på det tidspunkt, hvor der kommer en stigning i koncentrationen af laktat i blodet, når man sætter intensiteten op. På dette punkt kan kroppen - og særligt leveren - ikke længere bortskaffe den mælkesyre, der produceres i musklerne. Typisk ligger denne værdi mellem 2,5-5,5 mmol/l, men traditionelt har man sat den anaerobe tærskel ved 4,0 mmol/l.
 
 {% include figure image_path="https://training4endurance.co.uk/wp-content/uploads/2020/03/lactate-threshold-cycling-test.jpg" caption="Den aerobe og anaerobe tærskel - LT1 og LT2. Kilde: [training4endurance.co.uk](https://training4endurance.co.uk/physiology-of-endurance/lactate-threshold/)" %}
 
@@ -49,9 +49,23 @@ Men der findes i hvert fald 8 fortolkninger af den anaerob tærskel, som [Heuber
 
 Det er væsentligt at nævne, at 4 mmol/l-tærsklen er en gammel observation. Fx fandt [Myburgh et al (2001)](https://pubmed.ncbi.nlm.nih.gov/11194102/), at veltrænede triatleter på et cykelergometer i en time kunne køre med en gennemsnitlig laktatkoncentration på 7,6 mmol/l, og at koncentrationen lå i spændet fra 5,0 - 12,3 mmol/l. Laktatkoncentrationen i blodet korrelerede ikke med præstationen i studiet (altså distancen kørt på en time).
 
-Den anaerobe tærskel findes, men den kan altså ikke præcist sættes i forhold til en bestemt værdi for laktatmålinger i blodet.
+Den anaerobe tærskel findes, men den kan altså ikke præcist sættes i forhold til en bestemt værdi for laktatmålinger i blodet. Derfor kan det være godt at have andre indikationer også.
 
 Det er interessant, om du kan estimere din egen absolutte laktattærskel, og om den så flytter sig over tid.
+
+## Hvordan finder jeg den aerobe tærskel?
+
+Der er forskellige bud på, hvordan du kan finde den aerobe tærskel. Du kan naturligvis altid bestille en laboratorietest, men det har alle ikke råd til.
+
+Phil Maffetone har ifølge [uphillathlete.com](https://uphillathlete.com/aerobic-anaerobic-threshold-self-assessment/) forslået følgende formel til at finde de aerobe tærskel.
+
+MAHR = 180 - alder + kategori
+
+Det tal reviderer du så ud fra, hvilken kategori du hører til. Du kan se de forskellige kategorier i denne beregner.
+
+{% include calculate-maffetone-aerobic.html %}
+
+En standardberegning passer naturligvis ikke på alle mennesker. Maffetone foreslår, at dette tal er din aerobe tærskel. Det betyder, at det er den øvre grænse af zone 2. Så når du skal lave lavintensitetstræning, så skal du bare holde dig under dette tal.
 
 ## Hvordan tester jeg min anaerobe tærskel?
 

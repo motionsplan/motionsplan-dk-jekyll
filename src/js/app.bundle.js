@@ -349,6 +349,15 @@ $(document).ready(function() {
         $("#ftpa_vo2").val((ftp * 0.97).toFixed(0) + '-' + (ftp * 1.01).toFixed(0));
         $("#ftpa_anaerob").val((ftp * 0.90).toFixed(0) + '-' + (ftp * 0.97).toFixed(0));
     });
+    $("#calculator_maffetone").submit(function(e) {
+        console.log("Calculate Maffetone");
+        e.preventDefault();
+
+        let age = Number($("[name='age']").val());
+        let category = Number($("[name='category']:checked").val());
+
+        $("[name='mahr']").val((180 - age + category).toFixed(0));
+    });
     // Mortality calculation
     $("#calculator_cooper_mortality").submit(function(e) {
         console.log("Calculate Cooper");
