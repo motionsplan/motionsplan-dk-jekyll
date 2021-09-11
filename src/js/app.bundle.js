@@ -334,6 +334,23 @@ $(document).ready(function() {
         $("#ftp_vo2").val((ftp * 1.06).toFixed(0) + '-' + (ftp * 1.21).toFixed(0));
         $("#ftp_anaerob").val((ftp * 1.21).toFixed(0) + '-' + (ftp * 1.50).toFixed(0));
     });
+    $("#calculator_ftp_cp").submit(function(e) {
+        console.log("Calculate FTP CP");
+        e.preventDefault();
+
+        let cp = Number($("#zone_cp").val());
+        let adjust = Number($("#zone_adjust").val());
+        let ftp = cp * adjust / 100;
+
+        $("#ftp_value").text(ftp.toFixed(0));
+
+        $("#ftp_recovery").val('<' + (ftp * 0.56).toFixed(0));
+        $("#ftp_endurance").val((ftp * 0.56).toFixed(0) + '-' + (ftp * 0.76).toFixed(0));
+        $("#ftp_tempo").val((ftp * 0.76).toFixed(0) + '-' + (ftp * 0.91).toFixed(0));
+        $("#ftp_ftp").val((ftp * 0.91).toFixed(0) + '-' +(ftp * 1.06).toFixed(0));
+        $("#ftp_vo2").val((ftp * 1.06).toFixed(0) + '-' + (ftp * 1.21).toFixed(0));
+        $("#ftp_anaerob").val((ftp * 1.21).toFixed(0) + '-' + (ftp * 1.50).toFixed(0));
+    });
     $("#calculator_ftpa").submit(function(e) {
         console.log("Calculate FTPa");
         e.preventDefault();
@@ -1161,6 +1178,19 @@ $(document).ready(function() {
             $("[name='pal_calc']").val(tee.getPhysicalActivityLevel().toFixed(2));
             $("[name='tee']").val(tee.getTotalEnergyExpenditure().toFixed(0));
         }
+    });
+    $("#calculator_critical_power").submit(function(e) {
+        console.log("Calculate CP");
+        e.preventDefault();
+
+        let p3 = $("[name='p3']").val();
+        let p12 = $("[name='p12']").val();
+
+        let cp = ((12 * p12) - (3 * p3)) / 9;
+        let w = 0.24 * (p3 - p12);
+
+        $("[name='cp']").val(cp.toFixed(0));
+        $("[name='w']").val(w.toFixed(0));
     });
     // Calculate BMR - Nordic Nutrition 2012
     $("#calculator_blood").submit(function(e) {
