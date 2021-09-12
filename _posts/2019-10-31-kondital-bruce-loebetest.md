@@ -70,13 +70,13 @@ Der er en generel formel, der passer til begge køn:
 
 VO<sub>2</sub>-max = 14.8 – (1.379 * T) + (0.451 * T<sup>2</sup>) – (0.012 * T<sup>3</sup>)
 
-Hvor T er er tiden i minutter, du har løbet i Bruce-testen.
+Hvor T er er tiden i minutter, du har løbet i Bruce-testen. Sekunderne skal være fraktioner af minutter, så 9 minutter og 15 sekunder er 9.25.
 
 Men på [www.topendsports.com](https://www.topendsports.com/testing/tests/bruce.htm) kan du også finde formler rettet mod mænd og kvinder i forhold til alder.
 
-Du kan sammenligne dit [kondital i tabellen for kondital for mænd og kvinder](/kondital/).
+Du kan sammenligne dit resultat med [tabellen med kondital for mænd og kvinder](/kondital/).
 
-Skriv endelig i kommentarerne, hvis du har brug for en online-beregner til Bruce-testen, så laver vi gerne en.
+{% include calculate-bruce.html %}
 
 ## Referencer om Bruce Test
 

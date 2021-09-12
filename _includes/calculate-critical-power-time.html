@@ -1,0 +1,30 @@
+<form class="calculator" id="calculator_critical_power_time">
+    <fieldset>
+        <legend>Udregning af tid over Critical Power</legend>
+        <div class="form-group">
+            <label>Critical Power (CP) (watt)
+                <input type="number" min="0" max="1000" placeholder="fx 400" name="time_cp" id="time_cp" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>W' (kJ)
+                <input type="number" min="0" max="1000" placeholder="fx 300" name="time_w" id="time_w" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Ønsket Power (P) (watt)
+                <input type="number" min="0" max="1000" placeholder="fx 300" name="time_p" id="time_p" required>
+            </label>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <legend>Tid du kan køre over CP inden udmattelse med ønsket watt</legend>
+        <div class="form-group">
+            <label>Tid du kan køre inden udmattelse (sekunder)
+                <input name="time" disabled>
+            </label>
+        </div>
+    </fieldset>
+    {% include calculator-footer.html %}
+</form>

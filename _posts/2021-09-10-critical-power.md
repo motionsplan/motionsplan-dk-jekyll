@@ -45,7 +45,7 @@ Når du har lavet de to tests, så kan du sætte resultaterne ind i disse formle
 
 {% include math formula="CP={\frac{(12*P_{12})-(3*P_3)}{9}}" %}
 
-{% include math formula="W={0.24*(P_3-P_{12})}" %}
+{% include math formula="W'={0.24*(P_3-P_{12})}" %}
 
 I formlerne er P<sub>3</sub> og P<sub>12</sub> den gennemsnitlige watt i hhv. 3-minutters og 12-minutters testen.
 
@@ -55,15 +55,53 @@ Du kan bruge denne beregner:
 
 Du kan også bruge en lidt **mere præcis testprotokol, hvor du bruger 4 tests**. Du kan finde en beskrivelse og et link til et regneark på [www.bikeradar.com](https://www.bikeradar.com/advice/fitness-and-training/critical-power/).
 
+## Hvad man du bruge det til?
+
+Når du har estimimeret din *critical power* med de ret hårde tests, så kan det også være fedt at vide, hvad det kan bruges til.
+
+Tallet kan bruges til:
+
+- Identificere om din svaghed ligger i den høje eller lave ende af intensitetsskalaen.
+- Se din fremgang i træningen hvis du laver flere tests
+- Lave træningszoner
+- Vide hvor hurtigt du kan køre over CP før du bliver udmattet
+
+## Hvor meget arbejde kan du lave?
+
+Når du skal planlægge dine intervaller eller dine afslutninger i en konkurrence, så kan det være nyttigt at regne ud enten hvor lang tid du kan køre med et bestemt watt-tal eller hvilken power du kan arbejde med fx de sidste 2 minutter af en konkurrence.
+
+Jeg har lavet en beregner her, som kan hjælpe dig med at vide hvor lang tid du kan køre med bestemte watt, når du kender din CP og W'. Formlen ser sådan her ud:
+
+{% include math formula="T={\frac{1000*W'}{P-CP}}" %}
+
+{% include calculate-critical-power-time.html %}
+
+Og her er en anden beregner, der kan estimere hvor mange watt du kan køre med, hvis du har nogle længder på dine intervaller. Sådan her ser formlen ud.
+
+{% include math formula="P={\frac{1000*W'}{T}+CP}" %}
+
+{% include calculate-critical-power-power-time.html %}
+
+P = power in watts, T = time in seconds, CP = critical power in Watts, W’ = ‘W prime’ in kJ.
+{: .notice .notice--info }
+
 ## Træningszoner baseret på CP
 
-Hvis du vil basere dine [træningszoner]({% link _posts/2021-09-01-traeningszoner.md %}) på *critical power*, så kan du bruge FTP-zonerne med et let modificeret Critical Power.
+Hvis du vil basere dine [træningszoner]({% link _posts/2021-09-01-traeningszoner.md %}) på *critical power*, så kan du ifølge [www.bikeradar.com](https://www.bikeradar.com/advice/fitness-and-training/critical-power/) bruge FTP-zonerne med et let modificeret Critical Power.
 
 > Critical power is not the same as FTP, but can be used to estimate your training zones. If using the zones above, take 94 per cent of your Critical Power to replace FTP, then apply the percentages to find your values for each zone.
 
 --- <cite>[www.bikeradar.com](https://www.bikeradar.com/advice/fitness-and-training/critical-power/)</cite>
 
 {% include table-ftp-critical-power.html %}
+
+## Stryd og træningszoner
+
+Stryd er en watt-måler, som du kan bruge til løb. Det er en lille *foot pod*, som kan måle hvor mange watt du løber med. Her er *critical power* en helt central måling, som træningszonerne planlægges ud fra.
+
+Zonerne er navngivet på samme måde som [Jack Daniels løbeberegner]({% link _posts/2020-08-01-jack-daniels-loebeberegner.md %}). De udregnes automatisk på i appen, og du kan have Stryd til automatisk at opdatere zonerne ud fra dine aktuelle træninger.
+
+{% include figure image_path="https://support.stryd.com/hc/article_attachments/360055015934/mceclip0.png" caption="Kilde: [stryd.com](https://support.stryd.com/hc/en-us/articles/360039774153-Power-Zones)." %}
 
 ## Konklusion
 

@@ -1179,12 +1179,46 @@ $(document).ready(function() {
             $("[name='tee']").val(tee.getTotalEnergyExpenditure().toFixed(0));
         }
     });
+    $("#calculator_critical_power_time").submit(function(e) {
+        console.log("Calculate CP Time");
+        e.preventDefault();
+
+        let cp = Number($("[name='time_cp']").val());
+        let w = Number($("[name='time_w']").val());
+        let p = Number($("[name='time_p']").val());
+
+        let time = ((1000 * w) / (p - cp));
+
+        $("[name='time']").val(time.toFixed(0));
+    });
+    $("#calculator_critical_power_power_for_time").submit(function(e) {
+        console.log("Calculate CP Power for time");
+        e.preventDefault();
+
+        let cp = Number($("[name='power_time_cp']").val());
+        let w = Number($("[name='power_time_w']").val());
+        let t = Number($("[name='power_time_time']").val());
+
+        let p = ((1000 * w) / t) + cp;
+
+        $("[name='power_for_time']").val(p.toFixed(0));
+    });
+    $("#calculator_bruce").submit(function(e) {
+        console.log("Calculate Bruce");
+        e.preventDefault();
+
+        let T = Number($("[name='bruce_time']").val());
+
+        let kondital = 14.8 - (1.379 * T) + (0.451 * Math.pow(T, 2)) - (0.012 * Math.pow(T, 3));
+
+        $("[name='bruce_kondital']").val(kondital.toFixed(0));
+    });
     $("#calculator_critical_power").submit(function(e) {
         console.log("Calculate CP");
         e.preventDefault();
 
-        let p3 = $("[name='p3']").val();
-        let p12 = $("[name='p12']").val();
+        let p3 = Number($("[name='p3']").val());
+        let p12 = Number($("[name='p12']").val());
 
         let cp = ((12 * p12) - (3 * p3)) / 9;
         let w = 0.24 * (p3 - p12);
