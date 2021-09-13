@@ -1,5 +1,6 @@
 ---
 title: "Talje-hoftemål: Mål dit taljemål og beregn talje/hofte-ratio"
+excerpt: "Taljemål, livvidde og hoftemål er en enkel måde at sige noget om fedtfordelingen på din krop. Studier har vist, at der er en sammenhæng mellem taljemål, hoftemål og din højde og risiko for livsstilssygdomme. Jeg har researchet hvilke forskellige taljemål og hoftemål, der findes."
 permalink: /taljemaal/
 language: da
 header:
@@ -14,7 +15,7 @@ tags:
   - test
   - tracking
   - featured
-last_modified_at: 2020-07-06T23:14:14Z
+last_modified_at: 2021-09-12T23:14:14Z
 toc: true
 ---
 
@@ -26,27 +27,27 @@ Jeg har fundet frem til tre forskellige taljemål, hvor størrelsen på taljen e
 
 Typer af taljemål, mål af livvidde og hoftemål:
 
-- **Taljemål (mål af livvidde)**. Taljemålet kan indikere noget om ens risiko for sygdomme. Taljemålet kan også kaldes livvidde.
+- **Taljemål (mål af livvidde)**. Taljemålet kan indikere noget om ens risiko for sygdomme. Taljemålet kaldes også med et andet ord for livvidde.
 - **Talje-højde-ratio**. Når man medtager højden, så får man en mere retfærdig vurdering af taljemålet. Det er klart at høje personer sandsynligvis vil have en større talje.
-- **Talje-hofte-ratio**. Talje-hofte-målet kan sige noget om fordelingen af fedt på kroppen - og derved også noget om risikoen for sygdom.
+- **Talje-hofte-ratio**. Talje-hofte-målet kan sige noget om fordelingen af fedt på kroppen. Derved siger WHR-målet noget om risikoen for sygdom, da distributionen af fedt er en risikofaktor for livsstilssygdomme.
 
 ## Beregner til talje-hofte-ratio og talje-højde-ratio
 
-I denne beregner kan du måle din talje-hofte-ratio og din talje-højde-ratio.
+I denne beregner kan du udregne din din talje-hofte-ratio og din talje-højde-ratio.
 
 {% include calculate-waist.html %}
 
 ## Mere om de forskellige taljemål
 
-I det følgende beskriver jeg de forskellige taljemål (livvidde), og hvad de kan bruges til.
+I det følgende beskriver jeg de forskellige taljemål, og hvordan du kan bruge dem til at vurdere din egen sundhed.
 
 ## Taljemålet (livvidden)
 
 Flere studier viser sammenhæng mellem taljemålet og risikoen for mange livsstilssygdomme, som fx hjertekarsygdomme og diabetes type II.
 
-Taljemålet er særligt relevant, fordi fedtet omkring maven giver øget risiko for sygdomme. I forbindelse med træning er taljemålet også et bedre mål for fedttab end vægt og [udregninger af BMI](/bmi/). Man kan nemlig godt blive tungere af træning, fordi man øger muskelmassen, men hvis man taber fedt, så vil taljemålet formentlig falde.
+Taljemålet er særligt relevant, fordi fedtet omkring maven giver øget risiko for sygdomme. I forbindelse med træning er taljemålet også et bedre mål for fedttab end vægt og [udregninger af BMI](/bmi/). Man kan nemlig godt blive tungere af træning, fordi man øger muskelmassen, men hvis man taber fedt, så vil taljemålet alt andet lige falde.
 
-## Hvordan måles taljemålet (livvidde)?
+### Hvordan måles taljemålet (livvidde)?
 
 Hvordan måler du taljen (din livvidde)? Og hvor måles taljemål for mænd og kvinder?
 
@@ -69,9 +70,7 @@ Denne tabel er det mest brugte skema og tabel til at vurdere taljemål for kvind
 | Mænd    | > 94 cm            | > 102 cm       |
 | Kvinder | > 80 cm            | > 88 cm        |
 
-Vurderingen i tabellen er naturligvis meget forenklet. Taljemålet tager i sig selv ikke højde for den enkeltes kropsbygning. Fx har man formentlig et højere taljemål, hvis man er høj.
-
-[Bray (2004)](https://academic.oup.com/ajcn/article/79/3/347/4690117) har foreslået en opdeling for taljemålet og livvidden for mænd og kvinder med lidt flere kategorier for risici for livsstilssygdomme.
+Vurderingen i tabellen er naturligvis meget forenklet. [Bray (2004)](https://academic.oup.com/ajcn/article/79/3/347/4690117) har foreslået en lidt mere præcis opdeling for taljemålet og livvidden for mænd og kvinder med lidt flere kategorier for risici for livsstilssygdomme.
 
 |           | Kvinder   | Mænd        |
 |-----------|-----------|-------------|
@@ -79,6 +78,8 @@ Vurderingen i tabellen er naturligvis meget forenklet. Taljemålet tager i sig s
 | Lav       | 70-89 cm  | 80-99 cm    |
 | Høj       | 90-109 cm | 100-120 cm  |
 | Meget høj | > 110 cm  | > 120 cm    |
+
+Taljemålet tager i sig selv ikke højde for den enkeltes kropsbygning. Lad os kigge lidt på fordelene og ulemperne ved at bruge din livvidde som et mål for din sundhed.
 
 ### Fordele og ulemper ved taljemålet (livvidde mål)
 
@@ -90,9 +91,16 @@ Det kan talje-højde ratioen imidlertid tage højde for, så lad os i det følge
 
 ## Talje-højde-ratio
 
-Efterhånden har [talje/højde-ratioen](https://en.wikipedia.org/wiki/Waist-to-height_ratio) sneget sig ind i litteraturen, fordi det tager højde for personer, som ikke har en gennemsnitlig højde. Når man sætter taljemålet i forhold til højden, har man også et meningsfuldt mål man kan bruge på både børn og voksne.
+Efterhånden har [talje/højde-ratioen](https://en.wikipedia.org/wiki/Waist-to-height_ratio) sneget sig ind i litteraturen, fordi det ser ud til at være bedre til at vurdere personer, som ikke har en gennemsnitlig højde. Når man sætter taljemålet i forhold til højden, har man også et meningsfuldt mål man kan bruge på både børn og voksne med forskellige højder.
 
-Når du sætter dit taljemål i forhold til din højde, så er det forbundet med lavere risiko for livsstilssygdomme, hvis ratioen er under 0,5. Det betyder i praksis, at dit taljemål skal være under halvdelen af din højde i centimeter for at have en nedsat risiko for livsstilssygdomme.
+### Hvordan måles det?
+
+- **Mål taljen**. Stå afslappet og mål omkring 2 cm over navlehøjden.
+- **Mål din højde**. Stå rank og mål hvor høj du er.
+
+### Skema for talje-højde-ratio
+
+Det ser ud til at være forbundet med lavere risiko for livsstilssygdomme, hvis talje-højde-ratioen er under 0,5. Det betyder i praksis, at hvis dit taljemål er under halvdelen af din højde i centimeter, så har du statistisk set en nedsat risiko for livsstilssygdomme.
 
 | WHR        | Klassifikation                              | Handling        |
 |------------|---------------------------------------------|-----------------|
@@ -113,19 +121,21 @@ Wikipedia skriver om talje-hofte-ratioen:
 
 > **Talje-hofte forholdet**, **talje-hofte målet**, **æble-pære indekset** eller **talje-hofte ratio** (**THR**) er en måde at beskrive forholdet mellem talje- og hoftevidden. Forholdet måler proportionen af fedt deponeret forskellige stedet på kroppen. Der er også kraftige indicer på at nogle bestemte mål opfattes som specielt attraktive hos det modsatte køn og for kvinder indikere en mærkbar højere frugtbarhed.
 
-— <cite>[Wikipedia](https://da.wikipedia.org/wiki/Talje-hofte_forhold)</cite>
+--- <cite>[Wikipedia](https://da.wikipedia.org/wiki/Talje-hofte_forhold)</cite>
 
-Ratioen mellem taljemålet og hoftemålet er en indikator på sundhed. Relationen kan sige noget om kropsformen, og man skelner ofte mellem pæreformet og æbleformet kropsfacon.
+Forholdet mellem taljemålet og hoftemålet er en indikator på sundhed. Relationen kan sige noget om kropsformen, og man skelner ofte mellem pæreformet og æbleformet kropsfacon.
 
 WHR kan afspejle den intraabdominale fedme. Ofte er WHR også knyttet sammen med fysisk tiltrækning på tværs af forskellige kulturer.
 
 {% include figure image_path="https://www.hellodoctor.co.za/wp-content/uploads/2013/12/Body-shapes.jpg" caption="Pæreformet og æbleformet" alt="Talje mål og hoftemål kan via talje-hofte-ratioen siger noget om fedtfordelingen. Kilde: [www.hellodoctor.co.za](https://www.hellodoctor.co.za/)" %}
 
+### Hvordan måles WHR?
+
 Hvordan måles taljemålet (livvidden) og hoftemålet som bruges til talje-hofte-ratioen, og hvor måler man hoften?
 
-- Personen skal stå oprejst
-- Mål omkredsen af taljen ved midtpunktet på siden mellem nederste punkt at nederste ribben og øverste punkt af hoftekammen.
-- Hoften måles ved det den største omkreds ved hoften.
+- Personen skal stå oprejst til begge målinger.
+- **Taljemålet**. Mål omkredsen af taljen ved midtpunktet på siden mellem nederste punkt at nederste ribben og øverste punkt af hoftekammen. Det er cirka 2 cm over navlen.
+- **Hoftemålet**. Hoften måles ved det den største omkreds ved hoften.
 
 Du kan se mere i denne video om, hvordan man måler taljemålet og hoftemålet:
 

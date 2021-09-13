@@ -1,6 +1,7 @@
 ---
 title: &title "Udregn idealvægt for mænd og kvinder i vores enkle beregner"
 description: "Er du interesseret i at vide mere om, hvad min idealvægt er? Her er alt du skal vide om idealvægt, normalvægt og gennemsnitsvægt for mænd og kvinder? Prøv vores GRATIS beregner og ..."
+excerpt: "Jeg får ofte spørgsmålet om, hvad min idealvægt er? Altså ikke min normalvægt, men idealvægten for mænd og kvinder. Der er rigtig mange, der vurderer deres egen sundhed ud fra vægten. Jeg har undersøgt, hvad idealvægt, normalvægt og gennemsnitsvægt er, og hvordan videnskaben er kommet frem til et tal der passer for mænd og kvinder?"
 permalink: /idealvaegt/
 language: da
 header:
@@ -9,10 +10,12 @@ header:
   caption: *title
   overlay_filter: 0.1
 category:
+  - Krop & Sundhed
   - Beregnere
 tags:
   - vægt
   - beregner
+  - kropskomposition
 last_modified_at: 2021-06-22T08:14:14Z
 toc: true
 ---
@@ -35,7 +38,7 @@ I gennem forskellige studier har der været virkelig mange forskellige bud på, 
 
 Devine (1974), Miller (1983), Hamwi (1964) og Robinson (1983) har alle foreslået formler til, som tager udgangspunkt i dit køn og din højde. Formlerne og udregningerne tager altså ikke højde for kropsbygning og muskelmasse.
 
-Formlerne fra Devine (1974), Miller (1983), Hamwi (1964) og Robinson (1983) er beregnet til mennesker, der er højere end 152 cm høje.
+Formlerne fra Devine (1974), Miller (1983), Hamwi (1964) og Robinson (1983) er beregnet til mennesker, der er højere end 152 cm.
 {: .notice .notice--info }
 
 ## Petersons universelle formel baseret på BMI
@@ -52,11 +55,11 @@ Idealvægt (kg) = 2.2 x BMI<sub>target</sub> + 3.5 x BMI<sub>target</sub> x (hø
 
 ***
 
-Med Lemmens (2005) har jeg valgt at bruge en target BMI på 22.
+Med udgangspunkt i Lemmens (2005) har jeg valgt at bruge en target BMI på 22.
 
 ## Udregn idealvægt baseret på BMI og kropstype
 
-Morten Zacho har som Peterson (2016) også foreslået, at [basere idealvægten på Body Mass Index (BMI)](https://web.archive.org/web/20160808221414/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/beregn_din_idealvaegt/){:rel="nofollow"}.
+[Morten Zacho](https://web.archive.org/web/20160808221414/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/beregn_din_idealvaegt/){:rel="nofollow"} har som Peterson (2016) også foreslået, at basere idealvægten på Body Mass Index (BMI).
 
 Morten Zacho konkluderer, at videnskaben understøtter at et optimalt BMI er på omkring 22,5 for kvinder og 24,5 for mænd for at opleve det længste liv med færrest sygdomme. Jeg har forklaret rationalet bag i indlægget om [Body Mass Index (BMI), som også har en BMI-beregner](/bmi/).
 

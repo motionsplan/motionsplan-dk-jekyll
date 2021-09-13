@@ -45,7 +45,7 @@ Du skal i testen måle din puls. Du kan enten måle din puls med en pulsmåler e
 I videoen præsenteres følgende trin for at gennemføre testen.
 
 1. **Vej dig** på en pålidelig vægt.
-2. **Mål en distance** på 1,609 km. Det er oplagt at gå på en 400 meter løbebane eller en anden flad vej, men du kan også udføre testen på løbebånd.
+2. **Mål en distance på 1,609 km**. Det er oplagt at gå på en 400 meter løbebane eller en anden flad vej, men du kan også udføre testen på løbebånd.
 3. **Varm op** i 10 minutter.
 4. **Gå distancen** så hurtigt du kan.
 5. Skriv tiden ned og den puls du havde ved afslutningen af de 1,6 km.
@@ -59,7 +59,7 @@ I videoen præsenteres følgende trin for at gennemføre testen.
 
 Rockports gåtest estimerer konditallet. Hvor præcist den rammer konditallet for den enkelte afhænger af mange faktorer. Weiglein (2011) har vist at testen er valid til at estimere konditallet, når man sammenligner med 1,5 mile (2.414 meter) løbetesten, som bruges af det amerikanske militær. Det betyder i praksis, at den kan sammenlignes med [Coopers 2400 meter test](/kondital-2400-meter/).
 
-Lunt et al (2013) rapporterer imidlertid at studier har fundet, at formlerne fra Kline et al (1987) overestimerer VO<sub>2</sub>max med mellem 8% and 23%. Lunt et al (2013) foreslår selv alternative formler for folk fra 18-39 år, som passer bedre på det militærpersonale, de undersøgte.
+Lunt et al (2013) rapporterer imidlertid, at studier har fundet, at formlerne fra Kline et al (1987) overestimerer VO<sub>2</sub>max med mellem 8% and 23%. Lunt et al (2013) foreslår selv alternative formler for folk fra 18-39 år, som passer bedre på det militærpersonale, de undersøgte.
 
 Testen er relativt god til at overvåge fremgang i dit træningsniveau. Du kan altså lave testen, når du begynder med at træne, og så kan du følge op med en test fx hver anden uge. På den måde kan du følge med i, hvordan træningen virker for formen.
 
@@ -67,19 +67,19 @@ Testen er relativt god til at overvåge fremgang i dit træningsniveau. Du kan a
 
 Denne formel bliver brugt til at estimere konditallet og er lavet af Kline (1987).
 
-Kondital = 132.853 - (0.169535479 × Weight) - (0.3877 × Age) + (6.315 × Gender) - (3.2649 × Time) - (0.1565 × Heart rate)
+Kondital = 132.853 - (0.169535479 × Kropsvægt) - (0.3877 × Alder) + (6.315 × Køn) - (3.2649 × Tid) - (0.1565 × HR)
 
 Hvor:
 
-- Weight i kg.
-- Hvis man er en mand, så skal der stå 1 i formlen, mens der skal stå 0 for kvinder
-- Tiden skal være i minutter og 100-dele af minutter.
-- Heart Rate er i pulsslag / min.
-- Age i år.
+- Kropsvægt i kg.
+- Køn - Hvis man er en mand, så skal der stå 1 i formlen, mens der skal stå 0 for kvinder
+- Tid - Tiden skal være i minutter og 100-dele af minutter.
+- HR (Heart Rate) er i pulsslag / min.
+- Alder i år.
 
 ## Hvor god form er jeg i?
 
-Når du har lavet testen, så har du fået et kondital. Du kan sammenligne dit eget med en [tabel med forskellige normer for kondital for mænd og kvinder]({% link _posts/2019-11-04-kondital-og-tabel.md %}). Jeg har lavet et andet indlæg, hvor du kan se [flere konditionstests]({% link _posts/2019-11-04-kondition-og-test.md %}).
+Når du har lavet testen, så får du et tilnærmet kondital. Du kan sammenligne dit eget med en [tabel med forskellige normer for kondital for mænd og kvinder]({% link _posts/2019-11-04-kondital-og-tabel.md %}). Jeg har lavet et andet indlæg, hvor du kan se [flere konditionstests]({% link _posts/2019-11-04-kondition-og-test.md %}).
 
 Du kan lade 1,6 km gåtesten være en del af dit mål om at komme i bedre form. Du kan også udregne, hvor meget [energi og kalorier du bruger på at gå](/forbraending-ved-gaa-gang/). Jeg kan godt lide at motivere mig selv ved at [tælle mine daglige skridt]({% link _posts/2021-01-01-tael-skridt.md %}). Måske er du også interesseret i at finde ud af, [hvor langt 10.000 skridt er, og hvor mange skridt, du går på en kilometer](/skridt-pr-km-10000/).
 
