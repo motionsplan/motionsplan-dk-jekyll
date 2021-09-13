@@ -1,5 +1,6 @@
 ---
 title: &title "Zwift cykling på hometrainer: Komplet guide til begyndere 🚵🚵‍♀️"
+seo_title: "Zwift cykling på hometrainer: Komplet guide til begyndere"
 permalink: /komplet-begynderguide-zwift/
 language: da
 header:
