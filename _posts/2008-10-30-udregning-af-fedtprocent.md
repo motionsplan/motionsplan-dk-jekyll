@@ -11,6 +11,7 @@ header:
   teaser: https://images.unsplash.com/photo-1522844990619-4951c40f7eda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
 category:
   - Test
+  - Fedtprocent
 tags:
   - fedtprocent
   - test
@@ -147,9 +148,9 @@ Hvis du vil tjekke din [fedtprocent i forhold til normerne for mænd og kvinder,
 
 ## Andre typer målinger af kropskomposition
 
-Hvis du vil have et mere præcist bud på din fedtprocent, så kan du kigge på vores andre måder at måle fedtprocent på. Men overvej hvorfor du gerne vil have sat tal på din fedtprocent.
+Hvis du vil have et mere præcist bud på din fedtprocent, så kan du kigge på vores andre måder at [måle fedtprocent](/maal-fedtprocent/) på. Men overvej hvorfor du gerne vil have sat tal på din fedtprocent.
 
-{% assign site_posts = site.posts | where: "category", "Test" | where: "tags", "kropskomposition" |where_exp: "post", "post.url != page.url" | sort: "date" %}
+{% assign site_posts = site.posts | where: "category", "Test" | where: "tags", "kropskomposition" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
