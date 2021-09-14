@@ -36,6 +36,8 @@ Kurven er defineret af to variable: Critical Power (CP) og W’ (udtales ‘W pr
 
 Der er forskellige bud på, hvordan du kan teste Critical Power.
 
+Der er forskellige måder at udregne CP og W' på. [highnorth.co.uk](https://www.highnorth.co.uk/articles/critical-power-calculator) har lavet en god forklaring.
+
 [www.bikeradar.com](https://www.bikeradar.com/advice/fitness-and-training/critical-power/) forelår en protokol med **to tests**. Du kan enten lave de to tests på to forskellige dage, eller du kan holde en pause på omkring 30 minutter mellem de to tests.
 
 - 3 minutters all out
@@ -55,7 +57,18 @@ Vi har lavet denne beregner, så du ikke behøver at finde lommeregneren:
 
 {% include calculate-critical-power.html %}
 
-Du kan også bruge en lidt **mere præcis testprotokol med flere tests**. Du kan finde en rigtig god beskrivelse og et link til et regneark på [www.highnorth.co.uk](https://www.highnorth.co.uk/articles/critical-power-calculator).
+<<<<<<< HEAD
+Du kan også bruge en lidt **mere præcis testprotokol med flere tests**.
+
+> Several studies have proposed that CP and W’ can be determined from just two maximal efforts (Maturana et al., 2018; Simpson & Kordi., 2017). However, in our experience, using just two maximal efforts is highly sensitive to the specific powers and/or test durations used (making repeat tests hard to compare) and can result in fairly inaccurate estimates under certain circumstances. So, we recommend using 3-4 maximal tests to calculate CP and W’ accurately.
+
+--- <cite>[www.highnorth.co.uk](https://www.highnorth.co.uk/articles/critical-power-calculator)</cite>
+
+Du kan finde en rigtig god beskrivelse og et link til et regneark på [www.highnorth.co.uk](https://www.highnorth.co.uk/articles/critical-power-calculator).
+
+Hvis du vil lære lidt mere om, hvordan man udregner critical power, så er den her video virkelig god.
+
+{% include video provider="youtube" id="INDGXBzFZ4k" %}
 
 Du kan også prøve den meget enkle protokol med kun **en treminutters allout**-test. Se hvor grusom den er her:
 
