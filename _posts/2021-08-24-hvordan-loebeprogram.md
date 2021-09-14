@@ -56,15 +56,17 @@ Lad os dykke ned i nogle af de løbeformer, du kan putte ind i din træning.
 
 I det følgende har jeg forsøgt at beskrive forskellige træningskategorier, som kan bruges i dit løbeprogram. Lad os dykke ned i de forskellige træningskategorier.
 
-## Udholdenhedstræning (LSD)
+## Udholdenhedstræning (LSD) og roligt løb
 
 *[LSD]: Long Slow Distance
 
-Udholdenhedstræning kaldes også sommetider for Long Slow Distance (LSD). Når du laver udholdenhedstræning i dit løbeprogram, så handler det om at øge distancens længde og vænne kroppen til at arbejde i længere tid ad gangen.
+Du kan bruge det rolige tempo til specifikt at arbejde med din udholdenhed eller til at få lidt mere træningsmængde i dit træningsprogram. Forskellen er hvor langt du løber på de enkelte ture. Du kan have den **længere løbetur**, som også ofte kaldes *Long Slow Distance (LSD)* eller du kan løbe en kortere ture i det rolige tempo.
+
+Når du laver udholdenhedstræning i dit løbeprogram, så handler det om at øge distancens længde og vænne kroppen til at arbejde i længere tid ad gangen med relativt lav intensitet.
 
 ### Formål
 
-Udholdenhed er naturligvis vigtig, når du træner langdistanceløb. Udholdenhedstræningen fremmer kroppens evne til at tolerere bevægelse over længere tid, evnen til at forbrænde fedt og forbedre kredsløbet.
+Udholdenhed er naturligvis vigtig, når du træner langdistanceløb. Udholdenhedstræningen fremmer kroppens evne til at tolerere bevægelse over længere tid, evnen til at forbrænde fedt og forbedrer kredsløbet.
 
 Grundlæggende forbedrer udholdenhedstræning kredsløbet og og den aerobe kapacitet. Der sker altså nogle [fysiologiske tilpasninger og adaptation er til udholdenhedstræning]({% link _posts/2020-05-31-tilpasning-konditionstraening.md %}).
 
@@ -77,9 +79,9 @@ Grundlæggende forbedrer udholdenhedstræning kredsløbet og og den aerobe kapac
 
 Når du træner udholdenhedstræning, så skal intensiteten være med en pulsbelastning på omkring 60-75% af din _heart rate reserve_.
 
-Hvis man fx bruger [Borg-skalaen]({% link _posts/2020-06-18-borg-skala.md %}), så skal tempoet med andre ord være i "snakketempo". Du skal finde et behageligt tempo, hvor du kan føre en samtale undervejs i længere sætninger. Tempoet er 30-60 sekunder/km langsommere end det såkaldte maratontempo.
+Hvis man fx bruger [Borg-skalaen]({% link _posts/2020-06-18-borg-skala.md %}), så skal tempoet med andre ord være i "snakketempo". Du skal finde et behageligt tempo, hvor du kan føre en samtale undervejs i længere sætninger.
 
-Når du træner udholdenhedstræning vil det typisk være en tur på 1-2 timer. Du kan opbygge turen, så du starter lidt langsommere på omkring 60% pulsbelastning og bygger op mod 80% i slutningen.
+Når du træner udholdenhedstræning skal du arbejde med nogenlunde konstant puls i 30 minutter til 2 timer. Du kan opbygge turen, så du starter lidt langsommere på omkring 60% pulsbelastning og bygger op mod 75% i slutningen.
 
 I starten af turen sparer du sparer du lidt på glykogendepoterne, så du kan fortsætte træningen i længere tid. Efterhånden tømmer du med stigende intensitet glykogendepoterne og forbedrer din evne til at forbrænde fedt.
 
@@ -121,15 +123,11 @@ Lad os kigge lidt på forskellige øvelser, som kan være med til at flytte mæl
 
 Tempoløb er hårdt, men effektivt. Du skal løbe intensivt i relativt lang tid. Et eksempel kan være at løbe et par kilometer som opvarmning, hvorefter du løber 3-8 km i et tempo omkring den anaerobe tærskel. Slut med et par kilometers afjogning.
 
-Når man laver tempoløb arbejder man også med sin mentale styrke. Husk at løbe omkring mælkesyregrænsen, så du får den rette træningseffekt. Hvis du løber hurtigere end det i perioder, så får du brug for længere restitution.
+Når man laver tempoløb arbejder man også med sin mentale styrke. Husk at løbe omkring mælkesyregrænsen, så du får den rette træningseffekt.
 
 ### Tærskel-intervaller
 
-Tærskel intervaller er ekstra lange intervaller på omkring 6-8 minutter. Det kan fx være 4 x 8 minutters intervaller med 2 minutters pause. Tærskelintervallerne er lidt mere overskuelige end tempoløbene. Pausen bør højest være 2 minutter.
-
-### Tærskel-bakkeløb
-
-Tærskel-bakkeløb ligner tærskelintervaller. Du har imidlertid brug for at finde nogle bakker på 1000-1500 meters længde. Du løber roligt ned af bakken, mens du løber intensivt op ad bakken. Det er formentlig passende at løbe 4 omgange, hvilket giver omkring 20-25 minutters intensiv træning.
+Tærskel intervaller er ekstra lange intervaller på omkring 6-15 minutter. Det kan fx være 4 x 8 minutters intervaller med 2 minutters pause. Tærskelintervallerne er lidt mere overskuelige end tempoløbene. Pausen bør højest være 2 minutter.
 
 ### Hyppighed og mængde
 
@@ -141,7 +139,7 @@ Træningsmængden indenfor AT-træning bør ikke overstige 10% af ugens samlede 
 
 ## Træning af maksimal iltoptagelse (VO<sub>2</sub>max)
 
-Træning af den maksimale iltoptagelse (VO2max) er en rigtig vigtig del af løbetræningen. Den [maksimale iltoptagelse]({% link _posts/2020-06-23-kondital-hvor-hurtigt.md %}) er et udtryk for kroppens evne til at optage og producere energi under forbrænding med ilt (aerob).
+Træning af den maksimale iltoptagelse (VO2max) er en rigtig vigtig del af løbetræningen. Den maksimale iltoptagelse er et udtryk for kroppens evne til at optage og producere energi under forbrænding med ilt (aerob).
 
 Der er flere faktorer, der bestemmer den [maksimale iltoptagelse]({% link _posts/2019-11-03-intensiteten-og-vo2max.md %}), som fx:
 
@@ -184,10 +182,6 @@ Mens du løber planlægger man start- og slutpunkter for, hvornår der skal løb
 Det kan godt virke lidt uoverskueligt at træne på denne løse måde. Det kan være en god ide at gennemtænke, hvor mange hurtige ryk, man vil foretage for at sætte en lille smule struktur på træningen.
 
 Legemomentet kan ende i for hård træning, der kræver ekstra lang restitutionstid, så vær opmærksom på at løbe i roligt tempo i omkring halvdelen af tiden.
-
-### Bakketræning
-
-Du kan også træne den maksimale iltoptagelse med bakketræning. Du har brug for en bakke, hvor du kan løbe opad i 2-5 minutter i arbejdsperioderne. Vær opmærksom på, at du ikke kommer til at løbe for hurtigt, da det er let at oparbejde for meget mælkesyre i musklerne, når man løber bakkeintervaller.
 
 ### Hyppighed og mængde
 
@@ -246,11 +240,7 @@ Træningen med sprinttræning kan udgøre omkring 1% af ugens samlede træningsm
 
 ## Roligt løb / Grundtempo
 
-Roligt løb bruges ofte som fyld i programmet for at få træningsmængden op. Belastningen er den samme som under udholdenhedstræning, men du løber noget kortere.
-
-### Formål
-
-Formålet med roligt løb er at få en højere samlet træningsmængde. Det har en gavnlig effekt for dit løb, hvis du kan løbe flere kilometer uden at det går ud over din evne til at restituere.
+Formålet med roligt løb er at få en højere samlet træningsmængde, og det løbes i samme tempo som de lange løbeture. Det har en gavnlig effekt for dit løb, hvis du kan løbe flere kilometer uden at det går ud over din evne til at restituere.
 
 Jeg har hørt om studier, der fortæller at en større løbemængde er gavnlig for præstationen for løbere, men at en del af distancen sagtens kan være med lavere hastighed. Jeg har dog ikke lige kunnet finde studierne, så hvis du støder på dem, så brug endelig kommentarerne.
 
