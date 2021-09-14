@@ -35,6 +35,11 @@ motionsplan.Running = function() {
         }
     }
 
+    function getMeterPerSecond(m, s, km) {
+        let velocity = getKilometersPrHour(m, s, km);
+        return velocity * 0.2777778;
+    }
+
     function convertMinPerKmToKmt(min, sec) {
         return 60/(min*1+(sec/60));
     }
@@ -48,7 +53,7 @@ motionsplan.Running = function() {
         }
         return (min_out + ":" + sec_out);
     }
-    
+
     function convertMinPerKmToDistanceForDuration(min, sec, duration_minutes, duration_seconds) {
         let velocity = convertMinPerKmToKmt(min, sec);
         return velocity * (duration_minutes + (duration_seconds / 60)) / 60 * 1000;
@@ -70,7 +75,8 @@ motionsplan.Running = function() {
         convertMinPerKmToKmt : convertMinPerKmToKmt,
         convertMinPerKmToDistanceForDuration : convertMinPerKmToDistanceForDuration,
         getDistanceFromTimeAndVelocity : getDistanceFromTimeAndVelocity,
-        getTimeFromDistanceAndVelocity : getTimeFromDistanceAndVelocity
+        getTimeFromDistanceAndVelocity : getTimeFromDistanceAndVelocity,
+        getMeterPerSecond : getMeterPerSecond
     };
 
     return publicAPI;

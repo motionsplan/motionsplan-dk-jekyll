@@ -16,7 +16,7 @@ last_modified_at: 2021-08-22T23:14:14Z
 toc: true
 ---
 
-I forbindelse med konditionstræning kan det være hjælpsomt at arbejde med forskellige træningszoner. Her præsenterer vi nogle træningszoner, der er baseret på intensitet. De enkelte træningszoner har hvert deres formål, så du får også retningslinjer for, hvordan du træner de enkelte energisystemer. På denne måde kan du få meget ud af din træning.
+I forbindelse med konditionstræning kan det være hjælpsomt at arbejde med forskellige træningszoner. Her præsenterer vi nogle træningszoner, der er baseret på intensitet. De enkelte træningszoner har hvert deres formål, så du får også retningslinjer for, hvordan du træner de enkelte energisystemer. Ved at være opmærksom på din træningsintensitet kan du få meget ud af din træning.
 
 Først kigger vi på de forskellige træningszoner, og du får en beskrivelse af træningszonerne. Efterfølgende kigger vi på, hvordan du kan måle intensiteten i de enkelte træningszoner.
 
@@ -24,7 +24,7 @@ Først kigger vi på de forskellige træningszoner, og du får en beskrivelse af
 
 Vi er især inspireret af Andrew Coggans 7 træningszoner til at beskrive træning. [Andrew Coggan](https://trainingpeaks.com/blog/power-training-levels/) opererer med syv forskellige træningszoner, som kan være gode guidelines for at kategorisere din træning.
 
-| Zone | Beskrivelse Energisystem |
+| Zone | Beskrivelse | Energisystem |
 |-|-|-|
 | 1 | Restitution | Aerob |
 | 2 | Udholdenhed | Aerob |

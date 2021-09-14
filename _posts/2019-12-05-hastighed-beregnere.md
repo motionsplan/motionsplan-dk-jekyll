@@ -43,12 +43,12 @@ Hvis du leder efter en [løbsberegner til at udregne løbehastigheder for træni
 
 Typisk kan man i angive hastigheden på to forskellige måder:
 
-- **hastighed i km/t**. Den hastighed kender du fra sit spedometer i bilen, så den er let at forholde sig til. Typisk er det også den hastighed, man kan indstille på et løbebånd. Jeg synes, at den er lidt vanskeligere at bruge, når man er ude på en løbetur.
+- **hastighed i km/t**. Den hastighed kender du fra sit spedometer i bilen, så den er let at forholde sig til. Typisk er det også den hastighed, man kan indstille på et løbebånd. Jeg synes, at den er lidt vanskeligere at bruge, når man er ude på en løbetur. Du kan også udregne hastighed i m/s.
 - **pace i min/km**. På løbeture foretrækker jeg at forholde mig til, hvor mange minutter jeg bruger for at løbe en kilometer. Det er let at forholde sig til - særligt hvis man kender den distance, man løber.
 
-## Beregn hastighed (km/t) fra distance og tid i vores beregner
+## Beregn hastighed (km/t og m/s) fra distance og tid i vores beregner
 
-I denne beregner kan du beregne din hastighed og gennemsnitshastighed ud fra den tilbagelagte distance og din tid.
+I denne beregner kan du beregne din hastighed og gennemsnitshastighed ud fra den tilbagelagte distance og din tid på distancen. I beregneren kan du også se dit pace.
 
 {% include calculate-hastighed.html %}
 
