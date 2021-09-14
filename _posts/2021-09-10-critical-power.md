@@ -34,7 +34,9 @@ Kurven er defineret af to variable: Critical Power (CP) og W’ (udtales ‘W pr
 
 ## Hvordan måles Critical Power?
 
-Du kan bruge en test, hvor du bruger to tests. Du kan enten lave de to tests på to forskellige dage, eller du kan holde en pause på omkring 30 minutter mellem de to tests.
+Der er forskellige bud på, hvordan du kan teste Critical Power.
+
+[www.bikeradar.com](https://www.bikeradar.com/advice/fitness-and-training/critical-power/) forelår en protokol med **to tests**. Du kan enten lave de to tests på to forskellige dage, eller du kan holde en pause på omkring 30 minutter mellem de to tests.
 
 - 3 minutters all out
 - 12 minutters all out
@@ -49,13 +51,25 @@ Når du har lavet de to tests, så kan du sætte resultaterne ind i disse formle
 
 I formlerne er P<sub>3</sub> og P<sub>12</sub> den gennemsnitlige watt i hhv. 3-minutters og 12-minutters testen.
 
-Du kan bruge denne beregner:
+Vi har lavet denne beregner, så du ikke behøver at finde lommeregneren:
 
 {% include calculate-critical-power.html %}
 
-Du kan også bruge en lidt **mere præcis testprotokol, hvor du bruger 4 tests**. Du kan finde en beskrivelse og et link til et regneark på [www.bikeradar.com](https://www.bikeradar.com/advice/fitness-and-training/critical-power/).
+Du kan også bruge en lidt **mere præcis testprotokol med flere tests**. Du kan finde en rigtig god beskrivelse og et link til et regneark på [www.highnorth.co.uk](https://www.highnorth.co.uk/articles/critical-power-calculator).
 
-## Hvad man du bruge det til?
+Du kan også prøve den meget enkle protokol med kun **en treminutters allout**-test. Se hvor grusom den er her:
+
+{% include video provider="youtube" id="rA5uIUTXTc0" %}
+
+Her er en uddybende forklaring af all-out-testen.
+
+{% include video provider="youtube" id="df5mui618rM" %}
+
+Den bedste beskrivelse jeg har hørt af fænomenet critical power er i denne Youtube-video (hvor du også får forklaringen på, hvorfor du bør lave mindst 4, men gerne 5 tests).
+
+{% include video provider="youtube" id="e9FSi5HWTiw" %}
+
+## Hvad man du bruge CP og W' til?
 
 Når du har estimimeret din *critical power* med de ret hårde tests, så kan det også være fedt at vide, hvad det kan bruges til.
 
