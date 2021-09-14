@@ -34,6 +34,8 @@ Kurven er defineret af to variable: Critical Power (CP) og W’ (udtales ‘W pr
 
 ## Hvordan måles Critical Power?
 
+Der er forskellige måder at udregne CP og W' på. [highnorth.co.uk](https://www.highnorth.co.uk/articles/critical-power-calculator) har lavet en god forklaring.
+
 Du kan bruge en test, hvor du bruger to tests. Du kan enten lave de to tests på to forskellige dage, eller du kan holde en pause på omkring 30 minutter mellem de to tests.
 
 - 3 minutters all out
@@ -53,9 +55,17 @@ Du kan bruge denne beregner:
 
 {% include calculate-critical-power.html %}
 
+> Several studies have proposed that CP and W’ can be determined from just two maximal efforts (Maturana et al., 2018; Simpson & Kordi., 2017). However, in our experience, using just two maximal efforts is highly sensitive to the specific powers and/or test durations used (making repeat tests hard to compare) and can result in fairly inaccurate estimates under certain circumstances. So, we recommend using 3-4 maximal tests to calculate CP and W’ accurately.
+
+--- <cite>[www.highnorth.co.uk](https://www.highnorth.co.uk/articles/critical-power-calculator)</cite>
+
 Du kan også bruge en lidt **mere præcis testprotokol, hvor du bruger 4 tests**. Du kan finde en beskrivelse og et link til et regneark på [www.bikeradar.com](https://www.bikeradar.com/advice/fitness-and-training/critical-power/).
 
-## Hvad man du bruge det til?
+Hvis du vil lære lidt mere om, hvordan man udregner critical power, så er den her video virkelig god.
+
+{% include video provider="youtube" id="INDGXBzFZ4k" %}
+
+## Hvad man du bruge CP og W' til?
 
 Når du har estimimeret din *critical power* med de ret hårde tests, så kan det også være fedt at vide, hvad det kan bruges til.
 
