@@ -1639,6 +1639,7 @@ $(document).ready(function() {
         let c = running.Running();
 
         $("#velocity_kmt").val(c.getKilometersPrHour(min, sec, distance).toFixed(2));
+        $("#velocity_ms").val(c.getMeterPerSecond(min, sec, distance).toFixed(2));
         $("#velocity_min_km").val(c.getTimePrKilometer(min, sec, distance));
     });
     $("#calculator_velocity_distance").submit(function(e) {
