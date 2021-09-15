@@ -513,7 +513,7 @@ $(document).ready(function() {
         let distance = Number($("[name='distance']").val());
 
         let iw = billat.Billat(distance);
-        $("#speed").val(iw.getVelocity());
+        $("#speed").val(iw.getVelocity().toFixed(2));
         $("#d30").val(iw.getDistance30());
         $("#r30").val(iw.getRecovery30());
         $("#d60").val(iw.getDistance60());
