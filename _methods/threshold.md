@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Threshold Method - Tærskelmetode"
-excerpt: "Formålet med tærskel-metoden eller _threshold method_ er at forbedre, hvor meget power der kan produceres omkring den anaerobe tærskel og forbedre evnen til at have en god teknik, når man bliver træt. Du arbejder omkring den anaerobe tærskel i 5-10 minutter per arbejdsperiode og laver 2-5 gentagelser."
+excerpt: "Formålet med tærskel-metoden eller _threshold method_ er at forbedre, hvor meget power der kan produceres omkring den anaerobe tærskel og forbedre evnen til at have en god teknik, når man bliver træt. Du arbejder omkring den anaerobe tærskel i 10-30 minutter per arbejdsperiode og laver 1-5 gentagelser alt efter din nuværende form."
 tags:
   - conditioning
 rpe: 8-9
@@ -10,7 +10,7 @@ time: 5-10 min arbejdsperiode x 2-5 reps
 reps: Gennemfør 2-5 reps pr. workout
 howto:
   - Hold puls HR ± 5 slag i forhold til anaerobe tærskel
-  - 5-10 min arbejdsperiode x 2-5 gentagelser
+  - 10-30 min arbejdsperiode x 2-5 gentagelser
   - Fasthold samme power output i de enkelte gentagelser
   - Gennemfør 2-5 gentagelser pr. workout
 exercises: "Du skal arbejde omkring din anaerobe tærskel. Derfor kan du bruge alle øvelser, hvor du kender den anaerobe tærskel."
@@ -25,13 +25,13 @@ video:
 
 {{ page.excerpt }}
 
-Vælg en øvelse hvor du kan måle _power output_ eller distancen over tid. Over tid så bør atleten kunne producere mere og mere kraft på en given tidsperiode.
+Vælg en øvelse hvor du kan måle _power output_, puls eller distance over tid. Atleten skal producere mere og mere kraft på en given tidsperiode.
 
-Den anaerobe tærskel afhænger af, hvilken position atleten er i. Den letteste måde at bestemme den anaerobe tærskel er at bestemme den anaerobe tærskel er ifølge Joel Jamieson at lave en test med et jævnt tempo på 12 minutter. Den gennemsnitlige puls over de 12 minutter kan være en tilnærmelse af den anaerobe tærskel.
+Den letteste måde at bestemme den anaerobe tærskel på er at lave en test med et jævnt tempo på 20-30 minutter. Den gennemsnitlige puls eller kraftudvikling i testen er en tilnærmelse af den anaerobe tærskel.
 
 Generelle guidelines for at bruge tærskelmetoden er:
 
-- Løb med en puls omkring den anaerobe tærkskel +/- 5 slag/min i 5-15 minutter
+- Løb med en puls omkring den anaerobe tærkskel +/- 5 slag/min i 10-30 minutter
 - Lav så meget kraft som muligt inden for den anaerobe tærskel
 - Brug den samme hastighed eller power output i hele arbejdsperioden
 - Brug en moderat modstand for at få pulsen op i det rigtige range
