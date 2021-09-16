@@ -1,12 +1,13 @@
 ---
-title: "Intervalløb: 9 effektive metoder til intervaltræning til løb"
+title: "Intervalløb: 10 effektive metoder til intervaltræning til løb"
 permalink: /intervallob-intervaltraening/
+excerpt: "Jeg nyder selv at bruge intervaltræning og intervalløb, når jeg forsøger at forbedre min kondition og hastighed. Intervaller er en fast del af mit løbeprogram. Jeg har researchet lidt på, hvad intervalttræning er, hvordan det virker på kroppen, og så har jeg lavet en oversigt over effektive intervalprogrammer."
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1483721310020-03333e577078?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80
   teaser: https://images.unsplash.com/photo-1483721310020-03333e577078?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
   overlay_filter: 0.4
-  caption: "Intervalløb: 9 effektive metoder til intervaltræning til løb"
+  caption: "Intervalløb: 10 effektive metoder til intervaltræning til løb"
 category:
   - Kondition
   - Løb
@@ -17,7 +18,7 @@ tags:
   - aerob træning
   - featured
   - løb
-last_modified_at: 2021-01-03T08:14:14Z
+last_modified_at: 2021-09-15T08:14:14Z
 toc: true
 breadcrumb: true
 ---
@@ -118,18 +119,22 @@ Jeg har beskrevet en lang række forskellige måder at løbe intervaller andre s
 
 Oversigt over effektive intervalprogrammer. Listen er sorteret med de længste intervaller øverst. Alle intervalformerne i skemaet er intensive intervaller, som i høj grad kan være med til at skubbe til den [maksimale iltoptagelse]({% link _posts/2019-11-03-intensiteten-og-vo2max.md %}) og [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}). Intervallerne hører altså til over den anaerobe tærskel.
 
+<div class="full" markdown="1">
+
 | Intervaller                               | Udførelse                                                             | Kommentar                                                                                                                                                               |
 |--------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Fartleg                                    | Tempoet undervejs styres af lyst fra jogging til sprint. Farten styres af musikken eller ting i omgivelserne, fx lygtepæle, gadehjørner og bakker, eller når du bare får lyst.                                                               | Effekten afhænger af hvordan du gør det. Jeg har mest brugt det, når jeg er sammen med andre.                                                                           |
-| 4 min intervaller | 4 x 4 min med 2-3 min pause mellem hvert interval. Løb 3-6 intervaller. Intervallerne kan vare fra  fra 2 til 5 min. Pausen typisk halvdelen af intervallet.                                                                           | Effektiv til at øge den maksimale iltoptagelse. Løbes bedst på tid, så du kan holde dig i den rigtige intensitet.                                                             |
-| Pyramide - 4-3-2-1-½           | Pyramide der går fra 4 minutter til ½ minut med 1 minuts pause mellem hvert interval. Du kan variere pyramider på mange måder og gentage dem, fx ved at fjerne et interval. Du kan også starte med 2 minutters pause og gøre pausen gradvist kortere. Fx kan du køre 2:1. | Er lettest at lave på en løbebane. En pyramide rammer mange forskellige energisystemer.                                                                                  |
-| 60-60              | 5 x 60 sekunders løb med 60 sek pause. Fra 3-10 intervaller. Pausen kan være fra ½-2 min. Pausen kan være aktiv.                                                                                   | Egner sig godt til træning på løbebane.                                         |
-| 30-30                      | 10 x 30 sek med 30 sek pause. Fra 6-20 intervaller. Pause fra 15 sek til 1 min. Pausen kan være aktiv med at jogge en distance i stedet for at tage tid.                                                         | Lettest at lave på løbebane.  |                                     
+| Fartleg                                    | Farten undervejs kan styres af musikken eller ting i omgivelserne, fx lygtepæle, gadehjørner og bakker, eller når du bare får lyst til at skifte tempo.                                                               | Effekten afhænger af hvordan du gør det. Jeg har mest brugt det, når jeg er sammen med andre.                                                                           |
+| 4 min intervaller | 3-6 x 3-5 min med 2-3 min pause mellem hvert interval. Pausen typisk halvdelen af intervallet, men fx har 4 x 4 min med 3 minutters pause vist sig effektiv i [VO2max-studier]({% link _posts/2019-11-03-intensiteten-og-vo2max.md %}).                                                                           | Effektiv til at øge den maksimale iltoptagelse. Løbes bedst på tid, så du kan holde dig i den rigtige intensitet. Tjek også artiklen om [HIIT](/hiit/).                                                            |
+| Pyramide - 4-3-2-1-½           | Pyramide der går fra 4 minutter til ½ minut med 1 minuts pause mellem hvert interval. Du kan variere pyramider på mange måder. Du kan også starte med 2 minutters pause og gøre pausen gradvist kortere. | En pyramide kan ramme mange forskellige energisystemer.                                                                                  |
+| 60-60              | 3-10 x 60 sekunders løb med 60 sek pause. Pausen kan fx være fra ½-2 min. Pausen kan være aktiv.                                                                                   | Tempoet dikterer udbyttet. Tjek også Billat-intervaller.  |
+| 30-30                      | 6-20 x 30 sek med 30 sek pause. Pause fra 15 sek til 1 min. Pausen kan være aktiv med at jogge en distance i stedet for at tage tid.                                                         | Tempoet dikterer udbyttet. Tjek også Billat intervaller  |
 | 10-20-30                                   | 30 s jog - 20 s løb - 10 s sprint gentages fx 8 runder. De første gange kan du gå 30 s - jogge 20 s og sprinte 10 s. Varier antallet af runder                                                                                              | Træningsformen har vist rigtig gode resultater på løbetider, kondition og sundhedsparametre. Dansk forskning af Jens Bangsbo                                            |
-| 20-10 (Tabata)                             | 20 sek løb – 10 sek pause. Gentages 8 gange. Den oprindelige protokol var 8 gentagelser. Du kan lave fra 4-12 gentagelser.                                                                                                       | Jeg har skrevet et andet indlæg om [Tabata-protokollen, som oprindeligt er lavet på cykel](/artikel/4-minutters-haard-intervaltraening-bedre-end-en-times-moderat-loeb). Hvis du laver det på løbebånd, kan du hoppe af og på. |
-| 15-15                                      | 15 sek løb – 15 sek pause. Gentages fx 20 gange. Fra 10 til 40 intervaller. Pause fra 10 til 15 sek.                                                                                                                                 | Løbes fx på en fodboldbane. Hvis du løber på løbebåndet, så kan du hoppe af og på ved at sætte fødderne ud til siden. |
+| 20-10 (Tabata)                             | 20 sek løb – 10 sek pause. Den oprindelige protokol - som var lavet på cykel - var 8 gentagelser. Du kan lave fra 4-12 gentagelser.                                                                                                       | Jeg har skrevet et andet indlæg om [Tabata-intervaller](/artikel/4-minutters-haard-intervaltraening-bedre-end-en-times-moderat-loeb). Hvis du laver intervallerne på løbebånd, kan du hoppe af og på. |
+| 15-15                                      | 15 sek løb – 15 sek pause. Gentages fx fra 10 til 40 intervaller. Pause fra 10 til 15 sek.                                                                                                                                 | Løbes fx på en fodboldbane. Hvis du løber på løbebåndet, så kan du hoppe af og på ved at sætte fødderne ud til siden. Tjek også [HIIT](/hiit/). |
 | Sprint 8                                   | Sprint 30 sekunder. Pause i halvandet minut. Det er vigtigt, at du i pausen restituerer nok til at næste sprint er effektiv.                                                                                   | Læs mere om [Sprint 8](/artikel/sprint-8-intervaltræning-der-virker)                                                                             |
-| Billat-intervaller                                   | Billat intervaller til at forbedre hastigheden ved VO2max. Du udregner distance som du skal gennemføre i forskellige varigheder fra 30-30, 60-60 til 3-3. | Jeg har skrevet uddybende om [Billat-intervaller]({% link _posts/2020-08-08-billat.md %})                                                                             |
+| Billat-intervaller                                   | Billat intervaller til at forbedre hastigheden ved VO2max. Du udregner distance som du skal gennemføre i forskellige varigheder fra 30-30, 60-60 til 3-3. | Jeg har skrevet uddybende om [Billat-intervaller]({% link _posts/2020-08-08-billat.md %}).                                                                             |
+
+</div>
 
 ## Flere forslag til intervaltræning
 
