@@ -151,7 +151,7 @@ Nu har du alt hvad du skal bruge for at lave dine pulszoner. Dine pulszoner skal
 
 Nu kan du finde mange forslag til procenter, du kan sætte på de enkelte træningszoner. Det mest almindelige er at operere med fem træningszoner, som ser nogenlunde sådan her ud.
 
-{% include figure image_path="https://blog.abilicaonline.dk/wp-content/uploads/tabel_pulszoner-e1400061927759.jpg" caption="Fem intensitetszoner du kan bruge til pulstræning" %}
+{% include figure image_path="https://blog.abilicaonline.dk/wp-content/uploads/tabel_pulszoner-e1400061927759.jpg" caption="Fem intensitetszoner du kan bruge til pulstræning" class="full" %}
 
 På et Garmin-ur kan du også nøjagtigt sætte fem zoner til din træning. Lad os kigge på et praktisk eksempel med Garmin Connect.
 

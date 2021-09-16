@@ -45,7 +45,7 @@ feature_row:
     title: "Udstrækning, Træning og anatomi"
     excerpt: "Udstrækning, Træning og anatomi henvender sig til sundhedsguruer, fitnesstrænere, studerende i idræt, atleter, trænere, ældre og mange andre, som gerne vil forstå og forbedre deres kondition og fleksibilitet vil få glæde og gavn af denne grundige og omfattende guide. I bogen illustrerer yderst detaljerede anatomiske illustrationer 50 stræk og viser præcis, hvad der sker i kroppen, når du laver et stræk. At du får lov at se hvilke muskler, der er involveret i de forskellige stræk, vil ikke bare skærpe din viden om anatomi, og hvordan kroppen fungerer, men vil også hjælpe dig til at forbedre effektiviteten i din træning."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/udstraekning-traening-og-anatomi_ken-ashwell_9788740609127"
-    btn_label: "Se prisen hos Tales"
+    btn_label: "Se prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
 ---

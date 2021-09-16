@@ -27,7 +27,7 @@ feature_row:
       hjælp, og den kan du heldigvis få af Jacob Beermann med bogen Stærk. Her
       får du en god og grundig introduktion til hvordan man styrketræner bedst.
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835
-    btn_label: Læs mere
+    btn_label: Tjek prisen
     btn_class: btn--success
     rel: sponsored nofollow noopener
 language: da

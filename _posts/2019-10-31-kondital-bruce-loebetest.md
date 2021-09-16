@@ -25,7 +25,7 @@ feature_row:
     title: "ACSM's Guidelines for Exercise Testing and Prescription"
     excerpt: "The flagship title of the certification suite from the American College of Sports Medicine, ACSM's Guidelines for Exercise Testing and Prescription is a handbook that delivers scientifically based standards on exercise testing and prescription to the certification candidate, the professional, and the student. The 9th edition focuses on evidence-based recommendations that reflect the latest research and clinical information."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/acsms-guidelines-for-exercise-testing-and-prescription_american-college-of-sports-medicine_epub_9781469825885?gclid=CjwKCAiA5JnuBRA-EiwA-0ggPdXHFExjFsqJLnGbAfydZFfXbHNc8LCSWFplRzuKmJ9vjX1Z3A8TfRoCzqgQAvD_BwE"
-    btn_label: "Læs mere"
+    btn_label: "Tjek prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
 breadcrumbs: true

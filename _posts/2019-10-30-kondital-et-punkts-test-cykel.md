@@ -26,7 +26,7 @@ feature_row:
     title: "Textbook of Work Physiology - Åstrand m.fl."
     excerpt: "This updated and revised fourth edition of the respected Textbook of Work Physiology combines classical issues in exercise and work physiology with the latest scientific findings. The result is an outstanding professional reference that will be indispensable to advanced students, physiologists, clinicians, physical educators--any professional pursuing study of the body as a working machine."
     url: "https://books.google.dk/books/about/Textbook_of_Work_Physiology.html?id=BC9SiAsUPqsC&redir_esc=y"
-    btn_label: "Læs mere"
+    btn_label: "Tjek prisen"
     btn_class: "btn--success"
 ---
 

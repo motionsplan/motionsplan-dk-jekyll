@@ -21,7 +21,7 @@ feature_row_bodylab:
     title: Bodylab Occlusion Training Bands
     excerpt: Bodylabs okklusionsstraps har ikke plastikspænder, da de ofte kan være svære at lukke med den helt rigtige modstand. De er udviklet i en semielastisk strap med velcrolukning.
     alt: *title
-    btn_label: Se prisen hos Bodylab*
+    btn_label: Se prisen
     btn_class: btn--info
 feature_row_bfr:
   - image_path: //cdn.shopify.com/s/files/1/0808/0669/products/Complete_Pack_2.jpg?v=1606242474
@@ -29,7 +29,7 @@ feature_row_bfr:
     title: BfR Professional
     excerpt: BfR Professionals okklussionsstropper til armene er relativt smalle, og til benene er de lavet med velcro, som skal rulles flere gange rundt om benet. De leveres i en pose og er forsøgt gjort lidt eksklusivt.
     alt: *title
-    btn_label: Se prisen hos BfR Pro*
+    btn_label: Se prisen
     btn_class: btn--success
 feature_row_fitnessinstitute:
   - image_path: https://kaatsu.dk/____impro/1/webshopmedia/IMG_1143-1477823540247.JPG?&withoutEnlargement&resize=960,9999
@@ -37,7 +37,7 @@ feature_row_fitnessinstitute:
     title: Fitness Institute
     excerpt: Okklusions-stropperne er lavet i et elastisk kvalitetsmateriale under hensyntagen til en optimal bredde og tykkelse. Armstropperne er 5 cm brede. Benstropperne er 10 cm brede.
     alt: *title
-    btn_label: Se prisen hos kaatsu.dk
+    btn_label: Se prisen
     btn_class: btn--inverse
 feature_row_occlude:
   - image_path: https://www.occlude.dk/wp-content/uploads/2020/02/Occlude-webshop-athlete-xlarge-800x800.jpg
@@ -45,7 +45,7 @@ feature_row_occlude:
     title: Occlude - Athlete
     excerpt: Occlude leverer pumpebaseret udstyr til okklusion i høj kvalitet. Du kan samtidig få utrolig kompetent vejledning til udstyret. Hvis du køber udstyret til dig selv, så sørg for at få manchetter til både arme og ben, hvis du vil træne begge dele.
     alt: *title
-    btn_label: Se prisen hos Occlude
+    btn_label: Se prisen
     btn_class: btn--danger
 ---
 

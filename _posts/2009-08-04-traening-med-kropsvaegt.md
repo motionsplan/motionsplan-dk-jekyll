@@ -19,7 +19,7 @@ feature_row:
     title: "KINETIK Vægtvest VX1"
     excerpt: "KINETIK VX1 er det ultimative træningsudstyr, og er enestående når det kommer til design og kvalitet. Vores vægtvest er specialdesignet til at aktivere din styrke, og effektivisere din træning."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67046&htmlurl=https://kinetikshop.dk/products/kinetik-vx1-vaegtvest"
-    btn_label: "Læs mere"
+    btn_label: "Tjek prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
 ---

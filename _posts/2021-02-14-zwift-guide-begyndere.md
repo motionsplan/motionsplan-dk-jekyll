@@ -22,28 +22,28 @@ feature_row:
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=59734&htmlurl=https://www.cykler.dk/wahoo-kickr.aspx
     title: Wahoo Kickr 5.0 til Zwift
     excerpt: "Du kan fx køre Zwift på en Wahoo Kickr 5.0. Den kører relativt støjsvagt, og har både effektmåler og kadencemåler. Husk at tjekke om gear kasetten passer til din cykel på den version, du køber."
-    btn_label: "Tjek prisen hos cykler.dk"
+    btn_label: "Tjek prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
   - image_path: https://resources.chainbox.io/cykelpartner/public/pim/959f8301-8547-42dc-a159-723d8b30da09/150066_A_default.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=16446&htmlurl=https://www.cykelpartner.dk/hometrainere/wahoo-kickr-climb---simulerer-op--og-nedstigninger
     title: Wahoo Kickr Climb til Zwift
     excerpt: "En Kickr Climb simulerer op- og nedstigninger, når du kører indendørs cykling. Det kan give dit en rigtig god virtuel oplevelse af, at du kører i virkeligheden, og Kickr Climb kan bruges sammen med Zwift."
-    btn_label: "Tjek prisen hos cyklerpartner.dk"
+    btn_label: "Tjek prisen"
     btn_class: "btn--info"
     rel: sponsored nofollow noopener
   - image_path: https://cykelexperten.b-cdn.net/media/b4/9a/0b/1588852583/uploads_2018_10_wahoo-kickr-headwind-e1540299465291.jpeg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-kickr-headwind/?source=partner-ads
     title: Wahoo Kickr Headwind til Zwift
     excerpt: "Wahoo Kickr Headwind er en blæser, som styres af din hastighed, og den registrerer også i Zwift, om du ligger i læ af andre ryttere. Med Kickr Headwind er du sikker på at have køling nok, når du sveder i Zwift."
-    btn_label: "Tjek prisen hos cykelexperten.dk"
+    btn_label: "Tjek prisen"
     btn_class: "btn--warning"
     rel: sponsored nofollow noopener
   - image_path: https://fricdn.dk/Files/Images/FriBikeShop/ProductImages/tacx-flux-2-zwift-bundle.jpg?width=840&height=573&bgcolor=fff&format=jpeg&quality=80&mode=crop
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70559&htmlurl=http://www.fribikeshop.dk/Default.aspx?ID=286&ProductID=PROD917
     title: Tacx Flux 2 Smart Zwift Bundle
     excerpt: "Kraftfuld, præcis og støjsvag hometrainer med direkte drev-montering. Tacx FLUX 2 Smart virker rigtig godt sammen med Zwift og er lidt billigere end Wahoo Kickr 5.0."
-    btn_label: "Tjek prisen hos fribikeshop.dk"
+    btn_label: "Tjek prisen"
     btn_class: "btn--danger"
     rel: sponsored nofollow noopener
 faq:

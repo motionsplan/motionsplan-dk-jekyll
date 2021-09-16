@@ -20,14 +20,14 @@ feature_row:
     excerpt: "Populær opslagsbog med allround fysisk testning med nemme  fitness tests, der kan udføres i et fitnesscenter, i en gymnastiksal, sportshal eller i hjemmet. De fleste tests og selvtests kan udføres med kroppen alene eller få, små, billige redskaber. Der forudsættes ikke adgang til specialudstyr. Tre komplette testprogrammer og over 40 fitnesstests samt Fitnessbarometer og Fitness Profil til motivation af fysisk inaktive og fysisk aktive. For personlige trænere, fitness instruktører, fysioterapeuter, idrætsstuderende, idrætsundervisere og supermotionister. Gennemillustreret. 144 sider."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/fitness-testning_marina-aagaard_haeftet_9788799095872"
     rel: sponsored nofollow noopener
-    btn_label: "Læs mere"
+    btn_label: "Tjek prisen"
     btn_class: "btn--success"
   - image_path: https://imgcdn.saxo.com/_9788799369591/0x500
     title: &book_title "Sundhedstjek og formtest - styrk og bevar din motivation med nemme gør-det-selv tests"
     alt: *book_title
     excerpt: "Aktuel populærbog om tjek og forbedring af sundhed, motion og livsstil med motiverende og nemme tests - som set på DR TV. Til selvtests eller med familie og venner. Med inspirerende dataark Fitness Profil og Fitnessbarometer, der giver overblik over sundhedsstatus og fysisk form, og mål-og-plan-skema samt motions-dagbog til planlægning af gode vaner."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/sundhedstjek-og-formtest_marina-aagaard_haeftet_9788799369591"
-    btn_label: "Læs mere"
+    btn_label: "Tjek prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
 feature_row_references:
@@ -36,7 +36,7 @@ feature_row_references:
     alt: Measurement and Evaluation in Human Performance
     excerpt: "af Jr., Minsoo Kang, Dale P. Mood, James R. Morrow, James G. Disch"
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://bogreolen.dk/measurement-and-evaluation-in-human-performance_jr_9781450470438"
-    btn_label: "Læs mere"
+    btn_label: "Tjek prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
 #  - image_path: https://cdn6.bogreolen.dk/00096/38105/cover.1566436401.jpg
@@ -44,14 +44,14 @@ feature_row_references:
 #    alt: Norms for Fitness, Performance, and Health
 #    excerpt: "Suitable for students in sport and exercise science. This book includes normative data for various aspects of fitness, such as strength, endurance, anaerobic and aerobic capacity, body composition, flexibility, speed and agility. It also looks at health norms to measure cardiovascular values, blood lipids, bone density and energy"
 #    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://bogreolen.dk/norms-for-fitness-performance-and-health_jay-r-hoffman_9780736054836"
-#    btn_label: "Læs mere"
+#    btn_label: "Tjek prisen"
 #    btn_class: "btn--success"
   - image_path: https://imgcdn.saxo.com/_9781469825885/0x500
     alt: "ACSM's Guidelines for Exercise Testing and Prescription"
     title: "ACSM's Guidelines for Exercise Testing and Prescription"
     excerpt: "The flagship title of the certification suite from the American College of Sports Medicine, ACSM's Guidelines for Exercise Testing and Prescription is a handbook that delivers scientifically based standards on exercise testing and prescription to the certification candidate, the professional, and the student. The 9th edition focuses on evidence-based recommendations that reflect the latest research and clinical information."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/acsms-guidelines-for-exercise-testing-and-prescription_american-college-of-sports-medicine_epub_9781469825885?gclid=CjwKCAiA5JnuBRA-EiwA-0ggPdXHFExjFsqJLnGbAfydZFfXbHNc8LCSWFplRzuKmJ9vjX1Z3A8TfRoCzqgQAvD_BwE"
-    btn_label: "Læs mere"
+    btn_label: "Tjek prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
 toc: true

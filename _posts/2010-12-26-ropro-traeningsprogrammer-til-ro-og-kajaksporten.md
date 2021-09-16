@@ -152,7 +152,7 @@ Krintel kan godt lide, når tallene passer sammen. Hans kommentar til dette inte
 
 Hele tiden 1 minutters pause mellem de enkelte intervaller.
 
-{% include figure image_path="https://images.unsplash.com/photo-1519505907962-0a6cb0167c73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" caption="Den mest anerkendte indendørs romaskine er Concept2. Du kan tjekke prisen hos [fitnessgruppen.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/concept-2-model-d-sort-pm5/){: rel='sponsored nofollow noopener' }" alt="Concept2: Ro programmer med intervaller til et indendørs træningsprogram til roning med intervaltræning og rotræning" %}
+{% include figure image_path="https://images.unsplash.com/photo-1519505907962-0a6cb0167c73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" caption="Den mest anerkendte indendørs romaskine er Concept2. Du kan tjekke [prisen på en romaskine her](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/concept-2-model-d-sort-pm5/){: rel='sponsored nofollow noopener' }" alt="Concept2: Ro programmer med intervaller til et indendørs træningsprogram til roning med intervaltræning og rotræning" %}
 
 ### 90 seconds shuffle
 

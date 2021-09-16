@@ -1,7 +1,7 @@
 ---
 title: &title "Hvordan laver man et løbeprogram?"
 permalink: /guide-til-loebeprogram/
-excerpt: "Her gennemgår vi hvordan du laver dit eget løbeprogram. Hvilke parametre skal kan du lægge ind i dine løbeprogrammer, og hvordan opbygger du din løbetræning."
+excerpt: "Her gennemgår vi, hvordan du kan lave dit eget løbeprogram. Hvilke parametre skal kan du lægge ind i dine løbeprogrammer, og hvordan opbygger du din løbetræning."
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1572278116640-337bc3c3b8ae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1916&q=80
@@ -20,13 +20,13 @@ toc: true
 
 {{ page.excerpt }}
 
+[Bonus: Få GRATIS løbeprogram nu »](/nyhedsbrev/){: .btn .btn--large .btn--danger }
+
 ## Hvordan laver jeg et løbeprogram?
 
 Når du skal lave et løbeprogram, så er der flere faktorer, du kan tage hensyn til. Hvis du vil lave et alsidigt effektivt program til løb, så kan det være godt at tænke forskellige træningskategorier ind i træningen.
 
 Vi har skrevet mere om forskellige modeller for [træningszoner]({% link _posts/2021-09-01-traeningszoner.md %}). Her tager vi udgangspunkt i en simpel 3-zoners model, som er enkel at administrere i forhold til løbetræningen.
-
-
 
 Først skal du naturligvis have kigget på dit mål for træningen. Det er forskelligt at lave et [begynder løbeprogram](/loebeprogram-begyndere/), [træne til 5 km](/loebeprogram-5km/) eller lave en [træningsplan til maraton](/loebeprogram-maraton/).
 

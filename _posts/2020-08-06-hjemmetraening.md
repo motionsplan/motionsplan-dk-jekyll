@@ -64,7 +64,7 @@ feature_row_ads:
     title: "Den Intelligente Krop"
     excerpt: "Vi er Danmarks førende webshop indenfor ´en sund krop i udvikling´. Vi har langt det meste indenfor træningsudstyr til Pilates, yoga, crossfit osv."
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484
-    btn_label: "Den Intelligente Krop"
+    btn_label: "Besøg Den Intelligente Krop"
     btn_class: "btn--info"
     rel: sponsored nofollow noopener
   - image_path: /assets/images/logo/getbig.png

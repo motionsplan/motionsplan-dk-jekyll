@@ -123,7 +123,7 @@ Derfor er yogablokken især en god investering, hvis du er begynder til yoga. Di
 
 Der findes forskellige yogablokke. Typisk er yogablokke udformet, så de ser relativt pæne ud, så de kan sagtens stå fremme.
 
-Der findes både yogablokke i hård skum, bambus og kork, og en yogablok koster heldigvis ikke alverden. Tjek fx [Den Intelligente Krops udvalg af yogablokke](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/udstyr/traeningsudstyr/yoga-pilates-blokke){: rel='sponsored nofollow noopener' }.
+Der findes både yogablokke i hård skum, bambus og kork, og en yogablok koster heldigvis ikke alverden. Tjek fx [et større udvalg af yogablokke her](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/udstyr/traeningsudstyr/yoga-pilates-blokke){: rel='sponsored nofollow noopener' }.
 
 {% include figure image_path="https://images.unsplash.com/photo-1516208398649-d5d401ba8c49?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" caption="Sådan kan man også bruge en yogablok, men de fleste plejer mest at bruge den til lettere at nå ud i lidt mere almindelige positioner i yogaøvelserne" alt="Yogaudstyr – yogablokke" %}
 

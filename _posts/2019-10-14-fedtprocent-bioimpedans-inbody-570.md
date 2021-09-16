@@ -27,7 +27,7 @@ feature_row:
     title: "Badevægt med fedtprocent måler"
     excerpt: "Denne badevægt kan give dig en komplet oversigt over både vægt, fedtprocent, [BMI](/bmi/), væskeandel og knoglemasse. Man kan oprette analyser for 8 personer, og dermed kan hele familien nøjes med denne ene vægt. Denne vægt er formentlig ikke valideret og er langt fra så præcis, som de andre præsenteret i denne artikel."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=21411&htmlurl=https://shop.getbig.dk/badevaegt-i-luksuskvalitet"
-    btn_label: "Læs mere"
+    btn_label: "Tjek prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
   - image_path: https://www.fotoagent.dk/single_picture/11803/138/custom1/tanita_dc_360_p_avec_colonne_analyseur_de_masse_co.jpg
@@ -35,7 +35,7 @@ feature_row:
     title: "Tanita DC 360P Kropsanalysevægt"
     excerpt: "Med en Tanita DC 360P kropsanalysevægt er du garanteret præcise og nøjagtige resultater. På blot 15 sekunder er det muligt at få en fuld kropsanalyse. Resultaterne vil øjeblikkeligt blive vist på LCD-skærmen, som er nem at læse."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/tanita-dc-360p-kropsanalysevaegt/"
-    btn_label: "Læs mere"
+    btn_label: "Tjek prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
   - image_path: https://www.fotoagent.dk/single_picture/11803/138/mega/Tanita_MC780_full(1).jpg
@@ -43,7 +43,7 @@ feature_row:
     title: "Tanita MC 780 P MA"
     excerpt: "Tanita MC 780 P MA, er en interaktiv maskine, hvilket gør at vægten er nemt at benytte. Med det todelte display, kan du nemt overskue den målte og beregnede data."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/tanita-mc-780-p-ma/"
-    btn_label: "Læs mere"
+    btn_label: "Tjek prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
 ---

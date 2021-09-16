@@ -18,7 +18,7 @@ feature_row:
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/menneskets-fysiologi_bente-schibye_indbundet_9788777497162
     title: "Menneskets fysiologi - Bente Schibye (2017)"
     excerpt: "Lærebogsklassikeren _Menneskets fysiologi_ af Bente Schibye dækker hele menneskets fysiologi, og som noget særligt beskrives fysiologien både i hvile og under fysisk aktivitet."
-    btn_label: "Tjek prisen hos Saxo.dk"
+    btn_label: "Tjek prisen"
     btn_class: "btn--info"
     rel: sponsored nofollow noopener
 ---
