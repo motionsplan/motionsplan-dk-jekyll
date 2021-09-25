@@ -19,7 +19,7 @@ feature_row_feature:
     excerpt: "Forstå kroppens energisystemer for at kunne forstå, hvordan du bedst kan lave konditionstræning og få et bedre kredsløb og udholdenhed."
     url: "/energisystemer/"
     btn_label: "Lær om energisystemer"
-    btn_class: "btn--danger"
+    btn_class: "btn--info"
   - image_path: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
     alt: "Konditionstests"
     title: "Konditionstests"
@@ -41,7 +41,7 @@ feature_row:
     excerpt: "Svaret på hvad et godt kondital er afhænger naturligvis af hvem man sammenligner sig med. Her er tabeller gældende for almindelige mennesker i Skandinavien."
     url: "/kondital/"
     btn_label: "Se konditionstabel"
-    btn_class: "btn--danger"
+    btn_class: "btn--info"
   - image_path: https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
     alt: "Løbeøkonomi og løbeteknik"
     title: "Løbeøkonomi og løbeteknik"

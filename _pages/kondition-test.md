@@ -21,7 +21,7 @@ feature_row_feature:
     excerpt: "Kommer jeg i bedre form og kondition? Udregn dit kondital og iltoptagelse med vores beregnere og se om du får et bedre kondital og fremgang i træningen."
     url: "/test-kondition-konditest-kondital/"
     btn_label: "Lær om  konditionstests"
-    btn_class: "btn--danger"
+    btn_class: "btn--info"
 ---
 
 {% include feature_row id="feature_row_feature" type="left" %}

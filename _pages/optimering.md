@@ -17,7 +17,7 @@ feature_row_feature:
     excerpt: "Du kan bruge tests tests før og efter din træning, så du kan se om dit træningsprogram virker."
     url: "/tests/"
     btn_label: "Test"
-    btn_class: "btn--danger"
+    btn_class: "btn--info"
   - image_path: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
     alt: "Træning"
     title: "Træning"

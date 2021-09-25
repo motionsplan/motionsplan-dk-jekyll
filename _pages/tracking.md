@@ -20,7 +20,7 @@ feature_row:
     excerpt: "Virker min træning efter hensigten? Tests kan være en måde at teste, om du bliver bedre over tid. Se alle vores tests."
     url: "/tests/"
     btn_label: "Se tests"
-    btn_class: "btn--danger"
+    btn_class: "btn--info"
 ---
 
 {{ page.excerpt }}

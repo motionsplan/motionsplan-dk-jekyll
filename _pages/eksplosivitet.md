@@ -22,7 +22,7 @@ feature_row_feature:
     excerpt: "Hvordan sprinter du?"
     url: "/sprint/"
     btn_label: "Læs om sprint"
-    btn_class: "btn--danger"
+    btn_class: "btn--info"
 feature_row:
   - image_path: https://cnet1.cbsistatic.com/img/Y3vodO8bMPi6qlFLRF3xFcQpLHo=/1092x0/2019/07/26/114f1721-1a71-42bc-b1a4-cb35299bedbc/gettyimages-640493589.jpg
     alt: "Hvordan springer du?"
