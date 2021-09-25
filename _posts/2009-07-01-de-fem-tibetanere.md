@@ -269,7 +269,7 @@ De første gange jeg selv udførte de fem tibetanere havde jeg udskrevet en guid
 
 Det her er en rigtig god PDF, som du kan downloade og udskrive, så du hjemme selv kan lave øvelserne.
 
-[Udskriv øvelserne med forklaring](http://www.balancen.net/tibetanere.pdf){: .btn .btn--large .btn--danger }
+[Udskriv øvelserne med forklaring](http://www.balancen.net/tibetanere.pdf){: .btn .btn--large .btn--info }
 
 {% include gallery id="yogastream" caption="YogaStream er et online yogaunivers med over 1000 yoga- og meditationsvideoer. Du bliver guidet af dygtige og erfarne instruktører lige når det passer dig. Få den [første måned gratis gennem vores link*](http://motionsplan.yogastream.dk)." %}
 

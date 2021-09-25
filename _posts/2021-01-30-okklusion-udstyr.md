@@ -23,6 +23,7 @@ feature_row_bodylab:
     alt: *title
     btn_label: Se prisen
     btn_class: btn--info
+    rel: sponsored nofollow noopeners
 feature_row_bfr:
   - image_path: //cdn.shopify.com/s/files/1/0808/0669/products/Complete_Pack_2.jpg?v=1606242474
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=59415&htmlurl=https://bfrpro.com/collections/store/products/complete-pack-2-workout-program
@@ -31,6 +32,7 @@ feature_row_bfr:
     alt: *title
     btn_label: Se prisen
     btn_class: btn--success
+    rel: sponsored nofollow noopener
 feature_row_fitnessinstitute:
   - image_path: https://kaatsu.dk/____impro/1/webshopmedia/IMG_1143-1477823540247.JPG?&withoutEnlargement&resize=960,9999
     url: https://kaatsu.dk/webshop.html#!/products/okklusions-stropper-i-s%C3%A6t-til-arme-ben
@@ -45,8 +47,8 @@ feature_row_occlude:
     title: Occlude - Athlete
     excerpt: Occlude leverer pumpebaseret udstyr til okklusion i høj kvalitet. Du kan samtidig få utrolig kompetent vejledning til udstyret. Hvis du køber udstyret til dig selv, så sørg for at få manchetter til både arme og ben, hvis du vil træne begge dele.
     alt: *title
-    btn_label: Se prisen
-    btn_class: btn--danger
+    btn_label: Besøg Occlude
+    btn_class: btn--info
 ---
 
 Okklusionstræning kræver, at man har det rigtige okklusionsudstyr for at kunne lave okklusionen effektivt. Du skal altså bruge okklusionsbånd for at kunne træne effektivt med okklusionstræning. Vi kigger her på mulighederne for okklusionsbånd.

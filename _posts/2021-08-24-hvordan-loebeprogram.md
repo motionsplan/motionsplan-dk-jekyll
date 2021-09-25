@@ -20,7 +20,7 @@ toc: true
 
 {{ page.excerpt }}
 
-[Bonus: Få GRATIS løbeprogram nu »](/nyhedsbrev/){: .btn .btn--large .btn--danger }
+[Bonus: Få GRATIS løbeprogram nu »](/nyhedsbrev/){: .btn--lead }
 
 ## Hvordan laver jeg et løbeprogram?
 

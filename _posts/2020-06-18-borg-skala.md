@@ -25,7 +25,7 @@ feature_row:
     excerpt: "Borgskala bearbejdet af [Morten Zacho til motion-online.dk](https://web.archive.org/web/20150316130540/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/borg-skala_paa_den_brugbare_maade/){:rel='nofollow'}. Set på [hjerteforeningen.dk](https://hjerteforeningen.dk/motion/2018/02/27/intensitet-borgskala-og-puls/)."
     alt: "Download Borgs intensitetsskala i PDF til løb og træning - Borg -skala"
     btn_label: "<i class='fas fa-file-pdf'></i> Download Borg skala"
-    btn_class: "btn--danger"
+    btn_class: "btn--info"
 faq:
   - question: "Hvorfor starter Borg-skalaen på 6 og ikke på 1?"
     answer: "Borgs 15-skala starter på 6, fordi tankerne bag den nogenlunde modsvarer pulsen for de fleste mennesker. Arbejde på niveau 6 i Borg-skalaen er således omkring puls 60 slag/min."
@@ -136,7 +136,7 @@ RPE-skalaen er også adapteret til styrketræning. Jeg har skrevet lidt mere om 
 
 {% include figure image_path="/assets/images/borg-skala-vandret.jpg" caption="Borgskala i en vandret version set fra [www.polio.dk](https://www.polio.dk/service/nyheder/faa-pulsen-op-som-rygmarvsskadet)." alt="Download Borgs anstrengelsesskala og Borgskalaen i PDF til løb og træning - Borg-skala" %}
 
-[<i class='fas fa-file-pdf'></i> Download vandret version](/assets/pdf/borg-skala-vandret.pdf){: .btn .btn--large .btn--danger }
+[<i class='fas fa-file-pdf'></i> Download vandret version](/assets/pdf/borg-skala-vandret.pdf){: .btn .btn--large .btn--info }
 
 {% endcomment %}
 

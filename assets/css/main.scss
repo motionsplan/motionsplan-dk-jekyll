@@ -11,6 +11,16 @@
   content: "*";
 }
 
+.btn[rel~=sponsored] {
+  @extend .btn--danger;
+}
+
+.btn--lead {
+  @extend .btn;
+  @extend .btn--large;
+  @extend .btn--danger;
+}
+
 body.layout--single {
     .feature__item--left, .feature__item--right {
         h2.archive__item-title {
