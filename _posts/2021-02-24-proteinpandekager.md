@@ -1,6 +1,6 @@
 ---
 title: &title "Proteinpandekager uden banan - med og uden proteinpulver 🥞"
-seo_title: "Sunde proteinpandekager uden banan - 4 lækre opskrifter »"
+seo_title: "Sunde proteinpandekager uden banan - 4 lækre opskrifter"
 permalink: /proteinpandekager-uden-banan/
 language: da
 header:

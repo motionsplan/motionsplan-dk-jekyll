@@ -1,6 +1,6 @@
 ---
 title: &title "Yogaudstyr 🙏: Guide til det rigtige udstyr til yoga 🧘🧘‍♂️"
-seo_title: "Yogaudstyr - Få 8 forslag til at gøre yoga mere behageligt »"
+seo_title: "Yogaudstyr: Få 8 forslag til at gøre yoga mere behageligt"
 permalink: /guide/yoga-udstyr/
 language: da
 header:

@@ -1,6 +1,6 @@
 ---
 title: &title "Armmuskler: Liste og øvelser til muskler i arme"
-seo_title: "Armmuskler - Liste og øvelser til muskler i arme »"
+seo_title: "Armmuskler: Liste og øvelser til muskler i arme"
 description: "Komplet liste over muskler i dine arme. Forslag til træning af armmusklerne."
 permalink: /muskler/arme/
 redirect_from:

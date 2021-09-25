@@ -1,6 +1,6 @@
 ---
 title: &title "Mavemuskler: Liste og øvelser til muskler i arme"
-seo_title: "Mavemuskler - Læs alt om mavemuskler her »"
+seo_title: "Mavemuskler: Læs alt om mavemuskler her"
 description: "Komplet liste over muskler i dinn mave. Du kan læse om mavemusklerne og deres funktion - og du får gode råd til, hvordan du træner dine mavemuskler fuldstændigt."
 permalink: /muskler/mave/
 redirect_from:

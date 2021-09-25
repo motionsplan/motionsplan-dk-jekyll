@@ -1,6 +1,6 @@
 ---
 title: &title "Tæl skridt 2021 🚶‍♀️🚶‍♀️ Det er motiverende at tælle skridt"
-seo_title: "Tæl skridt 2021 - Vind op til 25.000 kroner 4 gange årligt »"
+seo_title: "Tæl skridt 2021: Vind op til 25.000 kroner 4 gange årligt"
 description: "Tæl skridt og bliv ✓ Motiveret ✓ Deltag i en konkurrence ✓ Bliv sundere ✓ Nå de 10.000 skridt ✓ Psykologiske effekter ✓ Vind op til 25.000 kroner"
 permalink: /artikel/tael-skridt/
 language: da

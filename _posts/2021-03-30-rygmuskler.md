@@ -1,6 +1,6 @@
 ---
 title: &title "Rygmuskler: Liste og øvelser til muskler i ryggen"
-seo_title: "Rygmuskler - Sådan træner du dine muskler i ryggen »"
+seo_title: "Rygmuskler: Sådan træner du dine muskler i ryggen"
 description: "Komplet liste over muskler i ryggen. Forslag til træning af rygmusklerne."
 permalink: /muskler/ryggen/
 redirect_from:
