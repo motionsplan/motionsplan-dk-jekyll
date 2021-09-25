@@ -1,6 +1,6 @@
 ---
 title: &title "Tallerkenmodellen: Hvad er Y, T, E og X tallerkenmodellerne?"
-seo_title: "Tallerkenmodellen • Spis efter Y, T, E og X-modellen »"
+seo_title: "Tallerkenmodellen • Spis efter Y, T, E og X-modellen"
 description: "Tallerkenmodeller kan bruges i forbindelse med sundhed og vægttab. Se fordele og ulemper ved Y-tallerken, T-tallerken, E-tallerken og X-tallerken 🍽️"
 permalink: /tallerken-modeller/
 language: da

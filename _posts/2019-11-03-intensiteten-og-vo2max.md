@@ -1,6 +1,6 @@
 ---
 title: &title "Maksimale iltoptagelse: Alt du skal vide om at forbedre VO2 max"
-seo_title: "Maksimal iltoptagelse - Alt du skal vide om VO2 max 2021 »"
+seo_title: "Maksimal iltoptagelse - Alt du skal vide om VO2 max 2021"
 permalink: /maksimale-iltoptagelse-vo2max/
 redirect_from:
   - /intensitet-vo2max/

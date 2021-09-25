@@ -1,6 +1,6 @@
 ---
 title: "Cooper-test: Find kondital med Coopers 12 minutters løbetest"
-seo_title: "Cooper test - Beregn dit kondital i vores beregner [Tabel] »"
+seo_title: "Cooper test - Beregn dit kondital i vores beregner [Tabel]"
 description: "Beregn dit kondital med Cooper test ✓ 12 minutters løbetest ✓ Beregn dit kondital GRATIS  ✓ Skema og tabel lige til at skrive ud ✓ Formel til Coopertesten"
 permalink: /cooper-test/
 redirect_from:

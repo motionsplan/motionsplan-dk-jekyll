@@ -1,6 +1,6 @@
 ---
 title: &title "Hvad er gennemsnitshøjden i Danmark? 📏 [2021]"
-seo_title: "Hvad er gennemsnitshøjden i Danmark [2021]? »"
+seo_title: "Hvad er gennemsnitshøjden i Danmark [2021]?"
 permalink: /hvad-er-gennemsnitshoejden-i-danmark/
 language: da
 header:
@@ -46,7 +46,7 @@ Danmark følger altså godt med, når det gælder gennemsnitshøjden. Generne sp
 
 Generne spiller naturligvis også ind, men det gør følgende formentlig også:
 
-> »Det har sandsynligvis været mere effektivt at være stor og høj, når vi har skullet arbejde i kulden for flere tusinde år siden. Klimaet i Nordeuropa har krævet mere fysisk robusthed end i Sydeuropa. Det er muligt, at vi altid har været blandt de højeste.«
+> Det har sandsynligvis været mere effektivt at være stor og høj, når vi har skullet arbejde i kulden for flere tusinde år siden. Klimaet i Nordeuropa har krævet mere fysisk robusthed end i Sydeuropa. Det er muligt, at vi altid har været blandt de højeste.
 
 --- <cite>[Jesper Lier Boldsen](http://web.archive.org/web/20201028141402/https://samvirke.dk/artikler/danskerne-er-blandt-de-hoejeste-i-verden){: rel="nofollow noopener" }, lektor ved Retsmedicinsk Institut</cite>
 

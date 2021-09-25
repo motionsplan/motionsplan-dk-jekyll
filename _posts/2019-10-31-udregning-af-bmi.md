@@ -1,6 +1,6 @@
 ---
 title: "Udregn BMI: Formel og beregner for kvinder, mænd og børn"
-seo_title: "BMI-beregner - BMI for kvinder, mænd, teenager og børn »"
+seo_title: "BMI-beregner - BMI for kvinder, mænd, teenager og børn"
 # Udregn BMI: Måler og beregner for kvinder, mænd og børn
 # Better than: BMI - Tabel og skema for kvinder, mænd og børn [Beregner] »
 description: "BMI tabel og skema for børn, teenagere, kvinder og mænd ✓ Body Mass Index formel og måler ✓ GRATIS nøjagtig beregner ✓ Forstå alle detaljerne i dag!"

@@ -1,6 +1,6 @@
 ---
 title: "Motion-online.dk virker ikke. Find andre beregnere her!"
-seo_title: Motion-online.dk virker ikke - Find 30+ beregnere her »
+seo_title: Motion-online.dk virker ikke - Find 30+ beregnere her
 excerpt: "Motion-online.dk eller bare Motion Online var tidligere det bedste og mest kendte træningssite i Danmark. Du kan finde opdaterede beregnere her!"
 permalink: /motion-online/
 language: da

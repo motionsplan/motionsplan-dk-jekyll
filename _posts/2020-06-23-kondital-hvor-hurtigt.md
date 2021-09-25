@@ -1,6 +1,6 @@
 ---
 title: &title "Pause fra konditionstræning: Hvor hurtigt mister man sin form og kondition?"
-seo_title: "Pause fra træning - Så hurtigt mister du form og kondition »"
+seo_title: "Pause fra træning - Så hurtigt mister du form og kondition"
 permalink: /hvor-hurtigt-mister-form-kondition/
 redirect_from:
   - /kondital-hvor-hurtigt/
@@ -75,7 +75,7 @@ I det ovenstående har vi kigget på, at tilpasningerne formentlig sker ret hurt
 
 En læser på [videnskab.dk](https://videnskab.dk/sporg-videnskaben/hvor-hurtigt-bliver-min-kondition-darligere) løbetræner typisk mandag, tirsdag, torsdag og fredag, men har opdaget, at hvis vedkommende misser en træning, så bliver han mere forpustet og udmattet næste gang på løbebåndet.
 
-> »Jeg undrer mig over dette, da det også gælder, når jeg træner fuldstændig regulært i flere måneder. Så mit spørgsmål er: Er min kondi blevet dårligere på blot disse to dage? Sagt på en anden måde: Hvor lidt/meget skal der til, for at jeg ’mister’ min kondi? Eller er noget af det rent psykologisk?«
+> Jeg undrer mig over dette, da det også gælder, når jeg træner fuldstændig regulært i flere måneder. Så mit spørgsmål er: Er min kondi blevet dårligere på blot disse to dage? Sagt på en anden måde: Hvor lidt/meget skal der til, for at jeg ’mister’ min kondi? Eller er noget af det rent psykologisk?
 
 --- <cite>[Anuresh Rattan](https://videnskab.dk/sporg-videnskaben/hvor-hurtigt-bliver-min-kondition-darligere)</cite>
 
@@ -83,7 +83,7 @@ Det har naturligvis betydning, hvilke dage man holder fri. Men hvis Anuresh spri
 
 Han har en moderat træningsmængde, og der ser man i studiet af Hatle (2014), at konditionsniveauet vil begynde at falde med det samme. Så i forhold til at han har haft et langt kontinuerlig træningsforløb, så kan pausen faktisk opfattes som lang.
 
-> »Hvis man nu forestiller sig, at han misser træningen mandag og tirsdag, så er sidste gang han har trænet fredag. Det vil sige en pause på omtrent fem en halv dag. Det er ret lang tid ikke at træne, når man har en træningsfrekvens, der er så høj, som hans er.«
+> Hvis man nu forestiller sig, at han misser træningen mandag og tirsdag, så er sidste gang han har trænet fredag. Det vil sige en pause på omtrent fem en halv dag. Det er ret lang tid ikke at træne, når man har en træningsfrekvens, der er så høj, som hans er.
 
 --- <cite>[Jørn Wulff Helge](https://videnskab.dk/sporg-videnskaben/hvor-hurtigt-bliver-min-kondition-darligere), træningsfysiolog</cite>
 

@@ -1,6 +1,6 @@
 ---
 title: &title "Løbeprogram for begyndere: Kom i gang med løbetræningen"
-seo_title: "Løbeprogram for nybegyndere - Løbetræning for begyndere »"
+seo_title: "Løbeprogram for nybegyndere: Løbetræning for begyndere"
 description: "Jeg har lavet et løbeprogram til dig, der er nybegynder og ikke er vant til at løbe. Løbeprogrammet er til begyndere, der gerne vil i gang med løbetræning."
 permalink: /loebeprogram-begyndere/
 language: da

@@ -1,6 +1,6 @@
 ---
 title: &title "Komplet guide til programlægning i styrketræning"
-seo_title: "Komplet guide til programlægning i styrketræning »"
+seo_title: "Komplet guide til programlægning i styrketræning"
 permalink: /traeningsprogram-programlaegning-styrketraening/
 redirect_from:
   - /artikel/hvordan-skal-jeg-dosere-min-styrketraening/

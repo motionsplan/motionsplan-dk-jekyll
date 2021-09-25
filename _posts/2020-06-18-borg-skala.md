@@ -1,6 +1,6 @@
 ---
 title: &title "Borg-skala: Intensitet- og anstrengelsesskala [PDF]"
-seo_title: "Borg-skala - Anstrengelses- og Intensitetsskala [Download] »"
+seo_title: "Borg-skala - Anstrengelses- og Intensitetsskala [Download]"
 description: "Borg skala er en anstrengelsesskala og intensitetsskala. ✓ Hvad er Borgs skala? ✓ Træning på fornemmelsen ✓ Download Borgskalaen GRATIS!"
 permalink: /borg-skala/
 redirect_from:
