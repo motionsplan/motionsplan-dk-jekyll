@@ -1,7 +1,7 @@
 ---
-title: "Kondition: Hvad er et godt, højt kondital? [Tabel] 💗"
+title: "Sådan finder du dit kondital: Beregning og tabel"
 permalink: /kondital/
-seo_title: "Kondition: Hvad er et godt, højt kondital? [Tabel]"
+seo_title: "Kondital tabel & beregning: Sådan finder du dit kondital"
 # Kondition: Hvad er et godt, højt kondital? [Tabel] 💗
 # Better than Kondital - Hvad er godt for mænd, kvinder og børn [Tabel] »
 # Better than Hvad er et godt kondital for mænd, kvinder og børn? [Tabel]
@@ -51,7 +51,7 @@ faq:
   - question: "Hvordan forbedrer man konditallet?"
     answer: "Du kan forbedre konditalet på forskellige måder. Det kræver typisk en maksimal indsats, men du kan finde inspiration her på siden under [kondition, kredsløb og konditionstræning](/kondition/)."
 ---
-Hvad er et godt kondital, og hvordan beregner man det? I denne artikel dykker vi ned i hvad kondital betyder for din sundhed, hvornår det er godt og hvordan man kan forbedre det. Du finder også en nem og overskuelig kondital tabel som du kan bruge til selv at teste din kondition.
+Hvad er et godt kondital, og hvordan beregner man det? I denne artikel dykker vi ned i, hvad dit kondital betyder for din sundhed, hvornår det er godt og hvordan man kan forbedre det. Du finder også en nem og overskuelig kondital tabel som du kan bruge til selv at teste din kondition.
 
 Konditallet siger meget om, hvordan din krop fungerer. Jeg har skrevet lidt om, hvad konditallet er, og hvad et godt, højt kondital er for både mænd, kvinder og børn.
 

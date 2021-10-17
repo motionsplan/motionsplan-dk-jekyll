@@ -175,3 +175,7 @@ Du kommer til at svede meget, og blæseren kan være en god ide. Men du kan ogs�
 ## Køb udstyr til BKOOL
 
 {% include feature_row type="left" %}
+
+## Konklusion
+
+Læs mere om [BKOOL](https://www.ecykleklub.dk/page/kom-godt-igang-med-bkool). Særligt afsnit 5 er en god oversigt.
