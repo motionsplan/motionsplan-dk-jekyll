@@ -57,7 +57,6 @@ Vi har lavet denne beregner, så du ikke behøver at finde lommeregneren:
 
 {% include calculate-critical-power.html %}
 
-<<<<<<< HEAD
 Du kan også bruge en lidt **mere præcis testprotokol med flere tests**.
 
 > Several studies have proposed that CP and W’ can be determined from just two maximal efforts (Maturana et al., 2018; Simpson & Kordi., 2017). However, in our experience, using just two maximal efforts is highly sensitive to the specific powers and/or test durations used (making repeat tests hard to compare) and can result in fairly inaccurate estimates under certain circumstances. So, we recommend using 3-4 maximal tests to calculate CP and W’ accurately.
@@ -133,3 +132,5 @@ Zonerne er navngivet på samme måde som [Jack Daniels løbeberegner]({% link _p
 ## Konklusion
 
 Du kan læse mere om critical power i dette studium af [Poole et al (2016)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5070974/).
+
+{% include newsletter.html %}

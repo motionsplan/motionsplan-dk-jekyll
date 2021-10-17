@@ -73,7 +73,7 @@ Lad os dykke ned i begynderguiden til Zwift.
 
 ## Hvad er Zwift og hvordan kommer jeg i gang?
 
-Zwift er et spil du kan bruge sammen med din _hometrainer_ til cykling eller _watt-måler_ til løb. Zwift er mest kendt for at være en platform for cykelryttere. Zwift giver dig mulighed for at linke din _hometrainer_: op til din computer, iPad, iPhone, Apple TV, Android devide, så du kan køre med andre cykelryttere i et virtuelt miljø. Du kan både træne i Zwift og køre løb mod andre i den virtuelle Zwift-verden.
+Zwift er et spil du kan bruge sammen med din _hometrainer_ til cykling eller _watt-måler_ til løb. Zwift er mest kendt for at være en platform for cykelryttere. Zwift giver dig mulighed for at linke din _hometrainer_ op til din computer, iPad, iPhone, Apple TV, Android device, så du kan køre med andre cykelryttere i et virtuelt miljø. Du kan både træne i Zwift og køre løb mod andre i den virtuelle Zwift-verden.
 
 Ud over at konkurrere mod andre cykelryttere i Zwift-cykelløb kan du også lægge hele din træning ind i Zwift. Selvom træningsplanlægning altid bør være individuel, er det nu meget motiverende at vide at træningsprogrammerne i Zwift er designet af professionelle trænere, men du kan også sagtens lægge din egen træning ind i programmet. Du kan fx lave træning baseret på absolutte watt-tal eller som procent af din [functional threshold power (FTP)]({% link _posts/2021-08-29-ftp-power.md %}).
 
@@ -83,7 +83,7 @@ I Zwift kan du mødes med andre af dine venner og træne, og du har mulgihed for
 
 Zwift er et rigtig godt alternativ til cykling udenfor. Hvis vejret er dårligt, trafikken forfærdelig, du har begrænset tid eller bor langt væk fra andre cykelryttere, du kan træne sammen med. Der er ikke langt til de andre cyklister i Zwift. Jeg ved, at hvis det er koldt og vådt udenfor, så trækker oplevelsen for mig selv på Zwift i hvert fald mere.
 
-Når du kører Zwift, så kan du køre i en række forskellige verdener, hvor der er forskellige virtuelle cykelruter. Når du nu ikke kan vælge [cykelruter i virkeligheden](https://www.cykel-ruter.dk/cykelruter-danmark/), så er det motiverende at køre i Watopia, New York og London, og du kan også finde nogle af de tidligere VM-ruter. Swift kan også forbinde til Strava, så du har al din træning samlet.
+Når du kører Zwift, så kan du køre i en række forskellige verdener, hvor der er forskellige virtuelle cykelruter. Når du nu ikke kan vælge [cykelruter i virkeligheden](https://www.cykel-ruter.dk/cykelruter-danmark/), så er det motiverende at køre i Watopia, New York og London, og du kan også finde nogle af de tidligere VM-ruter. Zwift kan også forbinde til Strava, så du har al din træning samlet.
 
 ## Er Zwift gratis?
 
@@ -105,7 +105,7 @@ En hjemmetræner har typisk indbygget effektmåler og variabel modstand, som kan
 
 Den variable modstand på din _smart trainer_ giver dig fornemmelsen for, at du rent faktisk kører rigtigt. Når det går op ad bakke, så øges modstanden, og modstanden sænkes, når du kører ned ad bakke.
 
-Du behøver ikke nødvendigvis en dyr _hometrainer_ for at bruge Swift. Systemet fungerer bedst med en _smart trainer_, der har effektmåler, men du kan også nøjes med en gammel hjemmetræner, hvor du har hastighedsføler, som kan sende informationer gennem ANT+ eller Bluetooth til dit device. Derfor skal dit device naturligvis også understøtte enten ANT+ eller Bluetooth. Hvis ikke din computer understøtter det, så kan du købe en lille [ANT+ dongle](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-ant-usb-adapter/?source=partner-ads){: rel='sponsored nofollow noopener' } eller Bluetooth dongle, som du kan sætte i USB-porten på din computer.
+Du behøver ikke nødvendigvis en dyr _hometrainer_ for at bruge Zwift. Systemet fungerer bedst med en _smart trainer_, der har effektmåler, men du kan også nøjes med en gammel hjemmetræner, hvor du har hastighedsføler, som kan sende informationer gennem ANT+ eller Bluetooth til dit device. Derfor skal dit device naturligvis også understøtte enten ANT+ eller Bluetooth. Hvis ikke din computer understøtter det, så kan du købe en lille [ANT+ dongle](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-ant-usb-adapter/?source=partner-ads){: rel='sponsored nofollow noopener' } eller Bluetooth dongle, som du kan sætte i USB-porten på din computer.
 
 I dag har langt de fleste computere Bluetooth, så derfor kan du typisk bruge det til at sende data.
 
@@ -151,7 +151,7 @@ Du skal helst have tabletten eller computeren inden for rækkevidde, da du under
 
 Nogle har også montereret deres smartphone på cyklen. Fx kan man bruge det her ret [smarte kombinerede smartphone-holder og svedcover fra Tacx](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70559&htmlurl=http://www.fribikeshop.dk/Default.aspx?ID=286&ProductID=PROD918){: rel='sponsored nofollow noopener' }, som også beskytter cyklen mod alt det sved du uundgåeligt vil producere undervejs, når du kæmper dig gennem etaperne på Zwift. Her har du så let adgang til Zwift Companion, som er en uundværlig gratis app, som du også skal bruge, når du bruger Zwift.
 
-De fleste nyere devices og computere kan køre Zwift. Du kan altdi se de aktuelle minimumskrav for at køre Zwift hos [Zwift-support](https://support.zwift.com/en_us/supported-devices-to-run-zwift-H1Cj9QbeB).
+De fleste nyere devices og computere kan køre Zwift. Du kan altid se de aktuelle minimumskrav for at køre Zwift hos [Zwift-support](https://support.zwift.com/en_us/supported-devices-to-run-zwift-H1Cj9QbeB).
 
 Du skal naturligvis også have en **ordentlig og stabil internetforbindelse** for at køre Zwift.
 

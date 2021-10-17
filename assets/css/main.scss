@@ -34,6 +34,29 @@ body.layout--single {
     }
 }
 
+form.newsletter {
+  fieldset, legend {
+    margin: 0;
+    padding: 0;
+  }
+  fieldset {
+      padding: 1em !important;
+      background-color: hsl(51, 86%, 52%);
+
+      legend {
+        font-weight: bold;
+          float: left;
+          margin-bottom: .5em;
+          width: 100%;
+      }
+  }
+  input[type="submit"] {
+      @extend .btn;
+      @extend .btn--large;
+      @extend .btn--danger;
+  }
+}
+
 form.calculator {
     fieldset, legend {
         margin: 0;
