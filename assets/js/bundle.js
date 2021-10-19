@@ -878,7 +878,7 @@ $(document).ready(function() {
         let distance = Number($("[name='distance']").val());
 
         let iw = billat.Billat(distance);
-        $("#speed").val(iw.getVelocity());
+        $("#speed").val(iw.getVelocity().toFixed(2));
         $("#d30").val(iw.getDistance30());
         $("#r30").val(iw.getRecovery30());
         $("#d60").val(iw.getDistance60());
@@ -1173,6 +1173,46 @@ $(document).ready(function() {
         let f = how_tall.HowTall(g, father, mother);
 
         $("[name='adult_height']").val(f.getHeight().toFixed(0));
+    });
+    $("#calculator_norwegian_2011").submit(function(e) {
+        console.log("Calculate Norwegian 2011");
+        e.preventDefault();
+
+        let gender = $("[name='gender']").val();
+        let age = Number($("[name='age']").val());
+        let hr_rest = Number($("[name='hr_rest']").val());
+        let waist = Number($("[name='waist']").val());
+        let frequency = Number($("[name='frequency']").val());
+        let intensity = Number($("[name='intensity']").val());
+        let duration = Number($("[name='duration']").val());
+
+        let kondital;
+        let pa = frequency * intensity * duration;
+
+        if (gender == 'male') {
+            kondital = 100.27 + 0.226 * pa - 0.296 * age - 0.369 * waist - 0.155 * hr_rest;
+        } else {
+            kondital = 74.74 + 0.198 * pa - 0.247 * age - 0.259 * waist - 0.114 * hr_rest;
+        }
+        
+        $("[name='kondital']").val(kondital.toFixed(0));
+        $("[name='pa']").val(pa);
+    });
+    $("#calculator_jackson").submit(function(e) {
+        console.log("Calculate Jackson");
+        e.preventDefault();
+
+        let gender = Number($("[name='jackson_gender']").val());
+        let age = Number($("[name='jackson_age']").val());
+        let height = Number($("[name='jackson_height']").val());
+        let weight = Number($("[name='jackson_weight']").val());
+        let par = Number($("[name='par']:checked").val());
+
+        let b = bmi.BMI(height, weight);
+
+        let kondital = 56.363 + 1.921 * par - 0.381 * age - 0.754 * b.getBMI() + 10.987 * gender;
+        
+        $("[name='jackson_kondital']").val(kondital.toFixed(0));
     });
     // Calculate Durnin
     $("#calculator_skinfold_durnin").submit(function(e) {

@@ -1,0 +1,69 @@
+<form class="calculator" id="calculator_norwegian_2011">
+    <fieldset>
+        <legend>Indtast dine værdier</legend>
+        <div class="form-group">
+            <label>Køn
+            <select name="gender">
+                <option value="male">Mand</option>
+                <option value="female">Kvinde</option>
+            </select>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Alder (år)
+                <input type="number" min="10" max="130" name="age" id="age" placeholder="Alder i år" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Hvilepuls (slag/min)
+                <input type="number" min="20" max="200" name="hr_rest" id="hr_rest" placeholder="Hvilepuls slag/min" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Taljemål (cm)
+                <input type="number" min="20" max="200" name="waist" id="waist" placeholder="Taljemål i cm" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Hvor mange gange gange træner du om ugen?
+            <select name="frequency" id="frequency">
+                <option value="0">Mindre end en gang om ugen</option>
+                <option value="1">En gang om ugen</option>
+                <option value="2">To-tre gange om ugen</option>
+                <option value="3">Fire eller flere gange om ugen</option>
+            </select>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Intensitet i træningen
+            <select name="intensity" id="intensity">
+                <option value="0">Rolig træning</option>
+                <option value="5">Tung vejrtrækning og sveder</option>
+                <option value="10">Tæt på udmattelse</option>
+            </select>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Varighed af træningen
+            <select name="duration" id="duration">
+                <option value="1">20 minutter eller færre</option>
+                <option value="1.5">Typisk mere end 30 minutter</option>
+            </select>
+            </label>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Kondital (ml/kg/min)
+                <input type="text" id="kondital" name="kondital" disabled>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Physical activity index
+                <input type="text" id="pa" name="pa" disabled>
+            </label>
+        </div>
+    </fieldset>
+    {% include calculator-footer.html %}
+</form>

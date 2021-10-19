@@ -1,0 +1,67 @@
+<form class="calculator" id="calculator_jackson">
+    <fieldset>
+        <legend>Indtast dine værdier</legend>
+        <div class="form-group">
+            <label>Køn
+            <select name="jackson_gender">
+                <option value="1">Mand</option>
+                <option value="0">Kvinde</option>
+            </select>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Alder (år)
+                <input type="number" min="10" max="220" name="jackson_age" id="jackson_age" placeholder="Alder i år" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Højde (cm)
+                <input type="number" min="10" max="220" name="jackson_height" id="jackson_height" placeholder="Højde i cm" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Vægt (kg)
+                <input type="number" min="20" max="200" name="jackson_weight" id="jackson_weight" placeholder="Vægt i kg" required>
+            </label>
+        </div>
+        <fieldset>
+            <legend>Fysisk aktivitetsniveau for de seneste 6 måneder</legend>
+            <p>Does not participate regularly in programed recreation, sport, or physical activity.</p>
+            <label class="radio">
+                <input type="radio" name="par" value="0"> Avoids walking or exercise (for example, always uses elevators, drives whenever possible instead of walking).
+            </label>
+            <label class="radio">
+                <input type="radio" name="par" value="1"> Walks for pleasure, routinely uses stairs, occasionally exercises sufficiently to cause heavy breathing or perspiration.
+            </label>
+            <p>Participates regularly in recreation or work requiring modest physical activity (such as golf, horseback riding, calisthenics, gymnastics, table tennis, bowling, weight lifting, or yard work).</p>
+            <label class="radio">
+                <input type="radio" name="par" value="2"> 10–60 minutes per week
+            </label>
+            <label class="radio">
+                <input type="radio" name="par" value="3"> Over 1 hour per week
+            </label>
+            <p>Participates regularly in heavy physical exercise (such as running or jogging, swimming, cycling, rowing, skipping rope, running in place) or engages in vigorous aerobic type activity (such as tennis, basketball, or handball).</p>
+            <label class="radio">
+                <input type="radio" name="par" value="4"> Runs less than 1 mile per week or spends less than 30 minutes per week in comparable physical activity.
+            </label>
+            <label class="radio">
+                <input type="radio" name="par" value="5"> Runs 1–5 miles per week or spends 30–60 minutes per week in comparable physical activity.
+            </label>
+            <label class="radio">
+                <input type="radio" name="par" value="6"> Runs 5–10 miles per week or spends 1–3 hours per week in comparable physical activity.
+            </label>
+            <label class="radio">
+                <input type="radio" name="par" value="7"> Runs more than 10 miles per week or spends more than 3 hours per week in comparable physical activity.
+            </label>
+        </fieldset>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Kondital (ml/kg/min)
+                <input type="text" id="jackson_kondital" name="jackson_kondital" disabled>
+            </label>
+        </div>
+    </fieldset>
+    {% include calculator-footer.html %}
+</form>

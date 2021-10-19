@@ -45,18 +45,17 @@ I den engelske litteratur vil man sommetider se, at man bruger VO<sub>2</sub>-ma
 
 Helt grundlæggende er der to måder at måle konditionen på:
 
-Direkte test
-: I en direkte test foregår målingen i et laboratorium med maske, hvor man måler volumen af indåndings- og udåndingsluften og indholdet af ilt og kuldioxid.
+- **Direkte test**. I en direkte test foregår målingen i et laboratorium med maske, hvor man måler volumen af indåndings- og udåndingsluften og indholdet af ilt og kuldioxid.
+- **Indirekte test**. I en indirekte test estimerer man konditionen ud fra fx hjertefrekvens eller evnen til at arbejde med en bestemt belastning. Det kan man gøre, fordi man ved, hvor meget ilt der kræves for at udføre et bestemt arbejde.
 
-Indirekte test
-: I en indirekte test estimerer man konditionen ud fra fx hjertefrekvens eller evnen til at arbejde med en bestemt belastning. Det kan man gøre, fordi man ved, hvor meget ilt der kræves for at udføre et bestemt arbejde.
-
-De indirekte tests kan have følgende intensitet i forhold til forsøgspersonen:
+Testene kan have følgende intensitet i forhold til forsøgspersonen:
 
 - **Maksimal**. Testpersonerne skal køre sig selv helt ud i testen og finde de maksimale værdier, fx for hvilken belastning man kan arbejde med eller hvor hurtigt, man kan bevæge sig.
 - **Submaksimal**. Testpersonen kører på forudbestemte belastningsgrader og ud fra præstationen på disse belastningsgrader estimeres, hvad forsøgspersonen maksimalt ville kunne klare.
 
 Generelt er de maksimale tests mere pålidelige end de submaksimale i forhold til at finde den maksimale iltoptagelse, men de submaksimale tests kan være rigtig gode til at _tracke_, hvordan træningen påvirker ens kondition.
+
+Der findes en tredje type test, hvor du slet ikke træner for at få estimeret din maksimale iltoptagelse.
 
 ## Konditest: Hvordan ved jeg om jeg er kommet i bedre form?
 

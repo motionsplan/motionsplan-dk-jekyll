@@ -1,5 +1,6 @@
 ---
 title: &title "Udregn dit kondital i vores beregnere 💗🥇"
+seo_title: "Beregn dit kondital i vores beregner"
 permalink: /beregn-kondital/
 redirect_from:
   - /kondital-loeb/
@@ -15,15 +16,25 @@ tags:
   - beregner
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
+gallery:
+  - image_path: /assets/images/blog/worldfitnesslevel-www.png
+    url: https://www.worldfitnesslevel.org/#/
+polar:
+  - image_path: /assets/images/blog/polar-ownindex-2.jpg
+    url: /assets/images/blog/polar-ownindex-2.jpg
+  - image_path: /assets/images/blog/polar-ownindex-3.jpg
+    url: /assets/images/blog/polar-ownindex-3.jpg
+  - image_path: /assets/images/blog/polar-ownindex-4.jpg
+    url: /assets/images/blog/polar-ownindex-4.jpg
 ---
 
-Du kan beregne dit kondital på mange forskellige måder. Vi har samlet forskellige måder at lave beregning af dit kondital på, så hvis du leder efter en "kondital beregner", så kan du her finde beregnere og metoder til udregning af konditallet.
+Du kan beregne dit kondital på mange forskellige måder. Vi har samlet forskellige måder at lave beregning af dit kondital på. Hvis du leder efter en "kondital beregner", så kan du her finde forskellige metoder til udregning af konditallet.
 
-Du kan også beregne dit kondital på baggrund af løbetests, en tur på roergometer eller efter at have kørt en tur på cyklen.
+En måde er at beregne dit kondital ud fra en [vilkårlig løbedistance](/kondital-loeb-distance-tid/), løbe en [bip-test](/bip-test/) eller en [Cooper test](/cooper-test/). Vi har samlet en række konditionsberegnere til løbetests, en tur på roergometer eller efter at have kørt en tur på cyklen. Du kan se alle vores [konditionstests](/kondition/tests/).
 
-Vi har samlet forskellige måder at udregne konditallet på herunder.
+Men hvis du helst ikke vil rejse dig fra sofaen for at få svaret, så kan kan denne artikel være svaret. Her får du nemlig en række beregnere til kondital, som du kan udføre mens du ligger ned.
 
-En måde er at [beregne dit kondital ud fra en vilkårlig distance](/kondital-loeb-distance-tid/), men hvis du helst ikke vil rejse dig fra sofaen for at få svaret, så kan du også ganske enkelt [udregne dit kondital fra din puls](/kondital-fra-puls/).
+Men lad os først lige kigge på, hvordan man laver en kondital beregner. Derefter kommer jeg med forskellige eksempler på konditalberegnere for løb, cykling, gang og roning.
 
 ## Hvordan beregner jeg mit kondital?
 
@@ -31,7 +42,39 @@ For at beregne dit kondital så har du brug for en test, som på en eller anden 
 
 Der er lavet mange forskellige studier, hvor man har målt deltagernes kondital direkte og sammenlignet den med andre submaksimale eller maksimale tests. Hvis du er interesseret, så har jeg skrevet et andet indlæg, der handler om, [hvordan man tester sin kondition med en konditest](/test-kondition-konditest-kondital/).
 
-## Beregn dit kondital med løbetests
+## Kondital beregner fra sofaen
+
+### 1. Konditalberegner (Nes 2011)
+
+[Nes et al (2011)](https://pubmed.ncbi.nlm.nih.gov/21502897/) har lavet denne test for VO<sub>2</sub>max, som er baseret på nogle enkle antropometriske spørgsmål og selvoplevet fysisk aktivitetsniveau.
+ 
+{% include calculate-fitness-norwegian-2011.html %}
+
+### 2. Konditionsberegner (Jackson 1990)
+
+[Jackson (1990)](https://www.topendsports.com/testing/tests/non-exercise.htm) har lavet denne test, som også har en variation, hvor du indsætter din fedtprocent.
+
+{% include calculate-fitness-jackson.html %}
+
+### 3. World Level Fitness
+
+{% include gallery caption="World Fitness Level er lavet af norske forskere og giver dig et bud på dit fitness level ved at besvare en række spørgsmål." %}
+
+### 4. Kondital fra hvilepuls og maxpuls
+
+[Uth et al (2004)](https://doi.org/10.1007/s00421-003-0988-y) har udviklet en konditionstest, hvor det ikke er så besværligt at få et bud på sit kondital. Testens præmis er, at hvilepulsen falder, når man kommer i bedre form, fordi slagvolumen øges. Med en højere slagvolumen kan hjertet pumpe mere blod rundt i hvert enkelt slag, og derfor behøver det i hvile ikke at slå så mange gange.
+
+[Find kondital fra din puls](/kondition-fra-puls/){: .btn .btn--success .btn--large }
+
+### 5. Kondital fra Polar Ownindex
+
+{% include gallery id="polar" layout="third" %}
+
+Du kan lave en 5 minutters konditionstest, hvis du har et Polar ur eller Polar Beat og en brystmåler. Jeg har skrevet mere om, hvordan du kan bruge dit [ur til at måle din kondition]({% link _posts/2021-10-17-watch-vo2-max.md %}).
+
+## Beregn dit kondital fra træning
+
+### Løbetests
 
 {% assign site_posts = site.posts | where: "tags", "konditionstest" | where: "tags", "løbetest" | where: "tags", "beregner" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
@@ -45,7 +88,7 @@ Der er lavet mange forskellige studier, hvor man har målt deltagernes kondital 
 
 </div>
 
-## Beregning af kondital fra cykling
+### Cykling
 
 {% assign site_posts = site.posts | where: "tags", "konditionstest" | where: "tags", "cykeltest" | where: "tags", "beregner" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
@@ -59,7 +102,7 @@ Der er lavet mange forskellige studier, hvor man har målt deltagernes kondital 
 
 </div>
 
-## Beregn dit kondital til romaskine og roergometer
+### Romaskine og roergometer
 
 {% assign site_posts = site.posts | where: "tags", "konditionstest" | where: "tags", "rotest" | where: "tags", "beregner" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
@@ -73,7 +116,7 @@ Der er lavet mange forskellige studier, hvor man har målt deltagernes kondital 
 
 </div>
 
-## Beregner af kondital fra gangtest
+### Gangtest
 
 {% assign site_posts = site.posts | where: "tags", "konditionstest" | where: "tags", "gåtest" | where: "tags", "beregner" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
@@ -109,6 +152,6 @@ Jeg har lavet en side, hvor du kan se en tabel med kondital, som du kan vurdere 
 
 [Se tabel med kondital](/kondital/){: .btn .btn--large .btn--info }
 
-## Konklusion beregning af kondital
+## Konklusion for beregnere af kondital
 
 Der er mange søgninger på nettet på "beregn kondital", hvilket tyder på, at mange gerne vil lave en beregning af sit kondital. Jeg bruger ofte også selv en beregner til at udregne mit kondital, fordi jeg godt kan lide at få et tal. Egentlig kunne jeg jo bare lave den samme test flere gange for at se, om jeg er blevet bedre, og så ved jeg, at min kondition er blevet bedre.
