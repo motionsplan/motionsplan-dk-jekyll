@@ -47,7 +47,7 @@ Her kan du teste, om du har tegn på træningsafhængighed. Du skal score dig se
 
 Læg tallene sammen fra de seks udsagn. Hvis du har en samlet score på 24-30, er det sandsynligt, at du er afhængig af træning på en måde, der kan skade dig.
 
-Testen er fra [Terry et al (2004)](https://psycnet.apa.org/record/2004-20487-007) og oversat af Mia Beck Lichtenstein i forbindelse med hendes Phd-projekt.
+Testen er fra [Terry et al (2004)](https://psycnet.apa.org/record/2004-20487-007) og oversat af Mia Beck Lichtenstein i forbindelse med hendes Phd-projekt. Du kan finde testen i hendes bog [Find Træningsbalancen](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55158&htmlurl=https://tales.dk/besat-af-traening-naar-sund-motion-bliver-til-skadelig-afhaengighed_mia-beck-lichtenstein_9788777068515){: rel="sponsored nofollow noopener" }.
 
 Hvis du finder ud af, at du er træningsafhængig, så søg professionel hjælp. Fx hos [mialic.dk](https://mialic.dk/test.html).
 
