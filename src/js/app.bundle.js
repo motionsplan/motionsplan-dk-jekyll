@@ -853,7 +853,7 @@ $(document).ready(function() {
         if (disorder > 1) {
             text = 'Du har svaret ja på flere end et af de fire første spørgsmål. Det kan tyde på en grad af forstyrret spisning.';
         } else if (disorder > 0) {
-            text = 'Du har svaret ja på et af de fire første spørgsmål. Det kan tyde på en grad af forstyrret spisning.';
+            text = 'Du har svaret ja på et af de fire første spørgsmål. At svare ja på et af spørgsmålene er formentlig ikke alvorligt, men det kan være tegn på et forstyrret spisemønster.';
         } else if (no_disorder == 0) {
             text = 'Du har svaret benægtende på de to sidste spørgsmål. Det tyder på, at du ikke har forstyrret spisning.';
         } else {
