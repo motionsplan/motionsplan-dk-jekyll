@@ -1,0 +1,65 @@
+<form class="calculator" id="calculator_eating_disorder">
+    <fieldset>
+        <legend>Test for forstyrret spisning</legend>
+        <fieldset>
+            <legend>Do you worry that you have lost control over how much you eat?</legend>
+            <label class="radio inline">
+                <input name="question_1" type="radio" value="1"> Ja
+            </label>
+            <label class="radio inline">
+                <input name="question_1" type="radio" value="0"> Nej
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Do you make yourself sick when you feel uncomfortably full?</legend>
+            <label class="radio inline">
+                <input name="question_2" type="radio" value="1"> Ja
+            </label>
+            <label class="radio inline">
+                <input name="question_2" type="radio" value="0"> Nej
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Do you currently suffer with or have you ever suffered in the past with an eating disorder?</legend>
+            <label class="radio inline">
+                <input name="question_3" type="radio" value="1"> Ja
+            </label>
+            <label class="radio inline">
+                <input name="question_3" type="radio" value="0"> Nej
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Do you ever eat in secret?</legend>
+            <label class="radio inline">
+                <input name="question_4" type="radio" value="1"> Ja
+            </label>
+            <label class="radio inline">
+                <input name="question_4" type="radio" value="0"> Nej
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Does your weight affect the way you feel about yourself?</legend>
+            <label class="radio inline">
+                <input name="question_5" type="radio" value="1"> Ja
+            </label>
+            <label class="radio inline">
+                <input name="question_5" type="radio" value="0"> Nej
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Are you satisfied with your eating patterns?</legend>
+            <label class="radio inline">
+                <input name="question_6" type="radio" value="0"> Ja
+            </label>
+            <label class="radio inline">
+                <input name="question_6" type="radio" value="1"> Nej
+            </label>
+        </fieldset>
+        <input type="submit" value="Udregn">
+    </fieldset>
+    <fieldset class="results">
+        <legend>Resultat</legend>
+        <p id="result">Svar på spørgsmålene ovenfor for at få en vurdering af, om du er i risikogruppen for at have en spiseforstyrrelse.</p>
+    </fieldset>
+    {% include calculator-footer.html %}
+</form>
