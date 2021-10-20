@@ -19,14 +19,14 @@ faq:
  - question: "Er træningsafhængighed en spiseforstyrrelse?"
    answer: "Træningsafhængighed er ikke en spiseforstyrrelse. Tvangshandlingerne er nemlig ikke centreret omkring spisevaner, men derimod motion og træning. Træningsafhængig og spiseforstyrrelser følges dog ofte ad."
 feature_row:
-  - url: https://tales.dk/besat-af-traening-naar-sund-motion-bliver-til-skadelig-afhaengighed_mia-beck-lichtenstein_9788777068515
+  - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55158&htmlurl=https://tales.dk/besat-af-traening-naar-sund-motion-bliver-til-skadelig-afhaengighed_mia-beck-lichtenstein_9788777068515
     image_path: https://cdn6.tales.dk/00002/10544/cover.20160910.jpg
     title: "Besat af træning"
     excerpt: "Denne bog er den første på dansk, der omhandler den overdrevne og ekstreme træningsiver, som i nogle tilfælde kan udvikle sig til en negativ afhængighedstilstand. Bogen er skrevet af Mia Beck Lichtenstein."
     btn_class: btn--danger
     btn_label: Læs mere
     rel: sponsored nofollow noopener
-  - url: https://www.saxo.com/dk/find-traeningsbalancen_mia-beck-lichtenstein_epub_9788771581973
+  - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/find-traeningsbalancen_mia-beck-lichtenstein_epub_9788771581973
     image_path: https://imgcdn.saxo.com/_9788771581973/0x500
     title: "Find træningsbalancen"
     excerpt: "Er du vild med sport, at bruge kroppen, træne målrettet og konkurrere? Giver motion og idræt dig glæde og energi? Men sker det også at træningen styrer dit liv? Eller at du træner , selvom du har smerter og ved, at du burde lade være?"
