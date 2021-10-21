@@ -120,7 +120,7 @@ man være opmærksom på følgende nonverbale elementer:
 - Udstråling
 - Integritet
 - Øjenkontakt
--Tilstedeværelse/opmærksomhed
+- Tilstedeværelse/opmærksomhed
 - Notering undervejs
 
 {% endcomment %}
