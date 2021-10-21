@@ -39,6 +39,8 @@ Træningsafhængighed betegner en tilstand, hvor en person træner hele tiden og
 
 Du kan læse meget mere om træningsafhængighed på [www.lmsos.dk](https://www.lmsos.dk/traeningsafhaengighed).
 
+{% include video provider="youtube" id="P9z2pwrcLvE" %}
+
 ## Test din træningsafhængighed
 
 Her kan du teste, om du har tegn på træningsafhængighed. Du skal score dig selv på en skala fra 1 (meget uenig) til 5 (meget enig) på nedenstående seks udsagn. Man kan få en samlet score mellem 6 og 30.
