@@ -80,3 +80,7 @@ Det er vigtigt at få styr på udgangspunktet for træningsprogrammet. Derfor er
 - **Tidligere træning**.
 - **Tidligere skader**.
 - **Hvad er din nuværende træningstilstand?**
+
+## Konklusion
+
+Når du har lavet en screening, så kan du gå i gang med at lave et træningsprogram. Du kan fx lave et [løbeprogram]({% link _posts/2021-08-24-hvordan-loebeprogram.md %}).
