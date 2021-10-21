@@ -19,6 +19,10 @@ Inden programlægningen overhovedet går i gang, så skal du have identificeret 
 
 Inden du går i gang med at lave et træningsprogram, så bør du lave en screening af vedkommende, der skal i gang med træningsprogrammet.
 
+## Hvad er formålet med screeningsfasen?
+
+I screeningen skal du få klarhed for personens mål, forudsætninger og træningstilstand. Du skal med andre ord lære vedkommende at kende. Lad os kigge på, hvad det betyder i praksis.
+
 ## Mål med træningen: Hvad vil du gerne opnå med træningen?
 
 Når du laver et træningsprogram, så skal du først gøre dig klart, hvad målet med træningsprogrammet er. Der skal investeres tid i træningen, så det er godt at vide, hvorfor den tid skal bruges på træning. Et godt startspørgsmål kan altså være:
@@ -31,19 +35,13 @@ Der kan komme mange forskellige svar på spørgsmålet. Prøv at forstå de enke
 
 Hvis der er et klart “hvorfor”, så er det meget mere motiverende at træne og følge et træningsprogram. 
 
-## Hvad motiverer dig?
-
-Der er ikke så meget ved at bruge lang tid på at lave et træningsprogram, hvis det ender med, at ingen følger det. Derfor er det godt at dykke lidt ned i vanerne fra tidligere træning.
-
-Hvis du bruger lidt tid på dette, så er det lettere at tilrettelægge et træningsprogram, som man kan overholde i længden. Du kunne fx stille følgende spørgsmål:
-
-> Hvilken type træning kan du godt lide at lave? Hvad plejer du at blive motiveret af, når du træner, så du glæder dig til træning?
-
 ## Forudsætninger
+
+Det er væsentligt at få styr på den enkeltes forudsætninger for at træne. Først bør du sikre dig, at vedkommende ikke falder inden for en særlig målgruppe.
 
 ### Er du en særlig målgruppe?
 
-Er der noget særligt vi skal være opmærksomme på? Gravid, skader, ældre, spiseforstyrrelser? Du skal kun give dig i kast med at lave træningsprogrammer for almindelige mennesker. Hvis du er i tvivl om de forskellige målgrupper, så bør de opsøge en fagligt funderet træner.
+Er der noget særligt vi skal være opmærksomme på? **Gravid, skader, ældre, spiseforstyrrelser?** Du skal kun give dig i kast med at lave træningsprogrammer for almindelige mennesker. Hvis du er i tvivl om de forskellige målgrupper, så bør de opsøge en fagligt funderet træner.
 
 Det kan være en god ide at lave en screening for [træningsafhængighed](/traeningsafhaengighed/) og [spiseforstyrrelser](/spiseforstyrrelser/), inden du går i gang med træningen.
 
@@ -66,6 +64,14 @@ Dette spørgsmål er ret vigtigt, da det bl.a. er med til at afgøre, om man kan
 ### Anden træning: Laver du anden træning samtidig?
 
 Hvis træningsprogrammet skal passe med anden træning, så er det vigtigt at tage højde for det. Hvis du skal lave et træningsprogram til en, der samtidig laver styrketræning eller spiller fodbold, så skal du tænke nøje over, hvordan restitution bliver en del hverdagen.
+
+### Hvad motiverer dig?
+
+Der er ikke så meget ved at bruge lang tid på at lave et træningsprogram, hvis det ender med, at ingen følger det. Derfor er det godt at dykke lidt ned i vanerne fra tidligere træning.
+
+Hvis du bruger lidt tid på dette, så er det lettere at tilrettelægge et træningsprogram, som man kan overholde i længden. Du kunne fx stille følgende spørgsmål:
+
+> Hvilken type træning kan du godt lide at lave? Hvad plejer du at blive motiveret af, når du træner, så du glæder dig til træning?
 
 ## Træningshistorik
 
