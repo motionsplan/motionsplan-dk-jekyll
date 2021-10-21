@@ -851,11 +851,11 @@ $(document).ready(function() {
         let text;
 
         if (disorder > 1) {
-            text = 'Du har svaret ja på flere end et af de fire første spørgsmål. Det kan tyde på en grad af forstyrret spisning.';
+            text = 'Du har svaret ja på ' + disorder + ' af de fire første spørgsmål. Du er i risikogruppen for at have en spiseforstyrrelse og bør søge hjælp. Yderligere udredning er nødvendig for at vurdere, om der er tale om en spiseforstyrrelse.';
         } else if (disorder > 0) {
             text = 'Du har svaret ja på et af de fire første spørgsmål. At svare ja på et af spørgsmålene er formentlig ikke alvorligt, men det kan være tegn på et forstyrret spisemønster.';
         } else if (no_disorder == 0) {
-            text = 'Du har svaret benægtende på de to sidste spørgsmål. Det tyder på, at du ikke har forstyrret spisning.';
+            text = 'Dine svar tyder på, at du ikke har et forstyrret spisemønster.';
         } else {
             text = 'Det var ikke muligt at konkludere noget på baggrund af dine svar. De første fire spørgsmål har en sammenhæng med det at have en spiseforstyrrelse. De sidste to spørgsmål kan afdække om du er uden for risikogruppen.';
         }
