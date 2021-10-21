@@ -13,7 +13,7 @@ howto:
 exercises: "Alle aktiviteter med lav intensitet og relativt lavt blodtryk kan bruges til cardiac output træning. Pulsen holdes i længere tid omkring 120-150 slag/min, som er i snakketempo. Du kan fx jogge, cykle, svømme, sjippetov, cirkeltræning, så længe du holder pulsen i den korrekte pulszone."
 frequency: 1-4 x / week
 progress:
-  - Speed/power at different heart rates
+  - Arbejdet med lavere hjertefrekvens
 effect: "Cardiac output er med til at forbedre det perifære netværk med kapillærer, så ilttilførslen kan foregå endnu mere effektivt, træningstolerancen og forbrændingen af fedt og kulhydrat."
 video:
   provider: facebook
@@ -22,12 +22,12 @@ video:
 
 {{ page.excerpt }}
 
-Hvis du laver aktiviteten stående, skal du formentlig være i den højere ende af pulsområdet omkring 130-150, mens du ved siddende aktiviteer formentlig skal være fra omkring 120-140 slag / min.
+Hvis du laver aktiviteten stående, skal du formentlig være i den højere ende af pulsområdet omkring 130-150, mens du ved siddende aktiviteter formentlig skal være fra omkring 120-140 slag / min.
 {: .notice .notice--info }
 
-Når du laver udholdenhedstræning, så skal du holde en intensitet, der gør, at du kan lave aktivitetn over længere tid i det korrekte pulsområde. Det er den måde du stimulerer den aerobe fitness.
+Når du laver udholdenhedstræning, så skal du holde en intensitet, der gør, at du kan lave aktiviteten over længere tid i det korrekte pulsområde.
 
-Cardiac output skal særligt forbedre evnen til at forbrænde kulhydrat og fedt. Denne metode hjælper også med at forbedre det vaskulære system og forbedre udholdenheden i de langsomme muskelfibre - type I fibrene.
+Cardiac output skal særligt forbedre evnen til at forbrænde kulhydrat og fedt. Denne metode hjælper også med at forbedre det vaskulære system og forbedrer udholdenheden i de langsomme muskelfibre - type I fibrene.
 
 Du skal typisk mindst lave _cardiac output_ metoden i 30 minutter for at stimulere til [fysiologiske tilpasninger til udholdenhedstræningen]({% link _posts/2020-05-31-tilpasning-konditionstraening.md %}).
 

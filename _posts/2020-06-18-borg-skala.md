@@ -1,7 +1,7 @@
 ---
-title: &title "Borg-skala: Intensitet- og anstrengelsesskala [PDF]"
-seo_title: "Borg-skala - Anstrengelses- og Intensitetsskala [Download]"
-description: "Borg skala er en anstrengelsesskala og intensitetsskala. ✓ Hvad er Borgs skala? ✓ Træning på fornemmelsen ✓ Download Borgskalaen GRATIS!"
+title: &title "Borg-skala: Hvordan bruger du anstrengelsesskalaen?"
+seo_title: "Borg-skala • Alt om anstrengelsesskalaen [Download]"
+description: "Borg skala er en anstrengelsesskala ✓ Hvad er Borgs skala? ✓ Træning på fornemmelsen ✓ Download Borgskalaen GRATIS!"
 permalink: /borg-skala/
 redirect_from:
   - /borg/
@@ -31,9 +31,9 @@ faq:
     answer: "Borgs 15-skala starter på 6, fordi tankerne bag den nogenlunde modsvarer pulsen for de fleste mennesker. Arbejde på niveau 6 i Borg-skalaen er således omkring puls 60 slag/min."
 ---
 
-Jeg bruger ofte Borg-skalaen i min undervisning til at vurdere intensitet i træningen og ved tests. Jeg har researchet lidt på, hvad baggrunden for Borgs skala er, og hvordan skalaen for anstrengelse skal forstås.
+Jeg bruger ofte Borg-skalaen i min undervisning til at vurdere anstrengelse i træningen og ved tests. Jeg har researchet lidt på, hvad baggrunden for Borgs skala er, og hvordan skalaen for anstrengelse skal forstås.
 
-Hvad er Borg-skala? **Borg-skalaen er et subjektivt værktøj til at vurdere intensitet med. Borg-skalaen er altså en vurdering af oplevet eller følt anstrengelse. Skalaen går fra 6-20, hvor 20 er maksimal anstrengelse. Den oprindelige tanke var, at den afspejler udøverens puls, hvis man sætter et 0 efter den vurderede anstrengelse.**
+Hvad er Borg-skala? **Borg-skalaen er et subjektivt værktøj til at vurdere anstrengelse med. Borg-skalaen er altså en vurdering af oplevet eller følt anstrengelse. Skalaen går fra 6-20, hvor 20 er maksimal anstrengelse. Den oprindelige tanke var, at den afspejler udøverens puls, hvis man sætter et 0 efter den vurderede anstrengelse.**
 
 I dette indlæg kan du læse mere om:
 
