@@ -27,6 +27,23 @@ Vi laver først en simpel 5-trins-rakat, så du bliver i stand til at lave dine 
 
 [Bonus: Få GRATIS løbeprogram nu »](/loebeprogrammer/){: .btn--lead }
 
+Det primære fokus med at lave et træningsprogram er:
+
+- **at få folk til at træne.** Det allervigtigste er måske, at du kan inspirere folk til rent faktisk at træne det program, du har lavet. Det gøre du ved at være helt klar over, hvad programmet gør og kunne forklare det enkelt. Man skal stole på programmet for at lave det.
+- **at ingen bliver skadet.** Derfor skal du lave en fornuftig progression. Når man er tålmodig og udøveren går stille og roligt frem, så risikerer vi ikke at træningen bliver overbelastede.
+- **at alle får resultater.** Det gør du ved at tage udgangspunkt i den enkelte, vælge nogle fornuftige øvelser og ‘at få folk til at træne’.
+
+## Faser i at lave et træningsprogram
+
+Når du skal lave et løbeprogram, så skal du gennem følgende faser. 
+
+- Screening eller introduktionsfase
+- Udfærdigelse af programmet
+- Gennemgang af programmet
+- Opfølgning på programmet
+
+Her forudsætter vi, at du har lavet en [screening](/screening/) og fundet ud af, hvad den enkeltes mål er. Vi fokuserer særligt på, hvordan man laver selve løbeprogrammet.
+
 ## Hvordan laver jeg et løbeprogram?
 
 Når du skal lave et løbeprogram, så er der flere faktorer, du kan tage hensyn til. Hvis du vil lave et alsidigt effektivt program til løb, så kan det være godt at tænke forskellige træningskategorier ind i træningen.
