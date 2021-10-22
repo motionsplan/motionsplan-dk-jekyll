@@ -2,9 +2,9 @@
 layout: single
 title: &title "Fitnessinstruktør: Hvad skal du vide som instruktør?"
 excerpt: Som fitnessinstruktør skal du vide noget om fysiologi, anatomi, bevægelsesanalyse, øvelser, træningslære, kredsløbstræning, styrketræning, doping og træning af særlige målgrupper.
-permalink: /fitness/
+permalink: /fitnessinstruktoer/
 redirect_from:
-  - /fitnessinstruktoer/
+  - /fitness/
   - /fitnessinstruktor/
 author_profile: true
 toc: true
@@ -81,7 +81,7 @@ Se vores artikler om træningslære:
 
 Jeg har samlet alle øvelserne, der bruges i forbindelse med Fitnessinstruktør. Det giver et samlet overblik over træningsøvelserne, som du skal kunne undervise i, når du gerne vil være Fitnessinstruktør.
 
-[Se alle øvelserne til fitnessinstruktør](/fitness/oevelser/).
+[Se alle øvelserne til fitnessinstruktør](/fitnessinstruktoer/oevelser/).
 
 ## Programlægning
 
