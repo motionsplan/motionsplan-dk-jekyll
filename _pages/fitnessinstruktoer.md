@@ -118,6 +118,18 @@ hver målgruppe listet en række forhold, som der skal tages højde for.
 
 Det er særligt med forskellige målgrupper, at du skal være utrolig opmærksom på at kende dine egne begrænsninger som fitnessinstruktør. Så sørg for at lave en god screening.
 
+{% assign site_posts = site.posts | where: "tags", "målgruppe" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
 ## Skadesbehandling
 
 {% assign site_posts = site.posts | where: "tags", "skader" | sort: "date" %}

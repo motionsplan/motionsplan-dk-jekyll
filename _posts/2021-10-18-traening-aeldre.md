@@ -11,6 +11,7 @@ category:
   - Styrketræning
 tags:
   - ældre
+  - målgrupper
 last_modified_at: 2021-10-14T08:14:14Z
 toc: true
 ---
