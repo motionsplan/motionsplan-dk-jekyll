@@ -1,5 +1,5 @@
 ---
-title: "De 11 bedste danske blogs om fitness og træning [2021]"
+title: "De 9 bedste danske blogs om fitness og træning [2021]"
 permalink: /bedste-fitness-blogs/
 redirect_from:
   - /artikel/vores-favoritter-om-styrketraening
@@ -33,11 +33,11 @@ feature_row:
     btn_label: "Besøg Kropblog"
     btn_class: "btn--success"
   - image_path: /assets/images/blogs/fiskerperformance.jpg
-    url: https://www.fisker-performance.dk/blog
-    title: "Fisker Performance"
-    alt: "Fisker Performance"
-    excerpt: "Fisker Performance har nogle rigtig dygtige trænere. De har samtidig en blog med masser af god information, selvom der kun er et enkelt indlæg fra 2020. Heldigvis er de tidligere blogindlæg stadig af høj kvalitet, hvor de fleste af os kan blive klogere."
-    btn_label: "Besøg Fitness Blog"
+    url: https://www.styrkmig.dk/blog
+    title: "Styrk"
+    alt: "Styrk"
+    excerpt: "Styrk har nogle rigtig dygtige trænere. De har samtidig en blog med masser af god information, selvom der kun er et enkelt indlæg fra 2020. Heldigvis er de tidligere blogindlæg stadig af høj kvalitet, hvor de fleste af os kan blive klogere."
+    btn_label: "Besøg Styrk"
     btn_class: "btn--success"
   - image_path: /assets/images/blogs/niklasmeier.jpg
     url: http://niklasmeier.dk/traenings-vlog/
@@ -45,13 +45,6 @@ feature_row:
     alt: "Niklas Meier Trænings Vlog"
     excerpt: "Niklas Meier er personlig træner, og han har en ganske udemærket Vlog, hvor han humoristisk med en kop kaffe i hånden forklarer, hvordan træning kan hænge sammen. Desværre bliver bloggen ikke opdateret så ofte længere."
     btn_label: "Besøg Niklas Meier"
-    btn_class: "btn--success"
-  - image_path: /assets/images/blogs/healthyskinnybitch.jpg
-    url: http://healthyskinnybitch.dk/
-    title: "Healthy Skinny Bitch"
-    alt: "Healty Skinny Bitch"
-    excerpt: "Healthyskinnybitch.dk er en blog om mad og træning. Sara Jin Smidt er tidligere chefredaktør på Fit Living og har en universitetsuddannelse i Ernæring og Sundhed. Sara skriver om sunde opskrifter og giver inspiration til din træning og hvordan du har en sund livsstil. Bloggen er en blanding af challenges, Saras eget liv og inspiration til træning."
-    btn_label: Besøg Fitnessbloggen
     btn_class: "btn--success"
   - image_path: /assets/images/blogs/annabogdanova.jpg
     url: https://www.annabogdanova.dk/blog
@@ -88,13 +81,6 @@ feature_row:
     excerpt: "Marina Aagaard er foredragsholder, forfatter, træner og fitness blogger. Marina deler ud af sine erfaringer med idræt og sundhed, hvordan man holder gejsten oppe og du vil også kunne finde ideer til træningsprogrammer. Bloggen har virkelig mange blogindlæg delt på forskellige træningsemner."
     btn_label: "Besøg Træning Blog"
     btn_class: "btn--success"
-  - image_path: /assets/images/blogs/mkuniverset.jpg
-    url: https://mkuniverset.dk/blog/
-    title: "Michelle Kristensens MK Univers"
-    alt: "Michelle Kristensens MK-Univers Michelle Kristensen blog"
-    excerpt: "Michelle Kristensen driver en meget veldesignet blog med indlæg om både kost, opskrifter, sundhed, kostplaner og træning - og hun inkluderer forskellige cases på sin blog. Artiklerne har forskellige gode råd, som du kan implementere i din træning og livsstil allerede i dag."
-    btn_label: "Besøg MK Universet"
-    btn_class: "btn--success"
 feature_row_sponsored:
   - image_path: /assets/images/blogs/bodylab.jpg
     url: https://www.bodylab.dk/shop/artikler-156s1.html
@@ -109,7 +95,7 @@ feature_row_sponsored:
     alt: "Myprotein - The Zone"
     excerpt: "Myprotein er oprindeligt skrevet på engelsk og oversat til dansk, hvilket man godt kan se i nogle af sætningerne. Igen vil de gerne sælge nogle af deres produkter, men bloggen har en stor bredde."
     btn_label: "Besøg MyProtein"
-    btn_class: "btn--success"
+    btn_class: "btn--success"s
 classes: wide
 ---
 
@@ -133,7 +119,7 @@ Hvis jeg har overset nogle blogs om fitness, træning, motion og sundhed af dans
 
 ## Sponsorerede fitness og træning blogs med kvalitet
 
-Jeg har også udvalgt et par gode blogs med danske bloggere af høj kvalitet fra firmaer, der er med til at støtte dette site:
+Jeg har også udvalgt et par gode blogs med danske bloggere af høj kvalitet fra firmaer, der er med til at støtte dette site. Links til blogs er IKKE reklamelinks.
 
 {% include feature_row type="right" id="feature_row_sponsored" %}
 
