@@ -95,7 +95,7 @@ feature_row_sponsored:
     alt: "Myprotein - The Zone"
     excerpt: "Myprotein er oprindeligt skrevet på engelsk og oversat til dansk, hvilket man godt kan se i nogle af sætningerne. Igen vil de gerne sælge nogle af deres produkter, men bloggen har en stor bredde."
     btn_label: "Besøg MyProtein"
-    btn_class: "btn--success"s
+    btn_class: "btn--success"
 classes: wide
 ---
 
