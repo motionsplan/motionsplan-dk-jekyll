@@ -76,7 +76,7 @@ I tabellen nedenfor er de officielle boldstørrelser angivet. I tilfælde af at 
 
 {% assign balls = site.data.balls %}
 
-| Sport | Vægt | Størrelse | 
+| Sport | Vægt (gram) | Diameter (mm) | 
 |-|-|-|
 {%- for ball in balls %}
 | {{ ball.sport }} | {{ ball.weight }} | {{ ball.diameter }} |
