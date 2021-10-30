@@ -83,7 +83,7 @@ I Zwift kan du mødes med andre af dine venner og træne, og du har mulgihed for
 
 Zwift er et rigtig godt alternativ til cykling udenfor. Hvis vejret er dårligt, trafikken forfærdelig, du har begrænset tid eller bor langt væk fra andre cykelryttere, du kan træne sammen med. Der er ikke langt til de andre cyklister i Zwift. Jeg ved, at hvis det er koldt og vådt udenfor, så trækker oplevelsen for mig selv på Zwift i hvert fald mere.
 
-Når du kører Zwift, så kan du køre i en række forskellige verdener, hvor der er forskellige virtuelle cykelruter. Når du nu ikke kan vælge [cykelruter i virkeligheden](https://www.cykel-ruter.dk/cykelruter-danmark/), så er det motiverende at køre i Watopia, New York og London, og du kan også finde nogle af de tidligere VM-ruter. Zwift kan også forbinde til Strava, så du har al din træning samlet.
+Når du kører Zwift, så kan du køre i en række forskellige verdener, hvor der er forskellige virtuelle cykelruter. Når du nu ikke kan vælge [danske cykelruter i virkeligheden](https://www.cykel-ruter.dk/cykelruter-danmark/), så er det motiverende at køre i Watopia, New York og London, og du kan også finde nogle af de tidligere VM-ruter. Zwift kan også forbinde til Strava, så du har al din træning samlet.
 
 ## Er Zwift gratis?
 

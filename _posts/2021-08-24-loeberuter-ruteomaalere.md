@@ -75,14 +75,11 @@ Dette værktøj kan det hele. Lad os kigge på det her.
 
 - **Korttyper**: Du kan vælge forskellige korttyper, og det er let at zoome ind og ud ligesom de andre korttyper.
 - **Følg veje og popularitetsruter**. Du kan bare markere et par punkter på kortet, og så får du mulighed for at planlægge og opmåle ruter.
-- **Højdemåler og stigningsprocenter**. Det er smart, at du i ruteomåleren fra Garmin får højdekurver og stigningsprocenter. Det er selvfølgelig virkelig relevant for cykelrutere, men også meget brugbart for løbere.
+- **Højdemåler og stigningsprocenter**. Det er smart, at du i ruteomåleren fra Garmin får højdekurver og stigningsprocenter. Det er selvfølgelig virkelig relevant for cykelryttere, men også meget brugbart for løbere.
 - **Rutevejledning**. Du kan få rutevejlending direkte på din enhed, fx ur eller cykelcomputer.
 
 Garmin Connect er min favorit. Ruteopmåleren kan det hele, og den er let at bruge. Det eneste minus er, at du skal oprette en bruger for at bruge den.
 
+## Konklusion
 
-
-En afrundende kommentar
-Drop løbeuret og nyd naturen i stedet for. Efter løbeturen kan du opmåle din rute hvis du har lyst. Med et af disse værktøjer kan du få så meget data du aldrig turde drømme om.
-
-Har du selv erfaringer med brug af ruteopmålere til løbetræning?
+Hvad er dine erfaringer med ruteopmålere til løbetræning?
