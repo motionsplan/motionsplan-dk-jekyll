@@ -24,15 +24,15 @@ Når du søger ind til Politiet og er så heldig at komme til optagelsesprøve, 
 
 Den fysiske optagelsesprøve til Politiet tager omkring tre timer inklusiv tilbagemelding på din præstation i de fysiske tests.
 
-Der stilles lidt forskellige [fysiske krav til mænd](https://politi.dk/politiskolen/ansoegning-og-optagelsesforloeb/fysisk-optagelsesproeve-for-maend) og [fysiske krav til kvinder](https://politi.dk/politiskolen/ansoegning-og-optagelsesforloeb/fysisk-optagelsesproeve-for-kvinder), som jeg gennemgår i det følgende og giver gode råd til, hvordan du kan bestå politiets fysiske tests, men også hvordan du forbedre din præstation. 
+Jeg gennemgår i det følgende de forskellige [fysiske krav til mænd](https://politi.dk/politiskolen/ansoegning-og-optagelsesforloeb/fysisk-optagelsesproeve-for-maend) og [fysiske krav til kvinder](https://politi.dk/politiskolen/ansoegning-og-optagelsesforloeb/fysisk-optagelsesproeve-for-kvinder), og giver gode råd til, hvordan du kan bestå politiets fysiske tests og forbedre din præstation. 
 
 ## Træn til hele den fysiske test
 
 Til daglig er jeg med til at forberede elever på Vejle Idrætshøjskole til politiets optagelsesprøve. 
 
-Jeg oplever mange elever, der bliver lidt overraskede over hvor hård den samlede prøve er, fordi de ofte træner de enkelte discipliner enkeltvis.
+Jeg oplever mange elever, der bliver lidt overraskede over hvor hård den samlede prøve er, fordi de ofte træner disciplinerne enkeltvis.
 
-Derfor er det en god ide at være opmærksom på, at politiets fysiske test både har en opvarmningsdel og fem delprøver. De fem delprøver bliver vurderet efter syvtrinsskalaen, og du skal leve op til minimumskravene i alle prøverne for at bestå.
+Politiets fysiske test har både en opvarmningsdel og fem delprøver. De fem delprøver bliver vurderet efter syvtrinsskalaen, og du skal leve op til minimumskravene i alle prøverne for at bestå den samlede prøve.
 
 Kravene i de fysiske test og et par af øvelserne varierer for mænd og kvinder i delprøverne.
 
