@@ -46,6 +46,10 @@ feature_row:
     btn_label: "Tjek prisen"
     btn_class: "btn--danger"
     rel: sponsored nofollow noopener
+zwift:
+  - image_path: /assets/images/apps/zwift-1.jpg
+  - image_path: /assets/images/apps/zwift-2.jpg
+  - image_path: /assets/images/apps/zwift-3.jpg
 faq:
   - question: "Hvordan vender jeg om i Zwift?"
     answer: "Hvis du er kommet på en lang tur og gerne vil køre tilbage, så kan du vende om. Det gør du ved at klikke på 'pil ned' på dit keyboar eller holde U-turn-knappen nede på din mobilapp. Du kan også bare stå af cyklen, og klikke på 'end ride', hvis ikke du vil køre mere."
@@ -177,6 +181,8 @@ Du kan i Zwift besøge 'Drop Shop', som er en online markedsplads, hvor du købe
 — <cite>Martin Mortensen, cykellærer på Vejle Idrætsefterskole</cite>
 
 Når du har downloadet appen, så er du klar til at køre på Zwift.
+
+{% include gallery id="zwift" caption="Zwift kan køres både fra computer eller fra smartphone. Jeg synes oplevelsen er bedst fra computeren. Husk du kan køre 25 kilometer gratis, inden den udløber." %}
 
 ## Hvor kan jeg køre i Zwift?
 
