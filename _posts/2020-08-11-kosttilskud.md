@@ -40,11 +40,14 @@ Når Helsam lover at hjælpe med [hvilke kosttilskud man bør tage](https://www.
 
 ## Hvilke kosttilskud virker?
 
-Fisker Performance foreslår følgende [pyramide over kosttilskud, som virker](https://www.fisker-performance.dk/podcast/kosttilskud-med-dokumenteret-effekt), men de lægger også meget kraftig vægt på, at du skal have styr på din grundlæggende kost, inden du går i gang med kosttilskud.
+Styrk foreslår følgende [pyramide over kosttilskud, som virker](https://www.fisker-performance.dk/podcast/kosttilskud-med-dokumenteret-effekt), men de lægger også meget kraftig vægt på, at du skal have styr på din grundlæggende kost, inden du går i gang med kosttilskud.
 
-{% include figure image_path="https://www.fisker-performance.dk/wp-content/uploads/2019/06/Kostilskudspyramide_Insta-01.png" caption="Pyramide over kosttilskud som rent faktisk virker. Kilde: [Fisker Performance](https://www.fisker-performance.dk/podcast/kosttilskud-med-dokumenteret-effekt)" alt="Pyramide over kosttilskud fra Fisker Performance" %}
+- Proteinpulver
+- Kreatin
+- Koffein
+- D-Vitamin
 
-Jeg har valgt at starte rækkefølgen af kostilskud ud fra ovenstående pyramide, fordi Fisker Performance ikke skal tjene penge på nogle særlige produkter, hvilket gør, at de har kigget på evidensen bag ved de enkelte kosttilskud i stedet for at se på indtjening enten ved direkte salg af kosttilskud eller gennem affiliate salg fra en hjemmeside.
+Jeg har valgt at starte rækkefølgen af kostilskud ud fra ovenstående betragtninger, fordi Styrk ikke skal tjene penge på nogle særlige produkter, hvilket gør, at de har kigget på evidensen bag ved de enkelte kosttilskud i stedet for at se på indtjening enten ved direkte salg af kosttilskud eller gennem affiliate salg fra en hjemmeside.
 
 Det ser ud til, at Nikolaj Bach har revideret sin liste over kosttilskud i forhold til en [artikel](https://www.bodylab.dk/shop/kosttilskudshierarkiet-2894c1.html), han har skrevet for [Bodylab](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/kosttilskudshierarkiet-2894c1.html){: rel='sponsored nofollow noopener' }, hvor både fiskeolie og Leucin havde fundet vejen ind i top 5.
 

@@ -47,7 +47,7 @@ Der er lavet mange forskellige studier, hvor man har målt deltagernes kondital 
 ### 1. Konditalberegner (Nes 2011)
 
 [Nes et al (2011)](https://pubmed.ncbi.nlm.nih.gov/21502897/) har lavet denne test for VO<sub>2</sub>max, som er baseret på nogle enkle antropometriske spørgsmål og selvoplevet fysisk aktivitetsniveau.
- 
+
 {% include calculate-fitness-norwegian-2011.html %}
 
 ### 2. Konditionsberegner (Jackson 1990)
@@ -64,7 +64,7 @@ Der er lavet mange forskellige studier, hvor man har målt deltagernes kondital 
 
 [Uth et al (2004)](https://doi.org/10.1007/s00421-003-0988-y) har udviklet en konditionstest, hvor det ikke er så besværligt at få et bud på sit kondital. Testens præmis er, at hvilepulsen falder, når man kommer i bedre form, fordi slagvolumen øges. Med en højere slagvolumen kan hjertet pumpe mere blod rundt i hvert enkelt slag, og derfor behøver det i hvile ikke at slå så mange gange.
 
-[Find kondital fra din puls](/kondition-fra-puls/){: .btn .btn--success .btn--large }
+[Find kondital fra din puls](/kondital-fra-puls/){: .btn .btn--success .btn--large }
 
 ### 5. Kondital fra Polar Ownindex
 
@@ -140,7 +140,7 @@ Når du beregner dit kondital, så skal du huske, at alle _indirekte_ tests er f
 
 ## Hvordan forbedrer jeg beregningen af mit kondital?
 
-Dit beregnede kondital vil forbedres, hvis du træner over længere tid, hvor du udfordrer kredsløbet. Den hurtigeste måde at forbedre et udregnet kondital er ved at tabe dig. Det skyldes, at konditallet bl.a. afhænger af vægten. 
+Dit beregnede kondital vil forbedres, hvis du træner over længere tid, hvor du udfordrer kredsløbet. Den hurtigeste måde at forbedre et udregnet kondital er ved at tabe dig. Det skyldes, at konditallet bl.a. afhænger af vægten.
 
 For at forbedre beregningen af dit kondital, så skal du imidlertid flytte din maksimale iltoptagelse og det kræver en høj intensitet. Vi har skrevet lidt om [intensitetens betydning for at flytte den maksimale iltoptagelse]({% link _posts/2019-11-03-intensiteten-og-vo2max.md %}).
 

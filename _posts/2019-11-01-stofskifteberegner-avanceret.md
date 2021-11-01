@@ -61,7 +61,7 @@ Jeg har baseret udregningen af det fysiske aktivitetsniveau på baggrund [Gerrio
 | Sove | MET 0,9 | Fra du ligger i sengen til du står op. |
 | Siddende | MET 1,2 | Den resterende tid er du siddende. Enten arbejde. TV-kigning. |
 
-Jeg har baseret de valgte MET-værdier i tabellen ud fra [Nordic Nutrition Recommendations 2012](https://www.norden.org/da/node/7832) og [slået aktiviteter op i listen over MET-værdier](/met/). I Nordic Nutrition Recommendations (2012) er _Rest_ sat til 1,0, men der er ingen adskillelse mellem sovende og siddende aktivitet.
+Jeg har baseret de valgte MET-værdier i tabellen ud fra [Nordic Nutrition Recommendations 2012](https://www.norden.org/en/publication/nordic-nutrition-recommendations-2012) og [slået aktiviteter op i listen over MET-værdier](/met/). I Nordic Nutrition Recommendations (2012) er _Rest_ sat til 1,0, men der er ingen adskillelse mellem sovende og siddende aktivitet.
 
 **Jeg er i tvivl om jeg har valgt de helt rigtige MET-værdier til at give den bedste beregning. Hvis du har et input til at gøre listen bedre, så brug endelig kommentarerne.**
 
