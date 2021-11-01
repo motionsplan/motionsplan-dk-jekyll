@@ -20,15 +20,15 @@ toc: true
 
 {{ page.excerpt }}
 
-[Bonus: Få GRATIS løbeprogram nu »](/nyhedsbrev/){: .btn--lead }
+[Bonus: Få GRATIS løbeprogram nu »](/loebeprogrammer/){: .btn--lead }
 
 ## Hvordan laver jeg et løbeprogram?
 
 Når du skal lave et løbeprogram, så er der flere faktorer, du kan tage hensyn til. Hvis du vil lave et alsidigt effektivt program til løb, så kan det være godt at tænke forskellige træningskategorier ind i træningen.
 
-Vi har skrevet mere om forskellige modeller for [træningszoner]({% link _posts/2021-09-01-traeningszoner.md %}). Her tager vi udgangspunkt i en simpel 3-zoners model, som er enkel at administrere i forhold til løbetræningen.
+Vi har skrevet mere om forskellige modeller for [træningszoner]({% link _posts/2021-09-01-traeningszoner.md %}). Her tager vi udgangspunkt i en simpel 3-zoners model, som er enkel at administrere i forhold til planlægningen af løbetræningen.
 
-Først skal du naturligvis have kigget på dit mål for træningen. Det er forskelligt at lave et [begynder løbeprogram](/loebeprogram-begyndere/), [træne til 5 km](/loebeprogram-5km/) eller lave en [træningsplan til maraton](/loebeprogram-maraton/).
+Først skal du naturligvis have kigget på dit mål for træningen. Det er forskelligt at lave et [begynder løbeprogram](/loebeprogram-begyndere/), [træne til at løbe 5 km rigtig hurtigt](/loebeprogram-5km/) eller lave en [træningsplan til maraton](/loebeprogram-maraton/).
 
 Ved at tænke løbetræningen ind i forskellige træningskategorier, kan man tage højde for [kroppens forskellige energisystemer]({% link _posts/2019-11-14-energisystemer-101.md %}), som er nødvendige for effekten af løbetræningen.
 

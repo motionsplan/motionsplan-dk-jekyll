@@ -473,7 +473,7 @@ Det er vigtigt med en plan. Uden en plan går du bare får workout til workout u
 
 Som træner har du flere primære opgaver.
 
-- **at få folk til at træne.** Det allervigtigste er måske, at du kan inspirere folk til rent faktisk at lave det program, du har lavet. Det gøre du ved at være helt klar over, hvad programmet gør og kunne forklare det enkelt. Hvis de ikke stoler på dig, så gør de de ikke.
+- **at få folk til at træne.** Det allervigtigste er måske, at du kan inspirere folk til rent faktisk at lave det program, du har lavet. Det gøre du ved at være helt klar over, hvad programmet gør og kunne forklare det enkelt. Hvis de ikke stoler på dig, så laver de ikke programmet.
 - **at ingen bliver skadet.** Det kan du sikre dig ved at sætte dig godt ind i teknikken af de enkelte løft, sørge for at udøveren går stille og roligt frem, så de ikke bliver overbelastede og ved at lave et fornuftigt program.
 - **at alle får resultater.** Det gør du ved at tage udgangspunkt i den enkelte, vælge nogle fornuftige øvelser og ‘at få folk til at træne’. Det er altid bedre at resultaterne lader vente lidt på sig, så vi ikke risikerer at folk bliver skadede.
 
