@@ -26,119 +26,14 @@ Her gennemgår vi, hvordan du kan lave dit eget løbeprogram. Hvilke parametre s
 Vi laver først en simpel 5-trins-rakat, så du bliver i stand til at lave dine egne løbeprogrammer. Alle løbeprogrammer skal naturligvis tage udgangspunkt i en specifik målsætning og løberens forudsætninger.
 
 [Bonus: Få GRATIS løbeprogram nu »](/loebeprogrammer/){: .btn--lead }
-<<<<<<< HEAD
-=======
-
-Det primære fokus med at lave et træningsprogram er:
-
-- **at få folk til at træne.** Det allervigtigste er måske, at du kan inspirere folk til rent faktisk at træne det program, du har lavet. Det gøre du ved at være helt klar over, hvad programmet gør og kunne forklare det enkelt. Man skal stole på programmet for at lave det.
-- **at ingen bliver skadet.** Derfor skal du lave en fornuftig progression. Når man er tålmodig og udøveren går stille og roligt frem, så risikerer vi ikke at træningen bliver overbelastede.
-- **at alle får resultater.** Det gør du ved at tage udgangspunkt i den enkelte, vælge nogle fornuftige øvelser og ‘at få folk til at træne’.
-
-## Faser i at lave et træningsprogram
-
-Når du skal lave et løbeprogram, så skal du gennem følgende faser. 
-
-- Screening eller introduktionsfase
-- Udfærdigelse af programmet
-- Gennemgang af programmet
-- Opfølgning på programmet
-
-Her forudsætter vi, at du har lavet en [screening](/screening/) og fundet ud af, hvad den enkeltes mål er. Vi fokuserer særligt på, hvordan man laver selve løbeprogrammet.
-
-{% comment %}
-4 > Programlægning
-
-Et program har til formål at strukturere træningen, således at den bliver målrettet.
-Programmet skal være individuelt baseret, og tage højde for behov og ønsker samt træningstilstand. Programlægning er derfor et vigtigt redskab i tilrettelæggelse af træningen.
-
-Hvordan udarbejdes et træningsprogram?
-
-Programlægningen kan opdeles i følgende faser:
-
-- Screening eller introduktionsfase
-- Udfærdigelse af programmet
-- Gennemgang af programmet
-- Opfølgning på programmet
-
-
-
-4.2 Udfærdigelse af et program
-
-Følgende forhold skal tages højde for under udarbejdelse af et program:
-
-- Programmet skal indeholde en opvarmning, en træningsfase og stræk/cooldown
--Træningsfase skal indeholde muskeltræning og/eller konditionstræning
-- Muskelbalance: alle større muskelgrupper skal tilgodeses i lige omfang
-- Restitution: Der skal sørges for tilstrækkelig restitution mellem træningsdagene
--Træningsmængden, herunder tiden programmet tager at udføre.
-- Øvelsesvalg
-
-4.2.1 Konditionstræningsprogram
-
-Tilrettelæggelsen af et konditionstræningsprogram afhænger af ønsker, muligheder
-og træningstilstand. Eksempelvis kunne en person, som ønsker at kunne løbe 10 km
-i et stræk, få et program på løbebånd, med udholdenheds- og intervaltræning ­2 – 4
-gange om ugen.
-
-Der findes ingen standardprogrammer, da det som nævnt afhænger af forskellige
-forhold. Overordnet set bør motionister praktisere konditionstræning 2-4 gange om
-ugen, med en varighed på 20-60 minutter for at sikre udbytte af konditionstræning.
-
-4.2.2 Muskeltræning
-
-Når der udarbejdes et muskeltræningsprogram bør følgende grundregler for muskel-
-træningsprogrammer være overholdt:
-
-- Muskelbalance: programmet skal tilgodese alle muskelgrupper, med mindre særlige
-forhold tilsiger det.
-- Rækkefølge: De mest krævende (antal led, størrelse af muskelgrupper, koordination mm.) øvelser først i programmet. Specifik mave- og lændetræning altid til sidst i programmet.
-
-- Mål: Programmet skal tilgodese personens mål, og parametre (intensitet, sæt og
-reps) skal være tilrettelagt derefter.
-- Restitution: En muskelgruppe skal have den fornødne restitutionstid for at kunne
-superkompensere. I de fleste tilfælde bør det være minimum 48 timer.
-- Træningstid:Vi anbefaler at træningstiden ikke overskrider 75 minutter inklusiv
-stræk og opvarmning.
-Man inddeler muskeltræningsprogrammer i to typer efter træningstilstand, navnlig
-basis- og splitprogram.
-
-
-
-4.3 Gennemgang af programmet
-
-Når programmet er nedskrevet, gennemgås det. Følgende skal nævnes og beskrives/
-vises under gennemgangen af de forskellige øvelser indeholdt i programmet:
-
-- Øvelsens navn og formål (muskler involverede)
-- Evt. maskinens nr. og udstyrs navn
-- Beskrivelse og fremvisning af øvelsens korrekte udførelse (vis-forklar-vis)
-- Lad personen udføre øvelsen og foretag evt. rettelser
-- Oplys om antal sæt, gentagelser og belastning
-
-Ovenstående er de verbale elementer i gennemgangen af programmer. Derudover skal
-man være opmærksom på følgende nonverbale elementer:
-
-- Udstråling
-- Integritet
-- Øjenkontakt
-- Tilstedeværelse/opmærksomhed
-- Notering undervejs
-
-{% endcomment %}
->>>>>>> 326802d042e1ba1e9afb7e8b61a6e51e4492b1bd
 
 ## Hvordan laver jeg et løbeprogram?
 
 Når du skal lave et løbeprogram, så er der flere faktorer, du kan tage hensyn til. Hvis du vil lave et alsidigt effektivt program til løb, så kan det være godt at tænke forskellige træningskategorier ind i træningen.
 
-<<<<<<< HEAD
 Vi har skrevet mere om forskellige modeller for [træningszoner]({% link _posts/2021-09-01-traeningszoner.md %}). Her tager vi udgangspunkt i en simpel 3-zoners model, som er enkel at administrere i forhold til planlægningen af løbetræningen.
 
 Først skal du naturligvis have kigget på dit mål for træningen. Det er forskelligt at lave et [begynder løbeprogram](/loebeprogram-begyndere/), [træne til at løbe 5 km rigtig hurtigt](/loebeprogram-5km/) eller lave en [træningsplan til maraton](/loebeprogram-maraton/).
-=======
-Først skal du naturligvis have kigget på dit mål for træningen. Det er forskelligt at lave et [begynder løbeprogram](/loebeprogram-begyndere/), [træne til 5 km](/loebeprogram-5km/) eller lave en [træningsplan til maraton](/loebeprogram-maraton/).
->>>>>>> 326802d042e1ba1e9afb7e8b61a6e51e4492b1bd
 
 Ved at tænke løbetræningen ind i forskellige træningskategorier, kan man tage højde for [kroppens forskellige energisystemer]({% link _posts/2019-11-14-energisystemer-101.md %}), som er nødvendige for effekten af løbetræningen.
 
