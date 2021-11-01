@@ -47,9 +47,19 @@ git commit -m "Github Actions - $(date)"
 echo "Build branch ready to go. Pushing to Github..."
 # Force push this update to our gh-pages
 git push --force $REMOTE_REPO master:gh-pages
+
+echo "🎉 New version deployed 🎊"
+
+echo "☁️ Validating website"
+
+bundle exec htmlproofer ./ --only-4xx --assume-extension --check-favicon --check-html --http-status-ignore "400, 403, 409, 429" --allow-hash-href --empty_alt_ignore
+
+echo "☁️ Cleaning up"
+
 # Now everything is ready.
 # Lets just be a good citizen and clean-up after ourselves
 rm -fr .git
 cd ..
 rm -rf repo
-echo "🎉 New version deployed 🎊"
+
+echo "☁️ Everything is cleaned"

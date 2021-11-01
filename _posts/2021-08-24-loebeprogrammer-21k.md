@@ -1,6 +1,8 @@
 ---
 title: &title "Løbeprogram til halvmaraton - 21 km"
-permalink: /loebeprogram-halvmaraton21km/
+permalink: /loebeprogram-halvmaraton-21km/
+redirect_from:
+  - /loebeprogram-halvmaraton21km/
 excerpt: "Løbeprogram for dig der gerne vil løbe et halvmaraton. Et løbeprogram til halvmaraton tager typisk 12-20 uger. Inden du går i gang med et løbetræningsprogram til at løbe 21 km, så sørg for at du allerede kan løbe 10 km."
 language: da
 header:

@@ -226,7 +226,7 @@ Hvis du vil lære lidt mere om forskellige træningsmodeller, så kan du lade di
 
 Når du skal lave et løbeprogram, så er der flere faktorer, du kan tage hensyn til. Hvis du vil lave et alsidigt effektivt program til løb, så kan det være godt at tænke forskellige træningskategorier ind i træningen.
 
-Først skal du naturligvis have kigget på dit mål for træningen. Det er forskelligt at lave et [begynder løbeprogram](/loebeprogram-begyndere/), [træne til 5 km](/loebeprogram-5km/) eller lave en [træningsplan til maraton](/loebeprogram-maraton/).
+Først skal du naturligvis have kigget på dit mål for træningen. Det er forskelligt at lave et [begynder løbeprogram](/loebeprogram-begyndere/), [træne til 5 km](/loebeprogram-5km/) eller lave en [træningsplan til maraton](/loebeprogram-maraton-42km/).
 
 ## Hvordan kender jeg løbezonerne?
 

@@ -15,7 +15,7 @@ header:
       url: "/loebeprogrammer/"
 classes: wide
 feature_row_excerpt:
-  - excerpt: "Guide til løbetræning. Her på løbesiden kan du finde nyttig viden om løb til [5 km](/loebeprogram-5km/), [10 km](/loebeprogram-10km/), [halvmaraton](/loebeprogram-halvmaraton/) og [maraton](/loebeprogram-maraton/). Vælg et effektivt [løbeprogram](/loebeprogrammer/). Lær om [pulstræning](/pulstraening/), [intervalløb og intervaltræning](/intervallob-intervaltraening/)."
+  - excerpt: "Guide til løbetræning. Her på løbesiden kan du finde nyttig viden om løb til [5 km](/loebeprogram-5km/), [10 km](/loebeprogram-10km/), [halvmaraton](/loebeprogram-halvmaraton-21km/) og [maraton](/loebeprogram-maraton-42km/). Vælg et effektivt [løbeprogram](/loebeprogrammer/). Lær om [pulstræning](/pulstraening/), [intervalløb og intervaltræning](/intervallob-intervaltraening/)."
 feature_row_feature:
   - image_path: https://images.unsplash.com/photo-1529795533870-ea8020391255?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
     alt: "Løbesidens Løbsberegner"

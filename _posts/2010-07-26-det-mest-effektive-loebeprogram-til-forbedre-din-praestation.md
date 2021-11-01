@@ -38,7 +38,7 @@ Det mest enkle og effektive løbetræningsprogram, man kan forestille sig er utr
 
 Det behøver faktisk ikke at være mere kompliceret at lave et effektivt løbeprogram, men der er et par retningslinjer, du skal følge i programmet.
 
-- Lav en [grundig opvarmning](/opvarming/) først. Tjek vores [specifikke løbeopvarmning]({% link _posts/2021-08-23-opvarmning-loeb.md %}).
+- Lav en [grundig opvarmning](/opvarmning/) først. Tjek vores [specifikke løbeopvarmning]({% link _posts/2021-08-23-opvarmning-loeb.md %}).
 - Start lidt langsommere end du har lyst til på den første kilometer.
 - Løb de sidste fire kilometer i et konstant tempo. Tempoet skal være så højt som muligt.
 
