@@ -1,5 +1,6 @@
 ---
 title: "Intervalløb: 10 effektive metoder til intervaltræning til løb"
+seo_title: "Intervalløb • 10 effektive typer intervaltræning til løb"
 permalink: /intervallob-intervaltraening/
 excerpt: "Jeg nyder selv at bruge intervaltræning og intervalløb, når jeg forsøger at forbedre min kondition og hastighed. Intervaller er en fast del af mit løbeprogram. Jeg har researchet lidt på, hvad intervalttræning er, hvordan det virker på kroppen, og så har jeg lavet en oversigt over effektive intervalprogrammer."
 language: da

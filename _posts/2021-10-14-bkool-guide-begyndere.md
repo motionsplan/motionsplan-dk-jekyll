@@ -87,7 +87,7 @@ BKOOL er et rigtig godt alternativ til cykling udenfor. Hvis vejret er dårligt,
 
 Der er desværre lidt færre, der kører BKOOL end Zwift. Så hvis du vil køre med mange andre, så tjek Zwift ud.
 
-Når du kører BKOOL, så kan du køre en række forskellige ruter fra den virkelige verden. Når du nu ikke kan vælge [rigtige cykelruter](https://www.cykel-ruter.dk/cykelruter-danmark/), så er det motiverende at cykle de virtuelle cykelruer i BKOOL.
+Når du kører BKOOL, så kan du køre en række forskellige ruter fra den virkelige verden. Når du nu ikke kan vælge [rigtige cykelruter i Danmark](https://www.cykel-ruter.dk/cykelruter-danmark/), så er det motiverende at cykle de virtuelle cykelruer i BKOOL.
 
 ## Er BKOOL gratis?
 

@@ -145,11 +145,17 @@ For at træne det aerobe system, så kan man følge disse principper:
 
 Eksempler på træningsmetoder til det aerobe system kunne være:
 
-### Cardiac Output
+### Udholdenhedstræning
 
-Målet er at forøge størrelsen på hjertets venstre ventrikel og derved øge hjertets kapacitet og øge slagvolumen, samt at forbedre udholdenheden af _slow twitch_-muskelfibrene. 
+Målet er at forbedre udholdenheden af _slow twitch_-muskelfibrene og gøre kroppen mere effektiv til at bruge næringsstoffer. 
 
-Pulsen bør være i området fra 130-150 slag i minuttet. Aktiviten bør tage fra 30-90 minutter. Det kan både være løb, cykling, roning eller cirkeltræning med jævn puls. 
+Pulsen bør være i området fra 130-150 slag i minuttet. Aktiviten bør tage fra 30-90 minutter. Det kan både være løb, cykling, roning eller cirkeltræning med jævn puls.
+
+Joel Jamieson kalder lidt forfejlet metoden for *cardiac output*, men det navn giver ikke så meget mening. Når man arbejder med lave intensiteter er minutvolumen (cardiac output) nemlig ikke så stor. Jamieson plæderer for, at man skulle træne hjertets venstre ventrikel til at blive større. 
+
+Jeg har ikke kunnet finde noget videnskabelig evidens for, at det skulle være særlig effektivt for hjertets størrelse eller evne til at fylde sig selv ved lave hastigheder. Faktisk ser det ud til, at slagvolumen (hjertets evne til at fylde sig selv) trænes mere ved højere intensiteter (Helgerud 2007).
+
+Men derfor er Joel Jamiesons forklaring af, hvordan man kan arbejde med udholdenhedstræning stadig inspirerende.
 
 {% include video provider="facebook" id="8weeksout/videos/10155781664495787" %}
 
@@ -157,7 +163,7 @@ Pulsen bør være i området fra 130-150 slag i minuttet. Aktiviten bør tage fr
 
 Målet er at øge densiteten af kapilærerne ved musklerne og forbedre de _oxidative_ egenskaber af både _slow_ og _fast twitch_-muskelfibrene.
 
-Arbejdet er 8-12 sekunder med 70% af den maksimale intensitet med omkring 60 sekunders arbejde. Der kan laves 8-22 reps med moderat intensitet.
+Arbejdet er 8-12 sekunder med 70% af den maksimale intensitet med omkring 60 sekunders arbejde. Der kan laves 8-22 reps med moderat intensitet. Det føles ikke så hårdt, men man kan godt mærke udmattelse undervejs.
 
 {% include video provider="facebook" id="8weeksout/videos/10155692941440787" %}
 
@@ -265,7 +271,7 @@ Anaerobic Power Reserve
 
 På engelsk hedder træning af energisystemerne for 'conditioning'. Der er desværre ikke noget rigtig godt ord på dansk for både det anaerobe og aerobe energisystem.
 
-Sammenhængen mellem det aerobe og anaerobe system og træningen af det forklares rigtig godt i denne korte video.
+Sammenhængen mellem det aerobe og anaerobe system og træningen bliver forklaret rigtig godt i denne korte video.
 
 {% include video provider="facebook" id="8weeksout/videos/10153984991045787/" %}
 

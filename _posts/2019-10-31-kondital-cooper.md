@@ -1,6 +1,6 @@
 ---
 title: "Cooper-test: Find kondital med Coopers 12 minutters løbetest"
-seo_title: "Cooper test - Beregn dit kondital i vores beregner [Tabel]"
+seo_title: "Cooper test • Tabel og beregner til kondital"
 description: "Beregn dit kondital med Cooper test ✓ 12 minutters løbetest ✓ Beregn dit kondital GRATIS  ✓ Skema og tabel lige til at skrive ud ✓ Formel til Coopertesten"
 permalink: /cooper-test/
 redirect_from:
@@ -8,8 +8,8 @@ redirect_from:
 excerpt: "Cooper-testen er en 12 minutters løbetest og en indirekte, maksimal konditionstest. Brug vores beregner, skema og tabel til at finde dit kondital ud fra den tilbagelagte distance på de 12 minutter."
 language: da
 header:
-  overlay_image: https://coopertest-online.de/wp-content/uploads/2019/02/Coopertest_Collage_368385_R_K_B_by_Kurt-Michel_pixelio.de_1100px-1.jpg
-  teaser: https://coopertest-online.de/wp-content/uploads/2019/02/Coopertest_Collage_368385_R_K_B_by_Kurt-Michel_pixelio.de_1100px-1.jpg
+  overlay_image: https://images.unsplash.com/photo-1567660444666-aed93ec8aa57?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1933&q=80
+  teaser: https://images.unsplash.com/photo-1567660444666-aed93ec8aa57?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
   caption: Find dit kondital med Cooper-testen. Konditionstest til løb.
 category:
   - Kondition
@@ -88,21 +88,21 @@ Der findes forskellige formler til at udregne konditallet fra Cooper-testen.
 
 Her er den mest enkle for at udregne konditallet på baggrund af distancen løbet i meter på Coopertesten:
 
-{% include math formula="VO_2max = \frac{d_{12} - 505}{45}" %}
+{% include math formula="kondital = \frac{d_{12} - 505}{45}" %}
 
-I beregneren bruger jeg dog denne [formel til at beregne konditallet ud fra Cooper-testen](https://www.brianmac.co.uk/gentest.htm), da de også er den, der bruges på [Wikipedias side om Cooper testen](https://en.wikipedia.org/wiki/Cooper_test).
+I beregneren bruger jeg denne formel til at beregne konditallet ud fra Cooper-testen, som er den formel der bruges på [www.brianmac.co.uk](https://www.brianmac.co.uk/gentest.htm) og [Wikipedia](https://en.wikipedia.org/wiki/Cooper_test).
 
-{% include math formula="VO_2max = \frac{d_{12} - 504,9}{44,73}" %}
+{% include math formula="kondital = \frac{d_{12} - 504,9}{44,73}" %}
 
 [Topendsports](https://www.topendsports.com/testing/tests/cooper.htm) angiver nedenstående formel for at udregne konditallet baseret på distancen i kilometer, som er udledt fra den originale artikel af Cooper (1968).
 
 ***
 
-VO<sub>2</sub>max = (22.351 x distance in kilometers) - 11.288
+kondital = (22.351 x distance i kilometer) - 11.288
 
 ***
 
-Der findes også formler, der inkluderer vægt, køn og alder.
+Der findes vist også formler, der inkluderer vægt, køn og alder, men jeg har ikke kunnet finde dem specifikt.
 
 Hvis du bruger Cooper-testen til at udregne dit kondital, skal du sørge for at bruge den samme formel hver gang.
 
@@ -136,14 +136,14 @@ Her har jeg givet et bud på vurderingskriterier for distancen gennemført på C
 
 Cooper (1968) lavede selv en tabel over normalværdier for distance på Cooper-testen for mænd og kvinder, hvor du kan vurdere dig selv i forhold til forskellige distancer.
 
-Værdierne fra disse skemaer over Cooper-testen er lidt anderledes end de tabeller, du kan finde på [den danske Wikipedias side for Cooper-testen](https://da.wikipedia.org/wiki/Coopertest). Det ved jeg ikke hvorfor. Hvis du gør, så brug endelig kommentarerne.
+Værdierne fra disse skemaer over Cooper-testen er lidt anderledes end de tabeller, du kan finde på den [danske Wikipedia-side for Cooper-testen](https://da.wikipedia.org/wiki/Coopertest). Det ved jeg ikke hvorfor. Hvis du gør, så brug endelig kommentarerne.
 {: notice .notice--info }
 
 Hvis du sammenligner værdierne i tabellerne fra Cooper (1968) med det kondital, du kan udregne i vores beregner, så ender du i forskellige kategorier. Der er stor forskel i vurderingen, om du bruger [tabellen over kondital](/kondital/) eller Coopers skema til at vurdere dit din kondition.
 
 Fx vil en pige, der løber 2100 meter få et kondital på 36 ml/min/kg, hvilket er i den lave ende af 'Middel', mens hun i Coopers egen tabel ligger i kategorien 'Meget godt'. Det er en uforklarlig forskel.
 
-Du kan se de oprindelige skemaer til Cooper-testen her, men læs lidt længere for at få nye modificerede tabeller baseret på tabellerne over kondital for almindelige danske mennesker, der ikke dyrker idræt på konkurrenceplan.
+Du kan se de **oprindelige skemaer** til Cooper-testen her, men **læs lidt længere for at få nye modificerede tabeller** baseret på tabellerne over kondital for almindelige danske mennesker, der ikke dyrker idræt på konkurrenceplan.
 
 <details markdown="1">
   <summary>Se Coopers oprindelige skemaer og tabeller over distancer på Coopertesten</summary>

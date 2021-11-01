@@ -1,6 +1,6 @@
 ---
 title: &title "Hvad er gennemsnitshøjden i Danmark? 📏 [2021]"
-seo_title: "Hvad er gennemsnitshøjden i Danmark [2021]?"
+seo_title: "Gennemsnitshøjde i Danmark: Hvor høje er danskerne i 2021?"
 permalink: /hvad-er-gennemsnitshoejden-i-danmark/
 language: da
 header:

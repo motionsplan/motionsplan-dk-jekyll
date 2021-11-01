@@ -2,9 +2,9 @@
 layout: single
 toc: true
 permalink: /tests/
-excerpt: "Oversigt over alle de fysiske og fysiologiske tests til gang, løb, cykling, styrketræning, balance, smidighed og roning"
+excerpt: "Oversigt over alle fysiske fitness tests til gang, løb, cykling, styrketræning, balance, smidighed og roning og træning"
 title: &title "Alle tests"
-seo_title: "Fysiske og fysiologiske tests | Motionsplan"
+seo_title: "Fysiske og fysiologiske tests til fitness og træning | Motionsplan"
 author_profile: true
 header:
   overlay_image: https://images.unsplash.com/photo-1428790067070-0ebf4418d9d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80
@@ -81,7 +81,7 @@ Cykling kan være en rigtig god måde at teste sig selv på. Her har jeg samlet 
 
 </div>
 
-## Alle tests på Motionsplan
+## Alle fitness tests på Motionsplan
 
 {% assign site_posts = site.posts | where: "tags", "test" | sort: "date" %}
 

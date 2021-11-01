@@ -809,6 +809,59 @@ $(document).ready(function() {
 
         $("[name='adult_height']").val(f.getHeight().toFixed(0));
     });
+    $("#calculator_excercise_addiction").submit(function(e) {
+        console.log("Calculate Eating Disorder");
+        e.preventDefault();
+
+        let q1 = Number($("[name='question_1']:checked").val());
+        let q2 = Number($("[name='question_2']:checked").val());
+        let q3 = Number($("[name='question_3']:checked").val());
+        let q4 = Number($("[name='question_4']:checked").val());
+        let q5 = Number($("[name='question_5']:checked").val());
+        let q6 = Number($("[name='question_6']:checked").val());
+
+        let disorder = q1 + q2 + q3 + q4 + q5 + q6;
+
+        let text;
+
+        if (disorder > 23) {
+            text = 'Din score på ' + disorder + ' ligger mellem 24-30. Det er sandsynligt, at du er afhængig af træning på en måde, der kan skade dig.';
+        } else if (disorder > 15) {
+            text = 'Du har fået ' + disorder + ' point. Hvis du får 24 point eller mere, så er du sandsynligvis afhængig af træning på en måde, der kan skade dig.';
+        } else {
+            text = 'Du er med ' + disorder + ' point sandsynligvis ikke i risikogruppen for at være afhængig af træning.';
+        }
+
+        $("#result").text(text);
+    });
+    $("#calculator_eating_disorder").submit(function(e) {
+        console.log("Calculate Eating Disorder");
+        e.preventDefault();
+
+        let q1 = Number($("[name='question_1']:checked").val());
+        let q2 = Number($("[name='question_2']:checked").val());
+        let q3 = Number($("[name='question_3']:checked").val());
+        let q4 = Number($("[name='question_4']:checked").val());
+        let q5 = Number($("[name='question_5']:checked").val());
+        let q6 = Number($("[name='question_6']:checked").val());
+
+        let disorder = q1 + q2 + q3 + q4;
+        let no_disorder = q5 + q6;
+
+        let text;
+
+        if (disorder > 1) {
+            text = 'Du har svaret ja på ' + disorder + ' af de fire første spørgsmål. Du er i risikogruppen for at have en spiseforstyrrelse og bør søge hjælp. Yderligere udredning er nødvendig for at vurdere, om der er tale om en spiseforstyrrelse.';
+        } else if (disorder > 0) {
+            text = 'Du har svaret ja på et af de fire første spørgsmål. At svare ja på et af spørgsmålene er formentlig ikke alvorligt, men det kan være tegn på et forstyrret spisemønster.';
+        } else if (no_disorder == 0) {
+            text = 'Dine svar tyder på, at du ikke har et forstyrret spisemønster.';
+        } else {
+            text = 'Det var ikke muligt at konkludere noget på baggrund af dine svar. De første fire spørgsmål har en sammenhæng med det at have en spiseforstyrrelse. De sidste to spørgsmål kan afdække om du er uden for risikogruppen.';
+        }
+
+        $("#result").text(text);
+    });
     $("#calculator_norwegian_2011").submit(function(e) {
         console.log("Calculate Norwegian 2011");
         e.preventDefault();
