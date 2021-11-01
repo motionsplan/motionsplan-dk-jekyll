@@ -20,7 +20,7 @@ category:
   - Yoga
 last_modified_at: 2021-01-24T09:41:09Z
 feature_row:
-  - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/1000x/9df78eab33525d08d6e5fb8d27136e95/d/e/de-fem-tibetanere-1.jpg
+  - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/560x/9df78eab33525d08d6e5fb8d27136e95/d/e/de-fem-tibetanere-1.jpg
     alt: "Bogen De 5 tibetanere af Peter Kelder"
     title: "Peter Kelder - de fem tibetanere (bog 1)"
     excerpt: "Den gamle hemmelighed om ungdommens kilde. Denne bog om 5 gamle tibetanske kropsøvelser har gået sin sejrsgang over det meste af den vestlige verden. Bogen har indtil nu solgt i over 2 millioner eksemplarer bare i Tyskland og USA. Du lærer her fem enkle øvelser, som giver fornyet livskraft og velvære. Yogaøvelserne er lette at udføre, og du bestemmer selv, hvor megen tid du vil bruge på dem. "
@@ -28,20 +28,11 @@ feature_row:
     btn_label: "Tjek prisen"
     btn_class: "btn--success"
     rel: "sponsored nofollow noopener"
-  - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/1000x/9df78eab33525d08d6e5fb8d27136e95/d/e/1294-de-fem-tibetanere-bog-2.gif
+  - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/560x/9df78eab33525d08d6e5fb8d27136e95/d/e/1294-de-fem-tibetanere-bog-2.gif
     alt: "Peter Kelders anden bog om de 5 tibetanere"
     title: "Peter Kelder - de fem tibetanere (bog 2)"
     excerpt: "Den gamle hemmelighed om ungdommens kilde er opfølgeren til bog nr. 1 om De 5 tibetanere. Denne bog er på 302 sider og noget mere omfattende end bog nr. 1. Du bliver blandt andet præsenteret for den sjette tibetaner."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-bog-2"
-    btn_label: "Tjek prisen"
-    btn_class: "btn--success"
-    rel: "sponsored nofollow noopener"
-feature_row_dvd:
-  - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/1600x/9df78eab33525d08d6e5fb8d27136e95/1/0/1143-de-fem-tibetanere-kilden-til-evig-ungdom.jpg
-    alt: "DVD og video af De 5 tibetanere"
-    title: "DVD: De fem tibetanere"
-    excerpt: "Fysioterapeut Betiina Larsen har lavet denne skønne dvd med de over 2000 år gamle øvelser kaldet De Fem Tibetanere. Dvd'en indeholder både fysiske øvelser og meditation samt et lille hæfte om De Fem Tibetanere."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-kilden-til-evig-ungdom"
     btn_label: "Tjek prisen"
     btn_class: "btn--success"
     rel: "sponsored nofollow noopener"
@@ -280,10 +271,6 @@ Hvis du er til en ret dynamisk gennemgang af øvelserne med markant yogamusik, s
 {% include video provider="youtube" id="LWA5WHLdaaA" %}
 
 Hvis du har erfaringer med de fem tibetanere eller andre styrke- og smidighedsgørende øvelser, så brug endelig kommentarerne.
-
-Hvis du foretrækker at se øvelserne på DVD, så kan du købe dem her:
-
-{% include feature_row id="feature_row_dvd" type="left" %}
 
 ## Vejrtrækning: Hvordan skal jeg trække vejret?
 

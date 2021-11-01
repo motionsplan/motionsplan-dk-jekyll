@@ -18,7 +18,7 @@ tags:
 last_modified_at: 2020-05-31T08:14:14Z
 toc: true
 feature_row:
-  - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/1000x/9df78eab33525d08d6e5fb8d27136e95/a/n/anatomisk-guide-til-bevaegeapparatet-9788777499104-andrew-biel-gitte-bjerg-fuusager.jpg
+  - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/560x/9df78eab33525d08d6e5fb8d27136e95/a/n/anatomisk-guide-til-bevaegeapparatet-9788777499104-andrew-biel-gitte-bjerg-fuusager.jpg
     alt: "Anatomisk Guide til Bevægeapparatet"
     title: "Anatomisk Guide til Bevægeapparatet"
     excerpt: "En praktisk guide til lokalisering af muskler, skelettet, knogler og led. Du lærer at undersøge bevægeapparatet og kende opbygningen af skelettet og knoglerne og lokalisere de relevante vævsstrukturer."
