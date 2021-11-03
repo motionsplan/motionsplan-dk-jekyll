@@ -21,7 +21,25 @@ Inden du går i gang med at lave et træningsprogram, så bør du lave en screen
 
 ## Hvad er formålet med screeningsfasen?
 
-I screeningen skal du få klarhed for personens mål, forudsætninger og træningstilstand. Du skal med andre ord lære vedkommende at kende. Lad os kigge på, hvad det betyder i praksis.
+I screeningen skal du lære et andet menneske at kende, så du kan lave et fornuftigt træningsprogram til vedkommende.
+
+> ”The act of examining people (or things) in order to decide if they are suitable for a particular purpose.”
+
+--- <cite>Merriam-Webster</cite>
+
+Du skal altså få få klarhed for personens mål, forudsætninger og træningstilstand.
+
+I praksis skal du altså i screeningen have indsamlet nogle informationer om personen. Dette kunne fx være:
+
+- Målsætning​
+- Træningstilstand​
+- Træningserfaring​
+- Sundhedstilstand​
+- Dagligdagsfunktion (eks. job)​
+- Tid til rådighed​
+- Begrænsninger
+
+Lad os dykke ned i nogle af disse punkter med flere uddybende kommentarer.
 
 ## Mål med træningen: Hvad vil du gerne opnå med træningen?
 
@@ -33,7 +51,13 @@ For motivationens skyld så kan et event eller større begivenhed, fx et motions
 
 Der kan komme mange forskellige svar på spørgsmålet. Prøv at forstå de enkelte svar ved at stille uddybende spørgsmål: Hvorfor vil du gerne opnå det? Hvad kommer det til at ændre i dit liv, hvis det sker?
 
-Hvis der er et klart “hvorfor”, så er det meget mere motiverende at træne og følge et træningsprogram. 
+Hvis der er et klart “hvorfor”, så er det meget mere motiverende at træne og følge et træningsprogram.
+
+Sørg også for at få svar på spørgsmålet:
+
+> Hvordan ser du om du er i mål med træningen?
+
+Der er forskellige måder at arbejde med målsætning på. Du kan fx bruge [SMART-modellen](/smart/).
 
 ## Forudsætninger
 
@@ -51,6 +75,8 @@ Hverdagen kommer til at bestemme, hvor sandsynligt det er, at man kan gennemfør
 
 Hvor meget tid bruges på skole eller arbejde? Oplever du et højt stress i hverdagen?
 
+Hvordan er dit aktivitetsniveau til daglig? Har du et stillesiddende job eller er du fysisk aktiv?
+
 ### Tid til træning: Hvor lang tid om ugen kan du bruge på træningen?
 
 Når du har målet og motivationen, så kan du blive lidt mere konkret. Du kan stille spørgsmål om, hvor lang tid vedkommende forventer at bruge på den ugentlige træning.
@@ -59,13 +85,13 @@ Træningen skal helst være en integreret del af ugen, så den skal lægges på 
 
 Nogle prioriterer flere timers træning, mens andre har mindre tid til træning. Formålet med at lave et træningsprogram er at få det optimale ud af den afsatte tid. 
 
-Dette spørgsmål er ret vigtigt, da det bl.a. er med til at afgøre, om man kan nå at gennemføre træningsprogrammet uge efter uge.
+Dette spørgsmål er ret vigtigt, da det bl.a. er med til at afgøre, om man kan nå at gennemføre træningsprogrammet uge efter uge. Derfor skal du sørge for at svaret er så realistisk som muligt, men husk også at man sagtens kan anbefale færre træninger end vedkommende har tid til.
 
 ### Anden træning: Laver du anden træning samtidig?
 
 Hvis træningsprogrammet skal passe med anden træning, så er det vigtigt at tage højde for det. Hvis du skal lave et træningsprogram til en, der samtidig laver styrketræning eller spiller fodbold, så skal du tænke nøje over, hvordan restitution bliver en del hverdagen.
 
-### Hvad motiverer dig?
+## Hvad motiverer dig?
 
 Der er ikke så meget ved at bruge lang tid på at lave et træningsprogram, hvis det ender med, at ingen følger det. Derfor er det godt at dykke lidt ned i vanerne fra tidligere træning.
 
@@ -79,10 +105,18 @@ Det er vigtigt at få styr på udgangspunktet for træningsprogrammet. Derfor er
 
 - **Tidligere træning**.
 - **Tidligere skader**.
-- **Hvad er din nuværende træningstilstand?**
+- **Hvad er din nuværende træningstilstand?** Er du i form på nuværende tidspunkt?
 
 ## Konklusion
 
-Når du har lavet en screening, så kan du gå i gang med at lave et træningsprogram. Du kan fx lave et [løbeprogram]({% link _posts/2021-08-24-hvordan-loebeprogram.md %}).
+Når du laver en screening skal du naturligvis først have planlagt nogle spørgsmål. Dernæst skal du stille spørgsmålene til vedkommende. Til sidst skal du opsummere den indsamlede information for at identificere de muligheder og begrænsninger svarene giver i forhold til planlægningen af træningen.
+
+1. Planlæg din screening
+2. Stil spørgsmålene
+3. Lav en opsummering
+
+Når du har lavet en screening, så kan du gå i gang med at lave et træningsprogram.
+
+Du kan fx lave et [løbeprogram]({% link _posts/2021-08-24-hvordan-loebeprogram.md %}).
 
 [Bonus: Ark til screening »](https://docs.google.com/document/d/1XHq9-ydpCJ1ggxoKHUvP_MoyKJuVwLF4MZLfuaDZSCQ/copy){: .btn--large .btn--success }

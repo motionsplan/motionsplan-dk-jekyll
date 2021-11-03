@@ -64,7 +64,7 @@ Jeg er selv blevet ret interesseret i [velocity based training]({% link _posts/2
 
 ## Hvordan kan jeg teste Rate of Force Development?
 
-En meget brugt test er en IMTP-test på en kraftplatform. Du trækker i en stang, som er fastgjort, mens kraftplatformen måler den kraft du trækker med.
+En meget brugt test er en [IMTP-test](/imtp/) på en kraftplatform. Du trækker i en stang, som er fastgjort, mens kraftplatformen måler den kraft du trækker med.
 
 ## Hvad sker der med Rate of Force Development med alderen
 
