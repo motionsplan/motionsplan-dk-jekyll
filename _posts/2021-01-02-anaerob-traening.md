@@ -32,7 +32,7 @@ I dette indlæg kan du få svar på følgende spørgsmål:
 
 ## Hvad er det anaerobe system?
 
-Dansk Idræts-Forbund har skrevet et godt [hæfte om anaerob præstationsevne](https://www.dif.dk/-/media/difdk/foreningsliv/udgivelser/pdf/anaerobprstationsevnetoleranceproduktionoghurtighedstrning.pdf), som jeg virkelig kan anbefale, hvis du gerne vil lære mere om, hvordan det anarobe system virker. Når du forstår systemet er det meget lettere at planlægge anaerob træning.
+[Dansk Idræts-Forbund](https://www.dif.dk/media/3n4njx1f/anaerob-pr%C3%A6stationsevne-h%C3%A6fte.pdf) har skrevet et godt hæfte om anaerob præstationsevne, som jeg virkelig kan anbefale, hvis du gerne vil lære mere om, hvordan det anarobe system virker. Når du forstår systemet er det meget lettere at planlægge anaerob træning.
 
 Grundlæggende er dit energisystem delt op i to dele. Det aerobe system kan levere energi så længe, der er nok ilt til stede i musklerne, mens det anaerobe system stadig kan levere ilt, når der ikke er ilt nok til stede. I praksis kører begge systemer samtidigt.
 
@@ -52,12 +52,12 @@ De to spaltninger under anaerob træning kan beskrives kemisk på denne måde:
 
 ***
 
-ADP + CrP → ATP + Cr  
-ADP + P + Kulhydrat → ATP + Mælkesyre  
+ADP + CrP → ATP + Cr
+ADP + P + Kulhydrat → ATP + Mælkesyre
 
 ***
 
-Begge processer i det anaerobe system skaber altså mere ATP. 
+Begge processer i det anaerobe system skaber altså mere ATP.
 
 Spaltningen af kreatinfosfat kan levere energi til meget korte intensive kraftanstrengelser under 10 sekunder. Denne anaerobe proces er også årsagen til, at kreatin virker som kosttilskud, da man ved fuldt loadede kreatin-depoter i musklerne formentlig kan tage 1-2 gentagelser flere med samme høje intensitet. Når man har kreatinfosfat tilgængeligt i musklerne, kan man nemlig hurtigt genoplade ATP igen.
 
@@ -95,10 +95,10 @@ Det er interessant at læse [Mohr og Krustrup (2016)](https://traenerlounge.dbu.
 
 I anaerob træning skelner man mellem **anaerob kapacitet** og **anaerob effekt**.
 
-Hvad er anaerob kapacitet?  
+Hvad er anaerob kapacitet?
 : Anaerob kapacitet er evnen til at arbejde i længere tid hvor en høj del af energien kommer fra det anaerobe system. Den anaerobe kapacitet kan forbedres ved at arbejde i 30-45 sekunder med en pause ratio på 1:2-3. Den anaerobe kapacitet er fx meget vigtig på et 400-800 meter løb, hvis du gerne vil have en god præstation.
 
-Hvad er anaerob effekt?  
+Hvad er anaerob effekt?
 : Den anaerobe effekt er musklernes evne til at genoplade ATP hurtigt, så du igen kan arbejde maksimalt efter en kortere pause.
 
 ## Anaerob træning kan give fart
@@ -114,7 +114,7 @@ Hvad er anaerob effekt?
 3. Din relative arbejdsbelastning - altså evnen til at løbe omkring den [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}) - og hvor meget du kan presse dig selv.
 4. Den anaerobe energiproduktion - som giver den sidste fart - og som trænes gennem anaerob træning.
 
-## Anaerob træning er ikke kun sprint 
+## Anaerob træning er ikke kun sprint
 
 Mange forbinder anarobt arbejde med meget kortvarigt og intenst arbejde. Hvis vi tager en løber som eksempel, så vil man ofte tænke på 60-100 meter. Hvis man gerne vil blive en bedre løber, så tænker man typisk mest på de tre første parametre, der har betydning for præstationen.
 

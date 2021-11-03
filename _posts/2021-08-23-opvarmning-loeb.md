@@ -22,7 +22,7 @@ Vil du undgå løbeskader så sørg for en grundig opvarmning til løb. Vi kigge
 Du bør mindst varme op i 10-15 minutter, så du stille og roligt kommer i gang med din løbetur.
 Opvarmningen bør være en del af din løbetræning, du skal prioritere højt. Det gælder både motionister og mere øvede løbere.
 
-Vi har skrevet en mere [generel gennemgang af opvarmning](/opvarmning/) og en specifik beskrivelse af [opvarmning til styrketræning](/opvarmning-styrketraening/). 
+Vi har skrevet en mere [generel gennemgang af opvarmning](/opvarmning/) og en specifik beskrivelse af [opvarmning til styrketræning](/opvarmning-styrketraening/).
 
 Men lad os først dykke ned i, hvorfor du skal varme op før løb? Og dernæst kigger vi på nogle konkret forslag til et opvarmningsprogram til løb.
 
@@ -55,7 +55,7 @@ Du kan fx stå på et ben. Du kan arbejde med åbne og lukkede øjne. Du kan ogs
 
 ### 2. Dynamisk mobilitet
 
-Jeg kan også godt lide at bruge øvelser til dynamisk mobilitet i opvarmningen. Du kan fx lade dig inspirere af nogle af disse øvelser. 
+Jeg kan også godt lide at bruge øvelser til dynamisk mobilitet i opvarmningen. Du kan fx lade dig inspirere af nogle af disse øvelser.
 
 {% include video provider="youtube" id="tFHkPPN3oPc" %}
 
@@ -71,7 +71,7 @@ Jeg bruger også ofte nogle træningsøvelser til at udfordre styrken en lille s
 
 ### 5. Coreøvelser
 
-Din core er en utrolig vigtig del af dit løb. Derfor er det godt at træne dine [mavemuskler](/muskler/mave/) med forskellige [core-øvelser](/core/). Mange bruger [planken](/planken/), men der er også mange andre meget relevante variationer til løb.
+Din core er en utrolig vigtig del af dit løb. Derfor er det godt at træne dine [mavemuskler](/muskler/mave/) med forskellige [core-øvelser](/core/). Mange bruger [planken](/oevelse/planken/), men der er også mange andre meget relevante variationer til løb.
 
 ### 5. Løbeteknik og løbeøvelser
 

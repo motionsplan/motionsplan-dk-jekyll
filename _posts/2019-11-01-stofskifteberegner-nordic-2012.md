@@ -39,7 +39,7 @@ Hvordan kan jeg udregne mit daglige energibehov og energiforbrug? **Du kan udreg
 
 Stofskiftet består af 3 hovedkomponenter: hvilestofskiftet (BMR), fødeinduceret termogenese (FIT) og fysisk aktivitet (PAL). Du kan [læse en lidt mere uddybende forklaring af, hvad stofskiftet er]({% link _posts/2019-11-01-stofskifteberegner-avanceret.md %}).
 
-Denne beregner af dit daglige energiforbrug og energibehov kan du vælge mellem forskellige beregninger af hvilestofskiftet. Derefter ganger vi hvilestofskiftet med den del af stofskiftet, der påvirkes af det fysiske aktivitetsniveau, PAL. 
+Denne beregner af dit daglige energiforbrug og energibehov kan du vælge mellem forskellige beregninger af hvilestofskiftet. Derefter ganger vi hvilestofskiftet med den del af stofskiftet, der påvirkes af det fysiske aktivitetsniveau, PAL.
 
 På [Fitness Institutes uddannelse af personlige trænere](https://fitness-institute.dk/) bruger de formlen fra `Nordic Nutrition Recommendations 2012`.
 
@@ -74,7 +74,7 @@ I denne simple energibehov beregner kan du vælge forskellige formler for hviles
 | Sport eller anden hård fysisk aktivitet i fritiden. (30-60 min. 4-5 gange/uge)	                                    | + 0,3   |
 | Hårdt kropsarbejde eller meget høj fritidsaktivitet.	                                                              | 2,0-2,4 |
 
-Tabel fra [Nordic Nutrition Recommendations 2012](https://www.norden.org/da/node/7832).
+Tabel fra [Nordic Nutrition Recommendations 2012](https://www.norden.org/en/publication/nordic-nutrition-recommendations-2012).
 
 Når du kender hvilestofskiftet (BMR) og faktoren for fysisk aktivitetsniveau (PAL) kan du estimere dit daglige energiforbrug eller daglige stofskifte. Det gør du ved at gange hvilestofskiftet med PAL.
 
@@ -91,4 +91,4 @@ Hvis du gerne vil have en beregner af energibehov på engelsk, så kan du finde 
 
 ## Referencer om stofskifte, energibehov og energiforbrug
 
-- [Nordic Nutrition Recommendations 2012](https://www.norden.org/da/node/7832)
+- [Nordic Nutrition Recommendations 2012](https://www.norden.org/en/publication/nordic-nutrition-recommendations-2012)

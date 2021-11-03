@@ -68,7 +68,7 @@ https://www.dr.dk/nyheder/viden/bevaegelse/hurtige-svoemmedragter-og-hoppende-lo
 
 ## Sportsudstyr har altid udviklet sig
 
-Puma og Adidas er et af de tidlige eksempler på nogle skoproducenter som virkelig gjorde meget for at udvikle skoene til at præstere bedre. Du kan se den aldeles fremragende serie [Rivalerne på dr.dk](https://www.dr.dk/drtv/episode/rivalerne_213907), hvor du får et indblik i det.
+Puma og Adidas er et af de tidlige eksempler på nogle skoproducenter som virkelig gjorde meget for at udvikle skoene til at præstere bedre. Du kan se den aldeles fremragende serie [Rivalerne](https://www.imdb.com/title/tt4610114/), hvor du får et indblik i det.
 
 Jesse Owens var i 30'erne og 40'erne den altoverskyggende profil i 100-meter løb. Han løb på cindersbane og i nogle af de tidlige versioner af pigskoen.
 
@@ -119,7 +119,7 @@ Nike lancerede i 2017 deres banebrydende løbesko kaldet Nike Vaporfly. Siden da
 {% include figure image_path="https://s3.amazonaws.com/nikeinc/assets/69101/Nike-4percent_final_native_1600.jpg?1493744193" caption="Opbygningen af sålen på en Nike Vaporfly. Kilde: [Nike](https://news.nike.com/news/nike-vaporfly-4-review)" %}
 
 Løbeskoen fra Nike har en et hårdt skummateriale som midtersål og en indbygget carbonplade. Kombinationen gør, at løberen får mere energi tilbage fra hver eneste skridt. Effekten fungerer altså lidt ligesom en fjeder.
- 
+
 > Med carbonpladen i løbeskoen mindsker man den tabte energi, og skoen vil derfor bevare mere energi for hvert skridt set i forhold til en almindelig løbesko.
 
 --- <cite>[Andreas Top Adler, præstationsingeniør hos TeamDanmark](https://www.dr.dk/nyheder/viden/bevaegelse/hurtige-svoemmedragter-og-hoppende-loebesko-tre-teknologier-der-har-hjulpet)</cite>

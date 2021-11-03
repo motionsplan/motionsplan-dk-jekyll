@@ -105,7 +105,7 @@ Formlerne fra Nordic Nutrition Recommendations 2012 er baseret på Henry (2005),
 
 Det er også disse formler, der bruges af WHO i deres arbejde med at udregne hvilestofskiftet.
 
-I forhold til [Nordic Nutrition Recommendations 2012](https://www.norden.org/da/node/7832), så har jeg flyttet lidt rundt på formlerne for REE baseret på vægt og højde. Det har jeg gjort, fordi der står i den oprindelige reference at den sidste formel gælder for alle over 60 år, men da der ikke står en formel under 19-30-årige forestiller jeg mig, at det er en fejl.
+I forhold til [Nordic Nutrition Recommendations 2012](https://www.norden.org/en/publication/nordic-nutrition-recommendations-2012), så har jeg flyttet lidt rundt på formlerne for REE baseret på vægt og højde. Det har jeg gjort, fordi der står i den oprindelige reference at den sidste formel gælder for alle over 60 år, men da der ikke står en formel under 19-30-årige forestiller jeg mig, at det er en fejl.
 {: .notice .notice--info }
 
 ### Udregning af mænds hvilestofskifte
