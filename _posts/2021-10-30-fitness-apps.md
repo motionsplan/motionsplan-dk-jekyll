@@ -11,7 +11,7 @@ category:
   - Træning
 tags:
   - træning
-last_modified_at: 2021-10-14T08:14:14Z
+last_modified_at: 2021-11-03T08:14:14Z
 toc: true
 faq:
  - question: "Hvad hedder træningsafhængighed på engelsk?"
