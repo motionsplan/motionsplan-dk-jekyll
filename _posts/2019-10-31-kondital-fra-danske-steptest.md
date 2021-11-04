@@ -24,17 +24,19 @@ Den Danske Steptest eller Den Nye Steptest er en præstationsbegrænset submaksi
 
 *[MET]: Metabolic equivalent of Task
 
-Hvad er Den Danske Steptest? **Den Danske Steptest er udviklet af danske forskere med Morten Zacho i spidsen. Det er en en tilpasning af de eksisterende steptest, hvor man ikke skal bruge pulsmålinger undervejs. Den Danske Steptest er en præstationsbegrænset submaksimal test, hvor deltagerne træder op og ned af en forhøjning på en bestemt måde i et forudbestemt tempo, som progressivt stiger i løbet af testen.**
+Hvad er Den Danske Steptest? **Den Danske Steptest er udviklet af danske forskere med Morten Zacho i spidsen. Det er en en tilpasning af de eksisterende steptest, så man ikke behøver pulsmålinger undervejs. Den Danske Steptest er en præstationsbegrænset submaksimal test, hvor deltagerne træder op og ned af en forhøjning på en bestemt måde i et forudbestemt tempo, som progressivt stiger i løbet af testen.**
 
-Forhøjningen i Den Danske Steptest er på 20-35 cm og sættes i forhold til folks træningsniveau, hvilket du kan læse mere om i instruktionerne til testen på [exercise.dk](https://exercise.dk/kondition/43-den-danske-steptest). Her kan du også få testen online eller downloade testen. Testen kan laves overalt, hvor man har en computer og en forhøjning.
+Forhøjningen i Den Danske Steptest er på 20-35 cm og sættes i forhold til folks træningsniveau, hvilket du kan læse mere om i instruktionerne til testen på [exercise.dk](https://exercise.dk/kondition/43-den-danske-steptest). Her kan du tage testen online. Testen kan laves overalt, hvor man har en computer eller andet device og en forhøjning.
 
-Når testen er færdig får man en estimeret VO<sub>2</sub>-max, sit kondital (den maksimale iltoptagelse i forhold til ens kropsvægt) og [MET-værdien]({% link _posts/2020-07-24-met.md %}) (som er et mål for hvor meget arbejde, du har lavet). Den Danske Steptest er [udviklet af Morten Zacho](https://exercise.dk/kondition/43-den-danske-steptest). Du kan også finde [steptesten på engelsk](https://www.health-calc.com/fitness-tests/the-danish-step-test).
+Når testen er færdig får man en estimeret VO<sub>2</sub>-max, sit kondital (den maksimale iltoptagelse i forhold til ens kropsvægt) og [MET-værdien]({% link _posts/2020-07-24-met.md %}) (som er et mål for hvor meget arbejde, du har lavet).
+
+Den Danske Steptest er bl.a. udviklet af Morten Zacho. Du kan også finde [steptesten på engelsk](https://www.health-calc.com/fitness-tests/the-danish-step-test).
 
 [Tag Den Danske Steptest på exercise.dk](https://exercise.dk/kondition/43-den-danske-steptest){: .btn .btn--large .btn--info }
 
 ## Baggrunden for Den Danske Steptest
 
-Den Danske Steptest bruger kun trinhøjden og vægten som input for at lave sine beregninger til at estimere det den maksimale iltoptagelse og konditallet.
+Den Danske Steptest bruger kun trinhøjden, tiden og kropsvægten som input for at lave sine beregninger til at estimere det den maksimale iltoptagelse og konditallet.
 
 Som baggrund for Den Danske Steptest bruger [Morten Zacho](https://exercise.dk/kondition/43-den-danske-steptest) følgende teoretiske sammenhæng:
 
@@ -85,7 +87,7 @@ Der findes en række andre steptests, som du også kan kigge på, hvis du gerne 
 - [Åstrands Steptest](https://netdoktor.dk/interactive/interactivetests/steptest.php)
 - [Harvard Steptest](https://en.wikipedia.org/wiki/Harvard_step_test)
 
-Vi har også lave en [oversigt over andre tests af konditallet]({% link _posts/2019-11-04-kondition-og-test.md %}), eller måske vil du sammenligne dit [kondital med en tabel for mænd og kvinder]({% link _posts/2019-11-04-kondital-og-tabel.md %})?
+Vi har også lavet en [oversigt over andre tests af konditallet]({% link _posts/2019-11-04-kondition-og-test.md %}), eller måske vil du sammenligne dit [kondital med en tabel for mænd og kvinder]({% link _posts/2019-11-04-kondital-og-tabel.md %})?
 
 ## Referencer om Den Danske Steptest
 
