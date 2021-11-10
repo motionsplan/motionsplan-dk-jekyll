@@ -809,6 +809,62 @@ $(document).ready(function() {
 
         $("[name='adult_height']").val(f.getHeight().toFixed(0));
     });
+    $("#calculator_who5").submit(function(e) {
+        console.log("Calculate Eating Disorder");
+        e.preventDefault();
+
+        let q1 = Number($("[name='question_1']:checked").val());
+        let q2 = Number($("[name='question_2']:checked").val());
+        let q3 = Number($("[name='question_3']:checked").val());
+        let q4 = Number($("[name='question_4']:checked").val());
+        let q5 = Number($("[name='question_5']:checked").val());
+        let score = q1 + q2 + q3 + q4 + q5;
+
+        let text;
+
+        if (score > 49) {
+            text = 'Din score på ' + score + ' ligger her inden for gennemsnittet for resten af befolkningen som er 68 med en nedre grænse omkring 50.';
+        } else if (score > 35) {
+            text = 'Din score på ' + score + ' ligger lavere end gennemsnittet for resten af befolkningen. Resultatet tyder på, at du nok ikke har det helt godt. Vær opmærksom på, om du får det bedre eller værre og søg evt. læge, hvis du får det værre.';
+        } else {
+            text = 'Din score på ' + score + ' ligger væsentligt lavere end gennemsnittet for resten af befolkningen. Resultatet tyder på, at du ikke er på toppen, og der kan være en reel risiko for, at du lider af depression eller langvarig stress. Du bør overveje at søge hjælp hos din læge for at få det undersøgt.';
+        }
+
+        $("[name='who5_score']").val(score);
+        $("#result").text(text);
+    });
+    $("#calculator_phq9").submit(function(e) {
+        console.log("Calculate PHQ-9");
+        e.preventDefault();
+
+        let q1 = Number($("[name='question_1']:checked").val());
+        let q2 = Number($("[name='question_2']:checked").val());
+        let q3 = Number($("[name='question_3']:checked").val());
+        let q4 = Number($("[name='question_4']:checked").val());
+        let q5 = Number($("[name='question_5']:checked").val());
+        let q6 = Number($("[name='question_6']:checked").val());
+        let q7 = Number($("[name='question_7']:checked").val());
+        let q8 = Number($("[name='question_8']:checked").val());
+        let q9 = Number($("[name='question_9']:checked").val());
+        let score = q1 + q2 + q3 + q4 + q5 + q6 + q7 + q8 + q9;
+
+        let text;
+
+        if (score > 19) {
+            text = 'Din score på ' + score + ' viser, at du har svære symptomer på depression. Du skal søge professionel hjælp, så du kan komme til en specialist, der vil hjælpe dig med at igangsætte en øjeblikkelig behandling.';
+        } else if (score > 14) {
+            text = 'Din score på ' + score + ' viser, at du har moderate til svære symptomer på depression. Du skal søge professionel hjælp, som kan hjælpe med at få dig i behandling.';
+        } else if (score > 9) {
+            text = 'Din score på ' + score + ' viser at du har moderate symptomer på depression. Du bør søge professionel hjælp og lægge en plan.';
+        } else if (score > 4) {
+            text = 'Din score på ' + score + ' viser at du kan have milde symptomer på depression. Det er godt at følge op efter lidt tid med at besvare skemaet igen for at se, om symptomerne bliver værre.';        
+        } else {
+            text = 'Din score på ' + score + ' viser, at du ingen eller kun minimale depressive symptomer har.';
+        }
+
+        $("[name='phq9_score']").val(score);
+        $("#result").text(text);
+    });
     $("#calculator_excercise_addiction").submit(function(e) {
         console.log("Calculate Eating Disorder");
         e.preventDefault();
