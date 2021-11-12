@@ -818,7 +818,7 @@ $(document).ready(function() {
         let q3 = Number($("[name='question_3']:checked").val());
         let q4 = Number($("[name='question_4']:checked").val());
         let q5 = Number($("[name='question_5']:checked").val());
-        let score = q1 + q2 + q3 + q4 + q5;
+        let score = (q1 + q2 + q3 + q4 + q5) * 4;
 
         let text;
 
@@ -863,6 +863,43 @@ $(document).ready(function() {
         }
 
         $("[name='phq9_score']").val(score);
+        $("#result").text(text);
+    });
+    $("#calculator_stress").submit(function(e) {
+        console.log("Calculate Stress");
+        e.preventDefault();
+
+        let q1 = Number($("[name='question_1']:checked").val());
+        let q2 = Number($("[name='question_2']:checked").val());
+        let q3 = Number($("[name='question_3']:checked").val());
+        let q4 = Number($("[name='question_4']:checked").val());
+        let q5 = Number($("[name='question_5']:checked").val());
+        let q6 = Number($("[name='question_6']:checked").val());
+        let q7 = Number($("[name='question_7']:checked").val());
+        let q8 = Number($("[name='question_8']:checked").val());
+        let q9 = Number($("[name='question_9']:checked").val());
+        let q10 = Number($("[name='question_10']:checked").val());
+        let q11 = Number($("[name='question_11']:checked").val());
+        let q12 = Number($("[name='question_12']:checked").val());
+        let q13 = Number($("[name='question_13']:checked").val());
+        let q14 = Number($("[name='question_14']:checked").val());
+        let q15 = Number($("[name='question_15']:checked").val());
+        let q16 = Number($("[name='question_16']:checked").val());
+        let score = q1 + q2 + q3 + q4 + q5 + q6 + q7 + q8 + q9 + q10 + q11 + q12 + q13 + q14 + q15 + q16;
+
+        let text;
+
+        if (score > 50) {
+            text = 'Din score på ' + score + ' viser, at dit stressniveau er <strong>meget højt niveau</strong>. Dit stressniveau er meget højt. Du bør tage hånd om din situation straks og række ud efter hjælp, så du kan få det bedre.';
+        } else if (score > 36) {
+            text = 'Din score på ' + score + ' viser, at dit stressniveau er <strong>for højt niveau</strong>. Dit stressniveau er højt. Du har måske været belastet over en længere periode, hvor stressen gradvist er taget til. Du bør gøre noget ved din situation nu.';
+        } else if (score > 23) {
+            text = 'Din score på ' + score + ' viser, at dit stressniveau er på et <strong>mellem niveau<strong>. Dit stress-niveau er ikke alarmerende højt, men du er alligevel tilpas stresset til, at du bør se på, hvad der kan ændres i dit liv.';
+        } else {
+            text = 'Din score på ' + score + ' viser, at dit stressniveau er på et <strong>afslappet niveau</strong>. Du er ikke stresset for tiden. Det er rigtig godt, men vær alligevel opmærksom på, om din tilstand ændrer sig.';
+        }
+
+        $("[name='stress_score']").val(score);
         $("#result").text(text);
     });
     $("#calculator_excercise_addiction").submit(function(e) {
