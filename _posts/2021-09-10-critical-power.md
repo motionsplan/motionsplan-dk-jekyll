@@ -123,7 +123,7 @@ Hvis du vil basere dine [træningszoner]({% link _posts/2021-09-01-traeningszone
 
 ## Stryd og træningszoner
 
-Stryd er en watt-måler, som du kan bruge til løb. Det er en lille *foot pod*, som kan måle hvor mange watt du løber med. Her er *critical power* en helt central måling, som træningszonerne planlægges ud fra.
+[Stryd](https://buy.stryd.com/store?referrer_id=c444f8a6-8d83-59d2-7060-6e7eddbaf413){: rel="sponsored nofollow noopener" } er en watt-måler, som du kan bruge til løb. Det er en lille *foot pod*, som kan måle hvor mange watt du løber med. Her er *critical power* en helt central måling, som træningszonerne planlægges ud fra.
 
 Zonerne er navngivet på samme måde som [Jack Daniels løbeberegner]({% link _posts/2020-08-01-jack-daniels-loebeberegner.md %}). De udregnes automatisk på i appen, og du kan have Stryd til automatisk at opdatere zonerne ud fra dine aktuelle træninger.
 

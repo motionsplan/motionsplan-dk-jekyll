@@ -39,9 +39,10 @@ feature_row_stryd:
     alt: "STRYD Wattmåler - Next Generation"
     title: "STRYD Wattmåler - Next Generation"
     excerpt: "STRYD – Wattmåler og nu med vindmåler STRYD er en af de mest nyttige og imponerende teknologiske løbegadgets, der er til rådighed på markedet"
-    url: "https://www.hechmannsport.dk/product-page/stryd-running-power-meter"
+    url: "https://buy.stryd.com/store?referrer_id=c444f8a6-8d83-59d2-7060-6e7eddbaf413"
     btn_label: "Se prisen"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 ---
 
 Rigtig mange vil gerne i gang med at løbe eller løbetræner for at blive en bedre løber. Hvordan kommer du i gang med løbetræningen, og hvordan laver du et godt løbeprogram, som motiverer dig og skaber resultater?

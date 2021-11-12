@@ -44,9 +44,10 @@ feature_row_stryd:
     alt: "STRYD Wattmåler - Next Generation"
     title: "STRYD Wattmåler - Next Generation"
     excerpt: "STRYD er en wattmåler til løberne. Du kan bruge wattmåleren til at arbejde med din løbeøkonomi og afprøve lidt forskellige teknikker for at se, hvordan din kraft og hastighed ændrer sig i forhold til, hvor hårdt arbejdet er."
-    url: "https://www.hechmannsport.dk/product-page/stryd-running-power-meter"
+    url: "https://buy.stryd.com/store?referrer_id=c444f8a6-8d83-59d2-7060-6e7eddbaf413"
     btn_label: "Se prisen"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 ---
 
 Hvis du gerne vil løbe hurtigere, kan det betale sig at forbedre din løbeøkonomi. Jeg har derfor researchet lidt på løbeøkonomi, præsenterer en definition, og dykker ned i hvilke faktorer der påvirker din løbeøkonomi.
