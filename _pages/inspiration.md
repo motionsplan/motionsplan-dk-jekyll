@@ -99,6 +99,14 @@ feature_row_running:
     btn_label: "Se prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
+  - image_path: https://static.wixstatic.com/media/3c82eb_70f1384f64584b009ccc002dbe0fe482~mv2.jpg/v1/fill/w_630,h_630,al_c,q_85,usm_0.66_1.00_0.01/3c82eb_70f1384f64584b009ccc002dbe0fe482~mv2.webp
+    alt: "STRYD Wattmåler - Next Generation"
+    title: "STRYD Wattmåler - Next Generation"
+    excerpt: "STRYD – Wattmåler og nu med vindmåler STRYD er en af de mest nyttige og imponerende teknologiske løbegadgets, der er til rådighed på markedet"
+    url: "https://buy.stryd.com/store?referrer_id=c444f8a6-8d83-59d2-7060-6e7eddbaf413"
+    btn_label: "Se prisen"
+    btn_class: "btn--success"
+    rel: sponsored nofollow noopener
   - image_path: https://www.mediasupply.dk/wp-content/uploads/2019/11/088d227c-d03a-42b5-8ae6-3ecfaab4c69d.jpg
     alt: "Bose Spoundsport Free"
     title: "Bose Spoundsport Free"
