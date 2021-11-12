@@ -87,6 +87,16 @@ Jo højere scoren er i spørgeskemaet, jo flere tegn og depressive symptomer er 
 
 ## Hvilke tegn er der på at være deprimeret?
 
+- Lille interesse i eller glæde ved at gøre ting
+- Følt dig nedtrykt, håbløs eller været deprimeret
+- Problemer med at falde i søvn eller sove, eller med at sove for meget
+- Følt dig træt eller har kun haft lidt energi
+- Ringe appetit eller spist for meget
+- Haft det dårligt med dig selv – eller følt, at du er en fiasko eller har skuffet dig selv eller din familie
+- Problemer med at koncentrere dig om ting, såsom at læse avisen eller se TV
+- Har bevæget dig eller talt så langsomt, at andre kunne have bemærket det? Eller det modsatte – været så rastløs eller hvileløs, at du har bevæget dig mere omkring end sædvanligt
+- Tanker om, at det ville være bedre, hvis du var død eller om at gøre skade på dig selv på en eller anden måde
+
 ## Hvor godt et redskab er spørgeskemaet?
 
 Flere studier har vist, at PHQ-9 er et validt og reliabelt spørgeskema til at afdække depression og symptomerne på at være deprimeret. Spørgeskemaet kan også bruges til at måle ændringer over tid - altså om man får det bedre eller værre i forhold til symptomer på depression.
