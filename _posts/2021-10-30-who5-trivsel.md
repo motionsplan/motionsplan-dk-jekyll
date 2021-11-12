@@ -8,9 +8,12 @@ header:
   teaser: https://images.unsplash.com/photo-1499209974431-9dddcece7f88?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
   caption: *title
 category:
-  - Træning
+  - Krop & Sundhed
 tags:
-  - træning
+  - depression
+  - stress
+  - psykologi
+  - test
 last_modified_at: 2021-10-14T08:14:14Z
 toc: true
 #faq:

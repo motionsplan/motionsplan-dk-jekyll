@@ -8,9 +8,11 @@ header:
   teaser: https://images.unsplash.com/photo-1620302044674-2b39db73b8db?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
   caption: *title
 category:
-  - Kondition
+  - Krop & Sundhed
 tags:
   - spiseforstyrrelse
+  - psykologi
+  - test
 last_modified_at: 2021-10-14T08:14:14Z
 toc: true
 feature_row:
