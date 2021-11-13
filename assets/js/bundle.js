@@ -1354,7 +1354,7 @@ $(document).ready(function() {
             text = 'Din score på ' + score + ' viser, at dit stressniveau er på et <strong>afslappet niveau</strong>. Du er ikke stresset for tiden. Det er rigtig godt, men vær alligevel opmærksom på, om din tilstand ændrer sig.';
         }
         */
-        $("[name='frequency_score']").val(freqency);
+        $("[name='frequency_score']").val(frequency);
         $("[name='believe_score']").val(believe);
         $("[name='pmdc_score']").val(pmdc);
         $("[name='nsne_score']").val(nsne);
