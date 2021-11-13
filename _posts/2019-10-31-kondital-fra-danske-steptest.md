@@ -30,7 +30,7 @@ Forhøjningen i Den Danske Steptest er på 20-35 cm og sættes i forhold til fol
 
 Når testen er færdig får man en estimeret VO<sub>2</sub>-max, sit kondital (den maksimale iltoptagelse i forhold til ens kropsvægt) og [MET-værdien]({% link _posts/2020-07-24-met.md %}) (som er et mål for hvor meget arbejde, du har lavet).
 
-Den Danske Steptest er bl.a. udviklet af Morten Zacho. Du kan også finde [steptesten på engelsk](https://www.health-calc.com/fitness-tests/the-danish-step-test).
+Den Danske Steptest er udviklet af bl.a. Morten Zacho. Du kan også finde [steptesten på engelsk](https://www.health-calc.com/fitness-tests/the-danish-step-test).
 
 [Tag Den Danske Steptest på exercise.dk](https://exercise.dk/kondition/43-den-danske-steptest){: .btn .btn--large .btn--info }
 

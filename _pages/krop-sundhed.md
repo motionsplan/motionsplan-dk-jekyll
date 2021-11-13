@@ -75,3 +75,17 @@ Vægttab fylder rigtig meget, når man taler om krop, træning og sundhed. Der f
 {% endif %}
 
 </div>
+
+## Psykologiske tests
+
+{% assign site_posts = site.posts | where: "tags", "psykologi" | where: "tags", "test" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>

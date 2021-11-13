@@ -127,6 +127,20 @@ Det er populært at test sig selv på cykel. Nogle af fordelene er, at det er re
 
 </div>
 
+## Psykologiske tests
+
+{% assign site_posts = site.posts | where: "tags", "psykologi" | where: "tags", "test" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
 ## De mest populære beregnere og tests
 
 {% assign site_posts = site.posts | where: "tags", "beregner" | where: "tags", "featured" | sort: "date" %}

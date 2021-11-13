@@ -1174,6 +1174,194 @@ $(document).ready(function() {
 
         $("[name='adult_height']").val(f.getHeight().toFixed(0));
     });
+    $("#calculator_who5").submit(function(e) {
+        console.log("Calculate Eating Disorder");
+        e.preventDefault();
+
+        let q1 = Number($("[name='question_1']:checked").val());
+        let q2 = Number($("[name='question_2']:checked").val());
+        let q3 = Number($("[name='question_3']:checked").val());
+        let q4 = Number($("[name='question_4']:checked").val());
+        let q5 = Number($("[name='question_5']:checked").val());
+        let score = (q1 + q2 + q3 + q4 + q5) * 4;
+
+        let text;
+
+        if (score > 49) {
+            text = 'Din score på ' + score + ' ligger her inden for gennemsnittet for resten af befolkningen som er 68 med en nedre grænse omkring 50.';
+        } else if (score > 35) {
+            text = 'Din score på ' + score + ' ligger lavere end gennemsnittet for resten af befolkningen. Resultatet tyder på, at du nok ikke har det helt godt. Vær opmærksom på, om du får det bedre eller værre og søg evt. læge, hvis du får det værre.';
+        } else {
+            text = 'Din score på ' + score + ' ligger væsentligt lavere end gennemsnittet for resten af befolkningen. Resultatet tyder på, at du ikke er på toppen, og der kan være en reel risiko for, at du lider af depression eller langvarig stress. Du bør overveje at søge hjælp hos din læge for at få det undersøgt.';
+        }
+
+        $("[name='who5_score']").val(score);
+        $("#result").text(text);
+    });
+    $("#calculator_phq9").submit(function(e) {
+        console.log("Calculate PHQ-9");
+        e.preventDefault();
+
+        let q1 = Number($("[name='question_1']:checked").val());
+        let q2 = Number($("[name='question_2']:checked").val());
+        let q3 = Number($("[name='question_3']:checked").val());
+        let q4 = Number($("[name='question_4']:checked").val());
+        let q5 = Number($("[name='question_5']:checked").val());
+        let q6 = Number($("[name='question_6']:checked").val());
+        let q7 = Number($("[name='question_7']:checked").val());
+        let q8 = Number($("[name='question_8']:checked").val());
+        let q9 = Number($("[name='question_9']:checked").val());
+        let score = q1 + q2 + q3 + q4 + q5 + q6 + q7 + q8 + q9;
+
+        let text;
+
+        if (score > 19) {
+            text = 'Din score på ' + score + ' viser, at du har svære symptomer på depression. Du skal søge professionel hjælp, så du kan komme til en specialist, der vil hjælpe dig med at igangsætte en øjeblikkelig behandling.';
+        } else if (score > 14) {
+            text = 'Din score på ' + score + ' viser, at du har moderate til svære symptomer på depression. Du skal søge professionel hjælp, som kan hjælpe med at få dig i behandling.';
+        } else if (score > 9) {
+            text = 'Din score på ' + score + ' viser at du har moderate symptomer på depression. Du bør søge professionel hjælp og lægge en plan.';
+        } else if (score > 4) {
+            text = 'Din score på ' + score + ' viser at du kan have milde symptomer på depression. Det er godt at følge op efter lidt tid med at besvare skemaet igen for at se, om symptomerne bliver værre.';        
+        } else {
+            text = 'Din score på ' + score + ' viser, at du ingen eller kun minimale depressive symptomer har.';
+        }
+
+        $("[name='phq9_score']").val(score);
+        $("#result").text(text);
+    });
+    $("#calculator_stress").submit(function(e) {
+        console.log("Calculate Stress");
+        e.preventDefault();
+
+        let q1 = Number($("[name='question_1']:checked").val());
+        let q2 = Number($("[name='question_2']:checked").val());
+        let q3 = Number($("[name='question_3']:checked").val());
+        let q4 = Number($("[name='question_4']:checked").val());
+        let q5 = Number($("[name='question_5']:checked").val());
+        let q6 = Number($("[name='question_6']:checked").val());
+        let q7 = Number($("[name='question_7']:checked").val());
+        let q8 = Number($("[name='question_8']:checked").val());
+        let q9 = Number($("[name='question_9']:checked").val());
+        let q10 = Number($("[name='question_10']:checked").val());
+        let q11 = Number($("[name='question_11']:checked").val());
+        let q12 = Number($("[name='question_12']:checked").val());
+        let q13 = Number($("[name='question_13']:checked").val());
+        let q14 = Number($("[name='question_14']:checked").val());
+        let q15 = Number($("[name='question_15']:checked").val());
+        let q16 = Number($("[name='question_16']:checked").val());
+        let score = q1 + q2 + q3 + q4 + q5 + q6 + q7 + q8 + q9 + q10 + q11 + q12 + q13 + q14 + q15 + q16;
+
+        let text;
+
+        if (score > 50) {
+            text = 'Din score på ' + score + ' viser, at dit stressniveau er <strong>meget højt niveau</strong>. Dit stressniveau er meget højt. Du bør tage hånd om din situation straks og række ud efter hjælp, så du kan få det bedre.';
+        } else if (score > 36) {
+            text = 'Din score på ' + score + ' viser, at dit stressniveau er <strong>for højt niveau</strong>. Dit stressniveau er højt. Du har måske været belastet over en længere periode, hvor stressen gradvist er taget til. Du bør gøre noget ved din situation nu.';
+        } else if (score > 23) {
+            text = 'Din score på ' + score + ' viser, at dit stressniveau er på et <strong>mellem niveau<strong>. Dit stress-niveau er ikke alarmerende højt, men du er alligevel tilpas stresset til, at du bør se på, hvad der kan ændres i dit liv.';
+        } else {
+            text = 'Din score på ' + score + ' viser, at dit stressniveau er på et <strong>afslappet niveau</strong>. Du er ikke stresset for tiden. Det er rigtig godt, men vær alligevel opmærksom på, om din tilstand ændrer sig.';
+        }
+
+        $("[name='stress_score']").val(score);
+        $("#result").text(text);
+    });
+    $("#calculator_atq").submit(function(e) {
+        console.log("Calculate ATQ");
+        e.preventDefault();
+
+        let q1 = Number($("[name='frequency_1']:checked").val());
+        let q2 = Number($("[name='frequency_2']:checked").val());
+        let q3 = Number($("[name='frequency_3']:checked").val());
+        let q4 = Number($("[name='frequency_4']:checked").val());
+        let q5 = Number($("[name='frequency_5']:checked").val());
+        let q6 = Number($("[name='frequency_6']:checked").val());
+        let q7 = Number($("[name='frequency_7']:checked").val());
+        let q8 = Number($("[name='frequency_8']:checked").val());
+        let q9 = Number($("[name='frequency_9']:checked").val());
+        let q10 = Number($("[name='frequency_10']:checked").val());
+        let q11 = Number($("[name='frequency_11']:checked").val());
+        let q12 = Number($("[name='frequency_12']:checked").val());
+        let q13 = Number($("[name='frequency_13']:checked").val());
+        let q14 = Number($("[name='frequency_14']:checked").val());
+        let q15 = Number($("[name='frequency_15']:checked").val());
+        let q16 = Number($("[name='frequency_16']:checked").val());
+        let q17 = Number($("[name='frequency_17']:checked").val());
+        let q18 = Number($("[name='frequency_18']:checked").val());
+        let q19 = Number($("[name='frequency_19']:checked").val());
+        let q20 = Number($("[name='frequency_20']:checked").val());
+        let q21 = Number($("[name='frequency_21']:checked").val());
+        let q22 = Number($("[name='frequency_22']:checked").val());
+        let q23 = Number($("[name='frequency_23']:checked").val());
+        let q24 = Number($("[name='frequency_24']:checked").val());
+        let q25 = Number($("[name='frequency_25']:checked").val());
+        let q26 = Number($("[name='frequency_26']:checked").val());
+        let q27 = Number($("[name='frequency_27']:checked").val());
+        let q28 = Number($("[name='frequency_28']:checked").val());
+        let q29 = Number($("[name='frequency_29']:checked").val());
+        let q30 = Number($("[name='frequency_30']:checked").val());
+        let frequency = q1 + q2 + q3 + q4 + q5 + q6 + q7 + q8 + q9 + q10 + q11 + q12 + q13 + q14 + q15 + q16 + q17 + q18 + q19 + q20 + q21 + q22 + q23 + q24 + q25 + q26 + q27 + q28 + q29 + q30;
+
+        let b1 = Number($("[name='believe_1']:checked").val());
+        let b2 = Number($("[name='believe_2']:checked").val());
+        let b3 = Number($("[name='believe_3']:checked").val());
+        let b4 = Number($("[name='believe_4']:checked").val());
+        let b5 = Number($("[name='believe_5']:checked").val());
+        let b6 = Number($("[name='believe_6']:checked").val());
+        let b7 = Number($("[name='believe_7']:checked").val());
+        let b8 = Number($("[name='believe_8']:checked").val());
+        let b9 = Number($("[name='believe_9']:checked").val());
+        let b10 = Number($("[name='believe_10']:checked").val());
+        let b11 = Number($("[name='believe_11']:checked").val());
+        let b12 = Number($("[name='believe_12']:checked").val());
+        let b13 = Number($("[name='believe_13']:checked").val());
+        let b14 = Number($("[name='believe_14']:checked").val());
+        let b15 = Number($("[name='believe_15']:checked").val());
+        let b16 = Number($("[name='believe_16']:checked").val());
+        let b17 = Number($("[name='believe_17']:checked").val());
+        let b18 = Number($("[name='believe_18']:checked").val());
+        let b19 = Number($("[name='believe_19']:checked").val());
+        let b20 = Number($("[name='believe_20']:checked").val());
+        let b21 = Number($("[name='believe_21']:checked").val());
+        let b22 = Number($("[name='believe_22']:checked").val());
+        let b23 = Number($("[name='believe_23']:checked").val());
+        let b24 = Number($("[name='believe_24']:checked").val());
+        let b25 = Number($("[name='believe_25']:checked").val());
+        let b26 = Number($("[name='believe_26']:checked").val());
+        let b27 = Number($("[name='believe_27']:checked").val());
+        let b28 = Number($("[name='believe_28']:checked").val());
+        let b29 = Number($("[name='believe_29']:checked").val());
+        let b30 = Number($("[name='believe_30']:checked").val());
+
+        let believe = b1 + b2 + b3 + b4 + b5 + b6 + b7 + b8 + b9 + b10 + b11 + b12 + b13 + b14 + b15 + b16 + b17 + b18 + b19 + b20 + b21 + b22 + b23 + b24 + b25 + b26 + b27 + b28 + b29 + b30;
+
+        let text;
+
+        let pmdc = q7 + q10 + q14 + q20 + q26;
+        let nsne = q2 + q3 + q9 + q21 + q23 + q24 + q28;
+        let lse = q17 + q18;
+        let helplessness = q29 + q30;
+
+        /*
+        if (score > 50) {
+            text = 'Din score på ' + score + ' viser, at dit stressniveau er <strong>meget højt niveau</strong>. Dit stressniveau er meget højt. Du bør tage hånd om din situation straks og række ud efter hjælp, så du kan få det bedre.';
+        } else if (score > 36) {
+            text = 'Din score på ' + score + ' viser, at dit stressniveau er <strong>for højt niveau</strong>. Dit stressniveau er højt. Du har måske været belastet over en længere periode, hvor stressen gradvist er taget til. Du bør gøre noget ved din situation nu.';
+        } else if (score > 23) {
+            text = 'Din score på ' + score + ' viser, at dit stressniveau er på et <strong>mellem niveau<strong>. Dit stress-niveau er ikke alarmerende højt, men du er alligevel tilpas stresset til, at du bør se på, hvad der kan ændres i dit liv.';
+        } else {
+            text = 'Din score på ' + score + ' viser, at dit stressniveau er på et <strong>afslappet niveau</strong>. Du er ikke stresset for tiden. Det er rigtig godt, men vær alligevel opmærksom på, om din tilstand ændrer sig.';
+        }
+        */
+        $("[name='frequency_score']").val(frequency);
+        $("[name='believe_score']").val(believe);
+        $("[name='pmdc_score']").val(pmdc);
+        $("[name='nsne_score']").val(nsne);
+        $("[name='lse_score']").val(lse);
+        $("[name='helplessness_score']").val(helplessness);
+        $("#result").text(text);
+    });
     $("#calculator_excercise_addiction").submit(function(e) {
         console.log("Calculate Eating Disorder");
         e.preventDefault();
@@ -1216,11 +1404,11 @@ $(document).ready(function() {
         let text;
 
         if (disorder > 1) {
-            text = 'Du har svaret ja på flere end et af de fire første spørgsmål. Det kan tyde på en grad af forstyrret spisning.';
+            text = 'Du har svaret ja på ' + disorder + ' af de fire første spørgsmål. Du er i risikogruppen for at have en spiseforstyrrelse og bør søge hjælp. Yderligere udredning er nødvendig for at vurdere, om der er tale om en spiseforstyrrelse.';
         } else if (disorder > 0) {
-            text = 'Du har svaret ja på et af de fire første spørgsmål. Det kan tyde på en grad af forstyrret spisning.';
+            text = 'Du har svaret ja på et af de fire første spørgsmål. At svare ja på et af spørgsmålene er formentlig ikke alvorligt, men det kan være tegn på et forstyrret spisemønster.';
         } else if (no_disorder == 0) {
-            text = 'Du har svaret benægtende på de to sidste spørgsmål. Det tyder på, at du ikke har forstyrret spisning.';
+            text = 'Dine svar tyder på, at du ikke har et forstyrret spisemønster.';
         } else {
             text = 'Det var ikke muligt at konkludere noget på baggrund af dine svar. De første fire spørgsmål har en sammenhæng med det at have en spiseforstyrrelse. De sidste to spørgsmål kan afdække om du er uden for risikogruppen.';
         }
