@@ -150,7 +150,7 @@ Jeg synes selv det er spændende at dykke lidt ned i de forskellige modeller, de
  
 Du kan altså ikke bruge din vægt som indikator for, om din træning hjælper. Din vægt vil svinge op og ned flere gange om dagen.
 
-Der er mange årsager til, at vægten kan stige når du begynder at træne. Hård træning skaber en en tilstand i kroppen med hævelse, fordi kroppen genopbygger. Hvis du tager kreativ binder det også vand. Dit hormonspejl ændrer sig lidt. Hvis du er stresset, kan din vægt stige lidt.
+Der er mange årsager til, at vægten kan stige når du begynder at træne. Hård træning skaber en en tilstand i kroppen med hævelse, fordi kroppen genopbygger. Hvis du tager kreativ binder det også vand. Dit hormonspejl ændrer sig lidt. [Hvis du er stresset]({% link _posts/2021-11-10-stress.md %}), kan din vægt stige lidt.
 
 Du slipper aldrig af med pludselige vægtændringer.
 

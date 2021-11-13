@@ -204,7 +204,7 @@ Casper Jespersen, personlig træner, kalder [Probiotika for det oversete kosttil
 
 Probiotika består af tarmbakterier. De er afgørende for vores fysiske og mentale helbred.
 
-Et velfungerende miljø i tarmene kan være med til at modvirke: Kronisk træthed, depression, hovedpine, dårligt immunforsvar, søvnproblemer, IBS (Irriteret tarm), ledsmerter og kronisk inflammation. Så hvis du døjer med nogle af disse ting i din hverdag, så kan du overveje at tage Probiotika.
+Et velfungerende miljø i tarmene kan være med til at modvirke: Kronisk træthed, [depression]({% link _posts/2021-11-10-phq-9-depression.md %}), hovedpine, dårligt immunforsvar, søvnproblemer, IBS (Irriteret tarm), ledsmerter og kronisk inflammation. Så hvis du døjer med nogle af disse ting i din hverdag, så kan du overveje at tage Probiotika.
 
 Bakteriebalancen i tarmen kan forskubbes gennem dårlig kost, fysisk inaktivitet eller vedvarende stress.
 

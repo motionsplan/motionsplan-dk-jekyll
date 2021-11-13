@@ -73,7 +73,7 @@ Det kan være en god ide at lave en screening for [træningsafhængighed](/traen
 
 Hverdagen kommer til at bestemme, hvor sandsynligt det er, at man kan gennemføre et træningsprogram. Træningsprogrammet skal passe ind i hverdagen - ikke omvendt.
 
-Hvor meget tid bruges på skole eller arbejde? Oplever du et højt stress i hverdagen?
+Hvor meget tid bruges på skole eller arbejde? [Oplever du et højt stress i hverdagen?]({% link _posts/2021-11-10-stress.md %})
 
 Hvordan er dit aktivitetsniveau til daglig? Har du et stillesiddende job eller er du fysisk aktiv?
 

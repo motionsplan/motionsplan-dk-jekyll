@@ -96,7 +96,7 @@ Når du har skimmet indholdsfortegnelsen til Beermanns Stærk, så får du forme
    - Kosten er dit brændstof
    - Søvn
    - Alkohol
-   - Stress
+   - [Stress]({% link _posts/2021-11-10-stress.md %})
    - Bogens slutning er din start
 7. Træningsprogram
 

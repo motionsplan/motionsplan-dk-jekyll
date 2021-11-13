@@ -309,7 +309,7 @@ De 5 tibetanere påstås allerede efter et par ugers træning at have følgende 
 - Sænke aldringsprocessen ved at dreje dit biologiske ur tilbage
 - Øge dit energiniveau
 - Forbedre din mentale klarhed og skærpe fokus
-- Mindske stressniveauet og berolige dit sind
+- Mindske [stressniveauet]({% link _posts/2021-11-10-stress.md %}) og berolige dit sind
 - Tabe dig og stramme op
 - Forbedre din styrke og bevægelighed
 - Forbedre din søvn, så du vågner fyldt med energi

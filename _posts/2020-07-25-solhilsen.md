@@ -227,7 +227,7 @@ Tjek videoen ovenover for at se nøjagigt, hvordan du laver solhilsen B.
 3. Sekvensen siges at vække energien fra den indre sol, der ligger dvalende i vores navlecenter. Det opvarmer kroppen og dyrker indre ild. Samtidig siges øvelserne at fordele _prana_-energistrømmen gennem hele systemet.
 4. Solhilsen genopliver blodet og skaber bevægelse.
 5. Solhilsen er med til at aktivere og afbalancere _de syv chakraer_.
-6. Solhilsen skaber fordybelse i bevægelserne, hvilket kan være med til at reducere depression, angst og stress, mens du bygger mental fokus, koncentration og dyb vejrtrækning.
+6. Solhilsen skaber fordybelse i bevægelserne, hvilket kan være med til at reducere [depression]({% link _posts/2021-11-10-phq-9-depression.md %}), angst og [stress]({% link _posts/2021-11-10-stress.md %}), mens du bygger mental fokus, koncentration og dyb vejrtrækning.
 7. Solhilsen forbinder bevægelse med åndedræt – _vinyasa_. Vi oplever hvordan kroppen åbner sig og lukker sig, og hvordan åndedrættet kan være med til at undersøtte disse bevægelser.
 8. Vi kan opleve hengivenhed, når vi er fuldt opmærksomme og åbner os op for energien og respektfuldt er ydmyge over for den ro bevægelserne kan være med til at give.
 

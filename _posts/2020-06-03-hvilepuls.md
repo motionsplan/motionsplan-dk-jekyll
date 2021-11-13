@@ -71,7 +71,7 @@ Hvis du vil læse om flere [tilpasninger ved konditionstræning, så kan du læs
 
 Hvilepulsen ligger typisk i intervallet fra 40 og 100 hos almindelige raske personer. Ekstremt veltrænede udholdenhedsatleter kan have en hvilepuls helt nede omkring 30.
 
-Hvilepulsen varierer meget fra person til person. Hvilepulsen er påvirket af mange faktorer som fx alder, køn, sygdom og stress, og den er også følsom over visse typer medicin.
+Hvilepulsen varierer meget fra person til person. Hvilepulsen er påvirket af mange faktorer som fx alder, køn, sygdom og [stress]({% link _posts/2021-11-10-stress.md %}), og den er også følsom over visse typer medicin.
 
 Hvis vi kigger på raske mennesker, så kan det være et mål med sin træning at sænke sin hvilepuls ved at lave passende udholdenhedstrænng for kredsløbet. Hjertet skal ganske enkelt arbejde mindre. Desuden er der en masse afledte sundhedsmæssige konsekvenser af pulstræningen.
 

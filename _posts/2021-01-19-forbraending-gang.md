@@ -220,7 +220,7 @@ Du kan dog godt regne ud, hvor meget du helt præcist forbrænder.Du kan nemt ud
 * Du får enhøj kalorieforbrænding (se længere nede, hvor meget du faktisk forbrænder ved at gå en tur)
 * Det er sundt for både dit fysiske og dit psykiske helbred
 * Du bliver i godt humør
-* Du bliver mindre stresset
+* Du bliver [mindre stresset]({% link _posts/2021-11-10-stress.md %})
 * Du kommer i form
 * Det er nemt, og det kan gøres alle vegne!
 
