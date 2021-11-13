@@ -58,7 +58,7 @@ Svar på de fem udsagn i forhold til, hvordan du har følt dig de **seneste to u
 
 ## Mere om spørgeskmaet om trivsel
 
-WHO-5 tager temperaturen på din trivsel. Hvis du scorer lavt i spørgeskemaet, så kan det være en indikation på, at du har brug for støtte eller behandling. Du kan også prøve den internationalt anerkendte [PHQ-9 test af depression]({% link _posts/2021-10-30-phq-9-depression.md %}).
+WHO-5 tager temperaturen på din trivsel. Hvis du scorer lavt i spørgeskemaet, så kan det være en indikation på, at du har brug for støtte eller behandling. Du kan også prøve den internationalt anerkendte [PHQ-9 test af depression]({% link _posts/2021-11-10-phq-9-depression.md %}).
 
 WHO-5 er udviklet af professor Per Bech for WHO, men kan frit anvendes til måling af trivsel. Hvis du er i tvivl om resultatet, så bør du altid få hjælp af en lægefaglig person til at vurdere dit resultat.
 
@@ -70,7 +70,7 @@ Da testen spørger om din oplevelse de seneste 14 dage, så kan du fx teste dig 
 
 Onlineskemaet lægger automatiske dine svar sammen. Hver valgmulighed har forskellige point tilknyttet sig. Tallene lægges sammen, og derefter ganges tallet med 4. Det betyder, at du har et tal mellem 0 og 100 i trivsel. Jo flere point du har, jo højere trivsel.
 
-Hvis dit tal er under 50, så kan der være risiko for en depression, eller du kan måske være udsat for en stressbelastning. Du kan tjekke vores anden [test for stress]({% link _posts/2021-10-30-stress.md %}) eller [vores depressionstest]({% link _posts/2021-10-30-phq-9-depression.md %}).
+Hvis dit tal er under 50, så kan der være risiko for en depression, eller du kan måske være udsat for en stressbelastning. Du kan tjekke vores anden [test for stress]({% link _posts/2021-11-10-stress.md %}) eller [vores depressionstest]({% link _posts/2021-11-10-phq-9-depression.md %}).
 
 ## Tolkning af resultater
 
