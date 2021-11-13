@@ -1,4 +1,5 @@
 ---
+layout: single-refactor
 last_modified_at: 2021-01-28T23:14:14.000Z
 toc: true
 author: lsolesen
@@ -16,7 +17,9 @@ tags:
   - morgenrutine
 ---
 
-Kender du det, når man har svært ved at finde energien og overskuddet frem tidligt om morgenen? Det er der mange, som oplever, og det gælder især personer, som drømmer om at blive morgenmennesker. Men faktisk behøver det ikke at være afgørende, om du er A- eller B-menneske. En god [morgenrutine](https://www.chrichri.dk/lifebeyond/lifestyle/2017/03/se-hvordan-en-god-morgenrutine-kan-paavirke-din-dag-2/) kan nemlig hjælpe dig godt på vej.
+Kender du det, når man har svært ved at finde energien og overskuddet frem tidligt om morgenen? Det er der mange, som oplever, og det gælder især personer, som drømmer om at blive morgenmennesker. Men faktisk behøver det ikke at være afgørende, om du er A- eller B-menneske.
+
+En god [morgenrutine](https://www.chrichri.dk/lifebeyond/lifestyle/2017/03/se-hvordan-en-god-morgenrutine-kan-paavirke-din-dag-2/) kan nemlig hjælpe dig godt på vej.
 
 Jeg har samlet fem tips til en god morgenrutine:
 
@@ -25,8 +28,6 @@ Jeg har samlet fem tips til en god morgenrutine:
 3. Gør morgentræning til en del af din morgenrutine
 4. Få hjælp af en personlig træner
 5. Drop de negative tanker
-
-{% include figure image_path=page.header.overlay_image caption=page.title alt="morgenrutine" %}
 
 ## 1. Det handler om at skulle tage færre beslutninger
 
@@ -42,7 +43,7 @@ Med hensyn til morgenmaden kan du følge en lækker opskrift med havregrød, som
 
 Ønsker du at begynde dagen med en lækker, nem havregrød med proteiner? Så deler vi i dag en god opskrift til at starte dagen med. Her nævnes der blandt andet, at du skal bruge 50 gram havregryn. Hvis du vælger at bestille 1-2 kg. havregryn fra de største sportsernæringsfirmaer leveres pakkerne ofte med et målebæger.
 
-### Opskrift til 1 portion:
+##### Opskrift til 1 portion
 
 - 50 gram havregryn
 - 1,5 dl vand (kan erstattes med mælk)
