@@ -1,5 +1,5 @@
 {% if page.header.overlay_image %}
-<link rel="preload" as="image" href="{{ page.header.overlay_image | relative_url }}" />
+<link rel="preload" as="image" href="{{ page.header.overlay_image | relative_url }}" crossorigin />
 {% endif %}
 
 {% if jekyll.environment == 'production' AND site.ads == 'true' %}
