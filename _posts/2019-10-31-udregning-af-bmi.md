@@ -280,7 +280,7 @@ Drop BMI og overvægt som indikator for, om din krop er sund eller ej. Måleenhe
 >
 > Ernæringsekspert Martin Kreutzer er enig i, at BMI ikke er meget værd. I stedet mener han, at man skal have fat i sit målebånd.
 >
-> - Jeg vil klart anbefale, at man i stedet bruger sit taljemål som indikator for ens sundhed. Ligger det over 88 cm for kvinder og 102 cm for mænd, så indikerer det en helbredsskadelig fedtophobning i maveregionen, hvilket øger risikoen for sygdomsfremkaldende inflammation i kroppen, siger Martin Kreutzer.
+> > Jeg vil klart anbefale, at man i stedet bruger sit taljemål som indikator for ens sundhed. Ligger det over 88 cm for kvinder og 102 cm for mænd, så indikerer det en helbredsskadelig fedtophobning i maveregionen, hvilket øger risikoen for sygdomsfremkaldende inflammation i kroppen, siger Martin Kreutzer.
 
 --- <cite>[iform.dk](https://iform.dk/sundhed/forebyggelse/bmi-siger-intet-om-din-sundhed)</cite>
 
