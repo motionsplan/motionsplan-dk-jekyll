@@ -1,3 +1,7 @@
+{% if page.header.overlay_image %}
+<link rel="preload" as="image" href="{{ page.header.overlay_image }}" />
+{% endif %}
+
 {% if jekyll.environment == 'production' AND site.ads == 'true' %}
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
