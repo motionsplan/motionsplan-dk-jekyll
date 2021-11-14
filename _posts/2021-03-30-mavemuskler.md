@@ -1,14 +1,14 @@
 ---
-title: &title "Mavemuskler: Liste og øvelser til muskler i arme"
+title: &title "Mavemuskler: Liste og øvelser til muskler i mave"
 seo_title: "Mavemuskler: Læs alt om mavemuskler her"
-description: "Komplet liste over muskler i dinn mave. Du kan læse om mavemusklerne og deres funktion - og du får gode råd til, hvordan du træner dine mavemuskler fuldstændigt."
+description: "Komplet liste over muskler i din mave. Du kan læse om mavemusklerne og deres funktion - og du får gode råd til, hvordan du træner dine mavemuskler fuldstændigt."
 permalink: /muskler/mave/
 redirect_from:
   - /mavemuskler/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1598268030450-7a476f602bf6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1902&q=80
-  teaser: https://images.unsplash.com/photo-1598268030450-7a476f602bf6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80
+  teaser: https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
   caption: *title
 category:
   - Anatomi
@@ -38,7 +38,7 @@ Jeg har samlet musklerne i armene på en liste med lidt flere informationer heru
 
 {% endcomment %}
 
-## Liste over muskler i dine arme
+## Liste over muskler i din mave
 
 {% assign muscles = site.anatomy | where: "group", "Mave" %}
 {%- for m in muscles -%}
