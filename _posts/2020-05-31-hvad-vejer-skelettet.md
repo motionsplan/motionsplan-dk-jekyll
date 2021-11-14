@@ -42,6 +42,21 @@ feature_row:
     btn_label: "Se prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
+faq:
+  - question: Hvor mange knogler har et menneske?
+    answer: |
+      Menneskekroppen har som voksen i alt 206 knogler. Knoglerne er bundet sammen til skelettet via [led og forskellige ledtyper](/led/). Alle mennesker har flere forskellige [knogletyper](/knogler/).
+
+      Jeg har skrevet et andet indlæg, hvor du kan få uddybet svaret til '[Hvor mange knogler har mennesket?](/hvor-mange-knogler-har-mennesket/)', hvor du også får svaret på, hvor mange knogler en baby har?
+  - question: Vejer en babys knogler mindre end en voksen?
+    answer: |
+      Babyer er født med 300 knogler, som hovedsageligt er lavet af brusk, men nogle af knoglerne vokser efterhånden sammen.
+      
+      Spørgsmålet er, om de blødere bruskholdige knogler vejer mere eller mindre end de stivere, forbenede voksenknogler. Hvis du ved det, så skriv endelig.
+  - question: Hvad er den mindste og letteste knogle i kroppen?
+    answer: Den mindste knogle i menneskekroppen er _os stapes_. Os stapes kaldes også 'stigbøjlen', og den befinder sig i øret. Os stapes er vigtig for transduktion af svingninger i luft til svingninger i væsken i vores indre øre, så vi kan høre noget.
+  - question: Hvad er den største og tungeste knogle i kroppen?
+    answer: "Den længste og tungeste knogle i menneskekroppen er lårbensknoglen, som i en voksen mand på omkring 80 kg vejer omkring 1 kg."
 ---
 
 Jeg får ofte spørgsmålet om, hvad knoglerne og skelettet vejer, når jeg underviser i anatomi. Jeg har derfor researchet lidt på, hvor meget skelettet og knoglerne vejer?
@@ -87,29 +102,11 @@ Knoglernes densitet har intet at gøre med knoglernes omkreds.
 | Muskel | 1,050 g / cm<sup>3</sup> | 1,06 kg       |
 | Vand | 1,000 g / cm<sup>3</sup> | 1,00 kg       |
 
-## Hvor mange knogler har et menneske?
-
-Menneskekroppen har som voksen i alt 206 knogler. Knoglerne er bundet sammen til skelettet via [led og forskellige ledtyper]({% link _pages/anatomy/joints.md %}). Alle mennesker har flere forskellige [knogletyper]({% link _pages/anatomy/bones.md %}).
-
-Jeg har skrevet et andet indlæg, hvor du kan få uddybet svaret til "[Hvor mange knogler har mennesket?]({% link _posts/2020-05-31-hvor-mange-knogler-har-mennesket.md %})", hvor du også får svaret på, hvor mange knogler en baby har?
-
-## Vejer en babys knogler mindre?
-
-Babyer er født med 300 knogler, som hovedsageligt er lavet af brusk, men nogle af knoglerne vokser efterhånden sammen.
-
-Spørgsmålet er, om de blødere bruskholdige knogler vejer mere eller mindre end de stivere, forbenede voksenknogler.
-
-## Hvad er den mindste og letteste knogle i kroppen?
-
-Den mindste knogle i menneskekroppen er _os stapes_. Os stapes kaldes også "stigbøjlen", og den befinder sig i øret. Os stapes er vigtig for transduktion af svingninger i luft til svingninger i væsken i vores indre øre, så vi kan høre noget.
-
-## Hvad er den største og tungeste knogle i kroppen?
-
-Den længste og tungeste knogle i menneskekroppen er lårbensknoglen, som i en voksen mand på omkring 80 kg vejer omkring 1 kg.
+{% include faq.html heading="2" %}
 
 ## Hvad vejer de enkelte knogler i kroppen?
 
-Jeg har ikke kunnet finde den anslåede vægt for ret mange knogler. Hvis du finder nogen, så må du endelig skrive det og en kildeangivelse i kommentarerne.
+Jeg har ikke kunnet finde den anslåede vægt for ret mange knogler. Hvis du finder nogen, så må du endelig skrive det og en kildeangivelse til {{ site.email }}.
 
 | Knogle | Vægt v/ 80 kg |
 |-|-|
@@ -125,4 +122,8 @@ Jeg har skrevet lidt flere artikler om [knoglerne og knogletyperne](/knogler/) o
 
 ## Referencer
 
+<details markdown="1">
+  <summary>Se referencer</summary>
+
 - Lindstedt, S. L. and Calder, W. A. III (marts 1981).["Body Size, Physiological Time, and Longevity of Homeothermic Animals"](http://www.jstor.org/stable/2826367)._The Quarterly Review of Biology_.**56**(1): 1-16.
+</details>

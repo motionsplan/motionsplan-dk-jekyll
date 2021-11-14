@@ -1,5 +1,5 @@
 ---
-title: &title "Cykeltrænning: Effektiv intervaltræning til cykling 🚴🚴‍♀️"
+title: &title "Cykeltræning: Effektiv intervaltræning til cykling 🚴🚴‍♀️"
 permalink: /intervaltraening-cykling/
 language: da
 header:
