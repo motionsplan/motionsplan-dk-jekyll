@@ -1,6 +1,8 @@
 ---
 title: &title "Træn kort og eksplosivt - løb kortere og bliv en bedre løber"
 permalink: /artikel/traen-kort-og-eksplosivt-loeb-kortere-og-bliv-en-bedre-loeber/
+redirect_from:
+  - /artikel/traen-eksplosivitet/
 language: da
 header:
   overlay_image: /assets/images/blog/traen-kort-og-eksplosivt-loeb-kortere-og-bliv-en-bedre-loeber.jpg
