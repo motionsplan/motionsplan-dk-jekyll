@@ -1048,13 +1048,9 @@ $(document).ready(function() {
 
         console.log('CMJ ' + formula + ' ' + flight_time);        
 
-        let jump_height;
+        let jump_height = 9.81 * Math.pow(flight_time, 2) / 8;
 
-        if (formula == 'glatthorn') {
-            jump_height = 9.81 * Math.pow(flight_time, 2) / 8;
-        } else {
-            jump_height = Math.pow(flight_time, 2) * 122625;
-        }
+        jump_height = jump_height / 100;
 
         $("[name='cmj_jump_height']").val(jump_height);
     });
