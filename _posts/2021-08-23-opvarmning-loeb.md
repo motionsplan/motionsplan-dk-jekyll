@@ -43,7 +43,7 @@ Som vi har gennemgået i vores generelle indføring i opvarmning, så kan det be
 
 1. **General opvarmning**. Her skal du øge hjerterytmen, få blodet til at flyde hurtigere, smøre ledene og øge kernetemperaturen.
 2. **Specifik opvarmning**. Her kan du ramme nogle af de bevægelser, som du skal lave efterfølgende. Her kan du arbejde mere specifikt med løbeteknik.
-3. **Klargøre nervesystemet**. Her skal du gøre nervesystemet helt klar til den efterfølgende træning. Det gør du med nogle eksplosive og plyometriske øvelser. Fx kan du arbejde med stigningsløb eller forskellige springøvelser med let dosering.
+3. **Klargøre nervesystemet**. Her skal du gøre nervesystemet helt klar til den efterfølgende træning. Det gør du med nogle eksplosive og [plyometriske øvelser](/plyometrisk-traening/). Fx kan du arbejde med stigningsløb eller forskellige springøvelser med let dosering.
 
 ## Forslag til opvarmningsprogram til løb
 

@@ -49,7 +49,7 @@ Hawley (2009) undersøgte de konkurrerende signaler fra styrketræning og aerob 
 
 Træning indebærer, at der er et **signal**, der skaber et **respons**, og kroppen laver en **tilpasning (adaptation)**, hvis den gennemgår de samme signaler flere gange.
 
-Et signal er alle de typer træninger, du kan finde på at lave. Squat, tempoløb, plyometri. På celleniveau er der en opregulering og nedregulering af forskellige mekanismer og enzymer.
+Et signal er alle de typer træninger, du kan finde på at lave. Squat, tempoløb, [plyometri](/plyometrisk-traening/). På celleniveau er der en opregulering og nedregulering af forskellige mekanismer og enzymer.
 
 {% include figure image_path="/assets/images/blog/hawley2009.jpg" caption="Kroppens respons på styrketræning og udholdenhedstræning og de afledte tilpasninger. Måske modarbejder styrketræning og udholdenhedstræning hinanden." alt="Kroppens respons på styrketræning og udholdenhedstræning og de afledte tilpasninger. Måske modarbejder styrketræning og udholdenhedstræning hinanden." %}
 

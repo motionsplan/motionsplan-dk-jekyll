@@ -42,7 +42,7 @@ Specifik opvarmning
 : Her skal du ramme nogle af de bevægelser, du skal lave i den efterfølgende træning. Fx nogle goblet squats, hvis du skal squatte bagefter. Armstrækninger på bænkdag osv. Her kan du også tænke på at arbejde med de begrænsninger eller udfordringer, du har ift. specifikke øvelser.
 
 CNS-priming
-: Her skal du gøre nervesystemet helt klar til den efterfølgende træning. Det gør du med nogle eksplosive og plyometriske øvelser. Typisk laver man sæt af 3-5 reps med 60-90 sekunders pause imellem, fx i en cirkel.
+: Her skal du gøre nervesystemet helt klar til den efterfølgende træning. Det gør du med nogle [eksplosive og plyometriske øvelser](/plyometrisk-traening/). Typisk laver man sæt af 3-5 reps med 60-90 sekunders pause imellem, fx i en cirkel.
 
 ## Forslag til struktur for opvarmningen
 

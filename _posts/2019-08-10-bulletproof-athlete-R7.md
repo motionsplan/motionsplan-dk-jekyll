@@ -28,7 +28,7 @@ R3 --- Readiness
 : Her gør vi os klar gennem dynamisk opvarmning, hvor vi fysiologisk også skal blive klar til træningen. Vi smører ledene, gør nervesystemet klar og forbedre bevægeligheden. Vi forbereder folk til at træne.
 
 R4 --- Reactive
-: Vi arbejder med ekplosivitet og fyrer for alvor op for nervesystemet.
+: Vi arbejder med eksplosivitet og fyrer for alvor op for nervesystemet.
 
 R5 --- Resistance
 : Her laver vi styrketræning. Øvelserne skal være udfordrende, så vi kan få et respons fra kroppen.

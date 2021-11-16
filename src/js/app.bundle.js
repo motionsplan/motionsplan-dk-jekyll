@@ -674,6 +674,21 @@ $(document).ready(function() {
         $("[name='average_power']").val(et.getAveragePower());
         $("[name='peak_power']").val(et.getPeakPower());
     });
+    $("#calculator_jump_cmj").submit(function(e) {
+        console.log("CMJ test");
+        e.preventDefault();
+
+        let formula = $("[name='cmj-formula']").val();
+        let flight_time = Number($("[name='cmj_flight_time']").val());
+
+        console.log('CMJ ' + formula + ' ' + flight_time);        
+
+        let jump_height = 9.81 * Math.pow(flight_time, 2) / 8;
+
+        jump_height = jump_height / 100;
+
+        $("[name='cmj_jump_height']").val(jump_height);
+    });
     // Udregn 1punkttest
     $("#calculator_fitness_jog_vo2").submit(function(e) {
         console.log("Etpunkt test");

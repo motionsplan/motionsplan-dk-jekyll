@@ -46,9 +46,9 @@ Denne måde at varme op på til en maxtest og en 1RM-test minder meget om [Tim H
 
 Når du skal lave en max-test og 1RM-test, så kan udnytte fænomenet _post-activation potentiation_ (PAP). De fleste protokoller med PAP udnytter en tung styrketræningsøvelse, fx squat, efterfulgt af en højhastighedsøvelse, fx vertikalt hop. Ideen er, at du ved at squatte en tung vægt uden at gå til _failure_ og derefter holde pause et par minutter, så kan du springe højere end hvis ikke du havde løftet vægten.
 
-[Stack skriver](https://www.stack.com/a/testing-your-one-rep-max-use-this-surprising-science-backed-trick-to-move-more-weight), at effekten også kan udnyttes den anden vej rundt. Hvis du **først udfører en ekplosiv bevægelse**, holder en kort pause, så kan du **løfte mere efterfølgende**.
+[Stack skriver](https://www.stack.com/a/testing-your-one-rep-max-use-this-surprising-science-backed-trick-to-move-more-weight), at effekten også kan udnyttes den anden vej rundt. Hvis du **først udfører en eksplosiv bevægelse**, holder en kort pause, så kan du **løfte mere efterfølgende**.
 
-[Masamoto et al (2003)](https://www.ncbi.nlm.nih.gov/pubmed/12580658) undersøgte, hvordan _to depth jumps_ udført 30 sekunder før et 1RM forsøg i squat påvirkede den maksimale styrke. _Depth jumps_ er en højintensiv plyometrisk øvelse. Den gennemsnitlige styrke steg fra 139,6 kg til 144 kg, hvilket er en 3,5% forbedring. Forskerne undersøgte også, hvad effekten var af at lave _tre tuck jumps_ (som kan karakteriseres som medium intensitet), men der var ingen signifikant forbedring af den maksimale styrke.
+[Masamoto et al (2003)](https://www.ncbi.nlm.nih.gov/pubmed/12580658) undersøgte, hvordan _to depth jumps_ udført 30 sekunder før et 1RM forsøg i squat påvirkede den maksimale styrke. _Depth jumps_ er en [højintensiv plyometrisk øvelse](/plyometrisk-traening/). Den gennemsnitlige styrke steg fra 139,6 kg til 144 kg, hvilket er en 3,5% forbedring. Forskerne undersøgte også, hvad effekten var af at lave _tre tuck jumps_ (som kan karakteriseres som medium intensitet), men der var ingen signifikant forbedring af den maksimale styrke.
 
 Studiet tyder altså på, at intensiteten i bevægelsen har betydning for, hvor godt PAP virker.
 

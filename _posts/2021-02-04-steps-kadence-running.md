@@ -125,7 +125,7 @@ Det fik forskerne til at konkludere at maksimal styrketræning kan forbedre løb
 
 *[MAS]: Maximal Aerobic Speed
 
-[Fernandes et al (2016)](https://pubmed.ncbi.nlm.nih.gov/26694507/) konkluderer i deres systematiske review, at det plyometrisk træning og styrketræning med mindre intensitet også kan være gavnligt for løbeøknomien, og [Esteve-Lanao et al (2008)](https://pubmed.ncbi.nlm.nih.gov/18545191/) konkluderer, at styrketræning kan være med til at fastholde skridtlængden, når mellemdistanceløberne bliver trætte i løbet af de kortere løbedistancer.
+[Fernandes et al (2016)](https://pubmed.ncbi.nlm.nih.gov/26694507/) konkluderer i deres systematiske review, at det [plyometrisk træning](/plyometrisk-traening/) og styrketræning med mindre intensitet også kan være gavnligt for løbeøknomien, og [Esteve-Lanao et al (2008)](https://pubmed.ncbi.nlm.nih.gov/18545191/) konkluderer, at styrketræning kan være med til at fastholde skridtlængden, når mellemdistanceløberne bliver trætte i løbet af de kortere løbedistancer.
 
 Det er dog ikke sikkert, at styrketræning virker for alle målgrupper. Fx fandt [Ferrauti et al (2010)](https://pubmed.ncbi.nlm.nih.gov/20885197/), at maraton-motionister ikke havde gavnlig effekt på løbeøkonomien efter et 8-ugers træningsforløb med styrketræning, selvom benstyrken blev signifikant forbedret undervejs. Forskerne foreslår, at interventionsperioden var for kort, eller der ikke var nok deltagere med i studiet. Det kan imidlertid også være, fordi styrken i benene ikke var næste skridt til at forbedre disse løberes løbeøkonomi, men en teknikændring var nødvendig først.
 

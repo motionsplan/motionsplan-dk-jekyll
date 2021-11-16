@@ -1,5 +1,6 @@
 ---
-title: &title "Mål springhøjde og hoppehøjde med counter movement jump og squat jump"
+title: &title "Mål hoppehøjde med counter movement jump (CMJ) og squat jump (SJ)"
+seo_title: "Mål springhøjde med counter movement jump og squat jump"
 permalink: /countermovement-jump-cmj-squat-jump-sj/
 language: da
 header:
@@ -56,13 +57,39 @@ Her kan du se et gentaget squat jump:
 
 {% include video provider="youtube" id="lHPcnacJ_Ss" %}
 
-## Konklusion
-
-[Petrigna et al (2019)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6853898/) foreslår også en standardiseret opvarmning før CMJ-hoppet.
+## Hvad er forskellen på CMJ og SJ?
 
 Her kan du se forskellen på et counter movement jump og et squat jump.
 
 {% include video provider="youtube" id="DZV_RlzfSIY" %}
+
+## Hvordan beregner jeg hoppehøjden fra CMJ og SJ?
+
+Du kan bruge følgende formular til at udregne hoppehøjden baseret på tiden i luften.
+
+{% include calculate-jump-cmj-height.html %}
+
+## Udregn din hoppehøjde fra kontaktmåtten
+
+Hvis du bruger en hoppemåtte, som ikke udregner hoppehøjden for dig automatisk, så kan du bruge en af de følgende formler fra fx Glatthorn (2011):
+
+***
+
+Jump Height = 9.81 * (flight time)<sup>2</sup> / 8
+
+***
+
+## Kan jeg sammenligne min springhøjde med andres?
+
+> The flight time method is reliable and had low intra-participant
+variability, but it cannot be recommended for a vertical jump when comparing with others (such as at
+tryouts) because of the potential “cheating” effect of differences in landing posture
+
+--- <cite>[Yamashita (2020)](https://www.mdpi.com/2076-3417/10/3/776/pdf)</cite>
+
+## Konklusion
+
+[Petrigna et al (2019)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6853898/) foreslår også en standardiseret opvarmning før CMJ-hoppet.
 
 ## Hjælp gerne med at udvide artiklen om CMJ og SJ
 

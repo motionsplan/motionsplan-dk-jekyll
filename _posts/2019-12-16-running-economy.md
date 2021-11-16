@@ -91,7 +91,7 @@ En højere procentdel af glykogen i forbrændingen giver potentiale for mere kra
 2. **Løbeteknikken**
 Løbeteknikken er i høj grad med til at påvirke løbeøkonomien. Det kan være mange parametre, man kan kigge på. Kadence, GCT, benlængde, armtræk, fodisættet, hoftevinklen, knæløftet, udstrækningen af benet, hvor meget læggene løftes og ankelvinklen.
 3. **Effektivitet i bevægelserne**
-Styrketræning og plyometrisk træning kan også være med til at forbedre vævets og musklernes effektivitet i forbindelse med bevægelser inden for samme løbeteknik.
+Styrketræning og [plyometrisk træning](/plyometrisk-traening/) kan også være med til at forbedre vævets og musklernes effektivitet i forbindelse med bevægelser inden for samme løbeteknik.
 
 ## Hvorfor er det interessant at snakke om løbeøkonomi?
 

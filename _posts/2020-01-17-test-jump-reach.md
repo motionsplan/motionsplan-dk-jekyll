@@ -20,7 +20,7 @@ Jump & Reach test er en god springtest, som både måler springhøjde og rækkeh
 
 Jump & Reach testen er en relativt enkel test at sætte op, men koordinationen med at skulle række op med en arm har naturligvis betydning for resultatet.
 
-Du kan læse meget mere om [Jump and Reach-testen hos Science for Sport](https://www.scienceforsport.com/vertec-jump-test/).
+Du kan læse meget mere om Jump and Reach-testen hos [Science for Sport](https://www.scienceforsport.com/vertec-jump-test/).
 
 {% include video provider="youtube" id="85EtdsmFCoY" %}
 
@@ -44,9 +44,29 @@ Du kan se instruktioner til Jump & Reach-testen i nedenstående video.
 
 ## Udregn power på baggrund af Jump & Reach
 
-{% include calculate-jump-reach-power.html %}
+{% include calculate-vertical-jump-power.html %}
 
-## Formler brugt til at udregne power?
+## Kan power udregnes?
+
+I tests med vertikale hop, så bliver distancen ofte kun rapporteret. Dette fortæller imidlertid ikke den fulde historie. En tungere person der hopper den samme højde som en lettere person, skal udvikle meget mere kraft for at bevæge den større kropsvægt. Derfor kan det sommetider være interessant at få et mål for _power_ eller arbejde.
+
+Det mekaniske arbejde for at hoppe kan bestemmes med med hoppehøjden.
+
+    Arbejde = Force x Distance
+
+Hvor
+
+    Force = Mass x Acceleration
+
+Power kan imidlertid ikke udregnes:
+
+    Power = Work / time
+
+Vi kender nemlig ikke tiden, hvor kraften reagerede på kropsvægten.
+
+Hvis vi har en kraftplatform, så kan vi måle kraften direkte. Vi har imidlertid ikke altid en kraftplatform til rådighed. Der er i stedet lavet formler til at estimere _force_ fra målinger af vertikale hop. Disse formler er mere eller mindre præcise. Du vil også se, at du får relativt forskellige resultater alt efter, hvilken formel du bruger til at estimere kraften.
+
+## Formler brugt til at udregne power fra hoppehøjde?
 
 Du kan finde formlerne til at udregne power fra hoppehøjder hos [www.topendsports.com](https://www.topendsports.com/testing/vertical-jump-power.htm) og i [Sayers et al (1999)](https://journals.lww.com/acsm-msse/Fulltext/1999/04000/Cross_validation_of_three_jump_power_equations.13.aspx).
 
@@ -57,7 +77,7 @@ Den mest brugte formel ser ud til at være Harman (1991), men den nyere formel f
 <details markdown="1">
   <summary>Se Lewis (1974) formler</summary>
 
-{% include math formula="Power (kg*m*^-1 = \sqrt{4.9} * body mass (kg) * \sqrt{jump-and-reach score (m)}" %}
+{% include math formula="Average power (kg*m*^-1 = \sqrt{4.9} * body mass (kg) * \sqrt{jump-and-reach score (m)}" %}
 
 For at få værdien i watt, så skal Power ganges med 9,81, som er tyngdekraften.
 
@@ -69,7 +89,7 @@ For at få værdien i watt, så skal Power ganges med 9,81, som er tyngdekraften
 
 Peak Power (W) = 61.9 * jump height (cm) + 36 * body mass (kg) - 1822
 
-I den oprindelige reference står der **+ 1822**, en i [Sayers et al (1999)](https://journals.lww.com/acsm-msse/Fulltext/1999/04000/Cross_validation_of_three_jump_power_equations.13.aspx) hvor Harman er co-author, står formlen opgivet til **- 1822**, hvilket får værdierne til at passe meget bedre med de andre formler.
+I den oprindelige reference står der **+ 1822**, men i [Sayers et al (1999)](https://journals.lww.com/acsm-msse/Fulltext/1999/04000/Cross_validation_of_three_jump_power_equations.13.aspx), hvor Harman er co-author, står formlen opgivet til **- 1822**, hvilket får værdierne til at passe meget bedre med de andre formler.
 
 [Sayers et al (1999)](https://journals.lww.com/acsm-msse/Fulltext/1999/04000/Cross_validation_of_three_jump_power_equations.13.aspx) fandet at Peak Power blev underestimeret med 6,7-9,9% alt efter om de brugte data fra et CMJ eller et SJ-jump.
 </details>
