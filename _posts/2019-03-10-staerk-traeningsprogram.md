@@ -182,6 +182,45 @@ Programmet udnytter [forskellige variationer af squat, bænkpres og dødløft]({
 - Dødløft på klods.
 - Stivbenet dødløft.
 
+## Suppleringsøvelser
+
+I træningsprogrammet er der angivet 3x12 i forskellige suppleringsøvelser, som du kan lave efter de primære løft. Suppleringsøvelserne til de forskellige dage er baseret på generelle kategorier for muskelgrupper. I bogen kan du læse nogle af Jacob Beermans forslag til suppleringsøvelser.
+
+Jeg har her skrevet nogle forslag til øvelser, som du kunne vælge til suppleringsøvelserne, men du skal naturligvis vælge nogle øvelser, som passer til netop dine mål og dine programmer.
+
+Du kan fx vælge 1-3 suppleringsøvelser alt efter dine mål.
+
+### Ryg og biceps
+
+- Pullups
+- Biceps curls
+
+Du kan finde endnu flere [rygøvelser](/rygoevelser/) og [armøvelser til biceps](/arme-triceps-biceps/).
+
+### Bryst, skulder og triceps
+
+- Armstrækninger
+- Laterals
+- Dips
+
+Du kan finde endnu flere [brystøvelser](/brystoevelser/), [skulderøvelser](/skulderoevelser/) og [armøvelser til triceps](/arme-triceps-biceps/).
+
+
+### Ben, baller og mave
+
+- Bulgarian split squat
+- Hanging leg raises
+
+Du kan finde endnu flere [balleøvelser](/balleoevelser/), [benøvelser](/benoevelser/) og [maveøvelser](/maveoevelser/).
+
+### Blandet overkrop
+
+- TRX Y
+- One arm rows
+- Face pulls
+
+Du kan finde endnu flere [rygøvelser](/rygoevelser/), [armøvelser til biceps](/arme-triceps-biceps/), [brystøvelser](/brystoevelser/), [skulderøvelser](/skulderoevelser/) og [armøvelser til triceps](/arme-triceps-biceps/).
+
 ## Konklusion
 
 Jacob Beermann er en af de personlige trænere i Danmark, der er mest gavmild med sin viden. Beermann har bl.a. lavet [maxer.dk](https://maxer.dk), som jeg også nævner på listen over de [bedste danske blogs]({% link _posts/2020-07-31-bedste-danske-blogs.md %}), hvor han deler et væld af gratis indhold af virkelig høj kvalitet.

@@ -31,6 +31,8 @@ _Reactive Strength_ er evnen til hurtigt at ændre retning fra en hurtig excentr
 
 RSI er bl.a. et mål for, hvor hurtigt atleten kan bevæge sig gennem _stretch-shortening cycle_.  Oprindeligt var RSI en del af Strength Qualities Assessment Test (SQAT) udviklet på Australian Institute of Sport.
 
+{% include video provider="youtube" id="HuD2KOUoD0k" %}
+
 Man kan teste og måle RSI på forskellige måder. Men inden du går i gang med testning, så skal du først og fremmest have en god forståelse for [plyometrisk arbejde og træning](/plyometrisk-traening/).
 
 Den mest brugte test er ‘incremental drop jump’, som også er en glimrende øvelse til at finde ud af, hvad de optimale hoppehøjder er.
@@ -38,6 +40,8 @@ Den mest brugte test er ‘incremental drop jump’, som også er en glimrende �
 ### Incremental Drop Jump
 
 Oprindeligt blev RSI mål ved et _drop jump (DJ)_ med en boks, der gradivist bliver højere og højere. Hvis du har _reactive strength performance_ på den ene akse og højden af boksen på den anden akse, vil du også kunne finde den mest optimale bokshøjde i forbindelse med plyometrisk træning.
+
+
 
 ### Rebound Jump Test
 
@@ -49,11 +53,16 @@ Du starter med et CMJ hop på en hoppeplatform. Men umiddelbart efter laver du y
 
 ## Hvordan udregner man Reactive Strength Index?
 
-Der er forskellige formler til at bestemme RSi.
-
-RSI = Jump Height / Ground Contact Time
-RSI = Flight Time / Ground Contact Time
- 
-Den meste brugte ser ud til at være hoppehøjden delt med kontakttiden, som også bruges i de kontaktmåtter, vi har på Vejle Idrætshøjskole, der er leveret af Swift Performance.
+Der er forskellige formler til at bestemme RSI. Den meste brugte ser ud til at være hoppehøjden delt med kontakttiden, som også bruges i de kontaktmåtter, vi har på Vejle Idrætshøjskole, der er leveret af Swift Performance.
 
 {% include figure image_path="/assets/images/blog/reactive-strength-index-formula.png" caption="Formlen for at udregne RSI. Reactive Strenght Index kan altså øges ved enten at forbedre hoppehøjden eller reducere kontakttiden på jorden - eller begge ting på samme tid." %}
+
+Hvis du kender hoppehøjden og kontakttiden, så kan du udregne RSI.
+
+
+https://www.outputsports.com/new-blog/2020/5/5/guide-to-reactive-strength-index
+
+https://docs.google.com/spreadsheets/d/1DUqAg7EI_jTpEEQYDJpQy3bHjcTJqhhTdsjaHXDBnPM/edit#gid=499201424
+
+https://www.trainwithpush.com/blog/reactive-strength-index-revisited
+https://www.trainwithpush.com/blog/reactive-strength-index-revisited-2
