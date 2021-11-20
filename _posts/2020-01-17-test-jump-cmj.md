@@ -9,10 +9,11 @@ header:
   caption: *title
 category:
   - Eksplosivitet
+  - Springtræning
 tags:
   - test
   - springtest
-last_modified_at: 2019-11-19T23:14:14Z
+last_modified_at: 2021-11-19T23:14:14Z
 toc: true
 ---
 
@@ -86,6 +87,12 @@ variability, but it cannot be recommended for a vertical jump when comparing wit
 tryouts) because of the potential “cheating” effect of differences in landing posture
 
 --- <cite>[Yamashita (2020)](https://www.mdpi.com/2076-3417/10/3/776/pdf)</cite>
+
+## Hvad skal jeg være opmærksom på i disse hoppetests?
+
+Du skal være opmærksom på, hvordan du udfører testen, da du kan manipulere dit tyngdepunkt i luften med den måde, du positionerer din krop på. Sørg for at se hele denne glimrende video igennem, inden du går i gang med at teste spring på hoppemåtten.
+
+{% include video provider="youtube" id="KNtoP1P2dUA" %}
 
 ## Konklusion
 

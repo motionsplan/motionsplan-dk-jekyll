@@ -7,11 +7,12 @@ header:
   teaser: https://fitforce.typepad.com/.a/6a0128777776d5970c017ee64035b2970d-pi
   caption: *title
 category:
-  - Spring
   - Eksplosivitet
+  - Springtræning
 tags:
   - test
   - springtest
+  - spring
 last_modified_at: 2019-11-19T23:14:14Z
 toc: true
 ---
@@ -73,6 +74,16 @@ Du kan finde formlerne til at udregne power fra hoppehøjder hos [www.topendspor
 Formlerne er så vidt jeg kan se primært skabt på baggrund af hhv. [squat jumps og countermovement jumps]({% link _posts/2020-01-17-test-jump-cmj.md %}), men de bruges også jævnligt i forbindelse med Jump and Reach-testen.
 
 Den mest brugte formel ser ud til at være Harman (1991), men den nyere formel fra [Sayers et al (1999)](https://journals.lww.com/acsm-msse/Fulltext/1999/04000/Cross_validation_of_three_jump_power_equations.13.aspx), hvor de sammenlignede Lewis (1974), Harman (1991) og lavede deres egne formler fandt de, at **[Sayers et al (1999)](https://journals.lww.com/acsm-msse/Fulltext/1999/04000/Cross_validation_of_three_jump_power_equations.13.aspx) egne formler var de mest præcise til at estimere _peak power_**.
+
+## Hvordan kan jeg spring højere med tilløb?
+
+Hvis du sørger for en god teknik, så kan du springe højere med tilløb. Se fx de gode råd i denne Youtube-video.
+
+{% include video provider="youtube" id="51yEI3snWmI" %}
+
+Det er også godt at tænke på, hvilken strategi du bruger i luften for at manipulere dit tyngdepunkt. Hvis du sørger for at have så meget af kroppen nede, så kan du springe højere.
+
+{% include video provider="youtube" id="KNtoP1P2dUA" %}
 
 <details markdown="1">
   <summary>Se Lewis (1974) formler</summary>

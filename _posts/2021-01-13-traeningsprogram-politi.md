@@ -28,7 +28,7 @@ Jeg har lavet en video til eleverne på Vejle Idrætshøjskoles politilinje, hvo
 
 Tjek mit forslag ud til at tage den fysiske optagelsesprøve til politiet derhjemme, inden du kaster dig ud i træningsprogrammet til politiet.
 
-{% include video provider="youtube" id="ewZ76WPuWaM" %}
+{% include video provider="youtube" id="ewZ76WPuWaM" ezoic="ezoic-pub-video-placeholder-3" %}
 
 ## Hvordan kan du starte træningen mod optagelsesprøven til politiet?
 

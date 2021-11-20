@@ -1,3 +1,8 @@
+{% assign ezoic = include.ezoic | default: '' %}
+{% if jekyll.environment == 'production' AND ezoic != '' %}
+  <span id="{{ ezoic }}"></span>
+{% else %}
+
 {% capture video_id %}{{ include.id }}{% endcapture %}
 {% capture video_provider %}{{ include.provider }}{% endcapture %}
 
@@ -15,3 +20,5 @@
   <iframe src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/{{ video_id }}&show_text=0&width=600" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
 {% endif %}
 </div>
+
+{% endif %}

@@ -216,6 +216,7 @@ Du kan finde endnu flere [balleøvelser](/balleoevelser/), [benøvelser](/benoev
 ### Blandet overkrop
 
 - TRX Y
+- Body rows
 - One arm rows
 - Face pulls
 

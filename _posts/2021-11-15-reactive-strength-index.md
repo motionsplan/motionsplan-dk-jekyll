@@ -5,12 +5,15 @@ permalink: /reactive-strength-index-rsi/
 language: da
 header:
   teaser: https://images.unsplash.com/photo-1428790067070-0ebf4418d9d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
-  caption: *title
 category:
   - Optimer træning
+  - Springtræning
 tags:
   - træning
-last_modified_at: 2021-11-14T08:14:14Z
+  - springtest
+  - eksplosivitet
+  - spring
+last_modified_at: 2021-11-19T08:14:14Z
 toc: true
 #faq:
 # - question: "Hvad hedder træningsafhængighed på engelsk?"
@@ -37,11 +40,15 @@ Man kan teste og måle RSI på forskellige måder. Men inden du går i gang med 
 
 Den mest brugte test er ‘incremental drop jump’, som også er en glimrende øvelse til at finde ud af, hvad de optimale hoppehøjder er.
 
+Men lad os kigge på de tre mest brugte tests.
+
 ### Incremental Drop Jump
 
-Oprindeligt blev RSI mål ved et _drop jump (DJ)_ med en boks, der gradivist bliver højere og højere. Hvis du har _reactive strength performance_ på den ene akse og højden af boksen på den anden akse, vil du også kunne finde den mest optimale bokshøjde i forbindelse med plyometrisk træning.
+Oprindeligt blev RSI mål ved et _drop jump (DJ)_ med en boks, der gradivist bliver højere og højere. Hvis du har _reactive strength index_ på den ene akse og højden af boksen på den anden akse, vil du også kunne finde den mest optimale bokshøjde i forbindelse med plyometrisk træning.
 
+[Browne et al (2017)](https://pubmed.ncbi.nlm.nih.gov/27379959/) anbefaler at bruge _incremental drop jump_ test til at finde den maksimale RSI og optimale 'drop' højde, som kan bruges i forhold til træning for 'hurlers'. [Rodrigo Ramirez-Campillo et al (2018)](https://pubmed.ncbi.nlm.nih.gov/29389692/) fandt det også værdifuldt at kende _optimal drop-box height_ i forbindelse med træningen af unge fodboldspillere.
 
+{% include figure image_path="https://i.pinimg.com/originals/f5/16/3b/f5163be27e98e6441a037602208e0b2b.jpg" caption="I et _drop jump_ eller _depth jump_ skal du forsøge at komme fra jorden så hurtigt som muligt." %}
 
 ### Rebound Jump Test
 
@@ -51,6 +58,12 @@ Efter et CMJ hop springer atleten med det samme igen. Din RSI måles på det and
 
 Du starter med et CMJ hop på en hoppeplatform. Men umiddelbart efter laver du yderligere 10 gentagne spring. Gennemsnittet af de fem hop med den højeste RSI giver den endelige RSI score.
 
+## Hvilken test skal jeg vælge?
+
+Den mest brugte test er 'Incremental Drop Jump'-test, men du kan i følgende grafik se fordele og ulemper ved testen. Det kommer også an på, hvad du skal bruge testen til. Nogle trænere bruger det til at måle spillernes 'parathed' over en sæson. Hvis det er tilfældet, så skal du naturligvis vælge en hurtigere test.
+
+{% include figure image_path="https://images.squarespace-cdn.com/content/v1/51509569e4b0cdd186de0b85/1461006050309-Z93RHJ9BXJVLBDO5YT01/image-asset.png?format=1500w" caption="Kilde: [www.trainwithpush.com](https://www.trainwithpush.com/blog/reactive-strength-index-revisited-2)" %}
+
 ## Hvordan udregner man Reactive Strength Index?
 
 Der er forskellige formler til at bestemme RSI. Den meste brugte ser ud til at være hoppehøjden delt med kontakttiden, som også bruges i de kontaktmåtter, vi har på Vejle Idrætshøjskole, der er leveret af Swift Performance.
@@ -59,10 +72,38 @@ Der er forskellige formler til at bestemme RSI. Den meste brugte ser ud til at v
 
 Hvis du kender hoppehøjden og kontakttiden, så kan du udregne RSI.
 
+## Hvad er et godt RSI?
 
-https://www.outputsports.com/new-blog/2020/5/5/guide-to-reactive-strength-index
+[Eamonn Flanagan](https://www.outputsports.com/new-blog/2020/5/5/guide-to-reactive-strength-index) har samlet en normativ guide for reactive strength index ud fra hans egne observationer og den begrænsede data i den videnskabelige litteratur.
+
+Værdierne er baseret på en **drop jump** test med **hænderne på hoften** som et i et _counter movement jump_. Jeg har lavet skalaen om, så hoppehøjden bliver målt i centimeter i stedet for meter, fordi det er det mest brugte fx i hoppemåtten fra Swift Performance.
+
+| RSI | Vurdering | Beskrivelse |
+|-|-|-|
+| \< 150 | Nogenlunde | Athlete is unprepared for moderate intensity plyometrics. Focus should be on their strength development and plyometric technique. |
+| 150-200 | God | Athlete is prepared for moderate intensity plyometrics. Focus should be on improving their reactive strength, which will in turn lead to performance enhancement. |
+| 200-250 | Meget god | Athlete is prepared for more intensive plyometrics. |
+| 250-300 | Fremragende | Athlete may begin to plateau in terms of their RSI score and the question should be asked; will further improvements in RSI improve performance? |
+| 300- | Verdensklasse |  |
+
+{% include figure image_path="https://images.squarespace-cdn.com/content/v1/51509569e4b0cdd186de0b85/1461006107760-I9WHGI00W6LG8BLYOPNE/image-asset.png?format=1500w" caption="Kilde: [www.trainwithpush.com](https://www.trainwithpush.com/blog/reactive-strength-index-revisited-2)" %}
+
 
 https://docs.google.com/spreadsheets/d/1DUqAg7EI_jTpEEQYDJpQy3bHjcTJqhhTdsjaHXDBnPM/edit#gid=499201424
 
-https://www.trainwithpush.com/blog/reactive-strength-index-revisited
-https://www.trainwithpush.com/blog/reactive-strength-index-revisited-2
+
+## Hvilket udstyr har jeg brug for?
+
+Hvis ud har adgang til en kraftplatform eller en hoppemåtte, så er det relativt enkelt at lave en RSI-test.
+
+[Haynes et al (2019)](https://pubmed.ncbi.nlm.nih.gov/29589412/) har imidlertid også valideret, at man kan bruge [My Jump App 2](https://apps.apple.com/us/app/my-jump-2/id1148617550) til IOS til at måle både hoppehøjde og RSI. Det er en app til 14,99 USD, hvilket jo unægteligt er noget billigere end en hoppemåtte. Så hvis du har adgang til en Ipad eller Iphone, og gerne vil lege lidt med RSI, så kan du altså relativt billigt selv komme i gang med at eksperimentere.
+
+## Referencer
+
+<details markdown="1">
+  <summary>Se referencer</summary>
+
+- [Guide To Reactive Strength Index](https://www.outputsports.com/new-blog/2020/5/5/guide-to-reactive-strength-index)
+- [The Reactive Strength Index Revisited](https://www.trainwithpush.com/blog/reactive-strength-index-revisited)
+- [The Reactive Strength Index Revisited Part II](https://www.trainwithpush.com/blog/reactive-strength-index-revisited-2)
+</details>

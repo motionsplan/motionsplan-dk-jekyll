@@ -37,7 +37,7 @@ Træstubbe, grene, traktordæk, forhøjninger, reb og fliser er alle glimrende t
 
 ## Dogmefitness med dæk
 
-{% include video provider="youtube" id="SW_sn8cw8Qw" %}
+{% include video provider="youtube" id="SW_sn8cw8Qw" ezoic="ezoic-pub-video-placeholder-2" %}
 
 ## Hvordan kan man organisere dogmefitness?
 

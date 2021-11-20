@@ -117,6 +117,10 @@ Vi har skrevet flere indlæg om [yoga og mindfulness](/yoga/). Tjek dem her:
 
 </div>
 
+## Springtræning og plyometrisk træning
+
+Hvis du gerne vil være mere eksplosiv og hoppe højere, så er der ingen vej uden om at komme i gang med [springtræning](/springstyrke-og-springtraening/). Plyometrisk træning er en måde at træne _stretch shortening cycle (SSC)_. Her er fire enkle trin til, hvordan du [træne plyometrisk træning](/plyometrisk-traening/).](/plyometrisk-traening/).
+
 ## Træning af muskelgrupper
 
 Når du gerne vil træne forskellige muskelgrupper, så skal du vælge passende træningsøvelser, så du træner de rigtige muskler.
