@@ -43,7 +43,7 @@ Derfor har jeg valgt den nærliggende overskrift for dette indlæg; _”Alle vil
 
 De og andre spørgsmål vil jeg forsøge at besvare i dette første og indledende evidensbaserede indlæg om okklusionstræning. Indlægget giver dig den nødvendige basisviden, jeg mener alle bør have, hvis man vil praktisere okklusionstræning.
 
-Senere indlæg vil beskrive brugen af okklusionstræning i forskellige kontekster, bl.a. til skader/genoptræning, til præstationsoptimering og til hjemmetræning.
+Senere indlæg vil beskrive brugen af okklusionstræning i forskellige kontekster, bl.a. til skader, genoptræning, til præstationsoptimering og til [hjemmetræning](/hjemmetraening-traeningsprogram/).
 
 ## Evidensniveau og omtale af okklusionstræning
 

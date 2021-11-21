@@ -182,3 +182,17 @@ Du behøver ikke noget udstyr for at træne hjemme. Måske kan du finde inspirat
 Hvis du har brug for udstyr, så kan du tjekke nogle af vores samarbejdspartnere ud. De har gode priser, og du er med til at støtte dette site, hvis du handler hos dem efter at have trykket på vores links.
 
 {% include gallery id="feature_row_ads" layout="half" %}
+
+## Flere eksempler på træning hjemme
+
+{% assign site_posts = site.posts | where: "tags", "hjemmetræning" | where_exp: "post", "post.url != page.url" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>

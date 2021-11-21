@@ -11,6 +11,7 @@ category:
   - Styrketræning
 tags:
   - styrketræning
+  - hjemmetræning
 last_modified_at: 2020-12-03T23:14:14Z
 toc: true
 ---

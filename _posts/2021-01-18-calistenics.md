@@ -34,7 +34,7 @@ gallery:
 
 Jeg har lavet et begynderprogram til Calisthenics, hvor du skal bruge et minimum af udstyr. Calisthenics er træning med egen kropsvægt, og her har du altså et bud på, hvordan du som begynder kan komme i gang med Calisthenics.
 
-Mens Covid-19-virussen hærger over det ganske danske land, og tvinger de lukkede privatiserede fitnesskæder i knæ, tyr flere og flere til at holde krop og form vedlige med hjemmetræning. Markedet og alternativer er mange, og det kan være en jungle at orientere sig i hvad man skal kaste sig ud i. 
+Mens Covid-19-virussen hærger over det ganske danske land, og tvinger de lukkede privatiserede fitnesskæder i knæ, tyr flere og flere til at holde krop og form vedlige med [hjemmetræning](/hjemmetraening-traeningsprogram/). Markedet og alternativer er mange, og det kan være en jungle at orientere sig i hvad man skal kaste sig ud i. 
 
 Det er svært at vide hvor lang tid der går, før man kan fortsætte sin normale dagsrutine i sit vante træningscenter, så her kommer vi med lidt inspiration til at bruge pausen fra sine vante omgivelser til at lægge sin træningsstil og fokus om, eller til at lære om helkropsforståelse. Velkommen til Calisthenics.
 

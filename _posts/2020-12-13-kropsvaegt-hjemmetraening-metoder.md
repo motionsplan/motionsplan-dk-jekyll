@@ -12,6 +12,7 @@ category:
   - Styrketræning
 tags:
   - styrketræning
+  - hjemmetræning
 last_modified_at: 2020-12-03T23:14:14Z
 toc: true
 feature_row:
@@ -31,7 +32,7 @@ Metoderne kan også også bruges i styrketræningsrummet, men er også særdeles
 
 {% comment %}
 
-## Ram hele kroppen med hjemmetræningen
+## Ram hele kroppen
 
 The Big Four
 The following four movements need to be in every program. If you're doing full-body workouts instead of body part splits or movement-based training programs, then they should be in every workout.
@@ -68,7 +69,7 @@ Weak lateral hips can be a precursor to injury by altering movement mechanics. E
 
 ## Metoder til at gøre hjemmetræning mere effektivt
 
-Christian Thibaudeau foreslår [forskellige metoder til at gøre hjemmetræningen mere effektivt](https://www.t-nation.com/training/get-jacked-without-leaving-your-house). Det er faktisk ikke så vanskeligt at gøre træning med kropsvægt mere udfordrende - også i forhold til styrketræning.
+[Christian Thibaudeau](https://www.t-nation.com/training/get-jacked-without-leaving-your-house) foreslår forskellige metoder til at gøre hjemmetræningen mere effektivt. Det er faktisk ikke så vanskeligt at gøre træning med kropsvægt mere udfordrende - også i forhold til styrketræning.
 
 ## Isometriske metoder
 
@@ -207,7 +208,7 @@ Remember, rather than doing one rep of an exercise, you'd do half the movement f
 
 {% endcomment %}
 
-## Konklusion om hjemmetræning
+## Konklusion
 
 Ud over at du kan bruge forskellige metoder, så husk også, at du kan øge sværhedsgraden ved at tilføje vægt til dine kropsvægtsøvelser.
 

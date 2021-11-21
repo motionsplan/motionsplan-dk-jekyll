@@ -11,6 +11,7 @@ category:
   - Træning
 tags:
   - træning
+  - hjemmetræning
 last_modified_at: 2021-11-03T08:14:14Z
 toc: true
 faq:
@@ -82,7 +83,7 @@ De har samlet øvelserne på det norske [skadefri.no](https://skadefri.no/) elle
 
 Appen er et onlinekatalog med træningsøvelser til over 50 forskellige idrætter. Øvelserne forklares rigtig let med både videoer og korte beskrivelser med forskellige øvelser.
 
-Det er en ret suveræn app, hvor du kan samle øvelserne til et hjemmetræningsprogram eller til at huske opvarmningsøvelserne, inden du går i gang med styrketræning og fitness. Du kan lede i alle mulige forskellige idrætsgrene efter øvelser, som du kan håndplukke til din egen lille workout.
+Det er en ret suveræn app, hvor du kan samle øvelserne til et [hjemmetræningsprogram](/hjemmetraening-traeningsprogram/) eller til at huske opvarmningsøvelserne, inden du går i gang med styrketræning og fitness. Du kan lede i alle mulige forskellige idrætsgrene efter øvelser, som du kan håndplukke til din egen lille workout.
 
 {% include gallery id="skadefri" caption="GetSet - Train Smarter hed tidligere Skadefri, men har fået et nyt navn til den internationale udgave efter at IOC er kommet ind over udgivelsen af appen." alt="Skadefri fitness app" %}
 
