@@ -678,16 +678,29 @@ $(document).ready(function() {
         console.log("CMJ test");
         e.preventDefault();
 
-        let formula = $("[name='cmj-formula']").val();
         let flight_time = Number($("[name='cmj_flight_time']").val());
 
-        console.log('CMJ ' + formula + ' ' + flight_time);        
+        console.log('CMJ flight time ' + flight_time);        
 
         let jump_height = 9.81 * Math.pow(flight_time, 2) / 8;
 
-        jump_height = jump_height / 100;
+        jump_height = jump_height * 100;
 
         $("[name='cmj_jump_height']").val(jump_height);
+    });
+    $("#calculator_jump_cmj_initial_velocity").submit(function(e) {
+        console.log("CMJ test");
+        e.preventDefault();
+
+        let initial_velocity = Number($("[name='cmj_initial_velocity']").val());
+
+        console.log('CMJ flight time ' + initial_velocity);        
+
+        let jump_height = Math.pow(initial_velocity, 2) / 9.81 / 2;
+
+        jump_height = jump_height * 100;
+
+        $("[name='cmj_jump_height_initial_velocity']").val(jump_height);
     });
     // Udregn 1punkttest
     $("#calculator_fitness_jog_vo2").submit(function(e) {

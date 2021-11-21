@@ -147,14 +147,14 @@ Når vi kender hastigheden ved afsættet og tyngdekraften, så kan vi udregne ha
 
 {% include math formula="v(t)=v(0) -a * t " %}
 
-Derfor kan vi også udregne, hvornår springeren pånår det højeste punkt i springet (hvor hastigheden er 0).
+Derfor kan vi også udregne, hvornår springeren er på det højeste punkt i springet (hvor hastigheden er 0).
 
 {% include math formula="v(t_{peak}) = v(0) - a * t_{peak} \\ \\
 => 0 = v(0) - a * t_{peak}" %}
 
 {% include math formula="=> t_{peak} = \frac{v(0)}{a} = \frac{2.45m/s}{9.81m/s^2} = 0.25s" %}
 
-MNår vi kender hastigheden <em>v(t)</em> på hvert tidspunkt af hoppet, og vi kender tiden inden springeren er på det højeste punkt i hoppet efter 0,25 sekunder, så kan vi udregne hoppehøjden som et integral af hastigheden over den tid, det tager at opnå det øverste punkt i springet.
+Når vi kender hastigheden <em>v(t)</em> på hvert tidspunkt af hoppet, og vi kender tiden inden springeren er på det højeste punkt i hoppet efter 0,25 sekunder, så kan vi udregne hoppehøjden som et integral af hastigheden over den tid, det tager at opnå det øverste punkt i springet.
 
 {% include math formula="h_{jump} = \int_0^{\frac{v(o)}{a}} \bigg( v(o) - at \bigg) \ \mathrm{d}t= \\ \\= v(o)t \ - \ \frac{1}{2} at^2 \ \bigg|_0^{\frac{v(0)}{a}} \\ \\= v(0) \left(\frac{v(0)}{a}\right) - \frac{1}{2} a \left(\frac{v(0)}{a}\right)^2 \\ \\= \frac{v(0)^2}{a} \ - \ \frac{1}{2} \frac{v(0)^2}{a} \\ \\" %}
 
@@ -164,27 +164,35 @@ Nu ender vi altså med en relativt simpel formel, som gør det muligt at beregne
 
 {% include math formula="h_{jump} = \frac{1}{2} \frac{(2.45m/s)^2}{9.81 m/s^2} = 0.306m" %}
 
-Hvis du har en kraftplatform, så kan du altså relativt enkelt udregne hoppehøjden. Men er der andre måder du kan bruge fysik til at udregne din hoppehøjde.
+Du kan bruge denne beregner:
+
+{% include calculate-jump-cmj-height-initial-velocity.html %}
+
+Hvis du har en kraftplatform, så kan du altså relativt enkelt udregne hoppehøjden ud fra den indledende hastighed. Men er der andre måder du kan bruge fysik til at udregne din hoppehøjde.
 
 ### Udregn hoppehøjden fra svævetiden
 
-Hvis du ikke kender kræfterne ved afsættet eller den oprindelige hastighed ved afsættet. Vi kender i stedet springerens svævetid. Vi kan enten få svævetiden fra en hoppemåtte eller ved at måle svævetiden med et _high speed_ kamera eller en smartphone. Det er den teknologi, som bruges i [The Hoops Geek måleinstrument](https://www.thehoopsgeek.com/measurement-app/).
+Hvis du ikke kender kræfterne ved afsættet eller den oprindelige hastighed ved afsættet. Vi kender i stedet springerens svævetid, så kan vi bruge svævetiden i stedet.
+
+Det er noget lettere at finde udstyr, som kan hjælpe os med at måle svævetiden. Vi kan enten få svævetiden fra en hoppemåtte eller ved at måle svævetiden med et _high speed_ kamera eller en smartphone. Det er bl.a. den teknologi, som bruges i [The Hoops Geek online måleinstrument](https://www.thehoopsgeek.com/measurement-app/).
 
 {% include figure image_path="/assets/images/blog/thehoopgeek.png" caption="Du kan bruge [The Hoops Geek onlineredskab](https://www.thehoopsgeek.com/measurement-app/) til at måle hoppehøjde ud fra en video baseret på svævetiden." %}
 
-I dette eksempel blev svævetiden udregnet til <em>t = 0,5 s</em>.
+I vores eksempel blev svævetiden udregnet til <em>t = 0,5 s</em>, men den kunne vi også aflæse.
 
-Da vi kan udregne hoppehøjden for et spring, når vi kender den oprindelige hastighed ved afsætstidspunktet. 
+Da vi kan udregne hoppehøjden for et spring, når vi kender den oprindelige hastighed ved afsætstidspunktet med denne formel.
 
 {% include math formula="=> h_{jump} = \frac{1}{2} \frac{v(0)^2}{a}" %}
 
-Nu skal vi altså bare finde den oprindelige hastighed ved et spring, som har en svævetid på 0,5 sekunder. Hvis du springer 1 meter, så betyder det også, at du skal falde en meter igen efter at du har opnået toppunktet i springet.
+Hvis vi kan finde den oprindelige hastighed ved et spring, som har en svævetid på 0,5 sekunder, så kan vi altså udregne hoppehøjden. Hvis du springer 1 meter, så betyder det også, at du skal falde en meter igen efter, at du har opnået toppunktet i springet.
 
-Hastigheden er en lineær funktion <em>(v=a t)</em>, og derfor kan vi vise, at springeren opnår toppunktet nøjagtigt i midten af springet. Derfor har vi også følgende:
+Hastigheden er en lineær funktion <em>(v=a * t)</em>. Derfor opnår springeren toppunktet nøjagtigt i midten af springet. Det giver os følgende sammenhæng:
 
 {% include math formula="t_{peak} = 0.5 * t_{hangtime}" %}
 
-Så hvis vi gerne vil vide, hvor højt en med en svævetid på 0,5 sekunder hoppede, så skal vi bare udregne distancen et fritfaldende objekt falder i halvdelen af den tid, nemlig 0,25 sekunder. Den generelle formel er:
+Så hvis vi gerne vil vide, hvor højt en med en svævetid på 0,5 sekunder hoppede, så skal vi bare udregne hvor langt et fritfaldende objekt falder i halvdelen svævetiden. Personen falder altså ned mod jorden igen på halvdelen af 0,5 sekunder, nemlig 0,25 sekunder.
+
+Den generelle formel for fritfaldende objekter er:
 
 {% include math formula="S = \int_0^{\frac{1}{2} t_{hangtime}} v(t) \; dt \\ \\
 = \int_0^{\frac{1}{2} t_{hangtime}} a * t \; dt \\ \\
@@ -192,11 +200,13 @@ Så hvis vi gerne vil vide, hvor højt en med en svævetid på 0,5 sekunder hopp
 = \frac{1}{2} a \left( \frac{1}{2} t_{hangtime} \right)^2 \\ \\
 = \frac{1}{8} a \: t_{hangtime}^2 \\ \\" %}
 
-I vores specifikke eksempel med en svævetid på 0,5 sekunder, giver det altså:
+I vores specifikke eksempel med en svævetid på 0,5 sekunder får vi følgende resultat:
 
 {% include math formula="S = \frac{1}{8} a \: t_{hangtime}^2 = \frac{1}{8} * 9.81m/s^2 * 0.5^2 = 0.306m" %}
 
 Hvis du kan finde din svævetid, så kan du altså udregne din hoppehøjde.
+
+{% include calculate-jump-cmj-height.html %}
 
 ## Fase 5. Landingen
 

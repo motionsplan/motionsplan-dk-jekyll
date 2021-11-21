@@ -111,7 +111,7 @@ Træningen kan stadig være rigtig fed. Du skal naturligvis tage hensyn til din 
 
 ## Konklusion
 
-Det allervigtigste man kan gøre er at sørge for at bevæge sig nok hver eneste dag. Når du har gået dine 10.000 skridt, så er det imidlertid også rigtig godt at supplere med fysisk træning flere gange om ugen. 
+Det allervigtigste man kan gøre er at sørge for at bevæge sig nok hver eneste dag. Når du har gået dine [10.000 daglige skridt](/skridt-pr-km-10000/), så er det imidlertid også rigtig godt at supplere med fysisk træning flere gange om ugen. 
 
 Når man kommer op i alderen, så har man færre af de mest vækstivrige hurtige muskelfibre og mænd har mindre testosteron. Det betyder vækstpotentialet og styrken formentlig falder. Med fysisk træning kan man bremse udviklingen. 
 

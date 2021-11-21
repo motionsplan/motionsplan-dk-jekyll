@@ -23,6 +23,6 @@ toc: true
 #   answer: "Træningsafhængighed er ikke en spiseforstyrrelse. Tvangshandlingerne er nemlig #ikke centreret omkring spisevaner, men derimod motion og træning. Træningsafhængig og #spiseforstyrrelser følges dog ofte ad."
 ---
 
-Dynamic Strength Index (RSI) er et godt værktøj til finde ud af, om du har brug for at forbedre din maksimale styrke eller dine plyometriske egenskaber.
+Dynamic Strength Index (DSI) er et godt værktøj til finde ud af, om du har brug for at forbedre din maksimale styrke eller dine plyometriske egenskaber.
 
-Læs mere om [reactive strength index](/reactive-strength-index-rsi/)
+Læs mere om [reactive strength index (RSI)](/reactive-strength-index-rsi/).

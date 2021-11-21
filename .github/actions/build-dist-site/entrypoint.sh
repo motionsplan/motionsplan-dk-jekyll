@@ -25,6 +25,7 @@ bundle install
 # Build the website using Jekyll
 echo "🏋️ Building website..."
 JEKYLL_ENV=production bundle exec jekyll build --trace --verbose --lsi
+
 echo "Jekyll build done"
 
 # Now lets go to the generated folder by Jekyll
@@ -61,5 +62,9 @@ echo "☁️ Cleaning up"
 rm -fr .git
 cd ..
 rm -rf repo
+
+echo "☁️ Rebuilding Algolia"
+
+bundle exec jekyll algolia
 
 echo "☁️ Everything is cleaned"

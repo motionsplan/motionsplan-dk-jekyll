@@ -82,6 +82,13 @@ social:
 # Site search
 search: true
 
+search_provider: algolia
+
+algolia:
+  application_id: 32VPRNT313 # YOUR_APPLICATION_ID
+  index_name: prod_motionsplan # YOUR_INDEX_NAME
+  search_only_api_key: c272af06e349e9b66c24657163065fce # YOUR_SEARCH_ONLY_API_KEY
+  powered_by: true # true (default), false
 
 # Analytics
 analytics:

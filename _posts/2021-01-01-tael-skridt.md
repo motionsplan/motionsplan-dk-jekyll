@@ -24,7 +24,7 @@ Dansk Firma Idrætsforbund har lavet en [Tæl Skridt-kampagne](https://www.taels
 
 ## Tæl skridt – det er sjovt og motiverende!
 
-Sundhedsstyrelsen anbefaler, at vi alle går 10.000 skridt om dagen. Du kan læse meget om de 10.000 skridt om dage har særlige sundhedsgevinster (selvom [antallet af skridt]({% link _posts/2020-06-25-steps.md %}) formentlig er lidt tilfældigt).
+Sundhedsstyrelsen anbefaler, at vi alle går 10.000 skridt om dagen. Du kan læse meget om de 10.000 skridt om dagen har særlige sundhedsgevinster (selvom antallet af skridt formentlig er lidt tilfældigt). Tjek vores artikel, hvor du får svar på alle dine spørgsmål om [10.000 skridt og hvor langt det er]({% link _posts/2020-06-25-steps.md %}).
 
 Der køres jævnligt kampagner for at huske os på sundhedsgevinsterne ved at gå. Mange virksomheder ved også, at skridttælling kan være sjovt og motiverende, hvilket Tæl Skridt-kampagnen netop udnytter.
 
