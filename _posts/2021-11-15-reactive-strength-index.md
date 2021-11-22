@@ -9,12 +9,18 @@ category:
   - Optimer træning
   - Springtræning
 tags:
-  - træning
   - springtest
   - eksplosivitet
   - spring
 last_modified_at: 2021-11-19T08:14:14Z
 toc: true
+feature_row:
+  - image_path: /assets/images/freebies/rsi-sheet.png
+    title: Incremental Drop Jump Test
+    excerpt: Google Sheet til at registrere forsøg i Incremental Drop Jump test, hvor du får udregnet RSI baseret på hoppehøjde og kontakttid. Med vurdering baseret på Eamonn Flanagans arbejde.
+    url: https://docs.google.com/spreadsheets/d/16qZ9gd6U8FZYhkoC7bPQo0Ggby0cTSmw_UzyhhZqCNk/copy?usp=sharing
+    btn_label: Download
+    btn_class: btn--success
 #faq:
 # - question: "Hvad hedder træningsafhængighed på engelsk?"
 #   answer: "På engelsk er de mest anvendte betegnelser for træningsafhængighed 'exercise #addiction' og 'exercise dependence'."
@@ -50,6 +56,8 @@ Oprindeligt blev RSI mål ved et _drop jump (DJ)_ med en boks, der gradivist bli
 
 {% include figure image_path="https://i.pinimg.com/originals/f5/16/3b/f5163be27e98e6441a037602208e0b2b.jpg" caption="I et _drop jump_ eller _depth jump_ skal du forsøge at komme fra jorden så hurtigt som muligt." %}
 
+{% include feature_row type="left" %}
+
 ### Rebound Jump Test
 
 Efter et CMJ hop springer atleten med det samme igen. Din RSI måles på det andet hop.
@@ -68,15 +76,17 @@ Den mest brugte test er 'Incremental Drop Jump'-test, men du kan i følgende gra
 
 Der er forskellige formler til at bestemme RSI. Den meste brugte ser ud til at være hoppehøjden delt med kontakttiden, som også bruges i de kontaktmåtter, vi har på Vejle Idrætshøjskole, der er leveret af Swift Performance.
 
-{% include figure image_path="/assets/images/blog/reactive-strength-index-formula.png" caption="Formlen for at udregne RSI. Reactive Strenght Index kan altså øges ved enten at forbedre hoppehøjden eller reducere kontakttiden på jorden - eller begge ting på samme tid." %}
+{% include figure image_path="/assets/images/blog/reactive-strength-index-formula.png" caption="Formlen for at udregne RSI. Reactive Strength Index kan altså øges ved enten at forbedre hoppehøjden eller reducere kontakttiden på jorden - eller begge ting på samme tid." %}
 
 Hvis du kender hoppehøjden og kontakttiden, så kan du udregne RSI.
 
 ## Hvad er et godt RSI?
 
-[Eamonn Flanagan](https://www.outputsports.com/new-blog/2020/5/5/guide-to-reactive-strength-index) har samlet en normativ guide for reactive strength index ud fra hans egne observationer og den begrænsede data i den videnskabelige litteratur.
+[Eamonn Flanagan](https://www.trainwithpush.com/blog/reactive-strength-index-revisited-2) har samlet en normativ guide for reactive strength index ud fra hans egne observationer og den begrænsede data i den videnskabelige litteratur.
 
-Værdierne er baseret på en **drop jump** test med **hænderne på hoften** som et i et _counter movement jump_. Jeg har lavet skalaen om, så hoppehøjden bliver målt i centimeter i stedet for meter, fordi det er det mest brugte fx i hoppemåtten fra Swift Performance.
+Værdierne er baseret på en **drop jump** test med **hænderne på hoften** som et i et _counter movement jump_. Det er udregnet ud fra hoppehøjden og kontakttiden.
+
+{% comment %}
 
 | RSI | Vurdering | Beskrivelse |
 |-|-|-|
@@ -86,17 +96,24 @@ Værdierne er baseret på en **drop jump** test med **hænderne på hoften** som
 | 250-300 | Fremragende | Athlete may begin to plateau in terms of their RSI score and the question should be asked; will further improvements in RSI improve performance? |
 | 300- | Verdensklasse |  |
 
+{% endcomment %}
+
 {% include figure image_path="https://images.squarespace-cdn.com/content/v1/51509569e4b0cdd186de0b85/1461006107760-I9WHGI00W6LG8BLYOPNE/image-asset.png?format=1500w" caption="Kilde: [www.trainwithpush.com](https://www.trainwithpush.com/blog/reactive-strength-index-revisited-2)" %}
 
+På **Ezejump** hoppemåtten bruges svævetiden og kontakttiden til at udregne RSI. Da hoppehøjden kan estimeres ud fra svævetiden, så kan vi lave en samlet tabel alt efter, hvordan RSI er udregnet.
+{: .notice .notice--info }
 
-https://docs.google.com/spreadsheets/d/1DUqAg7EI_jTpEEQYDJpQy3bHjcTJqhhTdsjaHXDBnPM/edit#gid=499201424
+{% comment %}
 
+[Resultatark til Drop Jump](https://docs.google.com/spreadsheets/d/16qZ9gd6U8FZYhkoC7bPQo0Ggby0cTSmw_UzyhhZqCNk/copy){: .btn .btn--large .btn--success }
+
+{% endcomment %}
 
 ## Hvilket udstyr har jeg brug for?
 
 Hvis ud har adgang til en kraftplatform eller en hoppemåtte, så er det relativt enkelt at lave en RSI-test.
 
-[Haynes et al (2019)](https://pubmed.ncbi.nlm.nih.gov/29589412/) har imidlertid også valideret, at man kan bruge [My Jump App 2](https://apps.apple.com/us/app/my-jump-2/id1148617550) til IOS til at måle både hoppehøjde og RSI. Det er en app til 14,99 USD, hvilket jo unægteligt er noget billigere end en hoppemåtte. Så hvis du har adgang til en Ipad eller Iphone, og gerne vil lege lidt med RSI, så kan du altså relativt billigt selv komme i gang med at eksperimentere.
+[Haynes et al (2019)](https://pubmed.ncbi.nlm.nih.gov/29589412/) har imidlertid også valideret forskeren Carlos Balsalobre ret genial apps. Du kan bruge [My Jump App 2 til Android](https://play.google.com/store/apps/details?id=com.my.jump&hl=da&gl=US) eller [Jumb Lab](https://apps.apple.com/us/app/my-jump-lab/id1554077178) til IOS til at måle både hoppehøjde og RSI. Disse apps koster noget mindre end at skulle erhverve sig en hoppemåtte. Så hvis du har adgang til en smartphone, og gerne vil lege lidt med RSI, så kan du altså relativt billigt selv komme i gang med at eksperimentere.
 
 ## Referencer
 

@@ -24,7 +24,7 @@ toc: true
 
 Det vertikale hop er et rigtig godt eksempel på fysikkens love. Her kan du virklig lære noget om sammenhængen mellem hastighed, acceleration, kræfter og svævetid. Det er særlig interessant, når man har adgang til en kraftplatform, som vi har på Vejle Idrætshøjskole.
 
-I dette indlæg kigger vi på fem faser i det vertikale spring, og vi kigger på hvordan de fysiske love virker i de enkelte faser. Jeg har baseret dette indlæg på en arigtig god artikel på [www.thehoopsgeek.com](https://www.thehoopsgeek.com/the-physics-of-the-vertical-jump/).
+I dette indlæg kigger vi på fem faser i det vertikale spring, og vi kigger på hvordan de fysiske love virker i de enkelte faser. Jeg har baseret dette indlæg på en rigtig god artikel på [www.thehoopsgeek.com](https://www.thehoopsgeek.com/the-physics-of-the-vertical-jump/).
 
 ## Kræfter der påvirker springeren
 
@@ -45,6 +45,10 @@ Det er derfor du kan bruge en kraftplatform til at analysere spring. På kraftpl
 I denne Youtube-video kan du se et eksempel på et spring og se de målte kræfter i forhold til springet.
 
 {% include video provider="youtube" id="qN3apht8zRs" %}
+
+I denne Youtube-video kan du få en god gennemgang af, hvad der sker i hoppet.
+
+{% include video provider="youtube" id="Aa7cSOUwTDQ" %}
 
 ## Analyse af kræfterne i det vertikale hop
 

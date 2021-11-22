@@ -1,6 +1,8 @@
 ---
 title: &title "Sargent Jump Test: Test hvor højt du springer?"
-permalink: /jump-sargent/
+redirect_from:
+  - /jump-sargent/
+permalink: /sargent-jump-test/
 language: da
 header:
   overlay_image: https://i.ytimg.com/vi/XCOAoVyYLdM/maxresdefault.jpg
@@ -13,11 +15,15 @@ tags:
   - test
   - springtest
   - spring
-last_modified_at: 2019-11-19T23:14:14Z
+last_modified_at: 2021-11-19T23:14:14Z
 toc: true
 ---
 
-Sargent Jump test er en sprintest og hoppetest, som kun kræver et en væg og et målebånd. Testen kan således laves de fleste steder. Sommetider staves testen også forkert som Sergeant Jump Test.
+Sargent Jump test er en springtest og hoppetest, som kun kræver et en væg og et målebånd. Testen kan således laves de fleste steder. Sommetider staves testen også forkert som Sergeant Jump Test.
+
+Sargent Jump test er rimelig meget enkel og kan laves overalt. Stå ved siden af en mur og mål, hvor højt du kan række. Derefter springer du så højt som muligt, rører ved væggen og udregner forskellen. 
+
+Vi har samlet en liste over alle [springtests for hoppehøjde her](/springtests-hoppehoejde/).
 
 ## Hvordan udføres Sargent Jump Test
 
@@ -32,25 +38,34 @@ Harman et al. (1991) brugte følgende protokol, da de udførte Sargent Jump Test
 5. Springhøjden i Sargent Jump Test er forskellen mellem det første og andet sted.
 6. Tre forsøg med minimum 45 sekunder mellem de forskellige forsøg. Det bedste forsøg tæller.
 
+Du kan se testen forklaret i denne Youtube-video.
+
 {% include video provider="youtube" id="oJUHSv20Ayg" %}
 
-## Udregn hoppehøjden
+## Udregn hoppehøjden fra Sargent Jump Test
+
+Hoppehøjden er forskellen mellem din rækkehøjde, og hvor du ender med at røre på væggen. Du kan bruge denne beregner til at udregne dit resultat.
 
 {% include calculate-jump-reach.html title="Sargent Jump Test" %}
-
-## Hjælp med at udvide artiklen om Sargent Jump Test
-
-Jeg er ved at lave en artikel om Sargent Jump Test. Hvis du kender noget til testen for hoppehøjde og vil hjælpe med at skrive artiklen, så kontakt mig endelig.
-
-Artiklen er under opbygning, så lige nu er det mest en inspiration til en masse forskellige begreber, der har betydning for eksplosivitet, spring og at hoppe højere.
-
-Hvis du gerne vil hjælpe med at forbedre artiklen, så skriv endelig til lars@vih.dk.
 
 {% comment%}
 
 Foreløbig kan du læse mere om [spring, at hoppe højere og eksplosivitet her]({% link _posts/2020-01-16-jumping.md %}).
 
 {% endcomment %}
+
+## Ulemper ved testen
+
+- Det er lidt mærkeligt at hoppe så tæt ved en væg, og det kan risikere at mindske dit resultat.
+- Hvis du bruger et kridt i hånden, så kan du risikere at være lidt unøjagtig. Det er mere nøjagtigt, hvis du enten har kridt eller kalk på fingrene eller en form for blæk.
+
+Hvis du fx har adgang til en basketballplade, så kan du udføre testen uden at skulle være bange for væggen foran dig. Sæt noget tape på basketpladen og dyp fingrene i noget blæk eller kalk, som du så bruger til at sætte mærket på væggen.
+
+Hvis du har råd til lidt udstyr, så er [Jump & Reach](/jump-reach/) med et Vertec-apparat en rigtig god måde at gøre det lidt lettere at udføre.
+
+## Fordele ved testen
+
+Testen er så lavpraktisk, at alle kan lave den overalt. Den er gratis, men du skal måske bruge lidt kreativitet for at få den til at virke for dig. Hvis bare du gentager testen på samme måde hver gang, så har du en rigtig fin test til at måle din fremgang.
 
 ## Validitet og reproducerbarhed
 
@@ -61,6 +76,6 @@ Foreløbig kan du læse mere om [spring, at hoppe højere og eksplosivitet her](
 <details markdown="1">
   <summary>Se referencerne om Sargent Jump Test</summary>
 
-- https://www.brianmac.co.uk/sgtjump.htm
-- https://www.topendsports.com/testing/tests/vertjump.htm
+- [www.brianmac.co.uk](https://www.brianmac.co.uk/sgtjump.htm)
+- [www.topendsports.com](https://www.topendsports.com/testing/tests/vertjump.htm)
 </details>

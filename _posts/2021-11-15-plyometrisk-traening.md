@@ -39,19 +39,19 @@ Det er særligt vigtigt med et progressivt træningsprogram til plyometri, hvis 
 
 [Flanagan og Comyns (2008)](https://www.researchgate.net/publication/232212864_The_Use_of_Contact_Time_and_the_Reactive_Strength_Index_to_Optimize_Fast_Stretch-Shortening_Cycle_Training/link/60253c15299bf1cc26bcaabf/download) foreslår følgende instruktionsmomenter for plyometrisk øvelser. Læg derfor mærke til følgende:
 
-a. Minimér kontakttiden på jorden
-b. Maksimer hoppehøjden
-c. Forestil dig at jorden er en varm overflade
-d. Forestil dig at dine ben er en spændt fjeder som rebounder fra gulvet, når du rammer.
-e. Forbered dine ben på landingen allerede inden at have spændt musklerne
+1. Minimér kontakttiden på jorden
+2. Maksimer hoppehøjden
+3. Forestil dig at jorden er en varm overflade
+4. Forestil dig at dine ben er en spændt fjeder som rebounder fra gulvet, når du rammer.
+5. Forbered dine ben på landingen allerede inden at have spændt musklerne
 
 ## Få hjælp fra Reactive Strength Index
 
 Når du skal lære hurtige plyometriske øvelser, som fx gentagne _tuck jups_, hækkehop og _depth jumps_, så kan [reative strength index (RSI)](/reactive-strength-index-rsi/) være et godt redskab. Grundlæggende er RSI et mål mellem hvor højt du springer, og hvor kort kontakttid du havde på gulvet fra et _drop jump_.
 
-{% include figure image_path="/assets/images/blog/reactive-strength-index-formula.png" caption="Formlen for at udregne RSI. Reactive Strenght Index kan altså øges ved enten at forbedre hoppehøjden eller reducere kontakttiden på jorden - eller begge ting på samme tid." %}
+{% include figure image_path="/assets/images/blog/reactive-strength-index-formula.png" caption="Formlen for at udregne RSI. Reactive Strength Index kan altså øges ved enten at forbedre hoppehøjden eller reducere kontakttiden på jorden - eller begge ting på samme tid." %}
 
-Det er altså et godt objektivt redskab, hvis du har adgang til en hoppemåtte eller kraftplatform. Jeg har set mange elever, der hurtigt har lært at springe på en hensigtsmæssig måde for at optimere deres RSI.
+Det er altså et godt objektivt redskab, hvis du har adgang til en hoppemåtte, smartphone eller kraftplatform. Jeg har set mange elever, der hurtigt har lært at springe på en hensigtsmæssig måde for at optimere deres RSI, når de har haft det objektive feedback-værktøj.
 
 ## Fire faser til plyometrisk træning
 

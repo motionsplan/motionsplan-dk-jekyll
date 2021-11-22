@@ -1053,6 +1053,17 @@ $(document).ready(function() {
 
         $("[name='cmj_jump_height']").val(jump_height);
     });
+    $("#calculator_dsi").submit(function(e) {
+        console.log("DSI test");
+        e.preventDefault();
+
+        let peak_force_max = Number($("[name='dsi_peak_force_max_strength']").val());
+        let peak_force_ballistic = Number($("[name='dsi_peak_force_max_ballistic']").val());
+
+        let dsi = peak_force_ballistic / peak_force_max;
+
+        $("[name='dsi']").val(dsi);
+    });
     $("#calculator_jump_cmj_initial_velocity").submit(function(e) {
         console.log("CMJ test");
         e.preventDefault();

@@ -686,7 +686,18 @@ $(document).ready(function() {
 
         jump_height = jump_height * 100;
 
-        $("[name='cmj_jump_height']").val(jump_height);
+        $("[name='cmj_jump_height']").val(jump_height.toFixed(2));
+    });
+    $("#calculator_dsi").submit(function(e) {
+        console.log("DSI test");
+        e.preventDefault();
+
+        let peak_force_max = Number($("[name='dsi_peak_force_max_strength']").val());
+        let peak_force_ballistic = Number($("[name='dsi_peak_force_max_ballistic']").val());
+
+        let dsi = peak_force_ballistic / peak_force_max;
+
+        $("[name='dsi']").val(dsi.toFixed(2));
     });
     $("#calculator_jump_cmj_initial_velocity").submit(function(e) {
         console.log("CMJ test");
@@ -700,7 +711,7 @@ $(document).ready(function() {
 
         jump_height = jump_height * 100;
 
-        $("[name='cmj_jump_height_initial_velocity']").val(jump_height);
+        $("[name='cmj_jump_height_initial_velocity']").val(jump_height.toFixed(2));
     });
     // Udregn 1punkttest
     $("#calculator_fitness_jog_vo2").submit(function(e) {

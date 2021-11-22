@@ -1,6 +1,5 @@
 ---
-title: &title "Mål hoppehøjde med counter movement jump (CMJ) og squat jump (SJ)"
-seo_title: "Mål springhøjde med counter movement jump og squat jump"
+title: &title "Counter movement jump (CMJ) og squat jump (SJ)"
 permalink: /countermovement-jump-cmj-squat-jump-sj/
 language: da
 header:
@@ -18,6 +17,16 @@ toc: true
 ---
 
 Et counter movement jump (CMJ) og et squat jump (SJ) kan bruges til at måle eksplosivitet i benenes muskulatur.
+
+Disse to vertikale hop kan man lave med flere forskellige måleredskaber. Jeg har beskrevet [forskellige måder at måle hoppehøjde på](/springtests-hoppehoejde/). Den billigste måde er at bruge din smartphone, men ellers bruger man ofte en hoppemåtte eller en kraftplatform.
+
+Du kan både måle CMJ og SJ med:
+
+- Kraftplatform
+- Hoppemåtte eller kontaktmåtte
+- Videoanalyse på din smartphone
+
+Disse springtests kan være gode i forhold til at måle fremgang i din styrketræning og [springtræning](/springstyrke-og-springtraening/).
 
 ## Hvordan laver man et counter movement jump (CMJ)?
 

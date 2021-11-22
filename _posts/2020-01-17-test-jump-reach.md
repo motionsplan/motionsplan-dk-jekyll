@@ -13,7 +13,7 @@ tags:
   - test
   - springtest
   - spring
-last_modified_at: 2019-11-19T23:14:14Z
+last_modified_at: 2011-11-19T23:14:14Z
 toc: true
 ---
 
@@ -21,9 +21,19 @@ Jump & Reach test er en god springtest, som både måler springhøjde og rækkeh
 
 Jump & Reach testen er en relativt enkel test at sætte op, men koordinationen med at skulle række op med en arm har naturligvis betydning for resultatet.
 
+[Sargent Jump Testen](/sargent-jump-test/) er en lavpraktisk og gratis måde at lave Jump & Reach-testen på. I dette indlæg forudsætter vi, at du har adgang til en Vertec. Jump & Reach testen er bare en [hoppetest](/springtests-hoppehoejde/).
+
 Du kan læse meget mere om Jump and Reach-testen hos [Science for Sport](https://www.scienceforsport.com/vertec-jump-test/).
 
 {% include video provider="youtube" id="85EtdsmFCoY" %}
+
+## Brug en Vertec til målingen
+
+En Vertec er en lang stang, som har en masse horisontale flade og lange plader, der kan rotere omkring stangen. Først skal du måle din rækkevidde. Derefter måler man springhøjden ved at se, hvor mange plader du kan skubbe til side. 
+
+Det er sjovt at bruge en Vertec, og den kan give hurtige og præcise resultater, når den bliver brugt rigtigt.
+
+Ulempen er, at man godt kan snyde med sin rækkehøjde, hvilket gør at man får et højere resultat. En god Vertec er heller ikke billig. Den vil formentlig koste omkring 650 USD. Derfor er det nok de færreste, der vil købe en derhjemme. Men så kan du naturligvis lave dit eget lille [DIY-projekt](https://www.youtube.com/watch?v=j0pZ75N970A).
 
 ## Sådan udfører du Jump & Reach-testen
 
@@ -75,7 +85,7 @@ Formlerne er så vidt jeg kan se primært skabt på baggrund af hhv. [squat jump
 
 Den mest brugte formel ser ud til at være Harman (1991), men den nyere formel fra [Sayers et al (1999)](https://journals.lww.com/acsm-msse/Fulltext/1999/04000/Cross_validation_of_three_jump_power_equations.13.aspx), hvor de sammenlignede Lewis (1974), Harman (1991) og lavede deres egne formler fandt de, at **[Sayers et al (1999)](https://journals.lww.com/acsm-msse/Fulltext/1999/04000/Cross_validation_of_three_jump_power_equations.13.aspx) egne formler var de mest præcise til at estimere _peak power_**.
 
-## Hvordan kan jeg spring højere med tilløb?
+## Hvordan kan jeg springe højere med tilløb?
 
 Hvis du sørger for en god teknik, så kan du springe højere med tilløb. Se fx de gode råd i denne Youtube-video.
 
