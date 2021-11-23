@@ -27,9 +27,10 @@ jobs:
           fetch-depth: 1
       - name: Install dependencies
         run: sudo apt-get update && sudo apt-get install -y --no-install-recommends bats build-essential ca-certificates curl make shellcheck libgsl-dev libffi-dev
-      - uses: actions/setup-ruby@v1
+      - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '2.7'
+          ruby-version: 2.6 # Not needed with a .ruby-version file
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
       - name: Setting up dependencies
         run: |
           bundle install
