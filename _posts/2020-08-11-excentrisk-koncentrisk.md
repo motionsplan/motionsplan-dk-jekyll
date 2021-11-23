@@ -57,11 +57,11 @@ Langsom, tung styrketræning og excentrisk træning er to typer styrketræning, 
 
 Der er lavet protokoller, hvor man har lavet tung, langsom styrketræning 2-3 gange om ugen, og der er lavet protokoller, hvor man har lavet excentrisk arbejde 2 gange om dagen.
 
-Henning Langberg konkluderer, at man ikke præcist ved om [excentrisk træning er bedre end koncentrisk træning](http://www.henninglangberg.dk/eccentrisk-eller-koncentrisk/) i forhold til at regenerere senevævet. Mange anbefaler imidlertid i øjeblikket at lave en excentrisk kontraktion i forbindelse med [skadesforebyggelse og nedsættelse af smerter omkring senerne]({% link _posts/2020-11-23-skadesforebyggelse.md %}).
+Henning Langberg konkluderer, at man ikke præcist ved om [excentrisk træning er bedre end koncentrisk træning](http://web.archive.org/web/20210417203404/http://www.henninglangberg.dk/eccentrisk-eller-koncentrisk/){: rel="nofollow noopener" } i forhold til at regenerere senevævet. Mange anbefaler imidlertid i øjeblikket at lave en excentrisk kontraktion i forbindelse med [skadesforebyggelse og nedsættelse af smerter omkring senerne]({% link _posts/2020-11-23-skadesforebyggelse.md %}).
 
 [Kongsgaard et al (2009)](http://www.ncbi.nlm.nih.gov/pubmed/19793213) konkluderer, at tung, langsom styrketræning med både koncentrisk og excentrisk fase er bedre på lang sigt end excentrisk træning alene. Dette træningsforløb var lavet på patellasenen, som er et ligament og ikke en sene.
 
-Henning Langberg har selv lavet et studium, hvor de viser at [excentrisk træning er med til at stimulere senens dannelse af kollagen](http://henninglangberg.wordpress.com/seneskader-tendons/eccentrisk-traening-derfor-virker-det/) og måske den vej styrker senevævet, så det ikke overbelastes af træning.
+Henning Langberg har selv lavet et studium, hvor de viser at [excentrisk træning er med til at stimulere senens dannelse af kollagen](http://web.archive.org/web/20120411053543/http://henninglangberg.wordpress.com/seneskader-tendons/eccentrisk-traening-derfor-virker-det/){: rel="nofollow noopener" } og måske den vej styrker senevævet, så det ikke overbelastes af træning.
 
 ## Hvad er isometrisk træning?
 

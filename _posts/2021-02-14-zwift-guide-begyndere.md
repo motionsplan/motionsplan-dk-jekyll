@@ -40,7 +40,7 @@ feature_row:
     btn_class: "btn--warning"
     rel: sponsored nofollow noopener
   - image_path: https://fricdn.dk/Files/Images/FriBikeShop/ProductImages/tacx-flux-2-zwift-bundle.jpg?width=840&height=573&bgcolor=fff&format=jpeg&quality=80&mode=crop
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70559&htmlurl=http://www.fribikeshop.dk/Default.aspx?ID=286&ProductID=PROD917
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70559&htmlurl=https://www.fribikeshop.dk/prod/96-T2900S-64/tacx-flux-s-smart-hometrainer
     title: Tacx Flux 2 Smart Zwift Bundle
     excerpt: "Kraftfuld, præcis og støjsvag hometrainer med direkte drev-montering. Tacx FLUX 2 Smart virker rigtig godt sammen med Zwift og er lidt billigere end Wahoo Kickr 5.0."
     btn_label: "Tjek prisen"
@@ -125,7 +125,7 @@ Du kan også købe vindmodstand. Du kan købe en **blæser som kan simulere vind
 
 — <cite>Martin Mortensen, cykellærer på Vejle Idrætsefterskole</cite>
 
-Du kan også købe et helt Zwift-bundle fra Tacx hos [fribikeshop.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70559&htmlurl=http://www.fribikeshop.dk/Default.aspx?ID=286&ProductID=PROD917){: rel='sponsored nofollow noopener' }.
+Du kan også købe et helt Zwift-bundle fra Tacx hos [fribikeshop.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=70559&htmlurl=https://www.fribikeshop.dk/prod/96-T2900S-64/tacx-flux-s-smart-hometrainer){: rel='sponsored nofollow noopener' }.
 
 Der er også mange er vælger at få en måtte under cyklen. En måtte beskytter gulvet mod sved og olie fra cyklen, men den er også med til at gøre kørekomforten bedre, da den støddæmper lidt. Samtidig lyddæmper den også lidt. Wahoo sælger naturligvis også [måtter til at have under cyklen](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=35898&htmlurl=https://cykelexperten.dk/wahoo-kickr-mat/?source=partner-ads){: rel='sponsored nofollow noopener' }.
 
