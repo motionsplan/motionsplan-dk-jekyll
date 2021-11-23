@@ -25,17 +25,28 @@ jobs:
         uses: actions/checkout@v2
         with:
           fetch-depth: 1
+      - name: Get cached gems
+        uses: actions/cache@v2
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
       - name: 🔨 Build site
-        uses: ./.github/actions/build-dist-site
-        env:
+        uses: helaili/jekyll-action@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+#      - name: 🔨 Build site
+#        uses: ./.github/actions/build-dist-site
+#        env:
           # Now make sure you add this environment variable.
           # This token will allow us to push to github directly
           # without having to type in our password.
           # The GITHUB_TOKEN is available by default 
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
-          GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
-          ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
+#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#          GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
+#          GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
+#          ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
       - name: 📉 Check HTML
         uses: chabad360/htmlproofer@master
         with:
