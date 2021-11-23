@@ -21,8 +21,10 @@ jobs:
       # This is the first action. It will make sure that we have
       # all the necessary files from our repo, including our custom actions
       # This action here is actually from a remote repo available from Githup itself
-      - name: Checkout master
+      - name: 🛎 Checkout master
         uses: actions/checkout@v2
+        with:
+          fetch-depth: 1
       # This is our custom action. Here is where we will define our git commands
       # to push our website updates to the `gh-pages` branch.
       # Notice that we are specifying the path to the action here.
@@ -30,7 +32,16 @@ jobs:
       #- uses: helaili/jekyll-action@2.0.0
       #  env:
       #    JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
-      - name: Build site
+
+      - name: 🚀 Cache deps
+        uses: actions/cache@v2
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+
+      - name: 🔨 Build site
         uses: ./.github/actions/build-dist-site
         env:
           # Now make sure you add this environment variable.
@@ -40,7 +51,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
           GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
-      - name: Check HTML
+      - name: 📉 Check HTML
         uses: chabad360/htmlproofer@master
         with:
           directory: "./_site"
