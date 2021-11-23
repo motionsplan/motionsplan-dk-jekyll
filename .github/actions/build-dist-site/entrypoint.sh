@@ -51,10 +51,6 @@ git push --force $REMOTE_REPO master:gh-pages
 
 echo "🎉 New version deployed 🎊"
 
-echo "☁️ Validating website"
-
-bundle exec htmlproofer ./ --only-4xx --assume-extension --check-favicon --check-html --http-status-ignore "400, 403, 409, 429" --allow-hash-href --empty_alt_ignore
-
 echo "☁️ Cleaning up"
 
 # Now everything is ready.
