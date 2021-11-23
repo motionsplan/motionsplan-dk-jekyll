@@ -6,10 +6,8 @@ node_modules
 bower_components
 .jekyll-metadata
 .DS_Store
-Gemfile.lock
 vendor/
 composer.phar
-composer.lock
 _scripts/*.png
 npm-debug.log
 .jekyll-cache/*
@@ -17,5 +15,4 @@ jekyll-algolia-record-too-big.log
 */.ztr-directory
 .bundle/
 vendor/
-package-lock.json
 build/
