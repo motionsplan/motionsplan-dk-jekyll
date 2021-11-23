@@ -27,6 +27,15 @@ tags:
   - beregner
 last_modified_at: 2021-05-12T07:14:14Z
 toc: true
+feature_row_sheet:
+  - image_path: /assets/images/freebies/rmberegner.png
+    alt: "Google Sheets med RM-beregner"
+    title: "RM-beregner i Google Sheets"
+    excerpt: "I dette Google Sheets kan du selv lege lidt med at estimere din 1RM og efterfølgende prøve det af i praksis."
+    url: "https://docs.google.com/spreadsheets/d/1jgy_8ohlwPi3omneYpdEQ3Uj3N2syS0D2-jI1K5gA74/copy#gid=499201424"
+    btn_label: "Download"
+    btn_class: "btn--success"
+    rel: nofollow noopener
 feature_row:
   - image_path: https://imgcdn.saxo.com/_9788771801835/0x500
     alt: "Stærk - et procentbaseret program ud fra one repetition maximum, 1RM-test og 1RM-beregner"
@@ -264,6 +273,12 @@ Testen går således ud på, at du skal finde en vægt, du kan løfte 1 - 10 gan
 **Eksempel.** Jeg vil teste min maksimale styrke i bænkpres. Først laver jeg et par opvarmningssæt med let vægt og middelhøj vægt. Så sætter jeg 80 kg på, og det forventer jeg, at jeg kan løfte 4 gange. Jeg prøver, og det viser sig, at jeg kan løfte vægten 3 gange. Min 3RM er altså 80 kg.
 
 **Udregning af 1RM.** Når jeg ved det, kan jeg bruge 1RM Beregneren. Jeg taster mine tal ind, og finder ud af, at min 1RM er 85 kg.
+
+## Regneark med beregner
+
+Her kan du finde en RM-beregner lavet i Google Sheets.
+
+{% include feature_row id="feature_row_sheet" type="left" %}
 
 ## Konklusion om RM-beregnere
 
