@@ -39,9 +39,13 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gems-
       - name: 🔨 Build site
-        uses: helaili/jekyll-action@v2
+        uses: jeffreytse/jekyll-deploy-action@v0.3.1
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          provider: 'github'
+          token: ${{ secrets.GITHUB_TOKEN }} # It's your Personal Access Token(PAT)
+#        uses: helaili/jekyll-action@v2
+#        with:
+#          token: ${{ secrets.GITHUB_TOKEN }}
 #      - name: 🔨 Build site
 #        uses: ./.github/actions/build-dist-site
 #        env:
