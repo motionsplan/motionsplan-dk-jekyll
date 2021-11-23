@@ -36,7 +36,11 @@ Gennemsnitshøjden for mænd er generelt højere end for kvinder, men hvis vi ki
 
 I undersøgelsen er det nok til at give mændene en femteplads og kvinderne en syvendeplads for gennemsnitshøjder på verdensplan.
 
+{% comment %}
+
 {% include figure image_path="https://samvirke.dk/sites/default/files/styles/image_component_large/public/migrated/ho/hoejdegrafik.png_0.png.jpeg?itok=f1iIYrm6" caption="Danskernes gennemsnitshøjde er blandt de højeste i verden. Kilde: [Samvirke](http://web.archive.org/web/20201028141402/https://samvirke.dk/artikler/danskerne-er-blandt-de-hoejeste-i-verden){: rel='nofollow noopener' }." alt="tabel med gennemsnitshøjde i Danmark" %}
+
+{% endcomment %}
 
 Men det betyder faktisk også, at mændenes gennemsnitshøjde er steget med 11,8 cm og kvindernes gennemsnitshøjde emd 10,1 cm de seneste 100 år. Det er ret vildt synes jeg.
 

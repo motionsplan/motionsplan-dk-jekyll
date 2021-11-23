@@ -101,11 +101,11 @@ Det viser sig, at [excentrisk træning beskytter mod fibersprængninger i baglå
 
 — <cite>[Proske og Morgan (2001)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2278966/)</cite>
 
-Man ved ikke præcist om [excentrisk træning er bedre end koncentrisk træning](http://www.henninglangberg.dk/eccentrisk-eller-koncentrisk/) i forhold til at regenerere senevævet. 
+Man ved ikke præcist om [excentrisk træning er bedre end koncentrisk træning](http://web.archive.org/web/20210417203404/http://www.henninglangberg.dk/eccentrisk-eller-koncentrisk/){: rel="nofollow noopener" } i forhold til at regenerere senevævet. 
 
 [Kongsgaard et al (2009)](http://www.ncbi.nlm.nih.gov/pubmed/19793213) konkluderer i sit træningsstudium med et træningsforløb i forhold til rehabilitering af patellasenen, at tung, langsom styrketræning med både koncentrisk og excentrisk fase er bedre på lang sigt end excentrisk træning alene. 
 
-Der ser også ud til, at [excentrisk træning er med til at stimulere senens dannelse af kollagen](http://henninglangberg.wordpress.com/seneskader-tendons/eccentrisk-traening-derfor-virker-det/) og måske den vej styrker senevævet, så det ikke overbelastes af træning.
+Der ser også ud til, at [excentrisk træning er med til at stimulere senens dannelse af kollagen](http://web.archive.org/web/20120411053543/http://henninglangberg.wordpress.com/seneskader-tendons/eccentrisk-traening-derfor-virker-det/){: rel="nofollow noopener" } og måske den vej styrker senevævet, så det ikke overbelastes af træning.
 
 ## Hvordan kan jeg lave excentrisk træning?
 

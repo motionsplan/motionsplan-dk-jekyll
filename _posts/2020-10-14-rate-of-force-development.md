@@ -64,10 +64,10 @@ Jeg er selv blevet ret interesseret i [velocity based training]({% link _posts/2
 
 ## Hvordan kan jeg teste Rate of Force Development?
 
-En meget brugt test er en [IMTP-test](/imtp/) på en kraftplatform. Du trækker i en stang, som er fastgjort, mens kraftplatformen måler den kraft du trækker med.
+En meget brugt test er en [IMTP-test](/imtp-test/) på en kraftplatform. Du trækker i en stang, som er fastgjort, mens kraftplatformen måler den kraft du trækker med.
 
 ## Hvad sker der med Rate of Force Development med alderen
 
-[Henning Langberg](http://www.henninglangberg.dk/styrketraening/eksplosiv-muskelstyrke-rfd/) skriver, at det er vanskeligere at træne RFD, når du bliver ældre. Det er imidlertid stadig virkelig vigtigt, at du kan udvikle kraft hurtigt for at undgå at falde og miste balancen. Derfor bør aldre også fokusere på at udvikle kraft hurtigt, når de træner styrketræning.
+[Henning Langberg](http://web.archive.org/web/20210305220145/http://www.henninglangberg.dk/styrketraening/eksplosiv-muskelstyrke-rfd/){: rel="nofollow noopener" } skriver, at det er vanskeligere at træne RFD, når du bliver ældre. Det er imidlertid stadig virkelig vigtigt, at du kan udvikle kraft hurtigt for at undgå at falde og miste balancen. Derfor bør aldre også fokusere på at udvikle kraft hurtigt, når de træner styrketræning.
 
 *[RFD]: Rate of Force Development

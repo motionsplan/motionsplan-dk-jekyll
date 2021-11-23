@@ -53,7 +53,7 @@ Vi bruger den særligt til [Jump & Reach-testen](/jump-reach/).
 
 ## 3. Hoppemåtte
 
-På en hoppemåtte eller kontaktmåtte kan du få målt, hvor lang svævetiden og kontakttiden er. Det betyder, at det er relativt let at bruge en hoppemåtte til at måle fx [Reactive Strength Index](/reactive-strenght-index/).
+På en hoppemåtte eller kontaktmåtte kan du få målt, hvor lang svævetiden og kontakttiden er. Det betyder, at det er relativt let at bruge en hoppemåtte til at måle fx [Reactive Strength Index](/reactive-strength-index/).
 
 På Vejle Idrætshøjskole har vi Swift Performance Ezejump. Den bruger vi bl.a. til at lave [counter movement jumps](/countermovement-jump-cmj-squat-jump-sj/).
 

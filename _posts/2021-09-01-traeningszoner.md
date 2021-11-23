@@ -181,7 +181,7 @@ Selvom de 7 træningszoner kan give god mening forklaringsmæssigt, så er de en
 
 En anden model at forstå træning ud fra kan være 3-zoners-modellen. Her arbejder vi med tre zoner.
 
-{% include figure image_path="https://fiteducation.edu.au/wp-content/uploads/2021/07/FitEd_Polarised_Training_V2_Diagram-1-1024x724.jpg" caption="Her kan du se de tre zoner beskrevet i forhold til RPE. Angivelserne i procent er et udtryk for den polariserede træningsmodel. Kilde: [fiteducation.edu.au](https://fiteducation.edu.au/2020/02/06/darn-well-jogging-around/)" %}
+{% include figure image_path="https://fiteducation.edu.au/wp-content/uploads/2021/07/FitEd_Polarised_Training_V2_Diagram-1-1024x724.jpg" caption="Her kan du se de tre zoner beskrevet i forhold til RPE. Angivelserne i procent er et udtryk for den polariserede træningsmodel. Kilde: [fiteducation.edu.au](https://fiteducation.edu.au/2020/02/06/blog-darn-well-jogging-around/)" %}
 
 ## Hvordan styrer jeg intensitet i min træning?
 
