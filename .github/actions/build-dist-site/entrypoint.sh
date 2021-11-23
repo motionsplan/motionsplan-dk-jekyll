@@ -59,8 +59,4 @@ rm -fr .git
 cd ..
 rm -rf repo
 
-echo "☁️ Rebuilding Algolia"
-
-bundle exec jekyll algolia
-
 echo "☁️ Everything is cleaned"
