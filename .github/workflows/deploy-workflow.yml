@@ -47,6 +47,10 @@ jobs:
 #          GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
 #          GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
 #          ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
+      - name: Algolia Jekyll Action
+        uses: dieghernan/algolia-jekyll-action@v1
+        with:
+          APIKEY: '${{ secrets.ALGOLIA_API_KEY }}'
       - name: 📉 Check HTML
         uses: chabad360/htmlproofer@master
         with:
