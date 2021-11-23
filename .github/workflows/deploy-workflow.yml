@@ -21,6 +21,8 @@ jobs:
       # This is the first action. It will make sure that we have
       # all the necessary files from our repo, including our custom actions
       # This action here is actually from a remote repo available from Githup itself
+      - name: Install dependencies
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends bats build-essential ca-certificates curl make shellcheck libgsl-dev libffi-dev
       - name: 🛎 Checkout master
         uses: actions/checkout@v2
         with:
