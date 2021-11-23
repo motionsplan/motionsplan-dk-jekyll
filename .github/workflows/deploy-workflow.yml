@@ -21,12 +21,18 @@ jobs:
       # This is the first action. It will make sure that we have
       # all the necessary files from our repo, including our custom actions
       # This action here is actually from a remote repo available from Githup itself
-      #- name: Install dependencies
-      #  run: sudo apt-get update && sudo apt-get install -y --no-install-recommends bats build-essential ca-certificates curl make shellcheck libgsl-dev libffi-dev
       - name: 🛎 Checkout master
         uses: actions/checkout@v2
         with:
           fetch-depth: 1
+      - name: Install dependencies
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends bats build-essential ca-certificates curl make shellcheck libgsl-dev libffi-dev
+      - uses: actions/setup-ruby@v1
+        with:
+          ruby-version: '2.7'
+      - name: Setting up dependencies
+        run: |
+          bundle install
       - name: Get cached gems
         uses: actions/cache@v2
         with:
@@ -34,28 +40,37 @@ jobs:
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: |
             ${{ runner.os }}-gems-
-#      - name: 🔨 Build site
-#        uses: helaili/jekyll-action@v2
-#        with:
-#          token: ${{ secrets.GITHUB_TOKEN }}
       - name: 🔨 Build site
-        uses: ./.github/actions/build-dist-site
+        run: |
+          JEKYLL_ENV=production bundle exec jekyll build --trace --verbose --lsi
+#      - name: 🔨 Build site
+#        uses: ./.github/actions/build-dist-site
+#        env:
+#          # Now make sure you add this environment variable.
+#           # This token will allow us to push to github directly
+#          # without having to type in our password.
+#          # The GITHUB_TOKEN is available by default 
+#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#          GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
+#          GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
+      - name: Deploy to GitHub Pages
+        if: success()
+        uses: crazy-max/ghaction-github-pages@v2
+        with:
+          target_branch: gh-pages
+          build_dir: _site
         env:
-          # Now make sure you add this environment variable.
-           # This token will allow us to push to github directly
-          # without having to type in our password.
-          # The GITHUB_TOKEN is available by default 
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
-          GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
       - name: 📉 Check HTML
         uses: chabad360/htmlproofer@master
+        continue-on-error: true
         with:
-          directory: "./"
+          directory: "./site"
           # The directory to scan
           arguments: --only-4xx --assume-extension --check-favicon --check-html --check_opengraph --http-status-ignore "400, 403, 409, 429" --allow-hash-href --empty_alt_ignore
           # The arguments to pass to HTMLProofer
       - name: Algolia Jekyll Action
+        continue-on-error: true
         uses: dieghernan/algolia-jekyll-action@v1
         with:
           APIKEY: '${{ secrets.ALGOLIA_API_KEY }}'
