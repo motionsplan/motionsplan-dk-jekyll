@@ -82,20 +82,39 @@ social:
 # Site search
 search: true
 
-search_provider: algolia
+search_provider: lunrjs
 
-algolia:
+google: # Ulempe reklamer
+  search_engine_id: 7f59fba70b9fff468
+
+algolia: # Ulempe størrelse
   application_id: 32VPRNT313 # YOUR_APPLICATION_ID
   index_name: prod_motionsplan # YOUR_INDEX_NAME
   search_only_api_key: c272af06e349e9b66c24657163065fce # YOUR_SEARCH_ONLY_API_KEY
   powered_by: true # true (default), false
+  nodes_to_index: 'p'
   files_to_exclude:
+    - index.html
     - _pages/anatomy/anatomi.md
     - _posts/2012-07-31-naturfitness.md
     - _posts/2020-08-03-citater.md
     - _posts/2020-08-03-citater-fitness-bodybuilding.md
     - _posts/2021-01-03-citater-om-at-kaempe.md
     - _posts/2021-01-03-citater-om-yoga-mindfulness.md
+    - _pages/activities-archive.md
+    - _pages/blog-archive.md
+    - _pages/category-activity-archive.md
+    - _pages/category-anatomy-archive.md
+    - _pages/category-archive.md
+    - _pages/category-programs-archive.md
+    - _pages/tag-activity-archive.md
+    - _pages/tag-anatomy-archive.md
+    - _pages/tag-archive.md
+    - _pages/tag-programs-archive.md
+    - _exercises/*
+    - _presentations/*
+    - _methods/*
+    - _trainingprograms/*
 
 # Analytics
 analytics:

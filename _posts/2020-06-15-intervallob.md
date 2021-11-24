@@ -19,6 +19,7 @@ tags:
   - aerob træning
   - featured
   - løb
+popular: true
 last_modified_at: 2021-09-15T08:14:14Z
 toc: true
 breadcrumb: true

@@ -20,6 +20,7 @@ tags:
   - formel
   - featured
   - beregner
+popular: true
 last_modified_at: 2021-01-06T22:14:14Z
 faq:
   - question: "Hvad skal kvinders BMI være?"

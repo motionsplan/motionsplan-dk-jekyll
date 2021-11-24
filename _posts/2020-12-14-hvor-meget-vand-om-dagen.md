@@ -15,6 +15,7 @@ tags:
   - hydrering
   - beregner
   - featured
+popular: true
 last_modified_at: 2020-12-16T23:14:14Z
 toc: true
 faq:

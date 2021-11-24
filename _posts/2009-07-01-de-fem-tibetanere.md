@@ -10,6 +10,7 @@ header:
   overlay_image: /assets/images/blog/de-fem-tibetanere.jpg
   teaser: /assets/images/blog/de-fem-tibetanere.jpg
   caption: "De fem tibetanere: 5 tibetanske yoga øvelser og riter"
+popular: true
 tags:
   - yoga
   - træning
