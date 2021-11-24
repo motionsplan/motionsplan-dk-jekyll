@@ -92,6 +92,10 @@ algolia:
   files_to_exclude:
     - _pages/anatomy/anatomi.md
     - _posts/2012-07-31-naturfitness.md
+    - _posts/2020-08-03-citater.md
+    - _posts/2020-08-03-citater-fitness-bodybuilding.md
+    - _posts/2021-01-03-citater-om-at-kaempe.md
+    - _posts/2021-01-03-citater-om-yoga-mindfulness.md
 
 # Analytics
 analytics:
