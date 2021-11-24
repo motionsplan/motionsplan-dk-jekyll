@@ -29,7 +29,7 @@ jobs:
         run: |
           sudo apt-get update 
           sudo apt-get install -y --no-install-recommends bats build-essential ca-certificates curl make shellcheck libgsl-dev libffi-dev
-          gem install bundler:2.2.7
+          sudo gem install bundler:2.2.7
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.6 # Not needed with a .ruby-version file
