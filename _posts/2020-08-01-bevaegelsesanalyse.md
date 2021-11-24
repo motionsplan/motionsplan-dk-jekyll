@@ -15,6 +15,7 @@ tags:
   - bevægelsesanalyse
   - anatomi
   - bevægelsesplaner
+  - led
 feature_row:
   - url: https://docs.google.com/document/d/1heeWvmkSrBSMibkkISQ0kLMSZmSYw_v8pJjk7cwXUZo/copy?usp=sharing
     image_path: /assets/images/blog/movement-analysis.png
@@ -81,7 +82,7 @@ En tilgang til at lave en bevægelsesanalyse kommer her i punktform, så du hurt
 
 ### 2) Visualisering af bevægelsen
 
-Lav en skitse af bevægelsen, så får du nemlig et bedre overblik over bevægelsen. Du kan enten tegne eller tage billeder med mobilen af de forskellige faser, der er i bevægelsen. 
+Lav en skitse af bevægelsen, så får du nemlig et bedre overblik over bevægelsen. Du kan enten tegne eller tage billeder med mobilen af de forskellige faser, der er i bevægelsen.
 
 Så kan du analysere de forskellige faser i bevægelsen bagefter. De fleste idrætsbevægelser har flere faser, og du skal beskrive overgangen fra en fase til den næste. Det er overgangen mellem faserne, der er vigtige i bevægelsesanalysen.
 
@@ -90,7 +91,7 @@ Så kan du analysere de forskellige faser i bevægelsen bagefter. De fleste idr�
 - Hvor mange og hvilke faser i bevægelsen udvælger du?
 - Hvilke led bevæges under bevægelsen i de forskellige faser?
 - Hvilke bevægelser foregår der? Sker der en fleksion, ekstension eller rotation i leddet?
-- Hvilke muskler arbejder i bevægelsen? 
+- Hvilke muskler arbejder i bevægelsen?
 - Arbejder de aktive muskler [excentrisk, koncentrisk eller statisk]({% link _posts/2020-08-11-excentrisk-koncentrisk.md %}) i bevægelsen?
 
 ## Hvordan griber du bevægelsesanalyse an?
