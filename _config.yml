@@ -91,6 +91,7 @@ algolia:
   powered_by: true # true (default), false
   files_to_exclude:
     - _pages/anatomy/anatomi.md
+    - _posts/2012-07-31-naturfitness.md
 
 # Analytics
 analytics:

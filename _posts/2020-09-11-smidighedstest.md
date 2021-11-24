@@ -10,6 +10,7 @@ category:
   - Sundhed
   - Træning
   - Test
+  - Led
 tags:
   - smidighed
   - test
