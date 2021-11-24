@@ -119,4 +119,4 @@ Når du har lavet en screening, så kan du gå i gang med at lave et træningspr
 
 Du kan fx lave et [løbeprogram]({% link _posts/2021-08-24-hvordan-loebeprogram.md %}).
 
-[Bonus: Ark til screening »](https://docs.google.com/document/d/1XHq9-ydpCJ1ggxoKHUvP_MoyKJuVwLF4MZLfuaDZSCQ/copy){: .btn--large .btn--success }
+[<i class='fas fa-file-alt'></i> Bonus: Ark til screening »](https://docs.google.com/document/d/1XHq9-ydpCJ1ggxoKHUvP_MoyKJuVwLF4MZLfuaDZSCQ/copy){: .btn--large .btn--success rel="nofollow noopener" }

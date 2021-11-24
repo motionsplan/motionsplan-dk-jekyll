@@ -24,7 +24,8 @@ feature_row:
     title: Hvordan laver jeg et godt træningsprogram?
     excerpt: Her er en infographic lavet i Google Docs med nogle af hovedpunkterne til, hvordan du laver et godt træningsprogram til kombinationstræning.
     btn_class: btn--warning
-    btn_label: "Download Google Docs"
+    btn_label: "<i class='fas fa-file-alt'></i> Download Google Docs"
+    rel: nofollow noopener
 ---
 
 Jeg kan godt lide at kombinere styrketræning, løbetræning og konditionstræning samtidigt. Det kalder man _concurrent training_, kombinationstræning eller samtidig træning. Hvordan kan man træne styrke og cardio samtidigt, og hvad er den bedste kombination?

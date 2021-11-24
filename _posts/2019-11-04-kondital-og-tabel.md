@@ -41,8 +41,9 @@ feature_row_kondital:
     excerpt: Skemaet og tabellen over kondital kan udskrives herfra, så den er lige
       til at hænge op på væggen. Tabellen er lavet i Google Docs.
     url: https://docs.google.com/document/d/1Yzzxktbt0Y_8E1fpPENZE1Jt8s6-8jkojvBCI7hpLic/copy?usp=sharing
-    btn_label: Se tabel over kondital
+    btn_label: <i class='fas fa-file-alt'></i> Se tabel over kondital
     btn_class: btn--success
+    rel: nofollow noopener
 faq:
   - question: "Hvad er definitionen på et kondital?"
     answer: "Et kondital er defineret ved din maksimale iltoptagelse delt med din kropsvægt. Det måles i ml O<sub>2</sub> pr. min pr. kg kropsvægt."

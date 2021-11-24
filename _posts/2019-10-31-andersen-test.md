@@ -25,13 +25,15 @@ feature_row:
     title: "Noteringsark til Andersen Testen"
     excerpt: "Der printes et ark til hver elev. Man krydser af for hver 20 meter der er løbet."
     btn_class: btn--success
-    btn_label: "Lav en kopi i Google Sheet"
+    btn_label: "<i class='fas fa-file-excel'></i> Lav en kopi i Google Sheet"
+    rel: nofollow noopener
   - image_path: /assets/images/freebies/andersen-sheet.png
     url: https://docs.google.com/spreadsheets/d/1-X2FCa4TrjKbJivHk1LSAMjFquvGvWIONRexc97ifhM/copy?usp=sharing
     title: "Beregn kondital fra Andersen Testen"
     excerpt: "Her kan du hente et ark, hvor du taster alle elevers resultater ind. Arket er kodet til at udregne elevernes kondital."
     btn_class: btn--success
-    btn_label: "Lav en kopi i Google Sheet"
+    btn_label: "<i class='fas fa-file-excel'></i> Lav en kopi i Google Sheet"
+    rel: nofollow noopener
 ---
 
 Andersen testen er en konditionstest, som er særligt velegnet til børn. Andersens test er let at udføre med mange børn og alle er aktiveret undervejs.

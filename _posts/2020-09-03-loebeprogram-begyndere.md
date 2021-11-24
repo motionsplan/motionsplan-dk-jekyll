@@ -24,8 +24,9 @@ feature_row_program:
     url: https://docs.google.com/document/d/1goPqka7HO8obvxKe4Zc4qAWks5WSZ4B8ScMledIOFIY/copy?usp=sharing
     title: "Løbeprogram til nybegynder"
     excerpt: "Forslag til et løbeprogram, hvor du kan komme fra 0 til 5 kilometer som begynder. Vi arbejder os op fra at gå til at kunne løbe længere og længere i fire faser. Programmet er målrettet dig, der gerne vil i gang med at løbe."
-    btn_label: "Download løbeprogrammet til begyndere"
+    btn_label: "<i class='fas fa-file-alt'></i> Download løbeprogrammet til begyndere"
     btn_class: "btn--info"
+    rel: nofollow noopener
 breadcrumbs: true
 ---
 
@@ -148,7 +149,7 @@ Samtidig kan 5 minutters løbeturen sommetider føre til, at du alligevel laver 
 
 Løbeprogrammet er lige nu under udvikling. Hvis du gerne vil i gang med at løbe, så ville jeg sætte stor pris på, hvis du har mod på at afprøve løbeprogrammet, som tager 16 uger. Hvis du vælger at bruge programmet, så vil jeg tilbyde dig personlig online-vejledning undervejs. Jeg har mange års erfaring med at få folk i bedre form som højskolelærer på Vejle Idrætshøjskole. Men det kræver, at du er villig til at følge programmet.
 
-[Download løbeprogrammet til begyndere](https://docs.google.com/document/d/1goPqka7HO8obvxKe4Zc4qAWks5WSZ4B8ScMledIOFIY/copy?usp=sharing){: .btn .btn--large .btn--info }
+[Download løbeprogrammet til begyndere](https://docs.google.com/document/d/1goPqka7HO8obvxKe4Zc4qAWks5WSZ4B8ScMledIOFIY/copy?usp=sharing){: .btn .btn--large .btn--info rel="nofollow noopener" }
 
 Jeg har lavet en dybdegående artikel om, som du med fordel kan læse, når du gerne vil i gang med [løbeprogram](/artikel/kom-i-gang-med-loebetraeningen/).
 

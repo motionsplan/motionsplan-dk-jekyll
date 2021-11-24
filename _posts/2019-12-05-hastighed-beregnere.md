@@ -21,8 +21,9 @@ feature_row:
     title: "Skema med hastighed og pace"
     excerpt: "Tabel med hastighed og pace lige til at skrive ud. Her kan du hurtigt se, hvad en hastighed i km/t eller m/s svarer til i dit pace i min/km."
     url: https://docs.google.com/document/d/1Q-fvW4lL2wygQB4UyNnxrkq4sknXczDUSF7tw8hV-do/copy?usp=sharing
-    btn_label: "Udskriv hastighedstabel"
+    btn_label: "<i class='fas fa-file-alt'></i> Udskriv hastighedstabel"
     btn_class: "btn--success"
+    rel: nofollow noopener
 ---
 
 Når jeg laver træningsprogrammer til løb eller cykling, vil jeg typisk gerne kende den hastighed og tempo, jeg skal træne med. Jeg har lavet en beregner og en tabel, som kan hjælpe med at beregne km/t, m/s og min/km og derved finde din løbehastighed og cykelhastighed.

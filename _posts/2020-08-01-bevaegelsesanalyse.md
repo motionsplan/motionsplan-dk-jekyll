@@ -23,6 +23,7 @@ feature_row:
     excerpt: Download et skema i Google Docs som du kan bruge til at lave din bevægelsesanalyse.
     btn_label: "<i class='fab fa-google-drive'></i> Download skema"
     btn_class: "btn--success"
+    rel: nofollow noopener
 ---
 
 Når du underviser i idræt eller træner, så er det en god ide at lave en bevægelsesanalyse. En bevægelsesanalyse er med til at sikre, at du træner de muskler, du gerne vil træne - og bevægelsesanalysen giver dig også et godt udgangspunkt for at give feedback på bevægelser.

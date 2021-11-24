@@ -9,6 +9,7 @@ header:
   actions:
     - label: "<i class='fas fa-file-excel'></i> Sheet med forslag til forsøg"
       url: https://docs.google.com/spreadsheets/d/1kMTZgF90j0krcd7TFsMvhpsI0fCo1fqSwNXHOmJKKYA/copy?usp=sharing
+      rel: nofollow noopener
 category:
   - Styrketræning
 tags:
@@ -33,6 +34,7 @@ feature_row_spreadsheet:
     title: "Udregn dine forsøg"
     excerpt: "Du kan bruge dette Google Sheet til at hjælpe med at udregne dine tre forsøg til dit styrkeløftstævne."
     url: https://docs.google.com/spreadsheets/d/1kMTZgF90j0krcd7TFsMvhpsI0fCo1fqSwNXHOmJKKYA/copy?usp=sharing
+    rel: nofollow noopener
     btn_label: "<i class='fas fa-file-excel'></i> Sheet med forslag til forsøg"
     btn_class: "btn--success"
 feature_row_books:

@@ -28,8 +28,9 @@ feature_row:
     title: Dynamic Strength Index arbejdsark
     excerpt: Google Sheet til at registrere _peak force_ ved maksimal styrke (fx IMTP) og ballistisk styrke (fx CMJ).
     url: https://docs.google.com/spreadsheets/d/1hg3brOAlQTmSUvUnFicRcN8zqs9Tsf3rSBV1QdDitfY/copy?usp=sharing
-    btn_label: Download
+    btn_label: <i class='fas fa-file-excel'></i> Download
     btn_class: btn--success
+    rel: nofollow noopener
 ---
 
 Dynamic Strength Index (DSI) er et godt værktøj til finde ud af, om du har brug for at forbedre din maksimale styrke eller dine plyometriske egenskaber.

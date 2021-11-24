@@ -30,8 +30,9 @@ feature_row:
     title: "Tabel over distancer til udskrivning"
     excerpt: "Det modificerede skema og tabel over distancer på Cooper-testen kan udskrives herfra, så den er lige til at hænge op på væggen. Tabellen er lavet i Google Docs."
     url: "https://docs.google.com/document/d/1Y0EJ0drxNTY2qZK2alV5kI6g6zUMnCiKRGL3XR7wElQ/copy?usp=sharing"
-    btn_label: "Se tabel over Cooper-test"
+    btn_label: "<i class='fas fa-file-alt'></i> Se tabel over Cooper-test"
     btn_class: "btn--info"
+    rel: nofollow noopener
 faq:
   - question: Hvordan beregner man Cooper test?
     answer: Du kan bruge distancen på Cooper testen til at beregne dit kondital. Der findes lidt forskellige formler for konditallet, som du kan se her på siden.

@@ -93,7 +93,7 @@ Texas Method er et meget brugt op populært styrketræningsprogram. Når vægten
 
 Texas Method kan varieres på mange forskellige måder, så du kan bruge det som et overordnet skabelon for din træning. Hvis du fx vil bruge det specifikt i forhold til *powerlifting*, så skal du nok [justere balancen mellem presvarianterne og øge volumen af dødløft](https://www.powerliftingtowin.com/texas-method/).
 
-[Hent et Google Sheet](https://docs.google.com/spreadsheets/d/1otHqC33cBT2TB9RIRrXXyRLqZ3BN1-RZkIhtQPEe7DQ/copy#gid=0){: .btn .btn--large .btn--success }
+[<i class='fas fa-file-excel'></i> Hent et Google Sheet](https://docs.google.com/spreadsheets/d/1otHqC33cBT2TB9RIRrXXyRLqZ3BN1-RZkIhtQPEe7DQ/copy#gid=0){: .btn .btn--large .btn--success rel="nofollow noopener" }
 
 ## Referencer
 

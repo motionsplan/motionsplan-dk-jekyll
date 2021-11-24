@@ -274,7 +274,7 @@ Kadencen er et vigtigt parameter, når du laver rotræning. Det er også tænkt 
 - **Første 5 uger**: Start med ca. 20 tag pr. minut. I denne periode gælder det først og fremmest om at arbejde med teknikken.
 - **Sidste 5 uger**: Rigtige roere arbejder med en kadence på 22-25 tag pr. minut. Det skal du også i gang med i denne fase
 
-Jeg har stillet træningsprogrammet op i en [overskuelig tabel her](https://docs.google.com/document/d/1oEJo8Nc8s1vFBPBy25LbP-2TBj78_KwQm9Vv_wsQLcI/copy?usp=sharing). Så er det bare at printe den ud og starte træningen på romaskinen.
+Jeg har stillet træningsprogrammet op i en [overskuelig tabel her](https://docs.google.com/document/d/1oEJo8Nc8s1vFBPBy25LbP-2TBj78_KwQm9Vv_wsQLcI/copy?usp=sharing){: rel="nofollow noopener" }. Så er det bare at printe den ud og starte træningen på romaskinen.
 
 ## Concept2 træningsprogram til begyndere
 

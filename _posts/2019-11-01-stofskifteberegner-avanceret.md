@@ -22,8 +22,9 @@ feature_row:
     url: https://docs.google.com/document/d/1pWnzxIkn3h_deY7pavw-OnCxhvtSiyFfBZCoyJjj8dY/copy?usp=sharing
     title: "Skema til registrering af aktivitet"
     excerpt: "Du kan udskrive følgende skema og udfylde det for en typisk dag. Når du har udfyldt skemaet og udregnet, hvor meget aktivitet, du har i de enkelte kategorier, så er du klar til at skrive værdierne ind i beregneren af dit daglige energibehov."
-    btn_label: Download skema
+    btn_label: <i class='fas fa-file-alt'></i> Download skema
     btn_class: btn--info
+    rel: nofollow noopener
 ---
 
 I denne beregner kan du udregne dit daglige stofskifte og forbrænding. Ved at beregne energiforbruget på baggrund af dit basalstofskifte (BMR) og fysiske aktivitetsniveau, så kan du finde dit omtrentlige daglige energibehov.

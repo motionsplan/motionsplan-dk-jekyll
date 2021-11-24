@@ -19,8 +19,9 @@ feature_row:
     title: Incremental Drop Jump Test
     excerpt: Google Sheet til at registrere forsøg i Incremental Drop Jump test, hvor du får udregnet RSI baseret på hoppehøjde og kontakttid. Med vurdering baseret på Eamonn Flanagans arbejde.
     url: https://docs.google.com/spreadsheets/d/16qZ9gd6U8FZYhkoC7bPQo0Ggby0cTSmw_UzyhhZqCNk/copy?usp=sharing
-    btn_label: Download
+    btn_label: <i class='fas fa-file-excel'></i> Download
     btn_class: btn--success
+    rel: nofollow noopener
 #faq:
 # - question: "Hvad hedder træningsafhængighed på engelsk?"
 #   answer: "På engelsk er de mest anvendte betegnelser for træningsafhængighed 'exercise #addiction' og 'exercise dependence'."
@@ -105,7 +106,7 @@ På **Ezejump** hoppemåtten bruges svævetiden og kontakttiden til at udregne R
 
 {% comment %}
 
-[Resultatark til Drop Jump](https://docs.google.com/spreadsheets/d/16qZ9gd6U8FZYhkoC7bPQo0Ggby0cTSmw_UzyhhZqCNk/copy){: .btn .btn--large .btn--success }
+[<i class='fas fa-file-excel'></i> Resultatark til Drop Jump](https://docs.google.com/spreadsheets/d/16qZ9gd6U8FZYhkoC7bPQo0Ggby0cTSmw_UzyhhZqCNk/copy){: .btn .btn--large .btn--success rel="nofollow noopener" }
 
 {% endcomment %}
 

@@ -13,6 +13,7 @@ header:
   actions:
     - label: "<i class='fas fa-file-excel'></i> Sheet med 1RM-test"
       url: https://docs.google.com/spreadsheets/d/1jgy_8ohlwPi3omneYpdEQ3Uj3N2syS0D2-jI1K5gA74/copy?usp=sharing
+      rel: nofollow noopener
   overlay_filter: 0.3
 category:
   - Styrketræning
@@ -33,7 +34,7 @@ feature_row_sheet:
     title: "RM-beregner i Google Sheets"
     excerpt: "I dette Google Sheets kan du selv lege lidt med at estimere din 1RM og efterfølgende prøve det af i praksis."
     url: "https://docs.google.com/spreadsheets/d/1jgy_8ohlwPi3omneYpdEQ3Uj3N2syS0D2-jI1K5gA74/copy#gid=499201424"
-    btn_label: "Download"
+    btn_label: "<i class='fas fa-file-excel'></i> Download"
     btn_class: "btn--success"
     rel: nofollow noopener
 feature_row:
