@@ -171,4 +171,4 @@ Opvarmning til træning og sport bør være en integreret del af din samlede tr�
 - [The lifters 10 minutes warmup](https://www.t-nation.com/training/tip-the-lifters-10-minute-warm-up)
 - [Foam rolling isn't stretching, but still important](https://deansomerset.com/foam-rolling-isnt-stretching-still-important/)
 - [The most efficient Warm-Ups, Period](https://www.t-nation.com/training/the-most-efficient-warm-ups-period)
-- [Agile 8](https://breakingmuscle.com/fitness/warm-up-quickly-with-the-agile-8-routine)
+- [Agile 8](https://breakingmuscle.com/workouts/use-the-agile-8-to-warm-up-quickly/)

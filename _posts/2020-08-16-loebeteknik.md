@@ -43,7 +43,7 @@ En simpel og veldokumenteret måde at forbedre løbemekanikken i forhold til _ov
 
 Du kan se et eksempel i nedenstående figur på en løber, der laver et _overstride_ og en løber, der har et fodisæt tættere på tyngdepunktet.
 
-{% include figure image_path="https://www.researchgate.net/profile/Richard_Souza/publication/284013197/figure/fig8/AS:316757077184518@1452532180576/Overstriding-measured-at-loading-response-A-A-runner-demonstrating-normal-stride.png" caption="(A) Løberen viser en normal _stride mechanic_ og (B) en løber der løber med _overstride_, hvilket kan karakteriseres som en vertikal linje gennem den laterale maleol er foran løberens hofte. Billede fra [Souza (2015)](https://www.researchgate.net/publication/284013197_An_Evidence-Based_Videotaped_Running_Biomechanics_Analysis)" %}
+{% include figure image_path="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4714754/bin/nihms751046f8.jpg" caption="(A) Løberen viser en normal _stride mechanic_ og (B) en løber der løber med _overstride_, hvilket kan karakteriseres som en vertikal linje gennem den laterale maleol er foran løberens hofte. Billede fra [Souza (2016)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4714754/)" %}
 
 Hvis du vil ændre din kadence, så er den optimale ændring omkring 5-10% for at sikre, at du ikke ender med at blive skadet med en for stor frekvensændring. Rigtig mange løbere kan med fordel tage “kortere, hurtigere skridt”.
 
