@@ -71,10 +71,5 @@ jobs:
           # The directory to scan
           arguments: --only-4xx --assume-extension --check-favicon --check-html --check_opengraph --http-status-ignore "400, 403, 409, 429" --allow-hash-href --empty_alt_ignore
           # The arguments to pass to HTMLProofer
-      - name: Algolia Jekyll Action
-        continue-on-error: true
-        uses: dieghernan/algolia-jekyll-action@v1
-        with:
-          APIKEY: '${{ secrets.ALGOLIA_API_KEY }}'
       - name: ☁️ Cleaning up
         run: bundle exec jekyll clean
