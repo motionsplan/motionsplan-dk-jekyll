@@ -189,7 +189,7 @@ Du skal have løst tøj på, altså tøj du kan bevæge dig i. De fleste foretr�
 
 De fleste yogatimer slutter med meditation, mindfulness og afspænding. Der kan det være dejligt at have en ekstra trøje, du kan tage på. Det kan være en fordel, hvis trøjen har en hætte, så du både kan holde nakke og hovedet varmt under de sidste afslappende minutter af yogatimen. Du kan finde nogle yogatrøjer hos [youryogashop.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=76034&htmlurl=https://youryogashop.dk/oekologisk--miljoevenlig-shop/15-yoga-bluse-amp-cardigan/){: rel='sponsored nofollow noopener' }.
 
-Du kan bl.a. finde yogatøj hos [www.yogalove.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=37808&htmlurl=https://www.yogalove.dk/yogatoj.html){: rel='sponsored nofollow noopener' } eller hos [yogayourshop.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=76034&htmlurl=https://youryogashop.dk/oekologisk--miljoevenlig-shop/4-yogatoej/){: rel='sponsored nofollow noopener' }.
+Du kan bl.a. finde yogatøj [yogayourshop.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=76034&htmlurl=https://youryogashop.dk/oekologisk--miljoevenlig-shop/4-yogatoej/){: rel='sponsored nofollow noopener' }.
 
 ## Wallstickers og plakater om yoga
 
@@ -203,6 +203,6 @@ Du kan komme i gang med yoga uden udstyr, men jeg vil helt klar anbefale i hvert
 
 Det tøj du har på, når du dyrker yoga skal naturligvis være rigtig dejligt at bevæge sig i, og det skal ikke hæmme dine bevægelser. Men du behøver ikke investere i nyt tøj for at gå i gang med yoga. Vi har også skrevet en guide til [De Fem Tibetanere]({% link _posts/2009-07-01-de-fem-tibetanere.md %}) og [Solhilsen A og B]({% link _posts/2020-07-25-solhilsen.md %}) - eller [musik til yoga, mindfulness og meditation]({% link _posts/2020-07-02-musik-yoga.md %}). Jeg kan også læse mere om [mindfulness meditation]({% link _posts/2010-10-05-mindfullness-meditation.md %}).
 
-Hvis du vælger at købe noget udstyr, og finder noget du kan lide hos vores samarbejdspartnere  [youryogashop.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=76034){: rel='sponsored nofollow noopener' },  [www.yogalove.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=37808){: rel='sponsored nofollow noopener' } og  [Den Intelligente Krop](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484){: rel='sponsored nofollow noopener' }, så brug gerne vores links. Vi tjener en lille kommision for det du vælger at købe, men din pris er den samme. Tjek dem ud! De har nogle ret fede ting.
+Hvis du vælger at købe noget udstyr, og finder noget du kan lide hos vores samarbejdspartnere  [youryogashop.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=76034){: rel='sponsored nofollow noopener' } og [Den Intelligente Krop](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484){: rel='sponsored nofollow noopener' }, så brug gerne vores links. Vi tjener en lille kommision for det du vælger at købe, men din pris er den samme. Tjek dem ud! De har nogle ret fede ting.
 
 Brug endelig kommentarerne, hvis du har andre forslag til nødvendigt yogaudstyr - eller gode råd til det enkelte udstyr.
