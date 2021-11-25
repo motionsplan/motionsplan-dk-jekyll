@@ -46,7 +46,7 @@ Find øvelser der aktiverer de store muskler i benene og omkring hoften. Disse �
 
 Fx [squat](/squat/) og [lunges](/lunges/) - [Se flere knædominerede øvelser]({% link _pages/exercises-tag-knee-dominant.md %}).
 
-{% include figure image_path="https://29ac6x1pv8o430jmwj3it7oo-wpengine.netdna-ssl.com/wp-content/uploads/sites/69/2019/11/Squat-kontinuum.png" caption="Om en øvelse er hoftedominant eller knædominant er et kontinuum. Kilde: [crossfys.dk](https://crossfys.dk/staerkere-ben-trods-smerter/)" %}
+{% include figure image_path="https://crossfys.dk/wp-content/uploads/2021/11/www.Crossfys.dk_-1024x1024.png" caption="Om en øvelse er hoftedominant eller knædominant er et kontinuum. Kilde: [crossfys.dk](https://crossfys.dk/saadan-dyrker-du-crossfit-og-faar-staerkere-ben-trods-knae-smerter/)" %}
 
 ### Hoftedominerede øvelser
 
