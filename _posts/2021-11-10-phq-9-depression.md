@@ -4,8 +4,8 @@ seo_title: "Depression: Test om du er deprimeret med PHQ-2 og PHQ-9"
 permalink: /phq-9-depression-test/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1511297968426-a869b61af3da?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80
-  teaser: https://images.unsplash.com/photo-1511297968426-a869b61af3da?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1511297968426-a869b61af3da?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1511297968426-a869b61af3da?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Krop & Sundhed

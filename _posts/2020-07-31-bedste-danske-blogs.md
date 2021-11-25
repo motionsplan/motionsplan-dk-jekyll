@@ -6,8 +6,8 @@ redirect_from:
 last_modified_at: 2020-09-24T09:41:09Z
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1554774853-b3d587d95440?ixlib=rb-1.2.1&auto=format&fit=crop&w=1963&q=80
-  teaser: https://images.unsplash.com/photo-1554774853-b3d587d95440?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1554774853-b3d587d95440?ixlib=rb-1.2.1&auto=format&fit=crop&w=1963&q=5
+  teaser: https://images.unsplash.com/photo-1554774853-b3d587d95440?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: "Bedste fitness blogs og træningsblogs fra danske bloggere"
 category:
   - Webclips

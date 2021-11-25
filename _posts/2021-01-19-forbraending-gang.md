@@ -7,8 +7,8 @@ last_modified_at: 2021-05-11T09:41:09Z
 author: lsolesen
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1560741282-a3ff4a507b4f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80
-  teaser: https://images.unsplash.com/photo-1560741282-a3ff4a507b4f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1560741282-a3ff4a507b4f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1560741282-a3ff4a507b4f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Sundhed
@@ -68,7 +68,7 @@ Energiforbruget ved aktivitet afhænger af forskellige faktorer:
 
 I de følgende beregninger for gang kigger vi hovedsageligt på hastigheden og hældningen, men det er en relativt grov generalisering.
 
-{% include figure image_path="https://images.unsplash.com/photo-1607326005396-d82f932c55bc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" caption="Når du kigger på forbrænding af kalorier i forhold til gang, så betyder både din hastighed, landskabet og intensiteten noget." %}
+{% include figure image_path="https://images.unsplash.com/photo-1607326005396-d82f932c55bc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=5" caption="Når du kigger på forbrænding af kalorier i forhold til gang, så betyder både din hastighed, landskabet og intensiteten noget." %}
 
 Hvis du vil have en mere præcis vurdering af din intensitet under gang, så kan du bruge en pulsmåler.
 

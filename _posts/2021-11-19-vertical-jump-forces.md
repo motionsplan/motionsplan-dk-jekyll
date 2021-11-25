@@ -4,7 +4,7 @@ seo_title: "Hvad er fysikken og kræfterne bag det vertikale spring?"
 permalink: /fysik-vertikalt-hop/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1613122707153-070406e9fd27?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80
+  teaser: https://images.unsplash.com/photo-1613122707153-070406e9fd27?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
 category:
   - Optimer træning
   - Springtræning

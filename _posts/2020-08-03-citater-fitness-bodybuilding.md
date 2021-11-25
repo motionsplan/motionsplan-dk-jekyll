@@ -5,8 +5,8 @@ last_modified_at: 2020-12-29T09:41:09Z
 excerpt: "Jeg falder ofte over citater om fitness og bodybuidling, og mange af dem er inspirerende og motiverende. Jeg har samlet 12 citater her. Jeg synes et citat kan give motivation til min træning i fitness, og nogle af dem der træner allermest er jo bodybuildere."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2167&q=80
-  teaser: https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2167&q=5
+  teaser: https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
   overlay_filter: 0.8
 category:

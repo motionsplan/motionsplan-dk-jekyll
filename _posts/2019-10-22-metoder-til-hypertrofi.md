@@ -4,8 +4,8 @@ permalink: /hypertrofi-metoder/
 excerpt: "Hypertrofi og maksimal muskeltilvækst skabes af mekaniske belastning på musklerne gennem regelmæssig styrketræning. Der er flere metoder der kan skabe tilstrækkelig belastning og udtrætning af musklerne."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
-  teaser: https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=5
+  teaser: https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
 category:
   - Styrketræning
 tags:

@@ -6,8 +6,8 @@ redirect_from:
 excerpt: "Danske forskere har udviklet en konditionstest, hvor du kun skal bruge din hvilepuls og maxpuls til at finde dit kondital."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1517867065801-e20f409696b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=80
-  teaser: https://images.unsplash.com/photo-1517867065801-e20f409696b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1517867065801-e20f409696b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=5
+  teaser: https://images.unsplash.com/photo-1517867065801-e20f409696b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Kondition

@@ -8,8 +8,8 @@ last_modified_at: 2021-01-18T09:41:09Z
 author: karsten.thor.lund
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1599744331097-8e64155b1383?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2169&q=80
-  teaser: https://images.unsplash.com/photo-1599744331097-8e64155b1383?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1599744331097-8e64155b1383?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2169&q=5
+  teaser: https://images.unsplash.com/photo-1599744331097-8e64155b1383?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Træning
@@ -27,8 +27,8 @@ gallery:
   - image_path: https://images.unsplash.com/photo-1603710488871-d4c531f20515?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTE1fHx5b2dhfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60
     url: https://images.unsplash.com/photo-1603710488871-d4c531f20515?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTE1fHx5b2dhfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1800&q=60
     title: Frog
-  - image_path: https://images.unsplash.com/photo-1604519561858-19594a77b2c2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=80
-    url: https://images.unsplash.com/photo-1604519561858-19594a77b2c2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2000&q=80
+  - image_path: https://images.unsplash.com/photo-1604519561858-19594a77b2c2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=5
+    url: https://images.unsplash.com/photo-1604519561858-19594a77b2c2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2000&q=5
     title: Worlds greatest stretch
 ---
 

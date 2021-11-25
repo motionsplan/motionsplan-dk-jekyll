@@ -3,8 +3,8 @@ title: &title "Hvor hurtigt forsvinder muskler, muskelmasse og muskelstyrke?"
 permalink: /atrofi-muskelmasse-muskelstyrke/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1519156062512-8e563047dc6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1902&q=80
-  teaser: https://images.unsplash.com/photo-1519156062512-8e563047dc6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1519156062512-8e563047dc6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1902&q=5
+  teaser: https://images.unsplash.com/photo-1519156062512-8e563047dc6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Viden om

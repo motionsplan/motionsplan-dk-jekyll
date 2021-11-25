@@ -4,8 +4,8 @@ permalink: /maelkesyre-traening/
 last_modified_at: 2021-01-20T09:41:09Z
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1583173451851-dd9ba01f891e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
-  teaser: https://images.unsplash.com/photo-1583173451851-dd9ba01f891e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1583173451851-dd9ba01f891e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=5
+  teaser: https://images.unsplash.com/photo-1583173451851-dd9ba01f891e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Viden om

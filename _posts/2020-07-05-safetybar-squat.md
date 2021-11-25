@@ -3,8 +3,8 @@ title: "Safety Bar Squat: Hvilken safety squat bar kan anbefales?"
 permalink: /safety-bar-squats/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1534368575702-7c65b7474f91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
-  teaser: https://images.unsplash.com/photo-1534368575702-7c65b7474f91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1534368575702-7c65b7474f91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=5
+  teaser: https://images.unsplash.com/photo-1534368575702-7c65b7474f91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: "Ikke alle safety bars er skabt ens. Vælg den rigtige safety bar til din squat!"
 category:
   - Styrketræning
@@ -23,7 +23,7 @@ feature_row:
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
 gallery:
-  - image_path: https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80
+  - image_path: https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=5
     alt: "Håndtag til at lave armbøjninger, armstrækninger og pushups"
     title: "Håndtag til at lave armbøjninger, armstrækninger og pushups"
 breadcrumbs: true

@@ -23,7 +23,7 @@ feature_row_ads:
     btn_label: "Besøg Apuls"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
-#  - image_path: https://images.unsplash.com/photo-1544899489-a083461b088c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+#  - image_path: https://images.unsplash.com/photo-1544899489-a083461b088c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
 #    alt: "Billigsport24.dk"
 #    title: "Billigsport24.dk"
 #    excerpt: "Billigsport24.dk - Online salg af sportsprodukter på Internettet. Spar mellem 10-60%. Sikker handel på Nettet, shoppen er E-mærket. Din sikkerhed for en tryg handel. Vi tilbyder alle de kendte mærker, Nike, Puma, Adidas, North Face, Stiga, Polar, Helly Hansen m.m."
@@ -61,7 +61,7 @@ feature_row_ads:
     btn_label: "Besøg Bodyman"
     btn_class: "btn--info"
     rel: sponsored nofollow noopener
-#  - image_path: https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+#  - image_path: https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
 #    alt: "KINETIK"
 #    title: "KINETIK"
 #    excerpt: "KINETIK Vægtvest VX1 er et nyt og top professionelt produkt på det danske fitness marked! Optimerer al form for træning! #crossfit #calisthenics #bodybuilding"

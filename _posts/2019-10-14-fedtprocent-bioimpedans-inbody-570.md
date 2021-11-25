@@ -8,10 +8,10 @@ redirect_from:
 excerpt: "Du kan måle din fedtprocent og kropskomposition med bioimpedans - og de nyere maskiner er relativt reliabile og valide, hvis du følger anvisningerne."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1501525547-7b008cf72da5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80
+  overlay_image: https://images.unsplash.com/photo-1501525547-7b008cf72da5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=5
   alt: Photo by Yannis Papanastasopoulos on Unsplash
   caption: *title
-  teaser: https://images.unsplash.com/photo-1501525547-7b008cf72da5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  teaser: https://images.unsplash.com/photo-1501525547-7b008cf72da5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
 category:
   - Test
   - Fedtprocent

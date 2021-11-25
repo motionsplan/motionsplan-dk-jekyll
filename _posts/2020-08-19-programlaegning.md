@@ -6,8 +6,8 @@ redirect_from:
   - /artikel/hvordan-skal-jeg-dosere-min-styrketraening/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1526408984842-5f1323d42469?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
-  teaser: https://images.unsplash.com/photo-1526408984842-5f1323d42469?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1526408984842-5f1323d42469?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=5
+  teaser: https://images.unsplash.com/photo-1526408984842-5f1323d42469?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Styrketræning
@@ -213,7 +213,7 @@ Du skal lære at knække i hoften med bløde knæ og hovedet i forlængelse af k
 
 Sprint er en god øvelse, som sagtens kan laves uden at du går all-in, men udfører den med god teknik. Inden du overhovedet går i gang med at sprinte, skal du øve dig i, hvordan du stopper på en god og sikker måde. Der kan sprintes på trapper, i stiger eller bare almindelig sprint. Der er en skadesrisiko ved at sprinte, hvis du ikke er ordentlig varm eller gør det for meget. Nedenstående sprinter er tæt på at være i den perfekte position.
 
-{% include figure image_path="https://images.unsplash.com/photo-1541252260730-0412e8e2108e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=622&q=80" caption="" %}
+{% include figure image_path="https://images.unsplash.com/photo-1541252260730-0412e8e2108e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=622&q=5" caption="" %}
 
 - Albueleddene holdes i 90 grader.
 - Håndfladerne er åbne.

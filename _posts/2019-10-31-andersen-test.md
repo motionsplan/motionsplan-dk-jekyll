@@ -3,8 +3,8 @@ title: &title "Andersen Test: Find kondital for børn [Beregner og Download]"
 permalink: /andersen-test/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1582948818273-b8fdb032a863?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=80
-  teaser: https://images.unsplash.com/photo-1582948818273-b8fdb032a863?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1582948818273-b8fdb032a863?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1582948818273-b8fdb032a863?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Kondition

@@ -2,8 +2,8 @@
 layout: single
 permalink: /knaedominante-oevelser/
 header:
-  overlay_image: https://images.unsplash.com/photo-1571019613914-85f342c6a11e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80
-  teaser: https://images.unsplash.com/photo-1571019613914-85f342c6a11e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1571019613914-85f342c6a11e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=5
+  teaser: https://images.unsplash.com/photo-1571019613914-85f342c6a11e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: "Knædominerede øvelser: De mest effektive styrketræningsøvelser til forlåret"
 title: "Knædominante øvelser: Træning af dine forlår"
 seo_title: "Knædominante øvelser: Træn dine forlår"

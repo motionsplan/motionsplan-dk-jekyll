@@ -4,8 +4,8 @@ description: "Anaerob træning er en vigtig del af dit energisystem, og det skal
 permalink: /anaerob-traening/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1553593155-9e0dc045405c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80
-  teaser: https://images.unsplash.com/photo-1553593155-9e0dc045405c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1553593155-9e0dc045405c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=5
+  teaser: https://images.unsplash.com/photo-1553593155-9e0dc045405c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Kondition
@@ -105,7 +105,7 @@ Hvad er anaerob effekt?
 
 [Vores Puls](https://vorespuls.dk/loeb/artikler/praestationsevne-faa-den-sidste-fart) foreslår anaerob træning til at give den sidste fart til løbere, men det gælder faktisk alle discipliner, hvor [kondition](/kondition/) også betyder noget.
 
-{% include figure image_path="https://images.unsplash.com/photo-1553593155-9e0dc045405c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" caption="Anaerob træning kan være med til at gøre dig til at gøre dit energisystem mere effektivt. Hvis du er løber, så vil anaerob træning også ofte hjælpe på din løbeøkonomi." %}
+{% include figure image_path="https://images.unsplash.com/photo-1553593155-9e0dc045405c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=5" caption="Anaerob træning kan være med til at gøre dig til at gøre dit energisystem mere effektivt. Hvis du er løber, så vil anaerob træning også ofte hjælpe på din løbeøkonomi." %}
 
 [Vores Puls](https://vorespuls.dk/loeb/artikler/praestationsevne-faa-den-sidste-fart) skriver at præstationen afhænger af fire parametre:
 

@@ -4,8 +4,8 @@ permalink: /corona-workouts/
 last_modified_at: 2020-08-06T09:41:09Z
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1514512364185-4c2b0985be01?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80
-  teaser: https://images.unsplash.com/photo-1514512364185-4c2b0985be01?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1514512364185-4c2b0985be01?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=5
+  teaser: https://images.unsplash.com/photo-1514512364185-4c2b0985be01?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Træning

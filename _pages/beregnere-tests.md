@@ -7,7 +7,7 @@ title: &title "Beregnere & Tests"
 seo_title: "Beregnere & Tests til træning | Motionsplan"
 author_profile: true
 header:
-  overlay_image: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1960&q=80
+  overlay_image: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1960&q=5
   caption: *title
   alt: Photo by Clem Onojeghuo on Unsplash
   actions:

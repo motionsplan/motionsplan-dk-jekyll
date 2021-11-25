@@ -6,8 +6,8 @@ redirect_from:
 excerpt: "Lav din egen RM-test og udregn 1RM max (one repetition maximum) i vores avancerede RM-beregner på baggrund af 9 forskellige formler til at udregne 1RM ud fra vægten på dine submaksimale løft."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1526401485004-46910ecc8e51?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80
-  teaser: https://images.unsplash.com/photo-1526401485004-46910ecc8e51?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1526401485004-46910ecc8e51?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=5
+  teaser: https://images.unsplash.com/photo-1526401485004-46910ecc8e51?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
   alt: Photo by Victor Freitas on Unsplash
   actions:

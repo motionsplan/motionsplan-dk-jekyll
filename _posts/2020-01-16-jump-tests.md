@@ -4,7 +4,7 @@ seo_title: "Hoppehøjde og springtests: 5 måder at måle springhøjde"
 permalink: /springtests-hoppehoejde/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1462146449396-2d7d4ba877d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80
+  teaser: https://images.unsplash.com/photo-1462146449396-2d7d4ba877d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
 category:
   - Eksplosivitet
   - Springtræning

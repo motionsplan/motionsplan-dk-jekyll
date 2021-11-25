@@ -6,8 +6,8 @@ title: Hvordan laver man et træningsprogram til styrketræning? 6 enkle trin!
 permalink: /programlaegning-styrketraening/
 seo_title: 6 trin til at lave dit eget træningsprogram til styrketræning
 header:
-  overlay_image: https://images.unsplash.com/photo-1586205208101-b9da5ef6120d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80
-  teaser: https://images.unsplash.com/photo-1586205208101-b9da5ef6120d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1586205208101-b9da5ef6120d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=5
+  teaser: https://images.unsplash.com/photo-1586205208101-b9da5ef6120d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: Hvordan laver man et styrketræningsprogram? 6 enkle trin!
 language: da
 description: Her får du 6 enkle trin til selv at lave dit styrketræningsprogram,

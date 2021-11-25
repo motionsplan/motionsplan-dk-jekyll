@@ -2,8 +2,8 @@
 title: Du forbrænder mere ved at løbe end ved at gå. Punktum.
 permalink: /loeb-mere-energi-gang/
 header:
-  overlay_image: https://images.unsplash.com/photo-1523321826514-fcd51dbe0c2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=80
-  teaser: https://images.unsplash.com/photo-1523321826514-fcd51dbe0c2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1523321826514-fcd51dbe0c2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1523321826514-fcd51dbe0c2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   overlay_filter: 0.2
   caption: Forbrænding af kalorier ved at gå og løbe
 language: da

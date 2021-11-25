@@ -8,8 +8,8 @@ redirect_from:
   - /muskler/ryg/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1600677396360-9c4e8e46e7d4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1949&q=80
-  teaser: https://images.unsplash.com/photo-1600677396360-9c4e8e46e7d4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1600677396360-9c4e8e46e7d4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1949&q=5
+  teaser: https://images.unsplash.com/photo-1600677396360-9c4e8e46e7d4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Anatomi

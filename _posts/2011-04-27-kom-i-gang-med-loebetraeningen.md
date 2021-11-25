@@ -4,8 +4,8 @@ seo_title: "Løbetræning: Kom i gang med at løbe med et løbeprogram"
 permalink: /artikel/kom-i-gang-med-loebetraeningen/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1530655638484-de9ff231551e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1967&q=80
-  teaser: https://images.unsplash.com/photo-1530655638484-de9ff231551e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1530655638484-de9ff231551e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1967&q=5
+  teaser: https://images.unsplash.com/photo-1530655638484-de9ff231551e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 tags:
   - løb
