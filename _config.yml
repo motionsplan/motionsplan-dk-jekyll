@@ -369,8 +369,6 @@ defaults:
     values:
       layout: single
       breadcrumbs: true
-      header:
-        overlay_color: "#F5F5F5"
       author_profile: true
       read_time: true
       comments: true
