@@ -2,7 +2,7 @@
 title: "Træning med kropsvægt: Forslag til øvelser"
 permalink: /artikel/traening-med-kropsvaegt/
 redirect_from:
-  - /artikel/traening-med-kropsvaegt.
+  - /artikel/traening-med-kropsvaegt
 language: da
 header:
   overlay_image: /assets/images/blog/traening-med-kropsvaegt.jpg
@@ -55,8 +55,6 @@ Du kan også loade dine kropsvægtsøvelser med en vægtvest for at få endnu me
 {% include feature_row type="left" %}
 
 ## Yderligere inspiration
-
-- [Linksamling om bodyweight / Kettlebells / alternativ træning](http://www.motion-online.dk/fora/index.php?showtopic=29480&hl=kropsv%E6gt){:rel="nofollow"}. Samling af links omkring øvelser med kropsvægt, kettlebells og alternativ træning lavet af brugerne af motion-online.dks forum. Posten er temmelig rodet, men der er flere gode links.
 
 Jeg har også [skrevet lidt om cirkeltræning]({% link _posts/2020-06-16-cirkeltraening.md %}), som kan være en god måde at organisere dine kropsvægtsøvelser på.
 

@@ -76,7 +76,7 @@ Lad os kigge på et par enkelte fokuspunkter i dødløft.
 
 I dødløft skal du lave en hængselsbevægelse. Det er en hoftedomineret øvelse, men der er naturligvis lidt forskelle alt efter den variation, du vælger.
 
-{% include figure image_path="https://29ac6x1pv8o430jmwj3it7oo-wpengine.netdna-ssl.com/wp-content/uploads/sites/69/2019/11/Squat-kontinuum.png" caption="Dødløft er en hoftedomineret øvelse. Bøjningen i knæene og vinklen i hoften er imidlertid ikke den samme i alle dødløft-variationer. Kilde: [crossfys.dk](https://crossfys.dk/staerkere-ben-trods-smerter/)" %}
+{% include figure image_path="https://crossfys.dk/wp-content/uploads/2021/11/www.Crossfys.dk_-1024x1024.png" caption="Om en øvelse er hoftedominant eller knædominant er et kontinuum. Kilde: [crossfys.dk](https://crossfys.dk/saadan-dyrker-du-crossfit-og-faar-staerkere-ben-trods-knae-smerter/)" %}
 
 Hvordan vinklen i overkroppen er er forskelligt alt efter, hvilken teknik du benytter dig af. Her er et eksempel på forskellen i ryggens position i forhold til *hex bar*-deadlift eller almindelig, konventionel dødløft.
 
