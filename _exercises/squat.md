@@ -9,7 +9,7 @@ key: 20210818081100
 toc: true
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
+  teaser: https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
 tags:
   - Ben
   - Styrketræning
@@ -131,7 +131,7 @@ En god måde at lave varianter på er ved at lave etbenssquat. Der er nogle gode
 
 En anden variation er **split squat** hvor du står med et langt skridt. Det ser nogenlunde sådan her ud:
 
-{% include figure image_path="https://images.unsplash.com/flagged/photo-1566063900259-8ee0cb283b3b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80
+{% include figure image_path="https://images.unsplash.com/flagged/photo-1566063900259-8ee0cb283b3b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=5
 " caption="Split squat" alt="split squat" %}
 
 ## Variationer af squat
