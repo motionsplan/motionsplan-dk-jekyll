@@ -82,7 +82,7 @@ social:
 # Site search
 search: true
 
-search_provider: lunrjs
+search_provider: lunr
 
 google: # Ulempe reklamer
   search_engine_id: 7f59fba70b9fff468
