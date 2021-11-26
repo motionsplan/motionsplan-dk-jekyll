@@ -64,30 +64,6 @@ const hr_intensity = require('../js/hr-intensity');
 const wilks = require('wilks-calculator');
 require('image-map-resizer');
 
-(function() {
-    var v = document.getElementsByClassName("youtube-player");
-    for (var n = 0; n < v.length; n++) {
-        var p = document.createElement("div");
-        p.innerHTML = labnolThumb(v[n].dataset.id);
-        p.onclick = labnolIframe;
-        v[n].appendChild(p);
-    }
-})();
-
-function labnolThumb(id) {
-    return '<img class="youtube-thumb" src="//i.ytimg.com/vi/' + id + '/hqdefault.jpg"><div class="play-button"></div>';
-}
-
-function labnolIframe() {
-    var iframe = document.createElement("iframe");
-    iframe.setAttribute("src", "//www.youtube-nocookie.com/embed/" +
-        this.parentNode.dataset.id + "?  autoplay=1&autohide=2&border=0&wmode=opaque&enablejsapi=1&controls=0&showinfo=0");
-    iframe.setAttribute("frameborder", "0");
-    iframe.setAttribute("allowfullscreen", "allowfullscreen");
-    iframe.setAttribute("id", "youtube-iframe");
-    this.parentNode.replaceChild(iframe, this);
-}
-
 $(document).ready(function() {
     $('map').imageMapResize();
 
@@ -704,7 +680,7 @@ $(document).ready(function() {
 
         let flight_time = Number($("[name='cmj_flight_time']").val());
 
-        console.log('CMJ flight time ' + flight_time);        
+        console.log('CMJ flight time ' + flight_time);
 
         let jump_height = 9.81 * Math.pow(flight_time, 2) / 8;
 
@@ -729,7 +705,7 @@ $(document).ready(function() {
 
         let initial_velocity = Number($("[name='cmj_initial_velocity']").val());
 
-        console.log('CMJ flight time ' + initial_velocity);        
+        console.log('CMJ flight time ' + initial_velocity);
 
         let jump_height = Math.pow(initial_velocity, 2) / 9.81 / 2;
 
@@ -920,7 +896,7 @@ $(document).ready(function() {
         } else if (score > 9) {
             text = 'Din score på ' + score + ' viser at du har moderate symptomer på depression. Du bør søge professionel hjælp og lægge en plan.';
         } else if (score > 4) {
-            text = 'Din score på ' + score + ' viser at du kan have milde symptomer på depression. Det er godt at følge op efter lidt tid med at besvare skemaet igen for at se, om symptomerne bliver værre.';        
+            text = 'Din score på ' + score + ' viser at du kan have milde symptomer på depression. Det er godt at følge op efter lidt tid med at besvare skemaet igen for at se, om symptomerne bliver værre.';
         } else {
             text = 'Din score på ' + score + ' viser, at du ingen eller kun minimale depressive symptomer har.';
         }
@@ -1133,7 +1109,7 @@ $(document).ready(function() {
         } else {
             kondital = 74.74 + 0.198 * pa - 0.247 * age - 0.259 * waist - 0.114 * hr_rest;
         }
-        
+
         $("[name='kondital']").val(kondital.toFixed(0));
         $("[name='pa']").val(pa);
     });
@@ -1150,7 +1126,7 @@ $(document).ready(function() {
         let b = bmi.BMI(height, weight);
 
         let kondital = 56.363 + 1.921 * par - 0.381 * age - 0.754 * b.getBMI() + 10.987 * gender;
-        
+
         $("[name='jackson_kondital']").val(kondital.toFixed(0));
     });
     // Calculate Durnin
