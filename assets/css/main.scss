@@ -379,7 +379,8 @@ img.youtube-thumb {
   top: 0;
   height: auto
 }
-div.play-button {
+.play-button {
+  display: block;
   height: 72px;
   width: 72px;
   left: 50%;

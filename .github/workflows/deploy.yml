@@ -69,7 +69,9 @@ jobs:
         uses: actions/cache@v2
         with:
           path: tmp/.htmlproofer
-          key: ${{ runner.os }}-htmlproofer
+          key: ${{ runner.os }}-htmlproofer-${{ github.sha }}
+          restore-keys: |
+            ${{ runner.os }}-htmlproofer-
       - name: 📉 Check HTML
         uses: chabad360/htmlproofer@master
         continue-on-error: true
