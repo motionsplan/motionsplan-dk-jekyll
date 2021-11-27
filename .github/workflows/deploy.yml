@@ -52,6 +52,11 @@ jobs:
           npm install
       - name: Checking Jekyll configuration
         run: bundle exec jekyll doctor
+      - name: Cache jekyll
+        uses: actions/cache@v2
+        with:
+          path: "_site/"
+          key: ${{ runner.os }}-$GITHUB_RUN_ID
       - name: 🔨 Build site
         run: |
           JEKYLL_ENV=production bundle exec jekyll build --trace --verbose --lsi
@@ -59,6 +64,15 @@ jobs:
       - name: 🔨 Test calculations JS
         run: |
           npm run test
+  deploy:
+    needs: build
+    run-on: ubuntu-latest
+    steps:
+      - name: Use cache
+        uses: actions/cache@v2
+        with:
+          path: "_site/"
+          key: ${{ runner.os }}-$GITHUB_RUN_ID
       - name: 🎉 Deploy to GitHub Pages 🎊
         if: success()
         uses: crazy-max/ghaction-github-pages@v2
@@ -67,6 +81,15 @@ jobs:
           build_dir: _site
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  test:
+    needs: build
+    run-on: ubuntu-latest
+    steps:
+      - name: Use cache
+        uses: actions/cache@v2
+        with:
+          path: "_site/"
+          key: ${{ runner.os }}-$GITHUB_RUN_ID
       - name: ⚡️ Cache HTMLProofer
         id: cache-htmlproofer
         uses: actions/cache@v2
@@ -82,6 +105,15 @@ jobs:
           # The directory to scan
           arguments: --only-4xx --assume-extension --check-favicon --check-html --check_opengraph --http-status-ignore "400, 403, 409, 429" --allow-hash-href --empty_alt_ignore --timeframe "1w"
           # The arguments to pass to HTMLProofer
+  clean:
+    needs: [build,deploy,test]
+    run-on: ubuntu-latest
+    steps:
+      - name: Use cache
+        uses: actions/cache@v2
+        with:
+          path: "_site/"
+          key: ${{ runner.os }}-$GITHUB_RUN_ID
       - name: ☁️ Cleaning up
         run: bundle exec jekyll clean
   lighthouse:
