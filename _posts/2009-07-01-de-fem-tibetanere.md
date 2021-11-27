@@ -151,7 +151,7 @@ Jeg anbefaler dig helt klart at læse de to bøger, hvis du vil dykke ned i hele
 
 Men nu til det vigtigste: Hvordan laver man de fem tibetanere?
 
-Baggrunden for de øvelserne i de fem tibetanere, og hvordan de udføres forklares udemærket i den her lidt ældre video fra Youtube:
+Baggrunden for øvelserne i **de fem tibetanere**, og hvordan de udføres forklares udemærket i den her lidt ældre video fra Youtube:
 
 {% include video provider="youtube" id="x2lOypwVfKo" %}
 
