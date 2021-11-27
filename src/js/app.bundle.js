@@ -73,7 +73,7 @@ $(function() {
             console.log("Clicked youtube video");
             e.preventDefault();
             var iframe = document.createElement("iframe");
-            iframe.setAttribute("src", "//www.youtube-nocookie.com/embed/" +
+            iframe.setAttribute("src", "https://www.youtube-nocookie.com/embed/" +
                 this.parentNode.dataset.id + "?autoplay=1&autohide=2&border=0&wmode=opaque&enablejsapi=1&controls=0&showinfo=0");
             iframe.setAttribute("frameborder", "0");
             iframe.setAttribute("allowfullscreen", "allowfullscreen");
