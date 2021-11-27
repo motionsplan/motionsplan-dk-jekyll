@@ -77,8 +77,6 @@ Desuden skal du også kigge på følgende:
 - Hvor stor er løbefladen?
 - Hvad er løbebåndets maksimale brugsvægt?
 
-{% include video provider="youtube" id="etsVw7xb9cv" %}
-
 ## Guide og anmeldelser af løbebånd
 
 Når du søger på Google efter det "bedste løbebånd til hjemmebrug" eller lignende søgninger, så kommer du ind på en del forskellige sites, der laver anmeldelser af løbebånd. Disse sites anbefaler særligt nogle særlige løbebånd, og ofte får de affiliate kommision fra forhandlerne, hvis du vælger at købe. Her på Motionsplan.dk har vi også affiliate links til forhandlerne, så hvis du vælger at købe et løbebånd efter at have klikket dig hen til en forhandler, så tjener vi en lille kommision.

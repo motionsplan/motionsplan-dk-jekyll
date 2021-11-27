@@ -84,7 +84,7 @@ Dog skal du være opmærksom på, at fedtprocenten målt med DEXA-scanneren var 
 
 Det er ret enkelt at tage selve testen. Du følger bare instruktionerne på skærmen. Det besværlige er at møde op til testen med den rigtige forberedelse, som er beskrevet ovenfor.
 
-{% include video id="4j6GuQDVOc8" provider="youtube"  %}
+{% include video id="-9fDbyMHy_o" provider="youtube"  %}
 
 Når du står på InBody 570 vil du ende med et resultat på LCD-skærmen, der ser sådan her ud. De fleste kigger som det første efter deres fedtprocent (PBF), men muskelmassen (SMM) er også interessant for mange. Det sidste tal er rationen _extra cellulære væske_ (ECW-ratio).
 

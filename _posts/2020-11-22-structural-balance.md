@@ -55,7 +55,7 @@ I begge øvelser er det vigtigt, at du bruger en konservativ vægt, så du kan f
 
 Mange kan ikke helt føle deres Trap-3-muskel. Men i Trap-3 raise er det naturligvis væsentligt, at du lykkes med at bruge den rigtige muskel.
 
-{% include video provider="youtube" id="HqmvnTIvxPE" %}
+{% include video provider="youtube" id="qLLJWmHlYZQ" %}
 
 ## Skema over værdier for strukturel balance
 

@@ -67,5 +67,3 @@ Du vil finde mange steder, hvor der står at du skal gå efter en 45 graders afs
 {% include video provider="youtube" id="gJTPHXgB5MY" %}
 
 {% include video provider="youtube" id="qTE4UN-4hCM" %}
-
-{% include video provider="youtube" id="y8ylGDvRBfg" %}

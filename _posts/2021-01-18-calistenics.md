@@ -162,7 +162,7 @@ Nu møder I det at super sætte. At super sætte 2 øvelser betyder at man i umi
 
 ### Banded pull ups
 
-{% include video provider="youtube" id="W7X-uoHpa4c" %}
+{% include video provider="youtube" id="ZHllQTJf7eA" %}
 
 ### Banded dips
 

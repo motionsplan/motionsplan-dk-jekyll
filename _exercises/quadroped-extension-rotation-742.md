@@ -25,7 +25,7 @@ alternative_titles: []
 gallery:
 video:
   provider: youtube
-  id: kph4CuBsZ3Y
+  id: oaCAqozZwMQ
 last_modified_at: 2016-11-01T08:40:02Z
 ---
 

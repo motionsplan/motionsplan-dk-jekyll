@@ -80,7 +80,7 @@ Hvis du gerne vil lave en chinup og en pullup, så er det helt afgørende, at du
 
 Hæng i strakte arme i en stang. Prøv at løfte dig op stille ved at samle skulderbladene og trække dem nedad.
 
-{% include video provider="youtube" id="icD6a_JcCbQ" %}
+{% include video provider="youtube" id="XIkPI-_80r4" %}
 
 ### Superman pullups
 
@@ -122,7 +122,7 @@ Her er nogle generelle retningslinjer til, hvordan man laver en assisteret pullu
 
 I Jackknife pullups har du fødderne på en bænk. Sørg for kun at hjælpe det nødvendige med fødderne. Sørg også for, at de ikke bliver en body row til slut, men netop en pullup eller chinup.
 
-{% include video provider="youtube" id="gl3ijG_pozM" %}
+{% include video provider="youtube" id="58ss6OF4fmQ" %}
 
 ### Pullups og chinups med elastik
 

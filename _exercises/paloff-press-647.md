@@ -45,7 +45,7 @@ gallery:
     title: "Palof Press"
 video:
   provider: youtube
-  id: BA-P6E6Faj8
+  id: axgv7H_VQOo
 last_modified_at: 2015-04-10T11:53:58Z
 ---
 

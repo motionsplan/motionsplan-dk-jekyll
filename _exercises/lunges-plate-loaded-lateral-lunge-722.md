@@ -16,7 +16,7 @@ alternative_titles: []
 gallery:
 video:
   provider: youtube
-  id: 10YOTv2rnpo
+  id: EQ5HygjKjTY
 last_modified_at: 2016-10-17T21:20:10Z
 ---
 

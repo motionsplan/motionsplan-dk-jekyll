@@ -184,7 +184,7 @@ Hvis jeg skal lære nogen at dødløfte, så fortæller jeg dem ofte, at man ska
 
 [Konstantīns Konstantinovs](https://en.wikipedia.org/wiki/Konstant%C4%ABns_Konstantinovs) er et eksempel på en styrkeløfter, der dødløfter med sin egen teknik. Konstantinovs løfter jo alligevel nogle relativt tunge vægte, som du kan se i denne Youtube-video.
 
-{% include video provider="youtube" id="HyWf8EoeksA?start=234" %}
+{% include video provider="youtube" id="HyWf8EoeksA" %}
 
 Konstantinovs har løftet 426 kg med en kropsvægt på 140 kg.
 

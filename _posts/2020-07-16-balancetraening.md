@@ -187,7 +187,7 @@ Når du har lavet ovenstående statisk, fx med 15-30 sekunder i alle stillingern
 
 ### Statisk balance: Star Excursion Balance Test
 
-{% include video provider="youtube" id="HsLZV7nTE7g" %}
+{% include video provider="youtube" id="4GMzE7NV3W0" %}
 
 Hvis du vil teste din balance med [Star Excursion Balance Test](https://www.scienceforsport.com/star-excursion-balance-test/), så skal du bruge et stjernemønster på gulvet, der ser sådan her ud:
 

@@ -48,7 +48,7 @@ gallery:
     title: "Frivend, olympisk"
 video:
   provider: youtube
-  id: 3wxpHF6N6qk
+  id: MKkvxkTm-44
 last_modified_at: 2013-04-21T18:06:14Z
 ---
 
