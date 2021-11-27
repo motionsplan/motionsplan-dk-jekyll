@@ -82,3 +82,12 @@ jobs:
           # The arguments to pass to HTMLProofer
       - name: ☁️ Cleaning up
         run: bundle exec jekyll clean
+  lighthouse:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Lighthouse
+      uses: foo-software/lighthouse-check-action@master
+      with:
+        urls: 'https://www.motionsplan.dk/,https://www.motionsplan.dk/bmi/'

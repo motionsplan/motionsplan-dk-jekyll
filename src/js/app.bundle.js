@@ -78,11 +78,7 @@ $(function() {
             iframe.setAttribute("frameborder", "0");
             iframe.setAttribute("allowfullscreen", "allowfullscreen");
             iframe.setAttribute("id", "youtube-iframe-" + this.parentNode.dataset.id);
-            /*
-            this.parentNode.replaceChild(iframe, this);
-            */
             $(this).parent().replaceWith(iframe);
-            //$(this).replaceWith(newElem);
         });
     });
 
