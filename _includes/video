@@ -1,8 +1,7 @@
 {% assign ezoic = include.ezoic | default: '' %}
-{% if jekyll.environment == 'production' AND ezoic != '' %}
+{% if jekyll.environment == 'production' and ezoic != '' %}
   <span id="{{ ezoic }}"></span>
 {% else %}
-
 {% capture video_id %}{{ include.id }}{% endcapture %}
 {% capture video_provider %}{{ include.provider }}{% endcapture %}
 
