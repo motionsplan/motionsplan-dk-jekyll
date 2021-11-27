@@ -64,16 +64,6 @@ const hr_intensity = require('../js/hr-intensity');
 const wilks = require('wilks-calculator');
 require('image-map-resizer');
 
-  (function() {
-    var v = document.getElementsByClassName("youtube-player");
-    for (var n = 0; n < v.length; n++) {
-        var p = document.createElement("div");
-        p.innerHTML = labnolThumb(v[n].dataset.id);
-        p.onclick = labnolIframe;
-        v[n].appendChild(p);
-    }
-  })();
-
   function labnolThumb(id) {
     return '<img class="youtube-thumb" src="//i.ytimg.com/vi/' + id + '/hqdefault.jpg"><div class="play-button"></div>';
   }
@@ -90,6 +80,14 @@ require('image-map-resizer');
 
 $(function() {
     $('map').imageMapResize();
+
+    var v = document.getElementsByClassName("youtube-player");
+    for (var n = 0; n < v.length; n++) {
+        var p = document.createElement("div");
+        p.innerHTML = labnolThumb(v[n].dataset.id);
+        p.onclick = labnolIframe;
+        v[n].appendChild(p);
+    }
 
     $("#target_bmi_man").change(function() {
         console.log('Ready to calculate');

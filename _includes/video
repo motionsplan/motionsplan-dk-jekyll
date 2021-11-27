@@ -11,7 +11,11 @@
   <iframe src="https://player.vimeo.com/video/{{ video_id }}?dnt=true" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 {% elsif video_provider == "youtube" %}
   <div class="youtube-container">
-    <div class="youtube-player" data-id="{{ video_id }}"></div>
+    <div class="youtube-player" data-id="{{ video_id }}">
+      {% comment %}
+      <img class="youtube-thumb" src="//i.ytimg.com/vi/{{ video_id }}/hqdefault.jpg"><div class="play-button"></div>
+      {% endcomment %}
+    </div>
   </div>
   {% comment %}
   <iframe src="https://www.youtube-nocookie.com/embed/{{ video_id }}" frameborder="0" allowfullscreen></iframe>
