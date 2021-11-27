@@ -58,6 +58,7 @@ jobs:
           npm run build:js
   deploy:
     needs: build
+    runs-on: ubuntu-latest
     steps:
       - name: 🎉 Deploy to GitHub Pages 🎊
         if: success()
@@ -69,6 +70,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   test:
     needs: build
+    runs-on: ubuntu-latest
     steps:
       - name: ⚡️ Cache HTMLProofer
         id: cache-htmlproofer
@@ -86,6 +88,7 @@ jobs:
           arguments: --only-4xx --assume-extension --check-favicon --check-html --check_opengraph --http-status-ignore "400, 403, 409, 429" --allow-hash-href --empty_alt_ignore --timeframe "1w"
           # The arguments to pass to HTMLProofer
   clean:
+    runs-on: ubuntu-latest
     needs: build
     steps:
       - name: ☁️ Cleaning up
