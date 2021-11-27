@@ -80,7 +80,6 @@ jobs:
             ${{ runner.os }}-htmlproofer-
       - name: 📉 Check HTML
         uses: chabad360/htmlproofer@master
-        continue-on-error: true
         with:
           directory: "./_site"
           # The directory to scan
