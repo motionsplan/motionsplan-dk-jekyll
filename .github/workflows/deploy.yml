@@ -92,7 +92,7 @@ jobs:
           # The arguments to pass to HTMLProofer
   clean:
     runs-on: ubuntu-latest
-    needs: build
+    needs: [build, deploy, test]
     steps:
       - name: ☁️ Cleaning up
         run: bundle exec jekyll clean
