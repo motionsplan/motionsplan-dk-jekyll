@@ -12,7 +12,7 @@ on:
 # Which means the tasks we want Github to execute
 jobs:
   build:
-    name: deploy
+    name: build
     # Here we specify in whith OS we want it to run
     runs-on: ubuntu-latest
     # Now we define which actions will take place.
