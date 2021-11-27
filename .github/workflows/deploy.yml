@@ -56,6 +56,9 @@ jobs:
         run: |
           JEKYLL_ENV=production bundle exec jekyll build --trace --verbose --lsi
           npm run build:js
+      - name: 🔨 Test calculations JS
+        run: |
+          npm run test
   deploy:
     needs: build
     runs-on: ubuntu-latest
