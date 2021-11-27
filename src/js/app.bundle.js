@@ -67,21 +67,6 @@ require('image-map-resizer');
 $(function() {
     $('map').imageMapResize();
 
-    $(".youtube-player a").each(function() {
-        console.log("Looping through Youtube");
-        $(this).click(function(e) {
-            console.log("Clicked youtube video");
-            e.preventDefault();
-            var iframe = document.createElement("iframe");
-            iframe.setAttribute("src", "https://www.youtube-nocookie.com/embed/" +
-                this.parentNode.dataset.id + "?autoplay=1&autohide=2&border=0&wmode=opaque&enablejsapi=1&controls=0&showinfo=0");
-            iframe.setAttribute("frameborder", "0");
-            iframe.setAttribute("allowfullscreen", "allowfullscreen");
-            iframe.setAttribute("id", "youtube-iframe-" + this.parentNode.dataset.id);
-            $(this).parent().replaceWith(iframe);
-        });
-    });
-
     $("#target_bmi_man").change(function() {
         console.log('Ready to calculate');
         $("table#idealweight > tbody > tr").each(function(i, obj) {
