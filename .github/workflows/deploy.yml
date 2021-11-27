@@ -32,7 +32,7 @@ jobs:
           sudo gem install bundler:2.2.7
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.6 # Not needed with a .ruby-version file
+          ruby-version: 2.7 # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
       - name: ⚡️ Get cached gems
         uses: actions/cache@v2
@@ -49,6 +49,7 @@ jobs:
       - name: 🔨 Build site
         run: |
           JEKYLL_ENV=production bundle exec jekyll build --trace --verbose --lsi
+          npm run build:js
       - name: 🎉 Deploy to GitHub Pages 🎊
         if: success()
         uses: crazy-max/ghaction-github-pages@v2
