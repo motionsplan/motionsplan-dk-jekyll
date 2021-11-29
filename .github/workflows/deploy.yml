@@ -56,7 +56,7 @@ jobs:
         uses: actions/cache@v2
         with:
           path: "_site/"
-          key: ${{ runner.os }}-$GITHUB_RUN_ID
+          key: ${{ runner.os }}-${{ github.run_number }}
       - name: 🔨 Build site
         run: |
           JEKYLL_ENV=production bundle exec jekyll build --trace --verbose --lsi
@@ -72,7 +72,7 @@ jobs:
         uses: actions/cache@v2
         with:
           path: "_site/"
-          key: ${{ runner.os }}-$GITHUB_RUN_NUMBER
+          key: ${{ runner.os }}-${{ github.run_number }}
       - name: 🎉 Deploy to GitHub Pages 🎊
         if: success()
         uses: crazy-max/ghaction-github-pages@v2
@@ -89,7 +89,7 @@ jobs:
         uses: actions/cache@v2
         with:
           path: "_site/"
-          key: ${{ runner.os }}-$GITHUB_RUN_ID
+          key: ${{ runner.os }}-${{ github.run_number }}
       - name: ⚡️ Cache HTMLProofer
         id: cache-htmlproofer
         uses: actions/cache@v2
@@ -113,7 +113,7 @@ jobs:
         uses: actions/cache@v2
         with:
           path: "_site/"
-          key: ${{ runner.os }}-$GITHUB_RUN_ID
+          key: ${{ runner.os }}-${{ github.run_number }}
       - name: ☁️ Cleaning up
         run: bundle exec jekyll clean
   lighthouse:
