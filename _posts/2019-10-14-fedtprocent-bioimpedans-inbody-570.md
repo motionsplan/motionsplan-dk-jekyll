@@ -1,11 +1,12 @@
 ---
 title: &title "Måling af fedtprocent med bioimpedans (Inbody)"
+seo_title: "Bioimpedans: Måling af fedtprocent med bioimpedansmåling"
 permalink: /artikel/inbody-570-bioimpedans/
 redirect_from:
   - /inbody/
   - /bioimpedans/
   - /artikel/inbody-570-bioimpedans
-excerpt: "Du kan måle din fedtprocent og kropskomposition med bioimpedans. De nyere vægte til kropsanalyse er relativt reliabile og valide, hvis du følger anvisningerne i forhold til guldstandarderne for måling af kropskomposition."
+excerpt: "Du kan måle din fedtprocent og kropskomposition med bioimpedans. De nyere vægte til kropsanalyse og bioimpedansmåling er relativt reliabile og valide, hvis du følger anvisningerne i forhold til guldstandarderne for måling af kropskomposition."
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1501525547-7b008cf72da5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=5
@@ -84,7 +85,7 @@ Dog skal du være opmærksom på, at fedtprocenten målt med DEXA-scanneren var 
 
 Det betyder, som med alle andre typer måling af fedtprocent, at du skal tage det absolutte tal med flere forbehold.
 
-### Hvordan udføres testen med InBody 570?
+### Hvordan udføres bioimpedansmåling med InBody 570?
 
 Det er ret enkelt at tage selve testen. Du følger bare instruktionerne på skærmen. Det besværlige er at møde op til testen med den rigtige forberedelse, som er beskrevet ovenfor.
 
@@ -135,4 +136,5 @@ Måske rammer du allerede din [idealvægt]({% link _posts/2020-05-30-ideal-weigh
 - Moon, J. R. 2013. “Body Composition in Athletes and Sports Nutrition: An Examination of the Bioimpedance Analysis Technique”. European Journal of Clinical Nutrition 67 Suppl 1 (januar): S54-59. <https://doi.org/10.1038/ejcn.2012.165>.
 - Faria, Franciane Rocha, Eliane Rodrigues Faria, Roberta Stofeles Cecon, Djalma Adão Barbosa Júnior, Sylvia do Carmo Castro Franceschini, Maria do Carmo Gouveia Peluzio, Andréia Queiroz Ribeiro, Pedro Israel Cabral Lira, Paulo Roberto Cecon, og Silvia Eloiza Priore. 2013. “Body Fat Equations and Electrical Bioimpedance Values in Prediction of Cardiovascular Risk Factors in Eutrophic and Overweight Adolescents”. International Journal of Endocrinology 2013. <https://doi.org/10.1155/2013/501638>.
 - Elia, M. 2013. “Body Composition by Whole-Body Bioelectrical Impedance and Prediction of Clinically Relevant Outcomes: Overvalued or Underused?” European Journal of Clinical Nutrition 67 Suppl 1 (januar): S60-70. <https://doi.org/10.1038/ejcn.2012.166>.
+- [Undervisningsnoter til BIS](https://pure.au.dk/ws/files/20715542/Undervisningsnoter_om_BIS.pdf)
 </details>
