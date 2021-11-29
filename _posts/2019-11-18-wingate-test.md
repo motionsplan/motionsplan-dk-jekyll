@@ -30,16 +30,16 @@ quiz:
 
 Wingate 30 sekunders _all out_ test på et cykelergometer har vist sig at være en valid og reliabel måde at estimere den anaerobe kapacitet og power på.
 
-Oprindeligt bliver testen udført på en cykel, hvor du sætter ekstra belastning på. Du kan læse mere om den oprindelige [Wingate-testprotokol hos ScienceForSport](https://www.scienceforsport.com/wingate-anaerobic-test/).
+Oprindeligt bliver testen udført på en cykel, hvor du sætter ekstra belastning på. Du kan læse mere om den oprindelige Wingate-testprotokol hos [www.scienceforsport.com](https://www.scienceforsport.com/wingate-anaerobic-test/).
 
 Testen er meget tidseffektiv, fordi den normalt kun køres en gang.
 
 ## Hvad måler Wingate testen?
 
-- Peak Power Output (watt) (PPO) - Den højeste kraft som gerne skulle måles i løbet af de første 5 sekunder.
-- Relative Peak Power Output (watt/kg) (RPP) - PPO relativt ift. kropsvægt.
-- Anaerobic fatigue / fatigue index (%) (AF) - Det procentvise fald mellem de første 5 sekunder og de sidste 5 sekunder.
-- Anaerobic Capacity (watt/30 sek) (AC) - Det samlede arbejde som er summen af alle fem sekunders-målingerne (PPO).
+- **Peak Power Output** (watt) (PPO) - Den højeste kraft som gerne skulle måles i løbet af de første 5 sekunder.
+- **Relative Peak Power Output** (watt/kg) (RPP) - PPO relativt ift. kropsvægt.
+- **Anaerobic fatigue / fatigue index** (%) (AF) - Det procentvise fald mellem de første 5 sekunder og de sidste 5 sekunder.
+- **Anaerobic Capacity** (watt/30 sek) (AC) - Det samlede arbejde som er summen af alle fem sekunders-målingerne (PPO).
 
 ## Wingate-test på Wattbikes
 
@@ -49,7 +49,7 @@ Hvis du har adgang til en Wattbike, så er der forprogrammeret en 30 sekunders _
 
 Her kan du umiddelbart aflæse alle værdierne undtagen "Anaerobic Capacity". "Anaerobic Capacity" kan du imidlertid hurtigt regne ud ved at tage "Power avg." og gange den med 6 eller lægge de seks 5-sekunders intervaller sammen.
 
-[Wattbike 30 Second Test](https://support.wattbike.com/hc/da/articles/115002920669-The-30-Second-Test){: .btn .btn--large .btn--warning }
+[Læs mere om Wattbike 30 Second Test](https://support.wattbike.com/hc/da/articles/115002920669-The-30-Second-Test){: .btn .btn--large .btn--info }
 
 ## Konklusion
 

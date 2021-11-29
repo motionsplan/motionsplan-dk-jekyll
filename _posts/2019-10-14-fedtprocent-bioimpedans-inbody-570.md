@@ -1,5 +1,5 @@
 ---
-title: &title "Måling af fedtprocent med bioimpedans (Inbody)"
+title: &title "Inbody Test: Måling af fedtprocent med bioimpedans"
 seo_title: "Bioimpedans: Måling af fedtprocent med bioimpedansmåling"
 permalink: /artikel/inbody-570-bioimpedans/
 redirect_from:
@@ -67,7 +67,7 @@ Bioimpedans er en let måde at måle fedtprocent og kropssammensætning på. Tek
 
 På [Vejle Idrætshøjskole](http://www.vih.dk/) har vi adgang til en [InBody 570](http://inbodydanmark.dk/produkter/inbody570/), som vi har købt gennem Fitness Institute og [Henrik Duer](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=53070){: rel='sponsored nofollow noopener' }. Den korrelerer omkring 0,9 med en DEXA-scanner.
 
-### Hvor præcis er InBody 570?
+### Hvor præcis er en InBody test?
 
 Miller et al (2016) har validereret, hvor præcis en kropsanalysevægt test på InBody 570 er. Det viser sig, at analyasen har en høj korrelation med en DEXA-scanner.
 
