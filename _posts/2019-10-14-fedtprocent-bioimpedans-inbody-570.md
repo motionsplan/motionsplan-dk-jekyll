@@ -59,6 +59,32 @@ Teknologien har imidlertid udviklet sig, og de nyere apparater er noget mere pr�
 *[ICW]: Intra Cellular Water
 *[DEXA]: Dual-energy x-ray absorptiometry
 
+## Hvad er bioimpedans?
+
+Ved bioimpedansmålinger sendes en svag vekselstrøm gennem det biologiske væv med forskellige strømfrekvenser. Bioimpedansapparatet måler _impedansen_ eller modstanden i det biologiske væv, som kan være en hel person.
+
+Når strømmen sendes igennem kroppen, så skal det passere cellerne i kroppen. Hver celle i kroppen er omgivet af en cellemembran, der er opbygget af fedtstoffer. Inden i cellerne er der den intracellulære væske, som ofte forkortes ICW eller ICF. Cellerne er omgivet af den ekstracellulære væske, som forkortes ECW eller ECF.
+
+Både den intracellulære og ekstracellulære væske kan lede strøm, mens cellemembranen er elektrisk isolerende.
+
+{% include figure image_path="/assets/images/blog/bioimpedans-1.png" caption="Figuren er baseret på De Lorenzo et al 1997. Kilde: [Undervisningsnoter til BIS](https://pure.au.dk/ws/files/20715542/Undervisningsnoter_om_BIS.pdf)" %}
+
+Når vekselstrømmen har meget **lav frekvens**, så kan strømmen ikke passere cellemembranen. Derfor løber strømmen kun i den ekstracellulære væske.
+
+{% include figure image_path="/assets/images/blog/bioimpedans-2.png" caption="Sådan passerer lavfrekvent strøm forbi cellerne i kroppen. Kilde: [Undervisningsnoter til BIS](https://pure.au.dk/ws/files/20715542/Undervisningsnoter_om_BIS.pdf)" %}
+
+Når vekselstrømmen får en **høj frekvens**, så kan strømmen passere gennem cellemembranen, som om cellemembranen slet ikke er der. Strømmen kan altså skyde genvej direkte gennem cellerne.
+
+{% include figure image_path="/assets/images/blog/bioimpedans-3.png" caption="Højfrekvent strøm løber direkte gennem cellerne. Kilde: [Undervisningsnoter til BIS](https://pure.au.dk/ws/files/20715542/Undervisningsnoter_om_BIS.pdf)" %}
+
+Udregninger med modstand tager typisk udgangspunkt i en geometrisk rund form, men det lever menneskekroppen jo ikke helt op til. De Lorenzo et al (1997) har lavet nogle beregninger af mennesket, som har givet en konstant, der passer på voksne gennemsnitlige personer, der har har samme relation mellem arme, ben og overkrop.
+
+Den ekstracellulære væske har modstand i sig selv, men modstanden bliver også større jo flere celler strømmen skal bevæge sig udenom. Dette kaldes Hanai-teori.
+
+{% include figure image_path="/assets/images/blog/bioimpedans-4.png" caption="Desto flere celler der er i forhold til en bestemt volumen, desto større er modstanden i vævet for den lavfrekvente strøm, fordi den skal bøje af for den elektrisk isolerende cellevæg. Kilde: [Undervisningsnoter til BIS](https://pure.au.dk/ws/files/20715542/Undervisningsnoter_om_BIS.pdf)" %}
+
+For at bioimpedans-beregningerne virker pålidelige, så kræver det at forudsætningerne om, hvor meget vand den fedtfri masse indeholder holder stik. Det er forventningerne om modstanden med forskellige frekvenser gennem vævet, der består af både ekstracellulær væske og celler, der gør, at vi kan bruge bioimpedans til at estimere fedtprocenter.
+
 ## Forudsætninger for præcise bioimpedans fedtprocent-målinger
 
 Hvis du gerne vil have dit resultat til at være så præcist som muligt, så skal du udføre testen ud fra nogle præcise retningslinjer. Hvis du gerne vil bruge bioimpedansmålingerne til at måle dit fremskridt, så er det rigtig vigtigt, at du laver målingen på samme måde hver gang.
