@@ -26,7 +26,7 @@ feature_row:
   - image_path: https://shop.getbig.dk/images/medium/personvaegt-med-fedtprocentmaaler_MED.jpg
     alt: "Badevægt med fedtprocent måler"
     title: "Badevægt med fedtprocent måler"
-    excerpt: "Denne badevægt kan give dig en komplet oversigt over både vægt, fedtprocent, [BMI](/bmi/), væskeandel og knoglemasse. Man kan oprette analyser for 8 personer, og dermed kan hele familien nøjes med denne ene vægt. Denne vægt er formentlig ikke valideret og er langt fra så præcis, som de andre præsenteret i denne artikel."
+    excerpt: "Badevægten giver dig en komplet oversigt over både vægt, fedtprocent, [BMI](/bmi/), væskeandel og knoglemasse. Man kan oprette analyser for 8 personer, så den passer til hele familien. Du skal ikke forvente, at vægten er valideret og så præcis, som en InBody-måling."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=21411&htmlurl=https://shop.getbig.dk/badevaegt-i-luksuskvalitet"
     btn_label: "Tjek prisen"
     btn_class: "btn--success"
@@ -93,7 +93,7 @@ Det er ret enkelt at tage selve testen. Du følger bare instruktionerne på skæ
 
 Når du står på InBody 570 vil du ende med et resultat på LCD-skærmen, der ser sådan her ud.
 
-{% include figure image_path="https://inbodydanmark.dk/wp-content/uploads/2014/09/Global_inbody570_lcd.jpg" caption="LCD på InBody 570" alt="LCD på InBody 570" %}
+{% include figure image_path="https://inbodydanmark.dk/wp-content/uploads/2014/09/Global_inbody570_lcd.jpg" caption="Resultatet fra bioimpedansmålingen ser sådan her ud på LCD-skærmen på InBody 570-kropsanalysemåler" alt="LCD på InBody 570" %}
 
 De fleste kigger som det første efter deres fedtprocent (PBF), men muskelmassen (SMM) er også interessant for mange. Det sidste tal er rationen _extra cellulære væske_ (ECW-ratio).
 
@@ -110,7 +110,7 @@ Extra Cellular Water-ratio (ECW Ratio)
 
 Når du har lavet testen, så får du et resultatark udprintet, som ser sådan her ud:
 
-{% include figure image_path="https://inbodydanmark.dk/wp-content/uploads/2014/09/Global_inbody570_results02.jpg" caption="Resultatark fra InBody 570" alt="Resultatark fra InBody 570" %}
+{% include figure image_path="https://inbodydanmark.dk/wp-content/uploads/2014/09/Global_inbody570_results02.jpg" caption="Resultatark fra InBody 570" alt="Resultatark fra kropsanalysevægt test på InBody 570" %}
 
 På [InBody USA](https://inbodyusa.com/general/570-result-sheet-interpretation/) har de en god gennemgang af resultatarket, og du kan også se mere i nedenstående video.
 

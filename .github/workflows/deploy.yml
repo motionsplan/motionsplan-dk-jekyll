@@ -72,7 +72,7 @@ jobs:
         uses: actions/cache@v2
         with:
           path: "_site/"
-          key: ${{ runner.os }}-$GITHUB_RUN_ID
+          key: ${{ runner.os }}-$GITHUB_RUN_NUMBER
       - name: 🎉 Deploy to GitHub Pages 🎊
         if: success()
         uses: crazy-max/ghaction-github-pages@v2
