@@ -15,6 +15,10 @@ a[rel~=sponsored]:after {
   @extend .btn--danger;
 }
 
+.btn--bmc {
+  background-color:#a17157;
+}
+
 .btn--lead {
   @extend .btn;
   @extend .btn--large;

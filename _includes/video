@@ -8,22 +8,22 @@
 {% comment %} Courtesy of embedresponsively.com //{% endcomment %}
 <div class="responsive-video-container">
 {% if video_provider == "vimeo" %}
-  <iframe src="https://player.vimeo.com/video/{{ video_id }}?dnt=true" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+  <iframe src="https://player.vimeo.com/video/{{ video_id }}?dnt=true" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen loading="lazy"></iframe>
 {% elsif video_provider == "youtube" %}
   <div class="youtube-container">
     <div class="youtube-player" data-id="{{ video_id }}">
-      <a href="https://www.youtube.com/watch?v={{ video_id }}" rel="nofollow noopener"><img class="youtube-thumb" src="//i.ytimg.com/vi/{{ video_id }}/hqdefault.jpg"><span class="play-button"></span></a>
+      <a href="https://www.youtube.com/watch?v={{ video_id }}" rel="nofollow noopener"><img class="youtube-thumb" src="//i.ytimg.com/vi/{{ video_id }}/hqdefault.jpg" loading="lazy"><span class="play-button"></span></a>
     </div>
   </div>
   {% comment %}
-    <iframe src="https://www.youtube-nocookie.com/embed/{{ video_id }}" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube-nocookie.com/embed/{{ video_id }}" frameborder="0" allowfullscreen loading="lazy"></iframe>
   {% endcomment %}
 {% elsif video_provider == "google-drive" %}
-  <iframe src="https://drive.google.com/file/d/{{ video_id }}/preview" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://drive.google.com/file/d/{{ video_id }}/preview" frameborder="0" allowfullscreen loading="lazy"></iframe>
 {% elsif video_provider == "wistia-net" %}
-  <iframe src="//fast.wistia.net/embed/iframe/{{ video_id }}?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" name="wistia_embed" allowfullscreen="true"></iframe>
+  <iframe src="//fast.wistia.net/embed/iframe/{{ video_id }}?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" name="wistia_embed" allowfullscreen="true" loading="lazy"></iframe>
 {% elsif video_provider == "facebook" %}
-  <iframe src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/{{ video_id }}&show_text=0&width=600" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+  <iframe src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/{{ video_id }}&show_text=0&width=600" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true" loading="lazy"></iframe>
 {% endif %}
 </div>
 

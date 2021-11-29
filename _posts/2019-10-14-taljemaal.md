@@ -134,9 +134,11 @@ WHR kan afspejle den intraabdominale fedme. Ofte er WHR også knyttet sammen med
 
 Hvordan måles taljemålet (livvidden) og hoftemålet som bruges til talje-hofte-ratioen, og hvor måler man hoften?
 
+{% include figure image_path="https://www.myfooddiary.com/IMG/Resources/waist_to_hip_measure.gif" caption="Kilde: [www.myfooddiary.com](https://www.myfooddiary.com/resources/waist-to-hip_ratio_calculator.asp)" %}
+
 - Personen skal stå oprejst til begge målinger.
 - **Taljemålet**. Mål omkredsen af taljen ved midtpunktet på siden mellem nederste punkt at nederste ribben og øverste punkt af hoftekammen. Det er cirka 2 cm over navlen.
-- **Hoftemålet**. Hoften måles ved det den største omkreds ved hoften.
+- **Hoftemålet**. Hoften måles ved det den største omkreds ved hoften og omkring numsen.
 
 Du kan se mere i denne video om, hvordan man måler taljemålet og hoftemålet:
 
