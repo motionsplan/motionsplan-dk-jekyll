@@ -5,7 +5,7 @@ redirect_from:
   - /inbody/
   - /bioimpedans/
   - /artikel/inbody-570-bioimpedans
-excerpt: "Du kan måle din fedtprocent og kropskomposition med bioimpedans - og de nyere maskiner er relativt reliabile og valide, hvis du følger anvisningerne."
+excerpt: "Du kan måle din fedtprocent og kropskomposition med bioimpedans. De nyere vægte til kropsanalyse er relativt reliabile og valide, hvis du følger anvisningerne i forhold til guldstandarderne for måling af kropskomposition."
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1501525547-7b008cf72da5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=5
@@ -19,7 +19,7 @@ breadcrumbs: true
 tags:
   - fedtprocent
   - bioimpedans
-last_modified_at: 2019-03-06T23:14:14Z
+last_modified_at: 2021-03-06T23:14:14Z
 toc: true
 feature_row:
   - image_path: https://shop.getbig.dk/images/medium/personvaegt-med-fedtprocentmaaler_MED.jpg
@@ -31,7 +31,7 @@ feature_row:
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
   - image_path: https://www.fotoagent.dk/single_picture/11803/138/custom1/tanita_dc_360_p_avec_colonne_analyseur_de_masse_co.jpg
-    alt: "Tanita DC 360P Kropsanalysevægt"
+    alt: "Tanita DC 360P Kropsanalysevægt test"
     title: "Tanita DC 360P Kropsanalysevægt"
     excerpt: "Med en Tanita DC 360P kropsanalysevægt er du garanteret præcise og nøjagtige resultater. På blot 15 sekunder er det muligt at få en fuld kropsanalyse. Resultaterne vil øjeblikkeligt blive vist på LCD-skærmen, som er nem at læse."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/tanita-dc-360p-kropsanalysevaegt/"
@@ -39,24 +39,22 @@ feature_row:
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
   - image_path: https://www.fotoagent.dk/single_picture/11803/138/mega/Tanita_MC780_full(1).jpg
-    alt: "Tanita MC 780 P MA"
+    alt: "Tanita MC 780 kropsanalysevægt til test"
     title: "Tanita MC 780 P MA"
-    excerpt: "Tanita MC 780 P MA, er en interaktiv maskine, hvilket gør at vægten er nemt at benytte. Med det todelte display, kan du nemt overskue den målte og beregnede data."
+    excerpt: "På Tanita MC 780 kan du lave en interaktiv kropsanalysevægt test. Vægten er let at benytte. Med det todelte display kan du nemt overskue de målte og beregnede data."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/tanita-mc-780-p-ma/"
     btn_label: "Tjek prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
 ---
 
+Bioimpedans er en let måde at måle fedtprocent og kropssammensætning på. Teknologien blev kendt i løbet af 1980'erne, men præcisionen sammenlignet med 'guld-standarderne' _hydrostatisk vejning_ (vandvejning) og DEXA-scanner var ikke så høj. Teknologien har imidlertid udviklet sig og de nyere apparater er noget bedre. Mest kendt for sin præcision er _InBody_, som bl.a. i et studium viser en korrelation med DEXA-scanner på 88% ([Miller et al 2016](https://www.researchgate.net/profile/Ryan_Miller37/publication/318348260_Validating_InBody_R_570_Multi-frequency_Bioelectrical_Impedance_Analyzer_versus_DXA_for_Body_Fat_Percentage_Analysis/links/5964e3da458515183cfaaced/Validating-InBody-R-570-Multi-frequency-Bioelectrical-Impedance-Analyzer-versus-DXA-for-Body-Fat-Percentage-Analysis.pdf?origin=publication_detail)).
+
 *[PBF]: Percent Body Fat
 *[SMM]: Skeletal Muscle Mass
 *[ECW]: Extra Cellular Water
 *[ICW]: Intra Cellular Water
 *[DEXA]: Dual-energy x-ray absorptiometry
-
-Bioimpedans er en let måde at måle fedtprocent og kropssammensætning på. Teknologien blev kendt i løbet af 1980'erne, men præcisionen sammenlignet med 'guld-standarderne' _hydrostatisk vejning_ (vandvejning) og DEXA-scanner var ikke så høj. Teknologien har imidlertid udviklet sig og de nyere apparater er noget bedre. Mest kendt for sin præcision er _InBody_, som bl.a. i et studium viser en korrelation med DEXA-scanner på 88%[^note].
-
-[^note]: [Validating InBody® 570 Multi-frequency Bioelectrical Impedance Analyzer versus DXA for Body Fat Percentage Analysis](https://www.researchgate.net/profile/Ryan_Miller37/publication/318348260_Validating_InBody_R_570_Multi-frequency_Bioelectrical_Impedance_Analyzer_versus_DXA_for_Body_Fat_Percentage_Analysis/links/5964e3da458515183cfaaced/Validating-InBody-R-570-Multi-frequency-Bioelectrical-Impedance-Analyzer-versus-DXA-for-Body-Fat-Percentage-Analysis.pdf?origin=publication_detail)
 
 ## Forudsætninger for bioimpedans fedtprocent-målinger
 
@@ -68,25 +66,35 @@ Bioimpedans er en let måde at måle fedtprocent og kropssammensætning på. Tek
 
 På [Vejle Idrætshøjskole](http://www.vih.dk/) har vi adgang til en [InBody 570](http://inbodydanmark.dk/produkter/inbody570/), som vi har købt gennem Fitness Institute og [Henrik Duer](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=53070){: rel='sponsored nofollow noopener' }. Den korrelerer omkring 0,9 med en DEXA-scanner.
 
-### Hvor præcis er InBody 570
+### Hvor præcis er InBody 570?
+
+Miller et al (2016) har validereret, hvor præcis en kropsanalysevægt test på InBody 570 er. Det viser sig, at analyasen har en høj korrelation med en DEXA-scanner.
 
 > Body fat percentage determined by DXA shares 88% of the variance with MfBIA, leaving 12% variance unexplained. (...)
 >
 > The results of the current study reveal if strict guidelines are adhered to MfBIA is a comparable method for determining body fat percentage when compared to DXA.
 
----<cite>[Validating InBody® 570 Multi-frequency Bioelectrical Impedance Analyzer versus DXA for Body Fat Percentage Analysis](https://www.researchgate.net/profile/Ryan_Miller37/publication/318348260_Validating_InBody_R_570_Multi-frequency_Bioelectrical_Impedance_Analyzer_versus_DXA_for_Body_Fat_Percentage_Analysis/links/5964e3da458515183cfaaced/Validating-InBody-R-570-Multi-frequency-Bioelectrical-Impedance-Analyzer-versus-DXA-for-Body-Fat-Percentage-Analysis.pdf?origin=publication_detail)</cite>
+--- <cite>[Miller et al (2016)](https://www.researchgate.net/profile/Ryan_Miller37/publication/318348260_Validating_InBody_R_570_Multi-frequency_Bioelectrical_Impedance_Analyzer_versus_DXA_for_Body_Fat_Percentage_Analysis/links/5964e3da458515183cfaaced/Validating-InBody-R-570-Multi-frequency-Bioelectrical-Impedance-Analyzer-versus-DXA-for-Body-Fat-Percentage-Analysis.pdf?origin=publication_detail)</cite>
 
 Dog skal du være opmærksom på, at fedtprocenten målt med DEXA-scanneren var omkring 5%-point højere både for mænd og kvinder. De bruger ikke meget tid i studiet til at diskutere det.
 
 > Mean  body  fat  percentage  for  DXA  was  25.61  ±  10.56%  across genders,  32.92  ±  7.74%  women,  and  21.77  ±  9.82%  men, respectively. Mean body fat percentage for MfBIA was 20.99 ± 9.34% across genders, 27.72 ± 7.27% women, and 17.46 ± 8.33% men.
 
-### Hvordan udføres testen med InBody 570
+--- <cite>[Miller et al (2016)](https://www.researchgate.net/profile/Ryan_Miller37/publication/318348260_Validating_InBody_R_570_Multi-frequency_Bioelectrical_Impedance_Analyzer_versus_DXA_for_Body_Fat_Percentage_Analysis/links/5964e3da458515183cfaaced/Validating-InBody-R-570-Multi-frequency-Bioelectrical-Impedance-Analyzer-versus-DXA-for-Body-Fat-Percentage-Analysis.pdf?origin=publication_detail)</cite>
+
+Det betyder, som med alle andre typer måling af fedtprocent, at du skal tage det absolutte tal med flere forbehold.
+
+### Hvordan udføres testen med InBody 570?
 
 Det er ret enkelt at tage selve testen. Du følger bare instruktionerne på skærmen. Det besværlige er at møde op til testen med den rigtige forberedelse, som er beskrevet ovenfor.
 
-{% include video id="-9fDbyMHy_o" provider="youtube"  %}
+{% include video id="-9fDbyMHy_o" provider="youtube" %}
 
-Når du står på InBody 570 vil du ende med et resultat på LCD-skærmen, der ser sådan her ud. De fleste kigger som det første efter deres fedtprocent (PBF), men muskelmassen (SMM) er også interessant for mange. Det sidste tal er rationen _extra cellulære væske_ (ECW-ratio).
+Når du står på InBody 570 vil du ende med et resultat på LCD-skærmen, der ser sådan her ud.
+
+{% include figure image_path="https://inbodydanmark.dk/wp-content/uploads/2014/09/Global_inbody570_lcd.jpg" caption="LCD på InBody 570" alt="LCD på InBody 570" %}
+
+De fleste kigger som det første efter deres fedtprocent (PBF), men muskelmassen (SMM) er også interessant for mange. Det sidste tal er rationen _extra cellulære væske_ (ECW-ratio).
 
 Skelet Muscle Mass (SMM)
 : Skeletmusklerne er de primære bevægelsesmuskler. Desto større andelen af muskler er i forhold til fedt, desto stærkere er kroppen.
@@ -97,9 +105,7 @@ Percent Body Fat (PBF)
 Extra Cellular Water-ratio (ECW Ratio)
 : Andelen af vand uden for cellerne sammenlignet med den totale mængde vand i kroppen. En vigtig indikator for vandbalancen i kroppen. Hvis du fx oplever en stigning i ECW, men ikke i ICW, så kan det være en indikator på hævelse eller inflammation i kroppen.
 
-{% include figure image_path="https://inbodydanmark.dk/wp-content/uploads/2014/09/Global_inbody570_lcd.jpg" caption="LCD på InBody 570" alt="LCD på InBody 570" %}
-
-### Fortolke resultatarket fra InBody 570
+### Fortolkning af resultatarket fra InBody 570
 
 Når du har lavet testen, så får du et resultatark udprintet, som ser sådan her ud:
 
@@ -107,7 +113,7 @@ Når du har lavet testen, så får du et resultatark udprintet, som ser sådan h
 
 På [InBody USA](https://inbodyusa.com/general/570-result-sheet-interpretation/) har de en god gennemgang af resultatarket, og du kan også se mere i nedenstående video.
 
-{% include video id="-zwAYct6COs" provider="youtube"  %}
+{% include video id="-zwAYct6COs" provider="youtube" %}
 
 ## Andre typer bioimpedans-målere
 
