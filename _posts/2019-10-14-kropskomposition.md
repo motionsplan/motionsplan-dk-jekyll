@@ -104,7 +104,7 @@ I DEXA-scanning får du stråler gennem kroppen. Oprindeligt var DEXA skabt til 
 
 I modsætning til vandvejning kan DEXA-scannere måle de enkelte segmenter, så man kan se, hvor meget fedt man har i ben og arme og i selve kropsstammen.
 
-DEXA-scanner er ofte relativt dyrt at få lavet.
+DEXA-scanninger er ofte relativt dyrt at få lavet.
 
 {% include figure image_path="https://cdn.shopify.com/s/files/1/0832/8945/files/1047px-DEXA_scanner_in_use_ALSPAC_grande.jpg?8848881564353978401" caption="DEXA-scanner. Image Credit: [Nick Smith photography](http://www.nicksmithphotography.com/)" alt="DEXA Scanner" %}
 

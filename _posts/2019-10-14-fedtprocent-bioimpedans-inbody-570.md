@@ -49,7 +49,9 @@ feature_row:
     rel: sponsored nofollow noopener
 ---
 
-Bioimpedans er en let måde at måle fedtprocent og kropssammensætning på. Teknologien blev kendt i løbet af 1980'erne, men præcisionen sammenlignet med 'guld-standarderne' _hydrostatisk vejning_ (vandvejning) og DEXA-scanner var ikke så høj. Teknologien har imidlertid udviklet sig og de nyere apparater er noget bedre. Mest kendt for sin præcision er _InBody_, som bl.a. i et studium viser en korrelation med DEXA-scanner på 88% ([Miller et al 2016](https://www.researchgate.net/profile/Ryan_Miller37/publication/318348260_Validating_InBody_R_570_Multi-frequency_Bioelectrical_Impedance_Analyzer_versus_DXA_for_Body_Fat_Percentage_Analysis/links/5964e3da458515183cfaaced/Validating-InBody-R-570-Multi-frequency-Bioelectrical-Impedance-Analyzer-versus-DXA-for-Body-Fat-Percentage-Analysis.pdf?origin=publication_detail)).
+Bioimpedans er en let måde at måle fedtprocent og kropssammensætning på. Teknologien blev kendt i løbet af 1980'erne, men præcisionen sammenlignet med 'guld-standarderne' _hydrostatisk vejning_ (vandvejning) og DEXA-scanner var ikke så høj.
+
+Teknologien har imidlertid udviklet sig, og de nyere apparater er noget mere præcise. Mest kendt for sin præcision er _InBody_, som bl.a. i et studium viser en korrelation med DEXA-scanner på 88% ([Miller et al 2016](https://www.researchgate.net/profile/Ryan_Miller37/publication/318348260_Validating_InBody_R_570_Multi-frequency_Bioelectrical_Impedance_Analyzer_versus_DXA_for_Body_Fat_Percentage_Analysis/links/5964e3da458515183cfaaced/Validating-InBody-R-570-Multi-frequency-Bioelectrical-Impedance-Analyzer-versus-DXA-for-Body-Fat-Percentage-Analysis.pdf?origin=publication_detail)), selvom den konsekvent måler omkring 5% lavere end DEXA-scanneren.
 
 *[PBF]: Percent Body Fat
 *[SMM]: Skeletal Muscle Mass
@@ -57,15 +59,48 @@ Bioimpedans er en let måde at måle fedtprocent og kropssammensætning på. Tek
 *[ICW]: Intra Cellular Water
 *[DEXA]: Dual-energy x-ray absorptiometry
 
-## Forudsætninger for bioimpedans fedtprocent-målinger
+## Forudsætninger for præcise bioimpedans fedtprocent-målinger
 
-- Faste i mindst 12 timer
+Hvis du gerne vil have dit resultat til at være så præcist som muligt, så skal du udføre testen ud fra nogle præcise retningslinjer. Hvis du gerne vil bruge bioimpedansmålingerne til at måle dit fremskridt, så er det rigtig vigtigt, at du laver målingen på samme måde hver gang.
+
+- Faste i mindst 12 timer før målingen
 - Ingen træning i mindst 12 timer - og helst ikke hård træning dagen før overhovedet
 - Ingen alkoholindtag mindst 24 timer før testning
 
 ## Bioimpedans måling med InBody 570
 
-På [Vejle Idrætshøjskole](http://www.vih.dk/) har vi adgang til en [InBody 570](http://inbodydanmark.dk/produkter/inbody570/), som vi har købt gennem Fitness Institute og [Henrik Duer](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=53070){: rel='sponsored nofollow noopener' }. Den korrelerer omkring 0,9 med en DEXA-scanner.
+På [Vejle Idrætshøjskole](http://www.vih.dk/) har vi adgang til en [InBody 570](http://inbodydanmark.dk/produkter/inbody570/), som vi har købt gennem Fitness Institute og [Henrik Duer](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=53070){: rel='sponsored nofollow noopener' }. InBody 570 korrelerer omkring 0,9 med en DEXA-scanner, som i øjeblikket anses for guldstandarden til at estimere kropskomposition.
+
+### Hvordan udføres bioimpedansmåling med InBody 570?
+
+Det er ret enkelt at tage selve testen på InBody 570. Du følger bare instruktionerne på skærmen. Det besværlige er at møde op til testen med den rigtige forberedelse, som er beskrevet ovenfor.
+
+{% include video id="-9fDbyMHy_o" provider="youtube" %}
+
+Når du står på InBody 570 vil du ende med et resultat på LCD-skærmen, der ser sådan her ud.
+
+{% include figure image_path="https://inbodydanmark.dk/wp-content/uploads/2014/09/Global_inbody570_lcd.jpg" caption="Resultatet fra bioimpedansmålingen ser sådan her ud på LCD-skærmen på InBody 570-kropsanalysemåler" alt="LCD på InBody 570" %}
+
+De fleste kigger som det første efter deres fedtprocent (PBF), men muskelmassen (SMM) er også interessant for mange. Det sidste tal er ratioen _extra cellulære væske_ (ECW-ratio) i forhold til den _intra cellulære væske (ICW)_.
+
+Skelet Muscle Mass (SMM)
+: Skeletmusklerne er de primære bevægelsesmuskler. Desto større andelen af muskler er i forhold til fedt, desto stærkere er kroppen.
+
+Percent Body Fat (PBF)
+: Angiver hvor stor en del af kroppen, der består af fedt.
+
+Extra Cellular Water-ratio (ECW Ratio)
+: Andelen af vand uden for cellerne sammenlignet med den totale mængde vand i kroppen. En vigtig indikator for vandbalancen i kroppen. Hvis du fx oplever en stigning i ECW, men ikke i ICW, så kan det være en indikator på hævelse eller inflammation i kroppen.
+
+### Fortolkning af resultatarket fra InBody 570
+
+Når du har lavet testen, så får du også et resultatark skrevet ud. Resultat fra kropskompositionstesten ser nogenlunde sådan her ud:
+
+{% include figure image_path="https://inbodydanmark.dk/wp-content/uploads/2014/09/Global_inbody570_results02.jpg" caption="Resultatark fra bioimpedansmålingen for InBody 570" alt="Resultatark fra kropsanalysevægt test på InBody 570" %}
+
+På [InBody USA](https://inbodyusa.com/general/570-result-sheet-interpretation/) har de en god gennemgang af resultatarket. Du kan lære mere ved at se denne video fra Youtube:
+
+{% include video id="-zwAYct6COs" provider="youtube" %}
 
 ### Hvor præcis er en InBody test?
 
@@ -84,37 +119,6 @@ Dog skal du være opmærksom på, at fedtprocenten målt med DEXA-scanneren var 
 --- <cite>[Miller et al (2016)](https://www.researchgate.net/profile/Ryan_Miller37/publication/318348260_Validating_InBody_R_570_Multi-frequency_Bioelectrical_Impedance_Analyzer_versus_DXA_for_Body_Fat_Percentage_Analysis/links/5964e3da458515183cfaaced/Validating-InBody-R-570-Multi-frequency-Bioelectrical-Impedance-Analyzer-versus-DXA-for-Body-Fat-Percentage-Analysis.pdf?origin=publication_detail)</cite>
 
 Det betyder, som med alle andre typer måling af fedtprocent, at du skal tage det absolutte tal med flere forbehold.
-
-### Hvordan udføres bioimpedansmåling med InBody 570?
-
-Det er ret enkelt at tage selve testen. Du følger bare instruktionerne på skærmen. Det besværlige er at møde op til testen med den rigtige forberedelse, som er beskrevet ovenfor.
-
-{% include video id="-9fDbyMHy_o" provider="youtube" %}
-
-Når du står på InBody 570 vil du ende med et resultat på LCD-skærmen, der ser sådan her ud.
-
-{% include figure image_path="https://inbodydanmark.dk/wp-content/uploads/2014/09/Global_inbody570_lcd.jpg" caption="Resultatet fra bioimpedansmålingen ser sådan her ud på LCD-skærmen på InBody 570-kropsanalysemåler" alt="LCD på InBody 570" %}
-
-De fleste kigger som det første efter deres fedtprocent (PBF), men muskelmassen (SMM) er også interessant for mange. Det sidste tal er rationen _extra cellulære væske_ (ECW-ratio).
-
-Skelet Muscle Mass (SMM)
-: Skeletmusklerne er de primære bevægelsesmuskler. Desto større andelen af muskler er i forhold til fedt, desto stærkere er kroppen.
-
-Percent Body Fat (PBF)
-: Angiver hvor stor en del af kroppen, der består af fedt.
-
-Extra Cellular Water-ratio (ECW Ratio)
-: Andelen af vand uden for cellerne sammenlignet med den totale mængde vand i kroppen. En vigtig indikator for vandbalancen i kroppen. Hvis du fx oplever en stigning i ECW, men ikke i ICW, så kan det være en indikator på hævelse eller inflammation i kroppen.
-
-### Fortolkning af resultatarket fra InBody 570
-
-Når du har lavet testen, så får du et resultatark udprintet, som ser sådan her ud:
-
-{% include figure image_path="https://inbodydanmark.dk/wp-content/uploads/2014/09/Global_inbody570_results02.jpg" caption="Resultatark fra InBody 570" alt="Resultatark fra kropsanalysevægt test på InBody 570" %}
-
-På [InBody USA](https://inbodyusa.com/general/570-result-sheet-interpretation/) har de en god gennemgang af resultatarket, og du kan også se mere i nedenstående video.
-
-{% include video id="-zwAYct6COs" provider="youtube" %}
 
 ## Andre typer bioimpedans-målere
 
