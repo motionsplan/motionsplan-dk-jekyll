@@ -3,8 +3,8 @@ title: "Udregn BMI: Formel og beregner for kvinder, mænd og børn"
 seo_title: "BMI-beregner - BMI for kvinder, mænd, teenager og børn"
 # Udregn BMI: Måler og beregner for kvinder, mænd og børn
 # Better than: BMI - Tabel og skema for kvinder, mænd og børn [Beregner] »
-description: "BMI tabel og skema for børn, teenagere, kvinder og mænd ✓ Body Mass Index formel og måler ✓ GRATIS nøjagtig beregner ✓ Forstå alle detaljerne i dag!"
-permalink: /bmi/
+description: "BMI tabel og skema for børn, teenagere, kvinder og mænd ✓ Body Mass Index formel og måler ✓ GRATIS nøjagtig BMI beregner ✓ Forstå alle detaljerne i dag!"
+permalink: /bmi-beregner/
 excerpt: "Body Mass Index (BMI) er den mest udbredte formel og test til at udregne idealvægt. Beregn dit BMI i vores beregner og se BMI skala og tabel for børn og voksne mænd og kvinder."
 language: da
 header:
@@ -21,7 +21,7 @@ tags:
   - featured
   - beregner
 popular: true
-last_modified_at: 2021-01-06T22:14:14Z
+last_modified_at: 2021-11-06T22:14:14Z
 faq:
   - question: "Hvad skal kvinders BMI være?"
     answer: "Voksne kvinder og mænds BMI bliver vurderet efter de samme tabeller. Studier har vist, at et sundt BMI ligger i den højere del af 'normalvægt'. Du kan se BMI-skemaer her på siden."
@@ -44,7 +44,7 @@ Jeg sidder og læser et glitrende magasin om sport og helse, og endnu engang ser
 
 Hvad er BMI? **Body Mass Index (BMI) er en enkel matematisk formel for sammenhængen mellem personers højde og vægt. Formlen bruges til at vurdere undervægt, normalvægt og overvægt i større befolkningsgrupper, fordi BMI tilsyneladende har en sammenhæng med fedtprocenten. BMI bruges også ofte som test til at indikere under- og overvægt hos enkelte personer, men bør ikke bruges til præcise målinger hos individuelle.**
 
-Vi har lavet en beregner, hvor du udregne dit BMI baseret på den originale formel og få en vurdering af dit BMI. Ud fra beregningen kan du sammenligne dig med _det normale_ og få et bud på, hvad din idealvægt er.
+Vi har lavet en beregner, hvor du udregne dit BMI baseret på den originale formel og få en vurdering af dit BMI. Ud fra beregningen kan du sammenligne dig med _et normalt BMI_ og få et bud på, hvad din idealvægt er.
 
 Fordelen ved BMI er, at det er utrolig let at bruge. Derfor bliver BMI-udregninger også brugt mange steder, men ofte uden nærmere forklaringer af, hvad BMI er. At bruge BMI på individuelt niveau er forbundet med en række forbehold, så husk at læse lidt videre.
 
@@ -89,13 +89,13 @@ BMI har vist sig at være et godt værktøj til at beskrive forekomsten af overv
 
 Når forskerne kigger på tilstrækkeligt mange personer på en gang, så ser det ud til, at man kan finde relativt klare sammenhænge mellem forekomsten af overvægt og fedme i større populationer.
 
-## Formel: Hvordan udregnes BMI?
+## BMI Formel: Hvordan udregnes BMI?
 
-BMI er let at beregne, når du kender din højde (meter) og din vægt (kg):
+BMI er let at beregne, når du kender din højde (meter) og din vægt (kg). Du skal ganske enkelt bare sætte tallene ind i følgende formel:
 
 {% include math formula="BMI = \frac{weight (kg)}{height (m)^2}" %}
 
-Eksempelvis vejer jeg selv 80 kg og jeg er 1,81 m høj. Mit BMI er altså:
+Eksempelvis vejer jeg selv 80 kg og er 1,81 m høj. Mit BMI er altså:
 
 {% include math formula="BMI = \frac{82 (kg)}{1,81 (m)^2} = 25" %}
 
@@ -103,19 +103,19 @@ Ifølge BMI holder jeg mig lige netop inden for normalområdet, men lad os se p�
 
 ## Test: Hvad er et normalt BMI-tal for mænd og kvinder?
 
-Der findes generelle tabeller for [Body Mass Index (BMI)](https://da.wikipedia.org/wiki/Body_Mass_Index), der retter sig mod voksne mænd og kvinder i alderen med en højde i normalområdet og fra ældre end 18 år og opefter.
+Der findes forskellige generelle tabeller for Body Mass Index (BMI) som fx denne fra [Wikipedia](https://da.wikipedia.org/wiki/Body_Mass_Index). Denne BMI skala retter sig mod voksne mænd og kvinder i alderen med en højde i normalområdet og fra ældre end 18 år og opefter.
 
 Tabellerne opdeler i forskellige grupper alt efter, hvor højt BMI er. Husk at værdierne kun er vejledende, fordi BMI ikke reelt kan tage højde for din kropskomposition.
 
 For voksne er de generelle kategorier for BMI for voksne (ældre end 18 år og ikke for gravide):
 
-- BMI under 18.5 = undervægtig
-- BMI mellem 18.5-24.9 = normalvægtig
-- BMI mellem 25-29.9 = overvægtig
-- BMI mellem 30-39.9 = fedme
+- BMI under 18,5 = undervægtig
+- BMI mellem 18,5-24,9 = normalvægtig
+- BMI mellem 25-29,9 = overvægtig
+- BMI mellem 30-39,9 = fedme
 - BMI over 40 = svær fedme
 
-### Tabel: Normalværdier for Body Mass Index for mænd og kvinder
+### BMI tabel: Normalværdier for Body Mass Index for mænd og kvinder
 
 Hvis vi sætter standarderne for BMI for voksne ind i en tabel, ser det sådan ud. Læg mærke til, at jeg i tabellen har ændret klassificeringen for undervægtige lidt, da det ser ud til at et BMI under 20 allerede er forbundet med sundhedsmæssige konsekvenser.
 
@@ -167,7 +167,7 @@ Afzal et al (2016) har sammenlignet tre danske grupper af mennesker, og det ser 
 
 > Among 3 Danish cohorts, the BMI associated with the lowest all-cause mortality increased by 3.3 from 1976-1978 through 2003-2013. Further investigation is needed to understand the reason for this change and its implications.
 
-— <cite>[Afzal et al (2016)](https://jamanetwork.com/journals/jama/fullarticle/2520627)</cite>
+--- <cite>[Afzal et al (2016)](https://jamanetwork.com/journals/jama/fullarticle/2520627)</cite>
 
 BMI forbundet med den laveste risiko for at dø i Danmark er altså i perioden steget med 3,3 BMI-point i forhold. Forskerne kan ikke helt sige, hvad ændringen skyldes, men det gør det endnu mere klart, at BMI med de nuværende tabeller er et godt mål for under- og overvægt og sammenknytning til sygdomme.
 
@@ -175,7 +175,7 @@ BMI forbundet med den laveste risiko for at dø i Danmark er altså i perioden s
 
 Det er væsentligt at påpege, at der er store variationer for den enkelte i forhold til, om man lige nøjagtigt rammer det optimale BMI. Om BMI går et par stykker op eller ned betyder ikke så meget, men i forhold til helbredet og at leve længe, så kan man altså med fordel være tæt på kategorien overvægtig ud fra de nuværende klassifikationer.
 
-På baggrund af dette siger [Morten Zacho, at plus-minus seks kilo ikke betyder noget](https://www.dr.dk/levnu/krop/du-skal-veje-mere-end-du-tror), selvom BMI svinger.
+På baggrund af dette siger [Morten Zacho](https://www.dr.dk/levnu/krop/du-skal-veje-mere-end-du-tror), at plus-minus seks kilo ikke betyder noget, selvom BMI svinger.
 
 > Så der er altså ret stor spændvidde. Vi skal derfor have bredere rammer for, hvad man kan veje og stadig blive betragtet som sund og rask.
 
