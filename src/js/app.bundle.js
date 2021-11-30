@@ -831,10 +831,13 @@ $(function() {
         let f = fat.CalculateFatPercent(h, w, a, g);
 
         $("[name='BMI']").val(f.getBMI().toFixed(2));
-        $("[name='fat_percent_heitmann']").val(f.getBodyFatPercentHeitmannBMIEquation().toFixed(1));
-        $("[name='fat_percent_durnin']").val(f.getBodyFatPercentWomersleyDurninBMIEquation().toFixed(1));
-        $("[name='fat_percent_duerenberg']").val(f.getBodyFatPercentDuerenbergBMIEquation().toFixed(1));
-        $("[name='fat_percent_gallagher']").val(f.getBodyFatPercentGallagher().toFixed(1));
+        $("[name='fat_percent_durnin']").val(f.getWomersleyDurnin1977().toFixed(1));
+        $("[name='fat_percent_jackson_pollock']").val(f.getJacksonPollock1980().toFixed(1));
+        $("[name='fat_percent_heitmann']").val(f.getHeitmann1990().toFixed(1));
+        $("[name='fat_percent_duerenberg']").val(f.getDuerenberg1991().toFixed(1));
+        $("[name='fat_percent_duerenberg_1998']").val(f.getDuerenberg1998().toFixed(1));
+        $("[name='fat_percent_gallagher']").val(f.getGallagher2000().toFixed(1));
+        $("[name='fat_percent_heritage_2002']").val(f.getHeritage2002().toFixed(1));
     });
     $("#calculator_how_tall").submit(function(e) {
         console.log("Calculate How Tall");

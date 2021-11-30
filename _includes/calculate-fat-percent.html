@@ -4,10 +4,10 @@
         <fieldset>
             <legend>Køn</legend>
             <label class="radio">
-                <input name="sex" type="radio" value="man" required> &#9794; Mand
+                <input name="sex" type="radio" value="man" required> Mand
             </label>
             <label class="radio">
-                <input name="sex" type="radio" value="woman"> &#9792; Kvinde
+                <input name="sex" type="radio" value="woman"> Kvinde
             </label>
         </fieldset>
         <div class="form-group">
@@ -29,8 +29,11 @@
     </fieldset>
     <fieldset class="results">
         <legend>Fedtprocent udregnet med forskellige formler</legend>
-        <label>Fedtprocent (Durnin & Womersley)
+        <label>Fedtprocent (Durnin & Womersley 1977)
             <input disabled name="fat_percent_durnin" type="text">
+        </label>
+        <label>Fedtprocent (Jackson & Pollock 1990)
+            <input disabled name="fat_percent_jackson_pollock" type="text">
         </label>
         <label>Fedtprocent (Heitmann 1990)
             <input disabled name="fat_percent_heitmann" type="text">
@@ -38,8 +41,14 @@
         <label>Fedtprocent (Duerenberg 1991)
             <input disabled name="fat_percent_duerenberg" type="text">
         </label>
+        <label>Fedtprocent (Duerenberg 1998)
+            <input disabled name="fat_percent_duerenberg_1998" type="text">
+        </label>
         <label>Fedtprocent (Gallagher 2000)
             <input disabled name="fat_percent_gallagher" type="text">
+        </label>
+        <label>Fedtprocent (Heritage 2002)
+            <input disabled name="fat_percent_heritage_2002" type="text">
         </label>
         <label>Body mass index (BMI)
             <input disabled name="BMI" id="BMI" type="text">
