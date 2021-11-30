@@ -25,7 +25,7 @@ Jeg har været på udkig efter et alternativ til Body Mass Index (BMI) og er st�
 
 Hvad er Ponderal Index? **Ponderal Index er et mål for magerhed og fedme, som udregnes på baggrund af vægten og højden. Ponderal Index er et alternativ til Body Mass Index, som bedre kan bruges til personer af forskellig højde. Ponderal Index behøver ikke at blive justeret for alderen - og kan bruges til både børn og voksne.**
 
-Jeg har skrevet en del om [ulemperne ved Body Mass Index (BMI)]({% link _posts/2019-10-31-bmi.md %}). En af ulemperne ved BMI er, at det kan give en unfair sammenligning mellem folk af forskellig statur. 
+Jeg har skrevet en del om [ulemperne ved Body Mass Index (BMI)]({% link _posts/2019-10-31-bmi.md %}). En af ulemperne ved BMI er, at det kan give en unfair sammenligning mellem folk af forskellig statur.
 
 Ponderal Index opløfter højden i tredje potens for at gøre formlen mere uafhængig af højden (se mere på [Wikipedia](https://en.wikipedia.org/wiki/Corpulence_index)).
 
@@ -48,8 +48,11 @@ Jeg vejer 82 kg og er 1,81 cm høj. Jeg har altså et Ponderal Index på 13,8.
 ## Hvad kan jeg bruge Ponderal Index til?
 
 Jeg har ikke kunnet finde nogle normer for Ponderal Index. Ponderal Index har de samme ulemper som BMI med, at det primært er lavet som et statistisk redskab til at sammenligne befolkningsgrupper.
- 
+
 ## Referencer
+
+<details markdown="1">
+  <summary>Se referencer</summary>
 
 <details markdown="1">
   <summary>Se referencer</summary>
