@@ -63,7 +63,7 @@ Styrkeløft er en sport, hvor man konkurrerer i at løfte så mange kilo som mul
 
 I konkurrencer i styrkeløft er løfterne delt op i vægtklasser, hvor man konkurrerer internt om at løfte mest totalt i de tre løft.
 
-Vægtklasserne kan også sammenlignes med hinanden ved hjælp af IPF-point, som er blevet introduceret for nyligt (tidligere brugte man nemlig Wilks til sammenligning af st(yrkeløftere). Jeg har skrevet lidt om at [sammenligne styrke på tværs af forskellig vægt her]({% link _posts/2019-10-31-sammenligning-styrke.md %}).
+Vægtklasserne kan også sammenlignes med hinanden ved hjælp af IPF-point, som er blevet introduceret for nyligt (tidligere brugte man nemlig Wilks til sammenligning af styrkeløftere). Jeg har skrevet lidt om at [sammenligne styrke på tværs af forskellig kropsvægt her]({% link _posts/2019-10-31-sammenligning-styrke.md %}).
 
 I Danmark hedder forbundet _Dansk Styrkeløft Forbund (DSF)_ og hører hjemme på [styrke.dk](https://styrke.dk/). Alle klubber i Danmark, der stiller op til konkurrencer, er medlem af Dansk Styrkeløft Forbund, som til gengæld er medlem af International Powerlifting Federation (IPF), som er verdens største styrkeløftforbund. Der findes andre store forbund, men IPF har ry for at være det med de skrappeste dopingtests.
 
