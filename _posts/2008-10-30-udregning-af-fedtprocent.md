@@ -50,24 +50,18 @@ Du kan bruge vores **fedtprocent beregner** til udregning af din fedtprocent.
 
 {% include calculate-fat-percent.html %}
 
-## Hvad er en god fedtprocent?
-
-På baggrund af Gallagher et al (2000) fortæller følgende grafik, hvad en god fedtprocent er? Det sunde område for fedtprocenten er relativt bredt, men sundhedsmæssigt og præstationsmæssigt er der ikke nogen grund til at skubbe grænserne.
-
-{% include figure image_path="https://4.bp.blogspot.com/-nOLwVUh5HaQ/XUuHz1AD3PI/AAAAAAAAStE/HWTJneEhKDElIU_yvxsKezZjh6D3Z_frQCLcBGAs/s1600/BodyFatRangeChartLarge.jpg" caption="Fedtprocent for voksne mænd og kvinder baseret på WHO BMI guidelines ([Gallagher 2000](https://www.researchgate.net/publication/12354988_Healthy_percentage_body_fat_ranges_An_approach_for_developing_guidelines_based_on_body_mass_index))" alt="Hvordan måler jeg min fedtprocent? Fedtprocent for mænd og kvinder" %}
-
 ## Beregn fedtprocent fra højde og vægt
 
-Fedtprocenten er den relative del af kropsvægten, som udgøres af fedt. Du har behov for fedt for at kunne holde varmen, og fedt er en central del af mange processer i kroppen.
+Fedtprocenten er den relative del af kropsvægten, som udgøres af fedt. Du har behov for fedt for at få energi og at kunne holde varmen, og fedt er også en central del af mange processer og dannelsen af flere i kroppen.
 
 Formularen benytter sig af flere forskellige udregninger til at estimere fedtprocenten. Formlerne for de enkelte beregninger, kan du se nedenunder.
 
-Baggrunden for beregneren er, at BMI på populationsniveau er nogenlunde korreleret med fedtprocent.
+Baggrunden for formlerne i beregneren er, at BMI på populationsniveau er nogenlunde korreleret med fedtprocent.
 
 ## Formler brugt i vores fedtprocent beregner
 
 <details markdown="1">
-  <summary>Se formler Durnin & Womersley</summary>
+  <summary>Se formler Durnin & Womersley (1977)</summary>
 
 ### Durnin & Womersley udregning af fedtprocent
 
@@ -80,6 +74,13 @@ Fedtprocent = 1.34 * BMI - 12.47
 #### Kvinder: Udregn din fedtprocent
 
 Fedtprocent = 1.37 * BMI - 3.47
+
+</details>
+
+<details markdown="1">
+  <summary>Se formler Jackson & Pollock (1980)</summary>
+
+Adult Body Fat % = (1.61 x BMI) + (0.13 x Age) – (12.1 x gender) – 13.9
 
 </details>
 
@@ -103,9 +104,20 @@ Heitmann bruger i sin formel køn, BMI og alder.
 <details markdown="1">
   <summary>Se formler Duerenberg et al. (1991)</summary>
 
-### Duerenberg et al. udregning af fedtprocent
+### Duerenberg et al. (1991) udregning af fedtprocent
 
 Fedtprocent = 1.20 * BMI + 0.23 * age - 10.8 * sex - 5.4;
+
+sex: men = 1; female = 0
+
+</details>
+
+<details markdown="1">
+  <summary>Se formler Duerenberg et al. (1998)</summary>
+
+### Duerenberg et al. (1998) udregning af fedtprocent
+
+Adult Body Fat % = (1.29 x BMI) + (0.20 x Age) – (11.4 x gender) – 8.0
 
 sex: men = 1; female = 0
 
@@ -124,6 +136,12 @@ Fedtprocent = 63.7 - 864 * (1/BMI) - 12.1 * sex + 0.12 * age + (129 * asian * (1
 
 hvor sex = 1 for mænd og 0 er for kvinder, Asian = 1 for asiater afro = 1 for African Americans.
 
+</details>
+
+<details markdown="1">
+  <summary>Se formel fra Heritage-studiet - Jackson et al (2002)</summary>
+
+Adult Body Fat % = (1.39 x BMI) + (0.16 x Age) – (10.34 x gender) – 9
 </details>
 
 ## Usikkerhed i udregningen af fedtprocent
@@ -146,6 +164,18 @@ Du kan kombinere udregningen af fedtprocent med en øjemålstest. Så har du for
 
 Hvis du vil tjekke din [fedtprocent i forhold til normerne for mænd og kvinder, så klik her]({% link _posts/2019-10-13-fedtprocent-maaling.md %}).
 
+## Er kvinders fedtprocent større end mænds?
+
+Kvinders fedtprocent er højere end mænds for det samme BMI. I Jackson et al (2002) viste de, at kvindernes fedtprocent faktisk var 10,4% højere end mænds. Sammenhængen er ikke lineær, men nogenlunde tilsvarende for mænd og kvinder. Mænds kurve ligger bare lavere.
+
+{% include figure image_path="https://halls.md/bmi/images/heritage.gif" caption="Sammenhængen mellem BMI og fedtprocent opdelt på mænd og kvinder fra Heritage-studiet lavet af Jackson et al (2002). Kilde: [halls.md](https://halls.md/race-body-fat-percentage/)" %}
+
+## Hvad er en god fedtprocent?
+
+Gallagher et al (2000) giver i følgende grafik et bud på, hvad en god fedtprocent er? Det sunde område for en god fedtprocent er relativt bredt, men sundhedsmæssigt og præstationsmæssigt er der formentlig ikke nogen grund til at skubbe grænserne.
+
+{% include figure image_path="https://4.bp.blogspot.com/-nOLwVUh5HaQ/XUuHz1AD3PI/AAAAAAAAStE/HWTJneEhKDElIU_yvxsKezZjh6D3Z_frQCLcBGAs/s1600/BodyFatRangeChartLarge.jpg" caption="Fedtprocent for voksne mænd og kvinder baseret på WHO BMI guidelines ([Gallagher 2000](https://www.researchgate.net/publication/12354988_Healthy_percentage_body_fat_ranges_An_approach_for_developing_guidelines_based_on_body_mass_index))" alt="Hvordan måler jeg min fedtprocent? Fedtprocent for mænd og kvinder" %}
+
 ## Andre typer målinger af kropskomposition
 
 Hvis du vil have et mere præcist bud på din fedtprocent, så kan du kigge på vores andre måder at [måle fedtprocent](/maal-fedtprocent/) på. Men overvej hvorfor du gerne vil have sat tal på din fedtprocent.
@@ -166,6 +196,11 @@ Hvis du vil have et mere præcist bud på din fedtprocent, så kan du kigge på 
 * Loenneke, Jeremy P., Kathryn M. Hirt, Jacob M. Wilson, Jeremy T Barnes, og Thomas J Pujol. 2013. “Predicting Body Composition in College Students Using the Womersley and Durnin Body Mass Index Equation”. Asian Journal of Sports Medicine 4 (2): 153–57. <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3690736/>.
 * Heitmann, B. L. 1990. “Evaluation of Body Fat Estimated from Body Mass Index, Skinfolds and Impedance. A Comparative Study”. European Journal of Clinical Nutrition 44 (11): 831–37.
 * Deurenberg, P., J. A. Weststrate, og J. C. Seidell. 1991. “Body Mass Index as a Measure of Body Fatness: Age- and Sex-Specific Prediction Formulas”. The British Journal of Nutrition 65 (2): 105–14. <https://doi.org/10.1079/bjn19910073>.
+* Deurenberg P, Yap M, van Staveren WA. [Body mass index and percent body fat. A meta analysis among different ethnic groups](https://www.ncbi.nlm.nih.gov/pubmed/9877251). Int J Obes Relat Metab Disord 1998; 22:1164-1171.
+* Gallagher D, Visser M, Sepulveda D, Pierson RN, Harris T, Heymsfield SB. How useful is body mass index for comparison of body fatness across age, sex and ethnic groups. Am J Epidemiol 1996; 143:228-239.
+* Jackson AS, Pollock ML, Ward A, Generalized equations for predicting body density of women. Med Sci Sports Exercise 1980; 12:175-182
+* Jackson AS. Research design and analysis of data procedures for predicting body density. Med Sci Sports Exercise 1984; 16:616-620.
+* Wellens, RJ, Roche AF, Khamis HJ et al. Relationships between body mass index and body composition. Obes Res 1996; 4:35-44.
 
 </details>
 
