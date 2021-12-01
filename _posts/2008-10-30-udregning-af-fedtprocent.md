@@ -1,9 +1,9 @@
 ---
-title: "Beregn din fedtprocent: Enkel udregning med højde og vægt"
+title: "Beregn din fedtprocent: Udregning med alder, højde og vægt"
+seo_title: "Fedtprocent beregner: Beregn fra alder, højde og vægt"
 permalink: /artikel/udregning-af-fedtprocent/
-seo_title: "Fedtprocent: Beregn din fedtprocent ud fra din højde og vægt"
-excerpt: Beregn din fedtprocent med en udregning med din højde og vægt i denne
-  fedtprocent beregner for mænd og kvinder. Beregneren udregner også dit BMI.
+excerpt: Beregn din fedtprocent med din højde og vægt i denne
+  fedtprocent beregner for mænd og kvinder. Udregningen foregår med forskellige formler.
 header:
   overlay_image: https://images.unsplash.com/photo-1522844990619-4951c40f7eda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=5
   caption: Beregn din fedtprocent ud fra højde og vægt.
@@ -32,15 +32,15 @@ redirect_from:
   - /udregn-fp/
 language: da
 ---
-Jeg har lavet en beregner, hvor du kan udregne din fedtprocent på baggrund af din vægt, højde, køn og alder.
+Jeg har lavet en fedtprocent-beregner, hvor du kan udregne din fedtprocent på baggrund af din vægt, højde, køn og alder.
 
 *[BMI]: Body Mass Index
 
-Udregningen af fedtprocent er naturligvis forbundet med flere usikkerheder. Beregningen af din fedtprocent er indirekte og inddrager kun din højde og din vægt. Derfor er udregningen unøjagtig, da den ikke har mulighed for at vide, om din vægt skyldes muskler eller fedt.
+Udregningen af fedtprocent ud fra en generel formel er naturligvis forbundet med flere usikkerheder. Beregningen af din fedtprocent er indirekte og passer kun på gennemsnitlige folk, der deler din højde, vægt, alder og køn. Derfor skal du tage resultaterne i beregneren med forbehold, da den ikke har mulighed for at vide, om din vægt skyldes muskler eller fedt.
 
-Der er mange metoder til at måle kropskomposition, og mange går meget op i at finde ud af, hvad deres fedtprocent er.
+Mange går op i at beregne og måle fedtprocent. Udregning af fedtindholdet i kroppen er bare en af metoderne. Du kan [bestemme din kropskomposition](/kropskomposition/) på flere måder, og der er [flere metoder til måling af fedtprocent](/maal-fedtprocent/). Der er udfordringer med alle måder at udregne fedtprocent.
 
-De vigtigste parametre for mig er styrke, hurtighed, udholdenhed og springhøjde. Det er de parametre, du har brug for i livet, mens en viden om kropssammensætning ikke tilføjer noget til dit liv.
+Overvej altid hvorfor du gerne vil prøve at udregne din fedtprocent. Vil viden om din kropskomposition tilføje noget til dit liv. Hvis du træner, så synes jeg styrke, hurtighed, udholdenhed og springhøjde er mere interessante parametre.
 
 Hvis du fortsat gerne vil udregne din fedtprocent, så fortsæt til vores enkle beregner.
 
@@ -50,13 +50,29 @@ Du kan bruge vores **fedtprocent beregner** til udregning af din fedtprocent.
 
 {% include calculate-fat-percent.html %}
 
-## Beregn fedtprocent fra højde og vægt
+## Beregn fedtprocent fra alder, højde, køn og vægt
 
 Fedtprocenten er den relative del af kropsvægten, som udgøres af fedt. Du har behov for fedt for at få energi og at kunne holde varmen, og fedt er også en central del af mange processer og dannelsen af flere i kroppen.
 
-Formularen benytter sig af flere forskellige udregninger til at estimere fedtprocenten. Formlerne for de enkelte beregninger, kan du se nedenunder.
+Formularen benytter sig af flere forskellige formler til udregning af fedtprocenten. Formlerne for de enkelte beregninger, kan du se nedenunder.
 
 Baggrunden for formlerne i beregneren er, at BMI på populationsniveau er nogenlunde korreleret med fedtprocent.
+
+En lang række af formlerne er baseret på en lineær sammenhæng mellem BMI og fedtprocent.
+
+{% include figure image_path="/assets/images/blog/bmi-linear.png" caption="Forskellige lineære formler til at bestemme fedtprocenten ud fra BMI, alder og køn. Durnin og Wormsley (1977) bruger kun BMI og køn, mens de andre formler også bruger alder som et parameter." %}
+
+Alle formlerne giver altså resultater, som ikke ligger så langt fra hinanden. Ulempen ved disse formler er naturligvis, at de alle viser en lineær sammenhæng, men Jackson et al (2002) og Gallagher et al (2000) viser tydeligt, at sammenhængen er kurvet.
+
+{% include figure image_path="https://halls.md/bmi/images/heritage.gif" caption="Sammenhængen mellem BMI og fedtprocent er et kurvet forløb både for mænd og kvinder. Figuren er fra Heritage-studiet lavet af Jackson et al (2002). Kilde: [halls.md](https://halls.md/race-body-fat-percentage/)" %}
+
+Hvis du kigger på formlen fra Gallagher et al (2002), så beskriver den en kurvet sammenhæng mellem BMI og den udregnede fedtprocent.
+
+{% include figure image_path="/assets/images/blog/bmi-gallagher.png" caption="Formlen fra Gallagher et (2000) har en kurvet sammenhæng." %}
+
+Når du kigger formlerne igennem, så vil du se at **alder** er et vigtigt parameter i de fleste formler. Dette indikerer, at det **ikke** er rimeligt at bruge et fast BMI på tværs af alle aldersgrupper til at definere **overvægt**.
+
+Hvis vi kan etablere en fælles reference for, hvornår en fedtprocent kan opfattes som overvægtig, så ville vi i teorien kunne regne baglæns til forskellige aldersgrupper med, hvad BMI skulle være.
 
 ## Formler brugt i vores fedtprocent beregner
 
@@ -69,18 +85,18 @@ Durnin & Womersley bruger i sin formel BMI og køn.
 
 #### Mænd: Udregn din fedtprocent
 
-Fedtprocent = 1.34 * BMI - 12.47
+Fedtprocent = 1,34 * BMI - 12,47
 
 #### Kvinder: Udregn din fedtprocent
 
-Fedtprocent = 1.37 * BMI - 3.47
+Fedtprocent = 1,37 * BMI - 3,47
 
 </details>
 
 <details markdown="1">
   <summary>Se formler Jackson & Pollock (1980)</summary>
 
-Adult Body Fat % = (1.61 x BMI) + (0.13 x Age) – (12.1 x gender) – 13.9
+Adult Body Fat % = (1,61 * BMI) + (0,13 * age) - (12,1 * gender) - 13.9
 
 </details>
 
@@ -89,7 +105,9 @@ Adult Body Fat % = (1.61 x BMI) + (0.13 x Age) – (12.1 x gender) – 13.9
 
 ### Heitmann beregning af fedtprocent
 
-Heitmann bruger i sin formel køn, BMI og alder.
+Heitmann bruger i sin formel køn, BMI og alder. Udregningen af fedtprocent efter Heitmanns formel har en standardafvigelse på op til 3,9%. Det betyder, at den værdi du har udregnet i formularen kan svinge med mindst 3,9% ift. din virkelige fedtprocent.
+
+Det betyder i praksis, at hvis du har udregnet din fedtprocent til 15%, så er det mest sandsynlige, at den ligger i intervallet fra 11,1% til 18,9%. Det er en ret stor afvigelse.
 
 #### Formel for fedtprocent for mænd
 
@@ -106,9 +124,9 @@ Heitmann bruger i sin formel køn, BMI og alder.
 
 ### Duerenberg et al. (1991) udregning af fedtprocent
 
-Fedtprocent = 1.20 * BMI + 0.23 * age - 10.8 * sex - 5.4;
+Fedtprocent = 1,20 * BMI + 0,23 * age - 10,8 * gender - 5,4;
 
-sex: men = 1; female = 0
+gender: men = 1; female = 0
 
 </details>
 
@@ -117,9 +135,9 @@ sex: men = 1; female = 0
 
 ### Duerenberg et al. (1998) udregning af fedtprocent
 
-Adult Body Fat % = (1.29 x BMI) + (0.20 x Age) – (11.4 x gender) – 8.0
+Adult Body Fat % = (1,29 * BMI) + (0,20 * Age) - (11,4 * gender) - 8,0
 
-sex: men = 1; female = 0
+gender: men = 1; female = 0
 
 </details>
 
@@ -132,37 +150,38 @@ Men samtidig bruger Gallagher et al (2000) også etnicitet, da de har fundet ud 
 
 ### Gallagher et al. udregning af fedtprocent
 
-Fedtprocent = 63.7 - 864 * (1/BMI) - 12.1 * sex + 0.12 * age + (129 * asian * (1/BMI)) - (0.091 * asian * age) - (0.030 * afro * age)
+Fedtprocent = 63,7 - 864 * (1/BMI) - 12,1 * gender + 0,12 * age + (129 * asian * (1/BMI)) - (0,091 * asian * age) - (0,030 * afro * age)
 
-hvor sex = 1 for mænd og 0 er for kvinder, Asian = 1 for asiater afro = 1 for African Americans.
+hvor gender = 1 for mænd og 0 er for kvinder, asian = 1 for asiater, afro = 1 for African Americans.
 
 </details>
 
 <details markdown="1">
   <summary>Se formel fra Heritage-studiet - Jackson et al (2002)</summary>
 
-Adult Body Fat % = (1.39 x BMI) + (0.16 x Age) – (10.34 x gender) – 9
+Adult Body Fat % = (1,39 * BMI) + (0,16 * age) - (10,34 * gender) - 9
+
+gender: men = 1; female = 0
 </details>
 
 ## Usikkerhed i udregningen af fedtprocent
 
 Hvad kan jeg så bruge udregningen af fedtprocent til?
 
-Udregningen af fedtprocent efter Heitmanns formel har en standardafvigelse på op til 3,9%. Det betyder, at den værdi du har udregnet i formularen kan svinge med mindst 3,9% ift. din virkelige fedtprocent.
+Når du vurderer det, så skal du være helt klar over de usikkerheder, der er forbundet med de forskellige formler.
 
-Det betyder i praksis, at hvis du har udregnet din fedtprocent til 15%, så er det mest sandsynlige, at den ligger i intervallet fra 11,1% til 18,9%. Det er en ret stor afvigelse.
+- Der er **ikke en linæer sammenhæng mellem fedtprocent og BMI**. Antagelsen i de fleste af de præsenterede formler holder altså ikke for yderområderne af BMI.
+- Da højden og vægten indgår i de fleste formler for fedtprocent, så er beregninger af fedtprocentent behæftet med de samme usikkerheder som BMI. Det er umuligt at vide, om vægten er forårsaget af muskler eller fedt.
 
-Fedtprocenten bliver med alle formler udregnet på baggrund af de samme oplysninger, som man udregner BMI med. Derfor er disse beregninger af fedtprocenten behæftet med de samme usikkerheder som BMI er. Du skal altså ikke gå på en [tvivlsom slankekur]({% link _posts/2020-09-04-slankekur.md%}) på baggrund af disse beregninger.
-
-Beregningerne tager således ikke højde for, om vægten skyldes muskler eller fedt eller din kropsbygning i det hele taget.
+Du skal altså ikke gå på en [tvivlsom slankekur]({% link _posts/2020-09-04-slankekur.md%}) på baggrund af disse beregninger.
 
 Jeg har skrevet mere om [BMI og lavet en beregner](/bmi/), og jeg har også skrevet et omfattende indlæg om [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}).
 
-Du kan kombinere udregningen af fedtprocent med en øjemålstest. Så har du formentlig en nogenlunde ide om din fedtprocent ligger inden for et sundt spektrum.
+Hvis du får et alarmerende resultat i denne beregner, så kan du starte med at kombinere udregningen af fedtprocent med en øjemålstest. Den kan give dig en nogenlunde ide, om din fedtprocent ligger inden for et sundt spektrum.
 
 {% include figure image_path="https://exerciseandwellness.files.wordpress.com/2016/03/body-fat-percentage-men-women.jpg" caption="Øjemålstest af fedtprocenten - [via](https://exerciseandwellness.wordpress.com/2016/03/28/body-fat-percentages/)" alt="beregn din fedtprocent" %}
 
-Hvis du vil tjekke din [fedtprocent i forhold til normerne for mænd og kvinder, så klik her]({% link _posts/2019-10-13-fedtprocent-maaling.md %}).
+Vi har skrevet et andet indlæg, hvor du kan tjekke din [fedtprocent i forhold til normerne for mænd og kvinder]({% link _posts/2019-10-13-fedtprocent-maaling.md %}).
 
 ## Er kvinders fedtprocent større end mænds?
 
@@ -190,6 +209,8 @@ Hvis du vil have et mere præcist bud på din fedtprocent, så kan du kigge på 
 
 ## Referencer om vores fedtprocent beregner
 
+{% include feature_row type="left" %}
+
 <details markdown="1">
   <summary>Se referencer til fedtprocent beregner</summary>
 
@@ -203,5 +224,3 @@ Hvis du vil have et mere præcist bud på din fedtprocent, så kan du kigge på 
 * Wellens, RJ, Roche AF, Khamis HJ et al. Relationships between body mass index and body composition. Obes Res 1996; 4:35-44.
 
 </details>
-
-{% include feature_row type="left" %}
