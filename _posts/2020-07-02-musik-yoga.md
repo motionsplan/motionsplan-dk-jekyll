@@ -1,6 +1,6 @@
 ---
 title: "Den bedste musik til yoga, mindfulness og meditation [2021]"
-seo_title: "Yogamusik: 5 tips til musik til yoga og mindfulness 2021"
+seo_title: "Yogamusik 2021: 5 tips til mindfulness & yoga musik"
 description: "Find god musik til yoga, meditation og mindfulness med udgangspunkt i videnskaben og din fornemmelse, så du kan lave din egen playliste med yogamusik."
 permalink: /yoga-musik/
 language: da
