@@ -1088,6 +1088,7 @@ $(function() {
         let evaluation = bmievaluation.BMIEvaluation(type, gender, age);
 
         $("[name='BMI']").val(b.getBMI().toFixed(1));
+
         let meter = $("#meter-bmi");
         meter.val(b.getBMI().toFixed(1));
         meter.text(b.getBMI().toFixed(1));
@@ -1098,6 +1099,9 @@ $(function() {
         meter.attr('max', evaluation.getMax());
         let meter_text = $("#meter-text");
         meter_text.text(evaluation.getEvaluation(b.getBMI()));
+
+        $("#bmi_meter").val(b.getBMI().toFixed(1));
+
     });
     // Calculate water intake
     $("#calculator_water_intake").submit(function(e) {
