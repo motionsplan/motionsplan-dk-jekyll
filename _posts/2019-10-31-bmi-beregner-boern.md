@@ -25,8 +25,6 @@ faq:
     answer: "Børn passer ikke ind i de normale BMI-skemaer. WHO har lavet skemaer, hvor du kan vurdere børns BMI. Du kan se skemaerne her på siden."
   - question: "Hvad er normal BMI for teenagere?"
     answer: "Du skal vurdere teenageres BMI ud fra WHO BMI-skemaer. Men husk at børn og teenagere udvikler sig meget forskelligt."
-  - question: "Hvad er din ideelle kropsvægt ifølge BMI-udregningen?"
-    answer: "Du kan udregne din ideelle kropsvægt på baggrund af BMI. Det har vi skrevet mere om i indlægget om [idealvægt](/idealvaegt/)."
 ---
 
 Jeg sidder og læser et glitrende magasin om sport og helse, og endnu engang ser jeg udregninger af body mass index (BMI) uden at artiklen går i dybden med, hvad en BMI-formel måler. Derfor satte jeg mig ned for at researche lidt på, hvordan BMI tabeller kan bruges for mænd, kvinder, voksne, teenagere og børn?
