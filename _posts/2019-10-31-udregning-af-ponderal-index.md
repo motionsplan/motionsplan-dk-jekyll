@@ -31,9 +31,9 @@ Ponderal Index opløfter højden i tredje potens for at gøre formlen mere uafh�
 
 ## Beregner til Ponderal Index
 
-{% include calculate-bmi.html %}
+{% include calculate-ponderal-index.html %}
 
-I beregneren udregnes også [BMI]({% link _posts/2019-10-31-bmi.md %}), som er et noget mere udbredt begreb i populærlitteraturen og videnskaben.
+Du kan også beregne [BMI]({% link _posts/2019-10-31-bmi.md %}), som er et noget mere udbredt begreb i populærlitteraturen og videnskaben.
 
 ## Udregning af Ponderal Index med formel
 

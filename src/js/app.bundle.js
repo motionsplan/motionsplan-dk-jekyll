@@ -1082,7 +1082,8 @@ $(function() {
       let b = bmi.BMI(h, w);
 
         $("[name='BMI']").val(b.getBMI().toFixed(1));
-        $("[name='PMI']").val(b.getPonderalIndex().toFixed(1));
+        $("#bmi_meter").val(b.getBMI().toFixed(1));
+
     });
     // Calculate water intake
     $("#calculator_water_intake").submit(function(e) {
@@ -1095,6 +1096,18 @@ $(function() {
 
         $("[name='daily_water_intake_lower']").val(b.getDailyWaterIntake());
         $("[name='daily_water_intake_upper']").val(b.getDailyWaterIntake("upper"));
+    });
+    // Calculate BMI
+    $("#calculator_ponderal_index").submit(function(e) {
+        console.log("Calculate BMI");
+        e.preventDefault();
+
+        let h = Number($("[name='height']").val());
+        let w = Number($("[name='weight']").val());
+
+        let b = bmi.BMI(h, w);
+
+        $("[name='PMI']").val(b.getPonderalIndex().toFixed(1));
     });
     // Calculate Body Water
     $("#calculator_bodywater").submit(function(e) {

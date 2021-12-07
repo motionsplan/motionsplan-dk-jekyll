@@ -1,11 +1,11 @@
 ---
-title: "BMI-beregner: Formel og beregner for kvinder, mænd og børn"
+title: "BMI-beregner: Formel og beregner for kvinder og mænd"
 seo_title: "BMI beregner: Beregn dit BMI for kvinder og mænd"
 # Udregn BMI: Måler og beregner for kvinder, mænd og børn
 # Better than: BMI - Tabel og skema for kvinder, mænd og børn [Beregner] »
-description: "✓ GRATIS nøjagtig BMI beregner ✓ BMI tabel og skema for børn, teenagere, kvinder og mænd ✓ Body Mass Index formel og måler  ✓ Forstå alle detaljerne i dag!"
+description: "✓ GRATIS nøjagtig BMI beregner ✓ Formel og BMI tabel og skema kvinder og mænd ✓ Body Mass Index formel og måler ✓ Forstå alle detaljerne i dag!"
 permalink: /bmi-beregner/
-excerpt: "Body Mass Index (BMI) er den mest udbredte formel og test til at udregne idealvægt. Beregn dit BMI i vores beregner og se BMI skala og tabel for børn og voksne mænd og kvinder."
+excerpt: "I vores BMI-beregner kan du udregne din idealvægt. Beregn dit BMI i vores beregner og se BMI skala og tabel for voksne mænd og kvinder."
 language: da
 header:
   overlay_image: https://helseboost.dk/filer/bmi-1500x960.jpg
