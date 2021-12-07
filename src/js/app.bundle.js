@@ -2021,8 +2021,8 @@ $(function() {
         console.log("Calculate velocity");
         e.preventDefault();
 
-        let min = Number($("[name='min']").val());
-        let sec = Number($("[name='sec']").val());
+        let min = Number($("[name='minkm_kmt_min']").val());
+        let sec = Number($("[name='minkm_kmt_sec']").val());
 
         let c = running.Running();
 

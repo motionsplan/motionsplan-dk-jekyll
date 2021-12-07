@@ -135,7 +135,7 @@ Når du ved, hvor hurtigt du har løbet i km/t (din gennemsnitshastighed), men g
 
 Hvis du vil omregne fra dit pace i min/km til din hastighed i km/t, kan du bruge følgende formel:
 
-{% include math formula="Hastighed (km/t) = \frac{60 min/t}{min + {sek}{60}}" %}
+{% include math formula="Hastighed (km/t) = \frac{60 min/t}{min + \frac{sek}{60}}" %}
 
 Hvis du vil omregne fra km/t til min/km kan du bruge følgende formel:
 
