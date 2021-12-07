@@ -1,6 +1,6 @@
-<form class="calculator" id="calculator_bmi">
+<form class="calculator" id="calculator_ponderal_index">
     <fieldset>
-        <legend>Udregning af BMI. Indtast værdier</legend>
+        <legend>Udregning af Ponderal Index. Indtast værdier</legend>
         <div class="form-group">
             <label>Højde (cm)
                 <input name="height" type="number" min="50" max="272" placeholder="Højde i cm" step="0.1" required>
@@ -15,11 +15,8 @@
     </fieldset>
     <fieldset class="results" disabled>
         <legend>Resultater</legend>
-        <label>Body mass index (BMI)
-            <input disabled name="BMI" type="text">
-        </label>
-        <label>Vurdering
-            <meter value="" min="15" max="40" low="20" optimum="25" high="30" id="bmi_meter">Vurdering af BMI</meter>
+        <label>Ponderal Index
+            <input disabled name="PMI" type="text">
         </label>
     </fieldset>
     {% include calculator-footer.html %}

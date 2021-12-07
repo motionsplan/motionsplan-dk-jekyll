@@ -1155,6 +1155,11 @@ $(function() {
 
         $("[name='BMI']").val(b.getBMI().toFixed(1));
         $("[name='PMI']").val(b.getPonderalIndex().toFixed(1));
+<<<<<<< HEAD
+=======
+        $("#bmi_meter").val(b.getBMI().toFixed(1));
+
+>>>>>>> Fixes
     });
     // Calculate water intake
     $("#calculator_water_intake").submit(function(e) {
@@ -1196,6 +1201,7 @@ $(function() {
         let f = fat.CalculateFatPercent(h, w, a, g);
 
         $("[name='BMI']").val(f.getBMI().toFixed(2));
+<<<<<<< HEAD
         $("[name='fat_percent_durnin']").val(f.getWomersleyDurnin1977().toFixed(1));
         $("[name='fat_percent_jackson_pollock']").val(f.getJacksonPollock1980().toFixed(1));
         $("[name='fat_percent_heitmann']").val(f.getHeitmann1990().toFixed(1));
@@ -1203,6 +1209,12 @@ $(function() {
         $("[name='fat_percent_duerenberg_1998']").val(f.getDuerenberg1998().toFixed(1));
         $("[name='fat_percent_gallagher']").val(f.getGallagher2000().toFixed(1));
         $("[name='fat_percent_heritage_2002']").val(f.getHeritage2002().toFixed(1));
+=======
+        $("[name='fat_percent_heitmann']").val(f.getBodyFatPercentHeitmannBMIEquation().toFixed(1));
+        $("[name='fat_percent_durnin']").val(f.getBodyFatPercentWomersleyDurninBMIEquation().toFixed(1));
+        $("[name='fat_percent_duerenberg']").val(f.getBodyFatPercentDuerenbergBMIEquation().toFixed(1));
+        $("[name='fat_percent_gallagher']").val(f.getBodyFatPercentGallagher().toFixed(1));
+>>>>>>> Fixes
     });
     $("#calculator_how_tall").submit(function(e) {
         console.log("Calculate How Tall");
@@ -2386,8 +2398,13 @@ $(function() {
         console.log("Calculate velocity");
         e.preventDefault();
 
+<<<<<<< HEAD
         let min = Number($("[name='minkm_kmt_min']").val());
         let sec = Number($("[name='minkm_kmt_sec']").val());
+=======
+        let min = Number($("[name='min']").val());
+        let sec = Number($("[name='sec']").val());
+>>>>>>> Fixes
 
         let c = running.Running();
 
@@ -3702,6 +3719,7 @@ motionsplan.CalculateFatPercent = function(h, w, a, gender) {
     return 1.37*getBMI()-3.47;
   }
 
+<<<<<<< HEAD
   function getJacksonPollock1980() {
     if (isMale()) {
       sex = 1;
@@ -3711,6 +3729,8 @@ motionsplan.CalculateFatPercent = function(h, w, a, gender) {
     return (1.60 * getBMI()) + (0.13 * a) - (12.1 * sex) - 13.9;
   }
 
+=======
+>>>>>>> Fixes
   /**
    * https://www.ncbi.nlm.nih.gov/pubmed/2043597
    */
@@ -3727,6 +3747,7 @@ motionsplan.CalculateFatPercent = function(h, w, a, gender) {
     return 1.20 * getBMI() + 0.23 * a - 10.8 * sex - 5.4;
   }
 
+<<<<<<< HEAD
   function getDuerenberg1998() {
     if (isMale()) {
       sex = 1;
@@ -3747,6 +3768,8 @@ motionsplan.CalculateFatPercent = function(h, w, a, gender) {
     return 1.39 * getBMI() + 0.16 * a - 10.34 * sex - 9;
   }
 
+=======
+>>>>>>> Fixes
   function isMale() {
     if (gender == 'man') {
       return true; 
@@ -3757,6 +3780,7 @@ motionsplan.CalculateFatPercent = function(h, w, a, gender) {
   var publicAPI = {
     getBMI : getBMI,
     getFatMass: getFatMass,
+<<<<<<< HEAD
     getHeitmann1990: getBodyFatPercentHeitmannBMIEquation,
     getWomersleyDurnin1977 : getBodyFatPercentWomersleyDurninBMIEquation,
     getDuerenberg1991 : getBodyFatPercentDuerenbergBMIEquation,
@@ -3764,6 +3788,12 @@ motionsplan.CalculateFatPercent = function(h, w, a, gender) {
     getGallagher2000 : getGallagher,
     getJacksonPollock1980 : getJacksonPollock1980,
     getHeritage2002 : getHeritage2002
+=======
+    getBodyFatPercentHeitmannBMIEquation: getBodyFatPercentHeitmannBMIEquation,
+    getBodyFatPercentWomersleyDurninBMIEquation : getBodyFatPercentWomersleyDurninBMIEquation,
+    getBodyFatPercentDuerenbergBMIEquation : getBodyFatPercentDuerenbergBMIEquation,
+    getBodyFatPercentGallagher : getGallagher
+>>>>>>> Fixes
   };
 
   return publicAPI;
