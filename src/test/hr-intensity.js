@@ -1,12 +1,12 @@
 const motionsplan = require('../js/hr-intensity.js');
-var assert = require('assert');
+let assert = require('assert');
 
 describe('EstimateMaxHr', function() {
   describe('getMaxHr', function() {
     it('should return the correct number', function() {
 
       // Maxhr
-      var hr = motionsplan.HRIntensity(200);
+      let hr = motionsplan.HRIntensity(200);
 
       assert.equal(hr.getWorkIntensityBasedOnMaxHR(180), 90);
       assert.equal(hr.getHRBasedOnIntensityFromHeartRateReserve(60, 90), 186);

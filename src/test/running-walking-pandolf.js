@@ -1,5 +1,5 @@
 const motionsplan = require('../js/running-walking-pandolf.js');
-var assert = require('assert');
+let assert = require('assert');
 
 describe('RunningWalkdingEnergyExpenditurePandolf', function() {
   describe('getASCM()', function() {

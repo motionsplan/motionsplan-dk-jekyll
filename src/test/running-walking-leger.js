@@ -1,5 +1,5 @@
 const motionsplan = require('../js/running-walking-leger.js');
-var assert = require('assert');
+let assert = require('assert');
 
 describe('RunningWalkdingEnergyExpenditureLeger', function() {
   describe('getASCM()', function() {

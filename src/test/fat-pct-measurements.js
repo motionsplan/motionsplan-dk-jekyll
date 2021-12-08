@@ -1,11 +1,11 @@
 const motionsplan = require('../js/fat-pct-measurements.js');
-var assert = require('assert');
+let assert = require('assert');
 
 describe('CalculateFatPercentMeasurements', function() {
   describe('getFatMass', function() {
     it('should return the correct number', function() {
 
-      var fat = motionsplan.CalculateFatPercentMeasurements();
+      let fat = motionsplan.CalculateFatPercentMeasurements();
       assert.equal(fat.getFatPercentMenUnder26(280, 850, 270), 16.791800000000002);
       assert.equal(fat.getFatPercentMenOver26(900, 850, 270), 20.182500000000005);
       assert.equal(fat.getFatPercentWomenUnder26(700, 500, 200), 24.244999999999997);
