@@ -28,9 +28,7 @@
     "gulp-notify": "^4.0",
     "gulp-responsive": "2.12",
     "gulp-size": "^3.0",
-    "image-map-resizer": "^1.0",
-    "uglify-js": "^3.13",
-    "wilks-calculator": "^1.2"
+    "image-map-resizer": "^1.0"
   },
   "devDependencies": {
     "browserify": "^16.5",
@@ -41,18 +39,20 @@
     "queue": "^6.0",
     "tinify": "^1.6",
     "uglifyify": "^5.0",
+    "uglify-js": "^3.13",
+    "wilks-calculator": "^1.2",
     "unicode-encode": "^1.4",
     "watchify": "^4.0"
   },
   "scripts": {
-    "test": "mocha src/test/*.*",
+    "test": "bundle exec mocha src/test/*.*",
     "start": "bundle exec jekyll server --port 8080 --incremental",
     "draft": "bundle exec jekyll server --port 8080 --incremental --drafts",
     "watch:js": "onchange \"assets/js/**/*.js\" -e \"assets/js/main.min.js\" -- npm run build:js",
     "build:js": "npm run uglify",
     "watch": "watchify src/js/app.bundle.js -o assets/js/bundle.js",
     "build": "browserify src/js/app.bundle.js -g uglifyify -o assets/js/bundle.js",
-    "uglify": "uglifyjs assets/js/vendor/jquery/jquery-3.6.0.js assets/js/plugins/jquery.fitvids.js assets/js/plugins/jquery.greedy-navigation.js assets/js/plugins/jquery.magnific-popup.js assets/js/plugins/jquery.ba-throttle-debounce.js assets/js/plugins/smooth-scroll.js assets/js/plugins/gumshoe.js assets/js/_main.js -c -m -o assets/js/main.min.js",
+    "uglify": "bundle exec uglifyjs assets/js/vendor/jquery/jquery-3.6.0.js assets/js/plugins/jquery.fitvids.js assets/js/plugins/jquery.greedy-navigation.js assets/js/plugins/jquery.magnific-popup.js assets/js/plugins/jquery.ba-throttle-debounce.js assets/js/plugins/smooth-scroll.js assets/js/plugins/gumshoe.js assets/js/_main.js -c -m -o assets/js/main.min.js",
     "add-banner": "node _scripts/banner.js",
     "generate-image": "node _scripts/generate-image.js",
     "og-image": "npm run generate-image -- type:og",
