@@ -829,6 +829,7 @@ $(function() {
         let b = ponderalindex.PonderalIndex(h, w);
 
         $("[name='PMI']").val(b.getPonderalIndex().toFixed(1));
+        return false;
     });
     // Calculate Body Water
     $("#calculator_bodywater").submit(function(e) {
