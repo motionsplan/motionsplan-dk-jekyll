@@ -1,16 +1,16 @@
 let motionsplan = {};
 
-motionsplan.BMI = function(h, w) {
+motionsplan.PonderalIndex = function(h, w) {
 
   h = h = h / 100;
   w = w;
 
-  function getBMI() {
-    return w / (h * h);
+  function getPonderalIndex() {
+    return w / (h * h * h);
   }
 
   let publicAPI = {
-    getBMI : getBMI
+    getPonderalIndex
   };
 
   return publicAPI;
