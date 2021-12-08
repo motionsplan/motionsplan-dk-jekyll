@@ -1,9 +1,9 @@
 ---
-title: "Beregn din fedtprocent: Udregning med alder, højde og vægt"
-seo_title: "Fedtprocent beregner: Beregn fra alder, højde og vægt"
+title: "Beregn din fedtprocent: Enkel udregning med højde og vægt"
+seo_title: "Fedtprocent: Beregn din fedtprocent ud fra din højde og vægt"
 permalink: /artikel/udregning-af-fedtprocent/
-excerpt: Beregn din fedtprocent med din højde og vægt i denne
-  fedtprocent beregner for mænd og kvinder. Udregningen foregår med forskellige formler.
+excerpt: Beregn din fedtprocent med en udregning med din højde og vægt i denne
+  fedtprocent beregner for mænd og kvinder.
 header:
   overlay_image: https://images.unsplash.com/photo-1522844990619-4951c40f7eda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=5
   caption: Beregn din fedtprocent ud fra højde og vægt.
