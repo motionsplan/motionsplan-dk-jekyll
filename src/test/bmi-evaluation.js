@@ -1,10 +1,10 @@
 const motionsplan = require('../js/bmi-evaluation.js');
-var assert = require('assert');
+let assert = require('assert');
 
 describe('BMI', function() {
   describe('getEvaluation()', function() {
     it('should return the correct number', function() {
-      var hr = motionsplan.BMIEvaluation("who", "male", 18); // 17.9
+      let hr = motionsplan.BMIEvaluation("who", "male", 18); // 17.9
       assert.equal(hr.getEvaluation(17), "Undervægtig");
       assert.equal(hr.getEvaluation(22), "Normalvægtig");
       assert.equal(hr.getEvaluation(26), "Overvægtig");
@@ -13,7 +13,7 @@ describe('BMI', function() {
       assert.equal(hr.getEvaluation(42), "Ekstrem fedme");
     });
     it('should return the correct number', function() {
-      var hr = motionsplan.BMIEvaluation("nhanes", "male", 18); // 17.9
+      let hr = motionsplan.BMIEvaluation("nhanes", "male", 18); // 17.9
       assert.equal(hr.getEvaluation(17), "Undervægtig");
       assert.equal(hr.getEvaluation(22), "Normalvægtig");
       assert.equal(hr.getEvaluation(27), "Marginalt overvægtig");
@@ -23,7 +23,7 @@ describe('BMI', function() {
       assert.equal(hr.getEvaluation(42), "Fed");
     });
     it('getChildren() should return the correct number', function() {
-      var hr = motionsplan.BMIEvaluation("nhanes", "male", 10); // 17.9
+      let hr = motionsplan.BMIEvaluation("nhanes", "male", 10); // 17.9
       assert.equal(hr.getEvaluation(10), "Normalvægtig");
       assert.equal(hr.getEvaluation(17), "Normalvægtig");
       assert.equal(hr.getEvaluation(22), "Risiko for overvægt");
