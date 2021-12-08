@@ -8,7 +8,7 @@ motionsplan.FatEnergyPct = function(kj, fat) {
     return  (fat * 38/kj) * 100;
   }
 
-  var publicAPI = {
+  let publicAPI = {
     getFatEnergyPct : getFatEnergyPct
   };
 

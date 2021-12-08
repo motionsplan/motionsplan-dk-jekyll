@@ -1,9 +1,6 @@
 let motionsplan = {}
 
 motionsplan.SkinfoldSlaughter = function(sex, triceps, subscapular) {
-  var sex = sex;
-  var triceps = triceps;
-  var subscapular = subscapular;
   
   function getBodyFatPercent() {
     if (isMale()) {
@@ -19,7 +16,7 @@ motionsplan.SkinfoldSlaughter = function(sex, triceps, subscapular) {
     return false;
   }
   
-  var publicAPI = {
+  let publicAPI = {
     getBodyFatPercent : getBodyFatPercent
   };
 

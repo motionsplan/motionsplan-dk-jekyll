@@ -22,7 +22,7 @@ motionsplan.Blood = function(sex, weight, height, age) {
     return 0.3561 * Math.pow(h, 3) + 0.03308 * w + 0.1833;
   }
 
-  var publicAPI = {
+  let publicAPI = {
     getVolume : getVolume
 
   };

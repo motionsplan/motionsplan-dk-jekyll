@@ -42,13 +42,13 @@ motionsplan.IdealWeight = function(height, sex) {
 
   // https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4841935/
   function getPeterson(target_bmi = 22) {
-    let hgt = height / 100;
+   let hgt = height / 100;
     return (2.2 * target_bmi) + (3.5 * target_bmi * (hgt - 1.5));
   }
 
   // Based on Zacho BMI Women 22,5 og Man 24,5  
   function getIdealWeightBasedOnBMI(target_bmi = 0) {
-    let hgt = height / 100;
+   let hgt = height / 100;
     
     if (target_bmi == 0) {
       if (isMale()) {

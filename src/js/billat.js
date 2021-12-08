@@ -1,18 +1,18 @@
 let motionsplan = {}
 
 motionsplan.Billat = function(distance) {
-  var dist = distance;
-  var vel = dist / 360;
+  let dist = distance;
+  let vel = dist / 360;
   
   function getVelocity() {
     return vel;
   }
 
-  var tdist = Math.ceil(dist / 200) * 100;
-  var d30 = Math.ceil(dist / 12);
-  var r30 = Math.ceil(d30 / 2);
-  var d60 = d30 * 2;
-  var r60 = r30 * 2;
+  let tdist = Math.ceil(dist / 200) * 100;
+  let d30 = Math.ceil(dist / 12);
+  let r30 = Math.ceil(d30 / 2);
+  let d60 = d30 * 2;
+  let r60 = r30 * 2;
 
   function getDistance30() {
     return d30;
@@ -34,8 +34,8 @@ motionsplan.Billat = function(distance) {
     return tdist;
   }
 
-  var ttime = tdist / vel;
-  var mins = Math.floor(ttime / 60);
+  let ttime = tdist / vel;
+  let mins = Math.floor(ttime / 60);
   
   function getMinutes3min() {
     return mins;    
@@ -49,7 +49,7 @@ motionsplan.Billat = function(distance) {
     return Math.ceil(400 / vel);
   }
 
-  var publicAPI = {
+  let publicAPI = {
     getVelocity: getVelocity,
     getDistance30: getDistance30,
     getRecovery30: getRecovery30,

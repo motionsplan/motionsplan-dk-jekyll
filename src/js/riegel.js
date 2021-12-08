@@ -1,13 +1,13 @@
 let motionsplan = {};
 
 motionsplan.Riegel = function(dist, hours, minutes, seconds) {
-  var calcdist = dist;
-  var calchour = hours;
-  var calcmin = minutes;
-  var calcsec = seconds;
+  let calcdist = dist;
+  let calchour = hours;
+  let calcmin = minutes;
+  let calcsec = seconds;
 
   function getTableWithEndTimes() {
-    var res = '';
+   let res = '';
 
     res += '<hr />';
     res += '<h3>Potentielle konkurrencetider</h3>';
@@ -28,17 +28,17 @@ motionsplan.Riegel = function(dist, hours, minutes, seconds) {
   }
 
   function riegels(d2) {
-    var d1 = calcdist;
-    var h = calchour;
-    var m = calcmin;
-    var s = calcsec;
-    var inputsec = parseInt(h * 3600) + parseInt(m * 60) + parseInt(s * 1);
-    var outputsec = Math.round(inputsec * Math.pow((d2 / d1), 1.06));
-    var reshour = Math.floor(outputsec / 3600);
-    var resmin = Math.floor((outputsec - reshour * 3600) / 60);
-    var ressec = Math.floor(outputsec - reshour * 3600 - resmin * 60);
-    var kmtime_min = Math.floor((1000 * outputsec / d2) / 60);
-    var kmtime_sec = Math.floor((1000 * outputsec / d2) - kmtime_min * 60);
+   let d1 = calcdist;
+   let h = calchour;
+   let m = calcmin;
+   let s = calcsec;
+   let inputsec = parseInt(h * 3600) + parseInt(m * 60) + parseInt(s * 1);
+   let outputsec = Math.round(inputsec * Math.pow((d2 / d1), 1.06));
+   let reshour = Math.floor(outputsec / 3600);
+   let resmin = Math.floor((outputsec - reshour * 3600) / 60);
+   let ressec = Math.floor(outputsec - reshour * 3600 - resmin * 60);
+   let kmtime_min = Math.floor((1000 * outputsec / d2) / 60);
+   let kmtime_sec = Math.floor((1000 * outputsec / d2) - kmtime_min * 60);
 
     if (reshour < 10) { reshour = '0' + reshour; }
     if (resmin < 10) { resmin = '0' + resmin; }
@@ -54,7 +54,7 @@ motionsplan.Riegel = function(dist, hours, minutes, seconds) {
     return reshour + ':' + resmin + ':' + ressec + '</td><td>' + kmtime_min + ':' + kmtime_sec;
   }
 
-  var publicAPI = {
+  let publicAPI = {
     getRiegels: riegels,
     getTableWithEndTimes: getTableWithEndTimes
 

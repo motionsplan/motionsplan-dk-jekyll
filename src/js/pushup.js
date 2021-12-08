@@ -1,11 +1,11 @@
 let motionsplan = {};
 
 motionsplan.Pushup = function(sex, age, repetitions) {
-    var A, StandDev, PercRegress, Zscore, PE;
+   let A, StandDev, PercRegress, Zscore, PE;
     age = age;
     sex = sex;
     repetitions;
-    var score;
+   let score;
 
     function getPopulationAverage() {
         if (isMale()) {
@@ -72,7 +72,7 @@ motionsplan.Pushup = function(sex, age, repetitions) {
         }
     }
 
-    var publicAPI = {
+   let publicAPI = {
         getPopulationAverage : getPopulationAverage,
         getRating: getRating,
         getScore: getScore

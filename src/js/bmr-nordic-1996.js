@@ -49,7 +49,7 @@ motionsplan.BMRNordicNutritionRecommendations1996 = function(sex, age, weight) {
         }
     }
 
-    var publicAPI = {
+   let publicAPI = {
         getBasicMetabolicRate: getBasicMetabolicRate
     };
 

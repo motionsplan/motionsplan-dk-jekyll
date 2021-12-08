@@ -1,7 +1,6 @@
 let motionsplan = {}
 
 motionsplan.HRIntensity = function(max_hr) {
-  var max_hr = max_hr;
   
   function getWorkIntensityBasedOnMaxHR(work_hr) {
     return work_hr / max_hr * 100;
@@ -15,7 +14,7 @@ motionsplan.HRIntensity = function(max_hr) {
     return (work_hr - rest_hr) / (max_hr - rest_hr) * 100;
   }
   
-  var publicAPI = {
+  let publicAPI = {
     getWorkIntensityBasedOnMaxHR : getWorkIntensityBasedOnMaxHR,
     getHRBasedOnIntensityFromHeartRateReserve : getHRBasedOnIntensityFromHeartRateReserve,
     getHRIntensityFromHeartRateReserve : getHRIntensityFromHeartRateReserve

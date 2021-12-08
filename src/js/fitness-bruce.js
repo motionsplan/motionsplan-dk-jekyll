@@ -18,7 +18,7 @@ motionsplan.BruceTest = function(gender, time) {
     return 4.38 * time - 3.9;
   }
 
-  var publicAPI = {
+  let publicAPI = {
     getMaximalOxygen: getMaximalOxygen
 
   };

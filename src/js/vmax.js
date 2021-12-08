@@ -8,7 +8,7 @@ motionsplan.Vmax = function(vo2max) {
     return (vo2max * 21 / 60 * 0.23);
   }
 
-  var publicAPI = {
+  let publicAPI = {
     getVmax : getVmax
   };
 
