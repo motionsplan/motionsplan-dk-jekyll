@@ -2,6 +2,8 @@
 layout: single
 toc: true
 permalink: /beregnere-tests/
+redirect_from:
+  - /omregn/
 excerpt: "Vi har lavet en lang række beregnere og tests, som du kan bruge i forbindelse med din træning. Se den samlede liste her. "
 title: &title "Beregnere & Tests"
 seo_title: "Beregnere & Tests til træning | Motionsplan"
