@@ -42,6 +42,8 @@ const bmr_benedict_harris = require('./bmr-benedict-harris');
 const bmr_equilibrium = require('./bmr-ligevaegt');
 const ree = require('./bmr-nordic-2012');
 const bmi = require('./bmi');
+const bmievaluation = require('./bmi-evaluation');
+const ponderalindex = require('./ponderal-index');
 const idealweight = require('./ideal-weight');
 const karvonen = require('./karvonen');
 const index23 = require('./fitness-index-23');
@@ -785,12 +787,24 @@ $(function() {
 
         let h = Number($("[name='height']").val());
         let w = Number($("[name='weight']").val());
+        let age = Number($("[name='age']").val());
+        let gender = $("[name='gender']:checked").val();
+        let type = $("[name='type']").val();
 
         let b = bmi.BMI(h, w);
+        let evaluation = bmievaluation.BMIEvaluation(type, gender, age);
 
         $("[name='BMI']").val(b.getBMI().toFixed(1));
-        $("#bmi_meter").val(b.getBMI().toFixed(1));
-
+        let meter = $("#meter-bmi");
+        meter.val(b.getBMI().toFixed(1));
+        meter.text(b.getBMI().toFixed(1));
+        meter.attr('low', evaluation.getLow());
+        meter.attr('high', evaluation.getHigh());
+        meter.attr('optimum', evaluation.getOptimum());
+        meter.attr('min', evaluation.getMin());
+        meter.attr('max', evaluation.getMax());
+        let meter_text = $("#meter-text");
+        meter_text.text(evaluation.getEvaluation(b.getBMI()));
     });
     // Calculate water intake
     $("#calculator_water_intake").submit(function(e) {
@@ -812,7 +826,7 @@ $(function() {
         let h = Number($("[name='height']").val());
         let w = Number($("[name='weight']").val());
 
-        let b = bmi.BMI(h, w);
+        let b = ponderalindex.PonderalIndex(h, w);
 
         $("[name='PMI']").val(b.getPonderalIndex().toFixed(1));
     });
