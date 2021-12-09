@@ -1,3 +1,4 @@
+{% assign age_text = "Er du under 18 år bør du bruge vores [beregner til BMI for børn](/bmi-beregner-boern-unge-teenagere/)." %}
 <form class="calculator" id="calculator_bmi">
     <fieldset>
         <legend>Udregning af BMI. Indtast værdier</legend>
@@ -23,16 +24,10 @@
         <div class="form-group">
             <label>Alder (år)
                 <input name="age" type="number" min="1" max="130" placeholder="Alder i år" step="0.5" required>
+                <span class="help-block">{{ age_text | markdownify }}</span>
             </label>
         </div>
-        <input type="submit" value="Udregn">
-    </fieldset>
-    <fieldset class="results">
-        <legend>Resultater</legend>
-        <label>Body mass index (BMI)
-            <input disabled name="BMI" type="text">
-        </label>
-        <div class="form-group">
+        <div class="form-group" id="bmi-evaluation-criteria">
             <label>Vurderingskriterium
                 <select name="type">
                     <option value="who">WHO</option>
@@ -40,6 +35,13 @@
                 </select>
             </label>
         </div>
+        <input type="submit" value="Udregn">
+    </fieldset>
+    <fieldset class="results">
+        <legend>Resultater</legend>
+        <label class="form-inline">Body mass index (BMI)
+            <input disabled name="BMI" type="text">
+        </label>
         <label class="meter-label">Vurdering
             <meter disabled value="" min="" max="" low="" optimum="" high="" id="meter-bmi"></meter>
             <span id="meter-text" class="meter-overlay-text"></span>

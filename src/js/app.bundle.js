@@ -236,6 +236,16 @@ $(function() {
         $(".met-explanation").hide();
         $(".walk-pandolf").hide();
     });
+    $("#bmi-evaluation-criteria").ready(function() {
+        $("#bmi-evaluation-criteria").hide();
+    });
+    $("#calculator_bmi").change(function() {
+        if (Number($("[name='age']").val()) < 18) {
+            $("#bmi-evaluation-criteria").hide();
+        } else {
+            $("#bmi-evaluation-criteria").show();
+        }
+    });
     $("#calculator_running_walking").change(function() {
         if ($("#formula-energy-running").val() == 'met') {
             $(".run-met").show();
@@ -1086,8 +1096,11 @@ $(function() {
 
         let b = bmi.BMI(h, w);
         let evaluation = bmievaluation.BMIEvaluation(type, gender, age);
+        let meter_text = $("#meter-text");
+        meter_text.text(evaluation.getEvaluation(b.getBMI()));
 
         $("[name='BMI']").val(b.getBMI().toFixed(1));
+
         let meter = $("#meter-bmi");
         meter.val(b.getBMI().toFixed(1));
         meter.text(b.getBMI().toFixed(1));
@@ -1096,8 +1109,6 @@ $(function() {
         meter.attr('optimum', evaluation.getOptimum());
         meter.attr('min', evaluation.getMin());
         meter.attr('max', evaluation.getMax());
-        let meter_text = $("#meter-text");
-        meter_text.text(evaluation.getEvaluation(b.getBMI()));
     });
     // Calculate water intake
     $("#calculator_water_intake").submit(function(e) {
