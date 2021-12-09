@@ -31,15 +31,12 @@ meter {
   --sub-optimum: gold;
   --sub-sub-optimum: crimson;
 }
+
 .meter-overlay-text {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  margin: auto;
+  text-align: center;
 }
-.meter-label {
-  position: relative;
-}
+
 /* The gray background in Chrome, etc. */
 meter::-webkit-meter-bar {
   background: var(--background);
