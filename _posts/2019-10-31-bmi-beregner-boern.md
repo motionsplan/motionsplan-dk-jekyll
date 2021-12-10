@@ -50,7 +50,7 @@ Men lad os først springe til selve beregneren.
 
 ## Udregn dit BMI i vores enkle beregner
 
-{% include calculate-bmi.html %}
+{% include calculate-bmi.html children="true" %}
 
 Beregneren udregner også det såkaldte Ponderal Index, som er en variant af BMI. Jeg har skrevet et [indlæg om Ponderal Index her]({% link _posts/2019-10-31-udregning-af-ponderal-index.md %}).
 
