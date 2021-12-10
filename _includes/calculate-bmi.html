@@ -1,14 +1,25 @@
-{% assign age_text = "Er du under 18 år bør du bruge vores [beregner til BMI for børn](/bmi-beregner-boern-unge-teenagere/)." %}
+{% assign children = include.children | default: "false" %}
+{% if children == 'false' %}
+    {% assign legend="Udregning af BMI for voksne kvinder og mænd" %}
+    {% assign age_text = "Er du under 18 år bør du bruge vores [beregner til BMI for børn](/bmi-beregner-boern-unge-teenagere/)." %}
+    {% assign male = 'Mand' %}
+    {% assign female = 'Kvinde' %}
+{% else %}
+    {% assign legend="Udregning af BMI for børn, unge og teenagere" %}
+    {% assign age_text = "Voksne kan bruge vores [beregner til BMI for voksne kvinder og mænd](/bmi/)." %}
+    {% assign male = 'Dreng' %}
+    {% assign female = 'Pige' %}
+{% endif %}
 <form class="calculator" id="calculator_bmi">
     <fieldset>
-        <legend>Udregning af BMI. Indtast værdier</legend>
+        <legend>{{ legend }}</legend>
         <fieldset>
             <legend>Køn</legend>
             <label class="radio">
-                <input type="radio" name="gender" value="male" checked="checked" required> Mand
+                <input type="radio" name="gender" value="male" checked="checked" required> {{ male }}
             </label>
     		<label class="radio">
-    		    <input type="radio" name="gender" value="female"> Kvinde
+    		    <input type="radio" name="gender" value="female"> {{ female }}
     		</label>
         </fieldset>
         <div class="form-group">
