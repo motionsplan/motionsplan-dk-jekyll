@@ -22,7 +22,7 @@ motionsplan.FitnessIndex23 = function(height, weight) {
     return vo2max / weight;
   }
 
-  var publicAPI = {
+  let publicAPI = {
     getIndex23BasedOnVO2max : getIndex23BasedOnVO2max,
     getIndex23BasedOnFitnessLevel : getIndex23BasedOnFitnessLevel,
     getFitnessLevelBasedOnVO2max : getFitnessLevelBasedOnVO2max

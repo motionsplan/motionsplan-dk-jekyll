@@ -1,5 +1,5 @@
 const motionsplan = require('../js/jumpreach.js');
-var assert = require('assert');
+let assert = require('assert');
 
 describe('JumpReach', function() {
   describe('getJumpReach()', function() {

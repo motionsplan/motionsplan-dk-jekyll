@@ -69,15 +69,15 @@ Husk at BMI ikke tager højde for kropsbygning og muskelmasse. En vurdering af b
 
 ### BMI for drenge og piger fra 2-5 år
 
-{% include figure image_path="https://bookanaut.com/dk/wp-content/uploads/2016/08/Screen-Shot-2016-12-04-at-09.49.22-e1480843191429.png" caption="BMI værdier for drenge under 2-5 år. Kilde: [WHO](http://www.who.int/growthref/bmifa_boys_z_5_19_labels.pdf?ua=1)" alt="BMI værdier for drenge under 2-5 år" %}
+{% include figure image_path="/assets/images/blog/bmi-drenge-2-5.png" caption="BMI værdier for drenge under 2-5 år. Kilde: [WHO](http://www.who.int/growthref/bmifa_boys_z_5_19_labels.pdf?ua=1)" alt="BMI værdier for drenge under 2-5 år" %}
 
-{% include figure image_path="https://bookanaut.com/dk/wp-content/uploads/2016/08/Screen-Shot-2016-12-04-at-09.50.20-e1480843450746.png" caption="BMI værdier for piger 2-5 år. Kilde: [WHO](http://www.who.int/childgrowth/standards/cht_wfh_girls_z_2_5.pdf?ua=1)" alt="BMI værdier for piger 2-5 år" %}
+{% include figure image_path="/assets/images/blog/bmi-piger-2-5.png" caption="BMI værdier for piger 2-5 år. Kilde: [WHO](http://www.who.int/childgrowth/standards/cht_wfh_girls_z_2_5.pdf?ua=1)" alt="BMI værdier for piger 2-5 år" %}
 
 ### BMI for teenagere, drenge og piger fra 5-19 år
 
-{% include figure image_path="https://nielstraining.dk/wp-content/uploads/2017/08/BMI-formel-drenge-sundhed-b%C3%B8rn-WHO-sundhed-e1502349412962.png" caption="BMI værdier for drenge 5-19 år - [kilde](http://www.who.int/growthref/bmifa_boys_z_5_19_labels.pdf?ua=1)" alt="BMI værdier for drenge 5-19 år" %}
+{% include figure image_path="/assets/images/blog/bmi-drenge-5-19.png" caption="BMI værdier for drenge 5-19 år. Kilde: [WHO](http://www.who.int/growthref/bmifa_boys_z_5_19_labels.pdf?ua=1)" alt="BMI værdier for drenge 5-19 år" %}
 
-{% include figure image_path="https://nielstraining.dk/wp-content/uploads/2017/08/BMI-formel-piger-sundhed-b%C3%B8rn-WHO-sundhed-e1502348640326.png" caption="BMI værdier for piger 5-19 år. Kilde: [WHO](http://www.who.int/growthref/bmifa_girls_z_5_19_labels.pdf?ua=1)" alt="BMI værdier for piger 5-19 år" %}
+{% include figure image_path="/assets/images/blog/bmi-piger-5-19.png" caption="BMI værdier for piger 5-19 år. Kilde: [WHO](http://www.who.int/growthref/bmifa_girls_z_5_19_labels.pdf?ua=1)" alt="BMI værdier for piger 5-19 år" %}
 
 Bemærk at ovenstående grafer er baseret på børn over hele verden. Som med BMI for voksne, så indrager tallene ikke dit barns bygning.
 

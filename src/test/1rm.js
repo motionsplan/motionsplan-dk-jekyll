@@ -1,11 +1,11 @@
 const motionsplan = require('../js/1rm.js');
-var assert = require('assert');
+let assert = require('assert');
 
 describe('Estimate1RM', function() {
   describe('getBrycki', function() {
     it('should return the correct number', function() {
       // weigt, reps
-      var rm = motionsplan.Estimate1RM(100, 5);
+      let rm = motionsplan.Estimate1RM(100, 5);
       assert.equal(rm.getBrzycki(), 112.5);
       assert.equal(rm.getBrzycki(2).toFixed(1), 109.4);
       assert.equal(rm.getBrzycki(10).toFixed(1), 84.4);
@@ -14,7 +14,7 @@ describe('Estimate1RM', function() {
   describe('getMayhew', function() {
     it('should return the correct number', function() {
       // weigt, reps
-      var rm = motionsplan.Estimate1RM(100, 5);
+      let rm = motionsplan.Estimate1RM(100, 5);
       assert.equal(rm.getMayhew(), 119.01068045151959);
       assert.equal(rm.getMayhew(5), 100);
     });
@@ -22,7 +22,7 @@ describe('Estimate1RM', function() {
   describe('getLander', function() {
     it('should return the correct number', function() {
       // weigt, reps
-      var rm = motionsplan.Estimate1RM(100, 5);
+      let rm = motionsplan.Estimate1RM(100, 5);
       assert.equal(rm.getLander(), 113.70891767872341);
       assert.equal(rm.getLander(5), 100);
     });
@@ -30,7 +30,7 @@ describe('Estimate1RM', function() {
   describe('getWathan', function() {
     it('should return the correct number', function() {
       // weigt, reps
-      var rm = motionsplan.Estimate1RM(100, 5);
+      let rm = motionsplan.Estimate1RM(100, 5);
       assert.equal(rm.getWathan(), 116.58250529118924);
       assert.equal(rm.getWathan(5), 100);
     });
@@ -38,7 +38,7 @@ describe('Estimate1RM', function() {
   describe('getLombardi', function() {
     it('should return the correct number', function() {
       // weigt, reps
-      var rm = motionsplan.Estimate1RM(100, 5);
+      let rm = motionsplan.Estimate1RM(100, 5);
       assert.equal(rm.getLombardi(), 117.4618943088019);
       assert.equal(rm.getLombardi(5), 100);
     });
@@ -46,7 +46,7 @@ describe('Estimate1RM', function() {
   describe('getOconnor', function() {
     it('should return the correct number', function() {
       // weigt, reps
-      var rm = motionsplan.Estimate1RM(100, 5);
+      let rm = motionsplan.Estimate1RM(100, 5);
       assert.equal(rm.getOconnor(), 112.5);
       assert.equal(rm.getOconnor(5), 100);
     });
@@ -54,7 +54,7 @@ describe('Estimate1RM', function() {
   describe('getWendler', function() {
     it('should return the correct number', function() {
       // weigt, reps
-      var rm = motionsplan.Estimate1RM(100, 5);
+      let rm = motionsplan.Estimate1RM(100, 5);
       assert.equal(rm.getWendler(), 116.65);
       assert.equal(rm.getWendler(5), 100);
     });
@@ -62,7 +62,7 @@ describe('Estimate1RM', function() {
   describe('getReynolds', function() {
     it('should return the correct number', function() {
       // weigt, reps
-      var rm;
+      let rm;
       rm = motionsplan.Estimate1RM(100, 5);
       
       // Lower body Reynolds seems to overestimate lower body 1RM
@@ -88,7 +88,7 @@ describe('Estimate1RM', function() {
   describe('getAbadie', function() {
     it('should return the correct number', function() {
       // weigt, reps
-      var rm = motionsplan.Estimate1RM(100, 5);
+      let rm = motionsplan.Estimate1RM(100, 5);
       assert.equal(rm.getAbadie(), 112.5);
     });
   });

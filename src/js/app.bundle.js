@@ -72,11 +72,11 @@ $(function() {
     $("#target_bmi_man").change(function() {
         console.log('Ready to calculate');
         $("table#idealweight > tbody > tr").each(function(i, obj) {
-            let height = $(this).find('td:first').html();
-            let target_bmi = Number($("#target_bmi_man").val());
+          let height = $(this).find('td:first').html();
+          let target_bmi = Number($("#target_bmi_man").val());
 
-            let iw = idealweight.IdealWeight(height, "man");
-            let weight = iw.getPeterson(target_bmi);
+          let iw = idealweight.IdealWeight(height, "man");
+          let weight = iw.getPeterson(target_bmi);
 
             $(this).find('td').eq(1).html(weight.toFixed(0));
         });
@@ -85,11 +85,11 @@ $(function() {
     $("#target_bmi_woman").change(function() {
         console.log('Ready to calculate');
         $("table#idealweight > tbody > tr").each(function(i, obj) {
-            let height = $(this).find('td:first').html();
-            let target_bmi = Number($("#target_bmi_woman").val());
+          let height = $(this).find('td:first').html();
+          let target_bmi = Number($("#target_bmi_woman").val());
 
-            let iw = idealweight.IdealWeight(height, "woman");
-            let weight = iw.getPeterson(target_bmi);
+          let iw = idealweight.IdealWeight(height, "woman");
+          let weight = iw.getPeterson(target_bmi);
 
             $(this).find('td').eq(2).html(weight.toFixed(0));
         });
@@ -99,16 +99,16 @@ $(function() {
     $("#step_man").change(function() {
         console.log('Ready to calculate');
         $("table#steps > tbody > tr").each(function(i, obj) {
-            let km = $(this).find('td:first').html();
-            let steps = km * 1000 / ($("#step_man").val() / 100);
+          let km = $(this).find('td:first').html();
+          let steps = km * 1000 / ($("#step_man").val() / 100);
             $(this).find('td').eq(1).html(steps.toFixed(0));
         });
     });
     $("#step_woman").change(function() {
         console.log('Ready to calculate');
         $("table#steps > tbody > tr").each(function(i, obj) {
-            let km = $(this).find('td:first').html();
-            let steps = km * 1000 / ($("#step_woman").val() / 100);
+          let km = $(this).find('td:first').html();
+          let steps = km * 1000 / ($("#step_woman").val() / 100);
             $(this).find('td').eq(2).html(steps.toFixed(0));
         });
     });
@@ -116,16 +116,16 @@ $(function() {
     $("#step_length_man").change(function() {
         console.log('Ready to calculate');
         $("table#steps_to_km > tbody > tr").each(function(i, obj) {
-            let steps = $(this).find('td:first').html();
-            let km = steps * ($("#step_length_man").val()) / 1000 / 100;
+          let steps = $(this).find('td:first').html();
+          let km = steps * ($("#step_length_man").val()) / 1000 / 100;
             $(this).find('td').eq(1).html(km.toFixed(2));
         });
     });
     $("#step_length_woman").change(function() {
         console.log('Ready to calculate');
         $("table#steps_to_km > tbody > tr").each(function(i, obj) {
-            let steps = $(this).find('td:first').html();
-            let km = steps * ($("#step_length_woman").val()) / 1000 / 100;
+          let steps = $(this).find('td:first').html();
+          let km = steps * ($("#step_length_woman").val()) / 1000 / 100;
             $(this).find('td').eq(2).html(km.toFixed(2));
         });
     });
@@ -190,15 +190,15 @@ $(function() {
         console.log("Calculate 1RM");
         e.preventDefault();
 
-        let repmax;
-        let formula = $("#form-formula").val();
-        let decimals = 1;
+      let repmax;
+      let formula = $("#form-formula").val();
+      let decimals = 1;
 
-        let reps = Number($("#form-reps").val());
-        let weight = Number($("#form-weight").val());
-        let bodypart = $("#form-bodypart").val();
+      let reps = Number($("#form-reps").val());
+      let weight = Number($("#form-weight").val());
+      let bodypart = $("#form-bodypart").val();
 
-        let r = rm.Estimate1RM(weight, reps);
+      let r = rm.Estimate1RM(weight, reps);
 
         if (formula == "brzycki") {
             repmax = r.getBrzycki();
@@ -325,7 +325,7 @@ $(function() {
         console.log("Calculate FTP");
         e.preventDefault();
 
-        let ftp = Number($("#ftp").val());
+      let ftp = Number($("#ftp").val());
 
         $("#ftp_value").text(ftp);
 
@@ -340,9 +340,9 @@ $(function() {
         console.log("Calculate FTP CP");
         e.preventDefault();
 
-        let cp = Number($("#zone_cp").val());
-        let adjust = Number($("#zone_adjust").val());
-        let ftp = cp * adjust / 100;
+      let cp = Number($("#zone_cp").val());
+      let adjust = Number($("#zone_adjust").val());
+      let ftp = cp * adjust / 100;
 
         $("#ftp_value").text(ftp.toFixed(0));
 
@@ -357,7 +357,7 @@ $(function() {
         console.log("Calculate FTPa");
         e.preventDefault();
 
-        let ftp = Number($("#ftpa").val());
+      let ftp = Number($("#ftpa").val());
 
         $("#ftpa_value").text(ftp);
 
@@ -372,8 +372,8 @@ $(function() {
         console.log("Calculate Maffetone");
         e.preventDefault();
 
-        let age = Number($("[name='age']").val());
-        let category = Number($("[name='category']:checked").val());
+      let age = Number($("[name='age']").val());
+      let category = Number($("[name='category']:checked").val());
 
         $("[name='mahr']").val((180 - age + category).toFixed(0));
     });
@@ -382,16 +382,16 @@ $(function() {
         console.log("Calculate Cooper");
         e.preventDefault();
 
-        let age = Number($("#age").val());
-        let hr_rest = Number($("#hrrest").val());
-        let bloodpressure = $("#bloodpressure").val();
-        let diabetes = $("#diabetes").val();
-        let smoker = $("#smoker").val();
-        let bmi = Number($("#bmi").val());
-        let fitnesslevel = Number($("#kondital").val());
+      let age = Number($("#age").val());
+      let hr_rest = Number($("#hrrest").val());
+      let bloodpressure = $("#bloodpressure").val();
+      let diabetes = $("#diabetes").val();
+      let smoker = $("#smoker").val();
+      let bmi = Number($("#bmi").val());
+      let fitnesslevel = Number($("#kondital").val());
 
         // age, heart rate, blood pressure, diabetes, smoker, bmi, fitness
-        let c = cooper.CooperClinicMortalityRiskIndex(age, hr_rest, bloodpressure, diabetes, smoker, bmi, fitnesslevel);
+      let c = cooper.CooperClinicMortalityRiskIndex(age, hr_rest, bloodpressure, diabetes, smoker, bmi, fitnesslevel);
 
         $("#risk_points").val(c.getRiskPoint());
         $("#absolute_risk").val(c.getAbsoluteRisk());
@@ -412,12 +412,12 @@ $(function() {
         console.log("Y-balance");
         e.preventDefault();
 
-        let limb_length = Number($("[name='limb_length']").val());
-        let anterior = Number($("[name='anterior']").val());
-        let posterolateral = Number($("[name='posterolateral']").val());
-        let posteromedial = Number($("[name='posteromedial']").val());
+      let limb_length = Number($("[name='limb_length']").val());
+      let anterior = Number($("[name='anterior']").val());
+      let posterolateral = Number($("[name='posterolateral']").val());
+      let posteromedial = Number($("[name='posteromedial']").val());
 
-        let fp = ybalance.YBalance(anterior, posterolateral, posteromedial);
+      let fp = ybalance.YBalance(anterior, posterolateral, posteromedial);
         $("[name='absolute_score']").val(fp.getAbsoluteReachDistance().toFixed(0));
         $("[name='relative_score']").val(fp.getRelativeReachScore(limb_length).toFixed(0));
         $("[name='composite_score']").val(fp.getCompositeReachScore(limb_length).toFixed(0));
@@ -426,25 +426,25 @@ $(function() {
         console.log("Fat percent navy");
         e.preventDefault();
 
-        let sex = $("[name='sex']:checked").val();
-        let height = Number($("[name='height']").val());
-        let waist = Number($("[name='waist']").val());
-        let neck = Number($("[name='neck']").val());
-        let hip = Number($("[name='hip']").val());
+      let sex = $("[name='sex']:checked").val();
+      let height = Number($("[name='height']").val());
+      let waist = Number($("[name='waist']").val());
+      let neck = Number($("[name='neck']").val());
+      let hip = Number($("[name='hip']").val());
 
-        let fp = fp_navy.CalculateFatPercentNavy(sex, height, waist, neck, hip);
+      let fp = fp_navy.CalculateFatPercentNavy(sex, height, waist, neck, hip);
         $("#fat_percent_navy").val(fp.getFatPercent().toFixed(2));
     });
     $("#calculator_wave_ladder").submit(function(e) {
         console.log("Calculate Wave Ladder");
         e.preventDefault();
 
-        let rm = Number($("[name='wave_ladder_1rm']").val());
-        let intensity = Number($("[name='wave_ladder_intensity']").val());
-        let wave_2_plus = Number($("[name='wave_ladder_2_plus']").val());
-        let wave_3_plus = Number($("[name='wave_ladder_3_plus']").val());
+      let rm = Number($("[name='wave_ladder_1rm']").val());
+      let intensity = Number($("[name='wave_ladder_intensity']").val());
+      let wave_2_plus = Number($("[name='wave_ladder_2_plus']").val());
+      let wave_3_plus = Number($("[name='wave_ladder_3_plus']").val());
 
-        let weight = rm * intensity / 100;
+      let weight = rm * intensity / 100;
         $("#wave_ladder_1_1").val(weight);
         $("#wave_ladder_1_2").val(weight);
         $("#wave_ladder_1_3").val(weight);
@@ -459,16 +459,16 @@ $(function() {
         console.log("Calculate Wave Traditional");
         e.preventDefault();
 
-        let rm = Number($("[name='wave_traditional_1rm']").val());
-        let intensity_1 = Number($("[name='wave_traditional_intensity_1']").val());
-        let intensity_2 = Number($("[name='wave_traditional_intensity_2']").val());
-        let intensity_3 = Number($("[name='wave_traditional_intensity_3']").val());
-        let wave_2_plus = Number($("[name='wave_traditional_2_plus']").val());
-        let wave_3_plus = Number($("[name='wave_traditional_3_plus']").val());
+      let rm = Number($("[name='wave_traditional_1rm']").val());
+      let intensity_1 = Number($("[name='wave_traditional_intensity_1']").val());
+      let intensity_2 = Number($("[name='wave_traditional_intensity_2']").val());
+      let intensity_3 = Number($("[name='wave_traditional_intensity_3']").val());
+      let wave_2_plus = Number($("[name='wave_traditional_2_plus']").val());
+      let wave_3_plus = Number($("[name='wave_traditional_3_plus']").val());
 
-        let weight_1 = rm * intensity_1 / 100;
-        let weight_2 = rm * intensity_2 / 100;
-        let weight_3 = rm * intensity_3 / 100;
+      let weight_1 = rm * intensity_1 / 100;
+      let weight_2 = rm * intensity_2 / 100;
+      let weight_3 = rm * intensity_3 / 100;
         $("#wave_traditional_1_1").val(weight_1);
         $("#wave_traditional_1_2").val(weight_2);
         $("#wave_traditional_1_3").val(weight_3);
@@ -483,28 +483,28 @@ $(function() {
         console.log("Steps to km");
         e.preventDefault();
 
-        let steps = Number($("[name='steps']").val());
-        let step_length = Number($("[name='step_to_km_step_length']").val());
+      let steps = Number($("[name='steps']").val());
+      let step_length = Number($("[name='step_to_km_step_length']").val());
 
-        let km = steps * step_length / 100000;
+      let km = steps * step_length / 100000;
         $("#step_to_km_km").val(km);
     });
     $("#calculator_kj_kcal").submit(function(e) {
         console.log("kj to kcal");
         e.preventDefault();
 
-        let kj = Number($("[name='kj']").val());
+      let kj = Number($("[name='kj']").val());
 
-        let kcal = kj * 4.184;
+      let kcal = kj * 4.184;
         $("[name='kcal']").val(kcal.toFixed(0));
     });
     $("#calculator_kcal_kj").submit(function(e) {
         console.log("kcal to kj");
         e.preventDefault();
 
-        let kcal = Number($("[name='kcal']").val());
+      let kcal = Number($("[name='kcal']").val());
 
-        let kj = kcal / 4.184;
+      let kj = kcal / 4.184;
         $("[name='kj']").val(kj.toFixed(0));
     });
     // Udregn Billat
@@ -512,9 +512,9 @@ $(function() {
         console.log("Billat");
         e.preventDefault();
 
-        let distance = Number($("[name='distance']").val());
+      let distance = Number($("[name='distance']").val());
 
-        let iw = billat.Billat(distance);
+      let iw = billat.Billat(distance);
         $("#speed").val(iw.getVelocity().toFixed(2));
         $("#d30").val(iw.getDistance30());
         $("#r30").val(iw.getRecovery30());
@@ -536,10 +536,10 @@ $(function() {
         console.log("Idealweight");
         e.preventDefault();
 
-        let sex = $("[name='sex']:checked").val();
-        let height = Number($("[name='height']").val());
+      let sex = $("[name='sex']:checked").val();
+      let height = Number($("[name='height']").val());
 
-        let iw = idealweight.IdealWeight(height, sex);
+      let iw = idealweight.IdealWeight(height, sex);
 
         if ($("[name='zacho_target_bmi']").val() == '') {
            if (iw.isMale()) {
@@ -549,9 +549,9 @@ $(function() {
             }
         }
 
-        let target_bmi = Number($("[name='peterson_target_bmi']").val());
-        let zacho_bmi = Number($("[name='zacho_target_bmi']").val());
-        let bodytype = Number($("[name='bodytype']").val());
+      let target_bmi = Number($("[name='peterson_target_bmi']").val());
+      let zacho_bmi = Number($("[name='zacho_target_bmi']").val());
+      let bodytype = Number($("[name='bodytype']").val());
 
         $("[name='idealweight_robinson']").val(iw.getRobinson().toFixed(1));
         $("[name='idealweight_miller']").val(iw.getMiller().toFixed(1));
@@ -571,15 +571,15 @@ $(function() {
         console.log("Running Walking Energy Expenditure");
         e.preventDefault();
 
-        let weight = Number($("[name='weight']").val());
+      let weight = Number($("[name='weight']").val());
 
         console.log($("#formula-energy-walking").val());
         console.log($("#formula-energy-running").val());
 
-        let walk;
-        let run;
-        let running;
-        let walking;
+      let walk;
+      let run;
+      let running;
+      let walking;
 
         if ($("#formula-energy-walking").val() == 'met') {
             walking = Number($("[name='walking']").val());
@@ -603,8 +603,8 @@ $(function() {
             run = runwalkenergy.RunningWalkingEnergyExpenditure("running", weight, running);
         }
 
-        let ratio_kilometer = run.getCaloriesPrKilometer() / walk.getCaloriesPrKilometer();
-        let ratio_minute = run.getCaloriesPrMinute() / walk.getCaloriesPrMinute();
+      let ratio_kilometer = run.getCaloriesPrKilometer() / walk.getCaloriesPrKilometer();
+      let ratio_minute = run.getCaloriesPrMinute() / walk.getCaloriesPrMinute();
 
         $("#walking-velocity").text(walking + ' km/t');
         $("#running-velocity").text(running + ' km/t');
@@ -620,32 +620,32 @@ $(function() {
         console.log("Running Walking Energy Expenditure");
         e.preventDefault();
 
-        let weight = Number($("[name='weight']").val());
+      let weight = Number($("[name='weight']").val());
 
         console.log($("#formula-walking-energy").val());
 
-        let walk;
-        let walking;
+      let walk;
+      let walking;
 
         if ($("#formula-walking-energy").val() == 'met') {
             walking = Number($("[name='walking']").val());
             walk = runwalk.RunningWalking("walking", walking, weight);
         } else if ($("#formula-walking-energy").val() == 'pandolf') {
             walking = Number($("[name='walk_velocity']").val());
-            let grade = Number($("[name='walk_grade']").val());
-            let load = Number($("[name='walk_load']").val());
+          let grade = Number($("[name='walk_grade']").val());
+          let load = Number($("[name='walk_load']").val());
             walk = pandolf.RunningWalkingEnergyExpenditurePandolf(weight, walking, grade, load);
         } else {
             walking = Number($("[name='walk_velocity']").val());
-            let grade = Number($("[name='walk_grade']").val());
+          let grade = Number($("[name='walk_grade']").val());
             walk = runwalkenergy.RunningWalkingEnergyExpenditure("walking", weight, grade);
         }
 
         console.log(walking);
 
-        let time = $("#time").val() * 60;
+      let time = $("#time").val() * 60;
 
-        let total = walk.getCaloriesPrMinute() * time;
+      let total = walk.getCaloriesPrMinute() * time;
 
         $("#calories_walking_kilometer").val(walk.getCaloriesPrKilometer().toFixed(0));
         $("#calories_walking_minute").val(walk.getCaloriesPrMinute().toFixed(1));
@@ -655,8 +655,8 @@ $(function() {
         console.log("Jump Reach test");
         e.preventDefault();
 
-        let standing_height = Number($("[name='standing_height']").val());
-        let jumping_height = Number($("[name='jumping_height']").val());
+      let standing_height = Number($("[name='standing_height']").val());
+      let jumping_height = Number($("[name='jumping_height']").val());
 
         $("[name='jump_reach_height_score']").val(jumping_height - standing_height);
     });
@@ -664,14 +664,14 @@ $(function() {
         console.log("Jump Reach test");
         e.preventDefault();
 
-        let formula = $("[name='jump-reach-formula']").val();
-        let body_weight = Number($("[name='body_weight']").val());
-        let body_height = Number($("[name='body_height']").val());
-        let jump_reach_height_score = Number($("#jump_reach_height_score").val());
+      let formula = $("[name='jump-reach-formula']").val();
+      let body_weight = Number($("[name='body_weight']").val());
+      let body_height = Number($("[name='body_height']").val());
+      let jump_reach_height_score = Number($("#jump_reach_height_score").val());
 
         console.log(formula + ' ' + body_weight + ' ' + body_height + ' ' + jump_reach_height_score);
 
-        let et = jump_reach.JumpReach(formula, jump_reach_height_score, body_weight, body_height);
+      let et = jump_reach.JumpReach(formula, jump_reach_height_score, body_weight, body_height);
 
         $("[name='average_power']").val(et.getAveragePower());
         $("[name='peak_power']").val(et.getPeakPower());
@@ -680,11 +680,11 @@ $(function() {
         console.log("CMJ test");
         e.preventDefault();
 
-        let flight_time = Number($("[name='cmj_flight_time']").val());
+      let flight_time = Number($("[name='cmj_flight_time']").val());
 
         console.log('CMJ flight time ' + flight_time);
 
-        let jump_height = 9.81 * Math.pow(flight_time, 2) / 8;
+      let jump_height = 9.81 * Math.pow(flight_time, 2) / 8;
 
         jump_height = jump_height * 100;
 
@@ -694,10 +694,10 @@ $(function() {
         console.log("DSI test");
         e.preventDefault();
 
-        let peak_force_max = Number($("[name='dsi_peak_force_max_strength']").val());
-        let peak_force_ballistic = Number($("[name='dsi_peak_force_max_ballistic']").val());
+      let peak_force_max = Number($("[name='dsi_peak_force_max_strength']").val());
+      let peak_force_ballistic = Number($("[name='dsi_peak_force_max_ballistic']").val());
 
-        let dsi = peak_force_ballistic / peak_force_max;
+      let dsi = peak_force_ballistic / peak_force_max;
 
         $("[name='dsi']").val(dsi.toFixed(2));
     });
@@ -705,11 +705,11 @@ $(function() {
         console.log("CMJ test");
         e.preventDefault();
 
-        let initial_velocity = Number($("[name='cmj_initial_velocity']").val());
+      let initial_velocity = Number($("[name='cmj_initial_velocity']").val());
 
         console.log('CMJ flight time ' + initial_velocity);
 
-        let jump_height = Math.pow(initial_velocity, 2) / 9.81 / 2;
+      let jump_height = Math.pow(initial_velocity, 2) / 9.81 / 2;
 
         jump_height = jump_height * 100;
 
@@ -720,16 +720,16 @@ $(function() {
         console.log("Etpunkt test");
         e.preventDefault();
 
-        let min = Number($("[name='time_min']").val());
-        let sec = Number($("[name='time_sec']").val());
-        let time = min + (sec / 60);
-        let gender = Number($("[name='gender']").val());
-        let hr = Number($("[name='hr']").val());
-        let age = Number($("[name='age']").val());
-        let weight = Number($("[name='weight']").val());
+      let min = Number($("[name='time_min']").val());
+      let sec = Number($("[name='time_sec']").val());
+      let time = min + (sec / 60);
+      let gender = Number($("[name='gender']").val());
+      let hr = Number($("[name='hr']").val());
+      let age = Number($("[name='age']").val());
+      let weight = Number($("[name='weight']").val());
 
         // sex, age, weight, time, hr
-        let et = jog.VO2MaxJog(gender, age, weight, time, hr);
+      let et = jog.VO2MaxJog(gender, age, weight, time, hr);
 
         $("[name='vo2max']").val(et.getMaximalOxygenUptake().toFixed(2));
         $("[name='kondital']").val(et.getFitnessLevel().toFixed(0));
@@ -738,13 +738,13 @@ $(function() {
         console.log("Etpunkt test");
         e.preventDefault();
 
-        let work = Number($("[name='work']").val());
-        let gender = Number($("[name='gender']").val());
-        let puls = Number($("[name='hr']").val());
-        let age = Number($("[name='age']").val());
-        let weight = Number($("[name='weight']").val());
+      let work = Number($("[name='work']").val());
+      let gender = Number($("[name='gender']").val());
+      let puls = Number($("[name='hr']").val());
+      let age = Number($("[name='age']").val());
+      let weight = Number($("[name='weight']").val());
 
-        let et = etpunkt.EtPunktTest(gender, age, weight, puls, work);
+      let et = etpunkt.EtPunktTest(gender, age, weight, puls, work);
 
         $("[name='vo2max']").val(et.getMaximalOxygenUptake().toFixed(2));
         $("[name='kondital']").val(et.getFitnessLevel().toFixed(0));
@@ -754,15 +754,15 @@ $(function() {
         console.log("Topunkt test");
         e.preventDefault();
 
-        let work_1 = Number($("[name='work_1']").val());
-        let work_2 = Number($("[name='work_2']").val());
-        let hr_1 = Number($("[name='hr_1']").val());
-        let hr_2 = Number($("[name='hr_2']").val());
-        let age = Number($("[name='age']").val());
-        let weight = Number($("[name='weight']").val());
-        let max_hr = Number($("[name='max_hr']").val());
+      let work_1 = Number($("[name='work_1']").val());
+      let work_2 = Number($("[name='work_2']").val());
+      let hr_1 = Number($("[name='hr_1']").val());
+      let hr_2 = Number($("[name='hr_2']").val());
+      let age = Number($("[name='age']").val());
+      let weight = Number($("[name='weight']").val());
+      let max_hr = Number($("[name='max_hr']").val());
 
-        let et = topunkt.ToPunktTest(age, weight, max_hr, work_1, hr_1, work_2, hr_2);
+      let et = topunkt.ToPunktTest(age, weight, max_hr, work_1, hr_1, work_2, hr_2);
 
         $("[name='work_max']").val(et.getMaximalWork().toFixed(0));
         $("[name='vo2max']").val(et.getMaximalOxygenUptake().toFixed(2));
@@ -773,10 +773,10 @@ $(function() {
         console.log("Calculate Maximal Heart Rate");
         e.preventDefault();
 
-        let age = Number($("[name='age']").val());
-        let formula = $("[name='maxhr-formula']").val();
+      let age = Number($("[name='age']").val());
+      let formula = $("[name='maxhr-formula']").val();
 
-        let hr = maxhr.EstimateMaxHr(age, formula);
+      let hr = maxhr.EstimateMaxHr(age, formula);
 
         $("[name='max_hr']").val(hr.getMaxHr().toFixed(0));
     });
@@ -811,9 +811,9 @@ $(function() {
         console.log("Calculate Water Intake");
         e.preventDefault();
 
-        let w = Number($("[name='weight']").val());
+      let w = Number($("[name='weight']").val());
 
-        let b = water.WaterIntake(w);
+      let b = water.WaterIntake(w);
 
         $("[name='daily_water_intake_lower']").val(b.getDailyWaterIntake());
         $("[name='daily_water_intake_upper']").val(b.getDailyWaterIntake("upper"));
@@ -835,12 +835,12 @@ $(function() {
         console.log("Calculate Body Water");
         e.preventDefault();
 
-        let a = Number($("#age").val());
-        let h = Number($("#height").val());
-        let w = Number($("#weight").val());
-        let g = $("[name='sex']:checked").val();
+      let a = Number($("#age").val());
+      let h = Number($("#height").val());
+      let w = Number($("#weight").val());
+      let g = $("[name='sex']:checked").val();
 
-        let f = tbw.BodyWater(h, w, a, g);
+      let f = tbw.BodyWater(h, w, a, g);
 
         $("#tbw").val(f.getTotalBodyWater().toFixed(2));
         $("#tbw_pct").val(f.getPercent().toFixed(2));
@@ -850,12 +850,12 @@ $(function() {
         console.log("Calculate Fat Percent");
         e.preventDefault();
 
-        let a = Number($("[name='age']").val());
-        let h = Number($("[name='height']").val());
-        let w = Number($("[name='weight']").val());
-        let g = $("[name='sex']:checked").val();
+      let a = Number($("[name='age']").val());
+      let h = Number($("[name='height']").val());
+      let w = Number($("[name='weight']").val());
+      let g = $("[name='sex']:checked").val();
 
-        let f = fat.CalculateFatPercent(h, w, a, g);
+      let f = fat.CalculateFatPercent(h, w, a, g);
 
         $("[name='BMI']").val(f.getBMI().toFixed(2));
         $("[name='fat_percent_durnin']").val(f.getWomersleyDurnin1977().toFixed(1));
@@ -870,11 +870,11 @@ $(function() {
         console.log("Calculate How Tall");
         e.preventDefault();
 
-        let father = Number($("[name='father_height']").val());
-        let mother = Number($("[name='mother_height']").val());
-        let g = $("[name='sex']:checked").val();
+      let father = Number($("[name='father_height']").val());
+      let mother = Number($("[name='mother_height']").val());
+      let g = $("[name='sex']:checked").val();
 
-        let f = how_tall.HowTall(g, father, mother);
+      let f = how_tall.HowTall(g, father, mother);
 
         $("[name='adult_height']").val(f.getHeight().toFixed(0));
     });
@@ -882,14 +882,14 @@ $(function() {
         console.log("Calculate Eating Disorder");
         e.preventDefault();
 
-        let q1 = Number($("[name='question_1']:checked").val());
-        let q2 = Number($("[name='question_2']:checked").val());
-        let q3 = Number($("[name='question_3']:checked").val());
-        let q4 = Number($("[name='question_4']:checked").val());
-        let q5 = Number($("[name='question_5']:checked").val());
-        let score = (q1 + q2 + q3 + q4 + q5) * 4;
+      let q1 = Number($("[name='question_1']:checked").val());
+      let q2 = Number($("[name='question_2']:checked").val());
+      let q3 = Number($("[name='question_3']:checked").val());
+      let q4 = Number($("[name='question_4']:checked").val());
+      let q5 = Number($("[name='question_5']:checked").val());
+      let score = (q1 + q2 + q3 + q4 + q5) * 4;
 
-        let text;
+      let text;
 
         if (score > 49) {
             text = 'Din score på ' + score + ' ligger her inden for gennemsnittet for resten af befolkningen som er 68 med en nedre grænse omkring 50.';
@@ -906,18 +906,18 @@ $(function() {
         console.log("Calculate PHQ-9");
         e.preventDefault();
 
-        let q1 = Number($("[name='question_1']:checked").val());
-        let q2 = Number($("[name='question_2']:checked").val());
-        let q3 = Number($("[name='question_3']:checked").val());
-        let q4 = Number($("[name='question_4']:checked").val());
-        let q5 = Number($("[name='question_5']:checked").val());
-        let q6 = Number($("[name='question_6']:checked").val());
-        let q7 = Number($("[name='question_7']:checked").val());
-        let q8 = Number($("[name='question_8']:checked").val());
-        let q9 = Number($("[name='question_9']:checked").val());
-        let score = q1 + q2 + q3 + q4 + q5 + q6 + q7 + q8 + q9;
+      let q1 = Number($("[name='question_1']:checked").val());
+      let q2 = Number($("[name='question_2']:checked").val());
+      let q3 = Number($("[name='question_3']:checked").val());
+      let q4 = Number($("[name='question_4']:checked").val());
+      let q5 = Number($("[name='question_5']:checked").val());
+      let q6 = Number($("[name='question_6']:checked").val());
+      let q7 = Number($("[name='question_7']:checked").val());
+      let q8 = Number($("[name='question_8']:checked").val());
+      let q9 = Number($("[name='question_9']:checked").val());
+      let score = q1 + q2 + q3 + q4 + q5 + q6 + q7 + q8 + q9;
 
-        let text;
+      let text;
 
         if (score > 19) {
             text = 'Din score på ' + score + ' viser, at du har svære symptomer på depression. Du skal søge professionel hjælp, så du kan komme til en specialist, der vil hjælpe dig med at igangsætte en øjeblikkelig behandling.';
@@ -938,25 +938,25 @@ $(function() {
         console.log("Calculate Stress");
         e.preventDefault();
 
-        let q1 = Number($("[name='question_1']:checked").val());
-        let q2 = Number($("[name='question_2']:checked").val());
-        let q3 = Number($("[name='question_3']:checked").val());
-        let q4 = Number($("[name='question_4']:checked").val());
-        let q5 = Number($("[name='question_5']:checked").val());
-        let q6 = Number($("[name='question_6']:checked").val());
-        let q7 = Number($("[name='question_7']:checked").val());
-        let q8 = Number($("[name='question_8']:checked").val());
-        let q9 = Number($("[name='question_9']:checked").val());
-        let q10 = Number($("[name='question_10']:checked").val());
-        let q11 = Number($("[name='question_11']:checked").val());
-        let q12 = Number($("[name='question_12']:checked").val());
-        let q13 = Number($("[name='question_13']:checked").val());
-        let q14 = Number($("[name='question_14']:checked").val());
-        let q15 = Number($("[name='question_15']:checked").val());
-        let q16 = Number($("[name='question_16']:checked").val());
-        let score = q1 + q2 + q3 + q4 + q5 + q6 + q7 + q8 + q9 + q10 + q11 + q12 + q13 + q14 + q15 + q16;
+      let q1 = Number($("[name='question_1']:checked").val());
+      let q2 = Number($("[name='question_2']:checked").val());
+      let q3 = Number($("[name='question_3']:checked").val());
+      let q4 = Number($("[name='question_4']:checked").val());
+      let q5 = Number($("[name='question_5']:checked").val());
+      let q6 = Number($("[name='question_6']:checked").val());
+      let q7 = Number($("[name='question_7']:checked").val());
+      let q8 = Number($("[name='question_8']:checked").val());
+      let q9 = Number($("[name='question_9']:checked").val());
+      let q10 = Number($("[name='question_10']:checked").val());
+      let q11 = Number($("[name='question_11']:checked").val());
+      let q12 = Number($("[name='question_12']:checked").val());
+      let q13 = Number($("[name='question_13']:checked").val());
+      let q14 = Number($("[name='question_14']:checked").val());
+      let q15 = Number($("[name='question_15']:checked").val());
+      let q16 = Number($("[name='question_16']:checked").val());
+      let score = q1 + q2 + q3 + q4 + q5 + q6 + q7 + q8 + q9 + q10 + q11 + q12 + q13 + q14 + q15 + q16;
 
-        let text;
+      let text;
 
         if (score > 50) {
             text = 'Din score på ' + score + ' viser, at dit stressniveau er <strong>meget højt niveau</strong>. Dit stressniveau er meget højt. Du bør tage hånd om din situation straks og række ud efter hjælp, så du kan få det bedre.';
@@ -975,77 +975,77 @@ $(function() {
         console.log("Calculate ATQ");
         e.preventDefault();
 
-        let q1 = Number($("[name='frequency_1']:checked").val());
-        let q2 = Number($("[name='frequency_2']:checked").val());
-        let q3 = Number($("[name='frequency_3']:checked").val());
-        let q4 = Number($("[name='frequency_4']:checked").val());
-        let q5 = Number($("[name='frequency_5']:checked").val());
-        let q6 = Number($("[name='frequency_6']:checked").val());
-        let q7 = Number($("[name='frequency_7']:checked").val());
-        let q8 = Number($("[name='frequency_8']:checked").val());
-        let q9 = Number($("[name='frequency_9']:checked").val());
-        let q10 = Number($("[name='frequency_10']:checked").val());
-        let q11 = Number($("[name='frequency_11']:checked").val());
-        let q12 = Number($("[name='frequency_12']:checked").val());
-        let q13 = Number($("[name='frequency_13']:checked").val());
-        let q14 = Number($("[name='frequency_14']:checked").val());
-        let q15 = Number($("[name='frequency_15']:checked").val());
-        let q16 = Number($("[name='frequency_16']:checked").val());
-        let q17 = Number($("[name='frequency_17']:checked").val());
-        let q18 = Number($("[name='frequency_18']:checked").val());
-        let q19 = Number($("[name='frequency_19']:checked").val());
-        let q20 = Number($("[name='frequency_20']:checked").val());
-        let q21 = Number($("[name='frequency_21']:checked").val());
-        let q22 = Number($("[name='frequency_22']:checked").val());
-        let q23 = Number($("[name='frequency_23']:checked").val());
-        let q24 = Number($("[name='frequency_24']:checked").val());
-        let q25 = Number($("[name='frequency_25']:checked").val());
-        let q26 = Number($("[name='frequency_26']:checked").val());
-        let q27 = Number($("[name='frequency_27']:checked").val());
-        let q28 = Number($("[name='frequency_28']:checked").val());
-        let q29 = Number($("[name='frequency_29']:checked").val());
-        let q30 = Number($("[name='frequency_30']:checked").val());
-        let frequency = q1 + q2 + q3 + q4 + q5 + q6 + q7 + q8 + q9 + q10 + q11 + q12 + q13 + q14 + q15 + q16 + q17 + q18 + q19 + q20 + q21 + q22 + q23 + q24 + q25 + q26 + q27 + q28 + q29 + q30;
+      let q1 = Number($("[name='frequency_1']:checked").val());
+      let q2 = Number($("[name='frequency_2']:checked").val());
+      let q3 = Number($("[name='frequency_3']:checked").val());
+      let q4 = Number($("[name='frequency_4']:checked").val());
+      let q5 = Number($("[name='frequency_5']:checked").val());
+      let q6 = Number($("[name='frequency_6']:checked").val());
+      let q7 = Number($("[name='frequency_7']:checked").val());
+      let q8 = Number($("[name='frequency_8']:checked").val());
+      let q9 = Number($("[name='frequency_9']:checked").val());
+      let q10 = Number($("[name='frequency_10']:checked").val());
+      let q11 = Number($("[name='frequency_11']:checked").val());
+      let q12 = Number($("[name='frequency_12']:checked").val());
+      let q13 = Number($("[name='frequency_13']:checked").val());
+      let q14 = Number($("[name='frequency_14']:checked").val());
+      let q15 = Number($("[name='frequency_15']:checked").val());
+      let q16 = Number($("[name='frequency_16']:checked").val());
+      let q17 = Number($("[name='frequency_17']:checked").val());
+      let q18 = Number($("[name='frequency_18']:checked").val());
+      let q19 = Number($("[name='frequency_19']:checked").val());
+      let q20 = Number($("[name='frequency_20']:checked").val());
+      let q21 = Number($("[name='frequency_21']:checked").val());
+      let q22 = Number($("[name='frequency_22']:checked").val());
+      let q23 = Number($("[name='frequency_23']:checked").val());
+      let q24 = Number($("[name='frequency_24']:checked").val());
+      let q25 = Number($("[name='frequency_25']:checked").val());
+      let q26 = Number($("[name='frequency_26']:checked").val());
+      let q27 = Number($("[name='frequency_27']:checked").val());
+      let q28 = Number($("[name='frequency_28']:checked").val());
+      let q29 = Number($("[name='frequency_29']:checked").val());
+      let q30 = Number($("[name='frequency_30']:checked").val());
+      let frequency = q1 + q2 + q3 + q4 + q5 + q6 + q7 + q8 + q9 + q10 + q11 + q12 + q13 + q14 + q15 + q16 + q17 + q18 + q19 + q20 + q21 + q22 + q23 + q24 + q25 + q26 + q27 + q28 + q29 + q30;
 
-        let b1 = Number($("[name='believe_1']:checked").val());
-        let b2 = Number($("[name='believe_2']:checked").val());
-        let b3 = Number($("[name='believe_3']:checked").val());
-        let b4 = Number($("[name='believe_4']:checked").val());
-        let b5 = Number($("[name='believe_5']:checked").val());
-        let b6 = Number($("[name='believe_6']:checked").val());
-        let b7 = Number($("[name='believe_7']:checked").val());
-        let b8 = Number($("[name='believe_8']:checked").val());
-        let b9 = Number($("[name='believe_9']:checked").val());
-        let b10 = Number($("[name='believe_10']:checked").val());
-        let b11 = Number($("[name='believe_11']:checked").val());
-        let b12 = Number($("[name='believe_12']:checked").val());
-        let b13 = Number($("[name='believe_13']:checked").val());
-        let b14 = Number($("[name='believe_14']:checked").val());
-        let b15 = Number($("[name='believe_15']:checked").val());
-        let b16 = Number($("[name='believe_16']:checked").val());
-        let b17 = Number($("[name='believe_17']:checked").val());
-        let b18 = Number($("[name='believe_18']:checked").val());
-        let b19 = Number($("[name='believe_19']:checked").val());
-        let b20 = Number($("[name='believe_20']:checked").val());
-        let b21 = Number($("[name='believe_21']:checked").val());
-        let b22 = Number($("[name='believe_22']:checked").val());
-        let b23 = Number($("[name='believe_23']:checked").val());
-        let b24 = Number($("[name='believe_24']:checked").val());
-        let b25 = Number($("[name='believe_25']:checked").val());
-        let b26 = Number($("[name='believe_26']:checked").val());
-        let b27 = Number($("[name='believe_27']:checked").val());
-        let b28 = Number($("[name='believe_28']:checked").val());
-        let b29 = Number($("[name='believe_29']:checked").val());
-        let b30 = Number($("[name='believe_30']:checked").val());
+      let b1 = Number($("[name='believe_1']:checked").val());
+      let b2 = Number($("[name='believe_2']:checked").val());
+      let b3 = Number($("[name='believe_3']:checked").val());
+      let b4 = Number($("[name='believe_4']:checked").val());
+      let b5 = Number($("[name='believe_5']:checked").val());
+      let b6 = Number($("[name='believe_6']:checked").val());
+      let b7 = Number($("[name='believe_7']:checked").val());
+      let b8 = Number($("[name='believe_8']:checked").val());
+      let b9 = Number($("[name='believe_9']:checked").val());
+      let b10 = Number($("[name='believe_10']:checked").val());
+      let b11 = Number($("[name='believe_11']:checked").val());
+      let b12 = Number($("[name='believe_12']:checked").val());
+      let b13 = Number($("[name='believe_13']:checked").val());
+      let b14 = Number($("[name='believe_14']:checked").val());
+      let b15 = Number($("[name='believe_15']:checked").val());
+      let b16 = Number($("[name='believe_16']:checked").val());
+      let b17 = Number($("[name='believe_17']:checked").val());
+      let b18 = Number($("[name='believe_18']:checked").val());
+      let b19 = Number($("[name='believe_19']:checked").val());
+      let b20 = Number($("[name='believe_20']:checked").val());
+      let b21 = Number($("[name='believe_21']:checked").val());
+      let b22 = Number($("[name='believe_22']:checked").val());
+      let b23 = Number($("[name='believe_23']:checked").val());
+      let b24 = Number($("[name='believe_24']:checked").val());
+      let b25 = Number($("[name='believe_25']:checked").val());
+      let b26 = Number($("[name='believe_26']:checked").val());
+      let b27 = Number($("[name='believe_27']:checked").val());
+      let b28 = Number($("[name='believe_28']:checked").val());
+      let b29 = Number($("[name='believe_29']:checked").val());
+      let b30 = Number($("[name='believe_30']:checked").val());
 
-        let believe = b1 + b2 + b3 + b4 + b5 + b6 + b7 + b8 + b9 + b10 + b11 + b12 + b13 + b14 + b15 + b16 + b17 + b18 + b19 + b20 + b21 + b22 + b23 + b24 + b25 + b26 + b27 + b28 + b29 + b30;
+      let believe = b1 + b2 + b3 + b4 + b5 + b6 + b7 + b8 + b9 + b10 + b11 + b12 + b13 + b14 + b15 + b16 + b17 + b18 + b19 + b20 + b21 + b22 + b23 + b24 + b25 + b26 + b27 + b28 + b29 + b30;
 
-        let text;
+      let text;
 
-        let pmdc = q7 + q10 + q14 + q20 + q26;
-        let nsne = q2 + q3 + q9 + q21 + q23 + q24 + q28;
-        let lse = q17 + q18;
-        let helplessness = q29 + q30;
+      let pmdc = q7 + q10 + q14 + q20 + q26;
+      let nsne = q2 + q3 + q9 + q21 + q23 + q24 + q28;
+      let lse = q17 + q18;
+      let helplessness = q29 + q30;
 
         /*
         if (score > 50) {
@@ -1070,16 +1070,16 @@ $(function() {
         console.log("Calculate Eating Disorder");
         e.preventDefault();
 
-        let q1 = Number($("[name='question_1']:checked").val());
-        let q2 = Number($("[name='question_2']:checked").val());
-        let q3 = Number($("[name='question_3']:checked").val());
-        let q4 = Number($("[name='question_4']:checked").val());
-        let q5 = Number($("[name='question_5']:checked").val());
-        let q6 = Number($("[name='question_6']:checked").val());
+      let q1 = Number($("[name='question_1']:checked").val());
+      let q2 = Number($("[name='question_2']:checked").val());
+      let q3 = Number($("[name='question_3']:checked").val());
+      let q4 = Number($("[name='question_4']:checked").val());
+      let q5 = Number($("[name='question_5']:checked").val());
+      let q6 = Number($("[name='question_6']:checked").val());
 
-        let disorder = q1 + q2 + q3 + q4 + q5 + q6;
+      let disorder = q1 + q2 + q3 + q4 + q5 + q6;
 
-        let text;
+      let text;
 
         if (disorder > 23) {
             text = 'Din score på ' + disorder + ' ligger mellem 24-30. Det er sandsynligt, at du er afhængig af træning på en måde, der kan skade dig.';
@@ -1095,26 +1095,26 @@ $(function() {
         console.log("Calculate Eating Disorder");
         e.preventDefault();
 
-        let q1 = Number($("[name='question_1']:checked").val());
-        let q2 = Number($("[name='question_2']:checked").val());
-        let q3 = Number($("[name='question_3']:checked").val());
-        let q4 = Number($("[name='question_4']:checked").val());
-        let q5 = Number($("[name='question_5']:checked").val());
-        let q6 = Number($("[name='question_6']:checked").val());
+      let q1 = Number($("[name='question_1']:checked").val());
+      let q2 = Number($("[name='question_2']:checked").val());
+      let q3 = Number($("[name='question_3']:checked").val());
+      let q4 = Number($("[name='question_4']:checked").val());
+      let q5 = Number($("[name='question_5']:checked").val());
+      let q6 = Number($("[name='question_6']:checked").val());
 
-        let disorder = q1 + q2 + q3 + q4;
-        let no_disorder = q5 + q6;
+      let disorder = q1 + q2 + q3 + q4;
+      let no_disorder = q5 + q6;
 
-        let text;
+      let text;
 
         if (disorder > 1) {
             text = 'Du har svaret ja på ' + disorder + ' af de fire første spørgsmål. Du er i risikogruppen for at have en spiseforstyrrelse og bør søge hjælp. Yderligere udredning er nødvendig for at vurdere, om der er tale om en spiseforstyrrelse.';
         } else if (disorder > 0) {
             text = 'Du har svaret ja på et af de fire første spørgsmål. At svare ja på et af spørgsmålene er formentlig ikke alvorligt, men det kan være tegn på et forstyrret spisemønster.';
         } else if (no_disorder == 0) {
-            text = 'Dine svar tyder på, at du ikke har et forstyrret spisemønster.';
+            text = 'Dine s let tyder på, at du ikke har et forstyrret spisemønster.';
         } else {
-            text = 'Det var ikke muligt at konkludere noget på baggrund af dine svar. De første fire spørgsmål har en sammenhæng med det at have en spiseforstyrrelse. De sidste to spørgsmål kan afdække om du er uden for risikogruppen.';
+            text = 'Det  let ikke muligt at konkludere noget på baggrund af dine svar. De første fire spørgsmål har en sammenhæng med det at have en spiseforstyrrelse. De sidste to spørgsmål kan afdække om du er uden for risikogruppen.';
         }
 
         $("#result").text(text);
@@ -1123,16 +1123,16 @@ $(function() {
         console.log("Calculate Norwegian 2011");
         e.preventDefault();
 
-        let gender = $("[name='gender']").val();
-        let age = Number($("[name='age']").val());
-        let hr_rest = Number($("[name='hr_rest']").val());
-        let waist = Number($("[name='waist']").val());
-        let frequency = Number($("[name='frequency']").val());
-        let intensity = Number($("[name='intensity']").val());
-        let duration = Number($("[name='duration']").val());
+      let gender = $("[name='gender']").val();
+      let age = Number($("[name='age']").val());
+      let hr_rest = Number($("[name='hr_rest']").val());
+      let waist = Number($("[name='waist']").val());
+      let frequency = Number($("[name='frequency']").val());
+      let intensity = Number($("[name='intensity']").val());
+      let duration = Number($("[name='duration']").val());
 
-        let kondital;
-        let pa = frequency * intensity * duration;
+      let kondital;
+      let pa = frequency * intensity * duration;
 
         if (gender == 'male') {
             kondital = 100.27 + 0.226 * pa - 0.296 * age - 0.369 * waist - 0.155 * hr_rest;
@@ -1147,15 +1147,15 @@ $(function() {
         console.log("Calculate Jackson");
         e.preventDefault();
 
-        let gender = Number($("[name='jackson_gender']").val());
-        let age = Number($("[name='jackson_age']").val());
-        let height = Number($("[name='jackson_height']").val());
-        let weight = Number($("[name='jackson_weight']").val());
-        let par = Number($("[name='par']:checked").val());
+      let gender = Number($("[name='jackson_gender']").val());
+      let age = Number($("[name='jackson_age']").val());
+      let height = Number($("[name='jackson_height']").val());
+      let weight = Number($("[name='jackson_weight']").val());
+      let par = Number($("[name='par']:checked").val());
 
-        let b = bmi.BMI(height, weight);
+      let b = bmi.BMI(height, weight);
 
-        let kondital = 56.363 + 1.921 * par - 0.381 * age - 0.754 * b.getBMI() + 10.987 * gender;
+      let kondital = 56.363 + 1.921 * par - 0.381 * age - 0.754 * b.getBMI() + 10.987 * gender;
 
         $("[name='jackson_kondital']").val(kondital.toFixed(0));
     });
@@ -1164,15 +1164,15 @@ $(function() {
         console.log("Calculate Skinfold Durnin");
         e.preventDefault();
 
-        let biceps = Number($("[name='biceps']").val());
-        let triceps = Number($("[name='triceps']").val());
-        let suprailiac = Number($("[name='suprailiac']").val());
-        let subscapularis = Number($("[name='subscapularis']").val());
-        let weight = Number($("[name='weight']").val());
-        let sex = $("[name='gender']").val();
-        let age = Number($("[name='age']").val());
+      let biceps = Number($("[name='biceps']").val());
+      let triceps = Number($("[name='triceps']").val());
+      let suprailiac = Number($("[name='suprailiac']").val());
+      let subscapularis = Number($("[name='subscapularis']").val());
+      let weight = Number($("[name='weight']").val());
+      let sex = $("[name='gender']").val();
+      let age = Number($("[name='age']").val());
 
-        let f = skinfold_durnin.SkinfoldDurnin(biceps, triceps, suprailiac, subscapularis, weight, sex, age);
+      let f = skinfold_durnin.SkinfoldDurnin(biceps, triceps, suprailiac, subscapularis, weight, sex, age);
 
         $("[name='skinfold_durnin']").val(f.getSkinfoldSum().toFixed(2));
         $("[name='fatpercent_durnin']").val(f.getBodyFatPercent().toFixed(2));
@@ -1183,16 +1183,16 @@ $(function() {
         console.log("Calculate Skinfold Durnin");
         e.preventDefault();
 
-        let midthigh = Number($("[name='midthigh']").val());
-        let triceps = Number($("[name='triceps']").val());
-        let suprailiac = Number($("[name='suprailiac']").val());
-        let subscapularis = Number($("[name='subscapularis']").val());
-        let weight = Number($("[name='weight']").val());
-        let height = Number($("[name='height']").val());
-        let sex = $("[name='gender']").val();
-        let age = Number($("[name='age']").val());
+      let midthigh = Number($("[name='midthigh']").val());
+      let triceps = Number($("[name='triceps']").val());
+      let suprailiac = Number($("[name='suprailiac']").val());
+      let subscapularis = Number($("[name='subscapularis']").val());
+      let weight = Number($("[name='weight']").val());
+      let height = Number($("[name='height']").val());
+      let sex = $("[name='gender']").val();
+      let age = Number($("[name='age']").val());
 
-        let f = skinfold_peterson.SkinfoldPeterson(midthigh, triceps, suprailiac, subscapularis, height, weight, sex, age);
+      let f = skinfold_peterson.SkinfoldPeterson(midthigh, triceps, suprailiac, subscapularis, height, weight, sex, age);
 
         $("[name='skinfold_peterson']").val(f.getSkinfoldSum().toFixed(2));
         $("[name='fatpercent_peterson']").val(f.getBodyFatPercent().toFixed(2));
@@ -1203,13 +1203,13 @@ $(function() {
         console.log("Calculate Skinfold Pollock Men");
         e.preventDefault();
 
-        let breast = Number($("[name='chest_male']").val());
-        let abdomen = Number($("[name='abdomen_male']").val());
-        let thigh = Number($("[name='thigh_male']").val());
-        let age = Number($("[name='age_male']").val());
-        let weight = Number($("[name='weight_male']").val());
+      let breast = Number($("[name='chest_male']").val());
+      let abdomen = Number($("[name='abdomen_male']").val());
+      let thigh = Number($("[name='thigh_male']").val());
+      let age = Number($("[name='age_male']").val());
+      let weight = Number($("[name='weight_male']").val());
 
-        let f = skinfold_pollock.SkinfoldPollock(weight, age);
+      let f = skinfold_pollock.SkinfoldPollock(weight, age);
 
         $("[name='fatpercent_male']").val(f.getBodyFatPercentMale(breast, abdomen, thigh));
         $("[name='ffm_male']").val(f.getBodyFatFreeMass());
@@ -1219,13 +1219,13 @@ $(function() {
         console.log("Calculate Skinfold Pollock Women");
         e.preventDefault();
 
-        let triceps = Number($("[name='triceps_female']").val());
-        let hip = Number($("[name='supiliac_female']").val());
-        let thigh = Number($("[name='thigh_female']").val());
-        let age = Number($("[name='age_female']").val());
-        let weight = Number($("[name='weight_female']").val());
+      let triceps = Number($("[name='triceps_female']").val());
+      let hip = Number($("[name='supiliac_female']").val());
+      let thigh = Number($("[name='thigh_female']").val());
+      let age = Number($("[name='age_female']").val());
+      let weight = Number($("[name='weight_female']").val());
 
-        let f = skinfold_pollock.SkinfoldPollock(weight, age);
+      let f = skinfold_pollock.SkinfoldPollock(weight, age);
 
         $("[name='fatpercent_female']").val(f.getBodyFatPercentFemale(triceps, hip, thigh));
         $("[name='ffm_female']").val(f.getBodyFatFreeMass());
@@ -1235,11 +1235,11 @@ $(function() {
         console.log("Calculate Skinfold Lohman");
         e.preventDefault();
 
-        let triceps = Number($("[name='triceps']").val());
-        let calf = Number($("[name='calf']").val());
-        let sex = Number($("[name='gender']").val());
+      let triceps = Number($("[name='triceps']").val());
+      let calf = Number($("[name='calf']").val());
+      let sex = Number($("[name='gender']").val());
 
-        let f = skinfold_lohman.SkinfoldLohman(sex, triceps, calf);
+      let f = skinfold_lohman.SkinfoldLohman(sex, triceps, calf);
 
         $("[name='fatpercent']").val(f.getBodyFatPercent());
     });
@@ -1248,11 +1248,11 @@ $(function() {
         console.log("Calculate Skinfold Slaughter");
         e.preventDefault();
 
-        let triceps = Number($("[name='triceps']").val());
-        let subscapular = Number($("[name='subscapular']").val());
-        let sex = Number($("[name='gender']").val());
+      let triceps = Number($("[name='triceps']").val());
+      let subscapular = Number($("[name='subscapular']").val());
+      let sex = Number($("[name='gender']").val());
 
-        let f = skinfold_slaughter.SkinfoldSlaughter(sex, triceps, subscapular);
+      let f = skinfold_slaughter.SkinfoldSlaughter(sex, triceps, subscapular);
 
         $("[name='fatpercent']").val(f.getBodyFatpercent());
     });
@@ -1264,7 +1264,7 @@ $(function() {
     });
     // 1RM calculate
     $("#calculator_fat_percent_measurement [name='group']").change(function() {
-        let group = $("[name='group']").val();
+      let group = $("[name='group']").val();
         $("#calculator_fat_percent_men_under_26").hide();
         $("#calculator_fat_percent_men_over_26").hide();
         $("#calculator_fat_percent_women_under_26").hide();
@@ -1275,7 +1275,7 @@ $(function() {
     $("#calculator_fat_percent_men_under_26").submit(function(e) {
         console.log("Calculate Fat Percent on Measurements");
         e.preventDefault();
-        let f = fatm.CalculateFatPercentMeasurements();
+      let f = fatm.CalculateFatPercentMeasurements();
         $("[name='fat_men_under_26']").val(f.getFatPercentMenUnder26(
             Number($("#calculator_fat_percent_men_under_26 [name='right_upperarm']").val()),
             Number($("#calculator_fat_percent_men_under_26 [name='abdomen']").val()),
@@ -1285,7 +1285,7 @@ $(function() {
     $("#calculator_fat_percent_men_over_26").submit(function(e) {
         console.log("Calculate Fat Percent on Measurements");
         e.preventDefault();
-        let f = fatm.CalculateFatPercentMeasurements();
+      let f = fatm.CalculateFatPercentMeasurements();
         $("[name='fat_men_over_26']").val(f.getFatPercentMenOver26(
             Number($("#calculator_fat_percent_men_over_26 [name='hips']").val()),
             Number($("#calculator_fat_percent_men_over_26 [name='abdomen']").val()),
@@ -1295,7 +1295,7 @@ $(function() {
     $("#calculator_fat_percent_women_under_26").submit(function(e) {
         console.log("Calculate Fat Percent on Measurements");
         e.preventDefault();
-        let f = fatm.CalculateFatPercentMeasurements();
+      let f = fatm.CalculateFatPercentMeasurements();
         $("[name='fat_women_under_26']").val(f.getFatPercentWomenUnder26(
             Number($("#calculator_fat_percent_women_under_26 [name='abdomen']").val()),
             Number($("#calculator_fat_percent_women_under_26 [name='right_thigh']").val()),
@@ -1305,7 +1305,7 @@ $(function() {
     $("#calculator_fat_percent_women_over_26").submit(function(e) {
         console.log("Calculate Fat Percent on Measurements");
         e.preventDefault();
-        let f = fatm.CalculateFatPercentMeasurements();
+      let f = fatm.CalculateFatPercentMeasurements();
         $("[name='fat_women_over_26']").val(f.getFatPercentWomenOver26(
             Number($("#calculator_fat_percent_women_over_26 [name='abdomen']").val()),
             Number($("#calculator_fat_percent_women_over_26 [name='right_thigh']").val()),
@@ -1317,14 +1317,14 @@ $(function() {
         console.log("Calculate VO2 from HR");
         e.preventDefault();
 
-        let hvpul = Number($("#hr_rest").val());
-        let mxpul = Number($("#hr_max").val());
-        let wgt = Number($("#weight").val());
+      let hvpul = Number($("#hr_rest").val());
+      let mxpul = Number($("#hr_max").val());
+      let wgt = Number($("#weight").val());
 
-        let fitnesshr = fitness.CalculateFitnessFromHr(mxpul, hvpul, wgt);
+      let fitnesshr = fitness.CalculateFitnessFromHr(mxpul, hvpul, wgt);
 
-        let maxiltoptagelse = fitnesshr.getMaximalOxygenUptake();
-        let kondital = fitnesshr.getFitnessLevel();
+      let maxiltoptagelse = fitnesshr.getMaximalOxygenUptake();
+      let kondital = fitnesshr.getFitnessLevel();
 
         $("#vo2max").val(maxiltoptagelse);
         $("#kondital").val(kondital);
@@ -1334,11 +1334,11 @@ $(function() {
         console.log("Calculate Borg 15 fitness");
         e.preventDefault();
 
-        let watt = Number($("#borg_watt").val());
-        let age = Number($("#borg_age").val());
-        let weight = Number($("#borg_weight").val());
+      let watt = Number($("#borg_watt").val());
+      let age = Number($("#borg_age").val());
+      let weight = Number($("#borg_weight").val());
 
-        let borg = borg15.Borg15(age, weight, watt);
+      let borg = borg15.Borg15(age, weight, watt);
 
         $("#borg_iltoptagelse").val(borg.getMaximalOxygenUptake().toFixed(2));
         $("#borg_kondital").val(borg.getFitnessLevel().toFixed(0));
@@ -1347,10 +1347,10 @@ $(function() {
     $("#calculator_inol").submit(function(e) {
         console.log("Calculate INOL");
         e.preventDefault();
-        let reps = Number($("[name='reps']").val());
-        let intensity = Number($("[name='intensity']").val());
+      let reps = Number($("[name='reps']").val());
+      let intensity = Number($("[name='intensity']").val());
 
-        let watt = inol.INOL(reps, intensity);
+      let watt = inol.INOL(reps, intensity);
 
         $("[name='inol']").val(watt.getINOL());
     });
@@ -1358,11 +1358,11 @@ $(function() {
     $("#calculator_fitness_wattmax").submit(function(e) {
         console.log("Calculate Wattmax");
         e.preventDefault();
-        let wmax = Number($("[name='wmax']").val());
-        let sec = Number($("[name='sec']").val());
-        let weight = Number($("[name='weight']").val());
+      let wmax = Number($("[name='wmax']").val());
+      let sec = Number($("[name='sec']").val());
+      let weight = Number($("[name='weight']").val());
 
-        let watt = wattmax.Wattmax(wmax, sec, weight);
+      let watt = wattmax.Wattmax(wmax, sec, weight);
 
         $("[name='kondital']").val(watt.getFitnessLevel());
         $("[name='vo2max']").val(watt.getMaximalOxygenUptake());
@@ -1373,13 +1373,13 @@ $(function() {
         console.log("Calculate Wattmax Children");
         e.preventDefault();
 
-        let wmax = Number($("[name='wmax']").val());
-        let sec = Number($("[name='sec']").val());
-        let weight = Number($("[name='weight']").val());
-        let watt_jumps = Number($("[name='watt_jumps']").val());
-        let age = 15;
+      let wmax = Number($("[name='wmax']").val());
+      let sec = Number($("[name='sec']").val());
+      let weight = Number($("[name='weight']").val());
+      let watt_jumps = Number($("[name='watt_jumps']").val());
+      let age = 15;
 
-        let watt = wattmax.Wattmax(wmax, sec, weight, age, watt_jumps);
+      let watt = wattmax.Wattmax(wmax, sec, weight, age, watt_jumps);
 
         $("[name='kondital']").val(watt.getFitnessLevel());
         $("[name='vo2max']").val(watt.getMaximalOxygenUptake());
@@ -1390,14 +1390,14 @@ $(function() {
         console.log("Calculate Walktest 6 min");
         e.preventDefault();
 
-        let meter = Number($("[name='meter']").val());
-        let sex = Number($("[name='gender']").val());
-        let age = Number($("[name='age']").val());
-        let height = Number($("[name='height']").val());
-        let weight = Number($("[name='weight']").val());
-        let repeated = $("#formula").val();
+      let meter = Number($("[name='meter']").val());
+      let sex = Number($("[name='gender']").val());
+      let age = Number($("[name='age']").val());
+      let height = Number($("[name='height']").val());
+      let weight = Number($("[name='weight']").val());
+      let repeated = $("#formula").val();
 
-        let hr = walktest_sixminutes.SixMinutesWalkingTest(sex, age, height, weight, meter);
+      let hr = walktest_sixminutes.SixMinutesWalkingTest(sex, age, height, weight, meter);
 
         $("[name='reference_distance']").val(hr.getReferenceMeter(repeated));
         $("[name='procent']").val(hr.getPercent(repeated).toFixed(0));
@@ -1408,16 +1408,16 @@ $(function() {
         console.log("Calculate Walktest 1,6 km");
         e.preventDefault();
 
-        let min = Number($("[name='min']").val());
-        let sec = Number($("[name='sec']").val());
-        let hr_after = Number($("[name='hr_after']").val());
-        let gender = $("[name='gender']").val();
-        let age = Number($("[name='age']").val());
-        let weight = Number($("[name='weight']").val());
+      let min = Number($("[name='min']").val());
+      let sec = Number($("[name='sec']").val());
+      let hr_after = Number($("[name='hr_after']").val());
+      let gender = $("[name='gender']").val();
+      let age = Number($("[name='age']").val());
+      let weight = Number($("[name='weight']").val());
 
         console.log(gender);
 
-        let rp = rockport.RockPortWalkingTest(min, sec, hr_after, gender, age, weight);
+      let rp = rockport.RockPortWalkingTest(min, sec, hr_after, gender, age, weight);
 
         $("[name='kondital']").val(rp.getFitnessLevel().toFixed(0));
         $("[name='vo2max']").val(rp.getMaximalOxygenUptake().toFixed(2));
@@ -1427,11 +1427,11 @@ $(function() {
         console.log("Calculate Index23");
         e.preventDefault();
 
-        let height = Number($("#height").val());
-        let weight = Number($("#weight").val());
-        let kondital = Number($("#kondital").val());
+      let height = Number($("#height").val());
+      let weight = Number($("#weight").val());
+      let kondital = Number($("#kondital").val());
 
-        let i = index23.FitnessIndex23(height, weight);
+      let i = index23.FitnessIndex23(height, weight);
 
         $("#index23").val(i.getIndex23BasedOnFitnessLevel(kondital));
     });
@@ -1440,10 +1440,10 @@ $(function() {
         console.log("Calculate Andersen Test");
         e.preventDefault();
 
-        let distance = Number($("[name='distance']").val());
-        let sex = $("[name='gender']").val();
+      let distance = Number($("[name='distance']").val());
+      let sex = $("[name='gender']").val();
 
-        let i = andersen.AndersenTest(sex, distance);
+      let i = andersen.AndersenTest(sex, distance);
 
         $("[name='kondital']").val(i.getFitnessLevel().toFixed(0));
     });
@@ -1452,10 +1452,10 @@ $(function() {
         console.log("Calculate Index100");
         e.preventDefault();
 
-        let lifted = Number($("[name='lifted']").val());
-        let bodyweight = Number($("[name='weight']").val());
+      let lifted = Number($("[name='lifted']").val());
+      let bodyweight = Number($("[name='weight']").val());
 
-        let idx = index100.Index100(lifted, bodyweight);
+      let idx = index100.Index100(lifted, bodyweight);
 
         $("[name='index_100_lift']").val(idx.getIndex100());
     });
@@ -1463,12 +1463,12 @@ $(function() {
         console.log("Calculate calculator_necessary_energy_deficit");
         e.preventDefault();
 
-        let lost = Number($("[name='lost']").val());
-        let days = Number($("[name='days']").val());
-        let lost_day = lost / days * 1000;
-        let fat = 9; //kcal
-        let diff = lost_day * fat;
-        let weight_loss = lost_day;
+      let lost = Number($("[name='lost']").val());
+      let days = Number($("[name='days']").val());
+      let lost_day = lost / days * 1000;
+      let fat = 9; //kcal
+      let diff = lost_day * fat;
+      let weight_loss = lost_day;
 
         $("[name='daily_diff']").val(diff.toFixed(0) + ' kcal');
         $("[name='daily_weight_loss']").val(weight_loss.toFixed(0) + ' g');
@@ -1478,12 +1478,12 @@ $(function() {
         console.log("Calculate Equilibrium");
         e.preventDefault();
 
-        let tee = Number($("#calculator_change [name='tee']").val());
-        let intake = Number($("[name='intake']").val());
+      let tee = Number($("#calculator_change [name='tee']").val());
+      let intake = Number($("[name='intake']").val());
 
-        let b = bmr_equilibrium.BMREquilibrium();
+      let b = bmr_equilibrium.BMREquilibrium();
 
-        let balance = b.getBalance(tee, intake);
+      let balance = b.getBalance(tee, intake);
 
         $("[name='balance']").val(balance + ' kJ');
         $("[name='weekly_weightchange']").val((b.getMaximalWeightChange(balance, 7) * 1000).toFixed(0) + ' g');
@@ -1497,13 +1497,13 @@ $(function() {
         console.log("Calculate BMR - 2012");
         e.preventDefault();
 
-        let formula = $("[name='bmr-formula']").val();
-        let gender = $("[name='gender']").val();
-        let age = Number($("[name='age']").val());
-        let weight = Number($("[name='weight']").val());
-        let height = Number($("[name='height']").val());
+      let formula = $("[name='bmr-formula']").val();
+      let gender = $("[name='gender']").val();
+      let age = Number($("[name='age']").val());
+      let weight = Number($("[name='weight']").val());
+      let height = Number($("[name='height']").val());
 
-        let b;
+      let b;
 
         if (height < 1) {
             formula = "nordic_2012";
@@ -1519,11 +1519,11 @@ $(function() {
         $("[name='bmr']").val(b.getBasicMetabolicRate().toFixed(0));
 
         if ($("input[name='pal']").length > 0) {
-            let pal = Number($("[name='pal']:checked").val());
-            let moderate_leisure_activity = Number($("[name='moderate_leisure_activity']").val());
-            let strenuous_leisure_activity = Number($("[name='strenuous_leisure_activity']").val());
+          let pal = Number($("[name='pal']:checked").val());
+          let moderate_leisure_activity = Number($("[name='moderate_leisure_activity']").val());
+          let strenuous_leisure_activity = Number($("[name='strenuous_leisure_activity']").val());
 
-            let tee = tee_pal.TotalEnergyExpenditurePAL(b.getBasicMetabolicRate(), pal, moderate_leisure_activity, strenuous_leisure_activity);
+          let tee = tee_pal.TotalEnergyExpenditurePAL(b.getBasicMetabolicRate(), pal, moderate_leisure_activity, strenuous_leisure_activity);
 
             $("[name='pal_calc']").val(tee.getPhysicalActivityLevel().toFixed(2));
             $("[name='tee']").val(tee.getTotalEnergyExpenditure().toFixed(0));
@@ -1533,11 +1533,11 @@ $(function() {
         console.log("Calculate CP Time");
         e.preventDefault();
 
-        let cp = Number($("[name='time_cp']").val());
-        let w = Number($("[name='time_w']").val());
-        let p = Number($("[name='time_p']").val());
+      let cp = Number($("[name='time_cp']").val());
+      let w = Number($("[name='time_w']").val());
+      let p = Number($("[name='time_p']").val());
 
-        let time = ((1000 * w) / (p - cp));
+      let time = ((1000 * w) / (p - cp));
 
         $("[name='time']").val(time.toFixed(0));
     });
@@ -1545,11 +1545,11 @@ $(function() {
         console.log("Calculate CP Power for time");
         e.preventDefault();
 
-        let cp = Number($("[name='power_time_cp']").val());
-        let w = Number($("[name='power_time_w']").val());
-        let t = Number($("[name='power_time_time']").val());
+      let cp = Number($("[name='power_time_cp']").val());
+      let w = Number($("[name='power_time_w']").val());
+      let t = Number($("[name='power_time_time']").val());
 
-        let p = ((1000 * w) / t) + cp;
+      let p = ((1000 * w) / t) + cp;
 
         $("[name='power_for_time']").val(p.toFixed(0));
     });
@@ -1557,9 +1557,9 @@ $(function() {
         console.log("Calculate Bruce");
         e.preventDefault();
 
-        let T = Number($("[name='bruce_time']").val());
+      let T = Number($("[name='bruce_time']").val());
 
-        let kondital = 14.8 - (1.379 * T) + (0.451 * Math.pow(T, 2)) - (0.012 * Math.pow(T, 3));
+      let kondital = 14.8 - (1.379 * T) + (0.451 * Math.pow(T, 2)) - (0.012 * Math.pow(T, 3));
 
         $("[name='bruce_kondital']").val(kondital.toFixed(0));
     });
@@ -1567,11 +1567,11 @@ $(function() {
         console.log("Calculate CP");
         e.preventDefault();
 
-        let p3 = Number($("[name='p3']").val());
-        let p12 = Number($("[name='p12']").val());
+      let p3 = Number($("[name='p3']").val());
+      let p12 = Number($("[name='p12']").val());
 
-        let cp = ((12 * p12) - (3 * p3)) / 9;
-        let w = 0.24 * (p3 - p12);
+      let cp = ((12 * p12) - (3 * p3)) / 9;
+      let w = 0.24 * (p3 - p12);
 
         $("[name='cp']").val(cp.toFixed(0));
         $("[name='w']").val(w.toFixed(0));
@@ -1581,13 +1581,13 @@ $(function() {
         console.log("Calculate Blood");
         e.preventDefault();
 
-        let formula = $("[name='bloodvolume-formula']").val();
-        let gender = $("[name='gender']").val();
-        let age = Number($("[name='age']").val());
-        let weight = Number($("[name='weight']").val());
-        let height = Number($("[name='height']").val());
+      let formula = $("[name='bloodvolume-formula']").val();
+      let gender = $("[name='gender']").val();
+      let age = Number($("[name='age']").val());
+      let weight = Number($("[name='weight']").val());
+      let height = Number($("[name='height']").val());
 
-        let b = blood.Blood(gender, age, weight, height);
+      let b = blood.Blood(gender, age, weight, height);
 
         $("[name='bloodvolume']").val(b.getVolume().toFixed(0));
     });
@@ -1595,23 +1595,23 @@ $(function() {
     $("#calculator_lung").submit(function(e) {
         console.log("Calculate Blood");
         e.preventDefault();
-        let gender = $("[name='gender']").val();
-        let age = Number($("[name='age']").val());
-        let height = Number($("[name='height']").val());
+      let gender = $("[name='gender']").val();
+      let age = Number($("[name='age']").val());
+      let height = Number($("[name='height']").val());
 
-        let b = lung.Lung(gender, height, age);
+      let b = lung.Lung(gender, height, age);
 
         $("[name='vital_capacity']").val(b.getVitalCapacity().toFixed(0));
     });
     $("#activity_intense, #activity_moderat, #activity_light, #activity_standing, #activity_sleeping").change(function(e) {
-        let min_day = 24 * 60;
-        let activity_intense = document.getElementById('activity_intense').value;
-        let activity_moderat = document.getElementById('activity_moderat').value;
-        let activity_light = document.getElementById('activity_light').value;
-        let activity_standing = document.getElementById('activity_standing').value;
-        let activity_sleeping = document.getElementById('activity_sleeping').value;
+      let min_day = 24 * 60;
+      let activity_intense = document.getElementById('activity_intense').value;
+      let activity_moderat = document.getElementById('activity_moderat').value;
+      let activity_light = document.getElementById('activity_light').value;
+      let activity_standing = document.getElementById('activity_standing').value;
+      let activity_sleeping = document.getElementById('activity_sleeping').value;
 
-        let activity_sitting = min_day - activity_intense - activity_moderat - activity_light - activity_standing - activity_sleeping;
+      let activity_sitting = min_day - activity_intense - activity_moderat - activity_light - activity_standing - activity_sleeping;
         $("[name='activity_sitting']").val(activity_sitting);
     });
     // Calculate BMR
@@ -1619,13 +1619,13 @@ $(function() {
         console.log("Calculate BMR - Advanced");
         e.preventDefault();
 
-        let formula = $("[name='bmr-formula']").val();
-        let gender = $("[name='sex']:checked").val();
-        let age = Number($("[name='age']").val());
-        let weight = Number($("[name='weight']").val());
-        let height = Number($("[name='height']").val());
+      let formula = $("[name='bmr-formula']").val();
+      let gender = $("[name='sex']:checked").val();
+      let age = Number($("[name='age']").val());
+      let weight = Number($("[name='weight']").val());
+      let height = Number($("[name='height']").val());
 
-        let b;
+      let b;
 
         if (formula == 'schofield') {
             b = schofield.BMRSchofield(gender, age, weight);
@@ -1635,61 +1635,61 @@ $(function() {
             b = ree.BMRNordicNutritionRecommendations2012(gender, age, weight, height);
         }
 
-        let basicMeta = b.getBasicMetabolicRate();
+      let basicMeta = b.getBasicMetabolicRate();
 
-        let min_day = 24 * 60;
-        let activity_intense = document.getElementById('activity_intense').value;
-        let activity_moderat = document.getElementById('activity_moderat').value;
-        let activity_light = document.getElementById('activity_light').value;
-        let activity_standing = document.getElementById('activity_standing').value;
-        let activity_sleeping = document.getElementById('activity_sleeping').value;
+      let min_day = 24 * 60;
+      let activity_intense = document.getElementById('activity_intense').value;
+      let activity_moderat = document.getElementById('activity_moderat').value;
+      let activity_light = document.getElementById('activity_light').value;
+      let activity_standing = document.getElementById('activity_standing').value;
+      let activity_sleeping = document.getElementById('activity_sleeping').value;
 
-        let activity_sitting = min_day - activity_intense - activity_moderat - activity_light - activity_standing - activity_sleeping;
+      let activity_sitting = min_day - activity_intense - activity_moderat - activity_light - activity_standing - activity_sleeping;
 
         // Estimated MET-values used
-        let met_intense = 10;
-        let met_moderat = 7;
-        let met_light = 4;
-        let met_standing = 2;
-        let met_sleeping = 0.9;
-        let met_sitting = 1.2;
+      let met_intense = 10;
+      let met_moderat = 7;
+      let met_light = 4;
+      let met_standing = 2;
+      let met_sleeping = 0.9;
+      let met_sitting = 1.2;
 
         /*
         // My own PAL calculation - there is no weight factor
-        let pal_intense = (met_intense * (activity_intense / 1440));
-        let pal_moderat = (met_moderat * (activity_moderat / 1440));
-        let pal_light = (met_light * (activity_light / 1440));
-        let pal_standing = (met_standing * (activity_standing / 1440));
-        let pal_sleeping = (met_sleeping * (activity_sleeping / 1440));
-        let pal_sitting = (met_sitting * (activity_sitting / 1440));
+      let pal_intense = (met_intense * (activity_intense / 1440));
+      let pal_moderat = (met_moderat * (activity_moderat / 1440));
+      let pal_light = (met_light * (activity_light / 1440));
+      let pal_standing = (met_standing * (activity_standing / 1440));
+      let pal_sleeping = (met_sleeping * (activity_sleeping / 1440));
+      let pal_sitting = (met_sitting * (activity_sitting / 1440));
 
-        let pal = pal_intense + pal_moderat + pal_light + pal_standing + pal_sleeping + pal_sitting;
+      let pal = pal_intense + pal_moderat + pal_light + pal_standing + pal_sleeping + pal_sitting;
         */
         /*
         // Calculate MET-energy
-        let met_energy_intense = weight * (met_intense * (activity_intense / 60));
-        let met_energy_moderat = weight * (met_moderat * (activity_moderat / 60));
-        let met_energy_light = weight * (met_light * (activity_light / 60));
-        let met_energy_standing = weight * (met_standing * (activity_standing / 60));
-        let met_energy_sitting = weight * (met_sitting * (activity_sitting / 60));
+      let met_energy_intense = weight * (met_intense * (activity_intense / 60));
+      let met_energy_moderat = weight * (met_moderat * (activity_moderat / 60));
+      let met_energy_light = weight * (met_light * (activity_light / 60));
+      let met_energy_standing = weight * (met_standing * (activity_standing / 60));
+      let met_energy_sitting = weight * (met_sitting * (activity_sitting / 60));
 
-        let met_energy = met_energy_intense + met_energy_moderat + met_energy_light + met_energy_standing + met_energy_sitting;
+      let met_energy = met_energy_intense + met_energy_moderat + met_energy_light + met_energy_standing + met_energy_sitting;
         */
 
         // Calculate PAL from Gerrior
-        let bmr_kcal = basicMeta / 4.2; // BMR is in kcal in formula
-        let pal_intense = ((met_intense - 1) * ((1.15 / 0.9) * activity_intense) / 1440) / (bmr_kcal / (0.0175 * 1440 * weight));
-        let pal_moderat = ((met_moderat - 1) * ((1.15 / 0.9) * activity_moderat) / 1440) / (bmr_kcal / (0.0175 * 1440 * weight));
-        let pal_light = ((met_light - 1) * ((1.15 / 0.9) * activity_light) / 1440) / (bmr_kcal / (0.0175 * 1440 * weight));
-        let pal_standing = ((met_standing - 1) * ((1.15 / 0.9) * activity_standing) / 1440) / (bmr_kcal / (0.0175 * 1440 * weight));
-        let pal_sleeping = ((met_sleeping - 1) * ((1.15 / 0.9) * activity_sleeping) / 1440) / (bmr_kcal / (0.0175 * 1440 * weight));
-        let pal_sitting = ((met_sitting - 1) * ((1.15 / 0.9) * activity_sitting) / 1440) / (bmr_kcal / (0.0175 * 1440 * weight));
-        let pal_gerrior = 1.1 + pal_intense + pal_moderat + pal_light + pal_standing + pal_sleeping + pal_sitting;
+      let bmr_kcal = basicMeta / 4.2; // BMR is in kcal in formula
+      let pal_intense = ((met_intense - 1) * ((1.15 / 0.9) * activity_intense) / 1440) / (bmr_kcal / (0.0175 * 1440 * weight));
+      let pal_moderat = ((met_moderat - 1) * ((1.15 / 0.9) * activity_moderat) / 1440) / (bmr_kcal / (0.0175 * 1440 * weight));
+      let pal_light = ((met_light - 1) * ((1.15 / 0.9) * activity_light) / 1440) / (bmr_kcal / (0.0175 * 1440 * weight));
+      let pal_standing = ((met_standing - 1) * ((1.15 / 0.9) * activity_standing) / 1440) / (bmr_kcal / (0.0175 * 1440 * weight));
+      let pal_sleeping = ((met_sleeping - 1) * ((1.15 / 0.9) * activity_sleeping) / 1440) / (bmr_kcal / (0.0175 * 1440 * weight));
+      let pal_sitting = ((met_sitting - 1) * ((1.15 / 0.9) * activity_sitting) / 1440) / (bmr_kcal / (0.0175 * 1440 * weight));
+      let pal_gerrior = 1.1 + pal_intense + pal_moderat + pal_light + pal_standing + pal_sleeping + pal_sitting;
 
         // Using Gerrior PAL calculations as constant
-        let activityConstant = pal_gerrior;
+      let activityConstant = pal_gerrior;
 
-        let vedligehold = basicMeta * activityConstant;
+      let vedligehold = basicMeta * activityConstant;
 
         $("[name='pal_gerrior']").val(pal_gerrior);
         $("[name='activity_sitting']").val(activity_sitting);
@@ -1702,12 +1702,12 @@ $(function() {
         console.log("Riegels formular");
         e.preventDefault();
 
-        let dist = Number($("[name='dist']").val());
-        let hours = Number($("[name='hours']").val());
-        let minutes = Number($("[name='minutes']").val());
-        let seconds = Number($("[name='seconds']").val());
+      let dist = Number($("[name='dist']").val());
+      let hours = Number($("[name='hours']").val());
+      let minutes = Number($("[name='minutes']").val());
+      let seconds = Number($("[name='seconds']").val());
 
-        let b = riegel.Riegel(dist, hours, minutes, seconds);
+      let b = riegel.Riegel(dist, hours, minutes, seconds);
 
         $("#results").html(b.getTableWithEndTimes());
     });
@@ -1716,14 +1716,14 @@ $(function() {
         console.log("Running time weight loss");
         e.preventDefault();
 
-        let weight = Number($("[name='weight']").val());
-        let weight_change = Number($("[name='change']").val());
-        let hours = Number($("[name='hours']").val());
-        let minutes = Number($("[name='minutes']").val());
-        let seconds = Number($("[name='seconds']").val());
-        let change_effect = Number($("[name='change_effect']").val());
+      let weight = Number($("[name='weight']").val());
+      let weight_change = Number($("[name='change']").val());
+      let hours = Number($("[name='hours']").val());
+      let minutes = Number($("[name='minutes']").val());
+      let seconds = Number($("[name='seconds']").val());
+      let change_effect = Number($("[name='change_effect']").val());
 
-        let b = running_weightchange.RunningWeightLoss(weight, weight_change, change_effect / 100);
+      let b = running_weightchange.RunningWeightLoss(weight, weight_change, change_effect / 100);
 
         $("#result").val(b.getEstimatedFinishTime(hours, minutes, seconds));
     });
@@ -1731,9 +1731,9 @@ $(function() {
     $("#calculator_vmax_bike_vmax").submit(function(e) {
         console.log("Calculate Vmax from VO2");
         e.preventDefault();
-        let vo2max = Number($("[name='vo2max']").val());
+      let vo2max = Number($("[name='vo2max']").val());
 
-        let b = vmax_bike.Vmax(vo2max);
+      let b = vmax_bike.Vmax(vo2max);
 
         $("[name='vmax']").val(b.getVmax());
     });
@@ -1742,15 +1742,15 @@ $(function() {
         console.log("Calculate Vmax for Biking");
         e.preventDefault();
 
-        let vmax = Number($("[name='biking_vmax_program']").val());
-        let tmax_min = Number($("[name='biking_tmax_min']").val());
-        let tmax_sec = Number($("[name='biking_tmax_sec']").val());
-        let warmup_percentage = Number($("[name='biking_warmup_percentage']").val());
-        let tmax_percentage = Number($("[name='biking_tmax_percentage']").val());
-        let vmax_pause_percentage = Number($("[name='biking_vmax_pause_percentage']").val());
-        let tmax_pause_percentage = Number($("[name='biking_tmax_pause_percentage']").val());
+      let vmax = Number($("[name='biking_vmax_program']").val());
+      let tmax_min = Number($("[name='biking_tmax_min']").val());
+      let tmax_sec = Number($("[name='biking_tmax_sec']").val());
+      let warmup_percentage = Number($("[name='biking_warmup_percentage']").val());
+      let tmax_percentage = Number($("[name='biking_tmax_percentage']").val());
+      let vmax_pause_percentage = Number($("[name='biking_vmax_pause_percentage']").val());
+      let tmax_pause_percentage = Number($("[name='biking_tmax_pause_percentage']").val());
 
-        let b = vmax_intervals.VmaxIntervals(vmax, tmax_min, tmax_sec);
+      let b = vmax_intervals.VmaxIntervals(vmax, tmax_min, tmax_sec);
 
         $("[name='biking_warmup_velocity']").val(b.getVelocity(warmup_percentage));
         $("[name='biking_vmax_program_value']").val(vmax);
@@ -1763,15 +1763,15 @@ $(function() {
         console.log("Calculate Vmax for Running");
         e.preventDefault();
 
-        let vmax = Number($("[name='running_vmax_program']").val());
-        let tmax_min = Number($("[name='running_tmax_min']").val());
-        let tmax_sec = Number($("[name='running_tmax_sec']").val());
-        let warmup_percentage = Number($("[name='running_warmup_percentage']").val());
-        let tmax_percentage = Number($("[name='running_tmax_percentage']").val());
-        let vmax_pause_percentage = Number($("[name='running_vmax_pause_percentage']").val());
-        let tmax_pause_percentage = Number($("[name='running_tmax_pause_percentage']").val());
+      let vmax = Number($("[name='running_vmax_program']").val());
+      let tmax_min = Number($("[name='running_tmax_min']").val());
+      let tmax_sec = Number($("[name='running_tmax_sec']").val());
+      let warmup_percentage = Number($("[name='running_warmup_percentage']").val());
+      let tmax_percentage = Number($("[name='running_tmax_percentage']").val());
+      let vmax_pause_percentage = Number($("[name='running_vmax_pause_percentage']").val());
+      let tmax_pause_percentage = Number($("[name='running_tmax_pause_percentage']").val());
 
-        let b = vmax_intervals.VmaxIntervals(vmax, tmax_min, tmax_sec);
+      let b = vmax_intervals.VmaxIntervals(vmax, tmax_min, tmax_sec);
 
         $("[name='running_warmup_velocity']").val(b.getVelocity(warmup_percentage));
         $("[name='running_vmax_program_value']").val(vmax);
@@ -1785,12 +1785,12 @@ $(function() {
         console.log("Calculate HR intensity HRR");
         e.preventDefault();
 
-        let hr_rest = Number($("[name='hr_rest']").val());
-        let max_hr = Number($("[name='hr_max']").val());
-        let hr_work = Number($("[name='hr_work']").val());
+      let hr_rest = Number($("[name='hr_rest']").val());
+      let max_hr = Number($("[name='hr_max']").val());
+      let hr_work = Number($("[name='hr_work']").val());
 
-        let hr = hr_intensity.HRIntensity(max_hr);
-        let result = hr.getHRIntensityFromHeartRateReserve(hr_rest, hr_work);
+      let hr = hr_intensity.HRIntensity(max_hr);
+      let result = hr.getHRIntensityFromHeartRateReserve(hr_rest, hr_work);
 
         $("[name='hrr_intensity']").val(result.toFixed(0));
     });
@@ -1799,12 +1799,12 @@ $(function() {
         console.log("Calculate HR work intensity HRR");
         e.preventDefault();
 
-        let hr_rest = Number($("[name='hr_rest_form2']").val());
-        let hr_max = Number($("[name='hr_max_form2']").val());
-        let hr_intensity = Number($("[name='intensity']").val());
+      let hr_rest = Number($("[name='hr_rest_form2']").val());
+      let hr_max = Number($("[name='hr_max_form2']").val());
+      let hr_intensity = Number($("[name='intensity']").val());
 
-        let hr = hr_intensity.HRIntensity(hr_max);
-        let result = hr.getHRBasedOnIntensityFromHeartRateReserve(hr_rest, hr_intensity);
+      let hr = hr_intensity.HRIntensity(hr_max);
+      let result = hr.getHRBasedOnIntensityFromHeartRateReserve(hr_rest, hr_intensity);
 
         $("[name='hrr_heartrate']").val(result.toFixed(0));
     });
@@ -1813,11 +1813,11 @@ $(function() {
         console.log("Calculate HR work intensity from HRmax");
         e.preventDefault();
 
-        let hr_work = Number($("[name='hr_work_form3']").val());
-        let hr_max = Number($("[name='hr_max_form3']").val());
+      let hr_work = Number($("[name='hr_work_form3']").val());
+      let hr_max = Number($("[name='hr_max_form3']").val());
 
-        let hr = hr_intensity.HRIntensity(hr_max);
-        let result = hr.getWorkIntensityBasedOnMaxHR(hr_work);
+      let hr = hr_intensity.HRIntensity(hr_max);
+      let result = hr.getWorkIntensityBasedOnMaxHR(hr_work);
 
         $("[name='intensity_form3']").val(result.toFixed(0));
     });
@@ -1826,12 +1826,12 @@ $(function() {
         console.log("Calculate YYIR1");
         e.preventDefault();
 
-        let gender = $("[name='sex']:checked").val();
-        let level = Number($("[name='level']").val());
-        let shuttles = Number($("[name='shuttles']").val());
-        let age = 10;
+      let gender = $("[name='sex']:checked").val();
+      let level = Number($("[name='level']").val());
+      let shuttles = Number($("[name='shuttles']").val());
+      let age = 10;
 
-        let b = yyir1.YYIR1(level, shuttles);
+      let b = yyir1.YYIR1(level, shuttles);
 
         $("[name='distance_result']").val(b.getDistance());
         $("[name='vo2max_result']").val(b.getFitnessLevel());
@@ -1842,11 +1842,11 @@ $(function() {
         console.log("Calculate YYIR1");
         e.preventDefault();
 
-        let version = $("[name='version']:checked").val();
-        let level = Number($("[name='level']").val());
-        let shuttles = Number($("[name='shuttles']").val());
+      let version = $("[name='version']:checked").val();
+      let level = Number($("[name='level']").val());
+      let shuttles = Number($("[name='shuttles']").val());
 
-        let b = beeptest.BeepTest(level, shuttles, version);
+      let b = beeptest.BeepTest(level, shuttles, version);
 
         $("[name='distance_result']").val(b.getDistance());
         $("[name='vo2max_result']").val(b.getFitnessLevel());
@@ -1857,11 +1857,11 @@ $(function() {
         console.log("Calculate Pushups");
         e.preventDefault();
 
-        let gender = $("[name='gender']:checked").val();
-        let age = Number($("[name='age']").val());
-        let repetitions = Number($("[name='repetitions']").val());
+      let gender = $("[name='gender']:checked").val();
+      let age = Number($("[name='age']").val());
+      let repetitions = Number($("[name='repetitions']").val());
 
-        let p = pushup.Pushup(gender, age, repetitions);
+      let p = pushup.Pushup(gender, age, repetitions);
 
         $("[name='population_average']").val(p.getPopulationAverage());
         $("[name='score']").val(p.getScore());
@@ -1872,11 +1872,11 @@ $(function() {
         console.log("Calculate Wilks Score");
         e.preventDefault();
 
-        let gender = $("[name='gender']:checked").val();
-        let bodyweight = Number($("[name='bodyweight']").val());
-        let lifted = Number($("[name='lifted']").val());
+      let gender = $("[name='gender']:checked").val();
+      let bodyweight = Number($("[name='bodyweight']").val());
+      let lifted = Number($("[name='lifted']").val());
 
-        let wilksScore = wilks.calculateWilksScore(gender, bodyweight, lifted);
+      let wilksScore = wilks.calculateWilksScore(gender, bodyweight, lifted);
 
         $("[name='wilksscore']").val(wilksScore.toFixed(1));
     });
@@ -1885,17 +1885,17 @@ $(function() {
         console.log("Calculate IPF Score");
         e.preventDefault();
 
-        let gender = $("[name='ipf_gender']:checked").val();
-        let bodyweight = Number($("[name='ipf_bodyweight']").val());
-        let lifted = Number($("[name='ipf_lifted']").val());
-        let event = $("[name='ipf_event']").val();
-        let equipment = $("[name='ipf_equipment']").val();
-        let age = Number($("[name='ipf_age']").val());
+      let gender = $("[name='ipf_gender']:checked").val();
+      let bodyweight = Number($("[name='ipf_bodyweight']").val());
+      let lifted = Number($("[name='ipf_lifted']").val());
+      let event = $("[name='ipf_event']").val();
+      let equipment = $("[name='ipf_equipment']").val();
+      let age = Number($("[name='ipf_age']").val());
 
-        let ipf_points = ipfpoints.IPFPoint(gender, bodyweight, lifted, event, equipment);
+      let ipf_points = ipfpoints.IPFPoint(gender, bodyweight, lifted, event, equipment);
 
-        let mc = mcculloch.McCulloch(age);
-        let age_adjusted;
+      let mc = mcculloch.McCulloch(age);
+      let age_adjusted;
         if (mc.getCoefficient() != "") {
             age_adjusted = ipf_points.getPoints() * mc.getCoefficient();
         } else {
@@ -1911,11 +1911,11 @@ $(function() {
         console.log("Calculate Karvonen Intensity Zones");
         e.preventDefault();
 
-        let min_hr = Number($("#karvonen_min_hr").val());
-        let max_hr = Number($("#karvonen_max_hr").val());
+      let min_hr = Number($("#karvonen_min_hr").val());
+      let max_hr = Number($("#karvonen_max_hr").val());
 
-        let k = karvonen.Karvonen(min_hr, max_hr);
-        let hrr = max_hr - min_hr;
+      let k = karvonen.Karvonen(min_hr, max_hr);
+      let hrr = max_hr - min_hr;
 
         $("#karvonen_zone1_a").val(k.getTargetHR(50));
         $("#karvonen_zone1_b").val(k.getTargetHR(60));
@@ -1933,7 +1933,7 @@ $(function() {
         console.log("Calculate Friel Intensity Zones");
         e.preventDefault();
 
-        let lthr = Number($("#friel_lthr").val());
+      let lthr = Number($("#friel_lthr").val());
 
         $("#friel_zone1_b").val((0.75 * lthr).toFixed(0));
         $("#friel_zone2_a").val((0.75 * lthr).toFixed(0));
@@ -1949,7 +1949,7 @@ $(function() {
         console.log("Calculate Maxhr Intensity Zones");
         e.preventDefault();
 
-        let maxhr = Number($("#maxhr_max_hr").val());
+      let maxhr = Number($("#maxhr_max_hr").val());
 
         $("#maxhr_zone1_a").val((0.65 * maxhr).toFixed(0));
         $("#maxhr_zone1_b").val((0.70 * maxhr).toFixed(0));
@@ -1966,15 +1966,15 @@ $(function() {
         console.log("Calculate Distance");
         e.preventDefault();
 
-        let hours = Number($("#tid_hours").val());
-        let min = Number($("#tid_min").val());
-        let sek = Number($("#tid_sek").val());
-        let distance = Number($("#distance").val());
+      let hours = Number($("#tid_hours").val());
+      let min = Number($("#tid_min").val());
+      let sek = Number($("#tid_sek").val());
+      let distance = Number($("#distance").val());
 
         min = min + (hours * 60);
         distance = distance / 1000;
 
-        let c = running_distance_vo2.RunningDistanceVO2();
+      let c = running_distance_vo2.RunningDistanceVO2();
 
         $("#kondital").val(c.getEstimatedFitnessLevel(min, sek, distance));
     });
@@ -1982,11 +1982,11 @@ $(function() {
         console.log("Calculate velocity");
         e.preventDefault();
 
-        let min = Number($("[name='min']").val());
-        let sec = Number($("[name='sec']").val());
-        let distance = Number($("[name='distance']").val());
+      let min = Number($("[name='min']").val());
+      let sec = Number($("[name='sec']").val());
+      let distance = Number($("[name='distance']").val());
 
-        let c = running.Running();
+      let c = running.Running();
 
         $("#velocity_kmt").val(c.getKilometersPrHour(min, sec, distance).toFixed(2));
         $("#velocity_ms").val(c.getMeterPerSecond(min, sec, distance).toFixed(2));
@@ -1996,11 +1996,11 @@ $(function() {
         console.log("Calculate distance");
         e.preventDefault();
 
-        let min = Number($("[name='dist_min']").val());
-        let sec = Number($("[name='dist_sec']").val());
-        let velocity = Number($("[name='dist_velocity']").val());
+      let min = Number($("[name='dist_min']").val());
+      let sec = Number($("[name='dist_sec']").val());
+      let velocity = Number($("[name='dist_velocity']").val());
 
-        let c = running.Running();
+      let c = running.Running();
 
         $("#dist_distance").val(c.getDistanceFromTimeAndVelocity(min, sec, velocity).toFixed(1));
     });
@@ -2008,15 +2008,15 @@ $(function() {
         console.log("Calculate time");
         e.preventDefault();
 
-        let distance = Number($("[name='time_distance']").val());
-        let velocity = Number($("[name='time_velocity']").val());
+      let distance = Number($("[name='time_distance']").val());
+      let velocity = Number($("[name='time_velocity']").val());
 
-        let c = running.Running();
+      let c = running.Running();
 
-        let time = c.getTimeFromDistanceAndVelocity(distance, velocity);
+      let time = c.getTimeFromDistanceAndVelocity(distance, velocity);
 
-        let min = Math.floor(time);
-        let sec = (time - min) * 60;
+      let min = Math.floor(time);
+      let sec = (time - min) * 60;
 
         $("[name='time_min']").val(min);
         $("[name='time_sec']").val(sec.toFixed(0));
@@ -2025,12 +2025,12 @@ $(function() {
         console.log("Calculate velocity");
         e.preventDefault();
 
-        let min = Number($("[name='min']").val());
-        let sec = Number($("[name='sec']").val());
-        let duration_min = Number($("[name='duration_min']").val());
-        let duration_sec = Number($("[name='duration_sec']").val());
+      let min = Number($("[name='min']").val());
+      let sec = Number($("[name='sec']").val());
+      let duration_min = Number($("[name='duration_min']").val());
+      let duration_sec = Number($("[name='duration_sec']").val());
 
-        let c = running.Running();
+      let c = running.Running();
 
         $("[name='distance_to_run']").val(c.convertMinPerKmToDistanceForDuration(min, sec, duration_min, duration_sec).toFixed(0));
     });
@@ -2038,9 +2038,9 @@ $(function() {
         console.log("Calculate velocity");
         e.preventDefault();
 
-        let kmt = Number($("[name='kmt']").val());
+      let kmt = Number($("[name='kmt']").val());
 
-        let c = running.Running();
+      let c = running.Running();
 
         $("#velocity_convert_minkm").val(c.convertKmtToMinPerKm(kmt));
     });
@@ -2048,10 +2048,10 @@ $(function() {
         console.log("Calculate velocity");
         e.preventDefault();
 
-        let min = Number($("[name='minkm_kmt_min']").val());
-        let sec = Number($("[name='minkm_kmt_sec']").val());
+      let min = Number($("[name='minkm_kmt_min']").val());
+      let sec = Number($("[name='minkm_kmt_sec']").val());
 
-        let c = running.Running();
+      let c = running.Running();
 
         $("#velocity_convert_kmt").val(c.convertMinPerKmToKmt(min, sec));
     });
@@ -2059,11 +2059,11 @@ $(function() {
         console.log("Calculate running economy");
         e.preventDefault();
 
-        let weight = Number($("[name='weight']").val());
-        let velocity = Number($("[name='velocity']").val());
-        let oxygenuptake = Number($("[name='oxygenuptake']").val());
+      let weight = Number($("[name='weight']").val());
+      let velocity = Number($("[name='velocity']").val());
+      let oxygenuptake = Number($("[name='oxygenuptake']").val());
 
-        let c = running_economy.RunningEconomy(weight, oxygenuptake);
+      let c = running_economy.RunningEconomy(weight, oxygenuptake);
 
         $("#running_economy").val(c.getRunningEconomy(velocity).toFixed(2));
     });
@@ -2071,10 +2071,10 @@ $(function() {
         console.log("Calculate oxygen uptake");
         e.preventDefault();
 
-        let weight = Number($("[name='fitness_weight']").val());
-        let oxygenuptake = Number($("[name='fitness_oxygenuptake']").val());
+      let weight = Number($("[name='fitness_weight']").val());
+      let oxygenuptake = Number($("[name='fitness_oxygenuptake']").val());
 
-        let c = running_economy.RunningEconomy(weight, oxygenuptake);
+      let c = running_economy.RunningEconomy(weight, oxygenuptake);
 
         $("#fitness_level").val(c.getFitnessLevel().toFixed(2));
     });
@@ -2083,10 +2083,10 @@ $(function() {
         console.log("Calculate CooperTest 2400");
         e.preventDefault();
 
-        let min = Number($("#tid_min").val());
-        let sek = Number($("#tid_sek").val());
+      let min = Number($("#tid_min").val());
+      let sek = Number($("#tid_sek").val());
 
-        let c = cooper_test.CooperRunning();
+      let c = cooper_test.CooperRunning();
 
         $("#kondital").val(c.getVO22400MeterTest(min, sek));
     });
@@ -2095,9 +2095,9 @@ $(function() {
         console.log("Calculate CooperTest");
         e.preventDefault();
 
-        let distance = Number($("#distance").val());
+      let distance = Number($("#distance").val());
 
-        let c = cooper_test.CooperRunning();
+      let c = cooper_test.CooperRunning();
 
         $("#kondital").val(c.getVO212MinTest(distance).toFixed(0));
     });
@@ -2105,10 +2105,10 @@ $(function() {
         console.log("Calculate Fat Energy Pct");
         e.preventDefault();
 
-        let kj = Number($("#kj").val());
-        let fat = Number($("#fat").val());
+      let kj = Number($("#kj").val());
+      let fat = Number($("#fat").val());
 
-        let c = fatenergypct.FatEnergyPct(kj, fat);
+      let c = fatenergypct.FatEnergyPct(kj, fat);
 
         $("#fat_energy_pct").val(c.getFatEnergyPct());
     });
@@ -2116,11 +2116,11 @@ $(function() {
         console.log("Calculate Waist");
         e.preventDefault();
 
-        let hip = Number($("#hip").val());
-        let waist = Number($("#waist").val());
-        let height = Number($("#height").val());
+      let hip = Number($("#hip").val());
+      let waist = Number($("#waist").val());
+      let height = Number($("#height").val());
 
-        let c = whr.WaistRatio();
+      let c = whr.WaistRatio();
 
         $("#whr").val(c.getWaistHipRatio(waist, hip).toFixed(2));
         $("#waistheightratio").val(c.getWaistHeightRatio(waist, height).toFixed(2));

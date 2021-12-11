@@ -11,7 +11,7 @@ motionsplan.SkinfoldPeterson = function(triceps, subscapularis, suprailiac, midt
   age = age;
 
   function getBMI() {
-    let hgt = height / 100;
+   let hgt = height / 100;
     return weight / (hgt * hgt);
   }
 
@@ -37,7 +37,7 @@ motionsplan.SkinfoldPeterson = function(triceps, subscapularis, suprailiac, midt
     return (weight - weight * getBodyFatPercent() / 100);
   }
 
-  var publicAPI = {
+  let publicAPI = {
     getFatFreeMass: getFatFreeMass,
     getBodyFatPercent: getBodyFatPercent,
     getSkinfoldSum : getSkinfoldSum

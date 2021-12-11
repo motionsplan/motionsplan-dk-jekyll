@@ -1,15 +1,12 @@
 let motionsplan = {}
 
 motionsplan.Index100 = function(lifted, body_weight) {
-  var lifted = lifted;
-  var body_weight = body_weight;
 
-  // time in minutes
-  function getIndex100(min, sek) {
+  function getIndex100() {
     return lifted * 986.63 / (1270.4 - 172970 * ((Math.pow(body_weight, -1.3925))));
   }
 
-  var publicAPI = {
+  let publicAPI = {
     getIndex100 : getIndex100
   };
 

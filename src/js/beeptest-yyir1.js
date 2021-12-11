@@ -1,9 +1,9 @@
 let motionsplan = {}
 
 motionsplan.YYIR1 = function(level, shuttles) {
-    var distTOTAL = [0, 0, 0, 0, 0, 40, 40, 40, 40, 80, 80, 120, 200, 320, 480, 800, 1120, 1440, 1760, 2080, 2400, 2720, 3040, 3360];
-    var distance = distTOTAL[level] + (shuttles * 40 - 40);
-    var calcval = (distance * 0.0084 + 36.4);
+   let distTOTAL = [0, 0, 0, 0, 0, 40, 40, 40, 40, 80, 80, 120, 200, 320, 480, 800, 1120, 1440, 1760, 2080, 2400, 2720, 3040, 3360];
+   let distance = distTOTAL[level] + (shuttles * 40 - 40);
+   let calcval = (distance * 0.0084 + 36.4);
 
     function getDistance() {
         return distance;
@@ -15,8 +15,8 @@ motionsplan.YYIR1 = function(level, shuttles) {
 
     // Age is not working at the moment in the calculator
     function getEvaluation(sex, age = 10) {
-        var ageGroup;
-        var normdistance = getDistance();
+       let ageGroup;
+       let normdistance = getDistance();
         if (age <= 25) {
             ageGroup = 0;
         }
@@ -37,7 +37,7 @@ motionsplan.YYIR1 = function(level, shuttles) {
         }
         if (sex == "male") {
 
-            var male = [
+           let male = [
                 [2400, 57, 52, 46, 42, 38],
                 [2000, 49, 43, 39, 36, 33],
                 [1520, 43, 39, 36, 32, 29],
@@ -70,7 +70,7 @@ motionsplan.YYIR1 = function(level, shuttles) {
         }
         else {
 
-            var female = [
+           let female = [
                 [1600, 53, 46, 41, 38, 33],
                 [1320, 45, 38, 34, 32, 28],
                 [1000, 39, 34, 31, 28, 25],
@@ -104,7 +104,7 @@ motionsplan.YYIR1 = function(level, shuttles) {
         }
     }
 
-    let publicAPI = {
+   let publicAPI = {
         getDistance: getDistance,
         getEvaluation: getEvaluation,
         getFitnessLevel: getFitnessLevel

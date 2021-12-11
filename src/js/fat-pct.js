@@ -12,14 +12,14 @@ motionsplan.CalculateFatPercent = function(h, w, a, gender) {
   }
 
   function getGallagher(ethniticity = "white") {
-    let age = a;
+   let age = a;
     if (isMale()) {
       sex = 1;
     } else {
       sex = 0;
     }
-    let asian = 0;
-    let afro = 0;
+   let asian = 0;
+   let afro = 0;
     if (ethniticity == 'asian') {
       asian = 1;
     } else if (ethniticity == "afro") {
@@ -33,7 +33,7 @@ motionsplan.CalculateFatPercent = function(h, w, a, gender) {
    * Evaluation of body fat estimated from body mass index, skinfolds and impedance. A comparative study
    */
   function getFatMass() {
-    var fm;
+   let fm;
     if (isMale()) {
       fm = 0.988 * getBMI() + 0.242 * w + 0.094 * a - 30.18;
     } else {
@@ -108,7 +108,7 @@ motionsplan.CalculateFatPercent = function(h, w, a, gender) {
     return false;
   }
 
-  var publicAPI = {
+  let publicAPI = {
     getBMI : getBMI,
     getFatMass: getFatMass,
     getHeitmann1990: getBodyFatPercentHeitmannBMIEquation,

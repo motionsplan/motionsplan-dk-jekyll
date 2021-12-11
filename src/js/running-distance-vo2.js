@@ -11,7 +11,7 @@ motionsplan.RunningDistanceVO2 = function() {
 
     // Based on https://www.researchgate.net/profile/Luc_Leger/publication/19712663_New_approaches_to_predict_VO2max_and_endurance_from_running_performances_The_Journal_of_sports_medicine_and_physical_fitness_27_4_401-409_1988/links/54f5fa880cf27d8ed71d235f/New-approaches-to-predict-VO2max-and-endurance-from-running-performances-The-Journal-of-sports-medicine-and-physical-fitness-27-4-401-409-1988.pdf
     function getEstimatedFitnessLevel(min, sec, km) {
-        var kmt = getKilometersPrHour(min, sec, km);
+       let kmt = getKilometersPrHour(min, sec, km);
         return 3.5 * getMETBasedOnKmAndKmt(km, kmt);
     }
 
@@ -48,7 +48,7 @@ motionsplan.RunningDistanceVO2 = function() {
         }
     }
 
-    var publicAPI = {
+   let publicAPI = {
         getEstimatedFitnessLevel: getEstimatedFitnessLevel,
         getKilometersPrHour: getKilometersPrHour,
         getMETBasedOnKmAndKmt: getMETBasedOnKmAndKmt
