@@ -12,9 +12,9 @@ motionsplan.BMIEvaluation = function(type, gender, age) {
     if (age < 18) {
       return getChildren(bmi);
     }
-    
+
     min = 10;
-    max = 40;
+    max = 35;
     optimum = 25;
 
     if (type == "nhanes") {
@@ -24,6 +24,8 @@ motionsplan.BMIEvaluation = function(type, gender, age) {
     return getWhoEvaluation(bmi);
   }
 
+  // Interpretation for children is low and high means the overweight status
+  // For adults it is low for underweight and high for overweight
   function getHigh() {
     return high;
   }
@@ -97,10 +99,6 @@ motionsplan.BMIEvaluation = function(type, gender, age) {
   }
 
   function getChildren(bmi) {
-
-    min = 2;
-    max = 22;
-    optimum = 18;
 
     if (gender == "male") {
       if (age==2.0) {
@@ -366,11 +364,17 @@ motionsplan.BMIEvaluation = function(type, gender, age) {
         low=24.85;
         high=29.84;
       }
+      // not used
       if (age==18.0) {
         low=25;
         high=30;
       }
     }
+
+    min = low - 10;
+    max = high + 3;
+    optimum = low - 1;
+
     if (bmi >= high) {
       return "Risiko for fedme";
     } else if (bmi >= low) {
