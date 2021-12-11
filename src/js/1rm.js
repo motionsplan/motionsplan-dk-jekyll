@@ -3,7 +3,7 @@ let motionsplan = {};
 motionsplan.Estimate1RM = function(weight, repetitions = 5) {
 
   function getBrzycki(rm = 1) {
-   let repmax = weight * (36 / (37 - repetitions));
+    let repmax = weight * (36 / (37 - repetitions));
     if (rm == 1) {
       return repmax;
     }
@@ -17,7 +17,7 @@ motionsplan.Estimate1RM = function(weight, repetitions = 5) {
     if (repetitions != 5) {
       throw Error('Reynolds only works with 5RM');
     }
-   let repmax;
+    let repmax;
     if (body_part == "lower") {
       repmax = (1.09703 * weight) + 14.2546;
     } else {
@@ -32,7 +32,7 @@ motionsplan.Estimate1RM = function(weight, repetitions = 5) {
    * from figure 3 instead for all calculations.
    */
   function getReynolds(body_part = "lower", rm = 1) {
-   let repmax = weight / getReynoldsPercent(body_part, repetitions) * 100;
+    let repmax = weight / getReynoldsPercent(body_part, repetitions) * 100;
     if (rm == 1) {
       return repmax;
     }
@@ -48,7 +48,7 @@ motionsplan.Estimate1RM = function(weight, repetitions = 5) {
   }
 
   function getEpley(rm = 1) {
-   let repmax = (1 + (0.0333 * repetitions)) * weight;
+    let repmax = (1 + (0.0333 * repetitions)) * weight;
     if (rm == 1) {
       return repmax;
     }
@@ -72,7 +72,7 @@ motionsplan.Estimate1RM = function(weight, repetitions = 5) {
    * McGlothin on Wikipedia
    */
   function getLander(rm = 1) {
-   let repmax = (100 * weight) / (101.3 - 2.67123 * repetitions);
+    let repmax = (100 * weight) / (101.3 - 2.67123 * repetitions);
     if (rm == 1) {
       return repmax;
     }
@@ -80,7 +80,7 @@ motionsplan.Estimate1RM = function(weight, repetitions = 5) {
   }
 
   function getLombardi(rm = 1) {
-   let repmax = weight * (Math.pow(repetitions, 0.1));
+    let repmax = weight * (Math.pow(repetitions, 0.1));
     if (rm == 1) {
       return repmax;
     }
@@ -88,7 +88,7 @@ motionsplan.Estimate1RM = function(weight, repetitions = 5) {
   }
 
   function getMayhew(rm = 1) {
-   let repmax = (100 * weight) / (52.2 + (41.9 * Math.exp(-0.055 * repetitions)));
+    let repmax = (100 * weight) / (52.2 + (41.9 * Math.exp(-0.055 * repetitions)));
     if (rm == 1) {
       return repmax;
     }
@@ -96,7 +96,7 @@ motionsplan.Estimate1RM = function(weight, repetitions = 5) {
   }
 
   function getOconnor(rm = 1) {
-   let repmax = weight * (1 + 0.025 * repetitions);
+    let repmax = weight * (1 + 0.025 * repetitions);
     if (rm == 1) {
       return repmax;
     }
@@ -104,7 +104,7 @@ motionsplan.Estimate1RM = function(weight, repetitions = 5) {
   }
 
   function getWathan(rm = 1) {
-   let repmax = (100 * weight) / (48.8 + (53.8 * Math.exp(-0.075 * repetitions)));
+    let repmax = (100 * weight) / (48.8 + (53.8 * Math.exp(-0.075 * repetitions)));
     if (rm == 1) {
       return repmax;
     }
@@ -112,7 +112,7 @@ motionsplan.Estimate1RM = function(weight, repetitions = 5) {
   }
 
   function getWendler(rm = 1) {
-   let repmax = weight * repetitions * 0.0333 + weight;
+    let repmax = weight * repetitions * 0.0333 + weight;
     if (rm == 1) {
       return repmax;
     }
