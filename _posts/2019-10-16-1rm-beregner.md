@@ -94,9 +94,9 @@ RM-værdierne kan altså bruges som et udgangspunkt for planlægningen af dine t
 
 ## Skema og tabel med RM-værdier
 
-Du kan bruge dette skema over RM-værdier til at estimere dine egne værdier. Hvis du have et endnu mere individualiseret bud på dine egne værdier, så kan du bruge rm-beregneren nedenunder:
+Du kan bruge dette skema over RM-værdier til at estimere dine egne værdier. Hvis du have et endnu mere individualiseret bud på dine egne værdier, så kan du bruge RM-beregneren nedenunder:
 
-{% include figure image_path="https://nucleus.dk/images/figurer/kroppen-i-fokus/103.jpg?i=450" caption="RM skema og tabel fra [Nucleus](https://nucleus.dk/component/productfiguremanager/figuregroup/?id=41:Figurer%2061-90)." alt="rm skema og tabel over 1rm max" %}
+{% include figure image_path="/assets/images/blog/rm-beregner-tabel-absolute.png" caption="RM skema og tabel baseret på Brzyckis formel til beregning af 1RM." alt="rm skema og tabel over 1rm max" %}
 
 ## Hvordan laver jeg min egen RM-test?
 
@@ -161,6 +161,8 @@ Alle de [følgende formler til at udregne 1RM](https://en.wikipedia.org/wiki/One
 - **r** er antallet reps eller gentagelser
 - **w** er den løftede vægt
 
+Epleys og Brzycki formler giver lignende resultater for 10RM, men ved færre end 10RM giver Epleys formel et lidt højere tal. Hvis en person fx løfter 100 kg for 10 reps, så vil den estimerede 1RM max være 133 kg. Hvis løfteren kun laver 6 reps, så estimerer Epley 1RM til at være 120 kg, mens Brzycki estimerer 1RM til at være 116 kg.
+
 <details markdown="1">
   <summary>Se Brzyckis formel til repetition maximum</summary>
 
@@ -170,9 +172,6 @@ Denne formel kaldes ofte **Brzyckis formel** efter dens skaber Matt Brzycki. For
 
 {% include math formula="RM=w\cdot{\frac{36}{37-r}}={\frac{w}{{\frac{37}{36}}-{\frac{1}{36}}r}}\approx{\frac{w}{1.0278-0.0278r}}" %}
 </details>
-
-
-Epleys og Brzycki formler giver lignende resultater for 10RM, men ved færre end 10RM giver Epleys formel et lidt højere tal. Hvis en person fx løfter 100 kg for 10 reps, så vil den estimerede 1RM max være 133 kg. Hvis løfteren kun laver 6 reps, så estimerer Epley 1RM til at være 120 kg, mens Brzycki estimerer 1RM til at være 116 kg.
 
 <details markdown="1">
   <summary>Se Epleys formel</summary>
@@ -226,7 +225,7 @@ Formlerne estimerer forskellige RM-vægte. Fælles for alle formlerne er, at de 
 
 [Wikipedia](https://en.wikipedia.org/wiki/One-repetition_maximum) viser en sammenligning mellem de enkelte formler, og hvordan de vil opføre sig med forskellige vægte og gentagelser.
 
-{% include figure image_path="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/One-repetition_maximum_chart.svg/780px-One-repetition_maximum_chart.svg.png" caption="Sammenligning af de forskellige RM-formler. Det er tydeligt at de begynder at adskille sig meget efter 10 reps. Det er tilrådeligt at holde sig under 10 reps, når du estimerer din 1RM" alt="Sammenligning af formler til udregning og beregning af 1RM. Kilde: [Wikipedia](https://en.wikipedia.org/wiki/One-repetition_maximum)." %}
+{% include figure image_path="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/One-repetition_maximum_chart.svg/780px-One-repetition_maximum_chart.svg.png" caption="Sammenligning af de forskellige RM-formler. Det er tydeligt at de begynder at adskille sig meget efter 10 reps. Det er tilrådeligt at holde sig under 10 reps, når du estimerer din 1RM. Kilde: [Wikipedia](https://en.wikipedia.org/wiki/One-repetition_maximum)." alt="Sammenligning af formler til 1RM beregner" %}
 
 ## Forbehold med RM-baserede træningsprogrammer
 
@@ -234,7 +233,7 @@ Hvis du fx gerne vil træne med 5 sæt og 5 reps, så kan man skrive i programme
 
 Derfor kan RM-begrebet bruges til at estimere, hvad man netop kan løfte en gang. Når man udregner sin 1RM, så kan man nemlig konstruere et procentbaseret træningsprogram baseret på det man maksimalt kan løfte. I mange træningsprogrammer starter man lidt mere konservativt ved fx at gange med en faktor (fx 0,9), så programmet ikke starter for hårdt ud.
 
-[Stærk med Jacob Beermann]({% link _posts/2019-03-10-staerk-traeningsprogram.md %}), Jim Wendlers 5/3/1, Starting Strength, [Texas Method]({% link _posts/2019-10-24-texas-method.md %}) er alle programmer, der forudsætter en viden om din 1RM for at komme i gang med programmet.
+[Stærk med Jacob Beermann]({% link _posts/2019-03-10-staerk-traeningsprogram.md %}), [Jim Wendlers 5/3/1](/wendler-531-styrketraeningsprogram/), [Starting Strength](/starting-strength-styrketraeningsprogram/), [Texas Method]({% link _posts/2019-10-24-texas-method.md %}) er alle programmer, der forudsætter en viden om din 1RM for at komme i gang med programmet.
 
 ## RM ud fra _bar speed_
 
