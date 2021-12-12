@@ -1,7 +1,7 @@
 ---
 title: &title "Restitution og restitutionstid: Hvornår kan jeg træne igen?"
 seo_title: "Restitution: Hvordan bliver jeg hurtigst klar til træning?"
-excerpt: "Jeg kan godt lide at træne, men jeg vil stadig gerne gøre det så effektivt som muligt, så jeg også tager højde for restitutionstiden. Hvis jeg gerne vil bygge kroppen op, skal jeg finde en balance mellem træningen og restitutionen. Defor tænker jeg over, hvordan jeg planlægger min træning i forhold til min alder."
+excerpt: "Jeg kan godt lide at træne, men jeg vil stadig gerne gøre det så effektivt som muligt, så jeg også tager højde for restitutionstiden. Hvis jeg gerne vil bygge kroppen op, skal jeg finde en balance mellem træningen og restitution. Defor tænker jeg over, hvordan jeg planlægger min træning i forhold til min alder."
 permalink: /restitutionstid-og-alder/
 redirect_from:
   - /artikel/restitution-hvordan-bliver-jeg-hurtigst-klar-igen/
@@ -154,14 +154,14 @@ Helt grundlæggende kan du forbedre restitutionstiden og blive hurtigere klar ti
 Ud over de helt grundlæggende forudsætninger for at forbedre restitutionen, så arbejder folk også med følgende.
 
 - **Aktiv hvile**. Aktiv hvile arbejder du med relativt lav intensitet i fx 10-20 minutter. Det kan være med til at forbedre restitutionsprocesserne.
-- **Udspænding** Tilsyneladende virker udspænding ikke på restitutionstiden - og udspænding [forhindrer heller ikke andendagsømhed](/artikel/du-bliver-smidigere-af-straekke). Til gengæld hjælper det på _range of motion_ og bevægeligheden.
-- **Kompressiontøj** Noget tyder på at kompressionstøj kan være med til at forbedre restitutionen, hvis du beholder det på efter træningen - i hvert fald i 30 minutter. Jeg har tidligere skrevet lidt om [kompressionsstrømper](/artikel/kompressionsstroemper-en-god-ide).
-- **Cold Water Immersion (CWI)**. Træning nedbryder kroppen og laver små mikroskader. Ideen med kryoterapi er at kulde skal være med til at booste helingsprocessen. Den mest brugte metode er _Cold Water Immersion (CWI)_, hvor du sænker hele kroppen ned i vand. Noget tyder på at [kolde afvaskninger måske kan hjælpe på restitutionstiden](/artikel/kolde-afvaskninger-er-det-god-restitution). Det kræver imidlertid den rigtige vandtemperatur, som ifølge Versey et al. (2013) kunne ligge mellem 10 og 15 grader.
+- **Udspænding** Tilsyneladende virker udspænding ikke på restitutionstiden - og udspænding [forhindrer heller ikke andendagsømhed](/udstraekning-udspaending/). Til gengæld hjælper det på _range of motion_ og bevægeligheden.
+- **Kompressiontøj** Noget tyder på at kompressionstøj kan være med til at forbedre restitutionen, hvis du beholder det på efter træningen - i hvert fald i 30 minutter. Jeg har tidligere skrevet lidt om [kompressionsstrømper](/kompressionsstroemper-restitution-praestation-bivirkninger/).
+- **Cold Water Immersion (CWI)**. Træning nedbryder kroppen og laver små mikroskader. Ideen med kryoterapi er at kulde skal være med til at booste helingsprocessen. Den mest brugte metode er _Cold Water Immersion (CWI)_, hvor du sænker hele kroppen ned i vand. Noget tyder på at [kolde afvaskninger måske kan hjælpe på restitutionstiden](/isbad-og-kryoterapi/). Det kræver imidlertid den rigtige vandtemperatur, som ifølge Versey et al. (2013) kunne ligge mellem 10 og 15 grader.
 - **Massage**. Massage er virkelig behageligt - og teoretisk set bør det være med til at afslappe musklerne. Det har så vidt jeg ved ikke kunnet påvises, at det forbedrer restitutionstiden.
 
 Du kan også lade dig inspirere af Team Danmarks restitutionskoncept.
 
-{% include figure image_path="https://www.teamdanmark.dk/media/1251/49460-restitutionskoncept-plakater-a0.jpg" caption="Team Danmarks restitutionskoncept baserer sig på aktiv restitution, ernæringsmæssig restitution og passiv restitution - [via](https://www.teamdanmark.dk/traen-som-en-atlet/restitution)" %}
+{% include figure image_path="https://www.teamdanmark.dk/media/1251/49460-restitutionskoncept-plakater-a0.jpg" caption="Team Danmarks restitutionskoncept baserer sig på aktiv restitution, ernæringsmæssig restitution og passiv. Kilde: [Team Danmark](https://www.teamdanmark.dk/traen-som-en-atlet/restitution)" %}
 
 ## Hvordan ved jeg, om jeg er klar igen?
 
@@ -210,11 +210,11 @@ I Form anbefaler også at spise sig fri af betændelsestilstande i kroppen, som 
 
 Nedvarmning sørger for at affaldsstofferne bliver fjernet fra musklerne. Vi leder i øjeblikket efter studier, der kan dokumentere dette.
 
-Udspænding kan godt være en del af nedvarmningen, men hvis man kun har tid til den ene ting, skal man vælge nedvarmningen. I øvrigt e [udspænding et kontroversielt emne, som vi tidligere har behandlet](/artikel/du-bliver-smidigere-af-straekke). I Form påstår: "Undersøgelser peger på, at du ved at strække ud et par timer efter træning kan nedsætte muskelstivhed og ømhed." Den undersøgelse vil vi gerne se, så vi kan kvalificere vores gode råd endnu mere. Er der nogen af jer, der har set den?
+Udspænding kan godt være en del af nedvarmningen, men hvis man kun har tid til den ene ting, skal man vælge nedvarmningen. I øvrigt e [udspænding et kontroversielt emne, som vi tidligere har behandlet](/udstraekning-udspaending/). I Form påstår: "Undersøgelser peger på, at du ved at strække ud et par timer efter træning kan nedsætte muskelstivhed og ømhed." Den undersøgelse vil vi gerne se, så vi kan kvalificere vores gode råd endnu mere. Er der nogen af jer, der har set den?
 
 ## Brug kompressionsstrømper til din restitution
 
-Det ser ud til at [kompressionsstrømper kan være en god ide](/artikel/kompressionsstroemper-en-god-ide), når du vil forbedre din restitution og undgå anden-dags-ømhed.
+Det ser ud til at [kompressionsstrømper kan være en god ide](/kompressionsstroemper-restitution-praestation-bivirkninger/), når du vil forbedre din restitution og undgå anden-dags-ømhed.
 
 ## Øvrige forslag til restitution - kan I hjælpe?
 
