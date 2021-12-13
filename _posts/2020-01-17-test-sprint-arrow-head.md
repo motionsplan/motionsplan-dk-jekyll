@@ -63,6 +63,10 @@ Du kan arbejde med din eksplosivitet og teknikken ved retningsskift for at blive
 
 ## Referencer
 
+<details markdown="1">
+  <summary>Se referencer</summary>
+
 - [Topendsports.com](https://www.topendsports.com/testing/tests/arrowhead-agility-drill.htm)
 - Muniroglu, Surhat, og Erdem Subak. 2018. “[A Comparison of 5, 10, 30 Meters Sprint, Modified T-Test, Arrowhead and Illinois Agility Tests on Football Referees](https://files.eric.ed.gov/fulltext/EJ1182624.pdf)”. _Journal of Education and Training Studies_ 6 (8): 70. [https://doi.org/10.11114/jets.v6i8.3360](https://doi.org/10.11114/jets.v6i8.3360).
 - Rago, Vincenzo, João Brito, Pedro Figueiredo, Georgios Ermidis, Daniel Barreira, og António Rebelo. 2020. “The Arrowhead Agility Test: Reliability, Minimum Detectable Change, and Practical Applications in Soccer Players”. _Journal of Strength and Conditioning Research_ 34 (2): 483–94. [https://doi.org/10.1519/JSC.0000000000002987](https://doi.org/10.1519/JSC.0000000000002987).
+</details>
