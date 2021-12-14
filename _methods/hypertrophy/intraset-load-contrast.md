@@ -15,10 +15,13 @@ progress:
 effect: ""
 video:
   provider: youtube
-  id: pyvfx1pUcO8
+  id: W2UKFibTudg
 ---
 
 {{ page.excerpt }}
+
+
+{% comment %}
 
 This method takes advantage of the "potentiation effect" of heavy lifting. By doing a heavy lift first, you excite the nervous system and neuromuscular junctions and turn on more muscle fibers. If you immediately switch to hypertrophy work using the same movement pattern, you'll keep more fibers active and stimulate more growth.
 
@@ -33,5 +36,7 @@ Use two different loads for each set. Load the bar with 75% of your maximum. The
 - Take the lighter weight and perform as many good, non-cheating reps as you can. It should fall between 7 and 10. If you can get more than 10, increase the weight slightly.
 
 This method will build a lot of muscle mass. It'll also get you used to handling bigger weights which will translate into maximum strength gains, too. Although this method can be used with any exercise, it's better suited to bigger lifts like squat, bench press, overhead press, row, etc.
+
+{% endcomment %}
 
 Læs mere om [metoder til hypertrofi](/hypertrofi-metoder/).

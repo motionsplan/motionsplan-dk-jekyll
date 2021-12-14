@@ -15,10 +15,12 @@ progress:
 effect: ""
 video:
   provider: youtube
-  id: pyvfx1pUcO8
+  id: _QXIVNjdDO4
 ---
 
 {{ page.excerpt }}
+
+{% comment %}
 
 This method is especially effective with compound movements, particularly those with a longer range of motion. It works great with the bench press, squat, and even deadlift. It can also be used successfully with exercises like curls (especially cable curls), triceps pushdowns, leg curls, leg extensions, hack squats, and leg presses. It doesn't work as well with overhead work or pulling exercises.
 
@@ -39,5 +41,7 @@ You start the exercise by doing a full range of motion. You do reps until you're
 - Lateral Raise or Front Raise: Full reps, then lower half reps, then quarter reps
 
 This method also allows you to use a decent amount of weight. For a very effective hypertrophy/strength building combo, use a weight you can lift for 4-6 full reps before reverting to partial reps. For just size gains, use a weight you can lift 8-10 times.
+
+{% endcomment %}
 
 Læs mere om [metoder til hypertrofi](/hypertrofi-metoder/).

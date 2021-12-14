@@ -20,6 +20,8 @@ video:
 
 {{ page.excerpt }}
 
+{% comment %}
+
 And now for something completely different! Isometric training is an extremely powerful training method that you can use to spur on additional muscle growth.
 
 However, if you are like most trainees I am willing to bet that you have never intentionally used isometric methods in your own program design.
@@ -108,3 +110,5 @@ In my experience the upper back and biceps respond extremely well to yielding is
 {% if page.video %}
   {% include video provider=page.video.provider id=page.video.id %}
 {% endif %}
+
+{% endcomment %}

@@ -15,10 +15,13 @@ progress:
 effect: ""
 video:
   provider: youtube
-  id: _P1LcWWpcPg
+  id: R0jidWxPeVM
 ---
 
 {{ page.excerpt }}
+
+
+{% comment %}
 
 This method is spectacularly effective when it comes to bringing up weak points, especially if you have a bad mind-muscle connection with that muscle. Having a bad mind-muscle connection is one of the main reasons for a lagging muscle group. This method is very simple and effective, but painful.
 
@@ -43,6 +46,8 @@ During the 30-second hold, make a voluntary effort to contract and squeeze the t
 - Leg Curl: Hold at mid-range
 - Lateral or Front Raise: Hold just short of contracted position, right below shoulders to avoid engaging traps
 - Cable or Swiss Ball Crunch: Hold at contracted position
+
+{% endcomment %}
 
 {% if page.video %}
   {% include video provider=page.video.provider id=page.video.id %}

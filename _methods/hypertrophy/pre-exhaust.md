@@ -15,7 +15,7 @@ progress:
 effect: ""
 video:
   provider: youtube
-  id: _P1LcWWpcPg
+  id: TTFVRdBXUsg
 ---
 
 {{ page.excerpt }}
@@ -28,6 +28,17 @@ Et eksempel kan være at vi vil ramme triceps.
 - A2) Smal bænkpres x6 @ RPE 9
 
 Du udmatter triceps i isolationsøvelsen, men kan stadig aktivere den i den smalle bækpres, fordi flere muskelgrupper hjælper til i flerledsøvelsen.
+
+{% comment %}
+
+Et supersæt er ofte et udtryk for, at du udfører et sæt af én øvelse – og dernæst et sæt af en anden øvelse til en muskel, der arbejder ’modsat’. Klassiske eksempler tæller supersets mellem ryg og bryst; eller imellem biceps og triceps.
+Supersæt i den klassiske forstand er meget udbredte i træningsverdenen; og med rette, for det er en god måde at træne mere effektivt på. Men du kan også vælge at supersætte øvelser til samme muskelgruppe, med henblik på øget volumen, muskulær udmattelse og muskelvækst.
+I et pre-exhaust supersæt udfører du først en isolationsøvelse og dernæst en flerledsøvelse, der involverer samme muskelgruppe som arbejdede i isolationsøvelsen. Det kunne se sådan her ud;
+A1) Triceps extension x10
+A2) Smalt Bænkpres x6
+Ideen er, at du udtrætter den specifikke muskel ved hjælp af isolationsøvelsen, for dernæst at øge graden af udmattelse endnu mere ved hjælp af en flerledsøvelse. Det kan i praksis lade sig gøre, da flerledsøvelsen involverer andre muskelgrupper også, som hjælper til at flytte vægten.
+Det betyder med andre ord, at du kan udtrætte specifikke muskelgrupper rigtigt meget, ved at supersætte en isolationsøvelse med en flerledsøvelse. Har du nogle muskelgrupper, der halter bagefter – så er det bestemt en effektiv teknik til at udvikle dem endnu mere!
+
 
 Use an isolation movement to ‘pre-exhaust’ a particular muscle group, before performing a more compound exercise straight afterwards.  In other words a same muscle group super-set.  So A1 might be a dumbbell chest flye for a set of 15 reps which will preexhaust the pectorals muscles prior to performing A2 which could be a heavy flat bench dumbbell press.  These are typically used when there is a lagging muscle group which the trainee wants to bring up, or when a trainee has trouble feeling a muscle working or activating it sufficiently. 
 
@@ -50,3 +61,5 @@ When doing the bench press after the elbow extension, the triceps brachii are al
 {% if page.video %}
   {% include video provider=page.video.provider id=page.video.id %}
 {% endif %}
+
+{% endcomment %}

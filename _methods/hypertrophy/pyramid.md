@@ -13,9 +13,6 @@ howto:
 exercises: ""
 progress:
 effect: ""
-video:
-  provider: youtube
-  id: _P1LcWWpcPg
 ---
 
 {{ page.excerpt }}

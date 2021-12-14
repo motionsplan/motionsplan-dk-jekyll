@@ -69,7 +69,7 @@ mTor er vigtig i forhold til at sætte gang i proteinsyntesen, som skal få musk
 
 - Først laver du to almindelige sæt med 2x6 @ RPE 9.
 - I tredje sæt sænker du en vægten langsomt over 5 sekunder, mens du spænder musklerne alt hvad du kan hele tiden.
-- Du holder den fulde stræk position i so sekunder.
+- Du holder den fulde strækposition i to sekunder.
 - Lav 6-8 gentagelser på denne måde - og på den sidste rep holder du strækpositionen så længe du kan tolerere.
 
 ## Agonist supersæt
