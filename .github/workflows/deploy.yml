@@ -60,7 +60,6 @@ jobs:
       - name: 🔨 Build site
         run: |
           JEKYLL_ENV=production bundle exec jekyll build --trace --verbose --lsi
-          npm run build:js
       - name: 🔨 Test calculations JS
         run: |
           npm run test
