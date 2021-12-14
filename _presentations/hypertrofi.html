@@ -1,10 +1,10 @@
 ---
 layout: webslides
-title: Træningsmetoder
+title: Metoder til hypertrofi
 ---
 <section class="bg-black aligncenter">
   <!-- Overlay/Opacity: [class*="bg-"] > .background.dark or .light -->
-  <span class="background" style="background-image:url('https://source.unsplash.com/CFrOp9YBhkw/')"></span>
+  <span class="background" style="background-image:url('https://images.unsplash.com/photo-1605296867424-35fc25c9212a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80')"></span>
   <div class="wrap">
     <h1 class="text-landing text-shadow"><strong>{{ page.title }}</strong></h1>
 <p class="text-landing text-shadow text-intro aligncenter">Læs mere på motionsplan.dk</p>
@@ -35,7 +35,7 @@ title: Træningsmetoder
     </div>
   </footer>
 </section>
-{% assign posts = site.methods | where: "tags", "conditioning" %}
+{% assign posts = site.methods | where: "tags", "hypertrofi" %}
 {% comment %}
 <section>
   <div class="wrap">
@@ -54,6 +54,34 @@ title: Træningsmetoder
 </section>
 {% endcomment %}
 {% for m in posts %}
+<section class="bg-black aligncenter">
+  <!-- Overlay/Opacity: [class*="bg-"] > .background.dark or .light -->
+  <span class="background" style="background-image:url('https://images.unsplash.com/photo-1605296867424-35fc25c9212a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1900&q=80')"></span>
+  <div class="wrap">
+    <h1 class="text-landing text-shadow"><strong>{{ m.title }}</strong></h1>
+<p class="text-landing text-shadow text-intro aligncenter">Læs mere på motionsplan.dk</p>
+<figure>
+  <img class="aligncenter" src="https://chart.googleapis.com/chart?cht=qr&chs=250x250&chl={{ m.url | absolute_url }}?utm_source=webslides_hypertrophy&utm_medium=qrcode&utm_campaign=website" alt="{{ m.title }}">
+</figure>
+  </div>
+  <footer>
+    <div class="wrap">
+      <p>
+        <span class="alignleft"> <a href="#" title="{{ site.name }}">
+        <img src="{{ 'android-chrome-192x192.png' | relative_url }}" alt="{{ site.name }}">
+        </a></span>
+        {% comment %}
+        <span class="alignright">
+        <a href="#" class="badge-ios" title="iOS App">iOS app</a>
+        <a href="#" class="badge-android" title="Android app">Android app</a>
+        </span>
+        {% endcomment %}
+      </p>
+    </div>
+  </footer>
+</section>
+
+{% comment %}
 <section>
   <div class="wrap">
     <div class="grid vertical-align">
@@ -168,4 +196,5 @@ title: Træningsmetoder
   </div>
 </section>
 {% endif %}
+{% endcomment %}
 {% endfor %}

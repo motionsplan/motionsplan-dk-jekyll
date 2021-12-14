@@ -60,8 +60,8 @@ Du kan både bruge waves til maksimal styrke og hypertrofi. Hvis du gerne vil br
 
 Et eksempel kan være en squat.
 
-- 1. wave: x12 @8, x10 @8, x8 @8
-- 2. wave: x12, x10, x8 (hæv vægten alt efter overskud)
+- 1\. wave: x12 @8, x10 @8, x8 @8
+- 2\. wave: x12, x10, x8 (hæv vægten alt efter overskud)
 
 ## Maximum mTor-activation
 
