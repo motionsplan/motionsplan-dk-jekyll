@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Antagonist supersæt"
+title: "Myoreps"
 excerpt: ""
 tags:
   - hypertrofi

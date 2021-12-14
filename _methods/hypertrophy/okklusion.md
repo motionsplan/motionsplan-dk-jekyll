@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Antagonist supersæt"
+title: "Okklusion"
 excerpt: ""
 tags:
   - hypertrofi

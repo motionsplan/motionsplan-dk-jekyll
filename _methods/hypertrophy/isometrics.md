@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Antagonist supersæt"
+title: "Isometrisk træning"
 excerpt: ""
 tags:
   - hypertrofi

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Antagonist supersæt"
+title: "Cluster"
 excerpt: ""
 tags:
   - hypertrofi
@@ -19,6 +19,8 @@ video:
 ---
 
 {{ page.excerpt }}
+
+{% include figure image_path="https://coffeeordie.com/wp-content/uploads/2020/02/COD_ClusterSets_Horizontal_v01-1536x1024.jpg" caption="Kilde: [coffeeordie.com](https://coffeeordie.com/cluster-sets/)." %}
 
 {% if page.video %}
   {% include video provider=page.video.provider id=page.video.id %}
