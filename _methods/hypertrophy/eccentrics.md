@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Antagonist supersæt"
+title: "Excentriske reps"
 excerpt: ""
 tags:
   - hypertrofi

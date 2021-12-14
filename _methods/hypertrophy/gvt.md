@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Antagonist supersæt"
+title: "German Volume Training (GVT)"
 excerpt: ""
 tags:
   - hypertrofi
