@@ -15,7 +15,7 @@ progress:
 effect: ""
 video:
   provider: youtube
-  id: _P1LcWWpcPg
+  id: A97JrDdWXXg
 ---
 
 {{ page.excerpt }}

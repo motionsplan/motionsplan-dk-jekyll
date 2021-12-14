@@ -15,7 +15,7 @@ progress:
 effect: ""
 video:
   provider: youtube
-  id: _P1LcWWpcPg
+  id: GeiZKG5Bs8s
 ---
 
 {{ page.excerpt }}
@@ -26,6 +26,10 @@ mTor er vigtig i forhold til at sætte gang i proteinsyntesen, som skal få musk
 - I tredje sæt sænker du en vægten langsomt over 5 sekunder, mens du spænder musklerne alt hvad du kan hele tiden.
 - Du holder den fulde stræk position i so sekunder.
 - Lav 6-8 gentagelser på denne måde - og på den sidste rep holder du strækpositionen så længe du kan tolerere.
+
+Ex Preacher Curl, Cable Crossover, Neutral Grip Cable Seated Row, Leg Press, Lying Dumbell Triceps Extension
+
+**Howto:** 2 sets of 6 and one maximum mTor activation set
 
 {% if page.video %}
   {% include video provider=page.video.provider id=page.video.id %}

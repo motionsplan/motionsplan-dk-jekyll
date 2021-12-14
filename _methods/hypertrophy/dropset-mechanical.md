@@ -15,10 +15,24 @@ progress:
 effect: ""
 video:
   provider: youtube
-  id: _P1LcWWpcPg
+  id: k4A2gqEixBY
 ---
 
 {{ page.excerpt }}
+
+Et alternativ til det klassiske drop-set, er noget man kalder for mekaniske drop-sets. Hvor du i det klassiske drop-set sænker vægten med henblik på at udtrætte muskulaturen igennem et længerevarende sæt – så ændrer du i et mekanisk drop-set på øvelsens ’hårdhed’. Sagt på en anden måde, når du rammer failure i en given øvelse – så fortsætter du med at udføre gentagelser med samme vægt i en anden øvelser der minder om, men som du normalvis kan flytte mere vægt i.
+
+- A1) Spider curls 20 kg x8
+- A2) Preacher curls 20 kg x8
+- A3) BB Curls 20kg x8
+
+Som du nok kan se, så udføres alle øvelser med samme vægt – men når du rammer failure (eller tæt på) i én øvelse, så forsætter du dit mekaniske drop-set i en anden øvelse, der som udgangspunkt er lettere at udføre.
+
+Det er en meget krævende teknik, men til gengæld også en teknik, der udmatter og udtrætter din muskulatur rigtigt meget = øget muskelmasse.
+
+
+{% comment %}
+
 
 This is based on the same principle as drop sets: once you hit failure on an exercise, you find a way to continue doing work. With drop sets you reduce the weight so you can get more reps in. With mechanical drop sets you keep the SAME weight on the bar or machine but you change the exercise slightly so that you gain a mechanical advantage and can continue while working the same muscles.
 
@@ -41,3 +55,9 @@ Select a load that you can get 6-8 reps with on the first exercise. Take each of
 - Pulling Muscles: Pull-up, then chin-up, then pull-up with neutral grip. Use a resistance band if necessary.
 - Overall Arm Flexors: Reverse-grip dumbbell preacher curl, then supinated grip, then hammer grip
 - Biceps: 90-degree preacher curl, then 45-degree preacher curl, then standing barbell curl (see photo)
+
+
+{% endcomment %}
+
+
+Læs mere om [metoder til hypertrofi](/hypertrofi-metoder/).

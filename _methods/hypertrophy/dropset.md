@@ -15,7 +15,7 @@ progress:
 effect: ""
 video:
   provider: youtube
-  id: _P1LcWWpcPg
+  id: b1QsrqM7fTo
 ---
 
 {{ page.excerpt }}
@@ -30,6 +30,18 @@ Fx kan du lave et 6 - 8 - 10 dropset.
 - Drop vægten øjeblikkeligt med 25-40% og lav 8 reps med den nye vægt.
 - Drop igen vægten med 25-40% og lav 10 reps mere.
 
+Ex Triceps extension, dumbbell hammer curl, incline bench press or incline dumbbell press
+Usage: 2 sets of 6 and one 6-8-10 dropset
+
+{% comment %}
+Start the set with a weight you can lift for 6 reps.
+Drop the weight down immediately by 25-40% (depending on the exercise) and do 8 reps with that new weight.
+Drop another 25-40% and perform 10 more reps.
+Rest as little as possible between the parts of the drop set. Only perform one set of this special technique/method.
+Ex Triceps extension, dumbbell hammer curl, incline bench press or incline dumbbell press
+Usage: 2 sets of 6 and one 6-8-10 dropset
+
+
 Drop sets are probably the most well-researched advanced technique. The method involves doing multiple sets to failure immediately after one another, without taking any rest between sets. 
 
 This is accomplished by reducing the weight on the bar for each set.
@@ -42,6 +54,10 @@ Since drop sets are normally performed with moderate loads, each set should invo
 Short rest periods probably reduce hypertrophy by either (1) allowing lifters to do subsequent sets before central nervous system fatigue has dissipated, or by (2) triggering greater central nervous system fatigue through either greater aerobic demand or afferent feedback. Since all of these factors are likely also produced by drop sets, it remains mysterious why they are not less effective than the same number of conventional sets to failure.
 
 Ultimately, it seems that drop sets allow the same number of stimulating reps to be accomplished in a shorter amount of time. This may be advantageous for advanced bodybuilders who struggle to fit their target training volume into a workout.
+
+
+{% endcomment %}
+
 
 {% if page.video %}
   {% include video provider=page.video.provider id=page.video.id %}

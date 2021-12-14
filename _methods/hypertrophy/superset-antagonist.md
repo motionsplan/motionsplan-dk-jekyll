@@ -15,10 +15,12 @@ progress:
 effect: ""
 video:
   provider: youtube
-  id: _P1LcWWpcPg
+  id: avbzFfVEF_0
 ---
 
 {{ page.excerpt }}
+
+{% comment %}
 
 Antagonist supersets involve performing alternating sets of two exercises for opposing muscle groups. For example, the bench press is often supersetted with a row variation.
 
@@ -33,3 +35,5 @@ Therefore, it seems likely that antagonist supersets allow the same number of st
 {% if page.video %}
   {% include video provider=page.video.provider id=page.video.id %}
 {% endif %}
+
+{% endcomment %}
