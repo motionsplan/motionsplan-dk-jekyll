@@ -33,5 +33,4 @@ Such beneficial effects are likely only going to be apparent when the main sets 
   {% include video provider=page.video.provider id=page.video.id %}
 {% endif %}
 
-
 Læs mere om [metoder til hypertrofi](/hypertrofi-metoder/).

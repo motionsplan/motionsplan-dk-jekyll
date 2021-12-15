@@ -63,3 +63,8 @@ When doing the bench press after the elbow extension, the triceps brachii are al
 {% endif %}
 
 {% endcomment %}
+
+Du kan læse mere om [overlevelsesguide til at forstå supersæt](/guide-superset/).
+
+
+Læs mere om [metoder til hypertrofi](/hypertrofi-metoder/).

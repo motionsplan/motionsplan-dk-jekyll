@@ -112,3 +112,6 @@ In my experience the upper back and biceps respond extremely well to yielding is
 {% endif %}
 
 {% endcomment %}
+
+
+Læs mere om [metoder til hypertrofi](/hypertrofi-metoder/).

@@ -59,5 +59,8 @@ Select a load that you can get 6-8 reps with on the first exercise. Take each of
 
 {% endcomment %}
 
+Eksempler på øvelser
+
+Stifflegged deadlift for 6 reps, hvorefter du går over til Romanian Deadlift.
 
 Læs mere om [metoder til hypertrofi](/hypertrofi-metoder/).
