@@ -91,6 +91,13 @@ Du udmatter triceps i isolationsøvelsen, men kan stadig aktivere den i den smal
 
 Det er nogle af de metoder, du kan bruge i forbindelse med styrketræning og hypertrofi.
 
+{% assign methods = site.methods | where: "tags", "hypertrofi" %}
+
+{%- for m in methods -%}
+- [{{ m.title }}]({{ m.url }})
+{% endfor %}
+
+{% comment %}
 - Pyramide
 - Omvendt pyramide
 - 1 1/4
@@ -99,6 +106,7 @@ Det er nogle af de metoder, du kan bruge i forbindelse med styrketræning og hyp
 - Giantsets
 - 6-12-25
 - 10 x 10
+{% endcomment %}
 
 Hvilke metoder holder du mest af?
 

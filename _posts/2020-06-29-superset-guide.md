@@ -45,24 +45,24 @@ Jeg lærte første gang at bruge supersæt, da jeg læste Eric Cresseys [Superse
 
 Når jeg laver programmer, så bruger jeg ofte alfabetet til at indikere rækkefølgen i programmet. (Det er ikke noget jeg har fundet på.)
 
-Hvis jeg fx laver følgende træningsprogram:
+Det betyder, at man kan skrive træningsprogrammet op på følgende måde:
 
-- A) Squat
-- B) Bænkpres
+- A) Bænkpres
+- B) One arm rows
 
-Hvis jeg så vil introducere et superset i min træning, så skrives det typisk sådan her:
+Hvis øvelserne i stedet skal køres som superset i min træning, så kan det skrives på denne måde:
 
 - A1) Bænkpres
 - A2) One arm rows
 
-I dette supersæt laver du altså først A1 og derefter laver du A2. Der kunne også stå A1, A2, A3 og A4, men så kalder vi det typisk et **giant set** i stedet for et **superset**.
+I dette supersæt laver du altså først A1 og derefter laver du A2. Der kunne også stå A1, A2, A3 og A4, men så kalder vi det typisk et **[triset]({% link _methods/hypertrophy/triset.md %})** eller et **[giant set]({% link _methods/hypertrophy/giantset.md %})** i stedet for et **superset**.
 
 Der er forskellige muligheder for supersets, hvor den mest brugte formentlig er et agonist-antagonist supersæt. Lad os tage et hurtigt eksempel på hvad et agonist-antagonist superset er:
 
 Agonisten er den muskel, der arbejder koncentrisk i en øvelse, mens antagonisten er den modsatrettede muskel. Et meget enkelt eksempel på et superset med agonist og antagonist er:
 
 - A1) Biceps curls
-- A2) French pres triceps
+- A2) French press triceps
 
 Biceps er her agonisten, mens triceps er antagonisten. Biceps bøjer armen, og triceps strækker armen.
 

@@ -37,3 +37,8 @@ Therefore, it seems likely that antagonist supersets allow the same number of st
 {% endif %}
 
 {% endcomment %}
+
+Du kan læse mere om [overlevelsesguide til at forstå supersæt](/guide-superset/).
+
+
+Læs mere om [metoder til hypertrofi](/hypertrofi-metoder/).

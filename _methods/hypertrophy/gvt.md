@@ -23,3 +23,6 @@ video:
 {% if page.video %}
   {% include video provider=page.video.provider id=page.video.id %}
 {% endif %}
+
+
+Læs mere om [metoder til hypertrofi](/hypertrofi-metoder/).

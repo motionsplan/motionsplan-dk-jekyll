@@ -44,4 +44,20 @@ This method also allows you to use a decent amount of weight. For a very effecti
 
 {% endcomment %}
 
+Du kan fx bruge følgende øvelser:
+
+- Squat: Full reps, then upper-half reps, then quarter reps
+- Bench press: Full reps, then upper half reps if you want to focus on delts and triceps. If you want to focus more on the chest, do quarter reps in the lower half of the movement. (Use a spotter!)
+- Leg Curl: Full reps, then lower half reps, then quarter reps
+- Leg Extension: Full reps, then upper half reps, then quarter reps
+- Cable Curl: Full reps, then lower half reps, then quarter reps
+- Rope Hammer Curl: Full reps, then upper half reps, then quarter reps
+- Triceps Pushdown: Full reps, then lower half reps, then quarter reps
+- Leg Press: Full reps, then upper half reps, then quarter reps
+- Lateral Raise or Front Raise: Full reps, then lower half reps, then quarter reps
+
+Denne metode gør dig i stand til at bruge en del vægt. Hvis du gerne vil ramme både styrke og hypertrofi, så kan du starte ud med en vægt, du kan løfte 4-6 gange for fulde gentagelser, hvorefter du går i gang med de halve og kvarte gentagelser. Hvis du kun går efter hypertrofi, så brug vægte du kan løfte 8-10 gange.
+
+This method also allows you to use a decent amount of weight. For a very effective hypertrophy/strength building combo, use a weight you can lift for 4-6 full reps before reverting to partial reps. For just size gains, use a weight you can lift 8-10 times.
+
 Læs mere om [metoder til hypertrofi](/hypertrofi-metoder/).
