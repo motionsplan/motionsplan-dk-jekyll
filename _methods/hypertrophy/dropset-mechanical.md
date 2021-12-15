@@ -4,11 +4,11 @@ title: "Mekaniske dropsæt"
 excerpt: ""
 tags:
   - hypertrofi
-rpe: 
-intensity: 
-time: 
-reps: 
-frequency: 
+rpe:
+intensity:
+time:
+reps:
+frequency:
 howto:
 exercises: ""
 progress:
@@ -20,15 +20,19 @@ video:
 
 {{ page.excerpt }}
 
-Et alternativ til det klassiske drop-set, er noget man kalder for mekaniske drop-sets. Hvor du i det klassiske drop-set sænker vægten med henblik på at udtrætte muskulaturen igennem et længerevarende sæt – så ændrer du i et mekanisk drop-set på øvelsens ’hårdhed’. Sagt på en anden måde, når du rammer failure i en given øvelse – så fortsætter du med at udføre gentagelser med samme vægt i en anden øvelser der minder om, men som du normalvis kan flytte mere vægt i.
+Et alternativ til det [klassiske drop-set]({% link _methods/hypertrophy/dropset.md %}) er **mekaniske** drop-sets.
+
+I de klassiske drop-set sænker du vægten for at kunne tage flere gentagelser i dit sæt, så du kan udtrætte muskulaturen. I et mekanisk dropsæt sænker du øvelsens sværhedsgrad. Når du bliver træt i en øvelse, så vælger du en anden øvelse, hvor du kan fortsætte med samme belastning og udtrætte muskelgruppen yderligere.
+
+Mekaniske dropsæt er en krævende metode, som kan skabe et stort mekanisk load på musklerne, som er en af de faktorer, der er nødvendige for muskelvækst.
+
+## Mekanisk dropsæt med biceps-øvelser
 
 - A1) Spider curls 20 kg x8
 - A2) Preacher curls 20 kg x8
 - A3) BB Curls 20kg x8
 
-Som du nok kan se, så udføres alle øvelser med samme vægt – men når du rammer failure (eller tæt på) i én øvelse, så forsætter du dit mekaniske drop-set i en anden øvelse, der som udgangspunkt er lettere at udføre.
-
-Det er en meget krævende teknik, men til gengæld også en teknik, der udmatter og udtrætter din muskulatur rigtigt meget = øget muskelmasse.
+Alle øvelser udføres med samme vægt, men når du kommer tæt på _failure_ i en øvelse, så fortsætter du det mekaniske drop-sæt i en anden øvelse, som er lettere at udføre.
 
 
 {% comment %}
@@ -44,7 +48,7 @@ A mechanical drop set can include two or three variations. The order, whether yo
 
 Select a load that you can get 6-8 reps with on the first exercise. Take each of the two or three variations used in a set to technical failure or close to it. Remember, you're using the same weight for all the exercises selected. Take 10 seconds of rest when switching between variations. This won't negatively affect any of the growth-producing stimulus but will allow you to get 1-2 more reps per variation.
 
-## Flere eksempler 
+## Flere eksempler
 
 - Pressing Muscles, Variation 1: Close-grip bench press, then mid-grip bench press, then regular or wide-grip bench press
 - Pressing Muscles, Variation 2: Dumbbell shoulder press, then incline dumbbell press, then flat dumbbell press
