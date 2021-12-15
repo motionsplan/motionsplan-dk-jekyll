@@ -4,11 +4,11 @@ title: "Dropsæt"
 excerpt: ""
 tags:
   - hypertrofi
-rpe: 
-intensity: 
-time: 
-reps: 
-frequency: 
+rpe:
+intensity:
+time:
+reps:
+frequency:
 howto:
 exercises: ""
 progress:
@@ -20,7 +20,7 @@ video:
 
 {{ page.excerpt }}
 
-Dropset benyttes også relativt meget. Metoden indebærer, at du starter løftet med en given vægt. Når du har nået RPE 9-10, så dropper du med det samme vægten (altså finder en lettere vægt) og løfter flere gentagelser.
+I et dropsæt starter du løftet med en given vægt. Når du har nået RPE 9-10 i øvelsen, så dropper du med det samme noget af vægten og fortsætter med flere gentagelser.
 
 Fx kan du lave et 6 - 8 - 10 dropset.
 
@@ -34,15 +34,8 @@ Ex Triceps extension, dumbbell hammer curl, incline bench press or incline dumbb
 Usage: 2 sets of 6 and one 6-8-10 dropset
 
 {% comment %}
-Start the set with a weight you can lift for 6 reps.
-Drop the weight down immediately by 25-40% (depending on the exercise) and do 8 reps with that new weight.
-Drop another 25-40% and perform 10 more reps.
-Rest as little as possible between the parts of the drop set. Only perform one set of this special technique/method.
-Ex Triceps extension, dumbbell hammer curl, incline bench press or incline dumbbell press
-Usage: 2 sets of 6 and one 6-8-10 dropset
 
-
-Drop sets are probably the most well-researched advanced technique. The method involves doing multiple sets to failure immediately after one another, without taking any rest between sets. 
+Drop sets are probably the most well-researched advanced technique. The method involves doing multiple sets to failure immediately after one another, without taking any rest between sets.
 
 This is accomplished by reducing the weight on the bar for each set.
 Research investigating the long-term effects of training with drop sets has been done, but is conflicting. Some studies indicate that the additional drop sets provide no additional benefits beyond the first set. However, other studies indicate that drop sets involving a total of three sets produce just as much hypertrophy as three conventional sets to failure.

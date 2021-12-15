@@ -4,11 +4,11 @@ title: "Myoreps"
 excerpt: ""
 tags:
   - hypertrofi
-rpe: 
-intensity: 
-time: 
-reps: 
-frequency: 
+rpe:
+intensity:
+time:
+reps:
+frequency:
 howto:
 exercises: ""
 progress:
@@ -24,5 +24,8 @@ video:
   {% include video provider=page.video.provider id=page.video.id %}
 {% endif %}
 
+{% comment %}
+https://www.bodylab.dk/shop/myo-reps-hack-2875c1.html
+{% endcomment %}
 
 Læs mere om [metoder til hypertrofi](/hypertrofi-metoder/).
