@@ -20,6 +20,8 @@ video:
 
 {{ page.excerpt }}
 
+{% comment %}
+
 Den næste teknik i rækken kaldes for cluster set, og det er en teknik, der ikke bliver brugt så meget som de ovenstående. Det er dog ikke ensbetydende med, at du ikke skal eksperimentere med den i dit eget træningsprogram. Et cluster set minder på mange måder om et rest-pause sæt, men hvor rest-pause som udgangspunkt altid bruges i forhold til muskulær udmattelse og øget volumen – så kan cluster set også bruges i andre sammenhænge; fx i forhold til øget styrke.
 
 Der hvor cluster set kan være et værdifuldt værktøj for dig som bodybuilder, er når du gerne vil øge intensiteten i din træning – uden at gå for meget på kompromis med volumen. Et cluster set udføres nemlig ofte med en høj intensitet, men de rest-pause inspirerede sæt tillader dig en højere volumen end normalt.
@@ -34,6 +36,7 @@ Som du kan se fra ovenstående eksempel, så løfter du oftest meget tungt i et 
 
 Ovenstående eksempel tæller som ét sæt, og her vil du typisk udføre 4-5 sæt i alt.
 
+{% endcomment %}
 
 {% include figure image_path="https://coffeeordie.com/wp-content/uploads/2020/02/COD_ClusterSets_Horizontal_v01-1536x1024.jpg" caption="Kilde: [coffeeordie.com](https://coffeeordie.com/cluster-sets/)." %}
 
