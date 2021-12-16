@@ -1,16 +1,19 @@
 ---
 layout: single
 title: "Forced reps"
-excerpt: ""
+excerpt: "_Forced reps_ er at få en spotter til at give assistance med løftet for at få lidt flere gentagelser efter, at man er ved at være udmattet."
 tags:
   - hypertrofi
-rpe: 
-intensity: 
-time: 
-reps: 
-frequency: 
+rpe:
+intensity:
+time:
+reps:
+frequency:
 howto:
-exercises: ""
+  - Lav et sæt med 8-10 gentagelser indtil RPE 9-10.
+  - I **sidste sæt** - når vægten bliver tung - så hjælper makkeren med at løfte vægten for 1-2 ekstra gentagelser.
+  - Derefter rackes vægten.
+exercises: "Bænkpres"
 progress:
 effect: ""
 video:
@@ -20,20 +23,20 @@ video:
 
 {{ page.excerpt }}
 
+Selvom _forced reps_ ser noget anderledes ud, så kan de sammenlignes med [dropsæt]({% link _methods/hypertrophy/dropset.md %}). I _forced reps_ er det bare en spotter, der hjælper med at reducere den eksterne modstand ved at hjælpe med løftet i stedet for at reducere vægten på stangen.
+
+Der er ikke lavet ret meget research på _forced repetititions_, og den aktuelle research har kun kigget på maksimal styrke og ikke på muskelstørrelse. Da metoden ligner dropset, så må man imidlertid forvente lignende effekter.
+
+Ulempen ved forced reps er at det er umuligt at vide nøjagtigt, hvor meget spotteren hjælper i løftet. Det gør det meget vanskeligt at tracke **progressivt overload**.
+
+Forced reps bliver ofte brugt i bænkpres eller andre presvarianter.
+
 {% comment %}
-
-Forced repetitions involve a spotter providing assistance to the lifter to perform additional reps after reaching muscular failure.
-
-Although they look very different, forced repetitions are essentially identical to drop sets, except it is the spotter that reduces the effective external resistance of the barbell weight by providing an upward force, instead of the external resistance being reduced by taking weight from the bar.
-
-Currently, there is very limited research into the effects of forced repetitions, and such research has only assessed changes in maximum strength and not muscle size. Even so, based on the essentially identical nature of forced repetitions and drop sets, it seems likely that they will have similar effects, with the main downside being the inability to quantify the magnitude of the force being exerted during the forced repetitions, which makes tracking progressive overload practically impossible.
-
+https://www.bodylab.dk/shop/forced-reps-1582c1.html
 {% endcomment %}
-
 
 {% if page.video %}
   {% include video provider=page.video.provider id=page.video.id %}
 {% endif %}
-
 
 Læs mere om [metoder til hypertrofi](/hypertrofi-metoder/).
