@@ -8,6 +8,7 @@ header:
   caption: *title
 category:
   - Styrketræning
+  - Hypertrofi
 tags:
   - styrketræning
   - program
@@ -18,7 +19,7 @@ toc: true
 
 Jeg har undersøgt, hvor godt styrketræningsprogrammet German Volume Training (GVT) for at skabe hypertrofi, når man styrketræner. Samtidig har jeg kigget lidt på baggrunden for German Volume Training (GVT).
 
-Hvad er German Volume Training (GVT)? **German Volume Training (GVT) er et brutalt styrketræningsprogram med fokus på en høj volumen med 10 sæt x 10 gentagelser i store helkropsøvelser med en vægt der svarer til ~60% af 1RM eller en 20RM. Alle gentagelser skal laves med 401 i tempo. Rationalet bag den høje volumen er for at skabe metabolisk stress og mekanisk spænding i musklerne, der skal skalbe muskelvækst.**
+Hvad er German Volume Training (GVT)? **German Volume Training (GVT) er et brutalt styrketræningsprogram med fokus på en høj volumen med 10 sæt x 10 gentagelser i store helkropsøvelser med en vægt der svarer til ~60% af 1RM eller omkring ens 20RM. Alle gentagelser skal laves med 402 i tempo. Rationalet bag den høje volumen er for at skabe metabolisk stress og mekanisk spænding i musklerne, der skal skabe muskelvækst.**
 
 German Volume Training er et styrketræningsprogram for moderat trænede (for utrænede er en så høj træningsvolumen langt over det optimale), der ønsker muskelhypertrofi. I GVT laver man 10 sæt med 10 gentagelser i store basisøvelser med langsomme og kontrollerede bevægelser med stort bevægeudslag. Hemmeligheden er, at musklerne har en lang _time under tension (TUT)_, og at man opnår høj muskeludmattelse.
 
@@ -27,13 +28,13 @@ German Volume Training er et styrketræningsprogram for moderat trænede (for ut
 
 ## Grundstrukturen i German Volume Training
 
-Grundstrukturen i programmet er, at det køres over fem dage med et forskelligt fokus hver dag. Der vælges en eller to A-øvelser, som køres efter metoden. Dertil vælges to suppleringsøvelser. Programmet kræver restitution, da det er meget nedbrydende for kroppen.
+Grundstrukturen i GVT er, at programmet køres over fem dage med et forskelligt fokus hver dag. Der vælges en eller to hovedøvelser (A-øvelser), som køres efter metoden. Dertil vælges to suppleringsøvelser. Programmet kræver [restitution](/restitutionstid-og-alder/), da det er meget nedbrydende for kroppen.
 
-A-øvelserne køres efter 10 x 10. Tempoet skal være 4020. Det betyder, at du bruger 4 sekunder i den excentriske fase og to sekunder i den koncentriske fase. I fx squat betyder det, at du går ned på 4 sekunder og rejser dig op igen på to sekunder.
+I hovedøvelserne køres 10 sæt x 10 gentagelser. Tempoet skal være 4020. Det betyder, at du bruger 4 sekunder i den excentriske fase og to sekunder i den koncentriske fase. I fx squat betyder det, at du går ned på 4 sekunder og rejser dig op igen på to sekunder.
 
 Du skal vælge en vægt, som er ~60% af 1RM eller en 20RM. Du kan estimere din [1RM i vores 1RM-beregner](/rm-beregner/).
 
-De første sæt vil føles relativt lette, men du skal have så meget vægt på, at det er meget besværligt at tage de sidste gentagelser i de sidste sæt. Hvis du kan gennemføre alle reps, så sætter du lidt mere vægt på stangen, næste gang du kører programmet. Hvis du ikke kan gennemføre alle reps, så kører du næste gang med samme vægt, men målet om at gennemføre flere reps.
+De første sæt vil føles relativt lette, men efterhånden bliver det mere og mere besværligt at tage de sidste gentagelser i sættene. Hvis du kan gennemføre alle reps, så sætter du lidt mere vægt på stangen næste gang, du kører programmet. Hvis du ikke kan gennemføre alle reps, så kører du næste gang med samme vægt, men målet om at gennemføre flere reps.
 
 Du kan finde forskellige bud på GVT-programmer rundt omkring på nettet, men du kan også bare vælge at indkorporere elementer i en øvelse i din egen træning. Tempoløft har mang gode egenskaber.
 
@@ -49,13 +50,17 @@ Du kan finde forskellige bud på GVT-programmer rundt omkring på nettet, men du
 | 3x15         | Arnold press | Lunges      |     |                 |     |
 |              |              | Hamstrings  |     |                 |     |
 
+## Hvor lange skal pauserne være i GVT?
+
+Pauserne skal være omkring 60 sekunder imellem GVT-sættene. Det er en god ide at bruge et stopur, hvis du skal følge protokollen præcist.
+
 ## Er det nødvendigt med GVTs høje volumen?
 
 Amirthalingam et al (2017) fandt i et 6 ugers træningsstudium med tre træninger om ugen, at 5x10 virkede bedre ift. armstørrelse, lat pulldowns og bænkpres end 10x10. I dette studium viste ingen af studierne muskelforstørrelse i benene, hvilket måske skyldes at de fik alt for høj volumen.
 
 > "To maximize hypertrophic training effects, it is recommended that 4-6 sets per exercise be performed, as it seems gains will plateau beyond this set range and may even regress due to overtraining."
 
----<cite>Amirthalingam et al (2017)</cite>
+--- <cite>Amirthalingam et al (2017)</cite>
 
 Hackett et al (2018) udvider ovenstående studium med seks uger mere. Desværre havde studiet så få deltagere, at de ikke kunne sige yderligere. Så deres oprindelige anbefaling med 4-6 sæt for muskelhypertrofi står stadig ved magt.
 
@@ -71,12 +76,8 @@ Hackett et al (2018) udvider ovenstående studium med seks uger mere. Desværre 
 - [For høj volumen i German Volume Training](https://www.bodylab.dk/shop/nyt-studie-for-2018c1.html)
 - [GVT revisited](https://www.t-nation.com/training/gvt-revisited)
 - [GVT fizzles out](https://www.t-nation.com/training/tip-german-volume-training-fizzles-out)
-
 - Amirthalingam, Theban; Mavros, Yorgi; Wilson, Guy C.; Clarke, Jillian L.; Mitchell, Lachlan; Hackett, Daniel A. "Effects of a Modified German Volume Training Program on Muscular Hypertrophy and Strength. " Journal of Strength & Conditioning Research: November 2017, Volume 31, Issue 11, pp. 3109–3119.
-
 - Hackett et al. 2018: Effects of a 12-Week Modified German Volume Training Program on Muscle Strength and Hypertrophy - A Pilot study.
-
 - The Effects of German Volume Training on Lean Muscle Mass and Strength and Power Characteristics in Elite Wild-Water Canoeists
-
 - [strengthandconditioning.org](https://strengthandconditioning.org/index.php?option=com_content&view=article&id=1559&Itemid=512)
 </summary>
