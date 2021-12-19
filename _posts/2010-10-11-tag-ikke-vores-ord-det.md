@@ -28,6 +28,18 @@ Jeg læser naturligvis titlen og _abstractet_ for at se om artiklen ser spænden
 
 Der er virkelig meget viden om træning. Noget er der videnskabeligt belæg på, mens andre ikke helt er blevet undersøgt. Hvis du gerne vil være klogere, så kan det være interessant at dykke ned i de videnskabelige artikler.
 
+## Få adgang til de videnskabelige artikler
+
+Desværre er der rigtig mange artikler, som man ikke umiddelbart har adgang til. Egentlig synes jeg videnskabelige artikler burde være lette at få fat på. I Danmark burde man med et Bibliotekslogin kunne læse i det mindste alle de store tidskrifter online.
+
+Det er desværre ikke tilfældet i øjeblikket. Artiklerne er naturligvis beskyttet af copyright fra forlagene og forfatterne, så der skal være en form for ordnede forhold.
+
+Men der er også kræfter, der arbejder på at gøre artiklerne offentlige, som er lidt i den grå afdeling på internettet. [Sci-Hub](https://da.wikipedia.org/wiki/Sci-Hub) er startet som en reaktion på de høje priser, forlagene tager for den videnskabelige litteratur.
+
+{% include figure image_path="/assets/images/blog/scihub.png" %}
+
+Sci-Hub skifter jævnligt internet-adresse, men hvis du lige skal læse en enkelt videnskabelig artikel, som du ikke kan få adgang til, så kan du prøve at Google siden.
+
 ## Hvordan er en videnskablig artikel opbygget?
 
 En videnskabelig artikel har næsten altid denne opbygning.
