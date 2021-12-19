@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Waves"
+breadcrumbs: true
+category:
+  - Hypertrofi
 excerpt: ""
 tags:
   - hypertrofi

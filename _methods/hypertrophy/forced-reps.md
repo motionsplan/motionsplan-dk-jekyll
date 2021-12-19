@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Forced reps"
+breadcrumbs: true
+category:
+  - Hypertrofi
 excerpt: "_Forced reps_ er at få en spotter til at give assistance med løftet for at få lidt flere gentagelser efter, at man er ved at være udmattet."
 tags:
   - hypertrofi

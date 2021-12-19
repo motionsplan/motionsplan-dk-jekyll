@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Intraset load contrast drop set"
+breadcrumbs: true
+category:
+  - Hypertrofi
 excerpt: ""
 tags:
   - hypertrofi

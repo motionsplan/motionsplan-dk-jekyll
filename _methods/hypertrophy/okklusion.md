@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Okklusion"
+breadcrumbs: true
+category:
+  - Hypertrofi
 excerpt: ""
 tags:
   - hypertrofi

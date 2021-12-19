@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Antagonist supersæt"
+breadcrumbs: true
+category:
+  - Hypertrofi
 excerpt: ""
 tags:
   - hypertrofi

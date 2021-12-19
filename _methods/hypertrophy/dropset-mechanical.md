@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Mekaniske dropsæt"
+breadcrumbs: true
+category:
+  - Hypertrofi
 excerpt: ""
 tags:
   - hypertrofi

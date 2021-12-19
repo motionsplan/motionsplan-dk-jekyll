@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Iso-dynamic contraction"
+breadcrumbs: true
+category:
+  - Hypertrofi
 excerpt: ""
 tags:
   - hypertrofi

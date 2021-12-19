@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Excentriske reps"
+breadcrumbs: true
+category:
+  - Hypertrofi
 excerpt: ""
 tags:
   - hypertrofi

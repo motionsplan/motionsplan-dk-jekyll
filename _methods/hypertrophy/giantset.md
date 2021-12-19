@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Giantset"
+breadcrumbs: true
+category:
+  - Hypertrofi
 excerpt: ""
 tags:
   - hypertrofi

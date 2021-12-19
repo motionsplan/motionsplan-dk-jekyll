@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Isometrisk træning"
+breadcrumbs: true
+category:
+  - Hypertrofi
 excerpt: ""
 tags:
   - hypertrofi

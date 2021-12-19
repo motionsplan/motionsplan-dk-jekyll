@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "mTor Activation"
+breadcrumbs: true
+category:
+  - Hypertrofi
 excerpt: ""
 tags:
   - hypertrofi

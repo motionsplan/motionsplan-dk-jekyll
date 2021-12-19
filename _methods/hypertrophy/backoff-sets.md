@@ -1,5 +1,8 @@
 ---
 layout: single
+breadcrumbs: true
+category:
+  - Hypertrofi
 title: "Backoff sæt"
 excerpt: ""
 tags:

@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Tempo Contrast"
+breadcrumbs: true
+category:
+  - Hypertrofi
 excerpt: ""
 tags:
   - hypertrofi

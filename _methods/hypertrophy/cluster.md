@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Cluster"
+breadcrumbs: true
+category:
+  - Hypertrofi
 excerpt: ""
 tags:
   - hypertrofi

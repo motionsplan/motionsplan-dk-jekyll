@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Partial reps"
+breadcrumbs: true
+category:
+  - Hypertrofi
 excerpt: ""
 tags:
   - hypertrofi

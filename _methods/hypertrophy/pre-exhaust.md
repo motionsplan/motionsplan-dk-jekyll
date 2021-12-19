@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Pre-exhaust supersæt"
+breadcrumbs: true
+category:
+  - Hypertrofi
 excerpt: ""
 tags:
   - hypertrofi

@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Pyramide"
+breadcrumbs: true
+category:
+  - Hypertrofi
 excerpt: ""
 tags:
   - hypertrofi

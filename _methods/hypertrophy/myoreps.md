@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Myoreps"
+breadcrumbs: true
+category:
+  - Hypertrofi
 excerpt: ""
 tags:
   - hypertrofi

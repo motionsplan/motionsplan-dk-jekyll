@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Regressive range of motion"
+breadcrumbs: true
+category:
+  - Hypertrofi
 excerpt: ""
 tags:
   - hypertrofi

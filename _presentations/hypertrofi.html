@@ -82,6 +82,15 @@ title: Metoder til hypertrofi
 </section>
 {% if m.excerpt != "" %}
 <section>
+<div class="wrap">
+  <img class="alignright size-40" src="{{ m.teaser | relative_url }}" alt="{{ m.title }}">
+  <h2>{{ m.title }}</h2>
+  {{ m.excerpt | markdownify }}
+</div>
+</section>
+{% endif %}
+{% if m.excerpt != "" %}
+<section>
   <div class="wrap">
     <div class="grid vertical-align">
       <div class="content-left">
@@ -91,6 +100,7 @@ title: Metoder til hypertrofi
         {% endif%}
       </div>
       <div class="content-right">
+        {% comment %}
         <ul class="flexblock features">
           <li>
             <div>
@@ -140,9 +150,10 @@ title: Metoder til hypertrofi
             </div>
           </li>
         </ul>
-        {% if m.header.overlay_image %}
+        {% endcomment %}
+        {% if m.teaser %}
         <figure>
-          <img class="aligncenter" src="{{ m.header.overlay_image }}" alt="{{ m.title }}">
+          <img class="aligncenter" src="{{ m.teaser }}" alt="{{ m.title }}">
         </figure>
         {% endif %}
       </div>

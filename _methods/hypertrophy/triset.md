@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Triset"
+breadcrumbs: true
+category:
+  - Hypertrofi
 excerpt: ""
 tags:
   - hypertrofi

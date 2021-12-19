@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Dropsæt"
+breadcrumbs: true
+category:
+  - Hypertrofi
 excerpt: ""
 tags:
   - hypertrofi

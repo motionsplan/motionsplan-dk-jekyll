@@ -1,6 +1,9 @@
 ---
 layout: single
 title: "Escalating density (EDT)"
+breadcrumbs: true
+category:
+  - Hypertrofi
 excerpt: ""
 tags:
   - hypertrofi
