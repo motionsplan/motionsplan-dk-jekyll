@@ -1,6 +1,6 @@
 ---
 title: "7 tips til den rigtige teknik i styrketræning "
-seo_title: "Teknik i styrketræning - 7 tips til at løfte rigtigt [2021]"
+seo_title: "Teknik i styrketræning - 7 tips til at løfte rigtigt [2022]"
 permalink: /rigtig-teknik-styrketraening/
 redirect_from:
   - /artikel/tjek-teknikken-i-din-styrketraening/

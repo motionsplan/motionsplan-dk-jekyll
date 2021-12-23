@@ -1,5 +1,6 @@
 ---
-title: &title "Fedtforbrændingszonen: Alt du behøver at vide [2021] 🔥"
+title: &title "Fedtforbrændingszonen: Alt du behøver at vide 🔥"
+seo_title: "Fedtforbrændingszonen: Alt du behøver at vide [2022]"
 permalink: /fedtforbraendingszonen/
 redirect_from:
   - /fedtforbraeningszonen/

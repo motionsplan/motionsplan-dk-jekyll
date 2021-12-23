@@ -1,6 +1,6 @@
 ---
-title: &title "De bedste fitness apps i 2021"
-seo_title: "De bedste trænings apps i 2021"
+title: &title "De bedste fitness apps i 2022"
+seo_title: "De bedste trænings apps i 2022"
 permalink: /fitness-apps/
 language: da
 header:
