@@ -17,6 +17,7 @@ exercises: "Overkrop: eksplosive armstr√¶kninger, kast med medicinbolde eller b√
 video:
   provider: youtube
   id: vXx27qjcktE
+teaser: /assets/images/kondition/explosive-repeat.png
 ---
 
 {{ page.excerpt }}
