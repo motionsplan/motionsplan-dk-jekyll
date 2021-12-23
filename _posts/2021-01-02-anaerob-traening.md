@@ -1,5 +1,6 @@
 ---
 title: &title "Anaerob træning: Øvelser og træningsprogram 🏃"
+seo_title: "Anaerob træning: Øvelser og træningsprogram"
 description: "Anaerob træning er en vigtig del af dit energisystem, og det skal også trænes 🏃 Hvad er anaerob træning? 🏃 Anaerobe øvelser 🏃 Anaerobt træningsprogram."
 permalink: /anaerob-traening/
 language: da

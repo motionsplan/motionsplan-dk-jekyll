@@ -1,6 +1,6 @@
 ---
 title: "Superset: Komplet guide til supersæt"
-seo_title: "Supersæt - Guide til 7 forskellige typer superset"
+seo_title: "Supersæt: 7 forskellige effektive superset"
 permalink: /guide-superset/
 language: da
 header:
