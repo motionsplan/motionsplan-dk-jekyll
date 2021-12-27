@@ -48,26 +48,32 @@ gallery_greb:
     image_path: https://apuls.dk/img/900/900/resize/3/5/350200070_1.jpg
     alt: "Greb til Pull down og træk til bryst"
     title: "Greb til Pull down og træk til bryst"
+    rel: sponsored nofollow noopener
   - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/traeningsudstyr/greb/odin-lat-bar-traekstang-kort-greb-skovlgreb-28
     image_path: https://apuls.dk/img/900/900/resize/B/T/BT15628inc_1.jpg
     alt: "Bredt skovlgreb til pulldown og træk til bryst"
     title: "Bredt skovlgreb til pulldown og træk til bryst"
+    rel: sponsored nofollow noopener
   - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/traeningsudstyr/greb/odin-multi-purpose-v-bar-greb-bloed-gummi-haandtag-let-vinkel
     image_path: https://apuls.dk/img/900/900/resize/B/T/BT141_1.gif
     alt: "Multi purpose V greb til pull down og træk til bryst"
     title: "Multi purpose V greb til pull down og træk til bryst"
+    rel: sponsored nofollow noopener
   - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/traeningsudstyr/greb/odin-enhaands-kabelgreb-krom-trapez
     image_path: https://apuls.dk/img/900/900/resize/B/T/BT127_1.jpg
     alt: "Ethåndshåndtag til Pull down og træk til bryst"
     title: "Ethåndshåndtag til Pull down og træk til bryst"
+    rel: sponsored nofollow noopener
   - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/traeningsudstyr/greb/odin-seated-row-greb-lille-vinkel
     image_path: https://apuls.dk/img/900/900/resize/B/T/BT159_1.gif
     alt: "V-håndtag til Pull down og træk til bryst"
     title: "V-håndtag til Pull down og træk til bryst"
+    rel: sponsored nofollow noopener
   - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/traeningsudstyr/greb/finnlo-multigreb
     image_path: https://apuls.dk/img/900/900/resize/4/6/46961_1.jpg
     alt: "Multipurpose Pull down og træk til bryst"
     title: "Multipurpose til Pull down og træk til bryst"
+    rel: sponsored nofollow noopener
 video:
   provider: youtube
   id: Zxh8DNcRq50
@@ -137,7 +143,7 @@ Samlet set så har et medium greb formentlig en mindre fordel i forhold til musk
 
 Der findes et hav af forskellige greb, du kan bruge til pulldowns. Det mest typiske er en lige eller letbøjet stang, men mulighederne for greb til pulldown er mange:
 
-{% include gallery id="gallery_greb" caption="[Apuls](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187) har en lang række greb til pulldown" %}
+{% include gallery id="gallery_greb" caption="[Apuls](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187){: rel='sponsored nofollow noopener' } har en lang række greb til pulldown" %}
 
 - **Smalt underhåndsgreb**. Minder om chinups og har mere fokus på biceps end hvis du holder med et overhåndsgreb, som mere ligner pullups.
 - **Smalt neutralt greb**. Minder om chinups med neutralt greb. Håndfladerne vender mod hinanden. Du kan bruge et todelt håndtag eller et V-håndtag.
