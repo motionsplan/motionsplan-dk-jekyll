@@ -44,7 +44,7 @@ Fransk pres en en rigtig effektiv øvelse til at træne triceps med. Der er to f
 
 Udgangspunktet til øvelsen er liggende vandret på en bænk, med stangen i strakte arme. Grebet skal være skulderbredde. Dernæst fører man stangen ned imod hovedet, i det tilfælde ud over hovedet, for at det skal være fransk pres. Det er vigtigt at øvelsen udføres meget kontrolleret. Man afslutter øvelsen ved at føre stangen tilbage til udgangspunktet.
 
- Jeg synes personligt, at det er rarest at lave fransk pres med en EZ-curlstang. Du kan se, hvordan sådan en ser ud hos [www.mmashop.dk*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=32502&htmlurl=http://www.mmashop.dk/index.php?route=product/product&product_id=1150).
+ Jeg synes personligt, at det er rarest at lave fransk pres med en EZ-curlstang. Du kan se, hvordan sådan en ser ud hos [apuls.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/cpro9-curl-vaegtstang-ez-bar){: rel="sponsored noopener nofollow" }.
 
 ## Teknik i fransk pres
 
