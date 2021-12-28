@@ -1,5 +1,6 @@
 ---
 title: &title "Hvor mange knogler har et menneske i kroppen? 🦴️"
+seo_title: "Hvor mange knogler har et menneske i kroppen?"
 permalink: /hvor-mange-knogler-har-mennesket/
 language: da
 header:

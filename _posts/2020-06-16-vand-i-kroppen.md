@@ -3,7 +3,7 @@ title: &title "Udregn hvor meget vand du har i kroppen med vores beregner? 🚰"
 permalink: /vand-i-kroppen/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1867&q=5
+  overlay_image: https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
   teaser: https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
   alt: Photo by Jong Marshes on Unsplash
@@ -11,6 +11,7 @@ category:
   - Viden om
 tags:
   - fysiologi
+  - beregner
 last_modified_at: 2020-06-11T08:14:14Z
 toc: true
 ---
@@ -29,7 +30,7 @@ I starten af vores liv er knap tre-fjerdedele af vores kropsvægt vand, men den 
 
 Den faldende vandprocent gennem årene er delvist fordi din fedtprocent typisk stiger med alderen. Fedtvæv indeholder mindre vand end den fedtfrie masse. Så din kropskomposition betyder en del for andelen af vand i kroppen.
 
-De følgende [tabeller baseret på healthline.com over vand i kroppen](https://www.healthline.com/health/body-water-percentage#body-water-charts) repræsenterer den totale andel vand udgør af din kropsvægt, hvis du er inden for normalområdet.
+De følgende tabeller over vand i kroppen er baseret på [healthline.com](https://www.healthline.com/health/body-water-percentage#body-water-charts) repræsenterer den totale andel vand udgør af din kropsvægt, hvis du er inden for normalområdet.
 
 | | Mænd | Kvinder |
 |-|-|-|
@@ -112,6 +113,10 @@ Kroppen består altså af en rigtig stor del vand. Jeg har skrevet et andet indl
 
 ## Referencer om vand i kroppen
 
+<details markdown="1">
+  <summary>Se referencer</summary>
+
 - Lee, Jee Young, Han Sung Ryu, Sung Soo Yoon, Eun Hye Kim, og Seong Woo Yoon. 2019. “Extracellular-to-Intracellular Fluid Volume Ratio as a Prognostic Factor for Survival in Patients With Metastatic Cancer”. Integrative Cancer Therapies 18 (maj). <https://doi.org/10.1177/1534735419847285>.
 - Watson, P. E., I. D. Watson, og R. D. Batt. 1980. “Total Body Water Volumes for Adult Males and Females Estimated from Simple Anthropometric Measurements”. The American Journal of Clinical Nutrition 33 (1): 27–39. <https://doi.org/10.1093/ajcn/33.1.27>.
 - [What Is the Average (and Ideal) Percentage of Water in Your Body?](https://www.healthline.com/health/body-water-percentage#maintenance)
+</details>

@@ -1,5 +1,6 @@
 ---
 title: &title "Hvor mange muskler har mennesket i kroppen? 💪"
+seo_title: "Hvor mange muskler har mennesket i kroppen?"
 permalink: /hvor-mange-muskler-i-kroppen/
 last_modified_at: 2021-01-18T09:41:09Z
 author: lsolesen

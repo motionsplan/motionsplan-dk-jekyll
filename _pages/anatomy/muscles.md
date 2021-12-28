@@ -3,7 +3,7 @@ layout: single
 title: &title "Skeletmuskler: Muskler, muskelgrupper og muskeloversigt 💪"
 excerpt: "Skeletmuskler bevæger kroppen. Jeg har lavet en oversigt over muskler, muskelgrupper og muskel anatomi, hvor du kan se navne på kroppens muskler på latin og dansk."
 permalink: /muskler/
-last_modified_at: 2021-07-28T20:14:14Z
+last_modified_at: 2021-12-28T20:14:14Z
 header:
   overlay_image: https://images.unsplash.com/photo-1539814858141-928517f6afd3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=60
   teaser: https://images.unsplash.com/photo-1539814858141-928517f6afd3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60
@@ -22,6 +22,11 @@ feature_row:
     alt: "Muskler i ben, arme, skulder, kropsstamme"
     rel: sponsored nofollow noopener
 breadcrumbs: true
+faq:
+  - question: Hvad er skeletmuskler?
+    answer: "Skeletmuskler er de muskler, der skaber bevægelse af kroppen. Skeletmusklerne kaldes også for ”den tværstribede skeletmuskulatur”."
+  - question: Hvor mange muskler har man i kroppen?
+    answer: "Der er omkring 700 navngivne skeletmuskler i kroppen, men det kommer an på, hvordan man tæller. Massageterapeuter og fysioterapeuter er kun interesserede i 2-300 muskler. Læs mere på i vores indlæg om [Hvor mange muskler man har i kroppen](/hvor-mange-muskler-i-kroppen/)."
 ---
 
 De muskler, der skaber bevægelse af kroppen, kaldes for ”den tværstribede skeletmuskulatur”. Denne side handler om skeletmusklerne. Først kan du læse en kort introduktion til, hvad muskler og skeletmuskler er og deres anatomi. Derefter kigger jeg på de forskellige muskelgrupper.
@@ -34,9 +39,7 @@ Der er aktivitet i begge muskler. Agonisten har mest aktivitet til at udføre be
 
 {% include gallery id="feature_row" caption="Se flere [anatomiplakater med skeletter og muskler hos plakaterne.dk](https://www.plakaterne.dk/anatomi-anatomiplakater-muskler-skeletter/)." %}
 
-## Hvad er skeletmuskler?
-
-Skeletmuskler er de muskler, der skaber bevægelse af kroppen. Skeletmusklerne kaldes også for ”den tværstribede skeletmuskulatur”.
+{% include faq.html heading="2" %}
 
 ## Skeletmusklernes opdeling
 

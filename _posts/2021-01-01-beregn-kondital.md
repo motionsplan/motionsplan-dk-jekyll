@@ -14,7 +14,7 @@ category:
 tags:
   - konditionstest
   - beregner
-last_modified_at: 2019-03-06T23:14:14Z
+last_modified_at: 2021-03-06T23:14:14Z
 toc: true
 gallery:
   - image_path: /assets/images/blog/worldfitnesslevel-www.png
@@ -40,7 +40,7 @@ Men lad os først lige kigge på, hvordan man laver en kondital beregner. Dereft
 
 For at beregne dit kondital så har du brug for en test, som på en eller anden måde er blevet sammenlignet med en direkte måling af den maksimale iltoptagelse pr. minut delt med kropsvægten. Det er nemlig definitionen på konditallet. Konditallet måles i ml ilt pr. minut pr. kg. kropsvægt.
 
-Der er lavet mange forskellige studier, hvor man har målt deltagernes kondital direkte og sammenlignet den med andre submaksimale eller maksimale tests. Hvis du er interesseret, så har jeg skrevet et andet indlæg, der handler om, [hvordan man tester sin kondition med en konditest](/test-kondition-konditest-kondital/).
+Der er lavet mange forskellige studier, hvor man har målt deltagernes kondital direkte og sammenlignet den med andre submaksimale eller maksimale tests. Hvis du er interesseret, så har jeg skrevet et andet indlæg, der handler om, [hvordan man tester sin kondition med en konditest](/test-kondition-konditest-kondital/)?
 
 ## Kondital beregner fra sofaen
 
@@ -60,7 +60,7 @@ Der er lavet mange forskellige studier, hvor man har målt deltagernes kondital 
 
 {% include gallery caption="World Fitness Level er lavet af norske forskere og giver dig et bud på dit fitness level ved at besvare en række spørgsmål." %}
 
-### 4. Kondital fra hvilepuls og maxpuls
+### 4. Udregn kondital fra hvilepuls og maxpuls
 
 [Uth et al (2004)](https://doi.org/10.1007/s00421-003-0988-y) har udviklet en konditionstest, hvor det ikke er så besværligt at få et bud på sit kondital. Testens præmis er, at hvilepulsen falder, når man kommer i bedre form, fordi slagvolumen øges. Med en højere slagvolumen kan hjertet pumpe mere blod rundt i hvert enkelt slag, og derfor behøver det i hvile ikke at slå så mange gange.
 
@@ -72,7 +72,7 @@ Der er lavet mange forskellige studier, hvor man har målt deltagernes kondital 
 
 Du kan lave en 5 minutters konditionstest, hvis du har et Polar ur eller Polar Beat og en brystmåler. Jeg har skrevet mere om, hvordan du kan bruge dit [ur til at måle din kondition]({% link _posts/2021-10-17-watch-vo2-max.md %}).
 
-## Beregn dit kondital fra træning
+## Beregn kondital fra træning
 
 ### Løbetests
 
@@ -116,7 +116,7 @@ Du kan lave en 5 minutters konditionstest, hvis du har et Polar ur eller Polar B
 
 </div>
 
-### Gangtest
+### Udregn kondital fra gangtest
 
 {% assign site_posts = site.posts | where: "tags", "konditionstest" | where: "tags", "gåtest" | where: "tags", "beregner" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 

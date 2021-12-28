@@ -5,7 +5,7 @@ permalink: /artikel/udregning-af-fedtprocent/
 excerpt: Beregn din fedtprocent med din højde og vægt i denne
   fedtprocent beregner for mænd og kvinder. Udregningen foregår med forskellige formler.
 header:
-  overlay_image: https://images.unsplash.com/photo-1522844990619-4951c40f7eda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=5
+  overlay_image: https://images.unsplash.com/photo-1522844990619-4951c40f7eda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
   caption: Beregn din fedtprocent ud fra højde og vægt.
   alt: Photo by i yunmai on Unsplash
   teaser: https://images.unsplash.com/photo-1522844990619-4951c40f7eda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
@@ -16,6 +16,7 @@ tags:
   - fedtprocent
   - test
   - kropskomposition
+  - beregner
 feature_row:
   - image_path: https://cdn6.tales.dk/00039/91685/cover.1589756619.jpg
     alt: Exercise Physiology - Nutrition, Energy, and Human Performance

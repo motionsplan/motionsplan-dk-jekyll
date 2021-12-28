@@ -6,8 +6,8 @@ seo_title: "Skulder øvelser: 10+ effektive træningsøvelser til skulderen"
 author_profile: true
 toc: true
 header:
-  overlay_image: https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1949&q=5
-  teaser: https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1949&q=5
+  overlay_image: https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: "Skulder-øvelser: De mest effektive styrketræningsøvelser til skulderen"
 excerpt: "Skuldertræning kan bestå af forskellige skulder øvelser. Vi har samlet det bedste styrketræningsøvelser og skulder-øvelser til træning af din skulder."
 categories:

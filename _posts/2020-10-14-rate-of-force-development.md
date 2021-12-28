@@ -11,15 +11,20 @@ category:
   - Eksplosivitet
 tags:
   - test
-last_modified_at: 2020-10-13T23:14:14Z
+last_modified_at: 2021-12-13T23:14:14Z
 toc: true
+faq:
+  - question: Hvad er rate of force development (RFD)?
+    answer: Rate of force development (RFD) er den hastighed en kraft udvikles med. I forbindelse med styrketræning er RFD et mål for, hvor hurtigt du kan udvikle kraft, og det har stor betydning for, hvor eksplosiv du kan være. Rate of Force development måles i Newton per sekund.
+  - question: Hvordan kan jeg teste Rate of Force Development?
+    answer: En meget brugt test er en [IMTP-test](/imtp-test/) på en kraftplatform. Du trækker i en stang, som er fastgjort, mens kraftplatformen måler den kraft du trækker med.
 ---
 
-Rate of force development (RFD) er et væsentligt parameter i forbindelse med styrketræning, træning af eksplosivitet og sprint. Her kigger jeg på, hvad RFD er, og hvordan du træner rate of force developement.
+Rate of force development (RFD) er et væsentligt parameter i forbindelse med styrketræning, træning af eksplosivitet og sprint. Her kigger jeg på, hvad RFD er, og hvordan du træner rate of force developement?
 
 Hvad er rate of force development (RFD)? **Rate of force development (RFD) er den hastighed en kraft udvikles med. I forbindelse med styrketræning er RFD et mål for, hvor hurtigt du kan udvikle kraft, og det har stor betydning for, hvor eksplosiv du kan være. Rate of Force development måles i Newton per sekund.**
 
-I rigtig mange idrætsgrene har rate of force development en stor betydning for præstationen. RFD beskriver den hastighed, som en kraft kan udvikles ved. Hvis du forbedrere din RFD, så kan du altså lave hurtigere og mere eksplosive bevægelser. Derfor kan de fleste atleter og sportsudøvere med fordel træne evnen til at udvikle kraft hurtigt.
+I rigtig mange idrætsgrene har _rate of force development_ en stor betydning for præstationen. RFD beskriver den hastighed, som en kraft kan udvikles ved. Hvis du forbedrere din RFD, så kan du altså lave hurtigere og mere eksplosive bevægelser. Derfor kan de fleste atleter og sportsudøvere med fordel træne evnen til at udvikle kraft hurtigt.
 
 Du kan se en illustration af en kraftkurve i forbindelse mellem et løft.
 

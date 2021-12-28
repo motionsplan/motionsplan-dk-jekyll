@@ -4,7 +4,7 @@ permalink: /loebeprogram-10km/
 excerpt: "Her kan du finde et løbeprogram til at komme i gang med at løbe 10 km. DU kan blive inspireret af programmet, hvis du gerne vil løbe 10 km som begynder eller træningen allerede har taget lidt mere fart."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1610969524113-bae462bb3892?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=5
+  overlay_image: https://images.unsplash.com/photo-1610969524113-bae462bb3892?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1900&q=5
   teaser: https://images.unsplash.com/photo-1610969524113-bae462bb3892?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:

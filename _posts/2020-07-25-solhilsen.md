@@ -1,11 +1,12 @@
 ---
 title: "Solhilsen A og B: Komplet guide til solhilsen 🧘"
+seo_title: "Solhilsen A og B: Komplet guide til solhilsen"
 seo_title: "Solhilsen A og B • 8 overbevisende grunde til at prøve i 2022"
-description: "Lær at lave solhilsen a og b med video og beskrivelser 🙏 Hvilke yogaøvelser der er i solhilsen? 🙏 Hvad er forskellen på A og B? 🙏 Hvad er solhilsen godt for?"
+description: "Lær at lave solhilsen a og b med video og beskrivelser | Hvilke yogaøvelser der er i solhilsen? | Hvad er forskellen på A og B? | Hvad er solhilsen godt for?"
 permalink: /artikel/solhilsen-a-b-surya-namaskar/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1570997491915-47ade51fed9f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=5
+  overlay_image: https://images.unsplash.com/photo-1570997491915-47ade51fed9f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
   teaser: https://images.unsplash.com/photo-1570997491915-47ade51fed9f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: "Komplet guide til yoga solhilsen A og B"
 tags:
@@ -90,6 +91,11 @@ wallsticker_full:
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-er-ikke-bare-en-traening-wallsticker
     title: Yoga er ikke bare en træning
     rel: sponsored nofollow noopener
+faq:
+  - question: Hvad er forskellen på Solhilsen A og B?
+    answer: Solhilsen B er lidt mere avanceret yogasekvens end version A. Typisk laves Solhilsen B efter, at du har lavet flere runder af solhilsen A. Få alt at vide her...
+  - question: Skal jeg bruge noget bestemt udstyr for at lave Solhilsen?
+    answer: Nej. Du har ikke brug for bestemt udstyr for at lave yoga og en solhilsen. Det kan dog være rart med en skridsikker yogamåtte, som kan gøre udførelsen lidt mere behagelig.
 ---
 
 Jeg har lavet yoga solhilsen mange gange, så derfor vil jeg gerne beskrive denne alsidige serie af yoga-øvelser for dig, så du også kan komme i gang med øvelserne. Jeg dykker i det følgende ned i _Surya Namaskar_ (solhilsen) fra Asthanga Vinyasa Yogaen, som findes i en A- og B-version.
@@ -138,7 +144,7 @@ Det er vigtigt at trække vejret dybt ned i maven. Prøv at få vejrtrækningen 
 
 > Hver stilling, asana, er forbundet med åndedræts-synkroniserede bevægelser, vinyasa, og sammenkæder åndedræt og bevægelse, så stillingerne afløser hinanden. Det er på forhånd fastlagt, hvor i en stilling man skal ånde ind og ud. Lige som der er en fastlagt måde at komme ind og ud af hver enkelt stilling. Stillingerne udføres i en ganske bestemt rækkefølge. Traditionelt udføres en fuld vinyasa mellem hver asana og en halv vinyasa mellem højre og venstre side. Det virker som modstilling til den forudgående asana og øger blodomløb og letter stivhed før den næste stilling. Ved at lave vinyasa opbygges og vedligeholdes varmen i kroppen og medfører en kraftig svedproduktion, som er nødvendig for at rense kroppen.
 
-— <cite>[Wikipedia](https://da.wikipedia.org/wiki/Astanga-yoga)</cite>
+--- <cite>[Wikipedia](https://da.wikipedia.org/wiki/Astanga-yoga)</cite>
 
 Vejrtrækningen skal foregå gennem næsen og du puster ud gennem munden. Hvis du ikke kan trække vejret flydende gennem bevægelserne, så prøve at sætte tempoet lidt ned og slappe lidt af i bevægelserne.
 
@@ -266,6 +272,10 @@ Hvis du typisk laver en kort afspænding bagefter og har en tendens til at fryse
 Hvis du kan lide artiklerne her fra Motionsplan og gerne vil støtte sitet, så kan du overveje at bruge vores partnere til at købe dine yoga-produkter og yogaudstyr. Så tjener vi lidt kommision, og du får nogle fede produkter.
 
 {% include feature_row id="feature_row_yogamat" type="left" %}
+
+## Ofte stillede spørgsmål
+
+{% include faq.html %}
 
 ## Referencer til solhilsen A og B
 

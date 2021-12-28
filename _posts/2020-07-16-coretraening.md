@@ -3,7 +3,7 @@ title: "Coretræning: 9 øvelser til stærk core og kropsstamme [2022]"
 permalink: /core/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1571019613576-2b22c76fd955?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=5
+  overlay_image: https://images.unsplash.com/photo-1571019613576-2b22c76fd955?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
   teaser: https://images.unsplash.com/photo-1571019613576-2b22c76fd955?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: "Coretræning: 9 øvelser til stærk core og kropsstamme"
 tags:
@@ -72,7 +72,7 @@ Derudover giver en god stabilitet og udholdenhed i kropsstammen en mindre risiko
 
 ## Hvorfor er en stærk core vigtig?
 
-### En stærk core giver mulighed for et tungere løft
+### 1. En stærk core giver mulighed for et tungere løft
 
 Når du har en stærk core, så kan den bidrage med et godt fundament for dine muskler at lave kraftudvikling på. Desuden vil du fx i dødløft formentlig have en fordel af, at ryggen er modstandsdygtig over for fleksion, hvilket gør at kroppen vil lade dig løfte tungere.
 
@@ -80,7 +80,7 @@ Kroppens evne til at modstå rotationer, ekstension og fleksion er en væsentlig
 
 Kropsstammen er naturligvis også med til at sætte ekstra kraft på fx kaste- og sparkebevægelser, hvor selve rotationen skal være med til at skabe ekstra kraft.
 
-### Stabilitet omkring rygsøjlen under bevægelser
+### 2. Stabilitet omkring rygsøjlen under bevægelser
 
 En stærk core skaber er fundamentet for en god stabilitet, når vi bevæger os. Det kan faktisk både være ved løb og gang, når vi har vægten på det ene ben. Det kan også være, når vi bærer noget i den ene arm, eller for den sags skyld i begge arme.
 

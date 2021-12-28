@@ -51,13 +51,6 @@ feature_row:
     btn_label: "Tjek prisen"
     btn_class: "btn--danger"
     rel: sponsored nofollow noopener
-#faq:
-#  - question: "Hvordan vender jeg om i Zwift?"
-#    answer: "Hvis du er kommet på en lang tur og gerne vil køre tilbage, så kan du vende om. Det gør du ved at klikke på 'pil ned' på dit keyboar eller holde U-turn-knappen nede på din mobilapp. Du kan også bare stå af cyklen, og klikke på 'end ride', hvis ikke du vil køre mere."
-#  - question: "Hvordan ændrer jeg mit navn til et _group ride_?"
-#    answer: "I nogle _group rides_ bliver du bedt om at ændre dit navn. Du skal ændre dit navn på _dashboardet_, inden du starter løbet. Du klikker på den lille blyant ved siden af dit navn. Du skal logge ud og ind igen for se din navneændring."
-#  - question: "Hvordan får jeg en lysende 'Tron' cykel?"
-#    answer: "De lysende neoncykler er en belønning, som du gør dig fortjent til efter 50.000 meters _climbing_ på *Everest Challenge*. Når du har fuldført udfordringen låses _Trek Emonda_-cyklen op. Det er ikke let at få cyklen."
 ---
 
 Jeg er lige gået i gang med at afprøve BKOOL på hometrainer, så jeg har skrevet en guide til at komme i gang med virtuel cykling. Det er en guide til en begynder, som besvarer alle de spørgsmål, jeg selv havde første gang jeg satte mig på på cyklen for at køre BKOOL.

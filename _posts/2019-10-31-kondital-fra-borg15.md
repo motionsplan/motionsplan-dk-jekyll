@@ -2,10 +2,9 @@
 title: &title "Borg 15 konditest på cykel 🚴🚴‍♀️"
 seo_title: "Borg 15 konditest på cykel"
 permalink: /kondital-borg15/
-excerpt: "Borg 15-testen eller Graded Cycling Test with Talk Test er en submaksimal konditest på cykel, hvor forsøgspersonens kondital estimeres ud fra en test på en ergometercykel."
+excerpt: "Borg 15-testen eller _Graded Cycling Test with Talk Test_ er en submaksimal konditest på cykel, hvor forsøgspersonens kondital estimeres ud fra en test på en ergometercykel."
 language: da
 header:
-  overlay_image: https://i.ytimg.com/vi/gEQ1M-NKHCA/maxresdefault.jpg
   teaser: https://i.ytimg.com/vi/gEQ1M-NKHCA/maxresdefault.jpg
   caption: *title
 category:
@@ -23,9 +22,11 @@ toc: true
 breadcrumbs: true
 ---
 
-I Borg 15-testen cykler forsøgspersonen på cykel med en gradvist højere belastning, indtil vedkommende vurderer arbejdet til at være “Anstrengende” i forhold til Borg-skalaen (15 er anstrengende på Borg-skalaen). Derefter estimeres konditallet ud fra den opnåede belastning på cykeltesten.
+I Borg 15-testen cykler forsøgspersonen på et cykelergometer med en gradvist højere belastning, indtil arbejdet vurderes til at være “Anstrengende” i forhold til Borg-skalaen (15 er anstrengende på Borg-skalaen). Derefter estimeres konditallet ud fra den opnåede belastning på cykeltesten.
 
 Konditionstesten Borg 15 har fået sit navn efter professor Gunnar Borg, som opfandt den. Senere kaldes den også på engelsk for _Graded Cycling Test with Talk Test_.
+
+{% include figure image_path=page.header.teaser caption="Cykeltesten Borg 15 kan være med til at finde dit kondital med en submaksimal test" alt="Borg 15 cykeltest" %}
 
 *[RPE]: Rate of Perceived Exertion
 

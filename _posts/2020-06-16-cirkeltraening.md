@@ -3,7 +3,7 @@ title: &title "Cirkeltræning: Effektiv træning - Øvelser og variationer"
 permalink: /cirkeltraening/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1544216717-3bbf52512659?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=5
+  overlay_image: https://images.unsplash.com/photo-1544216717-3bbf52512659?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
   teaser: https://images.unsplash.com/photo-1544216717-3bbf52512659?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   overlay_filter: 0.4
   caption: *title
@@ -17,6 +17,11 @@ tags:
   - træning
 last_modified_at: 2020-06-11T08:14:14Z
 toc: true
+faq:
+  - question: Hvad er cirkeltræning? 
+    answer: Cirkeltræning er en effektiv måde at strukturere din træning på. I cirkeltræning vælger du typisk 3-12 øvelser, som du udfører på skift enten efter tid eller antal gentagelser. Når du har færdiggjort en øvelse, går du videre til næste øvelse indtil, du har været hele cirklen rundt. Mange laver cirkeltræning i flere end en runde.
+  - question: Hvor mange øvelser skal jeg vælge til cirkeltræning?
+    answer: Du bestemmer naturligvis selv, hvor mange øvelser du vælger til cirkeltræning. Men du skal nok i hvert fald vælge 3-4 øvelser før du kan kalde det cirkeltræning.
 ---
 
 Jeg kan godt lide at organisere min træning som cirkeltræning eller som det hedder på _circuit træning_. Jeg har kigget lidt på, hvad cirkeltræning er, hvordan du kan skrue dit cirkeltræningsprogram sammen, og hvilke øvelser du kan bruge i din cirkeltræning?
@@ -44,7 +49,7 @@ Du gør følgende for at planlægge din cirkeltræning:
 
 {% include figure image_path="https://static1.squarespace.com/static/595e5a971b631bc13c6ba25b/595e8a9578d171e39723c07c/596c68bef14aa1a6e70f9c9d/1533589031026/Circuit+Training+Defined.jpg?format=1500w" caption="Eksempel på cirkeltræning" %}
 
-Lad os tage et simpelt eksempel på denne fremgangsmåde at planlægge dit cirkeltræningsprogram.
+Lad os tage et simpelt eksempel på denne fremgangsmåde til at planlægge dit cirkeltræningsprogram.
 
 - 30s arbejde og 15s pause
 - 6-8 forskellige øvelser
@@ -129,7 +134,14 @@ Nu er du klædt på til at lave dit eget cirkeltræningsprogram. Du kan fx imple
 
 Jeg har skrevet et indlæg om [intervaltræning også, hvor du kan se mere hvordan du kan skrue arbejds- og pauseperioderne sammen]({% link _posts/2020-06-16-cirkeltraening.md %}).
 
+## Ofte stillede spørgsmål
+
+{% include faq.html %}
+
 ## Referencer til cirkeltræning og circuit træning
+
+<details markdown="1">
+  <summary>Se referencer</summary>
 
 - Braun, W. A., W. E. Hawthorne, og M. M. Markofski. 2005. “Acute EPOC Response in Women to Circuit Training and Treadmill Exercise of Matched Oxygen Consumption”. European Journal of Applied Physiology 94 (5–6): 500–504. <https://doi.org/10.1007/s00421-005-1383-7>.
 - Riegler, Michelle, G. Stotz, Kaitlyn Fitzgerald, Christian K. Munoz, Jamie Thornton Lewis, Sebastian Ring, og Todd A. Astorino. 2017. “Acute Responses to the 7-Minute Workout”. Journal of strength and conditioning research. <https://doi.org/10.1519/JSC.0000000000002073>.
@@ -140,3 +152,4 @@ Jeg har skrevet et indlæg om [intervaltræning også, hvor du kan se mere hvord
 - Takeshima, Nobuo, Michael E. Rogers, Mohammod M. Islam, Tomoko Yamauchi, Eiji Watanabe, og Akiyoshi Okada. 2004. “Effect of Concurrent Aerobic and Resistance Circuit Exercise Training on Fitness in Older Adults”. European Journal of Applied Physiology 93 (1–2): 173–82. <https://doi.org/10.1007/s00421-004-1193-3>.
 - Kraemer, W. J., M. Keuning, N. A. Ratamess, J. S. Volek, M. McCormick, J. A. Bush, B. C. Nindl, m.fl. 2001. “Resistance Training Combined with Bench-Step Aerobics Enhances Women’s Health Profile”. Medicine and Science in Sports and Exercise 33 (2): 259–69. <https://doi.org/10.1097/00005768-200102000-00015>.
 - Schmidt, Dan, Kaz Anderson, Marissa Graff, og Victoria Strutz. 2016. “The Effect of High-Intensity Circuit Training on Physical Fitness”. The Journal of Sports Medicine and Physical Fitness 56 (5): 534–40.
+</details>

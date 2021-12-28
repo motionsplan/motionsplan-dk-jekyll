@@ -19,7 +19,7 @@ tags:
   - featured
 category:
   - Yoga
-last_modified_at: 2021-01-24T09:41:09Z
+last_modified_at: 2021-12-24T09:41:09Z
 feature_row:
   - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/560x/9df78eab33525d08d6e5fb8d27136e95/d/e/de-fem-tibetanere-1.jpg
     alt: "Bogen De 5 tibetanere af Peter Kelder"
@@ -123,6 +123,14 @@ feature_row_citatplakat:
     title: Yoga poses - Yoga plakat
     alt: Yoga poses - Yoga plakat
     rel: "sponsored nofollow noopener"
+faq:
+  - question: Hvad er de fem tibetanere?
+    answer: "De fem tibetanere er fem yogabaserede øvelser skabt som stammer fra tibetanske munke. Yogaøvelserne blev bragt til vesten af Oberst Bradford, og Peter Kelder beskrev dem i sin bog: De fem tibetanere. De fem tibetanske riter skal laves 21 gange hver, og tager omkring 15 minutter at lave og siges at give evig ungdom."
+  - question: Hvordan skal jeg trække vejret ved de fem tibetanere?
+    answer: |
+      Vejrtrækningen i de fem tibetanere er en vigtig del af øvelserne. Du kan læse om vejrtrækningen i øvelsesbeskrivelserne. Vejrtrækningen stor betydning, når du gennemfører øvelser for at få det rigtige udbytte af bevægelserne.
+  - question: Hvor lang tid tager det at lave de 5 tibetanere?
+    answer: Det tager kun omkring 10-20 minutter at lave de fem tibetanere.
 ---
 
 De fem tibetanere er fem yogaøvelser beskrevet af Peter Kelder i slutningen af 1930'erne, men øvelserne kan spores tilbage til omkring år 0. De fem tibetanske riter er en rigtig god introduktion til yoga og øvelserne let at implementere i sin egen hverdag. Jeg har kigget lidt på, hvad de fem tibetanere er, og hvilken virkning de har på kroppen?
@@ -277,7 +285,7 @@ Hvis du har erfaringer med de fem tibetanere eller andre styrke- og smidighedsg�
 
 Vejrtrækningen i de fem tibetanere er en vigtig del af øvelserne. Derfor bør du læse øvelsesbeskrivelserne grundigt, så du ved hvordan du skal trække vejret, mens du udfører de tibetanske riter.
 
-Vejrtrækningen har i det hele taget stor betydning, når du gennemfører øvelser for at få det rigtige udbytte af bevægelserne.
+Vejrtrækningen har stor betydning, når du gennemfører øvelser for at få det rigtige udbytte af bevægelserne.
 
 ## Har jeg brug for udstyr til de fem tibetanere?
 
@@ -303,7 +311,7 @@ Det hormonelle (endokrine) system har ansvar for hele kroppens generelle funktio
 
 ## Hvilke fordele er der ved de 5 tibetanere?
 
-Det tager kun omkring 10-20 minutter om dagen at lave de fem tibetanere. Peter Kelder giver mange eksmpler på fordele ved De fem tibetanere: foryngelse, bedre søvn, friskhed og energi, bedre hukommelse og så videre. Det er nogle rigtig gode salgsargumenter for øvelserne.
+Det tager kun omkring 10-20 minutter om dagen at lave de fem tibetanere. Peter Kelder giver mange eksempler på fordele ved De fem tibetanere: foryngelse, bedre søvn, friskhed og energi, bedre hukommelse og så videre. Det er nogle rigtig gode salgsargumenter for øvelserne.
 
 De 5 tibetanere påstås allerede efter et par ugers træning at have følgende virkning:
 
@@ -359,7 +367,7 @@ De fem tibetanere blev for alvor udbredt i den vestlige verden, da Peter Kelder 
 
 {% include feature_row type="left" %}
 
-## Virker de 5 tibetanere virkelig?
+## Virker de 5 tibetanere?
 
 Jeg er lige ved at dykke ned videnskaben i forhold til om der findes videnskabeligt belæg for effekten af de fem tibetanere. Stay tuned.
 
@@ -387,7 +395,7 @@ Hvis det er sket for dig, at du overskydende seksuel energi, så kan du følge b
 > ...
 > take air into your empty lungs, let the air flow in through the nose. When the lungs are full, exhale through the mouth. As you exhale, relax your arms... Then take several deep breaths through the mouth or nose, allowing them to escape through either the mouth or nose."
 
-— <cite>[Wikipedia](https://en.wikipedia.org/wiki/Five_Tibetan_Rites#Sixth_Rite)</cite>
+--- <cite>[Wikipedia](https://en.wikipedia.org/wiki/Five_Tibetan_Rites#Sixth_Rite)</cite>
 
 ## Er de fem tibetanske riter for dig?
 
