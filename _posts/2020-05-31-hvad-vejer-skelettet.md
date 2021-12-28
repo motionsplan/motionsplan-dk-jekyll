@@ -95,12 +95,9 @@ Knoglernes densitet har intet at gøre med knoglernes omkreds.
 
 ## Hvad er massefylden for knogler?
 
-|        | Massefylde              | 1 liter vejer |
-|--------|-------------------------|---------------|
-| Knogler | 1,850 g / cm<sup>3</sup> | 1,850 kg       |
-| Fedt   | 0,940 kg / cm<sup>3</sup>  | 0,9 kg        |
-| Muskel | 1,050 g / cm<sup>3</sup> | 1,06 kg       |
-| Vand | 1,000 g / cm<sup>3</sup> | 1,00 kg       |
+Massefylden for knogler er 1,85 g / cm<sup>3</sup>. Du kan se massefylden sammenlignet med andre typer væv i kroppen.
+
+{% include table-body-density.html %}
 
 {% include faq.html heading="2" %}
 

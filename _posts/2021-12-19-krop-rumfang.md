@@ -15,3 +15,5 @@ toc: true
 Kroppens rumfang
 
 Gennemsnitlig densitet for mennesket
+
+{% include table-body-density.html %}
