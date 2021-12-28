@@ -28,7 +28,7 @@ Hvordan er kulhydrater opbygget? **Kulhydrater er opbygget af tre grundstoffer: 
 
 Fra Wikipedia kan du læse om, hvad kulhydrater er opbygget af?
 
-> Kulhydrater består næsten udelukkende af tre grundstoffer: carbon, hydrogen og oxygen. Grundstof-forholdene varierer, men ikke meget. Normalt er den molære andel af carbon den samme eller en anelse større end oxygen, og den molære andel af hydrogen er dobbelt så stor (eller lidt større) end andelen af oxygen. Kulhydraters traditionelle generelle formel er: CxH2xOx, men mange vigtige kulhydrater, f.eks. deoxyribose C5H10O4 , har mindre oxygen.
+> Kulhydrater består næsten udelukkende af tre grundstoffer: carbon, hydrogen og oxygen. Grundstof-forholdene varierer, men ikke meget. Normalt er den molære andel af carbon den samme eller en anelse større end oxygen, og den molære andel af hydrogen er dobbelt så stor (eller lidt større) end andelen af oxygen. Kulhydraters traditionelle generelle formel er: CxH2xOx, men mange vigtige kulhydrater, fx deoxyribose C5H10O4 , har mindre oxygen.
 
 --- <cite>[Wikipedia](https://da.wikipedia.org/wiki/Kulhydrat)</cite>
 

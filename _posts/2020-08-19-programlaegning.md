@@ -108,7 +108,7 @@ Nedenstående figur illustrerer at så snart du går i gang med at træne, så f
 
 Desto mere trænet du er, desto vanskeligere bliver det at få fremgang, men til gengæld kan du holde til mere.
 
-Hvor meget belastning kroppen kan holde til afhænger af mange ting. Fx vil øget stress i andre dele af livet end træning flytte kurven nedad, mens god kost, restitution og ordentlig søvn kan flytte kurven opad.
+Hvor meget belastning kroppen kan holde til afhænger af mange ting. Fx vil øget stress i andre dele af livet end træning flytte kurven nedad, mens god kost, restitution og [ordentlig søvn](/soevn/) kan flytte kurven opad.
 
 {% include figure image_path="/assets/images/training/response-training.svg" caption="" %}
 

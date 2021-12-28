@@ -52,7 +52,7 @@ Men det betyder faktisk også, at mændenes gennemsnitshøjde er steget med 11,8
 
 ## Hvorfor er gennemsnitshøjden så høj i Danmark?
 
-Danmark følger altså godt med, når det gælder gennemsnitshøjden. Generne spiller naturligivs ind, men de vigtigste parametre for, at gennemsnitshøjden i Danmark bliver høj er kost og sundhed i løbet af barndommen. Vi spiser en relativt varieret og sund kost, får nok søvn og har et godt, mentalt helbred. Det gør det lettere at opnå en høj gennemsnitshøjde.
+Danmark følger altså godt med, når det gælder gennemsnitshøjden. Generne spiller naturligivs ind, men de vigtigste parametre for, at gennemsnitshøjden i Danmark bliver høj er kost og sundhed i løbet af barndommen. Vi spiser en relativt varieret og sund kost, [får nok søvn](/soevn/) og har et godt, mentalt helbred. Det gør det lettere at opnå en høj gennemsnitshøjde.
 
 Generne spiller naturligvis også ind, men det gør følgende formentlig også:
 

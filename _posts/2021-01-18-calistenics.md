@@ -53,11 +53,11 @@ Det handler altså ikke om at tage så mange reps som muligt i armbøjninger ell
 
 Når vi snakker helhed i den smukke træning, handler det heller ikke kun om muskelkæder og hjerneneuroner i vores program, men ligeledes at tænke elementer af den sunde stærke krop ind i resten af ens daglige virke. Helt fra søvn til mobilitet ved udstræk og kost.
 
-Start morgenen med 2 store glas vand. Vores krop består af 60 % vand, og at starte morgen med vand efter 8 timer søvn uden, er en god start til at få den store motor ordentligt i gang.
+Start morgenen med 2 store glas vand. Vores [krop består i gennemsnit af omkring 60% vand](/vand-i-kroppen/), og at starte morgen med vand efter en lang søvn uden, er en god start til at få den store motor ordentligt i gang.
 
-Brug derefter 3 min. udstræk af kroppen til at få smurt led og lemmer godt, og hjælp til mobilitet, kropsforståelse, og generelt en god varm start på dagen. Det kunne f.eks. være den dynamiske yogaklassiker ”hunden til kobraen”, og en god dyb squat med lige ryg, foden i gulvet og masser af ankeltwist. 3 min er fint. Keep it simple.
+Brug derefter 3 min. udstræk af kroppen til at få smurt led og lemmer godt, og hjælp til mobilitet, kropsforståelse, og generelt en god varm start på dagen. Det kunne fx være den dynamiske yogaklassiker ”hunden til kobraen”, og en god dyb squat med lige ryg, foden i gulvet og masser af ankeltwist. 3 min er fint. Keep it simple.
 
-Derefter er du klar til en god sund morgenmad med gode langsomt optagelige kulhydrater f.eks. i form af havregryn toppet med bær. Bær er antioxidanter som blandt andre gode ting antiinflammatoriske, og er derved gode til at forebygge den irriterede albuer eller led, som der kan forekomme ifbm. de mange statiske hold og det store arbejde ved hang time i bar osv.
+Derefter er du klar til en god sund morgenmad med gode langsomt optagelige kulhydrater fx i form af havregryn toppet med bær. Bær er antioxidanter som blandt andre gode ting antiinflammatoriske, og er derved gode til at forebygge den irriterede albuer eller led, som der kan forekomme ifbm. de mange statiske hold og det store arbejde ved hang time i bar osv.
 
 ## Program til calisthenics på 8 uger
 

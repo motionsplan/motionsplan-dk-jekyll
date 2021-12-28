@@ -74,7 +74,7 @@ Men hvilken type musik skal man så vælge til sine aktiviteter. Det betyder alt
 
 > Tempoet angiver simpelthen hvor hurtig grundtakten eller pulsen i et musikstykke er, og er ofte udgangspunktet for at vurdere et musikstykkes egnethed til opvarmning. Tempo oftest i Beats per minute (taktslag pr. minut).
 >
-> Tempo for et musikstykke kan måles på samme måde som man måler sin puls: Tæl f.eks. hvor mange taktslag der er på 10 sekunder og multiplicér med 6.
+> Tempo for et musikstykke kan måles på samme måde som man måler sin puls: Tæl fx hvor mange taktslag der er på 10 sekunder og multiplicér med 6.
 
 --- <cite>[Idrætsmusik](https://idraetsmusik.dk/learn/music-for-warming-up)</cite>
 

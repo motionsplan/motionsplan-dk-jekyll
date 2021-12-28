@@ -23,7 +23,7 @@ Formålet med de seks uger har været at finde ind til det vaskebræt, som alle 
 
 ## Hvordan får du en sixpack?
 
-Hvis man vil have en sixpack, skal man have styr på søvnrytmen, sin kost og endelig sin træning. Det overrasker nok de fleste, at det er i den rækkefølge.
+Hvis man vil have en sixpack, skal man have [styr på søvnrytmen](/soevn/), sin kost og endelig sin træning. Det overrasker nok de fleste, at det er i den rækkefølge.
 
 **Søvnrytmen**. Sollys er det vigtigste til at regulere vores døgnrytme. Soveværelset skal være helt sort, fordi der er et område i ansigtet, som når det bliver ramt af lys, gør en klar til at vågne. Forklaringen på at søvnrytmen er vigtig ift. at forbrænde fedt, skal bl.a. findes i døgnrytmen for hormonet [cortisol](https://web.archive.org/web/20150311232535/http://www.jacobsondergaard.dk/2011/07/11/sixpack-pa-6-uger-dag-1-kom-sovende-til-en-sixpack/){:rel="nofollow"} og dets samspil med DHEA, som Jacob Søndergaard glimrende forklarer [sine videoer](https://web.archive.org/web/20150311232535/http://www.jacobsondergaard.dk/2011/07/11/sixpack-pa-6-uger-dag-1-kom-sovende-til-en-sixpack/){:rel="nofollow"}, du kan finde på Youtube. Hvis søvnmønsteret ikke er i orden, kommer kroppen under belastning, og når kroppen er belastet, kan man ikke tabe fedt.
 

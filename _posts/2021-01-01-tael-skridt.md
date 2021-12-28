@@ -74,10 +74,10 @@ Der er flere fysiske fordele ved at gå. Se bare på denne liste over fordele ve
 
 Der er også psykologiske fordele ved at gå mere. Og skridttælling kan motivere de fleste. Når du er mere aktiv - og særligt ved at gå - så foreslår [motion-oline.dk](https://www.motion-online.dk/tael-skridt-sjovt-motiverende/){: rel="nofollow noopener" } følgende psykologiske fordele ved at gå:
 
-- Bedre søvn om natten. Når kroppen har været fysisk aktiv og er blevet træt på en naturlig måde, vil den lettere kunne finde ro og slappe af om natten.
-- Færre spændinger. Gang har en muskelafspændende effekt, som hjælper mod spændinger i fx skuldre og nakke.
-- Humøret stiger. Når du går, stiger produktionen af hormoner, særligt endorfiner. De er kroppens naturlige lykkestoffer, som gør os gladere og mere veltilpasse.
-- Bedre indlæringsevne.
+- **[Bedre søvn om natten](/soevn/)**. Når kroppen har været fysisk aktiv og er blevet træt på en naturlig måde, vil den lettere kunne finde ro og slappe af om natten.
+- **Færre spændinger**. Gang har en muskelafspændende effekt, som hjælper mod spændinger i fx skuldre og nakke.
+- **Humøret stiger**. Når du går, stiger produktionen af hormoner, særligt endorfiner. De er kroppens naturlige lykkestoffer, som gør os gladere og mere veltilpasse.
+- **Bedre indlæringsevne**.
 
 Jeg kunne dog godt tænke mig at se nogle studier, der kan sandsynliggøre at gang har ovenstående effekter. Hvis du kender nogen, så skriv endelig i kommentarerne.
 

@@ -140,7 +140,7 @@ Mit primære mål med træning er for det meste bare generelt at forbedre mit kr
 
 Hvis jeg er i en periode af mit træningsliv, hvor det hovedsageligt handler om generelt at forbedre mit kredsløb, så kan jeg godt lide at skifte mellem kredsløbsmaskinerne. Jeg har heldigvis relativt let adgang til en række forskellige cardiomaskiner. På det punkt følger jeg Morten Zachos råd:
 
-> Mange oplever, at maskinen simpelthen bliver for kedelig, og at man derfor har svært ved at motivere sig selv. Mit bedste råd vil derfor være, at man skifter mellem maskinerne. Så opnår man også en mere varieret træning. Hvis man f.eks. tager ti minutter på løbebåndet, ti minutter på cyklen og slutter af med ti minutter på crosstraineren, så går tiden meget hurtigere, end hvis man bare trænede i en halv time på en enkelt maskine.
+> Mange oplever, at maskinen simpelthen bliver for kedelig, og at man derfor har svært ved at motivere sig selv. Mit bedste råd vil derfor være, at man skifter mellem maskinerne. Så opnår man også en mere varieret træning. Hvis man fx tager ti minutter på løbebåndet, ti minutter på cyklen og slutter af med ti minutter på crosstraineren, så går tiden meget hurtigere, end hvis man bare trænede i en halv time på en enkelt maskine.
 
 — <cite>[Morten Zacho](https://jyllands-posten.dk/livsstil/familiesundhed/motion/ECE7680201/loebebaandet-motionscyklen-crosstraineren-eller-romaskinen/)</cite>
 

@@ -63,6 +63,6 @@ Competition
 
 {% include video provider="youtube" id="6LK0NVK0w1Y" %}
 
-Du kan læse mere om [Bulletproof Athlete](http://robertsontrainingsystems.com/products/bulletproof-athlete/). Bogen har ikke kun træningstips, men også tips til kost og ernæring, søvn og restitution.
+Du kan læse mere om [Bulletproof Athlete](http://robertsontrainingsystems.com/products/bulletproof-athlete/). Bogen har ikke kun træningstips, men også tips til kost og ernæring, [søvn](/soevn/) og restitution.
 
 [^alwyn]: Alwyn Cosgrove præsenterer ideerne i programmet i en artikel om Bulletproof Athlete.

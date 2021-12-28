@@ -134,7 +134,7 @@ I det følgende gennemgår jeg kort [Morten Zachos tanker bag sundhedsprofilen](
 >
 > ### Styrke
 >
-> Muskelstyrken i armene er ikke direkte relateret til ens sundhed på samme måde som f.eks. kost og kondition, men der er alligevel studier der peger på, at hvis man tidligt i livet opretholder en god muskelstyrke, så øger man sandsynligheden for et langt liv. Dertil er en god muskelstyrke især vigtigt når man er kommet lidt op i årene, da den naturlige aldersvækkelse, der kommer hvis man er inaktiv, kan være forbundet med alvorlige funktionelle og dermed helbredsmæssige problemer.
+> Muskelstyrken i armene er ikke direkte relateret til ens sundhed på samme måde som fx kost og kondition, men der er alligevel studier der peger på, at hvis man tidligt i livet opretholder en god muskelstyrke, så øger man sandsynligheden for et langt liv. Dertil er en god muskelstyrke især vigtigt når man er kommet lidt op i årene, da den naturlige aldersvækkelse, der kommer hvis man er inaktiv, kan være forbundet med alvorlige funktionelle og dermed helbredsmæssige problemer.
 
 {% endcomment %}
 
@@ -152,11 +152,11 @@ I det følgende gennemgår jeg kort [Morten Zachos tanker bag sundhedsprofilen](
 
 > ### Blodtryk
 >
-> Ca. 1 million danskere har forhøjet blodtryk. Personer med forhøjet blodtryk har en markant øget risiko for en række alvorlige hjerte-kar sygdomme som f.eks. blodpropper og hjertesvigt. Den generelle grænse for ”hypertension” er et blodtryk på over 140/90 mmHg, men man ved at selv blodtryk under denne grænse er associeret med forøget risiko. Generelt peger undersøgelserne på at jo lavere blodtrykket er, desto mindre risiko har man.
+> Ca. 1 million danskere har forhøjet blodtryk. Personer med forhøjet blodtryk har en markant øget risiko for en række alvorlige hjerte-kar sygdomme som fx blodpropper og hjertesvigt. Den generelle grænse for ”hypertension” er et blodtryk på over 140/90 mmHg, men man ved at selv blodtryk under denne grænse er associeret med forøget risiko. Generelt peger undersøgelserne på at jo lavere blodtrykket er, desto mindre risiko har man.
 >
 > ### Samlet scoring
 >
-> Ikke alle elementer tæller lige meget i den samlede score. Det trækker f.eks. meget mere fra at være ryger i forhold til blot at være usmidig. Dertil er det heller ikke alle test der giver en højere samlet score selv om man forbedrer sig. Eksempelvis er det godt for sundheden at have en hvis styrke i overkroppen, men man er ikke nødvendigvis sundere fordi man kan tage virkelig mange armstrækninger. Vægtningen af de forskellige elementer er bl.a. sket ved at kigge på rapporten ” Risikofaktorer og folkesundhed i Danmark”, samt ved at kigge på mere specifikke undersøgelser.
+> Ikke alle elementer tæller lige meget i den samlede score. Det trækker fx meget mere fra at være ryger i forhold til blot at være usmidig. Dertil er det heller ikke alle test der giver en højere samlet score selv om man forbedrer sig. Eksempelvis er det godt for sundheden at have en hvis styrke i overkroppen, men man er ikke nødvendigvis sundere fordi man kan tage virkelig mange armstrækninger. Vægtningen af de forskellige elementer er bl.a. sket ved at kigge på rapporten ” Risikofaktorer og folkesundhed i Danmark”, samt ved at kigge på mere specifikke undersøgelser.
 
 --- <cite> [Morten Zacho](http://web.archive.org/web/20160406061608/http://www.motion-online.dk/sundhed_og_vaegt/sundhed-generelt/sundhedsprofil_-_teoretisk_baggrund/){:rel="nofollow"}</cite>
 

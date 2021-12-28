@@ -79,7 +79,7 @@ Hvis du gerne vil have lidt inspiration til yoga, du kan lave derhjemme, så har
 
 {% include video provider="youtube" id="nEUGKdGA0kU" %}
 
-- **Gående meditation**: Gå en tur, f.eks. i naturen, med fuld opmærksomhed på balance, fodsåler, ryg, hastighed samt på farver, dufte og alle de sanselige indtryk du oplever undervejs
+- **Gående meditation**: Gå en tur, fx i naturen, med fuld opmærksomhed på balance, fodsåler, ryg, hastighed samt på farver, dufte og alle de sanselige indtryk du oplever undervejs
 - **Liggende meditation**: Du ligger varmt og komfortabelt på gulvet, med lukkede øjne, skuldrene væk fra ørerne, lang nakke med hagen lidt inde til brystet, afslappede fødder der vender ud til siden og afslappede arme, der ligger langs kroppen med håndfladerne opad. I denne position kan fokus være på åndedrættet - bryst og mave som hæver og sænker sig helt af sig selv.
 - **Body scanning**: Her mærker du hele kroppen i små trin, ved at starte ved eksempelvis hovedet og gennemgå hele kroppen og ende ved fødderne.
 - **Siddende meditation**: Du sidder på en stol med ret ryg, afslappede skuldre, hænderne på lårene med håndfladerne opad, evt. med en blid kontakt mellem tommeltot og pegefingerens spidser. Denne håndbevægelse er ikke religiøs, men sikrer i stedet du forbliver i kroppen, er jordnær, og ikke flyder væk i tanker, men er til stede lige nu - vågen og opmærksom.

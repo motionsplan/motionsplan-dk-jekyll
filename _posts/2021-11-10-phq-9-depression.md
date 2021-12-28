@@ -89,7 +89,7 @@ Jo højere scoren er i spørgeskemaet, jo flere tegn og depressive symptomer er 
 
 - Lille interesse i eller glæde ved at gøre ting
 - Følt dig nedtrykt, håbløs eller været deprimeret
-- Problemer med at falde i søvn eller sove, eller med at sove for meget
+- Problemer med at falde i [søvn eller sove](/soevn/), eller med at sove for meget
 - Følt dig træt eller har kun haft lidt energi
 - Ringe appetit eller spist for meget
 - Haft det dårligt med dig selv – eller følt, at du er en fiasko eller har skuffet dig selv eller din familie

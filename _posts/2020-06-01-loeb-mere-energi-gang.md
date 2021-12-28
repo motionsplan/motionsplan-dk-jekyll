@@ -254,7 +254,7 @@ Når du træner tager du energi fra dine glykogen og fedtdepoter. Det kræver en
 
 Når man sammenligninger forbrænding ved gang og løb, så bruger man typisk flere kalorier ved at løbe. Man forbrænder ganske enkelt mere ved løb end ved gang.
 
-> Hvis vi kigger på energiforbruget pr. minut i stedet for pr. km, så vil man typisk forbrænde mindst 4 gange så meget ved at løbe. Hvis vi f.eks. sammenligner gang ved 5 km/t og løbe ved 10 km/t, så vil man tilbagelægge det dobbelte antal km på den samme tid. Hvilket skal sammenholdes med at man også har forbrændt ca. det dobbelte pr. km.
+> Hvis vi kigger på energiforbruget pr. minut i stedet for pr. km, så vil man typisk forbrænde mindst 4 gange så meget ved at løbe. Hvis vi fx sammenligner gang ved 5 km/t og løbe ved 10 km/t, så vil man tilbagelægge det dobbelte antal km på den samme tid. Hvilket skal sammenholdes med at man også har forbrændt ca. det dobbelte pr. km.
 
 --- <cite>[Morten Zacho](http://web.archive.org/web/20150120003941/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/du_forbraender_flere_kalorier_ved_at_loebe_end_ved_at_gaa/){:rel="nofollow"}</cite>
 

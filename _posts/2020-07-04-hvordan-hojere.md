@@ -148,7 +148,7 @@ Når du sover godt, så giver du kroppen mulighed for at bygge sig selv op. Jeg 
 
 Det sker formentlig primært fordi væksthormon stiger, når du sover godt.
 
-Søvnen er i det hele taget godt for en god, sund udvikling i kroppen. Når du er udhvilet, vil kroppen være i overskud, og en af de ting kroppen vil gøre, når den er i overskud er at vokse i højden.
+[Søvnen](/soevn/) er i det hele taget godt for en god, sund udvikling i kroppen. Når du er udhvilet, vil kroppen være i overskud, og en af de ting kroppen vil gøre, når den er i overskud er at vokse i højden.
 
 ## Højden ændrer sig med alderen
 
@@ -186,7 +186,7 @@ Du har en naturlig udskillelse af væksthormon.
 
 Væksthormon stimuleres af følgende faktorer:
 
-- Dyb og god søvn (specielt de første timer).
+- [Dyb og god søvn](/soevn/) (specielt de første timer).
 - Proteinrige varierede måltider.
 - Træning - særligt i korte perioder med høj intensitet.
 - Hormonet GHRH, som frigives fra hypothalamus.

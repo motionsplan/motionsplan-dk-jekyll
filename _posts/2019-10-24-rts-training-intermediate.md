@@ -50,7 +50,7 @@ Volumen
 Træthed (fatigue)
 : Træthed er den mængde stress, vi har akkumuleret fra træningen. Altså den mængde træthed vi senere skal restituere fra.
 
-Når man kigger på den enkelte løfter, er det altså mest interessant at kigge på, hvor meget træthed en træning har forårsaget. Derfor bliver volumen et værktøj til at skabe træthed, snarere end den paramter der driver selve fremgangen i træningen. Træthed vil også ophobe sig hurtigere på nogle dage end på andre, og det er afhængigt af kost, søvn, restitution og andet arbejde.
+Når man kigger på den enkelte løfter, er det altså mest interessant at kigge på, hvor meget træthed en træning har forårsaget. Derfor bliver volumen et værktøj til at skabe træthed, snarere end den paramter der driver selve fremgangen i træningen. Træthed vil også ophobe sig hurtigere på nogle dage end på andre, og det er afhængigt af kost, [søvn](/soevn/), restitution og andet arbejde.
 
 Så _readiness_ og at den samme volumen ikke skaber den samme træthed for den enkelte altid, gør forudplanlagte programmer sårbare. I stedet kan vi regulere de enkelte træninger undervejs, fx ved at bruge RPE til at styre træningen.
 

@@ -94,7 +94,7 @@ Når du har skimmet indholdsfortegnelsen til Beermanns Stærk, så får du forme
    - Sæt livet i perspektiv
 6. Alt det udonom træningen
    - Kosten er dit brændstof
-   - Søvn
+   - [Søvn](/soevn/)
    - Alkohol
    - [Stress]({% link _posts/2021-11-10-stress.md %})
    - Bogens slutning er din start

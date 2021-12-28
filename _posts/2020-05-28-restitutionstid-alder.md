@@ -148,7 +148,7 @@ Hvis du gerne vil træne meget, så vil du gerne forkorte restitutionstiden, så
 
 Helt grundlæggende kan du forbedre restitutionstiden og blive hurtigere klar til næste træning ved at **få rigeligt med søvn og hvile** og **spise og drikke de rigtige ting**. Hvis du har styr på de to ting af din træning, så vil du meget hurtigere få resultater.
 
-- **Søvn og hvile**. Få en nogenlunde jævn døgnrytme, hvor du går i seng på samme tid hver dag og står op på samme tid. Sørg for mindst 8 timers søvn. Sov i et helt mørkt værelse.
+- **Søvn og hvile**. Få en nogenlunde [jævn døgnrytme og søvnrytme](/soevn/), hvor du går får færdiggjort dine søvncyklusser. Sov i et helt mørkt værelse.
 - **Ernæring**. Sørg for at få rigeligt at spise. Baser kosten på grove grøntsager, grove kulhydrater, proteinholde fødevarer, og så er du 90 procent ad vejen.
 
 Ud over de helt grundlæggende forudsætninger for at forbedre restitutionen, så arbejder folk også med følgende.

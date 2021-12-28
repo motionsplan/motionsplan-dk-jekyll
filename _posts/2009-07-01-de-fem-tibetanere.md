@@ -311,7 +311,7 @@ Det hormonelle (endokrine) system har ansvar for hele kroppens generelle funktio
 
 ## Hvilke fordele er der ved de 5 tibetanere?
 
-Det tager kun omkring 10-20 minutter om dagen at lave de fem tibetanere. Peter Kelder giver mange eksempler på fordele ved De fem tibetanere: foryngelse, bedre søvn, friskhed og energi, bedre hukommelse og så videre. Det er nogle rigtig gode salgsargumenter for øvelserne.
+Det tager kun omkring 10-20 minutter om dagen at lave de fem tibetanere. Peter Kelder giver mange eksempler på fordele ved De fem tibetanere: foryngelse, [bedre søvn](/soevn/), friskhed og energi, bedre hukommelse og så videre. Det er nogle rigtig gode salgsargumenter for øvelserne.
 
 De 5 tibetanere påstås allerede efter et par ugers træning at have følgende virkning:
 
