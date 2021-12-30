@@ -119,9 +119,9 @@ Det interessante er jo så, hvor meget træthed man kan akkummulere pr. uge og s
 | 0%              | Deload       | This is a straight up deload week                                          |
 
 
-## Træthed i de enkelte øvelserne
+## Træthed i de enkelte øvelser
 
-Mike Tuschscher laver træning til _powerlifting_, så derfor går han ud fra i sine betragtning, at man har tre hovedøvelser i hver træning. Man kan sagtens arbejde med forskellig træthedsgrad i de enkelte øvelser, men nedenstående tabel kan give en ide om, hvor lang tid det tager at restituere fra en give træthedsprocent.
+Mike Tuschscher laver træning til _powerlifting_, og han ud fra, at man har to-tre hovedøvelser i hver træning. Man kan sagtens arbejde med forskellig træthedsgrad i de enkelte øvelser, men nedenstående tabel kan give en ide om, hvor lang tid det tager at restituere fra en given træthedsprocent.
 
 | Individual exercise fatigue  ||
 | Fatigue percent | Time limit  |
@@ -134,7 +134,7 @@ Mike Tuschscher laver træning til _powerlifting_, så derfor går han ud fra i 
 
 ## Træthedsprocent og pauser i træningen
 
-Hvis man arbejder med træthedsprocenter, så betyder det naturligvis en del, hvor lange pauser man har mellem sættene. I _powerlifting_-træning opererer man ofte med relativt lange pauser, men for at det skal give mening at bruge træthedsprocenterne så skal den enkelte øvelse inklusive alle opvarmningssæt altså ikke tage længere en følgende tommelfingerregler.
+Hvis man arbejder med træthedsprocenter, så betyder det naturligvis en del, hvor lange pauser man har mellem sættene. I _powerlifting_-træning opererer man ofte med relativt lange pauser, men for at det skal give mening at bruge træthedsprocenterne, så skal den enkelte øvelse inklusive alle opvarmningssæt altså ikke tage længere end følgende tommelfingerregler.
 
 | Time limits guidelines          ||
 | Fatigue percent | Time limit     |
@@ -151,7 +151,7 @@ Jeg bruger selv [RTS App'en](/rts-app/) til at planlægge og logge min træning.
 
 ## RTS Generalized Intermediate Program
 
-Mike Tuschscher har skrevet et eksempelprogram, der passer til David: en letøvet løfter, som går fra at træne tre gange om ugen til fire. David er svagest i bunden af alle sine konkurrenceløft.
+Mike Tuschscher har skrevet et eksempel-program, der passer til David: en letøvet løfter, som går fra at træne tre gange om ugen til fire. David er svagest i bunden af alle sine konkurrenceløft.
 
 Du kan læse en rigtig fin [anmeldelse på powerliftingtowin.com](https://www.powerliftingtowin.com/rts-generalized-intermediate-program/).
 {: .notice .notice--success }
@@ -195,5 +195,3 @@ Hvis du har mod på at kaste dig ud i RPE-baseret træning, så kan jeg kun anbe
 ## Referencer
 
 - [All About Autoregulation](https://www.powerliftingtowin.com/autoregulation/)
-
-## Noter
