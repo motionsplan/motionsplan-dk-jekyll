@@ -16,15 +16,6 @@ tags:
 category:
   - Yoga
 last_modified_at: 2021-02-20T09:41:09Z
-wallsticker:
-  - image_path: https://www.wallstickerland.dk/media/catalog/product/s/u/sun-salutation-danish.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=44221&htmlurl=https://www.wallstickerland.dk/solhilsen-wallsticker
-    title: "Wallsticker med Solhilsen A"
-    alt: "Wallsticker med Solhilsen A"
-    excerpt: "Wallstickerland har en enkel wallsticker med Solhilsen A, som er rigtig let at sætte op. Du kan få et gavekort på 100 kroner, hvis du [tilmelder dig her](http://gavekort.wallstickerland.dk/gratis) først."
-    btn_label: "Tjek prisen"
-    btn_class: "btn--warning"
-    rel: sponsored nofollow noopener
 plakat:
   - image_path: https://trendyliving.dk/images/Solhilsen.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=47232&htmlurl=https://trendyliving.dk/shop/vissevasse-solhilsen-29714p.html
@@ -58,39 +49,6 @@ yogastream:
     title: "Bliv medlem af Yogastream og lær yoga"
     alt: "Bliv medlem af Yogastream og lær yoga og solhilsen"
     rel: sponsored nofollow noopener
-wallsticker_full:
-  - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-therapy-danish.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-therapy-wallsticker
-    title: Yoga therapy
-    rel: sponsored nofollow noopener
-  - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-is-a-way-to-freedom-danish.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-is-a-way-to-freedom-wallstick r
-    title: Yoga is a way to freedom
-    rel: sponsored nofollow noopener
-  - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-is-99-_-practice-danish_3.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-er-99-ovelse-wallsticker
-    title: Yoga er 99 % øvelse
-    rel: sponsored nofollow noopener
-  - image_path: https://www.wallstickerland.dk/media/catalog/product/a/-/a-yoga-instructor-gets-people-to-danish.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/en-yoga-instruktor-far-folk-til-wallsticker
-    title: En yoga-instruktør får folk til
-    rel: sponsored nofollow noopener
-  - image_path: https://www.wallstickerland.dk/media/catalog/product/i/-/i-do-yoga-english.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/i-do-yoga-wallsticker
-    title: I do yoga
-    rel: sponsored nofollow noopener
-  - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-wallsticker
-    title: Yoga
-    rel: sponsored nofollow noopener
-  - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-keeps-punching-me.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-keeps-punching-me-wallsticker
-    title: Yoga keeps punching me
-    rel: sponsored nofollow noopener
-  - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-is-not-just-a-workout-danish.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-er-ikke-bare-en-traening-wallsticker
-    title: Yoga er ikke bare en træning
-    rel: sponsored nofollow noopener
 faq:
   - question: Hvad er forskellen på Solhilsen A og B?
     answer: Solhilsen B er lidt mere avanceret yogasekvens end version A. Typisk laves Solhilsen B efter, at du har lavet flere runder af solhilsen A. Få alt at vide her...
@@ -122,8 +80,6 @@ Karen fra Hverdagsyoga har lavet en rigtig god introduktion til solhilsen i denn
 Solhilsnen kan være en dynamisk og fysisk krævende sekvens, hvor du får pulsen op, gang i vejrtrækningen og sved på panden. Men du kan også praktisere solhilsen i et roligt tempo. Solhilsen kan modificeres og varieres, så den passer til netop dig. (Men i det følgende forsøger vi fokusere på sekvenserne fra Ashtanga Vinyasa Yogaen).
 
 Jeg kan godt lide at lave solhilsen langsomt, så jeg rigtigt kan mærke de forskellige stræk i postionerne. Hvis jeg bruger den som opvarmning, så sætter jeg efterhånden tempoet lidt op og laver flere runder for at få en mere dynamisk træning, hvor pulsen kommer lidt op.
-
-{% include feature_row type="left" id="wallsticker" %}
 
 > The sun is a daily reminder that we too can rise again from the darkness. That we too can shine our own light.
 
@@ -284,5 +240,3 @@ Hvis du kan lide artiklerne her fra Motionsplan og gerne vil støtte sitet, så 
 
 - Ni, Meng; Mooney, Kiersten; Balachandran, Anoop; Richards, Luca; Harriell, Kysha; Signorile, Joseph F. (2014). "Muscle utilization patterns vary by skill levels of the practitioners across specific yoga poses (asanas)"._Complementary Therapies in Medicine_.**22**(4): 662–669. Doi: [10.1016/j.ctim.2014.06.006](https://doi.org/10.1016%2Fj.ctim.2014.06.006).
 </details>
-
-{% include gallery id="wallsticker_full" caption="Du kan finde endnu flere yoga-plakater hos [plakaterne.dk](https://www.plakaterne.dk/yoga-plakater/)." %}

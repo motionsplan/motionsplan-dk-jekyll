@@ -42,27 +42,6 @@ feature_quotes:
     cite: Dave Tate
   - quote: "For me, life is continuously being hungry. The meaning of life is not simply to exist, to survive, but to move ahead, to go up, to achieve, to conquer."
     cite: Arnold Schwarzenegger
-feature_row:
-  - image_path: "https://www.wallstickerland.dk/media/catalog/product/b/r/bruce-lee.jpg"
-    url: "https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/there-are-no-limits-bruce-lee-wallsticker"
-    title: "There are no limits - Bruce Lee"
-    vendor: "Wallstickerland"
-    category: "2334"
-    price: 299.00
-    old_price:
-    discounted: false
-    id: "465"
-    rel: sponsored nofollow noopener
-  - image_path: "https://www.wallstickerland.dk/media/catalog/product/w/h/why-i-do-what-i-do---arnold-scharzenegger-1.jpg"
-    url: "https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/why-i-do-what-i-do-arnold-scharzenegger-wallsticker"
-    title: "Why I Do What I Do - Arnold Scharzenegger"
-    vendor: "Wallstickerland"
-    category: "2334"
-    price: 199.00
-    old_price:
-    discounted: false
-    id: "929"
-    rel: sponsored nofollow noopener
 feature_row_schwarznegger_poster:
   - image_path: "https://citatplakat.dk/wp-content/uploads/2020/11/Fotoplakat-arnold-shwarzenegger-FO10270.png"
     url: "https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/design-plakater/arnold-schwarzenegger-plakat/"
@@ -138,8 +117,6 @@ Du kender sikkert også en masse forskellige citater, som du bruger som motivati
 Brug meget gerne kommentarerne til at dele dine inspirerende favoritcitater, så udvider jeg meget gerne listen her.
 
 ## Flere citater
-
-{% include gallery id="feature_row" caption="Citater om fitness og bodybuilding (reklamelinks)" %}
 
 {% assign site_posts = site.posts | where: "tags", "citater" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 

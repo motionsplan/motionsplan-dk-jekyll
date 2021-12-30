@@ -24,50 +24,6 @@ feature_row_yogamat:
     btn_label: "Tjek prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
-wallsticker_full:
-  - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-therapy-danish.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-therapy-wallsticker
-    title: Yoga therapy
-    rel: sponsored nofollow noopener
-  - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-is-a-way-to-freedom-danish.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-is-a-way-to-freedom-wallsticker
-    rel: sponsored nofollow noopener
-    title: Yoga is a way to freedom
-  - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-is-99-_-practice-danish_3.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-er-99-ovelse-wallsticker
-    title: Yoga er 99 % øvelse
-    rel: sponsored nofollow noopener
-  - image_path: https://www.wallstickerland.dk/media/catalog/product/a/-/a-yoga-instructor-gets-people-to-danish.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/en-yoga-instruktor-far-folk-til-wallsticker
-    title: En yoga-instruktør får folk til
-    rel: sponsored nofollow noopener
-  - image_path: https://www.wallstickerland.dk/media/catalog/product/i/-/i-do-yoga-english.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/i-do-yoga-wallsticker
-    title: I do yoga
-    rel: sponsored nofollow noopener
-  - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-wallsticker
-    title: Yoga
-    rel: sponsored nofollow noopener
-  - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-keeps-punching-me.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-keeps-punching-me-wallsticker
-    title: Yoga keeps punching me
-    rel: sponsored nofollow noopener
-  - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-is-not-just-a-workout-danish.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-er-ikke-bare-en-traening-wallsticker
-    title: Yoga er ikke bare en træning
-    rel: sponsored nofollow noopener
-gallery_wallsticker:
-    - image_path: "https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-therapy-danish.jpg"
-      url: "https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-therapy-wallsticker"
-      title: "Yoga therapy"
-      vendor: "Wallstickerland"
-      category: "2334"
-      price: 199.00
-      old_price:
-      discounted: false
-      id: "523"
-      rel: sponsored nofollow noopener
 ---
 
 Du kan komme i gang med yoga uden udstyr, men det rigtige yogaudstyr kan gøre fornøjelsen større. Hvilken yogamåtte eller yogablok skal jeg vælge - og har jeg også brug for yogasokker, yogabælte, yogatæppe eller yogatøj?
@@ -112,8 +68,6 @@ Du kan ogås vælge en uldmåtte, som kan være virkelig dejlig at ligge på til
 {% include figure image_path="https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8eW9nYSUyMG1hdHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" caption="En yogamåtte er næste uundværlig, når du skal lave yoga" alt="Yogaudstyr – yogamåtte" %}
 
 Du kan finde rigtig gode yogamåtter hos [Den Intelligente Krop](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/udstyr/traeningsudstyr/traeningsmatter-tasker-taepper){: rel='sponsored nofollow noopener' } eller økologiske måtter hos [youryogashop.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=76034&htmlurl=https://youryogashop.dk/oekologisk--miljoevenlig-shop/19-oekologiske-yogamaatter-natur-gummi/){: rel='sponsored nofollow noopener' }.
-
-{% include gallery id="gallery_wallsticker" caption="Du kan købe lækre wallstickers til at pynte dit yogarum (reklamelinks)" %}
 
 ## Yogablok
 
@@ -193,9 +147,7 @@ Du kan bl.a. finde yogatøj [yogayourshop.dk](https://www.partner-ads.com/dk/kli
 
 ## Wallstickers og plakater om yoga
 
-Det kan også være inspirerende at pynte dit yogarum op med wallstickers og plakater med yoga. Du kan se nogle forskellige plakater her.
-
-{% include gallery id="wallsticker_full" caption="Du kan finde endnu flere yoga-plakater hos [plakaterne.dk](https://www.plakaterne.dk/yoga-plakater/)." %}
+Det kan også være inspirerende at pynte dit yogarum op med wallstickers og plakater med yoga. Du kan se nogle forskellige plakater her. Du kan finde endnu flere yoga-plakater hos [plakaterne.dk](https://www.plakaterne.dk/yoga-plakater/).
 
 ## Konklusion om yogaudstyr
 

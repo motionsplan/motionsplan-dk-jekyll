@@ -45,19 +45,6 @@ feature_quotes:
     cite: Patanjali
   - quote: "Yoga keeps punching me in the face with how good it is."
     cite: "Nicky Lobo"
-gallery:
-  - image_path: /assets/images/pinterest/citat-dalai-lama.png
-    url: /assets/images/pinterest/citat-dalai-lama.png
-  - image_path: "https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-keeps-punching-me.jpg"
-    url: "https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-keeps-punching-me-wallsticker"
-    title: "Yoga keeps punching me"
-    vendor: "Wallstickerland"
-    category: "2334"
-    price: 199.00
-    old_price:
-    discounted: false
-    id: "546"
-    rel: sponsored nofollow noopener
 gallery_posters:
   - image_path: "https://citatplakat.dk/wp-content/uploads/2020/11/Fotoplakat-dalai-lama-FO10224.png"
     url: "https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/design-plakater/dalai-lama-plakat/"
@@ -94,8 +81,6 @@ Her er bl.a. citater fra B. K. S. Iyengar, Dalai Lama, Gandhi og Yogi Bhajan.
 
 ***
 {% endfor %}
-
-{% include pinterest-gallery id="gallery" caption=page.title %}
 
 ## Citater om yoga, mindfulness og meditation på Pinterest
 
