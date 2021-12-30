@@ -116,9 +116,11 @@ Du kan sammenligne dit [kondital i tabellen for kondital for mænd og kvinder](/
 
 Cooper (1968) rapporterede selv een korrelation på 0,9 mellem VO<sub>2</sub>max og distancen løbet på de 12 minutter.
 
-McCutcheon et al (1990) fandt med at Cooper testen gave en systematisk underestimering på 4 ml/kg/min for deres forsøgsdeltagere, der havde en gennemsnitsalder på 25 år. [Penry et al (2011)](https://pubmed.ncbi.nlm.nih.gov/20647946/) vurderer, at _multistage shuttle run_ eller [bip-testen](/bip-test/) kan være mere pålidelig end Cooper-testen for unge, sunde voksne, men overordnet anser de begge tests for at være reliable til at bestemme konditallet.
+McCutcheon et al (1990) fandt, at Cooper testen gav en systematisk underestimering på 4 ml/kg/min for deres forsøgsdeltagere, der havde en gennemsnitsalder på 25 år.
 
-[Daniel Mayorga-Vega (2016)](https://pubmed.ncbi.nlm.nih.gov/26987118/) konkluderer i deres systematiske meta-analyse af 123 studier og forskellige løbetests, at 12-minutters Cooper-testen (rp = 0,78) og [2400-meter-testen]({% link _posts/2019-10-31-kondital-2400-meter.md %}) (rp = 0,79) havde den højeste kriterie-validitet. Når man ikke adgang til en laboratorie-test, så er Cooper-testen altså et rigtig fint alternativ til at estimere konditallet.
+[Penry et al (2011)](https://pubmed.ncbi.nlm.nih.gov/20647946/) vurderer, at _multistage shuttle run_ eller [bip-testen](/bip-test/) kan være mere pålidelig end Cooper-testen for unge, sunde voksne, men overordnet anser de begge tests for at være reliable til at bestemme konditallet.
+
+[Daniel Mayorga-Vega (2016)](https://pubmed.ncbi.nlm.nih.gov/26987118/) konkluderer i deres systematiske meta-analyse af 123 studier og forskellige løbetests, at 12-minutters Cooper-testen (rp = 0,78) og [2400-meter-testen]({% link _posts/2019-10-31-kondital-2400-meter.md %}) (rp = 0,79) havde den højeste kriterie-validitet. Når man ikke har adgang til en laboratorie-test, så er Cooper-testen altså et rigtig fint alternativ til at estimere konditallet.
 
 ## Hvor langt skal jeg løbe på Cooper-testen?
 

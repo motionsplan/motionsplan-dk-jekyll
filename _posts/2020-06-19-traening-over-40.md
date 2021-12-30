@@ -80,7 +80,7 @@ Thomas Jagd har kigget lidt på de [primære fordele ved styrketræning og kreds
 
 - Forbedrer insulinsensitiviteten
 - Sænker blodtrykket
-- Sænker hvilepulsen, primært pga. de gavnlige tilpasninger, som kardiovaskulær træning giver anledning til i hjertet
+- Sænker [hvilepulsen](/hvilepuls/), primært pga. de gavnlige tilpasninger, som kardiovaskulær træning giver anledning til i hjertet
 - Forbedret lungekapacitet
 - Større muskulær udholdenhed
 - Forbedret blodcirkulation, pga. forøget kapillærdannelse

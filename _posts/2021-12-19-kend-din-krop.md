@@ -3,11 +3,12 @@ title: &title "Kend din krop"
 permalink: /kend-din-krop/
 language: da
 header:
-  teaser: https://cdn.shopify.com/s/files/1/0353/2678/7628/files/urn_aaid_sc_US_4464b1bf-4b7e-4373-afec-49273d6331a9.png?v=1603613823
+  teaser: https://images.unsplash.com/photo-1520787182336-0e4f42027ac6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
 category:
-  - Optimer træning
+  - Anatomi
 tags:
-  - træning
+  - anatomi
+  - fysiologi
 last_modified_at: 2021-11-19T08:14:14Z
 toc: true
 ---
@@ -20,12 +21,13 @@ Nogle af svarene gælder for alle mennesker, fx "Hvor mange knogler har du?", me
 
 God fornøjelse med at lære din krop at kende.
 
+{% include pinterest image_path="/assets/images/blog/kend-din-krop.png" data-pin-media="/assets/images/blog/kend-din-krop.png" %}
+
 ## Kend din anatomi
 
 Din krop består af knogler og muskler, som gør dig i stand til at bevæge dig. Men hvad ved du egentlig om dem. Kan du svare på disse spørgsmål:
 
 - [Hvor mange knogler har du?](/hvor-mange-knogler-har-mennesket/)
-- [Hvad vejer dine knogler og dit skelet i kg?](/hvad-vejer-skelettet/)
 - [Hvor mange led har du?](/led/)
 - [Hvor mange muskler har du?](/hvor-mange-muskler-i-kroppen/)
 
@@ -37,9 +39,14 @@ Din krop består af knogler og muskler, som gør dig i stand til at bevæge dig.
 
 ## Hvad består din krop af?
 
-- [Hvor stort er dit overfladeareal?](/body-surface-area/)
 - [Hvor meget vand har du i kroppen?](/vand-i-kroppen/)
 - [Hvor meget fedt har du i kroppen?](/artikel/udregning-af-fedtprocent/)
+- [Hvad vejer dine knogler og dit skelet i kg?](/hvad-vejer-skelettet/)
+
+## Hvad fylder du?
+
+- [Hvor stort er dit overfladeareal?](/body-surface-area/)
+- [Hvad er dit rumfang?](/kroppens-rumfang/)
 
 ## Konklusion
 

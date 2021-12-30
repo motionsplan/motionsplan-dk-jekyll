@@ -1,5 +1,5 @@
 ---
-title: &title "Hvilepuls 💓 Hvad er hvilepulsen og hvordan måles den?"
+title: &title "Hvilepuls: Hvad er hvilepulsen og hvordan måles den? 💓"
 seo_title: "Hvilepuls - Alt du skal vide for mænd og kvinder [Tabel]"
 description: "Alt du skal vide om hvilepuls? ✓ Tabel for mænd og kvinder over hvad en god hvilepuls er ✓ Hvordan måler man den, og hvordan kan du følge effekten af din træning og dit velbefindende?"
 permalink: /hvilepuls/

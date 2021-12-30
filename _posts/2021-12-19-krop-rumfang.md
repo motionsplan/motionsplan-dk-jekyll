@@ -1,19 +1,29 @@
 ---
-title: &title "Kroppens rumfang"
+title: &title "Udregn kroppens rumfang"
 permalink: /kroppens-rumfang/
 language: da
 header:
-  teaser: https://cdn.shopify.com/s/files/1/0353/2678/7628/files/urn_aaid_sc_US_4464b1bf-4b7e-4373-afec-49273d6331a9.png?v=1603613823
+  teaser: https://images.unsplash.com/photo-1505236732171-72a5b19c4981?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
 category:
-  - Optimer træning
+  - Anatomi
 tags:
-  - træning
+  - beregner
 last_modified_at: 2021-11-19T08:14:14Z
 toc: true
 ---
 
-Kroppens rumfang
+Selvom mange garanteret synes, at det er interessant, så er der ikke en god guide til, hvordan man udregner et menneskes rumfang. 
 
-Gennemsnitlig densitet for mennesket
+Der er forskellige måder at finde et menneskes rumfang på, men de fleste kræver relativt stort og dyrt udstyr. Her har du en simpel måde, hvor du kan estimere rumfanget ud fra kroppens massefylde (densitet) og vægt.
+
+## Hvordan udregner jeg kroppens rumfang?
+
+For at udregne menneskekroppens rumfang, så kan du tage udgangspunkt i kropsvægten og viden om kroppens massefylde.
+
+De forskellige væv i kroppen vejer noget forskelligt, som du kan se i denne tabel.
 
 {% include table-body-density.html %}
+
+Gennemsnitligt kan man sige, at kroppen har en massefylde på 1060 kg/m<sup>3</sup>. For at udregne rumfanget, så skal du altså dele kropsvægten med massefylden. Lad os tage et eksempel med en person, som vejer 50 kg:
+
+Rumfang = 50 kg / 1060 kg / m<sup>3</sup> = 0,04970 m<sup>3</sup>

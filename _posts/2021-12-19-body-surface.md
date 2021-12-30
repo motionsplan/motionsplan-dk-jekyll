@@ -1,13 +1,12 @@
 ---
-title: &title "Body Surface Area"
-permalink: /body-surface-area/
+title: &title "Udregn kroppens overfladeareal"
+permalink: /kroppens-overfladeareal/
 language: da
 header:
-  teaser: https://cdn.shopify.com/s/files/1/0353/2678/7628/files/urn_aaid_sc_US_4464b1bf-4b7e-4373-afec-49273d6331a9.png?v=1603613823
+  teaser: https://images.unsplash.com/photo-1611784601573-409f9b545ed2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
 category:
-  - Optimer træning
+  - Anatomi
 tags:
-  - træning
   - beregner
 last_modified_at: 2021-11-19T08:14:14Z
 toc: true
@@ -71,3 +70,11 @@ Det gennemsnitlige overfladeaareal for kroppen er følgende ifølge [omnicalcula
 ## Konklusion
 
 Hvis du er interesseret i andre mål for kroppen, så tjek vores [BMI-beregner](/bmi/). BSA kan også være en god indikator til at udregne din metabolisme og forbrænding.
+
+## Andre tilgange
+
+Hvis du arbejder med en lidt eksperimenterede tilgang til at finde overflade-arealet af mennesket og har en hulens masse husholdningsfilm, så kan du tjekke denne fremgangsmåde:
+
+{% include video provider="youtube" id="KTDVl6JuZLM" %}
+
+Du har jo ret beset fundet ud af, hvor stor din hud er. Måske har du lyst til at afprøve følgende forsøg også med, "hvor stor huden er?" fra [astra.dk](https://astra.dk/tildinundervisning/hvor-stor-er-huden).
