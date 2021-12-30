@@ -62,7 +62,7 @@ Der er lavet mange forskellige studier, hvor man har målt deltagernes kondital 
 
 ### 4. Udregn kondital fra hvilepuls og maxpuls
 
-[Uth et al (2004)](https://doi.org/10.1007/s00421-003-0988-y) har udviklet en konditionstest, hvor det ikke er så besværligt at få et bud på sit kondital. Testens præmis er, at hvilepulsen falder, når man kommer i bedre form, fordi slagvolumen øges. Med en højere slagvolumen kan hjertet pumpe mere blod rundt i hvert enkelt slag, og derfor behøver det i hvile ikke at slå så mange gange.
+[Uth et al (2004)](https://doi.org/10.1007/s00421-003-0988-y) har udviklet en konditionstest, hvor det ikke er så besværligt at få et bud på sit kondital. Testens præmis er, at [hvilepulsen](/hvilepuls/) falder, når man kommer i bedre form, fordi slagvolumen øges. Med en højere slagvolumen kan hjertet pumpe mere blod rundt i hvert enkelt slag, og derfor behøver det i hvile ikke at slå så mange gange.
 
 [Find kondital fra din puls](/kondital-fra-puls/){: .btn .btn--success .btn--large }
 

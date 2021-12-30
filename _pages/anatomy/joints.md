@@ -129,7 +129,7 @@ Her kan du se bevægelserne i underame, fingre, fødder og tæer.
 
 ## Bevægelsestyper og bevægelsesplaner
 
-Bevægelser kan foregå i tre forskellige bevægelsesplaner.
+Bevægelser i kroppen kan foregå i tre forskellige bevægelsesplaner.
 
 - Frontale plan
 - Sagitale plan
@@ -137,7 +137,7 @@ Bevægelser kan foregå i tre forskellige bevægelsesplaner.
 
 Du kan se de forskellige bevægelsesplaner illustreret i denne figur.
 
-{% include figure image_path="https://www.sci-sport.com/theorie/img/lightbox/t201.png" caption="Illustration af sagitale, frontale og transversale plan bevægelsesplan. Kilde: [www.sci-sport.com](https://www.sci-sport.com)" alt="Sagitale, frontale og transversale bevægelsesplan" alt="bevægelsesplaner, sagitale, frontale og transversale" %}
+{% include figure image_path="https://www.sci-sport.com/theorie/img/lightbox/t201.png" caption="Illustration af sagitale, frontale og transversale plan bevægelsesplan. Kilde: [www.sci-sport.com](https://www.sci-sport.com)" alt="Bevægelsesplaner, sagitale, frontale og transversale bevægelsesplan" %}
 
 Hvis du skal forstå de forskellige bevægelsesplaner, så kan du forestille dig, at du står i en meget smal korridor, hvor dine skuldre næsten rammer væggene i begge sider.
 
