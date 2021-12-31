@@ -43,6 +43,8 @@ Her har vi kigget på de mest populære blog posts for 2021.
 
 ## De {{ page.popular_posts_2021.size }} mest populære blog posts i 2021
 
+I 2021 har vi i alt haft 631.677 sidevisninger fra 380.079 brugere. Det er ret vildt.
+
 Vi har i alt skrevet 85 nye blog posts i 2021, men listen indeholder en lang række af de gamle indlæg også.
 
 {% for permalink in page.popular_posts_2021 %}
@@ -59,7 +61,7 @@ Vi har i alt skrevet 85 nye blog posts i 2021, men listen indeholder en lang ræ
 
 ## De {{ page.popular_posts_2020.size }} mest populære blog posts i 2020
 
-Det har været et godt år på Motionsplan. Vi har skrevet mere end 100 artikler, og vores besøgstal er virkelig gået i vejret.
+Det har været et godt år på Motionsplan. Vi har skrevet mere end 100 artikler, og vores besøgstal er virkelig gået i vejret. Samlet set havde vi 138.777 sidevisninger fordelt på 82.876 brugere.
 
 Her samler vi op på de mest populære blog posts i løbet af 2020. Der er nogle ældre blog posts, men en del af de nye artikler har også fundet vej til top {{ page.popular_posts.size }} listen.
 
