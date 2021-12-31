@@ -366,6 +366,15 @@ $(function() {
         $("#ftpa_vo2").val((ftp * 0.97).toFixed(0) + '-' + (ftp * 1.01).toFixed(0));
         $("#ftpa_anaerob").val((ftp * 0.90).toFixed(0) + '-' + (ftp * 0.97).toFixed(0));
     });
+    $("#calculator_kroppens_rumfang").submit(function(e) {
+      console.log("Calculate Kroppens Rumfang");
+      e.preventDefault();
+
+    let weight = Number($("[name='weight']").val());
+    let density = Number($("[name='density']").val());
+
+      $("[name='kroppens_rumfang']").val((weight / density).toFixed(5));
+  });
     $("#calculator_maffetone").submit(function(e) {
         console.log("Calculate Maffetone");
         e.preventDefault();
