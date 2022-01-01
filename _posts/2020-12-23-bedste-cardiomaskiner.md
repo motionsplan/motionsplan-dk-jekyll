@@ -36,7 +36,7 @@ Et andet mål er at **forbedre hjertets evne til at pumpe blod rundt**. Vi vil g
 
 Et tredje mål kan være at **forbedre arbejdet ved den anaerobe tærskel**. Det gøres typisk ved at arbejde længere med så høj intensitet, som du kan holde uden at ophobe ekstra mælkesyre. Hvis du fx bruger hastighed, watt eller puls, så kan du finde din arbejdskapacitet ved den [anaerobe tærskel](/anaerobe-taerskel/) ved fx at køre med så høj og jævn intensitet som muligt i 30-45 minutter.
 
-Der er altså mange forskellige [fysiologiske tilpasninger til konditionstræning](/intervallob-intervaltraening/), du kan jagte med cardiomaskinerne.
+Der er altså mange forskellige [fysiologiske tilpasninger til konditionstræning](/tilpasning-konditionstraening/), du kan jagte med cardiomaskinerne.
 
 ## Cardiomaskiner kan kan ramme kredsløbet forskelligt
 
