@@ -50,7 +50,7 @@ Der er flere grunde til, at dette program både er enkelt og et godt løbeprogra
 
 - **Træningsfrekvens**. 2 træninger om ugen er bedre end 1 træning. 3 træninger om ugen er bedre end 2 træninger. 4 træninger om ugen er kun lidt bedre end 3 træninger.
 - **Træningsmængde**. De fleste løber 5 km på mellem 17 minutter og 30 minutter. Typisk er dette tidsrum nok til, at kroppen kan nå at tilpasse sig træningen. Det er altså tilstrækkelig træningsmængde til at kunne få kroppen til at respondere på træningen.
-- **Intensiteten**. De fleste vil kunne løbe 5 kilometer i et tempo, der ligger omkring den [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}). Træning med denne intensitet kan være med til at flytte den [maksimale iltoptagelse]({% link _posts/2019-11-04-kondital-og-tabel.md %}) og [forbedre løbeøkonomien]({% link _posts/2019-12-16-running-economy.md %}).
+- **Intensiteten**. De fleste vil kunne løbe 5 kilometer i et tempo, der ligger omkring den [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}). Træning med denne intensitet kan være med til at flytte den [maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/), [konditallet](/kondital/) og [forbedre løbeøkonomien]({% link _posts/2019-12-16-running-economy.md %}).
 
 Ulemperne ved programmet er, at du hver eneste gang skal løb alt hvad du kan, hvilket kan være hårdt for motivationen. Og det er nok ikke tilstrækkeligt at træne på denne måde, hvis du vil blive ved med at have fremskridt over lang tid. Jeg vil selv have behov for større variation over tid for at blive ved med at nyde løbetræningen.
 

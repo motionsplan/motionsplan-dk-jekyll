@@ -63,7 +63,7 @@ Efter 2016 programmerer Mike Tuschscher selv med et fast antal af sæt til sine 
 
 Formålet med RPE er, at man let kan kommunikere hvor hårdt et sæt var. RPE kan derfor bruges til at fortælle om vi træner i den korrekte intensitetszone i forhold til det, vi har planlagt. Så i stedet for at man får en fast procent baseret på 1RM, men som måske alligevel ikke passer til den enkeltes løfters _readiness_ i dag, så kan man ordinere reps og RPE.
 
-Normalt vil din 5RM være omkring 85% af din 1RM, og det vil man ofte få at vide, at man skal løfte i dag. I stedet kan man fortælle løfteren, at de skal arbejde sig op til x5@10. Så vil de løftede kilo justere sig ind ift. løfterens nuværende styrke (1 RM kan jo have rykket sig siden sidste måling) og dagens _readiness_ (hvor man kan være frisk eller træt).
+Normalt vil din 5RM være omkring 85% af din 1RM, og det vil man ofte få at vide, at man skal løfte i dag. I stedet kan man fortælle løfteren, at de skal arbejde sig op til x5@10. Så vil de løftede kg justere sig ind ift. løfterens nuværende styrke (1 RM kan jo have rykket sig siden sidste måling) og dagens _readiness_ (hvor man kan være frisk eller træt).
 
 Træningen er altså autoreguleret, så dagens vægt er afgjort af, hvad du kan løfte netop på denne dag. Programmet tilpasser sig altså dig i stedet for, at du skal tilpasse dig programmet.
 

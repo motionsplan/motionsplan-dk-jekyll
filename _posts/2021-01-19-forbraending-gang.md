@@ -21,7 +21,7 @@ tags:
 
 Jeg har kigget lidt på, hvor mange kalorier man forbrænder ved at gå? Så hvis du er interesseret i at vide, hvad din kalorieforbrænding og energiforbrug er ved gang, så har du her den ultimative guide.
 
-Når du søger rundt omkring på nettet, så står der forskellige måder at udregne, hvad man forbrænder ved at gå. En meget udbredt tommelfingerregel, som [gentages](https://vorespuls.dk/gang/artikler/gaa-eller-loeb-du-forbraender-lige-meget) flere [steder](https://www.alt.dk/sundhed/forbraending-kalorier-gaa-eller-lob) af Bente Klarlund Pedersen og Henrik Duer, er at du uanset om du <q>går, lunter eller spurter, så forbrænder du det antal kalorier, som du vejer i kilo per kilometer</q>.
+Når du søger rundt omkring på nettet, så står der forskellige måder at udregne, hvad man forbrænder ved at gå. En meget udbredt tommelfingerregel, som [gentages](https://vorespuls.dk/gang/artikler/gaa-eller-loeb-du-forbraender-lige-meget) flere [steder](https://www.alt.dk/sundhed/forbraending-kalorier-gaa-eller-lob) af Bente Klarlund Pedersen og Henrik Duer, er at du uanset om du <q>går, lunter eller spurter, så forbrænder du det antal kalorier, som du vejer i kg per kilometer</q>.
 
 Selvom tommelfingerreglen måske kan give et groft estimat på din forbrænding, så mener jeg ikke det er et retvisende billede. Din forbrænding ved gang er mindre end ved løb! Det har jeg skrevet mere om i [Du forbrænder mere ved at løbe end ved at gå]({% link _posts/2020-06-01-loeb-mere-energi-gang.md %}).
 

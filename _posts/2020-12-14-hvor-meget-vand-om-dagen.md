@@ -54,7 +54,7 @@ I dette indlæg kan du læse mere om:
 
 Letliv.dk [foreslår](https://www.letliv.dk/sund-og-skoen/sundhed/saadan-beregner-du-dit-vaeskebehov) følgende måde at beregne hvor meget vand, man bør drikke om dagen.
 
-De skriver, at mennesker har behov for 30-40 ml væske pr. kilo legemsvægt om dagen. De skriver desværre ikke, hvor de har denne angivelse fra. Men lad os forsøge at putte det ind i en beregner.
+De skriver, at mennesker har behov for 30-40 ml væske pr. kg legemsvægt om dagen. De skriver desværre ikke, hvor de har denne angivelse fra. Men lad os forsøge at putte det ind i en beregner.
 
 {% include calculate-water-intake.html %}
 

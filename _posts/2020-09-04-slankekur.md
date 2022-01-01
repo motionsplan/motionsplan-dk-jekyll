@@ -18,17 +18,17 @@ tags:
 
 Jeg har lige læst om en utrolig effektiv slankekur. Faktisk må det være den bedste slankekur i verden. Slankekuren har i hvert fald et helt utroligt vægttab på meget kort tid.
 
-Jeg har lige læst [Ude & Hjemme, nr. 33 2020](https://www.udeoghjemme.dk/). Vicky har på 5 dage tabt 4,4 kilo med Lynkuren, og hun føler, at hun har fået et "kick", og hun tillod sig endda på de fem dage at nyde to glas vin.
+Jeg har lige læst [Ude & Hjemme, nr. 33 2020](https://www.udeoghjemme.dk/). Vicky har på 5 dage tabt 4,4 kilogram med Lynkuren, og hun føler, at hun har fået et "kick", og hun tillod sig endda på de fem dage at nyde to glas vin.
 
 Det må man sige er en slankekur, der virker! Men er slankekuren nu også så effektiv?
 
-Vicky havde allerede tabt sig en del, så hun troede ikke at _Lynkuren_ ville have en ekstra effekt. Men hun formåede altså at tabe sig 4,4 kilo på fem dage, så hun endte med at veje 70,25 kg.
+Vicky havde allerede tabt sig en del, så hun troede ikke at _Lynkuren_ ville have en ekstra effekt. Men hun formåede altså at tabe sig 4,4 kg på fem dage, så hun endte med at veje 70,25 kg.
 
 Vicky vurderer, at det har været let at følge _Lynkuren_, og hun har fået endnu mere blod på tanden for at være på slankekur.
 
 Men Vicky er ikke den eneste, der har utrolige vægttab på slankekure fra Ude & Hjemme. Det er faktisk reglen, at slankekurene i Ude & Hjemme giver så gode resultater.
 
-Maria har haft et vægttab på [5 kilo på fem dage med kødbolle-slankekuren](https://www.udeoghjemme.dk/slank-og-sund/slank/hurtigt-vaegttab-maria-tabte-5-kilo-paa-fem-dage). Sandra har været på [rugbrødskuren og tabte 3 kilo](https://www.udeoghjemme.dk/slank-og-sund/slank/slankekure/slankekur-jeg-har-faaet-motivationen-tilbage).
+Maria har haft et vægttab på [5 kg på fem dage med kødbolle-slankekuren](https://www.udeoghjemme.dk/slank-og-sund/slank/hurtigt-vaegttab-maria-tabte-5-kilo-paa-fem-dage). Sandra har været på [rugbrødskuren og tabte 3 kilo](https://www.udeoghjemme.dk/slank-og-sund/slank/slankekure/slankekur-jeg-har-faaet-motivationen-tilbage).
 
 {% include pinterest image_path=page.header.overlay_image data-pin-media="https://i.pinimg.com/564x/55/f6/d6/55f6d6bda3f84dbc66eacaf492045cbd.jpg" data-pin-id="579768152025035959" caption=page.title %}
 

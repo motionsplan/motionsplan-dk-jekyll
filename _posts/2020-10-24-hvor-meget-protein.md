@@ -19,7 +19,7 @@ toc: true
 
 Protein er helt sikkert en væsentlig del af en velafbalanceret kost, men hvor meget protein har du egentlig behov for, når du træner? Det har jeg researchet lidt på.
 
-Hvor meget protein har jeg brug for om dagen? **Du bør indtage 0,75-2,5 gram protein pr. kilo kropsvægt pr. dag alt efter, hvor meget du træner og hvilken type træning du laver. Der er flere studier der viser, at man kan udnytte op til 2 gram protein pr. kilo kropsvægt pr. dag, men som en helgardering kan folk, der træner rigtig meget indtage lidt mere.**
+Hvor meget protein har jeg brug for om dagen? **Du bør indtage 0,75-2,5 gram protein pr. kg kropsvægt pr. dag alt efter, hvor meget du træner og hvilken type træning du laver. Der er flere studier der viser, at man kan udnytte op til 2 gram protein pr. kg kropsvægt pr. dag, men som en helgardering kan folk, der træner rigtig meget indtage lidt mere.**
 
 Der er stor interesse for protein nu om dage. Når du søger på Google efter: "Hvor meget protein har jeg behov for om dagen?", så kommer der mange resultater frem. Resultaterne har imidlertid forskellige anbefalinger, så jeg forsøger i det følgende at dykke lidt dybere ned i, hvor meget protein du behøver at indtage om dagen.
 

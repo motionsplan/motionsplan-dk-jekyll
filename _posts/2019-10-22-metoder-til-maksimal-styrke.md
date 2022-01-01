@@ -109,7 +109,7 @@ Hvis du kan fuldende en hel wave, kan du starte en ny wave. Hvis du ikke kan gen
 
 ### Wave baseret på RPE
 
-Ved brug af RPE som intensitetsskala for at vælge sin _wave_ sørger man for at have en _autoreguleret_ træning, hvor man tilføjer et passende antal kilo til stangen i forhold til [RPE](/rpe/).
+Ved brug af RPE som intensitetsskala for at vælge sin _wave_ sørger man for at have en _autoreguleret_ træning, hvor man tilføjer et passende antal kg til stangen i forhold til [RPE](/rpe/).
 
 {% include figure image_path="https://articles.reactivetrainingsystems.com/wp-content/uploads/2015/11/E1RM-TABLE.png" alt="RPE, reps og procentvise anstrengelse" caption="RPE, reps og procentvise anstrengelse" %}
 

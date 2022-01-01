@@ -125,7 +125,7 @@ Når man tæller volumen, frekvens og vægt for at skabe overload, så er det et
 
 ## Fixed weight progressive overload
 
-De fleste vil rigtig gerne hurtigt have flere kilo på stangen, men ofte tilføjer folk vægt hurtigere end kroppen kan tilpasse sig træningen. Nervesystemet og muskelvævet tilpasser sig ret hurtigt træning, mens senerne halter lidt bagefter i tilpasningerne til styrketræning.
+De fleste vil rigtig gerne hurtigt have flere kg på stangen, men ofte tilføjer folk vægt hurtigere end kroppen kan tilpasse sig træningen. Nervesystemet og muskelvævet tilpasser sig ret hurtigt træning, mens senerne halter lidt bagefter i tilpasningerne til styrketræning.
 
 Derfor kan det betale sig at blive længere tid på den samme vægt, så senerne også kan nå at følge med i opbygningen af kroppen.
 

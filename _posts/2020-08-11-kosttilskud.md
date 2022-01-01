@@ -129,7 +129,7 @@ Den billigste måde at få koffein på er formentlig som et rent kosttilskud. Du
 
 En direkte præstationsfremmende evidensbaseret dosis kræver nok mere, men den individuelle tolerance er meget forskellige.
 
-Måske kan 5 mg pr. kilo kropsvægt være en dosis, men du skal ikke starte der, men finde din egen
+Måske kan 5 mg pr. kg kropsvægt være en dosis, men du skal ikke starte der, men finde din egen
 
 > Man skal passe på med at bruge koffein som lappeløsning, fordi du ikke får restitueret ordentligt.
 

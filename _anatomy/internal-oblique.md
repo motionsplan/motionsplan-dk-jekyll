@@ -19,7 +19,7 @@ categories:
 origin:
   da: Indersiden af hoftekammen
 insertion:
-  da: De tre nederste ribben ogdanner fortil senepladen for den lige bugmuskel sammen med den ydre skrå og den tværgående og mødes med den modsatte sides muskel i den hvide linie.
+  da: De tre nederste ribben ogdanner fortil senepladen for den lige bugmuskel sammen med den ydre skrå og den tværgående og mødes med den modsatte sides muskel i den hvide linje.
 function:
   da:
     - short: Laterally flexes the spine.

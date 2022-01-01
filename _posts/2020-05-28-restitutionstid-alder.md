@@ -202,7 +202,7 @@ Men det er ikke kun intensiteten, der har betydning for restitutionen. Du kan se
 
 ## Spis dig til ny energi
 
-Det gælder om at få noget ny energi lige efter træning, og det gælder både kulhydrat som kroppens brændstof og protein som kroppens byggesten. Lige efter træning kan du optage 1 gram kulhydrat pr. kilo kropsvægt og 0,25 gram protein. Vi leder i øjeblikket efter studier, der kan dokumentere dette.
+Det gælder om at få noget ny energi lige efter træning, og det gælder både kulhydrat som kroppens brændstof og protein som kroppens byggesten. Lige efter træning kan du optage 1 gram kulhydrat pr. kg kropsvægt og 0,25 gram protein. Vi leder i øjeblikket efter studier, der kan dokumentere dette.
 
 I Form anbefaler også at spise sig fri af betændelsestilstande i kroppen, som opstår af træning. Her anbefaler de at sørger for at få n-3-fedtsyrene EPA og DHA kan mindske betændelsestilstandene. Det vil vi gerne se et studium på. I Form omtaler også et studium, hvor forsøgspersonerne drak kirsebærjuice, som er fyldt med antioxidanter, hvor de havde markant mindre styrkenedgang efter et hårdt træningspas end en kontrolgruppe. Det studium vil vi gerne se.
 

@@ -73,7 +73,7 @@ By[gilbaks](https://gilbaks.dk/author/gilbaks/ "Indlæg af gilbaks")
 
 _Træning med tempo, også kaldet ‘**Time under tension**‘ (TUT) er et (måske) overset element til at skabe variation i sin træning. _
 
-“**_Hvorfor skal jeg træne med tempo_**” Lyder det fra den frusterende klient, der synes det er pisse hårdt at følge et bestemt tempo, samt er irriteret over at der ikke kan løftes de samme kilo som hvis man bare kører med fuld fart.
+“**_Hvorfor skal jeg træne med tempo_**” Lyder det fra den frusterende klient, der synes det er pisse hårdt at følge et bestemt tempo, samt er irriteret over at der ikke kan løftes de samme kg som hvis man bare kører med fuld fart.
 
 Du kender helt sikkert de her elementer: antal træningsdage, øvelsesvalg, sets, gentagelser, pauser <– Alle er elementer som man kan ændre, i forhold til ens træningsmål. I forlængelse af dette er der Tempoet, også kaldet Time Under Tension (TUT), et element som man kan manipulere med i samme grad som de andre elementer.
 

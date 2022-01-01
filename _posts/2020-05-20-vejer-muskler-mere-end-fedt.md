@@ -53,11 +53,11 @@ Massefylde er forholdet mellem et stofs masse og dets rumfang. Vand har massefyl
 
 ## Hvor meget fylder muskler og fedt?
 
-Hvis du tager et kilo fedt og et kilo muskler, så vil fedtet altså fylde mere end musklerne. Det betyder altså, at hvis du går i gang med at træne og taber et kilo fedt og tager et kilo muskler på, så vil dit tøj sidde lidt løsere - også selvom vægten siger det samme.
+Hvis du tager et kg fedt og et kg muskler, så vil fedtet altså fylde mere end musklerne. Det betyder altså, at hvis du går i gang med at træne og taber et kilogram fedt og tager et kilogram muskler på, så vil dit tøj sidde lidt løsere - også selvom vægten siger det samme.
 
 ## Konklusion
 
-I min research fandt jeg bl.a. påstande fra [arndalspa.dk](https://arndalspa.dk/muskler-og-fedt-vejer-det-samme-nu-med-forklaring/) om, at muskler og fedt vejer det samme. Rationalet bag denne påstand er, at et kg fedt vejer det samme som et kg muskler, hvilket naturligvis er rigtigt. Et kilo muskler fylder bare lidt mindre end et kilo fedt.
+I min research fandt jeg bl.a. påstande fra [arndalspa.dk](https://arndalspa.dk/muskler-og-fedt-vejer-det-samme-nu-med-forklaring/) om, at muskler og fedt vejer det samme. Rationalet bag denne påstand er, at et kg fedt vejer det samme som et kg muskler, hvilket naturligvis er rigtigt. Et kg muskler fylder bare lidt mindre end et kg fedt.
 
 Påstanden er derfor lidt forunderlig og Anders Nedergaard svarer ganske rigtigt, at:
 

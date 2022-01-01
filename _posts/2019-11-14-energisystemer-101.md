@@ -80,7 +80,7 @@ Anaerobic power reserve = max speed - max speed produced aerobically
 
 Desto større del af din energi, der kommer fra det aerobe system, desto længere tid vil du kunne holde til aktiviteten.
 
-{% include figure image_path="/assets/images/blog/anaerob-aerob-intensitet.jpg" caption="Primære træningsområder inden for aerob og anaerob træning udtrykt i relation til maksimal arbejdsintensitet (100%). De enkelte områder overlapper hinanden, idet der er et vist variationsområde inden for hver kategori. Arbejdsintensiteten svarende til den maksimale iltoptagelse og den maksimale arbejdsintensitet er angivet ved henholdsvis den nederste og øverste stiplede linie. Der er store individuelle forskelle på, hvor meget intensiteten svarende til den maksimale iltoptagelse udgør i forhold til den maksimale intensitet. Her er den sat til 25%, men for nogle udgør den kun 10% og for andre op til 50 60% af den maksimale intensitet." %}
+{% include figure image_path="/assets/images/blog/anaerob-aerob-intensitet.jpg" caption="Primære træningsområder inden for aerob og anaerob træning udtrykt i relation til maksimal arbejdsintensitet (100%). De enkelte områder overlapper hinanden, idet der er et vist variationsområde inden for hver kategori. Arbejdsintensiteten svarende til den maksimale iltoptagelse og den maksimale arbejdsintensitet er angivet ved henholdsvis den nederste og øverste stiplede linje. Der er store individuelle forskelle på, hvor meget intensiteten svarende til den maksimale iltoptagelse udgør i forhold til den maksimale intensitet. Her er den sat til 25%, men for nogle udgør den kun 10% og for andre op til 50 60% af den maksimale intensitet." %}
 
 ## Hvad er forskellen på det aerobe og anaerobe system
 

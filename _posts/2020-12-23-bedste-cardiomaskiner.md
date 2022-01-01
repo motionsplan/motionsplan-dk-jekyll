@@ -30,7 +30,7 @@ Det kan være lettere at få en stor effekt på kredsløbet og konditionen i car
 
 Når du stiller dig op på en kredsløbsmaskine, så er det ofte med det formål at forbedre kredsløbet. Det kan du gøre på forskellige måder, hvilket kræver lidt forskellig træningsindsats.
 
-Et mål er at **få en bedre kondition**. [Kondition](/kondition/) er kroppens evne til at optage og bruge ilt. En bedre kondition er snævert set defineret som kroppens maksimale iltoptagelse pr. minut pr. kilo kropsvægt. Hvis du vil flytte den maksimale iltoptagelse, skal du træne hårdt og omkring din maksimale ydeevne. Typisk foregår det med intervaller fra 3-5 minutters varighed gentaget 3-8 gange.
+Et mål er at **få en bedre kondition**. [Kondition](/kondition/) er kroppens evne til at optage og bruge ilt. En bedre kondition er snævert set defineret som kroppens maksimale iltoptagelse pr. minut pr. kg kropsvægt. Hvis du vil flytte den maksimale iltoptagelse, skal du træne hårdt og omkring din maksimale ydeevne. Typisk foregår det med intervaller fra 3-5 minutters varighed gentaget 3-8 gange.
 
 Et andet mål er at **forbedre hjertets evne til at pumpe blod rundt**. Vi vil gerne forbedre hjertets kapacitet og slagvolumen. Den mest ligefremme måde at træne dette på er ved at træne med relativt lav intensitet omkring snakkegrænsen på [Borg skalaen](/borg-skala/). Pulsen vil ligge omkring 130-150.
 

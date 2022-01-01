@@ -21,7 +21,7 @@ toc: true
 
 Arrowhead testen bruges til at teste atleters evne til at skifte retning, behændighed og agility. Arrowhead testen bruges bl.a. flittigt til at teste fodboldspillere.
 
-Formålet med arrowhead testen er at teste hastighed, accelleration, kropskontrol og evnen til at skifte retning med forskellige vinkler.
+Formålet med arrowhead testen er at teste hastighed, acceleration, kropskontrol og evnen til at skifte retning med forskellige vinkler.
 
 {% include video provider="youtube" id="Zdq6X4QlRg4" %}
 

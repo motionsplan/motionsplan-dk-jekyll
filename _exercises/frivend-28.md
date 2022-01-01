@@ -54,7 +54,7 @@ last_modified_at: 2013-04-21T18:06:14Z
 
 Stå helt tæt på stangen med fødderne i skulderbredde. Grib stangen lidt bredere end skulderbredde. Bøj både i knæ- og hofteled, så hoften er længere nede end skuldrene. Bevægelsen indledes med en lille yderligere fleksion af knæ- og hofteled for at udnytte musklernes forspænding.
 
-Vægten løftes relativt kontrolleret op, indtil den er ud for knæene (hang position). Derefter strækkes eksplosivt ud i knæ- og hofteled, så vægtstangen løftes med stor accelleration. Når benene er næsten strakte, trækker man yderligere i stangen ved at bevæge albuer og skuldre opad. Når vægtstangen er på sit højdepunkt, bøjes hurtigt i knæ- og hofteled, så man kan få skulderne ind under stangen og gribe den på det forreste af skuldrene med albuerne pengende fremad. Derefter strækkes helt ud i knæ- og hofteled.
+Vægten løftes relativt kontrolleret op, indtil den er ud for knæene (hang position). Derefter strækkes eksplosivt ud i knæ- og hofteled, så vægtstangen løftes med stor acceleration. Når benene er næsten strakte, trækker man yderligere i stangen ved at bevæge albuer og skuldre opad. Når vægtstangen er på sit højdepunkt, bøjes hurtigt i knæ- og hofteled, så man kan få skulderne ind under stangen og gribe den på det forreste af skuldrene med albuerne pengende fremad. Derefter strækkes helt ud i knæ- og hofteled.
 
 Fra denne stilling sættes vægten ned på jorden igen.
 

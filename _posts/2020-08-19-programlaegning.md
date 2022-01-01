@@ -395,7 +395,7 @@ Længden på disse pauser er naturligvis bare retningslinjer. Du skal lytte til 
 
 Første gang du træner prøver du stille og roligt gennem opvarmningssættene at ramme en vægt, som passer i det rep range, du har valgt. Du noterer jo hver gang nøjagtigt, hvor meget vægt du har på. Hvis du efterhånden i din træning bliver i stand til at løfte flere gentagelser, end dem du har besluttet dig for i din træning i alle sættene, kan du sætte mere vægt på stangen.
 
-En skematisk måde at gøre det på kan være med dobbelt progression. Første træning skal du forsøge at ramme den nedre margin i dit rep range, som antydet i nedenstående eksempel med 3 x 8-10 i squat. Progressionen de første par træninger er, at man kan tage lidt flere gentagelser. På #4. træning rammer løfteren øvre grænse i rep range. Næste gang skal der altså flere kilo på stangen (Bradsted: [Bliv stærkere med dobbelt progression](http://fitness-blog.dk/dobbelt-progression/)):
+En skematisk måde at gøre det på kan være med dobbelt progression. Første træning skal du forsøge at ramme den nedre margin i dit rep range, som antydet i nedenstående eksempel med 3 x 8-10 i squat. Progressionen de første par træninger er, at man kan tage lidt flere gentagelser. På #4. træning rammer løfteren øvre grænse i rep range. Næste gang skal der altså flere kg på stangen (Bradsted: [Bliv stærkere med dobbelt progression](http://fitness-blog.dk/dobbelt-progression/)):
 
 {% include figure image_path="/assets/images/training/dobbelt-progression.png" caption="" %}
 

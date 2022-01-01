@@ -19,7 +19,7 @@ categories:
 origin:
   da: Ydersiden af nederste 8 ribben
 insertion:
-  da: Ydersiden af hoftekammen og danner fortil senepladen for den lige bugmuskel sammen med den indre skrå og den tværgående og mødes med den modsatte sides muskel i den hvide linie
+  da: Ydersiden af hoftekammen og danner fortil senepladen for den lige bugmuskel sammen med den indre skrå og den tværgående og mødes med den modsatte sides muskel i den hvide linje
 function:
   da:
     - short: Laterally flexes the spine.

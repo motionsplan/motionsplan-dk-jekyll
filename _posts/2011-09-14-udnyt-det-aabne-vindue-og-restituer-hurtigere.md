@@ -124,7 +124,7 @@ Hvis du træner lang tid efter dit seneste måltid, så vil det formentlig kunne
 
 ## Hvad spiser du så?
 
-Jeg har på et tidspunkt lært, at man lige efter kan optage 1 gram kulhydrat pr. kilo kropsvægt og 0,25 gram protein, hvilket i forhold til protein er lavere end anbefalingerne fra Aragon og Shoenfeld (2013).
+Jeg har på et tidspunkt lært, at man lige efter kan optage 1 gram kulhydrat pr. kg kropsvægt og 0,25 gram protein, hvilket i forhold til protein er lavere end anbefalingerne fra Aragon og Shoenfeld (2013).
 
 Jeg kan dog lige nu ikke finde studiet eller referencen, så brug meget gerne kommentarerne for at hjælpe med det.
 
