@@ -93,7 +93,6 @@ $(function() {
         });
     });
 
-
     $("#step_man").change(function() {
         console.log('Ready to calculate');
         $("table#steps > tbody > tr").each(function(i, obj) {
@@ -1985,6 +1984,76 @@ $(function() {
       let c = running.Running();
 
         $("#dist_distance").val(c.getDistanceFromTimeAndVelocity(min, sec, velocity).toFixed(1));
+    });
+    $("#calculator_kipchoge_challenge").submit(function(e) {
+      console.log("Calculate time");
+      e.preventDefault();
+
+      let velocity = Number($("[name='velocity']").val());
+
+      let run = running.Running();
+
+      let time, min, sec;
+
+      time = run.getTimeFromDistanceAndVelocity(0.2, velocity);
+      min = Math.floor(time);
+      sec = (time - min) * 60;
+
+      $("[name='t200']").val(min + ':' + sec.toFixed(0));
+
+      time = run.getTimeFromDistanceAndVelocity(0.4, velocity);
+      min = Math.floor(time);
+      sec = (time - min) * 60;
+
+      $("[name='t400']").val(min + ':' + sec.toFixed(0));
+
+      time = run.getTimeFromDistanceAndVelocity(0.6, velocity);
+      min = Math.floor(time);
+      sec = (time - min) * 60;
+
+      $("[name='t600']").val(min + ':' + sec.toFixed(0));
+
+      time = run.getTimeFromDistanceAndVelocity(0.8, velocity);
+      min = Math.floor(time);
+      sec = (time - min) * 60;
+
+      $("[name='t800']").val(min + ':' + sec.toFixed(0));
+
+      time = run.getTimeFromDistanceAndVelocity(1, velocity);
+      min = Math.floor(time);
+      sec = (time - min) * 60;
+
+      $("[name='t1000']").val(min + ':' + sec.toFixed(0));
+
+      time = run.getTimeFromDistanceAndVelocity(1.2, velocity);
+      min = Math.floor(time);
+      sec = (time - min) * 60;
+
+      $("[name='t1200']").val(min + ':' + sec.toFixed(0));
+
+      time = run.getTimeFromDistanceAndVelocity(1.4, velocity);
+      min = Math.floor(time);
+      sec = (time - min) * 60;
+
+      $("[name='t1400']").val(min + ':' + sec.toFixed(0));
+
+      time = run.getTimeFromDistanceAndVelocity(1.6, velocity);
+      min = Math.floor(time);
+      sec = (time - min) * 60;
+
+      $("[name='t1600']").val(min + ':' + sec.toFixed(0));
+
+      time = run.getTimeFromDistanceAndVelocity(1.8, velocity);
+      min = Math.floor(time);
+      sec = (time - min) * 60;
+
+      $("[name='t1800']").val(min + ':' + sec.toFixed(0));
+
+      time = run.getTimeFromDistanceAndVelocity(2, velocity);
+      min = Math.floor(time);
+      sec = (time - min) * 60;
+
+      $("[name='t2000']").val(min + ':' + sec.toFixed(0));
     });
     $("#calculator_velocity_time").submit(function(e) {
         console.log("Calculate time");
