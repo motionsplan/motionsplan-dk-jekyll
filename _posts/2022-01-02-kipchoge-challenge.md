@@ -13,6 +13,11 @@ tags:
   - kondition
 last_modified_at: 2022-01-02T08:14:14Z
 toc: true
+gallery:
+  - image_path: /assets/images/pinterest/challenge-kipchoge.jpg
+    url: /assets/images/pinterest/challenge-kipchoge.jpg
+  - image_path: /assets/images/pinterest/challenge-kosgei.jpg
+    url: /assets/images/pinterest/challenge-kosgei.jpg
 ---
 
 Hvis du godt kan lide at løbe og er klar på en udfordring, så skal du prøve Kipchoge Challenge. Det handler ganske enkelt om at forsøge at løbe lige så hurtigt, som verdensrekorden på maraton - og se hvor længe du kan følge tempoet.
@@ -78,3 +83,7 @@ Se, hvordan den tidligere olympiske løber, Nick Symmonds, klarede sig i denne u
 {% include video provider="youtube" id="mqupmANUIqQ" %}
 
 Wow! Det kommer til at være hårdt, og du skal presse dig selv. Det kræver helt sikkert, at du får styr på [din løbeteknik]({% link _posts/2020-08-16-loebeteknik.md %}).
+
+## Udskriv løbeudfordringen
+
+{% include gallery %}
