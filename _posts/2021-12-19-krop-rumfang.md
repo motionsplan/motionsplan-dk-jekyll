@@ -8,11 +8,11 @@ category:
   - Anatomi
 tags:
   - beregner
-last_modified_at: 2021-11-19T08:14:14Z
+last_modified_at: 2021-11-31T08:14:14Z
 toc: true
 ---
 
-Selvom mange garanteret synes, at det er interessant, så er der ikke en god guide til, hvordan man udregner et menneskes rumfang. 
+Selvom mange garanteret synes, at det er interessant, så er der ikke en god guide til, hvordan man udregner et menneskes rumfang.
 
 Der er forskellige måder at finde et menneskes rumfang på, men de fleste kræver relativt stort og dyrt udstyr. Her har du en simpel måde, hvor du kan estimere rumfanget ud fra kroppens massefylde (densitet) og vægt.
 

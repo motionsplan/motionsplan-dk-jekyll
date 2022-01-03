@@ -9,7 +9,7 @@ category:
 tags:
   - anatomi
   - fysiologi
-last_modified_at: 2021-11-19T08:14:14Z
+last_modified_at: 2021-12-31T08:14:14Z
 toc: true
 ---
 

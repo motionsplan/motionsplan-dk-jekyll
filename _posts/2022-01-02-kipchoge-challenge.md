@@ -3,9 +3,7 @@ title: &title "Elsker du en udfordring? Prøv Kipchoge Challenge"
 permalink: /kipchoge-challenge/
 language: da
 header:
-  overlay_image: http://www.runninglife.com.mx/wp-content/uploads/2021/06/FB_IMG_1571020709442.jpg
-  teaser: http://www.runninglife.com.mx/wp-content/uploads/2021/06/FB_IMG_1571020709442.jpg
-  caption: *title
+  teaser: http://i.ytimg.com/vi/MoxFkJlVZlA/hqdefault.jpg
 category:
   - Løb
 tags:
@@ -48,7 +46,7 @@ Sådan fungerer Kipchoge Challenge.
 - Løb 400m. Hvil 2 minutter
 - Fortsæt med at øge løbeturen med 200m med 2 minutters hvile.
 
-Se, hvor langt du kan gå, mens du holder Kipchoges 4:34 per kilometer-tempo.
+Se, hvor langt du kan gå, mens du holder Kipchoges 2:50 per kilometer-tempo.
 
 Du kan enten **løbe på et [løbebånd](/guide-loebebaand/)**, hvor du bare skal sætte løbebåndet på det rigtige tempo. Du skal nok sætte hældningen på 1% for at komme lidt tættere på, hvor hårdt det er at løbe i naturen. Det letteste er at hoppe af og på for hvert interval, så løbebåndet i intervallerne holder den rette hastighed.
 
