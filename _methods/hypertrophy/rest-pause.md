@@ -25,7 +25,11 @@ video:
 
 {{ page.excerpt }}
 
+<<<<<<< HEAD
 Rest-pause er en ret udbredt teknik. I løbet af dit sidste sæt laver nogle korte pauser på 10-15 sekunder, så du samlet set kan lave en større volumen i det sidste sæt end du ellers ville have kunnet gøre. Typisk vil et rest-pause sæt ende på en RPE på 10.
+=======
+Rest-pause er en ret udbredt teknik. Pointen er, at du i løbet af dine sæt laver to ultrakorte pauser på 10-15 sekunder, så du samlet set kan lave en større volumen i det sidste sæt end du ellers ville have kunnet gøre. Typisk vil et rest-pause sæt ende på en RPE på 10.
+>>>>>>> c8f904d605d8f0af679beb2df4d872752dc32d22
 
 - Lav x8 reps - hvil i 10-15 sekunder
 - Lav x4-6 reps mere - hvil i 10-15 sekunder
