@@ -1,5 +1,6 @@
 ---
 title: &title "Hvad er den gennemsnitlige skridtlængde og løbekadence ved løb?"
+seo_title: "Gennemsnitlig skridtlængde og løbekadence ved løb"
 permalink: /gennemsnitlige-skridtlaengde-kadence-loeb/
 language: da
 header:

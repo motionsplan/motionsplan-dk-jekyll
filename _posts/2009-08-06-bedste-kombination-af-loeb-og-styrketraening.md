@@ -1,5 +1,6 @@
 ---
 title: &title "Hvad er den bedste kombination af løb og styrketræning? 🏃‍♀🏋️‍♀"
+seo_title: "Hvad er den bedste kombination af løb og styrketræning?"
 permalink: /artikel/bedste-kombination-af-loeb-og-styrketraening/
 redirect_from:
   - /artikel/bedste-kombination-af-loeb-og-styrketraening

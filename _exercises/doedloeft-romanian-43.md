@@ -1,6 +1,6 @@
 ---
 title: "Rumænsk dødløft - Romanian Deadlift (RDL)"
-seo_title: "Rumænsk dødløft: Hvordan laver man Romanian Deadlift (RDL)?"
+seo_title: "Rumænsk dødløft: Hvordan laver man RDL?"
 excerpt: "Rumænsk dødløft eller Romanian Deadlift (RDL) starter oprejst, hvor du holder stangen med cirka skulderafstand mellem hænderne. Stå med benene i skulderbredde. Sænk stangen mod gulvet med så strakte ben som muligt og mens du holder ryggen ret. Når du ikke kan komme længere uden at kompensere i ryggen, rejser du dig igen."
 instructions: "Løftet starter oprejst hvor du holder stangen med cirka skulderafstand mellem hænderne. Stå med benene i skulderbredde. Sænk stangen mod gulvet med så strakte ben som muligt og mens du holder ryggen ret. Når du ikke kan komme længere uden at kompensere i ryggen, rejser du dig igen."
 permalink: /oevelse/romanian-deadlift/

@@ -1,5 +1,6 @@
 ---
 title: &title "Er kontinuerlig træning eller intervaltræning bedst for fedtforbrændingen?"
+seo_title: "Effektiv fedtforbrædning med kontinuerlig træning eller intervaltræning?"
 permalink: /artikel/er-kontinuerlig-traening-eller-intervaltraening-bedst-for-fedtforbraendningen/
 language: da
 header:

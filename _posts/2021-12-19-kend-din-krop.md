@@ -45,7 +45,7 @@ Din krop består af knogler og muskler, som gør dig i stand til at bevæge dig.
 
 ## Hvad fylder du?
 
-- [Hvor stort er dit overfladeareal?](/body-surface-area/)
+- [Hvor stort er dit overfladeareal?](/kroppens-overfladeareal/)
 - [Hvad er dit rumfang?](/kroppens-rumfang/)
 
 ## Konklusion
