@@ -1,5 +1,5 @@
 ---
-title: &title "Kend din krop"
+title: &title "Kend din krop: Gæt og quiz"
 permalink: /kend-din-krop/
 language: da
 header:
