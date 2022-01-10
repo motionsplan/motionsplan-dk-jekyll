@@ -8,7 +8,7 @@ motionsplan.IPFPoint = function(sex, bodyweight, total, event = "SBD", equipment
   equipment = equipment;
   
   function dots_poly(a,b,c,d,e,x) {
-    let x2=x*x, x3=x2*x, x4=x3*x;
+   let x2=x*x, x3=x2*x, x4=x3*x;
     return 500.0 / (a*x4+b*x3+c*x2+d*x+e);
   }
   
@@ -50,9 +50,9 @@ motionsplan.IPFPoint = function(sex, bodyweight, total, event = "SBD", equipment
   }
 
   function getPoints() {
-    let params = PARAMETERS[sex][equipment][event];
-    let denom = params[0] - (params[1] * Math.exp(-1.0 * params[2] * bw));
-    let glp = (denom === 0) ? 0 : Math.max(0, total * 100.0 / denom);
+   let params = PARAMETERS[sex][equipment][event];
+   let denom = params[0] - (params[1] * Math.exp(-1.0 * params[2] * bw));
+   let glp = (denom === 0) ? 0 : Math.max(0, total * 100.0 / denom);
     if (isNaN(glp) || bw < 35) {
       glp = 0;
     }

@@ -4,7 +4,7 @@ motionsplan.CooperRunning = function() {
 
   // time in minutes
   function getVO22400MeterTest(min, sek) {
-    let time = min + (sek / 60);
+   let time = min + (sek / 60);
     return (483 / time) + 3.5;
   }
 
@@ -19,7 +19,7 @@ motionsplan.CooperRunning = function() {
     return (22.351 * distance) - 11.288;
   }
 
-  var publicAPI = {
+  let publicAPI = {
     getVO22400MeterTest: getVO22400MeterTest,
     getVO212MinTest: getVO212MinTest,
     getCooperOriginal : getOriginalCooper

@@ -21,11 +21,11 @@ motionsplan.Running = function() {
     }
 
     function getTimePrKilometer(m, s, km) {
-        let totalSek = parseInt(m) * 60 + parseInt(s);
-        let totalSekPrKm = totalSek / parseFloat(km);
-        let minPrKm = parseInt(totalSekPrKm / 60);
-        let rest = totalSekPrKm - (minPrKm * 60);
-        let sek = rest.toFixed(0);
+      let totalSek = parseInt(m) * 60 + parseInt(s);
+      let totalSekPrKm = totalSek / parseFloat(km);
+      let minPrKm = parseInt(totalSekPrKm / 60);
+      let rest = totalSekPrKm - (minPrKm * 60);
+      let sek = rest.toFixed(0);
 
         if (sek < 10) {
             return minPrKm.toFixed(0) + ":0" + rest.toFixed(0);
@@ -36,7 +36,7 @@ motionsplan.Running = function() {
     }
 
     function getMeterPerSecond(m, s, km) {
-        let velocity = getKilometersPrHour(m, s, km);
+      let velocity = getKilometersPrHour(m, s, km);
         return velocity * 0.2777778;
     }
 
@@ -45,9 +45,9 @@ motionsplan.Running = function() {
     }
 
     function convertKmtToMinPerKm(kmt) {
-        let min = 60 / kmt;
-        let min_out = Math.floor(min);
-        let sec_out = Math.round((min - Math.floor(min)) * 60);
+      let min = 60 / kmt;
+      let min_out = Math.floor(min);
+      let sec_out = Math.round((min - Math.floor(min)) * 60);
         if (sec_out < 10) {
             sec_out='0'+sec_out;
         }
@@ -55,12 +55,12 @@ motionsplan.Running = function() {
     }
 
     function convertMinPerKmToDistanceForDuration(min, sec, duration_minutes, duration_seconds) {
-        let velocity = convertMinPerKmToKmt(min, sec);
+      let velocity = convertMinPerKmToKmt(min, sec);
         return velocity * (duration_minutes + (duration_seconds / 60)) / 60 * 1000;
     }
 
     function getDistanceFromTimeAndVelocity(min, sec, velocity) {
-        let time = min + (sec / 60);
+      let time = min + (sec / 60);
         return (velocity * time / 60);
     }
 
@@ -68,7 +68,7 @@ motionsplan.Running = function() {
         return (distance * 60) / velocity;
     }
 
-    let publicAPI = {
+   let publicAPI = {
         getKilometersPrHour : getKilometersPrHour,
         getTimePrKilometer : getTimePrKilometer,
         convertKmtToMinPerKm : convertKmtToMinPerKm,

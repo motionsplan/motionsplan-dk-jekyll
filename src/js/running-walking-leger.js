@@ -18,7 +18,7 @@ motionsplan.RunningWalkingEnergyExpenditureLeger = function(bw, velocity) {
   }
   
   function getCaloriesPrKilometer() {
-    let min_pr_km = 1 / (velocity / 60);
+   let min_pr_km = 1 / (velocity / 60);
     return getCaloriesPrMinute() * min_pr_km;
   }
 

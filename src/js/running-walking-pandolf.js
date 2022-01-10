@@ -13,7 +13,7 @@ motionsplan.RunningWalkingEnergyExpenditurePandolf = function(bw, velocity, grad
   }
 
   function getPandolfLoadedWalking() {
-    let n = 1;
+   let n = 1;
     return 1.5 * bw + 2 * ((bw + load) * Math.pow(load/bw, 2)) + n * ((bw + load) * (1.5 * Math.pow(m_pr_sec, 2) + (0.35 * m_pr_sec * grade)));
   }
 
@@ -25,7 +25,7 @@ motionsplan.RunningWalkingEnergyExpenditurePandolf = function(bw, velocity, grad
   }
   
   function getCaloriesPrKilometer() {
-    let min_pr_km = 1 / (velocity / 60);
+   let min_pr_km = 1 / (velocity / 60);
     return getCaloriesPrMinute() * min_pr_km;
   }
 

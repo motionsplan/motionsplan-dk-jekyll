@@ -7,7 +7,7 @@ motionsplan.BMRBenedictHarris = function(sex, age, weight, height) {
     sex = sex;
 
     function getBasicMetabolicRate() {
-        var bmr;
+       let bmr;
         if (sex == "male") {
             bmr = 66 + (13.7 * weight) + (5 * height) - (6.8 * age);
         } else {
@@ -17,7 +17,7 @@ motionsplan.BMRBenedictHarris = function(sex, age, weight, height) {
             
     }
 
-    var publicAPI = {
+   let publicAPI = {
         getBasicMetabolicRate : getBasicMetabolicRate
     };
 

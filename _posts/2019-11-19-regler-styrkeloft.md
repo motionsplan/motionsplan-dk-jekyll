@@ -95,8 +95,7 @@ I squat foregår det sådan her. Godkendt dybde er, når folden ved hofteleddet 
 
 Kommandoerne i squat er:
 
-- **Stangen er klar** eller **The bar is loaded**. Når man får kommandoen "Stangen er klar" eller på engelsk "The bar is loaded", så har man maksimalt et minut til at lave sit forsøg.
-- **Unrack**. Når du går ud af racket, så sørg for at stå helt oprejst med knæene strakte.
+- **Stangen er klar** eller **The bar is loaded**. Når man får kommandoen "Stangen er klar" eller på engelsk "The bar is loaded", så har man maksimalt et minut til at lave sit forsøg Unrack vægtstangen. Når du går ud af racket, så sørg for at stå helt oprejst med knæene strakte.
 - Vent på **"Squat!"**-kommandoen. Squat ned så hofteleddet er lavere end knæleddet. Rejs dig igen.
 - Vent på **"Rack"**-kommandoen.
 

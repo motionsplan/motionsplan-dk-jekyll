@@ -20,9 +20,9 @@ motionsplan.SkinfoldDurnin = function(biceps, triceps, suprailiac, subscapularis
   }
 
   function getDensity() {
-    var density;
+   let density;
 
-    var fatsum = getSkinfoldSum();
+   let fatsum = getSkinfoldSum();
     if (isMale()) {
       if (age < 17) {
         density = 1.1533 - 0.0643 * Math.log10(fatsum);
@@ -67,7 +67,7 @@ motionsplan.SkinfoldDurnin = function(biceps, triceps, suprailiac, subscapularis
     return (weight - weight * getBodyFatPercent() / 100);
   }
 
-  var publicAPI = {
+  let publicAPI = {
     getFatFreeMass: getFatFreeMass,
     getBodyFatPercent: getBodyFatPercent,
     getDensity : getDensity,

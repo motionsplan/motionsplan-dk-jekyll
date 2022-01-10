@@ -13,7 +13,7 @@ motionsplan.McCulloch = function(age) {
 		2.05,2.096,2.143,2.19,2.238,2.287,2.337,2.388,2.44,2.494,2.549];
   
   function getCoefficient() {
-    let aa;
+   let aa;
     if (age > 13 && age < 24) {
   		return mc[age-14];
   	}

@@ -1,5 +1,5 @@
 const motionsplan = require('../js/jumpmat.js');
-var assert = require('assert');
+let assert = require('assert');
 
 describe('JumpMat', function() {
   describe('getForce()', function() {

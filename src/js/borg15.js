@@ -1,9 +1,7 @@
 let motionsplan = {}
 
 motionsplan.Borg15 = function(age, weight, watt) {
-  var age = age;
-  var wgt = weight;
-  var watt = watt;
+  let wgt = weight;
 
   function getMaximalOxygenUptake() {
     // Jeg har brugt tyngdeaccellerationen i Danmark til at udregne 9.816 / 60 s = 0.1636
@@ -14,7 +12,7 @@ motionsplan.Borg15 = function(age, weight, watt) {
     return  (getMaximalOxygenUptake() / wgt) * 1000;
   }
 
-  var publicAPI = {
+  let publicAPI = {
     getMaximalOxygenUptake : getMaximalOxygenUptake,
     getFitnessLevel : getFitnessLevel
   };

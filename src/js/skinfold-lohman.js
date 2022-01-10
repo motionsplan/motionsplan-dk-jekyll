@@ -1,9 +1,6 @@
 let motionsplan = {}
 
 motionsplan.SkinfoldLohman = function(sex, triceps, calf) {
-  var sex = sex;
-  var triceps = triceps;
-  var calf = calf;
   
   function getSkinfoldSum() {
     return (triceps + calf);
@@ -23,7 +20,7 @@ motionsplan.SkinfoldLohman = function(sex, triceps, calf) {
     return false;
   }
   
-  var publicAPI = {
+  let publicAPI = {
     getBodyFatPercent : getBodyFatPercent
   };
 

@@ -28,7 +28,8 @@
     "gulp-notify": "^4.0",
     "gulp-responsive": "2.12",
     "gulp-size": "^3.0",
-    "image-map-resizer": "^1.0"
+    "image-map-resizer": "^1.0",
+    "uglify-js": "^3.13"
   },
   "devDependencies": {
     "browserify": "^16.5",
@@ -39,7 +40,6 @@
     "queue": "^6.0",
     "tinify": "^1.6",
     "uglifyify": "^5.0",
-    "uglify-js": "^3.13",
     "wilks-calculator": "^1.2",
     "unicode-encode": "^1.4",
     "watchify": "^4.0"
