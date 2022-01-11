@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Intraset load contrast drop set"
+title: "Stage System"
 breadcrumbs: true
 category:
   - Hypertrofi
@@ -23,6 +23,7 @@ video:
 
 {{ page.excerpt }}
 
+**På Vejle Idrætshøjskole er vi ved at beskrive forskellige metoder til træning. Denne side er under udarbejdelse. Hvis du vil hjælpe med beskrivelsen, så er det meget værdsat.**
 
 {% comment %}
 

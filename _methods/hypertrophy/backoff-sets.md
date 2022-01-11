@@ -23,6 +23,8 @@ video:
 
 {{ page.excerpt }}
 
+**På Vejle Idrætshøjskole er vi ved at beskrive forskellige metoder til træning. Denne side er under udarbejdelse. Hvis du vil hjælpe med beskrivelsen, så er det meget værdsat.**
+
 {% comment %}
 
 Back off sets involve performing additional sets with a lighter weight immediately (or shortly) after a main sequence of heavier sets. Since heavy loads are used in the main part of the workout, this technique is more often used by strength athletes, than by bodybuilders.

@@ -23,6 +23,8 @@ video:
 
 {{ page.excerpt }}
 
+**På Vejle Idrætshøjskole er vi ved at beskrive forskellige metoder til træning. Denne side er under udarbejdelse. Hvis du vil hjælpe med beskrivelsen, så er det meget værdsat.**
+
 {% comment %}
 
 This method is especially effective with compound movements, particularly those with a longer range of motion. It works great with the bench press, squat, and even deadlift. It can also be used successfully with exercises like curls (especially cable curls), triceps pushdowns, leg curls, leg extensions, hack squats, and leg presses. It doesn't work as well with overhead work or pulling exercises.

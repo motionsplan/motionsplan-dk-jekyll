@@ -23,6 +23,8 @@ video:
 
 {{ page.excerpt }}
 
+**På Vejle Idrætshøjskole er vi ved at beskrive forskellige metoder til træning. Denne side er under udarbejdelse. Hvis du vil hjælpe med beskrivelsen, så er det meget værdsat.**
+
 {% comment %}
 
 - Pick 4 exercises. 2 for one bodypart, 2 for an opposing bodypart (agonist / antagonist). Set in agonist / antagonist supersets (A1-A2 and B1-B2).

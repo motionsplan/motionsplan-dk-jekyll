@@ -29,6 +29,8 @@ video:
 
 {{ page.excerpt }}
 
+**På Vejle Idrætshøjskole er vi ved at beskrive forskellige metoder til træning. Denne side er under udarbejdelse. Hvis du vil hjælpe med beskrivelsen, så er det meget værdsat.**
+
 Rationalet bag den høje volumen er for at skabe metabolisk stress og mekanisk spænding i musklerne, der skal skabe muskelvækst.
 
 {% if page.video %}

@@ -20,6 +20,8 @@ effect: ""
 
 {{ page.excerpt }}
 
+**På Vejle Idrætshøjskole er vi ved at beskrive forskellige metoder til træning. Denne side er under udarbejdelse. Hvis du vil hjælpe med beskrivelsen, så er det meget værdsat.**
+
 ## 21
 
 - Først kører du 7 reps, med fuldt bevægelsesudslag.

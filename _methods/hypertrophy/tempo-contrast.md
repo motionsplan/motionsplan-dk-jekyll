@@ -23,6 +23,8 @@ video:
 
 {{ page.excerpt }}
 
+**På Vejle Idrætshøjskole er vi ved at beskrive forskellige metoder til træning. Denne side er under udarbejdelse. Hvis du vil hjælpe med beskrivelsen, så er det meget værdsat.**
+
 {% comment %}
 
 The technique itself is very simple: During the same set you alternate between very slow reps and fast reps – the fastest you can do with perfect form. Specifically, you do 2 reps with a 5 second up and 5 second down tempo followed by 2 fast reps. This is referred to as one "cycle." Each set has either 8 or 12 reps (two or three cycles of four reps), or between 8 and 12 reps if you hit failure before completing 3 full cycles.
