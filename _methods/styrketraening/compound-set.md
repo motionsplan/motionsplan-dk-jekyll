@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Compound set"
+permalink: /styrketraening/compound-sets/
 breadcrumbs: true
 category:
   - Hypertrofi

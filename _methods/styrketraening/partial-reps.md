@@ -1,6 +1,7 @@
 ---
 layout: single
-title: "Waves"
+title: "Partial reps"
+permalink: /styrketraening/partial-reps/
 breadcrumbs: true
 category:
   - Hypertrofi
@@ -16,24 +17,21 @@ howto:
 exercises: ""
 progress:
 effect: ""
-video:
-  provider: youtube
-  id: becM86QNnpQ
 ---
 
 {{ page.excerpt }}
 
 **På Vejle Idrætshøjskole er vi ved at beskrive forskellige metoder til træning. Denne side er under udarbejdelse. Hvis du vil hjælpe med beskrivelsen, så er det meget værdsat.**
 
-Du kan både bruge waves til maksimal styrke og hypertrofi. Hvis du gerne vil bruge waves til hypertrofi, skal du naturligvis køre flere reps for at skabe volumen end du gør ifm. maksimal styrke.
+## 21
 
-Et eksempel kan være en squat.
-
-- 1\. wave: x12 @8, x10 @8, x8 @8
-- 2\. wave: x12, x10, x8 (hæv vægten alt efter overskud)
+- Først kører du 7 reps, med fuldt bevægelsesudslag.
+- Derefter kører du 7 reps, i den svageste del af bevægelsesudslaget.
+- Endelig kører du 7 reps i den stærkeste del af bevægelsesudslaget.
 
 {% if page.video %}
   {% include video provider=page.video.provider id=page.video.id %}
 {% endif %}
+
 
 Læs mere om [metoder til hypertrofi](/hypertrofi-metoder/).

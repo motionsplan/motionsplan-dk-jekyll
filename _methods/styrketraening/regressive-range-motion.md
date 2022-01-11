@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Regressive range of motion"
+permalink: /styrketraening/regressive-range-of-motion/
 breadcrumbs: true
 category:
   - Hypertrofi

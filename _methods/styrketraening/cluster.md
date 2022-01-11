@@ -1,6 +1,7 @@
 ---
 layout: single
-title: "Cluster"
+title: "Clusters"
+permalink: /styrketraening/clusters/
 breadcrumbs: true
 category:
   - Hypertrofi

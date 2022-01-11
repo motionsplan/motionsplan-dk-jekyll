@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Tempo Contrast"
+permalink: /styrketraening/tempo-contrast/
 breadcrumbs: true
 category:
   - Hypertrofi

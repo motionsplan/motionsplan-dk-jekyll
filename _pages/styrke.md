@@ -1,10 +1,12 @@
 ---
 layout: single
 title: "Styrketræning"
+redirect_from:
+  - /styrke/
 seo_title: "Styrketræning: Alt om styrke og træning | Motionsplan"
 system:
   - fitnessinstruktør
-permalink: /styrke/
+permalink: /styrketraening/
 excerpt: "Styrketræning er fællesbetegnelse for en række fysiske øvelser, hvori en udøver styrker sine muskler. Her kan du dykke ned i alle vores artikler om styrketræning."
 header:
   overlay_image: https://images.unsplash.com/photo-1526403223670-2aa44aaface2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5

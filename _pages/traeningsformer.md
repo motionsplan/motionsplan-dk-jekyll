@@ -9,7 +9,7 @@ header:
   caption: Træningsformer
   actions:
     - label: "<i class='fas fa-download'></i> Styrketræning"
-      url: "/styrke/"
+      url: "/styrketraening/"
     - label: "<i class='fas fa-download'></i> Løb"
       url: "/loebesiden/"
     - label: "<i class='fas fa-download'></i> Konditionstræning"
@@ -33,7 +33,7 @@ Du kan også læse mere om, [hvordan du kan optimere din træning](/optimer-trae
 
 Styrketræning handler om at blive stærkere, bygge større muskler eller begge dele på samme tid. Vi har skrevet rigtig mange indlæg om styrketræning, styrketræningsprogrammer og øvelser til styrketræning. 
 
-Læs mere om [styrketræning her](/styrke/) eller se vores [begynderprogram til calisthenics]({% link _posts/2021-01-18-calistenics.md %}).
+Læs mere om [styrketræning her](/styrketraening/) eller se vores [begynderprogram til calisthenics]({% link _posts/2021-01-18-calistenics.md %}).
 
 {% assign site_posts = site.posts | where: "category", "Styrketræning" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
 

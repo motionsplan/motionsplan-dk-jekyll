@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Dropsæt"
+permalink: /styrketraening/dropset/
 breadcrumbs: true
 category:
   - Hypertrofi

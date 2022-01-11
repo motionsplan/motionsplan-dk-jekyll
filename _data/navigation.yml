@@ -11,7 +11,7 @@ main:
   - title: "Til fitnessinstruktøren"
     url: /fitnessinstruktoer/
   - title: "Styrketræning"
-    url: /styrke/
+    url: /styrketraening/
   - title: "Kondition"
     url: /kondition/
   - title: "Løb"
@@ -225,7 +225,7 @@ trainingtypes:
     url: /traeningsformer/
     children:
       - title: "Styrketræning"
-        url: /styrke/
+        url: /styrketraening/
       - title: "Kondition"
         url: /kondition/
       - title: "Cardio"

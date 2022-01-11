@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Antagonist supersæt"
+permalink: /styrketraening/superset-antagonist/
 breadcrumbs: true
 category:
   - Hypertrofi

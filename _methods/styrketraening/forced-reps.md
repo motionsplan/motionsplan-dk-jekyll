@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Forced reps"
+permalink: /styrketraening/forced-reps/
 breadcrumbs: true
 category:
   - Hypertrofi

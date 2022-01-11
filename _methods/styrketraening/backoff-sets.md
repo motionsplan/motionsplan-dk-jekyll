@@ -1,6 +1,7 @@
 ---
 layout: single
 breadcrumbs: true
+permalink: /styrketraening/backoff-sets/
 category:
   - Hypertrofi
 title: "Backoff sæt"

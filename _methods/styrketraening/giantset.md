@@ -1,6 +1,7 @@
 ---
 layout: single
-title: "Triset"
+title: "Giantset"
+permalink: /styrketraening/giantset/
 breadcrumbs: true
 category:
   - Hypertrofi
@@ -28,6 +29,5 @@ video:
 {% if page.video %}
   {% include video provider=page.video.provider id=page.video.id %}
 {% endif %}
-
 
 Læs mere om [metoder til hypertrofi](/hypertrofi-metoder/).

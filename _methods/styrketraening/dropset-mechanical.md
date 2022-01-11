@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Mekaniske dropsæt"
+permalink: /styrketraening/mekanisk-dropset/
 breadcrumbs: true
 category:
   - Hypertrofi

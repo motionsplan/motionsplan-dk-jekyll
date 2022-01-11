@@ -1,6 +1,7 @@
 ---
 layout: single
-title: "Partial reps"
+title: "Excentrisk fokus"
+permalink: /styrketraening/excentrisk-fokus/
 breadcrumbs: true
 category:
   - Hypertrofi
@@ -16,21 +17,17 @@ howto:
 exercises: ""
 progress:
 effect: ""
+video:
+  provider: youtube
+  id: i8uPSGoHfD8
 ---
 
 {{ page.excerpt }}
 
 **På Vejle Idrætshøjskole er vi ved at beskrive forskellige metoder til træning. Denne side er under udarbejdelse. Hvis du vil hjælpe med beskrivelsen, så er det meget værdsat.**
 
-## 21
-
-- Først kører du 7 reps, med fuldt bevægelsesudslag.
-- Derefter kører du 7 reps, i den svageste del af bevægelsesudslaget.
-- Endelig kører du 7 reps i den stærkeste del af bevægelsesudslaget.
-
 {% if page.video %}
   {% include video provider=page.video.provider id=page.video.id %}
 {% endif %}
-
 
 Læs mere om [metoder til hypertrofi](/hypertrofi-metoder/).

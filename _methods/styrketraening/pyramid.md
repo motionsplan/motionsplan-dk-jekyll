@@ -1,6 +1,7 @@
 ---
 layout: single
-title: "Excentrisk fokus"
+title: "Pyramide"
+permalink: /styrketraening/pyramide/
 breadcrumbs: true
 category:
   - Hypertrofi
@@ -16,9 +17,6 @@ howto:
 exercises: ""
 progress:
 effect: ""
-video:
-  provider: youtube
-  id: i8uPSGoHfD8
 ---
 
 {{ page.excerpt }}

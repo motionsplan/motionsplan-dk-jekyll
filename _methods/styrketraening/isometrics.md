@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Isometrisk træning"
+permalink: /styrketraening/isometrisk-traening/
 breadcrumbs: true
 category:
   - Hypertrofi

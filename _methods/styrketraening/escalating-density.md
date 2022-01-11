@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Escalating density (EDT)"
+permalink: /styrketraening/escalating-density/
 breadcrumbs: true
 category:
   - Hypertrofi

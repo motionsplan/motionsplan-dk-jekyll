@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Stage System"
+permalink: /styrketraening/stage-system/
 breadcrumbs: true
 category:
   - Hypertrofi
