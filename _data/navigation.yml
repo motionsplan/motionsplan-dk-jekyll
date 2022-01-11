@@ -297,3 +297,85 @@ exercises:
         url: /udstraekning-udspaending/
       - title: Foamrolling og SMR
         url: /foamrolling-foamroller-lacrossebolde/
+
+methods:
+  - title: Styrketræning
+    url: /styrketraening/
+    children:
+      - title: Clusters
+        url: /styrketraening/clusters/
+      - title: Compound set
+        url: /styrketraening/compound-sets/
+      - title: Dropsæt
+        url: /styrketraening/dropset/
+      - title: Mekaniske dropsæt
+        url: /styrketraening/mekanisk-dropset/
+      - title: Excentrisk fokus
+        url: /styrketraening/excentrisk-fokus/
+      - title: Escalating density (EDT)
+        url: /styrketraening/escalating-density/
+      - title: Forced reps
+        url: /styrketraening/forced-reps/
+      - title: Giantset
+        url: /styrketraening/giantset/
+      - title: German Volume Training (GVT)
+        url: /styrketraening/gvt/
+      - title: Isometrisk træning
+        url: /styrketraening/isometrisk-traening/
+      - title: Okklusion
+        url: /styrketraening/okklusion/
+      - title: Partial reps
+        url: /styrketraening/partial-reps/
+      - title: Pyramide
+        url: /styrketraening/pyramide/
+      - title: Regressive range of motion
+        url: /styrketraening/regressive-range-of-motion/
+      - title: Myoreps
+        url: /styrketraening/myoreps/
+      - title: Rest-pause
+        url: /styrketraening/rest-pause/
+      - title: Stage System
+        url: /styrketraening/stage-system/
+      - title: Agonist supersæt
+        url: /styrketraening/agonist-superset/
+      - title: Antagonist supersæt
+        url: /styrketraening/superset-antagonist/
+      - title: Tempo Method
+        url: /styrketraening/tempo-method/
+      - title: Triset
+        url: /styrketraening/triset/
+  - title: Maksimal styrke
+    url: /maksimal-styrketraening/
+    children:
+      - title: Backoff sæt
+        url: /styrketraening/backoff-sets/
+      - title: Tempo Contrast
+        url: /styrketraening/tempo-contrast/
+      - title: Waves
+        url: /styrketraening/waves/
+  - title: Kondition
+    url: /kondition/
+    children:
+      - title: Udholdenhed
+        url: /metode/udholdenhed/
+      - title: Threshold Method - Tærskelmetode
+        url: /metode/threshold/
+      - title: Cardiac Power Intervals
+        url: /metode/cardiac-power-intervals/
+      - title: Tempo-intervaller
+        url: /metode/tempo-intervaller/
+      - title: Explosive Repeat Method
+        url: /metode/explosive-repeat/
+      - title: Aerob plyometri
+        url: /metode/aerobic-plyometrics/
+      - title: High Intensity Continuous Training (HICT)
+        url: /metode/hict/
+  - title: Anaerob træning
+    url: /anaerob-traening/
+    children:
+      - title: Alactacide intervaller
+        url: /metode/alactic-intervals/
+      - title: Lactacide intervaller
+        url: /metode/lactic-intervals/
+      - title: High Resistance Intervals (HRI)
+        url: /metode/high-resistance-intervals/

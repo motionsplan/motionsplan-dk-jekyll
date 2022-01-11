@@ -1,11 +1,9 @@
 ---
-layout: single
-breadcrumbs: true
+title: "Backoff sæt"
+excerpt: ""
 permalink: /styrketraening/backoff-sets/
 category:
   - Styrketræning
-title: "Backoff sæt"
-excerpt: ""
 tags:
   - maksimal styrke
 rpe: 
@@ -40,3 +38,8 @@ Such beneficial effects are likely only going to be apparent when the main sets 
 {% endif %}
 
 Læs mere om [metoder til hypertrofi](/hypertrofi-metoder/).
+
+{% for n in site.methods %}
+      \- title: {{ n.title }}
+        url: {{ n.url }}
+{% endfor %}
