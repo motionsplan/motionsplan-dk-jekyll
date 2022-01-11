@@ -3,11 +3,11 @@ layout: single
 breadcrumbs: true
 permalink: /styrketraening/backoff-sets/
 category:
-  - Hypertrofi
+  - Styrketræning
 title: "Backoff sæt"
 excerpt: ""
 tags:
-  - hypertrofi
+  - maksimal styrke
 rpe: 
 intensity: 
 time: 

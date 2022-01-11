@@ -4,10 +4,10 @@ title: "Waves"
 permalink: /styrketraening/waves/
 breadcrumbs: true
 category:
-  - Hypertrofi
+  - Styrketræning
 excerpt: ""
 tags:
-  - hypertrofi
+  - maksimal styrke
 rpe: 
 intensity: 
 time: 

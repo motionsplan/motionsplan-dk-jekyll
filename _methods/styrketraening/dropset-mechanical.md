@@ -26,7 +26,7 @@ video:
 
 **På Vejle Idrætshøjskole er vi ved at beskrive forskellige metoder til træning. Denne side er under udarbejdelse. Hvis du vil hjælpe med beskrivelsen, så er det meget værdsat.**
 
-Et alternativ til det [klassiske drop-set]({% link _methods/hypertrophy/dropset.md %}) er **mekaniske** drop-sets.
+Et alternativ til det [klassiske drop-set]({% link _methods/styrketraening/dropset.md %}) er **mekaniske** drop-sets.
 
 I de klassiske drop-set sænker du vægten for at kunne tage flere gentagelser i dit sæt, så du kan udtrætte muskulaturen. I et mekanisk dropsæt sænker du øvelsens sværhedsgrad. Når du bliver træt i en øvelse, så vælger du en anden øvelse, hvor du kan fortsætte med samme belastning og udtrætte muskelgruppen yderligere.
 

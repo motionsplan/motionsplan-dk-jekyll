@@ -4,10 +4,10 @@ title: "Stage System"
 permalink: /styrketraening/stage-system/
 breadcrumbs: true
 category:
-  - Hypertrofi
+  - Styrketræning
 excerpt: ""
 tags:
-  - hypertrofi
+  - maksimal styrke
 rpe: 
 intensity: 
 time: 

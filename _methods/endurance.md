@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "Endurance"
-permalink: permalink: /metode/udholdenhed/
+title: "Udholdenhed"
+permalink: /metode/udholdenhed/
 redirect_from:
   - /metode/cool-down/
   - /metode/dynamic-warmup/

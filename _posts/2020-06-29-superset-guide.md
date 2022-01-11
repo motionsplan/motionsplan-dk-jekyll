@@ -55,7 +55,7 @@ Hvis øvelserne i stedet skal køres som superset i min træning, så kan det sk
 - A1) Bænkpres
 - A2) One arm rows
 
-I dette supersæt laver du altså først A1 og derefter laver du A2. Der kunne også stå A1, A2, A3 og A4, men så kalder vi det typisk et **[triset]({% link _methods/hypertrophy/triset.md %})** eller et **[giant set]({% link _methods/hypertrophy/giantset.md %})** i stedet for et **superset**.
+I dette supersæt laver du altså først A1 og derefter laver du A2. Der kunne også stå A1, A2, A3 og A4, men så kalder vi det typisk et **[triset]({% link _methods/styrketraening/triset.md %})** eller et **[giant set]({% link _methods/styrketraening/giantset.md %})** i stedet for et **superset**.
 
 Der er forskellige muligheder for supersets, hvor den mest brugte formentlig er et agonist-antagonist supersæt. Lad os tage et hurtigt eksempel på hvad et agonist-antagonist superset er:
 

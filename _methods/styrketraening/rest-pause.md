@@ -6,8 +6,9 @@ breadcrumbs: true
 image: https://images.unsplash.com/photo-1502955717682-d0430000b16d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1900&q=5
 teaser: /assets/images/hypertrofi/rest-pause.png
 category:
+  - Styrketræning
   - Hypertrofi
-excerpt: "Rest-pause er en ret udbredt teknik. I løbet af dit sidste sæt laver nogle korte pauser på 10-15 sekunder, så du samlet set kan lave en større volumen i det sidste sæt end du ellers ville have kunnet gøre."
+excerpt: "I Rest-pause laver du i løbet af dit sidste sæt nogle korte pauser på 10-15 sekunder, så du samlet set kan lave en større volumen i det samlede sæt, end du ellers ville have kunnet gøre."
 tags:
   - hypertrofi
 rpe: 
