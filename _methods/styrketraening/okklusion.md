@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Okklusion"
+permalink: /styrketraening/okklusion/
 breadcrumbs: true
 category:
   - Hypertrofi

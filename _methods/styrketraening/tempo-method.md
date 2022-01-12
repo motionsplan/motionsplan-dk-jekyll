@@ -1,7 +1,13 @@
 ---
 layout: single
 title: "Tempo Method"
+permalink: /styrketraening/tempo-method/
+redirect_from:
+  - /metode/tempo-method/
 excerpt: "Tempo-metoden forbedrer den lokale muskulære udholdenhed i musklerne. Tempometoden indebærer langsom styrketræning med 2-3s i både den koncentriske og excentriske pause i sæt på omkring 45-60 sekunder med i alt 4-6 sæt."
+category:
+  - Styrketræning
+  - Hypertrofi
 tags:
   - conditioning
 rpe: 8

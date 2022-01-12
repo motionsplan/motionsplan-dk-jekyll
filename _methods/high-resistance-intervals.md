@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "High Resistance Intervals (HRI)"
+permalink: /metode/high-resistance-intervals/
 excerpt: "High Resistance Intervals (HRI) er intervaller med høj modstand udført eksplosivt for at forbedre udholdenheden og evnen til at restitutere for fast-twitch muskelfibrene. Typisk 5 sekunders arbejde i 10-20 minutter, hvor pulsen altid når at falde til omkring 130 slag/min."
 tags:
   - conditioning

@@ -1,12 +1,14 @@
 ---
 layout: single
 title: "Rest-pause"
+permalink: /styrketraening/rest-pause/
 breadcrumbs: true
 image: https://images.unsplash.com/photo-1502955717682-d0430000b16d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1900&q=5
 teaser: /assets/images/hypertrofi/rest-pause.png
 category:
+  - Styrketræning
   - Hypertrofi
-excerpt: "Rest-pause er en ret udbredt teknik. I løbet af dit sidste sæt laver nogle korte pauser på 10-15 sekunder, så du samlet set kan lave en større volumen i det sidste sæt end du ellers ville have kunnet gøre."
+excerpt: "I Rest-pause laver du i løbet af dit sidste sæt nogle korte pauser på 10-15 sekunder, så du samlet set kan lave en større volumen i det samlede sæt, end du ellers ville have kunnet gøre."
 tags:
   - hypertrofi
 rpe: 
@@ -25,11 +27,9 @@ video:
 
 {{ page.excerpt }}
 
-<<<<<<< HEAD
+**På Vejle Idrætshøjskole er vi ved at beskrive forskellige metoder til træning. Denne side er under udarbejdelse. Hvis du vil hjælpe med beskrivelsen, så er det meget værdsat.**
+
 Rest-pause er en ret udbredt teknik. I løbet af dit sidste sæt laver nogle korte pauser på 10-15 sekunder, så du samlet set kan lave en større volumen i det sidste sæt end du ellers ville have kunnet gøre. Typisk vil et rest-pause sæt ende på en RPE på 10.
-=======
-Rest-pause er en ret udbredt teknik. Pointen er, at du i løbet af dine sæt laver to ultrakorte pauser på 10-15 sekunder, så du samlet set kan lave en større volumen i det sidste sæt end du ellers ville have kunnet gøre. Typisk vil et rest-pause sæt ende på en RPE på 10.
->>>>>>> c8f904d605d8f0af679beb2df4d872752dc32d22
 
 - Lav x8 reps - hvil i 10-15 sekunder
 - Lav x4-6 reps mere - hvil i 10-15 sekunder

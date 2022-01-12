@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Partial reps"
+permalink: /styrketraening/partial-reps/
 breadcrumbs: true
 category:
   - Hypertrofi
@@ -19,6 +20,8 @@ effect: ""
 ---
 
 {{ page.excerpt }}
+
+**På Vejle Idrætshøjskole er vi ved at beskrive forskellige metoder til træning. Denne side er under udarbejdelse. Hvis du vil hjælpe med beskrivelsen, så er det meget værdsat.**
 
 ## 21
 

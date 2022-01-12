@@ -1,6 +1,7 @@
 ---
 layout: single
-title: "Pre-exhaust supersæt"
+title: "Compound set"
+permalink: /styrketraening/compound-sets/
 breadcrumbs: true
 category:
   - Hypertrofi
@@ -22,6 +23,8 @@ video:
 ---
 
 {{ page.excerpt }}
+
+**På Vejle Idrætshøjskole er vi ved at beskrive forskellige metoder til træning. Denne side er under udarbejdelse. Hvis du vil hjælpe med beskrivelsen, så er det meget værdsat.**
 
 I et pre-exhaust supersæt udfører du først en isolationsøvelse for en muskel og dernæst en flerledsøvelse, der involverer samme musikelgruppe.
 

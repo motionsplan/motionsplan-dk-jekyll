@@ -1,12 +1,11 @@
 ---
-layout: single
-breadcrumbs: true
-category:
-  - Hypertrofi
 title: "Backoff sæt"
 excerpt: ""
+permalink: /styrketraening/backoff-sets/
+category:
+  - Styrketræning
 tags:
-  - hypertrofi
+  - maksimal styrke
 rpe: 
 intensity: 
 time: 
@@ -23,6 +22,8 @@ video:
 
 {{ page.excerpt }}
 
+**På Vejle Idrætshøjskole er vi ved at beskrive forskellige metoder til træning. Denne side er under udarbejdelse. Hvis du vil hjælpe med beskrivelsen, så er det meget værdsat.**
+
 {% comment %}
 
 Back off sets involve performing additional sets with a lighter weight immediately (or shortly) after a main sequence of heavier sets. Since heavy loads are used in the main part of the workout, this technique is more often used by strength athletes, than by bodybuilders.
@@ -37,3 +38,7 @@ Such beneficial effects are likely only going to be apparent when the main sets 
 {% endif %}
 
 Læs mere om [metoder til hypertrofi](/hypertrofi-metoder/).
+
+{% for n in site.methods %}
+    https://www.motionsplan.dk{{ n.url }}?utm_source=pinterest_methods&utm_medium=qrcode&utm_campaign=website
+{% endfor %}

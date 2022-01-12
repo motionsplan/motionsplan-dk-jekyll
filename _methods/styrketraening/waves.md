@@ -1,12 +1,13 @@
 ---
 layout: single
 title: "Waves"
+permalink: /styrketraening/waves/
 breadcrumbs: true
 category:
-  - Hypertrofi
+  - Styrketræning
 excerpt: ""
 tags:
-  - hypertrofi
+  - maksimal styrke
 rpe: 
 intensity: 
 time: 
@@ -22,6 +23,8 @@ video:
 ---
 
 {{ page.excerpt }}
+
+**På Vejle Idrætshøjskole er vi ved at beskrive forskellige metoder til træning. Denne side er under udarbejdelse. Hvis du vil hjælpe med beskrivelsen, så er det meget værdsat.**
 
 Du kan både bruge waves til maksimal styrke og hypertrofi. Hvis du gerne vil bruge waves til hypertrofi, skal du naturligvis køre flere reps for at skabe volumen end du gør ifm. maksimal styrke.
 

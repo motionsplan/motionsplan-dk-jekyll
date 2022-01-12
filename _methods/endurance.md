@@ -1,9 +1,12 @@
 ---
 layout: single
-title: "Cardiac Output"
+title: "Udholdenhed"
+permalink: /metode/udholdenhed/
 redirect_from:
   - /metode/cool-down/
   - /metode/dynamic-warmup/
+  - /metode/cardiac-output/
+  - /metode/strongman-endurance/
 excerpt: "Cardiac output træning skal forbedre udholdenheden. Ved at arbejde med en puls mellem 120-150 slag / min i snakketempo, så kan du forbedre de perifære egenskaber med kapillærer og mitochondrier og kroppens evne til at forbrænde kulhydrat og fedt."
 tags:
   - conditioning
