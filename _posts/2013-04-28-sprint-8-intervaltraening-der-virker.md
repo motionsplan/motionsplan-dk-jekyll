@@ -17,6 +17,8 @@ category:
   - Kondition
   - Løb
 last_modified_at: 2013-04-28T13:13:06Z
+sidebar:
+  nav: methods
 ---
 
 Sprint 8-interval træning består af 30 sekunders all-out efterfulgt af halvandet minuts pause. Dette gentager du otte gange. Træningen belaster både det aerobe og anaerobe system og giver en god [anaerob træning]({% link _posts/2021-01-02-anaerob-traening.md %}). Træningen er i familie med [Tabataintervaller](/artikel/4-minutters-haard-intervaltraening-bedre-end-en-times-moderat-loeb), som er 20 sekunders all-out efterfulgt af kun 10 sekunders pause, og belaster kroppen på nogenlunde samme måde.

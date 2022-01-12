@@ -344,13 +344,15 @@ methods:
         url: /styrketraening/tempo-method/
       - title: Triset
         url: /styrketraening/triset/
+      - title: Tempo Contrast
+        url: /styrketraening/tempo-contrast/
   - title: Maksimal styrke
     url: /maksimal-styrketraening/
     children:
       - title: Backoff sæt
         url: /styrketraening/backoff-sets/
-      - title: Tempo Contrast
-        url: /styrketraening/tempo-contrast/
+      - title: Contrast training
+        url: /styrketraening/contrast-training/
       - title: Waves
         url: /styrketraening/waves/
   - title: Kondition
@@ -360,6 +362,12 @@ methods:
         url: /metode/udholdenhed/
       - title: Threshold Method - Tærskelmetode
         url: /metode/threshold/
+      - title: VO2-max-intervaller
+        url: /hiit/
+      - title: Billat-intervaller
+        url: /billat-vvovmax-tlimvo2max/
+      - title: Hastighedsteknik
+        url: /metode/hastighedhedsteknik/
       - title: Cardiac Power Intervals
         url: /metode/cardiac-power-intervals/
       - title: Tempo-intervaller
@@ -370,12 +378,26 @@ methods:
         url: /metode/aerobic-plyometrics/
       - title: High Intensity Continuous Training (HICT)
         url: /metode/hict/
+      - title: Fartlek
+        url: /hiit/
+      - title: Sprint 8
+        url: /artikel/sprint-8-intervaltraening-der-virker/
+      - title: 10-20-30
+        url: /metode/10-20-30/
+      - title: Pyramide
+        url: /metode/pyramide/
   - title: Anaerob træning
     url: /anaerob-traening/
     children:
       - title: Alactacide intervaller
         url: /metode/alactic-intervals/
+      - title: Anaerob kapacitet
+        url: /metode/anaerob-kapacitet/
+      - title: Anaerob power
+        url: /metode/anaerob-power/
       - title: Lactacide intervaller
         url: /metode/lactic-intervals/
       - title: High Resistance Intervals (HRI)
         url: /metode/high-resistance-intervals/
+      - title: Tabata-intervaller
+        url: /artikel/tabata-traening-intervaller/
