@@ -1,5 +1,6 @@
 ---
 title: &title "Træning i naturen: Outdoor fitness, Dogmefitness og Naturfitness"
+seo_title: "Træning i naturen: Outdoor fitness og naturfitness"
 permalink: /artikel/dogmefitness/
 language: da
 header:

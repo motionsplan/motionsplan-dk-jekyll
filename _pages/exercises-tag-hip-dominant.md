@@ -2,7 +2,7 @@
 layout: single
 permalink: /hoftedominante-oevelser/
 title: &title "Hoftedominante øvelser: Træn din bagside med hængelsbevægelser"
-seo_title: "Hoftedominante øvelser: Træn bagside med hængselsbevægelser"
+seo_title: "Hoftedominante øvelser: Træn bagsiden med hinge-bevægelser"
 author_profile: true
 classes: wide
 header:

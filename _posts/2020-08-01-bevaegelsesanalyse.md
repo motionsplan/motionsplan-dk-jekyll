@@ -1,5 +1,6 @@
 ---
 title: &title "Hvordan laver man en bevægelsesanalyse som fitnessinstruktør?"
+seo_title: "Sådan laver en fitnessinstruktør en bevægelsesanalyse"
 permalink: /bevaegelsesanalyse/
 last_modified_at: 2020-10-06T09:41:09Z
 language: da

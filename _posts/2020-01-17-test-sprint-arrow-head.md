@@ -1,5 +1,5 @@
 ---
-title: &title "Arrowhead Test: Test din agility med arrowhead testen"
+title: &title "Arrowhead Test: Retningsskift og agilitytest"
 permalink: /arrowhead-test/
 language: da
 header:

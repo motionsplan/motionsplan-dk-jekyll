@@ -1,5 +1,6 @@
 ---
 title: &title "Alt om tempoløft, tempomanipulation og Time Under Tension (TUT)"
+seo_title: "Tempoløft, tempomanipulation og Time Under Tension (TUT)"
 permalink: /artikel/foelg-tempoet-naar-du-loefter/
 language: da
 header:
