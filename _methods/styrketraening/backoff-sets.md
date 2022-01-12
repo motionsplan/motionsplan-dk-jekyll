@@ -6,11 +6,11 @@ category:
   - Styrketræning
 tags:
   - maksimal styrke
-rpe: 
-intensity: 
-time: 
-reps: 
-frequency: 
+rpe:
+intensity:
+time:
+reps:
+frequency:
 howto:
 exercises: ""
 progress:
@@ -38,7 +38,3 @@ Such beneficial effects are likely only going to be apparent when the main sets 
 {% endif %}
 
 Læs mere om [metoder til hypertrofi](/hypertrofi-metoder/).
-
-{% for n in site.methods %}
-    https://www.motionsplan.dk{{ n.url }}?utm_source=pinterest_methods&utm_medium=qrcode&utm_campaign=website
-{% endfor %}
