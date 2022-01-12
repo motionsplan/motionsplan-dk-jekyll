@@ -40,6 +40,5 @@ Such beneficial effects are likely only going to be apparent when the main sets 
 Læs mere om [metoder til hypertrofi](/hypertrofi-metoder/).
 
 {% for n in site.methods %}
-      \- title: {{ n.title }}
-        url: {{ n.url }}
+    https://www.motionsplan.dk{{ n.url }}?utm_source=pinterest_methods&utm_medium=qrcode&utm_campaign=website
 {% endfor %}
