@@ -5,6 +5,7 @@ permalink: /metode/lactic-intervals/
 excerpt: "Lactacide intervaller skal forbedre det laktacide systems evne til at levere energi til højintenst arbejde og forbedre kroppens tolerance til den anaerobe metabolisme. Det sker ved maksimalt arbejde i 30-40 sekunder gentaget 2-5 gange med 1-5 minutters pause."
 tags:
   - conditioning
+  - anaerob træning
 rpe: 8-9
 intensity: Max
 time: 30-40 sekunder

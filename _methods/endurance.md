@@ -10,6 +10,7 @@ redirect_from:
 excerpt: "Cardiac output træning skal forbedre udholdenheden. Ved at arbejde med en puls mellem 120-150 slag / min i snakketempo, så kan du forbedre de perifære egenskaber med kapillærer og mitochondrier og kroppens evne til at forbrænde kulhydrat og fedt."
 tags:
   - conditioning
+  - aerob træning
 rpe: 5-6
 intensity: HR 120-150bpm
 time: 30-90 min

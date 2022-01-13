@@ -5,6 +5,7 @@ permalink: /metode/threshold/
 excerpt: "Formålet med tærskel-metoden eller _threshold method_ er at forbedre, hvor meget power der kan produceres omkring den anaerobe tærskel og forbedre evnen til at have en god teknik, når man bliver træt. Du arbejder omkring den anaerobe tærskel i 10-30 minutter per arbejdsperiode og laver 1-5 gentagelser alt efter din nuværende form."
 tags:
   - conditioning
+  - aerob træning
 rpe: 8-9
 intensity: HR ± 5 slag ift. ANT
 time: 5-10 min arbejdsperiode x 2-5 reps

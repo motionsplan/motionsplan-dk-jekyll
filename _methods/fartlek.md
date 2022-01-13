@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "10-20-30"
+title: "Fartlek"
 permalink: /metode/fartlek/
 breadcrumbs: true
 category:

@@ -4,10 +4,10 @@ title: "Constrast Training"
 permalink: /styrketraening/contrast-training/
 breadcrumbs: true
 category:
-  - Hypertrofi
+  - Styrketræning
 excerpt: ""
 tags:
-  - hypertrofi
+  - maksimal power
 rpe:
 intensity:
 time:
