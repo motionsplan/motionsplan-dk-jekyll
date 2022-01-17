@@ -27,7 +27,7 @@ Hvis du gerne vil have svar på hvor mange skridt 10 km cykling svarer til - ell
 
 Omregningen af aktivitet, motion og sport til skridt er baseret på [MET](/met/), så det er kun en tilnærmelse, men hvis du hovedsageligt holder øje med dine skridt, så kan det være en hjælp. Du kan læse mere om at omregne motion, sport og aktivitet til skridt på [verywellfit.com](https://www.verywellfit.com/pedometer-step-equivalents-for-exercises-and-activities-3435742).
 
-## Skridt omregner: Omregn aktivitet, motion og sport til skridt
+## Skridtomregner: Omregn aktivitet, motion og sport til skridt
 
 Du kan omregne anden motion, sport og aktivitet til skridt i vores "Tæl skridt beregner" og motionsomregner.
 
