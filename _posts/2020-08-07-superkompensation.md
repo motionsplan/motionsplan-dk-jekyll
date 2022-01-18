@@ -75,17 +75,3 @@ Superkompensationsbegrebet er egentlig en del af teorien om _general adaption sy
 ## Opsamling på superkompensation
 
 Hvis du er i tvivl om, hvordan du skal oprette en træningsplan, så kan du lave en aftale med en personlig træner.
-
-## Læs flere artikler om restitution
-
-<div class="feature__wrapper">
-
-{% assign site_posts = site.posts | where: "tags", "restitution" | sort: "last_modified_at" | reverse %}
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
