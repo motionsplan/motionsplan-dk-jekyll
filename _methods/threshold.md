@@ -27,6 +27,27 @@ video:
 
 {{ page.excerpt }}
 
+## Hvad er tærskelintervaller?
+
+## Hvad er formålet med intervallerne?
+
+## Hvorfor skal du løbe tærskelintervaller?
+
+## Hvordan udføres tærskelintervaller?
+
+## Hvilken intensitet og hastighed løbes intervallerne med?
+
+## Hvor lang tid træner man typisk tærskel-intervaller?
+
+## Hvor lange er pausen i tærskelintervaller?
+
+## Hvor ofte skal man træne tærskelintervaller?
+
+## Hvordan tester du om træningsmetoden har givet fremgang?
+
+## Eksempler på tærskeltræning
+
+
 Vælg en øvelse hvor du kan måle _power output_, puls eller distance over tid. Atleten skal producere mere og mere kraft på en given tidsperiode.
 
 Den letteste måde at bestemme den anaerobe tærskel på er at lave en test med et jævnt tempo på 20-30 minutter. Den gennemsnitlige puls eller kraftudvikling i testen er en tilnærmelse af den anaerobe tærskel.

@@ -31,10 +31,10 @@ video:
   {% include video provider=page.video.provider id=page.video.id %}
 {% endif %}
 
-{% comment %}
-## Hvordan lægger du det ind i uret
+## Beskrivelse af Fartlek
 
-/assets/images/blog/10-20-30-garmin.png
+## Hvordan udføres Fartlek?
 
+## Benefits of Fartlek
 
-{% endcomment %}
+## Eksempler på Fartlek
