@@ -102,6 +102,17 @@ Når du har fundet dine watt ved VO<sub>2</sub>max, så kan du typisk estimere a
 
 Hvis du fx kørte 400 watt ved din maksimale iltoptagelse, så vil din FTP altså omtrentligt være 330 watt.
 
+## Følg din udvikling i trappetesten over tid
+
+Hvis du tester dig selv med trappetesten, så er det væsentligt at du følger den samme fremgangsmåde hver gang.
+
+Men ud over at være konsekvent i udførelsen af testen, så er det også en god ide at føre en log over dine tests. En testlog giver et godt overblik over, hvordan din træning er gået.
+
+[Menschmachine.dk](https://menschmaschine.dk/simpel-cykeltest-du-kan-lave-hjemme/) foreslår at køre testen hver 4-6 uge og så skrive dine observationer ned som data, watt, maxpuls og en kommentar til dine resultater og præstation.
+
+{% include figure image_path="https://menschmaschine.dk/wp-content/uploads/2018/12/Sk%C3%A6rmbillede-37.png" caption="Kilde: Eksempel på testlog over trappetesten. Kilde: [Menschmachine.dk](https://menschmaschine.dk/simpel-cykeltest-du-kan-lave-hjemme/)" alt="testlog over trappetesten" %}
+
+
 {% comment %}
 
 FØLGENDER ER IKKE SAMME PROTOKOL 
