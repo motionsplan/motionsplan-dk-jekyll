@@ -2,6 +2,8 @@
 layout: single
 title: "Forced reps"
 permalink: /styrketraening/forced-reps/
+header:
+  teaser: /assets/images/hypertrofi/forced-reps.jpg
 breadcrumbs: true
 category:
   - Hypertrofi
@@ -28,6 +30,10 @@ video:
 {{ page.excerpt }}
 
 **På Vejle Idrætshøjskole er vi ved at beskrive forskellige metoder til træning. Denne side er under udarbejdelse. Hvis du vil hjælpe med beskrivelsen, så er det meget værdsat.**
+
+{% if page.header.teaser %}
+  {% include figure image_path=page.header.teaser %}
+{% endif %}
 
 Selvom _forced reps_ ser noget anderledes ud, så kan de sammenlignes med [dropsæt]({% link _methods/styrketraening/dropset.md %}). I _forced reps_ er det bare en spotter, der hjælper med at reducere den eksterne modstand ved at hjælpe med løftet i stedet for at reducere vægten på stangen.
 

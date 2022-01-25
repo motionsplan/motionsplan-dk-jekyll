@@ -22,6 +22,8 @@ Du kan også læse mere om [optimering af træning](/optimer-traening/).
 
 [Styrketræning](/styrketraening/) handler om at blive stærkere, bygge større muskler eller begge dele på samme tid. Vi har skrevet rigtig mange indlæg om styrketræning, styrketræningsprogrammer og øvelser til styrketræning. Her kan du se en oversigt over forskellige træningsmetoder, som du kan bruge i din styrketræning.
 
+Hvis du er på udkig efter mere information om måder at organisere din træning på, så den er tidsbesparende, så kan du kigge i vores [overlevelsesguide til supersets](/guide-superset/).
+
 ### Hypertrofi
 
 {% assign site_posts = site.methods | where: "category", "Hypertrofi" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}

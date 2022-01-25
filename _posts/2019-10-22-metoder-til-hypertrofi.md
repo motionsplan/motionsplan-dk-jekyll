@@ -63,22 +63,13 @@ Et eksempel kan være en squat.
 - 1\. wave: x12 @8, x10 @8, x8 @8
 - 2\. wave: x12, x10, x8 (hæv vægten alt efter overskud)
 
-## Maximum mTor-activation
-
-mTor er vigtig i forhold til at sætte gang i proteinsyntesen, som skal få musklerne til at vokse. Ved at fokusere på den excentriske del af bevægelsen og loade musklen under stræk er efter sigende det, der forøger forekomsten af mTor mest. Fx kan du udføre dit sæt på følgende måde med fx curls.
-
-- Først laver du to almindelige sæt med 2x6 @ RPE 9.
-- I tredje sæt sænker du en vægten langsomt over 5 sekunder, mens du spænder musklerne alt hvad du kan hele tiden.
-- Du holder den fulde strækposition i to sekunder.
-- Lav 6-8 gentagelser på denne måde - og på den sidste rep holder du strækpositionen så længe du kan tolerere.
-
-## Agonist supersæt
+## Compound sæt - Agonist supersæt
 
 Der er forskellige måder at køre supersæt, hvor alle øvelserne rammer den primære bevægelsesmuskel. Typisk vil man starte med den største og tungeste øvelse og så vælge andre varianter af bevægelsesmønsteret.
 
 ## Pre-exhaust superset
 
-I et pre-exhaust supersæt udfører du først en isolationsøvelse for en muskel og dernæst en flerledsøvelse, der involverer samme musikelgruppe.
+I et pre-exhaust supersæt udfører du først en isolationsøvelse for en muskel og dernæst en flerledsøvelse, der involverer samme muskelgruppe.
 
 Et eksempel kan være at vi vil ramme triceps.
 

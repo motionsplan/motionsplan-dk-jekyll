@@ -2,6 +2,10 @@
 layout: single
 title: "Compound set"
 permalink: /styrketraening/compound-sets/
+redirect_from:
+  - /styrketraening/agonist-superset/
+header:
+  teaser: /assets/images/hypertrofi/compound-set.jpg
 breadcrumbs: true
 category:
   - Hypertrofi
@@ -20,11 +24,17 @@ effect: ""
 video:
   provider: youtube
   id: TTFVRdBXUsg
+#  provider: youtube
+#  id: avbzFfVEF_0
 ---
 
 {{ page.excerpt }}
 
 **På Vejle Idrætshøjskole er vi ved at beskrive forskellige metoder til træning. Denne side er under udarbejdelse. Hvis du vil hjælpe med beskrivelsen, så er det meget værdsat.**
+
+{% if page.header.teaser %}
+  {% include figure image_path=page.header.teaser %}
+{% endif %}
 
 I et pre-exhaust supersæt udfører du først en isolationsøvelse for en muskel og dernæst en flerledsøvelse, der involverer samme musikelgruppe.
 
@@ -69,6 +79,29 @@ When doing the bench press after the elbow extension, the triceps brachii are al
 {% endif %}
 
 {% endcomment %}
+
+Du kan læse mere om [overlevelsesguide til at forstå supersæt](/guide-superset/).
+
+
+Læs mere om [metoder til hypertrofi](/hypertrofi-metoder/).
+
+
+{{ page.excerpt }}
+
+{% if page.header.teaser %}
+  {% include figure image_path=page.header.teaser %}
+{% endif %}
+
+Der er forskellige måder at køre supersæt, hvor alle øvelserne rammer den primære bevægelsesmuskel. Typisk vil man starte med den største og tungeste øvelse og så vælge andre varianter af bevægelsesmønsteret.
+
+Et eksempel på et **agonist supersæt** er fx:
+
+- A1) Overhead press
+- A2) Dumbell lateral raises
+
+{% if page.video %}
+  {% include video provider=page.video.provider id=page.video.id %}
+{% endif %}
 
 Du kan læse mere om [overlevelsesguide til at forstå supersæt](/guide-superset/).
 
