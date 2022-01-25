@@ -6,6 +6,8 @@ excerpt: "High Resistance Intervals (HRI) er intervaller med høj modstand udfø
 tags:
   - conditioning
   - anaerob træning
+header:
+  teaser: /assets/images/kondition/high-resistance-intervals.jpg
 rpe: 6-7
 intensity: Max
 time: 5s arbejde efterfulgt af pause indtil pulsen er 130-140bpm
@@ -48,3 +50,32 @@ Hvis antallet af gentagelser bliver højere, så er det et vidnesbyrd om, at udh
 {% if page.video %}
   {% include video provider=page.video.provider id=page.video.id %}
 {% endif %}
+
+
+**På Vejle Idrætshøjskole er vi ved at beskrive forskellige metoder til træning. Denne side er under udarbejdelse. Hvis du vil hjælpe med beskrivelsen, så er det meget værdsat.**
+
+{% if page.header.teaser %}
+  {% include figure image_path=page.header.teaser %}
+{% endif %}
+
+## Hvad er {{ page.title }}?
+
+## Hvad er formålet med {{ page.title }}?
+
+## Hvordan udføres {{ page.title }}?
+
+### Hvor lange arbejdsperioderne?
+
+### Hvilken intensitet udføres arbejdsperioderne med?
+
+### Hvor lang tid træner man typisk {{ page.title }}?
+
+### Hvor lange er pausen i {{ page.title }}?
+
+### Hvordan ser pulsen ud, når du laver metoden?
+
+## Hvor ofte kan man træne {{ page.title }}?
+
+## Hvordan tester du om træningsmetoden har givet fremgang?
+
+## Eksempler {{ page.title }}

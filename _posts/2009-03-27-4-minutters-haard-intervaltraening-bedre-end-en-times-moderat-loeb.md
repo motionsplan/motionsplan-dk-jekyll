@@ -22,6 +22,7 @@ tags:
   - anaerob træning
   - aerob træning
   - løb
+  - træningsmetode
 category:
   - Kondition
   - Løb

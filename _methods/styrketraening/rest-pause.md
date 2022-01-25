@@ -4,7 +4,8 @@ title: "Rest-pause"
 permalink: /styrketraening/rest-pause/
 breadcrumbs: true
 image: https://images.unsplash.com/photo-1502955717682-d0430000b16d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1900&q=5
-teaser: /assets/images/hypertrofi/rest-pause.png
+header:
+  teaser: /assets/images/hypertrofi/rest-pause.png
 category:
   - Styrketræning
   - Hypertrofi

@@ -5,6 +5,8 @@ permalink: /metode/explosive-repeat/
 excerpt: "Explosive repeats er 8-10 sekunders arbejde med høj eksplosivitet og 60 sekunders pause. 1-3 øvelser med 6-10 sæt/øvelse. Explosive repeats er en metode til at udvikle eksplosiv udholdenhed i de hurtige _fast twitch_-muskelfibre."
 tags:
   - conditioning
+header:
+  teaser: /assets/images/kondition/explosive-repeats.jpg
 effect: "Forbedrer de hurtige muskelfibres aerobe egenskaber og evnen til gentagende gange at få et højt power output. Metoden forbedrer også raten af genbrug af laktat i de langsomme slow twitch muskler."
 rpe: 7-8
 time: 8-10s arbejde og 60s pause pr. sæt
@@ -45,3 +47,31 @@ Retningslinjer for explosive repeats er følgende:
 Det er godt at holde øje med antal gentagelser og hvor langt man kommer i de enkelte spring fra uge til uge.
 
 Når atleten bliver bedre, så kan de arbejde op til 10-20 sæt af eksplosive repeats. Når du kommer tættere på konkurrenceperioden, så kan du øge arbejdsperioderne og sænke pauseperioderne.
+
+**På Vejle Idrætshøjskole er vi ved at beskrive forskellige metoder til træning. Denne side er under udarbejdelse. Hvis du vil hjælpe med beskrivelsen, så er det meget værdsat.**
+
+{% if page.header.teaser %}
+  {% include figure image_path=page.header.teaser %}
+{% endif %}
+
+## Hvad er {{ page.title }}?
+
+## Hvad er formålet med {{ page.title }}?
+
+## Hvordan udføres {{ page.title }}?
+
+### Hvor lange arbejdsperioderne?
+
+### Hvilken intensitet udføres arbejdsperioderne med?
+
+### Hvor lang tid træner man typisk {{ page.title }}?
+
+### Hvor lange er pausen i {{ page.title }}?
+
+### Hvordan ser pulsen ud, når du laver metoden?
+
+## Hvor ofte kan man træne {{ page.title }}?
+
+## Hvordan tester du om træningsmetoden har givet fremgang?
+
+## Eksempler {{ page.title }}

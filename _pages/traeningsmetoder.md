@@ -72,7 +72,10 @@ Løb handler om at lære at løbe, blive en hurtigere løber eller kunne løbe l
 
 Her er nogle metoder, som du kan bruge til at forbedre din udholdenhed, [anaerobe tærskel](/anaerobe-taerskel/) og [maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/).
 
-{% assign site_posts = site.methods | where: "tags", "aerob træning" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
+{% assign site_methods = site.methods | where: "tags", "aerob træning" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
+{% assign site_posts_methods = site.posts | where: "tags", "aerob træning" | where: "tags", "træningsmetode" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
+
+{% assign site_posts = site_methods | concat: site_posts_methods %}
 
 <div class="feature__wrapper">
 
