@@ -1,6 +1,7 @@
 ---
 title: &title "Trappetest på cykel: En enkel cykeltest du kan lave selv"
 permalink: /trappetest-cykel/
+excerpt: "En cykeltest er et godt redskab, hvis du gerne vil måle din fremgang over tid. Her kan du se et eksempel på en trappetest, som du let kan udføre selv."
 language: da
 header:
   teaser: https://images.unsplash.com/photo-1590523329673-7b10bd21e519?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fGJpa2luZ3xlbnwwfDB8MHx8&auto=format&fit=crop&w=400&q=5
@@ -38,7 +39,7 @@ Trappetesten kan altså ikke stå i stedet for en FTP-test, men den kan hjælpe 
 
 Hvis du kører trappetesten med jævne mellemrum, fx hver måned, så kan du følge med i, hvordan din VO<sub>2</sub>max udvikler sig over tid. Den maksimale iltoptagelse er sammen med Functional Threshold Power afgørende fysiologiske parametre, når du kører cykelløb.
 
-Hvis du har en hometrainer, så kan du køre en trappetest hjemme. Testen giver dig et hurtigt og præcist billede af din aerobe præstationsevne med høje intensiteter. 
+Hvis du har en hometrainer, så kan du køre en trappetest hjemme. Testen giver dig et hurtigt og præcist billede af din aerobe præstationsevne med høje intensiteter.
 
 ## Hvordan udfører jeg trappetesten i cykling?
 
@@ -52,7 +53,7 @@ Husk at notere, hvor længe du kan køre på den højeste belastning i testen.
 
 ## Hvordan finder jeg min VO<sub>2</sub>max?
 
-I denne Youtube-video kan du se, hvordan du kan estimere din VO<sub>2</sub>max på baggrund af resultaterne i testen. 
+I denne Youtube-video kan du se, hvordan du kan estimere din VO<sub>2</sub>max på baggrund af resultaterne i testen.
 
 Videoen er rigtig god til at forklare, hvad den maksimale iltoptagelse er, og hvordan du bruger trappetesten til at udregne den. Hvis du ikke har brug for at få repeteret, hvad iltoptagelsen er, så kan du springe hen til omkring 4:45 i videoen.
 
@@ -115,7 +116,7 @@ Men ud over at være konsekvent i udførelsen af testen, så er det også en god
 
 {% comment %}
 
-FØLGENDER ER IKKE SAMME PROTOKOL 
+FØLGENDER ER IKKE SAMME PROTOKOL
 
 
 Det er vigtigt, at du kører testen på nøjagtig samme måde hver gang. Det gør testresultaterne sammenlignelige.
