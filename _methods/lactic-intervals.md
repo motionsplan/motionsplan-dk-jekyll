@@ -2,18 +2,26 @@
 layout: single
 title: "Lactacide intervaller"
 permalink: /metode/lactic-intervals/
+redirect_from:
+  - /metode/anaerob-kapacitet/
+  - /metode/anaerob-power/
 excerpt: "Lactacide intervaller skal forbedre det laktacide systems evne til at levere energi til højintenst arbejde og forbedre kroppens tolerance til den anaerobe metabolisme. Det sker ved maksimalt arbejde i 30-40 sekunder gentaget 2-5 gange med 1-5 minutters pause."
 tags:
   - conditioning
   - anaerob træning
 header:
-  teaser: /assets/images/kondition/lactic-intervals.jpg
+  teaser: /assets/images/kondition/anaerob-kapacitet.jpg
+gallery:
+  - image_path: /assets/images/kondition/anaerob-kapacitet.jpg
+    url: /assets/images/kondition/anaerob-kapacitet.jpg
+  - image_path: /assets/images/kondition/anaerob-power.jpg
+    url: /assets/images/kondition/anaerob-power.jpg
 rpe: 8-9
 intensity: Max
 time: 30-40 sekunder
 reps: Gentag 2-5 reps; aktiv pause 3-5 min
 howto:
-  - 40-60s arbejde ved maxintensitet
+  - 40-60s arbejde ved max intensitet
   - Mål 60s HRR
   - Gentag 2-5 reps; aktiv pause 1-5 min
 exercises: "Alle øvelser der kan udføres med maksimal intensitet, fx sprint eller sportsspecifikke øvelser."
@@ -26,6 +34,7 @@ effect: "Forbedrer det laktacide systems evne til at levere energi og kroppens t
 video:
   provider: youtube
   id: 0sxhW661eHk
+toc: true
 ---
 
 {{ page.excerpt }}
@@ -33,6 +42,8 @@ video:
 Ofte skelner man mellem **glykolytiske effekt intervaller** og **glykolytiske kapactitetsintervaller**. Forskellen handler mest om det primære fokus er at forbedre det laktacide systems evne til at levere meget energi, eller om formålet er at træne kroppens evne til at tolerere den anaerobe metabolisme.
 
 Den primære forskel i udførslen af intervallerne er, at du har længere pause ved effekt-intervallerne end du har ved kapacitetsintervallerne.
+
+{% include gallery id="gallery" caption="Her kan du se en illustration af arbejdsperioden i de anaerobe power intervaller i forhold til de anaerobe kapacitetsintervaller." %}
 
 Begge intervaltyper er ekstremt hårde.
 

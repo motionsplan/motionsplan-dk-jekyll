@@ -75,7 +75,7 @@ Her er nogle metoder, som du kan bruge til at forbedre din udholdenhed, [anaerob
 {% assign site_methods = site.methods | where: "tags", "aerob træning" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
 {% assign site_posts_methods = site.posts | where: "tags", "aerob træning" | where: "tags", "træningsmetode" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
 
-{% assign site_posts = site_methods | concat: site_posts_methods %}
+{% assign site_posts = site_methods | concat: site_posts_methods | sort: "title" %}
 
 <div class="feature__wrapper">
 
@@ -91,7 +91,10 @@ Her er nogle metoder, som du kan bruge til at forbedre din udholdenhed, [anaerob
 
 Her er træningsmetoder som bruges i forhold til at forbedre det anaerobe energisystem. Metoderne bruges til [anaerob træning](/anaerob-traening/).
 
-{% assign site_posts = site.methods | where: "tags", "anaerob træning" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
+{% assign site_methods = site.methods | where: "tags", "anaerob træning" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
+{% assign site_posts_methods = site.posts | where: "tags", "anaerob træning" | where: "tags", "træningsmetode" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
+
+{% assign site_posts = site_methods | concat: site_posts_methods | sort: "title" %}
 
 <div class="feature__wrapper">
 

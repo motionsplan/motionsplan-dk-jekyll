@@ -6,7 +6,7 @@ redirect_from:
   - /metode/tempo-intervals/
 excerpt: "Tempo-intervaller kan forbedre hastighed og arbejdskapacitet på træningsdage med lav intensitet. Samtidig forbedrer tempo-intervaller kroppens evne til at restituere fra høj-intensitetstræning og fremskynder genopbygningen uden at forårsage træthed. Tempointervaller er 10-12 sekunders arbejde ved 70% af maksimal intensitet 10-20 gange."
 header:
-  teaser: /assets/images/kondition/tempo-intervals.png
+  teaser: /assets/images/kondition/tempo-intervaller.png
 tags:
   - conditioning
   - aerob træning
