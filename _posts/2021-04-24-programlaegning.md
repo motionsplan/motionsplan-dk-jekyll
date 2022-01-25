@@ -102,7 +102,7 @@ Det er klogt at være praktisk og realistisk når man planlægger længden af si
 
 Restitutionsfasen varer ofte én uge, og kaldes en deload-uge. Deload ugen tjener mange formål, jeg vil komme ind på to af dem her.
 
-Det ene, og mest åbenlyse formål er at man får restitueret. Muskler heler hurtigt, men sener og led kan have opbygget flere mikrotraumer i løbet af ugerne uden, at man nødvendigvis kan mærke det. I deload ugen kan de “indhente” og endelig hele igennem, hvorved risiko for overbelastning og skader reduceres. Desuden kan superkompensation finde sted på et højere plan hvis man har opbygget generel træthed i løbet af sit program.
+Det ene, og mest åbenlyse formål er at man får restitueret. Muskler heler hurtigt, men sener og led kan have opbygget flere mikrotraumer i løbet af ugerne uden, at man nødvendigvis kan mærke det. I deload ugen kan de “indhente” og endelig hele igennem, hvorved risiko for overbelastning og skader reduceres. Desuden kan [superkompensation](/superkompensation/) finde sted på et højere plan hvis man har opbygget generel træthed i løbet af sit program.
 
 Det andet formål er at man bliver mere sensitiv overfor træningsstimuli igen. Som det bliver forklaret i næste afsnit skal man træne mere og mere/hårdere og hårdere for at have fremgang, og det er selvfølgelig uholdbart at forøge volumen i det uendelige.
 

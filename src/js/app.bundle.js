@@ -1366,6 +1366,22 @@ $(function() {
         $("[name='vo2max']").val(watt.getMaximalOxygenUptake());
         $("[name='mpo']").val(watt.getMPO());
     });
+    // Calculate Trappetest
+    $("#calculator_fitness_trappetest").submit(function(e) {
+      console.log("Calculate Trappetest");
+      e.preventDefault();
+      let wmax = Number($("[name='wmax']").val());
+      let sec = Number($("[name='sec']").val());
+      let weight = Number($("[name='weight']").val());
+
+      let ppo = (wmax - 25) + (sec / 150) * 25;
+      let vo2max = 0.01141 * ppo + 0.435;
+      let kondital = vo2max / weight * 1000;
+
+      $("[name='kondital']").val(kondital.toFixed(0));
+      $("[name='vo2max']").val(vo2max.toFixed(2));
+      $("[name='ppo']").val(ppo);
+    });
     // Calculate Walktest 6 min
     $("#calculator_walktest_6min").submit(function(e) {
         console.log("Calculate Walktest 6 min");

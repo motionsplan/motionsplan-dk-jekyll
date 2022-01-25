@@ -45,7 +45,7 @@ Formålet med restitutionen er, at give kroppen hvile, så den prioriterer at op
 
 Det er nemlig sådan, at du **nedbryder kroppen under træning**. Du bliver faktisk svagere ved at træne. Heldigvis genopbygger kroppen sig selv, så den bliver stærkere og mere modstandsdygtig efter træningen. **Det er i pausen mellem træningspas, at du forbedrer dig**. Derfor er en tilstrækkelig restitution mellem træningspas vigtigt for at fortsætte din udvikling.
 
-At kroppen i restitutionsfasen bygger sig stærkere end udgangsniveauet inden træningen, kan vi forstå med **superkompensationsteorien**. Superkompensationsteorien er en model på kroppens evne til at tilpasse sig til træning, som kan give en bedre forståelse af restitutionen.
+At kroppen i restitutionsfasen bygger sig stærkere end udgangsniveauet inden træningen, kan vi forstå med **superkompensationsteorien**. [Superkompensationsteorien](/superkompensation/) er en model på kroppens evne til at tilpasse sig til træning, som kan give en bedre forståelse af restitutionen.
 
 Hvis restitutionen mellem dine træningspas bliver for kort, vil du starte før kroppen er blevet genopbygget. Hvis du venter for længe mellem træningspassene, så risikerer du, at du også at din krop er blevet svagere.
 
