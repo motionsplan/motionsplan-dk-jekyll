@@ -1,5 +1,5 @@
 ---
-title: "Hypertrofi: Hvor hurtigt vokser dine muskler? 💪"
+title: "Hvor hurtigt vokser dine muskler? 💪"
 permalink: /hvor-hurtigt-vokser-muskler/
 language: da
 header:
@@ -9,6 +9,8 @@ header:
   alt: "Photo by Paweł Czerwiński on Unsplash"
 category:
   - Viden om
+  - Styrketræning
+  - Hypertrofi
 tags:
   - fysiologi
   - muskler

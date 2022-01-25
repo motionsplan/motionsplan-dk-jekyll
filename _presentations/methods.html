@@ -2,7 +2,6 @@
 layout: webslides
 title: Træningsmetoder
 ---
-
 <section class="bg-black aligncenter">
   <!-- Overlay/Opacity: [class*="bg-"] > .background.dark or .light -->
   <span class="background" style="background-image:url('https://source.unsplash.com/CFrOp9YBhkw/')"></span>
@@ -36,7 +35,7 @@ title: Træningsmetoder
     </div>
   </footer>
 </section>
-{% assign posts = site.methods %}
+{% assign posts = site.methods | where: "tags", "conditioning" %}
 {% comment %}
 <section>
   <div class="wrap">
@@ -167,6 +166,15 @@ title: Træningsmetoder
       </li>
     </ul>
   </div>
+</section>
+{% endif %}
+{% if m.teaser != "" %}
+<section>
+<div class="wrap">
+  <img class="alignright size-40" src="{{ m.teaser | relative_url }}" alt="{{ m.title }}">
+  <h2>{{ m.title }}</h2>
+  {{ m.excerpt | markdownify }}
+</div>
 </section>
 {% endif %}
 {% endfor %}

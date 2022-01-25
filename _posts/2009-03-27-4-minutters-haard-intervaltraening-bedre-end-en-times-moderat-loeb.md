@@ -22,10 +22,13 @@ tags:
   - anaerob træning
   - aerob træning
   - løb
+  - træningsmetode
 category:
   - Kondition
   - Løb
 last_modified_at: 2021-01-17T22:42:12Z
+sidebar:
+  nav: methods
 ---
 
 Tabata er 4 minutters hård intervaltræning, der er mere effektivt end en times moderat løb. Træning bliver ofte præsenteret som Tabata-intervaller, men langt det meste Tabata-træning bliver ikke lavet efter forskrifterne, så lad os dykke lidt ned i hvad Tabata-træning er?
@@ -81,7 +84,7 @@ Det er i hvert fald usædvanlig hårdt - både for kroppen, men sandelig også f
 
 > 6-8 virkelig hårde 20 sekunders intervaller med 10 sekunders pause mellem intervallerne er måske en af de allerbedste træningsprotokoller overhovedet.
 
-— <cite>Izumi Tabata</cite>
+--- <cite>Izumi Tabata</cite>
 
 Hvis man går op i træning, så er der ingen undskyldning. Man skal prøve Tabata-intervaller, ganske enkelt fordi Tabata-intervaller giver en usædvanlig god effekt. De rigtige Tabata-intervaller foregår på et cykelergometer eller løbende.
 

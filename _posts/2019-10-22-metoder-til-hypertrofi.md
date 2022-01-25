@@ -60,8 +60,8 @@ Du kan både bruge waves til maksimal styrke og hypertrofi. Hvis du gerne vil br
 
 Et eksempel kan være en squat.
 
-- 1. wave: x12 @8, x10 @8, x8 @8
-- 2. wave: x12, x10, x8 (hæv vægten alt efter overskud)
+- 1\. wave: x12 @8, x10 @8, x8 @8
+- 2\. wave: x12, x10, x8 (hæv vægten alt efter overskud)
 
 ## Maximum mTor-activation
 
@@ -69,7 +69,7 @@ mTor er vigtig i forhold til at sætte gang i proteinsyntesen, som skal få musk
 
 - Først laver du to almindelige sæt med 2x6 @ RPE 9.
 - I tredje sæt sænker du en vægten langsomt over 5 sekunder, mens du spænder musklerne alt hvad du kan hele tiden.
-- Du holder den fulde stræk position i so sekunder.
+- Du holder den fulde strækposition i to sekunder.
 - Lav 6-8 gentagelser på denne måde - og på den sidste rep holder du strækpositionen så længe du kan tolerere.
 
 ## Agonist supersæt
@@ -91,6 +91,13 @@ Du udmatter triceps i isolationsøvelsen, men kan stadig aktivere den i den smal
 
 Det er nogle af de metoder, du kan bruge i forbindelse med styrketræning og hypertrofi.
 
+{% assign methods = site.methods | where: "tags", "hypertrofi" %}
+
+{%- for m in methods -%}
+- [{{ m.title }}]({{ m.url }})
+{% endfor %}
+
+{% comment %}
 - Pyramide
 - Omvendt pyramide
 - 1 1/4
@@ -99,6 +106,7 @@ Det er nogle af de metoder, du kan bruge i forbindelse med styrketræning og hyp
 - Giantsets
 - 6-12-25
 - 10 x 10
+{% endcomment %}
 
 Hvilke metoder holder du mest af?
 
