@@ -29,7 +29,7 @@ Du kan læse meget mere om Jump and Reach-testen hos [Science for Sport](https:/
 
 ## Brug en Vertec til målingen
 
-En Vertec er en lang stang, som har en masse horisontale flade og lange plader, der kan rotere omkring stangen. Først skal du måle din rækkevidde. Derefter måler man springhøjden ved at se, hvor mange plader du kan skubbe til side. 
+En Vertec er en lang stang, som har en masse horisontale flade og lange plader, der kan rotere omkring stangen. Først skal du måle din rækkevidde. Derefter måler man springhøjden ved at se, hvor mange plader du kan skubbe til side.
 
 Det er sjovt at bruge en Vertec, og den kan give hurtige og præcise resultater, når den bliver brugt rigtigt.
 

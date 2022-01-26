@@ -98,6 +98,10 @@ tryouts) because of the potential “cheating” effect of differences in landin
 
 --- <cite>[Yamashita (2020)](https://www.mdpi.com/2076-3417/10/3/776/pdf)</cite>
 
+## Udregn power på baggrund af CMJ og SJ
+
+{% include calculate-vertical-jump-power.html %}
+
 ## Hvad skal jeg være opmærksom på i disse hoppetests?
 
 Du skal være opmærksom på, hvordan du udfører testen, da du kan manipulere dit tyngdepunkt i luften med den måde, du positionerer din krop på. Sørg for at se hele denne glimrende video igennem, inden du går i gang med at teste spring på hoppemåtten.
