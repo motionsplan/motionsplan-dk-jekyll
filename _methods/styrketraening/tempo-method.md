@@ -2,6 +2,8 @@
 layout: single
 title: "Tempo Method"
 permalink: /styrketraening/tempo-method/
+header:
+  teaser: /assets/images/hypertrofi/tempo-method.jpg
 redirect_from:
   - /metode/tempo-method/
 excerpt: "Tempo-metoden forbedrer den lokale muskulære udholdenhed i musklerne. Tempometoden indebærer langsom styrketræning med 2-3s i både den koncentriske og excentriske pause i sæt på omkring 45-60 sekunder med i alt 4-6 sæt."
@@ -29,6 +31,10 @@ video:
 ---
 
 {{ page.excerpt }}
+
+{% if page.header.teaser %}
+  {% include figure image_path=page.header.teaser %}
+{% endif %}
 
 Mere specifikt forbedrer tempometoden evnen for slow-twitch muskelfibrene til at oxidere biproduktet fra de hurtige _fast twitch_-muskelfibre.
 

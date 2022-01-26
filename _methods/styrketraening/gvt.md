@@ -1,8 +1,9 @@
 ---
 layout: single
 image: https://images.unsplash.com/photo-1541600383005-565c949cf777?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1900&q=5
-teaser: /assets/images/hypertrofi/gvt.png
 title: "German Volume Training (GVT)"
+header:
+  teaser: /assets/images/hypertrofi/german-volume-training-gvt.jpg
 permalink: /styrketraening/gvt/
 breadcrumbs: true
 category:
@@ -31,6 +32,10 @@ video:
 {{ page.excerpt }}
 
 **På Vejle Idrætshøjskole er vi ved at beskrive forskellige metoder til træning. Denne side er under udarbejdelse. Hvis du vil hjælpe med beskrivelsen, så er det meget værdsat.**
+
+{% if page.header.teaser %}
+  {% include figure image_path=page.header.teaser %}
+{% endif %}
 
 Rationalet bag den høje volumen er for at skabe metabolisk stress og mekanisk spænding i musklerne, der skal skabe muskelvækst.
 

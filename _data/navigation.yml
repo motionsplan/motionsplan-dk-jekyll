@@ -336,10 +336,6 @@ methods:
         url: /styrketraening/rest-pause/
       - title: Stage System
         url: /styrketraening/stage-system/
-      - title: Agonist supersæt
-        url: /styrketraening/agonist-superset/
-      - title: Antagonist supersæt
-        url: /styrketraening/superset-antagonist/
       - title: Tempo Method
         url: /styrketraening/tempo-method/
       - title: Triset

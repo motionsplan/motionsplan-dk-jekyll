@@ -2,6 +2,8 @@
 layout: single
 title: "Clusters"
 permalink: /styrketraening/clusters/
+header:
+  teaser: /assets/images/hypertrofi/clusters.jpg
 breadcrumbs: true
 category:
   - Styrketræning
@@ -25,6 +27,10 @@ video:
 {{ page.excerpt }}
 
 **På Vejle Idrætshøjskole er vi ved at beskrive forskellige metoder til træning. Denne side er under udarbejdelse. Hvis du vil hjælpe med beskrivelsen, så er det meget værdsat.**
+
+{% if page.header.teaser %}
+  {% include figure image_path=page.header.teaser %}
+{% endif %}
 
 Et cluster set er en teknik, hvor du grupperer din reps i mindre blokke. Et cluster set minder lidt om et [rest-pause sæt]({% link _methods/styrketraening/rest-pause.md %}) eller [myoreps]({% link _methods/styrketraening/rest-pause-myoreps.md %}). Cluster sæt kan imidlertid bruges både i forbindelse med hypertrofi, men også i forbindelse med øget styrke.
 

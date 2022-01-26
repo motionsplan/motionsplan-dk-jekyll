@@ -2,6 +2,8 @@
 title: "Superset: Komplet guide til supersæt"
 seo_title: "Supersæt: 7 forskellige effektive superset"
 permalink: /guide-superset/
+redirect_from:
+  - /styrketraening/superset-antagonist/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1593355349790-6330d1a2dc98?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5

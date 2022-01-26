@@ -2,6 +2,8 @@
 layout: single
 title: "Isometrisk træning"
 permalink: /styrketraening/isometrisk-traening/
+header:
+  teaser: /assets/images/hypertrofi/isometrisk-traening.jpg
 breadcrumbs: true
 category:
   - Hypertrofi
@@ -23,6 +25,10 @@ video:
 ---
 
 {{ page.excerpt }}
+
+{% if page.header.teaser %}
+  {% include figure image_path=page.header.teaser %}
+{% endif %}
 
 {% comment %}
 
