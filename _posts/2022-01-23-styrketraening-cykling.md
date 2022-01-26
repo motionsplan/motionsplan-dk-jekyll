@@ -35,7 +35,7 @@ Selve øvelsen er simpel og nem, og så kan den udføres hvor som helst. Du skal
 
 Når man har teknikken på plads, og kan holde sig oppe i ca. 1 min. kan man begynde på variere øvelsen lidt. Man kan f.eks. begynde at løfte et ben ad gangen, for træne sine nedre rygmuskler og balder. Benet skal løftes langsomt, og højden/kurven kan forøges desto bedre man bliver.
 
-Planken er en rigtig effektiv øvelse for begyndere, der gerne vil styrke kroppen til cykling. Hvis du er nybegynder inden for cykling og gerne vil lære mere om selve cykeltræningen, så læs evt. [VeloChick’s guide til cykeltræning for begyndere](https://velochicks.com/cykeltraening-for-begyndere/).
+Planken er en rigtig effektiv øvelse for begyndere, der gerne vil styrke kroppen til cykling. Hvis du er nybegynder inden for cykling og gerne vil lære mere om selve cykeltræningen, så læs evt. [VeloChick's guide til cykeltræning for begyndere](https://velochicks.com/cykeltraening-for-begyndere/?utm_source=motionsplan.dk.dk&utm_medium=referral&utm_campaign=leads).
 
 {% include figure image_path="/assets/images/blog/planken.jpg" caption="Planken kan været et godt element i et cykeltræningsprogram" alt="planken" %}
 
@@ -86,6 +86,18 @@ Du laver en burpee ved at starte, som om du skal lave en armbøjning. I én bev�
 Vi anbefaler 15 - 30 repetitioner i hvert sæt og gerne i højt tempo - så pulsen kommer op.
 
 {% include figure image_path="/assets/images/blog/burpee.jpg" caption="Burpee kan udfordre hele kroppen." alt="burpee" %}
+
+## Kondition - og styrketræning til cykling
+
+I forsøget på, at få så meget som muligt ud af dit træningspas som muligt, er det af enorm betydning, at være godt forberedt - ikke kun på beklædning, men også på konditionen og muskelopbygningen. Det er vigtigt at forberede kroppen på den store omvæltning det kan være, at cykle om vinteren og endda starte op igen efter en lang periode, hvor diverse sociale arrangementer såsom jul, julefrokoster og nytår måske har ramt konditionen mere end man troede. Flere og flere benytter sig af spinning klasser, der vedligeholder og potentielt forbedrer din cykel kondition i de perioder, hvor forholdene simpelthen bare ikke er til at cykle ude i naturen.
+
+Typisk udfolder en cykeltur sig på samme måde som et løb, da man igennem ruten møder en række udfordringer, der skal overkommes. Herved fungerer spinningtræningen som forberedelse, da man i høj grad fokuserer træningen omkring intense sekvenser, hvor pulsen virkelig kommer op og ringe. I den forbindelse er det essentielt, at du har det rigtige cykeltøj og særligt cykelshorts, der støtter og skaber komfort på sadlen. Spinning er hertil yderst væsentlig i forsøget på at nedbringe og forebygge skader. Cykling er nemlig en af de sportsgrene, hvor specifikke muskelgrupper anvendes hyppigere end andre sammenlignet med andre sportsgrene. Særligt de nederste muskelgrupper, såsom haser, lår, core og balleregionen er i stor aktivitet og har derigennem behov for træning og vedligeholdelse.
+
+En anden mulighed for at sikre at du står knivskarpt og parat til at indtage de danske landeveje, er gennem styrketræning særligt rettet mod cykling. Faktisk er der overvejende evidens for, at personer der dyrker cykling som motionsform, vil nyde godt af at udøve styrke - og stabilitetstræning. Styrke, balance og mobilitetstræning, der indbefatter øvelser som squats og lunges, styrker senerne omkring de vigtigste muskelgrupper under cykling. Herigennem sikrer du, at de længerevarende og udtrækkende øvelser kan udføres uden unødvendig belastning på eksempelvis knæet.
+
+Du kan ydermere optimere og forbedre dit maksimale output ved, stille og roligt, at løfte tungere og tungere vægt, der tvinger kroppen ud i maksimal indsats, der kan sammenlignes med en sprint i cykling. Ønsker du derimod at optimere din holdning på cyklen og minimere risikoen ved skader, der i højere grad er til stede ved brug af tunge vægte, kan du også udføre øvelserne med lette vægte eller med kropsvægt. Alle disse øvelser kan også med fordel udføres i cykelshorts eller cykelbukser. Det er dog relevant at tilpasse dit træningsprogram til den type cykling du udøver, da landevejscykling trækker på andre muskelgrupper end f.eks. mountainbikes. Denne type cykling foregår typisk i skove og ujævne områder, hvor de mange stød kan belaste både arme og skulder, hvorfor disse områder også ville være hensigtsmæssige at træne.
+
+Med alt denne nye information in mente, er du klar til at indtage de danske cykelruter med et smil velvidende omkring, at du er både i fysisk god form og har den korrekte påklædning til at begive dig ud på en længere tur. Leder du efter inspiration til cykelruter i Danmark, kan du passende besøge denne side og kigge efter en [cykelrute der passer perfekt til dig](/cykelruter-danmark/) og dine lyster.
 
 ## Konklusion
 
