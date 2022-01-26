@@ -1963,15 +1963,15 @@ $(function() {
         console.log("Calculate Distance");
         e.preventDefault();
 
-      let hours = Number($("#tid_hours").val());
-      let min = Number($("#tid_min").val());
-      let sek = Number($("#tid_sek").val());
-      let distance = Number($("#distance").val());
+        let hours = Number($("#tid_hours").val());
+        let min = Number($("#tid_min").val());
+        let sek = Number($("#tid_sek").val());
+        let distance = Number($("#distance").val());
 
         min = min + (hours * 60);
         distance = distance / 1000;
 
-      let c = running_distance_vo2.RunningDistanceVO2();
+        let c = running_distance_vo2.RunningDistanceVO2();
 
         $("#kondital").val(c.getEstimatedFitnessLevel(min, sek, distance));
     });
@@ -1993,7 +1993,7 @@ $(function() {
       console.log("Calculate speedlight");
       e.preventDefault();
 
-      let min = Number($("[name='min']").val());
+      let min = 0;
       let sec = Number($("[name='sec']").val());
       let hd = Number($("[name='hundrededele']").val());
       let distance = Number($("[name='distance']").val()) / 1000;
