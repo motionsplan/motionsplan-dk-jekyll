@@ -1979,25 +1979,39 @@ $(function() {
         console.log("Calculate velocity");
         e.preventDefault();
 
+        let min = Number($("[name='min']").val());
+        let sec = Number($("[name='sec']").val());
+        let distance = Number($("[name='distance']").val());
+
+        let c = running.Running();
+
+        $("#velocity_kmt").val(c.getKilometersPrHour(distance, min, sec).toFixed(2));
+        $("#velocity_ms").val(c.getMeterPerSecond(distance, min, sec).toFixed(2));
+        $("#velocity_min_km").val(c.getTimePrKilometer(distance, min, sec));
+    });
+    $("#calculator_velocity_speedlight").submit(function(e) {
+      console.log("Calculate speedlight");
+      e.preventDefault();
+
       let min = Number($("[name='min']").val());
       let sec = Number($("[name='sec']").val());
-      let distance = Number($("[name='distance']").val());
+      let hd = Number($("[name='hundrededele']").val());
+      let distance = Number($("[name='distance']").val()) / 1000;
 
       let c = running.Running();
 
-        $("#velocity_kmt").val(c.getKilometersPrHour(min, sec, distance).toFixed(2));
-        $("#velocity_ms").val(c.getMeterPerSecond(min, sec, distance).toFixed(2));
-        $("#velocity_min_km").val(c.getTimePrKilometer(min, sec, distance));
-    });
-    $("#calculator_velocity_distance").submit(function(e) {
+      $("#velocity_kmt").val(c.getKilometersPrHour(distance, min, sec, hd).toFixed(2));
+      $("#velocity_ms").val(c.getMeterPerSecond(distance, min, sec, hd).toFixed(2));
+  });
+  $("#calculator_velocity_distance").submit(function(e) {
         console.log("Calculate distance");
         e.preventDefault();
 
-      let min = Number($("[name='dist_min']").val());
-      let sec = Number($("[name='dist_sec']").val());
-      let velocity = Number($("[name='dist_velocity']").val());
+        let min = Number($("[name='dist_min']").val());
+        let sec = Number($("[name='dist_sec']").val());
+        let velocity = Number($("[name='dist_velocity']").val());
 
-      let c = running.Running();
+        let c = running.Running();
 
         $("#dist_distance").val(c.getDistanceFromTimeAndVelocity(min, sec, velocity).toFixed(1));
     });
@@ -2075,15 +2089,15 @@ $(function() {
         console.log("Calculate time");
         e.preventDefault();
 
-      let distance = Number($("[name='time_distance']").val());
-      let velocity = Number($("[name='time_velocity']").val());
+        let distance = Number($("[name='time_distance']").val());
+        let velocity = Number($("[name='time_velocity']").val());
 
-      let c = running.Running();
+        let c = running.Running();
 
-      let time = c.getTimeFromDistanceAndVelocity(distance, velocity);
+        let time = c.getTimeFromDistanceAndVelocity(distance, velocity);
 
-      let min = Math.floor(time);
-      let sec = (time - min) * 60;
+        let min = Math.floor(time);
+        let sec = (time - min) * 60;
 
         $("[name='time_min']").val(min);
         $("[name='time_sec']").val(sec.toFixed(0));
@@ -2092,12 +2106,12 @@ $(function() {
         console.log("Calculate velocity");
         e.preventDefault();
 
-      let min = Number($("[name='min']").val());
-      let sec = Number($("[name='sec']").val());
-      let duration_min = Number($("[name='duration_min']").val());
-      let duration_sec = Number($("[name='duration_sec']").val());
+        let min = Number($("[name='min']").val());
+        let sec = Number($("[name='sec']").val());
+        let duration_min = Number($("[name='duration_min']").val());
+        let duration_sec = Number($("[name='duration_sec']").val());
 
-      let c = running.Running();
+        let c = running.Running();
 
         $("[name='distance_to_run']").val(c.convertMinPerKmToDistanceForDuration(min, sec, duration_min, duration_sec).toFixed(0));
     });

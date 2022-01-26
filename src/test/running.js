@@ -6,14 +6,21 @@ describe('RunningTest', function() {
     it('should return the correct number', function() {
       let r = motionsplan.Running();
       // m2, s2, km
-      assert.equal(r.getKilometersPrHour(12, 0, 3), 15);
+      assert.equal(r.getKilometersPrHour(3, 12, 0), 15);
+    });
+  });
+  describe('getKilometersPrHour', function() {
+    it('should return the correct number', function() {
+      let r = motionsplan.Running();
+      // m2, s2, km
+      assert.equal(r.getKilometersPrHour(0.001, 0, 0, 10), 36);
     });
   });
   describe('getTimePrKilometer', function() {
     it('should return the correct number', function() {
       let r = motionsplan.Running();
       // m2, s2, km
-      assert.equal(r.getTimePrKilometer(12, 0, 3), "4:00");
+      assert.equal(r.getTimePrKilometer(3, 12, 0), "4:00");
     });
   });
   describe('convertKmtToMinPerKm', function() {
