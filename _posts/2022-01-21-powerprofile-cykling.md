@@ -1,5 +1,6 @@
 ---
 title: &title "Powerprofil i cykling: Hvordan tester du den?"
+excerpt: Som cykelrytter er det interessant at kende sin _power profile_. Ud fra din powerprofil kan du nemlig få en indsigt i, hvilken type rytter du er.
 permalink: /powerprofil-cykling/
 language: da
 header:
@@ -81,7 +82,7 @@ Du kan også tage nøjagtigt de tidsrum, som er foreslået af Hunter Allen og An
 
 ## Hvad kan en powerprofil bruges til?
 
-Med en powerprofil kan du bruge skalaen ovenfor for at se, hvordan du klarer dig i de forskellige tidsintervaller i forhold til verdenseliten. 
+Med en powerprofil kan du bruge skalaen ovenfor for at se, hvordan du klarer dig i de forskellige tidsintervaller i forhold til verdenseliten.
 
 En powerprofil kan være et godt værktøj til at finde ud af, hvilke parametre du med fordel kan træne for at få det samme udgangspunkt som andre, du gerne vil sammenligne dig med.
 
