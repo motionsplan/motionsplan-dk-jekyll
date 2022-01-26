@@ -27,7 +27,7 @@ Vi bruger mange forskellige springtests på Vejle Idrætshøjskole. Her har vi a
 
 ## 1. Mål hvor højt du hopper med en væg eller basketkurv
 
-Hvis du har en væg eller en basketballkurv, så er det ret enkelt at lave en hoppetest.  [Sargent Jump test](/sargent-jump-test/) er et godt eksempel på en meget enkel test, som kan laves overalt. Stå ved siden af en mur og mål, hvor højt du kan række. Derefter springer du så højt som muligt, rører ved væggen og udregner forskellen. 
+Hvis du har en væg eller en basketballkurv, så er det ret enkelt at lave en hoppetest.  [Sargent Jump test](/sargent-jump-test/) er et godt eksempel på en meget enkel test, som kan laves overalt. Stå ved siden af en mur og mål, hvor højt du kan række. Derefter springer du så højt som muligt, rører ved væggen og udregner forskellen.
 
 Ulemperne ved at bruge en mur er følgende:
 
@@ -43,7 +43,7 @@ Fordelene ved at bruge en mur eller en basketballplader er, at det er så lavpra
 
 ## 2. Måle hoppehøjden præcist med med Vertec
 
-En Vertec er en lang stang, som har en masse horisontale flade og lange plader, der kan rotere omkring stangen. Først skal du måle din rækkevidde. Derefter måler man springhøjden ved at se, hvor mange plader du kan skubbe til side. 
+En Vertec er en lang stang, som har en masse horisontale flade og lange plader, der kan rotere omkring stangen. Først skal du måle din rækkevidde. Derefter måler man springhøjden ved at se, hvor mange plader du kan skubbe til side.
 
 Det er sjovt at bruge en Vertec, og den kan give hurtige og præcise resultater, når den bliver brugt rigtigt.
 
@@ -93,7 +93,7 @@ Ulemperne er, at man kan lande med bøjede ben eller på hælene, hvilket kunsti
 
 {% assign site_posts = site.posts | where: "tags", "springtest" | sort: "date" %}
 
-<div class="feature__row">
+<div class="feature__wrapper">
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
