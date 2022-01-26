@@ -176,24 +176,40 @@ Der er forskellige måder at blive en mere effektiv cyklist på. I denne video k
 - **Brug lige kraft på begge ben**. Det smarte ved polar view er, at du får svar på, om du bruger benene lige meget. Det er naturligvis mest optimalt at bruge benene lige meget, men typisk så er det stadig godkendt, hvis det ligger i spændet fra 48%-52%.
 - **Cykelskoene**. Cykelskoene har stor betydning og hvor godt klamperne sidder på skoene. Det er kontaktpunktet mellem cykel og fod, og derfor skal det gerne sidde godt fast. Placeringen af klamperne skal også helst være rigtig under fødderne.
 - **Sid ned**. Du kan formentlig over tid være mere effektiv, hvis du sidder ned. Stå kun op, når det er absolut nødvendigt, eller din numse trænger til lidt pause.
-- **Kør med den rigtige modstand i det rigtige gear**. Hvis du har en 8-tals figur i dit tråd, så kan udfordringen være, at din belastning er for høj, så du skal koncentrere dig så meget om at træde pedalerne ned. Kør med en lidt hurtigere kadence og tænk på at 'skrabe mudder af din fodsål' i hver pedalomdrejning.
+- **Kør med den rigtige modstand i det rigtige gear**. Hvis du har en 8-tals figur i dit tråd, så kan udfordringen være, at din belastning er for høj, så du skal koncentrere dig så meget om at træde pedalerne ned. Kør med en lidt hurtigere kadence og tænk på at 'skrabe mudder af din fodsål' i bunden af hver pedalomdrejning.
 
-{% comment %}
+Jeg cykler ofte selv på en wattbike, hvor jeg kan se Polar View. Det minder mig hele tiden om, at prøve at gøre trådet bedre. Særligt med de nyere Wattbikes, hvor du med en Bluetooth-monitor kan connecte til Powerhub på din telefon. Så kan du nemlige analysere datane med vinklen for _peak force_ og balancen mellem højre og venstre.
 
-Get the right resistance setting - a ‘figure of eight’ shape may indicate your resistance is too high forcing you to concentrate solely on the downstroke. Lower the resistance level and concentrate on ‘scraping mud off the sole of your foot’ at the bottom of the revolution.
-Ensure Polar View is displayed on the Wattbike Performance Monitor - this will constantly remind you to focus on effective pedalling.
-Analyse your data in the powerhub - if you have a Bluetooth enabled monitor and Bluetooth smartphone you can analyse your Polar View data in the powerhub. You will be able to analyse your Polar View graph, angle of peak force and left/right leg balance throughout your entire session.
-Try a specific cycling effectiveness workout - during these sessions you should concentrate on smoothing out your Polar View shape. To start with this will require a lot of concentration, so focus on it for short periods of time and then relax. It is easier to hold a good shape on the harder gears, so begin with the lightest gear available and then only when you have mastered that move up to the next gear ie.:
-1 minute focus on shape / 2 minutes easy pedalling x 6-10
-2 minutes focus on shape / 2 minutes easy pedalling x 5-8
-3 minutes focus on shape / 2 minutes easy pedalling x 4-6
-Experiment with different cadence and resistance settings - to develop good pedal technique on your bike across all terrain - uphill, downhill and on the flat - you should work on sustaining an improved pedalling technique shape on different resistance levels and at different cadences.
-Keep practising - Regularly include a session in your training plan where you refocus on pedalling technique.
+## Træn dit tråd med følgende øvelse
 
-{% endcomment %}
+[Wattbike](https://support.wattbike.com/hc/en-gb/articles/115001848609-A-Beginner-s-Guide-To-Perfect-Pedalling) foreslår følgende øvelse til at forbedre dit tråd.
 
-## Hvilke muskler bruger du?
+I hele øvelsen skal du fokusere på at gøre dit tråd så flydende som muligt. Det kræver en masse koncentration, så det er bedst at gøre det i kortere tid ad gangen.
+
+Start med det laveste gear og gå et gear op, når du kan lave en god figur med lav belastning.
+
+Du kan fx gøre sådan her:
+
+- 1 minut med fokus på trådet / to minutter med et let tråd x 6-10
+- 2 minut med fokus på trådet / to minutter med et let tråd x 5-8
+- 3 minut med fokus på trådet / to minutter med et let tråd x 4-6
+
+Brug forskellige belastninger og brug forskellige kadencer, så du kan have et effektivt tråd uanset, hvilken belastning og hastighed du kører pedalerne rundt.
+
+Du bør jævnligt øve din teknik. Cykling kan ofte komme til at fokusere meget på kredsløbstræning og hård træning, men at bruge kræfter på at forbedre din cykelteknik og derved din cykeløkonomi kan virkelig betale sig i det lange løb.
+
+## Hvilke muskler bruger du i cykling?
 
 Når du forsøger at lave det runde tråd, så bruger du benene lidt mere varieret i dit tråd. Denne video viser rigtig godt, hvordan musklerne arbejder undervejs i trådet.
 
 {% include video provider="youtube" id="BGu_VJ07-E8" %}
+
+## Konklusion
+
+Der er ikke nogen kadence, der er optimal for alle. De fleste kan med fordel ligge omkring 80-100. Prøv dig frem med forskellige kadencer og prøv fx at føle subjektivt, hvordan det føles på kredsløbet.
+
+Du kan også sammenstille wattmålinger og pulsmålinger med de forskellige kadencer for at se, hvor netop du befinder dig bedst.
+
+Uanset hvilken kadence der er optimal for dig, så husk også at få trænet teknikken i dit tråd.
+
+{% include feature_row type="left" %}
