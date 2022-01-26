@@ -32,6 +32,8 @@ Derefter kigger vi lidt på, hvad et rundt tråd er, og hvordan du kan træne de
 
 Netop kadencen er noget, af det Rolf Sørensen og Jørgen Leth kalder den smukke gentagelse, som du kan læse mere om i deres bog med [samtaler om cykling](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/netop-gentagelsen-er-det-smukke_joergen-lethrolf-soerensenflemming-toft_indbundet_9788771083590){: rel="sponsored nofollow noopener" }.
 
+{% include figure image_path="https://images.unsplash.com/photo-1516725630185-19ae408fbc83?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=5" caption="At finde den rigtige kadence på cyklen for at være mest effektiv på cyklen kan hjælpe dine præstationer." alt="kadence cykling" %}
+
 ## Findes der en optimal kadence i cykling?
 
 Der findes ikke nogen kadence i cykling, som er optimal for alle. Tommelfingerreglen er, at du skal holde en kadence på omkring 80-100 rpm, når du kører landevejscykling. Men det er et ret stort spænd, så derfor skal du i gang med at finde din egen optimale og effektive kadence.
@@ -40,15 +42,9 @@ Der er lavet forskellige videnskabelige studier på en effektiv kadence, men de 
 
 Der er mange eksempler på cykelryttere, som klarer sig på topniveau med vidt forskellig kadence.
 
-I cykelsporten taler man sommetider om at "være ovenpå pedalerne". Men hvad betyder det at være ovenpå pedalerne? 
+I cykelsporten taler man sommetider om at "være ovenpå pedalerne". Men hvad betyder det at være ovenpå pedalerne?
 
-## Hvordan ser et godt tråd ud?
 
-{% include video provider="youtube" id="BGu_VJ07-E8" %}
-
-{% include figure image_path="https://www.whichtrainingcamp.com/images/Articleimages/CYCLING/The%20Effective%20Pedal%20Stroke.jpg" %}
-
-## Hvilke muskler bruger jeg i cykling?
 
 {% comment %}
 
@@ -113,6 +109,12 @@ Når jeg får nye atleter i træningsvejledning er deres kadence altid en af de 
 
 {% endcomment %}
 
+## Hvordan ser et godt tråd ud?
+
+Nu har du nogenlunde styr på kadencen. Lad os kigge lidt på, hvordan 'det runde tråd' ser ud. Generelt kan du bruge klokken som et udgangspunkt for, hvordan bevægelsen skal se ud i fodleddet, og hvordan det skal føles i lægge, baglår, forlår og baller.
+
+{% include figure image_path="https://www.whichtrainingcamp.com/images/Articleimages/CYCLING/The%20Effective%20Pedal%20Stroke.jpg" caption="Kilde: [www.whichtrainingcamp.com](https://www.whichtrainingcamp.com)" %}
+
 ## Det runde tråd
 
 Hvis du gerne vil forstå det runde tråd, så har [Wattbike](https://support.wattbike.com/hc/en-gb/articles/115001848609-A-Beginner-s-Guide-To-Perfect-Pedalling) lavet en meget god forklaring, som jeg vil gennemgå her.
@@ -147,54 +149,41 @@ Elitecykelryttere kan lave en stor rund figure, som er meget konsistent og balan
 
 {% include figure image_path="https://wattbike-media.s3.amazonaws.com/uploads/uk/polar-view-elite.jpg" %}
 
-{% comment %}
+## Wattbikes Polar View
 
-## Mere om Polar View?
+Polar View er altså en grafisk repræsentation af din teknik på cykling. Den viser balancen mellem højre og venstre ben, og hvor meget kraft du får ned i pedalerne rundt i dit tråd.
 
-***
-
-What is the Wattbike Polar View?
-
-The Wattbike Polar View is a unique analysis tool which can help you master the perfect pedalling technique.
-
-Simply put, the Polar View is a graphical representation of your pedalling technique. It shows the balance between your left and right leg, the force you apply to the pedals and where exactly you apply this force within the pedal stroke.
-
-How does the Polar View help improve performance?
-Mastering the perfect pedalling technique makes your pedalling more effective and therefore helps you become a faster cyclist.
-
-Improved power output - in the process of improving your pedalling technique, you will naturally use more of your active muscle groups and reduce the stress on your body which translates into improved power output and ultimately more speed. 
-Enhanced recovery - effective pedalling reduces the stress placed on your body which means you will be less tired and you will also recover quicker.
-Increased endurance - pedalling in an effective way means that, for the same effort, you can produce a higher power and sustain it for longer; which results in increased endurance. 
-How to improve your pedalling technique
-From bike set up to applying an even force, there are a number of ways to improve your pedalling technique.
-
-{% include video provider="youtube" id="VYJO1-jODx4" %}
-
-[Wattbike](https://support.wattbike.com/hc/en-gb/articles/115001848609-A-Beginner-s-Guide-To-Perfect-Pedalling) beskriver...
-
-
-A Beginner's Guide To Perfect Pedalling
- 
-10 months ago Updated
-Mastering the perfect pedalling technique can make your pedalling more effective resulting in becoming a faster cyclist. The Wattbike Polar View is a pedalling technique analysis tool which makes the invisible, visible, by displaying an easy to read graph which shows exactly where you are losing force throughout the pedal stroke.
-
-Understanding the Polar View
-In this video, our Sport Scientist Eddie Fletcher explains all about the Polar View and how to read your Polar View graph.
+I denne video kan du lære mere om Wattbikes polar view:
 
 {% include video provider="youtube" id="LYktT5D2j4s" %}
 
+Når du kan se teknikken, så kan du også arbejde med, hvordan du kan blive mere effektiv. Det gælder om at få trådet til at være så rundt som muligt, så der hele tiden genereres noget kraft ned i pedalerne.
 
-Improving your Polar View 
-There are many aspects of cycling which impact your pedalling technique and Polar View graph. Below you will find our 10 top tips for improving your Polar View graph:
+Hvis du forbedrer din teknik, så får du en række fordele:
 
-Check your cycling position - an incorrect cycling position can affect both the downstroke and upstroke phases. Learn how to set up your Wattbike correctly here.
-Try to ensure you apply force evenly with each leg - the left/right leg balance should be as close to 50/50 as possible, it will fluctuate however the ideal range is between 48%-52%. 
-Invest in a good pair of cycling shoes - without cycling shoes you will find it difficult to implement the full power and recovery phases effectively.
-Try not to stand up - standing up in the pedals can compromise your pedalling technique, making it very difficult to maintain power through the top and bottom of each pedal turn. Only stand up if required by a specific session within your training plan.
-Get the right resistance setting - a ‘figure of eight’ shape may indicate your resistance is too high forcing you to concentrate solely on the downstroke. Lower the resistance level and concentrate on ‘scraping mud off the sole of your foot’ at the bottom of the revolution. 
+- **Forbedret power output**. En bedre teknik vil gøre at du kan bruge fler emuskler i benet. Derved kan du mindske hvor hårdt det føles samtidig med, at du får mere kraft ned i pedalerne uden at bruge flere kræfter.
+- **Forbedret udholdenhed**. Hvis du har en mere effektiv teknik, så kan du producere mere kraft over længere tid. Det giver dig en forbedret udholdenhed. I praksis vil det sige, at dit kredsløb måske skal arbejde mindre, fordi din cykeløkonomi er bedre.
+
+## Hvordan forbedrer du din cykelteknik?
+
+Der er forskellige måder at blive en mere effektiv cyklist på. I denne video kan du få flere gode råd til din position på cyklen, og hvordan dit tråd skal være for at være mest effektiv i sadlen.
+
+{% include video provider="youtube" id="VYJO1-jODx4" %}
+
+[Wattbike](https://support.wattbike.com/hc/en-gb/articles/115001848609-A-Beginner-s-Guide-To-Perfect-Pedalling) beskriver, hvordan du kan få en bedre teknik på cyklen.
+
+- **Tjek din position på cyklen**. Hvis du ikke sidder rigtigt på cyklen, så har det betydning for, hvordan du kan lægge kærfter i pedalerne.
+- **Brug lige kraft på begge ben**. Det smarte ved polar view er, at du får svar på, om du bruger benene lige meget. Det er naturligvis mest optimalt at bruge benene lige meget, men typisk så er det stadig godkendt, hvis det ligger i spændet fra 48%-52%.
+- **Cykelskoene**. Cykelskoene har stor betydning og hvor godt klamperne sidder på skoene. Det er kontaktpunktet mellem cykel og fod, og derfor skal det gerne sidde godt fast. Placeringen af klamperne skal også helst være rigtig under fødderne.
+- **Sid ned**. Du kan formentlig over tid være mere effektiv, hvis du sidder ned. Stå kun op, når det er absolut nødvendigt, eller din numse trænger til lidt pause.
+- **Kør med den rigtige modstand i det rigtige gear**. Hvis du har en 8-tals figur i dit tråd, så kan udfordringen være, at din belastning er for høj, så du skal koncentrere dig så meget om at træde pedalerne ned. Kør med en lidt hurtigere kadence og tænk på at 'skrabe mudder af din fodsål' i hver pedalomdrejning.
+
+{% comment %}
+
+Get the right resistance setting - a ‘figure of eight’ shape may indicate your resistance is too high forcing you to concentrate solely on the downstroke. Lower the resistance level and concentrate on ‘scraping mud off the sole of your foot’ at the bottom of the revolution.
 Ensure Polar View is displayed on the Wattbike Performance Monitor - this will constantly remind you to focus on effective pedalling.
 Analyse your data in the powerhub - if you have a Bluetooth enabled monitor and Bluetooth smartphone you can analyse your Polar View data in the powerhub. You will be able to analyse your Polar View graph, angle of peak force and left/right leg balance throughout your entire session.
-Try a specific cycling effectiveness workout - during these sessions you should concentrate on smoothing out your Polar View shape. To start with this will require a lot of concentration, so focus on it for short periods of time and then relax. It is easier to hold a good shape on the harder gears, so begin with the lightest gear available and then only when you have mastered that move up to the next gear ie.: 
+Try a specific cycling effectiveness workout - during these sessions you should concentrate on smoothing out your Polar View shape. To start with this will require a lot of concentration, so focus on it for short periods of time and then relax. It is easier to hold a good shape on the harder gears, so begin with the lightest gear available and then only when you have mastered that move up to the next gear ie.:
 1 minute focus on shape / 2 minutes easy pedalling x 6-10
 2 minutes focus on shape / 2 minutes easy pedalling x 5-8
 3 minutes focus on shape / 2 minutes easy pedalling x 4-6
@@ -202,3 +191,9 @@ Experiment with different cadence and resistance settings - to develop good peda
 Keep practising - Regularly include a session in your training plan where you refocus on pedalling technique.
 
 {% endcomment %}
+
+## Hvilke muskler bruger du?
+
+Når du forsøger at lave det runde tråd, så bruger du benene lidt mere varieret i dit tråd. Denne video viser rigtig godt, hvordan musklerne arbejder undervejs i trådet.
+
+{% include video provider="youtube" id="BGu_VJ07-E8" %}
