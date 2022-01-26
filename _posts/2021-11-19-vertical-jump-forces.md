@@ -1,5 +1,5 @@
 ---
-title: &title "Fysikken og kræfterne bag det vertikal spring"
+title: &title "Fysikken og kræfterne bag et vertikalt spring"
 seo_title: "Hvad er fysikken og kræfterne bag det vertikale spring?"
 permalink: /fysik-vertikalt-hop/
 language: da
@@ -28,7 +28,7 @@ I dette indlæg kigger vi på fem faser i det vertikale spring, og vi kigger på
 
 ## Kræfter der påvirker springeren
 
-Når du springer, så vil du i dit afsæt påvirke jorden med den kraft du kan sætte af med. Men samtidig vil jorden påvirke dig med de modsatrettede kræfter. 
+Når du springer, så vil du i dit afsæt påvirke jorden med den kraft du kan sætte af med. Men samtidig vil jorden påvirke dig med de modsatrettede kræfter.
 
 Fænomenet er beskrevet i [Newtons love](https://da.wikipedia.org/wiki/Newtons_love), og mest præcist Newtons 3. lov.
 
@@ -252,7 +252,7 @@ hvor t<sub>hangtime</sub> er tiden mellem afsæt og landing og <em>a</em> er acc
 
 {% include math formula="h_{jump} = \frac{1}{2} \frac{(\frac{I}{M})^2}{a}" %}
 
-hvor 
+hvor
 
 {% include math formula="I = \int_{start}^{takeoff}{\bigg(F_{Jumper}(t) - F_{gravity}(t) \bigg) dt }" %}
 
