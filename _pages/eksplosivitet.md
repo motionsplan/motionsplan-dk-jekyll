@@ -55,6 +55,20 @@ feature_row:
 
 </div>
 
+## Springtræning
+
+<div class="feature__wrapper">
+
+{% assign site_posts = site.posts | where: "category", "Springtræning" | sort: "last_modified_at" | reverse %}
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
 ## Sprinttests
 
 <div class="feature__wrapper">
