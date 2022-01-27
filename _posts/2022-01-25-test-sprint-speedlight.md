@@ -1,17 +1,17 @@
 ---
 title: &title "Sprintceller: Test hvor hurtigt du løber og accelererer"
+excerpt: "Med sprintceller kan du ret præcist måle sprinthastighed og accelerationsevne. Den præcise tidtagning fås i forskellige variationer, men fælles for dem alle er at de præcist kan tage tid."
 permalink: /sprinttest-med-sprintceller/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80
-  teaser: https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  teaser: https://images.unsplash.com/photo-1461896836934-ffe607ba8211?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Eksplosivitet
 tags:
   - test
   - sprinttest
-last_modified_at: 2019-11-19T23:14:14Z
+last_modified_at: 2022-01-19T23:14:14Z
 toc: true
 ---
 
@@ -25,9 +25,25 @@ Vi kigger i dette indlæg på, hvordan du kan bruge sprintceller til at teste di
 
 Her kan du få en hjælpeberegner, som kan hjælpe dig med at udregne hastigheder på baggrund af resultaterne på de distancer, du tester.
 
+## Hvordan laver du en sprinttest?
+
+Her tager vi udgangspunkt i, at du vil lave en sprinttest, hvor du måler acceleration og hastighed. En meget brugt test er en 30 meters test, hvor du tager tid efter 5, 10, 25 og 30 meter.
+
+Det er klart lettest at lave testen, hvis du har adgang til sprintceller.
+
+Du starter fra en stationær position med et ben foran det andet. Den forreste fod skal være bag ved startlinjen. 
+
+For at standardisere testen fra gang til gang, bør du holde startpositionen omkring 2 sekunder, før du sætter i gang, og du må ikke lave nogle forbevægelser.
+
+
+
 ## Beregn hastighed ud fra dine tider
 
 {% include calculate-hastighed-speedlight.html %}
+
+## Beregn hastighed ud fra flere splittider
+
+{% include calculate-hastighed-speedlight-advanced.html %}
 
 ## Hvad er hurtige sprinttider?
 

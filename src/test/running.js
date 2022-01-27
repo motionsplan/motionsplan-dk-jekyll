@@ -10,9 +10,10 @@ describe('RunningTest', function() {
     });
   });
   describe('getKilometersPrHour', function() {
-    it('should return the correct number', function() {
+    it('hundredele should return correct number', function() {
       let r = motionsplan.Running();
       // m2, s2, km
+      assert.equal(r.getKilometersPrHour(0.010, 0, 1, 0), 36);
       assert.equal(r.getKilometersPrHour(0.001, 0, 0, 10), 36);
     });
   });

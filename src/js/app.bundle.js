@@ -670,10 +670,10 @@ $(function() {
         console.log("Jump Reach test");
         e.preventDefault();
 
-      let formula = $("[name='jump-reach-formula']").val();
-      let body_weight = Number($("[name='body_weight']").val());
-      let body_height = Number($("[name='body_height']").val());
-      let jump_reach_height_score = Number($("#jump_reach_height_score").val());
+        let formula = $("[name='jump-reach-formula']").val();
+        let body_weight = Number($("[name='body_weight']").val());
+        let body_height = Number($("[name='body_height']").val());
+        let jump_reach_height_score = Number($("#jump_reach_height_score").val());
 
         console.log(formula + ' ' + body_weight + ' ' + body_height + ' ' + jump_reach_height_score);
 
@@ -686,11 +686,11 @@ $(function() {
         console.log("CMJ test");
         e.preventDefault();
 
-      let flight_time = Number($("[name='cmj_flight_time']").val());
+        let flight_time = Number($("[name='cmj_flight_time']").val());
 
         console.log('CMJ flight time ' + flight_time);
 
-      let jump_height = 9.81 * Math.pow(flight_time, 2) / 8;
+        let jump_height = 9.81 * Math.pow(flight_time, 2) / 8;
 
         jump_height = jump_height * 100;
 
@@ -700,10 +700,10 @@ $(function() {
         console.log("DSI test");
         e.preventDefault();
 
-      let peak_force_max = Number($("[name='dsi_peak_force_max_strength']").val());
-      let peak_force_ballistic = Number($("[name='dsi_peak_force_max_ballistic']").val());
+        let peak_force_max = Number($("[name='dsi_peak_force_max_strength']").val());
+        let peak_force_ballistic = Number($("[name='dsi_peak_force_max_ballistic']").val());
 
-      let dsi = peak_force_ballistic / peak_force_max;
+        let dsi = peak_force_ballistic / peak_force_max;
 
         $("[name='dsi']").val(dsi.toFixed(2));
     });
@@ -711,11 +711,11 @@ $(function() {
         console.log("CMJ test");
         e.preventDefault();
 
-      let initial_velocity = Number($("[name='cmj_initial_velocity']").val());
+        let initial_velocity = Number($("[name='cmj_initial_velocity']").val());
 
         console.log('CMJ flight time ' + initial_velocity);
 
-      let jump_height = Math.pow(initial_velocity, 2) / 9.81 / 2;
+        let jump_height = Math.pow(initial_velocity, 2) / 9.81 / 2;
 
         jump_height = jump_height * 100;
 
@@ -2002,6 +2002,52 @@ $(function() {
 
       $("#velocity_kmt").val(c.getKilometersPrHour(distance, min, sec, hd).toFixed(2));
       $("#velocity_ms").val(c.getMeterPerSecond(distance, min, sec, hd).toFixed(2));
+  });
+  $("#calculator_velocity_speedlight_advanced").submit(function(e) {
+    console.log("Calculate speedlight Advanced");
+    e.preventDefault();
+
+    let min = 0;
+    let sec_1 = Number($("[name='sec_1']").val());
+    let hd_1 = Number($("[name='hundrededele_1']").val());
+    let distance_1 = Number($("[name='distance_1']").val()) / 1000;
+
+    console.log("Calculate:" + sec_1 + ":" + hd_1 + " - " + distance_1);
+
+    let c = running.Running();
+
+    $("#velocity_kmt_1").val(c.getKilometersPrHour(distance_1, min, sec_1, hd_1).toFixed(2));
+    $("#velocity_ms_1").val(c.getMeterPerSecond(distance_1, min, sec_1, hd_1).toFixed(2));
+
+    let sec_2 = Number($("[name='sec_2']").val());
+    let hd_2 = Number($("[name='hundrededele_2']").val());
+    let distance_2 = Number($("[name='distance_2']").val()) / 1000;
+
+    console.log("Calculate:" + sec_2 + ":" + hd_2 + " - " + distance_2);
+
+    $("#velocity_kmt_2").val(c.getKilometersPrHour(distance_2 - distance_1, min, sec_2 - sec_1, hd_2 - hd_1).toFixed(2));
+    $("#velocity_ms_2").val(c.getMeterPerSecond(distance_2 - distance_1, min, sec_2 - sec_1, hd_2 - hd_1).toFixed(2));
+
+    let sec_3 = Number($("[name='sec_3']").val());
+    let hd_3 = Number($("[name='hundrededele_3']").val());
+    let distance_3 = Number($("[name='distance_3']").val()) / 1000;
+
+    console.log("Calculate:" + sec_3 + ":" + hd_3 + " - " + distance_3);
+
+    $("#velocity_kmt_3").val(c.getKilometersPrHour(distance_3 - distance_2, min, sec_3 - sec_2, hd_3 - hd_2).toFixed(2));
+    $("#velocity_ms_3").val(c.getMeterPerSecond(distance_3 - distance_2, min, sec_3 - sec_2, hd_3 - hd_2).toFixed(2));
+
+    let sec_4 = Number($("[name='sec_4']").val());
+    let hd_4 = Number($("[name='hundrededele_4']").val());
+    let distance_4 = Number($("[name='distance_4']").val()) / 1000;
+
+    console.log("Calculate:" + sec_4 + ":" + hd_4 + " - " + distance_4);
+
+    $("#velocity_kmt_4").val(c.getKilometersPrHour(distance_4 - distance_3, min, sec_4 - sec_3, hd_4 - hd_3).toFixed(2));
+    $("#velocity_ms_4").val(c.getMeterPerSecond(distance_4 - distance_3, min, sec_4 - sec_3, hd_4 - hd_3).toFixed(2));
+
+    $("#velocity_kmt_advanced").val(c.getKilometersPrHour(distance_4, min, sec_4, hd_4).toFixed(2));
+    $("#velocity_ms_advanced").val(c.getMeterPerSecond(distance_4, min, sec_4, hd_4).toFixed(2));
   });
   $("#calculator_velocity_distance").submit(function(e) {
         console.log("Calculate distance");

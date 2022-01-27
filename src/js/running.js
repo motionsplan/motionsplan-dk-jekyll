@@ -16,7 +16,7 @@ motionsplan.Running = function() {
     function getKilometersPrHour(km, m, s, hd = 0) {
         // return (km / (s + (m * 60)) * (60 * 60)); // (m * 60 + s) / (60*60)
         hd = hd / 100;
-        s = s + hd / (60 * 60);
+        s = (s + hd) / (60 * 60);
         m = m / 60;
 
         let seconds = s + m;
