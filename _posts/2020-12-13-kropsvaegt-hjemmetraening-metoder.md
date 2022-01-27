@@ -1,20 +1,22 @@
 ---
 title: &title "Gør træning hjemme med kropsvægt og hjemmetræning mere effektivt 💪"
+seo_title: "Gør træning med kropsvægt og hjemmetræning mere effektivt 💪"
 permalink: /metoder-hjemmetraening-kropsvaegt-mere-effektiv/
 language: da
 author: lsolesen
 header:
-  overlay_image: https://images.unsplash.com/photo-1589955791915-526198ae4ee9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80
-  teaser: https://images.unsplash.com/photo-1589955791915-526198ae4ee9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1589955791915-526198ae4ee9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1589955791915-526198ae4ee9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Styrketræning
 tags:
   - styrketræning
+  - hjemmetræning
 last_modified_at: 2020-12-03T23:14:14Z
 toc: true
 feature_row:
-  - image_path: https://cdn.shopify.com/s/files/1/0247/5674/8373/products/KINETIK_VX1_-_Vaegtvest_900x.png?v=1574882659
+  - image_path: https://cdn.shopify.com/s/files/1/0247/5674/8373/products/KINETIKVX1-Vaegtvest-Produkt_900x.png?v=1625157946
     alt: "KINETIK Vægtvest VX1"
     title: "KINETIK Vægtvest VX1"
     excerpt: "KINETIK VX1 er det ultimative træningsudstyr, og er enestående når det kommer til design og kvalitet. Vores vægtvest er specialdesignet til at aktivere din styrke, og effektivisere din træning."
@@ -26,9 +28,11 @@ feature_row:
 
 Jeg har samlet metoder til at gøre din hjemmetræning mere effektiv. Når du træner hjemme, så træner du ofte uden udstyr eller med begrænset udstyr. Jeg træner ofte selv øvelser med kropsvægt, når jeg træner hjemme, men jeg vælger effektive øvelser, og så bruger jeg forskellige metoder for at gøre træningen endnu mere effektiv.
 
+Metoderne kan også også bruges i styrketræningsrummet, men er også særdeles effektive, når du kaster dig ud i [hjemmetræning]({% link _posts/2020-08-06-hjemmetraening.md %}).
+
 {% comment %}
 
-## Ram hele kroppen med hjemmetræningen
+## Ram hele kroppen
 
 The Big Four
 The following four movements need to be in every program. If you're doing full-body workouts instead of body part splits or movement-based training programs, then they should be in every workout.
@@ -65,7 +69,7 @@ Weak lateral hips can be a precursor to injury by altering movement mechanics. E
 
 ## Metoder til at gøre hjemmetræning mere effektivt
 
-Christian Thibaudeau foreslår [forskellige metoder til at gøre hjemmetræningen mere effektivt](https://www.t-nation.com/training/get-jacked-without-leaving-your-house). Det er faktisk ikke så vanskeligt at gøre træning med kropsvægt mere udfordrende - også i forhold til styrketræning.
+[Christian Thibaudeau](https://www.t-nation.com/training/get-jacked-without-leaving-your-house) foreslår forskellige metoder til at gøre hjemmetræningen mere effektivt. Det er faktisk ikke så vanskeligt at gøre træning med kropsvægt mere udfordrende - også i forhold til styrketræning.
 
 ## Isometriske metoder
 
@@ -140,7 +144,7 @@ Darden 30-10-30 er virkelig en hård øvelse, og du udfører den sådan her, fx 
 - Lav øjeblikkeligt derefter **10 almindelige gentagelser**, hvor du stadig kontrollerer den excentriske fase, fx med 2 sekunder.
 - Slut med **30 sekunders excentrisk fase** umiddelbart efter den 10. gentagelse.
 
-Hvis det er for let at bruge denne metode på _body weight squats_, så kan du prøve at lave flere gentagelser eller lave en squat-variation på et ben, fx [Bulgarian Split Squats]({% link _exercises/bulgarian-split-squat-39.md %}).
+Hvis det er for let at bruge denne metode på _body weight squats_, så kan du prøve at lave flere gentagelser eller lave en squat-variation på et ben, fx [Bulgarian Split Squats]({% link _exercises/squat-bulgarian-split-39.md %}).
 
 {% comment %}
 
@@ -192,7 +196,7 @@ Eller pullup variationen med 7-7-7
 
 {% endcomment %}
 
-Dan North [foreslår ud over unilaterale øvelser og isometriske og excentriske metoder også at bruge halvanden gentqgelser](https://www.t-nation.com/training/build-muscle-anywhere-anytime), når man skal gøre træningen hårdere. Simon Bigshooter fra supertraining.dk er også [stor fan af halvanden chinups](http://supertraining.dk/255-superoevelse-one-and-a-half-rep-chin-ups/).
+[Dan North foreslår](https://www.t-nation.com/training/build-muscle-anywhere-anytime) ud over unilaterale øvelser og isometriske og excentriske metoder også at bruge halvanden gentagelser, når man skal gøre træningen hårdere. Simon Bigshooter fra supertraining.dk er også [stor fan af halvanden chinups](http://supertraining.dk/255-superoevelse-one-and-a-half-rep-chin-ups/).
 
 {% comment %}
 
@@ -204,7 +208,7 @@ Remember, rather than doing one rep of an exercise, you'd do half the movement f
 
 {% endcomment %}
 
-## Konklusion om hjemmetræning
+## Konklusion
 
 Ud over at du kan bruge forskellige metoder, så husk også, at du kan øge sværhedsgraden ved at tilføje vægt til dine kropsvægtsøvelser.
 

@@ -20,15 +20,17 @@ gallery:
   - image_path: /assets/images/hip_extensors.jpg
     alt: Musklerne på baglåret er med til at strække hoften
     title: Musklerne på baglåret er med til at strække hoften
+sidebar:
+  nav: exercises
 ---
 
-Rigtig mange glemmer træningen af deres baglår. Jeg har samlet nogle øvelser til træning af baglåret og haserne, som er med til at mindske risikoen for skader (fx fibersprængninger) og øge dit præstationspotentiale. 
+Rigtig mange glemmer træningen af deres baglår. Jeg har samlet nogle øvelser til træning af baglåret og haserne, som er med til at mindske risikoen for skader (fx fibersprængninger) og øge dit præstationspotentiale.
 
 Træner du dit baglår og dine haser? Det tror jeg nok du går, så næste gang du går i styrkerummet starter træningen af haserne.
 
 ## Tager dit program til baglåret højde for anatomien?
 
-Ofte bliver baglåret ikke trænet tilstrækkeligt, og ofte heller ikke på den måde baglårsmusklen bruges. 
+Ofte bliver baglåret ikke trænet tilstrækkeligt, og ofte heller ikke på den måde baglårsmusklen bruges.
 
 Lad os dykke lidt ned i anatomien i baglåret.
 
@@ -46,7 +48,7 @@ Det er vigtigt at forstå, at musklerne i baglåret har flere funktioner - og at
 
 ## Hvordan bør jeg så træne baglåret?
 
-De anatomiske observationer har naturligvis betydning for, hvordan du bør træne baglårene. 
+De anatomiske observationer har naturligvis betydning for, hvordan du bør træne baglårene.
 
 Vi vil sørge for at træne både evnen til at lave hofteudstrækning og til at bøje knæet. Vi kunne dele  træningen op i to træningspas. Når du laver træningspassene, skal du være opmærksom på følgende:
 
@@ -116,7 +118,7 @@ Du kan naturligvis bruge øvelserne ovenfor, men lad os også dykke lidt ned i v
 
 Horst et al (2015) har fundet ud af, at _Nordic Hamstring_-øvelsen er en rigtig god måde at forebygge baglårsskader for fodboldspillere, men det ikke reducerede alvorligheden af skaden.
 
-_Nordic Hamstring_ træner imidlertid kun den knæflekterende del af baglårsmusklerne. Derfor er det vigtigt, at du også vælger nogle af de andre øvelser til baglåret for at fokusere på hofteudstrækket for at få en komplet træning af baglårene. 
+_Nordic Hamstring_ træner imidlertid kun den knæflekterende del af baglårsmusklerne. Derfor er det vigtigt, at du også vælger nogle af de andre øvelser til baglåret for at fokusere på hofteudstrækket for at få en komplet træning af baglårene.
 
 Tsaklis et al (2015) undersøgte forskellige øvelser i forhold til intensitet og aktivering af baglårsmusklerne. De undersøgte lunge, dødløft, swings, øvelser med TRX, Nordic hamstring, øvelser med fitball og en slidebevægelse.
 
@@ -134,8 +136,12 @@ Dette træningsprogram til baglåret er udelukkende et forslag til, hvordan du v
 
 ## Referencer om baglåret
 
+<details markdown="1">
+  <summary>Se referencer om baglårstræning</summary>
+
 - Ernlund, Lucio, og Lucas de Almeida Vieira. 2017. “Hamstring injuries: update article”. Revista Brasileira de Ortopedia 52 (4): 373–82. <https://doi.org/10.1016/j.rboe.2017.05.005>.
 - Horst, Nick van der, Dirk-Wouter Smits, Jesper Petersen, Edwin A. Goedhart, og Frank J. G. Backx. 2015. “The Preventive Effect of the Nordic Hamstring Exercise on Hamstring Injuries in Amateur Soccer Players: A Randomized Controlled Trial”. The American Journal of Sports Medicine 43 (6): 1316–23. <https://doi.org/10.1177/0363546515574057>.
 - Ramos, Gabriel Amorim, Gustavo Gonçalves Arliani, Diego Costa Astur, Alberto de Castro Pochini, Benno Ejnisman, og Moisés Cohen. 2016. “Rehabilitation of hamstring muscle injuries: a literature review”. Revista Brasileira de Ortopedia 52 (1): 11–16. https://doi.org/10.1016/j.rboe.2016.12.002.
 - Tsaklis, Panagiotis, Nikos Malliaropoulos, Jurdan Mendiguchia, Vasileios Korakakis, Kyriakos Tsapralis, Debasish Pyne, og Peter Malliaras. 2015. “Muscle and intensity based hamstring exercise classification in elite female track and field athletes: implications for exercise selection during rehabilitation”. Open Access Journal of Sports Medicine 6 (juni): 209–17. <https://doi.org/10.2147/OAJSM.S79189>.
-- [The Lost Art of Hamstring Training](https://www.t-nation.com/training/lost-art-of-hamstring-training)
+- [The Lost Art of Hamstring Training](https://www.t-nation.com/training/the-lost-art-of-hamstring-training/)
+</details>

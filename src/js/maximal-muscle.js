@@ -1,7 +1,6 @@
 let motionsplan = {}
 
 motionsplan.MaximalMuscle = function(h) {
-  var h;
 
   h = h = h / 100;
 
@@ -13,7 +12,7 @@ motionsplan.MaximalMuscle = function(h) {
     return (h * h) * 17;
   }
 
-  var publicAPI = {
+  let publicAPI = {
     getMaximalMuscleMass : getMaximalMuscleMass,
     getMaximalFFM : getMaximalFFM
 

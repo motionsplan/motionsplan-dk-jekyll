@@ -5,8 +5,8 @@ permalink: /kalorietabellen/
 last_modified_at: 2020-08-29T09:41:09Z
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1471193945509-9ad0617afabf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=190&q=80
-  teaser: https://images.unsplash.com/photo-1471193945509-9ad0617afabf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1471193945509-9ad0617afabf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=190&q=5
+  teaser: https://images.unsplash.com/photo-1471193945509-9ad0617afabf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Ernæring
@@ -16,7 +16,6 @@ tags:
   - fødevarer
   - kost
   - ernæring
-classes: wide
 faq:
   - question: "Hvor mange kalorier er der i mad?"
     answer: "Mængden af energi i mad kommer an på mængder, typer og tilberedning. Derfor kan du bruge vores søgbare kalorietabel til at finde mængden af kalorier i mad."

@@ -7,8 +7,22 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-[rel~=sponsored]:after {
+a[rel~=sponsored]:after {
   content: "*";
+}
+
+.btn[rel~=sponsored] {
+  @extend .btn--danger;
+}
+
+.btn--bmc {
+  background-color:hsl(51, 100%, 50%);
+}
+
+.btn--lead {
+  @extend .btn;
+  @extend .btn--large;
+  @extend .btn--danger;
 }
 
 body.layout--single {
@@ -24,6 +38,29 @@ body.layout--single {
     }
 }
 
+form.newsletter {
+  fieldset, legend {
+    margin: 0;
+    padding: 0;
+  }
+  fieldset {
+      padding: 1em !important;
+      background-color: hsl(51, 86%, 52%);
+
+      legend {
+        font-weight: bold;
+          float: left;
+          margin-bottom: .5em;
+          width: 100%;
+      }
+  }
+  input[type="submit"] {
+      @extend .btn;
+      @extend .btn--large;
+      @extend .btn--danger;
+  }
+}
+
 form.calculator {
     fieldset, legend {
         margin: 0;
@@ -31,7 +68,7 @@ form.calculator {
     }
     fieldset {
         padding: 1em !important;
-        background-color: #D8E4F8;
+        background-color: #AED6F1;
 
         fieldset {
             clear: both !important;
@@ -44,13 +81,17 @@ form.calculator {
 
         &.results {
             color: white !important;
-            background-color: #34557A !important;
+            background-color: #21618C !important;
 
             legend, label {
                 color: white !important;
             }
             .help-block, .help-inline {
                 color: #eee;
+            }
+
+            table thead tr, table thead, table thead th {
+              background-color: transparent !important;
             }
         }
 
@@ -286,7 +327,7 @@ meter::-webkit-meter-optimum-value {
 
 
 /* Grid view */
-.layout--single .page__content .grid__item {
+.layout--single:not(.wide) .page__content .grid__item, .layout--activity:not(.wide) .page__content .grid__item {
 
   @include breakpoint($medium) {
     margin-left: 0; /* override margin*/
@@ -308,4 +349,55 @@ meter::-webkit-meter-optimum-value {
       margin-left: gutter(1 of 12);
     }
   }
+}
+
+.youtube-container {
+  display: block;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 600px;
+}
+.youtube-player {
+  display: block;
+  width: 100%;
+  /* assuming that the video has a 16:9 ratio */
+
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  cursor: hand;
+  cursor: pointer;
+  display: block;
+}
+img.youtube-thumb {
+  bottom: 0;
+  display: block;
+  left: 0;
+  margin: auto;
+  max-width: 100%;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: auto
+}
+.play-button {
+  display: block;
+  height: 72px;
+  width: 72px;
+  left: 50%;
+  top: 50%;
+  margin-left: -36px;
+  margin-top: -36px;
+  position: absolute;
+  background: url("https://i.imgur.com/TxzC70f.png") no-repeat;
+}
+#youtube-iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }

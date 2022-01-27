@@ -4,10 +4,10 @@ toc: true
 author: jakob.nielsson
 title: Hvordan laver man et træningsprogram til styrketræning? 6 enkle trin!
 permalink: /programlaegning-styrketraening/
-seo_title: 6 trin til at lave dit eget træningsprogram til styrketræning »
+seo_title: 6 trin til at lave dit eget træningsprogram til styrketræning
 header:
-  overlay_image: https://images.unsplash.com/photo-1586205208101-b9da5ef6120d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80
-  teaser: https://images.unsplash.com/photo-1586205208101-b9da5ef6120d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1586205208101-b9da5ef6120d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1586205208101-b9da5ef6120d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: Hvordan laver man et styrketræningsprogram? 6 enkle trin!
 language: da
 description: Her får du 6 enkle trin til selv at lave dit styrketræningsprogram,
@@ -16,7 +16,7 @@ category:
   - Styrketræning
 tags:
   - programlægning
-  - træningsprogram
+  - styrketræning
 ---
 I denne artikel vil jeg forklare og demonstrere min fremgangsmåde til, hvordan du kan lave dit eget styrketræningsprogram. Metoden gør dig i stand til at lave styrketræningsprogrammer, så du selv kan lave gode programmer der passer til netop dig.
 
@@ -38,7 +38,7 @@ Til at starte med arbejder vi ud fra muskelgrupper og bevægelsesmønstre. Et ek
 
 Hvis man arbejder med mange enkelte muskler skal man være opmærksom på overlap, fx træner bænkpres både bryst, triceps og forskulder. Ofte tænker man i praksis i en kombination af muskelgrupper og bevægelsesmønstre.
 
-Helt grundlæggende så vælger vi hvilke muskelgrupper, løft eller bevægelsesmønstre vi vil prøve at **forbedre**, og hvilke løft vi bare vil **vedligeholde**. 
+Helt grundlæggende så vælger vi hvilke muskelgrupper, løft eller bevægelsesmønstre vi vil prøve at **forbedre**, og hvilke løft vi bare vil **vedligeholde**.
 
 Det kan være man vil prøve at forbedre alt på samme tid. Det kan man som regel sagtens hvis man er begynder, eller man har god tid og få stressfaktorer i ens liv.
 
@@ -59,7 +59,7 @@ Følgende tabel giver et bud på rammerne man bør arbejde inden for per muskelg
 | Sæt pr. træningspas     | 3-8        | 2-4         |
 | Øvelser pr. træningspas | 1-2        | 1           |
 
-Det er meget grove tal, og rimelig store spænd. Hvor man ligger er afhængig af mange ting. 
+Det er meget grove tal, og rimelig store spænd. Hvor man ligger er afhængig af mange ting.
 
 Følgende er eksempler på nogle aspekter, der trækker i den ene eller anden retning ift. hvor meget volumen, du har gavn af i din træning.
 
@@ -79,7 +79,7 @@ Er man helt i tvivl er det et godt sted at starte at tage 8 sæt om ugen til en 
 
 Træner du efter specifikke løft giver øvelsesvalget langt hed ad vejen sig selv; Hvis du eksempelvis gerne vil forbedre dit squat bør du selvfølgelig vælge squat. Du kan evt. supplere med øvelser der ligner eller støtter dit primære løft.
 
-Træner du efter almen styrke bør du primært vælge de store flerleds- frivægtsøvelser, som squat, dødløft, kropshævninger/lat pulldown og stående skulderpres, for de bedste resultater. 
+Træner du efter almen styrke bør du primært vælge de store flerleds- frivægtsøvelser, som squat, dødløft, kropshævninger/lat pulldown og stående skulderpres, for de bedste resultater.
 Træner du efter hypertrofi er øvelsesvalget meget fleksibelt, så længe øvelserne du vælger er nogle som du føler rammer musklen/musklerne du prøver at træne. I praksis vil man dog også her oftest have en overvægt af de store løft.
 
 ## 4) Fordel træningen ud over ugen
@@ -92,17 +92,17 @@ Senere i artiklen giver jeg et håndgribeligt overblik over hvordan denne proces
 
 ## 5) Beslut programmets længde
 
-Som udgangspunkt er det mest optimale at træne hårdt og progressivt i en bestemt periode, hvorefter man tager en kortere restitutionsfase, inden man begynder på hård træning igen. 
+Som udgangspunkt er det mest optimale at træne hårdt og progressivt i en bestemt periode, hvorefter man tager en kortere restitutionsfase, inden man begynder på hård træning igen.
 
 Flere ting kan spille ind i hvor længe man vil køre den hårde træning, som man oftest beregner i antal uger. Er man ikke så stærk og træner man ikke så hårdt kan man have en længere træningsfase (op til 8-10 uger).
 
-Er man rigtig stærk og presser sig selv til det yderste må træningsfasen være meget kortere. Oftest træner man 3-6 uger progressivt inden man tager en deload uge, og 4 er nok det mest almindelige og et rigtig godt sted at starte. 
+Er man rigtig stærk og presser sig selv til det yderste må træningsfasen være meget kortere. Oftest træner man 3-6 uger progressivt inden man tager en deload uge, og 4 er nok det mest almindelige og et rigtig godt sted at starte.
 
 Det er klogt at være praktisk og realistisk når man planlægger længden af sine programmer. Ved man at man skal være væk hjemmefra i uge 15, og man starter et program i uge 10, så er det meget nærliggende at planlægge sit program sådan at det varer 5 uger, og så kan restitutionsfasen (hvor man ikke træner særlig meget) ligge i den uge man er væk.
 
-Restitutionsfasen varer ofte én uge, og kaldes en deload-uge. Deload ugen tjener mange formål, jeg vil komme ind på to af dem her. 
+Restitutionsfasen varer ofte én uge, og kaldes en deload-uge. Deload ugen tjener mange formål, jeg vil komme ind på to af dem her.
 
-Det ene, og mest åbenlyse formål er at man får restitueret. Muskler heler hurtigt, men sener og led kan have opbygget flere mikrotraumer i løbet af ugerne uden, at man nødvendigvis kan mærke det. I deload ugen kan de “indhente” og endelig hele igennem, hvorved risiko for overbelastning og skader reduceres. Desuden kan superkompensation finde sted på et højere plan hvis man har opbygget generel træthed i løbet af sit program.
+Det ene, og mest åbenlyse formål er at man får restitueret. Muskler heler hurtigt, men sener og led kan have opbygget flere mikrotraumer i løbet af ugerne uden, at man nødvendigvis kan mærke det. I deload ugen kan de “indhente” og endelig hele igennem, hvorved risiko for overbelastning og skader reduceres. Desuden kan [superkompensation](/superkompensation/) finde sted på et højere plan hvis man har opbygget generel træthed i løbet af sit program.
 
 Det andet formål er at man bliver mere sensitiv overfor træningsstimuli igen. Som det bliver forklaret i næste afsnit skal man træne mere og mere/hårdere og hårdere for at have fremgang, og det er selvfølgelig uholdbart at forøge volumen i det uendelige.
 
@@ -192,7 +192,7 @@ Når du gerne vil lave et styrketræningsprogram, så kan du altså følge disse
 1. Gennemgå muskelgrupper/løft/bevægelsesmønstre og beslut dig for om de skal være på vedligehold eller forbedring.
 2. Beslut derfra total antal sæt og frekvens.
 3. Vælg øvelser.
-4. Fordel øvelserne ud over ugen efter hvad der er mest praktisk. 
+4. Fordel øvelserne ud over ugen efter hvad der er mest praktisk.
 5. Beslut programmets længde.
 6. Vælg en progressionsmodel for hver øvelse og fordel sættene ud på øvelserne.
 
@@ -202,7 +202,7 @@ Lad os kigge på et eksempel, hvor du kan følge med i hele processen skridt for
 
 David er 22 år og vejer 80 kg. Han har trænet kropshævninger i lang tid inden han rigtig begyndte at løfte jern og har derfor en ret muskuløs ryg, og han er naturligt stærk i dødløft. Så de to ting vil han gerne bare vedligeholde indtil videre.
 
-Han vil gerne få større quads (forlår) og squatte mere. Han er ikke vant til at tage særlig mange sæt til ben. Han vil også gerne få et højere bænkpres. Han er vant til at træne bryst rimelig meget, men hans teknik i bænkpres er ret ustabil. 
+Han vil gerne få større quads (forlår) og squatte mere. Han er ikke vant til at tage særlig mange sæt til ben. Han vil også gerne få et højere bænkpres. Han er vant til at træne bryst rimelig meget, men hans teknik i bænkpres er ret ustabil.
 
 Så vælger vi helt grundlæggende ud fra ovenstående anbefalede parametre at han skal:
 
@@ -216,7 +216,7 @@ Vi kunne også have lavet almindeligt squat to gange om ugen i stedet for front 
 | ------ | ------- | ------------ | ------- | ------ | ------ | ------ |
 | SQ     |         | Split squats |         | FSQ    |        |        |
 
-Så laver vi en progressionsplan for hver øvelse. I SQ kører vi en single progression med vægt - det er et stort løft hvor vi forventer rimelig hurtig fremgang, så det kan vi godt, især hvis vi starter lidt lavt i uge 1. I split squats ved vi ikke helt hvad David kan, så vi siger han skal holde sig inden for 15-20 gentagelser per sæt, og øge vægten når han kan tage 20 gentagelser i alle sæt. 
+Så laver vi en progressionsplan for hver øvelse. I SQ kører vi en single progression med vægt - det er et stort løft hvor vi forventer rimelig hurtig fremgang, så det kan vi godt, især hvis vi starter lidt lavt i uge 1. I split squats ved vi ikke helt hvad David kan, så vi siger han skal holde sig inden for 15-20 gentagelser per sæt, og øge vægten når han kan tage 20 gentagelser i alle sæt.
 
 I front squat er David ikke særlig stærk på grund af hans små quads, så vi laver en double progression der, så han kun skal forøge vægten hver anden uge. Fordi vi virkelig presser præstationen opad i SQ holder vi antal sæt fast der, og forøger antal sæt i de to andre øvelser gradvist henover de fire uger, for at sikre at den samlede stimulus forbliver høj nok til at stimulere fremgang.
 

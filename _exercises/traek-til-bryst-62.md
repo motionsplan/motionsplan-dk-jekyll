@@ -1,5 +1,7 @@
 ---
-title: &title "Pulldown: Træk til bryst"
+title: "Pulldown: Træk til bryst"
+seo_title: "Lat pulldown: Træk til bryst i kabelmaskine"
+excerpt: "Pulldown er flerledsøvelse, som er i kategorien for vertikale trækøvelser. Pulldown træner primært den brede rygmuskel (latissimus dorsi), men den øvre del af ryggen (trapezius) og armbøjerne (bl.a. biceps) bliver også trænet."
 instructions: "Sæt dig i pulldown maskinen med neutral ryg og naturligt lændesvaj. Grib stangen med dit ønskede greb. Træk stangen ned til brystet. Kontrolleret tilbage til udgangspositionen."
 permalink: /oevelse/pulldown-traek-til-bryst/
 redirect_from:
@@ -7,11 +9,10 @@ redirect_from:
   - /oevelse/traek-til-bryst/
   - /node/62
 id: 62
+key: 20210819092600
 language: da
 header:
-  overlay_image: /assets/images/exercises/traek-til-bryst-0.jpg
   teaser: /assets/images/exercises/traek-til-bryst-0-320.jpg
-  caption: *title
 tags:
   - Styrketræning
   - træk lodret
@@ -20,10 +21,10 @@ tags:
   - Skuldre
   - Øvre ryg
   - fitnessinstruktør
-categories:
-training_type: 
+categories: []
+training_type:
   - Styrketræning
-training_focus: 
+training_focus:
   - træk lodret
 equipment:
   - maskine
@@ -47,33 +48,42 @@ gallery_greb:
     image_path: https://apuls.dk/img/900/900/resize/3/5/350200070_1.jpg
     alt: "Greb til Pull down og træk til bryst"
     title: "Greb til Pull down og træk til bryst"
+    rel: sponsored nofollow noopener
   - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/traeningsudstyr/greb/odin-lat-bar-traekstang-kort-greb-skovlgreb-28
     image_path: https://apuls.dk/img/900/900/resize/B/T/BT15628inc_1.jpg
     alt: "Bredt skovlgreb til pulldown og træk til bryst"
     title: "Bredt skovlgreb til pulldown og træk til bryst"
+    rel: sponsored nofollow noopener
   - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/traeningsudstyr/greb/odin-multi-purpose-v-bar-greb-bloed-gummi-haandtag-let-vinkel
     image_path: https://apuls.dk/img/900/900/resize/B/T/BT141_1.gif
     alt: "Multi purpose V greb til pull down og træk til bryst"
     title: "Multi purpose V greb til pull down og træk til bryst"
+    rel: sponsored nofollow noopener
   - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/traeningsudstyr/greb/odin-enhaands-kabelgreb-krom-trapez
     image_path: https://apuls.dk/img/900/900/resize/B/T/BT127_1.jpg
     alt: "Ethåndshåndtag til Pull down og træk til bryst"
     title: "Ethåndshåndtag til Pull down og træk til bryst"
+    rel: sponsored nofollow noopener
   - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/traeningsudstyr/greb/odin-seated-row-greb-lille-vinkel
     image_path: https://apuls.dk/img/900/900/resize/B/T/BT159_1.gif
     alt: "V-håndtag til Pull down og træk til bryst"
     title: "V-håndtag til Pull down og træk til bryst"
+    rel: sponsored nofollow noopener
   - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/traeningsudstyr/greb/finnlo-multigreb
     image_path: https://apuls.dk/img/900/900/resize/4/6/46961_1.jpg
     alt: "Multipurpose Pull down og træk til bryst"
     title: "Multipurpose til Pull down og træk til bryst"
+    rel: sponsored nofollow noopener
 video:
   provider: youtube
   id: Zxh8DNcRq50
-last_modified_at: 2020-07-06T19:22:35Z
+last_modified_at: 2021-07-06T19:22:35Z
+faq:
+  - question: "Hvad træner lat pulldown?"
+    answer: "Lat pulldown er en flerledsøvelse, hvor skulderen og albueleddet arbejder. Deter en vertikal trækøvelse, som primært træner latissimus dorsi (den brede rygmuskel), og derfor hedder den også lat pull down. Men kappemusklen (Trapezius) og armbøjerne er også i høj grad med i bevægelsen."
 ---
 
-Træk til bryst eller på engelsk pull down i maskine er en god rygøvelse. Pull down kan være en god forøvelse til pullups og chinups og til meget præcist at ramme den brede rygmuskel.
+Træk til bryst eller på engelsk lat pull down i maskine er en god rygøvelse. Pull down kan være en god forøvelse til pullups og chinups og til meget præcist at ramme den brede rygmuskel.
 
 Pulldown er flerledsøvelse, som er i kategorien for vertikale trækøvelser. Pulldown træner primært den brede rygmuskel (latissimus dorsi), men den øvre del af ryggen (trapezius) og armbøjerne (bl.a. biceps) bliver også trænet.
 
@@ -133,12 +143,16 @@ Samlet set så har et medium greb formentlig en mindre fordel i forhold til musk
 
 Der findes et hav af forskellige greb, du kan bruge til pulldowns. Det mest typiske er en lige eller letbøjet stang, men mulighederne for greb til pulldown er mange:
 
-{% include gallery id="gallery_greb" caption="[Apuls](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187) har en lang række greb til pulldown" %}
+{% include gallery id="gallery_greb" caption="[Apuls](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187){: rel='sponsored nofollow noopener' } har en lang række greb til pulldown" %}
 
-- **Smalt underhåndsgreb**. Minder om chinups og har mere fokus på biceps end hvis du holder med et overhåndsgreb, som mere ligner pullups. 
-- **Smalt neutralt greb**. Minder om chinups med neutralt greb. Håndfladerne vender mod hinanden. Du kan bruge et todelt håndtag eller et V-håndtag. 
-- **Medium neutralt greb**. Hvis du har adgang til et kabelhåndtag, som giver dig mulighed for at holde et lidt bredere neutralt greb, så har du en stærk position, hvor du også kan flytte noget vægt. 
+- **Smalt underhåndsgreb**. Minder om chinups og har mere fokus på biceps end hvis du holder med et overhåndsgreb, som mere ligner pullups.
+- **Smalt neutralt greb**. Minder om chinups med neutralt greb. Håndfladerne vender mod hinanden. Du kan bruge et todelt håndtag eller et V-håndtag.
+- **Medium neutralt greb**. Hvis du har adgang til et kabelhåndtag, som giver dig mulighed for at holde et lidt bredere neutralt greb, så har du en stærk position, hvor du også kan flytte noget vægt.
 - **Pulldown med en arm**. Det kan være godt at arbejde med en arm ad gangen for at arbejde med balance i styrken.
 - **Knælende pulldown**. Jeg kan godt lide at lave ting knælende enten med begge knæ i jorden eller et knæ op. Du kan altså sagtens træne pulldowns også uden en pulldown maskine.
 
 Et andet alternativ til at træne nogenlunde det samme er også at lave [kropshævninger, pullups og chinups]({% link _posts/2020-06-30-pullup-chinup.md %}) eller andre [variationer af rows]({% link _posts/2020-07-06-rows.md %}).
+
+## Ofte stillede spørgsmål om lat pulldown
+
+{% include faq.html %}

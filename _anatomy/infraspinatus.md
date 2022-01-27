@@ -1,6 +1,7 @@
 ---
 title: "Infraspinatus"
-excerpt: ""
+seo_title: "Infraspinatus | Muskler"
+excerpt: "Infraspinatus en del af rotatorcuffen som stabiliserer skulderleddet. Samtidig udadroterer infrapinatus armen i skulderleddet og hjælper med at føre armen bagud."
 joint:
   - Skulderleddet
 group:
@@ -11,10 +12,12 @@ name:
 tags:
   - imagemap
   - muskel
-origin: 
-  da: 
-insertion: 
-  da: 
+categories:
+  - Muskler
+origin:
+  da:
+insertion:
+  da:
 function:
   da:
     - short: Udadrotation i skulderleddet
@@ -28,6 +31,8 @@ coords:
   - "414,110,427,101,431,106,432,118,435,129,420,119"
   - "489,97,503,105,484,129,479,128,483,106"
 ---
+
+{{ page.name.da | capitalize }} hedder på latin *{{ page.name.latin | downcase }}*. Musklen laver {% for f in page.function.da %}{% if forloop.last == true and page.function.da.size > 1 %} og {% endif %}{{ f.short | downcase  }}{% if forloop.last == false and page.function.da.size > 1 %}, {% endif %}{% endfor %}. Musklen er en del af {{ page.functional_group | join: ", " | downcase }}.
 
 Infraspinatus en del af rotatorcuffen som stabiliserer skulderleddet. Samtidig udadroterer infrapinatus armen i skulderleddet og hjælper med at føre armen bagud.
 

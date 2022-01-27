@@ -1,5 +1,5 @@
 ---
-title: &title "Balance på bold, stående"
+title: "Balance på bold, stående"
 excerpt: "På en stor træningsbold, skal du forsøge at komme op og stå og holde balancen."
 instructions: "På en stor træningsbold, skal du forsøge at komme op og stå og holde balancen."
 permalink: /oevelse/balance-paa-bold-staaende/
@@ -7,15 +7,14 @@ redirect_from: /node/308
 id: 308
 language: da
 header:
-  overlay_image: /assets/images/exercises/balance-paa-bold-staaende-0.jpg
   teaser: /assets/images/exercises/balance-paa-bold-staaende-0-320.jpg
-  caption: *title
 tags:
   - swissball
   - Core
 categories:
-training_type: 
-training_focus: 
+  - Balanceøvelser
+training_type: []
+training_focus: []
 equipment:
   - swissball
 muscle_group:
@@ -32,8 +31,7 @@ gallery:
 last_modified_at: 2013-04-26T20:01:05Z
 ---
 
-Start med begge hænder på bolden, hold derefter balancen mens den ene fod og modsatte knæ placeres på bolden. 
---------------------------------------------------------------------------------------------------------------
+Start med begge hænder på bolden, hold derefter balancen mens den ene fod og modsatte knæ placeres på bolden.
 
 Nu løftes knæet fra bolden og foden fra samme ben placeres på bolden som vist på billede 1.
 

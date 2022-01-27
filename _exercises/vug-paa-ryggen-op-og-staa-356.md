@@ -1,5 +1,5 @@
 ---
-title: &title "Vug på ryggen, op og stå"
+title: "Vug på ryggen, op og stå"
 excerpt: "Sæt dig ned, vug tilbage, frem igen og stil dig op. Der må ikke bruges hænder på gulvet til at komme op og stå igen."
 instructions: "Sæt dig ned, vug tilbage, frem igen og stil dig op. Der må ikke bruges hænder på gulvet til at komme op og stå igen."
 permalink: /oevelse/vug-paa-ryggen-op-og-staa/
@@ -9,13 +9,14 @@ language: da
 tags:
   - kropsstamme
   - måtte
-categories:
+  - mats mejdevi
+categories: []
 training_type: 
 training_focus: 
   - kropsstamme
 equipment:
   - måtte
-muscle_group:
+muscle_group: []
 gallery:
 last_modified_at: 2011-10-31T13:19:38Z
 ---

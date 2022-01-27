@@ -7,12 +7,13 @@ header:
   teaser: https://fitforce.typepad.com/.a/6a0128777776d5970c017ee64035b2970d-pi
   caption: *title
 category:
-  - Spring
   - Eksplosivitet
+  - Springtræning
 tags:
   - test
   - springtest
-last_modified_at: 2019-11-19T23:14:14Z
+  - spring
+last_modified_at: 2011-11-19T23:14:14Z
 toc: true
 ---
 
@@ -20,9 +21,19 @@ Jump & Reach test er en god springtest, som både måler springhøjde og rækkeh
 
 Jump & Reach testen er en relativt enkel test at sætte op, men koordinationen med at skulle række op med en arm har naturligvis betydning for resultatet.
 
-Du kan læse meget mere om [Jump and Reach-testen hos Science for Sport](https://www.scienceforsport.com/vertec-jump-test/).
+[Sargent Jump Testen](/sargent-jump-test/) er en lavpraktisk og gratis måde at lave Jump & Reach-testen på. I dette indlæg forudsætter vi, at du har adgang til en Vertec. Jump & Reach testen er bare en [hoppetest](/springtests-hoppehoejde/).
+
+Du kan læse meget mere om Jump and Reach-testen hos [Science for Sport](https://www.scienceforsport.com/vertec-jump-test/).
 
 {% include video provider="youtube" id="85EtdsmFCoY" %}
+
+## Brug en Vertec til målingen
+
+En Vertec er en lang stang, som har en masse horisontale flade og lange plader, der kan rotere omkring stangen. Først skal du måle din rækkevidde. Derefter måler man springhøjden ved at se, hvor mange plader du kan skubbe til side. 
+
+Det er sjovt at bruge en Vertec, og den kan give hurtige og præcise resultater, når den bliver brugt rigtigt.
+
+Ulempen er, at man godt kan snyde med sin rækkehøjde, hvilket gør at man får et højere resultat. En god Vertec er heller ikke billig. Den vil formentlig koste omkring 650 USD. Derfor er det nok de færreste, der vil købe en derhjemme. Men så kan du naturligvis lave dit eget lille [DIY-projekt](https://www.youtube.com/watch?v=j0pZ75N970A).
 
 ## Sådan udfører du Jump & Reach-testen
 
@@ -44,9 +55,29 @@ Du kan se instruktioner til Jump & Reach-testen i nedenstående video.
 
 ## Udregn power på baggrund af Jump & Reach
 
-{% include calculate-jump-reach-power.html %}
+{% include calculate-vertical-jump-power.html %}
 
-## Formler brugt til at udregne power?
+## Kan power udregnes?
+
+I tests med vertikale hop, så bliver distancen ofte kun rapporteret. Dette fortæller imidlertid ikke den fulde historie. En tungere person der hopper den samme højde som en lettere person, skal udvikle meget mere kraft for at bevæge den større kropsvægt. Derfor kan det sommetider være interessant at få et mål for _power_ eller arbejde.
+
+Det mekaniske arbejde for at hoppe kan bestemmes med med hoppehøjden.
+
+    Arbejde = Force x Distance
+
+Hvor
+
+    Force = Mass x Acceleration
+
+Power kan imidlertid ikke udregnes:
+
+    Power = Work / time
+
+Vi kender nemlig ikke tiden, hvor kraften reagerede på kropsvægten.
+
+Hvis vi har en kraftplatform, så kan vi måle kraften direkte. Vi har imidlertid ikke altid en kraftplatform til rådighed. Der er i stedet lavet formler til at estimere _force_ fra målinger af vertikale hop. Disse formler er mere eller mindre præcise. Du vil også se, at du får relativt forskellige resultater alt efter, hvilken formel du bruger til at estimere kraften.
+
+## Formler brugt til at udregne power fra hoppehøjde?
 
 Du kan finde formlerne til at udregne power fra hoppehøjder hos [www.topendsports.com](https://www.topendsports.com/testing/vertical-jump-power.htm) og i [Sayers et al (1999)](https://journals.lww.com/acsm-msse/Fulltext/1999/04000/Cross_validation_of_three_jump_power_equations.13.aspx).
 
@@ -54,10 +85,20 @@ Formlerne er så vidt jeg kan se primært skabt på baggrund af hhv. [squat jump
 
 Den mest brugte formel ser ud til at være Harman (1991), men den nyere formel fra [Sayers et al (1999)](https://journals.lww.com/acsm-msse/Fulltext/1999/04000/Cross_validation_of_three_jump_power_equations.13.aspx), hvor de sammenlignede Lewis (1974), Harman (1991) og lavede deres egne formler fandt de, at **[Sayers et al (1999)](https://journals.lww.com/acsm-msse/Fulltext/1999/04000/Cross_validation_of_three_jump_power_equations.13.aspx) egne formler var de mest præcise til at estimere _peak power_**.
 
+## Hvordan kan jeg springe højere med tilløb?
+
+Hvis du sørger for en god teknik, så kan du springe højere med tilløb. Se fx de gode råd i denne Youtube-video.
+
+{% include video provider="youtube" id="51yEI3snWmI" %}
+
+Det er også godt at tænke på, hvilken strategi du bruger i luften for at manipulere dit tyngdepunkt. Hvis du sørger for at have så meget af kroppen nede, så kan du springe højere.
+
+{% include video provider="youtube" id="KNtoP1P2dUA" %}
+
 <details markdown="1">
   <summary>Se Lewis (1974) formler</summary>
 
-{% include math formula="Power (kg*m*^-1 = \sqrt{4.9} * body mass (kg) * \sqrt{jump-and-reach score (m)}" %}
+{% include math formula="Average power (kg*m*^-1 = \sqrt{4.9} * body mass (kg) * \sqrt{jump-and-reach score (m)}" %}
 
 For at få værdien i watt, så skal Power ganges med 9,81, som er tyngdekraften.
 
@@ -69,7 +110,7 @@ For at få værdien i watt, så skal Power ganges med 9,81, som er tyngdekraften
 
 Peak Power (W) = 61.9 * jump height (cm) + 36 * body mass (kg) - 1822
 
-I den oprindelige reference står der **+ 1822**, en i [Sayers et al (1999)](https://journals.lww.com/acsm-msse/Fulltext/1999/04000/Cross_validation_of_three_jump_power_equations.13.aspx) hvor Harman er co-author, står formlen opgivet til **- 1822**, hvilket får værdierne til at passe meget bedre med de andre formler.
+I den oprindelige reference står der **+ 1822**, men i [Sayers et al (1999)](https://journals.lww.com/acsm-msse/Fulltext/1999/04000/Cross_validation_of_three_jump_power_equations.13.aspx), hvor Harman er co-author, står formlen opgivet til **- 1822**, hvilket får værdierne til at passe meget bedre med de andre formler.
 
 [Sayers et al (1999)](https://journals.lww.com/acsm-msse/Fulltext/1999/04000/Cross_validation_of_three_jump_power_equations.13.aspx) fandet at Peak Power blev underestimeret med 6,7-9,9% alt efter om de brugte data fra et CMJ eller et SJ-jump.
 </details>

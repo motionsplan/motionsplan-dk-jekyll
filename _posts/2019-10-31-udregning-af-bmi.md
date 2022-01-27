@@ -1,6 +1,6 @@
 ---
 title: "Udregn BMI: Formel og beregner for kvinder, mænd og børn"
-seo_title: "BMI-beregner - BMI for kvinder, mænd, teenager og børn »"
+seo_title: "BMI-beregner - BMI for kvinder, mænd, teenager og børn"
 # Udregn BMI: Måler og beregner for kvinder, mænd og børn
 # Better than: BMI - Tabel og skema for kvinder, mænd og børn [Beregner] »
 description: "BMI tabel og skema for børn, teenagere, kvinder og mænd ✓ Body Mass Index formel og måler ✓ GRATIS nøjagtig beregner ✓ Forstå alle detaljerne i dag!"
@@ -20,6 +20,7 @@ tags:
   - formel
   - featured
   - beregner
+popular: true
 last_modified_at: 2021-01-06T22:14:14Z
 faq:
   - question: "Hvad skal kvinders BMI være?"
@@ -174,7 +175,7 @@ BMI forbundet med den laveste risiko for at dø i Danmark er altså i perioden s
 
 Det er væsentligt at påpege, at der er store variationer for den enkelte i forhold til, om man lige nøjagtigt rammer det optimale BMI. Om BMI går et par stykker op eller ned betyder ikke så meget, men i forhold til helbredet og at leve længe, så kan man altså med fordel være tæt på kategorien overvægtig ud fra de nuværende klassifikationer.
 
-På baggrund af dette siger [Morten Zacho, at plus-minus seks kilo ikke betyder noget](https://www.dr.dk/levnu/krop/du-skal-veje-mere-end-du-tror), selvom BMI svinger.
+På baggrund af dette siger [Morten Zacho, at plus-minus seks kg ikke betyder noget](https://www.dr.dk/levnu/krop/du-skal-veje-mere-end-du-tror), selvom BMI svinger.
 
 > Så der er altså ret stor spændvidde. Vi skal derfor have bredere rammer for, hvad man kan veje og stadig blive betragtet som sund og rask.
 
@@ -280,7 +281,7 @@ Drop BMI og overvægt som indikator for, om din krop er sund eller ej. Måleenhe
 >
 > Ernæringsekspert Martin Kreutzer er enig i, at BMI ikke er meget værd. I stedet mener han, at man skal have fat i sit målebånd.
 >
-> - Jeg vil klart anbefale, at man i stedet bruger sit taljemål som indikator for ens sundhed. Ligger det over 88 cm for kvinder og 102 cm for mænd, så indikerer det en helbredsskadelig fedtophobning i maveregionen, hvilket øger risikoen for sygdomsfremkaldende inflammation i kroppen, siger Martin Kreutzer.
+> > Jeg vil klart anbefale, at man i stedet bruger sit taljemål som indikator for ens sundhed. Ligger det over 88 cm for kvinder og 102 cm for mænd, så indikerer det en helbredsskadelig fedtophobning i maveregionen, hvilket øger risikoen for sygdomsfremkaldende inflammation i kroppen, siger Martin Kreutzer.
 
 --- <cite>[iform.dk](https://iform.dk/sundhed/forebyggelse/bmi-siger-intet-om-din-sundhed)</cite>
 

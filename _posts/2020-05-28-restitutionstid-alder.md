@@ -1,15 +1,15 @@
 ---
 title: &title "Restitution og restitutionstid: Hvornår kan jeg træne igen?"
 seo_title: "Restitution: Hvordan bliver jeg hurtigst klar til træning?"
-excerpt: "Jeg kan godt lide at træne, men jeg vil stadig gerne gøre det så effektivt som muligt, så jeg også tager højde for restitutionstiden. Hvis jeg gerne vil bygge kroppen op, skal jeg finde en balance mellem træningen og restitutionen. Defor tænker jeg over, hvordan jeg planlægger min træning i forhold til min alder."
+excerpt: "Jeg kan godt lide at træne, men jeg vil stadig gerne gøre det så effektivt som muligt, så jeg også tager højde for restitutionstiden. Hvis jeg gerne vil bygge kroppen op, skal jeg finde en balance mellem træningen og restitution. Defor tænker jeg over, hvordan jeg planlægger min træning i forhold til min alder."
 permalink: /restitutionstid-og-alder/
 redirect_from:
   - /artikel/restitution-hvordan-bliver-jeg-hurtigst-klar-igen/
   - /artikel/restition-hvordan-bliver-jeg-hurtigst-klar-igen
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1470777639313-60af88918203?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
-  teaser: https://images.unsplash.com/photo-1470777639313-60af88918203?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1470777639313-60af88918203?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1470777639313-60af88918203?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
   alt: "Photo by Cris Saur on Unsplash"
 category:
@@ -19,6 +19,7 @@ category:
 tags:
   - restitution
   - begynder
+  - løb
 last_modified_at: 2020-05-28T08:14:14Z
 toc: true
 ---
@@ -44,7 +45,7 @@ Formålet med restitutionen er, at give kroppen hvile, så den prioriterer at op
 
 Det er nemlig sådan, at du **nedbryder kroppen under træning**. Du bliver faktisk svagere ved at træne. Heldigvis genopbygger kroppen sig selv, så den bliver stærkere og mere modstandsdygtig efter træningen. **Det er i pausen mellem træningspas, at du forbedrer dig**. Derfor er en tilstrækkelig restitution mellem træningspas vigtigt for at fortsætte din udvikling.
 
-At kroppen i restitutionsfasen bygger sig stærkere end udgangsniveauet inden træningen, kan vi forstå med **superkompensationsteorien**. Superkompensationsteorien er en model på kroppens evne til at tilpasse sig til træning, som kan give en bedre forståelse af restitutionen.
+At kroppen i restitutionsfasen bygger sig stærkere end udgangsniveauet inden træningen, kan vi forstå med **superkompensationsteorien**. [Superkompensationsteorien](/superkompensation/) er en model på kroppens evne til at tilpasse sig til træning, som kan give en bedre forståelse af restitutionen.
 
 Hvis restitutionen mellem dine træningspas bliver for kort, vil du starte før kroppen er blevet genopbygget. Hvis du venter for længe mellem træningspassene, så risikerer du, at du også at din krop er blevet svagere.
 
@@ -52,7 +53,7 @@ Hvis du rammer din næste træning, når kroppen lige netop har bygget sig stær
 
 Superkompensation er direkte relateret til kroppens adaptationsevne. I nedenstående figur kan vi tage muskelstyrke som et eksempel. Du går i vægtlokalet og træningen bryder dig langsomt men sikkert ned. Så går du ud af vægtlokalet, og så begynder restitutionsfasen.
 
-Langsomt vil du du blive stærkere indtil du er oppe på samme niveau som før træningen, men kroppen er ikke helt tilfreds endnu. Den tilpasser sig endnu mere, og du rammer superkompensationsfasen.
+Langsomt vil du blive stærkere indtil du er oppe på samme niveau som før træningen, men kroppen er ikke helt tilfreds endnu. Den tilpasser sig endnu mere, og du rammer superkompensationsfasen.
 
 {% include figure image_path="https://miro.medium.com/max/2702/0*usKRMQYeTe97f6cE.jpg" caption="Superkompensation foregår når kroppen genopbygger sig til et højere niveau end seneste træning" alt="Superkompensation og teori" %}
 
@@ -147,20 +148,20 @@ Hvis du gerne vil træne meget, så vil du gerne forkorte restitutionstiden, så
 
 Helt grundlæggende kan du forbedre restitutionstiden og blive hurtigere klar til næste træning ved at **få rigeligt med søvn og hvile** og **spise og drikke de rigtige ting**. Hvis du har styr på de to ting af din træning, så vil du meget hurtigere få resultater.
 
-- **Søvn og hvile**. Få en nogenlunde jævn døgnrytme, hvor du går i seng på samme tid hver dag og står op på samme tid. Sørg for mindst 8 timers søvn. Sov i et helt mørkt værelse.
+- **Søvn og hvile**. Få en nogenlunde [jævn døgnrytme og søvnrytme](/soevn/), hvor du går får færdiggjort dine søvncyklusser. Sov i et helt mørkt værelse.
 - **Ernæring**. Sørg for at få rigeligt at spise. Baser kosten på grove grøntsager, grove kulhydrater, proteinholde fødevarer, og så er du 90 procent ad vejen.
 
 Ud over de helt grundlæggende forudsætninger for at forbedre restitutionen, så arbejder folk også med følgende.
 
 - **Aktiv hvile**. Aktiv hvile arbejder du med relativt lav intensitet i fx 10-20 minutter. Det kan være med til at forbedre restitutionsprocesserne.
-- **Udspænding** Tilsyneladende virker udspænding ikke på restitutionstiden - og udspænding [forhindrer heller ikke andendagsømhed](/artikel/du-bliver-smidigere-af-straekke). Til gengæld hjælper det på _range of motion_ og bevægeligheden.
-- **Kompressiontøj** Noget tyder på at kompressionstøj kan være med til at forbedre restitutionen, hvis du beholder det på efter træningen - i hvert fald i 30 minutter. Jeg har tidligere skrevet lidt om [kompressionsstrømper](/artikel/kompressionsstroemper-en-god-ide).
-- **Cold Water Immersion (CWI)**. Træning nedbryder kroppen og laver små mikroskader. Ideen med kryoterapi er at kulde skal være med til at booste helingsprocessen. Den mest brugte metode er _Cold Water Immersion (CWI)_, hvor du sænker hele kroppen ned i vand. Noget tyder på at [kolde afvaskninger måske kan hjælpe på restitutionstiden](/artikel/kolde-afvaskninger-er-det-god-restitution). Det kræver imidlertid den rigtige vandtemperatur, som ifølge Versey et al. (2013) kunne ligge mellem 10 og 15 grader.
+- **Udspænding** Tilsyneladende virker udspænding ikke på restitutionstiden - og udspænding [forhindrer heller ikke andendagsømhed](/udstraekning-udspaending/). Til gengæld hjælper det på _range of motion_ og bevægeligheden.
+- **Kompressiontøj** Noget tyder på at kompressionstøj kan være med til at forbedre restitutionen, hvis du beholder det på efter træningen - i hvert fald i 30 minutter. Jeg har tidligere skrevet lidt om [kompressionsstrømper](/kompressionsstroemper-restitution-praestation-bivirkninger/).
+- **Cold Water Immersion (CWI)**. Træning nedbryder kroppen og laver små mikroskader. Ideen med kryoterapi er at kulde skal være med til at booste helingsprocessen. Den mest brugte metode er _Cold Water Immersion (CWI)_, hvor du sænker hele kroppen ned i vand. Noget tyder på at [kolde afvaskninger måske kan hjælpe på restitutionstiden](/isbad-og-kryoterapi/). Det kræver imidlertid den rigtige vandtemperatur, som ifølge Versey et al. (2013) kunne ligge mellem 10 og 15 grader.
 - **Massage**. Massage er virkelig behageligt - og teoretisk set bør det være med til at afslappe musklerne. Det har så vidt jeg ved ikke kunnet påvises, at det forbedrer restitutionstiden.
 
 Du kan også lade dig inspirere af Team Danmarks restitutionskoncept.
 
-{% include figure image_path="https://www.teamdanmark.dk/media/1251/49460-restitutionskoncept-plakater-a0.jpg" caption="Team Danmarks restitutionskoncept baserer sig på aktiv restitution, ernæringsmæssig restitution og passiv restitution - [via](https://www.teamdanmark.dk/traen-som-en-atlet/restitution)" %}
+{% include figure image_path="https://www.teamdanmark.dk/media/1251/49460-restitutionskoncept-plakater-a0.jpg" caption="Team Danmarks restitutionskoncept baserer sig på aktiv restitution, ernæringsmæssig restitution og passiv. Kilde: [Team Danmark](https://www.teamdanmark.dk/traen-som-en-atlet/restitution)" %}
 
 ## Hvordan ved jeg, om jeg er klar igen?
 
@@ -201,7 +202,7 @@ Men det er ikke kun intensiteten, der har betydning for restitutionen. Du kan se
 
 ## Spis dig til ny energi
 
-Det gælder om at få noget ny energi lige efter træning, og det gælder både kulhydrat som kroppens brændstof og protein som kroppens byggesten. Lige efter træning kan du optage 1 gram kulhydrat pr. kilo kropsvægt og 0,25 gram protein. Vi leder i øjeblikket efter studier, der kan dokumentere dette.
+Det gælder om at få noget ny energi lige efter træning, og det gælder både kulhydrat som kroppens brændstof og protein som kroppens byggesten. Lige efter træning kan du optage 1 gram kulhydrat pr. kg kropsvægt og 0,25 gram protein. Vi leder i øjeblikket efter studier, der kan dokumentere dette.
 
 I Form anbefaler også at spise sig fri af betændelsestilstande i kroppen, som opstår af træning. Her anbefaler de at sørger for at få n-3-fedtsyrene EPA og DHA kan mindske betændelsestilstandene. Det vil vi gerne se et studium på. I Form omtaler også et studium, hvor forsøgspersonerne drak kirsebærjuice, som er fyldt med antioxidanter, hvor de havde markant mindre styrkenedgang efter et hårdt træningspas end en kontrolgruppe. Det studium vil vi gerne se.
 
@@ -209,11 +210,11 @@ I Form anbefaler også at spise sig fri af betændelsestilstande i kroppen, som 
 
 Nedvarmning sørger for at affaldsstofferne bliver fjernet fra musklerne. Vi leder i øjeblikket efter studier, der kan dokumentere dette.
 
-Udspænding kan godt være en del af nedvarmningen, men hvis man kun har tid til den ene ting, skal man vælge nedvarmningen. I øvrigt e [udspænding et kontroversielt emne, som vi tidligere har behandlet](/artikel/du-bliver-smidigere-af-straekke). I Form påstår: "Undersøgelser peger på, at du ved at strække ud et par timer efter træning kan nedsætte muskelstivhed og ømhed." Den undersøgelse vil vi gerne se, så vi kan kvalificere vores gode råd endnu mere. Er der nogen af jer, der har set den?
+Udspænding kan godt være en del af nedvarmningen, men hvis man kun har tid til den ene ting, skal man vælge nedvarmningen. I øvrigt e [udspænding et kontroversielt emne, som vi tidligere har behandlet](/udstraekning-udspaending/). I Form påstår: "Undersøgelser peger på, at du ved at strække ud et par timer efter træning kan nedsætte muskelstivhed og ømhed." Den undersøgelse vil vi gerne se, så vi kan kvalificere vores gode råd endnu mere. Er der nogen af jer, der har set den?
 
 ## Brug kompressionsstrømper til din restitution
 
-Det ser ud til at [kompressionsstrømper kan være en god ide](/artikel/kompressionsstroemper-en-god-ide), når du vil forbedre din restitution og undgå anden-dags-ømhed.
+Det ser ud til at [kompressionsstrømper kan være en god ide](/kompressionsstroemper-restitution-praestation-bivirkninger/), når du vil forbedre din restitution og undgå anden-dags-ømhed.
 
 ## Øvrige forslag til restitution - kan I hjælpe?
 

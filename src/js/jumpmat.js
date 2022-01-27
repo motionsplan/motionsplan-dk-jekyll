@@ -15,7 +15,7 @@ motionsplan.JumpMat = function(jump_time, jump_height, peak_power) {
     return getForce() / 9.81;
   }
 
-  var publicAPI = {
+  let publicAPI = {
     getForce : getForce,
     getKg : getKg
   };

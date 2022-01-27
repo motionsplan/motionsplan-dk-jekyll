@@ -1,11 +1,11 @@
 ---
 title: &title "Yogaudstyr 🙏: Guide til det rigtige udstyr til yoga 🧘🧘‍♂️"
-seo_title: "Yogaudstyr - Få 8 forslag til at gøre yoga mere behageligt »"
+seo_title: "Yogaudstyr: Få 8 forslag til at gøre yoga mere behageligt"
 permalink: /guide/yoga-udstyr/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80
-  teaser: https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Yoga
@@ -24,50 +24,6 @@ feature_row_yogamat:
     btn_label: "Tjek prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
-wallsticker_full:
-  - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-therapy-danish.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-therapy-wallsticker
-    title: Yoga therapy
-    rel: sponsored nofollow noopener
-  - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-is-a-way-to-freedom-danish.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-is-a-way-to-freedom-wallsticker
-    rel: sponsored nofollow noopener
-    title: Yoga is a way to freedom
-  - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-is-99-_-practice-danish_3.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-er-99-ovelse-wallsticker
-    title: Yoga er 99 % øvelse
-    rel: sponsored nofollow noopener
-  - image_path: https://www.wallstickerland.dk/media/catalog/product/a/-/a-yoga-instructor-gets-people-to-danish.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/en-yoga-instruktor-far-folk-til-wallsticker
-    title: En yoga-instruktør får folk til
-    rel: sponsored nofollow noopener
-  - image_path: https://www.wallstickerland.dk/media/catalog/product/i/-/i-do-yoga-english.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/i-do-yoga-wallsticker
-    title: I do yoga
-    rel: sponsored nofollow noopener
-  - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-wallsticker
-    title: Yoga
-    rel: sponsored nofollow noopener
-  - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-keeps-punching-me.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-keeps-punching-me-wallsticker
-    title: Yoga keeps punching me
-    rel: sponsored nofollow noopener
-  - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-is-not-just-a-workout-danish.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-er-ikke-bare-en-traening-wallsticker
-    title: Yoga er ikke bare en træning
-    rel: sponsored nofollow noopener
-gallery_wallsticker:
-    - image_path: "https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-therapy-danish.jpg"
-      url: "https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-therapy-wallsticker"
-      title: "Yoga therapy"
-      vendor: "Wallstickerland"
-      category: "2334"
-      price: 199.00
-      old_price:
-      discounted: false
-      id: "523"
-      rel: sponsored nofollow noopener
 ---
 
 Du kan komme i gang med yoga uden udstyr, men det rigtige yogaudstyr kan gøre fornøjelsen større. Hvilken yogamåtte eller yogablok skal jeg vælge - og har jeg også brug for yogasokker, yogabælte, yogatæppe eller yogatøj?
@@ -113,8 +69,6 @@ Du kan ogås vælge en uldmåtte, som kan være virkelig dejlig at ligge på til
 
 Du kan finde rigtig gode yogamåtter hos [Den Intelligente Krop](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/udstyr/traeningsudstyr/traeningsmatter-tasker-taepper){: rel='sponsored nofollow noopener' } eller økologiske måtter hos [youryogashop.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=76034&htmlurl=https://youryogashop.dk/oekologisk--miljoevenlig-shop/19-oekologiske-yogamaatter-natur-gummi/){: rel='sponsored nofollow noopener' }.
 
-{% include gallery id="gallery_wallsticker" caption="Du kan købe lækre wallstickers til at pynte dit yogarum (reklamelinks)" %}
-
 ## Yogablok
 
 En yogablok bruges til at forkorte afstanden ned til gulvet, fx hvis du i en øvelse skal stå op og røre jorden, men ikke kan nå.
@@ -123,9 +77,9 @@ Derfor er yogablokken især en god investering, hvis du er begynder til yoga. Di
 
 Der findes forskellige yogablokke. Typisk er yogablokke udformet, så de ser relativt pæne ud, så de kan sagtens stå fremme.
 
-Der findes både yogablokke i hård skum, bambus og kork, og en yogablok koster heldigvis ikke alverden. Tjek fx [Den Intelligente Krops udvalg af yogablokke](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/udstyr/traeningsudstyr/yoga-pilates-blokke){: rel='sponsored nofollow noopener' }.
+Der findes både yogablokke i hård skum, bambus og kork, og en yogablok koster heldigvis ikke alverden. Tjek fx [et større udvalg af yogablokke her](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/udstyr/traeningsudstyr/yoga-pilates-blokke){: rel='sponsored nofollow noopener' }.
 
-{% include figure image_path="https://images.unsplash.com/photo-1516208398649-d5d401ba8c49?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" caption="Sådan kan man også bruge en yogablok, men de fleste plejer mest at bruge den til lettere at nå ud i lidt mere almindelige positioner i yogaøvelserne" alt="Yogaudstyr – yogablokke" %}
+{% include figure image_path="https://images.unsplash.com/photo-1516208398649-d5d401ba8c49?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=5" caption="Sådan kan man også bruge en yogablok, men de fleste plejer mest at bruge den til lettere at nå ud i lidt mere almindelige positioner i yogaøvelserne" alt="Yogaudstyr – yogablokke" %}
 
 ## Øjenpuder til yoga
 
@@ -189,13 +143,11 @@ Du skal have løst tøj på, altså tøj du kan bevæge dig i. De fleste foretr�
 
 De fleste yogatimer slutter med meditation, mindfulness og afspænding. Der kan det være dejligt at have en ekstra trøje, du kan tage på. Det kan være en fordel, hvis trøjen har en hætte, så du både kan holde nakke og hovedet varmt under de sidste afslappende minutter af yogatimen. Du kan finde nogle yogatrøjer hos [youryogashop.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=76034&htmlurl=https://youryogashop.dk/oekologisk--miljoevenlig-shop/15-yoga-bluse-amp-cardigan/){: rel='sponsored nofollow noopener' }.
 
-Du kan bl.a. finde yogatøj hos [www.yogalove.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=37808&htmlurl=https://www.yogalove.dk/yogatoj.html){: rel='sponsored nofollow noopener' } eller hos [yogayourshop.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=76034&htmlurl=https://youryogashop.dk/oekologisk--miljoevenlig-shop/4-yogatoej/){: rel='sponsored nofollow noopener' }.
+Du kan bl.a. finde yogatøj [yogayourshop.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=76034&htmlurl=https://youryogashop.dk/oekologisk--miljoevenlig-shop/4-yogatoej/){: rel='sponsored nofollow noopener' }.
 
 ## Wallstickers og plakater om yoga
 
-Det kan også være inspirerende at pynte dit yogarum op med wallstickers og plakater med yoga. Du kan se nogle forskellige plakater her.
-
-{% include gallery id="wallsticker_full" caption="Du kan finde endnu flere yoga-plakater hos [plakaterne.dk](https://www.plakaterne.dk/yoga-plakater/)." %}
+Det kan også være inspirerende at pynte dit yogarum op med wallstickers og plakater med yoga. Du kan se nogle forskellige plakater her. Du kan finde endnu flere yoga-plakater hos [plakaterne.dk](https://www.plakaterne.dk/yoga-plakater/).
 
 ## Konklusion om yogaudstyr
 
@@ -203,6 +155,6 @@ Du kan komme i gang med yoga uden udstyr, men jeg vil helt klar anbefale i hvert
 
 Det tøj du har på, når du dyrker yoga skal naturligvis være rigtig dejligt at bevæge sig i, og det skal ikke hæmme dine bevægelser. Men du behøver ikke investere i nyt tøj for at gå i gang med yoga. Vi har også skrevet en guide til [De Fem Tibetanere]({% link _posts/2009-07-01-de-fem-tibetanere.md %}) og [Solhilsen A og B]({% link _posts/2020-07-25-solhilsen.md %}) - eller [musik til yoga, mindfulness og meditation]({% link _posts/2020-07-02-musik-yoga.md %}). Jeg kan også læse mere om [mindfulness meditation]({% link _posts/2010-10-05-mindfullness-meditation.md %}).
 
-Hvis du vælger at købe noget udstyr, og finder noget du kan lide hos vores samarbejdspartnere  [youryogashop.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=76034){: rel='sponsored nofollow noopener' },  [www.yogalove.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=37808){: rel='sponsored nofollow noopener' } og  [Den Intelligente Krop](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484){: rel='sponsored nofollow noopener' }, så brug gerne vores links. Vi tjener en lille kommision for det du vælger at købe, men din pris er den samme. Tjek dem ud! De har nogle ret fede ting.
+Hvis du vælger at købe noget udstyr, og finder noget du kan lide hos vores samarbejdspartnere  [youryogashop.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=76034){: rel='sponsored nofollow noopener' } og [Den Intelligente Krop](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484){: rel='sponsored nofollow noopener' }, så brug gerne vores links. Vi tjener en lille kommision for det du vælger at købe, men din pris er den samme. Tjek dem ud! De har nogle ret fede ting.
 
 Brug endelig kommentarerne, hvis du har andre forslag til nødvendigt yogaudstyr - eller gode råd til det enkelte udstyr.

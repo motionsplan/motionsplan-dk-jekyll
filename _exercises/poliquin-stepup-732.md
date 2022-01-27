@@ -1,15 +1,12 @@
 ---
-title: &title "Poliquin stepup"
-excerpt: ""
+title: "Poliquin stepup"
 instructions: ""
 permalink: /oevelse/poliquin-stepup/
 redirect_from: /node/732
 id: 732
 language: da
 header:
-  overlay_image: /assets/images/exercises/poliquin-stepup-0.jpg
   teaser: /assets/images/exercises/poliquin-stepup-0-320.jpg
-  caption: *title
 tags:
   - Koordination og balance
   - Balance
@@ -19,16 +16,16 @@ tags:
   - Forlår
 categories:
   - Koordination og balance
-training_type: 
+training_type:
   - Balance
   - Styrketræning
-training_focus: 
+training_focus:
   - knædomineret
 equipment:
   - Step
 muscle_group:
   - Forlår
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/poliquin-stepup-0.jpg
     image_path: /assets/images/exercises/poliquin-stepup-0-320.jpg
@@ -41,4 +38,4 @@ gallery:
 last_modified_at: 2016-10-18T07:39:15Z
 ---
 
-
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}

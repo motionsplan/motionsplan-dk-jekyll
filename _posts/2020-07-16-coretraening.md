@@ -1,10 +1,10 @@
 ---
-title: "Coretræning: 9 øvelser til stærk core og kropsstamme [2021]"
+title: "Coretræning: 9 øvelser til stærk core og kropsstamme [2022]"
 permalink: /core/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1571019613576-2b22c76fd955?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
-  teaser: https://images.unsplash.com/photo-1571019613576-2b22c76fd955?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1571019613576-2b22c76fd955?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1571019613576-2b22c76fd955?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: "Coretræning: 9 øvelser til stærk core og kropsstamme"
 tags:
   - teknik
@@ -15,6 +15,8 @@ category:
   - Styrketræning
   - Teknik
 last_modified_at: 2020-07-13T08:39:32Z
+sidebar:
+  nav: exercises
 ---
 
 Det er vigtigt, at fokusere på sin kropsstamme (sin core) og musklerne omkring rygsøjlen, maven, lænden og hoften for at være stærk og kunne bevæge sig hensigtsmæssigt. Jeg har researchet lidt på, hvad der skal til for at lave god træning af sin core og kropsstamme.
@@ -30,7 +32,7 @@ Core-træning er så meget mere end at træne [planken]({% link _exercises/plank
 
 ## Hvad er core-træning?
 
-Din **core** hedder på dansk kropsstammen eller kropskorsettet. Din core består af alle de stabiliserende muskler, der ligger omkring din mave og ryg. 
+Din **core** hedder på dansk kropsstammen eller kropskorsettet. Din core består af alle de stabiliserende muskler, der ligger omkring din mave og ryg.
 
 Det er vigtigt, at du træner din vejrtrækningsmuskel (diaphragma) i toppen af din core og ned til bækkenbundsmusklerne, som udgør den nederste del af kropsstammen.
 
@@ -44,7 +46,7 @@ Der findes flere definitioner af, hvad der hører med til core-musklerne. Jeg ho
 - Transversus abdominis
 - Obliqus externus og internus (de skrå mavemuskler)
 - Quadratus lomborum
-- Erector spinae og de små stabiliserende muskler i rygsøjlen 
+- Erector spinae og de små stabiliserende muskler i rygsøjlen
 - Diaphrama (åndedrætsmusklen)
 - Bækkenbunden
 
@@ -70,7 +72,7 @@ Derudover giver en god stabilitet og udholdenhed i kropsstammen en mindre risiko
 
 ## Hvorfor er en stærk core vigtig?
 
-### En stærk core giver mulighed for et tungere løft
+### 1. En stærk core giver mulighed for et tungere løft
 
 Når du har en stærk core, så kan den bidrage med et godt fundament for dine muskler at lave kraftudvikling på. Desuden vil du fx i dødløft formentlig have en fordel af, at ryggen er modstandsdygtig over for fleksion, hvilket gør at kroppen vil lade dig løfte tungere.
 
@@ -78,7 +80,7 @@ Kroppens evne til at modstå rotationer, ekstension og fleksion er en væsentlig
 
 Kropsstammen er naturligvis også med til at sætte ekstra kraft på fx kaste- og sparkebevægelser, hvor selve rotationen skal være med til at skabe ekstra kraft.
 
-### Stabilitet omkring rygsøjlen under bevægelser
+### 2. Stabilitet omkring rygsøjlen under bevægelser
 
 En stærk core skaber er fundamentet for en god stabilitet, når vi bevæger os. Det kan faktisk både være ved løb og gang, når vi har vægten på det ene ben. Det kan også være, når vi bærer noget i den ene arm, eller for den sags skyld i begge arme.
 

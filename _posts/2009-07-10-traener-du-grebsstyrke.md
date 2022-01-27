@@ -64,7 +64,7 @@ Vi er imidlertid interesseret i, om du træner din grebsstyrke - og hvordan du g
 
 {% comment %}
 
-https://images.unsplash.com/photo-1533681475364-326b6803d677?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80
+https://images.unsplash.com/photo-1533681475364-326b6803d677?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=5
 
 https://www.bodylab.dk/shop/saadan-faar-du-2105c1.html
 

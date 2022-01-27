@@ -1,5 +1,5 @@
 ---
-title: &title "Sprint med vægt"
+title: "Sprint med vægt"
 excerpt: "Sprint så hurtigt du kan frem og tilbage mellem to markeringer. Du starter med en vægt i hånden. Læg vægten ved markeringen. Sprint tomhændet tilbage. Saml vægten op igen næste gang du kommer forbi."
 instructions: "Sprint så hurtigt du kan frem og tilbage mellem to markeringer. Du starter med en vægt i hånden. Læg vægten ved markeringen. Sprint tomhændet tilbage. Saml vægten op igen næste gang du kommer forbi."
 permalink: /oevelse/sprint/
@@ -7,9 +7,7 @@ redirect_from: /node/151
 id: 151
 language: da
 header:
-  overlay_image: /assets/images/exercises/sprint-0.jpg
   teaser: /assets/images/exercises/sprint-0-320.jpg
-  caption: *title
 tags:
   - Kondition og puls
   - helkropsøvelse
@@ -17,8 +15,8 @@ tags:
   - cirkeltræning
 categories:
   - Kondition og puls
-training_type: 
-training_focus: 
+training_type:
+training_focus:
   - helkropsøvelse
 equipment:
   - kropsvægt
@@ -45,6 +43,7 @@ gallery:
     title: "Sprint med vægt"
 last_modified_at: 2013-10-03T11:04:45Z
 ---
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}
 
 Sprint er en overset øvelse. Selvom der ikke er vægtskiver involveret er det rigtig god styrketræning, fordi kroppen er tvunget til at arbejde maksimalt. Tænk over din teknik, når du sprinter for at få mest muligt ud af det.
 

@@ -3,23 +3,23 @@ title: "6 fysiologiske forandringer i kroppen ved konditionstræning?"
 permalink: /tilpasning-konditionstraening/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1477332552946-cfb384aeaf1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
-  teaser: https://images.unsplash.com/photo-1477332552946-cfb384aeaf1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1477332552946-cfb384aeaf1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1477332552946-cfb384aeaf1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: "Fysiologiske forandringer og adaptationer ved konditionstræning"
   overlay_filter: 0.2
 category:
-  - Viden om
   - Kondition
-  - Løb
 tags:
   - kredsløb
   - fysiologi
   - træningslære
+  - løb
 last_modified_at: 2020-05-31T08:14:14Z
 toc: true
+breadcrumbs: true
 ---
 
-Jeg satte satte mig for at prøve at lave en oversigt over, hvilke fysiologiske tilpasninger og adaptationer, der sker i kroppen, når man laver konditionstræning. Hvad er effekten egentlig af kredsløbstræning?
+Jeg satte satte mig for at prøve at lave en oversigt over, hvilke fysiologiske tilpasninger og adaptationer, der sker i kroppen, når man laver konditionstræning. Så lad os kigge på, hvad effekten er af kredsløbstræning?
 
 Konditionstræning kaldes også pulstræning, kredsløbstræning eller cardio-træning eller slet og ret _cardio_. Træningen handler naturligvis om at få kredsløbet med hjertet, lungerne og musklerne til at arbejde og sende blod rundt i systemet.
 
@@ -146,7 +146,7 @@ Jeg synes denne video forklarer tilpasningerne ved konditionstræning på en god
 
 {% include video provider="youtube" id="k0nziaiGxSU" %}
 
-Jeg har skrevet en grundig artikel om, [hvordan du tester dit kondital med og uden udstyr](/kondition-og-test/), og jeg har også skrevet om, [hvad et godt kondital er](/kondital/). Her kan du sammenligne dit kondital med normer og eliteatleter.
+Jeg har skrevet en grundig artikel om, [hvordan du tester dit kondital med og uden udstyr](/test-kondition-konditest-kondital/), og jeg har også skrevet om, [hvad et godt kondital er](/kondital/). Her kan du sammenligne dit kondital med normer og eliteatleter.
 
 Vi har også skrevet et indlæg, der handler om [fysiologiske tilpasninger til styrketræning]({% link _posts/2020-06-19-styrketraening-fysiologisk.md %}).
 
@@ -154,6 +154,10 @@ Hvis du vil lære mere om fysiologi og arbejdsfysiologi, så har [Saxo rigtig ma
 
 ## Referencer
 
+<details markdown="1">
+  <summary>Se referencer</summary>
+
 - Leveritt, M., H. MacLaughlin, og P. J. Abernethy. 2000. “Changes in Leg Strength 8 and 32 h after Endurance Exercise”. Journal of Sports Sciences 18 (11): 865–71. <https://doi.org/10.1080/026404100750017797>.
 - Trappe, Scott, Matthew Harber, Andrew Creer, Philip Gallagher, Dustin Slivka, Kiril Minchev, og David Whitsett. 2006. “Single Muscle Fiber Adaptations with Marathon Training”. Journal of Applied Physiology (Bethesda, Md.: 1985) 101 (3): 721–27. <https://doi.org/10.1152/japplphysiol.01595.2005>.
 - Wenger, H. A., og G. J. Bell. 1986. “The Interactions of Intensity, Frequency and Duration of Exercise Training in Altering Cardiorespiratory Fitness”. Sports Medicine (Auckland, N.Z.) 3 (5): 346–56. <https://doi.org/10.2165/00007256-198603050-00004>.
+</details>

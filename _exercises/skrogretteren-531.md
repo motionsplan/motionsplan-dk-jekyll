@@ -1,5 +1,5 @@
 ---
-title: &title "Skrogretteren"
+title: "Skrogretteren"
 excerpt: "Gå ned i en dyb squat. Saml albuerne og hænderne foran kroppen. Når du rejser dig op lader du armene søge opad, mens du holder albuerne så tæt sammen som muligt og slutter med en stor cirkel med armene."
 instructions: "Gå ned i en dyb squat. Saml albuerne og hænderne foran kroppen. Når du rejser dig op lader du armene søge opad, mens du holder albuerne så tæt sammen som muligt og slutter med en stor cirkel med armene."
 permalink: /oevelse/skrogretteren/
@@ -7,21 +7,19 @@ redirect_from: /node/531
 id: 531
 language: da
 header:
-  overlay_image: /assets/images/exercises/skrogretteren-0.jpg
   teaser: /assets/images/exercises/skrogretteren-0-320.jpg
-  caption: *title
 tags:
   - Mobilisering
   - helkropsøvelse
   - kropsvægt
-categories:
-training_type: 
+categories: []
+training_type:
   - Mobilisering
-training_focus: 
+training_focus:
   - helkropsøvelse
 equipment:
   - kropsvægt
-muscle_group:
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/skrogretteren-0.jpg
     image_path: /assets/images/exercises/skrogretteren-0-320.jpg
@@ -49,5 +47,4 @@ gallery:
     title: "Skrogretteren"
 last_modified_at: 2016-10-14T08:08:33Z
 ---
-
-
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}

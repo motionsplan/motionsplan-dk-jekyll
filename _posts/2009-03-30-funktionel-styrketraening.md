@@ -1,12 +1,12 @@
 ---
 title: "8 ting du skal vide om funktionel træning og styrketræning!"
-seo_title: "Funktionel træning og styrketræning - 8 ting du bør vide »"
+seo_title: "Funktionel træning og styrketræning - 8 ting du bør vide"
 excerpt: "Funktionel styrketræning er træning, som forbereder kroppen til en given funktion i hverdagen eller en idræt. Her er alt du behøver at vide."
 permalink: /artikel/funktionel-styrketraening/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1589860518400-7ec4b9881f46?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1998&q=80
-  teaser: https://images.unsplash.com/photo-1589860518400-7ec4b9881f46?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1589860518400-7ec4b9881f46?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1589860518400-7ec4b9881f46?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: "Funktionel træning og styrketræning"
 tags:
   - funktionel træning

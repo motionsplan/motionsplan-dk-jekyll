@@ -16,36 +16,25 @@ tags:
 last_modified_at: 2020-04-10T23:14:14Z
 toc: true
 feature_row:
-  - image_path: https://www.loebeshop.dk/media/catalog/product/cache/1/image/575x/040ec09b1e35df139433887a97daa66f/r/_/r_fenix5x_hr_2003.1.jpg
-    alt: "Garmin FENIX 5S Smartwatch"
-    title: "Garmin FENIX 5S Smartwatch"
-    excerpt: "Hvis du er vild med IT og elektronik og kan lide at være opdateret med teknologi uden at gå glip af noget, så køb Smartwatch GARMIN FENIX 5S GPS 10 ATM Sølv Sort til en uovertruffen pris"
-    url: https://track.adtraction.com/t/t?a=1124622406&as=1484571907&t=2&tk=1&url=https://sportmaster.dk/garmin-fenix-5-plus-sapphire-2058971?size=One+Size&gclid=Cj0KCQjwj7v0BRDOARIsAGh37ipamu_nXNAfyMPbgF4aQfhUyRpXvIcMdu7wu2hXPvpD1_bP8i6zo54aAvojEALw_wcB
+  - image_path: https://resources.chainbox.io/cykelpartner/public/pim/accfaaab-7a3f-45d3-aeeb-713be660062d/010-12883-00ny_A_default.jpg
+    alt: "Garmin HRM-Dual"
+    title: "Garmin HRM-Dual"
+    excerpt: "HRM-dual Pulsmåler fra Garmin, der er kompatibel med alle Garmin-computere med pulsfunktion. Måleren er blevet opgraderet, så den nu også anvender Bluetooth (BLE), og dermed også er kompatibel med alle andre mærker, der benytter ANT+ eller Bluetooth."
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=16446&htmlurl=https://www.cykelpartner.dk/pulsbaelter/garmin-hrm-dual---pulsmaalerrem---ant-plus--og-ble
     btn_label: "Se prisen"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
+  - image_path: https://www.proshop.dk/Images/600x800/2799963_ee580b740aa6.jpg
+    alt: "Garmin fenix 6 Sapphire"
+    title: "Garmin fenix 6 Sapphire"
+    excerpt: "Disse robuste fēnix GPS-multisportsure giver dig mulighed for at tilføje kort, musik, intelligent tempoplanlægning med mere til din træning – så du kan klare alle udfordringer med lethed. Garmin har implementeret deres egen form for træningsparathed, som ikke helt er heart rate variability."
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67757&htmlurl=https://www.proshop.dk/Smartwatch-Sportsur-Aktivitetstracker/Garmin-fenix-6-Sapphire-black/2799963
+    btn_label: "Se prisen"
+    btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 gallery:
-  - url: https://i1.wp.com/geoawesomeness.com/wp-content/uploads/2017/08/stephen-lund.jpg?resize=696%2C493&ssl=1
-    image_path: //images.weserv.nl/?url=https://i1.wp.com/geoawesomeness.com/wp-content/uploads/2017/08/stephen-lund.jpg&w=400&h=267&a=attention&fit=cover
-    alt: "GPS Doodles - StravaArt"
-    title: "GPS Doodles - StravaArt"
-  - url: https://i0.wp.com/geoawesomeness.com/wp-content/uploads/2017/08/stephen-lund-1.jpg?resize=696%2C535&ssl=1
-    image_path: //images.weserv.nl/?url=https://i0.wp.com/geoawesomeness.com/wp-content/uploads/2017/08/stephen-lund-1.jpg&w=400&h=267&a=attention&fit=cover
-    alt: "GPS Doodles - StravaArt"
-    title: "GPS Doodles - StravaArt"
-  - url: https://i1.wp.com/geoawesomeness.com/wp-content/uploads/2017/08/stephen-lund-2.jpg?resize=696%2C385&ssl=1
-    image_path: //images.weserv.nl/?url=https://i1.wp.com/geoawesomeness.com/wp-content/uploads/2017/08/stephen-lund-2.jpg&w=400&h=267&a=attention&fit=cover
-    alt: "GPS Doodles - StravaArt"
-    title: "GPS Doodles - StravaArt"
-  - url: https://i2.wp.com/geoawesomeness.com/wp-content/uploads/2017/08/stephen-lund-3.jpg?resize=696%2C472&ssl=1
-    image_path: //images.weserv.nl/?url=https://i2.wp.com/geoawesomeness.com/wp-content/uploads/2017/08/stephen-lund-3.jpg&w=400&h=267&a=attention&fit=cover
-    alt: "GPS Doodles - StravaArt"
-    title: "GPS Doodles - StravaArt"
-  - url: https://i1.wp.com/geoawesomeness.com/wp-content/uploads/2017/08/stephen-lund-4.jpg?resize=696%2C668&ssl=1
-    image_path: //images.weserv.nl/?url=https://i1.wp.com/geoawesomeness.com/wp-content/uploads/2017/08/stephen-lund-4.jpg&w=400&h=267&a=attention&fit=cover
-    alt: "GPS Doodles - StravaArt"
-    title: "GPS Doodles - StravaArt"
-  - url: https://i0.wp.com/geoawesomeness.com/wp-content/uploads/2017/08/stephen-lund-5.jpg?resize=696%2C561&ssl=1
-    image_path: //images.weserv.nl/?url=https://i0.wp.com/geoawesomeness.com/wp-content/uploads/2017/08/stephen-lund-5.jpg&w=400&h=267&a=attention&fit=cover
+  - url: https://www.facebook.com/GPSdoodles/photos
+    image_path: /assets/images/blog/gpsdoodles.png
     alt: "GPS Doodles - StravaArt"
     title: "GPS Doodles - StravaArt"
 gallery_mine:

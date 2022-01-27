@@ -1,5 +1,5 @@
 ---
-title: &title "Squat med hop"
+title: "Squat med hop"
 excerpt: "Gå kontrolleret ned i knæ. Med så kort pause i benbøjningen laver du et eksplosivt spring."
 instructions: "Gå kontrolleret ned i knæ. Med så kort pause i benbøjningen laver du et eksplosivt spring."
 permalink: /oevelse/squat-med-hop/
@@ -7,21 +7,20 @@ redirect_from: /node/143
 id: 143
 language: da
 header:
-  overlay_image: /assets/images/exercises/squat-med-hop-0.jpg
   teaser: /assets/images/exercises/squat-med-hop-0-320.jpg
-  caption: *title
 tags:
   - Ben
   - knædomineret
   - vægtstang
 categories:
   - Ben
-training_type: 
-training_focus: 
+  - Squat
+training_type: []
+training_focus:
   - knædomineret
 equipment:
   - vægtstang
-muscle_group:
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/squat-med-hop-0.jpg
     image_path: /assets/images/exercises/squat-med-hop-0-320.jpg

@@ -1,5 +1,5 @@
 ---
-title: &title "Russian twist med vægt"
+title: "Russian twist med vægt"
 excerpt: "Sid på numsen med bøjede knæ, mens en vægt holdes i favnen med begge hænder. Læn dig tilbage indtil mavemusklerne begynder at stramme. Drej nu overkroppen og vægten skiftevis fra side til side, når overkroppen roterereres,  strækkes benene - uden de har kontakt med underlaget. "
 instructions: "Sid på numsen med bøjede knæ, mens en vægt holdes i favnen med begge hænder. Læn dig tilbage indtil mavemusklerne begynder at stramme. Drej nu overkroppen og vægten skiftevis fra side til side, når overkroppen roterereres,  strækkes benene - uden de har kontakt med underlaget. "
 permalink: /oevelse/russian-twist-med-vaegt/
@@ -9,9 +9,7 @@ redirect_from:
 id: 535
 language: da
 header:
-  overlay_image: /assets/images/exercises/russian-twist-med-vaegt-0.jpg
   teaser: /assets/images/exercises/russian-twist-med-vaegt-0-320.jpg
-  caption: *title
 tags:
   - Styrketræning
   - kropsstamme
@@ -20,10 +18,10 @@ tags:
   - vægtskive
   - Core
   - Mave
-categories:
-training_type: 
+categories: []
+training_type:
   - Styrketræning
-training_focus: 
+training_focus:
   - kropsstamme
 equipment:
   - håndvægte
@@ -51,5 +49,4 @@ gallery:
     title: "Russian twist med vægt "
 last_modified_at: 2014-10-12T21:46:35Z
 ---
-
-
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}

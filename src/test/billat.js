@@ -1,10 +1,10 @@
 const motionsplan = require('../js/billat.js');
-var assert = require('assert');
+let assert = require('assert');
 
 describe('Billat', function() {
   describe('getBillat()', function() {
     it('should return the correct number', function() {
-      var hr = motionsplan.Billat(1800);
+      let hr = motionsplan.Billat(1800);
       assert.equal(hr.getDistance30(), 150);
       assert.equal(hr.getRecovery30(), 75);
       assert.equal(hr.getDistance60(), 300);

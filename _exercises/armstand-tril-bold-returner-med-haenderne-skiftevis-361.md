@@ -1,5 +1,5 @@
 ---
-title: &title "Armstand, modtag trillende bold og returner"
+title: "Armstand, modtag trillende bold og returner"
 excerpt: "Stil dig i udgangsposition til en armstrækning med samlede fødder. Få en makker til at trille en bold til dig. Du fanger den og returnerer den igen. Der kan laves en regel om at det skal være med skiftevis højre og venstre hånd. Den behøver ikke blive trillet til den hånd der skal returnere. Det er fint med krydsbevægelser i kroppen."
 instructions: "Stil dig i udgangsposition til en armstrækning med samlede fødder. Få en makker til at trille en bold til dig. Du fanger den og returnerer den igen. Der kan laves en regel om at det skal være med skiftevis højre og venstre hånd. Den behøver ikke blive trillet til den hånd der skal returnere. Det er fint med krydsbevægelser i kroppen."
 permalink: /oevelse/armstand-tril-bold-returner-med-haenderne-skiftevis/
@@ -10,14 +10,15 @@ tags:
   - kropsstamme
   - måtte
   - bold
-categories:
+  - mats mejdevi
+categories: []
 training_type: 
 training_focus: 
   - kropsstamme
 equipment:
   - måtte
   - bold
-muscle_group:
+muscle_group: []
 gallery:
 last_modified_at: 2011-10-31T13:08:58Z
 ---

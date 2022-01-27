@@ -1,5 +1,6 @@
 ---
 title: "Skræddermusklen"
+seo_title: "Skræddermusklen | Sartorius | Muskler"
 functional_group:
   - Hoftebøjere
 group:
@@ -11,9 +12,11 @@ name:
 tags:
   - imagemap
   - muskel
-origin: 
+categories:
+  - Muskler
+origin:
   da: forreste øverste hoftebensfremspring
-insertion: 
+insertion:
   da: øverst på den inderste skinnebenskondyl
 function:
   da:
@@ -36,3 +39,5 @@ coords:
   - "107,228,116,257,122,273,126,295,127,310,127,329,122,300,117,278,110,253,106,237"
   - "182,228,179,229,171,254,164,271,160,296,160,325,162,310,165,293,169,277,176,252"
 ---
+
+{{ page.name.da | capitalize }} hedder på latin *{{ page.name.latin | downcase }}*. Musklen laver {% for f in page.function.da %}{% if forloop.last == true and page.function.da.size > 1 %} og {% endif %}{{ f.short | downcase  }}{% if forloop.last == false and page.function.da.size > 1 %}, {% endif %}{% endfor %}. Musklen er en del af {{ page.functional_group | join: ", " | downcase }}.

@@ -8,6 +8,7 @@ header:
   caption: *title
 category:
   - Kondition
+  - Løb
 tags:
   - kondition
   - løb
@@ -45,7 +46,7 @@ Forskere fra Central Institute of Mental Health fra University of Heidelberg pla
 
 Derefter brugte de stoffer til at blokere dyrets endocannabinoide system. Resultaterne var slående. Musene var nu lige så nervøse og påvirkelige for smerte efter deres løbtur i hjulet, som de mus der ikke havde løbet på ”træningshjulet”.
 
-Forskerne kunne dermed konkludere at cannabinoidreceptorer er afgørende hovedaspekter af fænomenet ”runners high”.  
+Forskerne kunne dermed konkludere at cannabinoidreceptorer er afgørende hovedaspekter af fænomenet ”runners high”.
 
 Forstået på en anden måde, så er der ligheder i mellem den følelse Marihuana giver og den følelse som “runners high” kan skabe ved at du dyrker motion.
 

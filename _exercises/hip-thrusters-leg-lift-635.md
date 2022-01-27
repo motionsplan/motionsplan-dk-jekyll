@@ -1,5 +1,5 @@
 ---
-title: &title "Supine bridge with leg lift"
+title: "Supine bridge with leg lift"
 excerpt: "Lig på ryggen med hælene bøjet ind under dig. Skub hoften op ved at spænde i ballerne. Stræk det ene ben, så lårene stadig følger hinanden. Sørg for at holde spændet i ballerne og holde hoften helt stabil og hoften oppe. Stræk derefter det andet ben. Sænk hoften igen. Det var en gentagelse."
 instructions: "Lig på ryggen med hælene bøjet ind under dig. Skub hoften op ved at spænde i ballerne. Stræk det ene ben, så lårene stadig følger hinanden. Sørg for at holde spændet i ballerne og holde hoften helt stabil og hoften oppe. Stræk derefter det andet ben. Sænk hoften igen. Det var en gentagelse."
 permalink: /oevelse/hip-thrusters-leg-lift/
@@ -7,9 +7,7 @@ redirect_from: /node/635
 id: 635
 language: da
 header:
-  overlay_image: /assets/images/exercises/hip-thrusters-leg-lift-0.jpg
   teaser: /assets/images/exercises/hip-thrusters-leg-lift-0-320.jpg
-  caption: *title
 tags:
   - Kropsstamme
   - Styrketræning
@@ -19,9 +17,9 @@ tags:
   - Baller
 categories:
   - Kropsstamme
-training_type: 
+training_type:
   - Styrketræning
-training_focus: 
+training_focus:
   - kropsstamme
 equipment:
   - kropsvægt
@@ -42,4 +40,4 @@ gallery:
 last_modified_at: 2016-10-14T11:38:06Z
 ---
 
-
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}

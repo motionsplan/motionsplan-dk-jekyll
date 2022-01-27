@@ -8,7 +8,7 @@ header:
   teaser: https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/normatec-livingroom-boots-overhear-1574756535.jpg
   caption: Er recovery boots effektiv restitution?
 category:
-  - Viden om
+  - Restitution
 tags:
   - restitution
   - recovery boots
@@ -18,7 +18,7 @@ tags:
 last_modified_at: 2020-07-04T08:12:14Z
 toc: true
 feature_row:
-  - image_path: https://cdn.shopify.com/s/files/1/0552/7358/6897/products/Optima-Sport-Recovery-Boots-Battery-saet-8-kamre_2000x.jpg?v=1615362661
+  - image_path: https://cdn.shopify.com/s/files/1/0552/7358/6897/products/OptimaK8RecoveryBootsaet_1_-min_2000x.jpg?v=1639677020
     alt: "Optima Sport Recovery Boots Ultima K8 – komplet sæt"
     title: "Optima Sport Recovery Boots Ultima K8 – komplet sæt"
     excerpt: "Ultima K8 er velegnet til alle programmer. Støvlen giver en mere dybdegående massage, end vores andre støvler, da kamrene er mindre og derfor kan arbejder sig mere ned i muskulaturen."
@@ -106,7 +106,7 @@ Men det er faktisk ganske behageligt at sidde med vakuumbukserne på. Jeg har ik
 
 Det er ikke recovery boots du først skal tilføje til arsenal, hvis du vil optimere din træning og restitution.
 
-Først skal du sørge for at optimere din træning, kost og søvn. Når du har styr på de parametre, så kan du begynde at kigge på hjælpemidler.
+Først skal du sørge for at optimere din træning, kost og [søvn](/soevn/). Når du har styr på de parametre, så kan du begynde at kigge på hjælpemidler.
 
 Jeg har tidligere skrevet om [kompressionsstrømper som tilsyneladende har vist en bedre effekt på restitution]({% link _posts/2010-07-11-kompressionsstroemper-en-god-ide.md %}), og de er noget billigere at købe med nogenlunde samme påståede effekt.
 

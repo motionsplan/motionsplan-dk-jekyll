@@ -4,8 +4,8 @@ permalink: /beregner/dagligt-stofskifte-og-forbraending/
 redirect_from: /avanceret-stofskifteberegner/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1495976797530-f33e6580e44b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=80
-  teaser: https://images.unsplash.com/photo-1495976797530-f33e6580e44b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1495976797530-f33e6580e44b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1495976797530-f33e6580e44b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Beregnere
@@ -22,8 +22,9 @@ feature_row:
     url: https://docs.google.com/document/d/1pWnzxIkn3h_deY7pavw-OnCxhvtSiyFfBZCoyJjj8dY/copy?usp=sharing
     title: "Skema til registrering af aktivitet"
     excerpt: "Du kan udskrive følgende skema og udfylde det for en typisk dag. Når du har udfyldt skemaet og udregnet, hvor meget aktivitet, du har i de enkelte kategorier, så er du klar til at skrive værdierne ind i beregneren af dit daglige energibehov."
-    btn_label: Download skema
+    btn_label: <i class='fas fa-file-alt'></i> Download skema
     btn_class: btn--info
+    rel: nofollow noopener
 ---
 
 I denne beregner kan du udregne dit daglige stofskifte og forbrænding. Ved at beregne energiforbruget på baggrund af dit basalstofskifte (BMR) og fysiske aktivitetsniveau, så kan du finde dit omtrentlige daglige energibehov.
@@ -61,7 +62,7 @@ Jeg har baseret udregningen af det fysiske aktivitetsniveau på baggrund [Gerrio
 | Sove | MET 0,9 | Fra du ligger i sengen til du står op. |
 | Siddende | MET 1,2 | Den resterende tid er du siddende. Enten arbejde. TV-kigning. |
 
-Jeg har baseret de valgte MET-værdier i tabellen ud fra [Nordic Nutrition Recommendations 2012](https://www.norden.org/da/node/7832) og [slået aktiviteter op i listen over MET-værdier](/met/). I Nordic Nutrition Recommendations (2012) er _Rest_ sat til 1,0, men der er ingen adskillelse mellem sovende og siddende aktivitet.
+Jeg har baseret de valgte MET-værdier i tabellen ud fra [Nordic Nutrition Recommendations 2012](https://www.norden.org/en/publication/nordic-nutrition-recommendations-2012) og [slået aktiviteter op i listen over MET-værdier](/met/). I Nordic Nutrition Recommendations (2012) er _Rest_ sat til 1,0, men der er ingen adskillelse mellem sovende og siddende aktivitet.
 
 **Jeg er i tvivl om jeg har valgt de helt rigtige MET-værdier til at give den bedste beregning. Hvis du har et input til at gøre listen bedre, så brug endelig kommentarerne.**
 

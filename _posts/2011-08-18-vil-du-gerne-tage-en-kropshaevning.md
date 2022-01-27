@@ -6,8 +6,8 @@ redirect_from:
   - /artikel/vil-du-gerne-tage-en-kropshaevning/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1502955717682-d0430000b16d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=80
-  teaser: https://images.unsplash.com/photo-1502955717682-d0430000b16d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1502955717682-d0430000b16d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1502955717682-d0430000b16d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: "Kropshævninger: Hvordan lærer jeg at lave pullups og chinups?"
 tags:
   - styrketræning
@@ -80,7 +80,7 @@ Hvis du gerne vil lave en chinup og en pullup, så er det helt afgørende, at du
 
 Hæng i strakte arme i en stang. Prøv at løfte dig op stille ved at samle skulderbladene og trække dem nedad.
 
-{% include video provider="youtube" id="icD6a_JcCbQ" %}
+{% include video provider="youtube" id="XIkPI-_80r4" %}
 
 ### Superman pullups
 
@@ -122,7 +122,7 @@ Her er nogle generelle retningslinjer til, hvordan man laver en assisteret pullu
 
 I Jackknife pullups har du fødderne på en bænk. Sørg for kun at hjælpe det nødvendige med fødderne. Sørg også for, at de ikke bliver en body row til slut, men netop en pullup eller chinup.
 
-{% include video provider="youtube" id="gl3ijG_pozM" %}
+{% include video provider="youtube" id="58ss6OF4fmQ" %}
 
 ### Pullups og chinups med elastik
 

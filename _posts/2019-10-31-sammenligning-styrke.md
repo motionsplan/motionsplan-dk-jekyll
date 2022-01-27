@@ -1,5 +1,6 @@
 ---
-title: &title "Hvem er stærkest? Sammenligning af styrke på tværs af køn og vægtklasser"
+title: &title "Hvem er stærkest? Sammenligning på tværs af køn og vægtklasser"
+seo_title: "Hvem er stærkest? Sammenlign på tværs af køn og vægtklasser"
 permalink: /sammenligning-styrke/
 language: da
 header:

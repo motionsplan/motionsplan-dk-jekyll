@@ -5,8 +5,8 @@ permalink: /respiratoriske-metaboliske-udvekslingskvotient/
 last_modified_at: 2021-01-17T09:41:09Z
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1555708982-8645ec9ce3cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1989&q=80
-  teaser: https://images.unsplash.com/photo-1555708982-8645ec9ce3cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1555708982-8645ec9ce3cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1555708982-8645ec9ce3cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Viden om
@@ -18,7 +18,7 @@ feature_row:
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/menneskets-fysiologi_bente-schibye_indbundet_9788777497162
     title: "Menneskets fysiologi - Bente Schibye (2017)"
     excerpt: "Lærebogsklassikeren _Menneskets fysiologi_ af Bente Schibye dækker hele menneskets fysiologi, og som noget særligt beskrives fysiologien både i hvile og under fysisk aktivitet."
-    btn_label: "Tjek prisen hos Saxo.dk"
+    btn_label: "Tjek prisen"
     btn_class: "btn--info"
     rel: sponsored nofollow noopener
 ---

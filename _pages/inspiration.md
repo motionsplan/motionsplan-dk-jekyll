@@ -23,7 +23,7 @@ feature_row_ads:
     btn_label: "Besøg Apuls"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
-#  - image_path: https://images.unsplash.com/photo-1544899489-a083461b088c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+#  - image_path: https://images.unsplash.com/photo-1544899489-a083461b088c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
 #    alt: "Billigsport24.dk"
 #    title: "Billigsport24.dk"
 #    excerpt: "Billigsport24.dk - Online salg af sportsprodukter på Internettet. Spar mellem 10-60%. Sikker handel på Nettet, shoppen er E-mærket. Din sikkerhed for en tryg handel. Vi tilbyder alle de kendte mærker, Nike, Puma, Adidas, North Face, Stiga, Polar, Helly Hansen m.m."
@@ -61,7 +61,7 @@ feature_row_ads:
     btn_label: "Besøg Bodyman"
     btn_class: "btn--info"
     rel: sponsored nofollow noopener
-#  - image_path: https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+#  - image_path: https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
 #    alt: "KINETIK"
 #    title: "KINETIK"
 #    excerpt: "KINETIK Vægtvest VX1 er et nyt og top professionelt produkt på det danske fitness marked! Optimerer al form for træning! #crossfit #calisthenics #bodybuilding"
@@ -96,6 +96,14 @@ feature_row_running:
     title: "Garmin FENIX 5S Smartwatch"
     excerpt: "Garmin Fenix er fantastiske pulsure og aktivitetsure. Garmin har implementeret deres egen form for træningsparathed, som ikke helt er heart rate variability."
     url: https://track.adtraction.com/t/t?a=1124622406&as=1484571907&t=2&tk=1&url=https://sportmaster.dk/garmin-fenix-5-plus-sapphire-2058971?size=One+Size&gclid=Cj0KCQjwj7v0BRDOARIsAGh37ipamu_nXNAfyMPbgF4aQfhUyRpXvIcMdu7wu2hXPvpD1_bP8i6zo54aAvojEALw_wcB
+    btn_label: "Se prisen"
+    btn_class: "btn--success"
+    rel: sponsored nofollow noopener
+  - image_path: https://static.wixstatic.com/media/3c82eb_70f1384f64584b009ccc002dbe0fe482~mv2.jpg/v1/fill/w_630,h_630,al_c,q_85,usm_0.66_1.00_0.01/3c82eb_70f1384f64584b009ccc002dbe0fe482~mv2.webp
+    alt: "STRYD Wattmåler - Next Generation"
+    title: "STRYD Wattmåler - Next Generation"
+    excerpt: "STRYD – Wattmåler og nu med vindmåler STRYD er en af de mest nyttige og imponerende teknologiske løbegadgets, der er til rådighed på markedet"
+    url: "https://buy.stryd.com/store?referrer_id=c444f8a6-8d83-59d2-7060-6e7eddbaf413"
     btn_label: "Se prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener

@@ -1,11 +1,12 @@
 ---
 title: &title "Beregn dit kondital ud fra en vilkårlig løbedistance 🏃"
+seo_title: "Beregn dit kondital ud fra en vilkårlig løbedistance"
 permalink: /kondital-loeb-distance-tid/
-excerpt: "I denne beregner kan du indtaste en vilkårlig løbedistance og tiden og få estimeret dit kondital."
+excerpt: "I denne beregner kan du indtaste en vilkårlig løbedistance og tiden for at gennemføre distancen. Hvis det var et maksimalt løb, kan du få estimeret dit kondital."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1596358985970-ff88f3ad4cb3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=80
-  teaser: https://images.unsplash.com/photo-1596358985970-ff88f3ad4cb3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1596358985970-ff88f3ad4cb3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1596358985970-ff88f3ad4cb3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Kondition
@@ -19,6 +20,7 @@ tags:
   - beregner
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
+breadcrumbs: true
 ---
 
 Du kan beregne dit kondital ud fra en løbetur, du har løbet. Du indtaster bare, hvor mange kilometer du har løbet, og hvor lang tid det tog. I denne beregner kan du udregne dit kondital på baggrund af en løbetest, hvor du registrerer din hastighed og din distance.
@@ -54,4 +56,8 @@ Du kan sammenligne dit [kondital i tabellen for kondital for mænd og kvinder](/
 
 ## Reference
 
+<details markdown="1">
+  <summary>Se referencer</summary>
+
 - Tokmakidis, S. P., L. Léger, D. Mercier, F. Péronnet, og G. Thibault. 1987. “New Approaches to Predict VO2max and Endurance from Running Performances”. The Journal of Sports Medicine and Physical Fitness 27 (4): 401–9. <https://pubmed.ncbi.nlm.nih.gov/3444324/>
+</details>

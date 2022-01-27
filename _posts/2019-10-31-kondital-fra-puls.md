@@ -1,11 +1,13 @@
 ---
 title: &title "Find dit kondital ud fra din puls 💗"
 permalink: /kondital-fra-puls/
-excerpt: "Danske forskere har udviklet en konditionstest, hvor du kun skal bruge din hvilepuls og maxpuls."
+redirect_from:
+  - /kondition-fra-puls/
+excerpt: "Danske forskere har udviklet en konditionstest, hvor du kun skal bruge din hvilepuls og maxpuls til at finde dit kondital."
 language: da
 header:
-  overlay_image: https://cdn1.considerable.com/wp-content/uploads/2019/04/24170055/heart-beat-line-end-of-life-picture.jpg
-  teaser: https://cdn1.considerable.com/wp-content/uploads/2019/04/24170055/heart-beat-line-end-of-life-picture.jpg
+  overlay_image: https://images.unsplash.com/photo-1517867065801-e20f409696b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=5
+  teaser: https://images.unsplash.com/photo-1517867065801-e20f409696b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Kondition
@@ -19,6 +21,7 @@ tags:
   - beregner
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
+breadcrumbs: true
 ---
 
 Det kan være besværligt at finde sit kondital, men [Uth et al (2004)](https://doi.org/10.1007/s00421-003-0988-y) har udviklet en test, hvor det ikke er så besværligt. Testens præmis er, at hvilepulsen falder, når man kommer i bedre form, fordi slagvolumen øges. Med en højere slagvolumen kan hjertet pumpe mere blod rundt i hvert enkelt slag, og derfor behøver det i hvile ikke at slå så mange gange.
@@ -45,11 +48,11 @@ Du kan også estimere din hvilepuls ud fra følgende skema:
 
 |                                                          | slag pr. minut |
 |----------------------------------------------------------|---------------:|
-| Meget høj hvilepuls                                      | > 100          | 
+| Meget høj hvilepuls                                      | > 100          |
 | Lettere forhøjet                                         | 80-100         |
 | Normal hvilepuls                                         | 70-80          |
 | Lidt lavere end normalt                                  | 60-70          |
-| Lav hvilepuls                                            | 50-60          | 
+| Lav hvilepuls                                            | 50-60          |
 | Meget lav hvilepuls (typisk meget konditionsstærk atlet) | < 50           |
 
 Jeg har skrevet et andet indlæg, som går i dybden med, [hvad hvilepulsen er og hvordan du måler den]({% link _posts/2020-06-03-hvilepuls.md %}).
@@ -58,7 +61,7 @@ Jeg har skrevet et andet indlæg, som går i dybden med, [hvad hvilepulsen er og
 
 Du kan måle din maksimale puls ved efter grundig opvarmning at lave en række bakkesprints af op til 45 sekunder.
 
-Vil du teste din maxpuls, gøres det bedst ved at løbe i et jævnt og forholdsvis højt tempo i 2 min, efterfulgt af 20 sek. sprint. Herefter lunter du lige så stille i 30-45 sek, hvorefter du gentager hele proceduren to gange mere. Med et pulsur med bryststrop vil du efter sidste hårde sprint kunne aflæse din maxpuls. 
+Vil du teste din maxpuls, gøres det bedst ved at løbe i et jævnt og forholdsvis højt tempo i 2 min, efterfulgt af 20 sek. sprint. Herefter lunter du lige så stille i 30-45 sek, hvorefter du gentager hele proceduren to gange mere. Med et pulsur med bryststrop vil du efter sidste hårde sprint kunne aflæse din maxpuls.
 {: .notice .notice--success }
 
 Du kan også estimere den ud fra alder, da den maksimale puls typisk falder med alderen. I denne beregner har vi brugt følgende formel:

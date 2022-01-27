@@ -1,19 +1,18 @@
 ---
 title: &title "Komplet guide til programlægning i styrketræning"
-seo_title: "Komplet guide til programlægning i styrketræning »"
+seo_title: "Komplet guide til programlægning i styrketræning"
 permalink: /traeningsprogram-programlaegning-styrketraening/
 redirect_from:
   - /artikel/hvordan-skal-jeg-dosere-min-styrketraening/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1526408984842-5f1323d42469?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
-  teaser: https://images.unsplash.com/photo-1526408984842-5f1323d42469?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1526408984842-5f1323d42469?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1526408984842-5f1323d42469?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Styrketræning
 tags:
   - programlægning
-  - træningsprogram
   - styrketræning
   - begynder
 last_modified_at: 2020-01-23T08:14:14Z
@@ -57,15 +56,15 @@ Hav en **plan**, **skriv planen ned** og **lav noter** om din træning.
 ## Træningslære
 
 - 20% af indsatsen giver 80% af resultaterne
-- Træning og [restitution]({% link _posts/2020-05-28-restitutionstid-alder.md %}) går hånd i hånd. 
+- Træning og [restitution]({% link _posts/2020-05-28-restitutionstid-alder.md %}) går hånd i hånd.
 - Ingen resultater uden at du har styr på, hvordan restitution virker.
 - Det samlede stress på kroppen afgør, hvor gode resultaterne bliver.
 
 ## Kroppen vil overleve
 
-Alle levende mekanismer styres af tre principper for overlevelse. 
+Alle levende mekanismer styres af tre principper for overlevelse.
 
-- **Adaptation.** En organisme vil hele tiden forsøge at tilpasse sig til kravene fra omgivelserne. 
+- **Adaptation.** En organisme vil hele tiden forsøge at tilpasse sig til kravene fra omgivelserne.
 - **Energilagring.** Organismen vil forsøge at lagre så meget energi som muligt. På den måde sikrer kroppen sig til værre tider.
 - **Energibeparelse.** Kroppen vil forsøge at bruge mindst mulig energi for at opretholde det nødvendige funktionsniveau.
 
@@ -109,7 +108,7 @@ Nedenstående figur illustrerer at så snart du går i gang med at træne, så f
 
 Desto mere trænet du er, desto vanskeligere bliver det at få fremgang, men til gengæld kan du holde til mere.
 
-Hvor meget belastning kroppen kan holde til afhænger af mange ting. Fx vil øget stress i andre dele af livet end træning flytte kurven nedad, mens god kost, restitution og ordentlig søvn kan flytte kurven opad.
+Hvor meget belastning kroppen kan holde til afhænger af mange ting. Fx vil øget stress i andre dele af livet end træning flytte kurven nedad, mens god kost, restitution og [ordentlig søvn](/soevn/) kan flytte kurven opad.
 
 {% include figure image_path="/assets/images/training/response-training.svg" caption="" %}
 
@@ -117,7 +116,7 @@ Hvor meget belastning kroppen kan holde til afhænger af mange ting. Fx vil øge
 
 ### General adaption syndrome (GAS)
 
-Teorien er at kroppen smider alle de belastninger kroppen kommer ud for ind i en pulje. Du kan lave et fantastisk træningsprogram, men det nytter ikke noget, hvis du drikker, spiser dårligt, har kæresteproblemer eller er stresset på arbejdet. 
+Teorien er at kroppen smider alle de belastninger kroppen kommer ud for ind i en pulje. Du kan lave et fantastisk træningsprogram, men det nytter ikke noget, hvis du drikker, spiser dårligt, har kæresteproblemer eller er stresset på arbejdet.
 
 Kroppen reagerer ud fra General Adaption Syndrome (GAS) modellen på det samlede stress. Når man har været ramt af fx et stimulus fra træning, så begynder den at genopbygge selv. Denne reaktion er imidlertid afhængig af, hvad det samlede stress på kroppen er.
 
@@ -139,9 +138,9 @@ Denne model har konsekvenser for træningsplanlægningen. Der kan godt være nog
 
 Hvis du gerne vil være bedre til noget, skal du træne det. Det gælder uanset om det er et slag i badminton, eller det er et styrkeløft. Hjernen udnytter et præcist mønster til at styre bevægelsen, og dette mønster styrkes, når man træner bevægelsen.
 
-- **Træn det, du vil blive bedre til.** Hvis du skal blive bedre og have den mest effektive træning, skal du altså træne det du gerne vil være bedre til. Det gælder både bevægelsen, men også belastningen. 
-- **Frekvens.** Desuden giver det mening, hvis du træner nogenlunde ofte, når du vil blive bedre til noget. For de fleste er 2-3 gange om ugen formentlig der, hvor de fleste får mest ud af det. 
-- **Muligheder for carryover.** Hvis du gerne vil være bedre til at springe, skal du springe. Hvis du gerne vil være bedre til at lave dødløft, så skal du dødløfte. Når du mestrer bevægelsen, kan du forsøge med forskellige greb, bruge kæder eller elastikker, lave andre variationer. 
+- **Træn det, du vil blive bedre til.** Hvis du skal blive bedre og have den mest effektive træning, skal du altså træne det du gerne vil være bedre til. Det gælder både bevægelsen, men også belastningen.
+- **Frekvens.** Desuden giver det mening, hvis du træner nogenlunde ofte, når du vil blive bedre til noget. For de fleste er 2-3 gange om ugen formentlig der, hvor de fleste får mest ud af det.
+- **Muligheder for carryover.** Hvis du gerne vil være bedre til at springe, skal du springe. Hvis du gerne vil være bedre til at lave dødløft, så skal du dødløfte. Når du mestrer bevægelsen, kan du forsøge med forskellige greb, bruge kæder eller elastikker, lave andre variationer.
 
 Men husk SAID-princippet om _Specific Adaptation to Imposed Demands_.
 
@@ -161,7 +160,7 @@ Du finder volumen af din træning på følgende måde:
 
     VOLUMEN = SÆT x GENTAGELSER x VÆGT
 
-Udregningerne af volumen fungerer bedst, når du har øvelser, der ligner hinanden. Det betyder, at du ikke kan nå dit fulde styrkepotentiale ved altid at træne rigtig tungt med lav vægt. Volumen er med til at forbedre din arbejdskapacitet (Nucklos & Isuf 2015a). 
+Udregningerne af volumen fungerer bedst, når du har øvelser, der ligner hinanden. Det betyder, at du ikke kan nå dit fulde styrkepotentiale ved altid at træne rigtig tungt med lav vægt. Volumen er med til at forbedre din arbejdskapacitet (Nucklos & Isuf 2015a).
 
 I tabellen nedenfor er der nogle tommelfingerregler for hvor meget volumen, du laver i en træning. Volumen er en væsentlig faktor ift. muskeltilvækst.
 
@@ -169,7 +168,7 @@ I tabellen nedenfor er der nogle tommelfingerregler for hvor meget volumen, du l
 
 ## Intensitet
 
-Intensiteten måles i forhold til [‘1 repetition maximum’ (1RM)]({% link _posts/2019-10-16-1rm-beregner.md %}), som er den vægt, du netop kan løfte en gang. Hvis du gerne vil løfte med høj intensitet, er du i praksis nødt til at løfte en mindre volumen pr. træning. Ellers vil du hurtigt smadre dig selv helt. 
+Intensiteten måles i forhold til [‘1 repetition maximum’ (1RM)]({% link _posts/2019-10-16-1rm-beregner.md %}), som er den vægt, du netop kan løfte en gang. Hvis du gerne vil løfte med høj intensitet, er du i praksis nødt til at løfte en mindre volumen pr. træning. Ellers vil du hurtigt smadre dig selv helt.
 
 For det meste af din træning er omkring 70-80% af din 1RM et fint interval at løfte i. Du kan se i nedenstående tabel, at det svarer til at løfte med omkring 7-12 gentagelser.
 
@@ -193,7 +192,7 @@ For at få muskeltilvækst kræver det en relativt stor volumen, så hvis du ger
 
 Husk de forskellige principper:
 
-- **General Adaption Syndrome (GAS).** Kroppen reagerer på det samlede stress kroppen udsættes for. Hvis du er stresset i hverdagen, så skal du sørge for at indstille træningen i forhold til det. 
+- **General Adaption Syndrome (GAS).** Kroppen reagerer på det samlede stress kroppen udsættes for. Hvis du er stresset i hverdagen, så skal du sørge for at indstille træningen i forhold til det.
 - **Superkompensation.** Du skal prøve at ramme i superkompensationsfasen, når du skal træne igen. Der hvor kroppen er gået i ‘resistance’-fasen.
 - **Specific Adaptation to Imposed Demands (SAID).** Du bliver bedre til det du træner. Hvis du vil være bedre til at sprinte, skal du sprinte. Hvis du vil være bedre til at hoppe, skal du hoppe.
 - **Progressive overload.** Sørg for at slå en rekord, hver gang du træner. Det kan være en ekstra repetition, et ekstra sæt eller en kortere pause. Begyndere har rigeligt med at øge vægten hver gang.
@@ -214,17 +213,17 @@ Du skal lære at knække i hoften med bløde knæ og hovedet i forlængelse af k
 
 Sprint er en god øvelse, som sagtens kan laves uden at du går all-in, men udfører den med god teknik. Inden du overhovedet går i gang med at sprinte, skal du øve dig i, hvordan du stopper på en god og sikker måde. Der kan sprintes på trapper, i stiger eller bare almindelig sprint. Der er en skadesrisiko ved at sprinte, hvis du ikke er ordentlig varm eller gør det for meget. Nedenstående sprinter er tæt på at være i den perfekte position.
 
-{% include figure image_path="https://images.unsplash.com/photo-1541252260730-0412e8e2108e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=622&q=80" caption="" %}
+{% include figure image_path="https://images.unsplash.com/photo-1541252260730-0412e8e2108e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=5" caption="" %}
 
 - Albueleddene holdes i 90 grader.
-- Håndfladerne er åbne. 
+- Håndfladerne er åbne.
 - Brystkassen oppe.
 - Knæet løftes op mod 80-90 grader.
 - Afslappet ansigt.
 
 ### Spring
 
-Sprint og spring staves næsten på samme måde. På samme måde som sprinten er det vigtigt, at du lærer at lave en god landing, hvor du absorberer energien i benene. 
+Sprint og spring staves næsten på samme måde. På samme måde som sprinten er det vigtigt, at du lærer at lave en god landing, hvor du absorberer energien i benene.
 
 På billedet til højre kan du se en god teknik.
 
@@ -276,11 +275,11 @@ Du får rigtig meget ud af træningen, hvis du fx kan træne tre gange om ugen, 
 Det vigtigste er, at du vælger de rigtige øvelser, der giver mest ift. den tid, du skal bruge på det. Husk specificitetsprincippet (SAID). Øvelser kan generelt deles op i:
 
 - **Basisøvelser**, fx squat, dødløft, bænk, overhead press, pullups, lunges.
-- **Suppleringsøvelser**, fx biceps curl, triceps, cable flies mv. 
+- **Suppleringsøvelser**, fx biceps curl, triceps, cable flies mv.
 
-En af de mest typiske fejl i programlægning er at lægge for stor vægt på suppleringsøvelserne. Start med at vælge basisøvelserne, og hvis der er mere energi bagefter kan du gå i gang med suppleringsøvelserne. 
+En af de mest typiske fejl i programlægning er at lægge for stor vægt på suppleringsøvelserne. Start med at vælge basisøvelserne, og hvis der er mere energi bagefter kan du gå i gang med suppleringsøvelserne.
 
-Helt grundlæggende kan du vælge enten et full body-program eller et split-program. Det er vores helt klare opfattelse, at begyndere skal starte med et helkropsprogram indtil du ikke længere får gode resultater fra den måde at sammensætte et program på. 
+Helt grundlæggende kan du vælge enten et full body-program eller et split-program. Det er vores helt klare opfattelse, at begyndere skal starte med et helkropsprogram indtil du ikke længere får gode resultater fra den måde at sammensætte et program på.
 
 **Valget af øvelser kan være en rigtig god ide ift. at lave progression i sit program. Typisk starter man lidt konservativt ift. antallet af reps og sæt, men måske kan det være en bedre ide at lave en fornuftig progression af øvelserne.**
 
@@ -300,7 +299,7 @@ Et helkropsprogram skal indeholde øvelser, der opfylder følgende kriterier:
 
 Hvis du vælger en øvelse fra hver kategori, så er der en ret god balance i din træning - og der er ikke mange muskelfibre, der undgår at komme på arbejde. Hvis du vælger et horisontalt træk, er det en god ide også at vælge et horisontalt skub og så fremdeles.
 
-**Gratis helkropsprogram**. Vi har lavet et eksempel på et helkropsprogram, som du kan bruge som udgangspunkt for dit træningsprogram. Hent programmet på [motionsplan.dk/gratis-helkropsprogram](/gratis-helkropsprogram/).
+**Gratis helkropsprogram**. Vi har lavet et [gratis eksempel på et helkropsprogram]({% link _posts/2009-05-18-hvordan-opbygger-jeg-et-helkropsprogram.md %}), som du kan bruge som udgangspunkt for dit træningsprogram.
 {: .notice .notice--success }
 
 ### Split program
@@ -357,7 +356,7 @@ De største og mest komplekse øvelser starter træningen. Bentræning bør komm
 
 ### Vælg antallet af gentagelser pr. sæt (reps = intensiteten)
 
-Det mest almindelige for begyndere er at træne fra 8-15 gentagelser i hvert sæt. Hvis du kan lave flere end 15 gentagelser, kan du smække lidt mere vægt på stangen. Hvis du har besluttet dig for at køre 8 reps, så skal du bruge en vægt, du kan løfte 8-9 gange maksimalt. 
+Det mest almindelige for begyndere er at træne fra 8-15 gentagelser i hvert sæt. Hvis du kan lave flere end 15 gentagelser, kan du smække lidt mere vægt på stangen. Hvis du har besluttet dig for at køre 8 reps, så skal du bruge en vægt, du kan løfte 8-9 gange maksimalt.
 
 En tommelfingerregel for hvad intensiteten betyder for dit udbytte:
 
@@ -396,7 +395,7 @@ Længden på disse pauser er naturligvis bare retningslinjer. Du skal lytte til 
 
 Første gang du træner prøver du stille og roligt gennem opvarmningssættene at ramme en vægt, som passer i det rep range, du har valgt. Du noterer jo hver gang nøjagtigt, hvor meget vægt du har på. Hvis du efterhånden i din træning bliver i stand til at løfte flere gentagelser, end dem du har besluttet dig for i din træning i alle sættene, kan du sætte mere vægt på stangen.
 
-En skematisk måde at gøre det på kan være med dobbelt progression. Første træning skal du forsøge at ramme den nedre margin i dit rep range, som antydet i nedenstående eksempel med 3 x 8-10 i squat. Progressionen de første par træninger er, at man kan tage lidt flere gentagelser. På #4. træning rammer løfteren øvre grænse i rep range. Næste gang skal der altså flere kilo på stangen (Bradsted: [Bliv stærkere med dobbelt progression](http://fitness-blog.dk/dobbelt-progression/)):
+En skematisk måde at gøre det på kan være med dobbelt progression. Første træning skal du forsøge at ramme den nedre margin i dit rep range, som antydet i nedenstående eksempel med 3 x 8-10 i squat. Progressionen de første par træninger er, at man kan tage lidt flere gentagelser. På #4. træning rammer løfteren øvre grænse i rep range. Næste gang skal der altså flere kg på stangen (Bradsted: [Bliv stærkere med dobbelt progression](http://fitness-blog.dk/dobbelt-progression/)):
 
 {% include figure image_path="/assets/images/training/dobbelt-progression.png" caption="" %}
 
@@ -414,9 +413,9 @@ Og det ser ud til, at det er virkelig effektivt at tænke sin træning på den m
 
 ### Hvor lang tid tager et træningspas?
 
-Et styrketræningspas kan tage alt fra 45 minutter til et par timer alt efter, hvordan du griber det an. Hvis du holder dig til det anbefalede antal sæt (15-25 sæt), så bør du ikke bruge længere tid på den enkelte træning. 
+Et styrketræningspas kan tage alt fra 45 minutter til et par timer alt efter, hvordan du griber det an. Hvis du holder dig til det anbefalede antal sæt (15-25 sæt), så bør du ikke bruge længere tid på den enkelte træning.
 
-Opvarmningen bør tage omkring 10-20 minutter, hvor en del af tiden bruges på dynamisk mobilitet, og så skal du naturligvis altid huske den specifikke opvarmning til de enkelte løft. Jeg har skrevet mere om [opvarmning til styrketræning her]({% link _posts/2019-10-25-opvarmning.md %}).
+Opvarmningen bør tage omkring 10-20 minutter, hvor en del af tiden bruges på dynamisk mobilitet, og så skal du naturligvis altid huske den specifikke opvarmning til de enkelte løft. Jeg har skrevet mere om [opvarmning til styrketræning her]({% link _posts/2019-10-25-opvarmning-styrketraening.md %}).
 
 ## Mål din fremgang
 
@@ -472,9 +471,9 @@ Det er vigtigt med en plan. Uden en plan går du bare får workout til workout u
 
 ## Hvad er det vigtigste for en træner i programlægningen?
 
-Som træner har du flere primære opgaver. 
+Som træner har du flere primære opgaver.
 
-- **at få folk til at træne.** Det allervigtigste er måske, at du kan inspirere folk til rent faktisk at lave det program, du har lavet. Det gøre du ved at være helt klar over, hvad programmet gør og kunne forklare det enkelt. Hvis de ikke stoler på dig, så gør de de ikke.
+- **at få folk til at træne.** Det allervigtigste er måske, at du kan inspirere folk til rent faktisk at lave det program, du har lavet. Det gøre du ved at være helt klar over, hvad programmet gør og kunne forklare det enkelt. Hvis de ikke stoler på dig, så laver de ikke programmet.
 - **at ingen bliver skadet.** Det kan du sikre dig ved at sætte dig godt ind i teknikken af de enkelte løft, sørge for at udøveren går stille og roligt frem, så de ikke bliver overbelastede og ved at lave et fornuftigt program.
 - **at alle får resultater.** Det gør du ved at tage udgangspunkt i den enkelte, vælge nogle fornuftige øvelser og ‘at få folk til at træne’. Det er altid bedre at resultaterne lader vente lidt på sig, så vi ikke risikerer at folk bliver skadede.
 
@@ -486,7 +485,7 @@ Typisk så har udøverne følge mål for deres træning. Det er de resultater, d
 
 ## Hvad har træneren brug for at vide om atleten?
 
-Som træner er det godt at holde sig orienteret i den nyeste viden. Det allervigtigste er, at du har et enkelt system, som du sørger for at gennemteste med dine udøvere. Træning er individuel, hvilket betyder at en løsning ikke bare passer til alle, men dine overvejelser kan sagtens starte samme sted. 
+Som træner er det godt at holde sig orienteret i den nyeste viden. Det allervigtigste er, at du har et enkelt system, som du sørger for at gennemteste med dine udøvere. Træning er individuel, hvilket betyder at en løsning ikke bare passer til alle, men dine overvejelser kan sagtens starte samme sted.
 
 20% af indsatsen giver 80% af resultaterne. Derfor er dit væsentligste redskab også, at du sørger for at inspirere folk til at lave ordentlige notater om deres træning. Du kan også lave nogle tests, som relaterer sig til udøverens mål.
 
@@ -517,7 +516,7 @@ Vi lærer hele tiden, men i øjeblikket synes vi at følgende tests af bevægels
 
 **Rør tæerne.** Dette er en test på de bremser din krop sætter på dig. Hvis ikke du kan nå tæerne uden de helt store problemer, så er du formentlig ikke klar til at kunne dødløfte. Arbejd således først med bevægeligheden og lav vægt (Gray Cook). Dødløft skal man gøre sig fortjent til.
 
-**Overhead reach against wall.** Inden du begynder at lave overhead press, snatch eller andre tunge øvelser med begge arme på en gang over hovedet, skal du have en ordentlig skuldermobilitet (Cressey 2014). 
+**Overhead reach against wall.** Inden du begynder at lave overhead press, snatch eller andre tunge øvelser med begge arme på en gang over hovedet, skal du have en ordentlig skuldermobilitet (Cressey 2014).
 
 ### Introduktion af øvelser
 
@@ -542,7 +541,7 @@ Hvis en øvelse ikke kan gennemføres teknisk korrekt, så skal den ændres. Må
 
 ### Lær at skalere øvelser op og ned
 
-Der er ikke noget som et perfekt program, der virker for alle. Ofte har man brug for at skalere øvelserne op eller ned ift. den person, som skal udføre programmet. 
+Der er ikke noget som et perfekt program, der virker for alle. Ofte har man brug for at skalere øvelserne op eller ned ift. den person, som skal udføre programmet.
 
 Kropsbevidstheden, træningstilstanden, kropsbygning eller skader kan gøre, at man bliver nødt til at ændre øvelserne.
 

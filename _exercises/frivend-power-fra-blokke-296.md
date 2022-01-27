@@ -1,5 +1,5 @@
 ---
-title: &title "Frivend, power fra blokke"
+title: "Frivend, power fra blokke"
 excerpt: "Start med vægten på blokke, så vægtstangen er cirka ud for dine knæ. Let foroverbøjet skal du med en eksplosiv udstrækning i hoften sætte fart i vægtstangen, så du kan gå under vægten og gribe den på brystkassen med albuerne pegende frem."
 instructions: "Start med vægten på blokke, så vægtstangen er cirka ud for dine knæ. Let foroverbøjet skal du med en eksplosiv udstrækning i hoften sætte fart i vægtstangen, så du kan gå under vægten og gribe den på brystkassen med albuerne pegende frem."
 permalink: /oevelse/frivend-power-fra-blokke/
@@ -7,16 +7,14 @@ redirect_from: /node/296
 id: 296
 language: da
 header:
-  overlay_image: /assets/images/exercises/frivend-power-fra-blokke-0.jpg
   teaser: /assets/images/exercises/frivend-power-fra-blokke-0-320.jpg
-  caption: *title
 tags:
   - hoftedomineret
   - kasse
   - vægtstang
-categories:
-training_type: 
-training_focus: 
+categories: []
+training_type:
+training_focus:
   - hoftedomineret
 equipment:
   - kasse

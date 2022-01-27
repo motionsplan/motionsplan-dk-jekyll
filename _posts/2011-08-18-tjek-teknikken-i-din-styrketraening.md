@@ -1,6 +1,6 @@
 ---
 title: "7 tips til den rigtige teknik i styrketræning "
-seo_title: "Teknik i styrketræning - 7 tips til at løfte rigtigt [2021]"
+seo_title: "Teknik i styrketræning - 7 tips til at løfte rigtigt [2022]"
 permalink: /rigtig-teknik-styrketraening/
 redirect_from:
   - /artikel/tjek-teknikken-i-din-styrketraening/
@@ -42,9 +42,9 @@ Hvis vi helt grundlæggende kigger på det, så kan vi reducere **god teknik er 
 
 En effektiv teknik kræver, at teknikken passer til din kropsbygning. Der er en verden til forskel om du skal lave squat med en kort overkrop og lange ben eller omvendt. Teknikken skal altå passe til din kropsbygning og dit mål.
 
-Hvis du laver squat og dødløft er det en klar fordel rent biomekanisk, at stangen bevæger sig lige op og ned, hvis du gerne vil løfte så mange kilo som muligt og have den bedst mulige balance under løftet.
+Hvis du laver squat og dødløft er det en klar fordel rent biomekanisk, at stangen bevæger sig lige op og ned, hvis du gerne vil løfte så mange kg som muligt og have den bedst mulige balance under løftet.
 
-Hvis du er styrkeløfter og gerne vil løfte så mange kilo som muligt i bænkpres, så kan det være en fordel at ligge stabilt på bænken og mindske _range of motion_, men hvis du gerne vil have brystet til at blive trænet optimalt, så kan en større _range of motion_ måske være at foretrække.
+Hvis du er styrkeløfter og gerne vil løfte så mange kg som muligt i bænkpres, så kan det være en fordel at ligge stabilt på bænken og mindske _range of motion_, men hvis du gerne vil have brystet til at blive trænet optimalt, så kan en større _range of motion_ måske være at foretrække.
 
 ### Minimere skadesrisikoen
 
@@ -54,7 +54,7 @@ Typisk minimerer det skadesrisikoen at være i de neutrale, midtersøgende posit
 
 Den vigtigste parameter i forhold til at minimere skadesrisiko er altså træningsdosering. Det handler ikke om at træne hårdest muligt hver eneste gang, men om at tilpasse træningen til dit nuværende niveau.
 
-Hvis du hellere vil se en video, så fortæller Jacob Beerman lidt mere om det i denne video:
+Hvis du hellere vil se en video, så fortæller Jacob Beermann lidt mere om det i denne video:
 
 {% include video provider="youtube" id="YTyKc2BNKrw" %}
 
@@ -102,7 +102,7 @@ Du kan lære lidt mere om 'butt wink' her:
 
 I øvelser hvor du har bevægelse i knæleddet kan det være hensigtsmæssigt at tæerne peger i samme retning som knæleddet. Så hvis tæerne peger lidt ud til siden, skal knæene pege samme vej, hvis der er en bøjning i knæleddet.
 
-{% include figure image_path="https://images.squarespace-cdn.com/content/v1/592944cb86e6c0040d3c3d27/1555302430426-EJWYADZ4LGXFP8H3ALNZ/ke17ZwdGBToddI8pDm48kMLIFZF-RdJnv53QyKb76bcUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYwL8IeDg6_3B-BRuF4nNrNcQkVuAT7tdErd0wQFEGFSnIOtKmEu9df_BfjCL60WfrLG-xhlkhZ5ekCTmQxIej5k6nlT4eezhur4-uY2HaZbiw/Sarah+Front+view+squat+export+final.jpg?format=2500w" caption="Det mest typiske er at knæene falder lidt ind ad, men det kan faktisk lade sig gøre at træne det. Se fx dette __case__ studie [ONI](https://www.oni.co.nz/library/2019/5/14/valgus-knee-case-study-alec)" alt="teknik i styrketræning" %}
+{% include figure image_path="https://images.squarespace-cdn.com/content/v1/592944cb86e6c0040d3c3d27/1555302430426-EJWYADZ4LGXFP8H3ALNZ/ke17ZwdGBToddI8pDm48kMLIFZF-RdJnv53QyKb76bcUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYwL8IeDg6_3B-BRuF4nNrNcQkVuAT7tdErd0wQFEGFSnIOtKmEu9df_BfjCL60WfrLG-xhlkhZ5ekCTmQxIej5k6nlT4eezhur4-uY2HaZbiw/Sarah+Front+view+squat+export+final.jpg?format=2500w" caption="Det mest typiske er at knæene falder lidt ind ad, men det kan faktisk lade sig gøre at træne det. Se fx dette *case* studie [ONI](https://www.oni.co.nz/library/2019/5/14/valgus-knee-case-study-alec)" alt="teknik i styrketræning" %}
 
 ### 5) Stå på hele foden - 'tripod foot'
 
@@ -110,7 +110,7 @@ Dine fødder er din forbindelse til jorden, så ultimativt kommer en del af kraf
 
 Du kan udnytte 'tripod foot', hvor du mærker at du har kontakt med jorden i tre punkter, som i figuren nedenunder.
 
-{% include figure image_path="https://jacktylerperformance.com/wp-content/uploads/2020/01/FOOT-TRIPOD.png" caption="Udnyt 'tripod foot' for at kunne yde den største kraft i øvelser, hvor det er nødvendigt at du har en god balance." alt="tripod foot" %}
+{% include figure image_path="https://jacktylerperformance.com/wp-content/uploads/2020/01/FOOT-TRIPOD.png" caption="Udnyt 'tripod foot' for at kunne yde den største kraft i øvelser, hvor det er nødvendigt at du har en god balance. Kilde: [jacktylerperformance.com](https://jacktylerperformance.com/the-foot-tripod-how-you-can-immediately-squat-more/)." alt="tripod foot teknik styrketræning" %}
 
 ### 6) Respekter bevægeligheden i skuldrene
 
@@ -184,7 +184,7 @@ Hvis jeg skal lære nogen at dødløfte, så fortæller jeg dem ofte, at man ska
 
 [Konstantīns Konstantinovs](https://en.wikipedia.org/wiki/Konstant%C4%ABns_Konstantinovs) er et eksempel på en styrkeløfter, der dødløfter med sin egen teknik. Konstantinovs løfter jo alligevel nogle relativt tunge vægte, som du kan se i denne Youtube-video.
 
-{% include video provider="youtube" id="HyWf8EoeksA?start=234" %}
+{% include video provider="youtube" id="HyWf8EoeksA" %}
 
 Konstantinovs har løftet 426 kg med en kropsvægt på 140 kg.
 
@@ -196,7 +196,7 @@ Konstantinovs har løftet 426 kg med en kropsvægt på 140 kg.
 
 {% include figure image_path="https://i.pinimg.com/originals/00/2e/9c/002e9cf5c7ec98943d1426efb1e610b2.jpg" caption="Lamar Gant under konkurrence. Gant har pga. sin skoliose et lockout i dødløft, hvor stangen er lidt tættere på jorden end mange andre." alt="Lamar Gant under konkurrence" %}
 
-Et andet eksempel er [Lamar Gant](https://www.hudsonvalleyscoliosis.com/lamar-gant-scoliosis/) som har haft verdensrekorden både i dødløft og i bænkpres for sin vægtklasse. Han løfter med ret krum ryg i dødløft.
+Et andet eksempel er [Lamar Gant](http://web.archive.org/web/20201112015104/https://www.hudsonvalleyscoliosis.com/lamar-gant-scoliosis/){: rel="nofollow noopener" } som har haft verdensrekorden både i dødløft og i bænkpres for sin vægtklasse. Han løfter med ret krum ryg i dødløft.
 
 {% include video provider="youtube" id="FHxTkolCJ0U" %}
 

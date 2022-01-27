@@ -1,42 +1,29 @@
 ---
-title: &title "High throw medicinbold"
-excerpt: ""
+title: "High throw medicinbold"
 instructions: ""
 permalink: /oevelse/high-throw-medicinbold/
 redirect_from: /node/609
 id: 609
 language: da
 header:
-  overlay_image: /assets/images/exercises/high-throw-medicinbold-0.jpg
   teaser: /assets/images/exercises/high-throw-medicinbold-0-320.jpg
-  caption: *title
 tags:
   - Styrketræning
   - knædomineret
   - kropsstamme
   - Medicinbold
-  - Arme
-  - Baller
-  - Forlår
-  - Mave
-  - Ryg
-  - Skuldre
-categories:
-training_type: 
+  - Helkropsøvelse
+categories: []
+training_type:
   - Styrketræning
-training_focus: 
+training_focus:
   - knædomineret
   - kropsstamme
 equipment:
   - Medicinbold
 muscle_group:
-  - Arme
-  - Baller
-  - Forlår
-  - Mave
-  - Ryg
-  - Skuldre
-alternative_titles:
+  - Helkropsøvelse
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/high-throw-medicinbold-0.jpg
     image_path: /assets/images/exercises/high-throw-medicinbold-0-320.jpg
@@ -57,4 +44,4 @@ gallery:
 last_modified_at: 2014-10-30T10:22:28Z
 ---
 
-
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}

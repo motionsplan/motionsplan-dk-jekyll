@@ -6,21 +6,21 @@ excerpt: "Oversigt over alle måder at lave tracking af din træning. Du kan nat
 title: &title "Tracking af træning"
 author_profile: true
 header:
-  overlay_image: https://images.unsplash.com/photo-1589953605483-a2964c38d415?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80
+  overlay_image: https://images.unsplash.com/photo-1589953605483-a2964c38d415?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
   caption: *title
   actions:
     - label: "<i class='fas fa-download'></i> Se alle tests"
       url: "/tests/"
 classes: wide
 feature_row:
-  - image_path: https://images.unsplash.com/photo-1501820434261-5bb046afcf6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=80
-    teaser: https://images.unsplash.com/photo-1501820434261-5bb046afcf6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  - image_path: https://images.unsplash.com/photo-1501820434261-5bb046afcf6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+    teaser: https://images.unsplash.com/photo-1501820434261-5bb046afcf6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
     alt: Se tests
     title: "Tests"
     excerpt: "Virker min træning efter hensigten? Tests kan være en måde at teste, om du bliver bedre over tid. Se alle vores tests."
     url: "/tests/"
     btn_label: "Se tests"
-    btn_class: "btn--danger"
+    btn_class: "btn--info"
 ---
 
 {{ page.excerpt }}

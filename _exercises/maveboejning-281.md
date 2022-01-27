@@ -1,21 +1,19 @@
 ---
-title: &title "Mavebøjning"
-excerpt: "Mavebøjning"
-instructions: "Mavebøjning"
+title: "Mavebøjning"
+instructions: ""
 permalink: /oevelse/maveboejning/
 redirect_from: /node/281
 id: 281
 language: da
 header:
-  overlay_image: /assets/images/exercises/maveboejning-0.jpg
   teaser: /assets/images/exercises/maveboejning-0-320.jpg
-  caption: *title
-tags:
+tags: []
 categories:
-training_type: 
-training_focus: 
-equipment:
-muscle_group:
+  - Maveøvelser
+training_type: []
+training_focus: []
+equipment: []
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/maveboejning-0.jpg
     image_path: /assets/images/exercises/maveboejning-0-320.jpg
@@ -32,8 +30,10 @@ gallery:
 last_modified_at: 2011-05-26T15:27:48Z
 ---
 
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}
+
 Læg dig på ryggen med bøjede ben, så fødderne er godt placeret på gulvet. Spænd i maven og bevæg overkroppen opad ca. 20 cm over gulvet. Efterfølgende lægger du dig på gulvet igen og kan gentage øvelsen. Hænderne kan placeres foran kroppen, som vist på billedet eller bagved hovedet, husk dog ikke at benytte armene til at trække dig opad.
 
 Variation:
 
-\- Skrå mavebøjning (Armene placeres bag hovedet, under hver gentagelse skal den ene albue mødes med modsatte knæ skiftevis.)
+- Skrå mavebøjning (Armene placeres bag hovedet, under hver gentagelse skal den ene albue mødes med modsatte knæ skiftevis.)

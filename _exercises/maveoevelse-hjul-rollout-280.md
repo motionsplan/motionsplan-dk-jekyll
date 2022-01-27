@@ -1,5 +1,5 @@
 ---
-title: &title "Maveøvelse, rollout med hjul (ab wheel)"
+title: "Maveøvelse, rollout med hjul (ab wheel)"
 excerpt: "Start på knæene med strakt overkrop. Rul langsomt så langt ud du kan og træk derefter hjulet tilbage igen indtil du er oprejst på knæene. Gentag."
 instructions: "Start på knæene med strakt overkrop. Rul langsomt så langt ud du kan og træk derefter hjulet tilbage igen indtil du er oprejst på knæene. Gentag."
 permalink: /oevelse/maveoevelse-hjul-rollout/
@@ -10,21 +10,18 @@ redirect_from:
 id: 280
 language: da
 header:
-  overlay_image: /assets/images/exercises/maveoevelse-hjul-rollout-0.jpg
   teaser: /assets/images/exercises/maveoevelse-hjul-rollout-0-320.jpg
-  caption: *title
 tags:
   - kropsstamme
   - hjul
-  - 
 categories:
-training_type: 
-training_focus: 
+  - Maveøvelser
+training_type: []
+training_focus:
   - kropsstamme
 equipment:
   - hjul
-muscle_group:
-  - 
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/maveoevelse-hjul-rollout-0.jpg
     image_path: /assets/images/exercises/maveoevelse-hjul-rollout-0-320.jpg
@@ -40,6 +37,8 @@ gallery:
     title: "Maveøvelse, rollout med hjul"
 last_modified_at: 2011-04-26T23:45:09Z
 ---
+
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}
 
 'Ab wheel out' kan varieres i det uendelige. Når du er blevet stærk nok, kan du prøve at rulle ud, hvor du kun står på tæerne.
 

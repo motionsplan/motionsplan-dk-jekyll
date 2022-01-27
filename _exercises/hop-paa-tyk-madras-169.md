@@ -1,5 +1,5 @@
 ---
-title: &title "Hop på tyk madras"
+title: "Hop på tyk madras"
 excerpt: "Stil dig i en madras og hop så højt du kan ved hvert hop."
 instructions: "Stil dig i en madras og hop så højt du kan ved hvert hop."
 permalink: /oevelse/hop-paa-tyk-madras/
@@ -7,9 +7,7 @@ redirect_from: /node/169
 id: 169
 language: da
 header:
-  overlay_image: /assets/images/exercises/hop-paa-tyk-madras-0.jpg
   teaser: /assets/images/exercises/hop-paa-tyk-madras-0-320.jpg
-  caption: *title
 tags:
   - Kondition og puls
   - Kondition
@@ -19,9 +17,9 @@ tags:
   - Forlår
 categories:
   - Kondition og puls
-training_type: 
+training_type:
   - Kondition
-training_focus: 
+training_focus:
   - knædomineret
 equipment:
   - madras
@@ -35,6 +33,8 @@ gallery:
     title: "Hop på tyk madras"
 last_modified_at: 2014-10-12T19:09:47Z
 ---
+
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}
 
 Stil dig op på madrassen og hop så højt du kan. Øvelsen kan varieres ved enten at:
 

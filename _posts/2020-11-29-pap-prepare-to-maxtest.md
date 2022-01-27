@@ -4,8 +4,8 @@ permalink: /pap-post-activation-potentiation-1rm-maxtest/
 language: da
 author: lsolesen
 header:
-  overlay_image: https://images.unsplash.com/photo-1532382752999-45b3dc5d4bf2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80
-  teaser: https://images.unsplash.com/photo-1532382752999-45b3dc5d4bf2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1532382752999-45b3dc5d4bf2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1532382752999-45b3dc5d4bf2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Styrketræning
@@ -29,7 +29,7 @@ Først og fremmest så skal du ikke lave en maxtest alt for ofte. Det koster nem
 
 Jacob Beermann foreslår, at du kan [sammensætte din træning på denne måde](https://maxer.dk/artikler/maxtest), hvis du vil lave en maxtest, og jeg tænker at samme fremgangsmåde kan være anvendelig i forhold til et [styrkeløftstævne og styrkeløftkonkurrence](/powerlifting-rules/).
 
-Beermann foreslår, at du starter med en **15 minutters generel dynamisk opvarmning**, hvor du gradvist øger intensiteten. Jeg har skrevet mere om [generel opvarmning til styrketræning her](/opvarmning/). Derefter laver du **5 minutters specifik opvarmning rettet mod øvelsen**. Når du har lavet en grundig opvarmning, så går du i gang med at selve øvelsen. Start med relativt let vægt for at få en fornemmelse for bevægelsen, og så begynder du **langsomt at sætte mere og mere vægt på stangen**. 
+Beermann foreslår, at du starter med en **15 minutters generel dynamisk opvarmning**, hvor du gradvist øger intensiteten. Jeg har skrevet mere om [generel opvarmning til styrketræning her](/opvarmning-styrketraening/). Derefter laver du **5 minutters specifik opvarmning rettet mod øvelsen**. Når du har lavet en grundig opvarmning, så går du i gang med at selve øvelsen. Start med relativt let vægt for at få en fornemmelse for bevægelsen, og så begynder du **langsomt at sætte mere og mere vægt på stangen**. 
 
 Du kan eksempelvis gå frem i din opvarmning til maxtesten på denne måde:
 
@@ -46,9 +46,9 @@ Denne måde at varme op på til en maxtest og en 1RM-test minder meget om [Tim H
 
 Når du skal lave en max-test og 1RM-test, så kan udnytte fænomenet _post-activation potentiation_ (PAP). De fleste protokoller med PAP udnytter en tung styrketræningsøvelse, fx squat, efterfulgt af en højhastighedsøvelse, fx vertikalt hop. Ideen er, at du ved at squatte en tung vægt uden at gå til _failure_ og derefter holde pause et par minutter, så kan du springe højere end hvis ikke du havde løftet vægten.
 
-[Stack skriver](https://www.stack.com/a/testing-your-one-rep-max-use-this-surprising-science-backed-trick-to-move-more-weight), at effekten også kan udnyttes den anden vej rundt. Hvis du **først udfører en ekplosiv bevægelse**, holder en kort pause, så kan du **løfte mere efterfølgende**.
+[Stack skriver](https://www.stack.com/a/testing-your-one-rep-max-use-this-surprising-science-backed-trick-to-move-more-weight), at effekten også kan udnyttes den anden vej rundt. Hvis du **først udfører en eksplosiv bevægelse**, holder en kort pause, så kan du **løfte mere efterfølgende**.
 
-[Masamoto et al (2003)](https://www.ncbi.nlm.nih.gov/pubmed/12580658) undersøgte, hvordan _to depth jumps_ udført 30 sekunder før et 1RM forsøg i squat påvirkede den maksimale styrke. _Depth jumps_ er en højintensiv plyometrisk øvelse. Den gennemsnitlige styrke steg fra 139,6 kg til 144 kg, hvilket er en 3,5% forbedring. Forskerne undersøgte også, hvad effekten var af at lave _tre tuck jumps_ (som kan karakteriseres som medium intensitet), men der var ingen signifikant forbedring af den maksimale styrke.
+[Masamoto et al (2003)](https://www.ncbi.nlm.nih.gov/pubmed/12580658) undersøgte, hvordan _to depth jumps_ udført 30 sekunder før et 1RM forsøg i squat påvirkede den maksimale styrke. _Depth jumps_ er en [højintensiv plyometrisk øvelse](/plyometrisk-traening/). Den gennemsnitlige styrke steg fra 139,6 kg til 144 kg, hvilket er en 3,5% forbedring. Forskerne undersøgte også, hvad effekten var af at lave _tre tuck jumps_ (som kan karakteriseres som medium intensitet), men der var ingen signifikant forbedring af den maksimale styrke.
 
 Studiet tyder altså på, at intensiteten i bevægelsen har betydning for, hvor godt PAP virker.
 

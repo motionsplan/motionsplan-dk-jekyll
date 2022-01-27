@@ -1,5 +1,6 @@
 ---
 title: "Halvtrinde knæbøjer"
+seo_title: "Halvtrinde knæbøjer | Semitendinosus | Muskler"
 joint:
   - Knæleddet
   - Hofteleddet
@@ -15,10 +16,12 @@ tags:
   - imagemap
   - fitnessinstruktør
   - muskel
-origin: 
-  da: 
-insertion: 
-  da: 
+categories:
+  - Muskler
+origin:
+  da:
+insertion:
+  da:
 function:
   da:
     - short: Fleksion i knæet
@@ -36,5 +39,7 @@ coords:
   - "434,283,429,299,429,310,426,326,424,339,428,358,430,355,429,343,434,324,437,314,439,296"
   - "477,282,475,292,472,307,478,325,482,340,483,348,484,357,487,337,483,307,484,291"
 ---
+
+{{ page.name.da | capitalize }} hedder på latin *{{ page.name.latin | downcase }}*. Musklen laver {% for f in page.function.da %}{% if forloop.last == true and page.function.da.size > 1 %} og {% endif %}{{ f.short | downcase  }}{% if forloop.last == false and page.function.da.size > 1 %}, {% endif %}{% endfor %}. Musklen er en del af {{ page.functional_group | join: ", " | downcase }}.
 
 Semimembranosus er en del af baglåret eller _hamstrings_ sammen med [biceps femoris]({% link _anatomy/biceps-femoris.md %}) og [semimembranosus]({% link _anatomy/semimembranosus.md %}).

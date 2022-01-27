@@ -1,5 +1,5 @@
 ---
-title: &title "Farmer walk: Komplet guide til farmers walk"
+title: "Farmer walk: Komplet guide til farmers walk"
 seo_title: "Farmers Walk • 4 overbevisende grunde for at gå farmer walks »"
 instructions: &instructions "I farmer walk starter du med at stå mellem vægtene. Tag vægtene i hver hånd og rejs dig op med ryggen ret og kig fremad. Gå med korte skridt og husk at trække vejret. Gå omkring 15-20 meter."
 excerpt: *instructions
@@ -8,18 +8,18 @@ redirect_from: /node/304
 id: 304
 language: da
 header:
-  overlay_image: /assets/images/exercises/farmerwalk-0.jpg
   teaser: /assets/images/exercises/farmerwalk-0-320.jpg
-  caption: *title
 tags:
   - loaded carry
   - carry
   - crossfit
+  - featured
 categories:
-training_type: 
-training_focus: 
-equipment:
-muscle_group:
+  - Loaded carries
+training_type: []
+training_focus: []
+equipment: []
+muscle_group: []
 alternative_titles:
   - Farmer's walk
   - Farmerwalk
@@ -58,4 +58,4 @@ Farmer walks er meget funktionelle. Du løfter en tung vægt, som du går med. D
 
 Der er mange muligheder for at variere farmer walk. Du kan variere vægten, du løfter, distancen du går, pauserne mellem sæt og antallet af sæt, du laver. Jeg bruger også ofte farmer walks til slut i min træning for at få noget variation i det hele taget. Vægten varieres alt efter styrke og alder.
 
-Læs mere om [loaded carries hos bodylab.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/loaded-carries-2778c1.html).
+Læs mere om [loaded carries hos bodylab.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/loaded-carries-2778c1.html){: rel="sponsored nofollow noopener" }.

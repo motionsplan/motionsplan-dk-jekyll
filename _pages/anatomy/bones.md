@@ -3,14 +3,15 @@ layout: single
 title: &title "Skelettet, knogler og knogletyper 🦴"
 excerpt: "Skelettet består af knogler. Knoglerne afstiver kroppen og agerer vægtstænger for musklerne, så kroppen kan bevæge sig. Knoglerne opdeles i forskellige knogletyper."
 permalink: /knogler/
+categories:
+  - Anatomi
 tags:
   - anatomi
 header:
-  teaser: https://images.unsplash.com/photo-1530210124550-912dc1381cb8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
-  overlay_image: https://images.unsplash.com/photo-1530210124550-912dc1381cb8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
+  teaser: https://images.unsplash.com/photo-1530210124550-912dc1381cb8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1530210124550-912dc1381cb8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
   caption: *title
 toc: true
-author_profile: true
 sidebar:
   nav: anatomi
 feature_row:
@@ -18,6 +19,7 @@ feature_row:
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/skelettet-anatomi-plakat-2/
     title: Skelettet - Anatomi plakat
     rel: sponsored nofollow noopener
+breadcrumbs: true
 ---
 
 Skelettet består af knogler. Jeg beskriver her lidt om anatomi og de forskellige knogler i kroppen. Knoglerne i menneskekroppen findes i forskellige knogletyper. Jeg kommer ind på rørknogler, uregelmæssige knogler, flade knogler og korte knogler.
@@ -49,7 +51,7 @@ Knoglestilladset fungerer delvist som et lager og forsyningsområde for disse mi
 
 Knogler består af organisk materiale og uorganiske salte. Det organiske materiale gør skelettet blødt og bøjeligt og gør at knoglerne let kan genopbygges. De uorganiske salte giver knoglen evnen til at bevare formen og giver støtte. Med alderen bliver andelen af de kalksaltene højere, hvilket typisk gør knoglerne lidt mere skøre, og knoglerne har sværere ved at hele.
 
-{% include figure image_path="https://vignette.wikia.nocookie.net/humanbiologi/images/7/79/0619.jpg/revision/latest?cb=20110618180044&path-prefix=da" caption="Rørknogle som viser forskellen mellem børns og voksnes knogler" alt="Rørknogle som viser forskelle i knogler mellem børn og voksne" %}
+{% include figure image_path="https://vignette.wikia.nocookie.net/humanbiologi/images/7/79/0619.jpg/revision/latest?cb=20110618180044&path-prefix=da" caption="Rørknogle som viser forskellen mellem børns og voksnes knogler." alt="Rørknogle som viser forskelle i knogler mellem børn og voksne" %}
 
 Knoglerne er beklædt med en tynd benhinde, som kan danne nye knogleceller indvendigt. På den måde kan knoglerne blive tykkere og skader kan heles.
 
@@ -68,7 +70,7 @@ Knogler kan opdeles i fire forskellige knogletyper:
 - **Korte knogler**. De korte knogler er fx håndrodens knogler og fodrodens knogler.
 - **Uregelmæssige knogler**. De uregelmæssige knogler er fx rygsøjlens knogler.
 
-{% include figure image_path="https://vignette.wikia.nocookie.net/humanbiologi/images/e/e4/0607.jpg/revision/latest?cb=20110618173735&path-prefix=da" caption="Knogletyper i menneskekroppen: rørknogler, flade knogler, korte knogler og uregelmæssige knogler" alt="Knogletyper: rørknogler, flade knogler, korte knogler og uregelmæssige knogler" %}
+{% include figure image_path="https://open.oregonstate.education/app/uploads/sites/48/2019/07/601_Bone_Classification_revised-874x1024.png" caption="Knogletyper i menneskekroppen: rørknogler, flade knogler, korte knogler og uregelmæssige knogler. Kilde: [open.oregonstate.education](https://open.oregonstate.education/aandp/chapter/6-2-bone-classification/)." alt="Knogletyper: rørknogler, flade knogler, korte knogler og uregelmæssige knogler" %}
 
 ## Oversigt over knogler i kroppen
 

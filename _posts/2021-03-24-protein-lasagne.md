@@ -1,6 +1,6 @@
 ---
 title: &title "Proteinlasagne - lækker lasagne med højt indhold af protein"
-seo_title: "Proteinlasagne - lækker lasagne med højt indhold af protein »"
+seo_title: "Proteinlasagne: Lækker lasagne med højt indhold af protein"
 permalink: /opskrift/protein-lasagne/
 language: da
 header:

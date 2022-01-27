@@ -1,5 +1,5 @@
 ---
-title: &title "Squat med vægtstang foran"
+title: "Squat med vægtstang foran"
 excerpt: "Lav en squat med stangen liggende på brystet. Vægt på hele foden. Hold ryggen ret. Gå så langt ned i knæ som du kan."
 instructions: "Lav en squat med stangen liggende på brystet. Vægt på hele foden. Hold ryggen ret. Gå så langt ned i knæ som du kan."
 permalink: /oevelse/squat-med-vaegtstang-foran/
@@ -8,9 +8,7 @@ id: 15
 key: 15
 language: da
 header:
-  overlay_image: /assets/images/exercises/squat-med-vaegtstang-foran-0.jpg
   teaser: /assets/images/exercises/squat-med-vaegtstang-foran-0-320.jpg
-  caption: *title
 tags:
   - Ben
   - Styrketræning
@@ -21,9 +19,10 @@ tags:
   - fitnessinstruktør
 categories:
   - Ben
-training_type: 
+  - Squat
+training_type:
   - Styrketræning
-training_focus: 
+training_focus:
   - knædomineret
 equipment:
   - vægtstang

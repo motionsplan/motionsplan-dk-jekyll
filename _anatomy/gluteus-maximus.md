@@ -1,5 +1,6 @@
 ---
 title: "Den store sædemuskel"
+seo_title: "Den store sædemuskel | Gluteus Maximus | Muskler"
 functional_group:
   - Hoftestrækkere
 joint:
@@ -13,9 +14,11 @@ tags:
   - imagemap
   - fitnessinstruktør
   - muskel
-origin: 
+categories:
+  - Muskler
+origin:
   da: Hofteben og korsben
-insertion: 
+insertion:
   da: Øverst på bagsiden af låret og dens fascie
 function:
   da:
@@ -33,3 +36,5 @@ image_focus: /assets/images/anatomy/focus-gluteus-maximus.jpg
 coords:
   - "440,220,417,237,415,261,423,279,445,280,457,264,466,281,488,282,497,265,494,237,474,220,457,241"
 ---
+
+{{ page.name.da | capitalize }} hedder på latin *{{ page.name.latin | downcase }}*. Musklen laver {% for f in page.function.da %}{% if forloop.last == true and page.function.da.size > 1 %} og {% endif %}{{ f.short | downcase  }}{% if forloop.last == false and page.function.da.size > 1 %}, {% endif %}{% endfor %}. Musklen er en del af {{ page.functional_group | join: ", " | downcase }}.

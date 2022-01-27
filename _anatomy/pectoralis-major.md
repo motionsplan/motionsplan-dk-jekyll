@@ -1,5 +1,6 @@
 ---
 title: Den store brystmuskel
+seo_title: "Den store brystmuskel | Pectoralis Major | Muskler"
 functional_group:
   - Armens fremadføring
 joint:
@@ -17,6 +18,8 @@ tags:
   - imagemap
   - fitnessinstruktør
   - muskel
+categories:
+  - Muskler
 function:
   da:
     - short: Abducts the arm at the shoulder.
@@ -37,3 +40,5 @@ coords:
   - "133,96,118,97,103,102,101,114,104,126,108,138,117,143,139,141,141,121"
   - "155,97,146,120,149,142,167,143,181,136,186,117,183,106,171,98"
 ---
+
+{{ page.name.da | capitalize }} hedder på latin *{{ page.name.latin | downcase }}*. Musklen laver {% for f in page.function.da %}{% if forloop.last == true and page.function.da.size > 1 %} og {% endif %}{{ f.short | downcase  }}{% if forloop.last == false and page.function.da.size > 1 %}, {% endif %}{% endfor %}. Musklen er en del af {{ page.functional_group | join: ", " | downcase }}.

@@ -1,15 +1,12 @@
 ---
-title: &title "One legged counter balanced seat on bench"
-excerpt: ""
+title: "One legged counter balanced seat on bench"
 instructions: ""
 permalink: /oevelse/one-legged-counter-balanced-seat-bench/
 redirect_from: /node/712
 id: 712
 language: da
 header:
-  overlay_image: /assets/images/exercises/one-legged-counter-balanced-seat-bench-0.jpg
   teaser: /assets/images/exercises/one-legged-counter-balanced-seat-bench-0-320.jpg
-  caption: *title
 tags:
   - Koordination og balance
   - Balance
@@ -20,10 +17,10 @@ tags:
   - Baller
 categories:
   - Koordination og balance
-training_type: 
+training_type:
   - Balance
   - Styrketræning
-training_focus: 
+training_focus:
   - knædomineret
 equipment:
   - bænk
@@ -49,4 +46,4 @@ video:
 last_modified_at: 2016-10-18T07:18:12Z
 ---
 
-
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}

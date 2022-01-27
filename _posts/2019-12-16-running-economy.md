@@ -1,6 +1,6 @@
 ---
 title: "Beregn din løbeøkonomi: 4 tips til træning af løbeøkonomi 🏃"
-seo_title: "Løbeøkonomi - 4 tips til at løbe mere effektivt [Beregner] »"
+seo_title: "Løbeøkonomi - 4 tips til at løbe mere effektivt [Beregner]"
 description: "Hvad er løbeøkonomi, og hvordan beregner du din løbeøkonomi. Komplet guide til hvordan du forbedrer din løbeøkonomi - og 4 tips til din træning."
 permalink: /lobeokonomi/
 redirect_from:
@@ -8,12 +8,11 @@ redirect_from:
 excerpt: "En god løbeøkonomi er evnen til at holde høj fart ved et minimalt energiforbrug. Du får en definition af løbeøkonomi, en beregner og tips til, hvordan du forbedrer og træner din løbeøkonomi."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80
-  teaser: https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: "Beregn din løbeøkonomi: Løbeteknik er en vigtig faktor."
   alt: "Photo by Fitsum Admasu on Unsplash"
 category:
-  - Kondition
   - Løb
 tags:
   - beregner
@@ -45,9 +44,10 @@ feature_row_stryd:
     alt: "STRYD Wattmåler - Next Generation"
     title: "STRYD Wattmåler - Next Generation"
     excerpt: "STRYD er en wattmåler til løberne. Du kan bruge wattmåleren til at arbejde med din løbeøkonomi og afprøve lidt forskellige teknikker for at se, hvordan din kraft og hastighed ændrer sig i forhold til, hvor hårdt arbejdet er."
-    url: "https://www.hechmannsport.dk/product-page/stryd-running-power-meter"
+    url: "https://buy.stryd.com/store?referrer_id=c444f8a6-8d83-59d2-7060-6e7eddbaf413"
     btn_label: "Se prisen"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 ---
 
 Hvis du gerne vil løbe hurtigere, kan det betale sig at forbedre din løbeøkonomi. Jeg har derfor researchet lidt på løbeøkonomi, præsenterer en definition, og dykker ned i hvilke faktorer der påvirker din løbeøkonomi.
@@ -91,7 +91,7 @@ En højere procentdel af glykogen i forbrændingen giver potentiale for mere kra
 2. **Løbeteknikken**
 Løbeteknikken er i høj grad med til at påvirke løbeøkonomien. Det kan være mange parametre, man kan kigge på. Kadence, GCT, benlængde, armtræk, fodisættet, hoftevinklen, knæløftet, udstrækningen af benet, hvor meget læggene løftes og ankelvinklen.
 3. **Effektivitet i bevægelserne**
-Styrketræning og plyometrisk træning kan også være med til at forbedre vævets og musklernes effektivitet i forbindelse med bevægelser inden for samme løbeteknik.
+Styrketræning og [plyometrisk træning](/plyometrisk-traening/) kan også være med til at forbedre vævets og musklernes effektivitet i forbindelse med bevægelser inden for samme løbeteknik.
 
 ## Hvorfor er det interessant at snakke om løbeøkonomi?
 

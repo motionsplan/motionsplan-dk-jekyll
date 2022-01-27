@@ -1,15 +1,12 @@
 ---
-title: &title "One-legged squat in TRX"
-excerpt: ""
+title: "One-legged squat in TRX"
 instructions: ""
 permalink: /oevelse/one-legged-squat-trx/
 redirect_from: /node/561
 id: 561
 language: da
 header:
-  overlay_image: /assets/images/exercises/one-legged-squat-trx-0.jpg
   teaser: /assets/images/exercises/one-legged-squat-trx-0-320.jpg
-  caption: *title
 tags:
   - Helkropsøvelse
   - trx
@@ -17,8 +14,9 @@ tags:
   - Forlår
 categories:
   - Helkropsøvelse
-training_type: 
-training_focus: 
+  - Squat
+training_type: []
+training_focus: []
 equipment:
   - trx
 muscle_group:
@@ -44,4 +42,4 @@ gallery:
 last_modified_at: 2015-01-02T09:18:15Z
 ---
 
-
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}

@@ -1,5 +1,5 @@
 ---
-title: &title "Armstrækning TRX"
+title: "Armstrækning TRX"
 excerpt: "Start med strakt krop og strakte arme i TRX'en. Sænk dig derefter ned mod gulvet og stræk armene igen. Hold kroppen ret gennem hele øvelsen. "
 instructions: "Start med strakt krop og strakte arme i TRX'en. Sænk dig derefter ned mod gulvet og stræk armene igen. Hold kroppen ret gennem hele øvelsen. "
 permalink: /oevelse/armstraekning-trx/
@@ -9,19 +9,18 @@ redirect_from:
 id: 534
 language: da
 header:
-  overlay_image: /assets/images/exercises/armstraekning-trx-0.jpg
   teaser: /assets/images/exercises/armstraekning-trx-0-320.jpg
-  caption: *title
 tags:
   - Pres
   - trx
 categories:
   - Pres
-training_type: 
-training_focus: 
+  - Armstrækninger
+training_type: []
+training_focus: []
 equipment:
   - trx
-muscle_group:
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/armstraekning-trx-0.jpg
     image_path: /assets/images/exercises/armstraekning-trx-0-320.jpg
@@ -34,6 +33,8 @@ gallery:
 last_modified_at: 2013-10-04T14:13:01Z
 ---
 
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}
+
 Beskrivelse af øvelsen:
 
 Armstrækning er en god øvelse for bryst, triceps og kropsstammen. Der er mange variationer og meninger omkring armstrækninger. Her er vores anbefalinger.
@@ -42,7 +43,7 @@ Armstrækning er en god øvelse for bryst, triceps og kropsstammen. Der er mange
 
 Hænderne placeres i gulvet ud for brystbenet og skuldrene er sænkede. Vi anbefaler at du bruger den afstand mellem hænderne, som du ville bruge, hvis du skulle skubbe noget.
 
-**Respektér skuldrenes bevægelighed.** Inden du begynder armstrækninger, kan det være en god ide at tjekke, hvor bevægelig du er i skulerleddet. De fleste ville kunne få brystet og næsen tæt på gulvet samtidig.
+**Respektér skuldrenes bevægelighed.** Inden du begynder armstrækninger, kan det være en god ide at tjekke, hvor bevægelig du er i skulderleddet. De fleste ville kunne få brystet og næsen tæt på gulvet samtidig.
 
 **Arbejd i fuldt bevægeudslag.** Sørg for at komme så tæt på gulvet som muligt, og stræk armene helt, når du går op igen. Skulderbladene skal arbejde på siden af brystkassen, og ved at gå helt op aktiverer du musklerne, der er ansvarlige for at holde skulderbladet inde også aktiveres.
 

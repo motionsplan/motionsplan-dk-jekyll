@@ -3,8 +3,8 @@ title: &title "Muskelømhed: Hvorfor får jeg ømme muskler efter træning?"
 permalink: /omme-muskler-efter-traening/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1610360373636-08dd2b883ea5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80
-  teaser: https://images.unsplash.com/photo-1610360373636-08dd2b883ea5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1610360373636-08dd2b883ea5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1610360373636-08dd2b883ea5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Træning
@@ -21,7 +21,7 @@ Du kan få ømme muskler efter træning, hvis du belaster din krop mere end du p
 
 Det fleste kender det. Du har trænet mere end du plejer, eller du har lavet nogle nye øvelser, og nu gør det ondt i musklerne. Fænomenet kaldes også **andendagsømhed** eller _Delayed Onset Muscle Soreness_ (DOMS). 
 
-Hvad er Delayed Onset Muscle Soreness (DOMS)? **Delayed Onset Muslce Soreness er, når du du oplever at musklerne er ømme efter træning, fordi du har trænet hårdere end du plejer eller bevæget dig på en ny måde.**
+Hvad er Delayed Onset Muscle Soreness (DOMS)? **Delayed Onset Muslce Soreness er, når du oplever at musklerne er ømme efter træning, fordi du har trænet hårdere end du plejer eller bevæget dig på en ny måde.**
 
 Der står mange forskellige forklaringer af, hvorfor du får ømme muskler efter træning og fysisk aktivitet på nettet, men alle er ikke lige pålidelige. I det følgende kigger jeg på, hvilke forklaringsmodeller der er mest sandsynlige. 
 

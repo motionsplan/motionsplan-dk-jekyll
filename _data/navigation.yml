@@ -9,9 +9,9 @@ main:
   - title: "Krop & Sundhed"
     url: /krop-og-sundhed/
   - title: "Til fitnessinstruktøren"
-    url: /fitness/
+    url: /fitnessinstruktoer/
   - title: "Styrketræning"
-    url: /styrke/
+    url: /styrketraening/
   - title: "Kondition"
     url: /kondition/
   - title: "Løb"
@@ -59,7 +59,7 @@ blog:
         url: /armbojninger-eller-armstraekninger-pushups/
       - title: "Pull ups og chin ups"
         url: /chinup-vs-pullup/
-      - title: "Strækøvelser og udstrækningsøvelsre"
+      - title: "Strækøvelser og udstrækningsøvelser"
         url: /udstraekning-udspaending/
   - title: "Populære tests"
     children:
@@ -85,7 +85,6 @@ anatomi:
         url: /led/
       - title: "Muskler"
         url: /muskler/
-muscles:
   - title: "Led"
     url: /led/
     children:
@@ -101,9 +100,20 @@ muscles:
         url: /joints/rygsojlen/
       - title: Skulderleddet og -bladet (skulderbæltet)
         url: /joints/skulderleddet/
-
-  - title: "Skeletmuskler"
+  - title: "Muskler"
     url: "/muskler/"
+    children:
+      - title: Armmuskler
+        url: /muskler/arme/
+      - title: Rygmuskler
+        url: /muskler/ryggen/
+      - title: Maveøvelser
+        url: /muskler/mave/
+      - title: Benmuskler
+        url: /muskler/ben/
+muscles:
+  - title: Benmuskler
+    url: /muskler/ben/
     children:
       - title: Adductor Brevis
         url: /adductor-brevis/
@@ -111,18 +121,39 @@ muscles:
         url: /adductor-longus/
       - title: Den store indadfører
         url: /adductor-magnus/
-      - title: Aconeus
-        url: /anconeus/
-      - title: Tohovedede armbøjer
-        url: /biceps-brachii/
+      - title: Den slanke indadfører
+        url: /gracilis/
+      - title: Pectineus
+        url: /pectineus/
+      - title: Skræddermusklen
+        url: /sartorius/
+      - title: Halvsenede knæbøjer
+        url: /semimembranosus/
+      - title: Halvtrinde knæbøjer
+        url: /semitendinosus/
       - title: Den tohovedede knæbøjer
         url: /biceps-femoris/
+      - title: Firehovede knæstrækker
+        url: /quadriceps-femoris/
+      - title: Forreste skinnebensmuskel
+        url: /tibialis-anterior/
+      - title: Flyndermusklen
+        url: /soleus/
+      - title: Den tohovedede lægmuskel
+        url: /gastrocnemius/
+  - title: Armmuskler
+    url: /muskler/arme/
+    children:
+      - title: Biceps
+        url: /biceps-brachii/
       - title: Brachialis
+        url: /brachialis/
+      - title: Brachioradialis
         url: /brachioradialis/
-      - title: Skuldermuskel
-        url: /deltoideus/
-      - title: Rygstrækkere
-        url: /erector-spinae/
+      - title: Triceps
+        url: /triceps-brachii/
+      - title: Aconeus
+        url: /anconeus/
       - title: Extensor Carpi Radialis Longus
         url: /extensor-carpi-radialis-longus/
       - title: Extensor Carpi Ulnaris
@@ -131,72 +162,238 @@ muscles:
         url: /extensor-digitori-minimi/
       - title: Extensor Digitorum
         url: /extensor-digitorum/
-      - title: Ydre skrå mavemuskel
-        url: /external-oblique/
       - title: Flexor Carpi Radialis
         url: /flexor-carpi-radialis/
       - title: Flexor Carpi Ulnaris
         url: /flexor-carpi-ulnaris/
-      - title: Den tohovedede lægmuskel
-        url: /gastrocnemius/
+  - title: Skuldermuskler
+    children:
+      - title: Skuldermuskel
+        url: /deltoideus/
+      - title: Serratus Anterior
+        url: /serratus-anterior/
+  - title: Rygmuskler
+    url: /muskler/ryggen/
+    children:
+      - title: Trapezius
+        url: /trapezius/
+      - title: Rygstrækkere
+        url: /erector-spinae/
+      - title: Infraspinatus
+        url: /infraspinatus/
+      - title: Quadratus lumborum
+        url: /quadratus-lumborum/
+      - title: Rhombemusklen
+        url: /rhomboideus/
+      - title: Bred rygmuskel
+        url: /latissimus-dorsi/
+      - title: Teres Major
+        url: /teres-major/
+      - title: Teres Minor
+        url: /teres-minor/
+  - title: Brystmuskler
+    children:
+      - title: Brystmuskel
+        url: /pectoralis-major/
+      - title: Lille brystmuskel
+        url: /pectoralis-minor/
+  - title: Mavemuskler
+    url: /muskler/mave/
+    children:
+      - title: Lige mavemuskel
+        url: /rectus-abdominis/
+      - title: Indre skrå mavemuskel
+        url: /internal-oblique/
+      - title: Ydre skrå mavemuskel
+        url: /external-oblique/
+      - title: Bugpressen
+        url: /transversus-abdominis/
+  - title: Hoftemuskler
+    children:
+      - title: Hoftebøjeren
+        url: /iliopsoas/
       - title: Den store sædemuskel
         url: /gluteus-maximus/
       - title: Den mellemste sædemuskel
         url: /gluteus-medius/
       - title: Den lille sædemuskel
         url: /gluteus-minimus/
-      - title: Den slanke indadfører
-        url: /gracilis/
-      - title: Hoftebøjeren
-        url: /iliopsoas/
-      - title: Infraspinatus
-        url: /infraspinatus/
-      - title: Indre skrå mavemuskel
-        url: /internal-oblique/
-      - title: Bred rygmuskel
-        url: /latissimus-dorsi/
-      - title: Pectineus
-        url: /pectineus/
-      - title: Brystmuskel
-        url: /pectoralis-major/
-      - title: Lige mavemuskel
-        url: /rectus-abdominis/
-      - title: Lårmusklens lige hoved
-        url: /rectus-femoris/
-      - title: Skræddermusklen
-        url: /sartorius/
-      - title: Halvsenede knæbøjer
-        url: /semimembranosus/
-      - title: Halvtrinde knæbøjer
-        url: /semitendinosus/
-      - title: Serratus Anterior
-        url: /serratus-anterior/
-      - title: Flyndermusklen
-        url: /soleus/
-      - title: Teres Major
-        url: /teres-major/
-      - title: Forreste skinnebensmuskel
-        url: /tibialis-anterior/
-      - title: Bugpressen
-        url: /transversus-abdominis/
-      - title: Trapezius
-        url: /trapezius/
-      - title: Trehovede armstrækker
-        url: /triceps-brachii/
-      - title: Lårmusklens dybe hoved
-        url: /vastus-intermedius/
-      - title: Lårmusklens ydre hoved
-        url: /vastus-lateralis/
-      - title: Lårmusklens indre hoved
-        url: /vastus-medialis/
+      - title: Tensor Fascia Latae
+        url: /tensor-fascia-latae/
+trainingtypes:
+  - title: Træningsformer
+    url: /traeningsformer/
+    children:
+      - title: "Styrketræning"
+        url: /styrketraening/
+      - title: "Kondition"
+        url: /kondition/
+      - title: "Cardio"
+        url: /cardio-traening-workout/
+      - title: "Løb"
+        url: /loebesiden/
+      - title: "Cykling"
+        url: /cykling/
+      - title: "Yoga"
+        url: /yoga/
+      - title: "Til fitnessinstruktøren"
+        url: /fitnessinstruktoer/
+exercises:
+  - title: Træningsøvelser
+    url: /traeningsoevelser/
+    children:
+      - title: "Squat"
+        url: /squat/
+      - title: "Lunges"
+        url: /lunges/
+      - title: "Dødløft"
+        url: /doedloeft/
+      - title: "Bænkpres"
+        url: /oevelse/baenkpres/
+      - title: "Pullup og chinup"
+        url: /oevelse/baenkpres/
+      - title: "Armstrækninger"
+        url: /armbojninger-eller-armstraekninger-pushups/
+  - title: Efter muskelgrupper
+    children:
+      - title: Armøvelser
+        url: /arme-triceps-biceps/
+      - title: Skulderøvelser
+        url: /skulderoevelser/
+      - title: Rygøvelser
+        url: /rygoevelser/
+      - title: Brystøvelser
+        url: /brystoevelser/
+      - title: Benøvelser
+        url: /benoevelser/
+      - title: Balleøvelser
+        url: /balleoevelser/
+      - title: Balanceøvelser
+        url: /balance/
+      - title: Maveøvelser
+        url: /maveoevelser/
+  - title: Efter funktion
+    children:
+      - title: Knædominante øvelser
+        url: /knaedominante-oevelser/
+      - title: Hoftedominante øvelser
+        url: /hoftedominante-oevelser/
+      - title: Pres
+        url: /presoevelser/
+      - title: Træk
+        url: /traekoevelser/
+      - title: Core træning
+        url: /core/
+      - title: Loaded carries
+        url: /loaded-carries/
+  - title: Efter træningsformer
+    url: /traeningsformer/
+    children:
+      - title: Crossfit øvelser
+        url: /crossfit-crossfit-oevelser/
+      - title: Yoga øvelser
+        url: /yogastillinger-yogaovelser/
+      - title: Udstrækningsøvelser
+        url: /udstraekning-udspaending/
+      - title: Foamrolling og SMR
+        url: /foamrolling-foamroller-lacrossebolde/
 
-strength:
-  - title: "Adherence"
-  - title: "Volume, intensity, freequency"
-    url: "/artikel/hvordan-skal-jeg-dosere-min-styrketraening"
-  - title: "Progression"
-  - title: "Exercise selection"
-    url: "/artikel/opbygning-af-program"
-  - title: "Rest Periods"
-  - title: "Tempo"
-    url: "/artikel/foelg-tempoet-naar-du-loefter"
+methods:
+  - title: Styrketræning
+    url: /styrketraening/
+    children:
+      - title: Clusters
+        url: /styrketraening/clusters/
+      - title: Compound set
+        url: /styrketraening/compound-sets/
+      - title: Dropsæt
+        url: /styrketraening/dropset/
+      - title: Mekaniske dropsæt
+        url: /styrketraening/mekanisk-dropset/
+      - title: Excentrisk fokus
+        url: /styrketraening/excentrisk-fokus/
+      - title: Escalating density (EDT)
+        url: /styrketraening/escalating-density/
+      - title: Forced reps
+        url: /styrketraening/forced-reps/
+      - title: Giantset
+        url: /styrketraening/giantset/
+      - title: German Volume Training (GVT)
+        url: /styrketraening/gvt/
+      - title: Isometrisk træning
+        url: /styrketraening/isometrisk-traening/
+      - title: Okklusion
+        url: /styrketraening/okklusion/
+      - title: Partial reps
+        url: /styrketraening/partial-reps/
+      - title: Pyramide
+        url: /styrketraening/pyramide/
+      - title: Regressive range of motion
+        url: /styrketraening/regressive-range-of-motion/
+      - title: Myoreps
+        url: /styrketraening/myoreps/
+      - title: Rest-pause
+        url: /styrketraening/rest-pause/
+      - title: Stage System
+        url: /styrketraening/stage-system/
+      - title: Tempo Method
+        url: /styrketraening/tempo-method/
+      - title: Triset
+        url: /styrketraening/triset/
+      - title: Tempo Contrast
+        url: /styrketraening/tempo-contrast/
+  - title: Maksimal styrke
+    url: /maksimal-styrketraening/
+    children:
+      - title: Backoff sæt
+        url: /styrketraening/backoff-sets/
+      - title: Contrast training
+        url: /styrketraening/contrast-training/
+      - title: Waves
+        url: /styrketraening/waves/
+  - title: Kondition
+    url: /kondition/
+    children:
+      - title: Udholdenhed
+        url: /metode/udholdenhed/
+      - title: Threshold Method - Tærskelmetode
+        url: /metode/threshold/
+      - title: VO2-max-intervaller
+        url: /hiit/
+      - title: Billat-intervaller
+        url: /billat-vvovmax-tlimvo2max/
+      - title: Hastighedsteknik
+        url: /metode/hastighedhedsteknik/
+      - title: Cardiac Power Intervals
+        url: /metode/cardiac-power-intervals/
+      - title: Tempo-intervaller
+        url: /metode/tempo-intervaller/
+      - title: Explosive Repeat Method
+        url: /metode/explosive-repeat/
+      - title: Aerob plyometri
+        url: /metode/aerobic-plyometrics/
+      - title: High Intensity Continuous Training (HICT)
+        url: /metode/hict/
+      - title: Fartlek
+        url: /hiit/
+      - title: Sprint 8
+        url: /artikel/sprint-8-intervaltraening-der-virker/
+      - title: 10-20-30
+        url: /metode/10-20-30/
+      - title: Pyramide
+        url: /metode/pyramide/
+  - title: Anaerob træning
+    url: /anaerob-traening/
+    children:
+      - title: Alactacide intervaller
+        url: /metode/alactic-intervals/
+      - title: Anaerob kapacitet
+        url: /metode/lactic-intervals/
+      - title: Anaerob power
+        url: /metode/lactic-intervals/
+      - title: Lactacide intervaller
+        url: /metode/lactic-intervals/
+      - title: High Resistance Intervals (HRI)
+        url: /metode/high-resistance-intervals/
+      - title: Tabata-intervaller
+        url: /artikel/tabata-traening-intervaller/

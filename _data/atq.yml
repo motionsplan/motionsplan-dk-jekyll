@@ -1,0 +1,45 @@
+questions:
+  1: Jeg føler, at hele verden er imod mig.
+  2: Jeg dur ikke til noget.
+  3: Hvorfor lykkes intet for mig?
+  4: Der er ingen, der forstår mig.
+  5: Jeg har ladt andre i stikken.
+  6: Jeg tror ikke, at jeg kan fortsætte.
+  7: Jeg ville ønske, at jeg var et bedre menneske.
+  8: Jeg er bare så svag.
+  9: Mit liv går ikke, som jeg gerne vil have det.
+  10: Jeg er så skuffet over mig selv.
+  11: Der er intet, der føles godt længere.
+  12: Jeg kan ikke holde det ud længere.
+  13: Jeg kan ikke komme i gang.
+  14: Hvad er der galt med mig?
+  15: Jeg ville ønske, at jeg var et andet sted.
+  16: Jeg har ikke styr på noget.
+  17: Jeg hader mig selv.
+  18: Jeg er ikke noget værd.
+  19: Ønsker jeg bare kunne forsvinde.
+  20: Hvad er der galt med mig?
+  21: Jeg er en taber.
+  22: Mit liv er noget rod.
+  23: Jeg er en fiasko.
+  24: Jeg klarer det aldrig.
+  25: Jeg føler mig så hjælpeløs.
+  26: Der er noget, der skal ændres.
+  27: Der må være noget galt med mig.
+  28: Min fremtid ser sort ud.
+  29: Det er bare ikke det værd.
+  30: Jeg kan ikke gøre noget færdigt.
+
+frequency:
+  1: Slet ikke
+  2: Nogle gange
+  3: Forholdsvis ofte
+  4: Ofte
+  5: Hele tiden
+
+believe_thought:
+  1: Slet ikke
+  2: Lidt
+  3: Noget
+  4: Rigtig meget
+  5: Fuldstændigt

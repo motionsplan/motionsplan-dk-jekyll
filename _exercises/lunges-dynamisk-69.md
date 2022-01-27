@@ -1,5 +1,5 @@
 ---
-title: &title "Lunges, dynamisk"
+title: "Lunges, dynamisk"
 excerpt: "Træd et skridt frem og gå ned i knæ, indtil det forreste lår er vandret og det andet næsten knæ rører jorden. Bevæg dig dynamisk tilbage til udgangspositionen."
 instructions: "Træd et skridt frem og gå ned i knæ, indtil det forreste lår er vandret og det andet næsten knæ rører jorden. Bevæg dig dynamisk tilbage til udgangspositionen."
 permalink: /oevelse/lunges-dynamisk/
@@ -7,21 +7,20 @@ redirect_from: /node/69
 id: 69
 language: da
 header:
-  overlay_image: /assets/images/exercises/lunges-dynamisk-0.jpg
   teaser: /assets/images/exercises/lunges-dynamisk-0-320.jpg
-  caption: *title
 tags:
   - knædomineret
   - vægtstang
   - fitnessinstruktør
   - crossfit
 categories:
-training_type: 
-training_focus: 
+  - Lunges
+training_type:  []
+training_focus:
   - knædomineret
 equipment:
   - vægtstang
-muscle_group:
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/lunges-dynamisk-0.jpg
     image_path: /assets/images/exercises/lunges-dynamisk-0-320.jpg
@@ -45,6 +44,8 @@ gallery:
     title: "Lunges, dynamisk"
 last_modified_at: 2011-08-18T19:08:58Z
 ---
+
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}
 
 Stangen placeres bag nakken som ved squat. Stå med fødderne i en skulderbreddes afstand. Spænd godt op omkring kropsstammen og hold en ret ryg (kosteskaft). Træd frem med den ene fod og gå ned i knæ indtil du næsten rører jorden med det andet knæ. For at forbedre balancen, kan du tænke på, at fødderne skal følge en togskinne, så du fortsat har en relativ bred fodstilling i yderpositionen.
 

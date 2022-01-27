@@ -1,12 +1,13 @@
 ---
 title: &title "Hvad er den bedste kombination af løb og styrketræning? 🏃‍♀🏋️‍♀"
+seo_title: "Hvad er den bedste kombination af løb og styrketræning?"
 permalink: /artikel/bedste-kombination-af-loeb-og-styrketraening/
 redirect_from:
   - /artikel/bedste-kombination-af-loeb-og-styrketraening
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1526676537331-7747bf8278fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
-  teaser: https://images.unsplash.com/photo-1526676537331-7747bf8278fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1526676537331-7747bf8278fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1526676537331-7747bf8278fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 tags:
   - styrketræning
@@ -24,7 +25,8 @@ feature_row:
     title: Hvordan laver jeg et godt træningsprogram?
     excerpt: Her er en infographic lavet i Google Docs med nogle af hovedpunkterne til, hvordan du laver et godt træningsprogram til kombinationstræning.
     btn_class: btn--warning
-    btn_label: "Download Google Docs"
+    btn_label: "<i class='fas fa-file-alt'></i> Download Google Docs"
+    rel: nofollow noopener
 ---
 
 Jeg kan godt lide at kombinere styrketræning, løbetræning og konditionstræning samtidigt. Det kalder man _concurrent training_, kombinationstræning eller samtidig træning. Hvordan kan man træne styrke og cardio samtidigt, og hvad er den bedste kombination?
@@ -49,7 +51,7 @@ Hawley (2009) undersøgte de konkurrerende signaler fra styrketræning og aerob 
 
 Træning indebærer, at der er et **signal**, der skaber et **respons**, og kroppen laver en **tilpasning (adaptation)**, hvis den gennemgår de samme signaler flere gange.
 
-Et signal er alle de typer træninger, du kan finde på at lave. Squat, tempoløb, plyometri. På celleniveau er der en opregulering og nedregulering af forskellige mekanismer og enzymer.
+Et signal er alle de typer træninger, du kan finde på at lave. Squat, tempoløb, [plyometri](/plyometrisk-traening/). På celleniveau er der en opregulering og nedregulering af forskellige mekanismer og enzymer.
 
 {% include figure image_path="/assets/images/blog/hawley2009.jpg" caption="Kroppens respons på styrketræning og udholdenhedstræning og de afledte tilpasninger. Måske modarbejder styrketræning og udholdenhedstræning hinanden." alt="Kroppens respons på styrketræning og udholdenhedstræning og de afledte tilpasninger. Måske modarbejder styrketræning og udholdenhedstræning hinanden." %}
 

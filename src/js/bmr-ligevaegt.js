@@ -6,8 +6,8 @@ motionsplan.BMREquilibrium = function() {
     }
 
     function getMaximalWeightChange(change, days = 1) {
-        var fat_energy = 38000; // pr. kg
-        var protein_energy = 17000; // pr. kg
+       let fat_energy = 38000; // pr. kg
+       let protein_energy = 17000; // pr. kg
         if (change < 0) {
             return (change * -1 / fat_energy) * days;
         } 
@@ -19,7 +19,7 @@ motionsplan.BMREquilibrium = function() {
         return (change / protein_energy) * days;
     }
 
-    var publicAPI = {
+   let publicAPI = {
         getMaximalWeightChange : getMaximalWeightChange,
         getBalance : getBalance
     };

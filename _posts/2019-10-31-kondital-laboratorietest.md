@@ -20,6 +20,7 @@ tags:
   - test
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
+breadcrumbs: true
 ---
 
 {% comment %}
@@ -56,7 +57,7 @@ Man kan også få mobilt udstyr til direkte test af iltoptagelse. Fx **[Cosmed K
 
 ## Submaksimal iltoptagelsestest
 
-Formålet med en submaksimale-test er at bestemme den fysiske kapacitet ved den aerobe (AeT) og anaerobe tærskel (AT). Samlet kan det give et fyldestgørende billede af udholdenheden for kredsløbet og musklerne. Forsøgspersonen får en maske på, så der løbende måles på iltoptagelsen og CO<sub>2</sub>-udvekslingen. Desuden måles puls, mælkesyreniveau (laktat), arbejdsintensiteten og arbejdsøkonomi (ved løb løbeøkonomien). 
+Formålet med en submaksimale-test er at bestemme den fysiske kapacitet ved den aerobe (AeT) og anaerobe tærskel (AT). Samlet kan det give et fyldestgørende billede af udholdenheden for kredsløbet og musklerne. Forsøgspersonen får en maske på, så der løbende måles på iltoptagelsen og CO<sub>2</sub>-udvekslingen. Desuden måles puls, mælkesyreniveau (laktat), arbejdsintensiteten og arbejdsøkonomi (ved løb løbeøkonomien).
 
 Ud fra testresultaterne kan man identificere træningszoner, der kan bruges i den efterfølgende træningsperiode.
 

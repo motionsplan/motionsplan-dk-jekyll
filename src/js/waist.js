@@ -10,7 +10,7 @@ motionsplan.WaistRatio = function() {
     return waist / hip;
   }
 
-  var publicAPI = {
+  let publicAPI = {
     getWaistHeightRatio : getWaistHeightRatio,
     getWaistHipRatio : getWaistHipRatio
   };

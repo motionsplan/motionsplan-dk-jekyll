@@ -1,5 +1,5 @@
 ---
-title: &title "Baglår på swissbold"
+title: "Baglår på swissbold"
 excerpt: "Start med hælene på bolden og ryggen på gulvet og strakte ben. Fra denne position trækker du bolden ind under dig. Du kan lave øvelsen både med et eller to ben."
 instructions: "Start med hælene på bolden og ryggen på gulvet og strakte ben. Fra denne position trækker du bolden ind under dig. Du kan lave øvelsen både med et eller to ben."
 permalink: /oevelse/baglaar-paa-swissbold/
@@ -7,17 +7,15 @@ redirect_from: /node/26
 id: 26
 language: da
 header:
-  overlay_image: /assets/images/exercises/baglaar-paa-swissbold-0.jpg
   teaser: /assets/images/exercises/baglaar-paa-swissbold-0-320.jpg
-  caption: *title
 tags:
   - Kropsstamme
 categories:
-  - Kropsstamme
-training_type: 
-training_focus: 
-equipment:
-muscle_group:
+  - Baglårsøvelser
+training_type: []
+training_focus: []
+equipment: []
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/baglaar-paa-swissbold-0.jpg
     image_path: /assets/images/exercises/baglaar-paa-swissbold-0-320.jpg
@@ -32,5 +30,7 @@ video:
   id: 5016905
 last_modified_at: 2013-11-19T13:19:29Z
 ---
+
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}
 
 Start med hælene på bolden og ryggen på gulvet og strakte ben. Fra denne position trækker du bolden ind under dig. Du kan lave øvelsen både med et eller to ben.

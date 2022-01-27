@@ -8,7 +8,7 @@ layout: default
   {% include page__hero_video.html %}
 {% endif %}
 
-{% if page.url != "/" and site.breadcrumbs %}
+{% if page.url != "/" and site.breadcrumbs and page.breadcrumbs != false %}
   {% unless paginator %}
     {% include breadcrumbs.html %}
   {% endunless %}
@@ -26,10 +26,10 @@ layout: default
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
-          {% if page.title %}<h1 id="page-title" class="page__title" itemprop="name">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
-          <p><a href="https://github.com/{{site.repository}}/edit/master/{{ page.path }}"><i class="fas fa-pencil-alt" aria-hidden="true"></i> Hjælp med at forbedre denne side</a></p>
-          {% if page.name.latin %}<h2 itemprop="alternateName"><em>{{ page.name.latin }}</em></h2>{% endif %}
-
+          {% if page.title %}<h1 id="page-title" class="page__title" itemprop="name">{{ page.name.da | default: page.title | markdownify | remove: "<p>" | remove: "</p>" }}{% if page.name.latin %} (<span itemprop="alternateName">{{ page.name.latin }}</span>){% endif%}</h1>{% endif %}
+          {% assign edit_url = 'https://github.com/{{site.repository}}/edit/master/' | append: page.path | absolute_url %}
+          {% assign edit_url = '/admin/#/collections/anatomy/entries/' | append: page.slug | absolute_url %}
+          <p><a href="{{ edit_url }}" rel="nofollow noopener"><i class="fas fa-pencil-alt" aria-hidden="true"></i> Hjælp med at forbedre denne side</a></p>
           {% if page.read_time %}
             <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
           {% endif %}
@@ -45,12 +45,12 @@ layout: default
             </nav>
           </aside>
         {% endif %}
-        
+
         {{ content }}
 
         {% if page.insertion.da %}
         <h2 id="origin">Udspring og hæfte for {{ page.title }}</h2>
-        
+
         <p>
           <strong>Udspring:</strong> <span itemprop="insertion" itemscope itemtype="http://schema.org/Bone">{{ page.origin.da }}</span><br />
           <strong>Hæfte:</strong> {{ page.insertion.da }}
@@ -63,7 +63,7 @@ layout: default
         {% endif %}
 
         <h2 id="function">{{ page.title }} funktion</h2>
-        
+
         <ul>
         {% for f in page.function.da %}
         <li itemscope name="muscleAction"><strong>{{ f.short }}</strong>. {{ f.extended | markdownify }}</li>
@@ -80,8 +80,8 @@ layout: default
         </ul>
         {% endif %}
 
-        <h2 id="location">Placering af {{ page.title }}</h2>
         {% if page.location %}
+        <h2 id="location">Placering af {{ page.title }}</h2>
         <p>
           <strong>Placering i kroppen:</strong>
           <span itemprop="bodyLocation">
@@ -97,7 +97,6 @@ layout: default
         {% if page.video.id %}
           {% include video provider=page.video.provider id=page.video.id %}
         {% endif %}
-        
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
@@ -107,11 +106,7 @@ layout: default
           <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
         {% endif %}
         {% include page__taxonomy.html %}
-        {% if page.last_modified_at %}
-          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.last_modified_at | date: "%Y-%m-%d" }}">{{ page.last_modified_at | date: "%B %d, %Y" }}</time></p>
-        {% elsif page.date %}
-          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
-        {% endif %}
+        {% include page__date.html %}
       </footer>
 
       {% if page.share %}{% include social-share.html %}{% endif %}

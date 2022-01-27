@@ -15,7 +15,6 @@ tags:
   - yogastillinger
   - yogaovelser
   - yoga
-classes: wide
 ---
 
 Jeg har samlet en række gode yogaøvelser og yogastillinger, som du kan gå i gang med allerede i dag. Yogaøvelser er rigtig gode at bruge alene som træning, men fungerer også rigtig godt i opvarmning til andre idrætsgrene.

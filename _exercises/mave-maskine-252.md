@@ -1,5 +1,5 @@
 ---
-title: &title "Mave, maskine"
+title: "Mave, maskine"
 excerpt: "Hold i håndtagene og bøj forover ved at stramme mavemusklerne. Kontrolleret tilbage til udgangspunktet."
 instructions: "Hold i håndtagene og bøj forover ved at stramme mavemusklerne. Kontrolleret tilbage til udgangspunktet."
 permalink: /oevelse/mave-maskine/
@@ -7,21 +7,19 @@ redirect_from: /node/252
 id: 252
 language: da
 header:
-  overlay_image: /assets/images/exercises/mave-maskine-0.jpg
   teaser: /assets/images/exercises/mave-maskine-0-320.jpg
-  caption: *title
 tags:
   - kropsstamme
   - maskine
   - fitnessinstruktør
 categories:
-training_type: 
-training_focus: 
+  - Maveøvelser
+training_type: []
+training_focus:
   - kropsstamme
 equipment:
   - maskine
-muscle_group:
-  - 
+muscle_group: []
 alternative_titles:
   - mavemaskine
 gallery:
@@ -39,6 +37,8 @@ gallery:
     title: "Mave, maskine"
 last_modified_at: 2011-04-16T07:09:00Z
 ---
+
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}
 
 Indstil maskinen så den passer til dig. Lad være med at putte mere vægt på end du kan bøje forover kun ved at bruge mavemusklerne. Bøj kontrolleret forover og bevæg dig også kontrolleret tilbage til udgangspunktet.
 

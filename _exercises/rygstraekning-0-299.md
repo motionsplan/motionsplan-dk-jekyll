@@ -1,5 +1,5 @@
 ---
-title: &title "Rygstrækning"
+title: "Rygstrækning"
 excerpt: "Læg ned på maven. Placér hænderne under hagen. Løft overkroppen fri af underlaget uden at løfte fødderne."
 instructions: "Læg ned på maven. Placér hænderne under hagen. Løft overkroppen fri af underlaget uden at løfte fødderne."
 permalink: /oevelse/rygstraekning-0/
@@ -7,14 +7,12 @@ redirect_from: /node/299
 id: 299
 language: da
 header:
-  overlay_image: /assets/images/exercises/rygstraekning-0-0.jpg
   teaser: /assets/images/exercises/rygstraekning-0-0-320.jpg
-  caption: *title
 tags:
   - fitnessinstruktør
-categories:
-training_type: 
-training_focus: 
+categories: []
+training_type: []
+training_focus: []
 equipment:
 muscle_group:
 alternative_titles:
@@ -30,6 +28,7 @@ gallery:
     title: "Rygstrækning"
 last_modified_at: 2013-04-26T19:59:08Z
 ---
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}
 
 Læg ned på maven på maven. Benene placeres på jorden og mellemrummet mellem fødderne skal være hoftebredde. Hænderne samles under hagen med albuerne ud til siden. Overkroppen løftes op fra jorden med hænderne samme sted som i udgangspositionen. Løft overkroppen så højt som din lænd tillader dig. Herefter fortsættes tilbage til udgangspunktet og bevægelsen gentages.
 

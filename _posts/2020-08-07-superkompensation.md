@@ -5,8 +5,8 @@ permalink: /superkompensation/
 last_modified_at: 2020-07-06T09:41:09Z
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1520529301226-42abc4cd766b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=80
-  teaser: https://images.unsplash.com/photo-1520529301226-42abc4cd766b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1520529301226-42abc4cd766b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1520529301226-42abc4cd766b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: "Superkompensation: Hvornår er jeg klar til at træne igen?"
 category:
   - Viden om
@@ -75,17 +75,3 @@ Superkompensationsbegrebet er egentlig en del af teorien om _general adaption sy
 ## Opsamling på superkompensation
 
 Hvis du er i tvivl om, hvordan du skal oprette en træningsplan, så kan du lave en aftale med en personlig træner.
-
-## Læs flere artikler om restitution
-
-<div class="feature__wrapper">
-
-{% assign site_posts = site.posts | where: "tags", "restitution" | sort: "last_modified_at" | reverse %}
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>

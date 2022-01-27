@@ -1,5 +1,5 @@
 ---
-title: &title "Armstrækning, knæstøtte"
+title: "Armstrækning, knæstøtte"
 excerpt: "Støt på hænder og knæ. Hold kroppen helt ret. Lav en armstrækning."
 instructions: "Støt på hænder og knæ. Hold kroppen helt ret. Lav en armstrækning."
 permalink: /oevelse/armstraekning-knaestoette/
@@ -7,19 +7,16 @@ redirect_from: /node/264
 id: 264
 language: da
 header:
-  overlay_image: /assets/images/exercises/armstraekning-knaestoette-0.jpg
   teaser: /assets/images/exercises/armstraekning-knaestoette-0-320.jpg
-  caption: *title
 tags:
   - kropsvægt
 categories:
-training_type: 
-training_focus: 
+  - Armstrækninger
+training_type: []
+training_focus: []
 equipment:
   - kropsvægt
-muscle_group:
-  - 
-  - 
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/armstraekning-knaestoette-0.jpg
     image_path: /assets/images/exercises/armstraekning-knaestoette-0-320.jpg
@@ -35,6 +32,8 @@ gallery:
     title: "Armstrækning, knæstøtte"
 last_modified_at: 2011-08-18T19:38:26Z
 ---
+
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}
 
 Dette er en lettere udgave af en armstrækning, men ikke særlig velegnet som forøvelse. Hvis du ikke kan tage en almindelig armstrækning på tæerne, anbefaler vi at du træner armstrækninger, hvor overkroppen er hævet op og planken.
 

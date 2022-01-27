@@ -1,6 +1,5 @@
 ---
-title: &title "Cronus Squat"
-excerpt: ""
+title: "Cronus Squat"
 instructions: ""
 permalink: /oevelse/cronus-squat/
 key: 20201212231900
@@ -9,29 +8,18 @@ video:
   provider: youtube
   id: kiYCOO_o0yw
 #header:
-#  overlay_image: /assets/images/exercises/180-jump-0.jpg
 #  teaser: /assets/images/exercises/180-jump-0-320.jpg
-#  actions:
-#    - label: '<i class="far fa-file-pdf" aria-hidden="true"></i>'
-#      url: "/assets/pdf/exercises/180-jump-30.pdf"
-#  caption: *title
-tags:
-#  - kropsvægt
+tags: []
 categories:
-training_type: 
-training_focus: 
-equipment:
-#  - kropsvægt
-muscle_group:
-gallery:
-#  - url: /assets/images/exercises/180-jump-0.jpg
-#    image_path: /assets/images/exercises/180-jump-0-320.jpg
-#    alt: "Spring, 180  jump "
-#    title: "Spring, 180  jump "
+  - Squat
+training_type: []
+training_focus: []
+equipment: []
+muscle_group: []
+gallery: []
 last_modified_at: 2020-11-02T13:43:26Z
-classes: wide
 ---
 
-{{ page.instructions }}
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}
 
 Michael Shaughnessy foreslår [Cronus Squat](https://www.t-nation.com/training/tip-the-cronus-squat), når du ikke har noget _power rack_ og gerne vil arbejde på en ny måde med squat bevægelsen.

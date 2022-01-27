@@ -1,15 +1,16 @@
 ---
-title: &title "Planken: Få skudsikre mavemuskler med den perfekte planke"
+title: "Planken: Få skudsikre mavemuskler med den perfekte planke"
+excerpt: "Planken er en rigtig populær statisk maveøvelse. Planken kan være et rigtig godt indspark i din træning, eller den kan være spild af tid alt efter, hvordan du udfører øvelsen. Jeg har kigget på teknikken i planken og gode variationer."
 instructions: "I planken skal du ligge hvilende på underarmene og håndfladerne på gulvet. Skub dig op, så du kun rører gulvet med underarmene og tæerne. Hold kroppen ret. Hold stillingen i det planlagte tidsrum."
 permalink: /oevelse/planken/
-redirect_from: /node/103
+redirect_from:
+  - /node/103
 id: 103
+key: 20210819093200
+toc: true
 language: da
 header:
-  overlay_image: /assets/images/exercises/planken-0.jpg
   teaser: /assets/images/exercises/planken-0-320.jpg
-  caption: Planken
-  caption: *title
 tags:
   - Kropsstamme
   - Styrketræning
@@ -21,9 +22,9 @@ tags:
   - fitnessinstruktør
 categories:
   - Kropsstamme
-training_type: 
+training_type:
   - Styrketræning
-training_focus: 
+training_focus:
   - kropsstamme
 equipment:
   - kropsvægt
@@ -58,7 +59,7 @@ Mens du udfører planken tager du dybe indåndinger og kontrollerer udåndingen,
 
 Planken træner primært _transversus abdominis_ (de indre tværgående mavemuskler) (Calatayud 2019), og derfor kan planken hjælpe dig med at få en stærkere og fladere mave. Planken kan også hjælpe dig med at forbedre dit opspænd og kropsholdning.
 
-Der er både statiske og dynamiske variationer af planken, men planken træner først og fremmest din evne til at holde ryggen i den samme stabile position over længere tid. 
+Der er både statiske og dynamiske variationer af planken, men planken træner først og fremmest din evne til at holde ryggen i den samme stabile position over længere tid.
 
 ## Typiske fejl i planken
 
@@ -80,7 +81,7 @@ Når verdensrekorden i øjeblikket er på 8 timer, 1 minuter og 1 sekund, så ha
 
 ## Variationer af planken
 
-<div class="hidden">
+{% comment %}
 
 TAG PLANKEN TIL NÆSTE NIVEAU
 Der er mange måder at gøre planken sværere på - eksempelvis ved at tilføje vægt på ryggen eller skabe noget ustabilitet eksempelvis ved at have underarmene på en bold.
@@ -105,9 +106,7 @@ Dynamisk sideplanke: Du kan lave en sideplanke dynamisk (med bevægelse) på man
 
 Planke til sideplanke: En sidste variation er at kontinuerlig ændre position fra almindelig planke til sideplanke. Begynd med den almindelig planke, men med armene og hænderne pegende ind mod hinanden (ikke lige frem). For at komme op i en sideplanke spænder du op i maven og vender dig til siden indtil du ligger på siden på én albue. Derefter bevæger du dig tilbage til startpositionen, for så at lave sideplanken til den anden side.
 
-</div>
-
-***
+{% endcomment %}
 
 Derfor kan man kigge på min yndlingsvariation af planken **RKC**-planken.
 
@@ -124,6 +123,20 @@ Prøv nu at stramme alting lidt hårdere uden at skifte position. Hold din nakke
 En undervurderet aspekt af planken er åndedrættet. Fokusér på en kraftfuld indånding og udånding. Åndedrættet spiller en vigtig rolle i en total aktivering af core.
 
 En god isometrisk øvelse, der styrker maven evne til at stabilisere rygsøjlen. Det kan være en god ide at få en makker til at tjekke om du er helt lige, fx med et kosteskaft. Skyd brystet frem.
+
+## Variationer af planken
+
+{% assign site_posts = site.exercises | where: "tags", "planken" | where_exp: "post", "post.url != page.url" | sort: "title" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
 
 ## Referencer til planken
 

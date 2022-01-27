@@ -1,10 +1,11 @@
 ---
 title: &title "Liste over sportsgrene, idræt og motion ⚽️🏀🥋🏓 [2021]"
+seo_title: "Liste over sportsgrene, idræt og motion [2022]"
 permalink: /sportsgrene-liste/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1547347298-4074fc3086f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=80
-  teaser: https://images.unsplash.com/photo-1547347298-4074fc3086f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1547347298-4074fc3086f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1547347298-4074fc3086f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Viden om
@@ -89,6 +90,11 @@ dialaegt:
     title: Fifa spilleren
     alt: E-sport
     rel: sponsored nofollow noopener
+faq:
+  - question: Hvad er nationalsporten i Danmark?
+    answer: Mange er blevet snydt af Dansk Dartunions [aprilsnar](https://www.dart-ddu.dk/dart-nyheder/dif-dart-udnaevnt-til-danmarks-officielle-nationalsport/) fra 2017, hvor de fortæller at DIF har udnævnt dart som nationalsport. Men fodbold er Danmarks nationalsport og mest populære idræt.
+  - question: Hvor mange medlemmer er der i DIF og DGI?
+    answer: I Danmark var der i 2019 i alt [1,7 millioner medlemmer i DGI](https://www.dgi.dk/om/fakta/tal-og-referater/medlemstal) og knap [2 millioner medlemmer i en forening under Danmarks Idræts-Forbund (DIF)](https://www.dif.dk/da/politik/vi-er/medlemstal)
 ---
 
 Jeg har samlet en lang liste med forskellige sportsgrene, motionsformer og idrætsgrene, som du kan dyrke i fritiden. Hvis du gerne vil finde en sport, motion og idræt, så kan du finde masser af inspiration på vores liste over sportsgrene. Her kan du også se de mest populære idrætsgrene i Danmark.
@@ -113,7 +119,7 @@ Jeg har samlet en liste over de største og mest populære sportsgrene i Danmark
 
 {% include table-sportsgrene.html column="Medlem2018" sports=sports limit="10" description="hide" %}
 
-Hvis du gerne vil læse mere om, hvor mange der dyrker en bestemt idrætsgren, så kan du se [Danmarks Idræts-Forbunds medlemsliste](https://www.dif.dk/da/politik/vi-er/medlemstal). Her får du også delt medlemstallene oå, så du kan se hvilke idrætsgrene der er mest populære for mænd og kvinder, og hvordan det ser ud med børn og ældre.
+Hvis du gerne vil læse mere om, hvor mange der dyrker en bestemt idrætsgren, så kan du se [Danmarks Idræts-Forbunds medlemsliste](https://www.dif.dk/da/politik/vi-er/medlemstal). Her får du også delt medlemstallene oå, så du kan se hvilke idrætsgrene der er mest populære for mænd og kvinder, og hvordan det ser ud med børn og ældre. I listen finder du også [Danmarks nationalsport fodbold](https://www.legestue.net/danmarks-nationalsport/).
 
 Hvis du ved hvad de mest populære idrætsgrene er i Danmark i 2020, så brug endelig kommentarerne, så vi kan få opdateret dette indlæg.
 
@@ -248,7 +254,7 @@ I Danmark var der i 2019 i alt [1,7 millioner medlemmer i DGI](https://www.dgi.d
 
 ## Læs mere om sportsgrene og idrætsgrene
 
-- Danmarks Idræts-forbund: [DIF](http://www.dif.dk/en/forbund)
+- Danmarks Idræts-forbund: [DIF](https://www.dif.dk/om-dif/organisation/forbund)
 - Danske Gymnastik og Idrætsforeninger: [DGI](https://www.dgi.dk/)
 - Dansk Arbejder Idrætsforbund: [DAI](http://dai-sport.dk/)
 - Dansk Firmaidrætsforbund: [DFIF](http://www.firmaidraet.dk/)
@@ -262,6 +268,10 @@ Jeg håber du fandt noget inspiration til, hvilken sport, idræt og motion du ge
 Jeg har i hvert fald forsøgt at lave en liste over alle sportsgrene i Danmark. Der kan vælge største sportsgrene i Danmark, men du kan sikkert også finde sjove sportsgrene, du ikke anede eksisterede.
 
 Hvis du har tilføjelser eller forbedringer til at listen, så skriv endelig.
+
+## Ofte stillede spørgsmål
+
+{% include faq.html %}
 
 ## Inspiration til plakater om sport, motion og idræt
 

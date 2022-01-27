@@ -1,5 +1,6 @@
 ---
 title: "Den slanke indadfører"
+seo_title: "Den slanke indadfører | Gracilis | Muskler"
 functional_group:
   - Hoftens indadførere
 joint:
@@ -12,9 +13,11 @@ name:
 tags:
   - imagemap
   - muskel
-origin: 
+categories:
+  - Muskler
+origin:
   da: Skambenet
-insertion: 
+insertion:
   da: Øverst på den inderste skinnebenskondyl
 function:
   da:
@@ -29,3 +32,5 @@ coords:
   - "140,272,132,264,136,275,136,287,134,298,130,319,141,292"
   - "153,267,148,273,147,288,157,318,152,288"
 ---
+
+{{ page.name.da | capitalize }} hedder på latin *{{ page.name.latin | downcase }}*. Musklen laver {% for f in page.function.da %}{% if forloop.last == true and page.function.da.size > 1 %} og {% endif %}{{ f.short | downcase  }}{% if forloop.last == false and page.function.da.size > 1 %}, {% endif %}{% endfor %}. Musklen er en del af {{ page.functional_group | join: ", " | downcase }}.

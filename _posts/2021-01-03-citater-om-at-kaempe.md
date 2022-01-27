@@ -5,8 +5,8 @@ excerpt: "Jeg har set mange gode citater om at kæmpe, og jeg har samlet en ræk
 last_modified_at: 2020-12-29T09:41:09Z
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2167&q=80
-  teaser: https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
   overlay_filter: 0.8
 category:
@@ -66,7 +66,7 @@ Da jeg kiggede [træningscitater om løb, styrketræning og motivation]({% link 
 
 {% include video provider="youtube" id="Z63w5PefxTQ" %}
 
-## {{ page.feature_quotes.size }} om at kæmpe
+## {{ page.feature_quotes.size }} citater om at kæmpe
 
 Her er bl.a. citater fra Arnold Schwarzenegger, som var kendt for at træne hårdt og kunne lave resultater med sin træning. Endelig har Michael Jordan også lavet nogle mindeværdige citater om at træne i sin karriere.
 
@@ -91,7 +91,7 @@ Jeg har lavet et board med citater om at kæmpe på Pinterest. SKynd dig ind og 
 <a data-pin-do="embedBoard" data-pin-lang="da" data-pin-board-width="600" data-pin-scale-height="400" data-pin-scale-width="115" href="https://www.pinterest.dk/motionsplan/tr%25C3%25A6ningscitater-citater-om-tr%25C3%25A6ning-og-motivation/"></a>
 <script async defer src="//assets.pinterest.com/js/pinit.js"></script>
 
-## Konklusion om citater om at kæmpe
+## Konklusion
 
 Du kender sikkert også en masse forskellige citater, som du bruger som motivation og inspiration i dit liv. Del det meget gerne i kommentarerne. Jeg vil rigtig gerne høre dine inspirerende favoritcitater.
 

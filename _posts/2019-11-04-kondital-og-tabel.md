@@ -1,7 +1,7 @@
 ---
-title: "Kondition: Hvad er et godt, højt kondital? [Tabel] 💗"
+title: "Sådan finder du dit kondital: Beregning og tabel"
 permalink: /kondital/
-seo_title: "Kondition: Hvad er et godt, højt kondital? [Tabel]"
+seo_title: "Kondital tabel & beregning: Sådan finder du dit kondital"
 # Kondition: Hvad er et godt, højt kondital? [Tabel] 💗
 # Better than Kondital - Hvad er godt for mænd, kvinder og børn [Tabel] »
 # Better than Hvad er et godt kondital for mænd, kvinder og børn? [Tabel]
@@ -10,8 +10,8 @@ description: Hvad er et godt, højt kondital? ✓ Se kondital for mænd, kvinder
 excerpt: Hvad er et godt, højt kondital og hvordan finder du det? Se kondital
   for mænd, kvinder og børn i tabel. Find metoder til at teste til kondital.
 header:
-  overlay_image: https://images.unsplash.com/photo-1571008887538-b36bb32f4571?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80
-  teaser: https://images.unsplash.com/photo-1571008887538-b36bb32f4571?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80
+  overlay_image: https://images.unsplash.com/photo-1571008887538-b36bb32f4571?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1571008887538-b36bb32f4571?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
   caption: Kondital tabel og beregning - Hvad er et godt kondital for mænd,
     kvinder og børn?
 last_modified_at: 2021-04-09T04:46:02+02:00
@@ -23,6 +23,7 @@ tags:
   - tabel
   - kondital
   - featured
+popular: true
 feature_row:
   - image_path: https://books.google.dk/books/content?id=BC9SiAsUPqsC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70NFS4lEU6whWCqlyrgOGErL5OJe7YUn-qJQJ5_NuL_euKqiLC3Uf1qDPx-lSIhDDhVIpgexBiz5cdAiKXbtccrKfOlel8OTdj9EgWhSXwkff-qWaHaQt5WU1MvzRP65Jcjll3V
     alt: kondital textbook of work physiology
@@ -41,8 +42,9 @@ feature_row_kondital:
     excerpt: Skemaet og tabellen over kondital kan udskrives herfra, så den er lige
       til at hænge op på væggen. Tabellen er lavet i Google Docs.
     url: https://docs.google.com/document/d/1Yzzxktbt0Y_8E1fpPENZE1Jt8s6-8jkojvBCI7hpLic/copy?usp=sharing
-    btn_label: Se tabel over kondital
-    btn_class: btn--
+    btn_label: <i class='fas fa-file-alt'></i> Se tabel over kondital
+    btn_class: btn--success
+    rel: nofollow noopener
 faq:
   - question: "Hvad er definitionen på et kondital?"
     answer: "Et kondital er defineret ved din maksimale iltoptagelse delt med din kropsvægt. Det måles i ml O<sub>2</sub> pr. min pr. kg kropsvægt."
@@ -51,7 +53,7 @@ faq:
   - question: "Hvordan forbedrer man konditallet?"
     answer: "Du kan forbedre konditalet på forskellige måder. Det kræver typisk en maksimal indsats, men du kan finde inspiration her på siden under [kondition, kredsløb og konditionstræning](/kondition/)."
 ---
-Hvad er et godt kondital, og hvordan beregner man det? I denne artikel dykker vi ned i hvad kondital betyder for din sundhed, hvornår det er godt og hvordan man kan forbedre det. Du finder også en nem og overskuelig kondital tabel som du kan bruge til selv at teste din kondition.
+Hvad er et godt kondital, og hvordan beregner man det? I denne artikel dykker vi ned i, hvad dit kondital betyder for din sundhed, hvornår det er godt og hvordan man kan forbedre det. Du finder også en nem og overskuelig kondital tabel som du kan bruge til selv at teste din kondition.
 
 Konditallet siger meget om, hvordan din krop fungerer. Jeg har skrevet lidt om, hvad konditallet er, og hvad et godt, højt kondital er for både mænd, kvinder og børn.
 
@@ -71,12 +73,12 @@ Du kan se, hvad et godt kondital er i tabellerne nedenunder.
 
 Nedenstående tabeller gælder for almindelige mennesker i Skandinavien og er såkaldte normaltabeller, hvor man sammenligner sig med andre mennesker.
 
-[Test dit kondital](/kondition-og-test/){: .btn .btn--large .btn--info }
+[Test dit kondital](/test-kondition-konditest-kondital/){: .btn .btn--large .btn--info }
 
 ## Kondital tabel for mænd (normalbefolkning)
 
 | Alder | Meget Lavt | Lavt  | Middel | Højt  | Meget højt |
-| ----- | ---------- | ----- | ------ | ----- | ---------- |
+|:-----:|:----------:|:-----:|:------:|:-----:|:----------:|
 | 5-14  | < 38       | 39-43 | 44-51  | 52-56 | \> 57      |
 | 15-19 | < 43       | 44-48 | 49-56  | 57-61 | \> 62      |
 | 20-29 | < 38       | 39-43 | 44-51  | 52-56 | \> 57      |
@@ -89,7 +91,7 @@ Nedenstående tabeller gælder for almindelige mennesker i Skandinavien og er s�
 ## Kondital tabel for kvinder (normalbefolkning)
 
 | Alder | Meget Lavt | Lavt  | Middel | Højt  | Meget Højt |
-| ----- | ---------- | ----- | ------ | ----- | ---------- |
+|:-----:|:----------:|:-----:|:------:|:-----:|:----------:|
 | 5-14  | < 34       | 35-39 | 40-47  | 48-51 | \> 52      |
 | 15-29 | < 28       | 29-34 | 35-43  | 44-48 | \> 49      |
 | 30-39 | < 27       | 28-33 | 34-41  | 42-47 | \> 48      |
@@ -116,7 +118,7 @@ Det er interessant, hvor mange nordmænd der er på [listen over de højeste kon
 Topidrætsfolk i konditionskrævende idrætsgrene har som regel et kondital over 70. Hvis du forventer at kunne være med i verdenseliten, så bør du vurdere dig selv ud fra nedenstående tabel:
 
 |         | Lavt | Middel | Højt  | Meget højt | Ekstremt Højt |
-| ------- | ---- | ------ | ----- | ---------- | ------------- |
+| ------- |:----:|:------:|:-----:|:----------:|:-------------:|
 | Mænd    | < 60 | 60-70  | 70-80 | 80-90      | \> 90         |
 | Kvinder | < 50 | 50-58  | 58-64 | 64-72      | \> 72         |
 
@@ -134,7 +136,7 @@ Jeg har samlet en [forskellige tests og metoder til at finde dit kondital]({% li
 
 ## Hvordan måler man kondital?
 
-Hvis du vil finde dit eget kondital, så tjek [vores forskellige tests til at finde dit kondital](/kondition-og-test/).
+Hvis du vil finde dit eget kondital, så tjek [vores forskellige tests til at finde dit kondital](/test-kondition-konditest-kondital/).
 
 Nogle af de populære er bl.a. [Coopertest](/cooper-test/) og [bip test](/bip-test/).
 
@@ -142,7 +144,7 @@ Nogle af de populære er bl.a. [Coopertest](/cooper-test/) og [bip test](/bip-te
 
 Når du kender dit kondital, så kan du bruge det til at *tracke* din træning. Konditallet er en rigtig god indikator for din generelle sundhed. Risikoen for livsstilssygdomme er mindre, når du har et højt kondital.
 
-Du behøver ikke nødvendigvis at få målt din iltoptagelse i et laboratorium. Du kan sagtens bruge nogle af de [indirekte tests, vi har beskrevet](/kondition-og-test/).
+Du behøver ikke nødvendigvis at få målt din iltoptagelse i et laboratorium. Du kan sagtens bruge nogle af de [indirekte tests, vi har beskrevet](/test-kondition-konditest-kondital/).
 
 ## Retfærdig sundhedsmæssig vurdering af overvægtiges kondition
 
@@ -224,5 +226,6 @@ Vi har skrevet mere om, hvordan du [forbedrer din maksimale iltoptagelse i denne
 
 * Shvartz, E., og R. C. Reibold. 1990. “Aerobic Fitness Norms for Males and Females Aged 6 to 75 Years: A Review”. Aviation, Space, and Environmental Medicine 61 (1): 3–11.
 * Astrand, I. 1960. “Aerobic Work Capacity in Men and Women with Special Reference to Age”. Acta Physiologica Scandinavica. Supplementum 49 (169): 1–92. <https://pubmed.ncbi.nlm.nih.gov/13794892/>
+</details>
 
 ## Noter til kondition og kondital

@@ -1,5 +1,5 @@
 ---
-title: &title "Dead bug"
+title: "Dead bug"
 excerpt: "Lig på ryggen med armene strakt op i luften og benene bøjet 90 grader. Gør lænden flad. Stram i mavemusklerne. Stræk det ene ben indtil du lige lader hælen ramme jorden. Samtidig strækker du modsatte arm over hovedet. Kropsstammen skal ikke bevæge sig. Udfør øvelsen relativt langsomt. "
 instructions: "Lig på ryggen med armene strakt op i luften og benene bøjet 90 grader. Gør lænden flad. Stram i mavemusklerne. Stræk det ene ben indtil du lige lader hælen ramme jorden. Samtidig strækker du modsatte arm over hovedet. Kropsstammen skal ikke bevæge sig. Udfør øvelsen relativt langsomt. "
 permalink: /oevelse/dead-bug/
@@ -7,9 +7,7 @@ redirect_from: /node/699
 id: 699
 language: da
 header:
-  overlay_image: /assets/images/exercises/dead-bug-0.jpeg
   teaser: /assets/images/exercises/dead-bug-0-320.jpeg
-  caption: *title
 tags:
   - Kropsstamme
   - Mobilisering
@@ -18,9 +16,9 @@ tags:
   - Mave
 categories:
   - Kropsstamme
-training_type: 
+training_type:
   - Mobilisering
-training_focus: 
+training_focus:
   - kropsstamme
 equipment:
   - kropsvægt
@@ -37,4 +35,4 @@ video:
 last_modified_at: 2016-10-14T12:08:27Z
 ---
 
-
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}

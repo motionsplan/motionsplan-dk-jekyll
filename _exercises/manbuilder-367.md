@@ -1,5 +1,5 @@
 ---
-title: &title "Manbuilder"
+title: "Manbuilder"
 excerpt: "På to håndvægte laves en armstrækning. Derefter trækkes vægtene på skift op i som rows. Spring ind imellem vægtene. Rejs dig op. Få vægtene op til skuldrene. Pres dem op over hovedet. Start forfra."
 instructions: "På to håndvægte laves en armstrækning. Derefter trækkes vægtene på skift op i som rows. Spring ind imellem vægtene. Rejs dig op. Få vægtene op til skuldrene. Pres dem op over hovedet. Start forfra."
 permalink: /oevelse/manbuilder/
@@ -7,9 +7,7 @@ redirect_from: /node/367
 id: 367
 language: da
 header:
-  overlay_image: /assets/images/exercises/manbuilder-0.jpg
   teaser: /assets/images/exercises/manbuilder-0-320.jpg
-  caption: *title
 tags:
   - Helkropsøvelse
   - kropsstamme
@@ -17,8 +15,8 @@ tags:
   - håndvægte
 categories:
   - Helkropsøvelse
-training_type: 
-training_focus: 
+training_type:
+training_focus:
   - kropsstamme
   - helkropsøvelse
 equipment:
@@ -69,6 +67,8 @@ gallery:
     title: "Manbuilder"
 last_modified_at: 2013-11-19T13:14:32Z
 ---
+
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}
 
 Lav en armstrækning mens du har hænderne på to håndvægte. Hold kroppen helt ret. Med strakte arme, trækkes vægten en efter en op fra jorden, mens du holder balancen på den anden hånd. Det er lettere at holde balancen med spredte ben.
 

@@ -1,5 +1,5 @@
 ---
-title: &title "Mave, benløft"
+title: "Mave, benløft"
 excerpt: "Lig på ryggen med benene vinkelret i vejret. Armene ned langs kroppen og håndfladerne mod gulvet. Sænk benene mod gulvet og stop bevægelsen inden fødderne rører gulvet. Bevæg herefter benene tilbage til startpositionen. Gentages. "
 instructions: "Lig på ryggen med benene vinkelret i vejret. Armene ned langs kroppen og håndfladerne mod gulvet. Sænk benene mod gulvet og stop bevægelsen inden fødderne rører gulvet. Bevæg herefter benene tilbage til startpositionen. Gentages. "
 permalink: /oevelse/mave-benloeft/
@@ -7,9 +7,7 @@ redirect_from: /node/283
 id: 283
 language: da
 header:
-  overlay_image: /assets/images/exercises/mave-benloeft-0.jpg
   teaser: /assets/images/exercises/mave-benloeft-0-320.jpg
-  caption: *title
 tags:
   - Koordination og balance
   - Styrketræning
@@ -19,9 +17,10 @@ tags:
   - Mave
 categories:
   - Koordination og balance
-training_type: 
+  - Maveøvelser
+training_type:
   - Styrketræning
-training_focus: 
+training_focus:
   - kropsstamme
 equipment:
   - kropsvægt
@@ -44,4 +43,8 @@ gallery:
 last_modified_at: 2014-10-12T22:05:15Z
 ---
 
+{{ page.excerpt }}
 
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}
+
+Tjek [flere øvelser til styrketræning af maven]({% link _pages/exercises-tag-abs.md %}).

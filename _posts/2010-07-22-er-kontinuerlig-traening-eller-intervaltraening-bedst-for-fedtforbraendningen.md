@@ -1,5 +1,6 @@
 ---
 title: &title "Er kontinuerlig træning eller intervaltræning bedst for fedtforbrændingen?"
+seo_title: "Effektiv fedtforbrædning med kontinuerlig træning eller intervaltræning?"
 permalink: /artikel/er-kontinuerlig-traening-eller-intervaltraening-bedst-for-fedtforbraendningen/
 language: da
 header:
@@ -10,18 +11,19 @@ tags:
   - intervaltræning
   - fedtforbrænding
   - fedttab
+  - løb
 category:
   - Kondition
   - Løb
 last_modified_at: 2020-06-07T08:34:44Z
 ---
 
-Jeg har sat mig ned for at undersøge, om det er kontinuerlig træning med lavere intensitet eller intervaltræning med høj intensitet, der er bedst for fedtforbrændingen? Intervaltræning og _high intensity training_ bliver oftere og oftere markedsført som virkelig effektivt til at sætte gang i en effektiv fedtforbrænding, fordi der er en høj efterforbrænding, mens man tidligere snakkede om en fedtforbrænding ved lavere intensiteter. 
+Jeg har sat mig ned for at undersøge, om det er kontinuerlig træning med lavere intensitet eller intervaltræning med høj intensitet, der er bedst for fedtforbrændingen? Intervaltræning og _high intensity training_ bliver oftere og oftere markedsført som virkelig effektivt til at sætte gang i en effektiv fedtforbrænding, fordi der er en høj efterforbrænding, mens man tidligere snakkede om en fedtforbrænding ved lavere intensiteter.
 
 Lad os først kigge lidt på et par grundlæggende begreber.
 
 - **HIIT** er en forkortelse af det engelske _high intensity interval training_ eller på dansk 'høj intensiv interval træning', og det er blevet meget populært, fordi du kan lave træningen på kort tid, og så får det skyld for at forbedre efterforbrændingen.
-- **LISS** er en forkortelse for _low intensity steady state cardio_ eller på dansk 'lav intensitet konditionstræning', som tidligere var i vælten, fordi man opererede med en fedtforbrændingszone. 
+- **LISS** er en forkortelse for _low intensity steady state cardio_ eller på dansk 'lav intensitet konditionstræning', som tidligere var i vælten, fordi man opererede med en fedtforbrændingszone.
 
 Det er interessant, at der endnu ikke er et definitivt svar på, hvordan du bedst muligt forbrænder fedt, når der er så mange, der er interesserede i det.
 
@@ -61,7 +63,7 @@ EPOC kan have variende størrelse. EPOC er størst lige efter træningen, og den
 
 Laforgia et al (2006) satte fx deltagerne i deres studie til at lave 20 runder med 1 minuts intervaller med maksimal intensitet med 2 minutters pause mellem intervallerne. Deltagerne brugte i gennemsnit 537 kcal under træningen, mens efterforbrændingen 9 timer efter træningen var 64 kcal. Efterforbrændingen er altså for en så hård intervalprotokol 12%.
 
-Efterforbrændingen har naturligvis en effekt, men det største bidrag til energiforbruget på en dag er selve træningen og ikke efterforbrændingen. 
+Efterforbrændingen har naturligvis en effekt, men det største bidrag til energiforbruget på en dag er selve træningen og ikke efterforbrændingen.
 
 Men EPOC øges med intensiteten i træningen, så hvis du har begrænset tid til træning, så kan du spare lidt af tiden ved at skrue op for intensiteten og samlet få det samme udbytte. Flere studier har vist, at man kan skabe efterforbrænding med både _steady state_ cardio og HIIT - og nogle studier har vist, at man forbrænder nogenlunde det samme antal kalorier i timerne efter hhv. cardio og intervaltræning (se fx Hazell et al 2012, Skelly et al 2014, Williams et al 2013).
 
@@ -105,7 +107,7 @@ Det tyder altså på, at hård intervaltræning er mere effektivt ift. at tabe f
 
 ## Konklusion: Hvad er den bedste fedtforbrænding?
 
-Den mest effektive træning til at hjælpe med fedttab er den træning, du får lavet. Det kan godt være noget af en _hurdle_ at skulle gå _all out_ på sine træninger, så hvis du foretrækker træning med moderat intensitet, så kan det være den bedste fedtforbrænding. 
+Den mest effektive træning til at hjælpe med fedttab er den træning, du får lavet. Det kan godt være noget af en _hurdle_ at skulle gå _all out_ på sine træninger, så hvis du foretrækker træning med moderat intensitet, så kan det være den bedste fedtforbrænding.
 
 Det kunne være interessant med mere forskning, hvor de sammenligner forskellige træningsprotokoller med både HIIT og LISS i forhold til kropskompositionen over tid. Jeg tror ikke der er nogen tvivl om, at hvis du bruger nogenlunde den samme tid på træningen, så vil intervaller være mere effektiv fedtforbrænding over tid, men det mest sandsynlige er nok, at du ikke bruger lige så lang tid på træningen.
 

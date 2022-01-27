@@ -1,12 +1,14 @@
 ---
 title: &title "Benmuskler: Liste og øvelser til muskler i benet"
-seo_title: "Benmuskler - Liste og øvelser til muskler i benet »"
+seo_title: "Benmuskler: Liste og øvelser til muskler i benet"
 description: "Komplet liste over muskler i benet. Forslag til træning af benmusklerne."
 permalink: /muskler/ben/
+redirect_from:
+  - /benmuskler/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1434608519344-49d77a699e1d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1900&q=80
-  teaser: https://images.unsplash.com/photo-1434608519344-49d77a699e1d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1434608519344-49d77a699e1d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1434608519344-49d77a699e1d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Anatomi
@@ -16,6 +18,9 @@ tags:
 last_modified_at: 2021-01-28T23:14:14Z
 toc: true
 author: lsolesen
+sidebar:
+  nav: muscles
+breadcrumbs: true
 ---
 
 Jeg har samlet en liste over muskler i dine ben her. Det er godt at vide, hvordan dine benmuskler virker, hvis du gerne vil træne musklerne i benet.

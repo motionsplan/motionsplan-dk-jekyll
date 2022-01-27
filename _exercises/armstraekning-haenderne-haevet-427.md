@@ -1,5 +1,5 @@
 ---
-title: &title "Armstrækning, hænderne hævet"
+title: "Armstrækning, hænderne hævet"
 excerpt: "Placer hænderne på en bænk. Sænk brystet ned mod bænken med helt ret krop. Tilbage til udgangsposition. "
 instructions: "Placer hænderne på en bænk. Sænk brystet ned mod bænken med helt ret krop. Tilbage til udgangsposition. "
 permalink: /oevelse/armstraekning-haenderne-haevet/
@@ -7,9 +7,7 @@ redirect_from: /node/427
 id: 427
 language: da
 header:
-  overlay_image: /assets/images/exercises/armstraekning-haenderne-haevet-0.jpg
   teaser: /assets/images/exercises/armstraekning-haenderne-haevet-0-320.jpg
-  caption: *title
 tags:
   - Styrketræning
   - skub vandret
@@ -20,9 +18,10 @@ tags:
   - Bryst
   - fitnessinstruktør
 categories:
-training_type: 
+  - Armstrækninger
+training_type:
   - Styrketræning
-training_focus: 
+training_focus:
   - skub vandret
 equipment:
   - bænk

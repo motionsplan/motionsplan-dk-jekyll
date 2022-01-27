@@ -12,7 +12,9 @@ group :jekyll_plugins do
     gem 'jekyll-sitemap'
     gem 'jekyll-gzip'
     gem 'jekyll-brotli'
+    gem "jekyll-algolia"
 end
 gem 'classifier-reborn'
 gem 'gsl'
 gem 'html-proofer'
+gem "minimal-mistakes-jekyll", "~> 4.24"

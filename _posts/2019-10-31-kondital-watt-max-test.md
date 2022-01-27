@@ -9,6 +9,7 @@ header:
   caption: Watt max-testen på cykelergometer. Konditionstest på cykel.
 category:
   - Kondition
+  - Cykling
 tags:
   - konditionstest
   - cykel
@@ -23,16 +24,17 @@ feature_row:
   - image_path: https://local-wattbike-images.s3.amazonaws.com/images/product__wattbike@3x.jpg
     alt: "Wattbike Pro er perfekt til at lave Watt max test på"
     title: "Wattbike Pro eller trainer"
-    excerpt: "Uanset om du er på begynderniveau eller er eliteudøver, er Wattbike Pro og Trainer udviklet til at forbedre din performance."
+    excerpt: "Uanset om du er på begynderniveau eller er eliteudøver, er Wattbike Pro og Trainer en rigtig god indendørs cykel til din vintertræning."
     url: "https://wattbike.com/dk/product/wattbike"
-    btn_label: "Læs mere"
+    btn_label: "Besøg Wattbike"
     btn_class: "btn--success"
+breadcrumbs: true
 ---
 
 *[RPM]: Rounds Per Minute (omdrejninger pr. minut)
 *[MPO]: Maksimale Power Output
 
-Watt max-testen er en nem og præcis måde at finde dit kondital på. Du skal bruge et præcist cykelergometer og en forsøgsperson, der vil køre til grænsen. Watt max-testen kan estimere den maksimale iltoptagelse og konditallet med en ret høj korrelation til direkte undersøgelser i laboratorium. 
+Watt max-testen er en nem og præcis måde at finde dit kondital på. Du skal bruge et præcist cykelergometer og en forsøgsperson, der vil køre til grænsen. Watt max-testen kan estimere den maksimale iltoptagelse og konditallet med en ret høj korrelation til direkte undersøgelser i laboratorium.
 
 Watt max-testen er enkel at gennemføre. Testen kræver, at du har adgang til en ergometercykel, hvor du kan styre belastningen i watt. De sidste 2-4 minutter af testen er virkeligt hårde.
 
@@ -44,7 +46,7 @@ Jeg læste første gang om Wattmax-testen i denne [artikel af Morten Zacho](http
 ## Watt max-testens gennemførelse
 
 1. Start med at veje dig.
-2. Varm op i fem minutter ved at cykle 5 min på 100 watt (mand) eller 5 min på 70 watt (kvinde).
+2. Varm op i fem minutter ved at cykle 5 min på 100 watt for mænd eller 70 watt for kvinder.
 3. Øg belastningen med 35 watt _hvert andet minut_, indtil du ikke længere kan holde belastningen.
 4. Notér den højeste belastning (watt), og antallet af sekunder du kunne køre på denne belastning.
 
@@ -65,7 +67,7 @@ Energiforbruget ved forskellige arbejdsbelastninger er relativt konsistent melle
 
 Derfor kan VO<sub>2</sub>-max estimeres ved den højeste arbejdsbelastning, forsøgspersonen kan køre med.
 
-Testen er baseret på, at gennemførelsen af intervallerne primært er afhængig af aerob energifrigørelse. 
+Testen er baseret på, at gennemførelsen af intervallerne primært er afhængig af aerob energifrigørelse.
 
 Først finder du det maksimale power output (MPO) på baggrund af antallet af sekunder på sidste modstand (T) og belastningen på sidste modstand (W) i watt:
 
@@ -85,7 +87,7 @@ Du kan sammenligne dit [kondital med tabellen for mænd og kvinder](/kondital/).
 
 Du kan køre testen på en Wattbike ved at bruge tabellerne, der omsætter modstanden til watt [Power, Resistance and Cadence Tables for Wattbike](https://support.wattbike.com/hc/da/articles/115001881825-Power-Resistance-and-Cadence-Tables). Dog skal du lige kalibrere om det også passer med, hvad du træder. På en Wattbike kan testlederen hele tiden holde øje med, at man træder det korrekte antal watt.
 
-[The Maximal Ramp Test](https://wattbike.com/dk/performance-tests/the-maximal-ramp-test) som er indbygget i Wattbikes ligner også Watt max-testen, så det kan anbefales bare at bruge den, hvis du har adgang til en Wattbike.
+[The Maximal Ramp Test](https://wattbike.com/dk/performance-tests/the-maximal-ramp-test) som er indbygget i Wattbikes ligner Watt max-testen, så det kan anbefales bare at bruge den, hvis du har adgang til en Wattbike.
 
 {% include feature_row type="left" %}
 

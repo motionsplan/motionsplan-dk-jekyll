@@ -1,5 +1,6 @@
 ---
 title: "Den lange indadfører"
+title: "Den lange indadfører | Adductor Longus | Muskler"
 functional_group:
   - Hoftens indadførere
 group:
@@ -12,9 +13,11 @@ name:
 tags:
   - imagemap
   - muskel
-origin: 
+categories:
+  - Muskler
+origin:
   da: Skambenet.
-insertion: 
+insertion:
   da: På indersiden og bagsiden af det midterste af lårbensknoglen.
 function:
   da:
@@ -40,3 +43,5 @@ video:
   provider: youtube
   id: U6imQsMgGOI
 ---
+
+{{ page.name.da | capitalize }} hedder på latin *{{ page.name.latin | downcase }}*. Musklen laver {% for f in page.function.da %}{% if forloop.last == true and page.function.da.size > 1 %} og {% endif %}{{ f.short | downcase  }}{% if forloop.last == false and page.function.da.size > 1 %}, {% endif %}{% endfor %}. Musklen er en del af {{ page.functional_group | join: ", " | downcase }}.

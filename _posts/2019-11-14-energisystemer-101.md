@@ -3,8 +3,8 @@ title: "Energisystemer 101: Aerob og anaerob træning og arbejde 💗"
 permalink: /energisystemer/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1495976797530-f33e6580e44b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80
-  teaser: https://images.unsplash.com/photo-1495976797530-f33e6580e44b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1495976797530-f33e6580e44b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1495976797530-f33e6580e44b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: "Energisystemer 101: Aerob og anaerob træning og arbejde"
 category:
   - Træning
@@ -47,7 +47,7 @@ Helt grundlæggende er alle tilpasningsprocesserne i kroppen til for at oprethol
 Der er tre variabler, der definerer hvilken type miljø, der er i kroppen.
 
 - **Hastigheden af energiproduktionen.** Når der kræves energi hurtigt, så dominerer det anaerobe system.
-- **Varigheden af energiproduktionen.** Når varigheden er lang, så dominerer det aerobe system. 
+- **Varigheden af energiproduktionen.** Når varigheden er lang, så dominerer det aerobe system.
 - **Ratio mellem arbejde og pause.** Når der arbejdes hårdt med korte pauser, så vil aktiviteten blive domineret af det aerobe system.
 
 I denne figur kan du se fordelingen mellem det anaerobe og det aerobe system:
@@ -80,7 +80,7 @@ Anaerobic power reserve = max speed - max speed produced aerobically
 
 Desto større del af din energi, der kommer fra det aerobe system, desto længere tid vil du kunne holde til aktiviteten.
 
-{% include figure image_path="/assets/images/blog/anaerob-aerob-intensitet.jpg" caption="Primære træningsområder inden for aerob og anaerob træning udtrykt i relation til maksimal arbejdsintensitet (100%). De enkelte områder overlapper hinanden, idet der er et vist variationsområde inden for hver kategori. Arbejdsintensiteten svarende til den maksimale iltoptagelse og den maksimale arbejdsintensitet er angivet ved henholdsvis den nederste og øverste stiplede linie. Der er store individuelle forskelle på, hvor meget intensiteten svarende til den maksimale iltoptagelse udgør i forhold til den maksimale intensitet. Her er den sat til 25%, men for nogle udgør den kun 10% og for andre op til 50 60% af den maksimale intensitet." %}
+{% include figure image_path="/assets/images/blog/anaerob-aerob-intensitet.jpg" caption="Primære træningsområder inden for aerob og anaerob træning udtrykt i relation til maksimal arbejdsintensitet (100%). De enkelte områder overlapper hinanden, idet der er et vist variationsområde inden for hver kategori. Arbejdsintensiteten svarende til den maksimale iltoptagelse og den maksimale arbejdsintensitet er angivet ved henholdsvis den nederste og øverste stiplede linje. Der er store individuelle forskelle på, hvor meget intensiteten svarende til den maksimale iltoptagelse udgør i forhold til den maksimale intensitet. Her er den sat til 25%, men for nogle udgør den kun 10% og for andre op til 50 60% af den maksimale intensitet." %}
 
 ## Hvad er forskellen på det aerobe og anaerobe system
 
@@ -127,15 +127,15 @@ Anaerob og aerob træning ser forskellig ud. Selvom de to energisystemer suppler
 
 {% include video provider="wistia-net" id="we0vqpyxc5" %}
 
-Kapaciteten for at forbedre det aerobe system er noget større end muligheden for at forbedre det anaerobe system. Der er tre faktorer, der bidrager til din aerobe fitness. 
+Kapaciteten for at forbedre det aerobe system er noget større end muligheden for at forbedre det anaerobe system. Der er tre faktorer, der bidrager til din aerobe fitness.
 
 - **Iltoptagelsen.**
 - **Udnyttelsen af ilten.**
 - **Tilgængeligheden af næringsstoffer.**
 
-Din krop vil tilpasse sig hurtigere til træning med høj intensitet, fordi det giver et højre træningsstimulus. Hvis du træner med høj intensitet over lang tid - mere end 4-6 uger - så vil du ramme et plateau eller overtræning. 
+Din krop vil tilpasse sig hurtigere til træning med høj intensitet, fordi det giver et højre træningsstimulus. Hvis du træner med høj intensitet over lang tid - mere end 4-6 uger - så vil du ramme et plateau eller overtræning.
 
-Træning med moderat eller lavere intensitet skaber mindre signifikante ændringer på kort tid, men vil give længerevarende forbedringer. 
+Træning med moderat eller lavere intensitet skaber mindre signifikante ændringer på kort tid, men vil give længerevarende forbedringer.
 
 For at træne det aerobe system, så kan man følge disse principper:
 
@@ -145,11 +145,17 @@ For at træne det aerobe system, så kan man følge disse principper:
 
 Eksempler på træningsmetoder til det aerobe system kunne være:
 
-### Cardiac Output
+### Udholdenhedstræning
 
-Målet er at forøge størrelsen på hjertets venstre ventrikel og derved øge hjertets kapacitet og øge slagvolumen, samt at forbedre udholdenheden af _slow twitch_-muskelfibrene. 
+Målet er at forbedre udholdenheden af _slow twitch_-muskelfibrene og gøre kroppen mere effektiv til at bruge næringsstoffer.
 
-Pulsen bør være i området fra 130-150 slag i minuttet. Aktiviten bør tage fra 30-90 minutter. Det kan både være løb, cykling, roning eller cirkeltræning med jævn puls. 
+Pulsen bør være i området fra 130-150 slag i minuttet. Aktiviten bør tage fra 30-90 minutter. Det kan både være løb, cykling, roning eller cirkeltræning med jævn puls.
+
+Joel Jamieson kalder lidt forfejlet metoden for *cardiac output*, men det navn giver ikke så meget mening. Når man arbejder med lave intensiteter er minutvolumen (cardiac output) nemlig ikke så stor. Jamieson plæderer for, at man skulle træne hjertets venstre ventrikel til at blive større.
+
+Jeg har ikke kunnet finde noget videnskabelig evidens for, at det skulle være særlig effektivt for hjertets størrelse eller evne til at fylde sig selv ved lave hastigheder. Faktisk ser det ud til, at slagvolumen (hjertets evne til at fylde sig selv) trænes mere ved højere intensiteter (Helgerud 2007).
+
+Men derfor er Joel Jamiesons forklaring af, hvordan man kan arbejde med udholdenhedstræning stadig inspirerende.
 
 {% include video provider="facebook" id="8weeksout/videos/10155781664495787" %}
 
@@ -157,17 +163,17 @@ Pulsen bør være i området fra 130-150 slag i minuttet. Aktiviten bør tage fr
 
 Målet er at øge densiteten af kapilærerne ved musklerne og forbedre de _oxidative_ egenskaber af både _slow_ og _fast twitch_-muskelfibrene.
 
-Arbejdet er 8-12 sekunder med 70% af den maksimale intensitet med omkring 60 sekunders arbejde. Der kan laves 8-22 reps med moderat intensitet.
+Arbejdet er 8-12 sekunder med 70% af den maksimale intensitet med omkring 60 sekunders arbejde. Der kan laves 8-22 reps med moderat intensitet. Det føles ikke så hårdt, men man kan godt mærke udmattelse undervejs.
 
 {% include video provider="facebook" id="8weeksout/videos/10155692941440787" %}
 
 ### High Resistance Intervals
 
-Målet er at forbedre udholdenheden af _fast twitch_-muskelfibrene. Skal ske med høj modstand, bakke eller vægt. Arbejdsperioden er omkring 5-8 sekunder. Pause indtil hjertet er faldet til omkring 130-160 slag / min. 
+Målet er at forbedre udholdenheden af _fast twitch_-muskelfibrene. Skal ske med høj modstand, bakke eller vægt. Arbejdsperioden er omkring 5-8 sekunder. Pause indtil hjertet er faldet til omkring 130-160 slag / min.
 
 {% include video provider="facebook" id="8weeksout/videos/10155741321175787" %}
 
-Jeg har skrevet endnu mere om [aerob træning]({% link _posts/2021-06-19-aerob-traening.md %}).
+Jeg har skrevet endnu mere om [hvad aerob træning er her]({% link _posts/2021-06-19-aerob-traening.md %}).
 
 ## Træning af det anaerobe system
 
@@ -188,7 +194,7 @@ Disse principper kan ses i følgende træningsmetoder:
 
 ### Alactic Interval Training
 
-Målet er at forbedre hastigheden og kapaciteten for den lactacide energiproduktion. 
+Målet er at forbedre hastigheden og kapaciteten for den lactacide energiproduktion.
 
 Der arbejdes 3-6 sekunder med 60-120 sekunders pause. Der arbejdes med 10-20 sæt. Brug eksplosive aktiviteter.
 
@@ -204,7 +210,7 @@ Der arbejdes 30-40 sekunder med 1-4 minutters pause. Der arbejdes med 2-5 sæt o
 
 {% include video provider="youtube" id="q8zcxiucNkY" %}
 
-Jeg har skrevet endnu mere om [anaerob træning]({% link _posts/2021-01-02-anaerob-traening.md %}).
+Jeg har skrevet endnu [mere om anaerob træning]({% link _posts/2021-01-02-anaerob-traening.md %}).
 
 ## Programlægning af aerob og anaerob træning
 
@@ -212,7 +218,7 @@ I denne video kan du lære lidt mere om, hvordan du kan lave et træningsprogram
 
 {% include video provider="wistia-net" id="7urt2wjedc" %}
 
-I træning er det altid godt at sætte en baseline, som du kan sammenligne dit fremskridt med. 
+I træning er det altid godt at sætte en baseline, som du kan sammenligne dit fremskridt med.
 
 I den **aerobe træning** kan du sætte din baseline med følgende:
 
@@ -265,7 +271,7 @@ Anaerobic Power Reserve
 
 På engelsk hedder træning af energisystemerne for 'conditioning'. Der er desværre ikke noget rigtig godt ord på dansk for både det anaerobe og aerobe energisystem.
 
-Sammenhængen mellem det aerobe og anaerobe system og træningen af det forklares rigtig godt i denne korte video.
+Sammenhængen mellem det aerobe og anaerobe system og træningen bliver forklaret rigtig godt i denne korte video.
 
 {% include video provider="facebook" id="8weeksout/videos/10153984991045787/" %}
 
@@ -292,5 +298,5 @@ Jeg har skrevet mere om de [fysiologiske tilpasninger til konditionstræning]({%
 - [The Anaerobic Power Reserve](https://www.8weeksout.com/2013/03/15/anaerobic-power-reserve/)
 - Weyand, P. G., Lin, J. E., & Bundle, M. W. (2006). Sprint performance-duration relationships are set by the fractional duration of external force application. American journal of physiology. Regulatory, integrative and comparative physiology, 290(3), R758–65. doi:10.1152/ajpregu.00562.2005
 - Mendez-Villanueva, A., Hamer, P., & Bishop, D. (2008). Fatigue in repeated-sprint exercise is related to muscle power factors and reduced neuromuscular activity. European journal of applied physiology, 103(4), 411–9. doi:10.1007/s00421-008-0723-9
-- [DIF: Anaerob Præstationsevne](https://www.dif.dk/-/media/difdk/foreningsliv/udgivelser/pdf/anaerobprstationsevnetoleranceproduktionoghurtighedstrning.pdf)
+- [DIF: Anaerob Præstationsevne](https://www.dif.dk/media/3n4njx1f/anaerob-pr%C3%A6stationsevne-h%C3%A6fte.pdf)
 </details>

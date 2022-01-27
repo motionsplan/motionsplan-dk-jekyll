@@ -1,5 +1,6 @@
 ---
 title: Tohovedede armbøjer (Biceps Brachii)
+seo_title: Tohovedede armbøjer | Biceps Brachii | Muskler
 functional_group:
   - Armens fremadføring
   - Armbøjere
@@ -16,6 +17,8 @@ tags:
   - imagemap
   - fitnessinstruktør
   - muskel
+categories:
+  - Muskler
 function:
   da:
     - short: Fleksion i albueleddet
@@ -49,3 +52,5 @@ coords:
   - "193,120,209,132,223,143,230,159,229,170,216,167,202,149"
   - "65,167,74,166,85,149,90,135,94,116,77,127,67,138,64,156"
 ---
+
+{{ page.name.da | capitalize }} hedder på latin *{{ page.name.latin | downcase }}*. Musklen laver {% for f in page.function.da %}{% if forloop.last == true and page.function.da.size > 1 %} og {% endif %}{{ f.short | downcase  }}{% if forloop.last == false and page.function.da.size > 1 %}, {% endif %}{% endfor %}. Musklen er en del af {{ page.functional_group | join: ", " | downcase }}.

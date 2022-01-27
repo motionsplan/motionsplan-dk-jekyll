@@ -1,5 +1,6 @@
 ---
 title: Flexor Carpi Ulnaris
+seo_title: "Flexor Carpi Ulnaris | Muskler"
 functional_group:
   - Håndleddets bøjere (volarflektorer) og fingerbøjerne
 name:
@@ -12,6 +13,8 @@ joint:
 tags:
   - imagemap
   - muskel
+categories:
+  - Muskler
 function:
   da:
     - short: Flexes the wrist.
@@ -62,3 +65,5 @@ coords:
   - 379,183,384,185,354,225,354,223
   - 548,225,550,225,527,181,526,186
 ---
+
+{{ page.name.da | capitalize }} hedder på latin *{{ page.name.latin | downcase }}*. Musklen laver {% for f in page.function.da %}{% if forloop.last == true and page.function.da.size > 1 %} og {% endif %}{{ f.short | downcase  }}{% if forloop.last == false and page.function.da.size > 1 %}, {% endif %}{% endfor %}. Musklen er en del af {{ page.functional_group | join: ", " | downcase }}.

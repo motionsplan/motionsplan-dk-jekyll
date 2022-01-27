@@ -4,8 +4,8 @@ permalink: /kondital-2400-meter/
 excerpt: "På 2400 meter løbetesten gælder det om at løbe 2400 meter så hurtigt som muligt, og derfra kan du estimere dit kondital og sammenligne dig med normerne."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1585855822554-4d21c841708c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2167&q=80
-  teaser: https://images.unsplash.com/photo-1585855822554-4d21c841708c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1585855822554-4d21c841708c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1585855822554-4d21c841708c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Kondition
@@ -27,6 +27,7 @@ gallery_whyiexercise:
   - image_path: https://www.whyiexercise.com/images/xcooper.test.chart.1.5.miles.ladies.jpg.pagespeed.ic.kWvEOdyHk9.jpg
     url: https://www.whyiexercise.com/images/xcooper.test.chart.1.5.miles.ladies.jpg.pagespeed.ic.kWvEOdyHk9.jpg
     title: "Normer for kvinder for 2400 meter testen"
+breadcrumbs: true
 ---
 
 2400-meter løbetesten er en del af forskellige optagelsesprøver, fx til politiskolen. På 2400 meter-testen gælder det om at løbe 2400 meter så hurtigt som muligt, og derfra kan du estimere dit kondital og sammenligne dig med normerne.

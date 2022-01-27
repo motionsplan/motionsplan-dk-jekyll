@@ -1,17 +1,18 @@
 ---
-title: &title "Træningsbøger 📚: 9 bedste bøger om træning 💪 [2021]"
+title: &title "Træningsbøger 📚: 9 bedste bøger om træning 💪 [2022]"
+seo_title: "Træningsbøger: 9 bedste bøger om træning [2022]"
 permalink: /traeningsboeger-boeger-om-traening/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1534258936925-c58bed479fcb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1989&q=80
-  teaser: https://images.unsplash.com/photo-1534258936925-c58bed479fcb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1534258936925-c58bed479fcb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1534258936925-c58bed479fcb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Træning
+  - Inspiration
 tags:
-  - programlægning
-  - træningsprogram
-  - træning
+  - inspiration
+  - bøger
 last_modified_at: 2020-01-23T08:14:14Z
 toc: true
 feature_row:
@@ -20,21 +21,21 @@ feature_row:
     title: Shutup Legs
     excerpt: "Fortællingen om Jens Voigts vej til professionel cykelsport er bemærkelsesværdig. Lige fra hans opvækst i Østtyskland, hvor Tour de France blot var noget, man hørte rygter om, til den sene professionelle debut i 1997 og de mange bedrifter, der fulgte på landevejene i de efterfølgende år."
     btn_class: btn--success
-    btn_label: Se prisen hos Tales*
+    btn_label: Se prisen
     rel: sponsored nofollow noopener
   - image_path: https://content.gucca.dk/covers/big/r/a/racercykel-traening_280085.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=9399&htmlurl=https://www.gucca.dk/racercykel-traening-bog-p280085
     title: Racercykel træning
     excerpt: "Vil du gerne have en bog om, hvordan du skal sammensætte din træning, kost og øvelser for at optimere din performance, så kan cykelbogen _Racercykel træning_anbefales. I bogen bliver du guidet igennem flere forskellige niveauer af din cykeltræning – ligefra det basale om til det mere avanceret såsom hvordan du fx optimerer din restituering."
     btn_class: btn--success
-    btn_label: Se prisen hos Gucca*
+    btn_label: Se prisen
     rel: sponsored nofollow noopener
   - image_path: https://cdn6.tales.dk/00001/70375/cover.1497214104.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/tri_torbjoern-sindballe_9788702129410
     title: Tri – Den ultimative træningsbog
     excerpt: "Hvis du vil optimere dine præstationer, så tjek bogen _Tri – Den ultimative træningsbog_. Bogen henvender sig godt nok til triatlonudøvere, men er stadig meget brugbar for almindelige landevejscyklister. Bogens tips om teknik, træning, ernæring og psykologi sagtens kan videreføres over til landevejscyklister."
     btn_class: btn--success
-    btn_label: Se prisen hos Tales*
+    btn_label: Tjek prisen
     rel: sponsored nofollow noopener
   - image_path: https://cdn6.tales.dk/00039/86456/cover.1579497278.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/daniels-running-formula_jack-daniels_9781450431835
@@ -63,7 +64,7 @@ feature_row:
     title: "Science and Application of High Intensity Interval Training"
     excerpt: "Paul Laursen og Martin Buchheit har skrevet _Science and Application of High-Intensity Interval Training_, som er _must-have_ for alle coaches, trænere, fysiologer og researchers, der bruger HIIT - high-intensity interval training - som en del af deres arbejdsområde og laver træning og træningsprogrammer."
     alt: HIIT - Højintensitets Intervaltræning - træningsprogram - træning
-    btn_label: Tjek prisen hos Saxo*
+    btn_label: Tjek prisen
     btn_class: btn--danger
     rel: sponsored nofollow noopener
   - image_path: https://images.bod.com/images/kontrol-og-laering-af-motoriske-faerdigheder-og-verbal-feedback-lars-olesen-9788743011378.jpg/500/500/Kontrol_og_l%C3%A6ring_af_motoriske_f%C3%A6rdigheder_og_verbal_feedback.jpg
@@ -71,7 +72,7 @@ feature_row:
     title: "Kontrol og læring af motoriske færdigheder og verbal feedback"
     excerpt: "Den her har jeg selv skrevet. Bogen besvarer følgende to spørgsmål: (1) Hvordan kan komplicerede, hurtige færdigheder tænkes at være kontrolleret, og hvordan kan påvirkningen og læringen i dette kontrolsystem tænkes at foregå? (2) Hvordan kan underviseren verbalt give feedback på udøverens præstation af en kompliceret, hurtig færdighed for at skabe den bedst mulige motoriske læring hos udøveren?"
     alt: Kontrol og læring af motoriske færdigheder og verbal feedback
-    btn_label: Tjek prisen hos Bod*
+    btn_label: Tjek prisen
     btn_class: btn--danger
     rel: sponsored nofollow noopener
   - image_path: https://imgcdn.saxo.com/_9788711731611/0x500
@@ -79,7 +80,7 @@ feature_row:
     title: "Sov Rigtigt"
     excerpt: "Glem alt om det, du troede, du vidste om søvn. Restitution er noget, der kan foregå hele døgnet rundt, ikke kun om natten – restitutionsprocessen er en konstant rytme, som vi alle må lære at følge. Så hvis du vil starte i dag, betyder det lige nu – ikke når du går i seng i aften. - Nick Littlehales"
     alt: Sov Rigtigt - Nick Littlehales
-    btn_label: Tjek prisen hos Saxo*
+    btn_label: Tjek prisen
     btn_class: btn--danger
     rel: sponsored nofollow noopener
 ---

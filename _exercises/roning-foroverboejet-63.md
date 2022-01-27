@@ -1,5 +1,6 @@
 ---
-title: &title "Bent over rows"
+title: "Bent over rows"
+seo_title: "Bent over rows (BOR) | Træningsøvelse"
 instructions: "I bent over rows står man i en let bredstående stilling med fødderne og foroverbøjet. Grib fat i stangen med enten med overhåndsgreb eller underhåndsgreb. Hældningen i overkroppen er lige omkring vandret. Træk vægtstangen op mod navlen eller brystet. Forestil dig at du klemmer noget sammen mellem skulderbladene samtidig med, at du trækker vægten op mod maven. Forestil dig at vægten trække lige op og ned."
 permalink: /oevelse/bent-over-rows-bor/
 redirect_from:
@@ -8,9 +9,7 @@ redirect_from:
 id: 63
 language: da
 header:
-  overlay_image: /assets/images/exercises/roning-foroverboejet-0.jpg
   teaser: /assets/images/exercises/roning-foroverboejet-0-320.jpg
-  caption: *title
 tags:
   - Træk
   - Styrketræning
@@ -24,9 +23,10 @@ tags:
   - rows
 categories:
   - Træk
-training_type: 
+  - Rows
+training_type:
   - Styrketræning
-training_focus: 
+training_focus:
   - træk vandret
 equipment:
   - vægtstang
@@ -62,7 +62,7 @@ _Bent over rows_ (BOR) er en af de mest udbredte basisøvelser for ryggen. Bent 
 
 I bent over rows står man i en let bredstående stilling med fødderne og foroverbøjet. Grib fat i stangen med enten med overhåndsgreb eller underhåndsgreb. Hældningen i overkroppen er lige omkring vandret. Træk vægtstangen op mod navlen eller brystet. Forestil dig at du klemmer noget sammen mellem skulderbladene samtidig med, at du trækker vægten op mod maven. Forestil dig at vægten trække lige op og ned.
 
-Bent over rows er velegnet både til begyndere og mere trænede. Det er en effektiv hjælpeøvelse til at blive stærkere i dødløft og kropshævninger, hvis du gerne vil have en bedre holdning og til at bygge muskelmase på. 
+Bent over rows er velegnet både til begyndere og mere trænede. Det er en effektiv hjælpeøvelse til at blive stærkere i dødløft og kropshævninger, hvis du gerne vil have en bedre holdning og til at bygge muskelmase på.
 
 ## Hvordan udføres bent over rows?
 

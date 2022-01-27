@@ -1,5 +1,5 @@
 ---
-title: &title "Sots press"
+title: "Sots press"
 excerpt: "Du starter med stangen på skuldrene. Stangen skal hele tiden blive i samme højde, mens du går ned i knæ."
 instructions: "Du starter med stangen på skuldrene. Stangen skal hele tiden blive i samme højde, mens du går ned i knæ."
 permalink: /oevelse/sots-press/
@@ -7,15 +7,13 @@ redirect_from: /node/35
 id: 35
 language: da
 header:
-  overlay_image: /assets/images/exercises/sots-press-0.jpg
   teaser: /assets/images/exercises/sots-press-0-320.jpg
-  caption: *title
-tags:
-categories:
-training_type: 
-training_focus: 
-equipment:
-muscle_group:
+tags: []
+categories: []
+training_type: [] 
+training_focus: []
+equipment: []
+muscle_group: []
 gallery:
   - url: /assets/images/exercises/sots-press-0.jpg
     image_path: /assets/images/exercises/sots-press-0-320.jpg

@@ -1,5 +1,6 @@
 ---
-title: "Glute-ham raises: Bedste all-round baglårsøvelse [2021]"
+title: "Glute-ham raise: Bedste all-round baglårsøvelse"
+seo_title: "Glute-ham raises: Bedste all-round baglårsøvelse [2021]"
 instructions: Anklerne placeres mellem de små puder, og det nederste af lårene
   mod den store pude.
 permalink: /oevelse/glute-ham-raises/
@@ -7,19 +8,18 @@ redirect_from: /node/261
 id: 261
 key: 261
 header:
-  overlay_image: /assets/images/exercises/glute-ham-raises-0.jpg
   teaser: /assets/images/exercises/glute-ham-raises-0-320.jpg
-  caption: *title
 tags:
   - hoftedomineret
   - maskine
+  - featured
 training_type: null
 training_focus:
   - hoftedomineret
 equipment:
   - maskine
 muscle_group: null
-last_modified_at: 2020-04-14T15:02:12.000Z
+last_modified_at: 2021-12-13T15:02:12
 feature_row:
   - image_path: https://www.fotoagent.dk/single_picture/11803/138/custom1/PM130_19(1).jpg
     url: https://www.fitnessgruppen.dk/peak-fitness-glute/ham-developer/
@@ -32,6 +32,7 @@ feature_row:
       mellem fodstøtten og puderne.
     btn_label: Tjek prisen hos Fitnessgruppen*
     btn_class: btn--info
+    rel: sponsored nofollow noopener
 gallery:
   - url: /assets/images/exercises/glute-ham-raises-0.jpg
     image_path: /assets/images/exercises/glute-ham-raises-0-320.jpg
@@ -41,6 +42,7 @@ language: da
 video:
   provider: youtube
   id: tPr69TL_n70
+toc: true
 ---
 
 Glute-ham raises (GHR) er en af de bedste all-round baglårsøvelser og bagkæde-øvelser, der findes, fordi GHD træner hele baglårets funktion i en bevægelse. Glute ham-raises bliver typisk lavet på en særlig bænk, men oprindeligt lavede de sovjetiske atletikfolk øvelsen ved at sætte fødderne ind i en ribbe og støtte lårene mod en gymnastikhest. Jeg har kigget på, hvad glute-ham raises er.
@@ -51,9 +53,7 @@ Du må ikke undervurdere hvor effektiv glute-ham raises er, og den har en stor o
 
 ## Hvordan ser en glute ham raise bænk ud?
 
-Bænken til glute-ham raises er opfundet af Dr. Mike Yessis[^note]. En glute ham raise bænk kaldes ofte en glute ham raise developer (GHD), og den ser nogenlunde sådan her ud.
-
-[^note]: [Supertraining.dk #63 – Glute-ham raises](http://supertraining.dk/glute-ham-raises/)
+Bænken til glute-ham raises er ifølge [Supertraining.dk](http://supertraining.dk/glute-ham-raises/) opfundet af Dr. Mike Yessis. En glute ham raise bænk kaldes ofte en glute ham raise developer (GHD), og den ser nogenlunde sådan her ud.
 
 {% include feature_row type="left" %}
 
@@ -63,7 +63,7 @@ Når du vælger vælger en bænk til glute ham raises, så skal du være opmærk
 - At det er en solid model, som ikke rokker under bevægelsen.
 - At du kan indstille afstanden mellem fodholderen og puderne, så den passer til dig.
 
-## Hvordan udføres glute-ham raises
+## Hvordan udføres glute-ham raises?
 
 Der er rigtig mange videoer og guides på nettet, der kun viser det halve af glute ham raises-bevægelsen. Glute-ham raises er _både_ en hofte-ekstension og en leg curl i samme bevægelse. Hvis du kun laver leg curl, så er det kun noget af baglåret, der bliver trænet.
 
@@ -77,11 +77,11 @@ Derfor er der også nogen, der kalder bevægelsen for en _glute-ham-gastroc rais
 
 Du starter bevægelsen i glute-ham-raises med ballemusklerne og den del af baglårene, der ekstenderer hoften. Ryggen vil formentlig gå fra en lille fleksion til neutral eller med et lille svaj. Nu føres bevægelsen videre med den del af baglårerne, der søger for fleksion over knæleddet. Til allersidst hjælper læggen med at lave bevægelsen helt færdig.
 
-Det er en stor fordel, at musklerne ikke arbejder isolerede, men arbejder synergistisk, så den intermuskulære koordination også forbedres. 
+Det er en stor fordel, at musklerne ikke arbejder isolerede, men arbejder synergistisk, så den intermuskulære koordination også forbedres.
 
-I en sammenligning af [leg curl]({% link _exercises/knae-fleksion-249.md %}), [good morning]({% link _exercises/goodmorning-16.md %}), [Romanian Deadlift]({% link _exercises/romanian-deadlift-43.md %}) og glute ham raise fandt McAllister et al (2014), at baglårsmusklerne var mest aktive i RDL og glute ham raise.
+I en sammenligning af [leg curl]({% link _exercises/knae-fleksion-249.md %}), [good morning]({% link _exercises/goodmorning-16.md %}), [Romanian Deadlift]({% link _exercises/doedloeft-romanian-43.md %}) og glute ham raise fandt McAllister et al (2014), at baglårsmusklerne var mest aktive i RDL og glute ham raise.
 
-## Hvad hjælper glute ham raise på?
+## Hvad hjælper glute ham raises på?
 
 Der er lavet mange studier på Nordic hamstrings, som ligner den sidste del af bevægelsen i glute ham raise. Nordic hamstrings ser ud til i litteraturen at have to virkelig gode effekter:
 
@@ -90,13 +90,13 @@ Nordic hamstrings (og derved bør det gælde for glute ham raises også)
 - nedsætter risikoen for fiberskader i baglåret
 - forbedre sprinthastighed og hoppehøjde
 
-Vi har skrevet t andet indlæg om [Nordic hamstring her]({% link _exercises/nordic-hamstring-12.md %}).
+Vi har skrevet et andet indlæg om [Nordic hamstring her]({% link _exercises/nordic-hamstring-12.md %}).
 
 ## Hvor mange gentagelser skal jeg lave?
 
-Glute ham-raises egner sig bedst til lave eller medium rep ranges. Det e ren rigtig hård øvelse, som meget gerne må laves eksplosivt i den koncentriske fase. Typisk er det vanskeligt at holde den perfekte form i øvelsen, hvis man bevæger sig over i de høje rep ranges. 
+Glute ham-raises egner sig bedst til lave eller medium rep ranges. Det e ren rigtig hård øvelse, som meget gerne må laves eksplosivt i den koncentriske fase. Typisk er det vanskeligt at holde den perfekte form i øvelsen, hvis man bevæger sig over i de høje rep ranges.
 
-## Variationer af glute ham raise
+## Variationer af glute ham raises
 
 - **Flyt armene for at ændre vægten**. Du kan variere hvor hård øvelsen er ved at placere hænderne forskelligt. Prøv ved hoften, ved brystet og strakt ud foran dig.
 - **Brug en vægtskive**. Du kan også benytte en vægtskive, hvis du har brug for mere vægt. I den koncentriske fase kan du holde vægtskiven tæt på brystet, mens du strækker armene lidt i den excentriske fase. Netop det excentriske overload er en stor del af det gavnlige ved glute ham raises.
@@ -107,15 +107,14 @@ Hvis du ikke har adgang til en ordentlig bænk til glute-ham raises, så kan du 
 
 Du kan også bruge GHR-bænken til andre formål.
 
-- **Back extensions** kan lavet med ret stor bevægeudslag, fordi du liger vandret med benene.
+- **Back extensions** kan lavet med ret stor bevægeudslag.
 - **GHD Situps** som er en meget brugt øvelse i crossfit.
 
-## Referencer til glute ham raise
+## Referencer
 
 <details markdown="1">
-  <summary>Se flere referencer om glute ham raise (GHR)
+  <summary>Se referencer</summary>
 
 - Chiu, Loren Z. F., Anita Yaremko, og Gabriella L. vonGaza. 2017. “Addition of Glute-Ham-Gastroc Raise to a Resistance Training Program: Effect on Jump Propulsion and Landing”. _Journal of Strength and Conditioning Research_ 31 (9): 2562–71. [https://doi.org/10.1519/JSC.0000000000002065](https://doi.org/10.1519/JSC.0000000000002065).
-</summary>
 
-## Noter om Glute Ham Raise (GHR)
+</details>

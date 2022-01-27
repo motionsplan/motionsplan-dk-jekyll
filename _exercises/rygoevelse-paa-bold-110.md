@@ -1,5 +1,5 @@
 ---
-title: &title "Rygøvelse på bold"
+title: "Rygøvelse på bold"
 excerpt: "Læg dig på bolden, så benene rører jorden og overkroppen hænger frit. Lad overkroppen falde ned mod gulvet og ret dig derefter op igen, indtil kroppen er lige."
 instructions: "Læg dig på bolden, så benene rører jorden og overkroppen hænger frit. Lad overkroppen falde ned mod gulvet og ret dig derefter op igen, indtil kroppen er lige."
 permalink: /oevelse/rygoevelse-paa-bold/
@@ -7,23 +7,21 @@ redirect_from: /node/110
 id: 110
 language: da
 header:
-  overlay_image: /assets/images/exercises/rygoevelse-paa-bold-0.jpg
   teaser: /assets/images/exercises/rygoevelse-paa-bold-0-320.jpg
-  caption: *title
 tags:
   - Styrketræning
   - kropsstamme
   - swissball
   - fitnessinstruktør
-categories:
-training_type: 
+categories: []
+training_type:
   - Styrketræning
-training_focus: 
+training_focus:
   - kropsstamme
 equipment:
   - swissball
 muscle_group:
-  - 
+  -
 alternative_titles:
   - Rygstræk på bold
   - lænd på bold
@@ -41,6 +39,7 @@ video:
   id: 5046213
 last_modified_at: 2014-10-10T21:28:46Z
 ---
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}
 
 Udgangsposition: Placer dig på bolden, således at denne ligger på de nederste mavemuskler og hofterne. Ansigtet og kroppen skal være sænket mod jorden/bolden. Udgangspositionen på bolden kan varieres alt efter din balanceevne. Hvis du ønsker at øge balancen, kan bolden placeres længere oppe mod brystet. Placer ligeledes hænderne efter egen balanceevne (jo bredere hænderne/armene placeres, jo bedre balance).
 

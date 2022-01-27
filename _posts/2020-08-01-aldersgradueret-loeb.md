@@ -4,8 +4,8 @@ permalink: /aldersgraduerede-tider/
 last_modified_at: 2020-07-24T09:41:09Z
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1572379892936-47d01f2cd2b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
-  teaser: https://images.unsplash.com/photo-1572379892936-47d01f2cd2b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1572379892936-47d01f2cd2b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1572379892936-47d01f2cd2b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   overlay_filter: 0.2
   caption: "Alder og løbetider: Sammenlign med aldersgraduerede løbetider"
 category:
@@ -14,6 +14,7 @@ tags:
   - kondition
   - beregner
   - alder
+  - løb
 ---
 
 Når man bliver ældre, så kan det være rart med en beregner, som kan finde ud af, hvor gode ens løbetider er i forhold til ens alder. Beregneren kan altså beregne din præstation og niveau ud fra din køn og alder, så du kan sammenligne dine løbetider med andre.

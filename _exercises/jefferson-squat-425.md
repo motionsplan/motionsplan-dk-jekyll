@@ -1,5 +1,5 @@
 ---
-title: &title "Jefferson squat"
+title: "Jefferson squat"
 excerpt: "Hold en vægt mellem benene. Ret ryggen ved at skyde brystet frem og skuldrene tilbage. Gå ned i knæ mens du holder spændet i kropsstammen. Rejs dig. Og gentag."
 instructions: "Hold en vægt mellem benene. Ret ryggen ved at skyde brystet frem og skuldrene tilbage. Gå ned i knæ mens du holder spændet i kropsstammen. Rejs dig. Og gentag."
 permalink: /oevelse/jefferson-squat/
@@ -7,9 +7,7 @@ redirect_from: /node/425
 id: 425
 language: da
 header:
-  overlay_image: /assets/images/exercises/jefferson-squat-0.jpg
   teaser: /assets/images/exercises/jefferson-squat-0-320.jpg
-  caption: *title
 tags:
   - Ben
   - Styrketræning
@@ -19,9 +17,9 @@ tags:
   - Forlår
 categories:
   - Ben
-training_type: 
+training_type:
   - Styrketræning
-training_focus: 
+training_focus:
   - knædomineret
 equipment:
   - håndvægte
@@ -47,6 +45,8 @@ gallery:
     title: "Jefferson squat"
 last_modified_at: 2014-10-12T19:29:26Z
 ---
+
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}
 
 Redskaber: håndvægt/kettlebell
 

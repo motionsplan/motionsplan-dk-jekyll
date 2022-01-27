@@ -6,8 +6,8 @@ redirect_from:
 excerpt: "Kommer jeg i bedre form og kondition? Udregn dit kondital og maksimale iltoptagelse (VO2max) med vores beregnere og se om du får et bedre kondital og fremgang i træningen."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1960&q=80
-  teaser: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1960&q=80
+  overlay_image: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
   overlay_filter: 0.2
   actions:
@@ -38,25 +38,24 @@ Maksimal iltoptagelse (VO<sub>2</sub>max) (l/min)
 Kondital (ml/kg/min)
 : Konditallet er et udtryk for, hvor effektiv kroppen er i forhold til kropsvægten til at optage ilt, når den arbejder ved maksimal intensitet. Konditallet viser hvor meget ilt (ml) kroppen er i stand til at optage pr. min i forhold til ens kropsvægt (kg).
 
-I den engelske litteratur vil man sommetider se, at man bruger VO<sub>2</sub>-max med enhederne (ml/kg/min). Det er altså vigtigt at holde øje med enhederne.
+I den engelske litteratur vil man sommetider se, at man bruger VO<sub>2</sub>-max med enheden (ml/kg/min). Men så er det faktisk konditallet, der refereres til. Det er altså vigtigt at holde øje med enhederne.
 {: .notice .notice--danger }
 
 ## Hvordan måles kondition, kondital og iltoptagelse?
 
 Helt grundlæggende er der to måder at måle konditionen på:
 
-Direkte test
-: I en direkte test foregår målingen i et laboratorium med maske, hvor man måler volumen af indåndings- og udåndingsluften og indholdet af ilt og kuldioxid.
+- **Direkte test**. I en direkte test foregår målingen i et laboratorium med maske, hvor man måler volumen af indåndings- og udåndingsluften og indholdet af ilt og kuldioxid.
+- **Indirekte test**. I en indirekte test estimerer man konditionen ud fra fx hjertefrekvens eller evnen til at arbejde med en bestemt belastning. Det kan man gøre, fordi man ved, hvor meget ilt der kræves for at udføre et bestemt arbejde.
 
-Indirekte test
-: I en indirekte test estimerer man konditionen ud fra fx hjertefrekvens eller evnen til at arbejde med en bestemt belastning. Det kan man gøre, fordi man ved, hvor meget ilt der kræves for at udføre et bestemt arbejde.
-
-De indirekte tests kan have følgende intensitet i forhold til forsøgspersonen:
+Testene kan have følgende intensitet i forhold til forsøgspersonen:
 
 - **Maksimal**. Testpersonerne skal køre sig selv helt ud i testen og finde de maksimale værdier, fx for hvilken belastning man kan arbejde med eller hvor hurtigt, man kan bevæge sig.
 - **Submaksimal**. Testpersonen kører på forudbestemte belastningsgrader og ud fra præstationen på disse belastningsgrader estimeres, hvad forsøgspersonen maksimalt ville kunne klare.
 
 Generelt er de maksimale tests mere pålidelige end de submaksimale i forhold til at finde den maksimale iltoptagelse, men de submaksimale tests kan være rigtig gode til at _tracke_, hvordan træningen påvirker ens kondition.
+
+Der findes en tredje type test, hvor du slet ikke træner for at få estimeret din maksimale iltoptagelse.
 
 ## Konditest: Hvordan ved jeg om jeg er kommet i bedre form?
 
@@ -136,9 +135,13 @@ Du skal vedligeholde din kredsløbsfunktion og derved din kondition hele livet. 
 
 ## Referencer om konditest
 
+<details markdown="1">
+  <summary>Se referencer om kondition og tests</summary>
+
 - Padilla, Sabino, Iñigo Mujika, Francisco Angulo, og Juan Jose Goiriena. 2000. “Scientific approach to the 1-h cycling world record: a case study”. Journal of Applied Physiology 89 (4): 1522–27. <https://doi.org/10.1152/jappl.2000.89.4.1522>.
 - Mujika, Iñigo. 2012. “The Cycling Physiology of Miguel Indurain 14 Years after Retirement”. International Journal of Sports Physiology and Performance 7 (4): 397–400.
 - Coyle, Edward F. 2005. “Improved Muscular Efficiency Displayed as Tour de France Champion Matures”. Journal of Applied Physiology (Bethesda, Md.: 1985) 98 (6): 2191–96. <https://doi.org/10.1152/japplphysiol.00216.2005>.
 - Faulkner, John A., Carol S. Davis, Christopher L. Mendias, og Susan V. Brooks. 2008. “The Aging of Elite Male Athletes: Age-Related Changes in Performance and Skeletal Muscle Structure and Function”. Clinical Journal of Sport Medicine: Official Journal of the Canadian Academy of Sport Medicine 18 (6): 501–7. <https://doi.org/10.1097/JSM.0b013e3181845f1c>.
 - Kolata, Gina. 2005. “Super, Sure, but Not More Than Human”. The New York Times, 24. juli 2005, par. Week in Review. <https://www.nytimes.com/2005/07/24/weekinreview/super-sure-but-not-more-than-human.html>.
 - Thomsen, J. J., R. L. Rentsch, P. Robach, J. a. L. Calbet, R. Boushel, P. Rasmussen, C. Juel, og C. Lundby. 2007. “Prolonged Administration of Recombinant Human Erythropoietin Increases Submaximal Performance More than Maximal Aerobic Capacity”. European Journal of Applied Physiology 101 (4): 481–86. <https://doi.org/10.1007/s00421-007-0522-8>.
+</details>

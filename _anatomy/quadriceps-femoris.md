@@ -1,5 +1,6 @@
 ---
-title: "Firehovedede knæstrækker - Quadriceps femoris"
+title: "Firehovedede knæstrækker"
+seo_title: "Firehovedede knæstrækker | Quadriceps femoris | Muskler"
 joint:
   - Knæleddet
 functional_group:
@@ -12,6 +13,8 @@ name:
 tags:
   - fitnessinstruktør
   - muskel
+categories:
+  - Muskler
 #origin: 
 #  da: Øverst på forsiden af låret
 #insertion: 

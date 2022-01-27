@@ -3,8 +3,8 @@ title: &title "Åndedrætstræning: 3 øvelser til vejrtrækning og åndedrætte
 permalink: /aandedraetstraening-forbedrer-udholdenheden/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1483004406427-6acb078d1f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80
-  teaser: https://images.unsplash.com/photo-1483004406427-6acb078d1f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1483004406427-6acb078d1f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1483004406427-6acb078d1f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
   alt: "Photo by Sime Basioli on Unsplash"
 category:
@@ -16,6 +16,7 @@ tags:
   - åndedræt
   - vejrtrækning
   - åndedrætstræning
+  - løb
 last_modified_at: 2021-01-06T08:14:14Z
 toc: true
 feature_row:
@@ -23,7 +24,7 @@ feature_row:
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38097&htmlurl=https://www.denintelligentekrop.dk/the-relaxator-aandedraetstraener
     title: The Relaxator Åndedrætstræner
     excerpt: "Relaxator åndedrætstræner er en lille og praktisk 'fløjte' der forbedrer dine vejrtrækningsvaner. Du kan lave åndedrætstræning bare ved at placere den i munden og derved kan du få justérbar modstand på din vejrtrækning."
-    btn_label: Se prisen hos Den Intelligente Krop*
+    btn_label: Tjek prisen
     btn_class: btn--success
     rel: sponsored nofollow noopener
 feature_row_books:
@@ -31,14 +32,14 @@ feature_row_books:
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38097&htmlurl=https://www.denintelligentekrop.dk/traek-vejret-mere-energi-mindre-stress
     title: Træk vejret - mere energi - mindre stress
     excerpt: "Træk vejret med den danske fridykker Stig Åvall Severinsen kommer bredt omkring brugen af åndedrættet ift. fridykning og hverdagsliv. bogen er skrevet med baggrund i fridykning og yoga - og med Stigs mange års erfaring med professionelt brug af åndedrættet."
-    btn_label: Se prisen hos Den Intelligente Krop*
+    btn_label: Tjek prisen
     btn_class: btn--success
     rel: sponsored nofollow noopener
   - image_path: https://cdn6.tales.dk/00002/22072/cover.20160910.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55158&htmlurl=https://tales.dk/hold-vejret-en-bog-om-fridykning_morten-rosenvold-villadsen_9788799089758
     title: Hold vejret
     excerpt: "Morten Rosenvold Villadsens bog handler om fridykning og om at lære teknikker i forhold til åndedrættet og vejrtrækningn. Lær også om mental og fysisk træning og få det illustreret med fremragende fotos af nogle af verdens bedste undervandsfotografer."
-    btn_label: Se prisen hos Tales*
+    btn_label: Se prisen
     btn_class: btn--success
     rel: sponsored nofollow noopener
 ---

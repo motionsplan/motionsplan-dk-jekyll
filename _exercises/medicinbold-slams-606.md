@@ -1,15 +1,12 @@
 ---
-title: &title "Medicinbold slams"
-excerpt: ""
+title: "Medicinbold slams"
 instructions: ""
 permalink: /oevelse/medicinbold-slams/
 redirect_from: /node/606
 id: 606
 language: da
 header:
-  overlay_image: /assets/images/exercises/medicinbold-slams-0.jpg
   teaser: /assets/images/exercises/medicinbold-slams-0-320.jpg
-  caption: *title
 tags:
   - Træk
   - Styrketræning
@@ -21,9 +18,9 @@ tags:
   - Mave
 categories:
   - Træk
-training_type: 
+training_type:
   - Styrketræning
-training_focus: 
+training_focus:
   - træk lodret
   - kropsstamme
   - helkropsøvelse
@@ -32,7 +29,7 @@ equipment:
 muscle_group:
   - Core
   - Mave
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/medicinbold-slams-0.jpg
     image_path: /assets/images/exercises/medicinbold-slams-0-320.jpg
@@ -53,4 +50,4 @@ gallery:
 last_modified_at: 2014-10-30T10:18:20Z
 ---
 
-
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}

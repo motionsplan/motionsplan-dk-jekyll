@@ -26,6 +26,7 @@ feature_row:
     url: "https://books.google.dk/books/about/Textbook_of_Work_Physiology.html?id=BC9SiAsUPqsC&redir_esc=y"
     btn_label: "Se prisen"
     btn_class: "btn--success"
+breadcrumbs: true
 ---
 
 Åstrands to-punktstest er en submaksimal konditionstest på en ergometercykel, hvor du på baggrund af måling af belastning og puls kan estimere konditallet.

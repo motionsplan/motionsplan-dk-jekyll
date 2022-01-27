@@ -1,15 +1,12 @@
 ---
-title: &title "Full sitouts"
-excerpt: ""
+title: "Full sitouts"
 instructions: ""
 permalink: /oevelse/full-sitouts/
 redirect_from: /node/638
 id: 638
 language: da
 header:
-  overlay_image: /assets/images/exercises/full-sitouts-0.jpg
   teaser: /assets/images/exercises/full-sitouts-0-320.jpg
-  caption: *title
 tags:
   - Koordination og balance
   - Balance
@@ -19,16 +16,16 @@ tags:
   - Mave
 categories:
   - Koordination og balance
-training_type: 
+training_type:
   - Balance
-training_focus: 
+training_focus:
   - kropsstamme
 equipment:
   - kropsvægt
 muscle_group:
   - Core
   - Mave
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/full-sitouts-0.jpg
     image_path: /assets/images/exercises/full-sitouts-0-320.jpg
@@ -49,4 +46,4 @@ gallery:
 last_modified_at: 2015-03-27T13:51:48Z
 ---
 
-
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}

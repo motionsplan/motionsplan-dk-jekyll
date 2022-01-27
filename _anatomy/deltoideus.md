@@ -1,15 +1,16 @@
 ---
-title: "Skuldermuskel - Deltamuskel - Deltoideus"
+title: "Skuldermuskel"
+seo_title: "Skuldermuskel | Deltoideus | Deltamuskel"
 functional_group:
   - Armens udadføring
   - Armens fremadføring
 joint:
   - Skulderleddet
-excerpt: ""
 name:
   latin: Deltoideus
   da: Deltamusklen
-category:
+categories:
+  - Muskler
   - Skulder
 group:
   - Skulder
@@ -17,9 +18,9 @@ tags:
   - imagemap
   - fitnessinstruktør
   - muskel
-origin: 
+origin:
   da: Øverste del af skulderbladet og kravebenet
-insertion: 
+insertion:
   da: Øverst på ydersiden af overarmsknoglen
 function:
   da:
@@ -52,6 +53,8 @@ coords:
   - "491,95,502,92,512,88,524,98,530,111,529,127,519,119,508,104"
   - "426,97,414,96,404,93,390,103,385,121,385,131,399,121,408,106"
 ---
+
+{{ page.name.da | capitalize }} hedder på latin *{{ page.name.latin | downcase }}*. Musklen laver {% for f in page.function.da %}{% if forloop.last == true and page.function.da.size > 1 %} og {% endif %}{{ f.short | downcase  }}{% if forloop.last == false and page.function.da.size > 1 %}, {% endif %}{% endfor %}. Musklen er en del af {{ page.functional_group | join: ", " | downcase }}.
 
 ## Træning af {{ page.title }}
 

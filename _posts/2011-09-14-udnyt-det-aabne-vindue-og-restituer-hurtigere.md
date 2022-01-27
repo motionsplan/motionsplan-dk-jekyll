@@ -1,19 +1,18 @@
 ---
-title: &title "Anabolic Window: Hvad er facts om det åbne vindue? [2021]"
+title: &title "Anabolic Window: Hvad er facts om det åbne vindue?"
+title: "Anabolic Window: Hvad er facts om det åbne vindue? [2022]"
 excerpt: "Lige efter træning er kroppen helt klar til at modtage næringsstoffer. Man taler ofte om _det åbne vindue_ eller på engelsk _the anabolic window_. Jeg har researchet lidt på, hvad det åbne vindue egentlig er?"
 permalink: /artikel/aabne-vindue-og-anabolic-window/
 redirect_from:
   - /artikel/udnyt-det-aabne-vindue-og-restituer-hurtigere
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1534175262708-ebf71ac916c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=80
-  teaser: https://images.unsplash.com/photo-1534175262708-ebf71ac916c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1534175262708-ebf71ac916c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1534175262708-ebf71ac916c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Ernæring
-  - Kondition
-  - Løb
-  - Styrketræning
+  - Restitution
 tags:
   - træning
   - ernæring
@@ -125,7 +124,7 @@ Hvis du træner lang tid efter dit seneste måltid, så vil det formentlig kunne
 
 ## Hvad spiser du så?
 
-Jeg har på et tidspunkt lært, at man lige efter kan optage 1 gram kulhydrat pr. kilo kropsvægt og 0,25 gram protein, hvilket i forhold til protein er lavere end anbefalingerne fra Aragon og Shoenfeld (2013).
+Jeg har på et tidspunkt lært, at man lige efter kan optage 1 gram kulhydrat pr. kg kropsvægt og 0,25 gram protein, hvilket i forhold til protein er lavere end anbefalingerne fra Aragon og Shoenfeld (2013).
 
 Jeg kan dog lige nu ikke finde studiet eller referencen, så brug meget gerne kommentarerne for at hjælpe med det.
 

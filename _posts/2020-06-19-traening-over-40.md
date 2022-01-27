@@ -3,8 +3,8 @@ title: &title "Træning 40+: Hvordan kan min træning se ud efter de 40 år"
 permalink: /traening-40-plus/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/flagged/photo-1556895368-9d1eed826c58?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1967&q=80
-  teaser: https://images.unsplash.com/flagged/photo-1556895368-9d1eed826c58?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/flagged/photo-1556895368-9d1eed826c58?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/flagged/photo-1556895368-9d1eed826c58?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   alt: Photo by Taco Fleur on Unsplash
   caption: *title
 category:
@@ -12,6 +12,7 @@ category:
   - Træning
 tags:
   - træning
+  - målgrupper
 last_modified_at: 2020-06-11T08:14:14Z
 toc: true
 ---
@@ -79,7 +80,7 @@ Thomas Jagd har kigget lidt på de [primære fordele ved styrketræning og kreds
 
 - Forbedrer insulinsensitiviteten
 - Sænker blodtrykket
-- Sænker hvilepulsen, primært pga. de gavnlige tilpasninger, som kardiovaskulær træning giver anledning til i hjertet
+- Sænker [hvilepulsen](/hvilepuls/), primært pga. de gavnlige tilpasninger, som kardiovaskulær træning giver anledning til i hjertet
 - Forbedret lungekapacitet
 - Større muskulær udholdenhed
 - Forbedret blodcirkulation, pga. forøget kapillærdannelse
@@ -110,7 +111,7 @@ Træningen kan stadig være rigtig fed. Du skal naturligvis tage hensyn til din 
 
 ## Konklusion
 
-Det allervigtigste man kan gøre er at sørge for at bevæge sig nok hver eneste dag. Når du har gået dine 10.000 skridt, så er det imidlertid også rigtig godt at supplere med fysisk træning flere gange om ugen. 
+Det allervigtigste man kan gøre er at sørge for at bevæge sig nok hver eneste dag. Når du har gået dine [10.000 daglige skridt](/skridt-pr-km-10000/), så er det imidlertid også rigtig godt at supplere med fysisk træning flere gange om ugen. 
 
 Når man kommer op i alderen, så har man færre af de mest vækstivrige hurtige muskelfibre og mænd har mindre testosteron. Det betyder vækstpotentialet og styrken formentlig falder. Med fysisk træning kan man bremse udviklingen. 
 

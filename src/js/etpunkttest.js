@@ -32,10 +32,10 @@ motionsplan.EtPunktTest = function(sex, age, weight, hr, work, load = "watt") {
   }
 
   function getMaximalOxygenUptageBrianMac() {
-    let v = 0;
-    let kg = work;
-    let r1, r2;
-    let pr = hr;
+   let v = 0;
+   let kg = work;
+   let r1, r2;
+   let pr = hr;
 
     if (isMale()) {
       if ((kg >= 450) && (kg < 750)) {
@@ -111,7 +111,7 @@ motionsplan.EtPunktTest = function(sex, age, weight, hr, work, load = "watt") {
     return (getMaximalOxygenUptake() / weight * 1000);
   }
 
-  var publicAPI = {
+  let publicAPI = {
     getMaximalOxygenUptake: getMaximalOxygenUptake,
     getFitnessLevel : getFitnessLevel
 

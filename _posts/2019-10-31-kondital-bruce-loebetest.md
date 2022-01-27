@@ -25,9 +25,10 @@ feature_row:
     title: "ACSM's Guidelines for Exercise Testing and Prescription"
     excerpt: "The flagship title of the certification suite from the American College of Sports Medicine, ACSM's Guidelines for Exercise Testing and Prescription is a handbook that delivers scientifically based standards on exercise testing and prescription to the certification candidate, the professional, and the student. The 9th edition focuses on evidence-based recommendations that reflect the latest research and clinical information."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/acsms-guidelines-for-exercise-testing-and-prescription_american-college-of-sports-medicine_epub_9781469825885?gclid=CjwKCAiA5JnuBRA-EiwA-0ggPdXHFExjFsqJLnGbAfydZFfXbHNc8LCSWFplRzuKmJ9vjX1Z3A8TfRoCzqgQAvD_BwE"
-    btn_label: "Læs mere"
+    btn_label: "Tjek prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
+breadcrumbs: true
 ---
 
 Bruce-testen tester dit kondital på løbebånd uden bruge af puls eller andet udstyr. Testen kræver et pålideligt løbebånd, som kan håndtere hældninger på op til 22%.
@@ -69,13 +70,13 @@ Der er en generel formel, der passer til begge køn:
 
 VO<sub>2</sub>-max = 14.8 – (1.379 * T) + (0.451 * T<sup>2</sup>) – (0.012 * T<sup>3</sup>)
 
-Hvor T er er tiden i minutter, du har løbet i Bruce-testen.
+Hvor T er er tiden i minutter, du har løbet i Bruce-testen. Sekunderne skal være fraktioner af minutter, så 9 minutter og 15 sekunder er 9.25.
 
 Men på [www.topendsports.com](https://www.topendsports.com/testing/tests/bruce.htm) kan du også finde formler rettet mod mænd og kvinder i forhold til alder.
 
-Du kan sammenligne dit [kondital i tabellen for kondital for mænd og kvinder](/kondital/).
+Du kan sammenligne dit resultat med [tabellen med kondital for mænd og kvinder](/kondital/).
 
-Skriv endelig i kommentarerne, hvis du har brug for en online-beregner til Bruce-testen, så laver vi gerne en.
+{% include calculate-bruce.html %}
 
 ## Referencer om Bruce Test
 

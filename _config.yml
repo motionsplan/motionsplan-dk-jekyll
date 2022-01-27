@@ -5,7 +5,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-remote_theme:            "mmistakes/minimal-mistakes@4.24.0"
+theme: minimal-mistakes-jekyll
 minimal_mistakes_skin:   "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 
 ads: true
@@ -18,15 +18,15 @@ email                    : "lars@motionsplan.dk"
 locale                   : "da"
 title                    : "Motionsplan"
 title_separator          : false # '-' # false # ""
-subtitle                 : "Træningsøvelser, træningsprogrammer og viden om træning."
+subtitle                 : "Alt om test og træning"
 name                     : "Motionsplan"
-description              : "Træningsøvelser og træningsprogrammer til styrketræning, konditionstræning, cardio, yoga, løb og træning - med de videnskabelige briller."
+description              : "Alt om test og træning til styrketræning, konditionstræning, cardio, yoga, løb og træning - med de videnskabelige briller. Samt et væld af træningsøvelser og træningsprogrammer."
 url                      : "https://www.motionsplan.dk" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "motionsplan/motionsplan-dk-jekyll" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 logo                     : "/assets/images/logo.gif" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : false # "disqus" # "staticman_v2" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
@@ -82,6 +82,39 @@ social:
 # Site search
 search: true
 
+search_provider: lunr
+
+google: # Ulempe reklamer
+  search_engine_id: 7f59fba70b9fff468
+
+algolia: # Ulempe størrelse
+  application_id: 32VPRNT313 # YOUR_APPLICATION_ID
+  index_name: prod_motionsplan # YOUR_INDEX_NAME
+  search_only_api_key: c272af06e349e9b66c24657163065fce # YOUR_SEARCH_ONLY_API_KEY
+  powered_by: true # true (default), false
+  nodes_to_index: 'p'
+  files_to_exclude:
+    - index.html
+    - _pages/anatomy/anatomi.md
+    - _posts/2012-07-31-naturfitness.md
+    - _posts/2020-08-03-citater.md
+    - _posts/2020-08-03-citater-fitness-bodybuilding.md
+    - _posts/2021-01-03-citater-om-at-kaempe.md
+    - _posts/2021-01-03-citater-om-yoga-mindfulness.md
+    - _pages/activities-archive.md
+    - _pages/blog-archive.md
+    - _pages/category-activity-archive.md
+    - _pages/category-anatomy-archive.md
+    - _pages/category-archive.md
+    - _pages/category-programs-archive.md
+    - _pages/tag-activity-archive.md
+    - _pages/tag-anatomy-archive.md
+    - _pages/tag-archive.md
+    - _pages/tag-programs-archive.md
+    - _exercises/*
+    - _presentations/*
+    - _methods/*
+    - _trainingprograms/*
 
 # Analytics
 analytics:
@@ -173,6 +206,7 @@ exclude:
   - log
   - node_modules
   - package.json
+  - package-lock.json
   - Rakefile
   - README
   - README.md
@@ -313,10 +347,6 @@ collections:
   methods:
     output: true
     permalink: /metode/:path/
-  redirects:
-    output: true
-    permalink: /go/:path/
-
 
 # Defaults
 defaults:
@@ -334,8 +364,7 @@ defaults:
       type: posts
     values:
       layout: single
-      header:
-        overlay_color: "#F5F5F5"
+      breadcrumbs: true
       author_profile: true
       read_time: true
       comments: true
@@ -352,35 +381,42 @@ defaults:
       path: ""
       type: exercises
     values:
+      breadcrumbs: true
       layout: activity
       header:
-        teaser: //via.placeholder.com/400x300
-      author_profile: true
+        teaser: /assets/images/default-exercises-teaser.png
+      author_profile: false
       read_time: false
       comments: true
       share: true
       related: true
       author: lsolesen
+      sidebar:
+        nav: exercises
       tag_archive_path: /exercises/tags/
-      category_archive_path: /exercises/categories/      
-  # _exercises
+      category_archive_path: /exercises/categories/
+  # _methods
   - scope:
       path: ""
       type: methods
     values:
+      breadcrumbs: true
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: true
       share: true
       related: true
       author: lsolesen
+      sidebar:
+        nav: methods
   # _programs
   - scope:
       path: ""
       type: programs
     values:
       layout: program
+      breadcrumbs: false
       author_profile: true
       read_time: false
       comments: true
@@ -395,7 +431,8 @@ defaults:
       type: anatomy
     values:
       layout: single-anatomy
-      author_profile: true
+      breadcrumbs: true
+      author_profile: false
       read_time: false
       comments: true
       share: true
@@ -412,6 +449,7 @@ defaults:
       path: ""
       type: pages
     values:
+      breadcrumbs: false
       layout: single
       author_profile: true
       comments: true

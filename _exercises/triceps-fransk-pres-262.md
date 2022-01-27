@@ -1,5 +1,5 @@
 ---
-title: &title "Fransk Pres: Skull crushers for effektiv triceps træning"
+title: "Fransk Pres: Skull crushers for effektiv triceps træning"
 excerpt: "Fransk pres er en isolationsøvelse for triceps. Fransk pres laves vandret på en bænk eller på gulvet med en vægtstang eller håndvægte. Øvelsen kaldes også skull crushers i en variation."
 instructions: "Liggende på en bænk starter du med stangen strakt over hovedet. Dernæst føres stangen ned bag hovedet eller mod panden, mens dine albuer bliver i nogenlunde samme position."
 permalink: /oevelse/triceps-fransk-pres/
@@ -7,15 +7,14 @@ redirect_from: /node/262
 id: 262
 language: da
 header:
-  overlay_image: /assets/images/exercises/triceps-fransk-pres-0.jpg
   teaser: /assets/images/exercises/triceps-fransk-pres-0-320.jpg
-  caption: *title
 tags:
   - vægtstang
   - fitnessinstruktør
-categories:
-training_type: 
-training_focus: 
+  - triceps
+categories: []
+training_type: []
+training_focus: []
 equipment:
   - vægtstang
 muscle_group:
@@ -45,7 +44,7 @@ Fransk pres en en rigtig effektiv øvelse til at træne triceps med. Der er to f
 
 Udgangspunktet til øvelsen er liggende vandret på en bænk, med stangen i strakte arme. Grebet skal være skulderbredde. Dernæst fører man stangen ned imod hovedet, i det tilfælde ud over hovedet, for at det skal være fransk pres. Det er vigtigt at øvelsen udføres meget kontrolleret. Man afslutter øvelsen ved at føre stangen tilbage til udgangspunktet.
 
- Jeg synes personligt, at det er rarest at lave fransk pres med en EZ-curlstang. Du kan se, hvordan sådan en ser ud hos [www.mmashop.dk*](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=32502&htmlurl=http://www.mmashop.dk/index.php?route=product/product&product_id=1150).
+ Jeg synes personligt, at det er rarest at lave fransk pres med en EZ-curlstang. Du kan se, hvordan sådan en ser ud hos [apuls.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=46187&htmlurl=https://apuls.dk/cpro9-curl-vaegtstang-ez-bar){: rel="sponsored noopener nofollow" }.
 
 ## Teknik i fransk pres
 
@@ -53,11 +52,11 @@ Læg dig ned på en flad bænk eller på gulvet. Hold stangen i hænderne. Begyn
 
 Et vigtigt fokuspunkt er at holde albuerne stabile, når du laver presset, så du rammer triceps bedst muligt.
 
-Først og fremmest er det vigtigt at du holder albuerne stabile og inde, når du kører øvelsen. Jeg bruger et greb, der er lidt smallere end skulderbredde, men du kan prøve lidt forskellige variationer. 
+Først og fremmest er det vigtigt at du holder albuerne stabile og inde, når du kører øvelsen. Jeg bruger et greb, der er lidt smallere end skulderbredde, men du kan prøve lidt forskellige variationer.
 
 Fransk pres egner sig ikke til at køre vanvittigt tungt, men bruges ofte i forbindelse med udtrætning af triceps i forbindelse med hypertrofitræning. Du kan sagtens køre fransk pres som et supersæt.
 
-Hvis du er på udkig efter, så har vi skrevet om den her [triceps extension]({% link _exercises/albuestraek-429.md %}).
+Hvis du er på udkig efter, så har vi skrevet om den her [triceps extension]({% link _exercises/triceps-extension-albuestraek-429.md %}).
 
 ## Hvad er forskellen på frank pres og skull crushers
 

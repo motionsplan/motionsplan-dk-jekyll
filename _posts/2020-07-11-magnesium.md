@@ -1,10 +1,11 @@
 ---
-title: "Magnesium: Har du brug for et tilskud? [2021]"
+title: "Magnesium: Har du brug for et tilskud?"
+seo_title: "Magnesium: Har du brug for et tilskud? [2022]"
 permalink: /magnesium/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1573883430697-4c3479aae6b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
-  teaser: https://images.unsplash.com/photo-1573883430697-4c3479aae6b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1573883430697-4c3479aae6b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1573883430697-4c3479aae6b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: "Magnesium: Har du brug for et tilskud?"
   overlay_filter: 0.4
 category:
@@ -285,7 +286,7 @@ Sandheden er formntlig, at det ved vi heller ikke helt. Fælles for studierne om
 
 Kroppen regulerer magnesium stramt i kroppen, og der er altid den samme mængde i blodet. Derfor kan vi ikke bare tage en blodprøve til at bestemme kroppens magnesiumniveau.
 
-> »Magnesium er et af de interessante mineraler, fordi vi i øjeblikket anbefaler, at danskere dagligt indtager mellem 300 og 380 milligram af det. Dette er baseret på undersøgelser af, hvor meget der udskilles ved forskellige indtag, hvilket ikke er den bedste metode til at undersøge optag af et mineral i kroppen. Det er dog ofte den eneste metode, vi har for forskellige mineraler, og det gælder også magnesium«.
+> Magnesium er et af de interessante mineraler, fordi vi i øjeblikket anbefaler, at danskere dagligt indtager mellem 300 og 380 milligram af det. Dette er baseret på undersøgelser af, hvor meget der udskilles ved forskellige indtag, hvilket ikke er den bedste metode til at undersøge optag af et mineral i kroppen. Det er dog ofte den eneste metode, vi har for forskellige mineraler, og det gælder også magnesium.
 
 — <cite>Professor [Susanne Gjedsted Bügel](https://videnskab.dk/krop-sundhed/kroppen-vaelter-i-magnesium-men-forskere-kan-ikke-finde-det) fra Institut for Idræt og Ernæring på Københavns Universitet, Danmarks førende mineral- og vitaminforsker</cite>
 
