@@ -16,5 +16,15 @@ group :jekyll_plugins do
 end
 gem 'classifier-reborn'
 gem 'gsl'
-gem 'html-proofer'
 gem "minimal-mistakes-jekyll", "~> 4.24"
+
+group :development, :test do
+  gem 'html-proofer'  
+  gem "rspec"
+  gem "selenium-webdriver"
+  gem "webdrivers"
+  gem "puma"
+  gem "capybara"
+  gem "rack-jekyll"
+  gem "pry"
+end
