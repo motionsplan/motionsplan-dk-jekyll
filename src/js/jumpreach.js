@@ -4,9 +4,9 @@ motionsplan.JumpReach = function(formula = "harman", jump_height, body_mass, hei
   height = height;
   body_mass = body_mass;
   jump_height = jump_height;
-  var average_power = "n/a";
-  var peak_power = "n/a";
-  var papw = "n/a";
+  let average_power = "n/a";
+  let peak_power = "n/a";
+  let papw = "n/a";
 
   if (formula == "lewis") {
     getLewis();
@@ -35,7 +35,7 @@ motionsplan.JumpReach = function(formula = "harman", jump_height, body_mass, hei
   // Returns average power
   // jump_reach_score (m)
   function getLewis() {
-    let jump_reach_score =  jump_height / 100;
+   let jump_reach_score =  jump_height / 100;
     average_power = Math.sqrt(4.9) * body_mass * Math.sqrt(jump_reach_score) * 9.81;
   }
 
@@ -61,7 +61,7 @@ motionsplan.JumpReach = function(formula = "harman", jump_height, body_mass, hei
     peak_power = papw = 51.9 * jump_height + 48.9 * body_mass - 2007;
   }
 
-  var publicAPI = {
+  let publicAPI = {
     getAveragePower : getAveragePower,
     getPeakPower : getPeakPower,
     getPapw : getPapw

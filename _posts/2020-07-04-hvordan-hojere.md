@@ -1,10 +1,11 @@
 ---
-title: &title "Højde: Hvordan bliver jeg højere? [2021]"
+title: &title "Højde: Hvordan bliver jeg højere?"
+seo_title: "Højde: Hvordan bliver jeg højere? [2022]"
 permalink: /hvordan-bliver-jeg-hojere/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1496545087308-51ec893e6bbc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
-  teaser: https://images.unsplash.com/photo-1496545087308-51ec893e6bbc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1496545087308-51ec893e6bbc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1496545087308-51ec893e6bbc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
   alt: Photo by Jack Sloop on Unsplash
 category:
@@ -147,7 +148,7 @@ Når du sover godt, så giver du kroppen mulighed for at bygge sig selv op. Jeg 
 
 Det sker formentlig primært fordi væksthormon stiger, når du sover godt.
 
-Søvnen er i det hele taget godt for en god, sund udvikling i kroppen. Når du er udhvilet, vil kroppen være i overskud, og en af de ting kroppen vil gøre, når den er i overskud er at vokse i højden.
+[Søvnen](/soevn/) er i det hele taget godt for en god, sund udvikling i kroppen. Når du er udhvilet, vil kroppen være i overskud, og en af de ting kroppen vil gøre, når den er i overskud er at vokse i højden.
 
 ## Højden ændrer sig med alderen
 
@@ -185,7 +186,7 @@ Du har en naturlig udskillelse af væksthormon.
 
 Væksthormon stimuleres af følgende faktorer:
 
-- Dyb og god søvn (specielt de første timer).
+- [Dyb og god søvn](/soevn/) (specielt de første timer).
 - Proteinrige varierede måltider.
 - Træning - særligt i korte perioder med høj intensitet.
 - Hormonet GHRH, som frigives fra hypothalamus.

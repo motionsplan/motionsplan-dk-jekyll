@@ -1,5 +1,6 @@
 ---
 title: &title "Åstrands et-punktstest: Konditionstest på cykel 🚴‍♀️"
+seo_title: "Åstrands et-punktstest: Konditionstest på cykel"
 permalink: /etpunktstest/
 excerpt: "Åstrands et-punktstest er en submaksimal test på ergometercykel, hvor du måler belastning og puls. Fortrinlig til at måle ændringer i kondition over tid."
 language: da
@@ -26,7 +27,7 @@ feature_row:
     title: "Textbook of Work Physiology - Åstrand m.fl."
     excerpt: "This updated and revised fourth edition of the respected Textbook of Work Physiology combines classical issues in exercise and work physiology with the latest scientific findings. The result is an outstanding professional reference that will be indispensable to advanced students, physiologists, clinicians, physical educators--any professional pursuing study of the body as a working machine."
     url: "https://books.google.dk/books/about/Textbook_of_Work_Physiology.html?id=BC9SiAsUPqsC&redir_esc=y"
-    btn_label: "Læs mere"
+    btn_label: "Tjek prisen"
     btn_class: "btn--success"
 ---
 
@@ -34,9 +35,9 @@ feature_row:
 
 Jeg beskriver i det følgende, hvad Åstrands et-punktstest er, og hvordan Åstrands test udføres?
 
-Hvad er Åstrands etpunktstest? **Åstrands et-punktstest er en enkel, submaksimal konditionstest udført på cykel, som pålideligt kan vise belastningen. Åstrands tetst kan bruges til at estimere forsøgspersonens maksimale iltoptagelse og kondital baseret på belastningen, pulsen og kropsvægten.**
+Hvad er Åstrands etpunktstest? **Åstrands et-punktstest er en enkel, submaksimal konditionstest udført på cykel, som pålideligt kan vise belastningen. Åstrands test kan bruges til at estimere forsøgspersonens maksimale iltoptagelse og kondital baseret på belastningen, pulsen og kropsvægten.**
 
-Hvis du leder efter [Åstrands to-punktstest, så har jeg skrevet om den her]({% link _posts/2019-10-31-kondital-to-punkts-test-cykel.md %}).
+Jeg har også skrevet om [Åstrands to-punktstest]({% link _posts/2019-10-31-kondital-to-punkts-test-cykel.md %}), som er et andet alternativ til at finde dit kondital med en simpel cykeltest og pulsen.
 
 ## Hvordan udfører du Åstrands etpunktstest?
 
@@ -44,7 +45,7 @@ For at udføre Åstrands **et-punktstest** skal du bruge en kondicykel, der kan 
 
 Du kan vælge at køre på en af disse belastninger: 50, 75, 100, 150 eller 200 watt.
 
-Som et [forslag så kan du benytte følgende belastninger](https://www.topendsports.com/testing/tests/astrand.htm):
+[Topendsports.com](https://www.topendsports.com/testing/tests/astrand.htm) foreslår, at du kan benytte følgende belastninger i testen:
 
 | Belastning | kp/m/min | Watt |
 |-|-|-|
@@ -53,8 +54,7 @@ Som et [forslag så kan du benytte følgende belastninger](https://www.topendspo
 | Kvinder, utrænede | 300-450 | 50-75 |
 | Kvinder, trænede | 450-600 | 75-100 |
 
-1 W = 6.116 kpm/min, plus 8% to correct for frictional losses at the chain and drive
-train.
+1 W = 6.116 kpm/min, plus 8% for at korrigere for tab i friktion i cyklen.
 {: .notice .notice--info }
 
 Du skal cykle med 50-70 RPM, hvis du kører på en cykel med fast mekanisk bremsning (som fx Monark), men du kan mere frit vælge hastighed, hvis du cyklen tilpasser belastningen i forhold til omdrejningshastigheden.
@@ -71,26 +71,26 @@ Skriv pulsen ned hvert minut gennem testen. Hvis ikke pulsen er inden for 5 puls
 
 ## Baggrund for beregningen i Åstrands etpunktstest
 
-Generelt kan man sige at jo lavere _steady state_ puls, desto bedre kondition er du i.
+Generelt kan man sige at jo lavere _steady state_ puls, du har i testen, desto bedre kondition er du i.
 
-Oprindeligt skulle konditallet findes ved at bruge det [nomogram, Åstrand har udviklet til sine tests](https://www.sst.dk/-/media/Udgivelser/2006/Publ2006/CFF/Fysisk_aktivitet_psyk/Testmanual_psyk,-d-,pdf.ashx), eller ved at aflæse [konditallet i en tabel fx fra Monarks beskrivelse af Åstrands cykeltest](https://sport-medical.monarkexercise.se/professor-astrand-submaximal-cycle-test/).
+Oprindeligt skulle konditallet findes ved at bruge det [nomogram](https://www.sst.dk/-/media/Udgivelser/2006/Publ2006/CFF/Fysisk_aktivitet_psyk/Testmanual_psyk,-d-,pdf.ashx), Åstrand har udviklet til sine tests, eller ved at aflæse konditallet i en tabel fx fra [Monarks beskrivelse af Åstrands cykeltest](https://sport-medical.monarkexercise.se/professor-astrand-submaximal-cycle-test/).
 
 {% include figure image_path="/assets/images/aastrand-nomogram.png" caption="Åstrands nomogram til bestemmelse af maksimal iltoptagelse for etpunktstesten. Se også [en version med alder og kropsvægt](https://www.topendsports.com/testing/tests/astrand.htm)." alt="Åstrand nomogram til bestemmelse af maksimal iltoptagelse for Åstrand test" %}
 
 Senere er der lavet regressionsanalyser, hvor forskere har givet deres bud på formler, som kan bruges til at udregne iltoptagelsen på baggrund af Åstrands etpunktstest.
 
-Morten Zacho har estimeret en formel, som han har delt et regneark. Du kan frit downloade og bruge regnearket til eget brug fra [denne beskrivelse af Åstrand testen](http://web.archive.org/web/20150316134300/http://www.motion-online.dk/konditionstraening/testning/et-punkts_test_paa_cykel/){:rel="nofollow"}, men formlen er desværre ikke offentligt tilgængelig.
+Morten Zacho har estimeret en formel, som han har delt et regneark. Du kan frit downloade og bruge regnearket til eget brug fra [denne beskrivelse](http://web.archive.org/web/20150316134300/http://www.motion-online.dk/konditionstraening/testning/et-punkts_test_paa_cykel/){:rel="nofollow"} af Åstrand-testen, men formlen er desværre ikke offentligt tilgængelig.
 
-Denne samme formel bruges i nedenstående beregner til Åstrands Etpunktstest, som er på engelsk.
+Zacho bruger også sin formel i nedenstående beregner til Åstrands etpunktstest, som er på engelsk.
 
-[Åstrands Test på Engelsk](https://www.health-calc.com/fitness-tests/aastrand-test){: .btn .btn--large .btn--info }
+[Beregner på Engelsk](https://www.health-calc.com/fitness-tests/aastrand-test){: .btn .btn--large .btn--info }
 
 I beregneren ovenfor har jeg brugt formlerne fra Buono et al (1989) til at estimere den maksimale iltoptagelse:
 
 - kvinder: VO<sub>2</sub>max = (0.00193 x workload + 0.326) / (0.769 x HRss - 56.1) x 100
 - mænd: VO<sub>2max</sub> = (0.00212 x workload + 0.299) / (0.769 x HRss - 48.5) x 100
 
-Du kan sammenligne dit [kondital i tabellen for kondital for mænd og kvinder](/kondital/).
+Du kan sammenligne dit kondital i [tabellen for kondital for mænd og kvinder](/kondital/).
 
 ## Alderskorrektion til etpunktstesten
 
@@ -120,11 +120,11 @@ Alle submaksimale tests er behæftet med en del usikkerhed i forhold til at esti
 
 --- <cite>[Morten Zacho](http://web.archive.org/web/20150316134300/http://www.motion-online.dk/konditionstraening/testning/et-punkts_test_paa_cykel/){:rel="nofollow"}</cite>
 
-Åstrands etpunktstest kan imidlertid sagtens bruges til at måle ændringer i konditionen over tid. Du behøver ikke konvertere resultatet til et kondital for at bruge testen til at _tracke_ din træningsfremgang. Testen er pålidelig, fordi du kører med en forudbestemt belastning. Hvis din puls over tid falder, når du kører med samme belastning, er det en indikation for, at du er kommet i bedre form.
+Åstrands etpunktstest kan imidlertid sagtens bruges til at måle ændringer i konditionen over tid. Du behøver ikke konvertere resultatet til et kondital for at bruge testen til at _tracke_ din træningsfremgang. Testen er pålidelig, fordi du kører med en forudbestemt belastning. Hvis din puls over tid falder, når du kører med samme belastning, er det en indikation for, at din kondition er blevet bedre.
 
 Du kan læse mere om testen fra [Monark](https://sport-medical.monarkexercise.se/professor-astrand-submaximal-cycle-test/), som laver de legendariske Monark-cykler, som er blevet brugt i rigtig mange år i testcentre rundt omkring i verden.
 
-Et alternativ til Etpunktstesten er [Ekblom-Bak-testen](https://www.gih.se/ekblombaktest). Har Ekblom-Bak-testen udbredelse i Danmark?
+Et alternativ til etpunktstesten er [Ekblom-Bak-testen](https://www.gih.se/ekblombaktest). Har Ekblom-Bak-testen udbredelse i Danmark?
 
 ## Referencer til Åstrands etpunktstest
 

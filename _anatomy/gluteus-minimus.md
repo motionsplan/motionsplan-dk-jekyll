@@ -1,5 +1,6 @@
 ---
 title: "Den lille sædemuskel"
+seo_title: "Den lille sædemuskel | Gluteus Minimus | Muskler"
 functional_group:
   - Hoftens udadførere
 joint:
@@ -15,9 +16,9 @@ tags:
   - not-in-imagemap
 categories:
   - Muskler
-origin: 
+origin:
   da: Yderst på øverste kant af hoftebenet
-insertion: 
+insertion:
   da: Øverst på bagsiden af låret
 function:
   da:
@@ -36,3 +37,5 @@ function:
       extended: ""
 image: https://www.yoganatomy.com/wp-content/uploads/2018/05/gluteus-minimus-muscle-1.png
 ---
+
+{{ page.name.da | capitalize }} hedder på latin *{{ page.name.latin | downcase }}*. Musklen laver {% for f in page.function.da %}{% if forloop.last == true and page.function.da.size > 1 %} og {% endif %}{{ f.short | downcase  }}{% if forloop.last == false and page.function.da.size > 1 %}, {% endif %}{% endfor %}. Musklen er en del af {{ page.functional_group | join: ", " | downcase }}.

@@ -2,8 +2,6 @@
 layout: webslides
 title: Træningsmetoder
 ---
-
-
 <section class="bg-black aligncenter">
   <!-- Overlay/Opacity: [class*="bg-"] > .background.dark or .light -->
   <span class="background" style="background-image:url('https://source.unsplash.com/CFrOp9YBhkw/')"></span>
@@ -37,7 +35,7 @@ title: Træningsmetoder
     </div>
   </footer>
 </section>
-{% assign posts = site.methods %}
+{% assign posts = site.methods | where: "tags", "conditioning" %}
 {% comment %}
 <section>
   <div class="wrap">
@@ -69,11 +67,11 @@ title: Træningsmetoder
         <ul class="flexblock features">
           <li>
             <div>
-              <svg class="fa-battery-full">
-                <use xlink:href="#fa-battery-full"></use>
+              <svg class="fa-clock-o">
+                <use xlink:href="#fa-clock-o"></use>
               </svg>
-              <h2>RPE</h2>
-              {{ m.rpe }}
+              <h2>Tid</h2>
+              {{ m.time }}
             </div>
           </li>
           <li>
@@ -98,17 +96,17 @@ title: Træningsmetoder
           </li>
           <li>
             <div>
-              <svg class="fa-clock-o">
-                <use xlink:href="#fa-clock-o"></use>
+              <svg class="fa-battery-full">
+                <use xlink:href="#fa-battery-full"></use>
               </svg>
-              <h2>Tid</h2>
-              {{ m.time }}
+              <h2>RPE</h2>
+              {{ m.rpe }}
             </div>
           </li>
           <li>
             <div>
-              <svg class="fa-undo-alt">
-                <use xlink:href="#fa-undo-alt"></use>
+              <svg class="fa-calculator">
+                <use xlink:href="#fa-calculator"></use>
               </svg>
               <h2>Reps</h2>
               {{ m.reps }}
@@ -159,8 +157,8 @@ title: Træningsmetoder
       </li>
       <li>
         <div>
-          <svg class="fa-undo-alt">
-            <use xlink:href="#fa-undo-alt"></use>
+          <svg class="fa-calculator">
+            <use xlink:href="#fa-calculator"></use>
           </svg>
           <h2>Reps</h2>
           {{ m.reps }}
@@ -168,6 +166,15 @@ title: Træningsmetoder
       </li>
     </ul>
   </div>
+</section>
+{% endif %}
+{% if m.teaser != "" %}
+<section>
+<div class="wrap">
+  <img class="alignright size-40" src="{{ m.teaser | relative_url }}" alt="{{ m.title }}">
+  <h2>{{ m.title }}</h2>
+  {{ m.excerpt | markdownify }}
+</div>
 </section>
 {% endif %}
 {% endfor %}

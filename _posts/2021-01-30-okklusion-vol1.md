@@ -43,7 +43,7 @@ Derfor har jeg valgt den nærliggende overskrift for dette indlæg; _”Alle vil
 
 De og andre spørgsmål vil jeg forsøge at besvare i dette første og indledende evidensbaserede indlæg om okklusionstræning. Indlægget giver dig den nødvendige basisviden, jeg mener alle bør have, hvis man vil praktisere okklusionstræning.
 
-Senere indlæg vil beskrive brugen af okklusionstræning i forskellige kontekster, bl.a. til skader/genoptræning, til præstationsoptimering og til hjemmetræning.
+Senere indlæg vil beskrive brugen af okklusionstræning i forskellige kontekster, bl.a. til skader, genoptræning, til præstationsoptimering og til [hjemmetræning](/hjemmetraening-traeningsprogram/).
 
 ## Evidensniveau og omtale af okklusionstræning
 
@@ -87,7 +87,7 @@ Den karakteristiske ”blood pooling” under okklusionstræning ses bl.a. ved d
 
 ## Hvem er okklusionstræning relevant for?
 
-Kombination af lav belastning og høj muskeludtrætning gør okklusionstræning særlig relevant i rehabilitering (efter skade eller operation), eller for subgrupper der ikke tåler træning under høj mekanisk belastning. Det gælder f.eks.;
+Kombination af lav belastning og høj muskeludtrætning gør okklusionstræning særlig relevant i rehabilitering (efter skade eller operation), eller for subgrupper der ikke tåler træning under høj mekanisk belastning. Det gælder fx;
 
 - Genoptræning efter ortopædkirurgi: Korsbåndsskader, ligamentskader der kræver rekonstruktion, meniskskader, sene- og muskelrupturer, rekonstruktion eller udskiftning af led.
 - Genoptræning efter skader der kræver aflastning/immobilisering af væv: Fraktur, sene- og muskelrupturer og overbelastningsskader
@@ -109,7 +109,7 @@ Kombinationen af tung styrketræning og okklusionstræning er sandsynligvis det 
 
 Okklusionstræning er altså et effektivt træningsredskab til både at øge muskelmasse og styrke, særligt hos populationer eller i kliniske sammenhænge hvor tung styrketræning ikke kan udføres. Okklusionstræning må ikke erstatte den tunge styrketræning hvis denne kan udføres, da okklusionstræning er underlegen på styrkeadaptioner og neurale tilpasninger. Det gælder i udgangspunktet for alle raske og smertefri populationer.
 
-Kombinationen af tung styrketræning og okklusionstræning ser ud til at være den mest effektive hvis målet både er at øge styrke og muskelmasse, og jeg har personligt praktiseret dette med både professionelle basketballspillere og håndboldspillere. Er du derimod træner eller aktiv i en sportsgren hvor styrke-vægt forholdet er altafgørende for præstationen (f.eks. sprint- og springdiscipliner i atletik), så vil jeg i udgangspunktet være forbeholden overfor brugen af okklusionstræning til præstationsoptimering. Den øgede muskelmasse koster sandsynligvis mere for præstationen, end hvad vi vinder på at forbedre den generelle styrke.
+Kombinationen af tung styrketræning og okklusionstræning ser ud til at være den mest effektive hvis målet både er at øge styrke og muskelmasse, og jeg har personligt praktiseret dette med både professionelle basketballspillere og håndboldspillere. Er du derimod træner eller aktiv i en sportsgren hvor styrke-vægt forholdet er altafgørende for præstationen (fx sprint- og springdiscipliner i atletik), så vil jeg i udgangspunktet være forbeholden overfor brugen af okklusionstræning til præstationsoptimering. Den øgede muskelmasse koster sandsynligvis mere for præstationen, end hvad vi vinder på at forbedre den generelle styrke.
 
 ## Sikkerhed og kontraindikationer ved okklusionstræning
 
@@ -140,7 +140,7 @@ Derudover er praktisk okklusionsudstyr ofte også smallere (3-5 cm bredde stropp
 
 {% include gallery id="gallery_manchetter" caption="Occlude benmanchet størrelse large (11 cm bred) sammenlignt med en 'praktisk' okklusionsstrop fra BFR BANDS (5 cm bred). NB! Billedet af BFR BANDS er kun taget med som eksempel på en praktisk okklusionsstrop." %}
 
-Et blåt mærke er ganske harmløst, men i min tid i Occlude, er vi i flere tilfælde blevet kontaktet af personer som har haft længerevarende nerveforstyrrelser efter at have brugt praktisk okklusionsudstyr, f.eks. efter brug af helt smalle elastikker. _Numbness_ (følelsesforstyrrelse som følge af nervekompression) er i øvrigt den næst hyppigst indrapporterede komplikation i forbindelse med okklusionstræning ved en spørgeskemaundersøgelse i 2018, foretaget blandt fysiske trænere, fysioterapeuter ol. sundhedsprofesionelle. Her svarede 18.5 % at de havde patienter/klienter som havde oplevet følelsesforstyrrelser. Det sammenholdt med, at kun 11.5 % af de adspurgte sundhedsprofessionelle anvendte individualiseret arbejdstryk ud fra AOP som trykangivelse til deres patienters/klienters træning\[16\], understreger behovet for viden og uddannelse i okklusionstræning inden man går i gang.
+Et blåt mærke er ganske harmløst, men i min tid i Occlude, er vi i flere tilfælde blevet kontaktet af personer som har haft længerevarende nerveforstyrrelser efter at have brugt praktisk okklusionsudstyr, fx efter brug af helt smalle elastikker. _Numbness_ (følelsesforstyrrelse som følge af nervekompression) er i øvrigt den næst hyppigst indrapporterede komplikation i forbindelse med okklusionstræning ved en spørgeskemaundersøgelse i 2018, foretaget blandt fysiske trænere, fysioterapeuter ol. sundhedsprofesionelle. Her svarede 18.5 % at de havde patienter/klienter som havde oplevet følelsesforstyrrelser. Det sammenholdt med, at kun 11.5 % af de adspurgte sundhedsprofessionelle anvendte individualiseret arbejdstryk ud fra AOP som trykangivelse til deres patienters/klienters træning\[16\], understreger behovet for viden og uddannelse i okklusionstræning inden man går i gang.
 
 Er du sundhedsprofessionel og står med ansvaret for andres okklusionstræning, vil jeg på det kraftigste anbefale dig at bruge trykreguleret og pumpestyret okklusionsudstyr, hvor du kan individualiseret arbejdstrykket og føre patients træning til protokol som foreskrevet i den videnskabelige litteratur. Vælger du at gå med praktisk okklusionsudstyr til din egen træning, så er mit råd, at du afklemmer så bredt som muligt.
 

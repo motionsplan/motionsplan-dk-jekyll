@@ -6,7 +6,6 @@ redirect_from:
 title: &title "Træningsøvelser: De bedste øvelser til styrketræning 🏋"
 excerpt: "Vi har samlet de bedste træningsøvelser og styrketræningsøvelser. Vi har lavet en grundig forklaring af alle øvelserne, og der er både øvelser til styrketræning, konditionstræning, yoga, udstrækning, mobilitet og cardio."
 comments: false
-classes: wide
 author_profile: true
 gallery:
   - image_path: https://i.pinimg.com/564x/3f/17/84/3f17845a79b4552c5fbbcbd584d1c36a.jpg
@@ -16,6 +15,7 @@ gallery:
     data_pin_id: 579768152024756849
 sidebar:
   nav: exercises
+toc: true
 ---
 
 Vi har samlet de bedste træningsøvelser, udstrækningsøvelser og styrketræningsøvelser. Vi har lavet en grundig forklaring af alle øvelserne, og der er både øvelser til styrketræning, konditionstræning, yoga, udstrækning, mobilitet og cardio.
@@ -26,7 +26,7 @@ Hvis du er på udkig efter [maveøvelser]({% link _pages/exercises-tag-abs.md %}
 
 {% include pinterest-gallery id="gallery" hidden="true"%}
 
-## Nyeste øvelser
+## Seneste opdaterede øvelser
 
 Her kan du se de nyeste træningsøvelser.
 
@@ -35,13 +35,12 @@ Her kan du se de nyeste træningsøvelser.
 {% assign site_posts = site.exercises | where: "tags", "featured" | sort: "last_modified_at" | reverse %}
 
 {% if site_posts.size > 0 %}
-  {% for post in site_posts limit: 6 %}
+  {% for post in site_posts limit: 8 %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
 
 </div>
-
 
 ## Maveøvelser, mavetræning og coretræning
 
@@ -57,7 +56,7 @@ Læs mere om [armøvelser til triceps, biceps og underarmene her]({% link _pages
 
 ## Benøvelser
 
-Bentræning kan foregå med virkelig mange forskellige øvelser. Bentræning kan foregå både med frie vægte og lave squat og lunges og i benmaskine som benpres og leg extensions. Du kan finde øvelser med vægtstang, håndvægte, kettlebells og [Safety Squat Bar]({% link _posts/2020-07-05-safetybar-squat.md %}).
+Bentræning kan foregå med virkelig mange forskellige øvelser. Bentræning kan foregå både med frie vægte og lave [squat](/squat/) og [lunges](/lunges/) og i benmaskine som benpres og leg extensions. Du kan finde øvelser med vægtstang, håndvægte, kettlebells og [Safety Squat Bar]({% link _posts/2020-07-05-safetybar-squat.md %}). [Dødløft](/doedloeft/) er også en af de gode benøvelser.
 
 [Tjek alle benøvelser]({% link _pages/exercises-tag-ben.md %}).
 
@@ -83,7 +82,7 @@ Din ryg skal bruges og udfordres med de bedste og mest effektive øvelser i din 
 
 Skuldertræning skal tage højde for et kompliceret led, og du kan vælge forskellige øvelser til at træne din skulder. Skulderøvelser handler naturligvis om [armstrækninger]({% link _posts/2020-07-05-pushups.md %}), [rows]({% link _posts/2020-07-06-rows.md %}) og [pullups og chinups]({% link _posts/2020-06-30-pullup-chinup.md %}), men der er også andre øvelser, der udfordrer skulderbladet og for- og bagskulder på forskellige måder.
 
-Jeg har skrevet lidt om [skulderøvelser og træning af bagskulderen og rotatormanchetten]({% link _posts/2020-12-12-styrk-dine-skuldre.md %}), og du kan også læse mere om [anatomiske opbygning af skulderleddet]({% link _anatomy/joints/skulderleddet.md %}).
+Jeg har skrevet lidt om skulderøvelser og [træning af bagskulderen og rotatormanchetten]({% link _posts/2020-12-12-styrk-dine-skuldre.md %}), og du kan også læse mere om [anatomiske opbygning af skulderleddet]({% link _pages/anatomy/skulderleddet.md %}).
 
 [Se alle skulderøvelser]({% link _pages/exercises-tag-skulder.md %}).
 

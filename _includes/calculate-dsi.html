@@ -1,0 +1,23 @@
+<form class="calculator" id="calculator_dsi">
+    <fieldset>
+        <legend>Udregning af Dynamic Strength Index (DSI)</legend>
+        <div class="form-group">
+            <label>Maksimal kraft ved max styrke (N)
+                <input name="dsi_peak_force_max_strength" id="dsi_peak_force_max_strength" type="number" min="10" max="10000" placeholder="Peak Force Maximal Styrke i Newton" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Maksimal kraft ved ballistisk styrke (N)
+                <input name="dsi_peak_force_max_ballistic" id="dsi_peak_force_max_ballistic" type="number" min="10" max="10000" placeholder="Peak Force Ballistisk Styrke i Newton" required>
+            </label>
+        </div>
+        <input type="submit" value="Udregn">
+    </fieldset>
+    <fieldset class="results" disabled>
+        <legend>Resultat</legend>
+        <label>Dynamic Strength Index (DSI)
+            <input disabled name="dsi" type="text">
+        </label>
+    </fieldset>
+    {% include calculator-footer.html %}
+</form>

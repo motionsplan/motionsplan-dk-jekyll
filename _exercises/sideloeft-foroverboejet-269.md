@@ -11,7 +11,7 @@ header:
 tags:
   - håndvægte
 categories: []
-training_type: [] 
+training_type: []
 training_focus: []
 equipment:
   - håndvægte
@@ -36,6 +36,7 @@ gallery:
     title: "Sideløft, foroverbøjet"
 last_modified_at: 2013-04-21T18:14:07Z
 ---
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}
 
 Stå med god balance og skulderbredde mellem fødderne og let foroverbøjet. Med let bøjede arme og uden at ændre vinklen i albueleddet føres vægtene ud i til siden og opad. Bevægelsen stoppes, når albuer og vægte er på højde med skulderne (eller lige lidt over). Håndfladerne vender nedad. Vægtene sænkes kontrolleret tilbage til udgangsposition. Undgå bevægelse i nakke og hofte.
 

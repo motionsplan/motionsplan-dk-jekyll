@@ -9,6 +9,7 @@ header:
   actions:
     - label: "<i class='fas fa-file-excel'></i> Sheet med strukturel balance"
       url: https://docs.google.com/spreadsheets/d/114bvE2Kuk0259xvXbojDdNjHUBP95348yDPBPN78Lkc/copy?usp=sharing
+      rel: nofollow noopener
 category:
   - Test
   - Balance
@@ -24,8 +25,9 @@ feature_row:
     url: https://docs.google.com/spreadsheets/d/114bvE2Kuk0259xvXbojDdNjHUBP95348yDPBPN78Lkc/copy?usp=sharing
     title: Strukturel Balance
     excerpt: Google Sheets med forslag til strukturel balance mellem forskellige styrketræningsøvelser.
-    btn_label: Google Sheets
+    btn_label: <i class='fas fa-file-excel'></i> Google Sheets
     btn_class: btn--info
+    rel: nofollow noopener
 ---
 
 Strukturel balance i forskellige styrketræningsøvelser som koncept er ideen om, at man der bør være en balance mellem, hvor stærk man er i forskellige styrketræningsøvelser, så der er balance i kroppens styrke.
@@ -53,7 +55,7 @@ I begge øvelser er det vigtigt, at du bruger en konservativ vægt, så du kan f
 
 Mange kan ikke helt føle deres Trap-3-muskel. Men i Trap-3 raise er det naturligvis væsentligt, at du lykkes med at bruge den rigtige muskel.
 
-{% include video provider="youtube" id="HqmvnTIvxPE" %}
+{% include video provider="youtube" id="qLLJWmHlYZQ" %}
 
 ## Skema over værdier for strukturel balance
 

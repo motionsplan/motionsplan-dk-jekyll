@@ -82,14 +82,14 @@ motionsplan.CooperClinicMortalityRiskIndex = function(age, hr, bloodpressure, di
   }
 
   function getRiskPoint() {
-    var point = getAgePoint() + getHrPoint() + getBloodpressurePoint() + getDiabetesPoint() + getSmokerPoint() + getBMIPoint() + getFitnessPoint();
+   let point = getAgePoint() + getHrPoint() + getBloodpressurePoint() + getDiabetesPoint() + getSmokerPoint() + getBMIPoint() + getFitnessPoint();
     return point;
   }
 
   function getAbsoluteRisk() {
-    var point = getRiskPoint();
+   let point = getRiskPoint();
     
-    var point_to_risk = [];
+   let point_to_risk = [];
     point_to_risk[0] = 1.8;
     point_to_risk[1] = 2.2;
     point_to_risk[2] = 2.6;
@@ -116,7 +116,7 @@ motionsplan.CooperClinicMortalityRiskIndex = function(age, hr, bloodpressure, di
   }
 
   function getRelativeRisk() {
-    var risk = getAbsoluteRisk();
+   let risk = getAbsoluteRisk();
     if (age < 34) {
       return risk / 2.4;
     }
@@ -138,7 +138,7 @@ motionsplan.CooperClinicMortalityRiskIndex = function(age, hr, bloodpressure, di
     return risk / 18.1;
   }
 
-  var publicAPI = {
+  let publicAPI = {
     getRiskPoint: getRiskPoint,
     getAbsoluteRisk: getAbsoluteRisk,
     getRelativeRisk: getRelativeRisk

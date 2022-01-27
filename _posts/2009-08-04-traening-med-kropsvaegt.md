@@ -2,7 +2,7 @@
 title: "Træning med kropsvægt: Forslag til øvelser"
 permalink: /artikel/traening-med-kropsvaegt/
 redirect_from:
-  - /artikel/traening-med-kropsvaegt.
+  - /artikel/traening-med-kropsvaegt
 language: da
 header:
   overlay_image: /assets/images/blog/traening-med-kropsvaegt.jpg
@@ -14,12 +14,12 @@ category:
   - Styrketræning
 last_modified_at: 2020-02-13T22:09:52Z
 feature_row:
-  - image_path: https://cdn.shopify.com/s/files/1/0247/5674/8373/products/KINETIK_VX1_-_Vaegtvest_900x.png?v=1574882659
+  - image_path: https://cdn.shopify.com/s/files/1/0247/5674/8373/products/KINETIKVX1-Vaegtvest-Produkt_900x.png?v=1625157946
     alt: "KINETIK Vægtvest VX1"
     title: "KINETIK Vægtvest VX1"
     excerpt: "KINETIK VX1 er det ultimative træningsudstyr, og er enestående når det kommer til design og kvalitet. Vores vægtvest er specialdesignet til at aktivere din styrke, og effektivisere din træning."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67046&htmlurl=https://kinetikshop.dk/products/kinetik-vx1-vaegtvest"
-    btn_label: "Læs mere"
+    btn_label: "Tjek prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
 ---
@@ -55,8 +55,6 @@ Du kan også loade dine kropsvægtsøvelser med en vægtvest for at få endnu me
 {% include feature_row type="left" %}
 
 ## Yderligere inspiration
-
-- [Linksamling om bodyweight / Kettlebells / alternativ træning](http://www.motion-online.dk/fora/index.php?showtopic=29480&hl=kropsv%E6gt){:rel="nofollow"}. Samling af links omkring øvelser med kropsvægt, kettlebells og alternativ træning lavet af brugerne af motion-online.dks forum. Posten er temmelig rodet, men der er flere gode links.
 
 Jeg har også [skrevet lidt om cirkeltræning]({% link _posts/2020-06-16-cirkeltraening.md %}), som kan være en god måde at organisere dine kropsvægtsøvelser på.
 

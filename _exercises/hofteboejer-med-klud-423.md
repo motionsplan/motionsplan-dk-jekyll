@@ -12,8 +12,8 @@ tags:
   - kropsstamme
   - klud
 categories: []
-training_type: 
-training_focus: 
+training_type:
+training_focus:
   - kropsstamme
 equipment:
   - klud
@@ -35,6 +35,8 @@ last_modified_at: 2013-10-02T10:13:54Z
 key: 20131002101354
 ---
 
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}
+
 Stående på alle fire. Kroppen er strakt. Vægten frem på armene. Begge fødder placeret på gulvklude. Træk fødderne frem som vist på billedet. Lad derefter fødderne glide tilbage til udgangsposition. Hold kropsspændingen hele vejen til slutposition.
 
-BelastningLav 20 gentagelser. Hold da en pause på 1-2 min. og gentag så øvelsen igen. Det gør du i alt 3 gange inden du går videre til en ny øvelse.
+Belastning: Lav 20 gentagelser. Hold da en pause på 1-2 min. og gentag så øvelsen igen. Det gør du i alt 3 gange inden du går videre til en ny øvelse.

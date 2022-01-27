@@ -3,13 +3,14 @@ title: &title "Smidighedstest: Modified Sit & Reach Test"
 permalink: /smidighedstest/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1492176273113-2d51f47b23b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80
-  teaser: https://images.unsplash.com/photo-1492176273113-2d51f47b23b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1492176273113-2d51f47b23b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1492176273113-2d51f47b23b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Sundhed
   - Træning
   - Test
+  - Led
 tags:
   - smidighed
   - test
@@ -45,7 +46,7 @@ feature_row:
     title: "Udstrækning, Træning og anatomi"
     excerpt: "Udstrækning, Træning og anatomi henvender sig til sundhedsguruer, fitnesstrænere, studerende i idræt, atleter, trænere, ældre og mange andre, som gerne vil forstå og forbedre deres kondition og fleksibilitet vil få glæde og gavn af denne grundige og omfattende guide. I bogen illustrerer yderst detaljerede anatomiske illustrationer 50 stræk og viser præcis, hvad der sker i kroppen, når du laver et stræk. At du får lov at se hvilke muskler, der er involveret i de forskellige stræk, vil ikke bare skærpe din viden om anatomi, og hvordan kroppen fungerer, men vil også hjælpe dig til at forbedre effektiviteten i din træning."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/udstraekning-traening-og-anatomi_ken-ashwell_9788740609127"
-    btn_label: "Se prisen hos Tales"
+    btn_label: "Se prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
 ---

@@ -36,7 +36,7 @@ motionsplan.RunningWalking = function(activity, speed, body_weight) {
     return (met[activity][speed] * body_weight) / 1 / speed;
   }
 
-  var publicAPI = {
+  let publicAPI = {
     getMET : getMET,
     getCaloriesPrMinute : getCaloriesPrMinute,
     getCaloriesPrKilometer : getCaloriesPrKilometer

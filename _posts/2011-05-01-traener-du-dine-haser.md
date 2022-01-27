@@ -136,8 +136,12 @@ Dette træningsprogram til baglåret er udelukkende et forslag til, hvordan du v
 
 ## Referencer om baglåret
 
+<details markdown="1">
+  <summary>Se referencer om baglårstræning</summary>
+
 - Ernlund, Lucio, og Lucas de Almeida Vieira. 2017. “Hamstring injuries: update article”. Revista Brasileira de Ortopedia 52 (4): 373–82. <https://doi.org/10.1016/j.rboe.2017.05.005>.
 - Horst, Nick van der, Dirk-Wouter Smits, Jesper Petersen, Edwin A. Goedhart, og Frank J. G. Backx. 2015. “The Preventive Effect of the Nordic Hamstring Exercise on Hamstring Injuries in Amateur Soccer Players: A Randomized Controlled Trial”. The American Journal of Sports Medicine 43 (6): 1316–23. <https://doi.org/10.1177/0363546515574057>.
 - Ramos, Gabriel Amorim, Gustavo Gonçalves Arliani, Diego Costa Astur, Alberto de Castro Pochini, Benno Ejnisman, og Moisés Cohen. 2016. “Rehabilitation of hamstring muscle injuries: a literature review”. Revista Brasileira de Ortopedia 52 (1): 11–16. https://doi.org/10.1016/j.rboe.2016.12.002.
 - Tsaklis, Panagiotis, Nikos Malliaropoulos, Jurdan Mendiguchia, Vasileios Korakakis, Kyriakos Tsapralis, Debasish Pyne, og Peter Malliaras. 2015. “Muscle and intensity based hamstring exercise classification in elite female track and field athletes: implications for exercise selection during rehabilitation”. Open Access Journal of Sports Medicine 6 (juni): 209–17. <https://doi.org/10.2147/OAJSM.S79189>.
-- [The Lost Art of Hamstring Training](https://www.t-nation.com/training/lost-art-of-hamstring-training)
+- [The Lost Art of Hamstring Training](https://www.t-nation.com/training/the-lost-art-of-hamstring-training/)
+</details>

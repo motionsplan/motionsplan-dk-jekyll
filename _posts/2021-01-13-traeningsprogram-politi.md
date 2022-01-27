@@ -1,10 +1,11 @@
 ---
-title: &title "Hjemmetræning: Træningsprogram til politiets optagelsesprøve 🏃💪👮👮‍♀️"
+title: &title "Træningsprogram til politiets optagelsesprøve 🏃💪👮👮‍♀️"
+seo_title: "Træningsprogram til politiets optagelsesprøve"
 permalink: /politi-traeningsprogram/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1544923503-a0ce2f2a80bc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2167&q=80
-  teaser: https://images.unsplash.com/photo-1544923503-a0ce2f2a80bc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1544923503-a0ce2f2a80bc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1544923503-a0ce2f2a80bc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Kondition
@@ -14,20 +15,21 @@ tags:
   - kondition
   - løb
   - politiets optagelsesprøve
+  - hjemmetræning
 last_modified_at: 2021-01-02T10:14:14Z
 toc: true
 author: jakob.nielsson
 ---
 
-Her er et forslag til et træningsprogram, som kan forberede dig hen mod politiets fysiske optagelsesprøve. Du kan lave træningsprogrammet som hjemmetræning, så du kan klare programmet, selvom du ikke har adgang til et træningscenter.
+Her er et forslag til et træningsprogram, som kan forberede dig hen mod politiets fysiske optagelsesprøve. Du kan lave træningsprogrammet uden særligt meget udstyr, så du kan klare programmet, selvom du ikke har adgang til et træningscenter.
 
 Formålet med dette træningsprogram er at give dig mulighed for at træne, selvom du ikke har adgang til et fitnesscenter eller træningscenter, men stadig vil forberede dig til [politiets fysiske optagelsesprøve]({% link _posts/2020-08-17-politiets-fysiske-tests.md %}).
 
 Jeg har lavet en video til eleverne på Vejle Idrætshøjskoles politilinje, hvor jeg viser, hvordan de kan lave nogle af testene i den fysiske optagelsesprøve med et minimum af udstyr.
 
-Tjek mit forslag ud til at tage den fysiske optagelsesprøve til politiet derhjemme, inden du kaster dig ud i træningsprogrammet til politiet.
+Tjek mit forslag ud til at tage den fysiske optagelsesprøve til politiet derhjemme, inden du kaster dig ud i træningsprogrammet til politiet. Hvis du er interesseret i 
 
-{% include video provider="youtube" id="ewZ76WPuWaM" %}
+{% include video provider="youtube" id="ewZ76WPuWaM" ezoic="ezoic-pub-video-placeholder-3" %}
 
 ## Hvordan kan du starte træningen mod optagelsesprøven til politiet?
 
@@ -93,9 +95,9 @@ Der er ingen klassisk styrketræningsøvelse til benene til politiets optagelses
 
 Øver du dig på hurtighedstesten og længdespringet, anbefaler vi at gøre dette som det første i træningspasset, mens du er frisk og kan være maksimalt eksplosive, og så kan styrketræningsøvelserne og/eller løb laves bagefter.
 
-Til forlårene foreslår vi øvelser som [pistols](/oevelse/pistol/), lunges, jumping lunges, squats, jump squats mm. Til baglårene og bagkæden generelt er der færre muligheder uden vægte, men [nordic hamstring curls](/oevelse/nordic-hamstring/), hvor du enten har fødderne under et tungt møbel eller får en person til at holde dine fødder, er en glimrende øvelse om man har udstyr eller ej.	
+Til forlårene foreslår vi øvelser som [pistol squats](/oevelse/pistol-squat/), [lunges](/lunges/), jumping lunges, [squats](/squat/), jump squats mm. Til baglårene og bagkæden generelt er der færre muligheder uden vægte, men [nordic hamstring curls](/oevelse/nordic-hamstring/), hvor du enten har fødderne under et tungt møbel eller får en person til at holde dine fødder, er en glimrende øvelse om man har udstyr eller ej.	
 
-## Eksempler på hjemmetræning i forhold til politiets optagelsesprøve
+## Eksempler træning i forhold til politiets optagelsesprøve
 
 Programmerne er ugentlige, og du bør køre et program i mindst fire uger, inden du laver et nyt program. Fra træning til træning og fra uge til uge, kan du langsomt øge antallet af sæt og antallet af gentagelser. Du kan også bruge [forskellige metoder til at gøre kropsvægtstræningen mere effektiv](/metoder-hjemmetraening-kropsvaegt-mere-effektiv/). Måske kan du endda lade dig inspirere af vores [kropsvægtsøvelser](/artikel/traening-med-kropsvaegt/). God fornøjelse med træningen i hvert fald.
 
@@ -103,83 +105,83 @@ Her har jeg lavet fire forskellige eksempler på træningsprogrammer, du kan lav
 
 ## Begyndere: Ugentligt begyndertræningsprogram
 
-### Mandag
+#### Mandag
 
 - Armstrækkere med hænder på sofakant - 3 sæt af 10 gentagelser
 - Table rows med fødder på gulvet - 3 sæt af 8 gentagelser
 
-### Tirsdag
+#### Tirsdag
 
 - Længdespring: 8 spring med 30 sek hvile
 - Løb 4 intervaller af 250 meter med 45 sek hvile
 
-### Torsdag
+#### Torsdag
 
 - Lunges - 3 sæt af 12 gentagelser med hvert ben
 - Armstrækkere på knæene - 3 sæt af 5 gentagelser
 
-### Lørdag
+#### Lørdag
 
 - Jog 20 min kontinuerligt
 
-### Søndag
+#### Søndag
 
 - Table rows med fødder på gulvet - 3 sæt af 5 gentagelser langsomt
 - Nordic hamstring curls - 3 sæt af 5 gentagelser
 - Jump squats - 2 sæt af 15 gentagelser
 
-## Begyndere: Begyndertræningsprogram til hjemmetræning
+## Begyndere: Begyndertræningsprogram
 
-### Mandag
+#### Mandag
 
 - Armstrækkere med hænder på sofakant - 3 sæt af 10 gentagelser
 - Table rows med fødder på gulvet - 3 sæt af 5 gentagelser langsomt
 - Jumping lunges - 3 sæt af 12 gentagelser med hvert ben
 
-### Onsdag
+#### Onsdag
 
 - Længdespring: 8 spring med 30 sek hvile
 - Løb 4 intervaller af 250 meter med 45 sek hvile
 
-### Torsdag
+#### Torsdag
 
 - Armstrækkere med hænder på køkkenbordet - 3 sæt af 20 gentagelser
 - Table rows hvor man kun løfter sig halvt op - 3 sæt af 12 gentagelser
 - Nordic hamstring curls - 3 sæt af 5 gentagelser
 - Squat - 2 sæt af 30 gentagelser
 
-### Lørdag
+#### Lørdag
 
 - Jog 20 min kontinuerligt
 
-## Øvede: Træningsprogram for øvede til hjemmetræning
+## Øvede: Træningsprogram for øvede
 
-### Mandag
+#### Mandag
 
 - Armstrækkere - 4 sæt af 15 gentagelser
 - Kropshævninger i en gren - 4 sæt af 4 gentagelser
 - Løb 6 intervaller af 300 meter med 30 sek hvile
 
-### Tirsdag
+#### Tirsdag
 
 - Længdespring: 10 spring med 45 sek hvile mellem
 - Pistols - 4 sæt af 8 gentagelser på hvert ben
 
-### Onsdag
+#### Onsdag
 
 - 30 min kontinuerligt løb
 
-### Torsdag
+#### Torsdag
 
 - Archer pushups - 4 sæt af 5 gentagelser til hver side
 - Table rows - 5 sæt af 12 gentagelser
 - Hurtighedstest - 4 ture med 2 min hvile imellem
 
-### Fredag
+#### Fredag
 
 - 50 min roligt jog
 
-### Lørdag
+#### Lørdag
 
 - Brede armstrækkere - 3 sæt af 12 gentagelser
 - [Hindu pushups](/oevelse/armstraekning-hindu/) - 3 sæt af 6 gentagelser
@@ -187,44 +189,44 @@ Her har jeg lavet fire forskellige eksempler på træningsprogrammer, du kan lav
 - Nordic hamstring curls - 5 sæt af 6 gentagelser
 - Lunges - 4 sæt af 25 gentagelser til hvert ben
 
-## Øvede: Hjemmetræningsprogram til politiet for øvede
+## Træningsprogram til politiet for øvede
 
-### Mandag
+#### Mandag
 
 - Brede armstrækkere - 3 sæt af 12 gentagelser
 - Smalle armstrækkere - 3 sæt af 10 gentagelser
 - Kropshævninger i en gren - 5 sæt af 2 gentagelser langsomt
 - Jumping lunges - 4 sæt af 20 til hvert ben
 
-### Tirsdag
+#### Tirsdag
 
 - Længdespring: 6 sæt af 2 spring med 60 sek hvile
 - Løb 10 intervaller af 200 meter med 20 sek hvile
 
-### Onsdag
+#### Onsdag
 
 - Armstrækkere med fødderne på en stol - 5 sæt af 10 gentagelser
 - Kropshævninger i en gren - 4 sæt af 6 gentagelser
 - Pistols - 5 sæt af 10 gentagelser til hvert ben
 
-### Torsdag
+#### Torsdag
 
 - Politiprøvens Hurtighedstest: 4 ture med 2 min hvile imellem
 - 30 min kontinuerligt løb
 
-### Fredag
+#### Fredag
 
 - Armstrækkere med pause i bunden - 4 sæt af 10 gentagelser
 - Table rows - 4 sæt af 15 gentagelser
 - Nordic hamstring curls - 5 sæt af 5 gentagelser
 - Jump squat - 3 sæt af 30 gentagelser
 
-### Lørdag
+#### Lørdag
 
 - 50 min roligt jog
 
-## Andre træningsprogrammer til hjemmetræning
+## Andre træningsprogrammer
 
 Når du træner til politiets optagelsesprøve, så gælder det om at være i generelt god form. Du kan bygge din træning op på mange forskellige måder.
 
-Vi har andre forslag til [styrketræningsprogrammer og træningsprogrammer](/traeningsprogrammer/). Når det skal være med kropsvægt, så kan du også lade dig inspirere af dette benhårde [benprogram, som også er med til at forebygge skader](/skadesforebyggelse-skadesforebyggende-traening/). Hvis du mere er typen, der gerne vil have en workout inspiraret af crossfit, så kan du tjekke nogle af Mette Bjerres [workouts til hjemmetræning og træningsprogrammer](/hjaemmetraening-corona-workouts/) eller vores [28 Corona Workouts](/corona-workouts/).
+Vi har andre forslag til [styrketræningsprogrammer og træningsprogrammer](/traeningsprogrammer/). Når det skal være med kropsvægt, så kan du også lade dig inspirere af dette benhårde [benprogram, som også er med til at forebygge skader](/skadesforebyggelse-skadesforebyggende-traening/). Hvis du mere er typen, der gerne vil have en workout inspiraret af crossfit, så kan du tjekke flere eksempler på [workouts til hjemmetræning og træningsprogrammer]({% link _posts/2020-08-06-hjemmetraening.md %}) eller vores [28 Corona Workouts](/corona-workouts/).

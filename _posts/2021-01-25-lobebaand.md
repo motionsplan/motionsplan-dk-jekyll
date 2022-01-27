@@ -1,17 +1,20 @@
 ---
 title: &title "Guide til løbebånd: Kurvet eller motoriseret 🏃🏃‍♀🐹️"
+seo_title: "Guide til løbebånd: Kurvet eller motoriseret"
 permalink: /guide-loebebaand/
-last_modified_at: 2021-01-18T09:41:09Z
+last_modified_at: 2021-12-18T09:41:09Z
 author: lsolesen
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1593079831268-3381b0db4a77?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80
-  teaser: https://images.unsplash.com/photo-1593079831268-3381b0db4a77?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1593079831268-3381b0db4a77?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1593079831268-3381b0db4a77?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Test
   - Kondition
+  - Løb
 tags:
+  - løb
   - løbebånd
   - cardiomaskiner
 feature_row_draxfit:
@@ -30,7 +33,7 @@ feature_row_apuls:
     excerpt: "Løbefladen på løbebåndet måler 150 x 43 cm og det kan klare en personvægt på op til 230 kg. Et curve løbebånd som dette Gymleco LHR510 er yderst skånsomt for brugeren. Løbebåndet har en meget længere levetid end traditionelle løbebånd."
     price: 44999
     btn_class: btn--success
-    vendor: Apuls
+    vendor: Læs mere
     rel: sponsored nofollow noopener
 feature_row_toorx:
   - image_path: https://fitnessshoppen.dk/images/TRX%2045-p.png
@@ -40,7 +43,7 @@ feature_row_toorx:
     price: 4999
     old_price: 7999
     btn_class: btn--danger
-    vendor: Fitnessshoppen
+    vendor: Læs mere
     rel: sponsored nofollow noopener
 feature_row_odin:
   - image_path: https://apuls.dk/img/900/900/resize/Y/K/YKET1601A_1.jpg
@@ -49,9 +52,14 @@ feature_row_odin:
     excerpt: "Odin T 800 anses for at være markedets bedste løbebånd til prisen. Løbebåndet er designet til dig, der gerne vil have et solidt løbebånd, med mange funktioner - ikke mindst, tilslutning af en tablet eller telefon (iPad & Android). Peakstyrke på 5HK og hastighed på 20 km/t."
     price: 14000
     btn_class: btn--success
-    vendor: Apuls
+    vendor: Læs mere
     rel: sponsored nofollow noopener
 breadcrumbs: true
+faq:
+  - question: Hvad vejer et løbebånd?
+    answer: Gennemsnitligt vejer de mindre og billigere løbebånd mellem 80 og 115 kg, mens de dyrere og større modeller kan veje helt op til 230 kg. Det er godt at vide, hvor tung et løbebånd er, inden du bestiller et løbebånd. Jeg har prøvet at skulle slæbe flere løbebånd op og ned af første sal, og det gør man altså ikke lige sådan alene.
+  - question: Kan et løbebånd stå udenfor?
+    answer: Et løbebånd kan ikke stå udenfor. Du kan selvfølgelig godt sætte det udenfor, men det kan ikke tåle fugt, så det danske vejr vil lynhurtigt begynde at tære på de enkelte maskindele. Det kan du ikke fikse med lidt silikonespray. Det samme gælder ved at sætte løbebåndet i et uisoleret skur, hvor løbebåndet hurtigt vil gå til.
 ---
 
 Jeg skal købe et nyt løbebånd, og jeg er i gang med at researche, hvilken type løbebånd, jeg skal købe. Jeg har samlet min research til en guide til at købe et løbebånd. Skal løbebåndet have motor, skal det være kurvet og hvad kan man tænke på, inden man investerer i et løbebånd?
@@ -74,8 +82,6 @@ Desuden skal du også kigge på følgende:
 - Vælger du motoriseret løbebånd spiller motorstørrelsen en betydningsfuld rolle
 - Hvor stor er løbefladen?
 - Hvad er løbebåndets maksimale brugsvægt?
-
-{% include video provider="youtube" id="etsVw7xb9cv" %}
 
 ## Guide og anmeldelser af løbebånd
 
@@ -140,17 +146,23 @@ Et løbebånd med mange hestekræfter er mere holdbart, og du vil opleve at flow
 
 ## Løbebåndets maksimale tempo
 
-Du skal naturligvis også kigge på, hvor hurtigt løbebåndet kan køre, hvis du vælger et løbebånd med motor. Hvis du forventer at bruge det til hurtigere intervaller, så kan det måske være begrænsende, hvis det kun kan køre 15 km/t, men typisk stiger prisen også, når det skal kunne køre hurtigere. Hvis du fx gerne vil løbe op mod 20+ km/t, så skal løbebåndet dels have en stærk motor (gerne over ~3HK) og en relativt høj brugervægt, så det er stabilt nok. Løbebånd der kan klare det koster typisk mere end 10.000 kroner. Hvis du er motionist, så kan du få løbebåndet helt ned til 4-5.000 kroner, men generelt vil du nok blive gladere for løbebåndet, hvis du går lidt højere op i pris, så det kan følge med, når du kommer i bedre form.
+Du skal naturligvis også kigge på, hvor hurtigt løbebåndet kan køre, hvis du vælger et løbebånd med motor. Hvis du forventer at bruge det til hurtigere intervaller, så kan det måske være begrænsende, hvis det kun kan køre 15 km/t, men typisk stiger prisen også, når det skal kunne køre hurtigere.
+
+Hvis du fx gerne vil løbe op mod 20+ km/t, så skal løbebåndet dels have en stærk motor (gerne over ~3HK) og en relativt høj brugervægt, så det er stabilt nok. Løbebånd der kan klare det koster typisk mere end 10.000 kroner. Hvis du er motionist, så kan du få løbebåndet helt ned til 4-5.000 kroner, men generelt vil du nok blive gladere for løbebåndet, hvis du går lidt højere op i pris, så det kan følge med, når du kommer i bedre form.
 
 ## Højde og længde på løbebånd
 
-Hvis du skal have løbebåndet stående et sted med lavt til loftet, så skal du huske at tage højde for løbebåndets højde. De fleste løbebånd er i hvert fald 20 centimeter høje (generelt ligger højden mellem 15-23 centimeter). Dertil skal du lægge mindst 5-10 centimeter til højden på de personer, der skal bruge løbebåndet. Du skal huske at du har en svævefase, når du løber, hvor du vil være lidt højere oppe end båndet, men det er også rart ikke at være bekymret for at slå hovedet op i loftet for hvert skridt.
+Hvis du skal have løbebåndet stående et sted med lavt til loftet, så skal du huske at tage højde for løbebåndets højde. De fleste løbebånd er i hvert fald 20 centimeter høje (generelt ligger højden mellem 15-23 centimeter). Dertil skal du lægge mindst 5-10 centimeter til højden på de personer, der skal bruge løbebåndet. 
+
+Du skal huske at du har en svævefase, når du løber, hvor du vil være lidt højere oppe end båndet, men det er også rart ikke at være bekymret for at slå hovedet op i loftet for hvert skridt.
 
 De fleste løbebånd er mellem 160 cm til 200 cm i længden. Nogle løbebånd kan foldes sammen, men det kommer naturligvis stadig til at fylde en del, når det skal opbevares.
 
 ## Løbefladen på løbebåndet er vigtig
 
-Når du skal vælge løbebånd, så vær opmærksom på hvor bred løbefladen er. Når du har løbet i længere tid, så falder koncentrationsevnen, og du begynder måske at slingre lidt frem og tilbage. Du kan på alle løbebånd se størrelsen i centimeter på løbefalden. Hvis du køber løbebånd til private, så er det vanskeligt at få løbebånd, som er lige så brede som løbebåndene i fitnesscentrene, men mindre kan også sagtens gøre det. Typisk ligger løbefladen mellem 52 - 60 centimeter.
+Når du skal vælge løbebånd, så vær opmærksom på hvor bred løbefladen er. Når du har løbet i længere tid, så falder koncentrationsevnen, og du begynder måske at slingre lidt frem og tilbage. Du kan på alle løbebånd se størrelsen i centimeter på løbefalden.
+
+Hvis du køber løbebånd til private, så er det vanskeligt at få løbebånd, som er lige så brede som løbebåndene i fitnesscentrene, men mindre kan også sagtens gøre det. Typisk ligger løbefladen mellem 52 - 60 centimeter.
 
 ## Løbebåndets maksimale brugervægt
 
@@ -168,13 +180,7 @@ Det er for dyrt for mig at have stående hjemme, så jeg kigger selv på løbeb�
 
 {% include product id="feature_row_odin" type="left" %}
 
-## Hvad vejer et løbebånd?
-
-Gennemsnitligt vejer de mindre og billigere løbebånd mellem 80 og 115 kg, mens de dyrere og større modeller kan veje helt op til 230 kg. Det er godt at vide, hvor tung et løbebånd er, inden du bestiller et løbebånd. Jeg har prøvet at skulle slæbe flere løbebånd op og ned af første sal, og det gør man altså ikke lige sådan alene.
-
-## Kan et løbebånd stå udenfor?
-
-Et løbebånd kan ikke stå udenfor. Du kan selvfølgelig godt sætte det udenfor, men det kan ikke tåle fugt, så det danske vejr vil lynhurtigt begynde at tære på de enkelte maskindele. Det kan du ikke fikse med lidt silikonespray. Det samme gælder ved at sætte løbebåndet i et uisoleret skur, hvor løbebåndet hurtigt vil gå til stille og roligt.
+{% include faq.html heading="2" %}
 
 ## Konklusion om løbebånd
 

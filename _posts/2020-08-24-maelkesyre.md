@@ -4,8 +4,8 @@ permalink: /maelkesyre-traening/
 last_modified_at: 2021-01-20T09:41:09Z
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1583173451851-dd9ba01f891e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
-  teaser: https://images.unsplash.com/photo-1583173451851-dd9ba01f891e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1583173451851-dd9ba01f891e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1583173451851-dd9ba01f891e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Viden om
@@ -72,7 +72,7 @@ Hvad er mælkesyrebalancen? **Mælkesyrebalancen er en kombination af den mængd
 
 ## Mælkesyre og træthed i musklerne
 
-Mange anser [stadig mælkesyre for at være hovedårsagen til muskeltræthed](https://aktivtraening.dk/traening/maelkesyre-derfor-syrer-dine-muskler-til), men nyere forskning peger i en anden retning.
+Mange anser stadig mælkesyre for at være hovedårsagen til muskeltræthed, som fx i denne artikel fra [aktivtraening.dk](https://aktivtraening.dk/traening/maelkesyre-derfor-syrer-dine-muskler-til), men nyere forskning peger i en anden retning.
 
 Der er ingen tvivl om, at du ved hårdt, intensivt arbejde producerer mere mælkesyre og får højere koncentrationer af laktat i musklerne. Men det er faktisk ikke mælkesyrens skyld, at miljøet i musklerne forsures. Det kan rent biokemisk ikke lade sig gøre, at mælkesyren og laktat er skyld i forsuringen.
 

@@ -7,16 +7,18 @@ toc: true
 permalink: /texas-method/
 title: "Texas Method: Styrketræningsprogram til letøvede"
 header:
-  overlay_image: https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/553202146-1553267207.png?crop=1xw:0.75xh;center,top&resize=980:*
-  teaser: https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/553202146-1553267207.png?crop=1xw:0.75xh;center,top&resize=980:*
+  overlay_image: hhttps://images.unsplash.com/photo-1550977616-efc580084ac5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1550977616-efc580084ac5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: "*title"
 category:
   - Styrketræning
+  - Træningsprogrammer
 tags:
   - program
   - let øvet
   - træningsprogram
   - programanmeldelse
+  - fullbody
 feature_row:
   - image_path: https://imgcdn.saxo.com/_9788771801835/0x500
     alt: Stærk
@@ -25,7 +27,7 @@ feature_row:
       hjælp, og den kan du heldigvis få af Jacob Beermann med bogen Stærk. Her
       får du en god og grundig introduktion til hvordan man styrketræner bedst.
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835
-    btn_label: Læs mere
+    btn_label: Tjek prisen
     btn_class: btn--success
     rel: sponsored nofollow noopener
 language: da
@@ -37,6 +39,8 @@ language: da
 *[PR]: Personal Record
 
 En af fordelene ved Texas Method er, at den i en meso-cyklus (en uge) både tager højde for volumen, restituion og intensitet. Samtidig per pointen i programmet, at belastningen skal stige fra uge til uge, så der er lineær progression på ugebasis.
+
+Husk at Texax Method bare er et af forskellige programmer. Vi har samlet [flere gratis træningsprogrammer]({% link _pages/trainingprograms-archive.md %}), som du kan lade dig inspirere af.
 
 Sørg for at læse instruktionerne grundigt, inden du går i gang med at bruge programmet.
 
@@ -89,7 +93,7 @@ Texas Method er et meget brugt op populært styrketræningsprogram. Når vægten
 
 Texas Method kan varieres på mange forskellige måder, så du kan bruge det som et overordnet skabelon for din træning. Hvis du fx vil bruge det specifikt i forhold til *powerlifting*, så skal du nok [justere balancen mellem presvarianterne og øge volumen af dødløft](https://www.powerliftingtowin.com/texas-method/).
 
-[Hent et Google Sheet](https://docs.google.com/spreadsheets/d/1otHqC33cBT2TB9RIRrXXyRLqZ3BN1-RZkIhtQPEe7DQ/copy#gid=0){: .btn .btn--large .btn--success }
+[<i class='fas fa-file-excel'></i> Hent et Google Sheet](https://docs.google.com/spreadsheets/d/1otHqC33cBT2TB9RIRrXXyRLqZ3BN1-RZkIhtQPEe7DQ/copy#gid=0){: .btn .btn--large .btn--success rel="nofollow noopener" }
 
 ## Referencer
 

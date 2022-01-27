@@ -4,8 +4,8 @@ permalink: /skuldertraening-styrk-dine-skuldre-rotatormanchet/
 language: da
 author: lsolesen
 header:
-  overlay_image: https://images.unsplash.com/photo-1532384748853-8f54a8f476e2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80
-  teaser: https://images.unsplash.com/photo-1532384748853-8f54a8f476e2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1532384748853-8f54a8f476e2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1532384748853-8f54a8f476e2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Styrketræning
@@ -78,7 +78,7 @@ Her kan du se gode øvelser til at styrke bagskulderen. Du kan bruge disse eksem
 
 ## Konklusion om skuldertræning
 
-Du kan få inspiration til flere [skulderøvelser]({% link _pages/exercises-tag-skulder.md %}). Du kan også læse mere om selve [skulderleddet]({% link _anatomy/joints/skulderleddet.md %}).
+Du kan få inspiration til flere [skulderøvelser]({% link _pages/exercises-tag-skulder.md %}). Du kan også læse mere om selve [skulderleddet]({% link _pages/anatomy/skulderleddet.md %}).
 
 Jeg kan også rigtig godt lide disse øvelser, som [Dan North viser på t-nation.com](https://www.t-nation.com/training/build-muscle-anywhere-anytime).
 

@@ -2,11 +2,14 @@
 layout: single
 toc: true
 permalink: /beregnere-tests/
+redirect_from:
+  - /omregn/
 excerpt: "Vi har lavet en lang række beregnere og tests, som du kan bruge i forbindelse med din træning. Se den samlede liste her. "
 title: &title "Beregnere & Tests"
+seo_title: "Beregnere & Tests til træning | Motionsplan"
 author_profile: true
 header:
-  overlay_image: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1960&q=80
+  overlay_image: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1960&q=5
   caption: *title
   alt: Photo by Clem Onojeghuo on Unsplash
   actions:
@@ -115,6 +118,34 @@ Gangtests er ret populære - særligt for folk der ikke har lyst til at lave en 
 Det er populært at test sig selv på cykel. Nogle af fordelene er, at det er ret let tilgængeligt, og du let kan blive guidet undervejs i testen. Du kan både finde maksimale og submaksimale tests.
 
 {% assign site_posts = site.posts | where: "tags", "test" | where: "tags", "cykeltest" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
+## Psykologiske tests
+
+{% assign site_posts = site.posts | where: "tags", "psykologi" | where: "tags", "test" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
+## Springtest og hoppetests
+
+{% assign site_posts = site.posts | where: "tags", "springtest" | sort: "date" %}
 
 <div class="feature__wrapper">
 

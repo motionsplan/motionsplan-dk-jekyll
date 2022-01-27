@@ -25,6 +25,14 @@ jesper.emil.jakobsgaard:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/jesper-emil-jakobsgaard/"
   featured: true
+nikolai.jauk:
+  name             : "Nikolai Jauk"
+  avatar           : "/assets/images/authors/nikolai-jauk.jpeg"
+  bio              : "Træningsentusiast og cykelekspert med fokus på cykeltræning og cykeltøj."
+  links:
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/najauk/"
 andreas.christensen:
   name             : "Andreas Kjærsgaard Christensen"
   avatar           : "/assets/images/authors/andreas-christensen.png"

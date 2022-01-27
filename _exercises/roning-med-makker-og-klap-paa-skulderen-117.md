@@ -10,8 +10,9 @@ header:
   teaser: /assets/images/exercises/roning-med-makker-og-klap-paa-skulderen-0-320.jpg
 tags:
   - makkerøvelse
-categories: []
-training_type: [] 
+categories:
+  - Rows
+training_type: []
 training_focus: []
 equipment: []
 muscle_group: []
@@ -29,5 +30,6 @@ video:
   id: 5072411
 last_modified_at: 2011-05-02T16:08:06Z
 ---
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}
 
 Hvis du har strakte ben er det hårdest. Hvis du bøjer benene er det mindre hårdt.

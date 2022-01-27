@@ -1,11 +1,12 @@
 ---
-title: &title "Kalorietabel for grønstager: Tabel med kalorier i grøntsager 🥦"
+title: &title "Tabel med kalorier i grøntsager 🥦"
+seo_title: "Hvor mange kalorier er der i grøntsager? 🥦"
 permalink: /kalorietabel-groentsager/
 last_modified_at: 2020-07-29T09:41:09Z
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1581283177406-be33dee67044?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1967&q=80
-  teaser: https://images.unsplash.com/photo-1581283177406-be33dee67044?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1581283177406-be33dee67044?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1581283177406-be33dee67044?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Ernæring
@@ -15,7 +16,6 @@ tags:
   - fødevarer
   - kost
   - ernæring
-classes: wide
 faq:
   - question: "Hvor mange kalorier er der i gulerødder?"
     answer: "1 gulerod på omkring 65 gram indeholder omtrent 25 kalorier fordelt på 0,5 gram protein, 0,3 gram fedt, 4,1 gram kulhydrat og 1,8 gram kostfibre."

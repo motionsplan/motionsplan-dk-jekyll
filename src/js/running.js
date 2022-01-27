@@ -13,14 +13,18 @@ motionsplan.Running = function() {
         return (km * 1000) / l;
     }
 
-    function getKilometersPrHour(m, s, km) {
+    function getKilometersPrHour(km, m, s, hd = 0) {
         // return (km / (s + (m * 60)) * (60 * 60)); // (m * 60 + s) / (60*60)
-        s = s / (60 * 60);
+        hd = hd / 100;
+        s = (s + hd) / (60 * 60);
         m = m / 60;
-        return (km / (s + m));
+
+        let seconds = s + m;
+
+        return (km / seconds);
     }
 
-    function getTimePrKilometer(m, s, km) {
+    function getTimePrKilometer(km, m, s) {
         let totalSek = parseInt(m) * 60 + parseInt(s);
         let totalSekPrKm = totalSek / parseFloat(km);
         let minPrKm = parseInt(totalSekPrKm / 60);
@@ -33,6 +37,11 @@ motionsplan.Running = function() {
         else {
             return minPrKm.toFixed(0) + ":" + rest.toFixed(0);
         }
+    }
+
+    function getMeterPerSecond(km, m, s, hd = 0) {
+        let velocity = getKilometersPrHour(km, m, s, hd);
+        return velocity * 0.2777778;
     }
 
     function convertMinPerKmToKmt(min, sec) {
@@ -48,7 +57,7 @@ motionsplan.Running = function() {
         }
         return (min_out + ":" + sec_out);
     }
-    
+
     function convertMinPerKmToDistanceForDuration(min, sec, duration_minutes, duration_seconds) {
         let velocity = convertMinPerKmToKmt(min, sec);
         return velocity * (duration_minutes + (duration_seconds / 60)) / 60 * 1000;
@@ -63,14 +72,15 @@ motionsplan.Running = function() {
         return (distance * 60) / velocity;
     }
 
-    let publicAPI = {
+   let publicAPI = {
         getKilometersPrHour : getKilometersPrHour,
         getTimePrKilometer : getTimePrKilometer,
         convertKmtToMinPerKm : convertKmtToMinPerKm,
         convertMinPerKmToKmt : convertMinPerKmToKmt,
         convertMinPerKmToDistanceForDuration : convertMinPerKmToDistanceForDuration,
         getDistanceFromTimeAndVelocity : getDistanceFromTimeAndVelocity,
-        getTimeFromDistanceAndVelocity : getTimeFromDistanceAndVelocity
+        getTimeFromDistanceAndVelocity : getTimeFromDistanceAndVelocity,
+        getMeterPerSecond : getMeterPerSecond
     };
 
     return publicAPI;

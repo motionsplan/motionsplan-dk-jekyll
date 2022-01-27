@@ -1,7 +1,7 @@
 let motionsplan = {};
 
 motionsplan.ActivityEqualsSteps = function(h, w) {
-  var opttt = new Array();
+  let opttt = new Array();
   opttt[0] = "<option value='0' class='0'>-</option>";
   opttt[3] = "";
   opttt[3] += "<option value='88.46153846153845' class='3'> Normal </option>";
@@ -236,7 +236,7 @@ motionsplan.ActivityEqualsSteps = function(h, w) {
   opttt[100] += "<option value='100.0' class='100'> Normal </option>";
 
   function change_types() {
-    var id = parseInt($('#sport option:selected').val());
+   let id = parseInt($('#sport option:selected').val());
     $('#type option').remove();
     $(opttt[id]).appendTo('#type');
     $('#type option')[0].selected = "selected";
@@ -247,8 +247,8 @@ motionsplan.ActivityEqualsSteps = function(h, w) {
   }
 
   function calculate_steps() {
-    var result;
-    var st_ste;
+   let result;
+   let st_ste;
     if ($('#st_ste').val() == "" || $('#st_ste').val() == "0") {
       result = "";
     }

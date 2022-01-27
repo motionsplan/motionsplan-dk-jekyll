@@ -199,6 +199,37 @@
       );
     }
   });
+  CMS.registerEditorComponent({
+    // Internal id of the component
+    id: "abbr",
+    // Visible label
+    label: "Abbrevation",
+    // Fields the user need to fill out when adding an instance of the component
+    fields: [
+      {name: 'abbr', label: 'Abbrevation', widget: 'string'},
+      {name: 'meaning', label: 'Meaning', widget: 'string'}
+    ],
+    // Pattern to identify a block as being an instance of this component
+    pattern: /^\*\[(\S*)\]: (.*)\r?\n$/,
+    // Function to extract data elements from the regexp match
+    fromBlock: function(match) {
+      return {
+        abbr: match[1],
+        meaning: match[2]
+      };
+    },
+    // Function to create a text block from an instance of this component
+    toBlock: function(obj) {
+      return '*[' + obj.abbr + ']: ' + obj.meaning;
+    },
+    // Preview output for this component. Can either be a string or a React component
+    // (component gives better render performance)
+    toPreview: function(obj) {
+      return (
+        '*[' + obj.abbr + ']: ' + obj.meaning
+      );
+    }
+  });
   </script>
 
 </body>

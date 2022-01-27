@@ -12,6 +12,7 @@ tags:
   - styrkeløft
   - programanmeldelse
   - begynder
+  - fullbody
 category:
   - Styrketræning
 last_modified_at: 2019-03-10T08:39:32Z
@@ -38,7 +39,9 @@ gallery_content:
 
 Jacob Beermann har skrevet bogen "Stærk" som en introduktion til, hvordan du kan blive rigtig stærk. Beermann tager sit udgangspunkt i squat, bænkpres og dødløft, som er disciplinerne i styrkeløft. Bogen er en fremragende introduktion til styrketræning, og du får et 16 ugers gennemarbejdet træningsprogram og adgang til en eksklusiv Facebookgruppe med i købet.
 
-Jacob Beermann som også står bag [maxer.dk](https://maxer.dk/) har skrevet en rigtig god indføring til styrketræning og [styrkeløft]({% link _posts/2019-11-19-regler-styrkeloft.md %}). Du får en rigtig grundig introduktion til, hvordan du kan bygge din styrketræning op, og du får en grundig indføring i de tekniske aspekter af squat, bænkpres og dødløft. Jacob Beermann driver også podcasten [Stærk & Smertefri, som du kan lytte til her](https://maxer.dk/staerk-smertefri/).
+Jacob Beermann som også står bag [maxer.dk](https://maxer.dk/) har skrevet en rigtig god indføring til styrketræning og [styrkeløft]({% link _posts/2019-11-19-regler-styrkeloft.md %}). 
+
+Du får en rigtig grundig introduktion til, hvordan du kan bygge din styrketræning op, og du får en grundig indføring i de tekniske aspekter af squat, bænkpres og dødløft. Jacob Beermann driver også podcasten [Stærk & Smertefri, som du kan lytte til her](https://maxer.dk/staerk-smertefri/).
 
 {% include gallery caption="_No brain. No gain._ Dette slogan bruger Jacob Beermann ofte. Træningen bliver ikke bedre, fordi den er hårdere. Planlægning gør træningen smartere. Beermann sælger også budskabet på sine [t-shirts](https://shop.maxer.dk/products/no-brain-no-gain)." %}
 
@@ -72,7 +75,7 @@ Når du har skimmet indholdsfortegnelsen til Beermanns Stærk, så får du forme
    - Placebo og nocebo
    - Calm shit down, build shit back up
 4. Løfteteknik
-   - Hvorfor skal vi arbejde med teknik=
+   - Hvorfor skal vi arbejde med teknik?
    - Det er tanken, der tæller
    - Sådan arbejder jeg med løfteteknik
    - Find vej
@@ -85,15 +88,15 @@ Når du har skimmet indholdsfortegnelsen til Beermanns Stærk, så får du forme
 5. Mental styrke
    - Tag ansvar for dit liv
    - Sprint eller maraton
-   - Fokuseér på det du faktisk kan påvirke
+   - Fokusér på det du faktisk kan påvirke
    - Jagt forbedringer
    - Kend dig selv og dine tendenser
    - Sæt livet i perspektiv
 6. Alt det udonom træningen
    - Kosten er dit brændstof
-   - Søvn
+   - [Søvn](/soevn/)
    - Alkohol
-   - Stress
+   - [Stress]({% link _posts/2021-11-10-stress.md %})
    - Bogens slutning er din start
 7. Træningsprogram
 
@@ -103,7 +106,7 @@ Når du har skimmet indholdsfortegnelsen til Beermanns Stærk, så får du forme
 
 Der er mange måder at blive stærk på. Jeg har beskrevet et eksempel på [Reactive Training Systems]({% link _posts/2019-10-24-rts-training-intermediate.md %}) og [Texas Method]({% link _posts/2019-10-24-texas-method.md %}), men der er virkelig mange programmer og forslag til at blive stærk.
 
-Jacob Beermann skruer frekvensen op ud fra **specificitetsprincippet**, fordi man bliver bedre til det, man træner. Fokus er styrkeløft, og derfor giver det god mening at man hver dag træner de forskellige løft. I Beermanns program træner man squat, bænkpres og dødløft hver gang med forskellige variationer. Programmet findes til 3, 4 eller 5 dage.
+Jacob Beermann skruer frekvensen op ud fra **specificitetsprincippet**, fordi man bliver bedre til det, man træner. Fokus er styrkeløft, og derfor giver det god mening, at man hver dag træner de forskellige løft. I Beermanns program træner man squat, bænkpres og dødløft hver gang med forskellige variationer. Programmet findes til 3, 4 eller 5 dage.
 
 **Intensiteten** i programmet er imidlertid skruet lidt ned. Det er gjort bevidst af tre grunde:
 
@@ -117,18 +120,18 @@ I programmet er der typisk 5+ sæt i de enkelte løft, hvilket også tager sin t
 
 Programmet er et **procentbaseret styrketræningsprogram**, hvor du starter med at finde din [1RM-max]({% link _posts/2019-10-16-1rm-beregner.md %}) ud fra en 5RM test.
 
-[Køb Stærk hos Saxo](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_indbundet_9788771801835){:rel="sponsored nofollow noopener" class="btn btn--large btn--danger" } eller hos [Bodyman](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=20604&htmlurl=https://www.bodyman.dk/shop/staerk-jacob-beermann-36182p.html){:rel="sponsored nofollow noopener" class="btn btn--large btn--info" }
+Køb Stærk hos [Saxo](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_indbundet_9788771801835){:rel="sponsored nofollow noopener" class="btn btn--large btn--danger" } eller hos [Bodyman](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=20604&htmlurl=https://www.bodyman.dk/shop/staerk-jacob-beermann-36182p.html){:rel="sponsored nofollow noopener" class="btn btn--large btn--info" }
 
 Programmet er delt op i to faser, der hver tager 8 uger:
 
 1. **Grundtræning**. Fokus er på relativt stor volumen, hvor uge 1 starter med 5-6 sæt med 6-8 reps i de forskellige løft. Mandag er typisk konkurrenceløftene squat, bænkpres og dødløft, mens de andre dage er variationer af løftene. Grundtræningen er i 8 uger, hvor der i uge 7 køres ned mo 5-6 sæt med 4-6 reps. I uge 8 laves der mandag en ny tung 5'er, som bliver udga ngspunktet for opkøringsfasen.
 2. **Opkøring**. Fokus er på at blive mere specifik mod at kunne lave en 1RM i de tre løft. Det er mere blandet med, hvor mange sæt og gentagelser, hvilket kan være alt fra 5-12 sæt med 1-8 reps. Frem mod uge 8 bliver det mere og mere specifikt med færre reps.
 
-Træningsprogrammet tager typisk mellem 1-2 timer, da der er rigtig mange sæt og gentagelser, og du skal have lidt pause undervejs. I betydnelsen af programmet er vægtene ikke så tunge, og der kan du lave pauserne lidt kortere, mens du senere får brug for lidt længere pauser.
+Træningsprogrammet tager typisk mellem 1-2 timer, da der er rigtig mange sæt og gentagelser, og du skal have lidt pause undervejs. I begyndelsen af programmet er vægtene ikke så tunge, og der kan du lave pauserne lidt kortere, mens du senere får brug for lidt længere pauser.
 
-For hver dag i styrketræningsprogrammet er det angivet, hvilke muskelgrupper du med fordel kan træne som suppleringsøvelser. Det er en rigtig god ide i hvert fald at afsætte lidt tid i programmet til de små skuldermuskler og lidt aktivt horisontalt træk, som forskellige [rows og rows-varianter]({% link _posts/2020-07-06-rows.md %}), men det kan også anbefales at lave nogle [unilaterale øvelser]({% link _posts/2010-03-09-unilateral-traening.md %}), da programmet fokuserer meget på bilaterale øvelser.
+For hver dag i styrketræningsprogrammet er det angivet, hvilke muskelgrupper du med fordel kan træne som suppleringsøvelser. Det er en rigtig god ide i hvert fald at afsætte lidt tid i programmet til de små skuldermuskler og lidt aktivt horisontalt træk, som forskellige [træk og rows-varianter]({% link _posts/2020-07-06-rows.md %}), men det kan også anbefales at lave nogle [unilaterale øvelser]({% link _posts/2010-03-09-unilateral-traening.md %}), da programmet fokuserer meget på bilaterale øvelser.
 
-Den overordnede progression i programmet giver en god ide om, hvordan programmet er bygget op. Alle detaljerne om hvordan programmet er skruet sammen for de enkelte variationer, og hvad det nøjagtigt betyder for antallet af sæt og gentagelser, må du købe bogen for at finde ud af.
+Den overordnede progression i programmet giver en god ide om, hvordan programmet er bygget op. Hvis du vil kende alle detaljerne om, hvordan programmet er skruet sammen for de enkelte variationer, og hvad det nøjagtigt betyder for antallet af sæt og gentagelser, må du købe bogen.
 
 ### Grundtræning
 
@@ -156,13 +159,13 @@ Den overordnede progression i programmet giver en god ide om, hvordan programmet
 | 15 | 3 @ 72% |
 | 16 | Ny 1RM test |
 
-Jeg har indtryk af, at mange undrer sig over, at du i uge 5, hvor du begynder at køre 5'ere ligger noget under vægten fra din 5RM, du har lavet i den første uge.
+Jeg har indtryk af, at mange undrer sig over, at vægten i uge 5, hvor man begynder at køre 5'ere ligger noget under vægten fra din 5RM, du har lavet i den første uge.
 
-Beermanns pointe med det er netop, at man kan fokusere på perfekt teknik, og så længe du sørger for at _intended barspeed_ er høj, så kan du pga. den højfrekvente træning stadig have styrkefremgang, selvom du løfter under din maksimale styrke.
+Beermanns pointe med denne opbyging er, at man kan fokusere på perfekt teknik. Når du fokuserer på en høj _intended barspeed_, så kan du pga. den højfrekvente træning stadig have styrkefremgang, selvom du løfter under din maksimale styrke.
 
 Når du har kørt en cyklus, så kan du egentlig bare starte på programmet igen med nye 5RM-tests.
 
-### Øvelser i programmet
+## Øvelser i programmet
 
 I Stærk bruges naturligvis de tre store styrkeløft; squat, bænkpres og dødløft.
 
@@ -179,9 +182,53 @@ Programmet udnytter [forskellige variationer af squat, bænkpres og dødløft]({
 - Dødløft på klods.
 - Stivbenet dødløft.
 
+## Suppleringsøvelser
+
+I træningsprogrammet er der angivet 3x12 i forskellige suppleringsøvelser, som du kan lave efter de primære løft. Suppleringsøvelserne til de forskellige dage er baseret på generelle kategorier for muskelgrupper. I bogen kan du læse nogle af Jacob Beermans forslag til suppleringsøvelser.
+
+Jeg har her skrevet nogle forslag til øvelser, som du kunne vælge til suppleringsøvelserne, men du skal naturligvis vælge nogle øvelser, som passer til netop dine mål og dine programmer.
+
+Du kan fx vælge 1-3 suppleringsøvelser alt efter dine mål.
+
+### Ryg og biceps
+
+- Pullups
+- Biceps curls
+
+Du kan finde endnu flere [rygøvelser](/rygoevelser/) og [armøvelser til biceps](/arme-triceps-biceps/).
+
+### Bryst, skulder og triceps
+
+- Armstrækninger
+- Laterals
+- Dips
+
+Du kan finde endnu flere [brystøvelser](/brystoevelser/), [skulderøvelser](/skulderoevelser/) og [armøvelser til triceps](/arme-triceps-biceps/).
+
+
+### Ben, baller og mave
+
+- Bulgarian split squat
+- Hanging leg raises
+
+Du kan finde endnu flere [balleøvelser](/balleoevelser/), [benøvelser](/benoevelser/) og [maveøvelser](/maveoevelser/).
+
+### Blandet overkrop
+
+- TRX Y
+- Body rows
+- One arm rows
+- Face pulls
+
+Du kan finde endnu flere [rygøvelser](/rygoevelser/), [armøvelser til biceps](/arme-triceps-biceps/), [brystøvelser](/brystoevelser/), [skulderøvelser](/skulderoevelser/) og [armøvelser til triceps](/arme-triceps-biceps/).
+
 ## Konklusion
 
-Jacob Beermann er en af de personlige trænere i Danmark, der er mest gavmild med sin viden. Beermann har bl.a. lavet [maxer.dk](https://maxer.dk), som jeg også nævner på listen over de [bedste danske blogs]({% link _posts/2020-07-31-bedste-danske-blogs.md %}), hvor han deler et væld af gratis indhold af virkelig høj kvalitet. Jeg fremhæver også Beermanns Stærk & Smertefri på listen over de [bedste danske podcasts]({% link _posts/2020-08-03-podcasts.md %}) og han har også en af de [bedste, følgeværdige Instagram-profiler]({% link _posts/2020-09-11-bedste-instagram.md %}).
+Jacob Beermann er en af de personlige trænere i Danmark, der er mest gavmild med sin viden. Beermann har bl.a. lavet [maxer.dk](https://maxer.dk), som jeg også nævner på listen over de [bedste danske blogs]({% link _posts/2020-07-31-bedste-danske-blogs.md %}), hvor han deler et væld af gratis indhold af virkelig høj kvalitet.
+
+Jeg fremhæver også Beermanns Stærk & Smertefri på listen over de [bedste danske podcasts]({% link _posts/2020-08-03-podcasts.md %}) og han har også en af de [bedste, følgeværdige Instagram-profiler]({% link _posts/2020-09-11-bedste-instagram.md %}).
+
+Hvis du er på udkig efter et [gratis træningsprogram, så tjek vores oversigt]({% link _pages/trainingprograms-archive.md %}).
 
 ## Køb Stærk
 

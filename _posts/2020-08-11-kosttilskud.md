@@ -4,8 +4,8 @@ permalink: /kosttilskud/
 last_modified_at: 2020-07-24T09:41:09Z
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1579722822280-a3d601518cc9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=80
-  teaser: https://images.unsplash.com/photo-1579722822280-a3d601518cc9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1579722822280-a3d601518cc9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1579722822280-a3d601518cc9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Ernæring
@@ -24,8 +24,6 @@ Bodylab skriver om [de bedste kosttilskud til træning](https://www.bodylab.dk/s
 
 Men det bliver hurtigt vanskeligt at navigere i denne jungle af anbefalinger af kosttilskud, når det er producenterne selv, der sælger dem. Derfor kigger man måske efter andre kilder, og Igoform.dk [nævner de 5 af de bedste kosttilskud for begyndere](https://igodform.dk/5-af-de-bedste-kosttilskud-for-begyndere-det-har-aldrig-vaeret-lettere-at-vaelge/) og Sublab lader som om de har en videnskabelig laboratoriumtilgang til analysen af kosttilskud og [foreslår de 8 bedste kosttilskud til træning](https://suplab.dk/).
 
-Anders Nedergaard har været med til at opstarte [Candidlab](https://candidlab.com/da/), som rent faktisk har haft den ambition at efterprøve kosttilskud videnskabeligt, men det ser ud til, at det er gået lidt i stå igen.
-
 _Husk også at Motionsplan har affiliate links, og der er også affiliate links i denne blogpost. Jeg er imidlertid også nærrig, så jeg gider kun købe det, der rent faktisk virker._
 
 ## Hvornår har jeg brug for kosttilskud?
@@ -42,11 +40,14 @@ Når Helsam lover at hjælpe med [hvilke kosttilskud man bør tage](https://www.
 
 ## Hvilke kosttilskud virker?
 
-Fisker Performance foreslår følgende [pyramide over kosttilskud, som virker](https://www.fisker-performance.dk/podcast/kosttilskud-med-dokumenteret-effekt), men de lægger også meget kraftig vægt på, at du skal have styr på din grundlæggende kost, inden du går i gang med kosttilskud.
+Styrk foreslår følgende [pyramide over kosttilskud, som virker](https://www.fisker-performance.dk/podcast/kosttilskud-med-dokumenteret-effekt), men de lægger også meget kraftig vægt på, at du skal have styr på din grundlæggende kost, inden du går i gang med kosttilskud.
 
-{% include figure image_path="https://www.fisker-performance.dk/wp-content/uploads/2019/06/Kostilskudspyramide_Insta-01.png" caption="Pyramide over kosttilskud som rent faktisk virker. Kilde: [Fisker Performance](https://www.fisker-performance.dk/podcast/kosttilskud-med-dokumenteret-effekt)" alt="Pyramide over kosttilskud fra Fisker Performance" %}
+- Proteinpulver
+- Kreatin
+- Koffein
+- D-Vitamin
 
-Jeg har valgt at starte rækkefølgen af kostilskud ud fra ovenstående pyramide, fordi Fisker Performance ikke skal tjene penge på nogle særlige produkter, hvilket gør, at de har kigget på evidensen bag ved de enkelte kosttilskud i stedet for at se på indtjening enten ved direkte salg af kosttilskud eller gennem affiliate salg fra en hjemmeside.
+Jeg har valgt at starte rækkefølgen af kostilskud ud fra ovenstående betragtninger, fordi Styrk ikke skal tjene penge på nogle særlige produkter, hvilket gør, at de har kigget på evidensen bag ved de enkelte kosttilskud i stedet for at se på indtjening enten ved direkte salg af kosttilskud eller gennem affiliate salg fra en hjemmeside.
 
 Det ser ud til, at Nikolaj Bach har revideret sin liste over kosttilskud i forhold til en [artikel](https://www.bodylab.dk/shop/kosttilskudshierarkiet-2894c1.html), han har skrevet for [Bodylab](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/kosttilskudshierarkiet-2894c1.html){: rel='sponsored nofollow noopener' }, hvor både fiskeolie og Leucin havde fundet vejen ind i top 5.
 
@@ -128,7 +129,7 @@ Den billigste måde at få koffein på er formentlig som et rent kosttilskud. Du
 
 En direkte præstationsfremmende evidensbaseret dosis kræver nok mere, men den individuelle tolerance er meget forskellige.
 
-Måske kan 5 mg pr. kilo kropsvægt være en dosis, men du skal ikke starte der, men finde din egen
+Måske kan 5 mg pr. kg kropsvægt være en dosis, men du skal ikke starte der, men finde din egen
 
 > Man skal passe på med at bruge koffein som lappeløsning, fordi du ikke får restitueret ordentligt.
 
@@ -203,7 +204,7 @@ Casper Jespersen, personlig træner, kalder [Probiotika for det oversete kosttil
 
 Probiotika består af tarmbakterier. De er afgørende for vores fysiske og mentale helbred.
 
-Et velfungerende miljø i tarmene kan være med til at modvirke: Kronisk træthed, depression, hovedpine, dårligt immunforsvar, søvnproblemer, IBS (Irriteret tarm), ledsmerter og kronisk inflammation. Så hvis du døjer med nogle af disse ting i din hverdag, så kan du overveje at tage Probiotika.
+Et velfungerende miljø i tarmene kan være med til at modvirke: Kronisk træthed, [depression]({% link _posts/2021-11-10-phq-9-depression.md %}), hovedpine, dårligt immunforsvar, søvnproblemer, IBS (Irriteret tarm), ledsmerter og kronisk inflammation. Så hvis du døjer med nogle af disse ting i din hverdag, så kan du overveje at tage Probiotika.
 
 Bakteriebalancen i tarmen kan forskubbes gennem dårlig kost, fysisk inaktivitet eller vedvarende stress.
 

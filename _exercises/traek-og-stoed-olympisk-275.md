@@ -1,7 +1,6 @@
 ---
 title: "Frivend og stød, olympisk"
-excerpt: "Træk og stød, olympisk"
-instructions: "Træk og stød, olympisk"
+instructions: ""
 permalink: /oevelse/traek-og-stoed-olympisk/
 redirect_from: /node/275
 id: 275
@@ -12,8 +11,8 @@ tags:
   - helkropsøvelse
   - vægtstang
 categories: []
-training_type: 
-training_focus: 
+training_type: []
+training_focus:
   - helkropsøvelse
 equipment:
   - vægtstang
@@ -43,5 +42,4 @@ gallery:
     title: "Frivend og stød, olympisk"
 last_modified_at: 2011-04-16T07:46:37Z
 ---
-
-Træk og stød, olympisk
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}

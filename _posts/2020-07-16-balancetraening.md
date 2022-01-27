@@ -1,12 +1,12 @@
 ---
 title: &title "Balancetræning 🤸: Effektiv træning af din balance"
-seo_title: "Balancetræning - Alt om balance og balanceøvelser [2021] »"
+seo_title: "Balancetræning: Alt om balance og balanceøvelser [2022]"
 description: "Balancetræning bør være en del af din træning. Vi har kigget på, hvad balance er, og hvordan du træner din balance mest effektivt med balanceøvelser?"
 permalink: /balance/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/uploads/1412533519888a485b488/bb9f9777?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
-  teaser: https://images.unsplash.com/uploads/1412533519888a485b488/bb9f9777?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/uploads/1412533519888a485b488/bb9f9777?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/uploads/1412533519888a485b488/bb9f9777?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 tags:
   - balance
@@ -187,7 +187,7 @@ Når du har lavet ovenstående statisk, fx med 15-30 sekunder i alle stillingern
 
 ### Statisk balance: Star Excursion Balance Test
 
-{% include video provider="youtube" id="HsLZV7nTE7g" %}
+{% include video provider="youtube" id="4GMzE7NV3W0" %}
 
 Hvis du vil teste din balance med [Star Excursion Balance Test](https://www.scienceforsport.com/star-excursion-balance-test/), så skal du bruge et stjernemønster på gulvet, der ser sådan her ud:
 

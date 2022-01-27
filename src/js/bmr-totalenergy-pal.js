@@ -32,7 +32,7 @@ motionsplan.TotalEnergyExpenditurePAL = function(bmr, pal, moderate_leisure_acti
         return pal;
     }
 
-    var publicAPI = {
+   let publicAPI = {
         getRestingEnergyExpenditure: getRestingEnergyExpenditure,
         getTotalEnergyExpenditure: getTotalEnergyExpenditure,
         getPhysicalActivityLevel: getPhysicalActivityLevel

@@ -3,27 +3,32 @@ title: &title "Hvordan træner jeg Rate of Force Development (RFD)?"
 permalink: /rate-of-force-development/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1428790067070-0ebf4418d9d8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=80
-  teaser: https://images.unsplash.com/photo-1428790067070-0ebf4418d9d8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1428790067070-0ebf4418d9d8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1428790067070-0ebf4418d9d8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
   alt: "Photo by bantersnaps on Unsplash"
 category:
   - Eksplosivitet
 tags:
   - test
-last_modified_at: 2020-10-13T23:14:14Z
+last_modified_at: 2021-12-13T23:14:14Z
 toc: true
+faq:
+  - question: Hvad er rate of force development (RFD)?
+    answer: Rate of force development (RFD) er den hastighed en kraft udvikles med. I forbindelse med styrketræning er RFD et mål for, hvor hurtigt du kan udvikle kraft, og det har stor betydning for, hvor eksplosiv du kan være. Rate of Force development måles i Newton per sekund.
+  - question: Hvordan kan jeg teste Rate of Force Development?
+    answer: En meget brugt test er en [IMTP-test](/imtp-test/) på en kraftplatform. Du trækker i en stang, som er fastgjort, mens kraftplatformen måler den kraft du trækker med.
 ---
 
-Rate of force development (RFD) er et væsentligt parameter i forbindelse med styrketræning, træning af eksplosivitet og sprint. Her kigger jeg på, hvad RFD er, og hvordan du træner rate of force developement.
+Rate of force development (RFD) er et væsentligt parameter i forbindelse med styrketræning, træning af eksplosivitet og sprint. Her kigger jeg på, hvad RFD er, og hvordan du træner rate of force developement?
 
 Hvad er rate of force development (RFD)? **Rate of force development (RFD) er den hastighed en kraft udvikles med. I forbindelse med styrketræning er RFD et mål for, hvor hurtigt du kan udvikle kraft, og det har stor betydning for, hvor eksplosiv du kan være. Rate of Force development måles i Newton per sekund.**
 
-I rigtig mange idrætsgrene har rate of force development en stor betydning for præstationen. RFD beskriver den hastighed, som en kraft kan udvikles ved. Hvis du forbedrere din RFD, så kan du altså lave hurtigere og mere eksplosive bevægelser. Derfor kan de fleste atleter og sportsudøvere med fordel træne evnen til at udvikle kraft hurtigt.
+I rigtig mange idrætsgrene har _rate of force development_ en stor betydning for præstationen. RFD beskriver den hastighed, som en kraft kan udvikles ved. Hvis du forbedrere din RFD, så kan du altså lave hurtigere og mere eksplosive bevægelser. Derfor kan de fleste atleter og sportsudøvere med fordel træne evnen til at udvikle kraft hurtigt.
 
 Du kan se en illustration af en kraftkurve i forbindelse mellem et løft.
 
-{% include figure image_path="https://athleticperformanceacademy.co.uk/wp-content/uploads/2012/10/80_what_i4.gif" caption="Sammenhængen mellem forskellige typer styrke, hvor 'rate of force development' er nummer 3 i figuren. Kilde: [athleticperformanceacademy.co.uk](https://athleticperformanceacademy.co.uk/2014/07/the-difference-between-power-and-rate-of-force-development/)." %}
+{% include figure image_path="https://athleticperformanceacademy.co.uk/wp-content/uploads/2012/10/80_what_i4.gif" caption="Sammenhængen mellem forskellige typer styrke, hvor 'rate of force development' er nummer 3 i figuren. Kilde: [athleticperformanceacademy.co.uk](https://athleticperformanceacademy.co.uk/)." %}
 
 Typisk defineres RFD som evnen til at udvikle kraft inden for de første 200 ms af en kraftudfoldelse. Du kan se det illustreret i figuren ovenfor som punkt nummer 3.
 
@@ -64,10 +69,10 @@ Jeg er selv blevet ret interesseret i [velocity based training]({% link _posts/2
 
 ## Hvordan kan jeg teste Rate of Force Development?
 
-En meget brugt test er en IMTP-test på en kraftplatform. Du trækker i en stang, som er fastgjort, mens kraftplatformen måler den kraft du trækker med.
+En meget brugt test er en [IMTP-test](/imtp-test/) på en kraftplatform. Du trækker i en stang, som er fastgjort, mens kraftplatformen måler den kraft du trækker med.
 
 ## Hvad sker der med Rate of Force Development med alderen
 
-[Henning Langberg](http://www.henninglangberg.dk/styrketraening/eksplosiv-muskelstyrke-rfd/) skriver, at det er vanskeligere at træne RFD, når du bliver ældre. Det er imidlertid stadig virkelig vigtigt, at du kan udvikle kraft hurtigt for at undgå at falde og miste balancen. Derfor bør aldre også fokusere på at udvikle kraft hurtigt, når de træner styrketræning.
+[Henning Langberg](http://web.archive.org/web/20210305220145/http://www.henninglangberg.dk/styrketraening/eksplosiv-muskelstyrke-rfd/){: rel="nofollow noopener" } skriver, at det er vanskeligere at træne RFD, når du bliver ældre. Det er imidlertid stadig virkelig vigtigt, at du kan udvikle kraft hurtigt for at undgå at falde og miste balancen. Derfor bør aldre også fokusere på at udvikle kraft hurtigt, når de træner styrketræning.
 
 *[RFD]: Rate of Force Development

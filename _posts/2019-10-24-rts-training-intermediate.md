@@ -4,14 +4,17 @@ permalink: /rts-generalized-intermediate/
 excerpt: "Mike Tusherer fra Reactive Training Systems har lavet et eksempel på et træningsprogram med brug af RPE og fatigue percents."
 language: da
 header:
-  overlay_image: https://articles.reactivetrainingsystems.com/wp-content/uploads/2015/11/seminar-photos-34-of-98.jpg
-  teaser: https://articles.reactivetrainingsystems.com/wp-content/uploads/2015/11/seminar-photos-34-of-98.jpg
+  overlay_image: https://images.unsplash.com/photo-1574680096145-d05b474e2155?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1574680096145-d05b474e2155?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
 category:
   - Styrketræning
+  - Træningsprogrammer
 tags:
   - program
   - træningsprogram
   - programanmeldelse
+  - fullbody
+  - styrketræning
 last_modified_at: 2019-10-24T23:14:14Z
 toc: true
 feature_row:
@@ -20,12 +23,14 @@ feature_row:
     title: "Stærk - Jacob Beermann"
     excerpt: "Kunne du godt tænke dig at blive rigtigt stærk? Det kræver den rette hjælp, og den kan du heldigvis få af Jacob Beermann med bogen \"Stærk\". Her får du en god og grundig introduktion til hvordan man styrketræner bedst."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835"
-    btn_label: "Læs mere"
+    btn_label: "Tjek prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
 ---
 
-Mange programmer er baseret på procenter af 1RM og ordinerer den samme volumen til alle. Mike Tuschscher fra Reactive Training Systems har lavet et eksempel på et program, der autoregulering ved at basere programmet på RPE og _fatigue percents_.
+Mange programmer er baseret på procenter af 1RM og ordinerer den samme volumen til alle. Mike Tuschscher fra Reactive Training Systems har lavet et eksempel på et træningsprogram til styrkeløft, der autoregulering ved at basere programmet på RPE og _fatigue percents_.
+
+Programmet er målrettet den øvede løfter. Vi har samlet en [række andre træningsprogrammer til inspiration]({% link _pages/trainingprograms-archive.md %}), hvis du vil have et program som er procentbaseret eller lidt mere enkelt i opbygningen.
 
 Mike Tusherer og Reactive Training Systems bruger ikke selv længere _fatigue percents_ i deres programmering med deres klienter. De bruger i stedet TRAC systemet, du også kan bruge på deres hjemmeside til at TRAC'e restitutionen. Hvis du ikke har en træner, kan _fatigue percents_ stadig i mine øjne være et udemærket redskab til at lave en _autoreguleret træning_, selvom volumen på denne måde vil svinge lidt op og ned.
 {: .notice .notice--info }
@@ -45,7 +50,7 @@ Volumen
 Træthed (fatigue)
 : Træthed er den mængde stress, vi har akkumuleret fra træningen. Altså den mængde træthed vi senere skal restituere fra.
 
-Når man kigger på den enkelte løfter, er det altså mest interessant at kigge på, hvor meget træthed en træning har forårsaget. Derfor bliver volumen et værktøj til at skabe træthed, snarere end den paramter der driver selve fremgangen i træningen. Træthed vil også ophobe sig hurtigere på nogle dage end på andre, og det er afhængigt af kost, søvn, restitution og andet arbejde.
+Når man kigger på den enkelte løfter, er det altså mest interessant at kigge på, hvor meget træthed en træning har forårsaget. Derfor bliver volumen et værktøj til at skabe træthed, snarere end den paramter der driver selve fremgangen i træningen. Træthed vil også ophobe sig hurtigere på nogle dage end på andre, og det er afhængigt af kost, [søvn](/soevn/), restitution og andet arbejde.
 
 Så _readiness_ og at den samme volumen ikke skaber den samme træthed for den enkelte altid, gør forudplanlagte programmer sårbare. I stedet kan vi regulere de enkelte træninger undervejs, fx ved at bruge RPE til at styre træningen.
 
@@ -58,7 +63,7 @@ Efter 2016 programmerer Mike Tuschscher selv med et fast antal af sæt til sine 
 
 Formålet med RPE er, at man let kan kommunikere hvor hårdt et sæt var. RPE kan derfor bruges til at fortælle om vi træner i den korrekte intensitetszone i forhold til det, vi har planlagt. Så i stedet for at man får en fast procent baseret på 1RM, men som måske alligevel ikke passer til den enkeltes løfters _readiness_ i dag, så kan man ordinere reps og RPE.
 
-Normalt vil din 5RM være omkring 85% af din 1RM, og det vil man ofte få at vide, at man skal løfte i dag. I stedet kan man fortælle løfteren, at de skal arbejde sig op til x5@10. Så vil de løftede kilo justere sig ind ift. løfterens nuværende styrke (1 RM kan jo have rykket sig siden sidste måling) og dagens _readiness_ (hvor man kan være frisk eller træt).
+Normalt vil din 5RM være omkring 85% af din 1RM, og det vil man ofte få at vide, at man skal løfte i dag. I stedet kan man fortælle løfteren, at de skal arbejde sig op til x5@10. Så vil de løftede kg justere sig ind ift. løfterens nuværende styrke (1 RM kan jo have rykket sig siden sidste måling) og dagens _readiness_ (hvor man kan være frisk eller træt).
 
 Træningen er altså autoreguleret, så dagens vægt er afgjort af, hvad du kan løfte netop på denne dag. Programmet tilpasser sig altså dig i stedet for, at du skal tilpasse dig programmet.
 
@@ -114,9 +119,9 @@ Det interessante er jo så, hvor meget træthed man kan akkummulere pr. uge og s
 | 0%              | Deload       | This is a straight up deload week                                          |
 
 
-## Træthed i de enkelte øvelserne
+## Træthed i de enkelte øvelser
 
-Mike Tuschscher laver træning til _powerlifting_, så derfor går han ud fra i sine betragtning, at man har tre hovedøvelser i hver træning. Man kan sagtens arbejde med forskellig træthedsgrad i de enkelte øvelser, men nedenstående tabel kan give en ide om, hvor lang tid det tager at restituere fra en give træthedsprocent.
+Mike Tuschscher laver træning til _powerlifting_, og han ud fra, at man har to-tre hovedøvelser i hver træning. Man kan sagtens arbejde med forskellig træthedsgrad i de enkelte øvelser, men nedenstående tabel kan give en ide om, hvor lang tid det tager at restituere fra en given træthedsprocent.
 
 | Individual exercise fatigue  ||
 | Fatigue percent | Time limit  |
@@ -129,7 +134,7 @@ Mike Tuschscher laver træning til _powerlifting_, så derfor går han ud fra i 
 
 ## Træthedsprocent og pauser i træningen
 
-Hvis man arbejder med træthedsprocenter, så betyder det naturligvis en del, hvor lange pauser man har mellem sættene. I _powerlifting_-træning opererer man ofte med relativt lange pauser, men for at det skal give mening at bruge træthedsprocenterne så skal den enkelte øvelse inklusive alle opvarmningssæt altså ikke tage længere en følgende tommelfingerregler.
+Hvis man arbejder med træthedsprocenter, så betyder det naturligvis en del, hvor lange pauser man har mellem sættene. I _powerlifting_-træning opererer man ofte med relativt lange pauser, men for at det skal give mening at bruge træthedsprocenterne, så skal den enkelte øvelse inklusive alle opvarmningssæt altså ikke tage længere end følgende tommelfingerregler.
 
 | Time limits guidelines          ||
 | Fatigue percent | Time limit     |
@@ -146,7 +151,7 @@ Jeg bruger selv [RTS App'en](/rts-app/) til at planlægge og logge min træning.
 
 ## RTS Generalized Intermediate Program
 
-Mike Tuschscher har skrevet et eksempelprogram, der passer til David: en letøvet løfter, som går fra at træne tre gange om ugen til fire. David er svagest i bunden af alle sine konkurrenceløft.
+Mike Tuschscher har skrevet et eksempel-program, der passer til David: en letøvet løfter, som går fra at træne tre gange om ugen til fire. David er svagest i bunden af alle sine konkurrenceløft.
 
 Du kan læse en rigtig fin [anmeldelse på powerliftingtowin.com](https://www.powerliftingtowin.com/rts-generalized-intermediate-program/).
 {: .notice .notice--success }
@@ -190,5 +195,3 @@ Hvis du har mod på at kaste dig ud i RPE-baseret træning, så kan jeg kun anbe
 ## Referencer
 
 - [All About Autoregulation](https://www.powerliftingtowin.com/autoregulation/)
-
-## Noter

@@ -54,7 +54,7 @@ motionsplan.BMRSchofield = function(sex, age, weight) {
         }
     }
 
-    var publicAPI = {
+   let publicAPI = {
         getBasicMetabolicRate: getBasicMetabolicRate
     };
 

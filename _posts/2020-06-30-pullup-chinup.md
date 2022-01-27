@@ -1,6 +1,6 @@
 ---
 title: &title "Pull ups vs chin ups: Hvad er forskellen på kropshævninger?"
-seo_title: "Chin ups og pull ups - Alt om forskelle i greb og muskler »"
+seo_title: "Chin ups og pull ups: Alt om forskelle i greb og muskler"
 description: "Chin ups og pull ups er to typer kropshævninger. Få svar på forskelle og ligheder i greb, muskler og bevægelser, når du laver en chinup og en pullup."
 permalink: /chinup-vs-pullup/
 language: da

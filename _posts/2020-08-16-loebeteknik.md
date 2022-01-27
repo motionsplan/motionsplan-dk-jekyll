@@ -4,8 +4,8 @@ permalink: /loebeteknik/
 last_modified_at: 2020-08-15T09:41:09Z
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1512941675424-1c17dabfdddc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=80
-  teaser: https://images.unsplash.com/photo-1512941675424-1c17dabfdddc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1512941675424-1c17dabfdddc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1512941675424-1c17dabfdddc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Løb
@@ -15,6 +15,7 @@ tags:
   - løbstil
   - løbetræning
   - løbeteknik
+  - løb
 breadcrumbs: true
 ---
 
@@ -34,7 +35,7 @@ Barton (2016) forsøgte at bygge en bro mellem det teoretiske og praktiske felt.
 
 Lad os kigge på de forskellige faktorer, Barton identificerede.
 
-## Overstride og kadence
+## Overstride og løbekadence
 
 Eksperterne ser ud til at være enige om, at det er hensigtsmæssigt at få fodisættet tættere på kroppens tyngdepunkt i stedet for at _overstride_, hvilket viser sig som en meget udtalt hællanding med fodisættet foran knæet.
 
@@ -42,7 +43,7 @@ En simpel og veldokumenteret måde at forbedre løbemekanikken i forhold til _ov
 
 Du kan se et eksempel i nedenstående figur på en løber, der laver et _overstride_ og en løber, der har et fodisæt tættere på tyngdepunktet.
 
-{% include figure image_path="https://www.researchgate.net/profile/Richard_Souza/publication/284013197/figure/fig8/AS:316757077184518@1452532180576/Overstriding-measured-at-loading-response-A-A-runner-demonstrating-normal-stride.png" caption="(A) Løberen viser en normal _stride mechanic_ og (B) en løber der løber med _overstride_, hvilket kan karakteriseres som en vertikal linje gennem den laterale maleol er foran løberens hofte. Billede fra [Souza (2015)](https://www.researchgate.net/publication/284013197_An_Evidence-Based_Videotaped_Running_Biomechanics_Analysis)" %}
+{% include figure image_path="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4714754/bin/nihms751046f8.jpg" caption="(A) Løberen viser en normal _stride mechanic_ og (B) en løber der løber med _overstride_, hvilket kan karakteriseres som en vertikal linje gennem den laterale maleol er foran løberens hofte. Billede fra [Souza (2016)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4714754/)" %}
 
 Hvis du vil ændre din kadence, så er den optimale ændring omkring 5-10% for at sikre, at du ikke ender med at blive skadet med en for stor frekvensændring. Rigtig mange løbere kan med fordel tage “kortere, hurtigere skridt”.
 
@@ -96,3 +97,32 @@ Det er imidlertid tydeligt, hvad en øget kadence gør i forhold til kraftpåvir
 ## Løbeteknik kan trænes
 
 Barnes (2016) konkluderer, at det er muligt at lave _retraining_ af løbeteknikken og på den måde ændre forekomsten af løberknæ, plantar fascitis og løberelaterede lægsmerter. Barton konkluderer også, at ændring af løbeteknik kan have en gavnlig effekt på ikke-skadede løbere for at forbedre deres præstationer.
+
+Her er nogle forslag fra Claus Hechmann:
+
+{% include video provider="youtube" id="Q3YzNlRxGaE" %}
+
+## Andre tips til din løbeteknik
+
+### Løft hovedet og hold det højt
+
+Når du løber så kan det betale sig at holde sig høj. Forestil dig at nogen trækker opad i dit hoved. Det kan gøre din kropsposition bedre, og luftvejene får optimale betingelser for at en god vejrtrækning.
+
+### Armene og armsvinget
+
+Dine arme og armbevægelser har også betydning for din løbeøkonomi.
+
+{% comment %}
+
+FIXME
+Undersøgelser har vist, at med et optimeret armsving bruger man op til 5 pct. ilt mindre end med et forkert armsving.
+Ved at analysere kroppens bevægelsesmønster har forskerne fundet frem til fire grundregler for, hvordan armene bør indgå i løbebevægelsen.
+{% endcomment %}
+
+Under løb er armenes primære funktion at stabilisere kroppen, så kraften og bevægelsen fortrinsvis rettes fremad.
+
+Du kan prøve disse fire grundregler for dit armsving, så du kan forbedre din løbeteknik.
+
+- Armene skal være afslappede og ved din side, når du løber. Slap af i skuldrene.
+- Armsvinget skal foregå så lige frem i løbsretningen som muligt. Bevægelsen foregår primært i skulderleddet.
+- Hånden skal være afslappet. Mange foreslår at du skal forestille dig at holde et ukogt æg, og fingrene rører hinanden let.

@@ -1,20 +1,19 @@
 ---
 title: &title "Træning i naturen: Outdoor fitness, Dogmefitness og Naturfitness"
+seo_title: "Træning i naturen: Outdoor fitness og naturfitness"
 permalink: /artikel/dogmefitness/
 language: da
 header:
   overlay_image: /assets/images/blog/dogmefitness.jpg
   teaser: /assets/images/blog/dogmefitness.jpg
   caption: *title
-tags:
-  - dogmefitness
-  - styrketræning
-  - udholdenhed
-  - konditionstræning
-  - træning
 category:
   - Kondition
   - Styrketræning
+tags:
+  - styrketræning
+  - konditionstræning
+  - træning
 last_modified_at: 2020-02-13T22:23:21Z
 ---
 
@@ -39,7 +38,7 @@ Træstubbe, grene, traktordæk, forhøjninger, reb og fliser er alle glimrende t
 
 ## Dogmefitness med dæk
 
-{% include video provider="youtube" id="SW_sn8cw8Qw" %}
+{% include video provider="youtube" id="SW_sn8cw8Qw" ezoic="ezoic-pub-video-placeholder-2" %}
 
 ## Hvordan kan man organisere dogmefitness?
 

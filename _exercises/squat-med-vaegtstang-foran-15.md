@@ -19,9 +19,10 @@ tags:
   - fitnessinstruktør
 categories:
   - Ben
-training_type: 
+  - Squat
+training_type:
   - Styrketræning
-training_focus: 
+training_focus:
   - knædomineret
 equipment:
   - vægtstang

@@ -1,5 +1,6 @@
 ---
 title: "Den tohovedede lægmuskel"
+seo_title: "Den tohovedede lægmuskel | Gastrocnemius | Muskler"
 joint:
   - Fodleddet
 functional_group:
@@ -15,10 +16,10 @@ tags:
   - muskel
 categories:
   - Muskler
-origin: 
-  da: 
-insertion: 
-  da: 
+origin:
+  da:
+insertion:
+  da:
 function:
   da:
     - short: "Plantarfleksion i ankelleddet"
@@ -32,7 +33,7 @@ function:
       extended: This means that the gastrocnemius muscle bends the leg at the knee joint such that there is a decrease in the angle between the lower leg and the upper leg.
     - short: Plantar flexes the foot.
       extended: This means that the gastrocnemius muscle extends the ankle such that the angle between the top of the foot and the shin increases.
-secondary_function: 
+secondary_function:
   da:
     - short: "Bøjer i knæleddet"
 image: /assets/images/anatomy/gastrocnemius.jpg
@@ -43,3 +44,5 @@ coords:
   - "117,382,122,399,122,410,121,424,113,418,111,409,111,393"
   - "170,382,177,397,175,415,167,424,166,411,167,398"
 ---
+
+{{ page.name.da | capitalize }} hedder på latin *{{ page.name.latin | downcase }}*. Musklen laver {% for f in page.function.da %}{% if forloop.last == true and page.function.da.size > 1 %} og {% endif %}{{ f.short | downcase  }}{% if forloop.last == false and page.function.da.size > 1 %}, {% endif %}{% endfor %}. Musklen er en del af {{ page.functional_group | join: ", " | downcase }}.

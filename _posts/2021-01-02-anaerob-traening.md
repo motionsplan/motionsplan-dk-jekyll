@@ -1,11 +1,12 @@
 ---
 title: &title "Anaerob træning: Øvelser og træningsprogram 🏃"
-description: "Anaerob træning er en vigtig del af dit energisystem, og det skal også trænes 🏃 Hvad er anaerob træning? 🏃 Anaerobe øvelser 🏃 Anaerobt træningsprogram."
+seo_title: "Anaerob træning: Øvelser og træningsprogram"
+description: "Anaerob træning er en vigtig del af dit energisystem, og det skal også trænes | Hvad er anaerob træning? | Anaerobe øvelser | Anaerobt træningsprogram."
 permalink: /anaerob-traening/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1553593155-9e0dc045405c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80
-  teaser: https://images.unsplash.com/photo-1553593155-9e0dc045405c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1553593155-9e0dc045405c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1553593155-9e0dc045405c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Kondition
@@ -32,7 +33,7 @@ I dette indlæg kan du få svar på følgende spørgsmål:
 
 ## Hvad er det anaerobe system?
 
-Dansk Idræts-Forbund har skrevet et godt [hæfte om anaerob præstationsevne](https://www.dif.dk/-/media/difdk/foreningsliv/udgivelser/pdf/anaerobprstationsevnetoleranceproduktionoghurtighedstrning.pdf), som jeg virkelig kan anbefale, hvis du gerne vil lære mere om, hvordan det anarobe system virker. Når du forstår systemet er det meget lettere at planlægge anaerob træning.
+[Dansk Idræts-Forbund](https://www.dif.dk/media/3n4njx1f/anaerob-pr%C3%A6stationsevne-h%C3%A6fte.pdf) har skrevet et godt hæfte om anaerob præstationsevne, som jeg virkelig kan anbefale, hvis du gerne vil lære mere om, hvordan det anarobe system virker. Når du forstår systemet er det meget lettere at planlægge anaerob træning.
 
 Grundlæggende er dit energisystem delt op i to dele. Det aerobe system kan levere energi så længe, der er nok ilt til stede i musklerne, mens det anaerobe system stadig kan levere ilt, når der ikke er ilt nok til stede. I praksis kører begge systemer samtidigt.
 
@@ -52,12 +53,12 @@ De to spaltninger under anaerob træning kan beskrives kemisk på denne måde:
 
 ***
 
-ADP + CrP → ATP + Cr  
-ADP + P + Kulhydrat → ATP + Mælkesyre  
+ADP + CrP → ATP + Cr
+ADP + P + Kulhydrat → ATP + Mælkesyre
 
 ***
 
-Begge processer i det anaerobe system skaber altså mere ATP. 
+Begge processer i det anaerobe system skaber altså mere ATP.
 
 Spaltningen af kreatinfosfat kan levere energi til meget korte intensive kraftanstrengelser under 10 sekunder. Denne anaerobe proces er også årsagen til, at kreatin virker som kosttilskud, da man ved fuldt loadede kreatin-depoter i musklerne formentlig kan tage 1-2 gentagelser flere med samme høje intensitet. Når man har kreatinfosfat tilgængeligt i musklerne, kan man nemlig hurtigt genoplade ATP igen.
 
@@ -95,17 +96,17 @@ Det er interessant at læse [Mohr og Krustrup (2016)](https://traenerlounge.dbu.
 
 I anaerob træning skelner man mellem **anaerob kapacitet** og **anaerob effekt**.
 
-Hvad er anaerob kapacitet?  
+Hvad er anaerob kapacitet?
 : Anaerob kapacitet er evnen til at arbejde i længere tid hvor en høj del af energien kommer fra det anaerobe system. Den anaerobe kapacitet kan forbedres ved at arbejde i 30-45 sekunder med en pause ratio på 1:2-3. Den anaerobe kapacitet er fx meget vigtig på et 400-800 meter løb, hvis du gerne vil have en god præstation.
 
-Hvad er anaerob effekt?  
+Hvad er anaerob effekt?
 : Den anaerobe effekt er musklernes evne til at genoplade ATP hurtigt, så du igen kan arbejde maksimalt efter en kortere pause.
 
 ## Anaerob træning kan give fart
 
 [Vores Puls](https://vorespuls.dk/loeb/artikler/praestationsevne-faa-den-sidste-fart) foreslår anaerob træning til at give den sidste fart til løbere, men det gælder faktisk alle discipliner, hvor [kondition](/kondition/) også betyder noget.
 
-{% include figure image_path="https://images.unsplash.com/photo-1553593155-9e0dc045405c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" caption="Anaerob træning kan være med til at gøre dig til at gøre dit energisystem mere effektivt. Hvis du er løber, så vil anaerob træning også ofte hjælpe på din løbeøkonomi." %}
+{% include figure image_path="https://images.unsplash.com/photo-1553593155-9e0dc045405c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=5" caption="Anaerob træning kan være med til at gøre dig til at gøre dit energisystem mere effektivt. Hvis du er løber, så vil anaerob træning også ofte hjælpe på din løbeøkonomi." %}
 
 [Vores Puls](https://vorespuls.dk/loeb/artikler/praestationsevne-faa-den-sidste-fart) skriver at præstationen afhænger af fire parametre:
 
@@ -114,7 +115,7 @@ Hvad er anaerob effekt?
 3. Din relative arbejdsbelastning - altså evnen til at løbe omkring den [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}) - og hvor meget du kan presse dig selv.
 4. Den anaerobe energiproduktion - som giver den sidste fart - og som trænes gennem anaerob træning.
 
-## Anaerob træning er ikke kun sprint 
+## Anaerob træning er ikke kun sprint
 
 Mange forbinder anarobt arbejde med meget kortvarigt og intenst arbejde. Hvis vi tager en løber som eksempel, så vil man ofte tænke på 60-100 meter. Hvis man gerne vil blive en bedre løber, så tænker man typisk mest på de tre første parametre, der har betydning for præstationen.
 
@@ -130,7 +131,7 @@ Når du arbejder meget intensivt, så vil musklerne efterhånden blive trætte, 
 
 Når du træner med højintensitet under træningen. At træne for at forbedre den anaerobe tærskel vil jeg ikke umiddelbart betegne som anaerob træning, men træning af den anaerobe tærskel er meget vigtig for din præstation. Den anaerobe tærskel er der, hvor din organer og muskler ikke længere kan nå at fjerne den mælkesyre, der dannes i musklerne.
 
-Du kan fx lave en test, hvor du finder ud af, hvad din puls er på den anaerobe tærskel. Derefter kan du bruge pulsen som rettesnor for, hvad din anaerobe tærskel er. Læs mere om den [anaerobe tærskel her]({% link _posts/2020-08-26-anaerobe-taerskel.md %}). Hvis du arbejder med [pulstræning og intensitet i forhold til puls]({% link _posts/2019-10-31-intensitet-puls.md %}), så ligger den anaerobe tærskel på omkring 80% af pulsreserven. Men at finde sin anaerobe tærskel kræver, at du selv laver en test.
+Du kan fx lave en test, hvor du finder ud af, hvad din puls er på den anaerobe tærskel. Derefter kan du bruge pulsen som rettesnor for, hvad din anaerobe tærskel er. Læs mere om den [anaerobe tærskel her]({% link _posts/2020-08-26-anaerobe-taerskel.md %}). Hvis du arbejder med [pulstræning og intensitet i forhold til puls]({% link _posts/2019-10-31-hrzones-puls.md %}), så ligger den anaerobe tærskel på omkring 80% af pulsreserven. Men at finde sin anaerobe tærskel kræver, at du selv laver en test.
 
 ## Anaerob træning er for alle
 

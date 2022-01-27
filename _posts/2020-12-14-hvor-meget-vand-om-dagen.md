@@ -1,11 +1,12 @@
 ---
 title: &title "Hvor meget vand skal man drikke om dagen? 🚰🚱 [Beregner]"
+seo_title: "Hvor meget vand skal man drikke om dagen? [Beregner]"
 permalink: /hvor-meget-vand-skal-man-drikke-om-dagen/
 language: da
 author: lsolesen
 header:
-  overlay_image: https://images.unsplash.com/photo-1523621509625-54893aa665ff?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80
-  teaser: https://images.unsplash.com/photo-1523621509625-54893aa665ff?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1523621509625-54893aa665ff?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1523621509625-54893aa665ff?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Ernæring
@@ -15,6 +16,7 @@ tags:
   - hydrering
   - beregner
   - featured
+popular: true
 last_modified_at: 2020-12-16T23:14:14Z
 toc: true
 faq:
@@ -52,7 +54,7 @@ I dette indlæg kan du læse mere om:
 
 Letliv.dk [foreslår](https://www.letliv.dk/sund-og-skoen/sundhed/saadan-beregner-du-dit-vaeskebehov) følgende måde at beregne hvor meget vand, man bør drikke om dagen.
 
-De skriver, at mennesker har behov for 30-40 ml væske pr. kilo legemsvægt om dagen. De skriver desværre ikke, hvor de har denne angivelse fra. Men lad os forsøge at putte det ind i en beregner.
+De skriver, at mennesker har behov for 30-40 ml væske pr. kg legemsvægt om dagen. De skriver desværre ikke, hvor de har denne angivelse fra. Men lad os forsøge at putte det ind i en beregner.
 
 {% include calculate-water-intake.html %}
 

@@ -1,5 +1,6 @@
 ---
 title: "Den mellemste sædemuskel"
+seo_title: "Den mellemste sædemuskel | Gluteus Medius | Muskler"
 functional_group:
   - Hoftens udadførere
 joint:
@@ -15,9 +16,9 @@ tags:
   - muskel
 categories:
   - Muskler
-origin: 
+origin:
   da: Yderst på øverste kant af hoftebenet
-insertion: 
+insertion:
   da: Øverst på bagsiden af låret
 function:
   da:
@@ -52,3 +53,5 @@ coords:
   - "422,216,435,216,443,219,428,224,417,234"
   - "497,235,491,215,481,216,471,218,486,224"
 ---
+
+{{ page.name.da | capitalize }} hedder på latin *{{ page.name.latin | downcase }}*. Musklen laver {% for f in page.function.da %}{% if forloop.last == true and page.function.da.size > 1 %} og {% endif %}{{ f.short | downcase  }}{% if forloop.last == false and page.function.da.size > 1 %}, {% endif %}{% endfor %}. Musklen er en del af {{ page.functional_group | join: ", " | downcase }}.

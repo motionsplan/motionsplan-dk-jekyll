@@ -1,12 +1,12 @@
 ---
 title: &title "Biohacking: Definition og begynderguide til at blive biohacker"
-seo_title: "Biohacking - Bliv biohacker med træning [Begynderguide] »"
+seo_title: "Biohacking - Bliv biohacker med træning [Begynderguide]"
 description: "Jeg har lavet en begynderguide til biohacking. Mød 5 fascinerende biohackere og få råd til, hvordan du kan planlægge din biohacker træning. Kom i gang nu!"
 permalink: /hvad-er-biohacking/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1573511860302-28c524319d2a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80
-  teaser: https://images.unsplash.com/photo-1573511860302-28c524319d2a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1573511860302-28c524319d2a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1573511860302-28c524319d2a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   overlay_filter: 0.2
   caption: *title
 category:

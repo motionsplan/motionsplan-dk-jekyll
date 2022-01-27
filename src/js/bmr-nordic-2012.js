@@ -4,7 +4,7 @@ let motionsplan = {};
  * Based on Nordic Nutrition Recommendations 2012
  */
 motionsplan.BMRNordicNutritionRecommendations2012 = function(sex, age, weight, height = 0) {
-    var bmr;
+   let bmr;
     sex = sex; // Men is 1; women 0
     age = age;
     weight = weight;
@@ -101,7 +101,7 @@ motionsplan.BMRNordicNutritionRecommendations2012 = function(sex, age, weight, h
         return bmr * 1000;
     }
 
-    let publicAPI = {
+   let publicAPI = {
         getBasicMetabolicRate : getBasicMetabolicRate,
         getRestingEnergyExpenditure : getRestingEnergyExpenditure
     };

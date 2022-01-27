@@ -25,7 +25,7 @@ motionsplan.BodyWater = function(height, weight, age, sex) {
     return false;
   }
 
-  var publicAPI = {
+  let publicAPI = {
     getTotalBodyWater : getTotalBodyWater,
     getPercent : getPercent
 

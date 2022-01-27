@@ -1,14 +1,14 @@
 ---
 title: &title "Udstrækning: Guide til udstrækningsøvelser og strækøvelser!"
-seo_title: "Udstrækning - Alt om udstrækningsøvelser og strækøvelser »"
+seo_title: "Alt om udstrækning: 22+ udstrækningsøvelser og strækøvelser"
 description: "Udstrækning og udspænding bruges i mange idrætsgrene ✓ Se 15+ udstrækningsøvelser for hele kroppen ✓ 3 myter om strækøvelser ✓ 3 effekter af udstrækning"
 permalink: /udstraekning-udspaending/
 redirect_from:
   - /artikel/du-bliver-smidigere-af-straekke/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1562771379-eafdca7a02f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
-  teaser: https://images.unsplash.com/photo-1562771379-eafdca7a02f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1562771379-eafdca7a02f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1562771379-eafdca7a02f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
   overlay_filter: 0.2
 category:
@@ -510,7 +510,7 @@ Samtidig bliver man **smidigere af udstrækning**, og der er chance for, at tilb
 - Shrier, I. (2004). Does Stretching Improve Performance?. Clinical Journal of Sport Medicine, 14(5), pp.267-273.
 - Yuktasir, B. and Kaya, F. (2009). Investigation into the long-term effects of static and PNF stretching exercises on range of motion and jump performance. Journal of Bodywork and Movement Therapies, 13(1), pp.11-21.
 - Kallerud, H. and Gleeson, N. (2013). Effects of Stretching on Performances Involving Stretch-Shortening Cycles. Sports Medicine, 43(8), pp.733-750.
-- Knudson, Duane V., Peter Magnusson, og Malachy McHugh. 2000. “Current Issues In Flexibility Fitness”. President’s Council on Physcial Fitness and Sports. Research Digest 3 (10). <http://www.presidentschallenge.org/misc/news_research/research_digests/59131a.pdf>.
+- Knudson, Duane V., Peter Magnusson, og Malachy McHugh. 2000. “Current Issues In Flexibility Fitness”. President’s Council on Physcial Fitness and Sports. Research Digest 3 (10). <https://www.researchgate.net/publication/234696449_Current_Issues_in_Flexibility_Fitness>.
 - Shrier, I., og K. Gossal. 2000. “Myths and Truths of Stretching: Individualized Recommendations for Healthy Muscles”. The Physician and Sportsmedicine 28 (8): 57–63. <https://doi.org/10.3810/psm.2000.08.1159>.
 - Magnusson, Peter S. (1998): A Biomechanical Evaluation of Human Skeletal Muscle During Stretch, Lægeforeningens Forlag, København
 - Aagaard, Per (2003): "Nyeste viden om nervesystemets tilpasninger til tung styrketræning på motion-online.dk

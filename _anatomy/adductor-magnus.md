@@ -1,5 +1,6 @@
 ---
 title: "Den store indadfører"
+title: "Den store indadfører | Adductor Magnus | Muskler"
 functional_group:
   - Hoftestrækkere
   - Hoftens indadførere
@@ -15,9 +16,9 @@ tags:
   - muskel
 categories:
   - Muskler
-origin: 
+origin:
   da: Skambenet og sædebensknuden
-insertion: 
+insertion:
   da: På indersiden/bagsiden af de meste af lårbensknoglen samt ovenpå den inderste lårbenskondyl.
 function:
   da:
@@ -33,3 +34,5 @@ coords:
   - "453,276,448,282,439,286,443,298,442,323,451,296"
   - "473,285,461,277,462,293,471,320,470,297"
 ---
+
+{{ page.name.da | capitalize }} hedder på latin *{{ page.name.latin | downcase }}*. Musklen laver {% for f in page.function.da %}{% if forloop.last == true and page.function.da.size > 1 %} og {% endif %}{{ f.short | downcase  }}{% if forloop.last == false and page.function.da.size > 1 %}, {% endif %}{% endfor %}. Musklen er en del af {{ page.functional_group | join: ", " | downcase }}.

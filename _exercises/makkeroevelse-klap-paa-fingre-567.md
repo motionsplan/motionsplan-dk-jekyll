@@ -1,6 +1,5 @@
 ---
 title: "Makkerøvelse, klap på fingre"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/makkeroevelse-klap-paa-fingre/
 redirect_from:
@@ -26,3 +25,5 @@ gallery:
     title: "Makkerøvelse, klap på fingre"
 last_modified_at: 2014-10-03T10:16:56Z
 ---
+
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}

@@ -25,6 +25,8 @@ Hvis du har nogle spørgsmål er du altid velkommen til at kontakte os på {{ si
 
 Vi bruger billeder fra [Unsplash.com](https://unsplash.com/) og skriver selv alle artiklerne.
 
+Ikoner brugt på sitet er lavet af <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> fra <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>.
+
 ## Tal om Motionsplan
 
 - Blogindlæg: {{ site.posts.size }}

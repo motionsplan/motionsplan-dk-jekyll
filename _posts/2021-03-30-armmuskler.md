@@ -1,12 +1,14 @@
 ---
 title: &title "Armmuskler: Liste og øvelser til muskler i arme"
-seo_title: "Armmuskler - Liste og øvelser til muskler i arme »"
+seo_title: "Armmuskler: Liste og øvelser til muskler i arme"
 description: "Komplet liste over muskler i dine arme. Forslag til træning af armmusklerne."
 permalink: /muskler/arme/
+redirect_from:
+  - /armmuskler/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1598268030450-7a476f602bf6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1902&q=80
-  teaser: https://images.unsplash.com/photo-1598268030450-7a476f602bf6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1598268030450-7a476f602bf6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1598268030450-7a476f602bf6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Anatomi

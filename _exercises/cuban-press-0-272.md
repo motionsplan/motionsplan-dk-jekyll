@@ -11,7 +11,7 @@ header:
 tags:
   - vægtstang
 categories: []
-training_type: [] 
+training_type: []
 training_focus: []
 equipment:
   - vægtstang
@@ -44,5 +44,7 @@ gallery:
 last_modified_at: 2011-04-16T07:27:13Z
 key: 20110416072713
 ---
+
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}
 
 En god øvelse til rotatormanchetten.

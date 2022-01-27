@@ -5,8 +5,8 @@ title: &title "Eksplosivitet, sprint og spring"
 excerpt: "Hvordan arbejder man med eksplosivitet? Hvordan sprinter du hurtigere og springer højere?"
 author_profile: true
 header:
-  overlay_image: https://images.unsplash.com/photo-1507853941863-0ed76ec6add4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80
-  teaser: https://images.unsplash.com/photo-1507853941863-0ed76ec6add4?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1507853941863-0ed76ec6add4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=5
+  teaser: https://images.unsplash.com/photo-1507853941863-0ed76ec6add4?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   alt: "Photo by Tikkho Maciel on Unsplash"
   caption: *title
 #  actions:
@@ -16,13 +16,13 @@ header:
 #      url: "/hastighed/"
 classes: wide
 feature_row_feature:
-  - image_path: https://images.unsplash.com/photo-1501820434261-5bb046afcf6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80
+  - image_path: https://images.unsplash.com/photo-1501820434261-5bb046afcf6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
     alt: "Hvordan sprinter du?"
     title: "Hvordan sprinter du?"
     excerpt: "Hvordan sprinter du?"
     url: "/sprint/"
     btn_label: "Læs om sprint"
-    btn_class: "btn--danger"
+    btn_class: "btn--info"
 feature_row:
   - image_path: https://cnet1.cbsistatic.com/img/Y3vodO8bMPi6qlFLRF3xFcQpLHo=/1092x0/2019/07/26/114f1721-1a71-42bc-b1a4-cb35299bedbc/gettyimages-640493589.jpg
     alt: "Hvordan springer du?"
@@ -48,7 +48,21 @@ feature_row:
 {% assign site_posts = site.posts | where: "tags", "springtest" | sort: "last_modified_at" | reverse %}
 
 {% if site_posts.size > 0 %}
-  {% for post in site_posts limit:4 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
+
+## Springtræning
+
+<div class="feature__wrapper">
+
+{% assign site_posts = site.posts | where: "category", "Springtræning" | sort: "last_modified_at" | reverse %}
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
@@ -62,7 +76,7 @@ feature_row:
 {% assign site_posts = site.posts | where: "tags", "sprinttest" | sort: "last_modified_at" | reverse %}
 
 {% if site_posts.size > 0 %}
-  {% for post in site_posts limit:4 %}
+  {% for post in site_posts %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 {% endif %}
@@ -71,7 +85,7 @@ feature_row:
 
 ## Artikler om eksplosivitet, sprint og spring
 
-{% assign site_posts = site.posts | where: "caegory", "Eksplosivitet" | where_exp: "post", "post.url != page.url" | sort: "title" %}
+{% assign site_posts = site.posts | where: "category", "Eksplosivitet" | where_exp: "post", "post.url != page.url" | sort: "title" %}
 
 <div class="feature__wrapper">
 

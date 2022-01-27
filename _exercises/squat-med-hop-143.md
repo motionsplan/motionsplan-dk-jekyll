@@ -14,8 +14,9 @@ tags:
   - vægtstang
 categories:
   - Ben
-training_type: 
-training_focus: 
+  - Squat
+training_type: []
+training_focus:
   - knædomineret
 equipment:
   - vægtstang

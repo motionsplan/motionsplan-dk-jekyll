@@ -7,9 +7,9 @@ motionsplan.RunningWeightLoss = function(weight, weight_change, effect = 0.8) {
 
   // løbetid * (startvægt - vægttab * 0.8) / startvægt;
   function getEstimatedFinishTime(hours, minutes, seconds) {
-    var h1 = hours;
-    var m1 = minutes;
-    var s1 = seconds;
+   let h1 = hours;
+   let m1 = minutes;
+   let s1 = seconds;
 
     if (h1 == '00') { h1 = 0; }
     if (h1 == '') { h1 = 0; }
@@ -18,12 +18,12 @@ motionsplan.RunningWeightLoss = function(weight, weight_change, effect = 0.8) {
     if (s1 == '00') { s1 = 0; }
     if (s1 == '') { s1 = 0; }
 
-    var time1 = parseInt(h1 * 3600) + parseInt(m1 * 60) + parseInt(s1 * 1);
-    var output1 = time1 * (weight - weight_change * effect) / weight;
+   let time1 = parseInt(h1 * 3600) + parseInt(m1 * 60) + parseInt(s1 * 1);
+   let output1 = time1 * (weight - weight_change * effect) / weight;
 
-    var h_out = Math.floor(output1 / 3600);
-    var m_out = Math.floor((output1 - h_out * 3600) / 60);
-    var s_out = Math.floor(output1 - h_out * 3600 - m_out * 60);
+   let h_out = Math.floor(output1 / 3600);
+   let m_out = Math.floor((output1 - h_out * 3600) / 60);
+   let s_out = Math.floor(output1 - h_out * 3600 - m_out * 60);
     if (h_out < 10) { h_out = '0' + h_out; }
     if (m_out < 10) { m_out = '0' + m_out; }
     if (s_out < 10) { s_out = '0' + s_out; }
@@ -33,7 +33,7 @@ motionsplan.RunningWeightLoss = function(weight, weight_change, effect = 0.8) {
     return h_out + ':' + m_out + ':' + s_out;
   }
 
-  var publicAPI = {
+  let publicAPI = {
     getEstimatedFinishTime: getEstimatedFinishTime
   };
 

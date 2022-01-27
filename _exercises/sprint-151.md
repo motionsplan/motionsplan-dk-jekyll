@@ -15,8 +15,8 @@ tags:
   - cirkeltræning
 categories:
   - Kondition og puls
-training_type: 
-training_focus: 
+training_type:
+training_focus:
   - helkropsøvelse
 equipment:
   - kropsvægt
@@ -43,6 +43,7 @@ gallery:
     title: "Sprint med vægt"
 last_modified_at: 2013-10-03T11:04:45Z
 ---
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}
 
 Sprint er en overset øvelse. Selvom der ikke er vægtskiver involveret er det rigtig god styrketræning, fordi kroppen er tvunget til at arbejde maksimalt. Tænk over din teknik, når du sprinter for at få mest muligt ud af det.
 

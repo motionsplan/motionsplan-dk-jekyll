@@ -1,11 +1,12 @@
 ---
 title: &title "Hvordan laver man en bevægelsesanalyse som fitnessinstruktør?"
+seo_title: "Sådan laver en fitnessinstruktør en bevægelsesanalyse"
 permalink: /bevaegelsesanalyse/
 last_modified_at: 2020-10-06T09:41:09Z
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1540206063137-4a88ca974d1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
-  teaser: https://images.unsplash.com/photo-1540206063137-4a88ca974d1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1540206063137-4a88ca974d1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1540206063137-4a88ca974d1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Viden om
@@ -15,6 +16,7 @@ tags:
   - bevægelsesanalyse
   - anatomi
   - bevægelsesplaner
+  - led
 feature_row:
   - url: https://docs.google.com/document/d/1heeWvmkSrBSMibkkISQ0kLMSZmSYw_v8pJjk7cwXUZo/copy?usp=sharing
     image_path: /assets/images/blog/movement-analysis.png
@@ -23,6 +25,7 @@ feature_row:
     excerpt: Download et skema i Google Docs som du kan bruge til at lave din bevægelsesanalyse.
     btn_label: "<i class='fab fa-google-drive'></i> Download skema"
     btn_class: "btn--success"
+    rel: nofollow noopener
 ---
 
 Når du underviser i idræt eller træner, så er det en god ide at lave en bevægelsesanalyse. En bevægelsesanalyse er med til at sikre, at du træner de muskler, du gerne vil træne - og bevægelsesanalysen giver dig også et godt udgangspunkt for at give feedback på bevægelser.
@@ -80,7 +83,7 @@ En tilgang til at lave en bevægelsesanalyse kommer her i punktform, så du hurt
 
 ### 2) Visualisering af bevægelsen
 
-Lav en skitse af bevægelsen, så får du nemlig et bedre overblik over bevægelsen. Du kan enten tegne eller tage billeder med mobilen af de forskellige faser, der er i bevægelsen. 
+Lav en skitse af bevægelsen, så får du nemlig et bedre overblik over bevægelsen. Du kan enten tegne eller tage billeder med mobilen af de forskellige faser, der er i bevægelsen.
 
 Så kan du analysere de forskellige faser i bevægelsen bagefter. De fleste idrætsbevægelser har flere faser, og du skal beskrive overgangen fra en fase til den næste. Det er overgangen mellem faserne, der er vigtige i bevægelsesanalysen.
 
@@ -89,7 +92,7 @@ Så kan du analysere de forskellige faser i bevægelsen bagefter. De fleste idr�
 - Hvor mange og hvilke faser i bevægelsen udvælger du?
 - Hvilke led bevæges under bevægelsen i de forskellige faser?
 - Hvilke bevægelser foregår der? Sker der en fleksion, ekstension eller rotation i leddet?
-- Hvilke muskler arbejder i bevægelsen? 
+- Hvilke muskler arbejder i bevægelsen?
 - Arbejder de aktive muskler [excentrisk, koncentrisk eller statisk]({% link _posts/2020-08-11-excentrisk-koncentrisk.md %}) i bevægelsen?
 
 ## Hvordan griber du bevægelsesanalyse an?

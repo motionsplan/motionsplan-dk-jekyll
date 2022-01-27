@@ -2,8 +2,8 @@
 title: Du forbrænder mere ved at løbe end ved at gå. Punktum.
 permalink: /loeb-mere-energi-gang/
 header:
-  overlay_image: https://images.unsplash.com/photo-1523321826514-fcd51dbe0c2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=80
-  teaser: https://images.unsplash.com/photo-1523321826514-fcd51dbe0c2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1523321826514-fcd51dbe0c2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1523321826514-fcd51dbe0c2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   overlay_filter: 0.2
   caption: Forbrænding af kalorier ved at gå og løbe
 language: da
@@ -14,6 +14,8 @@ category:
 tags:
   - sammenligning
   - energiforbrug
+  - løb
+  - beregner
 toc: true
 last_modified_at: 2021-05-10T08:14:14Z
 faq:
@@ -252,7 +254,7 @@ Når du træner tager du energi fra dine glykogen og fedtdepoter. Det kræver en
 
 Når man sammenligninger forbrænding ved gang og løb, så bruger man typisk flere kalorier ved at løbe. Man forbrænder ganske enkelt mere ved løb end ved gang.
 
-> Hvis vi kigger på energiforbruget pr. minut i stedet for pr. km, så vil man typisk forbrænde mindst 4 gange så meget ved at løbe. Hvis vi f.eks. sammenligner gang ved 5 km/t og løbe ved 10 km/t, så vil man tilbagelægge det dobbelte antal km på den samme tid. Hvilket skal sammenholdes med at man også har forbrændt ca. det dobbelte pr. km.
+> Hvis vi kigger på energiforbruget pr. minut i stedet for pr. km, så vil man typisk forbrænde mindst 4 gange så meget ved at løbe. Hvis vi fx sammenligner gang ved 5 km/t og løbe ved 10 km/t, så vil man tilbagelægge det dobbelte antal km på den samme tid. Hvilket skal sammenholdes med at man også har forbrændt ca. det dobbelte pr. km.
 
 --- <cite>[Morten Zacho](http://web.archive.org/web/20150120003941/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/du_forbraender_flere_kalorier_ved_at_loebe_end_ved_at_gaa/){:rel="nofollow"}</cite>
 

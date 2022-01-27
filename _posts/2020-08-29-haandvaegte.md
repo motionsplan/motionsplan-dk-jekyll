@@ -12,14 +12,14 @@ category:
 tags:
   - træningsøvelser
   - håndvægte
-classes: wide
+  - hjemmetræning
 sidebar:
   nav: exercises
 ---
 
 Vi har samlet en en masse træningsøvelser med håndvægte. Du kan lave et komplet træningsprogram kun ved brug af styrkeøvelser med håndvægte. Vi har samlet alle de effektive håndvægtsøvelser.
 
-Hvis du mangler tips og tricks til at træne med håndvægte, så kan du se alle øvelserne med håndvægte nedenunder.
+Hvis du mangler tips og tricks til at træne med håndvægte, så kan du se alle øvelserne med håndvægte nedenunder. Hvis du gerne vil [træne hjemme](/hjemmetraening-traeningsprogram/), så er et par justerbare håndvægte en rigtig god investering.
 
 Håndvægte er særligt velegnede til [armøvelser]({% link _pages/exercises-tag-arme.md %}), [brystøvelser]({% link _pages/exercises-tag-bryst.md %}) og [skulderøvelser]({% link _pages/exercises-tag-skulder.md %}). Men håndvægte kan også være rigtig gode til at sætte ekstra belastning på [benøvelserne]({% link _pages/exercises-tag-ben.md %}).
 

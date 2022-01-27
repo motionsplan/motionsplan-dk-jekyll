@@ -4,30 +4,31 @@ permalink: /tag-tid-paa-loebetraening/
 language: da
 author: lsolesen
 header:
-  overlay_image: https://images.unsplash.com/flagged/photo-1556746834-11617819565b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80
-  teaser: https://images.unsplash.com/flagged/photo-1556746834-11617819565b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/flagged/photo-1556746834-11617819565b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/flagged/photo-1556746834-11617819565b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Kondition
 tags:
   - løbetræning
   - konditionstræning
+  - løb
 last_modified_at: 2020-12-03T23:14:14Z
 toc: true
 feature_row:
-  - image_path: https://www.pulsure.dk/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/g/a/garmin_hrm-run-pulsmaaler_010-10997-12_2.jpg
-    alt: "Garmin HRM-Tri Pulsbælte"
-    title: "Garmin HRM-Run Pulsbælte"
-    excerpt: "Garmins pulsbælte fungerer rigtig fint sammen med EliteHRV-appen til at måle heart rate variability og naturligvis sammen med de forskellige Garmin Produkter, fx det fantastiske FENIX-ur."
-    url: https://track.adtraction.com/t/t?a=1124622406&as=1484571907&t=2&tk=1&url=https://sportmaster.dk/garmin-hrm-run-pulsmalerrem-black-1476604
+  - image_path: https://resources.chainbox.io/cykelpartner/public/pim/accfaaab-7a3f-45d3-aeeb-713be660062d/010-12883-00ny_A_default.jpg
+    alt: "Garmin HRM-Dual"
+    title: "Garmin HRM-Dual"
+    excerpt: "HRM-dual Pulsmåler fra Garmin, der er kompatibel med alle Garmin-computere med pulsfunktion. Måleren er blevet opgraderet, så den nu også anvender Bluetooth (BLE), og dermed også er kompatibel med alle andre mærker, der benytter ANT+ eller Bluetooth."
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=16446&htmlurl=https://www.cykelpartner.dk/pulsbaelter/garmin-hrm-dual---pulsmaalerrem---ant-plus--og-ble
     btn_label: "Se prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
-  - image_path: https://www.loebeshop.dk/media/catalog/product/cache/1/image/575x/040ec09b1e35df139433887a97daa66f/r/_/r_fenix5x_hr_2003.1.jpg
-    alt: "Garmin FENIX 5S Smartwatch"
-    title: "Garmin FENIX 5S Smartwatch"
-    excerpt: "Garmin Fenix er fantastiske pulsure og aktivitetsure. Garmin har implementeret deres egen form for træningsparathed, som ikke helt er heart rate variability."
-    url: https://track.adtraction.com/t/t?a=1124622406&as=1484571907&t=2&tk=1&url=https://sportmaster.dk/garmin-fenix-5-plus-sapphire-2058971?size=One+Size&gclid=Cj0KCQjwj7v0BRDOARIsAGh37ipamu_nXNAfyMPbgF4aQfhUyRpXvIcMdu7wu2hXPvpD1_bP8i6zo54aAvojEALw_wcB
+  - image_path: https://www.proshop.dk/Images/600x800/2799963_ee580b740aa6.jpg
+    alt: "Garmin fenix 6 Sapphire"
+    title: "Garmin fenix 6 Sapphire"
+    excerpt: "Disse robuste fēnix GPS-multisportsure giver dig mulighed for at tilføje kort, musik, intelligent tempoplanlægning med mere til din træning – så du kan klare alle udfordringer med lethed. Garmin har implementeret deres egen form for træningsparathed, som ikke helt er heart rate variability."
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67757&htmlurl=https://www.proshop.dk/Smartwatch-Sportsur-Aktivitetstracker/Garmin-fenix-6-Sapphire-black/2799963
     btn_label: "Se prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener

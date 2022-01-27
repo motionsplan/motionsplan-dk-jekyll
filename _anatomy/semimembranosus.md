@@ -1,5 +1,6 @@
 ---
 title: "Halvsenede knæbøjer"
+seo_title: "Halvsenede knæbøjer | Semimembranosus | Muskler"
 joint:
   - Knæleddet
   - Hofteleddet
@@ -17,10 +18,10 @@ tags:
   - muskel
 categories:
   - Muskler
-origin: 
-  da: 
-insertion: 
-  da: 
+origin:
+  da:
+insertion:
+  da:
 function:
   da:
     - short: Fleksion i knæet
@@ -38,5 +39,7 @@ coords:
   - "472,312,475,319,479,338,481,356,479,365,477,351,473,328,471,319"
   - "441,311,438,321,436,333,433,346,434,364,437,353,440,337"
 ---
+
+{{ page.name.da | capitalize }} hedder på latin *{{ page.name.latin | downcase }}*. Musklen laver {% for f in page.function.da %}{% if forloop.last == true and page.function.da.size > 1 %} og {% endif %}{{ f.short | downcase  }}{% if forloop.last == false and page.function.da.size > 1 %}, {% endif %}{% endfor %}. Musklen er en del af {{ page.functional_group | join: ", " | downcase }}.
 
 Semimembranosus er en del af baglåret eller _hamstrings_ sammen med [biceps femoris]({% link _anatomy/biceps-femoris.md %}) og [semitendinosus]({% link _anatomy/semitendinosus.md %}).

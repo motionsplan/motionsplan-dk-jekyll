@@ -1,10 +1,11 @@
 ---
 title: &title "Løbetræning: Kom i gang med at løbe med et løbeprogram 🏃🏃‍♀️"
+seo_title: "Løbetræning: Kom i gang med at løbe med et løbeprogram"
 permalink: /artikel/kom-i-gang-med-loebetraeningen/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1530655638484-de9ff231551e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1967&q=80
-  teaser: https://images.unsplash.com/photo-1530655638484-de9ff231551e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1530655638484-de9ff231551e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1530655638484-de9ff231551e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 tags:
   - løb
@@ -38,9 +39,10 @@ feature_row_stryd:
     alt: "STRYD Wattmåler - Next Generation"
     title: "STRYD Wattmåler - Next Generation"
     excerpt: "STRYD – Wattmåler og nu med vindmåler STRYD er en af de mest nyttige og imponerende teknologiske løbegadgets, der er til rådighed på markedet"
-    url: "https://www.hechmannsport.dk/product-page/stryd-running-power-meter"
+    url: "https://buy.stryd.com/store?referrer_id=c444f8a6-8d83-59d2-7060-6e7eddbaf413"
     btn_label: "Se prisen"
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 ---
 
 Rigtig mange vil gerne i gang med at løbe eller løbetræner for at blive en bedre løber. Hvordan kommer du i gang med løbetræningen, og hvordan laver du et godt løbeprogram, som motiverer dig og skaber resultater?
@@ -165,9 +167,9 @@ Hvis du har løbet meget, men ikke helt ser den fremgang, du gerne vil, så har 
 
 Når du laver løbetræning og laver din træningsplanlægning, så kan du veksle mellem tre forskellige slags løbeture:
 
-- **#1) Den langsomme løbetur i snakketempo.** Når du løber langsomt i snakketempo, som du fx kan vurdere ud fra [Borg-skalaen]({% link _posts/2020-06-18-borg-skala.md %}) eller ud fra dine [pulszoner]({% link _posts/2019-10-31-intensitet-puls.md %}) (for de fleste skal pulsen ligge mellem 120 og 150), så træner du udholdenheden og fedtforbrændingen. Dette tempo kan også bruges som [aktiv restitution]({% link _posts/2020-05-28-restitutionstid-alder.md %}).
-- **#2) Den hurtige tempotur omkring den anaerobe tærskel**. Dette tempo skal ligge omkring mælkesyregrænsen. Hvis du gerne vil finde, hvilken puls din [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}) ligger på, så svarer det nogenlunde til gennemsnitspulsen af et maksimalt løb på omkring 30 minutter til 60 minutter.
-- **#3) Højintense intervalløb**. Du skal kredsløbets maksimale iltoptagelse ved at arbejde omkring din maksimale ydeevne. Typisk kan du løbe maksimalt 6-10 minutter omkring den maksimale ydeevne, hvis du gerne vil teste, hvor hurtigt du skal løbe for at træne dette.
+1. **Den langsomme løbetur i snakketempo.** Når du løber langsomt i snakketempo, som du fx kan vurdere ud fra [Borg-skalaen]({% link _posts/2020-06-18-borg-skala.md %}) eller ud fra dine [pulszoner]({% link _posts/2019-10-31-hrzones-puls.md %}) (for de fleste skal pulsen ligge mellem 120 og 150), så træner du udholdenheden og fedtforbrændingen. Dette tempo kan også bruges som [aktiv restitution]({% link _posts/2020-05-28-restitutionstid-alder.md %}).
+2. **Den hurtige tempotur omkring den anaerobe tærskel**. Dette tempo skal ligge omkring mælkesyregrænsen. Hvis du gerne vil finde, hvilken puls din [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}) ligger på, så svarer det nogenlunde til gennemsnitspulsen af et maksimalt løb på omkring 30 minutter til 60 minutter.
+3. **Højintense intervalløb**. Du kan træne kredsløbets maksimale iltoptagelse ved at arbejde omkring din maksimale ydeevne. Typisk kan du løbe maksimalt 6-10 minutter omkring den maksimale ydeevne, hvis du gerne vil teste, hvor hurtigt du skal løbe for at træne dette. Derfor træner man ofte med intervaller fra 2-5 minutter.
 
 Der er alt for mange, der løber i et tempo, der ligger mellem den langsomme løbetur i snakketempo eller træning omkring den anaerobe tærskel.
 
@@ -177,13 +179,11 @@ Faktisk har den langsomme løbetur både en god effekt på udholdenheden, [løbe
 
 Men den langsomme løbetur hjælper kun, hvis du rammer det rigtige tempo.
 
-Derfor skal du sørge for, at hver løbetur har et klart og specifikt mål.
-
-Hvad vil du gerne forbedre i dag?
+Derfor skal du sørge for, at **hver løbetur har et klart og specifikt mål**. Hvad vil du gerne forbedre i dag?
 
 Hvis du gerne vil træne din udholdenhed, så sørg for at løbe langsomt. Du skal ikke lige give den "gas" de sidste 15 minutter, som mange af os kan få lyst til, fordi det ellers ikke helt "føles som en hård træning".
 
-Hvis du gerne vil flytte din **anaerobe tærskel** eller **maksimale iltoptagelse**, så kommer det til at kunne mærkes. Kroppen skal op og arbejde med maksimal intensitet, og det kan mærkes.
+Hvis du gerne vil flytte din **anaerobe tærskel** eller **maksimale iltoptagelse**, så kommer hele kroppen på arbejde. Kredsløbet skal op og arbejde med maksimal intensitet, og det kan mærkes.
 
 Det rykker ikke for alvor noget ved din løbetræning, hvis du bare løber uden at tænke over, hvad du træner.
 
@@ -221,7 +221,7 @@ Derfor bør du i dit løbeprogram angive din træningsplan som minutter.
 
 ## Hvordan laver jeg et godt løbeprogram?
 
-I min forståelse for at lave et godt løbeprogram, så har jeg været inspireret af [Løbesiden.dk](http://loebesiden.dk), men siden har jeg også været meget inspireret af Jack Daniels og Claus Heckmann.
+I min forståelse for at lave et godt løbeprogram, så har jeg været inspireret af Jack Daniels og Claus Hechmann.
 
 Når du skal lave et godt løbeprogram, så skal du altså tage højde for følgende.
 
@@ -254,6 +254,10 @@ Der er fordele og ulemper ved begge ting.
 - **Puls**. Hvis du styrer træningen ud fra din puls, så kan du i praksis lave din løbetræning overalt og på forskelligt underlag. Du har en objektiv markør i din puls. Det kræver, at du kender din maksimale puls og pulsen for din anaerobe tærskel (som ændrer sig med træningen). Det (vigtige) langsomme løbetempo vil for de fleste passe med mellem 120-150 i pulsslag.
 - **Tempo**. Du kan udregne dit løbetempo ud fra din løbehastighed på dit seneste maksimale løb. Du kan bruge [Jack Daniels løbsberegner til at udregne dit løbetempo]({% link _posts/2020-08-01-jack-daniels-loebeberegner.md %}). Hvis du laver et løbeprogram baseret på beregneren, så er det utrolig vigtigt, at du respekterer det langsomme løb.
 - **Watt**. Hvis du fx har en Stryd Wattmåler, så kan du bruge den til at planlægge træningen. Den har samme fordele som at basere træningen på baggrund af pulsen.
+
+## Konklusion
+
+Jeg har skrevet mere om [forskellige løbeprogrammer](/loebeprogrammer/), hvis du gerne vil finde ud af, hvilket løbeprogram, der er det rigtige for dig. I denne artikel har vi forsøgt at give nogle overordnede pejlemærker for, hvordan du kan skrue din løbetræning sammen.
 
 ## Køb en watt måler til løb
 

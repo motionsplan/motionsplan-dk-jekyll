@@ -1,5 +1,6 @@
 ---
 title: "Den tohovedede knæbøjer"
+seo_title: "Den tohovedede knæbøjer | Biceps Femoris | Muskler"
 joint:
   - Knæleddet
   - Hofteleddet
@@ -17,10 +18,10 @@ tags:
   - muskel
 categories:
   - Muskler
-origin: 
-  da: 
-insertion: 
-  da: 
+origin:
+  da:
+insertion:
+  da:
 function:
   da:
     - short: Fleksion i knæleddet
@@ -38,5 +39,7 @@ coords:
   - "429,285,421,284,414,305,410,328,409,343,417,345,422,328,425,305"
   - "483,284,491,282,499,304,501,319,503,330,505,344,496,348,491,329,487,301"
 ---
+
+{{ page.name.da | capitalize }} hedder på latin *{{ page.name.latin | downcase }}*. Musklen laver {% for f in page.function.da %}{% if forloop.last == true and page.function.da.size > 1 %} og {% endif %}{{ f.short | downcase  }}{% if forloop.last == false and page.function.da.size > 1 %}, {% endif %}{% endfor %}. Musklen er en del af {{ page.functional_group | join: ", " | downcase }}.
 
 Biceps femoris er en del af baglåret eller _hamstrings_ sammen med [semitendinosus]({% link _anatomy/semitendinosus.md %}) og [semimembranosus]({% link _anatomy/semimembranosus.md %}).

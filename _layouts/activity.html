@@ -35,6 +35,9 @@ url
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
           {% if page.title %}<h1 id="page-title" class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+          {% assign edit_url = 'https://github.com/{{site.repository}}/edit/master/' | append: page.path | absolute_url %}
+          {% assign edit_url = '/admin/#/collections/exercises/entries/' | append: page.slug | absolute_url %}
+          <p><a href="{{ edit_url }}" rel="nofollow noopener"><i class="fas fa-pencil-alt" aria-hidden="true"></i> Hjælp med at forbedre denne side</a></p>
           {% if page.read_time %}
             <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
           {% endif %}
@@ -51,7 +54,9 @@ url
           </aside>
         {% endif %}
 
-        {{ page.excerpt }}
+        {{ page.excerpt | markdownify }}
+
+        <hr>
 
         {% if page.video %}
           {% include video provider=page.video.provider id=page.video.id %}
@@ -66,7 +71,7 @@ url
         {% if page.alternative_titles.size > 0 %}
           <p><strong>Alternative navne</strong>: {{ page.alternative_titles | join: ", " }}</p>
         {% endif %}
-        
+
         <div>
           {% if page.muscle_group and page.muscle_group != "" and page.muscle_group.size > 0 %}
             <strong>Muskelgruppe</strong>: {{ page.muscle_group | join: ", " }}<br />

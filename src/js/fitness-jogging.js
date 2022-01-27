@@ -26,7 +26,7 @@ motionsplan.VO2MaxJog = function(sex, age, weight, time, hr) {
     return getMaximalOxygenUptakeGeorge();
   }
 
-  var publicAPI = {
+  let publicAPI = {
     getMaximalOxygenUptake: getMaximalOxygenUptake,
     getFitnessLevel : getFitnessLevel
 

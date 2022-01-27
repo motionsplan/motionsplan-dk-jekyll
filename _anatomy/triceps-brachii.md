@@ -1,5 +1,6 @@
 ---
-title: Trehovede armstrækker - Triceps Brachii
+title: Trehovede armstrækker
+seo_title: "Trehovede armstrækker | Triceps Brachii | Muskler"
 functional_group:
   - Armens bagudføring
   - Armstrækkere
@@ -42,12 +43,14 @@ coords:
   - "510,119,508,137,523,170,533,176,537,162,531,135"
 ---
 
+{{ page.name.da | capitalize }} hedder på latin *{{ page.name.latin | downcase }}*. Musklen laver {% for f in page.function.da %}{% if forloop.last == true and page.function.da.size > 1 %} og {% endif %}{{ f.short | downcase  }}{% if forloop.last == false and page.function.da.size > 1 %}, {% endif %}{% endfor %}. Musklen er en del af {{ page.functional_group | join: ", " | downcase }}.
+
 Triceps brachii er også kendt som triceps. Triceps brachii får navnet fra dens tre muskler. Musklen er placeret bag på overamen og står for hele muskulaturen på bagsiden af overarmen (den posteriore del).
 
-**Det lange hoved** (caput longum) af triceps brachii udspringer fra tuberculum infraglenoidale og løber ned mellem teres minor og major for at slutte sig til de to andre hoveder. 
+**Det lange hoved** (caput longum) af triceps brachii udspringer fra tuberculum infraglenoidale og løber ned mellem teres minor og major for at slutte sig til de to andre hoveder.
 
-Det **laterale hoved** (caput laterale) af triceps brachii udspringer fra den proksimale del af humerus under tuberculum majus. 
+Det **laterale hoved** (caput laterale) af triceps brachii udspringer fra den proksimale del af humerus under tuberculum majus.
 
-Det **mediale hoved** (caput mediale) ligger under de to andre hoveder og udspringer under det laterale hoved. 
+Det **mediale hoved** (caput mediale) ligger under de to andre hoveder og udspringer under det laterale hoved.
 
 Triceps senen løber hen over albuen posteriort og tilhæfter sig på olecranon på ulna. Da musklen løber ned over albuen vertikalt, laver den ekstension i albuen. Den har ikke nogen tilhæftning på radius, derfor laver triceps ikke pronation eller supination.

@@ -10,7 +10,7 @@ header:
   teaser: /assets/images/exercises/wall-climber-0-320.jpg
 tags: []
 categories: []
-training_type: [] 
+training_type: []
 training_focus: []
 equipment: []
 muscle_group: []
@@ -29,6 +29,7 @@ gallery:
     title: "Wall climber"
 last_modified_at: 2014-10-10T21:21:30Z
 ---
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}
 
 Øvelsen er rigtig hård. Det er vigtigt at spænde godt op i kropsstammen, mens man udfører øvelsen.
 

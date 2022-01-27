@@ -38,9 +38,10 @@ function KalorieSearch() {
 }
 </script>
 
+<div class="full">
 <input type="text" id="kalorie_search" onkeyup="KalorieSearch()" placeholder="Søg efter fødevarer...">
 
-<table id="kalorietabellen">
+<table id="kalorietabellen" class="full" width="100%">
   {% for row in kalorie_values limit: limit %}
     {% if forloop.first %}
     <thead>
@@ -55,9 +56,9 @@ function KalorieSearch() {
     </tr>
     </thead>
     {% endif %}
-    {% if forloop.length == 1 %}
+    {% if forloop.index == 1 %}
     <tbody>
-    {% endif %}
+    {% else %}
       <tr>
         <td>{{ row.Navn }}</td>
         <td>{{ row.kJ }}</td>
@@ -67,7 +68,10 @@ function KalorieSearch() {
         <td>{{ row.Kostfibre }}</td>
         <td>{{ row.Fedt }}</td>
       </tr>
+    {% endif %}
     {% if forloop.last %}
+    </tbody>
     {% endif %}
   {% endfor %}
 </table>
+</div>

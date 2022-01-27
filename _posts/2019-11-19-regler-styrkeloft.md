@@ -9,6 +9,7 @@ header:
   actions:
     - label: "<i class='fas fa-file-excel'></i> Sheet med forslag til forsøg"
       url: https://docs.google.com/spreadsheets/d/1kMTZgF90j0krcd7TFsMvhpsI0fCo1fqSwNXHOmJKKYA/copy?usp=sharing
+      rel: nofollow noopener
 category:
   - Styrketræning
 tags:
@@ -33,6 +34,7 @@ feature_row_spreadsheet:
     title: "Udregn dine forsøg"
     excerpt: "Du kan bruge dette Google Sheet til at hjælpe med at udregne dine tre forsøg til dit styrkeløftstævne."
     url: https://docs.google.com/spreadsheets/d/1kMTZgF90j0krcd7TFsMvhpsI0fCo1fqSwNXHOmJKKYA/copy?usp=sharing
+    rel: nofollow noopener
     btn_label: "<i class='fas fa-file-excel'></i> Sheet med forslag til forsøg"
     btn_class: "btn--success"
 feature_row_books:
@@ -55,13 +57,13 @@ quiz:
       ![Bænkpres](https://i.ytimg.com/vi/q3uQE0yugH8/maxresdefault.jpg)
 ---
 
-Styrkeløft er en sport, hvor man konkurrerer i at løfte så mange kilo som muligt i disciplinerne squat, bænkpres og dødløft. Styrkeløft kan enten udføres med udstyr (særlige dragter) eller klassisk (raw). Jeg har kigget lidt på reglerne til de forskellige discipliner i styrkeløft.
+Styrkeløft er en sport, hvor man konkurrerer i at løfte så mange kg som muligt i disciplinerne squat, bænkpres og dødløft. Styrkeløft kan enten udføres med udstyr (særlige dragter) eller klassisk (raw). Jeg har kigget lidt på reglerne til de forskellige discipliner i styrkeløft.
 
 *[IPF]: International Powerlifting Federation
 
 I konkurrencer i styrkeløft er løfterne delt op i vægtklasser, hvor man konkurrerer internt om at løfte mest totalt i de tre løft.
 
-Vægtklasserne kan også sammenlignes med hinanden ved hjælp af IPF-point, som er blevet introduceret for nyligt (tidligere brugte man nemlig Wilks til sammenligning af st(yrkeløftere). Jeg har skrevet lidt om at [sammenligne styrke på tværs af forskellig vægt her]({% link _posts/2019-10-31-sammenligning-styrke.md %}).
+Vægtklasserne kan også sammenlignes med hinanden ved hjælp af IPF-point, som er blevet introduceret for nyligt (tidligere brugte man nemlig Wilks til sammenligning af styrkeløftere). Jeg har skrevet lidt om at [sammenligne styrke på tværs af forskellig kropsvægt her]({% link _posts/2019-10-31-sammenligning-styrke.md %}).
 
 I Danmark hedder forbundet _Dansk Styrkeløft Forbund (DSF)_ og hører hjemme på [styrke.dk](https://styrke.dk/). Alle klubber i Danmark, der stiller op til konkurrencer, er medlem af Dansk Styrkeløft Forbund, som til gengæld er medlem af International Powerlifting Federation (IPF), som er verdens største styrkeløftforbund. Der findes andre store forbund, men IPF har ry for at være det med de skrappeste dopingtests.
 
@@ -93,8 +95,7 @@ I squat foregår det sådan her. Godkendt dybde er, når folden ved hofteleddet 
 
 Kommandoerne i squat er:
 
-- **Stangen er klar** eller **The bar is loaded**. Når man får kommandoen "Stangen er klar" eller på engelsk "The bar is loaded", så har man maksimalt et minut til at lave sit forsøg.
-- **Unrack**. Når du går ud af racket, så sørg for at stå helt oprejst med knæene strakte.
+- **Stangen er klar** eller **The bar is loaded**. Når man får kommandoen "Stangen er klar" eller på engelsk "The bar is loaded", så har man maksimalt et minut til at lave sit forsøg Unrack vægtstangen. Når du går ud af racket, så sørg for at stå helt oprejst med knæene strakte.
 - Vent på **"Squat!"**-kommandoen. Squat ned så hofteleddet er lavere end knæleddet. Rejs dig igen.
 - Vent på **"Rack"**-kommandoen.
 

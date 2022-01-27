@@ -1,11 +1,12 @@
 ---
-title: "Naturfitness: 38 øvelser til udendørs træning og fitness [2021]"
+title: "Naturfitness: 38 øvelser til udendørs træning og fitness"
+seo_title: "Naturfitness: 38 øvelser til udendørs træning og fitness [2022]"
 permalink: /naturfitness/
 last_modified_at: 2020-06-24T09:41:09Z
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1415298910336-daa47babb3cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=80
-  teaser: https://images.unsplash.com/photo-1415298910336-daa47babb3cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1415298910336-daa47babb3cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1415298910336-daa47babb3cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: "Naturfitness: 38 øvelser til udendørs træning og outdoor fitness"
 category:
   - Træning
@@ -175,7 +176,6 @@ feature_row_stretching:
     title: "u13. Ryg"
     alt: "Udendørs træning - u13. Ryg"
     excerpt: "Tag fat med begge hænder og lad dig hænge fra en gren eller stang. Slap af. Mærk strækket i overkroppen."
-classes: wide
 ---
 
 Vi har rigtig mange muligheder for at lave udendørs træning og fitness i Danmark. Vi kan både bruge skovene, parkerne, men også byerne til at lave outdoor fitness.

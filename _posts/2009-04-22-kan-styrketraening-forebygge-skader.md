@@ -3,6 +3,7 @@ last_modified_at: 2020-02-13T22:23:01.000Z
 author: martin.madsen
 permalink: /artikel/kan-styrketraening-forebygge-skader/
 title: "Forebyggelse af skader: Hvad er mest effektivt til skadesforebyggelse?"
+seo_title: "Hvordan forebygger du skader mest effektivt?"
 header:
   overlay_image: /assets/images/blog/kan-styrketraening-forebygge-skader.jpg
   teaser: /assets/images/blog/kan-styrketraening-forebygge-skader.jpg
@@ -41,7 +42,7 @@ Balancetræning i forskellige former har vist at nedsætte risikoen for ankel og
 
 Plyometri har i flere studier vist at skabe større stabilitet omkring knæleddet. Mekanismen bag den plyometriske træning er ikke helt klarlagt, men der sker en forbedring af balancen og stabiliteten, og den øgede stivhed betyder sandsynligvis, at muskler og muskelsener tager imod stød ved landinger og elementer i knæleddet derved skånes (Chimera et al 2004). 
 
-Plyometrisk træning har også vist at forbedre styrkebalancen mellem forlår (quadriceps) og baglår (hasemuskulaturen). Dette menes at være beskyttende mod korsbåndsskader ved høje vinkelhastigheder, som opstår ved eksempelvis hop og sprint. Dette betyder, at sportsudøvere bør ligge vægt på at få trænet både quadriceps og hasemuskulaturen (Myklebust 2004, Soderman 2000).
+[Plyometrisk træning](/plyometrisk-traening/) har også vist at forbedre styrkebalancen mellem forlår (quadriceps) og baglår (hasemuskulaturen). Dette menes at være beskyttende mod korsbåndsskader ved høje vinkelhastigheder, som opstår ved eksempelvis hop og sprint. Dette betyder, at sportsudøvere bør ligge vægt på at få trænet både quadriceps og hasemuskulaturen (Myklebust 2004, Soderman 2000).
 
 ## Styrketræning forebygger skader
 

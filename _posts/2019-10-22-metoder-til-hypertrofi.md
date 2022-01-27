@@ -4,8 +4,8 @@ permalink: /hypertrofi-metoder/
 excerpt: "Hypertrofi og maksimal muskeltilvækst skabes af mekaniske belastning på musklerne gennem regelmæssig styrketræning. Der er flere metoder der kan skabe tilstrækkelig belastning og udtrætning af musklerne."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
-  teaser: https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
 category:
   - Styrketræning
 tags:
@@ -60,25 +60,16 @@ Du kan både bruge waves til maksimal styrke og hypertrofi. Hvis du gerne vil br
 
 Et eksempel kan være en squat.
 
-- 1. wave: x12 @8, x10 @8, x8 @8
-- 2. wave: x12, x10, x8 (hæv vægten alt efter overskud)
+- 1\. wave: x12 @8, x10 @8, x8 @8
+- 2\. wave: x12, x10, x8 (hæv vægten alt efter overskud)
 
-## Maximum mTor-activation
-
-mTor er vigtig i forhold til at sætte gang i proteinsyntesen, som skal få musklerne til at vokse. Ved at fokusere på den excentriske del af bevægelsen og loade musklen under stræk er efter sigende det, der forøger forekomsten af mTor mest. Fx kan du udføre dit sæt på følgende måde med fx curls.
-
-- Først laver du to almindelige sæt med 2x6 @ RPE 9.
-- I tredje sæt sænker du en vægten langsomt over 5 sekunder, mens du spænder musklerne alt hvad du kan hele tiden.
-- Du holder den fulde stræk position i so sekunder.
-- Lav 6-8 gentagelser på denne måde - og på den sidste rep holder du strækpositionen så længe du kan tolerere.
-
-## Agonist supersæt
+## Compound sæt - Agonist supersæt
 
 Der er forskellige måder at køre supersæt, hvor alle øvelserne rammer den primære bevægelsesmuskel. Typisk vil man starte med den største og tungeste øvelse og så vælge andre varianter af bevægelsesmønsteret.
 
 ## Pre-exhaust superset
 
-I et pre-exhaust supersæt udfører du først en isolationsøvelse for en muskel og dernæst en flerledsøvelse, der involverer samme musikelgruppe.
+I et pre-exhaust supersæt udfører du først en isolationsøvelse for en muskel og dernæst en flerledsøvelse, der involverer samme muskelgruppe.
 
 Et eksempel kan være at vi vil ramme triceps.
 
@@ -91,6 +82,13 @@ Du udmatter triceps i isolationsøvelsen, men kan stadig aktivere den i den smal
 
 Det er nogle af de metoder, du kan bruge i forbindelse med styrketræning og hypertrofi.
 
+{% assign methods = site.methods | where: "tags", "hypertrofi" %}
+
+{%- for m in methods -%}
+- [{{ m.title }}]({{ m.url }})
+{% endfor %}
+
+{% comment %}
 - Pyramide
 - Omvendt pyramide
 - 1 1/4
@@ -99,6 +97,7 @@ Det er nogle af de metoder, du kan bruge i forbindelse med styrketræning og hyp
 - Giantsets
 - 6-12-25
 - 10 x 10
+{% endcomment %}
 
 Hvilke metoder holder du mest af?
 

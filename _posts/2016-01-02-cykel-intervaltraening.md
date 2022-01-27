@@ -1,13 +1,15 @@
 ---
-title: &title "Effektiv intervaltræning til cykling med spurter og mælkesyre 🚴🚴‍♀️"
+title: &title "Cykeltræning: Effektiv intervaltræning til cykling 🚴🚴‍♀️"
+seo_title: "Cykeltræning: Effektiv intervaltræning til cykling"
 permalink: /intervaltraening-cykling/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1607109329787-d5133183ee57?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80
-  teaser: https://images.unsplash.com/photo-1607109329787-d5133183ee57?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1607109329787-d5133183ee57?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1607109329787-d5133183ee57?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Kondition
+  - Cykling
 tags:
   - konditionstræning
   - cykling

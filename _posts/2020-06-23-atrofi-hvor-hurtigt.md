@@ -3,8 +3,8 @@ title: &title "Hvor hurtigt forsvinder muskler, muskelmasse og muskelstyrke?"
 permalink: /atrofi-muskelmasse-muskelstyrke/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1519156062512-8e563047dc6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1902&q=80
-  teaser: https://images.unsplash.com/photo-1519156062512-8e563047dc6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1519156062512-8e563047dc6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1519156062512-8e563047dc6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Viden om
@@ -45,7 +45,7 @@ Hvor meget muskelmasse man taber i en træningspause hænger naturligvis sammen 
 
 - **Træningserfaring**. Jo længere du har trænet kontinuerligt, jo længere kan du holde på muskelmassen (McMaster et al 2013).
 - **Graden af inaktivitet i pausen**. Desto højere aktivitetsniveau, du kan opretholde i træningspausen, desto længere kan du opretholde muskelstyrken og muskelmassen (McMaster et al 2013).
-- **Kosten**. Et proteinindtag på mere end 1 gram pr. kilo kropsvægt kan være med til at sænke hastighedden for tabet af styrke og muskelmasse (English et al 2010).
+- **Kosten**. Et proteinindtag på mere end 1 gram pr. kg kropsvægt kan være med til at sænke hastighedden for tabet af styrke og muskelmasse (English et al 2010).
 - **Alderen**. Med alderen ændrer hormonniveauerne sig. Særligt hvis du er mere end 60 år gammel, så vil tabet af muskelmasse gå hurtigere.
 
 Desuden er der formentlig forskel på, hvordan detræning påvirker begyndere og trænede.
@@ -166,7 +166,7 @@ Hvis du er interesseret, så har jeg skrevet et andet indlæg om, [hvad de fysio
 - Andersen, Lars L., Jesper L. Andersen, S. Peter Magnusson, Charlotte Suetta, Jørgen L. Madsen, Lasse R. Christensen, og Per Aagaard. 2005. “Changes in the Human Muscle Force-Velocity Relationship in Response to Resistance Training and Subsequent Detraining”. Journal of Applied Physiology (Bethesda, Md.: 1985) 99 (1): 87–94. <https://doi.org/10.1152/japplphysiol.00091.2005>.
 - Bonaldo, Paolo, og Marco Sandri. 2013. “Cellular and molecular mechanisms of muscle atrophy”. Disease Models & Mechanisms 6 (1): 25–39. <https://doi.org/10.1242/dmm.010389>.
 - Bone, Julia L., Megan L. Ross, Kristyen A. Tomcik, Nikki A. Jeacocke, Will G. Hopkins, og Louise M. Burke. 2017. “Manipulation of Muscle Creatine and Glycogen Changes Dual X-Ray Absorptiometry Estimates of Body Composition”. Medicine and Science in Sports and Exercise 49 (5): 1029–35. <https://doi.org/10.1249/MSS.0000000000001174>.
-- Bruusgaard, J. C., I. B. Johansen, I. M. Egner, Z. A. Rana, og K. Gundersen. 2010. “Myonuclei Acquired by Overload Exercise Precede Hypertrophy and Are Not Lost on Detraining”. Proceedings of the National Academy of Sciences 107 (34): 15111–16. <https://doi.org/10.1073/pnas.0913935107>.
+- Bruusgaard, J. C., I. B. Johansen, I. M. Egner, Z. A. Rana, og K. Gundersen. 2010. “Myonuclei Acquired by Overload Exercise Precede Hypertrophy and Are Not Lost on Detraining”. Proceedings of the National Academy of Sciences 107 (34): 15111–16. <https://pubmed.ncbi.nlm.nih.gov/20713720/>.
 - Correa, Cleiton Silva, Bruno Manfredini Baroni, Régis Radaelli, Fábio Juner Lanferdini, Giovani Dos Santos Cunha, Álvaro Reischak-Oliveira, Marco Aurélio Vaz, og Ronei Silveira Pinto. 2013. “Effects of strength training and detraining on knee extensor strength, muscle volume and muscle quality in elderly women”. Age 35 (5): 1899–1904. <https://doi.org/10.1007/s11357-012-9478-7>.
 - Egner, Ingrid M, Jo C Bruusgaard, Einar Eftestøl, og Kristian Gundersen. 2013. “A cellular memory mechanism aids overload hypertrophy in muscle long after an episodic exposure to anabolic steroids”. The Journal of Physiology 591 (Pt 24): 6221–30. >https://doi.org/10.1113/jphysiol.2013.264457>.
 - English, Kirk L., og Douglas Paddon-Jones. 2010. “Protecting muscle mass and function in older adults during bed rest”. Current Opinion in Clinical Nutrition and Metabolic Care 13 (1): 34–39. <https://doi.org/10.1097/MCO.0b013e328333aa66>.

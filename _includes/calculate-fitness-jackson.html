@@ -1,0 +1,68 @@
+<form class="calculator" id="calculator_jackson">
+    <fieldset>
+        <legend>Indtast dine værdier</legend>
+        <div class="form-group">
+            <label>Køn
+            <select name="jackson_gender">
+                <option value="1">Mand</option>
+                <option value="0">Kvinde</option>
+            </select>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Alder (år)
+                <input type="number" min="10" max="220" name="jackson_age" id="jackson_age" placeholder="Alder i år" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Højde (cm)
+                <input type="number" min="10" max="220" name="jackson_height" id="jackson_height" placeholder="Højde i cm" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Vægt (kg)
+                <input type="number" min="20" max="200" name="jackson_weight" id="jackson_weight" placeholder="Vægt i kg" required>
+            </label>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Fysisk aktivitetsniveau for de seneste 6 måneder</legend>
+        <p>Deltager ikke jævnligt i fysisk aktivitet eller sport.</p>
+        <label class="radio">
+            <input type="radio" name="par" value="0" required> Undgår at gå eller motion (fx tager altid elevatorerne eller kører kører i bil i stedet for at gå).
+        </label>
+        <label class="radio">
+            <input type="radio" name="par" value="1"> Går for fornøjelsens skyld, tager jævnligt trapperne og motionerer engang imellem tilstrækkeligt til at blive forpustet og sveder.
+        </label>
+        <p>Deltager jævnligt i aktiviteter eller arbejde, der kræver moderat fysisk aktivitet (fx golf, ridning, calisthenics, gymnastik, bordtennis, bowling, styrketræning eller havearbejde).</p>
+        <label class="radio">
+            <input type="radio" name="par" value="2"> 10–60 minutter om ugen
+        </label>
+        <label class="radio">
+            <input type="radio" name="par" value="3"> Over 1 time om ugen
+        </label>
+        <p>Deltager jævnligt i hård fysisk aktivitet (fx løb eller jogging, svømning, cykling, roning, sjipning, eller løb på stedet) eller deltager i hårde aerobe aktiviteter (som tennis, basketball, eller håndbold).</p>
+        <label class="radio">
+            <input type="radio" name="par" value="4"> Løber mindre end 1,6 km om ugen eller bruger mindre end 30 minutes på sammenlignelig fysisk aktivitet.
+        </label>
+        <label class="radio">
+            <input type="radio" name="par" value="5"> Løber 1,5-8 km om ugen eller bruger 30-60 minutter om ugen på sammenlignelig fysisk aktivitet.
+        </label>
+        <label class="radio">
+            <input type="radio" name="par" value="6"> Løber 8-16 km om ugen eller bruger 1-3 timer på sammenlignelig fysisk aktivitet.
+        </label>
+        <label class="radio">
+            <input type="radio" name="par" value="7"> Løber mere end 16 km om ugen eller bruger mere end 3 timer på sammenlignelig fysisk aktivitet.
+        </label>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <div class="form-group">
+            <label>Kondital (ml/kg/min)
+                <input type="text" id="jackson_kondital" name="jackson_kondital" disabled>
+            </label>
+        </div>
+    </fieldset>
+    <p>Spørgsmålene er oversat fra <a href="https://www.topendsports.com/testing/tests/non-exercise.htm">Jackson (1990)</a> af mig. Hvis du har en bedre oversættelse, så skriv endelig.</p>
+    {% include calculator-footer.html %}
+</form>

@@ -78,7 +78,7 @@ Anders Krintel fortæller selv, at man langsomt skal vænne sig til at roning p�
 
 Du kan altså bruge en anstrengelsesskala til at styre din intensitet i træningen, så du rammer nogenlunde det, du har forberedt. Anders Krintel foreslår, at hvis du træner 4 x om ugen, så er der tre længere træningspas med lavere intensitet og et rigtig hårdt træningspas.
 
-Det kunne fx se sådan her ud ud fra den en [intensitetsskala](/borg/), der går fra 1-10:
+Det kunne fx se sådan her ud ud fra den en [intensitetsskala](/borg-skala/), der går fra 1-10:
 
 | Ugedag | Varighed | RPE |
 |-|-|-|
@@ -152,7 +152,7 @@ Krintel kan godt lide, når tallene passer sammen. Hans kommentar til dette inte
 
 Hele tiden 1 minutters pause mellem de enkelte intervaller.
 
-{% include figure image_path="https://images.unsplash.com/photo-1519505907962-0a6cb0167c73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" caption="Den mest anerkendte indendørs romaskine er Concept2. Du kan tjekke prisen hos [fitnessgruppen.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/concept-2-model-d-sort-pm5/){: rel='sponsored nofollow noopener' }" alt="Concept2: Ro programmer med intervaller til et indendørs træningsprogram til roning med intervaltræning og rotræning" %}
+{% include figure image_path="https://images.unsplash.com/photo-1519505907962-0a6cb0167c73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=5" caption="Den mest anerkendte indendørs romaskine er Concept2. Du kan tjekke [prisen på en romaskine her](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/concept-2-model-d-sort-pm5/){: rel='sponsored nofollow noopener' }" alt="Concept2: Ro programmer med intervaller til et indendørs træningsprogram til roning med intervaltræning og rotræning" %}
 
 ### 90 seconds shuffle
 
@@ -243,7 +243,7 @@ Træningsprogrammerne skifter, så du kan altid få lidt ny inspiration til din 
 
 ## Ergometertræning for øvede fra roning.dk
 
-{% include figure image_path="https://images.unsplash.com/photo-1519505645104-c7be90e0d630?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80" caption="En romaskine kaldes også for et ergometer. Ergometertræning på romaskine er effektiv træning af konditionen og forbrændingen." %}
+{% include figure image_path="https://images.unsplash.com/photo-1519505645104-c7be90e0d630?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=600&q=5" caption="En romaskine kaldes også for et ergometer. Ergometertræning på romaskine er effektiv træning af konditionen og forbrændingen." %}
 
 Roere kalder en romaskine for et _ergometer_, og træning på en romaskine for _ergometertræning_. Dansk Forening for Rosport har på [roning.dk](https://www.roning.dk) samlet en masse viden om roning.
 
@@ -274,11 +274,11 @@ Kadencen er et vigtigt parameter, når du laver rotræning. Det er også tænkt 
 - **Første 5 uger**: Start med ca. 20 tag pr. minut. I denne periode gælder det først og fremmest om at arbejde med teknikken.
 - **Sidste 5 uger**: Rigtige roere arbejder med en kadence på 22-25 tag pr. minut. Det skal du også i gang med i denne fase
 
-Jeg har stillet træningsprogrammet op i en [overskuelig tabel her](https://docs.google.com/document/d/1oEJo8Nc8s1vFBPBy25LbP-2TBj78_KwQm9Vv_wsQLcI/copy?usp=sharing). Så er det bare at printe den ud og starte træningen på romaskinen.
+Jeg har stillet træningsprogrammet op i en [overskuelig tabel her](https://docs.google.com/document/d/1oEJo8Nc8s1vFBPBy25LbP-2TBj78_KwQm9Vv_wsQLcI/copy?usp=sharing){: rel="nofollow noopener" }. Så er det bare at printe den ud og starte træningen på romaskinen.
 
 ## Concept2 træningsprogram til begyndere
 
-{% include figure image_path="https://images.unsplash.com/photo-1520536363714-9459b8f1af72?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80" caption="Romaskine og roergometer er godt til at træne kondition, forbrænding og styrke" alt="Romaskiner og roergometere er en type cardiomaskine og en af de populære cardiomaskiner" %}
+{% include figure image_path="https://images.unsplash.com/photo-1520536363714-9459b8f1af72?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=600&q=5" caption="Romaskine og roergometer er godt til at træne kondition, forbrænding og styrke" alt="Romaskiner og roergometere er en type cardiomaskine og en af de populære cardiomaskiner" %}
 
 Concept2 har også lavet et [træningsprogram til begyndere](https://www.concept2.com/indoor-rowers/training/tips-and-general-info/first-workouts). Her varieres rotræningen mellem intensive intervaller i pyramidetræning og længere distancer og tid. Det er et fint program, hvis du skal i gang med træningen.
 

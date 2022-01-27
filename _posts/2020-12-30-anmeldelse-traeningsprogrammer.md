@@ -5,17 +5,17 @@ redirect_from:
   - /artikel/opbygning-af-program/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1516481157630-05bc0aeb8b19?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80
-  teaser: https://images.unsplash.com/photo-1516481157630-05bc0aeb8b19?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1516481157630-05bc0aeb8b19?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1516481157630-05bc0aeb8b19?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
+category:
+  - Styrketræning
+  - Træningsprogrammer
 tags:
-  - træningsplanlægning
   - styrketræning
   - styrketræningsprogrammer
   - programanmeldelse
-  - programlægning
-category:
-  - Styrketræning
+  - træningsprogram
 last_modified_at: 2021-04-27T22:21:26Z
 ---
 
@@ -103,7 +103,7 @@ Eric Helms har lavet et par rigtig gode videoer, som du kan tage udgangspunkt i.
 
 ## Helkropsprogram eller splitprogram
 
-Selv avancerede løftere kan træne helkropsprogrammer hver gang, men det handler om at programmere det rigtigt, så du kan restituere.
+Selv avancerede løftere kan træne helkropsprogrammer hver gang, men det handler om at programmere det rigtigt, så du kan restituere mellem træningerne. Jeg har skrevet mere om, [hvordan du vælger mellem helkropsprogram og splitprogrammer her]({% link _posts/2021-08-16-saadan-vaelger-program.md %}).
 
 Du kan grundlæggende fx vælge mellem følgende programtyper:
 
@@ -157,6 +157,13 @@ Hvad tænker du på, når du laver dine styrketræningsprogrammer?
 {% endif %}
 
 </div>
+
+## Bedste træningsprogram?
+
+Det bedste træningsprogram er det program du rent faktisk laver. Her har vi samlet en lang række parametre for, hvad et godt træningsprogram skal indeholde. De fleste af disse programmer er blevet brugt rigtig meget, så det er op til dig at vurdere, hvad det bedste træningsprogram er.
+
+Du kan tjekke [alle vores gratis træningsprogrammer her](/traeningsprogrammer/).
+
 
 {% comment %}
 

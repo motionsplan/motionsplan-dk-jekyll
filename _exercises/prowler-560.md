@@ -1,6 +1,5 @@
 ---
 title: "Prowler"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/prowler/
 redirect_from: /node/560
@@ -22,10 +21,10 @@ tags:
   - crossfit
 categories:
   - Helkropsøvelse
-training_type: 
+training_type:
   - Kondition
   - Styrketræning
-training_focus: 
+training_focus:
   - helkropsøvelse
 equipment:
   - prowler
@@ -46,3 +45,5 @@ gallery:
     title: "Prowler"
 last_modified_at: 2016-01-11T08:39:24Z
 ---
+
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}

@@ -2,11 +2,12 @@
 layout: single
 permalink: /balleoevelser/
 title: "Balleøvelser: De mest effektive styrkeøvelser til ballerne 🏋"
+seo_title: "Baldeøvelser: Effektive træningsøvelser for balderne"
 author_profile: true
 classes: wide
 header:
-  overlay_image: https://images.unsplash.com/flagged/photo-1566063900259-8ee0cb283b3b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
-  teaser: https://images.unsplash.com/flagged/photo-1566063900259-8ee0cb283b3b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/flagged/photo-1566063900259-8ee0cb283b3b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/flagged/photo-1566063900259-8ee0cb283b3b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: "Balleøvelser: De mest effektive styrkeøvelser til ballerne"
 excerpt: "Dine baller bliver trænet i mange forskellige bevægelser. Du træner ballerne mest effektivt ved at lave en udstrækning af hoften og en udadrotation i hoften."
 categories:

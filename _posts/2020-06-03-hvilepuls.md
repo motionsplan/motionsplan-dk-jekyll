@@ -1,12 +1,12 @@
 ---
-title: &title "Hvilepuls 💓 Hvad er hvilepulsen og hvordan måles den?"
+title: &title "Hvilepuls: Hvad er hvilepulsen og hvordan måles den? 💓"
 seo_title: "Hvilepuls - Alt du skal vide for mænd og kvinder [Tabel]"
 description: "Alt du skal vide om hvilepuls? ✓ Tabel for mænd og kvinder over hvad en god hvilepuls er ✓ Hvordan måler man den, og hvordan kan du følge effekten af din træning og dit velbefindende?"
 permalink: /hvilepuls/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1579123480439-dcc379da4707?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80
-  teaser: https://images.unsplash.com/photo-1579123480439-dcc379da4707?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1579123480439-dcc379da4707?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1579123480439-dcc379da4707?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
   alt: Photo by Jude Beck on Unsplash
   overlay_filter: 0.2
@@ -71,7 +71,7 @@ Hvis du vil læse om flere [tilpasninger ved konditionstræning, så kan du læs
 
 Hvilepulsen ligger typisk i intervallet fra 40 og 100 hos almindelige raske personer. Ekstremt veltrænede udholdenhedsatleter kan have en hvilepuls helt nede omkring 30.
 
-Hvilepulsen varierer meget fra person til person. Hvilepulsen er påvirket af mange faktorer som fx alder, køn, sygdom og stress, og den er også følsom over visse typer medicin.
+Hvilepulsen varierer meget fra person til person. Hvilepulsen er påvirket af mange faktorer som fx alder, køn, sygdom og [stress]({% link _posts/2021-11-10-stress.md %}), og den er også følsom over visse typer medicin.
 
 Hvis vi kigger på raske mennesker, så kan det være et mål med sin træning at sænke sin hvilepuls ved at lave passende udholdenhedstrænng for kredsløbet. Hjertet skal ganske enkelt arbejde mindre. Desuden er der en masse afledte sundhedsmæssige konsekvenser af pulstræningen.
 

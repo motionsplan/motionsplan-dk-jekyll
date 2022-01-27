@@ -1,6 +1,5 @@
 ---
 title: "Step out with high lift in cable"
-excerpt: ""
 instructions: ""
 permalink: /oevelse/step-out-high-lift-cable/
 redirect_from: /node/725
@@ -18,17 +17,17 @@ tags:
   - Mave
 categories:
   - Kropsstamme
-training_type: 
+training_type:
   - Balance
   - Styrketræning
-training_focus: 
+training_focus:
   - kropsstamme
 equipment:
   - kabeltræk
 muscle_group:
   - Core
   - Mave
-alternative_titles:
+alternative_titles: []
 gallery:
   - url: /assets/images/exercises/step-out-high-lift-cable-0.jpg
     image_path: /assets/images/exercises/step-out-high-lift-cable-0-320.jpg
@@ -40,3 +39,4 @@ gallery:
     title: "Step out with high lift in cable"
 last_modified_at: 2016-10-18T07:29:17Z
 ---
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}

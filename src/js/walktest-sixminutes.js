@@ -43,7 +43,7 @@ motionsplan.SixMinutesWalkingTest = function(sex, age, height, weight, meter) {
     return (meter / getReferenceMeter(repeated) * 100);
   }
 
-  var publicAPI = {
+  let publicAPI = {
     getReferenceMeter : getReferenceMeter,
     getPercent : getPercent
   };

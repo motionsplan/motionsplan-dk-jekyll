@@ -17,7 +17,7 @@ motionsplan.Lung = function(sex, height, age) {
     return (21.78 - 0.101 * age) * height;
   }
 
-  var publicAPI = {
+  let publicAPI = {
     getVitalCapacity : getVitalCapacity
 
   };

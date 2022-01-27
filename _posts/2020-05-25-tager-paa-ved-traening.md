@@ -3,8 +3,8 @@ title: &title "Hvorfor tager jeg på, når jeg træner? 7 ufarlige fordele!"
 permalink: /vaegt-stiger-traening/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1569956726914-a9db65466c5b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80
-  teaser: https://images.unsplash.com/photo-1569956726914-a9db65466c5b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1569956726914-a9db65466c5b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1569956726914-a9db65466c5b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   overlay_filter: 0.8
   caption: *title
   alt: "Photo by Jen Theodore on Unsplash"
@@ -150,7 +150,7 @@ Jeg synes selv det er spændende at dykke lidt ned i de forskellige modeller, de
  
 Du kan altså ikke bruge din vægt som indikator for, om din træning hjælper. Din vægt vil svinge op og ned flere gange om dagen.
 
-Der er mange årsager til, at vægten kan stige når du begynder at træne. Hård træning skaber en en tilstand i kroppen med hævelse, fordi kroppen genopbygger. Hvis du tager kreativ binder det også vand. Dit hormonspejl ændrer sig lidt. Hvis du er stresset, kan din vægt stige lidt.
+Der er mange årsager til, at vægten kan stige når du begynder at træne. Hård træning skaber en en tilstand i kroppen med hævelse, fordi kroppen genopbygger. Hvis du tager kreativ binder det også vand. Dit hormonspejl ændrer sig lidt. [Hvis du er stresset]({% link _posts/2021-11-10-stress.md %}), kan din vægt stige lidt.
 
 Du slipper aldrig af med pludselige vægtændringer.
 

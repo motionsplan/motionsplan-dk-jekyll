@@ -11,8 +11,8 @@ tags:
   - måtte
   - mats mejdevi
 categories: []
-training_type: 
-training_focus: 
+training_type:
+training_focus:
   - kropsstamme
 equipment:
   - måtte
@@ -21,6 +21,6 @@ gallery:
 last_modified_at: 2011-10-31T13:17:55Z
 ---
 
- Du lægger dig på ryggen, og løfter ben og overkrop. Du vugger frem og tilbage, og ved hvert andet vug, løfter du benene højt op over hovedet.
+Du lægger dig på ryggen, og løfter ben og overkrop. Du vugger frem og tilbage, og ved hvert andet vug, løfter du benene højt op over hovedet.
 
 En øvelse hvor der arbejdes med kropsstammen og kontrol af denne. Der ligges på ryggen, hvor der vugges frem og tilbage

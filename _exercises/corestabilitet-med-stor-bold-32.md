@@ -11,7 +11,7 @@ header:
 tags:
   - swissball
 categories: []
-training_type: [] 
+training_type: []
 training_focus: []
 equipment:
   - swissball
@@ -42,5 +42,7 @@ video:
   id: 5046212
 last_modified_at: 2011-04-07T08:13:12Z
 ---
+
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}
 
 Siddende på knæene med hænderne på bolden begynder du langsomt at skubbe bolden længere og længere væk, indtil den er så langt væk som du kan. Derefter trækker du bolden ind mod dig selv igen. Sørg for at spænde godt op i mave, baller og ryg mens du laver øvelsen.

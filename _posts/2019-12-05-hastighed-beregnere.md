@@ -5,8 +5,8 @@ permalink: /hastighed/
 excerpt: "Beregn din hastighed i km/t, m/s eller min/km, så du ved hvor hurtigt du løber eller cykler. Du kan også se en tabel, så du ikke behøver at regne."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1585218059208-5cfd7659560b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80
-  teaser: https://images.unsplash.com/photo-1585218059208-5cfd7659560b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1585218059208-5cfd7659560b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1585218059208-5cfd7659560b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Beregnere
@@ -21,8 +21,9 @@ feature_row:
     title: "Skema med hastighed og pace"
     excerpt: "Tabel med hastighed og pace lige til at skrive ud. Her kan du hurtigt se, hvad en hastighed i km/t eller m/s svarer til i dit pace i min/km."
     url: https://docs.google.com/document/d/1Q-fvW4lL2wygQB4UyNnxrkq4sknXczDUSF7tw8hV-do/copy?usp=sharing
-    btn_label: "Udskriv hastighedstabel"
+    btn_label: "<i class='fas fa-file-alt'></i> Udskriv hastighedstabel"
     btn_class: "btn--success"
+    rel: nofollow noopener
 ---
 
 Når jeg laver træningsprogrammer til løb eller cykling, vil jeg typisk gerne kende den hastighed og tempo, jeg skal træne med. Jeg har lavet en beregner og en tabel, som kan hjælpe med at beregne km/t, m/s og min/km og derved finde din løbehastighed og cykelhastighed.
@@ -43,12 +44,12 @@ Hvis du leder efter en [løbsberegner til at udregne løbehastigheder for træni
 
 Typisk kan man i angive hastigheden på to forskellige måder:
 
-- **hastighed i km/t**. Den hastighed kender du fra sit spedometer i bilen, så den er let at forholde sig til. Typisk er det også den hastighed, man kan indstille på et løbebånd. Jeg synes, at den er lidt vanskeligere at bruge, når man er ude på en løbetur.
+- **hastighed i km/t**. Den hastighed kender du fra sit spedometer i bilen, så den er let at forholde sig til. Typisk er det også den hastighed, man kan indstille på et løbebånd. Jeg synes, at den er lidt vanskeligere at bruge, når man er ude på en løbetur. Du kan også udregne hastighed i m/s.
 - **pace i min/km**. På løbeture foretrækker jeg at forholde mig til, hvor mange minutter jeg bruger for at løbe en kilometer. Det er let at forholde sig til - særligt hvis man kender den distance, man løber.
 
-## Beregn hastighed (km/t) fra distance og tid i vores beregner
+## Beregn hastighed (km/t og m/s) fra distance og tid i vores beregner
 
-I denne beregner kan du beregne din hastighed og gennemsnitshastighed ud fra den tilbagelagte distance og din tid.
+I denne beregner kan du beregne din hastighed og gennemsnitshastighed ud fra den tilbagelagte distance og din tid på distancen. I beregneren kan du også se dit pace.
 
 {% include calculate-hastighed.html %}
 
@@ -134,7 +135,7 @@ Når du ved, hvor hurtigt du har løbet i km/t (din gennemsnitshastighed), men g
 
 Hvis du vil omregne fra dit pace i min/km til din hastighed i km/t, kan du bruge følgende formel:
 
-{% include math formula="Hastighed (km/t) = \frac{60 min/t}{min + {sek}{60}}" %}
+{% include math formula="Hastighed (km/t) = \frac{60 min/t}{min + \frac{sek}{60}}" %}
 
 Hvis du vil omregne fra km/t til min/km kan du bruge følgende formel:
 

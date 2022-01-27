@@ -12,15 +12,14 @@ tags:
   - vægtstang
   - håndvægte
   - fitnessinstruktør
-categories: []
-training_type: [] 
+categories:
+  - Bænkpres
+training_type: []
 training_focus: []
 equipment:
   - vægtstang
   - håndvægte
-muscle_group:
-  - 
-  - 
+muscle_group: []
 alternative_titles:
   - Skrå bænkpres
   - Skrå bænk

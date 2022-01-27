@@ -3,17 +3,18 @@ title: &title "Starting Strength: Styrketræningsprogram af Mark Rippetoe"
 permalink: /starting-strength-styrketraeningsprogram/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1583187938491-1dcc103c9e14?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80
-  teaser: https://images.unsplash.com/photo-1583187938491-1dcc103c9e14?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1583187938491-1dcc103c9e14?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1583187938491-1dcc103c9e14?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Styrketræning
+  - Træningsprogrammer
 tags:
-  - programlægning
   - træningsprogram
   - træning
   - styrketræning
   - programanmeldelse
+  - fullbody
 last_modified_at: 2021-03-22T08:14:14Z
 toc: true
 gallery:
@@ -34,6 +35,8 @@ gallery:
 Starting Strength er et meget udbredt styrketræningsprogram udformet af Mark Rippetoe. Starting Strength er både en bog og et styrketræningsprogram.
 
 Den første udgave af _Starting Strength_ udkom i 2005, og nu er bogen kommet til tredje udgave. Starting Strength er en fremragende bog om styrketræning, og den gennemgår de enkelte løft meget grundigt i bogen.
+
+I Starting Strength træner du tre gange om uge. Programmet er et [helkropsprogram]({% link _posts/2009-05-18-hvordan-opbygger-jeg-et-helkropsprogram.md %}) og meget enkelt. Du kan også lade dig inspirere af vores [andre træningsprogrammer]({% link _pages/trainingprograms-archive.md %}), som du kan lade dig inspirere af.
 
 Starting Strength er blevet en populær bog og et populært træningsprogram for både trænere og atleter. Lad os kigge lidt på, hvordan Starting Strength-styrketræningsprogrammet er bygget op, hvordan det fungerer - og Rippetoe giver selv tre væsentlige råd til at gennemføre programmet.
 

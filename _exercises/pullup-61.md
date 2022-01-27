@@ -5,6 +5,7 @@ instructions: "Hold fast i stangen med hænderne lidt bredere end skulderbreddde
 permalink: /oevelse/pullup/
 redirect_from: /node/61
 id: 61
+key: 20210819092800
 language: da
 header:
   teaser: /assets/images/exercises/pullup-0-320.jpg
@@ -35,6 +36,8 @@ video:
   id: QWQqivQ92dE
 last_modified_at: 2014-10-10T21:19:43Z
 ---
+
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}
 
 Opgaven er at hive sig op med armene, så brystkassen er ud for stangen. Hvis du har brug for at bevæge benene undervejs, er du meget velkommen til at gøre det.
 

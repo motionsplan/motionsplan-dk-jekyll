@@ -1,16 +1,18 @@
 ---
-title: "Musik til træning: Find de bedste sange til træningen [2021]"
+title: "Musik til træning: Find de bedste sange til træningen"
+seo_title: "Musik til træning: Find de bedste sange til træningen [2022]"
 permalink: /artikel/musik-til-traeningen/
 redirect_from:
   - /artikel/musik-til-træningen
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1514994806776-144805fdde34?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80
-  teaser: https://images.unsplash.com/photo-1514994806776-144805fdde34?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1514994806776-144805fdde34?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1514994806776-144805fdde34?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: "Musik til træningen: Vælg de bedste sange til løb, styrketræning og intervaltræning!"
 tags:
   - gode råd
   - musik
+  - løb
 category:
   - Kondition
   - Styrketræning
@@ -48,7 +50,7 @@ Musik kan altså tilsyneladende både hjælpe under træningen til, at man træn
 Musikvalget er vigtigt, og det skal passe til de aktiviteter, du laver. Jeg har alt for ofte selv bare sat noget tilfældigt musik på, når jeg underviser andre.
 
 - **Musik til opvarmningen**. I opvarmningen skal musikken give os lyst til at bevæge os. Typisk skal man i opvarmningen arbejde til musikken. Husk at opvarmningsmusikkens stemning påvirker deltagerne. Find noget motiverende musik, der inspirerer dig selv og deltagerne på dit hold.
-- **Musik til løbetræningen**. Studier har vist at musik kan give en højere præstationsevne, fordi musikken motiverer, og det føles ikke så hårdt, når musikken spiller. Musikken kan også bruges til at skabe stemning, hvis formålet med løbeturen er mere afslappende. 
+- **Musik til løbetræningen**. Studier har vist at musik kan give en højere præstationsevne, fordi musikken motiverer, og det føles ikke så hårdt, når musikken spiller. Musikken kan også bruges til at skabe stemning, hvis formålet med løbeturen er mere afslappende.
 - **Musik til styrketræning**. Jeg har lagt mærke til, at mange kan lide rigtig hård musik til styrketræningen. Det er jeg ikke selv fan af, og jeg leder efter studier der viser, hvilken type musik man egentlig præsterer bedst under - udover at det ser ud til at det maksimale power output er højere ved hurtig musik.
 - **Musik til intervaltræning**. Det er en rigtig god ide at have langsom eller motiverende musik i pauserne af intervaltræningen, så man udnytter den restitutionseffekt, der tilsyneladende er af langsom musik.
 
@@ -71,8 +73,8 @@ Det skal du altså gøre dig umage for, at musikken rammer, så du ikke risikere
 Men hvilken type musik skal man så vælge til sine aktiviteter. Det betyder altså noget, hvad beatet i musikken er. Lad os kigge på nogle forskellige tempi musikken kan have og finde hvilke aktiviteter musikstykkerne passer til. Tempoet angives ofte i [beats per minute (BPM)](https://da.wikipedia.org/wiki/Beats_per_minute).
 
 > Tempoet angiver simpelthen hvor hurtig grundtakten eller pulsen i et musikstykke er, og er ofte udgangspunktet for at vurdere et musikstykkes egnethed til opvarmning. Tempo oftest i Beats per minute (taktslag pr. minut).
-> 
-> Tempo for et musikstykke kan måles på samme måde som man måler sin puls: Tæl f.eks. hvor mange taktslag der er på 10 sekunder og multiplicér med 6.
+>
+> Tempo for et musikstykke kan måles på samme måde som man måler sin puls: Tæl fx hvor mange taktslag der er på 10 sekunder og multiplicér med 6.
 
 --- <cite>[Idrætsmusik](https://idraetsmusik.dk/learn/music-for-warming-up)</cite>
 
@@ -137,9 +139,9 @@ En klassiker fra min ungdom til løb er Dire Straits _Walk of Life_:
 
 ## Musik til styrketræning
 
-Det er flere gange blevet konkluderet i studier, at stimulerende musik er præstationsfremmende i forhold til **isometrisk styrke**. Grebsstyrke og isometriske øvelser (Pearce 1981; Karageorghis et al 1996) med fx at holde en håndvægt ud i strakt arm (Crust 2004). 
+Det er flere gange blevet konkluderet i studier, at stimulerende musik er præstationsfremmende i forhold til **isometrisk styrke**. Grebsstyrke og isometriske øvelser (Pearce 1981; Karageorghis et al 1996) med fx at holde en håndvægt ud i strakt arm (Crust 2004).
 
-Hvis vi kigger på **dynamisk styrke**, så undersøgte Biagini et al (2012) effekten af selvalgt musik sammenlignet med stilhed på performance på bænkpres, squat jumps og humør. Der var ingen forskel i antal reps eller RPE i bænkpres. Der blev fundet lidt større power og _[rate of force development (RFD)]({% link _posts/2020-10-14-rate-of-force-development.md %})_ i squat jump. Deltagerne oplevede "at være mere klar". Den selvvalgte musik blev dog ikke undersøgt. 
+Hvis vi kigger på **dynamisk styrke**, så undersøgte Biagini et al (2012) effekten af selvalgt musik sammenlignet med stilhed på performance på bænkpres, squat jumps og humør. Der var ingen forskel i antal reps eller RPE i bænkpres. Der blev fundet lidt større power og _[rate of force development (RFD)]({% link _posts/2020-10-14-rate-of-force-development.md %})_ i squat jump. Deltagerne oplevede "at være mere klar". Den selvvalgte musik blev dog ikke undersøgt.
 
 Bartolomei et al (2015) undersøgte effekten af stimulerende musik på over 120 bpm på performance på [1RM](/rm-beregner/) styrke og antallet af _reps to failure_ på 60% af 1RM-styrken. Størstedelen af deltagerne havde valgt rock eller dance musik. Der var ikke signifikant forskel på 1RM-styrken, men der blev fundet en lille signifikant forskel på en gentagelse på antallet af reps på 60% af 1RM.
 

@@ -3,19 +3,41 @@ Træningsøvelser:
   url: /traeningsoevelser/
 Styrketræning:
   title: Styrketræning
-  url: /styrke/
+  url: /styrketraening/
 Kondition:
   title: Kondition
   url: /kondition/
+Yoga:
+  title: Yoga
+  url: /yoga/
 Løb:
   title: Løb
   url: /loebesiden/
+Løbeprogrammer:
+  title: Løbeprogrammer
+  url: /loebeprogrammer/
+Cykling:
+  title: Cykling
+  url: /cykling/
+Springtræning:
+  title: Springtræning
+  url: /springstyrke-og-springtraening/
+
 Fedtprocent:
   title: Fedtprocent
   url: /maal-fedtprocent/
 Kropskomposition:
   title: Kropskomposition
   url: /kropskomposition/
+Restitution:
+  title: Restitution
+  url: /restitutionstid-og-alder/
+Hypertrofi:
+  title: Hypertrofi
+  url: /hypertrofi-metoder/
+Søvn:
+  title: Søvn
+  url: /soevn/
 
 # Øvelser
 
@@ -71,6 +93,22 @@ Kropshævninger:
   title: Kropshævninger
   url: /chinup-vs-pullup/
 
+Squat:
+  title: Squat
+  url: /squat/
+
+Lunges:
+  title: Lunges
+  url: /lunges/
+
+Dødløft:
+  title: Dødløft
+  url: /doedloeft/
+
+Rows:
+  title: Rows
+  url: /rows/
+
 Foamrolling:
   title: Foamrolling
   url: /foamrolling-foamroller-lacrossebolde/
@@ -78,6 +116,10 @@ Foamrolling:
 SMR:
   title: SMR
   url: /foamrolling-foamroller-lacrossebolde/
+
+Cardiomaskiner:
+  title: Cardiomaskiner
+  url: /bedste-cardiomaskiner/
 
 # Anatomi
 
@@ -93,3 +135,7 @@ Led:
 Mavemuskler:
   title: Mave
   url: /mavemuskler/
+
+De fem tibetanere:
+  title: "De fem tibetanere"
+  url: /artikel/de-fem-tibetanere/

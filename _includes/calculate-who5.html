@@ -1,0 +1,121 @@
+<form class="calculator full" id="calculator_who5">
+    <fieldset>
+        <legend>I de sidste 2 uger ...</legend>
+        <fieldset>
+            <legend>1. ... har jeg været glad og i godt humør</legend>
+            <label class="radio">
+                <input name="question_1" type="radio" value="5" required> Hele tiden
+            </label>
+            <label class="radio">
+                <input name="question_1" type="radio" value="4"> Det meste af tiden
+            </label>
+            <label class="radio">
+                <input name="question_1" type="radio" value="3"> Lidt mere end halvdelen af tiden
+            </label>
+            <label class="radio">
+                <input name="question_1" type="radio" value="2"> Lidt mindre end halvdelen af tiden
+            </label>
+            <label class="radio">
+                <input name="question_1" type="radio" value="1"> Lidt af tiden
+            </label>
+            <label class="radio">
+                <input name="question_1" type="radio" value="0"> På intet tidspunkt
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>2. ... har jeg følt mig rolig og afslappet</legend>
+            <label class="radio">
+                <input name="question_2" type="radio" value="5" required> Hele tiden
+            </label>
+            <label class="radio">
+                <input name="question_2" type="radio" value="4"> Det meste af tiden
+            </label>
+            <label class="radio">
+                <input name="question_2" type="radio" value="3"> Lidt mere end halvdelen af tiden
+            </label>
+            <label class="radio">
+                <input name="question_2" type="radio" value="2"> Lidt mindre end halvdelen af tiden
+            </label>
+            <label class="radio">
+                <input name="question_2" type="radio" value="1"> Lidt af tiden
+            </label>
+            <label class="radio">
+                <input name="question_2" type="radio" value="0"> På intet tidspunkt
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>3. ... har jeg følt mig aktiv og energisk</legend>
+            <label class="radio">
+                <input name="question_3" type="radio" value="5" required> Hele tiden
+            </label>
+            <label class="radio">
+                <input name="question_3" type="radio" value="4"> Det meste af tiden
+            </label>
+            <label class="radio">
+                <input name="question_3" type="radio" value="3"> Lidt mere end halvdelen af tiden
+            </label>
+            <label class="radio">
+                <input name="question_3" type="radio" value="2"> Lidt mindre end halvdelen af tiden
+            </label>
+            <label class="radio">
+                <input name="question_3" type="radio" value="1"> Lidt af tiden
+            </label>
+            <label class="radio">
+                <input name="question_3" type="radio" value="0"> På intet tidspunkt
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>4. ... er jeg vågnet frisk og udhvilet</legend>
+            <label class="radio">
+                <input name="question_4" type="radio" value="5" required> Hele tiden
+            </label>
+            <label class="radio">
+                <input name="question_4" type="radio" value="4"> Det meste af tiden
+            </label>
+            <label class="radio">
+                <input name="question_4" type="radio" value="3"> Lidt mere end halvdelen af tiden
+            </label>
+            <label class="radio">
+                <input name="question_4" type="radio" value="2"> Lidt mindre end halvdelen af tiden
+            </label>
+            <label class="radio">
+                <input name="question_4" type="radio" value="1"> Lidt af tiden
+            </label>
+            <label class="radio">
+                <input name="question_4" type="radio" value="0"> På intet tidspunkt
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>5. ... har min dagligdag været fyldt med ting der interesserer mig</legend>
+            <label class="radio">
+                <input name="question_5" type="radio" value="5" required> Hele tiden
+            </label>
+            <label class="radio">
+                <input name="question_5" type="radio" value="4"> Det meste af tiden
+            </label>
+            <label class="radio">
+                <input name="question_5" type="radio" value="3"> Lidt mere end halvdelen af tiden
+            </label>
+            <label class="radio">
+                <input name="question_5" type="radio" value="2"> Lidt mindre end halvdelen af tiden
+            </label>
+            <label class="radio">
+                <input name="question_5" type="radio" value="1"> Lidt af tiden
+            </label>
+            <label class="radio">
+                <input name="question_5" type="radio" value="0"> På intet tidspunkt
+            </label>
+        </fieldset>
+        <input type="submit" value="Udregn">
+    </fieldset>
+    <fieldset class="results">
+        <legend>Resultat</legend>
+        <div class="form-group">
+            <label>Score
+                <input name="who5_score" disabled>
+            </label>
+        </div>
+        <p id="result">Svar på spørgsmålene ovenfor for at få en vurdering af din trivsel og velbefindende.</p>
+    </fieldset>
+    {% include calculator-footer.html %}
+</form>

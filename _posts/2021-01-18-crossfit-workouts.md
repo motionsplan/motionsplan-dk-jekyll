@@ -3,8 +3,8 @@ title: &title "Crossfit workouts: Hvad er Workout of the Day i crossfit?"
 permalink: /crossfit-workouts/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1526408984842-5f1323d42469?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
-  teaser: https://images.unsplash.com/photo-1526408984842-5f1323d42469?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+  overlay_image: https://images.unsplash.com/photo-1536922246289-88c42f957773?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1536922246289-88c42f957773?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Styrketræning
@@ -29,7 +29,7 @@ Se opstilling med udstyr + øvelser her — https://wodwell.com/wod/the-300/
 
 {% endcomment %}
 
-I princippet kan alle lave en crossfit workout ved at sammensætte forskellige øvelser, men jeg synes det er sjovest at kigge lidt på de klassiske workouts.
+I princippet kan alle lave en crossfit workout ved at sammensætte forskellige øvelser, men jeg synes det er sjovest at kigge lidt på de klassiske workouts. Jeg har skrevet lidt mere om de [mest brugte crossfitøvelser]({% link _posts/2009-06-13-crossfit.md %}).
 
 Når du søger på 'Crossfit Workouts', så er et af de første resultater på Google [Wodwells populære crossfit workouts](https://wodwell.com/wods/?sort=popular). Det er en ret god samling af en masse fede crossfit workouts, hvor en del er de officielle crossfit workouts.
 
@@ -155,7 +155,7 @@ Ellen
 
 ## Crossfit workouts med vægtstang
 
-Bear complex 
+Bear complex
 DT
 Fran
 Linda

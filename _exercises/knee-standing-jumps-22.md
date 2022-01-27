@@ -18,9 +18,9 @@ tags:
   - Forlår
 categories:
   - Ben
-training_type: 
+training_type:
   - Styrketræning
-training_focus: 
+training_focus:
   - helkropsøvelse
 equipment:
   - kropsvægt
@@ -60,5 +60,7 @@ video:
   id: 4976753
 last_modified_at: 2014-10-14T10:50:21Z
 ---
+
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}
 
 Sid på knæene med strakt hofte. Fra denne position skal du uden at støtte med hænderne komme op og stå på fødderne og fra den dybe knæbøjning springer du så højt du kan.

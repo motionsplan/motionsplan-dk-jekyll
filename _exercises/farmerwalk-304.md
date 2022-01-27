@@ -14,8 +14,9 @@ tags:
   - carry
   - crossfit
   - featured
-categories: []
-training_type: [] 
+categories:
+  - Loaded carries
+training_type: []
 training_focus: []
 equipment: []
 muscle_group: []

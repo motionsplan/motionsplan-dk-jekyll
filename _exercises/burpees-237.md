@@ -17,9 +17,9 @@ tags:
   - crossfit
 categories:
   - Kondition og puls
-training_type: 
+training_type:
   - Kondition
-training_focus: 
+training_focus:
   - helkropsøvelse
 equipment:
   - kropsvægt
@@ -49,6 +49,8 @@ gallery:
     title: "Burpees"
 last_modified_at: 2014-10-10T21:05:16Z
 ---
+
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}
 
 Start stående. Sæt hænderne ved fødderne. Spring tilbage med fødderne, så du kommer til at stå i armstrækningsposition. Lig dig ned på maven. Spring herfra igen med fødderne hen til hænderne. Rejs dig op. Spring op i luften og sørg for at hofte og knæ er strakte, og klap med hænderne.
 

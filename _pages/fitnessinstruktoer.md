@@ -2,9 +2,9 @@
 layout: single
 title: &title "Fitnessinstruktør: Hvad skal du vide som instruktør?"
 excerpt: Som fitnessinstruktør skal du vide noget om fysiologi, anatomi, bevægelsesanalyse, øvelser, træningslære, kredsløbstræning, styrketræning, doping og træning af særlige målgrupper.
-permalink: /fitness/
+permalink: /fitnessinstruktoer/
 redirect_from:
-  - /fitnessinstruktoer/
+  - /fitness/
   - /fitnessinstruktor/
 author_profile: true
 toc: true
@@ -17,7 +17,7 @@ feature_row:
     title: "Stærk - Jacob Beermann"
     excerpt: "Kunne du godt tænke dig at blive rigtigt stærk? Det kræver den rette hjælp, og den kan du heldigvis få af Jacob Beermann med bogen \"Stærk\". Her får du en god og grundig introduktion til hvordan man styrketræner bedst."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/staerk_jacob-beermann_haeftet_9788771801835"
-    btn_label: "Læs mere"
+    btn_label: "Tjek prisen"
     btn_class: "btn--danger"
     rel: sponsored nofollow noopener
 doping:
@@ -26,7 +26,7 @@ doping:
     title: "Motionsdoping - styrketræning, identitet og kultur"
     excerpt: "Det er ikke kun store bodybuildere, der er på steroider. Også helt almindelige unge mænd kombinerer styrke­træning i fitnesscentret med brug af doping."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/motionsdoping_ask-vest-christiansen_haeftet_9788771843378"
-    btn_label: "Læs mere"
+    btn_label: "Tjek prisen"
     btn_class: "btn--danger"
     rel: sponsored nofollow noopener
 ---
@@ -81,7 +81,7 @@ Se vores artikler om træningslære:
 
 Jeg har samlet alle øvelserne, der bruges i forbindelse med Fitnessinstruktør. Det giver et samlet overblik over træningsøvelserne, som du skal kunne undervise i, når du gerne vil være Fitnessinstruktør.
 
-[Se alle øvelserne til fitnessinstruktør](/fitness/oevelse/).
+[Se alle øvelserne til fitnessinstruktør](/fitnessinstruktoer/oevelser/).
 
 ## Programlægning
 
@@ -117,6 +117,18 @@ inden træning iværksættes. Disse målgrupper er beskrevet i det følgende, og
 hver målgruppe listet en række forhold, som der skal tages højde for.
 
 Det er særligt med forskellige målgrupper, at du skal være utrolig opmærksom på at kende dine egne begrænsninger som fitnessinstruktør. Så sørg for at lave en god screening.
+
+{% assign site_posts = site.posts | where: "tags", "målgruppe" | sort: "date" %}
+
+<div class="feature__wrapper">
+
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
+
+</div>
 
 ## Skadesbehandling
 

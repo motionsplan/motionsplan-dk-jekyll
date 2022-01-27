@@ -20,9 +20,9 @@ tags:
   - Øvre ryg
 categories:
   - Kropsstamme
-training_type: 
+training_type:
   - Styrketræning
-training_focus: 
+training_focus:
   - kropsstamme
 equipment:
   - håndvægte
@@ -60,5 +60,7 @@ video:
   id: 4715461
 last_modified_at: 2014-10-12T19:26:49Z
 ---
+
+{{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}
 
 Her kombinerer du en rygøvelse med rows. Lig på en rygbænk med fødderne fastspændt. To håndvægte i hånden. Bøj i hoften. Nu skal du strække hoften og i en flydende bevægelse løfte håndvægtene op med albuerne forrest.

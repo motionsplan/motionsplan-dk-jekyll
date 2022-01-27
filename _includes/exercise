@@ -1,16 +1,26 @@
 {% assign exercise_key = include.key %}
+{% assign video = include.video | default: "show" %}
+{% assign images = include.images | default: "hide" %}
+
+{% if post.video.id == '' %}
+  {% assign images = "show" %}
+{% endif %}
 
 {% assign posts = site.exercises | where: "key", exercise_key %}
 {% assign post = posts[0] %}
 
-<h2>{{ post.title }}</h2>
+{% assign title = include.title | default: post.title %}
 
-{% if post.gallery %}
+<h2 id="{{ title | slugify }}">{{ title }}</h2>
+
+{% if post.gallery.size > 0 and images != 'hide' %}
   {% include gallery images=post.gallery %}
 {% endif %}
 
+{{ post.excerpt | markdownify }}
+
 {{ post.instructions | markdownify }}
 
-{% if post.video.id %}
+{% if post.video.id and video != 'hide' %}
   {% include video provider=post.video.provider id=post.video.id %}
 {% endif %}

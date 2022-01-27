@@ -1,5 +1,6 @@
 ---
 title: "Flyndermusklen"
+seo_title: "Flyndermusklen | Soleus | Lægmuskel"
 group:
   - Ben
 functional_group:
@@ -15,9 +16,9 @@ tags:
   - muskel
 categories:
   - Muskler
-origin: 
+origin:
   da: Øverst på lægbenet og øverste 2/3 af skinnebenet bagpå.
-insertion: 
+insertion:
   da: I akillessenen og fæster på hælbenet.
 function:
   da:
@@ -37,3 +38,5 @@ coords:
   - "112,421,114,426,119,429,117,443,114,463,111,440"
   - "174,465,171,446,168,430,173,427,176,419"
 ---
+
+{{ page.name.da | capitalize }} hedder på latin *{{ page.name.latin | downcase }}*. Musklen laver {% for f in page.function.da %}{% if forloop.last == true and page.function.da.size > 1 %} og {% endif %}{{ f.short | downcase  }}{% if forloop.last == false and page.function.da.size > 1 %}, {% endif %}{% endfor %}. Musklen er en del af {{ page.functional_group | join: ", " | downcase }}.

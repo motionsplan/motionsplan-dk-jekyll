@@ -23,7 +23,7 @@ Formålet med de seks uger har været at finde ind til det vaskebræt, som alle 
 
 ## Hvordan får du en sixpack?
 
-Hvis man vil have en sixpack, skal man have styr på søvnrytmen, sin kost og endelig sin træning. Det overrasker nok de fleste, at det er i den rækkefølge.
+Hvis man vil have en sixpack, skal man have [styr på søvnrytmen](/soevn/), sin kost og endelig sin træning. Det overrasker nok de fleste, at det er i den rækkefølge.
 
 **Søvnrytmen**. Sollys er det vigtigste til at regulere vores døgnrytme. Soveværelset skal være helt sort, fordi der er et område i ansigtet, som når det bliver ramt af lys, gør en klar til at vågne. Forklaringen på at søvnrytmen er vigtig ift. at forbrænde fedt, skal bl.a. findes i døgnrytmen for hormonet [cortisol](https://web.archive.org/web/20150311232535/http://www.jacobsondergaard.dk/2011/07/11/sixpack-pa-6-uger-dag-1-kom-sovende-til-en-sixpack/){:rel="nofollow"} og dets samspil med DHEA, som Jacob Søndergaard glimrende forklarer [sine videoer](https://web.archive.org/web/20150311232535/http://www.jacobsondergaard.dk/2011/07/11/sixpack-pa-6-uger-dag-1-kom-sovende-til-en-sixpack/){:rel="nofollow"}, du kan finde på Youtube. Hvis søvnmønsteret ikke er i orden, kommer kroppen under belastning, og når kroppen er belastet, kan man ikke tabe fedt.
 
@@ -60,5 +60,5 @@ Hvad siger du til denne indgangsvinkel til træningen? Kan du forklare, hvorfor 
 - [Anterior core traning](http://www.t-nation.com/free_online_article/sports_body_training_performance/anterior_core_training)
 - [Core training for smart folks](http://www.t-nation.com/free_online_article/sports_body_training_performance/core_training_for_smart_folks)
 - [21st Century Core training](http://www.t-nation.com/free_online_article/sports_body_training_performance/21st_century_core_training)
-- [The real core exercises](http://www.t-nation.com/free_online_article/sports_body_training_performance/the_real_core_exercise)
-- [The 2008 alphabet of manliness](https://www.t-nation.com/free_online_article/sports_body_training_performance/the_2008_alphabet_of_manliness)
+- [The real core exercises](https://www.t-nation.com/training/the-real-core-exercise/)
+- [The 2008 alphabet of manliness](https://www.t-nation.com/training/the-2008-alphabet-of-manliness/)
