@@ -1,5 +1,6 @@
 ---
 title: &title "Sprintceller: Test hvor hurtigt du løber og accelererer"
+excerpt: "Med sprintceller kan du ret præcist måle sprinthastighed og accelerationsevne. Den præcise tidtagning fås i forskellige variationer, men fælles for dem alle er at de præcist kan tage tid."
 permalink: /sprinttest-med-sprintceller/
 language: da
 header:
@@ -11,7 +12,7 @@ category:
 tags:
   - test
   - sprinttest
-last_modified_at: 2019-11-19T23:14:14Z
+last_modified_at: 2022-01-19T23:14:14Z
 toc: true
 ---
 
@@ -31,9 +32,13 @@ I denne video kan du se nogle af de hurtigste sprintere i verden til at løbe.
 
 {% include video provider="youtube" id="nutDiLADWuY" %}
 
-## Beregn hastighed ud fra dine tider
+## Beregn hastighed ud fra en split tid
 
 {% include calculate-hastighed-speedlight.html %}
+
+## Beregn hastighed ud fra flere splittider
+
+{% include calculate-hastighed-speedlight-advanced.html %}
 
 ## Hjælp med at udvide indlægget
 
