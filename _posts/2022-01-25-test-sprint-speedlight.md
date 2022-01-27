@@ -25,15 +25,25 @@ Vi kigger i dette indlæg på, hvordan du kan bruge sprintceller til at teste di
 
 Her kan du få en hjælpeberegner, som kan hjælpe dig med at udregne hastigheder på baggrund af resultaterne på de distancer, du tester.
 
+## Beregn hastighed ud fra dine tider
+
+{% include calculate-hastighed-speedlight.html %}
+
 ## Hvad er hurtige sprinttider?
 
 I denne video kan du se nogle af de hurtigste sprintere i verden til at løbe.
 
 {% include video provider="youtube" id="nutDiLADWuY" %}
 
-## Beregn hastighed ud fra dine tider
+## Hvad er gode splittider?
 
-{% include calculate-hastighed-speedlight.html %}
+Jeg har kigget lidt rundt for at finde nogle gode splittider. [speedendurance.com](https://speedendurance.com/2008/08/22/usain-bolt-100m-10-meter-splits-and-speed-endurance/) har lavet en liste over Usain Bolts verdensrekordløb for hver 10 meter. Den ser sådan her ud:
+
+| Reaction time | 0-10m | 10-20m | 20-30m | 30-40m | 40-50m | 50-60m | 60-70m | 70-80m | 80-90m | 90-100m | Sluttid |
+|-|-|-|-|-|-|-|-|-|-|-|-|
+| 0,165 | 1,85 | 1,02 | 0,91 | 0,87 | 0,85 | 0,82 | 0,82 | 0,82 | 0,83 | 0,90 | 9,69 |
+
+De første 30 meter af Bolts verdensrekord blev løbet på 3,78 sekunder, men [topendsports.com](https://www.topendsports.com/testing/results/sprint-tests-30m.htm) skriver, at nogle sprintere har løbet endnu hurtigere på en ren 30 meter sprint. Michael Bates fra USA har fx løbet de 30 meter på 3,09 sekunder. Det virker jo ret ret vanvittigt.
 
 ## Hjælp med at udvide indlægget
 
