@@ -83,14 +83,48 @@ $(function() {
     $("#target_bmi_woman").change(function() {
         console.log('Ready to calculate');
         $("table#idealweight > tbody > tr").each(function(i, obj) {
-          let height = $(this).find('td:first').html();
-          let target_bmi = Number($("#target_bmi_woman").val());
+            let height = $(this).find('td:first').html();
+            let target_bmi = Number($("#target_bmi_woman").val());
 
-          let iw = idealweight.IdealWeight(height, "woman");
-          let weight = iw.getPeterson(target_bmi);
+            let iw = idealweight.IdealWeight(height, "woman");
+            let weight = iw.getPeterson(target_bmi);
 
             $(this).find('td').eq(2).html(weight.toFixed(0));
         });
+    });
+    $("#smolov_jr").submit(function(e) {
+      console.log("Calculate 1RM");
+      e.preventDefault();
+    });
+    $("#smolov_jr").change(function() {
+      console.log('Ready to calculate Smolov Jr');
+      let rm = Number($("#one_rep_max").val());
+
+      $("table#smolov_jr_week_1 > tbody > tr").each(function(i, obj) {
+          let intensity_text = $(this).find('td').eq(1).html();
+          let intensity = intensity_text.replace(/[^0-9]/g,'');
+          let weight = rm * intensity / 100;
+          console.log(rm + ' ' + intensity + ' ' + weight);
+          $(this).find('td').eq(4).html(weight.toFixed(2));
+      });
+      $("table#smolov_jr_week_2 > tbody > tr").each(function(i, obj) {
+        let increment_1 = Number($("#increment_1").val());
+        let intensity_text = $(this).find('td').eq(1).html();
+        let intensity = intensity_text.replace(/[^0-9]/g,'');
+        let weight = rm * intensity / 100 + increment_1;
+        console.log(rm + ' ' + intensity + ' ' + weight);
+        $(this).find('td').eq(2).html('+'+increment_1.toFixed(0)+' kg');
+        $(this).find('td').eq(5).html(weight.toFixed(2));
+      });
+      $("table#smolov_jr_week_3 > tbody > tr").each(function(i, obj) {
+        let increment_2 = Number($("#increment_2").val());
+        let intensity_text = $(this).find('td').eq(1).html();
+        let intensity = intensity_text.replace(/[^0-9]/g,'');
+        let weight = rm * intensity / 100 + increment_2;
+        console.log(rm + ' ' + intensity + ' ' + weight);
+        $(this).find('td').eq(2).html('+' +increment_2.toFixed(0)+' kg');
+        $(this).find('td').eq(5).html(weight.toFixed(2));
+      });
     });
 
     $("#step_man").change(function() {

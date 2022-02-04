@@ -53,7 +53,7 @@ Som Anders Nedergaard skriver:
 
 > Derfor – første gang du prøver et bestemt træningsprogram, så brug det præcist som beskrevet. Når du er færdig med det, eller har kørt det så lang tid som du mener du skal for at vurdere det, kan du lave din vurdering og så lave eventuelle justeringer til eventuel fremtidig brug af programmet.
 
-— <cite>[Anders Nedergaard](https://andersnedergaard.dk/kropblog/anmeldelser-af-traeningsprogrammer/)</cite>
+--- <cite>[Anders Nedergaard](https://andersnedergaard.dk/kropblog/anmeldelser-af-traeningsprogrammer/)</cite>
 
 ## Hvad betyder mest for et træningsprogram?
 
@@ -72,7 +72,7 @@ Hvis du vil prøve træningsprogrammer, kan du altså give dig i kast med nogle 
 ## Vigtige parametre i et styrketræningsprogram
 
 - **Intensiteten**. Når du kigger på et program, så kan du kigge på intensiteten i de enkelte arbejdssæt. Hvis programmet er procentbaseret, hvor tæt på [1RM]({% link _posts/2019-10-16-1rm-beregner.md %}) de enkelte træningssæt ligger. Vi har lavet en [1RM-beregner]({% link _posts/2019-10-16-1rm-beregner.md %}), hvis du vil læse lidt mere om hvad 1RM er.
-- **INOL**. [INOL betyder Intensity + Number of Lifts](/inol/), og det er en måde at udregne det samlede træningsstimuli for den enkelte træning. Det gør det noget lettere at vurdere, hvor hårdt programmet er på papiret uden at skulle gennemprøve hele programmet. Vi har skrevet mere om [INOL her](/inol/).
+- **INOL**. [INOL betyder Intensity + Number of Lifts](/inol/), og det er en måde at udregne det samlede træningsstimuli for den enkelte træning. Det gør det noget lettere at vurdere, hvor hårdt programmet er på papiret uden at skulle gennemprøve hele programmet.
 
 ## Hvordan opbygger man et styrketræningsprogram?
 
@@ -128,7 +128,7 @@ Du kan også lære lidt mere om reps, sæt og pauser i træningen i denne video:
 Du kan organisere styrketræningen på mange måder. Enten kan du køre sættene færdige i en øvelse, eller du kan blande øvelserne lidt. Du skal altså vælge mellem:
 
 - At køre sættene adskilt - fx hvis du træner for at blive rigtig stærk
-- At lave _supersets_, hvor du blander to øvelser - se [fx Superset Training Survival Guide](https://ericcressey.com/superset-training-survival-guide)
+- At lave _supersets_, hvor du blander to øvelser - se [fx Superset Training Survival Guide]({% link _posts/2020-06-29-superset-guide.md %})
 
 ## Checkliste for opbygning af styrketræningsprogrammer
 
