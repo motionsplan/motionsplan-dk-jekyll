@@ -741,6 +741,17 @@ $(function() {
 
         $("[name='dsi']").val(dsi.toFixed(2));
     });
+    $("#calculator_6sek_relative_ppo").submit(function(e) {
+      console.log("6sek_relative_ppo");
+      e.preventDefault();
+
+      let ppo = Number($("[name='6sek_ppo']").val());
+      let bw = Number($("[name='6sek_bw']").val());
+
+      let relative_ppo = ppo / bw;
+
+      $("[name='relative_ppo']").val(relative_ppo.toFixed(2));
+    });
     $("#calculator_6sek_fi").submit(function(e) {
       console.log("6sek_fi");
       e.preventDefault();

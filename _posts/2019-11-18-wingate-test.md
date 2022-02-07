@@ -14,7 +14,7 @@ tags:
   - test
   - anaerob
   - cykeltest
-last_modified_at: 2021-01-06T23:14:14Z
+last_modified_at: 2022-01-06T23:14:14Z
 toc: true
 quiz:
   - front: "Hvor lang tid tager Wingate-testen?"
@@ -100,9 +100,15 @@ Her kan du umiddelbart aflæse alle værdierne undtagen "Anaerobic Capacity". "A
 
 ## Hvordan kan jeg forbedre min Wingate-test?
 
-## Konklusion
+For at forbedre din anaerobe kapacitet og power, som er nødvendige for at få et bedre resultat på en Wingate-test, så er der ingen vej udenom at lave [anaerob træning](/anaerob-traening/).
+
+Du kan faktisk bruge Wingate testen som en form for træning. Det er en meget brugt protokol at køre allout i 30 sekunder, holde en pause i 30 sekunder til 5 minutter alt efter formålet med intervallerne. Det kan du så gentage 2-6 gange alt efter hvilket niveau af lidelse, du kan tåle.
 
 Du kan også bruge Wingate-testen som [anaerob træning]({% link _posts/2019-11-18-wingate-test.md %}). Du kan fx køre 2-4 gentagelser som [intervaltræning]({% link _posts/2020-06-15-intervallob.md %}).
+
+## Konklusion
+
+Wingate testen kan bruges til at teste din anaerobe kapacitet og power. Den er let at administrere, og da man ikke skal _pace_ den er den også let at udføre. Du kan også bruge en [6 sekunders peak power test](/6sek/) til at teste dine anaerobe egenskaber.
 
 ## Quiz
 
