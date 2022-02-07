@@ -11,8 +11,6 @@ category:
   - Sundhed
 tags:
   - højde
-  - featured
-popular: true
 last_modified_at: 2021-12-27T10:14:14Z
 toc: true
 faq:

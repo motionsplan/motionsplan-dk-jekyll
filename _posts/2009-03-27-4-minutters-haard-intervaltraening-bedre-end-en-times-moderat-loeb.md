@@ -8,8 +8,7 @@ redirect_from:
   - /artikel/4-minutter-i-helvede
 language: da
 header:
-  overlay_image: https://c.pxhere.com/photos/79/b0/running_beach_person_footprint_water-104111.jpg!d
-  teaser: https://c.pxhere.com/photos/79/b0/running_beach_person_footprint_water-104111.jpg!d
+  teaser: https://images.unsplash.com/photo-1586919257548-66ec29b8c7ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
   caption: "Hvad er Tabata, Tabata-intervaller og Tabata-træning?"
 tags:
   - udholdenhed

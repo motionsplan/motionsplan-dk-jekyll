@@ -15,6 +15,7 @@ tags:
   - kondition
   - zwift
   - cykling
+  - featured
 last_modified_at: 2021-02-14T08:14:14Z
 toc: true
 feature_row:

@@ -150,7 +150,7 @@ Claus Hechmann påpeger i sin bog [Løb som eliten](https://www.partner-ads.com/
 
 Det betyder i praksis for løbere, som ikke har en så god udholdenhed (altså evne til at bruge fedtforbrænding ved forskellige hastigheder), vil ende med hastigheder i de langsommere løb, som ikke tilgodeser forbedring af fedtforbrændingen i tilstrækkeligt omfang.
 
-Hechmann foreslår i sin virkelig gode og grundige bog en 10 minutters test og en 60 minutters test for at få indblik i tempoet ved den maksimale iltoptagelse og tempoet ved den anaerobe tærskel. Du kan [tjekke prisen på Hechmanns bog hos Tales.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390){: rel='sponsored nofollow noopener' }.
+Hechmann foreslår i sin virkelig gode og grundige bog en 10 minutters test og en 60 minutters test for at få indblik i tempoet ved den maksimale iltoptagelse og tempoet ved den anaerobe tærskel. Du kan [tjekke prisen på Hechmanns bog](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390){: rel='sponsored nofollow noopener' }.
 
 Når du har lavet det to tests, så kan du få Hechmanns bud på hastigheder i hans træningszoner ved at bruge løbeberegneren på [www.hechmannsport.dk](https://www.hechmannsport.dk/beregneren).
 

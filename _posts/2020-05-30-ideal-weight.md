@@ -16,6 +16,7 @@ tags:
   - vægt
   - beregner
   - kropskomposition
+  - featured
 last_modified_at: 2021-12-22T08:14:14Z
 toc: true
 faq:
