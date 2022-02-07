@@ -741,6 +741,44 @@ $(function() {
 
         $("[name='dsi']").val(dsi.toFixed(2));
     });
+    $("#calculator_6sek_fi").submit(function(e) {
+      console.log("6sek_fi");
+      e.preventDefault();
+
+      let best = Number($("[name='6sek_best']").val());
+      let worst = Number($("[name='6sek_worst']").val());
+
+      let fi = 100 * ((best - worst) / best);
+
+      $("[name='fi']").val(fi.toFixed(2));
+    });
+    $("#calculator_6sek_sdec").submit(function(e) {
+      console.log("6sek_sdec");
+      e.preventDefault();
+
+      let type = $("[name='6sek_type']").val();
+
+      let sek_1 = Number($("[name='6sek_1']").val());
+      let sek_2 = Number($("[name='6sek_2']").val());
+      let sek_3 = Number($("[name='6sek_3']").val());
+      let sek_4 = Number($("[name='6sek_4']").val());
+      let sek_5 = Number($("[name='6sek_5']").val());
+
+      let best = Math.max(sek_1, sek_2, sek_3, sek_4, sek_5);
+      let number_of_sprints = 5;
+
+      let part = (sek_1 + sek_2 + sek_3 + sek_4 + sek_5) / (best * number_of_sprints);
+
+      let sdec;
+
+      if (type == 'running') {
+        sdec = (part - 1) * 100;
+      } else {
+        sdec = (1 - part) * 100;
+      }
+
+      $("[name='6sek_sdec']").val(sdec.toFixed(2));
+    });
     $("#calculator_jump_cmj_initial_velocity").submit(function(e) {
         console.log("CMJ test");
         e.preventDefault();
