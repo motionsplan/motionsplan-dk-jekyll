@@ -20,15 +20,15 @@ feature_row:
     rel: sponsored nofollow nooopener
 ---
 
-Hvis du har et pulsur eller en _foot pod_ til løb, så er du sikkert blevet overvældet over en masse løbemålinger af din løbedynamik. Tjek denne gode begynderguide.
+Hvis du har et pulsur eller en _foot pod_ til løb, så er du sikkert blevet overvældet over en masse løbemålinger af din løbedynamik. Det her er en begynderguide til at forstå, hvad alle tallene betyder.
 
 Jeg har selv et Garmin Fenix ur, et pulsbælte og en Stryd wattmåler. Det betyder, at jeg efter hver løbetur har en masse forskellige tal og målinger fra løbeturen. Men hvad betyder de egentlig alle tallene - og hvad kan jeg bruge dem til?
 
-Det kigger vi på her. Du kan altid komme tilbage til denne side for at blive mindet om, hvad tallene betyder igen.
+Det kigger vi på her. Du kan altid bruge denne side som et opslagsværk, hvis du glemmer, hvad tallene betyder igen.
 
 Lad os dykke ned i de forskellige målinger af løbedynamik, som det giver mening at bruge i den daglige træning, og som du kan aflæse på dit ur.
 
-[Garmin](https://discover.garmin.com/da-DK/performance-data/running/) har lavet en fin oversigt over, hvilke forskellige løbemålinger de tilbyder.
+[Garmin](https://discover.garmin.com/da-DK/performance-data/running/) har lavet en fin oversigt over, hvilke forskellige løbemålinger de tilbyder, men her er de ting, som jeg bruger mest.
 
 ## Hvilke løbemålinger er vigtige for løbedynamik?
 
@@ -51,7 +51,14 @@ Lad os dykke ned i de forskellige målinger af løbedynamik, som det giver menin
 
 ## Energy Cost of Running (ECOR)
 
-Jeg synes måling af Energy Cost of Running (ECOR) er en af de spændende målinger, som du får mulighed for at lave, hvis du bruger en wattmåler på dine løbeture.
+Jeg synes måling af Energy Cost of Running (ECOR) er en af de spændende målinger. Egentlig kræver ECOR, at du laver makaniske wattmålinger. Det kræver typisk at du har ****
+
+
+*****
+
+**********
+
+, som du får mulighed for at lave, hvis du bruger en wattmåler på dine løbeture.
 
 ECOR siger nemlig noget om din [løbeøkonomi](/lobeokonomi/), men det er en mere praktisk måde at måle det på.
 
