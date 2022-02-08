@@ -84,3 +84,72 @@ Løbekadence er det antal skridt en løber tager på et minut. De fleste elitel�
 Løbekadencen er et rigtig godt parameter at træne, hvis du gerne vil være en bedre løber. Vi går meget mere i dybden med dette i indlægget om [løbekadence og skridtlængde](/gennemsnitlige-skridtlaengde-kadence-loeb/).
 
 Jeg har selv slået kadence til, så jeg kan se det på mit ur. Jeg har lagt mærke til, at min løbekadence har en tendens til at falde, når jeg bliver træt, så det det er et godt parameter at have tilgængeligt på uret.
+
+## Skridtlængde
+
+Skridtlængde måler den gennemsnitlige skridtlængde for løberen. Skridtlængden afhænger både at styrken og mobiliteten for løberen. Skridtlængden skal gerne være afpasset, så man ikke _overstrider_, som jeg har skrevet mere om i indlægget om løbekadence og skridtlængde.
+
+Skridtlængden og kadencen bestemmer, hvor hurtigt man løber i minuttet.
+
+***
+
+Distancen per. minut = kadence (SPM) * gennemsnitlig skridtlængde
+
+***
+
+Hvis du vil være **en hurtigere løber**, så skal du forbedre disse løbemetrikker og skabe en balance mellem dem.
+
+For nylig løb jeg et løb, hvor jeg eksperimenterede med kadencen, men forsøgte at løbe den samme hastighed. Du kan se, hvordan det ser ud her fra Stryd Powercenter:
+
+{% include figure image_path="/assets/images/blog/loebedynamik-skridt-kadence-stryd.png" caption="Skridtlængde og kadence fra Stryd Powercenter-dashboard." %}
+
+Der er tre andre løbemålinger, som er relateret til løbekadencen. Hvis du ændrer din kadence, så ændrer du typiske alle disse målinger også.
+
+## Ground Contact Time
+
+Den gennemsnitlige tid løberen er på jorden ved hvert eneste skridt. Det bliver målet i millisekunder (ms). Eliteløbere har typisk en gennemsnitlig kontakttid på under 200 ms.
+
+{% comment %}
+
+There are 3 other metrics that are somehow related to cadence. A better cadence usually helps improve all 3 of them.
+Ground Contact Time: The average amount of time a runner is in contact with the ground in each step. This is usually measured in milliseconds (ms). It is often mentioned that elite runners have less than 200 ms of average ground contact time. A lower ground contact time similar to cadence improves running efficiency and prevents injuries.
+Vertical Oscillation: Vertical oscillation is the measure of the vertical displacement of a runner’s torso to understand the extent of bounce while running. It is usually measured in centimeters (cm). In running, our goal is to move in the horizontal direction. So, reducing the vertical oscillation will help improve running economy and waste less energy for vertical motion.
+Vertical Ratio: Vertical ratio is the ratio of vertical oscillation and stride length. The lower the vertical ratio, the better the running efficiency.
+Here is an example of “Ground Contact Time” and “Vertical Oscillation” from one of my recent runs:
+
+Vertical Oscillation and Ground Contact Time data from Stryd Powercenter
+Category 2: Power, Heart Rate & Related Metrics
+Heart Rate: Heart rate has been considered one of the important metrics not only for running but for any activity. Many runners want to maintain certain heart rate zones while they train. Heart rate is measured as beats per minute (BPM). Heart rate can vary depending on multiple factors such as age, physical condition, weather, etc. The most popular way to measure the maximum heart rate of a person is by subtracting age from 220
+Here is an example of heart rate and heart rate zones:
+
+Heart Rate data from Stryd Powercenter and Strava Elevate
+Power: Running power is a relatively new metric that is very popular in the cycling world. But in recent years because of the advancement of technology, running power has become more and more commonplace among runners. Power is a measure of output a runner is producing while running. The unit used to express power is Watt (W). One of the biggest advantages of using power over heart rate is power is an instantaneous indicator. Any change is running effort will display an immediate change in power. While heart rate is a lagging indicator which means when a runner is putting more or less effort it takes some time to see the change in the heart rate. Also, power doesn’t depend on any external factors as heart rate does.
+Here is an example of my running power:
+
+Power data from Stryd Powercenter and Strava Elevate
+Intensity Factor: Intensity factor is a ratio of normalized or average power for a run divided by critical or functional threshold power (FTP) of a runner. There are multiple methods of measuring FTP which signifies the power a runner can hold for a significant amount of time. FTP will change over the course of time as a runner gains more experience of holding a higher power.
+The following IF is measured based on an FTP of 180 W
+
+Intensity Factor data from TrainingPeaks
+Intensity Factor (IF) is calculated as 190 / 180 which is 1.05
+Efficiency Factor: Efficiency factor (EF) is a ratio of normalized or average power and heart rate when both power and heart rate have been tracked. Increase in efficiency factor indicates an improvement in aerobic fitness
+Aerobic Decoupling: Aerobic Decoupling (Pw:Hr) is the comparison of the efficiency factor between the first half of the activity and the second half of the activity. A smaller value of aerobic decoupling signifies better aerobic fitness.
+Here is an example of these two metrics:
+
+Aerobic Decoupling data from TrainingPeaks
+Efficiency factor (EF) is determined by dividing normalized power (NP) with Avg heart rate
+207 (W) / 166 (BPM) = 1.25
+Aerobic decoupling (Pw:Hr) for this run was 6.89%
+Category 3: Pace, Grade Adjusted Pace, Elevation
+Pace & Grade Adjusted Pace (GAP): Pace is one metric that I consider a reflection of a runner’s current ability based on the input provided during the activity. Most of the training methods are comprised of sessions where a different pacing zone needs to be maintained. The pacing zone should also be created based on a runner’s ability. So, an 8 min/mile (5 min/km) pace can be a tempo pace for a beginner runner but for an experienced runner that could be an easy or recovery pace.
+Grade adjusted pace (GAP) is adjusted pace when elevation is taken into account.
+Here are some examples of pace and GAP:
+
+
+Pace and GAP data from Strava
+Elevation: Hill training is a staple of every runner’s training schedule. So, it would be interesting to see the elevation gain and loss during a running activity.
+Here is an example of the elevation gained and lost for my run:
+
+Elevation data from TrainingPeaks
+This will bring an end to this post. Feel free to comment if you have any questions regarding the metrics as it will help all of us to be a better data-driven runner. Happy running!
+{% endcomment %}
