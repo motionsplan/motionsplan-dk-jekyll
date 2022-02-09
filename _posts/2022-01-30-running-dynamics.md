@@ -118,11 +118,32 @@ Vertical Ratio: Vertical ratio is the ratio of vertical oscillation and stride l
 Here is an example of “Ground Contact Time” and “Vertical Oscillation” from one of my recent runs:
 
 Vertical Oscillation and Ground Contact Time data from Stryd Powercenter
-Category 2: Power, Heart Rate & Related Metrics
+
+
+## Category 2: Power, Heart Rate & Related Metrics
+
+## Puls
+
+Puls er meget udbredt som et redskab til at styre intensitet i træning. Det er 
+
+{% link _posts/2019-10-31-hrzones-puls.md %}
+
+
+{% link _posts/2019-10-31-pulstraening.md %}
+
+{% link _posts/2019-10-31-kondital-fra-puls.md %}
+
+{% link _posts/2020-06-03-hvilepuls.md %}
+
+{% link _posts/2020-06-02-max-hr.md %}
+
 Heart Rate: Heart rate has been considered one of the important metrics not only for running but for any activity. Many runners want to maintain certain heart rate zones while they train. Heart rate is measured as beats per minute (BPM). Heart rate can vary depending on multiple factors such as age, physical condition, weather, etc. The most popular way to measure the maximum heart rate of a person is by subtracting age from 220
 Here is an example of heart rate and heart rate zones:
 
 Heart Rate data from Stryd Powercenter and Strava Elevate
+
+## Power (watt)
+
 Power: Running power is a relatively new metric that is very popular in the cycling world. But in recent years because of the advancement of technology, running power has become more and more commonplace among runners. Power is a measure of output a runner is producing while running. The unit used to express power is Watt (W). One of the biggest advantages of using power over heart rate is power is an instantaneous indicator. Any change is running effort will display an immediate change in power. While heart rate is a lagging indicator which means when a runner is putting more or less effort it takes some time to see the change in the heart rate. Also, power doesn’t depend on any external factors as heart rate does.
 Here is an example of my running power:
 
@@ -140,7 +161,9 @@ Aerobic Decoupling data from TrainingPeaks
 Efficiency factor (EF) is determined by dividing normalized power (NP) with Avg heart rate
 207 (W) / 166 (BPM) = 1.25
 Aerobic decoupling (Pw:Hr) for this run was 6.89%
-Category 3: Pace, Grade Adjusted Pace, Elevation
+
+## Category 3: Pace, Grade Adjusted Pace, Elevation
+
 Pace & Grade Adjusted Pace (GAP): Pace is one metric that I consider a reflection of a runner’s current ability based on the input provided during the activity. Most of the training methods are comprised of sessions where a different pacing zone needs to be maintained. The pacing zone should also be created based on a runner’s ability. So, an 8 min/mile (5 min/km) pace can be a tempo pace for a beginner runner but for an experienced runner that could be an easy or recovery pace.
 Grade adjusted pace (GAP) is adjusted pace when elevation is taken into account.
 Here are some examples of pace and GAP:
