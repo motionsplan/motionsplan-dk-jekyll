@@ -77,6 +77,8 @@ På en jævn hård bane, hvor man måler watt og hastighed med Stryd, så er ECO
 
 Formålet for alle løbere skal således være at sænke deres ECOR. Så vil de nemlig være mere effektive.
 
+## Løbedynamik
+
 ## Løbekadence
 
 Løbekadence er det antal skridt en løber tager på et minut. De fleste eliteløbere ligger omkring 180 skridt pr. minut, men det  afhænger naturligvis af din løbestil og løbeteknik. Løbekadencen kan være et parameter i din løbeøkonomi, og derfor også interessant at forsøge at måle i forhold til fx ECOR.
@@ -119,12 +121,7 @@ Vertical Ratio er ratioen mellem den vertikale oscillation og skridtlængden. De
 
 Her er eksempler på Ground Contact Time og Vertical Oscillation fra en af mine løb.
 
-{% comment %}
-
-Vertical Oscillation and Ground Contact Time data from Stryd Powercenter
-
-
-## Category 2: Power, Heart Rate & Related Metrics
+## Power, puls og lignende løbemålinger
 
 ## Puls
 
@@ -140,12 +137,12 @@ Du skal være opmærksom på, at pulsen afhænger af alderen, fysiske forfatning
 
 ## Power (watt)
 
-Power 
+Power er en relativ ny løbemåling. Den har været brugt længe i cykling, men i de sneste år er der kommet måder at estimere power på under løb. Power er det output løberen har under løb. Power måles i watt.
 
-Power: Running power is a relatively new metric that is very popular in the cycling world. But in recent years because of the advancement of technology, running power has become more and more commonplace among runners. Power is a measure of output a runner is producing while running. The unit used to express power is Watt (W). One of the biggest advantages of using power over heart rate is power is an instantaneous indicator. Any change is running effort will display an immediate change in power. While heart rate is a lagging indicator which means when a runner is putting more or less effort it takes some time to see the change in the heart rate. Also, power doesn’t depend on any external factors as heart rate does.
-Here is an example of my running power:
+En af fordelene ved watt er, at den reagerer øjeblikkeligt, når du ændrer intensitet. Power er heller ikke afhængig af nogen udefrakommende faktorer, som pulsen er. Der er forskellige forskellige metoder at måle watt på, som jeg har skrevet mere om under [wattmåling og løb](/loeb-watt/).
 
-Power data from Stryd Powercenter and Strava Elevate
+{% comment %}
+
 Intensity Factor: Intensity factor is a ratio of normalized or average power for a run divided by critical or functional threshold power (FTP) of a runner. There are multiple methods of measuring FTP which signifies the power a runner can hold for a significant amount of time. FTP will change over the course of time as a runner gains more experience of holding a higher power.
 The following IF is measured based on an FTP of 180 W
 
