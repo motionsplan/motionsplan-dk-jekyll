@@ -20,15 +20,15 @@ feature_row:
     rel: sponsored nofollow nooopener
 ---
 
-Hvis du har et pulsur eller en _foot pod_ til løb, så er du sikkert blevet overvældet over en masse løbemålinger af din løbedynamik. Tjek denne gode begynderguide.
+Hvis du har et pulsur eller en _foot pod_ til løb, så er du sikkert blevet overvældet over en masse løbemålinger af din løbedynamik. Det her er en begynderguide til at forstå, hvad alle tallene betyder.
 
 Jeg har selv et Garmin Fenix ur, et pulsbælte og en Stryd wattmåler. Det betyder, at jeg efter hver løbetur har en masse forskellige tal og målinger fra løbeturen. Men hvad betyder de egentlig alle tallene - og hvad kan jeg bruge dem til?
 
-Det kigger vi på her. Du kan altid komme tilbage til denne side for at blive mindet om, hvad tallene betyder igen.
+Det kigger vi på her. Du kan altid bruge denne side som et opslagsværk, hvis du glemmer, hvad tallene betyder igen.
 
 Lad os dykke ned i de forskellige målinger af løbedynamik, som det giver mening at bruge i den daglige træning, og som du kan aflæse på dit ur.
 
-[Garmin](https://discover.garmin.com/da-DK/performance-data/running/) har lavet en fin oversigt over, hvilke forskellige løbemålinger de tilbyder.
+[Garmin](https://discover.garmin.com/da-DK/performance-data/running/) har lavet en fin oversigt over, hvilke forskellige løbemålinger de tilbyder, men her er de ting, som jeg bruger mest.
 
 ## Hvilke løbemålinger er vigtige for løbedynamik?
 
@@ -51,11 +51,11 @@ Lad os dykke ned i de forskellige målinger af løbedynamik, som det giver menin
 
 ## Energy Cost of Running (ECOR)
 
-Jeg synes måling af Energy Cost of Running (ECOR) er en af de spændende målinger, som du får mulighed for at lave, hvis du bruger en wattmåler på dine løbeture.
+Jeg synes måling af Energy Cost of Running (ECOR) er en af de spændende målinger. Egentlig kræver ECOR, at du laver makaniske wattmålinger. Det kræver typisk, at du har adgang til et løbebånd med kraftmåler og VO<sub>2</sub>max måleudstyr. Derfor mener fx Stryd ikke, at man kan måle ECOR baseret på data fra stryd wattmåleren. Den måler nemlig metabolisk power og ikke mekanisk power.
 
-ECOR siger nemlig noget om din [løbeøkonomi](/lobeokonomi/), men det er en mere praktisk måde at måle det på.
+[Hans van Dijk & Ron van Megen](https://blog.stryd.com/2019/12/17/run-efficiently-to-lower-the-energy-cost-of-running/) har dog skrevet en del gæsteindlæg på Stryds hjemmeside. Her foreslår de, at man kan måle ECOR ved hjælp af Stryd-wattmåleren og farten. Ifølge dem siger ECOR udregnet på denne måde stadig noget om din [løbeøkonomi](/lobeokonomi/), men det er en mere praktisk måde at måle det på.
 
-ECOR er forholdet mellem din power i watt per kg og din hastighed målt i m/s. Hvis du kan bruge færre watt/kg for at flytte dig med samme hastighed, så er dit løb altså blevet mere effektivt.
+ECOR er forholdet mellem din power i watt per kg og din hastighed målt i m/s. Hvis du kan bruge færre watt/kg for at flytte dig med samme hastighed, så er dit løb altså blevet mere effektivt. ECOR måles således i kJ/kg/km.
 
 Det er klart at ECOR er afhængig af omgivelserne, vinden og bakkerne på ruten. Derfor er det bedst, hvis du kan finde en standardbane, når du skal tjekke om din ECOR er blevet bedre med tiden. Du må selv regne lidt for at få bestemt ECOR.
 
@@ -71,7 +71,7 @@ Det er klart, at det kræver nogle gode betingelser, når hastigheden bliver et 
 
 Jeg har flere gange selv på løbebane eksperimenteret med lidt forskellige måder at løbe på. Fx har jeg for hver kilometer skiftet kadence, men forsøgt at opretholde nogenlunde samme hastighed. Du kan også prøve at løbe med de samme watt, men med forskellig kadence.
 
-Du kan selv lade dig inspirere til eksperimenter med fx at ændre kadencen i denne [artikel](https://blog.stryd.com/2019/12/17/run-efficiently-to-lower-the-energy-cost-of-running/).
+Du kan selv lade dig inspirere til eksperimenter med fx at ændre kadencen i van Dijk og van Megens [artikel på Stryd](https://blog.stryd.com/2019/12/17/run-efficiently-to-lower-the-energy-cost-of-running/).
 
 På en jævn hård bane, hvor man måler watt og hastighed med Stryd, så er ECOR typisk 0,98 kJ/kg/km for trænede løber. ECOR vil naturligvis ikke være den samme for alle. Det afhænger af løbestilen. Hos meget effektive eliteløere kan ECOR være så lav som 0,90 kJ/kg/km, mens den ved ineffektive joggere kan være så høj som 1,10 kJ/kg/km.
 
@@ -109,13 +109,17 @@ Der er tre andre løbemålinger, som er relateret til løbekadencen. Hvis du æn
 
 Den gennemsnitlige tid løberen er på jorden ved hvert eneste skridt. Det bliver målet i millisekunder (ms). Eliteløbere har typisk en gennemsnitlig kontakttid på under 200 ms.
 
-{% comment %}
+## Vertical Oscillation
 
-There are 3 other metrics that are somehow related to cadence. A better cadence usually helps improve all 3 of them.
-Ground Contact Time: The average amount of time a runner is in contact with the ground in each step. This is usually measured in milliseconds (ms). It is often mentioned that elite runners have less than 200 ms of average ground contact time. A lower ground contact time similar to cadence improves running efficiency and prevents injuries.
-Vertical Oscillation: Vertical oscillation is the measure of the vertical displacement of a runner’s torso to understand the extent of bounce while running. It is usually measured in centimeters (cm). In running, our goal is to move in the horizontal direction. So, reducing the vertical oscillation will help improve running economy and waste less energy for vertical motion.
-Vertical Ratio: Vertical ratio is the ratio of vertical oscillation and stride length. The lower the vertical ratio, the better the running efficiency.
-Here is an example of “Ground Contact Time” and “Vertical Oscillation” from one of my recent runs:
+Vertical Oscillation er målingen af, hvor meget løberens overkrop flyttes vertikalt på jorden. Denne løbemåling giver en fornemmelse for, hvor meget løberen hopper undervejs. Det måles typisk centimeter. Målet med løb er horisontal bevægelse. Derfor kan det betale sig, at energi brugt på vertikal bevægelse minimeres for at løbe mere effektivt.
+
+## Vertical Ratio
+
+Vertical Ratio er ratioen mellem den vertikale oscillation og skridtlængden. Desto lavere denne ratio er, desto bedre er løbeeffektiviteten.
+
+Her er eksempler på Ground Contact Time og Vertical Oscillation fra en af mine løb.
+
+{% comment %}
 
 Vertical Oscillation and Ground Contact Time data from Stryd Powercenter
 
@@ -124,25 +128,19 @@ Vertical Oscillation and Ground Contact Time data from Stryd Powercenter
 
 ## Puls
 
-Puls er meget udbredt som et redskab til at styre intensitet i træning. Det er 
+Puls er meget udbredt som et redskab til at styre intensitet i træning. Puls måles i slag per minut (BPM).
 
-{% link _posts/2019-10-31-hrzones-puls.md %}
+Du kan lave [pulstræning]({% link _posts/2019-10-31-pulstraening.md %}), hvor du kan træne med forskellige [pulszoner]({% link _posts/2019-10-31-hrzones-puls.md %}). Pulszonerne er ofte etableret udfra [maxpulsen]({% link _posts/2020-06-02-max-hr.md %}), men du kan også bruge pulsreserven, som også inddrager [hvilepuls]({% link _posts/2020-06-03-hvilepuls.md %}).
 
+Faktisk har nogle forskere fundet ud af, at du også kan estimere dit [kondital](/kondital/) ved at bruge dine [pulsmålinger]({% link _posts/2019-10-31-kondital-fra-puls.md %}).
 
-{% link _posts/2019-10-31-pulstraening.md %}
+De fleste har efterhånden et [pulsur](/pulsure/), men mange får ikke indstillet pulszonerne. Det giver kun mening at bruge pulsen som intensitetsmåling, hvis du kender din maksimale puls.
 
-{% link _posts/2019-10-31-kondital-fra-puls.md %}
-
-{% link _posts/2020-06-03-hvilepuls.md %}
-
-{% link _posts/2020-06-02-max-hr.md %}
-
-Heart Rate: Heart rate has been considered one of the important metrics not only for running but for any activity. Many runners want to maintain certain heart rate zones while they train. Heart rate is measured as beats per minute (BPM). Heart rate can vary depending on multiple factors such as age, physical condition, weather, etc. The most popular way to measure the maximum heart rate of a person is by subtracting age from 220
-Here is an example of heart rate and heart rate zones:
-
-Heart Rate data from Stryd Powercenter and Strava Elevate
+Du skal være opmærksom på, at pulsen afhænger af alderen, fysiske forfatning, vejret, stimulanser og fx dehydrering. Samtidig reagerer pulsen altid forsinket på den aktivitet, du laver. Hvis du fx laver intervaller, så vil svaret på pulsen komme senere.
 
 ## Power (watt)
+
+Power 
 
 Power: Running power is a relatively new metric that is very popular in the cycling world. But in recent years because of the advancement of technology, running power has become more and more commonplace among runners. Power is a measure of output a runner is producing while running. The unit used to express power is Watt (W). One of the biggest advantages of using power over heart rate is power is an instantaneous indicator. Any change is running effort will display an immediate change in power. While heart rate is a lagging indicator which means when a runner is putting more or less effort it takes some time to see the change in the heart rate. Also, power doesn’t depend on any external factors as heart rate does.
 Here is an example of my running power:
