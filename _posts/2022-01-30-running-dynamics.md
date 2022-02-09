@@ -79,7 +79,7 @@ Formålet for alle løbere skal således være at sænke deres ECOR. Så vil de 
 
 ## Løbedynamik
 
-## Løbekadence
+### 1. Løbekadence
 
 Løbekadence er det antal skridt en løber tager på et minut. De fleste eliteløbere ligger omkring 180 skridt pr. minut, men det  afhænger naturligvis af din løbestil og løbeteknik. Løbekadencen kan være et parameter i din løbeøkonomi, og derfor også interessant at forsøge at måle i forhold til fx ECOR.
 
@@ -87,7 +87,7 @@ Løbekadencen er et rigtig godt parameter at træne, hvis du gerne vil være en 
 
 Jeg har selv slået kadence til, så jeg kan se det på mit ur. Jeg har lagt mærke til, at min løbekadence har en tendens til at falde, når jeg bliver træt, så det det er et godt parameter at have tilgængeligt på uret.
 
-## Skridtlængde
+### 2. Skridtlængde
 
 Skridtlængde måler den gennemsnitlige skridtlængde for løberen. Skridtlængden afhænger både at styrken og mobiliteten for løberen. Skridtlængden skal gerne være afpasset, så man ikke _overstrider_, som jeg har skrevet mere om i indlægget om løbekadence og skridtlængde.
 
@@ -107,15 +107,15 @@ For nylig løb jeg et løb, hvor jeg eksperimenterede med kadencen, men forsøgt
 
 Der er tre andre løbemålinger, som er relateret til løbekadencen. Hvis du ændrer din kadence, så ændrer du typiske alle disse målinger også.
 
-## Ground Contact Time
+### 3. Ground Contact Time
 
 Den gennemsnitlige tid løberen er på jorden ved hvert eneste skridt. Det bliver målet i millisekunder (ms). Eliteløbere har typisk en gennemsnitlig kontakttid på under 200 ms.
 
-## Vertical Oscillation
+### 4. Vertical Oscillation
 
 Vertical Oscillation er målingen af, hvor meget løberens overkrop flyttes vertikalt på jorden. Denne løbemåling giver en fornemmelse for, hvor meget løberen hopper undervejs. Det måles typisk centimeter. Målet med løb er horisontal bevægelse. Derfor kan det betale sig, at energi brugt på vertikal bevægelse minimeres for at løbe mere effektivt.
 
-## Vertical Ratio
+### 5. Vertical Ratio
 
 Vertical Ratio er ratioen mellem den vertikale oscillation og skridtlængden. Desto lavere denne ratio er, desto bedre er løbeeffektiviteten.
 
@@ -123,7 +123,7 @@ Her er eksempler på Ground Contact Time og Vertical Oscillation fra en af mine 
 
 ## Power, puls og lignende løbemålinger
 
-## Puls
+### Puls
 
 Puls er meget udbredt som et redskab til at styre intensitet i træning. Puls måles i slag per minut (BPM).
 
@@ -135,7 +135,7 @@ De fleste har efterhånden et [pulsur](/pulsure/), men mange får ikke indstille
 
 Du skal være opmærksom på, at pulsen afhænger af alderen, fysiske forfatning, vejret, stimulanser og fx dehydrering. Samtidig reagerer pulsen altid forsinket på den aktivitet, du laver. Hvis du fx laver intervaller, så vil svaret på pulsen komme senere.
 
-## Power (watt)
+### Power (watt)
 
 Power er en relativ ny løbemåling. Den har været brugt længe i cykling, men i de sneste år er der kommet måder at estimere power på under løb. Power er det output løberen har under løb. Power måles i watt.
 
