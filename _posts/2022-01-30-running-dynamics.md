@@ -3,7 +3,7 @@ title: &title "Begynderguide til løbedynamik og løbemålinger"
 permalink: /loebedynamik-loebemaalinger/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1534368959876-26bf04f2c947?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
+  teaser: https://images.unsplash.com/photo-1619037961380-5ab533fc7129?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Løb
@@ -12,7 +12,7 @@ tags:
 last_modified_at: 2022-01-27T22:21:26Z
 feature_row:
   - image_path: https://imgcdn.saxo.com/_9781782551096/0x500
-    url: https://www.saxo.com/dk/the-secret-of-running_ron-van-megen-hans-van-dijk_paperback_9781782551096
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/the-secret-of-running_ron-van-megen-hans-van-dijk_paperback_9781782551096
     title: The Secret of Running
     excerpt: Maximum Performance Gains Through Effective Power Metering and Training Analysis
     btn_label: Læs mere
@@ -49,33 +49,7 @@ Lad os dykke ned i de forskellige målinger af løbedynamik, som det giver menin
 | ECOR | kJ/kg/km | 0.99 | < |
 | RE | ml O<sub>2</sub>/kg/km | 200 | < |
 
-## Energy Cost of Running (ECOR)
-
-Jeg synes måling af Energy Cost of Running (ECOR) er en af de spændende målinger. Egentlig kræver ECOR, at du laver makaniske wattmålinger. Det kræver typisk, at du har adgang til et løbebånd med kraftmåler og VO<sub>2</sub>max måleudstyr. Derfor mener fx Stryd ikke, at man kan måle ECOR baseret på data fra stryd wattmåleren. Den måler nemlig metabolisk power og ikke mekanisk power.
-
-[Hans van Dijk & Ron van Megen](https://blog.stryd.com/2019/12/17/run-efficiently-to-lower-the-energy-cost-of-running/) har dog skrevet en del gæsteindlæg på Stryds hjemmeside. Her foreslår de, at man kan måle ECOR ved hjælp af Stryd-wattmåleren og farten. Ifølge dem siger ECOR udregnet på denne måde stadig noget om din [løbeøkonomi](/lobeokonomi/), men det er en mere praktisk måde at måle det på.
-
-ECOR er forholdet mellem din power i watt per kg og din hastighed målt i m/s. Hvis du kan bruge færre watt/kg for at flytte dig med samme hastighed, så er dit løb altså blevet mere effektivt. ECOR måles således i kJ/kg/km.
-
-Det er klart at ECOR er afhængig af omgivelserne, vinden og bakkerne på ruten. Derfor er det bedst, hvis du kan finde en standardbane, når du skal tjekke om din ECOR er blevet bedre med tiden. Du må selv regne lidt for at få bestemt ECOR.
-
-Du beregner ECOR på følgende måde:
-
-***
-
-ECOR (i kJ/kg/km) = Power (i Watt/kg) delt med hastigheden (i m/s)
-
-***
-
-Det er klart, at det kræver nogle gode betingelser, når hastigheden bliver et parameter i løbedynamikken. Derfor kræver **sammenligning af ECOR**, at du bruger en standardbane, hvis du gerne vil finde ud af, om der er forskel på din løbestil, eller om din ECOR er blevet bedre over tid.
-
-Jeg har flere gange selv på løbebane eksperimenteret med lidt forskellige måder at løbe på. Fx har jeg for hver kilometer skiftet kadence, men forsøgt at opretholde nogenlunde samme hastighed. Du kan også prøve at løbe med de samme watt, men med forskellig kadence.
-
-Du kan selv lade dig inspirere til eksperimenter med fx at ændre kadencen i van Dijk og van Megens [artikel på Stryd](https://blog.stryd.com/2019/12/17/run-efficiently-to-lower-the-energy-cost-of-running/).
-
-På en jævn hård bane, hvor man måler watt og hastighed med Stryd, så er ECOR typisk 0,98 kJ/kg/km for trænede løber. ECOR vil naturligvis ikke være den samme for alle. Det afhænger af løbestilen. Hos meget effektive eliteløere kan ECOR være så lav som 0,90 kJ/kg/km, mens den ved ineffektive joggere kan være så høj som 1,10 kJ/kg/km.
-
-Formålet for alle løbere skal således være at sænke deres ECOR. Så vil de nemlig være mere effektive.
+Tabellen tager udgangspunkt i van Dijk og van Megens forslag til nogle mål, man kan have inden for de angivne kategorier.
 
 ## Løbedynamik
 
@@ -141,6 +115,70 @@ Power er en relativ ny løbemåling. Den har været brugt længe i cykling, men 
 
 En af fordelene ved watt er, at den reagerer øjeblikkeligt, når du ændrer intensitet. Power er heller ikke afhængig af nogen udefrakommende faktorer, som pulsen er. Der er forskellige forskellige metoder at måle watt på, som jeg har skrevet mere om under [wattmåling og løb](/loeb-watt/).
 
+## Løbeøkonomi og løbeeffektitet
+
+Hvis man kan bruge nogle af de mere lavpraktiske målinger, som man kan lave ved hjælp af sit ur som et mål for sin løbeøkonomi, så kunne det være rigtig interessant.
+
+Tænk sig at kunne ændre et element i sin løbeøkonomi, fx løbekadencen, og tjekke om man derved også løber mere energiøkonomisk og effektivt.
+
+Der har været et par forslag. 
+
+### Running Effectiveness (RE)
+
+[Coggan](https://www.trainingpeaks.com/blog/wko4-new-metrics-for-running-with-power/) har foreslået **Running Effectiveness (RE)** som et parameter, som kan være et mål for løbeeffektiviteten. Du må ikke forveksle RE med løbeøkonomi.
+
+Formlen for at udregne RE ser sådan her ud:
+
+***
+
+RE = speed (m/s) / power (W/kg)
+
+***
+
+Jo højere RE er, jo bedre er løberen til at konvertere ekstern kraft til hastighed. RE er sensitiv over for hastigheden. Derfor giver det kun mening at sammenligne RE ved en bestemt hastighed, Fx RE ved din FTP-hastighed. RE er også sensitiv over for vind og bakker.
+
+Du kan vurdere RE sådan her omkring din FTP i et relativt flat terræn i godt løbevejr:
+
+| RE | Vurdering |
+|-|-|
+| < 0,99 | Under gennemsnittet |
+| 0,99 - 1,01 | Gennemsnitlig |
+| > 1,01 | Godt |
+| > 1,05 | Elite |
+
+[Palladino](https://docs.google.com/document/d/e/2PACX-1vTzjH-Ns_GInUm4lAxi3cVOQpzzKcWNF6VEX271s-QGYFHjwMgyLhhmu5i21-1_CaC3eL0B817rQo8k/pub) har skrevet en fin artikel der forklarer, hvordan man kan bruge RE i sin analyse af træningen.
+
+Men hvordan finder jeg så RE? RE er ikke en del af Stryd, men du kan downloade en Google Chrome Extension, så tallet bliver tilgængeligt. Her kan du finde [Chrome Addon Stryd RE](https://chrome.google.com/webstore/detail/re-in-stryd/pagbieiaanmdamfckmgokggngoagigfo?hl=en).
+
+### Energy Cost of Running (ECOR)
+
+Jeg synes måling af Energy Cost of Running (ECOR) er en af de spændende målinger. Egentlig kræver ECOR, at du laver mekaniske wattmålinger. Det kræver typisk, at du har adgang til et løbebånd med kraftmåler og VO<sub>2</sub>max måleudstyr. Derfor mener fx Stryd ikke, at man kan måle ECOR baseret på data fra stryd wattmåleren. Den måler nemlig metabolisk power og ikke mekanisk power.
+
+[Hans van Dijk & Ron van Megen](https://blog.stryd.com/2019/12/17/run-efficiently-to-lower-the-energy-cost-of-running/) har dog skrevet en del gæsteindlæg på Stryds hjemmeside. Her foreslår de, at man kan måle ECOR ved hjælp af Stryd-wattmåleren og farten. Ifølge dem siger ECOR udregnet på denne måde stadig noget om din [løbeøkonomi](/lobeokonomi/), men det er en mere praktisk måde at måle det på.
+
+ECOR er forholdet mellem din power i watt per kg og din hastighed målt i m/s. Hvis du kan bruge færre watt/kg for at flytte dig med samme hastighed, så er dit løb altså blevet mere effektivt. ECOR måles således i kJ/kg/km.
+
+Det er klart at ECOR er afhængig af omgivelserne, vinden og bakkerne på ruten. Derfor er det bedst, hvis du kan finde en standardbane, når du skal tjekke om din ECOR er blevet bedre med tiden. Du må selv regne lidt for at få bestemt ECOR.
+
+Du beregner ECOR på følgende måde:
+
+***
+
+ECOR (i kJ/kg/km) = Power (i Watt/kg) delt med hastigheden (i m/s)
+
+***
+
+Det er klart, at det kræver nogle gode betingelser, når hastigheden bliver et parameter i løbedynamikken. Derfor kræver **sammenligning af ECOR**, at du bruger en standardbane, hvis du gerne vil finde ud af, om der er forskel på din løbestil, eller om din ECOR er blevet bedre over tid.
+
+Jeg har flere gange selv på løbebane eksperimenteret med lidt forskellige måder at løbe på. Fx har jeg for hver kilometer skiftet kadence, men forsøgt at opretholde nogenlunde samme hastighed. Du kan også prøve at løbe med de samme watt, men med forskellig kadence.
+
+Du kan selv lade dig inspirere til eksperimenter med fx at ændre kadencen i van Dijk og van Megens [artikel på Stryd](https://blog.stryd.com/2019/12/17/run-efficiently-to-lower-the-energy-cost-of-running/).
+
+På en jævn hård bane, hvor man måler watt og hastighed med Stryd, så er ECOR typisk 0,98 kJ/kg/km for trænede løber. ECOR vil naturligvis ikke være den samme for alle. Det afhænger af løbestilen. Hos meget effektive eliteløere kan ECOR være så lav som 0,90 kJ/kg/km, mens den ved ineffektive joggere kan være så høj som 1,10 kJ/kg/km.
+
+Formålet for alle løbere skal således være at sænke deres ECOR. Så vil de nemlig være mere effektive.
+
+
 {% comment %}
 
 Intensity Factor: Intensity factor is a ratio of normalized or average power for a run divided by critical or functional threshold power (FTP) of a runner. There are multiple methods of measuring FTP which signifies the power a runner can hold for a significant amount of time. FTP will change over the course of time as a runner gains more experience of holding a higher power.
@@ -148,7 +186,9 @@ The following IF is measured based on an FTP of 180 W
 
 Intensity Factor data from TrainingPeaks
 Intensity Factor (IF) is calculated as 190 / 180 which is 1.05
+
 Efficiency Factor: Efficiency factor (EF) is a ratio of normalized or average power and heart rate when both power and heart rate have been tracked. Increase in efficiency factor indicates an improvement in aerobic fitness
+
 Aerobic Decoupling: Aerobic Decoupling (Pw:Hr) is the comparison of the efficiency factor between the first half of the activity and the second half of the activity. A smaller value of aerobic decoupling signifies better aerobic fitness.
 Here is an example of these two metrics:
 

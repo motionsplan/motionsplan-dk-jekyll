@@ -3,7 +3,7 @@ title: &title "Hvad er den bedste løbe app til løbetræning 2022?"
 permalink: /loebeapps/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1534368959876-26bf04f2c947?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
+  teaser: https://images.unsplash.com/photo-1585250003309-694ff34512d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fHJ1bm5pbmclMjBhcHB8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Kondition
@@ -32,6 +32,17 @@ Du kan faktisk finde en app til det meste. I dette indlæg fokuserer jeg på lø
 
 
 ### Garmin connect
+
+[Ruteopmåler til løberuter](/ruteopmaaler-loebetur/)
+
+Hvad er den gennemsnitlige skridtlængde og løbekadence ved løb?
+/gennemsnitlige-skridtlaengde-kadence-loeb/
+
+Løbsberegner: Beregn træningstempo og konkurrencetider med Jack Daniels Running Formula
+/loebesiden-jack-daniels-loebeberegner/
+
+Pulstræning
+/pulstraening/
 
 ### NIKE+ RUNNING
 Nike Plus Running er en meget simpel (og lidt poppet) app. Den kan det basale: Spille musik, registrere hastighed og tid. Har du en pulsmåler, der kan transmittere via Bluetooth 4.0, så kan du også få din puls derover. Appen gemmer naturligvis også din rute og du kan registrere dit humør og hvad løbeunderlaget var samt dine løbesko (så du kan se, hvornår det er tid at skifte løbesko).

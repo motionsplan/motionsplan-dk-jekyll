@@ -1,9 +1,9 @@
 ---
-title: &title "Smolov Jr. squat og bænkpres program til 3 uger"
+title: &title "Hvordan lærer jeg at løbe hurtigere?"
 permalink: /loeb-hurtigere/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1534368959876-26bf04f2c947?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
+  teaser: https://images.unsplash.com/photo-1610969770059-7084269fa3be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Styrketræning

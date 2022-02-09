@@ -3,7 +3,7 @@ title: &title "Wattmåling ved løb og løbetræning med Stryd"
 permalink: /loeb-watt/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1534368959876-26bf04f2c947?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
+  teaser: https://images.unsplash.com/photo-1602853186862-723dee51784c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Styrketræning
@@ -16,7 +16,7 @@ tags:
 last_modified_at: 2022-01-27T22:21:26Z
 feature_row:
   - image_path: https://imgcdn.saxo.com/_9781782551096/0x500
-    url: https://www.saxo.com/dk/the-secret-of-running_ron-van-megen-hans-van-dijk_paperback_9781782551096
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/the-secret-of-running_ron-van-megen-hans-van-dijk_paperback_9781782551096
     title: The Secret of Running
     excerpt: Maximum Performance Gains Through Effective Power Metering and Training Analysis
     btn_label: Læs mere
