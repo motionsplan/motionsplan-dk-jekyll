@@ -51,18 +51,11 @@ Lad os dykke ned i de forskellige målinger af løbedynamik, som det giver menin
 
 ## Energy Cost of Running (ECOR)
 
-Jeg synes måling af Energy Cost of Running (ECOR) er en af de spændende målinger. Egentlig kræver ECOR, at du laver makaniske wattmålinger. Det kræver typisk at du har ****
+Jeg synes måling af Energy Cost of Running (ECOR) er en af de spændende målinger. Egentlig kræver ECOR, at du laver makaniske wattmålinger. Det kræver typisk, at du har adgang til et løbebånd med kraftmåler og VO<sub>2</sub>max måleudstyr. Derfor mener fx Stryd ikke, at man kan måle ECOR baseret på data fra stryd wattmåleren. Den måler nemlig metabolisk power og ikke mekanisk power.
 
+[Hans van Dijk & Ron van Megen](https://blog.stryd.com/2019/12/17/run-efficiently-to-lower-the-energy-cost-of-running/) har dog skrevet en del gæsteindlæg på Stryds hjemmeside. Her foreslår de, at man kan måle ECOR ved hjælp af Stryd-wattmåleren og farten. Ifølge dem siger ECOR udregnet på denne måde stadig noget om din [løbeøkonomi](/lobeokonomi/), men det er en mere praktisk måde at måle det på.
 
-*****
-
-**********
-
-, som du får mulighed for at lave, hvis du bruger en wattmåler på dine løbeture.
-
-ECOR siger nemlig noget om din [løbeøkonomi](/lobeokonomi/), men det er en mere praktisk måde at måle det på.
-
-ECOR er forholdet mellem din power i watt per kg og din hastighed målt i m/s. Hvis du kan bruge færre watt/kg for at flytte dig med samme hastighed, så er dit løb altså blevet mere effektivt.
+ECOR er forholdet mellem din power i watt per kg og din hastighed målt i m/s. Hvis du kan bruge færre watt/kg for at flytte dig med samme hastighed, så er dit løb altså blevet mere effektivt. ECOR måles således i kJ/kg/km.
 
 Det er klart at ECOR er afhængig af omgivelserne, vinden og bakkerne på ruten. Derfor er det bedst, hvis du kan finde en standardbane, når du skal tjekke om din ECOR er blevet bedre med tiden. Du må selv regne lidt for at få bestemt ECOR.
 
@@ -78,7 +71,7 @@ Det er klart, at det kræver nogle gode betingelser, når hastigheden bliver et 
 
 Jeg har flere gange selv på løbebane eksperimenteret med lidt forskellige måder at løbe på. Fx har jeg for hver kilometer skiftet kadence, men forsøgt at opretholde nogenlunde samme hastighed. Du kan også prøve at løbe med de samme watt, men med forskellig kadence.
 
-Du kan selv lade dig inspirere til eksperimenter med fx at ændre kadencen i denne [artikel](https://blog.stryd.com/2019/12/17/run-efficiently-to-lower-the-energy-cost-of-running/).
+Du kan selv lade dig inspirere til eksperimenter med fx at ændre kadencen i van Dijk og van Megens [artikel på Stryd](https://blog.stryd.com/2019/12/17/run-efficiently-to-lower-the-energy-cost-of-running/).
 
 På en jævn hård bane, hvor man måler watt og hastighed med Stryd, så er ECOR typisk 0,98 kJ/kg/km for trænede løber. ECOR vil naturligvis ikke være den samme for alle. Det afhænger af løbestilen. Hos meget effektive eliteløere kan ECOR være så lav som 0,90 kJ/kg/km, mens den ved ineffektive joggere kan være så høj som 1,10 kJ/kg/km.
 
@@ -116,15 +109,18 @@ Der er tre andre løbemålinger, som er relateret til løbekadencen. Hvis du æn
 
 Den gennemsnitlige tid løberen er på jorden ved hvert eneste skridt. Det bliver målet i millisekunder (ms). Eliteløbere har typisk en gennemsnitlig kontakttid på under 200 ms.
 
+## Vertical Oscillation
+
+Vertical Oscillation er målingen af, hvor meget løberens overkrop flyttes vertikalt på jorden. Denne løbemåling giver en fornemmelse for, hvor meget løberen hopper undervejs. Det måles typisk centimeter. Målet med løb er horisontal bevægelse. Derfor kan det betale sig, at energi brugt på vertikal bevægelse minimeres for at løbe mere effektivt.
+
+## Vertical Ratio
+
+Vertical Ratio er ratioen mellem den vertikale oscillation og skridtlængden. Desto lavere denne ratio er, desto bedre er løbeeffektiviteten.
+
+Her er eksempler på Ground Contact Time og Vertical Oscillation fra en af mine løb.
+
 {% comment %}
 
-There are 3 other metrics that are somehow related to cadence. A better cadence usually helps improve all 3 of them.
-Ground Contact Time: The average amount of time a runner is in contact with the ground in each step. This is usually measured in milliseconds (ms). It is often mentioned that elite runners have less than 200 ms of average ground contact time. A lower ground contact time similar to cadence improves running efficiency and prevents injuries.
-Vertical Oscillation: Vertical oscillation is the measure of the vertical displacement of a runner’s torso to understand the extent of bounce while running. It is usually measured in centimeters (cm). In running, our goal is to move in the horizontal direction. So, reducing the vertical oscillation will help improve running economy and waste less energy for vertical motion.
-Vertical Ratio: Vertical ratio is the ratio of vertical oscillation and stride length. The lower the vertical ratio, the better the running efficiency.
-Here is an example of “Ground Contact Time” and “Vertical Oscillation” from one of my recent runs:
-
-Vertical Oscillation and Ground Contact Time data from Stryd Powercenter
 Category 2: Power, Heart Rate & Related Metrics
 Heart Rate: Heart rate has been considered one of the important metrics not only for running but for any activity. Many runners want to maintain certain heart rate zones while they train. Heart rate is measured as beats per minute (BPM). Heart rate can vary depending on multiple factors such as age, physical condition, weather, etc. The most popular way to measure the maximum heart rate of a person is by subtracting age from 220
 Here is an example of heart rate and heart rate zones:
