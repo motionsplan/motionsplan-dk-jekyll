@@ -38,8 +38,6 @@ Flere forskellige aktører har meldt sig på banen med løsninger til at måle w
 
 Dette afsnit handler i om, hvordan wattmåling kan foregå i løb.
 
-
-
 ## Hvordan kan du måle watt i løb?
 
 Der er en lang række måder, som du kan måle watt i dit løb på. Jeg har hovedsageligt brugt Stryd, men måske har du erfaringer med nogle af dem?
@@ -95,7 +93,7 @@ Det anslås i noget litteratur, at den returnerede energi fra achillessenen kan 
 På grund af disse forklaringer, så fortolker van Dijk og van Megen Stryds watt som _Net Running Power_ og Polars tal som _Gross Running Power_, hvor forskellen er den elastiske energi, der returneres i sener og ligamenter.
 
 
-
+{% comment %}
 
 https://www.trainingpeaks.com/blog/running-with-power-how-it-works-and-what-it-means/
 
@@ -115,6 +113,6 @@ https://blog.stryd.com/2019/12/05/the-secret-of-running-run-smart-to-run-faster/
 
 https://hetgeheimvanhardlopen.nl/en/what-level-is-your-running-power-the-performance-index/
 
-
+{% endcomment %}
 
 {% include feature_row type="left" %}

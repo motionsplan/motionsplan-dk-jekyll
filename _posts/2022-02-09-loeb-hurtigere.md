@@ -6,13 +6,12 @@ header:
   teaser: https://images.unsplash.com/photo-1610969770059-7084269fa3be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
-  - Styrketræning
-  - Træningsprogrammer
+  - Kondition
+  - Løb
 tags:
   - træningsprogram
   - træning
-  - styrketræning
-  - programanmeldelse
+  - løb
 last_modified_at: 2022-01-27T22:21:26Z
 ---
 
