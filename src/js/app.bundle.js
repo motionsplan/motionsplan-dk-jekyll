@@ -741,6 +741,31 @@ $(function() {
 
         $("[name='dsi']").val(dsi.toFixed(2));
     });
+    $("#calculator_walking_steps_how_fast").submit(function(e) {
+      console.log("Calculate how fast steps");
+      e.preventDefault();
+
+      let steps = Number($("[name='steps']").val());
+      let step_length = Number($("[name='step_length']").val());
+      let velocity = Number($("[name='velocity']").val());
+
+      let distance = steps * step_length / 100 / 1000;
+      let time = distance / velocity;
+      let hour_out = Math.floor(time);
+
+      var min = 60 * (time - Math.floor(time));
+
+      let min_out = Math.floor(min);
+      let sec_out = Math.round((min - Math.floor(min)) * 60);
+      if (sec_out < 10) {
+          sec_out='0'+sec_out;
+      }
+
+      let time_formatted = hour_out + ":" + min_out + ":" + sec_out;
+
+      $("[name='distance']").val(distance);
+      $("[name='time']").val(time_formatted);
+    });
     $("#calculator_6sek_relative_ppo").submit(function(e) {
       console.log("6sek_relative_ppo");
       e.preventDefault();
