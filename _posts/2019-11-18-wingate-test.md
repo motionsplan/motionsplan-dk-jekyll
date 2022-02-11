@@ -21,6 +21,13 @@ quiz:
     back: "30 sekunder"
   - front: "Hvad tester Wingate-testen?"
     back: "Din anaerobe kapacitet og power"
+feature_row:
+  - image_path: /assets/images/freebies/wingate-test-results.png
+    url: https://docs.google.com/spreadsheets/d/1ctYGHBrRaoM7kcm1A-ArWg9pa0NfZVXLJzj18SFGhkE/copy#gid=499201424
+    title: Resultatark til Wingate Test
+    excerpt: Her er et resultatark i Google Sheets, hvis du laver øvelser med Wingate-testen. På arket kan du registrere en test.
+    btn_class: btn--success
+    btn_label: Få Google Sheets
 ---
 
 *[PPO]: Peak Power Output (watt)
@@ -74,7 +81,7 @@ Når du har kørt Wingate-testen, så har du fået nogle relevante resultater og
 
 ## Sammenligning
 
-Du kan sammenligne dine resultater med andre unge voksne på baggrund af dette skema, som er fra [Maud og Shultz (1998)](http://www.ncbi.nlm.nih.gov/pubmed/2489835).
+Du kan sammenligne dine resultater med andre unge voksne på baggrund af dette skema. [Maud og Shultz (1998)](http://www.ncbi.nlm.nih.gov/pubmed/2489835) testede i alt 112 mænd og 74 kvinder i alderen fra 18-28 år.
 
 Her er et skema for **Peak Power Output**.
 
@@ -105,6 +112,10 @@ For at forbedre din anaerobe kapacitet og power, som er nødvendige for at få e
 Du kan faktisk bruge Wingate testen som en form for træning. Det er en meget brugt protokol at køre allout i 30 sekunder, holde en pause i 30 sekunder til 5 minutter alt efter formålet med intervallerne. Det kan du så gentage 2-6 gange alt efter hvilket niveau af lidelse, du kan tåle.
 
 Du kan også bruge Wingate-testen som [anaerob træning]({% link _posts/2019-11-18-wingate-test.md %}). Du kan fx køre 2-4 gentagelser som [intervaltræning]({% link _posts/2020-06-15-intervallob.md %}).
+
+## Resultatark til Wingate test
+
+{% include feature_row type="left" %}
 
 ## Konklusion
 
