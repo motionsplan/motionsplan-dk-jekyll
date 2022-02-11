@@ -18,16 +18,11 @@ last_modified_at: 2022-01-27T22:21:26Z
 
 Hvis du gerne vil være en hurtigere løber, så er der flere ting du kan gøre. Hvis du følger disse tips til din løbetræning, så kan du lære at løbe hurtigere.
 
-***
-Om du vil løbe hurtigere 5 km eller hurtigere marathon så gælder der nogle tips, som alle kan få glæde af. Her er samlet mine bedste tips til hvordan du bliver hurtigere.
-Hvis man spørger folk, om de gerne vil løbe hurtigere, vil langt de fleste nok svare "ja". Heldigvis da. Men hvordan gør man så? Der er et hav af teknikker og ideer til det og det er også forskelligt om det er 5 km, du vil løbe hurtigere eller en marathon.
-
-Herunder kommer nogle tips – og nogle virker lavpraktiske, men det er faktisk ofte meget oversete metoder til at løbe hurtigere.
-
-***
-
+De forskellige tips og råd kan bruges uanset om du gerne vil løbe hurtigere på 5 km eller bruge kortere tid på at løbe en maraton.
 
 Lad os dykke ned i de gode tips til at få mere fart i fødderne på løbeturen. Gør dig klar til at optimere dit løb.
+
+{% include figure image_path="https://images.unsplash.com/photo-1613937574892-25f441264a09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=5" caption="Hvordan løber jeg hurtigere? Tjek disse tips til at blive en hurtigere løber." alt="hurtige løbere" %}
 
 ## 1. Planlægning kan gøre dig til hurtigere løber
 
@@ -37,7 +32,7 @@ Hvis du gerne vil være en bedre løber, så er det allervigtigste, at du løber
 
 Med en plan, så springer man ikke lige over træningen så let. Typisk forsøger jeg at beslutte mig for tidspunkter på forhånd, men hvis det glipper, så er planen mest en tjekliste. Hvis der er en dag, hvor jeg ikke helt har lyst, så tager jeg mig sammen til en fem minutters løbetur i roligt tempo. Så ender det typisk med at jeg løber lidt længere.
 
-******* LINK TIL PLANLÆGNING ********
+Vi har skrevet mere om, hvordan du selv kan [planlægge dit løbeprogram](/guide-til-loebeprogram/).
 
 ## 2.Brug intervaltræning – også selvom du hader det
 
@@ -45,51 +40,52 @@ Intervalltræning og intervalløb bør være en del af din træning, hvis du vil
 
 I intervalløb skal du op i de rigtig høje intensiteter, så det er ikke så behageligt at løbe så hurtigt. Derfor skal du naturligvis også bygge træningen stille og roligt op.
 
-## Undgå 'junk miles'
+Når du vælger at bruge intervaller, så skal selve intervallerne føles hårde. Pausen bruges til at restituere, så du kan arbejde hårdt i næste interval.
+
+Intervaller er naturligvis virkelig hårde, så du skal ikke gøre det for ofte. Et eksempel på intervaller, som ofte bliver brugt med løbere er:
+
+- 10-20-30
+- 3-5 minutters løb og 2-3 minutters pause
+
+Du kan eksperimentere med aktiv pause i forhold til at hvile fuldstændigt. Vi har skrevet en masse forslag til [intervalløb og intervaltræning til løb](/intervallob-intervaltraening/), hvor du kan blive inspireret.
+
+## 3. Undgå 'junk miles'
 
 Hvis du gerne vil være hurtigere, så skal intervalltræning ikke fylde al din træning. Du skal træne løb på forskellige måder. Hvis du laver afvekslende træning, hvor du rammer både lave, moderate og høje intensiteter og arbejder med løbeteknik, så bliver du en hurtigere løber.
 
-***
+Min oplevelse er, at rigtig mange ender med ofte at løbe med en intensitet i det moderate område. Det betyder imidlertid, at du hverken får hævet din maksimale iltoptagelse eller arbejdet med udholdenheden.
 
-Hvis du løber intervaller, så pres kroppen. Men du må ikke overpresse, eller for den sags skyld underpresse. Lad os sige at du ved du kan holde til at presse dig selv ud over græsen i 1 minut. Så er det vigtigt at du giver kroppen minimum den samme hvile bagefter, inden du tager hul på næste interval. Du må så ikke give den for meget. Min hovedregel plejer at være at hvis du er i god form, så kan du sagtens lave 1/1 intervaller (1min hårdt arbejde / 1 min restitution) Er du i mindre god form eller nybegynder så kombinere dine intervaller lidt mindre hårdt. 1/1.5 (1min hårdt arbejde / 1.5min restitution)
+Du kan læse mere om at undgå 'junk miles' på [www.loebeshop.dk](https://www.loebeshop.dk/inspiration/bliv-en-hurtigere-lober-junk-miles).
 
-Hold øje med dine mål og fremskridt. Ikke fordi det giver noget fysisk, men bare fordi det giver et kick at følge med i at du bliver bedre. Det sætter noget i gang i kroppen. Mere vil have mere, og når du kan se resultaterne komme, så er du også mere villig til at “lide” det du skal under intervallerne.
+## 4. Styrketræning gør dig hurtigere
 
-LØB INTERVALLER
-De er møghårde, men super effektive. Intervaltræning. Det går ud på, at du løber f.eks. 800 meter for fuld knald. Så hviler du 1 minut og løber igen 800 meter. Det gør du så f.eks. 5-8 gange. Det er uinspirerende og hårdt som bare pokker, men jeg lover dig, det er effektivt.
+Styrketræning er meget effektivt, hvis du gerne vil blive en bedre løber. Hvis du er stærkere, så kan du løbe mere effektivt. Der er lavet mange studier, der viser, at tng styrketræning som supplement til løbetræningen kan være med til at forbedre løbeøkonomien. I mange studier bliver brugt squat og dødløft.
 
-Hvor effektivt er det så, hvis man løber maraton? Godt spørgsmål... her skal du jo nok op i væsentligt højere intervaller og jeg må være svar skyldig. Ved en 5 km, kan du tydeligt mærke forskel.
+Her kan du se nogle af de indlæg vi har skrevet om styrketræning og løb.
 
-Bemærk dog, at folk med problemer med helbredet ikke bør løbe intervaller. Du bør nok også holdet det til een gang om ugen. Men jeg har personligt set gode resultater ved at gøre det en gang ugentligt. Målbare resultater allerede efter en måned.
+{% assign site_posts = site.posts | where: "category", "Løb" | where: "tags", "styrketræning" | sort: "date" %}
 
-Læs mere om intervaltræning HER
+<div class="feature__wrapper">
 
-Læs mere om restitution HER
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+{% endif %}
 
-## Undgå junk miles
+</div>
 
-Undgå junk miles [www.loebeshop.dk](https://www.loebeshop.dk/inspiration/bliv-en-hurtigere-lober-junk-miles)
+## 5. Vægt og løb
 
+Løb er en vægtbærende aktivitet. Når du beregner dit [kondital](/kondital/), så er vægten en væsentlig del af udregningen. Min filosofi er, at kroppen tilpasser sig til det du laver. Det kan bedre betale sig at træne for at blive hurtigere til at løbe end at tabe vægt for at blive hurtigere.
 
+{% include figure image_path="https://images.unsplash.com/photo-1613936360976-8f35cf0e5461?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=5" caption="Når du ser verdensklasseløbere, så er der ikke meget ekstravægt på kroppen. Hvis du gerne vil være rigtig hurtig, så har vægten betydning. Det er dog det sidste parameter, jeg selv ville optimere." %}
 
-## 4.Styrketræning kan gøre dig hurtigere
+Men derfor anslår man stadig, at du kan forbedre dine kilometertider, hvis du bliver en lettere løber. Du kan prøve vores beregner til at estimere din [vægtændrings estimerede påvirkening af din løbetid](/vaegttab-loebetid/).
 
-Du kan vælge at styrke dine muskler i benene forud for at blive en hurtigere løber. Kan dine ben og dets muskler præstere mere, så har du større præference for at blive en hurtigere løber.
-Det er det tungere styrketræning du skal prioritere. Det der sker er at dine muskler bliver bedre til at bruge en del mindre energi på at løbe ved en hastighed.
+Hvis du spiser for lidt, så kan du imidlertid ikke restituere ordentligt og være klar til at træne igen, så det er hele tiden en balance.
 
-Øvelser du kunne bruge er: Lunges, dødløft, squats
-
-
-## 3.Bliv gode venner med din badevægt
-
-Det siger nærmest sig selv. Hvis du bliver lettere så bliver du hurtigere. Så hold øje med vægten, og lad ikke kiloene komme på. Måske vil du ikke smide mere, men det er vigtigt ikke blive tungere hvis du gerne vil være hurtigere.
-Du skal dog være opmærksom på en ting (kommer også i et tip længere nede) Styrketræning kan gøre dig hurtigere, da du får bedre og større muskler der kan præstere mere. Der er bare lige det lille men, at muskler vejer en del mere end fedt i kroppen. Så hvis du styrker dine benmuskler, så kan du godt “risikere” at du tager på i vægt, men fortvivl ikke, så har du mange flere kræfter til at løbe hurtigere. Så det er faktisk ikke i alle tilfælde at du bare skal smide kropsvægt.
-
-## TAB DIG
-
-Banalt ikke? Men ved at smide 1-5 kg, så kan du barbere meget af din tid. Det er hårdt at slæbe et par ekstra kilo med rundt (tror du mig ikke, så tag en rygsæk på og læg tre liter vand deri inden næste løbetur).
-
-Sådan meget groft anslår man, at hvis du taber 1 kg kan du skære 3 sekunder af din kilometertid. Så dvs. 15 sekunder af en 5 km. Taber du så 3 kg, kan du skære 45 sekunder af din 5 km. Det er da nemt, ikke? Nok de nemmeste 45 sekunder at barbere af sin tid :-)
+{% comment %}
 
 ## 7.Optimer dit udstyr
 
@@ -155,3 +151,5 @@ KOM IGANG
 Du ved jo først, om din tid er forbedret, hvis du holder øje med dine tider. Jeg vil anbefale at teste dig selv hver 2. eller 3. måned på en atletikbane, hvor du løber 3 km på tid. Her skal du varme op og så give den alt du kan i 3 km. Notér tiderne ned, så du kan se, om du forbedrer dig. Det er meget motiverende.
 
 God fornøjelse med at løbe hurtigere
+
+{% endcomment %}

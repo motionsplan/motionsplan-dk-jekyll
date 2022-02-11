@@ -124,7 +124,7 @@ I Parkrun er alle velkomne til at være med, uanset om du går, jogger, løber, 
 
 Hvis du er på udkig efter en løbeklub i Danmark, så har DGI lavet en god liste over alle løbeklubber. Tjek den ud på [www.dgi.dk](https://www.dgi.dk/loeb/loeb/find-en-loebeklub).
 
-{% include figure image_path="/assets/images/blog/loebeklubber-dgi.png" caption="Find løbeklubber på [www.dgi.dk](https://www.dgi.dk/loeb/loeb/find-en-loebeklub)" caption="kort over løbeklubber" %}
+{% include figure image_path="/assets/images/blog/loebeklubber-dgi.png" caption="Find løbeklubber på [www.dgi.dk](https://www.dgi.dk/loeb/loeb/find-en-loebeklub)" alt="kort over løbeklubber" %}
 
 ## Konklusion
 

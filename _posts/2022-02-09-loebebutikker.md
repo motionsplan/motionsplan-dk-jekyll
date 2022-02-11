@@ -90,4 +90,4 @@ Her er en liste over fysiske løbebutikker, som har et særligt godt udvalg i l�
 
 ## Konklusion
 
-Der er rigtig mange muligheder, hvis du gerne vil handle online efter løbeudstyr. Her fik du en liste over mange af de gode **online løbebutikker*, hvor flere af dem har fysiske butikker.
+Der er rigtig mange muligheder, hvis du gerne vil handle online efter løbeudstyr. Her fik du en liste over mange af de gode **online løbebutikker**, hvor flere af dem har fysiske butikker.
