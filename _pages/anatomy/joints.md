@@ -51,7 +51,7 @@ faq:
   - question: Hvad er et led? 
     answer: Et led er der hvor to eller flere knogler støder sammen til en forbindelse uanset om, der kan være bevægelse eller ej i leddet. I leddet holdes knoglerne sammen af en ledkapsel, der er forstærket af ledbånd.
   - question: Hvor mange led har vi i kroppen?
-    answer: I alt har du i [kroppen omkring 270 knogler når du bliver født](/hvor-mange-knogler-har-mennesket/), som senere bliver til 206, fordi nogle knogle vokser sammen. Leddene forbinder knoglerne, og vi har i alt omkring 360 led i vores krop.
+    answer: Vi har omkring 360 led i kroppen, som forbinder de [206 knogler der er i menneskekroppen](/hvor-mange-knogler-har-mennesket/).
 ---
 
 Led kan opdeles i ægte led og uægte led og forskellige ledtyper: ægled, saddelled, hængselled, glideled, drejeled og kugleled. Jeg kigger her på de forskellige defintioner og ledtyper. Den primære funktion for et led er bevægelser, som kan deles op i forskellige bevægelsestyper.
