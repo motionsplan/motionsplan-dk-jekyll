@@ -16,7 +16,7 @@ tags:
   - vægt
   - knogler
   - skelettet
-last_modified_at: 2020-05-31T08:14:14Z
+last_modified_at: 2022-01-31T08:14:14Z
 toc: true
 feature_row:
   - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/560x/9df78eab33525d08d6e5fb8d27136e95/a/n/anatomisk-guide-til-bevaegeapparatet-9788777499104-andrew-biel-gitte-bjerg-fuusager.jpg
