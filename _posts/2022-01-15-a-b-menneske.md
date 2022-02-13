@@ -1,5 +1,5 @@
 ---
-title: &title "Er jeg et A- eller B-menneske? Hvilken krontype er du?"
+title: &title "Er jeg et A- eller B-menneske? Hvilken kronotype er du?"
 permalink: /a-eller-b-menneske/
 redirect_from:
   - /a-eller-b-menneske

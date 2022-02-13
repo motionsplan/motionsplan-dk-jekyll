@@ -1,7 +1,7 @@
 ---
-title: &title "Hvilke kosttilskud virker og hvilke er spild af penge i 2020?"
+title: &title "Hvilke kosttilskud virker og hvilke er spild af penge i 2022?"
 permalink: /kosttilskud/
-last_modified_at: 2020-07-24T09:41:09Z
+last_modified_at: 2022-01-24T09:41:09Z
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1579722822280-a3d601518cc9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
@@ -20,9 +20,9 @@ Kosttilskud er en milliardforretning, og når man søger efter "de bedste kostti
 
 Videnskab.dk [skriver](https://videnskab.dk/krop-sundhed/hvilke-kosttilskud-tager-forskerne-selv), at [kosttilskud er en milliardforretning](https://www.statista.com/statistics/521746/market-size-vitamins-minerals-and-supplements-worldwide-category/) i deres artikel om, hvilke kosttilskud forskerne selv tager, og det bliver meget tydeligt, når man kigger på de øverste resultater søgningen på "de bedste kosttilskud"
 
-Bodylab skriver om [de bedste kosttilskud til træning](https://www.bodylab.dk/shop/kosttilskudshierarkiet-2894c1.html). Myprotein skriver om [5 kosttilskud så du får mere ud af din træning](https://www.myprotein.dk/thezone/kosttilskud/kosttilskud-booste-styrketraening/), men de topper det i en anden artikel, hvor de anbefaler [de 7 bedste kosttilskud når du træner funktionelt](https://www.myprotein.dk/thezone/kosttilskud/7-bedste-kosttilskud-funktionel/). Bodyman foreslår ganske enkelt [de bedste kosttilskud til styrketræning](https://www.bodyman.dk/shop/cms-de-bedste-kosttilskud-til-styrketraening.html).
+[Bodylab](https://www.bodylab.dk/shop/kosttilskudshierarkiet-2894c1.html) skriver om de bedste kosttilskud til træning. [Myprotein](https://www.myprotein.dk/thezone/kosttilskud/kosttilskud-booste-styrketraening/) skriver om 5 kosttilskud så du får mere ud af din træning, men de topper det i en anden artikel, hvor de [anbefaler de 7 bedste](https://www.myprotein.dk/thezone/kosttilskud/7-bedste-kosttilskud-funktionel/) kosttilskud når du træner funktionelt. [Bodyman](https://www.bodyman.dk/shop/cms-de-bedste-kosttilskud-til-styrketraening.html) foreslår ganske enkelt de bedste kosttilskud til styrketræning.
 
-Men det bliver hurtigt vanskeligt at navigere i denne jungle af anbefalinger af kosttilskud, når det er producenterne selv, der sælger dem. Derfor kigger man måske efter andre kilder, og Igoform.dk [nævner de 5 af de bedste kosttilskud for begyndere](https://igodform.dk/5-af-de-bedste-kosttilskud-for-begyndere-det-har-aldrig-vaeret-lettere-at-vaelge/) og Sublab lader som om de har en videnskabelig laboratoriumtilgang til analysen af kosttilskud og [foreslår de 8 bedste kosttilskud til træning](https://suplab.dk/).
+Men det bliver hurtigt vanskeligt at navigere i denne jungle af anbefalinger af kosttilskud, når det er producenterne selv, der sælger dem. Derfor kigger man måske efter andre kilder, og [igodform.dk](https://igodform.dk/5-af-de-bedste-kosttilskud-for-begyndere-det-har-aldrig-vaeret-lettere-at-vaelge/) nævner de 5 af de bedste kosttilskud for begyndere og [Sublab](https://suplab.dk/) lader som om de har en videnskabelig laboratoriumtilgang til analysen af kosttilskud og foreslår de 8 bedste kosttilskud til træning.
 
 _Husk også at Motionsplan har affiliate links, og der er også affiliate links i denne blogpost. Jeg er imidlertid også nærrig, så jeg gider kun købe det, der rent faktisk virker._
 
@@ -36,11 +36,11 @@ Eric Helms har lavet en rigtig god introduktion til, hvordan man skal gribe sin 
 
 Som du kan se i pyramiden, så er kosttilskud noget du skal supplere med, når du har gjort dig umage for at få styr på alle de underliggende niveauer i kostpyramiden.
 
-Når Helsam lover at hjælpe med [hvilke kosttilskud man bør tage](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=66247&htmlurl=https://www.helsam.dk/artikler/forskelligt/hvilke-kosttilskud-skal-jeg-tage){: rel='sponsored nofollow noopener' }, så synes jeg det er lidt ærgerligt, at Helsam bare lister en lang række kosttilskud alfabetisk og fortæller om, hvad de enkelte vitaminer og mineraler kan. Der er ingen hjælp til, hvad man typisk får nok af i kosten.
+Når [Helsam](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=66247&htmlurl=https://www.helsam.dk/artikler/forskelligt/hvilke-kosttilskud-skal-jeg-tage){: rel='sponsored nofollow noopener' } lover at hjælpe med hvilke kosttilskud man bør tage, så synes jeg det er lidt ærgerligt, at Helsam bare lister en lang række kosttilskud alfabetisk og fortæller om, hvad de enkelte vitaminer og mineraler kan. Der er ingen hjælp til, hvad man typisk får nok af i kosten.
 
 ## Hvilke kosttilskud virker?
 
-Styrk foreslår følgende [pyramide over kosttilskud, som virker](https://www.fisker-performance.dk/podcast/kosttilskud-med-dokumenteret-effekt), men de lægger også meget kraftig vægt på, at du skal have styr på din grundlæggende kost, inden du går i gang med kosttilskud.
+[Styrk](https://www.fisker-performance.dk/podcast/kosttilskud-med-dokumenteret-effekt) foreslår følgende pyramide over kosttilskud, som virker, men de lægger også meget kraftig vægt på, at du skal have styr på din grundlæggende kost, inden du går i gang med kosttilskud.
 
 - Proteinpulver
 - Kreatin
@@ -73,7 +73,7 @@ Hvis du ikke får dækket dit proteinbehov gennem kosten, så kan man tage prote
 
 **Timing** af proteindtaget er tilsyneladende også et vigtigt parameter.
 
-Der er nemlig noget, der tyder på, at vi [bør tale om proteinindtag pr. måltid og ikke pr. dag](https://www.bodylab.dk/shop/boer-vi-i-2559c1.html). Proteinindtaget bør formentlig fordeles på 4-5 måltider over dagen, og dosis inden sengetid er dobbelt så stor som de øvrige måltider (Trommelen og Loon 2016)
+[Bodylab](https://www.bodylab.dk/shop/boer-vi-i-2559c1.html) foreslår, at vi bør tale om proteinindtag pr. måltid og ikke pr. dag. Proteinindtaget bør formentlig fordeles på 4-5 måltider over dagen, og dosis inden sengetid er dobbelt så stor som de øvrige måltider (Trommelen og Loon 2016).
 
 Kerksick og Schoenfeld (2017) skriver også, at det sandsynligvis er fordelagtigt at indtage protein lige efter træning. Det gælder ikke overraskende særligt, hvis man ikke har spist lige inden træning og har trænet i lang tid. Der kan det være let at medbringe en _shake_ med protein. Der er også nogle der taler om, at der er et [åbent vindue]({% link _posts/2011-09-14-udnyt-det-aabne-vindue-og-restituer-hurtigere.md %}) lige efter træning, selvom det åbne vindue formentlig hverken åbner eller lukker så hurtigt eller tæt som tidligere foreslået.
 
@@ -81,7 +81,7 @@ Den primære fordel ved proteinpulver er, at det let at medbringe det, så du ka
 
 Flere studier har undersøgt, hvor meget valleprotein man skal indtage lige efter træning. Det ser ud til at 20 g valleprotein medfører noget nær et maksimalt respons på muskelproteinsyntesn, mens 40 g medfører 10-20% yderligere stigning (Macnaughton et al Witard et al 2014; Moore et al 2009).
 
-Hvis du vil maksimere muskelopbygningen lige efter træning, så er der tilsynealdende en lille ekstra fordel ved at indtage 40 g valleprotein.
+Hvis du vil maksimere muskelopbygningen lige efter træning, så er der tilsyneladende en lille ekstra fordel ved at indtage 40 g valleprotein.
 
 Hvis vi tager en mand, der vejer 80 kg, så skal jeg altså på en dag indtage omkring 160 gram protein. De 40 gram kan med fordel ligge lige efter træning. Så skal jeg fordele resten på 3-4 måltider, hvor jeg har et indtag om aftenen, der skal være dobbelt så stort som de andre måltider.
 
@@ -105,15 +105,15 @@ Kreatin er også relativt sikkert at bruge. Studier har givet folk op til 30 gra
 
 Kreatin monohydrat er imidlertid utrolig billigt i forhold den potentielle positive effekt på muskelvæksten og muskelstyrken.
 
-Den **anbefalede dagsdosis af kreatin er 3 g**. Det koster altså kun omkring 100 kroner at dække et tre måneders forbrug af kreatin. Du kan se [priserne på kreatinpulver hos Bodylab](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/bodylab-kreatin-pulver-188p.html){: rel='sponsored nofollow noopener' }.
+Den **anbefalede dagsdosis af kreatin er 3 g**. Det koster altså kun omkring 100 kroner at dække et tre måneders forbrug af kreatin. Du kan se priserne på kreatinpulver hos [Bodylab](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/bodylab-kreatin-pulver-188p.html){: rel='sponsored nofollow noopener' }.
 
-Noget tyder på, at det kan være godt at tage kreatin efter træning sammen med protein og kulhydrat for at få den største effekt (Antonio og Ciccone 2013), men mange starter også dagen med at tage dagsdosis af kreatin. Hvis du er interesseret i at læse mere om kreatin, så har Nikolaj Bach skrevet en [rigtig god indføring om, hvad kreatin er og hvordan det virker?](https://www.bodylab.dk/shop/ofte-stillede-spoergsmaal-1352c1.html) på [Bodylab](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/ofte-stillede-spoergsmaal-1352c1.html){: rel='sponsored nofollow noopener' }.
+Noget tyder på, at det kan være godt at tage kreatin efter træning sammen med protein og kulhydrat for at få den største effekt (Antonio og Ciccone 2013), men mange starter også dagen med at tage dagsdosis af kreatin. Hvis du er interesseret i at læse mere om kreatin, så har Nikolaj Bach skrevet en rigtig god indføring om, hvad kreatin er og hvordan det virker? på [Bodylab](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/ofte-stillede-spoergsmaal-1352c1.html){: rel='sponsored nofollow noopener' }.
 
 ## Koffein
 
 Den primære effekt af koffein som kosttilskud er en træthedsbekæmpende effekt, som gør, at du kan arbejde hårdere i din træning.
 
-Rasmus Thorup Andersen beskriver [forskellige facts om koffein](https://www.bodylab.dk/shop/forskellige-facts-omkring-2433c1.html) på [Bodylab](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/forskellige-facts-omkring-2433c1.html){: rel='sponsored nofollow noopener' }, hvor han konkluderer, at den mest effektive måde at indtage koffein på er rent.
+[Rasmus Thorup Andersen](https://www.bodylab.dk/shop/forskellige-facts-omkring-2433c1.html) beskriver forskellige facts om koffein på [Bodylab](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=11522&htmlurl=https://www.bodylab.dk/shop/forskellige-facts-omkring-2433c1.html){: rel='sponsored nofollow noopener' }, hvor han konkluderer, at den mest effektive måde at indtage koffein på er rent.
 
 Hvis koffein indtages gennem kaffe eller the, så er der andre stoffer i drikkevarerne, som har effekt på optagelsen af koffein.
 
@@ -139,7 +139,7 @@ Måske kan 5 mg pr. kg kropsvægt være en dosis, men du skal ikke starte der, m
 
 Kroppen danner selv D-vitamin, når du får sol. Derfor er det godt at eksponere noget bar hud for solen og komme uden for i det hele taget, men du får også D-vitamin fra fed fisk.
 
-Umiddelbart er der ikke nogen præstationsfremmende effekt af ekstra D-vitamin. Hvis du mangler D-vitamin, kan du imidlertid opleve en nedgang i din præstationsevne. Men Casper Jespersen stiller fx spørgsmålet [skal jeg tage et D-vitamin-tilskud](https://casperjespersen.dk/skal-jeg-tage-d-vitamin-tilskud/), og han konkluderer, at man naturligvis skal teste om man har brug for ekstra D-vitamin, eller man får nok fra kosten.
+Umiddelbart er der ikke nogen præstationsfremmende effekt af ekstra D-vitamin. Hvis du mangler D-vitamin, kan du imidlertid opleve en nedgang i din præstationsevne. Men [Casper Jespersen](https://casperjespersen.dk/skal-jeg-tage-d-vitamin-tilskud/) stiller fx spørgsmålet skal jeg tage et D-vitamin-tilskud, og han konkluderer, at man naturligvis skal teste om man har brug for ekstra D-vitamin, eller man får nok fra kosten.
 
 Thuesen et al (2012) skønner at [50% af danskerne lider af let D-vitamin-mangel, mens 15% har moderat D-vitamin mangel](https://pubmed.ncbi.nlm.nih.gov/22227435/). Det ser altså ikke ud til, at vi er nok i solen eller spiser nok fed fisk.
 
@@ -214,7 +214,7 @@ Probiotika er egentlig mælkesyrebakterier. Bakterierne fremkommer i den proces,
 
 Probiotika er levende, veldefinerede bakterier, som findes naturligt i kroppen. Men du kan altså også få mælkesyrebakterier gennem kosten, fx fra yoghurt og kefir, men som du altså også kan få som kosttilskud.
 
-Casper Jespersen understreger, at der er [4 vigtige ting at være opmærksom på, hvis du vælger at tage Probiotika](https://casperjespersen.dk/probiotika-det-mest-oversete-kosttilskud/):
+[Casper Jespersen](https://casperjespersen.dk/probiotika-det-mest-oversete-kosttilskud/) understreger, at der er 4 vigtige ting at være opmærksom på, hvis du vælger at tage Probiotika:
 
 - Du skal sikre dig, at **bakteriefloraen er levende ved indtagelse** - og ikke kun ved produktion. Du skal altså købe Probiotika af høj kvalitet.
 - Det betyder meget, at du indtager et **højt antal af levende bakterier**. Kvantitet er altså vigtigt.
@@ -265,17 +265,25 @@ Derefter skal du huske at starte i bunden af pyramiderne.
 
 ### Referencer om protein som kosttilskud
 
+<details markdown="1">
+  <summary>Se alle referencer om protein som kosttilskud</summary>
+
 - Jorn Trommelen and Luc J. C. van Loon. Pre-Sleep Protein Ingestion to Improve the Skeletal Muscle Adaptive Response to Exercise Training. Nutrients 2016, 8(12), 763; doi:10.3390/nu8120763
 - Kerksick CM, Arent S, Schoenfeld BJ, et al. International society of sports nutrition position stand: nutrient timing. Journal of the International Society of Sports Nutrition. 2017;14:33. doi:10.1186/s12970-017-0189-4.
 - Macnaughton LS, Wardle SL, Witard OC, McGlory C, Hamilton DL, Jeromson S, Lawrence CE, Wallis GA, Tipton KD. The response of muscle protein synthesis following whole-body resistance exercise is greater following 40 g than 20 g of ingested whey protein. Physiol Rep. 2016 Aug;4(15). pii: e12893. doi: 10.14814/phy2.12893.
 - Morton RW1, Murphy KT1, McKellar SR1, Schoenfeld BJ2, Henselmans M3, Helms E4, Aragon AA5, Devries MC6, Banfield L7, Krieger JW8, Phillips SM1. A systematic review, meta-analysis and meta-regression of the effect of protein supplementation on resistance training-induced gains in muscle mass and strength in healthy adults. Br J Sports Med. 2017 Jul 11. pii: bjsports-2017-097608. doi: 10.1136/bjsports-2017-097608.
 - Witard OC, Jackman SR, Breen L, Smith K, Selby A, Tipton KD. Myofibrillar muscle protein synthesis rates subsequent to a meal in response to increasing doses of whey protein at rest and after resistance exercise. Am J Clin Nutr. 2014 Jan;99(1):86-95. doi: 10.3945/ajcn.112.055517.
 - Moore DR, Robinson MJ, Fry JL, Tang JE, Glover EI, Wilkinson SB, Prior T, Tarnopolsky MA, Phillips SM. Ingested protein dose response of muscle and albumin protein synthesis after resistance exercise in young men. Am J Clin Nutr. 2009 Jan;89(1):161-8. doi: 10.3945/ajcn.2008.26401.
+</details>
 
 ### Referencer om kreatin som kosttilskud
+
+<details markdown="1">
+  <summary>Se alle referencer om kreatin som kosttilskud</summary>
 
 - Buford TW, et al. International Society of Sports Nutrition position stand: creatine supplementation and exercise. J Int Soc Sports Nutr. 2007;4:6.
 - J Appl Physiol (1985). 1997 Dec;83(6):2055-63. Long-term creatine intake is beneficial to muscle performance during resistance training. Vandenberghe K1, Goris M, Van Hecke P, Van Leemputte M, Vangerven L, Hespel P.
 - J Int Soc Sports Nutr. 2017 Jun 13;14:18. doi: 10.1186/s12970-017-0173-z. eCollection 2017. International Society of Sports Nutrition position stand: safety and efficacy of creatine supplementation in exercise, sport, and medicine. Kreider RB1, Kalman DS2, Antonio J3, Ziegenfuss TN4, Wildman R5, Collins R6, Candow DG7, Kleiner SM8, Almada AL9, Lopez HL4,10.
 - Bender A, Klopstock T. Creatine for neuroprotection in neurodegenerative disease: end of story? Amino Acids. 2016;48(8):1929–40.
 - Antonio J, Ciccone V. The effects of pre versus post workout supplementation of creatine monohydrate on body composition and strength. J Int Soc Sports Nutr. 2013 Aug 6;10:36. doi: 10.1186/1550-2783-10-36.
+</details>
