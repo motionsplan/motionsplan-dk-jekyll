@@ -14,6 +14,9 @@ tags:
   - motion
   - børn
 last_modified_at: 2022-02-12T22:21:26Z
+gallery_goplaydot:
+  - image_path: /assets/images/blog/apps-boern-bevaegelse-goplaydot-1.jpg
+  - image_path: /assets/images/blog/apps-boern-bevaegelse-goplaydot-2.jpg
 ---
 
 Jeg har samlet nogle sjove aktivitetsapps, som kan få dig og familien til at bevæge sig. Med disse apps, så skal du nok få gang i bevægelse med dine børn og familien.
@@ -57,6 +60,8 @@ Du kan se lidt mere om GoPlayDOT i denne video.
 GoPlayDOT kan spilles alle steder i større åbne områder. Det er let at koble sig op på spillene sammen med de andre.
 
 I starten bliver man lidt forvirret, fordi din egen 'prik' på skærmen ikke bevæger sig. Den måde du kan se, om du er ved at løbe i den rigtige retning er om din 'prik' kommer tættere på baserne. Der kan man godt blive lidt rundtosset undervejs - særligt hvis GPS'en reagerer lidt langsomt på telefonen.
+
+{% include gallery id="gallery_goplaydot" %}
 
 Det kunne være meget hjælpsomt, hvis der i selv appen var lidt flere forklaringer til, hvad man skal gøre i de forskellige spil på selve skærmen. Vi måtte prøve 4-5 gange inden vi forstod konceptet ordentligt.
 
@@ -112,7 +117,7 @@ Hvis dig, dine børn og din familie gerne vil have gode ideer til at få mere be
 
 Jeg synes i hvert fald at disse apps er ret sjove, og børnene var særligt vilde med Woop og Pokemon GO. Kender du andre interesante apps, som skabe lidt bevægelse i hverdagen for familien og børnene?
 
-Hvis det handler mere om at være ude i naturen og lære om den samtidig, så har [outmore.dk](https://www.outmore.dk/blog/10-fede-apps-til-boern-der-kombinerer-teknologi-og-udendoers-aktiviteter) lavet en glimrende vejledning.
+Hvis det handler mere om at være ude i naturen og lære om den samtidig, så har [outmore.dk](https://www.outmore.dk/blog/10-fede-apps-til-boern-der-kombinerer-teknologi-og-udendoers-aktiviteter) lavet en glimrende vejledning. Hvis du vil lave en investering, så er [Blazepods](/blazepod/) også temmelig sjove at lege med.
 
 
 ***
@@ -137,6 +142,6 @@ Spillet The Walk starter med, at en bombe eksploderer, og du er den eneste, som 
 
 Gør gåturen sjovere – download gratis her:
 iOS
-Google Play 
+Google Play
 
 {% endcomment %}
