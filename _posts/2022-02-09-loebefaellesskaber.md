@@ -1,5 +1,6 @@
 ---
 title: &title "Løbefællesskaber og løbeklubber i Danmark"
+excerpt: "Hvis du gerne vil løbe sammen med andre, så kan du melde dig ind i en af de mange løbeklubber eller opsøge nogle af de mere løst organiserede løbefællesskaber i Danmark."
 permalink: /loebefaellesskaber/
 language: da
 header:
@@ -12,7 +13,7 @@ tags:
 last_modified_at: 2022-01-27T22:21:26Z
 ---
 
-Hvis du gerne vil løbe sammen med andre, så kan du melde dig ind i en af de mange løbeklubber eller opsøge nogle af de mere løst organiserede løbefællesskaber.
+Hvis du gerne vil løbe sammen med andre, så kan du melde dig ind i en af de mange løbeklubber eller opsøge nogle af de mere løst organiserede løbefællesskaber i Danmark.
 
 **Løbeklubber** har typisk et klubhus, en formand og nogle faste træningshold og tidspunkter, hvor løbeturene starter.
 

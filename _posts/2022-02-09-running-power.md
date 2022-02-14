@@ -1,5 +1,6 @@
 ---
 title: &title "Wattmåling ved løb og løbetræning med Stryd"
+excerpt: "Teknologien er ved at være klar til at bruge wattmåling ved løb og løbetræning. Når du måler watt, så får du et mere præcist mål for din intensitet i forhold til fx pulstræning."
 permalink: /loeb-watt/
 language: da
 header:
@@ -49,8 +50,12 @@ Der er en lang række måder, som du kan måle watt i dit løb på. Jeg har hove
 - Polar Vantage V
 - Feet Me
 
-Jeg har ikke prøvet alle metoderne, men jeg har prøvet at have Stryd og Running Power Estimator CIQ-appen til at måle på den samme tur. Turen var rimelig flad, og Power Estimator CIQ-appen kan kun estimere power baseret på den horisontale hastighed, så det burde virke fornuftigt. Power Estimator giver watt-værdier, der ligger næsten 100 watt under watt-værdierne fra Stryd. 
+Jeg har ikke prøvet alle metoderne, men jeg har prøvet at have Stryd og Running Power Estimator CIQ-appen til at måle på den samme tur. Turen var rimelig flad, og Power Estimator CIQ-appen kan kun estimere power baseret på den horisontale hastighed, så det burde virke fornuftigt. Power Estimator giver watt-værdier, der ligger næsten 100 watt under watt-værdierne fra Stryd.
 {: .notice .notice--info }
+
+I denne video kan du få et indblik i, hvordan Stryd måler løbepower.
+
+{% include video provider="youtube" id="UpMeM3Sx1RA" %}
 
 ## Hvorfor måler Polar og Garmin og Stryd forskelligt?
 
@@ -60,7 +65,7 @@ Hvordan kan det være, at Garmin og Polar viser 25-30% højere watt-tal end fx S
 
 **Stryd** kalibrerer deres wattmåler med metaboliske data i forhold til VO<sub>2</sub>max for testløbere. Det betyder, at de fleste anser Stryd-wattmåleren som den mest præcise, da tallene kan forklares af litteraturen.
 
-**Polar** kalibrerer deres algoritme bag wattmåleren på en kraftplatform. Denne type kalibrering burde jo være ret præcis, da Polar-wattmåleren er kalibreret direkte på en kraftplatform. Det er en veletableret fremgangsmåde, hvor man både kan måle både vertikale og horisontale kræfter - og faktisk også kræfterne sidelæns. Herfra kan hastigheder estimeres og den kinetiske og potentielle energi udregnes. 
+**Polar** kalibrerer deres algoritme bag wattmåleren på en kraftplatform. Denne type kalibrering burde jo være ret præcis, da Polar-wattmåleren er kalibreret direkte på en kraftplatform. Det er en veletableret fremgangsmåde, hvor man både kan måle både vertikale og horisontale kræfter - og faktisk også kræfterne sidelæns. Herfra kan hastigheder estimeres og den kinetiske og potentielle energi udregnes.
 
 Men hvordan kan vi så fortolke tallene fra Stryd og Polar?
 
@@ -68,7 +73,7 @@ Teoretisk set er der to forklaringer på forskellene mellem Stryd og Polar.
 
 ### 1. The Gross Metabolic Efficiency (GME)
 
-Typisk sætter man Gross Metabolic Efficiency til maksimalt 25% for cykling og løb. Gross Metabolic Efficiency er et mål for, hvor meget af den energi vi forbrænder ved en aktivitet skaber fremdrift. 
+Typisk sætter man Gross Metabolic Efficiency til maksimalt 25% for cykling og løb. Gross Metabolic Efficiency er et mål for, hvor meget af den energi vi forbrænder ved en aktivitet skaber fremdrift.
 
 *[GME]: The Gross Metabolic Efficiency
 

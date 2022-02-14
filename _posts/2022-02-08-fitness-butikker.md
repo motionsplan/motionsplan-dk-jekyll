@@ -28,6 +28,8 @@ Men lad os dykke ned i listen over fitness webshops med det samme. På listen ha
 
 Fitness Engros sælger fitnessudstyr til både professionelle og private. De forhandler mange forskellige brands og er eksklusive distributører på mange af dem. Vi har brugt dem mange gange på Vejle Idrætshøjskole som leverandør til vores styrketræningslokale, og de har produkter i alle prisklasser.
 
+{% include figure image_path="/assets/images/blog/fitnessbutik-fitnessengros.png" alt="fitnessbutik fitnessengros" %}
+
 Fitness Engros er altid den online fitnessshop, jeg selv tjekker ud først, hvis jeg skal bruge noget nyt udstyr.
 
 [Besøg Fitness Engros »](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=89041){: .btn .btn--large .btn--danger rel="sponsored nofollow noopener" }
@@ -35,6 +37,8 @@ Fitness Engros er altid den online fitnessshop, jeg selv tjekker ud først, hvis
 ### 2. Den Intelligente Krop
 
 Den Intelligente Krop er en af Danmarks førende webshops indenfor 'en sund krop i udvikling'. De har langt det meste indenfor træningsudstyr til Pilates, yoga, crossfit. Hjemmesiden er godt skruet sammen. Jeg har bl.a. købt mine [Blazepods](/blazepod/) på siden. Leveringen var hurtig, og der var en god kundeservice, da jeg havde spørgsmål.
+
+{% include figure image_path="/assets/images/blog/fitnessbutik-denintelligentekrop.png" alt="fitness webshop den intelligente krop" %}
 
 [Besøg Den Intelligente Krop »](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484){: .btn .btn--large .btn--danger rel="sponsored nofollow noopener" }
 
@@ -54,6 +58,8 @@ Fitnesssupply.dk forhandler fitness udstyr online. Du kan få det meste standard
 
 Fitnessshoppen.dk er en online fitness butik. De forhandler udstyr til hjemmetræning. Du kan fx købe udstyr til styrketræning og forskellige motionscykler og træningsmaskiner. Fitnessshoppen har fitnessudstyr både til private og professionelle.
 
+{% include figure image_path="/assets/images/blog/fitnessbutik-fitnessshoppen.png" alt="fitnessforretning fitnessshoppen" %}
+
 [Besøg FitnessShoppen »](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=74937){: .btn .btn--large .btn--danger rel="sponsored nofollow noopener" }
 
 ### 6. Fitnessudsalg.dk
@@ -65,6 +71,8 @@ Fitnessudsalg.dk forhandler primært fitnessudstyr til private, som du kan bruge
 ### 7. Getbig
 
 Getbig.dk er én af Danmarks mest kendte og største forhandlere af fitness udstyr, træningsudstyr og kosttilskud. Hvis du kun vil handle et sted, så kan du altså få det hele her. Det er lige fra proteinpulver, til yogamåtter, kettlebells og til kompette fitnessstationer. Getbig har lave priser, de sender hurtigt og du har 60 dages returret på varer købt hos Getbig.
+
+{% include figure image_path="/assets/images/blog/fitnessforretning-getbig.png" alt="fitnessbutik getbig" %}
 
 [Besøg Getbig »](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=21411){: .btn .btn--large .btn--danger rel="sponsored nofollow noopener" }
 

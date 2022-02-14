@@ -36,13 +36,13 @@ Alle de bedste danske online løbeforretninger skulle gerne fremgå af denne lis
 
 Uanset hvad så er alle de nedenstående løbeforretninger og sportsforretninger steder, hvor du får en høj service, oplever gode priser og har et stort udvalg til løbere.
 
-### Løberen
+### 1. Løberen
 
 Løberen er en rigtig kendt løbeforretning. Løberen har fysiske butikker rundt omkring, men de tilbyder nu også, at du kan købe online. Jeg har altid fået rigtig god service i de fysiske butikker, og hvis du ender med at prøve tingene der og få vejledning, men helst vil købe online, så kan du jo vælge den løsning.
 
 [Besøg Løberen](https://www.loberen.dk/){: .btn .btn--large .btn--success rel="noopener nofollow" }
 
-### Løbeshop.dk
+### 2. Løbeshop.dk
 
 Løbeshop.dk er en af Danmarks største online løbebutikker, men den har også en stor fysisk butik i Århus, hvor du med garanti vil blive fristet. Hvis du godt kan lide løbeudstyr og gode tilbud, så kan du finde masser af inspiration.
 
@@ -50,33 +50,39 @@ Du kan finde alt til løb i det store sortiment af løbeudstyr, og du får som f
 
 [Besøg Løbeshop.dk](https://www.loebeshop.dk/){: .btn .btn--large .btn--success rel="noopener nofollow" }
 
-### Sportsmaster.dk
+### 3. Sportsmaster.dk
 
 Sportsmaster er en af de mest kendte danske sportsforretninger og mærker. De har også en rigtig god webshop med et stort udvalg til løbere. Samtidig kan du finde sportsudstyr til alle mulige andre sportsgrene samtidig. Hvis du får en forkert størrelse, så er det også ret enkelt at gå ned i en af de fysiske butikker og få byttet varerne.
 
+{% include figure image_path="/assets/images/blog/loebebutik-sportsmaster.png" alt="Løbeshop sportsmaster" %}
+
 [Besøg sportsmaster.dk »](https://in.sportmaster.dk/t/t?a=1124622406&as=1484571907&t=2&tk=1){: .btn .btn--large .btn--success rel="sponsored noopener nofollow" }
- 
-### Billigsport24.dk
+
+### 4. Billigsport24.dk
 
 Billigsport24.dk sælger kun løbeudstyr online, men sortimentet stopper ikke ved løbetøj og løbesko. Her kan du også få alt muligt andet sportsudstyr.. Kundeservicen er god, du får fornuftige priser og leveringen er hurtig.
 
-[Besøg billigsport24.dk »](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=9397&htmlurl=PRODUKTLINK){: .btn .btn--large .btn--success rel="sponsored noopener nofollow" }
+{% include figure image_path="/assets/images/blog/loebeforretning-billigsport24.png" alt="Løbeshop billigsport24" %}
 
-### Sportamore.dk
+[Besøg billigsport24.dk »](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=9397&htmlurl=https://www.billigsport24.dk/lob){: .btn .btn--large .btn--success rel="sponsored noopener nofollow" }
 
-Sportamore.dk er et nordisk sportsmærke. Ligesom sportsmaster.dk så får du et stort udvalg i forskelligt sportsudstyr. Du finder også en masse forskelligt udstyr til løberen. 
+### 5. Sportamore.dk
+
+Sportamore.dk er et nordisk sportsmærke. Ligesom sportsmaster.dk så får du et stort udvalg i forskelligt sportsudstyr. Du finder også en masse forskelligt udstyr til løberen.
 
 Hvis du er til trailløb, så er til [trailløb](/trailloeb/), så er der et rigtig stort sortiment, men det kan du også finde i de dedikerede løbeshops.
 
 [Besøg sportamore.dk](https://www.sportamore.com/dk){: .btn .btn--large .btn--success rel="noopener nofollow" }
 
-### A-puls.dk
+### 6. A-puls.dk
 
-A-puls.dk er en stor dansk webshop, hvor du kan købe rigtig meget forskelligt sportsudstyr. Shoppen har mest udstyr til outdoor og trail, men tjek dem ud. Du kan virkelig få alt, hvad hjertet begærer, når det drejer sig om sport.
+A-puls.dk er en stor dansk webshop, hvor du kan købe rigtig meget forskelligt sportsudstyr. Shoppen har løbebånd og løbefaldskærme, men tjek dem ud. Du kan virkelig få alt, hvad hjertet begærer, når det drejer sig om sport og udstyr.
+
+{% include figure image_path="/assets/images/blog/loebewebshop-apuls.png" alt="Løbebutik apuls" %}
 
 Tjek A-puls.dk ud. Også for at se deres andet sortiment.
 
-[Besøg A-puls.dk »](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=39091&htmlurl=PRODUKTLINK){: .btn .btn--large .btn--success rel="sponsored noopener nofollow" }
+[Besøg A-puls.dk »](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=39091&htmlurl=https://apuls.dk/search/l%C3%B8b){: .btn .btn--large .btn--success rel="sponsored noopener nofollow" }
 
 ## Fysiske løbebutikker
 

@@ -30,7 +30,7 @@ Den bedste løb app skal dække dit behov. Men sommetider ved man jo ikke helt h
 
 Du kan faktisk finde en app til det meste. I dette indlæg fokuserer jeg på løbe apps. Jeg har prøvet rigtig mange, men du har måske dine egne favoritter.
 
-## Garmin Connect
+### 1. Garmin Connect
 
 Jeg bruger selv Garmin Connect mest, fordi jeg har et Garmin ur. Ulempen ved Garmin Connect er, at du ikke kan starte og optage dine træningsture og løbeture direkte i appen.
 
@@ -40,34 +40,38 @@ Har kan du få din [skridtlængde og løbekadence](/gennemsnitlige-skridtlaengde
 
 I appen kan du opbygge din løbetræning eller ruter, og så kan du sende dem til dit Garmin [pulsur og løbeur](/pulsure/).
 
-## NIKE+ Running
+### 2. NIKE+ Running
 
 Nike Plus Running er en enkel app, som kan det mange efterspørger i en løbeapp. Du kan spille musik, måle løberuten og registrere hastighed og tid. Hvis du har et pulsbælte med bluetooth, så kan du også få pulsen ind i appen. Efter løbeturen kan du registrere dit humør, løbeunderlaget og dine løbesko, så du kan tracke, hvornår de skal udskiftes.
 
 Appen er gratis, og det er formentlig den bedste gratis løbe app i øjeblikket.
 
-## Strava
+### 3. V.O2 - Jack Daniels Running Formula
+
+V.O2 er baseret på Jack Daniels Running Formula lavet af den berømte coach, Jack Daniels. Vi har en [løbsberegner](/loebesiden-jack-daniels-loebeberegner/) her på sitet, men her har du en app, hvor du løbende kan gemme dine beregninger til at udregne Vdot.
+
+### 4. Strava
 
 Strava er rigtig populær blandt cyklister. Mange andre apps kan synkronisere op mod Strava, fx Polar Beat eller Garmin Connect. Her kan du få vist din rute, og de forskellige løbemålinger, du har lavet på din vej. I Strava kan du konkurrere mod andre på de såkaldte 'segmenter', som er virtuelle strækninger, hvor du kan se andres tider. Det kan være meget motiverende, men er nok størst i cyklingen.
 
-## Runkeeper
+### 5. Runkeeper
 
 RunKeeper er en af de ældre løbe apps. Den er stadig ret populær blandt løbere, men den har høj konkurrence fra de andre apps. Jeg bruger den ikke selv længere, fordi jeg hovedsageligt bruger Garmin Connect, men tjek den ud.
 
-## Map My Run by Under Armour
+### 6. Map My Run by Under Armour
 
 Under Armour opkøbte den tidligere meget populære og danskudviklede Endomondo. Det gjorde de formentlig primært for at lægge den sammen med deres egen Map My Run, som har mange af de samme features som Endomondo havde. Map My Run er gratis, men der er reklamer undervejs, når du bruger appen. Jeg synes Nike Plus Running er lidt mere gennemført lige nu.
 
-## Stryd
+### 7. Stryd
 
 Stryd er en lille smart wattmåler til løb. Hvis du har investeret i wattmåleren, så får du også adgang til den gratis version af Stryd appen. Det er en rigtig lækker app, hvor du får rigtig mange [løbemålinger og informationer med løbedynamik](/loebedynamik-loebemaalinger/) om dine løb.
 
-## Zwift
+### 8. Zwift
 
 I løbet af vinteren så løber jeg sommetider på løbebåndet, men for at få lidt mere inspiration, så er det sjovt at træne lidt mod andre. Det kan du gøre i Zwift, som oprindeligt er lavet til cykelløb.
 
 Det er blevet muligt også at lave [wattmåling i løbetræning](/loeb-watt/). Derfor kan du løbe mod andre i den [virtuelle Zwift-verden](/komplet-begynderguide-zwift/). Desværre koster Zwift noget. Det kunne være rigtig interessant med en gratis mulighed for at løbe mod andre.
 
-## V.O2 - Jack Daniels Running Formula
+## Konklusion
 
-V.O2 er baseret på Jack Daniels Running Formula lavet af den berømte coach, Jack Daniels. Vi har en [løbsberegner](/loebesiden-jack-daniels-loebeberegner/) her på sitet, men her har du en app, hvor du løbende kan gemme dine beregninger til at udregne Vdot.
+Der er rigtig mange gode løbe apps. Her var et udsnit af nogle af de bedste. Hvis du kender nogen, der er endnu bedre, så skriv endelig.

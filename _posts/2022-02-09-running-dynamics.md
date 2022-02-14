@@ -28,7 +28,9 @@ Det kigger vi på her. Du kan altid bruge denne side som et opslagsværk, hvis d
 
 Lad os dykke ned i de forskellige målinger af løbedynamik, som det giver mening at bruge i den daglige træning, og som du kan aflæse på dit ur.
 
-[Garmin](https://discover.garmin.com/da-DK/performance-data/running/) har lavet en fin oversigt over, hvilke forskellige løbemålinger de tilbyder, men her er de ting, som jeg bruger mest.
+[Garmin](https://discover.garmin.com/da-DK/performance-data/running/) har lavet en fin oversigt over, hvilke forskellige løbemålinger de tilbyder. Nilanjan Manna har skrevet en "[Beginner's Guide To Running Metrics på Medium](https://medium.com/runners-life/a-beginners-guide-to-running-metrics-a54ced5e19b7)".
+
+I dette indlæg præsenterer jeg en række forskellige løbe metrics.
 
 ## Hvilke løbemålinger er vigtige for løbedynamik?
 
@@ -61,6 +63,8 @@ Løbekadencen er et rigtig godt parameter at træne, hvis du gerne vil være en 
 
 Jeg har selv slået kadence til, så jeg kan se det på mit ur. Jeg har lagt mærke til, at min løbekadence har en tendens til at falde, når jeg bliver træt, så det det er et godt parameter at have tilgængeligt på uret.
 
+{% include figure image_path="https://miro.medium.com/max/700/1*2kOX4ZL9PyVhQis9Pk4Q0w.png" caption="Løbekadence og skridtlængde. Kilde: [Nilanjan Manna](https://medium.com/runners-life/a-beginners-guide-to-running-metrics-a54ced5e19b7)" %}
+
 ### 2. Skridtlængde
 
 Skridtlængde måler den gennemsnitlige skridtlængde for løberen. Skridtlængden afhænger både at styrken og mobiliteten for løberen. Skridtlængden skal gerne være afpasset, så man ikke _overstrider_, som jeg har skrevet mere om i indlægget om løbekadence og skridtlængde.
@@ -77,8 +81,6 @@ Hvis du vil være **en hurtigere løber**, så skal du forbedre disse løbemetri
 
 For nylig løb jeg et løb, hvor jeg eksperimenterede med kadencen, men forsøgte at løbe den samme hastighed. Du kan se, hvordan det ser ud her fra Stryd Powercenter:
 
-{% include figure image_path="/assets/images/blog/loebedynamik-skridt-kadence-stryd.png" caption="Skridtlængde og kadence fra Stryd Powercenter-dashboard." %}
-
 Der er tre andre løbemålinger, som er relateret til løbekadencen. Hvis du ændrer din kadence, så ændrer du typiske alle disse målinger også.
 
 ### 3. Ground Contact Time
@@ -88,6 +90,8 @@ Den gennemsnitlige tid løberen er på jorden ved hvert eneste skridt. Det blive
 ### 4. Vertical Oscillation
 
 Vertical Oscillation er målingen af, hvor meget løberens overkrop flyttes vertikalt på jorden. Denne løbemåling giver en fornemmelse for, hvor meget løberen hopper undervejs. Det måles typisk centimeter. Målet med løb er horisontal bevægelse. Derfor kan det betale sig, at energi brugt på vertikal bevægelse minimeres for at løbe mere effektivt.
+
+{% include figure image_path="https://miro.medium.com/max/700/1*c9_GCaPD7oYPT7CmLaJXLg.png" caption="Vertical Oscillation og Ground Contact Time. Kilde: [Nilanjan Manna](https://medium.com/runners-life/a-beginners-guide-to-running-metrics-a54ced5e19b7)" %}
 
 ### 5. Vertical Ratio
 
@@ -109,11 +113,15 @@ De fleste har efterhånden et [pulsur](/pulsure/), men mange får ikke indstille
 
 Du skal være opmærksom på, at pulsen afhænger af alderen, fysiske forfatning, vejret, stimulanser og fx dehydrering. Samtidig reagerer pulsen altid forsinket på den aktivitet, du laver. Hvis du fx laver intervaller, så vil svaret på pulsen komme senere.
 
+{% include figure image_path="https://miro.medium.com/max/700/1*APsnxSbENOe2aNSQARYbUw.png" caption="Puls fra Stryd Powercenter og Strava Elevate. Kilde: [Nilanjan Manna](https://medium.com/runners-life/a-beginners-guide-to-running-metrics-a54ced5e19b7)" %}
+
 ### Power (watt)
 
 Power er en relativ ny løbemåling. Den har været brugt længe i cykling, men i de sneste år er der kommet måder at estimere power på under løb. Power er det output løberen har under løb. Power måles i watt.
 
 En af fordelene ved watt er, at den reagerer øjeblikkeligt, når du ændrer intensitet. Power er heller ikke afhængig af nogen udefrakommende faktorer, som pulsen er. Der er forskellige forskellige metoder at måle watt på, som jeg har skrevet mere om under [wattmåling og løb](/loeb-watt/).
+
+{% include figure image_path="https://miro.medium.com/max/700/1*PxYGn8rmqpZJ9FYsgMcKBA.png" caption="Power målt med Stryd. Kilde: [Nilanjan Manna](https://medium.com/runners-life/a-beginners-guide-to-running-metrics-a54ced5e19b7)" %}
 
 ## Løbeøkonomi og løbeeffektitet
 
@@ -121,7 +129,7 @@ Hvis man kan bruge nogle af de mere lavpraktiske målinger, som man kan lave ved
 
 Tænk sig at kunne ændre et element i sin løbeøkonomi, fx løbekadencen, og tjekke om man derved også løber mere energiøkonomisk og effektivt.
 
-Der har været et par forslag. 
+Der har været et par forslag.
 
 ### Running Effectiveness (RE)
 
