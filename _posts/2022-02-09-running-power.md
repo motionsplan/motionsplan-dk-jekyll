@@ -92,6 +92,12 @@ Det anslås i noget litteratur, at den returnerede energi fra achillessenen kan 
 
 På grund af disse forklaringer, så fortolker van Dijk og van Megen Stryds watt som _Net Running Power_ og Polars tal som _Gross Running Power_, hvor forskellen er den elastiske energi, der returneres i sener og ligamenter.
 
+## Konklusion
+
+Hvis du vil måle dit løb med en wattmåler og løbe med _power_, så skal du være opmærksom på, at du skal bruge det samme _device_ fra gang til gang. Som med pulszonetræning, så kan du også lave zoner til din watt-træning.
+
+Hvis du vil dykke lidt mere ned i wattmåling, så kan du læse dette glimrende indlæg fra [www.trainingpeaks.com](https://www.trainingpeaks.com/blog/running-with-power-how-it-works-and-what-it-means/).
+
 
 {% comment %}
 
