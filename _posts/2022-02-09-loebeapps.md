@@ -11,6 +11,21 @@ category:
 tags:
   - apps
 last_modified_at: 2022-01-27T22:21:26Z
+gallery_garmin:
+  - image_path: /assets/images/blog/loebeapp-garmin-1.jpg
+  - image_path: /assets/images/blog/loebeapp-garmin-2.jpg
+  - image_path: /assets/images/blog/loebeapp-garmin-3.jpg
+gallery_vdot:
+  - image_path: /assets/images/blog/loebeapp-vdot-1.jpg
+  - image_path: /assets/images/blog/loebeapp-vdot-2.jpg
+  - image_path: /assets/images/blog/loebeapp-vdot-3.jpg
+gallery_strava:
+  - image_path: /assets/images/blog/loebeapp-strava-1.jpg
+  - image_path: /assets/images/blog/loebeapp-strava-2.jpg
+gallery_stryd:
+  - image_path: /assets/images/blog/loebeapp-stryd-1.jpg
+  - image_path: /assets/images/blog/loebeapp-stryd-2.jpg
+  - image_path: /assets/images/blog/loebeapp-stryd-3.jpg
 ---
 
 Jeg er hele tiden på udkig efter nye apps, der kan hjælpe mig i træningen. Jeg har været på udkig efter den bedste løbe app, og jeg har fundet nogle rigtig gode bud.
@@ -40,6 +55,8 @@ Har kan du få din [skridtlængde og løbekadence](/gennemsnitlige-skridtlaengde
 
 I appen kan du opbygge din løbetræning eller ruter, og så kan du sende dem til dit Garmin [pulsur og løbeur](/pulsure/).
 
+{% include gallery id="gallery_garmin" %}
+
 ### 2. NIKE+ Running
 
 Nike Plus Running er en enkel app, som kan det mange efterspørger i en løbeapp. Du kan spille musik, måle løberuten og registrere hastighed og tid. Hvis du har et pulsbælte med bluetooth, så kan du også få pulsen ind i appen. Efter løbeturen kan du registrere dit humør, løbeunderlaget og dine løbesko, så du kan tracke, hvornår de skal udskiftes.
@@ -50,9 +67,13 @@ Appen er gratis, og det er formentlig den bedste gratis løbe app i øjeblikket.
 
 V.O2 er baseret på Jack Daniels Running Formula lavet af den berømte coach, Jack Daniels. Vi har en [løbsberegner](/loebesiden-jack-daniels-loebeberegner/) her på sitet, men her har du en app, hvor du løbende kan gemme dine beregninger til at udregne Vdot.
 
+{% include gallery id="gallery_vdot" %}
+
 ### 4. Strava
 
 Strava er rigtig populær blandt cyklister. Mange andre apps kan synkronisere op mod Strava, fx Polar Beat eller Garmin Connect. Her kan du få vist din rute, og de forskellige løbemålinger, du har lavet på din vej. I Strava kan du konkurrere mod andre på de såkaldte 'segmenter', som er virtuelle strækninger, hvor du kan se andres tider. Det kan være meget motiverende, men er nok størst i cyklingen.
+
+{% include gallery id="gallery_strava" %}
 
 ### 5. Runkeeper
 
@@ -65,6 +86,8 @@ Under Armour opkøbte den tidligere meget populære og danskudviklede Endomondo.
 ### 7. Stryd
 
 Stryd er en lille smart wattmåler til løb. Hvis du har investeret i wattmåleren, så får du også adgang til den gratis version af Stryd appen. Det er en rigtig lækker app, hvor du får rigtig mange [løbemålinger og informationer med løbedynamik](/loebedynamik-loebemaalinger/) om dine løb.
+
+{% include gallery id="gallery_stryd" %}
 
 ### 8. Zwift
 
