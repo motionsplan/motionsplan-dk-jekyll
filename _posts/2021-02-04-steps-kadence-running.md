@@ -11,13 +11,17 @@ category:
   - Løb
 tags:
   - løb
-last_modified_at: 2021-03-12T08:14:14Z
+last_modified_at: 2022-02-07T08:14:14Z
 toc: true
+garmin_metronom:
+  - image_path: /assets/images/blog/lobekadence-garmin-metronom-1.jpg
+  - image_path: /assets/images/blog/lobekadence-garmin-metronom-2.jpg
+  - image_path: /assets/images/blog/lobekadence-garmin-metronom-3.jpg
 ---
 
 Jeg kigger i dette indlæg på, hvad den gennemsnitlige skridtlængde er for mænd og kvinder ved løb, og hvilken kadence (løbekadence) folk typisk løber med - altså hvor mange skridt, løbere tager i minuttet.
 
-Du har formentlig tænkt over, hvad din skridtlængde og løbekadence er, når du løber. Din kadence og skridtlængde under løb er med til at bestemme, hvor hurtigt du løber. Men din løbekadence og skridtlænge er naturligvis også en væsentlig del af din [løbeteknik og løbestil]({% link _posts/2020-08-16-loebeteknik.md %}) og kan også være med til at bestemme din [løbeøkononomi]({% link _posts/2019-12-16-running-economy.md %}). Nogle kobler også din kadence sammen med skadesrisikoen, fx i [Schubert et al (2014)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4000471/).
+Du har formentlig tænkt over, hvad din skridtlængde og løbekadence er, når du løber? Din kadence og skridtlængde under løb er med til at bestemme, hvor hurtigt du løber. Men din kadence og skridtlænge er naturligvis også en væsentlig del af din [løbeteknik og løbestil]({% link _posts/2020-08-16-loebeteknik.md %}) og kan også være med til at bestemme din [løbeøkononomi]({% link _posts/2019-12-16-running-economy.md %}). Nogle kobler også din kadence sammen med skadesrisikoen, fx i [Schubert et al (2014)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4000471/).
 
 [Heiderscheit (2011)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3022995/) konkluderer, at forøgelsen af kadencen med 5-10% i forhold til den nuværende kadence kan være med til at skabe mindre belastning på knæ- og hofteled, en mindre forskydning af tyngdepunktet og mindre bremsekraft i forbindelse med landingen. Den øgede kadence sænkede imidlertid også skridtlængden, hvilket potentielt kan gøre din løbehastighed kortere.
 
@@ -31,7 +35,7 @@ Løb er jo defineret ved, at man har en svævefase. Når man tager færre skridt
 
 ## Løbekadence: Hvor mange skridt tager løbere gennemsnitligt pr. minut?
 
-[Aktiv Motion](http://aktivmotion.dk/hurtigere-l%C3%B8ber-%E2%80%93-skridtl%C3%A6ngde-eller-kadence/) skriver, at de fleste eliteløbere løber med nogenlunde samme kadence i løb. Eliteløbernes kadence måles gennemsnitligt til 182 skridt i minuttet. Hvis du måler løbekadencen på begynderløbere, så er deres kadence typisk noget lavere - faktisk helt op til 25-30 skridt færre pr. minut.
+[Aktiv Motion](http://aktivmotion.dk/hurtigere-l%C3%B8ber-%E2%80%93-skridtl%C3%A6ngde-eller-kadence/) skriver, at de fleste eliteløbere løber med nogenlunde samme kadence i løb. Eliteløbernes kadence måles gennemsnitligt til 182 skridt i minuttet. Hvis du måler kadencen på begynderløbere, så er deres kadence typisk noget lavere - faktisk helt op til 25-30 skridt færre pr. minut.
 
 Løbecoach, Jonas Pedersen, viser i denne Youtube video forskellen mellem at løbe med 160 skridt i minuttet, som er meget typisk for motionister og 180 skridt i minuttet, som eliteløbere gør.
 
@@ -45,7 +49,7 @@ Både skridtlængden og kadencen har selvfølgelig betydning for din hastighed. 
 
 For at blive en hurtigere løber skal du enten tage flere skridt eller tage længere skridt. Langt de fleste løbecoaches vil starte med kadencen. Først kan du prøve at tælle din løbekadence. Hvor mange skridt tager du pr. minut? Hvis din kadence er under 180, så foreslår [Aktiv Motion](http://aktivmotion.dk/hurtigere-l%C3%B8ber-%E2%80%93-skridtl%C3%A6ngde-eller-kadence/), at du forestiller dig, at dine ben er hjul, der bare kører afsted.
 
-[van Oeveren et al (2017)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5653196/) undersøgte rekreative løbere og løbekadencen. Selvom det ser ud til, at 180 fungerer godt for eliteløbere, så er det tvivlsomt, at den kadence er bedst for alle. De fik folk til at løbe med forskellige kadence og forsøgte at finde løbernes optimale kadence i forhold til pulsen.
+[van Oeveren et al (2017)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5653196/) undersøgte rekreative løbere og kadencen. Selvom det ser ud til, at 180 fungerer godt for eliteløbere, så er det tvivlsomt, at den kadence er bedst for alle. De fik folk til at løbe med forskellige kadence og forsøgte at finde løbernes optimale kadence i forhold til pulsen.
 
 > We conclude that over the speed range tested, inexperienced runners may not need to adapt their SF to running speed. However, since SF<sub>self</sub> were lower than the SF<sub>opt</sub> of 83 strides·min-1, the runners could reduce HR by increasing their SF<sub>self</sub>.
 
@@ -81,7 +85,11 @@ Der findes et utal af metronomer til både Android og IOS. Jeg synes Soundbrenne
 
 Det er også derfor, at det betyder noget, hvilket [musik du vælger til din løbetræning]({% link _posts/2013-05-02-musik-til-traeningen.md %}). Hvis du vælger musik med en for langsom rytme, så kan du risikere at sætte din løbekadence ned.
 
-Nyere løbeure måler også løbekadencen for dig, men typisk kan de ikke hjælpe dig med at holde den undervejs.
+Nyere løbeure måler også løbekadencen for dig. Du kan sætte løbekadencen på et af dine skærmbilleder, så du kan holde styr på den undervejs. På flere af de moderne løbeure er der også en metronom, du kan bruge.
+
+På mit Garmin-ur ser det fx sådan her ud:
+
+{% include gallery id="garmin_metronom" caption="Metronomen på Garmin-uret har flere indstillinger, som du kan finde fx under 'Løb'-appen. Det kræver dog at omgivelserne er relativt lydløse, da bippet ikke er så højt." %}
 
 ## Hvad er den gennemsnitlige skridtlængde i løb?
 
