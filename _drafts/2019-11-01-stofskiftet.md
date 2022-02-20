@@ -18,7 +18,7 @@ feature_row:
     alt: "Exercise Physiology - Nutrition, Energy, and Human Performance"
     title: "Exercise Physiology - Nutrition, Energy, and Human Performance"
     excerpt: "Skrevet af BS, William D., PhD McArdle, M.Ed, Frank I. Katch, Victor L. Katch."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://bogreolen.dk/exercise-physiology_bs_9781451193831"
+    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/exercise-physiology-nutrition-energy-and-human-performance_bs_9781451193831"
     btn_label: "Læs mere*"
     btn_class: "btn--success"
   - image_path: https://imgcdn.saxo.com/_9788762813762/0x500

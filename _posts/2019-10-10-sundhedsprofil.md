@@ -31,21 +31,14 @@ feature_row:
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
 feature_row_references:
-  - image_path: https://cdn6.bogreolen.dk/00045/54433/cover.1581291718.jpg
+  - image_path: https://cdn6.tales.dk/00045/54433/cover.1581291718.jpg
     title: "Measurement and Evaluation in Human Performance"
     alt: Measurement and Evaluation in Human Performance
     excerpt: "af Jr., Minsoo Kang, Dale P. Mood, James R. Morrow, James G. Disch"
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://bogreolen.dk/measurement-and-evaluation-in-human-performance_jr_9781450470438"
+    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/measurement-and-evaluation-in-human-performance_minsoo-kang_9781450470438"
     btn_label: "Tjek prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
-#  - image_path: https://cdn6.bogreolen.dk/00096/38105/cover.1566436401.jpg
-#    title: "Norms for Fitness, Performance, and Health"
-#    alt: Norms for Fitness, Performance, and Health
-#    excerpt: "Suitable for students in sport and exercise science. This book includes normative data for various aspects of fitness, such as strength, endurance, anaerobic and aerobic capacity, body composition, flexibility, speed and agility. It also looks at health norms to measure cardiovascular values, blood lipids, bone density and energy"
-#    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://bogreolen.dk/norms-for-fitness-performance-and-health_jay-r-hoffman_9780736054836"
-#    btn_label: "Tjek prisen"
-#    btn_class: "btn--success"
   - image_path: https://imgcdn.saxo.com/_9781469825885/0x500
     alt: "ACSM's Guidelines for Exercise Testing and Prescription"
     title: "ACSM's Guidelines for Exercise Testing and Prescription"
