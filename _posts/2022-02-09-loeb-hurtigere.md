@@ -24,6 +24,10 @@ Lad os dykke ned i de gode tips til at få mere fart i fødderne på løbeturen.
 
 {% include figure image_path="https://images.unsplash.com/photo-1613937574892-25f441264a09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=5" caption="Hvordan løber jeg hurtigere? Tjek disse tips til at blive en hurtigere løber." alt="hurtige løbere" %}
 
+Tjek først denne video for at få en grundlæggende forståelse for, hvad der skal til for at **løbe hurtigere**.
+
+{% include video provider="youtube" id="VBWGAFInyjQ" %}
+
 ## 1. Planlægning kan gøre dig til hurtigere løber
 
 Hvis du gerne vil være en bedre løber, så kan det helt sikkert betale sig at planlægge træningen. Jeg har god erfaring med at planlægge min træning en måneds tid frem i tiden, men du kan også lave meget længere planer eller bare den næste uges tid.
@@ -34,7 +38,7 @@ Med en plan, så springer man ikke lige over træningen så let. Typisk forsøge
 
 Vi har skrevet mere om, hvordan du selv kan [planlægge dit løbeprogram](/guide-til-loebeprogram/).
 
-## 2.Brug intervaltræning – også selvom du hader det
+## 2. Brug intervaltræning – også selvom du hader det
 
 Intervalltræning og intervalløb bør være en del af din træning, hvis du vil være en hurtigere løber. Intervalløb kan være med til at forbedre din maksimale iltoptagelse samtidig med, at den høje intensitet også kan optimere din løbeøkonomi.
 
