@@ -21,7 +21,7 @@ toc: true
 
 Jeg bliver ofte spurgt om, hvor hurtigt muskler vokser, og hvornår man kan se resultater. Hvor meget muskelmasse kan man egentlig tage på om året med styrketræning?
 
-**Hvor hurtigt dine muskler vokser ved styrketræning afhænger af din træningserfaring. Unge mandlige begyndere kan måske have en muskelvækst på 6-10 kg det første år ved en veltilrettelagt træning, kost og restitution, men fremgangen de følgende år vil formentlig halveres hvert år. Kvinder skal nok forvente halvdelen af fremgangen. Alderen spiller også på den hastighed, musklerne kan vokse med.**
+**Hvor hurtigt dine muskler vokser ved styrketræning afhænger af din træningserfaring. Unge mandlige begyndere kan måske have en muskelvækst på 6-10 kg det første år ved en veltilrettelagt træning, kost og restitution, men fremgangen de følgende år vil formentlig halveres hvert år. Kvinder skal nok forvente halvdelen af fremgangen. Alderen spiller også ind på den hastighed, musklerne kan vokse med.**
 
 Hvor hurtigt muskler vokser afhænger naturligvis af flere ting. Træner du hårdt og efter fornuftige retningslinjer? Spiser du ordentligt, så kroppen kan bygge musklerne op? Er du mand eller kvinde? Hvor veltrænet er du nu? Hvor gammel er du? Hvordan sover du?
 
@@ -31,7 +31,7 @@ Ogasawara et al (2012) undersøgte muskelvækst i forbindelse med bænkpres træ
 
 Studiet viste en vækst i brystmuskulaturen en vækst på 0,054 mm om dagen i gennemsnit og i alt 9 mm på de 24 uger, hvilket i gennemsnit svarer til 0,125 mm for hver af de 72 træningssessioner i træningsprogrammet.
 
-I samme studie fandt Ogasawara et al (2012) en vækst i triceps på 0,036 mm om dagen i gennemsnit over perioden på 24 uger. Det svarer til at triceps blev 0,1 mm tykkere om ugen og 1,3 cm om året, hvis væksten fortsætter lineært efter 24 uger.
+I samme studie fandt Ogasawara et al (2012) en vækst i triceps på 0,036 mm om dagen i gennemsnit over perioden på 24 uger. Det svarer til, at triceps blev 0,1 mm tykkere om ugen og 1,3 cm om året, hvis væksten kan fortsætte lineært efter de 24 uger.
 
 ## Hvor meget muskelmasse kan man tage på af styrketræning?
 
@@ -65,7 +65,7 @@ Alan Aragon har tidligere anslået følgende sammenhæng mellem træningserfarin
 | Trænede | 0,5-1,0% / mdr |
 | Meget veltrænede | 0,25-0,5% / mdr |
 
-Lyle McDonald har lavet følgende opstilling af, hvor meget muskelmasse, man kan tage på i løbet af et år og en måned ([kilde](https://www.bodylab.dk/shop/hvor-hurtigt-vokser-muskler-3271c1.html)):
+Lyle McDonald har i følge [bodylab.dk](https://www.bodylab.dk/shop/hvor-hurtigt-vokser-muskler-3271c1.html) lavet følgende opstilling af, hvor meget muskelmasse, man kan tage på i løbet af et år og en måned:
 
 | Antal år med veltilrettelagt træning | Muskelmasse pr. år | Muskelmasse pr. måned |
 |-|-|-|
@@ -90,14 +90,18 @@ Allerede efter en pause på nogle uger vil der ske atrofi i muskelfibrene. Taaff
 
 Det foregående giver altså en ide om, hvor hurtigt muskler vokser. Abe et al (2018) har stillet sig selv spørgsmålet: “Skeletal Muscle Mass in Human Athletes: What Is the Upper Limit?”, og de fandt frem til, at der formentlig er en øvre grænse, som hænger sammen med højden.
 
-Abe et al (2018) undersøgte 43 atleter, som spillede amerikansk fodbold, 18 styrkeløftere, 28 sumobrydere og 6 kuglestødere. Desværre var der ikke bodybuildere i studiet. Men de fandt en sammenhæng mellem højden og den maksimale fedtfrie masse og muskelmasse atleterne kunne tage på.
+Abe et al (2018) undersøgte 43 atleter, som spillede amerikansk fodbold, 18 styrkeløftere, 28 sumobrydere og 6 kuglestødere. Desværre var der ikke bodybuildere i studiet. Men de fandt en sammenhæng mellem højden og den maksimale fedtfrie masse og muskelmasse atleterne kunne tage på. Desværre undersøgte de kun mænd.
 
-De endte med en meget enkelt formel til at estimere dit eget øvre potentiale for fedtfri masse (FFM) og maksimal muskelmasse.
+De endte med en meget enkel formel til at estimere dit eget øvre potentiale for fedtfri masse (FFM) og maksimal muskelmasse.
 
-FFM<sub>max</sub> = højde (m) x højde (m) x 34
-Muskelmasse<sub>max</sub> = højde (m) x højde (m) x 17
+- FFM<sub>max</sub> = højde (m) x højde (m) x 34
+- Muskelmasse<sub>max</sub> = højde (m) x højde (m) x 17
 
-Så kan jeg hurtigt regne ud, at jeg som 1,81 cm høj i alt kan pakke lige omkring 55 kg muskler. Jeg fik for nylig lavet en [bioimpedans kropskomposition med Body]({% link _posts/2019-10-14-fedtprocent-bioimpedans-inbody-570.md %}), som fortæller mig at jeg har 40,1 kg skeletmuskelmasse. Jeg har altså potentiale til at tage 15 kg mere muskel på.
+Vi har lavet en beregner her, som du lynhurtigt kan smide dine egne tal ind i.
+
+{% include calculate-musclemass-upper-limit.html %}
+
+Så kan jeg hurtigt regne ud, at jeg som 1,81 cm høj i alt kan pakke lige omkring 55 kg muskler. Jeg fik for nylig lavet en [bioimpedans kropskomposition med InBody]({% link _posts/2019-10-14-fedtprocent-bioimpedans-inbody-570.md %}), som fortæller mig at jeg har 40,1 kg skeletmuskelmasse. Jeg har altså potentiale til at tage 15 kg mere muskel på.
 
 Jeg vil kalde mig selv letøvet i træning, fordi jeg holder lidt for mange træningspauser, og så er jeg blevet mere end 40. Hvis jeg går i gang nu, så kan jeg måske tage 4-5 kg muskelmasse på, hvis jeg virkelig fokuserer på det på det første år. Det følgende år måske maksimalt 2,5 kg og derefter bliver det bare endnu vanskeligere med under et kg om året. Jeg skal nok aldrig regne med at opfylde mit fulde potentiale ifølge denne model.
 
@@ -113,7 +117,7 @@ Hvis man derimod bruger tungere vægte, fx 10RM, så er det nok at køre omkring
 
 {% include figure image_path="/assets/images/blog/dankel-low-load-vs-high-load.jpg" caption="Dankel et al (2017) viser den nødvendige belastning med forskellige intensiteter for at aktivere andelen af muskelfibre med potentiale for at skabe muskelvækst" %}
 
-Vi har skrevet mere om [hvordan muskler vokser, hvis du er interesseret]({% link _posts/2019-10-22-hvordan-vokser-muskler.md %}).
+Hvis du er interesseret, så har vi skrevet mere om [hvordan muskler vokser?]({% link _posts/2019-10-22-hvordan-vokser-muskler.md %})
 
 ## Opsamling
 
@@ -122,6 +126,9 @@ Det er klart lettest at bygge muskelmasse op i starten af ens styrketræningskar
 Jeg har skrevet et andet indlæg om [fysiologiske tilpasninger, der sker ved styrketræning]({% link _posts/2020-06-19-styrketraening-fysiologisk.md %}).
 
 ## Referencer
+
+<details markdown="1">
+  <summary>Se referencer</summary>
 
 - Abe, Takashi, Samuel L. Buckner, Scott J. Dankel, Matthew B. Jessee, Kevin T. Mattocks, J. Grant Mouser, og Jeremy P. Loenneke. 2018. “Skeletal Muscle Mass in Human Athletes: What Is the Upper Limit?” American Journal of Human Biology: The Official Journal of the Human Biology Council 30 (3): e23102. <https://doi.org/10.1002/ajhb.23102>.
 - Bhasin, Shalender, Thomas W. Storer, Nancy Berman, Carlos Callegari, Brenda Clevenger, Jeffrey Phillips, Thomas J. Bunnell, Ray Tricker, Aida Shirazi, og Richard Casaburi. 1996. “The Effects of Supraphysiologic Doses of Testosterone on Muscle Size and Strength in Normal Men”. New England Journal of Medicine 335 (1): 1–7. <https://doi.org/10.1056/NEJM199607043350101>.
@@ -136,3 +143,4 @@ Jeg har skrevet et andet indlæg om [fysiologiske tilpasninger, der sker ved sty
 - Ogasawara, Riki, Tomohiro Yasuda, Naokata Ishii, og Takashi Abe. 2013. “Comparison of Muscle Hypertrophy Following 6-Month of Continuous and Periodic Strength Training”. European Journal of Applied Physiology 113 (4): 975–85. <https://doi.org/10.1007/s00421-012-2511-9>.
 - Stock, Matt S., Jacob A. Mota, Ryan N. DeFranco, Katherine A. Grue, A. Unique Jacobo, Eunhee Chung, Jordan R. Moon, Jason M. DeFreitas, og Travis W. Beck. 2017. “The Time Course of Short-Term Hypertrophy in the Absence of Eccentric Muscle Damage”. European Journal of Applied Physiology 117 (5): 989–1004. <https://doi.org/10.1007/s00421-017-3587-z>.
 - Taaffe, D. R., og R. Marcus. 1997. “Dynamic Muscle Strength Alterations to Detraining and Retraining in Elderly Men”. Clinical Physiology (Oxford, England) 17 (3): 311–24. <https://doi.org/10.1111/j.1365-2281.1997.tb00010.x>.
+</details>

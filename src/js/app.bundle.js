@@ -777,6 +777,62 @@ $(function() {
 
       $("[name='relative_ppo']").val(relative_ppo.toFixed(2));
     });
+    $("#calculator_musclemass_upper_limit").submit(function(e) {
+      console.log("musclemass_upper_limit");
+      e.preventDefault();
+
+      let height = Number($("[name='height']").val()) / 100;
+
+      let ffm = height * height * 34;
+      let musclemass = height * height * 17;
+
+      $("[name='ffm']").val(ffm.toFixed(2));
+      $("[name='musclemass']").val(musclemass.toFixed(2));
+    });
+    $("#calculator_musclemass").submit(function(e) {
+      console.log("musclemass");
+      e.preventDefault();
+
+      let ethniticity = $("[name='ethniticity']").val();
+      let gender = $("[name='gender']").val();
+      let H = Number($("[name='height']").val());
+      let W = Number($("[name='weight']").val());
+      let A = Number($("[name='age']").val());
+      let WC = Number($("[name='waist']").val());
+
+      let SM;
+      if (WC > 0) {
+        if (gender == 'male') {
+          if (ethniticity == 'white') {
+            SM = 0.46 * W + 0.03 * H + 0.013 * A - 0.0006 * Math.pow(A, 2)  - 0.28 * WC + 13.8;
+          } else {
+            SM = 0.50 * W + 0.03 * H + 0.031 * A - 0.0008* Math.pow(A, 2) - 0.31 * WC + 13.3;
+          }
+        } else {
+          if (ethniticity == 'white') {
+            SM = 0.24 * W + 0.09 * H - 0.097 * A + 0.0004 * Math.pow(A, 2) - 0.06 * WC - 3.9;
+          } else {
+            SM = 0.26 * W + 0.10 * H - 0.120 * A + 0.0006 * Math.pow(A, 2) - 0.06 * WC - 4.9;
+          }
+        }
+      } else {
+        if (gender == 'male') {
+          if (ethniticity == 'white') {
+            SM = 0.23 * W + 0.15 * H - 0.058 * A - 0.0005 * Math.pow(A, 2) - 13.2;
+          } else {
+            SM = 0.26 * W + 0.16 * H - 0.054 * A - 0.0007 * Math.pow(A, 2) - 14.8;
+          }
+        } else {
+          if (ethniticity == 'white') {
+            SM = 0.19 * W + 0.11 * H - 0.095 * A + 0.0003 * A2 - 9.0;
+          } else {
+            SM = 0.21 * W + 0.12 * H - 0.132 * A + 0.0006 * A2 - 9.6;
+          }
+        }
+      }
+
+      $("[name='musclemass']").val(SM.toFixed(2));
+    });
     $("#calculator_6sek_fi").submit(function(e) {
       console.log("6sek_fi");
       e.preventDefault();
