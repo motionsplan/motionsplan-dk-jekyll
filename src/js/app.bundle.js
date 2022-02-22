@@ -798,7 +798,7 @@ $(function() {
       let H = Number($("[name='height']").val());
       let W = Number($("[name='weight']").val());
       let A = Number($("[name='age']").val());
-      let WC = Number($("[name='waist']").val());
+      let WC = Number($("[name='waist']").val())
 
       let SM;
       if (WC > 0) {
