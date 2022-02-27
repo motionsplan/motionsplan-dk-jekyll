@@ -255,7 +255,11 @@ Jeg har løbet med [Bose Sport Free](https://www.partner-ads.com/dk/klikbanner.p
 
 Derfor har jeg for nylige investeret i en [AfterShokz Aeropex](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67757&htmlurl=https://www.proshop.dk/Hovedtelefonerheadset/AfterShokz-Aeropex-Lunar-Grey/2790958){: rel="sponsored nofollow noopener" }. Den bruger _bone conduction_ til at få lyden ind i hovedet. Det betyder, at du ikke har noget i ørerne, men lyde skabes gennem kindbenet. Den sidder virkelig godt, og det er en helt særlig oplevelse at kunne høre, hvad der foregår omkring dig samtidig med, at du kan høre god musik undervejs.
 
-Hvis du typisk skal bruge hovedtelefoner ved støjrige veje, så er Aeropex formentlig ikke den helt rigtige løsning. Jeg cyklede i meget vind ved store hovedveje, og der var det ret vanskeligt at høre den podcast, jeg havde planlagt at lytte til undervejs uden at skrue helt op.
+Hvis du typisk skal bruge hovedtelefoner ved støjrige veje, så er Aeropex formentlig ikke den helt rigtige løsning. Jeg cyklede i meget vind ved store hovedveje, og der var det ret vanskeligt at høre den podcast, jeg havde planlagt at lytte til undervejs.
+
+{% include feature_row id="feature_row_shokz" type="left" %}
+
+{% comment %}
 
 {% include feature_row id="feature_row_shokz" type="left" %}
 
