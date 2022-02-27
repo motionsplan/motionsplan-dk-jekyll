@@ -37,27 +37,41 @@ feature_row_running_watch:
     rel: sponsored nofollow noopener
 ---
 
-Kan ikke connecte til så mange eksterne services som Zwift. Det er dog ikke noget problem for mig, da jeg optager alle mine træninger på Garmin Connect, så jeg har alle træningsdata samlet der. Så synkroniserer jeg mine Zwift og RGT træninger op til Strava og sletter de træningspas på Strava, der bliver synkroniseret fra Garmin.
+Her har du en guide til at cykle på hometrainer med RGT Cyling. Det er en virtuel cykelplatform, som kan gøre indendørs træningen lidt mere interessant.
+
+RGT Cykling er et alternativ til det meget populære Zwift. Fordelen ved RGT Cykling er, at du kan komme i gang gratis og køre nogle enkelte ruter uden at skulle betale. Samtidig kan du også gratis deltage i events på platformen. Bl.a. derfor køres DM også på RGT i 2022.
+
+## Om RGT Cycling
+
+RGT Cycling er en relativt ny platform inden for træning på hometrainer. Det er gratis at deltage i cykelløb på platformen. Du skal altså ikke betale et abonnement for at køre på platformen.
+
+RGT Cycling har lige nu også et lille forspring på en mere realistisk dynamik i løbene. På RGT Cycling kan du blive lukket inde i en sprint, hvis du sidder forkert. Du kan heller ikke træde rundt i skarpe sving, hvor farten altså bliver lidt lavere.
+
+I 2022 køres flere af de nationale forbund deres mesterskaber på RGT Cycling, og USA benytter fx platformen til at udtage deres landshold, som i 2022 køres på Zwift.
+
+## Gratis klublogin
+
+Cycling Danmark har lavet et samarbejde med RGT Cycling. Det beyder, at cykelklubber kan få et [gratis adgang til platformen](https://www.cyklingdanmark.dk/klubmedlems-nyheder/vis-nyhed/article/gratis-klublogin-til-rgt-cycling/). Det betyder, at klubberne gratis kan arrangere både cykelløb, cykelruter og træninger på platformen.
+
+## Fordele ved RGT Cykling
+
+RGT Cykling fungerer rigtig godt. Du behøver kun en app til at styre platformen. Jeg synes grafikken i appen er lidt bedre end Zwift, og det er lidt lettere at have overblik over ruten, mens du kører.
+
+Desuden tæller det altid i min bog, at platformen er gratis. Udvalget af ruter på den gratis udgave og træninger er meget begrænset, men du kan gratis deltage i alle de enkelte løb og events.
+
+## Ulemper ved RGT
+
+Jeg synes ikke, at der er så mange ulemper ved RGT Cykling. Hvis du gerne vil køre på en social platform med flere brugere, så er Zwift formentlig bedre, men jeg tror RGT Cykling kommer efter det ganske snart.
+
+Hvis du gerne vil have en mere livagtig grafik, så er [Rouvy](/rouvy/) eller [BKOOL](/bkool-begynderguide/) formentlig bedre alternativer, da de tager udgangspunkt i realistiske optagelser.
+
+RGT Cykling kan heller ikke connecte til så mange eksterne services som Zwift. Det er dog ikke noget problem for mig, da jeg optager alle mine træninger på Garmin Connect, så jeg har alle træningsdata samlet der. Så synkroniserer jeg mine Zwift og RGT træninger op til Strava og sletter de træningspas på Strava, der bliver synkroniseret fra Garmin.
 
 På Strava kan jeg således dele alle mine træninger og løb på en fornuftig måde, men jeg bruger Garmin Connect til at analysere min træning.
 
-https://www.cyklingdanmark.dk/klubmedlems-nyheder/vis-nyhed/article/gratis-klublogin-til-rgt-cycling/
+Zwift har et større netværk, og de har Companion app'en, som rigtig mange mennesker synes er rigtig smart til at få overblik over fællesskabet og events. Samtidig er der Zwiftpower, som giver et godt overblik over dine data fra de løb, du har deltaget i.
 
-Gratis klublogin til RGT Cyclingfeb 03,2022
-
-Som en del af DCU’s samarbejde med RGT Cycling i forbindelse med de officielle danske mesterskaber i e-cykling, giver DCU og RGT Cycling nu alle DCU’s medlemsklubber mulighed for at oprette et gratis klub-login. Dette giver alle landets cykelklubber adgang til at arrangere cykelløb, træning, træningsture mm. på platformen – og endda gratis!
-Disse aktiviteter kan være offentlige, eller kun for inviterede. Der kan arrangeres linjeløb, udskilningsløb, samt enkeltstarter og holdløb med forskudt start. Der kan køres på RGTs egne Real Roads, som er 3D udgaver af rigtige ruter som f.eks. Cap Formentor på Mallorca. Derudover kan man køre på egne ruter, eller andre brugeres ruter kaldet Magic Roads. På denne måde kan man let organisere f.eks. virtuel fællestræning på platformen. Klubbens ryttere kan deltage i disse og øvrige RGT-events med det gratis abonnement.
-
-Vi opfordrer alle cykelklubber med interesse for e-cykling til at tage imod dette gratis tilbud, og dermed muligheden for at tilbyde jeres medlemmer endnu mere værdi.
-
-Hvis dette lyder interessant for din klub, så send en e-mail til Morten Pedersen fra e-cyklingudvalget på morten.pedersen@cyklingdanmark.dk, så hjælper han jer i gang.
-
-Om RGT Cycling
-RGT Cycling er platformen som DM i e-cykling 2022 afvikles på. Platformen er relativ ny, og har det seneste års tid for alvor fået medvind. I januar 2022 blev de belgiske mesterskaber afholdt på platformen, og ud over Danmark har også Canada og USA annonceret et kommende nationalt mesterskab på RGT. Ligeledes har USA benyttet platformen til at udtage landsholdet til det forestående VM på Zwift!
-
-RGT Cycling er bl.a. blevet populær fordi man som medlem kan deltage gratis i cykelløb på platformen. Man skal altså IKKE betale et månedligt abonnement lige som på Zwift og Bkool. Ligeledes har RGT Cycling en anderledes og meget realistisk race-dynamik, sammenlignet med Zwift og Bkool. Man kan ikke ”træde igennem” andre cykelryttere i feltet, og kan altså blive lukket inde. Ligeledes kan man ikke træde rundt i sving og farten aftager ligeledes.
-
-RGT Cycling er på vej frem og i Danmarks Cykle Union ønsker vi at tage vores medlemsklubber med på denne rejse.
+{% comment %}
 
 ***
 
@@ -171,3 +185,5 @@ Put simply, this is horrendously hard. It’s called Sufferfest for a reason. Ha
 The strength training videos that the platform offers are a great tool. The best athletes and the best cyclists are not just made on the bike, but in the gym too! It's a very good way to give your intervals that X-factor to make you go harder. I love Sufferfest for high intensity workouts that are soul destroying without any kind of stimulus.
 
 The Sufferfest: Complete Training App for Cyclists and Triathletes
+
+{% endcomment %}

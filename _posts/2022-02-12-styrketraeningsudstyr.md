@@ -1,5 +1,5 @@
 ---
-title: &title "Udstyr til styrketræning: Begynderguide til de rigtige"
+title: &title "Udstyr til styrketræning: Begynderguide til det rigtige styrketræningsudstyr"
 seo_title: "Styrketræningsudstyr | Vælg det rigtige udstyr til styrketræning"
 permalink: /styrketraening-udstyr/
 language: da
@@ -37,8 +37,18 @@ feature_row_running_watch:
     rel: sponsored nofollow noopener
 ---
 
+## Styrketræningssko
+
+## Styrketræningsbælte
+
+## Crossfit grebshjælpere
+
+## Kalk
+
+## Straps
+
 
 
 ## Konklusion
 
-Dette var en begynderguide til, hvilket løbeudstyr du kan få brug for. Jeg udvider jævnligt guiden, og er startet med det udstyr som er _nice to have_. Hvis du vil støtte dette site, så vil vi sætte pris på, hvis du shopper i nogle af de [online løbebutikker]({% link _posts/2022-02-09-loebebutikker.md %}), vi samarbejder med.
+Dette var en begynderguide til, hvilket styrketræningsudstyr du kan få brug for. Jeg udvider jævnligt guiden, og er startet med det udstyr som er _nice to have_. Hvis du vil støtte dette site, så vil vi sætte pris på, hvis du shopper i nogle af de [online løbebutikker]({% link _posts/2022-02-08-fitness-butikker.md %}), vi samarbejder med.
