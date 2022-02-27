@@ -795,6 +795,8 @@ $(function() {
 
       let ethniticity = $("[name='ethniticity']").val();
       let gender = $("[name='gender']").val();
+
+      console.log(ethniticity + ' ' + gender);
       let H = Number($("[name='height']").val());
       let W = Number($("[name='weight']").val());
       let A = Number($("[name='age']").val());
@@ -802,7 +804,7 @@ $(function() {
 
       let SM;
       if (WC > 0) {
-        if (gender == 'male') {
+        if (gender == 'man') {
           if (ethniticity == 'white') {
             SM = 0.46 * W + 0.03 * H + 0.013 * A - 0.0006 * Math.pow(A, 2)  - 0.28 * WC + 13.8;
           } else {
@@ -816,7 +818,7 @@ $(function() {
           }
         }
       } else {
-        if (gender == 'male') {
+        if (gender == 'man') {
           if (ethniticity == 'white') {
             SM = 0.23 * W + 0.15 * H - 0.058 * A - 0.0005 * Math.pow(A, 2) - 13.2;
           } else {
