@@ -1,6 +1,6 @@
 ---
 title: "Superset: Komplet guide til supersæt"
-seo_title: "Supersæt: 7 forskellige effektive superset"
+seo_title: "Superset: 7 forskellige effektive supersæt"
 permalink: /guide-superset/
 redirect_from:
   - /styrketraening/superset-antagonist/
@@ -23,7 +23,7 @@ Supersæt hedder _superset_ på engelsk. Grundlæggende er supersæt, når man k
 
 Supersæt kan være en måde at spare tid under træning, så din træning bliver endnu mere effektiv.
 
-## Hvad er et supersæt (superset)?
+## Hvad er et supersæt?
 
 Et supersæt er grundlæggende at man kombinerer to øvelser med hinanden.
 
@@ -114,7 +114,7 @@ Træningsforsøget varede kun fem dage. Begge grupper havde efter træningen red
 
 Du kan altså forårsage mere ødelæggelse i musklerne, når du kører to lignende øvelser lige efter hinanden i supersættet.
 
-## Konklusion på supersæt
+## Konklusion
 
 Det er vigtigt, når du laver supersæt at kvaliteten i de enkelte øvelser stadig er høj. Tanken med supersæt er at nå mere træning på kortere tid uden at gå på kompromis med kvaliteten i træningen.
 
