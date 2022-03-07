@@ -1,7 +1,8 @@
 ---
-title: "Bælte i styrketræning - har du brug for et træningsbælte?"
+title: "Bælte til styrketræning - har du brug for et træningsbælte?"
+seo_title: "Alt om træningsbælter til styrketræning og fitness"
 permalink: /baelte-styrketraening/
-excerpt: "Et godt bælte kan gøre dine løft mere stabile og samtidig give dig mere vægt på stangen i især squat og dødløft. I denne artikel vil jeg fortælle dig om de forskellige typer af bælter, hvordan bæltet virker og hvornår du skal bruge det."
+excerpt: "Et bælte til styrketræning kan gøre dine løft mere stabile, så du kan løfte mere. Men du skal vælge det rigtige træningsbælte og vide hvordan, du bruger bæltet til fitness, vægtløftning og styrkeløft."
 language: da
 header:
   overlay_image: https://c.pxhere.com/photos/e3/ed/dumbbells_training_silver_sports_force_mussels_body_building-600719.jpg!d
@@ -19,62 +20,82 @@ feature_row:
     title: "3 Kamps bælte Professionel kvalitet"
     excerpt: "3 Kamps bælte Professionel kvalitet. Dette bælte er lavet i ekstrem robust læder og er MEGET stabil. Det er specielt velegnet for hård styrkeløft, bodybuilding og 3-kamp."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=21411&htmlurl=https://shop.getbig.dk/traeningsbaelte-professionelt"
-    btn_label: "Læs mere"
+    btn_label: Tjek prisen
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
   - image_path: https://www.fotoagent.dk/single_picture/11803/138/custom1/tr%c3%83%c2%a6ningsb%c3%83%c2%a6lte.jpg
-    alt: "Everlast træningsbælte til vægtløft"
-    title: "Everlast træningsbælte til vægtløft"
+    alt: "Everlast træningsbælte til vægtløftning"
+    title: "Everlast træningsbælte til vægtløftning"
     excerpt: "Everlast træningsbælte til vægtløft i sort. Materialet er i ægte læder med blød indvendig polstring. Everlast bæltet yder en optimal støtte ved intens styrkeløft med en bredde på 10 cm og dobbelt spænde til lukning."
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/everlast-traeningsbaelte/"
-    btn_label: "Læs mere"
+    btn_label: Tjek prisen
     btn_class: "btn--success"
+    rel: sponsored nofollow noopener
+  - image_path: https://www.fotoagent.dk/single_picture/11803/138/custom1/tr%c3%83%c2%a6ningsb%c3%83%c2%a6lte.jpg
+    alt: "Fitnessbælte i neopren"
+    title: "Fitnessbælte i neopren"
+    excerpt: ""
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/harbringer-neopren-baelte-herre-medium/
+    btn_label: Tjek prisen
+    btn_class: "btn--success"
+    rel: sponsored nofollow noopener
 ---
 
-Styrkbælte - https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=21411&htmlurl=https://shop.getbig.dk/traeningsbaelte-professionelt
+Her kan du læse mere om forskellige typer af træningsbælter til styrketræning. Når du har læst guiden skulle du gerne være klædt på til at vælge et bælte til din styrketræning uanset om du laver styrkeløft, vægtløftning, almindelige fitnesstræning, bodybuilding eller genoptræning.
 
-Vægtløftning - https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/everlast-traeningsbaelte/
+Et bælte til styrketræning kan hjælpe dig med en større stabilitet omkring din kropskerne, så du kan løfte tungere og gøre dine løft endnu mere effektive. Når du kan have en mere stabil kropskerne, så kan du også løfte tungere i fx squat og dødløft, men stabiliteten kan også hjælpe lidt til stående pres over hovedet.
 
-Neopren - https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/harbringer-neopren-baelte-herre-medium/
+Lad os dykke ned i guiden.
 
-Unless it doesn’t make sense for them. Siewe et alfound that the use of weight belts_increased_the injury rate of the lumbar spine in powerlifters.19_Ruh roh!_
-Se Vær god ved din ryg.
-***
+## Hvilke typer træningsbælter findes der?
 
-Der findes mange forskellige typer af træningsbælter til styrketræning afhængigt af hvad formålet med bæltet er. Altså om du primært skal bruge det til styrkeløft (squat, bænkpres og dødløft), vægtløftning (træk og stød), genoptræning eller bodybuilding. De mest gængse typer af bælter er:
+Et bælte til styrketræning er ikke bare et bælte. Der er nemlig forskellige bælter alt efter, hvilke øvelser du gerne vil bruge bæltet til. Her kan du se de forskellige typer bælter, der findes.
 
-Bælter af syntetisk stof (giver minimal støtte, bruges oftest i bodybuilding, umiddelbart unødvendig)
-Læderbælter hvor den ene halvdel er bred og den anden smal eller smal hele vejen (giver støtte, bruges oftest i vægtløftning og bænkpres)
-Varmebælter af neopren (giver varme og kan bidrage til smertelindring, bruges oftest i forbindelse med genoptræning, unødvendig)
-Læderbælter med samme bredde hele vejen rundt og metal/lever-spænde (giver størst støtte, bruges oftest i styrkeløft)
-Hvis dit mål er styrkeløft, eller at du primært vil bruge bæltet til squat- og dødløftvarianter, bør du altså købe et solidt stift læderbælte som er 11-13 mm tykt, har en jævn bredde hele vejen rundt og har metalspænde. Jeg anbefaler som udgangspunkt Wahlanders eller et originalt bælte fra Titan, Inzer eller SBD.
+### 1. Bælter af syntetisk stof
 
-Læs mere om godkendte bælter i IPF her.
+Denne type bælter bruges ofte i almindelig fitnesstræning eller bodybuilding. Bælterne giver minimal støtte. De giver en lille smule støtte, men formentlig fungerer denne typer bælter mest som en påmindelse om selv at støtte op.
 
-Grunden til at bæltet i vægtløftning er smallere foran og gerne også tyndere er, at man i startposition sidder markant dybere i hoften end i styrkeløft, hvorfor et bredt bælte kan komme i klemme mellem hoften og ribbenene.
+### 2. Læderbælter til vægtløftning
 
-Der findes forskellige typer af spænde og forskel på hårdheden af bæltet (stift vs. blødt) - det er primært en smagssag, hvad du vil foretrække.
+I vægtløftning bruger man typisk et bælte som er bredt bagpå, men smalt foran eller smalt hele vejen rundt. Bæltet giver en god støtte til løftene. Årsagten til at det er smalt foran er, at bæltet så ikke kommer i klemme mellem hoften og ribbenene, når du sidder dybt nede i squatten i vægtløftning. Derved bliver det mere komfortabelt.
 
-HVORFOR BRUGE BÆLTE I STYRKETRÆNING?
-Indenfor styrketræning bruges bælte mange grunde, men jeg især vil fokusere på hvordan bæltet kan give dig øget stabilitet, tungere og mere effektive løft.
+### 3. Varmebælter af neopren
 
-Jeg vil altså ikke beskæftige mig med reduceret skaderisiko gennem at “støtte ryggen”, at holde lænden varm, lindre ømhed og smerte - og andre grunde du måske har hørt.
+Man bruger varmebælter lavet af neopren, når de træner. Et neoprenbælte til ryggen kan give varme, og det bruges ofte i forbindelse med genoptræning eller folk, der har haft rygproblemer. Neoprenbæltet er nok ikke så nødvendigt for at få en bedre træning.
 
-Bæltet gør dig i stand til at løfte mere i øvelser, hvor rygstyrken og stabiliteten i overkroppen er en begrænsende faktor. Det vil sige eksempelvis øvelser som squat, front squat, konventionel dødløft og sumo dødløft.
+### 4. Læderbælter til styrkeløft
 
-Du vil dog opleve, at bæltet også kan bruges i øvelser som military press, bænkpres og andre frivægtsøvelser, men dog med en lavere effekt, da det ikke i samme grad af kropskernen, som begrænser belastningen.
+I styrkeløft bruger man typisk et læderbælte, som har samme bredde hele vejen rundt. Bæltet har samme bredde hele vejen rundt, og der er typisk et solidt spænde, som kan hjælpe dig med at spænde bæltet godt ind.
 
-En af de grundlæggende funktioner ved bæltet er, at det øger det intraabdominale tryk, altså et øget spænd i maven, som stabiliserer rygsøjlen, når du løfter.
+Dette bælte er det mest anvendeligt bælte til dødløft- og squat-variationer. [Jacob Beermann](https://maxer.dk/artikler/baelte-i-styrketraening) foreslår, at bæltet skal være 11-13 mm typkt og have en jævn bredde hele vejen rundt. Det mest solide er et metalspænde. <cite>Beermann</cite> foreslår et bælte af mærket <q>Wahlanders eller et originalt bælte fra Titan, Inzer eller SBD</q>.
 
-Når du bruger bælte på max-vægte vil du kunne løfte mere end du ville kunne uden og bruger du det på submaksimale vægte, vil du kunne løfte både bedre teknisk og lettere. Det betyder dog langt fra at bælte er et must. Størstedelen af din træning bør være uden bælte.
+Det kan være en fordel at prøve lidt forskellige bælter. Der er mange typer spænder og hårdheder af lædermaterialet.
 
-HVORNÅR BÆLTET SKAL BRUGES
+## Hvorfor skal du bruge et bælte i styrketræning?
+
+Du kan vælge at bruge et bælte til styrketræning af flere årsager. Et træningsbælte giver dig først og fremmest mere stabilitet, så du kan løfte tungere og mere effektivt.
+
+Hvis du bruger bæltet rigtigt, så kan det hjælpe med, at du kan spænde hårdere op under dine løft. Du kan bruge bæltet til at øge det intraabdominale tryk, som kan være med til at stabilisere ryggen, når du løfter.
+
+Når du fx virkelig koncentrerer dig om at lave et godt opspænd uden bælte, så vil du opleve, at du kan løfte mere effektivt. Denne fornemmelse kan du forstærke yderligere ved hjælp af bæltet.
+
+Bæltet er især rigtig anvendeligt, når du løfter tungt i træningen. Du bør løfte mange af dine løft uden bælte, så du lærer at stabilisere rygsøjlen uden hjælp af bæltet. Men det er naturligvis også vigtigt, at du træner i at bruge bæltet. Det bedre opspænd kommer ikke bare af at tage bæltet på. Du skal også bruge bæltet aktivt.
+
+{% comment %}
+
+## Hvornår skal du træne med træningsbælte?
+
+
+
+## HVORNÅR BÆLTET SKAL BRUGES
 Mange, som køber et bælte ender med at bruge det altid - og det er en stor fejl. I starten bruger du det måske kun i squat, pludseligt bruger du det også i rows. En dag kommer det på i biceps curl og før du ved af det har du bæltet på både når du kører bil og køber ind i det lokale supermarked.
 
 Du bør først bruge bæltet fra omkring 80% af din 1RM (den maksimale vægt, som du kan løfte 1 gang) - eller når det påvirker din teknik negativt, at du ikke bruger det.
 
 Men undgå at blive afhængig af dit bælte.
 
-HVORDAN VIRKER BÆLTET?
+## HVORDAN VIRKER BÆLTET?
+
 Bæltet virker ved at øge bugtrykket, det såkaldte intraabdominale tryk. Dette sker når luften i bugen komprimeres af at de omkringliggende muskler trækker sig sammen. Resultatet er en mere stabil kropskerne, som i højere grad kan modstå fleksion, altså krumning af rygsøjlen.
 
 Meget simpelt forklaret, kan det siges, at bortset fra transversus abdominis (de indre tværgående mavemuskler) trækker mavemusklerne ryggen mod fleksion. For at modstå dette, aktiveres blandt andet erector spinae og mulitifidi. Dermed bliver rygsøjlen trukket i to modsatte retninger og stabiliseres.
@@ -89,7 +110,8 @@ Dybden er dog problematisk, nemlig til lårene var parallelle med gulvet. Result
 
 Flere studier har dog vist at på submaksimale belastninger, løftes vægtene hurtigere både eksentrisk og koncentrisk - hvis løfteren altså strammer bæltet tilstrækkeligt og aktivt spænder ud mod bæltet for at øge bugtrykket, hvilket leder mig til næste afsnit.
 
-SÅDAN BRUGER DU BÆLTET
+## SÅDAN BRUGER DU BÆLTET
+
 Tag en dyb indånding, hold vejret. Dette kaldes valsalva-manøvren og øger i sig selv både det intraabdominale (bughulen) og det intrathorakale (brysthulen) tryk. Dét øger stabiliteten. Derefter skal du spænde mavemusklerne og spænde dem ud mod bæltet.
 
 Bæltet giver dig øget bugtryk både gennem at du spænder mavemusklerne ud imod det, men også ved at det sidder stramt og dermed komprimerer både luft og væv omkring din kropskerne.
@@ -100,7 +122,8 @@ Bæltets placering må du eksperimentere lidt med, da det i nogen grad kan være
 
 Slutteligt vil det altså sige, at du med et godt bælte kan træne hårdere med mere vægt, god teknik og reduceret skadesrisiko. Det er dog ikke en nødvendighed, men et godt hjælpemiddel til dig, der gerne vil løfte tungere vægte. Eksperimenter med placeringen og brug det kun fra cirka 80% af din 1RM.
 
-GODKENDTE BÆLTER I STYRKELØFT (IPF)
+## GODKENDTE BÆLTER I STYRKELØFT (IPF)
+
 Tidligere var det blot det tekniske reglement, som skulle overholdes før at et bælte var godkendt i IPF. Sådan er det ikke længere.
 
 På grund af blandt andet behovet for større sponsorater, skal bælter (på samme måde som løftedragter) være af godkendte mærker. Da der har været en særregel i Danmark i de sidste år, gælder dette ved nationale stævner først fra 1. januar 2017.
@@ -122,8 +145,12 @@ Bukiya
 Best Belts
 Iron Tanks
 
+Unless it doesn’t make sense for them. Siewe et alfound that the use of weight belts_increased_the injury rate of the lumbar spine in powerlifters.19_Ruh roh!_
+Se Vær god ved din ryg.
 
 
 ## Referencer
 
-[Træningsbælte - har du brug for et?](https://www.bodylab.dk/shop/traeningsbaelte-har-du-1627c1.html)
+- [Træningsbælte - har du brug for et?](https://www.bodylab.dk/shop/traeningsbaelte-har-du-1627c1.html)
+
+{% endcomment %}

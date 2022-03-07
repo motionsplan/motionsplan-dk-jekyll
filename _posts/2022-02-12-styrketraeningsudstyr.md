@@ -37,9 +37,23 @@ feature_row_running_watch:
     rel: sponsored nofollow noopener
 ---
 
+Her er en guide til styrketræningsudstyr, som kan hjælpe dig med at få en bedre træning, når du pakker tasken for at gå i fitnesscenteret.
+
 ## Styrketræningssko
 
+Det kan betale sig at tænke over fodtøjet, når du styrketræner eller dyrker fitness. Jeg har set rigtig mange, der vælger fx løbesko som deres træningssko. Men løbesko passer til at løbe i. De er ikke særlig gode at trræne i.
+
+Her er nogle af de overvejelser du bør gøre dig, når du vælger en sko, du vil bruge til styrketræning og fitness.
+
+Vi har skrevet en [guide til at vælge sko til styrketræning](/sko-styrketraening-fitness/).
+
 ## Styrketræningsbælte
+
+Et bælte til styrketræning kan hjælpe dig med en større stabilitet omkring din kropskerne, så du kan løfte tungere og gøre dine løft endnu mere effektive. Når du kan have en mere stabil kropskerne, så kan du også løfte tungere i fx squat og dødløft, men stabiliteten kan også hjælpe lidt til stående pres over hovedet.
+
+Vi har skrevet en grundig guide til at [vælge et styrketræningsbælte](/baelte-styrketraening/).
+
+{% comment %}
 
 ## Crossfit grebshjælpere
 
@@ -47,7 +61,7 @@ feature_row_running_watch:
 
 ## Straps
 
-
+{% endcomment %}
 
 ## Konklusion
 
