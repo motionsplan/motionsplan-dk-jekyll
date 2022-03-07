@@ -52,7 +52,7 @@ Det allerførste du skal købe er:
 - Løbesko
 - Løbetights
 
-Løbeskoene giver naturligvis sig selv, men jeg er virkelig glad for løbetights også. Fordelen ved løbetights er, at du ikke risikerer at få mærker på inderlårene, når de rører hinanden på hver enkelt skridt.
+Løbeskoene giver naturligvis sig selv, men jeg er også virkelig glad for løbetights. Fordelen ved løbetights er, at du ikke risikerer at få mærker på inderlårene, når de rører hinanden på hver enkelt skridt.
 
 {% comment %}
 
@@ -199,10 +199,26 @@ KØB HER
 
 Nice-have løbeudstyr er udstyr, du sagtens kan leve uden og stadig få en god løbetræning ud af det. Det er løbeudstyr, du køber for at gøre træningen lidt ekstra og tilpasse dine behov til den slags løb du foretrækker.
 
+{% endcomment %}
+
+## Løbehandsker
+
+Når det bliver koldt, så kan et par tynde løbehandsker være en rigtig god ide. Mange begynder at fryse om fingrene. Handskerne skal ikke være for varme, og det er rart, hvis du let kan trykke på knapperne på dit ur eller bruge din smartphone for at skifte sang.
+
+Du behøver ikke at overtænke, hvad løbehandskerne skal kunne. Jeg har i rigtig mange år bare brugt nogle billige havehandsker, som i de kolde måneder har været helt perfekt. Hvis du vil have handsker, hvor du stadig kan bruge touchskærmen på din mobiltelefon, så kan du overveje at købe nogle lidt dyrere løbehandsker.
+
+{% comment %}
+Nike Dry Element Løbehandsker
+Løbehandsker til de kolde morgenen fra Nike, er med svedtransporterende Dri-FIT egenskaber, som holder dig tør og giver dig en dejlig varme til løbeturen. De er lette og du mærker derfor nærmest ikke, at du har dem på. Der er silikone på fingerspidserne, som gør, at du kan bruge din touchscreen under turen. Den fås i størrelserne S, M og L.
+{% endcomment %}
+
 ## Løbehue
 
-Det kan diskuteres, hvorvidt en løbehue er must-have eller nice-have løbeudsyr. For nogle vil det være en must-have, da kulden ellers bliver for bidende og koncentrationen hurtigt går tabt. For andre er det mere et ekstra tilbehør, der fuldender dit outfit. Men en løbehue er god til de kolde dag. Den er oftest svedabsorberende, og den hjælper med at holde dig varm under hele træningen – også selvom at du sveder.
+Når det bliver koldt, så tager jeg altid først nogle løbehandsker på. Hvis jeg stadig fryser, så kan en tynd løbehue være med til, at du holder varmen på din løbetyr. En god løbehue skal være svedabsorberende, så den kan holde dit hoved og dine ører varme under hele løbetræningen.
 
+Huen skal ikke være for varm, for når du begynder at få varmen på løbeturen, så er vænner du dig langsomt til temperaturen. Find en blød hue, som er åndbar, men samtidig isolerer overfor vind og vejr.
+
+{% comment %}
 
 Buff Reflective Dryflx Hue
 Vil du gerne have en løbehue, så kan denne altså noget. Den er først og fremmest blød og behagelig at have på, da den er både sømløs samt åndbar. Samtidig er den isolerende overfor vind og vejr, den er slidstærk og strækbar og kan altså klare lidt af hvert. Til sidst er det værd at nævne, at den har UV beskyttelse – UPF 50 UV-beskyttelse.
@@ -212,18 +228,6 @@ DKK 250,00
 KØB HER
 
 {% endcomment %}
-
-## Løbebælte
-
-Jeg bruger tit et løbebælte, når jeg løber længere ture eller har brug for at have småting med på løbeturen. Jeg gider nemlig ikke at have det i lommerne, hvor det kan risikere at hoppe lidt rundt.
-
-I et løbebælte kan du fx have væske og snacks med på turen, men du kan også have din telefon, nøgler og lidt penge i bæltet. Der findes naturligvis mange forskellige typer bælter.
-
-{% include video provider="youtube" id="LwqBuMTURC4" %}
-
-Jeg har selv købt dette løbebælte, som er produceret af Flipbelt, som jeg oplever sidder rigtig fint fast under løbeturen. Tidligere har jeg løbet med telefonen på armen, men uligevægten mellem armene var rimelig irriterende.
-
-{% include feature_row id="feature_row_flipbelt" type="left" %}
 
 ## Løbeur
 
@@ -251,37 +255,27 @@ Jeg har løbet med [Bose Sport Free](https://www.partner-ads.com/dk/klikbanner.p
 
 Derfor har jeg for nylige investeret i en [AfterShokz Aeropex](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=67757&htmlurl=https://www.proshop.dk/Hovedtelefonerheadset/AfterShokz-Aeropex-Lunar-Grey/2790958){: rel="sponsored nofollow noopener" }. Den bruger _bone conduction_ til at få lyden ind i hovedet. Det betyder, at du ikke har noget i ørerne, men lyde skabes gennem kindbenet. Den sidder virkelig godt, og det er en helt særlig oplevelse at kunne høre, hvad der foregår omkring dig samtidig med, at du kan høre god musik undervejs.
 
-Hvis du typisk skal bruge hovedtelefoner ved støjrige veje, så er Aeropex formentlig ikke den helt rigtige løsning. Jeg cyklede i meget vind ved store hovedveje, og der var det ret vanskeligt at høre den podcast, jeg havde planlagt at lytte til undervejs.
+Hvis du typisk skal bruge hovedtelefoner ved støjrige veje, så er Aeropex formentlig ikke den helt rigtige løsning. Jeg cyklede i meget vind ved store hovedveje, og der var det ret vanskeligt at høre den podcast, jeg havde planlagt at lytte til undervejs uden at skrue helt op.
 
 {% include feature_row id="feature_row_shokz" type="left" %}
 
-{% comment %}
+## Løbebælte
 
-Miiego BOOM Mini
-Høretelefoner der har vundet en masse række tests og priser for en skarp lyd og funktionaliteten der er suveræn ift. træning. De er trådløse, så du kan løbe afsted uden en træls ledning, der irriterer dig. Der også indbygget mikrofon, skulle telefonen ringe under løbeturen Yderligere har også en batteritid på 21 timer og du kan derfor bruge den til både træning og til hverdag – uden at den løber tør. Høretelefonen er one-size, den fås i sort og har en vægt på 155 gram.
+Jeg bruger tit et løbebælte, når jeg løber længere ture eller har brug for at have småting med på løbeturen. Jeg gider nemlig ikke at have det i lommerne, hvor det kan risikere at hoppe lidt rundt.
 
-DKK 700,00
+I et løbebælte kan du fx have væske og snacks med på turen, men du kan også have din telefon, nøgler og lidt penge i bæltet. Der findes naturligvis mange forskellige typer bælter.
 
-KØB HER
+{% include video provider="youtube" id="LwqBuMTURC4" %}
 
-## Løbehandsker
+Jeg har selv købt dette løbebælte, som er produceret af Flipbelt, som jeg oplever sidder rigtig fint fast under løbeturen. Tidligere har jeg løbet med telefonen på armen, men uligevægten mellem armene var rimelig irriterende.
 
-Alt efter hvor på året vi er, og hvor hårdt vinteren rammer, så kan løbehandsker være en nødvendighed. I vintermånederne når morgenerne er bidende kolde, og der er frost, hvor end du kigger, så kan et par varme løbehandsker være optimale. Det er ikke fedt med så frosne fingre, at du halvvejs på turen ingen gang kan skifte sang på telefonen.
-
-
-Nike Dry Element Løbehandsker
-Løbehandsker til de kolde morgenen fra Nike, er med svedtransporterende Dri-FIT egenskaber, som holder dig tør og giver dig en dejlig varme til løbeturen. De er lette og du mærker derfor nærmest ikke, at du har dem på. Der er silikone på fingerspidserne, som gør, at du kan bruge din touchscreen under turen. Den fås i størrelserne S, M og L.
-
-DKK 300,00
-
-KØB TIL KVINDER
-KØB TIL MÆND
+{% include feature_row id="feature_row_flipbelt" type="left" %}
 
 ## Løbetaske
 
-sfjdsklf
+Hvis du løber længere ture og har brug for ekstra vand eller udstyr, eller du løber på arbejde, så kan du have brug for en løbetaske.
 
-{% endcomment %}
+Der findes rigtig mange forskellige løbetasker. Mange af de nyere løbetasker er næsten som at tage en vest på, og de er rigtig gode at løbe med.
 
 ## Konklusion
 
