@@ -62,4 +62,6 @@ Quantification of lean body mass and fat mass can provide important insight into
 
 Keywords: DXA dual-energy X-ray absorptiometry; NHANES National Health and Nutrition Examination Survey; SEE standard error of estimate; TC total cholesterol; Anthropometric prediction equations; Dual-energy X-ray absorptiometry; Fat mass; Lean body mass; Obesity biomarkers; Percent fat.
 
+https://www.cambridge.org/core/journals/british-journal-of-nutrition/article/development-and-validation-of-anthropometric-prediction-equations-for-lean-body-mass-fat-mass-and-percent-fat-in-adults-using-the-national-health-and-nutrition-examination-survey-nhanes-19992006/EB2CB506A5AED09CD464A01808CC5A41
+
 {% endcomment %}
