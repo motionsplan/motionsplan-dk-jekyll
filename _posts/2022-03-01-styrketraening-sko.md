@@ -20,7 +20,6 @@ feature_row_crossfit:
     btn_label: Tjek prisen
     btn_class: btn--danger
     rel: sponsored nofollow noopener
-  - 
 ---
 
 {% comment %}
@@ -64,7 +63,7 @@ Der findes rigtig mange forskellige sko, som du kan bruge til træning. Lad os k
 
 ### 1. Du skal kunne stå fast
 
-Du får en bedre bentræning, hvis du kan stå fast. Jeg kan selv godt lide både at træne i bare fødder, strømper eller sko alt efter hvilke øvelser, jeg laver. 
+Du får en bedre bentræning, hvis du kan stå fast. Jeg kan selv godt lide både at træne i bare fødder, strømper eller sko alt efter hvilke øvelser, jeg laver.
 
 Når du vælger en sko til styrketræning, så er det vigtigt, at din sko har en god slidstærk sål, der står godt fast på forskellige overflader. Dette krav er der rigtig mange fitness sko, som opfylder.
 
@@ -128,7 +127,7 @@ Desuden er den i den absolut billigste ende af de 3 sko jeg snakker om her.
 
 Sålen er flad, skoen er relativ let. Så dvs. at du kan bruge den til samtlige øvelser, både når du træner ben og til dine overkrops.
 
- 
+
 
 Fordele:
 
@@ -227,4 +226,4 @@ Ja så vil jeg helt sikkert anbefale ADIDAS SPEZIAL.
 
 --- https://pubmed.ncbi.nlm.nih.gov/30789547/
 
-{% endcomment }
+{% endcomment %}
