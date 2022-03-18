@@ -47,7 +47,7 @@ Når du skal vælge gode sko til styrketræning, træning og fitness, så er der
 
 Du skal tænke over, hvilke sko du vælger til din træning, fordi fødderne er det fundament, du står på. Du kan overføre meget mere kraft til dine løft, hvis du tænker over, hvor godt skoene passer til din træning.
 
-{% include figure image_path="https://images.unsplash.com/photo-1526405098960-78ccf7a1dbd6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=5" caption="Vægtløftningsko kan være en styrketræningssko." caption="vægtløfningssko styrketrænings sko" %}
+{% include figure image_path="https://images.unsplash.com/photo-1526405098960-78ccf7a1dbd6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=5" caption="Vægtløftningssko kan være en styrketræningssko." alt="vægtløftningssko styrketrænings sko" %}
 
 ## Vælg sko der passer til din træning
 
