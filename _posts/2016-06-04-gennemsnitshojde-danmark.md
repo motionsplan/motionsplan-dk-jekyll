@@ -1,6 +1,6 @@
 ---
-title: &title "Hvad er gennemsnitshøjden i Danmark? 📏"
-seo_title: "Gennemsnitshøjde i Danmark: Hvor høje er danskerne i 2022?"
+title: &title "Hvad er gennemsnitshøjden i Danmark?"
+seo_title: "Gennemsnitshøjde i Danmark for mænd & kvinder i 2022"
 permalink: /hvad-er-gennemsnitshoejden-i-danmark/
 language: da
 header:
@@ -11,18 +11,28 @@ category:
   - Sundhed
 tags:
   - højde
-last_modified_at: 2021-12-27T10:14:14Z
+last_modified_at: 2022-02-13T10:14:14Z
 toc: true
 faq:
   - question: "Hvad er gennemsnitshøjden for kvinder i Danmark?"
     answer: "Danske kvinder er i gennemsnit 167,2 cm høje."
   - question: "Hvad er gennemsnitshøjden for danske mænd?"
     answer: "Gennemsnitshøjden for danske mænd er 181,4 cm."
+  - question: "Kan man blive højere?"
+    answer: "Der er mange der søger på, om man kan blive højere. Vi har skrevet et andet indlæg om, [hvordan man bliver højere](/hvordan-bliver-jeg-hojere/), hvor du kan finde tips til, hvordan du kan skyde i vejret."
+  - question: Hvor længe bliver vi ved med at vokse?"
+    answer: "Mænd og kvinder stopper med at vokse på forskellig tid. Kvinder bliver sjældent højere, når de runder deres 18 års fødselsdag. Mænd kan måske stadig blive lidt højere indtil omkring 20 års alderen. Væksten går imidlertid noget langsommere når man nærmer sig at være udvokset."
 ---
 
-I Danmark er vores gennemsnitshøjde relativt høj. Den gennemsnitlige danske mand er 181,4 centimeter høj, og den gennemsnitlige danske kvinde er 167,2 centimeter høj. Den gennemsnitlige dansker har haft vokseværk de sidste 100 år. Gennemsnitshøjden er øget med 10 cm de seneste 100 år.
+I Danmark er vores gennemsnitshøjde relativt høj. Hvis du er interesseret i at finde ud af, om du er højere end gennemsnittet, så er du kommet til det rigtige sted.
 
-Hvad er gennemsnitshøjden i Danmark? **I dag er gennemsnitshøjden i Danmark for danske mænd 181,4 cm og 167,2 cm for danske kvinder.**
+Vi har fundet flere interessante facts om højde i Danmark, og vi sammenligner også lidt med andre lande.
+
+Den gennemsnitlige danske mand er 181,4 centimeter høj, og den gennemsnitlige danske kvinde er 167,2 centimeter høj. Den gennemsnitlige dansker har haft vokseværk de sidste 100 år. Gennemsnitshøjden er øget med 10 cm de seneste 100 år.
+
+## Hvad er gennemsnitshøjden i Danmark for mænd og kvinder?
+
+**I dag er gennemsnitshøjden i Danmark for danske mænd 181,4 cm. Den gennemsnitlige danske kvinde er 167,2 cm høj. Det gør danskerne til nogle af de højeste i verden.**
 
 DR skriver, at forskere i en [stor undersøgelse](https://www.dr.dk/nyheder/viden/danske-maend-og-kvinder-er-blandt-verdens-hoejeste) af næsten 1.500 tidligere undersøgelser har undersøgt, hvordan verdensbefolkningens højde har ændret sig de seneste 100 år. På denne måde kan man sammenligne hele verdens gennemsnitlige højde, og gennemsnitshøjden i Danmark er altså nok til at placere sig i toppen af undersøgelsen.
 

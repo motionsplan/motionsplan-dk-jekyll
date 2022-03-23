@@ -32,11 +32,11 @@ feature_row:
     btn_label: "Se prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
-  - image_path: https://www.mediasupply.dk/wp-content/uploads/2019/11/088d227c-d03a-42b5-8ae6-3ecfaab4c69d.jpg
-    alt: "Bose Spoundsport Free"
-    title: "Bose Spoundsport Free"
-    excerpt: "Bose Spoundsport Free er hovedtelefoner, der spiller ensartet og klart, uanset om din telefon er i hånden, i lommen, spændt fast på din arm eller sidder oven på løbebåndet … og der er ikke et eneste kabel involveret."
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=77605&htmlurl=https://www.mediasupply.dk/vare/bose-soundsport-free/
+  - image_path: https://plusshop.dk/media/catalog/product/b/o/bose_sport_earbuds_black.png
+    alt: "Bose Sport Free"
+    title: "Bose Sport Free"
+    excerpt: "Bose Soundsport Free er hovedtelefoner, der spiller ensartet og klart, uanset om din telefon er i hånden, i lommen, spændt fast på din arm eller sidder oven på løbebåndet … og der er ikke et eneste kabel involveret."
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=54828&htmlurl=https://plusshop.dk/bose-sport-earbuds-sort
     btn_label: "Se prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
@@ -80,6 +80,6 @@ Jeg bruger selv et Garmin Fenix med en pulsmåler. Det giver mig et virkelig god
 
 Det jeg nyder mest ved Garmin løbeuret er, at det er let at bruge til at tage tid på min træning og i mine intervaller, samtidig med at jeg får pulsmålingerne og kan arbejde med træning i pulszoner.
 
-De nyeste Garmin-løbeure kan du endda have [musik til din træning]({% link _posts/2013-05-02-musik-til-traeningen.md %}) direkte på løbeuret, så du ikke behøver at have en smartphone med, når du løber. Du behøver bare et Bluetooth headset. Jeg bruger selv [Bose Soundsport](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=77605&htmlurl=https://www.mediasupply.dk/vare/bose-soundsport-free/){: rel='sponsored nofollow noopener' }. De spiller rigtig godt. Jeg havde lidt problemer med det første par, jeg fik, men Bose byttede dem bare, og dette par spiller rigtig godt - og de sidder godt i ørerne.
+De nyeste Garmin-løbeure kan du endda have [musik til din træning]({% link _posts/2013-05-02-musik-til-traeningen.md %}) direkte på løbeuret, så du ikke behøver at have en smartphone med, når du løber. Du behøver bare et Bluetooth headset. Jeg bruger selv [Bose Soundsport](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=54828&htmlurl=https://plusshop.dk/bose-sport-earbuds-sort){: rel='sponsored nofollow noopener' }. De spiller rigtig godt. Jeg havde lidt problemer med det første par, jeg fik, men Bose byttede dem bare, og dette par spiller rigtig godt - og de sidder godt i ørerne.
 
 {% include feature_row type="left" %}

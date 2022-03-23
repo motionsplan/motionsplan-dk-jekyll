@@ -26,7 +26,7 @@ feature_row:
     alt: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
     title: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
     excerpt: "Menneskekroppen - anatomi, fysiologi og sygdomme er et anatomisk atlas til mennesket i det 21. århundrede. Gennem de computergenererede 3d-billeder og fantastiske illustrationer kan man opleve menneskekroppen i hidtil uset detaljegrad og skønhed."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://bogreolen.dk/menneskekroppen_steve-parker_9788756784436"
+    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/menneskekroppen-anatomi-fysiologi-og-sygdomme_steve-parker_9788756784436"
     btn_label: "Se prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener

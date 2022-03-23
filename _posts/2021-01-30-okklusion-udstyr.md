@@ -26,13 +26,13 @@ feature_row_bodylab:
     rel: sponsored nofollow noopeners
 feature_row_bfr:
   - image_path: //cdn.shopify.com/s/files/1/0808/0669/products/Complete_Pack_2.jpg?v=1606242474
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=59415&htmlurl=https://bfrpro.com/collections/store/products/complete-pack-2-workout-program
+    url: https://bfrpro.com/collections/store/products/complete-pack-2-workout-program
     title: BfR Professional
     excerpt: BfR Professionals okklussionsstropper til armene er relativt smalle, og til benene er de lavet med velcro, som skal rulles flere gange rundt om benet. De leveres i en pose og er forsøgt gjort lidt eksklusivt.
     alt: *title
     btn_label: Se prisen
     btn_class: btn--success
-    rel: sponsored nofollow noopener
+    rel: nofollow noopener
 feature_row_fitnessinstitute:
   - image_path: https://kaatsu.dk/____impro/1/webshopmedia/IMG_1143-1477823540247.JPG?&withoutEnlargement&resize=960,9999
     url: https://kaatsu.dk/webshop.html#!/products/okklusions-stropper-i-s%C3%A6t-til-arme-ben
@@ -147,7 +147,7 @@ Den praktiske anbefaling er, at man skal spænde stroppen til 7 ud af 10. Det ka
 
 Nogle stropper er elastiske, så modstanden bliver knap så stor under muskelkontraktionen (som jo også afklemmer blod flowet). Der er ikke videnskabeligt belæg for at det elastiske materiale skulle være bedre end fast materiale, men det er afklemningen i pauserne, der er det væsentligste parameter. Derfor kan det elastiske materiale være mere behageligt under træningen.
 
-### Bodylabs occlusion training bands
+### 1. Bodylabs occlusion training bands
 
 Bodylab har naturligvis lavet nogle okklusionsbånd. Okklusionsbåndene fra Bodylab er lavet i semielastisk materiale, som er relativt behageligt at have på.
 
@@ -159,21 +159,21 @@ Du kan købe en [træningspakke til okklusionstræning hos Bodylab](https://www.
 
 {% include feature_row id="feature_row_bodylab" type="right" %}
 
-### BfR Professional okklusionsstropper
+### 2. BfR Professional okklusionsstropper
 
-BfR startede med udelukkende at lave udstyr til okklusionstræning. Båndene til armene er kun 3 cm brede, da [BfR](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=59415&htmlurl=https://bfrpro.com/products/bfr-professional-arms){: rel='sponsored nofollow noopener' } skriver <q>to avoid annoying the sin or pressing into the working muscles</q>. Når okklusionsstrappen til overkroppen er så smal, så skal den imidlertid strammes ekstra for at give en passende afklemning. Der er nogle små spænder på manchetten til overkroppen, som kan nive lidt i huden, men det kan klares med en t-shirt inden under.
+BfR startede med udelukkende at lave udstyr til okklusionstræning. Båndene til armene er kun 3 cm brede, da [BfR](https://bfrpro.com/products/bfr-professional-arms){: rel='nofollow noopener' } skriver <q>to avoid annoying the sin or pressing into the working muscles</q>. Når okklusionsstrappen til overkroppen er så smal, så skal den imidlertid strammes ekstra for at give en passende afklemning. Der er nogle små spænder på manchetten til overkroppen, som kan nive lidt i huden, men det kan klares med en t-shirt inden under.
 
 Benmanchetterne er lidt anderledes og minder lidt om knæbind, som skal flere gange rundt om benene.
 
 Selve elastikken er lavet af en blanding af polyester og latex. Du lukker okklusionsbåndet med velcro ligesom Bodylabs.
 
-BFR har også nogle [_straps_ af læder](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=59415&htmlurl=https://bfrpro.com/collections/store/products/more-rep-leather-lifting-strap){: rel='sponsored nofollow noopener' }, som jeg synes er meget fede, hvis du vælger at købe okklusionsstropperne hos BfR Professional.
+BFR har også nogle [_straps_ af læder](https://bfrpro.com/collections/store/products/more-rep-leather-lifting-strap){: rel='nofollow noopener' }, som jeg synes er meget fede, hvis du vælger at købe okklusionsstropperne hos BfR Professional.
 
-Du kan købe en [fuld træningspakke](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=59415&htmlurl=https://bfrpro.com/collections/store/products/complete-pack-2-workout-program){: rel='sponsored nofollow noopener' } med to stropper til armene og to stropper til benene for under 600 kroner.
+Du kan købe en [fuld træningspakke](https://bfrpro.com/collections/store/products/complete-pack-2-workout-program){: rel='nofollow noopener' } med to stropper til armene og to stropper til benene for under 600 kroner.
 
 {% include feature_row id="feature_row_bfr" type="right" %}
 
-### Fitness Institute
+### 3. Fitness Institute
 
 Fitness Institute som bl.a. drives af Henrik Duer og uddanner personlige trænere har også lavet nogle okklusionsstraps. Stropperne ser ud til at have en god bredde, når et af kriterierne er at kigge på bredden af stropperne.
 
