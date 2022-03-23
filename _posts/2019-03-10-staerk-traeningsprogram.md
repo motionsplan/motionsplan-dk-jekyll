@@ -3,7 +3,6 @@ title: &title "Stærk: Bog og Styrketræningsprogram af Jacob Beermann"
 permalink: /artikel/staerk-traeningsprogram/
 language: da
 header:
-  overlay_image: https://jacobbeermann.dk/wp-content/uploads/jacob_beermann-1.jpg
   teaser: https://jacobbeermann.dk/wp-content/uploads/jacob_beermann-1.jpg
   caption: *title
 tags:
@@ -39,7 +38,9 @@ gallery_content:
 
 Jacob Beermann har skrevet bogen "Stærk" som en introduktion til, hvordan du kan blive rigtig stærk. Beermann tager sit udgangspunkt i squat, bænkpres og dødløft, som er disciplinerne i styrkeløft. Bogen er en fremragende introduktion til styrketræning, og du får et 16 ugers gennemarbejdet træningsprogram og adgang til en eksklusiv Facebookgruppe med i købet.
 
-Jacob Beermann som også står bag [maxer.dk](https://maxer.dk/) har skrevet en rigtig god indføring til styrketræning og [styrkeløft]({% link _posts/2019-11-19-regler-styrkeloft.md %}). 
+Jacob Beermann som også står bag [maxer.dk](https://maxer.dk/) har skrevet en rigtig god indføring til styrketræning og [styrkeløft]({% link _posts/2019-11-19-regler-styrkeloft.md %}).
+
+{% include figure image_path="https://jacobbeermann.dk/wp-content/uploads/jacob_beermann-1.jpg" caption=page.title alt=page.title %}
 
 Du får en rigtig grundig introduktion til, hvordan du kan bygge din styrketræning op, og du får en grundig indføring i de tekniske aspekter af squat, bænkpres og dødløft. Jacob Beermann driver også podcasten [Stærk & Smertefri, som du kan lytte til her](https://maxer.dk/staerk-smertefri/).
 
