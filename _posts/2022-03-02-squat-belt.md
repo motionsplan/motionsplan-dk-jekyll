@@ -13,7 +13,7 @@ tags:
   - træningsbælte
 last_modified_at: 2022-03-17T23:14:14Z
 toc: true
-feature_row:
+feature_row_powerlifting:
   - image_path: https://shop.getbig.dk/images/large/bodybuilding-dreikampfguertel_LRG.jpg
     alt: "3 Kamps bælte Professionel kvalitet"
     title: "3 Kamps bælte Professionel kvalitet"
@@ -22,6 +22,7 @@ feature_row:
     btn_label: Tjek prisen
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
+feature_row_weightlifting:
   - image_path: https://www.fotoagent.dk/single_picture/11803/138/custom1/tr%c3%83%c2%a6ningsb%c3%83%c2%a6lte.jpg
     alt: "Everlast træningsbælte til vægtløftning"
     title: "Everlast træningsbælte til vægtløftning"
@@ -30,10 +31,11 @@ feature_row:
     btn_label: Tjek prisen
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
-  - image_path: https://www.fotoagent.dk/single_picture/11803/138/custom1/tr%c3%83%c2%a6ningsb%c3%83%c2%a6lte.jpg
+feature_row_syntetisk:
+  - image_path: https://www.fotoagent.dk/single_picture/11803/138/custom1/243_HB_Product_4inchNylonBelt_coiled_1080x645.jpg
     alt: "Fitnessbælte i neopren"
     title: "Fitnessbælte i neopren"
-    excerpt: ""
+    excerpt: "Harbinger Neopren Bælte til vægtløft i sort. Træningsbæltet fra Harbinger hjælper dig med, at støtte og stabilisere din ryg under træningen."
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/harbringer-neopren-baelte-herre-medium/
     btn_label: Tjek prisen
     btn_class: "btn--success"
@@ -50,6 +52,8 @@ Lad os dykke ned i guiden.
 
 Et bælte til styrketræning er ikke bare et bælte. Der er nemlig forskellige bælter alt efter, hvilke øvelser du gerne vil bruge bæltet til. Her kan du se de forskellige typer bælter, der findes.
 
+{% include feature_row id="feature_row_syntetisk" type="left" %}
+
 ### 1. Bælter af syntetisk stof
 
 Denne type bælter bruges ofte i almindelig fitnesstræning eller bodybuilding. Bælterne giver minimal støtte. De giver en lille smule støtte, men formentlig fungerer denne typer bælter mest som en påmindelse om selv at støtte op.
@@ -57,6 +61,8 @@ Denne type bælter bruges ofte i almindelig fitnesstræning eller bodybuilding. 
 ### 2. Læderbælter til vægtløftning
 
 I vægtløftning bruger man typisk et bælte som er bredt bagpå, men smalt foran eller smalt hele vejen rundt. Bæltet giver en god støtte til løftene. Årsagten til at det er smalt foran er, at bæltet så ikke kommer i klemme mellem hoften og ribbenene, når du sidder dybt nede i squatten i vægtløftning. Derved bliver det mere komfortabelt.
+
+{% include feature_row id="feature_row_weightlifting" type="left" %}
 
 ### 3. Varmebælter af neopren
 
@@ -66,7 +72,9 @@ Man bruger varmebælter lavet af neopren, når de træner. Et neoprenbælte til 
 
 I styrkeløft bruger man typisk et læderbælte, som har samme bredde hele vejen rundt. Bæltet har samme bredde hele vejen rundt, og der er typisk et solidt spænde, som kan hjælpe dig med at spænde bæltet godt ind.
 
-Dette bælte er det mest anvendeligt bælte til dødløft- og squat-variationer. [Jacob Beermann](https://maxer.dk/artikler/baelte-i-styrketraening) foreslår, at bæltet skal være 11-13 mm typkt og have en jævn bredde hele vejen rundt. Det mest solide er et metalspænde. <cite>Beermann</cite> foreslår et bælte af mærket <q>Wahlanders eller et originalt bælte fra Titan, Inzer eller SBD</q>.
+{% include feature_row id="feature_row_powerlifting" type="left" %}
+
+Dette bælte er det mest anvendeligt bælte til dødløft- og squat-variationer. [Jacob Beermann](https://maxer.dk/artikler/baelte-i-styrketraening) foreslår, at bæltet skal være 11-13 mm tykt og have en jævn bredde hele vejen rundt. Det mest solide er et metalspænde. <cite>Beermann</cite> foreslår et bælte af mærket <q>Wahlanders eller et originalt bælte fra Titan, Inzer eller SBD</q>.
 
 Det kan være en fordel at prøve lidt forskellige bælter. Der er mange typer spænder og hårdheder af lædermaterialet.
 
