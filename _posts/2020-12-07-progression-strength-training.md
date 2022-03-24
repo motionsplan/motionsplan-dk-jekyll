@@ -16,17 +16,19 @@ tags:
   - træningsplanlægning
   - styrketræning
   - programlægning
-last_modified_at: 2020-12-03T23:14:14Z
+last_modified_at: 2022-03-22T23:14:14Z
 toc: true
 ---
 
-I din træningsplanlægning af styrketræning bør du tænke over progressivt overload i din progressionsmodel. Hver træning bør bygge på den foregående i styrketræning, så du får en progression i træningen.
+Hvis du planlægger din styrketræning, så kan du hele tiden udvikle dig. Det gør du ved at indlægge progression i din træning og tænke på over, hvordan du laver progressivt overload. Her kigger vi på forskellige progressionsmodeller.
 
-Der findes forskellige progressionsmodeller, som du kan lade dig inspirere af, når du planlægger din egen styrketræning. Fælles for dem alle er, at de forsøger at tage højde for progressivt overload for at du kan blive stærkere eller få større muskler.
+Du kan lave din træning mere effektiv, hvis den enkelte træning forsøger at lægge fundamentet for den næste træning. Ved at tænke over, hvordan din progression i styrketræningen skal være, så kan du du være med til at sikre, at de enkelte træninger bliver byggeklodser, som er med til at bygge fundamentet, så du kan opnå dine mål.
 
-Progressionsmodeller, faseopdeling og træningsplanlægning ser ud til at betyde mest, når du arbejder for at blive stærkere, men en god træningsplanlægning kan også være med til at sikre, at du ikke bliver skadet over tid.
+Der findes forskellige progressionsmodeller, som du kan lade dig inspirere af, når du planlægger din egen styrketræning. Fælles for dem alle er, at de forsøger at tage højde for **progressivt overload** for at du kan blive stærkere eller få større muskler.
 
-## Progressivt overload er nødvendigt for fremgang
+Progressionsmodeller, faseopdeling og træningsplanlægning ser ud til at betyde mest, når du arbejder for at blive stærkere, men en god træningsplanlægning kan også være med til at sikre, at du ikke bliver skadet over tid, fordi du kan tænke restitution ind i træningen.
+
+## Hvad er progressivt overload?
 
 Det er nødvendigt at have progressivt overload, når du gerne vil blive stærkere eller større i styrketræning.
 
@@ -35,6 +37,31 @@ Hvad er progressivt overload? **Progressivt overload er, når du udfordrer kropp
 En måde at lave progressivt overload med er at tilføje vægt til stangen, når du løfter, eller øge antallet af sæt og gentagelser. Udfordringen er, at det ikke kan blive ved med at virke.
 
 {% include video provider="youtube" id="7WnTU02CHeM" %}
+
+{% comment %}
+https://www.bodyman.dk/shop/cms-lidt-om-progression.html
+https://maxer.dk/artikler/progression-traeningsprogrammer
+https://www.myprotein.dk/thezone/traening/progression-traeningsprogram/
+{% endcomment %}
+
+
+## Hvorfor er progression i træningen vigtigt?
+
+Hvis du gerne vil opleve fremgang i din træning, så skal du udfordre kroppen på det niveau den er lige nu. Når du træner, så tilpasser kroppen sig træningen. Det betyder, at den skal opleve et større stimulus for at blive ved med at tilpasse sig træningen.
+
+I din progression kan du således også tænke ind, om du er ved at vedligeholde dit nuværende niveau, eller du gerne vil have fremgang. Der skal trænes på lidt forskellige måder alt efter dit mål.
+
+Det progressive overload er således et vigtigt træningsprincip, hvis du gerne vil blive ved med at opleve fremgang i træningen.
+
+## Hvilke parametre bruges til progression i styrketræning?
+
+Når du i praksis vil arbejde med princippet om progressivt overload, så kan du manipulere forskellige træningsvariabler:
+
+- Volumen, sæt og gentagelser
+- Intensitet og RPE
+- Time under tension og hastighed i løftene
+- Pause mellem sæt og densitet
+- Teknik og varianter
 
 ## Progressionsmodeller
 
