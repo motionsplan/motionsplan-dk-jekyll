@@ -12,19 +12,39 @@ tags:
 last_modified_at: 2022-02-12T22:21:26Z
 ---
 
-[Heymsfield et al (2020)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7012897/)
+I denne beregner kan du udregne din omtrentlige muskelmasse baseret på enkle antropometriske målinger.
 
+Det kan være interessant at kende din omtrentlige muskelmasse, fordi muskelmassen har særlig betydning for dit hvilestofskifte, men det kan også være sjovt bare at vide, hvad kroppen består af.
 
-{% comment %}
+## Muskelmasse beregner
 
-One century ago Harris and Benedict published a short report critically examining the relations between body size, body shape, age, and basal metabolic rate. At the time, basal metabolic rate was a vital measurement in diagnosing diseases such as hypothyroidism. Their conclusions and basal metabolic rate prediction formulas still resonate today. Using the Harris-Benedict approach as a template, we systematically examined the relations between body size, body shape, age, and skeletal muscle mass (SM), the main anatomic feature of sarcopenia. The sample consisted of 12,330 non-Hispanic (NH) white and NH black participants in the US National Health and Nutrition Survey who had complete weight, height, waist circumference, age, and dual-energy X-ray (DXA) absorptiometry data. A conversion formula was used to derive SM from DXA-measured appendicular lean soft tissue mass. Weight, height, waist circumference, and age alone and in combination were significantly correlated with SM (all, p < 0.001). Advancing analyses through the aforementioned sequence of predictor variables allowed us to establish how at the anatomic level these body size, body shape, and age measures relate to SM much in the same way the Harris-Benedict equations provide insights into the structural origins of basal heat production. Our composite series of SM prediction equations should prove useful in modeling efforts and in generating hypotheses aimed at understanding how SM relates to body size and shape across the adult lifespan.
-
-Keywords: sarcopenia, nutritional assessment, anthropometry, body composition, waist circumference
-
-{% endcomment %}
+[Heymsfield et al (2020)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7012897/) har undersøgt relationen mellem kropsstørrelse, kropsbygning, alder og muskelmassen. De tog udgangspunkt i et stort amerikansk studie, hvor omkring 12.330 hvide og afro-amerikanere deltog i US National Health and Nutrition Survey. å baggrund af vægt, højde, taljemål, alder og en DXA-scanning, lavede de formler for muskelmassen. De fandt, at der var en sammenhæng højde, vægt, taljemål og alderen og muskelmassen.
 
 {% include calculate-musclemass.html %}
 
+## Hvad sker der med muskelmassen med alderen?
+
+Når du bliver ældre, så mister man typisk noget muskelmasse og muskelstyrke. Det er der mange forklaringer på.
+
+En stor del af forklaringen på tabet af muskelmasse og muskelstyrke er nedsat aktivitet. Hvis du træner kan du i høj grad modstå tabet af muskelmasse.
+
+## Hvad er en normal muskelmasse?
+
+Kvinder og mænd har forskellig muskelmasse. Du kan udregne den normale muskelmasse for personer, der har de samme mål som dig i beregneren ovenover.
+
+Kvinder har naturligt en højere fedtprocent end mænd, hvilket også betyder, at de gennemsnitligt har en mindre muskelmasse. En normal muskelmasse for kvinder er typisk omkring 31% af deres kropsvægt, og for mænd omkring 35% af kropsvægten.
+
+Men for at få et svar på, hvad en normal muskelmasse for mennesker der ligner dig er, så tjek vores beregner.
+
+{% include figure image_path="https://asset.dr.dk/imagescaler/?protocol=https&server=www.dr.dk&file=%2Fimages%2Fcrop%2F2018%2F11%2F21%2F1542796676_web_0.jpg&scaleAfter=crop&quality=70&w=600" caption=" Kilde: [DR.dk](https://www.dr.dk/sporten/oevrig/mere-fedt-og-mindre-muskler-men-kvindekroppen-har-hemmelige-superevner)" alt="Muskelmasse hos mænd og kvinder" %}
+
+## Hvordan øger jeg min muskelmasse?
+
+For at øge muskelmassen, så skal du typisk træne [styrketræning med fokus på hypertrofi](/hypertrofi-metoder/). Det kan betale sig at sætte sig lidt ind i, [hvad der får muskler til at vokse?](/hvordan-vokser-muskler/).
+
+## Hvor lang tid tager det at få større muskler?
+
+Vi har skreet en uddybende guide til, [hvor lang tid det tager for muskler at vokse](/hvor-hurtigt-vokser-muskler/).
 
 
 {% comment %}
