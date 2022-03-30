@@ -1,0 +1,31 @@
+<form id="calculator_galloway_magic_mile" class="calculator">
+    <legend>Beregner til Galloways Magic Mile</legend>
+    <fieldset>
+        <legend>Tid for at gennemføre 1609 meter</legend>
+        <div class="form-group">
+            <label>Jeg brugte (min:sek)</label>
+            <input name="time_mm_minutes" type="number" placeholder="min" min="0" step="1" value="8" required class="input-mini">:
+            <input name="time_mm_seconds" type="number" placeholder="sec" min="0" value="0" max="59" step="1" required class="input-mini">
+        </div>
+    </fieldset>
+    <input type="submit" value="Beregn">
+    <fieldset class="results">
+        <legend>Samlet hastighed bliver</legend>
+        <label>Long Run Pace (min/km)
+            <input name="pace_long_run" type="text" disabled>
+        </label>
+        <label>5k pace (min/km)
+            <input name="pace_5k_run" type="text" disabled>
+        </label>
+        <label>10k pace (min/km)
+            <input name="pace_10k_run" type="text" disabled>
+        </label>
+        <label>Halvmaraton (min/km)
+            <input name="pace_half_marathon_run" type="text" disabled>
+        </label>
+        <label>Marathon (min/km)
+            <input name="pace_marathon_run" type="text" disabled>
+        </label>
+    </fieldset>
+    {% include calculator-footer.html %}
+</form>
