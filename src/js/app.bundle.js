@@ -788,6 +788,92 @@ $(function() {
 
       $("[name='fi']").val(fi.toFixed(2));
     });
+    $("#calculator_galloway_magic_mile").submit(function(e) {
+      console.log("Gallowway_magic_mile");
+      e.preventDefault();
+
+      let time_mm_minutes = Number($("[name='time_mm_minutes']").val());
+      let time_mm_seconds = Number($("[name='time_mm_seconds']").val());
+
+      let c = running.Running();
+      let mm_velocity = c.getKilometersPrHour(1.609, time_mm_minutes, time_mm_seconds);
+
+      console.log('mmtime' + mm_velocity);
+
+      // 5k
+      let time_5k_minutes = time_mm_minutes;
+      let time_5k_seconds = time_mm_seconds + 33;
+      if (time_5k_seconds > 59) {
+        time_5k_seconds = time_5k_seconds - 60;
+        time_5k_minutes = time_5k_minutes + 1;
+      }
+
+      let velocity_5k_tempo = c.getKilometersPrHour(1.609, time_5k_minutes, time_5k_seconds);
+
+      let pace_5k_run = c.convertKmtToMinPerKm(velocity_5k_tempo);
+
+      let velocity_10k_run = mm_velocity / 1.15;
+
+      let pace_10k_run = c.convertKmtToMinPerKm(velocity_10k_run);
+
+      let velocity_half_marathon_run = mm_velocity / 1.2;
+      
+      let pace_half_marathon_run = c.convertKmtToMinPerKm(velocity_half_marathon_run);
+
+      let velocity_marathon_run = mm_velocity / 1.3;
+
+      let pace_marathon_run = c.convertKmtToMinPerKm(velocity_marathon_run);
+
+      let velocity_long_run = (mm_velocity / 1.55);
+
+      let pace_long_run = c.convertKmtToMinPerKm(velocity_long_run);
+      
+      $("[name='pace_long_run']").val(pace_long_run);
+      $("[name='pace_5k_run']").val(pace_5k_run);
+      $("[name='pace_10k_run']").val(pace_10k_run);
+      $("[name='pace_half_marathon_run']").val(pace_half_marathon_run);
+      $("[name='pace_marathon_run']").val(pace_marathon_run);
+    });
+    $("#calculator_run_walk_time").submit(function(e) {
+      console.log("run_walk_time");
+      e.preventDefault();
+
+      let time_running_minutes = Number($("[name='time_running_minutes']").val());
+      let time_running_seconds = Number($("[name='time_running_seconds']").val());
+
+      let time_walking_minutes = Number($("[name='time_walking_minutes']").val());
+      let time_walking_seconds = Number($("[name='time_walking_seconds']").val());
+
+      let pace_walking_minutes = Number($("[name='pace_walking_minutes']").val());
+      let pace_running_minutes = Number($("[name='pace_running_minutes']").val());
+
+      let pace_walking_seconds = Number($("[name='pace_walking_seconds']").val());
+      let pace_running_seconds = Number($("[name='pace_running_seconds']").val());
+
+      console.log('Pace walking' + pace_walking_minutes + ':' + pace_walking_seconds);
+      console.log('Time' + time_walking_minutes + ':' + time_walking_seconds);
+      console.log('Pace running' + pace_walking_minutes + ':' + pace_walking_seconds);
+
+      // Calculate total running and walking distance
+
+      let c = running.Running();
+
+      let running_distance = c.convertMinPerKmToDistanceForDuration(pace_running_minutes, pace_running_seconds, time_running_minutes, time_running_seconds);
+      let walking_distance = c.convertMinPerKmToDistanceForDuration(pace_walking_minutes, pace_walking_seconds, time_walking_minutes, time_walking_seconds);
+
+      let total_distance = (running_distance + walking_distance) / 1000;
+      let total_minutes = time_running_minutes + time_walking_minutes;
+      let total_seconds = time_running_seconds + time_walking_seconds;
+      if (total_seconds > 59) {
+        total_seconds = total_seconds - 60;
+        total_minutes = total_minutes + 1;
+      }
+
+      console.log('dist_running: ' + running_distance + 'dist_walking: ' + walking_distance + 'dist: ' + total_distance + ' - min: ' + total_minutes + ' - sec: ' + total_seconds);
+
+      $("[name='velocity']").val(c.getKilometersPrHour(total_distance, total_minutes, total_seconds).toFixed(2));
+      $("[name='pace']").val(c.getTimePrKilometer(total_distance, total_minutes, total_seconds));
+    });
     $("#calculator_6sek_sdec").submit(function(e) {
       console.log("6sek_sdec");
       e.preventDefault();
@@ -2273,9 +2359,9 @@ $(function() {
         console.log("Calculate velocity");
         e.preventDefault();
 
-      let kmt = Number($("[name='kmt']").val());
+        let kmt = Number($("[name='kmt']").val());
 
-      let c = running.Running();
+        let c = running.Running();
 
         $("#velocity_convert_minkm").val(c.convertKmtToMinPerKm(kmt));
     });
@@ -2283,10 +2369,10 @@ $(function() {
         console.log("Calculate velocity");
         e.preventDefault();
 
-      let min = Number($("[name='minkm_kmt_min']").val());
-      let sec = Number($("[name='minkm_kmt_sec']").val());
+        let min = Number($("[name='minkm_kmt_min']").val());
+        let sec = Number($("[name='minkm_kmt_sec']").val());
 
-      let c = running.Running();
+        let c = running.Running();
 
         $("#velocity_convert_kmt").val(c.convertMinPerKmToKmt(min, sec));
     });

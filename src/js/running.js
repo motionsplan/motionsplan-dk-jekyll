@@ -72,7 +72,7 @@ motionsplan.Running = function() {
         return (distance * 60) / velocity;
     }
 
-   let publicAPI = {
+    let publicAPI = {
         getKilometersPrHour : getKilometersPrHour,
         getTimePrKilometer : getTimePrKilometer,
         convertKmtToMinPerKm : convertKmtToMinPerKm,

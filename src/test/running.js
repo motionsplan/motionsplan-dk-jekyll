@@ -41,8 +41,11 @@ describe('RunningTest', function() {
   describe('convertMinPerKmToKmt', function() {
     it('should return the correct number', function() {
       let r = motionsplan.Running();
-      // m2, s2, km
+      // 
       assert.equal(r.convertMinPerKmToDistanceForDuration(4, 0, 4, 0), 1000);
+
+      // pace, duration
+      assert.equal(r.convertMinPerKmToDistanceForDuration(10, 0, 1, 0), 100);
     });
   });
   describe('getDistanceFromTimeAndVelocity', function() {
