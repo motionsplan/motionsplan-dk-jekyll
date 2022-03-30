@@ -11,7 +11,7 @@ tags:
   - løbeprogram
 last_modified_at: 2022-02-12T22:21:26Z
 feature_row:
-  - url: https://www.saxo.com/dk/the-run-walk-run-method_jeff-galloway_paperback_9781782550822
+  - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/the-run-walk-run-method_jeff-galloway_paperback_9781782550822
     image_path: https://imgcdn.saxo.com/_9781782550822/0x500
     title: Run-Walk-Run Method
     excerpt: Jeff Galloways injury-free marathon training program has helped hundreds of thousands of runners of all abilities. His training schedules have inspired the second wave of marathoners who follow the Galloway RUN-WALK-RUN, low mileage, three-day suggestions to an over 98% success rate.
