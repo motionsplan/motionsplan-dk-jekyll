@@ -25,7 +25,7 @@ tags:
   - repetition maximum
   - test
   - træningsplanlægning
-last_modified_at: 2021-12-27T07:14:14Z
+last_modified_at: 2022-03-27T07:14:14Z
 toc: true
 feature_row_sheet:
   - image_path: /assets/images/freebies/rmberegner.png
@@ -48,7 +48,7 @@ feature_row:
 faq:
   - question: Hvad er en RM-beregner? 
     answer: "En RM-beregner kan udregne _Repetition Maximum (RM)_. RM-begrebet kan først og fremmest bruges til at estimere, hvad du maksimalt kan løfte en gang ud fra vægten på et submaksimalt løft med flere gentagelser. Ud fra din 1RM kan du derefter estimere forskellige RM-vægte, som fx kan anvendes i træningsprogrammer."
-  - question: Hvordan beregner man sin egen 1 RM?
+  - question: Hvordan beregner man sin 1 RM?
     answer: Du kan naturligvis bruge vores RM-beregner til at beregne din egen 1RM, men du kan også selv regne det hele ud med en RM-formel. Jeg har samlet de mest populære formler til at udregne 1RM-max på denne side.
   - question: Hvad betyder RM, 1RM max og one repetition maximum?
     answer: "**One Repetition Maximum** kaldes også 1RM er et udtryk for den vægt, man maksimalt kan løfte for en gentagelse i en given øvelse. Det kan være gavnligt at kende sin 1RM, hvis man bruger procentbaserede træningsprogrammer."
@@ -82,6 +82,10 @@ Hvis du laver procentbaserede træningsprogrammer, så har du brug for at vide, 
 
 RM-værdierne kan altså bruges som et udgangspunkt for planlægningen af dine træningsprogrammer. Desuden kan de være med til at give end indikation på, om du har oplevet fremgang i din præstation i løbet af dit træningsprogram.
 
+## RM-beregner til 1RM max
+
+{% include calculate-1rm.html %}
+
 ## Skema og tabel med RM-værdier
 
 Du kan bruge dette skema over RM-værdier til at estimere dine egne træningsværdier.
@@ -107,10 +111,6 @@ Reynolds (2006) har lavet et metastudium, hvor de kårer **Reynolds egen formel 
 Jeg kan godt lide at give mulighed for det er lidt mere fleksibelt under udførelsen. Så selvom man går efter en 5RM, så vil en 4RM eller en 6RM også fungere fint i udregningerne, så man ikke behøver at lave et nyt forsøg. Derfor har jeg **regnet baglæns for Reynolds formel, så den bliver mere fleksibel**.
 
 Lad os først springe til 1RM-beregneren, så kan vi kigge yderligere på forbeholdene efterfølgende.
-
-## RM-beregner til 1RM max
-
-{% include calculate-1rm.html %}
 
 ## Fordele ved en RM-beregner
 
