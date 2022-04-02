@@ -20,6 +20,14 @@ feature_row_crossfit:
     btn_label: Tjek prisen
     btn_class: btn--danger
     rel: sponsored nofollow noopener
+feature_row_weightlifting:
+  - url: https://clk.tradedoubler.com/click?p=212130&a=3258244&url=https%3A%2F%2Fwww.bodystore.dk%2Ftraeningstoj%2Ftraeningstoj-til-maend%2Ftraeningssko%3Fprefn1%3Dhsng-product-onlineFlag-gg%26prefv1%3Dtrue%26prefn2%3Dhsng-skor%26prefv2%3Dlyftarsko
+    image_path: https://www.bodystore.dk/dw/image/v2/BDJH_PRD/on/demandware.static/-/Sites-hsng-master-catalog/default/dw9f4bc3f9/media/GG-Produktbilder/Adidas/GZ5953R_Adidas_Adipower-Weightlifting-II-WhiteBlack-01_jan22.jpg?sw=655&sh=655&sm=fit&sfrm=png
+    title: Adidas Adipower Weightlifting II
+    excerpt: Disse strømlinede vægtløftningssko har en åndbar overdel i vævet tekstil samt indvendige forstærkninger, der forbedrer stabiliteten. Skoene omfavner foden med målrettet støtte og giver samtidig plads til tæernes naturlige bevægelser.
+    btn_label: Tjek prisen
+    btn_class: btn--danger
+    rel: sponsored nofollow noopener
 ---
 
 {% comment %}
@@ -47,7 +55,7 @@ Når du skal vælge gode sko til styrketræning, træning og fitness, så er der
 
 Du skal tænke over, hvilke sko du vælger til din træning, fordi fødderne er det fundament, du står på. Du kan overføre meget mere kraft til dine løft, hvis du tænker over, hvor godt skoene passer til din træning.
 
-{% include figure image_path="https://images.unsplash.com/photo-1526405098960-78ccf7a1dbd6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=5" caption="Vægtløftningsko kan være en styrketræningssko." caption="vægtløfningssko styrketrænings sko" %}
+{% include figure image_path="https://images.unsplash.com/photo-1526405098960-78ccf7a1dbd6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=5" caption="Vægtløftningssko kan være en styrketræningssko." alt="vægtløftningssko styrketrænings sko" %}
 
 ## Vælg sko der passer til din træning
 
@@ -75,9 +83,11 @@ Når du står stabilt, så kan du overføre mere kraft fra gulvet. Derfor er det
 
 I langt de fleste øvelser, så foretrækker jeg at træne i sko, som er flade eller har et lille drop. Der er dog et par undtagelser, hvor du kan overveje at få en sko med et større drop. Du kan ofte i træningscentret se folk squatte i denne type sko.
 
-{% include figure image_path="" caption="Hvis du laver squat og andre knædominerede øvelser, så kan det måske være en fordel at vælge en vægtløftersko." alt="vægtløftersko kan bruges som styrketræningssko" %}
+{% include figure image_path="https://images.unsplash.com/flagged/photo-1566064336477-864e4f308992?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=5" caption="Hvis du laver squat og andre knædominerede øvelser, så kan det måske være en fordel at vælge en vægtløftersko." alt="vægtløftersko kan bruges som styrketræningssko" %}
 
 Denne type sko går også under navnet vægtløftersko. En vægtløftersko adskiller sig fra andre træningssko ved at have en meget hård sål samtidig med, at hælen er hævet.
+
+{% include feature_row id="feature_row_weightlifting" type="right" %}
 
 En hævet hæl er en fordel i squat. Det bliver ganske enkelt lidt lettere at få en større knævandring, og derfor kan du squatte lidt dybere, når du har en hævet hæl.
 
@@ -109,7 +119,7 @@ Vægtløftersko egner sig imidlertid ikke til at løbe eller hoppe i, så hvis d
 
 Hvis du laver mere blandet træning, så kan du overveje **crossfit sko**. Her får du nogle sko, som du kan bruge til tunge løft og vægtløftning, men også kan bevæge dig lidt mere frit i. Det er naturligvis et kompromis, så overvej hvad dine mål for træningen er, inden du vælger sko.
 
-{% include feature_row type="feature_row_crossfit" type="right" %}
+{% include feature_row id="feature_row_crossfit" type="right" %}
 
 I **dødløft** er hævede hæle ikke en fordel. Når du har en hævet hæl, så bliver du højere, hvilket betyder, at _range of motion_ bliver længere. Samtidig får du vægten frem mod forfoden, hvilket gør balancen i dødløft-bevægelsen lidt mere vanskelig.
 
