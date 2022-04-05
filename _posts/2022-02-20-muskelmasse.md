@@ -3,7 +3,7 @@ title: &title "Udregn din muskelmasse i vores beregner"
 permalink: /muskelmasse-beregner/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1613288092085-eb081fde1509?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
+  teaser: https://images.unsplash.com/photo-1564939558297-fc396f18e5c7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Styrketræning
