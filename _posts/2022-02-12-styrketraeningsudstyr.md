@@ -11,11 +11,11 @@ category:
 tags:
   - træningsudstyr
 last_modified_at: 2022-02-12T22:21:26Z
-feature_row_flipbelt:
-  - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/1600x/9df78eab33525d08d6e5fb8d27136e95/f/l/flipbelt-alle-farver_1.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/flipbelt-lobebaelte-pengekat
-    title: Flipbelt løbebælte
-    excerpt: I Flipbelt løbebæltet kan du have din telefon, kreditkort, nøgler, og alt andet du måske har brug på din løbetur.
+feature_row_liquid_chalk:
+  - image_path: https://cdn.shopify.com/s/files/1/0605/1941/6061/products/DSC09304.jpg?v=1648043835
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=68773&htmlurl=https://www.musclehouse.dk/products/barbenders-liquid-chalk-250ml?variant=42634678075645
+    title: Barbenders Liquid Chalk (250ml)
+    excerpt: Barbenders Liquid Chalk er flydende kalk til brug under træning. Flydende kalk sikrer dig en bedre grebskontakt til dine redskaber under træning, hvor sveddannelse vil være en hindring.
     rel: sponsored nofollow noopener
     btn_label: Se prisen
     btn_class: btn--info
@@ -52,6 +52,16 @@ Vi har skrevet en [guide til at vælge sko til styrketræning](/sko-styrketraeni
 Et bælte til styrketræning kan hjælpe dig med en større stabilitet omkring din kropskerne, så du kan løfte tungere og gøre dine løft endnu mere effektive. Når du kan have en mere stabil kropskerne, så kan du også løfte tungere i fx squat og dødløft, men stabiliteten kan også hjælpe lidt til stående pres over hovedet.
 
 Vi har skrevet en grundig guide til at [vælge et styrketræningsbælte](/baelte-styrketraening/).
+
+## Kalk
+
+Det kan være en fordel at bruge kalk til visse øvelser i styrketræning. Særligt når du skal holde noget, så giver det et noget bedre greb. I klatreverden har [Bacon et al (2018)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5841679/) sammenlignet et _open-handed_ og et _pinch_-greb med og uden kalk. De fandt en signifikant bedre greb med kalk.
+
+Jeg har ikke kunnet finde studier på styrketræning, men det er sandsynligt at kalk vil forbedre dit greb både i dødløft og pullups. Kalken fjerner fugten fra hænderne, så friktionen mellem dine hænder og stangen eller baren forøges. Hvor meget effekten af kalken er afhænger formentlig af, hvor meget du sveder i hænderne.
+
+Du kan enten få kalk som pulver, blokke eller som _liquid chalk_. Hvis du skal bruge kalk i et styrketræningscenter, så er det lettest at administrere det flydende kalk uden at svine for meget.
+
+{% include feature_row id="feature_row_liquid_chalk" type="left" %}
 
 {% comment %}
 
