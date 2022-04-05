@@ -10,14 +10,6 @@ category:
 tags:
   - beregner
 last_modified_at: 2022-01-27T22:21:26Z
-feature_row:
-  - image_path: https://imgcdn.saxo.com/_9781782551096/0x500
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/the-secret-of-running_ron-van-megen-hans-van-dijk_paperback_9781782551096
-    title: The Secret of Running
-    excerpt: Maximum Performance Gains Through Effective Power Metering and Training Analysis
-    btn_label: Læs mere
-    btn_class: btn--success
-    rel: sponsored nofollow nooopener
 ---
 
 I styrketræning kan det sommetider være lidt besværligt at finde ud af, hvor meget vægt man skal have på stangen i specifikke løft. Her får du hjælp til, hvor meget du skal løfte i de enkelte sæt.
