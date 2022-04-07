@@ -533,28 +533,28 @@ $(function() {
         console.log("kj to kcal");
         e.preventDefault();
 
-      let kj = Number($("[name='kj']").val());
+        let kj = Number($("[name='kj_kcal_kj']").val());
 
-      let kcal = kj * 4.184;
-        $("[name='kcal']").val(kcal.toFixed(0));
+        let kcal = kj / 4.184;
+        $("[name='kj_kcal_kcal']").val(kcal.toFixed(2));
     });
     $("#calculator_kcal_kj").submit(function(e) {
         console.log("kcal to kj");
         e.preventDefault();
 
-      let kcal = Number($("[name='kcal']").val());
+        let kcal = Number($("[name='kcal_kj_kcal']").val());
 
-      let kj = kcal / 4.184;
-        $("[name='kj']").val(kj.toFixed(0));
+        let kj = kcal * 4.184;
+        $("[name='kcal_kj_kj']").val(kj.toFixed(2));
     });
     // Udregn Billat
     $("#calculator_billat").submit(function(e) {
         console.log("Billat");
         e.preventDefault();
 
-      let distance = Number($("[name='distance']").val());
+        let distance = Number($("[name='distance']").val());
 
-      let iw = billat.Billat(distance);
+        let iw = billat.Billat(distance);
         $("#speed").val(iw.getVelocity().toFixed(2));
         $("#d30").val(iw.getDistance30());
         $("#r30").val(iw.getRecovery30());
@@ -576,10 +576,10 @@ $(function() {
         console.log("Idealweight");
         e.preventDefault();
 
-      let sex = $("[name='sex']:checked").val();
-      let height = Number($("[name='height']").val());
+        let sex = $("[name='sex']:checked").val();
+        let height = Number($("[name='height']").val());
 
-      let iw = idealweight.IdealWeight(height, sex);
+        let iw = idealweight.IdealWeight(height, sex);
 
         if ($("[name='zacho_target_bmi']").val() == '') {
            if (iw.isMale()) {
@@ -589,9 +589,9 @@ $(function() {
             }
         }
 
-      let target_bmi = Number($("[name='peterson_target_bmi']").val());
-      let zacho_bmi = Number($("[name='zacho_target_bmi']").val());
-      let bodytype = Number($("[name='bodytype']").val());
+        let target_bmi = Number($("[name='peterson_target_bmi']").val());
+        let zacho_bmi = Number($("[name='zacho_target_bmi']").val());
+        let bodytype = Number($("[name='bodytype']").val());
 
         $("[name='idealweight_robinson']").val(iw.getRobinson().toFixed(1));
         $("[name='idealweight_miller']").val(iw.getMiller().toFixed(1));
