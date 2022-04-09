@@ -109,13 +109,18 @@ Studiet viste at løberne bruger 30 procent mere energi på den kurvede, ikke-mo
 
 --- <cite>[Runner's World](https://www.runnersworld.com/training/a20950925/you-are-working-harder-on-a-curved-treadmill/)</cite>
 
-Fordelene ved et kurvet løbebånd er, at du undervejs selv-regulerer tempoet ligesom du gør udendørs. Når du løber på et kurvet løbebånd, så vil din bagkæde (baller, baglår, lægge) også arbejde hårdere end på et motoriseret løbebånd.
+Fordelene ved et kurvet løbebånd er, at du undervejs selv regulerer tempoet ligesom du gør udendørs. Når du løber på et kurvet løbebånd, så vil din bagkæde (baller, baglår, lægge) også arbejde hårdere end på et motoriseret løbebånd.
 
 [Schoenmakers og Reed](https://www.runnersworld.com/training/a20950925/you-are-working-harder-on-a-curved-treadmill/) arbejder med studier, der viser at løb på et kurvet løbebånd svarer til at løbe på et motoriseret løbebånd, der har en 8% hældning.
 
-Det betyder også, at man formentlig kan løbe langsommere på et kurvet løbebånd i forhold til et motoriseret løbebånd - formentlig helt op til 20% i forskel.
+Det betyder også, at man formentlig kan løbe langsommere på et kurvet løbebånd i forhold til et motoriseret løbebånd. Der kan være helt op til 20% i forskel i hastigheden ved samme anstrengelse.
 
 Det kurvede løbebånd har nogle fordele, men det har det motoriserede løbebånd også. Når du løber på et motoriseret løbebånd, så sætter du en fast hastighed, som du let kan lave et træningsprogram ud fra. Du behøver ikke koncentrere dig om at holde farten, for det sker helt automatisk.
+
+{% comment %}
+Hældning på det kurved løbebånd - Trueform vs Assault.
+Påvirker det running gait at løbe på et kurvet løbebånd?
+{% endcomment %}
 
 ## Fordele ved motoriserede løbebånd
 

@@ -37,7 +37,7 @@ Lyt til podcasten fra Runcast her:
 
 Flere forskellige aktører har meldt sig på banen med løsninger til at måle watt under løb. _Stryd footpod_ er formentlig den mest anerkendte i øjeblikket, men både Polar og Garmin er også begyndt at måle watt med deres devices.
 
-Dette afsnit handler i om, hvordan wattmåling kan foregå i løb.
+Dette afsnit handler om, hvordan wattmåling kan foregå i løb.
 
 ## Hvordan kan du måle watt i løb?
 
@@ -96,6 +96,13 @@ Den elastiske energi i fx achillessenen er anerkendt i litteraturen. Achillessen
 Det anslås i noget litteratur, at den returnerede energi fra achillessenen kan forøge det mekaniske arbejde uden, at det koster som øget forbrænding.
 
 På grund af disse forklaringer, så fortolker van Dijk og van Megen Stryds watt som _Net Running Power_ og Polars tal som _Gross Running Power_, hvor forskellen er den elastiske energi, der returneres i sener og ligamenter.
+
+{% comment %}
+
+Stryd på almindelig løbebånd
+Stryd på kurvet løbebånd
+
+{% endcomment %}
 
 ## Konklusion
 
