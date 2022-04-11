@@ -1,7 +1,7 @@
 ---
 title: &title "Hvilepuls: Hvad er hvilepulsen og hvordan måles den? 💓"
 seo_title: "Hvilepuls - Alt du skal vide for mænd og kvinder [Tabel]"
-description: "Alt du skal vide om hvilepuls? ✓ Tabel for mænd og kvinder over hvad en god hvilepuls er ✓ Hvordan måler man den, og hvordan kan du følge effekten af din træning og dit velbefindende?"
+description: "Alt du skal vide om hvilepuls? ✓ Tabel for mænd og kvinder over hvad en god hvilepuls er ✓ Hvordan måler man hvilepulsen ✓ Hvordan følger du effekten af din træning?"
 permalink: /hvilepuls/
 language: da
 header:
@@ -18,6 +18,16 @@ tags:
   - tracking
 last_modified_at: 2021-02-22T08:14:14Z
 toc: true
+## Hvad er en god hvilepuls?
+## Hvor lav må en puls være?
+## Normal hvilepuls for kvinder?
+## Hvilepuls tabel mænd for alder
+## https://biostrap.com/academy/how-to-calculate-resting-heart-rate/
+## 1 What Is a Normal Resting Heart Rate?
+## 2 Why Does Resting Heart Rate Matter?
+## 3 How To Calculate Resting Heart Rate
+## 4 Heart Rate for Exercise
+## 5 The Best Time To Check Resting and Target Heart Rate
 ---
 
 Din hvilepuls kan være en god indikator på dit helbred og din form. Jeg bruger hvilepulsen som en let måde at følge effekten af min træning. Bl.a. kan du vurdere hvad en god hvilepuls er ud fra en tabel.
@@ -37,7 +47,7 @@ I dette indlæg får du ud over en **tabel med hvilepuls for mænd og kvinder** 
 
 Hjertet pumper blod rundt i kredsløbet for at levere iltet og næringsmættet blod ud til de arbejdende muskler og organer. Kroppen har også brug for en del energi i hvile, fordi stofskiftet og forbrændingen hele tiden kører. Hjertet slår så mange gange som det er nødvendigt for at få blod nok rundt i systemet til at vedligeholde stofskiftet.
 
-Hjertet bliver hovedsageligt trænet under puls-, kredsløbs- og konditionstræning. Jeg har skrevet et [grundigt indlæg om de fysiologiske tilpasninger til konditionstræning](/tilpasning-konditionstraening/), hvor jeg beskriver tilpasningerne i hjertet ved konditionstræning.
+Hjertet bliver hovedsageligt trænet under puls-, kredsløbs- og konditionstræning. Jeg har skrevet et grundigt indlæg om [de fysiologiske tilpasninger til konditionstræning](/tilpasning-konditionstraening/), hvor jeg beskriver tilpasningerne i hjertet ved konditionstræning.
 
 Der sker to tilpasninger i hjertet ved konditionstræning, som har betydning for din hvilepuls.
 
@@ -65,7 +75,7 @@ Det kan sættes på følgende formel:
 
 Hvis minutvolumen skal være konstant og slagvolumen er faldet, så bliver det altså tydeligt, at hjertefrekvensen ikke behøver at være så høj. Derfor falder hvilepulsen, når du kommer i bedre form.
 
-Hvis du vil læse om flere [tilpasninger ved konditionstræning, så kan du læse dette indlæg](/tilpasning-konditionstraening/).
+Vi har lavet et uddybende indlæg om [tilpasninger ved konditionstræning](/tilpasning-konditionstraening/).
 
 ## Hvad er en normal hvilepuls?
 

@@ -1,10 +1,3 @@
-<form class="calculator" id="calculator_closed">
-    <fieldset>
-        <legend>Formular til udregning af aldersgraduerede tider</legend>
-        <p><a href="https://loebesiden.dk/beregninger/beregn_aldersgraduering/" class="btn btn--large btn--info">Tjek Løbesiden.dk</a></p>
-    </fieldset>
-</form>
-{% comment %}
 <script>
     function myarray(list) {
         this.distancename = arguments[0];
@@ -169,8 +162,8 @@
         document.getElementById('bestagetime').innerHTML = second_to_time(bestagetime_seconds);
         document.getElementById('ageperformance').innerHTML = roundNumber(100 * (bestagetime_seconds / time_seconds), 2) + ' %';
         document.getElementById('agetime').innerHTML = second_to_time(agefactor * time_to_seconds(hours, minutes, seconds));
+        return false;
     }
-
 
     function dotReplace(number) {
         if (number != "") {
@@ -231,40 +224,47 @@
     </fieldset>
     <fieldset class="results">
         <legend>Resultater</legend>
-        <table>
+        <table class="table">
+            <tbody>
             <tr>
-                <td><b>Aldergradueret tid:</b></td>
+                <th>Aldergradueret tid:</th>
                 <td id="agetime"></td>
             </tr>
             <tr>
-                <td><b>Aldergradueret præstation:</b></td>
+                <th>Aldergradueret præstation:</th>
                 <td id="ageperformance"></td>
             </tr>
+            </tbody>
         </table>
     </fieldset>
     <fieldset class="results">
         <legend>Beregningsgrundlag</legend>
-        <table>
+        <table class="table">
+            <tbody>
             <tr>
-                <td><b>Aldersfaktor:</b></td>
+                <th>Aldersfaktor:</th>
                 <td id="agefactor"></td>
             </tr>
             <tr>
-                <td><b>Bedste tid på distancen:</b></td>
+                <th>Bedste tid på distancen:</th>
                 <td id="besttime"></td>
             </tr>
             <tr>
-                <td><b>Bedste aldersbetinget tid på distancen:</b></td>
+                <th>Bedste aldersbetinget tid på distancen:</th>
                 <td id="bestagetime"></td>
             </tr>
+            </tbody>
         </table>
     </fieldset>
 </form>
 
 <hr>
 
+<h2>Hvordan er din løbetid ift. verdenseliten?</h2>
+
 <table class="table" style="width: 100%;">
     <caption>Aldersgradueret præstationsniveauer</caption>
+    <tbody>
     <tr>
         <td>100%</td>
         <td>Omkring verdensrekord</td>
@@ -285,5 +285,5 @@
         <td>&gt; 60%</td>
         <td>Lokal klasse</td>
     </tr>
+    </tbody>
 </table>
-{% endcomment %}
