@@ -44,6 +44,12 @@ En aldersjusteret sammenligning af løbetider kan sammenlignes lidt med handicap
 
 Hvis en mand på 55 år kan løbe 10 kilometer på 52 minutter, så får han en aldersgraduering på 60,32%. I beregneren får du din præstation udtrykt i procent i forhold til alderen i stedet for tid. Det gælder således om at have den højste aldersgraduering.
 
+## Hvorfor falder løbetiderne med alderen?
+
+[Vores Puls](https://vorespuls.dk/loeb/artikler/alderen-taerer-paa-tiderne) foreslår, at du fra starten af 30 års alderen, så vil dine løbetider falde med 1% om året.
+
+Heldigvis er budskabet, at faldet afgøres af, hvor meget du træner. Du kan altså med målrettet træning fastholde nogle gode tider.
+
 ## Konklusion
 
 Dette er en opdateret version af den oprindelige beregner til aldersgraduerede løbetider fra løbesiden.dk. Husk at vi har et hav af forskellige [beregnere og tests til løb](/loebesiden/).
