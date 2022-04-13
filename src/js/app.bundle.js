@@ -62,6 +62,7 @@ const tbw = require('../js/bodywater');
 const wattmax = require('../js/wattmax');
 const hr_intensity = require('../js/hr-intensity');
 const wilks = require('wilks-calculator');
+const treadmill = require('../js/treadmill');
 require('image-map-resizer');
 
 $(function() {
@@ -452,17 +453,40 @@ $(function() {
         console.log("Y-balance");
         e.preventDefault();
 
-      let limb_length = Number($("[name='limb_length']").val());
-      let anterior = Number($("[name='anterior']").val());
-      let posterolateral = Number($("[name='posterolateral']").val());
-      let posteromedial = Number($("[name='posteromedial']").val());
+        let limb_length = Number($("[name='limb_length']").val());
+        let anterior = Number($("[name='anterior']").val());
+        let posterolateral = Number($("[name='posterolateral']").val());
+        let posteromedial = Number($("[name='posteromedial']").val());
 
-      let fp = ybalance.YBalance(anterior, posterolateral, posteromedial);
+        let fp = ybalance.YBalance(anterior, posterolateral, posteromedial);
         $("[name='absolute_score']").val(fp.getAbsoluteReachDistance().toFixed(0));
         $("[name='relative_score']").val(fp.getRelativeReachScore(limb_length).toFixed(0));
         $("[name='composite_score']").val(fp.getCompositeReachScore(limb_length).toFixed(0));
     });
-    $("#calculator_fat_percent_navy").submit(function(e) {
+    $("#calculator_treadmill").submit(function(e) {
+      console.log("Treadmill");
+      e.preventDefault();
+
+      let gradient = Number($("[name='gradient']").val());
+      let speed = Number($("[name='speed']").val());
+      let time = Number($("[name='time']").val());
+      let distance = Number($("[name='distance']").val());
+      let weight = Number($("[name='weight']").val());
+
+      let tm = treadmill.Treadmill(gradient, speed, time, distance, weight);
+      $("[name='speed_gradient']").val(tm.getGradientCorrectedSpeed().toFixed(2));
+      $("[name='distance_gradient']").val(tm.getGradientCorrectedDistance().toFixed(2));
+      $("[name='time_gradient']").val(tm.getGradientCorrectedDistance().toFixed(2));
+      $("[name='speed_calculated']").val(tm.getSpeed().toFixed(0));
+      $("[name='distance_calculated']").val(tm.getDistance().toFixed(0));
+      $("[name='time_calculated']").val(tm.getTime().toFixed(0));
+      $("[name='kcal']").val(tm.getKcal().toFixed(0));
+      $("[name='kj']").val(tm.getKj().toFixed(0));
+      $("[name='kwh']").val(tm.getKwh().toFixed(2));
+      $("[name='mets']").val(tm.getMets().toFixed(1));
+      $("[name='gradient_calculated']").val(gradient);
+  });
+  $("#calculator_fat_percent_navy").submit(function(e) {
         console.log("Fat percent navy");
         e.preventDefault();
 

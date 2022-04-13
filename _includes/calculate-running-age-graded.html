@@ -152,6 +152,8 @@
             }
         }
 
+        console.log(dist);
+
         var agefactor = tmparray[dist].agefactors[age - 5];
         var besttime_seconds = tmparray[dist].time;
         var bestagetime_seconds = besttime_seconds / agefactor;
@@ -180,7 +182,7 @@
     }
 </script>
 
-<form class="calculator">
+<form class="calculator" id="calculator_age_graded_running">
     <fieldset>
         <div class="form-group">
             <label>Distance</label>
@@ -197,28 +199,21 @@
         </div>
         <div class="form-group">
             <label>Løbetid</label>
-            <input id="hours" type="text" class="input-mini" placeholder="timer">
-            <input id="minutes" type="text" class="input-mini" placeholder="min">
-            <input id="seconds" type="text" class="input-mini" placeholder="sek">
+            <input name="hours" id="hours" type="number" min="0" max="24" class="input-mini" placeholder="timer">
+            <input name="minutes" id="minutes" type="number" min="0" max="59" class="input-mini" placeholder="min">
+            <input name="seconds" id="seconds" type="number" min="0" max="59" class="input-mini" placeholder="sek">
         </div>
         <div class="form-group">
-            <label>Alder</label>
-            <select id="age">
-			<script>
-			var str = '';
-			for(var n=5; n<=100; n++) {
-				str+='<option value="'+n+'"/>'+n;
-			}
-			document.write(str);
-			</script>
-		</select> år
+            <label>Alder
+                <input id="age" type="number" min="5" max="100" class="input-mini" placeholder="alder">
+            </label>
         </div>
         <div class="form-group">
             <label>Køn</label>
             <select id="sex">
-		    <option value="m" selected="selected">Mand</option>
-		    <option value="f">Kvinde</option>
-		</select>
+		        <option value="m" selected="selected">Mand</option>
+		        <option value="f">Kvinde</option>
+		    </select>
         </div>
         <input type="button" onclick="javascript: calc_age();" value="Beregn">
     </fieldset>
@@ -262,7 +257,15 @@
 
 <h2>Hvordan er din løbetid ift. verdenseliten?</h2>
 
-<table class="table" style="width: 100%;">
+<p>Du kan finde tabeller for aldersgraduerede tabeller på <a href="http://misweb.cbi.msstate.edu/~rpearson/masters.html">Rodney A. Pearson</a>.</p>
+
+{% comment %}
+https://www.hmrrc.com/members/tools/pace-calculator/age-graded-calculator --> https://www.hmrrc.com/application/themes/hmrrc_theme/js/calculators.js
+https://runbundle.com/tools/age-grading-calculator
+https://runnersconnect.net/age-grading/
+{% endcomment %}
+
+<table class="table" style="width: 100% !important;">
     <caption>Aldersgradueret præstationsniveauer</caption>
     <tbody>
     <tr>
