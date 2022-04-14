@@ -344,6 +344,9 @@ collections:
   presentations:
     output: true
     permalink: /p/:path/
+  embed:
+    output: true
+    permalink: /embed/:path/
   methods:
     output: true
     permalink: /metode/:path/
@@ -475,5 +478,13 @@ defaults:
       type: presentations
     values:
       layout: webslides
+      sitemap: false
+      search: false
+  # _presentations
+  - scope:
+      path: ""
+      type: embed
+    values:
+      layout: embed
       sitemap: false
       search: false
