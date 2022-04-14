@@ -20,7 +20,7 @@ feature_row_feature:
   - image_path: https://images.unsplash.com/photo-1529795533870-ea8020391255?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
     alt: "Løbesidens Løbsberegner"
     title: "Løbeberegner"
-    excerpt: "Jeg har lavet en løbeberegner baseret på Løbesiden, der kan beregne dit træningstempo og konkurrencetider ud fra Jack Daniels Running Formula. Jeg har også beskrevet forskellige træningsmetoder."
+    excerpt: "Jeg har lavet en løbeberegner baseret, der kan beregne dit træningstempo og konkurrencetider ud fra Jack Daniels Running Formula. Her kan du også læse om forskellige træningsmetoder."
     url: "/loebesiden-jack-daniels-loebeberegner/"
     btn_label: "Brug løbsberegneren"
     btn_class: "btn--info"
@@ -200,11 +200,9 @@ hiit træning løbebånd
 
 </div>
 
-## Løbeprogrammer
-
-{% comment %}
-
 ## Beregnere til løb
+
+Her på sitet har vi en del forskellige [løbeberegnere](/loebeberegnere/). Den mest populære er [Jack Daniels løbeberegner](/loebesiden-jack-daniels-loebeberegner/).
 
 {% assign site_posts = site.posts | where: "category", "Løb" | where: "tags", "beregner" | sort: "date" %}
 
@@ -218,6 +216,8 @@ hiit træning løbebånd
 
 </div>
 
+{% comment %}
+
 ## Løbeprogram
 
 Løbeprogram begyndere
@@ -230,7 +230,10 @@ løbe hver dag
 løbeplan
 løbetræning 5 km
 løb 5 km på 25 min
+
 {% endcomment %}
+
+## Løbeprogrammer
 
 <div class="feature__wrapper">
 

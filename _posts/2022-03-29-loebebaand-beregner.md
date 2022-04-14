@@ -8,7 +8,8 @@ header:
 category:
   - Løb
 tags:
-  - løbeprogram
+  - løbebånd
+  - beregner
 last_modified_at: 2022-03-12T22:21:26Z
 ---
 

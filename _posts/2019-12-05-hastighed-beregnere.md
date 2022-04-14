@@ -44,7 +44,7 @@ Hvis du leder efter en [løbsberegner til at udregne løbehastigheder for træni
 
 Typisk kan man i angive hastigheden på to forskellige måder:
 
-- **hastighed i km/t**. Den hastighed kender du fra sit spedometer i bilen, så den er let at forholde sig til. Typisk er det også den hastighed, man kan indstille på et løbebånd. Jeg synes, at den er lidt vanskeligere at bruge, når man er ude på en løbetur. Du kan også udregne hastighed i m/s.
+- **hastighed i km/t**. Den hastighed kender du fra sit speedometer i bilen, så den er let at forholde sig til. Typisk er det også den hastighed, man kan indstille på et løbebånd. Jeg synes, at den er lidt vanskeligere at bruge, når man er ude på en løbetur. Du kan også udregne hastighed i m/s.
 - **pace i min/km**. På løbeture foretrækker jeg at forholde mig til, hvor mange minutter jeg bruger for at løbe en kilometer. Det er let at forholde sig til - særligt hvis man kender den distance, man løber.
 
 ## Beregn hastighed (km/t og m/s) fra distance og tid i vores beregner
@@ -53,11 +53,11 @@ I denne beregner kan du beregne din hastighed og gennemsnitshastighed ud fra den
 
 {% include calculate-hastighed.html %}
 
-## Udregn distance fra hastighed (km/t) og tid i vores beregner
+## Udregn distance fra hastighed (km/t) og tid
 
 {% include calculate-hastighed-distance.html %}
 
-## Beregn tid fra hastighed (km/t) og distance i vores beregner
+## Beregn tid fra hastighed (km/t) og distance
 
 {% include calculate-hastighed-time.html %}
 
@@ -145,6 +145,6 @@ Hvis du vil omregne fra km/t til min/km kan du bruge følgende formel:
 
 Det er meget forskelligt, hvad løbere og cyklister foretrækker at bruge. Når jeg bruger mit GPS-ur, så står der som standard under løbeprofilerne et tempo og en løbehastighed, der er angivet i min/km. Hvis jeg skifter til cykling, så er tempoet og cykelhastigheden angivet i km/t.
 
-Det lader altså til, at de fleste løbere bruger min/km, men cyklister mest bruger km/t.
+Det lader altså til, at de fleste løbere bruger deres pace min/km, men cyklister mest bruger hastigheden i km/t.
 
 Jeg har imidlertid ofte brug for at kunne udregne min løbehastighed og omregne mellem min/km og km/t, fx når jeg skal sætte [løbebåndet]({% link _posts/2020-08-14-loebebaand.md %}) til at have den rigtige hastighed.
