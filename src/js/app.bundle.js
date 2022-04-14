@@ -63,6 +63,7 @@ const wattmax = require('../js/wattmax');
 const hr_intensity = require('../js/hr-intensity');
 const wilks = require('wilks-calculator');
 const treadmill = require('../js/treadmill');
+const age_graded_running = require('../js/age-graded-running');
 require('image-map-resizer');
 
 $(function() {
@@ -165,6 +166,35 @@ $(function() {
     $("#form-formula").ready(function() {
         $(".reynolds").hide();
     });
+
+    $("#calculator_age_graded_running #distance").ready(function() {
+      let age = age_graded_running.AgeGradedRunning(45, 'm');
+      let men = age.getArray();
+			for(let n=0; n<=43; n++) {
+        $('#distance').append('<option value="'+men[n].distancename+'">'+men[n].distancename+'</option>');
+			}
+    });
+    $("#calculator_age_graded_running").submit(function(e) {
+      console.log("Age Graded");
+      e.preventDefault();
+
+      let distance = $("#distance").val();
+      let hours = Number($("[name='hours']").val());
+      let minutes = Number($("[name='minutes']").val());
+      let seconds = Number($("[name='seconds']").val());
+      let age = Number($("[name='age']").val());
+      let sex = $("[name='sex']").val();
+
+      let ag = age_graded_running.AgeGradedRunning(age, sex);
+      ag.calculate(distance, hours, minutes, seconds);
+      
+      $("#agefactor").html(ag.getAgeFactor().toFixed(2));
+      $("#besttime").html(ag.getBestTime());
+      $("#bestagetime").html(ag.getBestAgeTime());
+      $("#ageperformance").html(ag.getAgePerformancePercent().toFixed(0));
+      $("#agetime").html(ag.getAgeTime());
+    });
+
     $("#form-formula").change(function() {
         if ($("#form-formula").val() == 'reynolds') {
             $(".reynolds").show();
@@ -222,15 +252,15 @@ $(function() {
         console.log("Calculate 1RM");
         e.preventDefault();
 
-      let repmax;
-      let formula = $("#form-formula").val();
-      let decimals = 1;
+        let repmax;
+        let formula = $("#form-formula").val();
+        let decimals = 1;
 
-      let reps = Number($("#form-reps").val());
-      let weight = Number($("#form-weight").val());
-      let bodypart = $("#form-bodypart").val();
+        let reps = Number($("#form-reps").val());
+        let weight = Number($("#form-weight").val());
+        let bodypart = $("#form-bodypart").val();
 
-      let r = rm.Estimate1RM(weight, reps);
+        let r = rm.Estimate1RM(weight, reps);
 
         if (formula == "brzycki") {
             repmax = r.getBrzycki();
@@ -404,8 +434,8 @@ $(function() {
       console.log("Calculate Kroppens Rumfang");
       e.preventDefault();
 
-    let weight = Number($("[name='weight']").val());
-    let density = Number($("[name='density']").val());
+      let weight = Number($("[name='weight']").val());
+      let density = Number($("[name='density']").val());
 
       $("[name='kroppens_rumfang']").val((weight / density).toFixed(5));
   });
@@ -413,8 +443,8 @@ $(function() {
         console.log("Calculate Maffetone");
         e.preventDefault();
 
-      let age = Number($("[name='age']").val());
-      let category = Number($("[name='category']:checked").val());
+        let age = Number($("[name='age']").val());
+        let category = Number($("[name='category']:checked").val());
 
         $("[name='mahr']").val((180 - age + category).toFixed(0));
     });
