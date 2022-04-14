@@ -18,13 +18,28 @@ feature_row_excerpt:
   - excerpt: "Guide til løbetræning. Her på løbesiden kan du finde nyttig viden om løb til [5 km](/loebeprogram-5km/), [10 km](/loebeprogram-10km/), [halvmaraton](/loebeprogram-halvmaraton-21km/) og [maraton](/loebeprogram-maraton-42km/). Vælg et effektivt [løbeprogram](/loebeprogrammer/). Lær om [pulstræning](/pulstraening/), [intervalløb og intervaltræning](/intervallob-intervaltraening/)."
 feature_row_feature:
   - image_path: https://images.unsplash.com/photo-1529795533870-ea8020391255?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
-    alt: "Løbesidens Løbsberegner"
-    title: "Løbeberegner"
-    excerpt: "Jeg har lavet en løbeberegner baseret, der kan beregne dit træningstempo og konkurrencetider ud fra Jack Daniels Running Formula. Her kan du også læse om forskellige træningsmetoder."
-    url: "/loebesiden-jack-daniels-loebeberegner/"
-    btn_label: "Brug løbsberegneren"
+    alt: "Løbeberegnere"
+    title: "Løbeberegnere"
+    excerpt: "Her på sitet har vi en del forskellige løbeberegnere. Den mest populære er [Jack Daniels løbeberegner](/loebesiden-jack-daniels-loebeberegner/)."
+    url: "/loebeberegnere/"
+    btn_label: "Se løbeberegnerne"
     btn_class: "btn--info"
-  - image_path: https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
+  - image_path: https://images.unsplash.com/photo-1540539234-c14a20fb7c7b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHJ1bm5pbmd8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=400&q=5
+    alt: "Løbetests"
+    title: "Løbetests"
+    excerpt: "Der findes rigtig mange forskellige løbetests. Her har vi samlet alle de gængse tests, så du kan få testet din løbeform.."
+    url: "/loebetests/"
+    btn_label: "Se løbetests"
+    btn_class: "btn--info"
+  - image_path: https://images.unsplash.com/photo-1594911772125-07fc7a2d8d9f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
+    alt: "Løbeprogrammer"
+    title: "Løbeprogrammer"
+    excerpt: "Løbeprogrammer til alle niveauer. Her kan du finde et løbeprogram, der passer til dig. Der er løbetræningsprogrammer til at blive hurtigere på 5km, 10 km, halvmaraton og maraton."
+    url: "/loebeprogrammer/"
+    btn_label: "Se løbeprogrammer"
+    btn_class: "btn--info"
+feature_row_better_runner:
+  - image_path: https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
     alt: "Løbeøkonomi"
     title: "Løbeøkonomi"
     excerpt: "En god løbeøkonomi er evnen til at holde høj fart i lang tid ved et minimalt energiforbrug, men hvordan beregner man løbeøkonomien?"
@@ -45,6 +60,12 @@ sidebar:
 {% include feature_row type="center" id="feature_row_excerpt" %}
 
 {% include feature_row id="feature_row_feature" type="left" %}
+
+## Hvordan bliver du en bedre løber?
+
+Hvis du gerne vil være en bedre løber, så er der flere forskellige parametre, du kan arbejde for. Hvad du har brug for at arbejde med kommer naturligvis an på, hvad dine mål som løber er.
+
+{% include feature_row id="feature_row_better_runner" type="left" %}
 
 ## Løb begyndere
 
@@ -185,36 +206,6 @@ aerob træning løb
 hiit træning løbebånd
 
 {% endcomment %}
-
-## Løbetests og kondition
-
-{% assign site_posts = site.posts | where: "tags", "løbetest" | where_exp: "post", "post.url != page.url" | sort: "date" %}
-
-<div class="feature__wrapper">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
-
-## Beregnere til løb
-
-Her på sitet har vi en del forskellige [løbeberegnere](/loebeberegnere/). Den mest populære er [Jack Daniels løbeberegner](/loebesiden-jack-daniels-loebeberegner/).
-
-{% assign site_posts = site.posts | where: "category", "Løb" | where: "tags", "beregner" | sort: "date" %}
-
-<div class="feature__wrapper">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
 
 {% comment %}
 
