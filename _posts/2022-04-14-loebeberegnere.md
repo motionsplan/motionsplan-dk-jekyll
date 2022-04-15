@@ -68,11 +68,35 @@ Du kan bruge Jack Daniels [løbsberegner](/loebesiden-jack-daniels-loebeberegner
 
 ## 3. Billat intervaller
 
+Den følgende beregner udregner din vVO<sub>2</sub>max baseret på den distance, du løber på 6-minutterstesten og foreslår hastigheder til 30-30, 60-60 og 3-3 sessionerne.
+
+Bemærk at 3-3 intervallerne godt kan tage lidt længere tid end 3 minutter, da beregneren runder distancen af til et tal, der er deleligt med 100 meter.
+
+{% include calculate-billat.html %}
+
+## Fordelene ved beregneren
+
+Der er flere måder at parametre i sine løbeprogrammer på. [Jack Daniels løbsberegner fra Løbesiden]({% link _posts/2020-08-01-jack-daniels-loebeberegner.md %}) er meget brugt. Fordelen ved denne beregner med udgangspunkt i Billat et al (1999) er, at du samtidig får et fire ugers træningsprogram til løb, som du ved virker, fordi det har indgået i et studium.
 
 ## 2. Pete Riegel
 
+Riegels formel beregner potentielle løbetider og konkurrencetider. Du kan altså beregne din tilnærmede tid på en distance ud fra en tid på en anden distance. Hvis du fx ønsker at kende din omtrentlige maratontid baseret på din 10 km tid, så kan du bruge Pete Riegels formel og beregneren her på siden til det.
+
+Denne beregner er et alternativ til [Jack Daniels' løbeberegner]({% link _posts/2020-08-01-jack-daniels-loebeberegner.md %}) og VDOT-beregning giver Riegels beregning også mulighed for at beregne potentielle konkurrencetider og løbetider.
+
+## Hvordan kan Riegels formel bruges til at udregne løbetider?
+
+Pete Riegels udgangspunkt er, at man mister omkring 6% af hastigheden, hver gang man fordobler løbedistancen. Dette præmis er dog ikke uden udfordringer. Udregningen af løbetider bliver formentlig mest præcis, hvis man bruger distancer, der ligger relativt tæt på hinanden.
+
+Riegels formel kan give et fingerpeg om, hvilken tid man kan satse på i forhold til mellemtider, når man løber andre distancer.
+
 ## 3. Jeff Galloway
 
+Galloway har en [beregner](http://www.jeffgalloway.com/training/magic-mile/) på sin egen hjemmeside, som giver dig tiderne i _miles_. Jeg løber altid efter min/km, så jeg har omregnet det hele til vestlige, metriske værdier i denne beregner.
+
+I denne beregner kan du udregne forskellige hastigheder, som du kan bruge i din træning alt efter, hvilket tempo du skal løbe i. Du skal først have løbet en _Magic Mile_. Baseret på din sluttid kan du udregne, hvilket tempo du skal bruge på forskellige distancer.
+
+/galloway-metoden/
 
 ## Pace beregnere
 
