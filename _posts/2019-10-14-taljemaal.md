@@ -4,8 +4,8 @@ excerpt: "Taljemål, livvidde og hoftemål er en enkel måde at sige noget om fe
 permalink: /taljemaal/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1591384640699-9a85bd036da2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=60
-  teaser: https://images.unsplash.com/photo-1591384640699-9a85bd036da2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60
+  overlay_image: https://images.unsplash.com/photo-1591384640699-9a85bd036da2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1591384640699-9a85bd036da2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: "Taljemål, livvidde, hoftemål og højdemål og talje-hofte-ratioen."
 category:
   - Test

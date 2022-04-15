@@ -1,13 +1,13 @@
 ---
-title: "Opvarmning før løb"
+title: "Opvarmning før løb: 7 øvelser og tips her"
 seo_title: "Opvarmning før løb: 7 øvelser og tips her"
 permalink: /opvarmning-loeb/
-excerpt: "Opvarmning før løb er en rigtig god ide. Her kan du lære mere om forskelige faser i opvarmningen og gode opvarmningsøvelser til løb, så du kan præstere bedre og undgå skader."
+excerpt: "Opvarmning før løb er en rigtig god ide. Her kan du lære mere om forskelige faser i opvarmningen og gode opvarmningsøvelser inden løb, så du kan præstere bedre og undgå skader."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1600677396650-3d071466086a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2FybXVwfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=60
-  teaser: https://images.unsplash.com/photo-1600677396650-3d071466086a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2FybXVwfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60
-  caption: "Opvarmning før løb"
+  overlay_image: https://images.unsplash.com/photo-1600677396650-3d071466086a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2FybXVwfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1600677396650-3d071466086a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2FybXVwfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
+  caption: "Opvarmning inden løb forbedrer præstationen og mindsker risikoen for skader"
 category:
   - Løb
 tags:
@@ -26,7 +26,7 @@ Vi har skrevet en mere [generel gennemgang af opvarmning](/opvarmning/) og en sp
 
 Men lad os først dykke ned i, hvorfor du skal varme op før løb? Og dernæst kigger vi på nogle konkret forslag til et opvarmningsprogram til løb.
 
-## Hvorfor skal man lave opvarmning?
+## Hvorfor skal man lave opvarmning før løb?
 
 Der er flere gode grunde til at varme op inden din løbeaktivitet. Noget af opvarmningen kan naturligvis være at løbe lidt langsomt, men det er også rigtig godt at implementere andre bevægelsestyper.
 
@@ -37,7 +37,7 @@ Lad os først kigge på, hvorfor du skal varme op. Der er både fysiologiske og 
 3. Kroppens mobilitet og stabilitet forberes
 4. Hormonproduktionen understøtter energiforbrændingen
 
-## Tre faser i opvarmningen
+## Tre faser i opvarmningen til løb
 
 Som vi har gennemgået i vores generelle indføring i opvarmning, så kan det betale sig at dele opvarmningen op i tre faser. Det gælder også opvarmningen til løb.
 

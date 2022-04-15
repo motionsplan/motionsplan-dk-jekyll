@@ -1,5 +1,5 @@
 ---
-title: &title "Løbeberegnere"
+title: &title "Løbeberegnere: Beregn din "
 permalink: /loebeberegnere/
 language: da
 header:
@@ -14,7 +14,7 @@ feature_row_feature:
   - image_path: https://images.unsplash.com/photo-1529795533870-ea8020391255?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
     alt: "Løbesidens Løbsberegner"
     title: "Løbeberegner"
-    excerpt: "Jeg har lavet en løbeberegner baseret, der kan beregne dit træningstempo og konkurrencetider ud fra Jack Daniels Running Formula. Her kan du også læse om forskellige træningsmetoder."
+    excerpt: "Jeg har lavet en løbeberegner, der kan beregne dit træningstempo og konkurrencetider ud fra Jack Daniels Running Formula. Her kan du også læse om forskellige træningsmetoder."
     url: "/loebesiden-jack-daniels-loebeberegner/"
     btn_label: "Brug løbsberegneren"
     btn_class: "btn--info"
@@ -29,6 +29,29 @@ Her kan du finde alle vores løbeberegnere. Vi har både beregnere til hastighed
 {% comment %}
 
 
+pace beregner
+løbehastighed
+beregn løbetid
+løb hastighed
+beregn løbehastighed
+løbe hastighed
+beregn pace
+
+løbetider
+løbsberegner
+løbeberegner
+løbetider beregner
+beregn løbetid
+beregn løbetider
+løbetid beregner
+pace beregner
+
+
+km i timen
+hastigheds beregner
+
+
+
 Beregn dine løbetider og -tempi
 Beregn hastighed i km/t og min/km
 Løb hastighedsberegner. Beregn pace
@@ -37,6 +60,11 @@ Løb hastighedsberegner. Beregn pace
 
 ## 1. Jack Daniels løbeberegner
 
+Ved at indtaste aktuelle konkurrencetider ind i løbeberegneren kan du finde dine løbetider for forskellige distancer. Du får også et bud på, hvilket tempo du bør træne efter i forskellige træningszoner og træningsmetoder.
+
+Jack Daniels Running Formula tager udgangspunkt i statistikker over andre løbere og er efterhånden meget udbredt til at udregne træningstempo og konkurrencetider. Inden Jack Daniels lavede sin løbeberegner, så var [Pete Riegels formel]({% link _posts/2020-08-01-riegels-loebeberegner.md %}) til at udregne konkurrencetider til løb meget udbredt, men den er blevet overhalet af Jack Daniels beregninger.
+
+Du kan bruge Jack Daniels [løbsberegner](/loebesiden-jack-daniels-loebeberegner/) her.
 
 ## 3. Billat intervaller
 

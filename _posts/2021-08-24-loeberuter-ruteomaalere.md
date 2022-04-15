@@ -5,8 +5,8 @@ permalink: /ruteopmaaler-loebetur/
 excerpt: "Når du sidder derhjemme og planlægger en løbetur, så kan det være rart at have en mulighed for at måle ruten op på forhånd. Det kan du bruge en af de gratis online ruteplanlæggere til. Vi kigger her på nogle gode gratis alternativer til Iforms ruteplanner."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1587587448924-b5a1db520d29?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHJ1bm5lcnxlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=60
-  teaser: https://images.unsplash.com/photo-1587587448924-b5a1db520d29?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHJ1bm5lcnxlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60
+  overlay_image: https://images.unsplash.com/photo-1587587448924-b5a1db520d29?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHJ1bm5lcnxlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1587587448924-b5a1db520d29?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHJ1bm5lcnxlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Løb
@@ -32,13 +32,13 @@ Den bedste rutemåler skal kunne forskellige ting. Jeg har kigget på de vigtigs
 
 Hvis du synes ruteomålere er interessante, så synes du måske også nogle af vores andre [løbeværktøjer og beregnere til løb](/loebesiden/) er brugbare.
 
-## iForms ruteplanner
+## 1. iForms ruteplanner
 
-iForm er bl.a. kendt for deres ruteplanner, som mange bruger. iForms ruteplanlægger er gennemført og meget brugbar. Designet er godt, og den er lige til at gå til.
+iForm er bl.a. kendt for deres ruteplanner, som mange bruger. [iForms ruteplanlægger](https://ruteplanner.iform.dk/){: rel="nofollow noopener" } er gennemført og meget brugbar. Designet er godt, og den er lige til at gå til.
 
-**Desværre skal man være logget ind for at bruge ruteplanlæggeren**, så den er desværre ikke gratis.
+**Desværre skal man være logget ind for at bruge ruteplanlæggeren**, så iForms rutepanner er desværre ikke gratis.
 
-## Loeberute.dk ruteopmåler
+## 2. Loeberute.dk ruteopmåler
 
 [Loeberute.dk](https://loeberute.dk/) har lavet et rigtig godt værktøj. Her kan du nåde opmåle og tegne dine egne løberuter. Du kan også oprette en profil, så du kan gemme dine ruter. Endelig kan du søge på de andre brugeres ruter og blive inspireret.
 
@@ -50,7 +50,7 @@ Alt i alt et fint standard værktøj til opmåling af løberute. Du kan tegne di
 
 {% include figure image_path="/assets/images/blog/ruteplanner-loeberute.png" caption="Her kan du se interfacet for loeberute.dk. Det er **gratis** at oprette en profil, men du kan også bruge værktøjet uden at logge ind." alt="loeberute.dk screenshot løbeplanlægning" %}
 
-## Garmin Connect og ruteplanlægning
+## 3. Garmin Connect og ruteplanlægning
 
 På Garmin Connect kan du **gratis** lave ruteplanlægning og finde løberuter. Der er et kæmpe community bag, så du kan også lade dig inspirere af andre løbere.
 
@@ -80,6 +80,32 @@ Dette værktøj kan det hele. Lad os kigge på det her.
 
 Garmin Connect er min favorit. Ruteopmåleren kan det hele, og den er let at bruge. Det eneste minus er, at du skal oprette en bruger for at bruge den.
 
+## 4. Plotaroute
+
+[plotaroute.com](https://www.plotaroute.com/) er en gratis verdensomspændende online ruteplanlægger til gang, løb og cykling. Sitet gør det enkelt præcist at planlægge, måle og dele ruter, samtidig med at det tilbyder nogle unikke og avancerede funktioner.
+
+{% include figure image_path="/assets/images/blog/ruteplanner-plotaroute.png" caption="På Plotaroute kan ud ganske gratis oprette en profil. Der er et utal af værktøjer i den gratis version, som gør brugen af Plotaroute til en virklig god oplevelse til ruteplanlægningen." alt="plotaroute løbeplanlægning" %}
+
+Plotaroute er den bedste ruteplanlægger til løb, jeg er stødt på. Den har virkelig mange avancerede features, og man kan se selv de mindste stier på sitet. Det er let at eksportere GPS-tracket, og importere det i fx Garmin Connect.
+
+## 5. Vandreplanen.dk
+
+[Kim Clausen](https://www.facebook.com/groups/980607715800432) har lanceret [vandreplanen.dk](https://vandreplanen.dk/), som ser ud til at kunne blive et glimrende værktøj til ruteplanlægning. Du kan både bruge værktøjet til løbeture, men det er særligt målrettet mod vandrere, som typisk har følgende spørgsmål:
+
+- Hvor kan og må jeg sove?
+- Hvor kan jeg få drikkevand?
+- Hvad er mulighederne for at proviantere langs ruten?
+- Hvad er en god og flot rute?
+- Hvor er der toiletter?
+
+Ofte skal man balancere forskellige hjemmesider for at få svar på alle spørgsmålene, når man planlægger en vandretur i Danmark. Vandreplanen.dk er et forsøg på at samle informationerne i en løsning. 
+
+Vandreplanen er baseret på [OpenStreetMaps.org](http://openstreetmaps.org/). OpenStreetMaps.org indeholder det grundlægende kortmateriel, og frivillige indtegner faciliteter.
+
+På Vandreplanen.dk kan du få vist faciliteter på kortet. Du kan eksportere den indtegnede rute som en GPX-fil, som du kan eksportere. Jeg synes det var lidt besværligt at finde ud af nøjagtig, hvordan jeg sletter Waypoints igen, som jeg ikke skulle bruge alligevel, men jeg skal sikkert bare øve mig lidt.
+
 ## Konklusion
+
+Jeg bruger altid selv Garmin Connect, hvis jeg skal lave en relativ enkel rute. Hvis jeg skal lave en lidt mere avanceret rute, hvor jeg har brug for at se de mindste stier, så er Plotaroute helt genial.
 
 Hvad er dine erfaringer med ruteopmålere til løbetræning?

@@ -63,7 +63,7 @@ sidebar:
 
 ## Hvordan bliver du en bedre løber?
 
-Hvis du gerne vil være en bedre løber, så er der flere forskellige parametre, du kan arbejde for. Hvad du har brug for at arbejde med kommer naturligvis an på, hvad dine mål som løber er.
+Hvis du gerne vil være en bedre løber, så er der flere forskellige parametre, du kan arbejde for. Hvad du har brug for at arbejde med kommer naturligvis an på, hvad dine mål som løber er. Husk altid [opvarmning før løb](/opvarmning-loeb/).
 
 {% include feature_row id="feature_row_better_runner" type="left" %}
 
@@ -118,11 +118,6 @@ starte med at løbe
 intervaltræning løb
 interval løbetræning
 interval løbeprogram
-
-## Opvarmning til løb
-
-opvarmning før løb
-opvarmning løb
 
 {% endcomment %}
 
