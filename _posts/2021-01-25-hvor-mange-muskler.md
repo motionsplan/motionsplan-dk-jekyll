@@ -6,8 +6,8 @@ last_modified_at: 2021-01-18T09:41:09Z
 author: lsolesen
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1539812278296-26c236ed98f4?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDR8fGFuYXRvbXl8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=60
-  teaser: https://images.unsplash.com/photo-1539812278296-26c236ed98f4?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDR8fGFuYXRvbXl8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60
+  overlay_image: https://images.unsplash.com/photo-1539812278296-26c236ed98f4?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDR8fGFuYXRvbXl8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1539812278296-26c236ed98f4?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDR8fGFuYXRvbXl8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Anatomi
@@ -93,4 +93,4 @@ Men hvis du kun tæller skeletmuskulaturen med, så er der omkring 700 muskler. 
 
 Jeg har skrevet mere om, hvordan [muskler trækker sig sammen]({% link _posts/2020-06-06-muskelsammentraekning.md %}) og jeg har også lavet en [muskeloversigt]({% link _pages/anatomy/muscles.md %}), hvor du kan se de mest nødvendige muskler i forhold til træning.
 
-Hvis du leder efter, hvor mange [knogle menneskekroppen har]({% link _posts/2020-05-31-hvor-mange-knogler-har-mennesket.md %}), så har jeg også skrevet om det.
+Hvis du leder efter, hvor mange [knogler menneskekroppen har]({% link _posts/2020-05-31-hvor-mange-knogler-har-mennesket.md %}), så har jeg også skrevet om det.

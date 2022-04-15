@@ -25,7 +25,7 @@ feature_row:
     btn_label: "Tjek prisen"
     btn_class: "btn--info"
     rel: sponsored nofollow noopener
-  - image_path: https://cdn6.tales.dk/00001/70394/cover.1622156561.jpg
+  - image_path: https://cdn7.tales.dk/products/00138/11242/loeb-som-eliten-bliv-hurtigere-paa-5-km-10-km-halvmaraton-og-maraton-med-hechmann-metoden.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/loeb-som-eliten_claus-hechmann_9788702160390
     title: "Løb som eliten"
     excerpt: "Claus Hechmanns bog LØB SOM ELITEN er handler om, hvordan du skal træne for at blive en hurtigere løber og få mest muligt ud af dit potentiale. Bogen indeholder fem specialdesignede 12-ugers programmer til distancerne 5 km, 10 km og helt op til maraton."
@@ -47,11 +47,21 @@ I denne løbsberegner kan du beregne dit træningstempo og konkurrencetider ud f
 
 Enhver løbeside med respekt for sig selv skal naturligvis have en løbeberegner.
 
-Den avancerede løbsberegner er fra [Jack Daniels Running Formula](https://runsmartproject.com/calculator/), og den kan udregne træningstider til din løbetræning og konkurrencetider. Jack Daniels har beskrevet det i sin bog [Running Formula](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/daniels-running-formula_jack-daniels_9781450431835){: rel='sponsored nofollow noopener' }.
+Den avancerede løbsberegner er fra Jack Daniels Running Formula, og den kan udregne træningstider til din løbetræning og konkurrencetider. Jack Daniels har beskrevet det i sin bog [Running Formula](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/daniels-running-formula_jack-daniels_9781450431835){: rel='sponsored nofollow noopener' }.
 
 Ved at indtaste aktuelle konkurrencetider ind i løbeberegneren kan du finde dine løbetider for forskellige distancer. Du får også et bud på, hvilket tempo du bør træne efter i forskellige træningszoner og træningsmetoder.
 
-Jack Daniels Running Formula tager udgangspunkt i statistikker over andre løbere og er efterhånden meget udbredt til at udregne træningstempo og konkurrencetider. Inden Jack Daniels lavede sin løbeberegner, så var [Pete Riegels formel til at udregne konkurrencetider til løb]({% link _posts/2020-08-01-riegels-loebeberegner.md %}) meget udbredt, men den er blevet overhalet af Jack Daniels beregninger.
+Jack Daniels Running Formula tager udgangspunkt i statistikker over andre løbere og er efterhånden meget udbredt til at udregne træningstempo og konkurrencetider. Inden Jack Daniels lavede sin løbeberegner, så var [Pete Riegels formel]({% link _posts/2020-08-01-riegels-loebeberegner.md %}) til at udregne konkurrencetider til løb meget udbredt, men den er blevet overhalet af Jack Daniels beregninger.
+
+## Jack Daniels løbeberegner
+
+Her kan du bruge Jack Daniels beregner. Husk at læse videre bagefter for at få grundige forklaringer på, hvad de forskellige løbehastigheder begyder efterfølgende.
+
+{% include calculate-jack-daniels.html %}
+
+Jeg har lavet en anden beregner, der hurtigt kan hjælpe dig med at udregne, [hvor langt du skal løbe i dit tidsinterval]({% link _posts/2021-03-28-hvor-langt-pr-interval.md %}), som du kan bruge, når du kender dit tempo?
+
+Jeg har også lavet en beregner, hvor du kan [omregne dine løbehastighed fra pace i min/km til km/t](/hastighed/).
 
 ## Om Løbesidens løbsberegner
 
@@ -69,11 +79,11 @@ Formålet med beregneren er dels at udregne træningstider til din løbetræning
 
 De **konkurrencetider** du udregner i beregneren er et udtryk for de bedst muligt tider, du kan løbe.
 
-**Nybegyndere kan have svært ved at konvertere de kortere distancer udregnet i løbeberegneren til maratontider**, da det vanskeligt at løbe optimalt over så lang en distance for nybegyndere. [Løbesiden](https://loebesiden.dk/beregninger/) foreslår at man lægger 10-20 minuttter oven i den udregnede sluttid for de lange distancer, hvis du er begynder.
+**Nybegyndere kan have svært ved at konvertere de kortere distancer udregnet i løbeberegneren til maratontider**, da det vanskeligt at løbe optimalt over så lang en distance for nybegyndere. For begyndere kan man overveje at lægge 10-20 minuttter oven i den udregnede sluttid for de lange distancer.
 
 **Erfarne løbere** skal også følge et løbeprogram for at kunne løbe op mod konkurrencetiderne fra beregneren.
 
-## Hvordan bruger jeg løbsberegneren til at udregne tempo?
+## Hvordan bruger jeg løbsberegneren til at udregne løbetempo?
 
 Du kan lære lidt mere om de forskellige løbetempi fra Jack Daniels selv i denne video:
 
@@ -81,12 +91,6 @@ Du kan lære lidt mere om de forskellige løbetempi fra Jack Daniels selv i denn
 
 **Husk**: Du skal kun indtaste tider ind i beregneren, som du rent faktisk har løbet. Hvis du taster tider ind, du godt kunne tænke dig at løbe, så bliver træningstiderne for hurtigere, og du ender med risiko for overbelastning og skader.
 {: .notice .notice--info }
-
-{% include calculate-jack-daniels.html %}
-
-Jeg har lavet en anden beregner, der hurtigt kan hjælpe dig med at udregne, [hvor langt du skal løbe i dit tidsinterval]({% link _posts/2021-03-28-hvor-langt-pr-interval.md %})?
-
-Jeg har også lavet en beregner, hvor du kan [omregne dine løbehastighed fra pace i min/km til km/t](/hastighed/).
 
 ## Tabel over løbetempo fra Jack Daniels Løbsberegner
 
