@@ -34,7 +34,7 @@ Du kan bruge en kalorieberegner til at estimere, hvor mange kalorier du har brug
 
 Alle kalorieberegnere er naturligvis baseret på et gennemsnitligt kaloriebehov for et gennemsnitligt menneske. Der findes mange beregnere, hvor du kan beregne dit kalorieindtag. Kalorieberegningen kan give dig en ide om, hvor meget energi du skal spise om dagen.
 
-Kært barn har mange navne. Man kalder ofte en beregner til kalorier for [ligevægtsindtag beregner](/beregner/ligevaegtsindtag/). En ligevægtsberegner kan nemlig beregne [dit samlede daglige energiforbrug og energibehov]({% link _posts/2019-11-01-stofskifteberegner-nordic-2012.md %}).
+Kært barn har mange navne. Man kalder ofte en beregner til kalorier for [ligevægtsindtag beregner](/ligevaegtsindtag-beregner/). En ligevægtsberegner kan nemlig beregne [dit samlede daglige energiforbrug og energibehov]({% link _posts/2019-11-01-stofskifteberegner-nordic-2012.md %}).
 
 Disse kalorieberegnere er baseret på [generelle formler for hvilestofskiftet og basalstofskiftet]({% link _posts/2019-11-01-stofskifteberegner-simpel.md %}). Jeg har også lavet en ret [avanceret beregner til dit stofskifte og daglige forbrænding]({% link _posts/2019-11-01-stofskifteberegner-avanceret.md %}) på baggrund af detaljeret aktivitetsniveauet.
 
