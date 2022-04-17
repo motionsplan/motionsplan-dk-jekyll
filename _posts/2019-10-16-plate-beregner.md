@@ -1,20 +1,17 @@
 ---
 title: "Udregn skiver på vægtstangen"
-permalink: /plate/
-redirect_from:
-  - rm
+permalink: /skiver/
 excerpt: "Udregn hvordan du skal sætte skiver på vægtstangen."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1526401485004-46910ecc8e51?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80
   teaser: https://images.unsplash.com/photo-1526401485004-46910ecc8e51?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80
-  caption: Photo by Victor Freitas on Unsplash
+  alt: Photo by Victor Freitas on Unsplash
 category:
+  - Styrketræning
   - Beregnere
-  - Test
 tags:
   - styrketræning
-  - beregnere
+  - beregner
 last_modified_at: 2019-03-06T23:14:14Z
 toc: true
 classes: wide
@@ -27,6 +24,10 @@ feature_row:
     btn_label: "Læs mere"
     btn_class: "btn--success"
 ---
+
+Når du skal have vægtskiver på vægtstangen i styrketræning, så kan det sommetider godt blive lidt forvirrende, hvordan de skal fordeles.
+
+Derfor har jeg lavet denne beregner. Den kræver naturligvis først og fremmest, at du ved [hvor meget vægt der skal på stangen](/hvor-meget-vaegt-paa-stangen/). Når du ved det, så gælder det om at få valgt de rigtige vægtskiver.
 
 {% include calculate-plate-rack.html %}
 
