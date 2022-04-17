@@ -83,7 +83,7 @@ Det kan du gøre på flere forskellige måder, og du kan springe direkte til en 
 
 ## Løbetests
 
-Hvis du godt kan lide at løbe, så kan det være en god ide en gang imellem at lave en løbetest, så du kan se, hvordan det går med træningen.
+Hvis du godt kan lide at løbe, så kan det være en god ide en gang imellem at lave en [løbetest](/loebetests/), så du kan se, hvordan det går med træningen.
 
 {% assign site_posts = site.posts | where: "tags", "test" | where: "tags", "løbetest" | sort: "date" %}
 

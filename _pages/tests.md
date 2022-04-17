@@ -3,7 +3,7 @@ layout: single
 toc: true
 permalink: /tests/
 excerpt: "Oversigt over alle fysiske fitness tests til gang, løb, cykling, styrketræning, balance, smidighed og roning og træning"
-title: &title "Alle tests"
+title: &title "Alle fysiske og fysiologiske tests"
 seo_title: "Fysiske og fysiologiske tests til fitness og træning | Motionsplan"
 author_profile: true
 header:

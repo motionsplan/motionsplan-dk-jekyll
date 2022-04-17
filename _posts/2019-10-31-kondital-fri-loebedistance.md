@@ -10,6 +10,7 @@ header:
   caption: *title
 category:
   - Kondition
+  - Løb
 tags:
   - konditionstest
   - løb
