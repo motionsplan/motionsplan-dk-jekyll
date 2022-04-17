@@ -25,7 +25,7 @@ feature_row_feature:
 # Hvilken løbetest skal jeg vælge?
 ---
 
-Hvis du er på udkig efter gode løbeblogs, som kan inspirere dig til at komme afsted på en løbetur, så er du kommet til det rigtige sted. Motionsplan er god dansk løbeblog, der kan give dig inspiration til din træning!
+Hvis du er på udkig efter gode løbeblogs, som kan inspirere dig til at komme afsted på en løbetur, så er du kommet til det rigtige sted. Motionsplan er en dansk løbeblog, der kan give dig inspiration til din træning, men der findes også mange andre gode blogs om løb!
 
 I øjeblikket findes der ikke så mange gode danske løbeblogs. Hvis du kender nogle blogs som burde komme på listen, så skriv endelig.
 
