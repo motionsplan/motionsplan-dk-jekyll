@@ -1,6 +1,6 @@
 ---
 title: &title "Løbeblogs til inspiration"
-seo_title: "5 inspirerende løbeblogs til inspiration"
+seo_title: "Inspirerende løbeblogs til inspiration"
 permalink: /loebeblogs/
 language: da
 header:
