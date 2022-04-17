@@ -21,14 +21,14 @@ motionsplan.Strength = function(weight, body_weight) {
   }
   
   function getNuckolsIndex() {
-    var a, b;
-    var w = weight;
-    var bw = body_weight;
+    let a, b;
+    let w = weight;
+    let bw = body_weight;
     
     return 100*w/(a*Math.pow(bw, 2)+b*bw);
   }
 
-  var publicAPI = {
+  let publicAPI = {
     getIndex100 : getIndex100,
     getAllometricScaling : getAllometricScaling,
     getBodyweightPercent : getBodyweightPercent
