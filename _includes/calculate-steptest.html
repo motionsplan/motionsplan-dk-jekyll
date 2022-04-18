@@ -51,36 +51,33 @@
     }
 </script>
 
-<form onsubmit="return go(this); return false;">
-    <table>
-        <tr>
-            <td bgcolor="#003366" width="365" height="7" valign="middle">
-                Skema til indtastning
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Puls pr. minut: <input type="text" name="t1" size="20">
-            </td>
-            <td>
-                Mand eller Kvinde:<br> Kvinde <input type="radio" name="t3" value="kvinde" CHECKED> Mand <input type="radio" name="t3" value="mand">
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Alder i hele år:
-                <input type="text" name="t2" size="20">
+<form onsubmit="go(this); return false;" class="calculator" id="calculator_aastrand_steptest">
+    <fieldset>
+        <legend>Åstrands steptest. Skema til indtastning.</legend>
+        <div class="form-group">
+            <label>Puls pr. minut
+                <input type="number" name="t1" size="20" min="0" max="300" required>
+            </label>
+        </div>
+        <div class="form-group">
+            Køn:
+            
+            <label>Kvinde <input type="radio" name="t3" value="kvinde" checked required></label>
+            <label>Mand <input type="radio" name="t3" value="mand"></label>
+        </div>
+        <div class="form-group">
+            <label>
+                Alder i hele år
+                <input type="number" name="t2" size="20" min="0" max="200" required>
                 <input type=hidden name="postback" value="true">
-            </td>
-            <td>
-                Vægt i hele kg:
-                <input type="text" name="t4" size="20">
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <input type="submit" value="Udregn">
-            </td>
-        </tr>
-    </table>
-</form>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>
+                Vægt i hele kg
+                <input type="number" min="0" max="400" required name="t4" size="20">
+            </label>
+        </div>
+        <input type="submit" value="Udregn">
+    </fieldset>
+ </form>
