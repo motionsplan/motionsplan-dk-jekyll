@@ -1,7 +1,7 @@
 ---
 title: &title "Beregn dit ligevægtsindtag med vores ligevægtsberegner ⚖️"
 seo_title: "Beregn dit ligevægtsindtag i vores gratis beregner [2022]"
-description: "Beregn ligevægtsindtag i fores enkle beregner ✓ Udregn GRATIS dit ligevægtsindtag få et estimat på, hvor mange kalorier du skal indtage, fx på en kostplan."
+description: "Beregn ligevægtsindtag i fores enkle beregner. Udregn GRATIS dit ligevægtsindtag få et estimat på, hvor mange kalorier du skal indtage, fx på en kostplan."
 permalink: /ligevaegtsindtag-beregner/
 redirect_from:
   - /ligevaegtsindtag/

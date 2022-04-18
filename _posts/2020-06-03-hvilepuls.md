@@ -1,7 +1,7 @@
 ---
 title: &title "Hvilepuls: Hvad er hvilepulsen og hvordan måles den? 💓"
 seo_title: "Hvilepuls - Tabel for mænd og kvinder"
-description: "Alt du skal vide om hvilepuls? ✓ Tabel for mænd og kvinder over en normal puls ✓ Hvordan måler du hvilepulsen? ✓ Følg effekten af din træning!"
+description: "Få alt at vide om hvilepuls og hvordan du måler den. Komplet med en tabel for mænd og kvinder over en normal puls."
 permalink: /hvilepuls/
 language: da
 header:
