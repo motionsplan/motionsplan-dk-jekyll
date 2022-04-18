@@ -26,6 +26,8 @@ Hvad er det åbne vindue? **Det åbne vindue eller anabolic window er et populæ
 
 Det åbne vindue har i mange år været brugt meget, når man skulle rådgive omkring kost og ernæring i forhold til idræt. Rationalet har været, at jo hurtigere du tanker op efter træning, jo hurtigere restituerer du. Fornemmelsen har næsten også været, at hvis ikke du fik protein umiddelbart efter træning, så var der ingen gains.
 
+Derfor kan det **åbne vindue være en blandt [flere strategier til restitution]({% link _posts/2020-05-28-restitutionstid-alder.md %}).
+
 Der er ingen tvivl om, at kroppen under træning bruger kulhydrat, som efterfølgende skal bygges op ved at få tilført nyt kulhydrat til musklerne. Der er heller ingen tvivl om, at træning skaber mikroskopiske skader i muskelvævet, og at kroppen gerne vil respondere på træningen ved at genopbygge musklerne og vævet.
 
 Men hvordan skal man forholde sig til kosten i forbindelse med dette? Du skal sørge for at få nok at spise, så kroppen har nok kulhydrat og protein at bruge.
@@ -133,20 +135,6 @@ Jeg kan dog lige nu ikke finde studiet eller referencen, så brug meget gerne ko
 Man skal nok ikke opfatte vinduet så snævert som man har gjort i nogle år. Der er et vindue, men det lukker ikke brat i efter et præcist tidsrum.
 
 Sørg for at få nok protein at spise omkring din træning, og det er også vigtigt at få genopfyldt glykogendepoterne. Hvis du har brug for hurtigt at få genopfyldt glykogendepoterne, så kan det måske betale sig at kigge lidt på det glykæmiske index.
-
-## Læs flere artikler om restitution
-
-<div class="feature__wrapper">
-
-{% assign site_posts = site.posts | where: "tags", "restitution" | sort: "last_modified_at" | reverse %}
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
 
 ## Referencer om det åbne vindue
 

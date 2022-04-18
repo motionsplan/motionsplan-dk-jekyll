@@ -56,7 +56,7 @@ Man har i mange år brugt kompressionstøj som behandling af folk med dårligt b
 
 Flere og flere trænende håber at shorts, tights, kompressionsstrømper og fuldkropsdragte kan hjælpe på muskelpræstationen, lodret hoppehøjde, muskeltræthed, gentagne sprint præstationer, restitution og nedsat muskelømhed.
 
-Jeg vil i dette indlæg primært koncentrere mig om **kompressionsstrømper** og effekten af dem på restitution og præstation - og hvilke bivirkninger der er.
+Jeg vil i dette indlæg primært koncentrere mig om **kompressionsstrømper** og se på effekten af dem i forhold til [restitution]({% link _posts/2020-05-28-restitutionstid-alder.md %}) og præstation. Samtidig kigger jeg på hvilke bivirkninger brugen af strømperne kan have?
 
 Hvad er kompressionsstrømper? **Kompressionsstrømper sælges både med og uden dokumenteret medicinsk effekt. Når man taler om kompressionsstrømper til løb og cykling, så har de typisk _ikke_ medicinsk testede med dokumenteret effekt.**
 
@@ -200,20 +200,6 @@ Vi glæder os til at se mere forskning om kompressionsstrømper, og hvis du kan 
 ## Køb kompressionsstrømper
 
 {% include feature_row type="left" %}
-
-## Læs flere artikler om restitution
-
-<div class="feature__wrapper">
-
-{% assign site_posts = site.posts | where: "tags", "restitution" | sort: "last_modified_at" | reverse %}
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
 
 ## Referencer om kompressionsstrømper
 
