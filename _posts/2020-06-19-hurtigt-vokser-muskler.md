@@ -17,6 +17,8 @@ tags:
   - træningslære
 last_modified_at: 2020-06-11T08:14:14Z
 toc: true
+#Hvor lang tid tager det at bygge muskler op?
+#Hvor hurtigt kan man bygge muskler op?
 ---
 
 Jeg bliver ofte spurgt om, hvor hurtigt muskler vokser, og hvornår man kan se resultater. Hvor meget muskelmasse kan man egentlig tage på om året med styrketræning?
@@ -86,6 +88,8 @@ Hvis du stopper med at træne, så vil en del af muskelstørrelsen, muskeltykkel
 
 Allerede efter en pause på nogle uger vil der ske atrofi i muskelfibrene. Taaffe og Marcus (1997) målte i et forsøg med ældre mænd et øget tværsnitsareal i lårmusklen på 26% efter et 24 ugers træningsprogram. Efter tolv uger pause var tværsnitsarealet imidlertid tilbage til udgangspunktet.
 
+Læs: [Hvor hurtigt forsvinder muskler igen?]({% link _posts/2020-06-23-atrofi-hvor-hurtigt.md %})
+
 ## Hvad er den øvre grænse for muskelvækst?
 
 Det foregående giver altså en ide om, hvor hurtigt muskler vokser. Abe et al (2018) har stillet sig selv spørgsmålet: “Skeletal Muscle Mass in Human Athletes: What Is the Upper Limit?”, og de fandt frem til, at der formentlig er en øvre grænse, som hænger sammen med højden.
@@ -94,8 +98,8 @@ Abe et al (2018) undersøgte 43 atleter, som spillede amerikansk fodbold, 18 sty
 
 De endte med en meget enkelt formel til at estimere dit eget øvre potentiale for fedtfri masse (FFM) og maksimal muskelmasse.
 
-FFM<sub>max</sub> = højde (m) x højde (m) x 34
-Muskelmasse<sub>max</sub> = højde (m) x højde (m) x 17
+- FFM<sub>max</sub> = højde (m) x højde (m) x 34
+- Muskelmasse<sub>max</sub> = højde (m) x højde (m) x 17
 
 Så kan jeg hurtigt regne ud, at jeg som 1,81 cm høj i alt kan pakke lige omkring 55 kg muskler. Jeg fik for nylig lavet en [bioimpedans kropskomposition med Body]({% link _posts/2019-10-14-fedtprocent-bioimpedans-inbody-570.md %}), som fortæller mig at jeg har 40,1 kg skeletmuskelmasse. Jeg har altså potentiale til at tage 15 kg mere muskel på.
 
@@ -103,7 +107,7 @@ Jeg vil kalde mig selv letøvet i træning, fordi jeg holder lidt for mange træ
 
 David Epstein foreslår i bogen ‘The sports gene’ fra 2013, at der er en ratio på 5:1 i forhold til knoglemassen. Musklerne kan altså aldrig komme til at veje mere end 5 gange så meget som knoglemassen, hvis hans observationer er korrekte. Jeg har lavet et indlæg om, [hvor meget skelettet vejer]({% link _posts/2020-05-31-hvad-vejer-skelettet.md %}).
 
-Hvis du gerne vil lære mere om kropskomposition, og hvordan man måler det, så har jeg skrevet et [indlæg om forskellige modeller for kropskomposition]({% link _posts/2019-10-14-kropskomposition.md %}).
+Hvis du gerne vil lære mere om kropskomposition, og hvordan man måler det, så har jeg skrevet et indlæg om [forskellige modeller for kropskomposition]({% link _posts/2019-10-14-kropskomposition.md %}).
 
 ## Hvad skal der til for at få musklerne til at vokse?
 
@@ -113,7 +117,7 @@ Hvis man derimod bruger tungere vægte, fx 10RM, så er det nok at køre omkring
 
 {% include figure image_path="/assets/images/blog/dankel-low-load-vs-high-load.jpg" caption="Dankel et al (2017) viser den nødvendige belastning med forskellige intensiteter for at aktivere andelen af muskelfibre med potentiale for at skabe muskelvækst" %}
 
-Vi har skrevet mere om [hvordan muskler vokser, hvis du er interesseret]({% link _posts/2019-10-22-hvordan-vokser-muskler.md %}).
+Vi har skrevet mere om [hvordan muskler vokser]({% link _posts/2019-10-22-hvordan-vokser-muskler.md %}), hvis du er interesseret.
 
 ## Opsamling
 
@@ -122,6 +126,9 @@ Det er klart lettest at bygge muskelmasse op i starten af ens styrketræningskar
 Jeg har skrevet et andet indlæg om [fysiologiske tilpasninger, der sker ved styrketræning]({% link _posts/2020-06-19-styrketraening-fysiologisk.md %}).
 
 ## Referencer
+
+<details markdown="1">
+  <summary>Se referencer</summary>
 
 - Abe, Takashi, Samuel L. Buckner, Scott J. Dankel, Matthew B. Jessee, Kevin T. Mattocks, J. Grant Mouser, og Jeremy P. Loenneke. 2018. “Skeletal Muscle Mass in Human Athletes: What Is the Upper Limit?” American Journal of Human Biology: The Official Journal of the Human Biology Council 30 (3): e23102. <https://doi.org/10.1002/ajhb.23102>.
 - Bhasin, Shalender, Thomas W. Storer, Nancy Berman, Carlos Callegari, Brenda Clevenger, Jeffrey Phillips, Thomas J. Bunnell, Ray Tricker, Aida Shirazi, og Richard Casaburi. 1996. “The Effects of Supraphysiologic Doses of Testosterone on Muscle Size and Strength in Normal Men”. New England Journal of Medicine 335 (1): 1–7. <https://doi.org/10.1056/NEJM199607043350101>.
@@ -136,3 +143,4 @@ Jeg har skrevet et andet indlæg om [fysiologiske tilpasninger, der sker ved sty
 - Ogasawara, Riki, Tomohiro Yasuda, Naokata Ishii, og Takashi Abe. 2013. “Comparison of Muscle Hypertrophy Following 6-Month of Continuous and Periodic Strength Training”. European Journal of Applied Physiology 113 (4): 975–85. <https://doi.org/10.1007/s00421-012-2511-9>.
 - Stock, Matt S., Jacob A. Mota, Ryan N. DeFranco, Katherine A. Grue, A. Unique Jacobo, Eunhee Chung, Jordan R. Moon, Jason M. DeFreitas, og Travis W. Beck. 2017. “The Time Course of Short-Term Hypertrophy in the Absence of Eccentric Muscle Damage”. European Journal of Applied Physiology 117 (5): 989–1004. <https://doi.org/10.1007/s00421-017-3587-z>.
 - Taaffe, D. R., og R. Marcus. 1997. “Dynamic Muscle Strength Alterations to Detraining and Retraining in Elderly Men”. Clinical Physiology (Oxford, England) 17 (3): 311–24. <https://doi.org/10.1111/j.1365-2281.1997.tb00010.x>.
+</details>
