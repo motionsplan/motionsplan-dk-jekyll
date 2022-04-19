@@ -1,6 +1,6 @@
 ---
 title: "Den store indadfører"
-title: "Den store indadfører | Adductor Magnus | Muskler"
+seo_title: "Den store indadfører | Adductor Magnus | Muskler"
 functional_group:
   - Hoftestrækkere
   - Hoftens indadførere

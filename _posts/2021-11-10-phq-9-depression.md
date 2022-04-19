@@ -85,8 +85,7 @@ Jo højere scoren er i spørgeskemaet, jo flere tegn og depressive symptomer er 
 
 Flere studier har vist, at PHQ-9 er et validt og reliabelt spørgeskema til at afdække depression og symptomerne på at være deprimeret. Spørgeskemaet kan også bruges til at måle ændringer over tid - altså om man får det bedre eller værre i forhold til symptomer på depression.
 
-Du kan læse mere om spørgeskemaet på [www.apa.org](https://www.apa.org/pi/about/publications/caregivers/practice-settings/assessment/tools/patient-health
-).
+Du kan læse mere om spørgeskemaet på [www.apa.org](https://www.apa.org/pi/about/publications/caregivers/practice-settings/assessment/tools/patient-health).
 
 ## Depression test på dansk
 
