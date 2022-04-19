@@ -4,11 +4,12 @@ permalink: /kalorietaeller-apps/
 language: da
 header:
   teaser: https://images.unsplash.com/photo-1617625802912-cde586faf331?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Zml0bmVzcyUyMGFwcHxlbnwwfDB8MHx8&auto=format&fit=crop&w=400&q=5
-  caption: *title
 category:
-  - Løb
+  - Krop & Sundhed
 tags:
-  - blogs
+  - kost
+  - kalorier
+  - apps
 last_modified_at: 2022-04-12T22:21:26Z
 ---
 

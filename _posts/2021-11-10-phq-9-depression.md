@@ -14,7 +14,6 @@ tags:
   - test
   - depression
 last_modified_at: 2021-10-14T08:14:14Z
-toc: true
 faq:
   - question: "Hvad er forskellen på PHQ-2 og PHQ-9?"
     answer: "PHQ-2 er en kort udgave af PHQ-9. PHQ-2 består af de første to spørgsmål i
@@ -23,21 +22,6 @@ depression, når den er tre eller derover. Det anbefales, at patienter der får 
 efterfølgende udfylder PHQ-9"
   - question: "Hvem har udviklet PHQ-2 og PHQ-9 depressionstesten?"
     answer: "Denne depressionstest er udviklet af dr. Robert L. Spitzer, dr. Janet B.W. Williams, dr. Kurt Kroenke og kolleger med et uddannelseslegat fra Pfizer Inc."
-feature_row:
-  - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55158&htmlurl=https://tales.dk/besat-af-traening-naar-sund-motion-bliver-til-skadelig-afhaengighed_mia-beck-lichtenstein_9788777068515
-    image_path: https://cdn6.tales.dk/00002/10544/cover.20160910.jpg
-    title: "Besat af træning"
-    excerpt: "Denne bog er den første på dansk, der omhandler den overdrevne og ekstreme træningsiver, som i nogle tilfælde kan udvikle sig til en negativ afhængighedstilstand. Bogen er skrevet af Mia Beck Lichtenstein."
-    btn_class: btn--danger
-    btn_label: Læs mere
-    rel: sponsored nofollow noopener
-  - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/find-traeningsbalancen_mia-beck-lichtenstein_epub_9788771581973
-    image_path: https://imgcdn.saxo.com/_9788771581973/0x500
-    title: "Find træningsbalancen"
-    excerpt: "Er du vild med sport, at bruge kroppen, træne målrettet og konkurrere? Giver motion og idræt dig glæde og energi? Men sker det også at træningen styrer dit liv? Eller at du træner , selvom du har smerter og ved, at du burde lade være?"
-    btn_class: btn--danger
-    btn_label: Læs mere
-    rel: sponsored nofollow noopener
 ---
 
 Her er en depressionstest, som kan hjælpe dig med finde ud af, om du har tegn på at have en depression. Testen er en anerkendt test af, om du skulle være deprimeret.
@@ -121,5 +105,4 @@ Testen er oversat til dansk. Jeg har ikke kunne finde yderligere informationer o
 - Gilbody, S., Richards, D., Brealey, S., & Hewitt, C. (2007). Screening for depression in medical settings with the Patient Health Questionnaire (PHQ): A diagnostic meta-analysis. Journal of General Internal Medicine, 22(11), 1596-1602. 10.1007/s11606-007-0333-y
 - Kroenke K, Spitzer R L, Williams J B (2001). The PHQ-9: validity of a brief depression severity measure. Journal of General Internal Medicine, 16(9): 606-613.
 - Kroenke, K. & Spitzer, R.L. (2002). The PHQ-9: A new depression and diagnostic severity measure. Psychiatric Annals, 32, 509-521.
-
 </details>
