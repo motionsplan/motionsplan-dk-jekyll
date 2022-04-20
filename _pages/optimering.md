@@ -37,7 +37,7 @@ toc: true
 
 {{ page.excerpt }}
 
-Når du træner, så håber du på at du bliver bedre til det du gør, eller din krop tilpasser sig de udfordringer, du stiller den. Hvis du skal blive bedre, så skal du øve dig. Men optimering af træning handler ikke kun om selve træningen. Effektiv træning handler også om [hvordan du restituerer fra træningen]({% link _posts/2020-05-28-restitutionstid-alder.md %}), hvilke [træningsprogrammer du vælger](/traeningsprogrammer/) og hvilke [træningsøvelser](/traeningsoevelser/) du bruger.
+Når du træner, så håber du på at du bliver bedre til det du gør, eller din krop tilpasser sig de udfordringer, du stiller den. Hvis du skal blive bedre, så skal du øve dig. Men optimering af træning handler ikke kun om selve træningen. Effektiv træning handler også om [hvordan du restituerer fra træningen]({% link _posts/2020-05-28-restitution.md %}), hvilke [træningsprogrammer du vælger](/traeningsprogrammer/) og hvilke [træningsøvelser](/traeningsoevelser/) du bruger.
 
 ## Test - træn - track
 
@@ -49,7 +49,7 @@ Hvis du træner for at blive bedre til noget, så synes jeg, at det kan være me
 
 Jeg kan godt lide at træne, men jeg vil stadig gerne gøre det så effektivt som muligt, så jeg også tager højde for restitutionstiden. Hvis jeg gerne vil bygge kroppen op, skal jeg finde en balance mellem træningen og restitutionen.
 
-Læs meget mere om [restitution og restitutionstid]({% link _posts/2020-05-28-restitutionstid-alder.md %}).
+Læs meget mere om [restitution]({% link _posts/2020-05-28-restitution.md %}) og [restitutionstid](/restitutionstid/).
 
 Du kan også lade dig inspirere af alle vores indlæg om restitution her:
 
