@@ -14,7 +14,7 @@ tags:
   - kropskomposition
   - beregner
 popular: true
-last_modified_at: 2021-11-06T22:14:14Z
+last_modified_at: 2022-04-19T10:14:14Z
 faq:
   - question: "Hvad er normal BMI for børn?"
     answer: "Børn passer ikke ind i de normale BMI-skemaer. WHO har lavet skemaer, hvor du kan vurdere børns BMI. Du kan se skemaerne her på siden."
