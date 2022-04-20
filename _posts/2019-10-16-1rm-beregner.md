@@ -47,7 +47,7 @@ feature_row:
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
 faq:
-  - question: Hvad er en RM-beregner? 
+  - question: Hvad er en RM-beregner?
     answer: "En RM-beregner kan udregne _Repetition Maximum (RM)_. RM-begrebet kan først og fremmest bruges til at estimere, hvad du maksimalt kan løfte en gang ud fra vægten på et submaksimalt løft med flere gentagelser. Ud fra din 1RM kan du derefter estimere forskellige RM-vægte, som fx kan anvendes i træningsprogrammer."
   - question: Hvordan beregner man sin 1 RM?
     answer: Du kan naturligvis bruge vores RM-beregner til at beregne din egen 1RM, men du kan også selv regne det hele ud med en RM-formel. Jeg har samlet de mest populære formler til at udregne 1RM-max på denne side.
@@ -73,7 +73,7 @@ I dette indlæg får du svaret på følgende spørgsmål:
 - Udregn din 1RM max i vores RM-beregner
 - Hvad står 1 RM for og hvad betyder RM?
 
-Først får du en kort baggrund for, hvad 1RM betyder? Du kan længere nede på siden lave din egen udregning af 1RM i vores RM-beregner. Til s?ut gennemgår jeg formlerne og nogle af faldgrupperne ved at beregne 1RM-max.
+Først får du en kort baggrund for, hvad 1RM betyder? Du kan længere nede på siden lave din egen udregning af 1RM i vores RM-beregner. Til slut gennemgår jeg formlerne og nogle af faldgrupperne ved at beregne 1RM-max.
 
 ## Hvorfor er det godt at kende sin 1RM?
 

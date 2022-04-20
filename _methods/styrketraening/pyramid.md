@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Pyramide"
+seo_title: "Pyramide | Styrketræning"
 permalink: /styrketraening/pyramide/
 header:
   teaser: /assets/images/hypertrofi/pyramide-styrketraening.jpg
@@ -10,11 +11,11 @@ category:
 excerpt: ""
 tags:
   - hypertrofi
-rpe: 
-intensity: 
-time: 
-reps: 
-frequency: 
+rpe:
+intensity:
+time:
+reps:
+frequency:
 howto:
 exercises: ""
 progress:

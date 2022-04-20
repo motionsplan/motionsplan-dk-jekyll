@@ -109,7 +109,7 @@ Kommandoerne i bænkpres i en styrkeløft-konkurrence er:
 
 - **“Stangen er klar”** eller **“The Bar is Loaded!”**. Derefter har du 1 minut til at lave dit forsøg.
 - Du kan _unracke_ alene eller med en hjælper.
-- Vent på **"Start"**-kommandoen inden ud sænker baren, indtil den rører dig et sted på kroppen og ligger komplet stille.
+- Vent på **"Start"**-kommandoen inden ud sænker vægtstangen, indtil den rører dig et sted på kroppen og ligger komplet stille.
 - Vent på **"Pres"**-kommandoen. Pres vægtstangen op i helt strakte arme.
 - Vent på **"Rack"**-kommandoen.
 
