@@ -12,9 +12,8 @@ category:
   - Restitution
 tags:
   - restitution
-  - begynder
-  - løb
-last_modified_at: 2020-05-28T08:14:14Z
+  - alder
+last_modified_at: 2022-05-20T08:14:14Z
 toc: true
 ---
 
@@ -34,65 +33,64 @@ Når du bliver for ivrig i din træning, så risikerer du at føle dig træt, ik
 
 Formålet med restitutionen er at give kroppen hvile, så den kan prioritere genopbygningen. Derfor skal du have tilstrækkelig hvile mellem dine træningspas for at forbedre dig.
 
-Du kan forstå
+I træningen nedbrydes kroppen, men den genopbygger selv i restitutionsperioden, så du bliver endnu stærkere over tid. Uanset hvor gammel du er, så gælder det om at finde en balance mellem træning og hvile.
 
-***
+Restitutionstiden skal med andre ord være passende, så du hele tiden kan fortsætte din fremgang og opleve udvikling i din træning og form. Du kan forstå denne mekanisme gennenem [superkompensationsmodellen](/superkompensation/).
 
-Formålet med restitutionen er, at give kroppen hvile, så den prioriterer at opbygge og forstærke det væv, du har belastet under træning.
+Uanset hvilken alder du har, så har du brug for at gennemgå denne cyklus mellem nedbrydning og opbygning. Spørgsmålet er, om alderen har noget at sige i forhold til, hvor lang restitutionstiden bliver?
 
-Det er nemlig sådan, at du **nedbryder kroppen under træning**. Du bliver faktisk svagere ved at træne. Heldigvis genopbygger kroppen sig selv, så den bliver stærkere og mere modstandsdygtig efter træningen. **Det er i pausen mellem træningspas, at du forbedrer dig**. Derfor er en tilstrækkelig restitution mellem træningspas vigtigt for at fortsætte din udvikling.
+**Læs**: [Restitutionstid: Hvor hurtigt kan du træne igen?](/restitutionstid/)
 
-At kroppen i restitutionsfasen bygger sig stærkere end udgangsniveauet inden træningen, kan vi forstå med **superkompensationsteorien**. [Superkompensationsteorien](/superkompensation/) er en model på kroppens evne til at tilpasse sig til træning, som kan give en bedre forståelse af restitutionen.
+## Hvor lang tid tager det at restituere med alderen?
 
-Hvis restitutionen mellem dine træningspas bliver for kort, vil du starte før kroppen er blevet genopbygget. Hvis du venter for længe mellem træningspassene, så risikerer du, at du også at din krop er blevet svagere.
+Restitutionstiden afhænger af flere forskellige ting, og den er meget individuel. Ud over alderen skal du altså tage højde for genetiske forhold, din aktuelle træningstilstand, aktivitetens intensitet og hvilken aktivitet, du laver bagefter træningen. 
 
-Hvis du rammer din næste træning, når kroppen lige netop har bygget sig stærkere end udgangspunktet for forrige træning siger man, at du har ramt **superkompensationen**.
+Bishop et al. (2008) viste, at 70% af deltagerne i studiet 48 til 72 timer efter et hårdt styrketræningspas var tilbage på samme niveau som før. Det viser klar, at restitutionstid er individuelt.
 
-Superkompensation er direkte relateret til kroppens adaptationsevne. I nedenstående figur kan vi tage muskelstyrke som et eksempel. Du går i vægtlokalet og træningen bryder dig langsomt men sikkert ned. Så går du ud af vægtlokalet, og så begynder restitutionsfasen.
-
-Langsomt vil du blive stærkere indtil du er oppe på samme niveau som før træningen, men kroppen er ikke helt tilfreds endnu. Den tilpasser sig endnu mere, og du rammer superkompensationsfasen.
-
-{% include figure image_path="https://miro.medium.com/max/2702/0*usKRMQYeTe97f6cE.jpg" caption="Superkompensation foregår når kroppen genopbygger sig til et højere niveau end seneste træning" alt="Superkompensation og teori" %}
-
-Hvis du formår at få restitutionstiden til at passe, så næste træning kan ligge i superkompensationsfasen, så vil du altså langsomt og sikkert kunne opbygge en højere styrke eller bedre kondition.
-
-Kommer du for hurtigt i gang med træningen, så vil du faktisk langsomt og sikkert nedbryde kroppen indtil kroppen siger fra på den ene eller anden måde. Der er kun en ting, du kan være helt sikker på: Kroppen får det sidste ord.
-
-Det besværlige er at vide nøjagtigt, hvor lang tid man bør restituere.
-
-## Hvor lang tid tager det at restituere?
-
-Det varierer meget fra person til person, hvor lang tid det tager at restituere. Restitutionstiden afhænger primært af, hvor meget energi og med hvilken intensitet, dit træningspas har været. Du kan sagtens lave et rigtig kort træningspas, som har en stor ødelæggende effekt på musklerne og fibrene.
-
-Typisk vil længden af restitutionstiden forkortes, når du har mere træningserfaring. Men ofte kan man også træne hårdere og presse sig selv mere, når man har trænet meget.
-
-Din restitutionstid afhænger med andre ord af følgende faktorer:
-
-- Genetisk forhold
-- Aktuelle træningstilstand
-- Aktivitetens intensitet
-- Din aktivitet efter
-
-Bishop et al. (2008) viste, at hvis man venter mellem 48 til 72 timer efter et hårdt styrketræningspas, så var 70% af deltagerne i forsøgene tilbage på det samme niveau igen. Det vidner om, at nogle måske skal bruge længere tid, mens andre måske kan gøre det endnu hurtigere.
-
-## Hvad sker der med restitutionstiden med alderen?
-
-Man kunne jo håbe at ens tidligere træningserfaring have en positiv indvirkning på restitutionstiden. Desværre giver alderen ikke den fordel.
+Alderen er formentlig ikke nogen fordel i dette henseende. Rigtig mange har sikkert oplevet, at de synes, at det kan være lidt sværere at komme ovenpå efter en træning.
 
 Der har ikke været så mange studier, der har kigget på restitution og alder - og resultaterne er ikke helt konsistente.
 
-Et studium fra 2017 havde to forsøgsgrupper, der lavede lårøvelser i en maskine (simple knæstrækninger og -bøjninger). Den ene gruppe var 18-30 år, mens den anden gruppe var 40-59 år. Jeg er selv i den midaldrende gruppe, så det synes jeg var ret interessant.
+Et studium fra 2017 havde to forsøgsgrupper, der lavede lårøvelser i en maskine (simple knæstrækninger og -bøjninger). Den ene gruppe var 18-30 år, mens den anden gruppe var 40-59 år. Jeg er selv i den midaldrende gruppe, så jeg læste naturligvis studiet med ret stor interesse.
 
-Forskerne kiggede på biomarkører for muskelskade, muskeltykkelse, muskelkraft og muskelømhed. Der var ingen forskel mellem grupperne i forhold til muskelstyrken og begge grupper oplevede muskelømhed og forøget aktivitet i biomarkørerne for muskelskade.
+Forskerne kiggede på biomarkører for muskelskade, muskeltykkelse, muskelkraft og [muskelømhed](/omme-muskler-efter-traening/). Der var ingen forskel mellem grupperne i forhold til muskelstyrken og begge grupper oplevede muskelømhed og forøget aktivitet i biomarkørerne for muskelskade.
 
-Studiet indikerer, at der ikke er forskel på restitutionstiden for unge og midaldrende. Det kunne naturligvis være spændende at se et studium, hvor der var ældre med også.
+Studiet indikerer, at der ikke er forskel på restitutionstiden for unge og midaldrende. Det kunne naturligvis være spændende at se et studium, hvor der var endnu ældre deltagere med også for at se, hvad der sker efter de 60 år.
 
-Men tilsyneladende er det altså ikke min alder, der gør, at jeg synes restitutionstiden er længere end den har været.
+{% comment %}
+***
 
-## Referencer om restitution og restitutionstid
+The aim was to assess the effects of sex and age on fatigability and recovery from sustained maximal voluntary contraction (MVC) of the knee extensor muscles. The central (central activation ratio (CAR) and electrical activity amplitude) and peripheral (electrically evoked torque and muscle contractile properties) factors contributing to fatigue and recovery of 24 young adults (12 males) aged 23.2±3.6years and 20 older adults (12 males) aged 70.6±4.4years were compared. The increase in central and peripheral fatigue was greater (p⩽0.01) in the young adults vs the older adults. Sex differences (p=0.002) regarding MVC were attributed to the greater (p<0.01) peripheral fatigue of males vs females. The recovery rate of MVC was greater (p<0.001) in the young adults vs the older adults, with no sex effect. The recovery of MVC was correlated with the CAR in older adults (p=0.001). Thus, the greater endurance observed with age is caused by differences in central and peripheral mechanisms, whereas the greater endurance in females is caused by a difference in a mechanism located within the muscle. The impaired recovery from fatigue in older adults relied more on the recovery of central factors.
+
+Rima Solianik et al 2017
+
+https://pubmed.ncbi.nlm.nih.gov/28040567/
+
+
+Borges et al (2018)
+
+Background: The purpose of this study was to compare physical performance, perceptual and haematological markers of recovery in well-trained masters and young cyclists across 48 h following a bout of repeated high-intensity interval exercise.
+
+Methods: Nine masters (mean ± SD; age = 55.6 ± 5.0 years) and eight young (age = 25.9 ± 3.0 years) cyclists performed a high-intensity interval exercise session consisting of 6 × 30 s intervals at 175% peak power output with 4.5 min rest between efforts. Maximal voluntary contraction (MVC), 10 s sprint (10SST), 30-min time trial (30TT) performance, creatine kinase concentration (CK) and perceptual measures of motivation, total recovery, fatigue and muscle soreness were collected at baseline and at standardised time points across the 48 h recovery period.
+
+Results: No significant group-time interactions were observed for performance of MVC, 10SST, 30TT and CK (P > 0.05). A significant reduction in 10SST peak power was found in both masters (P = 0.002) and young (P = 0.003) cyclists at 1 h post exercise, however, both groups physically recovered at similar rates. Neither group showed significant (P > 0.05) or practically meaningful increases in CK (%∆ < 10%). A significant age-related difference was found for perceptual fatigue (P = 0.01) and analysis of effect size (ES) showed that perceptual recovery was delayed with masters cyclists reporting lower motivation (ES ±90%CI = 0.69 ± 0.77, moderate), greater fatigue (ES = 0.75 ± 0.93, moderate) and muscle soreness (ES = 0.61 ± 0.70, moderate) after 48 h of recovery.
+
+https://pubmed.ncbi.nlm.nih.gov/29843564/
+
+{% endcomment %}
+
+## Konklusion
+
+Jeg finder altså ikke opbakning i den videnskabelige litteratur på, at restitutionstiden er længere, fordi jeg er blevet ældre.
+
+Den anden årsag kan så være, at min træningstilstand har ændret sig, og jeg bliver ramt lidt hårdere af træningen, fordi min form er anderledes.
+
+Det er dog sandsynligt at restitutionen ændrer sig med alderen. Kroppen forandrer sig nemlig, som jeg bl.a. kommer ind på i indlægget om [træning af ældre og med alderen](/traening-aeldre/).
+
+## Referencer
 
 <details markdown="1">
-  <summary>Se referencer om restitution og restitutionstid</summary>
+  <summary>Se referencer</summary>
 
 - Fell, James, og Dafydd Williams. 2008. “The Effect of Aging on Skeletal-Muscle Recovery from Exercise: Possible Implications for Aging Athletes”. Journal of aging and physical activity 16 (februar): 97–115. <https://doi.org/10.1123/japa.16.1.97>.
 

@@ -58,7 +58,7 @@ Udstrækning kan både bruges før og efter træning, og det kan bruges som træ
 
 Der er mange myter om udstrækning og udstrækningsøvelser, men her får du lige et hurtigt resumé af konklusionerne i denne artikel.
 
-**Du bliver smidigere af udstrækning, den maksimale styrke kan være nedsat lige efter længerevarende statiske udstrækningsøvelser (men det har nok ikke betydning for dig) og utrænede får tilsyneladende præstationsfremgang efter længerevarende smidighedstræning. Til gengæld kan udstrækning ikke forhindre muskelømhed efter træning.**
+**Du bliver smidigere af udstrækning, den maksimale styrke kan være nedsat lige efter længerevarende statiske udstrækningsøvelser (men det har nok ikke betydning for dig) og utrænede får tilsyneladende præstationsfremgang efter længerevarende smidighedstræning. Til gengæld kan udstrækning ikke forhindre [muskelømhed](/omme-muskler-efter-traening/) efter træning.**
 
 *[DOMS]: Delayed Onset Muscle Soreness
 
@@ -374,7 +374,7 @@ I idrætsgrene hvor det gælder om at have bedre smidighed, fx gymnastik eller v
 
 ## Hvor ofte skal jeg strække ud?
 
-Udstrækning kræver ikke samme grad af restitution som styrketræning og konditionstræning. En af grundene er formentlig, at udstrækning og udspænding i høj grad træner stræktolerancen i det neuromuskulære system og ikke som styrketræning eller hårde løbepas laver mikroskader i kroppen.
+Udstrækning kræver ikke samme grad af [restitution](/restitution/) som styrketræning og konditionstræning. En af grundene er formentlig, at udstrækning og udspænding i høj grad træner stræktolerancen i det neuromuskulære system og ikke som styrketræning eller hårde løbepas laver mikroskader i kroppen.
 
 Hvor mange gange om ugen du kan lave udstrækning afhænger naturligvis af den intensitet og volumen, du bruger i din udstrækningstræning. Formentlig vil det være mest effektivt at strække ud hver eneste dag end gemme den samme volumen til at lave al udstrækning på en dag.
 

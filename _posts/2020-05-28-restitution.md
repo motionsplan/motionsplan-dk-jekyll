@@ -15,8 +15,7 @@ category:
 tags:
   - restitution
   - begynder
-  - løb
-last_modified_at: 2020-05-28T08:14:14Z
+last_modified_at: 2022-05-20T08:14:14Z
 toc: true
 ---
 
@@ -206,7 +205,7 @@ I Form anbefaler også at spise sig fri af betændelsestilstande i kroppen, som 
 
 Nedvarmning sørger for at affaldsstofferne bliver fjernet fra musklerne. Vi leder i øjeblikket efter studier, der kan dokumentere dette.
 
-Udspænding kan godt være en del af nedvarmningen, men hvis man kun har tid til den ene ting, skal man vælge nedvarmningen. I øvrigt e [udspænding et kontroversielt emne, som vi tidligere har behandlet](/udstraekning-udspaending/). I Form påstår: "Undersøgelser peger på, at du ved at strække ud et par timer efter træning kan nedsætte muskelstivhed og ømhed." Den undersøgelse vil vi gerne se, så vi kan kvalificere vores gode råd endnu mere. Er der nogen af jer, der har set den?
+Udspænding kan godt være en del af nedvarmningen, men hvis man kun har tid til den ene ting, skal man vælge nedvarmningen. I øvrigt er [udspænding og udstrækning](/udstraekning-udspaending/) et kontroversielt emne, som vi tidligere har behandlet. I Form påstår: "Undersøgelser peger på, at du ved at strække ud et par timer efter træning kan nedsætte muskelstivhed og ømhed." Den undersøgelse vil vi gerne se, så vi kan kvalificere vores gode råd endnu mere. Er der nogen af jer, der har set den?
 
 ## Brug kompressionsstrømper til din restitution
 
@@ -229,6 +228,19 @@ Vi har brug for flere studier til helt at dokumentere en effektiv restitution. K
 {% endif %}
 
 </div>
+
+##
+
+An Evidence-Based Approach for Choosing Post-exercise Recovery Techniques to Reduce Markers of Muscle Damage, Soreness, Fatigue, and Inflammation: A Systematic Review With Meta-Analysis
+Olivier Dupuy 1, Wafa Douzi 1, Dimitri Theurot 1, Laurent Bosquet 1, Benoit Dugué 1
+Affiliations expand
+PMID: 29755363 PMCID: PMC5932411 DOI: 10.3389/fphys.2018.00403
+Free PMC article
+Abstract
+Introduction: The aim of the present work was to perform a meta-analysis evaluating the impact of recovery techniques on delayed onset muscle soreness (DOMS), perceived fatigue, muscle damage, and inflammatory markers after physical exercise. Method: Three databases including PubMed, Embase, and Web-of-Science were searched using the following terms: ("recovery" or "active recovery" or "cooling" or "massage" or "compression garment" or "electrostimulation" or "stretching" or "immersion" or "cryotherapy") and ("DOMS" or "perceived fatigue" or "CK" or "CRP" or "IL-6") and ("after exercise" or "post-exercise") for randomized controlled trials, crossover trials, and repeated-measure studies. Overall, 99 studies were included. Results: Active recovery, massage, compression garments, immersion, contrast water therapy, and cryotherapy induced a small to large decrease (-2.26 < g < -0.40) in the magnitude of DOMS, while there was no change for the other methods. Massage was found to be the most powerful technique for recovering from DOMS and fatigue. In terms of muscle damage and inflammatory markers, we observed an overall moderate decrease in creatine kinase [SMD (95% CI) = -0.37 (-0.58 to -0.16), I2 = 40.15%] and overall small decreases in interleukin-6 [SMD (95% CI) = -0.36 (-0.60 to -0.12), I2 = 0%] and C-reactive protein [SMD (95% CI) = -0.38 (-0.59 to-0.14), I2 = 39%]. The most powerful techniques for reducing inflammation were massage and cold exposure. Conclusion: Massage seems to be the most effective method for reducing DOMS and perceived fatigue. Perceived fatigue can be effectively managed using compression techniques, such as compression garments, massage, or water immersion.
+
+https://pubmed.ncbi.nlm.nih.gov/29755363/
+
 
 ## Referencer om restitution og restitutionstid
 

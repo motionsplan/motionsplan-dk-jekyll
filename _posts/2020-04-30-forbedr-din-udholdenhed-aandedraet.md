@@ -78,7 +78,7 @@ Du kan købe Relaxator hos [Den Intelligente Krop](https://www.partner-ads.com/d
 
 Når du laver dybe, langsomme og rolige åndedræt, hvor du fokuserer på også at inddrage næsen i åndedrættet, så påvirker din vejrtrækning din parasympatiske nervesystem.
 
-Det **parasympatiske nervesystem** er ansvarlige for alle disse gavnlige effekter i forbindelse med afslapning og restitution.
+Det **parasympatiske nervesystem** er ansvarlige for alle disse gavnlige effekter i forbindelse med [afslapning og restitution](/restitution/).
 
 - Udskillelsen af stresshormonerne, adrenalin og kortisol, sættes i bero
 - Øget aktivitet af de beroligende alfabølger i hjernen

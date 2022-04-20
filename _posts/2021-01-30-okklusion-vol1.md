@@ -115,7 +115,7 @@ Kombinationen af tung styrketræning og okklusionstræning ser ud til at være d
 
 Okklusionstræning er helt overordnet at betragte som en sikker træningsform \[1, 15, 16\] med en meget lav incidens af alvorligt indrapporterede komplikationer \[17\]. For at minimere risikoen for komplikationer, anbefales det at screene patienter for kontraindikationer i forbindelse med okklusionstræning, at individualisere arbejdstrykket til 40-80 % af AOP, have viden om manchetplacering og manchetbreddens betydning, samt overholde maksimal okklusionstid \[16\].
 
-Selvom standardtræningsprotokollen til okklusionstræning er 30-15-15-15 repetitioner så anbefales det, at lave en indkøringsfase for at reducere graden af muskelømhed og skade, samt opnå repeated bout effect \[18\].
+Selvom standardtræningsprotokollen til okklusionstræning er 30-15-15-15 repetitioner så anbefales det, at lave en indkøringsfase for at reducere graden af [muskelømhed](/omme-muskler-efter-traening/) og skade, samt opnå repeated bout effect \[18\].
 
 Når vi i Occlude underviser på kurser og workshops så anbefaler vi nedenstående indkøringsprotokol for nye brugere af okklusionstræning. Det gør vi, udover føromtalte forbehold, fordi forskningen også har vist, at der i løbet af de første seks træningspas med okklusionstræning, sker signifikant tilvænning i selvrapporteret anstrengelse og smerte under træning \[19\]
 

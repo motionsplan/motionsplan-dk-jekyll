@@ -28,7 +28,7 @@ German Volume Training er et styrketræningsprogram for moderat trænede (for ut
 
 ## Grundstrukturen i German Volume Training
 
-Grundstrukturen i GVT er, at programmet køres over fem dage med et forskelligt fokus hver dag. Der vælges en eller to hovedøvelser (A-øvelser), som køres efter metoden. Dertil vælges to suppleringsøvelser. Programmet kræver [restitution](/restitutionstid-og-alder/), da det er meget nedbrydende for kroppen.
+Grundstrukturen i GVT er, at programmet køres over fem dage med et forskelligt fokus hver dag. Der vælges en eller to hovedøvelser (A-øvelser), som køres efter metoden. Dertil vælges to suppleringsøvelser. Programmet kræver [restitution](/restitution/), da det er meget nedbrydende for kroppen.
 
 I hovedøvelserne køres 10 sæt x 10 gentagelser. Tempoet skal være 4020. Det betyder, at du bruger 4 sekunder i den excentriske fase og to sekunder i den koncentriske fase. I fx squat betyder det, at du går ned på 4 sekunder og rejser dig op igen på to sekunder.
 
