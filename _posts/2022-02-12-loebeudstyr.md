@@ -31,7 +31,7 @@ feature_row_running_watch:
   - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=29407&htmlurl=https://www.gucca.dk/garmin-forerunner-245-wifi-12-skaerm-graa-p540021?utm_source=pa&utm_medium=cpc&utm_campaign=pa
     image_path: https://content.gucca.dk/covers/big/g/a/garmin-forerunner-245-wifi-12-skaerm-graa_540021.jpg?mod=1638346506
     title: Garmin Forerunner 245
-    excerpt: Dette GPS-smartwatch registrerer dine statistikker, behandler dine data og lærer alt om dine præstationer, din løbeform, din træning og endda dine mål. 
+    excerpt: Dette GPS-smartwatch registrerer dine statistikker, behandler dine data og lærer alt om dine præstationer, din løbeform, din træning og endda dine mål.
     btn_class: btn--info
     btn_label: Tjek prisen
     rel: sponsored nofollow noopener

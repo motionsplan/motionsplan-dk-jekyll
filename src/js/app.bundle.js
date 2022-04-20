@@ -71,7 +71,7 @@ require('image-map-resizer');
 
 $(function() {
     $('map').imageMapResize();
-    
+
     $('.rating input[name="rating"]').one('click', function () {
       console.log("Clicked star");
       let votes = Number($('#votes').text() * 1);
@@ -501,7 +501,7 @@ $(function() {
       let HM = Number($("[name='hm']").val() / 100);
 
       let bai = (HC / Math.pow(HM,1.5)) - 18;
-      
+
       $("[name='bai']").val(bai.toFixed(1));
     });
     $("#calculator_maffetone").submit(function(e) {
