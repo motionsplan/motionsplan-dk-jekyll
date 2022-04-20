@@ -1,22 +1,17 @@
 ---
 title: &title "BMI-beregner for børn, unge og teenagere"
 seo_title: "BMI beregner for børn, unge og teenagere"
-description: "BMI tabel og skema for børn, unge og teenagere ✓ Forstå detaljerne i dag om, hvordan BMI skal skal forstås og fortolkes for for børn og unge. "
+description: "BMI tabel og skema for børn, unge og teenagere. Forstå detaljerne i dag om, hvordan BMI skal skal forstås og fortolkes for for børn og unge. "
 permalink: /bmi-beregner-boern-unge-teenagere/
-excerpt: "Body Mass Index (BMI) bruges til at udregne idealvægt, men hvordan skal BMI bruges i forhold til børn, unge og teenagere. Vi har kigget på BMI skalaer og tabeller for børn, unge og teenagere."
+excerpt: "Body Mass Index (BMI) kan bruges til at udregne idealvægt, men hvordan skal BMI bruges i forhold til børn, unge og teenagere. Vi har kigget på BMI skalaer og tabeller for børn, unge og teenagere."
 language: da
 header:
-  overlay_image: https://helseboost.dk/filer/bmi-1500x960.jpg
   teaser: https://helseboost.dk/filer/bmi-1500x960.jpg
   caption: *title
 category:
   - Beregnere
-  - Test
 tags:
   - kropskomposition
-  - udregning
-  - formel
-  - featured
   - beregner
 popular: true
 last_modified_at: 2021-11-06T22:14:14Z
@@ -27,28 +22,23 @@ faq:
     answer: "Du skal vurdere teenageres BMI ud fra WHO BMI-skemaer. Men husk at børn og teenagere udvikler sig meget forskelligt."
 ---
 
-Jeg sidder og læser et glitrende magasin om sport og helse, og endnu engang ser jeg udregninger af body mass index (BMI) uden at artiklen går i dybden med, hvad en BMI-formel måler. Derfor satte jeg mig ned for at researche lidt på, hvordan BMI tabeller kan bruges for mænd, kvinder, voksne, teenagere og børn?
+Body Mass Index (BMI) bruges ofte i forhold til børn, unge og teenagere. Vi har kigget på, hvordan du skal fortolke BMI tabeller og skalaer for børn, unge og teenagere.
+
+Fordelen ved BMI er, at det er let at bruge, men et skal fortolkes anderledes for børn end for voksne. Du kan læse meget mere om BMI for voksne og ældre i vores [BMI beregner](/bmi/). 
 
 *[BMI]: Body Mass Index
 *[IOTF]: The International Obesity Task Force
 
-Hvad er BMI? **Body Mass Index (BMI) er en enkel matematisk formel for sammenhængen mellem personers højde og vægt. Formlen bruges til at vurdere undervægt, normalvægt og overvægt i større befolkningsgrupper, fordi BMI tilsyneladende har en sammenhæng med fedtprocenten. BMI bruges også ofte som test til at indikere under- og overvægt hos enkelte personer, men bør ikke bruges til præcise målinger hos individuelle.**
+Vores BMI beregner til børn bruger den originale formel, og her kan vægten sammenlignes med et _et normalt BMI for børn og unge_.
 
-Vi har lavet en beregner, hvor du udregne dit BMI baseret på den originale formel og få en vurdering af dit BMI. Ud fra beregningen kan du sammenligne dig med _et normalt BMI_ og få et bud på, hvad din idealvægt er.
+I dette indlæg får du svar på følgende spørgsmål:
 
-Fordelen ved BMI er, at det er utrolig let at bruge. Derfor bliver BMI-udregninger også brugt mange steder, men ofte uden nærmere forklaringer af, hvad BMI er. At bruge BMI på individuelt niveau er forbundet med en række forbehold, så husk at læse lidt videre.
-
-Jeg har i dette indlæg forsøgt at svare på følgende spørgsmål:
-
-- Hvad er Body Mass Index (BMI)?
-- Hvordan beregner man BMI? Hvilken formel bruges til udregning af BMI?
-- Hvilke grænseværdier er der for idealvægt ifølge BMI for voksne, teenagere og børn og mænd og kvinder?
-- Hvad er din ideelle kropsvægt ifølge BMI-udregningen?
-- Hvilke fordele og ulemper er der ved at BMI-tabeller?
+- Hvilke normer og grænseværdier er der for BMI for børn, unge og teenagere?
+- Hvilke fordele og ulemper er der ved at bruge BMI til børn?
 
 Men lad os først springe til selve beregneren.
 
-## Udregn dit BMI i vores enkle beregner
+## Beregn BMI for børn og unge
 
 {% include calculate-bmi.html children="true" %}
 
@@ -59,6 +49,7 @@ Beregneren udregner også det såkaldte Ponderal Index, som er en variant af BMI
 BMI udregnes på samme måde for børn og teenagere. Men da der sker mange forandringer med kroppens sammensætning og kropsfedtet med alderen, så skal børn og teenagere vurderes efter andre normer.
 
 Du skal altså beregne dit BMI i beregneren ovenfor, men vurdere dit BMI efter disse normer, som både tager højde for din alder og dit køn.
+
 Som barn er det nogle andre standardværdier, du skal måle dig efter.
 
 Selvom BMI ofte har været brugt til at angive grænseværdier for fedme, så skal man også være opmærksom på undervægt (Cole 2007), hvor både drenge og piger kan have overtaget idealer fra modeverden. Betegnelserne kan være _under normal_ (thinness grade 1), _undervægtig_ (thinness grade 2) og _meget undervægtig_ (thinness grade 3), og det kan ses i graferne nedenunder.
