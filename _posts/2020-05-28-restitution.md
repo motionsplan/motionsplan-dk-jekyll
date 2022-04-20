@@ -1,11 +1,7 @@
 ---
-title: &title "Restitution og restitutionstid: Hvornår kan jeg træne igen?"
-seo_title: "Restitution: Hvordan bliver jeg hurtigst klar til træning?"
+title: &title "Restitution: Hvornår kan jeg træne igen?"
 excerpt: "Jeg kan godt lide at træne, men jeg vil stadig gerne gøre det så effektivt som muligt, så jeg også tager højde for restitutionstiden. Hvis jeg gerne vil bygge kroppen op, skal jeg finde en balance mellem træningen og restitution. Defor tænker jeg over, hvordan jeg planlægger min træning i forhold til min alder."
-permalink: /restitutionstid-og-alder/
-redirect_from:
-  - /artikel/restitution-hvordan-bliver-jeg-hurtigst-klar-igen/
-  - /artikel/restition-hvordan-bliver-jeg-hurtigst-klar-igen
+permalink: /restitution/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1470777639313-60af88918203?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
