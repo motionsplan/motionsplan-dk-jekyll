@@ -35,7 +35,7 @@ blog:
         url: /kondital/
       - title: "Anaerob træning"
         url: /anaerob-traening/
-      - title: "Intervalløb og interval træning"
+      - title: "Intervalløb og intervaltræning"
         url: /intervallob-intervaltraening/
       - title: "Hvilepuls"
         url: /hvilepuls/
@@ -51,8 +51,8 @@ blog:
         url: /muskler/
       - title: "Excentrisk træning"
         url: /excentrisk-traening/
-      - title: "Kompressionsstrømper til løb og cykling"
-        url: /kompressionsstroemper-restitution-praestation-bivirkninger/
+      - title: "Restitution"
+        url: /restitution/
   - title: "Populære øvelser"
     children:
       - title: "Armstrækninger og armbøjninger"
@@ -74,7 +74,7 @@ blog:
       - title: "BMR og hvilestofskifte beregner"
         url: /bmr-beregner-hvilestofskifte-basalstofskifte/
       - title: "Ligevægtsindtag beregner"
-        url: /beregner/ligevaegtsindtag-med-ligevaegtsberegner/
+        url: /ligevaegtsindtag-beregner/
 anatomi:
   - title: "Anatomi"
     url: "/anatomi/"

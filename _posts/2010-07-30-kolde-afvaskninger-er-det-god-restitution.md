@@ -27,13 +27,13 @@ gallery:
 
 For nylig fik jeg anbefalet at spule mine ben med koldt vand efter mine løbeture for at restituere hurtigere. Nu er jeg ikke så vild med koldt vand, så jeg tog ikke min vens ord for det. Jeg gik i stedet for i gang med at researche lidt på isbade og kryoterapi i forhold til restitution.
 
-Jeg fandt hurtigt ud af, at det ikke er nok at spule sine ben med vand, men forskningen er i gang med at undersøge **kryoterapi** og **isbade** som to forskellige strategier til restitution.
+Jeg fandt hurtigt ud af, at det ikke er nok at spule sine ben med vand, men forskningen er i gang med at undersøge **kryoterapi** og **isbade** som to forskellige strategier til [restitution](/restitution/).
 
-Jeg fokuserede derfor mest i min research på at finde ud af, om isbade efter træning virker på restitutionen og om kuldepåvirkningen har betydning for effekten af træning?
+Jeg fokuserede derfor mest i min research på at finde ud af, om isbade efter træning [virker på restitutionstiden](/restitutionstid/) og om kuldepåvirkningen har betydning for effekten af træning?
 
 **Isbade efter træning viser i forskningen lidt blandede resultater. Folk der gennemgår isbade oplever mindre ømhed efter træning, men det har ikke kunnet påvises på biologiske markører. Tilsyneladende kan kryoterapi hæmme effekten af styrketræning, men formentlig godt bruges efter udholdenhedstræning.**
 
-Jeg gik på [pubmed.com](https://pubmed.com) og lavede en [videnskabelig søgning](/videnskabelig-sogning/) for at finde nogle studier, der kunne overbevise mig om, at jeg har brug for afkøling efter træning.
+Jeg lavede en [videnskabelig søgning](/videnskabelig-sogning/) for at finde nogle studier, der kunne overbevise mig om, at jeg har brug for afkøling efter træning.
 
 Det er fortsat ikke klart, hvad det videnskabelige rationale er bag at tage et koldt bad (se metastudium af Bleakley og Davison 2010), men derfor kan vi jo sagtens se på, om det virker i praksis?
 
@@ -77,7 +77,7 @@ Nyere studier fra 2015 tyder imidlertid på, at hvis man bruger isbade efter sty
 
 Et koldt bad forbedrer tilsyneladende ikke restitutionstiden, så man kan udføre en bedre præstation dagen efter. Det er dog værd at tage med, at man op til 24 timer vil føle, at man har bedre ben (Kinugasa og Kilding 2009). Det betød dog ikke noget for de enkeltes præstation, men at opleve at tingene føles lettere, er også værd at tage med.
 
-Hvis du gerne vil bruge isbade, skal du nok overveje kun at gøre det efter udholdenhedsaktiviteter, da de tilsyneladende kan hæmme din muskeltilvækst. Der findes mange andre metoder til at [forbedre din restitution og restitutionstid]({% link _posts/2020-05-28-restitutionstid-alder.md %}), som du måske skal prøve først.
+Hvis du gerne vil bruge isbade, skal du nok overveje kun at gøre det efter udholdenhedsaktiviteter, da de tilsyneladende kan hæmme din muskeltilvækst. Der findes mange andre metoder til at [forbedre din restitution]({% link _posts/2020-05-28-restitution.md %}) og [restitutionstid](/restitutionstid/), som du måske skal prøve først.
 
 Du skal også huske, at det er vanskeligt at lave et dobbeltblindet, placebo-kontrolleret studie. Man kan godt lave et studie, der sammenligner med en anden type restitutionsaktivitet, men hvis man ender i den kolde balje, så opdager man det i hvert fald.
 
