@@ -7,7 +7,7 @@ permalink: /bevaegelsestyper-og-bevaegelsesplaner/
 header:
   overlay_image: https://images.unsplash.com/photo-1539815208687-a0f05e15d601?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
   caption: *title
-categories:
+category:
   - Anatomi
 tags:
   - anatomi
@@ -47,13 +47,13 @@ gallery:
 last_modified_at: 2021-12-24T08:14:14Z
 breadcrumbs: true
 faq:
-  - question: Hvad er et led? 
+  - question: Hvad er et led?
     answer: Et led er der hvor to eller flere knogler støder sammen til en forbindelse uanset om, der kan være bevægelse eller ej i leddet. I leddet holdes knoglerne sammen af en ledkapsel, der er forstærket af ledbånd.
   - question: Hvor mange led har vi i kroppen?
     answer: Vi har omkring 360 led i kroppen, som forbinder de [206 knogler der er i menneskekroppen](/hvor-mange-knogler-har-mennesket/).
 ---
 
-Her kigger vi på de forskellige bevægelsestyper og bevægelsesplaner i anatomien. Kroppen har mange frihedsgrader, men her får du et anatomisk sprog til at beskrive kroppens bevægelser. 
+Her kigger vi på de forskellige bevægelsestyper og bevægelsesplaner i anatomien. Kroppen har mange frihedsgrader, men her får du et anatomisk sprog til at beskrive kroppens bevægelser.
 
 Der kan foregå bevægelser i leddene på mange forskellige måder. Her kigger vi på de mange forskellige bevægelsestyper kroppen kan lave.
 
