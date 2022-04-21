@@ -7,7 +7,7 @@ permalink: /bevaegelsestyper-og-bevaegelsesplaner/
 header:
   overlay_image: https://images.unsplash.com/photo-1539815208687-a0f05e15d601?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
   caption: *title
-category:
+categories:
   - Anatomi
 tags:
   - anatomi

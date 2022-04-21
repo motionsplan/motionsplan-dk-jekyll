@@ -7,7 +7,7 @@ excerpt: "Skulderens store bevægelsesfrihed skabes gennem flere led, som man ti
 latin: Scapula
 tags:
   - led
-category:
+categories:
   - Anatomi
   - Led
 movements:
