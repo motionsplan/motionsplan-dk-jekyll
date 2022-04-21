@@ -21,6 +21,8 @@ toc: true
 
 Når du gerne vil træne så effektivt som muligt, så skal du finde en balance mellem restitution og træning. Her får du svar på alle dine spørgsmål om, hvad det vil sige at restituere i forbindelse med træning.
 
+{% comment %} TODO: GENNEMSKRIV MED FØLGENDE VIDEN https://www.fit.nu/restitution/ {% endcomment %}
+
 Når du har trænet og brugt kroppen, så har du brug for at slappe af, så den kan blive klar til nye strabadser. Men hvad skal du egentlig tænke på, så du får brugt restitutionsperioden bedst muligt og din træning for alvor kan give resultater.
 
 **Restitution i forbindelse med idræt og motion er perioden mellem to træningspas. Restitutionsperioden afhænger af, hvor hård og intens din træning var. Du kan optimere din restitution ved at få en god søvn og spise sundt og varieret, men der er også mange andre tips og råd til at få en effektiv restitution.**
