@@ -72,7 +72,7 @@ Gå til alle beregnere Sportsudøvere med verdens højeste VO2 max En af mine fa
 
 ## Forbedring af VO2 max afhænger af intensiteten
 
-Helgerud et al (2007) satte sig for at undersøge, hvilke træningsmetoder der har den mest gavnlige effekt på træning af VO<sub>2</sub>max. Helgerud et al (2007) undersøgte både kortvarig, intens intervaltræning og længerevarende moderat træning.
+Helgerud et al (2007) satte sig for at undersøge, hvilke træningsmetoder der har den mest gavnlige effekt på træning af VO<sub>2</sub>max. Helgerud et al (2007) undersøgte både kortvarig, intens [intervaltræning](/intervaltraening/) og længerevarende moderat træning.
 
 Helgerud et al (2007) samlede 40 moderat-trænede mandlige universitetsstuderende. Deltagerne blev inddelt i fire træningsgrupper med en træningsfrekvens på 3 gange pr. uge i 8 uger. De 4 træningsgrupper arbejdede med forskellig intensitet, men forskerne sørgede for, at det totale arbejde var det samme ved at justere varigheden af træningen.
 

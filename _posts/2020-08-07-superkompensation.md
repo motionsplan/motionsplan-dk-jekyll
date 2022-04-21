@@ -56,7 +56,7 @@ Jeg har ikke kunnet finde præcise vejledninger til, om det er mest effektivt at
 
 ## Eksempel på superkompensation
 
-Når du udsætter kroppen for en stor belastning, fx gennem intervaltræning eller et hårdt styrketræningspas, så vil kroppen tilpasse sig den nye belastning.
+Når du udsætter kroppen for en stor belastning, fx gennem [intervaltræning](/intervaltraening/) eller et hårdt styrketræningspas, så vil kroppen tilpasse sig den nye belastning.
 
 Kroppen genopbygger sig selv, så den bliver stærkere og bedre til at imødekomme det næste træningspas. 
 

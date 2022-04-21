@@ -33,7 +33,7 @@ I dette indlæg vil du måske blive overrasket over, at **mælkesyre IKKE er år
 
 ## Energiomsætning uden ilt skaber mælkesyre 
 
-Når man laver meget anstrengende arbejde, så skal musklerne producere energi uden brug af ilt. Denne proces kaldes [anaerob energiomsætning]({% link _posts/2019-11-14-energisystemer-101.md %}). Meget anstrengende arbejde kan fx være [intervalløb og intervaltræning]({% link _posts/2020-06-15-intervallob.md %}), 100 meter sprint eller 30-60 sekunders maksimalt arbejde.
+Når man laver meget anstrengende arbejde, så skal musklerne producere energi uden brug af ilt. Denne proces kaldes [anaerob energiomsætning]({% link _posts/2019-11-14-energisystemer-101.md %}). Meget anstrengende arbejde kan fx være [intervalløb]({% link _posts/2020-06-15-intervallob.md %}) og [intervaltræning](/intervaltraening/), 100 meter sprint eller 30-60 sekunders maksimalt arbejde.
 
 Andelen af energien der produceres anaerobt stiger, når intensiteten stiger. Hvis du bruger [Borgskalaen til at vurdere intensiteten og anstrengelsen]({% link _posts/2020-06-18-borg-skala.md %}) nærmer arbejdet sig altså maksimal intensitet på Borg 18-20.
 

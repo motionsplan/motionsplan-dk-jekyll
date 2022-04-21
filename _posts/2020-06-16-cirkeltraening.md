@@ -132,7 +132,7 @@ Hvis du foretrækker at designe din egen cirkeltræning, så kan jeg anbefale f�
 
 Nu er du klædt på til at lave dit eget cirkeltræningsprogram. Du kan fx implementere _circuit træning_ en-to gange om ugen.
 
-Jeg har skrevet et indlæg om [intervaltræning også, hvor du kan se mere hvordan du kan skrue arbejds- og pauseperioderne sammen]({% link _posts/2020-06-16-cirkeltraening.md %}).
+Du kan læse mere om, hvordan du kan skrue arbejds- og pauseperioder sammen i mit indlæg om [intervaltræning](/intervaltraening/).
 
 ## Ofte stillede spørgsmål
 

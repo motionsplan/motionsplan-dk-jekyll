@@ -100,7 +100,7 @@ Et eksempel kan være et løbeprogram, der er inddelt i fire faser:
 - **Fase 1**. Du opbygger og **forbereder din krop** på de efterfølgende faser, så du kan holde til træningen uden at blive skadet.
 - **Fase 2**. Jeg anbefaler i fase to at øge fokus på **udholdenheden** og evnen til at **forbrænde fedt**.
 - **Fase 3**. Vi fokuserer på at **øge styrken** og fokuserer fortsat på at forbedre udholdenheden.
-- **Fase 4**. I denne specifikke fase målretter vi træningen mod den distance, du gerne vil være bedre på. I denne fase er der typisk en del intervaltræning.
+- **Fase 4**. I denne specifikke fase målretter vi træningen mod den distance, du gerne vil være bedre på. I denne fase er der typisk en del [intervaltræning](/intervaltraening/).
 
 Hvis du er tilmeldt et motionsløb eller har en test, så sørger du i slutningen af fase 4 for at blive helt frisk og klar til at løbe så hurtigt som du kan.
 

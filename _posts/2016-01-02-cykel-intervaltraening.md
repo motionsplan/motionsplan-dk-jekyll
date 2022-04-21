@@ -18,9 +18,9 @@ last_modified_at: 2016-01-02T10:14:14Z
 toc: true
 ---
 
-Intervaltræning kan være en effektiv træningsform til cykling, hvis du gerne vil udnytte din tid optimalt. Men hvordan kan du bruge intervaltræning til cykling. Lad os kigge på den nyeste videnskab om emnet.
+Intervaller kan være en effektiv træningsform til cykling, hvis du gerne vil udnytte din tid optimalt. Men hvordan kan du bruge [intervaltræning](/intervaltraening/) til cykling. Lad os kigge på den nyeste videnskab om emnet.
 
-I et australsk studie tog man udgangspunkt i 41 trænede mandlige cyklister, og opdelte dem i fire grupper – tre med intervention af [intervaltræning]({% link _posts/2020-06-15-intervallob.md %}), og en kontrolgruppe som fortsatte den normale træning. Studiets formål var at belyse om der var målbar forskel på grupperne, og hvilke fysiologiske ændringer der kunne spores på deltagerne.
+I et australsk studie tog man udgangspunkt i 41 trænede mandlige cyklister, og opdelte dem i fire grupper – tre med intervention af intervaltræning, og en kontrolgruppe som fortsatte den normale træning. Studiets formål var at belyse om der var målbar forskel på grupperne, og hvilke fysiologiske ændringer der kunne spores på deltagerne.
 
 Forsøgspersonerne skulle supplere deres daglige træning med 8 sessioner af intervaller fordelt på 4 uger. De havde alle fulgt et program med moderalt intensitet 80 % og ikke udført styrketræning i interventionsperioden.
 
@@ -30,7 +30,7 @@ Ud fra studiet kan det konkluderes, at [høj intensitets intervaltræning (HIT)]
 
 ## Hvordan kan jeg bruge intervaltræning i min daglige cykeltræning?
 
-Intervaltræning kan være vejen til bedre form, det er dog vigtig at gøre sig klart at træning at denne type kræver utrolig meget mentalt og fysisk overskud for at give resultat. En god motivationsfaktor må dog være at det på sigt bliver lettere at træne på grænsen, når kroppen vender sig til den maksimale belastning.
+Intervaltræning kan være vejen til bedre cykelform. Det er dog vigtig at gøre sig klart at træning at denne type kræver utrolig meget mentalt og fysisk overskud for at give resultat. En god motivationsfaktor må dog være at det på sigt bliver lettere at træne på grænsen, når kroppen vender sig til den maksimale belastning.
 
 Det er også vigtigt at gøre sig klart hvad man skal bruge træningen til. Hvis man har en målsætning om at køre lange distancer, er det også vigtigt få mængdetræning, for at opnå tilpasning til køreindstillinger, samt at opleve hvordan kroppen reagerer over længere tids belastning. Ved konkurrence- eller motionscykling på højt plan, kræver det en mere specifik tilgang, samt løbende revurdering i forhold til det aktuelle træningsniveau.
 

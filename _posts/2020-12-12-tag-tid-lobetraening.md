@@ -72,7 +72,7 @@ Din løbetid skulle naturligvis gerne blive bedre, hvis du træner regelmæssigt
 
 ## Tag tid under intervaltræning
 
-Tidtagning er også vigtigt, når du laver intervaltræning. Det er godt at have have en let måde at tage tid på, når du løber intervaller. Der er mange forskellige måder at lave [intervalløb]({% link _posts/2020-06-15-intervallob.md %}) på. Jeg kan programmere mit løbeur, så jeg undervejs i træningen ikke behøver at tænke på intervallerne. Jeg starter bare uret, og så bipper mit løbeur, når det passer med intervallerne.
+Tidtagning er også vigtigt, når du laver [intervaltræning](/intervaltraening/). Det er godt at have have en let måde at tage tid på, når du løber intervaller. Der er mange forskellige måder at lave [intervalløb]({% link _posts/2020-06-15-intervallob.md %}) på. Jeg kan programmere mit løbeur, så jeg undervejs i træningen ikke behøver at tænke på intervallerne. Jeg starter bare uret, og så bipper mit løbeur, når det passer med intervallerne.
 
 ## Køb et løbeur til at tage tid med
 

@@ -20,14 +20,18 @@ tags:
   - featured
   - løb
 popular: true
-last_modified_at: 2021-09-15T08:14:14Z
+last_modified_at: 2022-04-22T08:14:14Z
 toc: true
 breadcrumb: true
 ---
 
-Jeg nyder selv at bruge intervaltræning og intervalløb, når jeg forsøger at forbedre min kondition og hastighed. Intervaller er en fast del af mit løbeprogram. Jeg har researchet lidt på, hvad intervalttræning er, hvordan det virker på kroppen, og så har jeg lavet en oversigt over effektive intervalprogrammer.
+Jeg nyder selv at bruge intervaller i min løbetræning. Intervalløb er en fast del af mit løbeprogram, når jeg gerne vil arbejde med min hastighed og kondition.
 
-Hvad er intervaltræning? **Intervaltræning styrker dit kredsløb og kondition effektivt, fordi du ved intervalløb er i stand til at løbe med en højere intensitet i din træning. Formålet med intervalttræning er ofte at arbejde med forskellige energisystemer.**
+Jeg har researchet lidt på, hvilke metoder til [intervaltræning](/intervaltraening/) til løb, der findes, og så har jeg lavet en overskuelig oversigt over effektive intervalprogrammer til løb.
+
+Hvad er intervalløb? **Intervaltræning til løb styrker dit kredsløb og kondition effektivt, fordi du ved intervalløb er i stand til at løbe med en højere intensitet i din løbetræning. Formålet med intervalløb er ofte at arbejde din hastighed og din maksimale iltoptagelse.**
+
+***
 
 Formålet med intervalttræning kan være flere ting. Når du løber intervaller, kan du arbejde med en højere intensitet over længere tid, fordi du har pauserne til at restituere. Du kan også bruge intervallerne til at arbejde med løbeteknik eller det anaerobe energisystem, som har brug for flere pauser til at genoplade.
 
@@ -171,17 +175,3 @@ Efter nogle uger, så kan du måske løbe 1 kilometer, hvorefter du går i to mi
 ## Mål effekten af din intervaltræning
 
 Jeg foreslår, at du gradvist introducerer en type intervaltræning, som du holder fast i 6-8 uger. Hvis du før og efter sørger for at lave en test, fx med en løbedistance eller en [anden af vores konditionstests]({% link _posts/2019-11-04-kondition-og-test.md %}), så kan du se, om træningen hjælper dig.
-
-## Alle indlæg om intervaltræning og intervalløb
-
-{% assign site_posts = site.posts | where: "tags", "intervaltræning" | where_exp: "post", "post.url != page.url" | sort: "date" %}
-
-<div class="feature__wrapper">
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>

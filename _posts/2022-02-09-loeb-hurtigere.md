@@ -40,7 +40,7 @@ Vi har skrevet mere om, hvordan du selv kan [planlægge dit løbeprogram](/guide
 
 ## 2. Brug intervaltræning – også selvom du hader det
 
-Intervalltræning og intervalløb bør være en del af din træning, hvis du vil være en hurtigere løber. Intervalløb kan være med til at forbedre din maksimale iltoptagelse samtidig med, at den høje intensitet også kan optimere din løbeøkonomi.
+[Intervalltræning](/intervaltraening/) og intervalløb bør være en del af din træning, hvis du vil være en hurtigere løber. Intervalløb kan være med til at forbedre din maksimale iltoptagelse samtidig med, at den høje intensitet også kan optimere din løbeøkonomi.
 
 I intervalløb skal du op i de rigtig høje intensiteter, så det er ikke så behageligt at løbe så hurtigt. Derfor skal du naturligvis også bygge træningen stille og roligt op.
 
@@ -51,7 +51,7 @@ Intervaller er naturligvis virkelig hårde, så du skal ikke gøre det for ofte.
 - 10-20-30
 - 3-5 minutters løb og 2-3 minutters pause
 
-Du kan eksperimentere med aktiv pause i forhold til at hvile fuldstændigt. Vi har skrevet en masse forslag til [intervalløb og intervaltræning til løb](/intervallob-intervaltraening/), hvor du kan blive inspireret.
+Du kan eksperimentere med aktiv pause i forhold til at hvile fuldstændigt. Vi har skrevet en masse forslag til [intervaltræning til løb](/intervallob-intervaltraening/), hvor du kan blive inspireret.
 
 ## 3. Undgå 'junk miles'
 
