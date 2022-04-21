@@ -7,6 +7,7 @@ excerpt: "Albueleddet er et hængselled, der forbinder overarmen med underarmen 
 latin: ""
 breadcrumbs: true
 categories:
+  - Anatomi
   - Led
 tags:
   - led

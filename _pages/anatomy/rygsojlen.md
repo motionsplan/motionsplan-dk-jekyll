@@ -7,6 +7,7 @@ excerpt: "Din rygsøjle går fra halebenet og op til kraniet. Den består af 24 
 tags:
   - led
 categories:
+  - Anatomi
   - Led
 latin: ""
 movements:

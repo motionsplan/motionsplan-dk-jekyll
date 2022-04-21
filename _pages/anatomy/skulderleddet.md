@@ -8,6 +8,7 @@ latin: Scapula
 tags:
   - led
 categories:
+  - Anatomi
   - Led
 movements:
   - title: Bøjning

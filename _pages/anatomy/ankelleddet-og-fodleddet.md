@@ -6,6 +6,7 @@ permalink: /joints/ankelleddet-og-fodleddet/
 excerpt: "Ankelleddet er et hængselled. Skinneben og lægben danner nedadtil en gaffelformet ledskål til et hængselsled. De to knogler er holdt sammen af kraftige ledbånd. I de øvrige fodrodsknogler kan der foregå mindre bevægelser. Dette led kaldes fodleddet."
 latin:
 categories:
+  - Anatomi
   - Led
 tags:
   - led

@@ -1,6 +1,10 @@
 ---
 layout: single
+<<<<<<< HEAD
 title: &title "Fysiologi og træningsfysiologi: Kroppen i arbejde og hvile"
+=======
+title: &title "Fysiologi og træningsfysiologi"
+>>>>>>> Improving topic cluster for anatomi
 seo_title: "Fysiologi: Kroppens funktioner i hvile og arbejde"
 excerpt: "Fysiologi er læren om kroppens forskellige organsystemer og deres funktioner i hvile og under fysisk aktivitet. Fysiologien beskæftiger sig med den sunde krop under normale betingelser."
 permalink: /fysiologi/
