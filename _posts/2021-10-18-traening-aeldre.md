@@ -39,3 +39,7 @@ Jeg har skrevet et indlæg om, hvordan man kan [træning efter 40 år](/traening
 Du kan se hele podcasten, hvor Beermann interviewer Charlotte Suetta, som er overlæge, dr.med., ph.d. og speciallæge.
 
 {% include video provider="youtube" id="7HQXEZxJDpI" %}
+
+## Konklusion
+
+Jeg har også skrevet et uddybende indlæg om [restitution og alder](/restitutionstid-og-alder/).
