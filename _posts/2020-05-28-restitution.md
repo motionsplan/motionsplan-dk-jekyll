@@ -196,6 +196,10 @@ I Form anbefaler også at spise sig fri af betændelsestilstande i kroppen, som 
 
 Når du har det basale på plads i forhold til din restitution, så er kan det være interessant at prøve nogle forskellige tag, som måske kan give dig lidt hjælp til at blive hurtigere klar.
 
+Du kan finde inspiration i denne Youtube-video omkring restitution.
+
+{% include video provider="youtube" id="7hl4I-3eXhU" %}
+
 ### 1. Cooldown eller nedvarmning efter træning for at restituere
 
 Forskere har ifølge [www.legestue.net](https://www.legestue.net/hold-pause-restitutionstraening/) i et studie sammenlignet en gruppe voksne, der aktivt varmer ned i 12 minutter med en gruppe, som siddende slapper af i 12 minutter. Begge grupper blev testet før en fodboldkamp og fulgt efter kampen. Gruppen der varmede ned med fem minutters jogging, fem minutters strækøvelser og to minutter hvor spillerne fik benene rystet af deres holdkammerater, restituerede hurtigere, når man sammenlignede med kontrolgruppen – og de klarede sig bedre på både spring- og sprinttests.
