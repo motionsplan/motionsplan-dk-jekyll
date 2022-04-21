@@ -1,14 +1,18 @@
 ---
 layout: single
 title: &title "Led, ledtyper og ledbevægelser 🔧"
+<<<<<<< HEAD
 seo_title: "Hvad er et led? Forskellige ledtyper og ledbevægelser"
+=======
+seo_title: "Led, ledtyper og ledbevægelser"
+>>>>>>> Split up led
 excerpt: "Led kan opdeles i ægte led og uægte led og forskellige ledtyper: ægled, saddelled, hængselled, glideled, drejeled og kugleled. Den primære funktion for et led er bevægelser, som kan deles op i forskellige bevægelsestyper."
 permalink: /led/
 header:
   teaser: https://images.unsplash.com/photo-1539815208687-a0f05e15d601?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   overlay_image: https://images.unsplash.com/photo-1539815208687-a0f05e15d601?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   caption: *title
-categories:
+category:
   - Anatomi
 tags:
   - anatomi
@@ -159,6 +163,7 @@ Du kan se de forskellige bevægelsesplaner illustreret i denne figur.
 Hvis du gerne vil forstå meget mere om analyse af bevægelser baseret på [bevægelsestyper og bevægelsesplaner](/bevaegelsestyper-og-bevaegelsesplaner/), så tjek følgende artikel.
 
 **Læs:** [Bevægelsestyper og bevægelsesplaner](/bevaegelsestyper-og-bevaegelsesplaner/)
+<<<<<<< HEAD
 
 ## Konklusion
 I denne artikel har vi set på, hvad et led er, og hvilke forskellige typer led der findes. Vi har også set på de bevægelser, der kan forekomme i et led, og hvordan disse bevægelser klassificeres. Endelig har vi udforsket de tre bevægelsesplaner, der definerer alle kroppens bevægelser.
@@ -171,6 +176,11 @@ I denne artikel har vi set på, hvad et led er, og hvilke forskellige typer led 
 
 Her kan du se en oversigt over de store led i kroppen.
 
+=======
+
+## Oversigt over kroppens led
+
+>>>>>>> Split up led
 {% assign pages = site.pages | where: "tags", "led" %}
 {% for p in pages %}
 - **[{{ p.title }}]({{ p.url }})**.

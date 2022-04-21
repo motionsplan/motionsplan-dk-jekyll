@@ -7,7 +7,7 @@ permalink: /joints/knaeleddet/
 latin:
 tags:
   - led
-categories:
+category:
   - Anatomi
   - Led
 movements:

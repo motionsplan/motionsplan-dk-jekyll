@@ -9,7 +9,7 @@ header:
   teaser: https://upload.wikimedia.org/wikipedia/commons/9/9b/Knochenmetastase_Mamma-Ca_Becken_02.jpg
   overlay_image: https://upload.wikimedia.org/wikipedia/commons/9/9b/Knochenmetastase_Mamma-Ca_Becken_02.jpg
 type: Kugleled
-categories:
+category:
   - Anatomi
   - Led
 movements:
