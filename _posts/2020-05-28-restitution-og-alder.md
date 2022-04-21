@@ -4,8 +4,8 @@ excerpt: "Jeg kan godt lide at træne, men jeg vil stadig gerne gøre det så ef
 permalink: /restitutionstid-og-alder/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1470777639313-60af88918203?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
-  teaser: https://images.unsplash.com/photo-1470777639313-60af88918203?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1528310911867-ffae9984b3e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1528310911867-ffae9984b3e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
   caption: *title
   alt: "Photo by Cris Saur on Unsplash"
 category:
@@ -43,7 +43,7 @@ Uanset hvilken alder du har, så har du brug for at gennemgå denne cyklus melle
 
 ## Hvor lang tid tager det at restituere med alderen?
 
-Restitutionstiden afhænger af flere forskellige ting, og den er meget individuel. Ud over alderen skal du altså tage højde for genetiske forhold, din aktuelle træningstilstand, aktivitetens intensitet og hvilken aktivitet, du laver bagefter træningen. 
+Restitutionstiden afhænger af flere forskellige ting, og den er meget individuel. Ud over alderen skal du altså tage højde for genetiske forhold, din aktuelle træningstilstand, aktivitetens intensitet og hvilken aktivitet, du laver bagefter træningen.
 
 Bishop et al. (2008) viste, at 70% af deltagerne i studiet 48 til 72 timer efter et hårdt styrketræningspas var tilbage på samme niveau som før. Det viser klar, at restitutionstid er individuelt.
 
