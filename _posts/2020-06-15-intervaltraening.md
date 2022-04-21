@@ -29,20 +29,20 @@ Jeg nyder selv at bruge intervaltræning, når jeg forsøger at forbedre min kon
 
 Intervaltræning styrker dit kredsløb og kondition effektivt, fordi du er i stand til at arbejde med en højere intensitet i din træning. Formålet med intervaltræning er ofte at arbejde med både det aerobe og det anaerobe energisystem.
 
-Formålet med intervalttræning kan være flere ting. Når du løber intervaller, kan du arbejde med en højere intensitet over længere tid, fordi du har pauserne til at restituere. Du kan også bruge intervallerne til at arbejde med løbeteknik eller det anaerobe energisystem, som har brug for flere pauser til at genoplade.
+Formålet med intervalttræning kan være flere ting. Når du løber intervaller, kan du arbejde med en højere intensitet over længere tid, fordi du har pauserne til at restituere. Du kan også bruge intervallerne til at arbejde med teknik eller det anaerobe energisystem, som har brug for flere pauser til at genoplade.
 
-Hvis du gerne vil blive bedre til at løbe, så skal du have intervaller med i træningen. Det har en del fordele at lave intervalløb.
+Hvis du gerne vil i bedre form, så kan det være en god ide at have intervaller med i træningen.
 
 ## Hvorfor er intervaltræning effektivt?
 
 Intervaltræning kan **føles hårdt** afhængigt af, hvordan de udføres og hvilket energisystem, du arbejder med. Hvis du arbejder omkring og over den anaerobe tærskel eller arbejder med anaerob kapacitet, så er det virkelig hårdt.
 
-Men lad os kigge på fordelene ved intervalløb:
+Men lad os kigge på fordelene ved intervaltræning:
 
 - Når du arbejder flere minutter med høj intensitet, så kan træningen have større effekt på den maksimale iltoptagelse - og derved dit [kondital](/kondital/).
-- Du kan sammenlagt løbe flere minutter med høj intensitet, hvis du sammenligner med kontinuerligt løb.
+- Du kan sammenlagt arbejde flere minutter med høj intensitet, hvis du sammenligner med kontinuerligt arbejde.
 - Intervaltræning kan være med til at øge din anaerobe kapacitet, hvis du arbejder med rigtig høj intensitet. Det sker formentlig fordi det aerobe system bliver bedre til at bidrage til processen og fjernelsen af træthedsstoffer.
-- Intervaltræning er med til at vænne dig til at løbe i et højere tempo, hvor du arbejder med højere skridtfrekvens og længere skridt. Ud over tilvænningen til mere fart, så kan du også forbedre din [løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %}) med intervaller. Jeg har skrevet lidt mere om [løbeøkonomi i et andet indlæg]({% link _posts/2019-12-16-running-economy.md %}).
+- Intervaltræning er med til at vænne dig til at arbejde mere intenst.
 
 Intervaltræning kan også være hårdt for kroppen. Hvis du fx laver sprint-intervaller, så vil benene helt sikkert kunne mærkes dagen efter.
 
@@ -58,15 +58,21 @@ Intervaltræning kan også være hårdt for kroppen. Hvis du fx laver sprint-int
 
 ## Hvordan får jeg intervaltræning til at være en del af min træning?
 
-Når du tilføjer intervaltræning til din løbetræning, så skal du være opmærksom på, hvilket formål du gerne vil opfylde, og hvilke intervaller du vælger. I listen nedenunder har intervallerne til formål at være med til at skubbe den maksimale iltoptagelse, men hvad effekten af intervallerne bliver afhænger helt af arbejdstid, arbejdsintensitet og pauserne.
+Når du tilføjer intervaltræning til din træning, så skal du være opmærksom på, hvilket formål du gerne vil opfylde, og hvilke intervaller du vælger. Intervaller kan være konstrueret til mange forskellige formål. 
 
-I et [løbeprogram](/loebeprogrammer/) med intervaltræning kan du tænke over, at du skal kunne forbedre dig over fx 4-8 uger med den valgte metode. På den måde oplever du et **progressivt overload** i din træning. Hvis du fx gerne vil øge min iltoptagelse, så kunne du vælge 3-4 minutters-intervaller med 2-3 minutters pause, men der er også mange andre muligheder, som du kan se i nedenstående liste over forskellige interval-former.
+- forbedre den maksimale iltoptagelse
 
-Første gang vil jeg måske løbe 3 minutter med 3 minutters pause og gentage det 3 gange. Næste gang sætter jeg træningsmængden op til 4 x 3 minutters løb med samme pause. Senere skruer jeg måske lidt ned for pausen eller op for tiden.
+Hvilken effekt intervallerne har afhænger helt af arbejdstid, arbejdsintensitet og pauserne i intervallerne.
+
+I et [træningsprogram](/loebeprogrammer/) med intervaltræning kan du tænke over, at du skal kunne forbedre dig over fx 4-8 uger med den valgte metode.
+
+På den måde oplever du et **progressivt overload** i din træning. Hvis du fx gerne vil øge min iltoptagelse, så kunne du vælge 3-4 minutters-intervaller med 2-3 minutters pause, men der er også mange andre muligheder for at sammensætte tidsperioderne i intervallerne.
+
+Første gang vil jeg måske træne 3 minutter med 3 minutters pause og gentage det 3 gange. Næste gang sætter jeg træningsmængden op til 4 x 3 minutters arbejde med samme pause. Senere skruer jeg måske lidt ned for pausen eller op for tiden.
 
 Det er meget bedre at vokse med programmet end at blive skadet efter et par uger.
 
-Typisk kan du holde til intervaltræning 1-2 gange om ugen. Resten af træningen må meget gerne være i en lavere [intensitetszone](/traeningszoner/). Hvis du kun baserer din træning på intervalløb, kan du være ret sikker på, at du på et tidspunkt ender med at blive meget træt eller skadet.
+Typisk kan du holde til intervaltræning 1-2 gange om ugen. Resten af træningen må meget gerne være i en lavere [intensitetszone](/traeningszoner/). Hvis du kun baserer din træning på intervaller, kan du være ret sikker på, at du på et tidspunkt ender med at blive meget træt eller skadet.
 
 ## Hvilke metoder findes der til intervalløb?
 
