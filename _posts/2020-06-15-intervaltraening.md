@@ -46,6 +46,8 @@ Men lad os kigge på fordelene ved intervaltræning:
 
 Intervaltræning kan også være hårdt for kroppen. Hvis du fx laver sprint-intervaller, så vil benene helt sikkert kunne mærkes dagen efter.
 
+{% comment %}
+
 ## Hvilken intervaltræning er bedst?
 
 ## Hvad gør intervaltræning for kroppen?
@@ -54,7 +56,7 @@ Intervaltræning kan også være hårdt for kroppen. Hvis du fx laver sprint-int
 
 
 
-
+{% endcomment %}
 
 ## Hvordan får jeg intervaltræning til at være en del af min træning?
 
