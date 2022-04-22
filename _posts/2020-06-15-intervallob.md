@@ -39,16 +39,14 @@ Hvis du gerne vil blive bedre til at løbe, så skal du have intervaller med i t
 
 ## Hvorfor er intervalløb effektivt?
 
-Intervaltræning kan **føles hårdt** afhængigt af, hvordan de udføres og hvilket energisystem, du arbejder med. Hvis du arbejder omkring og over den anaerobe tærskel eller arbejder med anaerob kapacitet, så er det virkelig hårdt.
+Der er mange fordele ved at løbe intervalløb. Her kigger vi på nogle af fordelene ved at have intervaltræning med i din løbetræning:
 
-Men lad os kigge på fordelene ved intervalløb:
+- Du kan sammenlagt løbe flere minutter med høj intensitet, hvis du sammenligner med kontinuerligt løb. Du kan arbejde flere minutter med høj intensitet, så din samlede træning kan få større effekt på den [maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/) og [kondital](/kondital/)
+- Intervalløb med rigtig høj intensitet kan være med til at øge din anaerobe kapacitet.
+- Intervaltræning er med til at vænne dig til at løbe i et højere tempo, hvor du arbejder med højere skridtfrekvens og længere skridt. Ud over tilvænningen til mere fart, så kan du også forbedre din [løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %}) med intervaller.
+- Du kan være frisk i arbejdsperioderne, hvis du arbejder med løbeteknik eller løbehastighed.
 
-- Når du arbejder flere minutter med høj intensitet, så kan træningen have større effekt på den maksimale iltoptagelse - og derved dit [kondital](/kondital/).
-- Du kan sammenlagt løbe flere minutter med høj intensitet, hvis du sammenligner med kontinuerligt løb.
-- Intervaltræning kan være med til at øge din anaerobe kapacitet, hvis du arbejder med rigtig høj intensitet. Det sker formentlig fordi det aerobe system bliver bedre til at bidrage til processen og fjernelsen af træthedsstoffer.
-- Intervaltræning er med til at vænne dig til at løbe i et højere tempo, hvor du arbejder med højere skridtfrekvens og længere skridt. Ud over tilvænningen til mere fart, så kan du også forbedre din [løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %}) med intervaller. Jeg har skrevet lidt mere om [løbeøkonomi i et andet indlæg]({% link _posts/2019-12-16-running-economy.md %}).
-
-Intervaltræning kan også være hårdt for kroppen. Hvis du fx laver sprint-intervaller, så vil benene helt sikkert kunne mærkes dagen efter.
+Intervaltræning er hårdt for kroppen. Hvis du fx laver sprint-intervaller, så vil benene helt sikkert kunne mærkes dagen efter.
 
 ## Hvordan får jeg intervaltræning til at være en del af min løbetræning?
 
@@ -62,9 +60,7 @@ Det er meget bedre at vokse med programmet end at blive skadet efter et par uger
 
 Typisk kan du holde til intervaltræning 1-2 gange om ugen. Resten af træningen må meget gerne være i en lavere [intensitetszone](/traeningszoner/). Hvis du kun baserer din træning på intervalløb, kan du være ret sikker på, at du på et tidspunkt ender med at blive meget træt eller skadet.
 
-## Hvilke metoder findes der til intervalløb?
-
-Der er en lang række metoder til at lave intervaltræning. Jeg har forsøgt at samle de mest udbredte i et skema over intervaller til løb. Du kan se skemaet nedenunder.
+## Skal jeg løbe på tid eller distance i intervallerne?
 
 Jeg kan som udgangspunkt bedst lide at styre intervaller ud fra tid.
 
@@ -74,7 +70,7 @@ Når eleverne løber med forskellig hastighed, er det sandsynligt at de træner 
 
 Hvis du bruger [Jack Daniels Løbsberegner](/loebesiden-jack-daniels-loebeberegner/), så får du et tempo, du skal holde i intervallerne. Jeg har lavet en beregner, som kan [omregne fra hastighed i min/km](/hastighed/) til, [hvor langt du skal løbe på et tidsinterval her]({% link _posts/2021-03-28-hvor-langt-pr-interval.md %}).
 
-## Sammensætningen af intervaller
+## Arbejdstid og pausetid i intervallerne
 
 Intervalløb kan sammensættes på mange forskellige måder. Hvordan du sammensætter dem handler om, hvad du gerne vil opnå med de enkelte intervaller.
 
@@ -114,7 +110,9 @@ I det hele taget kan jeg godt lide at løbe intervaller, og hvis jeg kunne holde
 
 Lige nu handler det om intervaltræning, så lad os se nogle metoder samlet i et skema.
 
-## Skema over intervaltræning til løb
+## Hvilke metoder findes der til intervalløb?
+
+Der er en lang række metoder til at lave intervaltræning. Jeg har forsøgt at samle de mest udbredte i et skema over intervaller til løb. Du kan se skemaet nedenunder.
 
 Da folk løber i meget forskellig tempo, så kan jeg godt lide at strukturere intervaltræning ud fra tid i stedet for tempo.
 
@@ -123,7 +121,7 @@ Derfor har jeg i det følgende skema brugt tid på intervallerne som styringsred
 Skemaet nedenunder over intervaltræning tager udgangspunkt i [Morten Zachos](http://web.archive.org/web/20150212105109/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/oversigt_over_de_mest_effektive_intervalprogrammer_til_loeb/){: rel="nofollow" } glimrende oversigt over intervalløb.
 {: .notice .notice--info }
 
-## Effektive intervalprogrammer til intervaltræningen
+## Skema over intervaltræning til løb
 
 Oversigt over effektive intervalprogrammer. Listen er sorteret med de længste intervaller øverst. Alle intervalformerne i skemaet er intensive intervaller, som i høj grad kan være med til at skubbe til den [maksimale iltoptagelse]({% link _posts/2019-11-03-intensiteten-og-vo2max.md %}) og [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}), og flere af intervallerne arbejder også med den anaerobe kapacitet. Intervallerne hører altså til over den anaerobe tærskel.
 
@@ -175,3 +173,7 @@ Efter nogle uger, så kan du måske løbe 1 kilometer, hvorefter du går i to mi
 ## Mål effekten af din træning
 
 Jeg foreslår, at du gradvist introducerer en type intervaltræning, som du holder fast i 6-8 uger. Hvis du før og efter sørger for at lave en test, fx med en løbedistance eller en [anden af vores konditionstests]({% link _posts/2019-11-04-kondition-og-test.md %}), så kan du se, om træningen hjælper dig.
+
+{% comment %}
+## Effektive intervalprogrammer til intervaltræningen
+{% endcomment %}
