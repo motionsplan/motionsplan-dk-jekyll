@@ -249,7 +249,7 @@ Du kan gøre din løbeplan rimelig enkel ved at dele de forskellige dage op med 
 
 - **Speed Run**. Formålet er her at gøre dig hurtigere og arbejde med at flytte den maksimale iltoptagelse og anaerobe tærskel. Disse dage vil ofte være udformet som intervalløb i en eller anden form, men det kan også være udmarvende og længere tempoløb alt efter målet med træningen.
 - **Long Run**. De længere løb er med til at opbygge din udholdenhed og hvordan du kan pace dig selv. Løbene kan enten løbes som en længere tur i et behageligt tempo, eller du kan arbejde med **progressionsløb**.
-- **Recovery Run**. Restitutionsløb er en måde at få løbet flere kilometer på og arbejde lidt med udholdenheden samtidig med, at de gør dig klar til de næste hårdere træninger.
+- **Recovery Run**. [Restitutionsløb](/restitutionsloeb/) er en måde at få løbet flere kilometer på og arbejde lidt med udholdenheden samtidig med, at de gør dig klar til de næste hårdere træninger.
 - **Rest Days**. Hviledage er helt nødvendige, når kroppen skal tilpasse sig nye belastninger. Du kan altså ikke undvære hviledagene, når du gerne vil være bedre.
 
 Lad os dykke ned i nogle af de løbeformer, du kan putte ind i din træning.
