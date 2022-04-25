@@ -84,31 +84,31 @@ Her har du en oversigt over effektive intervalprogrammer baseret på formålet m
 | Anaerobe intervaller | Mælkesyreproduktion | 200-600 m | 2000-3000 m | 1:3 | |
 | Anaerobe intervaller | Mælkesyretolerance | 400-1000 m | 3000-5000 m | 1:2 | |
 | Aerobe intervaller | Konditalintervaller | 400-1500 m | 4000-6000 m | | |
-| Tærskelintervaller | Anaerob tærskel | 8-15 min | 30-60 min | 1:1/4 | | 
+| Tærskelintervaller | Anaerob tærskel | 8-15 min | 30-60 min | 1:1/4 | |
 
 Der findes usædvanligt mange intervalprogrammer og -principper, og du kan variere dem i det uendelige. Hvis du vil forstå formålet med de forskellige itnervaller, så kan du dykke ned i [vores guide til energisystemer]({% link _posts/2019-11-14-energisystemer-101.md %}).
 
 Hvad de enkelte intervaller ender med at træne afhænger af, hvilken intensitet de enkelte intervaller løbes med, og hvor lang pausen mellem intervallerne bliver.
 
-### Sprintintervaller - hurtighed, power og bevægelsesøkonomi
+### 1. Sprintintervaller - hurtighed, power og bevægelsesøkonomi
 
 Formålet med sprintintervallerne er træne bevægelsesøkonomien og tophastigheden i den valgte idræt. I sprintintervallerne skal du have rigtig lang pause, så du kan være helt klar til næste interval.
 
-### Anaerobe intervaller til mælkesyreproduktion
+### 2. Anaerobe intervaller til mælkesyreproduktion
 
 Den anaerobe intervaller med relativ lang pause mellem de meget intensive intervaller har til formål at træne hastighed og power, træne evnen til at arbejde med træthed og mælkesyre og endelig at træne udholdenheden ved meget høj intensitet.
 
-### Anaerobe intervaller til mælkesyretolerance
+### 3. Anaerobe intervaller til mælkesyretolerance
 
 Formålet med de intensive intervaller med relativ kort pause er at træne tolerancen overfor træthed og mælkesyre. Intervallerne skubber også til konditallet og træner udholdenheden ved meget høj intensitet.
 
-### Konditalintervaller til maksimal iltoptagelse
+### 4. Konditalintervaller til maksimal iltoptagelse
 
 Konditalintervaller er relativt intensive intervaller, hvor du arbejder omkring den maksimale iltoptagelse over længere tid. Intervallerne kan være organiseret på rigtig mange forskellige måder.
 
 Du kan også se intervaltræning under [HIIT træning]({% link _posts/2020-09-22-hiit.md %}), der virkelig skubber til den maksimale iltoptagelse.
 
-### Tærskelintervaller til anaerob tærskel
+### 5. Tærskelintervaller til anaerob tærskel
 
 Tærskelintervallerne er længere intervaller med relativt korte pauser mellem, hvor intensiteten skal ligge omkring den anaerobe tærskel.
 
