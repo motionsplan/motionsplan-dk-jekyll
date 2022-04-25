@@ -229,7 +229,7 @@ Jacob Beermann er en af de personlige trænere i Danmark, der er mest gavmild me
 
 Jeg fremhæver også Beermanns Stærk & Smertefri på listen over de [bedste danske podcasts]({% link _posts/2020-08-03-podcasts.md %}) og han har også en af de [bedste, følgeværdige Instagram-profiler]({% link _posts/2020-09-11-bedste-instagram.md %}).
 
-Hvis du er på udkig efter et [gratis træningsprogram, så tjek vores oversigt]({% link _pages/trainingprograms-archive.md %}).
+Hvis du er på udkig efter et [gratis træningsprogram, så tjek vores oversigt]({% link _pages/trainingprograms-styrke.md %}).
 
 ## Køb Stærk
 

@@ -17,7 +17,7 @@ toc: true
 
 Rigtig mange søger inspiration til træningsprogrammer eller er i tvivl om, hvilket styrketræningsprogram de skal vælge. Programmet er vigtig del af træningen, men hvordan får jeg valgt det rigtige styrketræningsprogram. Hvor mange gange om ugen skal jeg træne? Hvor mange gentagelser og sæt giver den rigtige fremgang? Hvilke øvelser skal jeg vælge? Hvor ofte skal jeg skifte program?
 
-Her har jeg samlet en oversigt over programmer, så du kan få et overblik over, hvilket program du skal vælge. Vi har samlet [alle vores styrketræningsprogrammer]({% link _pages/trainingprograms-archive.md %})
+Her har jeg samlet en oversigt over programmer, så du kan få et overblik over, hvilket program du skal vælge. Vi har samlet [alle vores styrketræningsprogrammer]({% link _pages/trainingprograms-styrke.md %})
 
 Når du skal vælge et program, så er et af de vigtige parametre, hvor mange gange om ugen du gerne vil træne. Men husk at det ikke nødvendigvis giver bedre resultater at træne flere gange om ugen.
 

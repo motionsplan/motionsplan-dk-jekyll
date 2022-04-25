@@ -18,7 +18,7 @@ toc: true
 
 Men når du træner fire gange om ugen, så kan det altså være en overvejelse værd at bruge et splitprogram. Her beskriver jeg et 2-split-program til styrketræning, som er baseret på push/pull eller træk/pres. Det er en meget typisk måde at gøre det på.
 
-Et træningsprogram skal være motiverende og tilpasset dine personlige mål og behov. Derfor har vi også lavet en side med [forskellige gratis træningsprogrammer]({% link _pages/trainingprograms-archive.md %}), som du kan lade dig inspirere af. Jeg har beskrevet, hvad du skal tænke på, når du [vælger et træningsprogram]({% link _posts/2021-08-16-saadan-vaelger-program.md %}).
+Et træningsprogram skal være motiverende og tilpasset dine personlige mål og behov. Derfor har vi også lavet en side med [forskellige gratis træningsprogrammer]({% link _pages/trainingprograms-styrke.md %}), som du kan lade dig inspirere af. Jeg har beskrevet, hvad du skal tænke på, når du [vælger et træningsprogram]({% link _posts/2021-08-16-saadan-vaelger-program.md %}).
 
 Grundlæggende er det godt at træne en muskelgruppe 2 gange om ugen, bruge store flerledsøvelser, som fx variationer af squat, bænkpres og dødløft. Derudover kan du supplere basisøvelserne med mere specifikke øvelser for de forskellige muskelgrupper.
 

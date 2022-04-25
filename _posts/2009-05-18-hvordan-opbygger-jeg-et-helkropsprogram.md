@@ -146,7 +146,7 @@ Vil du også gerne have maksimalt udbytte af færrest mulige øvelser? Ofte afs�
 
 ## Eksempler på et fuldkropsprogrammer
 
-Rigtig mange af de [klassiske træningsprogrammer]({% link _pages/trainingprograms-archive.md %}) er fuldkropsprogrammer. Her kan du se et udsnit af de helkropsprogrammer, jeg har beskrevet.
+Rigtig mange af de [klassiske træningsprogrammer]({% link _pages/trainingprograms-styrke.md %}) er fuldkropsprogrammer. Her kan du se et udsnit af de helkropsprogrammer, jeg har beskrevet.
 
 {% assign site_posts = site.posts | where: "category", "Styrketræning" | where: "tags", "fullbody" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 

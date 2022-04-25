@@ -36,7 +36,7 @@ Starting Strength er et meget udbredt styrketræningsprogram udformet af Mark Ri
 
 Den første udgave af _Starting Strength_ udkom i 2005, og nu er bogen kommet til tredje udgave. Starting Strength er en fremragende bog om styrketræning, og den gennemgår de enkelte løft meget grundigt i bogen.
 
-I Starting Strength træner du tre gange om uge. Programmet er et [helkropsprogram]({% link _posts/2009-05-18-hvordan-opbygger-jeg-et-helkropsprogram.md %}) og meget enkelt. Du kan også lade dig inspirere af vores [andre træningsprogrammer]({% link _pages/trainingprograms-archive.md %}), som du kan lade dig inspirere af.
+I Starting Strength træner du tre gange om uge. Programmet er et [helkropsprogram]({% link _posts/2009-05-18-hvordan-opbygger-jeg-et-helkropsprogram.md %}) og meget enkelt. Du kan også lade dig inspirere af vores [andre træningsprogrammer]({% link _pages/trainingprograms-styrke.md %}), som du kan lade dig inspirere af.
 
 Starting Strength er blevet en populær bog og et populært træningsprogram for både trænere og atleter. Lad os kigge lidt på, hvordan Starting Strength-styrketræningsprogrammet er bygget op, hvordan det fungerer - og Rippetoe giver selv tre væsentlige råd til at gennemføre programmet.
 
