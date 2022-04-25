@@ -29,7 +29,7 @@ Først og fremmest så skal du ikke lave en maxtest alt for ofte. Det koster nem
 
 Jacob Beermann foreslår, at du kan [sammensætte din træning på denne måde](https://maxer.dk/artikler/maxtest), hvis du vil lave en maxtest, og jeg tænker at samme fremgangsmåde kan være anvendelig i forhold til et [styrkeløftstævne og styrkeløftkonkurrence](/powerlifting-rules/).
 
-Beermann foreslår, at du starter med en **15 minutters generel dynamisk opvarmning**, hvor du gradvist øger intensiteten. Jeg har skrevet mere om [generel opvarmning til styrketræning her](/opvarmning-styrketraening/). Derefter laver du **5 minutters specifik opvarmning rettet mod øvelsen**. Når du har lavet en grundig opvarmning, så går du i gang med at selve øvelsen. Start med relativt let vægt for at få en fornemmelse for bevægelsen, og så begynder du **langsomt at sætte mere og mere vægt på stangen**. 
+Beermann foreslår, at du starter med en **15 minutters generel dynamisk opvarmning**, hvor du gradvist øger intensiteten. Jeg har skrevet mere om [generel opvarmning til styrketræning her](/opvarmning-styrketraening/). Derefter laver du **5 minutters specifik opvarmning rettet mod øvelsen**. Når du har lavet en grundig opvarmning, så går du i gang med at selve øvelsen. Start med relativt let vægt for at få en fornemmelse for bevægelsen, og så begynder du **langsomt at sætte mere og mere vægt på stangen**.
 
 Du kan eksempelvis gå frem i din opvarmning til maxtesten på denne måde:
 
@@ -68,9 +68,11 @@ Trænede løftere med nogenlunde de stats kan altså med eksplosive, specifikke 
 
 Både [breakingmuscle.com](https://breakingmuscle.com/fitness/verkhoshanskys-depth-jumps-create-gains-in-max-strength) og [elitefts.com](https://www.elitefts.com/education/turbocharge-your-squat-with-depth-jumps/) skriver mere om, hvordan man kan bruge depth jumps til at forbedre sin squat.
 
+{% include pinterest image_path="/assets/images/pinterest/forberedelse-max-loeft.jpg" %}
+
 ## Heavy walkouts og liftoffs
 
-[TJ Kuster foreslår på t-nation.com](https://www.t-nation.com/training/tip-hack-your-nervous-system-set-new-prs) _heavy walkouts_ og _heavy liftoffs_ til at få den samme _post-activation potentiation_ effekt. 
+[TJ Kuster foreslår på t-nation.com](https://www.t-nation.com/training/tip-hack-your-nervous-system-set-new-prs) _heavy walkouts_ og _heavy liftoffs_ til at få den samme _post-activation potentiation_ effekt.
 
 Kuster forelår, at man sætter **10% ekstra på stangen** i forhold til det, du vil løfte som din 1RM. Formålet er, at **bære vægten i omkring 10 sekunder**, inden man sætter den pænt på plads igen. Så **venter du 5 minutter og prøver dit maxforsøg**.
 
