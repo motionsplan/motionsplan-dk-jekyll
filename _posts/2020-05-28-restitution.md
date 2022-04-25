@@ -27,7 +27,7 @@ Når du har trænet og brugt kroppen, så har du brug for at slappe af, så den 
 
 **Restitution i forbindelse med idræt og motion er perioden mellem to træningspas. Restitutionsperioden afhænger af, hvor hård og intens din træning var. Du kan optimere din restitution ved at få en god søvn og spise sundt og varieret, men der er også mange andre tips og råd til at få en effektiv restitution.**
 
-Jeg dukker i dette indlæg ned i alle aspekter af restitution i forbindelse med træning og idræt.
+Jeg dykker i dette indlæg ned i alle aspekter af restitution i forbindelse med træning og idræt.
 
 Her snakker vi **ikke** om den øjeblikkelige restitution, når musklen slapper af, når den ikke er i brug, fx under løb. Vi snakker heller ikke om den kortvarige restitution, som foregår mellem to øvelser eller i et sæt under træningen. Vi fokuserer på perioden mellem to træningspas.
 {: .notice .notice--info }
