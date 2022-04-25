@@ -4,8 +4,8 @@ excerpt: "Formålet med restitutionsløb er at optimere kroppens restitution. Du
 permalink: /restitutionloeb/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1470777639313-60af88918203?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
-  teaser: https://images.unsplash.com/photo-1470777639313-60af88918203?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
+  overlay_image: https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
   caption: *title
   alt: "Photo by Cris Saur on Unsplash"
 category:
@@ -23,11 +23,11 @@ Restitutionsløb er en af de strategier, du kan bruge, når kroppen skal bygges 
 
 ## Hvad er restitutionsløb?
 
-Restitutionsløb er en form for [restitutionstræning](/restitutionstraening/), hvor du fokuserer på løb. I restitutionsløb 
+Restitutionsløb er en form for [restitutionstræning](/restitutionstraening/), hvor du fokuserer på løb. I restitutionsløb
 
 Du kan bruge en langsom løbetur som _aktiv_ restitution. Du kan bruge nogle af de ting restitutionsløb kan hjælpe med er at:
 
-- Du hæver blodgennemstrømningen i musklerne. Derved kan affaldsstoffer fjernes hurtigere, og blodet kan have stoffer med rundt, som skal bruges i genopbygningen af væv og muskler. 
+- Du hæver blodgennemstrømningen i musklerne. Derved kan affaldsstoffer fjernes hurtigere, og blodet kan have stoffer med rundt, som skal bruges i genopbygningen af væv og muskler.
 - Under restitutionsløb aktiverer du kroppen, så enzymproduktionen og andre processer kører.
 
 Restitutionsløb er en rigtig god måde at gøre dig klar til at træne igen. Samtidig får du lidt flere kilometer i benene.
