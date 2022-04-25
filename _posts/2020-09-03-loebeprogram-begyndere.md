@@ -30,7 +30,7 @@ feature_row_program:
 breadcrumbs: true
 ---
 
-Jeg har lavet et løbeprogram til dig, der er nybegynder og ikke er vant til at løbe. Løbeprogrammet er til begyndere, der gerne vil i gang med løbetræningen.
+Jeg har lavet et [løbeprogram](/loebeprogrammer/) til dig, der er nybegynder og ikke er vant til at løbe. Løbeprogrammet er til begyndere, der gerne vil i gang med løbetræningen.
 
 Løbeprogrammet varer 16 uger og er meget overskueligt og enkelt.
 

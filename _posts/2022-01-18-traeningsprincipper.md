@@ -125,7 +125,7 @@ KISS står for ”Keep It Simple Stupid”. Når du laver et program, så kan de
 
 Du kan naturligvis sagtens skrue lidt op for kompleksiteten i programmet, hvis det gør, at du synes programmet er mere spændende og motiverende. Træning er ikke rakatvidenskab. Du kan fokusere på basisøvelser og enkle træningsmetoder, så kan du lave rigtig god fremgang.
 
-Du kan lade dig inspirere lidt af de forskellige [træningsprogrammer til styrketræning](/traeningsprogrammer/), hvor bl.a. [Starting Strength](/starting-strength-styrketraeningsprogram/) er utrolig enkel i sin opbygning. Du kan også kigge på vores [løbeprogrammer](/loebeprogrammer/).
+Du kan lade dig inspirere lidt af de forskellige [træningsprogrammer til styrketræning](/styrketraeningsprogrammer/), hvor bl.a. [Starting Strength](/starting-strength-styrketraeningsprogram/) er utrolig enkel i sin opbygning. Du kan også kigge på vores [løbeprogrammer](/loebeprogrammer/).
 
 Gør det enkelt for dig selv og vælg et enkelt træningsprogram. God træning.
 
@@ -133,6 +133,6 @@ Gør det enkelt for dig selv og vælg et enkelt træningsprogram. God træning.
 
 Når du skal vurdere et træningsprogram eller lave dit eget, så tag udgangspunkt i disse enkle træningsprincipper. Så kan det ikke gå helt galt med træningsplanlægningen.
 
-Jeg har skrevet en meget mere dybdegående artikel om [programlægning]({% link _posts/2020-08-19-programlaegning.md %}), som du måske også kunne blive inspireret af.
+Jeg har skrevet en meget mere dybdegående artikel om [programlægning i styrketræning]({% link _posts/2020-08-19-programlaegning.md %}), som du måske også kunne blive inspireret af.
 
 Hvad tænker du selv over i din egen træningsplanlægning? Hvilke principper er de vigtigste for dig?

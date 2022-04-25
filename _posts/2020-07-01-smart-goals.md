@@ -74,7 +74,7 @@ Jeg vil gerne løbe [København maraton](https://copenhagenmarathon.dk/) i {{ ye
 
 #### Målbart
 
-Jeg vil gerne løbe under 2 timer. Jeg vil følge mit løbeprogram vedholdende indtil løbet.
+Jeg vil gerne løbe under 2 timer. Jeg vil følge [mit løbeprogram](/loebeprogrammer/) vedholdende indtil løbet.
 
 #### Attraktivt
 

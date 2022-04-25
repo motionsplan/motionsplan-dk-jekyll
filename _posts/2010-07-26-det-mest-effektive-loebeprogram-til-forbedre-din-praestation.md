@@ -18,7 +18,7 @@ category:
 last_modified_at: 2021-02-13T22:06:29Z
 ---
 
-Her kan du læse mere om, hvordan man kan lave et effektivt løbeprogram og strukturerer sin løbetræning for at blive en bedre løber. Hvis man gerne vil lave et effektivt løbeprogram skal man tage højde for iltoptagelsen, løbeøkonomien og udholdenheden.
+Her kan du læse mere om, hvordan man kan lave et [effektivt løbeprogram](/loebeprogrammer/) og strukturerer sin løbetræning for at blive en bedre løber. Hvis man gerne vil lave et effektivt løbeprogram skal man tage højde for iltoptagelsen, løbeøkonomien og udholdenheden.
 
 For at blive en bedre løber, så skal du træne både den maksimale iltoptagelse, den anaerobe tærskel og din udholdenhed. Men dit træningsprogram skal også udfordre din [løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %}) og løbeøkonomi. Derfor kan løbetræning være relativt kompleks.
 

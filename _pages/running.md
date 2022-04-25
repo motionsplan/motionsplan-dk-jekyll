@@ -200,8 +200,6 @@ hiit træning løbebånd
 
 </div>
 
-## Løbeprogrammer
-
 {% comment %}
 
 ## Beregnere til løb
@@ -231,6 +229,8 @@ løbeplan
 løbetræning 5 km
 løb 5 km på 25 min
 {% endcomment %}
+
+## Løbeprogrammer
 
 <div class="feature__wrapper">
 

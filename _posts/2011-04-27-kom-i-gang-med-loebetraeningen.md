@@ -45,7 +45,7 @@ feature_row_stryd:
     rel: sponsored nofollow noopener
 ---
 
-Rigtig mange vil gerne i gang med at løbe eller løbetræner for at blive en bedre løber. Hvordan kommer du i gang med løbetræningen, og hvordan laver du et godt løbeprogram, som motiverer dig og skaber resultater?
+Rigtig mange vil gerne i gang med at løbe eller løbetræner for at blive en bedre løber. Hvordan kommer du i gang med løbetræningen, og hvordan laver du et [godt løbeprogram](/loebeprogrammer/), som motiverer dig og skaber resultater?
 
 Jeg dykker i det her indlæg ned i, hvad der skal til for, at du kan blive en bedre løber. Jeg vil vise dig, hvordan du selv kan lave et løbeprogram for din løbetræning, som vil skabe resultater på lang sigt.
 

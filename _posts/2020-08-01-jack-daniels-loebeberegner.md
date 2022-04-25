@@ -71,7 +71,7 @@ De **konkurrencetider** du udregner i beregneren er et udtryk for de bedst mulig
 
 **Nybegyndere kan have svært ved at konvertere de kortere distancer udregnet i løbeberegneren til maratontider**, da det vanskeligt at løbe optimalt over så lang en distance for nybegyndere. [Løbesiden](https://loebesiden.dk/beregninger/) foreslår at man lægger 10-20 minuttter oven i den udregnede sluttid for de lange distancer, hvis du er begynder.
 
-**Erfarne løbere** skal også følge et løbeprogram for at kunne løbe op mod konkurrencetiderne fra beregneren.
+**Erfarne løbere** skal også følge [et løbeprogram](/loebeprogram/) for at kunne løbe op mod konkurrencetiderne fra beregneren.
 
 ## Hvordan bruger jeg løbsberegneren til at udregne tempo?
 

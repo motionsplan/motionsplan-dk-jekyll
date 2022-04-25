@@ -24,7 +24,7 @@ Jeg gennemgår her, hvordan du stadig kan finde følgende funktioner:
 - motion online **rm beregner** --> Du kan bruge vores **meget bedre** [RM-beregner]({% link _posts/2019-10-16-1rm-beregner.md %}).
 - motion online **bmi** --> Du kan læse vores [forbedrede guide til BMI]({% link _posts/2019-10-31-udregning-af-bmi.md %}).
 - motion online forum --> Desværre er der i øjeblikket ikke noget forum, der matcher, som jeg kender til.
-- motion online **løbeprogram** --> Jeg har endnu ikke lavet løbeprogrammer, men hvis du er interesseret i det, så skriv endelig i kommentarerne.
+- motion online **løbeprogram** --> Find vores [løbeprogrammer](/loebeprogrammer/).
 - motion online **cirkeltræning** --> Du kan læse Motionsplans [udvidede guide til cirkeltræning]({% link _posts/2020-06-16-cirkeltraening.md %}).
 - motion online **coopertest** --> Du kan læse [vores dybdegående forklaring på Coopertesten]({% link _posts/2019-10-31-kondital-cooper.md %}).
 - motion online **6 min gangtest** --> Du kan læse vores [fine guide til 6 minutters gangtest]({% link _posts/2019-10-31-kondital-gaa-test-6min.md %}).

@@ -27,15 +27,15 @@ Formålet med dette træningsprogram er at give dig mulighed for at træne, selv
 
 Jeg har lavet en video til eleverne på Vejle Idrætshøjskoles politilinje, hvor jeg viser, hvordan de kan lave nogle af testene i den fysiske optagelsesprøve med et minimum af udstyr.
 
-Tjek mit forslag ud til at tage den fysiske optagelsesprøve til politiet derhjemme, inden du kaster dig ud i træningsprogrammet til politiet. Hvis du er interesseret i 
+Tjek mit forslag ud til at tage den fysiske optagelsesprøve til politiet derhjemme, inden du kaster dig ud i træningsprogrammet til politiet. Hvis du er interesseret i
 
 {% include video provider="youtube" id="ewZ76WPuWaM" ezoic="ezoic-pub-video-placeholder-3" %}
 
 ## Hvordan kan du starte træningen mod optagelsesprøven til politiet?
 
-Afhængig af din nuværende træningstilstand kan du vælge inden for et spektrum af muligheder. Det kræver lidt selverkendelse. 
+Afhængig af din nuværende træningstilstand kan du vælge inden for et spektrum af muligheder. Det kræver lidt selverkendelse.
 
-Mere træning er kun bedre end mindre træning, indtil det bliver for meget og bliver dårligere igen.			
+Mere træning er kun bedre end mindre træning, indtil det bliver for meget og bliver dårligere igen.
 
 ## Løbetræning og konditionstræning
 
@@ -47,11 +47,11 @@ Jeg foreslår, at du **løber 2-3 gange om ugen**. Du kunne bygge løbetræninge
 
 ### Hvis du løber 2 ture om ugen
 
-Hvis 2 ture: 1 gang med intervaller 4-10 gange 200-800 meter med 15 til 60 sekunders hvile mellem intervaller. 1 gang med kontinuerligt løb i så højt tempo som muligt 15-30 min.			
+Hvis 2 ture: 1 gang med intervaller 4-10 gange 200-800 meter med 15 til 60 sekunders hvile mellem intervaller. 1 gang med kontinuerligt løb i så højt tempo som muligt 15-30 min.
 
 ### Hvis du løber 3 ture om ugen
 
-Hvis 3 ture: Tilføj en tur i langsomt tempo i 30-60 min.			
+Hvis 3 ture: Tilføj en tur i langsomt tempo i 30-60 min.
 
 ### Hvis du ikke er vant til at løbe
 
@@ -64,7 +64,7 @@ Når du skal planlægge din hjemmetræning i styrketræning, så du kan forbered
 - 2-3 træningspas om ugen
 - 1-2 øvelser fra hver kategori
 - 3-5 sæt per øvelse
-- 5-30 gentagelser per sæt	
+- 5-30 gentagelser per sæt
 - 6-15 sæt pr kategori om ugen
 
 I forhold til politiets fysiske optagelsesprøve, så er der tre vigtige kategorier, som du kan forberede dig på.
@@ -80,7 +80,7 @@ Er man allerede meget stærk kan man sætte fødderne op på en stol mens man ha
 Vælger man to varianter der er meget forskellige kan man godt lave to øvelser fra denne kategori i samme træningspas og det samlede antal sæt kan derved være lidt højere (fx brede armstrækkere som øvelse 1 og pike pushups som øvelse 2, da øvelse 1 har mest fokus på brystet og øvelse 2 har mest fokus på skuldre og triceps).
 
 Du skal vælge nogle varianter, som udfordrer dig styrkemæssigt. Men det kan alle finde, også selvom du bænker mange kilo.
-			
+
 ### Kategori 2: Kropshævninger
 
 Kropshævninger er hvor man har færrest muligheder uden udstyr. Kvinder kan dog træne forholdsvis effektivt mod deres horisontale kropshævninger i form af fx [Table Rows](/oevelse/table-rows/). Vær opmærksom på, at man ikke skal trække sig så højt op til politiets optagelsesprøve, da bommen er ret bred. Til gengæld skal man huske at fødderne skal ligge på en stol eller tilsvarende, hvis du gerne vil efterligne forholdene til politiets optagelsesprøve. Du kan sagtens have fødderne på jorden for at træne, og få flere gentagelser ind.
@@ -88,14 +88,14 @@ Kropshævninger er hvor man har færrest muligheder uden udstyr. Kvinder kan dog
 Mænd kan også få god allround træning af den øvre ryg med [Table Rows](/oevelse/table-rows/), som vil kunne hjælpe efterfølgende, når der skal trækkes vertikalt til kropshævninger, og det er det bedste bud hvis man intet udstyr har.
 
 Hvis du har en pullupbar eller du kan finde en god gren eller et skilt udenfor, så er almindelige kropshævninger selvfølgelig at foretrække for mændene, hvis du er stærk nok til at lave dem. Du kan læse mere om [kropshævninger med et træningsprogram til at lære at tage en pullup og en chinup](/artikel/vil-du-gerne-tage-en-kropshaevning/). Du kan også læse om [forskellen på chinups og pullups](/chinup-vs-pullup/). Det er pullups drengene skal tage til politiets optagelsesprøve, men chinups kan også være en god måde at træne op til det på.
-			
+
 ### Kategori 3: Bentræning
 
 Der er ingen klassisk styrketræningsøvelse til benene til politiets optagelsesprøve, men både til hurtighedstesten og stående længdespring er det en kæmpe fordel at have stærke ben. Derfor anbefaler vi at lave styrketræning til benene, udover at øve selve disciplinerne.
 
 Øver du dig på hurtighedstesten og længdespringet, anbefaler vi at gøre dette som det første i træningspasset, mens du er frisk og kan være maksimalt eksplosive, og så kan styrketræningsøvelserne og/eller løb laves bagefter.
 
-Til forlårene foreslår vi øvelser som [pistol squats](/oevelse/pistol-squat/), [lunges](/lunges/), jumping lunges, [squats](/squat/), jump squats mm. Til baglårene og bagkæden generelt er der færre muligheder uden vægte, men [nordic hamstring curls](/oevelse/nordic-hamstring/), hvor du enten har fødderne under et tungt møbel eller får en person til at holde dine fødder, er en glimrende øvelse om man har udstyr eller ej.	
+Til forlårene foreslår vi øvelser som [pistol squats](/oevelse/pistol-squat/), [lunges](/lunges/), jumping lunges, [squats](/squat/), jump squats mm. Til baglårene og bagkæden generelt er der færre muligheder uden vægte, men [nordic hamstring curls](/oevelse/nordic-hamstring/), hvor du enten har fødderne under et tungt møbel eller får en person til at holde dine fødder, er en glimrende øvelse om man har udstyr eller ej.
 
 ## Eksempler træning i forhold til politiets optagelsesprøve
 
@@ -229,4 +229,4 @@ Her har jeg lavet fire forskellige eksempler på træningsprogrammer, du kan lav
 
 Når du træner til politiets optagelsesprøve, så gælder det om at være i generelt god form. Du kan bygge din træning op på mange forskellige måder.
 
-Vi har andre forslag til [styrketræningsprogrammer og træningsprogrammer](/traeningsprogrammer/). Når det skal være med kropsvægt, så kan du også lade dig inspirere af dette benhårde [benprogram, som også er med til at forebygge skader](/skadesforebyggelse-skadesforebyggende-traening/). Hvis du mere er typen, der gerne vil have en workout inspiraret af crossfit, så kan du tjekke flere eksempler på [workouts til hjemmetræning og træningsprogrammer]({% link _posts/2020-08-06-hjemmetraening.md %}) eller vores [28 Corona Workouts](/corona-workouts/).
+Vi har andre forslag til [styrketræningsprogrammer](/styrketraeningsprogrammer/) og [træningsprogrammer](/traeningsprogrammer/). Når det skal være med kropsvægt, så kan du også lade dig inspirere af dette benhårde [benprogram, som også er med til at forebygge skader](/skadesforebyggelse-skadesforebyggende-traening/). Hvis du mere er typen, der gerne vil have en workout inspiraret af crossfit, så kan du tjekke flere eksempler på [workouts til hjemmetræning og træningsprogrammer]({% link _posts/2020-08-06-hjemmetraening.md %}) eller vores [28 Corona Workouts](/corona-workouts/).

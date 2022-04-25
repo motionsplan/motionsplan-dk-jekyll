@@ -25,7 +25,7 @@ faq:
 
 {{ page.excerpt }}
 
-Der findes et hav af løbeprogrammer rundt omkring på nettet. Vi har skrevet mere om, hvad du skal kigge efter i [et godt løbeprogram]({% link _posts/2021-08-24-loebeprogrammer.md %})? I dette indlæg dykker vi specifikt ned i de væsentlige elementer, når du gerne vil lære at løbe 5 km.
+Der findes et hav af [løbeprogrammer](/loebeprogrammer/) rundt omkring på nettet. Vi har skrevet mere om, hvad du skal kigge efter i [et godt løbeprogram]({% link _posts/2021-08-24-loebeprogrammer.md %})? I dette indlæg dykker vi specifikt ned i de væsentlige elementer, når du gerne vil lære at løbe 5 km.
 
 Du får et løbetræningsprogram til 5 km, som du kan bruge allerede i dag.
 

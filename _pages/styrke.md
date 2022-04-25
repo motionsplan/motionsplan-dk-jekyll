@@ -58,7 +58,7 @@ Du kan naturligvis også dykke ned i [oversigten over alle vores træningsøvels
 
 ## Styrketræning program og træningsprogram
 
-Vi har skrevet en del om styrketræningsprogrammer. Du kan let finde et **gratis træningsprogram til styrketræning** her på siden. Tjek også alle [træningsprogrammer](/traeningsprogrammer/).
+Vi har skrevet en del om styrketræningsprogrammer. Du kan let finde et **gratis træningsprogram til styrketræning** her på siden. Tjek også alle [træningsprogrammer til styrketræning](/styrketraeningsprogrammer/).
 
 {% assign site_posts = site.posts | where: "tags", "styrketræning" | where: "tags", "træningsprogram" | sort: "date" %}
 

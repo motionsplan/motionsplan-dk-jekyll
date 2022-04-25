@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Træningsprogrammer: fullbody og splitprogrammer til styrketræning"
-permalink: /traeningsprogrammer/
+permalink: /styrketraeningsprogrammer/
 excerpt: "Find et effektivt og gratis træningsprogram til styrketræning, der passer perfekt til dine behov. Få dit eget program. Vi har både klassiske styrketræningsprogrammer, fx fullbody, splitprogrammer, 2-splitprogram og 3-splitprogram."
 comments: false
 toc: true
@@ -18,7 +18,7 @@ faq:
     answer: "Et godt styrketræningsprogram fokuserer på basisøvelser, som udføres med god bevægelseskvalitet og tilpas hårdt i forhold til dine mål. De fleste vil få mere ud af at træne med 1-3 gentagelser i overskud end til failure. En ugentlige volumen 6-20 sæt for den enkelte muskelgruppe vil være passende. De bedste træningsprogrammer har også en plan for, hvordan man fra uge til uge kan lave [progression og progressivt overload](/progressionsmodeller-progressivt-overload/)."
 ---
 
-Find et gratis træningsprogram til styrketræning mellem vores klassiske styrketræningsprogrammer. Sørg for at programmet passer netop til dine behov.
+Find et gratis [træningsprogram](/traeningsprogrammer/) til styrketræning mellem vores klassiske styrketræningsprogrammer. Sørg for at programmet passer netop til dine behov.
 
 Når du skal finde et effektivt og gratis træningsprogram til styrketræning, så skal du huske at tilpasse det til dine behov og din tid. Hvis du er på udkig efter [løbeprogrammer så kig her](/loebeprogrammer/).
 
