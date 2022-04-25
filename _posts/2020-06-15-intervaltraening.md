@@ -25,6 +25,8 @@ Jeg nyder selv at bruge intervaltræning, når jeg forsøger at forbedre min kon
 
 **Intervaltræning styrker dit kredsløb og kondition effektivt, fordi du er i stand til at arbejde med en højere intensitet i din træning. Formålet med intervaltræning er ofte at arbejde med både det aerobe og det anaerobe energisystem.**
 
+Læs denne guide først, så du får en grundlæggende forståelse for intervaltræning, og hvad intervaller kan bruges til i træningen. Hvis du er på udkig efter specifikke intervaller til løb og cykling, så tjek [intervaltræning til løb](/intervallob-intervaltraening/) og [intervaltræning til cykling](/intervaltraening-cykling/).
+
 ## Hvad er intervaltræning?
 
 Intervaltræning styrker dit kredsløb og kondition effektivt, fordi du er i stand til at arbejde med en højere intensitet i din træning. Formålet med intervaltræning er ofte at arbejde med både det aerobe og det anaerobe energisystem.

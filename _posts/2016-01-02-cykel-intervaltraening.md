@@ -24,67 +24,66 @@ Intervaller kan være en effektiv træningsform til cykling, hvis du gerne vil u
 
 Men hvordan kan du bruge [intervaltræning](/intervaltraening/) til cykling? Lad os kigge på den nyeste videnskab om emnet.
 
+## Intervaltræning til cykling
+
 Når du skal vælge intervaller til cykling, så skal du først og fremmest kigge på, hvad formålet med intervallerne er. Her får du nogle eksempler på forskellige typer intervaller:
 
 ## Kondital-intervaller og træning af den maksimale iltoptagelse
 
+Formålet med disse intervaller er at flytte den maksimale iltoptagelse. Her er et par eksempler på nogle cykelintervaller til at flytte din VO<sub>2</sub>-max.
 
+### 40/20-intervaller
 
-Formålet med disse intervaller er at 
+Disse intervaller er egentlig enkle. Du kører omkring din maksimale iltoptagelse i intensitet i 40 sekunder. Derefter har du aktiv hvile i 20 sekunder. Det gentager du 6-12 gange, hvorefter du tager en længere pause på fx 6-10 minutter, hvor du ruller stille og roligt. Pulsen vil stille og roligt kravle opad i løbet af intervallerne, så den mindst kommer over 90% af maxpulsen. Det er dog klart lettest at køre intervallerne med den rette intensitet, hvis du har en wattmåler, som du kan køre efter.
 
-Alaphillipe intervaller
+Du kører 2-3 sæt af 40/20-intervaller:
 
-https://landevejscykling.dk/cykel-traeningsprogram-koer-intervaller-som-profferne/
+- 40 sekunder omkring den maksimale iltoptagelse
+- 20 sekunders pause
+- Gentages 6-12 gange
+- Hold 6-10 minutters pause mellem de enkelte sæt
 
-Leopard-Trek intervallerne / 40-20
-Disse intervaller blev afsløret i en TV-dokumentar, der fulgte Leopard-Trek, da de var på deres højeste. Intervallerne er såkaldte Vo2-max intervaller. Det betyder, at du øger din iltoptagelse, hvilket også er en måde at måle formen på,  da en høj iltoptagelse er nødvendigt for at være en god cykelrytter.
+Intervallerne skal ligge i træningszonen for maksimal iltoptagelse. Det er omkring 106-120% af FTP eller 86-92% af din makspuls (pulsen skal lige vænne sig til belastningen, så den vil først være på plads efter 3-4 gentagelser).
 
-Intervallerne er meget simple: kør 40 sekunder, pause 20 sekunder. Gentag 6-12 gange og hold derefter en længere pause på 5-10 minutter og lav derefter et eller to sæt til af dem. Pulsmæssigt skal du i løbet af de første 2-3 40-sekunders ligge omkring 86-87% af makspuls, mens du i løbet af de sidste par 40-sekunders skal ligge over 90% af makspuls. Wattmæssigt skal du prøve at køre samme watt i den første 40-sekunders, som du kører i den sidste 40-sekunders. Du skal ligge i din Vo2-max zone, som er 106-120% af din FTP. Hvis du ikke ved, hvad FTP er kan du læse lidt mere om den i denne guide til Stages wattmåler.
-
-2-3 sæt af:
-40 sekunder aktiv
-20 sekunder pause
-Hold 5-10 minutters pause i mellem hvert sæt
-Pulsmæssigt 86-92% af makspuls (progressivt for hver 40-sekunders)
-Wattmæssigt 106-120% af FTP
+{% comment %}
 
 https://www.dgi.dk/cykling/cykling/discipliner-og-aktiviteter/landevejscykling/artikler/boost-din-cykelform-med-intervaltraening
 
 https://vorespuls.dk/landevejscykling/artikler/cykling-saet-fart-paa-med-intervaller
 
+{% endcomment %}
+
 ## Tærskel-intervaller til de anaerobe tærskel
 
 Længere tempointervaller har til formål at skubbe til den anaerobe tærskel. Du kan strukturere disse intervaller på mange forskellige måde. Du skal arbejde omkring din FTP, som du bl.a. kan finde med en [trappetest](/trappetest-cykel/).
 
-**Læs**: [FTP: Functional Threshold Power til cykling](/ftp-cykling/)
+Professionelle cykelryttere kan måske ligge på intervallet i 1-2 timer, men os andre skal køre det i mindre afdelinger.
 
 Eksempler på tærskelintervaller:
 
-Fuglsang-intervallet / 1 1/2-2 timers tempokørsel
-Fuglsang fortalte på et tidspunkt i et interview, at det ikke altid var lige sjovt at være professionel cykelrytter. Han forklarede, at det kunne være svært at sætte sig op til at køre et 2-timers tempointerval, hvor man ligger på de samme konstante watt igennem hele intervallet.
+- 4 x 8 minutter på FTP
+- 2 x 20 minutter
 
-Intervallet er nok mest egnet for professionelle cykelryttere, da det vænner rytterens krop til at køre i lang tid i tempozonen, som svarer til at ligge i feltet til et cykelløb.
+Du kan både køre intervallerne baseret på din puls, eller endnu bedre hvis du har adgang til en wattmåler på cyklen, så får du den rette belastning.
 
-Har du mod på at prøve det, skal du ligge 1 1/2-2 timer 75-80% af makspuls. Så konstant som muligt. Kører du med watt er det 76-90% af FTP.
+**Læs**: [FTP: Functional Threshold Power til cykling](/ftp-cykling/)
 
-Utrolig trivielt og kedeligt og ingen overraskelse at Fuglsang også synes dette. Men sikkert også utrolig effektivt for de professionelle.
+## Anaerobe intervaller med mælkesyretolerance
 
-## Anaerobe intervaller med mælkesyreproduktion
+### Lange anaerobe sprints med mælkesyreproduktion
 
-‘Going long’-spurter af 30 sekunder
-Vil du blive en bedre sprinter?
+Cykelløb bliver ofte vundet i en sprint enten i felt eller mellem et par ryttere. Denne type sprints kan du gå _all out_ i 30 sekunder ligesom den brutale [Wingate-test](/wingate/). Det føles fint i 10 sekunder, men derefter så bliver det virkelig hårdt.
 
-Så kan det anbefales at prøve 30-sekunders intervallerne. De er meget simple: kør alt hvad du kan i 30 sekunder. Fuld skrald, lige fra starten.
+Hvis du er helt mast til sidst og har blodsmag i munden, så har du kørt intervallerne helt rigtigt. Derefter holder du 5-10 minutters pause, hvor du får pulsen helt ned og føler dig udhvilet til at kunne køre igen. Det er rigtig vigtigt, at du har en rigtig lang pause, så du kan træde mange watt igen.
 
-Typisk går de første 10-15 sekunder hurtigt, og du føler virkelig, at du kører derudaf, men de sidste 10-15 sekunder er drabelige.
+Sådan laver du lange sprintintervaller:
 
-Kan du smage metal til sidst, har du kørt dem rigtigt. Lav dem tre gange med 5-10 minutters pause i mellem. Du skal være helt frisk til hver spurt. Du skal få pulsen helt ned i mellem hver spurt og føle dig klar til at køre næste, så du kan køre så høje watt som muligt.
+- 30 sekunders _all out_ sprint
+- 5-10 minutters aktiv resitution
 
-De træner dig virkelig i at lave nogle utrolig lange spurter. Lidt som hvis du åbner spurten lidt for tidligt i et cykelløb, men træner du dem nok, kan du lave nogle sindssyge spurter, hvor du kan åbne spurten tidligt og suse forbi konkurrenterne.
+Disse intervaller kan du ikke bruge pulsen til at se effekten af, da du kører et godt stykke over den maksimale iltoptagelse.
 
-30 sekunders spurt fuld skrald
-5-10 minutters pause i mellem hver
-Glem pulsen. Har du watt, kør så høje watt du kan lige fra starten og prøv så at holde dem.
+{% comment %}
 
 ## Sprint-intervaller for maksimal power
 
@@ -92,16 +91,19 @@ https://www.bikegeek.dk/intervaller-hurtigere-paa-cyklen/
 
 https://landevejscykling.dk/intervaltraening-cykling/
 
+{% endcomment %}
+
 {% comment %} todo: gennemskriv {% endcomment %}
 
-I et australsk studie tog man udgangspunkt i 41 trænede mandlige cyklister, og opdelte dem i fire grupper – tre med intervention af intervaltræning, og en kontrolgruppe som fortsatte den normale træning. Studiets formål var at belyse om der var målbar forskel på grupperne, og hvilke fysiologiske ændringer der kunne spores på deltagerne.
+## Mere om cykelintervaller
+
+I et australsk studie tog man udgangspunkt i 41 trænede mandlige cyklister, og opdelte dem i fire grupper. Tre med intervention af intervaltræning, og en kontrolgruppe som fortsatte den normale træning. Studiets formål var at belyse om der var målbar forskel på grupperne, og hvilke fysiologiske ændringer der kunne spores på deltagerne.
 
 Forsøgspersonerne skulle supplere deres daglige træning med 8 sessioner af intervaller fordelt på 4 uger. De havde alle fulgt et program med moderat intensitet på omkring 80% af den maksimale iltoptagelse og ikke udført styrketræning i interventionsperioden.
 
 Grupperne 1 til 3 forbedrede sig 4,4-5,8 procent på en 40 kilometer enkeltstart og 3,0 – 6,2 procent på peak power output (højeste effekt i en test med stigende modstand – 15 watt pr. 30 sekunder). Desuden var der også en signifikant stigning i [maxpuls]({% link _posts/2020-06-02-max-hr.md %}), og evnen til at tolerere [mælkesyre]({% link _posts/2020-08-24-maelkesyre.md %}) ved en 40 kilometer enkeltstart. Overført vil dette betyde at de hårde intervaller gradvist vil opleves som mindre belastende.
 
 Ud fra studiet kan det konkluderes, at [høj intensitets intervaltræning (HIT)]({% link _posts/2020-09-22-hiit.md %}) er en yderst effektiv træningsform, der både øger evnen til at køre med moderat og højt tempo. Det kan dog ikke ud fra dette studie bevises hvilken form for træning som giver det bedste resultat.
-
 
 ## Specifikke cykelløb intervaller
 
@@ -139,6 +141,8 @@ Det kræver lidt planlægning, hvis du gerne vil køre køre intervaltræning p�
 
 Brug en [ruteplanlægger](/ruteopmaaler-loebetur/) inden du cykler afsted, så du ved, at du kommer ud på nogle strækninger, hvor der fx er cykelsti og mindre trafikeret uden sideveje, krydsende veje og lyskryds. Så kan du fokusere på at give den gas på cyklen.
 
+{% comment %}
+
 ## Udstyr til intervaltræning cykling
 
 ## Intervaltræning på hometrainer
@@ -146,6 +150,8 @@ Brug en [ruteplanlægger](/ruteopmaaler-loebetur/) inden du cykler afsted, så d
 ## Intervaller på motionscykel
 
 http://marinaaagaardblog.com/2015/08/14/inspirerende-intervaltraening-tidseffektiv-sundhedsfremmende-konditionstraening-pa-cykel/
+
+{% endcomment %}
 
 ## Konklusion
 
