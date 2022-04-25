@@ -1,7 +1,7 @@
 ---
 title: &title "Cykeltræning: Effektiv intervaltræning til cykling 🚴🚴‍♀️"
 seo_title: "Cykeltræning: Effektiv intervaltræning til cykling"
-excerpt: "Men hvordan kan du bruge intervaltræning til cykling? Vi kigger på den nyeste videnskab om emnet."
+excerpt: "Men hvordan kan du bruge intervaltræning til cykling? Vi kigger på den nyeste videnskab om emnet og du får en række cykelintervaller, som du kan bruge i praksis allerede i dag."
 permalink: /intervaltraening-cykling/
 language: da
 header:
