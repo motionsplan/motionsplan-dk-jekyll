@@ -359,7 +359,7 @@ Når du vil træne din maksimale iltoptagelse, så er det hårdt, og du skal arb
 
 *[HRR]: Heart Rate Reserve
 
-For at træne maksimal iltoptagelse mest effektivt, så skal du i gang med [intervalløb og intervaltræning]({% link _posts/2020-06-15-intervallob.md %}). Typisk vil intervallerne ligge på 2-5 minutter ad gangen for at opnå den bedste effekt af træning i dit løbeprogram.
+For at træne maksimal iltoptagelse mest effektivt, så skal du i gang med [intervalløb]({% link _posts/2020-06-15-intervallob.md %}) og [intervaltræning](/intervaltraening/). Typisk vil intervallerne ligge på 2-5 minutter ad gangen for at opnå den bedste effekt af træning i dit løbeprogram.
 
 Du kan enten bruge pauser, der er omkring 50-90% af arbejdstiden, eller du kan holde pauser hvor du holder øje med, at din puls kommer ned under 60% af din HRR-puls.
 

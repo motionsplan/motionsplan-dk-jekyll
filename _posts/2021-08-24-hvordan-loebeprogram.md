@@ -216,17 +216,19 @@ Når du vil træne din maksimale iltoptagelse, så er det hårdt, og du skal arb
 
 *[HRR]: Heart Rate Reserve
 
-For at træne maksimal iltoptagelse mest effektivt, så skal du i gang med [intervalløb og intervaltræning]({% link _posts/2020-06-15-intervallob.md %}).
+For at træne maksimal iltoptagelse mest effektivt, så skal du i gang med [intervalløb]({% link _posts/2020-06-15-intervallob.md %}) og [intervaltræning](/intervaltraening/).
 
 Du kan arbejde med din maksimale iltoptagelse på flere forskellige måder. Det afgørende er, at intensiteten er høj nok. Den intensive del af træningen vil typisk vare mellem 16-24 minutter.
 
 Lad os kigge på lidt metoder, som kan bruges til at flytte den maksimale iltoptagelse.
 
-#### Intervaltræning
+#### Intervaltræning og intervalløb
 
 Når man laver [intervalløb]({% link _posts/2020-06-15-intervallob.md %}) veksler man mellem arbejdsperioder og hvileperioder. Arbejdsperioderne når man arbejder med VO<sub>2</sub>max skal have en varighed på 2-5 minutter for at opnå en god effekt af din træning. Det kan fx være 5 x 4 minutters intervaller med en pause på 3 minutter mellem hvert interval.
 
 Du kan enten bruge pauser, der er omkring 50-90% af arbejdstiden, eller du kan holde pauser hvor du holder øje med, at din puls kommer ned under 60% af din HRR-puls.
+
+**Læs**: [Komplet guide til intervaltræning](/intervaltraening/)
 
 Tempoet i de enkelte arbejdsperioder skal være det samme. Derfor skal du ikke lægge for hårdt ud på de første intervaller. Antallet af intervaller afhænger naturligvis af den aktuelle form.
 

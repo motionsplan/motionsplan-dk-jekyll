@@ -19,8 +19,6 @@ tags:
   - løbeøkonomi
   - styrketræning
   - løb
-  - kondition
-  - intervaltræning
 last_modified_at: 2021-04-29T17:14:14Z
 toc: true
 feature_row:

@@ -78,7 +78,7 @@ På løbebåndet er det bånder, der flytter sig under fødderne, så du skal ba
 
 En af fordelene ved løbebåndet er, at det er rigtig let at lave systematiske intervaller i et bestemt tempo. Hvis du ikke følger båndets hastighed, så ender det jo med at du ryger af båndet. Jeg plejer selv under hurtige intervaller at hoppe ud til siden med fødderne, men hvis jeg løber lidt længere intervaller, så skruer jeg bare ned for tempoet til mit pausetempo, når intervallet er slut.
 
-Jeg har skrevet lidt mere om [intervalløb og intervaltræning](/intervallob-intervaltraening/), som du kan lade dig inspirere af, når du tager en tur på løbebåndet.
+Jeg har skrevet lidt mere om [intervalløb](/intervallob-intervaltraening/) og [intervaltræning](/intervaltraening/), som du kan lade dig inspirere af, når du tager en tur på løbebåndet.
 
 De fleste oplever, at det er mindre hårdt for knæene at løbe på løbebånd end udenfor. Jeg kan godt lide, at tempoet er sat, og man ikke skal tænke så meget over at holde tempoet. Men jeg har helt sikkert brug for lidt adspredelse undervejs, når jeg løber, så det ikke bliver kedeligt på løbebåndet.
 

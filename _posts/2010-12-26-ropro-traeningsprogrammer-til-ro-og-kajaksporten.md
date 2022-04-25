@@ -12,11 +12,11 @@ tags:
   - træning
   - roning
   - kajak
-  - rotræning
   - konditionstræning
   - kondition
   - træningsprogram
   - anaerob træning
+  - aerob træning
   - intervaltræning
 category:
   - Kondition
@@ -32,11 +32,13 @@ feature_row:
     rel: sponsored nofollow noopener
 ---
 
-Jeg har været på udkig efter et træningsprogram til indendørs roning på romaskine, og heldigvis kender jeg en ekspert i forskellige roprogrammer, intervaller og intervaltræning. Bliv helt klar til din rotræning ved at sammensætte dit eget træningsprogram!
+Jeg har været på udkig efter et træningsprogram til indendørs roning på romaskine. Heldigvis kender jeg en ekspert i forskellige roprogrammer. Bliv helt klar til din rotræning ved at sammensætte dit eget træningsprogram!
 
 Jeg vil gerne i gang med at ro lidt på romaskine for at genvinde lidt af min kondition. Derfor skrev jeg til Anders Krintel, som ved virkelig meget om at ro, og han var så venlig at give mig nogle af de bedste intervalprogrammer fra hans hjemmeside om rotræning.
 
 {% include figure image_path="https://cdn.syd.bazo.dk/images/d467169d-7c43-4290-9087-64eb76ce87c2/d/16-9/s/1029" caption="Anders Krintel er redaktør af [ropro.dk](http://ropro.dk/). Samtidig har Krintel været dansk mester omkring 40 gange kombineret i kano, kajak og kajakergometer. Anders har kigget på et et indendørs træningsprogram til din rotræning og roning med intervaltræning" alt="Anders Krintel om roprogrammer og intervaller" %}
+
+Jeg kan godt afsløre, at Anders Krintel har en forkærlighed for [intervaller og intervaltræning](/intervaltraening/), så sådan er alle træningsforslagene her bygget op.
 
 Formålet med dette indlæg er, at du selv at blive i stand til at udvælge intervaller til dit træningsprogram. Du kan naturligvis også bare ro kontinuerligt på romaskinen, men jeg kan godt lide at bryde min rotræning ned i intervaller.
 
@@ -93,7 +95,7 @@ Hårdheden af de enkelte træningspas bliver bestemt af den intensitet du bruger
 
 --- <cite>[Anders Krintel](http://www.ropro.dk)</cite>
 
-Alle intervallerne er konstrueret som [intervaltræning]({% link _posts/2020-06-15-intervallob.md %}), men det er intensiteten og indsatsen i de enkelte intervaller, der bestemmer det samlede udbytte på [energisystemerne]({% link _posts/2019-11-14-energisystemer-101.md %}).
+Alle intervallerne er konstrueret som [intervaltræning](/intervaltraening/), men det er intensiteten og indsatsen i de enkelte intervaller, der bestemmer det samlede udbytte på [energisystemerne]({% link _posts/2019-11-14-energisystemer-101.md %}).
 
 ## Intervaller til roning og rotræning
 

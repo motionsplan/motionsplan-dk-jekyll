@@ -50,7 +50,7 @@ Lad os først lige få definitionerne på plads.
 Intensiteten i konditionstræning kan måles som regel ved hjælp af pulsen. Pulsen er antallet
 af hjerteslag per minut eller beats per minute (BPM).
 
-Når træningsintensiteten stiger i arbejdet, så stiger pulsen også. Hvis du laver **kontinuerligt arbejde** så er pulsen nogenlunde konstant, men pulsen vil også under [intervaltræning](/intervallob-intervaltraening/) i de enkelte intervaller komme op i nogenlunde samme niveau.
+Når træningsintensiteten stiger i arbejdet, så stiger pulsen også. Hvis du laver **kontinuerligt arbejde** så er pulsen nogenlunde konstant, men pulsen vil også under [intervaltræning](/intervaltraening/) i de enkelte intervaller komme op i nogenlunde samme niveau.
 
 Pulsen bliver altså et mål for hvilken intensitet, du arbejder med. For at bestemme den relative arbejdsintensitet i arbejde, så skal man kende personens maksimale puls og også gerne hvilepulsen.
 

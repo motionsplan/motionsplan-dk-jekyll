@@ -143,7 +143,7 @@ Gang er ikke bedre en andre aktiviteter til at forbrænde mange kalorier, men fo
 
 Hvor meget du forbrænder ved en given aktivitet hænger nøje sammen med varigheden og intensiteten.
 
-Om det er bedst at lave [kontinuerlig træning eller intervaltræning](/artikel/er-kontinuerlig-traening-eller-intervaltraening-bedst-for-fedtforbraendningen) afhænger bl.a. også af tidsforbruget i træningen. Du kan faktisk også organisere din gåtur som intervaltræning for at sætte forbrændingen op. Du kan naturligvis ikke forbrænde lige så meget, som du kan ved fx løb eller cykling, hvor du kan køre med meget højere intensitet.
+Om det er bedst at lave [kontinuerlig træning eller intervaltræning](/artikel/er-kontinuerlig-traening-eller-intervaltraening-bedst-for-fedtforbraendningen) afhænger bl.a. også af tidsforbruget i træningen. Du kan faktisk også organisere din gåtur som [intervaltræning](/intervaltraening/) for at sætte forbrændingen op. Du kan naturligvis ikke forbrænde lige så meget, som du kan ved fx løb eller cykling, hvor du kan køre med meget højere intensitet.
 
 ## Kalorieberegner for gang
 

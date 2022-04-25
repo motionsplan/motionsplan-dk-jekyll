@@ -30,16 +30,16 @@ feature_row:
     btn_label: Få Google Sheets
 ---
 
-*[PPO]: Peak Power Output (watt)
-*[RPP]: Relative Peak Power Output (watt/kg)
-*[AF]: Anaerobic fatigue / fatigue index (%)
-*[AC]: Anaerobic Capacity (watt/30 sek)
-
 Wingate 30 sekunders _all out_ test på et cykelergometer har vist sig at være en valid og reliabel måde at estimere den anaerobe kapacitet og power på.
 
 Wingate-testen er meget tidseffektiv, fordi den normalt kun køres en gang. Samtidig er den let at forstå, fordi du skal køre alt, hvad du kan i hele perioden. Testen er til gengæld også ultrahård.
 
 Der findes forskellige variationer af testen, men testen er en valid og reliabel test til at sige noget om forsøgspersonens anaerobe kapacitet og power.
+
+*[PPO]: Peak Power Output (watt)
+*[RPP]: Relative Peak Power Output (watt/kg)
+*[AF]: Anaerobic fatigue / fatigue index (%)
+*[AC]: Anaerobic Capacity (watt/30 sek)
 
 ## Hvad er Wingate anaerobe test?
 
