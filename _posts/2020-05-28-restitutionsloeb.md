@@ -32,11 +32,17 @@ Du kan bruge en langsom løbetur som _aktiv_ restitution. Du kan bruge nogle af 
 
 Restitutionsløb er en rigtig god måde at gøre dig klar til at træne igen. Samtidig får du lidt flere kilometer i benene.
 
+{% include video provider="youtube" id="25anI0tacE0" %}
+
 Når du bruger restitutionstræning i dit [løbeprogram](/loebeprogrammer/), skal du altså være opmærksom på, at du ikke løber med for høj intensitet. Jeg kan godt lide at bruge pulsen for at sikre mig, at jeg ikke løber for hurtigt.
 
-## Udførelse af restitutionsl
+## Udførelse af restitutionsløb
 
 Restitutionsløb er et roligt løb, hvor du arbejder med en intensitet som svarer til omkring 50-60% af din [pulsreserve]({% link _posts/2019-10-31-hrzones-puls.md %}). Du kan løbe et restitutionsløb fra 20 minutter til 60 minutter alt efter din nuværende form.
+
+Du kan læse lidt mere om, hvor langsomme dine restitutionsløb egentlig skal være her.
+
+{% include video provider="youtube" id="rXnwPjUWQ3g" %}
 
 ## Hyppighed og mængde
 
