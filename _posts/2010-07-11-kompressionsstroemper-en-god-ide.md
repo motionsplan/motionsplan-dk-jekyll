@@ -174,7 +174,7 @@ Det er jo interessant, at kompressionsstrømper også kan virke for cyklister, m
 
 Strømperne skal købes efter størrelse på læggen, ikke skostørrelsen. Du bør derfor købe dem et sted, hvor de ved dette og ikke bare kigger efter din skostørrelse. Det første de skal tænke er: hvor er målebåndet, så jeg kan måle din læg.
 
-[Sahva har en grundig oversigt](https://www.sahva.dk/private/kompression-og-stoettestroemper/forskellen-paa-kompressionsstroemper-og-stoettestroemper/) over, hvad forskellen er på støttestrømper, rejsestrømper, løbestrømper, kompressionsstrømper og lymfødemstrømper.
+[Sahva](https://www.sahva.dk/private/kompression-og-stoettestroemper/forskellen-paa-kompressionsstroemper-og-stoettestroemper/) har en grundig oversigt over, hvad forskellen er på støttestrømper, rejsestrømper, løbestrømper, kompressionsstrømper og lymfødemstrømper.
 
 ## Hvad er det mest effektive pres i kompressionsstrømper?
 
@@ -201,10 +201,10 @@ Vi glæder os til at se mere forskning om kompressionsstrømper, og hvis du kan 
 
 {% include feature_row type="left" %}
 
-## Referencer om kompressionsstrømper
+## Referencer
 
 <details markdown="1">
-  <summary>Se referencer om {{ page.title }}</summary>
+  <summary>Se referencer</summary>
 
 - Ali, A., M. P. Caine, og B. G. Snow. 2007. “Graduated Compression Stockings: Physiological and Perceptual Responses during and after Exercise”. Journal of Sports Sciences 25 (4): 413–19. <https://doi.org/10.1080/02640410600718376>.
 - Berry, Michael J., og Robert G. Mcmurray. 1987. “Effects of graduated compression stockings on blood lactate following an exhaustive bout of exercise.” American journal of physical medicine.

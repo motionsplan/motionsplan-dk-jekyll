@@ -39,11 +39,11 @@ Det gælder om at finde et passende forhold mellem træningstid og intensitet, s
 
 ## Er intervaltræning mere effektivt for fedtforbrændingen?
 
-Vi har tidligere [advokeret for at intervaltræning giver en bedre træningseffekt end kontinuerlig træning på mindre tid](/artikel/4-minutters-haard-intervaltraening-bedre-end-en-times-moderat-loeb). Flere steder foreslår man, at [intervaltræning også er overlegent ift. fedtforbrænding](http://www.alun.dk/traening/high-intensity-interval-training.html), men er det korrekt?
+Vi har tidligere advokeret for at [intervaltræning giver en bedre træningseffekt end kontinuerlig træning](/artikel/4-minutters-haard-intervaltraening-bedre-end-en-times-moderat-loeb) på mindre tid. Flere steder foreslår man, at intervaltræning også er overlegent ift. fedtforbrænding, fx hos[alun.dk](http://www.alun.dk/traening/high-intensity-interval-training.html), men er det korrekt?
 
-**Er intervaltræning mere effektiv fedtforbrænding end kontinuerlig træning, når man skal tabe sig og lave sin kropskomposition om?** (via [Young](http://www.tmuscle.com/free_online_article_issue/issue_636?s=indexTitle#interval-training-doesn-t-work))
+**Er intervaltræning mere effektiv fedtforbrænding end kontinuerlig træning, når man skal tabe sig og lave sin kropskomposition om?**
 
-Studier har vist forbedringer i forbrændingen i mitochondrierne og forøget stofskifte efter aktiviteten, når man laver intervaltræning. Det indikerer et større potentiale for fedtforbrænding efter intervaltræning. Men hvordan ser videnskaben egentlig på dette?
+Studier har ifølge [Young](http://www.tmuscle.com/free_online_article_issue/issue_636?s=indexTitle#interval-training-doesn-t-work) vist forbedringer i forbrændingen i mitochondrierne og forøget stofskifte efter aktiviteten, når man laver intervaltræning. Det indikerer et større potentiale for fedtforbrænding efter intervaltræning. Men hvordan ser videnskaben egentlig på dette?
 
 Da jeg oprindeligt skrev denne artikel i 2010 var der ikke så meget evidens, men der er senere kommet et godt studium, som svarer ret præcist på spørgsmålet: Er den samlede efterforbrænding på et døgn højere, hvis du laver rigtig hård intervaltræning?
 

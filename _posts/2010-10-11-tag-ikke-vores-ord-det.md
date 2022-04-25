@@ -108,7 +108,7 @@ Her er et par humoristiske eksempler på korrelationer, som næppe er kausale å
 
 Eller at [risikoen for at blive viklet ind i sit lagen og dø og salget af ost](https://medium.com/@menaka_17260/will-your-bedsheet-kill-you-if-you-consume-cheese-aka-does-correlation-imply-causation-5453c6901b88):
 
-{% include figure image_path="https://miro.medium.com/max/912/0*13a3q6hWpsLBnNtr." caption="Der er en korrelation mellem salget af ost og dødsfald efter at være blevet viklet ind i sit lagen. Kausalitet? Næppe! - via [tylervigen.com](http://www.tylervigen.com/spurious-correlations). " %}
+{% include figure image_path="https://miro.medium.com/max/912/0*13a3q6hWpsLBnNtr." caption="Der er en korrelation mellem salget af ost og dødsfald efter at være blevet viklet ind i sit lagen. Kausalitet? Næppe! Kilde: [tylervigen.com](http://www.tylervigen.com/spurious-correlations)." %}
 
 Endelig en af de helt berømte eksempler på korrelationer er [korrelationen mellem druknede og film med Nicolas Cage](https://www.nationalgeographic.com/science/phenomena/2015/09/11/nick-cage-movies-vs-drownings-and-more-strange-but-spurious-correlations/):
 
