@@ -78,8 +78,6 @@ Intervalløb kan sammensættes på mange forskellige måder. Hvordan du sammens�
 - Lange intervaller, mellem pauser. Intervallerne er lange (mere end 2 minutter) og pauserne er halvdelen af intervallet.
 - Korte intervaller med korte pauser. Intervallerne er under 1 minut og pauserne er omkring halvdelen af arbejdstiden.
 
-### Korte intervaller, lange pauser
-
 Hvis du arbejder med korte intervaller og lange pauser, så rammer du det anaerobe energisystem. Pausen gør at musklerne bliver klar til at yde en præstation med en høj intensitet igen.
 
 Et eksempel er sprint-intervaller med 6 sekunders sprint og 1-3 minutters pause. Jeg har ikke medtaget denne type intervaller i skemaet over intervaller.
@@ -106,7 +104,7 @@ Jeg kan også godt lide at lave 6-10 s **bakkesprints** med en god pause. Igen e
 
 Endelig har jeg løbet mange **4 minutters-intervaller**, hvor jeg har arbejdet med min maksimale iltoptagelse. Det er virkelig hårdt undervejs, men overskueligt, fordi man ved, at man har pause “lige om lidt”.
 
-I det hele taget kan jeg godt lide at løbe intervaller, og hvis jeg kunne holde til det, så vill jeg nok kun gøre det. Jeg er dog blevet mere og mere opmærksom på også at arbejde med **kontinuerlig træning med lavere intensiteter** for at arbejde med den aerobe base og de fysiologiske tilpasninger, der sker i den zone. Men også for at kunne holde til den hårdere træning.
+I det hele taget kan jeg godt lide at løbe intervaller, og hvis jeg kunne holde til det, så ville jeg nok kun gøre det. Jeg er dog blevet mere og mere opmærksom på også at arbejde med **kontinuerlig træning med lavere intensiteter** for at arbejde med den aerobe base og de fysiologiske tilpasninger, der sker i den zone. Men også for at kunne holde til den hårdere træning.
 
 Lige nu handler det om intervaltræning, så lad os se nogle metoder samlet i et skema.
 
@@ -172,7 +170,7 @@ Efter nogle uger, så kan du måske løbe 1 kilometer, hvorefter du går i to mi
 
 ## Mål effekten af din træning
 
-Jeg foreslår, at du gradvist introducerer en type intervaltræning, som du holder fast i 6-8 uger. Hvis du før og efter sørger for at lave en test, fx med en løbedistance eller en [anden af vores konditionstests]({% link _posts/2019-11-04-kondition-og-test.md %}), så kan du se, om træningen hjælper dig.
+Intervalløb skal introduceres gradvist. Prøv at holde fast i en specifik metode i 6-8 uger. Hvis du før og efter laver en løbetest, fx på en bestemt løbedistance eller fx [coopers 12 minutters løbetest](/cooper-test/), så kan du se, om træningen hjælper dig.
 
 {% comment %}
 ## Effektive intervalprogrammer til intervaltræningen
