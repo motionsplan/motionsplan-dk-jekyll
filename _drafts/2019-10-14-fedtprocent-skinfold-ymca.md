@@ -26,13 +26,13 @@ feature_row:
     btn_class: "btn--success"
 ---
 
-*[YMCA]: Young Men's Christian Association
-
 YMCA hudfoldstesten er en af de mest anvendte metoder til måling af fedtprocent. Den har den fordel, at man frit kan vælge om lår-målingen skal indgå. Det kan nemlig godt være besværligt at lave lårmålingen - og det kan være forbundet blufærdighed også.
 
-## Instruktion
+*[YMCA]: Young Men's Christian Association
 
-Mål hudfoldstykkelsen med en fedttang 4 steder:
+## Hvordan laver man målingerne?
+
+Mål hudfoldstykkelsen med en fedttang fire steder på kroppen:
 
 - på maven ved navlen
 - midt på triceps

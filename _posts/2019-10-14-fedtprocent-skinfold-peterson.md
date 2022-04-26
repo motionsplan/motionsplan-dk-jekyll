@@ -49,6 +49,8 @@ Se mere i den originale artikel af [Peterson et al (2003)](https://academic.oup.
 
 For at estimere fedtprocenten så skal der både for mænd og kvinder måles hudfolde på fire steder. Hudfolden skal måles ved triceps, ved skulderbladets nederste spids, lige over hoftekammen og midt på låret.
 
+{% include figure image_path="/assets/images/fedtprocent/peterson.png" caption="Her skal der måles til Peterson-formlen for fedtprocent for voksne." alt="peterson fedtprocent målinger for børn" %}
+
 ## Udregn din fedtprocent med Peterson et al.-beregneren
 
 {% include calculate-fatpercent-skinfold-peterson.html %}

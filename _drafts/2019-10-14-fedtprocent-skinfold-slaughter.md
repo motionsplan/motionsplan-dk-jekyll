@@ -1,6 +1,6 @@
 ---
-title: "Slaugther formlen - Fedtprocent fra hudfold hos børn"
-permalink: /skinfold-slaughter/
+title: "Slaugther formlen: Fedtprocent for børn med fedttang"
+permalink: /slaughter-fedtprocent-boern/
 excerpt: "Slaugther formlen er bl.a. anvendt i studier af danske skolebørn og kræver en måling ved triceps og på skulderbladsspidsen."
 language: da
 header:
@@ -27,20 +27,32 @@ feature_row:
     btn_class: "btn--success"
 ---
 
-Slaughter har udviklet en relativt enkel og pålidelig måde at estimere fedtprocenten på hos børn ved at måle hudfoldstykkelsen to forskellige steder, nemlig ved triceps og på skulderbladsspidsen.
+Slaughter har udviklet en relativt enkel og pålidelig måde at estimere fedtprocenten på hos børn ved at måle hudfoldstykkelsen kun to forskellige steder. Hudfoldene skal måles midt på triceps og på skulderbladsspidsen.
+
+Slaugther formlen er bl.a. anvendt i studier af danske skolebørn og kræver en måling ved triceps og på skulderbladsspidsen.
+
+Hvis du skal måle fedtprocenten for voksne, så tjek en af de de andre [fedtprocentmålinger med fedttang for voksne](/skinfold/).
+
+## Slaughter eller Lohman formlen?
+
+Målingerne minder meget om [Lohman formlen](/lohman-fedtprocent-boern/), og Slaughter og Lohman har lavet en del arbejde sammen. Hvorfor formlerne er forskellige baseret på de samme målinger, er det ikke lykkes mig at finde af.
 
 ## Instruktion til Slaughter-formlen
 
-Mål hudfoldstykkelsen med en fedttang. Mål midt på triceps og lige under skulderbladsspidesen.
+Mål hudfoldstykkelsen med en fedttang. Mål midt på triceps og lige under skulderbladsspidsen.
+
+{% include figure image_path="/assets/images/fedtprocent/slaughter-boern.png" caption="Her skal der måles til Slaughter-formlen for fedtprocent for børn." alt="slaughter fedtprocent målinger for børn" %}
+
+## Slaughter fedtprocent beregner for børn
 
 {% include calculate-fatpercent-skinfold-children-slaughter.html %}
 
-## Noter om Slaughter-formlen
+## Formlen bag Slaughter-beregningen
 
 Der er forskellige formler for drenge i forhold til, hvor langt fremme de er i puberteten. I denne udregner har vi brugt formlen for [Tanner 1](http://www.scientificspine.com/spine-scores/tanner-scale.html).
 
-| Drenge | %Fat = 1.21 * (triceps + subscapular) - 0.008 * (triceps + subscapular)<sup>2</sup> - 1.7 |
-| Piger  | %Fat = 1.33 * (triceps + subscapular) - 0.013 (triceps + subscapular)<sup>2</sup> - 2.5 |
+| Drenge | Fedtprocent = 1,21 * (triceps + subscapular) - 0,008 * (triceps + subscapular)<sup>2</sup> - 1.7 |
+| Piger  | Fedtprocent = 1,33 * (triceps + subscapular) - 0,013 (triceps + subscapular)<sup>2</sup> - 2,5 |
 
 ## Referencer
 
