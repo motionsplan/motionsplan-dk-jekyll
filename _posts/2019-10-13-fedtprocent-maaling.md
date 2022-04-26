@@ -133,9 +133,7 @@ Jeg har skrevet mere om [bioimpedansmålinger her]({% link _posts/2019-10-14-fed
 
 Når du har valgt en metode til at måle din fedtprocent, så får du et tal. Men hvad kan du så bruge tallet til efterfølgende?
 
-Jeg har ikke kunnet finde nogle retningslinjer for fedtprocent, som er etableret over hele verden.
-
-Tabellen nedenunder indeholder normerne for fedtprocent for mænd og kvinder, som bliver brugt af [American Council on Exercise (ACE)](https://www.acefitness.org/education-and-resources/lifestyle/tools-calculators/percent-body-fat-calculator/).
+Tabellen nedenunder indeholder [normerne for fedtprocent for mænd og kvinder](/fedtprocent-normer/), som bliver brugt af [American Council on Exercise (ACE)](https://www.acefitness.org/education-and-resources/lifestyle/tools-calculators/percent-body-fat-calculator/).
 
 | Klassifikation         | Kvinde (% fedt) | Mand (% fedt) |
 |------------------------|-----------------|---------------|
@@ -150,19 +148,11 @@ Tabellen nedenunder indeholder normerne for fedtprocent for mænd og kvinder, so
 
 {% include figure image_path="https://4.bp.blogspot.com/-nOLwVUh5HaQ/XUuHz1AD3PI/AAAAAAAAStE/HWTJneEhKDElIU_yvxsKezZjh6D3Z_frQCLcBGAs/s1600/BodyFatRangeChartLarge.jpg" caption="Fedtprocent for voksne mænd og kvinder baseret på WHO BMI guidelines ([Gallagher 2000](https://www.researchgate.net/publication/12354988_Healthy_percentage_body_fat_ranges_An_approach_for_developing_guidelines_based_on_body_mass_index))" alt="Hvordan måler jeg min fedtprocent? Fedtprocent for mænd og kvinder" %}
 
+Jeg dykker endnu mere ned i, hvad [hvad en normal fedtprocent er for mænd og kvinder?](/fedtprocent-normer/).
+
 ## Ofte stillede spørgsmål om måling af fedtprocent
 
 {% include faq.html %}
-
-## Oversigt over målemetoder
-
-{% assign site_posts = site.posts | where: "category", "Test" | where: "tags", "kropskomposition" | where_exp: "post", "post.url != page.url" | sort: "date" %}
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
 
 ## Mere om at måle fedtprocent og kropskomposition
 

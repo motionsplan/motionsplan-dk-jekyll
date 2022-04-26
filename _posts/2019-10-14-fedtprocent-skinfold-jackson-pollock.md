@@ -76,12 +76,12 @@ Nevill et al (2008) rapporterer både om 7-punktsmålingen og 3-punktsmålingen.
 
 ## Konklusion
 
-Jeg har skrevet et uddybende indlæg om at [måle skinfolds med fedttang]({% link _posts/2019-10-14-fedtprocent-skinfold.md %}).
+Jeg har skrevet et uddybende indlæg om at [måle skinfolds med fedttang]({% link _posts/2019-10-14-fedtprocent-skinfold.md %}). Når du har bestemt fedtprocenten, så vil du måske tjekke, hvad en [normal fedtprocent er for mænd og kvinder](/fedtprocent-normer/)?
 
 Husk at testen udelukkende estimerer din fedtprocent. Testen er ikke et startskud til en [slankekur]({% link _posts/2020-09-04-slankekur.md%}), fordi du skal opnå en tilfældig [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}) fra en beregner.
 {: .notice .notice--info }
 
-## Andre formler til måling af fedtprocent
+## Andre formler til hudfoldsmålinger
 
 {% assign site_posts = site.posts | where: "tags", "skinfold" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 

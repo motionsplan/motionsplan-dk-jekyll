@@ -152,7 +152,7 @@ Det betyder, som med alle andre typer måling af fedtprocent, at du skal tage de
 
 ## Konklusion
 
-Resultatet fra en Inbody bioimpedansmåler er meget imponerende. Men husk at fortolke resultatet rigtigt. Du skal ikke gå på [slankekur]({% link _posts/2020-09-04-slankekur.md%}) på baggrund af tallene fra en tilfældig maskine.
+Resultatet fra en Inbody bioimpedansmåler er meget imponerende. Men husk at fortolke resultatet rigtigt. Du skal ikke gå på [slankekur]({% link _posts/2020-09-04-slankekur.md%}) på baggrund af tallene fra en tilfældig maskine. Du kan sammenligne dit resultat med [normal fedtprocent for mænd og kvinder](/fedtprocent-normer/).
 
 Måske rammer du allerede din [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}), hvor din krop har det godt, du føler overskud, er stærk og hurtig.
 

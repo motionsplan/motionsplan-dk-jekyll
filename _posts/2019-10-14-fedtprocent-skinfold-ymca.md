@@ -39,15 +39,19 @@ Mål hudfoldstykkelsen med en fedttang fire steder på kroppen:
 - lige over hoftebenskammen
 - foran på låret _(Hvis lår-målingen giver problemer - enten pga. af problemer med at få en defineret hudfold eller pga. af tøj - så kan man vælge at udelade denne måling.)_
 
-Angiv værdierne i beregneren nedenunder.
+{% include figure image_path="/assets/images/fedtprocent/ymca.png" caption="Her skal der måles til YMCA-formlen for fedtprocent." alt="ymca fedtprocent målinger" %}
 
-{% include figure image_path="https://web.archive.org/web/20150403143250im_/http://www.motion-online.dk/images/2012/ymca_skinfold_250.jpg" caption="Skinfold measurement sites" %}
+## YMCA fedtprocent beregner
+
+Angiv værdierne i beregneren nedenunder.
 
 {% include calculate-fatpercent-skinfold-ymca.html %}
 
-## Baggrund
+## Formel til YMCA
 
 YMCA hudfoldstesten er baseret på Jackson & Pollocks formler. Formlerne er dog specielt tilpasset til YMCA og gjort enklere, så både mænd og kvinder vurderes ud fra de samme målepunkter. Samtidig kan lårmålingen let ekskluderes. Validiteten i testen påvirkes kun ganske lidt af at udelade låret.
+
+Når du har beregnet din fedtprocent, så kan du tjekke en [normal fedtprocent i vores tabel](/fedtprocent-normer/).
 
 ## Referencer
 
