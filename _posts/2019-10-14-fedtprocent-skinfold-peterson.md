@@ -31,7 +31,7 @@ feature_row:
 
 Peterson 4-punktsmåling er en nyere formel til hudfoldsmåling til bestemmelse af fedtprocent baseret på 4-komponentmodellen for kropskomposition.
 
-Peterson et al (2003) har baseret deres formel på baggrund af en [4-komponentmodel for kropskomposition]({% link _posts/2019-10-14-kropskomposition.md %}).
+Peterson et al (2003) er bare en af de måder, som man kan vælge til at [måle skinfolds med fedttang]({% link _posts/2019-10-14-fedtprocent-skinfold.md %}). Peterson et al (2003) har baseret deres formel på baggrund af en [4-komponentmodel for kropskomposition]({% link _posts/2019-10-14-kropskomposition.md %}).
 
 Bestemmelsen af 4-komponentmodellen er baseret på tre forskellige metoder, som forskerne har knyttet sammen til en formel, de anser for at være præcis til at bestemme den præcise fordeling af vævstyperne.
 
@@ -58,17 +58,7 @@ For at estimere fedtprocenten så skal der både for mænd og kvinder måles hud
 Husk at testen udelukkende estimerer din fedtprocent. Testen er ikke et startskud til en [slankekur]({% link _posts/2020-09-04-slankekur.md%}), fordi du skal opnå en tilfældig [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}) fra en beregner.
 {: .notice .notice--info }
 
-Jeg har skrevet et uddybende indlæg om at [måle skinfolds med fedttang]({% link _posts/2019-10-14-fedtprocent-skinfold.md %}).
-
-## Andre formler til måling af fedtprocent
-
-{% assign site_posts = site.posts | where: "tags", "skinfold" | where_exp: "post", "post.url != page.url" | sort: "date" %}
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+Jeg har skrevet et uddybende indlæg, hvor du kan se flere [formler til at bestemme fedtprocent baseret på måling af skinfolds med fedttang]({% link _posts/2019-10-14-fedtprocent-skinfold.md %}).
 
 ## Køb en tang til hudfoldsmålinger
 

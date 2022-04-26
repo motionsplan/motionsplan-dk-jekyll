@@ -44,9 +44,13 @@ Der er forskellige formler for drenge i forhold til, hvor langt fremme de er i p
 
 ## Referencer
 
+<details markdown="1">
+  <summary>Se referencer</summary>
+
 - Slaughter, M. H., T. G. Lohman, R. A. Boileau, C. A. Horswill, R. J. Stillman, M. D. Van Loan, og D. A. Bemben. 1988. “Skinfold Equations for Estimation of Body Fatness in Children and Youth”. Human Biology 60 (5): 709–23.
 - Boye, Kai R., Triantafillia Dimitriou, Friedrich Manz, Eckhard Schoenau, Christina Neu, Stefan Wudy, og Thomas Remer. 2002. “Anthropometric Assessment of Muscularity during Growth: Estimating Fat-Free Mass with 2 Skinfold-Thickness Measurements Is Superior to Measuring Midupper Arm Muscle Area in Healthy Prepubertal Children”. The American Journal of Clinical Nutrition 76 (3): 628–32. <https://doi.org/10.1093/ajcn/76.3.628>.
 - Wedderkopp, N., K. Froberg, H. S. Hansen, og L. B. Andersen. 2004. “Secular Trends in Physical Fitness and Obesity in Danish 9-Year-Old Girls and Boys: Odense School Child Study and Danish Substudy of the European Youth Heart Study”. Scandinavian Journal of Medicine & Science in Sports 14 (3): 150–55. <https://doi.org/10.1111/j.1600-0838.2004.00365.x>.
+</details>
 
 ## Køb en hudfoldsmåler
 

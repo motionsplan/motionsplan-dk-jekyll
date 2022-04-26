@@ -119,7 +119,9 @@ Der findes også en række forslag til, hvordan man kan bestemme fedtprocenten m
 
 En fedttang kan være et udmærket værktøj, hvis du har behov for at følge en fremgang. Hvis du øver dig i at bruge en fedttang, så kan du med ret stor sikkerhed reproducere din hudfoldsmåling over tid. Fedttangen giver ikke den præcise fedtprocent, men kan være rimelig pålidelig i forhold til at estimere ændringerne i hudfoldstykkelsen over tid.
 
-Jeg har skrevet mere om [måling af fedtprocent baseret på hudfoldstykkelser målt med fedttang]({% link _posts/2019-10-14-fedtprocent-skinfold.md %}).
+Jeg har skrevet mere om [.
+
+**Læs**: [Måling af fedtprocent med hudfoldsmålinger og fedttang]({% link _posts/2019-10-14-fedtprocent-skinfold.md %})
 
 ### 7. Måling af fedtprocent med bioimpedans
 
@@ -131,7 +133,7 @@ Jeg har skrevet mere om [bioimpedansmålinger her]({% link _posts/2019-10-14-fed
 
 Når du har valgt en metode til at måle din fedtprocent, så får du et tal. Men hvad kan du så bruge tallet til efterfølgende?
 
-Jeg har ikke kunnet finde nogle retningslinjer for fedtprocent, som er etableret over hele verden. 
+Jeg har ikke kunnet finde nogle retningslinjer for fedtprocent, som er etableret over hele verden.
 
 Tabellen nedenunder indeholder normerne for fedtprocent for mænd og kvinder, som bliver brugt af [American Council on Exercise (ACE)](https://www.acefitness.org/education-and-resources/lifestyle/tools-calculators/percent-body-fat-calculator/).
 
@@ -154,7 +156,7 @@ Tabellen nedenunder indeholder normerne for fedtprocent for mænd og kvinder, so
 
 ## Oversigt over målemetoder
 
-{% assign site_posts = site.posts | where: "category", "Test" | where: "tags", "kropskomposition" |where_exp: "post", "post.url != page.url" | sort: "date" %}
+{% assign site_posts = site.posts | where: "category", "Test" | where: "tags", "kropskomposition" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}

@@ -33,7 +33,7 @@ Lohman-formlen er en enkel måling af fedtprocent hos børn mellem 8-18 år. Den
 
 Mål hudfoldstykkelsen med en fedttang.
 
-- **Triceps**. Mål midt på triceps fra toppen af skulderen (acromium) og albuen (olecranon). 
+- **Triceps**. Mål midt på triceps fra toppen af skulderen (acromium) og albuen (olecranon).
 - **Læggen**. Mål på indersiden af læggen på det tykkeste sted af læggen af højre ben.
 
 Mål tre gange hvert sted og brug gennemsnittet af de tre målinger for at få en mere præcis måling.
@@ -49,10 +49,14 @@ Jeg bruger i beregneren formlen som præsenteres på [www.topendsports.com](http
 | Drenge | % Body Fat = 0.735 (Triceps + Calf) + 1.0 |
 | Girls  | % Body Fat = 0.610 (Triceps + Calf) + 5.1 |
 
-## Reference
+## Referencer
+
+<details markdown="1">
+  <summary>Se referencer</summary>
 
 - Lohman, T.G.: The use of skinfolds to estimate body fatness on children and youth. Journal of physical education, recreation and dance, 58(9):67, 69, 1987.
 - Slaughter, M. H., T. G. Lohman, R. A. Boileau, C. A. Horswill, R. J. Stillman, M. D. Van Loan, og D. A. Bemben. 2014. “Skinfold Equations for Estimation of Body Fatness in Children and Youth”. Human Biology 60 (5). <https://digitalcommons.wayne.edu/humbiol/vol60/iss5/4>.
+</details>
 
 ## Køb en hudfoldsmåler
 

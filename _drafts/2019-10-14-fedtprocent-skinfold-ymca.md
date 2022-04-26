@@ -1,7 +1,7 @@
 ---
-title: "YMCA metoden - Mål fedtprocent med fedttang (hudfold)"
+title: "YMCA metoden - Mål fedtprocent med fedttang"
 permalink: /skinfold-ymca/
-excerpt: "YMCA-metoden er baseret på Jackson & Pollock formlerne, men specielt tilpasset YMCA’s behov, således at mænd og kvinder måles på de samme punkter og lår-målingen nemt kan udelades, hvis den volder problemer. Vi anbefaler denne beregner til de fleste fitness- og sundhedsformål."
+excerpt: "YMCA-metoden er baseret på Jackson & Pollocks formler, men specielt tilpasset YMCA's behov. Det betyder, at mænd og kvinder måles på de samme punkter, og hvis det volder problemer at måle på låret, så kan den måling let udelades."
 language: da
 header:
   overlay_image: https://www.ubershape.com.au/wp-content/uploads/2017/05/35A2528-1024x683.jpg
@@ -32,7 +32,7 @@ YMCA hudfoldstesten er en af de mest anvendte metoder til måling af fedtprocent
 
 ## Instruktion
 
-Mål hudfoldstykkelsen med en fedttang 4 steder: 
+Mål hudfoldstykkelsen med en fedttang 4 steder:
 
 - på maven ved navlen
 - midt på triceps
@@ -47,11 +47,15 @@ Angiv værdierne i beregneren nedenunder.
 
 ## Baggrund
 
-YMCA hudfoldstesten er baseret på Jackson & Pollocks formler. Formlerne er dog specielt tilpasset til YMCA og gjort enklere, så både mænd og kvinder vurderes ud fra de samme målepunkter. Samtidig kan lårmålingen let ekskluderes. Validiteten i testen påvirkes kun ganske lidt af at udelade låret. 
+YMCA hudfoldstesten er baseret på Jackson & Pollocks formler. Formlerne er dog specielt tilpasset til YMCA og gjort enklere, så både mænd og kvinder vurderes ud fra de samme målepunkter. Samtidig kan lårmålingen let ekskluderes. Validiteten i testen påvirkes kun ganske lidt af at udelade låret.
 
 ## Referencer
 
+<details markdown="1">
+  <summary>Se referencer</summary>
+
 - Golding, Lawrence A. 2000. Ymca Fitness Testing and Assessment Manual. 4. udg. Human Kinetics Publishers. Set 10. november 2019. <https://www.amazon.com/Ymca-Fitness-Testing-Assessment-Manual/dp/0736033165>.
-- Jackson, A. S., og M. L. Pollock. 2004. “Generalized Equations for Predicting Body Density of Men. 1978”. The British Journal of Nutrition 91 (1): 161–68.
+- Jackson, A. S., og M. L. Pollock. 2004. “[Generalized Equations for Predicting Body Density of Men. 1978](https://www.ncbi.nlm.nih.gov/pubmed/14748950)”. The British Journal of Nutrition 91 (1): 161–68.
+</details>
 
 {% include feature_row type="left" %}

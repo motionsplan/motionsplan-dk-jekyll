@@ -34,8 +34,8 @@ feature_row:
 
 US Navy har udarbejdet denne metode til at beregne fedtprocenten på baggrund af nogle enkelte målinger, som du let kan lave med et målebånd.
 
-Navy-metoden er et alternativ til en anden [måling af fedtprocent med målebånd](/fedtprocent-maalebaand/), som er udformet af McArdle og Katch (1973) og Tran (1998 og 1999). 
-Der findes andre [måder at måle din fedtprocent](/maal-fedtprocent/), som du også kan kigge på.
+Navy-metoden er et alternativ til en anden [måling af fedtprocent med målebånd](/fedtprocent-maalebaand/), som er udformet af McArdle og Katch (1973) og Tran (1998 og 1999).
+Der findes andre [måder at måle sin fedtprocent](/maal-fedtprocent/), som du også kan kigge på.
 
 Fedtprocenten er estimeret på denne måde for alle, der gerne vil ind til US Navy, fordi de har nogle specifikke krav til soldaternes fedtprocent.
 

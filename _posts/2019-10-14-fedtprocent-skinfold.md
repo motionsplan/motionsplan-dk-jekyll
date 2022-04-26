@@ -40,7 +40,7 @@ feature_row:
 
 Det er meget udbredt at bruge en fedttang til at måle hudfoldstykkelser rundt omkring på kroppen for at bestemme fedtprocenten. Man bruger tykkelsen af hudfolderne til ved hjælp af en formel at estimere, hvor meget fedt man i alt har på kroppen.
 
-Jeg har kigget lidt på, hvad man skal være opmærksom på i forbindelse med måling af fedtprocent med hudfoldsmålinger og fedttang - og så har jeg lavet beregnere til de mest udbredte metoder.
+Hudfoldsmålinger er en måde at [måle fedtprocent](/maal-fedtprocent/). Jeg har kigget lidt på, hvad man skal være opmærksom på i forbindelse med måling af fedtprocent med hudfoldsmålinger og fedttang. Her kan du også finde beregnere til de mest udbredte metoder og formler.
 
 **I hudfoldsmålinger måler man tykkelsen af hudfolderne rundt omkring på kroppen med en hudfoldsmåler (fedttang). Ud fra målingerne af hudfolder udregner man kroppens densitet, og derfra forholdet mellem fedtmasse og fedtfri masse. Hudfoldsmålinger anbefales hovedsageligt til at tracke ændringer i fedtprocenten og ikke de faktiske værdier.**
 
