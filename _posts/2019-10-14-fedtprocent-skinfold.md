@@ -48,7 +48,7 @@ I forbindelse med træning og vægttab kan det være motiverende at følge ændr
 
 En måde at estimere sin fedtprocent på er ved hjælp af en fedttang, som man kan bruge til at lave en hudfoldsmåling med.
 
-## Om fedttangen
+## Om fedttangen til hudfoldsmålinger
 
 Målingerne med fedttangen skal naturligvis være til at stole på, så derfor skal:
 
