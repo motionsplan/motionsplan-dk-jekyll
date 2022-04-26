@@ -19,7 +19,7 @@ last_modified_at: 2020-05-04T21:00:54Z
 
 Jeg skal i gang med at undervise i løb igen, og i den sammenhæng er det interessant at kigge på, hvordan vi kan undgå løbeskader. Jeg kigger derfor i det følgende på, hvad der har betydning for skader i løb, og hvordan man kan forebygge løbeskader.
 
-Skader i forbindelse med løb i knæ skyldes ofte, at du løber for langt, mens skader i akillessenen kommer af at træne for intenst. Kroppen signalerer altså, om du træner rigtigt og med den bedste træningsmetode.
+Skader i forbindelse med [løbetræning](/loebesiden/) i knæ skyldes ofte, at du løber for langt, mens skader i akillessenen kommer af at træne for intenst. Kroppen signalerer altså, om du træner rigtigt og med den bedste træningsmetode.
 
 > Træningsmetoden er en vigtig komponent for at undgå skader. Meget tyder på, at korrekt dosering af træningsintensitet og -distance er vejen til færre skader.
 

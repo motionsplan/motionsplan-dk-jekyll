@@ -29,7 +29,7 @@ feature_row:
     rel: nofollow noopener
 ---
 
-Jeg kan godt lide at kombinere styrketræning, løbetræning og konditionstræning samtidigt. Det kalder man _concurrent training_, kombinationstræning eller samtidig træning. Hvordan kan man træne styrke og cardio samtidigt, og hvad er den bedste kombination?
+Jeg kan godt lide at kombinere styrketræning, løbetræning og konditionstræning. Det kalder man _concurrent training_, kombinationstræning eller samtidig træning. Hvordan kan man træne styrke og cardio samtidigt, og hvad er den bedste kombination?
 
 Først og fremmest handler det naturligvis om dine mål, hvordan du kombinerer styrketræning og løbetræning (udholdenhedstræning). Derfor er det interessant at starte med at kigge på, hvordan træningstyperne påvirker hinanden?
 

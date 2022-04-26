@@ -30,7 +30,7 @@ gallery_stryd:
 
 Jeg er hele tiden på udkig efter nye apps, der kan hjælpe mig i træningen. Jeg har været på udkig efter den bedste løbe app, og jeg har fundet nogle rigtig gode bud.
 
-Den bedste løbe app til løbetræning er naturligvis den, der dækker netop dit behov.
+Den bedste løbe app til [løbetræning](/loebesiden/) er naturligvis den, der dækker netop dit behov.
 
 Lad os dykke lidt ned i, hvad apps kan hjælpe dig med, og hvilke løbeapps til din smartphone, som er værd at kigge på.
 

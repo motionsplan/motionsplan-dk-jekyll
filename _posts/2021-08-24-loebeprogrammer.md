@@ -17,7 +17,7 @@ last_modified_at: 2021-08-22T23:14:14Z
 toc: true
 ---
 
-{{ page.excerpt }}
+Løbeprogrammer til alle niveauer. Her kan du finde et løbeprogram, der passer til dig. Der er løbetræningsprogrammer til at blive hurtigere på 5km, 10 km, halvmaraton og maraton.
 
 Der findes et hav af løbeprogrammer rundt omkring på nettet, men hvad skal man egentlig kigge efter i et godt løbeprogram?
 
@@ -27,7 +27,7 @@ Når du skal vælge et løbetræningsprogram, så er nogle af de vigtigste param
 - Hvor mange gang om ugen vil du gerne træne?
 - Hvor langt vil du gerne løbe?
 
-Målet for en løbeplan er ofte forskellige distancer. Her får du et overblik over, hvordan du kommer i gang med de enkelte distancer, og hvad du skal tænke på.
+Målet for en løbeplan er ofte forskellige distancer. Her får du et overblik over, hvordan du kommer i gang med [løbetræningen](/loebesiden/) til de enkelte distancer, og hvad du skal tænke på.
 
 ## Begynder løbeprogram
 

@@ -23,7 +23,7 @@ faq:
     answer: "Det kommer naturligvis an på hvor hurtigt du løber. Verdensrekorden for mænd er 12:35, mens den for kvinder er 14:11. Mange drømmer om at komme under 20 minutter, men det kan også tage op til en 30-40 minutter, hvis du er begynder. Du kan bruge vores [beregner til løbehastighed](/hastighed/), hvis du kender din gennemsnitsfart."
 ---
 
-{{ page.excerpt }}
+Få inspiration til din [løbetræning](/loebesiden/) på 5 km med et løbeprogram. Lær at løbe 5 km eller bliv en hurtigere løber på distancen.
 
 Der findes et hav af løbeprogrammer rundt omkring på nettet. Vi har skrevet mere om, hvad du skal kigge efter i [et godt løbeprogram]({% link _posts/2021-08-24-loebeprogrammer.md %})? I dette indlæg dykker vi specifikt ned i de væsentlige elementer, når du gerne vil lære at løbe 5 km.
 

@@ -30,9 +30,9 @@ feature_row_program:
 breadcrumbs: true
 ---
 
-Jeg har lavet et løbeprogram til dig, der er nybegynder og ikke er vant til at løbe. Løbeprogrammet er til begyndere, der gerne vil i gang med løbetræningen.
+Jeg har lavet et løbeprogram til dig, der er nybegynder og ikke er vant til at løbe. Løbeprogrammet er til begyndere, der gerne vil i gang med at løbe.
 
-Løbeprogrammet varer 16 uger og er meget overskueligt og enkelt.
+Løbeprogrammet varer 16 uger og er meget overskueligt og enkelt, så du kan komme i gang med [løbetræningen](/loebesiden/).
 
 Programmet tager højde for, at du skal bygge træningen langsomt op. Vi bruger altså træningsprincippet **progressivt overload**, så du får en god oplevelse af at komme i gang med at løbe uden at blive skadet.
 

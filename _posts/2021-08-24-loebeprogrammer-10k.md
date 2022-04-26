@@ -19,9 +19,9 @@ last_modified_at: 2021-08-22T23:14:14Z
 toc: true
 ---
 
-{{ page.excerpt }}
+Her kan du finde et løbeprogram til at komme i gang med at løbe 10 km. DU kan blive inspireret af programmet, hvis du gerne vil løbe 10 km som begynder eller træningen allerede har taget lidt mere fart.
 
-Der findes et hav af løbeprogrammer rundt omkring på nettet. Vi har skrevet mere om, hvad du skal kigge efter i [løbeprogrammer]({% link _posts/2021-08-24-loebeprogrammer.md %})? I dette indlæg dykker vi specifikt ned i de væsentlige elementer, når du gerne vil lære at løbe 10 km.
+Der findes et hav af [løbeprogrammer](/loebeprogrammer/) rundt omkring på nettet. Vi har skrevet mere om, hvordan du kan organisere din [løb og løbetræning](/loebesiden/)? I dette indlæg dykker vi specifikt ned i de væsentlige elementer, når du gerne vil lære at løbe 10 km.
 
 ## Lær at løbe 10 km
 

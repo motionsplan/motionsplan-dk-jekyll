@@ -21,11 +21,11 @@ last_modified_at: 2021-08-22T23:14:14Z
 toc: true
 ---
 
-{{ page.excerpt }}
+Løbeprogram for dig der gerne vil løbe et halvmaraton. Et løbeprogram til halvmaraton tager typisk 12-20 uger. Inden du går i gang med et løbetræningsprogram til at løbe 21 km, så sørg for at du allerede kan løbe 10 km.
 
-Der findes et hav af løbeprogrammer rundt omkring på nettet. Vi har skrevet mere om, hvad du skal kigge efter i [et løbeprogram?]({% link _posts/2021-08-24-loebeprogrammer.md %}), men her dykker vi specifikt ned i de væsentlige elementer, når du gerne vil lære at løbe 21 km og træne frem mod en halvmaraton.
+Der findes et hav af løbeprogrammer rundt omkring på nettet. Vi har skrevet mere om, hvad du skal kigge efter i [et løbeprogram]({% link _posts/2021-08-24-loebeprogrammer.md %})? Her dykker vi specifikt ned i de væsentlige elementer, når du gerne vil lære at løbe 21 km og træne frem mod en halvmaraton.
 
-Når du skal vælge et løbetræningsprogram, så er nogle af de vigtigste parametre, du skal kigge efter:
+Når du skal vælge et løbetræningsprogram, så er nogle af de vigtigste parametre, du skal kigge efter, når du skal strikke dit [løbeprogram](/loebeprogrammer/) sammen:
 
 - Hvilket niveau starter du ud på?
 - Hvor mange gang om ugen vil du gerne træne?

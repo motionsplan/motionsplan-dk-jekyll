@@ -20,7 +20,7 @@ toc: true
 Vil du undgå løbeskader så sørg for en grundig opvarmning til løb. Vi kigger her på, hvordan du kan varme op til løb med løbeøvelser, så du får varmet optimalt op inden løbeturen.
 
 Du bør mindst varme op i 10-15 minutter, så du stille og roligt kommer i gang med din løbetur.
-Opvarmningen bør være en del af din løbetræning, du skal prioritere højt. Det gælder både motionister og mere øvede løbere.
+Opvarmningen bør være en del af din [løbetræning](/loebesiden/), du skal prioritere højt. Det gælder både motionister og mere øvede løbere.
 
 Vi har skrevet en mere [generel gennemgang af opvarmning](/opvarmning/) og en specifik beskrivelse af [opvarmning til styrketræning](/opvarmning-styrketraening/).
 

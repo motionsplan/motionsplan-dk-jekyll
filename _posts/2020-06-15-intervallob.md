@@ -31,7 +31,7 @@ Hvad er intervaltræning? **Intervaltræning styrker dit kredsløb og kondition 
 
 Formålet med intervalttræning kan være flere ting. Når du løber intervaller, kan du arbejde med en højere intensitet over længere tid, fordi du har pauserne til at restituere. Du kan også bruge intervallerne til at arbejde med løbeteknik eller det anaerobe energisystem, som har brug for flere pauser til at genoplade.
 
-Hvis du gerne vil blive bedre til at løbe, så skal du have intervaller med i træningen. Det har en del fordele at lave intervalløb.
+Hvis du gerne vil blive bedre til at løbe, så skal du have intervaller med i træningen. Det har en del fordele at lave intervalløb som en del af din [løbetræning](/loebesiden/).
 
 ## Hvorfor er intervaltræning effektivt?
 
