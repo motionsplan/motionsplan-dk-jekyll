@@ -1,5 +1,5 @@
 ---
-title: "Durnin & Womersley 4-punktsmåling af fedtprocent (hudfold)"
+title: "Durnin & Womersley 4-punktsmåling af fedtprocent"
 permalink: /skinfold-durnin-womersley/
 redirect_from:
   - /durnin/

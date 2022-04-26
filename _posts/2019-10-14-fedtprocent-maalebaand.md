@@ -33,6 +33,8 @@ feature_row:
 
 Der er mange måder at måle din fedtprocent på. Denne måling af fedtprocent kræver kun et målebånd, og så skal du måle omkredsen forskellige steder på kroppen.
 
+Der findes mange andre [metoder til måling af fedtprocent](/maal-fedtprocent/), som du også kan bruge.
+
 ## Måling af fedtprocent med målebånd har følgende antagelser
 
 Testen antager, at der er steder på kroppen, som repræsenterer, hvor meget fedtfri masse en person har (underarm og læg), og andre steder, der indikerer den samlede fedtmasse (mave, overarme, hofter og lår).
