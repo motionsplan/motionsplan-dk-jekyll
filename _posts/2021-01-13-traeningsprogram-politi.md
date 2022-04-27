@@ -75,7 +75,7 @@ Bænkpres er det nemmeste at træne til uden træningsudstyr, da man kan få en 
 
 Hvis man ikke er stærk nok til at tage 5 almindelige armstrækkere kan man have hænderne på et bord så man kun løfter en ganske lille del af ens samlede kropsvægt. Er man lidt stærkere kan man have hænderne på hver sin stol eller på kanten af en sofa, for at komme tættere på gulvet. Man kan også lave armstrækkere på knæ eller med hænderne løftet.
 
-Er man allerede meget stærk kan man sætte fødderne op på en stol mens man har hænderne på gulvet, og ellers er der mange hårdere variationer af armstrækninger. Du kan se flere [forskellige variationer af armstrækninger her](https://www.motionsplan.dk/armbojninger-eller-armstraekninger-pushups/).
+Er man allerede meget stærk kan man sætte fødderne op på en stol mens man har hænderne på gulvet, og ellers er der mange hårdere variationer af armstrækninger. Du kan se flere [forskellige variationer af armstrækninger her](/armbojninger-eller-armstraekninger-pushups/).
 
 Vælger man to varianter der er meget forskellige kan man godt lave to øvelser fra denne kategori i samme træningspas og det samlede antal sæt kan derved være lidt højere (fx brede armstrækkere som øvelse 1 og pike pushups som øvelse 2, da øvelse 1 har mest fokus på brystet og øvelse 2 har mest fokus på skuldre og triceps).
 
