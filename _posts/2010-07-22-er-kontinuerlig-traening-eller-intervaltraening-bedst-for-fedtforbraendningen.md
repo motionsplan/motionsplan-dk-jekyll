@@ -20,7 +20,7 @@ last_modified_at: 2020-06-07T08:34:44Z
 
 Jeg har sat mig ned for at undersøge, om det er kontinuerlig træning med lavere intensitet eller intervaltræning med høj intensitet, der er bedst for fedtforbrændingen?
 
-[Intervaltræning](/intervaltræning/) og _high intensity training_ bliver oftere og oftere markedsført som virkelig effektivt til at sætte gang i en effektiv fedtforbrænding, fordi der er en høj efterforbrænding, mens man tidligere snakkede om en fedtforbrænding ved lavere intensiteter.
+[Intervaltræning](/intervaltraening/) og _high intensity training_ bliver oftere og oftere markedsført som virkelig effektivt til at sætte gang i en effektiv fedtforbrænding, fordi der er en høj efterforbrænding, mens man tidligere snakkede om en fedtforbrænding ved lavere intensiteter.
 
 Lad os først kigge lidt på et par grundlæggende begreber.
 

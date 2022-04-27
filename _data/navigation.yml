@@ -343,7 +343,7 @@ methods:
       - title: Tempo Contrast
         url: /styrketraening/tempo-contrast/
   - title: Maksimal styrke
-    url: /maksimal-styrketraening/
+    url:  /maksimal-styrke/
     children:
       - title: Backoff sæt
         url: /styrketraening/backoff-sets/

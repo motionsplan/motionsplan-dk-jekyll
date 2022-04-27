@@ -97,7 +97,7 @@ En anden mulighed for at sikre at du står knivskarpt og parat til at indtage de
 
 Du kan ydermere optimere og forbedre dit maksimale output ved, stille og roligt, at løfte tungere og tungere vægt, der tvinger kroppen ud i maksimal indsats, der kan sammenlignes med en sprint i cykling. Ønsker du derimod at optimere din holdning på cyklen og minimere risikoen ved skader, der i højere grad er til stede ved brug af tunge vægte, kan du også udføre øvelserne med lette vægte eller med kropsvægt. Alle disse øvelser kan også med fordel udføres i cykelshorts eller cykelbukser. Det er dog relevant at tilpasse dit træningsprogram til den type cykling du udøver, da landevejscykling trækker på andre muskelgrupper end f.eks. mountainbikes. Denne type cykling foregår typisk i skove og ujævne områder, hvor de mange stød kan belaste både arme og skulder, hvorfor disse områder også ville være hensigtsmæssige at træne.
 
-Med alt denne nye information in mente, er du klar til at indtage de danske cykelruter med et smil velvidende omkring, at du er både i fysisk god form og har den korrekte påklædning til at begive dig ud på en længere tur. Leder du efter inspiration til cykelruter i Danmark, kan du passende besøge denne side og kigge efter en [cykelrute der passer perfekt til dig](/cykelruter-danmark/) og dine lyster.
+Med alt denne nye information in mente, er du klar til at indtage de danske cykelruter med et smil velvidende omkring, at du er både i fysisk god form og har den korrekte påklædning til at begive dig ud på en længere tur. Leder du efter inspiration til cykelruter i Danmark, kan du passende besøge denne side og kigge efter en [cykelrute der passer perfekt til dig](https://www.cykel-ruter.dk/cykelruter-danmark/) og dine lyster.
 
 ## Konklusion
 
