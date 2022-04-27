@@ -16,7 +16,7 @@ author_profile: true
 author: lsolesen
 toc: true
 feature_row_strength:
-  - image_path: https://reponestrength.com/img/price-device.png
+  - image_path: https://www.reponestrength.com/hubfs/outerglow_hardware-1.png
     url: https://repone-strength.myshopify.com/lars-olesen
     title: "Repone"
     excerpt: "RepOne er opfølgeren til Open Barbell. RepOne fungerer ved at spænde en snor på stangen med en lille magnet. Formålet med RepOne er at have et prisleje, hvor den almindelige forbruger kan være med."
