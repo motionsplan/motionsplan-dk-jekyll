@@ -101,7 +101,7 @@ De endte med en meget enkelt formel til at estimere dit eget øvre potentiale fo
 - FFM<sub>max</sub> = højde (m) x højde (m) x 34
 - Muskelmasse<sub>max</sub> = højde (m) x højde (m) x 17
 
-Så kan jeg hurtigt regne ud, at jeg som 1,81 cm høj i alt kan pakke lige omkring 55 kg muskler. Jeg fik for nylig lavet en [bioimpedans kropskomposition med Body]({% link _posts/2019-10-14-fedtprocent-bioimpedans-inbody-570.md %}), som fortæller mig at jeg har 40,1 kg skeletmuskelmasse. Jeg har altså potentiale til at tage 15 kg mere muskel på.
+Så kan jeg hurtigt regne ud, at jeg som 1,81 cm høj i alt kan pakke lige omkring 55 kg muskler. Jeg fik for nylig lavet en [bioimpedans kropskomposition med InBody]({% link _posts/2019-10-14-fedtprocent-bioimpedans-inbody-570.md %}), som fortæller mig at jeg har 40,1 kg skeletmuskelmasse. Jeg har altså potentiale til at tage 15 kg mere muskel på.
 
 Jeg vil kalde mig selv letøvet i træning, fordi jeg holder lidt for mange træningspauser, og så er jeg blevet mere end 40. Hvis jeg går i gang nu, så kan jeg måske tage 4-5 kg muskelmasse på, hvis jeg virkelig fokuserer på det på det første år. Det følgende år måske maksimalt 2,5 kg og derefter bliver det bare endnu vanskeligere med under et kg om året. Jeg skal nok aldrig regne med at opfylde mit fulde potentiale ifølge denne model.
 
