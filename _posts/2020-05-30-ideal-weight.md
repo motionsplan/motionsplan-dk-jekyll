@@ -101,7 +101,7 @@ Jeg har skrevet en lang grundig artikel om [Body Mass Index (BMI)](/bmi/), som o
 
 Men husk at din vægt kan ikke betragtes som en faktuel videnskab. Begrebet om idealvægt er bare retningslinjer, som ikke tager højde for din kropsbygning, fedtprocent eller kropskomposition.
 
-Hvis du vil lære mere om kropskomposition, så har jeg skrevet et indlæg om [forskellige modeller til at beskrive kropskomposition]({% link _posts/2019-10-14-kropskomposition.md %}).
+Hvis du vil lære mere om kropskomposition, så har jeg skrevet et indlæg om forskellige [modeller til at beskrive kropskomposition]({% link _posts/2019-10-14-kropskomposition.md %}) og hvordan man kan [måle fedtprocent](/maal-fedtprocent/).
 
 ## Hvad er gennemsnitsvægt i forhold til idealvægt?
 
@@ -117,7 +117,7 @@ Hvis du har gode ideer til, hvordan jeg implementerer det arbejde i beregneren, 
 
 Din vægt er i høj grad individuel, hvilket +/- 6 kg også vidner om. Der er mange forskellige måder at udregne idealvægt på. Et er øjnene der kigger på dig i spejlet, og et andet er hvad der er den optimale vægt for at få et langt liv med færrest mulige sygdomme.
 
-På mange punkter er det ærgerligt, at idealvægt fylder så meget for mange mennesker, og at det i øjeblikket er baseret på, at man skal have en lav fedtprocent snarere end, hvad der er sundt.
+På mange punkter er det ærgerligt, at idealvægt fylder så meget for mange mennesker, og at det i øjeblikket er baseret på, at man skal have en [lav fedtprocent](/fedtprocent-normer/) snarere end, hvad der er sundt.
 
 ## Referencer
 

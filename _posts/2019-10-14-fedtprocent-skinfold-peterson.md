@@ -1,5 +1,5 @@
 ---
-title: "Peterson 4-punktsmåling af fedtprocent (hudfold)"
+title: "Peterson 4-punktsmåling af fedtprocent"
 permalink: /skinfold-peterson/
 excerpt: "Peterson 4-punktsmåling er en nyere hudfoldsmåling til bestemmelse af fedtprocent baseret på 4-komponentmodellen for kropskomposition."
 language: da
@@ -29,9 +29,9 @@ feature_row:
     rel: sponsored nofollow noopener
 ---
 
-Peterson 4-punktsmåling er en nyere hudfoldsmåling til bestemmelse af fedtprocent baseret på 4-komponentmodellen for kropskomposition.
+Peterson 4-punktsmåling er en nyere formel til hudfoldsmåling til bestemmelse af fedtprocent baseret på 4-komponentmodellen for kropskomposition.
 
-Peterson et al (2003) har baseret deres formel på baggrund af en [4-komponentmodel for kropskomposition]({% link _posts/2019-10-14-kropskomposition.md %}).
+Peterson et al (2003) er bare en af de måder, som man kan vælge til at [måle skinfolds med fedttang]({% link _posts/2019-10-14-fedtprocent-skinfold.md %}). Peterson et al (2003) har baseret deres formel på baggrund af en [4-komponentmodel for kropskomposition]({% link _posts/2019-10-14-kropskomposition.md %}).
 
 Bestemmelsen af 4-komponentmodellen er baseret på tre forskellige metoder, som forskerne har knyttet sammen til en formel, de anser for at være præcis til at bestemme den præcise fordeling af vævstyperne.
 
@@ -49,18 +49,26 @@ Se mere i den originale artikel af [Peterson et al (2003)](https://academic.oup.
 
 For at estimere fedtprocenten så skal der både for mænd og kvinder måles hudfolde på fire steder. Hudfolden skal måles ved triceps, ved skulderbladets nederste spids, lige over hoftekammen og midt på låret.
 
+{% include figure image_path="/assets/images/fedtprocent/peterson.png" caption="Her skal der måles til Peterson-formlen for fedtprocent for voksne." alt="peterson fedtprocent målinger for børn" %}
+
 ## Udregn din fedtprocent med Peterson et al.-beregneren
 
 {% include calculate-fatpercent-skinfold-peterson.html %}
 
-## Usikkerheder i Peterson
+## Usikkerheder i Peterson formlen
 
 Husk at testen udelukkende estimerer din fedtprocent. Testen er ikke et startskud til en [slankekur]({% link _posts/2020-09-04-slankekur.md%}), fordi du skal opnå en tilfældig [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}) fra en beregner.
 {: .notice .notice--info }
 
-Jeg har skrevet et uddybende indlæg om at [måle skinfolds med fedttang]({% link _posts/2019-10-14-fedtprocent-skinfold.md %}).
+Jeg har skrevet et uddybende indlæg, hvor du kan se flere [formler til at bestemme fedtprocent baseret på måling af skinfolds med fedttang]({% link _posts/2019-10-14-fedtprocent-skinfold.md %}). 
 
-## Andre formler til måling af fedtprocent
+Sammenlign den fedtprocent, du har fundet med [anbefalet fedtprocent for voksne mænd og kvinder](/fedtprocent-normer/).
+
+## Køb en tang til hudfoldsmålinger
+
+{% include feature_row type="left" %}
+
+## Andre formler til hudfoldsmålinger
 
 {% assign site_posts = site.posts | where: "tags", "skinfold" | where_exp: "post", "post.url != page.url" | sort: "date" %}
 
@@ -69,10 +77,6 @@ Jeg har skrevet et uddybende indlæg om at [måle skinfolds med fedttang]({% lin
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
-
-## Køb en tang til hudfoldsmålinger
-
-{% include feature_row type="left" %}
 
 ## Referencer til Peterson (2003)
 
