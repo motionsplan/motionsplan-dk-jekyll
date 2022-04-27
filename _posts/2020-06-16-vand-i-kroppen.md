@@ -29,7 +29,7 @@ Jeg har samlet lidt tabeller og en beregner, så du kan udregne, hvor meget vand
 
 I starten af vores liv er knap tre-fjerdedele af vores kropsvægt vand, men den begynder at dale allerede i det første år.
 
-Den faldende vandprocent gennem årene er delvist fordi din fedtprocent typisk stiger med alderen. Fedtvæv indeholder mindre vand end den fedtfrie masse. Så din kropskomposition betyder en del for andelen af vand i kroppen.
+Den faldende vandprocent gennem årene er delvist fordi din [fedtprocent typisk stiger med alderen](/fedtprocent-normer/). Fedtvæv indeholder mindre vand end den fedtfrie masse. Så din kropskomposition betyder en del for andelen af vand i kroppen.
 
 De følgende tabeller over vand i kroppen er baseret på [healthline.com](https://www.healthline.com/health/body-water-percentage#body-water-charts) repræsenterer den totale andel vand udgør af din kropsvægt, hvis du er inden for normalområdet.
 
@@ -70,7 +70,7 @@ På celleniveau fordeler vandet sig sådan:
 
 Omkring to-tredjedele af kroppens vand er inde i cellerne, mens resten er uden for cellerne. Mineraler og salte er med til at sikre den korrekte balance mellem ICF og ECF.
 
-Hvis du fx tager en DEXA-scanning eller en måling af din kropskomposition med bioimpedans, så får du et mål for den intracellulære og extracellulære vækse og en ratio mellem de to. Jeg har skrevet lidt om [bioimpedans-målinger, hvis du er interesseret i at læse det]({% link _posts/2019-10-14-fedtprocent-bioimpedans-inbody-570.md %}).
+Hvis du fx tager en DEXA-scanning eller en måling af din kropskomposition med bioimpedans, så får du et mål for den intracellulære og extracellulære væske og en ratio mellem de to. Jeg har skrevet lidt om [bioimpedans-målinger]({% link _posts/2019-10-14-fedtprocent-bioimpedans-inbody-570.md %}), hvis du er interesseret i at læse det.
 
 Den extracellulære til intracellulære væske ratio (E/I) varierer mellem 0,59 til 0,75 i raske voksne. Hvis du kommer uden for disse værdier, kan det være fordi du har inflammation i kroppen eller at du ikke har nok væske i kroppen.
 

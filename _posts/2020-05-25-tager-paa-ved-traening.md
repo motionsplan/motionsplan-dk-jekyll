@@ -110,7 +110,7 @@ I forhold til din krop og din sundhed er det rigtig godt, men hvis du fokuserer 
 
 Jeg har ofte hørt, at årsagen til at man tager på af træning er at [muskler vejer mere end fedt](/vejer-muskler-mere-end-fedt/). Muskler vejer mere end fedt, hvis det er den samme volumen, men hvis du tager 100 gram fedt og bygger 100 gram muskler op, så vejer du naturligvis det samme efterfølgende. 
 
-Når du begynder at træne, vil du langsomt bygge lidt muskler på, men det er ikke sikkert, at det erstatter fedtet med det samme. Når du bygger muskler på vi vægten altså stige lidt undervejs, hvis fedtprocenten forbliver den samme.
+Når du begynder at træne, vil du langsomt bygge lidt muskler på, men det er ikke sikkert, at det erstatter fedtet med det samme. Når du bygger muskler på vi vægten altså stige lidt undervejs, hvis [fedtprocenten](/maal-fedtprocent/) forbliver den samme.
 
 **Det er lettere at bygge muskler på, hvis du er i kalorieoverskud. Men det er ikke let at bygge muskler op. Det kræver hårdt arbejde.**
 

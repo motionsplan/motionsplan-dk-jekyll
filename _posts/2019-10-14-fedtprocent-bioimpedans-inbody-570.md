@@ -49,7 +49,7 @@ feature_row:
     rel: sponsored nofollow noopener
 ---
 
-Bioimpedans er en let måde at måle fedtprocent og kropssammensætning på. Teknologien blev kendt i løbet af 1980'erne, men præcisionen sammenlignet med 'guld-standarderne' _hydrostatisk vejning_ (vandvejning) og DEXA-scanner var ikke så høj.
+Bioimpedans er en let måde at [måle fedtprocent](/maal-fedtprocent/) og kropssammensætning på. Teknologien blev kendt i løbet af 1980'erne, men præcisionen sammenlignet med 'guld-standarderne' _hydrostatisk vejning_ (vandvejning) og DEXA-scanner var ikke så høj.
 
 Teknologien har imidlertid udviklet sig, og de nyere apparater er noget mere præcise. Mest kendt for sin præcision er _InBody_, som bl.a. i et studium viser en korrelation med DEXA-scanner på 88% ([Miller et al 2016](https://www.researchgate.net/profile/Ryan_Miller37/publication/318348260_Validating_InBody_R_570_Multi-frequency_Bioelectrical_Impedance_Analyzer_versus_DXA_for_Body_Fat_Percentage_Analysis/links/5964e3da458515183cfaaced/Validating-InBody-R-570-Multi-frequency-Bioelectrical-Impedance-Analyzer-versus-DXA-for-Body-Fat-Percentage-Analysis.pdf?origin=publication_detail)), selvom den konsekvent måler omkring 5% lavere end DEXA-scanneren.
 
@@ -152,7 +152,7 @@ Det betyder, som med alle andre typer måling af fedtprocent, at du skal tage de
 
 ## Konklusion
 
-Resultatet fra en Inbody bioimpedansmåler er meget imponerende. Men husk at fortolke resultatet rigtigt. Du skal ikke gå på [slankekur]({% link _posts/2020-09-04-slankekur.md%}) på baggrund af tallene fra en tilfældig maskine.
+Resultatet fra en Inbody bioimpedansmåler er meget imponerende. Men husk at fortolke resultatet rigtigt. Du skal ikke gå på [slankekur]({% link _posts/2020-09-04-slankekur.md%}) på baggrund af tallene fra en tilfældig maskine. Du kan sammenligne dit resultat med [normal fedtprocent for mænd og kvinder](/fedtprocent-normer/).
 
 Måske rammer du allerede din [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}), hvor din krop har det godt, du føler overskud, er stærk og hurtig.
 
