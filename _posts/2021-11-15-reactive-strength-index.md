@@ -121,7 +121,7 @@ Hvis ud har adgang til en kraftplatform eller en hoppemåtte, så er det relativ
 <details markdown="1">
   <summary>Se referencer</summary>
 
-- [Guide To Reactive Strength Index](https://www.outputsports.com/new-blog/2020/5/5/guide-to-reactive-strength-index)
+- [Guide To Reactive Strength Index](https://www.outputsports.com/educational-blogs/2020/5/5/guide-to-reactive-strength-index)
 - [The Reactive Strength Index Revisited](https://www.trainwithpush.com/blog/reactive-strength-index-revisited)
 - [The Reactive Strength Index Revisited Part II](https://www.trainwithpush.com/blog/reactive-strength-index-revisited-2)
 </details>

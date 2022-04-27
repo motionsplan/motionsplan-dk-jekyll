@@ -92,7 +92,7 @@ Det er imidlertid tydeligt, hvad en øget kadence gør i forhold til kraftpåvir
 
 {% include figure image_path="https://lermagazine.com/wp-content/uploads/2013/06/6running-Ground-reaction-force-curve.jpg" caption="Figuren viser forskellen på den vertikale belastning mellem den foretrukne kadence (sort) og øget kadence på 7,5% (røde prikker). Figuren er fra [Miller og Willy (2013)](https://lermagazine.com/article/retraining-fixes-faulty-gait-in-injured-runners)." %}
 
-[Van der Vorp et al (2016)](http://bjsm.bmj.com/content/early/2016/01/04/bjsports-2015-094924) konkluderede i deres review, at der er sammenhæng mellem kraftpåvirkningen og stressfrakturer, men der er ikke lavet særlig mange studier, der undersøger sammenhængen mellem den vertikale kraftpåvirkning og løberelaterede skader.
+[Van der Vorp et al (2016)](https://bjsm.bmj.com/content/50/8/450) konkluderede i deres review, at der er sammenhæng mellem kraftpåvirkningen og stressfrakturer, men der er ikke lavet særlig mange studier, der undersøger sammenhængen mellem den vertikale kraftpåvirkning og løberelaterede skader.
 
 ## Løbeteknik kan trænes
 

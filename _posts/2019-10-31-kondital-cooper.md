@@ -285,9 +285,8 @@ Hvis du hellere vil lave en konditionstest baseret på distance, så er [2400-me
   <summary>Se referencer til Cooper-test</summary>
 
 - Cooper, K. H. 1968. [“A Means of Assessing Maximal Oxygen Intake. Correlation between Field and Treadmill Testing”](https://pubmed.ncbi.nlm.nih.gov/5694044/). JAMA 203 (3): 201–4.
-- Grant, S., K. Corbett, A. M. Amjad, J. Wilson, og T. Aitchison. 1995. “A Comparison of Methods of Predicting Maximum Oxygen Uptake.” _British Journal of Sports Medicine_ 29 (3): 147. [https://doi.org/10.1136/bjsm.29.3.147](https://doi.org/10.1136/bjsm.29.3.147).
+- Grant, S., K. Corbett, A. M. Amjad, J. Wilson, og T. Aitchison. 1995. “A Comparison of Methods of Predicting Maximum Oxygen Uptake.” _British Journal of Sports Medicine_ 29 (3): 147. [https://bjsm.bmj.com/content/29/3/147](https://bjsm.bmj.com/content/29/3/147).
 - McCutcheon, M. C., S. A. Sticha, M. D. Giese, og F. J. Nagle. 1990. “A Further Analysis of the 12-Minute Run Prediction of Maximal Aerobic Power”. Research Quarterly for Exercise and Sport 61 (3): 280–83. <https://doi.org/10.1080/02701367.1990.10608692>.
-- Grant, S., K. Corbett, A. M. Amjad, J. Wilson, og T. Aitchison. 1995. “A Comparison of Methods of Predicting Maximum Oxygen Uptake.” British Journal of Sports Medicine 29 (3): 147. <https://doi.org/10.1136/bjsm.29.3.147>.
 - Zwiren, L. D., P. S. Freedson, A. Ward, S. Wilke, og J. M. Rippe. 1991. “Estimation of VO2max: A Comparative Analysis of Five Exercise Tests”. Research Quarterly for Exercise and Sport 62 (1): 73–78. <https://doi.org/10.1080/02701367.1991.10607521>.
 - Penry, Wilcox, Yun (2011): "Validity and reliability analysis of Cooper's 12-minute run and the multistage shuttle run in healthy adults", J Strength Cond Res, Mar;25(3):597-605. doi: 10.1519/JSC.0b013e3181cc2423. <https://pubmed.ncbi.nlm.nih.gov/20647946/>
 </details>

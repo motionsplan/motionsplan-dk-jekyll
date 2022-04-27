@@ -164,7 +164,7 @@ Jette Weimar, som også er yogainstruktør, forklarer de fem riter behageligt og
 
 Hvis du hellere vil have øvelserne **illustreret** og gennemgået på skrift, så gennemgår jeg her hvilke 5 yogaøvelser, du kommer igennem i de 5 tibetanere?
 
-{% include figure image_path="https://www.enlightened-consciousness.com/wp-content/uploads/2019/07/dreamstime_s_130021652.jpg" caption="Illustration af de fem tibetanere" alt="Illustration af de 5 tibetanske yogaøvelser" %}
+{% include figure image_path="/assets/images/blog/de-5-tibetanere-yoga-riter.jpg" caption="Illustration af de fem tibetanere. Kilde: [Peter Kelder](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-bog-1){: rel='sponsored nofollow noopener' }" alt="Illustration af de 5 tibetanske yogaøvelser" %}
 
 Øvelserne i de fem tibetanere bliver kaldt for riter. Jeg har her lavet en kort beskrivelse af de 5 riter.
 
