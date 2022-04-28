@@ -119,8 +119,6 @@ Der findes også en række forslag til, hvordan man kan bestemme fedtprocenten m
 
 En fedttang kan være et udmærket værktøj, hvis du har behov for at følge en fremgang. Hvis du øver dig i at bruge en fedttang, så kan du med ret stor sikkerhed reproducere din hudfoldsmåling over tid. Fedttangen giver ikke den præcise fedtprocent, men kan være rimelig pålidelig i forhold til at estimere ændringerne i hudfoldstykkelsen over tid.
 
-Jeg har skrevet mere om [.
-
 **Læs**: [Måling af fedtprocent med hudfoldsmålinger og fedttang]({% link _posts/2019-10-14-fedtprocent-skinfold.md %})
 
 ### 7. Måling af fedtprocent med bioimpedans
