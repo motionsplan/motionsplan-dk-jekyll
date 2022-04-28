@@ -1,9 +1,9 @@
 ---
-title: &title "Flyer handicap beregner"
+title: &title "Løbetider, alder og vægt - Flyer Handicap Beregner"
 permalink: /flyer-handicap/
 language: da
 header:
-  teaser: https://images.unsplash.com/photo-1521903062400-b80f2cb8cb9d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
+  teaser: https://images.unsplash.com/photo-1509010636466-2292663e132f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Løb
@@ -13,15 +13,28 @@ tags:
 last_modified_at: 2022-04-12T22:21:26Z
 ---
 
+Vanderburgh og Laubach har lavet en formel, så du kan sammenligne løbetider på tværs af alder og vægt.
 
-It computes our run time assuming we are 25 yrs old and weigh 110lbs (women)/ 143lbs (men). You can then compare your timings vs someone who is of a different age & weight than yours....TRY IT!
+Vanderburgh og Laubach kalder det for _Flyer Handicap_. Formlen går ud fra, at alle er 25 år gamle. Kvinderne vejer 110lbs og mændene vejer 143lbs. Derved kan du sammenligne dine tider med andre, som har forskellige alder og vægt.
+
+**Læs**: [Alder og løbetider: Sammenlign med aldersgraduerede løbetider](/aldersgraduerede-tider/)
+
+{% comment %}
+
+## Hvad er Flyer Handicap?
+
 
 
 What is the Flyer Handicap?
 The Flyer Handicap is your 5K, 10K, 1/2 Marathon or Marathon race time adjusted by age and body weight. This adjusted run time is a precise computation of what your equivalent time would be if you were younger and lighter, specifically 25 years old and 110 lbs for women and 143 lbs for men. Your resulting score can then be compared to that of any other adult runner of different age. If you are younger or lighter than these figures, then for the purposes of computing your adjusted time, the baseline figures are entered for your age and/or body weight. Dr. Paul M. Vanderburgh and Dr. Lloyd L. Laubach developed it at the University of Dayton, Dayton, OH.
 
+{% endcomment %}
+
+## Flyer Handicap Beregner
+
 {% include calculate-running-flyer-handicap.html %}
 
+{% comment %}
 
 Weight-Age-Graded Time
 *We do not assume you start losing the ability to set pr's after the age of 25. Dont take it too personally! There is a lot of science behind it so thank Paul Vanderburgh for creating this for the running community!
@@ -38,7 +51,9 @@ Click here for more Flyer Handicap information
 
 Email Paul Vanderburgh if you have feedback on the Flyer Handicap (please!)
 
+{% endcomment %}
 
+**Læs**: [Vægttab og løb: Beregn effekten af et vægttab på løbetid](/vaegttab-loebetid/)
 
 ## Referencer
 
