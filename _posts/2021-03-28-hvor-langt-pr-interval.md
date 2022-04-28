@@ -25,7 +25,7 @@ Jeg bøvler altid lidt med at finde ud af, hvor langt jeg skal løbe på de enke
 
 Jeg bruger fx [Jack Daniels løbsberegner](/loebesiden-jack-daniels-loebeberegner/) til at finde ud af, hvilke hastigheder, jeg skal løbe på de enkelte intervaller.
 
-Fra løbsberegneren får jeg så et bud på, hvilken hastighed jeg skal løbe med på de enkelte intervaller. Hvis jeg gerne vil lave et træningsprogram, hvor jeg vil flytte min [anaerobe tærskel](/anaerobe-taerskel/) eller min [maksimale iltoptagelse](/intensitet-vo2max/), så foreslår Jack Daniels, at jeg løber med en bestemt hastighed.
+Fra løbsberegneren får jeg så et bud på, hvilken hastighed jeg skal løbe med på de enkelte intervaller. Hvis jeg gerne vil lave et træningsprogram, hvor jeg vil flytte min [anaerobe tærskel](/anaerobe-taerskel/) eller min [maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/), så foreslår Jack Daniels, at jeg løber med en bestemt hastighed.
 
 Hvis vi tager udgangspunkt i nogle meget anvendte intervaller for at flytte den maksimale iltoptagelse, så vælger jeg måske at løbe 4 x 4 minutter med 2-3 minutters pause mellem de enkelte intervaller. Det er let at stille stopuret til 4 minutter. I nedenstående beregner kan du let udregne, hvor langt du skal løbe på de 4 minutter med det givne tempo.
 

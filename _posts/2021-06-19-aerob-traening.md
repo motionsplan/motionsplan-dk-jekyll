@@ -17,7 +17,7 @@ toc: true
 
 Aerob træning handler om at træne det aerobe energisystem. Det er den del af energisystemet, hvor der er ilt til stedet til forbrændingen.
 
-**Aerob**. Aerob betyder "med ilt". Når kroppen arbejder aerobt, så omsætter den kulhydrat og fedt i en forbrænding, hvor der er ilt til stede. Når man henviser til **aerob træning**, så snakker man typisk om de træningsformer, der normalt kategoriseres som konditionstræning.
+**Aerob**. Aerob betyder "med ilt". Når kroppen arbejder aerobt, så omsætter den kulhydrat og fedt i en forbrænding, hvor der er ilt til stede. Når man henviser til **aerob træning**, så snakker man typisk om de træningsformer, der normalt kategoriseres som [konditionstræning](/konditionstraening/).
 
 Jeg har skrevet mere uddybende om, [hvordan det aerobe og anaerobe energisystem hænger sammen her]({% link _posts/2019-11-14-energisystemer-101.md %}). Hvis du ledte efter [anaerob træning, som er træning uden ilt, så tjek her]({% link _posts/2021-01-02-anaerob-traening.md %}).
 
@@ -91,9 +91,9 @@ Men hvad er den aerobe power? Den aerobe power er den maksimale kraft, der kan p
 
 Eksempler på træningsmetoder til det aerobe system kunne være:
 
-### Cardiac Output
+### Udholdenhedstræning
 
-Målet er at forøge størrelsen på hjertets venstre ventrikel og derved øge hjertets kapacitet og øge slagvolumen, samt at forbedre udholdenheden af _slow twitch_-muskelfibrene.
+Denne type træning kan du lave for at forbedre udholdenheden af _slow twitch_-muskelfibrene.
 
 Pulsen bør være i området fra 130-150 slag i minuttet. Aktiviten bør tage fra 30-90 minutter. Det kan både være løb, cykling, roning eller cirkeltræning med jævn puls.
 

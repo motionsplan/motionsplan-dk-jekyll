@@ -31,7 +31,7 @@ feature_row:
     btn_class: "btn--success"
 ---
 
-Åstrands et-punktstest er en submaksimal konditionstest udført på en kondicykel. Åstrands test er baseret på en sammenhæng mellem pulsen og belastningen, og man kan med Åstrands Nomogram eller formler estimere den maksimale iltoptagelse og konditallet.
+Åstrands et-punktstest er en submaksimal [konditionstest](/test-kondition-konditest-kondital/) udført på en kondicykel. Åstrands test er baseret på en sammenhæng mellem pulsen og belastningen, og man kan med Åstrands Nomogram eller formler estimere den maksimale iltoptagelse og konditallet.
 
 Jeg beskriver i det følgende, hvad Åstrands et-punktstest er, og hvordan Åstrands test udføres?
 
@@ -49,7 +49,7 @@ Du kan vælge at køre på en af disse belastninger: 50, 75, 100, 150 eller 200 
 
 | Belastning | kp/m/min | Watt |
 |-|-|-|
-| Mænd, utrænede | 300-600 | 50-100  | 
+| Mænd, utrænede | 300-600 | 50-100  |
 | Mænd, trænede | 600-900 | 100-150 |
 | Kvinder, utrænede | 300-450 | 50-75 |
 | Kvinder, trænede | 450-600 | 75-100 |
@@ -132,7 +132,7 @@ Et alternativ til etpunktstesten er [Ekblom-Bak-testen](https://www.gih.se/ekblo
 
 <details markdown="1">
   <summary>Se referencer til Åstrand testen</summary>
-  
+
 - Åstrand, I. (1960) "Aerobic work capacity in men and women with special reference to age". Acta Physiologica Scandinavica, vol. 49, suppl 169.
 - Astrand PO, Rodahl K. Text Book of Work Physiology: Physiological basis of exercise. New York: McGraw Hill, 1986.
 - Åstrand, P.-O. & Ryhming, I. (1954) "A nomogram for calculation of aerobic capacity (physical fitness) from pulse rate during submaximal work." J Appl Physiol, 7, page 218-221.
