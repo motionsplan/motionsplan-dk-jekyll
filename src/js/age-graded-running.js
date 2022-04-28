@@ -1,6 +1,6 @@
 let motionsplan = {};
 
-// http://howardgrubb.co.uk/athletics/mldrroad20.html
+// http://howardgrubb.co.uk/athletics/mldrroad20.html <-- svarer til 2010 faktorerne for landevej
 
 motionsplan.AgeGradedRunning = function(age, sex) {
  
