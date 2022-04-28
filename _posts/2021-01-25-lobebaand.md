@@ -157,7 +157,7 @@ Hvis du fx gerne vil løbe op mod 20+ km/t, så skal løbebåndet dels have en s
 
 ## Højde og længde på løbebånd
 
-Hvis du skal have løbebåndet stående et sted med lavt til loftet, så skal du huske at tage højde for løbebåndets højde. De fleste løbebånd er i hvert fald 20 centimeter høje (generelt ligger højden mellem 15-23 centimeter). Dertil skal du lægge mindst 5-10 centimeter til højden på de personer, der skal bruge løbebåndet. 
+Hvis du skal have løbebåndet stående et sted med lavt til loftet, så skal du huske at tage højde for løbebåndets højde. De fleste løbebånd er i hvert fald 20 centimeter høje (generelt ligger højden mellem 15-23 centimeter). Dertil skal du lægge mindst 5-10 centimeter til højden på de personer, der skal bruge løbebåndet.
 
 Du skal huske at du har en svævefase, når du løber, hvor du vil være lidt højere oppe end båndet, men det er også rart ikke at være bekymret for at slå hovedet op i loftet for hvert skridt.
 
@@ -189,7 +189,7 @@ Det er for dyrt for mig at have stående hjemme, så jeg kigger selv på løbeb�
 
 ## Konklusion om løbebånd
 
-Der er altså en del ting, du skal kigge efter, når du vælger løbebånd. Jeg har skrevet et andet indlæg med [4 tips til løbebåndet i forhold til udendørs løb](/loebebaand-udendoers-loeb/). Et løbebånd er også oplagt til at bruge til [løbetests og konditionstest](/kondition/tests/), fx [Bruce løbetesten](/bruce-test/). Du kan læse meget mere om løb på [løbesiden](/loebesiden/), og det er let at lave [intervalløb]({% link _posts/2020-06-15-intervallob.md %}).
+Der er altså en del ting, du skal kigge efter, når du vælger løbebånd. Jeg har skrevet et andet indlæg med [4 tips til løbebåndet i forhold til udendørs løb](/loebebaand-udendoers-loeb/). Et løbebånd er også oplagt til at bruge til [løbetests og konditionstest](/test-kondition-konditest-kondital/), fx [Bruce løbetesten](/bruce-test/). Du kan læse meget mere om [løb og løbetræning på løbesiden](/loebesiden/), og det er let at lave [intervalløb]({% link _posts/2020-06-15-intervallob.md %}).
 
 ## Løbebånd i forskellige prisklasser
 

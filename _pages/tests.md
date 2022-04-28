@@ -19,7 +19,7 @@ header:
 
 Det er altid interessant at teste sin kondition, sin [maksimale iltoptagelse]({% link _posts/2019-11-03-intensiteten-og-vo2max.md %}) og sit [kondital](/kondital/). Her har jeg samlet alle konditionstests her på Motionsplan.
 
-Kommer jeg i bedre form og kondition? Udregn dit kondital og iltoptagelse med vores beregnere og se om du får et bedre kondital og fremgang i træningen. Du kan se en mere uddybende side om [konditionstests her](/kondition/tests/).
+Kommer jeg i bedre form og kondition? Udregn dit kondital og iltoptagelse med vores beregnere og se om du får et bedre kondital og fremgang i træningen. Du kan se en mere uddybende side om [konditionstests](/test-kondition-konditest-kondital/).
 
 {% assign site_posts = site.posts | where: "tags", "test" | where: "tags", "konditionstest" | sort: "date" %}
 
