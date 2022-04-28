@@ -24,7 +24,7 @@ toc: true
 
 Hvis du gerne vil _tracke_, om du kommer i bedre form med konditionstræning, så er der forskellige muligheder for at teste konditallet med en konditionstest. Vi har samlet konditests både på løb, cykel og roergometer.
 
-Hvordan tester jeg min kondition med en konditest? **Du kan teste dit kondital med både direkte tests i et laboratorium og indirekte tests, som du kan lave selv. Konditallet er et udtryk for, hvor god din krop er til at optage og forbruge ilt, og du kan forbedre konditallet med konditionstræning.**
+Hvordan tester jeg min [kondition](/kondition/) med en konditest? **Du kan teste dit kondital med både direkte tests i et laboratorium og indirekte tests, som du kan lave selv. Konditallet er et udtryk for, hvor god din krop er til at optage og forbruge ilt, og du kan forbedre konditallet med konditionstræning.**
 
 Men lad os dykke ned i, hvordan du tester den **maksimale iltoptagelse** og **konditallet** i det følgende. Sidst i indlægget kan du se alle de konditionstests, vi har beskrevet her på siden.
 
@@ -80,13 +80,13 @@ Jeg har lavet en side, hvor du kan se en tabel med kondital, der bør være repr
 
 ## Hvilken betydning har konditallet for sundhed og aktivitetsniveau?
 
-Man har i flere store studier ifølge [Brian Henneberg](https://www.myprotein.dk/thezone/traening/tjek-dit-kondital/) set en øget risiko for tidlig død, hvis man har et kondital på under 35 ml/kg/min for mænd og 28 ml/kg/min for kvinder. 
+Man har i flere store studier ifølge [Brian Henneberg](https://www.myprotein.dk/thezone/traening/tjek-dit-kondital/) set en øget risiko for tidlig død, hvis man har et kondital på under 35 ml/kg/min for mænd og 28 ml/kg/min for kvinder.
 
 Den nedre grænse for hvor man får problemer med at klare sig selv og komme rundt er på omkring 11 ml/kg/min. Det kan sagtens ske for ældre inaktive mennesker, der bliver syge, og hvis man først kommer derned kan det være vanskeligt at genvinde konditionen igen.
 
-Hvis ikke du holder konditionstræningen ved lige, så kan den maksimale iltoptagelse falde med 5-10% for hver 10. år. Hvis du samtidig tager lidt på i vægt bliver din kondition altså mærkbart ringere. 
+Hvis ikke du holder konditionstræningen ved lige, så kan den maksimale iltoptagelse falde med 5-10% for hver 10. år. Hvis du samtidig tager lidt på i vægt bliver din kondition altså mærkbart ringere.
 
-Hvis du gør noget aktivt, så kan du dog sagtens holde konditionen ved lige. Almindelige personer på +70 år har været i stand til at holde deres kondital oppe på mellem 40-55 ml/kg/min ved at dyrke konditionstræning. 
+Hvis du gør noget aktivt, så kan du dog sagtens holde konditionen ved lige. Almindelige personer på +70 år har været i stand til at holde deres kondital oppe på mellem 40-55 ml/kg/min ved at dyrke konditionstræning.
 
 Man har lavet studier, hvor forsøgspersonerne har ligget stille i en seng i længere tid. Her så man at konditallet er faldet med 10 ml/kg/min i løbet af bare 3 uger.
 

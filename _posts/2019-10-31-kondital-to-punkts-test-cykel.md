@@ -29,7 +29,7 @@ feature_row:
 breadcrumbs: true
 ---
 
-Åstrands to-punktstest er en submaksimal konditionstest på en ergometercykel, hvor du på baggrund af måling af belastning og puls kan estimere konditallet.
+Åstrands to-punktstest er en submaksimal [konditionstest](/test-kondition-konditest-kondital/) på en ergometercykel, hvor du på baggrund af måling af belastning og puls kan estimere konditallet.
 
 Jeg beskriver i det følgende, hvad Åstrands to-punktstest er, og hvordan testen udføres?
 

@@ -19,7 +19,7 @@ toc: true
 breadcrumbs: true
 ---
 
-Jeg satte satte mig for at prøve at lave en oversigt over, hvilke fysiologiske tilpasninger og adaptationer, der sker i kroppen, når man laver konditionstræning. Så lad os kigge på, hvad effekten er af kredsløbstræning?
+Jeg satte satte mig for at prøve at lave en oversigt over, hvilke fysiologiske tilpasninger og adaptationer, der sker i kroppen, når man laver [konditionstræning og kredsløbstræning](/konditionstraening/). Så lad os kigge på, hvad effekten er af kredsløbstræning?
 
 Konditionstræning kaldes også pulstræning, kredsløbstræning eller cardio-træning eller slet og ret _cardio_. Træningen handler naturligvis om at få kredsløbet med hjertet, lungerne og musklerne til at arbejde og sende blod rundt i systemet.
 

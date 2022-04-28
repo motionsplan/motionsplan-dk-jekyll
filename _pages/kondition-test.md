@@ -24,6 +24,8 @@ feature_row_feature:
     btn_class: "btn--info"
 ---
 
+Her har du en oversigt over alle konditionstests. Vi har skrevet et indlæg, der handler uddybende om [konditionstests og konditionstestning](/test-kondition-konditest-kondital/).
+
 {% include feature_row id="feature_row_feature" type="left" %}
 
 ## Konditionstests til løb
