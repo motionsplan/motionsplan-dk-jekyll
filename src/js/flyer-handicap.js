@@ -1,6 +1,16 @@
 let motionsplan = {};
 
-motionsplan.FlyerHandicap = function (age, weight) {
+/*
+distance = race0
+age = age0
+weight = weight0
+gender = gender1 // V3 = men - V4 = women
+hour = hour0
+minute = minute0
+second = second0
+*/
+
+motionsplan.FlyerHandicap = function (age, weight, gender) {
   function Convert() {
     var MeasurementType1, MeasurementType2, Answer, Input;
     MeasurementType1 =
@@ -156,39 +166,47 @@ motionsplan.FlyerHandicap = function (age, weight) {
     document.FrontPage_Form1.minute0.disabled = false;
     document.FrontPage_Form1.second0.disabled = false;
   }
-  function computefun() {
-    if (document.FrontPage_Form1.race0.selectedIndex != 0) {
+  function computefun(distance, hours, minutes, seconds) {
+    // distance
+    // <OPTION>5K</OPTION>
+    // <OPTION>10K</OPTION>
+    // <OPTION>1/2 Marathon</OPTION>
+    // <OPTION>Marathon</OPTION>
+
       var wtadj;
       var ageadj;
       var wtkg;
       var rt;
-      wtadj = document.FrontPage_Form1.weight0.value;
-      ageadj = document.FrontPage_Form1.age0.value;
+      wtadj = weight;
+      ageadj = age;
+  
       if (ageadj < 25) {
         ageadj = 25;
-        document.FrontPage_Form1.age0.value = ageadj;
+        // document.FrontPage_Form1.age0.value = ageadj;
       }
       rt =
-        document.FrontPage_Form1.hour0.value * 3600 +
-        document.FrontPage_Form1.minute0.value * 60 +
-        document.FrontPage_Form1.second0.value * 1;
-      if (document.FrontPage_Form1.race0.selectedIndex == 2) {
+        hours * 3600 +
+        minutes * 60 +
+        seconds * 1;
+      if (distance == '10K') {
         rt = rt / 2;
-      } else if (document.FrontPage_Form1.race0.selectedIndex == 3) {
+      } else if (distance == '1/2 Marathon') {
         rt = rt / 4.2195;
-      } else if (document.FrontPage_Form1.race0.selectedIndex == 4) {
+      } else if (distance == 'Marathon') {
         rt = rt / 8.439;
       }
+      /*
       for (pos = 0; pos <= 1; pos++) {
         if (document.FrontPage_Form1.gender1[pos].checked) {
           gender = pos;
           break;
         }
       }
-      if (pos == 0) {
+      */
+      if (gender == 'male') {
         if (wtadj < 143) {
           wtadj = 143;
-          document.FrontPage_Form1.weight0.value = wtadj;
+          //document.FrontPage_Form1.weight0.value = wtadj;
         }
         wtkg = wtadj / 2.205;
         rtadjsec =
@@ -203,10 +221,10 @@ motionsplan.FlyerHandicap = function (age, weight) {
               1.01
             )) *
           Math.pow(65 / wtkg, 1 / 3);
-      } else if (pos == 1) {
+      } else if (gender == 'female') {
         if (wtadj < 110) {
           wtadj = 110;
-          document.FrontPage_Form1.weight0.value = wtadj;
+          //document.FrontPage_Form1.weight0.value = wtadj;
         }
         wtkg = wtadj / 2.205;
         rtadjsec =
@@ -222,11 +240,11 @@ motionsplan.FlyerHandicap = function (age, weight) {
             )) *
           Math.pow(50 / wtkg, 1 / 3);
       }
-      if (document.FrontPage_Form1.race0.selectedIndex == 2) {
+      if (distance == '10K') {
         rtadjsec = rtadjsec * 2;
-      } else if (document.FrontPage_Form1.race0.selectedIndex == 3) {
+      } else if (distance == '1/2 Marathon') {
         rtadjsec = rtadjsec * 4.2195;
-      } else if (document.FrontPage_Form1.race0.selectedIndex == 4) {
+      } else if (distance == 'Marathon') {
         rtadjsec = rtadjsec * 8.439;
       }
       rtadjhour = rtadjsec / 3600;
@@ -236,10 +254,8 @@ motionsplan.FlyerHandicap = function (age, weight) {
       min = Math.floor(rtadjmin);
       sec = (rtadjmin - min) * 60;
       sec2 = Math.floor(sec);
-      document.FrontPage_Form1.hour0.value = hour;
-      document.FrontPage_Form1.minute0.value = min;
-      document.FrontPage_Form1.second0.value = sec2;
-    }
+      
+      return hour + ':' + min + ':' + sec2;
   }
   function clearall() {
     document.FrontPage_Form1.hour0.value = "";
@@ -263,8 +279,7 @@ motionsplan.FlyerHandicap = function (age, weight) {
   }
 
   let publicAPI = {
-    getMaximalOxygenUptake: getMaximalOxygenUptake,
-    getFitnessLevel: getFitnessLevel,
+    computefun: computefun,
   };
 
   return publicAPI;
