@@ -1,5 +1,7 @@
 let motionsplan = {};
 
+// http://howardgrubb.co.uk/athletics/mldrroad20.html
+
 motionsplan.AgeGradedRunning = function(age, sex) {
  
   function myarray(list) {
@@ -148,7 +150,7 @@ motionsplan.AgeGradedRunning = function(age, sex) {
 
   function getDistanceInArray(distance) {
     let dist = 0;
-    for (m = 0; m <= 43; m++) {
+    for (m = 0; m <= tmparray.length; m++) {
         if (tmparray[m].distancename == distance) {
             dist = m;
             break;
@@ -205,7 +207,8 @@ motionsplan.AgeGradedRunning = function(age, sex) {
     getBestTime : getBestTime,
     getAgeTime : getAgeTime,
     calculate : calculate,
-    getArray : getArray
+    getArray : getArray,
+    getDistanceInArray : getDistanceInArray
   };
 
   return publicAPI;

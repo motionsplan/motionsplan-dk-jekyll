@@ -53,3 +53,7 @@ Heldigvis er budskabet, at faldet afgøres af, hvor meget du træner. Du kan alt
 ## Konklusion
 
 Dette er en opdateret version af den oprindelige beregner til aldersgraduerede løbetider fra løbesiden.dk. Husk at vi har et hav af forskellige [beregnere og tests til løb](/loebesiden/).
+
+## Referencer
+
+- <http://howardgrubb.co.uk/athletics/mldrroad20.html>

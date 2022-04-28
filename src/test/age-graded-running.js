@@ -19,6 +19,26 @@ describe('AgeGradedRunning', function() {
   describe('getAgePerformance()', function() {
     it('should return the correct number', function() {
       let hr = motionsplan.AgeGradedRunning(45, 'm');
+      hr.calculate('5km landevej', 0, 19, 0);
+      assert.equal(hr.getAgePerformancePercent(), 74.61780068370729);
+    });
+  });
+  describe('getDistanceInArray()', function() {
+    it('should return the correct number', function() {
+      let hr = motionsplan.AgeGradedRunning(45, 'f');
+      assert.equal(hr.getDistanceInArray('5km landevej'), 18);
+    });
+  });
+  describe('getAgePerformance()', function() {
+    it('should return the correct number', function() {
+      let hr = motionsplan.AgeGradedRunning(45, 'f');
+      hr.calculate('5km landevej', 0, 19, 0);
+      assert.equal(hr.getAgePerformancePercent(), 84.0651163847456);
+    });
+  });
+  describe('getAgePerformance()', function() {
+    it('should return the correct number', function() {
+      let hr = motionsplan.AgeGradedRunning(45, 'm');
       hr.calculate('3km', 0, 12, 0);
       assert.equal(hr.getBestTime(), '07:20');
     });
