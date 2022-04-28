@@ -146,3 +146,37 @@ Du skal holde din træning ved lige, hvis du vil fastholde din kondition. Selv k
 {% endif %}
 
 </div>
+
+## Hvad er kondition
+
+Hvad er kondition et udtryk for
+
+## Hvordan defineres kondition og kondital?
+
+## Hvad forstår man ved iltoptagelsen?
+
+**Læs**: [Alt om den maksimale iltoptagelse og VO2max](/maksimale-iltoptagelse-vo2max/)
+
+## Mål din kondition
+
+## Hvordan kan man teste sin kondition og kondital?
+
+**Læs**: [Konditionstests]()
+
+## Beregn kondital
+
+## Hvad sker der med kroppen?
+
+**Læs**: [6 fysiologiske tilpasninger til konditionstræning](/tilpasning-konditionstraening/)
+
+## Hvad vil det sige at have en god kondition?
+
+## Hvad er dårlig kondition?
+
+## Hvor hurtigt bliver ens kondition dårligere?
+
+**Læs**: [Hvor hurtigt mister du form og kondition i en træningspause](/hvor-hurtigt-mister-form-kondition/)
+
+## Træningsprogram til konditionstræning
+
+## Kondition og intervaltræning
