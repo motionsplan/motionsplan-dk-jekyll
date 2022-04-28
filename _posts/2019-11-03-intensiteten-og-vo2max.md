@@ -1,6 +1,6 @@
 ---
 title: &title "Maksimal iltoptagelse: Alt du skal vide om at forbedre VO2 max"
-seo_title: "Maksimal iltoptagelse - Alt du skal vide om VO2 max 2021"
+seo_title: "Maksimal iltoptagelse - Alt du skal vide om VO2max"
 permalink: /maksimale-iltoptagelse-vo2max/
 redirect_from:
   - /intensitet-vo2max/
@@ -14,13 +14,13 @@ category:
 tags:
   - kondition
   - intensitet
-  - maksimale iltoptagelse
+  - maksimal iltoptagelse
   - vo2 max
 last_modified_at: 2021-03-06T23:14:14Z
 toc: true
 ---
 
-Din maksimale iltoptagelse er en af elementerne i din [kondition](/kondition/). Den maksimale iltoptagelse kalder man også VO2 max.
+Din maksimale iltoptagelse eller VO<sub>2</sub>max er en af elementerne i din [kondition](/kondition/). Den maksimale iltoptagelse kalder man også VO2 max.
 
 Hvad er den maksimale iltoptagelse (VO2 max)? **Den maksimale iltoptagelse (VO2 max) er et udtryk for, hvor meget ilt du maksimalt kan optage pr. minut. Iltoptagelsen måles i liter pr. minut.**
 
