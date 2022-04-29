@@ -63,6 +63,7 @@ const wattmax = require('../js/wattmax');
 const hr_intensity = require('../js/hr-intensity');
 const wilks = require('wilks-calculator');
 const treadmill = require('../js/treadmill');
+const flyer_handicap = require('../js/flyer-handicap');
 require('image-map-resizer');
 
 $(function() {
@@ -1049,12 +1050,12 @@ $(function() {
         console.log("Calculate Fat Percent");
         e.preventDefault();
 
-      let a = Number($("[name='age']").val());
-      let h = Number($("[name='height']").val());
-      let w = Number($("[name='weight']").val());
-      let g = $("[name='sex']:checked").val();
+        let a = Number($("[name='age']").val());
+        let h = Number($("[name='height']").val());
+        let w = Number($("[name='weight']").val());
+        let g = $("[name='sex']:checked").val();
 
-      let f = fat.CalculateFatPercent(h, w, a, g);
+        let f = fat.CalculateFatPercent(h, w, a, g);
 
         $("[name='BMI']").val(f.getBMI().toFixed(2));
         $("[name='fat_percent_durnin']").val(f.getWomersleyDurnin1977().toFixed(1));
@@ -1069,26 +1070,49 @@ $(function() {
         console.log("Calculate How Tall");
         e.preventDefault();
 
-      let father = Number($("[name='father_height']").val());
-      let mother = Number($("[name='mother_height']").val());
-      let g = $("[name='sex']:checked").val();
+        let father = Number($("[name='father_height']").val());
+        let mother = Number($("[name='mother_height']").val());
+        let g = $("[name='sex']:checked").val();
 
-      let f = how_tall.HowTall(g, father, mother);
+        let f = how_tall.HowTall(g, father, mother);
 
         $("[name='adult_height']").val(f.getHeight().toFixed(0));
     });
+    $("#calculator_flyer_handicap").submit(function(e) {
+      console.log("Calculate Flyer Handicap");
+      e.preventDefault();
+
+      let gender = $("[name='gender']").val();
+      let weight = Number($("[name='weight']").val());
+      let age = Number($("[name='age']").val());
+
+      let distance = $("[name='distance']").val();
+      let hours = Number($("[name='hours']").val());
+      let minutes = Number($("[name='minutes']").val());
+      let seconds = Number($("[name='seconds']").val());
+
+      if (gender == 'female' && weight < 50) {
+        $("[name='weight']").val(50);
+      } else if (gender == 'male' && weight < 65) {
+        $("[name='weight']").val(65);
+      }
+
+      let f = flyer_handicap.FlyerHandicap(age, weight, gender);
+
+      $("[name='fh_time']").val(f.getAdjustedTime(distance, hours, minutes, seconds));
+  });
     $("#calculator_who5").submit(function(e) {
         console.log("Calculate Eating Disorder");
         e.preventDefault();
 
-      let q1 = Number($("[name='question_1']:checked").val());
-      let q2 = Number($("[name='question_2']:checked").val());
-      let q3 = Number($("[name='question_3']:checked").val());
-      let q4 = Number($("[name='question_4']:checked").val());
-      let q5 = Number($("[name='question_5']:checked").val());
-      let score = (q1 + q2 + q3 + q4 + q5) * 4;
+        let q1 = Number($("[name='question_1']:checked").val());
+        let q2 = Number($("[name='question_2']:checked").val());
+        let q3 = Number($("[name='question_3']:checked").val());
+        let q4 = Number($("[name='question_4']:checked").val());
+        let q5 = Number($("[name='question_5']:checked").val());
+        let score = (q1 + q2 + q3 + q4 + q5) * 4;
 
-      let text;
+        let text;
 
         if (score > 49) {
             text = 'Din score på ' + score + ' ligger her inden for gennemsnittet for resten af befolkningen som er 68 med en nedre grænse omkring 50.';
@@ -1105,18 +1129,18 @@ $(function() {
         console.log("Calculate PHQ-9");
         e.preventDefault();
 
-      let q1 = Number($("[name='question_1']:checked").val());
-      let q2 = Number($("[name='question_2']:checked").val());
-      let q3 = Number($("[name='question_3']:checked").val());
-      let q4 = Number($("[name='question_4']:checked").val());
-      let q5 = Number($("[name='question_5']:checked").val());
-      let q6 = Number($("[name='question_6']:checked").val());
-      let q7 = Number($("[name='question_7']:checked").val());
-      let q8 = Number($("[name='question_8']:checked").val());
-      let q9 = Number($("[name='question_9']:checked").val());
-      let score = q1 + q2 + q3 + q4 + q5 + q6 + q7 + q8 + q9;
+        let q1 = Number($("[name='question_1']:checked").val());
+        let q2 = Number($("[name='question_2']:checked").val());
+        let q3 = Number($("[name='question_3']:checked").val());
+        let q4 = Number($("[name='question_4']:checked").val());
+        let q5 = Number($("[name='question_5']:checked").val());
+        let q6 = Number($("[name='question_6']:checked").val());
+        let q7 = Number($("[name='question_7']:checked").val());
+        let q8 = Number($("[name='question_8']:checked").val());
+        let q9 = Number($("[name='question_9']:checked").val());
+        let score = q1 + q2 + q3 + q4 + q5 + q6 + q7 + q8 + q9;
 
-      let text;
+        let text;
 
         if (score > 19) {
             text = 'Din score på ' + score + ' viser, at du har svære symptomer på depression. Du skal søge professionel hjælp, så du kan komme til en specialist, der vil hjælpe dig med at igangsætte en øjeblikkelig behandling.';

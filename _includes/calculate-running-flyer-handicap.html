@@ -1,0 +1,45 @@
+<form class="calculator" id="calculator_flyer_handicap">
+    <fieldset>
+        <legend>Alders- og vægtjusteret løbetid</legend>
+        <div class="form-group">
+            <label>Distance</label>
+            <select name="distance">
+                <option>5K</option>
+                <option>10K</option>
+                <option>1/2 Marathon</option>
+                <option>Marathon</option>
+			</select>
+        </div>
+        <div class="form-group">
+            <label>Løbetid</label>
+            <input name="hours" id="hours" type="number" min="0" max="24" class="input-mini" placeholder="timer">
+            <input name="minutes" id="minutes" type="number" min="0" max="59" class="input-mini" placeholder="min" required>
+            <input name="seconds" id="seconds" type="number" min="0" max="59" class="input-mini" placeholder="sek">
+        </div>
+        <div class="form-group">
+            <label>Alder
+                <input name="age" type="number" min="0" max="100" class="input-mini" placeholder="alder" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Vægt
+                <input name="weight" type="number" min="0" max="200" class="input-mini" placeholder="vægt" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Køn</label>
+            <select name="gender">
+		        <option value="male" selected="selected">Mand</option>
+		        <option value="female">Kvinde</option>
+		    </select>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <legend>Resultat af den justerede løbetid</legend>
+        <div class="form-group">
+            <label>Løbetid</label>
+            <input name="fh_time" type="text" disabled>
+        </div>
+    </fieldset>
+</form>

@@ -1,5 +1,6 @@
 ---
 title: &title "Tag tid på din løbetræning og bliv en bedre løber 🏃⏱"
+seo_title: "Tag tid på din løbetræning og bliv en bedre løber"
 permalink: /tag-tid-paa-loebetraening/
 language: da
 author: lsolesen
@@ -11,7 +12,6 @@ category:
   - Løb
 tags:
   - løbetræning
-  - konditionstræning
   - løb
 last_modified_at: 2020-12-03T23:14:14Z
 toc: true
