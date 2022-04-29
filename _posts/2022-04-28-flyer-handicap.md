@@ -13,9 +13,9 @@ tags:
 last_modified_at: 2022-04-12T22:21:26Z
 ---
 
-Vanderburgh og Laubach har lavet en formel, så du kan sammenligne løbetider på tværs af alder og vægt.
+Vanderburgh og Laubach har lavet en formel, så du kan sammenligne løbetider på tværs af alder og vægt. Så hvis du skal have lidt hjælp, når du gerne vil sammenligne dine tider med dine børns tider, så tjek det ud.
 
-Vanderburgh og Laubach kalder det for _Flyer Handicap_. Formlen går ud fra, at alle er 25 år gamle. Kvinderne vejer 110lbs og mændene vejer 143lbs. Derved kan du sammenligne dine tider med andre, som har forskellige alder og vægt.
+Vanderburgh og Laubach kalder det for _Flyer Handicap_. Formlen går ud fra, at alle er 25 år gamle. Kvinderne vejer ~50 kg og mændene vejer ~65 kg. Derved kan du sammenligne dine tider med andre, som har forskellige alder og vægt.
 
 **Læs**: [Alder og løbetider: Sammenlign med aldersgraduerede løbetider](/aldersgraduerede-tider/)
 
