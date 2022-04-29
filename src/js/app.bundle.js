@@ -842,7 +842,7 @@ $(function() {
       let pace_10k_run = c.convertKmtToMinPerKm(velocity_10k_run);
 
       let velocity_half_marathon_run = mm_velocity / 1.2;
-      
+
       let pace_half_marathon_run = c.convertKmtToMinPerKm(velocity_half_marathon_run);
 
       let velocity_marathon_run = mm_velocity / 1.3;
@@ -852,7 +852,7 @@ $(function() {
       let velocity_long_run = (mm_velocity / 1.55);
 
       let pace_long_run = c.convertKmtToMinPerKm(velocity_long_run);
-      
+
       $("[name='pace_long_run']").val(pace_long_run);
       $("[name='pace_5k_run']").val(pace_5k_run);
       $("[name='pace_10k_run']").val(pace_10k_run);
@@ -1091,10 +1091,22 @@ $(function() {
       let minutes = Number($("[name='minutes']").val());
       let seconds = Number($("[name='seconds']").val());
 
-      if (gender == 'female' && weight < 50) {
-        $("[name='weight']").val(50);
-      } else if (gender == 'male' && weight < 65) {
-        $("[name='weight']").val(65);
+      if (age < 25) {
+        $("[name='age']").val(25);
+      }
+
+      if (gender == 'female') {
+        if (weight < 50) {
+          $("[name='weight']").val(50);
+        }
+        $("#fh_weight").text(50);
+        $("#fh_gender").text('kvinde');
+      } else if (gender == 'male') {
+        if ( weight < 65) {
+          $("[name='weight']").val(65);
+        }
+        $("#fh_weight").text(65);
+        $("#fh_gender").text('mand');
       }
 
       let f = flyer_handicap.FlyerHandicap(age, weight, gender);
