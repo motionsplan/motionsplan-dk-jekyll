@@ -19,39 +19,33 @@ Vanderburgh og Laubach kalder det for _Flyer Handicap_. Formlen går ud fra, at 
 
 **Læs**: [Alder og løbetider: Sammenlign med aldersgraduerede løbetider](/aldersgraduerede-tider/)
 
-{% comment %}
-
 ## Hvad er Flyer Handicap?
 
+Flyer Handicap er din 5 km, 10 km, halvmaraton eller maraton konkurrencetid, som bliver justeret i forhold til alder og vægt. Den tilpassede tid er en beregning på, hvad tiden kunne have været, hvis du var 25 år og vejer 49,9 kg (110 lbs) som kvinde eller 64,9 kg (143 lbs) som mand.
 
+Resultatet kan sammenlignes med andre voksne løbere med forskellig vægt og forskellig alder.
 
-What is the Flyer Handicap?
-The Flyer Handicap is your 5K, 10K, 1/2 Marathon or Marathon race time adjusted by age and body weight. This adjusted run time is a precise computation of what your equivalent time would be if you were younger and lighter, specifically 25 years old and 110 lbs for women and 143 lbs for men. Your resulting score can then be compared to that of any other adult runner of different age. If you are younger or lighter than these figures, then for the purposes of computing your adjusted time, the baseline figures are entered for your age and/or body weight. Dr. Paul M. Vanderburgh and Dr. Lloyd L. Laubach developed it at the University of Dayton, Dayton, OH.
-
-{% endcomment %}
+Flyer Handicap er udviklet af Paul M. Vanderburgh og Lloyd L. Laubach ved University of Dayton i USA.
 
 ## Flyer Handicap Beregner
 
 {% include calculate-running-flyer-handicap.html %}
 
-{% comment %}
+**Note** Hvis du indtaster en alder under 25 i beregneren, så vil den bruge 25 år som din alder. Hvis din vægt er under de angivne kropsvægte, så vil beregneren bruge den vægt. Typisk er lavere kropsvægt ikke en fordel.
 
-Weight-Age-Graded Time
-*We do not assume you start losing the ability to set pr's after the age of 25. Dont take it too personally! There is a lot of science behind it so thank Paul Vanderburgh for creating this for the running community!
+## Alders- og vægtjusteret løbetid
 
-What is my Weight-Age-Graded Time?
-It is a statistical calculation of your "adjusted" run time (5K, 10K, 1/2 Marathon or Marathon) if you were 25 yrs old and either 110 lbs (F) or 143 lbs (M) based on your actual age, weight and run time.  In this calculation, the Flyer Handicap assumes that not only are you lighter but you are also a "scale model" of yourself and are, therefore, shorter.   
+Der sker noget med løbetiderne og konditionen med alderen, og vægten har også betydning for, hvor hurtigt man løber. Jeg har en anden beregner med [aldersgraduerede løbetider](/aldersgraduerede-tider/) og en beregner, der beregner [løbetider og vægt](/vaegttab-loebetid/). Denne formel forsøger at tage begge parametre med i en beregner.
 
-What is the science behind this Flyer Handicap? 
-The handicap is based on the documented decline in aerobic function, specifically distance run speed, due to increasing age and fat-free mass.  Download the attached PowerPoint presentation for more information.  We also have two research papers on the Flyer Handicap.  The first, which explains the derivation, is in the March 2007 issue of Measurement in Physical Education and Exercise Science.  Click here for a pdf copy.  The second, a validation study, is in the December 2006 edition of the Journal of Exercise Physiology (online).  Click here for a pdf copy.  
+Den vægt-og-alders-justerede tid er en statistisk beregning af en "justeret" løbetid på d efire distancer, så alder og vægt normaliseres. Udregningen baseres på din aktuelle vægt, alder og løbetid.
 
-Note:  If you enter age below 25 the Flyer Handicap will use 25 as your age.  If you enter weight below 110 lbs or 143 lbs for women and men, respectively, the Flyer Handicap will use 110 lbs if you are a woman and 143 lbs if you are a man.  Lower ages and weights than these are, for most runners, generally not an advantage.
+I beregningen af Flyer Handicap forudsætter ikke kun, at du er lettere, men det er en skaleret model af dig selv, så derfor er du også kortere i modellen.
 
-Click here for more Flyer Handicap information
+## Vidensskaben bag Flyer Handicap?
 
-Email Paul Vanderburgh if you have feedback on the Flyer Handicap (please!)
+Handicappet er baseret på det dokumenterede fald, der kommer i den aerobe funktion og kondition over tid. Det har betydning for løbehastigheden på de længere distance, og en del af det er ændringen af den fedtfrie masse med alderen.
 
-{% endcomment %}
+Du kan læse mere om metoden i de nedenstående referencer.
 
 **Læs**: [Vægttab og løb: Beregn effekten af et vægttab på løbetid](/vaegttab-loebetid/)
 

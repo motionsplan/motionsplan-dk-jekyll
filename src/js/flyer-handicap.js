@@ -11,161 +11,9 @@ second = second0
 */
 
 motionsplan.FlyerHandicap = function (age, weight, gender) {
-  function Convert() {
-    var MeasurementType1, MeasurementType2, Answer, Input;
-    MeasurementType1 =
-      document.CalculatorForm.Measure1.options[
-        document.CalculatorForm.Measure1.selectedIndex
-      ].value;
-    MeasurementType2 =
-      document.CalculatorForm.Measure2.options[
-        document.CalculatorForm.Measure2.selectedIndex
-      ].value;
-    Answer = document.CalculatorForm.Answer;
-    Input = document.CalculatorForm.input;
-    if (MeasurementType1 == "Kilometers" && MeasurementType2 == "Miles") {
-      Answer.value = Input.value * 0.6214;
-    } else if (
-      MeasurementType1 == "Kilometers" &&
-      MeasurementType2 == "Meters"
-    ) {
-      Answer.value = Input.value * 1000;
-    } else if (
-      MeasurementType1 == "Kilometers" &&
-      MeasurementType2 == "Yards"
-    ) {
-      Answer.value = Input.value * 1093.61;
-    } else if (
-      MeasurementType1 == "Kilometers" &&
-      MeasurementType2 == "Kilometers"
-    ) {
-      Answer.value = Input.value * 1;
-    } else if (MeasurementType1 == "Meters" && MeasurementType2 == "Miles") {
-      Answer.value = Input.value * 0.0006214;
-    } else if (
-      MeasurementType1 == "Meters" &&
-      MeasurementType2 == "Kilometers"
-    ) {
-      Answer.value = Input.value * 0.001;
-    } else if (MeasurementType1 == "Meters" && MeasurementType2 == "Yards") {
-      Answer.value = Input.value * 1.09;
-    } else if (MeasurementType1 == "Meters" && MeasurementType2 == "Meters") {
-      Answer.value = Input.value * 1;
-    } else if (
-      MeasurementType1 == "Miles" &&
-      MeasurementType2 == "Kilometers"
-    ) {
-      Answer.value = Input.value * 1.6093;
-    } else if (MeasurementType1 == "Miles" && MeasurementType2 == "Meters") {
-      Answer.value = Input.value * 1609.34;
-    } else if (MeasurementType1 == "Miles" && MeasurementType2 == "Yards") {
-      Answer.value = Input.value * 1760;
-    } else if (MeasurementType1 == "Miles" && MeasurementType2 == "Miles") {
-      Answer.value = Input.value * 1;
-    } else if (
-      MeasurementType1 == "Yards" &&
-      MeasurementType2 == "Kilometers"
-    ) {
-      Answer.value = Input.value * 0.0009144;
-    } else if (MeasurementType1 == "Yards" && MeasurementType2 == "Meters") {
-      Answer.value = Input.value * 0.9144;
-    } else if (MeasurementType1 == "Yards" && MeasurementType2 == "Miles") {
-      Answer.value = Input.value * 0.0005682;
-    } else if (MeasurementType1 == "Yards" && MeasurementType2 == "Yards") {
-      Answer.value = Input.value * 1;
-    } else {
-    }
-  }
-  function PaceConvert() {
-    var D, MeasurementType, h, m, s, MPH, KPH, hrs, sec;
-    var Pace,
-      MMinuteValue,
-      MSecondValue,
-      Miles,
-      MPS,
-      YPS,
-      KMinuteValue,
-      KSecondValue;
-    D = document.CalculatorForm.input.value;
-    MeasurementType =
-      document.CalculatorForm.Measure.options[
-        document.CalculatorForm.Measure.selectedIndex
-      ].value;
-    h = eval(document.CalculatorForm.Hours.value);
-    m = eval(document.CalculatorForm.Minutes.value);
-    s = eval(document.CalculatorForm.Seconds.value);
-    if (MeasurementType == "Miles") {
-      Miles = D;
-    } else if (MeasurementType == "Kilometers") {
-      Miles = D * 0.6214;
-    } else if (MeasurementType == "Meters") {
-      Miles = D * 0.0006214;
-    } else if (MeasurementType == "Yards") {
-      Miles = D * 0.0005682;
-    } else {
-      alert("error");
-    }
-    sec = h * 3600 + m * 60 + s;
-    hrs = sec / 3600;
-    MPH = Miles / hrs;
-    document.CalculatorForm.MilesPerHour.value = roundNumber(MPH, 2);
-    KPH = (Miles * 1.6093) / hrs;
-    document.CalculatorForm.KilosPerHour.value = roundNumber(KPH, 2);
-    MPS = (Miles * 1609.34) / sec;
-    document.CalculatorForm.MetersPerSecond.value = roundNumber(MPS, 2);
-    YPS = (Miles * 1760) / sec;
-    document.CalculatorForm.YardsPerSecond.value = roundNumber(YPS, 2);
-    PaceM = sec / Miles;
-    PaceK = sec / (Miles * 1.6093);
-    MMinuteValue = Math.floor(PaceM / 60);
-    MSecondValue = Math.round(60 * (PaceM / 60 - Math.floor(PaceM / 60)));
-    if (MSecondValue > 59) MSecondValue = 00;
-    alert(MSecondValue);
-    document.CalculatorForm.PacePerMile.value = MMinuteValue + ":" + MSecondValue;
-    KMinuteValue = Math.floor(PaceK / 60);
-    KSecondValue = Math.round(60 * (PaceK / 60 - Math.floor(PaceK / 60)));
-    if (KSecondValue > 59.49) KSecondValue = 59;
-    document.CalculatorForm.PacePerKilo.value = KMinuteValue + ":" + KSecondValue;
-  }
-  function roundNumber(numberField, rlength) {
-    return (
-      Math.round(numberField * Math.pow(10, rlength)) / Math.pow(10, rlength)
-    );
-  }
-  function roundTime(numberField, rlength) {
-    if (numberField > 59.49) numberField = 59;
-    return (
-      Math.round(numberField * Math.pow(10, rlength)) / Math.pow(10, rlength)
-    );
-  }
-  function check_race() {
-    var pos = document.FrontPage_Form1.race0.selectedIndex;
-    if (pos == 0) {
-      disable_components();
-      clearall();
-    } else {
-      enable_components();
-      clearall();
-    }
-  }
-  function disable_components() {
-    document.FrontPage_Form1.age0.disabled = "hide";
-    document.FrontPage_Form1.weight0.disabled = "hide";
-    document.FrontPage_Form1.gender1[0].disabled = "hide";
-    document.FrontPage_Form1.gender1[1].disabled = "hide";
-    document.FrontPage_Form1.hour0.disabled = "hide";
-    document.FrontPage_Form1.minute0.disabled = "hide";
-    document.FrontPage_Form1.second0.disabled = "hide";
-  }
-  function enable_components() {
-    document.FrontPage_Form1.age0.disabled = false;
-    document.FrontPage_Form1.weight0.disabled = false;
-    document.FrontPage_Form1.gender1[0].disabled = false;
-    document.FrontPage_Form1.gender1[1].disabled = false;
-    document.FrontPage_Form1.hour0.disabled = false;
-    document.FrontPage_Form1.minute0.disabled = false;
-    document.FrontPage_Form1.second0.disabled = false;
-  }
+  // Original form used weight in lbs
+  weight = weight * 2.205;
+  
   function computefun(distance, hours, minutes, seconds) {
     // distance
     // <OPTION>5K</OPTION>
@@ -209,6 +57,9 @@ motionsplan.FlyerHandicap = function (age, weight, gender) {
           //document.FrontPage_Form1.weight0.value = wtadj;
         }
         wtkg = wtadj / 2.205;
+
+        //wtkg = wtadj;
+
         rtadjsec =
           ((59.31 * Math.pow(wtkg, 1.03)) /
             Math.pow(
@@ -227,6 +78,9 @@ motionsplan.FlyerHandicap = function (age, weight, gender) {
           //document.FrontPage_Form1.weight0.value = wtadj;
         }
         wtkg = wtadj / 2.205;
+
+        //wtkg = wtadj;
+
         rtadjsec =
           ((59.31 * Math.pow(wtkg, 1.03)) /
             Math.pow(
@@ -257,29 +111,9 @@ motionsplan.FlyerHandicap = function (age, weight, gender) {
       
       return hour + ':' + min + ':' + sec2;
   }
-  function clearall() {
-    document.FrontPage_Form1.hour0.value = "";
-    document.FrontPage_Form1.minute0.value = "";
-    document.FrontPage_Form1.second0.value = "";
-    document.FrontPage_Form1.hour0.value = "";
-    document.FrontPage_Form1.minute0.value = "";
-    document.FrontPage_Form1.second0.value = "";
-  }
-  function reset() {
-    document.FrontPage_Form1.age0.value = "";
-    document.FrontPage_Form1.weight0.value = "";
-    document.FrontPage_Form1.gender1[0].checked = true;
-    document.FrontPage_Form1.hour0.value = "";
-    document.FrontPage_Form1.minute0.value = "";
-    document.FrontPage_Form1.second0.value = "";
-    document.FrontPage_Form1.hour1.value = "";
-    document.FrontPage_Form1.minute1.value = "";
-    document.FrontPage_Form1.second1.value = "";
-    document.FrontPage_Form1.race0.selectedIndex = 0;
-  }
 
   let publicAPI = {
-    computefun: computefun,
+    getAdjustedTime: computefun,
   };
 
   return publicAPI;

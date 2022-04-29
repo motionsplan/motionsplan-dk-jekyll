@@ -1091,9 +1091,15 @@ $(function() {
       let minutes = Number($("[name='minutes']").val());
       let seconds = Number($("[name='seconds']").val());
 
+      if (gender == 'female' && weight < 50) {
+        $("[name='weight']").val(50);
+      } else if (gender == 'male' && weight < 65) {
+        $("[name='weight']").val(65);
+      }
+
       let f = flyer_handicap.FlyerHandicap(age, weight, gender);
 
-      $("[name='fh_time']").val(f.computefun(distance, hours, minutes, seconds));
+      $("[name='fh_time']").val(f.getAdjustedTime(distance, hours, minutes, seconds));
   });
     $("#calculator_who5").submit(function(e) {
         console.log("Calculate Eating Disorder");
