@@ -108,6 +108,14 @@ motionsplan.FlyerHandicap = function (age, weight, gender) {
       min = Math.floor(rtadjmin);
       sec = (rtadjmin - min) * 60;
       sec2 = Math.floor(sec);
+
+      if (sec2 < 10) {
+        sec2 = '0' + sec2;
+      }
+
+      if (hour < 10) {
+        hour = '0' + hour;
+      }
       
       return hour + ':' + min + ':' + sec2;
   }
