@@ -115,7 +115,7 @@ $(function() {
         let intensity = intensity_text.replace(/[^0-9]/g,'');
         let weight = rm * intensity / 100 + increment_1;
         console.log(rm + ' ' + intensity + ' ' + weight);
-        $(this).find('td').eq(2).html('+'+increment_1.toFixed(0)+' kg');
+        $(this).find('td').eq(2).html('+'+increment_1.toFixed(1)+' kg');
         $(this).find('td').eq(5).html(weight.toFixed(2));
       });
       $("table#smolov_jr_week_3 > tbody > tr").each(function(i, obj) {
@@ -124,7 +124,7 @@ $(function() {
         let intensity = intensity_text.replace(/[^0-9]/g,'');
         let weight = rm * intensity / 100 + increment_2;
         console.log(rm + ' ' + intensity + ' ' + weight);
-        $(this).find('td').eq(2).html('+' +increment_2.toFixed(0)+' kg');
+        $(this).find('td').eq(2).html('+' +increment_2.toFixed(1)+' kg');
         $(this).find('td').eq(5).html(weight.toFixed(2));
       });
     });
