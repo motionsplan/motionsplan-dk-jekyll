@@ -29,13 +29,13 @@ For nylig fik jeg anbefalet at spule mine ben med koldt vand efter mine løbetur
 
 Jeg fandt hurtigt ud af, at det ikke er nok at spule sine ben med vand, men forskningen er i gang med at undersøge **kryoterapi** og **isbade** som to forskellige strategier til restitution.
 
-Jeg fokuserede derfor mest i min resarch på at finde ud af, om isbade efter træning virker på restitutionen og effekten af træning?
+Jeg fokuserede derfor mest i min research på at finde ud af, om isbade efter træning virker på restitutionen og om kuldepåvirkningen har betydning for effekten af træning?
 
-**Isbade efter træning viser i forskningen lidt blandede resultater. Folk der gennemgår isbade oplever mindre ømhed efter træning, men det har ikke kunnet påvises på biologiske markører. Tilsyneladende kan isbade hæmme effekten af styrketræning, men formentlig godt bruges efter udholdenhedstræning.**
+**Isbade efter træning viser i forskningen lidt blandede resultater. Folk der gennemgår isbade oplever mindre ømhed efter træning, men det har ikke kunnet påvises på biologiske markører. Tilsyneladende kan kryoterapi hæmme effekten af styrketræning, men formentlig godt bruges efter udholdenhedstræning.**
 
 Jeg gik på [pubmed.com](https://pubmed.com) og lavede en [videnskabelig søgning](/videnskabelig-sogning/) for at finde nogle studier, der kunne overbevise mig om, at jeg har brug for afkøling efter træning.
 
-Det er fortsat ikke klart, hvad de videnskabelige rationale bag at tage et koldt bad er (se metastudium af Bleakley og Davison 2010), men derfor kan vi jo sagtens se på, om det virker.
+Det er fortsat ikke klart, hvad det videnskabelige rationale er bag at tage et koldt bad (se metastudium af Bleakley og Davison 2010), men derfor kan vi jo sagtens se på, om det virker i praksis?
 
 ## Mælkesyre fjernes hurtigere med et isbad
 
@@ -43,7 +43,9 @@ Det ser ud til at mælkesyren fjernes hurtigere, hvis man tager et kontrast-bad,
 
 ## Restituerer man hurtigere med et isbad?
 
-Spørgsmålet er så om den hurtigere fjernelse af [mælkesyre]({% link _posts/2020-08-24-maelkesyre.md %}) rent faktisk gør, at man kan præstere bedre senere. Crowe et al (2007) viste ved sprint på cykel med en times restitution, at det kolde bad rent faktisk sænker den anaerobe kapacitet. Hvis man kigger på restitution med et lidt længere tidsperspektiv, så viste Lane og Wenger (2004), at både massage, aktiv nedvarmning og kolde bade var med til at facilitetere restitutionsprocessen i de 24 timer, der var mellem to træningspas med høj intensitet. Det kan dog være at perioden mellem de to træninger var nok i sig selv til at restituere, som foreslået af King and Duffield (2009) efter deres studium.
+Spørgsmålet er så om den hurtigere fjernelse af [mælkesyre]({% link _posts/2020-08-24-maelkesyre.md %}) rent faktisk gør, at man kan præstere bedre senere. Crowe et al (2007) viste ved sprint på cykel med en times restitution, at det kolde bad rent faktisk sænker den anaerobe kapacitet.
+
+Hvis man kigger på restitution med et lidt længere tidsperspektiv, så viste Lane og Wenger (2004), at både massage, aktiv nedvarmning og kolde bade var med til at facilitetere restitutionsprocessen i de 24 timer, der var mellem to træningspas med høj intensitet. Det kan dog være at perioden mellem de to træninger var nok i sig selv til at restituere, som foreslået af King and Duffield (2009) efter deres studium.
 
 Når man kigger på restitutionen efter 72 timer var hverken et kontrastbad eller udspænding med til at accellere restitutionen (Robey 2009).
 
@@ -59,7 +61,7 @@ I sammenligninger mellem forskellige restitutionstyper, så har det kolde bad ik
 
 Nogle har foreslået, at nedkøling med koldt vand kan forbedre restitutionen efter aktivitet, der ødelægger muskelfibrene, men de efterlyser flere studier (Wilcock 2006), og nyere studier har ikke kunne vise at de kolde bade skulle forbedre resitutionen efter muskelødelæggende aktivitet (Jakeman et al 2009).
 
-## Hæmmer isbade muskeltilvæksten?
+## Hæmmer kryoterapi muskeltilvæksten?
 
 Nyere studier fra 2015 tyder imidlertid på, at hvis man bruger isbade efter styrketræning, så risikerer man, at ens muskeltilvækst vil blive mindre på sigt.
 
@@ -75,29 +77,15 @@ Nyere studier fra 2015 tyder imidlertid på, at hvis man bruger isbade efter sty
 
 Et koldt bad forbedrer tilsyneladende ikke restitutionstiden, så man kan udføre en bedre præstation dagen efter. Det er dog værd at tage med, at man op til 24 timer vil føle, at man har bedre ben (Kinugasa og Kilding 2009). Det betød dog ikke noget for de enkeltes præstation, men at opleve at tingene føles lettere, er også værd at tage med.
 
-Hvis du gerne vil bruge isbade, skal du nok overveje kun at gøre det efter udholdenhedsaktiviteter, da de tilsyneladende kan hæmme din muskeltilvækst.
+Hvis du gerne vil bruge isbade, skal du nok overveje kun at gøre det efter udholdenhedsaktiviteter, da de tilsyneladende kan hæmme din muskeltilvækst. Der findes mange andre metoder til at [forbedre din restitution og restitutionstid]({% link _posts/2020-05-28-restitutionstid-alder.md %}), som du måske skal prøve først.
 
 Du skal også huske, at det er vanskeligt at lave et dobbeltblindet, placebo-kontrolleret studie. Man kan godt lave et studie, der sammenligner med en anden type restitutionsaktivitet, men hvis man ender i den kolde balje, så opdager man det i hvert fald.
 
-Hvis du gerne vil implementere isbade ind i din træning og restitution, så har [yourboots.dk lanceret et ret smart produkt med deres Cool sleeve](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=71899&htmlurl=https://yourboots.dk/cool/){: rel='sponsored nofollow noopener' }.
+Hvis du gerne vil implementere isbade ind i din træning og restitution, så har yourboots.dk lanceret et ret smart produkt med deres [Cool sleeve](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=71899&htmlurl=https://yourboots.dk/cool/){: rel='sponsored nofollow noopener' }.
 
 {% include gallery caption="Tjek priserne for Cool hos [yourboots.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=71899&htmlurl=https://yourboots.dk/cool/){: rel='sponsored nofollow noopener' }" %}
 
 Hvilke erfaringer har du med kolde isbade i forhold til din træning?
-
-## Læs flere artikler om restitution
-
-<div class="feature__wrapper">
-
-{% assign site_posts = site.posts | where: "tags", "restitution" | sort: "last_modified_at" | reverse %}
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
 
 ## Referencer
 

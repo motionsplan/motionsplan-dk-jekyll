@@ -1,6 +1,6 @@
 ---
 title: "Den lange indadfører"
-title: "Den lange indadfører | Adductor Longus | Muskler"
+seo_title: "Den lange indadfører | Adductor Longus | Muskler"
 functional_group:
   - Hoftens indadførere
 group:

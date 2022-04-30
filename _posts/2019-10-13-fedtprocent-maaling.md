@@ -49,7 +49,7 @@ faq:
       Der er mange måder at fidne din fedtprocent på. Her på siden er der 7 forskellige metoder til at måle din fedtprocent. Alt fra simple udregninger til hudfoldsmålinger og til målinger med avancerede apparater som bioimpedans, DEXA-scannere og hydrostatisk vejning.
 ---
 
-Interesse for at måle din fedtprocent er steget, så jeg har forsøgt at samle op på, hvordan man kan måle sig fedtprocent. Hvilke metoder findes der til at måling af sin fedtprocent?
+Interesse for at måle din fedtprocent er steget, så jeg har forsøgt at samle op på, hvordan man kan måle sig fedtprocent. Hvilke metoder findes der til måling af sin fedtprocent?
 
 **Du kan måle din fedtprocent på mange måder. Alle metoderne har hver deres fordele og ulemper og unøjagtigheder. Du kan måle fedtprocent med undervandsvejning, DEXA-scanner, hudfoldsmålinger med fedttang, bioimpedans - og du kan estimere fedtprocenten på baggrund af øjemål og udregninger.**
 
@@ -164,8 +164,8 @@ Tabellen nedenunder indeholder normerne for fedtprocent for mænd og kvinder, so
 
 ## Mere om at måle fedtprocent og kropskomposition
 
-Jeg har skrevet et indlæg om [forskellige måder at anskue kropskomposition på]({% link _posts/2019-10-14-kropskomposition.md %}), som måske kan inspirere til at få et endnu mere nuanceret billede på, hvad fedtprocent er. Der kan du også læse om endnu flere metoder til at måle kropskomposition med.
+Jeg har skrevet et indlæg om [forskellige måder at anskue kropskomposition på]({% link _posts/2019-10-14-kropskomposition.md %}), som måske kan inspirere til at få et endnu mere nuanceret billede af, hvad fedtprocent er. Der kan du også læse om endnu flere metoder til at måle kropskomposition med.
 
-Når nu det er så vanskeligt nøjagtigt at bestemme den nøjagtige fedtprocent, så skal du altså ikke skynde dig på [slankekur]({% link _posts/2020-09-04-slankekur.md %}) på baggrund af fedtprocentmålinger og fedtprocentberegninger uden at være helt sikker på, at du har en udfording med din fedtprocent.
+Når nu det er så vanskeligt at bestemme den nøjagtige fedtprocent, så skal du altså ikke skynde dig på [slankekur]({% link _posts/2020-09-04-slankekur.md %}) på baggrund af fedtprocentmålinger og fedtprocentberegninger uden at være helt sikker på, at du har en udfordring med din fedtprocent.
 
 Hvis du vil dykke lidt mere ned i emnet om fedtprocent og vægt, så tjek mit omfattende indlæg om [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}) og vores betragtninger om [BMI for mænd og kvinder](/bmi/).

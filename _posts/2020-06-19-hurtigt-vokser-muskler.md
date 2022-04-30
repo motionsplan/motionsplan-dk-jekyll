@@ -17,6 +17,8 @@ tags:
   - træningslære
 last_modified_at: 2020-06-11T08:14:14Z
 toc: true
+#Hvor lang tid tager det at bygge muskler op?
+#Hvor hurtigt kan man bygge muskler op?
 ---
 
 Jeg bliver ofte spurgt om, hvor hurtigt muskler vokser, og hvornår man kan se resultater. Hvor meget muskelmasse kan man egentlig tage på om året med styrketræning?
@@ -86,6 +88,8 @@ Hvis du stopper med at træne, så vil en del af muskelstørrelsen, muskeltykkel
 
 Allerede efter en pause på nogle uger vil der ske atrofi i muskelfibrene. Taaffe og Marcus (1997) målte i et forsøg med ældre mænd et øget tværsnitsareal i lårmusklen på 26% efter et 24 ugers træningsprogram. Efter tolv uger pause var tværsnitsarealet imidlertid tilbage til udgangspunktet.
 
+Læs: [Hvor hurtigt forsvinder muskler igen?]({% link _posts/2020-06-23-atrofi-hvor-hurtigt.md %})
+
 ## Hvad er den øvre grænse for muskelvækst?
 
 Det foregående giver altså en ide om, hvor hurtigt muskler vokser. Abe et al (2018) har stillet sig selv spørgsmålet: “Skeletal Muscle Mass in Human Athletes: What Is the Upper Limit?”, og de fandt frem til, at der formentlig er en øvre grænse, som hænger sammen med højden.
@@ -107,7 +111,7 @@ Jeg vil kalde mig selv letøvet i træning, fordi jeg holder lidt for mange træ
 
 David Epstein foreslår i bogen ‘The sports gene’ fra 2013, at der er en ratio på 5:1 i forhold til knoglemassen. Musklerne kan altså aldrig komme til at veje mere end 5 gange så meget som knoglemassen, hvis hans observationer er korrekte. Jeg har lavet et indlæg om, [hvor meget skelettet vejer]({% link _posts/2020-05-31-hvad-vejer-skelettet.md %}).
 
-Hvis du gerne vil lære mere om kropskomposition, og hvordan man måler det, så har jeg skrevet et [indlæg om forskellige modeller for kropskomposition]({% link _posts/2019-10-14-kropskomposition.md %}).
+Hvis du gerne vil lære mere om kropskomposition, og hvordan man måler det, så har jeg skrevet et indlæg om [forskellige modeller for kropskomposition]({% link _posts/2019-10-14-kropskomposition.md %}).
 
 ## Hvad skal der til for at få musklerne til at vokse?
 
@@ -117,7 +121,7 @@ Hvis man derimod bruger tungere vægte, fx 10RM, så er det nok at køre omkring
 
 {% include figure image_path="/assets/images/blog/dankel-low-load-vs-high-load.jpg" caption="Dankel et al (2017) viser den nødvendige belastning med forskellige intensiteter for at aktivere andelen af muskelfibre med potentiale for at skabe muskelvækst" %}
 
-Hvis du er interesseret, så har vi skrevet mere om [hvordan muskler vokser?]({% link _posts/2019-10-22-hvordan-vokser-muskler.md %})
+Vi har skrevet mere om [hvordan muskler vokser]({% link _posts/2019-10-22-hvordan-vokser-muskler.md %}), hvis du er interesseret.
 
 ## Opsamling
 

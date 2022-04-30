@@ -56,7 +56,7 @@ Sportsmaster er en af de mest kendte danske sportsforretninger og mærker. De ha
 
 {% include figure image_path="/assets/images/blog/loebebutik-sportsmaster.png" alt="Løbeshop sportsmaster" %}
 
-[Besøg sportsmaster.dk »](https://in.sportmaster.dk/t/t?a=1124622406&as=1484571907&t=2&tk=1){: .btn .btn--large .btn--success rel="sponsored noopener nofollow" }
+[Besøg sportsmaster.dk »](https://www.sportsmaster.dk){: .btn .btn--large .btn--success rel="noopener nofollow" }
 
 ### 4. Billigsport24.dk
 

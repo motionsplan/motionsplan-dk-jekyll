@@ -1,9 +1,10 @@
 ---
 title: &title "RM-beregner: 9 formler til at teste og udregne 1RM max"
+seo_title: "RM-beregner: 1RM max i bænkpres, squat og dødløft"
 permalink: /rm-beregner/
 redirect_from:
   - /artikel/brug-tests-og-faa-fremgang/
-excerpt: "Lav din egen RM-test og udregn 1RM max (one repetition maximum) i vores avancerede RM-beregner. Her kan du bruge formler til at udregne 1RM ud fra vægten på dine submaksimale løft."
+excerpt: "Lav din egen RM-test og udregn 1RM max (one repetition maximum) i vores RM-beregner til styrketræning. Udregn din 1RM ud fra vægten på dine submaksimale løft i fx squat, dødløft og bænkpres."
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1526401485004-46910ecc8e51?ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
@@ -25,7 +26,7 @@ tags:
   - repetition maximum
   - test
   - træningsplanlægning
-last_modified_at: 2021-12-27T07:14:14Z
+last_modified_at: 2022-03-27T07:14:14Z
 toc: true
 feature_row_sheet:
   - image_path: /assets/images/freebies/rmberegner.png
@@ -46,9 +47,9 @@ feature_row:
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
 faq:
-  - question: Hvad er en RM-beregner? 
+  - question: Hvad er en RM-beregner?
     answer: "En RM-beregner kan udregne _Repetition Maximum (RM)_. RM-begrebet kan først og fremmest bruges til at estimere, hvad du maksimalt kan løfte en gang ud fra vægten på et submaksimalt løft med flere gentagelser. Ud fra din 1RM kan du derefter estimere forskellige RM-vægte, som fx kan anvendes i træningsprogrammer."
-  - question: Hvordan beregner man sin egen 1 RM?
+  - question: Hvordan beregner man sin 1 RM?
     answer: Du kan naturligvis bruge vores RM-beregner til at beregne din egen 1RM, men du kan også selv regne det hele ud med en RM-formel. Jeg har samlet de mest populære formler til at udregne 1RM-max på denne side.
   - question: Hvad betyder RM, 1RM max og one repetition maximum?
     answer: "**One Repetition Maximum** kaldes også 1RM er et udtryk for den vægt, man maksimalt kan løfte for en gentagelse i en given øvelse. Det kan være gavnligt at kende sin 1RM, hvis man bruger procentbaserede træningsprogrammer."
@@ -72,7 +73,7 @@ I dette indlæg får du svaret på følgende spørgsmål:
 - Udregn din 1RM max i vores RM-beregner
 - Hvad står 1 RM for og hvad betyder RM?
 
-Først får du en kort baggrund for, hvad 1RM betyder? Du kan længere nede på siden lave din egen udregning af 1RM i vores RM-beregner. Til s?ut gennemgår jeg formlerne og nogle af faldgrupperne ved at beregne 1RM-max.
+Først får du en kort baggrund for, hvad 1RM betyder? Du kan længere nede på siden lave din egen udregning af 1RM i vores RM-beregner. Til slut gennemgår jeg formlerne og nogle af faldgrupperne ved at beregne 1RM-max.
 
 ## Hvorfor er det godt at kende sin 1RM?
 
@@ -81,6 +82,10 @@ Men hvorfor har du overhovedet brug for at vide, hvad din 1RM er?
 Hvis du laver procentbaserede træningsprogrammer, så har du brug for at vide, hvad du kan maksimalt kan løfte, da din træning bliver udregnet ud fra det. Ud fra 1RM kan du estimere, hvor meget, du skal have på stangen for at arbejde i et bestemt _rep-range_ i forhold til programmet.
 
 RM-værdierne kan altså bruges som et udgangspunkt for planlægningen af dine træningsprogrammer. Desuden kan de være med til at give end indikation på, om du har oplevet fremgang i din præstation i løbet af dit træningsprogram.
+
+## RM-beregner til 1RM max
+
+{% include calculate-1rm.html %}
 
 ## Skema og tabel med RM-værdier
 
@@ -107,10 +112,6 @@ Reynolds (2006) har lavet et metastudium, hvor de kårer **Reynolds egen formel 
 Jeg kan godt lide at give mulighed for det er lidt mere fleksibelt under udførelsen. Så selvom man går efter en 5RM, så vil en 4RM eller en 6RM også fungere fint i udregningerne, så man ikke behøver at lave et nyt forsøg. Derfor har jeg **regnet baglæns for Reynolds formel, så den bliver mere fleksibel**.
 
 Lad os først springe til 1RM-beregneren, så kan vi kigge yderligere på forbeholdene efterfølgende.
-
-## RM-beregner til 1RM max
-
-{% include calculate-1rm.html %}
 
 ## Fordele ved en RM-beregner
 

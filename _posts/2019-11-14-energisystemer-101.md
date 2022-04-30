@@ -1,6 +1,6 @@
 ---
 title: "Energisystemer 101: Aerobt og anaerobt arbejde 💗"
-title: "Energisystemer 101: Aerob og anaerob arbejde"
+seo_title: "Energisystemer 101: Aerob og anaerob arbejde"
 permalink: /energisystemer/
 language: da
 header:
