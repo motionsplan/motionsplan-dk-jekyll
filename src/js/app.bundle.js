@@ -122,7 +122,7 @@ $(function() {
         let increment_2 = Number($("#increment_2").val());
         let intensity_text = $(this).find('td').eq(1).html();
         let intensity = intensity_text.replace(/[^0-9]/g,'');
-        let weight = rm * intensity / 100 + increment_2;
+        let weight = rm * (intensity / 100) + increment_1 + increment_2;
         console.log(rm + ' ' + intensity + ' ' + weight);
         $(this).find('td').eq(2).html('+' +increment_2.toFixed(1)+' kg');
         $(this).find('td').eq(5).html(weight.toFixed(2));
