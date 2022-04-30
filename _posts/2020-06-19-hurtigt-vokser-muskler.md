@@ -47,6 +47,8 @@ Studiet har dog en del begrænsninger. Der var kun 13 deltagere. Forsøgspersone
 
 Endelig er målemetoden DXA ikke uden teoretiske udfordringer. Bone et al (2016) har vist at mængden af glykogen i musklerne har indflydelse på, hvordan en DEXA-scanner estimerer muskelmassen. Denne effekt skaber også usikkerhed om målingerne af, hvor hurtigt man kan tage muskelmasse på.
 
+{% comment %} TODO: Muskelmasse potentiale{% endcomment %}
+
 ## Vækstpotentialet i musklerne falder med tiden
 
 Kawakami (1995) fandt i et studie med utrænede mænd, at tværsnitsarealet af triceps steg med 31.7% efter 16 ugers decideret tricepstræning ved 80% af [1RM](/rm-beregner/), 5 sæt á 8 reps, 3 dage om ugen.
