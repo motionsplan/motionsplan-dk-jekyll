@@ -16,9 +16,15 @@ I denne beregner kan du udregne din omtrentlige muskelmasse baseret på enkle an
 
 Det kan være interessant at kende din omtrentlige muskelmasse, fordi muskelmassen har særlig betydning for dit hvilestofskifte, men det kan også være sjovt bare at vide, hvad kroppen består af.
 
+{% comment %}
+TODO
+https://www.strongerbyscience.com/your-drug-free-muscle-and-strength-potential-part-1/
+
+{% endcomment %}
+
 ## Muskelmasse beregner
 
-[Heymsfield et al (2020)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7012897/) har undersøgt relationen mellem kropsstørrelse, kropsbygning, alder og muskelmassen. De tog udgangspunkt i et stort amerikansk studie, hvor omkring 12.330 hvide og afro-amerikanere deltog i US National Health and Nutrition Survey. å baggrund af vægt, højde, taljemål, alder og en DXA-scanning, lavede de formler for muskelmassen. De fandt, at der var en sammenhæng højde, vægt, taljemål og alderen og muskelmassen.
+[Heymsfield et al (2020)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7012897/) har undersøgt relationen mellem kropsstørrelse, kropsbygning, alder og muskelmassen. De tog udgangspunkt i et stort amerikansk studie, hvor omkring 12.330 hvide og afro-amerikanere deltog i US National Health and Nutrition Survey. På baggrund af vægt, højde, taljemål, alder og en DXA-scanning, lavede de formler for muskelmassen. De fandt, at der var en sammenhæng højde, vægt, taljemål og alderen og muskelmassen.
 
 {% include calculate-musclemass.html %}
 
