@@ -2,6 +2,7 @@
 
 /* global $ */
 
+const rpe = require('./rpe-strength');
 const how_tall = require('./how-tall');
 const water = require('./water-intake');
 const inol = require('./inol');
@@ -405,11 +406,26 @@ $(function() {
       console.log("Calculate Kroppens Rumfang");
       e.preventDefault();
 
-    let weight = Number($("[name='weight']").val());
-    let density = Number($("[name='density']").val());
+      let weight = Number($("[name='weight']").val());
+      let density = Number($("[name='density']").val());
 
       $("[name='kroppens_rumfang']").val((weight / density).toFixed(5));
-  });
+    });
+    $("#calculator_rpe_strength").submit(function(e) {
+      console.log("Calculate RPE Strength");
+      e.preventDefault();
+
+      let have_weight = Number($("[name='have_weight']").val());
+      let have_reps = Number($("[name='have_reps']").val());
+      let have_rpe = Number($("[name='have_rpe']").val());
+      let want_reps = Number($("[name='want_reps']").val());
+      let want_rpe = Number($("[name='want_rpe']").val());
+
+      let hr = rpe.RPEStrength(have_weight, have_reps, have_rpe);
+
+      $("[name='e1rm']").val(hr.getE1RM().toFixed(1));
+      $("[name='want_weight']").val(hr.getWantWeight(want_reps, want_rpe).toFixed(1));
+    });
     $("#calculator_maffetone").submit(function(e) {
         console.log("Calculate Maffetone");
         e.preventDefault();

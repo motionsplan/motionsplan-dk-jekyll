@@ -48,11 +48,13 @@ Hvis du skal træne baseret på procenter, så har du brug for at vide, hvor meg
 
 {% include figure image_path="/assets/images/blog/rm-beregner.png" caption="Her er et eksempel påat din _1 Repetition Maximum_ intensitetsprocenterne af dit bedste løft er udregnet i vores egen [RM-beregner](/rm-beregner/)." %}
 
-## RPE beregner fra Open Powerlifting
+## Vægt baseret på RPE beregner
 
-Her er en god beregner baseret på RPE, som kan hjælpe dig på vej, så det ikke udelukkende bliver gætværk. Beregneren er baseret på RPE, og den er let at gå til. Du skal bare taste et løft ind, hvor du har en god fornemmelse for var et godt løft i nærheden af dit maks.
+Jeg kan godt lide at bruge RPE til at smide den rigtige vægt på stangen. Jeg er inspireret af beregneren på [Open Powerlifting](https://www.plsource.org/rpe-calc/) til en beregner baseret på RPE, og den er let at gå til. Du skal bare taste et af dine tidligere løft ind, som du har en god fornemmelse af, så kan du udregne, hvor meget vægt, du skal have på stangen til dit ønskede løft.
 
-{% include figure image_path="/assets/images/blog/openpowerlifting-rpe-calculator.png" caption="Du kan bruge denne [gratis udregner fra Open Powerlifting](https://www.plsource.org/rpe-calc/) til at estimere, hvor meget du kan løfte baseret på RPE." %}
+Open Powerliftings beregner ser sådan her ud, og den kan du bruge, hvis du foretrækker en beregner på engelsk. Ellers kan du bruge vores [RPE beregner](/rpe/).
+
+{% include figure image_path="/assets/images/blog/openpowerlifting-rpe-calculator.png" caption="Du kan bruge denne gratis udregner fra [Open Powerlifting](https://www.plsource.org/rpe-calc/) til at estimere, hvor meget du kan løfte baseret på RPE." %}
 
 Du skal huske at RPE og RIR fungerer modsat. Hvis du har en RPE på 10, så er din RIR 0. 
 
