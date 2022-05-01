@@ -158,7 +158,7 @@ Det er blevet foreslået, at du kan bruge _heart rate variability_ for at finde 
 
 ### 5. Restitution og puls
 
-Din daglige hvilepuls kan også være et individuelt mål, som kan sige noget om dit restitutionsniveau. Den kan ikke sige nøjagtigt, hvornår du er fuldt restitueret, men du kan holde øje med den hver morgen. Hvis den pludselig er højere end normalt, så kan en af årsagerne være, at du presser kroppen lidt for hårdt på den ene eller anden måde, og så skal du nok prioritere en mere afslappende træning.
+Din daglige [hvilepuls](/hvilepuls/) kan også være et individuelt mål, som kan sige noget om dit restitutionsniveau. Den kan ikke sige nøjagtigt, hvornår du er fuldt restitueret, men du kan holde øje med den hver morgen. Hvis den pludselig er højere end normalt, så kan en af årsagerne være, at du presser kroppen lidt for hårdt på den ene eller anden måde, og så skal du nok prioritere en mere afslappende træning.
 
 Restitutionstiden er meget individuel, men den har stor betydning for, hvordan effekten af din træning bliver. Derfor bør du tage den alvorligt.
 

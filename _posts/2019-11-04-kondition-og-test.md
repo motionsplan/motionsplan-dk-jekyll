@@ -68,7 +68,7 @@ Her vil vi først og fremmest beskrive nogle _indirekte_ muligheder for at beste
 - **Hold styr på tiderne**. Hvis du over tid bruger de samme distancer og ruter, så kan du se om tiderne bliver bedre hen ad vejen.
 - **Lav maksimal test**. Hvis du laver en maksimal test på fx en kondicykel, så kan du estimere dit kondital.
 - **Lav en submaximal test**. En submaximal kan være ret god til at bestemme om det går fremad med konditionen og formen. Hvis du fx kører med en bestemt belastning i et bestemt tidrum, så kan du følge din puls. Hvis du arbejder med lavere puls i forhold til den samme belastning, er du kommet i bedre form.
-- **Mål din hvilepuls**. Teoretisk set falder din hvilepuls, hvis du kommer i bedre kondition, fordi hjertet kan pumpe mere blod ud pr. sammentrækning og derfor i hvile ikke behøver at slå så mange gange.
+- **Mål din hvilepuls**. Teoretisk set falder din [hvilepuls](/hvilepuls/), hvis du kommer i bedre kondition, fordi hjertet kan pumpe mere blod ud pr. sammentrækning og derfor i hvile ikke behøver at slå så mange gange.
 
 ## Hvad er et godt kondital?
 

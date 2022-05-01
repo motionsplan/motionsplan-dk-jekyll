@@ -62,7 +62,7 @@ Du skal arbejde med en lav volumen. Fx kan du tage 2-3 arbejdssæt med 2-3 reps 
 
 ### 4. Nedvarmning i omkring 5 minutter
 
-Her er målet at få bragt pulsen ned så tæt på hvilepulsen som muligt. Det kan du gøre med åndedrætsøvelser og lette yogaøvelser. Denne del er vigtig for det samlede udbytte af restitutionstræningen. Du skal gerne have en følelse af, at kroppen er afslappet og næsten klar til at træne mere med det samme.
+Her er målet at få bragt pulsen ned så tæt på [hvilepulsen](/hvilepuls/) som muligt. Det kan du gøre med åndedrætsøvelser og lette yogaøvelser. Denne del er vigtig for det samlede udbytte af restitutionstræningen. Du skal gerne have en følelse af, at kroppen er afslappet og næsten klar til at træne mere med det samme.
 
 ## Hvad er meningen med restitutionstræning?
 

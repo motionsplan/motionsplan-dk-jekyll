@@ -31,7 +31,7 @@ garmin_lactate:
 
 Træningsintensiteten under løb og træning kan måles på mange forskellige måder. Pulsen kan være en ret præcis måde at måle intensiteten. Derfor er pulstræning også rimelig udbredt.
 
-I pulstræning bruger du viden om dine pulszoner til at styre din træningsintensitet. Pulszoner kan udregnes enten ud fra din maxpuls eller pulsreserven. Vi har lavet en [beregner til pulszoner](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/), som du kan bruge til at hjælpe med at udregne zonerne.
+I pulstræning bruger du viden om dine pulszoner til at styre din træningsintensitet. Pulszoner kan udregnes enten ud fra din [maxpuls](/test-max-puls/) eller pulsreserven. Vi har lavet en [beregner til pulszoner](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/), som du kan bruge til at hjælpe med at udregne zonerne.
 
 Pulstræning bruges i forbindelse med konditionstræning og kredsløbstræning. Det er et værktøj, du kan bruge til at styre intensiteten i træningen af din kondition for at være sikker på, at du rammer det rigtige energisystem i de enkelte træninger.
 

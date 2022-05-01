@@ -76,7 +76,7 @@ Helgerud et al (2007) satte sig for at undersøge, hvilke træningsmetoder der h
 
 Helgerud et al (2007) samlede 40 moderat-trænede mandlige universitetsstuderende. Deltagerne blev inddelt i fire træningsgrupper med en træningsfrekvens på 3 gange pr. uge i 8 uger. De 4 træningsgrupper arbejdede med forskellig intensitet, men forskerne sørgede for, at det totale arbejde var det samme ved at justere varigheden af træningen.
 
-Intensiteterne i de enkelte grupper blev målt som procentdel af maxpulsen (HR<sub>max</sub>).
+Intensiteterne i de enkelte grupper blev målt som procentdel af [maxpulsen (HR<sub>max</sub>)](/test-max-puls/).
 
 - **Gruppe 1 - LSD**: 45 minutters løb på 70% (Long Slow Distance).
 - **Gruppe 2 - LT**: 24 minutters løb på 85% (svarende til den anaerobe tærskel).

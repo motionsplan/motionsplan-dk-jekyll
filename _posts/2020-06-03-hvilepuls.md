@@ -1,7 +1,7 @@
 ---
 title: &title "Hvilepuls: Hvad er hvilepulsen og hvordan måles den? 💓"
 seo_title: "Hvilepuls - Tabel for mænd og kvinder"
-description: "Få alt at vide om hvilepuls og hvordan du måler den. Komplet med en tabel for mænd og kvinder over en normal puls."
+description: "Få alt at vide om hvilepuls og hvordan du måler den. Komplet guide med tabel for mænd og kvinder over en normal puls."
 permalink: /hvilepuls/
 language: da
 header:
@@ -39,16 +39,18 @@ faq:
 
 Din hvilepuls kan være en god indikator på dit helbred og din form. Jeg bruger hvilepulsen som en let måde at følge effekten af min træning. Bl.a. kan du vurdere hvad en god hvilepuls er ud fra en tabel.
 
-Hvad er hvilepulsen? **Hvilepulsen er antallet af hjerteslag pr. minut, når din krop er i fuldstændig hvile.**
-
-Når hjertet slår og ved sin sammentrækning sender blod rundt i systemet, sker der en kortvarig udvidelse af din blodåre, fordi der kommer et højere tryk i blodåren. Det er den udvidelse, du kan mærke som **pulsen**.
-
 I dette indlæg får du ud over en **tabel med hvilepuls for mænd og kvinder** svar på følgende spørgsmål:
 
 - hvad der påvirker hvilepulsen?
 - hvordan måler man sin hvilepuls?
 - hvad er en god hvilepuls?
 - hvordan træner man sin hvilepuls?
+
+## Hvad er hvilepuls? 
+
+Hvilepulsen er antallet af hjerteslag pr. minut, når din krop er i fuldstændig hvile.
+
+Når hjertet slår og ved sin sammentrækning sender blod rundt i systemet, sker der en kortvarig udvidelse af din blodåre, fordi der kommer et højere tryk i blodåren. Det er den udvidelse, du kan mærke som **pulsen**.
 
 ## Hvad påvirker hvilepulsen?
 
@@ -92,7 +94,7 @@ Hvilepulsen varierer meget fra person til person. Hvilepulsen er påvirket af ma
 
 Hvis vi kigger på raske mennesker, så kan det være et mål med sin træning at sænke sin hvilepuls ved at lave passende udholdenhedstrænng for kredsløbet. Hjertet skal ganske enkelt arbejde mindre. Desuden er der en masse afledte sundhedsmæssige konsekvenser af pulstræningen.
 
-## Skema og tabel over hvilepuls for mænd og kvinder
+## Tabel over hvilepuls for mænd og kvinder
 
 Her har jeg samlet nogle retninglinjer baseret på [bgh.dk](https://bgh.dk/hvilepuls/) for hvilepuls for mænd og kvinder i følgende tabel. Pulsskemaet kan bruges til at give en vurdering af din hvilepuls i forhold til andre mænd og kvinder.
 
@@ -134,7 +136,7 @@ Du kan enten bruge stopur, pulsur eller blodtryksmåler til at måle hvilepulsen
 
 ### 1. Mål hvilepulsen med stopur
 
-- **Manuelt med stopur.** Du kan let måle din hvilepuls uden at have brug for udstyr. Det er den måde jeg foretrækker selv at måle hvilepulsen på. For at måle pulsen manuelt, så skal du bare finde et sted på kroppen, hvor der er en stor blodåre, der ligger tæt på overfladen. For de fleste kan man let mærke pulsen på håndleddet eller ved halsen. Typisk bruger jeg pege- og langefingeren til at mærke pulsen.
+Du kan let måle din hvilepuls uden at have brug for udstyr. Det er den måde jeg foretrækker selv at måle hvilepulsen på. For at måle pulsen manuelt, så skal du bare finde et sted på kroppen, hvor der er en stor blodåre, der ligger tæt på overfladen. For de fleste kan man let mærke pulsen på håndleddet eller ved halsen. Typisk bruger jeg pege- og langefingeren til at mærke pulsen.
 
 {% include figure image_path="https://i.insider.com/5eb9c8155f726e305642adb7?width=800&format=jpeg&auto=webp" caption="Du kan enten tage pulsen på håndleddet eller på halsen. Kilde: [www.insider.com](https://www.insider.com/what-is-a-good-resting-heart-rate)." alt="mål hvilepuls på håndleddet" %}
 
@@ -146,7 +148,7 @@ Hvis du vil have det mest præcise bud på, hvad din reelle hvilepuls er, så b�
 
 ### 2. Mål hvilepulsen med pulsur
 
-- **Pulsur.** Du kan bruge et pulsur. Det er klart mest præcist, hvis du bruger en rem, men nogle nye ure kan også måle det direkte gennem håndleddet. Måling direkte i håndleddet er dog forbundet med større usikkerheder.
+Du kan bruge et pulsur. Det er klart mest præcist, hvis du bruger en rem, men nogle nye ure kan også måle det direkte gennem håndleddet. Måling direkte i håndleddet er dog forbundet med større usikkerheder.
 
 Du gør følgende for at måle din hvilepuls:
 
@@ -157,7 +159,7 @@ Du gør følgende for at måle din hvilepuls:
 
 ### 3. Mål hvilepulsen med blodtryksmåler
 
-- **Blodtryksmåler.** Her er vi naturligvis i den lidt dyrere ende, men fordelen er, at du også får dit blodtryk målt. Jeg synes dog godt afklemningen af armen kan være lidt stressende, hvilket potentielt kan øge pulsen.
+Her er vi naturligvis i den lidt dyrere ende, men fordelen er, at du også får dit blodtryk målt. Jeg synes dog godt afklemningen af armen kan være lidt stressende, hvilket potentielt kan øge pulsen.
 
 Du følger nogenlunde samme fremgangsmåde som ovenfor, men starter først blodtryksmåleren efter, at du har hvilet nogle minutter efter at være vågnet. Det larmer jo lidt, så hvis du deler din seng med nogen, så skal du nok have lavet en aftale på forhånd.
 

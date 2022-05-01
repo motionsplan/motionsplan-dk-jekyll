@@ -29,7 +29,7 @@ garmin_lactate:
   - image_path: /assets/images/blog/garmin-setup-lactate-3.jpg
 ---
 
-Når du vil lave pulstræning, så kan du beregne pulszoner og træningsinstensitet ud fra din maxpuls eller pulsreserve. Når ud har udregnet dine træningszoner, så kan du målrette din træning ud fra pulsen.
+Når du vil lave pulstræning, så kan du beregne pulszoner og træningsinstensitet ud fra din [maxpuls](/test-max-puls/) eller pulsreserve. Når ud har udregnet dine træningszoner, så kan du målrette din træning ud fra pulsen.
 
 Pulstræning hænger sammen med konditionstræning og kredsløbstræning. Det er et værktøj, du kan bruge til at styre træningen af din kondition for at være sikker på, at du rammer det rigtige energisystem i løbet af træningen.
 
