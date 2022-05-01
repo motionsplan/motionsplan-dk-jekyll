@@ -1,0 +1,48 @@
+<form class="calculator" id="calculator_rpe_strength">
+    <fieldset>
+        <legend>Har løftet (1RM)</legend>
+        <div class="form-group">
+            <label>Vægt (kg)
+                <input name="have_weight" type="number" min="0" max="10000" placeholder="" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Gentagelser (reps)
+                <input name="have_reps" type="number" min="0" max="20" placeholder="" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>RPE
+                <input name="have_rpe" type="number" min="0" max="20" placeholder="" required>
+            </label>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Vil gerne løfte</legend>
+        <div class="form-group">
+            <label>Gentagelser (reps)
+                <input name="want_reps" type="text">
+            </label>
+        </div>
+        <div class="form-group">
+            <label>RPE
+                <input name="want_rpe" type="text">
+            </label>
+        </div>
+        <input type="submit" value="Udregn">
+    </fieldset>
+    <fieldset>
+        <legend>Resultat</legend>
+        <div class="form-group">
+            <label>e1RM (kg)
+                <input disabled name="e1rm" type="text" disabled>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Du skal løfte (kg)
+                <input disabled name="want_weight" type="text" disabled>
+            </label>
+        </div>
+    </fieldset>
+    {% include calculator-footer.html %}
+</form>

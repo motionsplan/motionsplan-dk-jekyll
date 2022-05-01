@@ -83,6 +83,55 @@ $(function() {
         });
     });
 
+    $("#maxhr_age").change(function() {
+      console.log('Ready to calculate');
+      let age = Number($("#maxhr_age").val());
+
+      let tanaka = maxhr.EstimateMaxHr(age, 'tanaka');
+      $("#maxhr_tanaka").text(tanaka.getMaxHr().toFixed(0));
+
+      let fox = maxhr.EstimateMaxHr(age, 'fox');
+      $("#maxhr_fox").text(fox.getMaxHr().toFixed(0));
+
+      let gellish_linear = maxhr.EstimateMaxHr(age, 'gellish_linear');
+      $("#maxhr_gellish_linear").text(gellish_linear.getMaxHr().toFixed(0));
+
+      let gellish = maxhr.EstimateMaxHr(age, 'gellish');
+      $("#maxhr_gellish").text(gellish.getMaxHr().toFixed(0));
+
+      let nes = maxhr.EstimateMaxHr(age, 'nes');
+      $("#maxhr_nes").text(nes.getMaxHr().toFixed(0));
+
+      let arena = maxhr.EstimateMaxHr(age, 'arena');
+      $("#maxhr_arena").text(arena.getMaxHr().toFixed(0));
+
+      let aastrand = maxhr.EstimateMaxHr(age, 'aastrand');
+      $("#maxhr_aastrand").text(aastrand.getMaxHr().toFixed(0));
+
+      let inbar = maxhr.EstimateMaxHr(age, 'inbar');
+      $("#maxhr_inbar").text(inbar.getMaxHr().toFixed(0));
+
+      let londeree_moeschberger = maxhr.EstimateMaxHr(age, 'londeree_moeschberger');
+      $("#maxhr_londeree_moeschberger").text(londeree_moeschberger.getMaxHr().toFixed(0));
+    });
+
+    $("#maxhr_age_men_women").change(function() {
+      console.log('Ready to calculate');
+      let age = Number($("#maxhr_age_men_women").val());
+
+      let fairbarn_female = maxhr.EstimateMaxHr(age, 'fairbarn_female');
+      $("#maxhr_fairbarn_female").text(fairbarn_female.getMaxHr().toFixed(0));
+
+      let fairbarn_male = maxhr.EstimateMaxHr(age, 'fairbarn_male');
+      $("#maxhr_fairbarn_male").text(fairbarn_male.getMaxHr().toFixed(0));
+
+      let whyte_female = maxhr.EstimateMaxHr(age, 'whyte_female');
+      $("#maxhr_whyte_female").text(whyte_female.getMaxHr().toFixed(0));
+
+      let whyte_male = maxhr.EstimateMaxHr(age, 'whyte_male');
+      $("#maxhr_whyte_male").text(whyte_male.getMaxHr().toFixed(0));
+    });
+
     $("#target_bmi_woman").change(function() {
         console.log('Ready to calculate');
         $("table#idealweight > tbody > tr").each(function(i, obj) {
@@ -1014,10 +1063,10 @@ $(function() {
         console.log("Calculate Maximal Heart Rate");
         e.preventDefault();
 
-      let age = Number($("[name='age']").val());
-      let formula = $("[name='maxhr-formula']").val();
+        let age = Number($("[name='age']").val());
+        let formula = $("[name='maxhr-formula']").val();
 
-      let hr = maxhr.EstimateMaxHr(age, formula);
+        let hr = maxhr.EstimateMaxHr(age, formula);
 
         $("[name='max_hr']").val(hr.getMaxHr().toFixed(0));
     });
