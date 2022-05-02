@@ -105,9 +105,9 @@ Tabellerne er lavet af Per-Olof Åstrand og suppleret med data fra danske børn 
 
 ## Hvad er de højeste kondital der er målt?
 
-Den norske skiløber, [Bjørn Dæhlie](https://da.wikipedia.org/wiki/Bj%C3%B8rn_D%C3%A6hlie), har uden for sæson fået målt et kondital på 96 ml/kg/min, hvilket må siges at være virkelig højt. Der går forlydender om, at den norske cyklist Oskar Svendsen har [slået rekorden for det højeste maksimale iltoptagelse, der er målt](https://www.procycling.no/3467273/) på 97,5 ml/min/kg.
+Den norske skiløber, [Bjørn Dæhlie](https://da.wikipedia.org/wiki/Bj%C3%B8rn_D%C3%A6hlie), har uden for sæson fået målt et kondital på 96 ml/kg/min, hvilket må siges at være virkelig højt. Der går forlydender om, at den norske cyklist Oskar Svendsen har ifølge [www.procycling.no](https://www.procycling.no/3467273/) slået rekorden for det højeste maksimale iltoptagelse, der er målt på 97,5 ml/min/kg.
 
-Det er interessant, hvor mange nordmænd der er på [listen over de højeste kondital i verden](https://www.topendsports.com/testing/records/vo2max.htm).
+Det er interessant, hvor mange nordmænd der er på listen over de højeste kondital i verden på [www.topendsports.com](https://www.topendsports.com/testing/records/vo2max.htm).
 
 [Anna Møller](https://sport.tv2.dk/video/YW5uYTA0MDRtYXNm) har fået målt det højeste kondital på Københavns Universitet for danskere. Ellers kan du tjekke denne video med de højeste tal for kvinder, hvor langdistanceløberen Joan Benoit står registreret til 78,6 ml/min/kg.
 
@@ -154,7 +154,7 @@ Konditallet indgår ofte, når man vil vurdere den enkeltes sundhed.
 
 --- <cite>[Morten Zacho](http://web.archive.org/web/20100131082019/http://www.motion-online.dk/konditionstraening/testning/retfaerdig_vurdering_af_overvaegtiges_kondition/){:rel="nofollow"}</cite>
 
-Morten Zacho foreslår i [Retfærdig vurdering af overvægtiges kondition](http://web.archive.org/web/20090207083616/http://www.motion-online.dk/konditionstraening/testning/retfaerdig_vurdering_af_overvaegtiges_kondition/){:rel="nofollow"} at bruge princippet om *Kondital ved Index 23*.[^note]
+[Morten Zacho](http://web.archive.org/web/20090207083616/http://www.motion-online.dk/konditionstraening/testning/retfaerdig_vurdering_af_overvaegtiges_kondition/){:rel="nofollow"} foreslår i Retfærdig vurdering af overvægtiges kondition at bruge princippet om *Kondital ved Index 23*.[^note]
 
 [^note]: Morten Zacho foreslår også, at man kan opløfte vægten i en potens lavere end 1, for at den får mindre betydning, eller man normalisere i forhold til fedtfri masse i stedet. Man kan også bruge princippet om skalering og dividere iltoptagelsen med højden i anden potens.
 
@@ -180,7 +180,7 @@ Samtidigt skriver Morten Zacho, at Kondital<sub>Index 23</sub> er en værdi, der
 
 --- <cite>[Morten Zacho](http://web.archive.org/web/20090207083616/http://www.motion-online.dk/konditionstraening/testning/retfaerdig_vurdering_af_overvaegtiges_kondition/){:rel="nofollow"}</cite>
 
-Det har også været foreslået at opløfte kropsvægten med 0,73, når man sammenligner kondital for bedre at tage højde for [løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %}) og give en mere retfærdig sammenligning mellem lette og tunge atleter. Læs fx mere i denne artikel af Morten Zacho [Effekt af kropsvægt på den maksimale iltoptagelse](http://web.archive.org/web/20130605152402/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/effekt_af_kropsvaegt_paa_den_maksimale_iltoptagelse/){:rel="nofollow"}.
+Det har også været foreslået at opløfte kropsvægten med 0,73, når man sammenligner kondital for bedre at tage højde for [løbeøkonomi]({% link _posts/2019-12-16-running-economy.md %}) og give en mere retfærdig sammenligning mellem lette og tunge atleter. Læs fx mere i [denne artikel af Morten Zacho](http://web.archive.org/web/20130605152402/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/effekt_af_kropsvaegt_paa_den_maksimale_iltoptagelse/){:rel="nofollow"}: Effekt af kropsvægt på den maksimale iltoptagelse.
 {: .notice .notice--warning }
 
 ## Kondital beregning ved index 23
