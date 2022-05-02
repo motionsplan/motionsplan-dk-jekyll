@@ -19,7 +19,7 @@ toc: true
 
 Jeg kan godt lide at træne, men jeg kan også mærke, at jeg er blevet ældre. Hvordan hænger restitution og alder sammen, og hvordan skal jeg planlægge min træning i forhold til min alder?
 
-Her dykker jeg ned i, hvilken betydning alderen har for [restitution](/restitution) og [restitutionstid](/restitutionstid/)? Jeg har undersøgt, om restitutionstiden ændrer sig med alderen, når man skal restituere mellem to træningspas.
+Her dykker jeg ned i, hvilken betydning alderen har for [restitution](/restitution/) og [restitutionstid](/restitutionstid/)? Jeg har undersøgt, om restitutionstiden ændrer sig med alderen, når man skal restituere mellem to træningspas.
 
 ## Restitution og alder
 

@@ -60,9 +60,9 @@ Noget af det vigtigste for at undgå rygproblemer er ifølge Stuart McGill, at d
 
 For at træne ryggen foreslår Stuart McGill følgende øvelser:
 
-- [Curlup](/oevelse/maveoevelse-stuart-mcgill-curlup), [planken](/oevelse/planken) eller for de avancerede [stir the pot](/oevelse/stir-pot).
-- [Side bridge](/oevelse/side-bridge)
-- [Birddog](/oevelse/birddog)
+- [Curlup](/oevelse/maveoevelse-stuart-mcgill-curlup/), [planken](/oevelse/planken/) eller for de avancerede [stir the pot](/oevelse/stir-pot/).
+- [Side bridge](/oevelse/side-bridge/)
+- [Birddog](/oevelse/birddog/)
 
 ## Test om du er i farezonen for at få ondt i ryggen
 

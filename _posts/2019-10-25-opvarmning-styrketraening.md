@@ -46,7 +46,7 @@ CNS-priming
 
 ## Forslag til struktur for opvarmningen
 
-Jeg er ret inspireret af Mike Robertsons træningstilgang og [struktur i hans Bulletproof Athlete-program](/artikel/bulletproof-athlete). I forhold til opvarmning til styrketræning, så bringer han os igennem disse faser.
+Jeg er ret inspireret af Mike Robertsons træningstilgang og [struktur i hans Bulletproof Athlete-program](/artikel/bulletproof-athlete/). I forhold til opvarmning til styrketræning, så bringer han os igennem disse faser.
 
 R1 --- Release
 : Arbejde med det bløde muskelvæv med foamrollere og lacrosse bolde. Vi arbejder med vævet for at løsne spændinger.
