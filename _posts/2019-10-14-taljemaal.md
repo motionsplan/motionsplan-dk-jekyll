@@ -164,10 +164,10 @@ I øjeblikket ser det ud til, at talje/højde-målet er det mest brugte mål i d
 Husk at testene udelukkende estimerer noget om din sundhed. De bør ikke være et startskud til en [slankekur]({% link _posts/2020-09-04-slankekur.md%}), fordi du skal opnå en tilfældig [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}) fra en beregner.
 {: .notice .notice--info }
 
-## Referencer til taljemål og hoftemål
+## Referencer
 
 <details markdown="1">
-  <summary>Se referencer om taljemål, hoftemål og livvidde</summary>
+  <summary>Se referencer</summary>
 
 ### Taljemål (livvidde)
 

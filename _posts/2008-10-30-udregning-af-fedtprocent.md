@@ -208,12 +208,12 @@ Hvis du vil have et mere præcist bud på din fedtprocent, så kan du kigge på 
 
 Men overvej hvorfor du gerne vil have sat tal på din fedtprocent, og hvad du vil bruge de tal til.
 
-## Referencer om vores fedtprocent beregner
+## Referencer
 
 {% include feature_row type="left" %}
 
 <details markdown="1">
-  <summary>Se referencer til fedtprocent beregner</summary>
+  <summary>Se referencerne</summary>
 
 * Loenneke, Jeremy P., Kathryn M. Hirt, Jacob M. Wilson, Jeremy T Barnes, og Thomas J Pujol. 2013. “Predicting Body Composition in College Students Using the Womersley and Durnin Body Mass Index Equation”. Asian Journal of Sports Medicine 4 (2): 153–57. <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3690736/>.
 * Heitmann, B. L. 1990. “Evaluation of Body Fat Estimated from Body Mass Index, Skinfolds and Impedance. A Comparative Study”. European Journal of Clinical Nutrition 44 (11): 831–37.

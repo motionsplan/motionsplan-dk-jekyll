@@ -285,10 +285,10 @@ Jeg kan også rigtig godt selv lide at bruge [RPE-tabeller baseret på Rate of P
 
 Bruger du en RM-beregner i din træning?
 
-## Referencer for RM-test og RM-formler
+## Referencer
 
 <details markdown="1">
-  <summary>Se referencer om RM-test og RM-beregner</summary>
+  <summary>Se referencer</summary>
 
 - [Science for Sport: Testing 1RM](https://www.scienceforsport.com/1rm-testing/)
 - Reynolds, Jeff M., Toryanno J. Gordon, og Robert Andrew Robergs. “Prediction of one repetition maximum strength from multiple repetition maximum testing and anthropometry.” Journal of strength and conditioning research 20, nr. 3 (2006): 584–92. <https://doi.org/10.1519/R-15304.1>.

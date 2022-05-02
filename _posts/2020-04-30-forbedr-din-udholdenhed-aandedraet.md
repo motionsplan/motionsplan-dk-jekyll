@@ -141,6 +141,6 @@ Dr. Cobb anbefaler en åndedrætstræner til at arbejde med din vejrtrækning. D
 
 {% include feature_row type="left" %}
 
-## Referencer om åndedrætstræning og åndedrætsøvelser
+## Referencer
 
 - [Cobb: Improve Endurance in 7 minutes a day](https://zhealtheducation.com/blog/episode-109-improve-endurance-in-7-minutes-a-day/)

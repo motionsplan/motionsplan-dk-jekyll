@@ -108,10 +108,10 @@ Kondital = (18,38 + (0,03301 x løbedistance) – (5,92 x dit køn (mand = 0, kv
 
 Andersen-testen er en rigtig god konditionstest, når du har en større gruppe børn. Hvis du har brug for en anden præcis konditionstest til børn, så kan du også bruge [Watt-max testen på cykel for børn](/kondital-wattmax-boern/). Denne test kræver imidlertid, at du har adgang til et præcist cykelergometer.
 
-## Referencer til Andersen Testen
+## Referencer
 
 <details markdown="1">
-  <summary>Se referencer til Andersen Testen</summary>
+  <summary>Se referencer</summary>
 
 - Andersen, Lars Bo; Andersen, Thor-Einar; Andersen, Eivind; Anderssen, Sigmund A. An intermittent running test to estimate maximal oxygen uptake: the Andersen test. Journal of Sports Medicine and Physical Fitness, Vol. 48, No. 7, 01.12.2008, p. 434-437.
 - Aadland E, Terum T, Mamen A, Andersen LB, Resaland GK. The Andersen aerobic fitness test: reliability and validity in 10-year-old children. PLoS One. 2014;9(10):e110492. Published 2014 Oct 17. doi:10.1371/journal.pone.0110492

@@ -279,10 +279,10 @@ Jeg synes ikke de oprindelige tabeller til vurdering af distancen på Cooper-tes
 
 Hvis du hellere vil lave en konditionstest baseret på distance, så er [2400-meter-testen]({% link _posts/2019-10-31-kondital-2400-meter.md %}) et godt alternativ. Det er også den test, der bruges i [politiets fysiske optagelsesprøve](/politiets-fysiske-tests-krav-optagelsesproeve/).
 
-## Referencer til Cooper-test
+## Referencer
 
 <details markdown="1">
-  <summary>Se referencer til Cooper-test</summary>
+  <summary>Se referencer</summary>
 
 - Cooper, K. H. 1968. [“A Means of Assessing Maximal Oxygen Intake. Correlation between Field and Treadmill Testing”](https://pubmed.ncbi.nlm.nih.gov/5694044/). JAMA 203 (3): 201–4.
 - Grant, S., K. Corbett, A. M. Amjad, J. Wilson, og T. Aitchison. 1995. “A Comparison of Methods of Predicting Maximum Oxygen Uptake.” _British Journal of Sports Medicine_ 29 (3): 147. [https://bjsm.bmj.com/content/29/3/147](https://bjsm.bmj.com/content/29/3/147).

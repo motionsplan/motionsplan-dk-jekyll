@@ -301,10 +301,10 @@ Kim Petersen, løbetræner og redaktør på Rekordjagt, har også skrevet en rig
 
 Hvordan arbejder du med din løbeøkonomi?
 
-## Referencer om løbeøkonomi
+## Referencer
 
 <details markdown="1">
-  <summary>Se flere referencer om løbeøkonomi</summary>
+  <summary>Se flere referencer</summary>
 
 - [Barnes KR., Kilding AE. 2015. Running economy: measurement, norms, and determining factors](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4555089/)
 - Paavolainen, Leena, Keijo Häkkinen, Ismo Hämäläinen, Ari Nummela, og Heikki Rusko. 1999. “Explosive-strength training improves 5-km running time  by improving running economy and muscle power”. Journal of Applied Physiology 86 (5): 1527–33. <https://doi.org/10.1152/jappl.1999.86.5.1527>.

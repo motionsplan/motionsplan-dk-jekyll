@@ -85,6 +85,6 @@ Udskillelsen af CO<sub>2</sub> gennem udåndingsluften kan i øvrigt stige efter
 
 Vi har lavet en side, der går mere i dybden med [test af iltoptagelse i laboratorium]({% link _posts/2019-10-31-kondital-laboratorietest.md %}).
 
-## Referencer om respiratoriske og metaboliske kvotient
+## Referencer
 
 {% include feature_row type="left"%}

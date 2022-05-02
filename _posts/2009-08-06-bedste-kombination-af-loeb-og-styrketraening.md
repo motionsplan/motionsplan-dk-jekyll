@@ -171,7 +171,7 @@ Samtidig mangler der svar på, hvad den _optimale minimale dosis_, hvis man gern
 
 Kan du supplere med nogle forskningsresultater, der kan få os tættere på et godt bud på, hvordan træningen skal organiseres og udføres for at få mest muligt ud af den, så brug endelig kommentarerne?
 
-## Referencer til kombination af styrketræning, løb og udholdenhedstræning
+## Referencer
 
 <details markdown="1">
   <summary>Se referencer om samtidig træning med løb og styrketræning</summary>

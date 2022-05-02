@@ -138,7 +138,7 @@ Du kan læse mere om, hvordan du kan skrue arbejds- og pauseperioder sammen i mi
 
 {% include faq.html %}
 
-## Referencer til cirkeltræning og circuit træning
+## Referencer
 
 <details markdown="1">
   <summary>Se referencer</summary>

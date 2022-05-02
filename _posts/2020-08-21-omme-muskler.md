@@ -199,10 +199,10 @@ Hvis du har fået DOMS og ømme muskler, så har du brug for [restitution](/rest
 
 Du kan sagtens træne med lidt muskelømhed i kroppen, men hvis dine muskler er meget ømme, så skal du respektere signalerne fra kroppen og give den en mindre pause.
 
-## Referencer om DOMS og ømme muskler
+## Referencer
 
 <details markdown="1">
-  <summary>Se flere referencer om DOMS og delayed onset muscle soreness</summary>
+  <summary>Se flere referencer</summary>
 
   - Hotfiel et al (2018):  [Advances in Delayed-Onset Muscle Soreness (DOMS): Part I: Pathogenesis and Diagnostics](https://pubmed.ncbi.nlm.nih.gov/30537791/)
   - Heiss et al (2019):  [Advances in Delayed-Onset Muscle Soreness (DOMS) - Part II: Treatment and Prevention](https://pubmed.ncbi.nlm.nih.gov/30865998/)

@@ -325,7 +325,7 @@ https://pubmed.ncbi.nlm.nih.gov/29755363/
 
 {% endcomment %}
 
-## Referencer om restitution
+## Referencer
 
 <details markdown="1">
   <summary>Se referencer om restitution</summary>

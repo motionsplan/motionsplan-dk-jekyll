@@ -304,7 +304,10 @@ Det mest sandsynlige er, at der ikke er nogen risiko ved at tage lidt ekstra mag
 
 {% include feature_row type="left" %}
 
-## Referencer til magnesium
+## Referencer
+
+<details markdown="1">
+  <summary>Se referencer</summary>
 
 - Abbasi, Behnood, Masud Kimiagar, Khosro Sadeghniiat, Minoo M. Shirazi, Mehdi Hedayati, og Bahram Rashidkhani. “The effect of magnesium supplementation on primary insomnia in elderly: A double-blind placebo-controlled clinical trial”. _Journal of Research in Medical Sciences: The Official Journal of Isfahan University of Medical Sciences_ 17, nr. 12 (december 2012): 1161–69.
 - Al Alawi, Abdullah M., Sandawana William Majoni, og Henrik Falhammar. “Magnesium and Human Health: Perspectives and Research Directions”. _International Journal of Endocrinology_ 2018 (16. april 2018). [https://doi.org/10.1155/2018/9041694](https://doi.org/10.1155/2018/9041694).
@@ -320,3 +323,4 @@ Det mest sandsynlige er, at der ikke er nogen risiko ved at tage lidt ekstra mag
 - Wang, Ru, Cheng Chen, Wei Liu, Tang Zhou, Pengcheng Xun, Ka He, og Peijie Chen. “The Effect of Magnesium Supplementation on Muscle Fitness: A Meta-Analysis and Systematic Review”. _Magnesium Research_ 30, nr. 4 (1. november 2017): 120–32. [https://doi.org/10.1684/mrh.2018.0430](https://doi.org/10.1684/mrh.2018.0430).
 - Zhang, Yijia, Pengcheng Xun, Ru Wang, Lijuan Mao, og Ka He. “Can Magnesium Enhance Exercise Performance?” _Nutrients_ 9, nr. 9 (28. august 2017). [https://doi.org/10.3390/nu9090946](https://doi.org/10.3390/nu9090946).
 - Gröber, Uwe, Tanja Werner, Jürgen Vormann, og Klaus Kisters. “Myth or Reality—Transdermal Magnesium?” Nutrients 9, nr. 8 (28. juli 2017). <https://doi.org/10.3390/nu9080813>.
+</details>

@@ -67,7 +67,11 @@ Jeg leder efter en test, hvor kvinder kan få lov til at tage armstrækninger p�
 
 Jeg har skrevet mere om [forskellen på armstrækninger og armbøjninger]({% link _posts/2020-07-05-pushups.md %}). Jeg har også skrevet om, [hvordan du tager din første armstrækning eller træner op til at kunne tage mange armstrækninger]({% link _posts/2011-08-24-hvordan-laerer-jeg-tage-en-armstraekning.md %}).
 
-## Referencer til armstrækningstest
+## Referencer
+
+<details markdown="1">
+  <summary>Se referencer</summary>
 
 - Adult Norms: Nieman, DC, Exercise testing and Prescription: A health related approach, 4th ed., Mountain View, CA: Mayfield Publishing, 1999.
 - Adolescent Norms: Canadian Standardized Test of Fitness Operations Manual, 3rd ed., Health Canada, 1986.
+</details>

@@ -134,7 +134,7 @@ Her kan du se forskellige måder, safety baren fra EliteFts kan bruges på.
 
 --- <cite>[Coop](https://www.garagegymreviews.com/the-best-safety-squat-bar)</cite>
 
-## Referencer til safety bar squats
+## Referencer
 
 <details markdown="1">
   <summary>Se referencer</summary>

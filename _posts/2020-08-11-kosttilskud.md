@@ -258,10 +258,14 @@ Derefter skal du huske at starte i bunden af pyramiderne.
 
 ## Referencer om kosttilskud
 
+<details markdown="1">
+  <summary>Se referencer</summary>
+
 - [Hvilke kosttilskud tager forskerne selv? - Videnskab.dk](https://videnskab.dk/krop-sundhed/hvilke-kosttilskud-tager-forskerne-selv)
 - [Kosttilskudshierarkiet: De bedste kosttilskud til styrketræning.](https://www.bodylab.dk/shop/kosttilskudshierarkiet-2894c1.html)
 - [EP #18: Kosttilskud som er spild af penge - Fisker Performance](https://www.fisker-performance.dk/podcast/kosttilskud-som-er-spild-af-penge)
 - [EP #21: Kosttilskud med dokumenteret effekt - Fisker ...](https://www.fisker-performance.dk/podcast/kosttilskud-med-dokumenteret-effekt)
+</details>
 
 ### Referencer om protein som kosttilskud
 

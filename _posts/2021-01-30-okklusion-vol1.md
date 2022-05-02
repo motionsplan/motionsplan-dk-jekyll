@@ -158,10 +158,10 @@ Du kan se frem til flere indlæg i denne serie om okklusionstræning, hvor jeg v
 
 Indtil næste gang kan du læse mere om [udstyr til okklusionstræning](/udstyr-okklusionstraening-okklusionsudstyr/) eller tjekke okklusionsudstyret fra [Occlude ud her](https://www.occlude.dk/). Tak fordi du læste med!
 
-## Referencer om okklusionstræning
+## Referencer
 
 <details markdown="1">
-  <summary>Se flere referencer om {{ page.title }}</summary>
+  <summary>Se flere referencer</summary>
 
 1. Patterson, S.D., et al., _Blood Flow Restriction Exercise Position Stand: Considerations of Methodology, Application, and Safety._ Front Physiol, 2019. **10**: p. 533.
 2. Scott, B.R., et al., _Exercise with blood flow restriction: an updated evidence-based approach for enhanced muscular development._ Sports Med, 2015. **45**(3): p. 313-25.

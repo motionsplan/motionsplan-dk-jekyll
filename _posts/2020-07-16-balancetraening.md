@@ -307,10 +307,10 @@ Hvad er **fordelene** ved balancetræning?
 
 God balancetræning! Brug endelig kommentarerne, hvis du har flere gode forslag til øvelser til at træne balancen.
 
-## Referencer til balance og balanceøvelser
+## Referencer
 
 <details markdown="1">
-  <summary>Se flere referencer om {{ page.title }}</summary>
+  <summary>Se flere referencer</summary>
 
 - Ambegaonkar, Jatin, Shane Caswell, Jason Winchester, Yohei Shimokochi, Nelson Cortes, og Amanda Caswell. 2013. “Balance Comparisons Between Female Dancers and Active Nondancers”. _Research quarterly for exercise and sport_ 84 (marts): 24–29. [https://doi.org/10.1080/02701367.2013.762287](https://doi.org/10.1080/02701367.2013.762287).
 - Behm, David G., Thomas Muehlbauer, Armin Kibele, og Urs Granacher. 2015. “Effects of Strength Training Using Unstable Surfaces on Strength, Power and Balance Performance Across the Lifespan: A Systematic Review and Meta-Analysis”. _Sports Medicine (Auckland, N.Z.)_ 45 (12): 1645–69. [https://doi.org/10.1007/s40279-015-0384-x](https://doi.org/10.1007/s40279-015-0384-x).

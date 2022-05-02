@@ -161,7 +161,7 @@ Husk altid at varme grundigt op først. Desuden kan det være en god ide at plac
 
 Hvordan sammensætter du din cykeltræning? Kører du også intervaller på cyklen?
 
-## Referencer om cykling og intervaltræning
+## Referencer
 
 <details markdown="1">
   <summary>Se referencer om cykling og intervaltræning</summary>

@@ -95,10 +95,10 @@ Testen er oversat til dansk. Jeg har ikke kunne finde yderligere informationer o
 
 {% include faq.html %}
 
-## Referencer til depressionstest
+## Referencer
 
 <details markdown="1">
-  <summary>Se referencer til depressions test</summary>
+  <summary>Se referencer til depressions tests</summary>
 
 - Badr, H., Federman, A. D., Wolf, M., Revenson, T. A., & Wisnivesky, J. P. (2016). Depression in individuals with chronic obstructive pulmonary disease and their informal caregivers. Aging & Mental Health, 21(9), 975-982, doi: 10.1080/13607863.2016.1186153
 - Gilbody, S., Richards, D., Brealey, S., & Hewitt, C. (2007). Screening for depression in medical settings with the Patient Health Questionnaire (PHQ): A diagnostic meta-analysis. Journal of General Internal Medicine, 22(11), 1596-1602. 10.1007/s11606-007-0333-y

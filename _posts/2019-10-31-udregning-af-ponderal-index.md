@@ -47,7 +47,11 @@ Jeg vejer 82 kg og er 1,81 cm høj. Jeg har altså et Ponderal Index på 13,8.
 
 Jeg har ikke kunnet finde nogle normer for Ponderal Index. Ponderal Index har de samme ulemper som BMI med, at det primært er lavet som et statistisk redskab til at sammenligne befolkningsgrupper.
  
-## Referencer om Ponderal Index
+## Referencer
+
+<details markdown="1">
+  <summary>Se referencer</summary>
 
 - Günther, B. 1975. “Dimensional Analysis and Theory of Biological Similarity”. Physiological Reviews 55 (4): 659–99. <https://doi.org/10.1152/physrev.1975.55.4.659>.
 - Der Index der Körperfülle als Maß des Ernährungszustandes. F. Rohrer. Münchner Med. Wschr. 68(1921), 580-582
+</details>

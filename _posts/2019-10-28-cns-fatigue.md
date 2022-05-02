@@ -58,10 +58,10 @@ Med introduktionen af smartphones er det ret let at lave en finger tapping test,
 
 [<i class="fab fa-android"></i> CNS Tap](https://play.google.com/store/apps/details?id=com.sreyas.cnstapmonitor&hl=da&gl=US){: .btn .btn--large .btn--success } eller [<i class="fab fa-apple"></i> Digital Finger Tapping Test](https://apps.apple.com/us/app/digital-finger-tapping-test/id439751108){: .btn .btn--large .btn--info }
 
-## Referencer om træthed i nervesystemet
+## Referencer
 
 <details markdown="1">
-  <summary>Se referencer om træthed i nervesystemet</summary>
+  <summary>Se referencer</summary>
 
 - [Why does Central Nervous System Fatigue happen during strength training](https://medium.com/@SandCResearch/why-does-central-nervous-system-cns-fatigue-happen-during-strength-training-e0af3f5e4989)
 - <https://barbend.com/cns-fatigue/>

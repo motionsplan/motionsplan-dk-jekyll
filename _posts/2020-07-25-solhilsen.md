@@ -233,7 +233,7 @@ Hvis du kan lide artiklerne her fra Motionsplan og gerne vil støtte sitet, så 
 
 {% include faq.html %}
 
-## Referencer til solhilsen A og B
+## Referencer
 
 <details markdown="1">
   <summary>Se referencer om solhilsen A og B</summary>

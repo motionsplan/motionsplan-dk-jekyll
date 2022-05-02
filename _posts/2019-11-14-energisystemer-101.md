@@ -286,10 +286,10 @@ Når man træner det aerobe og anaerobe system, så er det godt at skelne mellem
 
 Jeg har skrevet mere om de [fysiologiske tilpasninger til konditionstræning]({% link _posts/2020-05-31-tilpasning-konditionstraening.md %}) og [hvor hurtigt du kan forbedre dit kondital]({% link _posts/2020-06-23-kondital-hvor-hurtigt.md %}). Vi har også skrevet om [HIIT-træning eller højintensive intervaller]({% link _posts/2020-09-22-hiit.md %}). Tjek også vores indlæg om [anaerob træning]({% link _posts/2021-01-02-anaerob-traening.md %}).
 
-## Referencer om energisystemer
+## Referencer
 
 <details markdown="1">
-  <summary>Se referencer om de aerobe og anaerobe energisystemer</summary>
+  <summary>Se referencer</summary>
 
 - [The Truth About Energy Systems - Day 1](https://www.8weeksout.com/truth-about-energy-systems-day-1/)
 - [The Truth About Energy Systems - Day 2](https://www.8weeksout.com/truth-about-energy-systems-day-2/)

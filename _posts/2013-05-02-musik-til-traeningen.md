@@ -265,7 +265,10 @@ På Spotify er der mange populære playlister, når du søger efter en playliste
 
 Skriv i kommentarerne, hvor du finder de bedste træningsplaylister, og hvad din bedste playliste er til hhv. løb, styrketræning, yoga, intervaltræning og konditionstræning.
 
-## Referencer til musik i træningen
+## Referencer
+
+<details markdown="1">
+  <summary>Se referencer</summary>
 
 - Arazi, Hamid, Abbas Asadi, og Morteza Purabed. 2015. “Physiological and Psychophysical Responses to Listening to Music during Warm-Up and Circuit-Type Resistance Exercise in Strength Trained Men”. _Journal of Sports Medicine (Hindawi Publishing Corporation)_ 2015: 389831. [https://doi.org/10.1155/2015/389831](https://doi.org/10.1155/2015/389831).
 - Ballmann, Christopher G., Marquis J. McCullum, Rebecca R. Rogers, Mallory M. Marshall, og Tyler D. Williams. 2018. “Effects of Preferred vs. Nonpreferred Music on Resistance Exercise Performance”. _Journal of Strength and Conditioning Research_, december. [https://doi.org/10.1519/JSC.0000000000002981](https://doi.org/10.1519/JSC.0000000000002981).
@@ -279,3 +282,4 @@ Skriv i kommentarerne, hvor du finder de bedste træningsplaylister, og hvad din
 - Kreutzer, Jeffrey S., John DeLuca, og Bruce Caplan, red. 2011. _Encyclopedia of Clinical Neuropsychology_. New York: Springer-Verlag. [https://www.springer.com/gp/book/9780387799476](https://www.springer.com/gp/book/9780387799476).
 - Lee, Sam, og Derek S. Kimmerly. 2016. “Influence of Music on Maximal Self-Paced Running Performance and Passive Post-Exercise Recovery Rate”. _The Journal of Sports Medicine and Physical Fitness_ 56 (1–2): 39–48.
 - Pearce, Kathy A. 2016. “Effects of Different Types of Music on Physical Strength”: _Perceptual and Motor Skills_, oktober. [https://doi.org/10.2466/pms.1981.53.2.351](https://doi.org/10.2466/pms.1981.53.2.351).
+</details>

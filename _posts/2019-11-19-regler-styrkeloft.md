@@ -180,9 +180,13 @@ Jeg har skrevet et andet indlæg, der handler om, hvordan du kan [forberede dig 
 
 {% include flipcard id="quiz" %}
 
-## Referencer til powerlifting
+## Referencer
+
+<details markdown="1">
+  <summary>Se referencer</summary>
 
 - [The International Powerlifting Federation. Tekniske Regler 2019](http://filer.styrke.dk/Tekniske_regler_IPF_2019.pdf)
+</details>
 
 ## Køb bog om styrkeløft og træning til powerlifting
 

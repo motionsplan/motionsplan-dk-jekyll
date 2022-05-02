@@ -90,6 +90,10 @@ Du kan køre testen på en Wattbike ved at bruge tabellerne, der omsætter modst
 
 {% include feature_row type="left" %}
 
-## Referencer til Watt max-testen
+## Referencer
+
+<details markdown="1">
+  <summary>Se referencer</summary>
 
 - Andersen, L. B. 1995. “A Maximal Cycle Exercise Protocol to Predict Maximal Oxygen Uptake”. Scandinavian Journal of Medicine & Science in Sports 5 (3): 143–46. <https://doi.org/10.1111/j.1600-0838.1995.tb00027.x>.
+</details>

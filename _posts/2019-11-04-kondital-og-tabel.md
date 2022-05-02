@@ -217,10 +217,10 @@ Vi har skrevet mere om, hvordan du [forbedrer din maksimale iltoptagelse i denne
 
 {% include faq.html %}
 
-## Referencer for kondition og kondital
+## Referencer
 
 <details markdown="1">
-  <summary>Se referencer for tabel over kondital</summary>
+  <summary>Se referencer</summary>
 
 {% include feature_row type="left" %}
 

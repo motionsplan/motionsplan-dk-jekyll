@@ -166,6 +166,6 @@ Rigtig mange af de [klassiske træningsprogrammer]({% link _pages/trainingprogra
 
 {% endcomment %}
 
-## Referencer om helkropsprogram
+## Referencer
 
 - Lou Schuler og Alwyn Cosgrowe (2006): The New Rules of Lifting. Six Basic Moves for Maximum Muscle, Penguin Books.

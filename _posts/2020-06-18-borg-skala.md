@@ -154,10 +154,10 @@ Hvis du vil teste dig selv med en cykelergometer test, der bygger på Borg-skala
 
 {% include faq.html %}
 
-## Referencer om Borg RPE skala
+## Referencer
 
 <details markdown="1">
-  <summary>Se referencer om Borgskalaen</summary>
+  <summary>Se referencer</summary>
 
 - Borg, G. 1970. “Perceived Exertion as an Indicator of Somatic Stress”. Scandinavian Journal of Rehabilitation Medicine 2 (2): 92–98. <https://pubmed.ncbi.nlm.nih.gov/5523831/>
 - Borg, G. 1990. “Psychophysical Scaling with Applications in Physical Work and the Perception of Exertion.” Scandinavian Journal of Work, Environment & Health 16: 55–58. <https://doi.org/10.5271/sjweh.1815>.

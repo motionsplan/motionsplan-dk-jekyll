@@ -112,7 +112,7 @@ Hvis det er rigtig varmt, og du drikker meget, så vær opmærksom på også at 
 
 Kroppen består altså af en rigtig stor del vand. Jeg har skrevet et andet indlæg, der besvarer spørgsmålet: [Hvor meget vand skal du drikke om dagen?]({% link _posts/2020-12-14-hvor-meget-vand-om-dagen.md %}).
 
-## Referencer om vand i kroppen
+## Referencer
 
 <details markdown="1">
   <summary>Se referencer</summary>

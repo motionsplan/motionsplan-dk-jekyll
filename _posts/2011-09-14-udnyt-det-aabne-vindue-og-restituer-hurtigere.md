@@ -136,7 +136,7 @@ Man skal nok ikke opfatte vinduet så snævert som man har gjort i nogle år. De
 
 Sørg for at få nok protein at spise omkring din træning, og det er også vigtigt at få genopfyldt glykogendepoterne. Hvis du har brug for hurtigt at få genopfyldt glykogendepoterne, så kan det måske betale sig at kigge lidt på det glykæmiske index. Du kan ganske givet sænke [restitutionstiden](/restitutionstid/) ved at fylde depoterne op hurtigst muligt.
 
-## Referencer om det åbne vindue
+## Referencer
 
 <details markdown="1">
   <summary>Se referencer om det åbne vindue</summary>
