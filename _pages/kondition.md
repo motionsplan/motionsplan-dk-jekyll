@@ -84,8 +84,6 @@ Du måler altså din kondition ved at måle den maksimale iltoptagelse. Når du 
 
 **Læs**: [Konditionstræning: Hvordan træner du din kondition?](/konditionstraening/))
 
-{% include feature_row id="feature_row_tests" type="left" %}
-
 {% comment %}
 
 ## Træningsprogram til konditionstræning
@@ -97,6 +95,8 @@ Du måler altså din kondition ved at måle den maksimale iltoptagelse. Når du 
 Der findes rigtig mange forskellige måder at teste sin kondition og sit kondital på. Du kan finde tests, hvor du bare skal svare på nogle spørgsmål, tests baseret på puls, løbetests og cykeltests.
 
 Alt dette har vi skrevet meget mere testmuligheder i nedenstående indlæg.
+
+{% include feature_row id="feature_row_tests" type="left" %}
 
 **Læs**: [Konditionstests: Test din kondition og dit kondital](/test-kondition-konditest-kondital/)
 
