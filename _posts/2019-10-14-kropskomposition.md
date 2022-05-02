@@ -126,13 +126,13 @@ Der er stor forskel i kvaliteten og præcisionen af BIA-apparater - og det er no
 
 Fordi BIA virker ved at måle på vandet i kroppen, så får man brugbar information også om vandbalancen i kroppen. Samtidig får man information om muskelmasse, _lean body mass_ og fedtprocent.
 
-[Læs mere om måling med bioimpedans](/artikel/inbody-570-bioimpedans){: .btn .btn--large .btn--success }
+[Læs mere om måling med bioimpedans](/artikel/inbody-570-bioimpedans/){: .btn .btn--large .btn--success }
 
 ### 5. Målinger og udregninger
 
 Baseret på målinger med målebånd kan du også udregne din fedtprocent. Præcisionen af disse udregninger er behæftet med de samme usikkerheder, som fx en [BMI beregner](/bmi/) eller andre lignende mere generelle målinger.
 
-[Udregn din fedtprocent](/artikel/udregning-af-fedtprocent){: .btn .btn--info .btn--large }
+[Udregn din fedtprocent](/artikel/udregning-af-fedtprocent/){: .btn .btn--info .btn--large }
 
 ## Afslutning om kropskomposition
 

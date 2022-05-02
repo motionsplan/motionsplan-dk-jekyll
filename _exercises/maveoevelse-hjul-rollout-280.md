@@ -46,7 +46,7 @@ last_modified_at: 2011-04-26T23:45:09Z
 
 Stående 'ab wheel out' er en af de hårde og meget imponerende øvelser for _core_. Men det er også rigtig svært at lære med mindre du bygger en rampe.
 
-De fleste [starter på knæene](/oevelse/maveoevelse-hjul-rollout), men så lærer man meget sjældent at komme op og kunne [lave øvelsen stående](/node/499). I stedet bør man lave en rampe, så du kan træne øvelsen i en lavere vinkel. I [følgende video fra rosstraining.com](http://rosstraining.com/blog/2011/03/03/standing-ab-wheel-rollout-tutorial/) kan du se, hvordan man gør det.
+De fleste [starter på knæene](/oevelse/maveoevelse-hjul-rollout), men så lærer man meget sjældent at komme op og kunne [lave øvelsen stående](/oevelse/ab-rollout-wheel/). I stedet bør man lave en rampe, så du kan træne øvelsen i en lavere vinkel. I [følgende video fra rosstraining.com](http://rosstraining.com/blog/2011/03/03/standing-ab-wheel-rollout-tutorial/) kan du se, hvordan man gør det.
 
 {% include video provider="youtube" id="3vfTLXQUZeI" %}
 

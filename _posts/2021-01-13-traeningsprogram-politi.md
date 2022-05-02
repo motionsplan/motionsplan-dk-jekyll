@@ -87,7 +87,7 @@ Kropshævninger er hvor man har færrest muligheder uden udstyr. Kvinder kan dog
 
 Mænd kan også få god allround træning af den øvre ryg med [Table Rows](/oevelse/table-rows/), som vil kunne hjælpe efterfølgende, når der skal trækkes vertikalt til kropshævninger, og det er det bedste bud hvis man intet udstyr har.
 
-Hvis du har en pullupbar eller du kan finde en god gren eller et skilt udenfor, så er almindelige kropshævninger selvfølgelig at foretrække for mændene, hvis du er stærk nok til at lave dem. Du kan læse mere om [kropshævninger med et træningsprogram til at lære at tage en pullup og en chinup](/artikel/vil-du-gerne-tage-en-kropshaevning/). Du kan også læse om [forskellen på chinups og pullups](/chinup-vs-pullup/). Det er pullups drengene skal tage til politiets optagelsesprøve, men chinups kan også være en god måde at træne op til det på.
+Hvis du har en pullupbar eller du kan finde en god gren eller et skilt udenfor, så er almindelige kropshævninger selvfølgelig at foretrække for mændene, hvis du er stærk nok til at lave dem. Du kan læse mere om [kropshævninger med et træningsprogram til at lære at tage en pullup og en chinup](/laer-kropshaevning-chinup-pullup-program/). Du kan også læse om [forskellen på chinups og pullups](/chinup-vs-pullup/). Det er pullups drengene skal tage til politiets optagelsesprøve, men chinups kan også være en god måde at træne op til det på.
 			
 ### Kategori 3: Bentræning
 

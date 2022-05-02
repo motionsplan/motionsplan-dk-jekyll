@@ -78,8 +78,8 @@ Fx kan du med **[Billat-intervaller vVO<sub>2</sub>-max]({% link _posts/2020-08-
 
 Når du skal flytte din maksimale ydeevne, så skal du arbejde tæt på din maksimale ydeevne. Intensitetens betydning for træningsudbyttet og præstationerne har vi skrevet lidt mere om i disse artikler.
 
-- [4 minutters hård intervaltræning var mere effektivt end en times kontinuerlig løb](/artikel/4-minutters-haard-intervaltraening-bedre-end-en-times-moderat-loeb). Djævelsk hårdt, men tilsyneladende effektivt.
-- [Intensiteten har betydning for forbedring af VO<sub>2</sub>max](/intensitet-vo2max/). 4 x 4 minutters løb på 90-95% af maksimale iltoptagelse var mere effektivt end 24 minutter på 85% af VO<sub>2</sub>max. Men det var tilsyneladende også mere effektivt end 45 x 15 sekunders gentagelser på 90-95% af VO<sub>2</sub>max.
+- [4 minutters hård intervaltræning var mere effektivt end en times kontinuerlig løb](/artikel/tabata-traening-intervaller/). Djævelsk hårdt, men tilsyneladende effektivt.
+- [Intensiteten har betydning for forbedring af VO<sub>2</sub>max](/maksimale-iltoptagelse-vo2max/). 4 x 4 minutters løb på 90-95% af maksimale iltoptagelse var mere effektivt end 24 minutter på 85% af VO<sub>2</sub>max. Men det var tilsyneladende også mere effektivt end 45 x 15 sekunders gentagelser på 90-95% af VO<sub>2</sub>max.
 
 ## Konklusion
 

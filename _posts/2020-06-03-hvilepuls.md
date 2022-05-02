@@ -197,7 +197,7 @@ Ud over at hvilepulsen er en indikator på ens træningsniveau særligt i kredsl
 
 Sammen med [max-pulsen]({% link _posts/2020-06-02-max-hr.md %}) kan du estimere dit [kondital ud fra puls med vores enkle beregner](/kondital-fra-puls/).
 
-Jeg har også skrevet mere om, hvordan du kan [udregne dine intensitetszoner fra pulsen](/puls-intensitet/), fordi du ved at kende din max-puls og hvilepuls kender din pulsreserve.
+Jeg har også skrevet mere om, hvordan du kan [udregne dine intensitetszoner fra pulsen](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/), fordi du ved at kende din max-puls og hvilepuls kender din pulsreserve.
 
 ## Ofte stillede spørgsmål
 
