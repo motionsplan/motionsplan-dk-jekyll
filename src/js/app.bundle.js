@@ -169,6 +169,7 @@ $(function() {
         $(this).find('td').eq(5).html(weight.toFixed(2));
       });
       $("table#smolov_jr_week_3 > tbody > tr").each(function(i, obj) {
+        let increment_1 = Number($("#increment_1").val());
         let increment_2 = Number($("#increment_2").val());
         let intensity_text = $(this).find('td').eq(1).html();
         let intensity = intensity_text.replace(/[^0-9]/g,'');
