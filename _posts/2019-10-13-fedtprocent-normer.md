@@ -176,6 +176,6 @@ Kvinder har større fedtdepoter, fordi de har brug for mere energi til de proces
 
 I dette indlæg kunne du se, hvad en normal fedtprocent er?
 
-Jeg har skrevet en [guide til kropskomposition på]({% link _posts/2019-10-14-kropskomposition.md %}), som måske kan give dig et nuanceret billede af, hvad fedtprocent er? Der kan du også læse om endnu flere metoder til at måle kropskomposition med.
+Jeg har skrevet en [guide til kropskomposition]({% link _posts/2019-10-14-kropskomposition.md %}), som måske kan give dig et nuanceret billede af, hvad fedtprocent er? Der kan du også læse om endnu flere metoder til at måle kropskomposition med.
 
 Det er vanskeligt at bestemme den nøjagtige fedtprocent med det tilgængelige målemetoder. Derfor skal du tage fedtprocentmålingerne med et gran salt. Hvis du interesseret i at dykke endnu mere ned i beslægtede emner, så kan du tjekke indlægget om [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}) eller læse mere om [BMI for mænd og kvinder](/bmi/).
