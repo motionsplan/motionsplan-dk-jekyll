@@ -126,7 +126,7 @@ Det har været meget populært at introducere redskaber som BOSU-bolde og vippeb
 
 **Balancetræning er for alle**. Det handler om, hvordan du tilrettelægger træningen. Måske skal du starte med at få lidt støtte ved fx at holde i en stol eller læne dig op ad væggen. Efterhånden vil balancen blive bedre, og du kan udnytte nogle af de variationsmuligheder, vi har beskrevet i dette indlæg. Selv dygtige balancekunstnere burde finde udfodringer i de lidt mere avancerede udgaver af balanceøvelserne.
 
-# Progression i balancetræningen
+## Progression i balancetræningen
 
 Jeg her ret inspireret af Z-health og deres forståelse af balance, og hvordan man kan lave en progression af sin balancetræning. Du kan først lade dig inspirere af disse to videoer (på engelsk) om balancetræning.
 

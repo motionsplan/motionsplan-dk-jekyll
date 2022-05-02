@@ -164,7 +164,7 @@ Tjek videoen for at se nøjagtigt, hvordan øvelserne udføres.
 
 {% include feature_row type="left" id="plakat" %}
 
-# Solhilsen B (for let øvede)
+## Solhilsen B (for let øvede)
 
 Solhilsen B er lidt mere avanceret end version A. Typisk laves denne sekvens af øvelser efter, at du har lavet flere runder af solhilsen A.
 
