@@ -20,7 +20,7 @@ last_modified_at: 2020-12-23T18:21:26Z
 
 Cardiomaskiner er meget populære i fitnesscentrene. Maskiner til kredsløbstræning står på rad og række, og mange foretrækker en maskine til at træne cardio året rundt.
 
-Når folk skal i gang med træning, så stiller de ofte spørgsmålet: Hvilke cardiomaskiner er bedst til kondtionstræning? Eller hvilke cardiomaskiner brænder flest kalorier?
+Når folk skal i gang med træning, så stiller de ofte spørgsmålet: Hvilke cardiomaskiner er bedst til konditionstræning? Eller hvilke cardiomaskiner brænder flest kalorier?
 
 Svaret på spørgsmålene må naturligvis starte med et forbehold: Det kommer an på. Det er først og fremmest intensiteten og din egen indsats, der har betydning for, hvor gode maskinerne er til at forbedre din træningstilstand.
 
