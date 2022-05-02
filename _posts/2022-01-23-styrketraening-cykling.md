@@ -1,6 +1,6 @@
 ---
-title: &title "Cykeltræningsprogram - Den ultimative styrketrænings guide til cykling"
-seo_title: Cykeltræningsprograam - Den ultimative styrketræningsguide til cykling
+title: &title "Cykeltræningsprogram - Få en styrketræningsguide til cykling"
+seo_title: Cykeltræningsprogram - Få en styrketræningsguide til cykling
 permalink: /cykeltraeningsprogram/
 excerpt: "Her har du en omfattende guide til træningsøvelser til dit cykeltræningsprogram, der fokuserer på mere end bare dine lårmuskler. De 5 udvalgte øvelser, kan laves både i hjemmet og i fitnesscenteret, og styrker din performance under cykling."
 language: da
