@@ -19,7 +19,7 @@ Aerob træning handler om at træne det aerobe energisystem. Det er den del af e
 
 **Aerob**. Aerob betyder "med ilt". Når kroppen arbejder aerobt, så omsætter den kulhydrat og fedt i en forbrænding, hvor der er ilt til stede. Når man henviser til **aerob træning**, så snakker man typisk om de træningsformer, der normalt kategoriseres som [konditionstræning](/konditionstraening/).
 
-Jeg har skrevet mere uddybende om, [hvordan det aerobe og anaerobe energisystem hænger sammen her]({% link _posts/2019-11-14-energisystemer-101.md %}). Hvis du ledte efter [anaerob træning, som er træning uden ilt, så tjek her]({% link _posts/2021-01-02-anaerob-traening.md %}).
+Jeg har skrevet uddybende om, [hvordan det aerobe og anaerobe energisystem hænger sammen]({% link _posts/2019-11-14-energisystemer-101.md %}) og mere om meget intensiv træning, hvor musklerne ikke får ilt i indlægget om [anaerob træning]({% link _posts/2021-01-02-anaerob-traening.md %}).
 
 Under **aerob træning** vil du forbrænde både kulhydrat og fedt for at skabe energi over længere tid. Andelen af hvor meget kulhydrat og fedt, der forbrændes i de aerobe processer varierer alt efter intensiteten. Det kan du læse mere om under [den respiratoriske (RER) og metaboliske (RQ) udvekslingskvotient]({% link _posts/2020-08-08-respiratoriske-kvotient.md %}).
 
@@ -31,10 +31,11 @@ I dette indlæg kan du få svar på følgende spørgsmål:
 
 ## Hvad er aerob træning?
 
-Aerob træning er konditionstræning, hvor formålet er at forbedre kredsløbet og musklernes evne til at forbruge ilt. Med andre ord er det konditionstræning, hvor du skal flytte følgende fysiologiske parametre:
+Aerob træning er [konditionstræning](/konditionstraening/), hvor formålet er at forbedre kredsløbet og musklernes evne til at forbruge ilt. Formålet med aerob træning er at forbedre [konditionen](/kondition/) og flytte følgende fysiologiske parametre:
 
-- den maksimale iltoptagelse. Kredsløbets evne til at give musklerne så meget ilt som mulig, og musklernes evne til at forbruge ilten.
-- udholdenheden. Altså musklernes evne til at blive ved med at arbejde effektivt over lang tid.
+- **[den maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/)**. Kredsløbets evne til at give musklerne så meget ilt som mulig, og musklernes evne til at forbruge ilten.
+- **[anaerobe tærskel](/anaerobe-taerskel/)**. Evnen til at arbejde med en høj intensitet i forhold til den maksimale iltoptagelse.
+- **udholdenheden**. Altså musklernes evne til at blive ved med at arbejde effektivt over lang tid.
 
 Du kan læse mere om de [fysiologiske tilpasninger, der sker ved konditionstræning]({% link _posts/2020-05-31-tilpasning-konditionstraening.md %}).
 
@@ -89,7 +90,7 @@ Men hvad er den aerobe power? Den aerobe power er den maksimale kraft, der kan p
 
 ## Eksempler på aerob træning
 
-Eksempler på træningsmetoder til det aerobe system kunne være:
+Aerob træning kan både laves som kontinuerlig træning eller som [intervaltræning](/intervaltraening/). Eksempler på træningsmetoder til det aerobe system kunne være:
 
 ### Udholdenhedstræning
 
