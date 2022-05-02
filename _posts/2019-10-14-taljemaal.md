@@ -128,7 +128,7 @@ Forholdet mellem taljemålet og hoftemålet er en indikator på sundhed. Relatio
 
 WHR kan afspejle den intraabdominale fedme. Ofte er WHR også knyttet sammen med fysisk tiltrækning på tværs af forskellige kulturer.
 
-{% include figure image_path="https://www.hellodoctor.co.za/wp-content/uploads/2013/12/Body-shapes.jpg" caption="Pæreformet og æbleformet" alt="Talje mål og hoftemål kan via talje-hofte-ratioen siger noget om fedtfordelingen. Kilde: [www.hellodoctor.co.za](https://www.hellodoctor.co.za/)" %}
+{% include figure image_path="https://www.hellodoctor.co.za/wp-content/uploads/2013/12/Body-shapes.jpg" alt="Pæreformet og æbleformet" caption="Talje mål og hoftemål kan via talje-hofte-ratioen siger noget om fedtfordelingen. Kilde: [www.hellodoctor.co.za](https://www.hellodoctor.co.za/)" %}
 
 ### Hvordan måles WHR?
 

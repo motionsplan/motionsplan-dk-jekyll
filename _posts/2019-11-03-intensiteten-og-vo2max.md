@@ -85,7 +85,7 @@ Intensiteterne i de enkelte grupper blev målt som procentdel af [maxpulsen (HR<
 
 Pulsprofilerne for de forskellige træningsprotokoller så sådan her ud:
 
-{% include figure image_path="/assets/images/helgerud-2007-alle.png" caption="Pulseksempler fra de fire grupper. (Bemærk at de viste eksempler er fra personer med forskellig maxpuls). Kilde: [Helgerud et al (2007)](https://doi.org/10.1249/mss.0b013e3180304570)." alt="Pulseksempler fra de fire grupper. (Bemærk at de viste eksempler er fra personer med forskellig maxpuls)" %}
+{% include figure image_path="/assets/images/helgerud-2007-alle.png" caption="Pulseksempler fra de fire grupper. (Bemærk at de viste eksempler er fra personer med forskellig maxpuls). Kilde: [Helgerud et al (2007)](https://doi.org/10.1249/mss.0b013e3180304570)." alt="Pulseksempler fra de fire grupper i Helgerud studie" %}
 
 Studiet viste, at VO<sub>2</sub>max blev signifikant forbedret i 15/15 og 4x4 med henholdsvis 5,5% og 7,2% efter 8 ugers træning, hvilket ikke var tilfældet for LSD- og LT-gruppen. Der var ikke signifikant forskel imellem 15/15 og 4x4, hvilket tyder på, at begge meget forskelligartede protokoller kan bruges til at forbedre den maksimale iltoptagelse.
 

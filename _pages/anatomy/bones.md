@@ -39,7 +39,7 @@ Skelettet består af 206 knogler i kroppen for voksne. Jeg har skrevet et indlæ
 
 Knoglerne afstiver kroppen, og i forbindelse med idræt og træning, så er de interessante, fordi knoglerne er vægtstænger for [musklerne]({% link _pages/anatomy/muscles.md %}). Knoglerne og [leddene]({% link _pages/anatomy/joints.md %}) er altså grundlaget for bevægelse.
 
-{% include figure image_path="/assets/images/anatomy/skeleton.png" caption="Skelettet består af knogler. Knoglerne er delt op i forskellige knogletyper, fx rørknogler, uregelmæssige knogler, flade knogler og korte knogler." alt="Skelettet består af knogler. Knoglerne er delt op i forskellige knogletyper, fx rørknogler, uregelmæssige knogler, flade knogler og korte knogler." %}
+{% include figure image_path="/assets/images/anatomy/skeleton.png" caption="Skelettet består af knogler. Knoglerne er delt op i forskellige knogletyper, fx rørknogler, uregelmæssige knogler, flade knogler og korte knogler." alt="Skelettet viser knogler delt op i forskellige knogletyper" %}
 
 {% comment %}
 

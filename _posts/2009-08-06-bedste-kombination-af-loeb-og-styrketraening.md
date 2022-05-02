@@ -53,7 +53,7 @@ Træning indebærer, at der er et **signal**, der skaber et **respons**, og krop
 
 Et signal er alle de typer træninger, du kan finde på at lave. Squat, tempoløb, [plyometri](/plyometrisk-traening/). På celleniveau er der en opregulering og nedregulering af forskellige mekanismer og enzymer.
 
-{% include figure image_path="/assets/images/blog/hawley2009.jpg" caption="Kroppens respons på styrketræning og udholdenhedstræning og de afledte tilpasninger. Måske modarbejder styrketræning og udholdenhedstræning hinanden." alt="Kroppens respons på styrketræning og udholdenhedstræning og de afledte tilpasninger. Måske modarbejder styrketræning og udholdenhedstræning hinanden." %}
+{% include figure image_path="/assets/images/blog/hawley2009.jpg" caption="Kroppens respons på styrketræning og udholdenhedstræning og de afledte tilpasninger. Måske modarbejder styrketræning og udholdenhedstræning hinanden." alt="figur for kroppens respons på styrketræning og udholdenhedstræning" %}
 
 **Styrketræning** sender et signal til cellerne om at være **anabole**, dvs. Proteinsyntesen skal overstige proteinnedbrydningen over tid, og musklerne skal vokse. Det primære respons ser ud til at være PI3-k-AKT-mTOR og p70 s6k (ribosom protein s6 kinase).
 
@@ -77,7 +77,7 @@ Støren et al (2008) undersøgte to grupper af veltrænede løbere over 8 ugers 
 
 Styrketræningsgruppen havde efter de 8 ugers træning forbedret deres styrke og  deres eksplosive styrke ([Rate of Force Development]({% link _posts/2020-10-14-rate-of-force-development.md %})). Mere bemærkelsesværdigt var deres løbeøkonomi også forbedret med 5% og tiden til udmattelse på deres maksimale aerobe løbehastighed blev også forøget.
 
-{% include figure image_path="/assets/images/blog/storen-maximal-strength.jpeg" caption="Forskel fra før- til efter træningsperioden for styrketræningsgruppen (MST) og kontrolgruppen, der fortsat trænede sit almindelige program" alt="Forskel fra før- til efter træningsperioden for styrketræningsgruppen (MST) og kontrolgruppen, der fortsat trænede sit almindelige program" %}
+{% include figure image_path="/assets/images/blog/storen-maximal-strength.jpeg" caption="Forskel fra før- til efter træningsperioden for styrketræningsgruppen (MST) og kontrolgruppen, der fortsat trænede sit almindelige program" alt="Forskel fra før- til efter træningsperioden" %}
 
 Styrkegruppens program tog i alt 11 minutter at gennemføre pr. gang. Det betyder naturligvis, at den gruppe havde 33 minutters ekstra træning i løbet af ugen. Det kunne have været interessant, hvis de havde justeret for træningsmængde i studiet.
 
@@ -119,7 +119,7 @@ Hvis man derimod kigger på muskelfibrenes tværsnit, så viste studiet at dem d
 
 Når man sammenligende kombinationsgruppen (SE) med udholdenhedsgruppen, så ser det ikke ud til, at der var en hæmmende effekt på iltoptagelsen eller evnen til at udvikle maksimal aerob power på cyklen.
 
-{% include figure image_path="/assets/images/blog/karavirta-oxygen.png" caption="Sammenligning af kombination af styrke og udholdenhed med udholdenhed og styrketræning alene i forhold maksimal iltoptagelse og maksimal aerob power" alt="Sammenligning af kombination af styrke og udholdenhed med udholdenhed og styrketræning alene i forhold maksimal iltoptagelse og maksimal aerob power" %}
+{% include figure image_path="/assets/images/blog/karavirta-oxygen.png" caption="Sammenligning af kombination af styrke og udholdenhed med udholdenhed og styrketræning alene i forhold maksimal iltoptagelse og maksimal aerob power" alt="Sammenligning af træningsstyper i forhold maksimal iltoptagelse og maksimal aerob power" %}
 
 Resultaterne fra Karavirta et al (2011) indikerer altså, at udholdenhedstræning forstyrrer muskeltilvækst, men at hvis målet er muskelstyrke eller udholdenhed og maksimal power, så kan de sagtens trænes samtidigt under forudsætning af, at man ikke ophober træthed.
 
@@ -129,7 +129,7 @@ Sabag et al (2018) konkluderer i deres meta-review af 14 studier, at det ikke se
 
 Forskerne har sammenholdt resultatet fra studierne i følgende figur. Kig særligt på de sorte diamanter, som giver en samlet effekt inden for de tre områder, de har valgt at kigge på.
 
-{% include figure image_path="/assets/images/blog/sabag2018.jpg" caption="Effekten af samtidig træning af HIIT (high intensity interval training) og styrketræning (RT) på muskelstyrke og hypertrofi. De åbne firkanter viser standardafvigelsen i effektstørrelsen og et 95% konfidensinterval. Diamanterne repræsenterer den samlede effekt på tværs af studier." alt="Effekten af samtidig træning af HIIT (high intensity interval training) og styrketræning (RT) på muskelstyrke og hypertrofi. De åbne firkanter viser standardafvigelsen i effektstørrelsen og et 95% konfidensinterval. Diamanterne repræsenterer den samlede effekt på tværs af studier." %}
+{% include figure image_path="/assets/images/blog/sabag2018.jpg" caption="Effekten af samtidig træning af HIIT (high intensity interval training) og styrketræning (RT) på muskelstyrke og hypertrofi. De åbne firkanter viser standardafvigelsen i effektstørrelsen og et 95% konfidensinterval. Diamanterne repræsenterer den samlede effekt på tværs af studier." alt="figur for effekt af hiit  træning" %}
 
 Den samlede metaanalyse får forskerne til at konkludere følgende:
 
