@@ -12,25 +12,32 @@ category:
 tags:
   - konditionstræning
   - kondition
+  - udstyr
 last_modified_at: 2021-10-14T08:14:14Z
 toc: true
 polar:
   - image_path: /assets/images/blog/polar-ownindex-1.jpg
     url: /assets/images/blog/polar-ownindex-1.jpg
+    alt: polar ownindex til pulsur
   - image_path: /assets/images/blog/polar-ownindex-2.jpg
     url: /assets/images/blog/polar-ownindex-2.jpg
+    alt: polar ownindex til pulsur
   - image_path: /assets/images/blog/polar-ownindex-3.jpg
     url: /assets/images/blog/polar-ownindex-3.jpg
+    alt: polar ownindex til pulsur
   - image_path: /assets/images/blog/polar-ownindex-4.jpg
     url: /assets/images/blog/polar-ownindex-4.jpg
+    alt: polar ownindex til pulsur
 garmin:
   - image_path: /assets/images/blog/garmin-connect-vo2-1.jpg
     url: /assets/images/blog/garmin-connect-vo2-1.jpg
+    alt: garmin vo2max pulsur
   - image_path: /assets/images/blog/garmin-connect-vo2-2.jpg
     url: /assets/images/blog/garmin-connect-vo2-2.jpg
+    alt: garmin vo2max pulsur
 ---
 
-GPS-ure og pulsmålere er begyndt at estimere din maksimale iltoptagelse for dig. Det kan lyde besnærende, da målingerne er noget lettere end en dyr tur ind i et laboratorium, hvor du skal igennem en udmattende løbebåndsprotokol med dyrt og besværligt udstyr. Men hvor præcise er urernes forudsigelse af VO<sub>2</sub>max?
+GPS-ure og pulsmålere er begyndt at estimere din maksimale iltoptagelse for dig. Det kan lyde besnærende, da målingerne er noget lettere end en dyr tur ind i et laboratorium, hvor du skal igennem en udmattende løbebåndsprotokol med dyrt og besværligt udstyr. Men hvor præcise er løbeurernes forudsigelse af [VO<sub>2</sub>max](/maksimale-iltoptagelse-vo2max/)?
 
 {% comment %}
 
@@ -84,9 +91,9 @@ I denne figur kan du se, hvor meget de forskellige ure over- og underestimerer k
 
 --- <cite>[Snyder et al (2019)](https://pubmed.ncbi.nlm.nih.gov/30640299/)</cite>
 
-urerne rammer altså ikke det nøjagtige kondital. 
+Pulsurerne rammer altså ikke det nøjagtige kondital. 
 
-## Garmin vs Polar til kondital
+## Garmin vs Polar ure til kondital
 
 Det interessante ved Garmin og Polar er, at de har valgt ret forskellige fremgangsmåder til deres estimater af konditallet.
 
