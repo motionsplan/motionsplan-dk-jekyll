@@ -34,4 +34,4 @@ Læg ned på maven på maven. Benene placeres på jorden og mellemrummet mellem 
 
 **Variation**: Du kan strække hænderne frem overan dig, hvis du ønsker mere belastning.
 
-**Advarsel**: Ifølge McGill kan denne øvelse belaste lænderyggen unødigt pga. en stor kompression på disci. Et bedre alternativ kan være øvelsen [birddog](/oevelse/birddog).
+**Advarsel**: Ifølge McGill kan denne øvelse belaste lænderyggen unødigt pga. en stor kompression på disci. Et bedre alternativ kan være øvelsen [birddog](/oevelse/birddog/).
