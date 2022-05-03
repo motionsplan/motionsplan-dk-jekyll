@@ -37,4 +37,6 @@ last_modified_at: 2013-04-21T14:21:02Z
 
 {{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}
 
-En god og hård øvelse for maven.
+En god og hård øvelse for maven. Captains Chair et et godt alternativ til [øvelsen mavebøjning](/oevelse/maveboejning/). Vi har beskrevet flere [øvelser til mavetræning](/maveoevelser/), hvis du vil have endnu flere øvelser at vælge imellem.
+
+Du kan også lave [Captains Chair på en stol eller bænk](/oevelse/maveoevelse-captains-chair/).

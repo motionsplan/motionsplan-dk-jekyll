@@ -1,5 +1,6 @@
 ---
-title: "Mavebøjning"
+title: "Mavebøjninger"
+seo_title: "Mavebøjninger | Træn de lige mavemuskler"
 instructions: ""
 permalink: /oevelse/maveboejning/
 redirect_from: /node/281
@@ -12,8 +13,10 @@ categories:
   - Maveøvelser
 training_type: []
 training_focus: []
-equipment: []
-muscle_group: []
+equipment:
+  - kropsvægt
+muscle_group:
+  - Mave
 gallery:
   - url: /assets/images/exercises/maveboejning-0.jpg
     image_path: /assets/images/exercises/maveboejning-0-320.jpg
@@ -34,6 +37,9 @@ last_modified_at: 2011-05-26T15:27:48Z
 
 Læg dig på ryggen med bøjede ben, så fødderne er godt placeret på gulvet. Spænd i maven og bevæg overkroppen opad ca. 20 cm over gulvet. Efterfølgende lægger du dig på gulvet igen og kan gentage øvelsen. Hænderne kan placeres foran kroppen, som vist på billedet eller bagved hovedet, husk dog ikke at benytte armene til at trække dig opad.
 
-Variation:
+ Vi har samlet mange flere [maveøvelser til træning af maven](/maveoevelser/), hvis du gerne vil have stærkere og mere udholdende mavemuskler.
 
-- Skrå mavebøjning (Armene placeres bag hovedet, under hver gentagelse skal den ene albue mødes med modsatte knæ skiftevis.)
+## Variationer af mavebøjninger
+
+- [Skrå mavebøjning](/oevelse/maveboejning-skraa/) (Armene placeres bag hovedet, under hver gentagelse skal den ene albue mødes med modsatte knæ skiftevis.)
+- [Mavebøjninger med løftede fødder](/oevelse/maveboejning-loeftede-foedder/)
