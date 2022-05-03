@@ -3,7 +3,7 @@ title: "Bulletproof Athlete og R7"
 permalink: /artikel/bulletproof-athlete/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1590260712186-ff1891e5876e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=5
+  overlay_image: https://images.unsplash.com/photo-1590260712186-ff1891e5876e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
   teaser: https://images.unsplash.com/photo-1590260712186-ff1891e5876e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
 tags:
   - anmeldelse
@@ -63,6 +63,6 @@ Competition
 
 {% include video provider="youtube" id="6LK0NVK0w1Y" %}
 
-Du kan læse mere om [Bulletproof Athlete](http://robertsontrainingsystems.com/products/bulletproof-athlete/). Bogen har ikke kun træningstips, men også tips til kost og ernæring, søvn og restitution.
+Du kan læse mere om [Bulletproof Athlete](http://robertsontrainingsystems.com/products/bulletproof-athlete/). Bogen har ikke kun træningstips, men også tips til kost og ernæring, [søvn](/soevn/) og restitution.
 
 [^alwyn]: Alwyn Cosgrove præsenterer ideerne i programmet i en artikel om Bulletproof Athlete.

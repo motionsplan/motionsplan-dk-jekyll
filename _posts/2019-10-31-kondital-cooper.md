@@ -1,7 +1,7 @@
 ---
 title: "Cooper-test: Find kondital med Coopers 12 minutters løbetest"
 seo_title: "Cooper test • Tabel og beregner til kondital"
-description: "Beregn dit kondital med Cooper test ✓ 12 minutters løbetest ✓ Beregn dit kondital GRATIS  ✓ Skema og tabel lige til at skrive ud ✓ Formel til Coopertesten"
+description: "Beregn dit kondital med Cooper test GRATIS i vores beregner. Se dit resultat i en tabel og skema lige til at skrive ud."
 permalink: /cooper-test/
 redirect_from:
   - /kondital-cooper/
@@ -116,9 +116,11 @@ Du kan sammenligne dit [kondital i tabellen for kondital for mænd og kvinder](/
 
 Cooper (1968) rapporterede selv een korrelation på 0,9 mellem VO<sub>2</sub>max og distancen løbet på de 12 minutter.
 
-McCutcheon et al (1990) fandt med at Cooper testen gave en systematisk underestimering på 4 ml/kg/min for deres forsøgsdeltagere, der havde en gennemsnitsalder på 25 år. [Penry et al (2011)](https://pubmed.ncbi.nlm.nih.gov/20647946/) vurderer, at _multistage shuttle run_ eller [bip-testen](/bip-test/) kan være mere pålidelig end Cooper-testen for unge, sunde voksne, men overordnet anser de begge tests for at være reliable til at bestemme konditallet.
+McCutcheon et al (1990) fandt, at Cooper testen gav en systematisk underestimering på 4 ml/kg/min for deres forsøgsdeltagere, der havde en gennemsnitsalder på 25 år.
 
-[Daniel Mayorga-Vega (2016)](https://pubmed.ncbi.nlm.nih.gov/26987118/) konkluderer i deres systematiske meta-analyse af 123 studier og forskellige løbetests, at 12-minutters Cooper-testen (rp = 0,78) og [2400-meter-testen]({% link _posts/2019-10-31-kondital-2400-meter.md %}) (rp = 0,79) havde den højeste kriterie-validitet. Når man ikke adgang til en laboratorie-test, så er Cooper-testen altså et rigtig fint alternativ til at estimere konditallet.
+[Penry et al (2011)](https://pubmed.ncbi.nlm.nih.gov/20647946/) vurderer, at _multistage shuttle run_ eller [bip-testen](/bip-test/) kan være mere pålidelig end Cooper-testen for unge, sunde voksne, men overordnet anser de begge tests for at være reliable til at bestemme konditallet.
+
+[Daniel Mayorga-Vega (2016)](https://pubmed.ncbi.nlm.nih.gov/26987118/) konkluderer i deres systematiske meta-analyse af 123 studier og forskellige løbetests, at 12-minutters Cooper-testen (rp = 0,78) og [2400-meter-testen]({% link _posts/2019-10-31-kondital-2400-meter.md %}) (rp = 0,79) havde den højeste kriterie-validitet. Når man ikke har adgang til en laboratorie-test, så er Cooper-testen altså et rigtig fint alternativ til at estimere konditallet.
 
 ## Hvor langt skal jeg løbe på Cooper-testen?
 
@@ -261,7 +263,7 @@ Tabellerne over resultaterne på Cooper-testen tager udgangspunkt i de mest brug
 
 ## Hvordan forbedrer jeg min tid på Cooper-testen?
 
-Cooper-testen er meget afhængig af din evne til at løbe tæt på din [maksimale iltoptagelse](/intensitet-vo2max/) og at du har en høj [anaerob tærskel](/anaerobe-taerskel/), men resultatet på Cooper-testen afhænger også af din [løbeøkonomi](/lobeokonomi/). Du kan lave et alsidigt løbeprogram, og så skal du nok på sigt forbedre din tid på Cooper-testen, men hvis du for alvor skal have fart på, så skal du altså arbejde både med løbeøkonomi og den maksimale iltoptagelse.
+Cooper-testen er meget afhængig af din evne til at løbe tæt på din [maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/) og at du har en høj [anaerob tærskel](/anaerobe-taerskel/), men resultatet på Cooper-testen afhænger også af din [løbeøkonomi](/lobeokonomi/). Du kan lave et alsidigt løbeprogram, og så skal du nok på sigt forbedre din tid på Cooper-testen, men hvis du for alvor skal have fart på, så skal du altså arbejde både med løbeøkonomi og den maksimale iltoptagelse.
 
 Den maksimale iltoptagelse flytter du bedst med [højintensive intervalløb](/intervallob-intervaltraening/) og [rigtig HIIT-træning](/hiit/). En meget brugt måde at flytte den maksimale iltoptagelse er intervaller af 3-5 minutters varighed med en pause fra 2-3 minutter. Det gentager du 3-6 gange, men læs mere om forskellige måder at flytte den maksimale iltoptagelse under vores forskellige træningsartikler om [løbetræning på løbesiden](/loebesiden/).
 
@@ -277,15 +279,14 @@ Jeg synes ikke de oprindelige tabeller til vurdering af distancen på Cooper-tes
 
 Hvis du hellere vil lave en konditionstest baseret på distance, så er [2400-meter-testen]({% link _posts/2019-10-31-kondital-2400-meter.md %}) et godt alternativ. Det er også den test, der bruges i [politiets fysiske optagelsesprøve](/politiets-fysiske-tests-krav-optagelsesproeve/).
 
-## Referencer til Cooper-test
+## Referencer
 
 <details markdown="1">
-  <summary>Se referencer til Cooper-test</summary>
+  <summary>Se referencer</summary>
 
 - Cooper, K. H. 1968. [“A Means of Assessing Maximal Oxygen Intake. Correlation between Field and Treadmill Testing”](https://pubmed.ncbi.nlm.nih.gov/5694044/). JAMA 203 (3): 201–4.
-- Grant, S., K. Corbett, A. M. Amjad, J. Wilson, og T. Aitchison. 1995. “A Comparison of Methods of Predicting Maximum Oxygen Uptake.” _British Journal of Sports Medicine_ 29 (3): 147. [https://doi.org/10.1136/bjsm.29.3.147](https://doi.org/10.1136/bjsm.29.3.147).
+- Grant, S., K. Corbett, A. M. Amjad, J. Wilson, og T. Aitchison. 1995. “A Comparison of Methods of Predicting Maximum Oxygen Uptake.” _British Journal of Sports Medicine_ 29 (3): 147. [https://bjsm.bmj.com/content/29/3/147](https://bjsm.bmj.com/content/29/3/147).
 - McCutcheon, M. C., S. A. Sticha, M. D. Giese, og F. J. Nagle. 1990. “A Further Analysis of the 12-Minute Run Prediction of Maximal Aerobic Power”. Research Quarterly for Exercise and Sport 61 (3): 280–83. <https://doi.org/10.1080/02701367.1990.10608692>.
-- Grant, S., K. Corbett, A. M. Amjad, J. Wilson, og T. Aitchison. 1995. “A Comparison of Methods of Predicting Maximum Oxygen Uptake.” British Journal of Sports Medicine 29 (3): 147. <https://doi.org/10.1136/bjsm.29.3.147>.
 - Zwiren, L. D., P. S. Freedson, A. Ward, S. Wilke, og J. M. Rippe. 1991. “Estimation of VO2max: A Comparative Analysis of Five Exercise Tests”. Research Quarterly for Exercise and Sport 62 (1): 73–78. <https://doi.org/10.1080/02701367.1991.10607521>.
 - Penry, Wilcox, Yun (2011): "Validity and reliability analysis of Cooper's 12-minute run and the multistage shuttle run in healthy adults", J Strength Cond Res, Mar;25(3):597-605. doi: 10.1519/JSC.0b013e3181cc2423. <https://pubmed.ncbi.nlm.nih.gov/20647946/>
 </details>

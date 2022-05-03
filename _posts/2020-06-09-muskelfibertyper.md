@@ -112,9 +112,9 @@ Typisk siger man at type II fibre har lettere ved at vokse (hypertrofi). Hvis de
 
 **IIX → IIA → IIX**. I forskningen ser det ud til, at træningen påvirker ens fibertypesammensætning. Uanset hvilken slags træning du laver vil IIX fibre blive lavet om til IIA, og hvis du er totalt inaktiv, så vil en del af IIA fibrene blive lavet lavet tilbage til IIX fibre. Jeg synes dog ikke helt, det har hjulpet på min hurtighed.
 
-Andersen og Aagaard (2000) har fundet ud af, at IIX-fibre ikke bare forsvinder ved styrketræning og kommer tilbage ved træningsophør. Type IIX-fibrene kommer tilbage som en _superkompensation_. Det kan man udnytte i træningen.
+Andersen og Aagaard (2000) har fundet ud af, at IIX-fibre ikke bare forsvinder ved styrketræning og kommer tilbage ved træningsophør. Type IIX-fibrene kommer tilbage som en _[superkompensation](/superkompensation/)_. Det kan man udnytte i træningen.
 
-Hvis du komer fra en stor træningsmængde, så kan du udnytte dette boost. Morten Zacho foreslår, at [følgende styrketræningsmodel kan fremprovokere _boostet_ af type IIX-fibre](http://web.archive.org/web/20130605064150/http://www.motion-online.dk/styrketraening/styrke_-_artikler/saadan_faar_du_hurtigere_muskler_-_iix_boosting/).
+Hvis du komer fra en stor træningsmængde, så kan du udnytte dette boost. [Morten Zacho](http://web.archive.org/web/20130605064150/http://www.motion-online.dk/styrketraening/styrke_-_artikler/saadan_faar_du_hurtigere_muskler_-_iix_boosting/) foreslår, at følgende styrketræningsmodel kan fremprovokere _boostet_ af type IIX-fibre.
 
 - **Høj træningsmængde** med tunge løft udført eksplosivt uden at køre til udmattelse. Dette stimulerer primært type II-fibrene. Type IIX bliver lavet om til IIA.
 - **Reducér træningsmængden**. Kun få løft med samme intensitet og eksplosivitet som tidligere. Størrelsen på type II-fibrene vedligeholdes, men træningsreduktionen forårsager at en del af type IIA bliver konverteret til type IIX igen.
@@ -125,12 +125,12 @@ Muskulaturens areal udgøres nu af en større procentdel af type II-fibre, fordi
 
 ## Kend din egen fibertypesammensætning?
 
-Den mest sikre måde at finde ud af, hvordan ens muskelfibertypesammensætning er, er at få lavet en muskelbiopsi. Jeg har beskrevet i et andet indlæg, hvordan du [kan teste din egen muskelfibertypesammensætning på en lavpraktisk måde](/test-muskelfibertyper/).
+Den mest sikre måde at finde ud af, hvordan ens muskelfibertypesammensætning er, er at få lavet en muskelbiopsi. Jeg har beskrevet i et andet indlæg, hvordan du [kan teste din egen muskelfibertypesammensætning](/test-muskelfibertyper/) på en lavpraktisk måde.
 
-## Referencer muskelfibre og muskelfibertyper
+## Referencer
 
 <details markdown="1">
-  <summary>Se referencer om muskelfibertyper</summary>
+  <summary>Se referencer</summary>
 
 - Andersen, J. L., og P. Aagaard. 2000. “Myosin Heavy Chain IIX Overshoot in Human Skeletal Muscle”. _Muscle & Nerve_ 23 (7): 1095–1104. <https://pubmed.ncbi.nlm.nih.gov/10883005/>.
 - Baldwin, K. M., A. M. Hooker, og R. E. Herrick. 1978. “Lactate Oxidative Capacity in Different Types of Muscle”. _Biochemical and Biophysical Research Communications_ 83 (1): 151–57. [https://doi.org/10.1016/0006-291X(78)90410-2](https://doi.org/10.1016/0006-291X(78)90410-2).

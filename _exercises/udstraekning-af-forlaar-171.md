@@ -18,8 +18,8 @@ training_focus: []
 equipment: []
 muscle_group: []
 gallery:
-  - url: https://images.unsplash.com/photo-1532383192429-7f602da670a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=60
-    image_path: https://images.unsplash.com/photo-1532383192429-7f602da670a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=320&q=60
+  - url: https://images.unsplash.com/photo-1532383192429-7f602da670a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=60
+    image_path: https://images.unsplash.com/photo-1532383192429-7f602da670a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60
     alt: "Udstrækning af forlår"
     title: "Udstrækning af forlår"
 last_modified_at: 2020-05-12T14:37:50Z
@@ -34,7 +34,7 @@ Bøj let i standbenet for ikke at overstrække knæet. Skyd hoften frem og hold 
 
 Hold strækket i 30 sek og skift ben.
 
-{% include figure image_path="https://images.unsplash.com/photo-1532383192429-7f602da670a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=60" %}
+{% include figure image_path="https://images.unsplash.com/photo-1532383192429-7f602da670a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" %}
 
 ## Fokuspunkter i udstrækning af forlår
 

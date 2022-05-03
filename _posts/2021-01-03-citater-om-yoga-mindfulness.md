@@ -5,7 +5,7 @@ excerpt: "Der findes mange inspirerende citater om yoga, mindfulness og meditati
 last_modified_at: 2020-12-29T09:41:09Z
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2167&q=5
+  overlay_image: https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
   teaser: https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
   overlay_filter: 0.8
@@ -45,19 +45,6 @@ feature_quotes:
     cite: Patanjali
   - quote: "Yoga keeps punching me in the face with how good it is."
     cite: "Nicky Lobo"
-gallery:
-  - image_path: /assets/images/pinterest/citat-dalai-lama.png
-    url: /assets/images/pinterest/citat-dalai-lama.png
-  - image_path: "https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-keeps-punching-me.jpg"
-    url: "https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-keeps-punching-me-wallsticker"
-    title: "Yoga keeps punching me"
-    vendor: "Wallstickerland"
-    category: "2334"
-    price: 199.00
-    old_price:
-    discounted: false
-    id: "546"
-    rel: sponsored nofollow noopener
 gallery_posters:
   - image_path: "https://citatplakat.dk/wp-content/uploads/2020/11/Fotoplakat-dalai-lama-FO10224.png"
     url: "https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/design-plakater/dalai-lama-plakat/"
@@ -94,8 +81,6 @@ Her er bl.a. citater fra B. K. S. Iyengar, Dalai Lama, Gandhi og Yogi Bhajan.
 
 ***
 {% endfor %}
-
-{% include pinterest-gallery id="gallery" caption=page.title %}
 
 ## Citater om yoga, mindfulness og meditation på Pinterest
 

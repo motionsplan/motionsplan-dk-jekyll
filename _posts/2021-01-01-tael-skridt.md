@@ -1,7 +1,7 @@
 ---
-title: &title "Tæl skridt 2021 🚶‍♀️🚶‍♀️ Det er motiverende at tælle skridt"
-seo_title: "Tæl skridt 2021: Vind op til 25.000 kroner 4 gange årligt"
-description: "Tæl skridt og bliv ✓ Motiveret ✓ Deltag i en konkurrence ✓ Bliv sundere ✓ Nå de 10.000 skridt ✓ Psykologiske effekter ✓ Vind op til 25.000 kroner"
+title: &title "Tæl skridt: Det er motiverende at tælle skridt"
+seo_title: "Tæl skridt 2022: Vind op til 25.000 kroner 4 gange årligt"
+description: "Deltag i Tæl skridt kampagne og bliv ✓ Motiveret ✓ Deltag i en konkurrence ✓ Bliv sundere ✓ ✓ Få psykologiske effekter ✓ Vind op til 25.000 kroner"
 permalink: /artikel/tael-skridt/
 language: da
 header:
@@ -15,10 +15,10 @@ tags:
   - aktivitet
 category:
   - Sundhed
-last_modified_at: 2021-01-01T10:51:18Z
+last_modified_at: 2021-12-24T10:51:18Z
 ---
 
-Det kan være yderst motiverende at tælle skridt. Der kan være med i Tæl Skridt-kampagnen, hvor du kan vinde pengepræmier. Du kan bruge et skridtur, en app til at tælle skridt eller en aktivitetstracker.
+Det kan være yderst motiverende at tælle skridt. Der kan være med i Tæl Skridt-kampagnen, hvor du kan vinde pengepræmier. Du kan bruge et skridtur, en skridttæller, en app til at tælle skridt eller en aktivitetstracker.
 
 Dansk Firma Idrætsforbund har lavet en [Tæl Skridt-kampagne](https://www.taelskridt.dk/), som du kan læse mere om længere nede på siden.
 
@@ -30,7 +30,7 @@ Der køres jævnligt kampagner for at huske os på sundhedsgevinsterne ved at g�
 
 > ”Mange virksomheder har i stigende grad fået øjnene op for at skridttælling kan være både sjovt og motiverende, samtidigt med, at det øger den generelle sundhed blandt medarbejderne. Hvis virksomheden giver medarbejderne en skridttæller motiverer det og skaber sjov konkurrence mellem medarbejderne”
 
-— <cite>[Nikolaj Nielsen, produktchef for avXperten.dk](https://www.motion-online.dk/tael-skridt-sjovt-motiverende/){: rel="nofollow" }</cite>
+--- <cite>[Nikolaj Nielsen, produktchef for avXperten.dk](https://www.motion-online.dk/tael-skridt-sjovt-motiverende/){: rel="nofollow noopener" }</cite>
 
 ## Tæl skridt med en skridttæller
 
@@ -40,7 +40,7 @@ Skridttællere placeres på hoften, på håndleddet eller i en lomme.
 
 > ”Det bliver hurtigt sjovt og vanedannende at følge sin egen udvikling, og mindst lige så sjovt at slå kollegerne. Det kan motivere en til at tage endnu flere skridt.”
 
-— <cite>[Nikolaj Nielsen, produktchef for avXperten.dk](https://www.motion-online.dk/tael-skridt-sjovt-motiverende/){: rel="nofollow" }</cite>
+--- <cite>[Nikolaj Nielsen], produktchef for avXperten.dk(https://www.motion-online.dk/tael-skridt-sjovt-motiverende/){: rel="nofollow noopener" }</cite>
 
 ## Får skridttællere folk til at gå mere?
 
@@ -58,7 +58,7 @@ Der er mange fysiologiske og psykologiske fordele ved at gå. En af bagmændene 
 
 > ”Når vi blander os i danskernes motionsvaner, er det fordi vi gerne vil bidrage til, at flere oplever, at ved at bevæge sig mere, opnår man et langt sundere liv. Vi vil meget gerne give flere ideer og lyst til at bruge kroppen mere. Med kampagnen giver vi danskerne en ekstra opmuntring til at gøre mere. Vi ved, det kan være svært at få tilstrækkelig med fysisk aktivitet passet ind i en hverdag, hvor meget arbejde foregår stillesiddende, typisk foran en computer. Og hvor transporten til og fra arbejde måske foregår i en bil.”
 
-— <cite>[Chefredaktør Kirsten Engel](https://netdoktor.dk/fokus/taelskridt.html)</cite>
+--- <cite>[Chefredaktør Kirsten Engel](https://netdoktor.dk/fokus/taelskridt.html)</cite>
 
 ## Fysiologiske fordele ved at gå
 
@@ -72,22 +72,22 @@ Der er flere fysiske fordele ved at gå. Se bare på denne liste over fordele ve
 
 ## Psykologiske fordele ved at gå
 
-Der er også psykologiske fordele ved at gå mere. Og skridttælling kan motivere de fleste. Når du er mere aktiv - og særligt ved at gå - så foreslår [Motion-oline.dk](https://www.motion-online.dk/tael-skridt-sjovt-motiverende/){: rel="nofollow" } følgende psykologiske fordele ved at gå:
+Der er også psykologiske fordele ved at gå mere. Og skridttælling kan motivere de fleste. Når du er mere aktiv - og særligt ved at gå - så foreslår [motion-oline.dk](https://www.motion-online.dk/tael-skridt-sjovt-motiverende/){: rel="nofollow noopener" } følgende psykologiske fordele ved at gå:
 
-- Bedre søvn om natten. Når kroppen har været fysisk aktiv og er blevet træt på en naturlig måde, vil den lettere kunne finde ro og slappe af om natten.
-- Færre spændinger. Gang har en muskelafspændende effekt, som hjælper mod spændinger i fx skuldre og nakke.
-- Humøret stiger. Når du går, stiger produktionen af hormoner, særligt endorfiner. De er kroppens naturlige lykkestoffer, som gør os gladere og mere veltilpasse.
-- Bedre indlæringsevne.
+- **[Bedre søvn om natten](/soevn/)**. Når kroppen har været fysisk aktiv og er blevet træt på en naturlig måde, vil den lettere kunne finde ro og slappe af om natten.
+- **Færre spændinger**. Gang har en muskelafspændende effekt, som hjælper mod spændinger i fx skuldre og nakke.
+- **Humøret stiger**. Når du går, stiger produktionen af hormoner, særligt endorfiner. De er kroppens naturlige lykkestoffer, som gør os gladere og mere veltilpasse.
+- **Bedre indlæringsevne**.
 
 Jeg kunne dog godt tænke mig at se nogle studier, der kan sandsynliggøre at gang har ovenstående effekter. Hvis du kender nogen, så skriv endelig i kommentarerne.
 
 ## Om Tæl Skridt Kampagnen
 
-Tæl Skridt-kampagnerne arrangeres af Dansk Firma Idrætsforbund. Der tælles skridt i flere perioder hvert år. Du kan se [priser for at være med i Tæl Skridt-kampagnen her](https://www.taelskridt.dk/priser/).
+Tæl Skridt-kampagnerne arrangeres af Dansk Firma Idrætsforbund. Der tælles skridt i flere perioder hvert år. Du kan se priser for at være med i Tæl Skridt-kampagnen [her](https://www.taelskridt.dk/priser/).
 
-Du kan være med i Tæl Skridt enten som enkeltperson eller som forening. En Tæl Skrdit-kampagne varer to uger. Der er 4 Tæl Skridt-kampagner pr. år. I 14-dages perioden skal deltagerne hver dag tælle skridt (ved hjælp af skridttæller) og rapportere det opnåede skridtantal til Tæl Skridt-hjemmesiden.
+Du kan være med i Tæl Skridt enten som enkeltperson eller som forening. En Tæl Skridt-kampagne varer to uger. Der er 4 Tæl Skridt-kampagner pr. år. I 14-dages perioden skal deltagerne hver dag tælle skridt (ved hjælp af skridttæller) og rapportere det opnåede skridtantal til Tæl Skridt-hjemmesiden.
 
-Hvis du laver anden motion, så kan du bruge en [omregningstabel eller Tæl Skridt-beregner](/omregn-motion-aktivitet-sport-til-skridt/)  til at omdanne anden aktivitet til skridt.
+Hvis du laver anden motion, så kan du bruge en [omregningstabel eller Tæl Skridt-beregner](/omregn-motion-aktivitet-sport-til-skridt/) til at omdanne anden aktivitet til skridt.
 
 Målet er, at deltagerne i gennemsnit skal gå (mindst) 10.000 skridt pr. dag i løbet af kampagneperioden (man skal naturligvis helst gå meget hele året). Hvis du selv eller holdet opfylder dette krav, så kan man deltage i en konkurrence om kontante pengebeløb.
 
@@ -105,7 +105,7 @@ Der findes mange billige og effektive skridttællere. Rigtig mange aktivitetsure
 
 Jeg leder lige nu efter de bedste skridture og skridttællere til at tælle skridt. Det er jo vigtigt, at de måler nogenlunde præcist.
 
-Du kan selv starte med at lede efter [skridttællere hos den Intelligentekrop.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/catalogsearch/result/?q=skridtt%C3%A6ller){: rel='sponsored nofollow noopener' }.
+Du kan selv starte med at lede efter skridttællere hos den [intelligentekrop.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/catalogsearch/result/?q=skridtt%C3%A6ller){: rel='sponsored nofollow noopener' }.
 
 ## Tæl skridt app
 
@@ -113,6 +113,6 @@ Efterhånden kan du også bare bruge telefonen til at tælle dine skridt. Fx kan
 
 Jeg leder lige nu efter studier, der viser hvor præcise målingerne af skridttælling er med smartphone-apps.
 
-## Tæl skridt 2021
+## Tæl skridt 2022
 
-Skal du være med til at tælle skridt i 2021, så skriv endelig i kommentarerne, hvad dit mål er.
+Skal du være med til at tælle skridt i 2022, så skriv endelig i kommentarerne, hvad dit mål er.

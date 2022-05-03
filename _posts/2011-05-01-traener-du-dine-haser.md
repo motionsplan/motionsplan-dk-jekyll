@@ -134,7 +134,7 @@ Inden du springer ud i træningen af dine baglår, skal du naturligvis huske på
 
 Dette træningsprogram til baglåret er udelukkende et forslag til, hvordan du virkelig kan fokusere intensivt på træningen af dine baglår på en måde, som musklerne i baglåret er designet til at bruge.
 
-## Referencer om baglåret
+## Referencer
 
 <details markdown="1">
   <summary>Se referencer om baglårstræning</summary>

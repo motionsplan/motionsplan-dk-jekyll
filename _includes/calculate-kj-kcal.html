@@ -3,7 +3,7 @@
         <legend>Omregner fra kJ til kcal</legend>
         <div class="form-group">
             <label>KiloJoule (kJ)
-                <input type="number" min="0" max="1000000" placeholder="fx 24" name="kj" required>
+                <input type="number" min="0" max="1000000" placeholder="fx 24" name="kj_kcal_kj" required step="0.001">
             </label>
         </div>
         <input type="submit" value="Beregn">
@@ -11,7 +11,7 @@
     <fieldset class="results">
         <div class="form-group">
             <label>Kilokalorier (kcal)
-                <input name="kcal" disabled>
+                <input name="kj_kcal_kcal" disabled>
             </label>
         </div>
     </fieldset>

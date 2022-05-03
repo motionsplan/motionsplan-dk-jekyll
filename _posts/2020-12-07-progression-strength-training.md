@@ -4,7 +4,7 @@ permalink: /progressionsmodeller-progressivt-overload/
 language: da
 author: lsolesen
 header:
-  overlay_image: https://images.unsplash.com/photo-1533681475364-326b6803d677?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=5
+  overlay_image: https://images.unsplash.com/photo-1533681475364-326b6803d677?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
   teaser: https://images.unsplash.com/photo-1533681475364-326b6803d677?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
@@ -16,17 +16,19 @@ tags:
   - træningsplanlægning
   - styrketræning
   - programlægning
-last_modified_at: 2020-12-03T23:14:14Z
+last_modified_at: 2022-03-22T23:14:14Z
 toc: true
 ---
 
-I din træningsplanlægning af styrketræning bør du tænke over progressivt overload i din progressionsmodel. Hver træning bør bygge på den foregående i styrketræning, så du får en progression i træningen.
+Hvis du planlægger din styrketræning, så kan du hele tiden udvikle dig. Det gør du ved at indlægge progression i din træning og tænke på over, hvordan du laver progressivt overload. Her kigger vi på forskellige progressionsmodeller.
 
-Der findes forskellige progressionsmodeller, som du kan lade dig inspirere af, når du planlægger din egen styrketræning. Fælles for dem alle er, at de forsøger at tage højde for progressivt overload for at du kan blive stærkere eller få større muskler.
+Du kan lave din træning mere effektiv, hvis den enkelte træning forsøger at lægge fundamentet for den næste træning. Ved at tænke over, hvordan din progression i styrketræningen skal være, så kan du du være med til at sikre, at de enkelte træninger bliver byggeklodser, som er med til at bygge fundamentet, så du kan opnå dine mål.
 
-Progressionsmodeller, faseopdeling og træningsplanlægning ser ud til at betyde mest, når du arbejder for at blive stærkere, men en god træningsplanlægning kan også være med til at sikre, at du ikke bliver skadet over tid.
+Der findes forskellige progressionsmodeller, som du kan lade dig inspirere af, når du planlægger din egen styrketræning. Fælles for dem alle er, at de forsøger at tage højde for **progressivt overload** for at du kan blive stærkere eller få større muskler.
 
-## Progressivt overload er nødvendigt for fremgang
+Progressionsmodeller, faseopdeling og træningsplanlægning ser ud til at betyde mest, når du arbejder for at blive stærkere, men en god træningsplanlægning kan også være med til at sikre, at du ikke bliver skadet over tid, fordi du kan tænke restitution ind i træningen.
+
+## Hvad er progressivt overload?
 
 Det er nødvendigt at have progressivt overload, når du gerne vil blive stærkere eller større i styrketræning.
 
@@ -35,6 +37,31 @@ Hvad er progressivt overload? **Progressivt overload er, når du udfordrer kropp
 En måde at lave progressivt overload med er at tilføje vægt til stangen, når du løfter, eller øge antallet af sæt og gentagelser. Udfordringen er, at det ikke kan blive ved med at virke.
 
 {% include video provider="youtube" id="7WnTU02CHeM" %}
+
+{% comment %}
+https://www.bodyman.dk/shop/cms-lidt-om-progression.html
+https://maxer.dk/artikler/progression-traeningsprogrammer
+https://www.myprotein.dk/thezone/traening/progression-traeningsprogram/
+{% endcomment %}
+
+
+## Hvorfor er progression i træningen vigtigt?
+
+Hvis du gerne vil opleve fremgang i din træning, så skal du udfordre kroppen på det niveau den er lige nu. Når du træner, så tilpasser kroppen sig træningen. Det betyder, at den skal opleve et større stimulus for at blive ved med at tilpasse sig træningen.
+
+I din progression kan du således også tænke ind, om du er ved at vedligeholde dit nuværende niveau, eller du gerne vil have fremgang. Der skal trænes på lidt forskellige måder alt efter dit mål.
+
+Det progressive overload er således et vigtigt træningsprincip, hvis du gerne vil blive ved med at opleve fremgang i træningen.
+
+## Hvilke parametre bruges til progression i styrketræning?
+
+Når du i praksis vil arbejde med princippet om progressivt overload, så kan du manipulere forskellige træningsvariabler:
+
+- Volumen, sæt og gentagelser
+- Intensitet og RPE
+- Time under tension og hastighed i løftene
+- Pause mellem sæt og densitet
+- Teknik og varianter
 
 ## Progressionsmodeller
 
@@ -48,7 +75,9 @@ Hvis en lineær progression skal virke så længe, så udfordrer de første 4 ug
 
 ## Dobbelt progression
 
-Dobbelt progression øger an først antallet af gentagelser med en given vægt, inden man øger vægten. En dobbelt progression giver dig ofte lov til at holde fremgangen over længere tid. Hvis du fx træner i et _rep range_ fra 3-5 gentagelser.
+Dobbelt progression øger først antallet af gentagelser med en given vægt, inden man øger vægten. Dobbelt progression giver dig ofte lov til at holde fremgangen over længere tid.
+
+Her er et eksempel, hvis du fx træner i et _rep range_ fra 3-5 gentagelser.
 
 - Uge 1: 5x3 @ 100 kg
 - Uge 2: 5x4 @ 100 kg
@@ -59,11 +88,11 @@ Dobbelt progression øger an først antallet af gentagelser med en given vægt, 
 
 Ideen bag dobbelt progression er først at øge vægten, når du kan lave alle gentagelserne med din valgte teknik i et givent _rep range_.
 
-Dobbelt progression virker rigtig godt, men det er ikke fordi det er magisk. Det er fordi du bliver længere tid på en vægt - og laver mere arbejde med over tid, så du får endnu flere tilpasninger i muskulaturen og senevævet ud af den enkelte vægt.
+Dobbelt progression virker rigtig godt, men det er ikke fordi det er magisk. Det er, fordi du bliver længere tid på en vægt - og laver mere arbejde over tid, så du får endnu flere tilpasninger i muskulaturen og senevævet ud af den enkelte vægt.
 
 ## Triple progression
 
-[Charles Staley foreslår på t-nation.com](https://www.t-nation.com/training/the-triple-progression-system) _triple progression_, som en god progressionsmodel til at lave progressivt overload.
+[Charles Staley](https://www.t-nation.com/training/the-triple-progression-system) foreslår _triple progression_ som en god progressionsmodel til at lave progressivt overload. Det er en mindre udvidelse af den dobbelte progression, da man også arbejder med antallet af sæt.
 
 > The triple progression system is one of the most effective ways to manage your training progression. It's based on the principle of base-building: First you'll "own" a specific weight by increasing the number of sets and reps you can perform with it. After that, you've "earned" the right to increase the load.
 
@@ -71,11 +100,11 @@ Dobbelt progression virker rigtig godt, men det er ikke fordi det er magisk. Det
 
 Det **første trin er at finde antallet af arbejdssæt** for din øvelse. Hvor mange sæt det skal være afhænger af dit træningsmål og den tilgængelige tid til træning.
 
-Hvis du lige nu tager omkring 3-4 sæt af en øvelse, så er første mål altså at øge antallet af sæt til 5 sæt. Du laver nu så mange reps, som du kan i alle fem sæt. Du vil formentlig kunne tage et par stykker færre reps i det sidste sæt, men nu har du fastslået antallet af sæt.
+Hvis du lige nu tager omkring 3-4 sæt af en øvelse, så er første mål altså at øge antallet af sæt til 5 sæt. Du laver nu så mange reps, som du kan i alle fem sæt. Du vil formentlig kunne tage lidt færre reps i det sidste sæt, men nu har du fastslået antallet af sæt.
 
-Det **andet trin er at ramme antallet af gentagelser** for din dine sæt. Lad os sige, at du kan tage omkring 8 reps af din øvelse, men du har et mål om 10 gentagelser i øvelsen, så skal du altså gå efter at lave 10 reps i hvert sæt. De første par gange, kan du formentlig kun tage 10 gentagelser i de første sæt, men du arbejder dig langsomt op til at kunne lave 10 i hvert eneste sæt.
+Det **andet trin er at ramme antallet af gentagelser** for dine sæt. Lad os sige, at du kan tage omkring 8 reps af din øvelse, men du har et mål om 10 gentagelser i øvelsen, så skal du altså gå efter at lave 10 reps i hvert sæt. De første par gange, kan du formentlig kun tage 10 gentagelser i de første sæt, men du arbejder dig langsomt op til at kunne lave 10 reps i hvert eneste sæt.
 
-På **tredje trin har du fortjent at øge vægten**. Når du øger vægten, så bliver du formentlig nødt til at sænke antallet af reps, men nu kan du stille og roligt øge antallet af reps, når du kan.
+På **tredje trin har du fortjent at øge vægten**. Når du øger vægten, så bliver du formentlig nødt til at sænke antallet af reps, men nu skal du igen stille og roligt øge antallet af reps i de enkelte sæt.
 
 ## Emerging strategies
 
@@ -83,37 +112,37 @@ Reactive Training Systems bruger en rigtig interessant måde at lave progression
 
 > In Emerging Strategies, your training is comprised of development blocks that last anywhere from 3-12 weeks.
 >
-> For example:   
-> Week 1: Squat x1 @8 75%x5x5  
-> Week 2: Squat x1 @8 75%x5x5  
-> Week 3: Squat x1 @8 75%x5x5  
-> Week 4: Squat x1 @8 75%x5x5  
+> For example: 
+> Week 1: Squat x1 @8 75%x5x5
+> Week 2: Squat x1 @8 75%x5x5
+> Week 3: Squat x1 @8 75%x5x5
+> Week 4: Squat x1 @8 75%x5x5
 >
-> Let's say that on week 1 you hit 100kg x1 @8 (92%). Your 75% work is based on the newly calculated e1rm (108kg in this example).  
+> Let's say that on week 1 you hit 100kg x1 @8 (92%). Your 75% work is based on the newly calculated e1rm (108kg in this example).
 >
-> This volume is intended to drive progress for the following week.  
+> This volume is intended to drive progress for the following week.
 >
-> On week 2, you should assume that the weekly training stimulus was sufficient to drive progress for your Squat x1 @8.  
-> 
-> Meaning that you should be able to perform more than 100kg on week 2.  
-> 
-> However, each lifter responds differently, so the best thing to do is to load 100kg again, and execute that lift to the best of your abilities.  
+> On week 2, you should assume that the weekly training stimulus was sufficient to drive progress for your Squat x1 @8.
 >
-> If you made progress, then the RPE of your top set should be less than @8.  
+> Meaning that you should be able to perform more than 100kg on week 2.
 >
-> So, on week 2 you hit x1 @7. x1 @7 correlates to ~89% which means that you are now 2% stronger on Squat.  
+> However, each lifter responds differently, so the best thing to do is to load 100kg again, and execute that lift to the best of your abilities.
 >
-> You don't need to prove this to yourself though. The back off work will continue to drive progress forward (and should be adjusted as your e1rm has increased).  
+> If you made progress, then the RPE of your top set should be less than @8.
 >
-> As such, on week 3 you load up 102 kg for your top single. Follow the same process that you used from weeks 1-2 for weeks 3 - 4.  
+> So, on week 2 you hit x1 @7. x1 @7 correlates to ~89% which means that you are now 2% stronger on Squat.
 >
-> You might not make progress every week, but if you hit the goal RPE every week then you are putting yourself in the best position for continued progress.  
+> You don't need to prove this to yourself though. The back off work will continue to drive progress forward (and should be adjusted as your e1rm has increased).
+>
+> As such, on week 3 you load up 102 kg for your top single. Follow the same process that you used from weeks 1-2 for weeks 3 - 4.
+>
+> You might not make progress every week, but if you hit the goal RPE every week then you are putting yourself in the best position for continued progress.
 >
 > It's not about forcing progress, it's about letting the training data emerge, and allow that data to influence your future training decisions.
 
 — <cite>Reactive Training Systems</cite>
 
-Jeg har bl.a. skrevet om at bruge [Reactive Training systems app som en træningslog]({% link _posts/2019-10-10-rts-app.md %}). Den er gratis og genial.
+Jeg har bl.a. skrevet om at bruge [Reactive Training systems app som en træningslog]({% link _posts/2019-10-10-rts-app.md %}). Appen er gratis og genial.
 
 ## Hvad betyder progressivt overload egentlig?
 
@@ -125,7 +154,7 @@ Når man tæller volumen, frekvens og vægt for at skabe overload, så er det et
 
 ## Fixed weight progressive overload
 
-De fleste vil rigtig gerne hurtigt have flere kilo på stangen, men ofte tilføjer folk vægt hurtigere end kroppen kan tilpasse sig træningen. Nervesystemet og muskelvævet tilpasser sig ret hurtigt træning, mens senerne halter lidt bagefter i tilpasningerne til styrketræning.
+De fleste vil rigtig gerne hurtigt have flere kg på stangen, men ofte tilføjer folk vægt hurtigere end kroppen kan tilpasse sig træningen. Nervesystemet og muskelvævet tilpasser sig ret hurtigt træning, mens senerne halter lidt bagefter i tilpasningerne til styrketræning.
 
 Derfor kan det betale sig at blive længere tid på den samme vægt, så senerne også kan nå at følge med i opbygningen af kroppen.
 
@@ -156,7 +185,7 @@ Start med omkring 75% af [1RM](/rm-beregner/) for 3x5 gentagelser. Du skal gå e
 
 ## Konklusion om progressionsmodeller og progressivt overload
 
-Når du laver træningsplanlægning, så husk at progressionsmodeller typisk kun skal bruges i forhold til dine primære løft. Progressionsmodeller kan måske bruges på 1-3 øvelser, mens assistance-øvelser og suppleringsøvelser typisk skal laves så de udfordrer dig. 
+Når du laver træningsplanlægning, så husk at progressionsmodeller typisk kun skal bruges i forhold til dine primære løft. Progressionsmodeller kan måske bruges på 1-3 øvelser, mens assistance-øvelser og suppleringsøvelser typisk skal laves så de udfordrer dig.
 
 Hvilke progressionsmodeller bruger du - og hvordan tænker du progressivt overload ind i din træning?
 

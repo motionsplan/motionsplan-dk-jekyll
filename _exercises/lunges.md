@@ -1,6 +1,6 @@
 ---
 title: "Lunges"
-seo_title: "Lunges teknik: Sådan kommer du i gang med forskellige variationer"
+seo_title: "Lunges teknik: Kom i gang med forskellige variationer"
 excerpt: "Lunges er en effektiv benøvelse, som træner hele underkoppen, og samtidig stiller krav til din balance og koordination. Udfaldsskridtet træner både forlår og balder. Her kigger vi på teknik i lunges og variationer."
 instructions: "Lav et udfaldsskridt og gå ned i knæ, indtil det forreste lår er vandret og det andet næsten knæ rører jorden. Bevæg dig dynamisk tilbage til udgangspositionen."
 permalink: /lunges/

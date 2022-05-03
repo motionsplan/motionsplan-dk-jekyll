@@ -3,15 +3,14 @@ last_modified_at: 2021-04-12T23:14:14.000Z
 toc: true
 author: jakob.nielsson
 title: Hvordan laver man et træningsprogram til styrketræning? 6 enkle trin!
+description: "Hvordan laver du dit eget styrketræningsprogram. Med 6 enkle trin kan du selv lave gode styrketræningsprogrammer, der passer til dine mål."
 permalink: /programlaegning-styrketraening/
 seo_title: 6 trin til at lave dit eget træningsprogram til styrketræning
 header:
-  overlay_image: https://images.unsplash.com/photo-1586205208101-b9da5ef6120d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=5
+  overlay_image: https://images.unsplash.com/photo-1586205208101-b9da5ef6120d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
   teaser: https://images.unsplash.com/photo-1586205208101-b9da5ef6120d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: Hvordan laver man et styrketræningsprogram? 6 enkle trin!
 language: da
-description: Her får du 6 enkle trin til selv at lave dit styrketræningsprogram,
-  som du kan bruge allerede fra i dag.
 category:
   - Styrketræning
 tags:
@@ -102,7 +101,7 @@ Det er klogt at være praktisk og realistisk når man planlægger længden af si
 
 Restitutionsfasen varer ofte én uge, og kaldes en deload-uge. Deload ugen tjener mange formål, jeg vil komme ind på to af dem her.
 
-Det ene, og mest åbenlyse formål er at man får restitueret. Muskler heler hurtigt, men sener og led kan have opbygget flere mikrotraumer i løbet af ugerne uden, at man nødvendigvis kan mærke det. I deload ugen kan de “indhente” og endelig hele igennem, hvorved risiko for overbelastning og skader reduceres. Desuden kan superkompensation finde sted på et højere plan hvis man har opbygget generel træthed i løbet af sit program.
+Det ene, og mest åbenlyse formål er at man får restitueret. Muskler heler hurtigt, men sener og led kan have opbygget flere mikrotraumer i løbet af ugerne uden, at man nødvendigvis kan mærke det. I deload ugen kan de “indhente” og endelig hele igennem, hvorved risiko for overbelastning og skader reduceres. Desuden kan [superkompensation](/superkompensation/) finde sted på et højere plan hvis man har opbygget generel træthed i løbet af sit program.
 
 Det andet formål er at man bliver mere sensitiv overfor træningsstimuli igen. Som det bliver forklaret i næste afsnit skal man træne mere og mere/hårdere og hårdere for at have fremgang, og det er selvfølgelig uholdbart at forøge volumen i det uendelige.
 

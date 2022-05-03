@@ -46,7 +46,7 @@ CNS-priming
 
 ## Forslag til struktur for opvarmningen
 
-Jeg er ret inspireret af Mike Robertsons træningstilgang og [struktur i hans Bulletproof Athlete-program](/artikel/bulletproof-athlete). I forhold til opvarmning til styrketræning, så bringer han os igennem disse faser.
+Jeg er ret inspireret af Mike Robertsons træningstilgang og [struktur i hans Bulletproof Athlete-program](/artikel/bulletproof-athlete/). I forhold til opvarmning til styrketræning, så bringer han os igennem disse faser.
 
 R1 --- Release
 : Arbejde med det bløde muskelvæv med foamrollere og lacrosse bolde. Vi arbejder med vævet for at løsne spændinger.
@@ -123,7 +123,10 @@ Det allervigtigste med opvarmning er, at du laver en opvarmning, du rent faktisk
 
 Hvordan varmer du op til styrketræning?
 
-## Referencer til opvarmning
+## Referencer
+
+<details markdown="1">
+  <summary>Se referencer</summary>
 
 - [Most intelligent way to warm up](https://www.t-nation.com/training/most-intelligent-way-to-warm-up)
 - [The simple 7 warmup](https://www.t-nation.com/training/the-simple-7-warm-up)
@@ -131,3 +134,4 @@ Hvordan varmer du op til styrketræning?
 - [Foam rolling isn't stretching, but still important](https://deansomerset.com/foam-rolling-isnt-stretching-still-important/)
 - [The most efficient Warm-Ups, Period](https://www.t-nation.com/training/the-most-efficient-warm-ups-period)
 - [Agile 8](https://breakingmuscle.com/workouts/use-the-agile-8-to-warm-up-quickly/)
+</details>

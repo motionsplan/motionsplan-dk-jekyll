@@ -1,12 +1,13 @@
 ---
 title: &title "RM-beregner: 9 formler til at teste og udregne 1RM max"
+seo_title: "RM-beregner: 1RM max i bænkpres, squat og dødløft"
 permalink: /rm-beregner/
 redirect_from:
   - /artikel/brug-tests-og-faa-fremgang/
-excerpt: "Lav din egen RM-test og udregn 1RM max (one repetition maximum) i vores avancerede RM-beregner. Her kan du bruge formler til at udregne 1RM ud fra vægten på dine submaksimale løft."
+excerpt: "Lav din egen RM-test og udregn 1RM max (one repetition maximum) i vores RM-beregner til styrketræning. Udregn din 1RM ud fra vægten på dine submaksimale løft i fx squat, dødløft og bænkpres."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1526401485004-46910ecc8e51?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=5
+  overlay_image: https://images.unsplash.com/photo-1526401485004-46910ecc8e51?ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
   teaser: https://images.unsplash.com/photo-1526401485004-46910ecc8e51?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
   alt: Photo by Victor Freitas on Unsplash
@@ -25,8 +26,7 @@ tags:
   - repetition maximum
   - test
   - træningsplanlægning
-  - beregner
-last_modified_at: 2021-12-10T07:14:14Z
+last_modified_at: 2022-03-27T07:14:14Z
 toc: true
 feature_row_sheet:
   - image_path: /assets/images/freebies/rmberegner.png
@@ -46,22 +46,13 @@ feature_row:
     btn_label: "Tjek prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
-  - image_path: https://imgcdn.saxo.com/_9788799095872/0x500
-    title: &book_title "Fitness testning - fysisk testning og sundhedstestning i fitnesscentre, skole og hjem"
-    alt: *book_title
-    excerpt: "Populær opslagsbog med allround fysisk testning med nemme  fitness tests, der kan udføres i et fitnesscenter, i en gymnastiksal, sportshal eller i hjemmet. De fleste tests og selvtests kan udføres med kroppen alene eller få, små, billige redskaber. Der forudsættes ikke adgang til specialudstyr. Tre komplette testprogrammer og over 40 fitnesstests samt Fitnessbarometer og Fitness Profil til motivation af fysisk inaktive og fysisk aktive. For personlige trænere, fitness instruktører, fysioterapeuter, idrætsstuderende, idrætsundervisere og supermotionister. Gennemillustreret. 144 sider."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/fitness-testning_marina-aagaard_haeftet_9788799095872"
-    btn_label: "Tjek prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
-  - image_path: https://imgcdn.saxo.com/_9788799369591/0x500
-    title: &book_title "Sundhedstjek og formtest - styrk og bevar din motivation med nemme gør-det-selv tests"
-    alt: *book_title
-    excerpt: "Aktuel populærbog om tjek og forbedring af sundhed, motion og livsstil med motiverende og nemme tests - som set på DR TV. Til selvtests eller med familie og venner. Med inspirerende dataark Fitness Profil og Fitnessbarometer, der giver overblik over sundhedsstatus og fysisk form, og mål-og-plan-skema samt motions-dagbog til planlægning af gode vaner."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/sundhedstjek-og-formtest_marina-aagaard_haeftet_9788799369591"
-    btn_label: "Tjek prisen"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
+faq:
+  - question: Hvad er en RM-beregner? 
+    answer: "En RM-beregner kan udregne _Repetition Maximum (RM)_. RM-begrebet kan først og fremmest bruges til at estimere, hvad du maksimalt kan løfte en gang ud fra vægten på et submaksimalt løft med flere gentagelser. Ud fra din 1RM kan du derefter estimere forskellige RM-vægte, som fx kan anvendes i træningsprogrammer."
+  - question: Hvordan beregner man sin 1 RM?
+    answer: Du kan naturligvis bruge vores RM-beregner til at beregne din egen 1RM, men du kan også selv regne det hele ud med en RM-formel. Jeg har samlet de mest populære formler til at udregne 1RM-max på denne side.
+  - question: Hvad betyder RM, 1RM max og one repetition maximum?
+    answer: "**One Repetition Maximum** kaldes også 1RM er et udtryk for den vægt, man maksimalt kan løfte for en gentagelse i en given øvelse. Det kan være gavnligt at kende sin 1RM, hvis man bruger procentbaserede træningsprogrammer."
 ---
 
 Du kan lave en RM-test for at finde ud af, hvor meget du kan løfte. I en RM-test kan du enten lave et maksimalt løft, hvilket naturligvis er meget præcist.
@@ -92,6 +83,10 @@ Hvis du laver procentbaserede træningsprogrammer, så har du brug for at vide, 
 
 RM-værdierne kan altså bruges som et udgangspunkt for planlægningen af dine træningsprogrammer. Desuden kan de være med til at give end indikation på, om du har oplevet fremgang i din præstation i løbet af dit træningsprogram.
 
+## RM-beregner til 1RM max
+
+{% include calculate-1rm.html %}
+
 ## Skema og tabel med RM-værdier
 
 Du kan bruge dette skema over RM-værdier til at estimere dine egne træningsværdier.
@@ -117,10 +112,6 @@ Reynolds (2006) har lavet et metastudium, hvor de kårer **Reynolds egen formel 
 Jeg kan godt lide at give mulighed for det er lidt mere fleksibelt under udførelsen. Så selvom man går efter en 5RM, så vil en 4RM eller en 6RM også fungere fint i udregningerne, så man ikke behøver at lave et nyt forsøg. Derfor har jeg **regnet baglæns for Reynolds formel, så den bliver mere fleksibel**.
 
 Lad os først springe til 1RM-beregneren, så kan vi kigge yderligere på forbeholdene efterfølgende.
-
-## RM-beregner til 1RM max
-
-{% include calculate-1rm.html %}
 
 ## Fordele ved en RM-beregner
 
@@ -278,13 +269,13 @@ Testen går således ud på, at du skal finde en vægt, du kan løfte 1 - 10 gan
 
 **Udregning af 1RM.** Når jeg ved det, kan jeg bruge 1RM Beregneren. Jeg taster mine tal ind, og finder ud af, at min 1RM er 85 kg.
 
-## Regneark med beregner
+## Regneark med RM-beregner
 
 Her kan du finde en RM-beregner lavet i Google Sheets.
 
 {% include feature_row id="feature_row_sheet" type="left" %}
 
-## Konklusion om RM-beregnere
+## Konklusion
 
 Der er rigtig mange måder at lave programmer til styrketræning på, men fælles for dem alle er, at hensigten er at blive stærkere. For at få fremgang skal man naturligvis træne, men der skal også være progression i træningen. Du kan bruge RM-tests til at sikre dig, at din træning rent faktisk virker.
 
@@ -294,10 +285,10 @@ Jeg kan også rigtig godt selv lide at bruge [RPE-tabeller baseret på Rate of P
 
 Bruger du en RM-beregner i din træning?
 
-## Referencer for RM-test og RM-formler
+## Referencer
 
 <details markdown="1">
-  <summary>Se referencer om RM-test og RM-beregner</summary>
+  <summary>Se referencer</summary>
 
 - [Science for Sport: Testing 1RM](https://www.scienceforsport.com/1rm-testing/)
 - Reynolds, Jeff M., Toryanno J. Gordon, og Robert Andrew Robergs. “Prediction of one repetition maximum strength from multiple repetition maximum testing and anthropometry.” Journal of strength and conditioning research 20, nr. 3 (2006): 584–92. <https://doi.org/10.1519/R-15304.1>.

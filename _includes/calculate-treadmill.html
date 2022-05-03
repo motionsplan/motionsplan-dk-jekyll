@@ -1,0 +1,99 @@
+<form class="calculator" id="calculator_treadmill">
+    <fieldset>
+        <legend>Løbebånd beregner</legend>
+        <div class="form-group">
+            <label>Hældning (%)
+                <input type="number" step="0.1" min="0" max="100" placeholder="fx 1" name="gradient" required>
+            </label>
+        </div>
+        <fieldset>
+            <legend>Udfyld venligst <strong>kun to</strong> af de følgende parametre</legend>
+        <div class="form-group">
+            <label>Hastighed (km/t)
+                <input type="number" min="0" max="100" step="0.1" placeholder="udfyld kun 2 af 3" name="speed">
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Tid (min)
+                <input type="number" min="0" max="2000" placeholder="udfyld kun 2 af 3" name="time" step="0.1">
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Distance (km)
+                <input type="number" min="0" max="2000" placeholder="udfyld kun 2 af 3" name="distance" step="0.1">
+            </label>
+        </div>
+        </fieldset>
+        <div class="form-group">
+            <label>Vægt (kg)
+                <input type="number" min="10" max="200" placeholder="fx 70" name="weight" step="0.1" required>
+            </label>
+        </div>
+        <input type="submit" value="Beregn">
+    </fieldset>
+    <fieldset class="results">
+        <legend>Træningen</legend>
+        <div class="form-group">
+            <label>Hældning
+                <input name="gradient_calculated" disabled>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Hastighed (km/t)
+                <input name="speed_calculated" disabled>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Tid (min)
+                <input name="time_calculated" disabled>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Distance (km)
+                <input name="distance_calculated" disabled>
+            </label>
+        </div>
+    </fieldset>
+    <fieldset class="results">
+        <legend>Træningen omregnet til flad jord med en hældning på 0% ud fra iltoptagelsesteorien. Kilde: <a href="https://42.195km.net/e/treadsim/">42.195km.net</a>.</legend>
+        <div class="form-group">
+            <label>Hastighed (km/t)
+                <input name="speed_gradient" disabled>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Tid (min)
+                <input name="time_gradient" disabled>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Distance (km)
+                <input name="distance_gradient" disabled>
+            </label>
+        </div>
+    </fieldset>
+    <fieldset class="results">
+        <legend>Energi brugt på løbebåndet</legend>
+        <div class="form-group">
+            <label>Kalorier
+                <input name="kcal" disabled>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>kJ
+                <input name="kj" disabled>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>kwh
+                <input name="kwh" disabled>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>METs
+                <input name="mets" disabled>
+            </label>
+        </div>
+    </fieldset>
+    {% include calculator-footer.html %}
+</form>

@@ -1,11 +1,12 @@
 ---
-title: "Solhilsen A og B: Komplet guide til solhilsen [2021] 🧘"
-seo_title: "Solhilsen A og B • 8 overbevisende grunde til at prøves"
-description: "Lær at lave solhilsen a og b med video og beskrivelser 🙏 Hvilke yogaøvelser der er i solhilsen? 🙏 Hvad er forskellen på A og B? 🙏 Hvad er solhilsen godt for?"
+title: "Solhilsen A og B: Komplet guide til solhilsen 🧘"
+#seo_title: "Solhilsen A og B: Komplet guide til solhilsen"
+seo_title: "Solhilsen A og B • 8 overbevisende grunde til at prøve i 2022"
+description: "Lær at lave solhilsen a og b med video og beskrivelser | Hvilke yogaøvelser der er i solhilsen? | Hvad er forskellen på A og B? | Hvad er solhilsen godt for?"
 permalink: /artikel/solhilsen-a-b-surya-namaskar/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1570997491915-47ade51fed9f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=5
+  overlay_image: https://images.unsplash.com/photo-1570997491915-47ade51fed9f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
   teaser: https://images.unsplash.com/photo-1570997491915-47ade51fed9f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: "Komplet guide til yoga solhilsen A og B"
 tags:
@@ -15,15 +16,6 @@ tags:
 category:
   - Yoga
 last_modified_at: 2021-02-20T09:41:09Z
-wallsticker:
-  - image_path: https://www.wallstickerland.dk/media/catalog/product/s/u/sun-salutation-danish.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=44221&htmlurl=https://www.wallstickerland.dk/solhilsen-wallsticker
-    title: "Wallsticker med Solhilsen A"
-    alt: "Wallsticker med Solhilsen A"
-    excerpt: "Wallstickerland har en enkel wallsticker med Solhilsen A, som er rigtig let at sætte op. Du kan få et gavekort på 100 kroner, hvis du [tilmelder dig her](http://gavekort.wallstickerland.dk/gratis) først."
-    btn_label: "Tjek prisen"
-    btn_class: "btn--warning"
-    rel: sponsored nofollow noopener
 plakat:
   - image_path: https://trendyliving.dk/images/Solhilsen.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=47232&htmlurl=https://trendyliving.dk/shop/vissevasse-solhilsen-29714p.html
@@ -57,39 +49,11 @@ yogastream:
     title: "Bliv medlem af Yogastream og lær yoga"
     alt: "Bliv medlem af Yogastream og lær yoga og solhilsen"
     rel: sponsored nofollow noopener
-wallsticker_full:
-  - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-therapy-danish.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-therapy-wallsticker
-    title: Yoga therapy
-    rel: sponsored nofollow noopener
-  - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-is-a-way-to-freedom-danish.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-is-a-way-to-freedom-wallstick r
-    title: Yoga is a way to freedom
-    rel: sponsored nofollow noopener
-  - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-is-99-_-practice-danish_3.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-er-99-ovelse-wallsticker
-    title: Yoga er 99 % øvelse
-    rel: sponsored nofollow noopener
-  - image_path: https://www.wallstickerland.dk/media/catalog/product/a/-/a-yoga-instructor-gets-people-to-danish.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/en-yoga-instruktor-far-folk-til-wallsticker
-    title: En yoga-instruktør får folk til
-    rel: sponsored nofollow noopener
-  - image_path: https://www.wallstickerland.dk/media/catalog/product/i/-/i-do-yoga-english.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/i-do-yoga-wallsticker
-    title: I do yoga
-    rel: sponsored nofollow noopener
-  - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-wallsticker
-    title: Yoga
-    rel: sponsored nofollow noopener
-  - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-keeps-punching-me.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-keeps-punching-me-wallsticker
-    title: Yoga keeps punching me
-    rel: sponsored nofollow noopener
-  - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-is-not-just-a-workout-danish.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-er-ikke-bare-en-traening-wallsticker
-    title: Yoga er ikke bare en træning
-    rel: sponsored nofollow noopener
+faq:
+  - question: Hvad er forskellen på Solhilsen A og B?
+    answer: Solhilsen B er lidt mere avanceret yogasekvens end version A. Typisk laves Solhilsen B efter, at du har lavet flere runder af solhilsen A. Få alt at vide her...
+  - question: Skal jeg bruge noget bestemt udstyr for at lave Solhilsen?
+    answer: Nej. Du har ikke brug for bestemt udstyr for at lave yoga og en solhilsen. Det kan dog være rart med en skridsikker yogamåtte, som kan gøre udførelsen lidt mere behagelig.
 ---
 
 Jeg har lavet yoga solhilsen mange gange, så derfor vil jeg gerne beskrive denne alsidige serie af yoga-øvelser for dig, så du også kan komme i gang med øvelserne. Jeg dykker i det følgende ned i _Surya Namaskar_ (solhilsen) fra Asthanga Vinyasa Yogaen, som findes i en A- og B-version.
@@ -117,8 +81,6 @@ Solhilsnen kan være en dynamisk og fysisk krævende sekvens, hvor du får pulse
 
 Jeg kan godt lide at lave solhilsen langsomt, så jeg rigtigt kan mærke de forskellige stræk i postionerne. Hvis jeg bruger den som opvarmning, så sætter jeg efterhånden tempoet lidt op og laver flere runder for at få en mere dynamisk træning, hvor pulsen kommer lidt op.
 
-{% include feature_row type="left" id="wallsticker" %}
-
 > The sun is a daily reminder that we too can rise again from the darkness. That we too can shine our own light.
 
 --- <cite>S. Ajna</cite>
@@ -138,7 +100,7 @@ Det er vigtigt at trække vejret dybt ned i maven. Prøv at få vejrtrækningen 
 
 > Hver stilling, asana, er forbundet med åndedræts-synkroniserede bevægelser, vinyasa, og sammenkæder åndedræt og bevægelse, så stillingerne afløser hinanden. Det er på forhånd fastlagt, hvor i en stilling man skal ånde ind og ud. Lige som der er en fastlagt måde at komme ind og ud af hver enkelt stilling. Stillingerne udføres i en ganske bestemt rækkefølge. Traditionelt udføres en fuld vinyasa mellem hver asana og en halv vinyasa mellem højre og venstre side. Det virker som modstilling til den forudgående asana og øger blodomløb og letter stivhed før den næste stilling. Ved at lave vinyasa opbygges og vedligeholdes varmen i kroppen og medfører en kraftig svedproduktion, som er nødvendig for at rense kroppen.
 
-— <cite>[Wikipedia](https://da.wikipedia.org/wiki/Astanga-yoga)</cite>
+--- <cite>[Wikipedia](https://da.wikipedia.org/wiki/Astanga-yoga)</cite>
 
 Vejrtrækningen skal foregå gennem næsen og du puster ud gennem munden. Hvis du ikke kan trække vejret flydende gennem bevægelserne, så prøve at sætte tempoet lidt ned og slappe lidt af i bevægelserne.
 
@@ -202,7 +164,7 @@ Tjek videoen for at se nøjagtigt, hvordan øvelserne udføres.
 
 {% include feature_row type="left" id="plakat" %}
 
-# Solhilsen B (for let øvede)
+## Solhilsen B (for let øvede)
 
 Solhilsen B er lidt mere avanceret end version A. Typisk laves denne sekvens af øvelser efter, at du har lavet flere runder af solhilsen A.
 
@@ -267,12 +229,14 @@ Hvis du kan lide artiklerne her fra Motionsplan og gerne vil støtte sitet, så 
 
 {% include feature_row id="feature_row_yogamat" type="left" %}
 
-## Referencer til solhilsen A og B
+## Ofte stillede spørgsmål
+
+{% include faq.html %}
+
+## Referencer
 
 <details markdown="1">
   <summary>Se referencer om solhilsen A og B</summary>
 
 - Ni, Meng; Mooney, Kiersten; Balachandran, Anoop; Richards, Luca; Harriell, Kysha; Signorile, Joseph F. (2014). "Muscle utilization patterns vary by skill levels of the practitioners across specific yoga poses (asanas)"._Complementary Therapies in Medicine_.**22**(4): 662–669. Doi: [10.1016/j.ctim.2014.06.006](https://doi.org/10.1016%2Fj.ctim.2014.06.006).
 </details>
-
-{% include gallery id="wallsticker_full" caption="Du kan finde endnu flere yoga-plakater hos [plakaterne.dk](https://www.plakaterne.dk/yoga-plakater/)." %}

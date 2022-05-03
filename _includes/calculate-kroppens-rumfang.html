@@ -1,0 +1,23 @@
+<form class="calculator" id="calculator_kroppens_rumfang">
+    <fieldset>
+        <legend>Udregning af kroppens rumfang</legend>
+        <div class="form-group">
+            <label>Densitet (kg/m<sup>3</sup>)
+                <input name="density" value="1060" type="number" min="0" max="2000" placeholder="Densitet" step="0.1" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Vægt (kg)
+                <input name="weight" type="number" min="20" max="200" placeholder="Vægt i kg" step="0.1" required>
+            </label>
+        </div>
+        <input type="submit" value="Udregn">
+    </fieldset>
+    <fieldset class="results" disabled>
+        <legend>Resultater</legend>
+        <label>Kroppens rumfang (m<sup>3</sup>)
+            <input disabled name="kroppens_rumfang" type="text">
+        </label>
+    </fieldset>
+    {% include calculator-footer.html %}
+</form>

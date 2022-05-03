@@ -3,7 +3,7 @@ title: &title "Muskelømhed: Hvorfor får jeg ømme muskler efter træning?"
 permalink: /omme-muskler-efter-traening/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1610360373636-08dd2b883ea5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=5
+  overlay_image: https://images.unsplash.com/photo-1610360373636-08dd2b883ea5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
   teaser: https://images.unsplash.com/photo-1610360373636-08dd2b883ea5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
@@ -11,8 +11,6 @@ category:
 tags:
   - muskler
   - doms
-  - muskelømhed
-  - delayed onset muscle soreness
 last_modified_at: 2021-02-14T08:14:14Z
 toc: true
 ---
@@ -153,7 +151,7 @@ Du skal huske ikke at måle træningsindsatsen og udbyttet af træning efter, hv
 
 Først og fremmest så er ømhed i musklerne typisk ikke farligt. **Ømhed i musklerne går over af sig selv**, når du lader tiden gå. Mikroskaderne i musklerne heler, og det er faktisk en af de måder kroppen bliver stærkere på og forberedt til endnu højere belastning.
 
-Hvis du nu allerede er blevet øm i musklerne, så synes jeg ofte, at det kan hjælpe at lave en **let træning og en restitutionstræning**, hvor du fx træner med lav intensitet. Let træning øger blodgennemstrømningen i musklerne, hvilket sætter tempoet på helingsprocesserne i kroppen op ([Cheung et al 2003](https://pubmed.ncbi.nlm.nih.gov/12617692/)).
+Hvis du nu allerede er blevet øm i musklerne, så synes jeg ofte, at det kan hjælpe at lave en **let træning og en restitutionstræning**, hvor du fx træner med lav intensitet. Let træning øger blodgennemstrømningen i musklerne, hvilket sætter tempoet på helingsprocesserne i kroppen op ([Cheung et al 2003](https://pubmed.ncbi.nlm.nih.gov/12617692/)). På den måde bliver din [restitutionstid hurtigere](/restitutionstid/).
 
 Du kan bruge **udspænding og udstrækning** dagen efter også til at få bevæget kroppen og øge blodgennemstrømning. Udstrækning i forbindelse med træningen forebygger desværre ikke ømhed dagen efter.
 
@@ -195,10 +193,16 @@ Der er rigtigt at muskelfibrene påvirkes ved træning, men muskelfibrene forsvi
 
 Det er efter al sandsynlighed ikke [mælkesyren]({% link _posts/2020-08-24-maelkesyre.md %}), der gør, at man ikke længere kan arbejde med samme intensitet. Mælkesyren beskytter nok snarere musklerne. Derfor er det også usandsynligt, at mælkesyren gør kroppen øm og stiv dagen efter træning. Men der kan naturligvis med meget intensive aktiviteter og anaerob træning være en tendens til flere mikroskader i musklerne.
 
-## Referencer om DOMS og ømme muskler
+## Konklusion
+
+Hvis du har fået DOMS og ømme muskler, så har du brug for [restitution](/restitution/). Muskelømheden stammer fra, at du har trænet hårdere end din krop var klar til eller lavet nogle uvænte bevægelser. Nu skal den bruge tid til at genopbygge.
+
+Du kan sagtens træne med lidt muskelømhed i kroppen, men hvis dine muskler er meget ømme, så skal du respektere signalerne fra kroppen og give den en mindre pause.
+
+## Referencer
 
 <details markdown="1">
-  <summary>Se flere referencer om DOMS og delayed onset muscle soreness</summary>
+  <summary>Se flere referencer</summary>
 
   - Hotfiel et al (2018):  [Advances in Delayed-Onset Muscle Soreness (DOMS): Part I: Pathogenesis and Diagnostics](https://pubmed.ncbi.nlm.nih.gov/30537791/)
   - Heiss et al (2019):  [Advances in Delayed-Onset Muscle Soreness (DOMS) - Part II: Treatment and Prevention](https://pubmed.ncbi.nlm.nih.gov/30865998/)

@@ -1,9 +1,13 @@
 ---
 layout: single
 title: "Threshold Method - Tærskelmetode"
+permalink: /metode/threshold/
 excerpt: "Formålet med tærskel-metoden eller _threshold method_ er at forbedre, hvor meget power der kan produceres omkring den anaerobe tærskel og forbedre evnen til at have en god teknik, når man bliver træt. Du arbejder omkring den anaerobe tærskel i 10-30 minutter per arbejdsperiode og laver 1-5 gentagelser alt efter din nuværende form."
+header:
+  teaser: /assets/images/kondition/taerskel.jpg
 tags:
   - conditioning
+  - aerob træning
 rpe: 8-9
 intensity: HR ± 5 slag ift. ANT
 time: 5-10 min arbejdsperiode x 2-5 reps
@@ -25,6 +29,8 @@ video:
 
 {{ page.excerpt }}
 
+**På Vejle Idrætshøjskole er vi ved at beskrive forskellige metoder til træning. Denne side er under udarbejdelse. Hvis du vil hjælpe med beskrivelsen, så er det meget værdsat.**
+
 Vælg en øvelse hvor du kan måle _power output_, puls eller distance over tid. Atleten skal producere mere og mere kraft på en given tidsperiode.
 
 Den letteste måde at bestemme den anaerobe tærskel på er at lave en test med et jævnt tempo på 20-30 minutter. Den gennemsnitlige puls eller kraftudvikling i testen er en tilnærmelse af den anaerobe tærskel.
@@ -45,3 +51,25 @@ Mål hvor lang distance du løber og 60 sekunders _heart rate recovery (HRR)_ fo
 {% if page.video %}
   {% include video provider=page.video.provider id=page.video.id %}
 {% endif %}
+
+## Hvad er {{ page.title }}?
+
+## Hvad er formålet med {{ page.title }}?
+
+## Hvordan udføres {{ page.title }}?
+
+### Hvor lange arbejdsperioderne?
+
+### Hvilken intensitet udføres arbejdsperioderne med?
+
+### Hvor lang tid træner man typisk {{ page.title }}?
+
+### Hvor lange er pausen i {{ page.title }}?
+
+### Hvordan ser pulsen ud, når du laver metoden?
+
+## Hvor ofte kan man træne {{ page.title }}?
+
+## Hvordan tester du om træningsmetoden har givet fremgang?
+
+## Eksempler {{ page.title }}

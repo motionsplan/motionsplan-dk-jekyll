@@ -1,17 +1,17 @@
 ---
 title: &title "Tag tid på din løbetræning og bliv en bedre løber 🏃⏱"
+seo_title: "Tag tid på din løbetræning og bliv en bedre løber"
 permalink: /tag-tid-paa-loebetraening/
 language: da
 author: lsolesen
 header:
-  overlay_image: https://images.unsplash.com/flagged/photo-1556746834-11617819565b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=5
+  overlay_image: https://images.unsplash.com/flagged/photo-1556746834-11617819565b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
   teaser: https://images.unsplash.com/flagged/photo-1556746834-11617819565b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
-  - Kondition
+  - Løb
 tags:
   - løbetræning
-  - konditionstræning
   - løb
 last_modified_at: 2020-12-03T23:14:14Z
 toc: true
@@ -32,11 +32,11 @@ feature_row:
     btn_label: "Se prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
-  - image_path: https://www.mediasupply.dk/wp-content/uploads/2019/11/088d227c-d03a-42b5-8ae6-3ecfaab4c69d.jpg
-    alt: "Bose Spoundsport Free"
-    title: "Bose Spoundsport Free"
-    excerpt: "Bose Spoundsport Free er hovedtelefoner, der spiller ensartet og klart, uanset om din telefon er i hånden, i lommen, spændt fast på din arm eller sidder oven på løbebåndet … og der er ikke et eneste kabel involveret."
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=77605&htmlurl=https://www.mediasupply.dk/vare/bose-soundsport-free/
+  - image_path: https://plusshop.dk/media/catalog/product/b/o/bose_sport_earbuds_black.png
+    alt: "Bose Sport Free"
+    title: "Bose Sport Free"
+    excerpt: "Bose Soundsport Free er hovedtelefoner, der spiller ensartet og klart, uanset om din telefon er i hånden, i lommen, spændt fast på din arm eller sidder oven på løbebåndet … og der er ikke et eneste kabel involveret."
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=54828&htmlurl=https://plusshop.dk/bose-sport-earbuds-sort
     btn_label: "Se prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
@@ -72,7 +72,7 @@ Din løbetid skulle naturligvis gerne blive bedre, hvis du træner regelmæssigt
 
 ## Tag tid under intervaltræning
 
-Tidtagning er også vigtigt, når du laver intervaltræning. Det er godt at have have en let måde at tage tid på, når du løber intervaller. Der er mange forskellige måder at lave [intervalløb]({% link _posts/2020-06-15-intervallob.md %}) på. Jeg kan programmere mit løbeur, så jeg undervejs i træningen ikke behøver at tænke på intervallerne. Jeg starter bare uret, og så bipper mit løbeur, når det passer med intervallerne.
+Tidtagning er også vigtigt, når du laver [intervaltræning](/intervaltraening/). Det er godt at have have en let måde at tage tid på, når du løber intervaller. Der er mange forskellige måder at lave [intervalløb]({% link _posts/2020-06-15-intervallob.md %}) på. Jeg kan programmere mit løbeur, så jeg undervejs i træningen ikke behøver at tænke på intervallerne. Jeg starter bare uret, og så bipper mit løbeur, når det passer med intervallerne.
 
 ## Køb et løbeur til at tage tid med
 
@@ -80,6 +80,6 @@ Jeg bruger selv et Garmin Fenix med en pulsmåler. Det giver mig et virkelig god
 
 Det jeg nyder mest ved Garmin løbeuret er, at det er let at bruge til at tage tid på min træning og i mine intervaller, samtidig med at jeg får pulsmålingerne og kan arbejde med træning i pulszoner.
 
-De nyeste Garmin-løbeure kan du endda have [musik til din træning]({% link _posts/2013-05-02-musik-til-traeningen.md %}) direkte på løbeuret, så du ikke behøver at have en smartphone med, når du løber. Du behøver bare et Bluetooth headset. Jeg bruger selv [Bose Soundsport](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=77605&htmlurl=https://www.mediasupply.dk/vare/bose-soundsport-free/){: rel='sponsored nofollow noopener' }. De spiller rigtig godt. Jeg havde lidt problemer med det første par, jeg fik, men Bose byttede dem bare, og dette par spiller rigtig godt - og de sidder godt i ørerne.
+De nyeste Garmin-løbeure kan du endda have [musik til din træning]({% link _posts/2013-05-02-musik-til-traeningen.md %}) direkte på løbeuret, så du ikke behøver at have en smartphone med, når du løber. Du behøver bare et Bluetooth headset. Jeg bruger selv [Bose Soundsport](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=54828&htmlurl=https://plusshop.dk/bose-sport-earbuds-sort){: rel='sponsored nofollow noopener' }. De spiller rigtig godt. Jeg havde lidt problemer med det første par, jeg fik, men Bose byttede dem bare, og dette par spiller rigtig godt - og de sidder godt i ørerne.
 
 {% include feature_row type="left" %}

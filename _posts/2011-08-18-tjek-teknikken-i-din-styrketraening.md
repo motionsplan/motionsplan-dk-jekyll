@@ -1,6 +1,7 @@
 ---
 title: "7 tips til den rigtige teknik i styrketræning "
-seo_title: "Teknik i styrketræning - 7 tips til at løfte rigtigt [2021]"
+seo_title: "Teknik i styrketræning - 7 tips til at løfte rigtigt [2022]"
+description: "God teknik i styrketræning er effektiv teknik, som minimerer skadesrisikoen. Derfor er god teknik til styrketræning er individuelt. Hvad er din?"
 permalink: /rigtig-teknik-styrketraening/
 redirect_from:
   - /artikel/tjek-teknikken-i-din-styrketraening/
@@ -42,9 +43,9 @@ Hvis vi helt grundlæggende kigger på det, så kan vi reducere **god teknik er 
 
 En effektiv teknik kræver, at teknikken passer til din kropsbygning. Der er en verden til forskel om du skal lave squat med en kort overkrop og lange ben eller omvendt. Teknikken skal altå passe til din kropsbygning og dit mål.
 
-Hvis du laver squat og dødløft er det en klar fordel rent biomekanisk, at stangen bevæger sig lige op og ned, hvis du gerne vil løfte så mange kilo som muligt og have den bedst mulige balance under løftet.
+Hvis du laver squat og dødløft er det en klar fordel rent biomekanisk, at stangen bevæger sig lige op og ned, hvis du gerne vil løfte så mange kg som muligt og have den bedst mulige balance under løftet.
 
-Hvis du er styrkeløfter og gerne vil løfte så mange kilo som muligt i bænkpres, så kan det være en fordel at ligge stabilt på bænken og mindske _range of motion_, men hvis du gerne vil have brystet til at blive trænet optimalt, så kan en større _range of motion_ måske være at foretrække.
+Hvis du er styrkeløfter og gerne vil løfte så mange kg som muligt i bænkpres, så kan det være en fordel at ligge stabilt på bænken og mindske _range of motion_, men hvis du gerne vil have brystet til at blive trænet optimalt, så kan en større _range of motion_ måske være at foretrække.
 
 ### Minimere skadesrisikoen
 

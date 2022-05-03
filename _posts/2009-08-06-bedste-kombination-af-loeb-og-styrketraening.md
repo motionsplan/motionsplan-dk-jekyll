@@ -1,11 +1,12 @@
 ---
 title: &title "Hvad er den bedste kombination af løb og styrketræning? 🏃‍♀🏋️‍♀"
+seo_title: "Hvad er den bedste kombination af løb og styrketræning?"
 permalink: /artikel/bedste-kombination-af-loeb-og-styrketraening/
 redirect_from:
   - /artikel/bedste-kombination-af-loeb-og-styrketraening
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1526676537331-7747bf8278fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=5
+  overlay_image: https://images.unsplash.com/photo-1526676537331-7747bf8278fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
   teaser: https://images.unsplash.com/photo-1526676537331-7747bf8278fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 tags:
@@ -52,7 +53,7 @@ Træning indebærer, at der er et **signal**, der skaber et **respons**, og krop
 
 Et signal er alle de typer træninger, du kan finde på at lave. Squat, tempoløb, [plyometri](/plyometrisk-traening/). På celleniveau er der en opregulering og nedregulering af forskellige mekanismer og enzymer.
 
-{% include figure image_path="/assets/images/blog/hawley2009.jpg" caption="Kroppens respons på styrketræning og udholdenhedstræning og de afledte tilpasninger. Måske modarbejder styrketræning og udholdenhedstræning hinanden." alt="Kroppens respons på styrketræning og udholdenhedstræning og de afledte tilpasninger. Måske modarbejder styrketræning og udholdenhedstræning hinanden." %}
+{% include figure image_path="/assets/images/blog/hawley2009.jpg" caption="Kroppens respons på styrketræning og udholdenhedstræning og de afledte tilpasninger. Måske modarbejder styrketræning og udholdenhedstræning hinanden." alt="figur for kroppens respons på styrketræning og udholdenhedstræning" %}
 
 **Styrketræning** sender et signal til cellerne om at være **anabole**, dvs. Proteinsyntesen skal overstige proteinnedbrydningen over tid, og musklerne skal vokse. Det primære respons ser ud til at være PI3-k-AKT-mTOR og p70 s6k (ribosom protein s6 kinase).
 
@@ -76,7 +77,7 @@ Støren et al (2008) undersøgte to grupper af veltrænede løbere over 8 ugers 
 
 Styrketræningsgruppen havde efter de 8 ugers træning forbedret deres styrke og  deres eksplosive styrke ([Rate of Force Development]({% link _posts/2020-10-14-rate-of-force-development.md %})). Mere bemærkelsesværdigt var deres løbeøkonomi også forbedret med 5% og tiden til udmattelse på deres maksimale aerobe løbehastighed blev også forøget.
 
-{% include figure image_path="/assets/images/blog/storen-maximal-strength.jpeg" caption="Forskel fra før- til efter træningsperioden for styrketræningsgruppen (MST) og kontrolgruppen, der fortsat trænede sit almindelige program" alt="Forskel fra før- til efter træningsperioden for styrketræningsgruppen (MST) og kontrolgruppen, der fortsat trænede sit almindelige program" %}
+{% include figure image_path="/assets/images/blog/storen-maximal-strength.jpeg" caption="Forskel fra før- til efter træningsperioden for styrketræningsgruppen (MST) og kontrolgruppen, der fortsat trænede sit almindelige program" alt="Forskel fra før- til efter træningsperioden" %}
 
 Styrkegruppens program tog i alt 11 minutter at gennemføre pr. gang. Det betyder naturligvis, at den gruppe havde 33 minutters ekstra træning i løbet af ugen. Det kunne have været interessant, hvis de havde justeret for træningsmængde i studiet.
 
@@ -96,7 +97,7 @@ Hvordan får man den bedste effekt af sine træning, hvis konditions- og styrket
 
 Chtara et al (2005) undersøgte, om der var forskel på at lave styrketræningen eller konditionstræningen først, hvis man lavede begge dele i samme træningspas. Træningen varede i 12 uger med 3 gange træning om ugen.
 
-Konditionstræningen blev udført som intervaltræning med intensiteter mellem 60% og 100%. Styrketræningen blev udført som cirkeltræning med en ratio mellem arbejde og restitution på 30s/30s eller 40s/20s. Styrketræningen var de første 6 uger med fokus på udholdenhed og de sidste uger med fokus på eksplosivitet.
+Konditionstræningen blev udført som [intervaltræning](/intervaltraening/) med intensiteter mellem 60% og 100%. Styrketræningen blev udført som cirkeltræning med en ratio mellem arbejde og restitution på 30s/30s eller 40s/20s. Styrketræningen var de første 6 uger med fokus på udholdenhed og de sidste uger med fokus på eksplosivitet.
 
 Studiet viser at den gruppe, der trænede konditionstræning efterfulgt af styrketræning, havde de signifikant største forbedringer på deres 4 km løbetid over et 12 ugers træningsprogram. Paavolainen et al (1999) fandt også en positiv effekt af eksplosiv træning på løbetiderne på 5 kilometer, som [jeg har skrevet om her]({% link _posts/2019-12-16-running-economy.md %}). Studiet af Paavolainen nævner ikke om den eksplosive træning og udholdenhedstræningen blev udført samme dag.
 
@@ -118,7 +119,7 @@ Hvis man derimod kigger på muskelfibrenes tværsnit, så viste studiet at dem d
 
 Når man sammenligende kombinationsgruppen (SE) med udholdenhedsgruppen, så ser det ikke ud til, at der var en hæmmende effekt på iltoptagelsen eller evnen til at udvikle maksimal aerob power på cyklen.
 
-{% include figure image_path="/assets/images/blog/karavirta-oxygen.png" caption="Sammenligning af kombination af styrke og udholdenhed med udholdenhed og styrketræning alene i forhold maksimal iltoptagelse og maksimal aerob power" alt="Sammenligning af kombination af styrke og udholdenhed med udholdenhed og styrketræning alene i forhold maksimal iltoptagelse og maksimal aerob power" %}
+{% include figure image_path="/assets/images/blog/karavirta-oxygen.png" caption="Sammenligning af kombination af styrke og udholdenhed med udholdenhed og styrketræning alene i forhold maksimal iltoptagelse og maksimal aerob power" alt="Sammenligning af træningsstyper i forhold maksimal iltoptagelse og maksimal aerob power" %}
 
 Resultaterne fra Karavirta et al (2011) indikerer altså, at udholdenhedstræning forstyrrer muskeltilvækst, men at hvis målet er muskelstyrke eller udholdenhed og maksimal power, så kan de sagtens trænes samtidigt under forudsætning af, at man ikke ophober træthed.
 
@@ -128,7 +129,7 @@ Sabag et al (2018) konkluderer i deres meta-review af 14 studier, at det ikke se
 
 Forskerne har sammenholdt resultatet fra studierne i følgende figur. Kig særligt på de sorte diamanter, som giver en samlet effekt inden for de tre områder, de har valgt at kigge på.
 
-{% include figure image_path="/assets/images/blog/sabag2018.jpg" caption="Effekten af samtidig træning af HIIT (high intensity interval training) og styrketræning (RT) på muskelstyrke og hypertrofi. De åbne firkanter viser standardafvigelsen i effektstørrelsen og et 95% konfidensinterval. Diamanterne repræsenterer den samlede effekt på tværs af studier." alt="Effekten af samtidig træning af HIIT (high intensity interval training) og styrketræning (RT) på muskelstyrke og hypertrofi. De åbne firkanter viser standardafvigelsen i effektstørrelsen og et 95% konfidensinterval. Diamanterne repræsenterer den samlede effekt på tværs af studier." %}
+{% include figure image_path="/assets/images/blog/sabag2018.jpg" caption="Effekten af samtidig træning af HIIT (high intensity interval training) og styrketræning (RT) på muskelstyrke og hypertrofi. De åbne firkanter viser standardafvigelsen i effektstørrelsen og et 95% konfidensinterval. Diamanterne repræsenterer den samlede effekt på tværs af studier." alt="figur for effekt af hiit  træning" %}
 
 Den samlede metaanalyse får forskerne til at konkludere følgende:
 
@@ -170,7 +171,7 @@ Samtidig mangler der svar på, hvad den _optimale minimale dosis_, hvis man gern
 
 Kan du supplere med nogle forskningsresultater, der kan få os tættere på et godt bud på, hvordan træningen skal organiseres og udføres for at få mest muligt ud af den, så brug endelig kommentarerne?
 
-## Referencer til kombination af styrketræning, løb og udholdenhedstræning
+## Referencer
 
 <details markdown="1">
   <summary>Se referencer om samtidig træning med løb og styrketræning</summary>
@@ -178,7 +179,7 @@ Kan du supplere med nogle forskningsresultater, der kan få os tættere på et g
 - Goto, Kazushige, Masao Higashiyama, Naokata Ishii, og Kaoru Takamatsu. 2005. “Prior Endurance Exercise Attenuates Growth Hormone Response to Subsequent Resistance Exercise”. European Journal of Applied Physiology 94 (3): 333–38. <https://doi.org/10.1007/s00421-004-1296-x>.
 - Goto, Kazushige, Naokata Ishii, Shuhei Sugihara, Toshitsugu Yoshioka, og Kaoru Takamatsu. 2007. “Effects of Resistance Exercise on Lipolysis during Subsequent Submaximal Exercise”. Medicine and Science in Sports and Exercise 39 (2): 308–15. <https://doi.org/10.1249/01.mss.0000246992.33482.cb>.
 - Wang, Li, Henrik Mascher, Niklas Psilander, Eva Blomstrand, og Kent Sahlin. 2011. “Resistance Exercise Enhances the Molecular Signaling of Mitochondrial Biogenesis Induced by Endurance Exercise in Human Skeletal Muscle”. Journal of Applied Physiology (Bethesda, Md.: 1985) 111 (5): 1335–44. <https://doi.org/10.1152/japplphysiol.00086.2011>.
-- Chtara, M, K Chamari, M Chaouachi, A Chaouachi, D Koubaa, Y Feki, G Millet, og M Amri. 2005. “Effects of intra-session concurrent endurance and strength training sequence on aerobic performance and capacity”. British Journal of Sports Medicine 39 (8): 555–60. <https://doi.org/10.1136/bjsm.2004.015248>.
+- Chtara, M, K Chamari, M Chaouachi, A Chaouachi, D Koubaa, Y Feki, G Millet, og M Amri. 2005. “Effects of intra-session concurrent endurance and strength training sequence on aerobic performance and capacity”. British Journal of Sports Medicine 39 (8): 555–60. <https://bjsm.bmj.com/content/39/8/555>.
 - Hoff, J., A. Gran, og J. Helgerud. 2002. “Maximal Strength Training Improves Aerobic Endurance Performance”. Scandinavian Journal of Medicine & Science in Sports 12 (5): 288–95. <https://doi.org/10.1034/j.1600-0838.2002.01140.x>.
 - Karavirta, L., A. Häkkinen, E. Sillanpää, D. García-López, A. Kauhanen, A. Haapasaari, M. Alen, m.fl. 2011. “Effects of Combined Endurance and Strength Training on Muscle Strength, Power and Hypertrophy in 40-67-Year-Old Men”. Scandinavian Journal of Medicine & Science in Sports 21 (3): 402–11. <https://doi.org/10.1111/j.1600-0838.2009.01059.x>.
 - Leveritt, M., H. MacLaughlin, og P. J. Abernethy. 2000. “Changes in Leg Strength 8 and 32 h after Endurance Exercise”. Journal of Sports Sciences 18 (11): 865–71. <https://doi.org/10.1080/026404100750017797>.

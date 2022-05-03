@@ -6,14 +6,22 @@ describe('RunningTest', function() {
     it('should return the correct number', function() {
       let r = motionsplan.Running();
       // m2, s2, km
-      assert.equal(r.getKilometersPrHour(12, 0, 3), 15);
+      assert.equal(r.getKilometersPrHour(3, 12, 0), 15);
+    });
+  });
+  describe('getKilometersPrHour', function() {
+    it('hundredele should return correct number', function() {
+      let r = motionsplan.Running();
+      // m2, s2, km
+      assert.equal(r.getKilometersPrHour(0.010, 0, 1, 0), 36);
+      assert.equal(r.getKilometersPrHour(0.001, 0, 0, 10), 36);
     });
   });
   describe('getTimePrKilometer', function() {
     it('should return the correct number', function() {
       let r = motionsplan.Running();
       // m2, s2, km
-      assert.equal(r.getTimePrKilometer(12, 0, 3), "4:00");
+      assert.equal(r.getTimePrKilometer(3, 12, 0), "4:00");
     });
   });
   describe('convertKmtToMinPerKm', function() {
@@ -33,8 +41,11 @@ describe('RunningTest', function() {
   describe('convertMinPerKmToKmt', function() {
     it('should return the correct number', function() {
       let r = motionsplan.Running();
-      // m2, s2, km
+      // 
       assert.equal(r.convertMinPerKmToDistanceForDuration(4, 0, 4, 0), 1000);
+
+      // pace, duration
+      assert.equal(r.convertMinPerKmToDistanceForDuration(10, 0, 1, 0), 100);
     });
   });
   describe('getDistanceFromTimeAndVelocity', function() {

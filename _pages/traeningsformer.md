@@ -4,12 +4,12 @@ title: "Træningsformer"
 permalink: /traeningsformer/
 excerpt: "Vi præsenterer viden om en lang række forskellige træningsformer. Du kan lade dig inspirere af alle de forskellige måder at træne på."
 header:
-  overlay_image: https://images.unsplash.com/photo-1540474238286-8fd6702d30d9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=5
+  overlay_image: https://images.unsplash.com/photo-1540474238286-8fd6702d30d9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
   teaser: https://images.unsplash.com/photo-1540474238286-8fd6702d30d9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: Træningsformer
   actions:
     - label: "<i class='fas fa-download'></i> Styrketræning"
-      url: "/styrke/"
+      url: "/styrketraening/"
     - label: "<i class='fas fa-download'></i> Løb"
       url: "/loebesiden/"
     - label: "<i class='fas fa-download'></i> Konditionstræning"
@@ -27,13 +27,13 @@ sidebar:
 
 {{ page.excerpt }}
 
-Du kan også læse mere om, [hvordan du kan optimere din træning](/optimer-traening/).
+Du kan også læse mere om, [hvordan du kan optimere din træning](/optimer-traening/). Vi har også lavet en oversigt over mange forskellige [træningsmetoder](/traeningsmetoder/), som du kan lade dig inspirere af.
 
 ## Styrketræning
 
-Styrketræning handler om at blive stærkere, bygge større muskler eller begge dele på samme tid. Vi har skrevet rigtig mange indlæg om styrketræning, styrketræningsprogrammer og øvelser til styrketræning. 
+Styrketræning handler om at blive stærkere, bygge større muskler eller begge dele på samme tid. Vi har skrevet rigtig mange indlæg om styrketræning, styrketræningsprogrammer og øvelser til styrketræning.
 
-Læs mere om [styrketræning her](/styrke/) eller se vores [begynderprogram til calisthenics]({% link _posts/2021-01-18-calistenics.md %}).
+Læs mere om [styrketræning her](/styrketraening/) eller se vores [begynderprogram til calisthenics]({% link _posts/2021-01-18-calistenics.md %}).
 
 {% assign site_posts = site.posts | where: "category", "Styrketræning" | where_exp: "post", "post.url != page.url" | sort: "last_modfied_at" | reverse %}
 

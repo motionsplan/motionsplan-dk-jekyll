@@ -8,7 +8,7 @@
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin:   "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 
-ads: true
+ads: false
 
 # Jekyll specific
 future: false
@@ -347,10 +347,6 @@ collections:
   methods:
     output: true
     permalink: /metode/:path/
-  redirects:
-    output: true
-    permalink: /go/:path/
-
 
 # Defaults
 defaults:
@@ -404,14 +400,16 @@ defaults:
       path: ""
       type: methods
     values:
-      breadcrumbs: false
+      breadcrumbs: true
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: true
       share: true
       related: true
       author: lsolesen
+      sidebar:
+        nav: methods
   # _programs
   - scope:
       path: ""

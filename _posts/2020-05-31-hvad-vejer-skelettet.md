@@ -3,7 +3,7 @@ title: "Hvad vejer skelettet og knoglerne i mennesket? ⚖"
 permalink: /hvad-vejer-skelettet/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1530210124550-912dc1381cb8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=5
+  overlay_image: https://images.unsplash.com/photo-1530210124550-912dc1381cb8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
   teaser: https://images.unsplash.com/photo-1530210124550-912dc1381cb8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: "Hvad vejer menneskets skelet og vores knogler?"
   alt: "Photo by Mathew Schwartz on Unsplash"
@@ -30,7 +30,7 @@ feature_row:
     alt: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
     title: "Menneskekroppen - Anatomi, fysiologi og sygdomme"
     excerpt: "Menneskekroppen beskrives med anatomi, fysiologi og sygdomme i et anatomisk atlas med menneskets knogler og skelettet. Gennem de computergenererede 3D-billeder og fantastiske illustrationer af knogler og muskler kan du opleve menneskekroppens anatomi i hidtil uset detaljegrad."
-    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://bogreolen.dk/menneskekroppen_steve-parker_9788756784436"
+    url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55214&htmlurl=https://tales.dk/menneskekroppen-anatomi-fysiologi-og-sygdomme_steve-parker_9788756784436"
     btn_label: "Se prisen"
     btn_class: "btn--success"
     rel: sponsored nofollow noopener
@@ -95,12 +95,9 @@ Knoglernes densitet har intet at gøre med knoglernes omkreds.
 
 ## Hvad er massefylden for knogler?
 
-|        | Massefylde              | 1 liter vejer |
-|--------|-------------------------|---------------|
-| Knogler | 1,850 g / cm<sup>3</sup> | 1,850 kg       |
-| Fedt   | 0,940 kg / cm<sup>3</sup>  | 0,9 kg        |
-| Muskel | 1,050 g / cm<sup>3</sup> | 1,06 kg       |
-| Vand | 1,000 g / cm<sup>3</sup> | 1,00 kg       |
+Massefylden for knogler er 1,85 g / cm<sup>3</sup>. Du kan se massefylden sammenlignet med andre typer væv i kroppen.
+
+{% include table-body-density.html %}
 
 {% include faq.html heading="2" %}
 

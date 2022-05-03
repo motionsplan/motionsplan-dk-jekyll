@@ -3,7 +3,7 @@ Træningsøvelser:
   url: /traeningsoevelser/
 Styrketræning:
   title: Styrketræning
-  url: /styrke/
+  url: /styrketraening/
 Kondition:
   title: Kondition
   url: /kondition/
@@ -31,7 +31,13 @@ Kropskomposition:
   url: /kropskomposition/
 Restitution:
   title: Restitution
-  url: /restitutionstid-og-alder/
+  url: /restitution/
+Hypertrofi:
+  title: Hypertrofi
+  url: /hypertrofi-metoder/
+Søvn:
+  title: Søvn
+  url: /soevn/
 
 # Øvelser
 

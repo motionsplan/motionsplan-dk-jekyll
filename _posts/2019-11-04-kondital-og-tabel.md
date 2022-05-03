@@ -5,13 +5,13 @@ seo_title: "Kondital tabel & beregning: Sådan finder du dit kondital"
 # Kondition: Hvad er et godt, højt kondital? [Tabel] 💗
 # Better than Kondital - Hvad er godt for mænd, kvinder og børn [Tabel] »
 # Better than Hvad er et godt kondital for mænd, kvinder og børn? [Tabel]
-description: Hvad er et godt, højt kondital? ✓ Se kondital for mænd, kvinder,
-  teenagere og børn i en samlet tabel og skema ✓ Lige til at printe ud!
+description: Hvad er et godt, højt kondital? Se kondital for mænd, kvinder,
+  teenagere og børn i en samlet tabel og skema lige til at printe ud!
 excerpt: Hvad er et godt, højt kondital og hvordan finder du det? Se kondital
   for mænd, kvinder og børn i tabel. Find metoder til at teste til kondital.
 header:
-  overlay_image: https://images.unsplash.com/photo-1571008887538-b36bb32f4571?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=5
-  teaser: https://images.unsplash.com/photo-1571008887538-b36bb32f4571?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=5
+  overlay_image: https://images.unsplash.com/photo-1571008887538-b36bb32f4571?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1571008887538-b36bb32f4571?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
   caption: Kondital tabel og beregning - Hvad er et godt kondital for mænd,
     kvinder og børn?
 last_modified_at: 2021-04-09T04:46:02+02:00
@@ -217,10 +217,10 @@ Vi har skrevet mere om, hvordan du [forbedrer din maksimale iltoptagelse i denne
 
 {% include faq.html %}
 
-## Referencer for kondition og kondital
+## Referencer
 
 <details markdown="1">
-  <summary>Se referencer for tabel over kondital</summary>
+  <summary>Se referencer</summary>
 
 {% include feature_row type="left" %}
 

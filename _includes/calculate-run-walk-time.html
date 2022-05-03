@@ -1,0 +1,40 @@
+<form id="calculator_run_walk_time" class="calculator">
+    <legend>Beregner til samlet hastighed for løb og gang</legend>
+    <fieldset>
+        <legend>Fordeling mellem gang og løb</legend>
+        <div class="form-group">
+            <label>Jeg løber i antal minutter (min:sek)</label>
+            <input name="time_running_minutes" type="number" placeholder="min" min="0" step="1" value="5" required class="input-mini">:
+            <input name="time_running_seconds" type="number" placeholder="sec" min="0" value="0" max="59" step="1" required class="input-mini">
+        </div>
+        <div class="form-group">
+            <label>Jeg går i antal minutter (min:sek)</label>
+            <input name="time_walking_minutes" type="number" placeholder="min" step="1" min="0" value="1" required class="input-mini">:
+            <input name="time_walking_seconds" type="number" placeholder="sec" step="1" min="0" value="0" max="59" required class="input-mini">
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Hastighed for løb og gang</legend>
+        <div class="form-group">
+            <label>Jeg <strong>løber</strong> med pace</label>
+            <input name="pace_running_minutes" type="number" placeholder="min" step="1" min="0" required value="5" class="input-mini">:
+            <input name="pace_running_seconds" type="number" placeholder="sec" step="1" min="0" max="59" value="0" required class="input-mini">
+        </div>
+        <div class="form-group">
+            <label>Jeg <strong>går</strong> med pace</label>
+            <input name="pace_walking_minutes" type="number" placeholder="min" step="1" min="0" required value="10" class="input-mini">:
+            <input name="pace_walking_seconds" type="number" placeholder="sec" step="1" min="0" max="59" value="0" required class="input-mini">
+        </div>
+    </fieldset>
+    <input type="submit" value="Beregn">
+    <fieldset class="results">
+        <legend>Samlet hastighed bliver</legend>
+        <label>Hastighed (km/t)
+            <input name="velocity" type="text" disabled>
+        </label>
+        <label>Pace (min/km)
+            <input name="pace" type="text" disabled>
+        </label>
+    </fieldset>
+    {% include calculator-footer.html %}
+</form>

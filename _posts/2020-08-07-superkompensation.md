@@ -56,11 +56,11 @@ Jeg har ikke kunnet finde præcise vejledninger til, om det er mest effektivt at
 
 ## Eksempel på superkompensation
 
-Når du udsætter kroppen for en stor belastning, fx gennem intervaltræning eller et hårdt styrketræningspas, så vil kroppen tilpasse sig den nye belastning.
+Når du udsætter kroppen for en stor belastning, fx gennem [intervaltræning](/intervaltraening/) eller et hårdt styrketræningspas, så vil kroppen tilpasse sig den nye belastning.
 
 Kroppen genopbygger sig selv, så den bliver stærkere og bedre til at imødekomme det næste træningspas. 
 
-Denne genopbygningfase kaldes for [restitutionsfasen]({% link _posts/2020-05-28-restitutionstid-alder.md %}). Hvor hurtigt restitutionstiden i denne fase er afhænger af mange ting. Superkompensationsfasen viser at det er mest hensigtsmæssigt at have gennemgået restitutionsfasen, inden næste træningspas startes.
+Denne genopbygningfase kaldes for [restitutionsfasen]({% link _posts/2020-05-28-restitution.md %}). Hvor hurtigt [restitutionstiden](/restitutionstid/) i denne fase er afhænger af mange ting. Superkompensationsfasen viser at det er mest hensigtsmæssigt at have gennemgået restitutionsfasen, inden næste træningspas startes.
 
 Kroppen bliver dog ikke ved med at være i superkompensationsfasen. Hvis kroppen ikke får et stimulus igen, så vil man falde tilbage til det gamle træningsniveau og venter man endnu længere, så kommer man i dårligere form.
 
@@ -75,17 +75,3 @@ Superkompensationsbegrebet er egentlig en del af teorien om _general adaption sy
 ## Opsamling på superkompensation
 
 Hvis du er i tvivl om, hvordan du skal oprette en træningsplan, så kan du lave en aftale med en personlig træner.
-
-## Læs flere artikler om restitution
-
-<div class="feature__wrapper">
-
-{% assign site_posts = site.posts | where: "tags", "restitution" | sort: "last_modified_at" | reverse %}
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>

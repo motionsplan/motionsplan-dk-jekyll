@@ -1,5 +1,6 @@
 ---
 title: &title "Liste over sportsgrene, idræt og motion ⚽️🏀🥋🏓 [2021]"
+seo_title: "Liste over sportsgrene, idræt og motion [2022]"
 permalink: /sportsgrene-liste/
 language: da
 header:

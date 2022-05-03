@@ -1,9 +1,10 @@
 ---
 title: &title "Opbygning af kulhydrater og kostfibre 🥑🍞🍆"
+seo_title: "Opbygning af kulhydrater og kostfibre"
 permalink: /kulhydrater-opbygning/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1562245376-3f9dae9f0e73?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=5
+  overlay_image: https://images.unsplash.com/photo-1562245376-3f9dae9f0e73?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
   teaser: https://images.unsplash.com/photo-1562245376-3f9dae9f0e73?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
@@ -27,7 +28,7 @@ Hvordan er kulhydrater opbygget? **Kulhydrater er opbygget af tre grundstoffer: 
 
 Fra Wikipedia kan du læse om, hvad kulhydrater er opbygget af?
 
-> Kulhydrater består næsten udelukkende af tre grundstoffer: carbon, hydrogen og oxygen. Grundstof-forholdene varierer, men ikke meget. Normalt er den molære andel af carbon den samme eller en anelse større end oxygen, og den molære andel af hydrogen er dobbelt så stor (eller lidt større) end andelen af oxygen. Kulhydraters traditionelle generelle formel er: CxH2xOx, men mange vigtige kulhydrater, f.eks. deoxyribose C5H10O4 , har mindre oxygen.
+> Kulhydrater består næsten udelukkende af tre grundstoffer: carbon, hydrogen og oxygen. Grundstof-forholdene varierer, men ikke meget. Normalt er den molære andel af carbon den samme eller en anelse større end oxygen, og den molære andel af hydrogen er dobbelt så stor (eller lidt større) end andelen af oxygen. Kulhydraters traditionelle generelle formel er: CxH2xOx, men mange vigtige kulhydrater, fx deoxyribose C5H10O4 , har mindre oxygen.
 
 --- <cite>[Wikipedia](https://da.wikipedia.org/wiki/Kulhydrat)</cite>
 

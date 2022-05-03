@@ -1,11 +1,11 @@
 ---
 title: &title "Tallerkenmodellen: Hvad er Y, T, E og X tallerkenmodellerne?"
 seo_title: "Tallerkenmodellen • Spis efter Y, T, E og X-modellen"
-description: "Tallerkenmodeller kan bruges i forbindelse med sundhed og vægttab. Se fordele og ulemper ved Y-tallerken, T-tallerken, E-tallerken og X-tallerken 🍽️"
+description: "Tallerkenmodeller kan bruges i forbindelse med sundhed og vægttab. Se fordele og ulemper ved Y-tallerken, T-tallerken, E-tallerken og X-tallerken."
 permalink: /tallerken-modeller/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=5
+  overlay_image: https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
   teaser: https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
@@ -145,8 +145,7 @@ Team Danmark foreslår følgende værdier for kulhydrat og protein i forhold til
 Casper Jespersen [foreslår](https://casperjespersen.dk/den-modificerede-tallerkenmodel-til-dig-der-gerne-vil-spise-ude/) en modificeret tallerkenmodel, som jeg rigtig godt kan lide. Egentlig er det bare en præcisering af T-tallerkenmodellen. Casper Jespersen opprioriterer, at det skal være grøntsagerne på tallerkenen, der fylder mest (ikke frugt). Casper Jespersen er personlig træner og arbejder ofte med klienter, som har et ønske om at tabe sig. 
 
 {% include figure image_path="https://casperjespersen.dk/wp-content/uploads/2019/01/50517273_619006101861854_6042291499616436224_n.jpg" caption="Casper Jespersens grøntsagsmodificerede tallerkenmodel" alt="Modificeret tallerkenmodel" %}
- 
- 
+
 > I stedet for ovenstående tallerkener, anbefaler jeg, at din tallerken består af 25% protein, 25% kulhydrat/fedt og 50% grøntsager. Derudover anbefaler jeg, at du drikker vand i minimum (gerne mere) samme mængde som vin/alkohol. Uanset om du er på restaurant eller hos gode venner og familie.
 > 
 > Ved at modificere de eksisterende tallerkenmodeller på denne måde, sikrer du, at du får nok grøntsager, protein og fedt (jeg har aldrig hørt om nogen, der har manglet kulhydrater, hvis de har spist normalt). Især de to førstnævnte grupper, grøntsager og protein, øger mæthedsfornemmelse markant, så det er dem, vi fokuserer mest på at få nok af.
@@ -181,21 +180,21 @@ Formålet med **tallerkenmodellerne er naturligvis at understøtte en sund kost*
 
 Lad os sammenfatte nogle gode kostråd, som tallerkenmodellerne skal understøtte.
 
-### Drik vand
+### 1. Drik vand
 
 Drik omkring to liter vand hver dag (cirka 8 glas i alt). Drik gerne 2 glas allerede fra morgenstunden. Du har svedt i løbet af natten. Du skal drikke mere, hvis du vejer meget eller træner meget. Læg mærke til, at der står **vand** og ikke sukkerholdige væsker, som fx sodavand, saftevand og juice.
 
-### Spis rigeligt med grøntsager
+### 2. Spis rigeligt med grøntsager
 
 Prøv allerede fra morgenstunden at få nogle grøntsager, så du kan fordele dit indtag af grøntsager over hele dagen. De officielle anbefaler er mindst 600 gram grøntsager om dagen, og det kræver faktisk en del at nå helt derop. 
 
 Frugt tæller naturligvis også i dette regnestykke, men sørg også for at få nogle grove grøntsager fra kål og rodfrugter, fx rødbeder, samt rød peber, spinat og andre mørkerøde og mørkegrønne grøntsager.
 
-### Spis groft
+### 3. Spis groft
 
 Overvej altid fuldkornsvarianterne så du får fuldkorn og fibre nok. Det er bedre for fordøjelsen, det mætter mere og ofte smager det også bedre.
 
-### Spis fede fisk og sunde olier
+### 4. Spis fede fisk og sunde olier
 
 Du kan få sunde fedtsyrer fra fx makrel, ørred, laks, torskerogn. Spis gerne fede fisk mindst to gange om ugen.
 
@@ -203,11 +202,11 @@ Du kan også overveje sunde olier i din madlavning, fx olivenolie på salaten el
 
 Nødder, fx mandler og valnødder, indeholder også masser af sundt fedt (og protein) og er lækkert som snack eller i maden. Vær dog opmærksom på, at nødder er meget energitætte, så spis dem i moderate mængder, fx max 50-100 g pr. dag.
 
-### Spis varieret og med måde
+### 5. Spis varieret og med måde
 
 Tallerkenmodellerne kan hjælpe dig med at spise varieret og overveje indholdet på din tallerken. Hvis du træner meget, så viser E-tallerkenmodellen at du skal have meget mad. Hvis ikke du træner så meget, så kan du med fordel overveje dine mæthedsgrænser. Desto flere grøntsager, du spiser, desto mere kan du spise.
 
-### Spis afbalanceret
+### 6. Spis afbalanceret
 
 Det kan være en god ide at tænke makronæringsstofferne ind i hver enkelt måltid. Altså spis kulhydrat, protein og sundt fedt, hver gang du spiser - også når du spiser et mellemmåltid. Kombiner fx gulerødder og frugt med en lille håndfuld mandler eller en grovbolle.
 
@@ -240,10 +239,10 @@ Der findes altså forskellige tallerkenmodeller, som man være med til at unders
 
 Denne artikel har gennemgået t-tallerken, y-tallerken, e-tallerken og x-tallerken. Bruger du selv en tallerkenmodel som rettesnor for din **egen sunde kost**?
 
-## Referencer om tallerkenmodellen
+## Referencer
 
 <details markdown="1">
-  <summary>Referencer om {{ page.title }}</summary>
+  <summary>Referencer</summary>
 
 - Libotte, E., M. Siegrist, og T. Bucher. 2014. “The Influence of Plate Size on Meal Composition. Literature Review and Experiment”. Appetite 82 (november): 91–96. <https://doi.org/10.1016/j.appet.2014.07.010>.
 - Peng, M. 2017. “How does plate size affect estimated satiation and intake for individuals in normal‐weight and overweight groups?” Obesity Science & Practice 3 (3): 282–88. <https://doi.org/10.1002/osp4.119>.

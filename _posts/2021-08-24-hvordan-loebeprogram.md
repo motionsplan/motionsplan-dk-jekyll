@@ -4,7 +4,7 @@ permalink: /guide-til-loebeprogram/
 excerpt: "Her gennemgår vi, hvordan du kan lave dit eget løbeprogram. Hvilke parametre skal kan du lægge ind i dine løbeprogrammer, og hvordan opbygger du din løbetræning."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1572278116640-337bc3c3b8ae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1916&q=5
+  overlay_image: https://images.unsplash.com/photo-1572278116640-337bc3c3b8ae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
   teaser: https://images.unsplash.com/photo-1572278116640-337bc3c3b8ae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
@@ -102,7 +102,7 @@ Du kan gøre din løbeplan rimelig enkel ved at dele de forskellige dage op med 
 
 - **Speed Run**. Formålet er her at gøre dig hurtigere og arbejde med at flytte den maksimale iltoptagelse og anaerobe tærskel. Disse dage vil ofte være udformet som intervalløb i en eller anden form, men det kan også være udmarvende og længere tempoløb alt efter målet med træningen.
 - **Long Run**. De længere løb er med til at opbygge din udholdenhed og hvordan du kan pace dig selv. Løbene kan enten løbes som en længere tur i et behageligt tempo, eller du kan arbejde med **progressionsløb**.
-- **Recovery Run**. Restitutionsløb er en måde at få løbet flere kilometer på og arbejde lidt med udholdenheden samtidig med, at de gør dig klar til de næste hårdere træninger.
+- **Recovery Run**. Restitutionsløb er en måde at få løbet flere kilometer på og arbejde lidt med udholdenheden samtidig med, at de gør dig klar til de næste hårdere træninger. Læs mere om [restitutionsløb](/restitutionsloeb/).
 - **Rest Days**. Hviledage er helt nødvendige, når kroppen skal tilpasse sig nye belastninger. Du kan altså ikke undvære hviledagene, når du gerne vil være bedre.
 
 Lad os dykke ned i nogle af de løbeformer, du kan putte ind i din træning.
@@ -216,17 +216,19 @@ Når du vil træne din maksimale iltoptagelse, så er det hårdt, og du skal arb
 
 *[HRR]: Heart Rate Reserve
 
-For at træne maksimal iltoptagelse mest effektivt, så skal du i gang med [intervalløb og intervaltræning]({% link _posts/2020-06-15-intervallob.md %}).
+For at træne maksimal iltoptagelse mest effektivt, så skal du i gang med [intervalløb]({% link _posts/2020-06-15-intervallob.md %}) og [intervaltræning](/intervaltraening/).
 
 Du kan arbejde med din maksimale iltoptagelse på flere forskellige måder. Det afgørende er, at intensiteten er høj nok. Den intensive del af træningen vil typisk vare mellem 16-24 minutter.
 
 Lad os kigge på lidt metoder, som kan bruges til at flytte den maksimale iltoptagelse.
 
-#### Intervaltræning
+#### Intervaltræning og intervalløb
 
 Når man laver [intervalløb]({% link _posts/2020-06-15-intervallob.md %}) veksler man mellem arbejdsperioder og hvileperioder. Arbejdsperioderne når man arbejder med VO<sub>2</sub>max skal have en varighed på 2-5 minutter for at opnå en god effekt af din træning. Det kan fx være 5 x 4 minutters intervaller med en pause på 3 minutter mellem hvert interval.
 
 Du kan enten bruge pauser, der er omkring 50-90% af arbejdstiden, eller du kan holde pauser hvor du holder øje med, at din puls kommer ned under 60% af din HRR-puls.
+
+**Læs**: [Komplet guide til intervaltræning](/intervaltraening/)
 
 Tempoet i de enkelte arbejdsperioder skal være det samme. Derfor skal du ikke lægge for hårdt ud på de første intervaller. Antallet af intervaller afhænger naturligvis af den aktuelle form.
 
@@ -321,9 +323,9 @@ Roligt løb kan bruges meget i træning, så længe den samlede træningsmængde
 
 ### Restitutionstræning
 
-Når du træner, så har kroppen brug for tid til at bygge sig op igen bagefter. Der er forskellige strategier til at [fremme restitutionen og restitutionstiden]({% link _posts/2020-05-28-restitutionstid-alder.md %}).
+Når du træner, så har kroppen brug for tid til at bygge sig op igen bagefter. Der er forskellige strategier til at [fremme restitutionen]({% link _posts/2020-05-28-restitution.md %}) og [restitutionstiden](/restitutionstid/).
 
-Det kan tilsyneladende betale sig at lave _aktiv_ restitution frem for _passiv_ restitution. Det kan du bruge en langsommere løbetur til, men du kan også vælge [andre former for restitutionstræning]({% link _posts/2020-05-28-restitutionstid-alder.md %}).
+Det kan tilsyneladende betale sig at lave _aktiv_ restitution frem for _passiv_ restitution. Det kan du bruge en langsommere løbetur til, men du kan også vælge [andre former for restitutionstræning]({% link _posts/2020-05-28-restitutionstraening.md %}).
 
 Nogle af de ting restitutionstræning kan hjælpe med er at:
 

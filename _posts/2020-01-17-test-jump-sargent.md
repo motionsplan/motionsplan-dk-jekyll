@@ -1,5 +1,5 @@
 ---
-title: &title "Sargent Jump Test: Test hvor højt du springer?"
+title: &title "Sargent Jump Test: Hvor højt springer du?"
 redirect_from:
   - /jump-sargent/
 permalink: /sargent-jump-test/
@@ -15,13 +15,14 @@ tags:
   - test
   - springtest
   - spring
+  - beregner
 last_modified_at: 2021-11-19T23:14:14Z
 toc: true
 ---
 
 Sargent Jump test er en springtest og hoppetest, som kun kræver et en væg og et målebånd. Testen kan således laves de fleste steder. Sommetider staves testen også forkert som Sergeant Jump Test.
 
-Sargent Jump test er rimelig meget enkel og kan laves overalt. Stå ved siden af en mur og mål, hvor højt du kan række. Derefter springer du så højt som muligt, rører ved væggen og udregner forskellen. 
+Sargent Jump test er rimelig meget enkel og kan laves overalt. Stå ved siden af en mur og mål, hvor højt du kan række. Derefter springer du så højt som muligt, rører ved væggen og udregner forskellen.
 
 Vi har samlet en liste over alle [springtests for hoppehøjde her](/springtests-hoppehoejde/).
 
@@ -69,7 +70,7 @@ Testen er så lavpraktisk, at alle kan lave den overalt. Den er gratis, men du s
 
 ## Validitet og reproducerbarhed
 
-[de Salles et al (2012)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3588680/) konkluderede, at Sargent Jump Test er en reproducerbar og valid test, når den sammenlignes med en hoppetest på kraftplatform. 
+[de Salles et al (2012)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3588680/) konkluderede, at Sargent Jump Test er en reproducerbar og valid test, når den sammenlignes med en hoppetest på kraftplatform.
 
 ## Referencer
 

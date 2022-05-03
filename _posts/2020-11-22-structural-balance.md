@@ -73,10 +73,14 @@ Vi har skrevet et andet indlæg, hvor du kan lære, hvordan man [tester sin _one
 
 På exrx.net har de samlet en række [styrkestandarder](http://www.exrx.net/Testing/WeightLifting/StrengthStandards.html), hvor du kan få et bud på, om du er stærk.
 
-## Referencer om strukturel balance
+## Referencer
+
+<details markdown="1">
+  <summary>Se referencer</summary>
 
 - [www.t-nation.com](https://www.t-nation.com/training/know-your-ratios-destroy-weaknesses)
 - [www.functionalps.com](http://www.functionalps.com/blog/2010/09/28/upper-body-structural-balance/)
 - [www.t-nation.com](https://www.t-nation.com/training/how-much-can-you-lift-wimp)
 - [athleticsi.com](https://athleticsi.com/structural-balance-assessments-identifying-preventing-injuries/)
 - [breakingmuscle.com](https://breakingmuscle.com/fitness/individualizing-training-structural-balance-intensity-and-autoregulation)
+</details>

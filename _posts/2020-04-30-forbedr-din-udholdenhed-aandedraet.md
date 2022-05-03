@@ -3,7 +3,7 @@ title: &title "Åndedrætstræning: 3 øvelser til vejrtrækning og åndedrætte
 permalink: /aandedraetstraening-forbedrer-udholdenheden/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1483004406427-6acb078d1f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=5
+  overlay_image: https://images.unsplash.com/photo-1483004406427-6acb078d1f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
   teaser: https://images.unsplash.com/photo-1483004406427-6acb078d1f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
   alt: "Photo by Sime Basioli on Unsplash"
@@ -78,7 +78,7 @@ Du kan købe Relaxator hos [Den Intelligente Krop](https://www.partner-ads.com/d
 
 Når du laver dybe, langsomme og rolige åndedræt, hvor du fokuserer på også at inddrage næsen i åndedrættet, så påvirker din vejrtrækning din parasympatiske nervesystem.
 
-Det **parasympatiske nervesystem** er ansvarlige for alle disse gavnlige effekter i forbindelse med afslapning og restitution.
+Det **parasympatiske nervesystem** er ansvarlige for alle disse gavnlige effekter i forbindelse med [afslapning og restitution](/restitution/).
 
 - Udskillelsen af stresshormonerne, adrenalin og kortisol, sættes i bero
 - Øget aktivitet af de beroligende alfabølger i hjernen
@@ -141,6 +141,6 @@ Dr. Cobb anbefaler en åndedrætstræner til at arbejde med din vejrtrækning. D
 
 {% include feature_row type="left" %}
 
-## Referencer om åndedrætstræning og åndedrætsøvelser
+## Referencer
 
 - [Cobb: Improve Endurance in 7 minutes a day](https://zhealtheducation.com/blog/episode-109-improve-endurance-in-7-minutes-a-day/)

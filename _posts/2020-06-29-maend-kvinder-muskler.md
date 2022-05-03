@@ -1,9 +1,10 @@
 ---
-title: "Er der forskel på mænds og kvinders muskler? 💪 [2021]"
+title: "Er der forskel på mænds og kvinders muskler?"
+seo_title: "Er der forskel på mænds og kvinders muskler? [2021]"
 permalink: /maend-kvinder-muskler/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1434682881908-b43d0467b798?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2106&q=5
+  overlay_image: https://images.unsplash.com/photo-1434682881908-b43d0467b798?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
   teaser: https://images.unsplash.com/photo-1434682881908-b43d0467b798?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: "Er der forskel på mænd og kvinders muskler?"
 category:
@@ -150,7 +151,7 @@ Træningsanbefalingerne for kvinder og mænd i forhold til styrketræning er dog
 <details markdown="1">
   <summary>Se alle referencer om mænds og kvinders muskler</summary>
 
-- Abe, T, C Kearns, og T Fukunaga. 2003. “Sex differences in whole body skeletal muscle mass measured by magnetic resonance imaging and its distribution in young Japanese adults”. British Journal of Sports Medicine 37 (5): 436–40. <https://doi.org/10.1136/bjsm.37.5.436>.
+- Abe, T, C Kearns, og T Fukunaga. 2003. “Sex differences in whole body skeletal muscle mass measured by magnetic resonance imaging and its distribution in young Japanese adults”. British Journal of Sports Medicine 37 (5): 436–40. <https://bjsm.bmj.com/content/37/5/436>.
 - Albert, WJ, AT Wrigley, RB McLean, og GG Sleivert. 2006. “Sex differences in the rate of fatigue development and recovery”. Dynamic Medicine 5 (januar): 2. <https://doi.org/10.1186/1476-5918-5-2>.
 - Basualto-Alarcón, Carla, Gonzalo Jorquera, Francisco Altamirano, Enrique Jaimovich, og Manuel Estrada. 2013. “Testosterone Signals through MTOR and Androgen Receptor to Induce Muscle Hypertrophy”. Medicine and Science in Sports and Exercise 45 (9): 1712–20. <https://doi.org/10.1249/MSS.0b013e31828cf5f3>.
 - Berg, G. van den, J. D. Veldhuis, M. Frölich, og F. Roelfsema. 1996. “An Amplitude-Specific Divergence in the Pulsatile Mode of Growth Hormone (GH) Secretion Underlies the Gender Difference in Mean GH Concentrations in Men and Premenopausal Women”. The Journal of Clinical Endocrinology and Metabolism 81 (7): 2460–67. <https://doi.org/10.1210/jcem.81.7.8675561>.

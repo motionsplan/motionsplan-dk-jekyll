@@ -1,11 +1,12 @@
 ---
-title: "Musik til træning: Find de bedste sange til træningen [2021]"
+title: "Musik til træning: Find de bedste sange til træningen"
+seo_title: "Musik til træning: Find de bedste sange til træningen [2022]"
 permalink: /artikel/musik-til-traeningen/
 redirect_from:
   - /artikel/musik-til-træningen
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1514994806776-144805fdde34?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=5
+  overlay_image: https://images.unsplash.com/photo-1514994806776-144805fdde34?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
   teaser: https://images.unsplash.com/photo-1514994806776-144805fdde34?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: "Musik til træningen: Vælg de bedste sange til løb, styrketræning og intervaltræning!"
 tags:
@@ -19,7 +20,9 @@ category:
 last_modified_at: 2020-08-23T15:18:24Z
 ---
 
-Jeg bruger ofte musik til træningen, når jeg underviser mine elever. Hvis jeg ikke lige er faldet over en podcast, så bruger jeg også musik til min egen træning. Men hvordan finder jeg de bedste sange til træning, løb, styrketræning og intervaltræning, så musikken kan give ekstra energi og motivation?
+Jeg bruger ofte musik til træningen, når jeg underviser mine elever. Hvis jeg ikke lige er faldet over en podcast, så bruger jeg også musik til min egen træning.
+
+Men hvordan finder jeg de bedste sange til træning, løb, styrketræning og [intervaltræning](/intervaltraening/), så musikken kan give ekstra energi og motivation?
 
 Hvorfor skal jeg bruge musik til træningen? **Når musikken passer til din træning, så kan musikken hjælpe med at få træningen til at virke lettere, så du kan arbejde længere, eller presse tempoet højere op. Musik kan altså gøre træningen mere effektiv. Det bedste er, hvis du kan finde musik, der er synkrone med dine bevægelser. Hvis det fx er løb, så passer 160-180 bpm rigtig godt for de fleste.**
 
@@ -73,7 +76,7 @@ Men hvilken type musik skal man så vælge til sine aktiviteter. Det betyder alt
 
 > Tempoet angiver simpelthen hvor hurtig grundtakten eller pulsen i et musikstykke er, og er ofte udgangspunktet for at vurdere et musikstykkes egnethed til opvarmning. Tempo oftest i Beats per minute (taktslag pr. minut).
 >
-> Tempo for et musikstykke kan måles på samme måde som man måler sin puls: Tæl f.eks. hvor mange taktslag der er på 10 sekunder og multiplicér med 6.
+> Tempo for et musikstykke kan måles på samme måde som man måler sin puls: Tæl fx hvor mange taktslag der er på 10 sekunder og multiplicér med 6.
 
 --- <cite>[Idrætsmusik](https://idraetsmusik.dk/learn/music-for-warming-up)</cite>
 
@@ -262,7 +265,10 @@ På Spotify er der mange populære playlister, når du søger efter en playliste
 
 Skriv i kommentarerne, hvor du finder de bedste træningsplaylister, og hvad din bedste playliste er til hhv. løb, styrketræning, yoga, intervaltræning og konditionstræning.
 
-## Referencer til musik i træningen
+## Referencer
+
+<details markdown="1">
+  <summary>Se referencer</summary>
 
 - Arazi, Hamid, Abbas Asadi, og Morteza Purabed. 2015. “Physiological and Psychophysical Responses to Listening to Music during Warm-Up and Circuit-Type Resistance Exercise in Strength Trained Men”. _Journal of Sports Medicine (Hindawi Publishing Corporation)_ 2015: 389831. [https://doi.org/10.1155/2015/389831](https://doi.org/10.1155/2015/389831).
 - Ballmann, Christopher G., Marquis J. McCullum, Rebecca R. Rogers, Mallory M. Marshall, og Tyler D. Williams. 2018. “Effects of Preferred vs. Nonpreferred Music on Resistance Exercise Performance”. _Journal of Strength and Conditioning Research_, december. [https://doi.org/10.1519/JSC.0000000000002981](https://doi.org/10.1519/JSC.0000000000002981).
@@ -276,3 +282,4 @@ Skriv i kommentarerne, hvor du finder de bedste træningsplaylister, og hvad din
 - Kreutzer, Jeffrey S., John DeLuca, og Bruce Caplan, red. 2011. _Encyclopedia of Clinical Neuropsychology_. New York: Springer-Verlag. [https://www.springer.com/gp/book/9780387799476](https://www.springer.com/gp/book/9780387799476).
 - Lee, Sam, og Derek S. Kimmerly. 2016. “Influence of Music on Maximal Self-Paced Running Performance and Passive Post-Exercise Recovery Rate”. _The Journal of Sports Medicine and Physical Fitness_ 56 (1–2): 39–48.
 - Pearce, Kathy A. 2016. “Effects of Different Types of Music on Physical Strength”: _Perceptual and Motor Skills_, oktober. [https://doi.org/10.2466/pms.1981.53.2.351](https://doi.org/10.2466/pms.1981.53.2.351).
+</details>

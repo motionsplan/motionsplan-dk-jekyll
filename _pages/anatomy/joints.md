@@ -1,11 +1,12 @@
 ---
 layout: single
 title: &title "Led, ledtyper, bevægelser og bevægelsestyper 🔧"
+seo_title: "Led, ledtyper, bevægelser og bevægelsestyper"
 excerpt: "Led kan opdeles i ægte led og uægte led og forskellige ledtyper: ægled, saddelled, hængselled, glideled, drejeled og kugleled. Den primære funktion for et led er bevægelser, som kan deles op i forskellige bevægelsestyper."
 permalink: /led/
 header:
   teaser: https://images.unsplash.com/photo-1539815208687-a0f05e15d601?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
-  overlay_image: https://images.unsplash.com/photo-1539815208687-a0f05e15d601?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1967&q=5
+  overlay_image: https://images.unsplash.com/photo-1539815208687-a0f05e15d601?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
   caption: *title
 categories:
   - Anatomi
@@ -44,13 +45,20 @@ gallery:
     url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=71238&partnerid=28187&htmlurl=https://citatplakat.dk/plakater/skelettet-siden-anatomi-plakat/
     title: Skelettet fra siden - Anatomi plakat
     rel: sponsored nofollow noopener
-last_modified_at: 2021-03-24T08:14:14Z
+last_modified_at: 2021-12-24T08:14:14Z
 breadcrumbs: true
+faq:
+  - question: Hvad er et led? 
+    answer: Et led er der hvor to eller flere knogler støder sammen til en forbindelse uanset om, der kan være bevægelse eller ej i leddet. I leddet holdes knoglerne sammen af en ledkapsel, der er forstærket af ledbånd.
+  - question: Hvor mange led har vi i kroppen?
+    answer: Vi har omkring 360 led i kroppen, som forbinder de [206 knogler der er i menneskekroppen](/hvor-mange-knogler-har-mennesket/).
 ---
 
 Led kan opdeles i ægte led og uægte led og forskellige ledtyper: ægled, saddelled, hængselled, glideled, drejeled og kugleled. Jeg kigger her på de forskellige defintioner og ledtyper. Den primære funktion for et led er bevægelser, som kan deles op i forskellige bevægelsestyper.
 
 Hvad er et led? **Et led er der hvor to eller flere knogler støder sammen til en forbindelse uanset om, der kan være bevægelse eller ej i leddet. I leddet holdes knoglerne sammen af en ledkapsel, der er forstærket af ledbånd.**
+
+I alt har du i [kroppen omkring 270 knogler når du bliver født](/hvor-mange-knogler-har-mennesket/), som senere bliver til 206, fordi nogle knogle vokser sammen. Leddene forbinder knoglerne, og vi har i alt omkring 360 led i vores krop.
 
 Der er mange forskellige ledtyper i kroppen. Led kan overordnet set opdeles i ægte og uægte led.
 
@@ -121,7 +129,7 @@ Her kan du se bevægelserne i underame, fingre, fødder og tæer.
 
 ## Bevægelsestyper og bevægelsesplaner
 
-Bevægelser kan foregå i tre forskellige bevægelsesplaner.
+Bevægelser i kroppen kan foregå i tre forskellige bevægelsesplaner.
 
 - Frontale plan
 - Sagitale plan
@@ -129,7 +137,7 @@ Bevægelser kan foregå i tre forskellige bevægelsesplaner.
 
 Du kan se de forskellige bevægelsesplaner illustreret i denne figur.
 
-{% include figure image_path="https://www.sci-sport.com/theorie/img/lightbox/t201.png" caption="Illustration af sagitale, frontale og transversale plan bevægelsesplan. Kilde: [www.sci-sport.com](https://www.sci-sport.com)" alt="Sagitale, frontale og transversale bevægelsesplan" alt="bevægelsesplaner, sagitale, frontale og transversale" %}
+{% include figure image_path="https://www.sci-sport.com/theorie/img/lightbox/t201.png" caption="Illustration af sagitale, frontale og transversale plan bevægelsesplan. Kilde: [www.sci-sport.com](https://www.sci-sport.com)" alt="Bevægelsesplaner, sagitale, frontale og transversale bevægelsesplan" %}
 
 Hvis du skal forstå de forskellige bevægelsesplaner, så kan du forestille dig, at du står i en meget smal korridor, hvor dine skuldre næsten rammer væggene i begge sider.
 
@@ -202,7 +210,7 @@ Det er mit bedste bud på en god forklaring af bevægelsesplaner. Du er meget ve
 
 {% comment %}
 
-Du kan læse mere om [led og ledtyper i Morten Zachos beskrivelse](http://web.archive.org/web/20090130044627/http://www.motion-online.dk/styrketraening/anatomiguide/led_generelt/){:rel="nofollow"}.
+Du kan læse mere om led og ledtyper i [Morten Zachos beskrivelse](http://web.archive.org/web/20090130044627/http://www.motion-online.dk/styrketraening/anatomiguide/led_generelt/){:rel="nofollow noopener"}.
 
 {% endcomment %}
 

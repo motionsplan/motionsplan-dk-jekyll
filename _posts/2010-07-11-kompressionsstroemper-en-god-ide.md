@@ -54,9 +54,9 @@ feature_row_bike:
 
 Man har i mange år brugt kompressionstøj som behandling af folk med dårligt blodomløb i benene, men kompressionstøj har også vundet indpas i træningsverden.
 
-Flere og flere trænende håber at shorts, tights, kompressionsstrømper og fuldkropsdragte kan hjælpe på muskelpræstationen, lodret hoppehøjde, muskeltræthed, gentagne sprint præstationer, restitution og nedsat muskelømhed.
+Flere og flere trænende håber at shorts, tights, kompressionsstrømper og fuldkropsdragte kan hjælpe på muskelpræstationen, lodret hoppehøjde, muskeltræthed, gentagne sprint præstationer, restitution og nedsat [muskelømhed](/omme-muskler-efter-traening/).
 
-Jeg vil i dette indlæg primært koncentrere mig om **kompressionsstrømper** og effekten af dem på restitution og præstation - og hvilke bivirkninger der er.
+Jeg vil i dette indlæg primært koncentrere mig om **kompressionsstrømper** og se på effekten af dem i forhold til [restitution]({% link _posts/2020-05-28-restitution.md %}) og præstation. Samtidig kigger jeg på hvilke bivirkninger brugen af strømperne kan have?
 
 Hvad er kompressionsstrømper? **Kompressionsstrømper sælges både med og uden dokumenteret medicinsk effekt. Når man taler om kompressionsstrømper til løb og cykling, så har de typisk _ikke_ medicinsk testede med dokumenteret effekt.**
 
@@ -174,7 +174,7 @@ Det er jo interessant, at kompressionsstrømper også kan virke for cyklister, m
 
 Strømperne skal købes efter størrelse på læggen, ikke skostørrelsen. Du bør derfor købe dem et sted, hvor de ved dette og ikke bare kigger efter din skostørrelse. Det første de skal tænke er: hvor er målebåndet, så jeg kan måle din læg.
 
-[Sahva har en grundig oversigt](https://www.sahva.dk/private/kompression-og-stoettestroemper/forskellen-paa-kompressionsstroemper-og-stoettestroemper/) over, hvad forskellen er på støttestrømper, rejsestrømper, løbestrømper, kompressionsstrømper og lymfødemstrømper.
+[Sahva](https://www.sahva.dk/private/kompression-og-stoettestroemper/forskellen-paa-kompressionsstroemper-og-stoettestroemper/) har en grundig oversigt over, hvad forskellen er på støttestrømper, rejsestrømper, løbestrømper, kompressionsstrømper og lymfødemstrømper.
 
 ## Hvad er det mest effektive pres i kompressionsstrømper?
 
@@ -201,24 +201,10 @@ Vi glæder os til at se mere forskning om kompressionsstrømper, og hvis du kan 
 
 {% include feature_row type="left" %}
 
-## Læs flere artikler om restitution
-
-<div class="feature__wrapper">
-
-{% assign site_posts = site.posts | where: "tags", "restitution" | sort: "last_modified_at" | reverse %}
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
-
-## Referencer om kompressionsstrømper
+## Referencer
 
 <details markdown="1">
-  <summary>Se referencer om {{ page.title }}</summary>
+  <summary>Se referencer</summary>
 
 - Ali, A., M. P. Caine, og B. G. Snow. 2007. “Graduated Compression Stockings: Physiological and Perceptual Responses during and after Exercise”. Journal of Sports Sciences 25 (4): 413–19. <https://doi.org/10.1080/02640410600718376>.
 - Berry, Michael J., og Robert G. Mcmurray. 1987. “Effects of graduated compression stockings on blood lactate following an exhaustive bout of exercise.” American journal of physical medicine.

@@ -18,7 +18,7 @@ tags:
 last_modified_at: 2020-07-04T08:12:14Z
 toc: true
 feature_row:
-  - image_path: https://cdn.shopify.com/s/files/1/0552/7358/6897/products/Optima-K8-Recovery-Boot-saet_v1_2000x.jpg?v=1623163265
+  - image_path: https://cdn.shopify.com/s/files/1/0552/7358/6897/products/K8RecoveryBootsStationary_5000x.jpg?v=1646316961
     alt: "Optima Sport Recovery Boots Ultima K8 – komplet sæt"
     title: "Optima Sport Recovery Boots Ultima K8 – komplet sæt"
     excerpt: "Ultima K8 er velegnet til alle programmer. Støvlen giver en mere dybdegående massage, end vores andre støvler, da kamrene er mindre og derfor kan arbejder sig mere ned i muskulaturen."
@@ -52,7 +52,7 @@ Recovery Boots øger via kompression blodcirkulationen. I praksis kommer der luf
 
 Ved at presse den venøse væske i benet tilbage, øges blodgennemstrømningen omkring muskulaturen. Den øgede blodgennemstrømning medfører teoretisk set, at der kan komme en større mængde ilt og næringsstoffer til genopbygning af musklerne efter træning.
 
-Teoretisk set bliver depoterne også fyldt hurtigere op, hvilket fremmer restitutionsprocessen.
+Teoretisk set bliver depoterne også fyldt hurtigere op, hvilket [fremmer restitutionsprocessen](/restitution/) og [tiden det tager at restituere](/restitutionstid/).
 
 Lad os kigge på løfterne bag leverandørerne af recovery boots.
 
@@ -106,27 +106,13 @@ Men det er faktisk ganske behageligt at sidde med vakuumbukserne på. Jeg har ik
 
 Det er ikke recovery boots du først skal tilføje til arsenal, hvis du vil optimere din træning og restitution.
 
-Først skal du sørge for at optimere din træning, kost og søvn. Når du har styr på de parametre, så kan du begynde at kigge på hjælpemidler.
+Først skal du sørge for at optimere din træning, kost og [søvn](/soevn/). Når du har styr på de parametre, så kan du begynde at kigge på hjælpemidler.
 
 Jeg har tidligere skrevet om [kompressionsstrømper som tilsyneladende har vist en bedre effekt på restitution]({% link _posts/2010-07-11-kompressionsstroemper-en-god-ide.md %}), og de er noget billigere at købe med nogenlunde samme påståede effekt.
 
-Jeg har skrevet et andet indlæg om, [hvad restitutionstiden er, og hvordan du hurtigst restituerer fra træning]({% link _posts/2020-05-28-restitutionstid-alder.md %}).
+Jeg har skrevet et andet indlæg om, [hvad restitutionstiden er, og hvordan du hurtigst restituerer fra træning]({% link _posts/2020-05-28-restitutionstid.md %}).
 
 Det skal selvfølgelig være dig frit for at købe recovery boots, hvis du synes de er behagelige at have på efter træning, og du får en god fornemmelse i kroppen. Du kan fx tjekke **hvad priserne på _recovery boots_** er hos [yourboots.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=71899&htmlurl=https://yourboots.dk/valg-af-maskine/){: rel='sponsored nofollow noopener' }, hos [www.denintelligentekrop.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38097&htmlurl=https://www.denintelligentekrop.dk/reecover-recovery-boots-pro6-portable-6-kamre?c=6303){: rel='sponsored nofollow noopener' } eller hos [optimasport.dk](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=55636){: rel='sponsored nofollow noopener' }.
-
-## Læs flere artikler om restitution
-
-<div class="feature__wrapper">
-
-{% assign site_posts = site.posts | where: "tags", "restitution" | sort: "last_modified_at" | reverse %}
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
 
 ## Køb recovery boots og vakuum bukser
 

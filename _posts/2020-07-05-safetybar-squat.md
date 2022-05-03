@@ -3,7 +3,7 @@ title: "Safety Bar Squat: Hvilken safety squat bar kan anbefales?"
 permalink: /safety-bar-squats/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1534368575702-7c65b7474f91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=5
+  overlay_image: https://images.unsplash.com/photo-1534368575702-7c65b7474f91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
   teaser: https://images.unsplash.com/photo-1534368575702-7c65b7474f91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: "Ikke alle safety bars er skabt ens. Vælg den rigtige safety bar til din squat!"
 category:
@@ -13,17 +13,9 @@ tags:
   - træningsøvelse
 last_modified_at: 2020-07-05T21:49:14Z
 toc: true
-feature_row:
-  - image_path: https://www.mmashop.dk/image/cache/data/lager opdate/push-up-barskampsportsudstyrblitz-394-600x600.jpg
-    alt: "Push Up Bars til træning af armbøjninger, armstrækninger og pushups"
-    title: "Push Up Bars"
-    excerpt: "Gør dine armstrækninger mere effektive, med Push Up Bars. Dine armbøjninger kan blive dybere og du belaster ikke håndleddet på samme måde, som ved almindelige push ups."
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=32502&htmlurl=http://www.mmashop.dk/index.php?route=product/product&product_id=394
-    btn_label: "Tjek pris hos MMAShop"
-    btn_class: "btn--success"
-    rel: sponsored nofollow noopener
 gallery:
-  - image_path: https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=5
+  - image_path: https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
+    url: https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
     alt: "Håndtag til at lave armbøjninger, armstrækninger og pushups"
     title: "Håndtag til at lave armbøjninger, armstrækninger og pushups"
 breadcrumbs: true
@@ -37,7 +29,7 @@ Polstringen på en safety bar gør, at stangen ligger højere på nakken end en 
 
 Typisk vil du derfor med en safety bar squatte lidt mere oprejst lidt ligesom du gør i en _front squat_.
 
-Chris Duffin fra Kabuki Strength [siger, at en safety squat bar gør det meget lettere for folk](https://www.spreaker.com/user/anders_nedergaard/236-chris-duffin_1), der har problemer med at komme dybt ned i en almindelig _back squat_ har færre problemer med at få rigeligt med dybde på en safety bar squat med en god teknik.
+[Chris Duffin](https://www.spreaker.com/user/anders_nedergaard/236-chris-duffin_1) fra Kabuki Strength siger, at en safety squat bar gør det meget lettere for folk, der har problemer med at komme dybt ned i en almindelig _back squat_ har færre problemer med at få rigeligt med dybde på en safety bar squat med en god teknik.
 
 Når du laver front squat vil du efterhånden blive trukket lidt fremefter, særligt hvis du bliver træt i det øverste af ryggen og får problemer med at holde albuerne oppe.
 
@@ -47,7 +39,7 @@ Det samme sker ikke med safety squat stang, så det er lettere at lave mange gen
 
 {% include figure image_path="https://p6r9a9v8.stackpathcdn.com/wp-content/uploads/2017/11/IMG_0396-Edited_opt.jpg" caption="Yoke Safety Bar fra EliteFts. Kilde: [garagegymlab.com](https://garagegymlab.com/5-safety-squat-bar-benefits/)." alt="Yoke Safety Bar til Squat fra EliteFts" %}
 
-Simon fra [supertraining.dk](http://supertraining.dk/) anbefaler safety bars, men han er ikke så vild med [Charles Poliquins version af safety bar squats](http://supertraining.dk/180-charles-poliquin-master-of-bullshit/).
+Simon fra [supertraining.dk](http://supertraining.dk/) anbefaler safety bars, men han er ikke så vild med [Charles Poliquins version](http://supertraining.dk/180-charles-poliquin-master-of-bullshit/) af safety bar squats.
 
 Det handler nemlig om, at der skal være de rigtige vinkler i safety baren, så den har den rigtige balance på skuldrene.
 
@@ -73,7 +65,7 @@ Hvis du vil undersøge specifikationerne for den oprindelige safety squat bar, s
 
 Du kan også bruge safety baren til andre øvelser.
 
-- **Good mornings**. Stangens tyngdepunkt kommer tættere ind på kroppen end med en almindelige squat stang.
+- **[Good mornings](/oevelse/goodmorning/)**. Stangens tyngdepunkt kommer tættere ind på kroppen end med en almindelige squat stang.
 - **Etbensarbejde**. Safety baren er også anvendlig til lunges, split squats og stepups, fordi den har en god balance på skuldrene. Hvis du har brug for assistance, så kan du altså hjælpe dig selv undervejs ved at gribe fat i racket, når du laver etbensarbejde.
 
 ## Videnskabelig sammenligning med safety bar squats og alm. squats
@@ -142,7 +134,11 @@ Her kan du se forskellige måder, safety baren fra EliteFts kan bruges på.
 
 --- <cite>[Coop](https://www.garagegymreviews.com/the-best-safety-squat-bar)</cite>
 
-## Referencer til safety bar squats
+## Referencer
+
+<details markdown="1">
+  <summary>Se referencer</summary>
 
 - [Effects of the Safety Squat Bar on Trunk and Lower-Body Mechanics During a Back Squat](https://www.ncbi.nlm.nih.gov/pubmed/30363042). Hecker et al. (2018)
 - Meldrum R, DeBeliso M. [A Comparison of Back Squat & Safety Squat Bar on Measures of Strength, Speed, and Power in NCAA Division I Baseball Players](http://article.sapub.org/10.5923.j.sports.20180805.01.html).International Journal of Sport Science. 2018; 8(5): 137-144.
+</details>

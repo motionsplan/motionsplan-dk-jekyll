@@ -1,5 +1,6 @@
 ---
-title: &title "Anabolic Window: Hvad er facts om det åbne vindue? [2021]"
+title: &title "Anabolic Window: Hvad er facts om det åbne vindue?"
+seo_title: "Anabolic Window: Hvad er facts om det åbne vindue? [2022]"
 excerpt: "Lige efter træning er kroppen helt klar til at modtage næringsstoffer. Man taler ofte om _det åbne vindue_ eller på engelsk _the anabolic window_. Jeg har researchet lidt på, hvad det åbne vindue egentlig er?"
 permalink: /artikel/aabne-vindue-og-anabolic-window/
 redirect_from:
@@ -24,6 +25,8 @@ Lige efter træning er kroppen helt klar til at modtage næringsstoffer. Man tal
 Hvad er det åbne vindue? **Det åbne vindue eller anabolic window er et populært udtryk inden for sportsernæringen. Rationalet er, at man i det åbne vindue optager protein og kulhydrat rigtig hurtigt. Tidligere troede man, at det åbne vindue var et relativt snævert tidsrum, men nyere forskning viser at det snarere er et 4-6 timers vindue omkring din træning.**
 
 Det åbne vindue har i mange år været brugt meget, når man skulle rådgive omkring kost og ernæring i forhold til idræt. Rationalet har været, at jo hurtigere du tanker op efter træning, jo hurtigere restituerer du. Fornemmelsen har næsten også været, at hvis ikke du fik protein umiddelbart efter træning, så var der ingen gains.
+
+Derfor kan det **åbne vindue være en blandt [flere strategier til restitution]({% link _posts/2020-05-28-restitution.md %}).
 
 Der er ingen tvivl om, at kroppen under træning bruger kulhydrat, som efterfølgende skal bygges op ved at få tilført nyt kulhydrat til musklerne. Der er heller ingen tvivl om, at træning skaber mikroskopiske skader i muskelvævet, og at kroppen gerne vil respondere på træningen ved at genopbygge musklerne og vævet.
 
@@ -123,7 +126,7 @@ Hvis du træner lang tid efter dit seneste måltid, så vil det formentlig kunne
 
 ## Hvad spiser du så?
 
-Jeg har på et tidspunkt lært, at man lige efter kan optage 1 gram kulhydrat pr. kilo kropsvægt og 0,25 gram protein, hvilket i forhold til protein er lavere end anbefalingerne fra Aragon og Shoenfeld (2013).
+Jeg har på et tidspunkt lært, at man lige efter kan optage 1 gram kulhydrat pr. kg kropsvægt og 0,25 gram protein, hvilket i forhold til protein er lavere end anbefalingerne fra Aragon og Shoenfeld (2013).
 
 Jeg kan dog lige nu ikke finde studiet eller referencen, så brug meget gerne kommentarerne for at hjælpe med det.
 
@@ -131,23 +134,9 @@ Jeg kan dog lige nu ikke finde studiet eller referencen, så brug meget gerne ko
 
 Man skal nok ikke opfatte vinduet så snævert som man har gjort i nogle år. Der er et vindue, men det lukker ikke brat i efter et præcist tidsrum.
 
-Sørg for at få nok protein at spise omkring din træning, og det er også vigtigt at få genopfyldt glykogendepoterne. Hvis du har brug for hurtigt at få genopfyldt glykogendepoterne, så kan det måske betale sig at kigge lidt på det glykæmiske index.
+Sørg for at få nok protein at spise omkring din træning, og det er også vigtigt at få genopfyldt glykogendepoterne. Hvis du har brug for hurtigt at få genopfyldt glykogendepoterne, så kan det måske betale sig at kigge lidt på det glykæmiske index. Du kan ganske givet sænke [restitutionstiden](/restitutionstid/) ved at fylde depoterne op hurtigst muligt.
 
-## Læs flere artikler om restitution
-
-<div class="feature__wrapper">
-
-{% assign site_posts = site.posts | where: "tags", "restitution" | sort: "last_modified_at" | reverse %}
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
-  {% endfor %}
-{% endif %}
-
-</div>
-
-## Referencer om det åbne vindue
+## Referencer
 
 <details markdown="1">
   <summary>Se referencer om det åbne vindue</summary>

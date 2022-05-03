@@ -1,9 +1,10 @@
 ---
 title: &title "Udregn hvor meget vand du har i kroppen med vores beregner? 🚰"
+seo_title: "Udregn hvor meget vand du har i kroppen [Beregner]?"
 permalink: /vand-i-kroppen/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1867&q=5
+  overlay_image: https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
   teaser: https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
   alt: Photo by Jong Marshes on Unsplash
@@ -11,6 +12,7 @@ category:
   - Viden om
 tags:
   - fysiologi
+  - beregner
 last_modified_at: 2020-06-11T08:14:14Z
 toc: true
 ---
@@ -27,9 +29,9 @@ Jeg har samlet lidt tabeller og en beregner, så du kan udregne, hvor meget vand
 
 I starten af vores liv er knap tre-fjerdedele af vores kropsvægt vand, men den begynder at dale allerede i det første år.
 
-Den faldende vandprocent gennem årene er delvist fordi din fedtprocent typisk stiger med alderen. Fedtvæv indeholder mindre vand end den fedtfrie masse. Så din kropskomposition betyder en del for andelen af vand i kroppen.
+Den faldende vandprocent gennem årene er delvist fordi din [fedtprocent typisk stiger med alderen](/fedtprocent-normer/). Fedtvæv indeholder mindre vand end den fedtfrie masse. Så din kropskomposition betyder en del for andelen af vand i kroppen.
 
-De følgende [tabeller baseret på healthline.com over vand i kroppen](https://www.healthline.com/health/body-water-percentage#body-water-charts) repræsenterer den totale andel vand udgør af din kropsvægt, hvis du er inden for normalområdet.
+De følgende tabeller over vand i kroppen er baseret på [healthline.com](https://www.healthline.com/health/body-water-percentage#body-water-charts) repræsenterer den totale andel vand udgør af din kropsvægt, hvis du er inden for normalområdet.
 
 | | Mænd | Kvinder |
 |-|-|-|
@@ -68,7 +70,7 @@ På celleniveau fordeler vandet sig sådan:
 
 Omkring to-tredjedele af kroppens vand er inde i cellerne, mens resten er uden for cellerne. Mineraler og salte er med til at sikre den korrekte balance mellem ICF og ECF.
 
-Hvis du fx tager en DEXA-scanning eller en måling af din kropskomposition med bioimpedans, så får du et mål for den intracellulære og extracellulære vækse og en ratio mellem de to. Jeg har skrevet lidt om [bioimpedans-målinger, hvis du er interesseret i at læse det]({% link _posts/2019-10-14-fedtprocent-bioimpedans-inbody-570.md %}).
+Hvis du fx tager en DEXA-scanning eller en måling af din kropskomposition med bioimpedans, så får du et mål for den intracellulære og extracellulære væske og en ratio mellem de to. Jeg har skrevet lidt om [bioimpedans-målinger]({% link _posts/2019-10-14-fedtprocent-bioimpedans-inbody-570.md %}), hvis du er interesseret i at læse det.
 
 Den extracellulære til intracellulære væske ratio (E/I) varierer mellem 0,59 til 0,75 i raske voksne. Hvis du kommer uden for disse værdier, kan det være fordi du har inflammation i kroppen eller at du ikke har nok væske i kroppen.
 
@@ -110,8 +112,12 @@ Hvis det er rigtig varmt, og du drikker meget, så vær opmærksom på også at 
 
 Kroppen består altså af en rigtig stor del vand. Jeg har skrevet et andet indlæg, der besvarer spørgsmålet: [Hvor meget vand skal du drikke om dagen?]({% link _posts/2020-12-14-hvor-meget-vand-om-dagen.md %}).
 
-## Referencer om vand i kroppen
+## Referencer
+
+<details markdown="1">
+  <summary>Se referencer</summary>
 
 - Lee, Jee Young, Han Sung Ryu, Sung Soo Yoon, Eun Hye Kim, og Seong Woo Yoon. 2019. “Extracellular-to-Intracellular Fluid Volume Ratio as a Prognostic Factor for Survival in Patients With Metastatic Cancer”. Integrative Cancer Therapies 18 (maj). <https://doi.org/10.1177/1534735419847285>.
 - Watson, P. E., I. D. Watson, og R. D. Batt. 1980. “Total Body Water Volumes for Adult Males and Females Estimated from Simple Anthropometric Measurements”. The American Journal of Clinical Nutrition 33 (1): 27–39. <https://doi.org/10.1093/ajcn/33.1.27>.
 - [What Is the Average (and Ideal) Percentage of Water in Your Body?](https://www.healthline.com/health/body-water-percentage#maintenance)
+</details>

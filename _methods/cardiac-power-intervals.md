@@ -1,9 +1,13 @@
 ---
 layout: single
 title: "Cardiac Power Intervals"
+permalink: /metode/cardiac-power-intervals/
 excerpt: "I Cardiac Power Intervaller skal du drive din puls op til det maksimale niveau i 20-30 sekunder og holde den der. Cardiac Power Intervals skal forbedre hjertets evne til at trække sig sammen ved den højeste pulsfrekvens og forbedre ilttilgængeligheden ved maksimalt arbejde."
+header:
+  teaser: /assets/images/kondition/cardiac-power.jpg
 tags:
   - conditioning
+  - aerob træning
 rpe: 9-10
 intensity: Max
 time: 1-2 min - keep HRmax for 20-30s rep; Pause 3-5 min
@@ -48,3 +52,36 @@ Du kan se fremgang med metoden i den distance atleten kan udføre i de enkelte g
 {% if page.video %}
   {% include video provider=page.video.provider id=page.video.id %}
 {% endif %}
+
+
+**På Vejle Idrætshøjskole er vi ved at beskrive forskellige metoder til træning. Denne side er under udarbejdelse. Hvis du vil hjælpe med beskrivelsen, så er det meget værdsat.**
+
+{% if page.header.teaser %}
+  {% include figure image_path=page.header.teaser %}
+{% endif %}
+
+{% if page.video %}
+  {% include video provider=page.video.provider id=page.video.id %}
+{% endif %}
+
+## Hvad er {{ page.title }}?
+
+## Hvad er formålet med {{ page.title }}?
+
+## Hvordan udføres {{ page.title }}?
+
+### Hvor lange arbejdsperioderne?
+
+### Hvilken intensitet udføres arbejdsperioderne med?
+
+### Hvor lang tid træner man typisk {{ page.title }}?
+
+### Hvor lange er pausen i {{ page.title }}?
+
+### Hvordan ser pulsen ud, når du laver metoden?
+
+## Hvor ofte kan man træne {{ page.title }}?
+
+## Hvordan tester du om træningsmetoden har givet fremgang?
+
+## Eksempler {{ page.title }}

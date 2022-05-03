@@ -8,7 +8,7 @@ redirect_from:
   - /artikel/verdens-korteste-styrkeprogram/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1520948013839-62020f374478?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=5
+  overlay_image: https://images.unsplash.com/photo-1520948013839-62020f374478?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
   teaser: https://images.unsplash.com/photo-1520948013839-62020f374478?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 tags:
@@ -52,7 +52,7 @@ Fx [squat](/squat/) og [lunges](/lunges/) - [Se flere knædominerede øvelser]({
 
 Find hoftedominante øvelser der især udfordrer musklerne omkring baglår og hofte og nederste ryg.
 
-Fx [dødløft](/doedloeft) og [rumænsk dødløft]({% link _exercises/doedloeft-romanian-43.md %}) - [se flere hoftedominante øvelser]({% link _pages/exercises-tag-hip-dominant.md %}).
+Fx [dødløft](/doedloeft/) og [rumænsk dødløft]({% link _exercises/doedloeft-romanian-43.md %}) - [se flere hoftedominante øvelser]({% link _pages/exercises-tag-hip-dominant.md %}).
 
 ### Presøvelser for arme og bryst
 
@@ -64,7 +64,7 @@ Fx [armstrækning]({% link _posts/2020-07-05-pushups.md %}), [dips](/oevelse/dip
 
 Find øvelser hvor du starter med hænderne væk fra kroppen og trækker en modstand til dig. Du skal gøre det både lodret og vandret. Det betyder at du skal vælge to øvelser i denne gruppe.
 
-Fx [pullups](/oevelse/pullup) og [rows](/oevelse/roning-foroverboejet/) - [Se flere trækøvelser]({% link _pages/exercises-tag-pull.md %}).
+Fx [pullups](/oevelse/pullup/) og [rows](/oevelse/bent-over-rows-bor/) - [Se flere trækøvelser]({% link _pages/exercises-tag-pull.md %}).
 
 ### Træning af kropsstammen og core
 
@@ -141,7 +141,7 @@ Så har du det du behøver for at lave et varieret helkropsprogram. For at få d
 
 Vil du også gerne have maksimalt udbytte af færrest mulige øvelser? Ofte afsætter jeg kun den absolut nødvendige tid til styrketræning, og det stiller høje krav til øvelsesvalget. Vi har derfor overvejet, hvilke øvelser vi vil anbefale, der rammer hele kroppen. Vi har valgt at lave en normal version og en avanceret udgave.
 
-- **Normale version**. Se [det kompakte helkropsprogram](/node/435/) med øvelser alle kan magte i en eller anden udformning. Det kan sagtens være, at man skal have makkerhjælp eller vælge en alternativ øvelse.
+- **Normale version**. Se [det kompakte helkropsprogram](/program/kompakt-helkropsprogram-normal/) med øvelser alle kan magte i en eller anden udformning. Det kan sagtens være, at man skal have makkerhjælp eller vælge en alternativ øvelse.
 - **Avancerede udgave**. Se [det avancerede helkropsprogram](/node/434/) med virkelig avancerede øvelser, der stiller ekstremt store krav til både teknik, koordination og styrke.
 
 ## Eksempler på et fuldkropsprogrammer
@@ -166,6 +166,6 @@ Rigtig mange af de [klassiske træningsprogrammer]({% link _pages/trainingprogra
 
 {% endcomment %}
 
-## Referencer om helkropsprogram
+## Referencer
 
 - Lou Schuler og Alwyn Cosgrowe (2006): The New Rules of Lifting. Six Basic Moves for Maximum Muscle, Penguin Books.

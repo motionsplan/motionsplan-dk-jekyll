@@ -24,7 +24,7 @@ toc: true
 
 Plyometrisk træning er en måde at træne _stretch shortening cycle (SSC)_. Det kræver en fornuftig progression at træne plyometriske øvelser. Her er fire enkle trin til, hvordan du kan komme i gang med at træne plyometri.
 
-Plyometrisk træning kan være hårdt for kroppen. Derfor er det en god ide at bygge træningen op i fornuftige blokke. Plyometrisk træning kan både være 
+Plyometrisk træning kan være hårdt for kroppen. Derfor er det en god ide at bygge træningen op i fornuftige blokke.
 
 Schmidtbleicher (1992) foreslår, at man kan klassificere _stretch shortening cycle (SSC)_ som enten langsom eller hurtig. Den **hurtige SSC** er karakteriseret med en kort sammentrækningstid på under 0,25 sekunder og mindre vinkler i hofte, knæ og ankler. Et typisk eksempel på dette vil være _depth jumps_ eller et _drop jump_.
 

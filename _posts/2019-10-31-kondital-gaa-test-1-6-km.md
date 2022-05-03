@@ -83,10 +83,10 @@ Når du har lavet testen, så får du et tilnærmet kondital. Du kan sammenligne
 
 Du kan lade 1,6 km gåtesten være en del af dit mål om at komme i bedre form. Du kan også udregne, hvor meget [energi og kalorier du bruger på at gå](/forbraending-ved-gaa-gang/). Jeg kan godt lide at motivere mig selv ved at [tælle mine daglige skridt]({% link _posts/2021-01-01-tael-skridt.md %}). Måske er du også interesseret i at finde ud af, [hvor langt 10.000 skridt er, og hvor mange skridt, du går på en kilometer](/skridt-pr-km-10000/).
 
-## Referencer til 1,6 km gåtest
+## Referencer
 
 <details markdown="1">
-  <summary>Se referencer om 1,6 km gåtest</summary>
+  <summary>Se referencer</summary>
 
 - Kline, G. M., J. P. Porcari, R. Hintermeister, P. S. Freedson, A. Ward, R. F. McCarron, J. Ross, og J. M. Rippe. 1987. “Estimation of VO2max from a One-Mile Track Walk, Gender, Age, and Body Weight”. Medicine and Science in Sports and Exercise 19 (3): 253–59.
 - Lunt, Heather, Daniel Roiz De Sa, Julia Roiz De Sa, og Adrian Allsopp. 2013. “Validation of One-Mile Walk Equations for the Estimation of Aerobic Fitness in British Military Personnel under the Age of 40 Years”. Military Medicine 178 (7): 753–59. <https://doi.org/10.7205/MILMED-D-12-00369>.

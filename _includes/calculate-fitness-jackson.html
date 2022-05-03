@@ -24,36 +24,36 @@
                 <input type="number" min="20" max="200" name="jackson_weight" id="jackson_weight" placeholder="Vægt i kg" required>
             </label>
         </div>
-        <fieldset>
-            <legend>Fysisk aktivitetsniveau for de seneste 6 måneder</legend>
-            <p>Does not participate regularly in programed recreation, sport, or physical activity.</p>
-            <label class="radio">
-                <input type="radio" name="par" value="0" required> Avoids walking or exercise (for example, always uses elevators, drives whenever possible instead of walking).
-            </label>
-            <label class="radio">
-                <input type="radio" name="par" value="1"> Walks for pleasure, routinely uses stairs, occasionally exercises sufficiently to cause heavy breathing or perspiration.
-            </label>
-            <p>Participates regularly in recreation or work requiring modest physical activity (such as golf, horseback riding, calisthenics, gymnastics, table tennis, bowling, weight lifting, or yard work).</p>
-            <label class="radio">
-                <input type="radio" name="par" value="2"> 10–60 minutes per week
-            </label>
-            <label class="radio">
-                <input type="radio" name="par" value="3"> Over 1 hour per week
-            </label>
-            <p>Participates regularly in heavy physical exercise (such as running or jogging, swimming, cycling, rowing, skipping rope, running in place) or engages in vigorous aerobic type activity (such as tennis, basketball, or handball).</p>
-            <label class="radio">
-                <input type="radio" name="par" value="4"> Runs less than 1 mile per week or spends less than 30 minutes per week in comparable physical activity.
-            </label>
-            <label class="radio">
-                <input type="radio" name="par" value="5"> Runs 1–5 miles per week or spends 30–60 minutes per week in comparable physical activity.
-            </label>
-            <label class="radio">
-                <input type="radio" name="par" value="6"> Runs 5–10 miles per week or spends 1–3 hours per week in comparable physical activity.
-            </label>
-            <label class="radio">
-                <input type="radio" name="par" value="7"> Runs more than 10 miles per week or spends more than 3 hours per week in comparable physical activity.
-            </label>
-        </fieldset>
+    </fieldset>
+    <fieldset>
+        <legend>Fysisk aktivitetsniveau for de seneste 6 måneder</legend>
+        <p>Deltager ikke jævnligt i fysisk aktivitet eller sport.</p>
+        <label class="radio">
+            <input type="radio" name="par" value="0" required> Undgår at gå eller motion (fx tager altid elevatorerne eller kører kører i bil i stedet for at gå).
+        </label>
+        <label class="radio">
+            <input type="radio" name="par" value="1"> Går for fornøjelsens skyld, tager jævnligt trapperne og motionerer engang imellem tilstrækkeligt til at blive forpustet og sveder.
+        </label>
+        <p>Deltager jævnligt i aktiviteter eller arbejde, der kræver moderat fysisk aktivitet (fx golf, ridning, calisthenics, gymnastik, bordtennis, bowling, styrketræning eller havearbejde).</p>
+        <label class="radio">
+            <input type="radio" name="par" value="2"> 10–60 minutter om ugen
+        </label>
+        <label class="radio">
+            <input type="radio" name="par" value="3"> Over 1 time om ugen
+        </label>
+        <p>Deltager jævnligt i hård fysisk aktivitet (fx løb eller jogging, svømning, cykling, roning, sjipning, eller løb på stedet) eller deltager i hårde aerobe aktiviteter (som tennis, basketball, eller håndbold).</p>
+        <label class="radio">
+            <input type="radio" name="par" value="4"> Løber mindre end 1,6 km om ugen eller bruger mindre end 30 minutes på sammenlignelig fysisk aktivitet.
+        </label>
+        <label class="radio">
+            <input type="radio" name="par" value="5"> Løber 1,5-8 km om ugen eller bruger 30-60 minutter om ugen på sammenlignelig fysisk aktivitet.
+        </label>
+        <label class="radio">
+            <input type="radio" name="par" value="6"> Løber 8-16 km om ugen eller bruger 1-3 timer på sammenlignelig fysisk aktivitet.
+        </label>
+        <label class="radio">
+            <input type="radio" name="par" value="7"> Løber mere end 16 km om ugen eller bruger mere end 3 timer på sammenlignelig fysisk aktivitet.
+        </label>
         <input type="submit" value="Beregn">
     </fieldset>
     <fieldset class="results">
@@ -63,5 +63,6 @@
             </label>
         </div>
     </fieldset>
+    <p>Spørgsmålene er oversat fra <a href="https://www.topendsports.com/testing/tests/non-exercise.htm">Jackson (1990)</a> af mig. Hvis du har en bedre oversættelse, så skriv endelig.</p>
     {% include calculator-footer.html %}
 </form>

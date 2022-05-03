@@ -49,18 +49,21 @@ feature_row:
   - image_path: https://www.fotoagent.dk/single_picture/11803/138/custom1/Relax_Fitness_Leg_Press_PL1008(1).jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/relax-leg-press-pl1008/
     title: Siddende benpres
-    btn_label: Tjek pris Fitnessgruppen*
+    btn_label: Tjek pris
     btn_class: btn--success
+    rel: sponsored nofollow noopener
   - image_path: https://www.fotoagent.dk/single_picture/11803/138/mega/Relax_PL1211.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/relax-seated-leg-press/
     title: 45 graders extension
-    btn_label: Tjek pris Fitnessgruppen*
+    btn_label: Tjek pris
     btn_class: btn--success
+    rel: sponsored nofollow noopener
   - image_path: https://www.fotoagent.dk/single_picture/11803/138/custom1/Relax_PTT0116.jpg
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/relax-45-degree-leg-press/
     title: Leg press
-    btn_label: Tjek pris Fitnessgruppen*
+    btn_label: Tjek pris
     btn_class: btn--success
+    rel: sponsored nofollow noopener
 ---
 
 Benpres hedder også leg extension eller leg press på engelsk. Benpres foregår i maskine og er ikke så teknisk krævende. Derfor giver benpres mulighed for at udføre tung bentræning eller køre med en høj udmattelsesgrad under relativt sikre forhold.

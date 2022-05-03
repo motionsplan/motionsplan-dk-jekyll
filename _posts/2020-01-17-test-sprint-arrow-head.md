@@ -1,9 +1,9 @@
 ---
-title: &title "Arrowhead Test: Test din agility med arrowhead testen"
+title: &title "Arrowhead Test: Retningsskift og agilitytest"
 permalink: /arrowhead-test/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=5
+  overlay_image: https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
   teaser: https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
@@ -21,7 +21,7 @@ toc: true
 
 Arrowhead testen bruges til at teste atleters evne til at skifte retning, behændighed og agility. Arrowhead testen bruges bl.a. flittigt til at teste fodboldspillere.
 
-Formålet med arrowhead testen er at teste hastighed, accelleration, kropskontrol og evnen til at skifte retning med forskellige vinkler.
+Formålet med arrowhead testen er at teste hastighed, acceleration, kropskontrol og evnen til at skifte retning med forskellige vinkler.
 
 {% include video provider="youtube" id="Zdq6X4QlRg4" %}
 
@@ -63,6 +63,10 @@ Du kan arbejde med din eksplosivitet og teknikken ved retningsskift for at blive
 
 ## Referencer
 
+<details markdown="1">
+  <summary>Se referencer</summary>
+
 - [Topendsports.com](https://www.topendsports.com/testing/tests/arrowhead-agility-drill.htm)
 - Muniroglu, Surhat, og Erdem Subak. 2018. “[A Comparison of 5, 10, 30 Meters Sprint, Modified T-Test, Arrowhead and Illinois Agility Tests on Football Referees](https://files.eric.ed.gov/fulltext/EJ1182624.pdf)”. _Journal of Education and Training Studies_ 6 (8): 70. [https://doi.org/10.11114/jets.v6i8.3360](https://doi.org/10.11114/jets.v6i8.3360).
 - Rago, Vincenzo, João Brito, Pedro Figueiredo, Georgios Ermidis, Daniel Barreira, og António Rebelo. 2020. “The Arrowhead Agility Test: Reliability, Minimum Detectable Change, and Practical Applications in Soccer Players”. _Journal of Strength and Conditioning Research_ 34 (2): 483–94. [https://doi.org/10.1519/JSC.0000000000002987](https://doi.org/10.1519/JSC.0000000000002987).
+</details>

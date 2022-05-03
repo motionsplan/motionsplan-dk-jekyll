@@ -74,10 +74,10 @@ _Loaded carries_ handler meget enkelt om at samle en vægt op og begynde at gå 
 
 </div>
 
-## Referencer om loaded carries
+## Referencer
 
 <details markdown="1">
-  <summary>Se flere referencer om loaded carries</summary>
+  <summary>Se flere referencer</summary>
 
  - Mcgill SM, Karpowicz A, Fenwick CM & Brown SH (2009). Exercises for the torso performed in a standing posture: spine and hip motion and motor patterns and spine load. J Strength Cond Res 23(2). 455-64
 - Kolár P, Neuwirth J, Šanda J, Suchánek V, Svatá Z, Volejník J & Pivec M (2009). Analysis of diaphragm movement during tidal breathing and during its activation while breath holding using MRI synchronized with spirometry. Physiol Res 58. 383-392

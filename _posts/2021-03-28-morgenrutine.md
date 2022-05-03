@@ -6,7 +6,7 @@ title: En god morgenrutine kan hjælpe dig med mere overskud
 permalink: /morgenrutine-giver-overskud/
 seo_title: "Morgenrutine: 5 tips til at få mere overskud i hverdagen"
 header:
-  overlay_image: https://images.unsplash.com/photo-1489533119213-66a5cd877091?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=5
+  overlay_image: https://images.unsplash.com/photo-1489533119213-66a5cd877091?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
   teaser: https://images.unsplash.com/photo-1489533119213-66a5cd877091?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: En god morgenrutine kan hjælpe dig med mere overskud
 language: da
@@ -16,7 +16,7 @@ tags:
   - morgenrutine
 ---
 
-Kender du det, når man har svært ved at finde energien og overskuddet frem tidligt om morgenen? Det er der mange, som oplever, og det gælder især personer, som drømmer om at blive morgenmennesker. Men faktisk behøver det ikke at være afgørende, om du er A- eller B-menneske. En god [morgenrutine](https://www.chrichri.dk/se-hvordan-en-god-morgenrutine-kan-paavirke-din-dag-2/) kan nemlig hjælpe dig godt på vej.
+Kender du det, når man har svært ved at finde energien og overskuddet frem tidligt om morgenen? Det er der mange, som oplever, og det gælder især personer, som drømmer om at blive morgenmennesker. Men faktisk behøver det ikke at være afgørende, om du er A- eller B-menneske. En god [morgenrutine](https://www.chrichri.dk/lifebeyond/lifestyle/2017/03/se-hvordan-en-god-morgenrutine-kan-paavirke-din-dag-2/) kan nemlig hjælpe dig godt på vej.
 
 Jeg har samlet fem tips til en god morgenrutine:
 
@@ -67,9 +67,9 @@ Der er flere personer, som har svært ved at komme i gang med morgentræning ell
 
 Måske er du ikke vild med at spørge om hjælp, men det kan være den bedste vej frem. Faktisk er det at spørge om hjælp et tegn på at være en person, der går op i at yde sit bedste. Du kan forbedre din modstandsdygtighed, fremme dit mentale velvære og opnå personlig udvikling, når du beder en anden person om hjælp.
 
-Du behøver ikke at have dårlig samvittighed over at træne forkert. Faktisk viser undersøgelser, at 9 ud af 10 personer træner forkert. Det kan f.eks. være med hensyn til en ukorrekt placering af benene, når der udføres squats, som er blevet enormt populære i løbet af de seneste år. Desuden handler det også om at træne med en korrekt kropsholdning, så du forebygger skader og sikrer de bedst mulige resultater med din træning.
+Du behøver ikke at have dårlig samvittighed over at træne forkert. Faktisk viser undersøgelser, at 9 ud af 10 personer træner forkert. Det kan fx være med hensyn til en ukorrekt placering af benene, når der udføres squats, som er blevet enormt populære i løbet af de seneste år. Desuden handler det også om at træne med en korrekt kropsholdning, så du forebygger skader og sikrer de bedst mulige resultater med din træning.
 
-En personlig træner kan hjælpe dig med at fokusere på både dine styrker og dine svagheder. Hvis du ikke har de økonomiske midler til at betale for den form for hjælp, er der naturligvis andre gode alternativer. Du kan f.eks. optage dig selv, når du træner og analysere din position. Det kan også være, at du har en god ven eller veninde, som har trænet i flere år. Her vil det være fornuftigt at spørge denne person om hjælp. Desuden kan du også finde et hav af videoer på YouTube med tutorials til at komme i gang med forskellige former for træning.
+En personlig træner kan hjælpe dig med at fokusere på både dine styrker og dine svagheder. Hvis du ikke har de økonomiske midler til at betale for den form for hjælp, er der naturligvis andre gode alternativer. Du kan fx optage dig selv, når du træner og analysere din position. Det kan også være, at du har en god ven eller veninde, som har trænet i flere år. Her vil det være fornuftigt at spørge denne person om hjælp. Desuden kan du også finde et hav af videoer på YouTube med tutorials til at komme i gang med forskellige former for træning.
 
 ## 5. Drop de negative tanker om din manglende morgenrutine
 

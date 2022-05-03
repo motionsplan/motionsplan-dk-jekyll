@@ -60,9 +60,9 @@ Noget af det vigtigste for at undgå rygproblemer er ifølge Stuart McGill, at d
 
 For at træne ryggen foreslår Stuart McGill følgende øvelser:
 
-- [Curlup](/oevelse/maveoevelse-stuart-mcgill-curlup), [planken](/oevelse/planken) eller for de avancerede [stir the pot](/oevelse/stir-pot).
-- [Side bridge](/oevelse/side-bridge)
-- [Birddog](/oevelse/birddog)
+- [Curlup](/oevelse/maveoevelse-stuart-mcgill-curlup/), [planken](/oevelse/planken/) eller for de avancerede [stir the pot](/oevelse/stir-pot/).
+- [Side bridge](/oevelse/side-bridge/)
+- [Birddog](/oevelse/birddog/)
 
 ## Test om du er i farezonen for at få ondt i ryggen
 
@@ -138,7 +138,7 @@ Ikke nok reviews for dig? Okay: et review fra 2011 af otte andre reviews støtte
 
 Husk: Intet af dette betyder, at ingen nogensinde vil skade deres ryg ved at løfte noget på arbejdet, men korrelationen til løfteteknik er langtfra så indlysende som alle antager (selv eksperterne antog det indtil de seneste år).
 
-Sandsynligt er der store X-faktorer, som vi ikke kender den præcise vigtighed af såsom [stress]({% link _posts/2021-11-10-stress.md %}), søvn, kost, nære relationer mv.
+Sandsynligt er der store X-faktorer, som vi ikke kender den præcise vigtighed af såsom [stress]({% link _posts/2021-11-10-stress.md %}), [søvn](/soevn/), kost, nære relationer mv.
 
 HVAD MED STØTTEKORSETTER OG BÆLTER?
 ”Ingen løfter mere end bodybuildere og styrkeløftere. Og bodybuildere bruger de store tykke bælter af en eller anden grund! (Som de fleste hobby-bodybuildere vil forklare med skadesforebyggelse, mens det for styrkeløftere også omhandler øget performance). Hvis det giver mening for dem, må det også give mening i erhvervsmæssig sammenhæng.” Måske.

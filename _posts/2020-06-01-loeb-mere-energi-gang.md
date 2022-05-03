@@ -15,6 +15,7 @@ tags:
   - sammenligning
   - energiforbrug
   - løb
+  - beregner
 toc: true
 last_modified_at: 2021-05-10T08:14:14Z
 faq:
@@ -253,7 +254,7 @@ Når du træner tager du energi fra dine glykogen og fedtdepoter. Det kræver en
 
 Når man sammenligninger forbrænding ved gang og løb, så bruger man typisk flere kalorier ved at løbe. Man forbrænder ganske enkelt mere ved løb end ved gang.
 
-> Hvis vi kigger på energiforbruget pr. minut i stedet for pr. km, så vil man typisk forbrænde mindst 4 gange så meget ved at løbe. Hvis vi f.eks. sammenligner gang ved 5 km/t og løbe ved 10 km/t, så vil man tilbagelægge det dobbelte antal km på den samme tid. Hvilket skal sammenholdes med at man også har forbrændt ca. det dobbelte pr. km.
+> Hvis vi kigger på energiforbruget pr. minut i stedet for pr. km, så vil man typisk forbrænde mindst 4 gange så meget ved at løbe. Hvis vi fx sammenligner gang ved 5 km/t og løbe ved 10 km/t, så vil man tilbagelægge det dobbelte antal km på den samme tid. Hvilket skal sammenholdes med at man også har forbrændt ca. det dobbelte pr. km.
 
 --- <cite>[Morten Zacho](http://web.archive.org/web/20150120003941/http://www.motion-online.dk/konditionstraening/kondition_-_artikler/du_forbraender_flere_kalorier_ved_at_loebe_end_ved_at_gaa/){:rel="nofollow"}</cite>
 
@@ -281,10 +282,9 @@ Jeg har lavet en tabel med [MET-værdier]({% link _posts/2020-07-24-met.md %}), 
 
 {% include faq.html %}
 
-## Referencer om kalorieforbrænding ved gang og løb
 
 <details markdown="1">
-  <summary>Se referencer om kalorieforbrænding ved gang og løb</summary>
+  <summary>Se referencer</summary>
 
 - McArdle, William D., og Frank I. Katch. 2010. Essential Exercise Physiology 4th. 4th revised international ed edition. Philadelphia: Lippincott Williams and Wilkins.
 - Wilkin, Linda D., Antoinette Cheryl, og Bryan L. Haddock. 2012. “Energy Expenditure Comparison between Walking and Running in Average Fitness Individuals”. Journal of Strength and Conditioning Research 26 (4): 1039–44. <https://doi.org/10.1519/JSC.0b013e31822e592c>.

@@ -89,6 +89,10 @@ Hvis du gerne vil have en beregner af energibehov på engelsk, så kan du finde 
 
 [Avanceret stofskifte beregner]({% link _posts/2019-11-01-stofskifteberegner-avanceret.md %}){: .btn .btn--large .btn--success }
 
-## Referencer om stofskifte, energibehov og energiforbrug
+## Referencer
+
+<details markdown="1">
+  <summary>Se referencer</summary>
 
 - [Nordic Nutrition Recommendations 2012](https://www.norden.org/en/publication/nordic-nutrition-recommendations-2012)
+</details>

@@ -6,7 +6,7 @@ redirect_from:
 excerpt: "Kommer jeg i bedre form og kondition? Udregn dit kondital og maksimale iltoptagelse (VO2max) med vores beregnere og se om du får et bedre kondital og fremgang i træningen."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1960&q=5
+  overlay_image: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
   teaser: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
   overlay_filter: 0.2
@@ -68,7 +68,7 @@ Her vil vi først og fremmest beskrive nogle _indirekte_ muligheder for at beste
 - **Hold styr på tiderne**. Hvis du over tid bruger de samme distancer og ruter, så kan du se om tiderne bliver bedre hen ad vejen.
 - **Lav maksimal test**. Hvis du laver en maksimal test på fx en kondicykel, så kan du estimere dit kondital.
 - **Lav en submaximal test**. En submaximal kan være ret god til at bestemme om det går fremad med konditionen og formen. Hvis du fx kører med en bestemt belastning i et bestemt tidrum, så kan du følge din puls. Hvis du arbejder med lavere puls i forhold til den samme belastning, er du kommet i bedre form.
-- **Mål din hvilepuls**. Teoretisk set falder din hvilepuls, hvis du kommer i bedre kondition, fordi hjertet kan pumpe mere blod ud pr. sammentrækning og derfor i hvile ikke behøver at slå så mange gange.
+- **Mål din hvilepuls**. Teoretisk set falder din [hvilepuls](/hvilepuls/), hvis du kommer i bedre kondition, fordi hjertet kan pumpe mere blod ud pr. sammentrækning og derfor i hvile ikke behøver at slå så mange gange.
 
 ## Hvad er et godt kondital?
 
@@ -133,10 +133,10 @@ Du skal vedligeholde din kredsløbsfunktion og derved din kondition hele livet. 
 
 [Hvad er et godt kondital?](/kondital/){: .btn .btn--large .btn--info }
 
-## Referencer om konditest
+## Referencer
 
 <details markdown="1">
-  <summary>Se referencer om kondition og tests</summary>
+  <summary>Se referencer</summary>
 
 - Padilla, Sabino, Iñigo Mujika, Francisco Angulo, og Juan Jose Goiriena. 2000. “Scientific approach to the 1-h cycling world record: a case study”. Journal of Applied Physiology 89 (4): 1522–27. <https://doi.org/10.1152/jappl.2000.89.4.1522>.
 - Mujika, Iñigo. 2012. “The Cycling Physiology of Miguel Indurain 14 Years after Retirement”. International Journal of Sports Physiology and Performance 7 (4): 397–400.

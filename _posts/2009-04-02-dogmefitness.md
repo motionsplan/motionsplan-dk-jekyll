@@ -1,5 +1,6 @@
 ---
 title: &title "Træning i naturen: Outdoor fitness, Dogmefitness og Naturfitness"
+seo_title: "Træning i naturen: Outdoor fitness og naturfitness"
 permalink: /artikel/dogmefitness/
 language: da
 header:
@@ -53,6 +54,6 @@ Hvordan gør du?
 {% assign exercises = site.exercises | where: "tags", "outdoor" | sort: "title" %}
 {% include exercises-by-search title="Inspiration til outdoor træning" exercises=exercises %}
 
-## Referencer om outdoor fitness
+## Referencer
 
 - [Naturstyrelsen med Naturfitness](https://naturstyrelsen.dk/naturoplevelser/aktiviteter/naturfitness/)

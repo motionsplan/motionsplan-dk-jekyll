@@ -3,7 +3,7 @@ title: &title "Hvor hurtigt forsvinder muskler, muskelmasse og muskelstyrke?"
 permalink: /atrofi-muskelmasse-muskelstyrke/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1519156062512-8e563047dc6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1902&q=5
+  overlay_image: https://images.unsplash.com/photo-1519156062512-8e563047dc6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
   teaser: https://images.unsplash.com/photo-1519156062512-8e563047dc6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
@@ -19,7 +19,7 @@ Jeg har haft en længere styrketræningspause, så jeg synes det er interessant 
 
 **Tilsyneladende kan både begyndere og trænede opretholde muskelstyrke og muskelmasse i omkring 2-3 uger uden træning, særligt hvis de sørger for ikke at være helt inaktiv i pauserne. De fleste forskningsresultater peger på, at muskelstørrelsen forsvinder før selve muskelstyrken går ned.**
 
-Styrketræning får musklerne til at vokse (hypertrofi), mens detræning får musklerne til at skrumpe igen (atrofi). Det er interessant at vide, hvor hurtigt musklerne forsvinder igen, når man holder pause fra sin træning?
+Styrketræning får musklerne til at vokse (hypertrofi), mens detræning får musklerne til at skrumpe igen (atrofi). Vi har kigget på, [hvor hurtigt du kan bygge muskelmasse op]({% link _posts/2020-06-19-hurtigt-vokser-muskler.md %}), så det er også interessant at vide, hvor hurtigt musklerne forsvinder igen, når man holder pause fra sin træning?
 
 Men lad os først kigge lidt på fysiologien bag ved, at muskelmassen forsvinder, når man holder pause fra træningen.
 
@@ -45,7 +45,7 @@ Hvor meget muskelmasse man taber i en træningspause hænger naturligvis sammen 
 
 - **Træningserfaring**. Jo længere du har trænet kontinuerligt, jo længere kan du holde på muskelmassen (McMaster et al 2013).
 - **Graden af inaktivitet i pausen**. Desto højere aktivitetsniveau, du kan opretholde i træningspausen, desto længere kan du opretholde muskelstyrken og muskelmassen (McMaster et al 2013).
-- **Kosten**. Et proteinindtag på mere end 1 gram pr. kilo kropsvægt kan være med til at sænke hastighedden for tabet af styrke og muskelmasse (English et al 2010).
+- **Kosten**. Et proteinindtag på mere end 1 gram pr. kg kropsvægt kan være med til at sænke hastighedden for tabet af styrke og muskelmasse (English et al 2010).
 - **Alderen**. Med alderen ændrer hormonniveauerne sig. Særligt hvis du er mere end 60 år gammel, så vil tabet af muskelmasse gå hurtigere.
 
 Desuden er der formentlig forskel på, hvordan detræning påvirker begyndere og trænede.
@@ -163,6 +163,9 @@ Hvis du er interesseret, så har jeg skrevet et andet indlæg om, [hvad de fysio
 
 ## Referencer
 
+<details markdown="1">
+  <summary>Se referencer</summary>
+
 - Andersen, Lars L., Jesper L. Andersen, S. Peter Magnusson, Charlotte Suetta, Jørgen L. Madsen, Lasse R. Christensen, og Per Aagaard. 2005. “Changes in the Human Muscle Force-Velocity Relationship in Response to Resistance Training and Subsequent Detraining”. Journal of Applied Physiology (Bethesda, Md.: 1985) 99 (1): 87–94. <https://doi.org/10.1152/japplphysiol.00091.2005>.
 - Bonaldo, Paolo, og Marco Sandri. 2013. “Cellular and molecular mechanisms of muscle atrophy”. Disease Models & Mechanisms 6 (1): 25–39. <https://doi.org/10.1242/dmm.010389>.
 - Bone, Julia L., Megan L. Ross, Kristyen A. Tomcik, Nikki A. Jeacocke, Will G. Hopkins, og Louise M. Burke. 2017. “Manipulation of Muscle Creatine and Glycogen Changes Dual X-Ray Absorptiometry Estimates of Body Composition”. Medicine and Science in Sports and Exercise 49 (5): 1029–35. <https://doi.org/10.1249/MSS.0000000000001174>.
@@ -184,3 +187,4 @@ Hvis du er interesseret, så har jeg skrevet et andet indlæg om, [hvad de fysio
 - Seaborne, Robert A., Juliette Strauss, Matthew Cocks, Sam Shepherd, Thomas D. O’Brien, Ken A. van Someren, Phillip G. Bell, m.fl. 2018. “Human Skeletal Muscle Possesses an Epigenetic Memory of Hypertrophy”. Scientific Reports 8 (1): 1898. <https://doi.org/10.1038/s41598-018-20287-3>.
 - Staron, R. S., M. J. Leonardi, D. L. Karapondo, E. S. Malicky, J. E. Falkel, F. C. Hagerman, og R. S. Hikida. 1991. “Strength and Skeletal Muscle Adaptations in Heavy-Resistance-Trained Women after Detraining and Retraining”. Journal of Applied Physiology (Bethesda, Md.: 1985) 70 (2): 631–40. <https://doi.org/10.1152/jappl.1991.70.2.631>.
 - Taaffe, D. R., og R. Marcus. 1997. “Dynamic Muscle Strength Alterations to Detraining and Retraining in Elderly Men”. Clinical Physiology (Oxford, England) 17 (3): 311–24. <https://doi.org/10.1111/j.1365-2281.1997.tb00010.x>.
+</details>

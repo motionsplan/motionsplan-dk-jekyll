@@ -4,7 +4,7 @@ seo_title: "SMART-modellen: Nå dine mål med en målsætning [Eksempel]"
 permalink: /smart/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1506784983877-45594efa4cbe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1948&q=5
+  overlay_image: https://images.unsplash.com/photo-1506784983877-45594efa4cbe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
   teaser: https://images.unsplash.com/photo-1506784983877-45594efa4cbe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
   alt: Photo by Estée Janssens on Unsplash
@@ -137,7 +137,7 @@ Når du opstiller dit mål, skal du naturligvis overveje om det er realistisk. F
 
 Her er et par eksempler på **urealistiske målsætninger**:
 
-- Jeg vil gerne tabe mig 5 kilo på 5 dage med en [slankekur]({% link _posts/2020-09-04-slankekur.md %})
+- Jeg vil gerne tabe mig 5 kg på 5 dage med en [slankekur]({% link _posts/2020-09-04-slankekur.md %})
 - Jeg vil løbe fem kilometer på 18 minutter om to måneder - og lige nu løber jeg kilometer på 25 minutter
 
 Lad os prøve at gøre det til **realistiske målsætninger**.
@@ -145,7 +145,7 @@ Lad os prøve at gøre det til **realistiske målsætninger**.
 Jeg er generelt imod målsætninger om at tabe sig. Det er langt mere inspirerende og givende at tænke på at blive stærk, eksplosiv, udholdende, få mere energi. Samtidig er vægten et dårligt mål, da den svinger op og ned, og mange fx oplever at [tage på når de starter med at træne]({% link _posts/2020-05-25-tager-paa-ved-traening.md %}). Men lad os bare tage udgangspunkt i ovenstående målsætning i eksemplet med at gøre et SMART-mål realistisk.
 {: .notice .notice--info }
 
-- Jeg vil tabe mig et halvt kilo om ugen, og så har jeg tabt 10 kilo om fem måneder
+- Jeg vil tabe mig et halvt kg om ugen, og så har jeg tabt 10 kg om fem måneder
 - Jeg vil gerne løbe 5 kilometer på 23 minutter om tre måneder og lige nu kan jeg løbe 5 kilometer på 25 minutter
 
 Så er målsætningen realistisk. Husk at en realistisk målsætning ikke behøver at være uambitiøs. I styrketræning kan man som begynder fx i dødløft sagtens drømme om en rigtig stor fremgang i styrke på relativt kort tid.

@@ -6,7 +6,7 @@ redirect_from:
   - /artikel/hvordan-skal-jeg-dosere-min-styrketraening/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1526408984842-5f1323d42469?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=5
+  overlay_image: https://images.unsplash.com/photo-1526408984842-5f1323d42469?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
   teaser: https://images.unsplash.com/photo-1526408984842-5f1323d42469?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
@@ -56,7 +56,7 @@ Hav en **plan**, **skriv planen ned** og **lav noter** om din træning.
 ## Træningslære
 
 - 20% af indsatsen giver 80% af resultaterne
-- Træning og [restitution]({% link _posts/2020-05-28-restitutionstid-alder.md %}) går hånd i hånd.
+- Træning og [restitution]({% link _posts/2020-05-28-restitution.md %}) går hånd i hånd.
 - Ingen resultater uden at du har styr på, hvordan restitution virker.
 - Det samlede stress på kroppen afgør, hvor gode resultaterne bliver.
 
@@ -108,7 +108,7 @@ Nedenstående figur illustrerer at så snart du går i gang med at træne, så f
 
 Desto mere trænet du er, desto vanskeligere bliver det at få fremgang, men til gengæld kan du holde til mere.
 
-Hvor meget belastning kroppen kan holde til afhænger af mange ting. Fx vil øget stress i andre dele af livet end træning flytte kurven nedad, mens god kost, restitution og ordentlig søvn kan flytte kurven opad.
+Hvor meget belastning kroppen kan holde til afhænger af mange ting. Fx vil øget stress i andre dele af livet end træning flytte kurven nedad, mens god kost, restitution og [ordentlig søvn](/soevn/) kan flytte kurven opad.
 
 {% include figure image_path="/assets/images/training/response-training.svg" caption="" %}
 
@@ -213,7 +213,7 @@ Du skal lære at knække i hoften med bløde knæ og hovedet i forlængelse af k
 
 Sprint er en god øvelse, som sagtens kan laves uden at du går all-in, men udfører den med god teknik. Inden du overhovedet går i gang med at sprinte, skal du øve dig i, hvordan du stopper på en god og sikker måde. Der kan sprintes på trapper, i stiger eller bare almindelig sprint. Der er en skadesrisiko ved at sprinte, hvis du ikke er ordentlig varm eller gør det for meget. Nedenstående sprinter er tæt på at være i den perfekte position.
 
-{% include figure image_path="https://images.unsplash.com/photo-1541252260730-0412e8e2108e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=622&q=5" caption="" %}
+{% include figure image_path="https://images.unsplash.com/photo-1541252260730-0412e8e2108e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=5" caption="" %}
 
 - Albueleddene holdes i 90 grader.
 - Håndfladerne er åbne.
@@ -395,7 +395,7 @@ Længden på disse pauser er naturligvis bare retningslinjer. Du skal lytte til 
 
 Første gang du træner prøver du stille og roligt gennem opvarmningssættene at ramme en vægt, som passer i det rep range, du har valgt. Du noterer jo hver gang nøjagtigt, hvor meget vægt du har på. Hvis du efterhånden i din træning bliver i stand til at løfte flere gentagelser, end dem du har besluttet dig for i din træning i alle sættene, kan du sætte mere vægt på stangen.
 
-En skematisk måde at gøre det på kan være med dobbelt progression. Første træning skal du forsøge at ramme den nedre margin i dit rep range, som antydet i nedenstående eksempel med 3 x 8-10 i squat. Progressionen de første par træninger er, at man kan tage lidt flere gentagelser. På #4. træning rammer løfteren øvre grænse i rep range. Næste gang skal der altså flere kilo på stangen (Bradsted: [Bliv stærkere med dobbelt progression](http://fitness-blog.dk/dobbelt-progression/)):
+En skematisk måde at gøre det på kan være med dobbelt progression. Første træning skal du forsøge at ramme den nedre margin i dit rep range, som antydet i nedenstående eksempel med 3 x 8-10 i squat. Progressionen de første par træninger er, at man kan tage lidt flere gentagelser. På #4. træning rammer løfteren øvre grænse i rep range. Næste gang skal der altså flere kg på stangen (Bradsted: [Bliv stærkere med dobbelt progression](http://fitness-blog.dk/dobbelt-progression/)):
 
 {% include figure image_path="/assets/images/training/dobbelt-progression.png" caption="" %}
 

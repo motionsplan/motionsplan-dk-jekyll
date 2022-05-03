@@ -53,7 +53,7 @@ Som Anders Nedergaard skriver:
 
 > Derfor – første gang du prøver et bestemt træningsprogram, så brug det præcist som beskrevet. Når du er færdig med det, eller har kørt det så lang tid som du mener du skal for at vurdere det, kan du lave din vurdering og så lave eventuelle justeringer til eventuel fremtidig brug af programmet.
 
-— <cite>[Anders Nedergaard](https://andersnedergaard.dk/kropblog/anmeldelser-af-traeningsprogrammer/)</cite>
+--- <cite>[Anders Nedergaard](https://andersnedergaard.dk/kropblog/anmeldelser-af-traeningsprogrammer/)</cite>
 
 ## Hvad betyder mest for et træningsprogram?
 
@@ -72,7 +72,7 @@ Hvis du vil prøve træningsprogrammer, kan du altså give dig i kast med nogle 
 ## Vigtige parametre i et styrketræningsprogram
 
 - **Intensiteten**. Når du kigger på et program, så kan du kigge på intensiteten i de enkelte arbejdssæt. Hvis programmet er procentbaseret, hvor tæt på [1RM]({% link _posts/2019-10-16-1rm-beregner.md %}) de enkelte træningssæt ligger. Vi har lavet en [1RM-beregner]({% link _posts/2019-10-16-1rm-beregner.md %}), hvis du vil læse lidt mere om hvad 1RM er.
-- **INOL**. [INOL betyder Intensity + Number of Lifts](/inol/), og det er en måde at udregne det samlede træningsstimuli for den enkelte træning. Det gør det noget lettere at vurdere, hvor hårdt programmet er på papiret uden at skulle gennemprøve hele programmet. Vi har skrevet mere om [INOL her](/inol/).
+- **INOL**. [INOL betyder Intensity + Number of Lifts](/inol/), og det er en måde at udregne det samlede træningsstimuli for den enkelte træning. Det gør det noget lettere at vurdere, hvor hårdt programmet er på papiret uden at skulle gennemprøve hele programmet.
 
 ## Hvordan opbygger man et styrketræningsprogram?
 
@@ -89,7 +89,7 @@ Stil dig selv følgende spørgsmål for dit styrketræningsprogram:
 - **Hvilke øvelser?** Vi anbefaler at du så vidt muligt vælger flerledsøvelser, så du får mest ud af din træningstid. [Vi har skrevet en guide til, hvordan du opbygger et helkropsprogram](/artikel/hvordan-opbygger-jeg-et-helkropsprogram/). Hvis du er trænet og kører splitprogram gælder de samme retningslinjer, men her fordeler du træningen ud over flere gange.
 - **Hvor mange gentagelser?** [Forskningen viser, at du kan få meget ud af at lave fire sæt](/traeningsprogram-programlaegning-styrketraening/). Antallet af gentagelser pr. sæt afhænger af, hvad du gerne vil opnå med din træning. En generel anbefaling er at du bør løfte mellem 8 - 12 gentagelser pr. sæt.
 - **Hvor tungt skal jeg løfte?** Det kommer an på, hvad du vil opnå. En tommelfingerregel er, at du som begynder løfter vægte, der vejer omkring 60% af det, du maksimalt kan løfte. Når du bliver trænet (har trænet mere end et år) skal du op over 80% af dit maksimale løft.
-- **Hvordan restituere?** Det er i pausen, at din krop bliver stærkere. Derfor er restitutionen og din strategi under restitutionen også vigtig for din træningsfremgang. Vi har skrevet en [artikel om forskellige restitutionsstrategier]({% link _posts/2020-05-28-restitutionstid-alder.md %}).
+- **Hvordan restituere?** Det er i pausen, at din krop bliver stærkere. Derfor er restitutionen og din strategi under restitutionen også vigtig for din træningsfremgang. Vi har skrevet en [artikel om forskellige restitutionsstrategier]({% link _posts/2020-05-28-restitution.md %}).
 - **Skal jeg periodisere min træning?** Ja, det er en rigtig god ide. I første omgang handler det dog om at komme i gang med at styrketræning. Når du er i gang, kan du fx køre i en cyklus, hvor du træner relativt hårdt i tre uger og i en uge træner lettere, fx færre træningspas eller bare færre sæt og gentagelser.
 - **Betyder det noget, at jeg holder en pause?** Ja, det betyder meget. Allerede efter 14 dage uden træning går din muskelstyrke væsentligt ned. Men hvis du alligevel holder 14 dage, så betyder det ikke så meget mere, om du holder en måneds pause. Til gengæld kan du fastholde din nyvundne styrke ved bare et træningspas om ugen i flere måneder.
 
@@ -128,7 +128,7 @@ Du kan også lære lidt mere om reps, sæt og pauser i træningen i denne video:
 Du kan organisere styrketræningen på mange måder. Enten kan du køre sættene færdige i en øvelse, eller du kan blande øvelserne lidt. Du skal altså vælge mellem:
 
 - At køre sættene adskilt - fx hvis du træner for at blive rigtig stærk
-- At lave _supersets_, hvor du blander to øvelser - se [fx Superset Training Survival Guide](https://ericcressey.com/superset-training-survival-guide)
+- At lave _supersets_, hvor du blander to øvelser - se [fx Superset Training Survival Guide]({% link _posts/2020-06-29-superset-guide.md %})
 
 ## Checkliste for opbygning af styrketræningsprogrammer
 

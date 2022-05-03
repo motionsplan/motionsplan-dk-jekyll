@@ -1,5 +1,6 @@
 ---
 title: &title "Alt om tempoløft, tempomanipulation og Time Under Tension (TUT)"
+seo_title: "Tempoløft, tempomanipulation og Time Under Tension (TUT)"
 permalink: /artikel/foelg-tempoet-naar-du-loefter/
 language: da
 header:
@@ -46,12 +47,15 @@ Studier har vist, at hvis man i bænkpres intenderer den dobbelte hastighed af s
 
 Men det er absolut ikke den eneste måde at løfte på. Skriv i kommentarerne, hvis vi skal få opdateret artiklen med mange flere detaljer om løftetempo og _time under tension_.
 
-## Referencer til tempo løft
+## Referencer
+
+<details markdown="1">
+  <summary>Se referencer</summary>
 
 - Robertson, Mike (2012): [6 questions about tempo training](https://www.t-nation.com/training/questions-about-tempo-training), t-nation.com
 - Nucklos, Greg (2014): [Speed kills: 2x the intended bar speed yields 2x the bench press gains](https://www.strongerbyscience.com/speed-kills-2x-the-intended-bar-speed-yields-2x-the-bench-press-gains/), strengtheory.com.
 - https://amdipt.dk/2018/04/24/tempomanipulation/
-
+</details>
 
 {% comment %}
 
@@ -73,7 +77,7 @@ By[gilbaks](https://gilbaks.dk/author/gilbaks/ "Indlæg af gilbaks")
 
 _Træning med tempo, også kaldet ‘**Time under tension**‘ (TUT) er et (måske) overset element til at skabe variation i sin træning. _
 
-“**_Hvorfor skal jeg træne med tempo_**” Lyder det fra den frusterende klient, der synes det er pisse hårdt at følge et bestemt tempo, samt er irriteret over at der ikke kan løftes de samme kilo som hvis man bare kører med fuld fart.
+“**_Hvorfor skal jeg træne med tempo_**” Lyder det fra den frusterende klient, der synes det er pisse hårdt at følge et bestemt tempo, samt er irriteret over at der ikke kan løftes de samme kg som hvis man bare kører med fuld fart.
 
 Du kender helt sikkert de her elementer: antal træningsdage, øvelsesvalg, sets, gentagelser, pauser <– Alle er elementer som man kan ændre, i forhold til ens træningsmål. I forlængelse af dette er der Tempoet, også kaldet Time Under Tension (TUT), et element som man kan manipulere med i samme grad som de andre elementer.
 

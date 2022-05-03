@@ -1,11 +1,12 @@
 ---
-title: "Energisystemer 101: Aerob og anaerob træning og arbejde 💗"
+title: "Energisystemer 101: Aerobt og anaerobt arbejde 💗"
+seo_title: "Energisystemer 101: Aerob og anaerob arbejde"
 permalink: /energisystemer/
 language: da
 header:
   overlay_image: https://images.unsplash.com/photo-1495976797530-f33e6580e44b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
   teaser: https://images.unsplash.com/photo-1495976797530-f33e6580e44b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
-  caption: "Energisystemer 101: Aerob og anaerob træning og arbejde"
+  caption: "Energisystemer 101: Aerob og anaerob arbejde"
 category:
   - Træning
   - Kondition
@@ -52,7 +53,7 @@ Der er tre variabler, der definerer hvilken type miljø, der er i kroppen.
 
 I denne figur kan du se fordelingen mellem det anaerobe og det aerobe system:
 
-{% include figure image_path="/assets/images/blog/anaerob-aerob-energy.jpg" caption="Illustration af det procentvise energibidrag fra nedbrydning af henholdsvis kulhydrat og fedt i forhold til arbejdsintensiteten. Ved lav intensitet, som kan udføres i lang tid, er der en stor fedtnedbrydning. Ved næsten maksimal intensitet, som kan udføres i kort tid, dominerer den anaerobe glykogennedbrydning samt spaltningen af ATP og KrP. Mellem disse intensitetsniveauer dominerer den aerobe glykogennedbrydning. Det skal understreges, at der er tale om en principskitse, idet der kan være forholdsvis store individuelle forskelle bl.a. på grund af træningstilstanden. Desuden vil energibidraget ved en vilkårlig intensitet være afhængig af i hvor lang tid, man arbejder med den givne intensitet." alt="Forskellen på aerob og anaerob træning og energisystem" %}
+{% include figure image_path="/assets/images/blog/anaerob-aerob-energy.jpg" caption="Illustration af det procentvise energibidrag fra nedbrydning af henholdsvis kulhydrat og fedt i forhold til arbejdsintensiteten. Ved lav intensitet, som kan udføres i lang tid, er der en stor fedtnedbrydning. Ved næsten maksimal intensitet, som kan udføres i kort tid, dominerer den anaerobe glykogennedbrydning samt spaltningen af ATP og KrP. Mellem disse intensitetsniveauer dominerer den aerobe glykogennedbrydning. Det skal understreges, at der er tale om en principskitse, idet der kan være forholdsvis store individuelle forskelle bl.a. på grund af træningstilstanden. Desuden vil energibidraget ved en vilkårlig intensitet være afhængig af i hvor lang tid, man arbejder med den givne intensitet." alt="Forskellen på aerob og anaerob energisystem og arbejde" %}
 
 ## Anaerobe og aerobe energisystemer
 
@@ -80,7 +81,7 @@ Anaerobic power reserve = max speed - max speed produced aerobically
 
 Desto større del af din energi, der kommer fra det aerobe system, desto længere tid vil du kunne holde til aktiviteten.
 
-{% include figure image_path="/assets/images/blog/anaerob-aerob-intensitet.jpg" caption="Primære træningsområder inden for aerob og anaerob træning udtrykt i relation til maksimal arbejdsintensitet (100%). De enkelte områder overlapper hinanden, idet der er et vist variationsområde inden for hver kategori. Arbejdsintensiteten svarende til den maksimale iltoptagelse og den maksimale arbejdsintensitet er angivet ved henholdsvis den nederste og øverste stiplede linie. Der er store individuelle forskelle på, hvor meget intensiteten svarende til den maksimale iltoptagelse udgør i forhold til den maksimale intensitet. Her er den sat til 25%, men for nogle udgør den kun 10% og for andre op til 50 60% af den maksimale intensitet." %}
+{% include figure image_path="/assets/images/blog/anaerob-aerob-intensitet.jpg" caption="Primære træningsområder inden for aerob og anaerob træning udtrykt i relation til maksimal arbejdsintensitet (100%). De enkelte områder overlapper hinanden, idet der er et vist variationsområde inden for hver kategori. Arbejdsintensiteten svarende til den maksimale iltoptagelse og den maksimale arbejdsintensitet er angivet ved henholdsvis den nederste og øverste stiplede linje. Der er store individuelle forskelle på, hvor meget intensiteten svarende til den maksimale iltoptagelse udgør i forhold til den maksimale intensitet. Her er den sat til 25%, men for nogle udgør den kun 10% og for andre op til 50 60% af den maksimale intensitet." %}
 
 ## Hvad er forskellen på det aerobe og anaerobe system
 
@@ -285,10 +286,10 @@ Når man træner det aerobe og anaerobe system, så er det godt at skelne mellem
 
 Jeg har skrevet mere om de [fysiologiske tilpasninger til konditionstræning]({% link _posts/2020-05-31-tilpasning-konditionstraening.md %}) og [hvor hurtigt du kan forbedre dit kondital]({% link _posts/2020-06-23-kondital-hvor-hurtigt.md %}). Vi har også skrevet om [HIIT-træning eller højintensive intervaller]({% link _posts/2020-09-22-hiit.md %}). Tjek også vores indlæg om [anaerob træning]({% link _posts/2021-01-02-anaerob-traening.md %}).
 
-## Referencer om energisystemer
+## Referencer
 
 <details markdown="1">
-  <summary>Se referencer om de aerobe og anaerobe energisystemer</summary>
+  <summary>Se referencer</summary>
 
 - [The Truth About Energy Systems - Day 1](https://www.8weeksout.com/truth-about-energy-systems-day-1/)
 - [The Truth About Energy Systems - Day 2](https://www.8weeksout.com/truth-about-energy-systems-day-2/)

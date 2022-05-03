@@ -71,10 +71,10 @@ Hvis du laver testen med tilvænning, så skal du også sammenligne med referenc
 
 [Morten Zacho](http://web.archive.org/web/20150403145323/http://www.motion-online.dk/konditionstraening/testning/6_min_gaa-test/){:rel="nofollow"} foreslår, at man laver to tilvænningsforsøg og lader det tredje forsøg være tællende, hvis der er tid til det. Hvis du gennemfører testen på denne måde, så sørg for at sammenligne med referenceværdier, hvor forsøgspersonerne har haft tilvænning til gangtesten (fx Gibbons 2001).
 
-## Referencer til gangtesten på 6 minutter (6mwt)
+## Referencer
 
 <details markdown="1">
-  <summary>Se flere referencer om {{ page.title }}</summary>
+  <summary>Se flere referencer</summary>
 
 - Enright, P. L., og D. L. Sherrill. 1998. “Reference Equations for the Six-Minute Walk in Healthy Adults”. American Journal of Respiratory and Critical Care Medicine 158 (5 Pt 1): 1384–87. <https://doi.org/10.1164/ajrccm.158.5.9710086>.
 - Enright, Paul L. 2003. “The Six-Minute Walk Test”. Respiratory Care 48 (8): 783–85.

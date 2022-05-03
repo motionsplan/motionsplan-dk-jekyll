@@ -3,7 +3,7 @@ title: "6 fysiologiske forandringer i kroppen ved konditionstræning?"
 permalink: /tilpasning-konditionstraening/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1477332552946-cfb384aeaf1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=5
+  overlay_image: https://images.unsplash.com/photo-1477332552946-cfb384aeaf1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
   teaser: https://images.unsplash.com/photo-1477332552946-cfb384aeaf1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: "Fysiologiske forandringer og adaptationer ved konditionstræning"
   overlay_filter: 0.2
@@ -84,7 +84,7 @@ Det kan sættes på følgende formel:
 
 En utrænet person har en slagvolumen på omkring 85 ml blod pr. hjerteslag, når hjertet slår omkring 60 gange i minuttet. Det giver altså en minutvolumen på omtrent 5 liter blod i minuttet. Det betyder altså, at hele kroppens samlede blodmængde løber igennem systemet hvert minut.
 
-Når du træner kan slagvolumen øges til omkring 120 ml blod pr. pulsslag. Nu behøver hjertet kun at slå 40 gange for at transportere 5 liter blod rundt i kroppen pr. minut. Hvilepulsen kan altså falde, fordi den trænede har en bedre evne til at pumpe mere blod ud pr. hjerteslag.
+Når du træner kan slagvolumen øges til omkring 120 ml blod pr. pulsslag. Nu behøver hjertet kun at slå 40 gange for at transportere 5 liter blod rundt i kroppen pr. minut. [Hvilepulsen](/hvilepuls/) kan altså falde, fordi den trænede har en bedre evne til at pumpe mere blod ud pr. hjerteslag.
 
 Når vi har trænet, så behøver hjertet ikke at arbejde så hårdt i hvile. Derfor kan hvilepulsen være en god indikator for, hvor god din kondition er. Når du kan pumpe mere blod rundt, så stiller det samme arbejde ikke lige så høje krav til hjertet, og derfor vil du kunne bevæge dig hurtigere uden at komme i nærheden af din maksimale puls.
 

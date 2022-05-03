@@ -7,8 +7,8 @@ redirect_from:
   - /2009-07-01-de-fem-tibetanere/
 language: da
 header:
-  overlay_image: /assets/images/blog/de-fem-tibetanere.jpg
-  teaser: /assets/images/blog/de-fem-tibetanere.jpg
+  overlay_image: https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
   caption: "De fem tibetanere: 5 tibetanske yoga øvelser og riter"
 popular: true
 tags:
@@ -19,7 +19,7 @@ tags:
   - featured
 category:
   - Yoga
-last_modified_at: 2021-01-24T09:41:09Z
+last_modified_at: 2021-12-24T09:41:09Z
 feature_row:
   - image_path: https://www.denintelligentekrop.dk/media/catalog/product/cache/1/image/560x/9df78eab33525d08d6e5fb8d27136e95/d/e/de-fem-tibetanere-1.jpg
     alt: "Bogen De 5 tibetanere af Peter Kelder"
@@ -62,60 +62,11 @@ gallery:
   - image_path: https://upload.wikimedia.org/wikipedia/commons/3/3d/Five_tibetan_rite_5.gif
     alt: "Rite 5"
     title: "Rite 5: De 5 tibetanere"
-wallsticker:
-  - image_path: https://www.wallstickerland.dk/media/catalog/product/t/h/the-5-tibetan-rites-danish.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=44221&htmlurl=https://www.wallstickerland.dk/de-5-tibetanere-wallsticker
-    title: "Wallsticker med De 5 tibetanere"
-    alt: "Wallsticker med De 5 tibetanere"
-    excerpt: "Wallstickerland har en enkel wallsticker med De 5 tibetanere, som er rigtig let at sætte op. Du kan få et gavekort på 100 kroner, hvis du [tilmelder dig her](http://gavekort.wallstickerland.dk/gratis) først."
-    btn_label: "Tjek prisen"
-    btn_class: "btn--warning"
-    rel: "sponsored nofollow noopener"
 yogastream:
   - image_path: https://www.yogastream.dk/images/homepage/forloeb.jpg
     url: http://motionsplan.yogastream.dk
     title: "Bliv medlem af Yogastream og lær yoga"
     alt: "Bliv medlem af Yogastream og lær yoga"
-    rel: "sponsored nofollow noopener"
-wallsticker_full:
-  - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-therapy-danish.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-therapy-wallsticker
-    title: Yoga therapy
-    alt: Yoga therapy
-    rel: "sponsored nofollow noopener"
-  - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-is-a-way-to-freedom-danish.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-is-a-way-to-freedom-wallstick r
-    title: Yoga is a way to freedom
-    alt: Yoga is a way to freedom
-    rel: "sponsored nofollow noopener"
-  - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-is-99-_-practice-danish_3.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-er-99-ovelse-wallsticker
-    title: Yoga er 99 % øvelse
-    alt: Yoga er 99 % øvelse
-    rel: "sponsored nofollow noopener"
-  - image_path: https://www.wallstickerland.dk/media/catalog/product/a/-/a-yoga-instructor-gets-people-to-danish.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/en-yoga-instruktor-far-folk-til-wallsticker
-    title: En yoga-instruktør får folk til
-    rel: "sponsored nofollow noopener"
-  - image_path: https://www.wallstickerland.dk/media/catalog/product/i/-/i-do-yoga-english.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/i-do-yoga-wallsticker
-    title: I do yoga
-    alt: I do yoga
-    rel: "sponsored nofollow noopener"
-  - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-wallsticker
-    title: Yoga
-    alt: Yoga
-    rel: "sponsored nofollow noopener"
-  - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-keeps-punching-me.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-keeps-punching-me-wallsticker
-    title: Yoga keeps punching me
-    alt: Yoga keeps punching me
-    rel: "sponsored nofollow noopener"
-  - image_path: https://www.wallstickerland.dk/media/catalog/product/y/o/yoga-is-not-just-a-workout-danish.jpg
-    url: https://www.partner-ads.com/dk/klikbanner.php?bannerid=44221&partnerid=28187&htmlurl=https://www.wallstickerland.dk/yoga-er-ikke-bare-en-traening-wallsticker
-    title: Yoga er ikke bare en træning
-    alt: Yoga er ikke bare en træning
     rel: "sponsored nofollow noopener"
 feature_row_citatplakat:
   - image_path: https://citatplakat.dk/wp-content/uploads/2020/11/Yogastillinger-PR10039.png
@@ -123,6 +74,14 @@ feature_row_citatplakat:
     title: Yoga poses - Yoga plakat
     alt: Yoga poses - Yoga plakat
     rel: "sponsored nofollow noopener"
+faq:
+  - question: Hvad er de fem tibetanere?
+    answer: "De fem tibetanere er fem yogabaserede øvelser skabt som stammer fra tibetanske munke. Yogaøvelserne blev bragt til vesten af Oberst Bradford, og Peter Kelder beskrev dem i sin bog: De fem tibetanere. De fem tibetanske riter skal laves 21 gange hver, og tager omkring 15 minutter at lave og siges at give evig ungdom."
+  - question: Hvordan skal jeg trække vejret ved de fem tibetanere?
+    answer: |
+      Vejrtrækningen i de fem tibetanere er en vigtig del af øvelserne. Du kan læse om vejrtrækningen i øvelsesbeskrivelserne. Vejrtrækningen stor betydning, når du gennemfører øvelser for at få det rigtige udbytte af bevægelserne.
+  - question: Hvor lang tid tager det at lave de 5 tibetanere?
+    answer: Det tager kun omkring 10-20 minutter at lave de fem tibetanere.
 ---
 
 De fem tibetanere er fem yogaøvelser beskrevet af Peter Kelder i slutningen af 1930'erne, men øvelserne kan spores tilbage til omkring år 0. De fem tibetanske riter er en rigtig god introduktion til yoga og øvelserne let at implementere i sin egen hverdag. Jeg har kigget lidt på, hvad de fem tibetanere er, og hvilken virkning de har på kroppen?
@@ -132,8 +91,6 @@ Hvad er de fem tibetanere? **De fem tibetanere er fem yogabaserede øvelser skab
 De fem tibetanere er en sammensætning af 5 forholdsvist simle yogaøvelser. Øvelserne har vundet større og større indpas i den vestlige verden og udføres dagligt af flere millioner mennesker.
 
 Man siger, at de fem tibetanere er hemmeligheden bag ungdommens kilde. Jeg har ikke kunnet finde noget forskning direkte lavet på de fem tibetanere, så du må selv afgøre om øvelserne giver dig øget styrke og energi i hverdagen at udføre tibetanerne.
-
-{% include gallery id="wallsticker" caption="Wallsticker med De fem tibetanere" %}
 
 Måske er du klar til selv at kaste dig ud i øvelserne. De fem øvelser kan udføres hvor som helst, og tager ikke mere end 20 minutter.
 
@@ -207,7 +164,7 @@ Jette Weimar, som også er yogainstruktør, forklarer de fem riter behageligt og
 
 Hvis du hellere vil have øvelserne **illustreret** og gennemgået på skrift, så gennemgår jeg her hvilke 5 yogaøvelser, du kommer igennem i de 5 tibetanere?
 
-{% include figure image_path="https://www.enlightened-consciousness.com/wp-content/uploads/2019/07/dreamstime_s_130021652.jpg" caption="Illustration af de fem tibetanere" alt="Illustration af de 5 tibetanske yogaøvelser" %}
+{% include figure image_path="/assets/images/blog/de-5-tibetanere-yoga-riter.jpg" caption="Illustration af de fem tibetanere. Kilde: [Peter Kelder](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=38484&htmlurl=https://www.denintelligentekrop.dk/de-fem-tibetanere-bog-1){: rel='sponsored nofollow noopener' }" alt="Illustration af de 5 tibetanske yogaøvelser" %}
 
 Øvelserne i de fem tibetanere bliver kaldt for riter. Jeg har her lavet en kort beskrivelse af de 5 riter.
 
@@ -277,7 +234,7 @@ Hvis du har erfaringer med de fem tibetanere eller andre styrke- og smidighedsg�
 
 Vejrtrækningen i de fem tibetanere er en vigtig del af øvelserne. Derfor bør du læse øvelsesbeskrivelserne grundigt, så du ved hvordan du skal trække vejret, mens du udfører de tibetanske riter.
 
-Vejrtrækningen har i det hele taget stor betydning, når du gennemfører øvelser for at få det rigtige udbytte af bevægelserne.
+Vejrtrækningen har stor betydning, når du gennemfører øvelser for at få det rigtige udbytte af bevægelserne.
 
 ## Har jeg brug for udstyr til de fem tibetanere?
 
@@ -303,7 +260,7 @@ Det hormonelle (endokrine) system har ansvar for hele kroppens generelle funktio
 
 ## Hvilke fordele er der ved de 5 tibetanere?
 
-Det tager kun omkring 10-20 minutter om dagen at lave de fem tibetanere. Peter Kelder giver mange eksmpler på fordele ved De fem tibetanere: foryngelse, bedre søvn, friskhed og energi, bedre hukommelse og så videre. Det er nogle rigtig gode salgsargumenter for øvelserne.
+Det tager kun omkring 10-20 minutter om dagen at lave de fem tibetanere. Peter Kelder giver mange eksempler på fordele ved De fem tibetanere: foryngelse, [bedre søvn](/soevn/), friskhed og energi, bedre hukommelse og så videre. Det er nogle rigtig gode salgsargumenter for øvelserne.
 
 De 5 tibetanere påstås allerede efter et par ugers træning at have følgende virkning:
 
@@ -359,7 +316,7 @@ De fem tibetanere blev for alvor udbredt i den vestlige verden, da Peter Kelder 
 
 {% include feature_row type="left" %}
 
-## Virker de 5 tibetanere virkelig?
+## Virker de 5 tibetanere?
 
 Jeg er lige ved at dykke ned videnskaben i forhold til om der findes videnskabeligt belæg for effekten af de fem tibetanere. Stay tuned.
 
@@ -387,7 +344,7 @@ Hvis det er sket for dig, at du overskydende seksuel energi, så kan du følge b
 > ...
 > take air into your empty lungs, let the air flow in through the nose. When the lungs are full, exhale through the mouth. As you exhale, relax your arms... Then take several deep breaths through the mouth or nose, allowing them to escape through either the mouth or nose."
 
-— <cite>[Wikipedia](https://en.wikipedia.org/wiki/Five_Tibetan_Rites#Sixth_Rite)</cite>
+--- <cite>[Wikipedia](https://en.wikipedia.org/wiki/Five_Tibetan_Rites#Sixth_Rite)</cite>
 
 ## Er de fem tibetanske riter for dig?
 
@@ -405,8 +362,6 @@ Vi har et andet indlæg her på sitet, der handler om [Mindfulness meditation]({
 
 ## Anbefalinger for de 5 tibetanske riter
 
-{% include feature_row id="wallsticker" type="left" %}
-
 {% include feature_row id="feature_row_yogamat" type="left" %}
 
 {% include feature_row id="feature_row_dvd" type="left" %}
@@ -417,8 +372,6 @@ Vi har et andet indlæg her på sitet, der handler om [Mindfulness meditation]({
 
 ## Plakat med de fem tibetanere
 
-{% include gallery id="wallsticker_full" caption="Du kan finde endnu flere yoga-plakater hos [plakaterne.dk](https://www.plakaterne.dk/yoga-plakater/)." %}
-
-{% include gallery id="feature_row_citatplakat" caption="Yogaplakat med yogastillinger. Tjek den hos citatplakat.dk." %}
+{% include gallery id="feature_row_citatplakat" caption="Yogaplakat med yogastillinger. Tjek den hos citatplakat.dk. Du kan finde endnu flere yoga-plakater hos [plakaterne.dk](https://www.plakaterne.dk/yoga-plakater/)." %}
 
 ## Noter til de 5 tibetanere

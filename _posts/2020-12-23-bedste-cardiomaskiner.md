@@ -1,9 +1,10 @@
 ---
 title: &title "De bedste cardiomaskiner til kondition og fedtforbrænding 🥇"
+seo_title: "Bedste cardiomaskiner 2022 til kondition og fedtforbrænding"
 permalink: "/bedste-cardiomaskiner/"
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1519505645104-c7be90e0d630?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=5
+  overlay_image: https://images.unsplash.com/photo-1519505645104-c7be90e0d630?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
   teaser: https://images.unsplash.com/photo-1519505645104-c7be90e0d630?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   title: *title
 tags:
@@ -29,13 +30,13 @@ Det kan være lettere at få en stor effekt på kredsløbet og konditionen i car
 
 Når du stiller dig op på en kredsløbsmaskine, så er det ofte med det formål at forbedre kredsløbet. Det kan du gøre på forskellige måder, hvilket kræver lidt forskellig træningsindsats.
 
-Et mål er at **få en bedre kondition**. [Kondition](/kondition/) er kroppens evne til at optage og bruge ilt. En bedre kondition er snævert set defineret som kroppens maksimale iltoptagelse pr. minut pr. kilo kropsvægt. Hvis du vil flytte den maksimale iltoptagelse, skal du træne hårdt og omkring din maksimale ydeevne. Typisk foregår det med intervaller fra 3-5 minutters varighed gentaget 3-8 gange.
+Et mål er at **få en bedre kondition**. [Kondition](/kondition/) er kroppens evne til at optage og bruge ilt. En bedre kondition er snævert set defineret som kroppens maksimale iltoptagelse pr. minut pr. kg kropsvægt. Hvis du vil flytte den maksimale iltoptagelse, skal du træne hårdt og omkring din maksimale ydeevne. Typisk foregår det med intervaller fra 3-5 minutters varighed gentaget 3-8 gange.
 
 Et andet mål er at **forbedre hjertets evne til at pumpe blod rundt**. Vi vil gerne forbedre hjertets kapacitet og slagvolumen. Den mest ligefremme måde at træne dette på er ved at træne med relativt lav intensitet omkring snakkegrænsen på [Borg skalaen](/borg-skala/). Pulsen vil ligge omkring 130-150.
 
 Et tredje mål kan være at **forbedre arbejdet ved den anaerobe tærskel**. Det gøres typisk ved at arbejde længere med så høj intensitet, som du kan holde uden at ophobe ekstra mælkesyre. Hvis du fx bruger hastighed, watt eller puls, så kan du finde din arbejdskapacitet ved den [anaerobe tærskel](/anaerobe-taerskel/) ved fx at køre med så høj og jævn intensitet som muligt i 30-45 minutter.
 
-Der er altså mange forskellige [fysiologiske tilpasninger til konditionstræning](/intervallob-intervaltraening/), du kan jagte med cardiomaskinerne.
+Der er altså mange forskellige [fysiologiske tilpasninger til konditionstræning](/tilpasning-konditionstraening/), du kan jagte med cardiomaskinerne.
 
 ## Cardiomaskiner kan kan ramme kredsløbet forskelligt
 
@@ -77,7 +78,7 @@ På løbebåndet er det bånder, der flytter sig under fødderne, så du skal ba
 
 En af fordelene ved løbebåndet er, at det er rigtig let at lave systematiske intervaller i et bestemt tempo. Hvis du ikke følger båndets hastighed, så ender det jo med at du ryger af båndet. Jeg plejer selv under hurtige intervaller at hoppe ud til siden med fødderne, men hvis jeg løber lidt længere intervaller, så skruer jeg bare ned for tempoet til mit pausetempo, når intervallet er slut.
 
-Jeg har skrevet lidt mere om [intervalløb og intervaltræning](/intervallob-intervaltraening/), som du kan lade dig inspirere af, når du tager en tur på løbebåndet.
+Jeg har skrevet lidt mere om [intervalløb](/intervallob-intervaltraening/) og [intervaltræning](/intervaltraening/), som du kan lade dig inspirere af, når du tager en tur på løbebåndet.
 
 De fleste oplever, at det er mindre hårdt for knæene at løbe på løbebånd end udenfor. Jeg kan godt lide, at tempoet er sat, og man ikke skal tænke så meget over at holde tempoet. Men jeg har helt sikkert brug for lidt adspredelse undervejs, når jeg løber, så det ikke bliver kedeligt på løbebåndet.
 
@@ -139,7 +140,7 @@ Mit primære mål med træning er for det meste bare generelt at forbedre mit kr
 
 Hvis jeg er i en periode af mit træningsliv, hvor det hovedsageligt handler om generelt at forbedre mit kredsløb, så kan jeg godt lide at skifte mellem kredsløbsmaskinerne. Jeg har heldigvis relativt let adgang til en række forskellige cardiomaskiner. På det punkt følger jeg Morten Zachos råd:
 
-> Mange oplever, at maskinen simpelthen bliver for kedelig, og at man derfor har svært ved at motivere sig selv. Mit bedste råd vil derfor være, at man skifter mellem maskinerne. Så opnår man også en mere varieret træning. Hvis man f.eks. tager ti minutter på løbebåndet, ti minutter på cyklen og slutter af med ti minutter på crosstraineren, så går tiden meget hurtigere, end hvis man bare trænede i en halv time på en enkelt maskine.
+> Mange oplever, at maskinen simpelthen bliver for kedelig, og at man derfor har svært ved at motivere sig selv. Mit bedste råd vil derfor være, at man skifter mellem maskinerne. Så opnår man også en mere varieret træning. Hvis man fx tager ti minutter på løbebåndet, ti minutter på cyklen og slutter af med ti minutter på crosstraineren, så går tiden meget hurtigere, end hvis man bare trænede i en halv time på en enkelt maskine.
 
 — <cite>[Morten Zacho](https://jyllands-posten.dk/livsstil/familiesundhed/motion/ECE7680201/loebebaandet-motionscyklen-crosstraineren-eller-romaskinen/)</cite>
 

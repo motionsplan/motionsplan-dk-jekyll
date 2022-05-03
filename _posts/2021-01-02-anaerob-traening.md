@@ -1,10 +1,11 @@
 ---
 title: &title "Anaerob træning: Øvelser og træningsprogram 🏃"
-description: "Anaerob træning er en vigtig del af dit energisystem, og det skal også trænes 🏃 Hvad er anaerob træning? 🏃 Anaerobe øvelser 🏃 Anaerobt træningsprogram."
+seo_title: "Anaerob træning: Øvelser og træningsprogram"
+description: "Anaerob træning er en vigtig del af dit energisystem, og det skal også trænes | Hvad er anaerob træning? | Anaerobe øvelser | Anaerobt træningsprogram."
 permalink: /anaerob-traening/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1553593155-9e0dc045405c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=5
+  overlay_image: https://images.unsplash.com/photo-1553593155-9e0dc045405c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
   teaser: https://images.unsplash.com/photo-1553593155-9e0dc045405c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
@@ -36,7 +37,7 @@ I dette indlæg kan du få svar på følgende spørgsmål:
 
 Grundlæggende er dit energisystem delt op i to dele. Det aerobe system kan levere energi så længe, der er nok ilt til stede i musklerne, mens det anaerobe system stadig kan levere ilt, når der ikke er ilt nok til stede. I praksis kører begge systemer samtidigt.
 
-**Anaerob træning** betyder naturligvis ikke, at du holder vejret, mens du træner. Anaerob træning betyder bare at intensiteten er så høj, at der ikke er ilt nok tilgængeligt i musklerne til at levere energi hurtigt nok.
+**Anaerob træning** betyder naturligvis ikke, at du holder vejret, mens du træner. Anaerob træning betyder bare at intensiteten er så høj, at der ikke er ilt nok tilgængeligt i musklerne til at levere energi hurtigt nok. Derfor udføres anaerob træning oftest som [intervaltræning](/intervaltraening/).
 
 I **modsætning til aerob træning**, der primært retter sig mod at forbedre kredsløbet (hjerte, lunger og blodkredsløbet), så er anaerob træning rettet mod at forbedre musklernes ydeevne under højintenst og maksimalt arbejde. Der er dog overlap mellem energisystemerne, så når du træner aerobt med høj intensitet, så forbedrer du til en vis grad din anaerobe kapacitet, og tilsvarende kan der ske forbedringer i det aerobe system ved at træne anaerobt.
 
@@ -156,7 +157,7 @@ Jeg kan godt lide at lave intervaller, hvor jeg arbejder maksimalt i 30 sekunder
 
 Du har sikkert også hørt om [Tabata-intervaller]({% link _posts/2009-03-27-4-minutters-haard-intervaltraening-bedre-end-en-times-moderat-loeb.md %}), som virkelig sætter det anaerob system på prøve.
 
-[Intervaltræningsformen 10-20-30](https://vorespuls.dk/loeb/artikler/saadan-loeber-du-10-20-30-loeb) er også en sjov og effektiv måde at få trænet det anaerobe system. Husk at de 10 sekunders sprint er det vigtigste, hvis du skal ramme de anaerobe system. Jeg kan også godt lide at lave [Sprint 8-intervaller]({% link _posts/2013-04-28-sprint-8-intervaltraening-der-virker.md %}).
+Intervaltræningsformen 10-20-30 som her præsenteres af [vorespuls.dk](https://vorespuls.dk/loeb/artikler/saadan-loeber-du-10-20-30-loeb) er også en sjov og effektiv måde at få trænet det anaerobe system. Husk at de 10 sekunders sprint er det vigtigste, hvis du skal ramme de anaerobe system. Jeg kan også godt lide at lave [Sprint 8-intervaller]({% link _posts/2013-04-28-sprint-8-intervaltraening-der-virker.md %}).
 
 ## Øvelser til anaerob træning
 
@@ -173,7 +174,7 @@ Højintensiv træning og anaerob træning kan give skader, hvis ikke du planlæg
 
 Men du skal ikke være bange for at lave anaerob træning. Du skal bare huske principperne om **progressivt overload** og **restitution**, når du planlægger det. Den samlede træningsmængde skal formentlig sænkes lidt, hvis du introducerer anaerob træning.
 
-Vores Puls har [5 råd til at undgå skader](https://vorespuls.dk/loeb/artikler/intervaltraening-5-raad-til-at-undgaa-skader) under intervaltræning.
+[Vores Puls](https://vorespuls.dk/loeb/artikler/intervaltraening-5-raad-til-at-undgaa-skader) har 5 råd til at undgå skader under intervaltræning.
 
 ## Konklusion på anaerob træning
 
