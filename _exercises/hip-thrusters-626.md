@@ -1,5 +1,6 @@
 ---
 title: "Hip thrusts"
+seo_title: "Hip thrust | Øvelse til at træne balderne"
 instructions: ""
 permalink: /oevelse/hip-thrusters/
 redirect_from: /node/626
@@ -28,15 +29,15 @@ alternative_titles:
 gallery:
   - url: /assets/images/exercises/hip-thrusters-0.jpg
     image_path: /assets/images/exercises/hip-thrusters-0-320.jpg
-    alt: "Hip thrusts"
+    alt: "Hip thrusts øvelse"
     title: "Hip thrusts"
   - url: /assets/images/exercises/hip-thrusters-1.jpg
     image_path: /assets/images/exercises/hip-thrusters-1-320.jpg
-    alt: "Hip thrusts"
+    alt: "Hip thrusters øvelse"
     title: "Hip thrusts"
   - url: /assets/images/exercises/hip-thrusters-2.jpg
     image_path: /assets/images/exercises/hip-thrusters-2-320.jpg
-    alt: "Hip thrusts"
+    alt: "Hip thrust træningsøvelse"
     title: "Hip thrusts"
 last_modified_at: 2016-10-18T07:15:52Z
 ---
