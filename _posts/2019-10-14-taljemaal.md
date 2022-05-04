@@ -4,8 +4,8 @@ excerpt: "Taljemål, livvidde og hoftemål er en enkel måde at sige noget om fe
 permalink: /taljemaal/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1591384640699-9a85bd036da2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=60
-  teaser: https://images.unsplash.com/photo-1591384640699-9a85bd036da2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60
+  overlay_image: https://images.unsplash.com/photo-1591384640699-9a85bd036da2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  teaser: https://images.unsplash.com/photo-1591384640699-9a85bd036da2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: "Taljemål, livvidde, hoftemål og højdemål og talje-hofte-ratioen."
 category:
   - Test
@@ -46,7 +46,7 @@ I det følgende beskriver jeg de forskellige taljemål, og hvordan du kan bruge 
 
 Flere studier viser sammenhæng mellem taljemålet og risikoen for mange livsstilssygdomme, som fx hjertekarsygdomme og diabetes type II.
 
-Taljemålet er særligt relevant, fordi fedtet omkring maven giver øget risiko for sygdomme. I forbindelse med træning er taljemålet også et bedre mål for fedttab end vægt og [udregninger af BMI](/bmi/). Man kan nemlig godt blive tungere af træning, fordi man øger muskelmassen, men hvis man taber fedt, så vil taljemålet alt andet lige falde.
+Taljemålet er særligt relevant, fordi fedtet omkring maven giver øget risiko for sygdomme. I forbindelse med træning er taljemålet også et bedre mål for fedttab end vægt og [udregninger af BMI](/bmi-beregner/). Man kan nemlig godt blive tungere af træning, fordi man øger muskelmassen, men hvis man taber fedt, så vil taljemålet alt andet lige falde.
 
 ### Hvordan måles taljemålet (livvidde)?
 

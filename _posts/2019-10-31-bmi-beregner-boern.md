@@ -1,7 +1,7 @@
 ---
 title: &title "BMI-beregner for børn, unge og teenagere"
 seo_title: "BMI beregner for børn, unge og teenagere"
-description: "BMI tabel og skema for børn, unge og teenagere. Forstå detaljerne i dag om, hvordan BMI skal skal forstås og fortolkes for for børn og unge. "
+description: "BMI tabel og skema for børn, unge og teenagere. Forstå detaljerne i dag om, hvordan BMI skal forstås og fortolkes for for børn og unge. "
 permalink: /bmi-beregner-boern-unge-teenagere/
 excerpt: "Body Mass Index (BMI) kan bruges til at udregne idealvægt, men hvordan skal BMI bruges i forhold til børn, unge og teenagere. Vi har kigget på BMI skalaer og tabeller for børn, unge og teenagere."
 language: da
@@ -24,7 +24,7 @@ faq:
 
 Body Mass Index (BMI) bruges ofte i forhold til børn, unge og teenagere. Vi har kigget på, hvordan du skal fortolke BMI tabeller og skalaer for børn, unge og teenagere.
 
-Fordelen ved BMI er, at det er let at bruge, men et skal fortolkes anderledes for børn end for voksne. Du kan læse meget mere om BMI for voksne og ældre i vores [BMI beregner](/bmi/). 
+Fordelen ved BMI er, at det er let at bruge, men et skal fortolkes anderledes for børn end for voksne. Du kan læse meget mere om BMI for voksne og ældre i vores [BMI beregner](/bmi-beregner/). 
 
 *[BMI]: Body Mass Index
 *[IOTF]: The International Obesity Task Force
@@ -60,15 +60,15 @@ Husk at BMI ikke tager højde for kropsbygning og muskelmasse. En vurdering af b
 
 ### BMI for drenge og piger fra 2-5 år
 
-{% include figure image_path="/assets/images/blog/bmi-drenge-2-5.png" caption="BMI værdier for drenge under 2-5 år. Kilde: [WHO](http://www.who.int/growthref/bmifa_boys_z_5_19_labels.pdf?ua=1)" alt="BMI værdier for drenge under 2-5 år" %}
+{% include figure image_path="/assets/images/blog/bmi-drenge-2-5.png" caption="BMI værdier for drenge under 2-5 år. Kilde: [WHO](/assets/pdf/who/cht_wfh_boys_z_2_5.pdf)" alt="BMI værdier for drenge under 2-5 år" %}
 
-{% include figure image_path="/assets/images/blog/bmi-piger-2-5.png" caption="BMI værdier for piger 2-5 år. Kilde: [WHO](http://www.who.int/childgrowth/standards/cht_wfh_girls_z_2_5.pdf?ua=1)" alt="BMI værdier for piger 2-5 år" %}
+{% include figure image_path="/assets/images/blog/bmi-piger-2-5.png" caption="BMI værdier for piger 2-5 år. Kilde: [WHO](/assets/pdf/who/cht_wfh_girls_z_2_5.pdf)" alt="BMI værdier for piger 2-5 år" %}
 
 ### BMI for teenagere, drenge og piger fra 5-19 år
 
-{% include figure image_path="/assets/images/blog/bmi-drenge-5-19.png" caption="BMI værdier for drenge 5-19 år. Kilde: [WHO](http://www.who.int/growthref/bmifa_boys_z_5_19_labels.pdf?ua=1)" alt="BMI værdier for drenge 5-19 år" %}
+{% include figure image_path="/assets/images/blog/bmi-drenge-5-19.png" caption="BMI værdier for drenge 5-19 år. Kilde: [WHO](/assets/pdf/who/bmi-fa_boys_z_5_19_labels.pdf)" alt="BMI værdier for drenge 5-19 år" %}
 
-{% include figure image_path="/assets/images/blog/bmi-piger-5-19.png" caption="BMI værdier for piger 5-19 år. Kilde: [WHO](http://www.who.int/growthref/bmifa_girls_z_5_19_labels.pdf?ua=1)" alt="BMI værdier for piger 5-19 år" %}
+{% include figure image_path="/assets/images/blog/bmi-piger-5-19.png" caption="BMI værdier for piger 5-19 år. Kilde: [WHO](/assets/pdf/who/bmi-fa_girls_z_5_19_labels.pdf)" alt="BMI værdier for piger 5-19 år" %}
 
 Bemærk at ovenstående grafer er baseret på børn over hele verden. Som med BMI for voksne, så indrager tallene ikke dit barns bygning.
 
@@ -90,10 +90,10 @@ Endelig kan du dykke lidt ned i din samlede kropskomposition for at få en stør
 
 {% include faq.html %}
 
-## Referencer
+## Referencer om BMI for børn og unge
 
 <details markdown="1">
-  <summary>Se alle referencerne om BMI</summary>
+  <summary>Se alle referencerne</summary>
 
 - Cole, Tim J., Katherine M. Flegal, Dasha Nicholls, og Alan A. Jackson. 2007. “Body Mass Index Cut Offs to Define Thinness in Children and Adolescents: International Survey”. BMJ (Clinical Research Ed.) 335 (7612): 194. <https://doi.org/10.1136/bmj.39238.399444.55>.
 - Due P, Heitmann BL & Sørensen TIA. Adipositasepidemien i Danmark. Ugeskr Læger 2006;168(2):129

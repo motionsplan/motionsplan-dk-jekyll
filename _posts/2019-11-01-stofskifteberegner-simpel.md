@@ -309,7 +309,7 @@ I beregningen er køn for mand 1, mens den skal være 0 for kvinder.
 
 Begge disse formler kræver til gengæld kendskab til din fedtfrie masse og din fedtmasse. Du kan læse mere om [hvordan du kan bestemme din kropskomposition og fedtfrie masse i et af vores andre indlæg]({% link _posts/2019-10-14-kropskomposition.md %}) eller hvordan du [måler din fedtprocent]({% link _posts/2019-10-13-fedtprocent-maaling.md %}), hvor du også kan finde forskellige beregninger.
 
-Desuden har jeg lavet en anden beregner til at udregne [ligevægtsindtaget på en dag]({% link _posts/2019-11-01-stofskifte-ligevaegtsberegner.md %}), som bruger en helt anden formel baseret på [udregning af BMI](/bmi/).
+Desuden har jeg lavet en anden beregner til at udregne [ligevægtsindtaget på en dag]({% link _posts/2019-11-01-stofskifte-ligevaegtsberegner.md %}), som bruger en helt anden formel baseret på [udregning af BMI](/bmi-beregner/).
 
 ## Hvad kan du bruge hvilestofskiftet til?
 

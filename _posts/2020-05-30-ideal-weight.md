@@ -23,7 +23,7 @@ faq:
   - question: Hvad er idealvægt?
     answer: Idealvægt er et forsøg på at give et bud på, hvilken kropsvægt der teoretisk set vil give dig det længste liv med færrest sygdomme. Idealvægt er altså et mål for, hvornår du er sund ift. livslængde og helbred. Idealvægten udregnes oftest i forhold til din højde, alder, køn og kropsbygning.
   - question: Hvordan kan man udregne idealvægt?
-    answer: Der findes en lang række forskellige måder at beregne idealvægt på. Enten kan man tage udgangspunkt i højde og vægttabeller baseret på en lang række mennesker. Ellers kan man beregne den ud fra et ideelt [BMI](/bmi/). Læs meget mere om fordele og ulemper her.
+    answer: Der findes en lang række forskellige måder at beregne idealvægt på. Enten kan man tage udgangspunkt i højde og vægttabeller baseret på en lang række mennesker. Ellers kan man beregne den ud fra et [ideelt BMI](/bmi/). Læs meget mere om fordele og ulemper her.
 ---
 
 Jeg får ofte spørgsmålet om, hvad min idealvægt er? Altså ikke min normalvægt, men idealvægten for mænd og kvinder. Der er rigtig mange, der vurderer deres egen sundhed ud fra vægten. Jeg har undersøgt, hvad idealvægt, normalvægt og gennemsnitsvægt er, og hvordan videnskaben er kommet frem til et tal der passer for mænd og kvinder?
@@ -67,7 +67,7 @@ Med udgangspunkt i Lemmens (2005) har jeg valgt at bruge en target BMI på 22.
 
 [Morten Zacho](https://web.archive.org/web/20160808221414/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/beregn_din_idealvaegt/){:rel="nofollow"} har som Peterson (2016) også foreslået, at basere idealvægten på Body Mass Index (BMI).
 
-Morten Zacho konkluderer, at videnskaben understøtter at et optimalt BMI er på omkring 22,5 for kvinder og 24,5 for mænd for at opleve det længste liv med færrest sygdomme. Jeg har forklaret rationalet bag i indlægget om [Body Mass Index (BMI), som også har en BMI-beregner](/bmi/).
+Morten Zacho konkluderer, at videnskaben understøtter at et optimalt BMI er på omkring 22,5 for kvinder og 24,5 for mænd for at opleve det længste liv med færrest sygdomme. Jeg har forklaret rationalet bag i indlægget om [Body Mass Index (BMI)](/bmi/) eller vores [BMI-beregner](/bmi-beregner/).
 
 Når man skal udregne idealvægten for kvinder, så kan du altså bruge BMI på 22,5 og for mænd et BMI på 24,5 for at finde idealvægten.
 
