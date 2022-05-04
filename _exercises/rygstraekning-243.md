@@ -2,7 +2,7 @@
 title: "Rygstrækning på skrå bænk"
 excerpt: "Lig på bænken, så du uhindret kan bøje i hoften. Bøj i hoften og hold igen indtil kroppen hænger næsten lodret ned. Bevæg dig tilbage til udgangspunktet. "
 instructions: "Lig på bænken, så du uhindret kan bøje i hoften. Bøj i hoften og hold igen indtil kroppen hænger næsten lodret ned. Bevæg dig tilbage til udgangspunktet. "
-permalink: /oevelse/rygstraekning/
+permalink: /oevelse/rygstraekning-skraa-baenk/
 redirect_from: /node/243
 id: 243
 language: da
@@ -55,4 +55,4 @@ last_modified_at: 2014-10-12T19:11:23Z
 
 - Holdes ryggen ret i hele bevægelsen bliver kun hofteekstensorerne trænet dynamisk.
 - Du kan variere belastningen ift. hvor du holder armene under udførelsen.
-- Du kan også lave [rygstrækninger på gulvet](/oevelse/rygstraekning-0/).
+- Du kan også lave [rygstrækninger på gulvet](/oevelse/rygstraekning/).
