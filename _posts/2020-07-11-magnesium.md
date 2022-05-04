@@ -1,6 +1,6 @@
 ---
 title: "Magnesium: Har du brug for et tilskud?"
-seo_title: "Magnesium: Har du brug for et tilskud? [2022]"
+seo_title: "Magnesium: Har du brug for et tilskud? (2022)"
 permalink: /magnesium/
 language: da
 header:
@@ -223,7 +223,7 @@ Forskningen på området er dog stadig ret ny. Gröber et al (2017) konkluderer 
 
 — <cite>[Gröber et al 2017](https://doi.org/10.3390/nu9090946)</cite>
 
-## Hvad er det bedste og billigste magnesium [2020]?
+## Hvad er det bedste og billigste magnesium (2022)?
 
 Når du søger på Google efter "Det bedste og billigste magnesium", så støder du på flere guides, der sammenligner magnesium fra forskellige brands. De har næsten altid en favorit og et eller andet argument, som at netop denne pille er letoptageligt. Man får fornemmelsen af, at de rent faktisk har testet de forskellige typer magnesium i forhold til hinanden.
 

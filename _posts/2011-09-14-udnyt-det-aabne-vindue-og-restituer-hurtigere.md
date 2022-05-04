@@ -1,6 +1,6 @@
 ---
 title: &title "Anabolic Window: Hvad er facts om det åbne vindue?"
-seo_title: "Anabolic Window: Hvad er facts om det åbne vindue? [2022]"
+seo_title: "Anabolic Window: Hvad er facts om det åbne vindue? (2022)"
 excerpt: "Lige efter træning er kroppen helt klar til at modtage næringsstoffer. Man taler ofte om _det åbne vindue_ eller på engelsk _the anabolic window_. Jeg har researchet lidt på, hvad det åbne vindue egentlig er?"
 permalink: /artikel/aabne-vindue-og-anabolic-window/
 redirect_from:

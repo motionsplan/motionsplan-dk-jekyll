@@ -1,6 +1,6 @@
 ---
 title: "Hvordan måler jeg min fedtprocent? 7 forskellige metoder"
-seo_title: "Hvordan måler jeg min fedtprocent? 7 forskellige metoder [2022]"
+seo_title: "Hvordan måler jeg min fedtprocent? 7 forskellige metoder (2022)"
 permalink: /maal-fedtprocent/
 language: da
 header:

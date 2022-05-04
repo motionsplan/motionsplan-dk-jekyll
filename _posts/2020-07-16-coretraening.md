@@ -1,5 +1,5 @@
 ---
-title: "Coretræning: 9 øvelser til stærk core og kropsstamme [2022]"
+title: "Coretræning: 9 øvelser til stærk core og kropsstamme (2022)"
 permalink: /core/
 language: da
 header:

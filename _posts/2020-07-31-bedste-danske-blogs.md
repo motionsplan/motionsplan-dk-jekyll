@@ -1,6 +1,6 @@
 ---
-title: "De 9 bedste danske blogs om fitness og træning [2022]"
-seo_title: "De 9 bedste danske blogs om fitness og træning [2022]"
+title: "De 9 bedste danske blogs om fitness og træning (2022)"
+seo_title: "De 9 bedste danske blogs om fitness og træning (2022)"
 permalink: /bedste-fitness-blogs/
 redirect_from:
   - /artikel/vores-favoritter-om-styrketraening

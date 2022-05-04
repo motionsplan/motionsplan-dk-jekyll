@@ -1,6 +1,6 @@
 ---
 title: &title "Højde: Hvordan bliver jeg højere?"
-seo_title: "Højde: Hvordan bliver jeg højere? [2022]"
+seo_title: "Højde: Hvordan bliver jeg højere? (2022)"
 permalink: /hvordan-bliver-jeg-hojere/
 language: da
 header:
