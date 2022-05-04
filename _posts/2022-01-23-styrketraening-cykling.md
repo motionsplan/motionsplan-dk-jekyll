@@ -79,7 +79,7 @@ Man behøver som udgangspunkt ikke vægte til squat på ét ben, da øvelsen er 
 
 ### 5. Burpees
 
-Burpees er en øvelse, hvor der er høj fokus på, at få bevæget og styrke størstedelen af kroppen. Denne dynamiske øvelse styrker muskler og led, men også kondition da den helt sikkert får pulsen op. Derfor er det også en super smart måde at få inkorporeret adræthed i sit cykeltræningsprogram.
+[Burpees](/oevelse/burpees/) er en øvelse, hvor der er høj fokus på, at få bevæget og styrke størstedelen af kroppen. Denne dynamiske øvelse styrker muskler og led, men også kondition da den helt sikkert får pulsen op. Derfor er det også en super smart måde at få inkorporeret adræthed i sit cykeltræningsprogram.
 
 Du laver en burpee ved at starte, som om du skal lave en armbøjning. I én bevægelse trækker du benene op, så det ligner, at du er ved at lave et squat. Til sidst laver du rutinen modsat, så du igen står i stilling med maven pegende mod jorden.
 
