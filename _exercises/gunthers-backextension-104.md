@@ -65,4 +65,4 @@ last_modified_at: 2014-10-12T19:26:49Z
 
 Her kombinerer du en rygøvelse med rows. Lig på en rygbænk med fødderne fastspændt. To håndvægte i hånden. Bøj i hoften. Nu skal du strække hoften og i en flydende bevægelse løfte håndvægtene op med albuerne forrest.
 
-Du kan også se, hvordan du laver [rygbøjgninger og rygstrækninger på gulvet](). 
+Du kan også se, hvordan du laver [rygbøjninger og rygstrækninger på gulvet](/oevelse/rygstraekning/). 
