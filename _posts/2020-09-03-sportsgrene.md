@@ -257,7 +257,7 @@ I Danmark var der i 2019 i alt [1,7 millioner medlemmer i DGI](https://www.dgi.d
 - Danmarks Idræts-forbund: [DIF](https://www.dif.dk/om-dif/organisation/forbund)
 - Danske Gymnastik og Idrætsforeninger: [DGI](https://www.dgi.dk/)
 - Dansk Arbejder Idrætsforbund: [DAI](http://dai-sport.dk/)
-- Dansk Firmaidrætsforbund: [DFIF](http://www.firmaidraet.dk/)
+- Dansk Firmaidrætsforbund: [DFIF](https://www.firmaidraet.dk/)
 - Dansk Handicap Idræts-Forbund: DHIF
 - For børn (site med forslag til idræt for børn): [Nysport](http://www.nysport.dk/)
 
