@@ -1,9 +1,11 @@
 ---
-title: "Mave, captains chair"
+title: "Captains Chair"
 excerpt: "Hvil på armstøtterne. Bøj i hoften til benene er vandrette med jorden. Kontrolleret tilbage til udgangspunktet."
 instructions: "Hvil på armstøtterne. Bøj i hoften til benene er vandrette med jorden. Kontrolleret tilbage til udgangspunktet."
-permalink: /oevelse/mave/
-redirect_from: /node/273
+permalink: /oevelse/captains-chair/
+redirect_from:
+  - /oevelse/mave/
+  - /node/273
 id: 273
 language: da
 header:

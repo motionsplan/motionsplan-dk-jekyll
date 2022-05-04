@@ -3,8 +3,10 @@ title: "Toes to bar - Maveøvelse fra bom"
 seo_title: Toes to bar | Hård mavetræning fra bom
 excerpt: "Hæng i armene i en bom. Forsøg at få benene op og røre bommen."
 instructions: "Hæng i armene i en bom. Forsøg at få benene op og røre bommen."
-permalink: /oevelse/maveoevelse-fra-bom/
-redirect_from: /node/154
+permalink: /oevelse/toes-to-bar/
+redirect_from:
+  - /node/154
+  - /oevelse/maveoevelse-fra-bom/
 id: 154
 language: da
 header:
@@ -39,4 +41,4 @@ Det er hårdere, hvis du har strakte ben. Hvis du er rigtig god, kan du svinge d
 
 Du kan lave øvelsen udenfor ved at to holder en pind mellem sig, mens den tredje arbejder.
 
-Hanging leg raises et et godt alternativ til [øvelsen mavebøjning](/oevelse/maveboejning/). Vi har beskrevet flere [øvelser til mavetræning](/maveoevelser/), hvis du vil have endnu flere øvelser at vælge imellem.
+Toes to bar og [Hanging leg raises](/oevelse/mave-hanging-leg-raise/) et et godt alternativ til [øvelsen mavebøjning](/oevelse/maveboejning/). Vi har beskrevet flere [øvelser til mavetræning](/maveoevelser/), hvis du vil have endnu flere øvelser at vælge imellem.
