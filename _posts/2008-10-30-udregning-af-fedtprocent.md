@@ -223,5 +223,6 @@ Men overvej hvorfor du gerne vil have sat tal på din fedtprocent, og hvad du vi
 * Jackson AS, Pollock ML, Ward A, Generalized equations for predicting body density of women. Med Sci Sports Exercise 1980; 12:175-182
 * Jackson AS. Research design and analysis of data procedures for predicting body density. Med Sci Sports Exercise 1984; 16:616-620.
 * Wellens, RJ, Roche AF, Khamis HJ et al. Relationships between body mass index and body composition. Obes Res 1996; 4:35-44.
-
 </details>
+
+{% include rating.html %}
