@@ -21,7 +21,7 @@ gallery:
 breadcrumbs: true
 ---
 
-Jeg er blevet interesseret i safety bar squats, fordi har lidt vrøvl med skulderen. Mange mener at alle træningscentre bør have en god safety squat stang, men hvad en god safety bar, og hvilke fordele har en safety squat bar?
+Jeg er blevet interesseret i safety bar [squats](/squats/), fordi har lidt vrøvl med skulderen. Mange mener at alle træningscentre bør have en god safety squat stang, men hvad en god safety bar, og hvilke fordele har en safety squat bar?
 
 Hvad er en safety squat bar? **En safety squat bar er en vægtstang med polstring på nakken, håndtag man kan holde i, og så er der forskydning i den yderste del af stangen, hvor vægtskiverne sættes på.**
 

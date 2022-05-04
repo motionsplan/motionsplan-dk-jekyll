@@ -9,7 +9,8 @@ language: da
 header:
   teaser: /assets/images/exercises/split-squat-0-320.jpg
 tags: []
-categories: []
+categories:
+  - Squat
 training_type: []
 training_focus: []
 equipment: []

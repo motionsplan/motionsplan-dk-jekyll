@@ -46,7 +46,7 @@ Sørg for at læse instruktionerne grundigt, inden du går i gang med at bruge p
 
 ## Mandag: Volumendag
 
-1. **Squat** 5 x 5 @ 90% of 5RM
+1. **[Squat](/squat/)** 5 x 5 @ 90% of 5RM
 2. **Bench Press or Overhead Press** 5 x 5 @ 90% 5RM
 3. **Deadlift** 1 x 5 @ 90% 5RM
 

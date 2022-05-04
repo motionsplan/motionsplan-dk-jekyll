@@ -42,7 +42,7 @@ En træningsuge for mig ser ud som følger
 |---------|--------------------------------------------------------------------------------------|
 | Mandag  | 8x2min/1min pause                                                                    |
 | Tirsdag | **Morgen**: Plyotræning (trappe- og hækketræning), 12x30sekunders sprint/3min pause  | 
-|         | **Aften**: Tung styrketræning, squath og baglår                                      |
+|         | **Aften**: Tung styrketræning, squat og baglår                                      |
 | Onsdag  | Fri                                                                                  |
 | Torsdag | 4x4min/2min pause                                                                    |
 | Fredag  | **Morgen**: Plyotræning (trappe- og hækketræning), 12x30 sekunders sprint/3min pause |  

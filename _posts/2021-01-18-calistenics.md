@@ -55,7 +55,7 @@ Når vi snakker helhed i den smukke træning, handler det heller ikke kun om mus
 
 Start morgenen med 2 store glas vand. Vores [krop består i gennemsnit af omkring 60% vand](/vand-i-kroppen/), og at starte morgen med vand efter en lang søvn uden, er en god start til at få den store motor ordentligt i gang.
 
-Brug derefter 3 min. udstræk af kroppen til at få smurt led og lemmer godt, og hjælp til mobilitet, kropsforståelse, og generelt en god varm start på dagen. Det kunne fx være den dynamiske yogaklassiker ”hunden til kobraen”, og en god dyb squat med lige ryg, foden i gulvet og masser af ankeltwist. 3 min er fint. Keep it simple.
+Brug derefter 3 min. udstræk af kroppen til at få smurt led og lemmer godt, og hjælp til mobilitet, kropsforståelse, og generelt en god varm start på dagen. Det kunne fx være den dynamiske yogaklassiker ”hunden til kobraen”, og en [god dyb squat](/squat-dybt/) med lige ryg, foden i gulvet og masser af ankeltwist. 3 min er fint. Keep it simple.
 
 Derefter er du klar til en god sund morgenmad med gode langsomt optagelige kulhydrater fx i form af havregryn toppet med bær. Bær er antioxidanter som blandt andre gode ting antiinflammatoriske, og er derved gode til at forebygge den irriterede albuer eller led, som der kan forekomme ifbm. de mange statiske hold og det store arbejde ved hang time i bar osv.
 

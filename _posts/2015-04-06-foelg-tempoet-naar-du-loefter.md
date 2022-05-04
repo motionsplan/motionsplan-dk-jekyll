@@ -140,7 +140,7 @@ Som sagt er det et element man kan vælge at bruge. Man kan lave variation i tem
 
 Du kan køre en øvelse **Super Slow**ved at fx køre: T:10.010 eller T:30.010 – dette kan fx være relevant hvis man træner chin ups, og kun kan lave en enkelt eller to.
 
-Man kan også indføre diverse**pauser**, for fx at øge ens styrke i bundpositionen fx T: 3210 – Dette kan fx være relevant hvis man ønsker at øge ens bundstyrke i Squat eller Bænkpres.
+Man kan også indføre diverse**pauser**, for fx at øge ens styrke i bundpositionen fx T: 3210 – Dette kan fx være relevant hvis man ønsker at øge ens bundstyrke i [Squat](/squat/) eller Bænkpres.
 
 Eller standarden 4010, 3010 eller 2010 for blot at holde et konstant tempo i den valgte øvelse.
 

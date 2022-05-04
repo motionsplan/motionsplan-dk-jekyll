@@ -58,7 +58,7 @@ Fx kan du lave et 6 - 8 - 10 dropset.
 
 Du kan både bruge waves til maksimal styrke og hypertrofi. Hvis du gerne vil bruge waves til hypertrofi, skal du naturligvis køre flere reps for at skabe volumen end du gør ifm. maksimal styrke.
 
-Et eksempel kan være en squat.
+Et eksempel kan være en [squat](/squat/).
 
 - 1\. wave: x12 @8, x10 @8, x8 @8
 - 2\. wave: x12, x10, x8 (hæv vægten alt efter overskud)

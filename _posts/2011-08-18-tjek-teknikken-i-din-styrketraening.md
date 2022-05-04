@@ -41,7 +41,7 @@ Hvis vi helt grundlæggende kigger på det, så kan vi reducere **god teknik er 
 
 ### Effektiv teknik
 
-En effektiv teknik kræver, at teknikken passer til din kropsbygning. Der er en verden til forskel om du skal lave squat med en kort overkrop og lange ben eller omvendt. Teknikken skal altå passe til din kropsbygning og dit mål.
+En effektiv teknik kræver, at teknikken passer til din kropsbygning. Der er en verden til forskel om du skal lave [squat](/squat/) med en kort overkrop og lange ben eller omvendt. Teknikken skal altå passe til din kropsbygning og dit mål.
 
 Hvis du laver squat og dødløft er det en klar fordel rent biomekanisk, at stangen bevæger sig lige op og ned, hvis du gerne vil løfte så mange kg som muligt og have den bedst mulige balance under løftet.
 

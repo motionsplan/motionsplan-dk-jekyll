@@ -44,7 +44,7 @@ Denne måde at varme op på til en maxtest og en 1RM-test minder meget om [Tim H
 
 ## Hvordan kan jeg bruge PAP til at forbedre mit 1RM-maxforsøg?
 
-Når du skal lave en max-test og 1RM-test, så kan udnytte fænomenet _post-activation potentiation_ (PAP). De fleste protokoller med PAP udnytter en tung styrketræningsøvelse, fx squat, efterfulgt af en højhastighedsøvelse, fx vertikalt hop. Ideen er, at du ved at squatte en tung vægt uden at gå til _failure_ og derefter holde pause et par minutter, så kan du springe højere end hvis ikke du havde løftet vægten.
+Når du skal lave en max-test og 1RM-test, så kan udnytte fænomenet _post-activation potentiation_ (PAP). De fleste protokoller med PAP udnytter en tung styrketræningsøvelse, fx [squat](/squat/), efterfulgt af en højhastighedsøvelse, fx vertikalt hop. Ideen er, at du ved at squatte en tung vægt uden at gå til _failure_ og derefter holde pause et par minutter, så kan du springe højere end hvis ikke du havde løftet vægten.
 
 [Stack](https://www.stack.com/a/testing-your-one-rep-max-use-this-surprising-science-backed-trick-to-move-more-weight) skriver, at effekten også kan udnyttes den anden vej rundt. Hvis du **først udfører en eksplosiv bevægelse**, holder en kort pause, så kan du **løfte mere efterfølgende**.
 

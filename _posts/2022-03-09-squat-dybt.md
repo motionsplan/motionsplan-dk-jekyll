@@ -19,7 +19,7 @@ Der kan være mange grunde til, at man gerne vil squatte dybt. Her har du nogle 
 
 Lad os først kigge på gode grunde til gerne at ville squatte dybere:
 
-- I [styrkeløftreglerne](/powerlifting-rules/) er der et krav om, at din hoftefold skal være under oversiden af dit knæ. Det betyder, at det er nødvendigt at kunne squatte rimelig dybt i styrkeløft.
+- I [styrkeløftreglerne](/powerlifting-rules/) er der et krav om, at din hoftefold skal være under oversiden af dit knæ, når du er i bunden af dit [squat](/squat/). Det betyder, at det er nødvendigt at kunne squatte rimelig dybt i styrkeløft.
 - Hvis du dyrker crossfit eller vægtløftning, så kan det være en stor fordel at kunne squatte dybt, når du skal gribe vægtstangen i fx frivend eller træk.
 - Hvis du gerne vil have et fuldt bevægelsesudslag og have endnu større træningseffekt af din squattræning.
 

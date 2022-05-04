@@ -85,7 +85,7 @@ Funktionel træning stammer fra fysioterapien og bygger på filosofien, at kropp
 
 ### 2. Hvordan adskiller funktionel styrketræning sig fra almindelig styrketræning?
 
-Hvis du laver din styrketræning i maskiner, så er øvelserne ofte målrettet en bestemt målgruppe. Det gør sig også gældende ved mange isolationsøvelser, som fx biceps curls og triceps extensions. Funktionelle øvelser er mere komplekse og kombinerer ofte styrke, hastighed og poser med balance, smidighed og reaktionsevne. Squat er fx en meget funktionel øvelse, men det er ikke funktionel træning at lave squat på en BOSU-bold.
+Hvis du laver din styrketræning i maskiner, så er øvelserne ofte målrettet en bestemt målgruppe. Det gør sig også gældende ved mange isolationsøvelser, som fx biceps curls og triceps extensions. Funktionelle øvelser er mere komplekse og kombinerer ofte styrke, hastighed og poser med balance, smidighed og reaktionsevne. [Squat](/squat/) er fx en meget funktionel øvelse, men det er ikke funktionel træning at lave squat på en BOSU-bold.
 
 Typisk er funktionel styrketræning også defineret ved, at træningen er udfordrende og afvekslende, så du arbejder med mange forskellige bevægelsesmønstre.
 

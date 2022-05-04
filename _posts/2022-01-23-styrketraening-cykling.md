@@ -61,7 +61,7 @@ Vi anbefaler 8 - 12 repetitioner i hvert set. Husk: langsom og kontrolleret udf�
 
 ### 4. Squats
 
-Squats er den perfekte styrkeøvelse til at maksimere ren styrke og udholdenhed i cykling. Øvelsen træner især dine baglår, hofter, baller og senerne ved knæet (haser). De derfor essentielle i dit cykeltræningsprogram. Ligeledes med dødløftet kan squats også udføres med ét ben ad gangen. Dette hjælper med at øge stabilitet og muskelbalance. Når du laver et squat, er det enormt vigtigt at få helt styr på den rigtige teknik, før du tilføjer ekstra vægt. Øvelsen kan nemlig gøre mere skade end gavn, hvis den udføres forkert.
+[Squats](/squat/) er den perfekte styrkeøvelse til at maksimere ren styrke og udholdenhed i cykling. Øvelsen træner især dine baglår, hofter, baller og senerne ved knæet (haser). De derfor essentielle i dit cykeltræningsprogram. Ligeledes med dødløftet kan squats også udføres med ét ben ad gangen. Dette hjælper med at øge stabilitet og muskelbalance. Når du laver et squat, er det enormt vigtigt at få helt styr på den rigtige teknik, før du tilføjer ekstra vægt. Øvelsen kan nemlig gøre mere skade end gavn, hvis den udføres forkert.
 
 {% include figure image_path="/assets/images/blog/squat.jpg" caption="Squat kan bruges i alle styrketræningsprogrammer" alt="styrketræning til cykling" %}
 

@@ -19,6 +19,7 @@ tags:
   - Mave
 categories:
   - Helkropsøvelse
+  - Squat
 training_type:
   - Balance
   - Styrketræning
