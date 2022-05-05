@@ -23,7 +23,9 @@ last_modified_at: 2021-03-06T23:14:14Z
 
 Jeg har været på udkig efter et alternativ til Body Mass Index (BMI) og er stødt på **Ponderal Index**, som også kaldes **Corpulence Index** eller **Rohrer's Index**. Ponderal index er et mål for om man er undervægtig, overvægtig eller normalvægtig.
 
-Hvad er Ponderal Index? **Ponderal Index er et mål for magerhed og fedme, som udregnes på baggrund af vægten og højden. Ponderal Index er et alternativ til Body Mass Index, som bedre kan bruges til personer af forskellig højde. Ponderal Index behøver ikke at blive justeret for alderen - og kan bruges til både børn og voksne.**
+## Hvad er Ponderal Index?
+
+Ponderal Index er et mål for magerhed og fedme, som udregnes på baggrund af vægten og højden. Ponderal Index er et alternativ til Body Mass Index, som bedre kan bruges til personer af forskellig højde. Ponderal Index behøver ikke at blive justeret for alderen - og kan bruges til både børn og voksne.**
 
 Jeg har skrevet en del om [ulemperne ved Body Mass Index (BMI)]({% link _posts/2019-10-31-bmi.md %}). En af ulemperne ved BMI er, at det kan give en unfair sammenligning mellem folk af forskellig statur. 
 

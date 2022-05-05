@@ -1,6 +1,7 @@
 ---
 title: &title "Udregn idealvægt for mænd og kvinder i vores enkle beregner"
-description: "Er du interesseret i at vide mere om, hvad min idealvægt er? Her er alt du skal vide om idealvægt, normalvægt og gennemsnitsvægt for mænd og kvinder? Prøv vores GRATIS beregner og ..."
+seo_title: "Idealvægt beregner: Hvad er normalvægt for mænd og kvinder?"
+description: "Her får du alt at vide om idealvægt, normalvægt og gennemsnitsvægt for mænd og kvinder? Prøv vores idealvægt beregner og se om du har en sund vægt."
 excerpt: "Jeg får ofte spørgsmålet om, hvad min idealvægt er? Altså ikke min normalvægt, men idealvægten for mænd og kvinder. Der er rigtig mange, der vurderer deres egen sundhed ud fra vægten. Jeg har undersøgt, hvad idealvægt, normalvægt og gennemsnitsvægt er, og hvordan videnskaben er kommet frem til et tal der passer for mænd og kvinder?"
 permalink: /idealvaegt/
 language: da
@@ -28,11 +29,13 @@ faq:
 
 Jeg får ofte spørgsmålet om, hvad min idealvægt er? Altså ikke min normalvægt, men idealvægten for mænd og kvinder. Der er rigtig mange, der vurderer deres egen sundhed ud fra vægten. Jeg har undersøgt, hvad idealvægt, normalvægt og gennemsnitsvægt er, og hvordan videnskaben er kommet frem til et tal der passer for mænd og kvinder?
 
-Hvad er idealvægt? **Idealvægt er et forsøg på at give et bud på, hvilken kropsvægt der teoretisk set vil give dig det længste liv med færrest sygdomme. Idealvægt er altså et mål for, hvornår du er sund ift. livslængde og helbred. Idealvægten udregnes oftest i forhold til din højde, alder, køn og kropsbygning.**
+## Hvad er idealvægt?
+
+Idealvægt er et forsøg på at give et bud på, hvilken kropsvægt der teoretisk set vil give dig det længste liv med færrest sygdomme. Idealvægt er altså et mål for, hvornår du har en sund vægt ift. livslængde og helbred. Idealvægten udregnes oftest i forhold til din højde, alder, køn og kropsbygning.
 
 ## Udregn din idealvægt for voksne mænd og kvinder
 
-Den simple beregner af idealvægt  og normalvægt tager udgangspunkt i de formler, der ser ud til at blive brugt mest til at udregne idealvægten. Formlerne er fra Robinson (1983), Devine (1974), Miller (1983), Hamwi (1964).
+Den simple beregner af idealvægt og normalvægt tager udgangspunkt i de formler, der ser ud til at blive brugt mest til at udregne idealvægten. Formlerne er fra Robinson (1983), Devine (1974), Miller (1983), Hamwi (1964).
 
 Jeg har udvidet beregneren med Peterson et al (2016) og Morten Zachos forslag til bestemmelse af den ideelle vægt baseret på BMI og kropstype, som jeg gennemgår nedenfor.
 
@@ -47,7 +50,7 @@ Devine (1974), Miller (1983), Hamwi (1964) og Robinson (1983) har alle foreslåe
 Formlerne fra Devine (1974), Miller (1983), Hamwi (1964) og Robinson (1983) er beregnet til mennesker, der er højere end 152 cm.
 {: .notice .notice--info }
 
-## Petersons universelle formel baseret på BMI
+## Petersons universelle formel baseret på sundt BMI
 
 Peterson et al (2016) har forbedret formlen for Devine (1974). Peterson et al (2016) fandt at Devine-formlen underestimerede kropsvægten for dem, der ikke var så høje, mens de overestimerede højden for de højere. Formlen passer altså bedst, hvis man ligger tæt på [gennemsnitshøjden](/hvad-er-gennemsnitshoejden-i-danmark/).
 
@@ -67,7 +70,7 @@ Med udgangspunkt i Lemmens (2005) har jeg valgt at bruge en target BMI på 22.
 
 [Morten Zacho](https://web.archive.org/web/20160808221414/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/beregn_din_idealvaegt/){:rel="nofollow"} har som Peterson (2016) også foreslået, at basere idealvægten på Body Mass Index (BMI).
 
-Morten Zacho konkluderer, at videnskaben understøtter at et optimalt BMI er på omkring 22,5 for kvinder og 24,5 for mænd for at opleve det længste liv med færrest sygdomme. Jeg har forklaret rationalet bag i indlægget om [Body Mass Index (BMI)](/bmi/) eller vores [BMI-beregner](/bmi-beregner/).
+Morten Zacho konkluderer, at videnskaben understøtter at et optimalt BMI er på omkring 22,5 for kvinder og 24,5 for mænd for at opleve det længste liv med færrest sygdomme. Jeg har forklaret rationalet bag i indlægget om [BMI](/bmi/) eller vores [BMI-beregner](/bmi-beregner/).
 
 Når man skal udregne idealvægten for kvinder, så kan du altså bruge BMI på 22,5 og for mænd et BMI på 24,5 for at finde idealvægten.
 
@@ -111,13 +114,15 @@ Hvis du vil lære mere om kropskomposition, så har jeg skrevet et indlæg om fo
 
 ## Konklusion
 
-Nyere forskning af [Peterson et al (2016)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4841935/) forsøger at lave en universel formel til at estimere den ideelle kropsvægt og kropsvægt ved ethvert BMI. Det er en fin ressource at dykke ned i, hvis du gerne vil kigge mere på idealvægt.
+Nyere forskning af [Peterson et al (2016)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4841935/) forsøger at lave en universel formel til at estimere den ideelle kropsvægt ved ethvert BMI. Det er en fin ressource at dykke ned i, hvis du gerne vil kigge mere på idealvægt.
 
 Hvis du har gode ideer til, hvordan jeg implementerer det arbejde i beregneren, så brug endelig kommentarerne.
 
-Din vægt er i høj grad individuel, hvilket +/- 6 kg også vidner om. Der er mange forskellige måder at udregne idealvægt på. Et er øjnene der kigger på dig i spejlet, og et andet er hvad der er den optimale vægt for at få et langt liv med færrest mulige sygdomme.
+Der er mange forskellige måder at udregne idealvægt på. Et er øjnene der kigger på dig i spejlet, og et andet er hvad der er den optimale vægt for at få et langt liv med færrest mulige sygdomme. Din vægt er i høj grad individuel, hvilket +/- 6 kg også vidner om.
 
-På mange punkter er det ærgerligt, at idealvægt fylder så meget for mange mennesker, og at det i øjeblikket er baseret på, at man skal have en [lav fedtprocent](/fedtprocent-normer/) snarere end, hvad der er sundt.
+På mange punkter er det ærgerligt, at idealvægt fylder så meget for mange mennesker. Mange fokuserer i øjeblikket på, at det er ideelt at have en [lav fedtprocent](/fedtprocent-normer/) snarere end, hvad der er sundt.
+
+Du skal også huske at normalvægtige personer ikke nødvendigvis har en sund krop. Man kan godt holde sig inden for grænserne for normalvægt, men stadig have en fedtprocent, der er for høj i forhold til sin sundhed.
 
 ## Referencer
 
