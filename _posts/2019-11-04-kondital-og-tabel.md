@@ -164,7 +164,7 @@ Det almindelige kondital udregnes ved at dividere VO<sub>2</sub>max med kropsvæ
 
 Derfor foreslår [Morten Zacho](http://web.archive.org/web/20100131082019/http://www.motion-online.dk/konditionstraening/testning/retfaerdig_vurdering_af_overvaegtiges_kondition/){:rel="nofollow"}, at man i forhold til vejledning har brug for målinger, der <q>objektivt vurderer kondition og vægt adskilt</q>. Med det normale kondital risikerer vi at vejlede til mere motion, selvom det i virkeligheden er kosten, der skaber udfordringer for den enkelte.
 
-Princippet i *Kondital ved Index 23* er, at den maksimale iltoptagelse divideres med den vægt, man ville have haft, hvis man havde [BMI](/bmi/) på 23. Dette vægtuafhængige kondital kan man slå op i de tabeller, der bruges for det almindelige kondital, og dermed få en vægtuafhængig vurdering af konditionen i forhold til alder og køn.
+Princippet i *Kondital ved Index 23* er, at den maksimale iltoptagelse divideres med den vægt, man ville have haft, hvis man havde et [beregnet BMI](/bmi-beregner/) på 23. Dette vægtuafhængige kondital kan man slå op i de tabeller, der bruges for det almindelige kondital, og dermed få en vægtuafhængig vurdering af konditionen i forhold til alder og køn.
 
 ## Hvordan udregnes Kondital ved Index 23?
 

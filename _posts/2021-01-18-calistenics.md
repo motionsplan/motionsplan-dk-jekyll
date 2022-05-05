@@ -21,11 +21,11 @@ tags:
   - træningsprogram
   - øvelser
 gallery:
-  - image_path: https://images.unsplash.com/photo-1592334843880-69bb253e68be?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzk2fHx5b2dhfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60
-    url: https://images.unsplash.com/photo-1592334843880-69bb253e68be?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzk2fHx5b2dhfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=60
+  - image_path: https://images.unsplash.com/photo-1592334843880-69bb253e68be?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzk2fHx5b2dhfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
+    url: https://images.unsplash.com/photo-1592334843880-69bb253e68be?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzk2fHx5b2dhfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
     title: Downward dog
-  - image_path: https://images.unsplash.com/photo-1603710488871-d4c531f20515?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTE1fHx5b2dhfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60
-    url: https://images.unsplash.com/photo-1603710488871-d4c531f20515?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTE1fHx5b2dhfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=60
+  - image_path: https://images.unsplash.com/photo-1603710488871-d4c531f20515?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTE1fHx5b2dhfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
+    url: https://images.unsplash.com/photo-1603710488871-d4c531f20515?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTE1fHx5b2dhfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
     title: Frog
   - image_path: https://images.unsplash.com/photo-1604519561858-19594a77b2c2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=5
     url: https://images.unsplash.com/photo-1604519561858-19594a77b2c2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1900&q=5

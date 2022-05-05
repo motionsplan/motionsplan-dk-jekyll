@@ -130,7 +130,7 @@ Fordi BIA virker ved at måle på vandet i kroppen, så får man brugbar informa
 
 ### 5. Målinger og udregninger
 
-Baseret på målinger med målebånd kan du også udregne din fedtprocent. Præcisionen af disse udregninger er behæftet med de samme usikkerheder, som fx en [BMI beregner](/bmi/) eller andre lignende mere generelle målinger.
+Baseret på målinger med målebånd kan du også udregne din fedtprocent. Præcisionen af disse udregninger er behæftet med de samme usikkerheder, som fx en [BMI beregner](/bmi-beregner/) eller andre lignende mere generelle målinger.
 
 [Udregn din fedtprocent](/artikel/udregning-af-fedtprocent/){: .btn .btn--info .btn--large }
 

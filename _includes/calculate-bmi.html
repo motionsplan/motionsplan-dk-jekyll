@@ -1,6 +1,27 @@
+{% assign children = include.children | default: "false" %}
+{% if children == 'false' %}
+    {% assign legend="Udregning af BMI for voksne kvinder og mænd" %}
+    {% assign age_text = "Er du under 18 år bør du bruge vores [beregner til BMI for børn](/bmi-beregner-boern-unge-teenagere/)." %}
+    {% assign male = 'Mand' %}
+    {% assign female = 'Kvinde' %}
+{% else %}
+    {% assign legend="Udregning af BMI for børn, unge og teenagere" %}
+    {% assign age_text = "Voksne kan bruge vores [beregner til BMI for voksne kvinder og mænd](/bmi/)." %}
+    {% assign male = 'Dreng' %}
+    {% assign female = 'Pige' %}
+{% endif %}
 <form class="calculator" id="calculator_bmi">
     <fieldset>
-        <legend>Udregning af BMI. Indtast værdier</legend>
+        <legend>{{ legend }}</legend>
+        <fieldset>
+            <legend>Køn</legend>
+            <label class="radio">
+                <input type="radio" name="gender" value="male" checked="checked" required> {{ male }}
+            </label>
+    		<label class="radio">
+    		    <input type="radio" name="gender" value="female"> {{ female }}
+    		</label>
+        </fieldset>
         <div class="form-group">
             <label>Højde (cm)
                 <input name="height" type="number" min="50" max="272" placeholder="Højde i cm" step="0.1" required>
@@ -11,15 +32,30 @@
                 <input name="weight" type="number" min="20" max="200" placeholder="Vægt i kg" step="0.1" required>
             </label>
         </div>
+        <div class="form-group">
+            <label>Alder (år)
+                <input name="age" type="number" min="1" max="130" placeholder="Alder i år" step="0.5" required>
+                <span class="help-block">{{ age_text | markdownify }}</span>
+            </label>
+        </div>
+        <div class="form-group" id="bmi-evaluation-criteria">
+            <label>Vurderingskriterium
+                <select name="type">
+                    <option value="who">WHO</option>
+                    <option value="nhanes" selected>NHANES II</option>
+                </select>
+            </label>
+        </div>
         <input type="submit" value="Udregn">
     </fieldset>
-    <fieldset class="results" disabled>
+    <fieldset class="results">
         <legend>Resultater</legend>
-        <label>Body mass index (BMI)
+        <label class="form-inline">Body mass index (BMI)
             <input disabled name="BMI" type="text">
         </label>
-        <label>Ponderal Index
-            <input disabled name="PMI" type="text">
+        <label class="meter-label">Vurdering
+            <meter disabled value="" min="" max="" low="" optimum="" high="" id="meter-bmi"></meter>
+            <span id="meter-text" class="meter-overlay-text"></span>
         </label>
     </fieldset>
     {% include calculator-footer.html %}

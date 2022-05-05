@@ -43,6 +43,8 @@ const bmr_benedict_harris = require('./bmr-benedict-harris');
 const bmr_equilibrium = require('./bmr-ligevaegt');
 const ree = require('./bmr-nordic-2012');
 const bmi = require('./bmi');
+const bmievaluation = require('./bmi-evaluation');
+const ponderalindex = require('./ponderal-index');
 const idealweight = require('./ideal-weight');
 const karvonen = require('./karvonen');
 const index23 = require('./fitness-index-23');
@@ -179,7 +181,6 @@ $(function() {
         $(this).find('td').eq(5).html(weight.toFixed(2));
       });
     });
-
     $("#step_man").change(function() {
         console.log('Ready to calculate');
         $("table#steps > tbody > tr").each(function(i, obj) {
@@ -233,6 +234,16 @@ $(function() {
         $(".walk-met").hide();
         $(".met-explanation").hide();
         $(".walk-pandolf").hide();
+    });
+    $("#bmi-evaluation-criteria").ready(function() {
+        $("#bmi-evaluation-criteria").hide();
+    });
+    $("#calculator_bmi").change(function() {
+        if (Number($("[name='age']").val()) < 18) {
+            $("#bmi-evaluation-criteria").hide();
+        } else {
+            $("#bmi-evaluation-criteria").show();
+        }
     });
     $("#calculator_running_walking").change(function() {
         if ($("#formula-energy-running").val() == 'met') {
@@ -1087,25 +1098,50 @@ $(function() {
         console.log("Calculate BMI");
         e.preventDefault();
 
-      let h = Number($("[name='height']").val());
-      let w = Number($("[name='weight']").val());
+        let h = Number($("[name='height']").val());
+        let w = Number($("[name='weight']").val());
+        let age = Number($("[name='age']").val());
+        let gender = $("[name='gender']:checked").val();
+        let type = $("[name='type']").val();
 
-      let b = bmi.BMI(h, w);
+        let b = bmi.BMI(h, w);
+        let evaluation = bmievaluation.BMIEvaluation(type, gender, age);
+        let meter_text = $("#meter-text");
+        meter_text.text(evaluation.getEvaluation(b.getBMI()));
 
         $("[name='BMI']").val(b.getBMI().toFixed(1));
-        $("[name='PMI']").val(b.getPonderalIndex().toFixed(1));
+
+        let meter = $("#meter-bmi");
+        meter.val(b.getBMI().toFixed(1));
+        meter.text(b.getBMI().toFixed(1));
+        meter.attr('low', evaluation.getLow());
+        meter.attr('high', evaluation.getHigh());
+        meter.attr('optimum', evaluation.getOptimum());
+        meter.attr('min', evaluation.getMin());
+        meter.attr('max', evaluation.getMax());
     });
     // Calculate water intake
     $("#calculator_water_intake").submit(function(e) {
         console.log("Calculate Water Intake");
         e.preventDefault();
 
-      let w = Number($("[name='weight']").val());
-
-      let b = water.WaterIntake(w);
+        let w = Number($("[name='weight']").val());
+        let b = water.WaterIntake(w);
 
         $("[name='daily_water_intake_lower']").val(b.getDailyWaterIntake());
         $("[name='daily_water_intake_upper']").val(b.getDailyWaterIntake("upper"));
+    });
+    // Calculate BMI
+    $("#calculator_ponderal_index").submit(function(e) {
+        console.log("Calculate BMI");
+        e.preventDefault();
+
+        let h = Number($("[name='height']").val());
+        let w = Number($("[name='weight']").val());
+
+        let b = ponderalindex.PonderalIndex(h, w);
+
+        $("[name='PMI']").val(b.getPonderalIndex().toFixed(1));
     });
     // Calculate Body Water
     $("#calculator_bodywater").submit(function(e) {
