@@ -22,7 +22,7 @@ Når du bruger beregneren skal du være opmærksom på, at de fleste mennesker t
 
 Du kan til sidst sammenligne dit resultat med tabeller, der vurderer om dit Body Adiposity Index er undervægtig, sundt, overvægtig eller fed.
 
-Body Adiposity Index beregneren er et alternativ til fx [BMI](/bmi/) og [taljemål og hofteomkreds](/taljemaal/), hvis du gerne vil have et bud på din sundhed. Der er dog også mange andre måder at [beregne sin fedtprocent på](/artikel/udregning-af-fedtprocent/).
+Body Adiposity Index beregneren er et alternativ til fx [BMI](/bmi/) og [taljemål](/taljemaal/), [talje-højde-ratio](/talje-hoejde-beregner/) og [talje-hofte-ratio](/talje-hofte-ratio/), hvis du gerne vil have et bud på din sundhed. Der er dog også mange andre måder at [beregne sin fedtprocent på](/artikel/udregning-af-fedtprocent/).
 
 ## Body Adiposity Index Beregner
 
