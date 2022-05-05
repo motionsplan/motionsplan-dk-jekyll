@@ -1,6 +1,6 @@
 ---
 title: &title "Udregn hvor meget vand du har i kroppen med vores beregner? 🚰"
-seo_title: "Udregn hvor meget vand du har i kroppen [Beregner]?"
+seo_title: "Udregn hvor meget vand du har i kroppen (Beregner)?"
 permalink: /vand-i-kroppen/
 language: da
 header:

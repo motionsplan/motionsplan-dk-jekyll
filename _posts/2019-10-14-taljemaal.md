@@ -107,7 +107,7 @@ Forholdet mellem taljemålet og hoftemålet er en indikator på, om den enkelte 
 
 Ofte er WHR også knyttet sammen med fysisk tiltrækning på tværs af forskellige kulturer.
 
-**Læs**: [Talje-hofte-ratio siger noget om din fedtfordeling [Beregner]](/talje-hofte-ratio/)
+**Læs**: [Talje-hofte-ratio siger noget om din fedtfordeling (Beregner)](/talje-hofte-ratio/)
 
 ### 3. Body Adiposity Index med hoftemålet og højden
 

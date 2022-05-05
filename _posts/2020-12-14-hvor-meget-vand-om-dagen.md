@@ -1,6 +1,7 @@
 ---
-title: &title "Hvor meget vand skal man drikke om dagen? 🚰🚱 [Beregner]"
-seo_title: "Hvor meget vand skal man drikke om dagen? [Beregner]"
+title: &title "Hvor meget vand skal man drikke om dagen? 🚰🚱 (Beregner)"
+seo_title: "Hvor meget vand skal man drikke om dagen? (Beregner)"
+description: "Drikker du for lidt vand? Eller måske for meget? Prøv vores beregner til at udregne dit daglige væskebehov og hvor meget vand man skal drikke om dagen?"
 permalink: /hvor-meget-vand-skal-man-drikke-om-dagen/
 language: da
 author: lsolesen
@@ -62,7 +63,7 @@ De skriver, at mennesker har behov for 30-40 ml væske pr. kg legemsvægt om dag
 
 Der står rigtig [mange steder](https://www.letliv.dk/sund-og-skoen/sundhed/saadan-beregner-du-dit-vaeskebehov), at man har behov for omkring to liter vand dagligt.
 
-Hvad siger videnskaben om dit daglige væskeindtag? Det ser ikke ud til, at der er helt overensstemmelse om det. Meinders og Meinders (2010) konkluderer, at tre liter for mænd og 2,2 liter for kvinder **er mere end rigeligt vand**.
+Hvad siger videnskaben om, hvor meget væske du skal have dagligt? Det ser ikke ud til, at der er helt overensstemmelse om det. Meinders og Meinders (2010) konkluderer, at tre liter for mænd og 2,2 liter for kvinder **er mere end rigeligt vand**.
 
 > The recommended total daily fluid intake of 3,000 ml for men and of 2,200 ml for women is more than adequate. Higher fluid intake does not have any convincing health benefits, except perhaps in preventing (recurrent) kidney stones.
 
@@ -84,7 +85,7 @@ Det er heller ikke lykkes mig at finde det endegyldige videnskabelige bevis for 
 
 [Thornton (2012)](https://pubmed.ncbi.nlm.nih.gov/23216505/) skriver, at tørsten driver os til at drikke to liter vand om dagen.
 
-Hvis 2 liter vand om dagen er det rigtige daglige væskeindtag, så regulerer kroppen formentlig selv væskeindtaget. Du skal altså ikke være bekymret for dit væskeindtag.
+Hvis 2 liter vand om dagen er det rigtige daglige indtag af væske, så regulerer kroppen formentlig selv væskeindtaget. Du skal altså ikke være bekymret for dit væskeindtag.
 
 Noget tyder imidlertid på, at [ældre ikke føler tørst](https://www.herlevhospital.dk/presse-og-nyt/pressemeddelelser-og-nyheder/nyheder/Sider/drikvand.aspx) på samme måde. Hvis du er en af dem, der ikke føler tørst, så er det en god ide at sætte væskeindtaget i system i løbet af dagen.
 
@@ -126,11 +127,13 @@ Du skal altså formentlig have mindst en halv liter vand om dagen. Hvis du drikk
 
 ## Hvorfor skal du drikke vand?
 
-Vand er en væsentlig bestanddel af kroppen - og det er med i rigtig mange af kroppens processer.
+Du skal drikke vand, fordi vand er en væsentlig bestanddel af kroppen. Vandet er en essentiel del af rigtig mange af kroppens processer.
 
 > Stofskiftet hos en normalvægtig person producerer 0,5 liter vand om dagen. Men vi udskiller godt 1 liter om dagen gennem vores åndedræt, afføring og sved. Derfor er der behov for at udligne balancen, så vi ikke dehydrerer.
 
 --- <cite>[Erling Bjerregaard Pedersen](https://samvirke.dk/artikler/kan-man-drikke-for-meget-vand), professor ved klinisk institut for medicin på Aarhus Universitet</cite>
+
+Væsken er bl.a. med til at udlede affaldsstoffer gennem urinen, en stor bestanddel i cellerne og i blodet. Desuden består kropsvæskerne også i høj grad af vand.
 
 ## Hvad tæller med i dit daglige væskeindtag?
 
@@ -142,19 +145,21 @@ Når du øger dit væskeindtag, så vil du opleve at du skal oftere på toilette
 
 ## Hvor lang tid tager det at optage vand?
 
-[Vores Puls](https://vorespuls.dk/kost-sundhed/artikler/saa-meget-vaeske-har-du-brug-for) skriver <q>Kroppen kan maksimalt optage ca. 1,2 liter væske pr. time.</q>. Det er faktisk rimelig hurtigt, men da du under intensiv aktivitet i varmt vejr kan tabe væske på 2-3 liter, så kan du faktisk ikke helt opretholde væskebalancen.
+[Vores Puls](https://vorespuls.dk/kost-sundhed/artikler/saa-meget-vaeske-har-du-brug-for) skriver <q>Kroppen kan maksimalt optage ca. 1,2 liter væske pr. time.</q>. Det er rimelig hurtigt, men da du under intensiv aktivitet i varmt vejr kan tabe væske på 2-3 liter, så kan du alligevel ikke helt opretholde væskebalancen.
 
-Hvis du vil besvare spørgsmålet: Hvor lang tid tager det et glas vand at komme igennem kroppen? Et glas er typisk på 1-2 dl. Et glas vand kan altså optages i kroppen på omkring 10 minutter, hvis kroppen kan optage 1,2 liter vand på en time.
+Hvis du vil besvare spørgsmålet: "Hvor lang tid tager det et glas vand at komme igennem kroppen?" Et glas er typisk på 1-2 dl. Et glas vand kan altså optages i kroppen på omkring 10 minutter, hvis kroppen kan optage 1,2 liter vand på en time.
 
 ## Hvordan kan jeg se om jeg har drukket nok?
 
-Hvis du ikke har drukket nok vand, så vil du typisk kunne mærke det i kroppen. Måske bliver du træt, får hovedpine eller bliver utrolig tørstig.
+Hvis du ikke har drukket nok vand, så vil du typisk kunne mærke det i kroppen. Måske bliver du træt, får hovedpine eller bliver utrolig tørstig. Så er det tid til at drikke vand for at slukke tørsten. Kroppen regulerer selv væskebalancen på den måde.
 
 Du kan typisk også se på din urin, om du får nok væske. Hvis din urin er mørk og koncentreret, så er det et tegn på, at du har fået for lidt væske. Hvis urinen derimod er lys og vandig, så er det et godt tegn.
 
 ## Hvor meget vand er der i kroppen?
 
-Jeg har skrevet et andet indlæg, hvor du læse mere om, [hvor meget vand, mennesket har i kroppen]({% link _posts/2020-06-16-vand-i-kroppen.md %}).
+Mennesket består i høj grad af vand. Væskebalancen er livsvigtig for, at vores krop og hjerne kan fungere effektivt. Andelen af vand varierer med højden, vægten, køn og alder. Vores krop består af mellem 45 og 75 procent af vægten er vand.
+
+**Læs**: [Hvor meget vand har mennesket i kroppen?]({% link _posts/2020-06-16-vand-i-kroppen.md %}).
 
 ## Hvordan får jeg nok væske på en dag?
 
@@ -168,4 +173,4 @@ Hvis du får for lidt at drikke, så kan du gøre følgende til en lille vane:
 - Til alle måltider sørger du for at hælde et glas vand op.
 - Hav altid en vanddunk med, så du kan få lidt at drikke
 
-Hvordan holder du styr på væskebalancen?
+Hvordan holder du styr på en sund væskebalance?

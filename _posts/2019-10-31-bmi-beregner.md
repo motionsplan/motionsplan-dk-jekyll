@@ -2,7 +2,7 @@
 title: "BMI-beregner: Udregn dit BMI for kvinder og mænd"
 seo_title: "BMI beregner: Udregn dit BMI for kvinder og mænd"
 # Udregn BMI: Måler og beregner for kvinder, mænd og børn
-# Better than: BMI - Tabel og skema for kvinder, mænd og børn [Beregner] »
+# Better than: BMI - Tabel og skema for kvinder, mænd og børn (Beregner) »
 description: "GRATIS og nøjagtig BMI beregner for kvinder og mænd. Udregn dit BMI og sammenlign det med et forbedret BMI skema og tabel. Forstå alle detaljerne i dag!"
 permalink: /bmi-beregner/
 excerpt: "Body Mass Index (BMI) er et meget udbredt formel til at teste og måle, om du er sund. I denne BMI-beregner kan du udregne dit BMI og vurdere resultatet ud fra en forbedret BMI skala og tabel for voksne mænd og kvinder."

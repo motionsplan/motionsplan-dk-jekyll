@@ -1,5 +1,5 @@
 ---
-title: "Beregn dit daglige energiforbrug og energibehov [Beregner]"
+title: "Beregn dit daglige energiforbrug og energibehov (Beregner)"
 permalink: /beregner/dagligt-energiforbrug-energibehov/
 redirect_from:
   - /beregner/stofskifte-energiforbrug-energibehov/

@@ -1,5 +1,5 @@
 ---
-title: &title "Hvor langt skal jeg løbe på et interval? [Beregner]"
+title: &title "Hvor langt skal jeg løbe på et interval? (Beregner)"
 permalink: /hvor-langt-per-interval/
 language: da
 header:

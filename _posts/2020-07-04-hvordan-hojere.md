@@ -120,7 +120,7 @@ Når først epifyseskiverne er lukket, så sker der ikke mere længdevækst i kn
 
 Din højde bestemmes først og fremmest af genetiske faktorer. Hvis din familie er høj, så er der større chancer for, at du selv bliver høj.
 
-Når tingene er genetiske, så kan man også regne lidt på det. Sundhed.dk har lavet en [beregner](https://www.sundhed.dk/borger/patienthaandbogen/boern/om-boern/boerns-udvikling/vaekst-hos-barnet/), hvor du på baggrund af din fars og mors højde kan få et bud på, hvor høj du selv bliver. Den kunne faktisk gætte min egen højde på centimeteren, men den virker nok ikke så godt for alle.
+Når tingene er genetiske, så kan man også regne lidt på det. Sundhed.dk har lavet en (Beregner)(https://www.sundhed.dk/borger/patienthaandbogen/boern/om-boern/boerns-udvikling/vaekst-hos-barnet/), hvor du på baggrund af din fars og mors højde kan få et bud på, hvor høj du selv bliver. Den kunne faktisk gætte min egen højde på centimeteren, men den virker nok ikke så godt for alle.
 
 Du kan læse mere om baggrunden bag beregneren på [Rigshosptalets Vækstkurver](http://www.xn--vkstkurver-d6a.dk/estimeret_sluthoejde.html).
 

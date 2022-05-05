@@ -1,5 +1,5 @@
 ---
-title: "Vmax intervaller til cykling [Beregner]"
+title: "Vmax intervaller til cykling (Beregner)"
 permalink: /vmax-cykling/
 excerpt: "I Vmax-træning til cykling arbejder du med en intensitet i nærheden af din maksimale iltoptagelse. I denne beregner kan du udregne, hvor mange watt du skal træde med for at få en passende intensitet i intervallerne."
 language: da

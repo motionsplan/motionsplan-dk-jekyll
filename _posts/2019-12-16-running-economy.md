@@ -1,6 +1,6 @@
 ---
 title: "Beregn din løbeøkonomi: 4 tips til træning af løbeøkonomi 🏃"
-seo_title: "Løbeøkonomi - 4 tips til at løbe mere effektivt [Beregner]"
+seo_title: "Løbeøkonomi - 4 tips til at løbe mere effektivt (Beregner)"
 description: "Hvad er løbeøkonomi, og hvordan beregner du din løbeøkonomi. Komplet guide til hvordan du forbedrer din løbeøkonomi - og 4 tips til din træning."
 permalink: /lobeokonomi/
 redirect_from:

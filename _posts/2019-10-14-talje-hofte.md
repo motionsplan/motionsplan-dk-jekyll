@@ -1,5 +1,5 @@
 ---
-title: "Talje-hofte-ratio siger noget om din fedtfordeling [Beregner]"
+title: "Talje-hofte-ratio siger noget om din fedtfordeling (Beregner)"
 seo_title: "Talje-hofte-ratio | Beregn fordelingen af dit fedt" 
 description: "Vil du gerne vide mere om fedtfordelingen på din krop? Mål din talje-hofte-ratio og få svaret i vores beregner."
 excerpt: "Forholdet mellem taljemål og hoftemål kan på en enkel måde at sige noget om fedtfordelingen på din krop. Studier har vist, at der er en sammenhæng mellem forholdet mellem livvidden og hoftemålet og risikoen for livsstilssygdomme. Jeg har researchet hvilke forskellige taljemål og hoftemål, der findes."

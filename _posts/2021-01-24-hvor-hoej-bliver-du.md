@@ -1,6 +1,6 @@
 ---
-title: &title "Hvor høj bliver jeg? 📏 [Beregner]"
-seo_title: "Hvor høj bliver jeg 2022? 📏 [Beregner]"
+title: &title "Hvor høj bliver jeg? 📏 (Beregner)"
+seo_title: "Hvor høj bliver jeg 2022? 📏 (Beregner)"
 permalink: /hvor-hoej-bliver-jeg/
 last_modified_at: 2021-01-18T09:41:09Z
 author: lsolesen

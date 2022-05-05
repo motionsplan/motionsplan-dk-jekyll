@@ -1,5 +1,5 @@
 ---
-title: &title "Forskel på fedtenergiprocent og fedtprocent i mad [Beregner]"
+title: &title "Forskel på fedtenergiprocent og fedtprocent i mad (Beregner)"
 permalink: /fedtenergiprocent/
 language: da
 header:
