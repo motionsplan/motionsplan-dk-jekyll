@@ -90,7 +90,6 @@ Her kan du se nogle udvalgte løb:
 
 - [Salomon Hammer Trail](http://hammertrail.dk/). Du kan vælge mellem distancer fra 25-160 kilometer i dette trailrunning event på Bornholm. Det er godt at have styr på din bakketræning på forhånd.
 - [Garmin Trailman](http://www.trailman.dk/). Trailman er fem landsdækkende trailløb med distancer fra 7-83 kilometer.
-- [LØBEREN Trail Adventure](https://www.loberen.dk/node/118370). Her kan du finde en serie af trailløb i Jylland, som løbes hele året.
 
 ## Konklusion
 
