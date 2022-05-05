@@ -8,8 +8,9 @@ header:
   caption: "Ikke alle safety bars er skabt ens. Vælg den rigtige safety bar til din squat!"
 category:
   - Styrketræning
+  - Squat
 tags:
-  - safety bar squat
+  - squat
   - træningsøvelse
 last_modified_at: 2020-07-05T21:49:14Z
 toc: true
@@ -18,7 +19,6 @@ gallery:
     url: https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
     alt: "Håndtag til at lave armbøjninger, armstrækninger og pushups"
     title: "Håndtag til at lave armbøjninger, armstrækninger og pushups"
-breadcrumbs: true
 ---
 
 Jeg er blevet interesseret i safety bar squats, fordi har lidt vrøvl med skulderen. Mange mener at alle træningscentre bør have en god safety squat stang, men hvad en god safety bar, og hvilke fordele har en safety squat bar?
@@ -111,9 +111,9 @@ Det vigtigste for en velfungerende safety bar er vinklingen mellem håndtagene o
 
 Når du søger på safety bar kommer der mange versioner frem i mange forskellige prislejer.
 
-De følgende safety bars er **ikke konstrueret korrekt og kan således ikke anbefales**:
+De følgende safety bars er ifølge Bigshooter **ikke konstrueret korrekt og kan således ikke anbefales**:
 
-- **Watson Safety Bar** har for stor en vinkel mellem håndtaget og skiverne, som Bigshooter skriver.
+- **Watson Safety Bar** har for stor en vinkel mellem håndtaget og skiverne.
 - **Asbjørn Riis’ Safetybar** har ingen vinkling.
 
 Men **hvilke safety bars kan så anbefales**?
