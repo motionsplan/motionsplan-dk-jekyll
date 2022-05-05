@@ -77,7 +77,7 @@ RER-værdien er altså forholdet mellem det udskilte CO<sub>2</sub> og den optag
 
 Når du nærmer dig din maksimale ydeevne, så vil en del af energien blive produceret anaerobt.
 
-Når det anaerobe arbejde stiger falder pH-værdien i cellerne og i blodet, bl.a. fordi der sker en ophobning af mælkesyre. For at neutralisere den faldende pH-værdi i blodet forsøger kroppen at udskille ekstra CO<sub>2</sub> ved at hyperventilere. Veltrænede personer kan arbejde med en RER-værdi på over 1 i adskillige minutter.
+Når det anaerobe arbejde stiger falder pH-værdien i cellerne og i blodet, bl.a. fordi der sker en [ophobning af mælkesyre](/maelkesyre-traening/). For at neutralisere den faldende pH-værdi i blodet forsøger kroppen at udskille ekstra CO<sub>2</sub> ved at hyperventilere. Veltrænede personer kan arbejde med en RER-værdi på over 1 i adskillige minutter.
 
 Det er også derfor at _cutoff_ i en maxtest på løbebåndet typisk kræver RER-værdier på mere end 1,1.
 

@@ -142,7 +142,7 @@ Eksempler på sprintintervaller kan fx være:
 
 ### 2. Intervalløb til mælkesyreproduktion
 
-Hvis du gerne vil træne mælkesyreproduktionen og evnen til at løbe virkelig hurtigt i intervaller, så kan du bruge intervaller fra 200-600 meter. Pauselængden er mindst 1:3, men kan sagtens være endnu længere. Typisk er den totale dsitance 2-3 km.
+Hvis du gerne vil træne [mælkesyreproduktionen](/maelkesyre-traening/) og evnen til at løbe virkelig hurtigt i intervaller, så kan du bruge intervaller fra 200-600 meter. Pauselængden er mindst 1:3, men kan sagtens være endnu længere. Typisk er den totale dsitance 2-3 km.
 
 Formålet med de maksimale intervaller, som skaber rigtig meget træthed og mælkesyre, er at træne hastighed, mens du bliver træt. Samtidig forbedrer det evnen til at arbejde med mange træthedsstoffer og mælkesyre.
 

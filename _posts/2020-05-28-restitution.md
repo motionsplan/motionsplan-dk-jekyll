@@ -75,7 +75,7 @@ restitution og muskler
 ### 8 effekter af restitutionen
 
 - Na-K pumpen genoprettes
-- Ophobet mælkesyre i muskler fjernes
+- [Ophobet mælkesyre i muskler](/maelkesyre-traening/) fjernes
 - Hormonbalance i nerve-muskelovergange genoprettes
 - Blodsukkerniveauet genreguleres
 - Tømte celleenergilagre opbygges

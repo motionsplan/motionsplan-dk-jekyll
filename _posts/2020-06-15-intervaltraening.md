@@ -65,7 +65,7 @@ Intervaltræning kan også være hårdt for kroppen. Hvis du fx laver sprint-int
 Når du tilføjer intervaltræning til din træning, så skal du være opmærksom på, hvilket formål du gerne vil opfylde, og hvilke intervaller du vælger. Intervaller kan være konstrueret til mange forskellige formål.
 
 - forbedre den maksimale iltoptagelse og flytte arbejdskapaciteten
-- forbedre evnen til at arbejde med træthedsstoffer, fx mælkesyre i musklerne
+- forbedre evnen til at arbejde med træthedsstoffer, fx [mælkesyre i musklerne](/maelkesyre-traening/)
 - være udhvilet til at kunne yde en maksimal indsats i alle arbejdsperioderne
 - være frisk i hvert interval til at arbejde med teknik
 

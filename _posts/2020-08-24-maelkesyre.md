@@ -1,5 +1,6 @@
 ---
-title: &title "Mælkesyre: Alt du skal vide om mælkesyre, laktat og træning"
+title: &title "Mælkesyre: Hvorfor syrer dine muskler til?"
+seo_title: "Mælkesyre: Hvorfor syrer dine ben ved hård træning?"
 description: "Hvorfor opstår mælkesyre i musklerne i forbindelse med træning? Få svaret på, hvorfor kroppen syrer til under træning og der kommer laktat i blodet."
 permalink: /maelkesyre-traening/
 last_modified_at: 2021-01-20T09:41:09Z
