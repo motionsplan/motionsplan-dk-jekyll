@@ -369,7 +369,7 @@ defaults:
       read_time: true
       comments: true
       share: true
-      related: true
+      related: false
       toc: true
       toc_sticky: false
       author: lsolesen
@@ -389,7 +389,7 @@ defaults:
       read_time: false
       comments: true
       share: true
-      related: true
+      related: false
       author: lsolesen
       sidebar:
         nav: exercises
@@ -406,7 +406,7 @@ defaults:
       read_time: true
       comments: true
       share: true
-      related: true
+      related: false
       author: lsolesen
       sidebar:
         nav: methods
@@ -421,7 +421,7 @@ defaults:
       read_time: false
       comments: true
       share: true
-      related: true
+      related: false
       author: lsolesen
       tag_archive_path: /programs/tags/
       category_archive_path: /programs/categories/
@@ -436,7 +436,7 @@ defaults:
       read_time: false
       comments: true
       share: true
-      related: true
+      related: false
       toc: false
       toc_sticky: false
       author: lsolesen
@@ -454,7 +454,7 @@ defaults:
       author_profile: true
       comments: true
       share: true
-      related: true
+      related: false
       search: true
   # _redirects
   - scope:
