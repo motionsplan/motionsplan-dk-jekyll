@@ -42,14 +42,14 @@ Jeg har udvidet beregneren med Peterson et al (2016) og Morten Zachos forslag ti
 
 I gennem forskellige studier har der været virkelig mange forskellige bud på, hvordan man kan udregne idealvægten.
 
-Devine (1974), Miller (1983), Hamwi (1964) og Robinson (1983) har alle foreslået formler til, som tager udgangspunkt i dit køn og din højde. Formlerne og udregningerne tager altså ikke højde for kropsbygning og muskelmasse.
+Devine (1974), Miller (1983), Hamwi (1964) og Robinson (1983) har alle foreslået formler til, som tager udgangspunkt i dit køn og din højde. Formlerne og udregningerne medregner således ikke kropsbygning og muskelmasse.
 
 Formlerne fra Devine (1974), Miller (1983), Hamwi (1964) og Robinson (1983) er beregnet til mennesker, der er højere end 152 cm.
 {: .notice .notice--info }
 
 ## Petersons universelle formel baseret på BMI
 
-Peterson et al (2016) har forbedret formlen for Devine (1974). Peterson et al (2016) fandt at Devine-formlen underestimerede kropsvægten for dem, der ikke var så høje, mens de overestimerede højden for de højere.
+Peterson et al (2016) har forbedret formlen for Devine (1974). Peterson et al (2016) fandt at Devine-formlen underestimerede kropsvægten for dem, der ikke var så høje, mens de overestimerede højden for de højere. Formlen passer altså bedst, hvis man ligger tæt på [gennemsnitshøjden](/hvad-er-gennemsnitshoejden-i-danmark/).
 
 Derfor foreslår Peterson et al (2016) at basere idealvægten på et _target BMI_. Som Devine (1974), så kan formlerne kun bruges for mennesker, der er højere end 152 cm.
 

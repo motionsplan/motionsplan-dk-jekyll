@@ -54,11 +54,11 @@ Er du højere eller lavere end gennemsnittet i Danmark?
 
 Du har garanteret set højde-kurver før. Med vækstkurver kan du sammenligne dig selv med gennemsnittet af andre børn. Kurverne går fra 0-20 år, da højdevæksten for det meste går i stå ved 20 års-alderen.
 
-Vækstkurven for drenge:
+### Vækstkurven for drenge:
 
 {% include figure image_path="https://www.sundhed.dk/content/cms/94/61594_vaekstkurve-drenge902x1279.jpg" caption="Vækstkurve for drenge fra 0-20 år, som kan bruges til at følge højdeudvikling i forhold til gennemsnittet for andre børn. [PDF](http://www.vækstkurver.dk/files/Boys-weight--and-height-for-age-0-20-yrs.pdf). Kilde: [Sundhed.dk](https://www.sundhed.dk/borger/patienthaandbogen/boern/illustrationer/tegning/vaekstkurve-drenge-0-20/)" %}
 
-Vækstkurven for piger:
+### Vækstkurven for piger:
 
 {% include figure image_path="https://www.sundhed.dk/content/cms/95/61595_vaekstkurve-pige902x1282.jpg" caption="Vækstkurve for piger fra 0-20 år, som kan bruges til at følge højdeudvikling i forhold til gennemsnittet for andre børn. [PDF](http://www.vækstkurver.dk/files/Girls-weight--and-height-for-age-0-20-yrs.pdf). Kilde: [Sundhed.dk](https://www.sundhed.dk/borger/patienthaandbogen/boern/illustrationer/tegning/vaekstkurver-piger-0-20/)" %}
 
@@ -82,7 +82,7 @@ Hatton (2014) foreslår følgende til at forklare højdeudviklingen over tid for
 
 --- <cite>[Hatton (2014)](https://academic.oup.com/oep/article-abstract/66/2/349/2362600?redirectedFrom=fulltext)</cite>
 
-Hvis du kan supplere med flere datapunkter til opgørelsen over gennemsnitshøjden i Danmark for mænd og kvinder, så skriv endelig i kommentarerne.
+Hvis du kan supplere med flere datapunkter til opgørelsen over [gennemsnitshøjden i Danmark for mænd og kvinder](/hvad-er-gennemsnitshoejden-i-danmark/), så skriv endelig i kommentarerne.
 
 ## Hvad betyder højden egentlig?
 
