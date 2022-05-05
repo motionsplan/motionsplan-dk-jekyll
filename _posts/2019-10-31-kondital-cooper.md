@@ -1,6 +1,6 @@
 ---
 title: "Cooper-test: Find kondital med Coopers 12 minutters løbetest"
-seo_title: "Cooper test • Tabel og beregner til kondital"
+seo_title: "Cooper test • Skema og beregner til kondital"
 description: "Beregn dit kondital med Cooper test GRATIS i vores beregner. Se dit resultat i en tabel og skema lige til at skrive ud."
 permalink: /cooper-test/
 redirect_from:
@@ -128,9 +128,13 @@ Mange stiller spørgsmålet: "Hvor langt kan man løbe på 12 minutter?" Hvis du
 
 Det afhænger naturligvis af din kondition og løbeøkonomi, hvor hurtigt og hvor langt du kan løbe på Cooper-testens 12 minutter. Der findes tabeller, hvor du kan vurdere din løbedistance på Cooper-testen med normalværdier.
 
-Hvis vi tager **verdensrekordholderen på 5 kilometer for mænd**, Joshua Cheptegei, og smider hans tid på 12:35:36 ind i [en formel for hastighed og vores beregner for gennemsnitshastighed]({% link _posts/2019-12-05-hastighed-beregnere.md %}), så løber han altså i 23,84 km/t i gennemsnit. Det svarer til, at han løber 4,8 kilometer på 12 minutter.
+Lad os prøve at sammenligne med de bedste løbere i verden?
 
-Hvis vi tager den **kvindelige verdensrekordholder på 5 kilometer**, Letesenbet Gidey, som har løbet på 14:06:62, så svarer det til en gennemsnitshastighed på 21,25 km/t. På 12 minutter ville hun altså nå at løbe 4,3 kilometer.
+## Hvad er rekorden for at løbe 12 minutter?
+
+Hvis vi tager **verdensrekordholderen på 5 kilometer for mænd**, Joshua Cheptegei, og smider hans tid på 12:35:36 ind i [en formel for hastighed og vores beregner for gennemsnitshastighed]({% link _posts/2019-12-05-hastighed-beregnere.md %}), så løber han 23,84 km/t i gennemsnit. Det svarer til, at han løber 4,8 kilometer på 12 minutter.
+
+Hvis vi tager den **kvindelige verdensrekordholder på 5 kilometer**, Letesenbet Gidey, som har løbet på 14:06:62, så svarer det til en gennemsnitshastighed på 21,25 km/t. På 12 minutter ville hun nå at løbe 4,3 kilometer.
 
 Så langt når du nok ikke, men du kan sammenligne dig selv i tabellerne nedenunder.
 

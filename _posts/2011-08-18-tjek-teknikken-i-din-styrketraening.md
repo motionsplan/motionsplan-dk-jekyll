@@ -1,6 +1,6 @@
 ---
 title: "7 tips til den rigtige teknik i styrketræning "
-seo_title: "Teknik i styrketræning - 7 tips til at løfte rigtigt [2022]"
+seo_title: "Teknik i styrketræning - 7 tips til at løfte rigtigt (2022)"
 description: "God teknik i styrketræning er effektiv teknik, som minimerer skadesrisikoen. Derfor er god teknik til styrketræning er individuelt. Hvad er din?"
 permalink: /rigtig-teknik-styrketraening/
 redirect_from:

@@ -1,5 +1,6 @@
 ---
 title: "Mavebøjning, løftede fødder"
+seo_title: "Mavebøjning med løftede fødder | Træn den lige mavemuskel"
 instructions: ""
 permalink: /oevelse/maveboejning-loeftede-foedder/
 redirect_from: /node/282
@@ -12,8 +13,10 @@ categories:
   - Maveøvelser
 training_type: []
 training_focus: []
-equipment: []
-muscle_group: []
+equipment:
+  - kropsvægt
+muscle_group:
+  - Mave
 gallery:
   - url: /assets/images/exercises/maveboejning-loeftede-foedder-0.jpg
     image_path: /assets/images/exercises/maveboejning-loeftede-foedder-0-320.jpg
@@ -31,3 +34,5 @@ last_modified_at: 2011-04-19T11:47:02Z
 ---
 
 {{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}
+
+Denne øvelser er en variation af [mavebøjninger](/oevelse/maveboejning/). Du kan finde mange flere [maveøvelser](/maveoevelser/), hvis du skal have en skarp mave.

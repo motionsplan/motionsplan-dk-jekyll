@@ -2,7 +2,7 @@
 title: "Rygstrækning på skrå bænk"
 excerpt: "Lig på bænken, så du uhindret kan bøje i hoften. Bøj i hoften og hold igen indtil kroppen hænger næsten lodret ned. Bevæg dig tilbage til udgangspunktet. "
 instructions: "Lig på bænken, så du uhindret kan bøje i hoften. Bøj i hoften og hold igen indtil kroppen hænger næsten lodret ned. Bevæg dig tilbage til udgangspunktet. "
-permalink: /oevelse/rygstraekning/
+permalink: /oevelse/rygstraekning-skraa-baenk/
 redirect_from: /node/243
 id: 243
 language: da
@@ -51,7 +51,8 @@ last_modified_at: 2014-10-12T19:11:23Z
 
 Øvelsen arbejder med hele bagsiden af kroppen inklusiv bevægelse af rygsøjlen. Justér fodstøtten på den skrå bænk, så du uhindret kan flektere i hoften. Det er ikke funktionelt at lave en modsatrettet rulning. Egentlig træner øvelsen lidt at samle noget let op fra gulvet. Put først mere vægt på øvelsen, når du har en god udholdenhed i ryggens muskler. Hvis du primært laver øvelsen for at træne hofteekstensorerne, kan vi anbefale dødløft og dens varianter i stedet.
 
-Variationer:
+## Variationer af skrå rygstrækning
 
 - Holdes ryggen ret i hele bevægelsen bliver kun hofteekstensorerne trænet dynamisk.
 - Du kan variere belastningen ift. hvor du holder armene under udførelsen.
+- Du kan også lave [rygstrækninger på gulvet](/oevelse/rygstraekning/).

@@ -487,6 +487,17 @@ $(function() {
       $("[name='e1rm']").val(hr.getE1RM().toFixed(1));
       $("[name='want_weight']").val(hr.getWantWeight(want_reps, want_rpe).toFixed(1));
     });
+    $("#calculator_fat_bai").submit(function(e) {
+      console.log("Calculate BAI");
+      e.preventDefault();
+
+      let HC = Number($("[name='hc']").val());
+      let HM = Number($("[name='hm']").val() / 100);
+
+      let bai = (HC / Math.pow(HM,1.5)) - 18;
+      
+      $("[name='bai']").val(bai.toFixed(1));
+    });
     $("#calculator_maffetone").submit(function(e) {
         console.log("Calculate Maffetone");
         e.preventDefault();
