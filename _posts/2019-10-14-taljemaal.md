@@ -1,7 +1,7 @@
 ---
 title: "Mål dit taljemål og tjek din sundhed"
-seo_title: "Taljemål | Mål det korrekt og tjek din sundhed"
-description: "Taljemål er for mænd og kvinder en enkel måde at sige noget om din sundhed. Tjek her hvordan du måler det og bruger det?"
+seo_title: "Taljemål - Mål det korrekt og tjek din sundhed"
+description: "Vil du vide mere om din fedtfordeling? Tag dit taljemål og få et bud på risikoen for livsstilssygdomme for mænd og kvinder. Få alle detaljerne her."
 excerpt: "Taljemål er en enkel måde at sige noget om din sundhed. Studier har vist, at der er en sammenhæng mellem taljemål for mænd og kvinder og risiko for livsstilssygdomme. Jeg har researchet lidt på hvilke forskellige taljemål, der findes."
 permalink: /taljemaal/
 language: da
@@ -24,17 +24,17 @@ Dit taljemål er en enkel måling, som kan sige noget om din sundhed. Studier ha
 
 Her går jeg i dybden med taljemålet, men kommer også ind på forskellige andre mål, hvor taljemålet indgår, fx [talje-hofte-mål](/talje-hofte-ratio/) og [talje-højde-mål](/talje-hoejde-beregner/).
 
-## Hvad er taljemålet (livvidden)
+## Hvad er taljemålet (livvidden)?
 
-**Taljemål (mål af livvidde)**. Taljemålet måles der hvor taljen er smallest. Taljemålet kan indikere noget om ens risiko for sygdomme. Taljemålet kaldes også med et andet ord for livvidde.
+Dit taljemål er omkredsen rundt om taljen. Taljemålet måles, hvor taljen er smallest. Taljemålet kan indikere noget om ens risiko for livsstilssygdomme. Taljemålet kaldes også med et andet ord for livvidde.
 
-Flere studier viser sammenhæng mellem taljemålet og risikoen for mange livsstilssygdomme, som fx hjertekarsygdomme og diabetes type II.
+Flere studier viser sammenhæng mellem taljemålet og risikoen for mange sygdomme, som fx hjertekarsygdomme og diabetes type II.
 
 Taljemålet er særligt relevant, fordi fedtet omkring maven giver øget risiko for sygdomme. I forbindelse med træning er taljemålet også et bedre mål for fedttab end vægt og [udregninger af BMI](/bmi-beregner/). Man kan nemlig godt blive tungere af træning, fordi man øger muskelmassen, men hvis man taber fedt, så vil taljemålet alt andet lige falde.
 
-## Hvordan måles taljemålet (livvidde)?
+## Hvordan måler jeg mit taljemål (livvidde)?
 
-Hvordan måler du taljen (din livvidde)? Og hvor måles taljemål for mænd og kvinder? Det får du svar på i dette afsnit.
+Hvordan måler du dit taljemål (din livvidde)? Og hvor måles taljemål for mænd og kvinder? Det får du svar på i dette afsnit.
 
 Sådan måler du dit taljemål:
 
@@ -46,18 +46,18 @@ Hvis du er i tvivl, kan du også mærke dig frem til punktet, som på siden af k
 
 {% include video provider="youtube" id="Cytz_9lMl68" %}
 
-## Normalværdier for taljemålet (livvidde) for mænd og kvinder
+## Hvad er et normalt taljemål for mænd og kvinder
 
-Studier med taljemål har vist, at man kan have forøget risiko for kredsløbssygdomme, hvis ens taljemål er højt.
+Studier med taljemål har vist, at man kan have forøget risiko for kredsløbssygdomme, hvis ens taljemål er højt. Rationalet er, at man ved et højt taljemål har meget mavefedt.
 
-Denne tabel er det mest brugte skema og tabel til at vurdere taljemål for kvinder og mænd ifølge [hjerteforeningen.dk](https://hjerteforeningen.dk/2013/05/fedt-paa-maven-er-ufedt/) i forhold til risikoen for livsstilssygdomme.
+Denne tabel er det mest brugte skema til at vurdere taljemål for kvinder og mænd ifølge [hjerteforeningen.dk](https://hjerteforeningen.dk/2013/05/fedt-paa-maven-er-ufedt/) i forhold til risikoen for livsstilssygdomme.
 
 |         | Let forøget risiko | Forøget risiko |
 |---------|--------------------|----------------|
 | Mænd    | > 94 cm            | > 102 cm       |
 | Kvinder | > 80 cm            | > 88 cm        |
 
-Vurderingen i tabellen er naturligvis meget forenklet. [Bray (2004)](https://academic.oup.com/ajcn/article/79/3/347/4690117) har foreslået en lidt mere præcis opdeling for taljemålet og livvidden for mænd og kvinder med lidt flere kategorier for risici for livsstilssygdomme.
+Vurderingen i tabellen er naturligvis meget forenklet. [Bray (2004)](https://academic.oup.com/ajcn/article/79/3/347/4690117) har foreslået en lidt mere præcis opdeling for taljemålet og livvidden for mænd og kvinder. I tabellen er der tilføjet lidt flere kategorier for at vurdere risikoen for livsstilssygdomme, så du kan se om du har et sundt taljemål.
 
 |           | Kvinder   | Mænd        |
 |-----------|-----------|-------------|
@@ -119,7 +119,9 @@ Herfra får du en fedtprocent, som du kan sammenligne med [tabeller for en sund 
 
 ## Opsamling på taljemål
 
-Taljemålet er et meget udbredt mål til at sige noget om sundhed. Der findes imidlertid nogle alternativer, som praktisk talt er lige så lette at bruge, men som kan give nogle lidt mere retvisende svar i forhold til den enkeltes sundhed.
+Taljemålet er et meget udbredt mål til at sige noget om sundhed. Det kan være en god ide at måle sit taljemål engang imellem for at lave et lille sundhedstjek. **Men når det er sagt, så fortæller dit taljemål altså ikke hele historien om din kropsbygning og sundhedstilstand.**
+
+Der findes imidlertid nogle alternativer, som praktisk talt er lige så lette at bruge, men som kan give nogle lidt mere retvisende svar i forhold til den enkeltes sundhed.
 
 Hvis dit taljemål ligger uden for det anbefalede, så kan du med fordel tjekke enten talje-højde-målet eller talje-hofte-forholdet, inden du begynder at danse for meget rundt om dig selv i bekymring.
 
