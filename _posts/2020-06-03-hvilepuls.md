@@ -1,7 +1,7 @@
 ---
 title: &title "Hvilepuls: Hvad er hvilepulsen og hvordan måles den? 💓"
-seo_title: "Hvilepuls - Tabel for mænd og kvinder"
-description: "Få alt at vide om hvilepuls og hvordan du måler den. Komplet guide med tabel for mænd og kvinder over en normal puls."
+seo_title: "Hvilepuls - Tabel med normal for mænd og kvinder"
+description: "Vil du vide mere om hvilepuls? Hvordan du måler den? Er den for høj? Få en komplet guide med tabel for mænd og kvinder over en normal hvilepuls."
 permalink: /hvilepuls/
 language: da
 header:
@@ -46,7 +46,7 @@ I dette indlæg får du ud over en **tabel med hvilepuls for mænd og kvinder** 
 - hvad er en god hvilepuls?
 - hvordan træner man sin hvilepuls?
 
-## Hvad er hvilepuls? 
+## Hvad er hvilepuls?
 
 Hvilepulsen er antallet af hjerteslag pr. minut, når din krop er i fuldstændig hvile.
 
@@ -88,7 +88,7 @@ Vi har lavet et uddybende indlæg om [tilpasninger ved konditionstræning](/tilp
 
 ## Hvad er en normal hvilepuls?
 
-Hvilepulsen ligger typisk i intervallet fra 40 og 100 hos almindelige raske personer. Ekstremt veltrænede udholdenhedsatleter kan have en hvilepuls helt nede omkring 30.
+Den normale hvilepuls ligger typisk i intervallet fra 40 og 100 hos almindelige raske personer. Ekstremt veltrænede udholdenhedsatleter kan have en hvilepuls helt nede omkring 30.
 
 Hvilepulsen varierer meget fra person til person. Hvilepulsen er påvirket af mange faktorer som fx alder, køn, sygdom og [stress]({% link _posts/2021-11-10-stress.md %}), og den er også følsom over visse typer medicin.
 
@@ -179,15 +179,15 @@ Jeg er selv blevet ret optaget af _heart rate variability_, hvor man ud over en 
 
 ## Hvordan træner man sin hvilepuls?
 
-Du træner din hvilepuls ved at træne din hjerte. Det er primært slagvolumen, der har betydning for, hvad din hvilepuls er. Derfor skal du lave træning, som kan forøge din hvilepuls. Det kan man primært gøre ved aerob træning.
+Du træner din hvilepuls når du træner din hjerte. Det er primært slagvolumen, der har betydning for, hvad din hvilepuls er. Derfor skal du lave træning, som kan forøge din hvilepuls. Det kan man gøre ved [aerob træning](/aerob-traening/) og [konditionstræning](/konditionstraening/).
 
-Hvis du skal forbedre din slagvolumen, så får du i første omgang mest ud af at lave aerob træning med lavere intensitet. Når du træner med lavere intensitet, så har hjertet nemlig tid til at udvide sig mange gange uden at du bliver træt.
+Hvis du skal forbedre din slagvolumen, så får du i første omgang mest ud af at lave aerob træning med lavere intensitet. Når du træner med lavere intensitet, så har hjertet nemlig tid til at udvide sig mange gange uden at du bliver for træt. Når du er i form, så skal du imidlertid arbejde med højere intensitet og høj puls.
 
-Når du kommer i form, er det imidlertid også nødvendigt at arbejde med høje intensiteter for at blive ved med at forbedre din slagvolumen.
+Træningen er altså med til at sænke hvilepulsen, fordi dit hjert i hvert slag kan pumpe mere blod rundt i kroppen. Du får altså en lavere hvilepuls i takt med, at du træner, hvis træningen virker.
 
 ## Hvor hurtigt kan jeg forbedre min hvilepuls?
 
-Hvis du er rask, så bør du allerede inden 3-4 uger efter du starter et træningsforløb kunne registrere en nedgang i din hvilepuls. Det kræver naturligvis, at træningen belaster kredsløbet, så hjertet forbedrer sin effektivitet.
+Hvis du er rask, så bør du allerede inden 3-4 uger efter du starter et træningsforløb kunne registrere at din hvilepuls falder. Det kræver naturligvis, at træningen belaster kredsløbet, så hjertet forbedrer sin effektivitet.
 
 Hvis du allerede er veltrænet, så tager det naturligvis længere tid at flytte din hvilepuls, og der er også grænser for hvor langt den kommer ned.
 
@@ -195,9 +195,19 @@ Hvis du allerede er veltrænet, så tager det naturligvis længere tid at flytte
 
 Ud over at hvilepulsen er en indikator på ens træningsniveau særligt i kredsløbssystemet, så kan du også bruge pulsen til at udregne forskellige træningsparametre.
 
-Sammen med [max-pulsen]({% link _posts/2020-06-02-max-hr.md %}) kan du estimere dit [kondital ud fra puls med vores enkle beregner](/kondital-fra-puls/).
+Sammen med [max-pulsen]({% link _posts/2020-06-02-max-hr.md %}) kan du estimere dit [kondital ud fra puls med vores enkle beregner](/kondital-fra-puls/). Jo større forskel der er mellem den maksimale puls og hvilepulsen for raske mennesker, desto bedre form er man typisk i.
 
 Jeg har også skrevet mere om, hvordan du kan [udregne dine intensitetszoner fra pulsen](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/), fordi du ved at kende din max-puls og hvilepuls kender din pulsreserve.
+
+## Hvornår har jeg høj hvilepuls?
+
+Din hvilepuls er ifølge [netdoktor.dk](https://netdoktor.dk/sygdomme/fakta/derfor-har-du-hoej-puls.htm) høj, hvis den ligger over 100. Hvis du har en høj hvilepuls, så kan det være tegn på, at du har en hjertesygdom. Oplever du hjertebanken og en unormalt høj hvilepuls, skal du gå til din læge.
+
+Hvis man har høj puls, så kan der være forskellige måder at sænke den på. Det kan skyldes stresssymptomer, så derfor kan det betale sig at kigge på hele sin livssituation. Ellers kan man sænke pulsen med forskellige typer medicin. Alt det kræver et lægebesøg.
+
+## Hvad er lav hvilepuls?
+
+En lav hvilepuls kaldes også en langsom puls eller _bradykardi_. Bradykardi betyder, at hjertet slår langsomt. Det kan være helt normalt, hvis du er i særdeles god form, men det kan også skyldes en sygdom i hjertet eller være forårsaget af noget medicin. Hvis du er i tvivl om din hvilepuls er unaturlig lav, så bør du søge læge. Du kan læse meget mere om bradykardi på [sundhed.dk](https://www.sundhed.dk/borger/patienthaandbogen/hjerte-og-blodkar/sygdomme/hjertearytmier/bradykardi-langsom-puls/).
 
 ## Ofte stillede spørgsmål
 
