@@ -28,7 +28,7 @@ faq:
   - question: "Hvordan beregner man hvilepulsen?"
     answer: "Der er flere forskellige formler til at beregne din hvilepuls. De fleste tager udgangspunkt i din alder. Tjek vores beregner og alle de forskellige formler her på siden."
   - question: "Er en lav hvilepuls altid godt?"
-    answer: "Nej. Din hvilepuls kan også påvirkes af sygdom og alderdom. En lav hvilepuls kan være et symptom på sygdomme omkring hjertet. En blodprop i hjertet, hjertefejl eller betændelse i hjertet, et højt blodtryk, lavt stofskifte og medicin kan også være med til at sænke pulsen."
+    answer: "Nej. Din hvilepuls kan også påvirkes af sygdom og alderdom. En lav hvilepuls kan være et symptom på sygdomme omkring hjertet. En blodprop i hjertet, hjertefejl eller betændelse i hjertet, et [højt blodtryk](/blodtryk/), lavt stofskifte og medicin kan også være med til at sænke pulsen."
 ## https://biostrap.com/academy/how-to-calculate-resting-heart-rate/
 ## 1 What Is a Normal Resting Heart Rate?
 ## 2 Why Does Resting Heart Rate Matter?

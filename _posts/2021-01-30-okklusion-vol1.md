@@ -126,7 +126,7 @@ Der mangler fortsat længerevarende og dybdegående forskning i okklusionstræni
 Andre kontraindikationer end kardiovaskulære og perifere kredsløbssygdomme er
 
 - Gravide (ud fra et forsigtighedsprincip)
-- Ubehandlet forhøjet blodtryk
+- Ubehandlet [forhøjet blodtryk](/blodtryk/)
 - Dyb venetrombose og lungeemboli
 - Hjertefejl
 

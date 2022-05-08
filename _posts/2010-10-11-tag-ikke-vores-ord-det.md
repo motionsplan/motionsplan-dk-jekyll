@@ -62,17 +62,21 @@ En videnskabelig artikel har næsten altid denne opbygning.
 
 ## Hvordan vurderer vi de videnskabelige artikler?
 
-Design
-: Har studiet et solidt design? Hvordan måles effekten af det studiet undersøger? Er der en kontrolgruppe? Er grupperne tilfældigt sammensat? Er forsøget blindet? Det mest solide design er dobbeltblindet, randomiseret forsøg med kontrolgruppe.
+### 1. Design
 
-Udvælgelseskriterier
-: Hvordan er forsøgspersonerne udvalgt? Bliver det sandsynliggjort at forsøgsgruppen er repræsentativ for den befolkningsgruppe, forsøget gerne vil sige noget om. Er der _selektionsbias_?
+Har studiet et solidt design? Hvordan måles effekten af det studiet undersøger? Er der en kontrolgruppe? Er grupperne tilfældigt sammensat? Er forsøget blindet? Det mest solide design er dobbeltblindet, randomiseret forsøg med kontrolgruppe.
 
-Tid
-: Foregår studiet over så lang tid, at det er sandsynligt, at der vil komme en effekt?
+### 2. Udvælgelseskriterier
 
-Kausal sammenhæng?
-: Bliver det sandsynliggjort at effekten skyldes det undersøgte, eller kan der være andre forklaringer?
+Hvordan er forsøgspersonerne udvalgt? Bliver det sandsynliggjort at forsøgsgruppen er repræsentativ for den befolkningsgruppe, forsøget gerne vil sige noget om. Er der _selektionsbias_?
+
+### 3. Tid
+
+Foregår studiet over så lang tid, at det er sandsynligt, at der vil komme en effekt?
+
+### 4. Kausal sammenhæng?
+
+Bliver det sandsynliggjort at effekten skyldes det undersøgte, eller kan der være andre forklaringer?
 
 Hvilke kriterier kigger I efter, når I forsøger at tilegne jer viden?
 
