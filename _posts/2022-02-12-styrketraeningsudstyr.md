@@ -1,6 +1,6 @@
 ---
 title: &title "Udstyr til styrketræning: Begynderguide til det rigtige styrketræningsudstyr"
-seo_title: "Styrketræningsudstyr | Vælg det rigtige udstyr til styrketræning"
+seo_title: "Styrketræningsudstyr - Vælg det rigtige udstyr til styrketræning"
 permalink: /styrketraening-udstyr/
 language: da
 header:
@@ -39,13 +39,13 @@ feature_row_running_watch:
 
 Her er en guide til styrketræningsudstyr, som kan hjælpe dig med at få en bedre træning, når du pakker tasken for at gå i fitnesscenteret.
 
-https://images.unsplash.com/photo-1519859660545-3dea8ddf683c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTZ8fHN0cmVuZ3RoJTIwdHJhaW5pbmd8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60
+{% include figure image_path="https://images.unsplash.com/photo-1519859660545-3dea8ddf683c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTZ8fHN0cmVuZ3RoJTIwdHJhaW5pbmd8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60" caption="" alt="" %}
 
 ## Styrketræningssko
 
 Det kan betale sig at tænke over fodtøjet, når du styrketræner eller dyrker fitness. Jeg har set rigtig mange, der vælger fx løbesko som deres træningssko. Men løbesko passer til at løbe i. De er ikke særlig gode at trræne i.
 
-https://images.unsplash.com/photo-1578765724997-d5d11d934aaf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTUwfHxzdHJlbmd0aCUyMHRyYWluaW5nfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=600&q=60
+{% include figure image_path="https://images.unsplash.com/photo-1578765724997-d5d11d934aaf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTUwfHxzdHJlbmd0aCUyMHRyYWluaW5nfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=600&q=60" caption="" alt="" %}
 
 Her er nogle af de overvejelser du bør gøre dig, når du vælger en sko, du vil bruge til styrketræning og fitness.
 
@@ -55,7 +55,7 @@ Vi har skrevet en [guide til at vælge sko til styrketræning](/sko-styrketraeni
 
 Et bælte til styrketræning kan hjælpe dig med en større stabilitet omkring din kropskerne, så du kan løfte tungere og gøre dine løft endnu mere effektive. Når du kan have en mere stabil kropskerne, så kan du også løfte tungere i fx squat og dødløft, men stabiliteten kan også hjælpe lidt til stående pres over hovedet.
 
-https://images.unsplash.com/photo-1532384305128-54c7ac0d7139?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzB8fHN0cmVuZ3RoJTIwdHJhaW5pbmd8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60
+{% include figure image_path="https://images.unsplash.com/photo-1532384305128-54c7ac0d7139?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzB8fHN0cmVuZ3RoJTIwdHJhaW5pbmd8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60" caption="" alt="" %}
 
 Vi har skrevet en grundig guide til at [vælge et styrketræningsbælte](/baelte-styrketraening/).
 
@@ -75,11 +75,11 @@ Du kan enten få kalk som pulver, blokke eller som _liquid chalk_. Hvis du skal 
 
 ## Håndledsbind
 
-https://images.unsplash.com/photo-1533560777802-046814bc297c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80
+{% include figure image_path="https://images.unsplash.com/photo-1533560777802-046814bc297c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" caption="" alt="" %}
 
 ## Knæbind
 
-https://images.unsplash.com/photo-1533560904424-a0c61dc306fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nzd8fHN0cmVuZ3RoJTIwdHJhaW5pbmd8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60
+{% include figure image_path="https://images.unsplash.com/photo-1533560904424-a0c61dc306fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nzd8fHN0cmVuZ3RoJTIwdHJhaW5pbmd8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60" caption="" alt="" %}
 
 ## Straps
 
@@ -89,7 +89,7 @@ https://images.unsplash.com/photo-1533560904424-a0c61dc306fc?ixlib=rb-1.2.1&ixid
 
 {% endcomment %}
 
-https://images.unsplash.com/photo-1526407153035-415201c1ba3d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTY4fHxzdHJlbmd0aCUyMHRyYWluaW5nfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=600&q=60
+{% include figure image_path="https://images.unsplash.com/photo-1526407153035-415201c1ba3d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTY4fHxzdHJlbmd0aCUyMHRyYWluaW5nfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=600&q=60" caption="" alt="" %}
 
 ## Konklusion
 
