@@ -81,7 +81,7 @@ Der er følgende sundshedsmæssige udfordringer ved **ikke** at have en passende
 
 - **Undervægtige** har øget risiko for knogleskørhed, træthed, tab af muskelmasse, lavt blodtryk, svimmelhed og nedsat modstandskraft.
 - **Overvægtige** har øget risiko for at udvikle diabetes, hjertekarsygdomme, blodpropper, brystkræft og slidgigt.
-- **Svært overvægtige** har endnu højere risiko for at udvikle hjerte-kar-sygdomme, højt blodtryk, slagtilfælde og diabetes.
+- **Svært overvægtige** har endnu højere risiko for at udvikle hjerte-kar-sygdomme, [højt blodtryk](/blodtryk/), slagtilfælde og diabetes.
 
 Der er altså mange grunde til at have en passende fedtprocent. En rigtig god test at starte med kan være en **øjemålstest**.
 

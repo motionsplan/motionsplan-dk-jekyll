@@ -82,7 +82,7 @@ Det **parasympatiske nervesystem** er ansvarlige for alle disse gavnlige effekte
 
 - Udskillelsen af stresshormonerne, adrenalin og kortisol, sættes i bero
 - Øget aktivitet af de beroligende alfabølger i hjernen
-- Pulsen og blodtrykket falder
+- Pulsen og [blodtrykket](/blodtryk/) falder
 - Åndedrætsfrekvensen falder
 - Øget blodgennemstrømningen i mave-tarm-kanalen, hvilket fremmer fordøjelsen.
 - Blodtilførslen til organerne øges

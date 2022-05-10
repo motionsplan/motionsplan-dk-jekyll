@@ -70,7 +70,7 @@ Thomas Jagd har kigget lidt på de [primære fordele ved styrketræning og kreds
 ## De primære fordele ved styrketræning
 
 - Forbedrer insulinsensitiviteten
-- Sænker blodtrykket
+- [Sænker blodtrykket](/blodtryk/)
 - Giver en mere fordelagtig fordeling mellem HDL/LDL kolesterol
 - Øger knogledensiteten, og forebygger derved knogleskørhed
 - Øger den muskulære styrke, så man bliver mere funktionsdygtig i dagligdagen
