@@ -83,8 +83,8 @@ Her havde du mulighed for at udregne BMI i vores beregner. Nu har du altså fåe
 
 Der er mange andre parametre, som betyder noget for dit helbred. Du kan sagtens være normalvægtig, selvom du får et højt BMI, da BMI ikke tager højde for muskelmasse. Hvis du har en stor muskelmasse, så har du stadig en sund vægt. Muskler vejer en del, så du skal altså ikke tabe dig, bare fordi vægten står et bestemt sted.
 
-Du kan fx lave en mere nøjagtig [måling af din fedtprocent](/maal-fedtprocent/), men hvis du skal vide noget om placeringen af fedtdepoterne på kroppen, så kan du også måle [dit taljemål](/taljemaal/). Taljemålet kan altså være en bedre indikation for, om du er i høj risiko for visse sygdomme.{%}
+Du kan fx lave en mere nøjagtig [måling af din fedtprocent](/maal-fedtprocent/), men hvis du skal vide noget om placeringen af fedtdepoterne på kroppen, så kan du også måle [dit taljemål](/taljemaal/). Taljemålet kan altså være en bedre indikation for, om du er i høj risiko for visse sygdomme.
 
-## Ofte stillede spørgsmål om BMI
+## Ofte stillede spørgsmål
 
 {% include faq.html %}
