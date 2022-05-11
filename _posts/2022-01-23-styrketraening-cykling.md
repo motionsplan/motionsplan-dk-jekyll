@@ -12,7 +12,7 @@ category:
   - Cykling
 tags:
   - styrketræning
-  - cykliing
+  - cykling
 last_modified_at: 2022-01-20T08:14:14Z
 toc: true
 author: nikolai.jauk
