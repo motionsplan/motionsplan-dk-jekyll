@@ -52,8 +52,12 @@ I nedenstående beregner kan du udregne fedtprocenten baseret på dine målinger
 
 Jeg bruger i beregneren formlen som præsenteres på [www.topendsports.com](https://www.topendsports.com/testing/bodyfat-equation-slaughter-lohman.htm).
 
-| Drenge | Fedtprocent = 0,735 (triceps + læg) + 1,0 |
-| Piger  | Fedtprocent = 0,610 (triceps + læg) + 5,1 |
+- Drenge: Fedtprocent = 0,735 (triceps + læg) + 1,0
+- Piger: Fedtprocent = 0,610 (triceps + læg) + 5,1
+
+## Konklusion
+
+Lohman-formlen kan bruges til at estimere fedtprocenten for børn. Metoden er dog mest anvendelig til at sammenligne hudfoldstykkelserne for børnene over tid, hvis de har behov for at tabe sig. Måske er du også interesseret i at læse lidt om, hvordan man bruger [BMI beregner til børn og unge](/bmi-beregner-boern-unge-teenagere/).
 
 ## Referencer
 
