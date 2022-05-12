@@ -44,3 +44,5 @@ Ikoner brugt på sitet er lavet af <a href="https://www.flaticon.com/authors/dav
 ## Motionsplan på Trustpilot
 
 Du er meget velkommen til at fortælle, hvad du synes om Motionsplan.dk på [Trustpilot](https://dk.trustpilot.com/review/motionsplan.dk){: rel="nofollow noopener" }.
+
+[![](/assets/images/miljoe-pakning-badge.png)](https://miljoevenlig-pakning.dk/)
