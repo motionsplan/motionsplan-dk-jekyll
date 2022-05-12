@@ -1,30 +1,33 @@
 ---
 title: &title "BMI-beregner for børn, unge og teenagere"
 seo_title: "BMI beregner for børn, unge og teenagere"
-description: "BMI tabel og skema for børn, unge og teenagere. Forstå detaljerne i dag om, hvordan BMI skal forstås og fortolkes for for børn og unge. "
+description: "BMI beregner og tabel for børn, unge og teenagere. Forstå hvordan BMI tallet og skalaen skal forstås og fortolkes for for børn og unge."
 permalink: /bmi-beregner-boern-unge-teenagere/
 excerpt: "Body Mass Index (BMI) kan bruges til at udregne idealvægt, men hvordan skal BMI bruges i forhold til børn, unge og teenagere. Vi har kigget på BMI skalaer og tabeller for børn, unge og teenagere."
 language: da
 header:
-  teaser: https://helseboost.dk/filer/bmi-1500x960.jpg
+  teaser: https://images.unsplash.com/photo-1540479859555-17af45c78602?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Beregnere
 tags:
   - kropskomposition
   - beregner
+  - børn
 popular: true
 last_modified_at: 2022-04-19T10:14:14Z
 faq:
   - question: "Hvad er normal BMI for børn?"
     answer: "Børn passer ikke ind i de normale BMI-skemaer. WHO har lavet skemaer, hvor du kan vurdere børns BMI. Du kan se skemaerne her på siden."
   - question: "Hvad er normal BMI for teenagere?"
-    answer: "Du skal vurdere teenageres BMI ud fra WHO BMI-skemaer. Men husk at børn og teenagere udvikler sig meget forskelligt."
+    answer: "Du skal vurdere teenageres BMI ud fra WHO's BMI-skemaer. Men husk at børn og teenagere udvikler sig meget forskelligt."
 ---
 
 Body Mass Index (BMI) bruges ofte i forhold til børn, unge og teenagere. Vi har kigget på, hvordan du skal fortolke BMI tabeller og skalaer for børn, unge og teenagere.
 
-Fordelen ved BMI er, at det er let at bruge, men et skal fortolkes anderledes for børn end for voksne. Du kan læse meget mere om BMI for voksne og ældre i vores [BMI beregner](/bmi-beregner/). 
+Fordelen ved BMI er, at det er let at bruge fordi du bare har brug for højde og vægt, men det skal fortolkes anderledes for børn end for voksne.
+
+Du kan læse meget mere om [BMI-skalaen for voksne og ældre](/bmi/) eller bruge vores [BMI beregner for voksne](/bmi-beregner/). 
 
 *[BMI]: Body Mass Index
 *[IOTF]: The International Obesity Task Force
@@ -36,7 +39,7 @@ I dette indlæg får du svar på følgende spørgsmål:
 - Hvilke normer og grænseværdier er der for BMI for børn, unge og teenagere?
 - Hvilke fordele og ulemper er der ved at bruge BMI til børn?
 
-Men lad os først springe til selve beregneren.
+Men lad os først springe til selve BMI beregneren til børn og unge.
 
 ## Beregn BMI for børn og unge
 
@@ -56,7 +59,7 @@ Selvom BMI ofte har været brugt til at angive grænseværdier for fedme, så sk
 
 Nedenfor er de grænseværdier for børn, der anbefales af IOTF og som generelt også anbefales af autoriteter i Danmark. BMI-grænseværdier for børn og unge under 18 varierer med alderen, og derfor er nedenstående grafer lavet. Grænseværdierne er lavet således, at de flugter med de anvendte værdier for voksne ved alderen 18 år.
 
-Husk at BMI ikke tager højde for kropsbygning og muskelmasse. En vurdering af børn skal altid ses sammen med en individuel vurdering af det relative udviklingsniveau og kropsbygningen.
+Husk at BMI ikke tager højde for kropsbygning og muskelmasse. Derfor er det også meget vanskeligt at svare på, hvad normal vægt er for børn og unge. En vurdering af børn skal altid ses sammen med en individuel vurdering af det relative udviklingsniveau og kropsbygningen.
 
 ### BMI for drenge og piger fra 2-5 år
 
@@ -72,7 +75,7 @@ Husk at BMI ikke tager højde for kropsbygning og muskelmasse. En vurdering af b
 
 Bemærk at ovenstående grafer er baseret på børn over hele verden. Som med BMI for voksne, så indrager tallene ikke dit barns bygning.
 
-## BMI-skalaen kan ikke stå alene
+## BMI-skalaen til børn kan ikke stå alene
 
 - BMI er en metode, der gør det muligt for dig at udregne, om du er normal-, under- eller overvægtig ud fra din højde og kropsvægt.
 - Du kan sammenligne dig selv med nogle fastsatte standarder.
@@ -80,7 +83,7 @@ Bemærk at ovenstående grafer er baseret på børn over hele verden. Som med BM
 - Jeg ville være meget varsom med at bruge BMI som udgangspunkt for en snak om sundhed med den enkelte.
 - Det er meget vigtigere, at man har sunde kostvaner og motionerer. Ikke for at tabe sig, men for at få en glad og stærk krop.
 
-Der er mange udfordringer med BMI, selvom det er meget udbredt. Faktisk er der lavet et lignende mål, der hedder [Ponderal Index]({% link _posts/2019-10-31-udregning-af-ponderal-index.md %}), som burde give en bedre vurdering i forhold til højde.
+Der er mange udfordringer med BMI til børn, selvom det er meget udbredt. Faktisk er der lavet et lignende mål, der hedder [Ponderal Index]({% link _posts/2019-10-31-udregning-af-ponderal-index.md %}), som burde give en bedre vurdering i forhold til højde.
 
 Men for at finde ud af, om du reelt er under- eller overvægtig i forhold til sundhed, så kan et simpelt taljemål formentlig være en bedre indikator. Jeg har skrevet en anden artikel om [forskellige taljemål]({% link _posts/2019-10-14-taljemaal.md %}). Taljemålet kan nemlig sige noget om, hvordan fedtet er placeret på kroppen, hvilket er det der har allerstørst betydning i forhold til sundhed.
 
