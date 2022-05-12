@@ -57,17 +57,42 @@ Selvom BMI ofte har været brugt til at angive grænseværdier for fedme og svæ
 
 I graferne nedefor kan du se de grænseværdier for børn, der anbefales af IOTF og som generelt også anbefales af autoriteter i Danmark. BMI-grænseværdier for børn og unge under 18 varierer med alderen, hvilket afspejles i illustrationerne. Grænseværdierne er lavet således, at de flugter med de anvendte værdier for voksne ved alderen 18 år.
 
-### BMI for drenge og piger fra 2-5 år
+## BMI figur for drenge og piger fra 2-5 år
 
-{% include figure image_path="/assets/images/blog/bmi-drenge-2-5.png" caption="BMI værdier for drenge under 2-5 år. Kilde: [WHO](/assets/pdf/who/cht_wfh_boys_z_2_5.pdf)" alt="BMI værdier for drenge under 2-5 år" %}
+{% include figure image_path="/assets/images/blog/bmi-drenge-2-5.png" caption="BMI værdier for drenge under 2-5 år. Kilde: [WHO](/assets/pdf/who/cht_wfh_boys_z_2_5.pdf)" alt="BMI børn værdier for drenge under 2-5 år" %}
 
-{% include figure image_path="/assets/images/blog/bmi-piger-2-5.png" caption="BMI værdier for piger 2-5 år. Kilde: [WHO](/assets/pdf/who/cht_wfh_girls_z_2_5.pdf)" alt="BMI værdier for piger 2-5 år" %}
+{% include figure image_path="/assets/images/blog/bmi-piger-2-5.png" caption="BMI værdier for piger 2-5 år. Kilde: [WHO](/assets/pdf/who/cht_wfh_girls_z_2_5.pdf)" alt="BMI børn værdier for piger 2-5 år" %}
 
-### BMI for teenagere, drenge og piger fra 5-19 år
+## BMI graf for teenagere, drenge og piger fra 5-19 år
 
-{% include figure image_path="/assets/images/blog/bmi-drenge-5-19.png" caption="BMI værdier for drenge 5-19 år. Kilde: [WHO](/assets/pdf/who/bmi-fa_boys_z_5_19_labels.pdf)" alt="BMI værdier for drenge 5-19 år" %}
+{% include figure image_path="/assets/images/blog/bmi-drenge-5-19.png" caption="BMI værdier for drenge 5-19 år. Kilde: [WHO](/assets/pdf/who/bmi-fa_boys_z_5_19_labels.pdf)" alt="BMI børn værdier for drenge 5-19 år" %}
 
-{% include figure image_path="/assets/images/blog/bmi-piger-5-19.png" caption="BMI værdier for piger 5-19 år. Kilde: [WHO](/assets/pdf/who/bmi-fa_girls_z_5_19_labels.pdf)" alt="BMI værdier for piger 5-19 år" %}
+{% include figure image_path="/assets/images/blog/bmi-piger-5-19.png" caption="BMI værdier for piger 5-19 år. Kilde: [WHO](/assets/pdf/who/bmi-fa_girls_z_5_19_labels.pdf)" alt="BMI unge værdier for piger 5-19 år" %}
+
+## BMI tabel
+
+| Alder BMI	| Grænser	for	overvægt drenge | BMI	- Grænser	for	overvægt Piger | BMI - Grænser	
+for	svær overvægt Drenge | BMI	- Grænser	for	svær overvægt Piger |
+|-|-|-|-|-|
+| 2	år | 18,4 | 18,0 | 20,0 | 19,8 |
+| 3	år | 17,9 | 17,6 | 19,6 | 19,4 |
+| 4	år | 17,6 | 17,3 | 19,3 | 19,2 |
+| 5	år | 17,4 | 17,2 | 19,3 | 19,2 |
+| 6	år | 17,6 | 17,3 | 19,8 | 19,7 |
+| 7	år | 17,9 | 17,8 | 20,6 | 20,5 |
+| 8	år | 18,4 | 18,4 | 21,6 | 21,6 |
+| 9	år | 19,1 | 19,1 | 22,8 | 22,8 |
+| 10 år | 19,8 | 19,9 | 24,0 | 24,1 |
+| 11 år | 20,6 | 20,7 | 25,1 | 25,4 |
+| 12 år | 21,2 | 21,7 | 26,0 | 26,7 |
+| 13 år | 21,9 | 22,6 | 26,8 | 27,8 |
+| 14 år | 22,6 | 23,3 | 27,6 | 28,6 |
+| 15 år | 23,3 | 23,9 | 28,3 | 29,1 |
+| 16 år | 23,9 | 24,4 | 28,9 | 29,4 |
+| 17 år | 24,5 | 24,7 | 29,4 | 29,7 |
+| 18 år | 25,0 | 25,0 | 30,0 | 30,0 |
+
+Som for voksne skal man i BMI tabellen for børn være opmærksom på, om den reelle grænse for overvægt ikke bør ligge højere end de 25 for 18 årige, hvilket vil have betydning for de yngre årgange også. Men dette er de officielle anbefalinger i øjeblikket.
 
 ## BMI-skalaen til børn kan ikke stå alene
 
