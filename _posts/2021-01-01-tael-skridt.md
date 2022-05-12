@@ -1,7 +1,7 @@
 ---
 title: &title "Tæl skridt: Det er motiverende at tælle skridt"
 seo_title: "Tæl skridt 2022: Vind op til 25.000 kroner 4 gange årligt"
-description: "Deltag i Tæl skridt kampagne og bliv ✓ Motiveret ✓ Deltag i en konkurrence ✓ Bliv sundere ✓ ✓ Få psykologiske effekter ✓ Vind op til 25.000 kroner"
+description: "Deltag i den landsdækkende kampagne Tæl skridt og vind op til 25.000 kroner. Dyrk sammenholdet, bliv motiveret og bliv sundere samtidig!"
 permalink: /artikel/tael-skridt/
 language: da
 header:
@@ -20,7 +20,7 @@ last_modified_at: 2021-12-24T10:51:18Z
 
 Det kan være yderst motiverende at tælle skridt. Der kan være med i Tæl Skridt-kampagnen, hvor du kan vinde pengepræmier. Du kan bruge et skridtur, en skridttæller, en app til at tælle skridt eller en aktivitetstracker.
 
-Dansk Firma Idrætsforbund har lavet en [Tæl Skridt-kampagne](https://www.taelskridt.dk/), som du kan læse mere om længere nede på siden.
+[Dansk Firma Idrætsforbund](https://www.taelskridt.dk/) har lavet en Tæl Skridt-kampagne, som du kan læse mere om længere nede på siden.
 
 ## Tæl skridt – det er sjovt og motiverende!
 
@@ -91,7 +91,7 @@ Hvis du laver anden motion, så kan du bruge en [omregningstabel eller Tæl Skri
 
 Målet er, at deltagerne i gennemsnit skal gå (mindst) 10.000 skridt pr. dag i løbet af kampagneperioden (man skal naturligvis helst gå meget hele året). Hvis du selv eller holdet opfylder dette krav, så kan man deltage i en konkurrence om kontante pengebeløb.
 
-Du kan løbende følge med i din egen indsats og holdets indsats sammenlignet med andre på [Tæl Skridt-hjemmesiden](https://www.taelskridt.dk/).
+Du kan løbende følge med i din egen indsats og holdets indsats sammenlignet med andre på Tæl Skridt-[hjemmesiden](https://www.taelskridt.dk/).
 
 ## Vind præmier ved at tælle skridt
 
