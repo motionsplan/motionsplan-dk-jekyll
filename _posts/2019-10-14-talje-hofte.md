@@ -1,7 +1,7 @@
 ---
 title: "Talje-hofte-ratio siger noget om din fedtfordeling (Beregner)"
-seo_title: "Talje-hofte-ratio | Beregn fordelingen af dit fedt"
-description: "Vil du gerne vide mere om fedtfordelingen på din krop? Mål din talje-hofte-ratio og få svaret i vores beregner."
+seo_title: "Talje-hofte-ratio | Beregn fordelingen af dit fedt med hoftemål"
+description: "Vil du gerne vide mere om fedtfordelingen på din krop? Mål dit hoftemål og dit taljemål og beregn talje-hofte-ratio og få svaret i vores beregner."
 excerpt: "Forholdet mellem taljemål og hoftemål kan på en enkel måde at sige noget om fedtfordelingen på din krop. Studier har vist, at der er en sammenhæng mellem forholdet mellem livvidden og hoftemålet og risikoen for livsstilssygdomme. Jeg har researchet hvilke forskellige taljemål og hoftemål, der findes."
 permalink: /talje-hofte-ratio/
 language: da
@@ -22,6 +22,8 @@ toc: true
 faq:
   - question: Hvad er et normalt hoftemål for kvinder?
     answer: Det er umuligt at sige præcist, hvad et normalt hoftemål er for kvinder. Du kan i stedet kigge på forholdet mellem hofteomkredsen og taljeomkredsen. Der skal kvinder helst ligge under 0,8.
+  - question: Hvad er et normalt hoftemål for mænd?
+    answer: Det er umuligt at sige præcist, hvad et normalt hoftemål er for mænd. Du kan i stedet kigge på talje-hofte-ratioen. Der skal mænd helst ligge under 1.
   - question: Hvor måler man hoften?
     answer: Du skal lave hoftemålet på det bredeste sted set fra siden.
 ---
@@ -34,13 +36,13 @@ Taljemålet indgår også i en [vurdering af taljemålet](/taljemaal/) for sig s
 
 *[WHR]: Waist/Hip-ratio
 
-## Beregner til talje-hofte-ratio
+## Beregner til talje-hofte-forholdet
 
 I denne beregner kan du udregne din din talje-hofte-ratio og din talje-højde-ratio.
 
 {% include calculate-waist.html %}
 
-## Hvad er Talje-hofte-ratio?
+## Hvad er talje-hofte-ratio?
 
 Talje/hofte-ratioen er et mål, hvor du sætter taljeomkredsen i forhold til hofteomkredsen. Derved kan du få et bud på, hvordan kropsfaconen er, og hvordan fedtet fordeler sig rundt på kroppen.
 
