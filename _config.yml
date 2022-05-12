@@ -149,7 +149,10 @@ footer:
       icon: "fas fa-fw fa-mug-hot"
       webslides: "fa-coffee"
       url: "https://www.buymeacoffee.com/lsolesen"
-
+    - label: "Privatlivspolitik"
+      icon: "fas fa-fw fa-exclamation-triangle"
+      webslides: "fa-exclamation-triangle"
+      url: "/privatlivspolitik/"
 
 # Site Author
 author:

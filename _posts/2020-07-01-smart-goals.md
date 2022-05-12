@@ -60,7 +60,7 @@ Når man sætter sig et mål, så tager man aktivit stilling til, hvad man egent
 
 Lad os starte med et godt eksempel på, hvordan SMART-modellen kan bruges i forhold til at opstille mål for din træning.
 
-#### Specifikt
+### Specifikt
 
 {% assign month = "now" | date: "%m" | times: 1 %}
 
@@ -72,19 +72,19 @@ Lad os starte med et godt eksempel på, hvordan SMART-modellen kan bruges i forh
 
 Jeg vil gerne løbe [København maraton](https://copenhagenmarathon.dk/) i {{ year }}.
 
-#### Målbart
+### Målbart
 
 Jeg vil gerne løbe under 2 timer. Jeg vil følge mit løbeprogram vedholdende indtil løbet.
 
-#### Attraktivt
+### Attraktivt
 
 At gennemføre et maratonløb har altid været en stor drøm, og nu har jeg mulighed for at træne op til det sammen med min familie. Det er ikke nok for mig at gennemføre, jeg vil også gerne løbe en god tid.
 
-#### Realistisk
+### Realistisk
 
 Jeg har trænet et stykke tid, og jeg kan godt løbe 10 kilometer i et stræk. Jeg har noget tid at træne i, og hvis jeg er vedholdene, så kan jeg sagtens klare det.
 
-#### Tidsbestemt
+### Tidsbestemt
 
 Jeg vil gennemføre maratonløbet i København den 15. maj {{ year }}.
 
