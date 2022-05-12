@@ -45,21 +45,17 @@ Men lad os først springe til selve BMI beregneren til børn og unge.
 
 {% include calculate-bmi.html children="true" %}
 
-Beregneren udregner også det såkaldte Ponderal Index, som er en variant af BMI. Jeg har skrevet et [indlæg om Ponderal Index her]({% link _posts/2019-10-31-udregning-af-ponderal-index.md %}).
+[Ponderal Index her]({% link _posts/2019-10-31-udregning-af-ponderal-index.md %}) er et alternativ til BMI, som burde fungere bedre, når folk har forskellige højder. Desværre har jeg ikke kunnet finde nogle standarder.
 
 ## BMI for børn og teenagere
 
-BMI udregnes på samme måde for børn og teenagere. Men da der sker mange forandringer med kroppens sammensætning og kropsfedtet med alderen, så skal børn og teenagere vurderes efter andre normer.
+BMI udregnes på samme måde for børn og teenagere. Men da der sker mange forandringer med kroppens sammensætning og kropsfedtet med alderen, så skal børn og teenagere vurderes efter andre normer end voksne.
 
-Du skal altså beregne dit BMI i beregneren ovenfor, men vurdere dit BMI efter disse normer, som både tager højde for din alder og dit køn.
+I beregneren ovenfor kan du udregne dit BMI. Så får du en vurdering efter normerne fra WHO, som tager højde for din alder og dit køn. Som barn skal du vurderes efter andre standardværdier end voksne.
 
-Som barn er det nogle andre standardværdier, du skal måle dig efter.
+Selvom BMI ofte har været brugt til at angive grænseværdier for fedme og svær overvægt, så skal man også være opmærksom på undervægt (Cole 2007). Både drenge og piger kan have overtaget idealer fra modeverden. For børn er disse betegnelser blevet foreslået: _under normal_ (thinness grade 1), _undervægtig_ (thinness grade 2) og _meget undervægtig_ (thinness grade 3).
 
-Selvom BMI ofte har været brugt til at angive grænseværdier for fedme, så skal man også være opmærksom på undervægt (Cole 2007), hvor både drenge og piger kan have overtaget idealer fra modeverden. Betegnelserne kan være _under normal_ (thinness grade 1), _undervægtig_ (thinness grade 2) og _meget undervægtig_ (thinness grade 3), og det kan ses i graferne nedenunder.
-
-Nedenfor er de grænseværdier for børn, der anbefales af IOTF og som generelt også anbefales af autoriteter i Danmark. BMI-grænseværdier for børn og unge under 18 varierer med alderen, og derfor er nedenstående grafer lavet. Grænseværdierne er lavet således, at de flugter med de anvendte værdier for voksne ved alderen 18 år.
-
-Husk at BMI ikke tager højde for kropsbygning og muskelmasse. Derfor er det også meget vanskeligt at svare på, hvad normal vægt er for børn og unge. En vurdering af børn skal altid ses sammen med en individuel vurdering af det relative udviklingsniveau og kropsbygningen.
+I graferne nedefor kan du se de grænseværdier for børn, der anbefales af IOTF og som generelt også anbefales af autoriteter i Danmark. BMI-grænseværdier for børn og unge under 18 varierer med alderen, hvilket afspejles i illustrationerne. Grænseværdierne er lavet således, at de flugter med de anvendte værdier for voksne ved alderen 18 år.
 
 ### BMI for drenge og piger fra 2-5 år
 
@@ -73,21 +69,23 @@ Husk at BMI ikke tager højde for kropsbygning og muskelmasse. Derfor er det ogs
 
 {% include figure image_path="/assets/images/blog/bmi-piger-5-19.png" caption="BMI værdier for piger 5-19 år. Kilde: [WHO](/assets/pdf/who/bmi-fa_girls_z_5_19_labels.pdf)" alt="BMI værdier for piger 5-19 år" %}
 
-Bemærk at ovenstående grafer er baseret på børn over hele verden. Som med BMI for voksne, så indrager tallene ikke dit barns bygning.
-
 ## BMI-skalaen til børn kan ikke stå alene
 
-- BMI er en metode, der gør det muligt for dig at udregne, om du er normal-, under- eller overvægtig ud fra din højde og kropsvægt.
-- Du kan sammenligne dig selv med nogle fastsatte standarder.
-- BMI er for simpel og ikke retvisende nok til at sige noget om kropskomposition og fedtprocent.
-- Jeg ville være meget varsom med at bruge BMI som udgangspunkt for en snak om sundhed med den enkelte.
-- Det er meget vigtigere, at man har sunde kostvaner og motionerer. Ikke for at tabe sig, men for at få en glad og stærk krop.
+BMI er en metode, der gør det let at udregne, om du er normalvægtig, undervægtig eller overvægtig ud fra din højde og kropsvægt. Dermed kan du let sammenligne dig selv med BMI-skalaen.
 
-Der er mange udfordringer med BMI til børn, selvom det er meget udbredt. Faktisk er der lavet et lignende mål, der hedder [Ponderal Index]({% link _posts/2019-10-31-udregning-af-ponderal-index.md %}), som burde give en bedre vurdering i forhold til højde.
+BMI skalaen for børn er imidlertid meget forskellig fra de voksnes vurderinger. Derfor skal børnene have deres egne tabeller.
 
-Men for at finde ud af, om du reelt er under- eller overvægtig i forhold til sundhed, så kan et simpelt taljemål formentlig være en bedre indikator. Jeg har skrevet en anden artikel om [forskellige taljemål]({% link _posts/2019-10-14-taljemaal.md %}). Taljemålet kan nemlig sige noget om, hvordan fedtet er placeret på kroppen, hvilket er det der har allerstørst betydning i forhold til sundhed.
+BMI tager ikke højde for kropsbygning og muskelmasse. Derfor er det også meget vanskeligt at svare på, hvad normal vægt er for børn og unge. En vurdering af børn skal altid ses sammen med en individuel vurdering af det relative udviklingsniveau og kropsbygningen.
 
-Endelig kan du dykke lidt ned i din samlede kropskomposition for at få en større forståelse af det emne. Jeg har skrevet om [forskellige modeller for kropskomposition her]({% link _posts/2019-10-14-kropskomposition.md %}).
+## Konklusion
+
+BMI er enkelt at bruge, men det er ikke retvisende til at sige noget om kropskompositionen og fedtprocenten hos børn og unge. Derfor skal man være meget varsom med at med bruge BMI som udgangspunkt for en snak om sundhed med det enkelte barn.
+
+For at finde ud af om barnet reelt er undervægtig eller overvægtig i forhold til sundhed, så kan et simpelt taljemål formentlig være en bedre indikator. Jeg har skrevet en anden artikel om [forskellige taljemål]({% link _posts/2019-10-14-taljemaal.md %}). Taljemålet kan nemlig sige noget om, hvordan fedtet er placeret på kroppen, hvilket er det der har allerstørst betydning i forhold til sundhed.
+
+Endelig kan du dykke lidt ned i din [samlede kropskomposition]({% link _posts/2019-10-14-kropskomposition.md %}) for at få en større forståelse af det emne, eller du kan dykke ned i, hvordan man kan [måle fedtprocenten](/maal-fedtprocent/).
+
+Det vigtigste for barnets sundhed er at give det sunde kostvaner og motionsvaner. Ikke for at tabe sig, men for at få en god og stærk krop, som kan overkomme hverdagens strabadser.
 
 ## Ofte stillede spørgsmål
 
