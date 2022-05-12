@@ -1,6 +1,7 @@
 ---
 title: &title "Kalorieberegner: Beregn alt om kalorier"
-seo_title: "Kalorieberegner: 4 måder at udregne energibehov på"
+seo_title: "Kalorieberegner: 4 måder at udregne kaloriebehov og kalorieindtag på"
+description: "Har du brug for en kalorie beregner? Her har vi samlet forskellige kalorieberegnere, som kan udregne kaloriebehov og kalorieindtag gratis. Prøv dem nu!" 
 permalink: /kalorieberegner/
 language: da
 header:
@@ -16,21 +17,23 @@ tags:
 last_modified_at: 2022-05-11T10:14:14Z
 toc: true
 faq:
-  - question: "Hvad er en kalorieberegner?"
-    answer: "En kalorieberegner kan betyde mindst tre forskellige ting. For det første kan man beregne sit daglige energiforbrug baseret på dit aktivitetsniveau eller specifikke aktiviteter. For det andet kan man beregne indholdet af kalorier i din mad og kost. For det tredje kan man i en energiomregner omregne mellem kJ og kalorier eller den anden vej."
   - question: "Hvad er kalorier?"
     answer: "Kalorier er en måde at opgøre energi på. Jeg har skrevet mere uddybende om [kalorier](/hvad-er-kalorier/)."
+  - question: "Hvad er en kalorieberegner?"
+    answer: "En kalorieberegner kan betyde mindst tre forskellige ting. For det første kan man beregne sit daglige energiforbrug baseret på dit aktivitetsniveau eller specifikke aktiviteter. For det andet kan man beregne indholdet af kalorier i din mad og kost. For det tredje kan man i en energiomregner omregne mellem kJ og kalorier eller den anden vej."
+  - question: "Hvordan beregner man sit daglige kaloriebehov?"
+    answer: "Du kan beregne dit dagelige energibehov baseret på dit fysiske aktivitetsniveau i en af vores beregnere. Beregn kaloriebehov i vores [avancerede stofskifteberegner]({% link _posts/2019-11-01-stofskifteberegner-avanceret.md %})."
 ---
 
 En kalorieberegner kan være flere ting. Du kan udregne dit eget energibehov eller hvor mange kalorier der er i mad. Jeg har samlet flere forskellige beregnere til kalorier her.
 
 Det er interessant at regne på energi, så lad os dykke direkte ned i de forskellige måder du kan udregne kalorier og kJ på med disse kalorieudregnere.
 
-Inden du går i gang med kalorieudregnerne, så kan det måske være relevant at kigge på, [hvad kalorier egentlig er](/hvad-er-kalorier/).
+Inden du går i gang med kalorieudregnerne, så kan det måske være relevant at kigge på, [hvad kalorier er](/hvad-er-kalorier/).
 
 ## Kalorieberegner - hvor mange kalorier har man brug for?
 
-Du kan bruge en kalorieberegner til at estimere, hvor mange kalorier du har brug for om dagen for at holde vægten - eller for at få vægten til at stige eller falde.
+Du kan bruge en kalorieberegner til at estimere dit daglige energibehov. Du kan altså beregne, hvor mange kalorier du har brug for om dagen for at holde vægten - eller for at få vægten til at stige eller falde.
 
 Alle kalorieberegnere er naturligvis baseret på et gennemsnitligt kaloriebehov for et gennemsnitligt menneske. Der findes mange beregnere, hvor du kan beregne dit daglige kaloriebehov. Kalorieberegningen kan give dig en ide om, hvor meget energi du skal spise om dagen.
 
@@ -101,6 +104,8 @@ Desuden kunne madberegneren formentlig relativt let give et overblik over minera
 ## Kalorie beregner til dagligt energiindtag
 
 Hvis du har brug for et mere præcist billede af dit daglige kalorieindtag, så findes der heldigvis nogle programmer, som du kan bruge til at holde styr på alle dine måltider. Vi har samlet en liste med nogle af de [bedste kalorietæller apps](/kalorietaeller-apps/), hvis du vil i gang med at tælle kalorier.
+
+Når du har styr på, hvor mange kalorier om dagen, du indtager, så ved du også om du skal spise færre kalorier eller skrue op for energiindtaget, hvis du gerne vil ændre din vægt.
 
 ## Energiberegner med MET-værdier
 
