@@ -1,6 +1,6 @@
 ---
 title: "Talje-hofte-ratio siger noget om din fedtfordeling (Beregner)"
-seo_title: "Talje-hofte-ratio | Beregn fordelingen af dit fedt" 
+seo_title: "Talje-hofte-ratio | Beregn fordelingen af dit fedt"
 description: "Vil du gerne vide mere om fedtfordelingen på din krop? Mål din talje-hofte-ratio og få svaret i vores beregner."
 excerpt: "Forholdet mellem taljemål og hoftemål kan på en enkel måde at sige noget om fedtfordelingen på din krop. Studier har vist, at der er en sammenhæng mellem forholdet mellem livvidden og hoftemålet og risikoen for livsstilssygdomme. Jeg har researchet hvilke forskellige taljemål og hoftemål, der findes."
 permalink: /talje-hofte-ratio/
@@ -19,6 +19,11 @@ tags:
 popular: true
 last_modified_at: 2022-05-04T23:14:14Z
 toc: true
+faq:
+  - question: Hvad er et normalt hoftemål for kvinder?
+    answer: Det er umuligt at sige præcist, hvad et normalt hoftemål er for kvinder. Du kan i stedet kigge på forholdet mellem hofteomkredsen og taljeomkredsen. Der skal kvinder helst ligge under 0,8.
+  - question: Hvor måler man hoften?
+    answer: Du skal lave hoftemålet på det bredeste sted set fra siden.
 ---
 
 Talje-hofte-ratioen er en enkel måde at sige noget om fedtfordelingen på din krop. Forholdet mellem din taljeomkreds og hofteomkreds kaldes også waist-hip-ratio eller forkortes WHR på engelsk.
@@ -34,7 +39,6 @@ Taljemålet indgår også i en [vurdering af taljemålet](/taljemaal/) for sig s
 I denne beregner kan du udregne din din talje-hofte-ratio og din talje-højde-ratio.
 
 {% include calculate-waist.html %}
-
 
 ## Hvad er Talje-hofte-ratio?
 
@@ -56,11 +60,11 @@ Ofte er WHR også knyttet sammen med fysisk tiltrækning på tværs af forskelli
 
 Hvordan måles taljemålet (livvidden) og hoftemålet som bruges til talje-hofte-ratioen, og hvor måler man hoften?
 
-{% include figure image_path="https://www.myfooddiary.com/IMG/Resources/waist_to_hip_measure.gif" caption="Kilde: [www.myfooddiary.com](https://www.myfooddiary.com/resources/waist-to-hip_ratio_calculator.asp)" %}
+{% include figure image_path="https://www.myfooddiary.com/IMG/Resources/waist_to_hip_measure.gif" caption="Kilde: [www.myfooddiary.com](https://www.myfooddiary.com/resources/waist-to-hip_ratio_calculator.asp)" alt="måling af talje og hoftemål" %}
 
 - Personen skal stå oprejst til begge målinger.
 - **Taljemålet**. Mål omkredsen af taljen ved midtpunktet på siden mellem nederste punkt at nederste ribben og øverste punkt af hoftekammen. Det er cirka 2 cm over navlen.
-- **Hoftemålet**. Hoften måles ved det den største omkreds ved hoften og omkring numsen.
+- **Hoftemålet**. Hoften måles ved det den største omkreds ved hoften og omkring numsen. Det er lettest at se det, når du står fra siden.
 
 Du kan se mere i denne video om, hvordan man måler taljemålet og hoftemålet:
 
