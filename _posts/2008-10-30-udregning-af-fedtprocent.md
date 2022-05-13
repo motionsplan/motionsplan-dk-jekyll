@@ -208,8 +208,6 @@ Hvis du vil have et mere præcist bud på din fedtprocent, så kan du kigge på 
 
 Men overvej hvorfor du gerne vil have sat tal på din fedtprocent, og hvad du vil bruge de tal til.
 
-{% include rating.html %}
-
 ## Referencer
 
 {% include feature_row type="left" %}
@@ -226,5 +224,3 @@ Men overvej hvorfor du gerne vil have sat tal på din fedtprocent, og hvad du vi
 * Jackson AS. Research design and analysis of data procedures for predicting body density. Med Sci Sports Exercise 1984; 16:616-620.
 * Wellens, RJ, Roche AF, Khamis HJ et al. Relationships between body mass index and body composition. Obes Res 1996; 4:35-44.
 </details>
-
-{% include rating.html %}

@@ -71,6 +71,12 @@ require('image-map-resizer');
 
 $(function() {
     $('map').imageMapResize();
+    
+    $('.rating input[name="rating"]').one('click', function () {
+      console.log("Clicked star");
+      let votes = Number($('#votes').text() * 1);
+      $('#votes').text(votes + 1);
+    });
 
     $("#target_bmi_man").change(function() {
         console.log('Ready to calculate');

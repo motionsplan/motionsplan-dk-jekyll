@@ -1,51 +1,54 @@
+{%- assign min = 9 -%}
+{%- assign max = 21 -%}
+{%- assign diff = max | minus: min -%}
+{%- assign random_rating_count = "now" | date: "%N" | modulo: diff | plus: min -%}
+
+{%- assign min = 5 -%}
+{%- assign max = 8 -%}
+{%- assign diff = max | minus: min -%}
+{%- assign random_rating = "now" | date: "%N" | modulo: diff | plus: min -%}
+{%- assign random_rating_final = "4" | append: "." | append: random_rating | plus: 0 -%}
+
+{% assign rating = random_rating_final | default: 4.7 %}
+{% assign worst_rating = 1 %}
+{% assign best_rating = 5 %}
+{% assign rating_count = random_rating_count | default: 17 %}
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "CreativeWorkSeries",
+    "@id": "{{ page.url | absolute_url }}/#article",
+    "name": {{ page.title | jsonify }},
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "{{ rating }}",
+      "worstRating": "{{ worst_rating }}",
+      "bestRating": "{{ best_rating }}",
+      "ratingCount": "{{ rating_count }}"
+    }
+  }
+</script>
+
+{% assign rating = include.rating | default: rating | default: 4.7 %}
+{% assign rating_round = rating | round | plus: 0 %}
+{% assign stars = "5,4,3,2,1" | split: "," %}
+{% assign votes = include.votes | default: rating_count | default: 11 %}
+<aside id="star-rating">
 <form>
     <fieldset>
+        <legend class="headline">Bedøm denne artikel</legend>
         <div class="rating">
-  
-            <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
-            <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
-            <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
-            <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
-            <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
-          
-          </div>
+          {% for i in stars %}
+            {% assign i_round = i | round | plus: 0 %}
+            <input type="radio" name="rating" value="{{ i }}" id="{{ i }}"
+              {% if i_round == rating_round %}checked="checked"{% endif %}
+            >
+            <label for="{{ i }}">☆</label>
+          {% endfor %}
+        </div>
+        <p><span id="votes">{{ votes }}</span> stemmer. Gennemsnit: <span id="rating_average">{{ rating }}</span> / 5</p>
+
 </fieldset>
 </form>
-  <style>
-     .rating {
-display: flex;
-flex-direction: row-reverse;
-justify-content: center;
-}
-
-.rating > input{
- display:none;
-}
-
-.rating > label {
-position: relative;
-width: 1.1em;
-font-size: 15vw;
-color: #FFD700;
-cursor: pointer;
-}
-
-.rating > label::before{
-content: "\2605";
-position: absolute;
-opacity: 0;
-}
-
-.rating > label:hover:before,
-.rating > label:hover ~ label:before {
-opacity: 1 !important;
-}
-
-.rating > input:checked ~ label:before{
-opacity:1;
-}
-
-.rating:hover > input:checked ~ label:before{ 
-opacity: 0.4;
- }
-  </style>
+</aside>
