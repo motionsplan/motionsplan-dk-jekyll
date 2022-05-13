@@ -5,7 +5,6 @@ redirect_from:
   - /artikel/fedtprocent-skinfold/
   - /skinfold-lohman/
   - /skinfold-slaughter/
-  - /skinfold-ymca/
 excerpt: "Du kan bestemme din fedtprocent ved at måle hudfoldstykkelser med en fedttang eller hudfoldsmåler. Vi har beregnere til de meste almindelige metoder."
 language: da
 header:
