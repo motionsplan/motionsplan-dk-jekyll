@@ -30,6 +30,8 @@ Når vi spiser, så lagrer vi næringsstofferne rundt omkring i kroppen. Når vi
 
 Hver gang vi lagrer et gram sukker, lagrer vi også vand. Faktisk hele tre gram vand[^note]. Derfor kan din vægt sagtens skifte alt efter, hvor store dine glykogendepoter rundt omkring i kroppen er.
 
+[^note]: I virkeligheden binder 1 gram glykogen måske snarere i spændet mellem 2,7 g - 4 g til sig.
+
 Langt størstedelen bliver lagret i musklerne og leveren, men der bliver også lagret en lille smule i blodet, nyren og hjernen.
 
 I tabellen nedenunder kan du se, hvor store energilagrene til kulhydrat kan være.
@@ -46,8 +48,6 @@ Det er med andre ord meget forskelligt fra person til person, hvor meget glykoge
 
 [Acheson et al (1988)](https://academic.oup.com/ajcn/article-abstract/48/2/240/4694971) har imidlertid vist, at det måske er muligt at lagre endnu mere glykogen i visse tilfælde).
 {: .notice .notice--info }
- 
-[^note]: I virkeligheden binder 1 gram glykogen måske snarere i spændet mellem 2,7 g - 4 g til sig.
 
 Din vægt vil altså gå op og ned, hvis du indtager kulhydratholdige måltider. 
 
@@ -160,8 +160,8 @@ Dit mål kan være at ændre lidt på din kropssammensætning, men der er vægte
 
 Jeg synes til hver en tid, at det er mere interessant at holde øje med, om jeg er blevet stærkere, kan springe højere, løbe hurtigere eller længere. 
 
-Men jeg fornemmer også, at rigtig mange bekymrer sig om deres vægt og fedtprocent. 
+Men jeg fornemmer også, at rigtig mange bekymrer sig om deres vægt, fedtprocent og [mavefedt](/tab-fedt-paa-maven/).
 
-Hvis dit overordnede mål er at tabe dig, så sæt dig ned og kig lidt på, [hvordan man kan måle, hvor meget fedt udgør af din kropsvægt]({% link _posts/2019-10-14-kropskomposition.md %}).
+Hvis dit overordnede mål er at tabe dig, så sæt dig ned og kig lidt på, [hvordan man kan måle, hvor meget fedt udgør af din kropsvægt](/maal-fedtprocent/).
 
 ## Noter

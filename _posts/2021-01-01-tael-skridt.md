@@ -113,6 +113,6 @@ Efterhånden kan du også bare bruge telefonen til at tælle dine skridt. Fx kan
 
 Jeg leder lige nu efter studier, der viser hvor præcise målingerne af skridttælling er med smartphone-apps.
 
-## Tæl skridt 2022
+## Tæl skridt 2022 datoer
 
-Skal du være med til at tælle skridt i 2022, så skriv endelig i kommentarerne, hvad dit mål er.
+Skal du være med til at tælle skridt i 2022? Du kan finde datoer på Dansk Firma-Idræt, hvis du gerne vil deltage i kampagnen.

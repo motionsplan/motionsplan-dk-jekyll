@@ -26,10 +26,17 @@ faq:
   - question: Hvad er skeletmuskler?
     answer: "Skeletmuskler er de muskler, der skaber bevægelse af kroppen. Skeletmusklerne kaldes også for ”den tværstribede skeletmuskulatur”."
   - question: Hvor mange muskler har man i kroppen?
-    answer: "Der er omkring 700 navngivne skeletmuskler i kroppen, men det kommer an på, hvordan man tæller. Massageterapeuter og fysioterapeuter er kun interesserede i 2-300 muskler. Læs mere på i vores indlæg om [Hvor mange muskler man har i kroppen](/hvor-mange-muskler-i-kroppen/)."
+    answer: "Der er omkring 700 navngivne skeletmuskler i kroppen, men det kommer an på, hvordan man tæller. Massageterapeuter og fysioterapeuter er kun interesserede i 2-300 muskler. Læs mere på i vores indlæg om [Hvor mange muskler har vi i kroppen](/hvor-mange-muskler-i-kroppen/)."
+  - question: Hvad er kroppens største muskel?
+    answer: "Kroppens største muskel er den store sædemuskel - gluteus maximus. Ballemusklerne er kroppens største og stærkeste muskel, som også er vigtig for at du kan holde dig oprejst og bevæge dig rundt."
 ---
 
 De muskler, der skaber bevægelse af kroppen, kaldes for ”den tværstribede skeletmuskulatur”. Denne side handler om skeletmusklerne. Først kan du læse en kort introduktion til, hvad muskler og skeletmuskler er og deres anatomi. Derefter kigger jeg på de forskellige muskelgrupper.
+
+{% comment %}
+De største muskler
+https://www.bodylab.dk/shop/det-vidste-du-2865c1.html
+{% endcomment %}
 
 Musklerne er hæftet til knoglerne via sener. Når musklerne gennem nervesystemet får et signal, vil de trække sig sammen og ved hjælp af leddenes bevægelighed skabe bevægelse af skelettets knogler. Sammentrækningen foregår gennem [sliding filament teorien]({% link _posts/2020-06-06-muskelsammentraekning.md %}).
 

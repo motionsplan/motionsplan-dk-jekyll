@@ -53,6 +53,23 @@ Den mest kendte squat variation er [back squat med vægten på skuldrene]({% lin
 
 Men lad os først dykke ned i den generelle teknik for squat, hvorefter vi kigger mere specifikt på de forskellige variationer af squat.
 
+{% comment %}
+
+squats
+squat øvelser hjemme
+squats muskler
+squat teknik
+korrekt udført squat
+squat begynder
+squats med vægt
+squat træningsprogram
+squatte
+hvad træner squat
+squat øvelser
+squat træning
+
+{% endcomment %}
+
 ## Teknik i squat
 
 I [teknik i styrketræning]({% link _posts/2011-08-18-tjek-teknikken-i-din-styrketraening.md %}) har jeg beskrevet nogle grundlæggende tekniske instruktionspunkter, som kan være et godt udgangspunkt for en **perfekt squat teknik**.
