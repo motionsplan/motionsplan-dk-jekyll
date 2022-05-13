@@ -33,11 +33,13 @@ Typisk vil du derfor med en safety bar squatte lidt mere oprejst lidt ligesom du
 
 Når du laver front squat vil du efterhånden blive trukket lidt fremefter, særligt hvis du bliver træt i det øverste af ryggen og får problemer med at holde albuerne oppe.
 
+{% include video provider="youtube" id="cj3uz9i5EsE" %}
+
 Det samme sker ikke med safety squat stang, så det er lettere at lave mange gentagelser med en safety bar. Hvis altså stangen er konstrueret rigtigt.
 
 ## Hvordan skal en safety bar se ud?
 
-{% include figure image_path="https://p6r9a9v8.stackpathcdn.com/wp-content/uploads/2017/11/IMG_0396-Edited_opt.jpg" caption="Yoke Safety Bar fra EliteFts. Kilde: [garagegymlab.com](https://garagegymlab.com/5-safety-squat-bar-benefits/)." alt="Yoke Safety Bar til Squat fra EliteFts" %}
+{% include figure image_path="https://garagegymlab.com/wp-content/uploads/2017/11/Safety-Squat-Bar-Profile.jpg" caption="Yoke Safety Bar fra EliteFts. Kilde: [garagegymlab.com](https://garagegymlab.com/5-safety-squat-bar-benefits/)." alt="Yoke Safety Bar til Squat fra EliteFts" %}
 
 Simon fra [supertraining.dk](http://supertraining.dk/) anbefaler safety bars, men han er ikke så vild med [Charles Poliquins version](http://supertraining.dk/180-charles-poliquin-master-of-bullshit/) af safety bar squats.
 
