@@ -176,7 +176,7 @@ Når du vurderer det, så skal du være helt klar over de usikkerheder, der er f
 
 Du skal altså ikke gå på en [tvivlsom slankekur]({% link _posts/2020-09-04-slankekur.md%}) på baggrund af disse beregninger.
 
-Jeg har skrevet mere om [BMI og lavet en beregner](/bmi/), og jeg har også skrevet et omfattende indlæg om [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}).
+Jeg har skrevet mere om [BMI skalen](/bmi/) og lavet en [BMI beregner](/bmi-beregner/), og jeg har også skrevet et omfattende indlæg om [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}).
 
 Hvis du får et alarmerende resultat i denne beregner, så kan du starte med at kombinere udregningen af fedtprocent med en øjemålstest. Den kan give dig en nogenlunde ide, om din fedtprocent ligger inden for et sundt spektrum.
 
@@ -207,6 +207,8 @@ Her har du haft mulighed for at beregne din fedtprocent baseret på alder, køn 
 Hvis du vil have et mere præcist bud på din fedtprocent, så kan du kigge på vores andre måder at [måle fedtprocent](/maal-fedtprocent/) på.
 
 Men overvej hvorfor du gerne vil have sat tal på din fedtprocent, og hvad du vil bruge de tal til.
+
+{% include rating.html %}
 
 ## Referencer
 
