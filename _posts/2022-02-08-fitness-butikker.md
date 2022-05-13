@@ -48,13 +48,7 @@ Abilicaonline.dk er en anerkendt online fitnessforhandler. De har et bredt udval
 
 [Besøg Abilica](https://www.abilicaonline.dk/){: .btn .btn--large .btn--success rel="nofollow noopener" }
 
-### 4. Fitness Supply
-
-Fitnesssupply.dk forhandler fitness udstyr online. Du kan få det meste standard træningsudstyr til cardio, styrketræning og kampsport. De har også [cardiomaskiner](/bedste-cardiomaskiner/). Fitness-supply.dk har også et mindre udvalg af udstyr til outdoorliv og udeleg. Fitness Supply henvender sig særligt til hjemmetræning, men de har flere populære internationale brands.
-
-[Besøg Fitness Supply »](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=77303){: .btn .btn--large .btn--danger rel="sponsored nofollow noopener" }
-
-### 5. Fitness Shoppen
+### 4. Fitness Shoppen
 
 Fitnessshoppen.dk er en online fitness butik. De forhandler udstyr til hjemmetræning. Du kan fx købe udstyr til styrketræning og forskellige motionscykler og træningsmaskiner. Fitnessshoppen har fitnessudstyr både til private og professionelle.
 
@@ -62,13 +56,13 @@ Fitnessshoppen.dk er en online fitness butik. De forhandler udstyr til hjemmetr�
 
 [Besøg FitnessShoppen »](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=74937){: .btn .btn--large .btn--danger rel="sponsored nofollow noopener" }
 
-### 6. Fitnessudsalg.dk
+### 5. Fitnessudsalg.dk
 
 Fitnessudsalg.dk forhandler primært fitnessudstyr til private, som du kan bruge i hjemmetræningen. På webshoppen kan du købe udstyr til styrketræning, cardio, fitnessudstyr og træningsmaskiner. Fitnessudsalg.dk har fornuftige priser.
 
 [Besøg Fitnessudsalg.dk »](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=91050){: .btn .btn--large .btn--danger rel="sponsored nofollow noopener" }
 
-### 7. Getbig
+### 6. Getbig
 
 Getbig.dk er én af Danmarks mest kendte og største forhandlere af fitness udstyr, træningsudstyr og kosttilskud. Hvis du kun vil handle et sted, så kan du altså få det hele her. Det er lige fra proteinpulver, til yogamåtter, kettlebells og til kompette fitnessstationer. Getbig har lave priser, de sender hurtigt og du har 60 dages returret på varer købt hos Getbig.
 
@@ -76,7 +70,7 @@ Getbig.dk er én af Danmarks mest kendte og største forhandlere af fitness udst
 
 [Besøg Getbig »](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=21411){: .btn .btn--large .btn--danger rel="sponsored nofollow noopener" }
 
-### 8. Apuls
+### 7. Apuls
 
 Apuls.dk sælger også træningsudstyr. Apuls forhandler alt fra træningsmaskiner til kosttilskud og produkter til velvære og genoptræning. Udover fitnessudstyr så kan du også også købe udstyr til mange [forskellige sportsgrene](/sportsgrene-liste/), fx atletikudstyr, kampsport og boldsport.
 
