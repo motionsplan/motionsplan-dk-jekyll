@@ -91,3 +91,7 @@ Du kan jo tage tiderne og sætte ind i vores [hastighedsberegner](/hastighed/). 
 | 20.000 m kapgang (bane)	| 1:26:52.3 | Olimpiada Ivanova | Rusland | Rusland | 6. September 2001 | Australien Brisbane, Australia |
 | 20 km kapgang (landevejsløb) | 1:24:38 | Liu Hong | China | 6. juni 2015 | Gran Premio Cantones	Spanien A Coruña, Spain	|
 | 50 km kapgang (landevejsløb) | 4:08:26 | Inês Henriques | Portugal | 15. januar 2017 | Portuguese Championships	Portugal Porto de Mós, Portugal	|
+
+## Konklusion
+
+Nu har du en ide om, hvor lang tid det tager at gå. Hvis du kender din distance og tid, så kan du også [regne din gennemsnitsfart i vores fartberegner](/hastighed/).
