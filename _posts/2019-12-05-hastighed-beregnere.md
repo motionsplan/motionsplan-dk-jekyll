@@ -35,7 +35,7 @@ faq:
 
 Når jeg laver træningsprogrammer til løb eller cykling, vil jeg typisk gerne kende den hastighed og tempo, jeg skal træne med. Jeg har lavet en beregner og en tabel, som kan hjælpe med at beregne km/t, m/s og min/km og derved finde din løbehastighed og cykelhastighed.
 
-Du kan bruge tabellen og beregneren til at få svar på spørgsmålet: "Hvad er min hastighed?". Du kan i beregneren udregne din løbehastighed eller omregne fra km/t til min/km eller tilbage igen.
+Du kan bruge tabellen nedenunder og vores hastighedsberegner til at få svar på spørgsmålet: "Hvad er min hastighed?". Du kan i beregneren udregne din løbehastighed eller omregne fra km/t til min/km eller tilbage igen.
 
 Når du har læst hele dette indlæg, så kan du selv besvare følgende spørgsmål:
 
@@ -104,7 +104,7 @@ Hvis du gerne selv vil beregne hastigheden ud fra distance og tid uden at skulle
 
 {% include math formula="Hastighed (km/t) = \frac{distance (km) * 60 (min/t)}{tid (min)}" %}
 
-Hvis du fx løber 10 km på 50 minutter, så bliver din hastighedsberegning altså:
+Hvordan regner man km/t, hvis du fx løber 10 km på 50 minutter. Din hastighedsberegning bliver altså følgende:
 
 {% include math formula="Hastighed (km/t) = \frac{10 km * 60 (min/t)}{50 min} = 12 km/t" %}
 
