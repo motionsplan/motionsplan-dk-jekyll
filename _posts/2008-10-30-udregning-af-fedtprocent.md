@@ -176,7 +176,7 @@ Når du vurderer det, så skal du være helt klar over de usikkerheder, der er f
 
 Du skal altså ikke gå på en [tvivlsom slankekur]({% link _posts/2020-09-04-slankekur.md%}) på baggrund af disse beregninger.
 
-Jeg har skrevet mere om [BMI og lavet en beregner](/bmi/), og jeg har også skrevet et omfattende indlæg om [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}).
+Jeg har skrevet mere om [BMI skalen](/bmi/) og lavet en [BMI beregner](/bmi-beregner/), og jeg har også skrevet et omfattende indlæg om [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}).
 
 Hvis du får et alarmerende resultat i denne beregner, så kan du starte med at kombinere udregningen af fedtprocent med en øjemålstest. Den kan give dig en nogenlunde ide, om din fedtprocent ligger inden for et sundt spektrum.
 
@@ -223,5 +223,4 @@ Men overvej hvorfor du gerne vil have sat tal på din fedtprocent, og hvad du vi
 * Jackson AS, Pollock ML, Ward A, Generalized equations for predicting body density of women. Med Sci Sports Exercise 1980; 12:175-182
 * Jackson AS. Research design and analysis of data procedures for predicting body density. Med Sci Sports Exercise 1984; 16:616-620.
 * Wellens, RJ, Roche AF, Khamis HJ et al. Relationships between body mass index and body composition. Obes Res 1996; 4:35-44.
-
 </details>
