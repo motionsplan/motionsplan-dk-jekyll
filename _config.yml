@@ -361,6 +361,10 @@ defaults:
       path: "assets/pdf/**/*.pdf"
     values:
       sitemap: false
+  - scope:
+      path: "/admin/"
+    values:
+      sitemap: false
   # _posts
   - scope:
       path: ""
