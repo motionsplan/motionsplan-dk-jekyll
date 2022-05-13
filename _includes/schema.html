@@ -114,38 +114,6 @@
         }
     }
 </script>
-
-{%- assign min = 9 -%}
-{%- assign max = 21 -%}
-{%- assign diff = max | minus: min -%}
-{%- assign random_rating_count = "now" | date: "%N" | modulo: diff | plus: min -%}
-
-{%- assign min = 5 -%}
-{%- assign max = 8 -%}
-{%- assign diff = max | minus: min -%}
-{%- assign random_rating = "now" | date: "%N" | modulo: diff | plus: min -%}
-{%- assign random_rating_final = "4" | append: "." | append: random_rating | plus: 0 -%}
-
-{% assign rating = random_rating_final | default: 4.7 %}
-{% assign worst_rating = 1 %}
-{% assign best_rating = 5 %}
-{% assign rating_count = random_rating_count | default: 17 %}
-
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org/",
-    "@type": "CreativeWorkSeries",
-    "@id": "{{ page.url | absolute_url }}/#article",
-    "name": {{ seo_title | jsonify }},
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "{{ rating }}",
-      "worstRating": "{{ worst_rating }}",
-      "bestRating": "{{ best_rating }}",
-      "ratingCount": "{{ rating_count }}"
-    }
-  }
-</script>
 {% endif %}
 
 {% if page.faq %}
