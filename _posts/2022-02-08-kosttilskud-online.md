@@ -104,6 +104,12 @@ Helsebixen.dk er Danmarks største site for helsekost med mere end 12.000 produk
 
 [Besøg Helsebixen »](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=24609){: .btn .btn--large .btn--danger rel="sponsored nofollow noopener" }
 
+### 8. Muscle House
+
+Muscle House har et stort udvalg inden for alt i kosttilskud - bl.a. proteinpulver, kreatin, BCAA, aminosyrer, pre-workout, weight gainer, vitaminer og mineraler osv. Muscle House forhandler sunde alternativer til madlavning, samt et udvalg af træningsudstyr.
+
+[Besøg Muscle House »](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=68774){: .btn .btn--large .btn--danger rel="sponsored nofollow noopener" }
+
 ## Konklusion
 
 Hvis du gerne vil købe kosttilskud online, så kan det være en rigtig god ide at tjekke nogle af de danske webshops ud. Husk også at gøre dig overvejelser om, hvilke kosttilskud der rent faktisk virker, inden du bruger dine penge på tilskud, som måske ikke kommer til at gøre den store forskel for dig.
