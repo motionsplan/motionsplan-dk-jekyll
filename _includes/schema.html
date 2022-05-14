@@ -59,7 +59,7 @@
             "url": {{ page.about.url | absolute_url | jsonify }}
         },
         {% endif %}
-        "inLanguage": {{ page.locale | default: site.locale | jsonify}},
+        "inLanguage": {{ page.locale | default: site.locale | jsonify }},
         "potentialAction": [
           { "@type": "ReadAction", "target": [{{ page.url | absolute_url | jsonify }}] }
         ]
