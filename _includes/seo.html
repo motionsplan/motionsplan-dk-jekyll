@@ -130,8 +130,8 @@
   <meta property="article:modified_time" content="{{ page.last_modified_at | date_to_xmlschema }}">
 {% endif %}
 
-{% if author %}
-  <meta property="article:author" content="{{ author }}">
+{% if author.name %}
+  <meta property="article:author" content="{{ author.name }}">
 {% endif %}
 
 {% if site.facebook %}
