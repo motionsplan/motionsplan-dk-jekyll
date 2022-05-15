@@ -1,4 +1,4 @@
-# [Motionsplan](http://motionsplan.dk)
+# [Motionsplan](https://www.motionsplan.dk)
 
 Site created in Jekyll based on [Minimal Made Mistakes theme](https://github.com/mmistakes/minimal-mistakes).
 
