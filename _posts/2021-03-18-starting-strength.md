@@ -3,7 +3,7 @@ title: &title "Starting Strength: Styrketræningsprogram af Mark Rippetoe"
 permalink: /starting-strength-styrketraeningsprogram/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1583187938491-1dcc103c9e14?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1583187938491-1dcc103c9e14?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1583187938491-1dcc103c9e14?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:

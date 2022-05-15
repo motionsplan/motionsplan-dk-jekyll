@@ -4,7 +4,7 @@ permalink: /benoevelser/
 redirect_from:
   - /effektive-benovelser-til-bentraening/
 header:
-  overlay_image: https://images.unsplash.com/photo-1434682772747-f16d3ea162c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1434682772747-f16d3ea162c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1434682772747-f16d3ea162c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: "Benøvelser: De mest effektive styrketræningsøvelser til bentræningen"
 title: "Benøvelser: De mest effektive styrketræningsøvelser til bentræningen 🏋"

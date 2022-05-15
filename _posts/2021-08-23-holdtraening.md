@@ -4,7 +4,7 @@ seo_title: "Holdtræning: Læs dette inden du booker dig på hold!"
 excerpt: "Når du søger på holdtræning, så er første side på Google pakke med tilbud fra de store fitnesskæder. Her kan du vælge mellem mange forskellige holdtræningskoncepter. Lad os kigge på, hvordan de alle kunne forbedres!"
 permalink: /holdtraening/
 header:
-  overlay_image: https://images.unsplash.com/photo-1518310383802-640c2de311b2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1518310383802-640c2de311b2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1518310383802-640c2de311b2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:

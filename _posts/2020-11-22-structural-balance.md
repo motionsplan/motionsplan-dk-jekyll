@@ -3,7 +3,7 @@ title: &title "Strukturel balance i forskellige styrketræningsøvelser 💪"
 permalink: /strukturel-balance/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1571019613914-85f342c6a11e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjB8ODczNTc1Nnx8ZW58MHx8fA%3D%3D&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1571019613914-85f342c6a11e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjB8ODczNTc1Nnx8ZW58MHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1571019613914-85f342c6a11e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjB8ODczNTc1Nnx8ZW58MHx8fA%3D%3D&auto=format&fit=crop&w=400&q=5
   caption: *title
   actions:

@@ -5,7 +5,7 @@ permalink: /loebeprogram-5km/
 excerpt: "Få inspiration til din løbetræning på 5 km med et løbeprogram. Lær at løbe 5 km eller bliv en hurtigere løber på distancen."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1610969544920-47371c6d0d17?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1610969544920-47371c6d0d17?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1610969544920-47371c6d0d17?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
