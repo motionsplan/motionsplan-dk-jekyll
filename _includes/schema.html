@@ -1,3 +1,7 @@
+{% if page.header.overlay_image OR page.header.image %}
+<link rel="preload" href="{{ page.header.overlay_image | default: page.header.image }}" as="image">
+{% endif %}
+
 {% if page.url == '/' %}
 <script type="application/ld+json">
     {
