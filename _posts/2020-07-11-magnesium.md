@@ -260,7 +260,7 @@ Magnesium indgår også i en række lægemidler, fx behandlingen af mavesår (An
 
 ## Magnesium og D-vitamin
 
-Vitaminer og mineralerne i din krop påvirker og supplerer hinanden. Når du tager D-vitamin, så bliver der brugt magnesium. Hvis du tager meget høje mængder af D-vitamin, så kan det skabe mangel på magnesium. Derfor er væsentligt at være opmærksom at få nok magnesium, hvis du tager meget D-vitamin (Reddy og Edwards 2019)
+Vitaminer og mineralerne i din krop påvirker og supplerer hinanden. Når du tager [D-vitamin](/kosttilskud-d-vitamin/), så bliver der brugt magnesium. Hvis du tager meget høje mængder af D-vitamin, så kan det skabe mangel på magnesium. Derfor er væsentligt at være opmærksom at få nok magnesium, hvis du tager meget D-vitamin (Reddy og Edwards 2019)
 
 ## Sport og præstation
 
