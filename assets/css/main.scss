@@ -7,6 +7,26 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+span.strong {
+  font-weight: bold;
+}
+
+.archive__item-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.author__name, .nav__title {
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 1.125;
+}
+
+.page__share-title, .page__related-title, .page__meta-title {
+  font-size: 1.0625em;
+  font-weight: 700;
+}
+
 a[rel~=sponsored]:after {
   content: "*";
 }

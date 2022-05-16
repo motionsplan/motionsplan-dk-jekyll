@@ -381,7 +381,6 @@ defaults:
       toc_sticky: false
       author: lsolesen
       sidebar:
-        title: "Populære sider"
         nav: blog
   # _exercises
   - scope:
