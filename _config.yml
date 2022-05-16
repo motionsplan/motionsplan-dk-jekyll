@@ -187,7 +187,7 @@ include:
   - .htaccess
   - _pages
   - .nojekyll
-  - _redirects
+  - _headers
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
