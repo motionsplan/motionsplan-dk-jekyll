@@ -50,7 +50,7 @@
 {% unless page.header.og_image %}
 {% if page.layout == 'single' %}
 {% assign size = page.permalink.size | minus: 1 %}
-{% capture path %}{{ page.permalink | slice: 0, size | remove_first: "/" | replace: "/", "-" | append: ".png" | prepend: "/assets/images/og/generated/" }}{% endcapture %}
+{% capture path %}{{ page.permalink | slice: 0, size | remove_first: "/" | replace: "/", "-" | append: ".jpg" | prepend: "/assets/images/og/generated/" }}{% endcapture %}
 {% assign file_exists = site.static_files | where: "path", path %}
 
 {% if file_exists.size != 0 %}
