@@ -1,0 +1,8 @@
+---
+layout: none
+---
+{%- for p in site.posts -%}
+{%- for r in p.redirect_from -%}
+{{ r }} {{ p.url }}
+{%- endfor -%}
+{%- endfor -%}
