@@ -70,11 +70,11 @@ Du kan prøve at finde andre i dit nærområde, der er interesseret i trailløb.
 
 Naturstyrelsens [udinaturen.dk](https://udinaturen.dk/) er også et godt sted at lede efter ruteforslag. Du kan også sagtens løbe trailløb på nogle af de mange etablerede mountainbikespor i Danmark, men du skal lige holde øje med de hurtige cyklister på stierne.
 
-{% include figure image_path="/assets/images/blog/trailloeb-udinaturen.png" caption="[udinaturen.dk](https://udinaturen.dk/) har flere forskellige gode forslag til ruter i de danske skove." alt="trailrunning på udinaturen.dk" %}
+{% include figure image_path="/assets/images/blog/trailloeb-udinaturen.jpg" caption="[udinaturen.dk](https://udinaturen.dk/) har flere forskellige gode forslag til ruter i de danske skove." alt="trailrunning på udinaturen.dk" %}
 
 Du kan også lade dig inspirere af Dansk Orienterings-Forbunds stationære orienteringsposter, som findes i rigtig mange af de danske skove. Du kan finde kort og poster på [www.findveji.dk](https://www.findveji.dk). Det kan være en god variation at skulle løbe efter kort for at finde rundt.
 
-{% include figure image_path="/assets/images/blog/trailloeb-findveji.png" caption="[www.findveji.dk](https://www.findveji.dk) er en rigtig godt alternativ til at planlægge dit trailløb." alt="trailløb på findveji" %}
+{% include figure image_path="/assets/images/blog/trailloeb-findveji.jpg" caption="[www.findveji.dk](https://www.findveji.dk) er en rigtig godt alternativ til at planlægge dit trailløb." alt="trailløb på findveji" %}
 
 ## Hvordan finder jeg vej?
 

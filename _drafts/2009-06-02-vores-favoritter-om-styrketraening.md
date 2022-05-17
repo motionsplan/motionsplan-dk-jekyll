@@ -1,9 +1,6 @@
 ---
 title: "Vores favoritter om styrketræning"
 language: da
-header:
-  overlay_image: /assets/images/blog/vores-favoritter-om-styrketraening.png
-  teaser: /assets/images/blog/vores-favoritter-om-styrketraening.png
 tags:
   - webclips
 category:

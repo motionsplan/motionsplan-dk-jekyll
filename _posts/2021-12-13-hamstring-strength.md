@@ -38,7 +38,7 @@ Forskere har forsøgt at finde måder at måle kraften i baglårene på på enkl
 
 Udgangspunktet for Nordic Hamstring Breakpoint Angle er ganske enkelt en smartphone med en app. Her optager du atleten udføre den excentriske del af Nordic Hamstring-øvelsen.
 
-{% include figure image_path="/assets/images/blog/nordic-hamstring-breakpoint-angle.png" caption="Nordic Hamstring Breakpoint Angle testen laves med et kamera. Her er billede af startpositionen (A). Billede B viser midterpositionen. Billede C viser i dette tilfælde Breakpoint Angle. Det er vigtigt at kigge efter om hoften er ret i hele bevægelsen. Kilde: [Sadri-Aghdam et al (2020)](http://www.mltj.online/wp-content/uploads/2020/12/REZAEI-2.pdf)" %}
+{% include figure image_path="/assets/images/blog/nordic-hamstring-breakpoint-angle.jpg" caption="Nordic Hamstring Breakpoint Angle testen laves med et kamera. Her er billede af startpositionen (A). Billede B viser midterpositionen. Billede C viser i dette tilfælde Breakpoint Angle. Det er vigtigt at kigge efter om hoften er ret i hele bevægelsen. Kilde: [Sadri-Aghdam et al (2020)](http://www.mltj.online/wp-content/uploads/2020/12/REZAEI-2.pdf)" %}
 
 På det tidspunkt, hvor atleten ikke længere kan holde igen imod tyngdekraften er _breakpoint angle_. Denne vinkel ser ud til at kunne sige noget om den enkeltes styrke.
 

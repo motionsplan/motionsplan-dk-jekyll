@@ -16,116 +16,116 @@ tags:
   - træningsprogram
   - øvelser
 gallery:
-  - image_path: /assets/images/corona/CW01.png
-    url: /assets/images/corona/CW01.png
+  - image_path: /assets/images/corona/CW01.jpg
+    url: /assets/images/corona/CW01.jpg
     title: "Corona Workout Day 1"
     alt: "Corona Workout Day 1"
-  - image_path: /assets/images/corona/CW02.png
-    url: /assets/images/corona/CW02.png
+  - image_path: /assets/images/corona/CW02.jpg
+    url: /assets/images/corona/CW02.jpg
     title: "Corona Workout Day 2"
     alt: "Corona Workout Day 2"
-  - image_path: /assets/images/corona/CW03.png
-    url: /assets/images/corona/CW03.png
+  - image_path: /assets/images/corona/CW03.jpg
+    url: /assets/images/corona/CW03.jpg
     title: "Corona Workout Day 3"
     alt: "Corona Workout Day 3"
-  - image_path: /assets/images/corona/CW04.png
-    url: /assets/images/corona/CW04.png
+  - image_path: /assets/images/corona/CW04.jpg
+    url: /assets/images/corona/CW04.jpg
     title: "Corona Workout Day 4"
     alt: "Corona Workout Day 4"
-  - image_path: /assets/images/corona/CW05.png
-    url: /assets/images/corona/CW05.png
+  - image_path: /assets/images/corona/CW05.jpg
+    url: /assets/images/corona/CW05.jpg
     title: "Corona Workout Day 5"
     alt: "Corona Workout Day 5"
-  - image_path: /assets/images/corona/CW06.png
-    url: /assets/images/corona/CW06.png
+  - image_path: /assets/images/corona/CW06.jpg
+    url: /assets/images/corona/CW06.jpg
     title: "Corona Workout Day 6"
     alt: "Corona Workout Day 6"
-  - image_path: /assets/images/corona/CW07.png
-    url: /assets/images/corona/CW07.png
+  - image_path: /assets/images/corona/CW07.jpg
+    url: /assets/images/corona/CW07.jpg
     title: "Corona Workout Day 7"
     alt: "Corona Workout Day 7"
-  - image_path: /assets/images/corona/CW08.png
-    url: /assets/images/corona/CW08.png
+  - image_path: /assets/images/corona/CW08.jpg
+    url: /assets/images/corona/CW08.jpg
     title: "Corona Workout Day 8"
     alt: "Corona Workout Day 8"
-  - image_path: /assets/images/corona/CW09.png
-    url: /assets/images/corona/CW09.png
+  - image_path: /assets/images/corona/CW09.jpg
+    url: /assets/images/corona/CW09.jpg
     title: "Corona Workout Day 9"
     alt: "Corona Workout Day 9"
-  - image_path: /assets/images/corona/CW10.png
-    url: /assets/images/corona/CW10.png
+  - image_path: /assets/images/corona/CW10.jpg
+    url: /assets/images/corona/CW10.jpg
     title: "Corona Workout Day 10"
     alt: "Corona Workout Day 10"
-  - image_path: /assets/images/corona/CW11.png
-    url: /assets/images/corona/CW11.png
+  - image_path: /assets/images/corona/CW11.jpg
+    url: /assets/images/corona/CW11.jpg
     title: "Corona Workout Day 11"
     alt: "Corona Workout Day 11"
-  - image_path: /assets/images/corona/CW12.png
-    url: /assets/images/corona/CW12.png
+  - image_path: /assets/images/corona/CW12.jpg
+    url: /assets/images/corona/CW12.jpg
     title: "Corona Workout Day 12"
     alt: "Corona Workout Day 12"
-  - image_path: /assets/images/corona/CW13.png
-    url: /assets/images/corona/CW13.png
+  - image_path: /assets/images/corona/CW13.jpg
+    url: /assets/images/corona/CW13.jpg
     title: "Corona Workout Day 13"
     alt: "Corona Workout Day 13"
-  - image_path: /assets/images/corona/CW14.png
-    url: /assets/images/corona/CW14.png
+  - image_path: /assets/images/corona/CW14.jpg
+    url: /assets/images/corona/CW14.jpg
     title: "Corona Workout Day 14"
     alt: "Corona Workout Day 14"
-  - image_path: /assets/images/corona/CW15.png
-    url: /assets/images/corona/CW15.png
+  - image_path: /assets/images/corona/CW15.jpg
+    url: /assets/images/corona/CW15.jpg
     title: "Corona Workout Day 15"
     alt: "Corona Workout Day 15"
-  - image_path: /assets/images/corona/CW16.png
-    url: /assets/images/corona/CW16.png
+  - image_path: /assets/images/corona/CW16.jpg
+    url: /assets/images/corona/CW16.jpg
     title: "Corona Workout Day 16"
     alt: "Corona Workout Day 16"
-  - image_path: /assets/images/corona/CW17.png
-    url: /assets/images/corona/CW17.png
+  - image_path: /assets/images/corona/CW17.jpg
+    url: /assets/images/corona/CW17.jpg
     title: "Corona Workout Day 17"
     alt: "Corona Workout Day 17"
-  - image_path: /assets/images/corona/CW18.png
-    url: /assets/images/corona/CW18.png
+  - image_path: /assets/images/corona/CW18.jpg
+    url: /assets/images/corona/CW18.jpg
     title: "Corona Workout Day 18"
     alt: "Corona Workout Day 18"
-  - image_path: /assets/images/corona/CW19.png
-    url: /assets/images/corona/CW19.png
+  - image_path: /assets/images/corona/CW19.jpg
+    url: /assets/images/corona/CW19.jpg
     title: "Corona Workout Day 19"
     alt: "Corona Workout Day 19"
-  - image_path: /assets/images/corona/CW20.png
-    url: /assets/images/corona/CW20.png
+  - image_path: /assets/images/corona/CW20.jpg
+    url: /assets/images/corona/CW20.jpg
     title: "Corona Workout Day 20"
     alt: "Corona Workout Day 20"
-  - image_path: /assets/images/corona/CW21.png
-    url: /assets/images/corona/CW21.png
+  - image_path: /assets/images/corona/CW21.jpg
+    url: /assets/images/corona/CW21.jpg
     title: "Corona Workout Day 21"
     alt: "Corona Workout Day 21"
-  - image_path: /assets/images/corona/CW22.png
-    url: /assets/images/corona/CW22.png
+  - image_path: /assets/images/corona/CW22.jpg
+    url: /assets/images/corona/CW22.jpg
     title: "Corona Workout Day 22"
     alt: "Corona Workout Day 22"
-  - image_path: /assets/images/corona/CW23.png
-    url: /assets/images/corona/CW23.png
+  - image_path: /assets/images/corona/CW23.jpg
+    url: /assets/images/corona/CW23.jpg
     title: "Corona Workout Day 23"
     alt: "Corona Workout Day 23"
-  - image_path: /assets/images/corona/CW24.png
-    url: /assets/images/corona/CW24.png
+  - image_path: /assets/images/corona/CW24.jpg
+    url: /assets/images/corona/CW24.jpg
     title: "Corona Workout Day 24"
     alt: "Corona Workout Day 24"
-  - image_path: /assets/images/corona/CW25.png
-    url: /assets/images/corona/CW25.png
+  - image_path: /assets/images/corona/CW25.jpg
+    url: /assets/images/corona/CW25.jpg
     title: "Corona Workout Day 25"
     alt: "Corona Workout Day 25"
-  - image_path: /assets/images/corona/CW26.png
-    url: /assets/images/corona/CW26.png
+  - image_path: /assets/images/corona/CW26.jpg
+    url: /assets/images/corona/CW26.jpg
     title: "Corona Workout Day 26"
     alt: "Corona Workout Day 26"
-  - image_path: /assets/images/corona/CW27.png
-    url: /assets/images/corona/CW27.png
+  - image_path: /assets/images/corona/CW27.jpg
+    url: /assets/images/corona/CW27.jpg
     title: "Corona Workout Day 27"
     alt: "Corona Workout Day 27"
-  - image_path: /assets/images/corona/CW28.png
-    url: /assets/images/corona/CW28.png
+  - image_path: /assets/images/corona/CW28.jpg
+    url: /assets/images/corona/CW28.jpg
     title: "Corona Workout Day 28"
     alt: "Corona Workout Day 28"
 feature_row_ads:

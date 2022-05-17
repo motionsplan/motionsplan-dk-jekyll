@@ -54,10 +54,10 @@ feature_row_schwarznegger_poster:
     id: "232432"
     rel: sponsored nofollow noopener
 gallery:
-  - image_path: /assets/images/pinterest/citat-dwayne-johnson.png
-    url: /assets/images/pinterest/citat-dwayne-johnson.png
-  - image_path: /assets/images/pinterest/wendler-accessories.png
-    url: /assets/images/pinterest/wendler-accessories.png
+  - image_path: /assets/images/pinterest/citat-dwayne-johnson.jpg
+    url: /assets/images/pinterest/citat-dwayne-johnson.jpg
+  - image_path: /assets/images/pinterest/wendler-accessories.jpg
+    url: /assets/images/pinterest/wendler-accessories.jpg
   - image_path: /assets/images/pinterest/wendler-get-it-done.png
     url: /assets/images/pinterest/wendler-get-it-done.png
 citatplakat:
@@ -101,7 +101,7 @@ Et par citater fra [træningscitater om løb, styrketræning og motivation]({% l
 
 Når man snakker om træningsplanlægning, så synes jeg Jim Wendler fanger det meget godt med dette citat.
 
-{% include pinterest image_path="/assets/images/pinterest/wendler-accessories.png" data-pin-media="/assets/images/pinterest/wendler-accessories.png" %}
+{% include pinterest image_path="/assets/images/pinterest/wendler-accessories.jpg" data-pin-media="/assets/images/pinterest/wendler-accessories.jpg" %}
 
 ## Citater om fitness på Pinterest
 
