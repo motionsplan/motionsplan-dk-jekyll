@@ -1,8 +1,8 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+layout: none
 ---
-{% for p in site.posts %}
- {% for r in p.redirect_from %}
-    {{ r }} {{ p.url }}
- {% endfor %}
-{% endfor %}
+{%- for p in site.posts -%}
+{%- for r in p.redirect_from -%}
+{{ r }} {{ p.url }}
+{%- endfor -%}
+{%- endfor -%}
