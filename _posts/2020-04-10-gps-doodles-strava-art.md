@@ -58,7 +58,7 @@ Stephen Lund er en af de kendte GPS-kunstnere, og han har fortalt lidt om det p�
 
 ### Vælg en app
 
-Du kan bruge de fleste almindelige GPS-apps til at lave kunst, fx [Strava](https://www.strava.com), [Endomondo](https://www.endomondo.com/), [Runkeeper](https://www.runkeeper.com), [Runtastic](https://www.runtastic.com). Jeg bruger selv Garmin Connect og Strava til min GPS-kunst.
+Du kan bruge de fleste almindelige GPS-apps til at lave kunst, fx [Strava](https://www.strava.com), [Runkeeper](https://www.runkeeper.com) eller [Runtastic](https://www.runtastic.com). Jeg bruger selv Garmin Connect og Strava til min GPS-kunst.
 
 Der er stadig en del at lære, når man kigger på følgende resultater. Det betyder en del, hvor præcis ens GPS er :)
 
