@@ -18,16 +18,16 @@ tags:
 last_modified_at: 2021-03-22T08:14:14Z
 toc: true
 gallery:
-  - image_path: /assets/images/pinterest/rippetoe-deadlift.png
-    url: /assets/images/pinterest/rippetoe-deadlift.png
+  - image_path: /assets/images/pinterest/rippetoe-deadlift.jpg
+    url: /assets/images/pinterest/rippetoe-deadlift.jpg
     title: "Mark Rippetoe"
     alt: "Mark Rippetoe Starting Strength Citat"
-  - image_path: /assets/images/pinterest/rippetoe-squat.png
-    url: /assets/images/pinterest/rippetoe-squat.png
+  - image_path: /assets/images/pinterest/rippetoe-squat.jpg
+    url: /assets/images/pinterest/rippetoe-squat.jpg
     title: "Mark Rippetoe"
     alt: "Mark Rippetoe Starting Strength Citat"
-  - image_path: /assets/images/pinterest/rippetoe-strong.png
-    url: /assets/images/pinterest/rippetoe-strong.png
+  - image_path: /assets/images/pinterest/rippetoe-strong.jpg
+    url: /assets/images/pinterest/rippetoe-strong.jpg
     title: "Mark Rippetoe"
     alt: "Mark Rippetoe Starting Strength Citat"
 ---

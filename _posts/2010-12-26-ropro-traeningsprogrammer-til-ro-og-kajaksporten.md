@@ -112,7 +112,7 @@ Således varer grupperne henholdsvis 20, 15, 10 og 5 minutter.
 
 Er nem at forlænge eller forkorte ved at fjerne en gruppe i den ene eller anden ende.
 
-{% include pinterest image_path="/assets/images/pinterest/60-seconds-staircase.png" data-pin-media="/assets/images/pinterest/60-seconds-staircase.png" %}
+{% include pinterest image_path="/assets/images/pinterest/60-seconds-staircase.jpg" data-pin-media="/assets/images/pinterest/60-seconds-staircase.jpg" %}
 
 ### 6-18-6 pyramide
 
@@ -124,7 +124,7 @@ Såre simpel: seks gange ét minut, seks gange tre og igen seks gange ét.
 
 Jeg holder bare 1 minuts pause for hver.
 
-{% include pinterest image_path="/assets/images/pinterest/6-18-6-pyramid.png" data-pin-media="/assets/images/pinterest/6-18-6-pyramid.png" %}
+{% include pinterest image_path="/assets/images/pinterest/6-18-6-pyramid.jpg" data-pin-media="/assets/images/pinterest/6-18-6-pyramid.jpg" %}
 
 ### Pyramid of fours
 
@@ -132,7 +132,7 @@ En eller to omgange af (1111 22 4 22 1111 minutter)
 
 Hele tiden med 1 minuts pause.
 
-{% include pinterest image_path="/assets/images/pinterest/pyramid-of-fours.png" data-pin-media="/assets/images/pinterest/pyramid-of-fours.png" %}
+{% include pinterest image_path="/assets/images/pinterest/pyramid-of-fours.jpg" data-pin-media="/assets/images/pinterest/pyramid-of-fours.jpg" %}
 
 ### Krintels Favorit
 

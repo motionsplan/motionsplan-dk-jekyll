@@ -18,36 +18,36 @@ tags:
   - træningsprogram
   - øvelser
 gallery:
-  - image_path: /assets/images/corona/MB_ CW1.png
-    url: /assets/images/corona/MB_ CW1.png
+  - image_path: /assets/images/corona/MB_ CW1.jpg
+    url: /assets/images/corona/MB_ CW1.jpg
     title: "Corona Workout Hjemmetræning Day 1"
     alt: "Corona Workout Hjemmetræning Day 1"
-  - image_path: /assets/images/corona/MB_ CW2.png
-    url: /assets/images/corona/MB_ CW2.png
+  - image_path: /assets/images/corona/MB_ CW2.jpg
+    url: /assets/images/corona/MB_ CW2.jpg
     title: "Corona Workout Hjemmetræning Day 2"
     alt: "Corona Workout Hjemmetræning Day 2"
-  - image_path: /assets/images/corona/MB_ CW3.png
-    url: /assets/images/corona/MB_ CW3.png
+  - image_path: /assets/images/corona/MB_ CW3.jpg
+    url: /assets/images/corona/MB_ CW3.jpg
     title: "Corona Workout Hjemmetræning Day 3"
     alt: "Corona Workout Hjemmetræning Day 3"
-  - image_path: /assets/images/corona/MB_ CW4.png
-    url: /assets/images/corona/MB_ CW4.png
+  - image_path: /assets/images/corona/MB_ CW4.jpg
+    url: /assets/images/corona/MB_ CW4.jpg
     title: "Corona Workout Hjemmetræning Day 4"
     alt: "Corona Workout Hjemmetræning Day 4"
-  - image_path: /assets/images/corona/MB_ CW5.png
-    url: /assets/images/corona/MB_ CW5.png
+  - image_path: /assets/images/corona/MB_ CW5.jpg
+    url: /assets/images/corona/MB_ CW5.jpg
     title: "Corona Workout Hjemmetræning Day 5"
     alt: "Corona Workout Hjemmetræning Day 5"
-  - image_path: /assets/images/corona/MB_ CW6.png
-    url: /assets/images/corona/MB_ CW6.png
+  - image_path: /assets/images/corona/MB_ CW6.jpg
+    url: /assets/images/corona/MB_ CW6.jpg
     title: "Corona Workout Hjemmetræning Day 6"
     alt: "Corona Workout Hjemmetræning Day 6"
-  - image_path: /assets/images/corona/MB_ CW7.png
-    url: /assets/images/corona/MB_ CW7.png
+  - image_path: /assets/images/corona/MB_ CW7.jpg
+    url: /assets/images/corona/MB_ CW7.jpg
     title: "Corona Workout Hjemmetræning Day 7"
     alt: "Corona Workout Hjemmetræning Day 7"
-  - image_path: /assets/images/corona/MB_ CW13.png
-    url: /assets/images/corona/MB_ CW13.png
+  - image_path: /assets/images/corona/MB_ CW13.jpg
+    url: /assets/images/corona/MB_ CW13.jpg
     title: "Corona Workout Hjemmetræning Day 13"
     alt: "Corona Workout Hjemmetræning Day 13"
 feature_row_ads:

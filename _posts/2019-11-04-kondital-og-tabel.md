@@ -228,4 +228,6 @@ Vi har skrevet mere om, hvordan du [forbedrer din maksimale iltoptagelse i denne
 * Astrand, I. 1960. “Aerobic Work Capacity in Men and Women with Special Reference to Age”. Acta Physiologica Scandinavica. Supplementum 49 (169): 1–92. <https://pubmed.ncbi.nlm.nih.gov/13794892/>
 </details>
 
+{% include pinterest image_path="/assets/images/pinterest/hvad-er-et-godt-kondital.jpg" data-pin-media="/assets/images/pinterest/hvad-er-et-godt-kondital.jpg" class="hidden" %}
+
 ## Noter til kondition og kondital
