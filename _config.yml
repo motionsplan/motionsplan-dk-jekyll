@@ -227,6 +227,7 @@ exclude:
   - /node_modules
   - .git
   - .svn
+  - /build
 keep_files:
   - /assets/images
   - /assets/pdf
