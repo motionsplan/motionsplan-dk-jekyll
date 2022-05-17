@@ -54,7 +54,7 @@ Du kan finde alt til løb i det store sortiment af løbeudstyr, og du får som f
 
 Sportsmaster er en af de mest kendte danske sportsforretninger og mærker. De har også en rigtig god webshop med et stort udvalg til løbere. Samtidig kan du finde sportsudstyr til alle mulige andre sportsgrene samtidig. Hvis du får en forkert størrelse, så er det også ret enkelt at gå ned i en af de fysiske butikker og få byttet varerne.
 
-{% include figure image_path="/assets/images/blog/loebebutik-sportsmaster.png" alt="Løbeshop sportsmaster" %}
+{% include figure image_path="/assets/images/blog/loebebutik-sportsmaster.jpg" alt="Løbeshop sportsmaster" %}
 
 [Besøg sportsmaster.dk »](https://www.sportsmaster.dk){: .btn .btn--large .btn--success rel="noopener nofollow" }
 
@@ -62,7 +62,7 @@ Sportsmaster er en af de mest kendte danske sportsforretninger og mærker. De ha
 
 Billigsport24.dk sælger kun løbeudstyr online, men sortimentet stopper ikke ved løbetøj og løbesko. Her kan du også få alt muligt andet sportsudstyr.. Kundeservicen er god, du får fornuftige priser og leveringen er hurtig.
 
-{% include figure image_path="/assets/images/blog/loebeforretning-billigsport24.png" alt="Løbeshop billigsport24" %}
+{% include figure image_path="/assets/images/blog/loebeforretning-billigsport24.jpg" alt="Løbeshop billigsport24" %}
 
 [Besøg billigsport24.dk »](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=9397&htmlurl=https://www.billigsport24.dk/lob){: .btn .btn--large .btn--success rel="sponsored noopener nofollow" }
 
@@ -78,7 +78,7 @@ Hvis du er til trailløb, så er til [trailløb](/trailloeb/), så er der et rig
 
 A-puls.dk er en stor dansk webshop, hvor du kan købe rigtig meget forskelligt sportsudstyr. Shoppen har løbebånd og løbefaldskærme, men tjek dem ud. Du kan virkelig få alt, hvad hjertet begærer, når det drejer sig om sport og udstyr.
 
-{% include figure image_path="/assets/images/blog/loebewebshop-apuls.png" alt="Løbebutik apuls" %}
+{% include figure image_path="/assets/images/blog/loebewebshop-apuls.jpg" alt="Løbebutik apuls" %}
 
 Tjek A-puls.dk ud. Også for at se deres andet sortiment.
 

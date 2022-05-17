@@ -48,7 +48,7 @@ Reklamerne i bunden af siden er ikke så velplacerede, men ellers indeholder rut
 
 Alt i alt et fint standard værktøj til opmåling af løberute. Du kan tegne din rute og se hvor lang den er.
 
-{% include figure image_path="/assets/images/blog/ruteplanner-loeberute.png" caption="Her kan du se interfacet for loeberute.dk. Det er **gratis** at oprette en profil, men du kan også bruge værktøjet uden at logge ind." alt="loeberute.dk screenshot løbeplanlægning" %}
+{% include figure image_path="/assets/images/blog/ruteplanner-loeberute.jpg" caption="Her kan du se interfacet for loeberute.dk. Det er **gratis** at oprette en profil, men du kan også bruge værktøjet uden at logge ind." alt="loeberute.dk screenshot løbeplanlægning" %}
 
 ## Garmin Connect og ruteplanlægning
 
@@ -83,3 +83,8 @@ Garmin Connect er min favorit. Ruteopmåleren kan det hele, og den er let at bru
 ## Konklusion
 
 Hvad er dine erfaringer med ruteopmålere til løbetræning?
+
+{% comment %}
+/assets/images/blog/ruteplanner-vandreplanen.jpg
+/assets/images/blog/ruteplanner-plotaroute.png
+{% endcomment %}

@@ -40,7 +40,7 @@ I Starting Strength træner du tre gange om uge. Programmet er et [helkropsprogr
 
 Starting Strength er blevet en populær bog og et populært træningsprogram for både trænere og atleter. Lad os kigge lidt på, hvordan Starting Strength-styrketræningsprogrammet er bygget op, hvordan det fungerer - og Rippetoe giver selv tre væsentlige råd til at gennemføre programmet.
 
-{% include figure image_path="/assets/images/blog/rippetoe-weak-vs-strong.png" caption="A weak man is not as happy as the same man would be if he were strong. This reality is offensive to some people who would like the intellectual or spiritual to take precedense. It is instructive to see what happens to these very people as their squat strength goes up. Mark Rippetoe" alt="Citat Mark Rippetoe" %}
+{% include figure image_path="/assets/images/blog/rippetoe-weak-vs-strong.jpg" caption="A weak man is not as happy as the same man would be if he were strong. This reality is offensive to some people who would like the intellectual or spiritual to take precedense. It is instructive to see what happens to these very people as their squat strength goes up. Mark Rippetoe" alt="Citat Mark Rippetoe" %}
 
 ## Hvem er Starting Strength for?
 

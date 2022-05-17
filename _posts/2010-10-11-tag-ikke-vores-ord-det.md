@@ -36,7 +36,7 @@ Det er desværre ikke tilfældet i øjeblikket. Artiklerne er naturligvis beskyt
 
 Men der er også kræfter, der arbejder på at gøre artiklerne offentlige, som er lidt i den grå afdeling på internettet. [Sci-Hub](https://da.wikipedia.org/wiki/Sci-Hub) er startet som en reaktion på de høje priser, forlagene tager for den videnskabelige litteratur.
 
-{% include figure image_path="/assets/images/blog/scihub.png" %}
+{% include figure image_path="/assets/images/blog/scihub.jpg" %}
 
 Sci-Hub skifter jævnligt internet-adresse, men hvis du lige skal læse en enkelt videnskabelig artikel, som du ikke kan få adgang til, så kan du prøve at Google siden.
 
@@ -125,7 +125,7 @@ Selvom to datasæt og statistikker følges af, så betyder det ikke nødvendigvi
 ## Hvad er sammenhængen mellem korrelationskvotienten (r) og r<sup>2</sup>?
 
 R
-: R er korrelationskvotienten mellem fx x og y, og den ligger mellem -1 og 1. Hvis x og y er perfekt korreleret vil den ligge på enten 1 eller -1. Hvis der ikke er nogen sammenhæng mellem x og y vil den ligge på 0. 
+: R er korrelationskvotienten mellem fx x og y, og den ligger mellem -1 og 1. Hvis x og y er perfekt korreleret vil den ligge på enten 1 eller -1. Hvis der ikke er nogen sammenhæng mellem x og y vil den ligge på 0.
 
 Korrelationskvotienten giver kun mening for en simpel linær model. Hvis der er flere uafhængige variable, så kan man bruge R<sup>2</sup>.
 

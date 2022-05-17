@@ -69,13 +69,13 @@ Hvis du er i tvivl om du bedst kan lide at stå op om morgenen eller om aftenen,
 
 Desværre har jeg ikke kunnet finde en måde at lave testen online på. Du kan selv forsøge at [score testen ud fra disse instruktioner](https://www.med.upenn.edu/cbti/assets/user-content/documents/Munich%20Chronotype%20Questionnaire%20(MCTQ).pdf).
 
-{% include figure image_path="/assets/images/blog/kronotype-mctq.png" caption="Du kan finde instruktioner til MCTQ på den officielle hjemmeside. Her kan du både finde spørgeskemaet, og hvordan evalueringen af spørgeskemaet skal foregå. Se [www.thewep.org](https://www.thewep.org/documentations/mctq)." alt="Munich Chronotype Questionnaire (MCTQ) - A-menneske eller B-menneske" %}
+{% include figure image_path="/assets/images/blog/kronotype-mctq.jpg" caption="Du kan finde instruktioner til MCTQ på den officielle hjemmeside. Her kan du både finde spørgeskemaet, og hvordan evalueringen af spørgeskemaet skal foregå. Se [www.thewep.org](https://www.thewep.org/documentations/mctq)." alt="Munich Chronotype Questionnaire (MCTQ) - A-menneske eller B-menneske" %}
 
 ## Horne-Ostberg Morning-Eveningness Questionnaire
 
 Derfor kan tage *Horne-Ostberg Morning-Eveningness Questionnaire*, som du kan udføre [online](http://www.cet-surveys.com/index.php?sid=61524). Det tager omkring 5 minutter at udføre testen for at finde din kronotype.
 
-{% include figure image_path="/assets/images/blog/kronotype-horne-ostberg.png" caption="Du kan tage Horne-Ostberg Morning-Eveningness Questionnaire online på [www.cet-surveys.com](http://www.cet-surveys.com/index.php?sid=61524)." alt="Horne-Ostberg Morning-Eveningness Questionnaire - A- eller B-menneske?" %}
+{% include figure image_path="/assets/images/blog/kronotype-horne-ostberg.jpg" caption="Du kan tage Horne-Ostberg Morning-Eveningness Questionnaire online på [www.cet-surveys.com](http://www.cet-surveys.com/index.php?sid=61524)." alt="Horne-Ostberg Morning-Eveningness Questionnaire - A- eller B-menneske?" %}
 
 ## Bonus: Epworths Søvnighedsskala
 
@@ -85,7 +85,7 @@ I Epworths Søvnighedsskala spørges ind til, hvordan man selv vurderer egen ten
 
 Du kan tage Epworths søvnighedstest [sundhed.dk](https://www.sundhed.dk/sundhedsfaglig/laegehaandbogen/undersoegelser-og-proever/kalkulatorer/soevnighedsscore-epworth/).
 
-{% include figure image_path="/assets/images/blog/kronotype-epworth.png" caption="Du kan lave Epworths Søvnighedstest online på [sundhed.dk](https://www.sundhed.dk/sundhedsfaglig/laegehaandbogen/undersoegelser-og-proever/kalkulatorer/soevnighedsscore-epworth/)." alt="Epworth Sleepiness Scale" %}
+{% include figure image_path="/assets/images/blog/kronotype-epworth.jpg" caption="Du kan lave Epworths Søvnighedstest online på [sundhed.dk](https://www.sundhed.dk/sundhedsfaglig/laegehaandbogen/undersoegelser-og-proever/kalkulatorer/soevnighedsscore-epworth/)." alt="Epworth Sleepiness Scale" %}
 
 ## Hvad virker bedst til at finde kronotypen?
 

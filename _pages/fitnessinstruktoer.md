@@ -162,7 +162,7 @@ På [Vejle Idrætshøjskole underviser vi i Fitnessinstruktør](https://www.vih.
 
 De forskellige quiz om fitness er lavet på Quizizz.
 
-{% include figure image_path="/assets/images/quizizz.png" alt="quizizz screenshot" caption="Sådan kan du prøve quizzen om de forskellige emner i fitnessinstruktør." %}
+{% include figure image_path="/assets/images/quizizz.jpg" alt="quizizz screenshot" caption="Sådan kan du prøve quizzen om de forskellige emner i fitnessinstruktør." %}
 
 1. Klik på et link nedenunder.
 2. Vælg "Preview" hvis du vil øve selv, og "Live Game", hvis I vil spille mod hinanden.
