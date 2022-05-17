@@ -124,7 +124,7 @@ Området omkring 4-7 RPE er det typisk for konditionstræning og almen aerob tr�
 
 Til konditionstræning kunne følgende RPE-skala bruges, hvor der også er pulszoner skrevet ind i:
 
-{% include figure image_path="/assets/images/rpe-intensitetsskala.png" caption="Fysiologisk intensitetsskala baseret på Borgskalaen set fra [DGI](https://www.dgi.dk/butikken/intensitetsskala-indoor-cycling-137-x-200)." alt="Fysiologisk intensitetsskala baseret på Borgskalaen - Borg RPE Skala  og intensitetsskala" %}
+{% include figure image_path="/assets/images/rpe-intensitetsskala.jpg" caption="Fysiologisk intensitetsskala baseret på Borgskalaen set fra [DGI](https://www.dgi.dk/butikken/intensitetsskala-indoor-cycling-137-x-200)." alt="Fysiologisk intensitetsskala baseret på Borgskalaen - Borg RPE Skala  og intensitetsskala" %}
 
 RPE-skalaen er også adapteret til styrketræning. Jeg har skrevet lidt mere om [RPE-skalaen til styrketræning her](/rpe/).
 

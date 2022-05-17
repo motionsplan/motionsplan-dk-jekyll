@@ -27,7 +27,7 @@ Vi bruger mange forskellige springtests på Vejle Idrætshøjskole. Her har vi a
 
 ## 1. Mål hvor højt du hopper med en væg eller basketkurv
 
-Hvis du har en væg eller en basketballkurv, så er det ret enkelt at lave en hoppetest.  [Sargent Jump test](/sargent-jump-test/) er et godt eksempel på en meget enkel test, som kan laves overalt. Stå ved siden af en mur og mål, hvor højt du kan række. Derefter springer du så højt som muligt, rører ved væggen og udregner forskellen. 
+Hvis du har en væg eller en basketballkurv, så er det ret enkelt at lave en hoppetest.  [Sargent Jump test](/sargent-jump-test/) er et godt eksempel på en meget enkel test, som kan laves overalt. Stå ved siden af en mur og mål, hvor højt du kan række. Derefter springer du så højt som muligt, rører ved væggen og udregner forskellen.
 
 Ulemperne ved at bruge en mur er følgende:
 
@@ -43,7 +43,7 @@ Fordelene ved at bruge en mur eller en basketballplader er, at det er så lavpra
 
 ## 2. Måle hoppehøjden præcist med med Vertec
 
-En Vertec er en lang stang, som har en masse horisontale flade og lange plader, der kan rotere omkring stangen. Først skal du måle din rækkevidde. Derefter måler man springhøjden ved at se, hvor mange plader du kan skubbe til side. 
+En Vertec er en lang stang, som har en masse horisontale flade og lange plader, der kan rotere omkring stangen. Først skal du måle din rækkevidde. Derefter måler man springhøjden ved at se, hvor mange plader du kan skubbe til side.
 
 Det er sjovt at bruge en Vertec, og den kan give hurtige og præcise resultater, når den bliver brugt rigtigt.
 
@@ -75,7 +75,7 @@ Hvis du har et kamera, der kan optage med høj hastighed, så kan du bestemme sv
 
 Du kan altså bestemme svævetiden med et _high speed_ kamera eller en smartphone. Det er bl.a. den teknologi, som bruges i [The Hoops Geek online måler](https://www.thehoopsgeek.com/measurement-app/) eller fx appen [My Jump 2](https://www.carlos-balsalobre.com/#apps), som bl.a. også er [videnskabeligt validerede](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7277223/).
 
-{% include figure image_path="/assets/images/blog/thehoopgeek.png" caption="Du kan bruge [The Hoops Geek onlineredskab](https://www.thehoopsgeek.com/measurement-app/) til at måle hoppehøjde ud fra en video baseret på svævetiden." %}
+{% include figure image_path="/assets/images/blog/thehoopgeek.jpg" caption="Du kan bruge [The Hoops Geek onlineredskab](https://www.thehoopsgeek.com/measurement-app/) til at måle hoppehøjde ud fra en video baseret på svævetiden." %}
 
 Faktisk kan du også bruge denne teknologi til at måle kontakttiden, og derfor kan den også bruges til at måle Reactive Strength Index som en hoppemåtte.
 

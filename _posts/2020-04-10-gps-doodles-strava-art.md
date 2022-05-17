@@ -34,16 +34,16 @@ feature_row:
     rel: sponsored nofollow noopener
 gallery:
   - url: https://www.facebook.com/GPSdoodles/photos
-    image_path: /assets/images/blog/gpsdoodles.png
+    image_path: /assets/images/blog/gpsdoodles.jpg
     alt: "GPS Doodles - StravaArt"
     title: "GPS Doodles - StravaArt"
 gallery_mine:
-  - image_path: /assets/images/blog/strava-art-gpsdoodle-1.png
-    url: /assets/images/blog/strava-art-gpsdoodle-1.png
-  - image_path: /assets/images/blog/strava-art-gpsdoodle-2.png
-    url: /assets/images/blog/strava-art-gpsdoodle-1.png
-  - image_path: /assets/images/blog/strava-art-gpsdoodle-3.png
-    url: /assets/images/blog/strava-art-gpsdoodle-1.png
+  - image_path: /assets/images/blog/strava-art-gpsdoodle-1.jpg
+    url: /assets/images/blog/strava-art-gpsdoodle-1.jpg
+  - image_path: /assets/images/blog/strava-art-gpsdoodle-2.jpg
+    url: /assets/images/blog/strava-art-gpsdoodle-2.jpg
+  - image_path: /assets/images/blog/strava-art-gpsdoodle-3.jpg
+    url: /assets/images/blog/strava-art-gpsdoodle-3.jpg
 ---
 
 Hvis du altid har drømt om at lave et hulemaleri, men aldrig rigtig har fundet en rigtig god hule arkæologer vil udgrave om 100.000 år, så kan du forsøge dig med at lave kunst ved hjælp af din GPS. Man kalder det også GPS Doodles, Strava Art, GPS writing eller GPS sketching.

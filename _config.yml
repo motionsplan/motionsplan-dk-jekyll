@@ -227,6 +227,7 @@ exclude:
   - /node_modules
   - .git
   - .svn
+  - /build
 keep_files:
   - /assets/images
   - /assets/pdf
@@ -391,7 +392,7 @@ defaults:
       breadcrumbs: true
       layout: activity
       header:
-        teaser: /assets/images/default-exercises-teaser.png
+        teaser: /assets/images/default-exercises-teaser.jpg
       author_profile: false
       read_time: false
       comments: true

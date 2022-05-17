@@ -52,10 +52,10 @@ feature_quotes:
   - quote: "Der er en revne i alting. Det er sådan, lyset kommer ind."
     cite: Leonard Cohen
 gallery:
-  - image_path: /assets/images/pinterest/citat-arnold-schwarznegger.png
-    url: /assets/images/pinterest/citat-arnold-schwarznegger.png
-  - image_path: /assets/images/pinterest/citat-winston-churchill.png
-    url: /assets/images/pinterest/citat-winston-churchill.png
+  - image_path: /assets/images/pinterest/citat-arnold-schwarznegger.jpg
+    url: /assets/images/pinterest/citat-arnold-schwarznegger.jpg
+  - image_path: /assets/images/pinterest/citat-winston-churchill.jpg
+    url: /assets/images/pinterest/citat-winston-churchill.jpg
 ---
 
 Jeg har set mange gode citater om at kæmpe, og jeg har samlet {{ page.feature_quotes.size }} citater, der kan inspirere dig på din vej. Sommetider kan et citat lige netop være det, der får dig på rette kurs.

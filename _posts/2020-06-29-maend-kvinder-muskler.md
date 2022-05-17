@@ -183,4 +183,4 @@ Træningsanbefalingerne for kvinder og mænd i forhold til styrketræning er dog
 - WALTS, CORY T., ERIK D. HANSON, MATTHEW J. DELMONICO, LILI YAO, MIN QI WANG, og BEN F. HURLEY. 2008. “Do Sex or Race Differences Influence Strength Training Effects on Muscle or Fat?” Medicine and science in sports and exercise 40 (4): 669–76. <https://doi.org/10.1249/MSS.0b013e318161aa82>.
 </details>
 
-{% include pinterest image_path="/assets/images/pinterest/forskel-maend-kvinders-muskler.png" data-pin-media="/assets/images/pinterest/forskel-maend-kvinders-muskler.png" class="hidden" %}
+{% include pinterest image_path="/assets/images/pinterest/forskel-maend-kvinders-muskler.jpg" data-pin-media="/assets/images/pinterest/forskel-maend-kvinders-muskler.jpg" class="hidden" %}

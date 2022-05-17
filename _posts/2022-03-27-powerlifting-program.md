@@ -21,11 +21,11 @@ Vi har skrevet et indlæg, der handler om [regler og styrkeløft](/powerlifting-
 
 ## Powerlifting Live
 
-[Powerlifting Live](https://www.powerliftinglive.com/) er det program Dansk Styrkeløftforbund anbefaler til deres styrkeløftstævner. Programmet foregår online, og du kan håndtere 
+[Powerlifting Live](https://www.powerliftinglive.com/) er det program Dansk Styrkeløftforbund anbefaler til deres styrkeløftstævner. Programmet foregår online, og du kan håndtere
 
-{% include figure image_path="/assets/images/blog/styrkeloeftstaevne-powerliftinglive.png" %}
+{% include figure image_path="/assets/images/blog/styrkeloeftstaevne-powerliftinglive.jpg" alt="powerlifting live styrkeløftstævne" %}
 
-I Powerlifting Live så kan alle dommerne have hver deres _device_, så de kan bedømme løftene. De godkendte og underkendte løft bliver automatisk registreret i softwaren. Desuden kan du have en skærm til loaderne, en pointskærm med dommerbedømmelsen. 
+I Powerlifting Live så kan alle dommerne have hver deres _device_, så de kan bedømme løftene. De godkendte og underkendte løft bliver automatisk registreret i softwaren. Desuden kan du have en skærm til loaderne, en pointskærm med dommerbedømmelsen.
 
 Du kan sætte et device op, hvor løfterne har mulighed for at vælge deres næste vægt automatisk. Det gør man ikke i officielle styrkeløftstævner, men det har fungeret rigtig godt til de interne stævne, vi har arrangeret.
 
@@ -41,7 +41,7 @@ Systemet fungerer ret godt, selvom det ser ret _old school_ ud. Hjemmesiden burd
 
 Ulempen ved Open Lifter er, at du ikke har forskellige skærme eller mulighed for dommerne at markere, hvordan de dømmer det enkelte løft, og det så automatisk markeres som et godt løft, og der gøres klar til næste løfter.
 
-{% include figure image_path="/assets/images/blog/styrkeloeftstaevne-openlifter.png" %}
+{% include figure image_path="/assets/images/blog/styrkeloeftstaevne-openlifter.jpg" %}
 
 I Open Lifter kan du lave et styrkeløftstævne på flere platforme, som du kan styre fra **en** computer. Du kan altså ikke lave forskellige skærme. Til gengæld er der på skærmen alle de relevante oplysninger i et fint layout.
 
