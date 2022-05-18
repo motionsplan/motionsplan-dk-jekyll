@@ -41,195 +41,88 @@ Selvom løb ikke nødvendigvis kræver en masse udstyr, så findes der faktisk e
 
 Hvis du er nybegynder, så skal du selvfølgelig først have fundet de rette løbesko og tights. Hvis du er mere erfaren, så har du nok basisudstyret til løb på plads, men måske er du på udkig efter et løbeur, et løbebælte eller et par hovedtelefoner.
 
-Her har vi samlet en liste med inspiration til løbeudstyr, som kan gøre dine løbeture endnu mere fornøjelige.
+Her har vi samlet en liste med inspiration til løbeudstyr, som kan gøre dine løbeture endnu mere fornøjelige. Hvis du finder noget udstyr, som du ikke kan leve uden, så tjek de [online løbeshops](/loebebutikker-online/), vi samarbejder med.
 
 Denne guide starter med det lidt mere avancerede udstyr, men jeg kommer til at opdatere den jævnligt, når jeg støder på noget rigtig godt udstyr til løb.
 
-## Must-have løbeudstyr
+## Løbesko er grundlæggende løbeudstyr
 
-Det allerførste du skal købe er:
+Der er faktisk kun en ting, der er en rigtig god ide, når du gerne vil løbe. Du vil blive rigtig glad for et par **gode løbesko**. Der findes et hav af forskellige modeller.
 
-- Løbesko
-- Løbetights
+Hvis du kun skal købe en ting, så er det altså løbesko, du først skal kigge efter. 
 
-Løbeskoene giver naturligvis sig selv, men jeg er også virkelig glad for løbetights. Fordelen ved løbetights er, at du ikke risikerer at få mærker på inderlårene, når de rører hinanden på hver enkelt skridt.
+Løbesko er en vigtig del af enhver løberes udstyr. Løbesko kan gøre din træning mere behagelig, og de kan også mindske risikoen for fremtidige [løbeskader](/artikel/loebeskader-loebe-uden-skader/). Der findes naturligvis en række forskellige typer løbesko, afhængigt af din løbestil og fodtype.
 
-{% comment %}
+## Udstyr der er rart at have
 
-I vores søgen har vi fundet, de steder det er kønsopdelt, modeller til både kvinder og mænd. Vi har også grundet det brede udvalg, valgt at gå efter de produkter, som vi synes, er de bedste allround produkter. Det baserer vi på, hvad det kan, hvad det skal kunne ift. løbeudstyr, funktionerne og så selvfølgelig prisen. De fleste skal kunne være med!
+Løbeskoene giver naturligvis sig selv. I dette afsnit kigger vi lidt på udstyr til løb, som kan være rigtig rart at have.
 
-## Need-to-have
+### Sports-bh til løb
 
+Jeg er ikke selv ekspert her, men for kvinder som gerne vil løbe, så har du brug for en sports-bh. Det er rigtig svært at undvære den. Den skal naturligvis være komfortabel og passe netop til din kropsform. Du får en meget bedre oplevelse af løbeturen, hvis du investerer i en god løbe-bh med god støtte.
 
-## Løbesko
+### Løbetights
 
-Sko er et absolut must-have, når det kommer til løbeudstyr. Et par ordentlige løbesko kan være grunden til, at du undgår fremtidige skader og at du får en meget mere behagelig træning. Det er klart, at der findes massevis af typer løbesko, som alt efter din løbestil, vil kunne variere og afhænge af din fod. Når du vælger en løbesko skal du være opmærksom på, om du skal have en neutral eller pronation løbesko. Forskellen er, hvor meget den støtter din fod – alt efter, hvad du har brug for. Så vær obs på dette, så du får en sko med optimal støtte og dermed får en bedre løbetræning og færre skader.
+Jeg er også virkelig glad for løbetights. Fordelen ved løbetights er, at du ikke risikerer at få mærker på inderlårene, når de rører hinanden på hver enkelt skridt. Løbetights er lavet af elastisk materiale, så de sidder tæt til kroppen. Du kan både få **korte og lange løbetights**.
 
+Samtidig er de typisk lavet i åndbart materiale, så du ikke ender med løbebukser, som er gennemblødte efter løbeturen. Du kan få nogle løbetights, som har kompression, hvilket måske kan have en god effekt på at holde blodcirkulationen i gang.
 
-Nike Revolution 5
-Til kvinder
-En lækker løbesko model som er det perfekte løbeudstyr – hvis du skal igang. Denne model er super stødabsorberende, vejer nærmest intet og så giver ydersålen dig et slidstærkt greb. Den har altså alle de funktioner, som vi efterspørger for en god løbetur. Den fås desuden i forskellige farver og i forskellige størrelser – så det kan matche lige netop din stil!
+Du skal være opmærksom på, at forskellige løbetights kan være konstrueret lidt forskelligt, så det kan være en god ide at prøve dem først. Jeg har været uheldig og købe nogen, som ikke helt passede til min kropsform, og som jeg havde fornemmelsen af, at de gled lidt ned, når jeg løb.
 
-DKK 600,00
+Du kan vælge løbetights med reflekser, så du også er synlig, når mørket er faldet på. I flere tights, så er der også smarte lommer til din telefon og dine nøgler.
 
-KØB HER
+### Løbeshorts
 
-Nike Air Zoom Pegasus 37
-Til mænd
-En verdenskendt løbesko der er blevet opgraderet – som kan blive en del af dit ugentlige løbeudstyr. Udover et fedt design, så får du en sko med en støddæmpning der er til UG. Denne er ift. tidligere model blevet fyldt med mere skum, og dermed bedre støddæmpende og affjedrende. Den vejer nærmest intet – en 44 til mænd ligger på 285 g.
+Hvis ikke du vil i tætsiddende lycra, når du løber, så kan du også vælge et par løbeshorts.
 
-DKK 1390,00
+Du kan få nogle løbeshorts, som har tights indvendigt, hvis du foretrækker en hybrid.
 
-KØB HER
+I nogle løbeshorts er der lommer til nøgler eller telefon. Det kan være smart at lommen sidder bagpå, og den sidder tæt. Så mærker du knap nok, at du har noget i lommen.
 
-## Must-have løbeudstyr
+### Løbetrøje
 
-Med must-have løbeudstyr menes der, løbeudstyr som er en god ide at have, når du skal i gang med din træning. Det er det helt grundlæggende udstyr, som du skal bruge for at få dig en god løbetræning. Det kan selvfølgelig variere fra person til person, hvad der menes at være must-haves. Men nedenstående er det helt generelle.
+Hvis du sveder meget, så kan det godt betale sig at bruge en løbetrøje på løbeturen. Find en løbetrøje, som lader din krop ånde, men samtidig transporterer sveden væk fra huden. Derved ender du ikke med en gennemvåd, tung trøje og risikerer at blive kold.
 
-## Løbetights
+Der findes mange løbetrøjer som er lavet af noget let materiale, som du næsten ikke mærker at have på. Løbetrøjen er særlig vigtig på de lidt køligere dage. En del af trøjerne er lavet med et lille hul i ærmet, som du kan sætte tommelfingeren ud i. Det betyder, at du kan bruge trøjen som en halv handske. Det hjælper faktisk mere, end du regner med, hvis du har en tendens til at fryse om fingrene.
 
-Løbetights er det mest behagelig at løbe med. De sikrer et åndbart materiale, der samtidig er svedabsorberende og dermed gør din træning behagelig, da du slipper for drivvåde løbebukser, hvis det bliver hårdt på turen. Udover det, kommer løbetights også med kompression, som hjælper med at holde blodcirkulationen i gang.
+Løbetrøjen kan fx være lavet af fleece materiale. Det er varmt og vejer ikke så meget. 
 
+### Løbejakke
 
-Nike Swoosh Run Løbetights
-Til kvinder
-Lækre must-have løbetights til din tur. De er med elastisk materiale, som sidder tæt til kroppen og samtidig giver en støttende fornemmelse. Desuden er det også med Dri-FIT teknologi, som hjælper med at holde dig tør, tilpas og varm på hele løbeturen. Den fås i flere størrelser, så du kan få lige netop dit fit.
+Hvis du løber i koldt vejr, er det vigtigt med en god løbejakke. Når det blæser og temperaturen er lav, så hjælper det på komforten at have en løbejakke, der kan holde dig varm hele turen. Men løbejakken skal samtidig også være åndbar, så du ikke overopheder på løbeturen.
 
-DKK 400,00
+Gå efter en jakke, der er vind- og vandafvisende og har en hætte, der holder dig varm og tør. En reflekterende jakke er også en god idé, hvis du løber i dårligt lys.
 
-KØB HER
+### Refleksvest
 
-Master Long Distance Løbetights
-Til mænd
-Et par løbetights til herre der er svedtransporterende, sidder godt til og med refleksdetaljer. Det giver dig altså mulighed for at være synlig, selv når mærket faldet på (husk dig altid en refleksvest) og have din telefon og nøgle med dig på løbeturen. Alt du behøver for at komme afsted! Der er snøre i detaljen for at skabe et perfekt match – de fås selvfølgelig også i flere størrelser!.
+Hvis du løber i mørke, er en refleksvest en vigtig del af dit udstyr. Den vil gøre dig synlig for trafikken og gøre dine løbeture mere sikre.  Der findes forskellige typer refleksveste, så det er vigtigt at finde en, der passer godt og er behagelig at løbe i.
 
-DKK 400,00
+En god refleksvest bør:
 
-KØB HER
+- Være lyse og synlige fra alle vinkler
+- Sidde godt, men ikke for stramt
+- Give dig mulighed for at bevæge dig frit
+- Ikke skrabe eller gnide under løbeturen
 
-## Løbeshorts
+Der findes mange forskellige mærker af refleksveste på markedet, så det er vigtigt at undersøge det hele grundigt og finde en, der passer til dig. Du skal ikke gå for meget op i, om vesten ser pæn ud. Formålet er at gøre din løbetur mere sikker - og give billisterne en mulighed for at se dig på afstand. En refleksvest er tilmed ret billig.
 
-Løbeshorts har samme funktion ovenstående løbetights, men de er en nødvendighed om sommeren, når det for varmt og nærmest ulideligt med med bukser, der går helt ned til anklerne. Derfor er løbeshorts på som et must-have løbeudstyr, hvis du skal igang med træningen.
+## Det ekstra udstyr til løb 
 
+Nu er vi kommet til det løbeudstyr, som der lige kan gøre løbetræningen det ekstra. Det er ikke nødvendigt, men jeg har selv købt de fleste af disse ting. Dette ekstra udstyr til løb gør det ganske enkelt lige lidt lettere for mig at komme afsted på løbeturen.
 
-Nike Fast Løbeshorts
-Til kvinder
-En løbeshort version af tidligere valgte løbetights. Elastiske materiale der giver dig en god komfort, en dri-FIT teknologi der holder dig varm og tør og så med lommer, så du kan have din telefon eller nøgler med dig. Størstedelen af materialet består af 83% genbrugt polyester og 17% elastan. Størrelserne varierer fra XS til XL.
-
-DKK 300,00
-
-KØB HER
-
-Master Distance Short Løbetights
-Til mænd
-Løbetights i korte fra Sportmasters eget mærke – Master. De har sidelommer, så du kan have din telefon med dig og samtidig løbe komfortabelt, da den sidder tæt ind til din krop. Udover det, er der faktisk også en lille lomme i taljen, hvor du kan have din nøgle. Også har løbeshortsene refleksdetaljer på siden, så du bliver mere synlig og en snøre i taljen.
-
-DKK 300,00
-
-KØB HER
-
-## Løbetrøje
-
-En løbetrøje er essentiel, da du under en løbetur oftest vil svede en del. Der hjælper en løbetrøje dig med at ånde og være svedtransporterende, så du ikke ender med en tung trøje og at blive kold, inden du overhovedet er nået hjem.
-
-
-Nike Sphere Løbetrøje
-Til kvinde
-En lækker løbetrøje som vi synes, er et must-have løbeudstyr, når du skal afsted. Denne løbetrøje fra Nike, er både blød, let og strækbar. Samtidig har der været fokus på at skabe et åndbart materiale – alle ting der er perfekt til en løbetur. Derfor er det selvfølgelig også svedtransporterende og med Dri-FIT egenskaber. Men ingen gang det er det hele – ærmerne er lavet, så du kan bruge dem som løbehandsker.
-
-DKK 500,00
-
-KØB HER
-
-Nike Sphere Løbetrøje
-Til mænd
-En løbetrøje af blødt fleece materiale, som holder dig varm og stadig ikke vejer for meget. Der er mesh på skuldrene samt på den øvre del af ryggen, som hjælper til en god ventilation. Der er sørget for tommelfinger-huller i enden af ærmerne, så du kan bruge det som en form for handsker. Udover det, er der selvfølgelig sørget for Dri-Fit teknologi, som hjælper med at holde dig tør, varm og tilpas.
-
-DKK 600,00
-
-KØB HER
-
-
-## Løbejakke
-
-Selvom at man får varmen, når man løber. Så er en løbejakke altså god til de lidt koldere måneder, hvor det enten blæser eller temperaturen er kold. Her hjælper en løbejakke dig med at holde varmen under hele turen, så du alle kilometer kan yde dit absolut bedste. Den fungerer altså som en form for løbetrøje – blot lavet til de koldere måneder.
-
-
-Nike Run Division Løbejakke
-Til kvinder
-Perfekt jakke til en løbetur i al slags vind og vejr. Jakken har nemlig et mellemlag, som er modstandsdygtig og dermed hjælper til at holde vind og vejr ude. Blandingen af det ekstra lag fleece og den vævede staffering giver dig en optimal varme. Udover det, er den med reflekterende detaljer, så du fremstår tydeligere, når du er ude.
-
-DKK 650,00
-
-KØB HER
-
-Nike Run Division Ecofil Løbejakke
-Til mænd
-En løbejakke der passer til alt slags vejr og med en vandafvisende konstruktion, der passer til det danske utilregnelige vejr. Materialerne og fyldet bidrager til en god varme og til at holde kulden ude. Udover det, er den med en halv-gående lynlås og reflekterende detaljer som både giver komfort, sikkerhed og et fedt design. Den fås i størrelserne S til XL.
-
-DKK 1000,00
-
-KØB HER
-
-## Sports-bh til løb
-
-Som kvinde er en sports-bh med støtte svær at leve uden, hvis der skal løbes. Det er altså på alle tænkelige måder, et must-have løbeudstyr. En sports-bh skal være komfortabel og passe til lige netop dine behov og din kropsform. To ting der ikke må gås på kompromis med.
-
-
-Nike FE/NOM Flyknit Sports-BH
-En god og støttende sports-BH fra Nike, som sikrer dig en god støtte under hele løbeturen. Støtten kommer fra det integrerede flyknit teknologi. Der er også ventilation i områder, hvor du oftest sveder mest, så det hjælper med at holde dig kølig og ikke overophedet. Materialerne og de forskellige størrelser, der er at vælge imellem, er med til at give dig en komfort og perfekt match, som vil gøre træningen endnu sjovere.
-
-DKK 650,00
-
-KØB HER
-
-## Refleksvest
-
-Refleksvest er noget af det allervigtigste løbeudstyr – specielt hvis du løber om aftenen. Det er noget af det løbeudstyr, som du bare ikke må gå på kompromis med, da det kan gælde din sikkerhed. Vær ligeglade med om det ser pænt ud eller ikke, tag den på og gør din løbetur mere sikker og bilisternes køretur mere komfortabel.
-
-
-Master Run Reflective Løbevest
-Et absolut must have – hvert fald når det er mørkt, hvad end det er morgen eller aften. Den er EN1150 godkendt og kommer med en gennemgående lynlås, så den både er nem at tage på, samt er behagelig under din løbetur. Der er også lynlås i vesten, og du kan derfor sagtens have telefon der i, hvis den skal være let tilgængelig.
-
-DKK 200,00
-
-KØB HER
-
-## Nice-to-have løbeudstyr
-
-Nice-have løbeudstyr er udstyr, du sagtens kan leve uden og stadig få en god løbetræning ud af det. Det er løbeudstyr, du køber for at gøre træningen lidt ekstra og tilpasse dine behov til den slags løb du foretrækker.
-
-{% endcomment %}
-
-## Løbehandsker
+### Løbehandsker
 
 Når det bliver koldt, så kan et par tynde løbehandsker være en rigtig god ide. Mange begynder at fryse om fingrene. Handskerne skal ikke være for varme, og det er rart, hvis du let kan trykke på knapperne på dit ur eller bruge din smartphone for at skifte sang.
 
 Du behøver ikke at overtænke, hvad løbehandskerne skal kunne. Jeg har i rigtig mange år bare brugt nogle billige havehandsker, som i de kolde måneder har været helt perfekt. Hvis du vil have handsker, hvor du stadig kan bruge touchskærmen på din mobiltelefon, så kan du overveje at købe nogle lidt dyrere løbehandsker.
 
-{% comment %}
-Nike Dry Element Løbehandsker
-Løbehandsker til de kolde morgenen fra Nike, er med svedtransporterende Dri-FIT egenskaber, som holder dig tør og giver dig en dejlig varme til løbeturen. De er lette og du mærker derfor nærmest ikke, at du har dem på. Der er silikone på fingerspidserne, som gør, at du kan bruge din touchscreen under turen. Den fås i størrelserne S, M og L.
-{% endcomment %}
-
-## Løbehue
+### Løbehue
 
 Når det bliver koldt, så tager jeg altid først nogle løbehandsker på. Hvis jeg stadig fryser, så kan en tynd løbehue være med til, at du holder varmen på din løbetyr. En god løbehue skal være svedabsorberende, så den kan holde dit hoved og dine ører varme under hele løbetræningen.
 
 Huen skal ikke være for varm, for når du begynder at få varmen på løbeturen, så er vænner du dig langsomt til temperaturen. Find en blød hue, som er åndbar, men samtidig isolerer overfor vind og vejr.
 
-{% comment %}
-
-Buff Reflective Dryflx Hue
-Vil du gerne have en løbehue, så kan denne altså noget. Den er først og fremmest blød og behagelig at have på, da den er både sømløs samt åndbar. Samtidig er den isolerende overfor vind og vejr, den er slidstærk og strækbar og kan altså klare lidt af hvert. Til sidst er det værd at nævne, at den har UV beskyttelse – UPF 50 UV-beskyttelse.
-
-DKK 250,00
-
-KØB HER
-
-{% endcomment %}
-
-## Løbeur
+### Løbeur eller pulsur
 
 Du har ikke brug for et løbeur, men jeg er virkelig glad for mit. Ud over løbesko og tights er det nok det jeg nødigst vil undvære. Jeg bruger løbeuret til at holde øje med min træning og automatisk registrere den. Desuden bruger jeg uret til at holde øje med, om jeg træner i de rigtige [træningszoner](/traeningszoner/) og [pulszoner](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/), når jeg laver [pulstræning](/pulstraening/).
 
@@ -247,7 +140,7 @@ De nyere ure har fx musik i uret, så du ikke behøver at slæbe din telefon med
 
 Tjek i øvrigt vores [guide til pulsure](/pulsure/).
 
-## Hovedtelefoner
+### Hovedtelefoner
 
 Du har naturligvis ikke brug for hovedtelefoner til din træning. Men jeg nyder selv at lytte til [gode podcasts]({% link _posts/2020-08-03-podcasts.md %}) eller har [musik til træningen]({% link _posts/2013-05-02-musik-til-traeningen.md %}). Jeg foretrækker trådløse hovedtelefoner, så jeg ikke skal bøvle med ledninger undervejs.
 
@@ -259,13 +152,9 @@ Hvis du typisk skal bruge hovedtelefoner ved støjrige veje, så er Aeropex form
 
 {% include feature_row id="feature_row_shokz" type="left" %}
 
-{% comment %}
+### Løbebælte
 
-{% include feature_row id="feature_row_shokz" type="left" %}
-
-## Løbebælte
-
-Jeg bruger tit et løbebælte, når jeg løber længere ture eller har brug for at have småting med på løbeturen. Jeg gider nemlig ikke at have det i lommerne, hvor det kan risikere at hoppe lidt rundt.
+Jeg bruger sommetider et løbebælte, når jeg løber længere ture eller har brug for at have småting med på løbeturen. Jeg gider nemlig ikke at have det i lommerne, hvor det kan risikere at hoppe lidt rundt.
 
 I et løbebælte kan du fx have væske og snacks med på turen, men du kan også have din telefon, nøgler og lidt penge i bæltet. Der findes naturligvis mange forskellige typer bælter.
 
@@ -275,7 +164,13 @@ Jeg har selv købt dette løbebælte, som er produceret af Flipbelt, som jeg opl
 
 {% include feature_row id="feature_row_flipbelt" type="left" %}
 
-## Løbetaske
+### Holder til mobiltelefon til løb
+
+Hvis du vil bruge din mobiltelefon, mens du løber, har du brug for en god holder. Jeg har prøvet et par forskellige typer, men den jeg bedst kan lide er [Quad Lock](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=16446&htmlurl=https://www.cykelpartner.dk/mobilholder-telefonholder-mm/quad-lock---sports-armbaand){: rel="sponsored nofollow noopener" }. Den er virkelig nem at bruge og kan monteres på enten din arm eller dit bælte.
+
+Jeg foretrækker dog at bruge mit ur til at spille musik og optage min løbetur. Når jeg skal have mobiltelefonen med, så er jeg mest glad for at have den med i et løbebælte i stedet.
+
+### Løbetaske
 
 Hvis du løber længere ture og har brug for ekstra vand eller udstyr, eller du løber på arbejde, så kan du have brug for en løbetaske.
 
@@ -283,4 +178,6 @@ Der findes rigtig mange forskellige løbetasker. Mange af de nyere løbetasker e
 
 ## Konklusion
 
-Dette var en begynderguide til, hvilket løbeudstyr du kan få brug for. Jeg udvider jævnligt guiden, og er startet med det udstyr som er _nice to have_. Hvis du vil støtte dette site, så vil vi sætte pris på, hvis du shopper i nogle af de [online løbebutikker]({% link _posts/2022-02-09-loebebutikker.md %}), vi samarbejder med.
+Dette var en begynderguide til, hvilket løbeudstyr du kan få brug for. Jeg udvider jævnligt guiden, og er startet med det udstyr som er _nice to have_. Hvis du vil støtte dette site, så vil vi sætte pris på, hvis du shopper i nogle af de [online løbebutikker](/loebebutikker-online/), vi samarbejder med.
+
+Løb er en god øvelse, der ikke kræver meget udstyr, men der er nogle vigtige ting, du skal bruge for at komme i gang. I denne artikel har vi beskrevet de grundlæggende ting - løbesko, tights og en måde at følge dine fremskridt på. Vi foreslår også noget ekstraudstyr, som kan gøre dine løbeture sjovere, fx hovedtelefoner eller et løbebælte.
