@@ -135,6 +135,6 @@ Hvis du har lyst, så må du meget gerne hjælpe med at udvide denne artikel med
 
 Et træningsbælte kan være et nyttigt redskab, hvis du ønsker at øge din styrke og kraft. Det er dog vigtigt at forstå, hvordan bæltet fungerer, og hvordan du bruger det korrekt for at få mest muligt ud af det. Forskningen om træningsbælter er stadig relativt begrænset, men der er noget, der tyder på, at de kan være effektive til at øgestyrke.
 
-vis du beslutter dig for at bruge et træningsbælte, skal du sørge for at vælge et, der er behageligt og sidder godt, og du skal tage dig tid til at lære at bruge det korrekt.
+Hvis du beslutter dig for at bruge et træningsbælte, skal du sørge for at vælge et, der er behageligt og sidder godt, og du skal tage dig tid til at lære at bruge det korrekt.
 
 Jeg håber, at denne guide har hjulpet dig til at forstå lidt mere om træningsbælter, og hvordan de kan bruges til at forbedre din styrketræning. Hvis du skal købe et bælte, så samarbejder vi med disse [online fitnesssbutikker](/fitnessbutikker/).
