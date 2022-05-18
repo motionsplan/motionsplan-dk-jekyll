@@ -1,7 +1,8 @@
 ---
-title: &title "Vælg sko til styrketræning, træning og fitness"
+title: &title "Vælg sko til styrketræning, træning og fitness (Guide)"
+seo_title: "Styrketræningssko: Vælg den rigtige sko til styrketræning og fitness"
 permalink: /sko-styrketraening-fitness/
-excerpt: "Her får du tips til at vælge gode sko til styrketræning, træning og fitness. Skal du vælge vægtløftersko, fitness sko, løbesko eller træne i bare fødder, når du træner?"
+excerpt: "Skal du vælge styrketræningssko? Skal sko til styrketræning og fitness være vægtløftersko, fitness sko, løbesko eller bare fødder?"
 language: da
 header:
   teaser: https://images.unsplash.com/photo-1526405098960-78ccf7a1dbd6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
@@ -30,26 +31,9 @@ feature_row_weightlifting:
     rel: sponsored nofollow noopener
 ---
 
-{% comment %}
-http://gilbaks.dk/sko-til-styrketraening/
+Når du skal vælge gode sko til styrketræning, træning og fitness, så er der nogle enkle punkter, du kan tænke over. Skal du vælge vægtløftersko, fitness sko, løbesko eller træne i bare fødder, når du træner?
 
-styrketræning sko
-styrketrænings sko
-sko til styrketræning
-squat sko
-træning sko
-fitness sko
-vægtløftersko dame
-
-https://blivstor.dk/
-
-Tjek pubmed.
-
-***
-
-Guide 🥇 Vælg en sko til styrketræning, træning og fitness?
-
-{% endcomment %}
+Du skal tænke over, hvilke sko du vælger til din træning, fordi fødderne er det fundament, du står på. Du kan overføre meget mere kraft til dine løft, hvis du tænker over, hvor godt skoene passer til din træning.
 
 Når du skal vælge gode sko til styrketræning, træning og fitness, så er der nogle enkle punkter, du kan tænke over. Skal du vælge vægtløftersko, fitness sko, løbesko eller træne i bare fødder, når du træner?
 
@@ -89,7 +73,7 @@ Denne type sko går også under navnet vægtløftersko. En vægtløftersko adski
 
 {% include feature_row id="feature_row_weightlifting" type="right" %}
 
-En hævet hæl er en fordel i squat. Det bliver ganske enkelt lidt lettere at få en større knævandring, og derfor kan du squatte lidt dybere, når du har en hævet hæl.
+En hævet hæl er en fordel i [squat](/squat/). Det bliver ganske enkelt lidt lettere at få en større knævandring, og derfor kan du squatte lidt dybere, når du har en hævet hæl.
 
 Du kan selv på forhånd tjekke om en vægtløftersko vil gavne dig ved at lægge et par små vægtskiver ind under dine hæle og fornemme, hvordan du lettere kan squatte med større dybde.
 
@@ -97,7 +81,7 @@ I vægtløftning er det en særdeles stor fordel, hvis du let kan komme langt ne
 
 Den løftede hæl på styrketræningsskoen betyder ikke nødvendigvis, at din _range of motion_ bliver større, men det er meget lettere at squatte dybt.
 
-### Vælg løftet hæl til squat
+### Squat sko: Vælg løftet hæl til squat
 
 Når du gerne vil squatte dybt, så skal du være ret bevægelig i anklen, knæleddet og hofteleddet. Når du hæver hælen, så behøver du ikke at have lige så stor mobilitet i anklen. Derofr er det lettere at squatte, når du har hævet hæl.
 
@@ -109,7 +93,7 @@ I vægtløftningssko kan man holde overkroppen lidt mere oprejst, hvilket er en 
 
 Løftet hæl kan være en fordel i squat, men der er også mange andre løft, du kan lave i styrketræningslokalet. Nogle øvelser kan en løftet hæl være et decideret dårligt valg.
 
-Det mest oplagte eksempel er **dødløft**. I dødløft er et godt udgangspunkt at have vægten fordelt på hele foden. Her vil du gerne være lidt tættere på jorden og særligt kunne have noget vægt på hælen, da det gør det endnu lettere at aktivere bagkæden i løftet.
+Det mest oplagte eksempel er **dødløft**. I [dødløft](/doedloeft/) er et godt udgangspunkt at have vægten fordelt på hele foden. Her vil du gerne være lidt tættere på jorden og særligt kunne have noget vægt på hælen, da det gør det endnu lettere at aktivere bagkæden i løftet.
 
 ## Hvornår skal jeg bruge vægtløftersko?
 
@@ -119,104 +103,17 @@ Vægtløftersko egner sig imidlertid ikke til at løbe eller hoppe i, så hvis d
 
 Hvis du laver mere blandet træning, så kan du overveje **crossfit sko**. Her får du nogle sko, som du kan bruge til tunge løft og vægtløftning, men også kan bevæge dig lidt mere frit i. Det er naturligvis et kompromis, så overvej hvad dine mål for træningen er, inden du vælger sko.
 
-{% include feature_row id="feature_row_crossfit" type="right" %}
-
 I **dødløft** er hævede hæle ikke en fordel. Når du har en hævet hæl, så bliver du højere, hvilket betyder, at _range of motion_ bliver længere. Samtidig får du vægten frem mod forfoden, hvilket gør balancen i dødløft-bevægelsen lidt mere vanskelig.
 
 Vægtløftningssko er altså en fordel, når du laver squat og vægtløftning.
 
+## Konklusion
+
+Når du styrketræner, er der et par ting, du skal overveje, når du vælger sko. Vægtløftningssko med en hævet hæl kan være en fordel ved squat, da de gør det lettere at [squatte dybere](/squat-dybt/). De er dog ikke velegnede til løb eller spring. Crossfit-sko er et godt valg for dem, der laver blandet træning. I dødløft er en hævet hæl ikke en fordel.
+
+Hvad er din yndlingssko til styrketræning?
+
 {% comment %}
-
-HVILKE TRÆNINGSSKO ER SÅ GODE AT STYRKETRÆNE I?
-Okay nu har du en ide om hvad kravene er for at finde et par gode sko, der egner sig godt til styrketræning. Lad os kigge på hvad der findes.
-
-ADIDAS INDENDØRS SKO
-Hvis du ønsker en sko der er god hele vejen rundt, dvs. den har en flad og hård sål, den får dig til at stå stabilt. Så vil jeg helt sikkert foreslå dig at kigge på denne sko, som du måske kender i forvejen. Nemlig de gode gammeldags Adidas sko, som man tit brugte til indendørs træning i idrætshallerne.
-
-Desuden er den i den absolut billigste ende af de 3 sko jeg snakker om her.
-
-Sålen er flad, skoen er relativ let. Så dvs. at du kan bruge den til samtlige øvelser, både når du træner ben og til dine overkrops.
-
-
-
-Fordele:
-
-✓ Billig
-
-✓ Hård sål
-
-✓ Står fladt på jorden
-
-Ulemper:
-
-÷ Standard Design
-
-
-
-FIVE FINGERS:
-Five fingers “skoene' giver en fornemmelse som hvis du stod i bare fødder. Det har sine fordele fordi du får en god fornemmelse med gulvet, og du kan mærke om du har vægten på fødderne de rigtige sted. De ligger i det jeg vil kalde mellem prisklasse, og har typisk en pris på 5-800 kr.
-
-Om de er kønne eller ej, det er så en anden sag? Men det er selvfølgelig heller ikke det der er det vigtigste når du er til træning.
-
-Fordele:
-
-✓ Mellem prisklasse
-
-✓ God fornemmelse med gulvet
-
-✓ Står fladt på jorden
-
-✓ Ligesom at stå barfodet
-
-Ulemper:
-
-÷ Lidt grimme
-
-
-
-VÆGTLØFTERSKO:
-Ja så kommer vi til vægtløfterskoene som jeg allerede har snakket en del om, pga. den løftede hæl. Vil du være god til at squatte tungt, og går du ikke ned på udstyr, jamen så skal du da helt sikkert ud og have dig et par vægtløftersko.
-
-Billige er de ikke, de ligger typisk i en prisklasse på mellem 1000-2000 kr, så hvis dit mål ikke er seriøst styrkeløft, og vil du gerne have nogle sko som du også kan bruge til alle de andre benøvelser, så vil jeg måske ikke investere i et par vægtløftersko.
-
-Fordele:
-
-✓ Gode til Squat
-
-✓ Hjælper hvis du har dårlig ankelmobilitet
-
-Ulemper:
-
-÷ Dyre
-
-÷ Upraktiske i mange andre øvelser end squat
-
-
-
-DISSE SKO SKAL DU IKKE VÆLGE HVIS DU VIL TRÆNE FITNESS OG STYRKETRÆNING
-
-Diverse løbesko eller andre bløde sko, som Nike free og de varianter er ikke de bedste når det gælder til styrketræning. I hvertfald ikke når det gælder til bentræningen.
-
-Hvorfor ?
-
-Fordi de er meget bløde i sålen. Det kan være behageligt når du bare skal gå rundt, men til styrketræning handler det som sagt, om at finde nogle der står solidt, og gør foden stabil.
-
-Løbesko er skabt til at løbe i, og former sig efter foden. I mange benøvelser handler det om at have vægten på hele foden, hvor løbesko eller andre lign. modeller nemt kan modarbejde dette.
-
-OPSUMMERING:
-Tager du din træning seriøs finder du et par sko som er stabile, har en hård sål, og så flade som mulig.
-
-Skal du ud og investere i et par vægtløftersko eller ej? Overvej dine behov ….
-
-Hvis du vil have et par sko som du kan bruge til samtlige øvelser, både benøvelser, overkropsøvelser og alt derimellem, og ønsker du nogle der ikke er alt for dyre?
-
-Ja så vil jeg helt sikkert anbefale ADIDAS SPEZIAL.
-
-
-
-
-
-***
 
 
 >  The bar velocity (p = 0.028) was significantly higher at knee pass in the shod condition. These results indicate that performing the deadlift while barefoot could benefit lifters who struggle with more flexed postures and/or have limited ankle dorsiflexion range of motion. These changes in posture likely led to the reduced knee flexion moments required to initiate bar lift off. However, lifting barefoot may decrease deadlift performance in terms of power generated as evidenced by reduced
