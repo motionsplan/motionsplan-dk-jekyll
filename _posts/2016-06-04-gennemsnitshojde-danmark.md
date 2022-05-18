@@ -1,10 +1,11 @@
 ---
-title: &title "Hvad er gennemsnitshøjden i Danmark?"
+title: &title "Hvad er gennemsnitshøjden for mænd og kvinder i Danmark?"
 seo_title: "Gennemsnitshøjde i Danmark for mænd & kvinder i 2022"
+description: "Hvordan ser det ud med Danmarks gennemsnitshøjde? Den gennemsnitlige dansker har haft vokseværk. Er du højere end gennemsnittet for mænd og kvinder?"
 permalink: /hvad-er-gennemsnitshoejden-i-danmark/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1496545087308-51ec893e6bbc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1496545087308-51ec893e6bbc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1496545087308-51ec893e6bbc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
@@ -26,15 +27,15 @@ faq:
 
 I Danmark er vores gennemsnitshøjde relativt høj. Hvis du er interesseret i at finde ud af, om du er højere end gennemsnittet, så er du kommet til det rigtige sted.
 
-Vi har fundet flere interessante facts om højde i Danmark, og vi sammenligner også lidt med andre lande.
+Vi har fundet flere interessante facts om højde i Danmark, og vi sammenligner også danskernes højde med andre lande og befolkningsgrupper.
 
-Den gennemsnitlige danske mand er 181,4 centimeter høj, og den gennemsnitlige danske kvinde er 167,2 centimeter høj. Den gennemsnitlige dansker har haft vokseværk de sidste 100 år. Gennemsnitshøjden er øget med 10 cm de seneste 100 år.
+Den gennemsnitlige danske mand er ifølge de nyeste tal 181,4 centimeter høj, og den gennemsnitlige danske kvinde er 167,2 centimeter høj. Den gennemsnitlige dansker har haft vokseværk de sidste 100 år. Gennemsnitshøjden er øget med 10 cm de seneste 100 år.
 
 ## Hvad er gennemsnitshøjden i Danmark for mænd og kvinder?
 
 **I dag er gennemsnitshøjden i Danmark for danske mænd 181,4 cm. Den gennemsnitlige danske kvinde er 167,2 cm høj. Det gør danskerne til nogle af de højeste i verden.**
 
-DR skriver, at forskere i en [stor undersøgelse](https://www.dr.dk/nyheder/viden/danske-maend-og-kvinder-er-blandt-verdens-hoejeste) af næsten 1.500 tidligere undersøgelser har undersøgt, hvordan verdensbefolkningens højde har ændret sig de seneste 100 år. På denne måde kan man sammenligne hele verdens gennemsnitlige højde, og gennemsnitshøjden i Danmark er altså nok til at placere sig i toppen af undersøgelsen.
+DR skriver, at forskere ifølge [dr.dk](https://www.dr.dk/nyheder/viden/danske-maend-og-kvinder-er-blandt-verdens-hoejeste) i en stor undersøgelse af næsten 1.500 tidligere undersøgelser har undersøgt, hvordan verdensbefolkningens højde har ændret sig de seneste 100 år. På denne måde kan man sammenligne hele verdens gennemsnitlige højde, og gennemsnitshøjden i Danmark er altså nok til at placere sig i toppen af undersøgelsen.
 
 Du kan læse mere om [Gennemsnitsdanskeren](https://www.dst.dk/da/Statistik/Publikationer/gennemsnitsdanskeren) hos Dansk Statistik. Jeg synes altid, at det er sjovt at se, hvordan man er i forhold til andre mennesker. Der er Dansk Statistik en guldgrube for at se, hvordan den gennemsnitlige dansker lever. Du vil sikkert opleve, at du har mange fællestræk med andre danskere.
 
@@ -74,9 +75,9 @@ Hvis dine forældre ikke er så høje, så får du formentlig heller ikke en hø
 
 Danskerne er altså i løbet af blot 100 år gennemsnitligt blevet mere end 10 cm højere. Det er kun europæiske lande, der er at finde på top 10-listen over lande med de højeste befolkningsgrupper.
 
-Danskerne er for alvor skudt i vejret siden man har kunnet måle de forskellige befolkningsgrupper. Derfor er danskerne også nogle af verdens højeste.
+Danskerne er for alvor skudt i vejret siden man har kunnet måle de forskellige befolkningsgrupper i hele verden. Derfor er danskerne også nogle af verdens højeste.
 
-Til gengæld er der for alvor sket noget med de iranske mænd. De er fra 1914 til 2014 blevet i alt 16,5 cm højere, mens de sydkoreanske kvinder er vokset hele 20,2 cm.
+Der er også for alvor sket noget med de iranske mænd. De er fra 1914 til 2014 blevet i alt 16,5 cm højere, mens de sydkoreanske kvinder er vokset hele 20,2 cm.
 
 De højeste i verden er de hollandske mænd med hele 182,5 cm og de lettiske kvinder med 170 cm.
 
@@ -84,11 +85,13 @@ De højeste i verden er de hollandske mænd med hele 182,5 cm og de lettiske kvi
 
 ## Hvem er de laveste?
 
-Det ser ud [til](https://livsstil.tv2.dk/2016-07-26-ny-forskning-afslorer-disse-lande-har-verdens-hojeste-befolkning), at Østtimor og Guatemala huser verdens laveste befolkningsgrupper. Mænd fra Østimor er 160 cm høje, mens kvinderne fra Guatemala er 149 cm høje.
+Ifølge [TV2](https://livsstil.tv2.dk/2016-07-26-ny-forskning-afslorer-disse-lande-har-verdens-hojeste-befolkning) ser det ud til, at Østtimor og Guatemala huser verdens laveste befolkningsgrupper. Mænd fra Østimor er 160 cm høje, mens de laveste kvinder er fra Guatemala og er 149 cm høje.
 
 ## Konklusion
 
-Vi bliver altså gennemsnitligt højere i Danmark - ligesom resten af verden. Men gennemsnitshøjden i Danmark er altså blandt de højeste i verden. Det bliver spændende at se de næste undersøgelser. Jeg har skrevet et andet indlæg, der handler om, [hvordan man bliver højere](/hvordan-bliver-jeg-hojere/). Hvis du gerne vil syne højere, så kan du også kigge på [din kropsholdning og rette ryggen]({% link _posts/2020-07-01-ret-ryg.md %}).
+Vi bliver altså gennemsnitligt højere i Danmark - ligesom resten af verden. Men gennemsnitshøjden i Danmark er altså blandt de højeste i verden. Det bliver spændende at se de næste undersøgelser af danskernes højde.
+
+Jeg har skrevet et andet indlæg, der handler om, [hvordan man bliver højere](/hvordan-bliver-jeg-hojere/). Hvis du gerne vil syne højere, så kan du også kigge på [din kropsholdning og rette ryggen]({% link _posts/2020-07-01-ret-ryg.md %}).
 
 ## Ofte stillede spørgsmål
 

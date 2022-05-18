@@ -56,7 +56,7 @@ Du kan beregne dit kondital ved at indtaste værdierne i beregneren nedenunder, 
 
 ## Beregningerne bag Åstrands topunktstest
 
-De målte pulsværdier i topunktstesten kan skrives ind i et koordinatsystem. Arbejdsbelastningen er på x-aksen og pulsfrekvensen er på y-aksen. Testen forudsætter, at din maksimale kredsløbsmæssige kapacitet er ved den anslåede maksimale puls. Derfor kan du forlænge linjen i koordinatsystemet op til maxpulsen for at aflæse din maksimale arbejdsbelastning i watt.
+De målte pulsværdier i topunktstesten kan skrives ind i et koordinatsystem. Arbejdsbelastningen er på x-aksen og pulsfrekvensen er på y-aksen. Testen forudsætter, at din maksimale kredsløbsmæssige kapacitet er ved den anslåede maksimale puls. Derfor kan du forlænge linjen i koordinatsystemet op til [maxpulsen](/test-max-puls/) for at aflæse din maksimale arbejdsbelastning i watt.
 
 {% include figure image_path="/assets/images/blog/aastrands-topunktstest.png" caption="Eksempel på fortolkning af Åstrands topunktstest. Hvis du har brug for et regneark til at beregne værdierne i Åstrands topunktstest, så skriv endelig i kommentarerne, så vil jeg gerne lave sådan et." alt="Eksempel på fortolkning af Åstrands topunktstest - konditionstest på cykel" %}
 

@@ -1,5 +1,5 @@
 ---
-title: &title "Udregn pulszoner: Fra maxpuls, laktattærskel eller pulsreserve [Beregner]"
+title: &title "Udregn pulszoner: Fra maxpuls, laktattærskel eller pulsreserve (Beregner)"
 seo_title: "Find dine pulszoner med vores beregner"
 excerpt: "Når du vil lave pulstræning, så kan du beregne pulszoner og træningsinstensitet ud fra din maxpuls, laktattærksel eller pulsreserve. Når ud har udregnet dine træningszoner, så kan du målrette din træning ud fra pulsen."
 permalink: /pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/
@@ -8,7 +8,7 @@ redirect_from:
   - /puls-intensitet/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1523475585621-bc60c6d75c2a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1523475585621-bc60c6d75c2a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1523475585621-bc60c6d75c2a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
@@ -29,7 +29,7 @@ garmin_lactate:
   - image_path: /assets/images/blog/garmin-setup-lactate-3.jpg
 ---
 
-Når du vil lave pulstræning, så kan du beregne pulszoner og træningsinstensitet ud fra din maxpuls eller pulsreserve. Når ud har udregnet dine træningszoner, så kan du målrette din træning ud fra pulsen.
+Når du vil lave pulstræning, så kan du beregne pulszoner og træningsinstensitet ud fra din [maxpuls](/test-max-puls/) eller pulsreserve. Når ud har udregnet dine træningszoner, så kan du målrette din træning ud fra pulsen.
 
 Pulstræning hænger sammen med konditionstræning og kredsløbstræning. Det er et værktøj, du kan bruge til at styre træningen af din kondition for at være sikker på, at du rammer det rigtige energisystem i løbet af træningen.
 

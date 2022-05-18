@@ -54,6 +54,6 @@ Hvordan gør du?
 {% assign exercises = site.exercises | where: "tags", "outdoor" | sort: "title" %}
 {% include exercises-by-search title="Inspiration til outdoor træning" exercises=exercises %}
 
-## Referencer om outdoor fitness
+## Referencer
 
 - [Naturstyrelsen med Naturfitness](https://naturstyrelsen.dk/naturoplevelser/aktiviteter/naturfitness/)

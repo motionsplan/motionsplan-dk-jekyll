@@ -6,7 +6,7 @@ redirect_from:
 excerpt: "Løbeprogram til dig der gerne vil løbe et maraton. Løbeprogrammer til maraton tager typisk 16-20 uger, men det kan sagtens betale sig at træne endnu længere, hvis du skal gøre klar til at løbe 42 km."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1502224562085-639556652f33?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1502224562085-639556652f33?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1502224562085-639556652f33?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:

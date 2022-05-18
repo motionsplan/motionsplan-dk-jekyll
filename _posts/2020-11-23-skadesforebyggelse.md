@@ -5,7 +5,7 @@ author: jesper.emil.jakobsgaard
 permalink: /skadesforebyggelse-skadesforebyggende-traening/
 title: "Skadesforebyggelse: Hvilke øvelser kan forebygge skader?"
 header:
-  overlay_image: https://images.unsplash.com/photo-1550259979-ed79b48d2a30?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1550259979-ed79b48d2a30?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1550259979-ed79b48d2a30?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: "Skadesforebyggelse: Hvilke øvelser kan forebygge skader?"
 language: da
@@ -33,7 +33,7 @@ Når du tager højde for at træningsplanlæningen i sig selv er skadesforebygge
 
 Det ser ud til, at excentrisk træning og isometrisk træning ser ud til at kunne have en god effekt i forhold til skadesforebyggelse, genopbygning efter skader og smertelindring.
 
-* **Excentrisk overload af muskler, sener og ledbånd**. Der må gerne være mulighed for excentrisk at kunne overloade musklerne og derved også sikre en relativ høj mekanisk spænding på tilhæftende sener og ledbånd. Det kan bl.a. være skadesforebyggende, fordi det ser ud til at forbedre modstandsdygtigheden ved høj-hastighedskontraktioner. Fx har Nordic Hamstring vist at kunne forebygge skader i baglåret i flere studier med fodboldspillere. I det følgende er Nordic Hamstring, Copenhagen Hip Adduction og Sissy Squats særligt valgt, fordi de giver god mulighed bare med kropsvægt at overloade den excentriske del af bevægelsen. 
+* **Excentrisk overload af muskler, sener og ledbånd**. Der må gerne være mulighed for excentrisk at kunne overloade musklerne og derved også sikre en relativ høj mekanisk spænding på tilhæftende sener og ledbånd. Det kan bl.a. være skadesforebyggende, fordi det ser ud til at forbedre modstandsdygtigheden ved høj-hastighedskontraktioner. Fx har Nordic Hamstring vist at kunne forebygge skader i baglåret i flere studier med fodboldspillere. I det følgende er Nordic Hamstring, Copenhagen Hip Adduction og Sissy Squats særligt valgt, fordi de giver god mulighed bare med kropsvægt at overloade den excentriske del af bevægelsen.
 * **Isometrisk komponent**. Flere og flere studier har demonstreret, at isometriske hold i en bevægelse kan have en akut, men også kronisk smertelindrende effekt. Isometrisk træning kan laves på to måder. *Overcoming isometrics* er når man skubber mod noget, der ikke bevæger sig. *Yielding isometrics* er når man forsøger at holde samme stilling på trods af en ydre mostand.
 * **Træning af mindre bevægelsesmuskler og stabiliseringsmuskler**. Det er væsentligt i træning at forbedre de muskler, der er med til at stabilisere de forskellige led. Fx rotator-cuff'en i skulderen og lyske og baller i forhold til at stabilisere hoften og knæet.
 

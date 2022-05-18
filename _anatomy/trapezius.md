@@ -48,7 +48,7 @@ Trapezius trænes i varianter, hvor du enten løfter skulderbladene fx i shrugs,
 
 ## Træning af {{ page.title }}
 
-Du kan altså træne trapezius med rigtig mange rygøvelser. Men man kan helt sikkert bruge bent over rows og dødløftvarianter, fx snatch grip dødløft.
+Du kan altså træne trapezius med rigtig mange rygøvelser. Men man kan helt sikkert bruge [bent over rows](/oevelse/bent-over-rows-bor/) og dødløftvarianter, fx snatch grip dødløft.
 
 Her er en nem og effektiv øvelse til at træne trapezius (kappemusklen). Øvelsen er også god til at styrke øvre ryg. Brug en elastik eller evt. en håndvægt til øvelsen.
 

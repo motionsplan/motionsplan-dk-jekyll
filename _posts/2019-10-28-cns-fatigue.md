@@ -3,7 +3,7 @@ title: &title "Test træthed i nervesystemet med finger tapping test?"
 permalink: /cns-fatigue/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1524304108392-fdb27fb3f983?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1524304108392-fdb27fb3f983?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1524304108392-fdb27fb3f983?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   overlay_filter: 0.3
   title: *title
@@ -58,10 +58,10 @@ Med introduktionen af smartphones er det ret let at lave en finger tapping test,
 
 [<i class="fab fa-android"></i> CNS Tap](https://play.google.com/store/apps/details?id=com.sreyas.cnstapmonitor&hl=da&gl=US){: .btn .btn--large .btn--success } eller [<i class="fab fa-apple"></i> Digital Finger Tapping Test](https://apps.apple.com/us/app/digital-finger-tapping-test/id439751108){: .btn .btn--large .btn--info }
 
-## Referencer om træthed i nervesystemet
+## Referencer
 
 <details markdown="1">
-  <summary>Se referencer om træthed i nervesystemet</summary>
+  <summary>Se referencer</summary>
 
 - [Why does Central Nervous System Fatigue happen during strength training](https://medium.com/@SandCResearch/why-does-central-nervous-system-cns-fatigue-happen-during-strength-training-e0af3f5e4989)
 - <https://barbend.com/cns-fatigue/>

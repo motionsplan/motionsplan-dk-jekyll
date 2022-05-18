@@ -1,0 +1,66 @@
+<form class="calculator wide">
+  <fieldset>
+    <label>
+        Alder (år)
+        <input type="number" min="0" max="200" name="maxhr_age" id="maxhr_age" value="40">
+    </label>
+  </fieldset>
+  <fieldset class="results">
+<table class="table" id="maxhr_table">
+    <thead>
+      <tr>
+        <th>Forfatter</th>
+        <th>Formel</th>
+        <th>Maxpuls</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Tanaka (2001)</td>
+        <td>208 - 0,7 * alder</td>
+        <td id="maxhr_tanaka">180</td>
+      </tr>
+      <tr>
+        <td>Aastrand og Ryhming (1954)</td>
+        <td>216,6 - 0,84 * alder</td>
+        <td id="maxhr_aastrand">183</td>
+      </tr>
+      <tr>
+        <td>Arena (2016)</td>
+        <td>209,3 - 0,72 * alder</td>
+        <td id="maxhr_arena">181</td>
+      </tr>
+      <tr>
+        <td>Nes (2013)</td>
+        <td>211 - 0,64 * alder</td>
+        <td id="maxhr_nes">185</td>
+      </tr>
+      <tr>
+        <td>Fox (1973)</td>
+        <td>220 - alder</td>
+        <td id="maxhr_fox">180</td>
+      </tr>
+      <tr>
+        <td>Gellish et al (2007)</td>
+        <td>207 - 0,7 * alder</td>
+        <td id="maxhr_gellish_linear">179</td>
+      </tr>
+      <tr>
+        <td>Gellish et al (2007)</td>
+        <td>192 - 0,007 * alder<sup>2</sup></td>
+        <td id="maxhr_gellish">181</td>
+      </tr>
+      <tr>
+        <td>Londeree and Moeschberger (1982)</td>
+        <td>206,3 - 0,711 * alder</td>
+        <td id="maxhr_londeree_moeschberger">178</td>
+      </tr>
+      <tr>
+        <td>Inbar (1994)</td>
+        <td>205,8 - 0,685 * alder</td>
+        <td id="maxhr_inbar">178</td>
+      </tr>
+    </tbody>
+  </table>
+</fieldset>
+</form>

@@ -5,8 +5,8 @@ title: Hvad er Runner's High - og hvordan opnår du følelsen? 🏃
 seo_title: Hvad er Runner's High - og hvordan opnår du følelsen?
 permalink: /runners-high/
 header:
-  overlay_image: https://images.unsplash.com/photo-1530655638484-de9ff231551e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTB8fHJ1bm5lcnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=60
-  teaser: https://images.unsplash.com/photo-1530655638484-de9ff231551e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTB8fHJ1bm5lcnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60
+  overlay_image: https://images.unsplash.com/photo-1530655638484-de9ff231551e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTB8fHJ1bm5lcnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
+  teaser: https://images.unsplash.com/photo-1530655638484-de9ff231551e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTB8fHJ1bm5lcnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: Hvad er Runner's High - og hvordan opnår du følelsen? 🏃
 language: da
 category:
@@ -89,6 +89,6 @@ Hvis du ved noget mere om forskningen om Runner's High, så brug endelig komment
 
 ## Konklusion om Runner's High
 
-Runner's High handler om den gode følelse, man får i kroppen, mens man laver længerevarende motion. Runner's High kan opnås under alle typer motion, hvor der er tilstrækkelig intensitet og gentagne udholdenhedsbaserede øvelser. Du kan formentlig *ikke* få Runner's High, hvis du laver [intervalløb og intervaltræning]({% link _posts/2020-06-15-intervallob.md %}).
+Runner's High handler om den gode følelse, man får i kroppen, mens man laver længerevarende motion. Runner's High kan opnås under alle typer motion, hvor der er tilstrækkelig intensitet og gentagne udholdenhedsbaserede øvelser. Du kan formentlig *ikke* få Runner's High, hvis du laver [intervalløb]({% link _posts/2020-06-15-intervallob.md %}) og [intervaltræning](/intervaltraening/).
 
 Runner's High opstår formentlig som en kombination af endorfiner og det endocannabinoide system.

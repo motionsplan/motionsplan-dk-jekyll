@@ -35,7 +35,7 @@ blog:
         url: /kondital/
       - title: "Anaerob træning"
         url: /anaerob-traening/
-      - title: "Intervalløb og interval træning"
+      - title: "Intervalløb og intervaltræning"
         url: /intervallob-intervaltraening/
       - title: "Hvilepuls"
         url: /hvilepuls/
@@ -51,8 +51,8 @@ blog:
         url: /muskler/
       - title: "Excentrisk træning"
         url: /excentrisk-traening/
-      - title: "Kompressionsstrømper til løb og cykling"
-        url: /kompressionsstroemper-restitution-praestation-bivirkninger/
+      - title: "Restitution"
+        url: /restitution/
   - title: "Populære øvelser"
     children:
       - title: "Armstrækninger og armbøjninger"
@@ -74,7 +74,9 @@ blog:
       - title: "BMR og hvilestofskifte beregner"
         url: /bmr-beregner-hvilestofskifte-basalstofskifte/
       - title: "Ligevægtsindtag beregner"
-        url: /beregner/ligevaegtsindtag-med-ligevaegtsberegner/
+        url: /ligevaegtsindtag-beregner/
+      - title: "BMI beregner"
+        url: /bmi-beregner/
 anatomi:
   - title: "Anatomi"
     url: "/anatomi/"
@@ -325,11 +327,9 @@ methods:
       - title: Okklusion
         url: /styrketraening/okklusion/
       - title: Partial reps
-        url: /styrketraening/partial-reps/
+        url: /styrketraening/range-of-motion/
       - title: Pyramide
         url: /styrketraening/pyramide/
-      - title: Regressive range of motion
-        url: /styrketraening/regressive-range-of-motion/
       - title: Myoreps
         url: /styrketraening/myoreps/
       - title: Rest-pause
@@ -343,7 +343,7 @@ methods:
       - title: Tempo Contrast
         url: /styrketraening/tempo-contrast/
   - title: Maksimal styrke
-    url: /maksimal-styrketraening/
+    url:  /maksimal-styrke/
     children:
       - title: Backoff sæt
         url: /styrketraening/backoff-sets/

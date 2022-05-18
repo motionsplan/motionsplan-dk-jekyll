@@ -12,18 +12,18 @@ tags:
   - træning
   - roning
   - kajak
-  - rotræning
   - konditionstræning
   - kondition
   - træningsprogram
   - anaerob træning
+  - aerob træning
   - intervaltræning
 category:
   - Kondition
 last_modified_at: 2020-07-05T21:42:12Z
 feature_row:
   - image_path: https://www.fotoagent.dk/single_picture/11803/138/mega/Concept_2_model_D_sort(2).jpg
-    alt: "Concept 2 til rotræning, ropoprogrammer, træningsprogrammer og intervaller til indendørs roning på romaskine"
+    alt: "Concept 2 egnet til rotræning og ropoprogrammer"
     title: "Concept 2 - Model D Sort + PM5"
     excerpt: "Concept 2 er er en fantastisk romaskine. Du kan lave dine træningsprogrammer til roning og forskellige intervaller, så din rotræning får høj kvalitet og en helt unik træningsoplevelse."
     url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/concept-2-model-d-sort-pm5/
@@ -32,11 +32,13 @@ feature_row:
     rel: sponsored nofollow noopener
 ---
 
-Jeg har været på udkig efter et træningsprogram til indendørs roning på romaskine, og heldigvis kender jeg en ekspert i forskellige roprogrammer, intervaller og intervaltræning. Bliv helt klar til din rotræning ved at sammensætte dit eget træningsprogram!
+Jeg har været på udkig efter et træningsprogram til indendørs roning på romaskine. Heldigvis kender jeg en ekspert i forskellige roprogrammer. Bliv helt klar til din rotræning ved at sammensætte dit eget træningsprogram!
 
 Jeg vil gerne i gang med at ro lidt på romaskine for at genvinde lidt af min kondition. Derfor skrev jeg til Anders Krintel, som ved virkelig meget om at ro, og han var så venlig at give mig nogle af de bedste intervalprogrammer fra hans hjemmeside om rotræning.
 
 {% include figure image_path="https://cdn.syd.bazo.dk/images/d467169d-7c43-4290-9087-64eb76ce87c2/d/16-9/s/1029" caption="Anders Krintel er redaktør af [ropro.dk](http://ropro.dk/). Samtidig har Krintel været dansk mester omkring 40 gange kombineret i kano, kajak og kajakergometer. Anders har kigget på et et indendørs træningsprogram til din rotræning og roning med intervaltræning" alt="Anders Krintel om roprogrammer og intervaller" %}
+
+Jeg kan godt afsløre, at Anders Krintel har en forkærlighed for [intervaller og intervaltræning](/intervaltraening/), så sådan er alle træningsforslagene her bygget op.
 
 Formålet med dette indlæg er, at du selv at blive i stand til at udvælge intervaller til dit træningsprogram. Du kan naturligvis også bare ro kontinuerligt på romaskinen, men jeg kan godt lide at bryde min rotræning ned i intervaller.
 
@@ -93,7 +95,7 @@ Hårdheden af de enkelte træningspas bliver bestemt af den intensitet du bruger
 
 --- <cite>[Anders Krintel](http://www.ropro.dk)</cite>
 
-Alle intervallerne er konstrueret som [intervaltræning]({% link _posts/2020-06-15-intervallob.md %}), men det er intensiteten og indsatsen i de enkelte intervaller, der bestemmer det samlede udbytte på [energisystemerne]({% link _posts/2019-11-14-energisystemer-101.md %}).
+Alle intervallerne er konstrueret som [intervaltræning](/intervaltraening/), men det er intensiteten og indsatsen i de enkelte intervaller, der bestemmer det samlede udbytte på [energisystemerne]({% link _posts/2019-11-14-energisystemer-101.md %}).
 
 ## Intervaller til roning og rotræning
 
@@ -110,7 +112,7 @@ Således varer grupperne henholdsvis 20, 15, 10 og 5 minutter.
 
 Er nem at forlænge eller forkorte ved at fjerne en gruppe i den ene eller anden ende.
 
-{% include pinterest image_path="/assets/images/pinterest/60-seconds-staircase.png" data-pin-media="/assets/images/pinterest/60-seconds-staircase.png" %}
+{% include pinterest image_path="/assets/images/pinterest/60-seconds-staircase.jpg" data-pin-media="/assets/images/pinterest/60-seconds-staircase.jpg" %}
 
 ### 6-18-6 pyramide
 
@@ -122,7 +124,7 @@ Såre simpel: seks gange ét minut, seks gange tre og igen seks gange ét.
 
 Jeg holder bare 1 minuts pause for hver.
 
-{% include pinterest image_path="/assets/images/pinterest/6-18-6-pyramid.png" data-pin-media="/assets/images/pinterest/6-18-6-pyramid.png" %}
+{% include pinterest image_path="/assets/images/pinterest/6-18-6-pyramid.jpg" data-pin-media="/assets/images/pinterest/6-18-6-pyramid.jpg" %}
 
 ### Pyramid of fours
 
@@ -130,7 +132,7 @@ En eller to omgange af (1111 22 4 22 1111 minutter)
 
 Hele tiden med 1 minuts pause.
 
-{% include pinterest image_path="/assets/images/pinterest/pyramid-of-fours.png" data-pin-media="/assets/images/pinterest/pyramid-of-fours.png" %}
+{% include pinterest image_path="/assets/images/pinterest/pyramid-of-fours.jpg" data-pin-media="/assets/images/pinterest/pyramid-of-fours.jpg" %}
 
 ### Krintels Favorit
 
@@ -152,7 +154,7 @@ Krintel kan godt lide, når tallene passer sammen. Hans kommentar til dette inte
 
 Hele tiden 1 minutters pause mellem de enkelte intervaller.
 
-{% include figure image_path="https://images.unsplash.com/photo-1519505907962-0a6cb0167c73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=5" caption="Den mest anerkendte indendørs romaskine er Concept2. Du kan tjekke [prisen på en romaskine her](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/concept-2-model-d-sort-pm5/){: rel='sponsored nofollow noopener' }" alt="Concept2: Ro programmer med intervaller til et indendørs træningsprogram til roning med intervaltræning og rotræning" %}
+{% include figure image_path="https://images.unsplash.com/photo-1519505907962-0a6cb0167c73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=5" caption="Den mest anerkendte indendørs romaskine er Concept2. Du kan tjekke [prisen på en romaskine her](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=40368&htmlurl=https://www.fitnessgruppen.dk/concept-2-model-d-sort-pm5/){: rel='sponsored nofollow noopener' }" alt="Concept2 ro maskine" %}
 
 ### 90 seconds shuffle
 

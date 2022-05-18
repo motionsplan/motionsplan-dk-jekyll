@@ -28,8 +28,7 @@
     "gulp-notify": "^4.0",
     "gulp-responsive": "2.12",
     "gulp-size": "^3.0",
-    "image-map-resizer": "^1.0",
-    "uglify-js": "^3.13"
+    "image-map-resizer": "^1.0"
   },
   "devDependencies": {
     "browserify": "^16.5",
@@ -42,11 +41,15 @@
     "uglifyify": "^5.0",
     "wilks-calculator": "^1.2",
     "unicode-encode": "^1.4",
-    "watchify": "^4.0"
+    "watchify": "^4.0",
+    "minipass": "2.7.0",
+    "sharp": "^0.23.0",
+    "uglify-js": "^3.13"
   },
   "scripts": {
     "test": "bundle exec mocha src/test/*.*",
     "start": "bundle exec jekyll server --port 8080 --incremental",
+    "lsi": "bundle exec jekyll server --port 8080 --incremental --lsi",
     "draft": "bundle exec jekyll server --port 8080 --incremental --drafts",
     "watch:js": "onchange \"assets/js/**/*.js\" -e \"assets/js/main.min.js\" -- npm run build:js",
     "build:js": "npm run uglify",

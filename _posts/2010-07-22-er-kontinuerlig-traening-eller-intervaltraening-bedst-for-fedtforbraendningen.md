@@ -1,6 +1,6 @@
 ---
 title: &title "Er kontinuerlig træning eller intervaltræning bedst for fedtforbrændingen?"
-seo_title: "Effektiv fedtforbrædning med kontinuerlig træning eller intervaltræning?"
+seo_title: "Effektiv fedtforbrænding med kontinuerlig træning eller intervaltræning?"
 permalink: /artikel/er-kontinuerlig-traening-eller-intervaltraening-bedst-for-fedtforbraendningen/
 language: da
 header:
@@ -18,7 +18,9 @@ category:
 last_modified_at: 2020-06-07T08:34:44Z
 ---
 
-Jeg har sat mig ned for at undersøge, om det er kontinuerlig træning med lavere intensitet eller intervaltræning med høj intensitet, der er bedst for fedtforbrændingen? Intervaltræning og _high intensity training_ bliver oftere og oftere markedsført som virkelig effektivt til at sætte gang i en effektiv fedtforbrænding, fordi der er en høj efterforbrænding, mens man tidligere snakkede om en fedtforbrænding ved lavere intensiteter.
+Jeg har sat mig ned for at undersøge, om det er kontinuerlig træning med lavere intensitet eller intervaltræning med høj intensitet, der er bedst for fedtforbrændingen?
+
+[Intervaltræning](/intervaltraening/) og _high intensity training_ bliver oftere og oftere markedsført som virkelig effektivt til at sætte gang i en effektiv fedtforbrænding, fordi der er en høj efterforbrænding, mens man tidligere snakkede om en fedtforbrænding ved lavere intensiteter.
 
 Lad os først kigge lidt på et par grundlæggende begreber.
 
@@ -37,11 +39,11 @@ Det gælder om at finde et passende forhold mellem træningstid og intensitet, s
 
 ## Er intervaltræning mere effektivt for fedtforbrændingen?
 
-Vi har tidligere [advokeret for at intervaltræning giver en bedre træningseffekt end kontinuerlig træning på mindre tid](/artikel/4-minutters-haard-intervaltraening-bedre-end-en-times-moderat-loeb). Flere steder foreslår man, at [intervaltræning også er overlegent ift. fedtforbrænding](http://www.alun.dk/traening/high-intensity-interval-training.html), men er det korrekt?
+Vi har tidligere advokeret for at [intervaltræning giver en bedre træningseffekt end kontinuerlig træning](/artikel/tabata-traening-intervaller/) på mindre tid. Flere steder foreslår man, at intervaltræning også er overlegent ift. fedtforbrænding, fx hos[alun.dk](http://www.alun.dk/traening/high-intensity-interval-training.html), men er det korrekt?
 
-**Er intervaltræning mere effektiv fedtforbrænding end kontinuerlig træning, når man skal tabe sig og lave sin kropskomposition om?** (via [Young](http://www.tmuscle.com/free_online_article_issue/issue_636?s=indexTitle#interval-training-doesn-t-work))
+**Er intervaltræning mere effektiv fedtforbrænding end kontinuerlig træning, når man skal tabe sig og lave sin kropskomposition om?**
 
-Studier har vist forbedringer i forbrændingen i mitochondrierne og forøget stofskifte efter aktiviteten, når man laver intervaltræning. Det indikerer et større potentiale for fedtforbrænding efter intervaltræning. Men hvordan ser videnskaben egentlig på dette?
+Studier har ifølge [Young](http://www.tmuscle.com/free_online_article_issue/issue_636?s=indexTitle#interval-training-doesn-t-work) vist forbedringer i forbrændingen i mitochondrierne og forøget stofskifte efter aktiviteten, når man laver intervaltræning. Det indikerer et større potentiale for fedtforbrænding efter intervaltræning. Men hvordan ser videnskaben egentlig på dette?
 
 Da jeg oprindeligt skrev denne artikel i 2010 var der ikke så meget evidens, men der er senere kommet et godt studium, som svarer ret præcist på spørgsmålet: Er den samlede efterforbrænding på et døgn højere, hvis du laver rigtig hård intervaltræning?
 
@@ -89,7 +91,7 @@ Der er tilsyneladende ikke noget belæg for at fremhæve intervaltræning i forh
 
 Der er ikke lavet særlig mange studier, der i randomiserede, kontrollerede forsøg undersøger efterforbrændingen efter træning. Her er hvad vi har kunnet finde.
 
-**Tabata (1996)** viste [store træningsmæssige forbedringer ved intervaltræning](/artikel/4-minutters-haard-intervaltraening-bedre-end-en-times-moderat-loeb). Tabata har imidlertid aldrig undersøgt træningsformens betydning for kropssammensætning. Det kunne være interessant at teste det i et kontrolleret, randomiseret træningsforløb, om denne træningsform kan bruges til at ændre kropskompositionen. Læs også [The Tabata Myth](https://robertsontrainingsystems.com/blog/the-tabata-myth/) for en kritisk gennemgang.
+**Tabata (1996)** viste [store træningsmæssige forbedringer ved intervaltræning](/artikel/tabata-traening-intervaller/). Tabata har imidlertid aldrig undersøgt træningsformens betydning for kropssammensætning. Det kunne være interessant at teste det i et kontrolleret, randomiseret træningsforløb, om denne træningsform kan bruges til at ændre kropskompositionen. Læs også [The Tabata Myth](https://robertsontrainingsystems.com/blog/the-tabata-myth/) for en kritisk gennemgang.
 
 **Tremblay et al (1994)** undersøgte netop kropssammensætningen, men der er flere ting man skal være opmærksomme på ved studiet. De sammenligende steady-state og intervaltræning i et 15 ugers studium. Intervaltræningen begyndte imidlertid først senere i studiet. Steady-state gruppen tabte lidt over et halvt kilo, mens intervalgruppen tabte mindre end 250 gram. Det samlede vægttab efter 15 ugers træning er altså meget minimalt, men derfor kan kropskompositionen jo sagtens være ændret. Dette fortæller naturligvis også, at hvis man vil tage sig, så skal man også holde styr på sin diæt.
 

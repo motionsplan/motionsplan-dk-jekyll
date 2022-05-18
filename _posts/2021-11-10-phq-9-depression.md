@@ -4,7 +4,7 @@ seo_title: "Depression: Test om du er deprimeret med PHQ-2 og PHQ-9"
 permalink: /phq-9-depression-test/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1511297968426-a869b61af3da?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1511297968426-a869b61af3da?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1511297968426-a869b61af3da?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
@@ -95,10 +95,10 @@ Testen er oversat til dansk. Jeg har ikke kunne finde yderligere informationer o
 
 {% include faq.html %}
 
-## Referencer til depressionstest
+## Referencer
 
 <details markdown="1">
-  <summary>Se referencer til depressions test</summary>
+  <summary>Se referencer til depressions tests</summary>
 
 - Badr, H., Federman, A. D., Wolf, M., Revenson, T. A., & Wisnivesky, J. P. (2016). Depression in individuals with chronic obstructive pulmonary disease and their informal caregivers. Aging & Mental Health, 21(9), 975-982, doi: 10.1080/13607863.2016.1186153
 - Gilbody, S., Richards, D., Brealey, S., & Hewitt, C. (2007). Screening for depression in medical settings with the Patient Health Questionnaire (PHQ): A diagnostic meta-analysis. Journal of General Internal Medicine, 22(11), 1596-1602. 10.1007/s11606-007-0333-y

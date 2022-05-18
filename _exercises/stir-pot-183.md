@@ -33,4 +33,4 @@ Placér albuerne på en stor træningsbold. Hold kroppen helt strakt ved at spæ
 
 Lav cirklerne i begge retninger. Når du bliver bedre, kan du samle fødderne mere og mere.
 
-Inden du begynder på denne øvelse, så kan det være en god ide at have trænet [planken](/oevelse/planken) mange gange først.
+Inden du begynder på denne øvelse, så kan det være en god ide at have trænet [planken](/oevelse/planken/) mange gange først.

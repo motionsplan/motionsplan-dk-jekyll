@@ -3,7 +3,7 @@ title: &title "Mikrotræning: 6 forslag til din ferietræning 💗"
 permalink: /mikrotraening/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1573858129683-59f4d9c445d9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1573858129683-59f4d9c445d9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1573858129683-59f4d9c445d9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
@@ -70,7 +70,7 @@ Jeg har fundet nogle rigtig gode eksempler på mikrotræning direkte fra det dan
 
 ## Eksempler på kortvarig træning med kondition
 
-Du kan naturligvis også lade dig inspirere af [intervalløb og intervaltræning]({% link _posts/2020-06-15-intervallob.md %}), grusomme [Tabata-intervaller]({% link _posts/2009-03-27-4-minutters-haard-intervaltraening-bedre-end-en-times-moderat-loeb.md %}) eller [forskellige typer for anaerob træning]({% link _posts/2021-01-02-anaerob-traening.md %}).
+Du kan naturligvis også lade dig inspirere af [intervalløb]({% link _posts/2020-06-15-intervallob.md %}) og [intervaltræning](/intervaltraening/), grusomme [Tabata-intervaller]({% link _posts/2009-03-27-4-minutters-haard-intervaltraening-bedre-end-en-times-moderat-loeb.md %}) eller [forskellige typer for anaerob træning]({% link _posts/2021-01-02-anaerob-traening.md %}).
 
 ## Hvem kan bruge mikrotræning?
 

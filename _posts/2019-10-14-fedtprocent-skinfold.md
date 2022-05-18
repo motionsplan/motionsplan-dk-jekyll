@@ -5,7 +5,6 @@ redirect_from:
   - /artikel/fedtprocent-skinfold/
   - /skinfold-lohman/
   - /skinfold-slaughter/
-  - /skinfold-ymca/
 excerpt: "Du kan bestemme din fedtprocent ved at måle hudfoldstykkelser med en fedttang eller hudfoldsmåler. Vi har beregnere til de meste almindelige metoder."
 language: da
 header:
@@ -48,7 +47,7 @@ I forbindelse med træning og vægttab kan det være motiverende at følge ændr
 
 En måde at estimere sin fedtprocent på er ved hjælp af en fedttang, som man kan bruge til at lave en hudfoldsmåling med.
 
-## Om fedttangen
+## Om fedttangen til hudfoldsmålinger
 
 Målingerne med fedttangen skal naturligvis være til at stole på, så derfor skal:
 
@@ -106,11 +105,11 @@ Alle de følgende måder at lave hudfoldsmålinger på kræver en pålidelig fed
 
 ## Hvad er normale fedtprocenter?
 
-Du kan også udregne din fedtprocent, og hvis du se normalværdier for fedtprocent, så [kig i mit indlæg om at udregne sin fedtprocent, hvor jeg har lavet en tabel](/artikel/udregning-af-fedtprocent).
+Du kan også [udregne din fedtprocent](/artikel/udregning-af-fedtprocent/), og hvis du se normalværdier for fedtprocent, så kig i mit indlæg om [normal fedtprocent tabel](/fedtprocent-normer/).
 
 Husk at testen udelukkende estimerer din fedtprocent. Testen er ikke et startskud til en [slankekur]({% link _posts/2020-09-04-slankekur.md%}), fordi du skal opnå en tilfældig [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}) fra en beregner.
 {: .notice .notice--info }
 
-## Køb en fedttang
+## Køb en fedttang til hudfoldsmåling
 
 {% include feature_row type="left" %}

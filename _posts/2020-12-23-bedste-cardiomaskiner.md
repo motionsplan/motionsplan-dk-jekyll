@@ -1,10 +1,10 @@
 ---
 title: &title "De bedste cardiomaskiner til kondition og fedtforbrænding 🥇"
 seo_title: "Bedste cardiomaskiner 2022 til kondition og fedtforbrænding"
-permalink: "/bedste-cardiomaskiner/"
+permalink: /bedste-cardiomaskiner/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1519505645104-c7be90e0d630?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1519505645104-c7be90e0d630?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1519505645104-c7be90e0d630?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   title: *title
 tags:
@@ -78,7 +78,7 @@ På løbebåndet er det bånder, der flytter sig under fødderne, så du skal ba
 
 En af fordelene ved løbebåndet er, at det er rigtig let at lave systematiske intervaller i et bestemt tempo. Hvis du ikke følger båndets hastighed, så ender det jo med at du ryger af båndet. Jeg plejer selv under hurtige intervaller at hoppe ud til siden med fødderne, men hvis jeg løber lidt længere intervaller, så skruer jeg bare ned for tempoet til mit pausetempo, når intervallet er slut.
 
-Jeg har skrevet lidt mere om [intervalløb og intervaltræning](/intervallob-intervaltraening/), som du kan lade dig inspirere af, når du tager en tur på løbebåndet.
+Jeg har skrevet lidt mere om [intervalløb](/intervallob-intervaltraening/) og [intervaltræning](/intervaltraening/), som du kan lade dig inspirere af, når du tager en tur på løbebåndet.
 
 De fleste oplever, at det er mindre hårdt for knæene at løbe på løbebånd end udenfor. Jeg kan godt lide, at tempoet er sat, og man ikke skal tænke så meget over at holde tempoet. Men jeg har helt sikkert brug for lidt adspredelse undervejs, når jeg løber, så det ikke bliver kedeligt på løbebåndet.
 

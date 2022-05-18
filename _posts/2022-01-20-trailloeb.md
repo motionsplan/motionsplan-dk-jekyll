@@ -4,7 +4,7 @@ seo_title: "Trailløb: Sådan kommer du godt i gang"
 permalink: /trailloeb/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1623390003553-4fa3f9fceb89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1623390003553-4fa3f9fceb89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1623390003553-4fa3f9fceb89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
@@ -70,11 +70,11 @@ Du kan prøve at finde andre i dit nærområde, der er interesseret i trailløb.
 
 Naturstyrelsens [udinaturen.dk](https://udinaturen.dk/) er også et godt sted at lede efter ruteforslag. Du kan også sagtens løbe trailløb på nogle af de mange etablerede mountainbikespor i Danmark, men du skal lige holde øje med de hurtige cyklister på stierne.
 
-{% include figure image_path="/assets/images/blog/trailloeb-udinaturen.png" caption="[udinaturen.dk](https://udinaturen.dk/) har flere forskellige gode forslag til ruter i de danske skove." alt="trailrunning på udinaturen.dk" %}
+{% include figure image_path="/assets/images/blog/trailloeb-udinaturen.jpg" caption="[udinaturen.dk](https://udinaturen.dk/) har flere forskellige gode forslag til ruter i de danske skove." alt="trailrunning på udinaturen.dk" %}
 
 Du kan også lade dig inspirere af Dansk Orienterings-Forbunds stationære orienteringsposter, som findes i rigtig mange af de danske skove. Du kan finde kort og poster på [www.findveji.dk](https://www.findveji.dk). Det kan være en god variation at skulle løbe efter kort for at finde rundt.
 
-{% include figure image_path="/assets/images/blog/trailloeb-findveji.png" caption="[www.findveji.dk](https://www.findveji.dk) er en rigtig godt alternativ til at planlægge dit trailløb." alt="trailløb på findveji" %}
+{% include figure image_path="/assets/images/blog/trailloeb-findveji.jpg" caption="[www.findveji.dk](https://www.findveji.dk) er en rigtig godt alternativ til at planlægge dit trailløb." alt="trailløb på findveji" %}
 
 ## Hvordan finder jeg vej?
 
@@ -90,7 +90,6 @@ Her kan du se nogle udvalgte løb:
 
 - [Salomon Hammer Trail](http://hammertrail.dk/). Du kan vælge mellem distancer fra 25-160 kilometer i dette trailrunning event på Bornholm. Det er godt at have styr på din bakketræning på forhånd.
 - [Garmin Trailman](http://www.trailman.dk/). Trailman er fem landsdækkende trailløb med distancer fra 7-83 kilometer.
-- [LØBEREN Trail Adventure](https://www.loberen.dk/node/118370). Her kan du finde en serie af trailløb i Jylland, som løbes hele året.
 
 ## Konklusion
 

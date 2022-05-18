@@ -26,6 +26,14 @@ https://www.strongerbyscience.com/your-drug-free-muscle-and-strength-potential-p
 
 [Heymsfield et al (2020)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7012897/) har undersøgt relationen mellem kropsstørrelse, kropsbygning, alder og muskelmassen. De tog udgangspunkt i et stort amerikansk studie, hvor omkring 12.330 hvide og afro-amerikanere deltog i US National Health and Nutrition Survey. På baggrund af vægt, højde, taljemål, alder og en DXA-scanning, lavede de formler for muskelmassen. De fandt, at der var en sammenhæng højde, vægt, taljemål og alderen og muskelmassen.
 
+{% comment %}
+
+One century ago Harris and Benedict published a short report critically examining the relations between body size, body shape, age, and basal metabolic rate. At the time, basal metabolic rate was a vital measurement in diagnosing diseases such as hypothyroidism. Their conclusions and basal metabolic rate prediction formulas still resonate today. Using the Harris-Benedict approach as a template, we systematically examined the relations between body size, body shape, age, and skeletal muscle mass (SM), the main anatomic feature of sarcopenia. The sample consisted of 12,330 non-Hispanic (NH) white and NH black participants in the US National Health and Nutrition Survey who had complete weight, height, waist circumference, age, and dual-energy X-ray (DXA) absorptiometry data. A conversion formula was used to derive SM from DXA-measured appendicular lean soft tissue mass. Weight, height, waist circumference, and age alone and in combination were significantly correlated with SM (all, p < 0.001). Advancing analyses through the aforementioned sequence of predictor variables allowed us to establish how at the anatomic level these body size, body shape, and age measures relate to SM much in the same way the Harris-Benedict equations provide insights into the structural origins of basal heat production. Our composite series of SM prediction equations should prove useful in modeling efforts and in generating hypotheses aimed at understanding how SM relates to body size and shape across the adult lifespan.
+
+Keywords: sarcopenia, nutritional assessment, anthropometry, body composition, waist circumference
+
+{% endcomment %}
+
 {% include calculate-musclemass.html %}
 
 ## Hvad sker der med muskelmassen med alderen?

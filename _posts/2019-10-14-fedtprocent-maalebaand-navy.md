@@ -6,7 +6,7 @@ redirect_from:
 excerpt: "Udregn din fedtprocent på baggrund af Navy-metoden, som er enkelte kropsmålinger, der kan laves med et målebånd."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1530530488105-64664c7213bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1530530488105-64664c7213bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   alt: Photo by Annie Spratt on Unsplash
   teaser: https://images.unsplash.com/photo-1530530488105-64664c7213bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
@@ -32,9 +32,12 @@ feature_row:
     rel: sponsored nofollow noopener
 ---
 
-US Navy har udarbejdet denne metode til at beregne fedtprocenten på baggrund af nogle enkelte målinger med målebånd.
+US Navy har udarbejdet denne metode til at beregne fedtprocenten på baggrund af nogle enkelte målinger, som du let kan lave med et målebånd.
 
-Fedtprocenten er estimeret på denne måde for alle, der gerne vil ind til US Navy, fordi de har nogle specifikke krav til fedtprocenten.
+Navy-metoden er et alternativ til en anden [måling af fedtprocent med målebånd](/fedtprocent-maalebaand/), som er udformet af McArdle og Katch (1973) og Tran (1998 og 1999).
+Der findes andre [måder at måle sin fedtprocent](/maal-fedtprocent/), som du også kan kigge på.
+
+Fedtprocenten er estimeret på denne måde for alle, der gerne vil ind til US Navy, fordi de har nogle specifikke krav til soldaternes fedtprocent.
 
 Hvis du vil læse mere om retningslinjerne for at komme ind til US Navy, så kan du tjekke artiklen hos [Omnicalculator](https://www.omnicalculator.com/health/navy-body-fat).
 
@@ -42,11 +45,11 @@ Hvis du vil læse mere om retningslinjerne for at komme ind til US Navy, så kan
 
 {% include calculate-fat-percent-navy.html %}
 
-## Anden fedttest med målebånd
+## Konklusion
 
-Hvis du gerne vil have en [engelsk beregner til estimering af fedtprocent efter Navy-metoden, så tjek www.omnicalculator.com](https://www.omnicalculator.com/health/navy-body-fat).
+Når du har fået et bud på din fedtprocent, så kan du sammenligne den i vores [fedtprocent skema for mænd og kvinder](/fedtprocent-normer/).
 
-Jeg har også beskrevet en anden [fedtprocentmåling, som kan laves med målebånd]({% link _posts/2019-10-14-fedtprocent-maalebaand.md %}).
+Jeg har også beskrevet en anden [fedtprocentmåling med målebånd]({% link _posts/2019-10-14-fedtprocent-maalebaand.md %}). 
 
-Husk at testen udelukkende estimerer din fedtprocent. Testen er ikke et startskud til en [slankekur]({% link _posts/2020-09-04-slankekur.md%}), fordi du skal opnå en tilfældig [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}) fra en beregner.
+Husk at testen estimerer din fedtprocent. Testen er ikke et startskud til en [slankekur]({% link _posts/2020-09-04-slankekur.md%}), fordi du skal opnå en tilfældig [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}) fra en beregner fundet på internettet.
 {: .notice .notice--info }

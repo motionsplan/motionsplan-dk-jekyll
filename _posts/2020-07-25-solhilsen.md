@@ -6,7 +6,7 @@ description: "Lær at lave solhilsen a og b med video og beskrivelser | Hvilke y
 permalink: /artikel/solhilsen-a-b-surya-namaskar/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1570997491915-47ade51fed9f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1570997491915-47ade51fed9f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1570997491915-47ade51fed9f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: "Komplet guide til yoga solhilsen A og B"
 tags:
@@ -164,7 +164,7 @@ Tjek videoen for at se nøjagtigt, hvordan øvelserne udføres.
 
 {% include feature_row type="left" id="plakat" %}
 
-# Solhilsen B (for let øvede)
+## Solhilsen B (for let øvede)
 
 Solhilsen B er lidt mere avanceret end version A. Typisk laves denne sekvens af øvelser efter, at du har lavet flere runder af solhilsen A.
 
@@ -233,7 +233,7 @@ Hvis du kan lide artiklerne her fra Motionsplan og gerne vil støtte sitet, så 
 
 {% include faq.html %}
 
-## Referencer til solhilsen A og B
+## Referencer
 
 <details markdown="1">
   <summary>Se referencer om solhilsen A og B</summary>

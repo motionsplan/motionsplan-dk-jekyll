@@ -18,6 +18,8 @@ I denne løbebånd beregner kan du beregne forskellen mellem at løbe med og ude
 
 {% include calculate-treadmill.html %}
 
+Du kan bruge vores beregner til at [omregne fra km/t til min/km](/hastighed/).
+
 ## Konklusion
 
 I denne beregner kunne du altså beregne, hvor mange kalorier en tur på et løbebånd kræver. Du kan læse mere om [løbebånd]({% link _posts/2020-08-14-loebebaand.md %}).

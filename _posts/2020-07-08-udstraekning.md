@@ -7,7 +7,7 @@ redirect_from:
   - /artikel/du-bliver-smidigere-af-straekke/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1562771379-eafdca7a02f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1562771379-eafdca7a02f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1562771379-eafdca7a02f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
   overlay_filter: 0.2
@@ -58,7 +58,7 @@ Udstrækning kan både bruges før og efter træning, og det kan bruges som træ
 
 Der er mange myter om udstrækning og udstrækningsøvelser, men her får du lige et hurtigt resumé af konklusionerne i denne artikel.
 
-**Du bliver smidigere af udstrækning, den maksimale styrke kan være nedsat lige efter længerevarende statiske udstrækningsøvelser (men det har nok ikke betydning for dig) og utrænede får tilsyneladende præstationsfremgang efter længerevarende smidighedstræning. Til gengæld kan udstrækning ikke forhindre muskelømhed efter træning.**
+**Du bliver smidigere af udstrækning, den maksimale styrke kan være nedsat lige efter længerevarende statiske udstrækningsøvelser (men det har nok ikke betydning for dig) og utrænede får tilsyneladende præstationsfremgang efter længerevarende smidighedstræning. Til gengæld kan udstrækning ikke forhindre [muskelømhed](/omme-muskler-efter-traening/) efter træning.**
 
 *[DOMS]: Delayed Onset Muscle Soreness
 
@@ -374,7 +374,7 @@ I idrætsgrene hvor det gælder om at have bedre smidighed, fx gymnastik eller v
 
 ## Hvor ofte skal jeg strække ud?
 
-Udstrækning kræver ikke samme grad af restitution som styrketræning og konditionstræning. En af grundene er formentlig, at udstrækning og udspænding i høj grad træner stræktolerancen i det neuromuskulære system og ikke som styrketræning eller hårde løbepas laver mikroskader i kroppen.
+Udstrækning kræver ikke samme grad af [restitution](/restitution/) som styrketræning og konditionstræning. En af grundene er formentlig, at udstrækning og udspænding i høj grad træner stræktolerancen i det neuromuskulære system og ikke som styrketræning eller hårde løbepas laver mikroskader i kroppen.
 
 Hvor mange gange om ugen du kan lave udstrækning afhænger naturligvis af den intensitet og volumen, du bruger i din udstrækningstræning. Formentlig vil det være mest effektivt at strække ud hver eneste dag end gemme den samme volumen til at lave al udstrækning på en dag.
 
@@ -500,12 +500,12 @@ Til gengæld vil **vi anbefale at strække ud efter træning for at gøre muskle
 
 Samtidig bliver man **smidigere af udstrækning**, og der er chance for, at tilbagevendende udspænding over længere tid forbedrer ens præstationsevne.
 
-## Referencer til udstrækning og udstrækningsøvelser
+## Referencer
 
 {% include feature_row type="left" %}
 
 <details markdown="1">
-  <summary>Se flere referencer {{ page.title }}</summary>
+  <summary>Se flere referencer</summary>
 
 - Shrier, I. (2004). Does Stretching Improve Performance?. Clinical Journal of Sport Medicine, 14(5), pp.267-273.
 - Yuktasir, B. and Kaya, F. (2009). Investigation into the long-term effects of static and PNF stretching exercises on range of motion and jump performance. Journal of Bodywork and Movement Therapies, 13(1), pp.11-21.

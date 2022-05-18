@@ -1,12 +1,12 @@
 ---
 title: &title "Ruteopmåler til løberuter: 3 gode alternativer"
-seo_title: "Ruteopmåler til løberuter: Gratis muligheder [2022]"
+seo_title: "Ruteopmåler til løberuter: Gratis muligheder (2022)"
 permalink: /ruteopmaaler-loebetur/
 excerpt: "Når du sidder derhjemme og planlægger en løbetur, så kan det være rart at have en mulighed for at måle ruten op på forhånd. Det kan du bruge en af de gratis online ruteplanlæggere til. Vi kigger her på nogle gode gratis alternativer til Iforms ruteplanner."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1587587448924-b5a1db520d29?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHJ1bm5lcnxlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=60
-  teaser: https://images.unsplash.com/photo-1587587448924-b5a1db520d29?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHJ1bm5lcnxlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60
+  overlay_image: https://images.unsplash.com/photo-1587587448924-b5a1db520d29?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHJ1bm5lcnxlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
+  teaser: https://images.unsplash.com/photo-1587587448924-b5a1db520d29?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHJ1bm5lcnxlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Løb
@@ -48,7 +48,7 @@ Reklamerne i bunden af siden er ikke så velplacerede, men ellers indeholder rut
 
 Alt i alt et fint standard værktøj til opmåling af løberute. Du kan tegne din rute og se hvor lang den er.
 
-{% include figure image_path="/assets/images/blog/ruteplanner-loeberute.png" caption="Her kan du se interfacet for loeberute.dk. Det er **gratis** at oprette en profil, men du kan også bruge værktøjet uden at logge ind." alt="loeberute.dk screenshot løbeplanlægning" %}
+{% include figure image_path="/assets/images/blog/ruteplanner-loeberute.jpg" caption="Her kan du se interfacet for loeberute.dk. Det er **gratis** at oprette en profil, men du kan også bruge værktøjet uden at logge ind." alt="loeberute.dk screenshot løbeplanlægning" %}
 
 ## Garmin Connect og ruteplanlægning
 
@@ -83,3 +83,8 @@ Garmin Connect er min favorit. Ruteopmåleren kan det hele, og den er let at bru
 ## Konklusion
 
 Hvad er dine erfaringer med ruteopmålere til løbetræning?
+
+{% comment %}
+/assets/images/blog/ruteplanner-vandreplanen.jpg
+/assets/images/blog/ruteplanner-plotaroute.png
+{% endcomment %}

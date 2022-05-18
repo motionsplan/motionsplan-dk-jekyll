@@ -3,7 +3,7 @@ title: &title "German Volume Training: Virker GVT til hypertrofi?"
 permalink: /gvt/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1534367610401-9f5ed68180aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1534367610401-9f5ed68180aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1534367610401-9f5ed68180aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
@@ -28,7 +28,7 @@ German Volume Training er et styrketræningsprogram for moderat trænede (for ut
 
 ## Grundstrukturen i German Volume Training
 
-Grundstrukturen i GVT er, at programmet køres over fem dage med et forskelligt fokus hver dag. Der vælges en eller to hovedøvelser (A-øvelser), som køres efter metoden. Dertil vælges to suppleringsøvelser. Programmet kræver [restitution](/restitutionstid-og-alder/), da det er meget nedbrydende for kroppen.
+Grundstrukturen i GVT er, at programmet køres over fem dage med et forskelligt fokus hver dag. Der vælges en eller to hovedøvelser (A-øvelser), som køres efter metoden. Dertil vælges to suppleringsøvelser. Programmet kræver [restitution](/restitution/), da det er meget nedbrydende for kroppen.
 
 I hovedøvelserne køres 10 sæt x 10 gentagelser. Tempoet skal være 4020. Det betyder, at du bruger 4 sekunder i den excentriske fase og to sekunder i den koncentriske fase. I fx squat betyder det, at du går ned på 4 sekunder og rejser dig op igen på to sekunder.
 
@@ -66,10 +66,10 @@ Hackett et al (2018) udvider ovenstående studium med seks uger mere. Desværre 
 
 {% include video provider="youtube" id="iiQK-P_KWLA" %}
 
-## Referencer om German Volume Training (GVT)
+## Referencer
 
 <details markdown="1">
-  <summary>Se referencer om GVT</summary>
+  <summary>Se referencer</summary>
 
 - [Programanmeldelse: German Volume Training](https://andersnedergaard.dk/kropblog/programanmeldelse-german-volume-training/)
 - [German Volume Training](https://www.bodybuilding.com/content/german-volume-training-programs.html)

@@ -34,7 +34,7 @@ Tabata er 4 minutters hård intervaltræning, der er mere effektivt end en times
 
 Hvad er Tabata? **Tabata er intervaltræning med 8 x 20 sek _all out_-intervaller med 10 sek pause mellem arbejdsintervallerne. Træningen er undersøgt af den japanske forsker Izumi Tabata i 1996 og var oprindeligt rettet mod speedskatere.**
 
-Det er egentlig ikke Izumi Tabata, der har opfundet træningsformen, men han undersøgte i 1996 en træningsform som blev brugt af speedskatere. Tabata er [anaerob træning]({% link _posts/2021-01-02-anaerob-traening.md %}), som også har en god effekt på det aerobe system. Tabata er [intervaltræning]({% link _posts/2020-06-15-intervallob.md %}).
+Det er egentlig ikke Izumi Tabata, der har opfundet træningsformen, men han undersøgte i 1996 en træningsform som blev brugt af speedskatere. Tabata er [anaerob træning]({% link _posts/2021-01-02-anaerob-traening.md %}), som også har en god effekt på det aerobe system. Tabata er [intervaltræning](/intervaltraening/).
 
 I dag bliver Tabata-intervallerne flittigt brugt inden for holdtræning, crossfit, men også løbere, roere, cykelmotionister bruger træningen. Langt de fleste laver dog i virkeligheden ikke træning efter Tabatas foreskrifter, selvom de arbejder i 20 sekunder og holder pause i 10 sekunder. Tabataintervaller er nemlig **all out** i arbejdsperioden.
 
@@ -109,7 +109,7 @@ Her er nogle af vores favoritter - første gang du prøver, så brug ikke for h�
 
 {% include exercises exercises="Swing, to hænder" match="exact" type="left" %}
 
-## Referencer om Tabata-intervaller og Tabata-træning
+## Referencer
 
 <details markdown="1">
   <summary>Se referencer om Tabata-intervaller og Tabata-træning</summary>

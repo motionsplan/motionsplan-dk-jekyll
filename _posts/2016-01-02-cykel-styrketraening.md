@@ -3,7 +3,7 @@ title: &title "Forbedrer tung styrketræning præstationen ved cykling? 🚴🚴
 permalink: /styrketraening-cykling/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1535312273391-a512d4290f43?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1535312273391-a512d4290f43?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1535312273391-a512d4290f43?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
@@ -52,11 +52,11 @@ Det kan udfra resultaterne konkluderes at tung styrketræning i pre- og løbssæ
 
 Bruger du styrketræning som cyklist, så del gerne dine erfaringer i kommentarerne.
 
-## Referencer om styrketræning og cykling
+## Referencer
 
 <details markdown="1">
-
   <summary>Se referencer om styrketræning og cykling</summary>
+
 - Aagaard, P., Andersen, J. L., Benneskou, M., Larson, B., Olesen, J. L., Crameri, R., Magnusson, S.P., Kjær, M., (2011). Effects of resistance training on endurance capacity and muscle fiber composition in young top-level cyclists. Scand J Med Sci Sports.
 - Mujika, I; Rønnestad, BR; Martin, DT., (2016) Effects of Increased Muscle Strength and Muscle Mass on Endurance-Cycling Performance. Int J Sports Physiol Perform.
 - Rønnestad, BR; Hansen, J; Hollan, I; Spencer, M; Ellefsen, S., (2015) In-Season Strength Training Cessation Impairs Performance Variables in Elite Cyclists. Int J Sports Physiol Perform.

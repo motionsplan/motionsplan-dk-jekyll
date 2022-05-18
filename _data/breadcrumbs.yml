@@ -31,7 +31,7 @@ Kropskomposition:
   url: /kropskomposition/
 Restitution:
   title: Restitution
-  url: /restitutionstid-og-alder/
+  url: /restitution/
 Hypertrofi:
   title: Hypertrofi
   url: /hypertrofi-metoder/
@@ -134,7 +134,7 @@ Led:
   url: /led/
 Mavemuskler:
   title: Mave
-  url: /mavemuskler/
+  url: /muskler/mave/
 
 De fem tibetanere:
   title: "De fem tibetanere"

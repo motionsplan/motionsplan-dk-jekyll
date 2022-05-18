@@ -4,7 +4,7 @@ seo_title: "Loaded carries: Bliv rigtig stærk med disse øvelser"
 excerpt: "_Loaded carries_ handler meget enkelt om at samle en vægt op og begynde at gå med den. Og det kan du altså blive rigtig stærk af."
 permalink: /loaded-carries/
 header:
-  overlay_image: https://images.unsplash.com/photo-1550977616-efc580084ac5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1550977616-efc580084ac5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1550977616-efc580084ac5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
@@ -74,10 +74,10 @@ _Loaded carries_ handler meget enkelt om at samle en vægt op og begynde at gå 
 
 </div>
 
-## Referencer om loaded carries
+## Referencer
 
 <details markdown="1">
-  <summary>Se flere referencer om loaded carries</summary>
+  <summary>Se flere referencer</summary>
 
  - Mcgill SM, Karpowicz A, Fenwick CM & Brown SH (2009). Exercises for the torso performed in a standing posture: spine and hip motion and motor patterns and spine load. J Strength Cond Res 23(2). 455-64
 - Kolár P, Neuwirth J, Šanda J, Suchánek V, Svatá Z, Volejník J & Pivec M (2009). Analysis of diaphragm movement during tidal breathing and during its activation while breath holding using MRI synchronized with spirometry. Physiol Res 58. 383-392

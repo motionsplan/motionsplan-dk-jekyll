@@ -35,7 +35,7 @@ Måling af kropskomposition, fedtprocent og muskelmasse virker i samfundet til a
 *[SMM]: Skeletal Muscle Mass
 *[BMI]: Body Mass Index
 
-En måling af kropskomposition måler vi fedtprocent, muskelmasse og vand i kroppen.
+I en måling af kropskomposition er vi interesseret i at måle fedtprocent, muskelmasse, vand i kroppen og mineraler. Disse målinger kan foretages gennem forskellige modeller.
 
 ## Hvad består kroppen af?
 
@@ -88,7 +88,7 @@ Du har sikkert hørt om BMI, som på befolkningsgruppeniveu kan forudsige mortal
 
 Hvordan kan man så bestemme kropskompositionen? Her lister vi nogle forskellige metoder.
 
-### Hydrostatisk vejning (vandvejning)
+### 1. Hydrostatisk vejning (vandvejning)
 
 Vandvejning udregner din fedtprocent ved hjælp af din kropsvægt under vandet. Først skal du tømme lungerne for luft, og så dykker du ned under vandet på en særlig vægt. Derefter sammenlignes undervandsvægten med din vægt på land. Sammen med densiteten af vandet i poolen og en række udregninger, kan man man finde frem til din krops fedtprocent.
 
@@ -98,7 +98,7 @@ Det er ikke så let at få lavet en vandvejning.
 
 {% include figure image_path="https://www.verywellfit.com/thmb/3b3BZdCKjz9ankRyoZdRJ9clznE=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/underwater-hydrostatic-body-fat-weighing-453131436-5ad4f5c2642dca0036367079.jpg" caption="Hydrostatic Weighing. Image Credit: [Very Well Fit](https://www.verywellfit.com)" alt="Hydrostatic Weighing" %}
 
-### DEXA-scanning - Dual Energy X-Ray Absorptiometry (DEXA)
+### 2. DEXA-scanning - Dual Energy X-Ray Absorptiometry (DEXA)
 
 I DEXA-scanning får du stråler gennem kroppen. Oprindeligt var DEXA skabt til at måle densiteten af knoglerne, men metoden kan også bruges til at måle fedt og muskelmasse. Målingen består i, at man måler på forskellen i strålerne før og efter, at de har været igennem kroppen.
 
@@ -108,7 +108,7 @@ DEXA-scanninger er ofte relativt dyrt at få lavet.
 
 {% include figure image_path="https://cdn.shopify.com/s/files/1/0832/8945/files/1047px-DEXA_scanner_in_use_ALSPAC_grande.jpg?8848881564353978401" caption="DEXA-scanner. Image Credit: [Nick Smith photography](http://www.nicksmithphotography.com/)" alt="DEXA Scanner" %}
 
-### Hudfoldsmåling (fedttang)
+### 3. Hudfoldsmåling (fedttang)
 
 Måling med fedttang er relativt udbredt, og alle kan lære at bruge en fedttang. Du måler det eksterne fedt ved med to fingre at samle hud og måle, hvor tyk hudfolden er. Målingerne bliver lagt ind i matematiske formler, som så bestemmer fedtmassen i hele kroppen.
 
@@ -118,7 +118,7 @@ Måling med fedttang er relativt udbredt, og alle kan lære at bruge en fedttang
 
 [Læs mere om måling med fedttang]({% link _posts/2019-10-14-fedtprocent-skinfold.md %}){: .btn .btn--large .btn--success }
 
-### Bioimpedans - Bioelectric Impedance Analysis (BIA)
+### 4. Bioimpedans - Bioelectric Impedance Analysis (BIA)
 
 Ved analyse af kropssammensætning med bioimpedans sættes små elektriske signaler (impedans) gennem kroppen og der måles på modstanden gennem kroppens væv. Modstanden er nemlig forskellig i vævstyper. Det er let at lave en bioimpedans-test selv, hvis du har adgang til udstyret.
 
@@ -126,13 +126,13 @@ Der er stor forskel i kvaliteten og præcisionen af BIA-apparater - og det er no
 
 Fordi BIA virker ved at måle på vandet i kroppen, så får man brugbar information også om vandbalancen i kroppen. Samtidig får man information om muskelmasse, _lean body mass_ og fedtprocent.
 
-[Læs mere om måling med bioimpedans](/artikel/inbody-570-bioimpedans){: .btn .btn--large .btn--success }
+[Læs mere om måling med bioimpedans](/artikel/inbody-570-bioimpedans/){: .btn .btn--large .btn--success }
 
-### Målinger og udregninger
+### 5. Målinger og udregninger
 
-Baseret på målinger med målebånd kan du også udregne din fedtprocent. Præcisionen af disse udregninger er behæftet med de samme usikkerheder, som fx [en BMI beregner](/bmi/) eller andre lignende mere generelle målinger.
+Baseret på målinger med målebånd kan du også udregne din fedtprocent. Præcisionen af disse udregninger er behæftet med de samme usikkerheder, som fx en [BMI beregner](/bmi-beregner/) eller andre lignende mere generelle målinger.
 
-[Udregn din fedtprocent](/artikel/udregning-af-fedtprocent){: .btn .btn--info .btn--large }
+[Udregn din fedtprocent](/artikel/udregning-af-fedtprocent/){: .btn .btn--info .btn--large }
 
 ## Afslutning om kropskomposition
 
@@ -147,6 +147,10 @@ InBody har lavet en fin video, der hurtigt gennemgår pointerne ift. kropskompos
 Husk at det er vanskeligt at lave præcise målinger af kropskompositionen. I min optik må du aldrig lade mere eller mindre nøjagtige tests og målinger definere, hvad du synes din [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}) skal være og overveje en [slankekur]({% link _posts/2020-09-04-slankekur.md%}). Bliv stærk, hurtig, udholdende i stedet, og så vil du blive stadig mere tilfreds med din krop.
 {: .notice .notice--info }
 
-## Referencer om kropskomposition
+## Referencer
+
+<details markdown="1">
+  <summary>Se referencer</summary>
 
 - [Body Composition 101: The Beginner’s Guide](https://inbodyusa.com/blogs/inbodyblog/28828609-body-composition-101-the-beginners-guide)
+</details>

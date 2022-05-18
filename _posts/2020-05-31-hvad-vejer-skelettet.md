@@ -3,7 +3,7 @@ title: "Hvad vejer skelettet og knoglerne i mennesket? ⚖"
 permalink: /hvad-vejer-skelettet/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1530210124550-912dc1381cb8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1530210124550-912dc1381cb8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1530210124550-912dc1381cb8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: "Hvad vejer menneskets skelet og vores knogler?"
   alt: "Photo by Mathew Schwartz on Unsplash"
@@ -51,7 +51,7 @@ faq:
   - question: Vejer en babys knogler mindre end en voksen?
     answer: |
       Babyer er født med 300 knogler, som hovedsageligt er lavet af brusk, men nogle af knoglerne vokser efterhånden sammen.
-      
+
       Spørgsmålet er, om de blødere bruskholdige knogler vejer mere eller mindre end de stivere, forbenede voksenknogler. Hvis du ved det, så skriv endelig.
   - question: Hvad er den mindste og letteste knogle i kroppen?
     answer: Den mindste knogle i menneskekroppen er _os stapes_. Os stapes kaldes også 'stigbøjlen', og den befinder sig i øret. Os stapes er vigtig for transduktion af svingninger i luft til svingninger i væsken i vores indre øre, så vi kan høre noget.
@@ -111,7 +111,7 @@ Jeg har ikke kunnet finde den anslåede vægt for ret mange knogler. Hvis du fin
 
 Jeg har skrevet lidt flere artikler om [knoglerne og knogletyperne](/knogler/) og [anatomi](/anatomi/).
 
-{% include pinterest image_path="/assets/images/pinterest/hvad-vejer-skelettet.png" data-pin-media="/assets/images/pinterest/hvad-vejer-skelettet.png" alt="Hvad vejer knoglerne og skelettet" caption="Hvad vejer knoglerne og skelettet" hidden="true" %}
+{% include pinterest image_path="/assets/images/pinterest/hvad-vejer-skelettet.jpg" data-pin-media="/assets/images/pinterest/hvad-vejer-skelettet.jpg" alt="Hvad vejer knoglerne og skelettet" caption="Hvad vejer knoglerne og skelettet" hidden="true" %}
 
 ## Bøger
 

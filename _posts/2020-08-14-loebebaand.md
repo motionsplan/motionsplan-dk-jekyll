@@ -4,8 +4,8 @@ permalink: /loebebaand-udendoers-loeb/
 last_modified_at: 2020-08-14T09:41:09Z
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1578763363228-6e8428de69b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=60
-  teaser: https://images.unsplash.com/photo-1578763363228-6e8428de69b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60
+  overlay_image: https://images.unsplash.com/photo-1578763363228-6e8428de69b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
+  teaser: https://images.unsplash.com/photo-1578763363228-6e8428de69b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Løb
@@ -71,7 +71,7 @@ Når jeg arbejder med et specifikt teknisk fokus eller et øget _pace_, så syne
 
 Jeg er naturligvis opmærksom på at mekanikken er en lille smule anderledes på løbebåndet end når jeg løber udendørs.
 
-Løbebåndet giver netop mulighed for at have en fast _pace_, som man ikke på samme måde kan sikre sig at have, når man løber udendørs eller på et fast underlag. På løbebåndet kan man netop lave _pacing_ på en kontrolleret og progressiv måde ved at hæve tempoet gradvist. Det gør det også meget let at lave et progressivt træningsprogram, selvom man naturligvis skal være meget opmærksom på [restitutionen og restitutionstiden]({% link _posts/2020-05-28-restitutionstid-alder.md %}) undervejs.
+Løbebåndet giver netop mulighed for at have en fast _pace_, som man ikke på samme måde kan sikre sig at have, når man løber udendørs eller på et fast underlag. På løbebåndet kan man netop lave _pacing_ på en kontrolleret og progressiv måde ved at hæve tempoet gradvist. Det gør det også meget let at lave et progressivt træningsprogram, selvom man naturligvis skal være meget opmærksom på [restitutionen]({% link _posts/2020-05-28-restitution.md %}) og [restitutionstiden](/restitutionstid/) undervejs.
 
 Mange professionelle bruger løbebåndet, som en del af deres daglige træning. Særligt langdistanceløberen kan med fordel henvise en del af træningen til det faste setup, som løbebåndet giver.
 

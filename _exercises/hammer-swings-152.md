@@ -40,4 +40,4 @@ Der er grundlæggende [to måder at svinge på](http://www.rosstraining.com/arti
 
 **Vertikalt sving**: Her har du parallelle fødder og står med skulderbreddes mellemrum mellem tæerne. Hænderne holder fast på samme sted hele tiden. Denne variation er hård med en tung hammer. Husk at skifte hvilken hånd du har øverst engang imellem.
 
-Denne træningsform kan fx laves som [Tabata-intervaller](/oevelse/tabata-intervaller).
+Denne træningsform kan fx laves som [Tabata-intervaller](/oevelse/tabata-intervaller/).

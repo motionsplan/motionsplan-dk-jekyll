@@ -27,13 +27,13 @@ gallery:
 
 For nylig fik jeg anbefalet at spule mine ben med koldt vand efter mine løbeture for at restituere hurtigere. Nu er jeg ikke så vild med koldt vand, så jeg tog ikke min vens ord for det. Jeg gik i stedet for i gang med at researche lidt på isbade og kryoterapi i forhold til restitution.
 
-Jeg fandt hurtigt ud af, at det ikke er nok at spule sine ben med vand, men forskningen er i gang med at undersøge **kryoterapi** og **isbade** som to forskellige strategier til restitution.
+Jeg fandt hurtigt ud af, at det ikke er nok at spule sine ben med vand, men forskningen er i gang med at undersøge **kryoterapi** og **isbade** som to forskellige strategier til [restitution](/restitution/).
 
-Jeg fokuserede derfor mest i min research på at finde ud af, om isbade efter træning virker på restitutionen og om kuldepåvirkningen har betydning for effekten af træning?
+Jeg fokuserede derfor mest i min research på at finde ud af, om isbade efter træning [virker på restitutionstiden](/restitutionstid/) og om kuldepåvirkningen har betydning for effekten af træning?
 
 **Isbade efter træning viser i forskningen lidt blandede resultater. Folk der gennemgår isbade oplever mindre ømhed efter træning, men det har ikke kunnet påvises på biologiske markører. Tilsyneladende kan kryoterapi hæmme effekten af styrketræning, men formentlig godt bruges efter udholdenhedstræning.**
 
-Jeg gik på [pubmed.com](https://pubmed.com) og lavede en [videnskabelig søgning](/videnskabelig-sogning/) for at finde nogle studier, der kunne overbevise mig om, at jeg har brug for afkøling efter træning.
+Jeg lavede en [videnskabelig søgning](/videnskabelig-sogning/) for at finde nogle studier, der kunne overbevise mig om, at jeg har brug for afkøling efter træning.
 
 Det er fortsat ikke klart, hvad det videnskabelige rationale er bag at tage et koldt bad (se metastudium af Bleakley og Davison 2010), men derfor kan vi jo sagtens se på, om det virker i praksis?
 
@@ -77,7 +77,7 @@ Nyere studier fra 2015 tyder imidlertid på, at hvis man bruger isbade efter sty
 
 Et koldt bad forbedrer tilsyneladende ikke restitutionstiden, så man kan udføre en bedre præstation dagen efter. Det er dog værd at tage med, at man op til 24 timer vil føle, at man har bedre ben (Kinugasa og Kilding 2009). Det betød dog ikke noget for de enkeltes præstation, men at opleve at tingene føles lettere, er også værd at tage med.
 
-Hvis du gerne vil bruge isbade, skal du nok overveje kun at gøre det efter udholdenhedsaktiviteter, da de tilsyneladende kan hæmme din muskeltilvækst. Der findes mange andre metoder til at [forbedre din restitution og restitutionstid]({% link _posts/2020-05-28-restitutionstid-alder.md %}), som du måske skal prøve først.
+Hvis du gerne vil bruge isbade, skal du nok overveje kun at gøre det efter udholdenhedsaktiviteter, da de tilsyneladende kan hæmme din muskeltilvækst. Der findes mange andre metoder til at [forbedre din restitution]({% link _posts/2020-05-28-restitution.md %}) og [restitutionstid](/restitutionstid/), som du måske skal prøve først.
 
 Du skal også huske, at det er vanskeligt at lave et dobbeltblindet, placebo-kontrolleret studie. Man kan godt lave et studie, der sammenligner med en anden type restitutionsaktivitet, men hvis man ender i den kolde balje, så opdager man det i hvert fald.
 
@@ -100,7 +100,7 @@ Hvilke erfaringer har du med kolde isbade i forhold til din træning?
 - Robey, Elisa, Brian Dawson, Carmel Goodman, og John Beilby. 2009. “Effect of Postexercise Recovery Procedures Following Strenuous Stair-Climb Running”. Research in Sports Medicine (Print) 17 (4): 245–59. <https://doi.org/10.1080/15438620902901276>.
 - Wilcock, Ian M., John B. Cronin, og Wayne A. Hing. 2006. “Water Immersion: Does It Enhance Recovery from Exercise?” International Journal of Sports Physiology and Performance 1 (3): 195–206.
 - Wilcock, Ian M., John B. Cronin, og Wayne A. Hing. 2006. “Water Immersion: Does It Enhance Recovery from Exercise?” International Journal of Sports Physiology and Performance 1 (3): 195–206. <https://doi.org/10.1123/ijspp.1.3.195>.
-- Bleakley, Chris M., og Gareth W. Davison. 2010. “What Is the Biochemical and Physiological Rationale for Using Cold-Water Immersion in Sports Recovery? A Systematic Review”. British Journal of Sports Medicine 44 (3): 179–87. <https://doi.org/10.1136/bjsm.2009.065565>.
+- Bleakley, Chris M., og Gareth W. Davison. 2010. “What Is the Biochemical and Physiological Rationale for Using Cold-Water Immersion in Sports Recovery? A Systematic Review”. British Journal of Sports Medicine 44 (3): 179–87. <https://bjsm.bmj.com/content/44/3/179>.
 - King, Monique, og Rob Duffield. 2009. “The Effects of Recovery Interventions on Consecutive Days of Intermittent Sprint Exercise”. Journal of Strength and Conditioning Research 23 (6): 1795–1802. <https://doi.org/10.1519/JSC.0b013e3181b3f81f>.
 - Kinugasa, Taisuke, og Andrew E. Kilding. 2009. “A Comparison of Post-Match Recovery Strategies in Youth Soccer Players”. Journal of Strength and Conditioning Research 23 (5): 1402–7. <https://doi.org/10.1519/JSC.0b013e3181a0226a>.
 - Heyman, Elsa, Bas DE Geus, Inge Mertens, og Romain Meeusen. 2009. “Effects of Four Recovery Methods on Repeated Maximal Rock Climbing Performance”. Medicine and Science in Sports and Exercise 41 (6): 1303–10. <https://doi.org/10.1249/MSS.0b013e318195107d>.

@@ -6,7 +6,7 @@ excerpt: "Explosive repeats er 8-10 sekunders arbejde med høj eksplosivitet og 
 tags:
   - conditioning
 header:
-  teaser: /assets/images/kondition/explosive-repeats.jpg
+  teaser: /assets/images/kondition/explosive-repeat.jpg
 effect: "Forbedrer de hurtige muskelfibres aerobe egenskaber og evnen til gentagende gange at få et højt power output. Metoden forbedrer også raten af genbrug af laktat i de langsomme slow twitch muskler."
 rpe: 7-8
 time: 8-10s arbejde og 60s pause pr. sæt

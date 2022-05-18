@@ -22,7 +22,7 @@ Jeg gennemgår her, hvordan du stadig kan finde følgende funktioner:
 
 - motion online **kondital** --> Du kan [læse mere om kondital]({% link _posts/2019-11-04-kondital-og-tabel.md %}) og [teste dit kondital]({% link _posts/2019-11-04-kondition-og-test.md %}) på Motionsplan.
 - motion online **rm beregner** --> Du kan bruge vores **meget bedre** [RM-beregner]({% link _posts/2019-10-16-1rm-beregner.md %}).
-- motion online **bmi** --> Du kan læse vores [forbedrede guide til BMI]({% link _posts/2019-10-31-udregning-af-bmi.md %}).
+- motion online **bmi** --> Du kan læse vores [forbedrede guide til BMI]({% link _posts/2019-10-31-bmi.md %}).
 - motion online forum --> Desværre er der i øjeblikket ikke noget forum, der matcher, som jeg kender til.
 - motion online **løbeprogram** --> Jeg har endnu ikke lavet løbeprogrammer, men hvis du er interesseret i det, så skriv endelig i kommentarerne.
 - motion online **cirkeltræning** --> Du kan læse Motionsplans [udvidede guide til cirkeltræning]({% link _posts/2020-06-16-cirkeltraening.md %}).
@@ -112,7 +112,7 @@ Vi har også skrevet mange andre artikler om kondition og konditionstræning.
 
 ## Motion-online.dk og BMI
 
-Motion-online.dk havde flere artikler om BMI, bl.a. hvordan man retfærdigt vurderer børn i forhold til BMI-målingerne. Det har vi skrevet om i vores [udvidede guide til BMI]({% link _posts/2019-10-31-udregning-af-bmi.md %}).
+Motion-online.dk havde flere artikler om BMI, bl.a. hvordan man retfærdigt vurderer børn i forhold til BMI-målingerne. Det har vi skrevet om i vores [udvidede guide til BMI]({% link _posts/2019-10-31-bmi.md %}).
 
 ## Motion-online.dk's cirkeltræning
 

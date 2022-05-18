@@ -71,7 +71,7 @@ Det gennemsnitlige overfladeaareal for kroppen er følgende ifølge [omnicalcula
 
 ## Konklusion
 
-Hvis du er interesseret i andre mål for kroppen, så tjek vores [BMI-beregner](/bmi/). BSA kan også være en god indikator til at udregne din metabolisme og forbrænding.
+Hvis du er interesseret i andre mål for kroppen, så tjek vores [BMI-beregner](/bmi-beregner/). BSA kan også være en god indikator til at udregne din metabolisme og forbrænding.
 
 ## Andre tilgange
 

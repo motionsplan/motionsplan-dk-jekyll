@@ -25,9 +25,9 @@ Du kan læse mere om [alle tests til træning her](/tests/).
 
 ## BMI beregner, taljemål og idealvægt
 
-Det er meget populært at udregne sin BMI. Jeg har lavet en [BMI beregner](/bmi/), hvor du kan læse mere om BMI og lave en beregning af dit eget BMI.
+Det er meget populært at udregne sin BMI. Jeg har lavet en [BMI beregner](/bmi-beregner/), hvor du kan læse mere om BMI og lave en beregning af dit eget BMI. Tjek også vores [BMI beregner til børn](/bmi-beregner-boern-unge-teenagere/).
 
-Du kan bl.a. prøve vores [beregner til idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}) eller [taljemål og hoftemål]({% link _posts/2019-10-14-taljemaal.md %}).
+Du kan bl.a. prøve vores [beregner til idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}), [taljemål]({% link _posts/2019-10-14-taljemaal.md %}) og [talje-hofte-forhold](/talje-hofte-ratio/).
 
 ## Beregnere til kropssammensætning og fedtprocent
 

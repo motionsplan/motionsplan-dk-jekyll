@@ -1,10 +1,11 @@
 ---
 title: "Hvordan måler jeg min fedtprocent? 7 forskellige metoder"
-seo_title: "Hvordan måler jeg min fedtprocent? 7 forskellige metoder [2022]"
+seo_title: "Hvordan måler jeg min fedtprocent? 7 forskellige metoder (2022)"
+description: "Er du interesseret i at kende din fedtprocent? Her får viden om alle måder, man kan måle sin fedtprocent på? Flere kan du lave derhjemme i dag!"
 permalink: /maal-fedtprocent/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1523901839036-a3030662f220?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1523901839036-a3030662f220?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1523901839036-a3030662f220?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   overlay_filter: 0.6
   caption: "7 metoder til at måling af din fedtprocent"
@@ -46,18 +47,23 @@ faq:
       Der er ikke noget entydigt svar på, hvad en god fedtprocent er. Det kommer an på, hvad du fokuserer på. Her på siden kan du se normer for fedtprocent i forhold til forskellige befolkningsgrupper, men du kan også få et bud på, hvad en sund fedtprocent er.
   - question: Hvordan finder jeg min fedtprocent?
     answer: |
-      Der er mange måder at fidne din fedtprocent på. Her på siden er der 7 forskellige metoder til at måle din fedtprocent. Alt fra simple udregninger til hudfoldsmålinger og til målinger med avancerede apparater som bioimpedans, DEXA-scannere og hydrostatisk vejning.
+      Der er mange måder at finde din fedtprocent på. Her på siden er der 7 forskellige metoder til at måle din fedtprocent. Alt fra simple udregninger til hudfoldsmålinger og til målinger med avancerede apparater som bioimpedans, DEXA-scannere og hydrostatisk vejning.
 ---
 
-Interesse for at måle din fedtprocent er steget, så jeg har forsøgt at samle op på, hvordan man kan måle sig fedtprocent. Hvilke metoder findes der til måling af sin fedtprocent?
+Interessen for at måle din fedtprocent er steget, så jeg har forsøgt at samle op på, hvordan man kan måle sin fedtprocent. Hvilke metoder findes der til måling af fedtprocent?
 
 **Du kan måle din fedtprocent på mange måder. Alle metoderne har hver deres fordele og ulemper og unøjagtigheder. Du kan måle fedtprocent med undervandsvejning, DEXA-scanner, hudfoldsmålinger med fedttang, bioimpedans - og du kan estimere fedtprocenten på baggrund af øjemål og udregninger.**
 
-Jeg beskriver i det følgende, hvorfor måling af din fedtprocent kan være interessant, og hvordan du kan måle den, men hvad er fedtprocenten egentlig?
+I det følgende får du svar på:
 
-Hvad er fedtprocenten? **Fedtprocenten er et udtryk for, hvor høj andel af fedt du har i kroppen i forhold i den fedtfrie masse. Fedtprocenten siger ikke noget om, _hvor_ fedtet sidder. Placeringen og fordelingen af fedtet har stor betydning for sundheden. Derfor er en lav fedtprocent ikke bare lige med en sund krop.**
+- Hvorfor kan måling af din fedtprocent være interessant?
+- Hvordan du kan måle fedtprocenten?
 
-Men hvorfor er du overhovedet interesseret i at måle din fedtprocent?
+Lad os dykke direkte ned i det.
+
+## Hvad er fedtprocent?
+
+Fedtprocenten er et udtryk for, hvor høj andel af fedt du har i kroppen i forhold i den fedtfrie masse. En fedtprocent siger ikke noget om, _hvor_ fedtet sidder. Placeringen og fordelingen af fedtet har stor betydning for sundheden. Derfor er en lav fedtprocent ikke bare lig med en sund krop.
 
 ## Hvorfor vil du måle din fedtprocent?
 
@@ -75,7 +81,7 @@ Der er følgende sundshedsmæssige udfordringer ved **ikke** at have en passende
 
 - **Undervægtige** har øget risiko for knogleskørhed, træthed, tab af muskelmasse, lavt blodtryk, svimmelhed og nedsat modstandskraft.
 - **Overvægtige** har øget risiko for at udvikle diabetes, hjertekarsygdomme, blodpropper, brystkræft og slidgigt.
-- **Svært overvægtige** har endnu højere risiko for at udvikle hjerte-kar-sygdomme, højt blodtryk, slagtilfælde og diabetes.
+- **Svært overvægtige** har endnu højere risiko for at udvikle hjerte-kar-sygdomme, [højt blodtryk](/blodtryk/), slagtilfælde og diabetes.
 
 Der er altså mange grunde til at have en passende fedtprocent. En rigtig god test at starte med kan være en **øjemålstest**.
 
@@ -113,13 +119,13 @@ Der findes nogle formler, hvor du kan udregne din fedtprocent ud fra simple antr
 
 Der findes også en række forslag til, hvordan man kan bestemme fedtprocenten med et målebånd. Du skal ganske enkelt måle dig selv med et målebånd forskellige steder på kroppen. Fælles for alle metoderne er, at der er lige så meget usikkerhed om det faktiske resultat, som ved at udregne fedtprocenten baseret på højde og vægt.
 
-Jeg har beskrevet [to]({% link _posts/2019-10-14-fedtprocent-maalebaand.md %}) [forskellige]({% link _posts/2019-10-14-fedtprocent-maalebaand-navy.md %}) metoder.
+**Læs**: [Mål din fedtprocent med målebånd]({% link _posts/2019-10-14-fedtprocent-maalebaand.md %}) eller med [måling af fedtprocent med Navy-metoden]({% link _posts/2019-10-14-fedtprocent-maalebaand-navy.md %})
 
 ### 6. Måling af fedtprocent med fedttang
 
 En fedttang kan være et udmærket værktøj, hvis du har behov for at følge en fremgang. Hvis du øver dig i at bruge en fedttang, så kan du med ret stor sikkerhed reproducere din hudfoldsmåling over tid. Fedttangen giver ikke den præcise fedtprocent, men kan være rimelig pålidelig i forhold til at estimere ændringerne i hudfoldstykkelsen over tid.
 
-Jeg har skrevet mere om [måling af fedtprocent og hudfoldstykkelser med fedttang her]({% link _posts/2019-10-14-fedtprocent-skinfold.md %}).
+**Læs**: [Måling af fedtprocent med hudfoldsmålinger og fedttang]({% link _posts/2019-10-14-fedtprocent-skinfold.md %})
 
 ### 7. Måling af fedtprocent med bioimpedans
 
@@ -127,13 +133,19 @@ Nogle af de nye, ret dyre bioimpedansmålere kan give et fornuftigt bud på din 
 
 Jeg har skrevet mere om [bioimpedansmålinger her]({% link _posts/2019-10-14-fedtprocent-bioimpedans-inbody-570.md %}).
 
+## Hvad er en sund normal fedtprocent?
+
+Den mængde fedt du har på kroppen har betydning for din sundhed. En normal fedtprocent varierer. Kvinders fedtprocent er højere end mænds fedtprocent.
+
+Det kan være usundt at have en høj fedtprocent, men det kan også være problematisk at have en lav fedtprocent. Hvis du har for meget fedt på kroppen særligt omkring de indre organer, så kan det være forbundet med risiko for livsstilssygdomme. Du kan bruge [dit taljemål](/taljemaal/) til at sige noget om fordelingen af fedt på kroppen.
+
+I næste afsnit kan du læse mere om, hvad en normal fedtprocent er.
+
 ## Normer for fedtprocent for mænd og kvinder
 
 Når du har valgt en metode til at måle din fedtprocent, så får du et tal. Men hvad kan du så bruge tallet til efterfølgende?
 
-Jeg har ikke kunnet finde nogle retningslinjer for fedtprocent, som er etableret over hele verden. 
-
-Tabellen nedenunder indeholder normerne for fedtprocent for mænd og kvinder, som bliver brugt af [American Council on Exercise (ACE)](https://www.acefitness.org/education-and-resources/lifestyle/tools-calculators/percent-body-fat-calculator/).
+Tabellen nedenunder indeholder [normerne for fedtprocent for mænd og kvinder](/fedtprocent-normer/), som bliver brugt af [American Council on Exercise (ACE)](https://www.acefitness.org/education-and-resources/lifestyle/tools-calculators/percent-body-fat-calculator/).
 
 | Klassifikation         | Kvinde (% fedt) | Mand (% fedt) |
 |------------------------|-----------------|---------------|
@@ -144,23 +156,15 @@ Tabellen nedenunder indeholder normerne for fedtprocent for mænd og kvinder, so
 | Acceptabel             | 25-31%          | 18-24%        |
 | Overvægt               | > 32%           | > 25%         |
 
-[Gallagher (2000)](https://www.researchgate.net/publication/12354988_Healthy_percentage_body_fat_ranges_An_approach_for_developing_guidelines_based_on_body_mass_index) har forsøgt at lave en grafik baseret på BMI og alder i forhold til, hvad en sund fedtprocent er:
+[Gallagher (2000)](https://www.researchgate.net/publication/12354988_Healthy_percentage_body_fat_ranges_An_approach_for_developing_guidelines_based_on_body_mass_index) har lavet en grafik baseret på BMI og alder i forhold til, hvad en **sund normal fedtprocent** er:
 
 {% include figure image_path="https://4.bp.blogspot.com/-nOLwVUh5HaQ/XUuHz1AD3PI/AAAAAAAAStE/HWTJneEhKDElIU_yvxsKezZjh6D3Z_frQCLcBGAs/s1600/BodyFatRangeChartLarge.jpg" caption="Fedtprocent for voksne mænd og kvinder baseret på WHO BMI guidelines ([Gallagher 2000](https://www.researchgate.net/publication/12354988_Healthy_percentage_body_fat_ranges_An_approach_for_developing_guidelines_based_on_body_mass_index))" alt="Hvordan måler jeg min fedtprocent? Fedtprocent for mænd og kvinder" %}
+
+**Læs**: [Hvad en en normal fedtprocent for mænd og kvinder?](/fedtprocent-normer/).
 
 ## Ofte stillede spørgsmål om måling af fedtprocent
 
 {% include faq.html %}
-
-## Oversigt over målemetoder
-
-{% assign site_posts = site.posts | where: "category", "Test" | where: "tags", "kropskomposition" |where_exp: "post", "post.url != page.url" | sort: "date" %}
-
-{% if site_posts.size > 0 %}
-  {% for post in site_posts %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
 
 ## Mere om at måle fedtprocent og kropskomposition
 

@@ -4,7 +4,7 @@ permalink: /riegels-loebeberegner/
 last_modified_at: 2020-07-24T09:41:09Z
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1486829060564-50dae90dccd4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1486829060564-50dae90dccd4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1486829060564-50dae90dccd4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: "Riegels formel til beregning af konkurrencetider og løbetider"
 category:
@@ -36,7 +36,11 @@ Riegels formel kan give et fingerpeg om, hvilken tid man kan satse på i forhold
 
 Husk at [Jack Daniels Running Formula og løbsberegner]({% link _posts/2020-08-01-jack-daniels-loebeberegner.md %}) er mere avanceret og baseret på nyere data fra løbere.
 
-## Referencer om Riegels formel
+## Referencer
+
+<details markdown="1">
+  <summary>Se referencer</summary>
 
 - Riegel PS. Time predicting Runner’s World Magazine. 1977
 - [Prediction and Quantification of Individual Athletic Performance of Runners](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4919094). Duncan A. J. Blythe og Franz J. Király
+</details>

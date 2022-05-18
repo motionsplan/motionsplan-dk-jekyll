@@ -1,13 +1,13 @@
 ---
 title: &title "Fedtforbrændingszonen: Alt du behøver at vide 🔥"
-seo_title: "Fedtforbrændingszonen: Alt du behøver at vide [2022]"
+seo_title: "Fedtforbrændingszonen: Alt du behøver at vide (2022)"
 permalink: /fedtforbraendingszonen/
 redirect_from:
   - /fedtforbraeningszonen/
 last_modified_at: 2020-08-24T09:41:09Z
 language: da
 header:
-  overlay_image: https://images.unsplash.com/flagged/photo-1556746834-1cb5b8fabd54?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/flagged/photo-1556746834-1cb5b8fabd54?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/flagged/photo-1556746834-1cb5b8fabd54?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
@@ -50,7 +50,7 @@ gallery_explain:
 
 Fedtforbrændingszonen er et begreb, som man ofte ser i forbindelse med træning. Rationalet bag begrebet er, at fedtforbrændingen er størst med en bestemt intensitet. Og det er sådan set relativt rigtigt, men der er absolut udfordringer ved forståelsen af fedtforbrændingszonen.
 
-Hvis man gerne vil tabe sig, så kan man godt blive fristet af en såkaldt fedtforbrændingszone. Morten Zacho [opfordrer til at glemme fedtforbrændingszonen](http://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel="nofollow"} og andre afviser [fedtforbrændingszonen som en myte](https://arndalspa.dk/glem-80er-myten-om-fedtforbraending-2/), hvis formålet med træningen er at tabe i vægt.
+Hvis man gerne vil tabe sig, så kan man godt blive fristet af en såkaldt fedtforbrændingszone. [Morten Zacho](http://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel="nofollow"} opfordrer til at glemme fedtforbrændingszonen og [andre](https://arndalspa.dk/glem-80er-myten-om-fedtforbraending-2/) afviser fedtforbrændingszonen som en myte, hvis formålet med træningen er at tabe i vægt.
 
 Jeg synes imidlertid sagtens at fedtforbrændingszonen kan have sin plads i træningen, når man kigger på den bagvedliggende fysiologi. 
 
@@ -68,7 +68,7 @@ Det er relativt let ud fra den [respiratoriske udvekslingskvotient]({% link _pos
 
 ## Skal vi "glemme" fedtforbrændingszonen?
 
-Morten Zacho var den første jeg læste, der skrev [glem fedtforbrændingszonen](http://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel="nofollow"}. Morten Zacho skrev om fedtforbrændingszonen i forhold vægttab, og han skriver, at mange andre træningsfysiologiske aspekter er er langt vigtigere at tænke på i forhold til vægttab.
+[Morten Zacho](http://web.archive.org/web/20090314092028/http://www.motion-online.dk/sundhed_og_vaegt/vaegt_og_fedtprocent/glem_fedtforbraendingszonen/){:rel="nofollow"} var den første jeg læste, der skrev glem fedtforbrændingszonen. Morten Zacho skrev om fedtforbrændingszonen i forhold vægttab, og han skriver, at mange andre træningsfysiologiske aspekter er er langt vigtigere at tænke på i forhold til vægttab.
 
 Fedtforbrændingszonen kan virke relevant i forhold til vægttab. Det vigtigste i forhold til vægttab er ikke en fedtforbrændingszone, men hvad der sker over hele døgnet.
 
@@ -118,10 +118,10 @@ At man absolut set kan forbrænde mere fedt ved at køre med højere intensitet 
 
 Men det har stor værdi at træne i at blive bedre til at forbrænde fedt. Hvis du fx kan løbe den i den samme hastighed, men en større del af energien kommer fra fedt på den hastighed, så er din samlede motor blevet mere effektiv i forbrændingen. Det har særligt stor betydning, når du arbejder over længere tid og længere distancer.
 
-## Referencer om fedtforbrændingzonen
+## Referencer
 
 <details markdown="1">
-  <summary>Se referencerne om fedtforbrændingszonen</summary>
+  <summary>Se referencerne</summary>
 
 - Bryner, R. W., R. C. Toffle, I. H. Ullrich, og R. A. Yeater. 1997. “The Effects of Exercise Intensity on Body Composition, Weight Loss, and Dietary Composition in Women”. _Journal of the American College of Nutrition_ 16 (1): 68–73. [https://doi.org/10.1080/07315724.1997.10718651](https://doi.org/10.1080/07315724.1997.10718651).
 - Grediagin, A., M. Cody, J. Rupp, D. Benardot, og R. Shern. 1995. “Exercise Intensity Does Not Effect Body Composition Change in Untrained, Moderately Overfat Women”. _Journal of the American Dietetic Association_ 95 (6): 661–65. [https://doi.org/10.1016/s0002-8223(95)00181-6](https://doi.org/10.1016/s0002-8223(95)00181-6).

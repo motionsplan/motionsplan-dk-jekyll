@@ -4,7 +4,7 @@ seo_title: "Løbetræning: Kom i gang med at løbe med et løbeprogram"
 permalink: /artikel/kom-i-gang-med-loebetraeningen/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1530655638484-de9ff231551e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1530655638484-de9ff231551e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1530655638484-de9ff231551e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 tags:
@@ -100,7 +100,7 @@ Et eksempel kan være et løbeprogram, der er inddelt i fire faser:
 - **Fase 1**. Du opbygger og **forbereder din krop** på de efterfølgende faser, så du kan holde til træningen uden at blive skadet.
 - **Fase 2**. Jeg anbefaler i fase to at øge fokus på **udholdenheden** og evnen til at **forbrænde fedt**.
 - **Fase 3**. Vi fokuserer på at **øge styrken** og fokuserer fortsat på at forbedre udholdenheden.
-- **Fase 4**. I denne specifikke fase målretter vi træningen mod den distance, du gerne vil være bedre på. I denne fase er der typisk en del intervaltræning.
+- **Fase 4**. I denne specifikke fase målretter vi træningen mod den distance, du gerne vil være bedre på. I denne fase er der typisk en del [intervaltræning](/intervaltraening/).
 
 Hvis du er tilmeldt et motionsløb eller har en test, så sørger du i slutningen af fase 4 for at blive helt frisk og klar til at løbe så hurtigt som du kan.
 
@@ -167,7 +167,7 @@ Hvis du har løbet meget, men ikke helt ser den fremgang, du gerne vil, så har 
 
 Når du laver løbetræning og laver din træningsplanlægning, så kan du veksle mellem tre forskellige slags løbeture:
 
-1. **Den langsomme løbetur i snakketempo.** Når du løber langsomt i snakketempo, som du fx kan vurdere ud fra [Borg-skalaen]({% link _posts/2020-06-18-borg-skala.md %}) eller ud fra dine [pulszoner]({% link _posts/2019-10-31-hrzones-puls.md %}) (for de fleste skal pulsen ligge mellem 120 og 150), så træner du udholdenheden og fedtforbrændingen. Dette tempo kan også bruges som [aktiv restitution]({% link _posts/2020-05-28-restitutionstid-alder.md %}).
+1. **Den langsomme løbetur i snakketempo.** Når du løber langsomt i snakketempo, som du fx kan vurdere ud fra [Borg-skalaen]({% link _posts/2020-06-18-borg-skala.md %}) eller ud fra dine [pulszoner]({% link _posts/2019-10-31-hrzones-puls.md %}) (for de fleste skal pulsen ligge mellem 120 og 150), så træner du udholdenheden og fedtforbrændingen. Dette tempo kan også bruges som [aktiv restitution]({% link _posts/2020-05-28-restitution.md %}).
 2. **Den hurtige tempotur omkring den anaerobe tærskel**. Dette tempo skal ligge omkring mælkesyregrænsen. Hvis du gerne vil finde, hvilken puls din [anaerobe tærskel]({% link _posts/2020-08-26-anaerobe-taerskel.md %}) ligger på, så svarer det nogenlunde til gennemsnitspulsen af et maksimalt løb på omkring 30 minutter til 60 minutter.
 3. **Højintense intervalløb**. Du kan træne kredsløbets maksimale iltoptagelse ved at arbejde omkring din maksimale ydeevne. Typisk kan du løbe maksimalt 6-10 minutter omkring den maksimale ydeevne, hvis du gerne vil teste, hvor hurtigt du skal løbe for at træne dette. Derfor træner man ofte med intervaller fra 2-5 minutter.
 

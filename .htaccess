@@ -4,7 +4,3 @@ Options +MultiViews
 
 RewriteEngine On
 RewriteBase /
-
-{% for link in site.data.redirects.redirects %}
-RewriteRule ^{{ link.redirect_from }} {{ link.redirect_to }} [R=301,L]
-{%- endfor -%}

@@ -3,7 +3,7 @@ title: &title "Træning for ældre"
 permalink: /traening-aeldre/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1568706032495-f35d5df6fb38?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1568706032495-f35d5df6fb38?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1568706032495-f35d5df6fb38?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
@@ -39,3 +39,7 @@ Jeg har skrevet et indlæg om, hvordan man kan [træning efter 40 år](/traening
 Du kan se hele podcasten, hvor Beermann interviewer Charlotte Suetta, som er overlæge, dr.med., ph.d. og speciallæge.
 
 {% include video provider="youtube" id="7HQXEZxJDpI" %}
+
+## Konklusion
+
+Jeg har også skrevet et uddybende indlæg om [restitution og alder](/restitutionstid-og-alder/).

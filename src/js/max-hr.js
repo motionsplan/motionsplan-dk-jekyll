@@ -21,11 +21,26 @@ motionsplan.EstimateMaxHr = function(age, formula = "tanaka") {
     if (formula == "fairbarn_male") {
       return getFairbarnMale();
     }
+    if (formula == "gellish_linear") {
+      return getGellishLinear();
+    }
     if (formula == "gellish") {
       return getGellish();
     }
+    if (formula == "whyte_female") {
+      return getWhyteFemale();
+    }
+    if (formula == "whyte_male") {
+      return getWhyteMale();
+    }
+    if (formula == "inbar") {
+      return getInbar();
+    }
     if (formula == "gulati") {
       return getGulati();
+    }
+    if (formula == 'londeree_moeschberger') {
+      return getLondereeMoeschberger();
     }
     return getTanaka();
   }
@@ -57,8 +72,28 @@ motionsplan.EstimateMaxHr = function(age, formula = "tanaka") {
   function getFairbarnMale() {
     return 208 - 0.8 * age;
   }
+
+  function getWhyteFemale() {
+    return 216 - (1.09 * age);
+  }
   
+  function getWhyteMale() {
+    return 202 - (0.55 * age)
+  }
+  
+  function getInbar() {
+    return 205.8 - (0.685 * age);
+  }
+
   function getGellish() {
+    return 192 - 0.007 * Math.pow(age, 2);
+  }
+
+  function getLondereeMoeschberger() {
+    return 206.3 - (0.711 * age);
+  }
+
+  function getGellishLinear() {
     return (207 - 0.7 * age);
   }
   

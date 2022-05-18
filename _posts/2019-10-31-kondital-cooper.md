@@ -1,6 +1,6 @@
 ---
 title: "Cooper-test: Find kondital med Coopers 12 minutters løbetest"
-seo_title: "Cooper test • Tabel og beregner til kondital"
+seo_title: "Cooper test • Skema og beregner til kondital"
 description: "Beregn dit kondital med Cooper test GRATIS i vores beregner. Se dit resultat i en tabel og skema lige til at skrive ud."
 permalink: /cooper-test/
 redirect_from:
@@ -8,7 +8,7 @@ redirect_from:
 excerpt: "Cooper-testen er en 12 minutters løbetest og en indirekte, maksimal konditionstest. Brug vores beregner, skema og tabel til at finde dit kondital ud fra den tilbagelagte distance på de 12 minutter."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1567660444666-aed93ec8aa57?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1933&q=5
+  overlay_image: https://images.unsplash.com/photo-1567660444666-aed93ec8aa57?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1567660444666-aed93ec8aa57?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: Find dit kondital med Cooper-testen. Konditionstest til løb.
 category:
@@ -36,9 +36,9 @@ feature_row:
     rel: nofollow noopener
 faq:
   - question: Hvordan beregner man Cooper test?
-    answer: Du kan bruge distancen på Cooper testen til at beregne dit kondital. Der findes lidt forskellige formler for konditallet, som du kan se her på siden.
+    answer: Du kan bruge distancen på Cooper testen til at beregne dit kondital. Der findes forskellige formler for konditallet, som du kan se her på siden.
   - question: Hvad er godt i en Cooper test?
-    answer: "En Cooper test kan bruges til at vurdere dit kondital. Du kan her på siden finde tabeller, som hjælper dig med at vurdere, hvor godt resultatet er. Om dit resultat er godt i Cooper testen handler mest om dit forrige resultat."
+    answer: "Coopers løbetest kan bruges til at vurdere dit kondital. Du kan her på siden finde tabeller, som hjælper dig med at vurdere, hvor godt resultatet er. Hvis du har forbedret dig siden sidst, så kan man godt sige, at du har fået et godt resultat i Cooper testen."
 about:
   name: "Cooper test"
   url: "https://da.wikipedia.org/wiki/Coopertest"
@@ -49,24 +49,24 @@ Cooper-testen er en maksimal løbetest, hvor den distance man kan tilbagelægge 
 
 Hvad er en Cooper-test? **Cooper-test er en klassisk konditionstest, hvor du skal løbe så langt som muligt på 12 minutter. Cooper-testen blev designet af militærfysiologen Kenneth H. Cooper i 1968.**
 
- Cooper-testen var oprindeligt beregnet til at teste de amerikanske soldaters fysiske form. Det gælder om at løbe så langt som muligt på 12 minutter.
+Cooper-testen var oprindeligt beregnet til at teste de amerikanske soldaters fysiske form. Det gælder om at løbe så langt som muligt på 12 minutter.
 
- Testens pålidelighed til at udregne konditallet forudsætter, at den løbes på en flad strækning, hvor man kan presse sig selv, og at man kan løbe med nogenlunde jævn hastighed hele vejen igennem testen.
+Testens pålidelighed til at udregne konditallet forudsætter, at den løbes på en flad strækning, hvor man kan presse sig selv, og at man kan løbe med nogenlunde jævn hastighed hele vejen igennem testen.
 
- I dette indlæg kan du få svar på følgende spørgsmål om Cooper-testen:
+I dette indlæg kan du få svar på følgende spørgsmål om Cooper-testen:
 
- - Hvad er en god Cooper test?
- - Hvor hurtigt skal man løbe en coopertest?
- - Hvor mange meter kan man løbe på 12 min?
- - Hvad er formålet med coopertest?
- - Hvordan forbedrer man sin coopertest?
- - Hvem opfandt Coopertesten?
- - Beregne dit kondital på baggrund af Cooper-testen
- - Se en tabel og skema over Cooper-testen
+- Hvad er en god Cooper test?
+- Hvor hurtigt skal man løbe en coopertest?
+- Hvor mange meter kan man løbe på 12 min?
+- Hvad er formålet med coopertest?
+- Hvordan forbedrer man sin coopertest?
+- Hvem opfandt Coopertesten?
+- Beregne dit kondital på baggrund af Cooper-testen
+  Se en tabel og skema over Cooper-testen
 
 ## Hvordan laver du en Cooper-test?
 
-- Lav en **grundig general opvarmning**, hvor du også løber med det tempo, du forestiller dig at gennemføre Cooper-testen på.
+- Lav en **grundig general opvarmning**, hvor du også løber i det tempo, du forestiller dig at gennemføre Cooper-testen med.
 - Testen er mest pålidelig til at forudsige konditallet, hvis du løber på en **flad rute**.
 - Løb så langt du kan på 12 minutter og **notér distancen**.
 
@@ -100,7 +100,7 @@ I beregneren bruger jeg denne formel til at beregne konditallet ud fra Cooper-te
 
 ***
 
-kondital = (22.351 x distance i kilometer) - 11.288
+kondital = (22,351 x distance i kilometer) - 11,288
 
 ***
 
@@ -128,9 +128,13 @@ Mange stiller spørgsmålet: "Hvor langt kan man løbe på 12 minutter?" Hvis du
 
 Det afhænger naturligvis af din kondition og løbeøkonomi, hvor hurtigt og hvor langt du kan løbe på Cooper-testens 12 minutter. Der findes tabeller, hvor du kan vurdere din løbedistance på Cooper-testen med normalværdier.
 
-Hvis vi tager **verdensrekordholderen på 5 kilometer for mænd**, Joshua Cheptegei, og smider hans tid på 12:35:36 ind i [en formel for hastighed og vores beregner for gennemsnitshastighed]({% link _posts/2019-12-05-hastighed-beregnere.md %}), så løber han altså i 23,84 km/t i gennemsnit. Det svarer til, at han løber 4,8 kilometer på 12 minutter.
+Lad os prøve at sammenligne med de bedste løbere i verden?
 
-Hvis vi tager den **kvindelige verdensrekordholder på 5 kilometer**, Letesenbet Gidey, som har løbet på 14:06:62, så svarer det til en gennemsnitshastighed på 21,25 km/t. På 12 minutter ville hun altså nå at løbe 4,3 kilometer.
+## Hvad er rekorden for at løbe 12 minutter?
+
+Hvis vi tager **verdensrekordholderen på 5 kilometer for mænd**, Joshua Cheptegei, og smider hans tid på 12:35:36 ind i [en formel for hastighed og vores beregner for gennemsnitshastighed]({% link _posts/2019-12-05-hastighed-beregnere.md %}), så løber han 23,84 km/t i gennemsnit. Det svarer til, at han løber 4,8 kilometer på 12 minutter.
+
+Hvis vi tager den **kvindelige verdensrekordholder på 5 kilometer**, Letesenbet Gidey, som har løbet på 14:06:62, så svarer det til en gennemsnitshastighed på 21,25 km/t. Hvis Gidey skulle løbe Cooper-testen på 12 minutter, ville hun nå at løbe 4,3 kilometer.
 
 Så langt når du nok ikke, men du kan sammenligne dig selv i tabellerne nedenunder.
 
@@ -263,7 +267,7 @@ Tabellerne over resultaterne på Cooper-testen tager udgangspunkt i de mest brug
 
 ## Hvordan forbedrer jeg min tid på Cooper-testen?
 
-Cooper-testen er meget afhængig af din evne til at løbe tæt på din [maksimale iltoptagelse](/intensitet-vo2max/) og at du har en høj [anaerob tærskel](/anaerobe-taerskel/), men resultatet på Cooper-testen afhænger også af din [løbeøkonomi](/lobeokonomi/). Du kan lave et alsidigt løbeprogram, og så skal du nok på sigt forbedre din tid på Cooper-testen, men hvis du for alvor skal have fart på, så skal du altså arbejde både med løbeøkonomi og den maksimale iltoptagelse.
+Cooper-testen er meget afhængig af din evne til at løbe tæt på din [maksimale iltoptagelse](/maksimale-iltoptagelse-vo2max/) og at du har en høj [anaerob tærskel](/anaerobe-taerskel/), men resultatet på Cooper-testen afhænger også af din [løbeøkonomi](/lobeokonomi/). Du kan lave et alsidigt løbeprogram, og så skal du nok på sigt forbedre din tid på Cooper-testen, men hvis du for alvor skal have fart på, så skal du altså arbejde både med løbeøkonomi og den maksimale iltoptagelse.
 
 Den maksimale iltoptagelse flytter du bedst med [højintensive intervalløb](/intervallob-intervaltraening/) og [rigtig HIIT-træning](/hiit/). En meget brugt måde at flytte den maksimale iltoptagelse er intervaller af 3-5 minutters varighed med en pause fra 2-3 minutter. Det gentager du 3-6 gange, men læs mere om forskellige måder at flytte den maksimale iltoptagelse under vores forskellige træningsartikler om [løbetræning på løbesiden](/loebesiden/).
 
@@ -279,15 +283,14 @@ Jeg synes ikke de oprindelige tabeller til vurdering af distancen på Cooper-tes
 
 Hvis du hellere vil lave en konditionstest baseret på distance, så er [2400-meter-testen]({% link _posts/2019-10-31-kondital-2400-meter.md %}) et godt alternativ. Det er også den test, der bruges i [politiets fysiske optagelsesprøve](/politiets-fysiske-tests-krav-optagelsesproeve/).
 
-## Referencer til Cooper-test
+## Referencer
 
 <details markdown="1">
-  <summary>Se referencer til Cooper-test</summary>
+  <summary>Se referencer</summary>
 
 - Cooper, K. H. 1968. [“A Means of Assessing Maximal Oxygen Intake. Correlation between Field and Treadmill Testing”](https://pubmed.ncbi.nlm.nih.gov/5694044/). JAMA 203 (3): 201–4.
-- Grant, S., K. Corbett, A. M. Amjad, J. Wilson, og T. Aitchison. 1995. “A Comparison of Methods of Predicting Maximum Oxygen Uptake.” _British Journal of Sports Medicine_ 29 (3): 147. [https://doi.org/10.1136/bjsm.29.3.147](https://doi.org/10.1136/bjsm.29.3.147).
+- Grant, S., K. Corbett, A. M. Amjad, J. Wilson, og T. Aitchison. 1995. “A Comparison of Methods of Predicting Maximum Oxygen Uptake.” _British Journal of Sports Medicine_ 29 (3): 147. [https://bjsm.bmj.com/content/29/3/147](https://bjsm.bmj.com/content/29/3/147).
 - McCutcheon, M. C., S. A. Sticha, M. D. Giese, og F. J. Nagle. 1990. “A Further Analysis of the 12-Minute Run Prediction of Maximal Aerobic Power”. Research Quarterly for Exercise and Sport 61 (3): 280–83. <https://doi.org/10.1080/02701367.1990.10608692>.
-- Grant, S., K. Corbett, A. M. Amjad, J. Wilson, og T. Aitchison. 1995. “A Comparison of Methods of Predicting Maximum Oxygen Uptake.” British Journal of Sports Medicine 29 (3): 147. <https://doi.org/10.1136/bjsm.29.3.147>.
 - Zwiren, L. D., P. S. Freedson, A. Ward, S. Wilke, og J. M. Rippe. 1991. “Estimation of VO2max: A Comparative Analysis of Five Exercise Tests”. Research Quarterly for Exercise and Sport 62 (1): 73–78. <https://doi.org/10.1080/02701367.1991.10607521>.
 - Penry, Wilcox, Yun (2011): "Validity and reliability analysis of Cooper's 12-minute run and the multistage shuttle run in healthy adults", J Strength Cond Res, Mar;25(3):597-605. doi: 10.1519/JSC.0b013e3181cc2423. <https://pubmed.ncbi.nlm.nih.gov/20647946/>
 </details>

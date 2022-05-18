@@ -3,7 +3,7 @@ title: "Hvor hurtigt vokser dine muskler? 💪"
 permalink: /hvor-hurtigt-vokser-muskler/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1552084162-ec07b3f162dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1552084162-ec07b3f162dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1552084162-ec07b3f162dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: "Hypertrofi: Hvor hurtigt vokser dine muskler?"
   alt: "Photo by Paweł Czerwiński on Unsplash"
@@ -46,6 +46,8 @@ Efter 8. træning var der føjet yderligere til, så der i alt var 116,1 gram mu
 Studiet har dog en del begrænsninger. Der var kun 13 deltagere. Forsøgspersonernes kost var meget forskellig i forhold til kalorie- og proteinindtag.
 
 Endelig er målemetoden DXA ikke uden teoretiske udfordringer. Bone et al (2016) har vist at mængden af glykogen i musklerne har indflydelse på, hvordan en DEXA-scanner estimerer muskelmassen. Denne effekt skaber også usikkerhed om målingerne af, hvor hurtigt man kan tage muskelmasse på.
+
+{% comment %} TODO: Muskelmasse potentiale{% endcomment %}
 
 ## Vækstpotentialet i musklerne falder med tiden
 
@@ -121,7 +123,7 @@ Hvis man derimod bruger tungere vægte, fx 10RM, så er det nok at køre omkring
 
 {% include figure image_path="/assets/images/blog/dankel-low-load-vs-high-load.jpg" caption="Dankel et al (2017) viser den nødvendige belastning med forskellige intensiteter for at aktivere andelen af muskelfibre med potentiale for at skabe muskelvækst" %}
 
-Vi har skrevet mere om [hvordan muskler vokser]({% link _posts/2019-10-22-hvordan-vokser-muskler.md %}), hvis du er interesseret.
+Hvis du er interesseret, så har vi skrevet mere om [hvordan muskler vokser?]({% link _posts/2019-10-22-hvordan-vokser-muskler.md %})
 
 ## Opsamling
 

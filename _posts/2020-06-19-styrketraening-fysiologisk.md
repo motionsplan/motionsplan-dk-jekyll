@@ -3,7 +3,7 @@ title: "Hvad er de fysiologiske tilpasninger ved styrketræning?"
 permalink: /fysiologiske-tilpasninger/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1549060279-7e168fcee0c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1549060279-7e168fcee0c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1549060279-7e168fcee0c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: Photo by Taco Fleur on Unsplash
 category:
@@ -260,7 +260,7 @@ Vi har skrevet et andet indlæg om [de fysiologiske tilpasningerne til kondition
 - Hansen, P., J. Bojsen-Moller, P. Aagaard, M. Kjaer, og S. P. Magnusson. 2006. “Mechanical Properties of the Human Patellar Tendon, in Vivo”. Clinical Biomechanics (Bristol, Avon) 21 (1): 54–58. <https://doi.org/10.1016/j.clinbiomech.2005.07.008>.
 - Holloway, Tanya M., Tim Snijders, Janneau VAN Kranenburg, Luc J. C. VAN Loon, og Lex B. Verdijk. 2018. “Temporal Response of Angiogenesis and Hypertrophy to Resistance Training in Young Men”. Medicine and Science in Sports and Exercise 50 (1): 36–45. <https://doi.org/10.1249/MSS.0000000000001409>.
 - Hurley, B. F., og S. M. Roth. 2000. “Strength Training in the Elderly: Effects on Risk Factors for Age-Related Diseases”. Sports Medicine (Auckland, N.Z.) 30 (4): 249–68. <https://doi.org/10.2165/00007256-200030040-00002>.
-- Jonsson, P., og H. Alfredson. 2005. “Superior Results with Eccentric Compared to Concentric Quadriceps Training in Patients with Jumper’s Knee: A Prospective Randomised Study”. British Journal of Sports Medicine 39 (11): 847–50. <https://doi.org/10.1136/bjsm.2005.018630>.
+- Jonsson, P., og H. Alfredson. 2005. “Superior Results with Eccentric Compared to Concentric Quadriceps Training in Patients with Jumper’s Knee: A Prospective Randomised Study”. British Journal of Sports Medicine 39 (11): 847–50. <https://bjsm.bmj.com/content/39/11/847>.
 - Klinge, K., S. P. Magnusson, E. B. Simonsen, P. Aagaard, K. Klausen, og M. Kjaer. 1997. “The Effect of Strength and Flexibility Training on Skeletal Muscle Electromyographic Activity, Stiffness, and Viscoelastic Stress Relaxation Response”. The American Journal of Sports Medicine 25 (5): 710–16. <https://doi.org/10.1177/036354659702500522>.
 - Kongsgaard, M., S. Reitelseder, T. G. Pedersen, L. Holm, P. Aagaard, M. Kjaer, og S. P. Magnusson. 2007. “Region Specific Patellar Tendon Hypertrophy in Humans Following Resistance Training”. Acta Physiologica (Oxford, England) 191 (2): 111–21. <https://doi.org/10.1111/j.1748-1716.2007.01714.x>.
 - Kryger, A. I., og J. L. Andersen. 2007. “Resistance Training in the Oldest Old: Consequences for Muscle Strength, Fiber Types, Fiber Size, and MHC Isoforms”. Scandinavian Journal of Medicine & Science in Sports 17 (4): 422–30. <https://doi.org/10.1111/j.1600-0838.2006.00575.x>.

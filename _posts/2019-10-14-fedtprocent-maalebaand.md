@@ -5,7 +5,7 @@ redirect_from:
   - /measure-fp/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1530530488105-64664c7213bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1530530488105-64664c7213bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   alt: Photo by Annie Spratt on Unsplash
   teaser: https://images.unsplash.com/photo-1530530488105-64664c7213bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
@@ -33,6 +33,8 @@ feature_row:
 
 Der er mange måder at måle din fedtprocent på. Denne måling af fedtprocent kræver kun et målebånd, og så skal du måle omkredsen forskellige steder på kroppen.
 
+Der findes mange andre [metoder til måling af fedtprocent](/maal-fedtprocent/), som du også kan bruge.
+
 ## Måling af fedtprocent med målebånd har følgende antagelser
 
 Testen antager, at der er steder på kroppen, som repræsenterer, hvor meget fedtfri masse en person har (underarm og læg), og andre steder, der indikerer den samlede fedtmasse (mave, overarme, hofter og lår).
@@ -52,6 +54,8 @@ McArdle og Katch (2010) algoritme tager højde for køn og alder.
 ## Konklusion
 
 Formlerne bag måling af fedtprocent med målebånd er lavet af McArdle og Katch (2010), og hvis du vil have en engelsk side om målingerne kan du kigge på [www.brianmac.co.uk](https://www.brianmac.co.uk/fatgirth.htm).
+
+Nu har du mulighed for at sammenligne dig selv med, hvad [mænds og kvinders fedtprocent normalt er](/fedtprocent-normer/)?
 
 Husk at testen udelukkende estimerer din fedtprocent. Testen er ikke et startskud til en [slankekur]({% link _posts/2020-09-04-slankekur.md%}), fordi du skal opnå en tilfældig [idealvægt]({% link _posts/2020-05-30-ideal-weight.md %}) fra en beregner.
 {: .notice .notice--info }

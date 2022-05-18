@@ -3,7 +3,7 @@ title: &title "Starting Strength: Styrketræningsprogram af Mark Rippetoe"
 permalink: /starting-strength-styrketraeningsprogram/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1583187938491-1dcc103c9e14?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1583187938491-1dcc103c9e14?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1583187938491-1dcc103c9e14?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
@@ -18,16 +18,16 @@ tags:
 last_modified_at: 2021-03-22T08:14:14Z
 toc: true
 gallery:
-  - image_path: /assets/images/pinterest/rippetoe-deadlift.png
-    url: /assets/images/pinterest/rippetoe-deadlift.png
+  - image_path: /assets/images/pinterest/rippetoe-deadlift.jpg
+    url: /assets/images/pinterest/rippetoe-deadlift.jpg
     title: "Mark Rippetoe"
     alt: "Mark Rippetoe Starting Strength Citat"
-  - image_path: /assets/images/pinterest/rippetoe-squat.png
-    url: /assets/images/pinterest/rippetoe-squat.png
+  - image_path: /assets/images/pinterest/rippetoe-squat.jpg
+    url: /assets/images/pinterest/rippetoe-squat.jpg
     title: "Mark Rippetoe"
     alt: "Mark Rippetoe Starting Strength Citat"
-  - image_path: /assets/images/pinterest/rippetoe-strong.png
-    url: /assets/images/pinterest/rippetoe-strong.png
+  - image_path: /assets/images/pinterest/rippetoe-strong.jpg
+    url: /assets/images/pinterest/rippetoe-strong.jpg
     title: "Mark Rippetoe"
     alt: "Mark Rippetoe Starting Strength Citat"
 ---
@@ -40,7 +40,7 @@ I Starting Strength træner du tre gange om uge. Programmet er et [helkropsprogr
 
 Starting Strength er blevet en populær bog og et populært træningsprogram for både trænere og atleter. Lad os kigge lidt på, hvordan Starting Strength-styrketræningsprogrammet er bygget op, hvordan det fungerer - og Rippetoe giver selv tre væsentlige råd til at gennemføre programmet.
 
-{% include figure image_path="/assets/images/blog/rippetoe-weak-vs-strong.png" caption="A weak man is not as happy as the same man would be if he were strong. This reality is offensive to some people who would like the intellectual or spiritual to take precedense. It is instructive to see what happens to these very people as their squat strength goes up. Mark Rippetoe" alt="Citat Mark Rippetoe" %}
+{% include figure image_path="/assets/images/blog/rippetoe-weak-vs-strong.jpg" caption="A weak man is not as happy as the same man would be if he were strong. This reality is offensive to some people who would like the intellectual or spiritual to take precedense. It is instructive to see what happens to these very people as their squat strength goes up. Mark Rippetoe" alt="Citat Mark Rippetoe" %}
 
 ## Hvem er Starting Strength for?
 
@@ -177,7 +177,7 @@ Starting Strength er altså ikke bare linære programmering i det uendelige. Nå
 
 ## Mark Rippetoes træningstips til Starting Strength
 
-Starting Strength bør starte relativt let ud, men den lineære progression gør efterhånden programmet rigtig hårdt. Derfor er det vigtigt, at du tænker på din [restitution og restitutionstid]({% link _posts/2020-05-28-restitutionstid-alder.md %}), din hvile og sørger for at få rigeligt at spise.
+Starting Strength bør starte relativt let ud, men den lineære progression gør efterhånden programmet rigtig hårdt. Derfor er det vigtigt, at du tænker på din [restitution]({% link _posts/2020-05-28-restitution.md %}) og [restitutionstid](/restitutionstid/), din hvile og sørger for at få rigeligt at spise.
 
 ## 1. Hvil rigeligt
 

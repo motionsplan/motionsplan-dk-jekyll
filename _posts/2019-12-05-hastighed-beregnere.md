@@ -1,11 +1,11 @@
 ---
-title: &title "Hvad er min hastighed i km/t, m/s eller min/km? [Beregner]"
+title: &title "Hvad er min hastighed i km/t, m/s eller min/km? (Beregner)"
 description: "Beregn hastighed, pace og løbehastighed i vores beregner ✔ Hvordan udregner man km/t, m/s og min/km ✔ Omregning fra km/t til min/km ✔ Tabel"
 permalink: /hastighed/
 excerpt: "Beregn din hastighed i km/t, m/s eller min/km, så du ved hvor hurtigt du løber eller cykler. Du kan også se en tabel, så du ikke behøver at regne."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1585218059208-5cfd7659560b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1585218059208-5cfd7659560b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1585218059208-5cfd7659560b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
@@ -24,11 +24,18 @@ feature_row:
     btn_label: "<i class='fas fa-file-alt'></i> Udskriv hastighedstabel"
     btn_class: "btn--success"
     rel: nofollow noopener
+faq:
+  - question: "Hvad bruger løbere og cyklister mest - min/km eller km/t?"
+    answer: "Det er meget forskelligt, hvad løbere og cyklister foretrækker at bruge. Når jeg bruger mit GPS-ur, så står der som standard under løbeprofilerne et tempo og en løbehastighed, der er angivet i min/km. Hvis jeg skifter til cykling, så er tempoet og cykelhastigheden angivet i km/t. Det lader altså til, at de fleste løbere bruger min/km, men cyklister mest bruger km/t."
+  - question: "Hvordan beregner man km/t?"
+    answer: "Når du kender den tilbagelagte distance og tiden det tog, så kan du regne km/t. Du kan se formlen her, og vi har også lavet en udregner til det."
+  - question: "Hvordan finder man gennemsnitsfarten?"
+    answer: "Hvis du gerne vil finde gennemsnitsfarten, så skal du bruge en formel for gennemsnitshastighed. Du skal kende distancen og tiden. Du kan bruge vores formel og beregner for gennemsnitshastighed."
 ---
 
 Når jeg laver træningsprogrammer til løb eller cykling, vil jeg typisk gerne kende den hastighed og tempo, jeg skal træne med. Jeg har lavet en beregner og en tabel, som kan hjælpe med at beregne km/t, m/s og min/km og derved finde din løbehastighed og cykelhastighed.
 
-Du kan bruge tabellen og beregneren til at få svar på spørgsmålet: "Hvad er min hastighed?". Du kan i beregneren udregne din løbehastighed eller omregne fra km/t til min/km eller tilbage igen.
+Du kan bruge tabellen nedenunder og vores hastighedsberegner til at få svar på spørgsmålet: "Hvad er min hastighed?". Du kan i beregneren udregne din løbehastighed eller omregne fra km/t til min/km eller tilbage igen.
 
 Når du har læst hele dette indlæg, så kan du selv besvare følgende spørgsmål:
 
@@ -77,7 +84,7 @@ Hvis du kender dit pace, så er det også interessant at udregne, hvilken gennem
 
 ## Hvorfor skal jeg kende min hastighed?
 
-Det gør virkelig en forskel i din træning om du rammer den rigtige intensitet. Hastigheden kan være en god måde at måle intensiteten på, hvis du løber på en nogenlunde fladt underlag eller på en løbebane.
+Det gør virkelig en forskel i din træning, om du rammer den rigtige intensitet. Hastigheden kan være en god måde at måle intensiteten på, hvis du løber på en nogenlunde fladt underlag eller på en løbebane.
 
 Når du løber de planlagte langsommere ture med lav intensitet, så giver det god mening at kende dit tempo, så din løbehastighed ikke bliver for høj.
 
@@ -97,7 +104,7 @@ Hvis du gerne selv vil beregne hastigheden ud fra distance og tid uden at skulle
 
 {% include math formula="Hastighed (km/t) = \frac{distance (km) * 60 (min/t)}{tid (min)}" %}
 
-Hvis du fx løber 10 km på 50 minutter, så bliver regnestykket altså:
+Hvordan regner man km/t, hvis du fx løber 10 km på 50 minutter. Din hastighedsberegning bliver altså følgende:
 
 {% include math formula="Hastighed (km/t) = \frac{10 km * 60 (min/t)}{50 min} = 12 km/t" %}
 
@@ -141,10 +148,10 @@ Hvis du vil omregne fra km/t til min/km kan du bruge følgende formel:
 
 {% include math formula="Pace (min/km) = \frac{60}{Hastighed (km/t)}" %}
 
-## Hvad bruger løbere og cyklister mest - min/km eller km/t?
-
-Det er meget forskelligt, hvad løbere og cyklister foretrækker at bruge. Når jeg bruger mit GPS-ur, så står der som standard under løbeprofilerne et tempo og en løbehastighed, der er angivet i min/km. Hvis jeg skifter til cykling, så er tempoet og cykelhastigheden angivet i km/t.
-
-Det lader altså til, at de fleste løbere bruger min/km, men cyklister mest bruger km/t.
+## Konklusion
 
 Jeg har imidlertid ofte brug for at kunne udregne min løbehastighed og omregne mellem min/km og km/t, fx når jeg skal sætte [løbebåndet]({% link _posts/2020-08-14-loebebaand.md %}) til at have den rigtige hastighed.
+
+## Ofte stillede spørgsmål
+
+{% include faq.html %}

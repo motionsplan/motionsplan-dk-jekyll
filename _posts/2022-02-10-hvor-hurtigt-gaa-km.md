@@ -17,7 +17,7 @@ Hvis du gerne vil vide, hvor lang tid det tager at gå 10.000 skridt, så er du 
 
 Det kan være rart at vide, hvor længe man skal gå for at få de anbefalede 10.000 skridt om dagen. På denne side finder du en beregner, som kan hjælpe med at finde ud af det.
 
-{% include figure image_path="https://images.unsplash.com/photo-1451156351305-d4f9bff58036?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5" alt="Hvor hurtigt går man 1 kilometer, og hvor lang tid tager det at gå 10.000 skridt. Tjek vores beregner for svaret!" %}
+{% include figure image_path="https://images.unsplash.com/photo-1451156351305-d4f9bff58036?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5" caption="Hvor hurtigt går man 1 kilometer, og hvor lang tid tager det at gå 10.000 skridt. Tjek vores beregner for svaret!" alt="skridt til km og 10.000 skridt" %}
 
 Vi kigger altså i dette indlæg lidt på ganghastighed. Vi tager udgangspunkt i almindelige mennesker, som går i et almindeligt tempo.
 
@@ -91,3 +91,7 @@ Du kan jo tage tiderne og sætte ind i vores [hastighedsberegner](/hastighed/). 
 | 20.000 m kapgang (bane)	| 1:26:52.3 | Olimpiada Ivanova | Rusland | Rusland | 6. September 2001 | Australien Brisbane, Australia |
 | 20 km kapgang (landevejsløb) | 1:24:38 | Liu Hong | China | 6. juni 2015 | Gran Premio Cantones	Spanien A Coruña, Spain	|
 | 50 km kapgang (landevejsløb) | 4:08:26 | Inês Henriques | Portugal | 15. januar 2017 | Portuguese Championships	Portugal Porto de Mós, Portugal	|
+
+## Konklusion
+
+Nu har du en ide om, hvor lang tid det tager at gå. Hvis du kender din distance og tid, så kan du også [regne din gennemsnitsfart i vores fartberegner](/hastighed/).

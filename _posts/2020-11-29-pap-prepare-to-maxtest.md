@@ -4,7 +4,7 @@ permalink: /pap-post-activation-potentiation-1rm-maxtest/
 language: da
 author: lsolesen
 header:
-  overlay_image: https://images.unsplash.com/photo-1532382752999-45b3dc5d4bf2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1532382752999-45b3dc5d4bf2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1532382752999-45b3dc5d4bf2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
@@ -29,7 +29,7 @@ Først og fremmest så skal du ikke lave en maxtest alt for ofte. Det koster nem
 
 Jacob Beermann foreslår, at du kan [sammensætte din træning på denne måde](https://maxer.dk/artikler/maxtest), hvis du vil lave en maxtest, og jeg tænker at samme fremgangsmåde kan være anvendelig i forhold til et [styrkeløftstævne og styrkeløftkonkurrence](/powerlifting-rules/).
 
-Beermann foreslår, at du starter med en **15 minutters generel dynamisk opvarmning**, hvor du gradvist øger intensiteten. Jeg har skrevet mere om [generel opvarmning til styrketræning her](/opvarmning-styrketraening/). Derefter laver du **5 minutters specifik opvarmning rettet mod øvelsen**. Når du har lavet en grundig opvarmning, så går du i gang med at selve øvelsen. Start med relativt let vægt for at få en fornemmelse for bevægelsen, og så begynder du **langsomt at sætte mere og mere vægt på stangen**. 
+Beermann foreslår, at du starter med en **15 minutters generel dynamisk opvarmning**, hvor du gradvist øger intensiteten. Jeg har skrevet mere om [generel opvarmning til styrketræning her](/opvarmning-styrketraening/). Derefter laver du **5 minutters specifik opvarmning rettet mod øvelsen**. Når du har lavet en grundig opvarmning, så går du i gang med at selve øvelsen. Start med relativt let vægt for at få en fornemmelse for bevægelsen, og så begynder du **langsomt at sætte mere og mere vægt på stangen**.
 
 Du kan eksempelvis gå frem i din opvarmning til maxtesten på denne måde:
 
@@ -46,7 +46,7 @@ Denne måde at varme op på til en maxtest og en 1RM-test minder meget om [Tim H
 
 Når du skal lave en max-test og 1RM-test, så kan udnytte fænomenet _post-activation potentiation_ (PAP). De fleste protokoller med PAP udnytter en tung styrketræningsøvelse, fx squat, efterfulgt af en højhastighedsøvelse, fx vertikalt hop. Ideen er, at du ved at squatte en tung vægt uden at gå til _failure_ og derefter holde pause et par minutter, så kan du springe højere end hvis ikke du havde løftet vægten.
 
-[Stack skriver](https://www.stack.com/a/testing-your-one-rep-max-use-this-surprising-science-backed-trick-to-move-more-weight), at effekten også kan udnyttes den anden vej rundt. Hvis du **først udfører en eksplosiv bevægelse**, holder en kort pause, så kan du **løfte mere efterfølgende**.
+[Stack](https://www.stack.com/a/testing-your-one-rep-max-use-this-surprising-science-backed-trick-to-move-more-weight) skriver, at effekten også kan udnyttes den anden vej rundt. Hvis du **først udfører en eksplosiv bevægelse**, holder en kort pause, så kan du **løfte mere efterfølgende**.
 
 [Masamoto et al (2003)](https://www.ncbi.nlm.nih.gov/pubmed/12580658) undersøgte, hvordan _to depth jumps_ udført 30 sekunder før et 1RM forsøg i squat påvirkede den maksimale styrke. _Depth jumps_ er en [højintensiv plyometrisk øvelse](/plyometrisk-traening/). Den gennemsnitlige styrke steg fra 139,6 kg til 144 kg, hvilket er en 3,5% forbedring. Forskerne undersøgte også, hvad effekten var af at lave _tre tuck jumps_ (som kan karakteriseres som medium intensitet), men der var ingen signifikant forbedring af den maksimale styrke.
 
@@ -68,9 +68,11 @@ Trænede løftere med nogenlunde de stats kan altså med eksplosive, specifikke 
 
 Både [breakingmuscle.com](https://breakingmuscle.com/fitness/verkhoshanskys-depth-jumps-create-gains-in-max-strength) og [elitefts.com](https://www.elitefts.com/education/turbocharge-your-squat-with-depth-jumps/) skriver mere om, hvordan man kan bruge depth jumps til at forbedre sin squat.
 
+{% include pinterest image_path="/assets/images/pinterest/forberedelse-max-loeft.png" %}
+
 ## Heavy walkouts og liftoffs
 
-[TJ Kuster foreslår på t-nation.com](https://www.t-nation.com/training/tip-hack-your-nervous-system-set-new-prs) _heavy walkouts_ og _heavy liftoffs_ til at få den samme _post-activation potentiation_ effekt. 
+[TJ Kuster foreslår på t-nation.com](https://www.t-nation.com/training/tip-hack-your-nervous-system-set-new-prs) _heavy walkouts_ og _heavy liftoffs_ til at få den samme _post-activation potentiation_ effekt.
 
 Kuster forelår, at man sætter **10% ekstra på stangen** i forhold til det, du vil løfte som din 1RM. Formålet er, at **bære vægten i omkring 10 sekunder**, inden man sætter den pænt på plads igen. Så **venter du 5 minutter og prøver dit maxforsøg**.
 
@@ -94,7 +96,7 @@ Hvis du gerne vil lave en maxtest eller en 1RM-test, så skal du også have valg
 
 ## PAP virker også i forhold til at forbedre din springhøjde
 
-Du kan også få PAP til at virke til at forbedre springhøjden. Så vidt jeg har forstået, så er det sådan man oprindeligt har brugt PAP. Det kan du læse mere om på [t-nation.com](https://www.t-nation.com/training/tip-a-very-weird-way-to-boost-your-vertical) og [jackedathlet.com](http://jackedathlete.com/instantly-jump-higher-post-activation-potentiation/).
+Du kan også få PAP til at virke til at forbedre springhøjden. Så vidt jeg har forstået, så er det sådan man oprindeligt har brugt PAP. Det kan du læse mere om på [t-nation.com](https://www.t-nation.com/training/tip-a-very-weird-way-to-boost-your-vertical) og [jackedathlete.com](http://jackedathlete.com/instantly-jump-higher-post-activation-potentiation/).
 
 ## Konklusion om forberedelse til maxløft
 
@@ -102,10 +104,11 @@ Jeg har skrevet et andet indlæg, der handler om [reglerne til styrkeløft]({% l
 
 Hvordan forbereder du dig til en maxtest, styrkeløftkonkurrence og 1RM-test? Brug endelig kommentarerne til at inspirere os andre.
 
-## Referencer om maxtest og forberedelse
+## Referencer
 
 <details markdown="1">
-  <summary>Se referecer maxtest, forberedelse og opvarmning</summary>
+  <summary>Se referencer</summary>
+
 - Masamoto, N et al. "Acute Effects of Plyometric Exercise on Maximum Squat Performance in Male Athletes." Journal of Strength and Conditioning Research. 2003 Feb; 17(1):68-71.
 - Wilcox, J et al. "Acute Explosive-Force Movements Enhance Bench-Press Performance in Athletic Men." International Journal of Sports Physiology and Performance. 2006 Sep; 1(3):261-269.
 - Chiu, LZF et al. "Post-activation Potentiation Response in Athletic and Recreationally Trained Individuals." Journal of Strength and Conditioning Research. 2003 Nov; 17(4):671-677.

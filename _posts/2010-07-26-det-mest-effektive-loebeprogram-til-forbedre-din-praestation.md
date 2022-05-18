@@ -4,7 +4,7 @@ permalink: /artikel/det-mest-effektive-loebeprogram-til-forbedre-din-praestation
 excerpt: "Her kan du læse mere om, hvordan man kan lave et effektivt løbeprogram og strukturerer sin løbetræning for at blive en bedre løber. Hvis man gerne vil lave et effektivt løbeprogram skal man tage højde for iltoptagelsen, løbeøkonomien og udholdenheden."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1586088552731-e769946bd48e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1586088552731-e769946bd48e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1586088552731-e769946bd48e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: &title
 tags:
@@ -78,8 +78,8 @@ Fx kan du med **[Billat-intervaller vVO<sub>2</sub>-max]({% link _posts/2020-08-
 
 Når du skal flytte din maksimale ydeevne, så skal du arbejde tæt på din maksimale ydeevne. Intensitetens betydning for træningsudbyttet og præstationerne har vi skrevet lidt mere om i disse artikler.
 
-- [4 minutters hård intervaltræning var mere effektivt end en times kontinuerlig løb](/artikel/4-minutters-haard-intervaltraening-bedre-end-en-times-moderat-loeb). Djævelsk hårdt, men tilsyneladende effektivt.
-- [Intensiteten har betydning for forbedring af VO<sub>2</sub>max](/intensitet-vo2max/). 4 x 4 minutters løb på 90-95% af maksimale iltoptagelse var mere effektivt end 24 minutter på 85% af VO<sub>2</sub>max. Men det var tilsyneladende også mere effektivt end 45 x 15 sekunders gentagelser på 90-95% af VO<sub>2</sub>max.
+- [4 minutters hård intervaltræning var mere effektivt end en times kontinuerlig løb](/artikel/tabata-traening-intervaller/). Djævelsk hårdt, men tilsyneladende effektivt.
+- [Intensiteten har betydning for forbedring af VO<sub>2</sub>max](/maksimale-iltoptagelse-vo2max/). 4 x 4 minutters løb på 90-95% af maksimale iltoptagelse var mere effektivt end 24 minutter på 85% af VO<sub>2</sub>max. Men det var tilsyneladende også mere effektivt end 45 x 15 sekunders gentagelser på 90-95% af VO<sub>2</sub>max.
 
 ## Konklusion
 

@@ -1,6 +1,6 @@
 ---
-title: &title "Cykeltræningsprogram - Den ultimative styrketrænings guide til cykling"
-seo_title: Cykeltræningsprograam - Den ultimative styrketræningsguide til cykling
+title: &title "Cykeltræningsprogram - Få en styrketræningsguide til cykling"
+seo_title: Cykeltræningsprogram - Få en styrketræningsguide til cykling
 permalink: /cykeltraeningsprogram/
 excerpt: "Her har du en omfattende guide til træningsøvelser til dit cykeltræningsprogram, der fokuserer på mere end bare dine lårmuskler. De 5 udvalgte øvelser, kan laves både i hjemmet og i fitnesscenteret, og styrker din performance under cykling."
 language: da
@@ -12,7 +12,7 @@ category:
   - Cykling
 tags:
   - styrketræning
-  - cykliing
+  - cykling
 last_modified_at: 2022-01-20T08:14:14Z
 toc: true
 author: nikolai.jauk
@@ -79,7 +79,7 @@ Man behøver som udgangspunkt ikke vægte til squat på ét ben, da øvelsen er 
 
 ### 5. Burpees
 
-Burpees er en øvelse, hvor der er høj fokus på, at få bevæget og styrke størstedelen af kroppen. Denne dynamiske øvelse styrker muskler og led, men også kondition da den helt sikkert får pulsen op. Derfor er det også en super smart måde at få inkorporeret adræthed i sit cykeltræningsprogram.
+[Burpees](/oevelse/burpees/) er en øvelse, hvor der er høj fokus på, at få bevæget og styrke størstedelen af kroppen. Denne dynamiske øvelse styrker muskler og led, men også kondition da den helt sikkert får pulsen op. Derfor er det også en super smart måde at få inkorporeret adræthed i sit cykeltræningsprogram.
 
 Du laver en burpee ved at starte, som om du skal lave en armbøjning. I én bevægelse trækker du benene op, så det ligner, at du er ved at lave et squat. Til sidst laver du rutinen modsat, så du igen står i stilling med maven pegende mod jorden.
 
@@ -97,7 +97,7 @@ En anden mulighed for at sikre at du står knivskarpt og parat til at indtage de
 
 Du kan ydermere optimere og forbedre dit maksimale output ved, stille og roligt, at løfte tungere og tungere vægt, der tvinger kroppen ud i maksimal indsats, der kan sammenlignes med en sprint i cykling. Ønsker du derimod at optimere din holdning på cyklen og minimere risikoen ved skader, der i højere grad er til stede ved brug af tunge vægte, kan du også udføre øvelserne med lette vægte eller med kropsvægt. Alle disse øvelser kan også med fordel udføres i cykelshorts eller cykelbukser. Det er dog relevant at tilpasse dit træningsprogram til den type cykling du udøver, da landevejscykling trækker på andre muskelgrupper end f.eks. mountainbikes. Denne type cykling foregår typisk i skove og ujævne områder, hvor de mange stød kan belaste både arme og skulder, hvorfor disse områder også ville være hensigtsmæssige at træne.
 
-Med alt denne nye information in mente, er du klar til at indtage de danske cykelruter med et smil velvidende omkring, at du er både i fysisk god form og har den korrekte påklædning til at begive dig ud på en længere tur. Leder du efter inspiration til cykelruter i Danmark, kan du passende besøge denne side og kigge efter en [cykelrute der passer perfekt til dig](/cykelruter-danmark/) og dine lyster.
+Med alt denne nye information in mente, er du klar til at indtage de danske cykelruter med et smil velvidende omkring, at du er både i fysisk god form og har den korrekte påklædning til at begive dig ud på en længere tur. Leder du efter inspiration til cykelruter i Danmark, kan du passende besøge denne side og kigge efter en [cykelrute der passer perfekt til dig](https://www.cykel-ruter.dk/cykelruter-danmark/) og dine lyster.
 
 ## Konklusion
 

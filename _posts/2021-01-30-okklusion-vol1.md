@@ -61,7 +61,7 @@ I dag er den mest almindelige og anvendte internationale betegnelse for okklusio
 
 Okklusionstræning kan bedst forstås som en fysiologisk genvej til at opnå muskeltilvækst (hypertrofi), styrkefremgang og forbedret funktionsniveau, med minimal belastning af sener og leder. Under okklusionstræning påføres en manchet proksimalt på enten armen eller benet. Manchetten pumpes op til et fastsat tryk, og trykket i manchetten vil begrænse det arterielle indløb (det iltede blod der løber ud til musklen) og afklemme det venøse tilbageløb (det afiltede blod der løber væk fra musklen) \[1, 2\].
 
-{% include pinterest image_path="/assets/images/occlude/occlusion-training-768.jpg" data-pin-media="/assets/images/pinterest/occlusion-training.png" caption="Pumpestyret okklusionstræning" alt="Pumpestyret okklusionstræning" %}
+{% include pinterest image_path="/assets/images/occlude/occlusion-training-768.jpg" data-pin-media="/assets/images/pinterest/occlusion-training.jpg" caption="Pumpestyret okklusionstræning" alt="Pumpestyret okklusionstræning" %}
 
 Det individualiserede tryk fastsættes ud fra AOP: ”arterial occlusion pressure”. På dansk oversat til _det arterielle okklusionstryk_ som er det tryk, hvor der er total afklemning (100 % AOP) af det arterielle indløb. Okklusionstræning praktiseres ved mellem 40 og 80 % af dette tryk.
 
@@ -115,7 +115,7 @@ Kombinationen af tung styrketræning og okklusionstræning ser ud til at være d
 
 Okklusionstræning er helt overordnet at betragte som en sikker træningsform \[1, 15, 16\] med en meget lav incidens af alvorligt indrapporterede komplikationer \[17\]. For at minimere risikoen for komplikationer, anbefales det at screene patienter for kontraindikationer i forbindelse med okklusionstræning, at individualisere arbejdstrykket til 40-80 % af AOP, have viden om manchetplacering og manchetbreddens betydning, samt overholde maksimal okklusionstid \[16\].
 
-Selvom standardtræningsprotokollen til okklusionstræning er 30-15-15-15 repetitioner så anbefales det, at lave en indkøringsfase for at reducere graden af muskelømhed og skade, samt opnå repeated bout effect \[18\].
+Selvom standardtræningsprotokollen til okklusionstræning er 30-15-15-15 repetitioner så anbefales det, at lave en indkøringsfase for at reducere graden af [muskelømhed](/omme-muskler-efter-traening/) og skade, samt opnå repeated bout effect \[18\].
 
 Når vi i Occlude underviser på kurser og workshops så anbefaler vi nedenstående indkøringsprotokol for nye brugere af okklusionstræning. Det gør vi, udover føromtalte forbehold, fordi forskningen også har vist, at der i løbet af de første seks træningspas med okklusionstræning, sker signifikant tilvænning i selvrapporteret anstrengelse og smerte under træning \[19\]
 
@@ -126,7 +126,7 @@ Der mangler fortsat længerevarende og dybdegående forskning i okklusionstræni
 Andre kontraindikationer end kardiovaskulære og perifere kredsløbssygdomme er
 
 - Gravide (ud fra et forsigtighedsprincip)
-- Ubehandlet forhøjet blodtryk
+- Ubehandlet [forhøjet blodtryk](/blodtryk/)
 - Dyb venetrombose og lungeemboli
 - Hjertefejl
 
@@ -158,10 +158,10 @@ Du kan se frem til flere indlæg i denne serie om okklusionstræning, hvor jeg v
 
 Indtil næste gang kan du læse mere om [udstyr til okklusionstræning](/udstyr-okklusionstraening-okklusionsudstyr/) eller tjekke okklusionsudstyret fra [Occlude ud her](https://www.occlude.dk/). Tak fordi du læste med!
 
-## Referencer om okklusionstræning
+## Referencer
 
 <details markdown="1">
-  <summary>Se flere referencer om {{ page.title }}</summary>
+  <summary>Se flere referencer</summary>
 
 1. Patterson, S.D., et al., _Blood Flow Restriction Exercise Position Stand: Considerations of Methodology, Application, and Safety._ Front Physiol, 2019. **10**: p. 533.
 2. Scott, B.R., et al., _Exercise with blood flow restriction: an updated evidence-based approach for enhanced muscular development._ Sports Med, 2015. **45**(3): p. 313-25.

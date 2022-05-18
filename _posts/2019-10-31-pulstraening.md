@@ -4,7 +4,7 @@ excerpt: "I pulstræning bruger du pulsen til at styre din træningsintensitet. 
 permalink: /pulstraening/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1601976864636-403ab1eea224?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1601976864636-403ab1eea224?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1601976864636-403ab1eea224?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
@@ -31,7 +31,7 @@ garmin_lactate:
 
 Træningsintensiteten under løb og træning kan måles på mange forskellige måder. Pulsen kan være en ret præcis måde at måle intensiteten. Derfor er pulstræning også rimelig udbredt.
 
-I pulstræning bruger du viden om dine pulszoner til at styre din træningsintensitet. Pulszoner kan udregnes enten ud fra din maxpuls eller pulsreserven. Vi har lavet en [beregner til pulszoner](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/), som du kan bruge til at hjælpe med at udregne zonerne.
+I pulstræning bruger du viden om dine pulszoner til at styre din træningsintensitet. Pulszoner kan udregnes enten ud fra din [maxpuls](/test-max-puls/) eller pulsreserven. Vi har lavet en [beregner til pulszoner](/pulstraening-pulszoner-fra-maxpuls-og-pulsreserve/), som du kan bruge til at hjælpe med at udregne zonerne.
 
 Pulstræning bruges i forbindelse med konditionstræning og kredsløbstræning. Det er et værktøj, du kan bruge til at styre intensiteten i træningen af din kondition for at være sikker på, at du rammer det rigtige energisystem i de enkelte træninger.
 
@@ -50,7 +50,7 @@ Lad os først lige få definitionerne på plads.
 Intensiteten i konditionstræning kan måles som regel ved hjælp af pulsen. Pulsen er antallet
 af hjerteslag per minut eller beats per minute (BPM).
 
-Når træningsintensiteten stiger i arbejdet, så stiger pulsen også. Hvis du laver **kontinuerligt arbejde** så er pulsen nogenlunde konstant, men pulsen vil også under [intervaltræning](/intervallob-intervaltraening/) i de enkelte intervaller komme op i nogenlunde samme niveau.
+Når træningsintensiteten stiger i arbejdet, så stiger pulsen også. Hvis du laver **kontinuerligt arbejde** så er pulsen nogenlunde konstant, men pulsen vil også under [intervaltræning](/intervaltraening/) i de enkelte intervaller komme op i nogenlunde samme niveau.
 
 Pulsen bliver altså et mål for hvilken intensitet, du arbejder med. For at bestemme den relative arbejdsintensitet i arbejde, så skal man kende personens maksimale puls og også gerne hvilepulsen.
 

@@ -1,13 +1,13 @@
 ---
-title: &title "Maksimale iltoptagelse: Alt du skal vide om at forbedre VO2 max"
+title: &title "Maksimal iltoptagelse: Alt du skal vide om at forbedre VO2 max"
 seo_title: "Maksimal iltoptagelse - Alt du skal vide om VO2 max 2021"
 permalink: /maksimale-iltoptagelse-vo2max/
 redirect_from:
   - /intensitet-vo2max/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1596358985970-ff88f3ad4cb3?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTA2fHxydW5uaW5nfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=60
-  teaser: https://images.unsplash.com/photo-1596358985970-ff88f3ad4cb3?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTA2fHxydW5uaW5nfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60
+  overlay_image: https://images.unsplash.com/photo-1596358985970-ff88f3ad4cb3?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTA2fHxydW5uaW5nfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
+  teaser: https://images.unsplash.com/photo-1596358985970-ff88f3ad4cb3?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTA2fHxydW5uaW5nfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
   - Kondition
@@ -72,11 +72,11 @@ Gå til alle beregnere Sportsudøvere med verdens højeste VO2 max En af mine fa
 
 ## Forbedring af VO2 max afhænger af intensiteten
 
-Helgerud et al (2007) satte sig for at undersøge, hvilke træningsmetoder der har den mest gavnlige effekt på træning af VO<sub>2</sub>max. Helgerud et al (2007) undersøgte både kortvarig, intens intervaltræning og længerevarende moderat træning.
+Helgerud et al (2007) satte sig for at undersøge, hvilke træningsmetoder der har den mest gavnlige effekt på træning af VO<sub>2</sub>max. Helgerud et al (2007) undersøgte både kortvarig, intens [intervaltræning](/intervaltraening/) og længerevarende moderat træning.
 
 Helgerud et al (2007) samlede 40 moderat-trænede mandlige universitetsstuderende. Deltagerne blev inddelt i fire træningsgrupper med en træningsfrekvens på 3 gange pr. uge i 8 uger. De 4 træningsgrupper arbejdede med forskellig intensitet, men forskerne sørgede for, at det totale arbejde var det samme ved at justere varigheden af træningen.
 
-Intensiteterne i de enkelte grupper blev målt som procentdel af maxpulsen (HR<sub>max</sub>).
+Intensiteterne i de enkelte grupper blev målt som procentdel af [maxpulsen (HR<sub>max</sub>)](/test-max-puls/).
 
 - **Gruppe 1 - LSD**: 45 minutters løb på 70% (Long Slow Distance).
 - **Gruppe 2 - LT**: 24 minutters løb på 85% (svarende til den anaerobe tærskel).
@@ -85,7 +85,7 @@ Intensiteterne i de enkelte grupper blev målt som procentdel af maxpulsen (HR<s
 
 Pulsprofilerne for de forskellige træningsprotokoller så sådan her ud:
 
-{% include figure image_path="/assets/images/helgerud-2007-alle.png" caption="Pulseksempler fra de fire grupper. (Bemærk at de viste eksempler er fra personer med forskellig maxpuls). Kilde: [Helgerud et al (2007)](https://doi.org/10.1249/mss.0b013e3180304570)." alt="Pulseksempler fra de fire grupper. (Bemærk at de viste eksempler er fra personer med forskellig maxpuls)" %}
+{% include figure image_path="/assets/images/helgerud-2007-alle.png" caption="Pulseksempler fra de fire grupper. (Bemærk at de viste eksempler er fra personer med forskellig maxpuls). Kilde: [Helgerud et al (2007)](https://doi.org/10.1249/mss.0b013e3180304570)." alt="Pulseksempler fra de fire grupper i Helgerud studie" %}
 
 Studiet viste, at VO<sub>2</sub>max blev signifikant forbedret i 15/15 og 4x4 med henholdsvis 5,5% og 7,2% efter 8 ugers træning, hvilket ikke var tilfældet for LSD- og LT-gruppen. Der var ikke signifikant forskel imellem 15/15 og 4x4, hvilket tyder på, at begge meget forskelligartede protokoller kan bruges til at forbedre den maksimale iltoptagelse.
 
@@ -117,7 +117,7 @@ Ydermere når Scribbans et al (2016) i en metaanalyse af en række studier en li
 
 Det er også lidt overraskende, at slagvolumen (SV) ikke blev forbedret i grupperne der trænede med lavere intensitet i studiet af Helgerud et al (2007). Det vil vi naturligvis også kigge lidt nærmere på i dn nærmeste fremtid.
 
-## Konklusion om VO2 max
+## Konklusion
 
 Det bedste råd i øjeblikket er formentligt, at man skal huske at ramme sit energisystem bredt i sin træning. Hvis du vil flytte VO<sub>2</sub>max, skal du formentlig også lave intervaller med høj intensitet.
 
@@ -127,10 +127,10 @@ Du kan læse mere om, hvordan du med [HIIT-træning]({% link _posts/2020-09-22-h
 *[LSD]: Long Slow Distance
 *[LT]: Lactate Threshold
 
-## Referencer om maksimale iltoptagelse og VO2 max
+## Referencer
 
 <details markdown="">
-  <summary>Se referencer om {{ page.title }}</summary>
+  <summary>Se referencer</summary>
 
 - Helgerud, Jan, Kjetill Høydal, Eivind Wang, Trine Karlsen, Pålr Berg, Marius Bjerkaas, Thomas Simonsen, m.fl. 2007. “Aerobic High-Intensity Intervals Improve VO2max More than Moderate Training”. Medicine and Science in Sports and Exercise 39 (4): 665–71. <https://doi.org/10.1249/mss.0b013e3180304570>.
 - Scribbans, Trisha D., Stephan Vecsey, Paul B. Hankinson, William S. Foster, og Brendon J. Gurd. 2016. “The Effect of Training Intensity on VO2max in Young Healthy Adults: A Meta-Regression and Meta-Analysis”. International Journal of Exercise Science 9 (2): 230–47. <https://pubmed.ncbi.nlm.nih.gov/27182424/>

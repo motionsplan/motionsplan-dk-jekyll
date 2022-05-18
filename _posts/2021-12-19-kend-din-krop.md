@@ -40,7 +40,7 @@ Din krop består af knogler og muskler, som gør dig i stand til at bevæge dig.
 ## Hvad består din krop af?
 
 - [Hvor meget vand har du i kroppen?](/vand-i-kroppen/)
-- [Hvor meget fedt har du i kroppen?](/artikel/udregning-af-fedtprocent/)
+- Hvor meget fedt har du i kroppen? --> [Fedtprocent beregner](/artikel/udregning-af-fedtprocent/)
 - [Hvad vejer dine knogler og dit skelet i kg?](/hvad-vejer-skelettet/)
 
 ## Hvad fylder du?

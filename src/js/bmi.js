@@ -9,14 +9,8 @@ motionsplan.BMI = function(h, w) {
     return w / (h * h);
   }
 
-  function getPonderalIndex() {
-    return w / (h * h * h);
-  }
-
   let publicAPI = {
-    getBMI : getBMI,
-    getPonderalIndex : getPonderalIndex
-
+    getBMI : getBMI
   };
 
   return publicAPI;

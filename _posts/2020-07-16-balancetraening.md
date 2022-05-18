@@ -1,11 +1,11 @@
 ---
 title: &title "Balancetræning 🤸: Effektiv træning af din balance"
-seo_title: "Balancetræning: Alt om balance og balanceøvelser [2022]"
+seo_title: "Balancetræning: Alt om balance og balanceøvelser (2022)"
 description: "Balancetræning bør være en del af din træning. Vi har kigget på, hvad balance er, og hvordan du træner din balance mest effektivt med balanceøvelser?"
 permalink: /balance/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/uploads/1412533519888a485b488/bb9f9777?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/uploads/1412533519888a485b488/bb9f9777?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/uploads/1412533519888a485b488/bb9f9777?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 tags:
@@ -126,7 +126,7 @@ Det har været meget populært at introducere redskaber som BOSU-bolde og vippeb
 
 **Balancetræning er for alle**. Det handler om, hvordan du tilrettelægger træningen. Måske skal du starte med at få lidt støtte ved fx at holde i en stol eller læne dig op ad væggen. Efterhånden vil balancen blive bedre, og du kan udnytte nogle af de variationsmuligheder, vi har beskrevet i dette indlæg. Selv dygtige balancekunstnere burde finde udfodringer i de lidt mere avancerede udgaver af balanceøvelserne.
 
-# Progression i balancetræningen
+## Progression i balancetræningen
 
 Jeg her ret inspireret af Z-health og deres forståelse af balance, og hvordan man kan lave en progression af sin balancetræning. Du kan først lade dig inspirere af disse to videoer (på engelsk) om balancetræning.
 
@@ -307,10 +307,10 @@ Hvad er **fordelene** ved balancetræning?
 
 God balancetræning! Brug endelig kommentarerne, hvis du har flere gode forslag til øvelser til at træne balancen.
 
-## Referencer til balance og balanceøvelser
+## Referencer
 
 <details markdown="1">
-  <summary>Se flere referencer om {{ page.title }}</summary>
+  <summary>Se flere referencer</summary>
 
 - Ambegaonkar, Jatin, Shane Caswell, Jason Winchester, Yohei Shimokochi, Nelson Cortes, og Amanda Caswell. 2013. “Balance Comparisons Between Female Dancers and Active Nondancers”. _Research quarterly for exercise and sport_ 84 (marts): 24–29. [https://doi.org/10.1080/02701367.2013.762287](https://doi.org/10.1080/02701367.2013.762287).
 - Behm, David G., Thomas Muehlbauer, Armin Kibele, og Urs Granacher. 2015. “Effects of Strength Training Using Unstable Surfaces on Strength, Power and Balance Performance Across the Lifespan: A Systematic Review and Meta-Analysis”. _Sports Medicine (Auckland, N.Z.)_ 45 (12): 1645–69. [https://doi.org/10.1007/s40279-015-0384-x](https://doi.org/10.1007/s40279-015-0384-x).
@@ -319,5 +319,5 @@ God balancetræning! Brug endelig kommentarerne, hvis du har flere gode forslag 
 - Hrysomallis, Con. 2011. “Balance Ability and Athletic Performance”. _Sports Medicine (Auckland, N.Z.)_ 41 (3): 221–32. [https://doi.org/10.2165/11538560-000000000-00000](https://doi.org/10.2165/11538560-000000000-00000).
 - Kiers, Henri, Jaap van Dieën, Henk Dekkers, Harriët Wittink, og Luc Vanhees. 2013. “A Systematic Review of the Relationship between Physical Activities in Sports or Daily Life and Postural Sway in Upright Stance”. _Sports Medicine (Auckland, N.Z.)_ 43 (11): 1171–89. [https://doi.org/10.1007/s40279-013-0082-5](https://doi.org/10.1007/s40279-013-0082-5).
 - Kümmel, Jakob, Andreas Kramer, Louis-Solal Giboin, og Markus Gruber. 2016. “Specificity of Balance Training in Healthy Individuals: A Systematic Review and Meta-Analysis”. _Sports Medicine (Auckland, N.Z.)_ 46 (9): 1261–71. [https://doi.org/10.1007/s40279-016-0515-z](https://doi.org/10.1007/s40279-016-0515-z).
-- Trojian, T. H., og D. B. McKeag. 2006. “Single Leg Balance Test to Identify Risk of Ankle Sprains”. _British Journal of Sports Medicine_ 40 (7): 610–13. [https://doi.org/10.1136/bjsm.2005.024356](https://doi.org/10.1136/bjsm.2005.024356).
+- Trojian, T. H., og D. B. McKeag. 2006. “Single Leg Balance Test to Identify Risk of Ankle Sprains”. _British Journal of Sports Medicine_ 40 (7): 610–13. [https://bjsm.bmj.com/content/40/7/610](https://bjsm.bmj.com/content/40/7/610).
 </details>
