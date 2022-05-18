@@ -33,7 +33,7 @@ Flyer Handicap er udviklet af Paul M. Vanderburgh og Lloyd L. Laubach ved Univer
 
 **Note** Hvis du indtaster en alder under 25 i beregneren, så vil den bruge 25 år som din alder. Hvis din vægt er under de angivne kropsvægte for mænd og kvinder, så vil beregneren automatisk bruge de angivne mindstevægte. Typisk er lavere kropsvægt ikke en fordel.
 
-## Alders- og vægtjusteret løbetid
+## Aldersjusteret og vægtjusteret løbetid
 
 Der sker noget med løbetiderne og konditionen med alderen, og vægten har også betydning for, hvor hurtigt man løber. Jeg har en anden beregner med [aldersgraduerede løbetider](/aldersgraduerede-tider/) og en beregner, der beregner [løbetider og vægt](/vaegttab-loebetid/). Denne formel forsøger at tage begge parametre med i en beregner.
 

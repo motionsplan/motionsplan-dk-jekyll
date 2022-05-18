@@ -47,6 +47,8 @@ Du kan teste om ankelmobiliteten ved at forsøge at lave en squat, hvor du står
 
 En anden måde du hurtigt kan tjekke om ankelmobliteten er en del af din udfordring er ved at forsøge at putte et par små vægtskiver under hælene. Hvis det er lettere at komme ned efter, at du har løftet hælene, så kan en forbedret ankelmobilitet være en del af løsningen til at squatte dybere.
 
+Du kan også løfte hælen med et par styrketræningssko. Tjek vores [guide til sko til styrketræning](/sko-styrketraening-fitness/).
+
 ### 3. Hoftemobilitet
 
 Mobiliteten i hoften har flere sider. Du skal dels kunne lave en fleksion i hoften, men også hoftens indadrotation.

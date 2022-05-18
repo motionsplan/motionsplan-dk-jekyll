@@ -44,9 +44,15 @@ feature_row_syntetisk:
 
 Her kan du læse mere om forskellige typer af træningsbælter til styrketræning. Når du har læst guiden skulle du gerne være klædt på til at vælge et bælte til din styrketræning uanset om du laver styrkeløft, vægtløftning, almindelige fitnesstræning, bodybuilding eller genoptræning.
 
-Et bælte til styrketræning kan hjælpe dig med en større stabilitet omkring din kropskerne, så du kan løfte tungere og gøre dine løft endnu mere effektive. Når du kan have en mere stabil kropskerne, så kan du også løfte tungere i fx squat og dødløft, men stabiliteten kan også hjælpe lidt til stående pres over hovedet.
+Et bælte til styrketræning kan hjælpe dig med en større stabilitet omkring din kropskerne, så du kan løfte tungere og gøre dine løft endnu mere effektive. Når du kan have en mere stabil kropskerne, så kan du også løfte tungere i fx [squat](/squat/) og [dødløft](/doedloeft/), men stabiliteten kan også hjælpe lidt til stående pres over hovedet.
 
-Lad os dykke ned i guiden.
+Hvis du i denne guide finder ud af, at du har brug for et bælte, så tjek en af vores [udvalgte fitnessshops](/fitnessbutikker/).
+
+## Hvad er et styrketræningsbælte?
+
+Et træningsbælte er en støtteanordning, der bæres rundt om taljen under træningen. Det er normalt fremstillet af læder, nylon eller et andet robust materiale og har et spænde eller en velcrolukning. Bælternes bredde kan variere fra omkring fire til seks tommer.
+
+Træningsbælter bruges oftest i tunge løftesportgrene som styrkeløft, vægtløftning, vægttræning og Strongman-træning, hvor de bruges til at støtte rygsøjlen under tunge løft som dødløft, squat og overhead press. Nogle atleter inden for andre sportsgrene bruger dog også bælter til ekstra støtte under træning eller konkurrence.
 
 ## Hvilke typer træningsbælter findes der?
 
@@ -88,76 +94,47 @@ Når du fx virkelig koncentrerer dig om at lave et godt opspænd uden bælte, s�
 
 Bæltet er især rigtig anvendeligt, når du løfter tungt i træningen. Du bør løfte mange af dine løft uden bælte, så du lærer at stabilisere rygsøjlen uden hjælp af bæltet. Men det er naturligvis også vigtigt, at du træner i at bruge bæltet. Det bedre opspænd kommer ikke bare af at tage bæltet på. Du skal også bruge bæltet aktivt.
 
-{% comment %}
-
 ## Hvornår skal du træne med træningsbælte?
 
+Det er ikke altid nødvendigt med et træningsbælte. Hvis du træner med lettere vægte, eller hvis du fokuserer mere på udholdenhedstræning end på muskelopbygning, er et træningsbælte sandsynligvis ikke noget for dig.
 
+Hvis du derimod løfter tunge vægte regelmæssigt, eller hvis du ønsker at øge din styrke og power, så kan et træningsbælte være en god idé. Et træningsbælte kan også være nyttigt, hvis du har svage lænderygmuskler eller lider af lændesmerter. Du kan måske også have hjælp fra bæltet til at [komme længere ned i squat](/squat-dybt/).
 
-## HVORNÅR BÆLTET SKAL BRUGES
-Mange, som køber et bælte ender med at bruge det altid - og det er en stor fejl. I starten bruger du det måske kun i squat, pludseligt bruger du det også i rows. En dag kommer det på i biceps curl og før du ved af det har du bæltet på både når du kører bil og køber ind i det lokale supermarked.
+Langt den største del af min egen træning foregår uden bælte. Jeg bruger det primært til de store løft, eller hvis jeg arbejder med at forbedre min teknik og brug af bæltet.
 
-Du bør først bruge bæltet fra omkring 80% af din 1RM (den maksimale vægt, som du kan løfte 1 gang) - eller når det påvirker din teknik negativt, at du ikke bruger det.
+## Hvordan virker bæltet?
 
-Men undgå at blive afhængig af dit bælte.
+Bæltet virker ved at øge trykket i maven, også kendt som det intraabdominale tryk. Når bughulen komprimeres af de omkringliggende muskler, der trækker sig sammen, presses luften i den ud. Kroppens kerne bliver mere stabil og bedre i stand til at modstå bøjninger, når dette sker.
 
-## HVORDAN VIRKER BÆLTET?
+Kort sagt trækker de andre mavemuskler end transversus abdominis (de indre tværgående mavemuskler) ryggen mod bøjning. Erector spinae og mulitifidi er blandt dem, der aktiveres for at modstå dette. Dette trækker rygsøjlen i to modsatte retninger, samtidig med at den holdes stabil.
 
-Bæltet virker ved at øge bugtrykket, det såkaldte intraabdominale tryk. Dette sker når luften i bugen komprimeres af at de omkringliggende muskler trækker sig sammen. Resultatet er en mere stabil kropskerne, som i højere grad kan modstå fleksion, altså krumning af rygsøjlen.
+## Sådan bruger du et træningsbælte?
 
-Meget simpelt forklaret, kan det siges, at bortset fra transversus abdominis (de indre tværgående mavemuskler) trækker mavemusklerne ryggen mod fleksion. For at modstå dette, aktiveres blandt andet erector spinae og mulitifidi. Dermed bliver rygsøjlen trukket i to modsatte retninger og stabiliseres.
+1. **Tag en dyb indånding, hold vejret**. Når du gør det, så øges det det intraabdominale tryk i bughulen og det intrathorakale tryk i brysthulen. Dét øger i sig selv stabiliteten. omkring rygsøjlen.
+2. Derefter skal du **spænde mavemusklerne og spænde dem ud mod bæltet**.
 
-Der er lavet nogen forskning på brugen af bælter i styrketræning, men ikke på en måde så resultaterne er overførbare i den grad man kunne håbe på for den veltrænede person med god teknik.
+Bæltet hjælper med at øge bugtrykket, når du spænder mavemusklerne ud mod træningsbæltet. Men bæltet skal også sidde stramt, så det hjælper med at komprimere både vævet og luften omkring din kropsstamme.
 
-Ideelt set skulle det være studier på trænede udøvere, som faktisk bruger bælte, i en for styrkeløftere relevant IPF-dybde med en stiv stang og jernskiver og for vægtløftere en vægtløfterstang med bumperplates.
+Det er altså ikke nok at spænde bæltet stramt. Du skal aktivt fylde mellemgulvet med luft og presse mavemusklerne ud mod bæltet.
 
-I modsætning hertil kan eksempelvis nævnes McGill et al. 1990, som benyttede sig af 70-90 kg på stangen, hvilket næppe kan sammenlignes med løft på flere gange kropsvægt. Et studie af Zink et al. 2001 er mere relevant. Her var belastningen 90% af 1RM, bæltet 8 mm tykt og havde en jævn bredde hele vejen rundt.
+Du bliver nødt til at arbejde lidt med placeringen af bæltet i forhold til, hvordan du synes at det hjælper til at få det største opspænd omkring rygsøjlen. Du kan fx kigge efter, hvor du mister stabiliteten og spændet, når løftene bliver tunge.
 
-Dybden er dog problematisk, nemlig til lårene var parallelle med gulvet. Resultaterne viste, at deltagerne løftede hurtigere med bælte end uden og at bevægelsesbanen blev 5% længere og en 25% anteriorforrykning af stangen i bunden, hvilket mildest talt gør bevægelsen meget ineffektiv.
+## Forskningen om brug af styrketræningsbælter
 
-Flere studier har dog vist at på submaksimale belastninger, løftes vægtene hurtigere både eksentrisk og koncentrisk - hvis løfteren altså strammer bæltet tilstrækkeligt og aktivt spænder ud mod bæltet for at øge bugtrykket, hvilket leder mig til næste afsnit.
+Der er mange anekdotiske beviser for, at træningsbælter hjælper med at øge styrken, men der er også videnskabelig forskning på området.
 
-## SÅDAN BRUGER DU BÆLTET
+Når du kigger på forskningen er det vigtigt at kigge på forsøgsprotokollen.
 
-Tag en dyb indånding, hold vejret. Dette kaldes valsalva-manøvren og øger i sig selv både det intraabdominale (bughulen) og det intrathorakale (brysthulen) tryk. Dét øger stabiliteten. Derefter skal du spænde mavemusklerne og spænde dem ud mod bæltet.
+- Hvad var **målgruppen** i forsøget? Var det veltrænede med god squatteknik, eller var det begyndere eller let trænede.
+- Hvilken **dybde og teknik** blev der brugt i de enkelte løft? Fulgte man [retningslinjerne fra styrkeløft](/powerlifting-rules/) eller var løftet lavet på andre måder.
+- Hvilket **udstyr blev der brugt**? Løfter man med stive stænger fra styrkeløft og jernskiver, eller med vægtløfterstænger og bumperplates? Hvilket bælte blev der brugt? Var det et af de standardiserede bælter?
 
-Bæltet giver dig øget bugtryk både gennem at du spænder mavemusklerne ud imod det, men også ved at det sidder stramt og dermed komprimerer både luft og væv omkring din kropskerne.
+Hvis du har lyst, så må du meget gerne hjælpe med at udvide denne artikel med al din viden om videnskaben i forbindelse med styrkeløftbælter i forbindelse med fx squat og dødløft, men også gerne hvis der er lavet studier af brugen i forhold til andre løft.
 
-Det er med andre ord vigtigt at forstå, at du ikke blot skal spænde bæltet stramt og slappe af, men aktivt fylde mellemgulvet med lift og presse bugmuskulaturen ud mod bæltet.
+## Konklusion
 
-Bæltets placering må du eksperimentere lidt med, da det i nogen grad kan være individuelt hvor det giver dig bedst spænd. Typisk anbefales det at placere bæltet i den sektion, hvor du mister spændet ved tunge løft.
+Et træningsbælte kan være et nyttigt redskab, hvis du ønsker at øge din styrke og kraft. Det er dog vigtigt at forstå, hvordan bæltet fungerer, og hvordan du bruger det korrekt for at få mest muligt ud af det. Forskningen om træningsbælter er stadig relativt begrænset, men der er noget, der tyder på, at de kan være effektive til at øgestyrke.
 
-Slutteligt vil det altså sige, at du med et godt bælte kan træne hårdere med mere vægt, god teknik og reduceret skadesrisiko. Det er dog ikke en nødvendighed, men et godt hjælpemiddel til dig, der gerne vil løfte tungere vægte. Eksperimenter med placeringen og brug det kun fra cirka 80% af din 1RM.
+vis du beslutter dig for at bruge et træningsbælte, skal du sørge for at vælge et, der er behageligt og sidder godt, og du skal tage dig tid til at lære at bruge det korrekt.
 
-## GODKENDTE BÆLTER I STYRKELØFT (IPF)
-
-Tidligere var det blot det tekniske reglement, som skulle overholdes før at et bælte var godkendt i IPF. Sådan er det ikke længere.
-
-På grund af blandt andet behovet for større sponsorater, skal bælter (på samme måde som løftedragter) være af godkendte mærker. Da der har været en særregel i Danmark i de sidste år, gælder dette ved nationale stævner først fra 1. januar 2017.
-
-Dette holdes løbende opdateret på IPFs hjemmeside og du kan altid tjekke de specifikke godkendte typer udstyr her.
-
-På nuværende tidspunkt (21/4/2016) er bælter fra disse mærker (og som samtidig overholder de tekniske regler) som udgangspunkt godkendt:
-
-Eleiko
-Wahlander
-Lifting Large
-Inzer
-Titan
-Metal
-SBD
-StrengthShop
-Beast Genetics
-Bukiya
-Best Belts
-Iron Tanks
-
-Unless it doesn’t make sense for them. Siewe et alfound that the use of weight belts_increased_the injury rate of the lumbar spine in powerlifters.19_Ruh roh!_
-Se Vær god ved din ryg.
-
-
-## Referencer
-
-- [Træningsbælte - har du brug for et?](https://www.bodylab.dk/shop/traeningsbaelte-har-du-1627c1.html)
-
-{% endcomment %}
+Jeg håber, at denne guide har hjulpet dig til at forstå lidt mere om træningsbælter, og hvordan de kan bruges til at forbedre din styrketræning. Hvis du skal købe et bælte, så samarbejder vi med disse [online fitnesssbutikker](/fitnessbutikker/).

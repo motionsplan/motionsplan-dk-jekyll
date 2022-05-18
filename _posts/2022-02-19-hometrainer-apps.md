@@ -1,6 +1,10 @@
 ---
+<<<<<<< HEAD
 title: &title "Virtuel Cykling: Apps til træning på hometrainer"
 seo_title: &title "Apps til Hometrainer: 4 Platforme til Virtuel Cykling"
+=======
+title: &title "Virtuel cykling: Apps til træning på hometrainer"
+>>>>>>> e218ec19a613f059185ffbfa424f6396f28ccd04
 permalink: /hometrainer-apps/
 language: da
 header:
