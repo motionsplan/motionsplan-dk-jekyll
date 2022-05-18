@@ -1,5 +1,6 @@
 ---
 title: &title "Fitnessbutikker: Køb dit fitnessudstyr i online webshops"
+description: Er du på udkig efter udstyr til hjemmetræning? Så kan du se vores guide til danske online fitnessbutikker og webshops, hvor du kan købe fitnessudstyr.
 permalink: /fitnessbutikker/
 language: da
 header:

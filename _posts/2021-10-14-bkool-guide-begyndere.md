@@ -55,7 +55,7 @@ feature_row:
 
 Jeg er lige gået i gang med at afprøve BKOOL på hometrainer, så jeg har skrevet en guide til at komme i gang med virtuel cykling. Det er en guide til en begynder, som besvarer alle de spørgsmål, jeg selv havde første gang jeg satte mig på på cyklen for at køre BKOOL.
 
-BKOOL står lidt i skyggen af den lidt mere populære Zwift. Jeg har skrevet en [begynderguide til Zwift]({% link _posts/2021-02-14-zwift-guide-begyndere.md %}). Men det er også værd at prøve BKOOL, hvor du kan cykle på rigtige ruter. 
+BKOOL står lidt i skyggen af den lidt mere populære Zwift. Jeg har skrevet en [begynderguide til Zwift]({% link _posts/2021-02-14-zwift-guide-begyndere.md %}). Men det er også værd at prøve BKOOL, hvor du kan cykle på rigtige ruter.
 
 Det er motiverende at bruge enten BKOOL eller Zwift, når du skal træne indendørs. Selvom du egentlig bare bliver til en avatar på skærmen, så bliver du hurtigt suget ind i appen, for at forsøge at følge med de andre ryttere på skærmen.
 
@@ -70,7 +70,7 @@ Lad os dykke ned i begynderguiden til BKOOL.
 
 ## Hvad er BKOOL og hvordan kommer jeg i gang?
 
-BKOOL er et spil du kan bruge sammen med din _hometrainer_ til cykling. BKOOL er en platform for cykelryttere. BKOOL giver dig mulighed for at linke din _hometrainer_ op til din computer, iPad, iPhone, Apple TV, Android device, så du kan køre med andre cykelryttere i et virtuelt miljø. Du kan både træne i BKOOL og køre løb mod andre i den virtuelle BKOOL-verden.
+BKOOL er [virtuel cykling](/hometrainer-apps/), som kobles sammen med din _hometrainer_ til cykling. BKOOL er en platform for cykelryttere. BKOOL giver dig mulighed for at linke din _hometrainer_ op til din computer, iPad, iPhone, Apple TV, Android device, så du kan køre med andre cykelryttere i et virtuelt miljø. Du kan både træne i BKOOL og køre løb mod andre i den virtuelle BKOOL-verden.
 
 Ud over at konkurrere mod andre cykelryttere i BKOOL-cykelløb kan du også lægge hele din træning ind i BKOOL. Selvom træningsplanlægning altid bør være individuel, er det nu meget motiverende at vide at træningsprogrammerne i BKOOL er designet af professionelle trænere, men du kan også sagtens lægge din egen træning ind i programmet. Du kan fx lave træning baseret på absolutte watt-tal eller som procent af din [functional threshold power (FTP)]({% link _posts/2021-08-29-ftp-power.md %}).
 
@@ -150,7 +150,7 @@ Du kan [søge efter ruter](https://my.bkool.com/search/searchTracksGps), som du 
 
 Du kan også søge efter cykelruter direkte fra simulatoren.
 
-Første gang jeg prøvede BKOOL blev jeg lidt forvirret. I Zwift er der arrangeret virtuelle cykelløb på forskellige tidspunkter. I BKOOL startes ruterne op af **EN** person. Derefter kan andre _joine_ ruten i simulatoren. 
+Første gang jeg prøvede BKOOL blev jeg lidt forvirret. I Zwift er der arrangeret virtuelle cykelløb på forskellige tidspunkter. I BKOOL startes ruterne op af **EN** person. Derefter kan andre _joine_ ruten i simulatoren.
 
 ## Beskyt cyklen mod sveden
 

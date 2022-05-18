@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Pyramide"
+seo_title: "Pyramide | Konditionstræning | Løbetræning"
 permalink: /metode/pyramide/
 breadcrumbs: true
 category:
