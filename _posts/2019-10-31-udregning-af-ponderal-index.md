@@ -4,7 +4,7 @@ permalink: /ponderal-index/
 excerpt: "Ponderal Index eller Corpulence Index er en metode til at bestemme om man er overvægtig. Det er et alternativ til BMI. Se vores gratis beregner, formler og tabeller for børn og voksne."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1618939291225-8d558ea4369f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1618939291225-8d558ea4369f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1618939291225-8d558ea4369f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
   overlay_filter: 0.5
   caption: *title
