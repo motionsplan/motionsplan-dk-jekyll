@@ -1,5 +1,6 @@
 ---
 title: "Mave, Reverse crunch"
+seo_title: Reverse crunch | Hvordan laver du den?
 excerpt: "Lig på ryggen og hold fast med armene. Før derefter knæene op mod skuldrene."
 instructions: "Lig på ryggen og hold fast med armene. Før derefter knæene op mod skuldrene."
 permalink: /oevelse/reverse-crunch/
@@ -42,5 +43,8 @@ last_modified_at: 2016-10-18T07:22:36Z
 
 {{ page.title }} kan trænes med {% for f in page.equipment %}{% if forloop.last == true and page.equipment > 1 %} og {% endif %}{{ f | downcase  }}{% if forloop.last == false and page.equipment > 1 %}, {% endif %}{% endfor %}. Øvelsen er en del af kategorien {{ page.categories | join: ", " | downcase }}. {% if page.muscle_group.size > 0 %}{{ page.title }} træner {% for f in page.muscle_group %}{% if forloop.last == true and page.muscle_group.size > 1 %} og {% endif %}{{ f | downcase }}{% if forloop.last == false and page.muscle_group.size > 2 %}, {% endif %}{% endfor %}.{% endif %}
 
-
 Lig dig på ryggen og hold fast i noget med armene. Bøj knæene og løft fødderne op fra gulvet. Nu fører du knæene op mod skuldrene ved at starte bevægelsen i maven. Du skal altså ikke kippe med benene.
+
+## Flere maveøvelser?
+
+Reverse Crunch et et godt alternativ til [mavebøjninger](/oevelse/maveboejning/). Vi har beskrevet flere [mavetræningsøvelser](/maveoevelser/), hvis du vil have endnu flere øvelser at vælge imellem.

@@ -7,7 +7,7 @@ toc: true
 permalink: /texas-method/
 title: "Texas Method: Styrketræningsprogram til letøvede"
 header:
-  overlay_image: hhttps://images.unsplash.com/photo-1550977616-efc580084ac5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  overlay_image: hhttps://images.unsplash.com/photo-1550977616-efc580084ac5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1550977616-efc580084ac5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: "*title"
 category:

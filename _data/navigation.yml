@@ -75,6 +75,8 @@ blog:
         url: /bmr-beregner-hvilestofskifte-basalstofskifte/
       - title: "Ligevægtsindtag beregner"
         url: /ligevaegtsindtag-beregner/
+      - title: "BMI beregner"
+        url: /bmi-beregner/
 anatomi:
   - title: "Anatomi"
     url: "/anatomi/"

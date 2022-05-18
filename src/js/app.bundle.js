@@ -71,6 +71,12 @@ require('image-map-resizer');
 
 $(function() {
     $('map').imageMapResize();
+    
+    $('.rating input[name="rating"]').one('click', function () {
+      console.log("Clicked star");
+      let votes = Number($('#votes').text() * 1);
+      $('#votes').text(votes + 1);
+    });
 
     $("#target_bmi_man").change(function() {
         console.log('Ready to calculate');
@@ -181,7 +187,6 @@ $(function() {
         $(this).find('td').eq(5).html(weight.toFixed(2));
       });
     });
-
     $("#step_man").change(function() {
         console.log('Ready to calculate');
         $("table#steps > tbody > tr").each(function(i, obj) {
@@ -487,6 +492,17 @@ $(function() {
 
       $("[name='e1rm']").val(hr.getE1RM().toFixed(1));
       $("[name='want_weight']").val(hr.getWantWeight(want_reps, want_rpe).toFixed(1));
+    });
+    $("#calculator_fat_bai").submit(function(e) {
+      console.log("Calculate BAI");
+      e.preventDefault();
+
+      let HC = Number($("[name='hc']").val());
+      let HM = Number($("[name='hm']").val() / 100);
+
+      let bai = (HC / Math.pow(HM,1.5)) - 18;
+      
+      $("[name='bai']").val(bai.toFixed(1));
     });
     $("#calculator_maffetone").submit(function(e) {
         console.log("Calculate Maffetone");

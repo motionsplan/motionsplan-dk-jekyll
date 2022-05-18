@@ -53,6 +53,8 @@ For at fastholde motivationen skal man naturligvis have opbakning i sin omgangsk
 
 Hvad siger du til denne indgangsvinkel til træningen? Kan du forklare, hvorfor træning tidligere på dagen påvirker fedtforbrændingen om natten positivt? Kender du andre gode artikler på nettet, der har et godt videnskabeligt udgangspunkt?
 
+Du er måske også interesseret i at læse mere om at [tabe fedt på maven](/tab-fedt-paa-maven/).
+
 ## Referencer
 
 - [Jacob Søndergaards side om 6-pack på 6 uger](https://web.archive.org/web/20120201111214/http://www.jacobsondergaard.dk/sixpack-pa-6-uger/){:rel="nofollow"}

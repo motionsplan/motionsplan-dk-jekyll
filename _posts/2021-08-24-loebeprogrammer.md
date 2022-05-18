@@ -4,7 +4,7 @@ permalink: /loebeprogrammer/
 excerpt: "Løbeprogrammer til alle niveauer. Her kan du finde et løbeprogram, der passer til dig. Der er løbetræningsprogrammer til at blive hurtigere på 5km, 10 km, halvmaraton og maraton."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1594911772125-07fc7a2d8d9f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1594911772125-07fc7a2d8d9f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1594911772125-07fc7a2d8d9f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:

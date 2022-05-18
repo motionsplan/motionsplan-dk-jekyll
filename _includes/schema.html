@@ -1,3 +1,7 @@
+{% if page.header.overlay_image OR page.header.image %}
+<link rel="preload" href="{{ page.header.overlay_image | default: page.header.image }}" as="image">
+{% endif %}
+
 {% if page.url == '/' %}
 <script type="application/ld+json">
     {
@@ -50,8 +54,8 @@
         "url": {{ site.url | absolute-url | jsonify }},
         "description": {{ page.description | default: page.excerpt | strip_newlines | strip | jsonify }},
         "isPartOf": { "@type": "WebSite", "@id": "{{ site.url }}/#website" },
-        "datePublished": {{ page.date | default: page.last_modified_at | jsonify }},
-        "dateModified": {{ page.last_modified_at | default: page.date | jsonify }},
+        "datePublished": {{ page.date | default: page.last_modified_at | date_to_xmlschema | jsonify }},
+        "dateModified": {{ page.last_modified_at | default: page.date | date_to_xmlschema | jsonify }},
         {% if page.about %}
         "about": {
             "@type": "Thing",
@@ -59,7 +63,7 @@
             "url": {{ page.about.url | absolute_url | jsonify }}
         },
         {% endif %}
-        "inLanguage": {{ page.locale | default: site.locale | jsonify}},
+        "inLanguage": {{ page.locale | default: site.locale | jsonify }},
         "potentialAction": [
           { "@type": "ReadAction", "target": [{{ page.url | absolute_url | jsonify }}] }
         ]
@@ -87,8 +91,8 @@
             "@type": "WebPage",
             "@id": {{ page.url | absolute_url | jsonify }}
         },
-        "datePublished": {{ page.date | jsonify }},
-        "dateModified": {{ page.last_modified_at | default: page.date | jsonify }},
+        "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+        "dateModified": {{ page.last_modified_at | default: page.date | date_to_xmlschema | jsonify }},
         "isAccessibleForFree": "True",
         "author": {
             "@type": "Person",

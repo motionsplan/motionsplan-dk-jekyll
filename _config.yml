@@ -149,7 +149,10 @@ footer:
       icon: "fas fa-fw fa-mug-hot"
       webslides: "fa-coffee"
       url: "https://www.buymeacoffee.com/lsolesen"
-
+    - label: "Privatlivspolitik"
+      icon: "fas fa-fw fa-exclamation-triangle"
+      webslides: "fa-exclamation-triangle"
+      url: "/privatlivspolitik/"
 
 # Site Author
 author:
@@ -224,6 +227,7 @@ exclude:
   - /node_modules
   - .git
   - .svn
+  - /build
 keep_files:
   - /assets/images
   - /assets/pdf
@@ -358,6 +362,10 @@ defaults:
       path: "assets/pdf/**/*.pdf"
     values:
       sitemap: false
+  - scope:
+      path: "/admin/"
+    values:
+      sitemap: false
   # _posts
   - scope:
       path: ""
@@ -374,7 +382,6 @@ defaults:
       toc_sticky: false
       author: lsolesen
       sidebar:
-        title: "Populære sider"
         nav: blog
   # _exercises
   - scope:
@@ -384,12 +391,12 @@ defaults:
       breadcrumbs: true
       layout: activity
       header:
-        teaser: /assets/images/default-exercises-teaser.png
+        teaser: /assets/images/default-exercises-teaser.jpg
       author_profile: false
       read_time: false
       comments: true
       share: true
-      related: true
+      related: false
       author: lsolesen
       sidebar:
         nav: exercises
@@ -406,7 +413,7 @@ defaults:
       read_time: true
       comments: true
       share: true
-      related: true
+      related: false
       author: lsolesen
       sidebar:
         nav: methods
@@ -421,7 +428,7 @@ defaults:
       read_time: false
       comments: true
       share: true
-      related: true
+      related: false
       author: lsolesen
       tag_archive_path: /programs/tags/
       category_archive_path: /programs/categories/
@@ -436,7 +443,7 @@ defaults:
       read_time: false
       comments: true
       share: true
-      related: true
+      related: false
       toc: false
       toc_sticky: false
       author: lsolesen
@@ -454,7 +461,7 @@ defaults:
       author_profile: true
       comments: true
       share: true
-      related: true
+      related: false
       search: true
   # _redirects
   - scope:

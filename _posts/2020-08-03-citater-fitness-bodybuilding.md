@@ -1,12 +1,12 @@
 ---
 title: &title "12 citater om fitness og bodybuilding"
-seo_title: "12 citater om fitness og bodybuilding [2022]"
+seo_title: "12 citater om fitness og bodybuilding (2022)"
 permalink: /citater-fitness-bodybuilding/
 last_modified_at: 2020-12-29T09:41:09Z
 excerpt: "Jeg falder ofte over citater om fitness og bodybuidling, og mange af dem er inspirerende og motiverende. Jeg har samlet 12 citater her. Jeg synes et citat kan give motivation til min træning i fitness, og nogle af dem der træner allermest er jo bodybuildere."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
   overlay_filter: 0.8
@@ -54,10 +54,10 @@ feature_row_schwarznegger_poster:
     id: "232432"
     rel: sponsored nofollow noopener
 gallery:
-  - image_path: /assets/images/pinterest/citat-dwayne-johnson.png
-    url: /assets/images/pinterest/citat-dwayne-johnson.png
-  - image_path: /assets/images/pinterest/wendler-accessories.png
-    url: /assets/images/pinterest/wendler-accessories.png
+  - image_path: /assets/images/pinterest/citat-dwayne-johnson.jpg
+    url: /assets/images/pinterest/citat-dwayne-johnson.jpg
+  - image_path: /assets/images/pinterest/wendler-accessories.jpg
+    url: /assets/images/pinterest/wendler-accessories.jpg
   - image_path: /assets/images/pinterest/wendler-get-it-done.png
     url: /assets/images/pinterest/wendler-get-it-done.png
 citatplakat:
@@ -101,7 +101,7 @@ Et par citater fra [træningscitater om løb, styrketræning og motivation]({% l
 
 Når man snakker om træningsplanlægning, så synes jeg Jim Wendler fanger det meget godt med dette citat.
 
-{% include pinterest image_path="/assets/images/pinterest/wendler-accessories.png" data-pin-media="/assets/images/pinterest/wendler-accessories.png" %}
+{% include pinterest image_path="/assets/images/pinterest/wendler-accessories.jpg" data-pin-media="/assets/images/pinterest/wendler-accessories.jpg" %}
 
 ## Citater om fitness på Pinterest
 

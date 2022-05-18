@@ -5,7 +5,7 @@ excerpt: "Skeletmuskler bevæger kroppen. Jeg har lavet en oversigt over muskler
 permalink: /muskler/
 last_modified_at: 2021-12-28T20:14:14Z
 header:
-  overlay_image: https://images.unsplash.com/photo-1539814858141-928517f6afd3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=60
+  overlay_image: https://images.unsplash.com/photo-1539814858141-928517f6afd3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=60
   teaser: https://images.unsplash.com/photo-1539814858141-928517f6afd3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60
   caption: *title
 categories:
@@ -26,10 +26,17 @@ faq:
   - question: Hvad er skeletmuskler?
     answer: "Skeletmuskler er de muskler, der skaber bevægelse af kroppen. Skeletmusklerne kaldes også for ”den tværstribede skeletmuskulatur”."
   - question: Hvor mange muskler har man i kroppen?
-    answer: "Der er omkring 700 navngivne skeletmuskler i kroppen, men det kommer an på, hvordan man tæller. Massageterapeuter og fysioterapeuter er kun interesserede i 2-300 muskler. Læs mere på i vores indlæg om [Hvor mange muskler man har i kroppen](/hvor-mange-muskler-i-kroppen/)."
+    answer: "Der er omkring 700 navngivne skeletmuskler i kroppen, men det kommer an på, hvordan man tæller. Massageterapeuter og fysioterapeuter er kun interesserede i 2-300 muskler. Læs mere på i vores indlæg om [Hvor mange muskler har vi i kroppen](/hvor-mange-muskler-i-kroppen/)."
+  - question: Hvad er kroppens største muskel?
+    answer: "Kroppens største muskel er den store sædemuskel - gluteus maximus. Ballemusklerne er kroppens største og stærkeste muskel, som også er vigtig for at du kan holde dig oprejst og bevæge dig rundt."
 ---
 
 De muskler, der skaber bevægelse af kroppen, kaldes for ”den tværstribede skeletmuskulatur”. Denne side handler om skeletmusklerne. Først kan du læse en kort introduktion til, hvad muskler og skeletmuskler er og deres anatomi. Derefter kigger jeg på de forskellige muskelgrupper.
+
+{% comment %}
+De største muskler
+https://www.bodylab.dk/shop/det-vidste-du-2865c1.html
+{% endcomment %}
 
 Musklerne er hæftet til knoglerne via sener. Når musklerne gennem nervesystemet får et signal, vil de trække sig sammen og ved hjælp af leddenes bevægelighed skabe bevægelse af skelettets knogler. Sammentrækningen foregår gennem [sliding filament teorien]({% link _posts/2020-06-06-muskelsammentraekning.md %}).
 

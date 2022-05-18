@@ -1,11 +1,11 @@
 ---
 title: &title "Balancetræning 🤸: Effektiv træning af din balance"
-seo_title: "Balancetræning: Alt om balance og balanceøvelser [2022]"
+seo_title: "Balancetræning: Alt om balance og balanceøvelser (2022)"
 description: "Balancetræning bør være en del af din træning. Vi har kigget på, hvad balance er, og hvordan du træner din balance mest effektivt med balanceøvelser?"
 permalink: /balance/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/uploads/1412533519888a485b488/bb9f9777?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/uploads/1412533519888a485b488/bb9f9777?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/uploads/1412533519888a485b488/bb9f9777?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 tags:

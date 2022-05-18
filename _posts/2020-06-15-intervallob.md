@@ -5,7 +5,7 @@ permalink: /intervallob-intervaltraening/
 excerpt: "Jeg nyder selv at bruge intervaltræning og intervalløb, når jeg forsøger at forbedre min kondition og hastighed. Intervaller er en fast del af mit løbeprogram. Jeg har researchet lidt på, hvad intervalttræning er, hvordan det virker på kroppen, og så har jeg lavet en oversigt over effektive intervalprogrammer."
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1483721310020-03333e577078?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1483721310020-03333e577078?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1483721310020-03333e577078?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   overlay_filter: 0.4
   caption: "Intervalløb: 10 effektive metoder til intervaltræning til løb"
@@ -142,7 +142,7 @@ Eksempler på sprintintervaller kan fx være:
 
 ### 2. Intervalløb til mælkesyreproduktion
 
-Hvis du gerne vil træne mælkesyreproduktionen og evnen til at løbe virkelig hurtigt i intervaller, så kan du bruge intervaller fra 200-600 meter. Pauselængden er mindst 1:3, men kan sagtens være endnu længere. Typisk er den totale dsitance 2-3 km.
+Hvis du gerne vil træne [mælkesyreproduktionen](/maelkesyre-traening/) og evnen til at løbe virkelig hurtigt i intervaller, så kan du bruge intervaller fra 200-600 meter. Pauselængden er mindst 1:3, men kan sagtens være endnu længere. Typisk er den totale dsitance 2-3 km.
 
 Formålet med de maksimale intervaller, som skaber rigtig meget træthed og mælkesyre, er at træne hastighed, mens du bliver træt. Samtidig forbedrer det evnen til at arbejde med mange træthedsstoffer og mælkesyre.
 

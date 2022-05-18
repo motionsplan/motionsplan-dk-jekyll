@@ -7,6 +7,26 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+span.strong {
+  font-weight: bold;
+}
+
+.archive__item-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.author__name, .nav__title {
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 1.125;
+}
+
+.page__share-title, .page__related-title, .page__meta-title {
+  font-size: 1.0625em;
+  font-weight: 700;
+}
+
 a[rel~=sponsored]:after {
   content: "*";
 }
@@ -447,4 +467,52 @@ img.youtube-thumb {
   position: absolute;
   top: 0;
   left: 0;
+}
+/* STAR RATING */
+
+aside#star-rating {
+  margin-top: 1em;
+  text-align: center;
+
+  legend {
+    font-weight: bolder;
+    font-size: 1.2em;
+  }
+
+  .rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+  
+  .rating>input {
+    display: none;
+  }
+  
+  .rating>label {
+    position: relative;
+    width: 1.1em;
+    font-size: 2em;
+    color: #FFD700;
+    cursor: pointer;
+  }
+  
+  .rating>label::before {
+    content: "\2605";
+    position: absolute;
+    opacity: 0;
+  }
+  
+  .rating>label:hover:before,
+  .rating>label:hover~label:before {
+    opacity: 1 !important;
+  }
+  
+  .rating>input:checked~label:before {
+    opacity: 1;
+  }
+  
+  .rating:hover>input:checked~label:before {
+    opacity: 0.4;
+  }  
 }

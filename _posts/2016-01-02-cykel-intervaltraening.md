@@ -5,7 +5,7 @@ excerpt: "Men hvordan kan du bruge intervaltræning til cykling? Vi kigger på d
 permalink: /intervaltraening-cykling/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1607109329787-d5133183ee57?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1607109329787-d5133183ee57?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1607109329787-d5133183ee57?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:

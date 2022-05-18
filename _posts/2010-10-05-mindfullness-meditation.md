@@ -1,6 +1,6 @@
 ---
 title: "Mindfulness meditation: Øvelser og video på dansk 🧘"
-seo_title: "Mindfulness meditation: Øvelser og video på dansk [2022]"
+seo_title: "Mindfulness meditation: Øvelser og video på dansk (2022)"
 permalink: /mindfulness-meditation/
 redirect_from:
   - /artikel/mindfullness-meditation/

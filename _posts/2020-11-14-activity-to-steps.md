@@ -5,7 +5,7 @@ description: "GRATIS ultimative tæl skridt omregner! Leder du efter en motionso
 permalink: /omregn-motion-aktivitet-sport-til-skridt/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1453342664588-b702c83fc822?ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1453342664588-b702c83fc822?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1453342664588-b702c83fc822?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:

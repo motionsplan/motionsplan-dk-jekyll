@@ -4,7 +4,7 @@ permalink: /kosttilskud/
 last_modified_at: 2022-01-24T09:41:09Z
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1579722822280-a3d601518cc9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1579722822280-a3d601518cc9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1579722822280-a3d601518cc9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
@@ -137,11 +137,11 @@ Måske kan 5 mg pr. kg kropsvægt være en dosis, men du skal ikke starte der, m
 
 ## D-vitamin
 
-Kroppen danner selv D-vitamin, når du får sol. Derfor er det godt at eksponere noget bar hud for solen og komme uden for i det hele taget, men du får også D-vitamin fra fed fisk.
+Kroppen danner selv [D-vitamin](/kosttilskud-d-vitamin/), når du får sol. Derfor er det godt at eksponere noget bar hud for solen og komme uden for i det hele taget, men du får også D-vitamin fra fed fisk.
 
 Umiddelbart er der ikke nogen præstationsfremmende effekt af ekstra D-vitamin. Hvis du mangler D-vitamin, kan du imidlertid opleve en nedgang i din præstationsevne. Men [Casper Jespersen](https://casperjespersen.dk/skal-jeg-tage-d-vitamin-tilskud/) stiller fx spørgsmålet skal jeg tage et D-vitamin-tilskud, og han konkluderer, at man naturligvis skal teste om man har brug for ekstra D-vitamin, eller man får nok fra kosten.
 
-Thuesen et al (2012) skønner at [50% af danskerne lider af let D-vitamin-mangel, mens 15% har moderat D-vitamin mangel](https://pubmed.ncbi.nlm.nih.gov/22227435/). Det ser altså ikke ud til, at vi er nok i solen eller spiser nok fed fisk.
+[Thuesen et al (2012)](https://pubmed.ncbi.nlm.nih.gov/22227435/) skønner at 50% af danskerne lider af let D-vitamin-mangel, mens 15% har moderat D-vitamin mangel. Det ser altså ikke ud til, at vi er nok i solen eller spiser nok fed fisk.
 
 > Mængden af sol i Skandinavien er dog for lille til at give en tilstrækkelig D-vitamin-koncentration i størstedelen af året.
 

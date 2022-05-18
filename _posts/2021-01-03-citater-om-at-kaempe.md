@@ -5,7 +5,7 @@ excerpt: "Jeg har set mange gode citater om at kæmpe, og jeg har samlet en ræk
 last_modified_at: 2020-12-29T09:41:09Z
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
   overlay_filter: 0.8
@@ -52,10 +52,10 @@ feature_quotes:
   - quote: "Der er en revne i alting. Det er sådan, lyset kommer ind."
     cite: Leonard Cohen
 gallery:
-  - image_path: /assets/images/pinterest/citat-arnold-schwarznegger.png
-    url: /assets/images/pinterest/citat-arnold-schwarznegger.png
-  - image_path: /assets/images/pinterest/citat-winston-churchill.png
-    url: /assets/images/pinterest/citat-winston-churchill.png
+  - image_path: /assets/images/pinterest/citat-arnold-schwarznegger.jpg
+    url: /assets/images/pinterest/citat-arnold-schwarznegger.jpg
+  - image_path: /assets/images/pinterest/citat-winston-churchill.jpg
+    url: /assets/images/pinterest/citat-winston-churchill.jpg
 ---
 
 Jeg har set mange gode citater om at kæmpe, og jeg har samlet {{ page.feature_quotes.size }} citater, der kan inspirere dig på din vej. Sommetider kan et citat lige netop være det, der får dig på rette kurs.

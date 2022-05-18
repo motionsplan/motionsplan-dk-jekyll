@@ -4,7 +4,7 @@ permalink: /pap-post-activation-potentiation-1rm-maxtest/
 language: da
 author: lsolesen
 header:
-  overlay_image: https://images.unsplash.com/photo-1532382752999-45b3dc5d4bf2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1532382752999-45b3dc5d4bf2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1532382752999-45b3dc5d4bf2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:

@@ -7,7 +7,7 @@ title: &title "Test din kondition"
 seo_title: "Konditionstests: Test din kondition i gang, løb, cykling og roning"
 author_profile: true
 header:
-  overlay_image: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1475274110913-480c45d0e873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   caption: *title
   alt: Photo by Clem Onojeghuo on Unsplash
   actions:

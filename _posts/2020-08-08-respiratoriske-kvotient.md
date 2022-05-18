@@ -5,7 +5,7 @@ permalink: /respiratoriske-metaboliske-udvekslingskvotient/
 last_modified_at: 2021-01-17T09:41:09Z
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1555708982-8645ec9ce3cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1555708982-8645ec9ce3cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1555708982-8645ec9ce3cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
@@ -77,7 +77,7 @@ RER-værdien er altså forholdet mellem det udskilte CO<sub>2</sub> og den optag
 
 Når du nærmer dig din maksimale ydeevne, så vil en del af energien blive produceret anaerobt.
 
-Når det anaerobe arbejde stiger falder pH-værdien i cellerne og i blodet, bl.a. fordi der sker en ophobning af mælkesyre. For at neutralisere den faldende pH-værdi i blodet forsøger kroppen at udskille ekstra CO<sub>2</sub> ved at hyperventilere. Veltrænede personer kan arbejde med en RER-værdi på over 1 i adskillige minutter.
+Når det anaerobe arbejde stiger falder pH-værdien i cellerne og i blodet, bl.a. fordi der sker en [ophobning af mælkesyre](/maelkesyre-traening/). For at neutralisere den faldende pH-værdi i blodet forsøger kroppen at udskille ekstra CO<sub>2</sub> ved at hyperventilere. Veltrænede personer kan arbejde med en RER-værdi på over 1 i adskillige minutter.
 
 Det er også derfor at _cutoff_ i en maxtest på løbebåndet typisk kræver RER-værdier på mere end 1,1.
 

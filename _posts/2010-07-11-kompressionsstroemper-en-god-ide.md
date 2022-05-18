@@ -108,7 +108,7 @@ Du kan på [Sundhed.dk](https://www.sundhed.dk/borger/patienthaandbogen/hud/sygd
 
 ### Hvordan virker løbestrømper med kompression for raske mennesker til løb?
 
-Jeg har ikke kunnet finde så mange studier af raske mennesker og kompressionsstrømper. Berry og McMurray (1987) viste med løb, at kompressionsstrømper ikke forbedrer den maskimale iltoptagelse (VO2-max), men resultererede i at mælkesyren i blodet efter træningen var lavere, end kontrolgruppen uden strømper.
+Jeg har ikke kunnet finde så mange studier af raske mennesker og kompressionsstrømper. Berry og McMurray (1987) viste med løb, at kompressionsstrømper ikke forbedrer den maskimale iltoptagelse (VO2-max), men resultererede i at [mælkesyren](/maelkesyre-traening/) i blodet efter træningen var lavere, end kontrolgruppen uden strømper.
 
 Ali et al (2007) demonstrerede at efter 10 km løb hos let trænede (recreationally active) at det havde reduceret andendagsømhed (DOMS) 24 timer efter at de havde haft kompressionsstrømper på, men der var ingen forskel i det venøse returløb. Dette indikerer en hurtigere restitution. De viste heller ingen forskel under intervalløb.
 

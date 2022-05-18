@@ -3,22 +3,22 @@ title: "Safety Bar Squat: Hvilken safety squat bar kan anbefales?"
 permalink: /safety-bar-squats/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1534368575702-7c65b7474f91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1534368575702-7c65b7474f91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1534368575702-7c65b7474f91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: "Ikke alle safety bars er skabt ens. Vælg den rigtige safety bar til din squat!"
 category:
   - Styrketræning
+  - Squat
 tags:
-  - safety bar squat
+  - squat
   - træningsøvelse
 last_modified_at: 2020-07-05T21:49:14Z
 toc: true
 gallery:
   - image_path: https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
-    url: https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+    url: https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
     alt: "Håndtag til at lave armbøjninger, armstrækninger og pushups"
     title: "Håndtag til at lave armbøjninger, armstrækninger og pushups"
-breadcrumbs: true
 ---
 
 Jeg er blevet interesseret i safety bar squats, fordi har lidt vrøvl med skulderen. Mange mener at alle træningscentre bør have en god safety squat stang, men hvad en god safety bar, og hvilke fordele har en safety squat bar?
@@ -33,11 +33,13 @@ Typisk vil du derfor med en safety bar squatte lidt mere oprejst lidt ligesom du
 
 Når du laver front squat vil du efterhånden blive trukket lidt fremefter, særligt hvis du bliver træt i det øverste af ryggen og får problemer med at holde albuerne oppe.
 
+{% include video provider="youtube" id="cj3uz9i5EsE" %}
+
 Det samme sker ikke med safety squat stang, så det er lettere at lave mange gentagelser med en safety bar. Hvis altså stangen er konstrueret rigtigt.
 
 ## Hvordan skal en safety bar se ud?
 
-{% include figure image_path="https://p6r9a9v8.stackpathcdn.com/wp-content/uploads/2017/11/IMG_0396-Edited_opt.jpg" caption="Yoke Safety Bar fra EliteFts. Kilde: [garagegymlab.com](https://garagegymlab.com/5-safety-squat-bar-benefits/)." alt="Yoke Safety Bar til Squat fra EliteFts" %}
+{% include figure image_path="https://garagegymlab.com/wp-content/uploads/2017/11/Safety-Squat-Bar-Profile.jpg" caption="Yoke Safety Bar fra EliteFts. Kilde: [garagegymlab.com](https://garagegymlab.com/5-safety-squat-bar-benefits/)." alt="Yoke Safety Bar til Squat fra EliteFts" %}
 
 Simon fra [supertraining.dk](http://supertraining.dk/) anbefaler safety bars, men han er ikke så vild med [Charles Poliquins version](http://supertraining.dk/180-charles-poliquin-master-of-bullshit/) af safety bar squats.
 
@@ -111,9 +113,9 @@ Det vigtigste for en velfungerende safety bar er vinklingen mellem håndtagene o
 
 Når du søger på safety bar kommer der mange versioner frem i mange forskellige prislejer.
 
-De følgende safety bars er **ikke konstrueret korrekt og kan således ikke anbefales**:
+De følgende safety bars er ifølge Bigshooter **ikke konstrueret korrekt og kan således ikke anbefales**:
 
-- **Watson Safety Bar** har for stor en vinkel mellem håndtaget og skiverne, som Bigshooter skriver.
+- **Watson Safety Bar** har for stor en vinkel mellem håndtaget og skiverne.
 - **Asbjørn Riis’ Safetybar** har ingen vinkling.
 
 Men **hvilke safety bars kan så anbefales**?

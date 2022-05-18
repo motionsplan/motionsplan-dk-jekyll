@@ -3,7 +3,7 @@ title: &title "Åndedrætstræning: 3 øvelser til vejrtrækning og åndedrætte
 permalink: /aandedraetstraening-forbedrer-udholdenheden/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1483004406427-6acb078d1f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1483004406427-6acb078d1f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1483004406427-6acb078d1f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
   alt: "Photo by Sime Basioli on Unsplash"
@@ -82,7 +82,7 @@ Det **parasympatiske nervesystem** er ansvarlige for alle disse gavnlige effekte
 
 - Udskillelsen af stresshormonerne, adrenalin og kortisol, sættes i bero
 - Øget aktivitet af de beroligende alfabølger i hjernen
-- Pulsen og blodtrykket falder
+- Pulsen og [blodtrykket](/blodtryk/) falder
 - Åndedrætsfrekvensen falder
 - Øget blodgennemstrømningen i mave-tarm-kanalen, hvilket fremmer fordøjelsen.
 - Blodtilførslen til organerne øges

@@ -3,7 +3,7 @@ title: &title "Aerob træning: 5 forslag til at træne det aerobe system 💗"
 permalink: /aerob-traening/
 language: da
 header:
-  overlay_image: https://images.unsplash.com/photo-1598379682609-c617fa376f76?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/photo-1598379682609-c617fa376f76?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/photo-1598379682609-c617fa376f76?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
@@ -83,13 +83,13 @@ Når du har etableret en _baseline_ for dit aerobe system, så kan du fokusere p
 
 ## Hvad er Aerob Power?
 
-En af de vigtige parametre i aerob træning er at forbedre den **aerobe power**.
+En af de vigtige parametre, når du træner aerobt er at forbedre den **aerobe power**.
 
 Men hvad er den aerobe power? Den aerobe power er den maksimale kraft, der kan produceres med aerob energiomsætning - altså med til tilgængelig. Normalt vil man måle denne som kraften eller hastigheden ved VO<sub>2</sub>max, men den vil også korrelere med laktattærsklen (AT). Dette er en måling af kraft man kan opretholde i en længere periode, og den er også væsentlig i gentagne aktiviteter af kortere varighed.
 
 ## Eksempler på aerob træning
 
-Eksempler på træningsmetoder til det aerobe system kunne være:
+Eksempler på træningsmetoder til det aerobe system kunne være. Her arbejder man med den aerobe energiomsætning på forskellige måder.
 
 ### Cardiac Output
 
@@ -106,6 +106,12 @@ Målet er at øge densiteten af kapilærerne ved musklerne og forbedre de _oxida
 Arbejdet er 8-12 sekunder med 70% af den maksimale intensitet med omkring 60 sekunders arbejde. Der kan laves 8-22 reps med moderat intensitet.
 
 {% include video provider="facebook" id="8weeksout/videos/10155692941440787" %}
+
+### HIIT-træning
+
+Du træner også aerobt, når du laver *High-Intensity Interval Training (HIIT)*. Der findes mange forskellige forslag til, hvordan du kan lave [HIIT](/hiit/)-intervaller, som virkelig kan skubbe til det aerobe energisystems grænser og den maksimale iltoptagelse.
+
+HIIT-træning er [intervaltræning](/intervaltraening/), og du kommer nok til at føre både det aerobe og det anaerobe system?
 
 ## Andre eksempler på aerob træning
 

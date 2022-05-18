@@ -17,7 +17,7 @@ category:
 last_modified_at: 2020-04-13T22:03:29Z
 feature_row:
   - image_path: https://imgcdn.saxo.com/_9781450472913/0x500
-    alt: "Low Back Disorders - Evidence-Based Prevention and Rehabilitation af Stuart Mcgill"
+    alt: "Forside til Low Back Disorders - Evidence-Based Prevention and Rehabilitation af Stuart Mcgill"
     title: "Low Back Disorders - Evidence-Based Prevention and Rehabilitation af Stuart Mcgill"
     excerpt: "Low Back Disorders - Evidence-Based Prevention and Rehabilitation af Stuart Mcgill"
     url: "https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=43264&htmlurl=https://www.saxo.com/dk/low-back-disorders_stuart-mcgill_hardback_9781450472913"

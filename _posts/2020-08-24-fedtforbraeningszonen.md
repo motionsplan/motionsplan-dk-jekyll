@@ -1,13 +1,13 @@
 ---
 title: &title "Fedtforbrændingszonen: Alt du behøver at vide 🔥"
-seo_title: "Fedtforbrændingszonen: Alt du behøver at vide [2022]"
+seo_title: "Fedtforbrændingszonen: Alt du behøver at vide (2022)"
 permalink: /fedtforbraendingszonen/
 redirect_from:
   - /fedtforbraeningszonen/
 last_modified_at: 2020-08-24T09:41:09Z
 language: da
 header:
-  overlay_image: https://images.unsplash.com/flagged/photo-1556746834-1cb5b8fabd54?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=5
+  overlay_image: https://images.unsplash.com/flagged/photo-1556746834-1cb5b8fabd54?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=5
   teaser: https://images.unsplash.com/flagged/photo-1556746834-1cb5b8fabd54?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
