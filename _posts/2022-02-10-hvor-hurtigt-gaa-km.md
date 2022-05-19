@@ -6,7 +6,7 @@ header:
   teaser: https://images.unsplash.com/photo-1572015653901-313e493edc82?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
-  - Kondition
+  - Gang
 tags:
   - gang
   - beregner
@@ -53,7 +53,7 @@ Alt afhængig af hvad dit tempo er, så vil tiden for at få gået x-antal skrid
 
 Men du kan tage udgangspunkt i dine egne målinger ved at bruge nedenstående beregner.
 
-Hvis vi omregner fra antal skridt og skridtlængde, så kan vi finde distancen. Sammen med den viden kan vi beregne distancen. Bruger vi hastigheden fra tabellen ovenfor, så kan vi estimere, hvor længe det tager at gå 10.000 skridt. 
+Hvis vi omregner fra antal skridt og skridtlængde, så kan vi finde distancen. Sammen med den viden kan vi beregne distancen. Bruger vi hastigheden fra tabellen ovenfor, så kan vi estimere, hvor længe det tager at gå 10.000 skridt.
 
 Tjek denne beregner:
 
@@ -63,7 +63,7 @@ Tjek denne beregner:
 
 På [Wikipedia](https://da.wikipedia.org/wiki/Verdensrekorder_i_atletik) kan du finde verdensrekorderne i gang. Når du spørger efter, hvor hurtigt man kan gå 10.000 skridt, hvor hvor hurtigt man kan gå 1 kilometer, så er det godt at kende verdensrekorderne.
 
-Du kan jo tage tiderne og sætte ind i vores [hastighedsberegner](/hastighed/). Der kan du se, at 
+Du kan jo tage tiderne og sætte ind i vores [hastighedsberegner](/hastighed/). Der kan du se, at
 **verdensrekorden for mænd er 37 minutter og 53 sekunder for at gå 10.000 meter** på bane sat af Paquillo Fernández fra Spanien.
 
 **Verdensrekorden for kvinder er 10.000 meter med en tid på 41 minutter og 56 sekunder** sat af Nadezhda Ryashkina fra Sovjetunionen.

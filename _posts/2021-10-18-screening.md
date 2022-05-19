@@ -8,7 +8,8 @@ header:
   teaser: https://images.unsplash.com/1/bag-and-hands.jpg?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=5
   caption: *title
 category:
-  - Kondition
+  - Programlægning
+  - Styrketræning
 tags:
   - træningsprogram
 last_modified_at: 2021-10-14T08:14:14Z
@@ -83,7 +84,7 @@ Når du har målet og motivationen, så kan du blive lidt mere konkret. Du kan s
 
 Træningen skal helst være en integreret del af ugen, så den skal lægges på tidspunkter, som er realistisk at der er tid til at træne.
 
-Nogle prioriterer flere timers træning, mens andre har mindre tid til træning. Formålet med at lave et træningsprogram er at få det optimale ud af den afsatte tid. 
+Nogle prioriterer flere timers træning, mens andre har mindre tid til træning. Formålet med at lave et træningsprogram er at få det optimale ud af den afsatte tid.
 
 Dette spørgsmål er ret vigtigt, da det bl.a. er med til at afgøre, om man kan nå at gennemføre træningsprogrammet uge efter uge. Derfor skal du sørge for at svaret er så realistisk som muligt, men husk også at man sagtens kan anbefale færre træninger end vedkommende har tid til.
 

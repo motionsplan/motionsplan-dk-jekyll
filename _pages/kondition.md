@@ -152,7 +152,7 @@ En god form er afgørende for et godt helbred, at hverdagen føles lettere og du
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
-    {% include archive-single.html type="grid" %}
+    {% include archive-single.html type="grid" show_excerpt="false" %}
   {% endfor %}
 {% endif %}
 
