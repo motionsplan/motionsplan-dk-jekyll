@@ -100,7 +100,7 @@ Formålet med led er at give skelettet bevægelsesfriheder. Hovedparten af kropp
 
 Afgørende for bevægelserne i leddene er dog knoglernes form. Derfor deles kroppens ægte led også op i forskellige ledtyper, som er med til at kategorisere de forskellige bevægelsestyper, der kan foregå i det pågældende led. Man kalder denne inddeling de **mekaniske ledtyper**.
 
-{% include gallery id="gallery" caption="Se flere [anatomiplakater med skeletter og muskler hos plakaterne.dk](https://www.plakaterne.dk/anatomi-anatomiplakater-muskler-skeletter/)." %}
+Ledkapslen producerer **ledvæske**. Ledvæsken smører leddet og giver næring til ledbrusken, da der ikke er nogen blodkar i brusken.
 
 ## Oversigt over ledtyper i de ægte led
 
@@ -161,6 +161,7 @@ Hvis du gerne vil forstå meget mere om analyse af bevægelser baseret på [bev�
 **Læs:** [Bevægelsestyper og bevægelsesplaner](/bevaegelsestyper-og-bevaegelsesplaner/)
 
 ## Konklusion
+
 I denne artikel har vi set på, hvad et led er, og hvilke forskellige typer led der findes. Vi har også set på de bevægelser, der kan forekomme i et led, og hvordan disse bevægelser klassificeres. Endelig har vi udforsket de tre bevægelsesplaner, der definerer alle kroppens bevægelser.
 
 ## Ofte stillede spørgsmål
